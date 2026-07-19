@@ -20,7 +20,7 @@
 	in
 	{
 		homeModules = {
-			prismlauncher-nix = import ./homeModules/prismlauncher-nix
+			prismnix = import ./homeModules/prismnix
 				{
 					inputs = inputs;
 					prism-lib = self.lib;
