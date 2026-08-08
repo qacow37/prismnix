@@ -13,29 +13,18 @@
 	};
 	outputs = {self, nixpkgs, prismlauncher, home-manager, flake-utils, ...}@inputs:
 	let
-		lib = nixpkgs.lib // home-manager.lib;
-
-		supportedSystems = builtins.attrNames prismlauncher.packages;
-		forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
+		lib = nixpkgs.lib // home-manager.lib // self.lib;
 	in
 	{
 		homeModules = {
 			prismnix = import ./homeModules/prismnix
 				{
+					lib = lib;
 					inputs = inputs;
-					prism-lib = self.lib;
 				};
 		};
-		resources = forAllSystems (sys: let pkgs = nixpkgs.legacyPackages.${sys}; in
-			import ./resources {
-				pkgs = pkgs;
-				lib = lib;
-				stdenv = pkgs.stdenv;
-				system = sys;
-			}
-		);
-		components = import ./components {inherit lib;};
-		lib        = import ./lib        {inherit lib;};
+		components   = import ./components {inherit lib;};
+		lib.prismnix = import ./lib        {inherit lib;};
 	} // flake-utils.lib.eachDefaultSystem (system:
 		let
 			pkgs = nixpkgs.legacyPackages.${system};
@@ -43,8 +32,11 @@
 		{
 			devShells.default = pkgs.mkShell {
 				packages = with pkgs; [
-					rustc
-					cargo
+					python3
+					python3Packages.requests
+					python3Packages.packaging
+					python3Packages.requests-ratelimiter
+					python3Packages.typer
 				];
 			};
 		}
