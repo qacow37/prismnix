@@ -1,9 +1,9 @@
 args:
 let
-	types = import ./types.nix args;
 	pkgs = import ./pkgs.nix args;
+	types = import ./types args;
 in
 {
-	inherit types;
 	inherit pkgs;
+	inherit types;
 }
