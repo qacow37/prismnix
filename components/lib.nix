@@ -1,5 +1,10 @@
 {...}:
 {
+	game-with = version: {
+		uid = "net.minecraft";
+		version = version;
+		important = true;
+	};
 	fabric-with = version: {
 		uid = "net.fabricmc.fabric-loader";
 		version = version;

@@ -1,1 +1,1 @@
-{game={important=true;uid="net.minecraft";version="rd-161348";};fabric=null;quilt=null;forge=null;neoforge=null;}
+{game={uid="net.minecraft";version="c0.0.13a";important=true;};}
