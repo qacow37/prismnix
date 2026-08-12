@@ -1,0 +1,141 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _8y9LUF1P = {
+            "id" = "8y9LUF1P";
+            "file" = "IPAsServerName-1.0.1.jar";
+            "hash" = "sha512-82yuT++NNmNwHjxNk5hxn52xxJ9k8oSgQyZrwewqN8UgbaxBw027zPFUtQjucBa0ivQCLh2H9Bb35T7Zjd0y4w==";
+        };
+        _rGRTT5db = {
+            "id" = "rGRTT5db";
+            "file" = "IPAsServerName-1.0.2.jar";
+            "hash" = "sha512-FdTdMsT+AuXhdPE8xLUqMJDD77UeerLy1lG2oVz/TgQsOO9TSDFBm5Xxoiru4Uaf3fSnjfLQycAR36Ljwpqc8Q==";
+        };
+        _frRbvpj8 = {
+            "id" = "frRbvpj8";
+            "file" = "IPAsServerName-1.0.3.jar";
+            "hash" = "sha512-FZ8Fu5ZixrnT/zD97f9lZrUUwzB3cQyJ0CqkB6c6dDVwG2Pd/dx2QmBmyFMkuFneUzIVS7plCvaoTdnnCDGfiw==";
+        };
+        _Pzw7UweQ = {
+            "id" = "Pzw7UweQ";
+            "file" = "IPAsServerName-1.1.0.jar";
+            "hash" = "sha512-ynE/WJVj6Qr5p8nbEODlXmpG7pBZ/onlozq0pEkU0VQkEQErvKmaKlT0Z6zDYV2P8xEQZFxYO2uANdU8ZfgDMQ==";
+        };
+    in {
+        "8y9LUF1P" = _8y9LUF1P;
+        "rGRTT5db" = _rGRTT5db;
+        "frRbvpj8" = _frRbvpj8;
+        "Pzw7UweQ" = _Pzw7UweQ;
+        "fabric-1.7.2" = _rGRTT5db;
+        "fabric-1.7.3" = _rGRTT5db;
+        "fabric-1.7.4" = _rGRTT5db;
+        "fabric-1.7.5" = _rGRTT5db;
+        "fabric-1.7.6" = _rGRTT5db;
+        "fabric-1.7.7" = _rGRTT5db;
+        "fabric-1.7.8" = _rGRTT5db;
+        "fabric-1.7.9" = _rGRTT5db;
+        "fabric-1.7.10" = _rGRTT5db;
+        "fabric-1.8" = _rGRTT5db;
+        "fabric-1.8.1" = _rGRTT5db;
+        "fabric-1.8.2" = _rGRTT5db;
+        "fabric-1.8.3" = _rGRTT5db;
+        "fabric-1.8.4" = _rGRTT5db;
+        "fabric-1.8.5" = _rGRTT5db;
+        "fabric-1.8.6" = _rGRTT5db;
+        "fabric-1.8.7" = _rGRTT5db;
+        "fabric-1.8.8" = _rGRTT5db;
+        "fabric-1.8.9" = _frRbvpj8;
+        "fabric-1.9" = _frRbvpj8;
+        "fabric-1.9.1" = _frRbvpj8;
+        "fabric-1.9.2" = _frRbvpj8;
+        "fabric-1.9.3" = _frRbvpj8;
+        "fabric-1.9.4" = _frRbvpj8;
+        "fabric-1.10" = _frRbvpj8;
+        "fabric-1.10.1" = _frRbvpj8;
+        "fabric-1.10.2" = _frRbvpj8;
+        "fabric-1.11" = _frRbvpj8;
+        "fabric-1.11.1" = _frRbvpj8;
+        "fabric-1.11.2" = _frRbvpj8;
+        "fabric-1.12" = _frRbvpj8;
+        "fabric-1.12.1" = _frRbvpj8;
+        "fabric-1.12.2" = _frRbvpj8;
+        "fabric-1.13" = _frRbvpj8;
+        "fabric-1.13.1" = _frRbvpj8;
+        "fabric-1.13.2" = _frRbvpj8;
+        "fabric-1.14" = _frRbvpj8;
+        "fabric-1.14.1" = _frRbvpj8;
+        "fabric-1.14.2" = _frRbvpj8;
+        "fabric-1.14.3" = _frRbvpj8;
+        "fabric-1.14.4" = _frRbvpj8;
+        "fabric-1.15" = _frRbvpj8;
+        "fabric-1.15.1" = _frRbvpj8;
+        "fabric-1.15.2" = _frRbvpj8;
+        "fabric-1.16" = _frRbvpj8;
+        "fabric-1.16.1" = _frRbvpj8;
+        "fabric-1.16.2" = _frRbvpj8;
+        "fabric-1.16.3" = _frRbvpj8;
+        "fabric-1.16.4" = _frRbvpj8;
+        "fabric-1.16.5" = _frRbvpj8;
+        "fabric-1.17" = _frRbvpj8;
+        "fabric-1.17.1" = _frRbvpj8;
+        "fabric-1.18" = _frRbvpj8;
+        "fabric-1.18.1" = _frRbvpj8;
+        "fabric-1.18.2" = _frRbvpj8;
+        "fabric-1.19" = _frRbvpj8;
+        "fabric-1.19.1" = _frRbvpj8;
+        "fabric-1.19.2" = _frRbvpj8;
+        "fabric-1.19.3" = _frRbvpj8;
+        "fabric-1.19.4" = _frRbvpj8;
+        "fabric-1.20" = _frRbvpj8;
+        "fabric-1.20.1" = _frRbvpj8;
+        "fabric-1.20.2" = _frRbvpj8;
+        "fabric-1.20.3" = _frRbvpj8;
+        "fabric-1.20.4" = _frRbvpj8;
+        "fabric-1.0" = _rGRTT5db;
+        "fabric-1.1" = _rGRTT5db;
+        "fabric-1.2.1" = _rGRTT5db;
+        "fabric-1.2.2" = _rGRTT5db;
+        "fabric-1.2.3" = _rGRTT5db;
+        "fabric-1.2.4" = _rGRTT5db;
+        "fabric-1.2.5" = _rGRTT5db;
+        "fabric-1.3.1" = _rGRTT5db;
+        "fabric-1.3.2" = _rGRTT5db;
+        "fabric-1.4.2" = _rGRTT5db;
+        "fabric-1.4.4" = _rGRTT5db;
+        "fabric-1.4.5" = _rGRTT5db;
+        "fabric-1.4.6" = _rGRTT5db;
+        "fabric-1.4.7" = _rGRTT5db;
+        "fabric-1.5.1" = _rGRTT5db;
+        "fabric-1.5.2" = _rGRTT5db;
+        "fabric-1.6.1" = _rGRTT5db;
+        "fabric-1.6.2" = _rGRTT5db;
+        "fabric-1.6.4" = _rGRTT5db;
+        "fabric-1.20.5" = _frRbvpj8;
+        "fabric-1.20.6" = _frRbvpj8;
+        "fabric-1.21" = _frRbvpj8;
+        "fabric-1.21.1" = _frRbvpj8;
+        "fabric-1.21.2" = _frRbvpj8;
+        "fabric-1.21.3" = _frRbvpj8;
+        "fabric-1.21.4" = _frRbvpj8;
+        "fabric-1.21.11" = _Pzw7UweQ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "ip-as-server-name";
+            id = "rCxpexeJ";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Pzw7UweQ";}

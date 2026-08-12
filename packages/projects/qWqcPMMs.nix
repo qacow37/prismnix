@@ -1,0 +1,139 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _spiJoWAk = {
+            "id" = "spiJoWAk";
+            "file" = "Flat_Dimensions_1.0.0.zip";
+            "hash" = "sha512-fzN9Lm/zRDdMjZ6NJrh262R+seyUTDPOQLymCoPFebHyO9Ny6gLtYV5ZDSDFx++5ksuj9IQOEHTJuXuFPLHBKA==";
+        };
+        _GeLa0znD = {
+            "id" = "GeLa0znD";
+            "file" = "flat-dimensions-1.0.0.jar";
+            "hash" = "sha512-mWtaLVTWXLevvMQoxMC5Oz3pxJkjSm4fqpO9y3JVqpeDuYhlZB0gDoSeSy28cqso/P8/9+ktQ/6tI/wlrK9Icw==";
+        };
+        _5x2zhJ4y = {
+            "id" = "5x2zhJ4y";
+            "file" = "Flat_Dimensions_1.0.1.zip";
+            "hash" = "sha512-+Td1ARMO/CdGfGX5WiUHKMZD3HB4EK+ixlhL+lVPoLyq9kZDZg+G1gjgn+8brL7iYSAQMl84DY9OkUEJ19VOCQ==";
+        };
+        _1dGTeP3S = {
+            "id" = "1dGTeP3S";
+            "file" = "flat-dimensions-1.0.1.jar";
+            "hash" = "sha512-kOKdxYsLUSZMGRwsqd7BOTqEBAkUvvd69PyEFv0kXf81qHsI+NIoas9zMN8DAYWmTAfbxeNl0v40+inhBREBPg==";
+        };
+    in {
+        "spiJoWAk" = _spiJoWAk;
+        "GeLa0znD" = _GeLa0znD;
+        "5x2zhJ4y" = _5x2zhJ4y;
+        "1dGTeP3S" = _1dGTeP3S;
+        "datapack-1.20" = _5x2zhJ4y;
+        "datapack-1.20.1" = _5x2zhJ4y;
+        "datapack-1.20.2" = _5x2zhJ4y;
+        "datapack-1.20.3" = _5x2zhJ4y;
+        "datapack-1.20.4" = _5x2zhJ4y;
+        "datapack-1.20.5" = _5x2zhJ4y;
+        "datapack-1.20.6" = _5x2zhJ4y;
+        "datapack-1.21" = _5x2zhJ4y;
+        "datapack-1.21.1" = _5x2zhJ4y;
+        "datapack-1.21.2" = _5x2zhJ4y;
+        "datapack-1.21.3" = _5x2zhJ4y;
+        "datapack-1.21.4" = _5x2zhJ4y;
+        "datapack-1.21.5" = _5x2zhJ4y;
+        "datapack-1.21.6" = _5x2zhJ4y;
+        "datapack-1.21.7" = _5x2zhJ4y;
+        "datapack-1.21.8" = _5x2zhJ4y;
+        "datapack-1.21.9" = _5x2zhJ4y;
+        "datapack-1.21.10" = _5x2zhJ4y;
+        "fabric-1.20" = _1dGTeP3S;
+        "fabric-1.20.1" = _1dGTeP3S;
+        "fabric-1.20.2" = _1dGTeP3S;
+        "fabric-1.20.3" = _1dGTeP3S;
+        "fabric-1.20.4" = _1dGTeP3S;
+        "fabric-1.20.5" = _1dGTeP3S;
+        "fabric-1.20.6" = _1dGTeP3S;
+        "fabric-1.21" = _1dGTeP3S;
+        "fabric-1.21.1" = _1dGTeP3S;
+        "fabric-1.21.2" = _1dGTeP3S;
+        "fabric-1.21.3" = _1dGTeP3S;
+        "fabric-1.21.4" = _1dGTeP3S;
+        "fabric-1.21.5" = _1dGTeP3S;
+        "fabric-1.21.6" = _1dGTeP3S;
+        "fabric-1.21.7" = _1dGTeP3S;
+        "fabric-1.21.8" = _1dGTeP3S;
+        "fabric-1.21.9" = _1dGTeP3S;
+        "fabric-1.21.10" = _1dGTeP3S;
+        "forge-1.20" = _1dGTeP3S;
+        "forge-1.20.1" = _1dGTeP3S;
+        "forge-1.20.2" = _1dGTeP3S;
+        "forge-1.20.3" = _1dGTeP3S;
+        "forge-1.20.4" = _1dGTeP3S;
+        "forge-1.20.5" = _1dGTeP3S;
+        "forge-1.20.6" = _1dGTeP3S;
+        "forge-1.21" = _1dGTeP3S;
+        "forge-1.21.1" = _1dGTeP3S;
+        "forge-1.21.2" = _1dGTeP3S;
+        "forge-1.21.3" = _1dGTeP3S;
+        "forge-1.21.4" = _1dGTeP3S;
+        "forge-1.21.5" = _1dGTeP3S;
+        "forge-1.21.6" = _1dGTeP3S;
+        "forge-1.21.7" = _1dGTeP3S;
+        "forge-1.21.8" = _1dGTeP3S;
+        "forge-1.21.9" = _1dGTeP3S;
+        "forge-1.21.10" = _1dGTeP3S;
+        "neoforge-1.20" = _1dGTeP3S;
+        "neoforge-1.20.1" = _1dGTeP3S;
+        "neoforge-1.20.2" = _1dGTeP3S;
+        "neoforge-1.20.3" = _1dGTeP3S;
+        "neoforge-1.20.4" = _1dGTeP3S;
+        "neoforge-1.20.5" = _1dGTeP3S;
+        "neoforge-1.20.6" = _1dGTeP3S;
+        "neoforge-1.21" = _1dGTeP3S;
+        "neoforge-1.21.1" = _1dGTeP3S;
+        "neoforge-1.21.2" = _1dGTeP3S;
+        "neoforge-1.21.3" = _1dGTeP3S;
+        "neoforge-1.21.4" = _1dGTeP3S;
+        "neoforge-1.21.5" = _1dGTeP3S;
+        "neoforge-1.21.6" = _1dGTeP3S;
+        "neoforge-1.21.7" = _1dGTeP3S;
+        "neoforge-1.21.8" = _1dGTeP3S;
+        "neoforge-1.21.9" = _1dGTeP3S;
+        "neoforge-1.21.10" = _1dGTeP3S;
+        "quilt-1.20" = _1dGTeP3S;
+        "quilt-1.20.1" = _1dGTeP3S;
+        "quilt-1.20.2" = _1dGTeP3S;
+        "quilt-1.20.3" = _1dGTeP3S;
+        "quilt-1.20.4" = _1dGTeP3S;
+        "quilt-1.20.5" = _1dGTeP3S;
+        "quilt-1.20.6" = _1dGTeP3S;
+        "quilt-1.21" = _1dGTeP3S;
+        "quilt-1.21.1" = _1dGTeP3S;
+        "quilt-1.21.2" = _1dGTeP3S;
+        "quilt-1.21.3" = _1dGTeP3S;
+        "quilt-1.21.4" = _1dGTeP3S;
+        "quilt-1.21.5" = _1dGTeP3S;
+        "quilt-1.21.6" = _1dGTeP3S;
+        "quilt-1.21.7" = _1dGTeP3S;
+        "quilt-1.21.8" = _1dGTeP3S;
+        "quilt-1.21.9" = _1dGTeP3S;
+        "quilt-1.21.10" = _1dGTeP3S;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "flat-dimensions";
+            id = "qWqcPMMs";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="1dGTeP3S";}

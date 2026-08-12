@@ -1,0 +1,103 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _hhrKYyDy = {
+            "id" = "hhrKYyDy";
+            "file" = "Civilization_SMP.zip";
+            "hash" = "sha512-FnXozbHRqJM3z6cu4xGIq+1ZkuFMbIOGqsm+vs7vkVSptTOLmjD3o2xPxVF+nrDyF2RpTzFD/8db6ZKbVCO/Og==";
+        };
+    in {
+        "hhrKYyDy" = _hhrKYyDy;
+        "bukkit-1.19" = _hhrKYyDy;
+        "bukkit-1.19.1" = _hhrKYyDy;
+        "bukkit-1.19.2" = _hhrKYyDy;
+        "bukkit-1.19.3" = _hhrKYyDy;
+        "bukkit-1.19.4" = _hhrKYyDy;
+        "bukkit-1.20" = _hhrKYyDy;
+        "bukkit-1.20.1" = _hhrKYyDy;
+        "bukkit-1.20.2" = _hhrKYyDy;
+        "bukkit-1.20.3" = _hhrKYyDy;
+        "bukkit-1.20.4" = _hhrKYyDy;
+        "bukkit-1.20.5" = _hhrKYyDy;
+        "bukkit-1.20.6" = _hhrKYyDy;
+        "datapack-1.19" = _hhrKYyDy;
+        "datapack-1.19.1" = _hhrKYyDy;
+        "datapack-1.19.2" = _hhrKYyDy;
+        "datapack-1.19.3" = _hhrKYyDy;
+        "datapack-1.19.4" = _hhrKYyDy;
+        "datapack-1.20" = _hhrKYyDy;
+        "datapack-1.20.1" = _hhrKYyDy;
+        "datapack-1.20.2" = _hhrKYyDy;
+        "datapack-1.20.3" = _hhrKYyDy;
+        "datapack-1.20.4" = _hhrKYyDy;
+        "datapack-1.20.5" = _hhrKYyDy;
+        "datapack-1.20.6" = _hhrKYyDy;
+        "fabric-1.19" = _hhrKYyDy;
+        "fabric-1.19.1" = _hhrKYyDy;
+        "fabric-1.19.2" = _hhrKYyDy;
+        "fabric-1.19.3" = _hhrKYyDy;
+        "fabric-1.19.4" = _hhrKYyDy;
+        "fabric-1.20" = _hhrKYyDy;
+        "fabric-1.20.1" = _hhrKYyDy;
+        "fabric-1.20.2" = _hhrKYyDy;
+        "fabric-1.20.3" = _hhrKYyDy;
+        "fabric-1.20.4" = _hhrKYyDy;
+        "fabric-1.20.5" = _hhrKYyDy;
+        "fabric-1.20.6" = _hhrKYyDy;
+        "forge-1.19" = _hhrKYyDy;
+        "forge-1.19.1" = _hhrKYyDy;
+        "forge-1.19.2" = _hhrKYyDy;
+        "forge-1.19.3" = _hhrKYyDy;
+        "forge-1.19.4" = _hhrKYyDy;
+        "forge-1.20" = _hhrKYyDy;
+        "forge-1.20.1" = _hhrKYyDy;
+        "forge-1.20.2" = _hhrKYyDy;
+        "forge-1.20.3" = _hhrKYyDy;
+        "forge-1.20.4" = _hhrKYyDy;
+        "forge-1.20.5" = _hhrKYyDy;
+        "forge-1.20.6" = _hhrKYyDy;
+        "paper-1.19" = _hhrKYyDy;
+        "paper-1.19.1" = _hhrKYyDy;
+        "paper-1.19.2" = _hhrKYyDy;
+        "paper-1.19.3" = _hhrKYyDy;
+        "paper-1.19.4" = _hhrKYyDy;
+        "paper-1.20" = _hhrKYyDy;
+        "paper-1.20.1" = _hhrKYyDy;
+        "paper-1.20.2" = _hhrKYyDy;
+        "paper-1.20.3" = _hhrKYyDy;
+        "paper-1.20.4" = _hhrKYyDy;
+        "paper-1.20.5" = _hhrKYyDy;
+        "paper-1.20.6" = _hhrKYyDy;
+        "spigot-1.19" = _hhrKYyDy;
+        "spigot-1.19.1" = _hhrKYyDy;
+        "spigot-1.19.2" = _hhrKYyDy;
+        "spigot-1.19.3" = _hhrKYyDy;
+        "spigot-1.19.4" = _hhrKYyDy;
+        "spigot-1.20" = _hhrKYyDy;
+        "spigot-1.20.1" = _hhrKYyDy;
+        "spigot-1.20.2" = _hhrKYyDy;
+        "spigot-1.20.3" = _hhrKYyDy;
+        "spigot-1.20.4" = _hhrKYyDy;
+        "spigot-1.20.5" = _hhrKYyDy;
+        "spigot-1.20.6" = _hhrKYyDy;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "civilization-smp";
+            id = "e9a5Xprx";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="hhrKYyDy";}

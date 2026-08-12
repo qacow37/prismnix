@@ -1,0 +1,48 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _r4hZPMQ3 = {
+            "id" = "r4hZPMQ3";
+            "file" = "gbt.zip";
+            "hash" = "sha512-aaNfTAeL8alS/9TMHPBcBHWvWtiHhr0tagjR3dceYEXJ4k3NAbvFWDf1MFuRY34G7yyoNfoVSofgnIN3P7Pglg==";
+        };
+    in {
+        "r4hZPMQ3" = _r4hZPMQ3;
+        "minecraft-1.16.2" = _r4hZPMQ3;
+        "minecraft-1.16.3" = _r4hZPMQ3;
+        "minecraft-1.16.4" = _r4hZPMQ3;
+        "minecraft-1.16.5" = _r4hZPMQ3;
+        "minecraft-1.17" = _r4hZPMQ3;
+        "minecraft-1.17.1" = _r4hZPMQ3;
+        "minecraft-1.18" = _r4hZPMQ3;
+        "minecraft-1.18.1" = _r4hZPMQ3;
+        "minecraft-1.18.2" = _r4hZPMQ3;
+        "minecraft-1.19" = _r4hZPMQ3;
+        "minecraft-1.19.1" = _r4hZPMQ3;
+        "minecraft-1.19.2" = _r4hZPMQ3;
+        "minecraft-1.19.3" = _r4hZPMQ3;
+        "minecraft-1.19.4" = _r4hZPMQ3;
+        "minecraft-1.20" = _r4hZPMQ3;
+        "minecraft-1.20.1" = _r4hZPMQ3;
+        "minecraft-1.20.4" = _r4hZPMQ3;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "gbt-main";
+            id = "gtkPHNiE";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="r4hZPMQ3";}

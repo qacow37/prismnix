@@ -1,0 +1,92 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _3p8cvjYk = {
+            "id" = "3p8cvjYk";
+            "file" = "Better Glass Pane 更好的玻璃板.zip";
+            "hash" = "sha512-N/KMm9cnzMwpq9Nyno0yCWcKGKSBiJYkANMGnsqTDNvjVVvEgXN+m1vA1g5GfzQwsURz/6Q0+n0m1IuKmeYsJQ==";
+        };
+        _lox4vVVo = {
+            "id" = "lox4vVVo";
+            "file" = "Better Glass Pane 更好的玻璃板.zip";
+            "hash" = "sha512-ZoNAxWuyEw9yX8K6zNTNFyCtCtE47apkQJ372+ln0n5n6k9krtEbs0u3TnNj6ZtRaL7K2JvBH/oTbXnwN6095Q==";
+        };
+        _O2szx6Qf = {
+            "id" = "O2szx6Qf";
+            "file" = "Better Glass Pane 更好的玻璃板.zip";
+            "hash" = "sha512-m+c8H0kPTQPkZEs+F/yJJn0QyXSp4yZvoQwwolrwaLBU6h35Q7pD3gooRJuMMBVRHzNMebZGzdVgSfR1H2tyRQ==";
+        };
+    in {
+        "3p8cvjYk" = _3p8cvjYk;
+        "lox4vVVo" = _lox4vVVo;
+        "O2szx6Qf" = _O2szx6Qf;
+        "minecraft-1.12" = _lox4vVVo;
+        "minecraft-1.12.1" = _lox4vVVo;
+        "minecraft-1.12.2" = _lox4vVVo;
+        "minecraft-1.13" = _lox4vVVo;
+        "minecraft-1.13.1" = _lox4vVVo;
+        "minecraft-1.13.2" = _lox4vVVo;
+        "minecraft-1.14" = _lox4vVVo;
+        "minecraft-1.14.1" = _lox4vVVo;
+        "minecraft-1.14.2" = _lox4vVVo;
+        "minecraft-1.14.3" = _lox4vVVo;
+        "minecraft-1.14.4" = _lox4vVVo;
+        "minecraft-1.15" = _O2szx6Qf;
+        "minecraft-1.15.1" = _O2szx6Qf;
+        "minecraft-1.15.2" = _O2szx6Qf;
+        "minecraft-1.16" = _O2szx6Qf;
+        "minecraft-1.16.1" = _O2szx6Qf;
+        "minecraft-1.16.2" = _O2szx6Qf;
+        "minecraft-1.16.3" = _O2szx6Qf;
+        "minecraft-1.16.4" = _O2szx6Qf;
+        "minecraft-1.16.5" = _O2szx6Qf;
+        "minecraft-1.17" = _O2szx6Qf;
+        "minecraft-1.17.1" = _O2szx6Qf;
+        "minecraft-1.18" = _O2szx6Qf;
+        "minecraft-1.18.1" = _O2szx6Qf;
+        "minecraft-1.18.2" = _O2szx6Qf;
+        "minecraft-1.19" = _O2szx6Qf;
+        "minecraft-1.19.1" = _O2szx6Qf;
+        "minecraft-1.19.2" = _O2szx6Qf;
+        "minecraft-1.19.3" = _O2szx6Qf;
+        "minecraft-1.19.4" = _O2szx6Qf;
+        "minecraft-1.20" = _O2szx6Qf;
+        "minecraft-1.20.1" = _O2szx6Qf;
+        "minecraft-1.20.2" = _O2szx6Qf;
+        "minecraft-1.20.3" = _O2szx6Qf;
+        "minecraft-1.20.4" = _O2szx6Qf;
+        "minecraft-1.20.5" = _O2szx6Qf;
+        "minecraft-1.20.6" = _O2szx6Qf;
+        "minecraft-1.21" = _O2szx6Qf;
+        "minecraft-1.21.1" = _O2szx6Qf;
+        "minecraft-1.21.2" = _O2szx6Qf;
+        "minecraft-1.21.3" = _O2szx6Qf;
+        "minecraft-1.21.4" = _O2szx6Qf;
+        "minecraft-1.21.5" = _O2szx6Qf;
+        "minecraft-1.21.6" = _O2szx6Qf;
+        "minecraft-1.21.7" = _O2szx6Qf;
+        "minecraft-1.21.8" = _O2szx6Qf;
+        "minecraft-1.21.9" = _O2szx6Qf;
+        "minecraft-1.21.10" = _O2szx6Qf;
+        "minecraft-1.21.11" = _O2szx6Qf;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "bgp-";
+            id = "qj9LVKqz";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="O2szx6Qf";}

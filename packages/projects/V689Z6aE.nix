@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _eQcLpgwb = {
+            "id" = "eQcLpgwb";
+            "file" = "terramityexperimental-1.0.0.jar";
+            "hash" = "sha512-L+e8dDMKNW6ecQV3AuYJ0rw887p1nO3guTpOGKNMaFSK8jmPevhRolNQZQpL45xQThJR2SdJTjojXLb7FXnfTw==";
+        };
+    in {
+        "eQcLpgwb" = _eQcLpgwb;
+        "forge-1.20.1" = _eQcLpgwb;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "terramityexperimentalitems";
+            id = "V689Z6aE";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="eQcLpgwb";}

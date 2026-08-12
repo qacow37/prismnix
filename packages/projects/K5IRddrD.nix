@@ -1,0 +1,156 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _HWCyWj62 = {
+            "id" = "HWCyWj62";
+            "file" = "InvisibleFrames-0.0.jar";
+            "hash" = "sha512-Z5Ji6JaE1/RUb2NbW/WujLAGIjAJ/ldWId3EuzPbMaoPgUK8PYDUje5mRvE+wsmbGzOcq5UCQ2KjlKcJDr3piQ==";
+        };
+        _zSwso6TF = {
+            "id" = "zSwso6TF";
+            "file" = "InvisibleFrames-1.0.jar";
+            "hash" = "sha512-JWL53ai4fQvXS9315sYC0E64svxOULR/FnDc0jMOrpe74JccWOq23nFq8eeZoWFMzkl8EOuxZg4N/LFPPOS/oA==";
+        };
+        _XgJAAQiB = {
+            "id" = "XgJAAQiB";
+            "file" = "InvisibleFrames-1.1.jar";
+            "hash" = "sha512-WCFlappZU7X5EV2fDK6BZq0NnfRJcnSlAmqN2Z9SIIjQiSS2rqqj8mzdlJgAg/l7Wbjc6EDMnkE5S56/4abLXA==";
+        };
+        _5IQW3IzU = {
+            "id" = "5IQW3IzU";
+            "file" = "InvisibleFrames-1.2.jar";
+            "hash" = "sha512-lTDbmLzK/LZsVQjmQz26A7WhKGgEhy7jsVbsUf+CZ6AlFxOhNlZ+qVtCwa7NvuBjkz1fHZlvZOCIEmZuGiUt/g==";
+        };
+        _Kg1DfjyR = {
+            "id" = "Kg1DfjyR";
+            "file" = "InvisibleFrames-1.2.1.jar";
+            "hash" = "sha512-W+ufJJVDf7HsMQkwKZ4FziWuxiJGEi4d4cBT/20iE2tlAa5VCVOqSpL3MSydOMWQWqXhPhr76MxSkl0zcDhWPw==";
+        };
+        _oBZXSNjg = {
+            "id" = "oBZXSNjg";
+            "file" = "InvisibleFrames-1.2.2.jar";
+            "hash" = "sha512-P27hed/grkEfj1DI7EG+/gufMr9J318cuH7D34j9khvVEe+nAW4JSRqXhrN+ujSvWRwtg/jNB/4h2VWOaYoFVg==";
+        };
+    in {
+        "HWCyWj62" = _HWCyWj62;
+        "zSwso6TF" = _zSwso6TF;
+        "XgJAAQiB" = _XgJAAQiB;
+        "5IQW3IzU" = _5IQW3IzU;
+        "Kg1DfjyR" = _Kg1DfjyR;
+        "oBZXSNjg" = _oBZXSNjg;
+        "bukkit-1.18" = _zSwso6TF;
+        "bukkit-1.18.1" = _zSwso6TF;
+        "bukkit-1.18.2" = _zSwso6TF;
+        "bukkit-1.19" = _zSwso6TF;
+        "bukkit-1.19.1" = _zSwso6TF;
+        "bukkit-1.19.2" = _zSwso6TF;
+        "bukkit-1.19.3" = _zSwso6TF;
+        "paper-1.18" = _oBZXSNjg;
+        "paper-1.18.1" = _oBZXSNjg;
+        "paper-1.18.2" = _oBZXSNjg;
+        "paper-1.19" = _oBZXSNjg;
+        "paper-1.19.1" = _oBZXSNjg;
+        "paper-1.19.2" = _oBZXSNjg;
+        "paper-1.19.3" = _oBZXSNjg;
+        "paper-1.19.4" = _oBZXSNjg;
+        "paper-1.20" = _oBZXSNjg;
+        "paper-1.20.1" = _oBZXSNjg;
+        "paper-1.20.2" = _oBZXSNjg;
+        "paper-1.20.3" = _oBZXSNjg;
+        "paper-1.20.4" = _oBZXSNjg;
+        "paper-1.20.5" = _oBZXSNjg;
+        "paper-1.20.6" = _oBZXSNjg;
+        "paper-1.21" = _oBZXSNjg;
+        "paper-1.21.1" = _oBZXSNjg;
+        "paper-1.21.2" = _oBZXSNjg;
+        "paper-1.21.3" = _oBZXSNjg;
+        "paper-1.21.4" = _oBZXSNjg;
+        "paper-1.21.5" = _oBZXSNjg;
+        "paper-1.21.6" = _oBZXSNjg;
+        "paper-1.21.7" = _oBZXSNjg;
+        "paper-1.21.8" = _oBZXSNjg;
+        "paper-1.21.9" = _oBZXSNjg;
+        "paper-1.21.10" = _oBZXSNjg;
+        "paper-1.21.11" = _oBZXSNjg;
+        "purpur-1.18" = _oBZXSNjg;
+        "purpur-1.18.1" = _oBZXSNjg;
+        "purpur-1.18.2" = _oBZXSNjg;
+        "purpur-1.19" = _oBZXSNjg;
+        "purpur-1.19.1" = _oBZXSNjg;
+        "purpur-1.19.2" = _oBZXSNjg;
+        "purpur-1.19.3" = _oBZXSNjg;
+        "purpur-1.19.4" = _oBZXSNjg;
+        "purpur-1.20" = _oBZXSNjg;
+        "purpur-1.20.1" = _oBZXSNjg;
+        "purpur-1.20.2" = _oBZXSNjg;
+        "purpur-1.20.3" = _oBZXSNjg;
+        "purpur-1.20.4" = _oBZXSNjg;
+        "purpur-1.20.5" = _oBZXSNjg;
+        "purpur-1.20.6" = _oBZXSNjg;
+        "purpur-1.21" = _oBZXSNjg;
+        "purpur-1.21.1" = _oBZXSNjg;
+        "purpur-1.21.2" = _oBZXSNjg;
+        "purpur-1.21.3" = _oBZXSNjg;
+        "purpur-1.21.4" = _oBZXSNjg;
+        "purpur-1.21.5" = _oBZXSNjg;
+        "purpur-1.21.6" = _oBZXSNjg;
+        "purpur-1.21.7" = _oBZXSNjg;
+        "purpur-1.21.8" = _oBZXSNjg;
+        "purpur-1.21.9" = _oBZXSNjg;
+        "purpur-1.21.10" = _oBZXSNjg;
+        "purpur-1.21.11" = _oBZXSNjg;
+        "spigot-1.18" = _zSwso6TF;
+        "spigot-1.18.1" = _zSwso6TF;
+        "spigot-1.18.2" = _zSwso6TF;
+        "spigot-1.19" = _zSwso6TF;
+        "spigot-1.19.1" = _zSwso6TF;
+        "spigot-1.19.2" = _zSwso6TF;
+        "spigot-1.19.3" = _zSwso6TF;
+        "folia-1.18" = _oBZXSNjg;
+        "folia-1.18.1" = _oBZXSNjg;
+        "folia-1.18.2" = _oBZXSNjg;
+        "folia-1.19" = _oBZXSNjg;
+        "folia-1.19.1" = _oBZXSNjg;
+        "folia-1.19.2" = _oBZXSNjg;
+        "folia-1.19.3" = _oBZXSNjg;
+        "folia-1.19.4" = _oBZXSNjg;
+        "folia-1.20" = _oBZXSNjg;
+        "folia-1.20.1" = _oBZXSNjg;
+        "folia-1.20.2" = _oBZXSNjg;
+        "folia-1.20.3" = _oBZXSNjg;
+        "folia-1.20.4" = _oBZXSNjg;
+        "folia-1.20.5" = _oBZXSNjg;
+        "folia-1.20.6" = _oBZXSNjg;
+        "folia-1.21" = _oBZXSNjg;
+        "folia-1.21.1" = _oBZXSNjg;
+        "folia-1.21.2" = _oBZXSNjg;
+        "folia-1.21.3" = _oBZXSNjg;
+        "folia-1.21.4" = _oBZXSNjg;
+        "folia-1.21.5" = _oBZXSNjg;
+        "folia-1.21.6" = _oBZXSNjg;
+        "folia-1.21.7" = _oBZXSNjg;
+        "folia-1.21.8" = _oBZXSNjg;
+        "folia-1.21.9" = _oBZXSNjg;
+        "folia-1.21.10" = _oBZXSNjg;
+        "folia-1.21.11" = _oBZXSNjg;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "invisible-frames";
+            id = "K5IRddrD";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="oBZXSNjg";}

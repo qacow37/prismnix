@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _tCabJ6fd = {
+            "id" = "tCabJ6fd";
+            "file" = "totem of undying infinity.zip";
+            "hash" = "sha512-jL8RFvQQFmzwY9y66w1s8aiSNPtGsmDoRPiORp16J5Dw7ST++DiqDQV/19+e9Ks8tXFA1dI0TBUfrZaYc1AACA==";
+        };
+        _ZD0IEYg8 = {
+            "id" = "ZD0IEYg8";
+            "file" = "totem-of-undying-infinity-v1.0.jar";
+            "hash" = "sha512-AqaRV8Q7Wj281YQJZzsc8jjUHezUfmbLm+2B5G6UW55v3wr0jujsLoQDtGfpRbWEwq/vWlFGLLrm7Ads6e8PnA==";
+        };
+    in {
+        "tCabJ6fd" = _tCabJ6fd;
+        "ZD0IEYg8" = _ZD0IEYg8;
+        "datapack-1.21" = _tCabJ6fd;
+        "datapack-1.21.1" = _tCabJ6fd;
+        "datapack-1.21.2" = _tCabJ6fd;
+        "datapack-1.21.3" = _tCabJ6fd;
+        "datapack-1.21.4" = _tCabJ6fd;
+        "datapack-1.21.5" = _tCabJ6fd;
+        "datapack-1.21.6" = _tCabJ6fd;
+        "datapack-1.21.7" = _tCabJ6fd;
+        "datapack-1.21.8" = _tCabJ6fd;
+        "datapack-1.21.9" = _tCabJ6fd;
+        "datapack-1.21.10" = _tCabJ6fd;
+        "datapack-1.21.11" = _tCabJ6fd;
+        "datapack-26.1" = _tCabJ6fd;
+        "datapack-26.1.1" = _tCabJ6fd;
+        "datapack-26.1.2" = _tCabJ6fd;
+        "datapack-26.2" = _tCabJ6fd;
+        "fabric-1.21" = _ZD0IEYg8;
+        "fabric-1.21.1" = _ZD0IEYg8;
+        "fabric-1.21.2" = _ZD0IEYg8;
+        "fabric-1.21.3" = _ZD0IEYg8;
+        "fabric-1.21.4" = _ZD0IEYg8;
+        "fabric-1.21.5" = _ZD0IEYg8;
+        "fabric-1.21.6" = _ZD0IEYg8;
+        "fabric-1.21.7" = _ZD0IEYg8;
+        "fabric-1.21.8" = _ZD0IEYg8;
+        "fabric-1.21.9" = _ZD0IEYg8;
+        "fabric-1.21.10" = _ZD0IEYg8;
+        "fabric-1.21.11" = _ZD0IEYg8;
+        "fabric-26.1" = _ZD0IEYg8;
+        "fabric-26.1.1" = _ZD0IEYg8;
+        "fabric-26.1.2" = _ZD0IEYg8;
+        "fabric-26.2" = _ZD0IEYg8;
+        "forge-1.21" = _ZD0IEYg8;
+        "forge-1.21.1" = _ZD0IEYg8;
+        "forge-1.21.2" = _ZD0IEYg8;
+        "forge-1.21.3" = _ZD0IEYg8;
+        "forge-1.21.4" = _ZD0IEYg8;
+        "forge-1.21.5" = _ZD0IEYg8;
+        "forge-1.21.6" = _ZD0IEYg8;
+        "forge-1.21.7" = _ZD0IEYg8;
+        "forge-1.21.8" = _ZD0IEYg8;
+        "forge-1.21.9" = _ZD0IEYg8;
+        "forge-1.21.10" = _ZD0IEYg8;
+        "forge-1.21.11" = _ZD0IEYg8;
+        "forge-26.1" = _ZD0IEYg8;
+        "forge-26.1.1" = _ZD0IEYg8;
+        "forge-26.1.2" = _ZD0IEYg8;
+        "forge-26.2" = _ZD0IEYg8;
+        "neoforge-1.21" = _ZD0IEYg8;
+        "neoforge-1.21.1" = _ZD0IEYg8;
+        "neoforge-1.21.2" = _ZD0IEYg8;
+        "neoforge-1.21.3" = _ZD0IEYg8;
+        "neoforge-1.21.4" = _ZD0IEYg8;
+        "neoforge-1.21.5" = _ZD0IEYg8;
+        "neoforge-1.21.6" = _ZD0IEYg8;
+        "neoforge-1.21.7" = _ZD0IEYg8;
+        "neoforge-1.21.8" = _ZD0IEYg8;
+        "neoforge-1.21.9" = _ZD0IEYg8;
+        "neoforge-1.21.10" = _ZD0IEYg8;
+        "neoforge-1.21.11" = _ZD0IEYg8;
+        "neoforge-26.1" = _ZD0IEYg8;
+        "neoforge-26.1.1" = _ZD0IEYg8;
+        "neoforge-26.1.2" = _ZD0IEYg8;
+        "neoforge-26.2" = _ZD0IEYg8;
+        "quilt-1.21" = _ZD0IEYg8;
+        "quilt-1.21.1" = _ZD0IEYg8;
+        "quilt-1.21.2" = _ZD0IEYg8;
+        "quilt-1.21.3" = _ZD0IEYg8;
+        "quilt-1.21.4" = _ZD0IEYg8;
+        "quilt-1.21.5" = _ZD0IEYg8;
+        "quilt-1.21.6" = _ZD0IEYg8;
+        "quilt-1.21.7" = _ZD0IEYg8;
+        "quilt-1.21.8" = _ZD0IEYg8;
+        "quilt-1.21.9" = _ZD0IEYg8;
+        "quilt-1.21.10" = _ZD0IEYg8;
+        "quilt-1.21.11" = _ZD0IEYg8;
+        "quilt-26.1" = _ZD0IEYg8;
+        "quilt-26.1.1" = _ZD0IEYg8;
+        "quilt-26.1.2" = _ZD0IEYg8;
+        "quilt-26.2" = _ZD0IEYg8;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "totem-of-undying-infinity";
+            id = "2GvjdxoW";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="ZD0IEYg8";}

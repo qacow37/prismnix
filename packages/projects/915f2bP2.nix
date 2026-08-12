@@ -1,0 +1,139 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _EbB63YBY = {
+            "id" = "EbB63YBY";
+            "file" = "Colourful Books [1.21+].jar";
+            "hash" = "sha512-E/9PbCpd5dApQvcAi5kTmnJau5SyIoRU0KV3wsJjXvZUuY9vQ2Hak+TVgcxEndA5G+3b8Y9nrNgXVJxDItS8Mw==";
+        };
+        _LAcE8HpJ = {
+            "id" = "LAcE8HpJ";
+            "file" = "Colourful Books [1.21+].zip";
+            "hash" = "sha512-E/9PbCpd5dApQvcAi5kTmnJau5SyIoRU0KV3wsJjXvZUuY9vQ2Hak+TVgcxEndA5G+3b8Y9nrNgXVJxDItS8Mw==";
+        };
+        _CpviYQwY = {
+            "id" = "CpviYQwY";
+            "file" = "Colourful Books [1.21+].zip";
+            "hash" = "sha512-ZMPIHLMS66rFeFCWIqfGAjf/bp6dtVXb2BCYvAE7XWGMpDDTmkegBj2D/3d50UA2XvsaSHyghe6mWUjjc4lSqQ==";
+        };
+        _8EWymq4q = {
+            "id" = "8EWymq4q";
+            "file" = "colourful-books-V1.1.jar";
+            "hash" = "sha512-Xax19ZznnHYb/wama5+TXKp+wVXPXYphK7hC4pjkjJQHyWNwAbNAnetHWfC+SNq3b5f8rxynEHv3jf0XRAFNng==";
+        };
+    in {
+        "EbB63YBY" = _EbB63YBY;
+        "LAcE8HpJ" = _LAcE8HpJ;
+        "CpviYQwY" = _CpviYQwY;
+        "8EWymq4q" = _8EWymq4q;
+        "fabric-1.21" = _EbB63YBY;
+        "fabric-1.21.1" = _EbB63YBY;
+        "fabric-24w33a" = _EbB63YBY;
+        "fabric-24w34a" = _EbB63YBY;
+        "fabric-24w35a" = _EbB63YBY;
+        "fabric-24w36a" = _EbB63YBY;
+        "fabric-24w37a" = _EbB63YBY;
+        "fabric-24w38a" = _EbB63YBY;
+        "fabric-24w39a" = _EbB63YBY;
+        "fabric-24w40a" = _EbB63YBY;
+        "fabric-1.21.2-pre1" = _EbB63YBY;
+        "fabric-1.21.2-pre2" = _EbB63YBY;
+        "fabric-1.21.2-pre3" = _EbB63YBY;
+        "fabric-1.21.2-pre4" = _EbB63YBY;
+        "fabric-1.21.2" = _8EWymq4q;
+        "fabric-1.21.3" = _8EWymq4q;
+        "fabric-24w44a" = _8EWymq4q;
+        "fabric-24w45a" = _8EWymq4q;
+        "forge-1.21" = _EbB63YBY;
+        "forge-1.21.1" = _EbB63YBY;
+        "forge-24w33a" = _EbB63YBY;
+        "forge-24w34a" = _EbB63YBY;
+        "forge-24w35a" = _EbB63YBY;
+        "forge-24w36a" = _EbB63YBY;
+        "forge-24w37a" = _EbB63YBY;
+        "forge-24w38a" = _EbB63YBY;
+        "forge-24w39a" = _EbB63YBY;
+        "forge-24w40a" = _EbB63YBY;
+        "forge-1.21.2-pre1" = _EbB63YBY;
+        "forge-1.21.2-pre2" = _EbB63YBY;
+        "forge-1.21.2-pre3" = _EbB63YBY;
+        "forge-1.21.2-pre4" = _EbB63YBY;
+        "forge-1.21.2" = _8EWymq4q;
+        "forge-1.21.3" = _8EWymq4q;
+        "forge-24w44a" = _8EWymq4q;
+        "forge-24w45a" = _8EWymq4q;
+        "neoforge-1.21" = _EbB63YBY;
+        "neoforge-1.21.1" = _EbB63YBY;
+        "neoforge-24w33a" = _EbB63YBY;
+        "neoforge-24w34a" = _EbB63YBY;
+        "neoforge-24w35a" = _EbB63YBY;
+        "neoforge-24w36a" = _EbB63YBY;
+        "neoforge-24w37a" = _EbB63YBY;
+        "neoforge-24w38a" = _EbB63YBY;
+        "neoforge-24w39a" = _EbB63YBY;
+        "neoforge-24w40a" = _EbB63YBY;
+        "neoforge-1.21.2-pre1" = _EbB63YBY;
+        "neoforge-1.21.2-pre2" = _EbB63YBY;
+        "neoforge-1.21.2-pre3" = _EbB63YBY;
+        "neoforge-1.21.2-pre4" = _EbB63YBY;
+        "neoforge-1.21.2" = _8EWymq4q;
+        "neoforge-1.21.3" = _8EWymq4q;
+        "neoforge-24w44a" = _8EWymq4q;
+        "neoforge-24w45a" = _8EWymq4q;
+        "quilt-1.21" = _EbB63YBY;
+        "quilt-1.21.1" = _EbB63YBY;
+        "quilt-24w33a" = _EbB63YBY;
+        "quilt-24w34a" = _EbB63YBY;
+        "quilt-24w35a" = _EbB63YBY;
+        "quilt-24w36a" = _EbB63YBY;
+        "quilt-24w37a" = _EbB63YBY;
+        "quilt-24w38a" = _EbB63YBY;
+        "quilt-24w39a" = _EbB63YBY;
+        "quilt-24w40a" = _EbB63YBY;
+        "quilt-1.21.2-pre1" = _EbB63YBY;
+        "quilt-1.21.2-pre2" = _EbB63YBY;
+        "quilt-1.21.2-pre3" = _EbB63YBY;
+        "quilt-1.21.2-pre4" = _EbB63YBY;
+        "quilt-1.21.2" = _8EWymq4q;
+        "quilt-1.21.3" = _8EWymq4q;
+        "quilt-24w44a" = _8EWymq4q;
+        "quilt-24w45a" = _8EWymq4q;
+        "datapack-1.21" = _LAcE8HpJ;
+        "datapack-1.21.1" = _LAcE8HpJ;
+        "datapack-24w33a" = _LAcE8HpJ;
+        "datapack-24w34a" = _LAcE8HpJ;
+        "datapack-24w35a" = _LAcE8HpJ;
+        "datapack-24w36a" = _LAcE8HpJ;
+        "datapack-24w37a" = _LAcE8HpJ;
+        "datapack-24w38a" = _LAcE8HpJ;
+        "datapack-24w39a" = _LAcE8HpJ;
+        "datapack-24w40a" = _LAcE8HpJ;
+        "datapack-1.21.2-pre1" = _LAcE8HpJ;
+        "datapack-1.21.2-pre2" = _LAcE8HpJ;
+        "datapack-1.21.2-pre3" = _LAcE8HpJ;
+        "datapack-1.21.2-pre4" = _LAcE8HpJ;
+        "datapack-1.21.2" = _CpviYQwY;
+        "datapack-1.21.3" = _CpviYQwY;
+        "datapack-24w44a" = _CpviYQwY;
+        "datapack-24w45a" = _CpviYQwY;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "colourful-books";
+            id = "915f2bP2";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="8EWymq4q";}

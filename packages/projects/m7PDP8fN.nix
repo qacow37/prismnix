@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Cd2SQDZP = {
+            "id" = "Cd2SQDZP";
+            "file" = "no_skeletons-1.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-+AGcvNj82MU1pp23Z2HHfigvLBSYacdVtmpA30h43CaiXDkNyXKPXtijfgwpUzGvc2vHcC7JXZvXjhFdVXW5eg==";
+        };
+    in {
+        "Cd2SQDZP" = _Cd2SQDZP;
+        "forge-1.20.1" = _Cd2SQDZP;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "no-skeletons";
+            id = "m7PDP8fN";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Cd2SQDZP";}

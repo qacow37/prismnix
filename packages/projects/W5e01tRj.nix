@@ -1,0 +1,164 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _XLGfoBW1 = {
+            "id" = "XLGfoBW1";
+            "file" = "togglesubtitles-1.0.jar";
+            "hash" = "sha512-MLTTJ/lhkSzwu6Os07Hu37SapuIkzx7R4AdiUZsvY97/trP9bAtnIAc2VIjQQgL2Uo3L0sLILmYoYyeZnW/XxA==";
+        };
+        _GSBy6Hq1 = {
+            "id" = "GSBy6Hq1";
+            "file" = "togglesubtitles-1.1.jar";
+            "hash" = "sha512-N1TuNdWgOyma9S5LL+qBQIBUJoaYdgxhg4UfDmlvAzUQqxKQ2fci9FcCwuWbVDIphvmxUhccI2Ya5Wh6KkdIng==";
+        };
+        _T1V61sBT = {
+            "id" = "T1V61sBT";
+            "file" = "togglesubtitles-1.2.jar";
+            "hash" = "sha512-l9wSvdPUYM4c65ugQXR25RgBe96dF+Nxc6U8gpB8SlTJ+8pc6/liRvlKsUpI6Znr9l1zB+g7PJg26Mzg6kL+JA==";
+        };
+        _oE3F4zsI = {
+            "id" = "oE3F4zsI";
+            "file" = "togglesubtitles-1.3+26.1-fabric.jar";
+            "hash" = "sha512-ECCKKLKFCgsfK7u1umzDYDjDLQactNBQ3NK5Jqo8IOXUu78xa2IA5lzQB9tUo3CUK0uaurfJUg6JtAb4RunS9A==";
+        };
+        _WTjSiaDC = {
+            "id" = "WTjSiaDC";
+            "file" = "togglesubtitles-1.3+26.1-forge.jar";
+            "hash" = "sha512-dCGw4CE8hfbCx1xRf2GjPYgcCuzAwxYgHZPyTZF/VN+jLwzs0eMvWncg//T1O4l+hAtiqtP87bgjGlZ2+MEowQ==";
+        };
+        _pGK75BIh = {
+            "id" = "pGK75BIh";
+            "file" = "togglesubtitles-1.3+26.1-neoforge.jar";
+            "hash" = "sha512-BzPRRrzoDeFhtP4yE2OQYs4KTqkmcwJOvE6+K1lAAfBjB3sHTeon88Lz7dJNhJGQjeuZXsQuErkK96EzlD7dbg==";
+        };
+    in {
+        "XLGfoBW1" = _XLGfoBW1;
+        "GSBy6Hq1" = _GSBy6Hq1;
+        "T1V61sBT" = _T1V61sBT;
+        "oE3F4zsI" = _oE3F4zsI;
+        "WTjSiaDC" = _WTjSiaDC;
+        "pGK75BIh" = _pGK75BIh;
+        "fabric-1.19" = _GSBy6Hq1;
+        "fabric-1.19.1" = _GSBy6Hq1;
+        "fabric-1.19.2" = _GSBy6Hq1;
+        "fabric-1.19.3" = _GSBy6Hq1;
+        "fabric-1.19.4" = _GSBy6Hq1;
+        "fabric-1.20" = _GSBy6Hq1;
+        "fabric-1.20.1" = _GSBy6Hq1;
+        "fabric-1.20.2" = _GSBy6Hq1;
+        "fabric-1.20.3" = _GSBy6Hq1;
+        "fabric-1.20.4" = _GSBy6Hq1;
+        "fabric-1.20.5" = _GSBy6Hq1;
+        "fabric-1.20.6" = _GSBy6Hq1;
+        "fabric-1.21" = _GSBy6Hq1;
+        "fabric-1.21.1" = _GSBy6Hq1;
+        "fabric-1.21.2" = _GSBy6Hq1;
+        "fabric-1.21.3" = _GSBy6Hq1;
+        "fabric-1.21.4" = _GSBy6Hq1;
+        "fabric-1.21.5" = _GSBy6Hq1;
+        "fabric-1.21.6" = _GSBy6Hq1;
+        "fabric-1.21.7" = _GSBy6Hq1;
+        "fabric-1.21.8" = _GSBy6Hq1;
+        "fabric-1.21.9" = _T1V61sBT;
+        "fabric-1.21.10" = _T1V61sBT;
+        "fabric-1.21.11" = _T1V61sBT;
+        "fabric-26.1" = _oE3F4zsI;
+        "fabric-26.1.1" = _oE3F4zsI;
+        "fabric-26.1.2" = _oE3F4zsI;
+        "fabric-26.2" = _oE3F4zsI;
+        "forge-1.19" = _GSBy6Hq1;
+        "forge-1.19.1" = _GSBy6Hq1;
+        "forge-1.19.2" = _GSBy6Hq1;
+        "forge-1.19.3" = _GSBy6Hq1;
+        "forge-1.19.4" = _GSBy6Hq1;
+        "forge-1.20" = _GSBy6Hq1;
+        "forge-1.20.1" = _GSBy6Hq1;
+        "forge-1.20.2" = _GSBy6Hq1;
+        "forge-1.20.3" = _GSBy6Hq1;
+        "forge-1.20.4" = _GSBy6Hq1;
+        "forge-1.20.5" = _GSBy6Hq1;
+        "forge-1.20.6" = _GSBy6Hq1;
+        "forge-1.21" = _GSBy6Hq1;
+        "forge-1.21.1" = _GSBy6Hq1;
+        "forge-1.21.2" = _GSBy6Hq1;
+        "forge-1.21.3" = _GSBy6Hq1;
+        "forge-1.21.4" = _GSBy6Hq1;
+        "forge-1.21.5" = _GSBy6Hq1;
+        "forge-1.21.6" = _GSBy6Hq1;
+        "forge-1.21.7" = _GSBy6Hq1;
+        "forge-1.21.8" = _GSBy6Hq1;
+        "forge-1.21.9" = _T1V61sBT;
+        "forge-1.21.10" = _T1V61sBT;
+        "forge-1.21.11" = _T1V61sBT;
+        "forge-26.1" = _WTjSiaDC;
+        "forge-26.1.1" = _WTjSiaDC;
+        "forge-26.1.2" = _WTjSiaDC;
+        "neoforge-1.19" = _GSBy6Hq1;
+        "neoforge-1.19.1" = _GSBy6Hq1;
+        "neoforge-1.19.2" = _GSBy6Hq1;
+        "neoforge-1.19.3" = _GSBy6Hq1;
+        "neoforge-1.19.4" = _GSBy6Hq1;
+        "neoforge-1.20" = _GSBy6Hq1;
+        "neoforge-1.20.1" = _GSBy6Hq1;
+        "neoforge-1.20.2" = _GSBy6Hq1;
+        "neoforge-1.20.3" = _GSBy6Hq1;
+        "neoforge-1.20.4" = _GSBy6Hq1;
+        "neoforge-1.20.5" = _GSBy6Hq1;
+        "neoforge-1.20.6" = _GSBy6Hq1;
+        "neoforge-1.21" = _GSBy6Hq1;
+        "neoforge-1.21.1" = _GSBy6Hq1;
+        "neoforge-1.21.2" = _GSBy6Hq1;
+        "neoforge-1.21.3" = _GSBy6Hq1;
+        "neoforge-1.21.4" = _GSBy6Hq1;
+        "neoforge-1.21.5" = _GSBy6Hq1;
+        "neoforge-1.21.6" = _GSBy6Hq1;
+        "neoforge-1.21.7" = _GSBy6Hq1;
+        "neoforge-1.21.8" = _GSBy6Hq1;
+        "neoforge-1.21.9" = _T1V61sBT;
+        "neoforge-1.21.10" = _T1V61sBT;
+        "neoforge-1.21.11" = _T1V61sBT;
+        "neoforge-26.1" = _pGK75BIh;
+        "neoforge-26.1.1" = _pGK75BIh;
+        "neoforge-26.1.2" = _pGK75BIh;
+        "quilt-1.19" = _GSBy6Hq1;
+        "quilt-1.19.1" = _GSBy6Hq1;
+        "quilt-1.19.2" = _GSBy6Hq1;
+        "quilt-1.19.3" = _GSBy6Hq1;
+        "quilt-1.19.4" = _GSBy6Hq1;
+        "quilt-1.20" = _GSBy6Hq1;
+        "quilt-1.20.1" = _GSBy6Hq1;
+        "quilt-1.20.2" = _GSBy6Hq1;
+        "quilt-1.20.3" = _GSBy6Hq1;
+        "quilt-1.20.4" = _GSBy6Hq1;
+        "quilt-1.20.5" = _GSBy6Hq1;
+        "quilt-1.20.6" = _GSBy6Hq1;
+        "quilt-1.21" = _GSBy6Hq1;
+        "quilt-1.21.1" = _GSBy6Hq1;
+        "quilt-1.21.2" = _GSBy6Hq1;
+        "quilt-1.21.3" = _GSBy6Hq1;
+        "quilt-1.21.4" = _GSBy6Hq1;
+        "quilt-1.21.5" = _GSBy6Hq1;
+        "quilt-1.21.6" = _GSBy6Hq1;
+        "quilt-1.21.7" = _GSBy6Hq1;
+        "quilt-1.21.8" = _GSBy6Hq1;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "toggle-subtitles";
+            id = "W5e01tRj";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU Lesser General Public License v3.0 only";
+                    shortName = "LGPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="pGK75BIh";}

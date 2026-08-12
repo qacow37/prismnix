@@ -1,0 +1,33 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _CsZUh6fj = {
+            "id" = "CsZUh6fj";
+            "file" = "Turn this to zip.jar";
+            "hash" = "sha512-ckyzZrhUBL6uk/xegcjprZqQ1X6CqK9ARa5p+oic6+DVPtZMM/F+fGHYaAyHpxmJF6eBL2I58U+KMfAnd4hltA==";
+        };
+    in {
+        "CsZUh6fj" = _CsZUh6fj;
+        "forge-1.12.2" = _CsZUh6fj;
+        "forge-1.16.5" = _CsZUh6fj;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "more-pixelmon-lucky-blocks";
+            id = "VBCExxyc";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="CsZUh6fj";}

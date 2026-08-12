@@ -1,0 +1,125 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _CHXhpGDU = {
+            "id" = "CHXhpGDU";
+            "file" = "Vanish.jar";
+            "hash" = "sha512-MGrENmSegS3bvOJ+9DwM6H9vg5RvQ5Cg5moJxMz2OkAJNOVbGe/1cy6i/RmYQb6JGiXqPAfgn0mhT4tgMfKPvQ==";
+        };
+        _upXEIsWr = {
+            "id" = "upXEIsWr";
+            "file" = "Vanish.jar";
+            "hash" = "sha512-8Osi4zP9O6qzqhlVOJjJJrNTXTepI9rttnQ/IxhERG1YyFj8v1noRgwc/tAiU/vhyBXUWGv3FdrwL9TPY6gySw==";
+        };
+    in {
+        "CHXhpGDU" = _CHXhpGDU;
+        "upXEIsWr" = _upXEIsWr;
+        "bukkit-1.19" = _CHXhpGDU;
+        "bukkit-1.20" = _upXEIsWr;
+        "bukkit-1.20.1" = _upXEIsWr;
+        "bukkit-1.20.2" = _upXEIsWr;
+        "bukkit-1.20.3" = _upXEIsWr;
+        "bukkit-1.20.4" = _upXEIsWr;
+        "bukkit-1.20.5" = _upXEIsWr;
+        "bukkit-1.20.6" = _upXEIsWr;
+        "bukkit-1.21" = _upXEIsWr;
+        "bukkit-1.21.1" = _upXEIsWr;
+        "bukkit-1.21.2" = _upXEIsWr;
+        "bukkit-1.21.3" = _upXEIsWr;
+        "bukkit-1.21.4" = _upXEIsWr;
+        "bukkit-1.21.5" = _upXEIsWr;
+        "bukkit-1.21.6" = _upXEIsWr;
+        "bukkit-1.21.7" = _upXEIsWr;
+        "bukkit-1.21.8" = _upXEIsWr;
+        "bukkit-1.21.9" = _upXEIsWr;
+        "bukkit-1.21.10" = _upXEIsWr;
+        "bukkit-1.21.11" = _upXEIsWr;
+        "bukkit-26.1" = _upXEIsWr;
+        "bukkit-26.1.1" = _upXEIsWr;
+        "paper-1.19" = _CHXhpGDU;
+        "paper-1.20" = _upXEIsWr;
+        "paper-1.20.1" = _upXEIsWr;
+        "paper-1.20.2" = _upXEIsWr;
+        "paper-1.20.3" = _upXEIsWr;
+        "paper-1.20.4" = _upXEIsWr;
+        "paper-1.20.5" = _upXEIsWr;
+        "paper-1.20.6" = _upXEIsWr;
+        "paper-1.21" = _upXEIsWr;
+        "paper-1.21.1" = _upXEIsWr;
+        "paper-1.21.2" = _upXEIsWr;
+        "paper-1.21.3" = _upXEIsWr;
+        "paper-1.21.4" = _upXEIsWr;
+        "paper-1.21.5" = _upXEIsWr;
+        "paper-1.21.6" = _upXEIsWr;
+        "paper-1.21.7" = _upXEIsWr;
+        "paper-1.21.8" = _upXEIsWr;
+        "paper-1.21.9" = _upXEIsWr;
+        "paper-1.21.10" = _upXEIsWr;
+        "paper-1.21.11" = _upXEIsWr;
+        "paper-26.1" = _upXEIsWr;
+        "paper-26.1.1" = _upXEIsWr;
+        "purpur-1.19" = _CHXhpGDU;
+        "purpur-1.20" = _upXEIsWr;
+        "purpur-1.20.1" = _upXEIsWr;
+        "purpur-1.20.2" = _upXEIsWr;
+        "purpur-1.20.3" = _upXEIsWr;
+        "purpur-1.20.4" = _upXEIsWr;
+        "purpur-1.20.5" = _upXEIsWr;
+        "purpur-1.20.6" = _upXEIsWr;
+        "purpur-1.21" = _upXEIsWr;
+        "purpur-1.21.1" = _upXEIsWr;
+        "purpur-1.21.2" = _upXEIsWr;
+        "purpur-1.21.3" = _upXEIsWr;
+        "purpur-1.21.4" = _upXEIsWr;
+        "purpur-1.21.5" = _upXEIsWr;
+        "purpur-1.21.6" = _upXEIsWr;
+        "purpur-1.21.7" = _upXEIsWr;
+        "purpur-1.21.8" = _upXEIsWr;
+        "purpur-1.21.9" = _upXEIsWr;
+        "purpur-1.21.10" = _upXEIsWr;
+        "purpur-1.21.11" = _upXEIsWr;
+        "purpur-26.1" = _upXEIsWr;
+        "purpur-26.1.1" = _upXEIsWr;
+        "spigot-1.19" = _CHXhpGDU;
+        "spigot-1.20" = _upXEIsWr;
+        "spigot-1.20.1" = _upXEIsWr;
+        "spigot-1.20.2" = _upXEIsWr;
+        "spigot-1.20.3" = _upXEIsWr;
+        "spigot-1.20.4" = _upXEIsWr;
+        "spigot-1.20.5" = _upXEIsWr;
+        "spigot-1.20.6" = _upXEIsWr;
+        "spigot-1.21" = _upXEIsWr;
+        "spigot-1.21.1" = _upXEIsWr;
+        "spigot-1.21.2" = _upXEIsWr;
+        "spigot-1.21.3" = _upXEIsWr;
+        "spigot-1.21.4" = _upXEIsWr;
+        "spigot-1.21.5" = _upXEIsWr;
+        "spigot-1.21.6" = _upXEIsWr;
+        "spigot-1.21.7" = _upXEIsWr;
+        "spigot-1.21.8" = _upXEIsWr;
+        "spigot-1.21.9" = _upXEIsWr;
+        "spigot-1.21.10" = _upXEIsWr;
+        "spigot-1.21.11" = _upXEIsWr;
+        "spigot-26.1" = _upXEIsWr;
+        "spigot-26.1.1" = _upXEIsWr;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "provanish";
+            id = "Mv4AIFSE";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="upXEIsWr";}

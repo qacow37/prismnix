@@ -1,0 +1,41 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _IqtFYUCc = {
+            "id" = "IqtFYUCc";
+            "file" = "Glowing Fresh 3D Armor Stands.zip";
+            "hash" = "sha512-SS2CwdHhdLcI3f4PzeKg2oQiTkNqftgQWifAHYkhCdxgsSdELzGmAA/hlQEFAINiOVHWdnmEfhtvnCEA6kK8rA==";
+        };
+        _76sN4aUc = {
+            "id" = "76sN4aUc";
+            "file" = "Glowing Fresh 3D Armor Stands.zip";
+            "hash" = "sha512-QCvVpzid7gKSXY2cKmUgPvfKdkKZB22ks/sFsb4GPpW9nWRqsNJ6nzGhx0XQZtH/Kw4YGobH9y5/PrwKu7gKNg==";
+        };
+    in {
+        "IqtFYUCc" = _IqtFYUCc;
+        "76sN4aUc" = _76sN4aUc;
+        "minecraft-1.21.11" = _76sN4aUc;
+        "minecraft-26.1" = _76sN4aUc;
+        "minecraft-26.1.1" = _76sN4aUc;
+        "minecraft-26.1.2" = _76sN4aUc;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "glowing-fresh-3d-armor-stands";
+            id = "oX6d6nfH";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="76sN4aUc";}

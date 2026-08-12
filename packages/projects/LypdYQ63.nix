@@ -1,0 +1,207 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Wbg8f1xm = {
+            "id" = "Wbg8f1xm";
+            "file" = "AmethystShaders_1.7.53.zip";
+            "hash" = "sha512-F/1Zz5q48058MaGwzXRGuRVXtbz7qcWlTiHr9WhvsVD/1hLYDNXElyD6JKwPVSkOArdbd6Kyb01Rc3LD/PwDQg==";
+        };
+        _8aAdDzww = {
+            "id" = "8aAdDzww";
+            "file" = "AmethystShaders_1.8.67.zip";
+            "hash" = "sha512-S7q/bX5nxT9sByyojIq2fQg6dhoysje8v1Rjltq9Kb8i/Gc2qvfjCW9pTuBpfcQu6sdvq3RYymZjVY2uqjZZcA==";
+        };
+        _nmSQ9NQT = {
+            "id" = "nmSQ9NQT";
+            "file" = "AmethystShaders_2.1.48.zip";
+            "hash" = "sha512-+ATlWuxOrEhxZWLLTDnmku4QX51Z344dm7Prp4id4H3xwnvc+avXHWVOb54uWrJAM5n+k5BNuYroVyWZNADi0w==";
+        };
+        _9ND1ut2k = {
+            "id" = "9ND1ut2k";
+            "file" = "AmethystShaders_2.1.75.zip";
+            "hash" = "sha512-Sb/Be6n3lxdsLKbVSrUFSwVs/SS+Pa/dZ/bMcRDtFZDigmoPdko2kL9y5Qs55tgVn+BSSHuTy4bppyCpja6szg==";
+        };
+        _fDl78F75 = {
+            "id" = "fDl78F75";
+            "file" = "AmethystShaders_2.2.zip";
+            "hash" = "sha512-poH9C9FgARwl7Mcb5tqIR7ZC02fx50a4IzU3m6yEYlfmio14M1eHW5HC3WwafPelpiJ0k0VdEF0af4JufreMDg==";
+        };
+        _G86naF6r = {
+            "id" = "G86naF6r";
+            "file" = "AmethystShaders_2.3.zip";
+            "hash" = "sha512-S7JRTRic4+OvaXNw2x1kqgURwX0G97apxA8nLesCgJFep16Ex+/A/UQpDqrJo4kgdyRfhWhmLJdqnoheN/4o5A==";
+        };
+        _NCQfIOPD = {
+            "id" = "NCQfIOPD";
+            "file" = "AmethystShaders_2.3.1.zip";
+            "hash" = "sha512-tBfiXix0QsWvyxR2mxbbcETd56a3YGfy5M5jqcO62/35nCjhoaMG6OYVcijo4zM8rTGhnAc8YnRpt/CLS2T7mw==";
+        };
+        _JhsASGwh = {
+            "id" = "JhsASGwh";
+            "file" = "AmethystShaders_2.3.2.zip";
+            "hash" = "sha512-pEcWbFNDxZlEhdCWg/ToepRkOj4D1bIr64tQuYU5ntc+RmFfYitccsnmvDZwWvjCKQIMDn1OvEMJk2v0uTmiKQ==";
+        };
+        _nAjqJLbK = {
+            "id" = "nAjqJLbK";
+            "file" = "AmethystShaders_2.3.3.zip";
+            "hash" = "sha512-bBENrizezdtEXjh3BxzPEwA0Zw3iRVvNyF3zycIF+KAsC7EicnFdFcPOQvSj5g+hvm8eHaak5DYD8YXnK7brMA==";
+        };
+        _mULXIH2t = {
+            "id" = "mULXIH2t";
+            "file" = "AmethystShaders_2.4.zip";
+            "hash" = "sha512-sbJ2+6ZnOvxbJxEvM4tp1l7JR6wayztz2KIg7+Kltu4GpNA2SjtPXxF7B0BUxZZE2lmtMWvfXacc6U4G0zfAWA==";
+        };
+    in {
+        "Wbg8f1xm" = _Wbg8f1xm;
+        "8aAdDzww" = _8aAdDzww;
+        "nmSQ9NQT" = _nmSQ9NQT;
+        "9ND1ut2k" = _9ND1ut2k;
+        "fDl78F75" = _fDl78F75;
+        "G86naF6r" = _G86naF6r;
+        "NCQfIOPD" = _NCQfIOPD;
+        "JhsASGwh" = _JhsASGwh;
+        "nAjqJLbK" = _nAjqJLbK;
+        "mULXIH2t" = _mULXIH2t;
+        "iris-1.8.9" = _mULXIH2t;
+        "iris-1.9" = _mULXIH2t;
+        "iris-1.9.1" = _mULXIH2t;
+        "iris-1.9.2" = _mULXIH2t;
+        "iris-1.9.3" = _mULXIH2t;
+        "iris-1.9.4" = _mULXIH2t;
+        "iris-1.10" = _mULXIH2t;
+        "iris-1.10.1" = _mULXIH2t;
+        "iris-1.10.2" = _mULXIH2t;
+        "iris-1.11" = _mULXIH2t;
+        "iris-1.11.1" = _mULXIH2t;
+        "iris-1.11.2" = _mULXIH2t;
+        "iris-1.12" = _mULXIH2t;
+        "iris-1.12.1" = _mULXIH2t;
+        "iris-1.12.2" = _mULXIH2t;
+        "iris-1.13" = _mULXIH2t;
+        "iris-1.13.1" = _mULXIH2t;
+        "iris-1.13.2" = _mULXIH2t;
+        "iris-1.14" = _mULXIH2t;
+        "iris-1.14.1" = _mULXIH2t;
+        "iris-1.14.2" = _mULXIH2t;
+        "iris-1.14.3" = _mULXIH2t;
+        "iris-1.14.4" = _mULXIH2t;
+        "iris-1.15" = _mULXIH2t;
+        "iris-1.15.1" = _mULXIH2t;
+        "iris-1.15.2" = _mULXIH2t;
+        "iris-1.16" = _mULXIH2t;
+        "iris-1.16.1" = _mULXIH2t;
+        "iris-1.16.2" = _mULXIH2t;
+        "iris-1.16.3" = _mULXIH2t;
+        "iris-1.16.4" = _mULXIH2t;
+        "iris-1.16.5" = _mULXIH2t;
+        "iris-1.17" = _mULXIH2t;
+        "iris-1.17.1" = _mULXIH2t;
+        "iris-1.18" = _mULXIH2t;
+        "iris-1.18.1" = _mULXIH2t;
+        "iris-1.18.2" = _mULXIH2t;
+        "iris-1.19" = _mULXIH2t;
+        "iris-1.19.1" = _mULXIH2t;
+        "iris-1.19.2" = _mULXIH2t;
+        "iris-1.19.3" = _mULXIH2t;
+        "iris-1.19.4" = _mULXIH2t;
+        "iris-1.20" = _mULXIH2t;
+        "iris-1.20.1" = _mULXIH2t;
+        "iris-1.20.2" = _mULXIH2t;
+        "iris-1.20.3" = _mULXIH2t;
+        "iris-1.20.4" = _mULXIH2t;
+        "iris-1.20.5" = _mULXIH2t;
+        "iris-1.20.6" = _mULXIH2t;
+        "iris-1.21" = _mULXIH2t;
+        "iris-1.21.1" = _mULXIH2t;
+        "iris-1.21.2" = _mULXIH2t;
+        "iris-1.21.3" = _mULXIH2t;
+        "iris-1.21.4" = _mULXIH2t;
+        "iris-1.21.5" = _mULXIH2t;
+        "iris-1.21.6" = _mULXIH2t;
+        "iris-1.21.7" = _mULXIH2t;
+        "iris-1.21.8" = _mULXIH2t;
+        "iris-1.21.9" = _mULXIH2t;
+        "iris-1.21.10" = _mULXIH2t;
+        "iris-1.21.11" = _mULXIH2t;
+        "optifine-1.8.9" = _mULXIH2t;
+        "optifine-1.9" = _mULXIH2t;
+        "optifine-1.9.1" = _mULXIH2t;
+        "optifine-1.9.2" = _mULXIH2t;
+        "optifine-1.9.3" = _mULXIH2t;
+        "optifine-1.9.4" = _mULXIH2t;
+        "optifine-1.10" = _mULXIH2t;
+        "optifine-1.10.1" = _mULXIH2t;
+        "optifine-1.10.2" = _mULXIH2t;
+        "optifine-1.11" = _mULXIH2t;
+        "optifine-1.11.1" = _mULXIH2t;
+        "optifine-1.11.2" = _mULXIH2t;
+        "optifine-1.12" = _mULXIH2t;
+        "optifine-1.12.1" = _mULXIH2t;
+        "optifine-1.12.2" = _mULXIH2t;
+        "optifine-1.13" = _mULXIH2t;
+        "optifine-1.13.1" = _mULXIH2t;
+        "optifine-1.13.2" = _mULXIH2t;
+        "optifine-1.14" = _mULXIH2t;
+        "optifine-1.14.1" = _mULXIH2t;
+        "optifine-1.14.2" = _mULXIH2t;
+        "optifine-1.14.3" = _mULXIH2t;
+        "optifine-1.14.4" = _mULXIH2t;
+        "optifine-1.15" = _mULXIH2t;
+        "optifine-1.15.1" = _mULXIH2t;
+        "optifine-1.15.2" = _mULXIH2t;
+        "optifine-1.16" = _mULXIH2t;
+        "optifine-1.16.1" = _mULXIH2t;
+        "optifine-1.16.2" = _mULXIH2t;
+        "optifine-1.16.3" = _mULXIH2t;
+        "optifine-1.16.4" = _mULXIH2t;
+        "optifine-1.16.5" = _mULXIH2t;
+        "optifine-1.17" = _mULXIH2t;
+        "optifine-1.17.1" = _mULXIH2t;
+        "optifine-1.18" = _mULXIH2t;
+        "optifine-1.18.1" = _mULXIH2t;
+        "optifine-1.18.2" = _mULXIH2t;
+        "optifine-1.19" = _mULXIH2t;
+        "optifine-1.19.1" = _mULXIH2t;
+        "optifine-1.19.2" = _mULXIH2t;
+        "optifine-1.19.3" = _mULXIH2t;
+        "optifine-1.19.4" = _mULXIH2t;
+        "optifine-1.20" = _mULXIH2t;
+        "optifine-1.20.1" = _mULXIH2t;
+        "optifine-1.20.2" = _mULXIH2t;
+        "optifine-1.20.3" = _mULXIH2t;
+        "optifine-1.20.4" = _mULXIH2t;
+        "optifine-1.20.5" = _mULXIH2t;
+        "optifine-1.20.6" = _mULXIH2t;
+        "optifine-1.21" = _mULXIH2t;
+        "optifine-1.21.1" = _mULXIH2t;
+        "optifine-1.21.2" = _mULXIH2t;
+        "optifine-1.21.3" = _mULXIH2t;
+        "optifine-1.21.4" = _mULXIH2t;
+        "optifine-1.21.5" = _mULXIH2t;
+        "optifine-1.21.6" = _mULXIH2t;
+        "optifine-1.21.7" = _mULXIH2t;
+        "optifine-1.21.8" = _mULXIH2t;
+        "optifine-1.21.9" = _mULXIH2t;
+        "optifine-1.21.10" = _mULXIH2t;
+        "optifine-1.21.11" = _mULXIH2t;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "amethyst-shaders";
+            id = "LypdYQ63";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-Custom";
+                    shortName = "LicenseRef-Custom";
+                    url = "https://github.com/gamerbenyt/amethyst-shaders/blob/main/README.md";
+                };
+            };
+        };
+in callPackage fn {version="mULXIH2t";}

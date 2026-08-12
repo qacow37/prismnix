@@ -1,0 +1,165 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _DU9F5wZo = {
+            "id" = "DU9F5wZo";
+            "file" = "b&w shader.zip";
+            "hash" = "sha512-EbDXwzESwXSwzuNBdqqte5+bSxEKTWOSW2keHXeQM/+R+HdCml+A0cCbFJ259HbtgrXC5BDsElZjDhoe2rNkHw==";
+        };
+        _fcBbEVVD = {
+            "id" = "fcBbEVVD";
+            "file" = "b&w shader.zip";
+            "hash" = "sha512-EbDXwzESwXSwzuNBdqqte5+bSxEKTWOSW2keHXeQM/+R+HdCml+A0cCbFJ259HbtgrXC5BDsElZjDhoe2rNkHw==";
+        };
+        _CPWciPd0 = {
+            "id" = "CPWciPd0";
+            "file" = "b&w shader.zip";
+            "hash" = "sha512-EbDXwzESwXSwzuNBdqqte5+bSxEKTWOSW2keHXeQM/+R+HdCml+A0cCbFJ259HbtgrXC5BDsElZjDhoe2rNkHw==";
+        };
+        _ij11lhkx = {
+            "id" = "ij11lhkx";
+            "file" = "b&w shader.zip";
+            "hash" = "sha512-EbDXwzESwXSwzuNBdqqte5+bSxEKTWOSW2keHXeQM/+R+HdCml+A0cCbFJ259HbtgrXC5BDsElZjDhoe2rNkHw==";
+        };
+        _2a7ZjYZg = {
+            "id" = "2a7ZjYZg";
+            "file" = "b&w shader.zip";
+            "hash" = "sha512-EbDXwzESwXSwzuNBdqqte5+bSxEKTWOSW2keHXeQM/+R+HdCml+A0cCbFJ259HbtgrXC5BDsElZjDhoe2rNkHw==";
+        };
+        _pEuFDD7d = {
+            "id" = "pEuFDD7d";
+            "file" = "b&w shader.zip";
+            "hash" = "sha512-EbDXwzESwXSwzuNBdqqte5+bSxEKTWOSW2keHXeQM/+R+HdCml+A0cCbFJ259HbtgrXC5BDsElZjDhoe2rNkHw==";
+        };
+    in {
+        "DU9F5wZo" = _DU9F5wZo;
+        "fcBbEVVD" = _fcBbEVVD;
+        "CPWciPd0" = _CPWciPd0;
+        "ij11lhkx" = _ij11lhkx;
+        "2a7ZjYZg" = _2a7ZjYZg;
+        "pEuFDD7d" = _pEuFDD7d;
+        "iris-1.12.2" = _pEuFDD7d;
+        "iris-1.13" = _pEuFDD7d;
+        "iris-1.13.1" = _pEuFDD7d;
+        "iris-1.13.2" = _pEuFDD7d;
+        "iris-1.14" = _pEuFDD7d;
+        "iris-1.14.1" = _pEuFDD7d;
+        "iris-1.14.2" = _pEuFDD7d;
+        "iris-1.14.3" = _pEuFDD7d;
+        "iris-1.14.4" = _pEuFDD7d;
+        "iris-1.15" = _pEuFDD7d;
+        "iris-1.15.1" = _pEuFDD7d;
+        "iris-1.15.2" = _pEuFDD7d;
+        "iris-1.16" = _pEuFDD7d;
+        "iris-1.16.1" = _pEuFDD7d;
+        "iris-1.16.2" = _pEuFDD7d;
+        "iris-1.16.3" = _pEuFDD7d;
+        "iris-1.16.4" = _pEuFDD7d;
+        "iris-1.16.5" = _pEuFDD7d;
+        "iris-1.17" = _pEuFDD7d;
+        "iris-1.17.1" = _pEuFDD7d;
+        "iris-1.18" = _pEuFDD7d;
+        "iris-1.18.1" = _pEuFDD7d;
+        "iris-1.18.2" = _pEuFDD7d;
+        "iris-1.19" = _pEuFDD7d;
+        "iris-1.19.1" = _pEuFDD7d;
+        "iris-1.19.2" = _pEuFDD7d;
+        "iris-1.19.3" = _pEuFDD7d;
+        "iris-1.19.4" = _pEuFDD7d;
+        "iris-1.20" = _pEuFDD7d;
+        "iris-1.20.1" = _pEuFDD7d;
+        "iris-1.20.2" = _pEuFDD7d;
+        "iris-1.20.3" = _pEuFDD7d;
+        "iris-1.20.4" = _pEuFDD7d;
+        "iris-1.20.5" = _pEuFDD7d;
+        "iris-1.20.6" = _pEuFDD7d;
+        "iris-1.12" = _pEuFDD7d;
+        "iris-1.12.1" = _pEuFDD7d;
+        "iris-1.21" = _pEuFDD7d;
+        "iris-1.21.1" = _pEuFDD7d;
+        "iris-1.21.2" = _pEuFDD7d;
+        "iris-1.21.3" = _pEuFDD7d;
+        "iris-1.21.4" = _pEuFDD7d;
+        "iris-1.21.5" = _pEuFDD7d;
+        "iris-1.21.6" = _pEuFDD7d;
+        "iris-1.21.7" = _pEuFDD7d;
+        "iris-1.21.8" = _pEuFDD7d;
+        "iris-1.21.9" = _pEuFDD7d;
+        "iris-1.21.10" = _pEuFDD7d;
+        "iris-1.21.11" = _pEuFDD7d;
+        "iris-26.1" = _pEuFDD7d;
+        "iris-26.1.1" = _pEuFDD7d;
+        "iris-26.1.2" = _pEuFDD7d;
+        "optifine-1.12.2" = _pEuFDD7d;
+        "optifine-1.13" = _pEuFDD7d;
+        "optifine-1.13.1" = _pEuFDD7d;
+        "optifine-1.13.2" = _pEuFDD7d;
+        "optifine-1.14" = _pEuFDD7d;
+        "optifine-1.14.1" = _pEuFDD7d;
+        "optifine-1.14.2" = _pEuFDD7d;
+        "optifine-1.14.3" = _pEuFDD7d;
+        "optifine-1.14.4" = _pEuFDD7d;
+        "optifine-1.15" = _pEuFDD7d;
+        "optifine-1.15.1" = _pEuFDD7d;
+        "optifine-1.15.2" = _pEuFDD7d;
+        "optifine-1.16" = _pEuFDD7d;
+        "optifine-1.16.1" = _pEuFDD7d;
+        "optifine-1.16.2" = _pEuFDD7d;
+        "optifine-1.16.3" = _pEuFDD7d;
+        "optifine-1.16.4" = _pEuFDD7d;
+        "optifine-1.16.5" = _pEuFDD7d;
+        "optifine-1.17" = _pEuFDD7d;
+        "optifine-1.17.1" = _pEuFDD7d;
+        "optifine-1.18" = _pEuFDD7d;
+        "optifine-1.18.1" = _pEuFDD7d;
+        "optifine-1.18.2" = _pEuFDD7d;
+        "optifine-1.19" = _pEuFDD7d;
+        "optifine-1.19.1" = _pEuFDD7d;
+        "optifine-1.19.2" = _pEuFDD7d;
+        "optifine-1.19.3" = _pEuFDD7d;
+        "optifine-1.19.4" = _pEuFDD7d;
+        "optifine-1.20" = _pEuFDD7d;
+        "optifine-1.20.1" = _pEuFDD7d;
+        "optifine-1.20.2" = _pEuFDD7d;
+        "optifine-1.20.3" = _pEuFDD7d;
+        "optifine-1.20.4" = _pEuFDD7d;
+        "optifine-1.20.5" = _pEuFDD7d;
+        "optifine-1.20.6" = _pEuFDD7d;
+        "optifine-1.12" = _pEuFDD7d;
+        "optifine-1.12.1" = _pEuFDD7d;
+        "optifine-1.21" = _pEuFDD7d;
+        "optifine-1.21.1" = _pEuFDD7d;
+        "optifine-1.21.2" = _pEuFDD7d;
+        "optifine-1.21.3" = _pEuFDD7d;
+        "optifine-1.21.4" = _pEuFDD7d;
+        "optifine-1.21.5" = _pEuFDD7d;
+        "optifine-1.21.6" = _pEuFDD7d;
+        "optifine-1.21.7" = _pEuFDD7d;
+        "optifine-1.21.8" = _pEuFDD7d;
+        "optifine-1.21.9" = _pEuFDD7d;
+        "optifine-1.21.10" = _pEuFDD7d;
+        "optifine-1.21.11" = _pEuFDD7d;
+        "optifine-26.1" = _pEuFDD7d;
+        "optifine-26.1.1" = _pEuFDD7d;
+        "optifine-26.1.2" = _pEuFDD7d;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "b-and-w-shader";
+            id = "vNYopNcO";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="pEuFDD7d";}

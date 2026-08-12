@@ -1,0 +1,113 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _eJSPw0M7 = {
+            "id" = "eJSPw0M7";
+            "file" = "Created+Applied+Energistics.zip";
+            "hash" = "sha512-1WPJYTAPWfr5zypY4VKVv+koFyIqmd2AOVp+0dOk/E67sxpSXfenLKkr+yvda2LMai+xjlrO/01QR2SYOhmLpw==";
+        };
+    in {
+        "eJSPw0M7" = _eJSPw0M7;
+        "minecraft-1.7.3" = _eJSPw0M7;
+        "minecraft-1.7.4" = _eJSPw0M7;
+        "minecraft-1.7.5" = _eJSPw0M7;
+        "minecraft-1.7.6" = _eJSPw0M7;
+        "minecraft-1.7.7" = _eJSPw0M7;
+        "minecraft-1.7.8" = _eJSPw0M7;
+        "minecraft-1.7.9" = _eJSPw0M7;
+        "minecraft-1.7.10" = _eJSPw0M7;
+        "minecraft-1.8" = _eJSPw0M7;
+        "minecraft-1.8.1" = _eJSPw0M7;
+        "minecraft-1.8.2" = _eJSPw0M7;
+        "minecraft-1.8.3" = _eJSPw0M7;
+        "minecraft-1.8.4" = _eJSPw0M7;
+        "minecraft-1.8.5" = _eJSPw0M7;
+        "minecraft-1.8.6" = _eJSPw0M7;
+        "minecraft-1.8.7" = _eJSPw0M7;
+        "minecraft-1.8.8" = _eJSPw0M7;
+        "minecraft-1.8.9" = _eJSPw0M7;
+        "minecraft-1.9" = _eJSPw0M7;
+        "minecraft-1.9.1" = _eJSPw0M7;
+        "minecraft-1.9.2" = _eJSPw0M7;
+        "minecraft-1.9.3" = _eJSPw0M7;
+        "minecraft-1.9.4" = _eJSPw0M7;
+        "minecraft-1.10" = _eJSPw0M7;
+        "minecraft-1.10.1" = _eJSPw0M7;
+        "minecraft-1.10.2" = _eJSPw0M7;
+        "minecraft-1.11" = _eJSPw0M7;
+        "minecraft-1.11.1" = _eJSPw0M7;
+        "minecraft-1.11.2" = _eJSPw0M7;
+        "minecraft-1.12" = _eJSPw0M7;
+        "minecraft-1.12.1" = _eJSPw0M7;
+        "minecraft-1.12.2" = _eJSPw0M7;
+        "minecraft-1.13" = _eJSPw0M7;
+        "minecraft-1.13.1" = _eJSPw0M7;
+        "minecraft-1.13.2" = _eJSPw0M7;
+        "minecraft-1.14" = _eJSPw0M7;
+        "minecraft-1.14.1" = _eJSPw0M7;
+        "minecraft-1.14.2" = _eJSPw0M7;
+        "minecraft-1.14.3" = _eJSPw0M7;
+        "minecraft-1.14.4" = _eJSPw0M7;
+        "minecraft-1.15" = _eJSPw0M7;
+        "minecraft-1.15.1" = _eJSPw0M7;
+        "minecraft-1.15.2" = _eJSPw0M7;
+        "minecraft-1.16" = _eJSPw0M7;
+        "minecraft-1.16.1" = _eJSPw0M7;
+        "minecraft-1.16.2" = _eJSPw0M7;
+        "minecraft-1.16.3" = _eJSPw0M7;
+        "minecraft-1.16.4" = _eJSPw0M7;
+        "minecraft-1.16.5" = _eJSPw0M7;
+        "minecraft-1.17" = _eJSPw0M7;
+        "minecraft-1.17.1" = _eJSPw0M7;
+        "minecraft-1.18" = _eJSPw0M7;
+        "minecraft-1.18.1" = _eJSPw0M7;
+        "minecraft-1.18.2" = _eJSPw0M7;
+        "minecraft-1.19" = _eJSPw0M7;
+        "minecraft-1.19.1" = _eJSPw0M7;
+        "minecraft-1.19.2" = _eJSPw0M7;
+        "minecraft-1.19.3" = _eJSPw0M7;
+        "minecraft-1.19.4" = _eJSPw0M7;
+        "minecraft-1.20" = _eJSPw0M7;
+        "minecraft-1.20.1" = _eJSPw0M7;
+        "minecraft-1.20.2" = _eJSPw0M7;
+        "minecraft-1.20.3" = _eJSPw0M7;
+        "minecraft-1.20.4" = _eJSPw0M7;
+        "minecraft-1.20.5" = _eJSPw0M7;
+        "minecraft-1.20.6" = _eJSPw0M7;
+        "minecraft-1.21" = _eJSPw0M7;
+        "minecraft-1.21.1" = _eJSPw0M7;
+        "minecraft-1.21.2" = _eJSPw0M7;
+        "minecraft-1.21.3" = _eJSPw0M7;
+        "minecraft-1.21.4" = _eJSPw0M7;
+        "minecraft-1.21.5" = _eJSPw0M7;
+        "minecraft-1.21.6" = _eJSPw0M7;
+        "minecraft-1.21.7" = _eJSPw0M7;
+        "minecraft-1.21.8" = _eJSPw0M7;
+        "minecraft-1.21.9" = _eJSPw0M7;
+        "minecraft-1.21.10" = _eJSPw0M7;
+        "minecraft-1.21.11" = _eJSPw0M7;
+        "minecraft-26.1" = _eJSPw0M7;
+        "minecraft-26.1.1" = _eJSPw0M7;
+        "minecraft-26.1.2" = _eJSPw0M7;
+        "minecraft-26.2" = _eJSPw0M7;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "created-ae2";
+            id = "JjNsIkUt";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="eJSPw0M7";}

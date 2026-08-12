@@ -1,0 +1,133 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _UIWGzZts = {
+            "id" = "UIWGzZts";
+            "file" = "hobbit_hill_village-1.19-1.21.7-v0.0.1.jar";
+            "hash" = "sha512-2AFHm3KcSMnuvbzIQIvCbbC5VVqh7+t9oWp4oFUjOaHmPVz0wvCPPJmEpMLGElwbMKYWfemyedhEdJAAl5cIgg==";
+        };
+        _vsZ1jlWu = {
+            "id" = "vsZ1jlWu";
+            "file" = "hobbit_hill_village-0.0.2.jar";
+            "hash" = "sha512-CFlhW5fB0KrUHy/ISwvbj4WIyf+9wVl4At4GlZnWLrozJE/pXwOuJBWw+C3aeJhQbpmm+K1DICYRElKbWvzupw==";
+        };
+        _v2P1OitK = {
+            "id" = "v2P1OitK";
+            "file" = "hobbit_hill_village-0.0.3.jar";
+            "hash" = "sha512-CJxl9Um8T4+aOWoJNiZvPxITomQNPPUa8N1JXVJgg6q9Vbn1WqkWI3bbPCFhUZ9/xBRxNBSnSVqFvnhx3+odaA==";
+        };
+        _CCd9XuxA = {
+            "id" = "CCd9XuxA";
+            "file" = "hobbit_hill_village-0.0.4.jar";
+            "hash" = "sha512-S4BUe5GTtCB9afgK/y6SZDX+UFtrf/XALh8a2c+d+tCgrVCvTPMFADpwO+kNZdslaxRvDgaz6qcBaSD7LJYdXw==";
+        };
+    in {
+        "UIWGzZts" = _UIWGzZts;
+        "vsZ1jlWu" = _vsZ1jlWu;
+        "v2P1OitK" = _v2P1OitK;
+        "CCd9XuxA" = _CCd9XuxA;
+        "fabric-1.19" = _CCd9XuxA;
+        "fabric-1.19.1" = _CCd9XuxA;
+        "fabric-1.19.2" = _CCd9XuxA;
+        "fabric-1.19.3" = _CCd9XuxA;
+        "fabric-1.19.4" = _CCd9XuxA;
+        "fabric-1.20" = _CCd9XuxA;
+        "fabric-1.20.1" = _CCd9XuxA;
+        "fabric-1.20.2" = _CCd9XuxA;
+        "fabric-1.20.3" = _CCd9XuxA;
+        "fabric-1.20.4" = _CCd9XuxA;
+        "fabric-1.20.5" = _CCd9XuxA;
+        "fabric-1.20.6" = _CCd9XuxA;
+        "fabric-1.21" = _CCd9XuxA;
+        "fabric-1.21.1" = _CCd9XuxA;
+        "fabric-1.21.2" = _CCd9XuxA;
+        "fabric-1.21.3" = _CCd9XuxA;
+        "fabric-1.21.4" = _CCd9XuxA;
+        "fabric-1.21.5" = _CCd9XuxA;
+        "fabric-1.21.6" = _CCd9XuxA;
+        "fabric-1.21.7" = _CCd9XuxA;
+        "fabric-1.21.8" = _CCd9XuxA;
+        "fabric-1.21.9" = _CCd9XuxA;
+        "fabric-1.21.10" = _CCd9XuxA;
+        "fabric-1.21.11" = _CCd9XuxA;
+        "fabric-26.1" = _CCd9XuxA;
+        "fabric-26.1.1" = _CCd9XuxA;
+        "fabric-26.1.2" = _CCd9XuxA;
+        "fabric-26.2" = _CCd9XuxA;
+        "forge-1.19" = _CCd9XuxA;
+        "forge-1.19.1" = _CCd9XuxA;
+        "forge-1.19.2" = _CCd9XuxA;
+        "forge-1.19.3" = _CCd9XuxA;
+        "forge-1.19.4" = _CCd9XuxA;
+        "forge-1.20" = _CCd9XuxA;
+        "forge-1.20.1" = _CCd9XuxA;
+        "forge-1.20.2" = _CCd9XuxA;
+        "forge-1.20.3" = _CCd9XuxA;
+        "forge-1.20.4" = _CCd9XuxA;
+        "forge-1.20.5" = _CCd9XuxA;
+        "forge-1.20.6" = _CCd9XuxA;
+        "forge-1.21" = _CCd9XuxA;
+        "forge-1.21.1" = _CCd9XuxA;
+        "forge-1.21.2" = _CCd9XuxA;
+        "forge-1.21.3" = _CCd9XuxA;
+        "forge-1.21.4" = _CCd9XuxA;
+        "forge-1.21.5" = _CCd9XuxA;
+        "forge-1.21.6" = _CCd9XuxA;
+        "forge-1.21.7" = _CCd9XuxA;
+        "forge-1.21.8" = _CCd9XuxA;
+        "forge-1.21.9" = _CCd9XuxA;
+        "forge-1.21.10" = _CCd9XuxA;
+        "forge-1.21.11" = _CCd9XuxA;
+        "forge-26.1" = _CCd9XuxA;
+        "forge-26.1.1" = _CCd9XuxA;
+        "forge-26.1.2" = _CCd9XuxA;
+        "forge-26.2" = _CCd9XuxA;
+        "neoforge-1.19" = _CCd9XuxA;
+        "neoforge-1.19.1" = _CCd9XuxA;
+        "neoforge-1.19.2" = _CCd9XuxA;
+        "neoforge-1.19.3" = _CCd9XuxA;
+        "neoforge-1.19.4" = _CCd9XuxA;
+        "neoforge-1.20" = _CCd9XuxA;
+        "neoforge-1.20.1" = _CCd9XuxA;
+        "neoforge-1.20.2" = _CCd9XuxA;
+        "neoforge-1.20.3" = _CCd9XuxA;
+        "neoforge-1.20.4" = _CCd9XuxA;
+        "neoforge-1.20.5" = _CCd9XuxA;
+        "neoforge-1.20.6" = _CCd9XuxA;
+        "neoforge-1.21" = _CCd9XuxA;
+        "neoforge-1.21.1" = _CCd9XuxA;
+        "neoforge-1.21.2" = _CCd9XuxA;
+        "neoforge-1.21.3" = _CCd9XuxA;
+        "neoforge-1.21.4" = _CCd9XuxA;
+        "neoforge-1.21.5" = _CCd9XuxA;
+        "neoforge-1.21.6" = _CCd9XuxA;
+        "neoforge-1.21.7" = _CCd9XuxA;
+        "neoforge-1.21.8" = _CCd9XuxA;
+        "neoforge-1.21.9" = _CCd9XuxA;
+        "neoforge-1.21.10" = _CCd9XuxA;
+        "neoforge-1.21.11" = _CCd9XuxA;
+        "neoforge-26.1" = _CCd9XuxA;
+        "neoforge-26.1.1" = _CCd9XuxA;
+        "neoforge-26.1.2" = _CCd9XuxA;
+        "neoforge-26.2" = _CCd9XuxA;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "hobbit-hill-village";
+            id = "zI84EmO0";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="CCd9XuxA";}

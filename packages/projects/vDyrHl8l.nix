@@ -1,0 +1,329 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _QskVSOkN = {
+            "id" = "QskVSOkN";
+            "file" = "proxy-compatible-forge-1.16.5-1.0.0.jar";
+            "hash" = "sha512-ZfaF7GNalukj46Ky8q4Im18RZpViSbypDXjjmAzRJPS0Lhdekl5LYTZVSuGIFvPi0iqRSot4klpvNrF99HU4qw==";
+        };
+        _37pNkmg2 = {
+            "id" = "37pNkmg2";
+            "file" = "proxy-compatible-forge-1.16.5-1.0.2.jar";
+            "hash" = "sha512-TAqamCl/32Cqj++t1tn8edk/3/ZoMAFyltdEJPCadxL/W7GEMKOBxmuooR4bG7W4qzLTjUf2JhyUMhSoPAwGbg==";
+        };
+        _ECHWKFhc = {
+            "id" = "ECHWKFhc";
+            "file" = "proxy-compatible-forge-1.19.3-1.1.0.jar";
+            "hash" = "sha512-PQfKOkBcTJOTcTThgsPJGaQBEjpQNfyYANi/lqeId1xuQ0H7ncMseMGGtJ7jSzMYx6lmuQ57p7WayvuYYbUPow==";
+        };
+        _R0WD8nMa = {
+            "id" = "R0WD8nMa";
+            "file" = "proxy-compatible-forge-1.19.3-1.1.1.jar";
+            "hash" = "sha512-qCizZi1cQiK0nwff1QlG3IWlmwn2xESYH+iwkKDHTywhTToindW6Z0oywacCVpWmwKm2NfmvenDEGTzKB5Q3jA==";
+        };
+        _HnycUnXK = {
+            "id" = "HnycUnXK";
+            "file" = "proxy-compatible-forge-1.16.5-1.1.2.jar";
+            "hash" = "sha512-fXqtGNk4+Q8u/JiZt+37eD53DlxrzhTukOWSNH7JWnTuveCXsHmlCsTAX59e7AG4Sangzsc/ROf+P2TYKJKtxA==";
+        };
+        _sgmfz6AW = {
+            "id" = "sgmfz6AW";
+            "file" = "proxy-compatible-forge-1.19.3-1.1.3.jar";
+            "hash" = "sha512-AyuachlQoOv7OwQXAjg+f/JB1xdkDGd5FFKR5XdviNvhWDmz84oWxZvQ3C1uSceAc2Vg2fCr8NZDpXsGKIyhrg==";
+        };
+        _G4NbYvzi = {
+            "id" = "G4NbYvzi";
+            "file" = "proxy-compatible-forge-1.20-1.1.3.jar";
+            "hash" = "sha512-Xk5wjkX0D36pgSSJ9gIvWlB7aszXVgrxKaUyNC6Nr8Cn6qrDTQmKuEOW1fV3wJjHRb02hgQo7eU08wdJt6VQ0w==";
+        };
+        _E5LSAQzC = {
+            "id" = "E5LSAQzC";
+            "file" = "proxy-compatible-forge-1.16.5-1.1.4.jar";
+            "hash" = "sha512-Snwn0ec+jPcJ8eP5nfCN+vr01whKmhbx1eIDEZPxvk2oy2s0xfoxd5+vK6VD04UNk3oaYm9bLw3O0JWLUTYoKw==";
+        };
+        _a2Bs3TG6 = {
+            "id" = "a2Bs3TG6";
+            "file" = "proxy-compatible-forge-1.18.2-1.1.4.jar";
+            "hash" = "sha512-d2G2dy1yHnhkjKBifn0AP+hCUvInVbc+iz/fC6KegX1G52wCuTzC6VAs73D4tKSPL+auwdEb4FjJQvAPn4OtmQ==";
+        };
+        _oTV4lVbG = {
+            "id" = "oTV4lVbG";
+            "file" = "proxy-compatible-forge-1.19.2-1.1.4.jar";
+            "hash" = "sha512-YikvYGD2D00TVv3GSmkZl+7Z25kYo98wsrMRnqgLTMOzt1HRSXo04FT/nuoRcG00ob3xGeincKsObl5RZS6mfg==";
+        };
+        _nf4BzSns = {
+            "id" = "nf4BzSns";
+            "file" = "proxy-compatible-forge-1.19.3-1.1.4.jar";
+            "hash" = "sha512-36UhAqudkqiufSkDsWOCuG517NZpyls2Pb8fR1aI0DwB2yAYk27jSLZLprogSdzXszEahDyl5aPD1AbuvbPH/A==";
+        };
+        _K43ePlgq = {
+            "id" = "K43ePlgq";
+            "file" = "proxy-compatible-forge-1.20-1.1.4.jar";
+            "hash" = "sha512-fHCQy2wiMQgR8hShNrVmyQ7mbPxIspUdPbK9B/rspWhGFk/43p1ZOCWkTbb+qqaz9Bk9IncvM+9p1fi5+DGK4g==";
+        };
+        _9j2U3PgC = {
+            "id" = "9j2U3PgC";
+            "file" = "proxy-compatible-forge-1.1.5.jar";
+            "hash" = "sha512-1o+HW/SPOqGLw3G7NfOD/Z+LlmbSRQBCXxyzUPiusewr2MYii8qw3ApnLlD1peNij5woc4bHKBR3DA3FDkAXyQ==";
+        };
+        _IHkKl1rj = {
+            "id" = "IHkKl1rj";
+            "file" = "proxy-compatible-forge-1.1.6.jar";
+            "hash" = "sha512-W+oo3XyvXODVfsnSvKBK2zNB+ffflezD85LlErfX/1um7u6qRwITMxASd/FpK6obA/Ryfle0lAECGMSyK3aWpg==";
+        };
+        _jfiEc2mQ = {
+            "id" = "jfiEc2mQ";
+            "file" = "proxy-compatible-forge-1.1.7.jar";
+            "hash" = "sha512-DVaRNpYbZa9jXsiKyEKYz3i8hSBa5cGCoW4BVa3UviQcSumS5rnKt9958GpI0LpJk0bMTGQ3czWfymYvpf73Vw==";
+        };
+        _sIUW9Tb6 = {
+            "id" = "sIUW9Tb6";
+            "file" = "proxy-compatible-forge-1.2.0.jar";
+            "hash" = "sha512-rnL0pBDPvZNFS9ApHJPjsopGfUUzsJgjE11RxrJ7T+Tbrz7EgKySeZ5Df1DjTS2KRdlSJSts+UUSoiy3ysN2ig==";
+        };
+        _82bwNhmQ = {
+            "id" = "82bwNhmQ";
+            "file" = "proxy-compatible-forge-1.2.1.jar";
+            "hash" = "sha512-AHzOWC1OOypmJ2uc3LadaQ4ZBMsl088maYQC7UTSeFJf5vY0cQva+IAnRPkkWRl3bA1H7QEv7715olbXA2yPSg==";
+        };
+        _mNsCcGDZ = {
+            "id" = "mNsCcGDZ";
+            "file" = "proxy-compatible-forge-1.2.2.jar";
+            "hash" = "sha512-LfEwfET+WswrFkQVXeGcWzHXD+9lfP2+JCj8Ip+PO1dTuV/ai1jetjKHByjfYaRtoIbkp89P10QYqCIjxpun0w==";
+        };
+        _K0BYby1n = {
+            "id" = "K0BYby1n";
+            "file" = "proxy-compatible-forge-1.2.3.jar";
+            "hash" = "sha512-ipRzK603FywWAp5s90eObBrLwY/jj5noZ+xuQjkEncaFHxn5PyC/BWG4YvQTUWoxiWogP8UhZmOVwT1Judf62w==";
+        };
+        _T8m3lORW = {
+            "id" = "T8m3lORW";
+            "file" = "proxy-compatible-forge-1.2.4.jar";
+            "hash" = "sha512-LLvibjVSxWgjFnIXVImRlVU4hdrxfWPrBQN/S9rLXMje7rC6EXDUT60lURiciFFAwUH80wA/op+ez//g7+r4xA==";
+        };
+        _3Dm2pAe9 = {
+            "id" = "3Dm2pAe9";
+            "file" = "proxy-compatible-forge-1.2.5.jar";
+            "hash" = "sha512-23vFuC/+KywISgMlhb6foBbvNx7MVj8dedZZjRTnN7llreV5vzTlgnXH6qMgtrRLeOPj2wrjU/phe6cYRzzXGA==";
+        };
+        _iRclYdm8 = {
+            "id" = "iRclYdm8";
+            "file" = "proxy-compatible-forge-1.2.6.jar";
+            "hash" = "sha512-3kj0CcD3gCF6JX3Ftxlv716TBwO1E6yT9YZY8dsNPAArqO5ofq2QsWklV67jzWgJX4hgNwRg7dRG+vMHqN9IWw==";
+        };
+        _uRu4jaFs = {
+            "id" = "uRu4jaFs";
+            "file" = "proxy-compatible-forge-1.3.0.jar";
+            "hash" = "sha512-FYey0PbVOXgDgY8TjGrheifj5c0D4rGZAGcuWlBjyLVIQTAX6MREQopkO2m5/QYcnY78kCDOm/hmVJgE2l4k5Q==";
+        };
+    in {
+        "QskVSOkN" = _QskVSOkN;
+        "37pNkmg2" = _37pNkmg2;
+        "ECHWKFhc" = _ECHWKFhc;
+        "R0WD8nMa" = _R0WD8nMa;
+        "HnycUnXK" = _HnycUnXK;
+        "sgmfz6AW" = _sgmfz6AW;
+        "G4NbYvzi" = _G4NbYvzi;
+        "E5LSAQzC" = _E5LSAQzC;
+        "a2Bs3TG6" = _a2Bs3TG6;
+        "oTV4lVbG" = _oTV4lVbG;
+        "nf4BzSns" = _nf4BzSns;
+        "K43ePlgq" = _K43ePlgq;
+        "9j2U3PgC" = _9j2U3PgC;
+        "IHkKl1rj" = _IHkKl1rj;
+        "jfiEc2mQ" = _jfiEc2mQ;
+        "sIUW9Tb6" = _sIUW9Tb6;
+        "82bwNhmQ" = _82bwNhmQ;
+        "mNsCcGDZ" = _mNsCcGDZ;
+        "K0BYby1n" = _K0BYby1n;
+        "T8m3lORW" = _T8m3lORW;
+        "3Dm2pAe9" = _3Dm2pAe9;
+        "iRclYdm8" = _iRclYdm8;
+        "uRu4jaFs" = _uRu4jaFs;
+        "forge-1.16.5" = _uRu4jaFs;
+        "forge-1.18.2" = _uRu4jaFs;
+        "forge-1.19.2" = _uRu4jaFs;
+        "forge-1.19.3" = _uRu4jaFs;
+        "forge-1.20" = _uRu4jaFs;
+        "forge-1.20.1" = _uRu4jaFs;
+        "forge-1.19.4" = _uRu4jaFs;
+        "forge-1.14" = _uRu4jaFs;
+        "forge-1.14.1" = _uRu4jaFs;
+        "forge-1.14.2" = _uRu4jaFs;
+        "forge-1.14.3" = _uRu4jaFs;
+        "forge-1.14.4" = _uRu4jaFs;
+        "forge-1.15" = _uRu4jaFs;
+        "forge-1.15.1" = _uRu4jaFs;
+        "forge-1.15.2" = _uRu4jaFs;
+        "forge-1.16" = _uRu4jaFs;
+        "forge-1.16.1" = _uRu4jaFs;
+        "forge-1.16.2" = _uRu4jaFs;
+        "forge-1.16.3" = _uRu4jaFs;
+        "forge-1.16.4" = _uRu4jaFs;
+        "forge-1.17" = _uRu4jaFs;
+        "forge-1.17.1" = _uRu4jaFs;
+        "forge-1.18" = _uRu4jaFs;
+        "forge-1.18.1" = _uRu4jaFs;
+        "forge-1.19" = _uRu4jaFs;
+        "forge-1.19.1" = _uRu4jaFs;
+        "forge-1.20.2" = _uRu4jaFs;
+        "forge-1.20.3" = _uRu4jaFs;
+        "forge-1.20.4" = _uRu4jaFs;
+        "forge-1.20.5" = _uRu4jaFs;
+        "forge-1.20.6" = _uRu4jaFs;
+        "forge-1.21" = _uRu4jaFs;
+        "forge-1.21.1" = _uRu4jaFs;
+        "forge-1.21.2" = _uRu4jaFs;
+        "forge-1.21.3" = _uRu4jaFs;
+        "forge-1.21.4" = _uRu4jaFs;
+        "forge-1.21.5" = _uRu4jaFs;
+        "forge-1.21.6" = _uRu4jaFs;
+        "forge-1.21.7" = _uRu4jaFs;
+        "forge-1.21.8" = _uRu4jaFs;
+        "forge-1.21.9" = _uRu4jaFs;
+        "forge-1.21.10" = _uRu4jaFs;
+        "forge-1.7.2" = _uRu4jaFs;
+        "forge-1.7.3" = _uRu4jaFs;
+        "forge-1.7.4" = _uRu4jaFs;
+        "forge-1.7.5" = _uRu4jaFs;
+        "forge-1.7.6" = _uRu4jaFs;
+        "forge-1.7.7" = _uRu4jaFs;
+        "forge-1.7.8" = _uRu4jaFs;
+        "forge-1.7.9" = _uRu4jaFs;
+        "forge-1.7.10" = _uRu4jaFs;
+        "forge-1.8" = _uRu4jaFs;
+        "forge-1.8.1" = _uRu4jaFs;
+        "forge-1.8.2" = _uRu4jaFs;
+        "forge-1.8.3" = _uRu4jaFs;
+        "forge-1.8.4" = _uRu4jaFs;
+        "forge-1.8.5" = _uRu4jaFs;
+        "forge-1.8.6" = _uRu4jaFs;
+        "forge-1.8.7" = _uRu4jaFs;
+        "forge-1.8.8" = _uRu4jaFs;
+        "forge-1.8.9" = _uRu4jaFs;
+        "forge-1.9" = _uRu4jaFs;
+        "forge-1.9.1" = _uRu4jaFs;
+        "forge-1.9.2" = _uRu4jaFs;
+        "forge-1.9.3" = _uRu4jaFs;
+        "forge-1.9.4" = _uRu4jaFs;
+        "forge-1.10" = _uRu4jaFs;
+        "forge-1.10.1" = _uRu4jaFs;
+        "forge-1.10.2" = _uRu4jaFs;
+        "forge-1.11" = _uRu4jaFs;
+        "forge-1.11.1" = _uRu4jaFs;
+        "forge-1.11.2" = _uRu4jaFs;
+        "forge-1.12" = _uRu4jaFs;
+        "forge-1.12.1" = _uRu4jaFs;
+        "forge-1.12.2" = _uRu4jaFs;
+        "forge-1.21.11" = _uRu4jaFs;
+        "forge-1.13" = _uRu4jaFs;
+        "forge-1.13.1" = _uRu4jaFs;
+        "forge-1.13.2" = _uRu4jaFs;
+        "forge-26.1" = _uRu4jaFs;
+        "forge-26.1.1" = _uRu4jaFs;
+        "forge-26.1.2" = _uRu4jaFs;
+        "forge-26.2" = _uRu4jaFs;
+        "neoforge-1.14" = _uRu4jaFs;
+        "neoforge-1.14.1" = _uRu4jaFs;
+        "neoforge-1.14.2" = _uRu4jaFs;
+        "neoforge-1.14.3" = _uRu4jaFs;
+        "neoforge-1.14.4" = _uRu4jaFs;
+        "neoforge-1.15" = _uRu4jaFs;
+        "neoforge-1.15.1" = _uRu4jaFs;
+        "neoforge-1.15.2" = _uRu4jaFs;
+        "neoforge-1.16" = _uRu4jaFs;
+        "neoforge-1.16.1" = _uRu4jaFs;
+        "neoforge-1.16.2" = _uRu4jaFs;
+        "neoforge-1.16.3" = _uRu4jaFs;
+        "neoforge-1.16.4" = _uRu4jaFs;
+        "neoforge-1.16.5" = _uRu4jaFs;
+        "neoforge-1.17" = _uRu4jaFs;
+        "neoforge-1.17.1" = _uRu4jaFs;
+        "neoforge-1.18" = _uRu4jaFs;
+        "neoforge-1.18.1" = _uRu4jaFs;
+        "neoforge-1.18.2" = _uRu4jaFs;
+        "neoforge-1.19" = _uRu4jaFs;
+        "neoforge-1.19.1" = _uRu4jaFs;
+        "neoforge-1.19.2" = _uRu4jaFs;
+        "neoforge-1.19.3" = _uRu4jaFs;
+        "neoforge-1.19.4" = _uRu4jaFs;
+        "neoforge-1.20" = _uRu4jaFs;
+        "neoforge-1.20.1" = _uRu4jaFs;
+        "neoforge-1.20.2" = _uRu4jaFs;
+        "neoforge-1.20.3" = _uRu4jaFs;
+        "neoforge-1.20.4" = _uRu4jaFs;
+        "neoforge-1.20.5" = _uRu4jaFs;
+        "neoforge-1.20.6" = _uRu4jaFs;
+        "neoforge-1.21" = _uRu4jaFs;
+        "neoforge-1.21.1" = _uRu4jaFs;
+        "neoforge-1.21.2" = _uRu4jaFs;
+        "neoforge-1.21.3" = _uRu4jaFs;
+        "neoforge-1.21.4" = _uRu4jaFs;
+        "neoforge-1.21.5" = _uRu4jaFs;
+        "neoforge-1.21.6" = _uRu4jaFs;
+        "neoforge-1.21.7" = _uRu4jaFs;
+        "neoforge-1.21.8" = _uRu4jaFs;
+        "neoforge-1.21.9" = _uRu4jaFs;
+        "neoforge-1.21.10" = _uRu4jaFs;
+        "neoforge-1.7.2" = _uRu4jaFs;
+        "neoforge-1.7.3" = _uRu4jaFs;
+        "neoforge-1.7.4" = _uRu4jaFs;
+        "neoforge-1.7.5" = _uRu4jaFs;
+        "neoforge-1.7.6" = _uRu4jaFs;
+        "neoforge-1.7.7" = _uRu4jaFs;
+        "neoforge-1.7.8" = _uRu4jaFs;
+        "neoforge-1.7.9" = _uRu4jaFs;
+        "neoforge-1.7.10" = _uRu4jaFs;
+        "neoforge-1.8" = _uRu4jaFs;
+        "neoforge-1.8.1" = _uRu4jaFs;
+        "neoforge-1.8.2" = _uRu4jaFs;
+        "neoforge-1.8.3" = _uRu4jaFs;
+        "neoforge-1.8.4" = _uRu4jaFs;
+        "neoforge-1.8.5" = _uRu4jaFs;
+        "neoforge-1.8.6" = _uRu4jaFs;
+        "neoforge-1.8.7" = _uRu4jaFs;
+        "neoforge-1.8.8" = _uRu4jaFs;
+        "neoforge-1.8.9" = _uRu4jaFs;
+        "neoforge-1.9" = _uRu4jaFs;
+        "neoforge-1.9.1" = _uRu4jaFs;
+        "neoforge-1.9.2" = _uRu4jaFs;
+        "neoforge-1.9.3" = _uRu4jaFs;
+        "neoforge-1.9.4" = _uRu4jaFs;
+        "neoforge-1.10" = _uRu4jaFs;
+        "neoforge-1.10.1" = _uRu4jaFs;
+        "neoforge-1.10.2" = _uRu4jaFs;
+        "neoforge-1.11" = _uRu4jaFs;
+        "neoforge-1.11.1" = _uRu4jaFs;
+        "neoforge-1.11.2" = _uRu4jaFs;
+        "neoforge-1.12" = _uRu4jaFs;
+        "neoforge-1.12.1" = _uRu4jaFs;
+        "neoforge-1.12.2" = _uRu4jaFs;
+        "neoforge-1.21.11" = _uRu4jaFs;
+        "neoforge-1.13" = _uRu4jaFs;
+        "neoforge-1.13.1" = _uRu4jaFs;
+        "neoforge-1.13.2" = _uRu4jaFs;
+        "neoforge-26.1" = _uRu4jaFs;
+        "neoforge-26.1.1" = _uRu4jaFs;
+        "neoforge-26.1.2" = _uRu4jaFs;
+        "neoforge-26.2" = _uRu4jaFs;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "proxy-compatible-forge";
+            id = "vDyrHl8l";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU Lesser General Public License v2.1 or later";
+                    shortName = "LGPL-2.1-or-later";
+                    url = "https://github.com/adde0109/Proxy-Compatible-Forge/blob/main/LICENSE.md";
+                };
+            };
+        };
+in callPackage fn {version="uRu4jaFs";}

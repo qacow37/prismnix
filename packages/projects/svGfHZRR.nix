@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _mYW616AZ = {
+            "id" = "mYW616AZ";
+            "file" = "void fog.zip";
+            "hash" = "sha512-4cn7GfR9pBkVcvNUIDvEIGugN5vJmqrJmrps4/15o2CcFbNnVr2XswHdaDPiDqQKmcZct5n0Z837jLK2PFP3BA==";
+        };
+        _Y3h17F96 = {
+            "id" = "Y3h17F96";
+            "file" = "return-of-the-void-fog-V1.0.jar";
+            "hash" = "sha512-r79Gxj+aIE7iKsU+uvK1tK/DvRamfoLjnxYMwccRUkPlqjMvTlpYUgSn5nSdmxGIkP8lRXHobjOxPTtb6ZBJCQ==";
+        };
+    in {
+        "mYW616AZ" = _mYW616AZ;
+        "Y3h17F96" = _Y3h17F96;
+        "datapack-1.21" = _mYW616AZ;
+        "datapack-1.21.1" = _mYW616AZ;
+        "datapack-1.21.2" = _mYW616AZ;
+        "datapack-1.21.3" = _mYW616AZ;
+        "datapack-1.21.4" = _mYW616AZ;
+        "datapack-1.21.5" = _mYW616AZ;
+        "datapack-1.21.6" = _mYW616AZ;
+        "datapack-1.21.7" = _mYW616AZ;
+        "datapack-1.21.8" = _mYW616AZ;
+        "datapack-1.21.9" = _mYW616AZ;
+        "datapack-1.21.10" = _mYW616AZ;
+        "datapack-1.21.11" = _mYW616AZ;
+        "datapack-26.1" = _mYW616AZ;
+        "datapack-26.1.1" = _mYW616AZ;
+        "datapack-26.1.2" = _mYW616AZ;
+        "datapack-26.2" = _mYW616AZ;
+        "fabric-1.21" = _Y3h17F96;
+        "fabric-1.21.1" = _Y3h17F96;
+        "fabric-1.21.2" = _Y3h17F96;
+        "fabric-1.21.3" = _Y3h17F96;
+        "fabric-1.21.4" = _Y3h17F96;
+        "fabric-1.21.5" = _Y3h17F96;
+        "fabric-1.21.6" = _Y3h17F96;
+        "fabric-1.21.7" = _Y3h17F96;
+        "fabric-1.21.8" = _Y3h17F96;
+        "fabric-1.21.9" = _Y3h17F96;
+        "fabric-1.21.10" = _Y3h17F96;
+        "fabric-1.21.11" = _Y3h17F96;
+        "fabric-26.1" = _Y3h17F96;
+        "fabric-26.1.1" = _Y3h17F96;
+        "fabric-26.1.2" = _Y3h17F96;
+        "fabric-26.2" = _Y3h17F96;
+        "forge-1.21" = _Y3h17F96;
+        "forge-1.21.1" = _Y3h17F96;
+        "forge-1.21.2" = _Y3h17F96;
+        "forge-1.21.3" = _Y3h17F96;
+        "forge-1.21.4" = _Y3h17F96;
+        "forge-1.21.5" = _Y3h17F96;
+        "forge-1.21.6" = _Y3h17F96;
+        "forge-1.21.7" = _Y3h17F96;
+        "forge-1.21.8" = _Y3h17F96;
+        "forge-1.21.9" = _Y3h17F96;
+        "forge-1.21.10" = _Y3h17F96;
+        "forge-1.21.11" = _Y3h17F96;
+        "forge-26.1" = _Y3h17F96;
+        "forge-26.1.1" = _Y3h17F96;
+        "forge-26.1.2" = _Y3h17F96;
+        "forge-26.2" = _Y3h17F96;
+        "neoforge-1.21" = _Y3h17F96;
+        "neoforge-1.21.1" = _Y3h17F96;
+        "neoforge-1.21.2" = _Y3h17F96;
+        "neoforge-1.21.3" = _Y3h17F96;
+        "neoforge-1.21.4" = _Y3h17F96;
+        "neoforge-1.21.5" = _Y3h17F96;
+        "neoforge-1.21.6" = _Y3h17F96;
+        "neoforge-1.21.7" = _Y3h17F96;
+        "neoforge-1.21.8" = _Y3h17F96;
+        "neoforge-1.21.9" = _Y3h17F96;
+        "neoforge-1.21.10" = _Y3h17F96;
+        "neoforge-1.21.11" = _Y3h17F96;
+        "neoforge-26.1" = _Y3h17F96;
+        "neoforge-26.1.1" = _Y3h17F96;
+        "neoforge-26.1.2" = _Y3h17F96;
+        "neoforge-26.2" = _Y3h17F96;
+        "quilt-1.21" = _Y3h17F96;
+        "quilt-1.21.1" = _Y3h17F96;
+        "quilt-1.21.2" = _Y3h17F96;
+        "quilt-1.21.3" = _Y3h17F96;
+        "quilt-1.21.4" = _Y3h17F96;
+        "quilt-1.21.5" = _Y3h17F96;
+        "quilt-1.21.6" = _Y3h17F96;
+        "quilt-1.21.7" = _Y3h17F96;
+        "quilt-1.21.8" = _Y3h17F96;
+        "quilt-1.21.9" = _Y3h17F96;
+        "quilt-1.21.10" = _Y3h17F96;
+        "quilt-1.21.11" = _Y3h17F96;
+        "quilt-26.1" = _Y3h17F96;
+        "quilt-26.1.1" = _Y3h17F96;
+        "quilt-26.1.2" = _Y3h17F96;
+        "quilt-26.2" = _Y3h17F96;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "return-of-the-void-fog";
+            id = "svGfHZRR";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Y3h17F96";}

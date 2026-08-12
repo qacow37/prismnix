@@ -1,0 +1,39 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _VQmiGIKH = {
+            "id" = "VQmiGIKH";
+            "file" = "hextrogen-1.0.0.jar";
+            "hash" = "sha512-PJsrElZfI3UigSdhQgXIKrHmkgNtaKGjjRRwSaaK+3SUOrkNLudLvsDpu1UUUi9WOOqO8h9Zt0qNIUPzUSuFEA==";
+        };
+        _juJQAmj2 = {
+            "id" = "juJQAmj2";
+            "file" = "hextrogen-1.1.0.jar";
+            "hash" = "sha512-+ceJEvps+ZQf8ezLgwXmaAhmlMIPh9hY3WbnNakM6CvgxDLs681viLAUBPLvgpa/rHCaw6naOgBo2puBFT3upg==";
+        };
+    in {
+        "VQmiGIKH" = _VQmiGIKH;
+        "juJQAmj2" = _juJQAmj2;
+        "fabric-1.20.1" = _juJQAmj2;
+        "quilt-1.20.1" = _juJQAmj2;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "hextrogen";
+            id = "m2lYRdre";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="juJQAmj2";}

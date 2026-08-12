@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Cvig0jwX = {
+            "id" = "Cvig0jwX";
+            "file" = "AncientEarth-[1.0.0].jar";
+            "hash" = "sha512-0Gkz7hmzbk3Vx5ww+HsE0L5eY2LtS5hf2qP064XcTQnxT8EFlWSX/p8AJXdHAXubAeS9LGGeDghNUpuCpYF/Dg==";
+        };
+    in {
+        "Cvig0jwX" = _Cvig0jwX;
+        "forge-1.20.1" = _Cvig0jwX;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "ancient-earth";
+            id = "m4CSUQii";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Cvig0jwX";}

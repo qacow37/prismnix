@@ -1,0 +1,125 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ts7Fhm90 = {
+            "id" = "ts7Fhm90";
+            "file" = "CRT_Shader_V1.0.zip";
+            "hash" = "sha512-btZ+DIMz//OaWgs1N3NBonz5PnsQjYI7khCm9r4Hp7PQwU4NRKVYy7+UlfdVCK77qqqXIvUgFUp+JC+/738tyA==";
+        };
+        _PzBMgESN = {
+            "id" = "PzBMgESN";
+            "file" = "CRT_Shader_V1.1.zip";
+            "hash" = "sha512-k3aRP8g9l1Oj9MWgjMIzJw23FtRKtI/SupyM5CcYmxeEB9/xIeMDqLbQT0rQII1duW7TJaFFwd1TlQLXvejsAA==";
+        };
+    in {
+        "ts7Fhm90" = _ts7Fhm90;
+        "PzBMgESN" = _PzBMgESN;
+        "iris-1.17.1" = _PzBMgESN;
+        "iris-1.18" = _PzBMgESN;
+        "iris-1.18.1" = _PzBMgESN;
+        "iris-1.18.2" = _PzBMgESN;
+        "iris-1.19" = _PzBMgESN;
+        "iris-1.19.1" = _PzBMgESN;
+        "iris-1.19.2" = _PzBMgESN;
+        "iris-1.19.3" = _PzBMgESN;
+        "iris-1.19.4" = _PzBMgESN;
+        "iris-1.20" = _PzBMgESN;
+        "iris-1.20.1" = _PzBMgESN;
+        "iris-1.8.9" = _PzBMgESN;
+        "iris-1.9" = _PzBMgESN;
+        "iris-1.9.1" = _PzBMgESN;
+        "iris-1.9.2" = _PzBMgESN;
+        "iris-1.9.3" = _PzBMgESN;
+        "iris-1.9.4" = _PzBMgESN;
+        "iris-1.10" = _PzBMgESN;
+        "iris-1.10.1" = _PzBMgESN;
+        "iris-1.10.2" = _PzBMgESN;
+        "iris-1.11" = _PzBMgESN;
+        "iris-1.11.1" = _PzBMgESN;
+        "iris-1.11.2" = _PzBMgESN;
+        "iris-1.12" = _PzBMgESN;
+        "iris-1.12.1" = _PzBMgESN;
+        "iris-1.12.2" = _PzBMgESN;
+        "iris-1.13" = _PzBMgESN;
+        "iris-1.13.1" = _PzBMgESN;
+        "iris-1.13.2" = _PzBMgESN;
+        "iris-1.14" = _PzBMgESN;
+        "iris-1.14.1" = _PzBMgESN;
+        "iris-1.14.2" = _PzBMgESN;
+        "iris-1.14.3" = _PzBMgESN;
+        "iris-1.14.4" = _PzBMgESN;
+        "iris-1.15" = _PzBMgESN;
+        "iris-1.15.1" = _PzBMgESN;
+        "iris-1.15.2" = _PzBMgESN;
+        "iris-1.16" = _PzBMgESN;
+        "iris-1.16.1" = _PzBMgESN;
+        "iris-1.16.2" = _PzBMgESN;
+        "iris-1.16.3" = _PzBMgESN;
+        "iris-1.16.4" = _PzBMgESN;
+        "iris-1.16.5" = _PzBMgESN;
+        "iris-1.17" = _PzBMgESN;
+        "optifine-1.17.1" = _PzBMgESN;
+        "optifine-1.18" = _PzBMgESN;
+        "optifine-1.18.1" = _PzBMgESN;
+        "optifine-1.18.2" = _PzBMgESN;
+        "optifine-1.19" = _PzBMgESN;
+        "optifine-1.19.1" = _PzBMgESN;
+        "optifine-1.19.2" = _PzBMgESN;
+        "optifine-1.19.3" = _PzBMgESN;
+        "optifine-1.19.4" = _PzBMgESN;
+        "optifine-1.20" = _PzBMgESN;
+        "optifine-1.20.1" = _PzBMgESN;
+        "optifine-1.8.9" = _PzBMgESN;
+        "optifine-1.9" = _PzBMgESN;
+        "optifine-1.9.1" = _PzBMgESN;
+        "optifine-1.9.2" = _PzBMgESN;
+        "optifine-1.9.3" = _PzBMgESN;
+        "optifine-1.9.4" = _PzBMgESN;
+        "optifine-1.10" = _PzBMgESN;
+        "optifine-1.10.1" = _PzBMgESN;
+        "optifine-1.10.2" = _PzBMgESN;
+        "optifine-1.11" = _PzBMgESN;
+        "optifine-1.11.1" = _PzBMgESN;
+        "optifine-1.11.2" = _PzBMgESN;
+        "optifine-1.12" = _PzBMgESN;
+        "optifine-1.12.1" = _PzBMgESN;
+        "optifine-1.12.2" = _PzBMgESN;
+        "optifine-1.13" = _PzBMgESN;
+        "optifine-1.13.1" = _PzBMgESN;
+        "optifine-1.13.2" = _PzBMgESN;
+        "optifine-1.14" = _PzBMgESN;
+        "optifine-1.14.1" = _PzBMgESN;
+        "optifine-1.14.2" = _PzBMgESN;
+        "optifine-1.14.3" = _PzBMgESN;
+        "optifine-1.14.4" = _PzBMgESN;
+        "optifine-1.15" = _PzBMgESN;
+        "optifine-1.15.1" = _PzBMgESN;
+        "optifine-1.15.2" = _PzBMgESN;
+        "optifine-1.16" = _PzBMgESN;
+        "optifine-1.16.1" = _PzBMgESN;
+        "optifine-1.16.2" = _PzBMgESN;
+        "optifine-1.16.3" = _PzBMgESN;
+        "optifine-1.16.4" = _PzBMgESN;
+        "optifine-1.16.5" = _PzBMgESN;
+        "optifine-1.17" = _PzBMgESN;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "crt-shader";
+            id = "tLyAc6iV";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU Lesser General Public License v3.0 or later";
+                    shortName = "LGPL-3.0-or-later";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="PzBMgESN";}

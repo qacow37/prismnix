@@ -1,0 +1,143 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BRBW5Cbw = {
+            "id" = "BRBW5Cbw";
+            "file" = "quickTree.jar";
+            "hash" = "sha512-Od4bC9Jd98Evxevvm0TmPDfwCCYx+L7WiH2WnTTMl7KNJeG0rI1rZfGhcLJkk8wWtDAbAsSzM2EisE5pmVvOMg==";
+        };
+        _wMh2s8OB = {
+            "id" = "wMh2s8OB";
+            "file" = "quickTree-1.2.0.jar";
+            "hash" = "sha512-u9mGDWaX8o9ybZnVC/k0oDJnJkBvWOLnvb6U/2v2KWkLNZXr9qbmlUS7BoSTDhuO6EvWXl4FEnRs+IKFy4x1TA==";
+        };
+        _7EEikivX = {
+            "id" = "7EEikivX";
+            "file" = "quickTree-1.3.0.jar";
+            "hash" = "sha512-bjvj2cb2uGHQ/CoWdrER1wfM5sVR+yx6T98Zy7xy8GbdShpVexLJ7JW2gXPjzBBRbVkgfSLL6xn+a7xXQRqTOA==";
+        };
+        _SqkeMzxZ = {
+            "id" = "SqkeMzxZ";
+            "file" = "QuickTree-1.3.0-1.20.5.jar";
+            "hash" = "sha512-RHshnsTeumxQCE/tnkzEij3QBLeiprHjY5Y2PPRec2tscWnbnFX5mHDyFfTA57XBgW9qohgv2FIjiP5HDzZrwg==";
+        };
+        _uPtCAmSw = {
+            "id" = "uPtCAmSw";
+            "file" = "QuickTree-2.0.0.jar";
+            "hash" = "sha512-SCAhuaLRMSwX7xaKbIAKJil7ZCC5u3KvS2qE6H/n6CqM+CIrU9CylKvrFB0Q/Pzi0BN1xrPsC50sww6Ho1qj8w==";
+        };
+    in {
+        "BRBW5Cbw" = _BRBW5Cbw;
+        "wMh2s8OB" = _wMh2s8OB;
+        "7EEikivX" = _7EEikivX;
+        "SqkeMzxZ" = _SqkeMzxZ;
+        "uPtCAmSw" = _uPtCAmSw;
+        "bukkit-1.20" = _uPtCAmSw;
+        "bukkit-1.20.1" = _uPtCAmSw;
+        "bukkit-1.20.2" = _uPtCAmSw;
+        "bukkit-1.20.3" = _uPtCAmSw;
+        "bukkit-1.20.4" = _uPtCAmSw;
+        "bukkit-1.20.5" = _uPtCAmSw;
+        "bukkit-1.20.6" = _uPtCAmSw;
+        "bukkit-1.21" = _uPtCAmSw;
+        "bukkit-1.21.1" = _uPtCAmSw;
+        "bukkit-1.21.2" = _uPtCAmSw;
+        "bukkit-1.21.3" = _uPtCAmSw;
+        "bukkit-1.21.4" = _uPtCAmSw;
+        "bukkit-1.21.5" = _uPtCAmSw;
+        "bukkit-1.21.6" = _uPtCAmSw;
+        "bukkit-1.21.7" = _uPtCAmSw;
+        "bukkit-1.21.8" = _uPtCAmSw;
+        "bukkit-1.21.9" = _uPtCAmSw;
+        "bukkit-1.21.10" = _uPtCAmSw;
+        "bukkit-1.21.11" = _uPtCAmSw;
+        "bukkit-26.1" = _uPtCAmSw;
+        "bukkit-26.1.1" = _uPtCAmSw;
+        "bukkit-26.1.2" = _uPtCAmSw;
+        "paper-1.20" = _uPtCAmSw;
+        "paper-1.20.1" = _uPtCAmSw;
+        "paper-1.20.2" = _uPtCAmSw;
+        "paper-1.20.3" = _uPtCAmSw;
+        "paper-1.20.4" = _uPtCAmSw;
+        "paper-1.20.5" = _uPtCAmSw;
+        "paper-1.20.6" = _uPtCAmSw;
+        "paper-1.21" = _uPtCAmSw;
+        "paper-1.21.1" = _uPtCAmSw;
+        "paper-1.21.2" = _uPtCAmSw;
+        "paper-1.21.3" = _uPtCAmSw;
+        "paper-1.21.4" = _uPtCAmSw;
+        "paper-1.21.5" = _uPtCAmSw;
+        "paper-1.21.6" = _uPtCAmSw;
+        "paper-1.21.7" = _uPtCAmSw;
+        "paper-1.21.8" = _uPtCAmSw;
+        "paper-1.21.9" = _uPtCAmSw;
+        "paper-1.21.10" = _uPtCAmSw;
+        "paper-1.21.11" = _uPtCAmSw;
+        "paper-26.1" = _uPtCAmSw;
+        "paper-26.1.1" = _uPtCAmSw;
+        "paper-26.1.2" = _uPtCAmSw;
+        "spigot-1.20" = _uPtCAmSw;
+        "spigot-1.20.1" = _uPtCAmSw;
+        "spigot-1.20.2" = _uPtCAmSw;
+        "spigot-1.20.3" = _uPtCAmSw;
+        "spigot-1.20.4" = _uPtCAmSw;
+        "spigot-1.20.5" = _uPtCAmSw;
+        "spigot-1.20.6" = _uPtCAmSw;
+        "spigot-1.21" = _uPtCAmSw;
+        "spigot-1.21.1" = _uPtCAmSw;
+        "spigot-1.21.2" = _uPtCAmSw;
+        "spigot-1.21.3" = _uPtCAmSw;
+        "spigot-1.21.4" = _uPtCAmSw;
+        "spigot-1.21.5" = _uPtCAmSw;
+        "spigot-1.21.6" = _uPtCAmSw;
+        "spigot-1.21.7" = _uPtCAmSw;
+        "spigot-1.21.8" = _uPtCAmSw;
+        "spigot-1.21.9" = _uPtCAmSw;
+        "spigot-1.21.10" = _uPtCAmSw;
+        "spigot-1.21.11" = _uPtCAmSw;
+        "spigot-26.1" = _uPtCAmSw;
+        "spigot-26.1.1" = _uPtCAmSw;
+        "spigot-26.1.2" = _uPtCAmSw;
+        "purpur-1.20" = _uPtCAmSw;
+        "purpur-1.20.1" = _uPtCAmSw;
+        "purpur-1.20.2" = _uPtCAmSw;
+        "purpur-1.20.3" = _uPtCAmSw;
+        "purpur-1.20.4" = _uPtCAmSw;
+        "purpur-1.20.5" = _uPtCAmSw;
+        "purpur-1.20.6" = _uPtCAmSw;
+        "purpur-1.21" = _uPtCAmSw;
+        "purpur-1.21.1" = _uPtCAmSw;
+        "purpur-1.21.2" = _uPtCAmSw;
+        "purpur-1.21.3" = _uPtCAmSw;
+        "purpur-1.21.4" = _uPtCAmSw;
+        "purpur-1.21.5" = _uPtCAmSw;
+        "purpur-1.21.6" = _uPtCAmSw;
+        "purpur-1.21.7" = _uPtCAmSw;
+        "purpur-1.21.8" = _uPtCAmSw;
+        "purpur-1.21.9" = _uPtCAmSw;
+        "purpur-1.21.10" = _uPtCAmSw;
+        "purpur-1.21.11" = _uPtCAmSw;
+        "purpur-26.1" = _uPtCAmSw;
+        "purpur-26.1.1" = _uPtCAmSw;
+        "purpur-26.1.2" = _uPtCAmSw;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "quicktree";
+            id = "kV1mRVFa";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="uPtCAmSw";}

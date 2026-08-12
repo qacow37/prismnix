@@ -1,0 +1,134 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _cCOinnlk = {
+            "id" = "cCOinnlk";
+            "file" = "xali's Potions v1.0.0.zip";
+            "hash" = "sha512-XckRwZmRUrojOjo1/awAZmqUS4OkfFrREj82S4u50Ryek7pPYTCgNZRrxmL3mGKiHzgB8TFTN5cJP/5lOxcbVQ==";
+        };
+        _eQBkrH8G = {
+            "id" = "eQBkrH8G";
+            "file" = "xali's Potions v1.1.0.zip";
+            "hash" = "sha512-hjUIylJgIzNTWURWhkj4yofVItZRX6Ld+5WGZUPdejtROv2352W5lbO4aOKpvXA5tbwYjOcOqDIdQN2KSUrzaA==";
+        };
+        _NIeabPaR = {
+            "id" = "NIeabPaR";
+            "file" = "xali's potion v1.2.0.zip";
+            "hash" = "sha512-qYE1EpKHMJ57r8OOFuNlLtutkJ2WJGHjNI0oa4V97YfzaRTbJYZegL5pXIJXbDW2xAN0VqsJ44v3I5IsCUxBfA==";
+        };
+    in {
+        "cCOinnlk" = _cCOinnlk;
+        "eQBkrH8G" = _eQBkrH8G;
+        "NIeabPaR" = _NIeabPaR;
+        "minecraft-1.13" = _NIeabPaR;
+        "minecraft-1.13.1" = _NIeabPaR;
+        "minecraft-1.13.2" = _NIeabPaR;
+        "minecraft-1.14" = _NIeabPaR;
+        "minecraft-1.14.1" = _NIeabPaR;
+        "minecraft-1.14.2" = _NIeabPaR;
+        "minecraft-1.14.3" = _NIeabPaR;
+        "minecraft-1.14.4" = _NIeabPaR;
+        "minecraft-1.15" = _NIeabPaR;
+        "minecraft-1.15.1" = _NIeabPaR;
+        "minecraft-1.15.2" = _NIeabPaR;
+        "minecraft-1.16" = _NIeabPaR;
+        "minecraft-1.16.1" = _NIeabPaR;
+        "minecraft-1.16.2" = _NIeabPaR;
+        "minecraft-1.16.3" = _NIeabPaR;
+        "minecraft-1.16.4" = _NIeabPaR;
+        "minecraft-1.16.5" = _NIeabPaR;
+        "minecraft-1.17" = _NIeabPaR;
+        "minecraft-1.17.1" = _NIeabPaR;
+        "minecraft-1.18" = _NIeabPaR;
+        "minecraft-1.18.1" = _NIeabPaR;
+        "minecraft-1.18.2" = _NIeabPaR;
+        "minecraft-1.19" = _NIeabPaR;
+        "minecraft-1.19.1" = _NIeabPaR;
+        "minecraft-1.19.2" = _NIeabPaR;
+        "minecraft-1.19.3" = _NIeabPaR;
+        "minecraft-1.19.4" = _NIeabPaR;
+        "minecraft-1.20" = _NIeabPaR;
+        "minecraft-1.20.1" = _NIeabPaR;
+        "minecraft-1.20.2" = _NIeabPaR;
+        "minecraft-1.20.3" = _NIeabPaR;
+        "minecraft-1.20.4" = _NIeabPaR;
+        "minecraft-1.20.6" = _NIeabPaR;
+        "minecraft-1.21" = _NIeabPaR;
+        "minecraft-1.21.1" = _NIeabPaR;
+        "minecraft-1.21.2" = _NIeabPaR;
+        "minecraft-1.21.3" = _NIeabPaR;
+        "minecraft-1.21.4" = _NIeabPaR;
+        "minecraft-1.21.5" = _NIeabPaR;
+        "minecraft-23w31a" = _NIeabPaR;
+        "minecraft-23w32a" = _NIeabPaR;
+        "minecraft-23w33a" = _NIeabPaR;
+        "minecraft-23w35a" = _NIeabPaR;
+        "minecraft-1.20.2-pre1" = _NIeabPaR;
+        "minecraft-23w42a" = _NIeabPaR;
+        "minecraft-23w43a" = _NIeabPaR;
+        "minecraft-23w43b" = _NIeabPaR;
+        "minecraft-23w44a" = _NIeabPaR;
+        "minecraft-23w45a" = _NIeabPaR;
+        "minecraft-23w46a" = _NIeabPaR;
+        "minecraft-24w03a" = _NIeabPaR;
+        "minecraft-24w03b" = _NIeabPaR;
+        "minecraft-24w04a" = _NIeabPaR;
+        "minecraft-24w05a" = _NIeabPaR;
+        "minecraft-24w05b" = _NIeabPaR;
+        "minecraft-24w06a" = _NIeabPaR;
+        "minecraft-24w07a" = _NIeabPaR;
+        "minecraft-24w09a" = _NIeabPaR;
+        "minecraft-24w10a" = _NIeabPaR;
+        "minecraft-24w11a" = _NIeabPaR;
+        "minecraft-24w12a" = _NIeabPaR;
+        "minecraft-24w13a" = _NIeabPaR;
+        "minecraft-24w14potato" = _NIeabPaR;
+        "minecraft-24w14a" = _NIeabPaR;
+        "minecraft-1.20.5-pre1" = _NIeabPaR;
+        "minecraft-1.20.5-pre2" = _NIeabPaR;
+        "minecraft-1.20.5-pre3" = _NIeabPaR;
+        "minecraft-1.20.5" = _NIeabPaR;
+        "minecraft-24w18a" = _NIeabPaR;
+        "minecraft-24w19a" = _NIeabPaR;
+        "minecraft-24w19b" = _NIeabPaR;
+        "minecraft-24w20a" = _NIeabPaR;
+        "minecraft-24w33a" = _NIeabPaR;
+        "minecraft-24w34a" = _NIeabPaR;
+        "minecraft-24w35a" = _NIeabPaR;
+        "minecraft-24w36a" = _NIeabPaR;
+        "minecraft-24w37a" = _NIeabPaR;
+        "minecraft-24w38a" = _NIeabPaR;
+        "minecraft-24w39a" = _NIeabPaR;
+        "minecraft-24w40a" = _NIeabPaR;
+        "minecraft-1.21.2-pre1" = _NIeabPaR;
+        "minecraft-1.21.2-pre2" = _NIeabPaR;
+        "minecraft-24w44a" = _NIeabPaR;
+        "minecraft-24w45a" = _NIeabPaR;
+        "minecraft-24w46a" = _NIeabPaR;
+        "minecraft-1.21.6" = _NIeabPaR;
+        "minecraft-1.21.7" = _NIeabPaR;
+        "minecraft-1.21.8" = _NIeabPaR;
+        "minecraft-1.21.9" = _NIeabPaR;
+        "minecraft-1.21.10" = _NIeabPaR;
+        "minecraft-1.21.11" = _NIeabPaR;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "xalis-potions";
+            id = "yFn9hTiq";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                    shortName = "CC-BY-NC-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="NIeabPaR";}

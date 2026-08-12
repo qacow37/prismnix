@@ -1,0 +1,129 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Ks5v7Ija = {
+            "id" = "Ks5v7Ija";
+            "file" = "bad_apple_world-forge-1.21-1.1.0.jar";
+            "hash" = "sha512-SKPYSHyLhm6eijNhVqAKiQjrqnEndIlcJYrEGeyYbNNtWb+S51opMiZQbL96K4qxTWKRJTErnnLm4RzKOmA2ew==";
+        };
+        _xcU6cc2a = {
+            "id" = "xcU6cc2a";
+            "file" = "bad_apple_world-fabric-1.21-1.1.0.jar";
+            "hash" = "sha512-kvyJVZmIzTdRHqWmCkaWDYMSSEyeuxFvzsVyw4Fzzo0189AIhARNrIUACWE23FsWrc6xyLXuhmql06XzNP/Eqw==";
+        };
+        _yqfoWS9a = {
+            "id" = "yqfoWS9a";
+            "file" = "Bad_Apple!!_World_Preset_2.0.0.zip";
+            "hash" = "sha512-dJtcDNHpCWA6YFJfroJC0KeA5YA07J0SnUqwYBwYD/joLOM8GdqDh54DV1feF79Kz2mxWgQHgphJLeI1F3DQKw==";
+        };
+        _cPJi9ORZ = {
+            "id" = "cPJi9ORZ";
+            "file" = "bad-apple-world-preset-2.0.0.jar";
+            "hash" = "sha512-PcUP8ybbKoVgNwl+Fv9TJVsOPMw4x19UQZdtxgcPvkuXHmnI8bCVWRek5AODX3OajVaFVr8JS75W/3mNfQnCaQ==";
+        };
+    in {
+        "Ks5v7Ija" = _Ks5v7Ija;
+        "xcU6cc2a" = _xcU6cc2a;
+        "yqfoWS9a" = _yqfoWS9a;
+        "cPJi9ORZ" = _cPJi9ORZ;
+        "forge-1.21" = _cPJi9ORZ;
+        "forge-1.21.1" = _cPJi9ORZ;
+        "forge-1.20" = _cPJi9ORZ;
+        "forge-1.20.1" = _cPJi9ORZ;
+        "forge-1.20.2" = _cPJi9ORZ;
+        "forge-1.20.3" = _cPJi9ORZ;
+        "forge-1.20.4" = _cPJi9ORZ;
+        "forge-1.20.5" = _cPJi9ORZ;
+        "forge-1.20.6" = _cPJi9ORZ;
+        "forge-1.21.2" = _cPJi9ORZ;
+        "forge-1.21.3" = _cPJi9ORZ;
+        "forge-1.21.4" = _cPJi9ORZ;
+        "forge-1.21.5" = _cPJi9ORZ;
+        "forge-1.21.6" = _cPJi9ORZ;
+        "forge-1.21.7" = _cPJi9ORZ;
+        "forge-1.21.8" = _cPJi9ORZ;
+        "fabric-1.21" = _cPJi9ORZ;
+        "fabric-1.21.1" = _cPJi9ORZ;
+        "fabric-1.20" = _cPJi9ORZ;
+        "fabric-1.20.1" = _cPJi9ORZ;
+        "fabric-1.20.2" = _cPJi9ORZ;
+        "fabric-1.20.3" = _cPJi9ORZ;
+        "fabric-1.20.4" = _cPJi9ORZ;
+        "fabric-1.20.5" = _cPJi9ORZ;
+        "fabric-1.20.6" = _cPJi9ORZ;
+        "fabric-1.21.2" = _cPJi9ORZ;
+        "fabric-1.21.3" = _cPJi9ORZ;
+        "fabric-1.21.4" = _cPJi9ORZ;
+        "fabric-1.21.5" = _cPJi9ORZ;
+        "fabric-1.21.6" = _cPJi9ORZ;
+        "fabric-1.21.7" = _cPJi9ORZ;
+        "fabric-1.21.8" = _cPJi9ORZ;
+        "datapack-1.20" = _yqfoWS9a;
+        "datapack-1.20.1" = _yqfoWS9a;
+        "datapack-1.20.2" = _yqfoWS9a;
+        "datapack-1.20.3" = _yqfoWS9a;
+        "datapack-1.20.4" = _yqfoWS9a;
+        "datapack-1.20.5" = _yqfoWS9a;
+        "datapack-1.20.6" = _yqfoWS9a;
+        "datapack-1.21" = _yqfoWS9a;
+        "datapack-1.21.1" = _yqfoWS9a;
+        "datapack-1.21.2" = _yqfoWS9a;
+        "datapack-1.21.3" = _yqfoWS9a;
+        "datapack-1.21.4" = _yqfoWS9a;
+        "datapack-1.21.5" = _yqfoWS9a;
+        "datapack-1.21.6" = _yqfoWS9a;
+        "datapack-1.21.7" = _yqfoWS9a;
+        "datapack-1.21.8" = _yqfoWS9a;
+        "neoforge-1.20" = _cPJi9ORZ;
+        "neoforge-1.20.1" = _cPJi9ORZ;
+        "neoforge-1.20.2" = _cPJi9ORZ;
+        "neoforge-1.20.3" = _cPJi9ORZ;
+        "neoforge-1.20.4" = _cPJi9ORZ;
+        "neoforge-1.20.5" = _cPJi9ORZ;
+        "neoforge-1.20.6" = _cPJi9ORZ;
+        "neoforge-1.21" = _cPJi9ORZ;
+        "neoforge-1.21.1" = _cPJi9ORZ;
+        "neoforge-1.21.2" = _cPJi9ORZ;
+        "neoforge-1.21.3" = _cPJi9ORZ;
+        "neoforge-1.21.4" = _cPJi9ORZ;
+        "neoforge-1.21.5" = _cPJi9ORZ;
+        "neoforge-1.21.6" = _cPJi9ORZ;
+        "neoforge-1.21.7" = _cPJi9ORZ;
+        "neoforge-1.21.8" = _cPJi9ORZ;
+        "quilt-1.20" = _cPJi9ORZ;
+        "quilt-1.20.1" = _cPJi9ORZ;
+        "quilt-1.20.2" = _cPJi9ORZ;
+        "quilt-1.20.3" = _cPJi9ORZ;
+        "quilt-1.20.4" = _cPJi9ORZ;
+        "quilt-1.20.5" = _cPJi9ORZ;
+        "quilt-1.20.6" = _cPJi9ORZ;
+        "quilt-1.21" = _cPJi9ORZ;
+        "quilt-1.21.1" = _cPJi9ORZ;
+        "quilt-1.21.2" = _cPJi9ORZ;
+        "quilt-1.21.3" = _cPJi9ORZ;
+        "quilt-1.21.4" = _cPJi9ORZ;
+        "quilt-1.21.5" = _cPJi9ORZ;
+        "quilt-1.21.6" = _cPJi9ORZ;
+        "quilt-1.21.7" = _cPJi9ORZ;
+        "quilt-1.21.8" = _cPJi9ORZ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "bad-apple-world-preset";
+            id = "GMIGZa0H";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="cPJi9ORZ";}

@@ -1,0 +1,133 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BrV1n01C = {
+            "id" = "BrV1n01C";
+            "file" = "IP-5.2.2.jar";
+            "hash" = "sha512-n5jEN+qHXcHt+T8VVX3XZca9PiaZJ8b8bH56Gqf9KdwVFNBLDFRqTXRAgnDWbOx8T07J32s+F3YACUx0OFXZzA==";
+        };
+        _NhrzoErF = {
+            "id" = "NhrzoErF";
+            "file" = "IP-5.2.3.jar";
+            "hash" = "sha512-6GXA51BTU+t6XdPMhpDseouodKSuK54zr5KKVH1FJuvCb8ZuYyk1Re8flfYYJIRT+/5Exo+5c7r/G1pqA0Xlug==";
+        };
+        _5kwORs94 = {
+            "id" = "5kwORs94";
+            "file" = "IP-5.2.5.jar";
+            "hash" = "sha512-I1qWn82CL2tfSrlvQm+fNZxot4RLuqHJc1ZcD3XrTRCtuBI6CoDthxEdotl2b5pJlMs8OmTlx1EHDM4fvsdU1A==";
+        };
+        _fM6fLxe6 = {
+            "id" = "fM6fLxe6";
+            "file" = "IP-5.3.1.jar";
+            "hash" = "sha512-ouDQ5ZW4PVeu+t1Cc3bDAew4JAhZxfTjo/ZWawTARW7xELmh82VZbfaB0n8AvID3DAvJDdGecgDp4ccsDuSgGg==";
+        };
+    in {
+        "BrV1n01C" = _BrV1n01C;
+        "NhrzoErF" = _NhrzoErF;
+        "5kwORs94" = _5kwORs94;
+        "fM6fLxe6" = _fM6fLxe6;
+        "paper-1.16" = _fM6fLxe6;
+        "paper-1.16.1" = _fM6fLxe6;
+        "paper-1.16.2" = _fM6fLxe6;
+        "paper-1.16.3" = _fM6fLxe6;
+        "paper-1.16.4" = _fM6fLxe6;
+        "paper-1.16.5" = _fM6fLxe6;
+        "paper-1.17" = _fM6fLxe6;
+        "paper-1.17.1" = _fM6fLxe6;
+        "paper-1.18" = _fM6fLxe6;
+        "paper-1.18.1" = _fM6fLxe6;
+        "paper-1.18.2" = _fM6fLxe6;
+        "paper-1.19" = _fM6fLxe6;
+        "paper-1.19.1" = _fM6fLxe6;
+        "paper-1.19.2" = _fM6fLxe6;
+        "paper-1.19.3" = _fM6fLxe6;
+        "paper-1.19.4" = _fM6fLxe6;
+        "paper-1.20" = _fM6fLxe6;
+        "paper-1.20.1" = _fM6fLxe6;
+        "paper-1.20.2" = _fM6fLxe6;
+        "paper-1.20.3" = _fM6fLxe6;
+        "paper-1.20.4" = _fM6fLxe6;
+        "paper-1.20.5" = _fM6fLxe6;
+        "paper-1.20.6" = _fM6fLxe6;
+        "paper-1.21" = _fM6fLxe6;
+        "paper-1.21.1" = _fM6fLxe6;
+        "paper-1.21.2" = _fM6fLxe6;
+        "paper-1.21.3" = _fM6fLxe6;
+        "paper-1.21.4" = _fM6fLxe6;
+        "purpur-1.16" = _fM6fLxe6;
+        "purpur-1.16.1" = _fM6fLxe6;
+        "purpur-1.16.2" = _fM6fLxe6;
+        "purpur-1.16.3" = _fM6fLxe6;
+        "purpur-1.16.4" = _fM6fLxe6;
+        "purpur-1.16.5" = _fM6fLxe6;
+        "purpur-1.17" = _fM6fLxe6;
+        "purpur-1.17.1" = _fM6fLxe6;
+        "purpur-1.18" = _fM6fLxe6;
+        "purpur-1.18.1" = _fM6fLxe6;
+        "purpur-1.18.2" = _fM6fLxe6;
+        "purpur-1.19" = _fM6fLxe6;
+        "purpur-1.19.1" = _fM6fLxe6;
+        "purpur-1.19.2" = _fM6fLxe6;
+        "purpur-1.19.3" = _fM6fLxe6;
+        "purpur-1.19.4" = _fM6fLxe6;
+        "purpur-1.20" = _fM6fLxe6;
+        "purpur-1.20.1" = _fM6fLxe6;
+        "purpur-1.20.2" = _fM6fLxe6;
+        "purpur-1.20.3" = _fM6fLxe6;
+        "purpur-1.20.4" = _fM6fLxe6;
+        "purpur-1.20.5" = _fM6fLxe6;
+        "purpur-1.20.6" = _fM6fLxe6;
+        "purpur-1.21" = _fM6fLxe6;
+        "purpur-1.21.1" = _fM6fLxe6;
+        "purpur-1.21.2" = _fM6fLxe6;
+        "purpur-1.21.3" = _fM6fLxe6;
+        "purpur-1.21.4" = _fM6fLxe6;
+        "spigot-1.16" = _fM6fLxe6;
+        "spigot-1.16.1" = _fM6fLxe6;
+        "spigot-1.16.2" = _fM6fLxe6;
+        "spigot-1.16.3" = _fM6fLxe6;
+        "spigot-1.16.4" = _fM6fLxe6;
+        "spigot-1.16.5" = _fM6fLxe6;
+        "spigot-1.17" = _fM6fLxe6;
+        "spigot-1.17.1" = _fM6fLxe6;
+        "spigot-1.18" = _fM6fLxe6;
+        "spigot-1.18.1" = _fM6fLxe6;
+        "spigot-1.18.2" = _fM6fLxe6;
+        "spigot-1.19" = _fM6fLxe6;
+        "spigot-1.19.1" = _fM6fLxe6;
+        "spigot-1.19.2" = _fM6fLxe6;
+        "spigot-1.19.3" = _fM6fLxe6;
+        "spigot-1.19.4" = _fM6fLxe6;
+        "spigot-1.20" = _fM6fLxe6;
+        "spigot-1.20.1" = _fM6fLxe6;
+        "spigot-1.20.2" = _fM6fLxe6;
+        "spigot-1.20.3" = _fM6fLxe6;
+        "spigot-1.20.4" = _fM6fLxe6;
+        "spigot-1.20.5" = _fM6fLxe6;
+        "spigot-1.20.6" = _fM6fLxe6;
+        "spigot-1.21" = _fM6fLxe6;
+        "spigot-1.21.1" = _fM6fLxe6;
+        "spigot-1.21.2" = _fM6fLxe6;
+        "spigot-1.21.3" = _fM6fLxe6;
+        "spigot-1.21.4" = _fM6fLxe6;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "infiniteparkour";
+            id = "Ysmttllh";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="fM6fLxe6";}

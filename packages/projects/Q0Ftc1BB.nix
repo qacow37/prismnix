@@ -1,0 +1,144 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _lvAfGjHd = {
+            "id" = "lvAfGjHd";
+            "file" = "No More Patrols.zip";
+            "hash" = "sha512-lpDzc3C9RKHcRPCwdmPGblTUql1h3vIfcchZSpjZJ1mT/vkcRoFbAqQpWIP6IgcShb/J3RYBhHVxC2k/Ll4DqA==";
+        };
+        _NkCYUHE3 = {
+            "id" = "NkCYUHE3";
+            "file" = "no-more-patrols-1.0.0.jar";
+            "hash" = "sha512-R1IRGRC8w/fpIFSV79sLgPl/25YZ7o8NxM56cbVuUASQergyZUcFMOABA+yI28B4ApdLfpS9L2VIvb/AIlvijg==";
+        };
+        _MSKGpmr0 = {
+            "id" = "MSKGpmr0";
+            "file" = "No More Patrols.zip";
+            "hash" = "sha512-mSCWUUQFqKlv6j1/M3N0X2g89cykPrdtXBYQeo8tWARqCNpjFZZHC80KbPWn0F6uApl0+eSSWfE5i9B5+5hRtw==";
+        };
+        _2DKPNR3o = {
+            "id" = "2DKPNR3o";
+            "file" = "no-more-patrols-1.0.1.jar";
+            "hash" = "sha512-rFYWd8dFRuFF9+noz/RvcfnVtXiFA4k5OvQKB2Vq/RiyWB7DhNPpqSpmC7GCSP4RaPn0Wke2KJovUhoV5nO6mw==";
+        };
+    in {
+        "lvAfGjHd" = _lvAfGjHd;
+        "NkCYUHE3" = _NkCYUHE3;
+        "MSKGpmr0" = _MSKGpmr0;
+        "2DKPNR3o" = _2DKPNR3o;
+        "datapack-1.18.2" = _MSKGpmr0;
+        "datapack-1.19" = _MSKGpmr0;
+        "datapack-1.19.1" = _MSKGpmr0;
+        "datapack-1.19.2" = _MSKGpmr0;
+        "datapack-1.19.3" = _MSKGpmr0;
+        "datapack-1.19.4" = _MSKGpmr0;
+        "datapack-1.20" = _MSKGpmr0;
+        "datapack-1.20.1" = _MSKGpmr0;
+        "datapack-1.20.2" = _MSKGpmr0;
+        "datapack-1.20.3" = _MSKGpmr0;
+        "datapack-1.20.4" = _MSKGpmr0;
+        "datapack-1.20.5" = _MSKGpmr0;
+        "datapack-1.20.6" = _MSKGpmr0;
+        "datapack-1.21" = _MSKGpmr0;
+        "datapack-1.21.1" = _MSKGpmr0;
+        "datapack-1.21.2" = _MSKGpmr0;
+        "datapack-1.21.3" = _MSKGpmr0;
+        "datapack-1.21.4" = _MSKGpmr0;
+        "datapack-1.21.5" = _MSKGpmr0;
+        "fabric-1.18.2" = _2DKPNR3o;
+        "fabric-1.19" = _2DKPNR3o;
+        "fabric-1.19.1" = _2DKPNR3o;
+        "fabric-1.19.2" = _2DKPNR3o;
+        "fabric-1.19.3" = _2DKPNR3o;
+        "fabric-1.19.4" = _2DKPNR3o;
+        "fabric-1.20" = _2DKPNR3o;
+        "fabric-1.20.1" = _2DKPNR3o;
+        "fabric-1.20.2" = _2DKPNR3o;
+        "fabric-1.20.3" = _2DKPNR3o;
+        "fabric-1.20.4" = _2DKPNR3o;
+        "fabric-1.20.5" = _2DKPNR3o;
+        "fabric-1.20.6" = _2DKPNR3o;
+        "fabric-1.21" = _2DKPNR3o;
+        "fabric-1.21.1" = _2DKPNR3o;
+        "fabric-1.21.2" = _2DKPNR3o;
+        "fabric-1.21.3" = _2DKPNR3o;
+        "fabric-1.21.4" = _2DKPNR3o;
+        "fabric-1.21.5" = _2DKPNR3o;
+        "forge-1.18.2" = _2DKPNR3o;
+        "forge-1.19" = _2DKPNR3o;
+        "forge-1.19.1" = _2DKPNR3o;
+        "forge-1.19.2" = _2DKPNR3o;
+        "forge-1.19.3" = _2DKPNR3o;
+        "forge-1.19.4" = _2DKPNR3o;
+        "forge-1.20" = _2DKPNR3o;
+        "forge-1.20.1" = _2DKPNR3o;
+        "forge-1.20.2" = _2DKPNR3o;
+        "forge-1.20.3" = _2DKPNR3o;
+        "forge-1.20.4" = _2DKPNR3o;
+        "forge-1.20.5" = _2DKPNR3o;
+        "forge-1.20.6" = _2DKPNR3o;
+        "forge-1.21" = _2DKPNR3o;
+        "forge-1.21.1" = _2DKPNR3o;
+        "forge-1.21.2" = _2DKPNR3o;
+        "forge-1.21.3" = _2DKPNR3o;
+        "forge-1.21.4" = _2DKPNR3o;
+        "forge-1.21.5" = _2DKPNR3o;
+        "quilt-1.18.2" = _2DKPNR3o;
+        "quilt-1.19" = _2DKPNR3o;
+        "quilt-1.19.1" = _2DKPNR3o;
+        "quilt-1.19.2" = _2DKPNR3o;
+        "quilt-1.19.3" = _2DKPNR3o;
+        "quilt-1.19.4" = _2DKPNR3o;
+        "quilt-1.20" = _2DKPNR3o;
+        "quilt-1.20.1" = _2DKPNR3o;
+        "quilt-1.20.2" = _2DKPNR3o;
+        "quilt-1.20.3" = _2DKPNR3o;
+        "quilt-1.20.4" = _2DKPNR3o;
+        "quilt-1.20.5" = _2DKPNR3o;
+        "quilt-1.20.6" = _2DKPNR3o;
+        "quilt-1.21" = _2DKPNR3o;
+        "quilt-1.21.1" = _2DKPNR3o;
+        "quilt-1.21.2" = _2DKPNR3o;
+        "quilt-1.21.3" = _2DKPNR3o;
+        "quilt-1.21.4" = _2DKPNR3o;
+        "quilt-1.21.5" = _2DKPNR3o;
+        "neoforge-1.18.2" = _2DKPNR3o;
+        "neoforge-1.19" = _2DKPNR3o;
+        "neoforge-1.19.1" = _2DKPNR3o;
+        "neoforge-1.19.2" = _2DKPNR3o;
+        "neoforge-1.19.3" = _2DKPNR3o;
+        "neoforge-1.19.4" = _2DKPNR3o;
+        "neoforge-1.20" = _2DKPNR3o;
+        "neoforge-1.20.1" = _2DKPNR3o;
+        "neoforge-1.20.2" = _2DKPNR3o;
+        "neoforge-1.20.3" = _2DKPNR3o;
+        "neoforge-1.20.4" = _2DKPNR3o;
+        "neoforge-1.20.5" = _2DKPNR3o;
+        "neoforge-1.20.6" = _2DKPNR3o;
+        "neoforge-1.21" = _2DKPNR3o;
+        "neoforge-1.21.1" = _2DKPNR3o;
+        "neoforge-1.21.2" = _2DKPNR3o;
+        "neoforge-1.21.3" = _2DKPNR3o;
+        "neoforge-1.21.4" = _2DKPNR3o;
+        "neoforge-1.21.5" = _2DKPNR3o;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "no-more-patrols";
+            id = "Q0Ftc1BB";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="2DKPNR3o";}

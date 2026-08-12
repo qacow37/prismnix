@@ -1,0 +1,154 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _4b5MmUuF = {
+            "id" = "4b5MmUuF";
+            "file" = "TabListPing-1.05.jar";
+            "hash" = "sha512-o8IIhASyAY8obW2qIoEDLMpr2jn/FHDZ2401sBEPField7FeL5tJ0sPYoresgNmWp+wNb9A3+kIoKIZIu7X5NQ==";
+        };
+        _8EDUDpW5 = {
+            "id" = "8EDUDpW5";
+            "file" = "TabListPing-1.06.jar";
+            "hash" = "sha512-h65A4NzhDaYkwGuKQf5LEllQUS69KjRWYCYxr3L/QE5kcv44B/I3Tco6yPC3CfXBy4qiYugldGewytmJjfgzTg==";
+        };
+        _CnGBLQN2 = {
+            "id" = "CnGBLQN2";
+            "file" = "TabListPing-2.00.jar";
+            "hash" = "sha512-Yv3hqJmBWbQmJXsthu1z4VvisozYftzMAx/nyVowNgH+05IbJVVnkXIQuT5qXR9D7hQjc46cHmeCYnJULJfmWA==";
+        };
+        _xnb0eMjA = {
+            "id" = "xnb0eMjA";
+            "file" = "TabListPing-2.01.jar";
+            "hash" = "sha512-rJ6XKKtDcbjrT6LdfVUBF1sOjPqvDDydqvBPNKSgyV7n6WCNoCqxFgK1L5xWqx00B8i2epboIXx+Ih3cWY8ZyQ==";
+        };
+        _vGaVsMci = {
+            "id" = "vGaVsMci";
+            "file" = "TabListPing-2.02.jar";
+            "hash" = "sha512-VByQf7TcT0c070wPPQvUltZVGSi53lJHGEvRuLBaVhu4Zrij5gjaoKQi73xUbxV4RlC+5y28ddMnngaxbSQkxA==";
+        };
+        _JB16ulew = {
+            "id" = "JB16ulew";
+            "file" = "TabListPing-2.03.jar";
+            "hash" = "sha512-UUEwjlNNogozs4ql+aEYI0LOA9/qdgzyt61C7pPRBd/OXbv9lKw9kIEv4PqL7/EnVDyyi8YQTMEBP+TmyvU8cQ==";
+        };
+    in {
+        "4b5MmUuF" = _4b5MmUuF;
+        "8EDUDpW5" = _8EDUDpW5;
+        "CnGBLQN2" = _CnGBLQN2;
+        "xnb0eMjA" = _xnb0eMjA;
+        "vGaVsMci" = _vGaVsMci;
+        "JB16ulew" = _JB16ulew;
+        "bukkit-1.20.2" = _JB16ulew;
+        "bukkit-1.20.3" = _JB16ulew;
+        "bukkit-1.20.4" = _JB16ulew;
+        "bukkit-1.18" = _CnGBLQN2;
+        "bukkit-1.18.1" = _JB16ulew;
+        "bukkit-1.18.2" = _JB16ulew;
+        "bukkit-1.19" = _JB16ulew;
+        "bukkit-1.19.1" = _JB16ulew;
+        "bukkit-1.19.2" = _JB16ulew;
+        "bukkit-1.19.3" = _JB16ulew;
+        "bukkit-1.19.4" = _JB16ulew;
+        "bukkit-1.20" = _JB16ulew;
+        "bukkit-1.20.1" = _JB16ulew;
+        "bukkit-1.20.5" = _JB16ulew;
+        "bukkit-1.20.6" = _JB16ulew;
+        "bukkit-1.21" = _JB16ulew;
+        "bukkit-1.21.1" = _JB16ulew;
+        "bukkit-1.21.2" = _JB16ulew;
+        "bukkit-1.21.3" = _JB16ulew;
+        "bukkit-1.21.4" = _JB16ulew;
+        "bukkit-1.21.5" = _JB16ulew;
+        "bukkit-1.21.6" = _JB16ulew;
+        "bukkit-1.21.7" = _JB16ulew;
+        "bukkit-1.21.8" = _JB16ulew;
+        "bukkit-1.21.9" = _JB16ulew;
+        "bukkit-1.21.10" = _JB16ulew;
+        "bukkit-1.21.11" = _JB16ulew;
+        "bukkit-26.1" = _JB16ulew;
+        "bukkit-26.1.1" = _JB16ulew;
+        "bukkit-26.1.2" = _JB16ulew;
+        "bukkit-26.2" = _JB16ulew;
+        "paper-1.20.2" = _JB16ulew;
+        "paper-1.20.3" = _JB16ulew;
+        "paper-1.20.4" = _JB16ulew;
+        "paper-1.18" = _CnGBLQN2;
+        "paper-1.18.1" = _JB16ulew;
+        "paper-1.18.2" = _JB16ulew;
+        "paper-1.19" = _JB16ulew;
+        "paper-1.19.1" = _JB16ulew;
+        "paper-1.19.2" = _JB16ulew;
+        "paper-1.19.3" = _JB16ulew;
+        "paper-1.19.4" = _JB16ulew;
+        "paper-1.20" = _JB16ulew;
+        "paper-1.20.1" = _JB16ulew;
+        "paper-1.20.5" = _JB16ulew;
+        "paper-1.20.6" = _JB16ulew;
+        "paper-1.21" = _JB16ulew;
+        "paper-1.21.1" = _JB16ulew;
+        "paper-1.21.2" = _JB16ulew;
+        "paper-1.21.3" = _JB16ulew;
+        "paper-1.21.4" = _JB16ulew;
+        "paper-1.21.5" = _JB16ulew;
+        "paper-1.21.6" = _JB16ulew;
+        "paper-1.21.7" = _JB16ulew;
+        "paper-1.21.8" = _JB16ulew;
+        "paper-1.21.9" = _JB16ulew;
+        "paper-1.21.10" = _JB16ulew;
+        "paper-1.21.11" = _JB16ulew;
+        "paper-26.1" = _JB16ulew;
+        "paper-26.1.1" = _JB16ulew;
+        "paper-26.1.2" = _JB16ulew;
+        "paper-26.2" = _JB16ulew;
+        "spigot-1.20.2" = _JB16ulew;
+        "spigot-1.20.3" = _JB16ulew;
+        "spigot-1.20.4" = _JB16ulew;
+        "spigot-1.18" = _CnGBLQN2;
+        "spigot-1.18.1" = _JB16ulew;
+        "spigot-1.18.2" = _JB16ulew;
+        "spigot-1.19" = _JB16ulew;
+        "spigot-1.19.1" = _JB16ulew;
+        "spigot-1.19.2" = _JB16ulew;
+        "spigot-1.19.3" = _JB16ulew;
+        "spigot-1.19.4" = _JB16ulew;
+        "spigot-1.20" = _JB16ulew;
+        "spigot-1.20.1" = _JB16ulew;
+        "spigot-1.20.5" = _JB16ulew;
+        "spigot-1.20.6" = _JB16ulew;
+        "spigot-1.21" = _JB16ulew;
+        "spigot-1.21.1" = _JB16ulew;
+        "spigot-1.21.2" = _JB16ulew;
+        "spigot-1.21.3" = _JB16ulew;
+        "spigot-1.21.4" = _JB16ulew;
+        "spigot-1.21.5" = _JB16ulew;
+        "spigot-1.21.6" = _JB16ulew;
+        "spigot-1.21.7" = _JB16ulew;
+        "spigot-1.21.8" = _JB16ulew;
+        "spigot-1.21.9" = _JB16ulew;
+        "spigot-1.21.10" = _JB16ulew;
+        "spigot-1.21.11" = _JB16ulew;
+        "spigot-26.1" = _JB16ulew;
+        "spigot-26.1.1" = _JB16ulew;
+        "spigot-26.1.2" = _JB16ulew;
+        "spigot-26.2" = _JB16ulew;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "tablistping";
+            id = "MwLGimob";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="JB16ulew";}

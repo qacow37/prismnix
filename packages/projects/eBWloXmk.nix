@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _R6qJnb5P = {
+            "id" = "R6qJnb5P";
+            "file" = "firefly-forge-1.20-1.0.2.jar";
+            "hash" = "sha512-9OsakFS29L5y69sDk9x58dhCCxmoLk2TLtq1su0rfq1oI5A3sHkhAOZdeL2V+0Z81WrO4udSK7HCDw+LQkIVfg==";
+        };
+    in {
+        "R6qJnb5P" = _R6qJnb5P;
+        "forge-1.20" = _R6qJnb5P;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "honkai-star-rail-as-firefly";
+            id = "eBWloXmk";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="R6qJnb5P";}

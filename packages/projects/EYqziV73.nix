@@ -1,0 +1,162 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Mnt0b59u = {
+            "id" = "Mnt0b59u";
+            "file" = "wither-skeleton-archers-in-fortresses-1.0.0.zip";
+            "hash" = "sha512-c+oKZSHz392CvWkZRl6RbigZO9HummUE7CB5XJcwMGJ+uopjSBiukPSaU4cTmm0zACZvn7GczrnW3pgGdo/V0Q==";
+        };
+        _EuwZ6chC = {
+            "id" = "EuwZ6chC";
+            "file" = "wither-skeleton-archers-in-fortresses-1.0.0.jar";
+            "hash" = "sha512-c+oKZSHz392CvWkZRl6RbigZO9HummUE7CB5XJcwMGJ+uopjSBiukPSaU4cTmm0zACZvn7GczrnW3pgGdo/V0Q==";
+        };
+        _EXhSZIiC = {
+            "id" = "EXhSZIiC";
+            "file" = "wither-skeleton-archers-in-fortresses-1.19.x-1.0.0.zip";
+            "hash" = "sha512-ZHakq22Tr9M44EgxDHkcw3krg/rDs5/keo1vmvAS8ZSenHjIuhAvbC3EiKMZQndfqMzw/VQB6G72Kdfox8v5AA==";
+        };
+        _7MjS00I1 = {
+            "id" = "7MjS00I1";
+            "file" = "wither-skeleton-archers-in-fortresses-1.19.x-1.0.0.jar";
+            "hash" = "sha512-ZHakq22Tr9M44EgxDHkcw3krg/rDs5/keo1vmvAS8ZSenHjIuhAvbC3EiKMZQndfqMzw/VQB6G72Kdfox8v5AA==";
+        };
+        _up8Wnim1 = {
+            "id" = "up8Wnim1";
+            "file" = "wither-skeleton-archers-in-fortresses-legacy-1.0.0.zip";
+            "hash" = "sha512-ymJBvy/d+yYyNpe52nM9IETfpnzSeLJqiFEgcnAZh/s6mtEVytfr5+J7RudR4+8QsQx51FaBrHa+z/0mo0OdMw==";
+        };
+        _cSf9XKfU = {
+            "id" = "cSf9XKfU";
+            "file" = "wither-skeleton-archers-in-fortresses-legacy-1.0.0.jar";
+            "hash" = "sha512-ymJBvy/d+yYyNpe52nM9IETfpnzSeLJqiFEgcnAZh/s6mtEVytfr5+J7RudR4+8QsQx51FaBrHa+z/0mo0OdMw==";
+        };
+    in {
+        "Mnt0b59u" = _Mnt0b59u;
+        "EuwZ6chC" = _EuwZ6chC;
+        "EXhSZIiC" = _EXhSZIiC;
+        "7MjS00I1" = _7MjS00I1;
+        "up8Wnim1" = _up8Wnim1;
+        "cSf9XKfU" = _cSf9XKfU;
+        "datapack-1.20" = _Mnt0b59u;
+        "datapack-1.20.1" = _Mnt0b59u;
+        "datapack-1.20.2" = _Mnt0b59u;
+        "datapack-1.20.3" = _Mnt0b59u;
+        "datapack-1.20.4" = _Mnt0b59u;
+        "datapack-1.19" = _EXhSZIiC;
+        "datapack-1.19.1" = _EXhSZIiC;
+        "datapack-1.19.2" = _EXhSZIiC;
+        "datapack-1.19.3" = _EXhSZIiC;
+        "datapack-1.19.4" = _EXhSZIiC;
+        "datapack-1.15" = _up8Wnim1;
+        "datapack-1.15.1" = _up8Wnim1;
+        "datapack-1.15.2" = _up8Wnim1;
+        "datapack-1.16" = _up8Wnim1;
+        "datapack-1.16.1" = _up8Wnim1;
+        "datapack-1.16.2" = _up8Wnim1;
+        "datapack-1.16.3" = _up8Wnim1;
+        "datapack-1.16.4" = _up8Wnim1;
+        "datapack-1.16.5" = _up8Wnim1;
+        "datapack-1.17" = _up8Wnim1;
+        "datapack-1.17.1" = _up8Wnim1;
+        "datapack-1.18" = _up8Wnim1;
+        "datapack-1.18.1" = _up8Wnim1;
+        "datapack-1.18.2" = _up8Wnim1;
+        "fabric-1.20" = _EuwZ6chC;
+        "fabric-1.20.1" = _EuwZ6chC;
+        "fabric-1.20.2" = _EuwZ6chC;
+        "fabric-1.20.3" = _EuwZ6chC;
+        "fabric-1.20.4" = _EuwZ6chC;
+        "fabric-1.19" = _7MjS00I1;
+        "fabric-1.19.1" = _7MjS00I1;
+        "fabric-1.19.2" = _7MjS00I1;
+        "fabric-1.19.3" = _7MjS00I1;
+        "fabric-1.19.4" = _7MjS00I1;
+        "fabric-1.15" = _cSf9XKfU;
+        "fabric-1.15.1" = _cSf9XKfU;
+        "fabric-1.15.2" = _cSf9XKfU;
+        "fabric-1.16" = _cSf9XKfU;
+        "fabric-1.16.1" = _cSf9XKfU;
+        "fabric-1.16.2" = _cSf9XKfU;
+        "fabric-1.16.3" = _cSf9XKfU;
+        "fabric-1.16.4" = _cSf9XKfU;
+        "fabric-1.16.5" = _cSf9XKfU;
+        "fabric-1.17" = _cSf9XKfU;
+        "fabric-1.17.1" = _cSf9XKfU;
+        "fabric-1.18" = _cSf9XKfU;
+        "fabric-1.18.1" = _cSf9XKfU;
+        "fabric-1.18.2" = _cSf9XKfU;
+        "forge-1.20" = _EuwZ6chC;
+        "forge-1.20.1" = _EuwZ6chC;
+        "forge-1.20.2" = _EuwZ6chC;
+        "forge-1.20.3" = _EuwZ6chC;
+        "forge-1.20.4" = _EuwZ6chC;
+        "forge-1.19" = _7MjS00I1;
+        "forge-1.19.1" = _7MjS00I1;
+        "forge-1.19.2" = _7MjS00I1;
+        "forge-1.19.3" = _7MjS00I1;
+        "forge-1.19.4" = _7MjS00I1;
+        "forge-1.15" = _cSf9XKfU;
+        "forge-1.15.1" = _cSf9XKfU;
+        "forge-1.15.2" = _cSf9XKfU;
+        "forge-1.16" = _cSf9XKfU;
+        "forge-1.16.1" = _cSf9XKfU;
+        "forge-1.16.2" = _cSf9XKfU;
+        "forge-1.16.3" = _cSf9XKfU;
+        "forge-1.16.4" = _cSf9XKfU;
+        "forge-1.16.5" = _cSf9XKfU;
+        "forge-1.17" = _cSf9XKfU;
+        "forge-1.17.1" = _cSf9XKfU;
+        "forge-1.18" = _cSf9XKfU;
+        "forge-1.18.1" = _cSf9XKfU;
+        "forge-1.18.2" = _cSf9XKfU;
+        "neoforge-1.20" = _EuwZ6chC;
+        "neoforge-1.20.1" = _EuwZ6chC;
+        "neoforge-1.20.2" = _EuwZ6chC;
+        "neoforge-1.20.3" = _EuwZ6chC;
+        "neoforge-1.20.4" = _EuwZ6chC;
+        "quilt-1.20" = _EuwZ6chC;
+        "quilt-1.20.1" = _EuwZ6chC;
+        "quilt-1.20.2" = _EuwZ6chC;
+        "quilt-1.20.3" = _EuwZ6chC;
+        "quilt-1.20.4" = _EuwZ6chC;
+        "quilt-1.19" = _7MjS00I1;
+        "quilt-1.19.1" = _7MjS00I1;
+        "quilt-1.19.2" = _7MjS00I1;
+        "quilt-1.19.3" = _7MjS00I1;
+        "quilt-1.19.4" = _7MjS00I1;
+        "quilt-1.15" = _cSf9XKfU;
+        "quilt-1.15.1" = _cSf9XKfU;
+        "quilt-1.15.2" = _cSf9XKfU;
+        "quilt-1.16" = _cSf9XKfU;
+        "quilt-1.16.1" = _cSf9XKfU;
+        "quilt-1.16.2" = _cSf9XKfU;
+        "quilt-1.16.3" = _cSf9XKfU;
+        "quilt-1.16.4" = _cSf9XKfU;
+        "quilt-1.16.5" = _cSf9XKfU;
+        "quilt-1.17" = _cSf9XKfU;
+        "quilt-1.17.1" = _cSf9XKfU;
+        "quilt-1.18" = _cSf9XKfU;
+        "quilt-1.18.1" = _cSf9XKfU;
+        "quilt-1.18.2" = _cSf9XKfU;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "wither-skeleton-archers-in-fortresses";
+            id = "EYqziV73";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="cSf9XKfU";}

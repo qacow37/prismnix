@@ -1,0 +1,129 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _n05sabDk = {
+            "id" = "n05sabDk";
+            "file" = "Glass Hotbar Clean.zip";
+            "hash" = "sha512-adGLzxF93YuKPNC0D1lm5Xa6XA2ewaFv0XTNrf/UPFhfcr+UQ1AMrHMiCSQioGAccjVvvMR+JjyO98OwLCrqcQ==";
+        };
+        _hIIs8PSu = {
+            "id" = "hIIs8PSu";
+            "file" = "Glass Hotbar Clean.zip";
+            "hash" = "sha512-LwffGNsVVIU6odBU/WMmWuCVRNkwVd6hiT3hR/b2D5amwEZ5b2OGyI4X5YBnsGRss1m4vjU77g7r1TQnksdzMg==";
+        };
+        _RsfYzKEN = {
+            "id" = "RsfYzKEN";
+            "file" = "Glass Hotbar Clean.zip";
+            "hash" = "sha512-gVqGxIjSFz1RRMWPTsIHfPUc5Y+Rq3kUt8taetquZzABmvm4vGa3TjQadM/qMARIE1PdQ5E1oJxIYLD/O6WX/Q==";
+        };
+    in {
+        "n05sabDk" = _n05sabDk;
+        "hIIs8PSu" = _hIIs8PSu;
+        "RsfYzKEN" = _RsfYzKEN;
+        "minecraft-1.18" = _RsfYzKEN;
+        "minecraft-1.18.1" = _RsfYzKEN;
+        "minecraft-1.18.2" = _RsfYzKEN;
+        "minecraft-1.19" = _RsfYzKEN;
+        "minecraft-1.19.1" = _RsfYzKEN;
+        "minecraft-1.19.2" = _RsfYzKEN;
+        "minecraft-1.19.3" = _RsfYzKEN;
+        "minecraft-1.19.4" = _RsfYzKEN;
+        "minecraft-1.20" = _RsfYzKEN;
+        "minecraft-1.20.1" = _RsfYzKEN;
+        "minecraft-1.20.2" = _RsfYzKEN;
+        "minecraft-1.20.3" = _RsfYzKEN;
+        "minecraft-1.20.4" = _RsfYzKEN;
+        "minecraft-1.20.5" = _RsfYzKEN;
+        "minecraft-1.20.6" = _RsfYzKEN;
+        "minecraft-1.21" = _RsfYzKEN;
+        "minecraft-1.21.1" = _RsfYzKEN;
+        "minecraft-1.21.2" = _RsfYzKEN;
+        "minecraft-1.21.3" = _RsfYzKEN;
+        "minecraft-1.21.4" = _RsfYzKEN;
+        "minecraft-1.21.5" = _RsfYzKEN;
+        "minecraft-1.21.6" = _RsfYzKEN;
+        "minecraft-1.21.7" = _RsfYzKEN;
+        "minecraft-1.21.8" = _RsfYzKEN;
+        "minecraft-1.21.9" = _RsfYzKEN;
+        "minecraft-1.21.10" = _RsfYzKEN;
+        "minecraft-1.21.11" = _RsfYzKEN;
+        "minecraft-26.1" = _RsfYzKEN;
+        "minecraft-26.1.1" = _RsfYzKEN;
+        "minecraft-26.1.2" = _RsfYzKEN;
+        "minecraft-26.2" = _RsfYzKEN;
+        "minecraft-1.6.1" = _RsfYzKEN;
+        "minecraft-1.6.2" = _RsfYzKEN;
+        "minecraft-1.6.4" = _RsfYzKEN;
+        "minecraft-1.7.2" = _RsfYzKEN;
+        "minecraft-1.7.3" = _RsfYzKEN;
+        "minecraft-1.7.4" = _RsfYzKEN;
+        "minecraft-1.7.5" = _RsfYzKEN;
+        "minecraft-1.7.6" = _RsfYzKEN;
+        "minecraft-1.7.7" = _RsfYzKEN;
+        "minecraft-1.7.8" = _RsfYzKEN;
+        "minecraft-1.7.9" = _RsfYzKEN;
+        "minecraft-1.7.10" = _RsfYzKEN;
+        "minecraft-1.8" = _RsfYzKEN;
+        "minecraft-1.8.1" = _RsfYzKEN;
+        "minecraft-1.8.2" = _RsfYzKEN;
+        "minecraft-1.8.3" = _RsfYzKEN;
+        "minecraft-1.8.4" = _RsfYzKEN;
+        "minecraft-1.8.5" = _RsfYzKEN;
+        "minecraft-1.8.6" = _RsfYzKEN;
+        "minecraft-1.8.7" = _RsfYzKEN;
+        "minecraft-1.8.8" = _RsfYzKEN;
+        "minecraft-1.8.9" = _RsfYzKEN;
+        "minecraft-1.9" = _RsfYzKEN;
+        "minecraft-1.9.1" = _RsfYzKEN;
+        "minecraft-1.9.2" = _RsfYzKEN;
+        "minecraft-1.9.3" = _RsfYzKEN;
+        "minecraft-1.9.4" = _RsfYzKEN;
+        "minecraft-1.10" = _RsfYzKEN;
+        "minecraft-1.10.1" = _RsfYzKEN;
+        "minecraft-1.10.2" = _RsfYzKEN;
+        "minecraft-1.11" = _RsfYzKEN;
+        "minecraft-1.11.1" = _RsfYzKEN;
+        "minecraft-1.11.2" = _RsfYzKEN;
+        "minecraft-1.12" = _RsfYzKEN;
+        "minecraft-1.12.1" = _RsfYzKEN;
+        "minecraft-1.12.2" = _RsfYzKEN;
+        "minecraft-1.13" = _RsfYzKEN;
+        "minecraft-1.13.1" = _RsfYzKEN;
+        "minecraft-1.13.2" = _RsfYzKEN;
+        "minecraft-1.14" = _RsfYzKEN;
+        "minecraft-1.14.1" = _RsfYzKEN;
+        "minecraft-1.14.2" = _RsfYzKEN;
+        "minecraft-1.14.3" = _RsfYzKEN;
+        "minecraft-1.14.4" = _RsfYzKEN;
+        "minecraft-1.15" = _RsfYzKEN;
+        "minecraft-1.15.1" = _RsfYzKEN;
+        "minecraft-1.15.2" = _RsfYzKEN;
+        "minecraft-1.16" = _RsfYzKEN;
+        "minecraft-1.16.1" = _RsfYzKEN;
+        "minecraft-1.16.2" = _RsfYzKEN;
+        "minecraft-1.16.3" = _RsfYzKEN;
+        "minecraft-1.16.4" = _RsfYzKEN;
+        "minecraft-1.16.5" = _RsfYzKEN;
+        "minecraft-1.17" = _RsfYzKEN;
+        "minecraft-1.17.1" = _RsfYzKEN;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "glass-hotbar-clean";
+            id = "onlSt0vO";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="RsfYzKEN";}

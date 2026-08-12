@@ -1,0 +1,129 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _zK76ghpG = {
+            "id" = "zK76ghpG";
+            "file" = "§6§lExperience Coins §7v1.0.0.zip";
+            "hash" = "sha512-cZgO/HThBoplY9i4ucIkKSbR7vN6RaC4NV42ETrw10CrNIUuDuKHqplkVNkYXvoeHY1WMAskSUW3fl0i7ImONw==";
+        };
+        _6LgE9IEY = {
+            "id" = "6LgE9IEY";
+            "file" = "§6§lExperience Coins §7v1.0.1.zip";
+            "hash" = "sha512-aYRD+k/bqGHLtT1QnbD4pdedmf20IJAO850PttQjdsGUi2uh/gntfHrWRokeSlZ++iQKcoIbkbnOlGrp8GJYpQ==";
+        };
+        _tlDkL1a9 = {
+            "id" = "tlDkL1a9";
+            "file" = "§6§lExperience Coins §7v1.0.2.zip";
+            "hash" = "sha512-N0q8ZbI3VcKJUNxSDU+g2ZyYJ7AY+OawMBQxjdJG1rcza5CcQHJalTl2D92JvqknfwxiG6ILR21iI2iKkojA9g==";
+        };
+    in {
+        "zK76ghpG" = _zK76ghpG;
+        "6LgE9IEY" = _6LgE9IEY;
+        "tlDkL1a9" = _tlDkL1a9;
+        "minecraft-1.20.5" = _tlDkL1a9;
+        "minecraft-1.20.6" = _tlDkL1a9;
+        "minecraft-1.21" = _tlDkL1a9;
+        "minecraft-1.21.1" = _tlDkL1a9;
+        "minecraft-1.21.2" = _tlDkL1a9;
+        "minecraft-1.21.3" = _tlDkL1a9;
+        "minecraft-1.21.4" = _tlDkL1a9;
+        "minecraft-1.21.6" = _tlDkL1a9;
+        "minecraft-1.21.7" = _tlDkL1a9;
+        "minecraft-1.21.8" = _tlDkL1a9;
+        "minecraft-1.21.9" = _tlDkL1a9;
+        "minecraft-1.21.10" = _tlDkL1a9;
+        "minecraft-22w42a" = _tlDkL1a9;
+        "minecraft-22w43a" = _tlDkL1a9;
+        "minecraft-22w44a" = _tlDkL1a9;
+        "minecraft-23w14a" = _tlDkL1a9;
+        "minecraft-23w16a" = _tlDkL1a9;
+        "minecraft-23w31a" = _tlDkL1a9;
+        "minecraft-23w32a" = _tlDkL1a9;
+        "minecraft-23w33a" = _tlDkL1a9;
+        "minecraft-23w35a" = _tlDkL1a9;
+        "minecraft-1.20.2-pre1" = _tlDkL1a9;
+        "minecraft-23w42a" = _tlDkL1a9;
+        "minecraft-23w43a" = _tlDkL1a9;
+        "minecraft-23w43b" = _tlDkL1a9;
+        "minecraft-23w44a" = _tlDkL1a9;
+        "minecraft-23w45a" = _tlDkL1a9;
+        "minecraft-23w46a" = _tlDkL1a9;
+        "minecraft-24w03a" = _tlDkL1a9;
+        "minecraft-24w03b" = _tlDkL1a9;
+        "minecraft-24w04a" = _tlDkL1a9;
+        "minecraft-24w05a" = _tlDkL1a9;
+        "minecraft-24w05b" = _tlDkL1a9;
+        "minecraft-24w06a" = _tlDkL1a9;
+        "minecraft-24w07a" = _tlDkL1a9;
+        "minecraft-24w09a" = _tlDkL1a9;
+        "minecraft-24w10a" = _tlDkL1a9;
+        "minecraft-24w11a" = _tlDkL1a9;
+        "minecraft-24w12a" = _tlDkL1a9;
+        "minecraft-24w13a" = _tlDkL1a9;
+        "minecraft-24w14potato" = _tlDkL1a9;
+        "minecraft-24w14a" = _tlDkL1a9;
+        "minecraft-1.20.5-pre1" = _tlDkL1a9;
+        "minecraft-1.20.5-pre2" = _tlDkL1a9;
+        "minecraft-1.20.5-pre3" = _tlDkL1a9;
+        "minecraft-24w18a" = _tlDkL1a9;
+        "minecraft-24w19a" = _tlDkL1a9;
+        "minecraft-24w19b" = _tlDkL1a9;
+        "minecraft-24w20a" = _tlDkL1a9;
+        "minecraft-24w33a" = _tlDkL1a9;
+        "minecraft-24w34a" = _tlDkL1a9;
+        "minecraft-24w35a" = _tlDkL1a9;
+        "minecraft-24w36a" = _tlDkL1a9;
+        "minecraft-24w37a" = _tlDkL1a9;
+        "minecraft-24w38a" = _tlDkL1a9;
+        "minecraft-24w39a" = _tlDkL1a9;
+        "minecraft-24w40a" = _tlDkL1a9;
+        "minecraft-1.21.2-pre1" = _tlDkL1a9;
+        "minecraft-1.21.2-pre2" = _tlDkL1a9;
+        "minecraft-24w44a" = _tlDkL1a9;
+        "minecraft-24w45a" = _tlDkL1a9;
+        "minecraft-24w46a" = _tlDkL1a9;
+        "minecraft-1.21.5" = _tlDkL1a9;
+        "minecraft-1.18.2" = _tlDkL1a9;
+        "minecraft-1.19" = _tlDkL1a9;
+        "minecraft-1.19.1" = _tlDkL1a9;
+        "minecraft-1.19.2" = _tlDkL1a9;
+        "minecraft-1.19.3" = _tlDkL1a9;
+        "minecraft-1.19.4" = _tlDkL1a9;
+        "minecraft-1.20" = _tlDkL1a9;
+        "minecraft-1.20.1" = _tlDkL1a9;
+        "minecraft-1.20.2" = _tlDkL1a9;
+        "minecraft-1.20.3" = _tlDkL1a9;
+        "minecraft-1.20.4" = _tlDkL1a9;
+        "vanilla-1.20.5" = _zK76ghpG;
+        "vanilla-1.20.6" = _zK76ghpG;
+        "vanilla-1.21" = _zK76ghpG;
+        "vanilla-1.21.1" = _zK76ghpG;
+        "vanilla-1.21.2" = _zK76ghpG;
+        "vanilla-1.21.3" = _zK76ghpG;
+        "vanilla-1.21.4" = _zK76ghpG;
+        "vanilla-1.21.6" = _zK76ghpG;
+        "vanilla-1.21.7" = _zK76ghpG;
+        "vanilla-1.21.8" = _zK76ghpG;
+        "vanilla-1.21.9" = _zK76ghpG;
+        "vanilla-1.21.10" = _zK76ghpG;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "xpcoins";
+            id = "51IsCyp8";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="tlDkL1a9";}

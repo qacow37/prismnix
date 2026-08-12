@@ -1,0 +1,135 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _oxPOuJIm = {
+            "id" = "oxPOuJIm";
+            "file" = "DynamicLight-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-kYh1VjwiT0cuDEgPHLrKejuW3PMx7t5wlhzk8H5ZN2RaxuQrQ77Ajyd7D3i0uwOS/7KDc4Fd10h2zasVPpd2wg==";
+        };
+        _OvloDKav = {
+            "id" = "OvloDKav";
+            "file" = "dynamiclight-1.0.0.jar";
+            "hash" = "sha512-F5ftIlzLdnJnKnQo7AFxtdf4lu9x4jfvr/IOvx8m0ooqp0ilr3V6CDTiv5fOWKYgqXSDver+NttRmpr1/cOFXg==";
+        };
+        _8nb9rAMc = {
+            "id" = "8nb9rAMc";
+            "file" = "Smooth-Dynamic-light-1.0.0.jar";
+            "hash" = "sha512-QVkEETECJ+BcmaCKL/LVcRycef40Vb0D/pW4hgCOiDdEhWT0o4jzFoBA1afULGLwY6vHvTJw3d8lNKo2pewMEQ==";
+        };
+    in {
+        "oxPOuJIm" = _oxPOuJIm;
+        "OvloDKav" = _OvloDKav;
+        "8nb9rAMc" = _8nb9rAMc;
+        "bukkit-1.20" = _OvloDKav;
+        "bukkit-1.20.1" = _OvloDKav;
+        "bukkit-1.20.2" = _OvloDKav;
+        "bukkit-1.20.3" = _OvloDKav;
+        "bukkit-1.20.4" = _OvloDKav;
+        "bukkit-1.20.5" = _OvloDKav;
+        "bukkit-1.20.6" = _OvloDKav;
+        "bukkit-1.21" = _8nb9rAMc;
+        "bukkit-1.21.1" = _8nb9rAMc;
+        "bukkit-1.21.2" = _8nb9rAMc;
+        "bukkit-1.21.3" = _8nb9rAMc;
+        "bukkit-1.21.4" = _8nb9rAMc;
+        "bukkit-1.21.5" = _8nb9rAMc;
+        "bukkit-1.21.6" = _8nb9rAMc;
+        "bukkit-1.21.7" = _8nb9rAMc;
+        "bukkit-1.21.8" = _8nb9rAMc;
+        "bukkit-1.21.9" = _8nb9rAMc;
+        "bukkit-1.21.10" = _8nb9rAMc;
+        "bukkit-1.21.11" = _8nb9rAMc;
+        "bukkit-26.1" = _8nb9rAMc;
+        "bukkit-26.1.1" = _8nb9rAMc;
+        "bukkit-26.1.2" = _8nb9rAMc;
+        "bukkit-26.2" = _8nb9rAMc;
+        "paper-1.20" = _OvloDKav;
+        "paper-1.20.1" = _OvloDKav;
+        "paper-1.20.2" = _OvloDKav;
+        "paper-1.20.3" = _OvloDKav;
+        "paper-1.20.4" = _OvloDKav;
+        "paper-1.20.5" = _OvloDKav;
+        "paper-1.20.6" = _OvloDKav;
+        "paper-1.21" = _8nb9rAMc;
+        "paper-1.21.1" = _8nb9rAMc;
+        "paper-1.21.2" = _8nb9rAMc;
+        "paper-1.21.3" = _8nb9rAMc;
+        "paper-1.21.4" = _8nb9rAMc;
+        "paper-1.21.5" = _8nb9rAMc;
+        "paper-1.21.6" = _8nb9rAMc;
+        "paper-1.21.7" = _8nb9rAMc;
+        "paper-1.21.8" = _8nb9rAMc;
+        "paper-1.21.9" = _8nb9rAMc;
+        "paper-1.21.10" = _8nb9rAMc;
+        "paper-1.21.11" = _8nb9rAMc;
+        "paper-26.1" = _8nb9rAMc;
+        "paper-26.1.1" = _8nb9rAMc;
+        "paper-26.1.2" = _8nb9rAMc;
+        "paper-26.2" = _8nb9rAMc;
+        "purpur-1.20" = _OvloDKav;
+        "purpur-1.20.1" = _OvloDKav;
+        "purpur-1.20.2" = _OvloDKav;
+        "purpur-1.20.3" = _OvloDKav;
+        "purpur-1.20.4" = _OvloDKav;
+        "purpur-1.20.5" = _OvloDKav;
+        "purpur-1.20.6" = _OvloDKav;
+        "purpur-1.21" = _8nb9rAMc;
+        "purpur-1.21.1" = _8nb9rAMc;
+        "purpur-1.21.2" = _8nb9rAMc;
+        "purpur-1.21.3" = _8nb9rAMc;
+        "purpur-1.21.4" = _8nb9rAMc;
+        "purpur-1.21.5" = _8nb9rAMc;
+        "purpur-1.21.6" = _8nb9rAMc;
+        "purpur-1.21.7" = _8nb9rAMc;
+        "purpur-1.21.8" = _8nb9rAMc;
+        "purpur-1.21.9" = _8nb9rAMc;
+        "purpur-1.21.10" = _8nb9rAMc;
+        "purpur-1.21.11" = _8nb9rAMc;
+        "purpur-26.1" = _8nb9rAMc;
+        "purpur-26.1.1" = _8nb9rAMc;
+        "purpur-26.1.2" = _8nb9rAMc;
+        "purpur-26.2" = _8nb9rAMc;
+        "spigot-1.20" = _OvloDKav;
+        "spigot-1.20.1" = _OvloDKav;
+        "spigot-1.20.2" = _OvloDKav;
+        "spigot-1.20.3" = _OvloDKav;
+        "spigot-1.20.4" = _OvloDKav;
+        "spigot-1.20.5" = _OvloDKav;
+        "spigot-1.20.6" = _OvloDKav;
+        "spigot-1.21" = _8nb9rAMc;
+        "spigot-1.21.1" = _8nb9rAMc;
+        "spigot-1.21.2" = _8nb9rAMc;
+        "spigot-1.21.3" = _8nb9rAMc;
+        "spigot-1.21.4" = _8nb9rAMc;
+        "spigot-1.21.5" = _8nb9rAMc;
+        "spigot-1.21.6" = _8nb9rAMc;
+        "spigot-1.21.7" = _8nb9rAMc;
+        "spigot-1.21.8" = _8nb9rAMc;
+        "spigot-1.21.9" = _8nb9rAMc;
+        "spigot-1.21.10" = _8nb9rAMc;
+        "spigot-1.21.11" = _8nb9rAMc;
+        "spigot-26.1" = _8nb9rAMc;
+        "spigot-26.1.1" = _8nb9rAMc;
+        "spigot-26.1.2" = _8nb9rAMc;
+        "spigot-26.2" = _8nb9rAMc;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "smooth-dynamic-light";
+            id = "VuQsEqVE";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="8nb9rAMc";}

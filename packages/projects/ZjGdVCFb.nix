@@ -1,0 +1,113 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _LCzcSFI5 = {
+            "id" = "LCzcSFI5";
+            "file" = "Prettier Health Bars v1.0.zip";
+            "hash" = "sha512-6DH7nXbklRBkbrKGfFc66ISPtT7ucsNWJ1QuEUSkmzn67ZS7AHCIHpxq23UUvBaqY2DsJB6x3VWuEq7YvRDLag==";
+        };
+        _siJtKr5p = {
+            "id" = "siJtKr5p";
+            "file" = "Health Bars Reforged v1.1.zip";
+            "hash" = "sha512-j2LbjQYGXyDcfDMPQbqVyHABZnzWCk47ae00LC74hU0PStf8sq7Ath+0f7+jXQls9a0xSFJta8bHd/+jIVoTtA==";
+        };
+    in {
+        "LCzcSFI5" = _LCzcSFI5;
+        "siJtKr5p" = _siJtKr5p;
+        "minecraft-1.21.4" = _siJtKr5p;
+        "minecraft-1.18" = _siJtKr5p;
+        "minecraft-1.18.1" = _siJtKr5p;
+        "minecraft-1.18.2" = _siJtKr5p;
+        "minecraft-1.19" = _siJtKr5p;
+        "minecraft-1.19.1" = _siJtKr5p;
+        "minecraft-1.19.2" = _siJtKr5p;
+        "minecraft-1.19.3" = _siJtKr5p;
+        "minecraft-1.19.4" = _siJtKr5p;
+        "minecraft-1.20" = _siJtKr5p;
+        "minecraft-1.20.1" = _siJtKr5p;
+        "minecraft-23w31a" = _siJtKr5p;
+        "minecraft-23w32a" = _siJtKr5p;
+        "minecraft-23w33a" = _siJtKr5p;
+        "minecraft-23w35a" = _siJtKr5p;
+        "minecraft-1.20.2-pre1" = _siJtKr5p;
+        "minecraft-1.20.2" = _siJtKr5p;
+        "minecraft-23w42a" = _siJtKr5p;
+        "minecraft-23w43a" = _siJtKr5p;
+        "minecraft-23w43b" = _siJtKr5p;
+        "minecraft-23w44a" = _siJtKr5p;
+        "minecraft-23w45a" = _siJtKr5p;
+        "minecraft-23w46a" = _siJtKr5p;
+        "minecraft-1.20.3" = _siJtKr5p;
+        "minecraft-1.20.4" = _siJtKr5p;
+        "minecraft-24w03a" = _siJtKr5p;
+        "minecraft-24w03b" = _siJtKr5p;
+        "minecraft-24w04a" = _siJtKr5p;
+        "minecraft-24w05a" = _siJtKr5p;
+        "minecraft-24w05b" = _siJtKr5p;
+        "minecraft-24w06a" = _siJtKr5p;
+        "minecraft-24w07a" = _siJtKr5p;
+        "minecraft-24w09a" = _siJtKr5p;
+        "minecraft-24w10a" = _siJtKr5p;
+        "minecraft-24w11a" = _siJtKr5p;
+        "minecraft-24w12a" = _siJtKr5p;
+        "minecraft-24w13a" = _siJtKr5p;
+        "minecraft-24w14potato" = _siJtKr5p;
+        "minecraft-24w14a" = _siJtKr5p;
+        "minecraft-1.20.5-pre1" = _siJtKr5p;
+        "minecraft-1.20.5-pre2" = _siJtKr5p;
+        "minecraft-1.20.5-pre3" = _siJtKr5p;
+        "minecraft-1.20.5" = _siJtKr5p;
+        "minecraft-1.20.6" = _siJtKr5p;
+        "minecraft-24w18a" = _siJtKr5p;
+        "minecraft-24w19a" = _siJtKr5p;
+        "minecraft-24w19b" = _siJtKr5p;
+        "minecraft-24w20a" = _siJtKr5p;
+        "minecraft-1.21" = _siJtKr5p;
+        "minecraft-1.21.1" = _siJtKr5p;
+        "minecraft-24w33a" = _siJtKr5p;
+        "minecraft-24w34a" = _siJtKr5p;
+        "minecraft-24w35a" = _siJtKr5p;
+        "minecraft-24w36a" = _siJtKr5p;
+        "minecraft-24w37a" = _siJtKr5p;
+        "minecraft-24w38a" = _siJtKr5p;
+        "minecraft-24w39a" = _siJtKr5p;
+        "minecraft-24w40a" = _siJtKr5p;
+        "minecraft-1.21.2-pre1" = _siJtKr5p;
+        "minecraft-1.21.2-pre2" = _siJtKr5p;
+        "minecraft-1.21.2" = _siJtKr5p;
+        "minecraft-1.21.3" = _siJtKr5p;
+        "minecraft-24w44a" = _siJtKr5p;
+        "minecraft-24w45a" = _siJtKr5p;
+        "minecraft-24w46a" = _siJtKr5p;
+        "minecraft-1.21.5" = _siJtKr5p;
+        "minecraft-1.21.6" = _siJtKr5p;
+        "minecraft-1.21.7" = _siJtKr5p;
+        "minecraft-1.21.8" = _siJtKr5p;
+        "minecraft-1.21.9" = _siJtKr5p;
+        "minecraft-1.21.10" = _siJtKr5p;
+        "minecraft-1.21.11" = _siJtKr5p;
+        "minecraft-26.1" = _siJtKr5p;
+        "minecraft-26.1.1" = _siJtKr5p;
+        "minecraft-26.1.2" = _siJtKr5p;
+        "minecraft-26.2" = _siJtKr5p;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "health-bars-reforged";
+            id = "ZjGdVCFb";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="siJtKr5p";}

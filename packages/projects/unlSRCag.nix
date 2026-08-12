@@ -1,0 +1,189 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Ig9AI8YQ = {
+            "id" = "Ig9AI8YQ";
+            "file" = "The Ancient Towns 1.0b.zip";
+            "hash" = "sha512-rBkkAEqGsB4mys672Je964tyFmcRuP7Gi+qQA+I4CVi8d+yZArFAg88W2+x0ZFel/vt8ICN8VA73pg/M3HWqag==";
+        };
+        _QawtXC5q = {
+            "id" = "QawtXC5q";
+            "file" = "The Ancient Towns 1.1b.zip";
+            "hash" = "sha512-z1C5Z2udMKXCzjQRzV9JKyr6B4y1afy2n04NX9M+RKJl7kdfl94vmlTmYIlbd0gDgf/GPH7fdvj+Q4RplSXYXA==";
+        };
+        _I0PjRVUk = {
+            "id" = "I0PjRVUk";
+            "file" = "the-ancient-towns-1.1.jar";
+            "hash" = "sha512-bsZIyxz+pGdi9xMbTwpVoE42ZJME8zUTGVtaafGVXNek3Qfj7VB84ENYPUSCYxwe51QK7C8le+JbzLJOjnV2aQ==";
+        };
+        _WclbXQD3 = {
+            "id" = "WclbXQD3";
+            "file" = "The Ancient Towns 1.2b.zip";
+            "hash" = "sha512-AW2rjA/DJT2T86D4SWt1CrElBN5SmQ7auyYq2rLYfwo6nDC2QSbKkAFmyKTvFvJ6satupCb7cYWnUBUoRbJJ9Q==";
+        };
+        _iaak7rGs = {
+            "id" = "iaak7rGs";
+            "file" = "the-ancient-towns-1.2.jar";
+            "hash" = "sha512-1RK7a//TRUTcWf7i2DRHOKSIObWNGFO7dVSEs/71LAs6WgUkxWatMFlVVzM5bGjh13YQ0Gnz2paX1HETmh9dZQ==";
+        };
+        _LClf10pG = {
+            "id" = "LClf10pG";
+            "file" = "The Ancient Towns 1.2.1b.zip";
+            "hash" = "sha512-bhq39QXDrZffFahrO0rAukqrYpctLmOr6UppNYE7tXYlZVuTMzWhF/d+ZqnPj+DhnrnPXsSyTv4URBOdXEM3cQ==";
+        };
+        _WtfmynTJ = {
+            "id" = "WtfmynTJ";
+            "file" = "the-ancient-towns-1.2.1.jar";
+            "hash" = "sha512-B1lO8xChacdJ4oEprYlI1CYgyWenzq4bFuMV00PjP9/NDsR+MHcM8NGHZMdunESolKQrEOdN8Hq2NMZAqpUrng==";
+        };
+        _n1B4D1e9 = {
+            "id" = "n1B4D1e9";
+            "file" = "The Ancient Towns v1.2.1b - 1.20.1 - 1.21.9.zip";
+            "hash" = "sha512-8rN4mw+B2TFVtNx2j6XV8Gsfv9JW0tVxFGMcCFizWEXDITJr8MzYSYgTrPulLoJXk3cn/63PFDHNqdpsL0I38A==";
+        };
+        _PWS6KstU = {
+            "id" = "PWS6KstU";
+            "file" = "the-ancient-towns-1.2.1.jar";
+            "hash" = "sha512-KIMqd+jyypG7l3+DIWHFPHMdnhvly7gdmwWcL/CqkLtYBIHzbmV9OwtN4MPZhStN4/luWj4MY4cTYrGYp+akNw==";
+        };
+    in {
+        "Ig9AI8YQ" = _Ig9AI8YQ;
+        "QawtXC5q" = _QawtXC5q;
+        "I0PjRVUk" = _I0PjRVUk;
+        "WclbXQD3" = _WclbXQD3;
+        "iaak7rGs" = _iaak7rGs;
+        "LClf10pG" = _LClf10pG;
+        "WtfmynTJ" = _WtfmynTJ;
+        "n1B4D1e9" = _n1B4D1e9;
+        "PWS6KstU" = _PWS6KstU;
+        "datapack-1.21.9" = _LClf10pG;
+        "datapack-1.21.10" = _LClf10pG;
+        "datapack-1.21.11" = _LClf10pG;
+        "datapack-26.1" = _LClf10pG;
+        "datapack-26.1.1" = _LClf10pG;
+        "datapack-26.1.2" = _LClf10pG;
+        "datapack-26.2" = _LClf10pG;
+        "datapack-1.20.1" = _n1B4D1e9;
+        "datapack-1.20.2" = _n1B4D1e9;
+        "datapack-1.20.3" = _n1B4D1e9;
+        "datapack-1.20.4" = _n1B4D1e9;
+        "datapack-1.20.5" = _n1B4D1e9;
+        "datapack-1.20.6" = _n1B4D1e9;
+        "datapack-1.21" = _n1B4D1e9;
+        "datapack-1.21.1" = _n1B4D1e9;
+        "datapack-1.21.2" = _n1B4D1e9;
+        "datapack-1.21.3" = _n1B4D1e9;
+        "datapack-1.21.4" = _n1B4D1e9;
+        "datapack-1.21.5" = _n1B4D1e9;
+        "datapack-1.21.6" = _n1B4D1e9;
+        "datapack-1.21.7" = _n1B4D1e9;
+        "datapack-1.21.8" = _n1B4D1e9;
+        "fabric-1.21.9" = _WtfmynTJ;
+        "fabric-1.21.10" = _WtfmynTJ;
+        "fabric-1.21.11" = _WtfmynTJ;
+        "fabric-26.1" = _WtfmynTJ;
+        "fabric-26.1.1" = _WtfmynTJ;
+        "fabric-26.1.2" = _WtfmynTJ;
+        "fabric-26.2" = _WtfmynTJ;
+        "fabric-1.20.1" = _PWS6KstU;
+        "fabric-1.20.2" = _PWS6KstU;
+        "fabric-1.20.3" = _PWS6KstU;
+        "fabric-1.20.4" = _PWS6KstU;
+        "fabric-1.20.5" = _PWS6KstU;
+        "fabric-1.20.6" = _PWS6KstU;
+        "fabric-1.21" = _PWS6KstU;
+        "fabric-1.21.1" = _PWS6KstU;
+        "fabric-1.21.2" = _PWS6KstU;
+        "fabric-1.21.3" = _PWS6KstU;
+        "fabric-1.21.4" = _PWS6KstU;
+        "fabric-1.21.5" = _PWS6KstU;
+        "fabric-1.21.6" = _PWS6KstU;
+        "fabric-1.21.7" = _PWS6KstU;
+        "fabric-1.21.8" = _PWS6KstU;
+        "forge-1.21.9" = _WtfmynTJ;
+        "forge-1.21.10" = _WtfmynTJ;
+        "forge-1.21.11" = _WtfmynTJ;
+        "forge-26.1" = _WtfmynTJ;
+        "forge-26.1.1" = _WtfmynTJ;
+        "forge-26.1.2" = _WtfmynTJ;
+        "forge-26.2" = _WtfmynTJ;
+        "forge-1.20.1" = _PWS6KstU;
+        "forge-1.20.2" = _PWS6KstU;
+        "forge-1.20.3" = _PWS6KstU;
+        "forge-1.20.4" = _PWS6KstU;
+        "forge-1.20.5" = _PWS6KstU;
+        "forge-1.20.6" = _PWS6KstU;
+        "forge-1.21" = _PWS6KstU;
+        "forge-1.21.1" = _PWS6KstU;
+        "forge-1.21.2" = _PWS6KstU;
+        "forge-1.21.3" = _PWS6KstU;
+        "forge-1.21.4" = _PWS6KstU;
+        "forge-1.21.5" = _PWS6KstU;
+        "forge-1.21.6" = _PWS6KstU;
+        "forge-1.21.7" = _PWS6KstU;
+        "forge-1.21.8" = _PWS6KstU;
+        "neoforge-1.21.9" = _WtfmynTJ;
+        "neoforge-1.21.10" = _WtfmynTJ;
+        "neoforge-1.21.11" = _WtfmynTJ;
+        "neoforge-26.1" = _WtfmynTJ;
+        "neoforge-26.1.1" = _WtfmynTJ;
+        "neoforge-26.1.2" = _WtfmynTJ;
+        "neoforge-26.2" = _WtfmynTJ;
+        "neoforge-1.20.1" = _PWS6KstU;
+        "neoforge-1.20.2" = _PWS6KstU;
+        "neoforge-1.20.3" = _PWS6KstU;
+        "neoforge-1.20.4" = _PWS6KstU;
+        "neoforge-1.20.5" = _PWS6KstU;
+        "neoforge-1.20.6" = _PWS6KstU;
+        "neoforge-1.21" = _PWS6KstU;
+        "neoforge-1.21.1" = _PWS6KstU;
+        "neoforge-1.21.2" = _PWS6KstU;
+        "neoforge-1.21.3" = _PWS6KstU;
+        "neoforge-1.21.4" = _PWS6KstU;
+        "neoforge-1.21.5" = _PWS6KstU;
+        "neoforge-1.21.6" = _PWS6KstU;
+        "neoforge-1.21.7" = _PWS6KstU;
+        "neoforge-1.21.8" = _PWS6KstU;
+        "quilt-1.21.9" = _WtfmynTJ;
+        "quilt-1.21.10" = _WtfmynTJ;
+        "quilt-1.21.11" = _WtfmynTJ;
+        "quilt-26.1" = _WtfmynTJ;
+        "quilt-26.1.1" = _WtfmynTJ;
+        "quilt-26.1.2" = _WtfmynTJ;
+        "quilt-26.2" = _WtfmynTJ;
+        "quilt-1.20.1" = _PWS6KstU;
+        "quilt-1.20.2" = _PWS6KstU;
+        "quilt-1.20.3" = _PWS6KstU;
+        "quilt-1.20.4" = _PWS6KstU;
+        "quilt-1.20.5" = _PWS6KstU;
+        "quilt-1.20.6" = _PWS6KstU;
+        "quilt-1.21" = _PWS6KstU;
+        "quilt-1.21.1" = _PWS6KstU;
+        "quilt-1.21.2" = _PWS6KstU;
+        "quilt-1.21.3" = _PWS6KstU;
+        "quilt-1.21.4" = _PWS6KstU;
+        "quilt-1.21.5" = _PWS6KstU;
+        "quilt-1.21.6" = _PWS6KstU;
+        "quilt-1.21.7" = _PWS6KstU;
+        "quilt-1.21.8" = _PWS6KstU;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "the-ancient-towns";
+            id = "unlSRCag";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="PWS6KstU";}

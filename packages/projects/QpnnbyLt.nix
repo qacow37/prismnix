@@ -1,0 +1,245 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _zd2H2VAc = {
+            "id" = "zd2H2VAc";
+            "file" = "DTools3-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-6MZtEh1cj5ifuITaLE/2+0phIEGPljtBMvKENaE5UHSg12QxhwaJVLQeNcmS6asLzfmNC1n0pbN8wPRHWZfucg==";
+        };
+        _FDrFbbs7 = {
+            "id" = "FDrFbbs7";
+            "file" = "DTools3-1.0.1-SNAPSHOT.jar";
+            "hash" = "sha512-G7t12/u/dCAr3npxOxbNFOyKBFLzmK6bNj6FBG+xyGqUu1Vw/EUbwgzi0/oRO64I18P0pqP8rxrqnII75CuMiQ==";
+        };
+        _MWAkgPgY = {
+            "id" = "MWAkgPgY";
+            "file" = "DTools3-1.0.2-SNAPSHOT.jar";
+            "hash" = "sha512-qgbTAhd1EW5RZoGrZsdBYxqWMtAc3LhifOjvmuqWqE2hIbKgHNB26R9AvcT65QEOR4XYVywHtkEAv2W+19ATHQ==";
+        };
+        _83wGXum0 = {
+            "id" = "83wGXum0";
+            "file" = "DTools3-1.0.3-SNAPSHOT.jar";
+            "hash" = "sha512-998dgqhTYX5cr1oF7XotmGu+idgSjuQ7igZZrc86zjJ0DUx0CT3pWa//3SZI0LxBUlhsNdPXb5ARCnu2Gy1P6w==";
+        };
+        _SDNCRzpB = {
+            "id" = "SDNCRzpB";
+            "file" = "DTools3-1.0.4-SNAPSHOT.jar";
+            "hash" = "sha512-5x+/vWxrK7hDORcITKnwwoEPj+bVIKo1ksQdgidZezq2/OVrGsaSThgPAmlxcFGtsuqLvNecKEIp9KOTNGtPHg==";
+        };
+        _EPoHjzrW = {
+            "id" = "EPoHjzrW";
+            "file" = "DTools3-1.0.5-SNAPSHOT.jar";
+            "hash" = "sha512-USIvBWRtjSgxqc6ClSLM+nO/WojATfoPpHfRpdUg4TIhSn0V6EvpqvoFnqAM2BoqbZqnVkuKizmIO5TTStxzag==";
+        };
+        _eyN62FQI = {
+            "id" = "eyN62FQI";
+            "file" = "DTools3-1.0.6-SNAPSHOT.jar";
+            "hash" = "sha512-j+ZVq9Ip0STuAEcDPM5csC9GQxAJCPwPYxRBnZBCPCi8DDm7wqnvEVxapM/ZqKK2KF51Lc2g1F0FNCcxaIOBGQ==";
+        };
+        _p7FSE7Vk = {
+            "id" = "p7FSE7Vk";
+            "file" = "DTools3-1.0.7-SNAPSHOT.jar";
+            "hash" = "sha512-UgFWJ6KA1OcFUnT61U02V26w4jGCTE2xfaxbHEhaN1IVXKxjZPyHswx18dfHLLatbpY8oB7Nna2b2byGfwycvg==";
+        };
+        _OLXRy5mZ = {
+            "id" = "OLXRy5mZ";
+            "file" = "DTools3-1.0.8-SNAPSHOT.jar";
+            "hash" = "sha512-5u5vyo1AaYVH13vViCaKOuFyXJe5M60e5dY/8SvYmxRTgdQPWl24ZUMR5eW9xpymcb/cYmqJdsGtQMLg97at5Q==";
+        };
+        _LBvAiL6c = {
+            "id" = "LBvAiL6c";
+            "file" = "DTools3-1.0.9-SNAPSHOT.jar";
+            "hash" = "sha512-DrxoihZTnnGb6/rSx4+ehJJiLhQdUVV9UnGpQQlblZbulKCpjt0uuOyxu028ZJ2GlxO9utF3C2GSgQIpDQJ3pg==";
+        };
+        _iYlhuJTw = {
+            "id" = "iYlhuJTw";
+            "file" = "DTools3-1.1.0-SNAPSHOT.jar";
+            "hash" = "sha512-2FVzKzI+3UcP8SiBTz347AIPSwY1Z1P6rtWvBf4Ov5VqhK8YM4xui3n6YXRq2l7rcwTzjthCwmPsxtJTqNLZ8w==";
+        };
+        _XFvNJdvE = {
+            "id" = "XFvNJdvE";
+            "file" = "DTools3-1.1.1-SNAPSHOT.jar";
+            "hash" = "sha512-9sc4B635ybfIBinK+chnVM3YIv4TBr6A+4t+mfFCKybVDAvjhnfqWlkUf6bXTL12IoKuI0yPYcDwTPCCXwOumQ==";
+        };
+        _cdMagWJi = {
+            "id" = "cdMagWJi";
+            "file" = "DTools3-1.1.2-SNAPSHOT.jar";
+            "hash" = "sha512-XogC87/qZQ5Or0P9N6Fn5reTInCGMqg2cUf1h+AnKUYloP1SuERmQ229sBKFliUIddA/kst0d0Fo5SBpduXjiQ==";
+        };
+        _9E9mxyXH = {
+            "id" = "9E9mxyXH";
+            "file" = "DTools3-1.1.3-SNAPSHOT.jar";
+            "hash" = "sha512-eCy8ZKaQITTSRrUSK1uR/xK57FhVumraLNKCIz9RNXB86e5TpgeljXjfEO+ymU/ezoiiP6UEXw7a/9h8Kkr8wA==";
+        };
+    in {
+        "zd2H2VAc" = _zd2H2VAc;
+        "FDrFbbs7" = _FDrFbbs7;
+        "MWAkgPgY" = _MWAkgPgY;
+        "83wGXum0" = _83wGXum0;
+        "SDNCRzpB" = _SDNCRzpB;
+        "EPoHjzrW" = _EPoHjzrW;
+        "eyN62FQI" = _eyN62FQI;
+        "p7FSE7Vk" = _p7FSE7Vk;
+        "OLXRy5mZ" = _OLXRy5mZ;
+        "LBvAiL6c" = _LBvAiL6c;
+        "iYlhuJTw" = _iYlhuJTw;
+        "XFvNJdvE" = _XFvNJdvE;
+        "cdMagWJi" = _cdMagWJi;
+        "9E9mxyXH" = _9E9mxyXH;
+        "bukkit-1.16.3" = _9E9mxyXH;
+        "bukkit-1.16.4" = _9E9mxyXH;
+        "bukkit-1.16.5" = _9E9mxyXH;
+        "bukkit-1.17" = _9E9mxyXH;
+        "bukkit-1.17.1" = _9E9mxyXH;
+        "bukkit-1.18" = _9E9mxyXH;
+        "bukkit-1.18.1" = _9E9mxyXH;
+        "bukkit-1.18.2" = _9E9mxyXH;
+        "bukkit-1.19" = _9E9mxyXH;
+        "bukkit-1.19.1" = _9E9mxyXH;
+        "bukkit-1.19.2" = _9E9mxyXH;
+        "bukkit-1.19.3" = _9E9mxyXH;
+        "bukkit-1.19.4" = _9E9mxyXH;
+        "bukkit-1.20" = _9E9mxyXH;
+        "bukkit-1.20.1" = _9E9mxyXH;
+        "bukkit-1.20.2" = _9E9mxyXH;
+        "bukkit-1.20.3" = _9E9mxyXH;
+        "bukkit-1.20.4" = _9E9mxyXH;
+        "bukkit-1.20.5" = _9E9mxyXH;
+        "bukkit-1.20.6" = _9E9mxyXH;
+        "bukkit-1.21" = _9E9mxyXH;
+        "bukkit-1.21.1" = _9E9mxyXH;
+        "bukkit-1.21.2" = _9E9mxyXH;
+        "bukkit-1.21.3" = _9E9mxyXH;
+        "bukkit-1.16" = _9E9mxyXH;
+        "bukkit-1.16.1" = _9E9mxyXH;
+        "bukkit-1.16.2" = _9E9mxyXH;
+        "bukkit-1.21.4" = _9E9mxyXH;
+        "minecraft-1.16.3" = _zd2H2VAc;
+        "minecraft-1.16.4" = _zd2H2VAc;
+        "minecraft-1.16.5" = _zd2H2VAc;
+        "minecraft-1.17" = _zd2H2VAc;
+        "minecraft-1.17.1" = _zd2H2VAc;
+        "minecraft-1.18" = _zd2H2VAc;
+        "minecraft-1.18.1" = _zd2H2VAc;
+        "minecraft-1.18.2" = _zd2H2VAc;
+        "minecraft-1.19" = _zd2H2VAc;
+        "minecraft-1.19.1" = _zd2H2VAc;
+        "minecraft-1.19.2" = _zd2H2VAc;
+        "minecraft-1.19.3" = _zd2H2VAc;
+        "minecraft-1.19.4" = _zd2H2VAc;
+        "minecraft-1.20" = _zd2H2VAc;
+        "minecraft-1.20.1" = _zd2H2VAc;
+        "minecraft-1.20.2" = _zd2H2VAc;
+        "minecraft-1.20.3" = _zd2H2VAc;
+        "minecraft-1.20.4" = _zd2H2VAc;
+        "minecraft-1.20.5" = _zd2H2VAc;
+        "minecraft-1.20.6" = _zd2H2VAc;
+        "minecraft-1.21" = _zd2H2VAc;
+        "minecraft-1.21.1" = _zd2H2VAc;
+        "minecraft-1.21.2" = _zd2H2VAc;
+        "minecraft-1.21.3" = _zd2H2VAc;
+        "paper-1.16.3" = _9E9mxyXH;
+        "paper-1.16.4" = _9E9mxyXH;
+        "paper-1.16.5" = _9E9mxyXH;
+        "paper-1.17" = _9E9mxyXH;
+        "paper-1.17.1" = _9E9mxyXH;
+        "paper-1.18" = _9E9mxyXH;
+        "paper-1.18.1" = _9E9mxyXH;
+        "paper-1.18.2" = _9E9mxyXH;
+        "paper-1.19" = _9E9mxyXH;
+        "paper-1.19.1" = _9E9mxyXH;
+        "paper-1.19.2" = _9E9mxyXH;
+        "paper-1.19.3" = _9E9mxyXH;
+        "paper-1.19.4" = _9E9mxyXH;
+        "paper-1.20" = _9E9mxyXH;
+        "paper-1.20.1" = _9E9mxyXH;
+        "paper-1.20.2" = _9E9mxyXH;
+        "paper-1.20.3" = _9E9mxyXH;
+        "paper-1.20.4" = _9E9mxyXH;
+        "paper-1.20.5" = _9E9mxyXH;
+        "paper-1.20.6" = _9E9mxyXH;
+        "paper-1.21" = _9E9mxyXH;
+        "paper-1.21.1" = _9E9mxyXH;
+        "paper-1.21.2" = _9E9mxyXH;
+        "paper-1.21.3" = _9E9mxyXH;
+        "paper-1.16" = _9E9mxyXH;
+        "paper-1.16.1" = _9E9mxyXH;
+        "paper-1.16.2" = _9E9mxyXH;
+        "paper-1.21.4" = _9E9mxyXH;
+        "spigot-1.16.3" = _9E9mxyXH;
+        "spigot-1.16.4" = _9E9mxyXH;
+        "spigot-1.16.5" = _9E9mxyXH;
+        "spigot-1.17" = _9E9mxyXH;
+        "spigot-1.17.1" = _9E9mxyXH;
+        "spigot-1.18" = _9E9mxyXH;
+        "spigot-1.18.1" = _9E9mxyXH;
+        "spigot-1.18.2" = _9E9mxyXH;
+        "spigot-1.19" = _9E9mxyXH;
+        "spigot-1.19.1" = _9E9mxyXH;
+        "spigot-1.19.2" = _9E9mxyXH;
+        "spigot-1.19.3" = _9E9mxyXH;
+        "spigot-1.19.4" = _9E9mxyXH;
+        "spigot-1.20" = _9E9mxyXH;
+        "spigot-1.20.1" = _9E9mxyXH;
+        "spigot-1.20.2" = _9E9mxyXH;
+        "spigot-1.20.3" = _9E9mxyXH;
+        "spigot-1.20.4" = _9E9mxyXH;
+        "spigot-1.20.5" = _9E9mxyXH;
+        "spigot-1.20.6" = _9E9mxyXH;
+        "spigot-1.21" = _9E9mxyXH;
+        "spigot-1.21.1" = _9E9mxyXH;
+        "spigot-1.21.2" = _9E9mxyXH;
+        "spigot-1.21.3" = _9E9mxyXH;
+        "spigot-1.16" = _9E9mxyXH;
+        "spigot-1.16.1" = _9E9mxyXH;
+        "spigot-1.16.2" = _9E9mxyXH;
+        "spigot-1.21.4" = _9E9mxyXH;
+        "purpur-1.16" = _9E9mxyXH;
+        "purpur-1.16.1" = _9E9mxyXH;
+        "purpur-1.16.2" = _9E9mxyXH;
+        "purpur-1.16.3" = _9E9mxyXH;
+        "purpur-1.16.4" = _9E9mxyXH;
+        "purpur-1.16.5" = _9E9mxyXH;
+        "purpur-1.17" = _9E9mxyXH;
+        "purpur-1.17.1" = _9E9mxyXH;
+        "purpur-1.18" = _9E9mxyXH;
+        "purpur-1.18.1" = _9E9mxyXH;
+        "purpur-1.18.2" = _9E9mxyXH;
+        "purpur-1.19" = _9E9mxyXH;
+        "purpur-1.19.1" = _9E9mxyXH;
+        "purpur-1.19.2" = _9E9mxyXH;
+        "purpur-1.19.3" = _9E9mxyXH;
+        "purpur-1.19.4" = _9E9mxyXH;
+        "purpur-1.20" = _9E9mxyXH;
+        "purpur-1.20.1" = _9E9mxyXH;
+        "purpur-1.20.2" = _9E9mxyXH;
+        "purpur-1.20.3" = _9E9mxyXH;
+        "purpur-1.20.4" = _9E9mxyXH;
+        "purpur-1.20.5" = _9E9mxyXH;
+        "purpur-1.20.6" = _9E9mxyXH;
+        "purpur-1.21" = _9E9mxyXH;
+        "purpur-1.21.1" = _9E9mxyXH;
+        "purpur-1.21.2" = _9E9mxyXH;
+        "purpur-1.21.3" = _9E9mxyXH;
+        "purpur-1.21.4" = _9E9mxyXH;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "dtools3";
+            id = "QpnnbyLt";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="9E9mxyXH";}

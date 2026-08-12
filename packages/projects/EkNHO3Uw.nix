@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _G9QXGkZR = {
+            "id" = "G9QXGkZR";
+            "file" = "refinedstorage-trinkets-integration-1.0.0.jar";
+            "hash" = "sha512-EtloyUFaxtI75V7hRYU6KrGsUwhr4LGsgPK9/lLwZujU7pa5KWxybkobjhV81kntF0apj+cN8GPht1T+fG3pSg==";
+        };
+    in {
+        "G9QXGkZR" = _G9QXGkZR;
+        "fabric-1.21.1" = _G9QXGkZR;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "refined-storage-trinkets-integration";
+            id = "EkNHO3Uw";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="G9QXGkZR";}

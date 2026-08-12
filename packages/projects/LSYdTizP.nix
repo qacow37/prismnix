@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _EK8U758L = {
+            "id" = "EK8U758L";
+            "file" = "Shulkers Drops Two Shells v1.0.0 [1.21-1.21.8].zip";
+            "hash" = "sha512-QmuSj3bh8203+25KN9h/GfbP5V5fC8EcunMe/SRPHSsbA/PftCUi06eT6RzlL1h7cvGrJfc+71FITrtHKlvbjQ==";
+        };
+        _ElKrzn3e = {
+            "id" = "ElKrzn3e";
+            "file" = "shulkers-drops-two-shells-v1.0.0.jar";
+            "hash" = "sha512-+wQb9p9WlnpuIrxuuKtMIqLG3TDKuzViyLdHxBBX3rLiPnBS5IIHL0PGCHIjILoN7+nHwc8V5kAcgVuch5tS3g==";
+        };
+    in {
+        "EK8U758L" = _EK8U758L;
+        "ElKrzn3e" = _ElKrzn3e;
+        "datapack-1.21" = _EK8U758L;
+        "datapack-1.21.1" = _EK8U758L;
+        "datapack-1.21.2" = _EK8U758L;
+        "datapack-1.21.3" = _EK8U758L;
+        "datapack-1.21.4" = _EK8U758L;
+        "datapack-1.21.5" = _EK8U758L;
+        "datapack-1.21.6" = _EK8U758L;
+        "datapack-1.21.7" = _EK8U758L;
+        "datapack-1.21.8" = _EK8U758L;
+        "datapack-1.21.9" = _EK8U758L;
+        "datapack-1.21.10" = _EK8U758L;
+        "datapack-1.21.11" = _EK8U758L;
+        "datapack-26.1" = _EK8U758L;
+        "datapack-26.1.1" = _EK8U758L;
+        "datapack-26.1.2" = _EK8U758L;
+        "datapack-26.2" = _EK8U758L;
+        "fabric-1.21" = _ElKrzn3e;
+        "fabric-1.21.1" = _ElKrzn3e;
+        "fabric-1.21.2" = _ElKrzn3e;
+        "fabric-1.21.3" = _ElKrzn3e;
+        "fabric-1.21.4" = _ElKrzn3e;
+        "fabric-1.21.5" = _ElKrzn3e;
+        "fabric-1.21.6" = _ElKrzn3e;
+        "fabric-1.21.7" = _ElKrzn3e;
+        "fabric-1.21.8" = _ElKrzn3e;
+        "fabric-1.21.9" = _ElKrzn3e;
+        "fabric-1.21.10" = _ElKrzn3e;
+        "fabric-1.21.11" = _ElKrzn3e;
+        "fabric-26.1" = _ElKrzn3e;
+        "fabric-26.1.1" = _ElKrzn3e;
+        "fabric-26.1.2" = _ElKrzn3e;
+        "fabric-26.2" = _ElKrzn3e;
+        "forge-1.21" = _ElKrzn3e;
+        "forge-1.21.1" = _ElKrzn3e;
+        "forge-1.21.2" = _ElKrzn3e;
+        "forge-1.21.3" = _ElKrzn3e;
+        "forge-1.21.4" = _ElKrzn3e;
+        "forge-1.21.5" = _ElKrzn3e;
+        "forge-1.21.6" = _ElKrzn3e;
+        "forge-1.21.7" = _ElKrzn3e;
+        "forge-1.21.8" = _ElKrzn3e;
+        "forge-1.21.9" = _ElKrzn3e;
+        "forge-1.21.10" = _ElKrzn3e;
+        "forge-1.21.11" = _ElKrzn3e;
+        "forge-26.1" = _ElKrzn3e;
+        "forge-26.1.1" = _ElKrzn3e;
+        "forge-26.1.2" = _ElKrzn3e;
+        "forge-26.2" = _ElKrzn3e;
+        "neoforge-1.21" = _ElKrzn3e;
+        "neoforge-1.21.1" = _ElKrzn3e;
+        "neoforge-1.21.2" = _ElKrzn3e;
+        "neoforge-1.21.3" = _ElKrzn3e;
+        "neoforge-1.21.4" = _ElKrzn3e;
+        "neoforge-1.21.5" = _ElKrzn3e;
+        "neoforge-1.21.6" = _ElKrzn3e;
+        "neoforge-1.21.7" = _ElKrzn3e;
+        "neoforge-1.21.8" = _ElKrzn3e;
+        "neoforge-1.21.9" = _ElKrzn3e;
+        "neoforge-1.21.10" = _ElKrzn3e;
+        "neoforge-1.21.11" = _ElKrzn3e;
+        "neoforge-26.1" = _ElKrzn3e;
+        "neoforge-26.1.1" = _ElKrzn3e;
+        "neoforge-26.1.2" = _ElKrzn3e;
+        "neoforge-26.2" = _ElKrzn3e;
+        "quilt-1.21" = _ElKrzn3e;
+        "quilt-1.21.1" = _ElKrzn3e;
+        "quilt-1.21.2" = _ElKrzn3e;
+        "quilt-1.21.3" = _ElKrzn3e;
+        "quilt-1.21.4" = _ElKrzn3e;
+        "quilt-1.21.5" = _ElKrzn3e;
+        "quilt-1.21.6" = _ElKrzn3e;
+        "quilt-1.21.7" = _ElKrzn3e;
+        "quilt-1.21.8" = _ElKrzn3e;
+        "quilt-1.21.9" = _ElKrzn3e;
+        "quilt-1.21.10" = _ElKrzn3e;
+        "quilt-1.21.11" = _ElKrzn3e;
+        "quilt-26.1" = _ElKrzn3e;
+        "quilt-26.1.1" = _ElKrzn3e;
+        "quilt-26.1.2" = _ElKrzn3e;
+        "quilt-26.2" = _ElKrzn3e;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "shulkers-drops-two-shells";
+            id = "LSYdTizP";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU Lesser General Public License v3.0 or later";
+                    shortName = "LGPL-3.0-or-later";
+                    url = "https://github.com/lullaby6/data-packs/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="ElKrzn3e";}

@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _fHU5hYFw = {
+            "id" = "fHU5hYFw";
+            "file" = "Banner Boat.zip";
+            "hash" = "sha512-pQ8xZKRl6Hgf/IfPLa3TCzi/qq/w1P26/YMP5QUoK4PkewvaGn5bv5rhxIVjxC3XVNIml0tMhhgZsw1ZqYaiwg==";
+        };
+        _YPNVaVeX = {
+            "id" = "YPNVaVeX";
+            "file" = "bannerboat-V1.0.jar";
+            "hash" = "sha512-NbjoCnKAFU/EbZerkSYwur5NXyacTKwDABJu+KeUzHqCewmEmBnivB3fOKpsH9OvuHyxIQw2rUfTHpgLXAoomw==";
+        };
+    in {
+        "fHU5hYFw" = _fHU5hYFw;
+        "YPNVaVeX" = _YPNVaVeX;
+        "datapack-1.21" = _fHU5hYFw;
+        "datapack-1.21.1" = _fHU5hYFw;
+        "datapack-1.21.2" = _fHU5hYFw;
+        "datapack-1.21.3" = _fHU5hYFw;
+        "datapack-1.21.4" = _fHU5hYFw;
+        "datapack-1.21.5" = _fHU5hYFw;
+        "datapack-1.21.6" = _fHU5hYFw;
+        "datapack-1.21.7" = _fHU5hYFw;
+        "datapack-1.21.8" = _fHU5hYFw;
+        "datapack-1.21.9" = _fHU5hYFw;
+        "datapack-1.21.10" = _fHU5hYFw;
+        "datapack-1.21.11" = _fHU5hYFw;
+        "datapack-26.1" = _fHU5hYFw;
+        "datapack-26.1.1" = _fHU5hYFw;
+        "datapack-26.1.2" = _fHU5hYFw;
+        "datapack-26.2" = _fHU5hYFw;
+        "fabric-1.21" = _YPNVaVeX;
+        "fabric-1.21.1" = _YPNVaVeX;
+        "fabric-1.21.2" = _YPNVaVeX;
+        "fabric-1.21.3" = _YPNVaVeX;
+        "fabric-1.21.4" = _YPNVaVeX;
+        "fabric-1.21.5" = _YPNVaVeX;
+        "fabric-1.21.6" = _YPNVaVeX;
+        "fabric-1.21.7" = _YPNVaVeX;
+        "fabric-1.21.8" = _YPNVaVeX;
+        "fabric-1.21.9" = _YPNVaVeX;
+        "fabric-1.21.10" = _YPNVaVeX;
+        "fabric-1.21.11" = _YPNVaVeX;
+        "fabric-26.1" = _YPNVaVeX;
+        "fabric-26.1.1" = _YPNVaVeX;
+        "fabric-26.1.2" = _YPNVaVeX;
+        "fabric-26.2" = _YPNVaVeX;
+        "forge-1.21" = _YPNVaVeX;
+        "forge-1.21.1" = _YPNVaVeX;
+        "forge-1.21.2" = _YPNVaVeX;
+        "forge-1.21.3" = _YPNVaVeX;
+        "forge-1.21.4" = _YPNVaVeX;
+        "forge-1.21.5" = _YPNVaVeX;
+        "forge-1.21.6" = _YPNVaVeX;
+        "forge-1.21.7" = _YPNVaVeX;
+        "forge-1.21.8" = _YPNVaVeX;
+        "forge-1.21.9" = _YPNVaVeX;
+        "forge-1.21.10" = _YPNVaVeX;
+        "forge-1.21.11" = _YPNVaVeX;
+        "forge-26.1" = _YPNVaVeX;
+        "forge-26.1.1" = _YPNVaVeX;
+        "forge-26.1.2" = _YPNVaVeX;
+        "forge-26.2" = _YPNVaVeX;
+        "neoforge-1.21" = _YPNVaVeX;
+        "neoforge-1.21.1" = _YPNVaVeX;
+        "neoforge-1.21.2" = _YPNVaVeX;
+        "neoforge-1.21.3" = _YPNVaVeX;
+        "neoforge-1.21.4" = _YPNVaVeX;
+        "neoforge-1.21.5" = _YPNVaVeX;
+        "neoforge-1.21.6" = _YPNVaVeX;
+        "neoforge-1.21.7" = _YPNVaVeX;
+        "neoforge-1.21.8" = _YPNVaVeX;
+        "neoforge-1.21.9" = _YPNVaVeX;
+        "neoforge-1.21.10" = _YPNVaVeX;
+        "neoforge-1.21.11" = _YPNVaVeX;
+        "neoforge-26.1" = _YPNVaVeX;
+        "neoforge-26.1.1" = _YPNVaVeX;
+        "neoforge-26.1.2" = _YPNVaVeX;
+        "neoforge-26.2" = _YPNVaVeX;
+        "quilt-1.21" = _YPNVaVeX;
+        "quilt-1.21.1" = _YPNVaVeX;
+        "quilt-1.21.2" = _YPNVaVeX;
+        "quilt-1.21.3" = _YPNVaVeX;
+        "quilt-1.21.4" = _YPNVaVeX;
+        "quilt-1.21.5" = _YPNVaVeX;
+        "quilt-1.21.6" = _YPNVaVeX;
+        "quilt-1.21.7" = _YPNVaVeX;
+        "quilt-1.21.8" = _YPNVaVeX;
+        "quilt-1.21.9" = _YPNVaVeX;
+        "quilt-1.21.10" = _YPNVaVeX;
+        "quilt-1.21.11" = _YPNVaVeX;
+        "quilt-26.1" = _YPNVaVeX;
+        "quilt-26.1.1" = _YPNVaVeX;
+        "quilt-26.1.2" = _YPNVaVeX;
+        "quilt-26.2" = _YPNVaVeX;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "bannerboat";
+            id = "Uc1Z7oKQ";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="YPNVaVeX";}

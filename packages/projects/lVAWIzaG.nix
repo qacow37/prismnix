@@ -1,0 +1,200 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _UpQHTX7m = {
+            "id" = "UpQHTX7m";
+            "file" = "zAuctionHouse-4.0.0.0.jar";
+            "hash" = "sha512-PrkAeB/L2Fhq/1ExkhsO0/8qkSCJ7le7lNyxicdQxe5R3SDOb9+/EJxJZijMIIMLSf9hzq6cyA+4RoefFCPvHg==";
+        };
+        _v5KidkSF = {
+            "id" = "v5KidkSF";
+            "file" = "zAuctionHouse-4.0.0.1.jar";
+            "hash" = "sha512-OEJvWOZTaghfYfB5m9T7oO32L+KUc5u8ITP6mIveHohT+5VZgmIJUrFDWdGaeuvmnxWbmv2AnwjmlpQ+enl00A==";
+        };
+        _GcT0SCcD = {
+            "id" = "GcT0SCcD";
+            "file" = "zAuctionHouse-4.0.0.2.jar";
+            "hash" = "sha512-2U14vdsqOvSqeF08EuFNsSeYmccAW0Fl455XCiHkxowORRB3gPiYIE/F/HtUhFHxRxWo190woDHyfAxHztNSFA==";
+        };
+        _mNjAlPlk = {
+            "id" = "mNjAlPlk";
+            "file" = "zAuctionHouse-4.0.0.3.jar";
+            "hash" = "sha512-PGjqcvlgIuuyuHyzatytd6/Rja9XUzP0VyHpCb5ndXO8dQONEs6WH8tlR42I3o7osvoa/GFjqpmGkzhJG9dN3A==";
+        };
+        _TD6xI4FO = {
+            "id" = "TD6xI4FO";
+            "file" = "zAuctionHouse-4.0.0.4.jar";
+            "hash" = "sha512-rz5N0Xp8eZuvRcOsfDncFf1hmfvRAb09rF1ykOciK8N8v0bIagAG3YP0dDzbPhnmzPACMGJwPb+95+m53WxpGQ==";
+        };
+        _8iKMoN4w = {
+            "id" = "8iKMoN4w";
+            "file" = "zAuctionHouse-4.0.0.5.jar";
+            "hash" = "sha512-z3ADdI21PYP9apS0UxEQeFtQt+bYvmjak6vOgLNjeOpZ4Qu6U5O9HRN0L9rKDEA2PBHlQ4Yjnbi7yvgLgdgeGg==";
+        };
+        _ayAEqIyd = {
+            "id" = "ayAEqIyd";
+            "file" = "zAuctionHouse-4.0.0.6.jar";
+            "hash" = "sha512-qHdUJTYnHfFa5ut7fu2yjDqtTdqBv62MuiYEX8E1ldEB/Av8s+2JtYbmd1QSrd3hsSIAVVWT05yddtJplwEbKg==";
+        };
+        _C7SD1DxW = {
+            "id" = "C7SD1DxW";
+            "file" = "zAuctionHouse-4.0.0.8.jar";
+            "hash" = "sha512-aKyC7Q8quBQNW9k0Yala3coVUVwp3oTGVxeCfGCkkeg8GEmEIErWslf+xTSf80Mt7SvbhOtepPTUprTI/b5IOw==";
+        };
+        _jHdZ0IM6 = {
+            "id" = "jHdZ0IM6";
+            "file" = "zAuctionHouse-4.0.0.9.jar";
+            "hash" = "sha512-IigsKJ6zhLLzICfTzBda8fGLGRFUZ4/ZawsiRmXhUS4y6KLE36KcHjWZEeqrb7VxI5VVWlYCBXjZPfoV6wXbAg==";
+        };
+        _8BOX5ftx = {
+            "id" = "8BOX5ftx";
+            "file" = "zAuctionHouse-4.0.1.0.jar";
+            "hash" = "sha512-toqP4bCH0+8hw8B/A7qBZKw8egxLxW7n+hWo8hRhIVGa7ylJsB/XYeLE3AAb7mr3bqb6mJlDulCRvmZLdmqtIQ==";
+        };
+    in {
+        "UpQHTX7m" = _UpQHTX7m;
+        "v5KidkSF" = _v5KidkSF;
+        "GcT0SCcD" = _GcT0SCcD;
+        "mNjAlPlk" = _mNjAlPlk;
+        "TD6xI4FO" = _TD6xI4FO;
+        "8iKMoN4w" = _8iKMoN4w;
+        "ayAEqIyd" = _ayAEqIyd;
+        "C7SD1DxW" = _C7SD1DxW;
+        "jHdZ0IM6" = _jHdZ0IM6;
+        "8BOX5ftx" = _8BOX5ftx;
+        "folia-1.21" = _8BOX5ftx;
+        "folia-1.21.1" = _8BOX5ftx;
+        "folia-1.21.2" = _8BOX5ftx;
+        "folia-1.21.3" = _8BOX5ftx;
+        "folia-1.21.4" = _8BOX5ftx;
+        "folia-1.21.5" = _8BOX5ftx;
+        "folia-1.21.6" = _8BOX5ftx;
+        "folia-1.21.7" = _8BOX5ftx;
+        "folia-1.21.8" = _8BOX5ftx;
+        "folia-1.21.9" = _8BOX5ftx;
+        "folia-1.21.10" = _8BOX5ftx;
+        "folia-1.21.11" = _8BOX5ftx;
+        "folia-1.20" = _8BOX5ftx;
+        "folia-1.20.1" = _8BOX5ftx;
+        "folia-1.20.2" = _8BOX5ftx;
+        "folia-1.20.3" = _8BOX5ftx;
+        "folia-1.20.4" = _8BOX5ftx;
+        "folia-1.20.5" = _8BOX5ftx;
+        "folia-1.20.6" = _8BOX5ftx;
+        "folia-26.1" = _8BOX5ftx;
+        "folia-26.1.1" = _8BOX5ftx;
+        "folia-26.1.2" = _8BOX5ftx;
+        "folia-26.2" = _8BOX5ftx;
+        "paper-1.21" = _8BOX5ftx;
+        "paper-1.21.1" = _8BOX5ftx;
+        "paper-1.21.2" = _8BOX5ftx;
+        "paper-1.21.3" = _8BOX5ftx;
+        "paper-1.21.4" = _8BOX5ftx;
+        "paper-1.21.5" = _8BOX5ftx;
+        "paper-1.21.6" = _8BOX5ftx;
+        "paper-1.21.7" = _8BOX5ftx;
+        "paper-1.21.8" = _8BOX5ftx;
+        "paper-1.21.9" = _8BOX5ftx;
+        "paper-1.21.10" = _8BOX5ftx;
+        "paper-1.21.11" = _8BOX5ftx;
+        "paper-1.20" = _8BOX5ftx;
+        "paper-1.20.1" = _8BOX5ftx;
+        "paper-1.20.2" = _8BOX5ftx;
+        "paper-1.20.3" = _8BOX5ftx;
+        "paper-1.20.4" = _8BOX5ftx;
+        "paper-1.20.5" = _8BOX5ftx;
+        "paper-1.20.6" = _8BOX5ftx;
+        "paper-26.1" = _8BOX5ftx;
+        "paper-26.1.1" = _8BOX5ftx;
+        "paper-26.1.2" = _8BOX5ftx;
+        "paper-26.2" = _8BOX5ftx;
+        "purpur-1.21" = _8BOX5ftx;
+        "purpur-1.21.1" = _8BOX5ftx;
+        "purpur-1.21.2" = _8BOX5ftx;
+        "purpur-1.21.3" = _8BOX5ftx;
+        "purpur-1.21.4" = _8BOX5ftx;
+        "purpur-1.21.5" = _8BOX5ftx;
+        "purpur-1.21.6" = _8BOX5ftx;
+        "purpur-1.21.7" = _8BOX5ftx;
+        "purpur-1.21.8" = _8BOX5ftx;
+        "purpur-1.21.9" = _8BOX5ftx;
+        "purpur-1.21.10" = _8BOX5ftx;
+        "purpur-1.21.11" = _8BOX5ftx;
+        "purpur-1.20" = _8BOX5ftx;
+        "purpur-1.20.1" = _8BOX5ftx;
+        "purpur-1.20.2" = _8BOX5ftx;
+        "purpur-1.20.3" = _8BOX5ftx;
+        "purpur-1.20.4" = _8BOX5ftx;
+        "purpur-1.20.5" = _8BOX5ftx;
+        "purpur-1.20.6" = _8BOX5ftx;
+        "purpur-26.1" = _8BOX5ftx;
+        "purpur-26.1.1" = _8BOX5ftx;
+        "purpur-26.1.2" = _8BOX5ftx;
+        "purpur-26.2" = _8BOX5ftx;
+        "spigot-1.21" = _8BOX5ftx;
+        "spigot-1.21.1" = _8BOX5ftx;
+        "spigot-1.21.2" = _8BOX5ftx;
+        "spigot-1.21.3" = _8BOX5ftx;
+        "spigot-1.21.4" = _8BOX5ftx;
+        "spigot-1.21.5" = _8BOX5ftx;
+        "spigot-1.21.6" = _8BOX5ftx;
+        "spigot-1.21.7" = _8BOX5ftx;
+        "spigot-1.21.8" = _8BOX5ftx;
+        "spigot-1.21.9" = _8BOX5ftx;
+        "spigot-1.21.10" = _8BOX5ftx;
+        "spigot-1.21.11" = _8BOX5ftx;
+        "spigot-1.20" = _8BOX5ftx;
+        "spigot-1.20.1" = _8BOX5ftx;
+        "spigot-1.20.2" = _8BOX5ftx;
+        "spigot-1.20.3" = _8BOX5ftx;
+        "spigot-1.20.4" = _8BOX5ftx;
+        "spigot-1.20.5" = _8BOX5ftx;
+        "spigot-1.20.6" = _8BOX5ftx;
+        "spigot-26.1" = _8BOX5ftx;
+        "spigot-26.1.1" = _8BOX5ftx;
+        "spigot-26.1.2" = _8BOX5ftx;
+        "spigot-26.2" = _8BOX5ftx;
+        "bukkit-1.20" = _8BOX5ftx;
+        "bukkit-1.20.1" = _8BOX5ftx;
+        "bukkit-1.20.2" = _8BOX5ftx;
+        "bukkit-1.20.3" = _8BOX5ftx;
+        "bukkit-1.20.4" = _8BOX5ftx;
+        "bukkit-1.20.5" = _8BOX5ftx;
+        "bukkit-1.20.6" = _8BOX5ftx;
+        "bukkit-1.21" = _8BOX5ftx;
+        "bukkit-1.21.1" = _8BOX5ftx;
+        "bukkit-1.21.2" = _8BOX5ftx;
+        "bukkit-1.21.3" = _8BOX5ftx;
+        "bukkit-1.21.4" = _8BOX5ftx;
+        "bukkit-1.21.5" = _8BOX5ftx;
+        "bukkit-1.21.6" = _8BOX5ftx;
+        "bukkit-1.21.7" = _8BOX5ftx;
+        "bukkit-1.21.8" = _8BOX5ftx;
+        "bukkit-1.21.9" = _8BOX5ftx;
+        "bukkit-1.21.10" = _8BOX5ftx;
+        "bukkit-1.21.11" = _8BOX5ftx;
+        "bukkit-26.1" = _8BOX5ftx;
+        "bukkit-26.1.1" = _8BOX5ftx;
+        "bukkit-26.1.2" = _8BOX5ftx;
+        "bukkit-26.2" = _8BOX5ftx;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "zauctionhouse";
+            id = "lVAWIzaG";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/GroupeZ-dev/zAuctionHouse/blob/develop/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="8BOX5ftx";}

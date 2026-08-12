@@ -1,0 +1,113 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _65TQaiJC = {
+            "id" = "65TQaiJC";
+            "file" = "CustomCraft-1.1.1.jar";
+            "hash" = "sha512-JOcAplhiIpn2u6ZaU0nPMa3d6p4EAQ3CnlqliBudIuyjpNO6EpAF47ofLLhjA6k1kxKfhcsiGGV2q5wjYcbr9w==";
+        };
+        _PGSqZ5CO = {
+            "id" = "PGSqZ5CO";
+            "file" = "CustomCraft-1.3.1-paper-26.1.2.jar";
+            "hash" = "sha512-vGVxwRj468b23TnhI71Jtr5WciWf1RlWMpBvMcslRy5ov5M5XlAJ/WuxI3oYhLtu3JvTjX8zCk4OKoBc/osNHQ==";
+        };
+    in {
+        "65TQaiJC" = _65TQaiJC;
+        "PGSqZ5CO" = _PGSqZ5CO;
+        "bukkit-1.21" = _65TQaiJC;
+        "bukkit-1.21.1" = _65TQaiJC;
+        "bukkit-1.21.2" = _65TQaiJC;
+        "bukkit-1.21.3" = _65TQaiJC;
+        "bukkit-1.21.4" = _65TQaiJC;
+        "bukkit-1.21.5" = _65TQaiJC;
+        "bukkit-1.21.6" = _65TQaiJC;
+        "bukkit-1.21.7" = _65TQaiJC;
+        "bukkit-1.21.8" = _65TQaiJC;
+        "bukkit-1.21.9" = _65TQaiJC;
+        "bukkit-1.21.10" = _65TQaiJC;
+        "bukkit-1.21.11" = _65TQaiJC;
+        "bukkit-26.1" = _PGSqZ5CO;
+        "bukkit-26.1.1" = _PGSqZ5CO;
+        "bukkit-26.1.2" = _PGSqZ5CO;
+        "bukkit-26.2" = _PGSqZ5CO;
+        "folia-1.21" = _65TQaiJC;
+        "folia-1.21.1" = _65TQaiJC;
+        "folia-1.21.2" = _65TQaiJC;
+        "folia-1.21.3" = _65TQaiJC;
+        "folia-1.21.4" = _65TQaiJC;
+        "folia-1.21.5" = _65TQaiJC;
+        "folia-1.21.6" = _65TQaiJC;
+        "folia-1.21.7" = _65TQaiJC;
+        "folia-1.21.8" = _65TQaiJC;
+        "folia-1.21.9" = _65TQaiJC;
+        "folia-1.21.10" = _65TQaiJC;
+        "folia-1.21.11" = _65TQaiJC;
+        "paper-1.21" = _65TQaiJC;
+        "paper-1.21.1" = _65TQaiJC;
+        "paper-1.21.2" = _65TQaiJC;
+        "paper-1.21.3" = _65TQaiJC;
+        "paper-1.21.4" = _65TQaiJC;
+        "paper-1.21.5" = _65TQaiJC;
+        "paper-1.21.6" = _65TQaiJC;
+        "paper-1.21.7" = _65TQaiJC;
+        "paper-1.21.8" = _65TQaiJC;
+        "paper-1.21.9" = _65TQaiJC;
+        "paper-1.21.10" = _65TQaiJC;
+        "paper-1.21.11" = _65TQaiJC;
+        "paper-26.1" = _PGSqZ5CO;
+        "paper-26.1.1" = _PGSqZ5CO;
+        "paper-26.1.2" = _PGSqZ5CO;
+        "paper-26.2" = _PGSqZ5CO;
+        "purpur-1.21" = _65TQaiJC;
+        "purpur-1.21.1" = _65TQaiJC;
+        "purpur-1.21.2" = _65TQaiJC;
+        "purpur-1.21.3" = _65TQaiJC;
+        "purpur-1.21.4" = _65TQaiJC;
+        "purpur-1.21.5" = _65TQaiJC;
+        "purpur-1.21.6" = _65TQaiJC;
+        "purpur-1.21.7" = _65TQaiJC;
+        "purpur-1.21.8" = _65TQaiJC;
+        "purpur-1.21.9" = _65TQaiJC;
+        "purpur-1.21.10" = _65TQaiJC;
+        "purpur-1.21.11" = _65TQaiJC;
+        "purpur-26.1" = _PGSqZ5CO;
+        "purpur-26.1.1" = _PGSqZ5CO;
+        "purpur-26.1.2" = _PGSqZ5CO;
+        "purpur-26.2" = _PGSqZ5CO;
+        "spigot-1.21" = _65TQaiJC;
+        "spigot-1.21.1" = _65TQaiJC;
+        "spigot-1.21.2" = _65TQaiJC;
+        "spigot-1.21.3" = _65TQaiJC;
+        "spigot-1.21.4" = _65TQaiJC;
+        "spigot-1.21.5" = _65TQaiJC;
+        "spigot-1.21.6" = _65TQaiJC;
+        "spigot-1.21.7" = _65TQaiJC;
+        "spigot-1.21.8" = _65TQaiJC;
+        "spigot-1.21.9" = _65TQaiJC;
+        "spigot-1.21.10" = _65TQaiJC;
+        "spigot-1.21.11" = _65TQaiJC;
+        "spigot-26.1" = _PGSqZ5CO;
+        "spigot-26.1.1" = _PGSqZ5CO;
+        "spigot-26.1.2" = _PGSqZ5CO;
+        "spigot-26.2" = _PGSqZ5CO;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "customcraft";
+            id = "vt5VNYZv";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="PGSqZ5CO";}

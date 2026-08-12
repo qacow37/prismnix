@@ -1,0 +1,482 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _NsxLzL3P = {
+            "id" = "NsxLzL3P";
+            "file" = "Gen_Assets.zip";
+            "hash" = "sha512-NTlJlROCY4PCO1CkUzg/AJUTvNgeauB4UwGArGapV5DOTtZ7ioejhK2VV2vwHnywb+W8JB3QpZzbQeUkLEfGAA==";
+        };
+        _299z91wM = {
+            "id" = "299z91wM";
+            "file" = "Gen_Assets.zip";
+            "hash" = "sha512-+PTXBNZxZrcU2kpU96Fx251YB0dLLc2Y/Pi7/f7maD2yK/H9jnPlibZ1PypH36kZouq+Fj77kcwV0KgcdOOgWQ==";
+        };
+        _BBrp3RXs = {
+            "id" = "BBrp3RXs";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-7cPu+Pa1JsSO0//bX7moqJzqNASX1hOOoh0KyOUYv0+LsLO9xGsi3DRFzj6D7PG3F/YdyHqOQ5yX4+TArNjWqQ==";
+        };
+        _ToKlNA4j = {
+            "id" = "ToKlNA4j";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-t4SSjtVR1geI1zYH/GNnsMIR+FTQjjk9N7aBdb+dgxuvK4KwnJj9ZS8n2Nh8hwHXy/AXu4JCgSvDwaTMdYQYnw==";
+        };
+        _4gg75F4n = {
+            "id" = "4gg75F4n";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-RyrrOtGyuR97g+fPSy+a4ESsszz8NWARjWzb5NGN2LBE1Np0VoWxOIgG5CriJ1L5x7H047HXuz8aysPvbsNGaA==";
+        };
+        _pwGtmiOo = {
+            "id" = "pwGtmiOo";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-3sRtld6wxqxNIIIVVvTN+Tm/p74H5O0HmqQ6o0pS22jdFrp0mOc9WHMWtdycXM+8mSItwKpSCtpeYZb4STi61A==";
+        };
+        _apRztneW = {
+            "id" = "apRztneW";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-tQUvWDmnFI6/R2KR+RoxtVyJfI/delEtAOr7m/pmXEigovUjwtKkIH0hNaEDovxpEpIJ+GJkqpMRxvoxKnj9NQ==";
+        };
+        _vyqzXwOp = {
+            "id" = "vyqzXwOp";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-3WupghDscmb8qET1mLGvpOpO4/h2M+tOHvHn3HAcas9LiNkcqhAALaEECJRgsdLqW/FB4lRL2iSrPAr9ebjA8Q==";
+        };
+        _Iwf1XCwi = {
+            "id" = "Iwf1XCwi";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-p0O275Ej2uRaIUMyjmoghkCINv8HZl/XLqfk1vvMPcCCHwvCILw30cV14G6//RUstdRemDMYh3sMEVk6QyWzEQ==";
+        };
+        _oLqYfgRY = {
+            "id" = "oLqYfgRY";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-AXuHPehZnvotu5FL293hJ1lFwMpiDEAJrl1bcpUPnfDX2Ep5vxNsGkaKh0odGGQb8rcYDTEvQm0Bus/tVsR6DQ==";
+        };
+        _U92pnSPJ = {
+            "id" = "U92pnSPJ";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-mmGo8HTk7reZl3k9wdhHhMdHg2RzTx4qH2Kiv/MwwjhlwWSLnocvAqJvmZWcQPimV5USmzAj/8K+PwQOybJjVA==";
+        };
+        _SjqiBpb3 = {
+            "id" = "SjqiBpb3";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-H3HRl0HH1JwsRQn+Dc63Bti/m9VLvxiOF28OqTJLGR+2hY5Pd5gXeVIgmAumsdMs0/QO/FGGoV2/svToga5T+g==";
+        };
+        _LVQ7lags = {
+            "id" = "LVQ7lags";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-5dJtHpzOR5YzabGVBTPmeVAugWSFgT+yXw0iMv6ybraNumTYaEAWAO749cXn4lOcPERMTTm7HHYAPLAF6zF2uw==";
+        };
+        _tJbU8Szj = {
+            "id" = "tJbU8Szj";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-B72WqBuN6N7AaGjuNyfpZCnqXG3+zD0TFG38cvKyTH6SJdnLSZ/QTPislaXaWoJBu9VtRizSY4l+lnGSq0ZdiA==";
+        };
+        _uV8CCoIh = {
+            "id" = "uV8CCoIh";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-BytK/g75vIvpIJkHrhcOIQ4sYakiEhL54RbupzHGgacGxLEFhbyiAz2KKqXxJxezsi+Dmx9RjhiUtWfimdheGg==";
+        };
+        _3d65BlE4 = {
+            "id" = "3d65BlE4";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-/6T6ICMwZPxWL1dQIs06koxoVidfE80Jb35k3nC0OnmpK6+7QYEEK2UOA+sUqwdAgi4OQVd+y4guxH6eaiebsA==";
+        };
+        _DlnX0Wop = {
+            "id" = "DlnX0Wop";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-s3U9/p/HkTbe0YroSzrgmuj1umFTTAAbAmupqiW/gb+7IMDioU4NFNBilN1kutH3s2TE/w8l9kHfwMHeYB8W8g==";
+        };
+        _7YPxAepM = {
+            "id" = "7YPxAepM";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-Ct+3PTyjupofO/7KH0ZrniN8hk78WWb2Gnd5Xj0DvrHsAeTzJWiaKI4tezPAy2Paky9LyXwanV0zBU+sf/igtA==";
+        };
+        _2DvKZ32C = {
+            "id" = "2DvKZ32C";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-6rbLIWmtYim/w5mAhXkh3AWP8mFG7uIYTc0eJy66pNbbXeky76EEORkPezF1cORoBG0kANMBMRXMR22W3mFalQ==";
+        };
+        _BcMLPLmo = {
+            "id" = "BcMLPLmo";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-9cupi2YpLGZuADlYcwblOeseV/lRV2stxswunGGQpPndmBddeqTqJzG8gs4mPFhzdk4u5MJsLRdZFFzGwd3waw==";
+        };
+        _GItv4nJB = {
+            "id" = "GItv4nJB";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-7Z/9NK8XqZ4qn6myp3opkz3UTnNTV8W4C7cG/FA0vpKb6b0+n0jkO5D0DpVcA/7o4+2eR5O1LujyXQKE2uB8qg==";
+        };
+        _QMIjgk9z = {
+            "id" = "QMIjgk9z";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-VjC8jLvFM4yMlH5Glq7GPRhGBquNREsxuFHGKlJm18+0C7+k6W7CAzvWPoJTLOS9stT4pHzdjvwZNekkA05mBg==";
+        };
+        _mL2svPOb = {
+            "id" = "mL2svPOb";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-f7dxNtigC4MbGITVhjXyknqhU3oR5Mc+E4ooFiaSkGR1t9FPl10PdvvZ25McTPeJFP/QzeQz/XD6CaBenTD3AQ==";
+        };
+        _fyDoAj0J = {
+            "id" = "fyDoAj0J";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-+KomXuOeg0NDQaADVM4v0SD+/BRTj68BRRpY4+xQNpThdJLsKXL7TAJ5T7xWWWTPRHYYOuG/E9MXAyQE1bR8lA==";
+        };
+        _iBSRtj7T = {
+            "id" = "iBSRtj7T";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-7OSJ1aMGXdxETn8Ex1UPHBDRjVQaaylDVNgWdcJt0SWEcZup380CR3NX+BLnfpdFqHCEd2gfc0kZ9jXScldlPg==";
+        };
+        _7z32DSoy = {
+            "id" = "7z32DSoy";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-lkRWaG/8X8xTHoci616AmBWfOva8cANxN7XExPOLix/y+wKhwkkbcBu34tMeOrcIEFivxIuT+KXvEJTZxt576A==";
+        };
+        _AWhR85CM = {
+            "id" = "AWhR85CM";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-oS5b01o7jKlV3C/qhP8Zu4ndZzd59qY681GZjNBxh8cbQexsoJAh4jfGDmcohWLmfW4toxeuKeLqF7jApquoHw==";
+        };
+        _sXdkD12O = {
+            "id" = "sXdkD12O";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-Mwj1qiuqAscIEFouKCzEWRuQSB+IUMAWIth8Xv0Yo0WxlrZEpreqpTCZO0GQNkcYgcR/GxzdQ6+1DGYyW6S1qw==";
+        };
+        _9rC6nssW = {
+            "id" = "9rC6nssW";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-wzJM0yhguUD9mGOIJBxIhvxv+m/XSP/13KDVdK7zVbXOsB/4tQMvjNxhxheoPV63QNRAUWvJcycRDemGW5xbaQ==";
+        };
+        _GpVkuFju = {
+            "id" = "GpVkuFju";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-HxIjoZGkQPK/808z3Tly/VwGpn11YAYOshAdljOjsIb2F9Ih84V+Hnp6dt4A8zU8keekbr8PImCgONKQkHxl7A==";
+        };
+        _vFhDesHn = {
+            "id" = "vFhDesHn";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-sP3Xlot+xn6QB96DTbwO+JcFg3412sqDz3KltWBptVAFtzKG+NbKSXU4j0ivdKW48Af99GbCBBlqjXfLuMfQHw==";
+        };
+        _cIzvdIO4 = {
+            "id" = "cIzvdIO4";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-SkNv25+E0lF8OHooUEDC7IXUj/B6S5P4M7UGS8rQiDWw7lIR0I9+c1D86Y7UX3f6Edg9W1FBby5FWenheMOiIw==";
+        };
+        _akECAirG = {
+            "id" = "akECAirG";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-GYbKOldpHM62jlQHdVCcWRz11aUBf1wPNe360KnSBf67TdjYIPK/beIUDEbTaRWHP4/Ji1Hs15LwhgfQ0/eguA==";
+        };
+        _93g44CcN = {
+            "id" = "93g44CcN";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-NTf77aK0+vemP5/swe3Z65580NawYUKkVf3hZ1k2TliGDb6blY0cjxEpQz6zwTygmuZlpErrF4HIX6Gy7zfl+Q==";
+        };
+        _EibGmAm5 = {
+            "id" = "EibGmAm5";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-F1rwgwf/yIz+UB3gGluSMhF+NWitcDu1pOz7f91s9UZJtCyOM+DqVaCqhyEkpH4OAdk92jxtH7qpdH0nYFNirQ==";
+        };
+        _ksb6uDrp = {
+            "id" = "ksb6uDrp";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-Glgg+j1rn/4NE7Bd2/OzVg976EkZ16B3miR4Zo0wqg7YXXRRqzoMxW9Koyp8o2p+TnpIn83qaAOtmbbg/a5ohQ==";
+        };
+        _krrgYwpi = {
+            "id" = "krrgYwpi";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-RBRAyGqXcwdqiYERlp1g3m2VXJMRghLK/pldjwnC9EJLoIC3hU/FAqx317wqiYgwB6Y6kXRKbxKebkSVwHW8GA==";
+        };
+        _VB2TX0G7 = {
+            "id" = "VB2TX0G7";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-7FEkpDckh489Jl0iP7iTVbIoTOSzb9iKJ8e3FppeYIpl4a++NnkNu3EiFLS9s0c73vca7K4RDb+50Kmsu/y3nA==";
+        };
+        _OrwxIqZn = {
+            "id" = "OrwxIqZn";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-h+bbp7ppW5tK0kZBSYMDSE6AYN7+H1ycH5J53IEUZBe2Y66nYo1oS3dNI3C/gUwaAlXlzohDsH3Xwcc2z9icYA==";
+        };
+        _8KJ8USKc = {
+            "id" = "8KJ8USKc";
+            "file" = "gen_assets.zip";
+            "hash" = "sha512-oJkS06n5zp6FAe4qhiXKlTboEHfEoFeJyuYpbj6u2UySiDvGXj+HOI8PRDMoESs2pGN20TKg8Xw50akfPKhaoQ==";
+        };
+    in {
+        "NsxLzL3P" = _NsxLzL3P;
+        "299z91wM" = _299z91wM;
+        "BBrp3RXs" = _BBrp3RXs;
+        "ToKlNA4j" = _ToKlNA4j;
+        "4gg75F4n" = _4gg75F4n;
+        "pwGtmiOo" = _pwGtmiOo;
+        "apRztneW" = _apRztneW;
+        "vyqzXwOp" = _vyqzXwOp;
+        "Iwf1XCwi" = _Iwf1XCwi;
+        "oLqYfgRY" = _oLqYfgRY;
+        "U92pnSPJ" = _U92pnSPJ;
+        "SjqiBpb3" = _SjqiBpb3;
+        "LVQ7lags" = _LVQ7lags;
+        "tJbU8Szj" = _tJbU8Szj;
+        "uV8CCoIh" = _uV8CCoIh;
+        "3d65BlE4" = _3d65BlE4;
+        "DlnX0Wop" = _DlnX0Wop;
+        "7YPxAepM" = _7YPxAepM;
+        "2DvKZ32C" = _2DvKZ32C;
+        "BcMLPLmo" = _BcMLPLmo;
+        "GItv4nJB" = _GItv4nJB;
+        "QMIjgk9z" = _QMIjgk9z;
+        "mL2svPOb" = _mL2svPOb;
+        "fyDoAj0J" = _fyDoAj0J;
+        "iBSRtj7T" = _iBSRtj7T;
+        "7z32DSoy" = _7z32DSoy;
+        "AWhR85CM" = _AWhR85CM;
+        "sXdkD12O" = _sXdkD12O;
+        "9rC6nssW" = _9rC6nssW;
+        "GpVkuFju" = _GpVkuFju;
+        "vFhDesHn" = _vFhDesHn;
+        "cIzvdIO4" = _cIzvdIO4;
+        "akECAirG" = _akECAirG;
+        "93g44CcN" = _93g44CcN;
+        "EibGmAm5" = _EibGmAm5;
+        "ksb6uDrp" = _ksb6uDrp;
+        "krrgYwpi" = _krrgYwpi;
+        "VB2TX0G7" = _VB2TX0G7;
+        "OrwxIqZn" = _OrwxIqZn;
+        "8KJ8USKc" = _8KJ8USKc;
+        "minecraft-1.16" = _uV8CCoIh;
+        "minecraft-1.16.1" = _uV8CCoIh;
+        "minecraft-1.16.2" = _uV8CCoIh;
+        "minecraft-1.16.3" = _uV8CCoIh;
+        "minecraft-1.16.4" = _uV8CCoIh;
+        "minecraft-1.16.5" = _uV8CCoIh;
+        "minecraft-1.17" = _2DvKZ32C;
+        "minecraft-1.17.1" = _BcMLPLmo;
+        "minecraft-1.18" = _GItv4nJB;
+        "minecraft-1.18.1" = _QMIjgk9z;
+        "minecraft-1.18.2" = _mL2svPOb;
+        "minecraft-1.19" = _fyDoAj0J;
+        "minecraft-1.19.1" = _iBSRtj7T;
+        "minecraft-1.19.2" = _7z32DSoy;
+        "minecraft-1.19.3" = _AWhR85CM;
+        "minecraft-1.19.4" = _sXdkD12O;
+        "minecraft-1.20" = _9rC6nssW;
+        "minecraft-1.20.1" = _GpVkuFju;
+        "minecraft-1.20.2" = _vFhDesHn;
+        "minecraft-1.20.3" = _cIzvdIO4;
+        "minecraft-1.20.4" = _akECAirG;
+        "minecraft-1.20.5" = _93g44CcN;
+        "minecraft-1.17.1-pre1" = _Iwf1XCwi;
+        "minecraft-1.17.1-pre2" = _Iwf1XCwi;
+        "minecraft-1.17.1-pre3" = _Iwf1XCwi;
+        "minecraft-1.17.1-rc1" = _Iwf1XCwi;
+        "minecraft-1.17.1-rc2" = _Iwf1XCwi;
+        "minecraft-21w37a" = _Iwf1XCwi;
+        "minecraft-21w38a" = _Iwf1XCwi;
+        "minecraft-21w39a" = _Iwf1XCwi;
+        "minecraft-21w40a" = _Iwf1XCwi;
+        "minecraft-21w41a" = _Iwf1XCwi;
+        "minecraft-21w42a" = _Iwf1XCwi;
+        "minecraft-21w43a" = _Iwf1XCwi;
+        "minecraft-21w44a" = _Iwf1XCwi;
+        "minecraft-1.18-pre1" = _Iwf1XCwi;
+        "minecraft-1.18-pre2" = _Iwf1XCwi;
+        "minecraft-1.18-pre3" = _Iwf1XCwi;
+        "minecraft-1.18-pre4" = _Iwf1XCwi;
+        "minecraft-1.18-pre5" = _Iwf1XCwi;
+        "minecraft-1.18-pre6" = _Iwf1XCwi;
+        "minecraft-1.18-pre7" = _Iwf1XCwi;
+        "minecraft-1.18-pre8" = _Iwf1XCwi;
+        "minecraft-1.18-rc1" = _Iwf1XCwi;
+        "minecraft-1.18-rc2" = _Iwf1XCwi;
+        "minecraft-1.18-rc3" = _Iwf1XCwi;
+        "minecraft-1.18-rc4" = _Iwf1XCwi;
+        "minecraft-1.18.1-pre1" = _Iwf1XCwi;
+        "minecraft-1.18.1-rc1" = _Iwf1XCwi;
+        "minecraft-1.18.1-rc2" = _Iwf1XCwi;
+        "minecraft-1.18.1-rc3" = _Iwf1XCwi;
+        "minecraft-22w03a" = _Iwf1XCwi;
+        "minecraft-22w05a" = _Iwf1XCwi;
+        "minecraft-22w06a" = _Iwf1XCwi;
+        "minecraft-22w07a" = _Iwf1XCwi;
+        "minecraft-1.18.2-pre1" = _Iwf1XCwi;
+        "minecraft-1.18.2-pre2" = _Iwf1XCwi;
+        "minecraft-1.18.2-pre3" = _Iwf1XCwi;
+        "minecraft-1.18.2-rc1" = _Iwf1XCwi;
+        "minecraft-22w11a" = _Iwf1XCwi;
+        "minecraft-22w12a" = _Iwf1XCwi;
+        "minecraft-22w13a" = _Iwf1XCwi;
+        "minecraft-22w13oneblockatatime" = _Iwf1XCwi;
+        "minecraft-22w14a" = _Iwf1XCwi;
+        "minecraft-22w15a" = _Iwf1XCwi;
+        "minecraft-22w16a" = _Iwf1XCwi;
+        "minecraft-22w16b" = _Iwf1XCwi;
+        "minecraft-22w17a" = _Iwf1XCwi;
+        "minecraft-22w18a" = _Iwf1XCwi;
+        "minecraft-22w19a" = _Iwf1XCwi;
+        "minecraft-1.19-pre1" = _Iwf1XCwi;
+        "minecraft-1.19-pre2" = _Iwf1XCwi;
+        "minecraft-1.19-pre3" = _Iwf1XCwi;
+        "minecraft-1.19-pre4" = _Iwf1XCwi;
+        "minecraft-1.19-pre5" = _Iwf1XCwi;
+        "minecraft-1.19-rc1" = _Iwf1XCwi;
+        "minecraft-1.19-rc2" = _Iwf1XCwi;
+        "minecraft-22w24a" = _Iwf1XCwi;
+        "minecraft-1.19.1-pre1" = _Iwf1XCwi;
+        "minecraft-1.19.1-rc1" = _Iwf1XCwi;
+        "minecraft-1.19.1-pre2" = _Iwf1XCwi;
+        "minecraft-1.19.1-pre3" = _Iwf1XCwi;
+        "minecraft-1.19.1-pre4" = _Iwf1XCwi;
+        "minecraft-1.19.1-pre5" = _Iwf1XCwi;
+        "minecraft-1.19.1-pre6" = _Iwf1XCwi;
+        "minecraft-1.19.1-rc2" = _Iwf1XCwi;
+        "minecraft-1.19.1-rc3" = _Iwf1XCwi;
+        "minecraft-1.19.2-rc1" = _Iwf1XCwi;
+        "minecraft-1.19.2-rc2" = _Iwf1XCwi;
+        "minecraft-22w42a" = _Iwf1XCwi;
+        "minecraft-22w43a" = _Iwf1XCwi;
+        "minecraft-22w44a" = _Iwf1XCwi;
+        "minecraft-22w45a" = _Iwf1XCwi;
+        "minecraft-22w46a" = _Iwf1XCwi;
+        "minecraft-1.19.3-pre1" = _Iwf1XCwi;
+        "minecraft-1.19.3-pre2" = _Iwf1XCwi;
+        "minecraft-1.19.3-pre3" = _Iwf1XCwi;
+        "minecraft-1.19.3-rc1" = _Iwf1XCwi;
+        "minecraft-1.19.3-rc2" = _Iwf1XCwi;
+        "minecraft-1.19.3-rc3" = _Iwf1XCwi;
+        "minecraft-23w03a" = _Iwf1XCwi;
+        "minecraft-23w04a" = _Iwf1XCwi;
+        "minecraft-23w05a" = _Iwf1XCwi;
+        "minecraft-23w06a" = _Iwf1XCwi;
+        "minecraft-23w07a" = _Iwf1XCwi;
+        "minecraft-1.19.4-pre1" = _Iwf1XCwi;
+        "minecraft-1.19.4-pre2" = _Iwf1XCwi;
+        "minecraft-1.19.4-pre3" = _Iwf1XCwi;
+        "minecraft-1.19.4-pre4" = _Iwf1XCwi;
+        "minecraft-1.19.4-rc1" = _Iwf1XCwi;
+        "minecraft-1.19.4-rc2" = _Iwf1XCwi;
+        "minecraft-1.19.4-rc3" = _Iwf1XCwi;
+        "minecraft-23w12a" = _Iwf1XCwi;
+        "minecraft-23w13a" = _Iwf1XCwi;
+        "minecraft-23w13a_or_b" = _Iwf1XCwi;
+        "minecraft-23w14a" = _Iwf1XCwi;
+        "minecraft-23w16a" = _Iwf1XCwi;
+        "minecraft-23w17a" = _Iwf1XCwi;
+        "minecraft-23w18a" = _Iwf1XCwi;
+        "minecraft-1.20-pre1" = _Iwf1XCwi;
+        "minecraft-1.20-pre2" = _Iwf1XCwi;
+        "minecraft-1.20-pre3" = _Iwf1XCwi;
+        "minecraft-1.20-pre4" = _Iwf1XCwi;
+        "minecraft-1.20-pre5" = _Iwf1XCwi;
+        "minecraft-1.20-pre6" = _Iwf1XCwi;
+        "minecraft-1.20-pre7" = _Iwf1XCwi;
+        "minecraft-1.20-rc1" = _Iwf1XCwi;
+        "minecraft-1.20.1-rc1" = _Iwf1XCwi;
+        "minecraft-23w31a" = _Iwf1XCwi;
+        "minecraft-23w32a" = _Iwf1XCwi;
+        "minecraft-23w33a" = _Iwf1XCwi;
+        "minecraft-23w35a" = _Iwf1XCwi;
+        "minecraft-1.20.2-pre1" = _Iwf1XCwi;
+        "minecraft-1.20.2-pre2" = _Iwf1XCwi;
+        "minecraft-1.20.2-pre3" = _Iwf1XCwi;
+        "minecraft-1.20.2-pre4" = _Iwf1XCwi;
+        "minecraft-1.20.2-rc1" = _Iwf1XCwi;
+        "minecraft-1.20.2-rc2" = _Iwf1XCwi;
+        "minecraft-23w40a" = _Iwf1XCwi;
+        "minecraft-23w41a" = _Iwf1XCwi;
+        "minecraft-23w42a" = _Iwf1XCwi;
+        "minecraft-23w43a" = _Iwf1XCwi;
+        "minecraft-23w43b" = _Iwf1XCwi;
+        "minecraft-23w44a" = _Iwf1XCwi;
+        "minecraft-23w45a" = _Iwf1XCwi;
+        "minecraft-23w46a" = _Iwf1XCwi;
+        "minecraft-1.20.3-pre1" = _Iwf1XCwi;
+        "minecraft-1.20.3-pre2" = _Iwf1XCwi;
+        "minecraft-1.20.3-pre3" = _Iwf1XCwi;
+        "minecraft-1.20.3-pre4" = _Iwf1XCwi;
+        "minecraft-1.20.3-rc1" = _Iwf1XCwi;
+        "minecraft-1.20.4-rc1" = _Iwf1XCwi;
+        "minecraft-23w51a" = _Iwf1XCwi;
+        "minecraft-23w51b" = _Iwf1XCwi;
+        "minecraft-24w03a" = _Iwf1XCwi;
+        "minecraft-24w03b" = _Iwf1XCwi;
+        "minecraft-24w04a" = _Iwf1XCwi;
+        "minecraft-24w05a" = _Iwf1XCwi;
+        "minecraft-24w05b" = _Iwf1XCwi;
+        "minecraft-24w06a" = _Iwf1XCwi;
+        "minecraft-24w07a" = _Iwf1XCwi;
+        "minecraft-24w09a" = _Iwf1XCwi;
+        "minecraft-24w10a" = _Iwf1XCwi;
+        "minecraft-24w11a" = _Iwf1XCwi;
+        "minecraft-24w12a" = _Iwf1XCwi;
+        "minecraft-24w13a" = _Iwf1XCwi;
+        "minecraft-24w14potato" = _Iwf1XCwi;
+        "minecraft-24w14a" = _Iwf1XCwi;
+        "minecraft-1.20.5-pre1" = _Iwf1XCwi;
+        "minecraft-1.20.5-pre2" = _Iwf1XCwi;
+        "minecraft-1.20.5-pre3" = _Iwf1XCwi;
+        "minecraft-1.20.5-pre4" = _Iwf1XCwi;
+        "minecraft-1.20.5-rc1" = _Iwf1XCwi;
+        "minecraft-1.20.5-rc2" = _Iwf1XCwi;
+        "minecraft-1.20.5-rc3" = _Iwf1XCwi;
+        "minecraft-1.20.6-rc1" = _Iwf1XCwi;
+        "minecraft-1.20.6" = _EibGmAm5;
+        "minecraft-24w18a" = _Iwf1XCwi;
+        "minecraft-24w19a" = _Iwf1XCwi;
+        "minecraft-24w19b" = _Iwf1XCwi;
+        "minecraft-24w20a" = _Iwf1XCwi;
+        "minecraft-24w21a" = _Iwf1XCwi;
+        "minecraft-24w21b" = _Iwf1XCwi;
+        "minecraft-1.21-pre1" = _Iwf1XCwi;
+        "minecraft-1.21-pre2" = _Iwf1XCwi;
+        "minecraft-1.21-pre3" = _Iwf1XCwi;
+        "minecraft-1.21-pre4" = _Iwf1XCwi;
+        "minecraft-1.21-rc1" = _Iwf1XCwi;
+        "minecraft-1.21" = _ksb6uDrp;
+        "minecraft-1.21.1" = _krrgYwpi;
+        "minecraft-1.15" = _uV8CCoIh;
+        "minecraft-1.15.1" = _uV8CCoIh;
+        "minecraft-1.15.2" = _uV8CCoIh;
+        "minecraft-1.21.2" = _8KJ8USKc;
+        "minecraft-1.21.3" = _8KJ8USKc;
+        "minecraft-1.21.4" = _8KJ8USKc;
+        "minecraft-1.21.5" = _8KJ8USKc;
+        "minecraft-1.21.6" = _8KJ8USKc;
+        "minecraft-1.21.7" = _8KJ8USKc;
+        "minecraft-1.21.8" = _8KJ8USKc;
+        "minecraft-1.21.9" = _8KJ8USKc;
+        "minecraft-1.21.10" = _8KJ8USKc;
+        "minecraft-1.21.11" = _8KJ8USKc;
+        "minecraft-24w44a" = _8KJ8USKc;
+        "minecraft-24w45a" = _8KJ8USKc;
+        "minecraft-24w46a" = _8KJ8USKc;
+        "minecraft-26.1" = _8KJ8USKc;
+        "minecraft-26.1.1" = _8KJ8USKc;
+        "minecraft-26.1.2" = _8KJ8USKc;
+        "minecraft-26.2" = _8KJ8USKc;
+        "minecraft-26.3-snapshot-1" = _8KJ8USKc;
+        "minecraft-26.3-snapshot-2" = _8KJ8USKc;
+        "minecraft-26.3-snapshot-3" = _8KJ8USKc;
+        "minecraft-26.3-snapshot-4" = _8KJ8USKc;
+        "minecraft-26.3-snapshot-5" = _8KJ8USKc;
+        "minecraft-26.3-snapshot-6" = _8KJ8USKc;
+        "minecraft-26.3-snapshot-7" = _8KJ8USKc;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "gen-assets";
+            id = "ZRGZa67i";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="8KJ8USKc";}

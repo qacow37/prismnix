@@ -1,0 +1,213 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ziuuXxVC = {
+            "id" = "ziuuXxVC";
+            "file" = "[Eugene] hero-s-proof-2.0.jar";
+            "hash" = "sha512-XgKy9lYpwhY+R6lgEZ6lX9xyQzzrm9mtu4KhBkNFopGkoWvrF7/Q1PDs7rktOeTMfLtWg8O+uLdd4AmihwZ2qQ==";
+        };
+        _lVVJndqM = {
+            "id" = "lVVJndqM";
+            "file" = "hero-s-proof-3.0.jar";
+            "hash" = "sha512-wkvGuRQiWh+yAyMsyOyG34aNUDSHID18HgqdAwD5j7zSkigH7YqxlYTVZcryFqPT2KIWAFIXHJ7eFvjnqT0Klg==";
+        };
+        _BTtA1KuY = {
+            "id" = "BTtA1KuY";
+            "file" = "[Chinese] 英雄证明-中文版.jar";
+            "hash" = "sha512-2wlXRrPoJ8HuYvQ3hYgfgg6/240KSB0KjFkTnTvSTKHlTKeTjY/t6P5PtgcFKg0F7Ngf3UXEfo1vYCuc94yvHw==";
+        };
+        _kLamtMNs = {
+            "id" = "kLamtMNs";
+            "file" = "hero-s-proof-3.0.zip";
+            "hash" = "sha512-wkvGuRQiWh+yAyMsyOyG34aNUDSHID18HgqdAwD5j7zSkigH7YqxlYTVZcryFqPT2KIWAFIXHJ7eFvjnqT0Klg==";
+        };
+        _gKhO4RGd = {
+            "id" = "gKhO4RGd";
+            "file" = "hero-proof-4.0.jar";
+            "hash" = "sha512-Lp3LRgOweWHW1KSAytLeTPiVqrjd6h7OnRv4EtxKaVfg9VTUo+0HIs+4HvUaMBkV/wb7bKNKEii+zH7XJ903pw==";
+        };
+        _9vJOCGe2 = {
+            "id" = "9vJOCGe2";
+            "file" = "hero-proof-5.0.jar";
+            "hash" = "sha512-d1MDZS5NxDomj7pNm40b9XN6GdfCHaBHH8YYZQMSEUuYS1859YmEg97QNq0BUZ7Yi3CsyUn7Jt3BEp02dR31vg==";
+        };
+        _VGcm9Vkz = {
+            "id" = "VGcm9Vkz";
+            "file" = "hero-proof-5.1.jar";
+            "hash" = "sha512-XjCPrKdW2GXw3BXSTvxjmSnY7JcnAqBraKyq0b2/G7vP4SAIyTya6L97T5OAHOZiNehxPbSHcJ/xcKmlzN24pA==";
+        };
+        _CEKPFRP2 = {
+            "id" = "CEKPFRP2";
+            "file" = "hero-proof-5.1.1.jar";
+            "hash" = "sha512-Oz2pWodHOoJxsH8y7OEcB8o6uXGpg3iN0ht6VXTTc5dpTd6q4rr9JHzSblJQHdLm0gYKUl6udH8xrZ5EFFa8BA==";
+        };
+        _6BZ9d0Nb = {
+            "id" = "6BZ9d0Nb";
+            "file" = "hero-proof-5.1.2.jar";
+            "hash" = "sha512-o0Eb4heIuDMOadjKzads1jSYsNGlH9IoGlmSHklLaxINWy8eyXLwGF3uqMH0X6MBnjXDTDXbJk+IfDnL7vCvEg==";
+        };
+        _QQeQJ0db = {
+            "id" = "QQeQJ0db";
+            "file" = "hero-proof-5.1.3.jar";
+            "hash" = "sha512-O93UTJVO+mUgBgH79H/1nGPOpYkfzwG/Bg5MsTkTl9Do+tljenskvmT7oqM4PTaHbrNYbL1bQ8JDGKh9VNAM3w==";
+        };
+        _kpRYnVyF = {
+            "id" = "kpRYnVyF";
+            "file" = "hero-proof-5.2.jar";
+            "hash" = "sha512-XwhH4h7Ls8spqdMmx3gO2cBFONJ13ADZJqvvK3iB5iciiM7nKYvS+qbPYzu5JRiTK1Ln/FH/dF7urW5oQvgN0A==";
+        };
+        _PG9VUROT = {
+            "id" = "PG9VUROT";
+            "file" = "hero-proof-5.2.1.jar";
+            "hash" = "sha512-ePoTrYhZ+cyj5kzLYcC+u9IderPshvb1Snm5zV1KIpldMslw5qxcp8z6zYV7NAL4S/Ep/0xq4yzPUi6u8e3Rfw==";
+        };
+    in {
+        "ziuuXxVC" = _ziuuXxVC;
+        "lVVJndqM" = _lVVJndqM;
+        "BTtA1KuY" = _BTtA1KuY;
+        "kLamtMNs" = _kLamtMNs;
+        "gKhO4RGd" = _gKhO4RGd;
+        "9vJOCGe2" = _9vJOCGe2;
+        "VGcm9Vkz" = _VGcm9Vkz;
+        "CEKPFRP2" = _CEKPFRP2;
+        "6BZ9d0Nb" = _6BZ9d0Nb;
+        "QQeQJ0db" = _QQeQJ0db;
+        "kpRYnVyF" = _kpRYnVyF;
+        "PG9VUROT" = _PG9VUROT;
+        "fabric-1.18.2" = _PG9VUROT;
+        "fabric-1.19" = _PG9VUROT;
+        "fabric-1.19.1" = _PG9VUROT;
+        "fabric-1.19.2" = _PG9VUROT;
+        "fabric-1.19.3" = _PG9VUROT;
+        "fabric-1.19.4" = _PG9VUROT;
+        "fabric-1.20" = _PG9VUROT;
+        "fabric-1.20.1" = _PG9VUROT;
+        "fabric-1.20.2" = _PG9VUROT;
+        "fabric-1.15" = _PG9VUROT;
+        "fabric-1.15.1" = _PG9VUROT;
+        "fabric-1.15.2" = _PG9VUROT;
+        "fabric-1.16" = _PG9VUROT;
+        "fabric-1.16.1" = _PG9VUROT;
+        "fabric-1.16.2" = _PG9VUROT;
+        "fabric-1.16.3" = _PG9VUROT;
+        "fabric-1.16.4" = _PG9VUROT;
+        "fabric-1.16.5" = _PG9VUROT;
+        "fabric-1.17" = _PG9VUROT;
+        "fabric-1.17.1" = _PG9VUROT;
+        "fabric-1.18" = _PG9VUROT;
+        "fabric-1.18.1" = _PG9VUROT;
+        "fabric-1.14.4" = _CEKPFRP2;
+        "fabric-1.20.3" = _PG9VUROT;
+        "fabric-1.20.4" = _PG9VUROT;
+        "fabric-1.20.5" = _PG9VUROT;
+        "fabric-1.20.6" = _PG9VUROT;
+        "forge-1.20.1" = _PG9VUROT;
+        "forge-1.15" = _PG9VUROT;
+        "forge-1.15.1" = _PG9VUROT;
+        "forge-1.15.2" = _PG9VUROT;
+        "forge-1.16" = _PG9VUROT;
+        "forge-1.16.1" = _PG9VUROT;
+        "forge-1.16.2" = _PG9VUROT;
+        "forge-1.16.3" = _PG9VUROT;
+        "forge-1.16.4" = _PG9VUROT;
+        "forge-1.16.5" = _PG9VUROT;
+        "forge-1.17" = _PG9VUROT;
+        "forge-1.17.1" = _PG9VUROT;
+        "forge-1.18" = _PG9VUROT;
+        "forge-1.18.1" = _PG9VUROT;
+        "forge-1.18.2" = _PG9VUROT;
+        "forge-1.19" = _PG9VUROT;
+        "forge-1.19.1" = _PG9VUROT;
+        "forge-1.19.2" = _PG9VUROT;
+        "forge-1.19.3" = _PG9VUROT;
+        "forge-1.19.4" = _PG9VUROT;
+        "forge-1.20" = _PG9VUROT;
+        "forge-1.14.4" = _CEKPFRP2;
+        "forge-1.20.2" = _PG9VUROT;
+        "forge-1.20.3" = _PG9VUROT;
+        "forge-1.20.4" = _PG9VUROT;
+        "forge-1.20.5" = _PG9VUROT;
+        "forge-1.20.6" = _PG9VUROT;
+        "quilt-1.20.1" = _PG9VUROT;
+        "quilt-1.15" = _PG9VUROT;
+        "quilt-1.15.1" = _PG9VUROT;
+        "quilt-1.15.2" = _PG9VUROT;
+        "quilt-1.16" = _PG9VUROT;
+        "quilt-1.16.1" = _PG9VUROT;
+        "quilt-1.16.2" = _PG9VUROT;
+        "quilt-1.16.3" = _PG9VUROT;
+        "quilt-1.16.4" = _PG9VUROT;
+        "quilt-1.16.5" = _PG9VUROT;
+        "quilt-1.17" = _PG9VUROT;
+        "quilt-1.17.1" = _PG9VUROT;
+        "quilt-1.18" = _PG9VUROT;
+        "quilt-1.18.1" = _PG9VUROT;
+        "quilt-1.18.2" = _PG9VUROT;
+        "quilt-1.19" = _PG9VUROT;
+        "quilt-1.19.1" = _PG9VUROT;
+        "quilt-1.19.2" = _PG9VUROT;
+        "quilt-1.19.3" = _PG9VUROT;
+        "quilt-1.19.4" = _PG9VUROT;
+        "quilt-1.20" = _PG9VUROT;
+        "quilt-1.14.4" = _CEKPFRP2;
+        "quilt-1.20.2" = _PG9VUROT;
+        "quilt-1.20.3" = _PG9VUROT;
+        "quilt-1.20.4" = _PG9VUROT;
+        "quilt-1.20.5" = _PG9VUROT;
+        "quilt-1.20.6" = _PG9VUROT;
+        "datapack-1.18.2" = _kLamtMNs;
+        "datapack-1.19" = _kLamtMNs;
+        "datapack-1.19.1" = _kLamtMNs;
+        "datapack-1.19.2" = _kLamtMNs;
+        "datapack-1.19.3" = _kLamtMNs;
+        "datapack-1.19.4" = _kLamtMNs;
+        "datapack-1.20" = _kLamtMNs;
+        "datapack-1.20.1" = _kLamtMNs;
+        "datapack-1.20.2" = _kLamtMNs;
+        "neoforge-1.15" = _PG9VUROT;
+        "neoforge-1.15.1" = _PG9VUROT;
+        "neoforge-1.15.2" = _PG9VUROT;
+        "neoforge-1.16" = _PG9VUROT;
+        "neoforge-1.16.1" = _PG9VUROT;
+        "neoforge-1.16.2" = _PG9VUROT;
+        "neoforge-1.16.3" = _PG9VUROT;
+        "neoforge-1.16.4" = _PG9VUROT;
+        "neoforge-1.16.5" = _PG9VUROT;
+        "neoforge-1.17" = _PG9VUROT;
+        "neoforge-1.17.1" = _PG9VUROT;
+        "neoforge-1.18" = _PG9VUROT;
+        "neoforge-1.18.1" = _PG9VUROT;
+        "neoforge-1.18.2" = _PG9VUROT;
+        "neoforge-1.19" = _PG9VUROT;
+        "neoforge-1.19.1" = _PG9VUROT;
+        "neoforge-1.19.2" = _PG9VUROT;
+        "neoforge-1.19.3" = _PG9VUROT;
+        "neoforge-1.19.4" = _PG9VUROT;
+        "neoforge-1.20" = _PG9VUROT;
+        "neoforge-1.20.1" = _PG9VUROT;
+        "neoforge-1.20.2" = _PG9VUROT;
+        "neoforge-1.20.3" = _PG9VUROT;
+        "neoforge-1.20.4" = _PG9VUROT;
+        "neoforge-1.20.5" = _PG9VUROT;
+        "neoforge-1.20.6" = _PG9VUROT;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "hero-proof";
+            id = "GDmztpJg";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="PG9VUROT";}

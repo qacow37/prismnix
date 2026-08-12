@@ -1,0 +1,43 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _YaV7y4hd = {
+            "id" = "YaV7y4hd";
+            "file" = "Dokucraft Pink Netherite.zip";
+            "hash" = "sha512-0Phlw0RVfOdbA+CtcEq8XryrnoMVGEpVdC9cdASxEqoLwUm51qbCI1MQdctOP847qmvmG9us8Vg+xnqKbm7ASQ==";
+        };
+        _aJAPc13J = {
+            "id" = "aJAPc13J";
+            "file" = "Dokucraft Pink Netherite.zip";
+            "hash" = "sha512-CrhOVG016LfU9TXpRGmvOV1cms7q9w90UCvVpmnTu3doFxsudm9b8beDcLNBiWBwnZG9syS1ltVdyJXx1AnTNg==";
+        };
+    in {
+        "YaV7y4hd" = _YaV7y4hd;
+        "aJAPc13J" = _aJAPc13J;
+        "minecraft-1.21.4" = _aJAPc13J;
+        "minecraft-1.21" = _aJAPc13J;
+        "minecraft-1.21.1" = _aJAPc13J;
+        "minecraft-1.21.2" = _aJAPc13J;
+        "minecraft-1.21.3" = _aJAPc13J;
+        "minecraft-1.21.5" = _aJAPc13J;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "dokucraft-pink-netherite";
+            id = "rz1HKC6W";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="aJAPc13J";}

@@ -1,0 +1,447 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Yvqv39BU = {
+            "id" = "Yvqv39BU";
+            "file" = "AdvancedTeleport-Bukkit-5.6.4.jar";
+            "hash" = "sha512-0O1Px5jfpLbuK9pCLmCDYw8lFVVMc1UZXjiuWFbvux17R4jUuBTYzlVtBI+4jSn8Gi2ILUO9SLI+pjDzwz2otQ==";
+        };
+        _CRhKckuW = {
+            "id" = "CRhKckuW";
+            "file" = "AdvancedTeleport-Bukkit-5.6.5.jar";
+            "hash" = "sha512-ZH9itqfmLHZXFpX6aITJlsvJVN8pOqk+5hEQBwIKp8g1y9eueBpDxXbrOS3uUUsX8Cif/EvXDDlmlukwCCRyZw==";
+        };
+        _c8tM9ksK = {
+            "id" = "c8tM9ksK";
+            "file" = "AdvancedTeleport-Bukkit-5.6.6.jar";
+            "hash" = "sha512-5eRTzQ4qcXbXXAlrYFg6RIBIzwjKQoGoBf/Mw+plLEbe+GXgRZCb+0jt8kE8svi4UIx96gZ9cmPtILE0v9NB6w==";
+        };
+        _Hwns80UP = {
+            "id" = "Hwns80UP";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-beta.1.jar";
+            "hash" = "sha512-ZpXx/JajwZh8mbri3ydm3HXDuuO4ZAUoKdLY6/rjhYuA23aH48EvNtPNHJc0pT4Ls7Pw0vxVgV8d6d4iny7ZlQ==";
+        };
+        _Z84AJWZj = {
+            "id" = "Z84AJWZj";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-beta.2.jar";
+            "hash" = "sha512-AVrBJW7ln5NQ+evIjj78hGIPq/293MKTxk4okbWQtrGpjqIyYm2sLACP2iVLtHhZ6hzz0hOP6Yp4qCjx6V9Qdw==";
+        };
+        _9QZEHBEh = {
+            "id" = "9QZEHBEh";
+            "file" = "AdvancedTeleport-Bukkit-5.6.7.jar";
+            "hash" = "sha512-etpCz/SrB0MHbo3KM3jFLXBNJli4rP7nolxtVIAtSfc3ECdeClGD2uP2s9gwa1Gso1W9r6MvXXNU+e/ahtJxug==";
+        };
+        _ZiHtu5gn = {
+            "id" = "ZiHtu5gn";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-beta.3-all.jar";
+            "hash" = "sha512-ZZt6z3bFMzhTlpmzhzqVfqtRIqGEfw2fgXOrU5SUcatMuK0BfwC2zE6fKnQyCzMiKgxYj+II4gVO0+9w8E1vig==";
+        };
+        _vJX9Eddr = {
+            "id" = "vJX9Eddr";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-beta.4-all.jar";
+            "hash" = "sha512-Va1fYIs2a6A5WNOjE4KLMmKAwlerhwsddL4ppMTlIH9UeTcMGgzcet3pgXiQeZBTplSn1prTCEakcFZs4+vHZA==";
+        };
+        _MuRNjt9U = {
+            "id" = "MuRNjt9U";
+            "file" = "AdvancedTeleport-Bukkit-5.6.8.jar";
+            "hash" = "sha512-HnMNcC1RQv/FJgMYXD6kuVuvRheQyjHcUMex1jGPu3hpcWvAMxaAQML+SHDCZtV5JPDwdj93JQ1ziaJjuMsFWQ==";
+        };
+        _r901m14z = {
+            "id" = "r901m14z";
+            "file" = "AdvancedTeleport-Bukkit-5.6.9.jar";
+            "hash" = "sha512-tyxptYmp13NpG16HLbvZJnWlbSvXwtrnarjdlTf3QP7f1yVwM+cuFbq0QWLYbfbsVyVa4hQrpFDAVli2oi43Ow==";
+        };
+        _euVvhZwL = {
+            "id" = "euVvhZwL";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-alpha+folia.1-all.jar";
+            "hash" = "sha512-8U5g0QjsjVPGlnv88NhRHLI+5BnPDvF1YTTnsIpqoJZw+ZibBUlOGaWucQnbZXchRyZCD5q25e7f5enzTwd1Jw==";
+        };
+        _CSCbRKN6 = {
+            "id" = "CSCbRKN6";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-beta.5-all.jar";
+            "hash" = "sha512-tkuWrGBnHpmd/cQMg6LVT1qBD64CewUV3tmxQLEbDls2EV3aPjah9e6AvdrGsHoJhospO0xWCCtd22ihCq8jbQ==";
+        };
+        _w5jQUm05 = {
+            "id" = "w5jQUm05";
+            "file" = "AdvancedTeleport-Bukkit-5.6.10.jar";
+            "hash" = "sha512-7QIqyeg+QFkwoYqcqrtZJpmIdEUSd0a/oYyrIxkO32Bf2viQy5lCTAve4IOI1zrW146liO54mkF+C1eN+AvAzQ==";
+        };
+        _SCGIdqUu = {
+            "id" = "SCGIdqUu";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-alpha+folia.2-all.jar";
+            "hash" = "sha512-parA2Jb/SQuhjE0AvS/po6GogAA0uVEMs3fu/6RjzMcOogwZT8uB34kbkwuWfaW047m1FZgIMRf94yY7ZkL1yg==";
+        };
+        _YdIKf7W1 = {
+            "id" = "YdIKf7W1";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-beta.6-all.jar";
+            "hash" = "sha512-nhiVlXiZyuprUmSL0nkB1tNjJgbD8L9Pz76DWTMVgvqTL64sIBRMYy5ardHriB6iPSsUPpEt1Z+nmPseLv5LyA==";
+        };
+        _zcJn96FU = {
+            "id" = "zcJn96FU";
+            "file" = "AdvancedTeleport-Bukkit-5.6.11.jar";
+            "hash" = "sha512-We4GgWi9b/FdHY+bGvXv6us7E2jptgvY8GiPWgd5fiJTH/n9GxAyh7k2lHR+08oUha8LpcPPG9QcSV5CFv4vNg==";
+        };
+        _VQl4Y3S9 = {
+            "id" = "VQl4Y3S9";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-rc.1-all.jar";
+            "hash" = "sha512-nPzn0LD2uaoK6RIJdPh32NBzQj29lPzvjGLdb989WunSnb2eS8xK46pT8pEDY2JLiaYgqIdcNvrevVAq7b0S4A==";
+        };
+        _lEaSlaNp = {
+            "id" = "lEaSlaNp";
+            "file" = "AdvancedTeleport-Bukkit-5.6.12.jar";
+            "hash" = "sha512-Pvmvs8aYyrDRHR5+UO0JOa7GObFaOG0SSRADBvqkkG4tEPtqBlSJkYVSzwhQ6jVua1tG3y8rYmj2Xj2B3R4g0w==";
+        };
+        _ELBgDDh0 = {
+            "id" = "ELBgDDh0";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-rc.2-all.jar";
+            "hash" = "sha512-MFOSUs/mRcztwwJFGUf1HaRcZQLY8N6RnBtn5f5QANub6vvf+aEOqwV1znhzX+LJkohgyFWJy7Covkeyueojkw==";
+        };
+        _Ns7gkVJU = {
+            "id" = "Ns7gkVJU";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-rc.3-all.jar";
+            "hash" = "sha512-uqXqWiFaD/NHxjHDW5mSGNCnLqg/sTje91L7PGKb4gl3PJwqdGf9lXtbaTNdxNx/C1tvRs0HVLw8FxhX5h8jYw==";
+        };
+        _9XlCBrpp = {
+            "id" = "9XlCBrpp";
+            "file" = "AdvancedTeleport-Bukkit-5.6.13.jar";
+            "hash" = "sha512-luAVAUM0cjCtfldrixTumVe6KUtlTXX4VYGo0TGEusg0RcN5j5JExk/k52Fc+hdh+bIYQhwlfnlyU/s4aIdA/A==";
+        };
+        _Lk1B23RH = {
+            "id" = "Lk1B23RH";
+            "file" = "AdvancedTeleport-Bukkit-5.6.14.jar";
+            "hash" = "sha512-KVUhm8ct7VCldPrnNxg+LtjK6V/weR/w1TTLbcckUeNZAFJTS3r0Mzmmx1r/3LZEKDMD3luo7soaFGtdyXErLw==";
+        };
+        _TyQeCeCE = {
+            "id" = "TyQeCeCE";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-rc.4-all.jar";
+            "hash" = "sha512-KzOOCWMIVvFL3qkNo5M2/fIDus+di1DcVMECL92kMZqBVo2M082P7X+J7bQdpW4Qzh/BQz3f2nftdGH3LcQIjg==";
+        };
+        _vhJP3Hs3 = {
+            "id" = "vhJP3Hs3";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-rc.5-all.jar";
+            "hash" = "sha512-P9VwKeKrwg/qONiVuBZb/yg3aPZVX6Pq8hAMwn7VLW+J7+FjvA6VmX72JeB60Dnta/9rBf+sy/Gx5F9Xb9ormQ==";
+        };
+        _qlBGwb2p = {
+            "id" = "qlBGwb2p";
+            "file" = "AdvancedTeleport-Bukkit-6.0.0-all.jar";
+            "hash" = "sha512-QM5XIp+uuE0lS9il1rYYPiKTtx1PMJ9lHWgP5ZXEK/FVyJk7siC/43JtZNr0rPjVlecyLUsJudi4+2LaQCW/Fg==";
+        };
+        _ptxT2Yyb = {
+            "id" = "ptxT2Yyb";
+            "file" = "AdvancedTeleport-Bukkit-6.0.1-all.jar";
+            "hash" = "sha512-9h5j2CREWwr+74fidBlLXyH0uX0EgU0KbkLp8oVaOOyinr7LcFPtTEUhd1VTAPrRm/IdDW7oqQsTNNb0JZT6XA==";
+        };
+        _WJQHJrtm = {
+            "id" = "WJQHJrtm";
+            "file" = "AdvancedTeleport-Bukkit-6.0.2-all.jar";
+            "hash" = "sha512-8kMz8MkR0EnrwV01sh/39NcfOxhsvkFEWgRZBY3A8FMC6EYDtIvEuGlgR5EeeM2U2Lkx6ScekCqfHRP0o0XpyQ==";
+        };
+        _P21O9U7Y = {
+            "id" = "P21O9U7Y";
+            "file" = "AdvancedTeleport-Bukkit-6.0.3-all.jar";
+            "hash" = "sha512-bt2EmgTwcK85SCUXFW/DEVHII3DvtrAtyNYGfXlRrCKAWsQX5eEuWkqhI4hPe9lA1ZZ2WKb5SWWIMkiLJimsDg==";
+        };
+        _Z20r8ptc = {
+            "id" = "Z20r8ptc";
+            "file" = "AdvancedTeleport-Bukkit-6.0.4-all.jar";
+            "hash" = "sha512-wWwzb82QGGDq7b/H6m5Z2oIeGeNuTKvzXE9GjWGWuv7veRWBGLmG+3N6aJ8lCzk1sZIKK5bRsWyulZMhrHWltA==";
+        };
+        _sa5MsOLa = {
+            "id" = "sa5MsOLa";
+            "file" = "AdvancedTeleport-Bukkit-6.1.0-all.jar";
+            "hash" = "sha512-n/zfEmUT4hyyCSyntO7DGDNLJ6+ID90ZQqeJPakWLskH4E46lCBm0VZqBDlmlg40t72N8HqogCVhySf1Hd6sSQ==";
+        };
+        _xlkxGpaF = {
+            "id" = "xlkxGpaF";
+            "file" = "AdvancedTeleport-Bukkit-6.1.1-all.jar";
+            "hash" = "sha512-WaCxOY/n5/Dad9c2jdMlOcei4364mj5UEqSYl7Verbm50utrFar7t/o9hFgrIDDM5W+jXWfe1s+6BfdRKhQb8g==";
+        };
+        _xfQb9Ujs = {
+            "id" = "xfQb9Ujs";
+            "file" = "AdvancedTeleport-Bukkit-6.1.2-all.jar";
+            "hash" = "sha512-+eeSIWjZLTUtDyXH8xTZVB91uqUZbD40BghvxUCVZ+Wd/0hzQd6KJLXw4X0FhrxV+ahv5s/iyC7DZFcUCGW1ag==";
+        };
+        _hv0n9HH8 = {
+            "id" = "hv0n9HH8";
+            "file" = "AdvancedTeleport-Bukkit-6.1.3-all.jar";
+            "hash" = "sha512-HGpghxrMtHCpsUwKSUETcCsZNraaK7k1XzozDmY19/dP0/+VBwyDP1o7Hi4iLF0QjwULBN0/Z20eJDSx16VeTw==";
+        };
+        _zfqUuTdx = {
+            "id" = "zfqUuTdx";
+            "file" = "AdvancedTeleport-Bukkit-6.2.0-all.jar";
+            "hash" = "sha512-9525mYT9yLi1Yyo9z50SBvRI5wV+u8R0/kJQs/Y+BIS8VdPJWfPkHEClYlUzxVZeuXLYF6HkEMw1ofdp2mKwAA==";
+        };
+    in {
+        "Yvqv39BU" = _Yvqv39BU;
+        "CRhKckuW" = _CRhKckuW;
+        "c8tM9ksK" = _c8tM9ksK;
+        "Hwns80UP" = _Hwns80UP;
+        "Z84AJWZj" = _Z84AJWZj;
+        "9QZEHBEh" = _9QZEHBEh;
+        "ZiHtu5gn" = _ZiHtu5gn;
+        "vJX9Eddr" = _vJX9Eddr;
+        "MuRNjt9U" = _MuRNjt9U;
+        "r901m14z" = _r901m14z;
+        "euVvhZwL" = _euVvhZwL;
+        "CSCbRKN6" = _CSCbRKN6;
+        "w5jQUm05" = _w5jQUm05;
+        "SCGIdqUu" = _SCGIdqUu;
+        "YdIKf7W1" = _YdIKf7W1;
+        "zcJn96FU" = _zcJn96FU;
+        "VQl4Y3S9" = _VQl4Y3S9;
+        "lEaSlaNp" = _lEaSlaNp;
+        "ELBgDDh0" = _ELBgDDh0;
+        "Ns7gkVJU" = _Ns7gkVJU;
+        "9XlCBrpp" = _9XlCBrpp;
+        "Lk1B23RH" = _Lk1B23RH;
+        "TyQeCeCE" = _TyQeCeCE;
+        "vhJP3Hs3" = _vhJP3Hs3;
+        "qlBGwb2p" = _qlBGwb2p;
+        "ptxT2Yyb" = _ptxT2Yyb;
+        "WJQHJrtm" = _WJQHJrtm;
+        "P21O9U7Y" = _P21O9U7Y;
+        "Z20r8ptc" = _Z20r8ptc;
+        "sa5MsOLa" = _sa5MsOLa;
+        "xlkxGpaF" = _xlkxGpaF;
+        "xfQb9Ujs" = _xfQb9Ujs;
+        "hv0n9HH8" = _hv0n9HH8;
+        "zfqUuTdx" = _zfqUuTdx;
+        "paper-1.8.8" = _c8tM9ksK;
+        "paper-1.9.4" = _Lk1B23RH;
+        "paper-1.10.2" = _Lk1B23RH;
+        "paper-1.12.2" = _Lk1B23RH;
+        "paper-1.13.2" = _Lk1B23RH;
+        "paper-1.14.4" = _Lk1B23RH;
+        "paper-1.15.2" = _Lk1B23RH;
+        "paper-1.16.5" = _Lk1B23RH;
+        "paper-1.17.1" = _Lk1B23RH;
+        "paper-1.18.2" = _zfqUuTdx;
+        "paper-1.19" = _zfqUuTdx;
+        "paper-1.19.1" = _zfqUuTdx;
+        "paper-1.19.2" = _zfqUuTdx;
+        "paper-1.8.9" = _Lk1B23RH;
+        "paper-1.11.2" = _Lk1B23RH;
+        "paper-1.9" = _c8tM9ksK;
+        "paper-1.9.1" = _c8tM9ksK;
+        "paper-1.9.2" = _c8tM9ksK;
+        "paper-1.9.3" = _c8tM9ksK;
+        "paper-1.10" = _c8tM9ksK;
+        "paper-1.10.1" = _c8tM9ksK;
+        "paper-1.11" = _c8tM9ksK;
+        "paper-1.11.1" = _c8tM9ksK;
+        "paper-1.12" = _c8tM9ksK;
+        "paper-1.12.1" = _c8tM9ksK;
+        "paper-1.13" = _c8tM9ksK;
+        "paper-1.13.1" = _c8tM9ksK;
+        "paper-1.14" = _9QZEHBEh;
+        "paper-1.14.1" = _9QZEHBEh;
+        "paper-1.14.2" = _9QZEHBEh;
+        "paper-1.14.3" = _9QZEHBEh;
+        "paper-1.15" = _9QZEHBEh;
+        "paper-1.15.1" = _9QZEHBEh;
+        "paper-1.16" = _c8tM9ksK;
+        "paper-1.16.1" = _c8tM9ksK;
+        "paper-1.16.2" = _c8tM9ksK;
+        "paper-1.16.3" = _c8tM9ksK;
+        "paper-1.16.4" = _c8tM9ksK;
+        "paper-1.17" = _c8tM9ksK;
+        "paper-1.18" = _zfqUuTdx;
+        "paper-1.18.1" = _zfqUuTdx;
+        "paper-1.19.3" = _zfqUuTdx;
+        "paper-1.19.4" = _zfqUuTdx;
+        "paper-1.20" = _zfqUuTdx;
+        "paper-1.20.1" = _zfqUuTdx;
+        "paper-1.20.2" = _zfqUuTdx;
+        "paper-1.20.3" = _zfqUuTdx;
+        "paper-1.20.4" = _zfqUuTdx;
+        "paper-1.20.5" = _zfqUuTdx;
+        "paper-1.20.6" = _zfqUuTdx;
+        "paper-1.21" = _zfqUuTdx;
+        "paper-1.21.1" = _zfqUuTdx;
+        "paper-1.21.2" = _zfqUuTdx;
+        "paper-1.21.3" = _zfqUuTdx;
+        "paper-1.21.4" = _zfqUuTdx;
+        "paper-1.21.11" = _zfqUuTdx;
+        "spigot-1.8.8" = _c8tM9ksK;
+        "spigot-1.9.4" = _Lk1B23RH;
+        "spigot-1.10.2" = _Lk1B23RH;
+        "spigot-1.12.2" = _Lk1B23RH;
+        "spigot-1.13.2" = _Lk1B23RH;
+        "spigot-1.14.4" = _Lk1B23RH;
+        "spigot-1.15.2" = _Lk1B23RH;
+        "spigot-1.16.5" = _Lk1B23RH;
+        "spigot-1.17.1" = _Lk1B23RH;
+        "spigot-1.18.2" = _zfqUuTdx;
+        "spigot-1.19" = _zfqUuTdx;
+        "spigot-1.19.1" = _zfqUuTdx;
+        "spigot-1.19.2" = _zfqUuTdx;
+        "spigot-1.8.9" = _Lk1B23RH;
+        "spigot-1.11.2" = _Lk1B23RH;
+        "spigot-1.9" = _c8tM9ksK;
+        "spigot-1.9.1" = _c8tM9ksK;
+        "spigot-1.9.2" = _c8tM9ksK;
+        "spigot-1.9.3" = _c8tM9ksK;
+        "spigot-1.10" = _c8tM9ksK;
+        "spigot-1.10.1" = _c8tM9ksK;
+        "spigot-1.11" = _c8tM9ksK;
+        "spigot-1.11.1" = _c8tM9ksK;
+        "spigot-1.12" = _c8tM9ksK;
+        "spigot-1.12.1" = _c8tM9ksK;
+        "spigot-1.13" = _c8tM9ksK;
+        "spigot-1.13.1" = _c8tM9ksK;
+        "spigot-1.14" = _9QZEHBEh;
+        "spigot-1.14.1" = _9QZEHBEh;
+        "spigot-1.14.2" = _9QZEHBEh;
+        "spigot-1.14.3" = _9QZEHBEh;
+        "spigot-1.15" = _9QZEHBEh;
+        "spigot-1.15.1" = _9QZEHBEh;
+        "spigot-1.16" = _c8tM9ksK;
+        "spigot-1.16.1" = _c8tM9ksK;
+        "spigot-1.16.2" = _c8tM9ksK;
+        "spigot-1.16.3" = _c8tM9ksK;
+        "spigot-1.16.4" = _c8tM9ksK;
+        "spigot-1.17" = _c8tM9ksK;
+        "spigot-1.18" = _zfqUuTdx;
+        "spigot-1.18.1" = _zfqUuTdx;
+        "spigot-1.19.3" = _zfqUuTdx;
+        "spigot-1.19.4" = _zfqUuTdx;
+        "spigot-1.20" = _zfqUuTdx;
+        "spigot-1.20.1" = _zfqUuTdx;
+        "spigot-1.20.2" = _zfqUuTdx;
+        "spigot-1.20.3" = _zfqUuTdx;
+        "spigot-1.20.4" = _zfqUuTdx;
+        "spigot-1.20.5" = _zfqUuTdx;
+        "spigot-1.20.6" = _zfqUuTdx;
+        "spigot-1.21" = _zfqUuTdx;
+        "spigot-1.21.1" = _zfqUuTdx;
+        "spigot-1.21.2" = _zfqUuTdx;
+        "spigot-1.21.3" = _zfqUuTdx;
+        "spigot-1.21.4" = _zfqUuTdx;
+        "spigot-1.21.11" = _zfqUuTdx;
+        "bukkit-1.8.8" = _c8tM9ksK;
+        "bukkit-1.8.9" = _c8tM9ksK;
+        "bukkit-1.9" = _c8tM9ksK;
+        "bukkit-1.9.1" = _c8tM9ksK;
+        "bukkit-1.9.2" = _c8tM9ksK;
+        "bukkit-1.9.3" = _c8tM9ksK;
+        "bukkit-1.9.4" = _c8tM9ksK;
+        "bukkit-1.10" = _c8tM9ksK;
+        "bukkit-1.10.1" = _c8tM9ksK;
+        "bukkit-1.10.2" = _c8tM9ksK;
+        "bukkit-1.11" = _c8tM9ksK;
+        "bukkit-1.11.1" = _c8tM9ksK;
+        "bukkit-1.11.2" = _c8tM9ksK;
+        "bukkit-1.12" = _c8tM9ksK;
+        "bukkit-1.12.1" = _c8tM9ksK;
+        "bukkit-1.12.2" = _c8tM9ksK;
+        "bukkit-1.13" = _c8tM9ksK;
+        "bukkit-1.13.1" = _c8tM9ksK;
+        "bukkit-1.13.2" = _c8tM9ksK;
+        "bukkit-1.14" = _c8tM9ksK;
+        "bukkit-1.14.1" = _c8tM9ksK;
+        "bukkit-1.14.2" = _c8tM9ksK;
+        "bukkit-1.14.3" = _c8tM9ksK;
+        "bukkit-1.14.4" = _c8tM9ksK;
+        "bukkit-1.15" = _c8tM9ksK;
+        "bukkit-1.15.1" = _c8tM9ksK;
+        "bukkit-1.15.2" = _c8tM9ksK;
+        "bukkit-1.16" = _c8tM9ksK;
+        "bukkit-1.16.1" = _c8tM9ksK;
+        "bukkit-1.16.2" = _c8tM9ksK;
+        "bukkit-1.16.3" = _c8tM9ksK;
+        "bukkit-1.16.4" = _c8tM9ksK;
+        "bukkit-1.16.5" = _c8tM9ksK;
+        "bukkit-1.17" = _c8tM9ksK;
+        "bukkit-1.17.1" = _c8tM9ksK;
+        "bukkit-1.18" = _c8tM9ksK;
+        "bukkit-1.18.1" = _c8tM9ksK;
+        "bukkit-1.18.2" = _c8tM9ksK;
+        "bukkit-1.19" = _c8tM9ksK;
+        "bukkit-1.19.1" = _c8tM9ksK;
+        "bukkit-1.19.2" = _c8tM9ksK;
+        "bukkit-1.19.3" = _c8tM9ksK;
+        "purpur-1.8.8" = _c8tM9ksK;
+        "purpur-1.8.9" = _Lk1B23RH;
+        "purpur-1.9" = _c8tM9ksK;
+        "purpur-1.9.1" = _c8tM9ksK;
+        "purpur-1.9.2" = _c8tM9ksK;
+        "purpur-1.9.3" = _c8tM9ksK;
+        "purpur-1.9.4" = _Lk1B23RH;
+        "purpur-1.10" = _c8tM9ksK;
+        "purpur-1.10.1" = _c8tM9ksK;
+        "purpur-1.10.2" = _Lk1B23RH;
+        "purpur-1.11" = _c8tM9ksK;
+        "purpur-1.11.1" = _c8tM9ksK;
+        "purpur-1.11.2" = _Lk1B23RH;
+        "purpur-1.12" = _c8tM9ksK;
+        "purpur-1.12.1" = _c8tM9ksK;
+        "purpur-1.12.2" = _Lk1B23RH;
+        "purpur-1.13" = _c8tM9ksK;
+        "purpur-1.13.1" = _c8tM9ksK;
+        "purpur-1.13.2" = _Lk1B23RH;
+        "purpur-1.14" = _c8tM9ksK;
+        "purpur-1.14.1" = _c8tM9ksK;
+        "purpur-1.14.2" = _c8tM9ksK;
+        "purpur-1.14.3" = _c8tM9ksK;
+        "purpur-1.14.4" = _Lk1B23RH;
+        "purpur-1.15" = _c8tM9ksK;
+        "purpur-1.15.1" = _c8tM9ksK;
+        "purpur-1.15.2" = _Lk1B23RH;
+        "purpur-1.16" = _c8tM9ksK;
+        "purpur-1.16.1" = _c8tM9ksK;
+        "purpur-1.16.2" = _c8tM9ksK;
+        "purpur-1.16.3" = _c8tM9ksK;
+        "purpur-1.16.4" = _c8tM9ksK;
+        "purpur-1.16.5" = _Lk1B23RH;
+        "purpur-1.17" = _c8tM9ksK;
+        "purpur-1.17.1" = _Lk1B23RH;
+        "purpur-1.18" = _zfqUuTdx;
+        "purpur-1.18.1" = _zfqUuTdx;
+        "purpur-1.18.2" = _zfqUuTdx;
+        "purpur-1.19" = _zfqUuTdx;
+        "purpur-1.19.1" = _zfqUuTdx;
+        "purpur-1.19.2" = _zfqUuTdx;
+        "purpur-1.19.3" = _zfqUuTdx;
+        "purpur-1.19.4" = _zfqUuTdx;
+        "purpur-1.20" = _zfqUuTdx;
+        "purpur-1.20.1" = _zfqUuTdx;
+        "purpur-1.20.2" = _zfqUuTdx;
+        "purpur-1.20.3" = _zfqUuTdx;
+        "purpur-1.20.4" = _zfqUuTdx;
+        "purpur-1.20.5" = _zfqUuTdx;
+        "purpur-1.20.6" = _zfqUuTdx;
+        "purpur-1.21" = _zfqUuTdx;
+        "purpur-1.21.1" = _zfqUuTdx;
+        "purpur-1.21.2" = _zfqUuTdx;
+        "purpur-1.21.3" = _zfqUuTdx;
+        "purpur-1.21.4" = _zfqUuTdx;
+        "purpur-1.21.11" = _zfqUuTdx;
+        "folia-1.18" = _euVvhZwL;
+        "folia-1.18.1" = _euVvhZwL;
+        "folia-1.18.2" = _euVvhZwL;
+        "folia-1.19" = _euVvhZwL;
+        "folia-1.19.1" = _euVvhZwL;
+        "folia-1.19.2" = _euVvhZwL;
+        "folia-1.19.3" = _euVvhZwL;
+        "folia-1.19.4" = _euVvhZwL;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "advancedteleport";
+            id = "BQFzmxKU";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="zfqUuTdx";}

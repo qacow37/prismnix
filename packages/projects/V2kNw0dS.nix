@@ -1,0 +1,477 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _FOY4CdWR = {
+            "id" = "FOY4CdWR";
+            "file" = "Enchanted Golden Apple Addition 1.17-1.20.4.zip";
+            "hash" = "sha512-MOIDh/p39H84RCZKOF7ifyYG03g1SScEG7FGYpfZmplCQ+5VkKH/dFZyD3+Q2ISN4w630/oMy9PoqgP7pFlNrw==";
+        };
+        _q4TOWkuI = {
+            "id" = "q4TOWkuI";
+            "file" = "enchanted-golden-apple-addition-1.1.jar";
+            "hash" = "sha512-uuNQmiH8q/qdMePRbkhdlq9DFbw668v6cuBcLzDruga8n5r4OKsGEc8crwYNlfCo5tuXfZ7uqcE9uBV+8cYn7w==";
+        };
+        _XMXOqXQj = {
+            "id" = "XMXOqXQj";
+            "file" = "Enchanted Golden Apple Addition 1.14.1-1.16.5.zip";
+            "hash" = "sha512-uBy6U1IHduLNfxw+Xu5H54TAAAZpD9pEInXdp6HOIKvSNfAyE7ZaIHRHvqiJQi/9IH8/AILFUsg41s26QVBXkQ==";
+        };
+        _oJgbk9tq = {
+            "id" = "oJgbk9tq";
+            "file" = "enchanted-golden-apple-addition-1.1.jar";
+            "hash" = "sha512-6JwV9tQpfJ8rmmS8WuqEr6cr9WKsdilmlZyEzibb4WT5giLxonLsytJaScOBAMXG6SAJ2v6Op9zgqAD6lL0ZFQ==";
+        };
+        _ax2RQm3k = {
+            "id" = "ax2RQm3k";
+            "file" = "Enchanted Golden Apple Addition 1.14.1-1.16.5.zip";
+            "hash" = "sha512-kXFO8YfJSvxHqc08iFvZInpj227x9PfBSEjoQFmu8+5JC0II2yaYz+xaqAHj1fUnIKk8PRR3U1l0hQSjbphvaA==";
+        };
+        _rFIb2NKP = {
+            "id" = "rFIb2NKP";
+            "file" = "enchanted-golden-apple-addition-1.1.1.jar";
+            "hash" = "sha512-4F2iou6Y6l/v61XWEUXqUIaix/yZUeUfkdHoZZehmreN1/CsZ+N17/eW0CWW+Yk1yHtJ19ikaJMdCUUx5wNMUQ==";
+        };
+        _TIgLckzI = {
+            "id" = "TIgLckzI";
+            "file" = "Enchanted Golden Apple Addition 1.20.5-1.20.6.zip";
+            "hash" = "sha512-inl+4RGsId3DB5ZzZnbnYUslGzpA6NtYX2npjM2Km3Iu7OUD3q8w8J30kVIx3vrNoiFeZjvhxIz6DYRzPCG4tg==";
+        };
+        _63NXvieO = {
+            "id" = "63NXvieO";
+            "file" = "enchanted-golden-apple-addition-1.2.jar";
+            "hash" = "sha512-IEsSWmYEz2Dxr9Yr6pgMc9RI/MyrSayiye/Cel8uS29yfGOqid/HoaYd99WWK0cHUp25sYQhvrZjGaMAr3/tAg==";
+        };
+        _sd4J9Vth = {
+            "id" = "sd4J9Vth";
+            "file" = "Enchanted Golden Apple Addition 1.21-1.21.1.zip";
+            "hash" = "sha512-EYSQrUJIo+UAUOBcKVl58jYJhK/9Br2wmo5rOfW0Ic8TOiqo5Hs0HIkz9DAbnvj8a9CUC7yu1IRx3+4pvtX/fg==";
+        };
+        _CS14DWa6 = {
+            "id" = "CS14DWa6";
+            "file" = "enchanted-golden-apple-addition-1.3.jar";
+            "hash" = "sha512-37BdKSaKeW+uRMKdTTiiW2c2PqvyJQIgTswpFJ4Ib8LhF+7dFR/JFpU6q6NrNoNAbHq7KfofLP7/e8vSTc9duQ==";
+        };
+        _a6ZQaXhq = {
+            "id" = "a6ZQaXhq";
+            "file" = "enchanted-golden-apple-addition-1.1.jar";
+            "hash" = "sha512-ir63DVDrhNvpsq/uTkNwza3wLN4uKKcgi3KTrR8qnUkOjEiyxdfP6/U7q3fDwTQHJi4ZALw1X3iP7L8Yi7xY9A==";
+        };
+        _UnHxbNZ5 = {
+            "id" = "UnHxbNZ5";
+            "file" = "enchanted-golden-apple-addition-1.2.jar";
+            "hash" = "sha512-5OBHJEJyvGL5qo83a76Y0Ri0lFgq+p+RjzLN0E94GNccxIxZZWNnDLc66f25qouPn+LswWYiMhluDGtQTtBJPw==";
+        };
+        _eTJ4atsk = {
+            "id" = "eTJ4atsk";
+            "file" = "enchanted-golden-apple-addition-1.3.jar";
+            "hash" = "sha512-WHCifT9FoiKJHJxt/Yf73T8ngcGzrgZpmwu+gZx7kEBOJp0qkU+NGk9IHOmu6o3zI86/xEKawTKafA1vu7vpDg==";
+        };
+        _VB7zprP9 = {
+            "id" = "VB7zprP9";
+            "file" = "Enchanted Golden Apple Addition 1.21.2-1.21.3.zip";
+            "hash" = "sha512-mgQHY2eP5Pwr16TezhBRDYuU0O5VXYoWdu1OEiei5xqCliTwzHXiw/k7p4b09cksM+GXb1wkzMzAH0fq7Go2Pg==";
+        };
+        _hg9yWzFJ = {
+            "id" = "hg9yWzFJ";
+            "file" = "enchanted-golden-apple-addition-1.4.jar";
+            "hash" = "sha512-PAHE0UMfUT5RuRzoi6Iredkttjd4H6Bh+qVAiACAfgx9wbSbgQLholE/HpGYqwDFcUJjzxEM/tqUR2QG7HBJgQ==";
+        };
+        _rccaQhWA = {
+            "id" = "rccaQhWA";
+            "file" = "Enchanted Golden Apple Addition 1.14.1-1.16.5.zip";
+            "hash" = "sha512-OpULcRVFvGW6staJjJPkZ6pjS35k0qKz5EF4W8WurG3A0G2y9gXAZ02PD+T/78IwuprKH82OjRW46R9j5p9XwA==";
+        };
+        _XAmAchaA = {
+            "id" = "XAmAchaA";
+            "file" = "enchanted-golden-apple-addition-2.0.jar";
+            "hash" = "sha512-1IuZTOkpAG1+Dz1NLbDUQwW/KGSXu+Zjg3jFdTp1rXV0mepD4h8PYDZNy+xOqkBQdZy0kBseRr8gnoH3tPtTgg==";
+        };
+        _cldwsO5U = {
+            "id" = "cldwsO5U";
+            "file" = "Enchanted Golden Apple Addition 1.17-1.20.4.zip";
+            "hash" = "sha512-OD27msK7DzJvvG8nnzfTbOzr9Fv4wFhTE3W4y3Y8Lw/GAj8GmDCem266gMwsGHiOBpvG24BRUsqhxX6Zo4CwkA==";
+        };
+        _bLmolfHQ = {
+            "id" = "bLmolfHQ";
+            "file" = "enchanted-golden-apple-addition-2.0.jar";
+            "hash" = "sha512-/NxTg603JUag4a50Hff2gxFPn/yCMenwfr4xOjd0Sm/WdRX0BjR8oyJa8mWnU0AqtxoQ5qCwpN3hO01GRfujxg==";
+        };
+        _6dW0wouj = {
+            "id" = "6dW0wouj";
+            "file" = "Enchanted Golden Apple Addition 1.20.5-1.20.6.zip";
+            "hash" = "sha512-xKVjb+jtJesY1nzpPnJsJyPaT1xjmslgmXCBJLR1LKmV/ixVGSkmhxkiBdN/IYs0JPCBwGV115YyNLsLU+8KGA==";
+        };
+        _AneS1sDF = {
+            "id" = "AneS1sDF";
+            "file" = "enchanted-golden-apple-addition-2.0.jar";
+            "hash" = "sha512-MDuUq0pTfPoARrtPJ2eR7Ukt00ttYQL0iYl5CnSpsB8QiiEK5x3Ddhnq/uVyCpCj8mkpTNVyGhoPqSlXD2GqGw==";
+        };
+        _T1XDQPPS = {
+            "id" = "T1XDQPPS";
+            "file" = "Enchanted Golden Apple Addition 1.21-1.21.1.zip";
+            "hash" = "sha512-ZfzuJ7FNE+3qACRxe49YADf34dG2g+X+RIusVAUPwacV0bsoP/YnSuJbZatmIDi7siMWs05mLLMSrgxPmwSslA==";
+        };
+        _D6m0o7PP = {
+            "id" = "D6m0o7PP";
+            "file" = "enchanted-golden-apple-addition-2.0.jar";
+            "hash" = "sha512-Ly+frzhoX68/oFfKPaad/HPTUcBO4+4n4M4Ujyyl5JtQ/cSK07bmySR1KWfLHPqtxbWhABx8hDyPza4md5PnkQ==";
+        };
+        _3UrJKRIU = {
+            "id" = "3UrJKRIU";
+            "file" = "Enchanted Golden Apple Addition 1.21.2-1.21.4.zip";
+            "hash" = "sha512-oRx+l+c6qn58UdNbaCiM9KdBdE9rEGqnFIuUbX4likfa1sFv1wAYTijU6G5k4GNEn6X1y30eAe02oJO4nwshUA==";
+        };
+        _ehYgrvhN = {
+            "id" = "ehYgrvhN";
+            "file" = "enchanted-golden-apple-addition-2.0.jar";
+            "hash" = "sha512-1I614eMXxMMGHn8QFApAFeCa50V38/F/OYm9n9a9JS1fTVb/6fe/gQCytb9zAsih1JbPtvoRCdOrrY5Cz0EriQ==";
+        };
+        _JMqYRCkL = {
+            "id" = "JMqYRCkL";
+            "file" = "Enchanted Golden Apple Addition 1.21.2-1.21.5.zip";
+            "hash" = "sha512-vMsDA99TeHAMHqCwgsBd3nIUWWSdQO2FZfsk0Hkj0xSC9IhraatWPt+YSb12ZlG3JXuUjo0BXLRqig9l6ev+OA==";
+        };
+        _g2JJV1GQ = {
+            "id" = "g2JJV1GQ";
+            "file" = "enchanted-golden-apple-addition-2.0.jar";
+            "hash" = "sha512-A7lRr/7b60Ixvr/tTzmN0ZGjcnAiz9JMiSr0vU/nsi5TcXdo2KYgCfqRFK8hTiizUCcDUxxFaSDKf0K/rg/Gbg==";
+        };
+        _hMGQgSkR = {
+            "id" = "hMGQgSkR";
+            "file" = "Enchanted Golden Apple Addition 1.21.2-1.21.7.zip";
+            "hash" = "sha512-YVOqNGyeNjmxVulNxvpooRTnlMKJv729ZekaIy0K4qJYg2raZKaSlyJndwsLH/u28l/39wEG+QnKZVmaNhV+OA==";
+        };
+        _D5CHExQZ = {
+            "id" = "D5CHExQZ";
+            "file" = "enchanted-golden-apple-addition-2.1.jar";
+            "hash" = "sha512-5Cizm3pfnr1B6IDmYw6FTbshBuqexWk9SlqB6yClzj5DGxs7rxds2mN6YbxwbmzQSfXnC2Ys36UbiasTZJxotA==";
+        };
+        _t5lUqQQR = {
+            "id" = "t5lUqQQR";
+            "file" = "Enchanted Golden Apple Addition 1.21.2-1.21.9.zip";
+            "hash" = "sha512-CNkbqyB7Ri3UesoyP9nRfJNepSI5BDMS99BV0WA3RBM9hO4tyexGUJ+c2AG6Hb3UpygdXuFgQ4cYn2bWqzWekg==";
+        };
+        _cCAmBIUe = {
+            "id" = "cCAmBIUe";
+            "file" = "enchanted-golden-apple-addition-2.1.jar";
+            "hash" = "sha512-1XvuRs8DxJ3UAOGpyHOz2qjBueh7N1w3ULHyo+uqzbizw8CkbRorPQKAPItz+0q6ArrvPpEA4YH8bgcGffIs5Q==";
+        };
+        _ECWvqtEA = {
+            "id" = "ECWvqtEA";
+            "file" = "Enchanted Golden Apple Addition.zip";
+            "hash" = "sha512-lq06Z0qxMHFdsliDAZwRiW+u9ClwHD8Pi2czqkLqhtCkqml4C8tydzgrX0RtzsHupWv5DuiGWTFRsXVGfIiENQ==";
+        };
+        _tVU05HGD = {
+            "id" = "tVU05HGD";
+            "file" = "enchanted-golden-apple-addition-2.2.jar";
+            "hash" = "sha512-NoOTXkoG8XWFKXL62Pwphktu3b8gcXfcORXH2rCrPBxZAbLx02XLDr/+LijDl6jr4IN0Fyp3vtglhMGwSOQdTg==";
+        };
+        _cDNYYU2B = {
+            "id" = "cDNYYU2B";
+            "file" = "Enchanted-Golden-Apple-Addition.zip";
+            "hash" = "sha512-+E5iWYlbnl6Z6zX6xzz4ppNvCmOXhSTAgSqkx4wCYbWOB2Ub8DhaYahtT5jdW8JMdAg7OSlgRQ4TKvMcNSvIrg==";
+        };
+        _GokliGJ4 = {
+            "id" = "GokliGJ4";
+            "file" = "enchanted-golden-apple-addition-2.3.jar";
+            "hash" = "sha512-Ubu2fFCy+hgADK2Wvkno3fzVBFTxmOuhpdxkiraZ7Tm18XUU3os9XDMwdO+/gK0J5Dmm0CYPfx30x8Kc/1x4lA==";
+        };
+        _ULanFqdu = {
+            "id" = "ULanFqdu";
+            "file" = "Enchanted-Golden-Apple-Addition.zip";
+            "hash" = "sha512-3T4Xbz3eOGIQzomlNN9X4ueyxucLy06K5tiw1sh7yNVY9XQbVBezINfbaujonZQN06A5fxzv/90cfFr3fw/7+g==";
+        };
+        _aZKRvj0E = {
+            "id" = "aZKRvj0E";
+            "file" = "enchanted-golden-apple-addition-2.4.jar";
+            "hash" = "sha512-43ZWoYtcvHPvy079b3ESHhJ8jmxeT4ryNcjjEKOKDroT2929/c6FaTcnxer6kFzmqDmSOiX0s45WDAkHogSRSQ==";
+        };
+    in {
+        "FOY4CdWR" = _FOY4CdWR;
+        "q4TOWkuI" = _q4TOWkuI;
+        "XMXOqXQj" = _XMXOqXQj;
+        "oJgbk9tq" = _oJgbk9tq;
+        "ax2RQm3k" = _ax2RQm3k;
+        "rFIb2NKP" = _rFIb2NKP;
+        "TIgLckzI" = _TIgLckzI;
+        "63NXvieO" = _63NXvieO;
+        "sd4J9Vth" = _sd4J9Vth;
+        "CS14DWa6" = _CS14DWa6;
+        "a6ZQaXhq" = _a6ZQaXhq;
+        "UnHxbNZ5" = _UnHxbNZ5;
+        "eTJ4atsk" = _eTJ4atsk;
+        "VB7zprP9" = _VB7zprP9;
+        "hg9yWzFJ" = _hg9yWzFJ;
+        "rccaQhWA" = _rccaQhWA;
+        "XAmAchaA" = _XAmAchaA;
+        "cldwsO5U" = _cldwsO5U;
+        "bLmolfHQ" = _bLmolfHQ;
+        "6dW0wouj" = _6dW0wouj;
+        "AneS1sDF" = _AneS1sDF;
+        "T1XDQPPS" = _T1XDQPPS;
+        "D6m0o7PP" = _D6m0o7PP;
+        "3UrJKRIU" = _3UrJKRIU;
+        "ehYgrvhN" = _ehYgrvhN;
+        "JMqYRCkL" = _JMqYRCkL;
+        "g2JJV1GQ" = _g2JJV1GQ;
+        "hMGQgSkR" = _hMGQgSkR;
+        "D5CHExQZ" = _D5CHExQZ;
+        "t5lUqQQR" = _t5lUqQQR;
+        "cCAmBIUe" = _cCAmBIUe;
+        "ECWvqtEA" = _ECWvqtEA;
+        "tVU05HGD" = _tVU05HGD;
+        "cDNYYU2B" = _cDNYYU2B;
+        "GokliGJ4" = _GokliGJ4;
+        "ULanFqdu" = _ULanFqdu;
+        "aZKRvj0E" = _aZKRvj0E;
+        "datapack-1.17" = _cldwsO5U;
+        "datapack-1.17.1" = _cldwsO5U;
+        "datapack-1.18" = _cldwsO5U;
+        "datapack-1.18.1" = _cldwsO5U;
+        "datapack-1.18.2" = _cldwsO5U;
+        "datapack-1.19" = _cldwsO5U;
+        "datapack-1.19.1" = _cldwsO5U;
+        "datapack-1.19.2" = _cldwsO5U;
+        "datapack-1.19.3" = _cldwsO5U;
+        "datapack-1.19.4" = _cldwsO5U;
+        "datapack-1.20" = _cldwsO5U;
+        "datapack-1.20.1" = _cldwsO5U;
+        "datapack-1.20.2" = _cldwsO5U;
+        "datapack-1.20.3" = _cldwsO5U;
+        "datapack-1.20.4" = _cldwsO5U;
+        "datapack-1.14.1" = _rccaQhWA;
+        "datapack-1.14.2" = _rccaQhWA;
+        "datapack-1.14.3" = _rccaQhWA;
+        "datapack-1.14.4" = _rccaQhWA;
+        "datapack-1.15" = _rccaQhWA;
+        "datapack-1.15.1" = _rccaQhWA;
+        "datapack-1.15.2" = _rccaQhWA;
+        "datapack-1.16" = _rccaQhWA;
+        "datapack-1.16.1" = _rccaQhWA;
+        "datapack-1.16.2" = _rccaQhWA;
+        "datapack-1.16.3" = _rccaQhWA;
+        "datapack-1.16.4" = _rccaQhWA;
+        "datapack-1.16.5" = _rccaQhWA;
+        "datapack-1.20.5" = _6dW0wouj;
+        "datapack-1.20.6" = _6dW0wouj;
+        "datapack-1.21" = _T1XDQPPS;
+        "datapack-1.21.1" = _T1XDQPPS;
+        "datapack-1.21.2" = _t5lUqQQR;
+        "datapack-1.21.3" = _t5lUqQQR;
+        "datapack-1.21.4" = _t5lUqQQR;
+        "datapack-1.21.5" = _t5lUqQQR;
+        "datapack-1.21.6" = _t5lUqQQR;
+        "datapack-1.21.7" = _t5lUqQQR;
+        "datapack-1.21.8" = _t5lUqQQR;
+        "datapack-1.21.9" = _ULanFqdu;
+        "datapack-1.21.10" = _ULanFqdu;
+        "datapack-1.21.11" = _ULanFqdu;
+        "datapack-26.1" = _ULanFqdu;
+        "datapack-26.1.1" = _ULanFqdu;
+        "datapack-26.1.2" = _ULanFqdu;
+        "datapack-26.2" = _ULanFqdu;
+        "fabric-1.17" = _bLmolfHQ;
+        "fabric-1.17.1" = _bLmolfHQ;
+        "fabric-1.18" = _bLmolfHQ;
+        "fabric-1.18.1" = _bLmolfHQ;
+        "fabric-1.18.2" = _bLmolfHQ;
+        "fabric-1.19" = _bLmolfHQ;
+        "fabric-1.19.1" = _bLmolfHQ;
+        "fabric-1.19.2" = _bLmolfHQ;
+        "fabric-1.19.3" = _bLmolfHQ;
+        "fabric-1.19.4" = _bLmolfHQ;
+        "fabric-1.20" = _bLmolfHQ;
+        "fabric-1.20.1" = _bLmolfHQ;
+        "fabric-1.20.2" = _bLmolfHQ;
+        "fabric-1.20.3" = _bLmolfHQ;
+        "fabric-1.20.4" = _bLmolfHQ;
+        "fabric-1.14.1" = _XAmAchaA;
+        "fabric-1.14.2" = _XAmAchaA;
+        "fabric-1.14.3" = _XAmAchaA;
+        "fabric-1.14.4" = _XAmAchaA;
+        "fabric-1.15" = _XAmAchaA;
+        "fabric-1.15.1" = _XAmAchaA;
+        "fabric-1.15.2" = _XAmAchaA;
+        "fabric-1.16" = _XAmAchaA;
+        "fabric-1.16.1" = _XAmAchaA;
+        "fabric-1.16.2" = _XAmAchaA;
+        "fabric-1.16.3" = _XAmAchaA;
+        "fabric-1.16.4" = _XAmAchaA;
+        "fabric-1.16.5" = _XAmAchaA;
+        "fabric-1.20.5" = _AneS1sDF;
+        "fabric-1.20.6" = _AneS1sDF;
+        "fabric-1.21" = _D6m0o7PP;
+        "fabric-1.21.1" = _D6m0o7PP;
+        "fabric-1.21.2" = _cCAmBIUe;
+        "fabric-1.21.3" = _cCAmBIUe;
+        "fabric-1.21.4" = _cCAmBIUe;
+        "fabric-1.21.5" = _cCAmBIUe;
+        "fabric-1.21.6" = _cCAmBIUe;
+        "fabric-1.21.7" = _cCAmBIUe;
+        "fabric-1.21.8" = _cCAmBIUe;
+        "fabric-1.21.9" = _aZKRvj0E;
+        "fabric-1.21.10" = _aZKRvj0E;
+        "fabric-1.21.11" = _aZKRvj0E;
+        "fabric-26.1" = _aZKRvj0E;
+        "fabric-26.1.1" = _aZKRvj0E;
+        "fabric-26.1.2" = _aZKRvj0E;
+        "fabric-26.2" = _aZKRvj0E;
+        "forge-1.17" = _bLmolfHQ;
+        "forge-1.17.1" = _bLmolfHQ;
+        "forge-1.18" = _bLmolfHQ;
+        "forge-1.18.1" = _bLmolfHQ;
+        "forge-1.18.2" = _bLmolfHQ;
+        "forge-1.19" = _bLmolfHQ;
+        "forge-1.19.1" = _bLmolfHQ;
+        "forge-1.19.2" = _bLmolfHQ;
+        "forge-1.19.3" = _bLmolfHQ;
+        "forge-1.19.4" = _bLmolfHQ;
+        "forge-1.20" = _bLmolfHQ;
+        "forge-1.20.1" = _bLmolfHQ;
+        "forge-1.20.2" = _bLmolfHQ;
+        "forge-1.20.3" = _bLmolfHQ;
+        "forge-1.20.4" = _bLmolfHQ;
+        "forge-1.14.1" = _XAmAchaA;
+        "forge-1.14.2" = _XAmAchaA;
+        "forge-1.14.3" = _XAmAchaA;
+        "forge-1.14.4" = _XAmAchaA;
+        "forge-1.15" = _XAmAchaA;
+        "forge-1.15.1" = _XAmAchaA;
+        "forge-1.15.2" = _XAmAchaA;
+        "forge-1.16" = _XAmAchaA;
+        "forge-1.16.1" = _XAmAchaA;
+        "forge-1.16.2" = _XAmAchaA;
+        "forge-1.16.3" = _XAmAchaA;
+        "forge-1.16.4" = _XAmAchaA;
+        "forge-1.16.5" = _XAmAchaA;
+        "forge-1.20.5" = _AneS1sDF;
+        "forge-1.20.6" = _AneS1sDF;
+        "forge-1.21" = _D6m0o7PP;
+        "forge-1.21.1" = _D6m0o7PP;
+        "forge-1.21.2" = _cCAmBIUe;
+        "forge-1.21.3" = _cCAmBIUe;
+        "forge-1.21.4" = _cCAmBIUe;
+        "forge-1.21.5" = _cCAmBIUe;
+        "forge-1.21.6" = _cCAmBIUe;
+        "forge-1.21.7" = _cCAmBIUe;
+        "forge-1.21.8" = _cCAmBIUe;
+        "forge-1.21.9" = _aZKRvj0E;
+        "forge-1.21.10" = _aZKRvj0E;
+        "forge-1.21.11" = _aZKRvj0E;
+        "forge-26.1" = _aZKRvj0E;
+        "forge-26.1.1" = _aZKRvj0E;
+        "forge-26.1.2" = _aZKRvj0E;
+        "forge-26.2" = _aZKRvj0E;
+        "quilt-1.17" = _bLmolfHQ;
+        "quilt-1.17.1" = _bLmolfHQ;
+        "quilt-1.18" = _bLmolfHQ;
+        "quilt-1.18.1" = _bLmolfHQ;
+        "quilt-1.18.2" = _bLmolfHQ;
+        "quilt-1.19" = _bLmolfHQ;
+        "quilt-1.19.1" = _bLmolfHQ;
+        "quilt-1.19.2" = _bLmolfHQ;
+        "quilt-1.19.3" = _bLmolfHQ;
+        "quilt-1.19.4" = _bLmolfHQ;
+        "quilt-1.20" = _bLmolfHQ;
+        "quilt-1.20.1" = _bLmolfHQ;
+        "quilt-1.20.2" = _bLmolfHQ;
+        "quilt-1.20.3" = _bLmolfHQ;
+        "quilt-1.20.4" = _bLmolfHQ;
+        "quilt-1.14.1" = _XAmAchaA;
+        "quilt-1.14.2" = _XAmAchaA;
+        "quilt-1.14.3" = _XAmAchaA;
+        "quilt-1.14.4" = _XAmAchaA;
+        "quilt-1.15" = _XAmAchaA;
+        "quilt-1.15.1" = _XAmAchaA;
+        "quilt-1.15.2" = _XAmAchaA;
+        "quilt-1.16" = _XAmAchaA;
+        "quilt-1.16.1" = _XAmAchaA;
+        "quilt-1.16.2" = _XAmAchaA;
+        "quilt-1.16.3" = _XAmAchaA;
+        "quilt-1.16.4" = _XAmAchaA;
+        "quilt-1.16.5" = _XAmAchaA;
+        "quilt-1.20.5" = _AneS1sDF;
+        "quilt-1.20.6" = _AneS1sDF;
+        "quilt-1.21" = _D6m0o7PP;
+        "quilt-1.21.1" = _D6m0o7PP;
+        "quilt-1.21.2" = _cCAmBIUe;
+        "quilt-1.21.3" = _cCAmBIUe;
+        "quilt-1.21.4" = _cCAmBIUe;
+        "quilt-1.21.5" = _cCAmBIUe;
+        "quilt-1.21.6" = _cCAmBIUe;
+        "quilt-1.21.7" = _cCAmBIUe;
+        "quilt-1.21.8" = _cCAmBIUe;
+        "quilt-1.21.9" = _aZKRvj0E;
+        "quilt-1.21.10" = _aZKRvj0E;
+        "quilt-1.21.11" = _aZKRvj0E;
+        "quilt-26.1" = _aZKRvj0E;
+        "quilt-26.1.1" = _aZKRvj0E;
+        "quilt-26.1.2" = _aZKRvj0E;
+        "quilt-26.2" = _aZKRvj0E;
+        "neoforge-1.17" = _bLmolfHQ;
+        "neoforge-1.17.1" = _bLmolfHQ;
+        "neoforge-1.18" = _bLmolfHQ;
+        "neoforge-1.18.1" = _bLmolfHQ;
+        "neoforge-1.18.2" = _bLmolfHQ;
+        "neoforge-1.19" = _bLmolfHQ;
+        "neoforge-1.19.1" = _bLmolfHQ;
+        "neoforge-1.19.2" = _bLmolfHQ;
+        "neoforge-1.19.3" = _bLmolfHQ;
+        "neoforge-1.19.4" = _bLmolfHQ;
+        "neoforge-1.20" = _bLmolfHQ;
+        "neoforge-1.20.1" = _bLmolfHQ;
+        "neoforge-1.20.2" = _bLmolfHQ;
+        "neoforge-1.20.3" = _bLmolfHQ;
+        "neoforge-1.20.4" = _bLmolfHQ;
+        "neoforge-1.20.5" = _AneS1sDF;
+        "neoforge-1.20.6" = _AneS1sDF;
+        "neoforge-1.21" = _D6m0o7PP;
+        "neoforge-1.21.1" = _D6m0o7PP;
+        "neoforge-1.21.2" = _cCAmBIUe;
+        "neoforge-1.21.3" = _cCAmBIUe;
+        "neoforge-1.14.1" = _XAmAchaA;
+        "neoforge-1.14.2" = _XAmAchaA;
+        "neoforge-1.14.3" = _XAmAchaA;
+        "neoforge-1.14.4" = _XAmAchaA;
+        "neoforge-1.15" = _XAmAchaA;
+        "neoforge-1.15.1" = _XAmAchaA;
+        "neoforge-1.15.2" = _XAmAchaA;
+        "neoforge-1.16" = _XAmAchaA;
+        "neoforge-1.16.1" = _XAmAchaA;
+        "neoforge-1.16.2" = _XAmAchaA;
+        "neoforge-1.16.3" = _XAmAchaA;
+        "neoforge-1.16.4" = _XAmAchaA;
+        "neoforge-1.16.5" = _XAmAchaA;
+        "neoforge-1.21.4" = _cCAmBIUe;
+        "neoforge-1.21.5" = _cCAmBIUe;
+        "neoforge-1.21.6" = _cCAmBIUe;
+        "neoforge-1.21.7" = _cCAmBIUe;
+        "neoforge-1.21.8" = _cCAmBIUe;
+        "neoforge-1.21.9" = _aZKRvj0E;
+        "neoforge-1.21.10" = _aZKRvj0E;
+        "neoforge-1.21.11" = _aZKRvj0E;
+        "neoforge-26.1" = _aZKRvj0E;
+        "neoforge-26.1.1" = _aZKRvj0E;
+        "neoforge-26.1.2" = _aZKRvj0E;
+        "neoforge-26.2" = _aZKRvj0E;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "enchanted-golden-apple-addition";
+            id = "V2kNw0dS";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="aZKRvj0E";}

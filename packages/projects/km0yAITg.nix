@@ -1,0 +1,244 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _O1jGLsPi = {
+            "id" = "O1jGLsPi";
+            "file" = "TubsStatusPlugin-1.0.jar";
+            "hash" = "sha512-DhuNcN/B8pOVcCWLV4lJ6aFUTda1N6RBzn6opS9U4hjFtrnjNVF+iLRgm0BjGjLJZQfGUkkViQ/NznN/+1SXmA==";
+        };
+        _7KUpGLhk = {
+            "id" = "7KUpGLhk";
+            "file" = "TubsStatusPlugin-v1.1.jar";
+            "hash" = "sha512-slIXF/u01sSkUasWmMdzLuDaAQA+OY8Vc8qZ60XKKcsjNJG4ut4NudmUa2CTXYe+vRZUUkhiJVol04axMP228Q==";
+        };
+        _8QcAVSNg = {
+            "id" = "8QcAVSNg";
+            "file" = "TubsStatusPlugin-v1.2.jar";
+            "hash" = "sha512-gIUMi27sR5gQKVc/fs5895oWUBmufu4QPvG90Qflv+bAI+6wFQBu2AborWUKq50tLr6pboJS8p2g1ggLyvsKKg==";
+        };
+        _Gx5hXlHx = {
+            "id" = "Gx5hXlHx";
+            "file" = "TubsStatusPlugin-v1.3.jar";
+            "hash" = "sha512-Yc6eAoo89tezMnq2oZeAKe4yx1khW6jr/wvnQ64T/houcouXUETH6lGVpNADxaGNceWdmMIFLDeYt7B6vgelHA==";
+        };
+        _sa10ktZK = {
+            "id" = "sa10ktZK";
+            "file" = "TubsStatusPlugin-v1.3.1.jar";
+            "hash" = "sha512-w3xFCb+mF3PLY+XTnepeGjQDrKPrhQWD+n18jXLKph+HuWoDdg4n4Yj+v6tLzGIJrR3l5ohwCEdB9HER02z5Ag==";
+        };
+        _zJRw9OeQ = {
+            "id" = "zJRw9OeQ";
+            "file" = "TubsStatusPlugin-v1.3.2.jar";
+            "hash" = "sha512-GepB/8eYgrYvPEhAbg/2xt7QCGOeBQy+XhaeKTa2uc7LNNmGDovKvahtBHqSC1kUBfWtGpl/l91QscPl0fqeKg==";
+        };
+        _EFAa0cA2 = {
+            "id" = "EFAa0cA2";
+            "file" = "TubsStatusPlugin-v1.3.3.jar";
+            "hash" = "sha512-NmQaCQBL3o/UJokP9mH79Cez2082bZQHFd+Vrhgw7XDzlJpa8HB+1KF8/bDWL6M1yt7SsohEKgCaQ983woMf7g==";
+        };
+        _8i0fOzoC = {
+            "id" = "8i0fOzoC";
+            "file" = "TubsStatusPlugin-v1.3.4.jar";
+            "hash" = "sha512-zEKlTSMDshZXCPGU0gl5Fm2XReLQMqH5E7at9gzKliaCFkUtm+iyUw1k/FVEIllTQ7Ky+GGFNRxCBquZZ2azMg==";
+        };
+        _1hV3tTQe = {
+            "id" = "1hV3tTQe";
+            "file" = "TubsStatusPlugin-v1.3.5.jar";
+            "hash" = "sha512-ZV4VdbNjj9qHKSdM5dkyJ/dr9OLM9lH/dcNfQlSyMicl1ebNiGVns2847++Br+rzl+SPE3eS+KvqLZV/aidV+w==";
+        };
+        _tL2zYxiz = {
+            "id" = "tL2zYxiz";
+            "file" = "TubsStatusPlugin-v1.4.jar";
+            "hash" = "sha512-Wfvg0ncfLWsF6j1WvmnGd/16Sn6kj5/yLG9QEuS5frewsq+xV7BYvc/wAJHKdapy5eIHsBU8XqXdY08XCAwbkA==";
+        };
+        _3TIFrcX8 = {
+            "id" = "3TIFrcX8";
+            "file" = "TubsStatusPlugin-v1.4.1.jar";
+            "hash" = "sha512-f0FIYgXT2jFIg4zYIooIb2+EAh/6Ro0IuWkZKA85DRP/ncXwjN5r6zgPw9/+uKUC561te2EeqkDCIQZXWOAjMA==";
+        };
+        _u5sqb5oe = {
+            "id" = "u5sqb5oe";
+            "file" = "TubsStatusPlugin-v1.5.jar";
+            "hash" = "sha512-PZ6bJrwaZEe4qAScW0MG3uG/R8pxhUIAsQQrKqyXqEr0X0On07mh9j5QaSyWPWFpuVk1LR/xtETgykMsG+xL6Q==";
+        };
+        _U4msRf6p = {
+            "id" = "U4msRf6p";
+            "file" = "TubsStatusPlugin-v1.5.1.jar";
+            "hash" = "sha512-aWS+URxV5UV+3wXF+c+LHExPTMxtKXr7qS0f1pnrxT7vJyj9uvoPFOH6drAHdIfh+koLOdzs7PfZa/4ZI9ddQw==";
+        };
+        _qKigs6YC = {
+            "id" = "qKigs6YC";
+            "file" = "TubsStatusPlugin-v1.5.2.jar";
+            "hash" = "sha512-0z1kzqC2JstaBlTg1+Fyhd15xtV9cC9sbuaYGhRnXWCEcyo09EeZ40sTRykINYDqH0u5/uGp2x6xOkBvOXq2+Q==";
+        };
+        _OU1MuceC = {
+            "id" = "OU1MuceC";
+            "file" = "TubsStatusPlugin-v1.6.jar";
+            "hash" = "sha512-b0RtK0bvz9MhZOwL4DxW79gAAMFB+O//auhU2Qi6otXXE//Xle2H6XNW2o2MdWI3RhHHBNxCK4hc8oLdTpYhjw==";
+        };
+    in {
+        "O1jGLsPi" = _O1jGLsPi;
+        "7KUpGLhk" = _7KUpGLhk;
+        "8QcAVSNg" = _8QcAVSNg;
+        "Gx5hXlHx" = _Gx5hXlHx;
+        "sa10ktZK" = _sa10ktZK;
+        "zJRw9OeQ" = _zJRw9OeQ;
+        "EFAa0cA2" = _EFAa0cA2;
+        "8i0fOzoC" = _8i0fOzoC;
+        "1hV3tTQe" = _1hV3tTQe;
+        "tL2zYxiz" = _tL2zYxiz;
+        "3TIFrcX8" = _3TIFrcX8;
+        "u5sqb5oe" = _u5sqb5oe;
+        "U4msRf6p" = _U4msRf6p;
+        "qKigs6YC" = _qKigs6YC;
+        "OU1MuceC" = _OU1MuceC;
+        "paper-1.20.1" = _OU1MuceC;
+        "paper-1.13" = _OU1MuceC;
+        "paper-1.13.1" = _OU1MuceC;
+        "paper-1.13.2" = _OU1MuceC;
+        "paper-1.14" = _OU1MuceC;
+        "paper-1.14.1" = _OU1MuceC;
+        "paper-1.14.2" = _OU1MuceC;
+        "paper-1.14.3" = _OU1MuceC;
+        "paper-1.14.4" = _OU1MuceC;
+        "paper-1.15" = _OU1MuceC;
+        "paper-1.15.1" = _OU1MuceC;
+        "paper-1.15.2" = _OU1MuceC;
+        "paper-1.16" = _OU1MuceC;
+        "paper-1.16.1" = _OU1MuceC;
+        "paper-1.16.2" = _OU1MuceC;
+        "paper-1.16.3" = _OU1MuceC;
+        "paper-1.16.4" = _OU1MuceC;
+        "paper-1.16.5" = _OU1MuceC;
+        "paper-1.17" = _OU1MuceC;
+        "paper-1.17.1" = _OU1MuceC;
+        "paper-1.18" = _OU1MuceC;
+        "paper-1.18.1" = _OU1MuceC;
+        "paper-1.18.2" = _OU1MuceC;
+        "paper-1.19" = _OU1MuceC;
+        "paper-1.19.1" = _OU1MuceC;
+        "paper-1.19.2" = _OU1MuceC;
+        "paper-1.19.3" = _OU1MuceC;
+        "paper-1.19.4" = _OU1MuceC;
+        "paper-1.20" = _OU1MuceC;
+        "paper-1.20.2" = _OU1MuceC;
+        "paper-1.20.3" = _OU1MuceC;
+        "paper-1.20.4" = _OU1MuceC;
+        "paper-1.20.5" = _OU1MuceC;
+        "paper-1.20.6" = _OU1MuceC;
+        "paper-1.21" = _OU1MuceC;
+        "paper-1.21.1" = _OU1MuceC;
+        "paper-1.21.2" = _OU1MuceC;
+        "paper-1.21.3" = _OU1MuceC;
+        "paper-1.21.4" = _OU1MuceC;
+        "paper-1.21.5" = _OU1MuceC;
+        "paper-1.21.6" = _OU1MuceC;
+        "paper-1.21.7" = _OU1MuceC;
+        "paper-1.21.8" = _OU1MuceC;
+        "spigot-1.13" = _OU1MuceC;
+        "spigot-1.13.1" = _OU1MuceC;
+        "spigot-1.13.2" = _OU1MuceC;
+        "spigot-1.14" = _OU1MuceC;
+        "spigot-1.14.1" = _OU1MuceC;
+        "spigot-1.14.2" = _OU1MuceC;
+        "spigot-1.14.3" = _OU1MuceC;
+        "spigot-1.14.4" = _OU1MuceC;
+        "spigot-1.15" = _OU1MuceC;
+        "spigot-1.15.1" = _OU1MuceC;
+        "spigot-1.15.2" = _OU1MuceC;
+        "spigot-1.16" = _OU1MuceC;
+        "spigot-1.16.1" = _OU1MuceC;
+        "spigot-1.16.2" = _OU1MuceC;
+        "spigot-1.16.3" = _OU1MuceC;
+        "spigot-1.16.4" = _OU1MuceC;
+        "spigot-1.16.5" = _OU1MuceC;
+        "spigot-1.17" = _OU1MuceC;
+        "spigot-1.17.1" = _OU1MuceC;
+        "spigot-1.18" = _OU1MuceC;
+        "spigot-1.18.1" = _OU1MuceC;
+        "spigot-1.18.2" = _OU1MuceC;
+        "spigot-1.19" = _OU1MuceC;
+        "spigot-1.19.1" = _OU1MuceC;
+        "spigot-1.19.2" = _OU1MuceC;
+        "spigot-1.19.3" = _OU1MuceC;
+        "spigot-1.19.4" = _OU1MuceC;
+        "spigot-1.20" = _OU1MuceC;
+        "spigot-1.20.1" = _OU1MuceC;
+        "spigot-1.20.2" = _OU1MuceC;
+        "spigot-1.20.3" = _OU1MuceC;
+        "spigot-1.20.4" = _OU1MuceC;
+        "spigot-1.20.5" = _OU1MuceC;
+        "spigot-1.20.6" = _OU1MuceC;
+        "spigot-1.21" = _OU1MuceC;
+        "spigot-1.21.1" = _OU1MuceC;
+        "spigot-1.21.2" = _OU1MuceC;
+        "spigot-1.21.3" = _OU1MuceC;
+        "spigot-1.21.4" = _OU1MuceC;
+        "spigot-1.21.5" = _OU1MuceC;
+        "spigot-1.21.6" = _OU1MuceC;
+        "spigot-1.21.7" = _OU1MuceC;
+        "spigot-1.21.8" = _OU1MuceC;
+        "purpur-1.13" = _OU1MuceC;
+        "purpur-1.13.1" = _OU1MuceC;
+        "purpur-1.13.2" = _OU1MuceC;
+        "purpur-1.14" = _OU1MuceC;
+        "purpur-1.14.1" = _OU1MuceC;
+        "purpur-1.14.2" = _OU1MuceC;
+        "purpur-1.14.3" = _OU1MuceC;
+        "purpur-1.14.4" = _OU1MuceC;
+        "purpur-1.15" = _OU1MuceC;
+        "purpur-1.15.1" = _OU1MuceC;
+        "purpur-1.15.2" = _OU1MuceC;
+        "purpur-1.16" = _OU1MuceC;
+        "purpur-1.16.1" = _OU1MuceC;
+        "purpur-1.16.2" = _OU1MuceC;
+        "purpur-1.16.3" = _OU1MuceC;
+        "purpur-1.16.4" = _OU1MuceC;
+        "purpur-1.16.5" = _OU1MuceC;
+        "purpur-1.17" = _OU1MuceC;
+        "purpur-1.17.1" = _OU1MuceC;
+        "purpur-1.18" = _OU1MuceC;
+        "purpur-1.18.1" = _OU1MuceC;
+        "purpur-1.18.2" = _OU1MuceC;
+        "purpur-1.19" = _OU1MuceC;
+        "purpur-1.19.1" = _OU1MuceC;
+        "purpur-1.19.2" = _OU1MuceC;
+        "purpur-1.19.3" = _OU1MuceC;
+        "purpur-1.19.4" = _OU1MuceC;
+        "purpur-1.20" = _OU1MuceC;
+        "purpur-1.20.1" = _OU1MuceC;
+        "purpur-1.20.2" = _OU1MuceC;
+        "purpur-1.20.3" = _OU1MuceC;
+        "purpur-1.20.4" = _OU1MuceC;
+        "purpur-1.20.5" = _OU1MuceC;
+        "purpur-1.20.6" = _OU1MuceC;
+        "purpur-1.21" = _OU1MuceC;
+        "purpur-1.21.1" = _OU1MuceC;
+        "purpur-1.21.2" = _OU1MuceC;
+        "purpur-1.21.3" = _OU1MuceC;
+        "purpur-1.21.4" = _OU1MuceC;
+        "purpur-1.21.5" = _OU1MuceC;
+        "purpur-1.21.6" = _OU1MuceC;
+        "purpur-1.21.7" = _OU1MuceC;
+        "purpur-1.21.8" = _OU1MuceC;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "tubs-status-plugin";
+            id = "km0yAITg";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/TubYoub/StatusPlugin/blob/master/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="OU1MuceC";}

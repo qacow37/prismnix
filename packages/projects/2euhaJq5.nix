@@ -1,0 +1,281 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _iHcYeYxe = {
+            "id" = "iHcYeYxe";
+            "file" = "TrueLightFX Lite V3.1.zip";
+            "hash" = "sha512-6GZLh6TArBCYcflYE/aXYMlgWeUYvk0SAccwrgspRtqf7VzkFFCVtcyRl/ERu4SHwim9xAf1pi9txV3yNVXCWA==";
+        };
+        _UCwWTGtv = {
+            "id" = "UCwWTGtv";
+            "file" = "TrueLightFX Lite V4.zip";
+            "hash" = "sha512-2PvipzhGLiVCYjBOV6b+3SToIUbFiygoudAOsS2fngJ10x7UUMuiIENWgxUNEf65BQ9eWMVCX3vpzA2VRcGCkA==";
+        };
+        _9WGfPOXb = {
+            "id" = "9WGfPOXb";
+            "file" = "TrueLightFX Lite V4.1.zip";
+            "hash" = "sha512-riu7oRrlWfW7vT4Fb4v+90hLfBr3DfQsm4XFJ0CsdpIsYKdmH/qK0AZx4d/Rf/jkwqBtRwHWxCxHDQz9ra2I9g==";
+        };
+        _Wy32CeZB = {
+            "id" = "Wy32CeZB";
+            "file" = "TrueLightFX Lite V5.zip";
+            "hash" = "sha512-FWWfhaOaZq3o3ROfZ1tO3e7wBDsdo2btCIQ+CwcHr1o1wB3DGt/FXV0YDkoayyoGXbuQe/+PoW8KfrtVNcCWTQ==";
+        };
+        _6Qe7me4u = {
+            "id" = "6Qe7me4u";
+            "file" = "TrueLightFX Lite V5.1.zip";
+            "hash" = "sha512-2JKQEON0CsgUxHY8ClhwCsemhVo5x0nNiJcRfvLqqJFUK9fUs4m1WpLNORNQNDYRFnq4q+qwc+gTmX9mD2ks8g==";
+        };
+        _U8CTbMVY = {
+            "id" = "U8CTbMVY";
+            "file" = "TrueLightFX Lite v5.2.zip";
+            "hash" = "sha512-d/9rzjc51HKvf59LrTOiNJ5O2oXghnEkVf/2Fv/eAIlzwPo7sG5sbLqHygTqk4ByL6QYTVsOpHOtfL7Is+2yTw==";
+        };
+        _3WRxXl8U = {
+            "id" = "3WRxXl8U";
+            "file" = "TrueLightFX Lite v5.2.1.zip";
+            "hash" = "sha512-hiUEncOCjFKyzsSs+9ZXfllASAU9HpTy7PfRWKYSAvLODIoXZYtj6lrRzJvwVZBOK3ohfcBqnOblXNt/3ATEcQ==";
+        };
+        _poHiSDg6 = {
+            "id" = "poHiSDg6";
+            "file" = "TrueLightFX Lite v5.3.zip";
+            "hash" = "sha512-X8bJ6FSgDBpWPymu2OLp8BwDSLqCuFcgfitZR7p7QWk77yTtQYGDg9e+ljH1RCecgiDQg7nO3Jd2ZGW7IkeIPA==";
+        };
+        _1pQcsesM = {
+            "id" = "1pQcsesM";
+            "file" = "TrueLightFX Lite v5.3.1.zip";
+            "hash" = "sha512-0yWMWu6/n8Bxn6mr4utpY8s7t/DhTkIBLBQlQBe3Hs6kACdVEx78pq4+5FhT5MfBHv2N8Ll/EJ6xqUgxoU2+YQ==";
+        };
+        _ZFdkplVd = {
+            "id" = "ZFdkplVd";
+            "file" = "TrueLightFX Lite v5.3.2.zip";
+            "hash" = "sha512-qnHndC7xSQEIu9TZzvGcOoFXlouu1pIZ9LZyq3O5SkOiWdWLmiHHDaYZGtGgKhGOqiageUYNzivGlvaDk81few==";
+        };
+        _RcoXOD4D = {
+            "id" = "RcoXOD4D";
+            "file" = "TrueLightFX Lite v5.4.zip";
+            "hash" = "sha512-AbFr1yliI6mo5RBK+i2LK3VuSi8uZBzm+eTpGpVAMbOhd4Arf6epCHmKQfA0XP2fgB6tLR9NKdgCHrEuZ4o+2A==";
+        };
+        _dBZTEDNB = {
+            "id" = "dBZTEDNB";
+            "file" = "TrueLightFX Lite v5.5.zip";
+            "hash" = "sha512-nrZsSqheGonxK4GgLptLFezQYhJ0qc+zsiepwAT/AkSwxpg3g3ywiwA2FfQWAUWlNGAnRfLN5VKHVC/WjQjX0w==";
+        };
+        _KojzuRnu = {
+            "id" = "KojzuRnu";
+            "file" = "TrueLightFX Lite v5.5.1.zip";
+            "hash" = "sha512-lOLmQosQtURcafIs/9tRW8DTjDy7mrnPgre3OoKDYElsY2dkynkaw/LnHZ3LhYk5xyYxFoc/JHdQrUEVSEjoBQ==";
+        };
+        _uEQMLVn4 = {
+            "id" = "uEQMLVn4";
+            "file" = "TrueLightFX Lite v5.5.2.zip";
+            "hash" = "sha512-bSt9t8O4Z1ueksn/b7JcY2fkh2nan1hdM5cyJGnc/fSMd/5c6TMQkiJezU82pKaxgWDLn6d+44Ebf0FN2IMiYg==";
+        };
+        _N1AYmHQ1 = {
+            "id" = "N1AYmHQ1";
+            "file" = "TrueLightFX Lite v5.5.3.zip";
+            "hash" = "sha512-MahNcP1cV44uhz8gHTgfZ9qWgHi+q0swlx0rWMXC90cM3OdqkLF8IUGU/c4BwzxiKKRmcb+n999VlAYk9cuqUw==";
+        };
+        _SgPjku21 = {
+            "id" = "SgPjku21";
+            "file" = "TrueLightFX Lite v5.6.zip";
+            "hash" = "sha512-l5YacGgLXqLwsNMNPrAwZsOKt8VWGHCVaFwQso8nbaNLt6tlZxZbSWqt7UKSlujLcB2WI6JWS+bQfI1g45uZDw==";
+        };
+        _a4m5SAPT = {
+            "id" = "a4m5SAPT";
+            "file" = "TrueLightFX Lite v5.6.1.zip";
+            "hash" = "sha512-zOEzndy876CQjB0YWuMJdRenAsihc7DEoPcaUH0lzdkAqdrhg8rymhDvlUBSVxer3mJh9oprBQRPwVC7wdD0aw==";
+        };
+        _x7JPgjYg = {
+            "id" = "x7JPgjYg";
+            "file" = "TrueLightFX Lite v5.6.2.zip";
+            "hash" = "sha512-nnkifm+d/WVyyBSLAb4I99AHib8Mu9rh2Ti21nIMuCuYdMe175SB9EgtUTX2yvovRmwCXLOFUd7cxOiVaRwoSg==";
+        };
+    in {
+        "iHcYeYxe" = _iHcYeYxe;
+        "UCwWTGtv" = _UCwWTGtv;
+        "9WGfPOXb" = _9WGfPOXb;
+        "Wy32CeZB" = _Wy32CeZB;
+        "6Qe7me4u" = _6Qe7me4u;
+        "U8CTbMVY" = _U8CTbMVY;
+        "3WRxXl8U" = _3WRxXl8U;
+        "poHiSDg6" = _poHiSDg6;
+        "1pQcsesM" = _1pQcsesM;
+        "ZFdkplVd" = _ZFdkplVd;
+        "RcoXOD4D" = _RcoXOD4D;
+        "dBZTEDNB" = _dBZTEDNB;
+        "KojzuRnu" = _KojzuRnu;
+        "uEQMLVn4" = _uEQMLVn4;
+        "N1AYmHQ1" = _N1AYmHQ1;
+        "SgPjku21" = _SgPjku21;
+        "a4m5SAPT" = _a4m5SAPT;
+        "x7JPgjYg" = _x7JPgjYg;
+        "iris-1.8.2" = _x7JPgjYg;
+        "iris-1.8.3" = _x7JPgjYg;
+        "iris-1.8.4" = _x7JPgjYg;
+        "iris-1.8.5" = _x7JPgjYg;
+        "iris-1.8.6" = _x7JPgjYg;
+        "iris-1.8.7" = _x7JPgjYg;
+        "iris-1.8.8" = _x7JPgjYg;
+        "iris-1.8.9" = _x7JPgjYg;
+        "iris-1.9" = _x7JPgjYg;
+        "iris-1.9.1" = _x7JPgjYg;
+        "iris-1.9.2" = _x7JPgjYg;
+        "iris-1.9.3" = _x7JPgjYg;
+        "iris-1.9.4" = _x7JPgjYg;
+        "iris-1.10" = _x7JPgjYg;
+        "iris-1.10.1" = _x7JPgjYg;
+        "iris-1.10.2" = _x7JPgjYg;
+        "iris-1.11" = _x7JPgjYg;
+        "iris-1.11.1" = _x7JPgjYg;
+        "iris-1.11.2" = _x7JPgjYg;
+        "iris-1.12" = _x7JPgjYg;
+        "iris-1.12.1" = _x7JPgjYg;
+        "iris-1.12.2" = _x7JPgjYg;
+        "iris-1.13" = _x7JPgjYg;
+        "iris-1.13.1" = _x7JPgjYg;
+        "iris-1.13.2" = _x7JPgjYg;
+        "iris-1.14" = _x7JPgjYg;
+        "iris-1.14.1" = _x7JPgjYg;
+        "iris-1.14.2" = _x7JPgjYg;
+        "iris-1.14.3" = _x7JPgjYg;
+        "iris-1.14.4" = _x7JPgjYg;
+        "iris-1.15" = _x7JPgjYg;
+        "iris-1.15.1" = _x7JPgjYg;
+        "iris-1.15.2" = _x7JPgjYg;
+        "iris-1.16" = _x7JPgjYg;
+        "iris-1.16.1" = _x7JPgjYg;
+        "iris-1.16.2" = _x7JPgjYg;
+        "iris-1.16.3" = _x7JPgjYg;
+        "iris-1.16.4" = _x7JPgjYg;
+        "iris-1.16.5" = _x7JPgjYg;
+        "iris-1.17" = _x7JPgjYg;
+        "iris-1.17.1" = _x7JPgjYg;
+        "iris-1.18" = _x7JPgjYg;
+        "iris-1.18.1" = _x7JPgjYg;
+        "iris-1.18.2" = _x7JPgjYg;
+        "iris-1.19" = _x7JPgjYg;
+        "iris-1.19.1" = _x7JPgjYg;
+        "iris-1.19.2" = _x7JPgjYg;
+        "iris-1.19.3" = _x7JPgjYg;
+        "iris-1.19.4" = _x7JPgjYg;
+        "iris-1.20" = _x7JPgjYg;
+        "iris-1.20.1" = _x7JPgjYg;
+        "iris-1.20.2" = _x7JPgjYg;
+        "iris-1.20.3" = _x7JPgjYg;
+        "iris-1.20.4" = _x7JPgjYg;
+        "iris-1.20.5" = _x7JPgjYg;
+        "iris-1.20.6" = _x7JPgjYg;
+        "iris-1.21" = _x7JPgjYg;
+        "iris-1.21.1" = _x7JPgjYg;
+        "iris-1.21.2" = _x7JPgjYg;
+        "iris-1.21.3" = _x7JPgjYg;
+        "iris-1.21.4" = _x7JPgjYg;
+        "iris-1.21.5" = _x7JPgjYg;
+        "iris-1.21.6" = _x7JPgjYg;
+        "iris-1.21.7" = _x7JPgjYg;
+        "iris-1.21.8" = _x7JPgjYg;
+        "iris-1.21.9" = _x7JPgjYg;
+        "iris-1.21.10" = _x7JPgjYg;
+        "iris-1.21.11" = _x7JPgjYg;
+        "iris-26.1" = _x7JPgjYg;
+        "iris-26.1.1" = _x7JPgjYg;
+        "iris-26.1.2" = _x7JPgjYg;
+        "iris-1.8" = _RcoXOD4D;
+        "iris-1.8.1" = _RcoXOD4D;
+        "iris-26.2" = _x7JPgjYg;
+        "optifine-1.8.2" = _x7JPgjYg;
+        "optifine-1.8.3" = _x7JPgjYg;
+        "optifine-1.8.4" = _x7JPgjYg;
+        "optifine-1.8.5" = _x7JPgjYg;
+        "optifine-1.8.6" = _x7JPgjYg;
+        "optifine-1.8.7" = _x7JPgjYg;
+        "optifine-1.8.8" = _x7JPgjYg;
+        "optifine-1.8.9" = _x7JPgjYg;
+        "optifine-1.9" = _x7JPgjYg;
+        "optifine-1.9.1" = _x7JPgjYg;
+        "optifine-1.9.2" = _x7JPgjYg;
+        "optifine-1.9.3" = _x7JPgjYg;
+        "optifine-1.9.4" = _x7JPgjYg;
+        "optifine-1.10" = _x7JPgjYg;
+        "optifine-1.10.1" = _x7JPgjYg;
+        "optifine-1.10.2" = _x7JPgjYg;
+        "optifine-1.11" = _x7JPgjYg;
+        "optifine-1.11.1" = _x7JPgjYg;
+        "optifine-1.11.2" = _x7JPgjYg;
+        "optifine-1.12" = _x7JPgjYg;
+        "optifine-1.12.1" = _x7JPgjYg;
+        "optifine-1.12.2" = _x7JPgjYg;
+        "optifine-1.13" = _x7JPgjYg;
+        "optifine-1.13.1" = _x7JPgjYg;
+        "optifine-1.13.2" = _x7JPgjYg;
+        "optifine-1.14" = _x7JPgjYg;
+        "optifine-1.14.1" = _x7JPgjYg;
+        "optifine-1.14.2" = _x7JPgjYg;
+        "optifine-1.14.3" = _x7JPgjYg;
+        "optifine-1.14.4" = _x7JPgjYg;
+        "optifine-1.15" = _x7JPgjYg;
+        "optifine-1.15.1" = _x7JPgjYg;
+        "optifine-1.15.2" = _x7JPgjYg;
+        "optifine-1.16" = _x7JPgjYg;
+        "optifine-1.16.1" = _x7JPgjYg;
+        "optifine-1.16.2" = _x7JPgjYg;
+        "optifine-1.16.3" = _x7JPgjYg;
+        "optifine-1.16.4" = _x7JPgjYg;
+        "optifine-1.16.5" = _x7JPgjYg;
+        "optifine-1.17" = _x7JPgjYg;
+        "optifine-1.17.1" = _x7JPgjYg;
+        "optifine-1.18" = _x7JPgjYg;
+        "optifine-1.18.1" = _x7JPgjYg;
+        "optifine-1.18.2" = _x7JPgjYg;
+        "optifine-1.19" = _x7JPgjYg;
+        "optifine-1.19.1" = _x7JPgjYg;
+        "optifine-1.19.2" = _x7JPgjYg;
+        "optifine-1.19.3" = _x7JPgjYg;
+        "optifine-1.19.4" = _x7JPgjYg;
+        "optifine-1.20" = _x7JPgjYg;
+        "optifine-1.20.1" = _x7JPgjYg;
+        "optifine-1.20.2" = _x7JPgjYg;
+        "optifine-1.20.3" = _x7JPgjYg;
+        "optifine-1.20.4" = _x7JPgjYg;
+        "optifine-1.20.5" = _x7JPgjYg;
+        "optifine-1.20.6" = _x7JPgjYg;
+        "optifine-1.21" = _x7JPgjYg;
+        "optifine-1.21.1" = _x7JPgjYg;
+        "optifine-1.21.2" = _x7JPgjYg;
+        "optifine-1.21.3" = _x7JPgjYg;
+        "optifine-1.21.4" = _x7JPgjYg;
+        "optifine-1.21.5" = _x7JPgjYg;
+        "optifine-1.21.6" = _x7JPgjYg;
+        "optifine-1.21.7" = _x7JPgjYg;
+        "optifine-1.21.8" = _x7JPgjYg;
+        "optifine-1.21.9" = _x7JPgjYg;
+        "optifine-1.21.10" = _x7JPgjYg;
+        "optifine-1.21.11" = _x7JPgjYg;
+        "optifine-26.1" = _x7JPgjYg;
+        "optifine-26.1.1" = _x7JPgjYg;
+        "optifine-26.1.2" = _x7JPgjYg;
+        "optifine-1.8" = _RcoXOD4D;
+        "optifine-1.8.1" = _RcoXOD4D;
+        "optifine-26.2" = _x7JPgjYg;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "truelight-fx-lite";
+            id = "2euhaJq5";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/OGCRAFTNET/TrueLightFX-Lite/blob/main/LICENSE.md";
+                };
+            };
+        };
+in callPackage fn {version="x7JPgjYg";}

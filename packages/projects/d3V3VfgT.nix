@@ -1,0 +1,137 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _364ulgmy = {
+            "id" = "364ulgmy";
+            "file" = "Silk Touch Dirt Path.zip";
+            "hash" = "sha512-aRCFepEfkClKgwJqrUenrfWFveoKATRudJGhwLR6eZM5V0wA+sSTVrtUrr1/zYmBankeLSFp+ACnfdIwhSZC8Q==";
+        };
+        _lxQrGqgq = {
+            "id" = "lxQrGqgq";
+            "file" = "silk-touch-dirt-path-1.0.0.jar";
+            "hash" = "sha512-xDBzmauOGiKADGJOSpWyUA+dOl6RjfEVqYsaXsdyz7mQcARBA/AJe4tfzhX4h4Q96zYl+i9/L7zGvWeuNWMAvQ==";
+        };
+        _vijWMOfL = {
+            "id" = "vijWMOfL";
+            "file" = "Silk Touch Dirt Path v1.0.1.zip";
+            "hash" = "sha512-XNZwmgPTyteCv+MhYlCTNGINxlF1SSC4I8ApmHpncDgH8gOplFtxaywnTUtqDel6ww1Nhc7aAHIeSAI2IlwqVw==";
+        };
+        _DBkJpNui = {
+            "id" = "DBkJpNui";
+            "file" = "silk-touch-dirt-path-1.1.0.jar";
+            "hash" = "sha512-uOiVTtFetu4a3oTcq/NrcHUEdx24wuWmxWFiLk7uItmYw1kEJg+X8uFZvetmtKYOgG0+nEtjPG5RReVmb6hR0Q==";
+        };
+    in {
+        "364ulgmy" = _364ulgmy;
+        "lxQrGqgq" = _lxQrGqgq;
+        "vijWMOfL" = _vijWMOfL;
+        "DBkJpNui" = _DBkJpNui;
+        "datapack-1.17" = _364ulgmy;
+        "datapack-1.17.1" = _364ulgmy;
+        "datapack-1.18" = _364ulgmy;
+        "datapack-1.18.1" = _364ulgmy;
+        "datapack-1.18.2" = _364ulgmy;
+        "datapack-1.19" = _364ulgmy;
+        "datapack-1.19.1" = _364ulgmy;
+        "datapack-1.19.2" = _364ulgmy;
+        "datapack-1.19.3" = _364ulgmy;
+        "datapack-1.19.4" = _364ulgmy;
+        "datapack-1.20" = _364ulgmy;
+        "datapack-1.20.1" = _364ulgmy;
+        "datapack-1.20.2" = _364ulgmy;
+        "datapack-1.20.3" = _364ulgmy;
+        "datapack-1.20.4" = _364ulgmy;
+        "datapack-24w14potato" = _364ulgmy;
+        "datapack-1.20.5-pre1" = _364ulgmy;
+        "datapack-1.20.5-pre2" = _364ulgmy;
+        "datapack-1.20.5-pre3" = _364ulgmy;
+        "datapack-1.20.5-pre4" = _364ulgmy;
+        "datapack-1.21" = _vijWMOfL;
+        "datapack-1.21.1" = _vijWMOfL;
+        "fabric-1.17" = _lxQrGqgq;
+        "fabric-1.17.1" = _lxQrGqgq;
+        "fabric-1.18" = _lxQrGqgq;
+        "fabric-1.18.1" = _lxQrGqgq;
+        "fabric-1.18.2" = _lxQrGqgq;
+        "fabric-1.19" = _lxQrGqgq;
+        "fabric-1.19.1" = _lxQrGqgq;
+        "fabric-1.19.2" = _lxQrGqgq;
+        "fabric-1.19.3" = _lxQrGqgq;
+        "fabric-1.19.4" = _lxQrGqgq;
+        "fabric-1.20" = _lxQrGqgq;
+        "fabric-1.20.1" = _lxQrGqgq;
+        "fabric-1.20.2" = _lxQrGqgq;
+        "fabric-1.20.3" = _lxQrGqgq;
+        "fabric-1.20.4" = _lxQrGqgq;
+        "fabric-24w14potato" = _lxQrGqgq;
+        "fabric-1.20.5-pre1" = _lxQrGqgq;
+        "fabric-1.20.5-pre2" = _lxQrGqgq;
+        "fabric-1.20.5-pre3" = _lxQrGqgq;
+        "fabric-1.20.5-pre4" = _lxQrGqgq;
+        "fabric-1.21" = _DBkJpNui;
+        "fabric-1.21.1" = _DBkJpNui;
+        "forge-1.17" = _lxQrGqgq;
+        "forge-1.17.1" = _lxQrGqgq;
+        "forge-1.18" = _lxQrGqgq;
+        "forge-1.18.1" = _lxQrGqgq;
+        "forge-1.18.2" = _lxQrGqgq;
+        "forge-1.19" = _lxQrGqgq;
+        "forge-1.19.1" = _lxQrGqgq;
+        "forge-1.19.2" = _lxQrGqgq;
+        "forge-1.19.3" = _lxQrGqgq;
+        "forge-1.19.4" = _lxQrGqgq;
+        "forge-1.20" = _lxQrGqgq;
+        "forge-1.20.1" = _lxQrGqgq;
+        "forge-1.20.2" = _lxQrGqgq;
+        "forge-1.20.3" = _lxQrGqgq;
+        "forge-1.20.4" = _lxQrGqgq;
+        "forge-24w14potato" = _lxQrGqgq;
+        "forge-1.20.5-pre1" = _lxQrGqgq;
+        "forge-1.20.5-pre2" = _lxQrGqgq;
+        "forge-1.20.5-pre3" = _lxQrGqgq;
+        "forge-1.20.5-pre4" = _lxQrGqgq;
+        "forge-1.21" = _DBkJpNui;
+        "forge-1.21.1" = _DBkJpNui;
+        "quilt-1.17" = _lxQrGqgq;
+        "quilt-1.17.1" = _lxQrGqgq;
+        "quilt-1.18" = _lxQrGqgq;
+        "quilt-1.18.1" = _lxQrGqgq;
+        "quilt-1.18.2" = _lxQrGqgq;
+        "quilt-1.19" = _lxQrGqgq;
+        "quilt-1.19.1" = _lxQrGqgq;
+        "quilt-1.19.2" = _lxQrGqgq;
+        "quilt-1.19.3" = _lxQrGqgq;
+        "quilt-1.19.4" = _lxQrGqgq;
+        "quilt-1.20" = _lxQrGqgq;
+        "quilt-1.20.1" = _lxQrGqgq;
+        "quilt-1.20.2" = _lxQrGqgq;
+        "quilt-1.20.3" = _lxQrGqgq;
+        "quilt-1.20.4" = _lxQrGqgq;
+        "quilt-24w14potato" = _lxQrGqgq;
+        "quilt-1.20.5-pre1" = _lxQrGqgq;
+        "quilt-1.20.5-pre2" = _lxQrGqgq;
+        "quilt-1.20.5-pre3" = _lxQrGqgq;
+        "quilt-1.20.5-pre4" = _lxQrGqgq;
+        "quilt-1.21" = _DBkJpNui;
+        "quilt-1.21.1" = _DBkJpNui;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "silk-touch-dirt-path";
+            id = "d3V3VfgT";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="DBkJpNui";}

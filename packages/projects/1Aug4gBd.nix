@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _MgQrIp1a = {
+            "id" = "MgQrIp1a";
+            "file" = "EXP Vacuum (1.21) [1.0.0].zip";
+            "hash" = "sha512-CJvJVIRji3qOxMBsXZ7gItrAXiOSnrnTsIqH2xPoVVYhnFizk7L2jOmRcS7MTahn2z7Jc4QOXGo0QqJ5nU5jww==";
+        };
+        _ODJXRNOj = {
+            "id" = "ODJXRNOj";
+            "file" = "exp-vacuum-1.0.0.jar";
+            "hash" = "sha512-eTkUqN1gYVEyuEWx6YWLhrh+vYB4AZ6N6WOpz3SSLcG85rQYYJsuj+DoMbmQ9GVkv4aNp8meXChiCwwuOq3s5g==";
+        };
+    in {
+        "MgQrIp1a" = _MgQrIp1a;
+        "ODJXRNOj" = _ODJXRNOj;
+        "datapack-1.21" = _MgQrIp1a;
+        "datapack-1.21.1" = _MgQrIp1a;
+        "datapack-1.21.2" = _MgQrIp1a;
+        "datapack-1.21.3" = _MgQrIp1a;
+        "datapack-1.21.4" = _MgQrIp1a;
+        "datapack-1.21.5" = _MgQrIp1a;
+        "datapack-1.21.6" = _MgQrIp1a;
+        "datapack-1.21.7" = _MgQrIp1a;
+        "datapack-1.21.8" = _MgQrIp1a;
+        "datapack-1.21.9" = _MgQrIp1a;
+        "datapack-1.21.10" = _MgQrIp1a;
+        "datapack-1.21.11" = _MgQrIp1a;
+        "datapack-26.1" = _MgQrIp1a;
+        "datapack-26.1.1" = _MgQrIp1a;
+        "datapack-26.1.2" = _MgQrIp1a;
+        "datapack-26.2" = _MgQrIp1a;
+        "fabric-1.21" = _ODJXRNOj;
+        "fabric-1.21.1" = _ODJXRNOj;
+        "fabric-1.21.2" = _ODJXRNOj;
+        "fabric-1.21.3" = _ODJXRNOj;
+        "fabric-1.21.4" = _ODJXRNOj;
+        "fabric-1.21.5" = _ODJXRNOj;
+        "fabric-1.21.6" = _ODJXRNOj;
+        "fabric-1.21.7" = _ODJXRNOj;
+        "fabric-1.21.8" = _ODJXRNOj;
+        "fabric-1.21.9" = _ODJXRNOj;
+        "fabric-1.21.10" = _ODJXRNOj;
+        "fabric-1.21.11" = _ODJXRNOj;
+        "fabric-26.1" = _ODJXRNOj;
+        "fabric-26.1.1" = _ODJXRNOj;
+        "fabric-26.1.2" = _ODJXRNOj;
+        "fabric-26.2" = _ODJXRNOj;
+        "forge-1.21" = _ODJXRNOj;
+        "forge-1.21.1" = _ODJXRNOj;
+        "forge-1.21.2" = _ODJXRNOj;
+        "forge-1.21.3" = _ODJXRNOj;
+        "forge-1.21.4" = _ODJXRNOj;
+        "forge-1.21.5" = _ODJXRNOj;
+        "forge-1.21.6" = _ODJXRNOj;
+        "forge-1.21.7" = _ODJXRNOj;
+        "forge-1.21.8" = _ODJXRNOj;
+        "forge-1.21.9" = _ODJXRNOj;
+        "forge-1.21.10" = _ODJXRNOj;
+        "forge-1.21.11" = _ODJXRNOj;
+        "forge-26.1" = _ODJXRNOj;
+        "forge-26.1.1" = _ODJXRNOj;
+        "forge-26.1.2" = _ODJXRNOj;
+        "forge-26.2" = _ODJXRNOj;
+        "neoforge-1.21" = _ODJXRNOj;
+        "neoforge-1.21.1" = _ODJXRNOj;
+        "neoforge-1.21.2" = _ODJXRNOj;
+        "neoforge-1.21.3" = _ODJXRNOj;
+        "neoforge-1.21.4" = _ODJXRNOj;
+        "neoforge-1.21.5" = _ODJXRNOj;
+        "neoforge-1.21.6" = _ODJXRNOj;
+        "neoforge-1.21.7" = _ODJXRNOj;
+        "neoforge-1.21.8" = _ODJXRNOj;
+        "neoforge-1.21.9" = _ODJXRNOj;
+        "neoforge-1.21.10" = _ODJXRNOj;
+        "neoforge-1.21.11" = _ODJXRNOj;
+        "neoforge-26.1" = _ODJXRNOj;
+        "neoforge-26.1.1" = _ODJXRNOj;
+        "neoforge-26.1.2" = _ODJXRNOj;
+        "neoforge-26.2" = _ODJXRNOj;
+        "quilt-1.21" = _ODJXRNOj;
+        "quilt-1.21.1" = _ODJXRNOj;
+        "quilt-1.21.2" = _ODJXRNOj;
+        "quilt-1.21.3" = _ODJXRNOj;
+        "quilt-1.21.4" = _ODJXRNOj;
+        "quilt-1.21.5" = _ODJXRNOj;
+        "quilt-1.21.6" = _ODJXRNOj;
+        "quilt-1.21.7" = _ODJXRNOj;
+        "quilt-1.21.8" = _ODJXRNOj;
+        "quilt-1.21.9" = _ODJXRNOj;
+        "quilt-1.21.10" = _ODJXRNOj;
+        "quilt-1.21.11" = _ODJXRNOj;
+        "quilt-26.1" = _ODJXRNOj;
+        "quilt-26.1.1" = _ODJXRNOj;
+        "quilt-26.1.2" = _ODJXRNOj;
+        "quilt-26.2" = _ODJXRNOj;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "exp-vacuum";
+            id = "1Aug4gBd";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="ODJXRNOj";}

@@ -1,0 +1,116 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _MewFOh4w = {
+            "id" = "MewFOh4w";
+            "file" = "Historical Paintings.zip";
+            "hash" = "sha512-9eHFcK1ZxQhdB0vSO0yOAtDZnHOU8AWDJ+b0j6GxXryGR8ZNSTM5WM8zjrF9sWOExG8cVZIi7YurTzPcIoHJXQ==";
+        };
+        _WnJy6NFJ = {
+            "id" = "WnJy6NFJ";
+            "file" = "PDB3D's Historical Paintings.zip";
+            "hash" = "sha512-k9Q0BbcXp8E+W6qXioZScR7GgaYMbm0l2V46o7AYITiCpQd8RwZMNkkmBenaWeses76V7/xAJdplyJAne1aApw==";
+        };
+    in {
+        "MewFOh4w" = _MewFOh4w;
+        "WnJy6NFJ" = _WnJy6NFJ;
+        "minecraft-1.7.6" = _MewFOh4w;
+        "minecraft-1.7.7" = _MewFOh4w;
+        "minecraft-1.7.8" = _MewFOh4w;
+        "minecraft-1.7.9" = _MewFOh4w;
+        "minecraft-1.7.10" = _MewFOh4w;
+        "minecraft-1.8" = _MewFOh4w;
+        "minecraft-1.8.1" = _MewFOh4w;
+        "minecraft-1.8.2" = _MewFOh4w;
+        "minecraft-1.8.3" = _MewFOh4w;
+        "minecraft-1.8.4" = _MewFOh4w;
+        "minecraft-1.8.5" = _MewFOh4w;
+        "minecraft-1.8.6" = _MewFOh4w;
+        "minecraft-1.8.7" = _MewFOh4w;
+        "minecraft-1.8.8" = _MewFOh4w;
+        "minecraft-1.8.9" = _MewFOh4w;
+        "minecraft-1.9" = _MewFOh4w;
+        "minecraft-1.9.1" = _MewFOh4w;
+        "minecraft-1.9.2" = _MewFOh4w;
+        "minecraft-1.9.3" = _MewFOh4w;
+        "minecraft-1.9.4" = _MewFOh4w;
+        "minecraft-1.10" = _MewFOh4w;
+        "minecraft-1.10.1" = _MewFOh4w;
+        "minecraft-1.10.2" = _MewFOh4w;
+        "minecraft-1.11" = _MewFOh4w;
+        "minecraft-1.11.1" = _MewFOh4w;
+        "minecraft-1.11.2" = _MewFOh4w;
+        "minecraft-1.12" = _MewFOh4w;
+        "minecraft-1.12.1" = _MewFOh4w;
+        "minecraft-1.12.2" = _MewFOh4w;
+        "minecraft-1.13" = _MewFOh4w;
+        "minecraft-1.13.1" = _MewFOh4w;
+        "minecraft-1.13.2" = _MewFOh4w;
+        "minecraft-1.14" = _MewFOh4w;
+        "minecraft-1.14.1" = _MewFOh4w;
+        "minecraft-1.14.2" = _MewFOh4w;
+        "minecraft-1.14.3" = _MewFOh4w;
+        "minecraft-1.14.4" = _MewFOh4w;
+        "minecraft-1.15" = _MewFOh4w;
+        "minecraft-1.15.1" = _MewFOh4w;
+        "minecraft-1.15.2" = _MewFOh4w;
+        "minecraft-1.16" = _MewFOh4w;
+        "minecraft-1.16.1" = _MewFOh4w;
+        "minecraft-1.16.2" = _MewFOh4w;
+        "minecraft-1.16.3" = _MewFOh4w;
+        "minecraft-1.16.4" = _MewFOh4w;
+        "minecraft-1.16.5" = _MewFOh4w;
+        "minecraft-1.17" = _MewFOh4w;
+        "minecraft-1.17.1" = _MewFOh4w;
+        "minecraft-1.18" = _MewFOh4w;
+        "minecraft-1.18.1" = _MewFOh4w;
+        "minecraft-1.18.2" = _MewFOh4w;
+        "minecraft-1.19" = _MewFOh4w;
+        "minecraft-1.19.1" = _MewFOh4w;
+        "minecraft-1.19.2" = _MewFOh4w;
+        "minecraft-1.19.3" = _MewFOh4w;
+        "minecraft-1.19.4" = _MewFOh4w;
+        "minecraft-1.20" = _WnJy6NFJ;
+        "minecraft-1.20.1" = _WnJy6NFJ;
+        "minecraft-1.20.2" = _WnJy6NFJ;
+        "minecraft-1.20.3" = _WnJy6NFJ;
+        "minecraft-1.20.4" = _WnJy6NFJ;
+        "minecraft-1.20.5" = _WnJy6NFJ;
+        "minecraft-1.20.6" = _WnJy6NFJ;
+        "minecraft-1.21" = _WnJy6NFJ;
+        "minecraft-1.21.1" = _WnJy6NFJ;
+        "minecraft-1.21.2" = _WnJy6NFJ;
+        "minecraft-1.21.3" = _WnJy6NFJ;
+        "minecraft-1.21.4" = _WnJy6NFJ;
+        "minecraft-1.21.5" = _WnJy6NFJ;
+        "minecraft-1.21.6" = _WnJy6NFJ;
+        "minecraft-1.21.7" = _WnJy6NFJ;
+        "minecraft-1.21.8" = _WnJy6NFJ;
+        "minecraft-1.21.9" = _WnJy6NFJ;
+        "minecraft-1.21.10" = _WnJy6NFJ;
+        "minecraft-1.21.11" = _WnJy6NFJ;
+        "minecraft-26.1" = _WnJy6NFJ;
+        "minecraft-26.1.1" = _WnJy6NFJ;
+        "minecraft-26.1.2" = _WnJy6NFJ;
+        "minecraft-26.2" = _WnJy6NFJ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "historical-paintings";
+            id = "otIjY1wL";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="WnJy6NFJ";}

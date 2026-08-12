@@ -1,0 +1,221 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _PKbK9GkJ = {
+            "id" = "PKbK9GkJ";
+            "file" = "Disenchantment-6.2.0.jar";
+            "hash" = "sha512-LhYzTtxjocstFjiDjFBaonay6BMI6WcNhTXAVWN69Jy137frr7Ngma+ht1jhpVhCp/1F+TAmgFO/mWNRrzamgQ==";
+        };
+        _89zjdjT6 = {
+            "id" = "89zjdjT6";
+            "file" = "Disenchantment-6.2.1.jar";
+            "hash" = "sha512-YAfj8LXlzzGkd3ndUsfkOGVvUcZZ3VJ60nBqOTjLcBvwmscjDS9XkCk6344iTIqXibtp3vE2rTOvoletj42NkA==";
+        };
+        _yz0Jnqer = {
+            "id" = "yz0Jnqer";
+            "file" = "Disenchantment-6.2.2.jar";
+            "hash" = "sha512-n3Ru72gByPb32e8yozka/BupTxthSxd+iHXdvc1WvPV/vBo3iF50mnrHcjbPAFn+inpvAxY3hM6bwBKHrMapqA==";
+        };
+        _OYZufJ8P = {
+            "id" = "OYZufJ8P";
+            "file" = "Disenchantment-6.3.0.jar";
+            "hash" = "sha512-UA9Dmu/gKtewi+cBrqSWIeMB+ZEKajo5Ru/NprnaSeTSmg6p1PNKheSDQjPO7LGdgghYlkw+JN01vJ90wdc6WQ==";
+        };
+        _K11I5h0F = {
+            "id" = "K11I5h0F";
+            "file" = "Disenchantment-6.3.1.jar";
+            "hash" = "sha512-gCBOd1Hwf5a2YyM5xGoZDLfMcrWoZZpQx+l/Mv4tQPfkSvIabUEGv3xibk8Vh4X2747gWQtGux2YWI4rjqvljg==";
+        };
+        _1ahHZ97P = {
+            "id" = "1ahHZ97P";
+            "file" = "Disenchantment-6.3.2.jar";
+            "hash" = "sha512-uAQKRj51DZJgb5lnr4h2Zqn4jlw0RaRoX4pq2Chvb56AKtD9deIvlZhLEjBB6t0sZOuIfF9d0zJ5l4eRl2JKpg==";
+        };
+        _dAeKkIzx = {
+            "id" = "dAeKkIzx";
+            "file" = "Disenchantment-6.3.3.jar";
+            "hash" = "sha512-AAR+z0Y1u4BIZ2FzjlWIKRpc81WIbY5tOwN7ka0KMbovOApLAKsQhLxiwV2WdgTSa7dsTSoyCXiCFexsehJPzg==";
+        };
+        _Cv3Ozis3 = {
+            "id" = "Cv3Ozis3";
+            "file" = "Disenchantment-6.3.4.jar";
+            "hash" = "sha512-j/0oba8iDtOR2XX1uYkkHcab4H3V7xzDpsydi+lXBHVXPjP3hYcYobLwtkk3rAmEbEFUwjv14V1nYLJaKVDTvw==";
+        };
+        _8WboOC2F = {
+            "id" = "8WboOC2F";
+            "file" = "Disenchantment-6.3.5.jar";
+            "hash" = "sha512-vUJX8ZCqnop8ZMeX7R4PT+ACA6IoOj2O7iH3dslmYw0d+odbYyB/P6VyZK8yZnwoE4vhXDHLYyxHtM1y8yRHig==";
+        };
+        _nJedAzdD = {
+            "id" = "nJedAzdD";
+            "file" = "Disenchantment-6.4.0.jar";
+            "hash" = "sha512-AoSHxcmXRdWTiz73g7j78K/39s9/MQxkW2jp1FPUg052Fe2NG8/HbcYZEXP0cAXhnqZaeyzzGYf24WrjZI5eZA==";
+        };
+        _UkqzB7sd = {
+            "id" = "UkqzB7sd";
+            "file" = "Disenchantment-6.5.0.jar";
+            "hash" = "sha512-KrJzFowfFttV3aBGKcxnla5fqt1m3IIBJC/Hvaz/0LUoygR2QXHCHL2/TxMTc67RxTSeC1hBv/Gk6qT/SB+6+A==";
+        };
+        _RRrMHZKN = {
+            "id" = "RRrMHZKN";
+            "file" = "Disenchantment-6.5.11.jar";
+            "hash" = "sha512-uOjyoogSGgmuww5RwGw2ueOjYODTlhZxbWxQzjuOP6JyEXMhhus9x5j7oyIA/ZLAprk7m9Rfl0dqDCHHAkmnjQ==";
+        };
+    in {
+        "PKbK9GkJ" = _PKbK9GkJ;
+        "89zjdjT6" = _89zjdjT6;
+        "yz0Jnqer" = _yz0Jnqer;
+        "OYZufJ8P" = _OYZufJ8P;
+        "K11I5h0F" = _K11I5h0F;
+        "1ahHZ97P" = _1ahHZ97P;
+        "dAeKkIzx" = _dAeKkIzx;
+        "Cv3Ozis3" = _Cv3Ozis3;
+        "8WboOC2F" = _8WboOC2F;
+        "nJedAzdD" = _nJedAzdD;
+        "UkqzB7sd" = _UkqzB7sd;
+        "RRrMHZKN" = _RRrMHZKN;
+        "folia-1.18" = _RRrMHZKN;
+        "folia-1.18.1" = _RRrMHZKN;
+        "folia-1.18.2" = _RRrMHZKN;
+        "folia-1.19" = _RRrMHZKN;
+        "folia-1.19.1" = _RRrMHZKN;
+        "folia-1.19.2" = _RRrMHZKN;
+        "folia-1.19.3" = _RRrMHZKN;
+        "folia-1.19.4" = _RRrMHZKN;
+        "folia-1.20" = _RRrMHZKN;
+        "folia-1.20.1" = _RRrMHZKN;
+        "folia-1.20.2" = _RRrMHZKN;
+        "folia-1.20.3" = _RRrMHZKN;
+        "folia-1.20.4" = _RRrMHZKN;
+        "folia-1.20.5" = _RRrMHZKN;
+        "folia-1.20.6" = _RRrMHZKN;
+        "folia-1.21" = _RRrMHZKN;
+        "folia-1.21.1" = _RRrMHZKN;
+        "folia-1.21.2" = _RRrMHZKN;
+        "folia-1.21.3" = _RRrMHZKN;
+        "folia-1.21.4" = _RRrMHZKN;
+        "folia-1.21.5" = _RRrMHZKN;
+        "folia-1.21.6" = _RRrMHZKN;
+        "folia-1.21.7" = _RRrMHZKN;
+        "folia-1.21.8" = _RRrMHZKN;
+        "folia-1.21.9" = _RRrMHZKN;
+        "folia-1.21.10" = _RRrMHZKN;
+        "folia-1.21.11" = _RRrMHZKN;
+        "folia-26.1" = _RRrMHZKN;
+        "folia-26.1.1" = _RRrMHZKN;
+        "folia-26.1.2" = _RRrMHZKN;
+        "folia-26.2" = _RRrMHZKN;
+        "paper-1.18" = _RRrMHZKN;
+        "paper-1.18.1" = _RRrMHZKN;
+        "paper-1.18.2" = _RRrMHZKN;
+        "paper-1.19" = _RRrMHZKN;
+        "paper-1.19.1" = _RRrMHZKN;
+        "paper-1.19.2" = _RRrMHZKN;
+        "paper-1.19.3" = _RRrMHZKN;
+        "paper-1.19.4" = _RRrMHZKN;
+        "paper-1.20" = _RRrMHZKN;
+        "paper-1.20.1" = _RRrMHZKN;
+        "paper-1.20.2" = _RRrMHZKN;
+        "paper-1.20.3" = _RRrMHZKN;
+        "paper-1.20.4" = _RRrMHZKN;
+        "paper-1.20.5" = _RRrMHZKN;
+        "paper-1.20.6" = _RRrMHZKN;
+        "paper-1.21" = _RRrMHZKN;
+        "paper-1.21.1" = _RRrMHZKN;
+        "paper-1.21.2" = _RRrMHZKN;
+        "paper-1.21.3" = _RRrMHZKN;
+        "paper-1.21.4" = _RRrMHZKN;
+        "paper-1.21.5" = _RRrMHZKN;
+        "paper-1.21.6" = _RRrMHZKN;
+        "paper-1.21.7" = _RRrMHZKN;
+        "paper-1.21.8" = _RRrMHZKN;
+        "paper-1.21.9" = _RRrMHZKN;
+        "paper-1.21.10" = _RRrMHZKN;
+        "paper-1.21.11" = _RRrMHZKN;
+        "paper-26.1" = _RRrMHZKN;
+        "paper-26.1.1" = _RRrMHZKN;
+        "paper-26.1.2" = _RRrMHZKN;
+        "paper-26.2" = _RRrMHZKN;
+        "purpur-1.18" = _RRrMHZKN;
+        "purpur-1.18.1" = _RRrMHZKN;
+        "purpur-1.18.2" = _RRrMHZKN;
+        "purpur-1.19" = _RRrMHZKN;
+        "purpur-1.19.1" = _RRrMHZKN;
+        "purpur-1.19.2" = _RRrMHZKN;
+        "purpur-1.19.3" = _RRrMHZKN;
+        "purpur-1.19.4" = _RRrMHZKN;
+        "purpur-1.20" = _RRrMHZKN;
+        "purpur-1.20.1" = _RRrMHZKN;
+        "purpur-1.20.2" = _RRrMHZKN;
+        "purpur-1.20.3" = _RRrMHZKN;
+        "purpur-1.20.4" = _RRrMHZKN;
+        "purpur-1.20.5" = _RRrMHZKN;
+        "purpur-1.20.6" = _RRrMHZKN;
+        "purpur-1.21" = _RRrMHZKN;
+        "purpur-1.21.1" = _RRrMHZKN;
+        "purpur-1.21.2" = _RRrMHZKN;
+        "purpur-1.21.3" = _RRrMHZKN;
+        "purpur-1.21.4" = _RRrMHZKN;
+        "purpur-1.21.5" = _RRrMHZKN;
+        "purpur-1.21.6" = _RRrMHZKN;
+        "purpur-1.21.7" = _RRrMHZKN;
+        "purpur-1.21.8" = _RRrMHZKN;
+        "purpur-1.21.9" = _RRrMHZKN;
+        "purpur-1.21.10" = _RRrMHZKN;
+        "purpur-1.21.11" = _RRrMHZKN;
+        "purpur-26.1" = _RRrMHZKN;
+        "purpur-26.1.1" = _RRrMHZKN;
+        "purpur-26.1.2" = _RRrMHZKN;
+        "purpur-26.2" = _RRrMHZKN;
+        "spigot-1.18" = _RRrMHZKN;
+        "spigot-1.18.1" = _RRrMHZKN;
+        "spigot-1.18.2" = _RRrMHZKN;
+        "spigot-1.19" = _RRrMHZKN;
+        "spigot-1.19.1" = _RRrMHZKN;
+        "spigot-1.19.2" = _RRrMHZKN;
+        "spigot-1.19.3" = _RRrMHZKN;
+        "spigot-1.19.4" = _RRrMHZKN;
+        "spigot-1.20" = _RRrMHZKN;
+        "spigot-1.20.1" = _RRrMHZKN;
+        "spigot-1.20.2" = _RRrMHZKN;
+        "spigot-1.20.3" = _RRrMHZKN;
+        "spigot-1.20.4" = _RRrMHZKN;
+        "spigot-1.20.5" = _RRrMHZKN;
+        "spigot-1.20.6" = _RRrMHZKN;
+        "spigot-1.21" = _RRrMHZKN;
+        "spigot-1.21.1" = _RRrMHZKN;
+        "spigot-1.21.2" = _RRrMHZKN;
+        "spigot-1.21.3" = _RRrMHZKN;
+        "spigot-1.21.4" = _RRrMHZKN;
+        "spigot-1.21.5" = _RRrMHZKN;
+        "spigot-1.21.6" = _RRrMHZKN;
+        "spigot-1.21.7" = _RRrMHZKN;
+        "spigot-1.21.8" = _RRrMHZKN;
+        "spigot-1.21.9" = _RRrMHZKN;
+        "spigot-1.21.10" = _RRrMHZKN;
+        "spigot-1.21.11" = _RRrMHZKN;
+        "spigot-26.1" = _RRrMHZKN;
+        "spigot-26.1.1" = _RRrMHZKN;
+        "spigot-26.1.2" = _RRrMHZKN;
+        "spigot-26.2" = _RRrMHZKN;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "disenchantment";
+            id = "8otGFPAu";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/H7KZ/Disenchantment/blob/master/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="RRrMHZKN";}

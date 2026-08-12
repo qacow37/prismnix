@@ -1,0 +1,135 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _dbSYWpDw = {
+            "id" = "dbSYWpDw";
+            "file" = "Boardy-0.1v-beta.jar";
+            "hash" = "sha512-Cvj4gvGESBiyGwt2ADa2kKPSIVVpV/t4CAOXeeGOX5ERi666paJAe0BWfIoKmadWkT0MOi8O74JvpjsEATxaxg==";
+        };
+        _Q3Uwxttj = {
+            "id" = "Q3Uwxttj";
+            "file" = "Boardy-0.2v.jar";
+            "hash" = "sha512-83YD0sh9FH7kMbh/S/P2iSO5cFRbS7UjBZiKLvmKEBTKJ1/z/QiEOoypO6wD3g8x6J3SAhsqY9ilR1Irgn7reg==";
+        };
+        _YbtW2MPi = {
+            "id" = "YbtW2MPi";
+            "file" = "Boardy-0.3v.jar";
+            "hash" = "sha512-M2Gh0HvmqJxI8PQTq6qo+AZopGQAbjYgJDP8xCHN9/ucz8+NsQc/xd4dZpBpmHptRmzoXe+/+SkFeERlpWIvDQ==";
+        };
+    in {
+        "dbSYWpDw" = _dbSYWpDw;
+        "Q3Uwxttj" = _Q3Uwxttj;
+        "YbtW2MPi" = _YbtW2MPi;
+        "bukkit-1.20" = _Q3Uwxttj;
+        "bukkit-1.20.1" = _Q3Uwxttj;
+        "bukkit-1.20.2" = _Q3Uwxttj;
+        "bukkit-1.20.3" = _Q3Uwxttj;
+        "bukkit-1.20.4" = _Q3Uwxttj;
+        "bukkit-1.20.5" = _Q3Uwxttj;
+        "bukkit-1.20.6" = _Q3Uwxttj;
+        "bukkit-1.21" = _YbtW2MPi;
+        "bukkit-1.21.1" = _YbtW2MPi;
+        "bukkit-1.21.2" = _YbtW2MPi;
+        "bukkit-1.21.3" = _YbtW2MPi;
+        "bukkit-1.21.4" = _YbtW2MPi;
+        "bukkit-1.21.5" = _YbtW2MPi;
+        "bukkit-1.21.6" = _YbtW2MPi;
+        "bukkit-1.21.7" = _YbtW2MPi;
+        "bukkit-1.21.8" = _YbtW2MPi;
+        "bukkit-1.21.9" = _YbtW2MPi;
+        "bukkit-1.21.10" = _YbtW2MPi;
+        "bukkit-1.21.11" = _YbtW2MPi;
+        "bukkit-26.1" = _YbtW2MPi;
+        "bukkit-26.1.1" = _YbtW2MPi;
+        "bukkit-26.1.2" = _YbtW2MPi;
+        "bukkit-26.2" = _YbtW2MPi;
+        "paper-1.20" = _Q3Uwxttj;
+        "paper-1.20.1" = _Q3Uwxttj;
+        "paper-1.20.2" = _Q3Uwxttj;
+        "paper-1.20.3" = _Q3Uwxttj;
+        "paper-1.20.4" = _Q3Uwxttj;
+        "paper-1.20.5" = _Q3Uwxttj;
+        "paper-1.20.6" = _Q3Uwxttj;
+        "paper-1.21" = _YbtW2MPi;
+        "paper-1.21.1" = _YbtW2MPi;
+        "paper-1.21.2" = _YbtW2MPi;
+        "paper-1.21.3" = _YbtW2MPi;
+        "paper-1.21.4" = _YbtW2MPi;
+        "paper-1.21.5" = _YbtW2MPi;
+        "paper-1.21.6" = _YbtW2MPi;
+        "paper-1.21.7" = _YbtW2MPi;
+        "paper-1.21.8" = _YbtW2MPi;
+        "paper-1.21.9" = _YbtW2MPi;
+        "paper-1.21.10" = _YbtW2MPi;
+        "paper-1.21.11" = _YbtW2MPi;
+        "paper-26.1" = _YbtW2MPi;
+        "paper-26.1.1" = _YbtW2MPi;
+        "paper-26.1.2" = _YbtW2MPi;
+        "paper-26.2" = _YbtW2MPi;
+        "purpur-1.20" = _Q3Uwxttj;
+        "purpur-1.20.1" = _Q3Uwxttj;
+        "purpur-1.20.2" = _Q3Uwxttj;
+        "purpur-1.20.3" = _Q3Uwxttj;
+        "purpur-1.20.4" = _Q3Uwxttj;
+        "purpur-1.20.5" = _Q3Uwxttj;
+        "purpur-1.20.6" = _Q3Uwxttj;
+        "purpur-1.21" = _YbtW2MPi;
+        "purpur-1.21.1" = _YbtW2MPi;
+        "purpur-1.21.2" = _YbtW2MPi;
+        "purpur-1.21.3" = _YbtW2MPi;
+        "purpur-1.21.4" = _YbtW2MPi;
+        "purpur-1.21.5" = _YbtW2MPi;
+        "purpur-1.21.6" = _YbtW2MPi;
+        "purpur-1.21.7" = _YbtW2MPi;
+        "purpur-1.21.8" = _YbtW2MPi;
+        "purpur-1.21.9" = _YbtW2MPi;
+        "purpur-1.21.10" = _YbtW2MPi;
+        "purpur-1.21.11" = _YbtW2MPi;
+        "purpur-26.1" = _YbtW2MPi;
+        "purpur-26.1.1" = _YbtW2MPi;
+        "purpur-26.1.2" = _YbtW2MPi;
+        "purpur-26.2" = _YbtW2MPi;
+        "spigot-1.20" = _Q3Uwxttj;
+        "spigot-1.20.1" = _Q3Uwxttj;
+        "spigot-1.20.2" = _Q3Uwxttj;
+        "spigot-1.20.3" = _Q3Uwxttj;
+        "spigot-1.20.4" = _Q3Uwxttj;
+        "spigot-1.20.5" = _Q3Uwxttj;
+        "spigot-1.20.6" = _Q3Uwxttj;
+        "spigot-1.21" = _YbtW2MPi;
+        "spigot-1.21.1" = _YbtW2MPi;
+        "spigot-1.21.2" = _YbtW2MPi;
+        "spigot-1.21.3" = _YbtW2MPi;
+        "spigot-1.21.4" = _YbtW2MPi;
+        "spigot-1.21.5" = _YbtW2MPi;
+        "spigot-1.21.6" = _YbtW2MPi;
+        "spigot-1.21.7" = _YbtW2MPi;
+        "spigot-1.21.8" = _YbtW2MPi;
+        "spigot-1.21.9" = _YbtW2MPi;
+        "spigot-1.21.10" = _YbtW2MPi;
+        "spigot-1.21.11" = _YbtW2MPi;
+        "spigot-26.1" = _YbtW2MPi;
+        "spigot-26.1.1" = _YbtW2MPi;
+        "spigot-26.1.2" = _YbtW2MPi;
+        "spigot-26.2" = _YbtW2MPi;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "boardy";
+            id = "f7BVJGX1";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="YbtW2MPi";}

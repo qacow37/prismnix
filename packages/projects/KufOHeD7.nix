@@ -1,0 +1,83 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _58cvDNr0 = {
+            "id" = "58cvDNr0";
+            "file" = "Poppy-again-Rose.zip";
+            "hash" = "sha512-EJOhmXsPmC0VG8mPPB7nPaVJTSKL28MYCr+Ax/oZ3Slou//pm6Jj426Mmq+AbxSnCgEYdR5keeOAkYrXgGDhYQ==";
+        };
+        _WxNsbbug = {
+            "id" = "WxNsbbug";
+            "file" = "Poppy-again-Rose.zip";
+            "hash" = "sha512-DAa9QsM7RF6o0ISZ8G02rsxxs80UVH74ASoDMP7kxMmYnjplqdItTgHtuqQzRS4KUFhE9fHeb5lsMZwG3cfsug==";
+        };
+    in {
+        "58cvDNr0" = _58cvDNr0;
+        "WxNsbbug" = _WxNsbbug;
+        "minecraft-1.14" = _WxNsbbug;
+        "minecraft-1.14.1" = _WxNsbbug;
+        "minecraft-1.14.2" = _WxNsbbug;
+        "minecraft-1.14.3" = _WxNsbbug;
+        "minecraft-1.14.4" = _WxNsbbug;
+        "minecraft-1.15" = _WxNsbbug;
+        "minecraft-1.15.1" = _WxNsbbug;
+        "minecraft-1.15.2" = _WxNsbbug;
+        "minecraft-1.16" = _WxNsbbug;
+        "minecraft-1.16.1" = _WxNsbbug;
+        "minecraft-1.16.2" = _WxNsbbug;
+        "minecraft-1.16.3" = _WxNsbbug;
+        "minecraft-1.16.4" = _WxNsbbug;
+        "minecraft-1.16.5" = _WxNsbbug;
+        "minecraft-1.17" = _WxNsbbug;
+        "minecraft-1.17.1" = _WxNsbbug;
+        "minecraft-1.18" = _WxNsbbug;
+        "minecraft-1.18.1" = _WxNsbbug;
+        "minecraft-1.18.2" = _WxNsbbug;
+        "minecraft-1.19" = _WxNsbbug;
+        "minecraft-1.19.1" = _WxNsbbug;
+        "minecraft-1.19.2" = _WxNsbbug;
+        "minecraft-1.19.3" = _WxNsbbug;
+        "minecraft-1.19.4" = _WxNsbbug;
+        "minecraft-1.20" = _WxNsbbug;
+        "minecraft-1.20.1" = _WxNsbbug;
+        "minecraft-1.20.2" = _WxNsbbug;
+        "minecraft-1.20.3" = _WxNsbbug;
+        "minecraft-1.20.4" = _WxNsbbug;
+        "minecraft-1.20.5" = _WxNsbbug;
+        "minecraft-1.20.6" = _WxNsbbug;
+        "minecraft-1.21" = _WxNsbbug;
+        "minecraft-1.21.1" = _WxNsbbug;
+        "minecraft-1.21.2" = _WxNsbbug;
+        "minecraft-1.21.3" = _WxNsbbug;
+        "minecraft-1.21.4" = _WxNsbbug;
+        "minecraft-1.21.5" = _WxNsbbug;
+        "minecraft-1.21.6" = _WxNsbbug;
+        "minecraft-1.21.7" = _WxNsbbug;
+        "minecraft-1.21.8" = _WxNsbbug;
+        "minecraft-1.21.9" = _WxNsbbug;
+        "minecraft-1.21.10" = _WxNsbbug;
+        "minecraft-1.21.11" = _WxNsbbug;
+        "minecraft-26.1" = _WxNsbbug;
+        "minecraft-26.1.1" = _WxNsbbug;
+        "minecraft-26.1.2" = _WxNsbbug;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "poppy-again-rose";
+            id = "KufOHeD7";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="WxNsbbug";}

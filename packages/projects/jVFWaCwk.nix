@@ -1,0 +1,165 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _uUtwMf5G = {
+            "id" = "uUtwMf5G";
+            "file" = "lucky-cat-2.0.jar";
+            "hash" = "sha512-H2zY9hg/E21QYVlYYBhbBrro91rmRkZkhzvbx/2Tq9d/OPFc6vzMx6qOqzCqdSqBbdLrh8gpGPuv1ulxD9Yn3w==";
+        };
+        _5aMqJu2r = {
+            "id" = "5aMqJu2r";
+            "file" = "lucky-cat-2.0.zip";
+            "hash" = "sha512-H2zY9hg/E21QYVlYYBhbBrro91rmRkZkhzvbx/2Tq9d/OPFc6vzMx6qOqzCqdSqBbdLrh8gpGPuv1ulxD9Yn3w==";
+        };
+        _IXwB9flC = {
+            "id" = "IXwB9flC";
+            "file" = "Lucky Cat 2.1.zip";
+            "hash" = "sha512-qotX96dYuOyhTXyl+rWGWapy0X4KCF7yHyG6Y7TmClM87qfxD7ctw0nzoyMTza1tV9abpEcIBe5kmFvNaSE5CQ==";
+        };
+        _pDuk9Es4 = {
+            "id" = "pDuk9Es4";
+            "file" = "lucky_cat-2.1.jar";
+            "hash" = "sha512-cCHV+HkOy4wThdC3Eiw4v8RogUbsN6kGuu7fOw82n1DDOdXZHQRz0uf66nhzjpYPaCYASwb0n+i1TGHob2JR/g==";
+        };
+        _Yx7XrV3o = {
+            "id" = "Yx7XrV3o";
+            "file" = "Lucky Cat 2.1.1.zip";
+            "hash" = "sha512-hNIji6ZgH/Fy0rjkBp71pC+fePPrE09zRTN4/pkWMfDUfYBDi/oGNthGyoE/jo3igJUFUXx8ppIR4Qx/SWreNQ==";
+        };
+        _1vxvdJRQ = {
+            "id" = "1vxvdJRQ";
+            "file" = "lucky_cat-2.1.1.jar";
+            "hash" = "sha512-caTf4sF/7psPOMHtUPscBblMfDrwh4SUrtlJrTelikKSZc986Fham6e8Xb2C1RF9VmWmOWiGRdYk36MCu07RQA==";
+        };
+    in {
+        "uUtwMf5G" = _uUtwMf5G;
+        "5aMqJu2r" = _5aMqJu2r;
+        "IXwB9flC" = _IXwB9flC;
+        "pDuk9Es4" = _pDuk9Es4;
+        "Yx7XrV3o" = _Yx7XrV3o;
+        "1vxvdJRQ" = _1vxvdJRQ;
+        "fabric-1.20.1" = _1vxvdJRQ;
+        "fabric-1.15" = _1vxvdJRQ;
+        "fabric-1.15.1" = _1vxvdJRQ;
+        "fabric-1.15.2" = _1vxvdJRQ;
+        "fabric-1.16" = _1vxvdJRQ;
+        "fabric-1.16.1" = _1vxvdJRQ;
+        "fabric-1.16.2" = _1vxvdJRQ;
+        "fabric-1.16.3" = _1vxvdJRQ;
+        "fabric-1.16.4" = _1vxvdJRQ;
+        "fabric-1.16.5" = _1vxvdJRQ;
+        "fabric-1.17" = _1vxvdJRQ;
+        "fabric-1.17.1" = _1vxvdJRQ;
+        "fabric-1.18" = _1vxvdJRQ;
+        "fabric-1.18.1" = _1vxvdJRQ;
+        "fabric-1.18.2" = _1vxvdJRQ;
+        "fabric-1.19" = _1vxvdJRQ;
+        "fabric-1.19.1" = _1vxvdJRQ;
+        "fabric-1.19.2" = _1vxvdJRQ;
+        "fabric-1.19.3" = _1vxvdJRQ;
+        "fabric-1.19.4" = _1vxvdJRQ;
+        "fabric-1.20" = _1vxvdJRQ;
+        "fabric-1.20.2" = _1vxvdJRQ;
+        "fabric-1.20.3" = _1vxvdJRQ;
+        "fabric-1.20.4" = _1vxvdJRQ;
+        "fabric-1.20.5" = _1vxvdJRQ;
+        "fabric-1.20.6" = _1vxvdJRQ;
+        "forge-1.20.1" = _1vxvdJRQ;
+        "forge-1.15" = _1vxvdJRQ;
+        "forge-1.15.1" = _1vxvdJRQ;
+        "forge-1.15.2" = _1vxvdJRQ;
+        "forge-1.16" = _1vxvdJRQ;
+        "forge-1.16.1" = _1vxvdJRQ;
+        "forge-1.16.2" = _1vxvdJRQ;
+        "forge-1.16.3" = _1vxvdJRQ;
+        "forge-1.16.4" = _1vxvdJRQ;
+        "forge-1.16.5" = _1vxvdJRQ;
+        "forge-1.17" = _1vxvdJRQ;
+        "forge-1.17.1" = _1vxvdJRQ;
+        "forge-1.18" = _1vxvdJRQ;
+        "forge-1.18.1" = _1vxvdJRQ;
+        "forge-1.18.2" = _1vxvdJRQ;
+        "forge-1.19" = _1vxvdJRQ;
+        "forge-1.19.1" = _1vxvdJRQ;
+        "forge-1.19.2" = _1vxvdJRQ;
+        "forge-1.19.3" = _1vxvdJRQ;
+        "forge-1.19.4" = _1vxvdJRQ;
+        "forge-1.20" = _1vxvdJRQ;
+        "forge-1.20.2" = _1vxvdJRQ;
+        "forge-1.20.3" = _1vxvdJRQ;
+        "forge-1.20.4" = _1vxvdJRQ;
+        "forge-1.20.5" = _1vxvdJRQ;
+        "forge-1.20.6" = _1vxvdJRQ;
+        "quilt-1.20.1" = _1vxvdJRQ;
+        "quilt-1.15" = _1vxvdJRQ;
+        "quilt-1.15.1" = _1vxvdJRQ;
+        "quilt-1.15.2" = _1vxvdJRQ;
+        "quilt-1.16" = _1vxvdJRQ;
+        "quilt-1.16.1" = _1vxvdJRQ;
+        "quilt-1.16.2" = _1vxvdJRQ;
+        "quilt-1.16.3" = _1vxvdJRQ;
+        "quilt-1.16.4" = _1vxvdJRQ;
+        "quilt-1.16.5" = _1vxvdJRQ;
+        "quilt-1.17" = _1vxvdJRQ;
+        "quilt-1.17.1" = _1vxvdJRQ;
+        "quilt-1.18" = _1vxvdJRQ;
+        "quilt-1.18.1" = _1vxvdJRQ;
+        "quilt-1.18.2" = _1vxvdJRQ;
+        "quilt-1.19" = _1vxvdJRQ;
+        "quilt-1.19.1" = _1vxvdJRQ;
+        "quilt-1.19.2" = _1vxvdJRQ;
+        "quilt-1.19.3" = _1vxvdJRQ;
+        "quilt-1.19.4" = _1vxvdJRQ;
+        "quilt-1.20" = _1vxvdJRQ;
+        "quilt-1.20.2" = _1vxvdJRQ;
+        "quilt-1.20.3" = _1vxvdJRQ;
+        "quilt-1.20.4" = _1vxvdJRQ;
+        "quilt-1.20.5" = _1vxvdJRQ;
+        "quilt-1.20.6" = _1vxvdJRQ;
+        "datapack-1.18.2" = _Yx7XrV3o;
+        "datapack-1.19" = _Yx7XrV3o;
+        "datapack-1.19.1" = _Yx7XrV3o;
+        "datapack-1.19.2" = _Yx7XrV3o;
+        "datapack-1.19.3" = _Yx7XrV3o;
+        "datapack-1.19.4" = _Yx7XrV3o;
+        "datapack-1.20" = _Yx7XrV3o;
+        "datapack-1.20.1" = _Yx7XrV3o;
+        "datapack-1.20.2" = _Yx7XrV3o;
+        "datapack-1.15" = _Yx7XrV3o;
+        "datapack-1.15.1" = _Yx7XrV3o;
+        "datapack-1.15.2" = _Yx7XrV3o;
+        "datapack-1.16" = _Yx7XrV3o;
+        "datapack-1.16.1" = _Yx7XrV3o;
+        "datapack-1.16.2" = _Yx7XrV3o;
+        "datapack-1.16.3" = _Yx7XrV3o;
+        "datapack-1.16.4" = _Yx7XrV3o;
+        "datapack-1.16.5" = _Yx7XrV3o;
+        "datapack-1.17" = _Yx7XrV3o;
+        "datapack-1.17.1" = _Yx7XrV3o;
+        "datapack-1.18" = _Yx7XrV3o;
+        "datapack-1.18.1" = _Yx7XrV3o;
+        "datapack-1.20.3" = _Yx7XrV3o;
+        "datapack-1.20.4" = _Yx7XrV3o;
+        "datapack-1.20.5" = _Yx7XrV3o;
+        "datapack-1.20.6" = _Yx7XrV3o;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "lucky_cat";
+            id = "jVFWaCwk";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="1vxvdJRQ";}

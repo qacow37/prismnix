@@ -1,0 +1,122 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _AJBZa4ZO = {
+            "id" = "AJBZa4ZO";
+            "file" = "No EnderPearl & Explosion Sound.zip";
+            "hash" = "sha512-wCGO29KV8VzZm2EfFlwGCr8DsZocsnLzyRLrN0NvQfJdEFM0TZvp5Bpu4eNbV4LBLD3r6ek8ROkm8ICK9qiKLw==";
+        };
+        _OMFVNiUU = {
+            "id" = "OMFVNiUU";
+            "file" = "No EnderPearl & Explosion Sound.zip";
+            "hash" = "sha512-UEvzKetWM0qjuUJ4OpTlXa1b+JBQ3jxCrbY2VSTIV41b3KqyZSOtHtrPQ6POUBOztRCJ9aM3xpw5b13A/EO7wg==";
+        };
+    in {
+        "AJBZa4ZO" = _AJBZa4ZO;
+        "OMFVNiUU" = _OMFVNiUU;
+        "minecraft-1.16" = _AJBZa4ZO;
+        "minecraft-1.16.1" = _AJBZa4ZO;
+        "minecraft-1.16.2" = _OMFVNiUU;
+        "minecraft-1.16.3" = _OMFVNiUU;
+        "minecraft-1.16.4" = _OMFVNiUU;
+        "minecraft-1.16.5" = _OMFVNiUU;
+        "minecraft-1.17" = _OMFVNiUU;
+        "minecraft-1.17.1" = _OMFVNiUU;
+        "minecraft-1.18" = _OMFVNiUU;
+        "minecraft-1.18.1" = _OMFVNiUU;
+        "minecraft-1.18.2" = _OMFVNiUU;
+        "minecraft-1.19" = _OMFVNiUU;
+        "minecraft-1.19.1" = _OMFVNiUU;
+        "minecraft-1.19.2" = _OMFVNiUU;
+        "minecraft-1.19.3" = _OMFVNiUU;
+        "minecraft-1.19.4" = _OMFVNiUU;
+        "minecraft-1.20" = _OMFVNiUU;
+        "minecraft-1.20.1" = _OMFVNiUU;
+        "minecraft-1.20.2" = _OMFVNiUU;
+        "minecraft-1.20.3" = _OMFVNiUU;
+        "minecraft-1.20.4" = _OMFVNiUU;
+        "minecraft-1.20.5" = _OMFVNiUU;
+        "minecraft-1.20.6" = _OMFVNiUU;
+        "minecraft-1.21" = _OMFVNiUU;
+        "minecraft-1.21.1" = _OMFVNiUU;
+        "minecraft-22w42a" = _OMFVNiUU;
+        "minecraft-22w43a" = _OMFVNiUU;
+        "minecraft-22w44a" = _OMFVNiUU;
+        "minecraft-23w14a" = _OMFVNiUU;
+        "minecraft-23w16a" = _OMFVNiUU;
+        "minecraft-23w31a" = _OMFVNiUU;
+        "minecraft-23w32a" = _OMFVNiUU;
+        "minecraft-23w33a" = _OMFVNiUU;
+        "minecraft-23w35a" = _OMFVNiUU;
+        "minecraft-1.20.2-pre1" = _OMFVNiUU;
+        "minecraft-23w42a" = _OMFVNiUU;
+        "minecraft-23w43a" = _OMFVNiUU;
+        "minecraft-23w43b" = _OMFVNiUU;
+        "minecraft-23w44a" = _OMFVNiUU;
+        "minecraft-23w45a" = _OMFVNiUU;
+        "minecraft-23w46a" = _OMFVNiUU;
+        "minecraft-24w03a" = _OMFVNiUU;
+        "minecraft-24w03b" = _OMFVNiUU;
+        "minecraft-24w04a" = _OMFVNiUU;
+        "minecraft-24w05a" = _OMFVNiUU;
+        "minecraft-24w05b" = _OMFVNiUU;
+        "minecraft-24w06a" = _OMFVNiUU;
+        "minecraft-24w07a" = _OMFVNiUU;
+        "minecraft-24w09a" = _OMFVNiUU;
+        "minecraft-24w10a" = _OMFVNiUU;
+        "minecraft-24w11a" = _OMFVNiUU;
+        "minecraft-24w12a" = _OMFVNiUU;
+        "minecraft-24w13a" = _OMFVNiUU;
+        "minecraft-24w14potato" = _OMFVNiUU;
+        "minecraft-24w14a" = _OMFVNiUU;
+        "minecraft-1.20.5-pre1" = _OMFVNiUU;
+        "minecraft-1.20.5-pre2" = _OMFVNiUU;
+        "minecraft-1.20.5-pre3" = _OMFVNiUU;
+        "minecraft-24w18a" = _OMFVNiUU;
+        "minecraft-24w19a" = _OMFVNiUU;
+        "minecraft-24w19b" = _OMFVNiUU;
+        "minecraft-24w20a" = _OMFVNiUU;
+        "minecraft-24w33a" = _OMFVNiUU;
+        "minecraft-24w34a" = _OMFVNiUU;
+        "minecraft-24w35a" = _OMFVNiUU;
+        "minecraft-24w36a" = _OMFVNiUU;
+        "minecraft-24w37a" = _OMFVNiUU;
+        "minecraft-24w38a" = _OMFVNiUU;
+        "minecraft-24w39a" = _OMFVNiUU;
+        "minecraft-24w40a" = _OMFVNiUU;
+        "minecraft-1.21.2-pre1" = _OMFVNiUU;
+        "minecraft-1.21.2-pre2" = _OMFVNiUU;
+        "minecraft-1.21.2" = _OMFVNiUU;
+        "minecraft-1.21.3" = _OMFVNiUU;
+        "minecraft-24w44a" = _OMFVNiUU;
+        "minecraft-24w45a" = _OMFVNiUU;
+        "minecraft-24w46a" = _OMFVNiUU;
+        "minecraft-1.21.4" = _OMFVNiUU;
+        "minecraft-1.21.5" = _OMFVNiUU;
+        "minecraft-1.21.6" = _OMFVNiUU;
+        "minecraft-1.21.7" = _OMFVNiUU;
+        "minecraft-1.21.8" = _OMFVNiUU;
+        "minecraft-1.21.9" = _OMFVNiUU;
+        "minecraft-1.21.10" = _OMFVNiUU;
+        "minecraft-1.21.11" = _OMFVNiUU;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "no-enderpearl-+-explosion-sound";
+            id = "w1gNx7Uc";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="OMFVNiUU";}

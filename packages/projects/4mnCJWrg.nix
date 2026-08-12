@@ -1,0 +1,422 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _wtyzyCpI = {
+            "id" = "wtyzyCpI";
+            "file" = "EnderChest.jar";
+            "hash" = "sha512-jMpJiEsiqh3aZD44wIsLl8wSLe+rf1nPrbEKgvLydo8lEJGXAncgQ8WDAVPnXuc6LUgP9CpmX5puH7gChzjp9Q==";
+        };
+        _Me4hOeWJ = {
+            "id" = "Me4hOeWJ";
+            "file" = "EnderChest 1.1 Ver 1.16-1.21.jar";
+            "hash" = "sha512-qT+cUmajjgnVAJPyjB4TLxhzpRrwDaRkPYmN5GU0lypE9vSOUfTAF+cNHUPb/zNpWWkJerME5QWSmDggb4Idzw==";
+        };
+        _rvpkV5Z7 = {
+            "id" = "rvpkV5Z7";
+            "file" = "EnderChest 1.2 VER 1.16-1.21.jar";
+            "hash" = "sha512-0aCqZ9BsmDRwmDY5JDX5rtVUY1ZCk81L6ZuCrPdnPwHJgEJsc1fEFODvGm4IA/xUxLnDl31I9O/nKTPxDk9mqA==";
+        };
+        _PSsf9Jxs = {
+            "id" = "PSsf9Jxs";
+            "file" = "EnderChest 1.3.jar";
+            "hash" = "sha512-tX3y5MCInbRddi/n+eLr0yrcu01Emsyf0EQuL1tBO8JEDdK3bNUfENpujUow6ELOtWatMNR9zKBcKIE60Q/p8Q==";
+        };
+        _nIscQjRM = {
+            "id" = "nIscQjRM";
+            "file" = "EnderChest 1.4.jar";
+            "hash" = "sha512-8e5qjU4+kC3Q4mlRnFpugMmLYaDQYAmpzNsZ8YpXuR4eR4x90rrqYjKxgX1kDg/ThEQlRyYRQ9S30W/F/XxILg==";
+        };
+        _4CETmNA1 = {
+            "id" = "4CETmNA1";
+            "file" = "EnderChest 1.5.jar";
+            "hash" = "sha512-7zMxCS9DVj1QcuE5V1FdHXBeLJxJBPZlUZfWMc0S0BEkVU45s7aMotFvAo2OHta76bGnP4ECs1MnW9ngh8MEhA==";
+        };
+        _jOP7YyVU = {
+            "id" = "jOP7YyVU";
+            "file" = "EnderChest-1.6.jar";
+            "hash" = "sha512-+5ziU1BN/RAuWNkkQNBA4aTzqA6oPWTMJLk3S8uvEDuabRLCbs3NF9r5NtyGaPEXjQ+f6aHShg2uqhqBuN0Xgg==";
+        };
+        _nW2wAZxi = {
+            "id" = "nW2wAZxi";
+            "file" = "EnderChest-1.7.jar";
+            "hash" = "sha512-/r72V1Vh/ry0l+RaDfZz02mVYlegtAj6fT7sOMRxnWNmjn8N4whnW6YWY0uyC5vaZzI0Mzh8LeT95/Q6YhjCMQ==";
+        };
+        _8th6HkZ0 = {
+            "id" = "8th6HkZ0";
+            "file" = "EnderChest-1.8.jar";
+            "hash" = "sha512-c6kmJdCybPUTjiKQAkFBnI2+WimYPoBs7jC0A0VE8HsDb4DfgM/GykmMqvWvF+XsS2Ma9Sm0U/B2/gc0js8Vrg==";
+        };
+        _8Fr4BVPR = {
+            "id" = "8Fr4BVPR";
+            "file" = "EnderChest-1.8.1.jar";
+            "hash" = "sha512-UGGbZm+J4hBbC1unk7fdQt1scIfxjRUpIyAr4M0ToFgibvrmjS8z7YT2Bfls0hhuTThg7CI4fnutAeyHkN12uw==";
+        };
+        _PKhF3o83 = {
+            "id" = "PKhF3o83";
+            "file" = "EnderChest-1.8.2.jar";
+            "hash" = "sha512-qpeWI8dQzjUxdP++f+VuoK/QrJ5pfMubbhYgQhzbo+9YpeSfNPNfTo8Sre0jsY2IIBHDYJVzgpUuLxtRxGnKZA==";
+        };
+        _Ctxxfml7 = {
+            "id" = "Ctxxfml7";
+            "file" = "EnderChest-1.8.3.jar";
+            "hash" = "sha512-5yYt/Q+aSIY6+icpoZL2RRYO4QrbHoi07aT+hgPq7sF97rgmzvWXLkZ5Sfyt8CenFCdOBHa9ipP6j38ktulL6Q==";
+        };
+        _PyIPN7FW = {
+            "id" = "PyIPN7FW";
+            "file" = "EnderChest-1.9.jar";
+            "hash" = "sha512-WEFbz9vucDZ6IAWI4Nxt4ipnFCpQ9S9zLJRm4zlXIx3DPiEX2V4Qx+/Z8hPZENNQzIKyCXNgVTLHh6ppXlI8Zw==";
+        };
+        _joiZdlAF = {
+            "id" = "joiZdlAF";
+            "file" = "EnderChest-1.9.1.jar";
+            "hash" = "sha512-JPS2z7KU89xCjCQhx423lngt36XfYz94ZiTf+EosfEQaP9YGlmQKRxm2kxCkVZB5KteKDT5CiV0IrbskvR+s9w==";
+        };
+        _VUafKVNf = {
+            "id" = "VUafKVNf";
+            "file" = "EnderChest-1.9.2.jar";
+            "hash" = "sha512-4QFOmrCQ3YcxOzffvQYjiZIR4h/P0/lh3DQFWNLrFt86vUwoiow1hxdp+8nUtvd6xWED4gb+6Wg2UMWhD5yvog==";
+        };
+        _wmmXKib0 = {
+            "id" = "wmmXKib0";
+            "file" = "EnderChest-1.9.3.jar";
+            "hash" = "sha512-fiaQ7z5jqgcoSRn7d+lld6TAqPQ0YBF0rj7f5+oAG4ACLgUt36kSn8mnDA3BtJp30hZI/2Il6iwW5Ak1kneQ9w==";
+        };
+        _3D7ZgisA = {
+            "id" = "3D7ZgisA";
+            "file" = "EnderChest-1.10.0.jar";
+            "hash" = "sha512-kDLsT6DIi0Z8F2fEduKutBinabTIMqisWiDBJdTZg0fcRHTye9fBiduwWE8VHSRu7qk9w34DvIHvHBR6oRUqiQ==";
+        };
+        _sDu2F1e2 = {
+            "id" = "sDu2F1e2";
+            "file" = "EnderChest-1.10.1.jar";
+            "hash" = "sha512-dO+UZTtoJUlH09i8SWwez+cU6LmTUgJb7eWCA6bjn/dkvsvWijEWoRC8pZmYp8J6okAM9NGuLYtBlz2t7FrIkw==";
+        };
+        _3hUhhBM3 = {
+            "id" = "3hUhhBM3";
+            "file" = "EnderChest-1.10.2.jar";
+            "hash" = "sha512-P05W9qBuyOxWQU0DKP8frR6Av01m8yIp5VShesCRxaIHJp/MCwzXYjD3ThrXZwn/+mQR3dKB0BnmQlvyAiwKHw==";
+        };
+        _bRCWxB4W = {
+            "id" = "bRCWxB4W";
+            "file" = "EnderChest-1.10.3.jar";
+            "hash" = "sha512-4PFdUBn09nTHYwJf61CrgwMSeg0T+dalkp5T4rw5URM22U6B1+WtfO1OszlbIcVk3tdqDDeXO3Vdwdys/0PsUw==";
+        };
+        _zkPWJdvs = {
+            "id" = "zkPWJdvs";
+            "file" = "EnderChest-1.10.4.jar";
+            "hash" = "sha512-9FHoYLdGAIodomYppvEEpuR9TXBIy1t9GZ/RHl0kWgT0zVujA00rg2SSYNnEF1WojYqI1p4+Myx6hhFtD1Irsw==";
+        };
+        _rtke8AEY = {
+            "id" = "rtke8AEY";
+            "file" = "EnderChest-1.10.5.jar";
+            "hash" = "sha512-rFnY4U4Ril/w5ZohVzOX7liBsACWrb1m3A80Gr4/wa9GXfH495K1gmAedYoez+n5dilKiheepdAgqu5AFR1wzQ==";
+        };
+        _IjGcdVeY = {
+            "id" = "IjGcdVeY";
+            "file" = "EnderChest-1.10.5.1.jar";
+            "hash" = "sha512-rr4kgswRTGCYs54EbiPyuLH8L/A+6uZLXcVZwhtaT+DRAFtF9Eqw5E5asoHvJp3e4epzb6mViJtacMLLvaGMxw==";
+        };
+        _JNXW2zhN = {
+            "id" = "JNXW2zhN";
+            "file" = "EnderChest-1.10.6.jar";
+            "hash" = "sha512-s153j8JqTp8F5ujMlsVUi/t2i7fT75pe6jhkotNMNs2WWdMpSMvJJH4jVhyti2p7nakfjy87wriv9d6cF4xwZw==";
+        };
+        _Y7B5ocM0 = {
+            "id" = "Y7B5ocM0";
+            "file" = "EnderChest-2.0.0.jar";
+            "hash" = "sha512-p59obQQuV+tXK8HfveEaDNvmSMHgsZnMkluElP+IX/b4sjp2PC4PAsQZooDEHdt5xHbUA8SY34Y/rjPBj4ZMwA==";
+        };
+        _zwYpzizv = {
+            "id" = "zwYpzizv";
+            "file" = "EnderChest-2.0.1.jar";
+            "hash" = "sha512-wnN6Yl31RULgAkEhKHzSF11T1xIJmG8sdmwHvoW3mzglWanLPdWnD3aZdszccjBqfxP0gFCslq9EdaSG2irGag==";
+        };
+        _bBEw4wAi = {
+            "id" = "bBEw4wAi";
+            "file" = "EnderChest-2.0.2.jar";
+            "hash" = "sha512-jRHH0jammVXCjoJERBMJhxn1VNvJFf3k0VQ/WOex/J0woNzR8+9fUNlp727qeSj4i9BI92xYfJKrFth5RC4Bqw==";
+        };
+        _fr8pr6Pj = {
+            "id" = "fr8pr6Pj";
+            "file" = "EnderChest-2.0.3.jar";
+            "hash" = "sha512-uxFb2Q2o6jPNdXLlirI4PdBp21rh73Lf4qve9Yjz94u4rCzKRSnazGFfMC/PV+fjaVgG9rfE8U28bE4bcHBlPQ==";
+        };
+        _a5H9VMn2 = {
+            "id" = "a5H9VMn2";
+            "file" = "EnderChest-2.0.4.jar";
+            "hash" = "sha512-pgOWMqrslnh7IKF8ZHj2gvpgRFEARsaLyQHRDJn0H3fCaF9GVN2UFJCmxV3AbwYERwJI3xBnMKsAHGeqzoL0eg==";
+        };
+        _qM7OOrRf = {
+            "id" = "qM7OOrRf";
+            "file" = "EnderChest-2.1.0.jar";
+            "hash" = "sha512-eQaEY/+QF/Oz9DLuFUTia36YKxhXFiqDhqPOGBeW8LGLpxOlABp7R6T6qNafD9kndUggKVJcqhmuceWsqEw2hw==";
+        };
+        _21X9BUh0 = {
+            "id" = "21X9BUh0";
+            "file" = "EnderChest-2.1.1.jar";
+            "hash" = "sha512-uMaq7Pg+GmX3nocEXcieSCLfQo8G4DSsoPIuC/fo6RHJP8mn3HUZvGnD1XGiMuLZ95yPbPK1LigGAvmTV60wqA==";
+        };
+        _R0RogQ65 = {
+            "id" = "R0RogQ65";
+            "file" = "EnderChest-2.1.2.jar";
+            "hash" = "sha512-nKz9cNTH6NmFsZFbRkOnLUTFj3wTlIjMeYTR5Ge0F7IppD1WJ9mVwTikbAHesm3Nrb6PJ7DiGVKtugxSFf0lAQ==";
+        };
+        _jPYdxxfh = {
+            "id" = "jPYdxxfh";
+            "file" = "EnderChest-2.1.3.jar";
+            "hash" = "sha512-aVgLaY+iWognL6Fi2hL46+5WNejM92ymwUM+0DQo6N8usY+GHUGgpWK0eSttLOBfbsm2zxKWf4aGGu7J7Cuzbg==";
+        };
+        _NZ8bixja = {
+            "id" = "NZ8bixja";
+            "file" = "EnderChest-2.2.0.jar";
+            "hash" = "sha512-A6B1PqhUwAIDPYVe3ZwdU+yVXmS9els+Mnxja7TD1IejhzrzbV4oLZqu4GP+nAeB3ThEFKDpeUbeginYv7Td4A==";
+        };
+        _QAXemy13 = {
+            "id" = "QAXemy13";
+            "file" = "EnderChest-2.2.1.jar";
+            "hash" = "sha512-Gagoh3UH5XFSCcoCcW7SS/ysm8pV5B2qIYDKYZIZIeAAKuh5IIt6Yr0QQREkFc2II1DQGjXsMtT5owonu2C1Sg==";
+        };
+    in {
+        "wtyzyCpI" = _wtyzyCpI;
+        "Me4hOeWJ" = _Me4hOeWJ;
+        "rvpkV5Z7" = _rvpkV5Z7;
+        "PSsf9Jxs" = _PSsf9Jxs;
+        "nIscQjRM" = _nIscQjRM;
+        "4CETmNA1" = _4CETmNA1;
+        "jOP7YyVU" = _jOP7YyVU;
+        "nW2wAZxi" = _nW2wAZxi;
+        "8th6HkZ0" = _8th6HkZ0;
+        "8Fr4BVPR" = _8Fr4BVPR;
+        "PKhF3o83" = _PKhF3o83;
+        "Ctxxfml7" = _Ctxxfml7;
+        "PyIPN7FW" = _PyIPN7FW;
+        "joiZdlAF" = _joiZdlAF;
+        "VUafKVNf" = _VUafKVNf;
+        "wmmXKib0" = _wmmXKib0;
+        "3D7ZgisA" = _3D7ZgisA;
+        "sDu2F1e2" = _sDu2F1e2;
+        "3hUhhBM3" = _3hUhhBM3;
+        "bRCWxB4W" = _bRCWxB4W;
+        "zkPWJdvs" = _zkPWJdvs;
+        "rtke8AEY" = _rtke8AEY;
+        "IjGcdVeY" = _IjGcdVeY;
+        "JNXW2zhN" = _JNXW2zhN;
+        "Y7B5ocM0" = _Y7B5ocM0;
+        "zwYpzizv" = _zwYpzizv;
+        "bBEw4wAi" = _bBEw4wAi;
+        "fr8pr6Pj" = _fr8pr6Pj;
+        "a5H9VMn2" = _a5H9VMn2;
+        "qM7OOrRf" = _qM7OOrRf;
+        "21X9BUh0" = _21X9BUh0;
+        "R0RogQ65" = _R0RogQ65;
+        "jPYdxxfh" = _jPYdxxfh;
+        "NZ8bixja" = _NZ8bixja;
+        "QAXemy13" = _QAXemy13;
+        "bukkit-1.21" = _R0RogQ65;
+        "bukkit-1.21.1" = _R0RogQ65;
+        "bukkit-1.21.2" = _R0RogQ65;
+        "bukkit-1.21.3" = _R0RogQ65;
+        "bukkit-1.21.4" = _R0RogQ65;
+        "bukkit-1.21.5" = _R0RogQ65;
+        "bukkit-1.16.1" = _Ctxxfml7;
+        "bukkit-1.16.2" = _Ctxxfml7;
+        "bukkit-1.16.3" = _Ctxxfml7;
+        "bukkit-1.16.4" = _Ctxxfml7;
+        "bukkit-1.16.5" = _Ctxxfml7;
+        "bukkit-1.17" = _Ctxxfml7;
+        "bukkit-1.17.1" = _Ctxxfml7;
+        "bukkit-1.18" = _R0RogQ65;
+        "bukkit-1.18.1" = _R0RogQ65;
+        "bukkit-1.18.2" = _R0RogQ65;
+        "bukkit-1.19" = _R0RogQ65;
+        "bukkit-1.19.1" = _R0RogQ65;
+        "bukkit-1.19.2" = _R0RogQ65;
+        "bukkit-1.19.3" = _R0RogQ65;
+        "bukkit-1.19.4" = _R0RogQ65;
+        "bukkit-1.20" = _R0RogQ65;
+        "bukkit-1.20.1" = _R0RogQ65;
+        "bukkit-1.20.2" = _R0RogQ65;
+        "bukkit-1.20.3" = _R0RogQ65;
+        "bukkit-1.20.4" = _R0RogQ65;
+        "bukkit-1.20.5" = _R0RogQ65;
+        "bukkit-1.20.6" = _R0RogQ65;
+        "bukkit-1.21.6" = _R0RogQ65;
+        "bukkit-1.21.7" = _R0RogQ65;
+        "bukkit-1.21.8" = _R0RogQ65;
+        "bukkit-1.21.9" = _R0RogQ65;
+        "bukkit-1.21.10" = _R0RogQ65;
+        "bukkit-1.16" = _Ctxxfml7;
+        "bukkit-1.21.11" = _R0RogQ65;
+        "bukkit-26.1" = _R0RogQ65;
+        "bukkit-26.1.1" = _R0RogQ65;
+        "bukkit-26.1.2" = _R0RogQ65;
+        "bukkit-26.2" = _R0RogQ65;
+        "paper-1.21" = _QAXemy13;
+        "paper-1.21.1" = _QAXemy13;
+        "paper-1.21.2" = _QAXemy13;
+        "paper-1.21.3" = _QAXemy13;
+        "paper-1.21.4" = _QAXemy13;
+        "paper-1.21.5" = _QAXemy13;
+        "paper-1.16.1" = _Ctxxfml7;
+        "paper-1.16.2" = _Ctxxfml7;
+        "paper-1.16.3" = _Ctxxfml7;
+        "paper-1.16.4" = _Ctxxfml7;
+        "paper-1.16.5" = _Ctxxfml7;
+        "paper-1.17" = _Ctxxfml7;
+        "paper-1.17.1" = _Ctxxfml7;
+        "paper-1.18" = _QAXemy13;
+        "paper-1.18.1" = _QAXemy13;
+        "paper-1.18.2" = _QAXemy13;
+        "paper-1.19" = _QAXemy13;
+        "paper-1.19.1" = _QAXemy13;
+        "paper-1.19.2" = _QAXemy13;
+        "paper-1.19.3" = _QAXemy13;
+        "paper-1.19.4" = _QAXemy13;
+        "paper-1.20" = _QAXemy13;
+        "paper-1.20.1" = _QAXemy13;
+        "paper-1.20.2" = _QAXemy13;
+        "paper-1.20.3" = _QAXemy13;
+        "paper-1.20.4" = _QAXemy13;
+        "paper-1.20.5" = _QAXemy13;
+        "paper-1.20.6" = _QAXemy13;
+        "paper-1.21.6" = _QAXemy13;
+        "paper-1.21.7" = _QAXemy13;
+        "paper-1.21.8" = _QAXemy13;
+        "paper-1.21.9" = _QAXemy13;
+        "paper-1.21.10" = _QAXemy13;
+        "paper-1.16" = _Ctxxfml7;
+        "paper-1.21.11" = _QAXemy13;
+        "paper-26.1" = _QAXemy13;
+        "paper-26.1.1" = _QAXemy13;
+        "paper-26.1.2" = _QAXemy13;
+        "paper-26.2" = _QAXemy13;
+        "spigot-1.21" = _QAXemy13;
+        "spigot-1.21.1" = _QAXemy13;
+        "spigot-1.21.2" = _QAXemy13;
+        "spigot-1.21.3" = _QAXemy13;
+        "spigot-1.21.4" = _QAXemy13;
+        "spigot-1.21.5" = _QAXemy13;
+        "spigot-1.16.1" = _Ctxxfml7;
+        "spigot-1.16.2" = _Ctxxfml7;
+        "spigot-1.16.3" = _Ctxxfml7;
+        "spigot-1.16.4" = _Ctxxfml7;
+        "spigot-1.16.5" = _Ctxxfml7;
+        "spigot-1.17" = _Ctxxfml7;
+        "spigot-1.17.1" = _Ctxxfml7;
+        "spigot-1.18" = _QAXemy13;
+        "spigot-1.18.1" = _QAXemy13;
+        "spigot-1.18.2" = _QAXemy13;
+        "spigot-1.19" = _QAXemy13;
+        "spigot-1.19.1" = _QAXemy13;
+        "spigot-1.19.2" = _QAXemy13;
+        "spigot-1.19.3" = _QAXemy13;
+        "spigot-1.19.4" = _QAXemy13;
+        "spigot-1.20" = _QAXemy13;
+        "spigot-1.20.1" = _QAXemy13;
+        "spigot-1.20.2" = _QAXemy13;
+        "spigot-1.20.3" = _QAXemy13;
+        "spigot-1.20.4" = _QAXemy13;
+        "spigot-1.20.5" = _QAXemy13;
+        "spigot-1.20.6" = _QAXemy13;
+        "spigot-1.21.6" = _QAXemy13;
+        "spigot-1.21.7" = _QAXemy13;
+        "spigot-1.21.8" = _QAXemy13;
+        "spigot-1.21.9" = _QAXemy13;
+        "spigot-1.21.10" = _QAXemy13;
+        "spigot-1.16" = _Ctxxfml7;
+        "spigot-1.21.11" = _QAXemy13;
+        "spigot-26.1" = _QAXemy13;
+        "spigot-26.1.1" = _QAXemy13;
+        "spigot-26.1.2" = _QAXemy13;
+        "spigot-26.2" = _QAXemy13;
+        "purpur-1.16.1" = _Ctxxfml7;
+        "purpur-1.16.2" = _Ctxxfml7;
+        "purpur-1.16.3" = _Ctxxfml7;
+        "purpur-1.16.4" = _Ctxxfml7;
+        "purpur-1.16.5" = _Ctxxfml7;
+        "purpur-1.17" = _Ctxxfml7;
+        "purpur-1.17.1" = _Ctxxfml7;
+        "purpur-1.18" = _QAXemy13;
+        "purpur-1.18.1" = _QAXemy13;
+        "purpur-1.18.2" = _QAXemy13;
+        "purpur-1.19" = _QAXemy13;
+        "purpur-1.19.1" = _QAXemy13;
+        "purpur-1.19.2" = _QAXemy13;
+        "purpur-1.19.3" = _QAXemy13;
+        "purpur-1.19.4" = _QAXemy13;
+        "purpur-1.20" = _QAXemy13;
+        "purpur-1.20.1" = _QAXemy13;
+        "purpur-1.20.2" = _QAXemy13;
+        "purpur-1.20.3" = _QAXemy13;
+        "purpur-1.20.4" = _QAXemy13;
+        "purpur-1.20.5" = _QAXemy13;
+        "purpur-1.20.6" = _QAXemy13;
+        "purpur-1.21" = _QAXemy13;
+        "purpur-1.21.1" = _QAXemy13;
+        "purpur-1.21.2" = _QAXemy13;
+        "purpur-1.21.3" = _QAXemy13;
+        "purpur-1.21.4" = _QAXemy13;
+        "purpur-1.21.5" = _QAXemy13;
+        "purpur-1.21.6" = _QAXemy13;
+        "purpur-1.21.7" = _QAXemy13;
+        "purpur-1.21.8" = _QAXemy13;
+        "purpur-1.21.9" = _QAXemy13;
+        "purpur-1.21.10" = _QAXemy13;
+        "purpur-1.16" = _Ctxxfml7;
+        "purpur-1.21.11" = _QAXemy13;
+        "purpur-26.1" = _QAXemy13;
+        "purpur-26.1.1" = _QAXemy13;
+        "purpur-26.1.2" = _QAXemy13;
+        "purpur-26.2" = _QAXemy13;
+        "folia-1.18" = _QAXemy13;
+        "folia-1.18.1" = _QAXemy13;
+        "folia-1.18.2" = _QAXemy13;
+        "folia-1.19" = _QAXemy13;
+        "folia-1.19.1" = _QAXemy13;
+        "folia-1.19.2" = _QAXemy13;
+        "folia-1.19.3" = _QAXemy13;
+        "folia-1.19.4" = _QAXemy13;
+        "folia-1.20" = _QAXemy13;
+        "folia-1.20.1" = _QAXemy13;
+        "folia-1.20.2" = _QAXemy13;
+        "folia-1.20.3" = _QAXemy13;
+        "folia-1.20.4" = _QAXemy13;
+        "folia-1.20.5" = _QAXemy13;
+        "folia-1.20.6" = _QAXemy13;
+        "folia-1.21" = _QAXemy13;
+        "folia-1.21.1" = _QAXemy13;
+        "folia-1.21.2" = _QAXemy13;
+        "folia-1.21.3" = _QAXemy13;
+        "folia-1.21.4" = _QAXemy13;
+        "folia-1.21.5" = _QAXemy13;
+        "folia-1.21.6" = _QAXemy13;
+        "folia-1.21.7" = _QAXemy13;
+        "folia-1.21.8" = _QAXemy13;
+        "folia-1.21.9" = _QAXemy13;
+        "folia-1.21.10" = _QAXemy13;
+        "folia-1.21.11" = _QAXemy13;
+        "folia-26.1" = _QAXemy13;
+        "folia-26.1.1" = _QAXemy13;
+        "folia-26.1.2" = _QAXemy13;
+        "folia-26.2" = _QAXemy13;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "enderchest";
+            id = "4mnCJWrg";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="QAXemy13";}

@@ -1,0 +1,264 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _4HKDdQtW = {
+            "id" = "4HKDdQtW";
+            "file" = "AutoServer-fabric-1.2.1+mc1.21.1.jar";
+            "hash" = "sha512-zFQmBqAG3Q/OCsEIRZI9bOqzs1xd/761Z6N29b6oIUkwwq+WYkmCOxwHol1iJpch6LGonYKmbDjmpin54Sp05A==";
+        };
+        _cPLks6Vy = {
+            "id" = "cPLks6Vy";
+            "file" = "AutoServer-papermc-1.2.1+mc1.21.1.jar";
+            "hash" = "sha512-s2X1tn9lpz4PuzuoBxtO1ovkBbfip25PdJREYXMPFCrl4f831FUgbuI3j3W9flw4M7gxD0FRW0AA24S+V2xhbQ==";
+        };
+        _R27SAhpT = {
+            "id" = "R27SAhpT";
+            "file" = "AutoServer-velocity-1.2.1.jar";
+            "hash" = "sha512-i2eVkjmbrq4mcQdhouuFfD0yHQ6F9QaAK1hRY0S7SC08fd1UxhnT9MYQnrYmv/64CiUWm43ZASpf0BHWjFfing==";
+        };
+        _AiEXtdDe = {
+            "id" = "AiEXtdDe";
+            "file" = "AutoServer-velocity-1.2.2.jar";
+            "hash" = "sha512-nOSFbRcqfyKIZlRJz9kHtIpM9X9KES2oiV10i/bVQf6lL7bwVzMlYZK8vTacaWRmluANuSOWnu6sPLICdtuHyA==";
+        };
+        _zDhaALOa = {
+            "id" = "zDhaALOa";
+            "file" = "AutoServer-velocity-1.2.3.jar";
+            "hash" = "sha512-o9ZHtkZpv8Zy8VVADKa+7oidaq+zjKz6xL9n5HPxjMS0HmTGQI2LwkouYUUi109bXC70n9BYKgykQT9cB35kQA==";
+        };
+        _xCsE2PAN = {
+            "id" = "xCsE2PAN";
+            "file" = "AutoServer-velocity-1.3.0.jar";
+            "hash" = "sha512-lCE6wjcGl6RC7By4BwBFNZftHPASueAfwGSXZb3/V9Cd95kuXaFwPJ6K8zFarBrUcz+qCi0VE8Wnqjts1cOkDg==";
+        };
+        _awgAwrGH = {
+            "id" = "awgAwrGH";
+            "file" = "AutoServer-velocity-1.4.0-beta-01.jar";
+            "hash" = "sha512-JxMNLn+AOfPR+pEoyGbx+pUFFDB5G57bWK/2GPZBZX1JjE8CkjdXufMdfvNiW6hZgDM/7YpA3nTm7KaNfdUriA==";
+        };
+        _8UkaW8tv = {
+            "id" = "8UkaW8tv";
+            "file" = "AutoServer-velocity-1.4.0.jar";
+            "hash" = "sha512-mFb8s3LSk/PZG45JTdSmoS3R6eZnEGKeui+Feahe27so65ofzVHhwq9O+i9/awT0rqomp8UE9+dAna55AXhCjg==";
+        };
+        _PSj9gVOZ = {
+            "id" = "PSj9gVOZ";
+            "file" = "AutoServer-papermc-1.4.0.jar";
+            "hash" = "sha512-w9aG0+x0WWd3PuHtfkW0q4L0XdgqrFL8PAxBs1WVjtWxj45vCnqfF72AiGtzegTchJ1vQ+KFOyDuigF6BYNFbw==";
+        };
+        _kBZDB8fZ = {
+            "id" = "kBZDB8fZ";
+            "file" = "AutoServer-fabric-1.4.0.jar";
+            "hash" = "sha512-qHJPv+bSSRvJAqRJbkyMTYJogDIEIry3WnfJwvYCtPKezAnNgHqUmql+8m0JUmEXLwV4vjTXFHP2R9SiVI0E1Q==";
+        };
+        _UIzgVo6s = {
+            "id" = "UIzgVo6s";
+            "file" = "AutoServer-velocity-1.5.0.jar";
+            "hash" = "sha512-K/+EbMUreHlxvbzmZlJeWVH1SzPf1yQF8SbIBUMFv9NhehGrFd3/2hny4XGcN7tWXIXNLUodlfNcoz10u3PkOw==";
+        };
+        _AKv12sIn = {
+            "id" = "AKv12sIn";
+            "file" = "AutoServer-velocity-1.5.1.jar";
+            "hash" = "sha512-Iq6oleFRsTwfBY3vqkFEVZ6STp75Lccu7NC69Eks49OOc3EQgwhL0Zw6fKsBbM27pzXGbcLaChpkQ7PzrkrIBA==";
+        };
+        _mjsJnxoX = {
+            "id" = "mjsJnxoX";
+            "file" = "AutoServer-velocity-1.5.2.jar";
+            "hash" = "sha512-pEBdKPEm8yftz36wE6WL4vWqG8POZmy5IZo7mdM9KYqhr6zGjTyGBFKLsRZkKeLSz1MEPkv5zY3jK2Tilfyn1g==";
+        };
+        _fz1qOs8G = {
+            "id" = "fz1qOs8G";
+            "file" = "AutoServer-velocity-1.5.3.jar";
+            "hash" = "sha512-ncDcBwOzzDVQr4GFl0KzQxjsGgrz+P3AWDGKGaIVKgSaibyikL1pxLIQE6+ugPGXq2pIpDmHYF8J0T+Z2hRdjQ==";
+        };
+        _PbLUwnIK = {
+            "id" = "PbLUwnIK";
+            "file" = "AutoServer-velocity-1.5.4.jar";
+            "hash" = "sha512-Z/EbpTkQmzugikv/cFzFY9HnSSOX8i6OuaOh4lZs2BA0QkTj/vlv4ipJINpOQ5fGcZHOeMU0Q+vxqrtlmo3pAg==";
+        };
+        _uMUHzCdm = {
+            "id" = "uMUHzCdm";
+            "file" = "AutoServer-velocity-1.5.5.jar";
+            "hash" = "sha512-pPZ1Fg00JY4EA5N8ZkYCjqrUlpWdJtabaTN7RQFBGZUY2LF0HO1TU6h5v7H1yMEgd6NWuLWwqEnyNuNxp3FmfA==";
+        };
+    in {
+        "4HKDdQtW" = _4HKDdQtW;
+        "cPLks6Vy" = _cPLks6Vy;
+        "R27SAhpT" = _R27SAhpT;
+        "AiEXtdDe" = _AiEXtdDe;
+        "zDhaALOa" = _zDhaALOa;
+        "xCsE2PAN" = _xCsE2PAN;
+        "awgAwrGH" = _awgAwrGH;
+        "8UkaW8tv" = _8UkaW8tv;
+        "PSj9gVOZ" = _PSj9gVOZ;
+        "kBZDB8fZ" = _kBZDB8fZ;
+        "UIzgVo6s" = _UIzgVo6s;
+        "AKv12sIn" = _AKv12sIn;
+        "mjsJnxoX" = _mjsJnxoX;
+        "fz1qOs8G" = _fz1qOs8G;
+        "PbLUwnIK" = _PbLUwnIK;
+        "uMUHzCdm" = _uMUHzCdm;
+        "fabric-1.21.1" = _kBZDB8fZ;
+        "fabric-1.17.1" = _kBZDB8fZ;
+        "fabric-1.18" = _kBZDB8fZ;
+        "fabric-1.18.1" = _kBZDB8fZ;
+        "fabric-1.18.2" = _kBZDB8fZ;
+        "fabric-1.19" = _kBZDB8fZ;
+        "fabric-1.19.1" = _kBZDB8fZ;
+        "fabric-1.19.2" = _kBZDB8fZ;
+        "fabric-1.19.3" = _kBZDB8fZ;
+        "fabric-1.19.4" = _kBZDB8fZ;
+        "fabric-1.20" = _kBZDB8fZ;
+        "fabric-1.20.1" = _kBZDB8fZ;
+        "fabric-1.20.2" = _kBZDB8fZ;
+        "fabric-1.20.3" = _kBZDB8fZ;
+        "fabric-1.20.4" = _kBZDB8fZ;
+        "fabric-1.20.5" = _kBZDB8fZ;
+        "fabric-1.20.6" = _kBZDB8fZ;
+        "fabric-1.21" = _kBZDB8fZ;
+        "fabric-1.21.2" = _kBZDB8fZ;
+        "fabric-1.21.3" = _kBZDB8fZ;
+        "fabric-1.21.4" = _kBZDB8fZ;
+        "paper-1.21.1" = _PSj9gVOZ;
+        "paper-1.17" = _PSj9gVOZ;
+        "paper-1.17.1" = _PSj9gVOZ;
+        "paper-1.18" = _PSj9gVOZ;
+        "paper-1.18.1" = _PSj9gVOZ;
+        "paper-1.18.2" = _PSj9gVOZ;
+        "paper-1.19" = _PSj9gVOZ;
+        "paper-1.19.1" = _PSj9gVOZ;
+        "paper-1.19.2" = _PSj9gVOZ;
+        "paper-1.19.3" = _PSj9gVOZ;
+        "paper-1.19.4" = _PSj9gVOZ;
+        "paper-1.20" = _PSj9gVOZ;
+        "paper-1.20.1" = _PSj9gVOZ;
+        "paper-1.20.2" = _PSj9gVOZ;
+        "paper-1.20.3" = _PSj9gVOZ;
+        "paper-1.20.4" = _PSj9gVOZ;
+        "paper-1.20.5" = _PSj9gVOZ;
+        "paper-1.20.6" = _PSj9gVOZ;
+        "paper-1.21" = _PSj9gVOZ;
+        "paper-1.21.2" = _PSj9gVOZ;
+        "paper-1.21.3" = _PSj9gVOZ;
+        "paper-1.21.4" = _PSj9gVOZ;
+        "velocity-1.21.1" = _uMUHzCdm;
+        "velocity-1.7.2" = _uMUHzCdm;
+        "velocity-1.7.3" = _uMUHzCdm;
+        "velocity-1.7.4" = _uMUHzCdm;
+        "velocity-1.7.5" = _uMUHzCdm;
+        "velocity-1.7.6" = _uMUHzCdm;
+        "velocity-1.7.7" = _uMUHzCdm;
+        "velocity-1.7.8" = _uMUHzCdm;
+        "velocity-1.7.9" = _uMUHzCdm;
+        "velocity-1.7.10" = _uMUHzCdm;
+        "velocity-1.8" = _uMUHzCdm;
+        "velocity-1.8.1" = _uMUHzCdm;
+        "velocity-1.8.2" = _uMUHzCdm;
+        "velocity-1.8.3" = _uMUHzCdm;
+        "velocity-1.8.4" = _uMUHzCdm;
+        "velocity-1.8.5" = _uMUHzCdm;
+        "velocity-1.8.6" = _uMUHzCdm;
+        "velocity-1.8.7" = _uMUHzCdm;
+        "velocity-1.8.8" = _uMUHzCdm;
+        "velocity-1.8.9" = _uMUHzCdm;
+        "velocity-1.9" = _uMUHzCdm;
+        "velocity-1.9.1" = _uMUHzCdm;
+        "velocity-1.9.2" = _uMUHzCdm;
+        "velocity-1.9.3" = _uMUHzCdm;
+        "velocity-1.9.4" = _uMUHzCdm;
+        "velocity-1.10" = _uMUHzCdm;
+        "velocity-1.10.1" = _uMUHzCdm;
+        "velocity-1.10.2" = _uMUHzCdm;
+        "velocity-1.11" = _uMUHzCdm;
+        "velocity-1.11.1" = _uMUHzCdm;
+        "velocity-1.11.2" = _uMUHzCdm;
+        "velocity-1.12" = _uMUHzCdm;
+        "velocity-1.12.1" = _uMUHzCdm;
+        "velocity-1.12.2" = _uMUHzCdm;
+        "velocity-1.13" = _uMUHzCdm;
+        "velocity-1.13.1" = _uMUHzCdm;
+        "velocity-1.13.2" = _uMUHzCdm;
+        "velocity-1.14" = _uMUHzCdm;
+        "velocity-1.14.1" = _uMUHzCdm;
+        "velocity-1.14.2" = _uMUHzCdm;
+        "velocity-1.14.3" = _uMUHzCdm;
+        "velocity-1.14.4" = _uMUHzCdm;
+        "velocity-1.15" = _uMUHzCdm;
+        "velocity-1.15.1" = _uMUHzCdm;
+        "velocity-1.15.2" = _uMUHzCdm;
+        "velocity-1.16" = _uMUHzCdm;
+        "velocity-1.16.1" = _uMUHzCdm;
+        "velocity-1.16.2" = _uMUHzCdm;
+        "velocity-1.16.3" = _uMUHzCdm;
+        "velocity-1.16.4" = _uMUHzCdm;
+        "velocity-1.16.5" = _uMUHzCdm;
+        "velocity-1.17" = _uMUHzCdm;
+        "velocity-1.17.1" = _uMUHzCdm;
+        "velocity-1.18" = _uMUHzCdm;
+        "velocity-1.18.1" = _uMUHzCdm;
+        "velocity-1.18.2" = _uMUHzCdm;
+        "velocity-1.19" = _uMUHzCdm;
+        "velocity-1.19.1" = _uMUHzCdm;
+        "velocity-1.19.2" = _uMUHzCdm;
+        "velocity-1.19.3" = _uMUHzCdm;
+        "velocity-1.19.4" = _uMUHzCdm;
+        "velocity-1.20" = _uMUHzCdm;
+        "velocity-1.20.1" = _uMUHzCdm;
+        "velocity-1.20.2" = _uMUHzCdm;
+        "velocity-1.20.3" = _uMUHzCdm;
+        "velocity-1.20.4" = _uMUHzCdm;
+        "velocity-1.20.5" = _uMUHzCdm;
+        "velocity-1.20.6" = _uMUHzCdm;
+        "velocity-1.21" = _uMUHzCdm;
+        "velocity-1.21.2" = _uMUHzCdm;
+        "velocity-1.21.3" = _uMUHzCdm;
+        "velocity-1.21.4" = _uMUHzCdm;
+        "velocity-1.21.5" = _uMUHzCdm;
+        "velocity-1.21.6" = _uMUHzCdm;
+        "velocity-1.21.7" = _uMUHzCdm;
+        "velocity-1.21.8" = _uMUHzCdm;
+        "velocity-1.21.9" = _uMUHzCdm;
+        "velocity-1.21.10" = _uMUHzCdm;
+        "bukkit-1.17" = _PSj9gVOZ;
+        "bukkit-1.17.1" = _PSj9gVOZ;
+        "bukkit-1.18" = _PSj9gVOZ;
+        "bukkit-1.18.1" = _PSj9gVOZ;
+        "bukkit-1.18.2" = _PSj9gVOZ;
+        "bukkit-1.19" = _PSj9gVOZ;
+        "bukkit-1.19.1" = _PSj9gVOZ;
+        "bukkit-1.19.2" = _PSj9gVOZ;
+        "bukkit-1.19.3" = _PSj9gVOZ;
+        "bukkit-1.19.4" = _PSj9gVOZ;
+        "bukkit-1.20" = _PSj9gVOZ;
+        "bukkit-1.20.1" = _PSj9gVOZ;
+        "bukkit-1.20.2" = _PSj9gVOZ;
+        "bukkit-1.20.3" = _PSj9gVOZ;
+        "bukkit-1.20.4" = _PSj9gVOZ;
+        "bukkit-1.20.5" = _PSj9gVOZ;
+        "bukkit-1.20.6" = _PSj9gVOZ;
+        "bukkit-1.21" = _PSj9gVOZ;
+        "bukkit-1.21.1" = _PSj9gVOZ;
+        "bukkit-1.21.2" = _PSj9gVOZ;
+        "bukkit-1.21.3" = _PSj9gVOZ;
+        "bukkit-1.21.4" = _PSj9gVOZ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "autoserver";
+            id = "7BmrOiXl";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/Artificial-720/AutoServer/blob/master/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="uMUHzCdm";}

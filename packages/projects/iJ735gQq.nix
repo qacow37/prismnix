@@ -1,0 +1,121 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _1qVBI2oR = {
+            "id" = "1qVBI2oR";
+            "file" = "VotePass-Mailer-1.0.0.jar";
+            "hash" = "sha512-eKuNj+Z/Uai3NlUj2lLXQoIgT8Lz8Gz6p7m1qbl4475xBTLNZlPWx+ez6BQQ9JpI6aeAWHBhasRM24auoW4tOg==";
+        };
+        _gTPQ7buB = {
+            "id" = "gTPQ7buB";
+            "file" = "VotePass-Mailer-1.0.1.jar";
+            "hash" = "sha512-sFJOnEOS5fAWlGKDjNQiXXAokqseDcCdiyWt3SKowXW9jwAKaKguDeuKaxAP/VQRkdxqtoNyyTQsSl47dgNaXQ==";
+        };
+    in {
+        "1qVBI2oR" = _1qVBI2oR;
+        "gTPQ7buB" = _gTPQ7buB;
+        "bukkit-1.16" = _1qVBI2oR;
+        "bukkit-1.16.1" = _1qVBI2oR;
+        "bukkit-1.16.2" = _1qVBI2oR;
+        "bukkit-1.16.3" = _1qVBI2oR;
+        "bukkit-1.16.4" = _1qVBI2oR;
+        "bukkit-1.16.5" = _1qVBI2oR;
+        "bukkit-1.17" = _1qVBI2oR;
+        "bukkit-1.17.1" = _1qVBI2oR;
+        "bukkit-1.18" = _1qVBI2oR;
+        "bukkit-1.18.1" = _1qVBI2oR;
+        "bukkit-1.18.2" = _1qVBI2oR;
+        "bukkit-1.19" = _1qVBI2oR;
+        "bukkit-1.19.1" = _1qVBI2oR;
+        "bukkit-1.19.2" = _1qVBI2oR;
+        "bukkit-1.19.3" = _1qVBI2oR;
+        "bukkit-1.19.4" = _1qVBI2oR;
+        "bukkit-1.20" = _1qVBI2oR;
+        "bukkit-1.20.1" = _1qVBI2oR;
+        "bukkit-1.20.2" = _1qVBI2oR;
+        "bukkit-1.20.3" = _1qVBI2oR;
+        "bukkit-1.20.4" = _1qVBI2oR;
+        "paper-1.16" = _gTPQ7buB;
+        "paper-1.16.1" = _gTPQ7buB;
+        "paper-1.16.2" = _gTPQ7buB;
+        "paper-1.16.3" = _gTPQ7buB;
+        "paper-1.16.4" = _gTPQ7buB;
+        "paper-1.16.5" = _gTPQ7buB;
+        "paper-1.17" = _gTPQ7buB;
+        "paper-1.17.1" = _gTPQ7buB;
+        "paper-1.18" = _gTPQ7buB;
+        "paper-1.18.1" = _gTPQ7buB;
+        "paper-1.18.2" = _gTPQ7buB;
+        "paper-1.19" = _gTPQ7buB;
+        "paper-1.19.1" = _gTPQ7buB;
+        "paper-1.19.2" = _gTPQ7buB;
+        "paper-1.19.3" = _gTPQ7buB;
+        "paper-1.19.4" = _gTPQ7buB;
+        "paper-1.20" = _gTPQ7buB;
+        "paper-1.20.1" = _gTPQ7buB;
+        "paper-1.20.2" = _gTPQ7buB;
+        "paper-1.20.3" = _gTPQ7buB;
+        "paper-1.20.4" = _gTPQ7buB;
+        "purpur-1.16" = _gTPQ7buB;
+        "purpur-1.16.1" = _gTPQ7buB;
+        "purpur-1.16.2" = _gTPQ7buB;
+        "purpur-1.16.3" = _gTPQ7buB;
+        "purpur-1.16.4" = _gTPQ7buB;
+        "purpur-1.16.5" = _gTPQ7buB;
+        "purpur-1.17" = _gTPQ7buB;
+        "purpur-1.17.1" = _gTPQ7buB;
+        "purpur-1.18" = _gTPQ7buB;
+        "purpur-1.18.1" = _gTPQ7buB;
+        "purpur-1.18.2" = _gTPQ7buB;
+        "purpur-1.19" = _gTPQ7buB;
+        "purpur-1.19.1" = _gTPQ7buB;
+        "purpur-1.19.2" = _gTPQ7buB;
+        "purpur-1.19.3" = _gTPQ7buB;
+        "purpur-1.19.4" = _gTPQ7buB;
+        "purpur-1.20" = _gTPQ7buB;
+        "purpur-1.20.1" = _gTPQ7buB;
+        "purpur-1.20.2" = _gTPQ7buB;
+        "purpur-1.20.3" = _gTPQ7buB;
+        "purpur-1.20.4" = _gTPQ7buB;
+        "spigot-1.16" = _gTPQ7buB;
+        "spigot-1.16.1" = _gTPQ7buB;
+        "spigot-1.16.2" = _gTPQ7buB;
+        "spigot-1.16.3" = _gTPQ7buB;
+        "spigot-1.16.4" = _gTPQ7buB;
+        "spigot-1.16.5" = _gTPQ7buB;
+        "spigot-1.17" = _gTPQ7buB;
+        "spigot-1.17.1" = _gTPQ7buB;
+        "spigot-1.18" = _gTPQ7buB;
+        "spigot-1.18.1" = _gTPQ7buB;
+        "spigot-1.18.2" = _gTPQ7buB;
+        "spigot-1.19" = _gTPQ7buB;
+        "spigot-1.19.1" = _gTPQ7buB;
+        "spigot-1.19.2" = _gTPQ7buB;
+        "spigot-1.19.3" = _gTPQ7buB;
+        "spigot-1.19.4" = _gTPQ7buB;
+        "spigot-1.20" = _gTPQ7buB;
+        "spigot-1.20.1" = _gTPQ7buB;
+        "spigot-1.20.2" = _gTPQ7buB;
+        "spigot-1.20.3" = _gTPQ7buB;
+        "spigot-1.20.4" = _gTPQ7buB;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "votepass-mailer";
+            id = "iJ735gQq";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="gTPQ7buB";}

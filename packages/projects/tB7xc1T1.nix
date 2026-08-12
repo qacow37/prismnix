@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _sFKTvNGa = {
+            "id" = "sFKTvNGa";
+            "file" = "Natural Cataclysm dp.zip";
+            "hash" = "sha512-i/Y9JcaH5Dz0HESmbVkUiD5S/Wz6ak+CSa4/jN6f/jxYBb4bqux63Gm3X+2ymknHIm1OKQVKtlSwC+UAY+qZ+w==";
+        };
+        _m750SAHc = {
+            "id" = "m750SAHc";
+            "file" = "natural-cataclysm-V1.0.jar";
+            "hash" = "sha512-x1DXe4Q9/pBAxc54uZLb7tn1Xa8u00UQqLEbVedi+OOx9zUE1hV4xIB/e51rRgRNf0rpwoJX62Dy6VMrM6NcvA==";
+        };
+    in {
+        "sFKTvNGa" = _sFKTvNGa;
+        "m750SAHc" = _m750SAHc;
+        "datapack-1.21" = _sFKTvNGa;
+        "datapack-1.21.1" = _sFKTvNGa;
+        "datapack-1.21.2" = _sFKTvNGa;
+        "datapack-1.21.3" = _sFKTvNGa;
+        "datapack-1.21.4" = _sFKTvNGa;
+        "datapack-1.21.5" = _sFKTvNGa;
+        "datapack-1.21.6" = _sFKTvNGa;
+        "datapack-1.21.7" = _sFKTvNGa;
+        "datapack-1.21.8" = _sFKTvNGa;
+        "datapack-1.21.9" = _sFKTvNGa;
+        "datapack-1.21.10" = _sFKTvNGa;
+        "datapack-1.21.11" = _sFKTvNGa;
+        "datapack-26.1" = _sFKTvNGa;
+        "datapack-26.1.1" = _sFKTvNGa;
+        "datapack-26.1.2" = _sFKTvNGa;
+        "datapack-26.2" = _sFKTvNGa;
+        "fabric-1.21" = _m750SAHc;
+        "fabric-1.21.1" = _m750SAHc;
+        "fabric-1.21.2" = _m750SAHc;
+        "fabric-1.21.3" = _m750SAHc;
+        "fabric-1.21.4" = _m750SAHc;
+        "fabric-1.21.5" = _m750SAHc;
+        "fabric-1.21.6" = _m750SAHc;
+        "fabric-1.21.7" = _m750SAHc;
+        "fabric-1.21.8" = _m750SAHc;
+        "fabric-1.21.9" = _m750SAHc;
+        "fabric-1.21.10" = _m750SAHc;
+        "fabric-1.21.11" = _m750SAHc;
+        "fabric-26.1" = _m750SAHc;
+        "fabric-26.1.1" = _m750SAHc;
+        "fabric-26.1.2" = _m750SAHc;
+        "fabric-26.2" = _m750SAHc;
+        "forge-1.21" = _m750SAHc;
+        "forge-1.21.1" = _m750SAHc;
+        "forge-1.21.2" = _m750SAHc;
+        "forge-1.21.3" = _m750SAHc;
+        "forge-1.21.4" = _m750SAHc;
+        "forge-1.21.5" = _m750SAHc;
+        "forge-1.21.6" = _m750SAHc;
+        "forge-1.21.7" = _m750SAHc;
+        "forge-1.21.8" = _m750SAHc;
+        "forge-1.21.9" = _m750SAHc;
+        "forge-1.21.10" = _m750SAHc;
+        "forge-1.21.11" = _m750SAHc;
+        "forge-26.1" = _m750SAHc;
+        "forge-26.1.1" = _m750SAHc;
+        "forge-26.1.2" = _m750SAHc;
+        "forge-26.2" = _m750SAHc;
+        "neoforge-1.21" = _m750SAHc;
+        "neoforge-1.21.1" = _m750SAHc;
+        "neoforge-1.21.2" = _m750SAHc;
+        "neoforge-1.21.3" = _m750SAHc;
+        "neoforge-1.21.4" = _m750SAHc;
+        "neoforge-1.21.5" = _m750SAHc;
+        "neoforge-1.21.6" = _m750SAHc;
+        "neoforge-1.21.7" = _m750SAHc;
+        "neoforge-1.21.8" = _m750SAHc;
+        "neoforge-1.21.9" = _m750SAHc;
+        "neoforge-1.21.10" = _m750SAHc;
+        "neoforge-1.21.11" = _m750SAHc;
+        "neoforge-26.1" = _m750SAHc;
+        "neoforge-26.1.1" = _m750SAHc;
+        "neoforge-26.1.2" = _m750SAHc;
+        "neoforge-26.2" = _m750SAHc;
+        "quilt-1.21" = _m750SAHc;
+        "quilt-1.21.1" = _m750SAHc;
+        "quilt-1.21.2" = _m750SAHc;
+        "quilt-1.21.3" = _m750SAHc;
+        "quilt-1.21.4" = _m750SAHc;
+        "quilt-1.21.5" = _m750SAHc;
+        "quilt-1.21.6" = _m750SAHc;
+        "quilt-1.21.7" = _m750SAHc;
+        "quilt-1.21.8" = _m750SAHc;
+        "quilt-1.21.9" = _m750SAHc;
+        "quilt-1.21.10" = _m750SAHc;
+        "quilt-1.21.11" = _m750SAHc;
+        "quilt-26.1" = _m750SAHc;
+        "quilt-26.1.1" = _m750SAHc;
+        "quilt-26.1.2" = _m750SAHc;
+        "quilt-26.2" = _m750SAHc;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "natural-cataclysm";
+            id = "tB7xc1T1";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="m750SAHc";}

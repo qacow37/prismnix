@@ -1,0 +1,150 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _XoEFTlW7 = {
+            "id" = "XoEFTlW7";
+            "file" = "No More Wandering Merchant.zip";
+            "hash" = "sha512-plZsrX76gU80NtJM8MqNeiEV94xCkeYzpILED72Av9GQYHcTfaG+IkVONpQk5aJzve4YAHJN1ZyP29RS2BWzvw==";
+        };
+        _qlKtn4oz = {
+            "id" = "qlKtn4oz";
+            "file" = "no-more-wandering-merchant-1.0.0.jar";
+            "hash" = "sha512-exmXqfARSOT2PI8T53Xing8YaBDe5j/mkNIqNYmSW5cI/2G1jvl8JYb3B+QRDkr8Fk/vc6GtqpKkwMtYi+Kxhw==";
+        };
+        _yziImaw1 = {
+            "id" = "yziImaw1";
+            "file" = "no-more-wandering-merchant-1.0.0.jar";
+            "hash" = "sha512-IIxUbej124EOiC67LTTcEouqY+wfP6zYhO+AVgSgHp+g7AODjgK8Og33YyON0tTVcdHnf0vT/sTP/KCT2S7QZQ==";
+        };
+        _yh9oZzlQ = {
+            "id" = "yh9oZzlQ";
+            "file" = "No More Wandering Merchant.zip";
+            "hash" = "sha512-TuU8zOYleeX/h8oi+/eRS4XVcWUlQ8nHgfL/njXmTTEvZc0IHKcX+y1QAXt1t/2KYofs8ahk3/srjs6h8IJDxQ==";
+        };
+        _dfmVxOg8 = {
+            "id" = "dfmVxOg8";
+            "file" = "no-more-wandering-merchant-1.0.1.jar";
+            "hash" = "sha512-+/aKvmX1uy4uHtgUEhX4aKNZY9xalbSV28CleRwQTmPyQMGgOsb2aQaQQCYa1TVvXIlUvJ8PPafzJCEHRuWvhQ==";
+        };
+    in {
+        "XoEFTlW7" = _XoEFTlW7;
+        "qlKtn4oz" = _qlKtn4oz;
+        "yziImaw1" = _yziImaw1;
+        "yh9oZzlQ" = _yh9oZzlQ;
+        "dfmVxOg8" = _dfmVxOg8;
+        "datapack-1.18.2" = _yh9oZzlQ;
+        "datapack-1.19" = _yh9oZzlQ;
+        "datapack-1.19.1" = _yh9oZzlQ;
+        "datapack-1.19.2" = _yh9oZzlQ;
+        "datapack-1.19.3" = _yh9oZzlQ;
+        "datapack-1.19.4" = _yh9oZzlQ;
+        "datapack-1.20" = _yh9oZzlQ;
+        "datapack-1.20.1" = _yh9oZzlQ;
+        "datapack-1.20.2" = _yh9oZzlQ;
+        "datapack-1.20.3" = _yh9oZzlQ;
+        "datapack-1.20.4" = _yh9oZzlQ;
+        "datapack-1.20.5" = _yh9oZzlQ;
+        "datapack-1.20.6" = _yh9oZzlQ;
+        "datapack-1.21" = _yh9oZzlQ;
+        "datapack-1.21.1" = _yh9oZzlQ;
+        "datapack-1.21.2" = _yh9oZzlQ;
+        "datapack-1.21.3" = _yh9oZzlQ;
+        "datapack-1.21.4" = _yh9oZzlQ;
+        "datapack-1.21.5" = _yh9oZzlQ;
+        "fabric-1.18.2" = _dfmVxOg8;
+        "fabric-1.19" = _dfmVxOg8;
+        "fabric-1.19.1" = _dfmVxOg8;
+        "fabric-1.19.2" = _dfmVxOg8;
+        "fabric-1.19.3" = _dfmVxOg8;
+        "fabric-1.19.4" = _dfmVxOg8;
+        "fabric-1.20" = _dfmVxOg8;
+        "fabric-1.20.1" = _dfmVxOg8;
+        "fabric-1.20.2" = _dfmVxOg8;
+        "fabric-1.20.3" = _dfmVxOg8;
+        "fabric-1.20.4" = _dfmVxOg8;
+        "fabric-1.20.5" = _dfmVxOg8;
+        "fabric-1.20.6" = _dfmVxOg8;
+        "fabric-1.21" = _dfmVxOg8;
+        "fabric-1.21.1" = _dfmVxOg8;
+        "fabric-1.21.2" = _dfmVxOg8;
+        "fabric-1.21.3" = _dfmVxOg8;
+        "fabric-1.21.4" = _dfmVxOg8;
+        "fabric-1.21.5" = _dfmVxOg8;
+        "forge-1.18.2" = _dfmVxOg8;
+        "forge-1.19" = _dfmVxOg8;
+        "forge-1.19.1" = _dfmVxOg8;
+        "forge-1.19.2" = _dfmVxOg8;
+        "forge-1.19.3" = _dfmVxOg8;
+        "forge-1.19.4" = _dfmVxOg8;
+        "forge-1.20" = _dfmVxOg8;
+        "forge-1.20.1" = _dfmVxOg8;
+        "forge-1.20.2" = _dfmVxOg8;
+        "forge-1.20.3" = _dfmVxOg8;
+        "forge-1.20.4" = _dfmVxOg8;
+        "forge-1.20.5" = _dfmVxOg8;
+        "forge-1.20.6" = _dfmVxOg8;
+        "forge-1.21" = _dfmVxOg8;
+        "forge-1.21.1" = _dfmVxOg8;
+        "forge-1.21.2" = _dfmVxOg8;
+        "forge-1.21.3" = _dfmVxOg8;
+        "forge-1.21.4" = _dfmVxOg8;
+        "forge-1.21.5" = _dfmVxOg8;
+        "quilt-1.18.2" = _dfmVxOg8;
+        "quilt-1.19" = _dfmVxOg8;
+        "quilt-1.19.1" = _dfmVxOg8;
+        "quilt-1.19.2" = _dfmVxOg8;
+        "quilt-1.19.3" = _dfmVxOg8;
+        "quilt-1.19.4" = _dfmVxOg8;
+        "quilt-1.20" = _dfmVxOg8;
+        "quilt-1.20.1" = _dfmVxOg8;
+        "quilt-1.20.2" = _dfmVxOg8;
+        "quilt-1.20.3" = _dfmVxOg8;
+        "quilt-1.20.4" = _dfmVxOg8;
+        "quilt-1.20.5" = _dfmVxOg8;
+        "quilt-1.20.6" = _dfmVxOg8;
+        "quilt-1.21" = _dfmVxOg8;
+        "quilt-1.21.1" = _dfmVxOg8;
+        "quilt-1.21.2" = _dfmVxOg8;
+        "quilt-1.21.3" = _dfmVxOg8;
+        "quilt-1.21.4" = _dfmVxOg8;
+        "quilt-1.21.5" = _dfmVxOg8;
+        "neoforge-1.18.2" = _dfmVxOg8;
+        "neoforge-1.19" = _dfmVxOg8;
+        "neoforge-1.19.1" = _dfmVxOg8;
+        "neoforge-1.19.2" = _dfmVxOg8;
+        "neoforge-1.19.3" = _dfmVxOg8;
+        "neoforge-1.19.4" = _dfmVxOg8;
+        "neoforge-1.20" = _dfmVxOg8;
+        "neoforge-1.20.1" = _dfmVxOg8;
+        "neoforge-1.20.2" = _dfmVxOg8;
+        "neoforge-1.20.3" = _dfmVxOg8;
+        "neoforge-1.20.4" = _dfmVxOg8;
+        "neoforge-1.20.5" = _dfmVxOg8;
+        "neoforge-1.20.6" = _dfmVxOg8;
+        "neoforge-1.21" = _dfmVxOg8;
+        "neoforge-1.21.1" = _dfmVxOg8;
+        "neoforge-1.21.2" = _dfmVxOg8;
+        "neoforge-1.21.3" = _dfmVxOg8;
+        "neoforge-1.21.4" = _dfmVxOg8;
+        "neoforge-1.21.5" = _dfmVxOg8;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "no-more-wandering-merchant";
+            id = "YLQ3wNuM";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="dfmVxOg8";}

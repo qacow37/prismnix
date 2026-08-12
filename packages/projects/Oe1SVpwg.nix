@@ -1,0 +1,168 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ipsz1Jiv = {
+            "id" = "ipsz1Jiv";
+            "file" = "No More Phantoms.zip";
+            "hash" = "sha512-VA2/v3QqS0WZgFTnyMcvBPH6IAYbl1W1bP03nkfZBDIypYSGeIffTlM2EK2SJSLQXMjnsD0qOFLvPHP5dRzl/Q==";
+        };
+        _RR0oYMg2 = {
+            "id" = "RR0oYMg2";
+            "file" = "no-more-phantoms-1.0.0.jar";
+            "hash" = "sha512-Gj+W2JwU2RnJTNP8Lzakh9mWdDsFSfR2QKNpNTATbxs4tMEUAGkjDjvhCg+6OBmr4azLQZ0vvGZCrC2AEb1OXw==";
+        };
+        _mwHgnXRm = {
+            "id" = "mwHgnXRm";
+            "file" = "No More Phantoms.zip";
+            "hash" = "sha512-VA2/v3QqS0WZgFTnyMcvBPH6IAYbl1W1bP03nkfZBDIypYSGeIffTlM2EK2SJSLQXMjnsD0qOFLvPHP5dRzl/Q==";
+        };
+        _CL94TECh = {
+            "id" = "CL94TECh";
+            "file" = "no-more-phantoms-1.01.jar";
+            "hash" = "sha512-rO5YO7DlXL704MIa86WG9qBFf/lsJW2e2YMJcXAFnhe+u1zMa3E7lRY0n5PVzDaLEgXsBlzYKOr9ZTTSdE52Sw==";
+        };
+        _eyWM0U6C = {
+            "id" = "eyWM0U6C";
+            "file" = "No More Phantoms.zip";
+            "hash" = "sha512-a2vCKLNtdZdLOlKlGWqahbo5NjGFWze1tSFDV8con4/QOz708cTFY78ZroPOQALjD+cnHLn8X1dMZgjExEQOvA==";
+        };
+        _XwILPyae = {
+            "id" = "XwILPyae";
+            "file" = "no-more-phantoms-1.0.2.jar";
+            "hash" = "sha512-29r/ky5g/nZvJrjNUPrCz/Cxt7Tk0oraCVXU2fmxlY0oEJfX8snDdmzpTckbT/nTPRspTP7RKQYIQzeXlatoHQ==";
+        };
+        _qLTPxdQQ = {
+            "id" = "qLTPxdQQ";
+            "file" = "No More Phantoms.zip";
+            "hash" = "sha512-17eci0CojcoU5f50gYJS13xd60KtuG4kPPytMnOYWLMiGpy1R/JtkPc54dV9ISAgJilg2aLmwukqjw1OkfxUBw==";
+        };
+        _UnuNva2v = {
+            "id" = "UnuNva2v";
+            "file" = "no-more-phantoms-1.0.3.jar";
+            "hash" = "sha512-/MLR2avVzE8ILmeRtdya/nl+wFnQMfcHokrvPzNiIjF3WSgvPuGPMz+DbjPTLjkgmUMH4rGVKj6dJFeXAyVy/Q==";
+        };
+    in {
+        "ipsz1Jiv" = _ipsz1Jiv;
+        "RR0oYMg2" = _RR0oYMg2;
+        "mwHgnXRm" = _mwHgnXRm;
+        "CL94TECh" = _CL94TECh;
+        "eyWM0U6C" = _eyWM0U6C;
+        "XwILPyae" = _XwILPyae;
+        "qLTPxdQQ" = _qLTPxdQQ;
+        "UnuNva2v" = _UnuNva2v;
+        "datapack-1.18.2" = _qLTPxdQQ;
+        "datapack-1.19" = _qLTPxdQQ;
+        "datapack-1.19.1" = _qLTPxdQQ;
+        "datapack-1.19.2" = _qLTPxdQQ;
+        "datapack-1.19.3" = _qLTPxdQQ;
+        "datapack-1.19.4" = _qLTPxdQQ;
+        "datapack-1.20" = _qLTPxdQQ;
+        "datapack-1.20.1" = _qLTPxdQQ;
+        "datapack-1.20.2" = _qLTPxdQQ;
+        "datapack-1.20.3" = _qLTPxdQQ;
+        "datapack-1.20.4" = _qLTPxdQQ;
+        "datapack-1.20.5" = _qLTPxdQQ;
+        "datapack-1.20.6" = _qLTPxdQQ;
+        "datapack-1.21" = _qLTPxdQQ;
+        "datapack-1.21.1" = _qLTPxdQQ;
+        "datapack-1.21.2" = _qLTPxdQQ;
+        "datapack-1.21.3" = _qLTPxdQQ;
+        "datapack-1.21.4" = _qLTPxdQQ;
+        "datapack-1.21.5" = _qLTPxdQQ;
+        "fabric-1.18.2" = _UnuNva2v;
+        "fabric-1.19" = _UnuNva2v;
+        "fabric-1.19.1" = _UnuNva2v;
+        "fabric-1.19.2" = _UnuNva2v;
+        "fabric-1.19.3" = _UnuNva2v;
+        "fabric-1.19.4" = _UnuNva2v;
+        "fabric-1.20" = _UnuNva2v;
+        "fabric-1.20.1" = _UnuNva2v;
+        "fabric-1.20.2" = _UnuNva2v;
+        "fabric-1.20.3" = _UnuNva2v;
+        "fabric-1.20.4" = _UnuNva2v;
+        "fabric-1.20.5" = _UnuNva2v;
+        "fabric-1.20.6" = _UnuNva2v;
+        "fabric-1.21" = _UnuNva2v;
+        "fabric-1.21.1" = _UnuNva2v;
+        "fabric-1.21.2" = _UnuNva2v;
+        "fabric-1.21.3" = _UnuNva2v;
+        "fabric-1.21.4" = _UnuNva2v;
+        "fabric-1.21.5" = _UnuNva2v;
+        "forge-1.18.2" = _UnuNva2v;
+        "forge-1.19" = _UnuNva2v;
+        "forge-1.19.1" = _UnuNva2v;
+        "forge-1.19.2" = _UnuNva2v;
+        "forge-1.19.3" = _UnuNva2v;
+        "forge-1.19.4" = _UnuNva2v;
+        "forge-1.20" = _UnuNva2v;
+        "forge-1.20.1" = _UnuNva2v;
+        "forge-1.20.2" = _UnuNva2v;
+        "forge-1.20.3" = _UnuNva2v;
+        "forge-1.20.4" = _UnuNva2v;
+        "forge-1.20.5" = _UnuNva2v;
+        "forge-1.20.6" = _UnuNva2v;
+        "forge-1.21" = _UnuNva2v;
+        "forge-1.21.1" = _UnuNva2v;
+        "forge-1.21.2" = _UnuNva2v;
+        "forge-1.21.3" = _UnuNva2v;
+        "forge-1.21.4" = _UnuNva2v;
+        "forge-1.21.5" = _UnuNva2v;
+        "quilt-1.18.2" = _UnuNva2v;
+        "quilt-1.19" = _UnuNva2v;
+        "quilt-1.19.1" = _UnuNva2v;
+        "quilt-1.19.2" = _UnuNva2v;
+        "quilt-1.19.3" = _UnuNva2v;
+        "quilt-1.19.4" = _UnuNva2v;
+        "quilt-1.20" = _UnuNva2v;
+        "quilt-1.20.1" = _UnuNva2v;
+        "quilt-1.20.2" = _UnuNva2v;
+        "quilt-1.20.3" = _UnuNva2v;
+        "quilt-1.20.4" = _UnuNva2v;
+        "quilt-1.20.5" = _UnuNva2v;
+        "quilt-1.20.6" = _UnuNva2v;
+        "quilt-1.21" = _UnuNva2v;
+        "quilt-1.21.1" = _UnuNva2v;
+        "quilt-1.21.2" = _UnuNva2v;
+        "quilt-1.21.3" = _UnuNva2v;
+        "quilt-1.21.4" = _UnuNva2v;
+        "quilt-1.21.5" = _UnuNva2v;
+        "neoforge-1.18.2" = _UnuNva2v;
+        "neoforge-1.19" = _UnuNva2v;
+        "neoforge-1.19.1" = _UnuNva2v;
+        "neoforge-1.19.2" = _UnuNva2v;
+        "neoforge-1.19.3" = _UnuNva2v;
+        "neoforge-1.19.4" = _UnuNva2v;
+        "neoforge-1.20" = _UnuNva2v;
+        "neoforge-1.20.1" = _UnuNva2v;
+        "neoforge-1.20.2" = _UnuNva2v;
+        "neoforge-1.20.3" = _UnuNva2v;
+        "neoforge-1.20.4" = _UnuNva2v;
+        "neoforge-1.20.5" = _UnuNva2v;
+        "neoforge-1.20.6" = _UnuNva2v;
+        "neoforge-1.21" = _UnuNva2v;
+        "neoforge-1.21.1" = _UnuNva2v;
+        "neoforge-1.21.2" = _UnuNva2v;
+        "neoforge-1.21.3" = _UnuNva2v;
+        "neoforge-1.21.4" = _UnuNva2v;
+        "neoforge-1.21.5" = _UnuNva2v;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "no-more-phantoms";
+            id = "Oe1SVpwg";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="UnuNva2v";}

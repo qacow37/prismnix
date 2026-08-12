@@ -1,0 +1,127 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _yBdASd0L = {
+            "id" = "yBdASd0L";
+            "file" = "Sun and Moon Paw 1.0.0.zip";
+            "hash" = "sha512-mWBcZKhufrZgDM4etILL8biCubGqcyJLv4UxVLqie5Ka5ryZgzoLRSNlcFDw542WRb6yTydc7qUXlp9xvPV0kA==";
+        };
+        _R5R3XCb5 = {
+            "id" = "R5R3XCb5";
+            "file" = "Sun and Moon Paw 1.1.zip";
+            "hash" = "sha512-Jxn6eEecuM8V1wobX7x3WC90SBhEDKRN5GqWK0/Wec0ETYC6hTTMJd2c5sIAyduD/bg2Gzn2EiAQE1nJ0zyZrA==";
+        };
+    in {
+        "yBdASd0L" = _yBdASd0L;
+        "R5R3XCb5" = _R5R3XCb5;
+        "minecraft-1.7.10" = _R5R3XCb5;
+        "minecraft-1.8" = _R5R3XCb5;
+        "minecraft-1.8.1" = _R5R3XCb5;
+        "minecraft-1.8.2" = _R5R3XCb5;
+        "minecraft-1.8.3" = _R5R3XCb5;
+        "minecraft-1.8.4" = _R5R3XCb5;
+        "minecraft-1.8.5" = _R5R3XCb5;
+        "minecraft-1.8.6" = _R5R3XCb5;
+        "minecraft-1.8.7" = _R5R3XCb5;
+        "minecraft-1.8.8" = _R5R3XCb5;
+        "minecraft-1.8.9" = _R5R3XCb5;
+        "minecraft-1.9" = _R5R3XCb5;
+        "minecraft-1.9.1" = _R5R3XCb5;
+        "minecraft-1.9.2" = _R5R3XCb5;
+        "minecraft-1.9.3" = _R5R3XCb5;
+        "minecraft-1.9.4" = _R5R3XCb5;
+        "minecraft-1.10" = _R5R3XCb5;
+        "minecraft-1.10.1" = _R5R3XCb5;
+        "minecraft-1.10.2" = _R5R3XCb5;
+        "minecraft-1.11" = _R5R3XCb5;
+        "minecraft-1.11.1" = _R5R3XCb5;
+        "minecraft-1.11.2" = _R5R3XCb5;
+        "minecraft-1.12" = _R5R3XCb5;
+        "minecraft-1.12.1" = _R5R3XCb5;
+        "minecraft-1.12.2" = _R5R3XCb5;
+        "minecraft-1.13" = _R5R3XCb5;
+        "minecraft-1.13.1" = _R5R3XCb5;
+        "minecraft-1.13.2" = _R5R3XCb5;
+        "minecraft-1.14" = _R5R3XCb5;
+        "minecraft-1.14.1" = _R5R3XCb5;
+        "minecraft-1.14.2" = _R5R3XCb5;
+        "minecraft-1.14.3" = _R5R3XCb5;
+        "minecraft-1.14.4" = _R5R3XCb5;
+        "minecraft-1.15" = _R5R3XCb5;
+        "minecraft-1.15.1" = _R5R3XCb5;
+        "minecraft-1.15.2" = _R5R3XCb5;
+        "minecraft-1.16" = _R5R3XCb5;
+        "minecraft-1.16.1" = _R5R3XCb5;
+        "minecraft-1.16.2" = _R5R3XCb5;
+        "minecraft-1.16.3" = _R5R3XCb5;
+        "minecraft-1.16.4" = _R5R3XCb5;
+        "minecraft-1.16.5" = _R5R3XCb5;
+        "minecraft-1.17" = _R5R3XCb5;
+        "minecraft-1.17.1" = _R5R3XCb5;
+        "minecraft-1.18" = _R5R3XCb5;
+        "minecraft-1.18.1" = _R5R3XCb5;
+        "minecraft-1.18.2" = _R5R3XCb5;
+        "minecraft-1.19" = _R5R3XCb5;
+        "minecraft-1.19.1" = _R5R3XCb5;
+        "minecraft-1.19.2" = _R5R3XCb5;
+        "minecraft-1.19.3" = _R5R3XCb5;
+        "minecraft-1.19.4" = _R5R3XCb5;
+        "minecraft-1.20" = _R5R3XCb5;
+        "minecraft-1.20.1" = _R5R3XCb5;
+        "minecraft-1.20.2" = _R5R3XCb5;
+        "minecraft-1.20.3" = _R5R3XCb5;
+        "minecraft-1.20.4" = _R5R3XCb5;
+        "minecraft-1.20.5" = _R5R3XCb5;
+        "minecraft-1.20.6" = _R5R3XCb5;
+        "minecraft-1.21" = _R5R3XCb5;
+        "minecraft-1.21.1" = _R5R3XCb5;
+        "minecraft-1.21.2" = _R5R3XCb5;
+        "minecraft-1.21.3" = _R5R3XCb5;
+        "minecraft-1.21.4" = _R5R3XCb5;
+        "minecraft-1.21.5" = _R5R3XCb5;
+        "minecraft-1.21.6" = _R5R3XCb5;
+        "minecraft-1.21.7" = _R5R3XCb5;
+        "minecraft-1.21.8" = _R5R3XCb5;
+        "minecraft-1.21.9" = _R5R3XCb5;
+        "minecraft-1.21.10" = _R5R3XCb5;
+        "minecraft-1.21.11" = _R5R3XCb5;
+        "minecraft-26.1" = _R5R3XCb5;
+        "minecraft-26.1.1" = _R5R3XCb5;
+        "minecraft-26.1.2" = _R5R3XCb5;
+        "minecraft-26.2-snapshot-2" = _R5R3XCb5;
+        "minecraft-26.2-snapshot-3" = _R5R3XCb5;
+        "minecraft-26.2-snapshot-4" = _R5R3XCb5;
+        "minecraft-26.2-snapshot-5" = _R5R3XCb5;
+        "minecraft-26.2-snapshot-6" = _R5R3XCb5;
+        "minecraft-26.2-snapshot-7" = _R5R3XCb5;
+        "minecraft-26.2-snapshot-8" = _R5R3XCb5;
+        "minecraft-26.2-pre-1" = _R5R3XCb5;
+        "minecraft-26.2-pre-2" = _R5R3XCb5;
+        "minecraft-26.2" = _R5R3XCb5;
+        "minecraft-26.3-snapshot-1" = _R5R3XCb5;
+        "minecraft-26.3-snapshot-2" = _R5R3XCb5;
+        "minecraft-26.3-snapshot-3" = _R5R3XCb5;
+        "minecraft-26.3-snapshot-4" = _R5R3XCb5;
+        "minecraft-26.3-snapshot-5" = _R5R3XCb5;
+        "minecraft-26.3-snapshot-6" = _R5R3XCb5;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "sun-and-moon-paw";
+            id = "ztv0hUDB";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                    shortName = "CC-BY-NC-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="R5R3XCb5";}

@@ -1,0 +1,120 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _P3DqAQ08 = {
+            "id" = "P3DqAQ08";
+            "file" = "Diamond Smp Perfected.zip";
+            "hash" = "sha512-ePkWM3Aqz/fTCjqB9JkjglTyiZYy/YlYvSms5QPZQPF1U8abKWWjeDeeabhItwkk+zZmGLanZC1qiUN9l+a9uA==";
+        };
+        _NGf7NsEm = {
+            "id" = "NGf7NsEm";
+            "file" = "Diamond Smp Perfected.zip";
+            "hash" = "sha512-ePkWM3Aqz/fTCjqB9JkjglTyiZYy/YlYvSms5QPZQPF1U8abKWWjeDeeabhItwkk+zZmGLanZC1qiUN9l+a9uA==";
+        };
+    in {
+        "P3DqAQ08" = _P3DqAQ08;
+        "NGf7NsEm" = _NGf7NsEm;
+        "minecraft-1.21" = _P3DqAQ08;
+        "minecraft-1.21.1" = _P3DqAQ08;
+        "minecraft-1.21.2" = _P3DqAQ08;
+        "minecraft-1.21.3" = _P3DqAQ08;
+        "minecraft-1.21.4" = _NGf7NsEm;
+        "minecraft-1.21.5" = _P3DqAQ08;
+        "minecraft-1.21.6" = _P3DqAQ08;
+        "minecraft-1.21.7" = _P3DqAQ08;
+        "minecraft-1.21.8" = _P3DqAQ08;
+        "minecraft-1.21.9" = _P3DqAQ08;
+        "minecraft-1.21.10" = _P3DqAQ08;
+        "minecraft-1.21.11" = _P3DqAQ08;
+        "minecraft-1.16.2" = _NGf7NsEm;
+        "minecraft-1.16.3" = _NGf7NsEm;
+        "minecraft-1.16.4" = _NGf7NsEm;
+        "minecraft-1.16.5" = _NGf7NsEm;
+        "minecraft-1.17" = _NGf7NsEm;
+        "minecraft-1.17.1" = _NGf7NsEm;
+        "minecraft-1.18" = _NGf7NsEm;
+        "minecraft-1.18.1" = _NGf7NsEm;
+        "minecraft-1.18.2" = _NGf7NsEm;
+        "minecraft-1.19" = _NGf7NsEm;
+        "minecraft-1.19.1" = _NGf7NsEm;
+        "minecraft-1.19.2" = _NGf7NsEm;
+        "minecraft-22w42a" = _NGf7NsEm;
+        "minecraft-22w43a" = _NGf7NsEm;
+        "minecraft-22w44a" = _NGf7NsEm;
+        "minecraft-1.19.3" = _NGf7NsEm;
+        "minecraft-1.19.4" = _NGf7NsEm;
+        "minecraft-23w14a" = _NGf7NsEm;
+        "minecraft-23w16a" = _NGf7NsEm;
+        "minecraft-1.20" = _NGf7NsEm;
+        "minecraft-1.20.1" = _NGf7NsEm;
+        "minecraft-23w31a" = _NGf7NsEm;
+        "minecraft-23w32a" = _NGf7NsEm;
+        "minecraft-23w33a" = _NGf7NsEm;
+        "minecraft-23w35a" = _NGf7NsEm;
+        "minecraft-1.20.2-pre1" = _NGf7NsEm;
+        "minecraft-1.20.2" = _NGf7NsEm;
+        "minecraft-23w42a" = _NGf7NsEm;
+        "minecraft-23w43a" = _NGf7NsEm;
+        "minecraft-23w43b" = _NGf7NsEm;
+        "minecraft-23w44a" = _NGf7NsEm;
+        "minecraft-23w45a" = _NGf7NsEm;
+        "minecraft-23w46a" = _NGf7NsEm;
+        "minecraft-1.20.3" = _NGf7NsEm;
+        "minecraft-1.20.4" = _NGf7NsEm;
+        "minecraft-24w03a" = _NGf7NsEm;
+        "minecraft-24w03b" = _NGf7NsEm;
+        "minecraft-24w04a" = _NGf7NsEm;
+        "minecraft-24w05a" = _NGf7NsEm;
+        "minecraft-24w05b" = _NGf7NsEm;
+        "minecraft-24w06a" = _NGf7NsEm;
+        "minecraft-24w07a" = _NGf7NsEm;
+        "minecraft-24w09a" = _NGf7NsEm;
+        "minecraft-24w10a" = _NGf7NsEm;
+        "minecraft-24w11a" = _NGf7NsEm;
+        "minecraft-24w12a" = _NGf7NsEm;
+        "minecraft-24w13a" = _NGf7NsEm;
+        "minecraft-24w14potato" = _NGf7NsEm;
+        "minecraft-24w14a" = _NGf7NsEm;
+        "minecraft-1.20.5-pre1" = _NGf7NsEm;
+        "minecraft-1.20.5-pre2" = _NGf7NsEm;
+        "minecraft-1.20.5-pre3" = _NGf7NsEm;
+        "minecraft-1.20.5" = _NGf7NsEm;
+        "minecraft-1.20.6" = _NGf7NsEm;
+        "minecraft-24w18a" = _NGf7NsEm;
+        "minecraft-24w19a" = _NGf7NsEm;
+        "minecraft-24w19b" = _NGf7NsEm;
+        "minecraft-24w20a" = _NGf7NsEm;
+        "minecraft-24w33a" = _NGf7NsEm;
+        "minecraft-24w34a" = _NGf7NsEm;
+        "minecraft-24w35a" = _NGf7NsEm;
+        "minecraft-24w36a" = _NGf7NsEm;
+        "minecraft-24w37a" = _NGf7NsEm;
+        "minecraft-24w38a" = _NGf7NsEm;
+        "minecraft-24w39a" = _NGf7NsEm;
+        "minecraft-24w40a" = _NGf7NsEm;
+        "minecraft-1.21.2-pre1" = _NGf7NsEm;
+        "minecraft-1.21.2-pre2" = _NGf7NsEm;
+        "minecraft-24w44a" = _NGf7NsEm;
+        "minecraft-24w45a" = _NGf7NsEm;
+        "minecraft-24w46a" = _NGf7NsEm;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "diamond-smp-perfected";
+            id = "Y6xMMYDC";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="NGf7NsEm";}

@@ -1,0 +1,112 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _svvPwztJ = {
+            "id" = "svvPwztJ";
+            "file" = "Plus Enchantment.zip";
+            "hash" = "sha512-Ok8BfeesIpP6hgSoqn3lNPD+dPf3qs+D1A5+J4bdiK5eEAwDb0Y+Tieypf7zd0fAJrThblricWudBQ6axQf8NA==";
+        };
+        _4r3Os6Vd = {
+            "id" = "4r3Os6Vd";
+            "file" = "Plus Enchant 1.21+.jar";
+            "hash" = "sha512-8TpWZQcGLEn7D6oJyaBfG7VB1B5/t7ig+LdoYWCXECQqqh/Fago7R/MLrgmi2y2ODAWQcsSdhImTzYr7vA3Q/w==";
+        };
+    in {
+        "svvPwztJ" = _svvPwztJ;
+        "4r3Os6Vd" = _4r3Os6Vd;
+        "datapack-1.21" = _svvPwztJ;
+        "datapack-1.21.1" = _svvPwztJ;
+        "datapack-1.21.2" = _svvPwztJ;
+        "datapack-1.21.3" = _svvPwztJ;
+        "datapack-1.21.4" = _svvPwztJ;
+        "datapack-1.21.5" = _svvPwztJ;
+        "datapack-1.21.6" = _svvPwztJ;
+        "datapack-1.21.7" = _svvPwztJ;
+        "datapack-1.21.8" = _svvPwztJ;
+        "datapack-1.21.9" = _svvPwztJ;
+        "datapack-1.21.10" = _svvPwztJ;
+        "datapack-1.21.11" = _svvPwztJ;
+        "datapack-26.1" = _svvPwztJ;
+        "datapack-26.1.1" = _svvPwztJ;
+        "datapack-26.1.2" = _svvPwztJ;
+        "fabric-1.21" = _4r3Os6Vd;
+        "fabric-1.21.1" = _4r3Os6Vd;
+        "fabric-1.21.2" = _4r3Os6Vd;
+        "fabric-1.21.3" = _4r3Os6Vd;
+        "fabric-1.21.4" = _4r3Os6Vd;
+        "fabric-1.21.5" = _4r3Os6Vd;
+        "fabric-1.21.6" = _4r3Os6Vd;
+        "fabric-1.21.7" = _4r3Os6Vd;
+        "fabric-1.21.8" = _4r3Os6Vd;
+        "fabric-1.21.9" = _4r3Os6Vd;
+        "fabric-1.21.10" = _4r3Os6Vd;
+        "fabric-1.21.11" = _4r3Os6Vd;
+        "fabric-26.1" = _4r3Os6Vd;
+        "fabric-26.1.1" = _4r3Os6Vd;
+        "fabric-26.1.2" = _4r3Os6Vd;
+        "forge-1.21" = _4r3Os6Vd;
+        "forge-1.21.1" = _4r3Os6Vd;
+        "forge-1.21.2" = _4r3Os6Vd;
+        "forge-1.21.3" = _4r3Os6Vd;
+        "forge-1.21.4" = _4r3Os6Vd;
+        "forge-1.21.5" = _4r3Os6Vd;
+        "forge-1.21.6" = _4r3Os6Vd;
+        "forge-1.21.7" = _4r3Os6Vd;
+        "forge-1.21.8" = _4r3Os6Vd;
+        "forge-1.21.9" = _4r3Os6Vd;
+        "forge-1.21.10" = _4r3Os6Vd;
+        "forge-1.21.11" = _4r3Os6Vd;
+        "forge-26.1" = _4r3Os6Vd;
+        "forge-26.1.1" = _4r3Os6Vd;
+        "forge-26.1.2" = _4r3Os6Vd;
+        "neoforge-1.21" = _4r3Os6Vd;
+        "neoforge-1.21.1" = _4r3Os6Vd;
+        "neoforge-1.21.2" = _4r3Os6Vd;
+        "neoforge-1.21.3" = _4r3Os6Vd;
+        "neoforge-1.21.4" = _4r3Os6Vd;
+        "neoforge-1.21.5" = _4r3Os6Vd;
+        "neoforge-1.21.6" = _4r3Os6Vd;
+        "neoforge-1.21.7" = _4r3Os6Vd;
+        "neoforge-1.21.8" = _4r3Os6Vd;
+        "neoforge-1.21.9" = _4r3Os6Vd;
+        "neoforge-1.21.10" = _4r3Os6Vd;
+        "neoforge-1.21.11" = _4r3Os6Vd;
+        "neoforge-26.1" = _4r3Os6Vd;
+        "neoforge-26.1.1" = _4r3Os6Vd;
+        "neoforge-26.1.2" = _4r3Os6Vd;
+        "quilt-1.21" = _4r3Os6Vd;
+        "quilt-1.21.1" = _4r3Os6Vd;
+        "quilt-1.21.2" = _4r3Os6Vd;
+        "quilt-1.21.3" = _4r3Os6Vd;
+        "quilt-1.21.4" = _4r3Os6Vd;
+        "quilt-1.21.5" = _4r3Os6Vd;
+        "quilt-1.21.6" = _4r3Os6Vd;
+        "quilt-1.21.7" = _4r3Os6Vd;
+        "quilt-1.21.8" = _4r3Os6Vd;
+        "quilt-1.21.9" = _4r3Os6Vd;
+        "quilt-1.21.10" = _4r3Os6Vd;
+        "quilt-1.21.11" = _4r3Os6Vd;
+        "quilt-26.1" = _4r3Os6Vd;
+        "quilt-26.1.1" = _4r3Os6Vd;
+        "quilt-26.1.2" = _4r3Os6Vd;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "plus-enchantment";
+            id = "QLP4kFQJ";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="4r3Os6Vd";}

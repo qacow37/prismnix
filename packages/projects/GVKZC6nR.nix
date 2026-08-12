@@ -1,0 +1,215 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _F32EwIRr = {
+            "id" = "F32EwIRr";
+            "file" = "PickaxableGlass-1.2.zip";
+            "hash" = "sha512-zp7VT0Qxmft6nNxJwH1nQ+DW/3WI6BqZSYNoMOVRp5F2Iw+3NCLHo/QAR1Xq1Zkmf2kG6cMAbBuPC02VjmS2Ug==";
+        };
+        _PyfuJ2CB = {
+            "id" = "PyfuJ2CB";
+            "file" = "pickaxable-glass-1.2.jar";
+            "hash" = "sha512-Yliulthmt+SESXcqFUqGC1DILLGWdyqELW3ViV+MJXnxE2wezvgCLZQl2/Iqb10L/M6FgLcgzXEzz85MJ+YdnQ==";
+        };
+        _WZPAFsKs = {
+            "id" = "WZPAFsKs";
+            "file" = "PickaxableGlass-1.2.zip";
+            "hash" = "sha512-fX0EhOLpRAHk98TUWnlFxYQtuRQ537FVo2A5tyhofVrC/UDZnOF6Z66Bp0bfxEiAu3I0J3ylqRRLnnfJHPSWDg==";
+        };
+        _794TluqZ = {
+            "id" = "794TluqZ";
+            "file" = "pickaxable-glass-1.2.1.jar";
+            "hash" = "sha512-vgugIg0vz8LRSertsHaYdbULNUhbp3wZdvSEj4LR4ZGs6/3qQqTqpIgSKYNf7JXvhFKu+K3A068nXFRPrIEXJQ==";
+        };
+        _oPLG6jmc = {
+            "id" = "oPLG6jmc";
+            "file" = "PickaxableGlass-1.2.2.zip";
+            "hash" = "sha512-UyzU6U7np5+PnRh1UymmR670tscrwHWXBauXlmHmIMINBywrYnynW4FqunHy6cgFnX3YfaAJ0KjiYJnaD1h1ZA==";
+        };
+        _BOcmf0Jh = {
+            "id" = "BOcmf0Jh";
+            "file" = "pickaxable-glass-1.2..jar";
+            "hash" = "sha512-8El/R7z4az1IcFETc/qHoOxhMf03J3WzrHTf8P955aUEPDLE+oCi1AIm5I4KmxNKjxBOLwzNW2UNRlp474YXFw==";
+        };
+        _U6aMCIYD = {
+            "id" = "U6aMCIYD";
+            "file" = "PickaxableGlass-1.3.0.zip";
+            "hash" = "sha512-Mf6PqF23HxiqOXJ8/8pCTKeU72WKSc3zTmgQKmGdtWVEpmwI3S01R0WUKVRgxwb/PmSrOas1UP17QjDqdhf6lw==";
+        };
+        _9pDo96ai = {
+            "id" = "9pDo96ai";
+            "file" = "pickaxable-glass-1.3.0.jar";
+            "hash" = "sha512-X0tTGxU4dztmq9HflnuVCjHvmi20yqFYwDAaACiGjMwfNWuUPWK3uCZZWkPj92KFluRsEZiNZViUWwDow5v8+w==";
+        };
+        _cU17GRBg = {
+            "id" = "cU17GRBg";
+            "file" = "PickaxableGlass-1.4.0.zip";
+            "hash" = "sha512-kVptz7Q59cu1ruZ25B1xCM9DNeCSJOEaUOXBa00GzBWYSvAG+fq0AYowCDfXhAodrASdYWFlaNFToOzi3amC2g==";
+        };
+        _DOQoenLD = {
+            "id" = "DOQoenLD";
+            "file" = "pickaxable-glass-1.4.0.jar";
+            "hash" = "sha512-AEcHj1AdxONHBaXGlAd3fvlQQExNt1FLM7St5Ag9g7pC6OiOoG2a5UUq3Dh+Pi4CppQZ+UTXFOO4BHwm6+zVYQ==";
+        };
+        _zwbVGyDJ = {
+            "id" = "zwbVGyDJ";
+            "file" = "PickaxableGlass-1.5.0.zip";
+            "hash" = "sha512-ByIqxEaXnh9Z/4NTdDsV99WH1IWtrxsC6Mvhcpf9tiPS5giYt86T/8etM4+uEbUZPRS904zTBTwIncgU/ssUMA==";
+        };
+        _gIqESQj3 = {
+            "id" = "gIqESQj3";
+            "file" = "pickaxable-glass-1.5.0.jar";
+            "hash" = "sha512-Rat12EQkXKvM8wn85SXfirKJ4XVlWdjOvlOwWIvwoj35yqOErxCP/avgOi1kZJkxsShwzcPTUxwnUS4TrWZp0Q==";
+        };
+    in {
+        "F32EwIRr" = _F32EwIRr;
+        "PyfuJ2CB" = _PyfuJ2CB;
+        "WZPAFsKs" = _WZPAFsKs;
+        "794TluqZ" = _794TluqZ;
+        "oPLG6jmc" = _oPLG6jmc;
+        "BOcmf0Jh" = _BOcmf0Jh;
+        "U6aMCIYD" = _U6aMCIYD;
+        "9pDo96ai" = _9pDo96ai;
+        "cU17GRBg" = _cU17GRBg;
+        "DOQoenLD" = _DOQoenLD;
+        "zwbVGyDJ" = _zwbVGyDJ;
+        "gIqESQj3" = _gIqESQj3;
+        "datapack-1.18" = _F32EwIRr;
+        "datapack-1.18.1" = _F32EwIRr;
+        "datapack-1.18.2" = _F32EwIRr;
+        "datapack-1.19" = _F32EwIRr;
+        "datapack-1.19.1" = _F32EwIRr;
+        "datapack-1.19.2" = _F32EwIRr;
+        "datapack-1.19.3" = _F32EwIRr;
+        "datapack-1.19.4" = _F32EwIRr;
+        "datapack-1.20" = _U6aMCIYD;
+        "datapack-1.20.1" = _U6aMCIYD;
+        "datapack-1.20.2" = _U6aMCIYD;
+        "datapack-1.20.3" = _U6aMCIYD;
+        "datapack-1.20.4" = _U6aMCIYD;
+        "datapack-1.20.5" = _U6aMCIYD;
+        "datapack-1.20.6" = _U6aMCIYD;
+        "datapack-1.21" = _cU17GRBg;
+        "datapack-1.21.1" = _cU17GRBg;
+        "datapack-1.21.2" = _cU17GRBg;
+        "datapack-1.21.3" = _cU17GRBg;
+        "datapack-1.21.4" = _cU17GRBg;
+        "datapack-1.21.5" = _cU17GRBg;
+        "datapack-1.21.6" = _cU17GRBg;
+        "datapack-1.21.7" = _cU17GRBg;
+        "datapack-1.21.8" = _cU17GRBg;
+        "datapack-1.21.9" = _zwbVGyDJ;
+        "datapack-1.21.10" = _zwbVGyDJ;
+        "datapack-1.21.11" = _zwbVGyDJ;
+        "datapack-26.1" = _zwbVGyDJ;
+        "datapack-26.1.1" = _zwbVGyDJ;
+        "datapack-26.1.2" = _zwbVGyDJ;
+        "fabric-1.20" = _9pDo96ai;
+        "fabric-1.20.1" = _9pDo96ai;
+        "fabric-1.20.2" = _9pDo96ai;
+        "fabric-1.20.3" = _9pDo96ai;
+        "fabric-1.20.4" = _9pDo96ai;
+        "fabric-1.20.5" = _9pDo96ai;
+        "fabric-1.20.6" = _9pDo96ai;
+        "fabric-1.21" = _DOQoenLD;
+        "fabric-1.21.1" = _DOQoenLD;
+        "fabric-1.21.2" = _DOQoenLD;
+        "fabric-1.21.3" = _DOQoenLD;
+        "fabric-1.21.4" = _DOQoenLD;
+        "fabric-1.21.5" = _DOQoenLD;
+        "fabric-1.21.6" = _DOQoenLD;
+        "fabric-1.21.7" = _DOQoenLD;
+        "fabric-1.21.8" = _DOQoenLD;
+        "fabric-1.21.9" = _gIqESQj3;
+        "fabric-1.21.10" = _gIqESQj3;
+        "fabric-1.21.11" = _gIqESQj3;
+        "fabric-26.1" = _gIqESQj3;
+        "fabric-26.1.1" = _gIqESQj3;
+        "fabric-26.1.2" = _gIqESQj3;
+        "forge-1.20" = _9pDo96ai;
+        "forge-1.20.1" = _9pDo96ai;
+        "forge-1.20.2" = _9pDo96ai;
+        "forge-1.20.3" = _9pDo96ai;
+        "forge-1.20.4" = _9pDo96ai;
+        "forge-1.20.5" = _9pDo96ai;
+        "forge-1.20.6" = _9pDo96ai;
+        "forge-1.21" = _DOQoenLD;
+        "forge-1.21.1" = _DOQoenLD;
+        "forge-1.21.2" = _DOQoenLD;
+        "forge-1.21.3" = _DOQoenLD;
+        "forge-1.21.4" = _DOQoenLD;
+        "forge-1.21.5" = _DOQoenLD;
+        "forge-1.21.6" = _DOQoenLD;
+        "forge-1.21.7" = _DOQoenLD;
+        "forge-1.21.8" = _DOQoenLD;
+        "forge-1.21.9" = _gIqESQj3;
+        "forge-1.21.10" = _gIqESQj3;
+        "forge-1.21.11" = _gIqESQj3;
+        "forge-26.1" = _gIqESQj3;
+        "forge-26.1.1" = _gIqESQj3;
+        "forge-26.1.2" = _gIqESQj3;
+        "quilt-1.20" = _9pDo96ai;
+        "quilt-1.20.1" = _9pDo96ai;
+        "quilt-1.20.2" = _9pDo96ai;
+        "quilt-1.20.3" = _9pDo96ai;
+        "quilt-1.20.4" = _9pDo96ai;
+        "quilt-1.20.5" = _9pDo96ai;
+        "quilt-1.20.6" = _9pDo96ai;
+        "quilt-1.21" = _DOQoenLD;
+        "quilt-1.21.1" = _DOQoenLD;
+        "quilt-1.21.2" = _DOQoenLD;
+        "quilt-1.21.3" = _DOQoenLD;
+        "quilt-1.21.4" = _DOQoenLD;
+        "quilt-1.21.5" = _DOQoenLD;
+        "quilt-1.21.6" = _DOQoenLD;
+        "quilt-1.21.7" = _DOQoenLD;
+        "quilt-1.21.8" = _DOQoenLD;
+        "quilt-1.21.9" = _gIqESQj3;
+        "quilt-1.21.10" = _gIqESQj3;
+        "quilt-1.21.11" = _gIqESQj3;
+        "quilt-26.1" = _gIqESQj3;
+        "quilt-26.1.1" = _gIqESQj3;
+        "quilt-26.1.2" = _gIqESQj3;
+        "neoforge-1.20" = _9pDo96ai;
+        "neoforge-1.20.1" = _9pDo96ai;
+        "neoforge-1.20.2" = _9pDo96ai;
+        "neoforge-1.20.3" = _9pDo96ai;
+        "neoforge-1.20.4" = _9pDo96ai;
+        "neoforge-1.20.5" = _9pDo96ai;
+        "neoforge-1.20.6" = _9pDo96ai;
+        "neoforge-1.21" = _DOQoenLD;
+        "neoforge-1.21.1" = _DOQoenLD;
+        "neoforge-1.21.2" = _DOQoenLD;
+        "neoforge-1.21.3" = _DOQoenLD;
+        "neoforge-1.21.4" = _DOQoenLD;
+        "neoforge-1.21.5" = _DOQoenLD;
+        "neoforge-1.21.6" = _DOQoenLD;
+        "neoforge-1.21.7" = _DOQoenLD;
+        "neoforge-1.21.8" = _DOQoenLD;
+        "neoforge-1.21.9" = _gIqESQj3;
+        "neoforge-1.21.10" = _gIqESQj3;
+        "neoforge-1.21.11" = _gIqESQj3;
+        "neoforge-26.1" = _gIqESQj3;
+        "neoforge-26.1.1" = _gIqESQj3;
+        "neoforge-26.1.2" = _gIqESQj3;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "pickaxable-glass";
+            id = "GVKZC6nR";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="gIqESQj3";}

@@ -1,0 +1,202 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _DUf762Rk = {
+            "id" = "DUf762Rk";
+            "file" = "BlueMap-Towny-2.0.0.jar";
+            "hash" = "sha512-KNw+FlPLQ6hTdgA7UlF/GhgYnr4VaVC5JmmIcxVWGeQ2mySnw4WvXYmcArWe/JwvjsSdvDusQ8O6Af82cgbucg==";
+        };
+        _fQXajgjl = {
+            "id" = "fQXajgjl";
+            "file" = "BlueMap-Towny-2.0.1.jar";
+            "hash" = "sha512-IBG0sbBxyWCC6n/xAkjASh3Fqw27VY7hJVlwei0wpafTpEW0oFGp8f2ts5Kin0ySTiP3uyzvh+kdCnsRcAvoGQ==";
+        };
+        _YkcScvhZ = {
+            "id" = "YkcScvhZ";
+            "file" = "BlueMap-Towny-2.1.0.jar";
+            "hash" = "sha512-jUMH8+5nQDSQb23RSRBI1eB8jKa7NJGHxObVg6Gr11+pQImt2AXr4rDDQIe7yJ3Niig1+PiV8XymhR9P1JWQiw==";
+        };
+        _KSlgnJFQ = {
+            "id" = "KSlgnJFQ";
+            "file" = "BlueMap-Towny-2.1.0.jar";
+            "hash" = "sha512-jUMH8+5nQDSQb23RSRBI1eB8jKa7NJGHxObVg6Gr11+pQImt2AXr4rDDQIe7yJ3Niig1+PiV8XymhR9P1JWQiw==";
+        };
+        _n10TnLDA = {
+            "id" = "n10TnLDA";
+            "file" = "BlueMap-Towny-2.1.1.jar";
+            "hash" = "sha512-UPPJEF+h6k+Hixai/GQcUmt9/qTf/RclpcfZFwWQkUEKSBuSPhndDBFYwjB+El7Q8JQ65U+51XlLhyZEEzp01A==";
+        };
+        _Iq5BdGrP = {
+            "id" = "Iq5BdGrP";
+            "file" = "BlueMap-Towny-2.2.0.jar";
+            "hash" = "sha512-5aiyVGFvi1NIjljHcquthoI07Px5XpophzzFeUwOiavzj7sDLRgN1NZldc563D6BZxhX9rbZLiQh2wJk9xACOA==";
+        };
+        _mJukncvO = {
+            "id" = "mJukncvO";
+            "file" = "BlueMap-Towny-2.3.0.jar";
+            "hash" = "sha512-fq8AX6cU1oKq1qcsqV/o4OpJxqf2RuNYJ5zDowGtl7kV5wNzW1IKWSuEEHC8Oz8RDFoHvmUSzvRT3da79kqSrg==";
+        };
+        _oazviUb2 = {
+            "id" = "oazviUb2";
+            "file" = "BlueMap-Towny-2.3.1.jar";
+            "hash" = "sha512-So8BcVNrqO1jPEkX6ZGOh16UOjBw5NKiv+SdqaM7Fg5UmVfXxw09QnwoKIas4Qz6mnJhu2kobjxgWt9HBNJsIQ==";
+        };
+        _FRYWSsAk = {
+            "id" = "FRYWSsAk";
+            "file" = "BlueMap-Towny-2.3.2.jar";
+            "hash" = "sha512-k5X6GdmlvZn6KeoVKVEs0kUZCDASfafTM30R0rDMzOdMDLgNyslDGxVxovrKKRc0dJyff3C/LA5hJvcxJKIDrg==";
+        };
+        _Se05hIu7 = {
+            "id" = "Se05hIu7";
+            "file" = "BlueMap-Towny-2.4.0.jar";
+            "hash" = "sha512-y871W0h9+EjT7DzXcn00BMlJ7BM/tfSH8YAIB1cfPbHxc5xE1FB5b/qZ/ClC9V1ao8k5sEq8aLuBJIapADm2/w==";
+        };
+    in {
+        "DUf762Rk" = _DUf762Rk;
+        "fQXajgjl" = _fQXajgjl;
+        "YkcScvhZ" = _YkcScvhZ;
+        "KSlgnJFQ" = _KSlgnJFQ;
+        "n10TnLDA" = _n10TnLDA;
+        "Iq5BdGrP" = _Iq5BdGrP;
+        "mJukncvO" = _mJukncvO;
+        "oazviUb2" = _oazviUb2;
+        "FRYWSsAk" = _FRYWSsAk;
+        "Se05hIu7" = _Se05hIu7;
+        "folia-1.16.5" = _Se05hIu7;
+        "folia-1.17" = _Se05hIu7;
+        "folia-1.17.1" = _Se05hIu7;
+        "folia-1.18" = _Se05hIu7;
+        "folia-1.18.1" = _Se05hIu7;
+        "folia-1.18.2" = _Se05hIu7;
+        "folia-1.19" = _Se05hIu7;
+        "folia-1.19.1" = _Se05hIu7;
+        "folia-1.19.2" = _Se05hIu7;
+        "folia-1.19.3" = _Se05hIu7;
+        "folia-1.19.4" = _Se05hIu7;
+        "folia-1.20" = _Se05hIu7;
+        "folia-1.20.1" = _Se05hIu7;
+        "folia-1.20.2" = _Se05hIu7;
+        "folia-1.20.3" = _Se05hIu7;
+        "folia-1.20.4" = _Se05hIu7;
+        "folia-1.16" = _Se05hIu7;
+        "folia-1.16.1" = _Se05hIu7;
+        "folia-1.16.2" = _Se05hIu7;
+        "folia-1.16.3" = _Se05hIu7;
+        "folia-1.16.4" = _Se05hIu7;
+        "folia-1.20.5" = _Se05hIu7;
+        "folia-1.20.6" = _Se05hIu7;
+        "folia-1.21" = _Se05hIu7;
+        "folia-1.21.1" = _Se05hIu7;
+        "folia-1.21.2" = _Se05hIu7;
+        "folia-1.21.3" = _Se05hIu7;
+        "folia-1.21.4" = _Se05hIu7;
+        "folia-1.21.5" = _Se05hIu7;
+        "folia-1.21.6" = _Se05hIu7;
+        "folia-1.21.7" = _Se05hIu7;
+        "folia-1.21.8" = _Se05hIu7;
+        "folia-1.21.9" = _Se05hIu7;
+        "folia-1.21.10" = _Se05hIu7;
+        "folia-1.21.11" = _Se05hIu7;
+        "folia-26.1" = _Se05hIu7;
+        "folia-26.1.1" = _Se05hIu7;
+        "folia-26.1.2" = _Se05hIu7;
+        "folia-26.2" = _Se05hIu7;
+        "paper-1.16.5" = _Se05hIu7;
+        "paper-1.17" = _Se05hIu7;
+        "paper-1.17.1" = _Se05hIu7;
+        "paper-1.18" = _Se05hIu7;
+        "paper-1.18.1" = _Se05hIu7;
+        "paper-1.18.2" = _Se05hIu7;
+        "paper-1.19" = _Se05hIu7;
+        "paper-1.19.1" = _Se05hIu7;
+        "paper-1.19.2" = _Se05hIu7;
+        "paper-1.19.3" = _Se05hIu7;
+        "paper-1.19.4" = _Se05hIu7;
+        "paper-1.20" = _Se05hIu7;
+        "paper-1.20.1" = _Se05hIu7;
+        "paper-1.20.2" = _Se05hIu7;
+        "paper-1.20.3" = _Se05hIu7;
+        "paper-1.20.4" = _Se05hIu7;
+        "paper-1.16" = _Se05hIu7;
+        "paper-1.16.1" = _Se05hIu7;
+        "paper-1.16.2" = _Se05hIu7;
+        "paper-1.16.3" = _Se05hIu7;
+        "paper-1.16.4" = _Se05hIu7;
+        "paper-1.20.5" = _Se05hIu7;
+        "paper-1.20.6" = _Se05hIu7;
+        "paper-1.21" = _Se05hIu7;
+        "paper-1.21.1" = _Se05hIu7;
+        "paper-1.21.2" = _Se05hIu7;
+        "paper-1.21.3" = _Se05hIu7;
+        "paper-1.21.4" = _Se05hIu7;
+        "paper-1.21.5" = _Se05hIu7;
+        "paper-1.21.6" = _Se05hIu7;
+        "paper-1.21.7" = _Se05hIu7;
+        "paper-1.21.8" = _Se05hIu7;
+        "paper-1.21.9" = _Se05hIu7;
+        "paper-1.21.10" = _Se05hIu7;
+        "paper-1.21.11" = _Se05hIu7;
+        "paper-26.1" = _Se05hIu7;
+        "paper-26.1.1" = _Se05hIu7;
+        "paper-26.1.2" = _Se05hIu7;
+        "paper-26.2" = _Se05hIu7;
+        "spigot-1.16.5" = _Se05hIu7;
+        "spigot-1.17" = _Se05hIu7;
+        "spigot-1.17.1" = _Se05hIu7;
+        "spigot-1.18" = _Se05hIu7;
+        "spigot-1.18.1" = _Se05hIu7;
+        "spigot-1.18.2" = _Se05hIu7;
+        "spigot-1.19" = _Se05hIu7;
+        "spigot-1.19.1" = _Se05hIu7;
+        "spigot-1.19.2" = _Se05hIu7;
+        "spigot-1.19.3" = _Se05hIu7;
+        "spigot-1.19.4" = _Se05hIu7;
+        "spigot-1.20" = _Se05hIu7;
+        "spigot-1.20.1" = _Se05hIu7;
+        "spigot-1.20.2" = _Se05hIu7;
+        "spigot-1.20.3" = _Se05hIu7;
+        "spigot-1.20.4" = _Se05hIu7;
+        "spigot-1.16" = _Se05hIu7;
+        "spigot-1.16.1" = _Se05hIu7;
+        "spigot-1.16.2" = _Se05hIu7;
+        "spigot-1.16.3" = _Se05hIu7;
+        "spigot-1.16.4" = _Se05hIu7;
+        "spigot-1.20.5" = _Se05hIu7;
+        "spigot-1.20.6" = _Se05hIu7;
+        "spigot-1.21" = _Se05hIu7;
+        "spigot-1.21.1" = _Se05hIu7;
+        "spigot-1.21.2" = _Se05hIu7;
+        "spigot-1.21.3" = _Se05hIu7;
+        "spigot-1.21.4" = _Se05hIu7;
+        "spigot-1.21.5" = _Se05hIu7;
+        "spigot-1.21.6" = _Se05hIu7;
+        "spigot-1.21.7" = _Se05hIu7;
+        "spigot-1.21.8" = _Se05hIu7;
+        "spigot-1.21.9" = _Se05hIu7;
+        "spigot-1.21.10" = _Se05hIu7;
+        "spigot-1.21.11" = _Se05hIu7;
+        "spigot-26.1" = _Se05hIu7;
+        "spigot-26.1.1" = _Se05hIu7;
+        "spigot-26.1.2" = _Se05hIu7;
+        "spigot-26.2" = _Se05hIu7;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "bluemap-towny";
+            id = "Y6O9cRjl";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = "https://github.com/Chicken/BlueMap-Towny/blob/master/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="Se05hIu7";}

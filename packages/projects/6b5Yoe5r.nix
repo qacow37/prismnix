@@ -1,0 +1,140 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _KGUS5LZT = {
+            "id" = "KGUS5LZT";
+            "file" = "Marin Kitagawa Shizuku Tan Totem.zip";
+            "hash" = "sha512-SPlZp8TReZC7JQlKyAdA0IXsh8Za+ucQWFA1gs7xDCiTfBamF449g7UTyYKJlJptYawDWtcn6vC377lbJ7MNCg==";
+        };
+        _U4gIjBZt = {
+            "id" = "U4gIjBZt";
+            "file" = "Marin_Kitagawa_Shizuku_Tan-1.21.11-Totem.zip";
+            "hash" = "sha512-SPlZp8TReZC7JQlKyAdA0IXsh8Za+ucQWFA1gs7xDCiTfBamF449g7UTyYKJlJptYawDWtcn6vC377lbJ7MNCg==";
+        };
+        _pyMECudO = {
+            "id" = "pyMECudO";
+            "file" = "Marin_Kitagawa_Shizuku_Tan-1.16-26.1-Totem.zip";
+            "hash" = "sha512-lh/rqJgPBBmuofqdDAfeXZoKtCMjDIrJjcVUOh/Odc8dVyWWQXW3pggERrBl5azO8qhjC+zChDrAmjMjXuaJ9A==";
+        };
+        _TLweSW0a = {
+            "id" = "TLweSW0a";
+            "file" = "Marin_Kitagawa_Shizuku_Tan-1.17-26.2-Totem.zip";
+            "hash" = "sha512-tHbvn80K+vCFQ/hzrSE+BXjCmRNAM26nJkwMI9BV/UscJK7thh0p/cdOUn3pySQTdMgiJseUFxvnHbpwyIeShw==";
+        };
+    in {
+        "KGUS5LZT" = _KGUS5LZT;
+        "U4gIjBZt" = _U4gIjBZt;
+        "pyMECudO" = _pyMECudO;
+        "TLweSW0a" = _TLweSW0a;
+        "minecraft-1.16" = _pyMECudO;
+        "minecraft-1.16.1" = _pyMECudO;
+        "minecraft-1.16.2" = _pyMECudO;
+        "minecraft-1.16.3" = _pyMECudO;
+        "minecraft-1.16.4" = _pyMECudO;
+        "minecraft-1.16.5" = _pyMECudO;
+        "minecraft-1.17" = _TLweSW0a;
+        "minecraft-1.17.1" = _TLweSW0a;
+        "minecraft-1.18" = _TLweSW0a;
+        "minecraft-1.18.1" = _TLweSW0a;
+        "minecraft-1.18.2" = _TLweSW0a;
+        "minecraft-1.19" = _TLweSW0a;
+        "minecraft-1.19.1" = _TLweSW0a;
+        "minecraft-1.19.2" = _TLweSW0a;
+        "minecraft-1.19.3" = _TLweSW0a;
+        "minecraft-1.19.4" = _TLweSW0a;
+        "minecraft-1.20" = _TLweSW0a;
+        "minecraft-1.20.1" = _TLweSW0a;
+        "minecraft-1.20.2" = _TLweSW0a;
+        "minecraft-1.20.3" = _TLweSW0a;
+        "minecraft-1.20.4" = _TLweSW0a;
+        "minecraft-1.20.5" = _TLweSW0a;
+        "minecraft-1.20.6" = _TLweSW0a;
+        "minecraft-1.21" = _TLweSW0a;
+        "minecraft-1.21.1" = _TLweSW0a;
+        "minecraft-1.21.2" = _TLweSW0a;
+        "minecraft-1.21.3" = _TLweSW0a;
+        "minecraft-1.21.4" = _TLweSW0a;
+        "minecraft-1.21.5" = _TLweSW0a;
+        "minecraft-1.21.6" = _TLweSW0a;
+        "minecraft-1.21.7" = _TLweSW0a;
+        "minecraft-1.21.8" = _TLweSW0a;
+        "minecraft-1.21.9" = _TLweSW0a;
+        "minecraft-1.21.10" = _TLweSW0a;
+        "minecraft-25w41a" = _KGUS5LZT;
+        "minecraft-25w42a" = _KGUS5LZT;
+        "minecraft-1.21.11" = _TLweSW0a;
+        "minecraft-26.1" = _TLweSW0a;
+        "minecraft-22w42a" = _TLweSW0a;
+        "minecraft-22w43a" = _TLweSW0a;
+        "minecraft-22w44a" = _TLweSW0a;
+        "minecraft-23w14a" = _TLweSW0a;
+        "minecraft-23w16a" = _TLweSW0a;
+        "minecraft-23w31a" = _TLweSW0a;
+        "minecraft-23w32a" = _TLweSW0a;
+        "minecraft-23w33a" = _TLweSW0a;
+        "minecraft-23w35a" = _TLweSW0a;
+        "minecraft-1.20.2-pre1" = _TLweSW0a;
+        "minecraft-23w42a" = _TLweSW0a;
+        "minecraft-23w43a" = _TLweSW0a;
+        "minecraft-23w43b" = _TLweSW0a;
+        "minecraft-23w44a" = _TLweSW0a;
+        "minecraft-23w45a" = _TLweSW0a;
+        "minecraft-23w46a" = _TLweSW0a;
+        "minecraft-24w03a" = _TLweSW0a;
+        "minecraft-24w03b" = _TLweSW0a;
+        "minecraft-24w04a" = _TLweSW0a;
+        "minecraft-24w05a" = _TLweSW0a;
+        "minecraft-24w05b" = _TLweSW0a;
+        "minecraft-24w06a" = _TLweSW0a;
+        "minecraft-24w07a" = _TLweSW0a;
+        "minecraft-24w09a" = _TLweSW0a;
+        "minecraft-24w10a" = _TLweSW0a;
+        "minecraft-24w11a" = _TLweSW0a;
+        "minecraft-24w12a" = _TLweSW0a;
+        "minecraft-24w13a" = _TLweSW0a;
+        "minecraft-24w14potato" = _TLweSW0a;
+        "minecraft-24w14a" = _TLweSW0a;
+        "minecraft-1.20.5-pre1" = _TLweSW0a;
+        "minecraft-1.20.5-pre2" = _TLweSW0a;
+        "minecraft-1.20.5-pre3" = _TLweSW0a;
+        "minecraft-24w18a" = _TLweSW0a;
+        "minecraft-24w19a" = _TLweSW0a;
+        "minecraft-24w19b" = _TLweSW0a;
+        "minecraft-24w20a" = _TLweSW0a;
+        "minecraft-24w33a" = _TLweSW0a;
+        "minecraft-24w34a" = _TLweSW0a;
+        "minecraft-24w35a" = _TLweSW0a;
+        "minecraft-24w36a" = _TLweSW0a;
+        "minecraft-24w37a" = _TLweSW0a;
+        "minecraft-24w38a" = _TLweSW0a;
+        "minecraft-24w39a" = _TLweSW0a;
+        "minecraft-24w40a" = _TLweSW0a;
+        "minecraft-1.21.2-pre1" = _TLweSW0a;
+        "minecraft-1.21.2-pre2" = _TLweSW0a;
+        "minecraft-24w44a" = _TLweSW0a;
+        "minecraft-24w45a" = _TLweSW0a;
+        "minecraft-24w46a" = _TLweSW0a;
+        "minecraft-26.1.1" = _TLweSW0a;
+        "minecraft-26.1.2" = _TLweSW0a;
+        "minecraft-26.2" = _TLweSW0a;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "marin-kitagawa-v3-totem-(shizuku-tan-edition)";
+            id = "6b5Yoe5r";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="TLweSW0a";}

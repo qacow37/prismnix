@@ -1,0 +1,143 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ERMavA4O = {
+            "id" = "ERMavA4O";
+            "file" = "VanillaRPC-1.0_new.jar";
+            "hash" = "sha512-8VW0y9KtaKtZ0PXzOPGeVrUEHhsjIqVGxwhNUcGdjNO2EFeUfIbQKDpafl1x4uRnHmpIU/UJYugNbD3W1qcKzA==";
+        };
+        _pWmPfV7S = {
+            "id" = "pWmPfV7S";
+            "file" = "VanillaRPC-1.1_new.jar";
+            "hash" = "sha512-y6g6jqLKQt9Ph8jNkShjEc2BlaKQxZeGQQLN/jM3XyVYCFfFRQX+W8Axe+5RxbVRr0b+tyc2sAjFLaLCFghFqg==";
+        };
+        _JvwK7AD0 = {
+            "id" = "JvwK7AD0";
+            "file" = "VanillaRPC-b1.2.jar";
+            "hash" = "sha512-VcsgCKh/4meSVTN7NGG6RU/ss46og93MQtkC1BaSYj/eNkyyfs2hT3uC1BKVttLlgb9+VY6Hrf1Hk8JKWoLgpw==";
+        };
+        _nv4dGxKr = {
+            "id" = "nv4dGxKr";
+            "file" = "VanillaRPC-1.2.jar";
+            "hash" = "sha512-LMkbQ32sZfC+ItYXicqVylIXw6seWhATwEnDWSS5dOSk/x5aDwcMG6zDsx2HO5HFaKphYTBl+lhDsb4z8B+X+A==";
+        };
+    in {
+        "ERMavA4O" = _ERMavA4O;
+        "pWmPfV7S" = _pWmPfV7S;
+        "JvwK7AD0" = _JvwK7AD0;
+        "nv4dGxKr" = _nv4dGxKr;
+        "fabric-1.14" = _nv4dGxKr;
+        "fabric-1.14.1" = _nv4dGxKr;
+        "fabric-1.14.2" = _nv4dGxKr;
+        "fabric-1.14.3" = _nv4dGxKr;
+        "fabric-1.14.4" = _nv4dGxKr;
+        "fabric-1.15" = _nv4dGxKr;
+        "fabric-1.15.1" = _nv4dGxKr;
+        "fabric-1.15.2" = _nv4dGxKr;
+        "fabric-1.16" = _nv4dGxKr;
+        "fabric-1.16.1" = _nv4dGxKr;
+        "fabric-1.16.2" = _nv4dGxKr;
+        "fabric-1.16.3" = _nv4dGxKr;
+        "fabric-1.16.4" = _nv4dGxKr;
+        "fabric-1.16.5" = _nv4dGxKr;
+        "fabric-1.17" = _nv4dGxKr;
+        "fabric-1.17.1" = _nv4dGxKr;
+        "fabric-1.18" = _nv4dGxKr;
+        "fabric-1.18.1" = _nv4dGxKr;
+        "fabric-1.18.2" = _nv4dGxKr;
+        "fabric-1.19" = _nv4dGxKr;
+        "fabric-1.19.1" = _nv4dGxKr;
+        "fabric-1.19.2" = _nv4dGxKr;
+        "fabric-1.19.3" = _nv4dGxKr;
+        "fabric-1.19.4" = _nv4dGxKr;
+        "fabric-1.20" = _nv4dGxKr;
+        "fabric-1.20.1" = _nv4dGxKr;
+        "fabric-1.20.2" = _nv4dGxKr;
+        "fabric-1.20.3" = _nv4dGxKr;
+        "fabric-1.20.4" = _nv4dGxKr;
+        "fabric-1.20.5" = _nv4dGxKr;
+        "fabric-1.20.6" = _nv4dGxKr;
+        "fabric-1.21" = _nv4dGxKr;
+        "fabric-1.21.1" = _nv4dGxKr;
+        "fabric-1.21.2" = _nv4dGxKr;
+        "fabric-1.21.3" = _nv4dGxKr;
+        "fabric-1.21.4" = _nv4dGxKr;
+        "fabric-1.21.5" = _nv4dGxKr;
+        "fabric-1.21.6" = _nv4dGxKr;
+        "fabric-1.21.7" = _nv4dGxKr;
+        "fabric-1.21.8" = _nv4dGxKr;
+        "fabric-1.21.9" = _nv4dGxKr;
+        "fabric-1.21.10" = _nv4dGxKr;
+        "fabric-1.21.11" = _nv4dGxKr;
+        "fabric-26.1" = _nv4dGxKr;
+        "fabric-26.1.1" = _nv4dGxKr;
+        "fabric-26.1.2" = _nv4dGxKr;
+        "fabric-26.2" = _nv4dGxKr;
+        "quilt-1.14" = _nv4dGxKr;
+        "quilt-1.14.1" = _nv4dGxKr;
+        "quilt-1.14.2" = _nv4dGxKr;
+        "quilt-1.14.3" = _nv4dGxKr;
+        "quilt-1.14.4" = _nv4dGxKr;
+        "quilt-1.15" = _nv4dGxKr;
+        "quilt-1.15.1" = _nv4dGxKr;
+        "quilt-1.15.2" = _nv4dGxKr;
+        "quilt-1.16" = _nv4dGxKr;
+        "quilt-1.16.1" = _nv4dGxKr;
+        "quilt-1.16.2" = _nv4dGxKr;
+        "quilt-1.16.3" = _nv4dGxKr;
+        "quilt-1.16.4" = _nv4dGxKr;
+        "quilt-1.16.5" = _nv4dGxKr;
+        "quilt-1.17" = _nv4dGxKr;
+        "quilt-1.17.1" = _nv4dGxKr;
+        "quilt-1.18" = _nv4dGxKr;
+        "quilt-1.18.1" = _nv4dGxKr;
+        "quilt-1.18.2" = _nv4dGxKr;
+        "quilt-1.19" = _nv4dGxKr;
+        "quilt-1.19.1" = _nv4dGxKr;
+        "quilt-1.19.2" = _nv4dGxKr;
+        "quilt-1.19.3" = _nv4dGxKr;
+        "quilt-1.19.4" = _nv4dGxKr;
+        "quilt-1.20" = _nv4dGxKr;
+        "quilt-1.20.1" = _nv4dGxKr;
+        "quilt-1.20.2" = _nv4dGxKr;
+        "quilt-1.20.3" = _nv4dGxKr;
+        "quilt-1.20.4" = _nv4dGxKr;
+        "quilt-1.20.5" = _nv4dGxKr;
+        "quilt-1.20.6" = _nv4dGxKr;
+        "quilt-1.21" = _nv4dGxKr;
+        "quilt-1.21.1" = _nv4dGxKr;
+        "quilt-1.21.2" = _nv4dGxKr;
+        "quilt-1.21.3" = _nv4dGxKr;
+        "quilt-1.21.4" = _nv4dGxKr;
+        "quilt-1.21.5" = _nv4dGxKr;
+        "quilt-1.21.6" = _nv4dGxKr;
+        "quilt-1.21.7" = _nv4dGxKr;
+        "quilt-1.21.8" = _nv4dGxKr;
+        "quilt-1.21.9" = _nv4dGxKr;
+        "quilt-1.21.10" = _nv4dGxKr;
+        "quilt-1.21.11" = _nv4dGxKr;
+        "quilt-26.1" = _nv4dGxKr;
+        "quilt-26.1.1" = _nv4dGxKr;
+        "quilt-26.1.2" = _nv4dGxKr;
+        "quilt-26.2" = _nv4dGxKr;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "vanilla-rpc";
+            id = "CykkqALu";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU Affero General Public License v3.0 or later";
+                    shortName = "AGPL-3.0-or-later";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="nv4dGxKr";}

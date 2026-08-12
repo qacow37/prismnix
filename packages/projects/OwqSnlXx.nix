@@ -1,0 +1,342 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _YOtUfBZR = {
+            "id" = "YOtUfBZR";
+            "file" = "aevorinreports.jar";
+            "hash" = "sha512-1IrCdmZC9ENi6a3N6jpPOohAW6cjoZ1k073i6bAakPzP82k2TLbRKD4LWVB6WZZSbER5Leu3vvRgYJx8nV1zJw==";
+        };
+        _nQRKvtDL = {
+            "id" = "nQRKvtDL";
+            "file" = "aevorinreports.jar";
+            "hash" = "sha512-fmLfEHzuNmutEL786mFy413nhQ7h4zsIqutqMu/rAS6Kg3qZqrOloSgR9g/O3VAg6aYZz4FuspdHpuoEpV5scQ==";
+        };
+        _C5MRwz4H = {
+            "id" = "C5MRwz4H";
+            "file" = "aevorinreports (1).jar";
+            "hash" = "sha512-JHElsDENGWCrUO3mc6wLgnQSo0PNHIdNLDDg1PWqQlF89z5xE2kFrnwmweQ7+JWPUWxREsF6tZ60rGXPVGZZqA==";
+        };
+        _rA0Tgn3p = {
+            "id" = "rA0Tgn3p";
+            "file" = "AevorinReports-1.0.3-beta-all.jar";
+            "hash" = "sha512-NOPBtFWdwL5j8X4n/d8/Mz3xewbISgBLY4NtOkmPMrrocc8DylKyJS4nB5RIqfFvz42hF8ohFF5bPgDUS473OQ==";
+        };
+        _Lu7eockV = {
+            "id" = "Lu7eockV";
+            "file" = "AevorinReports-1.0.3-beta-2-all.jar";
+            "hash" = "sha512-K5w55/wksyKpr07cICtL4l7TRCl7OCK8knal0NWY8oBIQJhRx9ooFKN27C4xoJV+f7QCUcHKUw+jWMPBOlUr/A==";
+        };
+        _92G1nJCV = {
+            "id" = "92G1nJCV";
+            "file" = "AevorinReports-1.0.3-beta-3-all.jar";
+            "hash" = "sha512-78kFqn1MSLKQNPpUiXt+lgUKegMjClVo34uObXMVRKCn2xUj27Iu/b2mdmmPRDsbJbg3iLXaUYBpuP9cX5L5wA==";
+        };
+        _398quBnc = {
+            "id" = "398quBnc";
+            "file" = "AevorinReports-1.0.3-all.jar";
+            "hash" = "sha512-/H7ilouDTrc61lV8NTrBCDij5n4XGYQC4FZD+44cRo1lr5MhAg5TTa50qZ7NR6GGj89rn+e2T4XqcwT6QSzV1g==";
+        };
+        _nPeHTDsb = {
+            "id" = "nPeHTDsb";
+            "file" = "AevorinReports-1.0.4-all.jar";
+            "hash" = "sha512-HbJPs/ahQ6GchDCGGrj7wDAULTpxeOjQ0cWgP8HrPsnfPwWsntljNY/1WkTlgTZlPUwZ7ONihyIK33UsBGDSRw==";
+        };
+        _Z48cSx33 = {
+            "id" = "Z48cSx33";
+            "file" = "AevorinReports-1.0.4.1-all.jar";
+            "hash" = "sha512-OrHk8QfTd4qJXBYxaTnpLq+agDzAOIzvX68D3JwkuLG0ozbVlHjZmyy2TExRukSFb5i0P8C9zRlAIKFAYcRKow==";
+        };
+        _m2hF0Z8O = {
+            "id" = "m2hF0Z8O";
+            "file" = "AevorinReports-1.0.4.2-all.jar";
+            "hash" = "sha512-eE7udn6aXBedr3qqPZutR5MZjvP6hKoHiWj2mrZ7JVJ0Q+uJ6wjjrKezy3RWadG/UkPTZH3/A+JObRe3oECzkg==";
+        };
+        _5hEEVItT = {
+            "id" = "5hEEVItT";
+            "file" = "AevorinReports-1.0.4.3-all.jar";
+            "hash" = "sha512-Kbq55tnNrAjsskQtahUTck90pdKy2s5EEAHDoY3CJrwBd/eB7wYplShmKh62b0dr+Wwxnc2OxlmSrWpAMPwUSQ==";
+        };
+        _ElK6N1kk = {
+            "id" = "ElK6N1kk";
+            "file" = "AevorinReports-1.0.4.4-all.jar";
+            "hash" = "sha512-Jg/Aw1QcgdZm8HDcCGz2szYPn0IsXDvWZfXTvIMABGVS0oZNUT/czPo/WSBBekSjwg8XAydTzKKIGI2PhZmRoQ==";
+        };
+        _7n8wrBWt = {
+            "id" = "7n8wrBWt";
+            "file" = "AevorinReports-1.0.5-all.jar";
+            "hash" = "sha512-WfGILpKkgDtlbed/Eim5RjM5YIg/UqdoV7t+5KKZb+2sJpu3vKKJHWbko0z3YcgHO+uDhoiL+klaywC0TMDDxA==";
+        };
+        _EkeWcNWs = {
+            "id" = "EkeWcNWs";
+            "file" = "AevorinReports-1.0.5.1-all.jar";
+            "hash" = "sha512-d6Vy57Hp1DXDfOzopls9CukABkSYR+SCG4hqQnuCSfI2tEtVBGBmSihMkvi5CjPw22g8Lk+Dgs/vYLMpgXbCfA==";
+        };
+        _lLm2CTFg = {
+            "id" = "lLm2CTFg";
+            "file" = "AevorinReports-1.0.6-Beta-1-all.jar";
+            "hash" = "sha512-FSWKj6KCQB4ydPH56zuTvXftuDAvcI+o9xnav13uAE3mZ9NaOtApPPhqRw0S4ctUuNK3y0e1VIcDEyLOhTgspw==";
+        };
+        _Lkg8563g = {
+            "id" = "Lkg8563g";
+            "file" = "AevorinReports-1.0.6-Beta-2-all.jar";
+            "hash" = "sha512-TEE8CX7CDsQ5LmD72PcCGsZxh6PN3Svz3Q0lbPs3IWE6KOf+PrLo9QxMviWFMrP1qey3+sdqJUZ8+qWzj412BQ==";
+        };
+        _6Xlwxko3 = {
+            "id" = "6Xlwxko3";
+            "file" = "AevorinReports-1.0.6-Beta-3-all.jar";
+            "hash" = "sha512-TLshIQpMJ2KVxlEty7W1N18oFAOq831y/X+SGUuew0wIxSJVKmb79dbgbitsRz2278lGY5RWjdXgYZ+wA2Zh9g==";
+        };
+        _8OUGdq9e = {
+            "id" = "8OUGdq9e";
+            "file" = "AevorinReports-1.0.6-all.jar";
+            "hash" = "sha512-37wtuCBT0rzdXQV4QJolEDpmpPtFXn5CFbE2rvq9+lAkMQIXCY1e5wN5KtRiSk7JdGd6ij5rDxqVofgy+cmfgA==";
+        };
+        _w2raeD6F = {
+            "id" = "w2raeD6F";
+            "file" = "AevorinReports-1.0.7-Alpha-1-all.jar";
+            "hash" = "sha512-JuNDSjBpIKfnfKv+2rdr/AQufTajly9tv2oOqhCDxsqFQShuXsZKiaDYY5u+zKyIZFn+Lsgjwr/msByt7ntg3w==";
+        };
+        _m4HuNc7M = {
+            "id" = "m4HuNc7M";
+            "file" = "AevorinReports-1.0.7-Beta-1-all.jar";
+            "hash" = "sha512-RzUbeAsaclAot07d+uyfJFNQ/XqbsnE8Er2625pw1+ElvIzkDjYteDGI5xOQgph4mibHl87j2IPRFArCtuwHPA==";
+        };
+        _cvXXan4Y = {
+            "id" = "cvXXan4Y";
+            "file" = "AevorinReports-1.0.7-Beta-2-all.jar";
+            "hash" = "sha512-rrTCcWiF5WnPuw9zenfuii0wPQmPMy7jV/iscMrl5i+uG9WrlcKq2RVbVABvvHJmYlSNgw95sesMYvVrazCrPQ==";
+        };
+        _j9EbuNkM = {
+            "id" = "j9EbuNkM";
+            "file" = "AevorinReports-1.0.7-all.jar";
+            "hash" = "sha512-4vrDB0ABuSNkwsTJiPZ+GNiMJsf2Jw0jGyHKdOu3AdNDHm0o9OOcLSeloDBx0rBj8AbMz9hzMkM/n/8XzPsD5w==";
+        };
+        _VvsytBmh = {
+            "id" = "VvsytBmh";
+            "file" = "AevorinReports-1.0.8-all.jar";
+            "hash" = "sha512-unNMYgugJeP2b7qqpviBNvopXlfTAZWlUeVNcNimB8kC6kYPtxvu4wDet2UJZZYED9lGKdkUHKFRUzb/qeckCg==";
+        };
+        _txby20fK = {
+            "id" = "txby20fK";
+            "file" = "AevorinReports-1.0.9-Beta-1-all.jar";
+            "hash" = "sha512-YlZ0RYOA7Y7JWPR+YofW9w1yGd27IusvBcM+7T8qdi9AjmN6nTF43R1ViOmsN8SXgOAyszRk01XELJ0YuNWyKw==";
+        };
+        _b3fZrmmn = {
+            "id" = "b3fZrmmn";
+            "file" = "AevorinReports-1.0.9-all.jar";
+            "hash" = "sha512-ZZ4Z/H3KDom+AOYBKjHBERL08x8Smx/KsmSrDfrjkmmuABoJJsFReeijAMxRbFHq/iXcts0JYTJtDsNcA35h7g==";
+        };
+        _XMdPVVBL = {
+            "id" = "XMdPVVBL";
+            "file" = "AevorinReports-1.0.9.1-all.jar";
+            "hash" = "sha512-1kYRCkHf2fOohi5IbScM8N3+V4V2jn21EaDPmP9CuGOvv9oFzqpduPFKNjwYw++paZaEh/r51+92BkT6M3I7Vw==";
+        };
+        _CwgYwwPv = {
+            "id" = "CwgYwwPv";
+            "file" = "AevorinReports-1.1.0-all.jar";
+            "hash" = "sha512-T/E/nG5Wbwxb6vUDTB9+JX/LtIpnVDRi9sPloouvq/E82pmmB3bwL5rXM0SglHL0RkNyoIbZai3Q0WfoMmyE3Q==";
+        };
+    in {
+        "YOtUfBZR" = _YOtUfBZR;
+        "nQRKvtDL" = _nQRKvtDL;
+        "C5MRwz4H" = _C5MRwz4H;
+        "rA0Tgn3p" = _rA0Tgn3p;
+        "Lu7eockV" = _Lu7eockV;
+        "92G1nJCV" = _92G1nJCV;
+        "398quBnc" = _398quBnc;
+        "nPeHTDsb" = _nPeHTDsb;
+        "Z48cSx33" = _Z48cSx33;
+        "m2hF0Z8O" = _m2hF0Z8O;
+        "5hEEVItT" = _5hEEVItT;
+        "ElK6N1kk" = _ElK6N1kk;
+        "7n8wrBWt" = _7n8wrBWt;
+        "EkeWcNWs" = _EkeWcNWs;
+        "lLm2CTFg" = _lLm2CTFg;
+        "Lkg8563g" = _Lkg8563g;
+        "6Xlwxko3" = _6Xlwxko3;
+        "8OUGdq9e" = _8OUGdq9e;
+        "w2raeD6F" = _w2raeD6F;
+        "m4HuNc7M" = _m4HuNc7M;
+        "cvXXan4Y" = _cvXXan4Y;
+        "j9EbuNkM" = _j9EbuNkM;
+        "VvsytBmh" = _VvsytBmh;
+        "txby20fK" = _txby20fK;
+        "b3fZrmmn" = _b3fZrmmn;
+        "XMdPVVBL" = _XMdPVVBL;
+        "CwgYwwPv" = _CwgYwwPv;
+        "bukkit-1.18" = _CwgYwwPv;
+        "bukkit-1.18.1" = _CwgYwwPv;
+        "bukkit-1.18.2" = _CwgYwwPv;
+        "bukkit-1.19" = _CwgYwwPv;
+        "bukkit-1.19.1" = _CwgYwwPv;
+        "bukkit-1.19.2" = _CwgYwwPv;
+        "bukkit-1.19.3" = _CwgYwwPv;
+        "bukkit-1.19.4" = _CwgYwwPv;
+        "bukkit-1.20" = _CwgYwwPv;
+        "bukkit-1.20.1" = _CwgYwwPv;
+        "bukkit-1.20.2" = _CwgYwwPv;
+        "bukkit-1.20.3" = _CwgYwwPv;
+        "bukkit-1.20.4" = _CwgYwwPv;
+        "bukkit-1.20.5" = _CwgYwwPv;
+        "bukkit-1.20.6" = _CwgYwwPv;
+        "bukkit-1.21" = _CwgYwwPv;
+        "bukkit-1.21.1" = _CwgYwwPv;
+        "bukkit-1.21.2" = _CwgYwwPv;
+        "bukkit-1.21.3" = _CwgYwwPv;
+        "bukkit-1.21.4" = _CwgYwwPv;
+        "bukkit-1.21.5" = _CwgYwwPv;
+        "bukkit-1.21.6" = _CwgYwwPv;
+        "bukkit-1.21.7" = _CwgYwwPv;
+        "bukkit-1.21.8" = _CwgYwwPv;
+        "bukkit-1.21.9" = _CwgYwwPv;
+        "bukkit-1.21.10" = _CwgYwwPv;
+        "bukkit-1.21.11" = _CwgYwwPv;
+        "bukkit-26.1" = _CwgYwwPv;
+        "bukkit-26.1.1" = _CwgYwwPv;
+        "bukkit-26.1.2" = _CwgYwwPv;
+        "bukkit-26.2" = _CwgYwwPv;
+        "paper-1.18" = _CwgYwwPv;
+        "paper-1.18.1" = _CwgYwwPv;
+        "paper-1.18.2" = _CwgYwwPv;
+        "paper-1.19" = _CwgYwwPv;
+        "paper-1.19.1" = _CwgYwwPv;
+        "paper-1.19.2" = _CwgYwwPv;
+        "paper-1.19.3" = _CwgYwwPv;
+        "paper-1.19.4" = _CwgYwwPv;
+        "paper-1.20" = _CwgYwwPv;
+        "paper-1.20.1" = _CwgYwwPv;
+        "paper-1.20.2" = _CwgYwwPv;
+        "paper-1.20.3" = _CwgYwwPv;
+        "paper-1.20.4" = _CwgYwwPv;
+        "paper-1.20.5" = _CwgYwwPv;
+        "paper-1.20.6" = _CwgYwwPv;
+        "paper-1.21" = _CwgYwwPv;
+        "paper-1.21.1" = _CwgYwwPv;
+        "paper-1.21.2" = _CwgYwwPv;
+        "paper-1.21.3" = _CwgYwwPv;
+        "paper-1.21.4" = _CwgYwwPv;
+        "paper-1.21.5" = _CwgYwwPv;
+        "paper-1.21.6" = _CwgYwwPv;
+        "paper-1.21.7" = _CwgYwwPv;
+        "paper-1.21.8" = _CwgYwwPv;
+        "paper-1.21.9" = _CwgYwwPv;
+        "paper-1.21.10" = _CwgYwwPv;
+        "paper-1.21.11" = _CwgYwwPv;
+        "paper-26.1" = _CwgYwwPv;
+        "paper-26.1.1" = _CwgYwwPv;
+        "paper-26.1.2" = _CwgYwwPv;
+        "paper-26.2" = _CwgYwwPv;
+        "purpur-1.18" = _CwgYwwPv;
+        "purpur-1.18.1" = _CwgYwwPv;
+        "purpur-1.18.2" = _CwgYwwPv;
+        "purpur-1.19" = _CwgYwwPv;
+        "purpur-1.19.1" = _CwgYwwPv;
+        "purpur-1.19.2" = _CwgYwwPv;
+        "purpur-1.19.3" = _CwgYwwPv;
+        "purpur-1.19.4" = _CwgYwwPv;
+        "purpur-1.20" = _CwgYwwPv;
+        "purpur-1.20.1" = _CwgYwwPv;
+        "purpur-1.20.2" = _CwgYwwPv;
+        "purpur-1.20.3" = _CwgYwwPv;
+        "purpur-1.20.4" = _CwgYwwPv;
+        "purpur-1.20.5" = _CwgYwwPv;
+        "purpur-1.20.6" = _CwgYwwPv;
+        "purpur-1.21" = _CwgYwwPv;
+        "purpur-1.21.1" = _CwgYwwPv;
+        "purpur-1.21.2" = _CwgYwwPv;
+        "purpur-1.21.3" = _CwgYwwPv;
+        "purpur-1.21.4" = _CwgYwwPv;
+        "purpur-1.21.5" = _CwgYwwPv;
+        "purpur-1.21.6" = _CwgYwwPv;
+        "purpur-1.21.7" = _CwgYwwPv;
+        "purpur-1.21.8" = _CwgYwwPv;
+        "purpur-1.21.9" = _CwgYwwPv;
+        "purpur-1.21.10" = _CwgYwwPv;
+        "purpur-1.21.11" = _CwgYwwPv;
+        "purpur-26.1" = _CwgYwwPv;
+        "purpur-26.1.1" = _CwgYwwPv;
+        "purpur-26.1.2" = _CwgYwwPv;
+        "purpur-26.2" = _CwgYwwPv;
+        "spigot-1.18" = _CwgYwwPv;
+        "spigot-1.18.1" = _CwgYwwPv;
+        "spigot-1.18.2" = _CwgYwwPv;
+        "spigot-1.19" = _CwgYwwPv;
+        "spigot-1.19.1" = _CwgYwwPv;
+        "spigot-1.19.2" = _CwgYwwPv;
+        "spigot-1.19.3" = _CwgYwwPv;
+        "spigot-1.19.4" = _CwgYwwPv;
+        "spigot-1.20" = _CwgYwwPv;
+        "spigot-1.20.1" = _CwgYwwPv;
+        "spigot-1.20.2" = _CwgYwwPv;
+        "spigot-1.20.3" = _CwgYwwPv;
+        "spigot-1.20.4" = _CwgYwwPv;
+        "spigot-1.20.5" = _CwgYwwPv;
+        "spigot-1.20.6" = _CwgYwwPv;
+        "spigot-1.21" = _CwgYwwPv;
+        "spigot-1.21.1" = _CwgYwwPv;
+        "spigot-1.21.2" = _CwgYwwPv;
+        "spigot-1.21.3" = _CwgYwwPv;
+        "spigot-1.21.4" = _CwgYwwPv;
+        "spigot-1.21.5" = _CwgYwwPv;
+        "spigot-1.21.6" = _CwgYwwPv;
+        "spigot-1.21.7" = _CwgYwwPv;
+        "spigot-1.21.8" = _CwgYwwPv;
+        "spigot-1.21.9" = _CwgYwwPv;
+        "spigot-1.21.10" = _CwgYwwPv;
+        "spigot-1.21.11" = _CwgYwwPv;
+        "spigot-26.1" = _CwgYwwPv;
+        "spigot-26.1.1" = _CwgYwwPv;
+        "spigot-26.1.2" = _CwgYwwPv;
+        "spigot-26.2" = _CwgYwwPv;
+        "folia-1.18" = _CwgYwwPv;
+        "folia-1.18.1" = _CwgYwwPv;
+        "folia-1.18.2" = _CwgYwwPv;
+        "folia-1.19" = _CwgYwwPv;
+        "folia-1.19.1" = _CwgYwwPv;
+        "folia-1.19.2" = _CwgYwwPv;
+        "folia-1.19.3" = _CwgYwwPv;
+        "folia-1.19.4" = _CwgYwwPv;
+        "folia-1.20" = _CwgYwwPv;
+        "folia-1.20.1" = _CwgYwwPv;
+        "folia-1.20.2" = _CwgYwwPv;
+        "folia-1.20.3" = _CwgYwwPv;
+        "folia-1.20.4" = _CwgYwwPv;
+        "folia-1.20.5" = _CwgYwwPv;
+        "folia-1.20.6" = _CwgYwwPv;
+        "folia-1.21" = _CwgYwwPv;
+        "folia-1.21.1" = _CwgYwwPv;
+        "folia-1.21.2" = _CwgYwwPv;
+        "folia-1.21.3" = _CwgYwwPv;
+        "folia-1.21.4" = _CwgYwwPv;
+        "folia-1.21.5" = _CwgYwwPv;
+        "folia-1.21.6" = _CwgYwwPv;
+        "folia-1.21.7" = _CwgYwwPv;
+        "folia-1.21.8" = _CwgYwwPv;
+        "folia-1.21.9" = _CwgYwwPv;
+        "folia-1.21.10" = _CwgYwwPv;
+        "folia-1.21.11" = _CwgYwwPv;
+        "folia-26.1" = _CwgYwwPv;
+        "folia-26.1.1" = _CwgYwwPv;
+        "folia-26.1.2" = _CwgYwwPv;
+        "folia-26.2" = _CwgYwwPv;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "aevorinreports";
+            id = "OwqSnlXx";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="CwgYwwPv";}

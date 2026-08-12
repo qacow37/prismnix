@@ -1,0 +1,112 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _WYhEZbfo = {
+            "id" = "WYhEZbfo";
+            "file" = "Cyan block outline 1.0.zip";
+            "hash" = "sha512-F+bKRdUa/8S7DX6gRwIIxFil4Dq7FG4QcGs9opvUdhmFNvMSKGbS0bdEcOJ2YiluUVcrZrhLIiyHrH/9pHJNUg==";
+        };
+        _Lp4A1Rz9 = {
+            "id" = "Lp4A1Rz9";
+            "file" = "Cyan Block outline 1.1.zip";
+            "hash" = "sha512-ke96ykGAh1oVePbFJcl7DFrQz4kk7GL+4cEqwNZADvxGtBju/CJXF7uiMonOLfvFmu+wxG/J37oGAo8FCJ88eQ==";
+        };
+    in {
+        "WYhEZbfo" = _WYhEZbfo;
+        "Lp4A1Rz9" = _Lp4A1Rz9;
+        "minecraft-1.21.11" = _Lp4A1Rz9;
+        "minecraft-1.7.10" = _Lp4A1Rz9;
+        "minecraft-1.8" = _Lp4A1Rz9;
+        "minecraft-1.8.1" = _Lp4A1Rz9;
+        "minecraft-1.8.2" = _Lp4A1Rz9;
+        "minecraft-1.8.3" = _Lp4A1Rz9;
+        "minecraft-1.8.4" = _Lp4A1Rz9;
+        "minecraft-1.8.5" = _Lp4A1Rz9;
+        "minecraft-1.8.6" = _Lp4A1Rz9;
+        "minecraft-1.8.7" = _Lp4A1Rz9;
+        "minecraft-1.8.8" = _Lp4A1Rz9;
+        "minecraft-1.8.9" = _Lp4A1Rz9;
+        "minecraft-1.9" = _Lp4A1Rz9;
+        "minecraft-1.9.1" = _Lp4A1Rz9;
+        "minecraft-1.9.2" = _Lp4A1Rz9;
+        "minecraft-1.9.3" = _Lp4A1Rz9;
+        "minecraft-1.9.4" = _Lp4A1Rz9;
+        "minecraft-1.10" = _Lp4A1Rz9;
+        "minecraft-1.10.1" = _Lp4A1Rz9;
+        "minecraft-1.10.2" = _Lp4A1Rz9;
+        "minecraft-1.11" = _Lp4A1Rz9;
+        "minecraft-1.11.1" = _Lp4A1Rz9;
+        "minecraft-1.11.2" = _Lp4A1Rz9;
+        "minecraft-1.12" = _Lp4A1Rz9;
+        "minecraft-1.12.1" = _Lp4A1Rz9;
+        "minecraft-1.12.2" = _Lp4A1Rz9;
+        "minecraft-1.13" = _Lp4A1Rz9;
+        "minecraft-1.13.1" = _Lp4A1Rz9;
+        "minecraft-1.13.2" = _Lp4A1Rz9;
+        "minecraft-1.14" = _Lp4A1Rz9;
+        "minecraft-1.14.1" = _Lp4A1Rz9;
+        "minecraft-1.14.2" = _Lp4A1Rz9;
+        "minecraft-1.14.3" = _Lp4A1Rz9;
+        "minecraft-1.14.4" = _Lp4A1Rz9;
+        "minecraft-1.15" = _Lp4A1Rz9;
+        "minecraft-1.15.1" = _Lp4A1Rz9;
+        "minecraft-1.15.2" = _Lp4A1Rz9;
+        "minecraft-1.16" = _Lp4A1Rz9;
+        "minecraft-1.16.1" = _Lp4A1Rz9;
+        "minecraft-1.16.2" = _Lp4A1Rz9;
+        "minecraft-1.16.3" = _Lp4A1Rz9;
+        "minecraft-1.16.4" = _Lp4A1Rz9;
+        "minecraft-1.16.5" = _Lp4A1Rz9;
+        "minecraft-1.17" = _Lp4A1Rz9;
+        "minecraft-1.17.1" = _Lp4A1Rz9;
+        "minecraft-1.18" = _Lp4A1Rz9;
+        "minecraft-1.18.1" = _Lp4A1Rz9;
+        "minecraft-1.18.2" = _Lp4A1Rz9;
+        "minecraft-1.19" = _Lp4A1Rz9;
+        "minecraft-1.19.1" = _Lp4A1Rz9;
+        "minecraft-1.19.2" = _Lp4A1Rz9;
+        "minecraft-1.19.3" = _Lp4A1Rz9;
+        "minecraft-1.19.4" = _Lp4A1Rz9;
+        "minecraft-1.20" = _Lp4A1Rz9;
+        "minecraft-1.20.1" = _Lp4A1Rz9;
+        "minecraft-1.20.2" = _Lp4A1Rz9;
+        "minecraft-1.20.3" = _Lp4A1Rz9;
+        "minecraft-1.20.4" = _Lp4A1Rz9;
+        "minecraft-1.20.5" = _Lp4A1Rz9;
+        "minecraft-1.20.6" = _Lp4A1Rz9;
+        "minecraft-1.21" = _Lp4A1Rz9;
+        "minecraft-1.21.1" = _Lp4A1Rz9;
+        "minecraft-1.21.2" = _Lp4A1Rz9;
+        "minecraft-1.21.3" = _Lp4A1Rz9;
+        "minecraft-1.21.4" = _Lp4A1Rz9;
+        "minecraft-1.21.5" = _Lp4A1Rz9;
+        "minecraft-1.21.6" = _Lp4A1Rz9;
+        "minecraft-1.21.7" = _Lp4A1Rz9;
+        "minecraft-1.21.8" = _Lp4A1Rz9;
+        "minecraft-1.21.9" = _Lp4A1Rz9;
+        "minecraft-1.21.10" = _Lp4A1Rz9;
+        "minecraft-26.1" = _Lp4A1Rz9;
+        "minecraft-26.1.1" = _Lp4A1Rz9;
+        "minecraft-26.1.2" = _Lp4A1Rz9;
+        "minecraft-26.2" = _Lp4A1Rz9;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "cyan-block-outline";
+            id = "FLMcHyEQ";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Lp4A1Rz9";}

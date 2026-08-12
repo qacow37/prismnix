@@ -1,0 +1,124 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _vkIhNZyE = {
+            "id" = "vkIhNZyE";
+            "file" = "WaylandFix-1.0.jar";
+            "hash" = "sha512-qNm1mg3vAptD9RFp7lH7tzFdx1adJoLDnNTed2YZHbvKrs9fArEnT0lUnc7g1Z/yEjddiu629NCGpBXBRy+82w==";
+        };
+        _uNoM7atY = {
+            "id" = "uNoM7atY";
+            "file" = "WaylandFix-1.1.jar";
+            "hash" = "sha512-pekoauMO8F+sPN+VXso0g08BhFiWmgWlSrgvGH3f566v3A6zBtkPHSHYv17EXAiiCXn0uVhRaPfLOT5kBQlDrQ==";
+        };
+    in {
+        "vkIhNZyE" = _vkIhNZyE;
+        "uNoM7atY" = _uNoM7atY;
+        "fabric-1.18.2" = _uNoM7atY;
+        "fabric-1.0" = _uNoM7atY;
+        "fabric-1.1" = _uNoM7atY;
+        "fabric-1.2.1" = _uNoM7atY;
+        "fabric-1.2.2" = _uNoM7atY;
+        "fabric-1.2.3" = _uNoM7atY;
+        "fabric-1.2.4" = _uNoM7atY;
+        "fabric-1.2.5" = _uNoM7atY;
+        "fabric-1.3.1" = _uNoM7atY;
+        "fabric-1.3.2" = _uNoM7atY;
+        "fabric-1.4.2" = _uNoM7atY;
+        "fabric-1.4.4" = _uNoM7atY;
+        "fabric-1.4.5" = _uNoM7atY;
+        "fabric-1.4.6" = _uNoM7atY;
+        "fabric-1.4.7" = _uNoM7atY;
+        "fabric-1.5.1" = _uNoM7atY;
+        "fabric-1.5.2" = _uNoM7atY;
+        "fabric-1.6.1" = _uNoM7atY;
+        "fabric-1.6.2" = _uNoM7atY;
+        "fabric-1.6.4" = _uNoM7atY;
+        "fabric-1.7.2" = _uNoM7atY;
+        "fabric-1.7.3" = _uNoM7atY;
+        "fabric-1.7.4" = _uNoM7atY;
+        "fabric-1.7.5" = _uNoM7atY;
+        "fabric-1.7.6" = _uNoM7atY;
+        "fabric-1.7.7" = _uNoM7atY;
+        "fabric-1.7.8" = _uNoM7atY;
+        "fabric-1.7.9" = _uNoM7atY;
+        "fabric-1.7.10" = _uNoM7atY;
+        "fabric-1.8" = _uNoM7atY;
+        "fabric-1.8.1" = _uNoM7atY;
+        "fabric-1.8.2" = _uNoM7atY;
+        "fabric-1.8.3" = _uNoM7atY;
+        "fabric-1.8.4" = _uNoM7atY;
+        "fabric-1.8.5" = _uNoM7atY;
+        "fabric-1.8.6" = _uNoM7atY;
+        "fabric-1.8.7" = _uNoM7atY;
+        "fabric-1.8.8" = _uNoM7atY;
+        "fabric-1.8.9" = _uNoM7atY;
+        "fabric-1.9" = _uNoM7atY;
+        "fabric-1.9.1" = _uNoM7atY;
+        "fabric-1.9.2" = _uNoM7atY;
+        "fabric-1.9.3" = _uNoM7atY;
+        "fabric-1.9.4" = _uNoM7atY;
+        "fabric-1.10" = _uNoM7atY;
+        "fabric-1.10.1" = _uNoM7atY;
+        "fabric-1.10.2" = _uNoM7atY;
+        "fabric-1.11" = _uNoM7atY;
+        "fabric-1.11.1" = _uNoM7atY;
+        "fabric-1.11.2" = _uNoM7atY;
+        "fabric-1.12" = _uNoM7atY;
+        "fabric-1.12.1" = _uNoM7atY;
+        "fabric-1.12.2" = _uNoM7atY;
+        "fabric-1.13" = _uNoM7atY;
+        "fabric-1.13.1" = _uNoM7atY;
+        "fabric-1.13.2" = _uNoM7atY;
+        "fabric-1.14" = _uNoM7atY;
+        "fabric-1.14.1" = _uNoM7atY;
+        "fabric-1.14.2" = _uNoM7atY;
+        "fabric-1.14.3" = _uNoM7atY;
+        "fabric-1.14.4" = _uNoM7atY;
+        "fabric-1.15" = _uNoM7atY;
+        "fabric-1.15.1" = _uNoM7atY;
+        "fabric-1.15.2" = _uNoM7atY;
+        "fabric-1.16" = _uNoM7atY;
+        "fabric-1.16.1" = _uNoM7atY;
+        "fabric-1.16.2" = _uNoM7atY;
+        "fabric-1.16.3" = _uNoM7atY;
+        "fabric-1.16.4" = _uNoM7atY;
+        "fabric-1.16.5" = _uNoM7atY;
+        "fabric-1.17" = _uNoM7atY;
+        "fabric-1.17.1" = _uNoM7atY;
+        "fabric-1.18" = _uNoM7atY;
+        "fabric-1.18.1" = _uNoM7atY;
+        "fabric-1.19" = _uNoM7atY;
+        "fabric-1.19.1" = _uNoM7atY;
+        "fabric-1.19.2" = _uNoM7atY;
+        "fabric-1.19.3" = _uNoM7atY;
+        "fabric-1.19.4" = _uNoM7atY;
+        "fabric-1.20" = _uNoM7atY;
+        "fabric-1.20.1" = _uNoM7atY;
+        "fabric-1.20.2" = _uNoM7atY;
+        "fabric-1.20.3" = _uNoM7atY;
+        "fabric-1.20.4" = _uNoM7atY;
+        "fabric-1.20.5" = _uNoM7atY;
+        "fabric-1.20.6" = _uNoM7atY;
+        "fabric-1.21" = _uNoM7atY;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "wayland-fix";
+            id = "sENq4ge0";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="uNoM7atY";}

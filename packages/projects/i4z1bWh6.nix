@@ -1,0 +1,281 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _7On8KVkZ = {
+            "id" = "7On8KVkZ";
+            "file" = "ProxyChat-Bungeecord-1.0.0-beta.1.jar";
+            "hash" = "sha512-QJrixx1whGopP1j5h3lv+UjFRMRKUqVYWx8M3RJ4xktpb8ruPJ/+zMV9P9l8YnFesO4Nwy0hhzjdbE7KlVHs1g==";
+        };
+        _Oq87gncm = {
+            "id" = "Oq87gncm";
+            "file" = "ProxyChat-Velocity-1.0.0-beta.1.jar";
+            "hash" = "sha512-30DUk716DbOHKheHH0DuNCfcb/+qnmJjZACJCTRvpVtHg3kPu0GUzZp1mEFiXgNrjdFx6+M8cEN6t/kd3X6nzA==";
+        };
+        _ds59dtDo = {
+            "id" = "ds59dtDo";
+            "file" = "ProxyChat-Bungeecord-1.0.0-beta.2.jar";
+            "hash" = "sha512-44/u4VmJnkUH+ackA/RLgftn+T/RpuqnaShTxIlsWo7RHSBnD1bvBJ14aKxUftDNHtSEa1YnWQtb0Aa6WY3acg==";
+        };
+        _IV92rTOO = {
+            "id" = "IV92rTOO";
+            "file" = "ProxyChat-Velocity-1.0.0-beta.2.jar";
+            "hash" = "sha512-/vw6INhXnW+4eLAXwrS0X8KRkLwm5Oxi2p5zqbClus844QAo783yB843pI8kQRm22o51fEVoKH6zO4p8L8rRqw==";
+        };
+        _Um3YHYAo = {
+            "id" = "Um3YHYAo";
+            "file" = "ProxyChat-Bungeecord-1.0.0-beta.3.jar";
+            "hash" = "sha512-hCXT80tAVHU5GZJXm73vx0lcY8PH/ymzwWCUaXKJx9nZzGlk6+BZcHGF8Yn2UjWkWhVuyRYRXSxJIFA9+ZQMAA==";
+        };
+        _CdjIpGey = {
+            "id" = "CdjIpGey";
+            "file" = "ProxyChat-Velocity-1.0.0-beta.3.jar";
+            "hash" = "sha512-fBCIY9gtfoQhD6dO+OpCfUOqHoO3W8/Yeo4WkBp4PiExtRosQcm46XRJcFzw7owyyxS0Ekcbqmq5Jz268Uazyw==";
+        };
+        _3OzwXl6D = {
+            "id" = "3OzwXl6D";
+            "file" = "ProxyChat-Bungeecord-1.0.0-beta.4.jar";
+            "hash" = "sha512-s/6HvOpUyV3ESvkm7GIFfmNtIAuHJuESEliagxB84ciN0pB/IBTtap98HZsmmC+zydyM1w1CjUzKk2mpnFTmLQ==";
+        };
+        _ysNzxmEV = {
+            "id" = "ysNzxmEV";
+            "file" = "ProxyChat-Velocity-1.0.0-beta.4.jar";
+            "hash" = "sha512-f9luqLcpleRBsl+YsmTILvUYegGqM1z/i0L3M+tRXMU+IH13KEvJd81xXYTENZHcq9OG28tedRS8wso8SLGBQA==";
+        };
+        _LwVoiC0r = {
+            "id" = "LwVoiC0r";
+            "file" = "ProxyChat-Bungeecord-1.0.0-beta.5.jar";
+            "hash" = "sha512-1RaIhDWIkCHtgfPfVH8ncLAWxIDcTwZucgUobWSQpYlVGD5HlvImWyMhMRtfgBdVKPmWDX5/8glhZx925eElzA==";
+        };
+        _MoKCnhaN = {
+            "id" = "MoKCnhaN";
+            "file" = "ProxyChat-Velocity-1.0.0-beta.5.jar";
+            "hash" = "sha512-Z+QybR8fnSGTHIIspgjx4jT2BUS+rEh5hIyEsc6T/QoiSts55OSc0zcmbQSThHMWrXC/OJCbdxCISnHNH9OZ8Q==";
+        };
+        _Vf4ZbsDs = {
+            "id" = "Vf4ZbsDs";
+            "file" = "ProxyChat-Bungeecord-1.0.0-beta.6.jar";
+            "hash" = "sha512-+lGxvkG0eONMeKdMgrlCBFHiAx2SlklBNOSnCOShe50KGIXULf3cMBOD6NAAvTBPloKTh3Ur81wJxSuzs/WhKg==";
+        };
+        _z3bvze5h = {
+            "id" = "z3bvze5h";
+            "file" = "ProxyChat-Velocity-1.0.0-beta.6.jar";
+            "hash" = "sha512-rWovhfqMuRZfH4bc07ykM1eO4CqVBcMfhgkDhdHKfM43YjZGCJFV2AuBfrtMCR+6McGJXBXLgzrVFD5OVhkaRA==";
+        };
+        _PLYzop5n = {
+            "id" = "PLYzop5n";
+            "file" = "ProxyChat-Bungeecord-1.0.0-beta.7.jar";
+            "hash" = "sha512-cW5oksUM4S1E4diY0C5vrYDaVoUdkyNHT3ZmbK/a2AXkgrhiNJSBK7d/kRh6iQY6meVbPpDUHurzSzqWSMvTuA==";
+        };
+        _lTlYXlUR = {
+            "id" = "lTlYXlUR";
+            "file" = "ProxyChat-Velocity-1.0.0-beta.7.jar";
+            "hash" = "sha512-jRLB7KNJTMot/AqwXjDxHRB0IrApNOswRy55hJKZqe1hdVn8Ok9nHBt6KHKx7084z0TsEuaK7i+IzrvvNOGRpg==";
+        };
+        _OWbg6MQL = {
+            "id" = "OWbg6MQL";
+            "file" = "ProxyChat-Bungeecord-1.0.0.jar";
+            "hash" = "sha512-r4M0ymHssXLPqTv8E/JnkJQ/YbEXW8ZEMHP7ShRDGl8cpzYWb4wsGH17P/HzRLlFH+3p/ndMMyN2d/B958OJfQ==";
+        };
+        _3FrVbPgp = {
+            "id" = "3FrVbPgp";
+            "file" = "ProxyChat-Velocity-1.0.0.jar";
+            "hash" = "sha512-CPlyUskdAWevuDs3BeJSGArokwY8Js4JkRMH6qMBn+Zh51wsy/dvuCjIH1EjASgbCGioBVFPyOvbWXyK4mXl1g==";
+        };
+        _xq598ziN = {
+            "id" = "xq598ziN";
+            "file" = "ProxyChat-Bungeecord-1.0.1.jar";
+            "hash" = "sha512-h8JXR7Zp5jkZK/130E5vhkvVciOZq+CTD3p2L86RsOM7Wmbc+FSewRS9wpqnsSqmD1ypnUawET+xkn7oeRCPrA==";
+        };
+        _1dLdVb20 = {
+            "id" = "1dLdVb20";
+            "file" = "ProxyChat-Velocity-1.0.1.jar";
+            "hash" = "sha512-gTWvPAub7vIQMuCinv2srf7mIZhTShwJAoZdsSXtCwpC8sAWv40NhsB8Np64+ESy7hSYUIQ5x7qrfM5+TOyt1w==";
+        };
+    in {
+        "7On8KVkZ" = _7On8KVkZ;
+        "Oq87gncm" = _Oq87gncm;
+        "ds59dtDo" = _ds59dtDo;
+        "IV92rTOO" = _IV92rTOO;
+        "Um3YHYAo" = _Um3YHYAo;
+        "CdjIpGey" = _CdjIpGey;
+        "3OzwXl6D" = _3OzwXl6D;
+        "ysNzxmEV" = _ysNzxmEV;
+        "LwVoiC0r" = _LwVoiC0r;
+        "MoKCnhaN" = _MoKCnhaN;
+        "Vf4ZbsDs" = _Vf4ZbsDs;
+        "z3bvze5h" = _z3bvze5h;
+        "PLYzop5n" = _PLYzop5n;
+        "lTlYXlUR" = _lTlYXlUR;
+        "OWbg6MQL" = _OWbg6MQL;
+        "3FrVbPgp" = _3FrVbPgp;
+        "xq598ziN" = _xq598ziN;
+        "1dLdVb20" = _1dLdVb20;
+        "bungeecord-1.9" = _3OzwXl6D;
+        "bungeecord-1.9.1" = _3OzwXl6D;
+        "bungeecord-1.9.2" = _3OzwXl6D;
+        "bungeecord-1.9.3" = _3OzwXl6D;
+        "bungeecord-1.9.4" = _3OzwXl6D;
+        "bungeecord-1.10" = _3OzwXl6D;
+        "bungeecord-1.10.1" = _3OzwXl6D;
+        "bungeecord-1.10.2" = _3OzwXl6D;
+        "bungeecord-1.11" = _3OzwXl6D;
+        "bungeecord-1.11.1" = _3OzwXl6D;
+        "bungeecord-1.11.2" = _3OzwXl6D;
+        "bungeecord-1.12" = _3OzwXl6D;
+        "bungeecord-1.12.1" = _3OzwXl6D;
+        "bungeecord-1.12.2" = _3OzwXl6D;
+        "bungeecord-1.13" = _xq598ziN;
+        "bungeecord-1.13.1" = _xq598ziN;
+        "bungeecord-1.13.2" = _xq598ziN;
+        "bungeecord-1.14" = _xq598ziN;
+        "bungeecord-1.14.1" = _xq598ziN;
+        "bungeecord-1.14.2" = _xq598ziN;
+        "bungeecord-1.14.3" = _xq598ziN;
+        "bungeecord-1.14.4" = _xq598ziN;
+        "bungeecord-1.15" = _xq598ziN;
+        "bungeecord-1.15.1" = _xq598ziN;
+        "bungeecord-1.15.2" = _xq598ziN;
+        "bungeecord-1.16" = _xq598ziN;
+        "bungeecord-1.16.1" = _xq598ziN;
+        "bungeecord-1.16.2" = _xq598ziN;
+        "bungeecord-1.16.3" = _xq598ziN;
+        "bungeecord-1.16.4" = _xq598ziN;
+        "bungeecord-1.16.5" = _xq598ziN;
+        "bungeecord-1.17" = _xq598ziN;
+        "bungeecord-1.17.1" = _xq598ziN;
+        "bungeecord-1.18" = _xq598ziN;
+        "bungeecord-1.18.1" = _xq598ziN;
+        "bungeecord-1.18.2" = _xq598ziN;
+        "bungeecord-1.19" = _xq598ziN;
+        "bungeecord-1.19.1" = _xq598ziN;
+        "bungeecord-1.19.2" = _xq598ziN;
+        "bungeecord-1.19.3" = _xq598ziN;
+        "bungeecord-1.19.4" = _xq598ziN;
+        "bungeecord-1.20" = _xq598ziN;
+        "bungeecord-1.20.1" = _xq598ziN;
+        "bungeecord-1.20.2" = _xq598ziN;
+        "bungeecord-1.20.3" = _xq598ziN;
+        "bungeecord-1.20.4" = _xq598ziN;
+        "bungeecord-1.20.5" = _xq598ziN;
+        "bungeecord-1.20.6" = _xq598ziN;
+        "bungeecord-1.21" = _xq598ziN;
+        "bungeecord-1.21.1" = _xq598ziN;
+        "velocity-1.9" = _ysNzxmEV;
+        "velocity-1.9.1" = _ysNzxmEV;
+        "velocity-1.9.2" = _ysNzxmEV;
+        "velocity-1.9.3" = _ysNzxmEV;
+        "velocity-1.9.4" = _ysNzxmEV;
+        "velocity-1.10" = _ysNzxmEV;
+        "velocity-1.10.1" = _ysNzxmEV;
+        "velocity-1.10.2" = _ysNzxmEV;
+        "velocity-1.11" = _ysNzxmEV;
+        "velocity-1.11.1" = _ysNzxmEV;
+        "velocity-1.11.2" = _ysNzxmEV;
+        "velocity-1.12" = _ysNzxmEV;
+        "velocity-1.12.1" = _ysNzxmEV;
+        "velocity-1.12.2" = _ysNzxmEV;
+        "velocity-1.13" = _1dLdVb20;
+        "velocity-1.13.1" = _1dLdVb20;
+        "velocity-1.13.2" = _1dLdVb20;
+        "velocity-1.14" = _1dLdVb20;
+        "velocity-1.14.1" = _1dLdVb20;
+        "velocity-1.14.2" = _1dLdVb20;
+        "velocity-1.14.3" = _1dLdVb20;
+        "velocity-1.14.4" = _1dLdVb20;
+        "velocity-1.15" = _1dLdVb20;
+        "velocity-1.15.1" = _1dLdVb20;
+        "velocity-1.15.2" = _1dLdVb20;
+        "velocity-1.16" = _1dLdVb20;
+        "velocity-1.16.1" = _1dLdVb20;
+        "velocity-1.16.2" = _1dLdVb20;
+        "velocity-1.16.3" = _1dLdVb20;
+        "velocity-1.16.4" = _1dLdVb20;
+        "velocity-1.16.5" = _1dLdVb20;
+        "velocity-1.17" = _1dLdVb20;
+        "velocity-1.17.1" = _1dLdVb20;
+        "velocity-1.18" = _1dLdVb20;
+        "velocity-1.18.1" = _1dLdVb20;
+        "velocity-1.18.2" = _1dLdVb20;
+        "velocity-1.19" = _1dLdVb20;
+        "velocity-1.19.1" = _1dLdVb20;
+        "velocity-1.19.2" = _1dLdVb20;
+        "velocity-1.19.3" = _1dLdVb20;
+        "velocity-1.19.4" = _1dLdVb20;
+        "velocity-1.20" = _1dLdVb20;
+        "velocity-1.20.1" = _1dLdVb20;
+        "velocity-1.20.2" = _1dLdVb20;
+        "velocity-1.20.3" = _1dLdVb20;
+        "velocity-1.20.4" = _1dLdVb20;
+        "velocity-1.20.5" = _1dLdVb20;
+        "velocity-1.20.6" = _1dLdVb20;
+        "velocity-1.21" = _1dLdVb20;
+        "velocity-1.21.1" = _1dLdVb20;
+        "waterfall-1.9" = _3OzwXl6D;
+        "waterfall-1.9.1" = _3OzwXl6D;
+        "waterfall-1.9.2" = _3OzwXl6D;
+        "waterfall-1.9.3" = _3OzwXl6D;
+        "waterfall-1.9.4" = _3OzwXl6D;
+        "waterfall-1.10" = _3OzwXl6D;
+        "waterfall-1.10.1" = _3OzwXl6D;
+        "waterfall-1.10.2" = _3OzwXl6D;
+        "waterfall-1.11" = _3OzwXl6D;
+        "waterfall-1.11.1" = _3OzwXl6D;
+        "waterfall-1.11.2" = _3OzwXl6D;
+        "waterfall-1.12" = _3OzwXl6D;
+        "waterfall-1.12.1" = _3OzwXl6D;
+        "waterfall-1.12.2" = _3OzwXl6D;
+        "waterfall-1.13" = _PLYzop5n;
+        "waterfall-1.13.1" = _PLYzop5n;
+        "waterfall-1.13.2" = _PLYzop5n;
+        "waterfall-1.14" = _PLYzop5n;
+        "waterfall-1.14.1" = _PLYzop5n;
+        "waterfall-1.14.2" = _PLYzop5n;
+        "waterfall-1.14.3" = _PLYzop5n;
+        "waterfall-1.14.4" = _PLYzop5n;
+        "waterfall-1.15" = _PLYzop5n;
+        "waterfall-1.15.1" = _PLYzop5n;
+        "waterfall-1.15.2" = _PLYzop5n;
+        "waterfall-1.16" = _PLYzop5n;
+        "waterfall-1.16.1" = _PLYzop5n;
+        "waterfall-1.16.2" = _PLYzop5n;
+        "waterfall-1.16.3" = _PLYzop5n;
+        "waterfall-1.16.4" = _PLYzop5n;
+        "waterfall-1.16.5" = _PLYzop5n;
+        "waterfall-1.17" = _PLYzop5n;
+        "waterfall-1.17.1" = _PLYzop5n;
+        "waterfall-1.18" = _PLYzop5n;
+        "waterfall-1.18.1" = _PLYzop5n;
+        "waterfall-1.18.2" = _PLYzop5n;
+        "waterfall-1.19" = _PLYzop5n;
+        "waterfall-1.19.1" = _PLYzop5n;
+        "waterfall-1.19.2" = _PLYzop5n;
+        "waterfall-1.19.3" = _PLYzop5n;
+        "waterfall-1.19.4" = _PLYzop5n;
+        "waterfall-1.20" = _PLYzop5n;
+        "waterfall-1.20.1" = _PLYzop5n;
+        "waterfall-1.20.2" = _PLYzop5n;
+        "waterfall-1.20.3" = _PLYzop5n;
+        "waterfall-1.20.4" = _PLYzop5n;
+        "waterfall-1.20.5" = _PLYzop5n;
+        "waterfall-1.20.6" = _PLYzop5n;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "proxychat";
+            id = "i4z1bWh6";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="1dLdVb20";}

@@ -1,0 +1,181 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _7KPZUEkM = {
+            "id" = "7KPZUEkM";
+            "file" = "Door Locker.zip";
+            "hash" = "sha512-54o6pFby7SXiCOTP28XkmIXi8KZwOB2TGsMBNPqCTJMBFDnOp9pdStXvuUSL0AO9vVFbtIHUeBqLjXtdi3CBQQ==";
+        };
+        _aT8hA7E7 = {
+            "id" = "aT8hA7E7";
+            "file" = "Door Locker v1.4 (1.20+).zip";
+            "hash" = "sha512-N/ZE0cTptr3sNnk7gCN/XAX9vw9yhLl8zWA1sa/fnY8XG50VvZP8CSSzQGWULPeTizetB+yMCN/ddMIGfDZ27A==";
+        };
+        _fIJ38n7S = {
+            "id" = "fIJ38n7S";
+            "file" = "Door Locker v1.1 (1.19).zip";
+            "hash" = "sha512-AT+EdGjxUgQU1A5ST646a8Ei4oUABY/z6HdC5ohRE2+6lW7TdMRhXnTR9mkZ9G/i7Psaf4LJ+WjM04zeRHhVhA==";
+        };
+        _8LsO0qzL = {
+            "id" = "8LsO0qzL";
+            "file" = "door_locker-1.1.jar";
+            "hash" = "sha512-rEi3U9DgkVAcyZMhAlhFEUQjpV1LNEyPH8xkdl1omUe6RJjvqzjeV9pFYZWjZbGIqiw1iqmjgCqzwLSZzP0K/A==";
+        };
+        _ikVVs9NE = {
+            "id" = "ikVVs9NE";
+            "file" = "Door Locker v1.5 (1.20.3+).zip";
+            "hash" = "sha512-k1Due2gj/uBK4cKxbw1XXmnvwGhwW2xNvb8KiIj+eKevPZPLLpbqTC8LVuwnBk6wE9TIzxfFBQl4t14TQuzXVw==";
+        };
+        _XCZpqpsp = {
+            "id" = "XCZpqpsp";
+            "file" = "door_locker-1.5.jar";
+            "hash" = "sha512-zVWnIpbYT8rrTobQ9XxupQm6OE45Fi2rwOsvD/WB1McIoqhjex1iAjT1N4OKXzTJCWDexlZ8VMtkWdDR7yKGTg==";
+        };
+        _M6gNHGtn = {
+            "id" = "M6gNHGtn";
+            "file" = "Door Locker v1.5.1 (1.20.2).zip";
+            "hash" = "sha512-DVw+Eib9Lowaefof613Fi4QdR203MUKHiqQRFKLCtunKJcuT/R9KH/QeJL4rTg6wlpxH+Q2rLf0nQuUW9844Ig==";
+        };
+        _O0EosJFC = {
+            "id" = "O0EosJFC";
+            "file" = "Door Locker v1.6.zip";
+            "hash" = "sha512-6PlD0dT7h/83JTV/H7MBgAy4EMBYvkUn4iANnEjiQCiC3VzR9yuz8a4zzMV7Khf6akOyaMCalMx7fjzwKjx4Rw==";
+        };
+        _sdumQtSI = {
+            "id" = "sdumQtSI";
+            "file" = "Door Locker 1.7.zip";
+            "hash" = "sha512-KQCGaacP7cmTYGPf02kqaF1nkAaNsz6CuRlGQr5jexZcgH20ePLkCwTZWprlRw18Dw9xtBxwPKZC+8nCaxIcbQ==";
+        };
+    in {
+        "7KPZUEkM" = _7KPZUEkM;
+        "aT8hA7E7" = _aT8hA7E7;
+        "fIJ38n7S" = _fIJ38n7S;
+        "8LsO0qzL" = _8LsO0qzL;
+        "ikVVs9NE" = _ikVVs9NE;
+        "XCZpqpsp" = _XCZpqpsp;
+        "M6gNHGtn" = _M6gNHGtn;
+        "O0EosJFC" = _O0EosJFC;
+        "sdumQtSI" = _sdumQtSI;
+        "datapack-1.19.4" = _7KPZUEkM;
+        "datapack-1.20" = _aT8hA7E7;
+        "datapack-1.20.1" = _aT8hA7E7;
+        "datapack-1.19" = _fIJ38n7S;
+        "datapack-1.19.1" = _fIJ38n7S;
+        "datapack-1.19.2" = _fIJ38n7S;
+        "datapack-1.19.3" = _fIJ38n7S;
+        "datapack-1.20.3" = _sdumQtSI;
+        "datapack-1.20.4" = _sdumQtSI;
+        "datapack-1.20.2" = _sdumQtSI;
+        "datapack-1.20.5" = _sdumQtSI;
+        "datapack-1.20.6" = _sdumQtSI;
+        "datapack-1.21" = _sdumQtSI;
+        "datapack-1.21.1" = _sdumQtSI;
+        "datapack-1.21.2" = _sdumQtSI;
+        "datapack-1.21.3" = _sdumQtSI;
+        "datapack-1.21.4" = _sdumQtSI;
+        "datapack-23w31a" = _sdumQtSI;
+        "datapack-23w32a" = _sdumQtSI;
+        "datapack-23w33a" = _sdumQtSI;
+        "datapack-23w35a" = _sdumQtSI;
+        "datapack-1.20.2-pre1" = _sdumQtSI;
+        "datapack-23w40a" = _sdumQtSI;
+        "datapack-23w41a" = _sdumQtSI;
+        "datapack-23w42a" = _sdumQtSI;
+        "datapack-23w43a" = _sdumQtSI;
+        "datapack-23w43b" = _sdumQtSI;
+        "datapack-23w44a" = _sdumQtSI;
+        "datapack-23w45a" = _sdumQtSI;
+        "datapack-23w46a" = _sdumQtSI;
+        "datapack-1.20.3-pre1" = _sdumQtSI;
+        "datapack-1.20.3-pre2" = _sdumQtSI;
+        "datapack-1.20.3-pre3" = _sdumQtSI;
+        "datapack-1.20.3-pre4" = _sdumQtSI;
+        "datapack-23w51a" = _sdumQtSI;
+        "datapack-23w51b" = _sdumQtSI;
+        "datapack-24w03a" = _sdumQtSI;
+        "datapack-24w03b" = _sdumQtSI;
+        "datapack-24w04a" = _sdumQtSI;
+        "datapack-24w05a" = _sdumQtSI;
+        "datapack-24w05b" = _sdumQtSI;
+        "datapack-24w06a" = _sdumQtSI;
+        "datapack-24w07a" = _sdumQtSI;
+        "datapack-24w09a" = _sdumQtSI;
+        "datapack-24w10a" = _sdumQtSI;
+        "datapack-24w11a" = _sdumQtSI;
+        "datapack-24w12a" = _sdumQtSI;
+        "datapack-24w13a" = _sdumQtSI;
+        "datapack-24w14a" = _sdumQtSI;
+        "datapack-1.20.5-pre1" = _sdumQtSI;
+        "datapack-1.20.5-pre2" = _sdumQtSI;
+        "datapack-1.20.5-pre3" = _sdumQtSI;
+        "datapack-1.20.5-pre4" = _sdumQtSI;
+        "datapack-1.20.5-rc1" = _sdumQtSI;
+        "datapack-1.20.5-rc2" = _sdumQtSI;
+        "datapack-1.20.5-rc3" = _sdumQtSI;
+        "datapack-24w18a" = _sdumQtSI;
+        "datapack-24w19a" = _sdumQtSI;
+        "datapack-24w19b" = _sdumQtSI;
+        "datapack-24w20a" = _sdumQtSI;
+        "datapack-24w21a" = _sdumQtSI;
+        "datapack-24w21b" = _sdumQtSI;
+        "datapack-1.21-pre1" = _sdumQtSI;
+        "datapack-1.21-pre2" = _sdumQtSI;
+        "datapack-1.21-pre3" = _sdumQtSI;
+        "datapack-1.21-pre4" = _sdumQtSI;
+        "datapack-1.21-rc1" = _sdumQtSI;
+        "datapack-24w33a" = _sdumQtSI;
+        "datapack-24w34a" = _sdumQtSI;
+        "datapack-24w35a" = _sdumQtSI;
+        "datapack-24w36a" = _sdumQtSI;
+        "datapack-24w37a" = _sdumQtSI;
+        "datapack-24w38a" = _sdumQtSI;
+        "datapack-24w39a" = _sdumQtSI;
+        "datapack-24w40a" = _sdumQtSI;
+        "datapack-1.21.2-pre1" = _sdumQtSI;
+        "datapack-1.21.2-pre2" = _sdumQtSI;
+        "datapack-24w44a" = _sdumQtSI;
+        "datapack-24w45a" = _sdumQtSI;
+        "datapack-24w46a" = _sdumQtSI;
+        "datapack-1.21.5" = _sdumQtSI;
+        "datapack-1.21.6" = _sdumQtSI;
+        "datapack-1.21.7" = _sdumQtSI;
+        "datapack-1.21.8" = _sdumQtSI;
+        "fabric-1.19" = _8LsO0qzL;
+        "fabric-1.19.1" = _8LsO0qzL;
+        "fabric-1.19.2" = _8LsO0qzL;
+        "fabric-1.19.3" = _8LsO0qzL;
+        "fabric-1.20.3" = _XCZpqpsp;
+        "fabric-1.20.4" = _XCZpqpsp;
+        "forge-1.19" = _8LsO0qzL;
+        "forge-1.19.1" = _8LsO0qzL;
+        "forge-1.19.2" = _8LsO0qzL;
+        "forge-1.19.3" = _8LsO0qzL;
+        "forge-1.20.3" = _XCZpqpsp;
+        "forge-1.20.4" = _XCZpqpsp;
+        "quilt-1.19" = _8LsO0qzL;
+        "quilt-1.19.1" = _8LsO0qzL;
+        "quilt-1.19.2" = _8LsO0qzL;
+        "quilt-1.19.3" = _8LsO0qzL;
+        "quilt-1.20.3" = _XCZpqpsp;
+        "quilt-1.20.4" = _XCZpqpsp;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "door_locker";
+            id = "9ykktQmo";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="sdumQtSI";}

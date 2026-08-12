@@ -1,0 +1,336 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _E4YDcDOS = {
+            "id" = "E4YDcDOS";
+            "file" = "AxCalendar-1.3.0.jar";
+            "hash" = "sha512-vb0MDKB31qY79Lmk6GuWcz/9hS6TWYophUNXqWX3MmSI231GZeNYUR2xwQnrkNdLLTNgV4QBwnMzyBrTGqu8mg==";
+        };
+        _H9awPt3i = {
+            "id" = "H9awPt3i";
+            "file" = "AxCalendar-1.4.0.jar";
+            "hash" = "sha512-w6IQ1MZl2CDcOqZQn01vZvMx0lz41JW4VHlvch+HThu9xisMJDQSIxTEiZCVlFOusE6evunLZYxPFRJVMLH1kg==";
+        };
+        _8xHDK3NW = {
+            "id" = "8xHDK3NW";
+            "file" = "AxCalendar-1.4.1.jar";
+            "hash" = "sha512-akE0WNC9BJX9+nKYsdFlmEoKOdaf2LFCwHGPheMxndBuAZnRPcAAszt0t36nVYd2FWaXpJpnjyRGHV6bUmreWA==";
+        };
+        _ApAAsUj6 = {
+            "id" = "ApAAsUj6";
+            "file" = "AxCalendar-1.4.2.jar";
+            "hash" = "sha512-N6Bc4Iap1PTE6PNXcOxFPOmfDcZ7HFGIy31Cc3VWOu+K8kGu4xQDPrlg33ru3P8Fo7YcaxznVbgE1uxzGfU5wQ==";
+        };
+        _jWLNyPHl = {
+            "id" = "jWLNyPHl";
+            "file" = "AxCalendar-1.5.0.jar";
+            "hash" = "sha512-CHefW8ZCVMm/B6jAkHpFusempWW63pd1CWHrxz69N9LEUkX3w63uXLgANeWVxdH8ZhvaIn4J62IICzlQNkjbEA==";
+        };
+        _CZGYe5yN = {
+            "id" = "CZGYe5yN";
+            "file" = "AxCalendar-1.5.1.jar";
+            "hash" = "sha512-fBuhp9iyOBMbbC3PKQf8dx0jxs+dMs4GgZR/8LP9lqz4arwhl/sNoISaQ42ZBRWRex1iSnYFwItaa7ds6h0ekA==";
+        };
+        _JJT0x9YA = {
+            "id" = "JJT0x9YA";
+            "file" = "AxCalendar-1.6.0.jar";
+            "hash" = "sha512-plZtpj3+ACKpStfngbwDv4If2ENZG3FT6YiHmHvVMISt0mXUbUHnf7p4wVpKeN+MLqDjNrlk6zcLvgXJIR6Low==";
+        };
+        _PlwiQhu0 = {
+            "id" = "PlwiQhu0";
+            "file" = "AxCalendar-1.7.0.jar";
+            "hash" = "sha512-e0oFvRamUONkST7fu7j7duKdB/p/MTLxxvxCPy+7UblFU4zRrMyQ37Iv+wlob4FnCXH0gjFE5NWryLG5UPP3/Q==";
+        };
+        _a6D9prSx = {
+            "id" = "a6D9prSx";
+            "file" = "AxCalendar-1.7.1.jar";
+            "hash" = "sha512-s97Mou4ai4qMlF6DujO4xuRXZz37iglArcXGvdpeij3wjgbY5O+XnfA1mzkqCHU8xz42EPkbb1ho/Wjg22+h+Q==";
+        };
+        _3JghSW0W = {
+            "id" = "3JghSW0W";
+            "file" = "AxCalendar-1.8.0.jar";
+            "hash" = "sha512-isih1QcTwOIwwp61cxHZ7+TUDops1u4UuTo8G886WF9vMFVGYqZsJzc6XzElw2EZWHJOed9qgO5C4uP6w5gKPA==";
+        };
+        _8rayM7QW = {
+            "id" = "8rayM7QW";
+            "file" = "AxCalendar-1.8.1.jar";
+            "hash" = "sha512-gA3XZzGQIDeDTGovNk0xSy1zZb+Y8SFaCFN/XglEYxGdXlo6QGLTdD+iP6qoBkzhZAAKyR/0x7myH7AnXSdVUQ==";
+        };
+        _RoRIwLpy = {
+            "id" = "RoRIwLpy";
+            "file" = "AxCalendar-2.0.0.jar";
+            "hash" = "sha512-0d7lPTZw2Kiompso2DpdIyMV3kghX0AJckKZZEGVu9Bv+YMDOC4kWGkcJ7Gro8seIsQZNUwIExCg1ifMD3Yrig==";
+        };
+        _81VNxGlk = {
+            "id" = "81VNxGlk";
+            "file" = "AxCalendar-2.1.0.jar";
+            "hash" = "sha512-tj+rybocXOCmTVq4iWcO/caAQY83AJ7u6rysrENMqb3jh7L5zqVDp1sBysXskkxHGnrxnSF/IV5SojHdYlix5w==";
+        };
+        _6qInRNic = {
+            "id" = "6qInRNic";
+            "file" = "AxCalendar-2.2.0.jar";
+            "hash" = "sha512-biCsCiyabQh1evekrmpgCPMu5ZXEWWk0ImSirPein2dcSWGbJlb5/fxlyu31KShWK0lFQAQGO+kKwY1odeVzUA==";
+        };
+        _hiLEEhFF = {
+            "id" = "hiLEEhFF";
+            "file" = "AxCalendar-2.3.0.jar";
+            "hash" = "sha512-wpz5UlHgIuUtqq7umw+QVw3qGHmooAyCxloy1GPiVMECVgFPJc39tDX/jEoF5DPXXmOAFtg4PQnYANZ0E2dwiA==";
+        };
+        _eHHtRtby = {
+            "id" = "eHHtRtby";
+            "file" = "AxCalendar-2.3.1.jar";
+            "hash" = "sha512-t1yzYvPP808M1NR0Xb1ZtFBfgnFBUjEoTOaXpeGwZ7npqnyyjqD5Vwoo1OBBFUBh4XL2cap9pZbq4CmBgGcFVQ==";
+        };
+        _BIZZ2XOi = {
+            "id" = "BIZZ2XOi";
+            "file" = "AxCalendar-2.3.2.jar";
+            "hash" = "sha512-ODeLNXCHawYz2GkbupACDMPi7+a7ibf0AAXeYNGIREq5dsLZP1r+sipYtfFZBdn/6DK4aqdAJ4mobSqFGpi7nQ==";
+        };
+        _86Kf4vPa = {
+            "id" = "86Kf4vPa";
+            "file" = "AxCalendar-2.3.3.jar";
+            "hash" = "sha512-wkcNuLNF86THZ+tJVkrO0qHolyap2jfBhqJg64LYCvEtiW8SsM27zcKI9P6ScKK1fK8pi7TztXpfkDEsPBURaw==";
+        };
+        _1UVl27vh = {
+            "id" = "1UVl27vh";
+            "file" = "AxCalendar-2.4.0.jar";
+            "hash" = "sha512-kx2TYQ+dHgO/H6VifMUc66KQcsx86G8MIqoNXbQPeiV0dcZnjvG8hvsz0fDzA8XU/JOuVB/jimBaDuoZaI5OvA==";
+        };
+        _8ZOkMFB3 = {
+            "id" = "8ZOkMFB3";
+            "file" = "AxCalendar-2.4.1.jar";
+            "hash" = "sha512-ihq340JztmkqQHIOlktu8a8t69zj2R0pwo1YkQfoilNIYsGjyPyStTYXCA9v9f+RJ7/t1WJ0tZtif/od/HTn5A==";
+        };
+        _pkHhFgg6 = {
+            "id" = "pkHhFgg6";
+            "file" = "AxCalendar-2.4.2.jar";
+            "hash" = "sha512-X5EaaiXuqCHi7Y78UJ2h/eFoERWpgZ3H7RBBiurAbvscvSRaTfu8VmTfKE/ze0sbXH6yG6X8/5nVOZ6GCbaWwg==";
+        };
+        _4THlkAJq = {
+            "id" = "4THlkAJq";
+            "file" = "AxCalendar-2.5.0.jar";
+            "hash" = "sha512-6IPmPOIHljY0NLdZrBwIf/JamKaWXUCjXQ25xJP0D8MgeokphtS8ree3IqnV6QpA6L8Ii754Rfx7+RjynvVrxQ==";
+        };
+        _DARx5pE7 = {
+            "id" = "DARx5pE7";
+            "file" = "AxCalendar-2.6.0.jar";
+            "hash" = "sha512-rpbr2BPLAmuBxQjylA/4mn09Ajeu2IX/wVNa/h5vLXufP4fnSoPKigXsPwjLS9X6My2FwZ671p2p37u+qvlAlg==";
+        };
+        _GNlf5pJX = {
+            "id" = "GNlf5pJX";
+            "file" = "AxCalendar-2.7.0.jar";
+            "hash" = "sha512-YYle8vukFjhK0Ppq2qXWthPFUPU6HYo/YtCOMJNg7xI8X/ZyD0rgAVWxsvenFwwyfUij6kPMrrUecDebyjyylA==";
+        };
+        _FQAkp7uG = {
+            "id" = "FQAkp7uG";
+            "file" = "AxCalendar-2.7.1.jar";
+            "hash" = "sha512-nUhPIh7RJMD00l2IeAVikgrk5D0VffPKDpwTu2MR+sSpjj89QpgyuBaGnBc27wYRwB3Wqr5sMQgJboINrpKH0g==";
+        };
+        _oTVCvvFG = {
+            "id" = "oTVCvvFG";
+            "file" = "AxCalendar-2.8.0.jar";
+            "hash" = "sha512-mCNt/ev03/bTXmT3nfXxkgsTwWxUoz8hYKHeDk2k2YxfGEpgGLpLJCSwIHF5KqwT1xrfF6V1MaHO3R8uO/DNgA==";
+        };
+    in {
+        "E4YDcDOS" = _E4YDcDOS;
+        "H9awPt3i" = _H9awPt3i;
+        "8xHDK3NW" = _8xHDK3NW;
+        "ApAAsUj6" = _ApAAsUj6;
+        "jWLNyPHl" = _jWLNyPHl;
+        "CZGYe5yN" = _CZGYe5yN;
+        "JJT0x9YA" = _JJT0x9YA;
+        "PlwiQhu0" = _PlwiQhu0;
+        "a6D9prSx" = _a6D9prSx;
+        "3JghSW0W" = _3JghSW0W;
+        "8rayM7QW" = _8rayM7QW;
+        "RoRIwLpy" = _RoRIwLpy;
+        "81VNxGlk" = _81VNxGlk;
+        "6qInRNic" = _6qInRNic;
+        "hiLEEhFF" = _hiLEEhFF;
+        "eHHtRtby" = _eHHtRtby;
+        "BIZZ2XOi" = _BIZZ2XOi;
+        "86Kf4vPa" = _86Kf4vPa;
+        "1UVl27vh" = _1UVl27vh;
+        "8ZOkMFB3" = _8ZOkMFB3;
+        "pkHhFgg6" = _pkHhFgg6;
+        "4THlkAJq" = _4THlkAJq;
+        "DARx5pE7" = _DARx5pE7;
+        "GNlf5pJX" = _GNlf5pJX;
+        "FQAkp7uG" = _FQAkp7uG;
+        "oTVCvvFG" = _oTVCvvFG;
+        "bukkit-1.18" = _6qInRNic;
+        "bukkit-1.18.1" = _6qInRNic;
+        "bukkit-1.18.2" = _6qInRNic;
+        "bukkit-1.19" = _6qInRNic;
+        "bukkit-1.19.1" = _6qInRNic;
+        "bukkit-1.19.2" = _6qInRNic;
+        "bukkit-1.19.3" = _6qInRNic;
+        "bukkit-1.19.4" = _6qInRNic;
+        "bukkit-1.20" = _6qInRNic;
+        "bukkit-1.20.1" = _6qInRNic;
+        "bukkit-1.20.2" = _oTVCvvFG;
+        "bukkit-1.20.3" = _oTVCvvFG;
+        "bukkit-1.20.4" = _oTVCvvFG;
+        "bukkit-1.20.5" = _oTVCvvFG;
+        "bukkit-1.20.6" = _oTVCvvFG;
+        "bukkit-1.21" = _oTVCvvFG;
+        "bukkit-1.21.1" = _oTVCvvFG;
+        "bukkit-1.21.2" = _oTVCvvFG;
+        "bukkit-1.21.3" = _oTVCvvFG;
+        "bukkit-1.21.4" = _oTVCvvFG;
+        "bukkit-1.21.5" = _oTVCvvFG;
+        "bukkit-1.21.6" = _oTVCvvFG;
+        "bukkit-1.21.7" = _oTVCvvFG;
+        "bukkit-1.21.8" = _oTVCvvFG;
+        "bukkit-1.21.9" = _oTVCvvFG;
+        "bukkit-1.21.10" = _oTVCvvFG;
+        "bukkit-1.21.11" = _oTVCvvFG;
+        "bukkit-26.1" = _oTVCvvFG;
+        "bukkit-26.1.1" = _oTVCvvFG;
+        "bukkit-26.1.2" = _oTVCvvFG;
+        "bukkit-26.2" = _oTVCvvFG;
+        "folia-1.18" = _6qInRNic;
+        "folia-1.18.1" = _6qInRNic;
+        "folia-1.18.2" = _6qInRNic;
+        "folia-1.19" = _6qInRNic;
+        "folia-1.19.1" = _6qInRNic;
+        "folia-1.19.2" = _6qInRNic;
+        "folia-1.19.3" = _6qInRNic;
+        "folia-1.19.4" = _6qInRNic;
+        "folia-1.20" = _6qInRNic;
+        "folia-1.20.1" = _6qInRNic;
+        "folia-1.20.2" = _oTVCvvFG;
+        "folia-1.20.3" = _oTVCvvFG;
+        "folia-1.20.4" = _oTVCvvFG;
+        "folia-1.20.5" = _oTVCvvFG;
+        "folia-1.20.6" = _oTVCvvFG;
+        "folia-1.21" = _oTVCvvFG;
+        "folia-1.21.1" = _oTVCvvFG;
+        "folia-1.21.2" = _oTVCvvFG;
+        "folia-1.21.3" = _oTVCvvFG;
+        "folia-1.21.4" = _oTVCvvFG;
+        "folia-1.21.5" = _oTVCvvFG;
+        "folia-1.21.6" = _oTVCvvFG;
+        "folia-1.21.7" = _oTVCvvFG;
+        "folia-1.21.8" = _oTVCvvFG;
+        "folia-1.21.9" = _oTVCvvFG;
+        "folia-1.21.10" = _oTVCvvFG;
+        "folia-1.21.11" = _oTVCvvFG;
+        "folia-26.1" = _oTVCvvFG;
+        "folia-26.1.1" = _oTVCvvFG;
+        "folia-26.1.2" = _oTVCvvFG;
+        "folia-26.2" = _oTVCvvFG;
+        "paper-1.18" = _6qInRNic;
+        "paper-1.18.1" = _6qInRNic;
+        "paper-1.18.2" = _6qInRNic;
+        "paper-1.19" = _6qInRNic;
+        "paper-1.19.1" = _6qInRNic;
+        "paper-1.19.2" = _6qInRNic;
+        "paper-1.19.3" = _6qInRNic;
+        "paper-1.19.4" = _6qInRNic;
+        "paper-1.20" = _6qInRNic;
+        "paper-1.20.1" = _6qInRNic;
+        "paper-1.20.2" = _oTVCvvFG;
+        "paper-1.20.3" = _oTVCvvFG;
+        "paper-1.20.4" = _oTVCvvFG;
+        "paper-1.20.5" = _oTVCvvFG;
+        "paper-1.20.6" = _oTVCvvFG;
+        "paper-1.21" = _oTVCvvFG;
+        "paper-1.21.1" = _oTVCvvFG;
+        "paper-1.21.2" = _oTVCvvFG;
+        "paper-1.21.3" = _oTVCvvFG;
+        "paper-1.21.4" = _oTVCvvFG;
+        "paper-1.21.5" = _oTVCvvFG;
+        "paper-1.21.6" = _oTVCvvFG;
+        "paper-1.21.7" = _oTVCvvFG;
+        "paper-1.21.8" = _oTVCvvFG;
+        "paper-1.21.9" = _oTVCvvFG;
+        "paper-1.21.10" = _oTVCvvFG;
+        "paper-1.21.11" = _oTVCvvFG;
+        "paper-26.1" = _oTVCvvFG;
+        "paper-26.1.1" = _oTVCvvFG;
+        "paper-26.1.2" = _oTVCvvFG;
+        "paper-26.2" = _oTVCvvFG;
+        "purpur-1.18" = _6qInRNic;
+        "purpur-1.18.1" = _6qInRNic;
+        "purpur-1.18.2" = _6qInRNic;
+        "purpur-1.19" = _6qInRNic;
+        "purpur-1.19.1" = _6qInRNic;
+        "purpur-1.19.2" = _6qInRNic;
+        "purpur-1.19.3" = _6qInRNic;
+        "purpur-1.19.4" = _6qInRNic;
+        "purpur-1.20" = _6qInRNic;
+        "purpur-1.20.1" = _6qInRNic;
+        "purpur-1.20.2" = _oTVCvvFG;
+        "purpur-1.20.3" = _oTVCvvFG;
+        "purpur-1.20.4" = _oTVCvvFG;
+        "purpur-1.20.5" = _oTVCvvFG;
+        "purpur-1.20.6" = _oTVCvvFG;
+        "purpur-1.21" = _oTVCvvFG;
+        "purpur-1.21.1" = _oTVCvvFG;
+        "purpur-1.21.2" = _oTVCvvFG;
+        "purpur-1.21.3" = _oTVCvvFG;
+        "purpur-1.21.4" = _oTVCvvFG;
+        "purpur-1.21.5" = _oTVCvvFG;
+        "purpur-1.21.6" = _oTVCvvFG;
+        "purpur-1.21.7" = _oTVCvvFG;
+        "purpur-1.21.8" = _oTVCvvFG;
+        "purpur-1.21.9" = _oTVCvvFG;
+        "purpur-1.21.10" = _oTVCvvFG;
+        "purpur-1.21.11" = _oTVCvvFG;
+        "purpur-26.1" = _oTVCvvFG;
+        "purpur-26.1.1" = _oTVCvvFG;
+        "purpur-26.1.2" = _oTVCvvFG;
+        "purpur-26.2" = _oTVCvvFG;
+        "spigot-1.18" = _6qInRNic;
+        "spigot-1.18.1" = _6qInRNic;
+        "spigot-1.18.2" = _6qInRNic;
+        "spigot-1.19" = _6qInRNic;
+        "spigot-1.19.1" = _6qInRNic;
+        "spigot-1.19.2" = _6qInRNic;
+        "spigot-1.19.3" = _6qInRNic;
+        "spigot-1.19.4" = _6qInRNic;
+        "spigot-1.20" = _6qInRNic;
+        "spigot-1.20.1" = _6qInRNic;
+        "spigot-1.20.2" = _oTVCvvFG;
+        "spigot-1.20.3" = _oTVCvvFG;
+        "spigot-1.20.4" = _oTVCvvFG;
+        "spigot-1.20.5" = _oTVCvvFG;
+        "spigot-1.20.6" = _oTVCvvFG;
+        "spigot-1.21" = _oTVCvvFG;
+        "spigot-1.21.1" = _oTVCvvFG;
+        "spigot-1.21.2" = _oTVCvvFG;
+        "spigot-1.21.3" = _oTVCvvFG;
+        "spigot-1.21.4" = _oTVCvvFG;
+        "spigot-1.21.5" = _oTVCvvFG;
+        "spigot-1.21.6" = _oTVCvvFG;
+        "spigot-1.21.7" = _oTVCvvFG;
+        "spigot-1.21.8" = _oTVCvvFG;
+        "spigot-1.21.9" = _oTVCvvFG;
+        "spigot-1.21.10" = _oTVCvvFG;
+        "spigot-1.21.11" = _oTVCvvFG;
+        "spigot-26.1" = _oTVCvvFG;
+        "spigot-26.1.1" = _oTVCvvFG;
+        "spigot-26.1.2" = _oTVCvvFG;
+        "spigot-26.2" = _oTVCvvFG;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "axcalendar";
+            id = "57DyMFwM";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="oTVCvvFG";}

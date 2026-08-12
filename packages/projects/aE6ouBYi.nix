@@ -1,0 +1,165 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _H3hQ483L = {
+            "id" = "H3hQ483L";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-hO/OT8eV4yh1x3vlSZIQxQaAbBlQIci8qfMrZi9/woZ6TEasFIrj0VP/GDl6jn3ZIrBOCVXUBl8JNnPS9ATmmg==";
+        };
+        _QkNsHOwM = {
+            "id" = "QkNsHOwM";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-H9/yve+FH59tMpnPfb9qMmDzd4gha8zMWlXI0buX+bVFm6lr9etaFozqaqrvU6IsfT+mUJM1Ba96QLc8oJoI3A==";
+        };
+        _L9X33qa2 = {
+            "id" = "L9X33qa2";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-jjOS9OTOWPRH7F3BGsp2KRNr/9w+U5nS6nDL7cz0ravY9ZmQwyityM51tGlFxkevbCG//bGfxTFDZzJghPCVAQ==";
+        };
+        _Sm6tFyfN = {
+            "id" = "Sm6tFyfN";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-MzRnsV/6SgS0k7Y5dsT4PeWMu8syUcrbEzScsNCTr+xQ0W6w97Kofo1eEbq5M8ig5NM+zbzNO9cwr4e2/AD5qA==";
+        };
+        _T6RTreu3 = {
+            "id" = "T6RTreu3";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-cj/RW2xj9sxd+LSfJlBYPvHja8idwn4OH6hJvKV/7yV4C7ZBNEac0YxMeUpyzIZp+f8DMLFhyEe4JIs9DWkcwQ==";
+        };
+        _s2tT6yUD = {
+            "id" = "s2tT6yUD";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-34YmD0+t0kBSKydu2X742p4aXWKt9ed4RHJegSQykGFI2qIal/sf1U7cOu2qHiSMTy1mTbP37tgPXDzrN6TNcA==";
+        };
+        _1oz2HEMR = {
+            "id" = "1oz2HEMR";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-ibTL8dGWXQsUQDkaf0j++I0vuu9EvZbQV8NQBIcoZVUOcjmKownu0YgnXShmvy8FVeWu81Drz9C9bgCgnkpHfA==";
+        };
+        _YO3rfXJI = {
+            "id" = "YO3rfXJI";
+            "file" = "TAA Project.zip";
+            "hash" = "sha512-puk+Nc4lA4aBsOIB2PI+9YaqpV9nHRF8tDRVHlEfnmBRQ/qSMx/mNyCUJMIxRK4nZwEi+F5bg1+5cWwmuhVWkw==";
+        };
+    in {
+        "H3hQ483L" = _H3hQ483L;
+        "QkNsHOwM" = _QkNsHOwM;
+        "L9X33qa2" = _L9X33qa2;
+        "Sm6tFyfN" = _Sm6tFyfN;
+        "T6RTreu3" = _T6RTreu3;
+        "s2tT6yUD" = _s2tT6yUD;
+        "1oz2HEMR" = _1oz2HEMR;
+        "YO3rfXJI" = _YO3rfXJI;
+        "iris-1.20" = _YO3rfXJI;
+        "iris-1.20.1" = _YO3rfXJI;
+        "iris-1.20.2" = _YO3rfXJI;
+        "iris-1.20.3" = _YO3rfXJI;
+        "iris-1.20.4" = _YO3rfXJI;
+        "iris-1.20.5" = _YO3rfXJI;
+        "iris-1.20.6" = _YO3rfXJI;
+        "iris-1.21" = _YO3rfXJI;
+        "iris-1.21.1" = _YO3rfXJI;
+        "iris-1.18" = _1oz2HEMR;
+        "iris-1.18.1" = _1oz2HEMR;
+        "iris-1.18.2" = _1oz2HEMR;
+        "iris-1.19" = _1oz2HEMR;
+        "iris-1.19.1" = _1oz2HEMR;
+        "iris-1.19.2" = _1oz2HEMR;
+        "iris-1.19.3" = _YO3rfXJI;
+        "iris-1.19.4" = _YO3rfXJI;
+        "iris-1.17" = _1oz2HEMR;
+        "iris-1.17.1" = _1oz2HEMR;
+        "iris-1.16" = _1oz2HEMR;
+        "iris-1.16.1" = _1oz2HEMR;
+        "iris-1.16.2" = _1oz2HEMR;
+        "iris-1.16.3" = _1oz2HEMR;
+        "iris-1.16.4" = _1oz2HEMR;
+        "iris-1.16.5" = _1oz2HEMR;
+        "iris-1.14" = _1oz2HEMR;
+        "iris-1.14.1" = _1oz2HEMR;
+        "iris-1.14.2" = _1oz2HEMR;
+        "iris-1.14.3" = _1oz2HEMR;
+        "iris-1.14.4" = _1oz2HEMR;
+        "iris-1.15" = _1oz2HEMR;
+        "iris-1.15.1" = _1oz2HEMR;
+        "iris-1.15.2" = _1oz2HEMR;
+        "iris-1.21.2" = _YO3rfXJI;
+        "iris-1.21.3" = _YO3rfXJI;
+        "iris-1.21.4" = _YO3rfXJI;
+        "iris-1.21.5" = _YO3rfXJI;
+        "iris-1.21.6" = _YO3rfXJI;
+        "iris-1.21.7" = _YO3rfXJI;
+        "iris-1.21.8" = _YO3rfXJI;
+        "iris-1.21.9" = _YO3rfXJI;
+        "iris-1.21.10" = _YO3rfXJI;
+        "iris-1.21.11" = _YO3rfXJI;
+        "iris-26.1" = _YO3rfXJI;
+        "iris-26.1.1" = _YO3rfXJI;
+        "iris-26.1.2" = _YO3rfXJI;
+        "optifine-1.20" = _YO3rfXJI;
+        "optifine-1.20.1" = _YO3rfXJI;
+        "optifine-1.20.2" = _YO3rfXJI;
+        "optifine-1.20.3" = _YO3rfXJI;
+        "optifine-1.20.4" = _YO3rfXJI;
+        "optifine-1.20.5" = _YO3rfXJI;
+        "optifine-1.20.6" = _YO3rfXJI;
+        "optifine-1.21" = _YO3rfXJI;
+        "optifine-1.21.1" = _YO3rfXJI;
+        "optifine-1.18" = _1oz2HEMR;
+        "optifine-1.18.1" = _1oz2HEMR;
+        "optifine-1.18.2" = _1oz2HEMR;
+        "optifine-1.19" = _1oz2HEMR;
+        "optifine-1.19.1" = _1oz2HEMR;
+        "optifine-1.19.2" = _1oz2HEMR;
+        "optifine-1.19.3" = _YO3rfXJI;
+        "optifine-1.19.4" = _YO3rfXJI;
+        "optifine-1.17" = _1oz2HEMR;
+        "optifine-1.17.1" = _1oz2HEMR;
+        "optifine-1.16" = _1oz2HEMR;
+        "optifine-1.16.1" = _1oz2HEMR;
+        "optifine-1.16.2" = _1oz2HEMR;
+        "optifine-1.16.3" = _1oz2HEMR;
+        "optifine-1.16.4" = _1oz2HEMR;
+        "optifine-1.16.5" = _1oz2HEMR;
+        "optifine-1.14" = _1oz2HEMR;
+        "optifine-1.14.1" = _1oz2HEMR;
+        "optifine-1.14.2" = _1oz2HEMR;
+        "optifine-1.14.3" = _1oz2HEMR;
+        "optifine-1.14.4" = _1oz2HEMR;
+        "optifine-1.15" = _1oz2HEMR;
+        "optifine-1.15.1" = _1oz2HEMR;
+        "optifine-1.15.2" = _1oz2HEMR;
+        "optifine-1.21.2" = _YO3rfXJI;
+        "optifine-1.21.3" = _YO3rfXJI;
+        "optifine-1.21.4" = _YO3rfXJI;
+        "optifine-1.21.5" = _YO3rfXJI;
+        "optifine-1.21.6" = _YO3rfXJI;
+        "optifine-1.21.7" = _YO3rfXJI;
+        "optifine-1.21.8" = _YO3rfXJI;
+        "optifine-1.21.9" = _YO3rfXJI;
+        "optifine-1.21.10" = _YO3rfXJI;
+        "optifine-1.21.11" = _YO3rfXJI;
+        "optifine-26.1" = _YO3rfXJI;
+        "optifine-26.1.1" = _YO3rfXJI;
+        "optifine-26.1.2" = _YO3rfXJI;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "taa";
+            id = "aE6ouBYi";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Mozilla Public License 2.0";
+                    shortName = "MPL-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="YO3rfXJI";}

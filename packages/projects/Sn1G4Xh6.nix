@@ -1,0 +1,116 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _KMB3Z5eU = {
+            "id" = "KMB3Z5eU";
+            "file" = "BrandNEWGlowingOres.zip";
+            "hash" = "sha512-y2n0UFpTIDiJdjNnFEMiHLrs8lGUY+8Wq8VrTS1WCy8gHxyqHtxCC8WPJ67fDw3IHorhPXrOWybqdnIUVkAoig==";
+        };
+    in {
+        "KMB3Z5eU" = _KMB3Z5eU;
+        "minecraft-1.16" = _KMB3Z5eU;
+        "minecraft-1.16.1" = _KMB3Z5eU;
+        "minecraft-1.16.2" = _KMB3Z5eU;
+        "minecraft-1.16.3" = _KMB3Z5eU;
+        "minecraft-1.16.4" = _KMB3Z5eU;
+        "minecraft-1.16.5" = _KMB3Z5eU;
+        "minecraft-1.17" = _KMB3Z5eU;
+        "minecraft-1.17.1" = _KMB3Z5eU;
+        "minecraft-1.18" = _KMB3Z5eU;
+        "minecraft-1.18.1" = _KMB3Z5eU;
+        "minecraft-1.18.2" = _KMB3Z5eU;
+        "minecraft-1.19" = _KMB3Z5eU;
+        "minecraft-1.19.1" = _KMB3Z5eU;
+        "minecraft-1.19.2" = _KMB3Z5eU;
+        "minecraft-22w42a" = _KMB3Z5eU;
+        "minecraft-22w43a" = _KMB3Z5eU;
+        "minecraft-22w44a" = _KMB3Z5eU;
+        "minecraft-1.19.3" = _KMB3Z5eU;
+        "minecraft-1.19.4" = _KMB3Z5eU;
+        "minecraft-23w14a" = _KMB3Z5eU;
+        "minecraft-23w16a" = _KMB3Z5eU;
+        "minecraft-1.20" = _KMB3Z5eU;
+        "minecraft-1.20.1" = _KMB3Z5eU;
+        "minecraft-23w31a" = _KMB3Z5eU;
+        "minecraft-23w32a" = _KMB3Z5eU;
+        "minecraft-23w33a" = _KMB3Z5eU;
+        "minecraft-23w35a" = _KMB3Z5eU;
+        "minecraft-1.20.2-pre1" = _KMB3Z5eU;
+        "minecraft-1.20.2" = _KMB3Z5eU;
+        "minecraft-23w42a" = _KMB3Z5eU;
+        "minecraft-23w43a" = _KMB3Z5eU;
+        "minecraft-23w43b" = _KMB3Z5eU;
+        "minecraft-23w44a" = _KMB3Z5eU;
+        "minecraft-23w45a" = _KMB3Z5eU;
+        "minecraft-23w46a" = _KMB3Z5eU;
+        "minecraft-1.20.3" = _KMB3Z5eU;
+        "minecraft-1.20.4" = _KMB3Z5eU;
+        "minecraft-24w03a" = _KMB3Z5eU;
+        "minecraft-24w03b" = _KMB3Z5eU;
+        "minecraft-24w04a" = _KMB3Z5eU;
+        "minecraft-24w05a" = _KMB3Z5eU;
+        "minecraft-24w05b" = _KMB3Z5eU;
+        "minecraft-24w06a" = _KMB3Z5eU;
+        "minecraft-24w07a" = _KMB3Z5eU;
+        "minecraft-24w09a" = _KMB3Z5eU;
+        "minecraft-24w10a" = _KMB3Z5eU;
+        "minecraft-24w11a" = _KMB3Z5eU;
+        "minecraft-24w12a" = _KMB3Z5eU;
+        "minecraft-24w13a" = _KMB3Z5eU;
+        "minecraft-24w14potato" = _KMB3Z5eU;
+        "minecraft-24w14a" = _KMB3Z5eU;
+        "minecraft-1.20.5-pre1" = _KMB3Z5eU;
+        "minecraft-1.20.5-pre2" = _KMB3Z5eU;
+        "minecraft-1.20.5-pre3" = _KMB3Z5eU;
+        "minecraft-1.20.5" = _KMB3Z5eU;
+        "minecraft-1.20.6" = _KMB3Z5eU;
+        "minecraft-24w18a" = _KMB3Z5eU;
+        "minecraft-24w19a" = _KMB3Z5eU;
+        "minecraft-24w19b" = _KMB3Z5eU;
+        "minecraft-24w20a" = _KMB3Z5eU;
+        "minecraft-1.21" = _KMB3Z5eU;
+        "minecraft-1.21.1" = _KMB3Z5eU;
+        "minecraft-24w33a" = _KMB3Z5eU;
+        "minecraft-24w34a" = _KMB3Z5eU;
+        "minecraft-24w35a" = _KMB3Z5eU;
+        "minecraft-24w36a" = _KMB3Z5eU;
+        "minecraft-24w37a" = _KMB3Z5eU;
+        "minecraft-24w38a" = _KMB3Z5eU;
+        "minecraft-24w39a" = _KMB3Z5eU;
+        "minecraft-24w40a" = _KMB3Z5eU;
+        "minecraft-1.21.2-pre1" = _KMB3Z5eU;
+        "minecraft-1.21.2-pre2" = _KMB3Z5eU;
+        "minecraft-1.21.2" = _KMB3Z5eU;
+        "minecraft-1.21.3" = _KMB3Z5eU;
+        "minecraft-24w44a" = _KMB3Z5eU;
+        "minecraft-24w45a" = _KMB3Z5eU;
+        "minecraft-24w46a" = _KMB3Z5eU;
+        "minecraft-1.21.4" = _KMB3Z5eU;
+        "minecraft-1.21.5" = _KMB3Z5eU;
+        "minecraft-1.21.6" = _KMB3Z5eU;
+        "minecraft-1.21.7" = _KMB3Z5eU;
+        "minecraft-1.21.8" = _KMB3Z5eU;
+        "minecraft-1.21.9" = _KMB3Z5eU;
+        "minecraft-1.21.10" = _KMB3Z5eU;
+        "minecraft-1.21.11" = _KMB3Z5eU;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "brand-new-glowing-ores";
+            id = "Sn1G4Xh6";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="KMB3Z5eU";}

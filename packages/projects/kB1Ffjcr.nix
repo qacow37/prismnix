@@ -1,0 +1,115 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _dI7SI071 = {
+            "id" = "dI7SI071";
+            "file" = "CustomEnchantments3.jar";
+            "hash" = "sha512-p8wlVZ2Rr96yprnwangTm3bCvkdI8TXQtFZevz32G4DOPor3BIOE243+DCHLARRyGgPXJ//xE+hkq9XJztdaog==";
+        };
+    in {
+        "dI7SI071" = _dI7SI071;
+        "paper-1.16" = _dI7SI071;
+        "paper-1.16.1" = _dI7SI071;
+        "paper-1.16.2" = _dI7SI071;
+        "paper-1.16.3" = _dI7SI071;
+        "paper-1.16.4" = _dI7SI071;
+        "paper-1.16.5" = _dI7SI071;
+        "paper-1.17" = _dI7SI071;
+        "paper-1.17.1" = _dI7SI071;
+        "paper-1.18" = _dI7SI071;
+        "paper-1.18.1" = _dI7SI071;
+        "paper-1.18.2" = _dI7SI071;
+        "paper-1.19" = _dI7SI071;
+        "paper-1.19.1" = _dI7SI071;
+        "paper-1.19.2" = _dI7SI071;
+        "paper-1.19.3" = _dI7SI071;
+        "paper-1.19.4" = _dI7SI071;
+        "paper-1.20" = _dI7SI071;
+        "paper-1.20.1" = _dI7SI071;
+        "paper-1.20.2" = _dI7SI071;
+        "paper-1.20.3" = _dI7SI071;
+        "paper-1.20.4" = _dI7SI071;
+        "paper-1.20.5" = _dI7SI071;
+        "paper-1.20.6" = _dI7SI071;
+        "paper-1.21" = _dI7SI071;
+        "paper-1.21.1" = _dI7SI071;
+        "paper-1.21.2" = _dI7SI071;
+        "paper-1.21.3" = _dI7SI071;
+        "paper-1.21.4" = _dI7SI071;
+        "purpur-1.16" = _dI7SI071;
+        "purpur-1.16.1" = _dI7SI071;
+        "purpur-1.16.2" = _dI7SI071;
+        "purpur-1.16.3" = _dI7SI071;
+        "purpur-1.16.4" = _dI7SI071;
+        "purpur-1.16.5" = _dI7SI071;
+        "purpur-1.17" = _dI7SI071;
+        "purpur-1.17.1" = _dI7SI071;
+        "purpur-1.18" = _dI7SI071;
+        "purpur-1.18.1" = _dI7SI071;
+        "purpur-1.18.2" = _dI7SI071;
+        "purpur-1.19" = _dI7SI071;
+        "purpur-1.19.1" = _dI7SI071;
+        "purpur-1.19.2" = _dI7SI071;
+        "purpur-1.19.3" = _dI7SI071;
+        "purpur-1.19.4" = _dI7SI071;
+        "purpur-1.20" = _dI7SI071;
+        "purpur-1.20.1" = _dI7SI071;
+        "purpur-1.20.2" = _dI7SI071;
+        "purpur-1.20.3" = _dI7SI071;
+        "purpur-1.20.4" = _dI7SI071;
+        "purpur-1.20.5" = _dI7SI071;
+        "purpur-1.20.6" = _dI7SI071;
+        "purpur-1.21" = _dI7SI071;
+        "purpur-1.21.1" = _dI7SI071;
+        "purpur-1.21.2" = _dI7SI071;
+        "purpur-1.21.3" = _dI7SI071;
+        "purpur-1.21.4" = _dI7SI071;
+        "spigot-1.16" = _dI7SI071;
+        "spigot-1.16.1" = _dI7SI071;
+        "spigot-1.16.2" = _dI7SI071;
+        "spigot-1.16.3" = _dI7SI071;
+        "spigot-1.16.4" = _dI7SI071;
+        "spigot-1.16.5" = _dI7SI071;
+        "spigot-1.17" = _dI7SI071;
+        "spigot-1.17.1" = _dI7SI071;
+        "spigot-1.18" = _dI7SI071;
+        "spigot-1.18.1" = _dI7SI071;
+        "spigot-1.18.2" = _dI7SI071;
+        "spigot-1.19" = _dI7SI071;
+        "spigot-1.19.1" = _dI7SI071;
+        "spigot-1.19.2" = _dI7SI071;
+        "spigot-1.19.3" = _dI7SI071;
+        "spigot-1.19.4" = _dI7SI071;
+        "spigot-1.20" = _dI7SI071;
+        "spigot-1.20.1" = _dI7SI071;
+        "spigot-1.20.2" = _dI7SI071;
+        "spigot-1.20.3" = _dI7SI071;
+        "spigot-1.20.4" = _dI7SI071;
+        "spigot-1.20.5" = _dI7SI071;
+        "spigot-1.20.6" = _dI7SI071;
+        "spigot-1.21" = _dI7SI071;
+        "spigot-1.21.1" = _dI7SI071;
+        "spigot-1.21.2" = _dI7SI071;
+        "spigot-1.21.3" = _dI7SI071;
+        "spigot-1.21.4" = _dI7SI071;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "custom-enchantments-2";
+            id = "kB1Ffjcr";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="dI7SI071";}

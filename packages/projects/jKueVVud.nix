@@ -1,0 +1,124 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _T202JONT = {
+            "id" = "T202JONT";
+            "file" = "Legacy edition Click Sound.zip";
+            "hash" = "sha512-diL4QFXl2y9E+3hbnUyfYDafMlsmyacUB39GFUAqceeP3hYyP+iBAWw4XPHaurr4qQ1Q7mqfZ1Xpk492OHBmQA==";
+        };
+        _yu8ciwCP = {
+            "id" = "yu8ciwCP";
+            "file" = "Legacy edition click sounds.zip";
+            "hash" = "sha512-pmXJXGl/wSU2VOBBx95mblsfGHW0hUBiQ9zdl07/ztLm3StCmj0AkNzGPpXcj5UZ3yYyRdoNSFz7Y8pNssULYw==";
+        };
+    in {
+        "T202JONT" = _T202JONT;
+        "yu8ciwCP" = _yu8ciwCP;
+        "minecraft-1.7.2" = _yu8ciwCP;
+        "minecraft-1.7.3" = _yu8ciwCP;
+        "minecraft-1.7.4" = _yu8ciwCP;
+        "minecraft-1.7.5" = _yu8ciwCP;
+        "minecraft-1.7.6" = _yu8ciwCP;
+        "minecraft-1.7.7" = _yu8ciwCP;
+        "minecraft-1.7.8" = _yu8ciwCP;
+        "minecraft-1.7.9" = _yu8ciwCP;
+        "minecraft-1.7.10" = _yu8ciwCP;
+        "minecraft-1.8" = _yu8ciwCP;
+        "minecraft-1.8.1" = _yu8ciwCP;
+        "minecraft-1.8.2" = _yu8ciwCP;
+        "minecraft-1.8.3" = _yu8ciwCP;
+        "minecraft-1.8.4" = _yu8ciwCP;
+        "minecraft-1.8.5" = _yu8ciwCP;
+        "minecraft-1.8.6" = _yu8ciwCP;
+        "minecraft-1.8.7" = _yu8ciwCP;
+        "minecraft-1.8.8" = _yu8ciwCP;
+        "minecraft-1.8.9" = _yu8ciwCP;
+        "minecraft-1.9" = _yu8ciwCP;
+        "minecraft-1.9.1" = _yu8ciwCP;
+        "minecraft-1.9.2" = _yu8ciwCP;
+        "minecraft-1.9.3" = _yu8ciwCP;
+        "minecraft-1.9.4" = _yu8ciwCP;
+        "minecraft-1.10" = _yu8ciwCP;
+        "minecraft-1.10.1" = _yu8ciwCP;
+        "minecraft-1.10.2" = _yu8ciwCP;
+        "minecraft-1.11" = _yu8ciwCP;
+        "minecraft-1.11.1" = _yu8ciwCP;
+        "minecraft-1.11.2" = _yu8ciwCP;
+        "minecraft-1.12" = _yu8ciwCP;
+        "minecraft-1.12.1" = _yu8ciwCP;
+        "minecraft-1.12.2" = _yu8ciwCP;
+        "minecraft-1.13" = _yu8ciwCP;
+        "minecraft-1.13.1" = _yu8ciwCP;
+        "minecraft-1.13.2" = _yu8ciwCP;
+        "minecraft-1.14" = _yu8ciwCP;
+        "minecraft-1.14.1" = _yu8ciwCP;
+        "minecraft-1.14.2" = _yu8ciwCP;
+        "minecraft-1.14.3" = _yu8ciwCP;
+        "minecraft-1.14.4" = _yu8ciwCP;
+        "minecraft-1.15" = _yu8ciwCP;
+        "minecraft-1.15.1" = _yu8ciwCP;
+        "minecraft-1.15.2" = _yu8ciwCP;
+        "minecraft-1.16" = _yu8ciwCP;
+        "minecraft-1.16.1" = _yu8ciwCP;
+        "minecraft-1.16.2" = _yu8ciwCP;
+        "minecraft-1.16.3" = _yu8ciwCP;
+        "minecraft-1.16.4" = _yu8ciwCP;
+        "minecraft-1.16.5" = _yu8ciwCP;
+        "minecraft-1.17" = _yu8ciwCP;
+        "minecraft-1.17.1" = _yu8ciwCP;
+        "minecraft-1.18" = _yu8ciwCP;
+        "minecraft-1.18.1" = _yu8ciwCP;
+        "minecraft-1.18.2" = _yu8ciwCP;
+        "minecraft-1.19" = _yu8ciwCP;
+        "minecraft-1.19.1" = _yu8ciwCP;
+        "minecraft-1.19.2" = _yu8ciwCP;
+        "minecraft-1.19.3" = _yu8ciwCP;
+        "minecraft-1.19.4" = _yu8ciwCP;
+        "minecraft-1.20" = _yu8ciwCP;
+        "minecraft-1.20.1" = _yu8ciwCP;
+        "minecraft-1.20.2" = _yu8ciwCP;
+        "minecraft-1.20.3" = _yu8ciwCP;
+        "minecraft-1.20.4" = _yu8ciwCP;
+        "minecraft-1.20.5" = _yu8ciwCP;
+        "minecraft-1.20.6" = _yu8ciwCP;
+        "minecraft-1.21" = _yu8ciwCP;
+        "minecraft-1.21.1" = _yu8ciwCP;
+        "minecraft-1.21.2" = _yu8ciwCP;
+        "minecraft-1.21.3" = _yu8ciwCP;
+        "minecraft-1.21.4" = _yu8ciwCP;
+        "minecraft-1.21.5" = _yu8ciwCP;
+        "minecraft-1.21.6" = _yu8ciwCP;
+        "minecraft-1.21.7" = _yu8ciwCP;
+        "minecraft-1.21.8" = _yu8ciwCP;
+        "minecraft-1.21.9" = _yu8ciwCP;
+        "minecraft-1.21.10" = _yu8ciwCP;
+        "minecraft-1.21.11" = _yu8ciwCP;
+        "minecraft-22w13oneblockatatime" = _yu8ciwCP;
+        "minecraft-23w13a_or_b" = _yu8ciwCP;
+        "minecraft-24w14potato" = _yu8ciwCP;
+        "minecraft-25w14craftmine" = _yu8ciwCP;
+        "minecraft-26.1" = _yu8ciwCP;
+        "minecraft-26.1.1" = _yu8ciwCP;
+        "minecraft-26.1.2" = _yu8ciwCP;
+        "minecraft-26.2" = _yu8ciwCP;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "legacy-edition-click-sound";
+            id = "jKueVVud";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="yu8ciwCP";}

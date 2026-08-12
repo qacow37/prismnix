@@ -1,0 +1,135 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _5xqZcey1 = {
+            "id" = "5xqZcey1";
+            "file" = "epicknights_bettercombat.zip";
+            "hash" = "sha512-Mqk5hyuQ5GVI4yCsTsqIn3bX47ugknfXm7HMcVnExWmRDUjK/vq+YaVS8s63UQruDILWlbOR8HfhvSlMbaK8aw==";
+        };
+        _awebaf7d = {
+            "id" = "awebaf7d";
+            "file" = "epicknights_bettercombat.jar";
+            "hash" = "sha512-hHqDANs8ljmLY1jw9wsOepwnLHTP1t3shMtrWgjv5ZOB5gNsHNsMn8yYlFvmFUl1wUzzMkifb5jdZX8BHYDhRA==";
+        };
+        _8pXbJyjs = {
+            "id" = "8pXbJyjs";
+            "file" = "Epic-Knights-x-Better-Combat.zip";
+            "hash" = "sha512-plLLduqPNpC0fKvwE2olXxZIug1VcWuQJB/SKDiM5JHHDmEYgo1uiO2c7j5IDDu1jAZJDr1o5NYekRd8yXlTjQ==";
+        };
+        _qj0lXWQt = {
+            "id" = "qj0lXWQt";
+            "file" = "Epic-Knights-x-Better-Combat.jar";
+            "hash" = "sha512-v8vftgw5hIZ1p1xbDYADf/GFsHAKDCrtxmjW+U+NJqDy1ebajQsBrXSnGv3/CU4NXILq2nAh0aXq/hjIKjwj+Q==";
+        };
+    in {
+        "5xqZcey1" = _5xqZcey1;
+        "awebaf7d" = _awebaf7d;
+        "8pXbJyjs" = _8pXbJyjs;
+        "qj0lXWQt" = _qj0lXWQt;
+        "datapack-1.20" = _8pXbJyjs;
+        "datapack-1.20.1" = _8pXbJyjs;
+        "datapack-23w31a" = _8pXbJyjs;
+        "datapack-23w32a" = _8pXbJyjs;
+        "datapack-23w33a" = _8pXbJyjs;
+        "datapack-23w35a" = _8pXbJyjs;
+        "datapack-1.20.2-pre1" = _8pXbJyjs;
+        "datapack-1.20.2" = _8pXbJyjs;
+        "datapack-23w40a" = _8pXbJyjs;
+        "datapack-23w41a" = _8pXbJyjs;
+        "datapack-23w42a" = _8pXbJyjs;
+        "datapack-23w43a" = _8pXbJyjs;
+        "datapack-23w43b" = _8pXbJyjs;
+        "datapack-23w44a" = _8pXbJyjs;
+        "datapack-23w45a" = _8pXbJyjs;
+        "datapack-23w46a" = _8pXbJyjs;
+        "datapack-1.20.3-pre1" = _8pXbJyjs;
+        "datapack-1.20.3-pre2" = _8pXbJyjs;
+        "datapack-1.20.3-pre3" = _8pXbJyjs;
+        "datapack-1.20.3-pre4" = _8pXbJyjs;
+        "datapack-1.20.3" = _8pXbJyjs;
+        "datapack-1.20.4" = _8pXbJyjs;
+        "datapack-23w51a" = _8pXbJyjs;
+        "datapack-23w51b" = _8pXbJyjs;
+        "datapack-24w03a" = _8pXbJyjs;
+        "datapack-24w03b" = _8pXbJyjs;
+        "datapack-24w04a" = _8pXbJyjs;
+        "datapack-24w05a" = _8pXbJyjs;
+        "datapack-24w05b" = _8pXbJyjs;
+        "datapack-24w06a" = _8pXbJyjs;
+        "datapack-24w07a" = _8pXbJyjs;
+        "datapack-24w09a" = _8pXbJyjs;
+        "datapack-24w10a" = _8pXbJyjs;
+        "datapack-24w11a" = _8pXbJyjs;
+        "datapack-24w12a" = _8pXbJyjs;
+        "datapack-24w13a" = _8pXbJyjs;
+        "datapack-24w14a" = _8pXbJyjs;
+        "datapack-1.20.5-pre1" = _8pXbJyjs;
+        "datapack-1.20.5-pre2" = _8pXbJyjs;
+        "datapack-1.20.5-pre3" = _8pXbJyjs;
+        "datapack-1.20.5-pre4" = _8pXbJyjs;
+        "datapack-1.20.5-rc1" = _8pXbJyjs;
+        "datapack-1.20.5-rc2" = _8pXbJyjs;
+        "datapack-1.20.5-rc3" = _8pXbJyjs;
+        "datapack-1.20.5" = _8pXbJyjs;
+        "datapack-1.20.6" = _8pXbJyjs;
+        "datapack-24w18a" = _8pXbJyjs;
+        "datapack-24w19a" = _8pXbJyjs;
+        "datapack-24w19b" = _8pXbJyjs;
+        "datapack-24w20a" = _8pXbJyjs;
+        "datapack-24w21a" = _8pXbJyjs;
+        "datapack-24w21b" = _8pXbJyjs;
+        "datapack-1.21-pre1" = _8pXbJyjs;
+        "datapack-1.21-pre2" = _8pXbJyjs;
+        "datapack-1.21-pre3" = _8pXbJyjs;
+        "datapack-1.21-pre4" = _8pXbJyjs;
+        "datapack-1.21-rc1" = _8pXbJyjs;
+        "datapack-1.21" = _8pXbJyjs;
+        "datapack-1.21.1" = _8pXbJyjs;
+        "fabric-1.20.1" = _qj0lXWQt;
+        "fabric-1.20" = _qj0lXWQt;
+        "fabric-1.20.2" = _qj0lXWQt;
+        "fabric-1.20.3" = _qj0lXWQt;
+        "fabric-1.20.4" = _qj0lXWQt;
+        "fabric-1.20.5" = _qj0lXWQt;
+        "fabric-1.20.6" = _qj0lXWQt;
+        "fabric-1.21" = _qj0lXWQt;
+        "fabric-1.21.1" = _qj0lXWQt;
+        "forge-1.20.1" = _qj0lXWQt;
+        "forge-1.20" = _qj0lXWQt;
+        "forge-1.20.2" = _qj0lXWQt;
+        "forge-1.20.3" = _qj0lXWQt;
+        "forge-1.20.4" = _qj0lXWQt;
+        "forge-1.20.5" = _qj0lXWQt;
+        "forge-1.20.6" = _qj0lXWQt;
+        "forge-1.21" = _qj0lXWQt;
+        "forge-1.21.1" = _qj0lXWQt;
+        "neoforge-1.20.1" = _qj0lXWQt;
+        "neoforge-1.20" = _qj0lXWQt;
+        "neoforge-1.20.2" = _qj0lXWQt;
+        "neoforge-1.20.3" = _qj0lXWQt;
+        "neoforge-1.20.4" = _qj0lXWQt;
+        "neoforge-1.20.5" = _qj0lXWQt;
+        "neoforge-1.20.6" = _qj0lXWQt;
+        "neoforge-1.21" = _qj0lXWQt;
+        "neoforge-1.21.1" = _qj0lXWQt;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "epic-knights-bettercombat-compatibility";
+            id = "q3sK3Quf";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                    shortName = "CC-BY-NC-4.0";
+                    url = "https://github.com/Salty-Codes/epicknights_bettercombat/tree/main?tab=License-1-ov-file";
+                };
+            };
+        };
+in callPackage fn {version="qj0lXWQt";}

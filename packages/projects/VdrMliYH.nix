@@ -1,0 +1,212 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _apdzbQng = {
+            "id" = "apdzbQng";
+            "file" = "Small Dripleaf Duplication v1.0 (1.21-1.21.1).zip";
+            "hash" = "sha512-x4hbe2i701RwRtZkAvMxv3NX/fQ89JFTyr5+9EatT1kmORDB+/rSdc6nY/RZULpHCI5JiOoSzbtYdM3cd8t/fg==";
+        };
+        _ouqSO2hj = {
+            "id" = "ouqSO2hj";
+            "file" = "small-dripleaf-duplication-1.jar";
+            "hash" = "sha512-NFOJnPR9MNbGtW4NcJ/qi3ZJuf1R1/urzsUKK3CIVOTmxZTh+5/z3ssdBiNALSu8I4YCGCP8/uD26/8BzvT3OA==";
+        };
+        _rZCn3TeI = {
+            "id" = "rZCn3TeI";
+            "file" = "Small Dripleaf Duplication v1.1 (1.20-1.21.1).zip";
+            "hash" = "sha512-IR2Thh3krRezvE7icoWiAS73J6pG/MjY0cw/CtMdXgTSZQ02oEinZ7X+txnz80kFy4D9RBfIEbOC+Hf64hRh0Q==";
+        };
+        _EZtIXonV = {
+            "id" = "EZtIXonV";
+            "file" = "small-dripleaf-duplication-1.1.jar";
+            "hash" = "sha512-T6B4j00L08/AIvpQOsgzhfyOge1Fg/Oxb5WwLd/X2BLP7gGjTpqqUq4X39zsMY3GRIFF9PlPoDS7frioJNB4FA==";
+        };
+        _EIsRZtFh = {
+            "id" = "EIsRZtFh";
+            "file" = "Small Dripleaf Duplication v1.2 (1.20-1.21.4).zip";
+            "hash" = "sha512-dgwY2h4xIQpmxhD9bK3JCdm36jj84RjHQoIYFmKEfkqQiCGJr64+Pa46rHXHbMn49ClAttltor68UEiQ/JUOxA==";
+        };
+        _saGkyMKV = {
+            "id" = "saGkyMKV";
+            "file" = "small-dripleaf-duplication-1.2.jar";
+            "hash" = "sha512-moCnDqYFcsFTJc6EZpdLsawgB2g/hRqZkRy7vS3yRlwJd38zfsGtHUXVslsgn+pQOmKbShbmfVmOYB9X7AFw9g==";
+        };
+        _CUq0uTzq = {
+            "id" = "CUq0uTzq";
+            "file" = "Small Dripleaf Duplication v1.3 (1.20-1.21.5).zip";
+            "hash" = "sha512-EvOb382M1uM8clhsVu8rBCKGVvJS8NCC10Dq4B3sPGYsEkEUkPfxL/kLdK6Fnp2syHHhRQsNB1jbSLxCIfuCUA==";
+        };
+        _eeC5tl6W = {
+            "id" = "eeC5tl6W";
+            "file" = "small-dripleaf-duplication-1.3.jar";
+            "hash" = "sha512-mR+kP5SX8AUNfM4ZwzwBdDwQ/vRRIAC+SugUmq44ZuufyFVitDdtexecyQ36X7EHjUARlzHXLIlS3Mi7COt5xQ==";
+        };
+        _9BDM01Gj = {
+            "id" = "9BDM01Gj";
+            "file" = "Small Dripleaf Duplication v1.4 (1.20-1.21.10).zip";
+            "hash" = "sha512-5pqS0BonRjxzGy/RORAqGRe3kyYS7MFmEowEWLM+HbA011T2znDSRV9uwVUmrj78N2XKNlauEPJVo8lSCGGXuA==";
+        };
+        _SkzzUovs = {
+            "id" = "SkzzUovs";
+            "file" = "small-dripleaf-duplication-1.4.jar";
+            "hash" = "sha512-M1dpCbA4twXNBuRzdeBFkFcCUIm+VxoHFTkWaX496CfV4mcK9kqtNW1hyfTVGMRc5Gw0HB7APDTitKVEN9K9Zw==";
+        };
+        _9JaZPFQz = {
+            "id" = "9JaZPFQz";
+            "file" = "Small Dripleaf Duplication v1.5 (1.20-1.21.11).zip";
+            "hash" = "sha512-v9ViVuxlLVrOIrZnma/1D3Uz0/n0OlTUoXe156OqzuKRYFEqMfaNmvN8BgUkQwTlmOhr8164VYGAU1v4mJA1xg==";
+        };
+        _s34D4pU4 = {
+            "id" = "s34D4pU4";
+            "file" = "small-dripleaf-duplication-1.5.jar";
+            "hash" = "sha512-fiqT4zQSaWtuMIj16iph1pAjElNlIv9cb0UUeKQrGs3qORB2cxiV6ljgrKYo7TDgmVumhMLhK10LSsZM0H+2rw==";
+        };
+    in {
+        "apdzbQng" = _apdzbQng;
+        "ouqSO2hj" = _ouqSO2hj;
+        "rZCn3TeI" = _rZCn3TeI;
+        "EZtIXonV" = _EZtIXonV;
+        "EIsRZtFh" = _EIsRZtFh;
+        "saGkyMKV" = _saGkyMKV;
+        "CUq0uTzq" = _CUq0uTzq;
+        "eeC5tl6W" = _eeC5tl6W;
+        "9BDM01Gj" = _9BDM01Gj;
+        "SkzzUovs" = _SkzzUovs;
+        "9JaZPFQz" = _9JaZPFQz;
+        "s34D4pU4" = _s34D4pU4;
+        "datapack-1.21" = _9JaZPFQz;
+        "datapack-1.21.1" = _9JaZPFQz;
+        "datapack-1.20" = _9JaZPFQz;
+        "datapack-1.20.1" = _9JaZPFQz;
+        "datapack-1.20.2" = _9JaZPFQz;
+        "datapack-1.20.3" = _9JaZPFQz;
+        "datapack-1.20.4" = _9JaZPFQz;
+        "datapack-1.20.5" = _9JaZPFQz;
+        "datapack-1.20.6" = _9JaZPFQz;
+        "datapack-24w33a" = _rZCn3TeI;
+        "datapack-24w34a" = _rZCn3TeI;
+        "datapack-24w35a" = _rZCn3TeI;
+        "datapack-24w36a" = _rZCn3TeI;
+        "datapack-1.21.2" = _9JaZPFQz;
+        "datapack-1.21.3" = _9JaZPFQz;
+        "datapack-1.21.4" = _9JaZPFQz;
+        "datapack-1.21.5" = _9JaZPFQz;
+        "datapack-1.21.6" = _9JaZPFQz;
+        "datapack-1.21.7" = _9JaZPFQz;
+        "datapack-1.21.8" = _9JaZPFQz;
+        "datapack-1.21.9" = _9JaZPFQz;
+        "datapack-1.21.10" = _9JaZPFQz;
+        "datapack-1.21.11" = _9JaZPFQz;
+        "fabric-1.21" = _s34D4pU4;
+        "fabric-1.21.1" = _s34D4pU4;
+        "fabric-1.20" = _s34D4pU4;
+        "fabric-1.20.1" = _s34D4pU4;
+        "fabric-1.20.2" = _s34D4pU4;
+        "fabric-1.20.3" = _s34D4pU4;
+        "fabric-1.20.4" = _s34D4pU4;
+        "fabric-1.20.5" = _s34D4pU4;
+        "fabric-1.20.6" = _s34D4pU4;
+        "fabric-24w33a" = _EZtIXonV;
+        "fabric-24w34a" = _EZtIXonV;
+        "fabric-24w35a" = _EZtIXonV;
+        "fabric-24w36a" = _EZtIXonV;
+        "fabric-1.21.2" = _s34D4pU4;
+        "fabric-1.21.3" = _s34D4pU4;
+        "fabric-1.21.4" = _s34D4pU4;
+        "fabric-1.21.5" = _s34D4pU4;
+        "fabric-1.21.6" = _s34D4pU4;
+        "fabric-1.21.7" = _s34D4pU4;
+        "fabric-1.21.8" = _s34D4pU4;
+        "fabric-1.21.9" = _s34D4pU4;
+        "fabric-1.21.10" = _s34D4pU4;
+        "fabric-1.21.11" = _s34D4pU4;
+        "forge-1.21" = _s34D4pU4;
+        "forge-1.21.1" = _s34D4pU4;
+        "forge-1.20" = _s34D4pU4;
+        "forge-1.20.1" = _s34D4pU4;
+        "forge-1.20.2" = _s34D4pU4;
+        "forge-1.20.3" = _s34D4pU4;
+        "forge-1.20.4" = _s34D4pU4;
+        "forge-1.20.5" = _s34D4pU4;
+        "forge-1.20.6" = _s34D4pU4;
+        "forge-24w33a" = _EZtIXonV;
+        "forge-24w34a" = _EZtIXonV;
+        "forge-24w35a" = _EZtIXonV;
+        "forge-24w36a" = _EZtIXonV;
+        "forge-1.21.2" = _s34D4pU4;
+        "forge-1.21.3" = _s34D4pU4;
+        "forge-1.21.4" = _s34D4pU4;
+        "forge-1.21.5" = _s34D4pU4;
+        "forge-1.21.6" = _s34D4pU4;
+        "forge-1.21.7" = _s34D4pU4;
+        "forge-1.21.8" = _s34D4pU4;
+        "forge-1.21.9" = _s34D4pU4;
+        "forge-1.21.10" = _s34D4pU4;
+        "forge-1.21.11" = _s34D4pU4;
+        "neoforge-1.21" = _s34D4pU4;
+        "neoforge-1.21.1" = _s34D4pU4;
+        "neoforge-1.20" = _s34D4pU4;
+        "neoforge-1.20.1" = _s34D4pU4;
+        "neoforge-1.20.2" = _s34D4pU4;
+        "neoforge-1.20.3" = _s34D4pU4;
+        "neoforge-1.20.4" = _s34D4pU4;
+        "neoforge-1.20.5" = _s34D4pU4;
+        "neoforge-1.20.6" = _s34D4pU4;
+        "neoforge-24w33a" = _EZtIXonV;
+        "neoforge-24w34a" = _EZtIXonV;
+        "neoforge-24w35a" = _EZtIXonV;
+        "neoforge-24w36a" = _EZtIXonV;
+        "neoforge-1.21.2" = _s34D4pU4;
+        "neoforge-1.21.3" = _s34D4pU4;
+        "neoforge-1.21.4" = _s34D4pU4;
+        "neoforge-1.21.5" = _s34D4pU4;
+        "neoforge-1.21.6" = _s34D4pU4;
+        "neoforge-1.21.7" = _s34D4pU4;
+        "neoforge-1.21.8" = _s34D4pU4;
+        "neoforge-1.21.9" = _s34D4pU4;
+        "neoforge-1.21.10" = _s34D4pU4;
+        "neoforge-1.21.11" = _s34D4pU4;
+        "quilt-1.21" = _s34D4pU4;
+        "quilt-1.21.1" = _s34D4pU4;
+        "quilt-1.20" = _s34D4pU4;
+        "quilt-1.20.1" = _s34D4pU4;
+        "quilt-1.20.2" = _s34D4pU4;
+        "quilt-1.20.3" = _s34D4pU4;
+        "quilt-1.20.4" = _s34D4pU4;
+        "quilt-1.20.5" = _s34D4pU4;
+        "quilt-1.20.6" = _s34D4pU4;
+        "quilt-24w33a" = _EZtIXonV;
+        "quilt-24w34a" = _EZtIXonV;
+        "quilt-24w35a" = _EZtIXonV;
+        "quilt-24w36a" = _EZtIXonV;
+        "quilt-1.21.2" = _s34D4pU4;
+        "quilt-1.21.3" = _s34D4pU4;
+        "quilt-1.21.4" = _s34D4pU4;
+        "quilt-1.21.5" = _s34D4pU4;
+        "quilt-1.21.6" = _s34D4pU4;
+        "quilt-1.21.7" = _s34D4pU4;
+        "quilt-1.21.8" = _s34D4pU4;
+        "quilt-1.21.9" = _s34D4pU4;
+        "quilt-1.21.10" = _s34D4pU4;
+        "quilt-1.21.11" = _s34D4pU4;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "small-dripleaf-duplication";
+            id = "VdrMliYH";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="s34D4pU4";}

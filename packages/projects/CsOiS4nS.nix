@@ -1,0 +1,210 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _VfokLEX1 = {
+            "id" = "VfokLEX1";
+            "file" = "toolbar_sounds_v1.0.zip";
+            "hash" = "sha512-hQi3loqc+xalmd9fqLigEZOABl3zKBhQPmagJuj1O+NbETEGzJFszW3+aGTcMVqqg8p650FHsCfag6JkqD04wg==";
+        };
+        _LrWn6mW1 = {
+            "id" = "LrWn6mW1";
+            "file" = "toolbar-sounds_v1.1_1.20-1.20.4.zip";
+            "hash" = "sha512-mrAaMQeHCPZXTA32IEIkMKkORmDb2ZqweMDkh3bhFg7/WCzsMs/wcDdMG/P1Vq6iXiF/DW9tPqIsMYzhlyWm1A==";
+        };
+        _e6Edt62k = {
+            "id" = "e6Edt62k";
+            "file" = "toolbar-sounds-1.1.jar";
+            "hash" = "sha512-XHWQUVpd7AKg56iYXYmNkN+62dG6jgRv1FeW4XOu82nytyFSyXTR6gAyswRDcKt96k4Fsol1HKZK7H09SBwINw==";
+        };
+        _YoMRXdgn = {
+            "id" = "YoMRXdgn";
+            "file" = "toolbar-sounds_v1.1_1.20.5-1.20.6.zip";
+            "hash" = "sha512-639R0ghjdOUXranRtxfIFlzsVCOhjQyMoWN4dUqKcR+Dofv6nM577owsSGyBNJ4C9y4O5SC7L81cTA8c8LL9fA==";
+        };
+        _kX3iJBBc = {
+            "id" = "kX3iJBBc";
+            "file" = "toolbar-sounds-1.1.jar";
+            "hash" = "sha512-Mq1od6Jf40QpeeKFuHQUka9EMCCgsrPW0Jw7iaRPF4c3pgOrq6zRSJ4heHjigXooSvoya6fjMFSd1irnggGqCA==";
+        };
+        _np6HFlpW = {
+            "id" = "np6HFlpW";
+            "file" = "toolbar-sounds_v1.1_1.21-1.21.5.zip";
+            "hash" = "sha512-lpwdJOUnDUzRhHqvGfe8KS7Aw76CqpKe6lS50z68sFr5Sw7Wo2bqUl3wopaf9iPgfTLmsJHYeV1lXUS1Fs8G5g==";
+        };
+        _GBjqaJrC = {
+            "id" = "GBjqaJrC";
+            "file" = "toolbar-sounds-1.1.jar";
+            "hash" = "sha512-/HZdPq+D6bWdr6zJ38Q2avLCX0eZX6uEoSmspmrQ6AbRqwq+wJGKahkeWBzDavqPjQtD6vozH3FjXJvilXFcUw==";
+        };
+        _Q7MBKTZM = {
+            "id" = "Q7MBKTZM";
+            "file" = "toolbar-sounds_v1.1_1.21-1.21.8.zip";
+            "hash" = "sha512-xZZ5TtaxYY6fGDy/GOpwZ/GfBxTNVaYI31cOdkBEcZTa6zNOk7LLPbuvzZbBQPgDKzqRUaQ6mJH8xLT8uJz6pQ==";
+        };
+        _1BO9mKJt = {
+            "id" = "1BO9mKJt";
+            "file" = "toolbar-sounds-v1.1.jar";
+            "hash" = "sha512-/rYLe4/SFZODK7oogf8VhoSKxkKGe4wt8FB9G98CM2tCWY6F33yuMZGigpbBd7LJWOx4imMmsfZ5eiAj4x4GWQ==";
+        };
+        _4vN8AlK3 = {
+            "id" = "4vN8AlK3";
+            "file" = "toolbar-sounds_v1.1_1.21-26.1.1.zip";
+            "hash" = "sha512-4xQx0iISPFnkW7kyoiIeDYIRC42mGjS9104cbIUzENrA4PddUGKvoCFtAczIotmpzFC/hhfBibbl21Btn3k2hA==";
+        };
+        _fY59penG = {
+            "id" = "fY59penG";
+            "file" = "toolbar-sounds-1.1.jar";
+            "hash" = "sha512-dICVhHW9g93ohmuKMoCF3jZF3aTl/o7VfU9mn7P5uZf30DFjakeZVsgmpzWXTjBQZwEuLhp6sV6wykdzcR5zqQ==";
+        };
+    in {
+        "VfokLEX1" = _VfokLEX1;
+        "LrWn6mW1" = _LrWn6mW1;
+        "e6Edt62k" = _e6Edt62k;
+        "YoMRXdgn" = _YoMRXdgn;
+        "kX3iJBBc" = _kX3iJBBc;
+        "np6HFlpW" = _np6HFlpW;
+        "GBjqaJrC" = _GBjqaJrC;
+        "Q7MBKTZM" = _Q7MBKTZM;
+        "1BO9mKJt" = _1BO9mKJt;
+        "4vN8AlK3" = _4vN8AlK3;
+        "fY59penG" = _fY59penG;
+        "datapack-1.19" = _VfokLEX1;
+        "datapack-1.19.1" = _VfokLEX1;
+        "datapack-1.19.2" = _VfokLEX1;
+        "datapack-1.19.3" = _VfokLEX1;
+        "datapack-1.20" = _LrWn6mW1;
+        "datapack-1.20.1" = _LrWn6mW1;
+        "datapack-1.20.2" = _LrWn6mW1;
+        "datapack-1.20.3" = _LrWn6mW1;
+        "datapack-1.20.4" = _LrWn6mW1;
+        "datapack-1.20.5" = _YoMRXdgn;
+        "datapack-1.20.6" = _YoMRXdgn;
+        "datapack-1.21" = _4vN8AlK3;
+        "datapack-1.21.1" = _4vN8AlK3;
+        "datapack-1.21.2" = _4vN8AlK3;
+        "datapack-1.21.3" = _4vN8AlK3;
+        "datapack-1.21.4" = _4vN8AlK3;
+        "datapack-1.21.5" = _4vN8AlK3;
+        "datapack-1.21.6" = _4vN8AlK3;
+        "datapack-1.21.7" = _4vN8AlK3;
+        "datapack-1.21.8" = _4vN8AlK3;
+        "datapack-1.21.9" = _4vN8AlK3;
+        "datapack-1.21.10" = _4vN8AlK3;
+        "datapack-1.21.11" = _4vN8AlK3;
+        "datapack-26.1" = _4vN8AlK3;
+        "datapack-26.1.1" = _4vN8AlK3;
+        "datapack-26.1.2" = _4vN8AlK3;
+        "datapack-26.2" = _4vN8AlK3;
+        "fabric-1.20" = _e6Edt62k;
+        "fabric-1.20.1" = _e6Edt62k;
+        "fabric-1.20.2" = _e6Edt62k;
+        "fabric-1.20.3" = _e6Edt62k;
+        "fabric-1.20.4" = _e6Edt62k;
+        "fabric-1.20.5" = _kX3iJBBc;
+        "fabric-1.20.6" = _kX3iJBBc;
+        "fabric-1.21" = _fY59penG;
+        "fabric-1.21.1" = _fY59penG;
+        "fabric-1.21.2" = _fY59penG;
+        "fabric-1.21.3" = _fY59penG;
+        "fabric-1.21.4" = _fY59penG;
+        "fabric-1.21.5" = _fY59penG;
+        "fabric-1.21.6" = _fY59penG;
+        "fabric-1.21.7" = _fY59penG;
+        "fabric-1.21.8" = _fY59penG;
+        "fabric-1.21.9" = _fY59penG;
+        "fabric-1.21.10" = _fY59penG;
+        "fabric-1.21.11" = _fY59penG;
+        "fabric-26.1" = _fY59penG;
+        "fabric-26.1.1" = _fY59penG;
+        "fabric-26.1.2" = _fY59penG;
+        "fabric-26.2" = _fY59penG;
+        "forge-1.20" = _e6Edt62k;
+        "forge-1.20.1" = _e6Edt62k;
+        "forge-1.20.2" = _e6Edt62k;
+        "forge-1.20.3" = _e6Edt62k;
+        "forge-1.20.4" = _e6Edt62k;
+        "forge-1.20.5" = _kX3iJBBc;
+        "forge-1.20.6" = _kX3iJBBc;
+        "forge-1.21" = _fY59penG;
+        "forge-1.21.1" = _fY59penG;
+        "forge-1.21.2" = _fY59penG;
+        "forge-1.21.3" = _fY59penG;
+        "forge-1.21.4" = _fY59penG;
+        "forge-1.21.5" = _fY59penG;
+        "forge-1.21.6" = _fY59penG;
+        "forge-1.21.7" = _fY59penG;
+        "forge-1.21.8" = _fY59penG;
+        "forge-1.21.9" = _fY59penG;
+        "forge-1.21.10" = _fY59penG;
+        "forge-1.21.11" = _fY59penG;
+        "forge-26.1" = _fY59penG;
+        "forge-26.1.1" = _fY59penG;
+        "forge-26.1.2" = _fY59penG;
+        "forge-26.2" = _fY59penG;
+        "neoforge-1.20" = _e6Edt62k;
+        "neoforge-1.20.1" = _e6Edt62k;
+        "neoforge-1.20.2" = _e6Edt62k;
+        "neoforge-1.20.3" = _e6Edt62k;
+        "neoforge-1.20.4" = _e6Edt62k;
+        "neoforge-1.20.5" = _kX3iJBBc;
+        "neoforge-1.20.6" = _kX3iJBBc;
+        "neoforge-1.21" = _fY59penG;
+        "neoforge-1.21.1" = _fY59penG;
+        "neoforge-1.21.2" = _fY59penG;
+        "neoforge-1.21.3" = _fY59penG;
+        "neoforge-1.21.4" = _fY59penG;
+        "neoforge-1.21.5" = _fY59penG;
+        "neoforge-1.21.6" = _fY59penG;
+        "neoforge-1.21.7" = _fY59penG;
+        "neoforge-1.21.8" = _fY59penG;
+        "neoforge-1.21.9" = _fY59penG;
+        "neoforge-1.21.10" = _fY59penG;
+        "neoforge-1.21.11" = _fY59penG;
+        "neoforge-26.1" = _fY59penG;
+        "neoforge-26.1.1" = _fY59penG;
+        "neoforge-26.1.2" = _fY59penG;
+        "neoforge-26.2" = _fY59penG;
+        "quilt-1.20" = _e6Edt62k;
+        "quilt-1.20.1" = _e6Edt62k;
+        "quilt-1.20.2" = _e6Edt62k;
+        "quilt-1.20.3" = _e6Edt62k;
+        "quilt-1.20.4" = _e6Edt62k;
+        "quilt-1.20.5" = _kX3iJBBc;
+        "quilt-1.20.6" = _kX3iJBBc;
+        "quilt-1.21" = _fY59penG;
+        "quilt-1.21.1" = _fY59penG;
+        "quilt-1.21.2" = _fY59penG;
+        "quilt-1.21.3" = _fY59penG;
+        "quilt-1.21.4" = _fY59penG;
+        "quilt-1.21.5" = _fY59penG;
+        "quilt-1.21.6" = _fY59penG;
+        "quilt-1.21.7" = _fY59penG;
+        "quilt-1.21.8" = _fY59penG;
+        "quilt-1.21.9" = _fY59penG;
+        "quilt-1.21.10" = _fY59penG;
+        "quilt-1.21.11" = _fY59penG;
+        "quilt-26.1" = _fY59penG;
+        "quilt-26.1.1" = _fY59penG;
+        "quilt-26.1.2" = _fY59penG;
+        "quilt-26.2" = _fY59penG;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "toolbar-sounds";
+            id = "CsOiS4nS";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/villainous-j/toolbar-sounds/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="fY59penG";}

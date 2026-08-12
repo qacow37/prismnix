@@ -1,0 +1,141 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _k3RPGyos = {
+            "id" = "k3RPGyos";
+            "file" = "ClickShop-0.1.jar";
+            "hash" = "sha512-++fdmmRX1Ap1fVd/HXcRBkzpvltb3GvCs4GQ4mgLC6ZXt7PnlYueHk9ITgqyBZXRN/QoUo3gOt0zNCIsbww1zw==";
+        };
+        _TephhQ1w = {
+            "id" = "TephhQ1w";
+            "file" = "ClickShop-1.0.jar";
+            "hash" = "sha512-WS/czTIBF38HA6YAJDoFEDsp0eVfaqYYrvY0VzF9ZJBarJjjgpceLoDh2vDmU6MqOHQgjehQEjN6UV0COr0zZA==";
+        };
+        _VQDi59NO = {
+            "id" = "VQDi59NO";
+            "file" = "ClickShop-1.0.1.jar";
+            "hash" = "sha512-Mc1/uQfD0ASLfdhVxxa5uAdwSNXzo7TSpeYM/Lmz0Dpg4KulGpLcLhltPjl8b90HrOO5peikWf3tk6x++Ys9Sg==";
+        };
+        _8ipgNiNu = {
+            "id" = "8ipgNiNu";
+            "file" = "ClickShop-1.0.2.jar";
+            "hash" = "sha512-euQrr9hm7TpN+GsA24HbK67u8d39qJUZVPJ6rTAvVqanutgSVsS/ByzqRgo7YqBFIDPCPkUWAk2VOzO/b4wxfA==";
+        };
+    in {
+        "k3RPGyos" = _k3RPGyos;
+        "TephhQ1w" = _TephhQ1w;
+        "VQDi59NO" = _VQDi59NO;
+        "8ipgNiNu" = _8ipgNiNu;
+        "bukkit-1.20" = _8ipgNiNu;
+        "bukkit-1.20.1" = _8ipgNiNu;
+        "bukkit-1.20.2" = _8ipgNiNu;
+        "bukkit-1.20.3" = _8ipgNiNu;
+        "bukkit-1.20.4" = _8ipgNiNu;
+        "bukkit-1.20.5" = _8ipgNiNu;
+        "bukkit-1.20.6" = _8ipgNiNu;
+        "bukkit-1.21" = _8ipgNiNu;
+        "bukkit-1.21.1" = _8ipgNiNu;
+        "bukkit-1.21.2" = _8ipgNiNu;
+        "bukkit-1.21.3" = _8ipgNiNu;
+        "bukkit-1.21.4" = _8ipgNiNu;
+        "bukkit-1.21.5" = _8ipgNiNu;
+        "bukkit-1.21.6" = _8ipgNiNu;
+        "bukkit-1.21.7" = _8ipgNiNu;
+        "bukkit-1.21.8" = _8ipgNiNu;
+        "bukkit-1.21.9" = _8ipgNiNu;
+        "bukkit-1.21.10" = _8ipgNiNu;
+        "bukkit-1.21.11" = _8ipgNiNu;
+        "bukkit-26.1" = _8ipgNiNu;
+        "bukkit-26.1.1" = _8ipgNiNu;
+        "bukkit-26.1.2" = _8ipgNiNu;
+        "bukkit-26.2" = _8ipgNiNu;
+        "paper-1.20" = _8ipgNiNu;
+        "paper-1.20.1" = _8ipgNiNu;
+        "paper-1.20.2" = _8ipgNiNu;
+        "paper-1.20.3" = _8ipgNiNu;
+        "paper-1.20.4" = _8ipgNiNu;
+        "paper-1.20.5" = _8ipgNiNu;
+        "paper-1.20.6" = _8ipgNiNu;
+        "paper-1.21" = _8ipgNiNu;
+        "paper-1.21.1" = _8ipgNiNu;
+        "paper-1.21.2" = _8ipgNiNu;
+        "paper-1.21.3" = _8ipgNiNu;
+        "paper-1.21.4" = _8ipgNiNu;
+        "paper-1.21.5" = _8ipgNiNu;
+        "paper-1.21.6" = _8ipgNiNu;
+        "paper-1.21.7" = _8ipgNiNu;
+        "paper-1.21.8" = _8ipgNiNu;
+        "paper-1.21.9" = _8ipgNiNu;
+        "paper-1.21.10" = _8ipgNiNu;
+        "paper-1.21.11" = _8ipgNiNu;
+        "paper-26.1" = _8ipgNiNu;
+        "paper-26.1.1" = _8ipgNiNu;
+        "paper-26.1.2" = _8ipgNiNu;
+        "paper-26.2" = _8ipgNiNu;
+        "spigot-1.20" = _8ipgNiNu;
+        "spigot-1.20.1" = _8ipgNiNu;
+        "spigot-1.20.2" = _8ipgNiNu;
+        "spigot-1.20.3" = _8ipgNiNu;
+        "spigot-1.20.4" = _8ipgNiNu;
+        "spigot-1.20.5" = _8ipgNiNu;
+        "spigot-1.20.6" = _8ipgNiNu;
+        "spigot-1.21" = _8ipgNiNu;
+        "spigot-1.21.1" = _8ipgNiNu;
+        "spigot-1.21.2" = _8ipgNiNu;
+        "spigot-1.21.3" = _8ipgNiNu;
+        "spigot-1.21.4" = _8ipgNiNu;
+        "spigot-1.21.5" = _8ipgNiNu;
+        "spigot-1.21.6" = _8ipgNiNu;
+        "spigot-1.21.7" = _8ipgNiNu;
+        "spigot-1.21.8" = _8ipgNiNu;
+        "spigot-1.21.9" = _8ipgNiNu;
+        "spigot-1.21.10" = _8ipgNiNu;
+        "spigot-1.21.11" = _8ipgNiNu;
+        "spigot-26.1" = _8ipgNiNu;
+        "spigot-26.1.1" = _8ipgNiNu;
+        "spigot-26.1.2" = _8ipgNiNu;
+        "spigot-26.2" = _8ipgNiNu;
+        "purpur-1.20" = _8ipgNiNu;
+        "purpur-1.20.1" = _8ipgNiNu;
+        "purpur-1.20.2" = _8ipgNiNu;
+        "purpur-1.20.3" = _8ipgNiNu;
+        "purpur-1.20.4" = _8ipgNiNu;
+        "purpur-1.20.5" = _8ipgNiNu;
+        "purpur-1.20.6" = _8ipgNiNu;
+        "purpur-1.21" = _8ipgNiNu;
+        "purpur-1.21.1" = _8ipgNiNu;
+        "purpur-1.21.2" = _8ipgNiNu;
+        "purpur-1.21.3" = _8ipgNiNu;
+        "purpur-1.21.4" = _8ipgNiNu;
+        "purpur-1.21.5" = _8ipgNiNu;
+        "purpur-1.21.6" = _8ipgNiNu;
+        "purpur-1.21.7" = _8ipgNiNu;
+        "purpur-1.21.8" = _8ipgNiNu;
+        "purpur-1.21.9" = _8ipgNiNu;
+        "purpur-1.21.10" = _8ipgNiNu;
+        "purpur-1.21.11" = _8ipgNiNu;
+        "purpur-26.1" = _8ipgNiNu;
+        "purpur-26.1.1" = _8ipgNiNu;
+        "purpur-26.1.2" = _8ipgNiNu;
+        "purpur-26.2" = _8ipgNiNu;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "clickshop";
+            id = "41H6qVOW";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="8ipgNiNu";}

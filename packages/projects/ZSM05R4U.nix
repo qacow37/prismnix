@@ -1,0 +1,152 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _RaD7T01a = {
+            "id" = "RaD7T01a";
+            "file" = "Custom-Trees-1.19.zip";
+            "hash" = "sha512-d5ZCDEEhHVzQGU5Pr8x5g+ifZ/s3pxmnnS3yCbAYuFlMZXQ0BAXMXsxhMjkrROZINfd8fx/VsAaAwg5hqNiv4A==";
+        };
+        _UT8eGyly = {
+            "id" = "UT8eGyly";
+            "file" = "Custom-Trees-1.20.2.zip";
+            "hash" = "sha512-iweJEroHFTyzvtR3znWbBC52VOW6rSKss7Z22Sz20Spa5k9T+WFcCXxC0fMABxwXVKDpWp53F4idwadLngjz5w==";
+        };
+        _cVEyOq5j = {
+            "id" = "cVEyOq5j";
+            "file" = "Custom-Trees-1.21.zip";
+            "hash" = "sha512-GMlzCTN9XZ9Jmi5OkHXRQhrwYr+dc7udzYRG/NEk+JChytaAsn1nTLCVRg8vs90zMbYIvLaQWD+L7L4iRJttyQ==";
+        };
+        _P9LCBVaj = {
+            "id" = "P9LCBVaj";
+            "file" = "custom-trees-from-saplings-1.20.jar";
+            "hash" = "sha512-4tQZ1ahN/jUFFPLRApkklp8pai6NgJ170vROtV1ovADOCiEQZGbJ8tm8Pq5HQUibxR9vvmquf75BkvDOKoJWRg==";
+        };
+        _WB78PtQ1 = {
+            "id" = "WB78PtQ1";
+            "file" = "custom-trees-from-saplings-1.21.jar";
+            "hash" = "sha512-h9i0w1sy3ZG5IGlbavEJ8vBKjU+nEgcAkzgK3+8fNUvPaWMLV0Ay1uUn80bSi+M5h++7xtXk2UFuwfAC60s0QQ==";
+        };
+        _87KmWrpC = {
+            "id" = "87KmWrpC";
+            "file" = "custom-trees-from-saplings-1.21.jar";
+            "hash" = "sha512-S1MwRtTPnfTI74cQw4VCyQ+eP8CU1xF560J/C3yBKugBzJ4WqiJ9ra4pp2WtemoPz0XZuh+UcgTEhah2mhP/DA==";
+        };
+    in {
+        "RaD7T01a" = _RaD7T01a;
+        "UT8eGyly" = _UT8eGyly;
+        "cVEyOq5j" = _cVEyOq5j;
+        "P9LCBVaj" = _P9LCBVaj;
+        "WB78PtQ1" = _WB78PtQ1;
+        "87KmWrpC" = _87KmWrpC;
+        "datapack-1.19" = _RaD7T01a;
+        "datapack-1.19.1" = _RaD7T01a;
+        "datapack-1.19.2" = _RaD7T01a;
+        "datapack-1.19.3" = _RaD7T01a;
+        "datapack-1.19.4" = _RaD7T01a;
+        "datapack-1.20.2" = _UT8eGyly;
+        "datapack-1.20.3" = _UT8eGyly;
+        "datapack-1.20.4" = _UT8eGyly;
+        "datapack-1.20.5" = _UT8eGyly;
+        "datapack-1.20.6" = _UT8eGyly;
+        "datapack-1.21" = _cVEyOq5j;
+        "datapack-1.21.1" = _cVEyOq5j;
+        "datapack-1.21.2" = _cVEyOq5j;
+        "datapack-1.21.3" = _cVEyOq5j;
+        "datapack-1.21.4" = _cVEyOq5j;
+        "datapack-1.21.5" = _cVEyOq5j;
+        "datapack-1.21.6" = _cVEyOq5j;
+        "datapack-1.21.7" = _cVEyOq5j;
+        "datapack-1.21.8" = _cVEyOq5j;
+        "datapack-1.21.9" = _cVEyOq5j;
+        "datapack-1.21.10" = _cVEyOq5j;
+        "datapack-1.21.11" = _cVEyOq5j;
+        "datapack-26.1" = _cVEyOq5j;
+        "fabric-1.20.2" = _P9LCBVaj;
+        "fabric-1.20.3" = _P9LCBVaj;
+        "fabric-1.20.4" = _P9LCBVaj;
+        "fabric-1.20.5" = _P9LCBVaj;
+        "fabric-1.20.6" = _P9LCBVaj;
+        "fabric-1.21" = _87KmWrpC;
+        "fabric-1.21.1" = _87KmWrpC;
+        "fabric-1.21.2" = _87KmWrpC;
+        "fabric-1.21.3" = _87KmWrpC;
+        "fabric-1.21.4" = _87KmWrpC;
+        "fabric-1.21.5" = _87KmWrpC;
+        "fabric-1.21.6" = _87KmWrpC;
+        "fabric-1.21.7" = _87KmWrpC;
+        "fabric-1.21.8" = _87KmWrpC;
+        "fabric-1.21.9" = _87KmWrpC;
+        "fabric-1.21.10" = _87KmWrpC;
+        "fabric-1.21.11" = _87KmWrpC;
+        "forge-1.20.2" = _P9LCBVaj;
+        "forge-1.20.3" = _P9LCBVaj;
+        "forge-1.20.4" = _P9LCBVaj;
+        "forge-1.20.5" = _P9LCBVaj;
+        "forge-1.20.6" = _P9LCBVaj;
+        "forge-1.21" = _87KmWrpC;
+        "forge-1.21.1" = _87KmWrpC;
+        "forge-1.21.2" = _87KmWrpC;
+        "forge-1.21.3" = _87KmWrpC;
+        "forge-1.21.4" = _87KmWrpC;
+        "forge-1.21.5" = _87KmWrpC;
+        "forge-1.21.6" = _87KmWrpC;
+        "forge-1.21.7" = _87KmWrpC;
+        "forge-1.21.8" = _87KmWrpC;
+        "forge-1.21.9" = _87KmWrpC;
+        "forge-1.21.10" = _87KmWrpC;
+        "forge-1.21.11" = _87KmWrpC;
+        "neoforge-1.20.2" = _P9LCBVaj;
+        "neoforge-1.20.3" = _P9LCBVaj;
+        "neoforge-1.20.4" = _P9LCBVaj;
+        "neoforge-1.20.5" = _P9LCBVaj;
+        "neoforge-1.20.6" = _P9LCBVaj;
+        "neoforge-1.21" = _87KmWrpC;
+        "neoforge-1.21.1" = _87KmWrpC;
+        "neoforge-1.21.2" = _87KmWrpC;
+        "neoforge-1.21.3" = _87KmWrpC;
+        "neoforge-1.21.4" = _87KmWrpC;
+        "neoforge-1.21.5" = _87KmWrpC;
+        "neoforge-1.21.6" = _87KmWrpC;
+        "neoforge-1.21.7" = _87KmWrpC;
+        "neoforge-1.21.8" = _87KmWrpC;
+        "neoforge-1.21.9" = _87KmWrpC;
+        "neoforge-1.21.10" = _87KmWrpC;
+        "neoforge-1.21.11" = _87KmWrpC;
+        "quilt-1.20.2" = _P9LCBVaj;
+        "quilt-1.20.3" = _P9LCBVaj;
+        "quilt-1.20.4" = _P9LCBVaj;
+        "quilt-1.20.5" = _P9LCBVaj;
+        "quilt-1.20.6" = _P9LCBVaj;
+        "quilt-1.21" = _87KmWrpC;
+        "quilt-1.21.1" = _87KmWrpC;
+        "quilt-1.21.2" = _87KmWrpC;
+        "quilt-1.21.3" = _87KmWrpC;
+        "quilt-1.21.4" = _87KmWrpC;
+        "quilt-1.21.5" = _87KmWrpC;
+        "quilt-1.21.6" = _87KmWrpC;
+        "quilt-1.21.7" = _87KmWrpC;
+        "quilt-1.21.8" = _87KmWrpC;
+        "quilt-1.21.9" = _87KmWrpC;
+        "quilt-1.21.10" = _87KmWrpC;
+        "quilt-1.21.11" = _87KmWrpC;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "custom-trees-from-saplings";
+            id = "ZSM05R4U";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="87KmWrpC";}

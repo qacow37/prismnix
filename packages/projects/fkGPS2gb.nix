@@ -1,0 +1,225 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _CSUWiVzB = {
+            "id" = "CSUWiVzB";
+            "file" = "Wispy_V1.1.zip";
+            "hash" = "sha512-dYUXMH5XGaeLWKjEXHSTKrttr0KAVbu9xi8x45Luxz/ScYXRhRZV+45VmpIjaaeRgd4eYwRKKhqEwOgZcyJKsg==";
+        };
+        _W3mGzz8s = {
+            "id" = "W3mGzz8s";
+            "file" = "Wispy-Shader_V1.1.1.zip";
+            "hash" = "sha512-R1B0JVhstiRdW1RLwaeH1gjutAaSDNW5DY7V8DVLM+kcqr5CuuosgJrgOupAbDxbdvq4vDVvpE4aMpfNnNGTpA==";
+        };
+        _tOuSDLxs = {
+            "id" = "tOuSDLxs";
+            "file" = "Wispy_V1.2.zip";
+            "hash" = "sha512-DG1X14d6zGjmVtTRvPE7pzjmalWyY0iQ0IG6tiicoNhzvdYGapmpWapwCoI9dwEgyUZIHwdXy0sFa3IHazYuPg==";
+        };
+        _f61USft3 = {
+            "id" = "f61USft3";
+            "file" = "Wispy_V1.3.zip";
+            "hash" = "sha512-uh9NE8t+T3ZkKv0qSfvdSkWqf43ItYa4FG6nKdr/pqLhcpPAdjktF4KckkDdE2HQjLBtR8Z7dPfwMD3fqCgIdA==";
+        };
+        _zFK4XHD7 = {
+            "id" = "zFK4XHD7";
+            "file" = "Wispy 1.4.zip";
+            "hash" = "sha512-n6jgnqoXcgF8QM9BqmgWzqYkoaErXvuXaovA2zivDuzYN7s0er0TVNm9K2WxSUluQAevfsSxppvBaJNPBdd+FQ==";
+        };
+        _ioCvNogS = {
+            "id" = "ioCvNogS";
+            "file" = "Wispy 1.4 Hotfix.zip";
+            "hash" = "sha512-J7QBw1pSEWskn/S0IN+yp/LE2Ni+fUlW1ZK9tv01COkg3NlRMLMgc0laKrD0jXTh5nv0U7eojQ/phPlZw/IuZQ==";
+        };
+        _KnMkmNUq = {
+            "id" = "KnMkmNUq";
+            "file" = "Wispy 1.4.2.zip";
+            "hash" = "sha512-PI2Q1X6RA/1bJ54BiEa05V0FMIYF2KQAWWvaz84u26xNPRUmTQcibF2MbrOgFjncZLfoXW07pOswp3mMFYP9yQ==";
+        };
+        _YdiVjXR8 = {
+            "id" = "YdiVjXR8";
+            "file" = "Wispy 1.4.3.zip";
+            "hash" = "sha512-fyOHOtNwo/ygcPhaiPB9iwUyfHl3Z1KcCrxHaJWXVX5hvI9KTGrX9SI36pzk+JveyHihZLHQV824VCY79zcH8A==";
+        };
+        _JciqclUE = {
+            "id" = "JciqclUE";
+            "file" = "Wispy 1.4.4.zip";
+            "hash" = "sha512-++/yOiE5IChhML6p5VMjdbeQBvF8KRTy8U7T+ujQs08FXApLoeaYp1JgNZPZ2vjzLiMmxN3mQCAniVpjTe1Hzw==";
+        };
+        _KygWjYye = {
+            "id" = "KygWjYye";
+            "file" = "Wispy 1.4.4H.zip";
+            "hash" = "sha512-0DfDbf5I+CmipTme4UXW/DZ+jYPt49YMRaLnD8Xy3SJM0lK9kmgayh5HrAKOR+TNKyDjiMyh6EaO30pU0WnErQ==";
+        };
+        _7WMLCOaQ = {
+            "id" = "7WMLCOaQ";
+            "file" = "Wispy 1.4.4H.zip";
+            "hash" = "sha512-0DfDbf5I+CmipTme4UXW/DZ+jYPt49YMRaLnD8Xy3SJM0lK9kmgayh5HrAKOR+TNKyDjiMyh6EaO30pU0WnErQ==";
+        };
+        _zS6YlLtS = {
+            "id" = "zS6YlLtS";
+            "file" = "Wispy 1.4.5.zip";
+            "hash" = "sha512-QHlUjgzJUvOQplz4ejiKZzaGjumV98v1xUyDK3V8QTyGWRnPHWI3fBBRaW3ErmQEDMRuF7ELvtBFNc4gisEQ2Q==";
+        };
+        _khpulBvk = {
+            "id" = "khpulBvk";
+            "file" = "Wispy 1.4.6.zip";
+            "hash" = "sha512-sFtaATy4yv6ClMfD+SjOI9rhpSqBKVYbZMcOmYkJy0UUO8MzycmszNT4ib/BUp2w/3/W2TIJXNoM3TsbLsZSWg==";
+        };
+    in {
+        "CSUWiVzB" = _CSUWiVzB;
+        "W3mGzz8s" = _W3mGzz8s;
+        "tOuSDLxs" = _tOuSDLxs;
+        "f61USft3" = _f61USft3;
+        "zFK4XHD7" = _zFK4XHD7;
+        "ioCvNogS" = _ioCvNogS;
+        "KnMkmNUq" = _KnMkmNUq;
+        "YdiVjXR8" = _YdiVjXR8;
+        "JciqclUE" = _JciqclUE;
+        "KygWjYye" = _KygWjYye;
+        "7WMLCOaQ" = _7WMLCOaQ;
+        "zS6YlLtS" = _zS6YlLtS;
+        "khpulBvk" = _khpulBvk;
+        "iris-1.8.9" = _khpulBvk;
+        "iris-1.9" = _khpulBvk;
+        "iris-1.9.1" = _khpulBvk;
+        "iris-1.9.2" = _khpulBvk;
+        "iris-1.9.3" = _khpulBvk;
+        "iris-1.9.4" = _khpulBvk;
+        "iris-1.10" = _khpulBvk;
+        "iris-1.10.1" = _khpulBvk;
+        "iris-1.10.2" = _khpulBvk;
+        "iris-1.11" = _khpulBvk;
+        "iris-1.11.1" = _khpulBvk;
+        "iris-1.11.2" = _khpulBvk;
+        "iris-1.12" = _khpulBvk;
+        "iris-1.12.1" = _khpulBvk;
+        "iris-1.12.2" = _khpulBvk;
+        "iris-1.13" = _khpulBvk;
+        "iris-1.13.1" = _khpulBvk;
+        "iris-1.13.2" = _khpulBvk;
+        "iris-1.14" = _khpulBvk;
+        "iris-1.14.1" = _khpulBvk;
+        "iris-1.14.2" = _khpulBvk;
+        "iris-1.14.3" = _khpulBvk;
+        "iris-1.14.4" = _khpulBvk;
+        "iris-1.15" = _khpulBvk;
+        "iris-1.15.1" = _khpulBvk;
+        "iris-1.15.2" = _khpulBvk;
+        "iris-1.16" = _khpulBvk;
+        "iris-1.16.1" = _khpulBvk;
+        "iris-1.16.2" = _khpulBvk;
+        "iris-1.16.3" = _khpulBvk;
+        "iris-1.16.4" = _khpulBvk;
+        "iris-1.16.5" = _khpulBvk;
+        "iris-1.17" = _khpulBvk;
+        "iris-1.17.1" = _khpulBvk;
+        "iris-1.18" = _khpulBvk;
+        "iris-1.18.1" = _khpulBvk;
+        "iris-1.18.2" = _khpulBvk;
+        "iris-1.19" = _khpulBvk;
+        "iris-1.19.1" = _khpulBvk;
+        "iris-1.19.2" = _khpulBvk;
+        "iris-1.19.3" = _khpulBvk;
+        "iris-1.19.4" = _khpulBvk;
+        "iris-1.20" = _khpulBvk;
+        "iris-1.20.1" = _khpulBvk;
+        "iris-1.20.2" = _khpulBvk;
+        "iris-1.20.3" = _khpulBvk;
+        "iris-1.20.4" = _khpulBvk;
+        "iris-1.20.5" = _khpulBvk;
+        "iris-1.20.6" = _khpulBvk;
+        "iris-1.21" = _khpulBvk;
+        "iris-1.21.1" = _khpulBvk;
+        "iris-1.21.2" = _khpulBvk;
+        "iris-1.21.3" = _khpulBvk;
+        "iris-1.21.4" = _khpulBvk;
+        "iris-1.21.5" = _khpulBvk;
+        "iris-1.21.6" = _khpulBvk;
+        "iris-1.21.7" = _khpulBvk;
+        "iris-1.21.8" = _khpulBvk;
+        "iris-1.21.9" = _khpulBvk;
+        "iris-1.21.10" = _khpulBvk;
+        "iris-1.21.11" = _khpulBvk;
+        "optifine-1.8.9" = _khpulBvk;
+        "optifine-1.9" = _khpulBvk;
+        "optifine-1.9.1" = _khpulBvk;
+        "optifine-1.9.2" = _khpulBvk;
+        "optifine-1.9.3" = _khpulBvk;
+        "optifine-1.9.4" = _khpulBvk;
+        "optifine-1.10" = _khpulBvk;
+        "optifine-1.10.1" = _khpulBvk;
+        "optifine-1.10.2" = _khpulBvk;
+        "optifine-1.11" = _khpulBvk;
+        "optifine-1.11.1" = _khpulBvk;
+        "optifine-1.11.2" = _khpulBvk;
+        "optifine-1.12" = _khpulBvk;
+        "optifine-1.12.1" = _khpulBvk;
+        "optifine-1.12.2" = _khpulBvk;
+        "optifine-1.13" = _khpulBvk;
+        "optifine-1.13.1" = _khpulBvk;
+        "optifine-1.13.2" = _khpulBvk;
+        "optifine-1.14" = _khpulBvk;
+        "optifine-1.14.1" = _khpulBvk;
+        "optifine-1.14.2" = _khpulBvk;
+        "optifine-1.14.3" = _khpulBvk;
+        "optifine-1.14.4" = _khpulBvk;
+        "optifine-1.15" = _khpulBvk;
+        "optifine-1.15.1" = _khpulBvk;
+        "optifine-1.15.2" = _khpulBvk;
+        "optifine-1.16" = _khpulBvk;
+        "optifine-1.16.1" = _khpulBvk;
+        "optifine-1.16.2" = _khpulBvk;
+        "optifine-1.16.3" = _khpulBvk;
+        "optifine-1.16.4" = _khpulBvk;
+        "optifine-1.16.5" = _khpulBvk;
+        "optifine-1.17" = _khpulBvk;
+        "optifine-1.17.1" = _khpulBvk;
+        "optifine-1.18" = _khpulBvk;
+        "optifine-1.18.1" = _khpulBvk;
+        "optifine-1.18.2" = _khpulBvk;
+        "optifine-1.19" = _khpulBvk;
+        "optifine-1.19.1" = _khpulBvk;
+        "optifine-1.19.2" = _khpulBvk;
+        "optifine-1.19.3" = _khpulBvk;
+        "optifine-1.19.4" = _khpulBvk;
+        "optifine-1.20" = _khpulBvk;
+        "optifine-1.20.1" = _khpulBvk;
+        "optifine-1.20.2" = _khpulBvk;
+        "optifine-1.20.3" = _khpulBvk;
+        "optifine-1.20.4" = _khpulBvk;
+        "optifine-1.20.5" = _khpulBvk;
+        "optifine-1.20.6" = _khpulBvk;
+        "optifine-1.21" = _khpulBvk;
+        "optifine-1.21.1" = _khpulBvk;
+        "optifine-1.21.2" = _khpulBvk;
+        "optifine-1.21.3" = _khpulBvk;
+        "optifine-1.21.4" = _khpulBvk;
+        "optifine-1.21.5" = _khpulBvk;
+        "optifine-1.21.6" = _khpulBvk;
+        "optifine-1.21.7" = _khpulBvk;
+        "optifine-1.21.8" = _khpulBvk;
+        "optifine-1.21.9" = _khpulBvk;
+        "optifine-1.21.10" = _khpulBvk;
+        "optifine-1.21.11" = _khpulBvk;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "wispy-shader";
+            id = "fkGPS2gb";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="khpulBvk";}

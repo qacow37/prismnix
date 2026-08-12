@@ -1,0 +1,222 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _AIskAAom = {
+            "id" = "AIskAAom";
+            "file" = "One_Survival_Island_1.0.0.zip";
+            "hash" = "sha512-nchECJ/8FEJEmWx4aZfpYSFnfG4VIJ4gknj7KxExhRrXkt3IMMDHMWLjjHBzSIzlVf1skQtMfwsc2A+5FxKiLQ==";
+        };
+        _qlEmHQCV = {
+            "id" = "qlEmHQCV";
+            "file" = "one-survival-island-1.0.0.jar";
+            "hash" = "sha512-wVrOtnfB/laJPtZ+eej+6bv/ZxiT9QYGJ2pA0xQs8OjHfHcdIraYE/GLNiNRieW/lJyiRPomTu8mDpZ/fyMAnA==";
+        };
+        _yEO80aOL = {
+            "id" = "yEO80aOL";
+            "file" = "One_Survival_Island_1.1.0.zip";
+            "hash" = "sha512-DhwlLscThFNyBGRWEv72GrIkgE2CDHcBduqyNxV6tpDh9JeHtwf2brJOxwot9AOk1X1Fr91i6vEG0jmq/RqLJQ==";
+        };
+        _xFtb6SFI = {
+            "id" = "xFtb6SFI";
+            "file" = "one-survival-island-1.1.0.jar";
+            "hash" = "sha512-Fxlc7rzgdw4wNWL9CoNp1jVUAo3eyvxId7PlIf/VpugYvKssKM2j52I8eifW9J+RMk2i/d0BqnL06kTzqwsx9Q==";
+        };
+        _yQK7O7my = {
+            "id" = "yQK7O7my";
+            "file" = "one-survival-island-1.1.0.jar";
+            "hash" = "sha512-s/57jnioZGQgoCSNbP5Ik7hoZFH++zugexBp0/MfBa7LlBr39j6bmnhq8o8C8Xd82J1iDyKszlestB4ICmIt6w==";
+        };
+        _IMYzAaUe = {
+            "id" = "IMYzAaUe";
+            "file" = "One_Survival_Island_2.0.0.zip";
+            "hash" = "sha512-fB+AAvkMoPh6X9BmI0B6lcVmbGg6Z0ObBtxiNg06B77zf4Hd/8wd+qaYrjRz3t4xuQkRRCBzPyZXC/+aw5NCrA==";
+        };
+        _83nb0iap = {
+            "id" = "83nb0iap";
+            "file" = "one-survival-island-2.0.0.jar";
+            "hash" = "sha512-8iNqZxnC29WvU9WJqqqxX/NnMP0U7USx0BG5DJ1A9mlG47w8ujD3KRz53V752Jf7Zoqz4EuDuy11B3pOnbQrdQ==";
+        };
+        _EkPE6dJk = {
+            "id" = "EkPE6dJk";
+            "file" = "one-survival-island-2.0.0.jar";
+            "hash" = "sha512-i7B3yDBYC5NFcUTUjFhryX9ygkiUKCI5hL3ZJCzPQrkouEY83TaLq0nP2Q2hoxO3e0lfRRR8A4zIJ8isMeMHgg==";
+        };
+        _aeBJ70KR = {
+            "id" = "aeBJ70KR";
+            "file" = "One_Survival_Island_2.0.1.zip";
+            "hash" = "sha512-Hm8HveonsgWW/wIRJpoa77HosTIftiDzEkUJQ8RRo6ObUjrlnKrr+Wz+Jbr7mdy6XO+vJ4TN4UTVRCr1kBRTdg==";
+        };
+        _rAdgPpzb = {
+            "id" = "rAdgPpzb";
+            "file" = "one-survival-island-2.0.1.jar";
+            "hash" = "sha512-mx2Ivc5J0YHGo3gc0s+3CHkZb9HpdOiWfPPaok0RBcdfzh9puir0Mfs+Sr8ZYTdrvQFh/Lo1xQ3koLfD8wwhDA==";
+        };
+        _ZAPkUg6K = {
+            "id" = "ZAPkUg6K";
+            "file" = "one-survival-island-2.0.1.jar";
+            "hash" = "sha512-dU7OEYLrx0BSdm4J70vsluyeBNUUHj84TvhAfsWMNpD2i0WisgioJ0sBAFTVdVOViEm3qn80t0bX7R8RI+mOBA==";
+        };
+        _vsPMkpY6 = {
+            "id" = "vsPMkpY6";
+            "file" = "one-survival-island-2.0.1.jar";
+            "hash" = "sha512-6bnU7ye/zSh1Ay0zAYy1kiB9QUSm98rWDct9jb748zjWK1ek3dt9sS+avCN81E7sZWJ+9b1FbcoRDnNvEHs7CQ==";
+        };
+    in {
+        "AIskAAom" = _AIskAAom;
+        "qlEmHQCV" = _qlEmHQCV;
+        "yEO80aOL" = _yEO80aOL;
+        "xFtb6SFI" = _xFtb6SFI;
+        "yQK7O7my" = _yQK7O7my;
+        "IMYzAaUe" = _IMYzAaUe;
+        "83nb0iap" = _83nb0iap;
+        "EkPE6dJk" = _EkPE6dJk;
+        "aeBJ70KR" = _aeBJ70KR;
+        "rAdgPpzb" = _rAdgPpzb;
+        "ZAPkUg6K" = _ZAPkUg6K;
+        "vsPMkpY6" = _vsPMkpY6;
+        "datapack-1.19" = _IMYzAaUe;
+        "datapack-1.19.1" = _IMYzAaUe;
+        "datapack-1.19.2" = _IMYzAaUe;
+        "datapack-1.19.3" = _IMYzAaUe;
+        "datapack-1.19.4" = _IMYzAaUe;
+        "datapack-1.20" = _aeBJ70KR;
+        "datapack-1.20.1" = _aeBJ70KR;
+        "datapack-1.20.2" = _aeBJ70KR;
+        "datapack-1.20.3" = _aeBJ70KR;
+        "datapack-1.20.4" = _aeBJ70KR;
+        "datapack-1.20.5" = _aeBJ70KR;
+        "datapack-1.20.6" = _aeBJ70KR;
+        "datapack-1.21" = _aeBJ70KR;
+        "datapack-1.21.1" = _aeBJ70KR;
+        "datapack-1.21.2" = _aeBJ70KR;
+        "datapack-1.21.3" = _aeBJ70KR;
+        "datapack-1.21.4" = _aeBJ70KR;
+        "datapack-1.21.5" = _aeBJ70KR;
+        "datapack-1.21.6" = _aeBJ70KR;
+        "datapack-1.21.7" = _aeBJ70KR;
+        "datapack-1.21.8" = _aeBJ70KR;
+        "datapack-1.21.9" = _aeBJ70KR;
+        "datapack-1.21.10" = _aeBJ70KR;
+        "datapack-1.21.11" = _aeBJ70KR;
+        "datapack-26.1" = _aeBJ70KR;
+        "fabric-1.19" = _EkPE6dJk;
+        "fabric-1.19.1" = _EkPE6dJk;
+        "fabric-1.19.2" = _EkPE6dJk;
+        "fabric-1.19.3" = _EkPE6dJk;
+        "fabric-1.19.4" = _EkPE6dJk;
+        "fabric-1.20" = _vsPMkpY6;
+        "fabric-1.20.1" = _vsPMkpY6;
+        "fabric-1.20.2" = _vsPMkpY6;
+        "fabric-1.20.3" = _vsPMkpY6;
+        "fabric-1.20.4" = _vsPMkpY6;
+        "fabric-1.20.5" = _vsPMkpY6;
+        "fabric-1.20.6" = _vsPMkpY6;
+        "fabric-1.21" = _vsPMkpY6;
+        "fabric-1.21.1" = _vsPMkpY6;
+        "fabric-1.21.2" = _vsPMkpY6;
+        "fabric-1.21.3" = _vsPMkpY6;
+        "fabric-1.21.4" = _vsPMkpY6;
+        "fabric-1.21.5" = _vsPMkpY6;
+        "fabric-1.21.6" = _vsPMkpY6;
+        "fabric-1.21.7" = _vsPMkpY6;
+        "fabric-1.21.8" = _vsPMkpY6;
+        "fabric-1.21.9" = _vsPMkpY6;
+        "fabric-1.21.10" = _vsPMkpY6;
+        "fabric-1.21.11" = _vsPMkpY6;
+        "fabric-26.1" = _vsPMkpY6;
+        "forge-1.19" = _EkPE6dJk;
+        "forge-1.19.1" = _EkPE6dJk;
+        "forge-1.19.2" = _EkPE6dJk;
+        "forge-1.19.3" = _EkPE6dJk;
+        "forge-1.19.4" = _EkPE6dJk;
+        "forge-1.20" = _vsPMkpY6;
+        "forge-1.20.1" = _vsPMkpY6;
+        "forge-1.20.2" = _vsPMkpY6;
+        "forge-1.20.3" = _vsPMkpY6;
+        "forge-1.20.4" = _vsPMkpY6;
+        "forge-1.20.5" = _vsPMkpY6;
+        "forge-1.20.6" = _vsPMkpY6;
+        "forge-1.21" = _vsPMkpY6;
+        "forge-1.21.1" = _vsPMkpY6;
+        "forge-1.21.2" = _vsPMkpY6;
+        "forge-1.21.3" = _vsPMkpY6;
+        "forge-1.21.4" = _vsPMkpY6;
+        "forge-1.21.5" = _vsPMkpY6;
+        "forge-1.21.6" = _vsPMkpY6;
+        "forge-1.21.7" = _vsPMkpY6;
+        "forge-1.21.8" = _vsPMkpY6;
+        "forge-1.21.9" = _vsPMkpY6;
+        "forge-1.21.10" = _vsPMkpY6;
+        "forge-1.21.11" = _vsPMkpY6;
+        "forge-26.1" = _vsPMkpY6;
+        "neoforge-1.19" = _EkPE6dJk;
+        "neoforge-1.19.1" = _EkPE6dJk;
+        "neoforge-1.19.2" = _EkPE6dJk;
+        "neoforge-1.19.3" = _EkPE6dJk;
+        "neoforge-1.19.4" = _EkPE6dJk;
+        "neoforge-1.20" = _vsPMkpY6;
+        "neoforge-1.20.1" = _vsPMkpY6;
+        "neoforge-1.20.2" = _vsPMkpY6;
+        "neoforge-1.20.3" = _vsPMkpY6;
+        "neoforge-1.20.4" = _vsPMkpY6;
+        "neoforge-1.20.5" = _vsPMkpY6;
+        "neoforge-1.20.6" = _vsPMkpY6;
+        "neoforge-1.21" = _vsPMkpY6;
+        "neoforge-1.21.1" = _vsPMkpY6;
+        "neoforge-1.21.2" = _vsPMkpY6;
+        "neoforge-1.21.3" = _vsPMkpY6;
+        "neoforge-1.21.4" = _vsPMkpY6;
+        "neoforge-1.21.5" = _vsPMkpY6;
+        "neoforge-1.21.6" = _vsPMkpY6;
+        "neoforge-1.21.7" = _vsPMkpY6;
+        "neoforge-1.21.8" = _vsPMkpY6;
+        "neoforge-1.21.9" = _vsPMkpY6;
+        "neoforge-1.21.10" = _vsPMkpY6;
+        "neoforge-1.21.11" = _vsPMkpY6;
+        "neoforge-26.1" = _vsPMkpY6;
+        "quilt-1.19" = _EkPE6dJk;
+        "quilt-1.19.1" = _EkPE6dJk;
+        "quilt-1.19.2" = _EkPE6dJk;
+        "quilt-1.19.3" = _EkPE6dJk;
+        "quilt-1.19.4" = _EkPE6dJk;
+        "quilt-1.20" = _vsPMkpY6;
+        "quilt-1.20.1" = _vsPMkpY6;
+        "quilt-1.20.2" = _vsPMkpY6;
+        "quilt-1.20.3" = _vsPMkpY6;
+        "quilt-1.20.4" = _vsPMkpY6;
+        "quilt-1.20.5" = _vsPMkpY6;
+        "quilt-1.20.6" = _vsPMkpY6;
+        "quilt-1.21" = _vsPMkpY6;
+        "quilt-1.21.1" = _vsPMkpY6;
+        "quilt-1.21.2" = _vsPMkpY6;
+        "quilt-1.21.3" = _vsPMkpY6;
+        "quilt-1.21.4" = _vsPMkpY6;
+        "quilt-1.21.5" = _vsPMkpY6;
+        "quilt-1.21.6" = _vsPMkpY6;
+        "quilt-1.21.7" = _vsPMkpY6;
+        "quilt-1.21.8" = _vsPMkpY6;
+        "quilt-1.21.9" = _vsPMkpY6;
+        "quilt-1.21.10" = _vsPMkpY6;
+        "quilt-1.21.11" = _vsPMkpY6;
+        "quilt-26.1" = _vsPMkpY6;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "one-survival-island";
+            id = "LjiQ2pB2";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="vsPMkpY6";}

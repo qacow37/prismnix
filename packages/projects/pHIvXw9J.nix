@@ -1,0 +1,139 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _7qqkHxEQ = {
+            "id" = "7qqkHxEQ";
+            "file" = "AncientDream.zip";
+            "hash" = "sha512-0uDsinTcwvedsLkOkdSwQWjqeyVcQDttOm4UYPyl1inq3bD2p6Hv4mK9BIHrfUcKut8uhsVxpSkXhAl0+E/KvA==";
+        };
+        _dWxC6tiR = {
+            "id" = "dWxC6tiR";
+            "file" = "AncientDream.zip";
+            "hash" = "sha512-M6KptaPqO7VkIl427uC5Pd6y0avPL8QBz2FVwBA7hY3UUSiQ6A8hh4ay4dqxfrCnuUkyutu26tWORt/4p/Mt/g==";
+        };
+        _L5EzxMzN = {
+            "id" = "L5EzxMzN";
+            "file" = "AncientDream.zip";
+            "hash" = "sha512-kWFmKLWJ5bA6PUx5QyTq2CXM84HrbYGFtn67MSmXeU/lH6mxvMo/kVahihLNwAK6vkwruG9R0lHq79gSI2bCxg==";
+        };
+        _TWzsPn2z = {
+            "id" = "TWzsPn2z";
+            "file" = "AncientDream-v1.0.0.zip";
+            "hash" = "sha512-yNPmteFerEKdbau6E/UxgYoel8xj1t3zi+4WndZzKbXiXr6coYPBuj1Ts/TFKYpThsyamXi425mfd0LLhkV80A==";
+        };
+    in {
+        "7qqkHxEQ" = _7qqkHxEQ;
+        "dWxC6tiR" = _dWxC6tiR;
+        "L5EzxMzN" = _L5EzxMzN;
+        "TWzsPn2z" = _TWzsPn2z;
+        "iris-1.16" = _TWzsPn2z;
+        "iris-1.16.1" = _TWzsPn2z;
+        "iris-1.16.2" = _TWzsPn2z;
+        "iris-1.16.3" = _TWzsPn2z;
+        "iris-1.16.4" = _TWzsPn2z;
+        "iris-1.16.5" = _TWzsPn2z;
+        "iris-1.17" = _TWzsPn2z;
+        "iris-1.17.1" = _TWzsPn2z;
+        "iris-1.18" = _TWzsPn2z;
+        "iris-1.18.1" = _TWzsPn2z;
+        "iris-1.18.2" = _TWzsPn2z;
+        "iris-1.19" = _TWzsPn2z;
+        "iris-1.19.1" = _TWzsPn2z;
+        "iris-1.19.2" = _TWzsPn2z;
+        "iris-1.19.3" = _TWzsPn2z;
+        "iris-1.19.4" = _TWzsPn2z;
+        "iris-1.20" = _TWzsPn2z;
+        "iris-1.20.1" = _TWzsPn2z;
+        "iris-1.20.2" = _TWzsPn2z;
+        "iris-1.20.3" = _TWzsPn2z;
+        "iris-1.20.4" = _TWzsPn2z;
+        "iris-1.20.5" = _TWzsPn2z;
+        "iris-1.20.6" = _TWzsPn2z;
+        "iris-1.21" = _TWzsPn2z;
+        "iris-1.21.1" = _TWzsPn2z;
+        "iris-1.21.2" = _TWzsPn2z;
+        "iris-1.21.3" = _TWzsPn2z;
+        "iris-1.21.4" = _TWzsPn2z;
+        "iris-1.21.5" = _TWzsPn2z;
+        "iris-1.12" = _L5EzxMzN;
+        "iris-1.12.1" = _L5EzxMzN;
+        "iris-1.12.2" = _L5EzxMzN;
+        "iris-1.13" = _L5EzxMzN;
+        "iris-1.13.1" = _L5EzxMzN;
+        "iris-1.13.2" = _L5EzxMzN;
+        "iris-1.14" = _L5EzxMzN;
+        "iris-1.14.1" = _L5EzxMzN;
+        "iris-1.14.2" = _L5EzxMzN;
+        "iris-1.14.3" = _L5EzxMzN;
+        "iris-1.14.4" = _L5EzxMzN;
+        "iris-1.15" = _TWzsPn2z;
+        "iris-1.15.1" = _TWzsPn2z;
+        "iris-1.15.2" = _TWzsPn2z;
+        "iris-1.21.6" = _TWzsPn2z;
+        "iris-1.21.7" = _TWzsPn2z;
+        "iris-1.21.8" = _TWzsPn2z;
+        "iris-1.21.9" = _TWzsPn2z;
+        "optifine-1.16" = _L5EzxMzN;
+        "optifine-1.16.1" = _L5EzxMzN;
+        "optifine-1.16.2" = _L5EzxMzN;
+        "optifine-1.16.3" = _L5EzxMzN;
+        "optifine-1.16.4" = _L5EzxMzN;
+        "optifine-1.16.5" = _L5EzxMzN;
+        "optifine-1.17" = _L5EzxMzN;
+        "optifine-1.17.1" = _L5EzxMzN;
+        "optifine-1.18" = _L5EzxMzN;
+        "optifine-1.18.1" = _L5EzxMzN;
+        "optifine-1.18.2" = _L5EzxMzN;
+        "optifine-1.19" = _L5EzxMzN;
+        "optifine-1.19.1" = _L5EzxMzN;
+        "optifine-1.19.2" = _L5EzxMzN;
+        "optifine-1.19.3" = _L5EzxMzN;
+        "optifine-1.19.4" = _L5EzxMzN;
+        "optifine-1.20" = _L5EzxMzN;
+        "optifine-1.20.1" = _L5EzxMzN;
+        "optifine-1.20.2" = _L5EzxMzN;
+        "optifine-1.20.3" = _L5EzxMzN;
+        "optifine-1.20.4" = _L5EzxMzN;
+        "optifine-1.20.5" = _L5EzxMzN;
+        "optifine-1.20.6" = _L5EzxMzN;
+        "optifine-1.21" = _L5EzxMzN;
+        "optifine-1.21.1" = _L5EzxMzN;
+        "optifine-1.21.2" = _L5EzxMzN;
+        "optifine-1.21.3" = _L5EzxMzN;
+        "optifine-1.21.4" = _L5EzxMzN;
+        "optifine-1.21.5" = _L5EzxMzN;
+        "optifine-1.12" = _L5EzxMzN;
+        "optifine-1.12.1" = _L5EzxMzN;
+        "optifine-1.12.2" = _L5EzxMzN;
+        "optifine-1.13" = _L5EzxMzN;
+        "optifine-1.13.1" = _L5EzxMzN;
+        "optifine-1.13.2" = _L5EzxMzN;
+        "optifine-1.14" = _L5EzxMzN;
+        "optifine-1.14.1" = _L5EzxMzN;
+        "optifine-1.14.2" = _L5EzxMzN;
+        "optifine-1.14.3" = _L5EzxMzN;
+        "optifine-1.14.4" = _L5EzxMzN;
+        "optifine-1.15" = _L5EzxMzN;
+        "optifine-1.15.1" = _L5EzxMzN;
+        "optifine-1.15.2" = _L5EzxMzN;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "ancient-dream";
+            id = "pHIvXw9J";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v2.0 only";
+                    shortName = "GPL-2.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="TWzsPn2z";}

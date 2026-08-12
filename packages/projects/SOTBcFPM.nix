@@ -1,0 +1,115 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BnhVuZZn = {
+            "id" = "BnhVuZZn";
+            "file" = "TQQ.zip";
+            "hash" = "sha512-pRvS0xhbC64t+rLlanwI9u/DOrZPXd5hA+lYA2y246AZWA5erCF3hsQtghdSySHZUUmv4UjJOA4cartomfyTIw==";
+        };
+    in {
+        "BnhVuZZn" = _BnhVuZZn;
+        "minecraft-1.16" = _BnhVuZZn;
+        "minecraft-1.16.1" = _BnhVuZZn;
+        "minecraft-1.16.2" = _BnhVuZZn;
+        "minecraft-1.16.3" = _BnhVuZZn;
+        "minecraft-1.16.4" = _BnhVuZZn;
+        "minecraft-1.16.5" = _BnhVuZZn;
+        "minecraft-1.17" = _BnhVuZZn;
+        "minecraft-1.17.1" = _BnhVuZZn;
+        "minecraft-1.18" = _BnhVuZZn;
+        "minecraft-1.18.1" = _BnhVuZZn;
+        "minecraft-1.18.2" = _BnhVuZZn;
+        "minecraft-1.19" = _BnhVuZZn;
+        "minecraft-1.19.1" = _BnhVuZZn;
+        "minecraft-1.19.2" = _BnhVuZZn;
+        "minecraft-1.19.3" = _BnhVuZZn;
+        "minecraft-1.19.4" = _BnhVuZZn;
+        "minecraft-1.20" = _BnhVuZZn;
+        "minecraft-1.20.1" = _BnhVuZZn;
+        "minecraft-23w31a" = _BnhVuZZn;
+        "minecraft-23w32a" = _BnhVuZZn;
+        "minecraft-23w33a" = _BnhVuZZn;
+        "minecraft-23w35a" = _BnhVuZZn;
+        "minecraft-1.20.2-pre1" = _BnhVuZZn;
+        "minecraft-1.20.2" = _BnhVuZZn;
+        "minecraft-23w42a" = _BnhVuZZn;
+        "minecraft-23w43a" = _BnhVuZZn;
+        "minecraft-23w43b" = _BnhVuZZn;
+        "minecraft-23w44a" = _BnhVuZZn;
+        "minecraft-23w45a" = _BnhVuZZn;
+        "minecraft-23w46a" = _BnhVuZZn;
+        "minecraft-1.20.3" = _BnhVuZZn;
+        "minecraft-1.20.4" = _BnhVuZZn;
+        "minecraft-24w03a" = _BnhVuZZn;
+        "minecraft-24w03b" = _BnhVuZZn;
+        "minecraft-24w04a" = _BnhVuZZn;
+        "minecraft-24w05a" = _BnhVuZZn;
+        "minecraft-24w05b" = _BnhVuZZn;
+        "minecraft-24w06a" = _BnhVuZZn;
+        "minecraft-24w07a" = _BnhVuZZn;
+        "minecraft-24w09a" = _BnhVuZZn;
+        "minecraft-24w10a" = _BnhVuZZn;
+        "minecraft-24w11a" = _BnhVuZZn;
+        "minecraft-24w12a" = _BnhVuZZn;
+        "minecraft-24w13a" = _BnhVuZZn;
+        "minecraft-24w14potato" = _BnhVuZZn;
+        "minecraft-24w14a" = _BnhVuZZn;
+        "minecraft-1.20.5-pre1" = _BnhVuZZn;
+        "minecraft-1.20.5-pre2" = _BnhVuZZn;
+        "minecraft-1.20.5-pre3" = _BnhVuZZn;
+        "minecraft-1.20.5" = _BnhVuZZn;
+        "minecraft-1.20.6" = _BnhVuZZn;
+        "minecraft-24w18a" = _BnhVuZZn;
+        "minecraft-24w19a" = _BnhVuZZn;
+        "minecraft-24w19b" = _BnhVuZZn;
+        "minecraft-24w20a" = _BnhVuZZn;
+        "minecraft-1.21" = _BnhVuZZn;
+        "minecraft-1.21.1" = _BnhVuZZn;
+        "minecraft-24w33a" = _BnhVuZZn;
+        "minecraft-24w34a" = _BnhVuZZn;
+        "minecraft-24w35a" = _BnhVuZZn;
+        "minecraft-24w36a" = _BnhVuZZn;
+        "minecraft-24w37a" = _BnhVuZZn;
+        "minecraft-24w38a" = _BnhVuZZn;
+        "minecraft-24w39a" = _BnhVuZZn;
+        "minecraft-24w40a" = _BnhVuZZn;
+        "minecraft-1.21.2-pre1" = _BnhVuZZn;
+        "minecraft-1.21.2-pre2" = _BnhVuZZn;
+        "minecraft-1.21.2" = _BnhVuZZn;
+        "minecraft-1.21.3" = _BnhVuZZn;
+        "minecraft-24w44a" = _BnhVuZZn;
+        "minecraft-24w45a" = _BnhVuZZn;
+        "minecraft-24w46a" = _BnhVuZZn;
+        "minecraft-1.21.4" = _BnhVuZZn;
+        "minecraft-1.21.5" = _BnhVuZZn;
+        "minecraft-1.21.6" = _BnhVuZZn;
+        "minecraft-1.21.7" = _BnhVuZZn;
+        "minecraft-1.21.8" = _BnhVuZZn;
+        "minecraft-1.21.9" = _BnhVuZZn;
+        "minecraft-1.21.10" = _BnhVuZZn;
+        "minecraft-1.21.11" = _BnhVuZZn;
+        "minecraft-26.1" = _BnhVuZZn;
+        "minecraft-26.1.1" = _BnhVuZZn;
+        "minecraft-26.1.2" = _BnhVuZZn;
+        "minecraft-26.2" = _BnhVuZZn;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "the-quintessential-quintuplets";
+            id = "SOTBcFPM";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="BnhVuZZn";}

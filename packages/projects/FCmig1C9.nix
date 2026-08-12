@@ -1,0 +1,403 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Il3pW7sU = {
+            "id" = "Il3pW7sU";
+            "file" = "Fabric-Discord-Link-0.8.0.jar";
+            "hash" = "sha512-IMGK6OGRP3R9Ahq4sZRByc7vH0D/bUOpu8KX/joawH/jMV6HOkBRtnBVPyCTvzoBvZ4B+xr/DHFotSM/7th+yw==";
+        };
+        _mp3Ohjvq = {
+            "id" = "mp3Ohjvq";
+            "file" = "Fabric-Discord-Link-0.8.1.jar";
+            "hash" = "sha512-MEBb7jDgHWlrmXFsPWYBxPk0Ln4d84NmUnC2iNf4wVScPfbyGT1Ue8jbub/vHMaKqKVCG8VrQq1rAPWz1pgjvA==";
+        };
+        _2EgKomlN = {
+            "id" = "2EgKomlN";
+            "file" = "Fabric-Discord-Link-0.8.2.jar";
+            "hash" = "sha512-j3dzxpms8goNBv4FjDG/nduL8qmhr77HajdVb+uTVOWuEj1zBNtw573povUzm02SzQEBIU2rRsmjc467f3C6cg==";
+        };
+        _n0Vk4fm8 = {
+            "id" = "n0Vk4fm8";
+            "file" = "Fabric-Discord-Link-0.8.3.jar";
+            "hash" = "sha512-jR0uSInZFQwgDNYdZdMjeaO3zar3ks2Z3nDnNshacvV9vcL6RiAdhRLvNbx8267jTgD7XDTqqzW1YBR60cFytg==";
+        };
+        _dcqpYKvs = {
+            "id" = "dcqpYKvs";
+            "file" = "Fabric-Discord-Link-0.8.4.jar";
+            "hash" = "sha512-5imFVho5JR9zpLQ434HBO/IMRBGDJ1TUIsemrzY65yp1rC5HeWmmuGrhrRMli+JxMGotSFwZQvBJvJIimC26sA==";
+        };
+        _bdo5nMwk = {
+            "id" = "bdo5nMwk";
+            "file" = "Fabric-Discord-Link-0.8.5.jar";
+            "hash" = "sha512-NdFu2L/2qWvESqeDsfbsREvnBs8xTo0+IY/v7Pf3wx1skbiRD52Y4UXRurQyq9Xl+QWyV0MSSlY/jRujqBgt0Q==";
+        };
+        _5WI6V23P = {
+            "id" = "5WI6V23P";
+            "file" = "Fabric-Discord-Link-0.8.6.jar";
+            "hash" = "sha512-hyW82Q1olgcLKqm3zBfqKVuYVhFQpevbzTOxd3LhI5m6XjDLdYS5LRVyR/rgiEw7pYu/IHRNW/3G7+14Xd/fIw==";
+        };
+        _mdkota29 = {
+            "id" = "mdkota29";
+            "file" = "Fabric-Discord-Link-0.8.7.jar";
+            "hash" = "sha512-nPeuGtiP4ISjo+Yn7oZS3QkN9MQ2y99FTJ57uLMWgCK8sP6vtTAPYJXubiTIRp/OLN9yozA4MXEcd6tNnYW/DQ==";
+        };
+        _MU7nOhEg = {
+            "id" = "MU7nOhEg";
+            "file" = "Fabric-Discord-Link-0.8.8.jar";
+            "hash" = "sha512-6880rmrs8YFsuzcCni3qydM7tHVJGxHP3h0d5xxF1gMptH72J2PO0OJQF8M8H9XkjPZTw0dOAHz8jjJ/Zbfgqg==";
+        };
+        _3EUcyVUf = {
+            "id" = "3EUcyVUf";
+            "file" = "Fabric-Discord-Link-0.8.9.jar";
+            "hash" = "sha512-oZG4vCGPHgoiYqXW4FM754qkKWDociFPYRMjvqdwtFLjnfpn5T/uPL0gGaISUvC3ij2oD3DP8XuR81PjJ1N5zQ==";
+        };
+        _dYaP29Sg = {
+            "id" = "dYaP29Sg";
+            "file" = "Fabric-Discord-Link-0.8.10.jar";
+            "hash" = "sha512-Gm4Y1fZLTjUTtPOkIyz8cBb50CrjQT90RCqiyI+wfprPLSuPEMPJp30hnwiHjDYcWeLIrj/+a6TQYlJjIGu9ow==";
+        };
+        _4Yz2x2fa = {
+            "id" = "4Yz2x2fa";
+            "file" = "Fabric-Discord-Link-0.8.11.jar";
+            "hash" = "sha512-147W+h5LsnPYjLQ67TZZBGAjaDqCRXoGFDqbIF3z7MPNZ6IXTc0xg0v32ryrkK1VGxSMziL9+CayRSrR7Zro3w==";
+        };
+        _7BLlwCSi = {
+            "id" = "7BLlwCSi";
+            "file" = "Fabric-Discord-Link-0.8.12.jar";
+            "hash" = "sha512-5knm1CwlukqXvBaxxpYbZ1vbJsXqpcBviCrUSxurnRWwqPO0JJdkU0pFjJSnQEOg1Ol5WSp/znNYRCDF9v9ipQ==";
+        };
+        _V9dPm4Wh = {
+            "id" = "V9dPm4Wh";
+            "file" = "Fabric-Discord-Link-0.8.13.jar";
+            "hash" = "sha512-0gFtsprv+EJrGkdRP9wJhK4hpMBg+nmr9KqImDqabQGo9O9nzQJ85DNgR+U9eLBbc9m3YIH35a6o/r5IvZ687A==";
+        };
+        _JUCn02LI = {
+            "id" = "JUCn02LI";
+            "file" = "Fabric-Discord-Link-0.8.14.jar";
+            "hash" = "sha512-/e623no5V4WcncAQzKQ6LDkc5wRJHK69eCrqEesXyPsfM1zKOJetvR2C1dBCA1DH3oehWVfI/+aK+JqQNdxKZw==";
+        };
+        _V8s2TS3l = {
+            "id" = "V8s2TS3l";
+            "file" = "Fabric-Discord-Link-0.8.15.jar";
+            "hash" = "sha512-70qxWONT1XqActAB52mUz2Ycln7tOcmGT1ScC4I/ZDyOVhkizeXRThkti82KCOs7Xbie7yRnXN2LvU6cM7NgxQ==";
+        };
+        _gBE7AzCy = {
+            "id" = "gBE7AzCy";
+            "file" = "Fabric-Discord-Link-0.8.16.jar";
+            "hash" = "sha512-g77kmKoixzVm1KGFHXhie1GOmUzgXUlZVC7+x7WVCusG9mcGD3SAvqKVDt7+Gpdt8U2qSa/rqHnupAEodwcM9w==";
+        };
+        _TzOwPChO = {
+            "id" = "TzOwPChO";
+            "file" = "Fabric-Discord-Link-0.8.17.jar";
+            "hash" = "sha512-g+4mofWKcVHDQQlXOkeeWR0EuSN52JKKmKEYs7ldUpoysP4M4B6M53j+ivrGllqxM6nyeTkYNfkmYmwcZfx3OA==";
+        };
+        _DJprVdcp = {
+            "id" = "DJprVdcp";
+            "file" = "Fabric-Discord-Link-0.8.18.jar";
+            "hash" = "sha512-qYklev11r5MdZtbAUd4UWvG00XRdYx3e02G/WxJBe53mhD/2UXTmQU6JY3s5H8roNDVPFr6IonrvhxTOnmxDxw==";
+        };
+        _WKI1Gp45 = {
+            "id" = "WKI1Gp45";
+            "file" = "Fabric-Discord-Link-0.8.19.jar";
+            "hash" = "sha512-+asCEv2emosYtnyuzIzl68pU0OGM1V9nSldryoMcvZIAG8X+uC6Q9r2y5mudCbBunj5pLrOEzMgwHBVRhfM78g==";
+        };
+        _woIdY32a = {
+            "id" = "woIdY32a";
+            "file" = "Fabric-Discord-Link-0.9.0.jar";
+            "hash" = "sha512-0xdS3CMj90HFjIEuRhFpW+VdWticuqAEnW5vZWaRDYvdwvhRHGurAokCtuiQeiPaJOihIBCIU78rIpnzlis4Og==";
+        };
+        _9xBgBebP = {
+            "id" = "9xBgBebP";
+            "file" = "Fabric-Discord-Link-0.9.1.jar";
+            "hash" = "sha512-TnPr83YNnyI14seGkDgYCO/vbjJxj/MwFvUuJoGDWafLhbQ9oWZsId8uV/jPf5mDNx6Gq2cC3vGlk/ubhguZzA==";
+        };
+        _aMDgAYVE = {
+            "id" = "aMDgAYVE";
+            "file" = "Fabric-Discord-Link-0.9.2.jar";
+            "hash" = "sha512-v2yQ+WVui1/wJeSRkcAGE/j4+FV/ruj04+vRs0pYAyrHBeqNvvHCgKSiKN0SBeghqsC6EX+2/qS7hDzlvQissA==";
+        };
+        _pEOQI9d5 = {
+            "id" = "pEOQI9d5";
+            "file" = "Fabric-Discord-Link-0.9.3.jar";
+            "hash" = "sha512-sbhZ4HMAr53D/g3B32pxbnDdPmdhQdQgYElgr61O6c1Upuhw/hTwzn90H39NwU9jijwjb8SO4lQnlQ98aztduw==";
+        };
+        _eUXsQJhX = {
+            "id" = "eUXsQJhX";
+            "file" = "Fabric-Discord-Link-0.9.4.jar";
+            "hash" = "sha512-FgaS835Kzg7e6V6p9RTg1d4oBaypnWiNdvZCpUCUwTgDhsryie561gr2ImpRMD3GOYx0js9Gdr1G9MmJ9y7q6Q==";
+        };
+        _vaAPqq4y = {
+            "id" = "vaAPqq4y";
+            "file" = "Fabric-Discord-Link-0.9.5.jar";
+            "hash" = "sha512-gJRRqqyu4PRTpk1k6cGJyHa3V0r/n4FAW4G3tZ5L9UEaEVmy5h9XMHP1+t5ApOb2SJTO1ljKKSD/S2aesftcqw==";
+        };
+        _rAgXEE3O = {
+            "id" = "rAgXEE3O";
+            "file" = "Fabric-Discord-Link-0.9.6.jar";
+            "hash" = "sha512-r39mzsekI+Se+rjk0IsMuVX13QNf718c4NWLRc3qhmZ94HzrbUbc3lA7KIBqvY38GJlTgbWFq67Kj2PoR50t8A==";
+        };
+        _FNKQtuHn = {
+            "id" = "FNKQtuHn";
+            "file" = "Fabric-Discord-Link-0.9.7.jar";
+            "hash" = "sha512-G4NMBvamGThShNEqkuVErda6iQCvae8+pjG82YbykGFnbsL69oVFTPjGb/e8c9OY8nMYwH7xqTX5/QM9CsCX4Q==";
+        };
+        _kxQ4DKlh = {
+            "id" = "kxQ4DKlh";
+            "file" = "Fabric-Discord-Link-0.9.8.jar";
+            "hash" = "sha512-nXOsCigqo3F+AKhQ8P2DejPeRvaj9PUhK3jiaAz2pO3JGVjeebf2lXzWQrMu8iBSQBN4/gdEZ0vGycvApw+otQ==";
+        };
+        _71IB13Xd = {
+            "id" = "71IB13Xd";
+            "file" = "Fabric-Discord-Link-0.10.3.jar";
+            "hash" = "sha512-m85vfFLBgt5ivpvU86XNn3XFm5gkd9pb+3XYNeN9mNwz4z2hJplj9Wt3RHH3Tb5/3xk3c7QS4QCZkinZDqvEnA==";
+        };
+        _5rYoeTkl = {
+            "id" = "5rYoeTkl";
+            "file" = "Fabric-Discord-Link-0.10.4.jar";
+            "hash" = "sha512-MDIqKLQ93ZyhqcMq0C6u1zvEJeZ859Z3YhjtgRRj4AH6n/cqXaKEtxlaXLSXuOq3jmoKRazex/eo/0SBlCW8uA==";
+        };
+        _eST9INSL = {
+            "id" = "eST9INSL";
+            "file" = "Fabric-Discord-Link-0.10.5.jar";
+            "hash" = "sha512-bi1snwUPIRSLdh/eQ/BBmsmvO4oILfCHkQq5SLUvtzG8yDfjXbZ8/dAnk2OWKUW1CrQMG9e/ZQIwju3ONpn85g==";
+        };
+        _KU3FSUa4 = {
+            "id" = "KU3FSUa4";
+            "file" = "Fabric-Discord-Link-0.10.6.jar";
+            "hash" = "sha512-ojzjVIKNtMrJmXmMYlEX7hPVWSd8JNRpXlpawpr0ylEpvUNb0KkEJbZGemO6slpII1eMA0zMKmeIh+eRAEJvyg==";
+        };
+        _KCJiPrcE = {
+            "id" = "KCJiPrcE";
+            "file" = "Fabric-Discord-Link-0.10.7.jar";
+            "hash" = "sha512-lDhcQ2o2d7oTIbnAyBP0DCHEe+DqhSHy9TsaoNmbnPkJl1EuRGSt7cSPog3cRv+s+LLlRlxtZ7R5UcVrD86waA==";
+        };
+    in {
+        "Il3pW7sU" = _Il3pW7sU;
+        "mp3Ohjvq" = _mp3Ohjvq;
+        "2EgKomlN" = _2EgKomlN;
+        "n0Vk4fm8" = _n0Vk4fm8;
+        "dcqpYKvs" = _dcqpYKvs;
+        "bdo5nMwk" = _bdo5nMwk;
+        "5WI6V23P" = _5WI6V23P;
+        "mdkota29" = _mdkota29;
+        "MU7nOhEg" = _MU7nOhEg;
+        "3EUcyVUf" = _3EUcyVUf;
+        "dYaP29Sg" = _dYaP29Sg;
+        "4Yz2x2fa" = _4Yz2x2fa;
+        "7BLlwCSi" = _7BLlwCSi;
+        "V9dPm4Wh" = _V9dPm4Wh;
+        "JUCn02LI" = _JUCn02LI;
+        "V8s2TS3l" = _V8s2TS3l;
+        "gBE7AzCy" = _gBE7AzCy;
+        "TzOwPChO" = _TzOwPChO;
+        "DJprVdcp" = _DJprVdcp;
+        "WKI1Gp45" = _WKI1Gp45;
+        "woIdY32a" = _woIdY32a;
+        "9xBgBebP" = _9xBgBebP;
+        "aMDgAYVE" = _aMDgAYVE;
+        "pEOQI9d5" = _pEOQI9d5;
+        "eUXsQJhX" = _eUXsQJhX;
+        "vaAPqq4y" = _vaAPqq4y;
+        "rAgXEE3O" = _rAgXEE3O;
+        "FNKQtuHn" = _FNKQtuHn;
+        "kxQ4DKlh" = _kxQ4DKlh;
+        "71IB13Xd" = _71IB13Xd;
+        "5rYoeTkl" = _5rYoeTkl;
+        "eST9INSL" = _eST9INSL;
+        "KU3FSUa4" = _KU3FSUa4;
+        "KCJiPrcE" = _KCJiPrcE;
+        "fabric-1.12.2" = _KCJiPrcE;
+        "fabric-1.14" = _KCJiPrcE;
+        "fabric-1.14.1-pre1" = _KCJiPrcE;
+        "fabric-1.14.1-pre2" = _KCJiPrcE;
+        "fabric-1.14.1" = _KCJiPrcE;
+        "fabric-1.14.2-pre1" = _KCJiPrcE;
+        "fabric-1.14.2-pre2" = _KCJiPrcE;
+        "fabric-1.14.2-pre3" = _KCJiPrcE;
+        "fabric-1.14.2-pre4" = _KCJiPrcE;
+        "fabric-1.14.2" = _KCJiPrcE;
+        "fabric-1.14.3-pre1" = _KCJiPrcE;
+        "fabric-1.14.3-pre2" = _KCJiPrcE;
+        "fabric-1.14.3-pre3" = _KCJiPrcE;
+        "fabric-1.14.3-pre4" = _KCJiPrcE;
+        "fabric-1.14.3" = _KCJiPrcE;
+        "fabric-1.14.4-pre1" = _KCJiPrcE;
+        "fabric-1.14.4-pre2" = _KCJiPrcE;
+        "fabric-1.14.4-pre3" = _KCJiPrcE;
+        "fabric-1.14.4-pre4" = _KCJiPrcE;
+        "fabric-1.14.4-pre5" = _KCJiPrcE;
+        "fabric-1.14.4-pre6" = _KCJiPrcE;
+        "fabric-1.14.4-pre7" = _KCJiPrcE;
+        "fabric-1.14.4" = _KCJiPrcE;
+        "fabric-19w34a" = _KCJiPrcE;
+        "fabric-19w35a" = _KCJiPrcE;
+        "fabric-19w36a" = _KCJiPrcE;
+        "fabric-19w37a" = _KCJiPrcE;
+        "fabric-19w38a" = _KCJiPrcE;
+        "fabric-19w38b" = _KCJiPrcE;
+        "fabric-19w39a" = _KCJiPrcE;
+        "fabric-19w40a" = _KCJiPrcE;
+        "fabric-19w41a" = _KCJiPrcE;
+        "fabric-19w42a" = _KCJiPrcE;
+        "fabric-19w44a" = _KCJiPrcE;
+        "fabric-19w45a" = _KCJiPrcE;
+        "fabric-19w45b" = _KCJiPrcE;
+        "fabric-19w46a" = _KCJiPrcE;
+        "fabric-19w46b" = _KCJiPrcE;
+        "fabric-1.15-pre1" = _KCJiPrcE;
+        "fabric-1.15-pre2" = _KCJiPrcE;
+        "fabric-1.15-pre3" = _KCJiPrcE;
+        "fabric-1.15-pre4" = _KCJiPrcE;
+        "fabric-1.15-pre5" = _KCJiPrcE;
+        "fabric-1.15-pre6" = _KCJiPrcE;
+        "fabric-1.15-pre7" = _KCJiPrcE;
+        "fabric-1.15" = _KCJiPrcE;
+        "fabric-1.15.1-pre1" = _KCJiPrcE;
+        "fabric-1.15.1" = _KCJiPrcE;
+        "fabric-1.15.2-pre1" = _KCJiPrcE;
+        "fabric-1.15.2-pre2" = _KCJiPrcE;
+        "fabric-1.15.2" = _KCJiPrcE;
+        "fabric-20w06a" = _KCJiPrcE;
+        "fabric-20w07a" = _KCJiPrcE;
+        "fabric-20w08a" = _KCJiPrcE;
+        "fabric-20w09a" = _KCJiPrcE;
+        "fabric-20w10a" = _KCJiPrcE;
+        "fabric-20w11a" = _KCJiPrcE;
+        "fabric-20w12a" = _KCJiPrcE;
+        "fabric-20w13a" = _KCJiPrcE;
+        "fabric-20w13b" = _KCJiPrcE;
+        "fabric-20w14infinite" = _KCJiPrcE;
+        "fabric-20w14a" = _KCJiPrcE;
+        "fabric-20w15a" = _KCJiPrcE;
+        "fabric-20w16a" = _KCJiPrcE;
+        "fabric-20w17a" = _KCJiPrcE;
+        "fabric-20w18a" = _KCJiPrcE;
+        "fabric-20w19a" = _KCJiPrcE;
+        "fabric-20w20a" = _KCJiPrcE;
+        "fabric-20w20b" = _KCJiPrcE;
+        "fabric-20w21a" = _KCJiPrcE;
+        "fabric-1.16-pre1" = _KCJiPrcE;
+        "fabric-1.16-pre2" = _KCJiPrcE;
+        "fabric-1.16-pre3" = _KCJiPrcE;
+        "fabric-1.16-pre4" = _KCJiPrcE;
+        "fabric-1.16-pre5" = _KCJiPrcE;
+        "fabric-1.16-pre6" = _KCJiPrcE;
+        "fabric-1.16-pre7" = _KCJiPrcE;
+        "fabric-1.16-pre8" = _KCJiPrcE;
+        "fabric-1.16-rc1" = _KCJiPrcE;
+        "fabric-1.16" = _KCJiPrcE;
+        "fabric-1.16.1" = _KCJiPrcE;
+        "fabric-20w27a" = _KCJiPrcE;
+        "fabric-20w28a" = _KCJiPrcE;
+        "fabric-20w29a" = _KCJiPrcE;
+        "fabric-20w30a" = _KCJiPrcE;
+        "fabric-1.16.2-pre1" = _KCJiPrcE;
+        "fabric-1.16.2-pre2" = _KCJiPrcE;
+        "fabric-1.16.2-pre3" = _KCJiPrcE;
+        "fabric-1.16.2-rc1" = _KCJiPrcE;
+        "fabric-1.16.2-rc2" = _KCJiPrcE;
+        "fabric-1.16.2" = _KCJiPrcE;
+        "fabric-1.16.3-rc1" = _KCJiPrcE;
+        "fabric-1.16.3" = _KCJiPrcE;
+        "fabric-1.16.4-pre1" = _KCJiPrcE;
+        "fabric-1.16.4-pre2" = _KCJiPrcE;
+        "fabric-1.16.4-rc1" = _KCJiPrcE;
+        "fabric-1.16.4" = _KCJiPrcE;
+        "fabric-20w45a" = _KCJiPrcE;
+        "fabric-20w46a" = _KCJiPrcE;
+        "fabric-20w48a" = _KCJiPrcE;
+        "fabric-20w49a" = _KCJiPrcE;
+        "fabric-20w51a" = _KCJiPrcE;
+        "fabric-1.8.9" = _KCJiPrcE;
+        "fabric-1.7.10" = _KCJiPrcE;
+        "fabric-20w22a" = _KCJiPrcE;
+        "fabric-1.16.5-rc1" = _KCJiPrcE;
+        "fabric-1.16.5" = _KCJiPrcE;
+        "fabric-21w03a" = _KCJiPrcE;
+        "fabric-1.6.4" = _KCJiPrcE;
+        "fabric-1.5.2" = _dYaP29Sg;
+        "fabric-21w05a" = _KCJiPrcE;
+        "fabric-21w05b" = _KCJiPrcE;
+        "fabric-21w06a" = _KCJiPrcE;
+        "fabric-21w07a" = _KCJiPrcE;
+        "fabric-21w08a" = _KCJiPrcE;
+        "fabric-21w08b" = _KCJiPrcE;
+        "fabric-21w10a" = _KCJiPrcE;
+        "fabric-21w11a" = _KCJiPrcE;
+        "fabric-21w13a" = _KCJiPrcE;
+        "fabric-21w14a" = _KCJiPrcE;
+        "fabric-21w15a" = _KCJiPrcE;
+        "fabric-21w16a" = _KCJiPrcE;
+        "fabric-21w17a" = _KCJiPrcE;
+        "fabric-21w18a" = _KCJiPrcE;
+        "fabric-21w19a" = _KCJiPrcE;
+        "fabric-21w20a" = _KCJiPrcE;
+        "fabric-1.17-pre1" = _KCJiPrcE;
+        "fabric-1.17-pre2" = _KCJiPrcE;
+        "fabric-1.17-pre3" = _KCJiPrcE;
+        "fabric-1.17-pre4" = _KCJiPrcE;
+        "fabric-1.17-pre5" = _KCJiPrcE;
+        "fabric-1.17-rc1" = _KCJiPrcE;
+        "fabric-1.17-rc2" = _KCJiPrcE;
+        "fabric-1.17" = _KCJiPrcE;
+        "fabric-1.17.1-pre1" = _KCJiPrcE;
+        "fabric-1.17.1-pre2" = _KCJiPrcE;
+        "fabric-1.17.1-pre3" = _KCJiPrcE;
+        "fabric-1.17.1-rc1" = _KCJiPrcE;
+        "fabric-1.17.1-rc2" = _KCJiPrcE;
+        "fabric-1.17.1" = _KCJiPrcE;
+        "fabric-21w37a" = _KCJiPrcE;
+        "fabric-21w38a" = _KCJiPrcE;
+        "fabric-21w39a" = _KCJiPrcE;
+        "fabric-21w40a" = _KCJiPrcE;
+        "fabric-21w41a" = _KCJiPrcE;
+        "fabric-21w42a" = _KCJiPrcE;
+        "fabric-21w43a" = _KCJiPrcE;
+        "fabric-21w44a" = _KCJiPrcE;
+        "fabric-1.18-pre1" = _KCJiPrcE;
+        "fabric-1.18-pre2" = _KCJiPrcE;
+        "fabric-1.18-pre3" = _KCJiPrcE;
+        "fabric-1.18-pre4" = _KCJiPrcE;
+        "fabric-1.18-pre5" = _KCJiPrcE;
+        "fabric-1.18-pre6" = _KCJiPrcE;
+        "fabric-1.18-pre7" = _KCJiPrcE;
+        "fabric-1.18-pre8" = _KCJiPrcE;
+        "fabric-1.18-rc1" = _KCJiPrcE;
+        "fabric-1.18-rc2" = _KCJiPrcE;
+        "fabric-1.18-rc3" = _KCJiPrcE;
+        "fabric-1.18-rc4" = _KCJiPrcE;
+        "fabric-1.18" = _KCJiPrcE;
+        "fabric-1.18.1-pre1" = _KCJiPrcE;
+        "fabric-1.18.1-rc1" = _KCJiPrcE;
+        "fabric-1.18.1-rc2" = _KCJiPrcE;
+        "fabric-1.18.1-rc3" = _KCJiPrcE;
+        "fabric-1.18.1" = _KCJiPrcE;
+        "fabric-22w03a" = _KCJiPrcE;
+        "fabric-22w05a" = _KCJiPrcE;
+        "fabric-22w06a" = _KCJiPrcE;
+        "fabric-22w07a" = _KCJiPrcE;
+        "fabric-1.18.2-pre1" = _KCJiPrcE;
+        "fabric-1.18.2-pre2" = _KCJiPrcE;
+        "fabric-1.18.2-pre3" = _KCJiPrcE;
+        "fabric-1.18.2-rc1" = _KCJiPrcE;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "fabric-discord-link";
+            id = "FCmig1C9";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="KCJiPrcE";}

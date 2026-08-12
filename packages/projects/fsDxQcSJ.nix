@@ -1,0 +1,113 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _fgDfXM9n = {
+            "id" = "fgDfXM9n";
+            "file" = "Gradius-VibrantShader1.0.zip";
+            "hash" = "sha512-eTnKJ3JkBF6GQ4ur6JRhJxueLXqDQlbGWsIqnH2u2DpPpQLoLkkKekFXyR8JQZl+Yb+EjIX9UJfVCL1eReGMJw==";
+        };
+        _JjbNgAKT = {
+            "id" = "JjbNgAKT";
+            "file" = "Gradius-VibrantShader_nightly1.0.zip";
+            "hash" = "sha512-phD21XPOxRLYs4iNSae1zTDDFy6gi1HsNiYn9RyFVff0JFEP8e7PUyFVrpsmJeV6Yfv6aNQx5yZzM4R3nOMk1w==";
+        };
+    in {
+        "fgDfXM9n" = _fgDfXM9n;
+        "JjbNgAKT" = _JjbNgAKT;
+        "iris-1.16.4" = _JjbNgAKT;
+        "iris-1.16.5" = _JjbNgAKT;
+        "iris-1.17" = _JjbNgAKT;
+        "iris-1.17.1" = _JjbNgAKT;
+        "iris-1.18" = _JjbNgAKT;
+        "iris-1.18.1" = _JjbNgAKT;
+        "iris-1.18.2" = _JjbNgAKT;
+        "iris-1.19" = _JjbNgAKT;
+        "iris-1.19.1" = _JjbNgAKT;
+        "iris-1.19.2" = _JjbNgAKT;
+        "iris-1.19.3" = _JjbNgAKT;
+        "iris-1.19.4" = _JjbNgAKT;
+        "iris-1.20" = _JjbNgAKT;
+        "iris-1.20.1" = _JjbNgAKT;
+        "iris-1.20.2" = _JjbNgAKT;
+        "iris-1.20.3" = _JjbNgAKT;
+        "iris-1.20.4" = _JjbNgAKT;
+        "iris-1.20.5" = _JjbNgAKT;
+        "iris-1.20.6" = _JjbNgAKT;
+        "iris-1.21" = _JjbNgAKT;
+        "iris-1.21.1" = _JjbNgAKT;
+        "iris-1.21.2" = _JjbNgAKT;
+        "iris-1.21.3" = _JjbNgAKT;
+        "iris-1.21.4" = _JjbNgAKT;
+        "iris-1.21.5" = _JjbNgAKT;
+        "iris-1.21.6" = _JjbNgAKT;
+        "iris-1.21.7" = _JjbNgAKT;
+        "iris-1.21.8" = _JjbNgAKT;
+        "iris-1.21.9" = _JjbNgAKT;
+        "iris-1.21.10" = _JjbNgAKT;
+        "iris-1.21.11" = _JjbNgAKT;
+        "iris-26.1" = _JjbNgAKT;
+        "iris-26.1.1" = _JjbNgAKT;
+        "iris-26.1.2" = _JjbNgAKT;
+        "iris-1.16" = _JjbNgAKT;
+        "iris-1.16.1" = _JjbNgAKT;
+        "iris-1.16.2" = _JjbNgAKT;
+        "iris-1.16.3" = _JjbNgAKT;
+        "optifine-1.16.4" = _JjbNgAKT;
+        "optifine-1.16.5" = _JjbNgAKT;
+        "optifine-1.17" = _JjbNgAKT;
+        "optifine-1.17.1" = _JjbNgAKT;
+        "optifine-1.18" = _JjbNgAKT;
+        "optifine-1.18.1" = _JjbNgAKT;
+        "optifine-1.18.2" = _JjbNgAKT;
+        "optifine-1.19" = _JjbNgAKT;
+        "optifine-1.19.1" = _JjbNgAKT;
+        "optifine-1.19.2" = _JjbNgAKT;
+        "optifine-1.19.3" = _JjbNgAKT;
+        "optifine-1.19.4" = _JjbNgAKT;
+        "optifine-1.20" = _JjbNgAKT;
+        "optifine-1.20.1" = _JjbNgAKT;
+        "optifine-1.20.2" = _JjbNgAKT;
+        "optifine-1.20.3" = _JjbNgAKT;
+        "optifine-1.20.4" = _JjbNgAKT;
+        "optifine-1.20.5" = _JjbNgAKT;
+        "optifine-1.20.6" = _JjbNgAKT;
+        "optifine-1.21" = _JjbNgAKT;
+        "optifine-1.21.1" = _JjbNgAKT;
+        "optifine-1.21.2" = _JjbNgAKT;
+        "optifine-1.21.3" = _JjbNgAKT;
+        "optifine-1.21.4" = _JjbNgAKT;
+        "optifine-1.21.5" = _JjbNgAKT;
+        "optifine-1.21.6" = _JjbNgAKT;
+        "optifine-1.21.7" = _JjbNgAKT;
+        "optifine-1.21.8" = _JjbNgAKT;
+        "optifine-1.21.9" = _JjbNgAKT;
+        "optifine-1.21.10" = _JjbNgAKT;
+        "optifine-1.21.11" = _JjbNgAKT;
+        "optifine-26.1" = _JjbNgAKT;
+        "optifine-26.1.1" = _JjbNgAKT;
+        "optifine-26.1.2" = _JjbNgAKT;
+        "optifine-1.16" = _JjbNgAKT;
+        "optifine-1.16.1" = _JjbNgAKT;
+        "optifine-1.16.2" = _JjbNgAKT;
+        "optifine-1.16.3" = _JjbNgAKT;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "gradius-vibrantshader";
+            id = "fsDxQcSJ";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="JjbNgAKT";}

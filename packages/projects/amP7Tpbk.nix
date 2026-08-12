@@ -1,0 +1,123 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _OjuAki7H = {
+            "id" = "OjuAki7H";
+            "file" = "BlueEnchantmentGlint.zip";
+            "hash" = "sha512-WuGIr0qT+NLuCM9qecy/H0mnVhMJPIyRP0U/mRwyw1Nx2hCsN6ZqVMgxE1Z56b8CjF5ajR5m+Eu/wApeZb2rZw==";
+        };
+        _G5QAvHUd = {
+            "id" = "G5QAvHUd";
+            "file" = "BlueEnchantmentGlint.zip";
+            "hash" = "sha512-pmgSrS6CJ2zvhFX8OifcPWh4bgi1QTshDir4LdISKHFHKuI3bxQ034rSxVf0ZXHQV4rW/Sh8lUun0O5/9hfFXQ==";
+        };
+    in {
+        "OjuAki7H" = _OjuAki7H;
+        "G5QAvHUd" = _G5QAvHUd;
+        "minecraft-1.6.1" = _G5QAvHUd;
+        "minecraft-1.6.2" = _G5QAvHUd;
+        "minecraft-1.6.4" = _G5QAvHUd;
+        "minecraft-1.7.2" = _G5QAvHUd;
+        "minecraft-1.7.3" = _G5QAvHUd;
+        "minecraft-1.7.4" = _G5QAvHUd;
+        "minecraft-1.7.5" = _G5QAvHUd;
+        "minecraft-1.7.6" = _G5QAvHUd;
+        "minecraft-1.7.7" = _G5QAvHUd;
+        "minecraft-1.7.8" = _G5QAvHUd;
+        "minecraft-1.7.9" = _G5QAvHUd;
+        "minecraft-1.7.10" = _G5QAvHUd;
+        "minecraft-1.8" = _G5QAvHUd;
+        "minecraft-1.8.1" = _G5QAvHUd;
+        "minecraft-1.8.2" = _G5QAvHUd;
+        "minecraft-1.8.3" = _G5QAvHUd;
+        "minecraft-1.8.4" = _G5QAvHUd;
+        "minecraft-1.8.5" = _G5QAvHUd;
+        "minecraft-1.8.6" = _G5QAvHUd;
+        "minecraft-1.8.7" = _G5QAvHUd;
+        "minecraft-1.8.8" = _G5QAvHUd;
+        "minecraft-1.8.9" = _G5QAvHUd;
+        "minecraft-1.9" = _G5QAvHUd;
+        "minecraft-1.9.1" = _G5QAvHUd;
+        "minecraft-1.9.2" = _G5QAvHUd;
+        "minecraft-1.9.3" = _G5QAvHUd;
+        "minecraft-1.9.4" = _G5QAvHUd;
+        "minecraft-1.10" = _G5QAvHUd;
+        "minecraft-1.10.1" = _G5QAvHUd;
+        "minecraft-1.10.2" = _G5QAvHUd;
+        "minecraft-1.11" = _G5QAvHUd;
+        "minecraft-1.11.1" = _G5QAvHUd;
+        "minecraft-1.11.2" = _G5QAvHUd;
+        "minecraft-1.12" = _G5QAvHUd;
+        "minecraft-1.12.1" = _G5QAvHUd;
+        "minecraft-1.12.2" = _G5QAvHUd;
+        "minecraft-1.13" = _G5QAvHUd;
+        "minecraft-1.13.1" = _G5QAvHUd;
+        "minecraft-1.13.2" = _G5QAvHUd;
+        "minecraft-1.14" = _G5QAvHUd;
+        "minecraft-1.14.1" = _G5QAvHUd;
+        "minecraft-1.14.2" = _G5QAvHUd;
+        "minecraft-1.14.3" = _G5QAvHUd;
+        "minecraft-1.14.4" = _G5QAvHUd;
+        "minecraft-1.15" = _G5QAvHUd;
+        "minecraft-1.15.1" = _G5QAvHUd;
+        "minecraft-1.15.2" = _G5QAvHUd;
+        "minecraft-1.16" = _G5QAvHUd;
+        "minecraft-1.16.1" = _G5QAvHUd;
+        "minecraft-1.16.2" = _G5QAvHUd;
+        "minecraft-1.16.3" = _G5QAvHUd;
+        "minecraft-1.16.4" = _G5QAvHUd;
+        "minecraft-1.16.5" = _G5QAvHUd;
+        "minecraft-1.17" = _G5QAvHUd;
+        "minecraft-1.17.1" = _G5QAvHUd;
+        "minecraft-1.18" = _G5QAvHUd;
+        "minecraft-1.18.1" = _G5QAvHUd;
+        "minecraft-1.18.2" = _G5QAvHUd;
+        "minecraft-1.19" = _G5QAvHUd;
+        "minecraft-1.19.1" = _G5QAvHUd;
+        "minecraft-1.19.2" = _G5QAvHUd;
+        "minecraft-1.19.3" = _G5QAvHUd;
+        "minecraft-1.19.4" = _G5QAvHUd;
+        "minecraft-1.20" = _G5QAvHUd;
+        "minecraft-1.20.1" = _G5QAvHUd;
+        "minecraft-1.20.2" = _G5QAvHUd;
+        "minecraft-1.20.3" = _G5QAvHUd;
+        "minecraft-1.20.4" = _G5QAvHUd;
+        "minecraft-1.20.5" = _G5QAvHUd;
+        "minecraft-1.20.6" = _G5QAvHUd;
+        "minecraft-1.21" = _G5QAvHUd;
+        "minecraft-1.21.1" = _G5QAvHUd;
+        "minecraft-1.21.2" = _G5QAvHUd;
+        "minecraft-1.21.3" = _G5QAvHUd;
+        "minecraft-1.21.4" = _G5QAvHUd;
+        "minecraft-1.21.5" = _G5QAvHUd;
+        "minecraft-1.21.6" = _G5QAvHUd;
+        "minecraft-1.21.7" = _G5QAvHUd;
+        "minecraft-1.21.8" = _G5QAvHUd;
+        "minecraft-1.21.9" = _G5QAvHUd;
+        "minecraft-1.21.10" = _G5QAvHUd;
+        "minecraft-1.21.11" = _G5QAvHUd;
+        "minecraft-26.1" = _G5QAvHUd;
+        "minecraft-26.1.1" = _G5QAvHUd;
+        "minecraft-26.1.2" = _G5QAvHUd;
+        "minecraft-26.2" = _G5QAvHUd;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "blue-enchantment-glint";
+            id = "amP7Tpbk";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="G5QAvHUd";}

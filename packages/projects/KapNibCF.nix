@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _qtZuZq2A = {
+            "id" = "qtZuZq2A";
+            "file" = "Tinkers-Unexplored-1.20.1-1.0.0.jar";
+            "hash" = "sha512-mrDIpTP2HMVqADWBIQziCrpQPfMW9mwO6poAWBGb6FGy45dicCYzU6QISYCNMQTj8ac2aD0RP+mr9hk1jgc3PA==";
+        };
+    in {
+        "qtZuZq2A" = _qtZuZq2A;
+        "forge-1.20.1" = _qtZuZq2A;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "tinkers-unexplored";
+            id = "KapNibCF";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="qtZuZq2A";}

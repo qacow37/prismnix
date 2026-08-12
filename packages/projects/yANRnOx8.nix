@@ -1,0 +1,135 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _wGH5mFgP = {
+            "id" = "wGH5mFgP";
+            "file" = "Simple Lower Grass Sides v1.0.0.zip";
+            "hash" = "sha512-sIxDi2WbvvDbuMHnHXTKuBOJx1EVHNok9olm4Oo63SUTjha6TGKvVuKFAHiosVhDb3YBsgj8uP4eY2St86u0bQ==";
+        };
+        _s7TiSlZQ = {
+            "id" = "s7TiSlZQ";
+            "file" = "Simple Lower Grass Sides v1.1.0.zip";
+            "hash" = "sha512-4wWKyAWCyQUexj/hDJ05Gl8072jGSV1ZhDS8N8FnEB7YICSrTRMEdycC8ojA83j/3VKWSwVsKRA2pbF97jRFNQ==";
+        };
+        _YEdrXaza = {
+            "id" = "YEdrXaza";
+            "file" = "Simple Lower Grass Sides v1.2.0.zip";
+            "hash" = "sha512-ZDQO3Oej+/X/ecL9NFHdujmV6AR04sdCPgpOnKmt4iDtGsPNEy+HgG2QOtN7U2WikGlHQfHl0yYX7A7hSvFDKQ==";
+        };
+    in {
+        "wGH5mFgP" = _wGH5mFgP;
+        "s7TiSlZQ" = _s7TiSlZQ;
+        "YEdrXaza" = _YEdrXaza;
+        "minecraft-1.20" = _YEdrXaza;
+        "minecraft-1.20.1" = _YEdrXaza;
+        "minecraft-1.20.2" = _YEdrXaza;
+        "minecraft-1.20.3" = _YEdrXaza;
+        "minecraft-1.20.4" = _YEdrXaza;
+        "minecraft-1.20.5" = _YEdrXaza;
+        "minecraft-1.20.6" = _YEdrXaza;
+        "minecraft-1.21" = _YEdrXaza;
+        "minecraft-1.15" = _s7TiSlZQ;
+        "minecraft-1.15.1" = _s7TiSlZQ;
+        "minecraft-1.15.2" = _s7TiSlZQ;
+        "minecraft-1.16" = _s7TiSlZQ;
+        "minecraft-1.16.1" = _s7TiSlZQ;
+        "minecraft-1.16.2" = _s7TiSlZQ;
+        "minecraft-1.16.3" = _s7TiSlZQ;
+        "minecraft-1.16.4" = _s7TiSlZQ;
+        "minecraft-1.16.5" = _s7TiSlZQ;
+        "minecraft-1.17" = _YEdrXaza;
+        "minecraft-1.17.1" = _YEdrXaza;
+        "minecraft-1.18" = _YEdrXaza;
+        "minecraft-1.18.1" = _YEdrXaza;
+        "minecraft-1.18.2" = _YEdrXaza;
+        "minecraft-1.19" = _YEdrXaza;
+        "minecraft-1.19.1" = _YEdrXaza;
+        "minecraft-1.19.2" = _YEdrXaza;
+        "minecraft-1.19.3" = _YEdrXaza;
+        "minecraft-1.19.4" = _YEdrXaza;
+        "minecraft-1.21.1" = _YEdrXaza;
+        "minecraft-1.21.2" = _YEdrXaza;
+        "minecraft-1.21.3" = _YEdrXaza;
+        "minecraft-1.21.4" = _YEdrXaza;
+        "minecraft-1.21.5" = _YEdrXaza;
+        "minecraft-22w42a" = _YEdrXaza;
+        "minecraft-22w43a" = _YEdrXaza;
+        "minecraft-22w44a" = _YEdrXaza;
+        "minecraft-23w14a" = _YEdrXaza;
+        "minecraft-23w16a" = _YEdrXaza;
+        "minecraft-23w31a" = _YEdrXaza;
+        "minecraft-23w32a" = _YEdrXaza;
+        "minecraft-23w33a" = _YEdrXaza;
+        "minecraft-23w35a" = _YEdrXaza;
+        "minecraft-1.20.2-pre1" = _YEdrXaza;
+        "minecraft-23w42a" = _YEdrXaza;
+        "minecraft-23w43a" = _YEdrXaza;
+        "minecraft-23w43b" = _YEdrXaza;
+        "minecraft-23w44a" = _YEdrXaza;
+        "minecraft-23w45a" = _YEdrXaza;
+        "minecraft-23w46a" = _YEdrXaza;
+        "minecraft-24w03a" = _YEdrXaza;
+        "minecraft-24w03b" = _YEdrXaza;
+        "minecraft-24w04a" = _YEdrXaza;
+        "minecraft-24w05a" = _YEdrXaza;
+        "minecraft-24w05b" = _YEdrXaza;
+        "minecraft-24w06a" = _YEdrXaza;
+        "minecraft-24w07a" = _YEdrXaza;
+        "minecraft-24w09a" = _YEdrXaza;
+        "minecraft-24w10a" = _YEdrXaza;
+        "minecraft-24w11a" = _YEdrXaza;
+        "minecraft-24w12a" = _YEdrXaza;
+        "minecraft-24w13a" = _YEdrXaza;
+        "minecraft-24w14potato" = _YEdrXaza;
+        "minecraft-24w14a" = _YEdrXaza;
+        "minecraft-1.20.5-pre1" = _YEdrXaza;
+        "minecraft-1.20.5-pre2" = _YEdrXaza;
+        "minecraft-1.20.5-pre3" = _YEdrXaza;
+        "minecraft-24w18a" = _YEdrXaza;
+        "minecraft-24w19a" = _YEdrXaza;
+        "minecraft-24w19b" = _YEdrXaza;
+        "minecraft-24w20a" = _YEdrXaza;
+        "minecraft-24w33a" = _YEdrXaza;
+        "minecraft-24w34a" = _YEdrXaza;
+        "minecraft-24w35a" = _YEdrXaza;
+        "minecraft-24w36a" = _YEdrXaza;
+        "minecraft-24w37a" = _YEdrXaza;
+        "minecraft-24w38a" = _YEdrXaza;
+        "minecraft-24w39a" = _YEdrXaza;
+        "minecraft-24w40a" = _YEdrXaza;
+        "minecraft-1.21.2-pre1" = _YEdrXaza;
+        "minecraft-1.21.2-pre2" = _YEdrXaza;
+        "minecraft-24w44a" = _YEdrXaza;
+        "minecraft-24w45a" = _YEdrXaza;
+        "minecraft-24w46a" = _YEdrXaza;
+        "minecraft-1.21.6" = _YEdrXaza;
+        "minecraft-1.21.7" = _YEdrXaza;
+        "minecraft-1.21.8" = _YEdrXaza;
+        "minecraft-1.21.9" = _YEdrXaza;
+        "minecraft-1.21.10" = _YEdrXaza;
+        "minecraft-1.21.11" = _YEdrXaza;
+        "minecraft-26.1" = _YEdrXaza;
+        "minecraft-26.1.1" = _YEdrXaza;
+        "minecraft-26.1.2" = _YEdrXaza;
+        "minecraft-26.2" = _YEdrXaza;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "simple-lower-grass-sides";
+            id = "yANRnOx8";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="YEdrXaza";}

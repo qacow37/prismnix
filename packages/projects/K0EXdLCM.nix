@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _GbOM46pJ = {
+            "id" = "GbOM46pJ";
+            "file" = "dawnera_delight-1.0.0.jar";
+            "hash" = "sha512-TDOrtQwnJ/S9kZb6nDjM2kULYeJcg5mOA6ooiLd+sGjUYGztNP2wTcrPXqIHCgJyr6lLdnVqEE4q5nqLSdnIaA==";
+        };
+    in {
+        "GbOM46pJ" = _GbOM46pJ;
+        "forge-1.20.1" = _GbOM46pJ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "the-dawn-era-delight";
+            id = "K0EXdLCM";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="GbOM46pJ";}

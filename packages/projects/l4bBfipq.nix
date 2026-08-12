@@ -1,0 +1,163 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _K1mhaeAj = {
+            "id" = "K1mhaeAj";
+            "file" = "ExtraRecipes-1.1.0.jar";
+            "hash" = "sha512-vwGtJ5u3MZH4/cvO4PjyxiLm0N3+5ZQLWTfYtQkxHlimhdL8Oj5sUjuB5+VqbUzEnf0O+n4Mq/1NNVJnDBdQ6A==";
+        };
+        _Vgumb1dQ = {
+            "id" = "Vgumb1dQ";
+            "file" = "ExtraRecipes.1.2.0.jar";
+            "hash" = "sha512-+fYxhPklmr/EHCI/JTNk8oZ2GN9aBLC+GQX+UhfIOsfmxXIdPx1MkaMCgLjTNNHKdkIEf/RG+FxgxDs+775QOA==";
+        };
+        _LeY8NA9b = {
+            "id" = "LeY8NA9b";
+            "file" = "ExtraRecipes.1.2.8.jar";
+            "hash" = "sha512-x9+z/mC6uQIXqwnHTgqJW6gUR3YoIO8m3/wyK3ht1KGIoAGKeSrQ5M4rUjAT5efmzln5BRgUH3DsElcDom2zmQ==";
+        };
+        _G7UAx48r = {
+            "id" = "G7UAx48r";
+            "file" = "ExtraRecipes.1.3.0.jar";
+            "hash" = "sha512-ehswFw5AxJYyszwyiFYyz6aO3gWzmjuGJLmv5BXmTS78LwpbuJpTN/TJZDiCiN5Hz4UbaZhlvRvvU/Zm9JE1qA==";
+        };
+        _9CCYFMwP = {
+            "id" = "9CCYFMwP";
+            "file" = "ExtraRecipes v1.3.6.jar";
+            "hash" = "sha512-NTkWGSQIdTeYgfNfPhYv2XqPV3KIJmBiL3BnFq/pEZ+okXGot5JrQ/vUAS33PPiEdy1CuzjejLrsfz20aa5FLg==";
+        };
+        _Bq1IJTVS = {
+            "id" = "Bq1IJTVS";
+            "file" = "ExtraRecipes v1.3.7.jar";
+            "hash" = "sha512-pLAq/leLAqL4EEydfUBdPfGewFVVPlp6uZeg6r6yYcje2h4weMJe5vUStNXY/9ri5krN8QmSh8ivAfbncFwpCg==";
+        };
+        _CX9v1sYz = {
+            "id" = "CX9v1sYz";
+            "file" = "ExtraRecipes v1.4.0.jar";
+            "hash" = "sha512-3Q9tlboTsMceDC7TejnAkOfUU0ZIZuJEYDD3GwoBse6Od56IBKrRi+JfxMeIa00kmhwYEeiRrv3ACBRfXjZ52w==";
+        };
+    in {
+        "K1mhaeAj" = _K1mhaeAj;
+        "Vgumb1dQ" = _Vgumb1dQ;
+        "LeY8NA9b" = _LeY8NA9b;
+        "G7UAx48r" = _G7UAx48r;
+        "9CCYFMwP" = _9CCYFMwP;
+        "Bq1IJTVS" = _Bq1IJTVS;
+        "CX9v1sYz" = _CX9v1sYz;
+        "bukkit-1.19" = _CX9v1sYz;
+        "bukkit-1.19.1" = _CX9v1sYz;
+        "bukkit-1.19.2" = _CX9v1sYz;
+        "bukkit-1.19.3" = _CX9v1sYz;
+        "bukkit-1.19.4" = _CX9v1sYz;
+        "bukkit-1.20" = _CX9v1sYz;
+        "bukkit-1.20.1" = _CX9v1sYz;
+        "bukkit-1.20.2" = _CX9v1sYz;
+        "bukkit-1.20.3" = _CX9v1sYz;
+        "bukkit-1.20.4" = _CX9v1sYz;
+        "bukkit-1.20.5" = _CX9v1sYz;
+        "bukkit-1.20.6" = _CX9v1sYz;
+        "bukkit-1.21" = _CX9v1sYz;
+        "bukkit-1.21.1" = _CX9v1sYz;
+        "bukkit-1.21.2" = _CX9v1sYz;
+        "bukkit-1.21.3" = _CX9v1sYz;
+        "bukkit-1.21.4" = _CX9v1sYz;
+        "bukkit-1.21.5" = _CX9v1sYz;
+        "bukkit-1.21.6" = _CX9v1sYz;
+        "bukkit-1.21.7" = _CX9v1sYz;
+        "bukkit-1.21.8" = _CX9v1sYz;
+        "bukkit-1.21.9" = _CX9v1sYz;
+        "bukkit-1.21.10" = _CX9v1sYz;
+        "bukkit-1.21.11" = _CX9v1sYz;
+        "paper-1.19" = _CX9v1sYz;
+        "paper-1.19.1" = _CX9v1sYz;
+        "paper-1.19.2" = _CX9v1sYz;
+        "paper-1.19.3" = _CX9v1sYz;
+        "paper-1.19.4" = _CX9v1sYz;
+        "paper-1.20" = _CX9v1sYz;
+        "paper-1.20.1" = _CX9v1sYz;
+        "paper-1.20.2" = _CX9v1sYz;
+        "paper-1.20.3" = _CX9v1sYz;
+        "paper-1.20.4" = _CX9v1sYz;
+        "paper-1.20.5" = _CX9v1sYz;
+        "paper-1.20.6" = _CX9v1sYz;
+        "paper-1.21" = _CX9v1sYz;
+        "paper-1.21.1" = _CX9v1sYz;
+        "paper-1.21.2" = _CX9v1sYz;
+        "paper-1.21.3" = _CX9v1sYz;
+        "paper-1.21.4" = _CX9v1sYz;
+        "paper-1.21.5" = _CX9v1sYz;
+        "paper-1.21.6" = _CX9v1sYz;
+        "paper-1.21.7" = _CX9v1sYz;
+        "paper-1.21.8" = _CX9v1sYz;
+        "paper-1.21.9" = _CX9v1sYz;
+        "paper-1.21.10" = _CX9v1sYz;
+        "paper-1.21.11" = _CX9v1sYz;
+        "purpur-1.19" = _CX9v1sYz;
+        "purpur-1.19.1" = _CX9v1sYz;
+        "purpur-1.19.2" = _CX9v1sYz;
+        "purpur-1.19.3" = _CX9v1sYz;
+        "purpur-1.19.4" = _CX9v1sYz;
+        "purpur-1.20" = _CX9v1sYz;
+        "purpur-1.20.1" = _CX9v1sYz;
+        "purpur-1.20.2" = _CX9v1sYz;
+        "purpur-1.20.3" = _CX9v1sYz;
+        "purpur-1.20.4" = _CX9v1sYz;
+        "purpur-1.20.5" = _CX9v1sYz;
+        "purpur-1.20.6" = _CX9v1sYz;
+        "purpur-1.21" = _CX9v1sYz;
+        "purpur-1.21.1" = _CX9v1sYz;
+        "purpur-1.21.2" = _CX9v1sYz;
+        "purpur-1.21.3" = _CX9v1sYz;
+        "purpur-1.21.4" = _CX9v1sYz;
+        "purpur-1.21.5" = _CX9v1sYz;
+        "purpur-1.21.6" = _CX9v1sYz;
+        "purpur-1.21.7" = _CX9v1sYz;
+        "purpur-1.21.8" = _CX9v1sYz;
+        "purpur-1.21.9" = _CX9v1sYz;
+        "purpur-1.21.10" = _CX9v1sYz;
+        "purpur-1.21.11" = _CX9v1sYz;
+        "spigot-1.19" = _CX9v1sYz;
+        "spigot-1.19.1" = _CX9v1sYz;
+        "spigot-1.19.2" = _CX9v1sYz;
+        "spigot-1.19.3" = _CX9v1sYz;
+        "spigot-1.19.4" = _CX9v1sYz;
+        "spigot-1.20" = _CX9v1sYz;
+        "spigot-1.20.1" = _CX9v1sYz;
+        "spigot-1.20.2" = _CX9v1sYz;
+        "spigot-1.20.3" = _CX9v1sYz;
+        "spigot-1.20.4" = _CX9v1sYz;
+        "spigot-1.20.5" = _CX9v1sYz;
+        "spigot-1.20.6" = _CX9v1sYz;
+        "spigot-1.21" = _CX9v1sYz;
+        "spigot-1.21.1" = _CX9v1sYz;
+        "spigot-1.21.2" = _CX9v1sYz;
+        "spigot-1.21.3" = _CX9v1sYz;
+        "spigot-1.21.4" = _CX9v1sYz;
+        "spigot-1.21.5" = _CX9v1sYz;
+        "spigot-1.21.6" = _CX9v1sYz;
+        "spigot-1.21.7" = _CX9v1sYz;
+        "spigot-1.21.8" = _CX9v1sYz;
+        "spigot-1.21.9" = _CX9v1sYz;
+        "spigot-1.21.10" = _CX9v1sYz;
+        "spigot-1.21.11" = _CX9v1sYz;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "extrarecipes";
+            id = "l4bBfipq";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="CX9v1sYz";}

@@ -1,0 +1,122 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _zrXXcsbX = {
+            "id" = "zrXXcsbX";
+            "file" = "2 Pixels fire.zip";
+            "hash" = "sha512-sVxVJ2yXJ5fd3n7NFURHCCopo7eBW+MOUZPPjomhcDT4RI7Wom32hAVOwQ5T0w+KeVsty5NPpZKqEvdS6puz7Q==";
+        };
+        _Pyy20EIk = {
+            "id" = "Pyy20EIk";
+            "file" = "2 Pixels fire 1.1.zip";
+            "hash" = "sha512-u+HS2JNY9aiayL1Tx8kOy1sollUCNJ9TVnPgqIZH6gmJDit20kGjSQTG+tosX3dDUMBsqmj6O3YiCQqwiiQh2A==";
+        };
+    in {
+        "zrXXcsbX" = _zrXXcsbX;
+        "Pyy20EIk" = _Pyy20EIk;
+        "minecraft-1.15" = _Pyy20EIk;
+        "minecraft-1.15.1" = _Pyy20EIk;
+        "minecraft-1.15.2" = _Pyy20EIk;
+        "minecraft-1.16" = _Pyy20EIk;
+        "minecraft-1.16.1" = _Pyy20EIk;
+        "minecraft-1.16.2" = _Pyy20EIk;
+        "minecraft-1.16.3" = _Pyy20EIk;
+        "minecraft-1.16.4" = _Pyy20EIk;
+        "minecraft-1.16.5" = _Pyy20EIk;
+        "minecraft-1.17" = _Pyy20EIk;
+        "minecraft-1.17.1" = _Pyy20EIk;
+        "minecraft-1.18" = _Pyy20EIk;
+        "minecraft-1.18.1" = _Pyy20EIk;
+        "minecraft-1.18.2" = _Pyy20EIk;
+        "minecraft-1.19" = _Pyy20EIk;
+        "minecraft-1.19.1" = _Pyy20EIk;
+        "minecraft-1.19.2" = _Pyy20EIk;
+        "minecraft-1.19.3" = _Pyy20EIk;
+        "minecraft-1.19.4" = _Pyy20EIk;
+        "minecraft-1.20" = _Pyy20EIk;
+        "minecraft-1.20.1" = _Pyy20EIk;
+        "minecraft-1.20.2" = _Pyy20EIk;
+        "minecraft-1.20.3" = _Pyy20EIk;
+        "minecraft-1.20.4" = _Pyy20EIk;
+        "minecraft-1.20.5" = _Pyy20EIk;
+        "minecraft-1.20.6" = _Pyy20EIk;
+        "minecraft-1.21" = _Pyy20EIk;
+        "minecraft-1.21.1" = _Pyy20EIk;
+        "minecraft-1.21.2" = _Pyy20EIk;
+        "minecraft-1.21.3" = _Pyy20EIk;
+        "minecraft-1.21.4" = _Pyy20EIk;
+        "minecraft-1.21.5" = _Pyy20EIk;
+        "minecraft-1.21.6" = _Pyy20EIk;
+        "minecraft-1.21.7" = _Pyy20EIk;
+        "minecraft-1.21.8" = _Pyy20EIk;
+        "minecraft-1.21.9" = _Pyy20EIk;
+        "minecraft-1.21.10" = _Pyy20EIk;
+        "minecraft-1.21.11" = _Pyy20EIk;
+        "minecraft-26.1-snapshot-1" = _Pyy20EIk;
+        "minecraft-23w31a" = _Pyy20EIk;
+        "minecraft-23w32a" = _Pyy20EIk;
+        "minecraft-23w33a" = _Pyy20EIk;
+        "minecraft-23w35a" = _Pyy20EIk;
+        "minecraft-1.20.2-pre1" = _Pyy20EIk;
+        "minecraft-23w42a" = _Pyy20EIk;
+        "minecraft-23w43a" = _Pyy20EIk;
+        "minecraft-23w43b" = _Pyy20EIk;
+        "minecraft-23w44a" = _Pyy20EIk;
+        "minecraft-23w45a" = _Pyy20EIk;
+        "minecraft-23w46a" = _Pyy20EIk;
+        "minecraft-24w03a" = _Pyy20EIk;
+        "minecraft-24w03b" = _Pyy20EIk;
+        "minecraft-24w04a" = _Pyy20EIk;
+        "minecraft-24w05a" = _Pyy20EIk;
+        "minecraft-24w05b" = _Pyy20EIk;
+        "minecraft-24w06a" = _Pyy20EIk;
+        "minecraft-24w07a" = _Pyy20EIk;
+        "minecraft-24w09a" = _Pyy20EIk;
+        "minecraft-24w10a" = _Pyy20EIk;
+        "minecraft-24w11a" = _Pyy20EIk;
+        "minecraft-24w12a" = _Pyy20EIk;
+        "minecraft-24w13a" = _Pyy20EIk;
+        "minecraft-24w14potato" = _Pyy20EIk;
+        "minecraft-24w14a" = _Pyy20EIk;
+        "minecraft-1.20.5-pre1" = _Pyy20EIk;
+        "minecraft-1.20.5-pre2" = _Pyy20EIk;
+        "minecraft-1.20.5-pre3" = _Pyy20EIk;
+        "minecraft-24w18a" = _Pyy20EIk;
+        "minecraft-24w19a" = _Pyy20EIk;
+        "minecraft-24w19b" = _Pyy20EIk;
+        "minecraft-24w20a" = _Pyy20EIk;
+        "minecraft-24w33a" = _Pyy20EIk;
+        "minecraft-24w34a" = _Pyy20EIk;
+        "minecraft-24w35a" = _Pyy20EIk;
+        "minecraft-24w36a" = _Pyy20EIk;
+        "minecraft-24w37a" = _Pyy20EIk;
+        "minecraft-24w38a" = _Pyy20EIk;
+        "minecraft-24w39a" = _Pyy20EIk;
+        "minecraft-24w40a" = _Pyy20EIk;
+        "minecraft-1.21.2-pre1" = _Pyy20EIk;
+        "minecraft-1.21.2-pre2" = _Pyy20EIk;
+        "minecraft-24w44a" = _Pyy20EIk;
+        "minecraft-24w45a" = _Pyy20EIk;
+        "minecraft-24w46a" = _Pyy20EIk;
+        "minecraft-26.1-snapshot-2" = _Pyy20EIk;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "2-pixels-fire";
+            id = "pu8Z8upV";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Pyy20EIk";}

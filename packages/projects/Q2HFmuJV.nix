@@ -1,0 +1,241 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _CCRTzX6C = {
+            "id" = "CCRTzX6C";
+            "file" = "Nyctophobia Datapack.zip";
+            "hash" = "sha512-4iGXcUibKtEqA9ftqgwQQgKmN41viFAseXyubRyF1C109A8dbZMTSG6IdobRF8z4rFu3ZpEmIiz6DTpfnJgQhQ==";
+        };
+        _dftp26EW = {
+            "id" = "dftp26EW";
+            "file" = "nyctophobia-dread-1.jar";
+            "hash" = "sha512-PiDFdkxjVSp/rXqNsUwIqRm2cYlA6na3+tnxIsffcHiqtOq38j9bxM/WhQOeiq3au8fI95vSfnmm+hj+J2TjbA==";
+        };
+        _GF44culv = {
+            "id" = "GF44culv";
+            "file" = "Nyctophobia Datapack.zip";
+            "hash" = "sha512-/MLDD0CjJ1qnKeDvHm+7wnOUJydoOQkblinbrXjIcqTZ+V3G82bNmywfN0p++mgoaILLq0ICMDW+kDUhTff7ag==";
+        };
+        _mIUCzrNm = {
+            "id" = "mIUCzrNm";
+            "file" = "Nyctophobia Datapack.zip";
+            "hash" = "sha512-/MLDD0CjJ1qnKeDvHm+7wnOUJydoOQkblinbrXjIcqTZ+V3G82bNmywfN0p++mgoaILLq0ICMDW+kDUhTff7ag==";
+        };
+        _rKKx9eK4 = {
+            "id" = "rKKx9eK4";
+            "file" = "nyctophobia-dread-1.jar";
+            "hash" = "sha512-KmCRBmHpXgmI1hHMtJ55eOUQelfT9nISFyHbpi34iahky5kRkDsra5TwCtCG21qHSrNXbs1n1r6pr9CRBhbd7w==";
+        };
+        _iSCueP2p = {
+            "id" = "iSCueP2p";
+            "file" = "nyctophobia-dread-1.jar";
+            "hash" = "sha512-eKp3siBOvGG3CpfslzRkOU8jnmuGMyKbs/M82LOTb6wBCl4uRh3YM2I6f+ybaNEGumBVgdJECDIfj6pQpxYZtg==";
+        };
+        _ldrLZn5X = {
+            "id" = "ldrLZn5X";
+            "file" = "Nyctophobia Datapack.zip";
+            "hash" = "sha512-aKNo5ifjWos6rvTmwqsLAingW6noGCCQh5zLqTqeKsKHYC4pi4/Oem8oYxhph7ho4Rcij2lckY5iVYgVUZ9z0g==";
+        };
+        _DfuMFyA8 = {
+            "id" = "DfuMFyA8";
+            "file" = "nyctophobia-dread-2.jar";
+            "hash" = "sha512-JWEGJ4TYM+yCcHtVYF4Dx0P9LIcD2Uf1npI2+iUPF2LefvdqhtzRxjtlPuslJAoIoR9Ik9drfrdR/z7365cQsg==";
+        };
+        _XBvP25i7 = {
+            "id" = "XBvP25i7";
+            "file" = "Nyctophobia Datapack.zip";
+            "hash" = "sha512-TWwI3y4wPRb0paXfpOAxOaJYzVPMBCZSoRzAxHsVY1xqsLfA2BCVh3Hi0hqzCz5wx9uRZdInXPQTw+ayNJdY+Q==";
+        };
+        _5Ppmiubu = {
+            "id" = "5Ppmiubu";
+            "file" = "nyctophobia-dread-3.jar";
+            "hash" = "sha512-uQC8rBU+qpzDiN/S2TpDwMknGkwHGOTIaVOuetV2wCk6psEjeDDBAHKN/dOV5EjylBpksVhznCacEfEAah6UZw==";
+        };
+        _Dy4l0lkH = {
+            "id" = "Dy4l0lkH";
+            "file" = "Nyctophobia Datapack.zip";
+            "hash" = "sha512-Ie7CWdI1pXfpPRYYYFGGT7JIG2BBrsNVAKMgLNhmhNne95NnYpHXo96+M43+68U+iH4eaR3iKqei5QLQQ7QYXw==";
+        };
+        _bgYVD4rY = {
+            "id" = "bgYVD4rY";
+            "file" = "nyctophobia-dread-4.jar";
+            "hash" = "sha512-7welx7LYZOIpJKGd+88eEsZ7jJca6Y2RqikzbGFVY6TGwTwb9sb6dDwPUGJX4IrSc7fw91Epok+i6+I7K6EVaQ==";
+        };
+        _xe548JsZ = {
+            "id" = "xe548JsZ";
+            "file" = "Nyctophobia Datapack V1.5.zip";
+            "hash" = "sha512-/Pu3b4FC2nX9Uabk59TXeeJ5yLZ9w/rZxd0PoYDatOyNdMkGMxDGw29XHM7LK0Og6HIQOsZQHO0APctdliclBw==";
+        };
+        _FI57z8qS = {
+            "id" = "FI57z8qS";
+            "file" = "nyctophobia-dread-5.jar";
+            "hash" = "sha512-OHtdVWn9FnnAOTHESuWUZ8mezJ2PMT7yooYx2bvgSuwVpApKM790juMXwxUYYm6xyd42HmsCdASJxFKGxBrEWw==";
+        };
+    in {
+        "CCRTzX6C" = _CCRTzX6C;
+        "dftp26EW" = _dftp26EW;
+        "GF44culv" = _GF44culv;
+        "mIUCzrNm" = _mIUCzrNm;
+        "rKKx9eK4" = _rKKx9eK4;
+        "iSCueP2p" = _iSCueP2p;
+        "ldrLZn5X" = _ldrLZn5X;
+        "DfuMFyA8" = _DfuMFyA8;
+        "XBvP25i7" = _XBvP25i7;
+        "5Ppmiubu" = _5Ppmiubu;
+        "Dy4l0lkH" = _Dy4l0lkH;
+        "bgYVD4rY" = _bgYVD4rY;
+        "xe548JsZ" = _xe548JsZ;
+        "FI57z8qS" = _FI57z8qS;
+        "datapack-1.13" = _mIUCzrNm;
+        "datapack-1.13.1" = _mIUCzrNm;
+        "datapack-1.13.2" = _mIUCzrNm;
+        "datapack-1.14" = _mIUCzrNm;
+        "datapack-1.14.1" = _ldrLZn5X;
+        "datapack-1.14.2" = _ldrLZn5X;
+        "datapack-1.14.3" = _ldrLZn5X;
+        "datapack-1.14.4" = _ldrLZn5X;
+        "datapack-1.15" = _ldrLZn5X;
+        "datapack-1.15.1" = _ldrLZn5X;
+        "datapack-1.15.2" = _ldrLZn5X;
+        "datapack-1.16" = _XBvP25i7;
+        "datapack-1.16.1" = _XBvP25i7;
+        "datapack-1.16.2" = _XBvP25i7;
+        "datapack-1.16.3" = _XBvP25i7;
+        "datapack-1.16.4" = _XBvP25i7;
+        "datapack-1.16.5" = _XBvP25i7;
+        "datapack-1.17" = _XBvP25i7;
+        "datapack-1.17.1" = _XBvP25i7;
+        "datapack-1.18" = _XBvP25i7;
+        "datapack-1.18.1" = _XBvP25i7;
+        "datapack-1.18.2" = _XBvP25i7;
+        "datapack-1.19" = _XBvP25i7;
+        "datapack-1.19.1" = _XBvP25i7;
+        "datapack-1.19.2" = _XBvP25i7;
+        "datapack-1.19.3" = _XBvP25i7;
+        "datapack-1.19.4" = _XBvP25i7;
+        "datapack-1.20" = _XBvP25i7;
+        "datapack-1.20.1" = _XBvP25i7;
+        "datapack-1.20.2" = _XBvP25i7;
+        "datapack-1.20.3" = _Dy4l0lkH;
+        "datapack-1.20.4" = _Dy4l0lkH;
+        "datapack-1.21" = _xe548JsZ;
+        "forge-1.13" = _iSCueP2p;
+        "forge-1.13.1" = _iSCueP2p;
+        "forge-1.13.2" = _iSCueP2p;
+        "forge-1.14" = _iSCueP2p;
+        "forge-1.14.1" = _DfuMFyA8;
+        "forge-1.14.2" = _DfuMFyA8;
+        "forge-1.14.3" = _DfuMFyA8;
+        "forge-1.14.4" = _DfuMFyA8;
+        "forge-1.15" = _DfuMFyA8;
+        "forge-1.15.1" = _DfuMFyA8;
+        "forge-1.15.2" = _DfuMFyA8;
+        "forge-1.16" = _5Ppmiubu;
+        "forge-1.16.1" = _5Ppmiubu;
+        "forge-1.16.2" = _5Ppmiubu;
+        "forge-1.16.3" = _5Ppmiubu;
+        "forge-1.16.4" = _5Ppmiubu;
+        "forge-1.16.5" = _5Ppmiubu;
+        "forge-1.17" = _5Ppmiubu;
+        "forge-1.17.1" = _5Ppmiubu;
+        "forge-1.18" = _5Ppmiubu;
+        "forge-1.18.1" = _5Ppmiubu;
+        "forge-1.18.2" = _5Ppmiubu;
+        "forge-1.19" = _5Ppmiubu;
+        "forge-1.19.1" = _5Ppmiubu;
+        "forge-1.19.2" = _5Ppmiubu;
+        "forge-1.19.3" = _5Ppmiubu;
+        "forge-1.19.4" = _5Ppmiubu;
+        "forge-1.20" = _5Ppmiubu;
+        "forge-1.20.1" = _5Ppmiubu;
+        "forge-1.20.2" = _5Ppmiubu;
+        "forge-1.20.3" = _bgYVD4rY;
+        "forge-1.20.4" = _bgYVD4rY;
+        "forge-1.21" = _FI57z8qS;
+        "fabric-1.13" = _iSCueP2p;
+        "fabric-1.13.1" = _iSCueP2p;
+        "fabric-1.13.2" = _iSCueP2p;
+        "fabric-1.14" = _iSCueP2p;
+        "fabric-1.14.1" = _DfuMFyA8;
+        "fabric-1.14.2" = _DfuMFyA8;
+        "fabric-1.14.3" = _DfuMFyA8;
+        "fabric-1.14.4" = _DfuMFyA8;
+        "fabric-1.15" = _DfuMFyA8;
+        "fabric-1.15.1" = _DfuMFyA8;
+        "fabric-1.15.2" = _DfuMFyA8;
+        "fabric-1.16" = _5Ppmiubu;
+        "fabric-1.16.1" = _5Ppmiubu;
+        "fabric-1.16.2" = _5Ppmiubu;
+        "fabric-1.16.3" = _5Ppmiubu;
+        "fabric-1.16.4" = _5Ppmiubu;
+        "fabric-1.16.5" = _5Ppmiubu;
+        "fabric-1.17" = _5Ppmiubu;
+        "fabric-1.17.1" = _5Ppmiubu;
+        "fabric-1.18" = _5Ppmiubu;
+        "fabric-1.18.1" = _5Ppmiubu;
+        "fabric-1.18.2" = _5Ppmiubu;
+        "fabric-1.19" = _5Ppmiubu;
+        "fabric-1.19.1" = _5Ppmiubu;
+        "fabric-1.19.2" = _5Ppmiubu;
+        "fabric-1.19.3" = _5Ppmiubu;
+        "fabric-1.19.4" = _5Ppmiubu;
+        "fabric-1.20" = _5Ppmiubu;
+        "fabric-1.20.1" = _5Ppmiubu;
+        "fabric-1.20.2" = _5Ppmiubu;
+        "fabric-1.20.3" = _bgYVD4rY;
+        "fabric-1.20.4" = _bgYVD4rY;
+        "fabric-1.21" = _FI57z8qS;
+        "quilt-1.13" = _iSCueP2p;
+        "quilt-1.13.1" = _iSCueP2p;
+        "quilt-1.13.2" = _iSCueP2p;
+        "quilt-1.14" = _iSCueP2p;
+        "quilt-1.14.1" = _DfuMFyA8;
+        "quilt-1.14.2" = _DfuMFyA8;
+        "quilt-1.14.3" = _DfuMFyA8;
+        "quilt-1.14.4" = _DfuMFyA8;
+        "quilt-1.15" = _DfuMFyA8;
+        "quilt-1.15.1" = _DfuMFyA8;
+        "quilt-1.15.2" = _DfuMFyA8;
+        "quilt-1.16" = _5Ppmiubu;
+        "quilt-1.16.1" = _5Ppmiubu;
+        "quilt-1.16.2" = _5Ppmiubu;
+        "quilt-1.16.3" = _5Ppmiubu;
+        "quilt-1.16.4" = _5Ppmiubu;
+        "quilt-1.16.5" = _5Ppmiubu;
+        "quilt-1.17" = _5Ppmiubu;
+        "quilt-1.17.1" = _5Ppmiubu;
+        "quilt-1.18" = _5Ppmiubu;
+        "quilt-1.18.1" = _5Ppmiubu;
+        "quilt-1.18.2" = _5Ppmiubu;
+        "quilt-1.19" = _5Ppmiubu;
+        "quilt-1.19.1" = _5Ppmiubu;
+        "quilt-1.19.2" = _5Ppmiubu;
+        "quilt-1.19.3" = _5Ppmiubu;
+        "quilt-1.19.4" = _5Ppmiubu;
+        "quilt-1.20" = _5Ppmiubu;
+        "quilt-1.20.1" = _5Ppmiubu;
+        "quilt-1.20.2" = _5Ppmiubu;
+        "quilt-1.20.3" = _bgYVD4rY;
+        "quilt-1.20.4" = _bgYVD4rY;
+        "quilt-1.21" = _FI57z8qS;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "nyctophobia-dread";
+            id = "Q2HFmuJV";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="FI57z8qS";}

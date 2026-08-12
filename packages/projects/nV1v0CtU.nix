@@ -1,0 +1,224 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _nWFQkEh2 = {
+            "id" = "nWFQkEh2";
+            "file" = "6 Trapdoors - 1.2.2.zip";
+            "hash" = "sha512-1wbfZ5fb7B6S1Xz55npMBeUThQAUZZNkDMbyH9GUNle2ucUNLag8s+ScWJ0gRJX9RrVt/Yjh6v/+ZU9Z9I4+bw==";
+        };
+        _bPHc4Efb = {
+            "id" = "bPHc4Efb";
+            "file" = "Six Trapdoors - 1.2.3.zip";
+            "hash" = "sha512-ljdsPDF7BNPPvClHqxxcV10sMSHpUxurELU1aG8DmyVaf2a3dVK158VaEc6Qjq8sE7dJsf/mXjuGuFLga0wCkQ==";
+        };
+        _EyDW7BUR = {
+            "id" = "EyDW7BUR";
+            "file" = "six-trapdoors-1.2.3.jar";
+            "hash" = "sha512-oef6dx4DJagHEjO73a3jNOShcGd07v2oMG1XLJJiimlQRVpd77qEtFDFewcCCxAflMx5tplmFAyJEmlhJcnFuA==";
+        };
+        _SWjsc83M = {
+            "id" = "SWjsc83M";
+            "file" = "Six Trapdoors - 1.3.zip";
+            "hash" = "sha512-K/68lzcIvDyv/3DnGUUlIfOPFZlilAevmISCYNHBqTfwzT42tqSgt5Hb3Ul/zGP0+xK8RqXzfwBe1AXeyDWzQw==";
+        };
+        _CAP3VoRl = {
+            "id" = "CAP3VoRl";
+            "file" = "six-trapdoors-1.3.jar";
+            "hash" = "sha512-X7t8K5Gf/9ibyDsoR0u3wwfSbZvgmvWrUFX1EVwdFpFKN/Utg6uouqmMVBjaBg9ofI1tpW7fpyYudpiKzA3kqg==";
+        };
+        _kuFwZXvj = {
+            "id" = "kuFwZXvj";
+            "file" = "Six Trapdoors - 1.4.zip";
+            "hash" = "sha512-IYpbyW6gcJtiU184DAlx0B5q+GqHWisPSSY5eJHKY+ny56KU4WfaOXDgK8qr1aGFzB+gpYUnqqPehNQ27ZOXvw==";
+        };
+        _VpjiSFqD = {
+            "id" = "VpjiSFqD";
+            "file" = "six-trapdoors-1.4.jar";
+            "hash" = "sha512-4kpkmaMRj/hFpaDrP6EfT5x8mjpGuVGHyC6ifRFbR65uBabZsKQx4JO6YWCEUqTisp9Zl1/nFsT+607S/3quaQ==";
+        };
+        _NDVsCexf = {
+            "id" = "NDVsCexf";
+            "file" = "six-trapdoors-1.4.jar";
+            "hash" = "sha512-kRnks6rf8F8TnlEYjLSfbRY6a2pIbFqibLVJQDJ+dw4irSCPTzzoIMFQJvH0+S4fDulm/1bwlEKBADpn7W3UHw==";
+        };
+        _nx3DySPI = {
+            "id" = "nx3DySPI";
+            "file" = "Six Trapdoors - 1.5.zip";
+            "hash" = "sha512-yMu25rXCFEtrIU+j26kT99dtOQOjtmo3uDMIpME7CtYM5X3MVeQCK+qv7sVPT1Bf/HCqFEWmktIuMrY3GOjXqw==";
+        };
+        _ouw0XhPV = {
+            "id" = "ouw0XhPV";
+            "file" = "increased-trapdoors-recipe-output-1.5.jar";
+            "hash" = "sha512-+m3cPemKsFpqrkUmCn4AIkBOAgOOQfdZtlMKBaePL6a90kxIYh3qZq0itmxEvnysP5qCiYe5wQ7H54dRgHZDMQ==";
+        };
+        _C1ZVjuIk = {
+            "id" = "C1ZVjuIk";
+            "file" = "Six Trapdoors - 1.5.1.zip";
+            "hash" = "sha512-gWDp5BDdTOfaxVbZci2kx8hN0WIuipoA46I9r4tNBAYM1aharTQbUuPY182mw+ULRI/j13yo5mMKChTjiyv3eQ==";
+        };
+        _RV1l0aGJ = {
+            "id" = "RV1l0aGJ";
+            "file" = "increased-trapdoors-recipe-output-1.5.1.jar";
+            "hash" = "sha512-YPIsIhD/RCAI80jl/tqFf6CCDOVLnCwSbsGHBHOFX44qWddj5BfDDGiXbwN8p5DRvlkfenuZOA8jGtJIuo50RQ==";
+        };
+    in {
+        "nWFQkEh2" = _nWFQkEh2;
+        "bPHc4Efb" = _bPHc4Efb;
+        "EyDW7BUR" = _EyDW7BUR;
+        "SWjsc83M" = _SWjsc83M;
+        "CAP3VoRl" = _CAP3VoRl;
+        "kuFwZXvj" = _kuFwZXvj;
+        "VpjiSFqD" = _VpjiSFqD;
+        "NDVsCexf" = _NDVsCexf;
+        "nx3DySPI" = _nx3DySPI;
+        "ouw0XhPV" = _ouw0XhPV;
+        "C1ZVjuIk" = _C1ZVjuIk;
+        "RV1l0aGJ" = _RV1l0aGJ;
+        "datapack-1.14" = _nWFQkEh2;
+        "datapack-1.14.1" = _nWFQkEh2;
+        "datapack-1.14.2" = _nWFQkEh2;
+        "datapack-1.14.3" = _nWFQkEh2;
+        "datapack-1.14.4" = _nWFQkEh2;
+        "datapack-1.15" = _nWFQkEh2;
+        "datapack-1.15.1" = _nWFQkEh2;
+        "datapack-1.15.2" = _nWFQkEh2;
+        "datapack-1.16" = _nWFQkEh2;
+        "datapack-1.16.1" = _nWFQkEh2;
+        "datapack-1.16.2" = _nWFQkEh2;
+        "datapack-1.16.3" = _nWFQkEh2;
+        "datapack-1.16.4" = _nWFQkEh2;
+        "datapack-1.16.5" = _nWFQkEh2;
+        "datapack-1.17" = _nWFQkEh2;
+        "datapack-1.17.1" = _nWFQkEh2;
+        "datapack-1.18" = _nWFQkEh2;
+        "datapack-1.18.1" = _nWFQkEh2;
+        "datapack-1.18.2" = _nWFQkEh2;
+        "datapack-1.19" = _nWFQkEh2;
+        "datapack-1.19.1" = _nWFQkEh2;
+        "datapack-1.19.2" = _bPHc4Efb;
+        "datapack-1.19.3" = _bPHc4Efb;
+        "datapack-1.19.4" = _bPHc4Efb;
+        "datapack-1.20" = _bPHc4Efb;
+        "datapack-1.20.1" = _bPHc4Efb;
+        "datapack-1.20.2" = _bPHc4Efb;
+        "datapack-1.20.3" = _bPHc4Efb;
+        "datapack-1.20.4" = _bPHc4Efb;
+        "datapack-1.20.5" = _SWjsc83M;
+        "datapack-1.20.6" = _SWjsc83M;
+        "datapack-1.21" = _kuFwZXvj;
+        "datapack-1.21.1" = _kuFwZXvj;
+        "datapack-1.21.2" = _nx3DySPI;
+        "datapack-1.21.3" = _nx3DySPI;
+        "datapack-1.21.4" = _nx3DySPI;
+        "datapack-1.21.5" = _nx3DySPI;
+        "datapack-1.21.6" = _nx3DySPI;
+        "datapack-1.21.7" = _nx3DySPI;
+        "datapack-1.21.8" = _nx3DySPI;
+        "datapack-1.21.9" = _C1ZVjuIk;
+        "datapack-1.21.10" = _C1ZVjuIk;
+        "datapack-1.21.11" = _C1ZVjuIk;
+        "datapack-26.1" = _C1ZVjuIk;
+        "datapack-26.1.1" = _C1ZVjuIk;
+        "datapack-26.1.2" = _C1ZVjuIk;
+        "datapack-26.2" = _C1ZVjuIk;
+        "fabric-1.19.2" = _EyDW7BUR;
+        "fabric-1.19.3" = _EyDW7BUR;
+        "fabric-1.19.4" = _EyDW7BUR;
+        "fabric-1.20" = _EyDW7BUR;
+        "fabric-1.20.1" = _EyDW7BUR;
+        "fabric-1.20.2" = _EyDW7BUR;
+        "fabric-1.20.3" = _EyDW7BUR;
+        "fabric-1.20.4" = _EyDW7BUR;
+        "fabric-1.20.5" = _CAP3VoRl;
+        "fabric-1.20.6" = _CAP3VoRl;
+        "fabric-1.21" = _VpjiSFqD;
+        "fabric-1.21.1" = _VpjiSFqD;
+        "fabric-1.21.2" = _ouw0XhPV;
+        "fabric-1.21.3" = _ouw0XhPV;
+        "fabric-1.21.4" = _ouw0XhPV;
+        "fabric-1.21.5" = _ouw0XhPV;
+        "fabric-1.21.6" = _ouw0XhPV;
+        "fabric-1.21.7" = _ouw0XhPV;
+        "fabric-1.21.8" = _ouw0XhPV;
+        "fabric-1.21.9" = _RV1l0aGJ;
+        "fabric-1.21.10" = _RV1l0aGJ;
+        "fabric-1.21.11" = _RV1l0aGJ;
+        "fabric-26.1" = _RV1l0aGJ;
+        "fabric-26.1.1" = _RV1l0aGJ;
+        "fabric-26.1.2" = _RV1l0aGJ;
+        "fabric-26.2" = _RV1l0aGJ;
+        "forge-1.19.2" = _EyDW7BUR;
+        "forge-1.19.3" = _EyDW7BUR;
+        "forge-1.19.4" = _EyDW7BUR;
+        "forge-1.20" = _EyDW7BUR;
+        "forge-1.20.1" = _EyDW7BUR;
+        "forge-1.20.2" = _EyDW7BUR;
+        "forge-1.20.3" = _EyDW7BUR;
+        "forge-1.20.4" = _EyDW7BUR;
+        "forge-1.20.5" = _CAP3VoRl;
+        "forge-1.20.6" = _CAP3VoRl;
+        "forge-1.21" = _VpjiSFqD;
+        "forge-1.21.1" = _VpjiSFqD;
+        "quilt-1.19.2" = _EyDW7BUR;
+        "quilt-1.19.3" = _EyDW7BUR;
+        "quilt-1.19.4" = _EyDW7BUR;
+        "quilt-1.20" = _EyDW7BUR;
+        "quilt-1.20.1" = _EyDW7BUR;
+        "quilt-1.20.2" = _EyDW7BUR;
+        "quilt-1.20.3" = _EyDW7BUR;
+        "quilt-1.20.4" = _EyDW7BUR;
+        "quilt-1.20.5" = _CAP3VoRl;
+        "quilt-1.20.6" = _CAP3VoRl;
+        "quilt-1.21" = _VpjiSFqD;
+        "quilt-1.21.1" = _VpjiSFqD;
+        "quilt-1.21.2" = _ouw0XhPV;
+        "quilt-1.21.3" = _ouw0XhPV;
+        "quilt-1.21.4" = _ouw0XhPV;
+        "quilt-1.21.5" = _ouw0XhPV;
+        "quilt-1.21.6" = _ouw0XhPV;
+        "quilt-1.21.7" = _ouw0XhPV;
+        "quilt-1.21.8" = _ouw0XhPV;
+        "quilt-1.21.9" = _RV1l0aGJ;
+        "quilt-1.21.10" = _RV1l0aGJ;
+        "quilt-1.21.11" = _RV1l0aGJ;
+        "quilt-26.1" = _RV1l0aGJ;
+        "quilt-26.1.1" = _RV1l0aGJ;
+        "quilt-26.1.2" = _RV1l0aGJ;
+        "quilt-26.2" = _RV1l0aGJ;
+        "neoforge-1.21" = _NDVsCexf;
+        "neoforge-1.21.1" = _NDVsCexf;
+        "neoforge-1.21.2" = _ouw0XhPV;
+        "neoforge-1.21.3" = _ouw0XhPV;
+        "neoforge-1.21.4" = _ouw0XhPV;
+        "neoforge-1.21.5" = _ouw0XhPV;
+        "neoforge-1.21.6" = _ouw0XhPV;
+        "neoforge-1.21.7" = _ouw0XhPV;
+        "neoforge-1.21.8" = _ouw0XhPV;
+        "neoforge-1.21.9" = _RV1l0aGJ;
+        "neoforge-1.21.10" = _RV1l0aGJ;
+        "neoforge-1.21.11" = _RV1l0aGJ;
+        "neoforge-26.1" = _RV1l0aGJ;
+        "neoforge-26.1.1" = _RV1l0aGJ;
+        "neoforge-26.1.2" = _RV1l0aGJ;
+        "neoforge-26.2" = _RV1l0aGJ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "increased-trapdoors-recipe-output";
+            id = "nV1v0CtU";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="RV1l0aGJ";}

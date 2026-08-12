@@ -1,0 +1,76 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ELQ0JQdB = {
+            "id" = "ELQ0JQdB";
+            "file" = "pink trident.zip";
+            "hash" = "sha512-zIYczNQLydmSX0BycQV0RAZZNKUjHeeFWYfLozMSgku2rSylarILI+83j2JU5GxghGzdaJNHYwrgTsoXm4+PTQ==";
+        };
+    in {
+        "ELQ0JQdB" = _ELQ0JQdB;
+        "minecraft-1.13" = _ELQ0JQdB;
+        "minecraft-1.13.1" = _ELQ0JQdB;
+        "minecraft-1.13.2" = _ELQ0JQdB;
+        "minecraft-1.14" = _ELQ0JQdB;
+        "minecraft-1.14.1" = _ELQ0JQdB;
+        "minecraft-1.14.2" = _ELQ0JQdB;
+        "minecraft-1.14.3" = _ELQ0JQdB;
+        "minecraft-1.14.4" = _ELQ0JQdB;
+        "minecraft-1.15" = _ELQ0JQdB;
+        "minecraft-1.15.1" = _ELQ0JQdB;
+        "minecraft-1.15.2" = _ELQ0JQdB;
+        "minecraft-1.16" = _ELQ0JQdB;
+        "minecraft-1.16.1" = _ELQ0JQdB;
+        "minecraft-1.16.2" = _ELQ0JQdB;
+        "minecraft-1.16.3" = _ELQ0JQdB;
+        "minecraft-1.16.4" = _ELQ0JQdB;
+        "minecraft-1.16.5" = _ELQ0JQdB;
+        "minecraft-1.17" = _ELQ0JQdB;
+        "minecraft-1.17.1" = _ELQ0JQdB;
+        "minecraft-1.18" = _ELQ0JQdB;
+        "minecraft-1.18.1" = _ELQ0JQdB;
+        "minecraft-1.18.2" = _ELQ0JQdB;
+        "minecraft-1.19" = _ELQ0JQdB;
+        "minecraft-1.19.1" = _ELQ0JQdB;
+        "minecraft-1.19.2" = _ELQ0JQdB;
+        "minecraft-1.19.3" = _ELQ0JQdB;
+        "minecraft-1.19.4" = _ELQ0JQdB;
+        "minecraft-1.20" = _ELQ0JQdB;
+        "minecraft-1.20.1" = _ELQ0JQdB;
+        "minecraft-1.20.2" = _ELQ0JQdB;
+        "minecraft-1.20.3" = _ELQ0JQdB;
+        "minecraft-1.20.4" = _ELQ0JQdB;
+        "minecraft-1.20.5" = _ELQ0JQdB;
+        "minecraft-1.20.6" = _ELQ0JQdB;
+        "minecraft-1.21" = _ELQ0JQdB;
+        "minecraft-1.21.1" = _ELQ0JQdB;
+        "minecraft-1.21.2" = _ELQ0JQdB;
+        "minecraft-1.21.3" = _ELQ0JQdB;
+        "minecraft-1.21.4" = _ELQ0JQdB;
+        "minecraft-1.21.5" = _ELQ0JQdB;
+        "minecraft-1.21.6" = _ELQ0JQdB;
+        "minecraft-1.21.7" = _ELQ0JQdB;
+        "minecraft-1.21.8" = _ELQ0JQdB;
+        "minecraft-1.21.9" = _ELQ0JQdB;
+        "minecraft-1.21.10" = _ELQ0JQdB;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "pink-trident";
+            id = "srRS9Vtq";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="ELQ0JQdB";}

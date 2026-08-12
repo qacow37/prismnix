@@ -1,0 +1,164 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _qWZ5zMDp = {
+            "id" = "qWZ5zMDp";
+            "file" = "Soul Link v1.3.zip";
+            "hash" = "sha512-QGfnRVfuaWIthjwP8fbeHK1mPGYCaQpnc2TYuAu254Vyf6KNW92ark1i/73AKIIcSCgJTNO7iPnp5x3HLaelyQ==";
+        };
+        _9fj2l3so = {
+            "id" = "9fj2l3so";
+            "file" = "Soul Link v1.4.zip";
+            "hash" = "sha512-oAg6EZnWcjqqlKh8I+JUYG+M2PZKXjmO1s2wqEBxN2GyrYzIsRxzaYzBeDT6TCzBt46cLj1oSLkc4r2GFFZlbg==";
+        };
+        _TcG1ttSj = {
+            "id" = "TcG1ttSj";
+            "file" = "Soul Link v1.5 (1.20+).zip";
+            "hash" = "sha512-xHpYaY1/tmPpEt4Eb8wxLulTCiSQ5nysL6EDj375Z4oaKF1mh9aZdiNelwVCNAGaE6EmtM9kfKMpOKRWS/vD4Q==";
+        };
+        _UuUDsbvf = {
+            "id" = "UuUDsbvf";
+            "file" = "soul-link-1.5.jar";
+            "hash" = "sha512-XJVOUGpPKyvVmZUIm43PtgUGxQF/23IH7POJI3I/0ZLJjE7e+8I7oPy1to7QM47ytRFPlHY6jj4FJ8gvXMWPdg==";
+        };
+        _B5rxDrPd = {
+            "id" = "B5rxDrPd";
+            "file" = "Soul Link 1.6.zip";
+            "hash" = "sha512-UEs7p7GSScaFnNIVrCfroG89K1r36RyBW1g7pvEWmReHGBhiBShtnRYuKZ7gC+zsmi69KIY8CXmTXYJGqTqzPQ==";
+        };
+        _zWjGONlk = {
+            "id" = "zWjGONlk";
+            "file" = "Soul Link 1.6.jar";
+            "hash" = "sha512-axaRVDXk91KDMRB3/iBFfx3kXNDZbvatejgjh6/Frcyw/wSju8MJOy01nyQzpph4B9Xuby3BUFNK63gy3RfPcg==";
+        };
+        _vJ5Fpfi7 = {
+            "id" = "vJ5Fpfi7";
+            "file" = "Soul Link.zip";
+            "hash" = "sha512-ryQY73UHLoHiYLyMW6cHe2Tcew2i/vq7xI99N3ci/Jkd6ZIxntIcyhF4rTo9zqyqje2HU4dEGL5u9/Wi7CxypA==";
+        };
+    in {
+        "qWZ5zMDp" = _qWZ5zMDp;
+        "9fj2l3so" = _9fj2l3so;
+        "TcG1ttSj" = _TcG1ttSj;
+        "UuUDsbvf" = _UuUDsbvf;
+        "B5rxDrPd" = _B5rxDrPd;
+        "zWjGONlk" = _zWjGONlk;
+        "vJ5Fpfi7" = _vJ5Fpfi7;
+        "datapack-1.19" = _qWZ5zMDp;
+        "datapack-1.19.1" = _qWZ5zMDp;
+        "datapack-1.19.2" = _qWZ5zMDp;
+        "datapack-1.19.3" = _qWZ5zMDp;
+        "datapack-1.19.4" = _qWZ5zMDp;
+        "datapack-1.20" = _vJ5Fpfi7;
+        "datapack-1.20.1" = _vJ5Fpfi7;
+        "datapack-1.21" = _vJ5Fpfi7;
+        "datapack-1.21.1" = _vJ5Fpfi7;
+        "datapack-1.21.2" = _vJ5Fpfi7;
+        "datapack-1.21.3" = _vJ5Fpfi7;
+        "datapack-1.21.4" = _vJ5Fpfi7;
+        "datapack-23w31a" = _vJ5Fpfi7;
+        "datapack-23w32a" = _vJ5Fpfi7;
+        "datapack-23w33a" = _vJ5Fpfi7;
+        "datapack-23w35a" = _vJ5Fpfi7;
+        "datapack-1.20.2-pre1" = _vJ5Fpfi7;
+        "datapack-1.20.2" = _vJ5Fpfi7;
+        "datapack-23w40a" = _vJ5Fpfi7;
+        "datapack-23w41a" = _vJ5Fpfi7;
+        "datapack-23w42a" = _vJ5Fpfi7;
+        "datapack-23w43a" = _vJ5Fpfi7;
+        "datapack-23w43b" = _vJ5Fpfi7;
+        "datapack-23w44a" = _vJ5Fpfi7;
+        "datapack-23w45a" = _vJ5Fpfi7;
+        "datapack-23w46a" = _vJ5Fpfi7;
+        "datapack-1.20.3-pre1" = _vJ5Fpfi7;
+        "datapack-1.20.3-pre2" = _vJ5Fpfi7;
+        "datapack-1.20.3-pre3" = _vJ5Fpfi7;
+        "datapack-1.20.3-pre4" = _vJ5Fpfi7;
+        "datapack-1.20.3" = _vJ5Fpfi7;
+        "datapack-1.20.4" = _vJ5Fpfi7;
+        "datapack-23w51a" = _vJ5Fpfi7;
+        "datapack-23w51b" = _vJ5Fpfi7;
+        "datapack-24w03a" = _vJ5Fpfi7;
+        "datapack-24w03b" = _vJ5Fpfi7;
+        "datapack-24w04a" = _vJ5Fpfi7;
+        "datapack-24w05a" = _vJ5Fpfi7;
+        "datapack-24w05b" = _vJ5Fpfi7;
+        "datapack-24w06a" = _vJ5Fpfi7;
+        "datapack-24w07a" = _vJ5Fpfi7;
+        "datapack-24w09a" = _vJ5Fpfi7;
+        "datapack-24w10a" = _vJ5Fpfi7;
+        "datapack-24w11a" = _vJ5Fpfi7;
+        "datapack-24w12a" = _vJ5Fpfi7;
+        "datapack-24w13a" = _vJ5Fpfi7;
+        "datapack-24w14a" = _vJ5Fpfi7;
+        "datapack-1.20.5-pre1" = _vJ5Fpfi7;
+        "datapack-1.20.5-pre2" = _vJ5Fpfi7;
+        "datapack-1.20.5-pre3" = _vJ5Fpfi7;
+        "datapack-1.20.5-pre4" = _vJ5Fpfi7;
+        "datapack-1.20.5-rc1" = _vJ5Fpfi7;
+        "datapack-1.20.5-rc2" = _vJ5Fpfi7;
+        "datapack-1.20.5-rc3" = _vJ5Fpfi7;
+        "datapack-1.20.5" = _vJ5Fpfi7;
+        "datapack-1.20.6" = _vJ5Fpfi7;
+        "datapack-24w18a" = _vJ5Fpfi7;
+        "datapack-24w19a" = _vJ5Fpfi7;
+        "datapack-24w19b" = _vJ5Fpfi7;
+        "datapack-24w20a" = _vJ5Fpfi7;
+        "datapack-24w21a" = _vJ5Fpfi7;
+        "datapack-24w21b" = _vJ5Fpfi7;
+        "datapack-1.21-pre1" = _vJ5Fpfi7;
+        "datapack-1.21-pre2" = _vJ5Fpfi7;
+        "datapack-1.21-pre3" = _vJ5Fpfi7;
+        "datapack-1.21-pre4" = _vJ5Fpfi7;
+        "datapack-1.21-rc1" = _vJ5Fpfi7;
+        "datapack-24w33a" = _vJ5Fpfi7;
+        "datapack-24w34a" = _vJ5Fpfi7;
+        "datapack-24w35a" = _vJ5Fpfi7;
+        "datapack-24w36a" = _vJ5Fpfi7;
+        "datapack-24w37a" = _vJ5Fpfi7;
+        "datapack-24w38a" = _vJ5Fpfi7;
+        "datapack-24w39a" = _vJ5Fpfi7;
+        "datapack-24w40a" = _vJ5Fpfi7;
+        "datapack-1.21.2-pre1" = _vJ5Fpfi7;
+        "datapack-1.21.2-pre2" = _vJ5Fpfi7;
+        "datapack-24w44a" = _vJ5Fpfi7;
+        "datapack-24w45a" = _vJ5Fpfi7;
+        "datapack-24w46a" = _vJ5Fpfi7;
+        "datapack-1.21.5" = _vJ5Fpfi7;
+        "datapack-1.21.6" = _vJ5Fpfi7;
+        "datapack-1.21.7" = _vJ5Fpfi7;
+        "datapack-1.21.8" = _vJ5Fpfi7;
+        "datapack-1.21.9" = _vJ5Fpfi7;
+        "datapack-1.21.10" = _vJ5Fpfi7;
+        "datapack-1.21.11" = _vJ5Fpfi7;
+        "datapack-26.1" = _vJ5Fpfi7;
+        "fabric-1.20" = _UuUDsbvf;
+        "fabric-1.20.1" = _UuUDsbvf;
+        "fabric-1.21.4" = _zWjGONlk;
+        "forge-1.20" = _UuUDsbvf;
+        "forge-1.20.1" = _UuUDsbvf;
+        "forge-1.21.4" = _zWjGONlk;
+        "quilt-1.20" = _UuUDsbvf;
+        "quilt-1.20.1" = _UuUDsbvf;
+        "quilt-1.21.4" = _zWjGONlk;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "soul-link";
+            id = "g1mxazGF";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="vJ5Fpfi7";}

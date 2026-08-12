@@ -1,0 +1,151 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Qrbkhggk = {
+            "id" = "Qrbkhggk";
+            "file" = "AutoPickup v1.0.jar";
+            "hash" = "sha512-bil1b04N0jKQnQ3OaK4U4I0OPFEjV22+LB8pn9JCiGOKpS/Lj3BQF/aWqRJ+2LOh4vs0as3lZa5RtINo24utPQ==";
+        };
+        _WtXTiSxU = {
+            "id" = "WtXTiSxU";
+            "file" = "AutoPickup v1.1.jar";
+            "hash" = "sha512-3yNQyrCMrP2tpup77VyjJTmFzFjtmCi7oPdn3dQtBRGxHo3kpPJwAn80MrhaCJN2KUPHWsqNtqLmk9fxC3uoKA==";
+        };
+        _prVEpTfN = {
+            "id" = "prVEpTfN";
+            "file" = "AutoPickup v1.2.jar";
+            "hash" = "sha512-8fmxl45+5Ji3VGKsrHRR7HU0hCZTq0/SrBnXO/OCgNqekCTV3dwEJa5VU8i0Mr4DC/ePSKcnZdDbtR9jDke7xA==";
+        };
+        _p5LuF5y1 = {
+            "id" = "p5LuF5y1";
+            "file" = "AutoPickup v1.2.1.jar";
+            "hash" = "sha512-JBEdu6TO4WhlDUQb5wH8eTvTs+LCb6ptjjvVAaLXk0/jVeTqYQeGeUYF5KB6akyInxgkcBAvYYFT96r3S/u73g==";
+        };
+        _VayY2Umx = {
+            "id" = "VayY2Umx";
+            "file" = "AutoPickup v1.3.jar";
+            "hash" = "sha512-jzI3yheSa5lvHOhw/7pPGQg3zI6vUIgH4ggqkf5ISuQU/JVesiW4h2+oR6Z3XkvyA5fCxeLtp+x3euh5Zk620Q==";
+        };
+    in {
+        "Qrbkhggk" = _Qrbkhggk;
+        "WtXTiSxU" = _WtXTiSxU;
+        "prVEpTfN" = _prVEpTfN;
+        "p5LuF5y1" = _p5LuF5y1;
+        "VayY2Umx" = _VayY2Umx;
+        "bukkit-1.19" = _VayY2Umx;
+        "bukkit-1.19.1" = _VayY2Umx;
+        "bukkit-1.19.2" = _VayY2Umx;
+        "bukkit-1.19.3" = _VayY2Umx;
+        "bukkit-1.19.4" = _VayY2Umx;
+        "bukkit-1.20" = _VayY2Umx;
+        "bukkit-1.20.1" = _VayY2Umx;
+        "bukkit-1.20.2" = _VayY2Umx;
+        "bukkit-1.20.3" = _VayY2Umx;
+        "bukkit-1.20.4" = _VayY2Umx;
+        "bukkit-1.20.5" = _VayY2Umx;
+        "bukkit-1.20.6" = _VayY2Umx;
+        "bukkit-1.21" = _VayY2Umx;
+        "bukkit-1.21.1" = _VayY2Umx;
+        "bukkit-1.21.2" = _VayY2Umx;
+        "bukkit-1.21.3" = _VayY2Umx;
+        "bukkit-1.21.4" = _VayY2Umx;
+        "bukkit-1.21.5" = _VayY2Umx;
+        "bukkit-1.21.6" = _VayY2Umx;
+        "bukkit-1.21.7" = _VayY2Umx;
+        "bukkit-1.21.8" = _VayY2Umx;
+        "bukkit-1.21.9" = _VayY2Umx;
+        "bukkit-1.21.10" = _VayY2Umx;
+        "bukkit-1.21.11" = _VayY2Umx;
+        "paper-1.19" = _VayY2Umx;
+        "paper-1.19.1" = _VayY2Umx;
+        "paper-1.19.2" = _VayY2Umx;
+        "paper-1.19.3" = _VayY2Umx;
+        "paper-1.19.4" = _VayY2Umx;
+        "paper-1.20" = _VayY2Umx;
+        "paper-1.20.1" = _VayY2Umx;
+        "paper-1.20.2" = _VayY2Umx;
+        "paper-1.20.3" = _VayY2Umx;
+        "paper-1.20.4" = _VayY2Umx;
+        "paper-1.20.5" = _VayY2Umx;
+        "paper-1.20.6" = _VayY2Umx;
+        "paper-1.21" = _VayY2Umx;
+        "paper-1.21.1" = _VayY2Umx;
+        "paper-1.21.2" = _VayY2Umx;
+        "paper-1.21.3" = _VayY2Umx;
+        "paper-1.21.4" = _VayY2Umx;
+        "paper-1.21.5" = _VayY2Umx;
+        "paper-1.21.6" = _VayY2Umx;
+        "paper-1.21.7" = _VayY2Umx;
+        "paper-1.21.8" = _VayY2Umx;
+        "paper-1.21.9" = _VayY2Umx;
+        "paper-1.21.10" = _VayY2Umx;
+        "paper-1.21.11" = _VayY2Umx;
+        "purpur-1.19" = _VayY2Umx;
+        "purpur-1.19.1" = _VayY2Umx;
+        "purpur-1.19.2" = _VayY2Umx;
+        "purpur-1.19.3" = _VayY2Umx;
+        "purpur-1.19.4" = _VayY2Umx;
+        "purpur-1.20" = _VayY2Umx;
+        "purpur-1.20.1" = _VayY2Umx;
+        "purpur-1.20.2" = _VayY2Umx;
+        "purpur-1.20.3" = _VayY2Umx;
+        "purpur-1.20.4" = _VayY2Umx;
+        "purpur-1.20.5" = _VayY2Umx;
+        "purpur-1.20.6" = _VayY2Umx;
+        "purpur-1.21" = _VayY2Umx;
+        "purpur-1.21.1" = _VayY2Umx;
+        "purpur-1.21.2" = _VayY2Umx;
+        "purpur-1.21.3" = _VayY2Umx;
+        "purpur-1.21.4" = _VayY2Umx;
+        "purpur-1.21.5" = _VayY2Umx;
+        "purpur-1.21.6" = _VayY2Umx;
+        "purpur-1.21.7" = _VayY2Umx;
+        "purpur-1.21.8" = _VayY2Umx;
+        "purpur-1.21.9" = _VayY2Umx;
+        "purpur-1.21.10" = _VayY2Umx;
+        "purpur-1.21.11" = _VayY2Umx;
+        "spigot-1.19" = _VayY2Umx;
+        "spigot-1.19.1" = _VayY2Umx;
+        "spigot-1.19.2" = _VayY2Umx;
+        "spigot-1.19.3" = _VayY2Umx;
+        "spigot-1.19.4" = _VayY2Umx;
+        "spigot-1.20" = _VayY2Umx;
+        "spigot-1.20.1" = _VayY2Umx;
+        "spigot-1.20.2" = _VayY2Umx;
+        "spigot-1.20.3" = _VayY2Umx;
+        "spigot-1.20.4" = _VayY2Umx;
+        "spigot-1.20.5" = _VayY2Umx;
+        "spigot-1.20.6" = _VayY2Umx;
+        "spigot-1.21" = _VayY2Umx;
+        "spigot-1.21.1" = _VayY2Umx;
+        "spigot-1.21.2" = _VayY2Umx;
+        "spigot-1.21.3" = _VayY2Umx;
+        "spigot-1.21.4" = _VayY2Umx;
+        "spigot-1.21.5" = _VayY2Umx;
+        "spigot-1.21.6" = _VayY2Umx;
+        "spigot-1.21.7" = _VayY2Umx;
+        "spigot-1.21.8" = _VayY2Umx;
+        "spigot-1.21.9" = _VayY2Umx;
+        "spigot-1.21.10" = _VayY2Umx;
+        "spigot-1.21.11" = _VayY2Umx;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "jmc-autopickup";
+            id = "1wR75MET";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/JadedMC/AutoPickup/blob/master/LICENSE.txt";
+                };
+            };
+        };
+in callPackage fn {version="VayY2Umx";}

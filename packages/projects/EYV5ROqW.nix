@@ -1,0 +1,146 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _98eqGNSb = {
+            "id" = "98eqGNSb";
+            "file" = "ClearDrops.zip";
+            "hash" = "sha512-hmRzLqqBF5czjCTgelXXK9+6lutXQ9LVuLqXpDj+wTd2hJYZaHNTFybxsbIkl/BDyZKjj9QneFJ7Bie8ixmREw==";
+        };
+        _m9LK92ix = {
+            "id" = "m9LK92ix";
+            "file" = "clear-drops-1.0.jar";
+            "hash" = "sha512-25c5iM/uytFRbiPpFm62ARDCX+N571SY5Rlxtanv4zoU6lGvDUYylkMQlLFKBIBTfMy0pOehHH9JRihKes7A1Q==";
+        };
+        _4GxUojkO = {
+            "id" = "4GxUojkO";
+            "file" = "ClearDrops.zip";
+            "hash" = "sha512-N/9WaoR2vWc2xV8U4ITu44eyAaK6VvstFCmQ/JlQCOylhsI4PvK723QxRemc09kJshyKKUGi/ucZNOVDc3952w==";
+        };
+        _3CGBYLFx = {
+            "id" = "3CGBYLFx";
+            "file" = "clear-drops-2.0.jar";
+            "hash" = "sha512-Kz5eAkVzxznppwXWiGlgp4Ml3FapGdusiL0wT4Ms8oHP/Gnbf0/C1/9o5Ey47gxbjHl2CCI67c8otCLcypFo8w==";
+        };
+        _RRaYA4FJ = {
+            "id" = "RRaYA4FJ";
+            "file" = "ClearDrops.zip";
+            "hash" = "sha512-NdPMcKARudUH5rGlxvaWAEbYH51rUhOBX1NDOh0ystMIWGbq8H0JeKHG0iuqy11v2kXWtGQTGIOHP05M3lt+vA==";
+        };
+        _kliXm28N = {
+            "id" = "kliXm28N";
+            "file" = "clear-drops-3.0.jar";
+            "hash" = "sha512-UnobsgoM7EMieqUOvRQi35Tv7aEwxG16NrJFMFGowKulWQhp2Fbj2JuS/DC3DD8wMlKfEF11IfOGQX22aTL6ZA==";
+        };
+    in {
+        "98eqGNSb" = _98eqGNSb;
+        "m9LK92ix" = _m9LK92ix;
+        "4GxUojkO" = _4GxUojkO;
+        "3CGBYLFx" = _3CGBYLFx;
+        "RRaYA4FJ" = _RRaYA4FJ;
+        "kliXm28N" = _kliXm28N;
+        "datapack-1.21" = _RRaYA4FJ;
+        "datapack-1.21.1" = _RRaYA4FJ;
+        "datapack-1.21.2" = _RRaYA4FJ;
+        "datapack-1.21.3" = _RRaYA4FJ;
+        "datapack-1.21.4" = _RRaYA4FJ;
+        "datapack-1.21.5" = _RRaYA4FJ;
+        "datapack-1.20.1" = _RRaYA4FJ;
+        "datapack-1.20" = _RRaYA4FJ;
+        "datapack-1.20.2" = _RRaYA4FJ;
+        "datapack-1.20.3" = _RRaYA4FJ;
+        "datapack-1.20.4" = _RRaYA4FJ;
+        "datapack-1.20.5" = _RRaYA4FJ;
+        "datapack-1.20.6" = _RRaYA4FJ;
+        "datapack-1.21.6" = _RRaYA4FJ;
+        "datapack-1.21.7" = _RRaYA4FJ;
+        "datapack-1.21.8" = _RRaYA4FJ;
+        "datapack-1.21.9" = _RRaYA4FJ;
+        "fabric-1.21" = _kliXm28N;
+        "fabric-1.21.1" = _kliXm28N;
+        "fabric-1.21.2" = _kliXm28N;
+        "fabric-1.21.3" = _kliXm28N;
+        "fabric-1.21.4" = _kliXm28N;
+        "fabric-1.21.5" = _kliXm28N;
+        "fabric-1.20.1" = _kliXm28N;
+        "fabric-1.20" = _kliXm28N;
+        "fabric-1.20.2" = _kliXm28N;
+        "fabric-1.20.3" = _kliXm28N;
+        "fabric-1.20.4" = _kliXm28N;
+        "fabric-1.20.5" = _kliXm28N;
+        "fabric-1.20.6" = _kliXm28N;
+        "fabric-1.21.6" = _kliXm28N;
+        "fabric-1.21.7" = _kliXm28N;
+        "fabric-1.21.8" = _kliXm28N;
+        "fabric-1.21.9" = _kliXm28N;
+        "forge-1.21" = _kliXm28N;
+        "forge-1.21.1" = _kliXm28N;
+        "forge-1.21.2" = _kliXm28N;
+        "forge-1.21.3" = _kliXm28N;
+        "forge-1.21.4" = _kliXm28N;
+        "forge-1.21.5" = _kliXm28N;
+        "forge-1.20.1" = _kliXm28N;
+        "forge-1.20" = _kliXm28N;
+        "forge-1.20.2" = _kliXm28N;
+        "forge-1.20.3" = _kliXm28N;
+        "forge-1.20.4" = _kliXm28N;
+        "forge-1.20.5" = _kliXm28N;
+        "forge-1.20.6" = _kliXm28N;
+        "forge-1.21.6" = _kliXm28N;
+        "forge-1.21.7" = _kliXm28N;
+        "forge-1.21.8" = _kliXm28N;
+        "forge-1.21.9" = _kliXm28N;
+        "neoforge-1.21" = _kliXm28N;
+        "neoforge-1.21.1" = _kliXm28N;
+        "neoforge-1.21.2" = _kliXm28N;
+        "neoforge-1.21.3" = _kliXm28N;
+        "neoforge-1.21.4" = _kliXm28N;
+        "neoforge-1.21.5" = _kliXm28N;
+        "neoforge-1.20.1" = _kliXm28N;
+        "neoforge-1.20" = _kliXm28N;
+        "neoforge-1.20.2" = _kliXm28N;
+        "neoforge-1.20.3" = _kliXm28N;
+        "neoforge-1.20.4" = _kliXm28N;
+        "neoforge-1.20.5" = _kliXm28N;
+        "neoforge-1.20.6" = _kliXm28N;
+        "neoforge-1.21.6" = _kliXm28N;
+        "neoforge-1.21.7" = _kliXm28N;
+        "neoforge-1.21.8" = _kliXm28N;
+        "neoforge-1.21.9" = _kliXm28N;
+        "quilt-1.21" = _kliXm28N;
+        "quilt-1.21.1" = _kliXm28N;
+        "quilt-1.21.2" = _kliXm28N;
+        "quilt-1.21.3" = _kliXm28N;
+        "quilt-1.21.4" = _kliXm28N;
+        "quilt-1.21.5" = _kliXm28N;
+        "quilt-1.20.1" = _kliXm28N;
+        "quilt-1.20" = _kliXm28N;
+        "quilt-1.20.2" = _kliXm28N;
+        "quilt-1.20.3" = _kliXm28N;
+        "quilt-1.20.4" = _kliXm28N;
+        "quilt-1.20.5" = _kliXm28N;
+        "quilt-1.20.6" = _kliXm28N;
+        "quilt-1.21.6" = _kliXm28N;
+        "quilt-1.21.7" = _kliXm28N;
+        "quilt-1.21.8" = _kliXm28N;
+        "quilt-1.21.9" = _kliXm28N;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "clear-drops";
+            id = "EYV5ROqW";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="kliXm28N";}

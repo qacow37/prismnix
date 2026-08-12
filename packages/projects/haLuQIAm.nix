@@ -1,0 +1,136 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _qmz09uqj = {
+            "id" = "qmz09uqj";
+            "file" = "Strength-v1.zip";
+            "hash" = "sha512-izy9nW223VJ7s6wvEH2CLVsU5RvkIjSfTzqUNxYkADkEQ0b8zENNOoXZQ7Tww/Vx66ajkBaM1WMTwaMhMf6H6Q==";
+        };
+        _S87HKd5a = {
+            "id" = "S87HKd5a";
+            "file" = "strength-1.jar";
+            "hash" = "sha512-Wa8312RLosel5P9cTrNhRblSl1dFFRFGlZmxOfwegmSarexihhJtueeECixxwaWhGvQV20FRUY4AUTVLWMFOvw==";
+        };
+        _SubPoEZO = {
+            "id" = "SubPoEZO";
+            "file" = "Strength-v1.1.zip";
+            "hash" = "sha512-Otwniqq3CxFrakEHVC5AJWPCTVpQsCkEFJhD4Gia6VE2ptWzYZ+QXMKi73FZ/fvgk1Gk+eZ2FFyjRC7S97gd4w==";
+        };
+        _lT5SuF9n = {
+            "id" = "lT5SuF9n";
+            "file" = "strength-1.1.jar";
+            "hash" = "sha512-ooNBMsfmdMboeeeB7TstKdDHkb2FCxqxeLPsnK/0YPlhy9+Atvtnn41oYwGnMc191DJ6Cf9dRWhyyp9v3yOn3A==";
+        };
+    in {
+        "qmz09uqj" = _qmz09uqj;
+        "S87HKd5a" = _S87HKd5a;
+        "SubPoEZO" = _SubPoEZO;
+        "lT5SuF9n" = _lT5SuF9n;
+        "datapack-1.13" = _SubPoEZO;
+        "datapack-1.13.1" = _SubPoEZO;
+        "datapack-1.13.2" = _SubPoEZO;
+        "datapack-1.14" = _SubPoEZO;
+        "datapack-1.14.1" = _SubPoEZO;
+        "datapack-1.14.2" = _SubPoEZO;
+        "datapack-1.14.3" = _SubPoEZO;
+        "datapack-1.14.4" = _SubPoEZO;
+        "datapack-1.15" = _SubPoEZO;
+        "datapack-1.15.1" = _SubPoEZO;
+        "datapack-1.15.2" = _SubPoEZO;
+        "datapack-1.16" = _SubPoEZO;
+        "datapack-1.16.1" = _SubPoEZO;
+        "datapack-1.16.2" = _SubPoEZO;
+        "datapack-1.16.3" = _SubPoEZO;
+        "datapack-1.16.4" = _SubPoEZO;
+        "datapack-1.16.5" = _SubPoEZO;
+        "datapack-1.17" = _SubPoEZO;
+        "datapack-1.17.1" = _SubPoEZO;
+        "datapack-1.18" = _SubPoEZO;
+        "datapack-1.18.1" = _SubPoEZO;
+        "datapack-1.18.2" = _SubPoEZO;
+        "datapack-1.19" = _SubPoEZO;
+        "datapack-1.19.1" = _SubPoEZO;
+        "datapack-1.19.2" = _SubPoEZO;
+        "datapack-1.19.3" = _SubPoEZO;
+        "datapack-1.19.4" = _SubPoEZO;
+        "datapack-1.20" = _SubPoEZO;
+        "datapack-1.20.1" = _SubPoEZO;
+        "fabric-1.13" = _lT5SuF9n;
+        "fabric-1.13.1" = _lT5SuF9n;
+        "fabric-1.13.2" = _lT5SuF9n;
+        "fabric-1.14" = _lT5SuF9n;
+        "fabric-1.14.1" = _lT5SuF9n;
+        "fabric-1.14.2" = _lT5SuF9n;
+        "fabric-1.14.3" = _lT5SuF9n;
+        "fabric-1.14.4" = _lT5SuF9n;
+        "fabric-1.15" = _lT5SuF9n;
+        "fabric-1.15.1" = _lT5SuF9n;
+        "fabric-1.15.2" = _lT5SuF9n;
+        "fabric-1.16" = _lT5SuF9n;
+        "fabric-1.16.1" = _lT5SuF9n;
+        "fabric-1.16.2" = _lT5SuF9n;
+        "fabric-1.16.3" = _lT5SuF9n;
+        "fabric-1.16.4" = _lT5SuF9n;
+        "fabric-1.16.5" = _lT5SuF9n;
+        "fabric-1.17" = _lT5SuF9n;
+        "fabric-1.17.1" = _lT5SuF9n;
+        "fabric-1.18" = _lT5SuF9n;
+        "fabric-1.18.1" = _lT5SuF9n;
+        "fabric-1.18.2" = _lT5SuF9n;
+        "fabric-1.19" = _lT5SuF9n;
+        "fabric-1.19.1" = _lT5SuF9n;
+        "fabric-1.19.2" = _lT5SuF9n;
+        "fabric-1.19.3" = _lT5SuF9n;
+        "fabric-1.19.4" = _lT5SuF9n;
+        "fabric-1.20" = _lT5SuF9n;
+        "fabric-1.20.1" = _lT5SuF9n;
+        "quilt-1.13" = _lT5SuF9n;
+        "quilt-1.13.1" = _lT5SuF9n;
+        "quilt-1.13.2" = _lT5SuF9n;
+        "quilt-1.14" = _lT5SuF9n;
+        "quilt-1.14.1" = _lT5SuF9n;
+        "quilt-1.14.2" = _lT5SuF9n;
+        "quilt-1.14.3" = _lT5SuF9n;
+        "quilt-1.14.4" = _lT5SuF9n;
+        "quilt-1.15" = _lT5SuF9n;
+        "quilt-1.15.1" = _lT5SuF9n;
+        "quilt-1.15.2" = _lT5SuF9n;
+        "quilt-1.16" = _lT5SuF9n;
+        "quilt-1.16.1" = _lT5SuF9n;
+        "quilt-1.16.2" = _lT5SuF9n;
+        "quilt-1.16.3" = _lT5SuF9n;
+        "quilt-1.16.4" = _lT5SuF9n;
+        "quilt-1.16.5" = _lT5SuF9n;
+        "quilt-1.17" = _lT5SuF9n;
+        "quilt-1.17.1" = _lT5SuF9n;
+        "quilt-1.18" = _lT5SuF9n;
+        "quilt-1.18.1" = _lT5SuF9n;
+        "quilt-1.18.2" = _lT5SuF9n;
+        "quilt-1.19" = _lT5SuF9n;
+        "quilt-1.19.1" = _lT5SuF9n;
+        "quilt-1.19.2" = _lT5SuF9n;
+        "quilt-1.19.3" = _lT5SuF9n;
+        "quilt-1.19.4" = _lT5SuF9n;
+        "quilt-1.20" = _lT5SuF9n;
+        "quilt-1.20.1" = _lT5SuF9n;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "strength";
+            id = "haLuQIAm";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="lT5SuF9n";}

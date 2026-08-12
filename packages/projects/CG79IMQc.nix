@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _LKF2bbNa = {
+            "id" = "LKF2bbNa";
+            "file" = "fast_barter v.1.0.0+1.21-1.21.10.jar";
+            "hash" = "sha512-EquWCm9tSMywOKefK0nr4H612HMWISGqf8SsAjDG03QXsSH5ElwXWZVJ6WcUsGRAeiNPhGFhUkVPChyDUXIw9Q==";
+        };
+        _d2mW6n1P = {
+            "id" = "d2mW6n1P";
+            "file" = "fast_barter v.1.0.0+1.21-1.21.10.zip";
+            "hash" = "sha512-taMgfoZJDOPNsOdfiSjASgfy5bdzDAizdPCtw2vgQiRNtkYLHlitMihG09iuZzIxZ2dMeoueHLKl03IkJ3aDnw==";
+        };
+    in {
+        "LKF2bbNa" = _LKF2bbNa;
+        "d2mW6n1P" = _d2mW6n1P;
+        "fabric-1.21" = _LKF2bbNa;
+        "fabric-1.21.1" = _LKF2bbNa;
+        "fabric-1.21.2" = _LKF2bbNa;
+        "fabric-1.21.3" = _LKF2bbNa;
+        "fabric-1.21.4" = _LKF2bbNa;
+        "fabric-1.21.5" = _LKF2bbNa;
+        "fabric-1.21.6" = _LKF2bbNa;
+        "fabric-1.21.7" = _LKF2bbNa;
+        "fabric-1.21.8" = _LKF2bbNa;
+        "fabric-1.21.9" = _LKF2bbNa;
+        "fabric-1.21.10" = _LKF2bbNa;
+        "fabric-1.21.11" = _LKF2bbNa;
+        "fabric-26.1" = _LKF2bbNa;
+        "fabric-26.1.1" = _LKF2bbNa;
+        "fabric-26.1.2" = _LKF2bbNa;
+        "fabric-26.2" = _LKF2bbNa;
+        "forge-1.21" = _LKF2bbNa;
+        "forge-1.21.1" = _LKF2bbNa;
+        "forge-1.21.2" = _LKF2bbNa;
+        "forge-1.21.3" = _LKF2bbNa;
+        "forge-1.21.4" = _LKF2bbNa;
+        "forge-1.21.5" = _LKF2bbNa;
+        "forge-1.21.6" = _LKF2bbNa;
+        "forge-1.21.7" = _LKF2bbNa;
+        "forge-1.21.8" = _LKF2bbNa;
+        "forge-1.21.9" = _LKF2bbNa;
+        "forge-1.21.10" = _LKF2bbNa;
+        "forge-1.21.11" = _LKF2bbNa;
+        "forge-26.1" = _LKF2bbNa;
+        "forge-26.1.1" = _LKF2bbNa;
+        "forge-26.1.2" = _LKF2bbNa;
+        "forge-26.2" = _LKF2bbNa;
+        "neoforge-1.21" = _LKF2bbNa;
+        "neoforge-1.21.1" = _LKF2bbNa;
+        "neoforge-1.21.2" = _LKF2bbNa;
+        "neoforge-1.21.3" = _LKF2bbNa;
+        "neoforge-1.21.4" = _LKF2bbNa;
+        "neoforge-1.21.5" = _LKF2bbNa;
+        "neoforge-1.21.6" = _LKF2bbNa;
+        "neoforge-1.21.7" = _LKF2bbNa;
+        "neoforge-1.21.8" = _LKF2bbNa;
+        "neoforge-1.21.9" = _LKF2bbNa;
+        "neoforge-1.21.10" = _LKF2bbNa;
+        "neoforge-1.21.11" = _LKF2bbNa;
+        "neoforge-26.1" = _LKF2bbNa;
+        "neoforge-26.1.1" = _LKF2bbNa;
+        "neoforge-26.1.2" = _LKF2bbNa;
+        "neoforge-26.2" = _LKF2bbNa;
+        "quilt-1.21" = _LKF2bbNa;
+        "quilt-1.21.1" = _LKF2bbNa;
+        "quilt-1.21.2" = _LKF2bbNa;
+        "quilt-1.21.3" = _LKF2bbNa;
+        "quilt-1.21.4" = _LKF2bbNa;
+        "quilt-1.21.5" = _LKF2bbNa;
+        "quilt-1.21.6" = _LKF2bbNa;
+        "quilt-1.21.7" = _LKF2bbNa;
+        "quilt-1.21.8" = _LKF2bbNa;
+        "quilt-1.21.9" = _LKF2bbNa;
+        "quilt-1.21.10" = _LKF2bbNa;
+        "quilt-1.21.11" = _LKF2bbNa;
+        "quilt-26.1" = _LKF2bbNa;
+        "quilt-26.1.1" = _LKF2bbNa;
+        "quilt-26.1.2" = _LKF2bbNa;
+        "quilt-26.2" = _LKF2bbNa;
+        "datapack-1.21" = _d2mW6n1P;
+        "datapack-1.21.1" = _d2mW6n1P;
+        "datapack-1.21.2" = _d2mW6n1P;
+        "datapack-1.21.3" = _d2mW6n1P;
+        "datapack-1.21.4" = _d2mW6n1P;
+        "datapack-1.21.5" = _d2mW6n1P;
+        "datapack-1.21.6" = _d2mW6n1P;
+        "datapack-1.21.7" = _d2mW6n1P;
+        "datapack-1.21.8" = _d2mW6n1P;
+        "datapack-1.21.9" = _d2mW6n1P;
+        "datapack-1.21.10" = _d2mW6n1P;
+        "datapack-1.21.11" = _d2mW6n1P;
+        "datapack-26.1" = _d2mW6n1P;
+        "datapack-26.1.1" = _d2mW6n1P;
+        "datapack-26.1.2" = _d2mW6n1P;
+        "datapack-26.2" = _d2mW6n1P;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "fast-barter";
+            id = "CG79IMQc";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Forged-License-1.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-Forged-License-1.0";
+                    shortName = "LicenseRef-Forged-License-1.0";
+                    url = "https://github.com/ForgedMC/.github/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="d2mW6n1P";}

@@ -1,0 +1,143 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Me6qni37 = {
+            "id" = "Me6qni37";
+            "file" = "Elevator.jar";
+            "hash" = "sha512-HczdcxShfoExdaU9XO6QS9VuZEOexBN2dk45SRINuxZmLjiCv8Qzd55yG5oOCSCkAYH1IBy+lhRO1DbHP9PuMQ==";
+        };
+        _kmH97He3 = {
+            "id" = "kmH97He3";
+            "file" = "Elevator.jar";
+            "hash" = "sha512-P/ko9zhfvkE6V+SfO20EG7MvuP9yJHCZQ0MFCCYZvRAXYSPM6fhAuW2TZA3BVshEqHOESzd2aItAyrk71Sp5Fw==";
+        };
+        _wwtFy6A7 = {
+            "id" = "wwtFy6A7";
+            "file" = "Elevator.jar";
+            "hash" = "sha512-8lVyx8OYJN+Xh0do6KuvRm7nYrFLile3NcC1ApQ0OPTDPpgyB5vQjMZdXE7iySfdF8GurYQDdrCmM0Momc/vEQ==";
+        };
+        _htemxGPY = {
+            "id" = "htemxGPY";
+            "file" = "Elevator.jar";
+            "hash" = "sha512-Emv1xQX3KuDaPYkqyD+jfCoUKbrQJrg/leFGHngcbC7nFYbg4Zzk4N59CfwY1Z0fqQ+5EfZqx5/CPFiGfF4i7A==";
+        };
+    in {
+        "Me6qni37" = _Me6qni37;
+        "kmH97He3" = _kmH97He3;
+        "wwtFy6A7" = _wwtFy6A7;
+        "htemxGPY" = _htemxGPY;
+        "paper-1.13" = _Me6qni37;
+        "paper-1.13.1" = _Me6qni37;
+        "paper-1.13.2" = _Me6qni37;
+        "paper-1.14" = _Me6qni37;
+        "paper-1.14.1" = _Me6qni37;
+        "paper-1.14.2" = _Me6qni37;
+        "paper-1.14.3" = _Me6qni37;
+        "paper-1.14.4" = _Me6qni37;
+        "paper-1.15" = _Me6qni37;
+        "paper-1.15.1" = _Me6qni37;
+        "paper-1.15.2" = _Me6qni37;
+        "paper-1.16" = _Me6qni37;
+        "paper-1.16.1" = _Me6qni37;
+        "paper-1.16.2" = _Me6qni37;
+        "paper-1.16.3" = _Me6qni37;
+        "paper-1.16.4" = _Me6qni37;
+        "paper-1.16.5" = _Me6qni37;
+        "paper-1.17" = _Me6qni37;
+        "paper-1.17.1" = _Me6qni37;
+        "paper-1.18" = _Me6qni37;
+        "paper-1.18.1" = _Me6qni37;
+        "paper-1.18.2" = _Me6qni37;
+        "paper-1.19" = _Me6qni37;
+        "paper-1.19.1" = _Me6qni37;
+        "paper-1.19.2" = _Me6qni37;
+        "paper-1.19.3" = _Me6qni37;
+        "paper-1.19.4" = _Me6qni37;
+        "paper-1.20" = _Me6qni37;
+        "paper-1.20.1" = _Me6qni37;
+        "paper-1.20.2" = _Me6qni37;
+        "paper-1.20.3" = _Me6qni37;
+        "paper-1.20.4" = _Me6qni37;
+        "paper-1.20.5" = _Me6qni37;
+        "paper-1.20.6" = _Me6qni37;
+        "paper-1.21" = _Me6qni37;
+        "paper-1.21.1" = _Me6qni37;
+        "paper-1.21.2" = _Me6qni37;
+        "paper-1.21.3" = _Me6qni37;
+        "paper-1.21.4" = _Me6qni37;
+        "paper-1.21.5" = _Me6qni37;
+        "paper-1.21.6" = _htemxGPY;
+        "paper-1.21.7" = _htemxGPY;
+        "paper-1.21.8" = _htemxGPY;
+        "paper-1.21.9" = _htemxGPY;
+        "paper-1.21.10" = _htemxGPY;
+        "paper-1.21.11" = _htemxGPY;
+        "paper-26.1" = _htemxGPY;
+        "paper-26.1.1" = _htemxGPY;
+        "paper-26.1.2" = _htemxGPY;
+        "spigot-1.13" = _Me6qni37;
+        "spigot-1.13.1" = _Me6qni37;
+        "spigot-1.13.2" = _Me6qni37;
+        "spigot-1.14" = _Me6qni37;
+        "spigot-1.14.1" = _Me6qni37;
+        "spigot-1.14.2" = _Me6qni37;
+        "spigot-1.14.3" = _Me6qni37;
+        "spigot-1.14.4" = _Me6qni37;
+        "spigot-1.15" = _Me6qni37;
+        "spigot-1.15.1" = _Me6qni37;
+        "spigot-1.15.2" = _Me6qni37;
+        "spigot-1.16" = _Me6qni37;
+        "spigot-1.16.1" = _Me6qni37;
+        "spigot-1.16.2" = _Me6qni37;
+        "spigot-1.16.3" = _Me6qni37;
+        "spigot-1.16.4" = _Me6qni37;
+        "spigot-1.16.5" = _Me6qni37;
+        "spigot-1.17" = _Me6qni37;
+        "spigot-1.17.1" = _Me6qni37;
+        "spigot-1.18" = _Me6qni37;
+        "spigot-1.18.1" = _Me6qni37;
+        "spigot-1.18.2" = _Me6qni37;
+        "spigot-1.19" = _Me6qni37;
+        "spigot-1.19.1" = _Me6qni37;
+        "spigot-1.19.2" = _Me6qni37;
+        "spigot-1.19.3" = _Me6qni37;
+        "spigot-1.19.4" = _Me6qni37;
+        "spigot-1.20" = _Me6qni37;
+        "spigot-1.20.1" = _Me6qni37;
+        "spigot-1.20.2" = _Me6qni37;
+        "spigot-1.20.3" = _Me6qni37;
+        "spigot-1.20.4" = _Me6qni37;
+        "spigot-1.20.5" = _Me6qni37;
+        "spigot-1.20.6" = _Me6qni37;
+        "spigot-1.21" = _Me6qni37;
+        "spigot-1.21.1" = _Me6qni37;
+        "spigot-1.21.2" = _Me6qni37;
+        "spigot-1.21.3" = _Me6qni37;
+        "spigot-1.21.4" = _Me6qni37;
+        "spigot-1.21.5" = _Me6qni37;
+        "spigot-1.21.6" = _Me6qni37;
+        "spigot-1.21.7" = _Me6qni37;
+        "spigot-1.21.8" = _Me6qni37;
+        "spigot-1.21.9" = _Me6qni37;
+        "spigot-1.21.10" = _Me6qni37;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "blockelevator";
+            id = "33qSvL4o";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="htemxGPY";}

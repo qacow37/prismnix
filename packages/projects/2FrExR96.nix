@@ -1,0 +1,128 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Dpw2jiQm = {
+            "id" = "Dpw2jiQm";
+            "file" = "justenoughspeed-1.0.0.jar";
+            "hash" = "sha512-+tYYvW98VytNS7++b66yivuHxeCSK14agVG2mHo1aXWw6MA+eQIyVCUSt5uPNmoUIzi9mphL552AegEnWIrA7Q==";
+        };
+        _924dBADH = {
+            "id" = "924dBADH";
+            "file" = "justenoughspeed-1.0.0.jar";
+            "hash" = "sha512-rXqDfqzKjMLamb9TdCtPj8fmU8/4XPtt+vDs3qH/caubdUtIBky2F55Vii6ffzZBDSaqsklqBeyWAMWWwp2yZw==";
+        };
+    in {
+        "Dpw2jiQm" = _Dpw2jiQm;
+        "924dBADH" = _924dBADH;
+        "forge-1.19" = _Dpw2jiQm;
+        "forge-1.19.1" = _Dpw2jiQm;
+        "forge-1.19.2" = _Dpw2jiQm;
+        "forge-1.19.3" = _Dpw2jiQm;
+        "forge-1.19.4" = _Dpw2jiQm;
+        "neoforge-1.19" = _Dpw2jiQm;
+        "neoforge-1.19.1" = _Dpw2jiQm;
+        "neoforge-1.19.2" = _Dpw2jiQm;
+        "neoforge-1.19.3" = _Dpw2jiQm;
+        "neoforge-1.19.4" = _Dpw2jiQm;
+        "fabric-1.0" = _924dBADH;
+        "fabric-1.1" = _924dBADH;
+        "fabric-1.2.1" = _924dBADH;
+        "fabric-1.2.2" = _924dBADH;
+        "fabric-1.2.3" = _924dBADH;
+        "fabric-1.2.4" = _924dBADH;
+        "fabric-1.2.5" = _924dBADH;
+        "fabric-1.3.1" = _924dBADH;
+        "fabric-1.3.2" = _924dBADH;
+        "fabric-1.4.2" = _924dBADH;
+        "fabric-1.4.4" = _924dBADH;
+        "fabric-1.4.5" = _924dBADH;
+        "fabric-1.4.6" = _924dBADH;
+        "fabric-1.4.7" = _924dBADH;
+        "fabric-1.5.1" = _924dBADH;
+        "fabric-1.5.2" = _924dBADH;
+        "fabric-1.6.1" = _924dBADH;
+        "fabric-1.6.2" = _924dBADH;
+        "fabric-1.6.4" = _924dBADH;
+        "fabric-1.7.2" = _924dBADH;
+        "fabric-1.7.3" = _924dBADH;
+        "fabric-1.7.4" = _924dBADH;
+        "fabric-1.7.5" = _924dBADH;
+        "fabric-1.7.6" = _924dBADH;
+        "fabric-1.7.7" = _924dBADH;
+        "fabric-1.7.8" = _924dBADH;
+        "fabric-1.7.9" = _924dBADH;
+        "fabric-1.7.10" = _924dBADH;
+        "fabric-1.8" = _924dBADH;
+        "fabric-1.8.1" = _924dBADH;
+        "fabric-1.8.2" = _924dBADH;
+        "fabric-1.8.3" = _924dBADH;
+        "fabric-1.8.4" = _924dBADH;
+        "fabric-1.8.5" = _924dBADH;
+        "fabric-1.8.6" = _924dBADH;
+        "fabric-1.8.7" = _924dBADH;
+        "fabric-1.8.8" = _924dBADH;
+        "fabric-1.8.9" = _924dBADH;
+        "fabric-1.9" = _924dBADH;
+        "fabric-1.9.1" = _924dBADH;
+        "fabric-1.9.2" = _924dBADH;
+        "fabric-1.9.3" = _924dBADH;
+        "fabric-1.9.4" = _924dBADH;
+        "fabric-1.10" = _924dBADH;
+        "fabric-1.10.1" = _924dBADH;
+        "fabric-1.10.2" = _924dBADH;
+        "fabric-1.11" = _924dBADH;
+        "fabric-1.11.1" = _924dBADH;
+        "fabric-1.11.2" = _924dBADH;
+        "fabric-1.12" = _924dBADH;
+        "fabric-1.12.1" = _924dBADH;
+        "fabric-1.12.2" = _924dBADH;
+        "fabric-1.13" = _924dBADH;
+        "fabric-1.13.1" = _924dBADH;
+        "fabric-1.13.2" = _924dBADH;
+        "fabric-1.14" = _924dBADH;
+        "fabric-1.14.1" = _924dBADH;
+        "fabric-1.14.2" = _924dBADH;
+        "fabric-1.14.3" = _924dBADH;
+        "fabric-1.14.4" = _924dBADH;
+        "fabric-1.15" = _924dBADH;
+        "fabric-1.15.1" = _924dBADH;
+        "fabric-1.15.2" = _924dBADH;
+        "fabric-1.16" = _924dBADH;
+        "fabric-1.16.1" = _924dBADH;
+        "fabric-1.16.2" = _924dBADH;
+        "fabric-1.16.3" = _924dBADH;
+        "fabric-1.16.4" = _924dBADH;
+        "fabric-1.16.5" = _924dBADH;
+        "fabric-1.17" = _924dBADH;
+        "fabric-1.17.1" = _924dBADH;
+        "fabric-1.18" = _924dBADH;
+        "fabric-1.18.1" = _924dBADH;
+        "fabric-1.18.2" = _924dBADH;
+        "fabric-1.19" = _924dBADH;
+        "fabric-1.19.1" = _924dBADH;
+        "fabric-1.19.2" = _924dBADH;
+        "fabric-1.19.3" = _924dBADH;
+        "fabric-1.19.4" = _924dBADH;
+        "fabric-1.20" = _924dBADH;
+        "fabric-1.20.1" = _924dBADH;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "just-enough-speed";
+            id = "2FrExR96";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/GoForceX/JustEnoughSpeed/blob/master/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="924dBADH";}

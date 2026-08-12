@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _nODk0Ihz = {
+            "id" = "nODk0Ihz";
+            "file" = "colourarity-0.1.0.jar";
+            "hash" = "sha512-0rq02Tf20D9zbqb9H6qPKOqoslZKz/JIhV/WloE0sPYxkI3gQvFGCHO+IDUoyk8OvmbQid/TTg+cKiv+w2Jsfw==";
+        };
+    in {
+        "nODk0Ihz" = _nODk0Ihz;
+        "fabric-1.0" = _nODk0Ihz;
+        "fabric-1.1" = _nODk0Ihz;
+        "fabric-1.2.1" = _nODk0Ihz;
+        "fabric-1.2.2" = _nODk0Ihz;
+        "fabric-1.2.3" = _nODk0Ihz;
+        "fabric-1.2.4" = _nODk0Ihz;
+        "fabric-1.2.5" = _nODk0Ihz;
+        "fabric-1.3.1" = _nODk0Ihz;
+        "fabric-1.3.2" = _nODk0Ihz;
+        "fabric-1.4.2" = _nODk0Ihz;
+        "fabric-1.4.4" = _nODk0Ihz;
+        "fabric-1.4.5" = _nODk0Ihz;
+        "fabric-1.4.6" = _nODk0Ihz;
+        "fabric-1.4.7" = _nODk0Ihz;
+        "fabric-1.5.1" = _nODk0Ihz;
+        "fabric-1.5.2" = _nODk0Ihz;
+        "fabric-1.6.1" = _nODk0Ihz;
+        "fabric-1.6.2" = _nODk0Ihz;
+        "fabric-1.6.4" = _nODk0Ihz;
+        "fabric-1.7.2" = _nODk0Ihz;
+        "fabric-1.7.3" = _nODk0Ihz;
+        "fabric-1.7.4" = _nODk0Ihz;
+        "fabric-1.7.5" = _nODk0Ihz;
+        "fabric-1.7.6" = _nODk0Ihz;
+        "fabric-1.7.7" = _nODk0Ihz;
+        "fabric-1.7.8" = _nODk0Ihz;
+        "fabric-1.7.9" = _nODk0Ihz;
+        "fabric-1.7.10" = _nODk0Ihz;
+        "fabric-1.8" = _nODk0Ihz;
+        "fabric-1.8.1" = _nODk0Ihz;
+        "fabric-1.8.2" = _nODk0Ihz;
+        "fabric-1.8.3" = _nODk0Ihz;
+        "fabric-1.8.4" = _nODk0Ihz;
+        "fabric-1.8.5" = _nODk0Ihz;
+        "fabric-1.8.6" = _nODk0Ihz;
+        "fabric-1.8.7" = _nODk0Ihz;
+        "fabric-1.8.8" = _nODk0Ihz;
+        "fabric-1.8.9" = _nODk0Ihz;
+        "fabric-1.9" = _nODk0Ihz;
+        "fabric-1.9.1" = _nODk0Ihz;
+        "fabric-1.9.2" = _nODk0Ihz;
+        "fabric-1.9.3" = _nODk0Ihz;
+        "fabric-1.9.4" = _nODk0Ihz;
+        "fabric-1.10" = _nODk0Ihz;
+        "fabric-1.10.1" = _nODk0Ihz;
+        "fabric-1.10.2" = _nODk0Ihz;
+        "fabric-1.11" = _nODk0Ihz;
+        "fabric-1.11.1" = _nODk0Ihz;
+        "fabric-1.11.2" = _nODk0Ihz;
+        "fabric-1.12" = _nODk0Ihz;
+        "fabric-1.12.1" = _nODk0Ihz;
+        "fabric-1.12.2" = _nODk0Ihz;
+        "fabric-1.13" = _nODk0Ihz;
+        "fabric-1.13.1" = _nODk0Ihz;
+        "fabric-1.13.2" = _nODk0Ihz;
+        "fabric-1.14" = _nODk0Ihz;
+        "fabric-1.14.1" = _nODk0Ihz;
+        "fabric-1.14.2" = _nODk0Ihz;
+        "fabric-1.14.3" = _nODk0Ihz;
+        "fabric-1.14.4" = _nODk0Ihz;
+        "fabric-1.15" = _nODk0Ihz;
+        "fabric-1.15.1" = _nODk0Ihz;
+        "fabric-1.15.2" = _nODk0Ihz;
+        "fabric-1.16" = _nODk0Ihz;
+        "fabric-1.16.1" = _nODk0Ihz;
+        "fabric-1.16.2" = _nODk0Ihz;
+        "fabric-1.16.3" = _nODk0Ihz;
+        "fabric-1.16.4" = _nODk0Ihz;
+        "fabric-1.16.5" = _nODk0Ihz;
+        "fabric-1.17" = _nODk0Ihz;
+        "fabric-1.17.1" = _nODk0Ihz;
+        "fabric-1.18" = _nODk0Ihz;
+        "fabric-1.18.1" = _nODk0Ihz;
+        "fabric-1.18.2" = _nODk0Ihz;
+        "fabric-1.19" = _nODk0Ihz;
+        "fabric-1.19.1" = _nODk0Ihz;
+        "fabric-1.19.2" = _nODk0Ihz;
+        "fabric-1.19.3" = _nODk0Ihz;
+        "fabric-1.19.4" = _nODk0Ihz;
+        "fabric-1.20" = _nODk0Ihz;
+        "fabric-1.20.1" = _nODk0Ihz;
+        "fabric-1.20.2" = _nODk0Ihz;
+        "fabric-1.20.3" = _nODk0Ihz;
+        "fabric-1.20.4" = _nODk0Ihz;
+        "fabric-1.20.5" = _nODk0Ihz;
+        "fabric-1.20.6" = _nODk0Ihz;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "colourarity";
+            id = "EcnImfAf";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="nODk0Ihz";}

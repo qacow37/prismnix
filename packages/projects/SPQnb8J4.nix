@@ -1,0 +1,138 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _93cwNJP0 = {
+            "id" = "93cwNJP0";
+            "file" = "Akeno Himejima Totem.zip";
+            "hash" = "sha512-L3dfX5zk2/VCTBLMULm8ihiqVMIO6YrknMB/58tlTqEUsL36DUeeg0cTmGsbGnBhyaxLWbbhkmor/EYn89kt6g==";
+        };
+        _49vxtBar = {
+            "id" = "49vxtBar";
+            "file" = "Akeno_Himejima-1.21.11-Totem.zip";
+            "hash" = "sha512-L3dfX5zk2/VCTBLMULm8ihiqVMIO6YrknMB/58tlTqEUsL36DUeeg0cTmGsbGnBhyaxLWbbhkmor/EYn89kt6g==";
+        };
+        _SW7Wq2TM = {
+            "id" = "SW7Wq2TM";
+            "file" = "Akeno_Himejima-1.16-26.1-Totem.zip";
+            "hash" = "sha512-XOU141yGiZWcN4jw+e+A1K7lUlYFngm392wAvnKzLY8VhdbCLywiqDD6tMv/WxQKYKf0LvSfmrvxMMYVsCLP1Q==";
+        };
+        _AvvmpNCJ = {
+            "id" = "AvvmpNCJ";
+            "file" = "Akeno_Himejima-1.17-26.2-Totem.zip";
+            "hash" = "sha512-4E5FeC3kcvJnHLmliuWqTXmjeylI2NrauhFp7SHVDFGn34gGsROsKBlZPiPJhFFQnV3p4Scfb/Ybc91WuoCwZw==";
+        };
+    in {
+        "93cwNJP0" = _93cwNJP0;
+        "49vxtBar" = _49vxtBar;
+        "SW7Wq2TM" = _SW7Wq2TM;
+        "AvvmpNCJ" = _AvvmpNCJ;
+        "minecraft-1.16" = _SW7Wq2TM;
+        "minecraft-1.16.1" = _SW7Wq2TM;
+        "minecraft-1.16.2" = _SW7Wq2TM;
+        "minecraft-1.16.3" = _SW7Wq2TM;
+        "minecraft-1.16.4" = _SW7Wq2TM;
+        "minecraft-1.16.5" = _SW7Wq2TM;
+        "minecraft-1.17" = _AvvmpNCJ;
+        "minecraft-1.17.1" = _AvvmpNCJ;
+        "minecraft-1.18" = _AvvmpNCJ;
+        "minecraft-1.18.1" = _AvvmpNCJ;
+        "minecraft-1.18.2" = _AvvmpNCJ;
+        "minecraft-1.19" = _AvvmpNCJ;
+        "minecraft-1.19.1" = _AvvmpNCJ;
+        "minecraft-1.19.2" = _AvvmpNCJ;
+        "minecraft-1.19.3" = _AvvmpNCJ;
+        "minecraft-1.19.4" = _AvvmpNCJ;
+        "minecraft-1.20" = _AvvmpNCJ;
+        "minecraft-1.20.1" = _AvvmpNCJ;
+        "minecraft-1.20.2" = _AvvmpNCJ;
+        "minecraft-1.20.3" = _AvvmpNCJ;
+        "minecraft-1.20.4" = _AvvmpNCJ;
+        "minecraft-1.20.5" = _AvvmpNCJ;
+        "minecraft-1.20.6" = _AvvmpNCJ;
+        "minecraft-1.21" = _AvvmpNCJ;
+        "minecraft-1.21.1" = _AvvmpNCJ;
+        "minecraft-1.21.2" = _AvvmpNCJ;
+        "minecraft-1.21.3" = _AvvmpNCJ;
+        "minecraft-1.21.4" = _AvvmpNCJ;
+        "minecraft-1.21.5" = _AvvmpNCJ;
+        "minecraft-1.21.6" = _AvvmpNCJ;
+        "minecraft-1.21.7" = _AvvmpNCJ;
+        "minecraft-1.21.8" = _AvvmpNCJ;
+        "minecraft-1.21.9" = _AvvmpNCJ;
+        "minecraft-1.21.10" = _AvvmpNCJ;
+        "minecraft-1.21.11" = _AvvmpNCJ;
+        "minecraft-26.1" = _AvvmpNCJ;
+        "minecraft-22w42a" = _AvvmpNCJ;
+        "minecraft-22w43a" = _AvvmpNCJ;
+        "minecraft-22w44a" = _AvvmpNCJ;
+        "minecraft-23w14a" = _AvvmpNCJ;
+        "minecraft-23w16a" = _AvvmpNCJ;
+        "minecraft-23w31a" = _AvvmpNCJ;
+        "minecraft-23w32a" = _AvvmpNCJ;
+        "minecraft-23w33a" = _AvvmpNCJ;
+        "minecraft-23w35a" = _AvvmpNCJ;
+        "minecraft-1.20.2-pre1" = _AvvmpNCJ;
+        "minecraft-23w42a" = _AvvmpNCJ;
+        "minecraft-23w43a" = _AvvmpNCJ;
+        "minecraft-23w43b" = _AvvmpNCJ;
+        "minecraft-23w44a" = _AvvmpNCJ;
+        "minecraft-23w45a" = _AvvmpNCJ;
+        "minecraft-23w46a" = _AvvmpNCJ;
+        "minecraft-24w03a" = _AvvmpNCJ;
+        "minecraft-24w03b" = _AvvmpNCJ;
+        "minecraft-24w04a" = _AvvmpNCJ;
+        "minecraft-24w05a" = _AvvmpNCJ;
+        "minecraft-24w05b" = _AvvmpNCJ;
+        "minecraft-24w06a" = _AvvmpNCJ;
+        "minecraft-24w07a" = _AvvmpNCJ;
+        "minecraft-24w09a" = _AvvmpNCJ;
+        "minecraft-24w10a" = _AvvmpNCJ;
+        "minecraft-24w11a" = _AvvmpNCJ;
+        "minecraft-24w12a" = _AvvmpNCJ;
+        "minecraft-24w13a" = _AvvmpNCJ;
+        "minecraft-24w14potato" = _AvvmpNCJ;
+        "minecraft-24w14a" = _AvvmpNCJ;
+        "minecraft-1.20.5-pre1" = _AvvmpNCJ;
+        "minecraft-1.20.5-pre2" = _AvvmpNCJ;
+        "minecraft-1.20.5-pre3" = _AvvmpNCJ;
+        "minecraft-24w18a" = _AvvmpNCJ;
+        "minecraft-24w19a" = _AvvmpNCJ;
+        "minecraft-24w19b" = _AvvmpNCJ;
+        "minecraft-24w20a" = _AvvmpNCJ;
+        "minecraft-24w33a" = _AvvmpNCJ;
+        "minecraft-24w34a" = _AvvmpNCJ;
+        "minecraft-24w35a" = _AvvmpNCJ;
+        "minecraft-24w36a" = _AvvmpNCJ;
+        "minecraft-24w37a" = _AvvmpNCJ;
+        "minecraft-24w38a" = _AvvmpNCJ;
+        "minecraft-24w39a" = _AvvmpNCJ;
+        "minecraft-24w40a" = _AvvmpNCJ;
+        "minecraft-1.21.2-pre1" = _AvvmpNCJ;
+        "minecraft-1.21.2-pre2" = _AvvmpNCJ;
+        "minecraft-24w44a" = _AvvmpNCJ;
+        "minecraft-24w45a" = _AvvmpNCJ;
+        "minecraft-24w46a" = _AvvmpNCJ;
+        "minecraft-26.1.1" = _AvvmpNCJ;
+        "minecraft-26.1.2" = _AvvmpNCJ;
+        "minecraft-26.2" = _AvvmpNCJ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "akeno-totem-(high-school-dxd)";
+            id = "SPQnb8J4";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="AvvmpNCJ";}

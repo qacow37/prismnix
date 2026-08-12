@@ -1,0 +1,139 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _5NSvrdor = {
+            "id" = "5NSvrdor";
+            "file" = "Area Protection.zip";
+            "hash" = "sha512-GvVyRqaz7yWSeOdN7BtWBKAjWZn7GnQxtofvvh6YjcWYYT22ypWYnl8JAyAva+hh6r5MLsNccSH3akao8VSZIA==";
+        };
+        _kcr0Ga8l = {
+            "id" = "kcr0Ga8l";
+            "file" = "area-protection-1.0.jar";
+            "hash" = "sha512-zS8Zu/lSPjHgjVjyX5MG6BBCfCGEJJY80wLuJfJaoqtUryBneK1vRuxZhRgPv6C4lclHA2weQZLj6u3wo12ibA==";
+        };
+        _QxZDuvgk = {
+            "id" = "QxZDuvgk";
+            "file" = "Area Protection.zip";
+            "hash" = "sha512-xhURFQ60KLFNgYtC7ZoN2dMmhkivsssuIF6UKZWSXlgKzQtKCj2YRRhY5eDvzB6DAhXUprG83guEVZSbR/tkYQ==";
+        };
+        _7vaNPGPY = {
+            "id" = "7vaNPGPY";
+            "file" = "area-protection-1.0.jar";
+            "hash" = "sha512-v4IdrtQ5tgLF05Aom9QINUaNNpk9fQegiUMVSTjG9odsufxV84NcOAfCEQNaGr+Dlp/pMC8oC+3sLzBTkB21AA==";
+        };
+    in {
+        "5NSvrdor" = _5NSvrdor;
+        "kcr0Ga8l" = _kcr0Ga8l;
+        "QxZDuvgk" = _QxZDuvgk;
+        "7vaNPGPY" = _7vaNPGPY;
+        "datapack-1.21" = _5NSvrdor;
+        "datapack-1.21.1" = _5NSvrdor;
+        "datapack-1.21.2" = _5NSvrdor;
+        "datapack-1.21.3" = _5NSvrdor;
+        "datapack-1.21.4" = _5NSvrdor;
+        "datapack-1.21.5" = _5NSvrdor;
+        "datapack-1.21.6" = _5NSvrdor;
+        "datapack-1.21.7" = _5NSvrdor;
+        "datapack-1.21.8" = _5NSvrdor;
+        "datapack-1.21.9" = _QxZDuvgk;
+        "datapack-1.21.10" = _QxZDuvgk;
+        "datapack-1.21.11" = _QxZDuvgk;
+        "datapack-26.1-snapshot-5" = _QxZDuvgk;
+        "datapack-26.1" = _QxZDuvgk;
+        "datapack-26.1.1" = _QxZDuvgk;
+        "datapack-26.1.2" = _QxZDuvgk;
+        "datapack-26.2-snapshot-7" = _QxZDuvgk;
+        "datapack-26.2" = _QxZDuvgk;
+        "fabric-1.21" = _kcr0Ga8l;
+        "fabric-1.21.1" = _kcr0Ga8l;
+        "fabric-1.21.2" = _kcr0Ga8l;
+        "fabric-1.21.3" = _kcr0Ga8l;
+        "fabric-1.21.4" = _kcr0Ga8l;
+        "fabric-1.21.5" = _kcr0Ga8l;
+        "fabric-1.21.6" = _kcr0Ga8l;
+        "fabric-1.21.7" = _kcr0Ga8l;
+        "fabric-1.21.8" = _kcr0Ga8l;
+        "fabric-1.21.9" = _7vaNPGPY;
+        "fabric-1.21.10" = _7vaNPGPY;
+        "fabric-1.21.11" = _7vaNPGPY;
+        "fabric-26.1-snapshot-5" = _7vaNPGPY;
+        "fabric-26.1" = _7vaNPGPY;
+        "fabric-26.1.1" = _7vaNPGPY;
+        "fabric-26.1.2" = _7vaNPGPY;
+        "fabric-26.2-snapshot-7" = _7vaNPGPY;
+        "fabric-26.2" = _7vaNPGPY;
+        "forge-1.21" = _kcr0Ga8l;
+        "forge-1.21.1" = _kcr0Ga8l;
+        "forge-1.21.2" = _kcr0Ga8l;
+        "forge-1.21.3" = _kcr0Ga8l;
+        "forge-1.21.4" = _kcr0Ga8l;
+        "forge-1.21.5" = _kcr0Ga8l;
+        "forge-1.21.6" = _kcr0Ga8l;
+        "forge-1.21.7" = _kcr0Ga8l;
+        "forge-1.21.8" = _kcr0Ga8l;
+        "forge-1.21.9" = _7vaNPGPY;
+        "forge-1.21.10" = _7vaNPGPY;
+        "forge-1.21.11" = _7vaNPGPY;
+        "forge-26.1-snapshot-5" = _7vaNPGPY;
+        "forge-26.1" = _7vaNPGPY;
+        "forge-26.1.1" = _7vaNPGPY;
+        "forge-26.1.2" = _7vaNPGPY;
+        "forge-26.2-snapshot-7" = _7vaNPGPY;
+        "forge-26.2" = _7vaNPGPY;
+        "neoforge-1.21" = _kcr0Ga8l;
+        "neoforge-1.21.1" = _kcr0Ga8l;
+        "neoforge-1.21.2" = _kcr0Ga8l;
+        "neoforge-1.21.3" = _kcr0Ga8l;
+        "neoforge-1.21.4" = _kcr0Ga8l;
+        "neoforge-1.21.5" = _kcr0Ga8l;
+        "neoforge-1.21.6" = _kcr0Ga8l;
+        "neoforge-1.21.7" = _kcr0Ga8l;
+        "neoforge-1.21.8" = _kcr0Ga8l;
+        "neoforge-1.21.9" = _7vaNPGPY;
+        "neoforge-1.21.10" = _7vaNPGPY;
+        "neoforge-1.21.11" = _7vaNPGPY;
+        "neoforge-26.1-snapshot-5" = _7vaNPGPY;
+        "neoforge-26.1" = _7vaNPGPY;
+        "neoforge-26.1.1" = _7vaNPGPY;
+        "neoforge-26.1.2" = _7vaNPGPY;
+        "neoforge-26.2-snapshot-7" = _7vaNPGPY;
+        "neoforge-26.2" = _7vaNPGPY;
+        "quilt-1.21" = _kcr0Ga8l;
+        "quilt-1.21.1" = _kcr0Ga8l;
+        "quilt-1.21.2" = _kcr0Ga8l;
+        "quilt-1.21.3" = _kcr0Ga8l;
+        "quilt-1.21.4" = _kcr0Ga8l;
+        "quilt-1.21.5" = _kcr0Ga8l;
+        "quilt-1.21.6" = _kcr0Ga8l;
+        "quilt-1.21.7" = _kcr0Ga8l;
+        "quilt-1.21.8" = _kcr0Ga8l;
+        "quilt-1.21.9" = _7vaNPGPY;
+        "quilt-1.21.10" = _7vaNPGPY;
+        "quilt-1.21.11" = _7vaNPGPY;
+        "quilt-26.1-snapshot-5" = _7vaNPGPY;
+        "quilt-26.1" = _7vaNPGPY;
+        "quilt-26.1.1" = _7vaNPGPY;
+        "quilt-26.1.2" = _7vaNPGPY;
+        "quilt-26.2-snapshot-7" = _7vaNPGPY;
+        "quilt-26.2" = _7vaNPGPY;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "area-protection";
+            id = "UjsMXE5s";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="7vaNPGPY";}

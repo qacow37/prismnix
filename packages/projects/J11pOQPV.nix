@@ -1,0 +1,115 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _djUwPIXV = {
+            "id" = "djUwPIXV";
+            "file" = "MinimalTPA-1.2.0.jar";
+            "hash" = "sha512-Qyr3Ubncu4GB6dPvsl4Y8W01/3hDSizhJ237ete6emZCkAKR1UUT6BllqD9jT5upNpJAWDBtbf3cyBjUq029yA==";
+        };
+        _gEPLHRg4 = {
+            "id" = "gEPLHRg4";
+            "file" = "MinimalTPA-1.2.1.jar";
+            "hash" = "sha512-IrkmECIlMPN+csm0HTTTN+DxKitpTHPevYD2/OJicHDFA6KN/0T9Cx7OciwlnKrp87uL/Tz8BNvTI/q3lF8pDQ==";
+        };
+    in {
+        "djUwPIXV" = _djUwPIXV;
+        "gEPLHRg4" = _gEPLHRg4;
+        "paper-1.12.2" = _gEPLHRg4;
+        "paper-1.13" = _gEPLHRg4;
+        "paper-1.13.1" = _gEPLHRg4;
+        "paper-1.13.2" = _gEPLHRg4;
+        "paper-1.14" = _gEPLHRg4;
+        "paper-1.14.1" = _gEPLHRg4;
+        "paper-1.14.2" = _gEPLHRg4;
+        "paper-1.14.3" = _gEPLHRg4;
+        "paper-1.14.4" = _gEPLHRg4;
+        "paper-1.15" = _gEPLHRg4;
+        "paper-1.15.1" = _gEPLHRg4;
+        "paper-1.15.2" = _gEPLHRg4;
+        "paper-1.16" = _gEPLHRg4;
+        "paper-1.16.1" = _gEPLHRg4;
+        "paper-1.16.2" = _gEPLHRg4;
+        "paper-1.16.3" = _gEPLHRg4;
+        "paper-1.16.4" = _gEPLHRg4;
+        "paper-1.16.5" = _gEPLHRg4;
+        "paper-1.17" = _gEPLHRg4;
+        "paper-1.17.1" = _gEPLHRg4;
+        "paper-1.18" = _gEPLHRg4;
+        "paper-1.18.1" = _gEPLHRg4;
+        "paper-1.18.2" = _gEPLHRg4;
+        "paper-1.19" = _gEPLHRg4;
+        "paper-1.19.1" = _gEPLHRg4;
+        "paper-1.19.2" = _gEPLHRg4;
+        "purpur-1.12.2" = _gEPLHRg4;
+        "purpur-1.13" = _gEPLHRg4;
+        "purpur-1.13.1" = _gEPLHRg4;
+        "purpur-1.13.2" = _gEPLHRg4;
+        "purpur-1.14" = _gEPLHRg4;
+        "purpur-1.14.1" = _gEPLHRg4;
+        "purpur-1.14.2" = _gEPLHRg4;
+        "purpur-1.14.3" = _gEPLHRg4;
+        "purpur-1.14.4" = _gEPLHRg4;
+        "purpur-1.15" = _gEPLHRg4;
+        "purpur-1.15.1" = _gEPLHRg4;
+        "purpur-1.15.2" = _gEPLHRg4;
+        "purpur-1.16" = _gEPLHRg4;
+        "purpur-1.16.1" = _gEPLHRg4;
+        "purpur-1.16.2" = _gEPLHRg4;
+        "purpur-1.16.3" = _gEPLHRg4;
+        "purpur-1.16.4" = _gEPLHRg4;
+        "purpur-1.16.5" = _gEPLHRg4;
+        "purpur-1.17" = _gEPLHRg4;
+        "purpur-1.17.1" = _gEPLHRg4;
+        "purpur-1.18" = _gEPLHRg4;
+        "purpur-1.18.1" = _gEPLHRg4;
+        "purpur-1.18.2" = _gEPLHRg4;
+        "purpur-1.19" = _gEPLHRg4;
+        "purpur-1.19.1" = _gEPLHRg4;
+        "purpur-1.19.2" = _gEPLHRg4;
+        "spigot-1.12.2" = _gEPLHRg4;
+        "spigot-1.13" = _gEPLHRg4;
+        "spigot-1.13.1" = _gEPLHRg4;
+        "spigot-1.13.2" = _gEPLHRg4;
+        "spigot-1.14" = _gEPLHRg4;
+        "spigot-1.14.1" = _gEPLHRg4;
+        "spigot-1.14.2" = _gEPLHRg4;
+        "spigot-1.14.3" = _gEPLHRg4;
+        "spigot-1.14.4" = _gEPLHRg4;
+        "spigot-1.15" = _gEPLHRg4;
+        "spigot-1.15.1" = _gEPLHRg4;
+        "spigot-1.15.2" = _gEPLHRg4;
+        "spigot-1.16" = _gEPLHRg4;
+        "spigot-1.16.1" = _gEPLHRg4;
+        "spigot-1.16.2" = _gEPLHRg4;
+        "spigot-1.16.3" = _gEPLHRg4;
+        "spigot-1.16.4" = _gEPLHRg4;
+        "spigot-1.16.5" = _gEPLHRg4;
+        "spigot-1.17" = _gEPLHRg4;
+        "spigot-1.17.1" = _gEPLHRg4;
+        "spigot-1.18" = _gEPLHRg4;
+        "spigot-1.18.1" = _gEPLHRg4;
+        "spigot-1.18.2" = _gEPLHRg4;
+        "spigot-1.19" = _gEPLHRg4;
+        "spigot-1.19.1" = _gEPLHRg4;
+        "spigot-1.19.2" = _gEPLHRg4;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "minimaltpa";
+            id = "J11pOQPV";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Mozilla Public License 2.0";
+                    shortName = "MPL-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="gEPLHRg4";}

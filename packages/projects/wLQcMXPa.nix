@@ -1,0 +1,189 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ohK3YRpq = {
+            "id" = "ohK3YRpq";
+            "file" = "ProtectionBlocks-1.0.1.jar";
+            "hash" = "sha512-d2WouwF0MTEhBakHFV3DASz5I4IwZvoeO2JT6zlkFHUJl5D54cEoM2Nx1KwoveOddDPvRhWQKnqt5YV+IismDA==";
+        };
+        _qLVa7K1o = {
+            "id" = "qLVa7K1o";
+            "file" = "ProtectionBlocks-1.0.2.jar";
+            "hash" = "sha512-irRi3xnLL+TMq3KuX/PJ/pVyik9yaHzrBYTKkVxWQsnPADMg6//ROrC54ipVrW43l4j2gH/bilZiBhf+/ucK8w==";
+        };
+        _OXvXxha2 = {
+            "id" = "OXvXxha2";
+            "file" = "ProtectionBlocks-1.0.3.jar";
+            "hash" = "sha512-qEwNAQYGfGG4n7XuzIGDJ9s4+XrNZWdM5kBktg42znbFlN4PdnNpHFZPVn6GU6l5geng2Y1U5G5mGN18vLJ/lA==";
+        };
+        _80Lhadn0 = {
+            "id" = "80Lhadn0";
+            "file" = "ProtectionBlocks-1.0.4.jar";
+            "hash" = "sha512-00NEVktuGNfVE5f/ocsofpm6LE0SbYs43PR6un9Nx3owsROp4J1U2ywYBMd26J8pymNWz31bMLSOO4LO+a0khA==";
+        };
+        _E3kJoIuL = {
+            "id" = "E3kJoIuL";
+            "file" = "ProtectionBlocks-1.0.5.jar";
+            "hash" = "sha512-DKL6/7oOjZrIp1bHIkxUkoTauHDp3mCLH47eaZfwMnnHdaswRYeP2nqhFUDUeI2QeuuhRw4hmptLS4UCs5+mNw==";
+        };
+        _ebZy0pOz = {
+            "id" = "ebZy0pOz";
+            "file" = "ProtectionBlocks-1.0.6.jar";
+            "hash" = "sha512-dndnyTExmgW7QO7WOGM0X9m76Hnrv2NnSIU+ytPxTialVWTYe1fjFV7MHrC6ozkgQn5IF3k91Qh0KmfyPeK3qw==";
+        };
+        _gRlWHmNB = {
+            "id" = "gRlWHmNB";
+            "file" = "ProtectionBlocks-1.0.7.jar";
+            "hash" = "sha512-iE/snmZzbfmGNbkFfTAukWSG8ZUjrIhVWWWKvZR3ESihfyZpNerOKOSxjCs6v48Psieb8fjpnsVR7qpl1BWUcA==";
+        };
+        _eRkeN9s9 = {
+            "id" = "eRkeN9s9";
+            "file" = "ProtectionBlocks-1.0.9.jar";
+            "hash" = "sha512-6x56jnybcXcO1ZhrGIHbuAUGbcV68U3s4ldEVdpzk2MFd3q1YvyRT/GQXFp3rcr5bKitrcXJcFxRUgSzZZqP0A==";
+        };
+        _zyRtfYta = {
+            "id" = "zyRtfYta";
+            "file" = "ProtectionBlocks-2.0.1.jar";
+            "hash" = "sha512-D27CqZebdyVYlHqTYbx6rlP/v+umU8mUCLyp0OJNfmLt431vKa8+HWrYeQUUkIlsgZmtZcG97lRjb9TeIrU9Bg==";
+        };
+    in {
+        "ohK3YRpq" = _ohK3YRpq;
+        "qLVa7K1o" = _qLVa7K1o;
+        "OXvXxha2" = _OXvXxha2;
+        "80Lhadn0" = _80Lhadn0;
+        "E3kJoIuL" = _E3kJoIuL;
+        "ebZy0pOz" = _ebZy0pOz;
+        "gRlWHmNB" = _gRlWHmNB;
+        "eRkeN9s9" = _eRkeN9s9;
+        "zyRtfYta" = _zyRtfYta;
+        "bukkit-1.17" = _zyRtfYta;
+        "bukkit-1.17.1" = _zyRtfYta;
+        "bukkit-1.18" = _zyRtfYta;
+        "bukkit-1.18.1" = _zyRtfYta;
+        "bukkit-1.18.2" = _zyRtfYta;
+        "bukkit-1.19" = _zyRtfYta;
+        "bukkit-1.19.1" = _zyRtfYta;
+        "bukkit-1.19.2" = _zyRtfYta;
+        "bukkit-1.19.3" = _zyRtfYta;
+        "bukkit-1.19.4" = _zyRtfYta;
+        "bukkit-1.20" = _zyRtfYta;
+        "bukkit-1.20.1" = _zyRtfYta;
+        "bukkit-1.20.2" = _zyRtfYta;
+        "bukkit-1.20.3" = _zyRtfYta;
+        "bukkit-1.20.4" = _zyRtfYta;
+        "bukkit-1.20.5" = _zyRtfYta;
+        "bukkit-1.20.6" = _zyRtfYta;
+        "bukkit-1.21" = _zyRtfYta;
+        "bukkit-1.21.1" = _zyRtfYta;
+        "bukkit-1.21.2" = _zyRtfYta;
+        "bukkit-1.21.3" = _zyRtfYta;
+        "bukkit-1.21.4" = _zyRtfYta;
+        "folia-1.17" = _zyRtfYta;
+        "folia-1.17.1" = _zyRtfYta;
+        "folia-1.18" = _zyRtfYta;
+        "folia-1.18.1" = _zyRtfYta;
+        "folia-1.18.2" = _zyRtfYta;
+        "folia-1.19" = _zyRtfYta;
+        "folia-1.19.1" = _zyRtfYta;
+        "folia-1.19.2" = _zyRtfYta;
+        "folia-1.19.3" = _zyRtfYta;
+        "folia-1.19.4" = _zyRtfYta;
+        "folia-1.20" = _zyRtfYta;
+        "folia-1.20.1" = _zyRtfYta;
+        "folia-1.20.2" = _zyRtfYta;
+        "folia-1.20.3" = _zyRtfYta;
+        "folia-1.20.4" = _zyRtfYta;
+        "folia-1.20.5" = _zyRtfYta;
+        "folia-1.20.6" = _zyRtfYta;
+        "folia-1.21" = _zyRtfYta;
+        "folia-1.21.1" = _zyRtfYta;
+        "folia-1.21.2" = _zyRtfYta;
+        "folia-1.21.3" = _zyRtfYta;
+        "folia-1.21.4" = _zyRtfYta;
+        "paper-1.17" = _zyRtfYta;
+        "paper-1.17.1" = _zyRtfYta;
+        "paper-1.18" = _zyRtfYta;
+        "paper-1.18.1" = _zyRtfYta;
+        "paper-1.18.2" = _zyRtfYta;
+        "paper-1.19" = _zyRtfYta;
+        "paper-1.19.1" = _zyRtfYta;
+        "paper-1.19.2" = _zyRtfYta;
+        "paper-1.19.3" = _zyRtfYta;
+        "paper-1.19.4" = _zyRtfYta;
+        "paper-1.20" = _zyRtfYta;
+        "paper-1.20.1" = _zyRtfYta;
+        "paper-1.20.2" = _zyRtfYta;
+        "paper-1.20.3" = _zyRtfYta;
+        "paper-1.20.4" = _zyRtfYta;
+        "paper-1.20.5" = _zyRtfYta;
+        "paper-1.20.6" = _zyRtfYta;
+        "paper-1.21" = _zyRtfYta;
+        "paper-1.21.1" = _zyRtfYta;
+        "paper-1.21.2" = _zyRtfYta;
+        "paper-1.21.3" = _zyRtfYta;
+        "paper-1.21.4" = _zyRtfYta;
+        "purpur-1.17" = _zyRtfYta;
+        "purpur-1.17.1" = _zyRtfYta;
+        "purpur-1.18" = _zyRtfYta;
+        "purpur-1.18.1" = _zyRtfYta;
+        "purpur-1.18.2" = _zyRtfYta;
+        "purpur-1.19" = _zyRtfYta;
+        "purpur-1.19.1" = _zyRtfYta;
+        "purpur-1.19.2" = _zyRtfYta;
+        "purpur-1.19.3" = _zyRtfYta;
+        "purpur-1.19.4" = _zyRtfYta;
+        "purpur-1.20" = _zyRtfYta;
+        "purpur-1.20.1" = _zyRtfYta;
+        "purpur-1.20.2" = _zyRtfYta;
+        "purpur-1.20.3" = _zyRtfYta;
+        "purpur-1.20.4" = _zyRtfYta;
+        "purpur-1.20.5" = _zyRtfYta;
+        "purpur-1.20.6" = _zyRtfYta;
+        "purpur-1.21" = _zyRtfYta;
+        "purpur-1.21.1" = _zyRtfYta;
+        "purpur-1.21.2" = _zyRtfYta;
+        "purpur-1.21.3" = _zyRtfYta;
+        "purpur-1.21.4" = _zyRtfYta;
+        "spigot-1.17" = _zyRtfYta;
+        "spigot-1.17.1" = _zyRtfYta;
+        "spigot-1.18" = _zyRtfYta;
+        "spigot-1.18.1" = _zyRtfYta;
+        "spigot-1.18.2" = _zyRtfYta;
+        "spigot-1.19" = _zyRtfYta;
+        "spigot-1.19.1" = _zyRtfYta;
+        "spigot-1.19.2" = _zyRtfYta;
+        "spigot-1.19.3" = _zyRtfYta;
+        "spigot-1.19.4" = _zyRtfYta;
+        "spigot-1.20" = _zyRtfYta;
+        "spigot-1.20.1" = _zyRtfYta;
+        "spigot-1.20.2" = _zyRtfYta;
+        "spigot-1.20.3" = _zyRtfYta;
+        "spigot-1.20.4" = _zyRtfYta;
+        "spigot-1.20.5" = _zyRtfYta;
+        "spigot-1.20.6" = _zyRtfYta;
+        "spigot-1.21" = _zyRtfYta;
+        "spigot-1.21.1" = _zyRtfYta;
+        "spigot-1.21.2" = _zyRtfYta;
+        "spigot-1.21.3" = _zyRtfYta;
+        "spigot-1.21.4" = _zyRtfYta;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "protectionblocks";
+            id = "wLQcMXPa";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="zyRtfYta";}

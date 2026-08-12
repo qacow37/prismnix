@@ -1,0 +1,111 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _SENgRkh9 = {
+            "id" = "SENgRkh9";
+            "file" = "SlightlyBetterMobs[1].zip";
+            "hash" = "sha512-BaEe1C5h5zxCjd3e0ygE47AZHgPw1NVvusCYT9AIcMXX9Wdd0tOHo7f0vRoGnuolnl8hjK5NKFZxCcDpT1Xhzg==";
+        };
+        _60fFFPUx = {
+            "id" = "60fFFPUx";
+            "file" = "SlightlyBetterMobs[1.2].zip";
+            "hash" = "sha512-JOPOzSYT0SzGKSo1mM7SAvegJzk6tzmYNIUju+YZSXK+Io6U9JyAJn/oN4CQLHnRNGjdPj6UcC+zEYlUM61a6w==";
+        };
+    in {
+        "SENgRkh9" = _SENgRkh9;
+        "60fFFPUx" = _60fFFPUx;
+        "minecraft-1.20" = _60fFFPUx;
+        "minecraft-1.20.1" = _60fFFPUx;
+        "minecraft-1.20.2" = _60fFFPUx;
+        "minecraft-1.20.3" = _60fFFPUx;
+        "minecraft-1.20.4" = _60fFFPUx;
+        "minecraft-1.20.5" = _60fFFPUx;
+        "minecraft-1.20.6" = _60fFFPUx;
+        "minecraft-1.21" = _60fFFPUx;
+        "minecraft-1.21.1" = _60fFFPUx;
+        "minecraft-1.21.2" = _60fFFPUx;
+        "minecraft-1.21.3" = _60fFFPUx;
+        "minecraft-1.21.4" = _60fFFPUx;
+        "minecraft-1.21.5" = _60fFFPUx;
+        "minecraft-1.21.6" = _60fFFPUx;
+        "minecraft-1.21.7" = _60fFFPUx;
+        "minecraft-1.21.8" = _60fFFPUx;
+        "minecraft-1.19" = _60fFFPUx;
+        "minecraft-1.19.1" = _60fFFPUx;
+        "minecraft-1.19.2" = _60fFFPUx;
+        "minecraft-22w42a" = _60fFFPUx;
+        "minecraft-22w43a" = _60fFFPUx;
+        "minecraft-22w44a" = _60fFFPUx;
+        "minecraft-1.19.3" = _60fFFPUx;
+        "minecraft-1.19.4" = _60fFFPUx;
+        "minecraft-23w14a" = _60fFFPUx;
+        "minecraft-23w16a" = _60fFFPUx;
+        "minecraft-23w31a" = _60fFFPUx;
+        "minecraft-23w32a" = _60fFFPUx;
+        "minecraft-23w33a" = _60fFFPUx;
+        "minecraft-23w35a" = _60fFFPUx;
+        "minecraft-1.20.2-pre1" = _60fFFPUx;
+        "minecraft-23w42a" = _60fFFPUx;
+        "minecraft-23w43a" = _60fFFPUx;
+        "minecraft-23w43b" = _60fFFPUx;
+        "minecraft-23w44a" = _60fFFPUx;
+        "minecraft-23w45a" = _60fFFPUx;
+        "minecraft-23w46a" = _60fFFPUx;
+        "minecraft-24w03a" = _60fFFPUx;
+        "minecraft-24w03b" = _60fFFPUx;
+        "minecraft-24w04a" = _60fFFPUx;
+        "minecraft-24w05a" = _60fFFPUx;
+        "minecraft-24w05b" = _60fFFPUx;
+        "minecraft-24w06a" = _60fFFPUx;
+        "minecraft-24w07a" = _60fFFPUx;
+        "minecraft-24w09a" = _60fFFPUx;
+        "minecraft-24w10a" = _60fFFPUx;
+        "minecraft-24w11a" = _60fFFPUx;
+        "minecraft-24w12a" = _60fFFPUx;
+        "minecraft-24w13a" = _60fFFPUx;
+        "minecraft-24w14potato" = _60fFFPUx;
+        "minecraft-24w14a" = _60fFFPUx;
+        "minecraft-1.20.5-pre1" = _60fFFPUx;
+        "minecraft-1.20.5-pre2" = _60fFFPUx;
+        "minecraft-1.20.5-pre3" = _60fFFPUx;
+        "minecraft-24w18a" = _60fFFPUx;
+        "minecraft-24w19a" = _60fFFPUx;
+        "minecraft-24w19b" = _60fFFPUx;
+        "minecraft-24w20a" = _60fFFPUx;
+        "minecraft-24w33a" = _60fFFPUx;
+        "minecraft-24w34a" = _60fFFPUx;
+        "minecraft-24w35a" = _60fFFPUx;
+        "minecraft-24w36a" = _60fFFPUx;
+        "minecraft-24w37a" = _60fFFPUx;
+        "minecraft-24w38a" = _60fFFPUx;
+        "minecraft-24w39a" = _60fFFPUx;
+        "minecraft-24w40a" = _60fFFPUx;
+        "minecraft-1.21.2-pre1" = _60fFFPUx;
+        "minecraft-1.21.2-pre2" = _60fFFPUx;
+        "minecraft-24w44a" = _60fFFPUx;
+        "minecraft-24w45a" = _60fFFPUx;
+        "minecraft-24w46a" = _60fFFPUx;
+        "minecraft-1.21.9" = _60fFFPUx;
+        "minecraft-1.21.10" = _60fFFPUx;
+        "minecraft-1.21.11" = _60fFFPUx;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "slightly-better-mobs";
+            id = "AdvFu0Ym";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="60fFFPUx";}

@@ -1,0 +1,675 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _IgbNQA2n = {
+            "id" = "IgbNQA2n";
+            "file" = "Oneblock-1.1.5.jar";
+            "hash" = "sha512-BN7y70oI/8HvqLSA91XNtjpQ0f1G2Pd/8NGnKfy1H2kvr30v2Ty1UInYYzg4ASwONcAupQ7/xiejmwG3jcqLEw==";
+        };
+        _hSaydK38 = {
+            "id" = "hSaydK38";
+            "file" = "Oneblock-1.1.6f.jar";
+            "hash" = "sha512-DLrB06OUThu6/pCLJdZu6J2FKZoCXF5OWNZ4e7wNkZe9USwveIy2DooK20Nof46YLPR6yNRWXmNxxbArHV8+mg==";
+        };
+        _ZthhhfeB = {
+            "id" = "ZthhhfeB";
+            "file" = "Oneblock-1.1.7.jar";
+            "hash" = "sha512-yC87+EHTRfOt2ta1Vr0OjhYnWbiOlBdsh7z4DjBPwheq8QlVhLAQvGdXi0z7mUMD0+MVxrmRAsVd2BoUoTrYgQ==";
+        };
+        _dcqwGwme = {
+            "id" = "dcqwGwme";
+            "file" = "Oneblock-1.2.0.jar";
+            "hash" = "sha512-YXPitpqEsFjjuneu5p8AiY7Po42uvlTedq/sAQ1wQi6wkhX3fRKiGwKNQk2GcIIS11XyRMGdH4S+iH2h5oqeYA==";
+        };
+        _MO4CafCW = {
+            "id" = "MO4CafCW";
+            "file" = "Oneblock-1.2.0f.jar";
+            "hash" = "sha512-KxMSCHdL1koafHJvEvZpSZve5B1332bF6R77F836YMzJqRBB1cDIW/zMAxzYy8m23h8mez+oX6YTxzazmsekPg==";
+        };
+        _9rEkuYzq = {
+            "id" = "9rEkuYzq";
+            "file" = "Oneblock-1.2.1.jar";
+            "hash" = "sha512-MsGQOU26dY/p0mcYRIqpT1o/R74grrybBOmnljOqtSiRAFScPxkxIl9r/dAz2U77LMqAZkrbEZDFqPQQ4MBFDg==";
+        };
+        _iebOTObM = {
+            "id" = "iebOTObM";
+            "file" = "Oneblock-1.2.1f.jar";
+            "hash" = "sha512-3PJKnvbHo6yKn5J1KTLoCWJxbvPLHg1KWwk55xh0JC5hJVIrofynoVRa/CxS1r7kdW6W7kbU3NX9wEz5Fw+CGA==";
+        };
+        _ssqkWVfP = {
+            "id" = "ssqkWVfP";
+            "file" = "Oneblock-1.2.2.jar";
+            "hash" = "sha512-k0rFRGMFpTY/zS7/5ZkiH0RIO6qMs0HZXEK6whqr4d72zxgwvfkcG9udg/7TyeNz+OtE3Sf7GCgwpdSiO/I6/w==";
+        };
+        _CZ7CVOL3 = {
+            "id" = "CZ7CVOL3";
+            "file" = "Oneblock-1.2.2f.jar";
+            "hash" = "sha512-TBrmrg7LofAYNxA8pW7BgKtJ6KQByNeGIm1vZC2o3pYd5YRUm/npyZ7PfDb5z+HjgbTZ8fUKYLoDh+FQ8uQVJQ==";
+        };
+        _MGmfUYYx = {
+            "id" = "MGmfUYYx";
+            "file" = "Oneblock-1.2.3.jar";
+            "hash" = "sha512-9aYhewejJDkA3u0mgQLBI6oOYG30y2X19ZliNNgD8XkfqzV0O4Ppn6oCEiFSKAb/nWb1W1pY9OKhhUgS8sb7yw==";
+        };
+        _fBNVmBte = {
+            "id" = "fBNVmBte";
+            "file" = "Oneblock-1.2.4.jar";
+            "hash" = "sha512-yWPt5JC69B7H4o81qkBjTbP2DsXIQ5SHwmqSGCPGxlStExA7uB6m2/Or+uXhyJlTONY86WRYH6eQjq13PPuOYQ==";
+        };
+        _onSUaKR3 = {
+            "id" = "onSUaKR3";
+            "file" = "Oneblock-1.2.5.jar";
+            "hash" = "sha512-Y3VMTJOF/wkEc1DdNj/8Wb/NP51iJ554W1cYDZXcOnEZa8x/hFJ7L7UpcULFcB4KTvveXCYzVFQ2yR8KkdxvKA==";
+        };
+        _W6SDBGic = {
+            "id" = "W6SDBGic";
+            "file" = "Oneblock-1.2.6.jar";
+            "hash" = "sha512-mL+t6J+HqNbxFQQpbfqjrU7lgBc82zBQkSpYgoxvzi1SRbUThNs0Y4/3ygqM+Di4g4LGVk1DZnuwgH3/vZl/zA==";
+        };
+        _Pkn15Rxw = {
+            "id" = "Pkn15Rxw";
+            "file" = "Oneblock-1.2.6f.jar";
+            "hash" = "sha512-MluGmh9ZyAXmHnd2wli2qwMSTi8iwTabMYBHU00bwQS+xwkWMa3xCP4VR74VpZ76SXbm6GexSa0xVBWLVugTBg==";
+        };
+        _oXr5FCNa = {
+            "id" = "oXr5FCNa";
+            "file" = "Oneblock-1.2.7.jar";
+            "hash" = "sha512-1NvdWrhsNzbU7GCBzv2jis6wBf3RoRRQST2uC1XhRtGDIzWufFmZQ4Y7vTC6ddFtloatNyqpkccr4g7PN7cePA==";
+        };
+        _bg1e6V7Y = {
+            "id" = "bg1e6V7Y";
+            "file" = "Oneblock-1.2.8.jar";
+            "hash" = "sha512-cRTBwUwGjGy3NaI0MHfE0de8ekx3xQcPdFH1G90vaMoqRV9ESdR2P+ssYqm5PhlRJadfi/4HGEc1z5i/X2kF8g==";
+        };
+        _JjdQGvjF = {
+            "id" = "JjdQGvjF";
+            "file" = "Oneblock-1.2.9.jar";
+            "hash" = "sha512-KBj0RVeISsiZQrFiTkxyNshTG4gCwjo5efIXFSfa660VnxHQ81EAHVGSAT9kv/meu6HImbrKDldsVjLlYvRo8Q==";
+        };
+        _Y8lCCPiW = {
+            "id" = "Y8lCCPiW";
+            "file" = "Oneblock-1.2.9f.jar";
+            "hash" = "sha512-+TmtjeNqEZMHF9WtKdHqUurG1k1pfRS83TCv8mJQag4xCC4hLmh6kTGn+Ol/kQNH4VXTOzIMuc8Xt8Qn2ocG/w==";
+        };
+        _uZIXk6h1 = {
+            "id" = "uZIXk6h1";
+            "file" = "Oneblock-1.2.9n.jar";
+            "hash" = "sha512-i/N7jYKS6ugwL4ktQw1QmGmmaY9OWQprfgv2fzpIq+4KWB+X/SwGZvXSDyBQnAfuDmU1nX6LIvkHY6/iFal42w==";
+        };
+        _GevuuSAn = {
+            "id" = "GevuuSAn";
+            "file" = "Oneblock-1.2.9q.jar";
+            "hash" = "sha512-17SbCYwYHSsdKccgLWD//A/KWGKZqqT3dPsYqGBQfVPnNFlL/U6ZYydculsHLUx+wVfrgw3IoYJJs8J8puowWQ==";
+        };
+        _bsQTK1bX = {
+            "id" = "bsQTK1bX";
+            "file" = "Oneblock-1.2.9w.jar";
+            "hash" = "sha512-FbKHho8CnikD762NtJAUv+T/E0dyU4ZCur+kkMNVA+YpGd9EWdNNeiDKl14ewF8wJILYFBP1N/yqDBPgpqK1zg==";
+        };
+        _zgImEisN = {
+            "id" = "zgImEisN";
+            "file" = "Oneblock-1.2.9x.jar";
+            "hash" = "sha512-XRf5yhsHXhDmfr6msVo2jcQHx4DG1w/nyVep1FX99dt4pErZMd0bRBaBjwADOoi1+awSW1pJhSUz/R6BIXqSlQ==";
+        };
+        _Pm8jiR5a = {
+            "id" = "Pm8jiR5a";
+            "file" = "Oneblock-1.3.0.jar";
+            "hash" = "sha512-M6HO7bq6bf9TRB0E86tnLufhOARb9o2/7XhGcn8yFWHlshwKNxmcLzppkEeN3y2RA7mQ0BTYOq/zyNNxAG+ocw==";
+        };
+        _Lg6ntKdi = {
+            "id" = "Lg6ntKdi";
+            "file" = "Oneblock-1.3.0f.jar";
+            "hash" = "sha512-mxJg+DQm8R3Pdd7ZCMlRNyLX7jMk+9ZSgGZb/e1T4rpO6lXja4Ev68uKvQbfhUIp9cQdgWIYS2/hwhLx6sH4LA==";
+        };
+        _JaGBJW0z = {
+            "id" = "JaGBJW0z";
+            "file" = "Oneblock-1.3.1.jar";
+            "hash" = "sha512-ZiX172P0np1NOUF9EngND/Rs9WVVRaexXaFWMWhU/spNJ72VmXXB4OPBHRJW8bpr3urLQbFkpftksb9X2BGrKA==";
+        };
+        _oZTuA0mP = {
+            "id" = "oZTuA0mP";
+            "file" = "Oneblock-1.3.2.jar";
+            "hash" = "sha512-SeDivzXeJCLoXlDwlXKeGtJyIVbg/HAI0iiwnQq6KFFQauPuNDP2vb71EXk8QmmzMA0TpJh3E6d42BpPSJ+new==";
+        };
+        _YFHxfikK = {
+            "id" = "YFHxfikK";
+            "file" = "Oneblock-1.3.2f.jar";
+            "hash" = "sha512-4Glcv2Em6U8K3MSXs9pNwI9Sp8cErNhQJ0+X+IYKuBblZ0TXwZw1ch2ICPErPRHkWOS0WtcI2X+++AtdoSNLqw==";
+        };
+        _sREI02mm = {
+            "id" = "sREI02mm";
+            "file" = "Oneblock-1.3.3.jar";
+            "hash" = "sha512-VjpmrhtoVEoV3EjGwjB4kBaEdx3QrQk+FawGnkrAATKIPeWhOPjL5g0j2APp1QNOPdcA/RVsJDPXs84yl2lLFA==";
+        };
+        _GB5KwcJM = {
+            "id" = "GB5KwcJM";
+            "file" = "Oneblock-1.3.3f.jar";
+            "hash" = "sha512-ABeDVZbLLSQG7GGwkltymECCM8SYmeF79Zmxde26ERXi8UVliHNc6lR7oIqzHv2tFudz8DEViuYSnkYhGAYW7w==";
+        };
+        _866S6EKP = {
+            "id" = "866S6EKP";
+            "file" = "Oneblock-1.3.4.jar";
+            "hash" = "sha512-pY6Ek7peXQi1m8pgq6F7LuyW0TNIgB6EmYUJBpnhOqPE4cQLP43SErhSq/ydNpetoln7yS47rHCVMUaMvtizyA==";
+        };
+        _qd5CVQjl = {
+            "id" = "qd5CVQjl";
+            "file" = "Oneblock-1.3.5.jar";
+            "hash" = "sha512-xv8720bR9ILmoj9lz1AYCRusDqrPajMOkKC+iRQPAC3Ht+oSGFtyz7QNmtNYHzwYkdyFsHC8h493NzrD0KqHoA==";
+        };
+        _pFNtfQcS = {
+            "id" = "pFNtfQcS";
+            "file" = "Oneblock-1.3.6.jar";
+            "hash" = "sha512-Ci1z4b/c4pVBDPgcQkS+QvUTZ5NIl6+625M1bF1szuADPdNHQ4kPPrQpf+6rueUfZfWuDHqvJJV0ZNdN5c75XA==";
+        };
+        _lwIA17MB = {
+            "id" = "lwIA17MB";
+            "file" = "Oneblock-1.3.7.jar";
+            "hash" = "sha512-xc6z39J9wN2AjoPo1Nru0iovYcutQ4yc+0RoXyx0cScRfJsuDcX8ocqEwIFD2QfuQWEr43plXxqgzfhvNhQf0Q==";
+        };
+        _M4RPuzkG = {
+            "id" = "M4RPuzkG";
+            "file" = "Oneblock-1.3.8.jar";
+            "hash" = "sha512-4xqrVWM0EnxbFz6SxIuHdt/+8icSwZdf1+XR0lVc4SC71fmToxPQujRkyDABZkCeMnlPkp08F6Gk+IVzIjhjaw==";
+        };
+        _fiL8bS1k = {
+            "id" = "fiL8bS1k";
+            "file" = "Oneblock-1.3.9.jar";
+            "hash" = "sha512-2wc88kFduY5o/jHtrfLPFeOZaBcLUFa8/og0672BqCw/j7Tg54SZVlN88x9yFrFViZc0K3dX/keZub0TA1dm/A==";
+        };
+        _Ir5F1OI3 = {
+            "id" = "Ir5F1OI3";
+            "file" = "Oneblock-1.3.9r.jar";
+            "hash" = "sha512-x1yIc7ZYN7iCWTKUM4nCAbbtk07SZ+FDA+k7dXICfuP322+210rN97+HBqy7tr7cZBrVTg6ZAJmSjHht75g6Tw==";
+        };
+        _RkPSS7JA = {
+            "id" = "RkPSS7JA";
+            "file" = "Oneblock-1.3.9u.jar";
+            "hash" = "sha512-XRrAIK0vSfxEHE/GxpuYhKP/r+76ResrKVWgbbPK0j8X50ww5WtxIRvCUNPoAGDpOk6SbJtPVAo2GLGBzS2Lvg==";
+        };
+        _QWu4r70L = {
+            "id" = "QWu4r70L";
+            "file" = "Oneblock-1.3.9w.jar";
+            "hash" = "sha512-fn1N+YzAxzxDd1yUyrRNPRuIMF5fZXjKJGe9KrpoBU3Y22THLF/jx9foBuAaeLLcgrdMYIU4OyyCInmKqAN8Gw==";
+        };
+        _YBtt2uoC = {
+            "id" = "YBtt2uoC";
+            "file" = "Oneblock-1.4.0.jar";
+            "hash" = "sha512-A6p0Z/VC7AZ2WVCBVT6CSyv0exaEgbDVQ13YrN2rbHX0u1AFr22+yX8euViAYRnidVEMiBIsl+PaNIyt/eGMYA==";
+        };
+        _ecOO5BXC = {
+            "id" = "ecOO5BXC";
+            "file" = "Oneblock-1.4.1.jar";
+            "hash" = "sha512-sDYXQBJfNm50rKauh3+myIL+duysnK233ivU6qR8UJi9xULr+f3HXOlJlw41SIskH5Aj/YM4q1R5JSPebsPmQQ==";
+        };
+        _zWi7KnDb = {
+            "id" = "zWi7KnDb";
+            "file" = "Oneblock-1.4.2.jar";
+            "hash" = "sha512-+7x52Et491/u6tFucNnUycG2eB/tPthgCA4xik+Ro6dtb+NsttHhkEEh1AV3q/+h7gFLl+ZhZBhe25VL2zdA0w==";
+        };
+        _u6oqJ2hR = {
+            "id" = "u6oqJ2hR";
+            "file" = "Oneblock-1.4.2b.jar";
+            "hash" = "sha512-IjFh6C7hj8x9sg+5QOdbafwJaHsm29fUVvnz/QxrcPk3upqJ8Cu0zYb9si9Rzc6U7wSvDDYB+cgSCOTaGBwqMQ==";
+        };
+        _bbP07oU9 = {
+            "id" = "bbP07oU9";
+            "file" = "Oneblock-1.4.2c.jar";
+            "hash" = "sha512-ydiqk2GVWnUuuvVr6QQILyytqTEirRDyrH868Np5e/gKQ09O+65VH6q55CZ10MUB6mbejY48eTLtRiz882XC1Q==";
+        };
+        _a1NCH2zJ = {
+            "id" = "a1NCH2zJ";
+            "file" = "Oneblock-1.4.3.jar";
+            "hash" = "sha512-lHxxtszj4Ik578jDm0/a1IESaZ1rDLi6nbMNnNOHEPd4dYba4rDek6lvif1SPtDdid7iC0nxoA9sLQ50InWV2Q==";
+        };
+        _mgtRNDqg = {
+            "id" = "mgtRNDqg";
+            "file" = "Oneblock-1.4.3b.jar";
+            "hash" = "sha512-N8Amzd+sXZhvApd2Ojd02heSCBhUvuPj4AHZZSbHa30fOaZxvBa1yxdGZwnMGmJ1SYA/k6zz+hIqlHOk8vbemA==";
+        };
+        _Djs6MCF3 = {
+            "id" = "Djs6MCF3";
+            "file" = "Oneblock-1.4.3c.jar";
+            "hash" = "sha512-ffdn1tST5tCYp4YTjPW9Any7KKSAe5UbInJgLlLaez20G5HQT6ptQ75/xZam+dfNgN/SKISQ9ia00uyH0XHemg==";
+        };
+        _Ww5KlKQg = {
+            "id" = "Ww5KlKQg";
+            "file" = "Oneblock-1.4.4.jar";
+            "hash" = "sha512-jqZLmhd4sxf2rzSmqpkJ3hu/0OcFwAb2xtva5Z8xC/G5Q+6IAsv7vkuqtXPUrkZEkgUNIDOdUJX6AN+tZqz8Ng==";
+        };
+        _O6RGwH5T = {
+            "id" = "O6RGwH5T";
+            "file" = "Oneblock-1.4.5.jar";
+            "hash" = "sha512-7gNHgAmZXi1SeAR9gd2idbGsT9hSZnb0dOz0rJB1alB/E8KCriL3n9wPNsd5p+YeqcA7BIXO0V+wp55P/nbn+g==";
+        };
+        _XzTZNfoO = {
+            "id" = "XzTZNfoO";
+            "file" = "Oneblock-1.4.5p.jar";
+            "hash" = "sha512-zAKptz22eUICDilxcXOOL+xXR6X3Go4xDAy6XTslKONiDsJBN1D9H9tVAKNkQ5TKUUxBVZmV/zAhv48NE2nVwQ==";
+        };
+        _jA7jHNGH = {
+            "id" = "jA7jHNGH";
+            "file" = "Oneblock-1.4.6.jar";
+            "hash" = "sha512-/+Idj2cZLA+sEcEvkolIC3GDAg/tc4XQ5MkcaXZqAr3kWbx5hAVUhEytJ83IyGnBfTR2CoIYPWg80Lse+Zdt0Q==";
+        };
+        _F6vGznCI = {
+            "id" = "F6vGznCI";
+            "file" = "Oneblock-1.4.7f.jar";
+            "hash" = "sha512-6AytDeOyxhCOFfVcVUtnn+6JRqxNZMwlf4XEJJikPbPPaW6/jFNnyy5spQmgzTZg8aXRWLwIuncQ1ijX32jyRw==";
+        };
+        _RcU6zgf9 = {
+            "id" = "RcU6zgf9";
+            "file" = "Oneblock-1.4.8.jar";
+            "hash" = "sha512-/lMGjk8fgdpvE8R6ymvT5xm0xGcxgxi5vlwJlL+RZHTWz0e3Mq4LzCG/k6VdGgtlgdltTg8WJvqYeNtZpchMNw==";
+        };
+        _2NtsqmRF = {
+            "id" = "2NtsqmRF";
+            "file" = "Oneblock-1.5.0.jar";
+            "hash" = "sha512-JzpEa3TMotLHsGTn5k6+dJN+dOCfYGiMwtk+VHB4BTfvYh16tfQEKSsQ4yUsEVFimhfCwetNmBt488xfTWhbMg==";
+        };
+        _wPoeNwug = {
+            "id" = "wPoeNwug";
+            "file" = "Oneblock-1.5.3.jar";
+            "hash" = "sha512-fR1tJXPagbb6Pf8MWFSDsq0CW0DR2V2j3vpE2Eut0HmLSmDkRDDxJbCH+8bgCg12E/CtHqvS1H5SkcT84f53MQ==";
+        };
+        _CQMzCHJl = {
+            "id" = "CQMzCHJl";
+            "file" = "Oneblock-1.5.4.jar";
+            "hash" = "sha512-2sWP8m3MbJUgH9EbFgKfXIG0GvglpESCwOu+VbNPvHP+pJy85WdiyGB3UetBMO7tgI+Lu1O3pn6S0xu5k6QY9A==";
+        };
+        _rnafTEJe = {
+            "id" = "rnafTEJe";
+            "file" = "Oneblock-1.6.0.jar";
+            "hash" = "sha512-6nEQm9wIwJZOOzQC6/Wkv7FohWcQtb1md9bbHwGhVoLtmdMAH8E8Qn+kYzypq4Cd/tmN9KCX0bH9V7UaL0lZiQ==";
+        };
+        _bi7fbbUM = {
+            "id" = "bi7fbbUM";
+            "file" = "Oneblock-1.6.1.jar";
+            "hash" = "sha512-/ioQ7rUmoDvAymByD8iW2UaulN9Jdc5wcC2ZUNpWdFRnSrgJpO1fiN7YW8VECwOog0SwggQpwQlufity6g8KfA==";
+        };
+        _1KWdBX8w = {
+            "id" = "1KWdBX8w";
+            "file" = "Oneblock-1.6.1a.jar";
+            "hash" = "sha512-Wa7zpU3hLwiKu3K217JrqjPv/WzQCX/f33j5szC18Tl5ElrorPsGNbGnb4v9U+aE+5ZmHibzFBMKmb8neZYxXw==";
+        };
+        _QeUlYXt7 = {
+            "id" = "QeUlYXt7";
+            "file" = "Oneblock-1.6.2.jar";
+            "hash" = "sha512-A87ZiMsUsbKDy+x+Mm8qOyMSfyfn/xXPMluhM2nPaznfqYmq4IU/vE2gHI1UpAmIDQ20AGs7Cq09MnNyyOFGRQ==";
+        };
+    in {
+        "IgbNQA2n" = _IgbNQA2n;
+        "hSaydK38" = _hSaydK38;
+        "ZthhhfeB" = _ZthhhfeB;
+        "dcqwGwme" = _dcqwGwme;
+        "MO4CafCW" = _MO4CafCW;
+        "9rEkuYzq" = _9rEkuYzq;
+        "iebOTObM" = _iebOTObM;
+        "ssqkWVfP" = _ssqkWVfP;
+        "CZ7CVOL3" = _CZ7CVOL3;
+        "MGmfUYYx" = _MGmfUYYx;
+        "fBNVmBte" = _fBNVmBte;
+        "onSUaKR3" = _onSUaKR3;
+        "W6SDBGic" = _W6SDBGic;
+        "Pkn15Rxw" = _Pkn15Rxw;
+        "oXr5FCNa" = _oXr5FCNa;
+        "bg1e6V7Y" = _bg1e6V7Y;
+        "JjdQGvjF" = _JjdQGvjF;
+        "Y8lCCPiW" = _Y8lCCPiW;
+        "uZIXk6h1" = _uZIXk6h1;
+        "GevuuSAn" = _GevuuSAn;
+        "bsQTK1bX" = _bsQTK1bX;
+        "zgImEisN" = _zgImEisN;
+        "Pm8jiR5a" = _Pm8jiR5a;
+        "Lg6ntKdi" = _Lg6ntKdi;
+        "JaGBJW0z" = _JaGBJW0z;
+        "oZTuA0mP" = _oZTuA0mP;
+        "YFHxfikK" = _YFHxfikK;
+        "sREI02mm" = _sREI02mm;
+        "GB5KwcJM" = _GB5KwcJM;
+        "866S6EKP" = _866S6EKP;
+        "qd5CVQjl" = _qd5CVQjl;
+        "pFNtfQcS" = _pFNtfQcS;
+        "lwIA17MB" = _lwIA17MB;
+        "M4RPuzkG" = _M4RPuzkG;
+        "fiL8bS1k" = _fiL8bS1k;
+        "Ir5F1OI3" = _Ir5F1OI3;
+        "RkPSS7JA" = _RkPSS7JA;
+        "QWu4r70L" = _QWu4r70L;
+        "YBtt2uoC" = _YBtt2uoC;
+        "ecOO5BXC" = _ecOO5BXC;
+        "zWi7KnDb" = _zWi7KnDb;
+        "u6oqJ2hR" = _u6oqJ2hR;
+        "bbP07oU9" = _bbP07oU9;
+        "a1NCH2zJ" = _a1NCH2zJ;
+        "mgtRNDqg" = _mgtRNDqg;
+        "Djs6MCF3" = _Djs6MCF3;
+        "Ww5KlKQg" = _Ww5KlKQg;
+        "O6RGwH5T" = _O6RGwH5T;
+        "XzTZNfoO" = _XzTZNfoO;
+        "jA7jHNGH" = _jA7jHNGH;
+        "F6vGznCI" = _F6vGznCI;
+        "RcU6zgf9" = _RcU6zgf9;
+        "2NtsqmRF" = _2NtsqmRF;
+        "wPoeNwug" = _wPoeNwug;
+        "CQMzCHJl" = _CQMzCHJl;
+        "rnafTEJe" = _rnafTEJe;
+        "bi7fbbUM" = _bi7fbbUM;
+        "1KWdBX8w" = _1KWdBX8w;
+        "QeUlYXt7" = _QeUlYXt7;
+        "bukkit-1.8" = _QeUlYXt7;
+        "bukkit-1.8.1" = _QeUlYXt7;
+        "bukkit-1.8.2" = _QeUlYXt7;
+        "bukkit-1.8.3" = _QeUlYXt7;
+        "bukkit-1.8.4" = _QeUlYXt7;
+        "bukkit-1.8.5" = _QeUlYXt7;
+        "bukkit-1.8.6" = _QeUlYXt7;
+        "bukkit-1.8.7" = _QeUlYXt7;
+        "bukkit-1.8.8" = _QeUlYXt7;
+        "bukkit-1.8.9" = _QeUlYXt7;
+        "bukkit-1.9" = _QeUlYXt7;
+        "bukkit-1.9.1" = _QeUlYXt7;
+        "bukkit-1.9.2" = _QeUlYXt7;
+        "bukkit-1.9.3" = _QeUlYXt7;
+        "bukkit-1.9.4" = _QeUlYXt7;
+        "bukkit-1.10" = _QeUlYXt7;
+        "bukkit-1.10.1" = _QeUlYXt7;
+        "bukkit-1.10.2" = _QeUlYXt7;
+        "bukkit-1.11" = _QeUlYXt7;
+        "bukkit-1.11.1" = _QeUlYXt7;
+        "bukkit-1.11.2" = _QeUlYXt7;
+        "bukkit-1.12" = _QeUlYXt7;
+        "bukkit-1.12.1" = _QeUlYXt7;
+        "bukkit-1.12.2" = _QeUlYXt7;
+        "bukkit-1.13" = _QeUlYXt7;
+        "bukkit-1.13.1" = _QeUlYXt7;
+        "bukkit-1.13.2" = _QeUlYXt7;
+        "bukkit-1.14" = _QeUlYXt7;
+        "bukkit-1.14.1" = _QeUlYXt7;
+        "bukkit-1.14.2" = _QeUlYXt7;
+        "bukkit-1.14.3" = _QeUlYXt7;
+        "bukkit-1.14.4" = _QeUlYXt7;
+        "bukkit-1.15" = _QeUlYXt7;
+        "bukkit-1.15.1" = _QeUlYXt7;
+        "bukkit-1.15.2" = _QeUlYXt7;
+        "bukkit-1.16" = _QeUlYXt7;
+        "bukkit-1.16.1" = _QeUlYXt7;
+        "bukkit-1.16.2" = _QeUlYXt7;
+        "bukkit-1.16.3" = _QeUlYXt7;
+        "bukkit-1.16.4" = _QeUlYXt7;
+        "bukkit-1.16.5" = _QeUlYXt7;
+        "bukkit-1.17" = _QeUlYXt7;
+        "bukkit-1.17.1" = _QeUlYXt7;
+        "bukkit-1.18" = _QeUlYXt7;
+        "bukkit-1.18.1" = _QeUlYXt7;
+        "bukkit-1.18.2" = _QeUlYXt7;
+        "bukkit-1.19" = _QeUlYXt7;
+        "bukkit-1.19.1" = _QeUlYXt7;
+        "bukkit-1.19.2" = _QeUlYXt7;
+        "bukkit-1.19.3" = _QeUlYXt7;
+        "bukkit-1.19.4" = _QeUlYXt7;
+        "bukkit-1.20" = _QeUlYXt7;
+        "bukkit-1.20.1" = _QeUlYXt7;
+        "bukkit-1.20.2" = _QeUlYXt7;
+        "bukkit-1.20.3" = _QeUlYXt7;
+        "bukkit-1.20.4" = _QeUlYXt7;
+        "bukkit-1.20.5" = _QeUlYXt7;
+        "bukkit-1.20.6" = _QeUlYXt7;
+        "bukkit-1.21" = _QeUlYXt7;
+        "bukkit-1.21.1" = _QeUlYXt7;
+        "bukkit-1.21.2" = _QeUlYXt7;
+        "bukkit-1.21.3" = _QeUlYXt7;
+        "bukkit-1.21.4" = _QeUlYXt7;
+        "bukkit-1.21.5" = _QeUlYXt7;
+        "bukkit-1.21.6" = _QeUlYXt7;
+        "bukkit-1.21.7" = _QeUlYXt7;
+        "bukkit-1.21.8" = _QeUlYXt7;
+        "bukkit-1.21.9" = _QeUlYXt7;
+        "bukkit-1.21.10" = _QeUlYXt7;
+        "bukkit-1.21.11" = _QeUlYXt7;
+        "bukkit-26.1" = _QeUlYXt7;
+        "bukkit-26.1.1" = _QeUlYXt7;
+        "bukkit-26.1.2" = _QeUlYXt7;
+        "bukkit-26.2" = _QeUlYXt7;
+        "paper-1.8" = _QeUlYXt7;
+        "paper-1.8.1" = _QeUlYXt7;
+        "paper-1.8.2" = _QeUlYXt7;
+        "paper-1.8.3" = _QeUlYXt7;
+        "paper-1.8.4" = _QeUlYXt7;
+        "paper-1.8.5" = _QeUlYXt7;
+        "paper-1.8.6" = _QeUlYXt7;
+        "paper-1.8.7" = _QeUlYXt7;
+        "paper-1.8.8" = _QeUlYXt7;
+        "paper-1.8.9" = _QeUlYXt7;
+        "paper-1.9" = _QeUlYXt7;
+        "paper-1.9.1" = _QeUlYXt7;
+        "paper-1.9.2" = _QeUlYXt7;
+        "paper-1.9.3" = _QeUlYXt7;
+        "paper-1.9.4" = _QeUlYXt7;
+        "paper-1.10" = _QeUlYXt7;
+        "paper-1.10.1" = _QeUlYXt7;
+        "paper-1.10.2" = _QeUlYXt7;
+        "paper-1.11" = _QeUlYXt7;
+        "paper-1.11.1" = _QeUlYXt7;
+        "paper-1.11.2" = _QeUlYXt7;
+        "paper-1.12" = _QeUlYXt7;
+        "paper-1.12.1" = _QeUlYXt7;
+        "paper-1.12.2" = _QeUlYXt7;
+        "paper-1.13" = _QeUlYXt7;
+        "paper-1.13.1" = _QeUlYXt7;
+        "paper-1.13.2" = _QeUlYXt7;
+        "paper-1.14" = _QeUlYXt7;
+        "paper-1.14.1" = _QeUlYXt7;
+        "paper-1.14.2" = _QeUlYXt7;
+        "paper-1.14.3" = _QeUlYXt7;
+        "paper-1.14.4" = _QeUlYXt7;
+        "paper-1.15" = _QeUlYXt7;
+        "paper-1.15.1" = _QeUlYXt7;
+        "paper-1.15.2" = _QeUlYXt7;
+        "paper-1.16" = _QeUlYXt7;
+        "paper-1.16.1" = _QeUlYXt7;
+        "paper-1.16.2" = _QeUlYXt7;
+        "paper-1.16.3" = _QeUlYXt7;
+        "paper-1.16.4" = _QeUlYXt7;
+        "paper-1.16.5" = _QeUlYXt7;
+        "paper-1.17" = _QeUlYXt7;
+        "paper-1.17.1" = _QeUlYXt7;
+        "paper-1.18" = _QeUlYXt7;
+        "paper-1.18.1" = _QeUlYXt7;
+        "paper-1.18.2" = _QeUlYXt7;
+        "paper-1.19" = _QeUlYXt7;
+        "paper-1.19.1" = _QeUlYXt7;
+        "paper-1.19.2" = _QeUlYXt7;
+        "paper-1.19.3" = _QeUlYXt7;
+        "paper-1.19.4" = _QeUlYXt7;
+        "paper-1.20" = _QeUlYXt7;
+        "paper-1.20.1" = _QeUlYXt7;
+        "paper-1.20.2" = _QeUlYXt7;
+        "paper-1.20.3" = _QeUlYXt7;
+        "paper-1.20.4" = _QeUlYXt7;
+        "paper-1.20.5" = _QeUlYXt7;
+        "paper-1.20.6" = _QeUlYXt7;
+        "paper-1.21" = _QeUlYXt7;
+        "paper-1.21.1" = _QeUlYXt7;
+        "paper-1.21.2" = _QeUlYXt7;
+        "paper-1.21.3" = _QeUlYXt7;
+        "paper-1.21.4" = _QeUlYXt7;
+        "paper-1.21.5" = _QeUlYXt7;
+        "paper-1.21.6" = _QeUlYXt7;
+        "paper-1.21.7" = _QeUlYXt7;
+        "paper-1.21.8" = _QeUlYXt7;
+        "paper-1.21.9" = _QeUlYXt7;
+        "paper-1.21.10" = _QeUlYXt7;
+        "paper-1.21.11" = _QeUlYXt7;
+        "paper-26.1" = _QeUlYXt7;
+        "paper-26.1.1" = _QeUlYXt7;
+        "paper-26.1.2" = _QeUlYXt7;
+        "paper-26.2" = _QeUlYXt7;
+        "spigot-1.8" = _QeUlYXt7;
+        "spigot-1.8.1" = _QeUlYXt7;
+        "spigot-1.8.2" = _QeUlYXt7;
+        "spigot-1.8.3" = _QeUlYXt7;
+        "spigot-1.8.4" = _QeUlYXt7;
+        "spigot-1.8.5" = _QeUlYXt7;
+        "spigot-1.8.6" = _QeUlYXt7;
+        "spigot-1.8.7" = _QeUlYXt7;
+        "spigot-1.8.8" = _QeUlYXt7;
+        "spigot-1.8.9" = _QeUlYXt7;
+        "spigot-1.9" = _QeUlYXt7;
+        "spigot-1.9.1" = _QeUlYXt7;
+        "spigot-1.9.2" = _QeUlYXt7;
+        "spigot-1.9.3" = _QeUlYXt7;
+        "spigot-1.9.4" = _QeUlYXt7;
+        "spigot-1.10" = _QeUlYXt7;
+        "spigot-1.10.1" = _QeUlYXt7;
+        "spigot-1.10.2" = _QeUlYXt7;
+        "spigot-1.11" = _QeUlYXt7;
+        "spigot-1.11.1" = _QeUlYXt7;
+        "spigot-1.11.2" = _QeUlYXt7;
+        "spigot-1.12" = _QeUlYXt7;
+        "spigot-1.12.1" = _QeUlYXt7;
+        "spigot-1.12.2" = _QeUlYXt7;
+        "spigot-1.13" = _QeUlYXt7;
+        "spigot-1.13.1" = _QeUlYXt7;
+        "spigot-1.13.2" = _QeUlYXt7;
+        "spigot-1.14" = _QeUlYXt7;
+        "spigot-1.14.1" = _QeUlYXt7;
+        "spigot-1.14.2" = _QeUlYXt7;
+        "spigot-1.14.3" = _QeUlYXt7;
+        "spigot-1.14.4" = _QeUlYXt7;
+        "spigot-1.15" = _QeUlYXt7;
+        "spigot-1.15.1" = _QeUlYXt7;
+        "spigot-1.15.2" = _QeUlYXt7;
+        "spigot-1.16" = _QeUlYXt7;
+        "spigot-1.16.1" = _QeUlYXt7;
+        "spigot-1.16.2" = _QeUlYXt7;
+        "spigot-1.16.3" = _QeUlYXt7;
+        "spigot-1.16.4" = _QeUlYXt7;
+        "spigot-1.16.5" = _QeUlYXt7;
+        "spigot-1.17" = _QeUlYXt7;
+        "spigot-1.17.1" = _QeUlYXt7;
+        "spigot-1.18" = _QeUlYXt7;
+        "spigot-1.18.1" = _QeUlYXt7;
+        "spigot-1.18.2" = _QeUlYXt7;
+        "spigot-1.19" = _QeUlYXt7;
+        "spigot-1.19.1" = _QeUlYXt7;
+        "spigot-1.19.2" = _QeUlYXt7;
+        "spigot-1.19.3" = _QeUlYXt7;
+        "spigot-1.19.4" = _QeUlYXt7;
+        "spigot-1.20" = _QeUlYXt7;
+        "spigot-1.20.1" = _QeUlYXt7;
+        "spigot-1.20.2" = _QeUlYXt7;
+        "spigot-1.20.3" = _QeUlYXt7;
+        "spigot-1.20.4" = _QeUlYXt7;
+        "spigot-1.20.5" = _QeUlYXt7;
+        "spigot-1.20.6" = _QeUlYXt7;
+        "spigot-1.21" = _QeUlYXt7;
+        "spigot-1.21.1" = _QeUlYXt7;
+        "spigot-1.21.2" = _QeUlYXt7;
+        "spigot-1.21.3" = _QeUlYXt7;
+        "spigot-1.21.4" = _QeUlYXt7;
+        "spigot-1.21.5" = _QeUlYXt7;
+        "spigot-1.21.6" = _QeUlYXt7;
+        "spigot-1.21.7" = _QeUlYXt7;
+        "spigot-1.21.8" = _QeUlYXt7;
+        "spigot-1.21.9" = _QeUlYXt7;
+        "spigot-1.21.10" = _QeUlYXt7;
+        "spigot-1.21.11" = _QeUlYXt7;
+        "spigot-26.1" = _QeUlYXt7;
+        "spigot-26.1.1" = _QeUlYXt7;
+        "spigot-26.1.2" = _QeUlYXt7;
+        "spigot-26.2" = _QeUlYXt7;
+        "purpur-1.8" = _QeUlYXt7;
+        "purpur-1.8.1" = _QeUlYXt7;
+        "purpur-1.8.2" = _QeUlYXt7;
+        "purpur-1.8.3" = _QeUlYXt7;
+        "purpur-1.8.4" = _QeUlYXt7;
+        "purpur-1.8.5" = _QeUlYXt7;
+        "purpur-1.8.6" = _QeUlYXt7;
+        "purpur-1.8.7" = _QeUlYXt7;
+        "purpur-1.8.8" = _QeUlYXt7;
+        "purpur-1.8.9" = _QeUlYXt7;
+        "purpur-1.9" = _QeUlYXt7;
+        "purpur-1.9.1" = _QeUlYXt7;
+        "purpur-1.9.2" = _QeUlYXt7;
+        "purpur-1.9.3" = _QeUlYXt7;
+        "purpur-1.9.4" = _QeUlYXt7;
+        "purpur-1.10" = _QeUlYXt7;
+        "purpur-1.10.1" = _QeUlYXt7;
+        "purpur-1.10.2" = _QeUlYXt7;
+        "purpur-1.11" = _QeUlYXt7;
+        "purpur-1.11.1" = _QeUlYXt7;
+        "purpur-1.11.2" = _QeUlYXt7;
+        "purpur-1.12" = _QeUlYXt7;
+        "purpur-1.12.1" = _QeUlYXt7;
+        "purpur-1.12.2" = _QeUlYXt7;
+        "purpur-1.13" = _QeUlYXt7;
+        "purpur-1.13.1" = _QeUlYXt7;
+        "purpur-1.13.2" = _QeUlYXt7;
+        "purpur-1.14" = _QeUlYXt7;
+        "purpur-1.14.1" = _QeUlYXt7;
+        "purpur-1.14.2" = _QeUlYXt7;
+        "purpur-1.14.3" = _QeUlYXt7;
+        "purpur-1.14.4" = _QeUlYXt7;
+        "purpur-1.15" = _QeUlYXt7;
+        "purpur-1.15.1" = _QeUlYXt7;
+        "purpur-1.15.2" = _QeUlYXt7;
+        "purpur-1.16" = _QeUlYXt7;
+        "purpur-1.16.1" = _QeUlYXt7;
+        "purpur-1.16.2" = _QeUlYXt7;
+        "purpur-1.16.3" = _QeUlYXt7;
+        "purpur-1.16.4" = _QeUlYXt7;
+        "purpur-1.16.5" = _QeUlYXt7;
+        "purpur-1.17" = _QeUlYXt7;
+        "purpur-1.17.1" = _QeUlYXt7;
+        "purpur-1.18" = _QeUlYXt7;
+        "purpur-1.18.1" = _QeUlYXt7;
+        "purpur-1.18.2" = _QeUlYXt7;
+        "purpur-1.19" = _QeUlYXt7;
+        "purpur-1.19.1" = _QeUlYXt7;
+        "purpur-1.19.2" = _QeUlYXt7;
+        "purpur-1.19.3" = _QeUlYXt7;
+        "purpur-1.19.4" = _QeUlYXt7;
+        "purpur-1.20" = _QeUlYXt7;
+        "purpur-1.20.1" = _QeUlYXt7;
+        "purpur-1.20.2" = _QeUlYXt7;
+        "purpur-1.20.3" = _QeUlYXt7;
+        "purpur-1.20.4" = _QeUlYXt7;
+        "purpur-1.20.5" = _QeUlYXt7;
+        "purpur-1.20.6" = _QeUlYXt7;
+        "purpur-1.21" = _QeUlYXt7;
+        "purpur-1.21.1" = _QeUlYXt7;
+        "purpur-1.21.2" = _QeUlYXt7;
+        "purpur-1.21.3" = _QeUlYXt7;
+        "purpur-1.21.4" = _QeUlYXt7;
+        "purpur-1.21.5" = _QeUlYXt7;
+        "purpur-1.21.6" = _QeUlYXt7;
+        "purpur-1.21.7" = _QeUlYXt7;
+        "purpur-1.21.8" = _QeUlYXt7;
+        "purpur-1.21.9" = _QeUlYXt7;
+        "purpur-1.21.10" = _QeUlYXt7;
+        "purpur-1.21.11" = _QeUlYXt7;
+        "purpur-26.1" = _QeUlYXt7;
+        "purpur-26.1.1" = _QeUlYXt7;
+        "purpur-26.1.2" = _QeUlYXt7;
+        "purpur-26.2" = _QeUlYXt7;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "oneblock_bukkit";
+            id = "gMMDcC2d";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://raw.githubusercontent.com/MrMarL/OneBlock/refs/heads/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="QeUlYXt7";}

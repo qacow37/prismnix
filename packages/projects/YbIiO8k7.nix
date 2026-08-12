@@ -1,0 +1,122 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _rVW3Wt71 = {
+            "id" = "rVW3Wt71";
+            "file" = "Invisible frames.zip";
+            "hash" = "sha512-udDS9CZReacHOptF0x1/5kr8ANsE/CJppPCSRqoXiuVRbmBmqLp6wUx0iGsCPUo4rMkuFx8Pb9qtNfz3REvdZA==";
+        };
+        _y4pq8WGx = {
+            "id" = "y4pq8WGx";
+            "file" = "Invisible frames.zip";
+            "hash" = "sha512-2fDdvG6xs6hOS9qBuymJniCodSDJsXc1n0IF53YsrXQOOPsxyOVEB9o0IznYylPLzcG8Bn8/fm4CytMga5gy/A==";
+        };
+    in {
+        "rVW3Wt71" = _rVW3Wt71;
+        "y4pq8WGx" = _y4pq8WGx;
+        "minecraft-1.4.2" = _y4pq8WGx;
+        "minecraft-1.4.4" = _y4pq8WGx;
+        "minecraft-1.4.5" = _y4pq8WGx;
+        "minecraft-1.4.6" = _y4pq8WGx;
+        "minecraft-1.4.7" = _y4pq8WGx;
+        "minecraft-1.5.1" = _y4pq8WGx;
+        "minecraft-1.5.2" = _y4pq8WGx;
+        "minecraft-1.6.1" = _y4pq8WGx;
+        "minecraft-1.6.2" = _y4pq8WGx;
+        "minecraft-1.6.4" = _y4pq8WGx;
+        "minecraft-1.7.2" = _y4pq8WGx;
+        "minecraft-1.7.3" = _y4pq8WGx;
+        "minecraft-1.7.4" = _y4pq8WGx;
+        "minecraft-1.7.5" = _y4pq8WGx;
+        "minecraft-1.7.6" = _y4pq8WGx;
+        "minecraft-1.7.7" = _y4pq8WGx;
+        "minecraft-1.7.8" = _y4pq8WGx;
+        "minecraft-1.7.9" = _y4pq8WGx;
+        "minecraft-1.7.10" = _y4pq8WGx;
+        "minecraft-1.8" = _y4pq8WGx;
+        "minecraft-1.8.1" = _y4pq8WGx;
+        "minecraft-1.8.2" = _y4pq8WGx;
+        "minecraft-1.8.3" = _y4pq8WGx;
+        "minecraft-1.8.4" = _y4pq8WGx;
+        "minecraft-1.8.5" = _y4pq8WGx;
+        "minecraft-1.8.6" = _y4pq8WGx;
+        "minecraft-1.8.7" = _y4pq8WGx;
+        "minecraft-1.8.8" = _y4pq8WGx;
+        "minecraft-1.8.9" = _y4pq8WGx;
+        "minecraft-1.9" = _y4pq8WGx;
+        "minecraft-1.9.1" = _y4pq8WGx;
+        "minecraft-1.9.2" = _y4pq8WGx;
+        "minecraft-1.9.3" = _y4pq8WGx;
+        "minecraft-1.9.4" = _y4pq8WGx;
+        "minecraft-1.10" = _y4pq8WGx;
+        "minecraft-1.10.1" = _y4pq8WGx;
+        "minecraft-1.10.2" = _y4pq8WGx;
+        "minecraft-1.11" = _y4pq8WGx;
+        "minecraft-1.11.1" = _y4pq8WGx;
+        "minecraft-1.11.2" = _y4pq8WGx;
+        "minecraft-1.12" = _y4pq8WGx;
+        "minecraft-1.12.1" = _y4pq8WGx;
+        "minecraft-1.12.2" = _y4pq8WGx;
+        "minecraft-1.13" = _y4pq8WGx;
+        "minecraft-1.13.1" = _y4pq8WGx;
+        "minecraft-1.13.2" = _y4pq8WGx;
+        "minecraft-1.14" = _y4pq8WGx;
+        "minecraft-1.14.1" = _y4pq8WGx;
+        "minecraft-1.14.2" = _y4pq8WGx;
+        "minecraft-1.14.3" = _y4pq8WGx;
+        "minecraft-1.14.4" = _y4pq8WGx;
+        "minecraft-1.15" = _y4pq8WGx;
+        "minecraft-1.15.1" = _y4pq8WGx;
+        "minecraft-1.15.2" = _y4pq8WGx;
+        "minecraft-1.16" = _y4pq8WGx;
+        "minecraft-1.16.1" = _y4pq8WGx;
+        "minecraft-1.16.2" = _y4pq8WGx;
+        "minecraft-1.16.3" = _y4pq8WGx;
+        "minecraft-1.16.4" = _y4pq8WGx;
+        "minecraft-1.16.5" = _y4pq8WGx;
+        "minecraft-1.17" = _y4pq8WGx;
+        "minecraft-1.17.1" = _y4pq8WGx;
+        "minecraft-1.18" = _y4pq8WGx;
+        "minecraft-1.18.1" = _y4pq8WGx;
+        "minecraft-1.18.2" = _y4pq8WGx;
+        "minecraft-1.19" = _y4pq8WGx;
+        "minecraft-1.19.1" = _y4pq8WGx;
+        "minecraft-1.19.2" = _y4pq8WGx;
+        "minecraft-1.19.3" = _y4pq8WGx;
+        "minecraft-1.19.4" = _y4pq8WGx;
+        "minecraft-1.20" = _y4pq8WGx;
+        "minecraft-1.20.1" = _y4pq8WGx;
+        "minecraft-1.20.2" = _y4pq8WGx;
+        "minecraft-1.20.3" = _y4pq8WGx;
+        "minecraft-1.20.4" = _y4pq8WGx;
+        "minecraft-1.20.5" = _y4pq8WGx;
+        "minecraft-1.20.6" = _y4pq8WGx;
+        "minecraft-1.21" = _y4pq8WGx;
+        "minecraft-1.21.1" = _y4pq8WGx;
+        "minecraft-1.21.2" = _y4pq8WGx;
+        "minecraft-1.21.3" = _y4pq8WGx;
+        "minecraft-1.21.4" = _y4pq8WGx;
+        "minecraft-1.21.5" = _y4pq8WGx;
+        "minecraft-1.21.6" = _y4pq8WGx;
+        "minecraft-1.21.7" = _y4pq8WGx;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "invisible-frame";
+            id = "YbIiO8k7";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="y4pq8WGx";}

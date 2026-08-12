@@ -1,0 +1,122 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _OhiozSq6 = {
+            "id" = "OhiozSq6";
+            "file" = "Better_Rivulet-0.2.zip";
+            "hash" = "sha512-48sYLvmmLg47mdhZlR9/ehgzKSAdiUWMglVMaXdd8QO6FlYjI+rR7bK+v6RXUJEKrrIFqrKLN3CsovifPpfLqQ==";
+        };
+        _sgVVadr3 = {
+            "id" = "sgVVadr3";
+            "file" = "better-rivulet-0.2.jar";
+            "hash" = "sha512-jWiGjSIEQneuEasvISJNSg88uVVoIP8+WhggEnDP/DY7467vF9lr1gsLDxFB8neBloZ4qpNdiD7b7UNcEusVDg==";
+        };
+    in {
+        "OhiozSq6" = _OhiozSq6;
+        "sgVVadr3" = _sgVVadr3;
+        "datapack-1.19.2" = _OhiozSq6;
+        "datapack-1.19.4" = _OhiozSq6;
+        "datapack-1.20.1" = _OhiozSq6;
+        "datapack-1.20.2" = _OhiozSq6;
+        "datapack-1.20.3" = _OhiozSq6;
+        "datapack-1.20.4" = _OhiozSq6;
+        "datapack-1.20.5" = _OhiozSq6;
+        "datapack-1.20.6" = _OhiozSq6;
+        "datapack-1.21" = _OhiozSq6;
+        "datapack-1.21.1" = _OhiozSq6;
+        "datapack-1.21.2" = _OhiozSq6;
+        "datapack-1.21.3" = _OhiozSq6;
+        "datapack-1.21.4" = _OhiozSq6;
+        "datapack-1.21.5" = _OhiozSq6;
+        "datapack-1.21.6" = _OhiozSq6;
+        "datapack-1.21.7" = _OhiozSq6;
+        "datapack-1.21.8" = _OhiozSq6;
+        "fabric-1.19.2" = _sgVVadr3;
+        "fabric-1.19.4" = _sgVVadr3;
+        "fabric-1.20.1" = _sgVVadr3;
+        "fabric-1.20.2" = _sgVVadr3;
+        "fabric-1.20.3" = _sgVVadr3;
+        "fabric-1.20.4" = _sgVVadr3;
+        "fabric-1.20.5" = _sgVVadr3;
+        "fabric-1.20.6" = _sgVVadr3;
+        "fabric-1.21" = _sgVVadr3;
+        "fabric-1.21.1" = _sgVVadr3;
+        "fabric-1.21.2" = _sgVVadr3;
+        "fabric-1.21.3" = _sgVVadr3;
+        "fabric-1.21.4" = _sgVVadr3;
+        "fabric-1.21.5" = _sgVVadr3;
+        "fabric-1.21.6" = _sgVVadr3;
+        "fabric-1.21.7" = _sgVVadr3;
+        "fabric-1.21.8" = _sgVVadr3;
+        "forge-1.19.2" = _sgVVadr3;
+        "forge-1.19.4" = _sgVVadr3;
+        "forge-1.20.1" = _sgVVadr3;
+        "forge-1.20.2" = _sgVVadr3;
+        "forge-1.20.3" = _sgVVadr3;
+        "forge-1.20.4" = _sgVVadr3;
+        "forge-1.20.5" = _sgVVadr3;
+        "forge-1.20.6" = _sgVVadr3;
+        "forge-1.21" = _sgVVadr3;
+        "forge-1.21.1" = _sgVVadr3;
+        "forge-1.21.2" = _sgVVadr3;
+        "forge-1.21.3" = _sgVVadr3;
+        "forge-1.21.4" = _sgVVadr3;
+        "forge-1.21.5" = _sgVVadr3;
+        "forge-1.21.6" = _sgVVadr3;
+        "forge-1.21.7" = _sgVVadr3;
+        "forge-1.21.8" = _sgVVadr3;
+        "neoforge-1.19.2" = _sgVVadr3;
+        "neoforge-1.19.4" = _sgVVadr3;
+        "neoforge-1.20.1" = _sgVVadr3;
+        "neoforge-1.20.2" = _sgVVadr3;
+        "neoforge-1.20.3" = _sgVVadr3;
+        "neoforge-1.20.4" = _sgVVadr3;
+        "neoforge-1.20.5" = _sgVVadr3;
+        "neoforge-1.20.6" = _sgVVadr3;
+        "neoforge-1.21" = _sgVVadr3;
+        "neoforge-1.21.1" = _sgVVadr3;
+        "neoforge-1.21.2" = _sgVVadr3;
+        "neoforge-1.21.3" = _sgVVadr3;
+        "neoforge-1.21.4" = _sgVVadr3;
+        "neoforge-1.21.5" = _sgVVadr3;
+        "neoforge-1.21.6" = _sgVVadr3;
+        "neoforge-1.21.7" = _sgVVadr3;
+        "neoforge-1.21.8" = _sgVVadr3;
+        "quilt-1.19.2" = _sgVVadr3;
+        "quilt-1.19.4" = _sgVVadr3;
+        "quilt-1.20.1" = _sgVVadr3;
+        "quilt-1.20.2" = _sgVVadr3;
+        "quilt-1.20.3" = _sgVVadr3;
+        "quilt-1.20.4" = _sgVVadr3;
+        "quilt-1.20.5" = _sgVVadr3;
+        "quilt-1.20.6" = _sgVVadr3;
+        "quilt-1.21" = _sgVVadr3;
+        "quilt-1.21.1" = _sgVVadr3;
+        "quilt-1.21.2" = _sgVVadr3;
+        "quilt-1.21.3" = _sgVVadr3;
+        "quilt-1.21.4" = _sgVVadr3;
+        "quilt-1.21.5" = _sgVVadr3;
+        "quilt-1.21.6" = _sgVVadr3;
+        "quilt-1.21.7" = _sgVVadr3;
+        "quilt-1.21.8" = _sgVVadr3;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "better-rivulet";
+            id = "mOPrMSP4";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="sgVVadr3";}

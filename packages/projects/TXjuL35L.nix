@@ -1,0 +1,33 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _32huTUZk = {
+            "id" = "32huTUZk";
+            "file" = "Outlines.zip";
+            "hash" = "sha512-wCjtB+KYn3OWRbXRvdlw3H5qMpqnkjT6npyINuz4UOhEdGYNACFDTU4UhLB4ohcyCk3FdQSSqjlCTriVibNAYA==";
+        };
+    in {
+        "32huTUZk" = _32huTUZk;
+        "minecraft-1.21.5" = _32huTUZk;
+        "vanilla-1.21.5" = _32huTUZk;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "outlines-contours";
+            id = "TXjuL35L";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="32huTUZk";}

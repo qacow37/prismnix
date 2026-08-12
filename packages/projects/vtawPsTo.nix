@@ -1,0 +1,348 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Dkyax1rl = {
+            "id" = "Dkyax1rl";
+            "file" = "multiverse-netherportals-4.2.3.jar";
+            "hash" = "sha512-Swxw/j0MRuop2up3WKEj6xGyqhDsN3bvGaUcDPVYwSv8+KAQzZPxyV99dZOaO8fm+cEQGpzljyFroAx81PgZOQ==";
+        };
+        _gBjoWOOR = {
+            "id" = "gBjoWOOR";
+            "file" = "multiverse-netherportals-4.3.0-pre.1.jar";
+            "hash" = "sha512-qxbs4rx5YG/V7Y5BvszPZj/XNwrDh/86IAvbpRi3Y8cPdtGIDP8fHotsls28L4OaZSL6ny0erF1rRrnCM1prQQ==";
+        };
+        _Y5nLyeAy = {
+            "id" = "Y5nLyeAy";
+            "file" = "multiverse-netherportals-4.3.0-pre.2.jar";
+            "hash" = "sha512-mSfjY7golQ8ItIkaqJEnAwPYNeS/SpuJ/C0MfpdWCblPgU6itdKdBCKdKLzGfupiIP6qJn2AlDyNDzyv81HcRA==";
+        };
+        _OhG5hNQs = {
+            "id" = "OhG5hNQs";
+            "file" = "multiverse-netherportals-4.3.0-pre.3.jar";
+            "hash" = "sha512-124Be7FzHkfFee0fo1aEX8BabBrpxE+SY/HBa3ZvZn5btnlur75FrWfI52st79HQ306OoIU/1xJiR+au4exsfQ==";
+        };
+        _rtUCA9mp = {
+            "id" = "rtUCA9mp";
+            "file" = "multiverse-netherportals-5.0.0-pre.1.jar";
+            "hash" = "sha512-/bvMCKz6xz6PxL+27WM4AWLtYLSDg6D9v3NV73Z3Nx2SmrKaCMZjMtf5zioSnnkT4lh4oTf5ed6MAxCdgIOsMA==";
+        };
+        _59DQXrxy = {
+            "id" = "59DQXrxy";
+            "file" = "multiverse-netherportals-5.0.0-pre.2.jar";
+            "hash" = "sha512-PzVhvsnS6eTQ8m/bjjFW/1FAZCtpwh18sdsWmSazKEGj0BHgaW973+XhVG8Gc6LGlhuGo+bqxsIKKWSrkoPnaQ==";
+        };
+        _1iUKGdOh = {
+            "id" = "1iUKGdOh";
+            "file" = "multiverse-netherportals-5.0.0-pre.3.jar";
+            "hash" = "sha512-kSBWKasFTBjMlE2Ss09v/iPx+L3MIfchDcFWkkz2YFqfF+XSHdDlvXCw82dD2MAljbgxjhV9SPRt9+MP7YNrKw==";
+        };
+        _IytynAmg = {
+            "id" = "IytynAmg";
+            "file" = "multiverse-netherportals-5.0.0-pre.4.jar";
+            "hash" = "sha512-5rtPr9CFJmNcufUoN4BZ/UqL/OAp/PSV7EaITKTnEcS521NxSR45x0rGs/2jQKt5JplVEOQZbDbRgSPMBrVlxA==";
+        };
+        _k4EZsV9A = {
+            "id" = "k4EZsV9A";
+            "file" = "multiverse-netherportals-5.0.0-pre.5.jar";
+            "hash" = "sha512-F7qgRB01UwygR/2PDPBe91L1ixiffmxuVpa72ezr4SXRjTy8lSovSNYckCd3JF8ymEASTmXzEst8qixNmRuOgg==";
+        };
+        _6IYi9F4x = {
+            "id" = "6IYi9F4x";
+            "file" = "multiverse-netherportals-5.0.0.jar";
+            "hash" = "sha512-uj0XJQHiBtl3yRyvHpeCIsGAsGDr5IPGq1sbHkW16D+TXWuNWoGNYaS1ukvE6xGXl5EJJCt/Ln1yFs7CM79KUA==";
+        };
+        _c3gZS6G2 = {
+            "id" = "c3gZS6G2";
+            "file" = "multiverse-netherportals-5.0.1-pre.jar";
+            "hash" = "sha512-Qoxfwv60fHJVfnZIhA8gvvDWJo2cNhdj1O7u4WU4G+JvB4XcqC18KAr/6y1BjXDcV6WO54czbUJe4DU06JOm7Q==";
+        };
+        _4FRFaoi6 = {
+            "id" = "4FRFaoi6";
+            "file" = "multiverse-netherportals-5.0.1.jar";
+            "hash" = "sha512-YOHEPQlKN9K2ih4vajsB7Umelpdi4dFKa3vRaU+7rI93mkQfz5SMOhN+LTNficUBpQSMZ9BmJs4hAgDHe2lVIw==";
+        };
+        _eeL7gr3f = {
+            "id" = "eeL7gr3f";
+            "file" = "multiverse-netherportals-5.0.2-pre.jar";
+            "hash" = "sha512-Xa3ZvgyIqMgHokDSebkHs1QbsAKBsoh2v1utWvWccq/jv0VIprY19Hm9RyYvSuaimlMy14CsP+LjlpXDA2ecaw==";
+        };
+        _8A7Nimis = {
+            "id" = "8A7Nimis";
+            "file" = "multiverse-netherportals-5.0.2.jar";
+            "hash" = "sha512-lZkViEef9v1OxgTghY+Bl7XWZB3Zerh9FcGwR/nskZEklDqT4MintX7CYZJZqxGTDb6qtGfXK9IcYS2EKd944Q==";
+        };
+        _avz043H7 = {
+            "id" = "avz043H7";
+            "file" = "multiverse-netherportals-5.0.3-pre.jar";
+            "hash" = "sha512-eLqGy5+qUMIB1BZwu+moJxhE8jFUn7zSzCQoxx6JPLbdDUX352EojQSipGf75hH446dUc1lCX7kQJf00c08RAw==";
+        };
+        _qhRw04dC = {
+            "id" = "qhRw04dC";
+            "file" = "multiverse-netherportals-5.0.3-pre.1.jar";
+            "hash" = "sha512-gn41zfM8rJS+Ac6RFF99j755nwZzi4TyMRhLGx4SzSiSXYOzeUfxaRYnmeIpB3K0i8Ki6us5REE81sr4juK1EA==";
+        };
+        _xTnZkHQL = {
+            "id" = "xTnZkHQL";
+            "file" = "multiverse-netherportals-5.0.3.jar";
+            "hash" = "sha512-HreGDjyqAtvIY+UX926r/VoKDAtouO8kSG0dsPji7oV+Ar7fXcBRZXvNiPEak2Q6yj9J82oSEPQACY2jsvvKZA==";
+        };
+        _u1tohThu = {
+            "id" = "u1tohThu";
+            "file" = "multiverse-netherportals-5.0.4-pre.jar";
+            "hash" = "sha512-r1KpR77cuASixr6Z0a6OlV4vhmbEc9VMI8/j6rrGWUzbM49J+U+F0Hwdp+PBsK1f/4S9qLSARXd1lEjoEVWuJA==";
+        };
+        _JVd0QB5k = {
+            "id" = "JVd0QB5k";
+            "file" = "multiverse-netherportals-5.0.4.jar";
+            "hash" = "sha512-+EykSVOWclcccWi6p9NtPU2mhqBwTZuKAPft63UfIcCeIaerlvY5jkVQrxsSLq/ocm0+RZK0OGwlB0Ne9mVvyw==";
+        };
+        _MV2ZBz3t = {
+            "id" = "MV2ZBz3t";
+            "file" = "multiverse-netherportals-5.0.5-pre.jar";
+            "hash" = "sha512-W1UzSKzJgPNqp6j+CTx6yJ2bqNKBB6qDZFDDgyb8CHOSafCr/Q4BIhO03dSrNv5sThEw13KJHq1Yd/uCSQyR2A==";
+        };
+        _H5s2uQM2 = {
+            "id" = "H5s2uQM2";
+            "file" = "multiverse-netherportals-5.0.5.jar";
+            "hash" = "sha512-WZD8rM3Pb4TCsGnN/uGXZmHzpyu5pdBhQShev+35rikuKDUWM0WOCPOP6SwZTCFBqcwR2rv7cU70cKdHHp7atg==";
+        };
+        _zHUNGRW7 = {
+            "id" = "zHUNGRW7";
+            "file" = "multiverse-netherportals-5.1.0-pre.jar";
+            "hash" = "sha512-WAReIh5dHHiMUZh2I6LepSuosde9FLGkbQyfSFH5+lPkYAmo0CLAwLguqLWjk6Fj+hX8XkGoItTc67rFqS8dGQ==";
+        };
+        _LrDEezxF = {
+            "id" = "LrDEezxF";
+            "file" = "multiverse-netherportals-5.1.0-pre.1.jar";
+            "hash" = "sha512-E1nuWY7SajY8Qzma4vYd/qelrGhQyl2lqjLTVUxfANP5f1YUEiCmaQYNGWIuDB0kHK34FrVpmv9Js7cbqG/joQ==";
+        };
+        _RRa80eDI = {
+            "id" = "RRa80eDI";
+            "file" = "multiverse-netherportals-5.1.0.jar";
+            "hash" = "sha512-IKlGwbKnAfp7uTMY9o5phXmYW1hxU4JCQMJw4HOlUBLqLuN85TMGypvTi6jdloRtMbApRt8blz+qfX9QBKtSOA==";
+        };
+    in {
+        "Dkyax1rl" = _Dkyax1rl;
+        "gBjoWOOR" = _gBjoWOOR;
+        "Y5nLyeAy" = _Y5nLyeAy;
+        "OhG5hNQs" = _OhG5hNQs;
+        "rtUCA9mp" = _rtUCA9mp;
+        "59DQXrxy" = _59DQXrxy;
+        "1iUKGdOh" = _1iUKGdOh;
+        "IytynAmg" = _IytynAmg;
+        "k4EZsV9A" = _k4EZsV9A;
+        "6IYi9F4x" = _6IYi9F4x;
+        "c3gZS6G2" = _c3gZS6G2;
+        "4FRFaoi6" = _4FRFaoi6;
+        "eeL7gr3f" = _eeL7gr3f;
+        "8A7Nimis" = _8A7Nimis;
+        "avz043H7" = _avz043H7;
+        "qhRw04dC" = _qhRw04dC;
+        "xTnZkHQL" = _xTnZkHQL;
+        "u1tohThu" = _u1tohThu;
+        "JVd0QB5k" = _JVd0QB5k;
+        "MV2ZBz3t" = _MV2ZBz3t;
+        "H5s2uQM2" = _H5s2uQM2;
+        "zHUNGRW7" = _zHUNGRW7;
+        "LrDEezxF" = _LrDEezxF;
+        "RRa80eDI" = _RRa80eDI;
+        "bukkit-1.13" = _OhG5hNQs;
+        "bukkit-1.13.1" = _OhG5hNQs;
+        "bukkit-1.13.2" = _OhG5hNQs;
+        "bukkit-1.14" = _OhG5hNQs;
+        "bukkit-1.14.1" = _OhG5hNQs;
+        "bukkit-1.14.2" = _OhG5hNQs;
+        "bukkit-1.14.3" = _OhG5hNQs;
+        "bukkit-1.14.4" = _OhG5hNQs;
+        "bukkit-1.15" = _OhG5hNQs;
+        "bukkit-1.15.1" = _OhG5hNQs;
+        "bukkit-1.15.2" = _OhG5hNQs;
+        "bukkit-1.16" = _OhG5hNQs;
+        "bukkit-1.16.1" = _OhG5hNQs;
+        "bukkit-1.16.2" = _OhG5hNQs;
+        "bukkit-1.16.3" = _OhG5hNQs;
+        "bukkit-1.16.4" = _OhG5hNQs;
+        "bukkit-1.16.5" = _OhG5hNQs;
+        "bukkit-1.17" = _OhG5hNQs;
+        "bukkit-1.17.1" = _OhG5hNQs;
+        "bukkit-1.18" = _OhG5hNQs;
+        "bukkit-1.18.1" = _OhG5hNQs;
+        "bukkit-1.18.2" = _RRa80eDI;
+        "bukkit-1.19" = _RRa80eDI;
+        "bukkit-1.19.1" = _RRa80eDI;
+        "bukkit-1.19.2" = _RRa80eDI;
+        "bukkit-1.19.3" = _RRa80eDI;
+        "bukkit-1.19.4" = _RRa80eDI;
+        "bukkit-1.20" = _RRa80eDI;
+        "bukkit-1.20.1" = _RRa80eDI;
+        "bukkit-1.20.2" = _RRa80eDI;
+        "bukkit-1.20.3" = _RRa80eDI;
+        "bukkit-1.20.4" = _RRa80eDI;
+        "bukkit-1.20.5" = _RRa80eDI;
+        "bukkit-1.20.6" = _RRa80eDI;
+        "bukkit-1.21" = _RRa80eDI;
+        "bukkit-1.21.1" = _RRa80eDI;
+        "bukkit-1.21.2" = _RRa80eDI;
+        "bukkit-1.21.3" = _RRa80eDI;
+        "bukkit-1.21.4" = _RRa80eDI;
+        "bukkit-1.21.5" = _RRa80eDI;
+        "bukkit-1.21.6" = _RRa80eDI;
+        "bukkit-1.21.7" = _RRa80eDI;
+        "bukkit-1.21.8" = _RRa80eDI;
+        "bukkit-1.21.9" = _RRa80eDI;
+        "bukkit-1.21.10" = _RRa80eDI;
+        "bukkit-1.21.11" = _RRa80eDI;
+        "bukkit-26.1" = _RRa80eDI;
+        "bukkit-26.1.1" = _RRa80eDI;
+        "bukkit-26.1.2" = _RRa80eDI;
+        "bukkit-26.2" = _RRa80eDI;
+        "paper-1.13" = _OhG5hNQs;
+        "paper-1.13.1" = _OhG5hNQs;
+        "paper-1.13.2" = _OhG5hNQs;
+        "paper-1.14" = _OhG5hNQs;
+        "paper-1.14.1" = _OhG5hNQs;
+        "paper-1.14.2" = _OhG5hNQs;
+        "paper-1.14.3" = _OhG5hNQs;
+        "paper-1.14.4" = _OhG5hNQs;
+        "paper-1.15" = _OhG5hNQs;
+        "paper-1.15.1" = _OhG5hNQs;
+        "paper-1.15.2" = _OhG5hNQs;
+        "paper-1.16" = _OhG5hNQs;
+        "paper-1.16.1" = _OhG5hNQs;
+        "paper-1.16.2" = _OhG5hNQs;
+        "paper-1.16.3" = _OhG5hNQs;
+        "paper-1.16.4" = _OhG5hNQs;
+        "paper-1.16.5" = _OhG5hNQs;
+        "paper-1.17" = _OhG5hNQs;
+        "paper-1.17.1" = _OhG5hNQs;
+        "paper-1.18" = _OhG5hNQs;
+        "paper-1.18.1" = _OhG5hNQs;
+        "paper-1.18.2" = _RRa80eDI;
+        "paper-1.19" = _RRa80eDI;
+        "paper-1.19.1" = _RRa80eDI;
+        "paper-1.19.2" = _RRa80eDI;
+        "paper-1.19.3" = _RRa80eDI;
+        "paper-1.19.4" = _RRa80eDI;
+        "paper-1.20" = _RRa80eDI;
+        "paper-1.20.1" = _RRa80eDI;
+        "paper-1.20.2" = _RRa80eDI;
+        "paper-1.20.3" = _RRa80eDI;
+        "paper-1.20.4" = _RRa80eDI;
+        "paper-1.20.5" = _RRa80eDI;
+        "paper-1.20.6" = _RRa80eDI;
+        "paper-1.21" = _RRa80eDI;
+        "paper-1.21.1" = _RRa80eDI;
+        "paper-1.21.2" = _RRa80eDI;
+        "paper-1.21.3" = _RRa80eDI;
+        "paper-1.21.4" = _RRa80eDI;
+        "paper-1.21.5" = _RRa80eDI;
+        "paper-1.21.6" = _RRa80eDI;
+        "paper-1.21.7" = _RRa80eDI;
+        "paper-1.21.8" = _RRa80eDI;
+        "paper-1.21.9" = _RRa80eDI;
+        "paper-1.21.10" = _RRa80eDI;
+        "paper-1.21.11" = _RRa80eDI;
+        "paper-26.1" = _RRa80eDI;
+        "paper-26.1.1" = _RRa80eDI;
+        "paper-26.1.2" = _RRa80eDI;
+        "paper-26.2" = _RRa80eDI;
+        "spigot-1.13" = _OhG5hNQs;
+        "spigot-1.13.1" = _OhG5hNQs;
+        "spigot-1.13.2" = _OhG5hNQs;
+        "spigot-1.14" = _OhG5hNQs;
+        "spigot-1.14.1" = _OhG5hNQs;
+        "spigot-1.14.2" = _OhG5hNQs;
+        "spigot-1.14.3" = _OhG5hNQs;
+        "spigot-1.14.4" = _OhG5hNQs;
+        "spigot-1.15" = _OhG5hNQs;
+        "spigot-1.15.1" = _OhG5hNQs;
+        "spigot-1.15.2" = _OhG5hNQs;
+        "spigot-1.16" = _OhG5hNQs;
+        "spigot-1.16.1" = _OhG5hNQs;
+        "spigot-1.16.2" = _OhG5hNQs;
+        "spigot-1.16.3" = _OhG5hNQs;
+        "spigot-1.16.4" = _OhG5hNQs;
+        "spigot-1.16.5" = _OhG5hNQs;
+        "spigot-1.17" = _OhG5hNQs;
+        "spigot-1.17.1" = _OhG5hNQs;
+        "spigot-1.18" = _OhG5hNQs;
+        "spigot-1.18.1" = _OhG5hNQs;
+        "spigot-1.18.2" = _RRa80eDI;
+        "spigot-1.19" = _RRa80eDI;
+        "spigot-1.19.1" = _RRa80eDI;
+        "spigot-1.19.2" = _RRa80eDI;
+        "spigot-1.19.3" = _RRa80eDI;
+        "spigot-1.19.4" = _RRa80eDI;
+        "spigot-1.20" = _RRa80eDI;
+        "spigot-1.20.1" = _RRa80eDI;
+        "spigot-1.20.2" = _RRa80eDI;
+        "spigot-1.20.3" = _RRa80eDI;
+        "spigot-1.20.4" = _RRa80eDI;
+        "spigot-1.20.5" = _RRa80eDI;
+        "spigot-1.20.6" = _RRa80eDI;
+        "spigot-1.21" = _RRa80eDI;
+        "spigot-1.21.1" = _RRa80eDI;
+        "spigot-1.21.2" = _RRa80eDI;
+        "spigot-1.21.3" = _RRa80eDI;
+        "spigot-1.21.4" = _RRa80eDI;
+        "spigot-1.21.5" = _RRa80eDI;
+        "spigot-1.21.6" = _RRa80eDI;
+        "spigot-1.21.7" = _RRa80eDI;
+        "spigot-1.21.8" = _RRa80eDI;
+        "spigot-1.21.9" = _RRa80eDI;
+        "spigot-1.21.10" = _RRa80eDI;
+        "spigot-1.21.11" = _RRa80eDI;
+        "spigot-26.1" = _RRa80eDI;
+        "spigot-26.1.1" = _RRa80eDI;
+        "spigot-26.1.2" = _RRa80eDI;
+        "spigot-26.2" = _RRa80eDI;
+        "purpur-1.18.2" = _RRa80eDI;
+        "purpur-1.19" = _RRa80eDI;
+        "purpur-1.19.1" = _RRa80eDI;
+        "purpur-1.19.2" = _RRa80eDI;
+        "purpur-1.19.3" = _RRa80eDI;
+        "purpur-1.19.4" = _RRa80eDI;
+        "purpur-1.20" = _RRa80eDI;
+        "purpur-1.20.1" = _RRa80eDI;
+        "purpur-1.20.2" = _RRa80eDI;
+        "purpur-1.20.3" = _RRa80eDI;
+        "purpur-1.20.4" = _RRa80eDI;
+        "purpur-1.20.5" = _RRa80eDI;
+        "purpur-1.20.6" = _RRa80eDI;
+        "purpur-1.21" = _RRa80eDI;
+        "purpur-1.21.1" = _RRa80eDI;
+        "purpur-1.21.2" = _RRa80eDI;
+        "purpur-1.21.3" = _RRa80eDI;
+        "purpur-1.21.4" = _RRa80eDI;
+        "purpur-1.21.5" = _RRa80eDI;
+        "purpur-1.21.6" = _RRa80eDI;
+        "purpur-1.21.7" = _RRa80eDI;
+        "purpur-1.21.8" = _RRa80eDI;
+        "purpur-1.21.9" = _RRa80eDI;
+        "purpur-1.21.10" = _RRa80eDI;
+        "purpur-1.21.11" = _RRa80eDI;
+        "purpur-26.1" = _RRa80eDI;
+        "purpur-26.1.1" = _RRa80eDI;
+        "purpur-26.1.2" = _RRa80eDI;
+        "purpur-26.2" = _RRa80eDI;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "multiverse-netherportals";
+            id = "vtawPsTo";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                    shortName = "BSD-3-Clause";
+                    url = "https://github.com/Multiverse/Multiverse-NetherPortals/blob/main/LICENSE.md";
+                };
+            };
+        };
+in callPackage fn {version="RRa80eDI";}

@@ -1,0 +1,284 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _5UcMqjxg = {
+            "id" = "5UcMqjxg";
+            "file" = "fadeless-1.0.0.jar";
+            "hash" = "sha512-B0BIDBjKPmytB5I+MDtR2XHko60w4Bz5W3o41WT8F0Qw5lGbDiZ3vUSGTQ0lXnCYUspAWAAF9CaJYCPFtzcpYQ==";
+        };
+        _j53ChsnW = {
+            "id" = "j53ChsnW";
+            "file" = "fadeless-1.0.1.jar";
+            "hash" = "sha512-i67OJIaik1Qnb7+8smetozPCbFmzvWYhAcMJrqFWieBkEdXkPlV2AftTKIJYp7QjnzTVcxMZcrCYqvaf+UOslg==";
+        };
+        _1b06wT0J = {
+            "id" = "1b06wT0J";
+            "file" = "fadeless-fabric-1.1.0.jar";
+            "hash" = "sha512-A+1gALJUMYDKxeKDMZxrmVnvOLJOSqlHBv5dpQntNOyute5DWlGNswv4VLkh5RzZxOl9Jv7hioHvOtZe/klRkQ==";
+        };
+        _ut8YpfNB = {
+            "id" = "ut8YpfNB";
+            "file" = "fadeless-forge-1.1.0.jar";
+            "hash" = "sha512-MLT8xL1Lo6Oz8uspQGjhu2PpuEuIQhYeJ9tbJDLTpH/EguFKDFsOuhHsPlQIg/ucm/pogbvQZlgbL0aT15u5NA==";
+        };
+        _gvsQ5qrH = {
+            "id" = "gvsQ5qrH";
+            "file" = "fadeless-neoforge-1.1.0.jar";
+            "hash" = "sha512-6cIv0bDMvTpmoeQ+4Rna7VLiJYXTcoL2Fp4FfJ2jWeDaE8qr6/6h0u5E1aEAxfN2H6NYmtp4XpWHkJ6erYuOAw==";
+        };
+        _m4Onx9Cy = {
+            "id" = "m4Onx9Cy";
+            "file" = "fadeless-fabric-1.1.1.jar";
+            "hash" = "sha512-NpYIkZDDumTLLxjxUX/9+vnIyjemN/IwPqMJGhEa6n9vLpUsMRgDTnCA3TBSYVhMaZIoD/53QYmsqAosM2g/wQ==";
+        };
+        _neyijY03 = {
+            "id" = "neyijY03";
+            "file" = "fadeless-2.0.0.jar";
+            "hash" = "sha512-lEEk5r+/4LNMW+veJSOccX6Wj+fTQUl2e4hMysrudPB3FdiMGa2QMR2SJT2KIsiS3Vc1bxPhWg+LtX5imo5DrA==";
+        };
+        _fOYd9ihS = {
+            "id" = "fOYd9ihS";
+            "file" = "fadeless-2.0.1.jar";
+            "hash" = "sha512-VBlQSCIDFFY0WOSUG/v5uSa3xGelGQcBUH4wBM4eWxWMPHxCgmlMltx6cksIcb4V2bqsBv5Bre/mx+6gXCp04w==";
+        };
+        _ybm0P9Cp = {
+            "id" = "ybm0P9Cp";
+            "file" = "fadeless-2.0.2.jar";
+            "hash" = "sha512-G1bVKeR43G3uywF3j0Wjtyl1XN6DFLlSB3deekfwrkzNhRPNu3tp2ZnDS1v0bEg/zjQHq7PdVQKJteqchvLkPQ==";
+        };
+        _PUSsXtz5 = {
+            "id" = "PUSsXtz5";
+            "file" = "fadeless-2.0.3.jar";
+            "hash" = "sha512-3LZt0Ve1niKI+b9DnV3bFD4CKd1ew+sR6W3gtUIHnSiGQfsFz/7i1OGsxNpks4g7/7TLnZA3LSvqte3UubsZVg==";
+        };
+        _XLisv6Nl = {
+            "id" = "XLisv6Nl";
+            "file" = "fadeless-2.0.4-1.21.6.jar";
+            "hash" = "sha512-d/Q6AAIHBT5A3oscd8o8tdHsADzQSnj7AWBtUAcYLsjfP7GURuFpwacl66lovun+agrd5QYwWexto3irQKa5Ug==";
+        };
+        _Tavwj3mZ = {
+            "id" = "Tavwj3mZ";
+            "file" = "fadeless-2.0.5-1.21.6-1.21.8.jar";
+            "hash" = "sha512-8jksTTFjCBeeEtJMVP7AJkFqcZAEWXugTjncabOgw944KO69LNttW7FU71Hzcp2ZTlMvCwl0WSBcCoIBudL0MQ==";
+        };
+        _r4NI6C7n = {
+            "id" = "r4NI6C7n";
+            "file" = "fadeless-2.0.5-1.21.9.jar";
+            "hash" = "sha512-j44TLWDD+VH99n0+xNgBTNtLgz3/7qqwTv0SERRZfwkg6h82R0TVXamYNADozCTidaGxWmjdadyHsymixbM5nw==";
+        };
+        _ztWcfPYk = {
+            "id" = "ztWcfPYk";
+            "file" = "fadeless-2.0.6-1.21.11.jar";
+            "hash" = "sha512-MJUgwY6eIHkdMmKxwvOqEAYUnXr8QKgPg33j7Iebd9yBOx/8EZHTaiG4TZzevllU3JmDCOigC0EsEzoVk9Bm1Q==";
+        };
+        _rDv0F5eE = {
+            "id" = "rDv0F5eE";
+            "file" = "fadeless-2.0.7-1.21.11.jar";
+            "hash" = "sha512-9gYHqjiJESn3fD5ZBa/oBmiUEca7fiB4ZvyAT36/yEs1ifyrjY50mA96DPxmNES7S4T/iQu4CS376C6YM3oO7A==";
+        };
+        _NUDdPq7H = {
+            "id" = "NUDdPq7H";
+            "file" = "fadeless-2.0.7-26.1.jar";
+            "hash" = "sha512-wOtB7hfi/BieO037yu3sIhMfuTQCFs/864VUt6n/I9g289gqW6CnDXdb0wxAtGKTH/SOaBQGT1ddgH54yjGxrg==";
+        };
+        _AuK4B1qm = {
+            "id" = "AuK4B1qm";
+            "file" = "fadeless-2.0.8-26.1.jar";
+            "hash" = "sha512-sgwgw0xstPh1ggOhWPsJn77x8pO0KpPxJWQVj+kwQdyVPp0eDIP31C/LqxezlDVUxWORr17NznchTyTCtIG5Ug==";
+        };
+        _GfYzYdx8 = {
+            "id" = "GfYzYdx8";
+            "file" = "fadeless-2.0.8-26.2.jar";
+            "hash" = "sha512-ulw/MR/nhyDMkTCzpn61lkvTDirOn9diT1j90XnS4z/IT4B/F3wXPfyULxqxObnd7xZSUZ0Nd2PoXGOXqQ1puA==";
+        };
+    in {
+        "5UcMqjxg" = _5UcMqjxg;
+        "j53ChsnW" = _j53ChsnW;
+        "1b06wT0J" = _1b06wT0J;
+        "ut8YpfNB" = _ut8YpfNB;
+        "gvsQ5qrH" = _gvsQ5qrH;
+        "m4Onx9Cy" = _m4Onx9Cy;
+        "neyijY03" = _neyijY03;
+        "fOYd9ihS" = _fOYd9ihS;
+        "ybm0P9Cp" = _ybm0P9Cp;
+        "PUSsXtz5" = _PUSsXtz5;
+        "XLisv6Nl" = _XLisv6Nl;
+        "Tavwj3mZ" = _Tavwj3mZ;
+        "r4NI6C7n" = _r4NI6C7n;
+        "ztWcfPYk" = _ztWcfPYk;
+        "rDv0F5eE" = _rDv0F5eE;
+        "NUDdPq7H" = _NUDdPq7H;
+        "AuK4B1qm" = _AuK4B1qm;
+        "GfYzYdx8" = _GfYzYdx8;
+        "fabric-1.20-pre1" = _5UcMqjxg;
+        "fabric-1.20" = _j53ChsnW;
+        "fabric-1.20.1" = _j53ChsnW;
+        "fabric-1.20.2" = _j53ChsnW;
+        "fabric-1.20.3" = _j53ChsnW;
+        "fabric-1.20.4-rc1" = _j53ChsnW;
+        "fabric-1.20.4" = _j53ChsnW;
+        "fabric-23w51a" = _j53ChsnW;
+        "fabric-23w51b" = _j53ChsnW;
+        "fabric-24w03a" = _j53ChsnW;
+        "fabric-24w03b" = _j53ChsnW;
+        "fabric-24w04a" = _j53ChsnW;
+        "fabric-24w05a" = _j53ChsnW;
+        "fabric-24w05b" = _j53ChsnW;
+        "fabric-24w06a" = _j53ChsnW;
+        "fabric-24w07a" = _j53ChsnW;
+        "fabric-24w09a" = _j53ChsnW;
+        "fabric-24w10a" = _j53ChsnW;
+        "fabric-24w11a" = _j53ChsnW;
+        "fabric-24w12a" = _j53ChsnW;
+        "fabric-24w13a" = _j53ChsnW;
+        "fabric-24w14potato" = _j53ChsnW;
+        "fabric-24w14a" = _j53ChsnW;
+        "fabric-1.20.5-pre1" = _j53ChsnW;
+        "fabric-1.20.5-pre2" = _j53ChsnW;
+        "fabric-1.20.5-pre3" = _j53ChsnW;
+        "fabric-1.20.5-pre4" = _j53ChsnW;
+        "fabric-1.20.5-rc1" = _j53ChsnW;
+        "fabric-1.20.5-rc2" = _j53ChsnW;
+        "fabric-1.20.5-rc3" = _j53ChsnW;
+        "fabric-1.20.5" = _j53ChsnW;
+        "fabric-1.20.6-rc1" = _j53ChsnW;
+        "fabric-1.20.6" = _j53ChsnW;
+        "fabric-24w18a" = _j53ChsnW;
+        "fabric-24w19a" = _j53ChsnW;
+        "fabric-24w19b" = _j53ChsnW;
+        "fabric-24w20a" = _j53ChsnW;
+        "fabric-24w21a" = _j53ChsnW;
+        "fabric-24w21b" = _j53ChsnW;
+        "fabric-1.21-pre1" = _j53ChsnW;
+        "fabric-1.21-pre2" = _j53ChsnW;
+        "fabric-1.21-pre3" = _j53ChsnW;
+        "fabric-1.21-pre4" = _j53ChsnW;
+        "fabric-1.21-rc1" = _j53ChsnW;
+        "fabric-1.21" = _fOYd9ihS;
+        "fabric-1.21.1" = _fOYd9ihS;
+        "fabric-24w33a" = _fOYd9ihS;
+        "fabric-24w34a" = _fOYd9ihS;
+        "fabric-24w35a" = _fOYd9ihS;
+        "fabric-24w36a" = _fOYd9ihS;
+        "fabric-24w37a" = _fOYd9ihS;
+        "fabric-24w38a" = _fOYd9ihS;
+        "fabric-24w39a" = _fOYd9ihS;
+        "fabric-24w40a" = _fOYd9ihS;
+        "fabric-1.21.2-pre1" = _fOYd9ihS;
+        "fabric-1.21.2" = _fOYd9ihS;
+        "fabric-1.21.3" = _fOYd9ihS;
+        "fabric-1.21.1-rc1" = _fOYd9ihS;
+        "fabric-1.21.2-pre2" = _fOYd9ihS;
+        "fabric-1.21.2-pre3" = _fOYd9ihS;
+        "fabric-1.21.2-pre4" = _fOYd9ihS;
+        "fabric-1.21.2-pre5" = _fOYd9ihS;
+        "fabric-1.21.2-rc1" = _fOYd9ihS;
+        "fabric-1.21.2-rc2" = _fOYd9ihS;
+        "fabric-1.21.4" = _PUSsXtz5;
+        "fabric-1.21.5" = _PUSsXtz5;
+        "fabric-1.21.6" = _Tavwj3mZ;
+        "fabric-1.21.7" = _Tavwj3mZ;
+        "fabric-1.21.8" = _Tavwj3mZ;
+        "fabric-1.21.9" = _r4NI6C7n;
+        "fabric-1.21.10" = _r4NI6C7n;
+        "fabric-1.21.11" = _rDv0F5eE;
+        "fabric-26.1" = _AuK4B1qm;
+        "fabric-26.1.1" = _AuK4B1qm;
+        "fabric-26.1.2" = _AuK4B1qm;
+        "fabric-26.2" = _GfYzYdx8;
+        "quilt-1.20" = _j53ChsnW;
+        "quilt-1.20.1" = _j53ChsnW;
+        "quilt-1.20.2" = _j53ChsnW;
+        "quilt-1.20.3" = _j53ChsnW;
+        "quilt-1.20.4-rc1" = _j53ChsnW;
+        "quilt-1.20.4" = _j53ChsnW;
+        "quilt-23w51a" = _j53ChsnW;
+        "quilt-23w51b" = _j53ChsnW;
+        "quilt-24w03a" = _j53ChsnW;
+        "quilt-24w03b" = _j53ChsnW;
+        "quilt-24w04a" = _j53ChsnW;
+        "quilt-24w05a" = _j53ChsnW;
+        "quilt-24w05b" = _j53ChsnW;
+        "quilt-24w06a" = _j53ChsnW;
+        "quilt-24w07a" = _j53ChsnW;
+        "quilt-24w09a" = _j53ChsnW;
+        "quilt-24w10a" = _j53ChsnW;
+        "quilt-24w11a" = _j53ChsnW;
+        "quilt-24w12a" = _j53ChsnW;
+        "quilt-24w13a" = _j53ChsnW;
+        "quilt-24w14potato" = _j53ChsnW;
+        "quilt-24w14a" = _j53ChsnW;
+        "quilt-1.20.5-pre1" = _j53ChsnW;
+        "quilt-1.20.5-pre2" = _j53ChsnW;
+        "quilt-1.20.5-pre3" = _j53ChsnW;
+        "quilt-1.20.5-pre4" = _j53ChsnW;
+        "quilt-1.20.5-rc1" = _j53ChsnW;
+        "quilt-1.20.5-rc2" = _j53ChsnW;
+        "quilt-1.20.5-rc3" = _j53ChsnW;
+        "quilt-1.20.5" = _j53ChsnW;
+        "quilt-1.20.6-rc1" = _j53ChsnW;
+        "quilt-1.20.6" = _j53ChsnW;
+        "quilt-24w18a" = _j53ChsnW;
+        "quilt-24w19a" = _j53ChsnW;
+        "quilt-24w19b" = _j53ChsnW;
+        "quilt-24w20a" = _j53ChsnW;
+        "quilt-24w21a" = _j53ChsnW;
+        "quilt-24w21b" = _j53ChsnW;
+        "quilt-1.21-pre1" = _j53ChsnW;
+        "quilt-1.21-pre2" = _j53ChsnW;
+        "quilt-1.21-pre3" = _j53ChsnW;
+        "quilt-1.21-pre4" = _j53ChsnW;
+        "quilt-1.21-rc1" = _j53ChsnW;
+        "quilt-1.21" = _fOYd9ihS;
+        "quilt-1.21.1" = _fOYd9ihS;
+        "quilt-24w33a" = _fOYd9ihS;
+        "quilt-24w34a" = _fOYd9ihS;
+        "quilt-24w35a" = _fOYd9ihS;
+        "quilt-24w36a" = _fOYd9ihS;
+        "quilt-24w37a" = _fOYd9ihS;
+        "quilt-24w38a" = _fOYd9ihS;
+        "quilt-24w39a" = _fOYd9ihS;
+        "quilt-24w40a" = _fOYd9ihS;
+        "quilt-1.21.2-pre1" = _fOYd9ihS;
+        "quilt-1.21.2" = _fOYd9ihS;
+        "quilt-1.21.3" = _fOYd9ihS;
+        "quilt-1.21.1-rc1" = _fOYd9ihS;
+        "quilt-1.21.2-pre2" = _fOYd9ihS;
+        "quilt-1.21.2-pre3" = _fOYd9ihS;
+        "quilt-1.21.2-pre4" = _fOYd9ihS;
+        "quilt-1.21.2-pre5" = _fOYd9ihS;
+        "quilt-1.21.2-rc1" = _fOYd9ihS;
+        "quilt-1.21.2-rc2" = _fOYd9ihS;
+        "quilt-1.21.4" = _ybm0P9Cp;
+        "quilt-1.21.6" = _Tavwj3mZ;
+        "quilt-1.21.7" = _Tavwj3mZ;
+        "quilt-1.21.8" = _Tavwj3mZ;
+        "quilt-1.21.11" = _rDv0F5eE;
+        "quilt-26.1" = _AuK4B1qm;
+        "quilt-26.1.1" = _AuK4B1qm;
+        "quilt-26.1.2" = _AuK4B1qm;
+        "forge-1.21" = _ut8YpfNB;
+        "forge-1.21.1" = _ut8YpfNB;
+        "neoforge-1.21" = _gvsQ5qrH;
+        "neoforge-1.21.1" = _gvsQ5qrH;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "fadeless";
+            id = "ncKjyGm3";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="GfYzYdx8";}

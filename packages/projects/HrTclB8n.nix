@@ -1,0 +1,178 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Di3FxAzr = {
+            "id" = "Di3FxAzr";
+            "file" = "HUB-1.0.0-f014d5f.jar";
+            "hash" = "sha512-/ftAL3k0NovIERs1RMXo3oybZffDv69ha0A02PRimiCHCLpJa7ph3BnVZBIsdizhVBUyWVLTbUvdl177Ca39jQ==";
+        };
+        _ZRsZcVXP = {
+            "id" = "ZRsZcVXP";
+            "file" = "HUB-1.0.1-667f6ca.jar";
+            "hash" = "sha512-2Tgm2vRgGygjFUtvBJfeJVwtVMOXm+98Ho56dGBwbVi/v4EeBglZEx94r3tywO/mfNxTXqZ6WbYjxMw1qEYIcA==";
+        };
+        _b7wn868T = {
+            "id" = "b7wn868T";
+            "file" = "HUB-1.1.0-c4e6340.jar";
+            "hash" = "sha512-60ehUfOCK0LSAbva8PMF+DTWWHX1lH8Q8GqQ7tvRttcr971mrQklZaxIuqOwHgSU+IBsm3MBrrG30gPVjNCzhw==";
+        };
+        _NxZUoGae = {
+            "id" = "NxZUoGae";
+            "file" = "HUB-1.1.1-a54ecec.jar";
+            "hash" = "sha512-/Tf1JpZNWOcwx7uarxOeld+D/3in89Iyd7joLjUHCgWnjzk4OKpEyCpFKnjWH0IL4zPvnK0zP1M0OLJH727i5Q==";
+        };
+        _Fjyaprku = {
+            "id" = "Fjyaprku";
+            "file" = "hub-2025-10-05-velocity-3.4.0-SNAPSHOT.jar";
+            "hash" = "sha512-1VK9c+jHL4odrCA1vuINyZ0+s9qmKGQD+JH6OO8plorwA9546nI+96v+b42ayOMlJaEIhTiBoZ+AYF/izwh9NA==";
+        };
+        _CaaZPt02 = {
+            "id" = "CaaZPt02";
+            "file" = "hub-2025.11.27-velocity-3.4.0-SNAPSHOT.jar";
+            "hash" = "sha512-BqzexkaGO7+rZuDgusyHW/VBnrJd1/HJdwTMBHIOysb3KmEapwmwAyWfmhlvEw11iodxUYtwkFVbD/YkCJi2GQ==";
+        };
+        _jiMkZjS4 = {
+            "id" = "jiMkZjS4";
+            "file" = "hub-2025.12.13-velocity-3.4.0-SNAPSHOT.jar";
+            "hash" = "sha512-GSmsljyDj4wET/XnuBpjyl9PwT+7SEm69EBpyDycE+hNzGHv7E3rF+G5tXdut7o4R1pzrKhKFWtvOBNGV9G54A==";
+        };
+        _8qpRxrMw = {
+            "id" = "8qpRxrMw";
+            "file" = "hub-2025.12.23a-velocity-3.4.0-SNAPSHOT.jar";
+            "hash" = "sha512-LimSWN35EVX4kCphh1Sbwi26K74H1OpltJkSlXDQI+C8YKnUoRxROEDjo3aZwW+lmigX1KzKEICR3wyLK7FDNg==";
+        };
+    in {
+        "Di3FxAzr" = _Di3FxAzr;
+        "ZRsZcVXP" = _ZRsZcVXP;
+        "b7wn868T" = _b7wn868T;
+        "NxZUoGae" = _NxZUoGae;
+        "Fjyaprku" = _Fjyaprku;
+        "CaaZPt02" = _CaaZPt02;
+        "jiMkZjS4" = _jiMkZjS4;
+        "8qpRxrMw" = _8qpRxrMw;
+        "velocity-1.8.9" = _8qpRxrMw;
+        "velocity-1.9" = _8qpRxrMw;
+        "velocity-1.9.1" = _8qpRxrMw;
+        "velocity-1.9.2" = _8qpRxrMw;
+        "velocity-1.9.3" = _8qpRxrMw;
+        "velocity-1.9.4" = _8qpRxrMw;
+        "velocity-1.10" = _8qpRxrMw;
+        "velocity-1.10.1" = _8qpRxrMw;
+        "velocity-1.10.2" = _8qpRxrMw;
+        "velocity-1.11" = _8qpRxrMw;
+        "velocity-1.11.1" = _8qpRxrMw;
+        "velocity-1.11.2" = _8qpRxrMw;
+        "velocity-1.12" = _8qpRxrMw;
+        "velocity-1.12.1" = _8qpRxrMw;
+        "velocity-1.12.2" = _8qpRxrMw;
+        "velocity-1.13" = _8qpRxrMw;
+        "velocity-1.13.1" = _8qpRxrMw;
+        "velocity-1.13.2" = _8qpRxrMw;
+        "velocity-1.14" = _8qpRxrMw;
+        "velocity-1.14.1" = _8qpRxrMw;
+        "velocity-1.14.2" = _8qpRxrMw;
+        "velocity-1.14.3" = _8qpRxrMw;
+        "velocity-1.14.4" = _8qpRxrMw;
+        "velocity-1.15" = _8qpRxrMw;
+        "velocity-1.15.1" = _8qpRxrMw;
+        "velocity-1.15.2" = _8qpRxrMw;
+        "velocity-1.16" = _8qpRxrMw;
+        "velocity-1.16.1" = _8qpRxrMw;
+        "velocity-1.16.2" = _8qpRxrMw;
+        "velocity-1.16.3" = _8qpRxrMw;
+        "velocity-1.16.4" = _8qpRxrMw;
+        "velocity-1.16.5" = _8qpRxrMw;
+        "velocity-1.17" = _8qpRxrMw;
+        "velocity-1.17.1" = _8qpRxrMw;
+        "velocity-1.18" = _8qpRxrMw;
+        "velocity-1.18.1" = _8qpRxrMw;
+        "velocity-1.18.2" = _8qpRxrMw;
+        "velocity-1.19" = _8qpRxrMw;
+        "velocity-1.19.1" = _8qpRxrMw;
+        "velocity-1.19.2" = _8qpRxrMw;
+        "velocity-1.19.3" = _8qpRxrMw;
+        "velocity-1.19.4" = _8qpRxrMw;
+        "velocity-1.20" = _8qpRxrMw;
+        "velocity-1.20.1" = _8qpRxrMw;
+        "velocity-1.20.2" = _8qpRxrMw;
+        "velocity-1.20.3" = _8qpRxrMw;
+        "velocity-1.20.4" = _8qpRxrMw;
+        "velocity-1.20.5" = _8qpRxrMw;
+        "velocity-1.20.6" = _8qpRxrMw;
+        "velocity-1.21" = _8qpRxrMw;
+        "velocity-1.21.1" = _8qpRxrMw;
+        "velocity-1.21.2" = _8qpRxrMw;
+        "velocity-1.21.3" = _8qpRxrMw;
+        "velocity-1.21.4" = _8qpRxrMw;
+        "velocity-1.21.5" = _8qpRxrMw;
+        "velocity-1.21.6" = _8qpRxrMw;
+        "velocity-1.21.7" = _8qpRxrMw;
+        "velocity-1.21.8" = _8qpRxrMw;
+        "velocity-1.21.9" = _8qpRxrMw;
+        "velocity-1.21.10" = _8qpRxrMw;
+        "velocity-1.8" = _8qpRxrMw;
+        "velocity-1.8.1" = _8qpRxrMw;
+        "velocity-1.8.2" = _8qpRxrMw;
+        "velocity-1.8.3" = _8qpRxrMw;
+        "velocity-1.8.4" = _8qpRxrMw;
+        "velocity-1.8.5" = _8qpRxrMw;
+        "velocity-1.8.6" = _8qpRxrMw;
+        "velocity-1.8.7" = _8qpRxrMw;
+        "velocity-1.8.8" = _8qpRxrMw;
+        "velocity-1.21.9-pre2" = _CaaZPt02;
+        "velocity-1.21.9-pre3" = _CaaZPt02;
+        "velocity-1.21.9-pre4" = _CaaZPt02;
+        "velocity-1.21.9-rc1" = _CaaZPt02;
+        "velocity-1.21.11-pre1" = _CaaZPt02;
+        "velocity-1.21.11-pre2" = _CaaZPt02;
+        "velocity-1.21.11-pre3" = _CaaZPt02;
+        "velocity-1.21.11" = _8qpRxrMw;
+        "velocity-1.0" = _8qpRxrMw;
+        "velocity-1.1" = _8qpRxrMw;
+        "velocity-1.2.1" = _8qpRxrMw;
+        "velocity-1.2.2" = _8qpRxrMw;
+        "velocity-1.2.3" = _8qpRxrMw;
+        "velocity-1.2.4" = _8qpRxrMw;
+        "velocity-1.2.5" = _8qpRxrMw;
+        "velocity-1.3.1" = _8qpRxrMw;
+        "velocity-1.3.2" = _8qpRxrMw;
+        "velocity-1.4.2" = _8qpRxrMw;
+        "velocity-1.4.4" = _8qpRxrMw;
+        "velocity-1.4.5" = _8qpRxrMw;
+        "velocity-1.4.6" = _8qpRxrMw;
+        "velocity-1.4.7" = _8qpRxrMw;
+        "velocity-1.5.1" = _8qpRxrMw;
+        "velocity-1.5.2" = _8qpRxrMw;
+        "velocity-1.6.1" = _8qpRxrMw;
+        "velocity-1.6.2" = _8qpRxrMw;
+        "velocity-1.6.4" = _8qpRxrMw;
+        "velocity-1.7.2" = _8qpRxrMw;
+        "velocity-1.7.3" = _8qpRxrMw;
+        "velocity-1.7.4" = _8qpRxrMw;
+        "velocity-1.7.5" = _8qpRxrMw;
+        "velocity-1.7.6" = _8qpRxrMw;
+        "velocity-1.7.7" = _8qpRxrMw;
+        "velocity-1.7.8" = _8qpRxrMw;
+        "velocity-1.7.9" = _8qpRxrMw;
+        "velocity-1.7.10" = _8qpRxrMw;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "hub";
+            id = "HrTclB8n";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="8qpRxrMw";}

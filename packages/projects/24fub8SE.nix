@@ -1,0 +1,131 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _nt2eSXcH = {
+            "id" = "nt2eSXcH";
+            "file" = "shopplugin-1.4.3.jar";
+            "hash" = "sha512-8fx7cRzsYXk7NUN8pCWadavgT+V6Rwji5cXN5DqdkoJ9LXTe5sFbxPtlbQk31GeZ0fl9TSUQAQTRUc1mGC/dgQ==";
+        };
+        _Wainn92t = {
+            "id" = "Wainn92t";
+            "file" = "shopplugin-1.4.4.jar";
+            "hash" = "sha512-W3gqwpYl+bBv56Fsle+KoF7Wnf5+pJ1HR1xUJPP3oYYJ126HD5+P5xrDf+LxAIo9KpZUZZ9fcHaunExi5B9XXw==";
+        };
+        _hd1l7Fge = {
+            "id" = "hd1l7Fge";
+            "file" = "shopplugin-1.4.5.jar";
+            "hash" = "sha512-Q+f61bO2wAzHedwQtXFqCkPCSl/g1kt5ofP7Aslwjh5EA5eaTynzINH711yqqtr7E9wo+B96xPACxoxI+EC6Iw==";
+        };
+    in {
+        "nt2eSXcH" = _nt2eSXcH;
+        "Wainn92t" = _Wainn92t;
+        "hd1l7Fge" = _hd1l7Fge;
+        "bukkit-1.18" = _hd1l7Fge;
+        "bukkit-1.18.1" = _hd1l7Fge;
+        "bukkit-1.18.2" = _hd1l7Fge;
+        "bukkit-1.19" = _hd1l7Fge;
+        "bukkit-1.19.1" = _hd1l7Fge;
+        "bukkit-1.19.2" = _hd1l7Fge;
+        "bukkit-1.19.3" = _hd1l7Fge;
+        "bukkit-1.19.4" = _hd1l7Fge;
+        "bukkit-1.20" = _hd1l7Fge;
+        "bukkit-1.20.1" = _hd1l7Fge;
+        "bukkit-1.20.2" = _hd1l7Fge;
+        "bukkit-1.20.3" = _hd1l7Fge;
+        "bukkit-1.20.4" = _hd1l7Fge;
+        "bukkit-1.20.5" = _hd1l7Fge;
+        "bukkit-1.20.6" = _hd1l7Fge;
+        "bukkit-1.21" = _hd1l7Fge;
+        "bukkit-1.21.1" = _hd1l7Fge;
+        "bukkit-1.21.2" = _hd1l7Fge;
+        "bukkit-1.21.3" = _hd1l7Fge;
+        "bukkit-1.21.4" = _hd1l7Fge;
+        "bukkit-1.21.5" = _hd1l7Fge;
+        "bukkit-1.21.6" = _hd1l7Fge;
+        "paper-1.18" = _hd1l7Fge;
+        "paper-1.18.1" = _hd1l7Fge;
+        "paper-1.18.2" = _hd1l7Fge;
+        "paper-1.19" = _hd1l7Fge;
+        "paper-1.19.1" = _hd1l7Fge;
+        "paper-1.19.2" = _hd1l7Fge;
+        "paper-1.19.3" = _hd1l7Fge;
+        "paper-1.19.4" = _hd1l7Fge;
+        "paper-1.20" = _hd1l7Fge;
+        "paper-1.20.1" = _hd1l7Fge;
+        "paper-1.20.2" = _hd1l7Fge;
+        "paper-1.20.3" = _hd1l7Fge;
+        "paper-1.20.4" = _hd1l7Fge;
+        "paper-1.20.5" = _hd1l7Fge;
+        "paper-1.20.6" = _hd1l7Fge;
+        "paper-1.21" = _hd1l7Fge;
+        "paper-1.21.1" = _hd1l7Fge;
+        "paper-1.21.2" = _hd1l7Fge;
+        "paper-1.21.3" = _hd1l7Fge;
+        "paper-1.21.4" = _hd1l7Fge;
+        "paper-1.21.5" = _hd1l7Fge;
+        "paper-1.21.6" = _hd1l7Fge;
+        "purpur-1.18" = _hd1l7Fge;
+        "purpur-1.18.1" = _hd1l7Fge;
+        "purpur-1.18.2" = _hd1l7Fge;
+        "purpur-1.19" = _hd1l7Fge;
+        "purpur-1.19.1" = _hd1l7Fge;
+        "purpur-1.19.2" = _hd1l7Fge;
+        "purpur-1.19.3" = _hd1l7Fge;
+        "purpur-1.19.4" = _hd1l7Fge;
+        "purpur-1.20" = _hd1l7Fge;
+        "purpur-1.20.1" = _hd1l7Fge;
+        "purpur-1.20.2" = _hd1l7Fge;
+        "purpur-1.20.3" = _hd1l7Fge;
+        "purpur-1.20.4" = _hd1l7Fge;
+        "purpur-1.20.5" = _hd1l7Fge;
+        "purpur-1.20.6" = _hd1l7Fge;
+        "purpur-1.21" = _hd1l7Fge;
+        "purpur-1.21.1" = _hd1l7Fge;
+        "purpur-1.21.2" = _hd1l7Fge;
+        "purpur-1.21.3" = _hd1l7Fge;
+        "purpur-1.21.4" = _hd1l7Fge;
+        "purpur-1.21.5" = _hd1l7Fge;
+        "purpur-1.21.6" = _hd1l7Fge;
+        "spigot-1.18" = _hd1l7Fge;
+        "spigot-1.18.1" = _hd1l7Fge;
+        "spigot-1.18.2" = _hd1l7Fge;
+        "spigot-1.19" = _hd1l7Fge;
+        "spigot-1.19.1" = _hd1l7Fge;
+        "spigot-1.19.2" = _hd1l7Fge;
+        "spigot-1.19.3" = _hd1l7Fge;
+        "spigot-1.19.4" = _hd1l7Fge;
+        "spigot-1.20" = _hd1l7Fge;
+        "spigot-1.20.1" = _hd1l7Fge;
+        "spigot-1.20.2" = _hd1l7Fge;
+        "spigot-1.20.3" = _hd1l7Fge;
+        "spigot-1.20.4" = _hd1l7Fge;
+        "spigot-1.20.5" = _hd1l7Fge;
+        "spigot-1.20.6" = _hd1l7Fge;
+        "spigot-1.21" = _hd1l7Fge;
+        "spigot-1.21.1" = _hd1l7Fge;
+        "spigot-1.21.2" = _hd1l7Fge;
+        "spigot-1.21.3" = _hd1l7Fge;
+        "spigot-1.21.4" = _hd1l7Fge;
+        "spigot-1.21.5" = _hd1l7Fge;
+        "spigot-1.21.6" = _hd1l7Fge;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "shopplugin";
+            id = "24fub8SE";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="hd1l7Fge";}

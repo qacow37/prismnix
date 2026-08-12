@@ -1,0 +1,113 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _3zCtkOMT = {
+            "id" = "3zCtkOMT";
+            "file" = "HardcoreDeluxe-0.2v-alpha.jar";
+            "hash" = "sha512-P7ZwKHmp++jteTw2jEhi9zM7Pjt4OQhV+HrYFA+9q9FIr820+JUN4B3zqKj+/uWYHBpyijMTiMuB/xJ+n5LOwQ==";
+        };
+        _pFYynHEI = {
+            "id" = "pFYynHEI";
+            "file" = "HardcoreDeluxe-0.5.jar";
+            "hash" = "sha512-O7fOWpDusMvAlkKcrOmRwouWlJDTSdXIAtj7CsRY3Uj0M5c++MRD+h6R/cMNyhmcwLeA+dnl7yeLRvisFGsczg==";
+        };
+    in {
+        "3zCtkOMT" = _3zCtkOMT;
+        "pFYynHEI" = _pFYynHEI;
+        "bukkit-1.20.4" = _pFYynHEI;
+        "bukkit-1.20.5" = _pFYynHEI;
+        "bukkit-1.20.6" = _pFYynHEI;
+        "bukkit-1.21" = _pFYynHEI;
+        "bukkit-1.21.1" = _pFYynHEI;
+        "bukkit-1.21.2" = _pFYynHEI;
+        "bukkit-1.21.3" = _pFYynHEI;
+        "bukkit-1.21.4" = _pFYynHEI;
+        "bukkit-1.21.5" = _pFYynHEI;
+        "bukkit-1.21.6" = _pFYynHEI;
+        "bukkit-1.21.7" = _pFYynHEI;
+        "bukkit-1.21.8" = _pFYynHEI;
+        "bukkit-1.21.9" = _pFYynHEI;
+        "bukkit-1.21.10" = _pFYynHEI;
+        "bukkit-1.21.11" = _pFYynHEI;
+        "bukkit-1.20" = _pFYynHEI;
+        "bukkit-1.20.1" = _pFYynHEI;
+        "bukkit-1.20.2" = _pFYynHEI;
+        "bukkit-1.20.3" = _pFYynHEI;
+        "paper-1.20.4" = _pFYynHEI;
+        "paper-1.20.5" = _pFYynHEI;
+        "paper-1.20.6" = _pFYynHEI;
+        "paper-1.21" = _pFYynHEI;
+        "paper-1.21.1" = _pFYynHEI;
+        "paper-1.21.2" = _pFYynHEI;
+        "paper-1.21.3" = _pFYynHEI;
+        "paper-1.21.4" = _pFYynHEI;
+        "paper-1.21.5" = _pFYynHEI;
+        "paper-1.21.6" = _pFYynHEI;
+        "paper-1.21.7" = _pFYynHEI;
+        "paper-1.21.8" = _pFYynHEI;
+        "paper-1.21.9" = _pFYynHEI;
+        "paper-1.21.10" = _pFYynHEI;
+        "paper-1.21.11" = _pFYynHEI;
+        "paper-1.20" = _pFYynHEI;
+        "paper-1.20.1" = _pFYynHEI;
+        "paper-1.20.2" = _pFYynHEI;
+        "paper-1.20.3" = _pFYynHEI;
+        "purpur-1.20.4" = _pFYynHEI;
+        "purpur-1.20.5" = _pFYynHEI;
+        "purpur-1.20.6" = _pFYynHEI;
+        "purpur-1.21" = _pFYynHEI;
+        "purpur-1.21.1" = _pFYynHEI;
+        "purpur-1.21.2" = _pFYynHEI;
+        "purpur-1.21.3" = _pFYynHEI;
+        "purpur-1.21.4" = _pFYynHEI;
+        "purpur-1.21.5" = _pFYynHEI;
+        "purpur-1.21.6" = _pFYynHEI;
+        "purpur-1.21.7" = _pFYynHEI;
+        "purpur-1.21.8" = _pFYynHEI;
+        "purpur-1.21.9" = _pFYynHEI;
+        "purpur-1.21.10" = _pFYynHEI;
+        "purpur-1.21.11" = _pFYynHEI;
+        "purpur-1.20" = _pFYynHEI;
+        "purpur-1.20.1" = _pFYynHEI;
+        "purpur-1.20.2" = _pFYynHEI;
+        "purpur-1.20.3" = _pFYynHEI;
+        "spigot-1.20.4" = _pFYynHEI;
+        "spigot-1.20.5" = _pFYynHEI;
+        "spigot-1.20.6" = _pFYynHEI;
+        "spigot-1.21" = _pFYynHEI;
+        "spigot-1.21.1" = _pFYynHEI;
+        "spigot-1.21.2" = _pFYynHEI;
+        "spigot-1.21.3" = _pFYynHEI;
+        "spigot-1.21.4" = _pFYynHEI;
+        "spigot-1.21.5" = _pFYynHEI;
+        "spigot-1.21.6" = _pFYynHEI;
+        "spigot-1.21.7" = _pFYynHEI;
+        "spigot-1.21.8" = _pFYynHEI;
+        "spigot-1.21.9" = _pFYynHEI;
+        "spigot-1.21.10" = _pFYynHEI;
+        "spigot-1.21.11" = _pFYynHEI;
+        "spigot-1.20" = _pFYynHEI;
+        "spigot-1.20.1" = _pFYynHEI;
+        "spigot-1.20.2" = _pFYynHEI;
+        "spigot-1.20.3" = _pFYynHEI;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "hardcore-deluxe";
+            id = "2QtwOFrU";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="pFYynHEI";}

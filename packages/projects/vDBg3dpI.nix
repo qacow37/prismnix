@@ -1,0 +1,127 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _WOehrAYV = {
+            "id" = "WOehrAYV";
+            "file" = "Mythic Mounts.zip";
+            "hash" = "sha512-GdktxSmiW/ckQ5RWctCVBFGSM7bbauDw3U8fK3oX8ZnxpwU8I+gUAqv+H8ZEWvxCzUH0bu8WWuGXPc/mDLZ+ag==";
+        };
+        _a8WVUitL = {
+            "id" = "a8WVUitL";
+            "file" = "mythic_mounts-1.0V.jar";
+            "hash" = "sha512-Wv2yGprGuJ9gPRzMwjhofD2iWW/qum6RsuO760yCl4OOUwR8XOYStaHYnsqSTy6ZDNT3f0DPRCLPJXXuyJi8jg==";
+        };
+    in {
+        "WOehrAYV" = _WOehrAYV;
+        "a8WVUitL" = _a8WVUitL;
+        "datapack-1.20.5" = _WOehrAYV;
+        "datapack-1.20.6" = _WOehrAYV;
+        "datapack-1.21" = _WOehrAYV;
+        "datapack-1.21.1" = _WOehrAYV;
+        "datapack-1.21.2" = _WOehrAYV;
+        "datapack-1.21.3" = _WOehrAYV;
+        "datapack-1.21.4" = _WOehrAYV;
+        "datapack-1.21.5" = _WOehrAYV;
+        "datapack-1.21.6" = _WOehrAYV;
+        "datapack-1.21.7" = _WOehrAYV;
+        "datapack-1.21.8" = _WOehrAYV;
+        "datapack-1.21.9" = _WOehrAYV;
+        "datapack-1.21.10" = _WOehrAYV;
+        "datapack-1.21.11" = _WOehrAYV;
+        "datapack-26.1" = _WOehrAYV;
+        "datapack-26.1.1" = _WOehrAYV;
+        "datapack-26.1.2" = _WOehrAYV;
+        "datapack-26.2" = _WOehrAYV;
+        "fabric-1.20.5" = _a8WVUitL;
+        "fabric-1.20.6" = _a8WVUitL;
+        "fabric-1.21" = _a8WVUitL;
+        "fabric-1.21.1" = _a8WVUitL;
+        "fabric-1.21.2" = _a8WVUitL;
+        "fabric-1.21.3" = _a8WVUitL;
+        "fabric-1.21.4" = _a8WVUitL;
+        "fabric-1.21.5" = _a8WVUitL;
+        "fabric-1.21.6" = _a8WVUitL;
+        "fabric-1.21.7" = _a8WVUitL;
+        "fabric-1.21.8" = _a8WVUitL;
+        "fabric-1.21.9" = _a8WVUitL;
+        "fabric-1.21.10" = _a8WVUitL;
+        "fabric-1.21.11" = _a8WVUitL;
+        "fabric-26.1" = _a8WVUitL;
+        "fabric-26.1.1" = _a8WVUitL;
+        "fabric-26.1.2" = _a8WVUitL;
+        "fabric-26.2" = _a8WVUitL;
+        "forge-1.20.5" = _a8WVUitL;
+        "forge-1.20.6" = _a8WVUitL;
+        "forge-1.21" = _a8WVUitL;
+        "forge-1.21.1" = _a8WVUitL;
+        "forge-1.21.2" = _a8WVUitL;
+        "forge-1.21.3" = _a8WVUitL;
+        "forge-1.21.4" = _a8WVUitL;
+        "forge-1.21.5" = _a8WVUitL;
+        "forge-1.21.6" = _a8WVUitL;
+        "forge-1.21.7" = _a8WVUitL;
+        "forge-1.21.8" = _a8WVUitL;
+        "forge-1.21.9" = _a8WVUitL;
+        "forge-1.21.10" = _a8WVUitL;
+        "forge-1.21.11" = _a8WVUitL;
+        "forge-26.1" = _a8WVUitL;
+        "forge-26.1.1" = _a8WVUitL;
+        "forge-26.1.2" = _a8WVUitL;
+        "forge-26.2" = _a8WVUitL;
+        "neoforge-1.20.5" = _a8WVUitL;
+        "neoforge-1.20.6" = _a8WVUitL;
+        "neoforge-1.21" = _a8WVUitL;
+        "neoforge-1.21.1" = _a8WVUitL;
+        "neoforge-1.21.2" = _a8WVUitL;
+        "neoforge-1.21.3" = _a8WVUitL;
+        "neoforge-1.21.4" = _a8WVUitL;
+        "neoforge-1.21.5" = _a8WVUitL;
+        "neoforge-1.21.6" = _a8WVUitL;
+        "neoforge-1.21.7" = _a8WVUitL;
+        "neoforge-1.21.8" = _a8WVUitL;
+        "neoforge-1.21.9" = _a8WVUitL;
+        "neoforge-1.21.10" = _a8WVUitL;
+        "neoforge-1.21.11" = _a8WVUitL;
+        "neoforge-26.1" = _a8WVUitL;
+        "neoforge-26.1.1" = _a8WVUitL;
+        "neoforge-26.1.2" = _a8WVUitL;
+        "neoforge-26.2" = _a8WVUitL;
+        "quilt-1.20.5" = _a8WVUitL;
+        "quilt-1.20.6" = _a8WVUitL;
+        "quilt-1.21" = _a8WVUitL;
+        "quilt-1.21.1" = _a8WVUitL;
+        "quilt-1.21.2" = _a8WVUitL;
+        "quilt-1.21.3" = _a8WVUitL;
+        "quilt-1.21.4" = _a8WVUitL;
+        "quilt-1.21.5" = _a8WVUitL;
+        "quilt-1.21.6" = _a8WVUitL;
+        "quilt-1.21.7" = _a8WVUitL;
+        "quilt-1.21.8" = _a8WVUitL;
+        "quilt-1.21.9" = _a8WVUitL;
+        "quilt-1.21.10" = _a8WVUitL;
+        "quilt-1.21.11" = _a8WVUitL;
+        "quilt-26.1" = _a8WVUitL;
+        "quilt-26.1.1" = _a8WVUitL;
+        "quilt-26.1.2" = _a8WVUitL;
+        "quilt-26.2" = _a8WVUitL;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "mythic_mounts";
+            id = "vDBg3dpI";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="a8WVUitL";}

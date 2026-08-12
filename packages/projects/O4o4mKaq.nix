@@ -1,0 +1,197 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _gNbluNbG = {
+            "id" = "gNbluNbG";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-4lpMDlyV/NrBZx0UGkLli/1vtfl6F0G2c/ofHs1ndpR/98eZCnv59qLz4EDsV4dVwHmLM/rEKLqrA79Jfp9f4w==";
+        };
+        _QYObZ1PL = {
+            "id" = "QYObZ1PL";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-VJ0re8jQHChoNNW2csyBnurZtgxRYnenBwxQICe+nOBBKMVyJIKfzt0KkGDI4R2HI3yXhonpBnj7A9dsZuBfUw==";
+        };
+        _DulfD6iE = {
+            "id" = "DulfD6iE";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-ktvr0EJH/mx832eUDUpLUswzRsw2xQvBFPRrxe2GB+XHpK7cXGy+ffG+Y9ICPDGsgKJvpWMxlrU97ljqW/liRA==";
+        };
+        _S9WY4Kev = {
+            "id" = "S9WY4Kev";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-NFsi0bidt/cTUJaY2On289WBnr5iIKklPPP6a1/FdZDexSPPrWfgWp+1T8D7r52NdTwcMgkmfpzD2FRhC3/bXQ==";
+        };
+        _RQv9pNC6 = {
+            "id" = "RQv9pNC6";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-JRc8HXk5mfzlIP466f43dxZ97OnnmYWQjT/TnIGTYD+BjQq3EXkIxqhYfu5xxBqQcikPRlE6oFEnVOJ0D3PcLg==";
+        };
+        _ue7jAjJ5 = {
+            "id" = "ue7jAjJ5";
+            "file" = "GriefPrevention-16.18.4.jar";
+            "hash" = "sha512-bc0gNnQPRM98++ctgpYBq8yqbjPHmATfGD5RbuHg/s1wxgoCOx/3YI5B3gW4r4RwdHnex65nr4qpVU8EE5ZkWQ==";
+        };
+        _iaJtn30B = {
+            "id" = "iaJtn30B";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-NeW87UzsLqE/K3vb16sR2gTCZQ4rizwa7/8NUY5mBe7OlRvLn9M0Jc8zY7/ENoPFsiTUEmUV2EgoR9N2sKW8og==";
+        };
+        _4RqY8Kfl = {
+            "id" = "4RqY8Kfl";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-zjBMWqodYQwFIP6YHlU28N5OFJZhqnwwL6ob0PLJ+XGFBqcsMY/JtUr4njv9aCXdavPgg7G1Z8z3MDdVuU3/Cg==";
+        };
+        _dGfCZHqk = {
+            "id" = "dGfCZHqk";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-ybxpIlO6OGAyflw4dnzj3GbHmCZP5lCgi0roiDN/91vBbpvR23s5pRSidb8swqPx+M2VzwgLia5CoPaE/Cv8Zg==";
+        };
+    in {
+        "gNbluNbG" = _gNbluNbG;
+        "QYObZ1PL" = _QYObZ1PL;
+        "DulfD6iE" = _DulfD6iE;
+        "S9WY4Kev" = _S9WY4Kev;
+        "RQv9pNC6" = _RQv9pNC6;
+        "ue7jAjJ5" = _ue7jAjJ5;
+        "iaJtn30B" = _iaJtn30B;
+        "4RqY8Kfl" = _4RqY8Kfl;
+        "dGfCZHqk" = _dGfCZHqk;
+        "bukkit-1.17" = _QYObZ1PL;
+        "bukkit-1.17.1" = _QYObZ1PL;
+        "bukkit-1.18" = _QYObZ1PL;
+        "bukkit-1.18.1" = _QYObZ1PL;
+        "bukkit-1.18.2" = _QYObZ1PL;
+        "bukkit-1.19" = _RQv9pNC6;
+        "bukkit-1.19.1" = _RQv9pNC6;
+        "bukkit-1.19.2" = _RQv9pNC6;
+        "bukkit-1.19.3" = _RQv9pNC6;
+        "bukkit-1.19.4" = _RQv9pNC6;
+        "bukkit-1.20" = _RQv9pNC6;
+        "bukkit-1.20.1" = _RQv9pNC6;
+        "bukkit-1.20.2" = _RQv9pNC6;
+        "bukkit-1.20.3" = _RQv9pNC6;
+        "bukkit-1.20.4" = _RQv9pNC6;
+        "bukkit-1.20.5" = _RQv9pNC6;
+        "bukkit-1.20.6" = _RQv9pNC6;
+        "bukkit-1.21.10" = _dGfCZHqk;
+        "bukkit-1.21.11" = _dGfCZHqk;
+        "bukkit-26.1" = _dGfCZHqk;
+        "bukkit-26.1.1" = _dGfCZHqk;
+        "bukkit-26.1.2" = _dGfCZHqk;
+        "paper-1.17" = _QYObZ1PL;
+        "paper-1.17.1" = _QYObZ1PL;
+        "paper-1.18" = _QYObZ1PL;
+        "paper-1.18.1" = _QYObZ1PL;
+        "paper-1.18.2" = _QYObZ1PL;
+        "paper-1.19" = _RQv9pNC6;
+        "paper-1.19.1" = _RQv9pNC6;
+        "paper-1.19.2" = _RQv9pNC6;
+        "paper-1.19.3" = _RQv9pNC6;
+        "paper-1.19.4" = _RQv9pNC6;
+        "paper-1.20" = _RQv9pNC6;
+        "paper-1.20.1" = _RQv9pNC6;
+        "paper-1.20.2" = _RQv9pNC6;
+        "paper-1.20.3" = _RQv9pNC6;
+        "paper-1.20.4" = _RQv9pNC6;
+        "paper-1.20.5" = _RQv9pNC6;
+        "paper-1.20.6" = _ue7jAjJ5;
+        "paper-1.21" = _iaJtn30B;
+        "paper-1.21.1" = _iaJtn30B;
+        "paper-1.21.2" = _iaJtn30B;
+        "paper-1.21.3" = _iaJtn30B;
+        "paper-1.21.4" = _iaJtn30B;
+        "paper-1.21.5" = _iaJtn30B;
+        "paper-1.21.6" = _iaJtn30B;
+        "paper-1.21.7" = _iaJtn30B;
+        "paper-1.21.8" = _iaJtn30B;
+        "paper-1.21.9" = _iaJtn30B;
+        "paper-1.21.10" = _dGfCZHqk;
+        "paper-1.21.11" = _dGfCZHqk;
+        "paper-26.1" = _dGfCZHqk;
+        "paper-26.1.1" = _dGfCZHqk;
+        "paper-26.1.2" = _dGfCZHqk;
+        "purpur-1.17" = _QYObZ1PL;
+        "purpur-1.17.1" = _QYObZ1PL;
+        "purpur-1.18" = _QYObZ1PL;
+        "purpur-1.18.1" = _QYObZ1PL;
+        "purpur-1.18.2" = _QYObZ1PL;
+        "purpur-1.19" = _RQv9pNC6;
+        "purpur-1.19.1" = _RQv9pNC6;
+        "purpur-1.19.2" = _RQv9pNC6;
+        "purpur-1.19.3" = _RQv9pNC6;
+        "purpur-1.19.4" = _RQv9pNC6;
+        "purpur-1.20" = _RQv9pNC6;
+        "purpur-1.20.1" = _RQv9pNC6;
+        "purpur-1.20.2" = _RQv9pNC6;
+        "purpur-1.20.3" = _RQv9pNC6;
+        "purpur-1.20.4" = _RQv9pNC6;
+        "purpur-1.20.5" = _RQv9pNC6;
+        "purpur-1.20.6" = _ue7jAjJ5;
+        "purpur-1.21" = _iaJtn30B;
+        "purpur-1.21.1" = _iaJtn30B;
+        "purpur-1.21.2" = _iaJtn30B;
+        "purpur-1.21.3" = _iaJtn30B;
+        "purpur-1.21.4" = _iaJtn30B;
+        "purpur-1.21.5" = _iaJtn30B;
+        "purpur-1.21.6" = _iaJtn30B;
+        "purpur-1.21.7" = _iaJtn30B;
+        "purpur-1.21.8" = _iaJtn30B;
+        "purpur-1.21.9" = _iaJtn30B;
+        "purpur-1.21.10" = _dGfCZHqk;
+        "purpur-1.21.11" = _dGfCZHqk;
+        "purpur-26.1" = _dGfCZHqk;
+        "purpur-26.1.1" = _dGfCZHqk;
+        "purpur-26.1.2" = _dGfCZHqk;
+        "spigot-1.17" = _QYObZ1PL;
+        "spigot-1.17.1" = _QYObZ1PL;
+        "spigot-1.18" = _QYObZ1PL;
+        "spigot-1.18.1" = _QYObZ1PL;
+        "spigot-1.18.2" = _QYObZ1PL;
+        "spigot-1.19" = _RQv9pNC6;
+        "spigot-1.19.1" = _RQv9pNC6;
+        "spigot-1.19.2" = _RQv9pNC6;
+        "spigot-1.19.3" = _RQv9pNC6;
+        "spigot-1.19.4" = _RQv9pNC6;
+        "spigot-1.20" = _RQv9pNC6;
+        "spigot-1.20.1" = _RQv9pNC6;
+        "spigot-1.20.2" = _RQv9pNC6;
+        "spigot-1.20.3" = _RQv9pNC6;
+        "spigot-1.20.4" = _RQv9pNC6;
+        "spigot-1.20.5" = _RQv9pNC6;
+        "spigot-1.20.6" = _ue7jAjJ5;
+        "spigot-1.21" = _iaJtn30B;
+        "spigot-1.21.1" = _iaJtn30B;
+        "spigot-1.21.2" = _iaJtn30B;
+        "spigot-1.21.3" = _iaJtn30B;
+        "spigot-1.21.4" = _iaJtn30B;
+        "spigot-1.21.5" = _iaJtn30B;
+        "spigot-1.21.6" = _iaJtn30B;
+        "spigot-1.21.7" = _iaJtn30B;
+        "spigot-1.21.8" = _iaJtn30B;
+        "spigot-1.21.9" = _iaJtn30B;
+        "spigot-1.21.10" = _dGfCZHqk;
+        "spigot-1.21.11" = _dGfCZHqk;
+        "spigot-26.1" = _dGfCZHqk;
+        "spigot-26.1.1" = _dGfCZHqk;
+        "spigot-26.1.2" = _dGfCZHqk;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "griefprevention";
+            id = "O4o4mKaq";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="dGfCZHqk";}

@@ -1,0 +1,139 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Cku6Gd2G = {
+            "id" = "Cku6Gd2G";
+            "file" = "Forgiven's Default 1.21.11 1.0.1.zip";
+            "hash" = "sha512-scGxzPhi1uAo1NVDop4aCuEWfRlB34lWfvjkh4N5ZfDie3MmVQSTp7/k03iTvGCImhzHbb302ouxi8edTPaqIQ==";
+        };
+        _yDpxAzwG = {
+            "id" = "yDpxAzwG";
+            "file" = "Forgiven's Default.zip";
+            "hash" = "sha512-IupQAjFgwCuFNPE9xoXumjqD3BWORj1TNafvTagyy/1jUCgLqyUtC5Rk3CnJmKgdI2cgzVCGtP72hQh6o6sxaA==";
+        };
+        _mchuteOu = {
+            "id" = "mchuteOu";
+            "file" = "Forgiven's Default 1.0.3.zip";
+            "hash" = "sha512-rqguBT/PAstCvTyWaXYrcz1LGN29hOczmy6ncYxNgrrrjO8T6dSctMOrjZ8uqjuVr46uFm9X3W5G/rASyIdUfg==";
+        };
+        _Q9ueA3T3 = {
+            "id" = "Q9ueA3T3";
+            "file" = "Slightly Vanilla 1.0.4.zip";
+            "hash" = "sha512-e+daX/lN6Q7YG7vnbij7A5PsHfjvfKTOWsQ97+f8Rt2ku9+1QHu56zZ7sT7eWFPCJCEwI9VP6z9cN97gmyJfAQ==";
+        };
+    in {
+        "Cku6Gd2G" = _Cku6Gd2G;
+        "yDpxAzwG" = _yDpxAzwG;
+        "mchuteOu" = _mchuteOu;
+        "Q9ueA3T3" = _Q9ueA3T3;
+        "minecraft-1.21.11" = _Q9ueA3T3;
+        "minecraft-1.20" = _Q9ueA3T3;
+        "minecraft-1.20.1" = _Q9ueA3T3;
+        "minecraft-23w31a" = _mchuteOu;
+        "minecraft-23w32a" = _mchuteOu;
+        "minecraft-23w33a" = _mchuteOu;
+        "minecraft-23w35a" = _mchuteOu;
+        "minecraft-1.20.2-pre1" = _mchuteOu;
+        "minecraft-1.20.2" = _Q9ueA3T3;
+        "minecraft-23w42a" = _mchuteOu;
+        "minecraft-23w43a" = _mchuteOu;
+        "minecraft-23w43b" = _mchuteOu;
+        "minecraft-23w44a" = _mchuteOu;
+        "minecraft-23w45a" = _mchuteOu;
+        "minecraft-23w46a" = _mchuteOu;
+        "minecraft-1.20.3" = _Q9ueA3T3;
+        "minecraft-1.20.4" = _Q9ueA3T3;
+        "minecraft-24w03a" = _mchuteOu;
+        "minecraft-24w03b" = _mchuteOu;
+        "minecraft-24w04a" = _mchuteOu;
+        "minecraft-24w05a" = _mchuteOu;
+        "minecraft-24w05b" = _mchuteOu;
+        "minecraft-24w06a" = _mchuteOu;
+        "minecraft-24w07a" = _mchuteOu;
+        "minecraft-24w09a" = _mchuteOu;
+        "minecraft-24w10a" = _mchuteOu;
+        "minecraft-24w11a" = _mchuteOu;
+        "minecraft-24w12a" = _mchuteOu;
+        "minecraft-24w13a" = _mchuteOu;
+        "minecraft-24w14potato" = _mchuteOu;
+        "minecraft-24w14a" = _mchuteOu;
+        "minecraft-1.20.5-pre1" = _mchuteOu;
+        "minecraft-1.20.5-pre2" = _mchuteOu;
+        "minecraft-1.20.5-pre3" = _mchuteOu;
+        "minecraft-1.20.5" = _Q9ueA3T3;
+        "minecraft-1.20.6" = _Q9ueA3T3;
+        "minecraft-24w18a" = _mchuteOu;
+        "minecraft-24w19a" = _mchuteOu;
+        "minecraft-24w19b" = _mchuteOu;
+        "minecraft-24w20a" = _mchuteOu;
+        "minecraft-1.21" = _Q9ueA3T3;
+        "minecraft-1.21.1" = _Q9ueA3T3;
+        "minecraft-24w33a" = _mchuteOu;
+        "minecraft-24w34a" = _mchuteOu;
+        "minecraft-24w35a" = _mchuteOu;
+        "minecraft-24w36a" = _mchuteOu;
+        "minecraft-24w37a" = _mchuteOu;
+        "minecraft-24w38a" = _mchuteOu;
+        "minecraft-24w39a" = _mchuteOu;
+        "minecraft-24w40a" = _mchuteOu;
+        "minecraft-1.21.2-pre1" = _mchuteOu;
+        "minecraft-1.21.2-pre2" = _mchuteOu;
+        "minecraft-1.21.2" = _Q9ueA3T3;
+        "minecraft-1.21.3" = _Q9ueA3T3;
+        "minecraft-24w44a" = _mchuteOu;
+        "minecraft-24w45a" = _mchuteOu;
+        "minecraft-24w46a" = _mchuteOu;
+        "minecraft-1.21.4" = _Q9ueA3T3;
+        "minecraft-1.21.5" = _Q9ueA3T3;
+        "minecraft-1.21.6" = _Q9ueA3T3;
+        "minecraft-1.21.7" = _Q9ueA3T3;
+        "minecraft-1.21.8" = _Q9ueA3T3;
+        "minecraft-1.21.9" = _Q9ueA3T3;
+        "minecraft-1.21.10" = _Q9ueA3T3;
+        "minecraft-26.1" = _Q9ueA3T3;
+        "minecraft-26.1.1" = _Q9ueA3T3;
+        "minecraft-26.1.2" = _Q9ueA3T3;
+        "minecraft-26.2-snapshot-2" = _Q9ueA3T3;
+        "minecraft-26.2-snapshot-3" = _Q9ueA3T3;
+        "minecraft-26.2-snapshot-4" = _Q9ueA3T3;
+        "minecraft-26.2-snapshot-5" = _Q9ueA3T3;
+        "minecraft-26.2-snapshot-6" = _Q9ueA3T3;
+        "minecraft-26.2-snapshot-7" = _Q9ueA3T3;
+        "minecraft-26.2-snapshot-8" = _Q9ueA3T3;
+        "minecraft-26.2-pre-1" = _Q9ueA3T3;
+        "minecraft-26.2-pre-2" = _Q9ueA3T3;
+        "minecraft-26.2-pre-3" = _Q9ueA3T3;
+        "minecraft-26.2-pre-4" = _Q9ueA3T3;
+        "minecraft-26.2-pre-5" = _Q9ueA3T3;
+        "minecraft-26.2-pre-6" = _Q9ueA3T3;
+        "minecraft-26.2-rc-1" = _Q9ueA3T3;
+        "minecraft-26.2-rc-2" = _Q9ueA3T3;
+        "minecraft-26.2" = _Q9ueA3T3;
+        "minecraft-26.3-snapshot-1" = _Q9ueA3T3;
+        "minecraft-26.3-snapshot-2" = _Q9ueA3T3;
+        "minecraft-26.3-snapshot-3" = _Q9ueA3T3;
+        "minecraft-26.3-snapshot-4" = _Q9ueA3T3;
+        "minecraft-26.3-snapshot-5" = _Q9ueA3T3;
+        "minecraft-26.3-snapshot-6" = _Q9ueA3T3;
+        "minecraft-26.3-snapshot-7" = _Q9ueA3T3;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "forgiven";
+            id = "G13XhEZC";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Q9ueA3T3";}

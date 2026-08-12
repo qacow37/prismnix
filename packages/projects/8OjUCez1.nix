@@ -1,0 +1,129 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _4lf1xAHq = {
+            "id" = "4lf1xAHq";
+            "file" = "Mini Swords 1.8.x old textures.zip";
+            "hash" = "sha512-4R5CN5Q3z7aGbu7uSr/2/K+HeVMJfEbeogSloJD2a4yEeY3+xclZRd2SKYGDZQlKORstE4NV3xqXC0NhuQDt+Q==";
+        };
+        _w8t83VLy = {
+            "id" = "w8t83VLy";
+            "file" = "Mini Swords 1.8.x.zip";
+            "hash" = "sha512-lpVJ03YkCkB8GKe6Lm8J2gl7Hwea9uauQ3lUa1QX0kCjFj6qO4j//e27yS94P51Vz2kS/wynJ/o8oZJ0H7F3mA==";
+        };
+        _hGzEt2Rx = {
+            "id" = "hGzEt2Rx";
+            "file" = "Mini Swords 1.21.x-1.9.x.zip";
+            "hash" = "sha512-++jNPW9cCpPt3lK2GzQFhYia+XPd6B/AZwmWMhKpTc5BnzBVaywoVwdrDBkt/oZHx1jRcyM63sbWtN+icX59HQ==";
+        };
+    in {
+        "4lf1xAHq" = _4lf1xAHq;
+        "w8t83VLy" = _w8t83VLy;
+        "hGzEt2Rx" = _hGzEt2Rx;
+        "minecraft-1.6.1" = _w8t83VLy;
+        "minecraft-1.6.2" = _w8t83VLy;
+        "minecraft-1.6.4" = _w8t83VLy;
+        "minecraft-1.7.2" = _w8t83VLy;
+        "minecraft-1.7.3" = _w8t83VLy;
+        "minecraft-1.7.4" = _w8t83VLy;
+        "minecraft-1.7.5" = _w8t83VLy;
+        "minecraft-1.7.6" = _w8t83VLy;
+        "minecraft-1.7.7" = _w8t83VLy;
+        "minecraft-1.7.8" = _w8t83VLy;
+        "minecraft-1.7.9" = _w8t83VLy;
+        "minecraft-1.7.10" = _w8t83VLy;
+        "minecraft-1.8" = _w8t83VLy;
+        "minecraft-1.8.1" = _w8t83VLy;
+        "minecraft-1.8.2" = _w8t83VLy;
+        "minecraft-1.8.3" = _w8t83VLy;
+        "minecraft-1.8.4" = _w8t83VLy;
+        "minecraft-1.8.5" = _w8t83VLy;
+        "minecraft-1.8.6" = _w8t83VLy;
+        "minecraft-1.8.7" = _w8t83VLy;
+        "minecraft-1.8.8" = _w8t83VLy;
+        "minecraft-1.8.9" = _w8t83VLy;
+        "minecraft-1.9" = _hGzEt2Rx;
+        "minecraft-1.9.1" = _hGzEt2Rx;
+        "minecraft-1.9.2" = _hGzEt2Rx;
+        "minecraft-1.9.3" = _hGzEt2Rx;
+        "minecraft-1.9.4" = _hGzEt2Rx;
+        "minecraft-1.10" = _hGzEt2Rx;
+        "minecraft-1.10.1" = _hGzEt2Rx;
+        "minecraft-1.10.2" = _hGzEt2Rx;
+        "minecraft-1.11" = _hGzEt2Rx;
+        "minecraft-1.11.1" = _hGzEt2Rx;
+        "minecraft-1.11.2" = _hGzEt2Rx;
+        "minecraft-1.12" = _hGzEt2Rx;
+        "minecraft-1.12.1" = _hGzEt2Rx;
+        "minecraft-1.12.2" = _hGzEt2Rx;
+        "minecraft-1.13" = _hGzEt2Rx;
+        "minecraft-1.13.1" = _hGzEt2Rx;
+        "minecraft-1.13.2" = _hGzEt2Rx;
+        "minecraft-1.14" = _hGzEt2Rx;
+        "minecraft-1.14.1" = _hGzEt2Rx;
+        "minecraft-1.14.2" = _hGzEt2Rx;
+        "minecraft-1.14.3" = _hGzEt2Rx;
+        "minecraft-1.14.4" = _hGzEt2Rx;
+        "minecraft-1.15" = _hGzEt2Rx;
+        "minecraft-1.15.1" = _hGzEt2Rx;
+        "minecraft-1.15.2" = _hGzEt2Rx;
+        "minecraft-1.16" = _hGzEt2Rx;
+        "minecraft-1.16.1" = _hGzEt2Rx;
+        "minecraft-1.16.2" = _hGzEt2Rx;
+        "minecraft-1.16.3" = _hGzEt2Rx;
+        "minecraft-1.16.4" = _hGzEt2Rx;
+        "minecraft-1.16.5" = _hGzEt2Rx;
+        "minecraft-1.17" = _hGzEt2Rx;
+        "minecraft-1.17.1" = _hGzEt2Rx;
+        "minecraft-1.18" = _hGzEt2Rx;
+        "minecraft-1.18.1" = _hGzEt2Rx;
+        "minecraft-1.18.2" = _hGzEt2Rx;
+        "minecraft-1.19" = _hGzEt2Rx;
+        "minecraft-1.19.1" = _hGzEt2Rx;
+        "minecraft-1.19.2" = _hGzEt2Rx;
+        "minecraft-1.19.3" = _hGzEt2Rx;
+        "minecraft-1.19.4" = _hGzEt2Rx;
+        "minecraft-1.20" = _hGzEt2Rx;
+        "minecraft-1.20.1" = _hGzEt2Rx;
+        "minecraft-1.20.2" = _hGzEt2Rx;
+        "minecraft-1.20.3" = _hGzEt2Rx;
+        "minecraft-1.20.4" = _hGzEt2Rx;
+        "minecraft-1.20.5" = _hGzEt2Rx;
+        "minecraft-1.20.6" = _hGzEt2Rx;
+        "minecraft-1.21" = _hGzEt2Rx;
+        "minecraft-1.21.1" = _hGzEt2Rx;
+        "minecraft-1.21.2" = _hGzEt2Rx;
+        "minecraft-1.21.3" = _hGzEt2Rx;
+        "minecraft-1.21.4" = _hGzEt2Rx;
+        "minecraft-1.21.5" = _hGzEt2Rx;
+        "minecraft-1.21.6" = _hGzEt2Rx;
+        "minecraft-1.21.7" = _hGzEt2Rx;
+        "minecraft-1.21.8" = _hGzEt2Rx;
+        "minecraft-1.21.9" = _hGzEt2Rx;
+        "minecraft-1.21.10" = _hGzEt2Rx;
+        "minecraft-1.21.11" = _hGzEt2Rx;
+        "minecraft-26.1" = _hGzEt2Rx;
+        "minecraft-26.1.1" = _hGzEt2Rx;
+        "minecraft-26.1.2" = _hGzEt2Rx;
+        "minecraft-26.2" = _hGzEt2Rx;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "mini-sword";
+            id = "8OjUCez1";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="hGzEt2Rx";}

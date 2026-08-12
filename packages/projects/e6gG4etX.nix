@@ -1,0 +1,111 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _8S6kqZTo = {
+            "id" = "8S6kqZTo";
+            "file" = "Create-Origins-Compat-1.0.0.jar";
+            "hash" = "sha512-xHAw8tjBugAdKBSjdXcEE57ALO6sgziHJOciUlgkQuY6x12/uX6Li/wQQb8F52uDRM78ok0m9OF72xwWsu51Pg==";
+        };
+    in {
+        "8S6kqZTo" = _8S6kqZTo;
+        "fabric-1.18" = _8S6kqZTo;
+        "fabric-1.18.1" = _8S6kqZTo;
+        "fabric-1.18.2" = _8S6kqZTo;
+        "fabric-1.19" = _8S6kqZTo;
+        "fabric-1.19.1" = _8S6kqZTo;
+        "fabric-1.19.2" = _8S6kqZTo;
+        "fabric-1.19.3" = _8S6kqZTo;
+        "fabric-1.19.4" = _8S6kqZTo;
+        "fabric-1.20" = _8S6kqZTo;
+        "fabric-1.20.1" = _8S6kqZTo;
+        "fabric-1.20.2" = _8S6kqZTo;
+        "fabric-1.20.3" = _8S6kqZTo;
+        "fabric-1.20.4" = _8S6kqZTo;
+        "fabric-1.20.5" = _8S6kqZTo;
+        "fabric-1.20.6" = _8S6kqZTo;
+        "fabric-1.21" = _8S6kqZTo;
+        "fabric-1.21.1" = _8S6kqZTo;
+        "fabric-1.21.2" = _8S6kqZTo;
+        "fabric-1.21.3" = _8S6kqZTo;
+        "fabric-1.21.4" = _8S6kqZTo;
+        "forge-1.18" = _8S6kqZTo;
+        "forge-1.18.1" = _8S6kqZTo;
+        "forge-1.18.2" = _8S6kqZTo;
+        "forge-1.19" = _8S6kqZTo;
+        "forge-1.19.1" = _8S6kqZTo;
+        "forge-1.19.2" = _8S6kqZTo;
+        "forge-1.19.3" = _8S6kqZTo;
+        "forge-1.19.4" = _8S6kqZTo;
+        "forge-1.20" = _8S6kqZTo;
+        "forge-1.20.1" = _8S6kqZTo;
+        "forge-1.20.2" = _8S6kqZTo;
+        "forge-1.20.3" = _8S6kqZTo;
+        "forge-1.20.4" = _8S6kqZTo;
+        "forge-1.20.5" = _8S6kqZTo;
+        "forge-1.20.6" = _8S6kqZTo;
+        "forge-1.21" = _8S6kqZTo;
+        "forge-1.21.1" = _8S6kqZTo;
+        "forge-1.21.2" = _8S6kqZTo;
+        "forge-1.21.3" = _8S6kqZTo;
+        "forge-1.21.4" = _8S6kqZTo;
+        "neoforge-1.18" = _8S6kqZTo;
+        "neoforge-1.18.1" = _8S6kqZTo;
+        "neoforge-1.18.2" = _8S6kqZTo;
+        "neoforge-1.19" = _8S6kqZTo;
+        "neoforge-1.19.1" = _8S6kqZTo;
+        "neoforge-1.19.2" = _8S6kqZTo;
+        "neoforge-1.19.3" = _8S6kqZTo;
+        "neoforge-1.19.4" = _8S6kqZTo;
+        "neoforge-1.20" = _8S6kqZTo;
+        "neoforge-1.20.1" = _8S6kqZTo;
+        "neoforge-1.20.2" = _8S6kqZTo;
+        "neoforge-1.20.3" = _8S6kqZTo;
+        "neoforge-1.20.4" = _8S6kqZTo;
+        "neoforge-1.20.5" = _8S6kqZTo;
+        "neoforge-1.20.6" = _8S6kqZTo;
+        "neoforge-1.21" = _8S6kqZTo;
+        "neoforge-1.21.1" = _8S6kqZTo;
+        "neoforge-1.21.2" = _8S6kqZTo;
+        "neoforge-1.21.3" = _8S6kqZTo;
+        "neoforge-1.21.4" = _8S6kqZTo;
+        "quilt-1.18" = _8S6kqZTo;
+        "quilt-1.18.1" = _8S6kqZTo;
+        "quilt-1.18.2" = _8S6kqZTo;
+        "quilt-1.19" = _8S6kqZTo;
+        "quilt-1.19.1" = _8S6kqZTo;
+        "quilt-1.19.2" = _8S6kqZTo;
+        "quilt-1.19.3" = _8S6kqZTo;
+        "quilt-1.19.4" = _8S6kqZTo;
+        "quilt-1.20" = _8S6kqZTo;
+        "quilt-1.20.1" = _8S6kqZTo;
+        "quilt-1.20.2" = _8S6kqZTo;
+        "quilt-1.20.3" = _8S6kqZTo;
+        "quilt-1.20.4" = _8S6kqZTo;
+        "quilt-1.20.5" = _8S6kqZTo;
+        "quilt-1.20.6" = _8S6kqZTo;
+        "quilt-1.21" = _8S6kqZTo;
+        "quilt-1.21.1" = _8S6kqZTo;
+        "quilt-1.21.2" = _8S6kqZTo;
+        "quilt-1.21.3" = _8S6kqZTo;
+        "quilt-1.21.4" = _8S6kqZTo;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "create-origins-compat";
+            id = "e6gG4etX";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="8S6kqZTo";}

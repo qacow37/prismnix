@@ -1,0 +1,105 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _wbTD74ak = {
+            "id" = "wbTD74ak";
+            "file" = "#   §cChronostasis §6[512x].zip";
+            "hash" = "sha512-uuk4yd9Ih73D0VigyJF3/pIuO5cevsFMbw27741LphB6GhA6KV0Vt+Cw2o3rQk46VElDLMGHJ58Tf8jWgEcMzg==";
+        };
+    in {
+        "wbTD74ak" = _wbTD74ak;
+        "minecraft-1.19" = _wbTD74ak;
+        "minecraft-1.19.1" = _wbTD74ak;
+        "minecraft-1.19.2" = _wbTD74ak;
+        "minecraft-22w42a" = _wbTD74ak;
+        "minecraft-22w43a" = _wbTD74ak;
+        "minecraft-22w44a" = _wbTD74ak;
+        "minecraft-1.19.3" = _wbTD74ak;
+        "minecraft-1.19.4" = _wbTD74ak;
+        "minecraft-23w14a" = _wbTD74ak;
+        "minecraft-23w16a" = _wbTD74ak;
+        "minecraft-1.20" = _wbTD74ak;
+        "minecraft-1.20.1" = _wbTD74ak;
+        "minecraft-23w31a" = _wbTD74ak;
+        "minecraft-23w32a" = _wbTD74ak;
+        "minecraft-23w33a" = _wbTD74ak;
+        "minecraft-23w35a" = _wbTD74ak;
+        "minecraft-1.20.2-pre1" = _wbTD74ak;
+        "minecraft-1.20.2" = _wbTD74ak;
+        "minecraft-23w42a" = _wbTD74ak;
+        "minecraft-23w43a" = _wbTD74ak;
+        "minecraft-23w43b" = _wbTD74ak;
+        "minecraft-23w44a" = _wbTD74ak;
+        "minecraft-23w45a" = _wbTD74ak;
+        "minecraft-23w46a" = _wbTD74ak;
+        "minecraft-1.20.3" = _wbTD74ak;
+        "minecraft-1.20.4" = _wbTD74ak;
+        "minecraft-24w03a" = _wbTD74ak;
+        "minecraft-24w03b" = _wbTD74ak;
+        "minecraft-24w04a" = _wbTD74ak;
+        "minecraft-24w05a" = _wbTD74ak;
+        "minecraft-24w05b" = _wbTD74ak;
+        "minecraft-24w06a" = _wbTD74ak;
+        "minecraft-24w07a" = _wbTD74ak;
+        "minecraft-24w09a" = _wbTD74ak;
+        "minecraft-24w10a" = _wbTD74ak;
+        "minecraft-24w11a" = _wbTD74ak;
+        "minecraft-24w12a" = _wbTD74ak;
+        "minecraft-24w13a" = _wbTD74ak;
+        "minecraft-24w14potato" = _wbTD74ak;
+        "minecraft-24w14a" = _wbTD74ak;
+        "minecraft-1.20.5-pre1" = _wbTD74ak;
+        "minecraft-1.20.5-pre2" = _wbTD74ak;
+        "minecraft-1.20.5-pre3" = _wbTD74ak;
+        "minecraft-1.20.5" = _wbTD74ak;
+        "minecraft-1.20.6" = _wbTD74ak;
+        "minecraft-24w18a" = _wbTD74ak;
+        "minecraft-24w19a" = _wbTD74ak;
+        "minecraft-24w19b" = _wbTD74ak;
+        "minecraft-24w20a" = _wbTD74ak;
+        "minecraft-1.21" = _wbTD74ak;
+        "minecraft-1.21.1" = _wbTD74ak;
+        "minecraft-24w33a" = _wbTD74ak;
+        "minecraft-24w34a" = _wbTD74ak;
+        "minecraft-24w35a" = _wbTD74ak;
+        "minecraft-24w36a" = _wbTD74ak;
+        "minecraft-24w37a" = _wbTD74ak;
+        "minecraft-24w38a" = _wbTD74ak;
+        "minecraft-24w39a" = _wbTD74ak;
+        "minecraft-24w40a" = _wbTD74ak;
+        "minecraft-1.21.2-pre1" = _wbTD74ak;
+        "minecraft-1.21.2-pre2" = _wbTD74ak;
+        "minecraft-1.21.2" = _wbTD74ak;
+        "minecraft-1.21.3" = _wbTD74ak;
+        "minecraft-24w44a" = _wbTD74ak;
+        "minecraft-24w45a" = _wbTD74ak;
+        "minecraft-24w46a" = _wbTD74ak;
+        "minecraft-1.21.4" = _wbTD74ak;
+        "minecraft-1.21.5" = _wbTD74ak;
+        "minecraft-1.21.6" = _wbTD74ak;
+        "minecraft-1.21.7" = _wbTD74ak;
+        "minecraft-1.21.8" = _wbTD74ak;
+        "minecraft-1.21.9" = _wbTD74ak;
+        "minecraft-1.21.10" = _wbTD74ak;
+        "minecraft-1.21.11" = _wbTD74ak;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "chronostasis-512x";
+            id = "QPKVntvc";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="wbTD74ak";}

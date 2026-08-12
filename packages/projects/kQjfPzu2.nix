@@ -1,0 +1,167 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _7mDYErUC = {
+            "id" = "7mDYErUC";
+            "file" = "Retro_Caves_1.0.0.zip";
+            "hash" = "sha512-QXfCBPCdEyGZjrrXPRDZ7AHxaVKnmTYC5E897eHhkEXTnjlBhH3RqdbJG4Q/pLmZHWSXOYo77v2PgFeYJDoY7w==";
+        };
+        _jt7nSuN7 = {
+            "id" = "jt7nSuN7";
+            "file" = "retro-caves-1.0.0.jar";
+            "hash" = "sha512-exNWduyanLJ7Z2OZxsXayVRzCBEEIpUqPjWZOEPtUieCdzpIFKDKzdeasXQqxAxeyDkiaQn8VUSKoluzqyvF5g==";
+        };
+        _ris8EPOI = {
+            "id" = "ris8EPOI";
+            "file" = "Retro_Caves_1.1.0.zip";
+            "hash" = "sha512-16aMoXMfAokL20yBpdoQFMspHS2QbvyVQNWcPB+k14SaoISn6IYDsRiyvLBbw3avmpRu4FMmy6SfbEh26fq6Pw==";
+        };
+        _4dYz3nbK = {
+            "id" = "4dYz3nbK";
+            "file" = "retro-caves-1.1.0.jar";
+            "hash" = "sha512-q7r1HFQ1RnA5PQGQRHWXBPPDOcb7SPa8i5lxszUOh8gqnilzbARFzzYER7K0TnO5zeQ/zopevyRHdZ61Kwhecg==";
+        };
+        _T4ThZrwV = {
+            "id" = "T4ThZrwV";
+            "file" = "Retro_Caves_1.1.1.zip";
+            "hash" = "sha512-Q8huCQbyBPmam/NHvusO30OUj4Iiol6QDCPLsVS1U/18nAWzD9quqj7E2LbjBNBa2Fi1nBTGTn/9pGnpTZoXfQ==";
+        };
+        _vpsPkD3K = {
+            "id" = "vpsPkD3K";
+            "file" = "retro-caves-1.1.1.jar";
+            "hash" = "sha512-wWUjB8A143jS9KA/dcX+jMJ81m9lVrGpeF+iUZ6nNWd61LsYxY937u5eRrf9FnUGE46lg+8eBGd1N6uLrZFqtw==";
+        };
+        _4cY7RAVm = {
+            "id" = "4cY7RAVm";
+            "file" = "retro-caves-1.1.1.jar";
+            "hash" = "sha512-kdOyGHfwoeQoDQJrvh4H3R3mPrihmf3Elvh/hRiCJRsEM4vNnlo1WiPOl75kPTAqA9plt9JrDGMmb/4dKNrnvQ==";
+        };
+    in {
+        "7mDYErUC" = _7mDYErUC;
+        "jt7nSuN7" = _jt7nSuN7;
+        "ris8EPOI" = _ris8EPOI;
+        "4dYz3nbK" = _4dYz3nbK;
+        "T4ThZrwV" = _T4ThZrwV;
+        "vpsPkD3K" = _vpsPkD3K;
+        "4cY7RAVm" = _4cY7RAVm;
+        "datapack-1.20" = _T4ThZrwV;
+        "datapack-1.20.1" = _T4ThZrwV;
+        "datapack-1.20.2" = _T4ThZrwV;
+        "datapack-1.20.3" = _T4ThZrwV;
+        "datapack-1.20.4" = _T4ThZrwV;
+        "datapack-1.20.5" = _T4ThZrwV;
+        "datapack-1.20.6" = _T4ThZrwV;
+        "datapack-1.21" = _T4ThZrwV;
+        "datapack-1.21.1" = _T4ThZrwV;
+        "datapack-1.21.2" = _T4ThZrwV;
+        "datapack-1.21.3" = _T4ThZrwV;
+        "datapack-1.21.4" = _T4ThZrwV;
+        "datapack-1.21.5" = _T4ThZrwV;
+        "datapack-1.21.6" = _T4ThZrwV;
+        "datapack-1.21.7" = _T4ThZrwV;
+        "datapack-1.21.8" = _T4ThZrwV;
+        "datapack-1.21.9" = _T4ThZrwV;
+        "datapack-1.21.10" = _T4ThZrwV;
+        "datapack-1.21.11" = _T4ThZrwV;
+        "datapack-26.1" = _T4ThZrwV;
+        "fabric-1.20" = _4cY7RAVm;
+        "fabric-1.20.1" = _4cY7RAVm;
+        "fabric-1.20.2" = _4cY7RAVm;
+        "fabric-1.20.3" = _4cY7RAVm;
+        "fabric-1.20.4" = _4cY7RAVm;
+        "fabric-1.20.5" = _4cY7RAVm;
+        "fabric-1.20.6" = _4cY7RAVm;
+        "fabric-1.21" = _4cY7RAVm;
+        "fabric-1.21.1" = _4cY7RAVm;
+        "fabric-1.21.2" = _4cY7RAVm;
+        "fabric-1.21.3" = _4cY7RAVm;
+        "fabric-1.21.4" = _4cY7RAVm;
+        "fabric-1.21.5" = _4cY7RAVm;
+        "fabric-1.21.6" = _4cY7RAVm;
+        "fabric-1.21.7" = _4cY7RAVm;
+        "fabric-1.21.8" = _4cY7RAVm;
+        "fabric-1.21.9" = _4cY7RAVm;
+        "fabric-1.21.10" = _4cY7RAVm;
+        "fabric-1.21.11" = _4cY7RAVm;
+        "fabric-26.1" = _4cY7RAVm;
+        "forge-1.20" = _4cY7RAVm;
+        "forge-1.20.1" = _4cY7RAVm;
+        "forge-1.20.2" = _4cY7RAVm;
+        "forge-1.20.3" = _4cY7RAVm;
+        "forge-1.20.4" = _4cY7RAVm;
+        "forge-1.20.5" = _4cY7RAVm;
+        "forge-1.20.6" = _4cY7RAVm;
+        "forge-1.21" = _4cY7RAVm;
+        "forge-1.21.1" = _4cY7RAVm;
+        "forge-1.21.2" = _4cY7RAVm;
+        "forge-1.21.3" = _4cY7RAVm;
+        "forge-1.21.4" = _4cY7RAVm;
+        "forge-1.21.5" = _4cY7RAVm;
+        "forge-1.21.6" = _4cY7RAVm;
+        "forge-1.21.7" = _4cY7RAVm;
+        "forge-1.21.8" = _4cY7RAVm;
+        "forge-1.21.9" = _4cY7RAVm;
+        "forge-1.21.10" = _4cY7RAVm;
+        "forge-1.21.11" = _4cY7RAVm;
+        "forge-26.1" = _4cY7RAVm;
+        "neoforge-1.20" = _4cY7RAVm;
+        "neoforge-1.20.1" = _4cY7RAVm;
+        "neoforge-1.20.2" = _4cY7RAVm;
+        "neoforge-1.20.3" = _4cY7RAVm;
+        "neoforge-1.20.4" = _4cY7RAVm;
+        "neoforge-1.20.5" = _4cY7RAVm;
+        "neoforge-1.20.6" = _4cY7RAVm;
+        "neoforge-1.21" = _4cY7RAVm;
+        "neoforge-1.21.1" = _4cY7RAVm;
+        "neoforge-1.21.2" = _4cY7RAVm;
+        "neoforge-1.21.3" = _4cY7RAVm;
+        "neoforge-1.21.4" = _4cY7RAVm;
+        "neoforge-1.21.5" = _4cY7RAVm;
+        "neoforge-1.21.6" = _4cY7RAVm;
+        "neoforge-1.21.7" = _4cY7RAVm;
+        "neoforge-1.21.8" = _4cY7RAVm;
+        "neoforge-1.21.9" = _4cY7RAVm;
+        "neoforge-1.21.10" = _4cY7RAVm;
+        "neoforge-1.21.11" = _4cY7RAVm;
+        "neoforge-26.1" = _4cY7RAVm;
+        "quilt-1.20" = _4cY7RAVm;
+        "quilt-1.20.1" = _4cY7RAVm;
+        "quilt-1.20.2" = _4cY7RAVm;
+        "quilt-1.20.3" = _4cY7RAVm;
+        "quilt-1.20.4" = _4cY7RAVm;
+        "quilt-1.20.5" = _4cY7RAVm;
+        "quilt-1.20.6" = _4cY7RAVm;
+        "quilt-1.21" = _4cY7RAVm;
+        "quilt-1.21.1" = _4cY7RAVm;
+        "quilt-1.21.2" = _4cY7RAVm;
+        "quilt-1.21.3" = _4cY7RAVm;
+        "quilt-1.21.4" = _4cY7RAVm;
+        "quilt-1.21.5" = _4cY7RAVm;
+        "quilt-1.21.6" = _4cY7RAVm;
+        "quilt-1.21.7" = _4cY7RAVm;
+        "quilt-1.21.8" = _4cY7RAVm;
+        "quilt-1.21.9" = _4cY7RAVm;
+        "quilt-1.21.10" = _4cY7RAVm;
+        "quilt-1.21.11" = _4cY7RAVm;
+        "quilt-26.1" = _4cY7RAVm;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "retro-caves";
+            id = "kQjfPzu2";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="4cY7RAVm";}

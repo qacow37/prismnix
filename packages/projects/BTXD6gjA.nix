@@ -1,0 +1,164 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _gNaQT8Ay = {
+            "id" = "gNaQT8Ay";
+            "file" = "PPL Better Grass v1.0 1.21-1.21.4.zip";
+            "hash" = "sha512-b645CGLNiHyhke4Z1JoBVELYvWQMyFaFONeBMANoOOMTeW8kZXlquqg+jl5vUhGtYeF6jlSZ5Oommh11vMGg9w==";
+        };
+        _z7DkBgdk = {
+            "id" = "z7DkBgdk";
+            "file" = "PPL Better Grass v2.0 1.21-1.21.5.zip";
+            "hash" = "sha512-vW4D6EnFVnAMyYwuM/K0zewlNYDtuz6iPCok+feilELh730zlXvpP9Y9fYplwURkG2bSLbDqT3x5ESEA3vR1Jg==";
+        };
+        _jvTmO8bK = {
+            "id" = "jvTmO8bK";
+            "file" = "PPL Better Grass vAP-2.1 1.21-1.21.6.zip";
+            "hash" = "sha512-gOGVtJcifMvLh9LuSVqtxJ2z8l9/QKzZMgMgbSoE6+0USsVp8gRBKMhSQnJYxUS+dbrohY17rzDlMUFNi3pdyw==";
+        };
+        _uOPgWUUy = {
+            "id" = "uOPgWUUy";
+            "file" = "PPL Better Grass v2.1.1 1.21-1.21.7.zip";
+            "hash" = "sha512-T9gcEdEq4/QzmMe5l5XpG0eoWG410rKTcg3npfDRkE5xWKGTyiRJKgEdLw+mwH+oWAQHuFjdAaFI6tOsX+Po3A==";
+        };
+        _umStpHB7 = {
+            "id" = "umStpHB7";
+            "file" = "PPL Better Grass v2.2 1.16-1.21.8.zip";
+            "hash" = "sha512-2Dy1i3R9rlAHoyB3HQLHA/leItDEpfHd2hrM2YIj20+prxaQZQHlFwJccOo2DLrokj/W4UnoywO+jWnMa9Ytbw==";
+        };
+        _EfW3RUPI = {
+            "id" = "EfW3RUPI";
+            "file" = "PPL Better Grass v2.3 1.16-1.21.9.zip";
+            "hash" = "sha512-v7g3aEG7LmOsf1Ln+xi00pRIOyY+QE0LFjceeg+O1NtTzCUQlijnm5M1nIUws/e6snDlkXz1eu7OJjPU7jojgw==";
+        };
+        _L0Nac0kk = {
+            "id" = "L0Nac0kk";
+            "file" = "PPL Better Grass v3.0-5.75 1.16-1.21.11.zip";
+            "hash" = "sha512-F7arkATgQVf5qzMbTrHWcOItujcCZRbpG2wmZFaxN1A3dt9kWgoyx3K4q2mBpCYS5Rw100NXgytil+RdiX/puQ==";
+        };
+        _tM1cWkzR = {
+            "id" = "tM1cWkzR";
+            "file" = "PPL Better Grass v3.0.1-5.84  1.16-26.1.1.zip";
+            "hash" = "sha512-ZL6/5XgCl/c+V0fhmt1rqCRRegS6fQJA/z9UDc01JuEEei8GvEYOkBLerzJJMlg80CMIb1y4eze9v82pf2WXyw==";
+        };
+    in {
+        "gNaQT8Ay" = _gNaQT8Ay;
+        "z7DkBgdk" = _z7DkBgdk;
+        "jvTmO8bK" = _jvTmO8bK;
+        "uOPgWUUy" = _uOPgWUUy;
+        "umStpHB7" = _umStpHB7;
+        "EfW3RUPI" = _EfW3RUPI;
+        "L0Nac0kk" = _L0Nac0kk;
+        "tM1cWkzR" = _tM1cWkzR;
+        "minecraft-1.21" = _tM1cWkzR;
+        "minecraft-1.21.1" = _tM1cWkzR;
+        "minecraft-1.21.2" = _tM1cWkzR;
+        "minecraft-1.21.3" = _tM1cWkzR;
+        "minecraft-1.21.4" = _tM1cWkzR;
+        "minecraft-1.21.5" = _tM1cWkzR;
+        "minecraft-1.21.6" = _tM1cWkzR;
+        "minecraft-1.21.7" = _tM1cWkzR;
+        "minecraft-1.16" = _tM1cWkzR;
+        "minecraft-1.16.1" = _tM1cWkzR;
+        "minecraft-1.16.2" = _tM1cWkzR;
+        "minecraft-1.16.3" = _tM1cWkzR;
+        "minecraft-1.16.4" = _tM1cWkzR;
+        "minecraft-1.16.5" = _tM1cWkzR;
+        "minecraft-1.17" = _tM1cWkzR;
+        "minecraft-1.17.1" = _tM1cWkzR;
+        "minecraft-1.18" = _tM1cWkzR;
+        "minecraft-1.18.1" = _tM1cWkzR;
+        "minecraft-1.18.2" = _tM1cWkzR;
+        "minecraft-1.19" = _tM1cWkzR;
+        "minecraft-1.19.1" = _tM1cWkzR;
+        "minecraft-1.19.2" = _tM1cWkzR;
+        "minecraft-1.19.3" = _tM1cWkzR;
+        "minecraft-1.19.4" = _tM1cWkzR;
+        "minecraft-1.20" = _tM1cWkzR;
+        "minecraft-1.20.1" = _tM1cWkzR;
+        "minecraft-1.20.2" = _tM1cWkzR;
+        "minecraft-1.20.3" = _tM1cWkzR;
+        "minecraft-1.20.4" = _tM1cWkzR;
+        "minecraft-1.20.5" = _tM1cWkzR;
+        "minecraft-1.20.6" = _tM1cWkzR;
+        "minecraft-1.21.8" = _tM1cWkzR;
+        "minecraft-1.21.9" = _tM1cWkzR;
+        "minecraft-1.21.10" = _tM1cWkzR;
+        "minecraft-1.21.11" = _tM1cWkzR;
+        "minecraft-1.15" = _tM1cWkzR;
+        "minecraft-1.15.1" = _tM1cWkzR;
+        "minecraft-1.15.2" = _tM1cWkzR;
+        "minecraft-22w42a" = _tM1cWkzR;
+        "minecraft-22w43a" = _tM1cWkzR;
+        "minecraft-22w44a" = _tM1cWkzR;
+        "minecraft-23w14a" = _tM1cWkzR;
+        "minecraft-23w16a" = _tM1cWkzR;
+        "minecraft-23w31a" = _tM1cWkzR;
+        "minecraft-23w32a" = _tM1cWkzR;
+        "minecraft-23w33a" = _tM1cWkzR;
+        "minecraft-23w35a" = _tM1cWkzR;
+        "minecraft-1.20.2-pre1" = _tM1cWkzR;
+        "minecraft-23w42a" = _tM1cWkzR;
+        "minecraft-23w43a" = _tM1cWkzR;
+        "minecraft-23w43b" = _tM1cWkzR;
+        "minecraft-23w44a" = _tM1cWkzR;
+        "minecraft-23w45a" = _tM1cWkzR;
+        "minecraft-23w46a" = _tM1cWkzR;
+        "minecraft-24w03a" = _tM1cWkzR;
+        "minecraft-24w03b" = _tM1cWkzR;
+        "minecraft-24w04a" = _tM1cWkzR;
+        "minecraft-24w05a" = _tM1cWkzR;
+        "minecraft-24w05b" = _tM1cWkzR;
+        "minecraft-24w06a" = _tM1cWkzR;
+        "minecraft-24w07a" = _tM1cWkzR;
+        "minecraft-24w09a" = _tM1cWkzR;
+        "minecraft-24w10a" = _tM1cWkzR;
+        "minecraft-24w11a" = _tM1cWkzR;
+        "minecraft-24w12a" = _tM1cWkzR;
+        "minecraft-24w13a" = _tM1cWkzR;
+        "minecraft-24w14potato" = _tM1cWkzR;
+        "minecraft-24w14a" = _tM1cWkzR;
+        "minecraft-1.20.5-pre1" = _tM1cWkzR;
+        "minecraft-1.20.5-pre2" = _tM1cWkzR;
+        "minecraft-1.20.5-pre3" = _tM1cWkzR;
+        "minecraft-24w18a" = _tM1cWkzR;
+        "minecraft-24w19a" = _tM1cWkzR;
+        "minecraft-24w19b" = _tM1cWkzR;
+        "minecraft-24w20a" = _tM1cWkzR;
+        "minecraft-24w33a" = _tM1cWkzR;
+        "minecraft-24w34a" = _tM1cWkzR;
+        "minecraft-24w35a" = _tM1cWkzR;
+        "minecraft-24w36a" = _tM1cWkzR;
+        "minecraft-24w37a" = _tM1cWkzR;
+        "minecraft-24w38a" = _tM1cWkzR;
+        "minecraft-24w39a" = _tM1cWkzR;
+        "minecraft-24w40a" = _tM1cWkzR;
+        "minecraft-1.21.2-pre1" = _tM1cWkzR;
+        "minecraft-1.21.2-pre2" = _tM1cWkzR;
+        "minecraft-24w44a" = _tM1cWkzR;
+        "minecraft-24w45a" = _tM1cWkzR;
+        "minecraft-24w46a" = _tM1cWkzR;
+        "minecraft-26.1" = _tM1cWkzR;
+        "minecraft-26.1.1" = _tM1cWkzR;
+        "minecraft-26.1.2" = _tM1cWkzR;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "ppl-better-grass";
+            id = "BTXD6gjA";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="tM1cWkzR";}

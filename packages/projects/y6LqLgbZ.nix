@@ -1,0 +1,131 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _C1Piteaq = {
+            "id" = "C1Piteaq";
+            "file" = "NicknamePlugin-2.0.0.jar";
+            "hash" = "sha512-ZfeFqsxMwUacGRazw543rAnMuGU7RRMfRIrYZNAH1V+35tUWr2FZ0ylKHy64X+/IdXwhvX/GFy2n8hyc+AfAFA==";
+        };
+        _HC2XxcuG = {
+            "id" = "HC2XxcuG";
+            "file" = "Nicks+++_2.3.jar";
+            "hash" = "sha512-/ahDuuEGvy8lCXw+jtdQFc1Xu5wYbD1vR2R+wb/oqN/p7J589LGXqOS0YGXkzbCs4VaEUpJmQ5xEbL+DVRrAvg==";
+        };
+        _hHw3cMIs = {
+            "id" = "hHw3cMIs";
+            "file" = "nicks+++_2.3_re.jar";
+            "hash" = "sha512-nHrgv2oi6EypT/a1llclY0fpkd01vv68t33g0MtKqbvcbiC4GtMFAY+CeT5BlftD7r0/YEDiI51QyxKdZCl2zA==";
+        };
+    in {
+        "C1Piteaq" = _C1Piteaq;
+        "HC2XxcuG" = _HC2XxcuG;
+        "hHw3cMIs" = _hHw3cMIs;
+        "bukkit-1.2.1" = _C1Piteaq;
+        "bukkit-1.2.2" = _C1Piteaq;
+        "bukkit-1.2.3" = _C1Piteaq;
+        "bukkit-1.2.4" = _C1Piteaq;
+        "bukkit-1.2.5" = _C1Piteaq;
+        "bukkit-1.20" = _C1Piteaq;
+        "bukkit-1.20.1" = _C1Piteaq;
+        "bukkit-1.20.2" = _C1Piteaq;
+        "bukkit-1.20.3" = _C1Piteaq;
+        "bukkit-1.20.4" = _C1Piteaq;
+        "bukkit-1.20.5" = _C1Piteaq;
+        "bukkit-1.20.6" = _C1Piteaq;
+        "bukkit-1.21" = _C1Piteaq;
+        "bukkit-1.21.1" = _C1Piteaq;
+        "bukkit-1.21.2" = _C1Piteaq;
+        "bukkit-1.21.3" = _C1Piteaq;
+        "bukkit-1.21.4" = _C1Piteaq;
+        "bukkit-1.21.5" = _C1Piteaq;
+        "bukkit-1.21.6" = _C1Piteaq;
+        "bukkit-1.21.7" = _C1Piteaq;
+        "bukkit-1.21.8" = _C1Piteaq;
+        "bukkit-1.21.9" = _C1Piteaq;
+        "bukkit-1.21.10" = _C1Piteaq;
+        "bukkit-1.21.11" = _C1Piteaq;
+        "bukkit-26.1" = _hHw3cMIs;
+        "bukkit-26.1.1" = _hHw3cMIs;
+        "bukkit-26.1.2" = _hHw3cMIs;
+        "bukkit-26.2" = _hHw3cMIs;
+        "paper-1.2.1" = _C1Piteaq;
+        "paper-1.2.2" = _C1Piteaq;
+        "paper-1.2.3" = _C1Piteaq;
+        "paper-1.2.4" = _C1Piteaq;
+        "paper-1.2.5" = _C1Piteaq;
+        "paper-1.20" = _C1Piteaq;
+        "paper-1.20.1" = _C1Piteaq;
+        "paper-1.20.2" = _C1Piteaq;
+        "paper-1.20.3" = _C1Piteaq;
+        "paper-1.20.4" = _C1Piteaq;
+        "paper-1.20.5" = _C1Piteaq;
+        "paper-1.20.6" = _C1Piteaq;
+        "paper-1.21" = _C1Piteaq;
+        "paper-1.21.1" = _C1Piteaq;
+        "paper-1.21.2" = _C1Piteaq;
+        "paper-1.21.3" = _C1Piteaq;
+        "paper-1.21.4" = _C1Piteaq;
+        "paper-1.21.5" = _C1Piteaq;
+        "paper-1.21.6" = _C1Piteaq;
+        "paper-1.21.7" = _C1Piteaq;
+        "paper-1.21.8" = _C1Piteaq;
+        "paper-1.21.9" = _C1Piteaq;
+        "paper-1.21.10" = _C1Piteaq;
+        "paper-1.21.11" = _C1Piteaq;
+        "paper-26.1" = _hHw3cMIs;
+        "paper-26.1.1" = _hHw3cMIs;
+        "paper-26.1.2" = _hHw3cMIs;
+        "paper-26.2" = _hHw3cMIs;
+        "purpur-1.2.1" = _C1Piteaq;
+        "purpur-1.2.2" = _C1Piteaq;
+        "purpur-1.2.3" = _C1Piteaq;
+        "purpur-1.2.4" = _C1Piteaq;
+        "purpur-1.2.5" = _C1Piteaq;
+        "purpur-1.20" = _C1Piteaq;
+        "purpur-1.20.1" = _C1Piteaq;
+        "purpur-1.20.2" = _C1Piteaq;
+        "purpur-1.20.3" = _C1Piteaq;
+        "purpur-1.20.4" = _C1Piteaq;
+        "purpur-1.20.5" = _C1Piteaq;
+        "purpur-1.20.6" = _C1Piteaq;
+        "purpur-1.21" = _C1Piteaq;
+        "purpur-1.21.1" = _C1Piteaq;
+        "purpur-1.21.2" = _C1Piteaq;
+        "purpur-1.21.3" = _C1Piteaq;
+        "purpur-1.21.4" = _C1Piteaq;
+        "purpur-1.21.5" = _C1Piteaq;
+        "purpur-1.21.6" = _C1Piteaq;
+        "purpur-1.21.7" = _C1Piteaq;
+        "purpur-1.21.8" = _C1Piteaq;
+        "purpur-1.21.9" = _C1Piteaq;
+        "purpur-1.21.10" = _C1Piteaq;
+        "purpur-1.21.11" = _C1Piteaq;
+        "purpur-26.1" = _hHw3cMIs;
+        "purpur-26.1.1" = _hHw3cMIs;
+        "purpur-26.1.2" = _hHw3cMIs;
+        "purpur-26.2" = _hHw3cMIs;
+        "spigot-26.1" = _hHw3cMIs;
+        "spigot-26.1.1" = _hHw3cMIs;
+        "spigot-26.1.2" = _hHw3cMIs;
+        "spigot-26.2" = _hHw3cMIs;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "nicks+++";
+            id = "y6LqLgbZ";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="hHw3cMIs";}

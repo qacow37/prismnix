@@ -1,0 +1,253 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _sHvpCmI9 = {
+            "id" = "sHvpCmI9";
+            "file" = "xali's Enchanted Books Addon v0.11.zip";
+            "hash" = "sha512-b1bGMCHXnTwhpwHRVW37dmDHLZfx2QF+IzmBSTasYF3ICyaepraNMD1SZIlUzYJZ1WWlXI6/XZeTYNG8ARf1iA==";
+        };
+        _LoF6ssPV = {
+            "id" = "LoF6ssPV";
+            "file" = "xali's Enchanted Books Addon v2.zip";
+            "hash" = "sha512-kx1/sWol2DK9pUtUUk8hkSM9w16WOl638FL8SrXz4BA2EFpHxW+520y7M1GPb8xinvWjrKcWTHTKO+c1nNj9vg==";
+        };
+        _wUdTvlGY = {
+            "id" = "wUdTvlGY";
+            "file" = "xali's Enchanted Books Addon v3 1.14.zip";
+            "hash" = "sha512-BbDzyh3X5kjxJ9FStmOarSGb2CCxiYqIZdejLFVsESqfHo7vv1enwf4cPHY9FfxOEL7gaSfINUGKr/f3Tjlo6A==";
+        };
+        _c7V26Luh = {
+            "id" = "c7V26Luh";
+            "file" = "xali's Enchanted Books Addon v3 1.15 - 1.16.zip";
+            "hash" = "sha512-VDNIVePgdA0oTdZr46Q/lf39OkPTxBlutQUU9giTxpKC8HlZYiO7Ul4HW504Dp4D+oqDKJJPJq4sFh0Qt68UKg==";
+        };
+        _HABj5sta = {
+            "id" = "HABj5sta";
+            "file" = "xali's Enchanted Books Addon v3 1.16.5.zip";
+            "hash" = "sha512-RJX/4TxGWqFj6yY0mRxKdZnFOmMu5Mnnc3DXGeTkfoNo+kqV+Dr1heh7AaTJwIRZGkA4dljKPf2V+/dqwmsLvA==";
+        };
+        _NwpeY33S = {
+            "id" = "NwpeY33S";
+            "file" = "xali's Enchanted Books Addon v3 1.17.zip";
+            "hash" = "sha512-aBqCssNPAvEs+eB+NEHOKAiitAs86ujE8WAsrDpkQoxCOQ/hOX3GJldBlRp241064q38UZM0xnhIkIDGL7b+aQ==";
+        };
+        _T1Tt3orF = {
+            "id" = "T1Tt3orF";
+            "file" = "xali's Enchanted Books Addon v3 1.18.zip";
+            "hash" = "sha512-NnGwLxBgLPgYLdbPIZTYLYuVpzpAzz/tAHocsyJojLgWv7cRUFkm6vBmC7yj6fPRetOSPV1diypzCfGxG63KwA==";
+        };
+        _fwW094wq = {
+            "id" = "fwW094wq";
+            "file" = "xali's Enchanted Books Addon v3 1.19.2.zip";
+            "hash" = "sha512-5LQ86OMTCHEpgpiTtdpW2wOPi5KEJEgvEv9tRXzZGBPsz3G5N8IfQ+PMHf+Vqjd41+VSn4bJ1rXWSuEgSDfOGA==";
+        };
+        _2kjFwefA = {
+            "id" = "2kjFwefA";
+            "file" = "xali's Enchanted Books Addon v3 1.19.3.zip";
+            "hash" = "sha512-UVijIoREQzE2w0JFHValYdqQw4R3ZoKyVY6sUn5BrfnAboXznJ6ZIU/FZXsbl6NibHAvlPdtR3UHapYs2y4bIg==";
+        };
+        _eLviPccM = {
+            "id" = "eLviPccM";
+            "file" = "xali's Enchanted Books Addon v3 1.19.4.zip";
+            "hash" = "sha512-uUmw0QcIJC4ON18kZjR5zralezHd9AJFKumjadLl/TXzqE7bESZpEqpo4mUsoSIGltI1cOsHxBxjGwnLTXoj7A==";
+        };
+        _pmu6mBLW = {
+            "id" = "pmu6mBLW";
+            "file" = "xali's Enchanted Books Addon v3 1.20.1.zip";
+            "hash" = "sha512-iFtzxwkEGxpbYjDTCLmamIkaSI0Y7ZNmVrMzGfZY+wjAuKCeQuWpIMXHxfbA/OoWCdZX53Td6g1Fds6dHMia/w==";
+        };
+        _zuSEMb0N = {
+            "id" = "zuSEMb0N";
+            "file" = "xali's Enchanted Books Addon v3 1.20.2.zip";
+            "hash" = "sha512-aLxotJbNNeMQIrH4Q+pASPCjZTcqoLRIi/4URkTq0C42IhCUH4d4CDuIU2u/Pa06Gh7jDxvEujf0nfk6X69umQ==";
+        };
+        _Su8dghQ7 = {
+            "id" = "Su8dghQ7";
+            "file" = "xali's Enchanted Books Addon v3 1.20.4.zip";
+            "hash" = "sha512-gYIfqnQYQVPJSdWbZWkJ1Wim4SlxZmudE8h3oDrpLp38Tho6/h0ncsY0eVV3wQNJsta70QrY9JMnc+70Ji1SyQ==";
+        };
+        _ksiQEnnG = {
+            "id" = "ksiQEnnG";
+            "file" = "xali's Enchanted Books Addon v3 1.20.6.zip";
+            "hash" = "sha512-l9tJu8mGvEYCDZ+icK7BVRlodOuAMnzaH1+Sct281BCoTOPilga+V5okVYCiFy00kuRTb17C2Gthx/bGoDbYfA==";
+        };
+        _fQCQSDXn = {
+            "id" = "fQCQSDXn";
+            "file" = "xali's Enchanted Books Addon v3 1.21.zip";
+            "hash" = "sha512-QdUb2CQvxVYVhbwS1NG+Hi6/UgsfL861N1yreMVC9U7itolBvljffeXXrzuS2/3bN1G8ZxqFw+zacajlzVPnkQ==";
+        };
+        _GVTlGeC4 = {
+            "id" = "GVTlGeC4";
+            "file" = "xali's Enchanted Books Addon v4 1.21.5.zip";
+            "hash" = "sha512-Qs71+XIhDqgf/hnS0FWDlEJc7iQe+6QDhhrFIiPH+g3Ex0i0lIh1mp1sPvUmlHkWj4BwnX4RmqOxuY1ThNprYQ==";
+        };
+    in {
+        "sHvpCmI9" = _sHvpCmI9;
+        "LoF6ssPV" = _LoF6ssPV;
+        "wUdTvlGY" = _wUdTvlGY;
+        "c7V26Luh" = _c7V26Luh;
+        "HABj5sta" = _HABj5sta;
+        "NwpeY33S" = _NwpeY33S;
+        "T1Tt3orF" = _T1Tt3orF;
+        "fwW094wq" = _fwW094wq;
+        "2kjFwefA" = _2kjFwefA;
+        "eLviPccM" = _eLviPccM;
+        "pmu6mBLW" = _pmu6mBLW;
+        "zuSEMb0N" = _zuSEMb0N;
+        "Su8dghQ7" = _Su8dghQ7;
+        "ksiQEnnG" = _ksiQEnnG;
+        "fQCQSDXn" = _fQCQSDXn;
+        "GVTlGeC4" = _GVTlGeC4;
+        "minecraft-1.0" = _wUdTvlGY;
+        "minecraft-1.1" = _wUdTvlGY;
+        "minecraft-1.2.1" = _wUdTvlGY;
+        "minecraft-1.2.2" = _wUdTvlGY;
+        "minecraft-1.2.3" = _wUdTvlGY;
+        "minecraft-1.2.4" = _wUdTvlGY;
+        "minecraft-1.2.5" = _wUdTvlGY;
+        "minecraft-1.3.1" = _wUdTvlGY;
+        "minecraft-1.3.2" = _wUdTvlGY;
+        "minecraft-1.4.2" = _wUdTvlGY;
+        "minecraft-1.4.4" = _wUdTvlGY;
+        "minecraft-1.4.5" = _wUdTvlGY;
+        "minecraft-1.4.6" = _wUdTvlGY;
+        "minecraft-1.4.7" = _wUdTvlGY;
+        "minecraft-1.5.1" = _wUdTvlGY;
+        "minecraft-1.5.2" = _wUdTvlGY;
+        "minecraft-1.6.1" = _wUdTvlGY;
+        "minecraft-1.6.2" = _wUdTvlGY;
+        "minecraft-1.6.4" = _wUdTvlGY;
+        "minecraft-1.7.2" = _wUdTvlGY;
+        "minecraft-1.7.3" = _wUdTvlGY;
+        "minecraft-1.7.4" = _wUdTvlGY;
+        "minecraft-1.7.5" = _wUdTvlGY;
+        "minecraft-1.7.6" = _wUdTvlGY;
+        "minecraft-1.7.7" = _wUdTvlGY;
+        "minecraft-1.7.8" = _wUdTvlGY;
+        "minecraft-1.7.9" = _wUdTvlGY;
+        "minecraft-1.7.10" = _wUdTvlGY;
+        "minecraft-1.8" = _wUdTvlGY;
+        "minecraft-1.8.1" = _wUdTvlGY;
+        "minecraft-1.8.2" = _wUdTvlGY;
+        "minecraft-1.8.3" = _wUdTvlGY;
+        "minecraft-1.8.4" = _wUdTvlGY;
+        "minecraft-1.8.5" = _wUdTvlGY;
+        "minecraft-1.8.6" = _wUdTvlGY;
+        "minecraft-1.8.7" = _wUdTvlGY;
+        "minecraft-1.8.8" = _wUdTvlGY;
+        "minecraft-1.8.9" = _wUdTvlGY;
+        "minecraft-1.9" = _wUdTvlGY;
+        "minecraft-1.9.1" = _wUdTvlGY;
+        "minecraft-1.9.2" = _wUdTvlGY;
+        "minecraft-1.9.3" = _wUdTvlGY;
+        "minecraft-1.9.4" = _wUdTvlGY;
+        "minecraft-1.10" = _wUdTvlGY;
+        "minecraft-1.10.1" = _wUdTvlGY;
+        "minecraft-1.10.2" = _wUdTvlGY;
+        "minecraft-1.11" = _wUdTvlGY;
+        "minecraft-1.11.1" = _wUdTvlGY;
+        "minecraft-1.11.2" = _wUdTvlGY;
+        "minecraft-1.12" = _wUdTvlGY;
+        "minecraft-1.12.1" = _wUdTvlGY;
+        "minecraft-1.12.2" = _wUdTvlGY;
+        "minecraft-1.13" = _wUdTvlGY;
+        "minecraft-1.13.1" = _wUdTvlGY;
+        "minecraft-1.13.2" = _wUdTvlGY;
+        "minecraft-1.14" = _wUdTvlGY;
+        "minecraft-1.14.1" = _wUdTvlGY;
+        "minecraft-1.14.2" = _wUdTvlGY;
+        "minecraft-1.14.3" = _wUdTvlGY;
+        "minecraft-1.14.4" = _wUdTvlGY;
+        "minecraft-1.15" = _c7V26Luh;
+        "minecraft-1.15.1" = _c7V26Luh;
+        "minecraft-1.15.2" = _c7V26Luh;
+        "minecraft-1.16" = _c7V26Luh;
+        "minecraft-1.16.1" = _c7V26Luh;
+        "minecraft-1.16.2" = _HABj5sta;
+        "minecraft-1.16.3" = _HABj5sta;
+        "minecraft-1.16.4" = _HABj5sta;
+        "minecraft-1.16.5" = _HABj5sta;
+        "minecraft-1.17" = _NwpeY33S;
+        "minecraft-1.17.1" = _NwpeY33S;
+        "minecraft-1.18" = _T1Tt3orF;
+        "minecraft-1.18.1" = _T1Tt3orF;
+        "minecraft-1.18.2" = _T1Tt3orF;
+        "minecraft-1.19" = _fwW094wq;
+        "minecraft-1.19.1" = _fwW094wq;
+        "minecraft-1.19.2" = _fwW094wq;
+        "minecraft-1.19.3" = _2kjFwefA;
+        "minecraft-1.19.4" = _eLviPccM;
+        "minecraft-1.20" = _pmu6mBLW;
+        "minecraft-1.20.1" = _pmu6mBLW;
+        "minecraft-1.20.2" = _zuSEMb0N;
+        "minecraft-1.20.3" = _Su8dghQ7;
+        "minecraft-1.20.4" = _Su8dghQ7;
+        "minecraft-1.20.5" = _ksiQEnnG;
+        "minecraft-1.20.6" = _ksiQEnnG;
+        "minecraft-1.21" = _fQCQSDXn;
+        "minecraft-1.21.1" = _fQCQSDXn;
+        "minecraft-25w10a" = _GVTlGeC4;
+        "minecraft-1.21.5-pre1" = _GVTlGeC4;
+        "minecraft-1.21.5-pre2" = _GVTlGeC4;
+        "minecraft-1.21.5-pre3" = _GVTlGeC4;
+        "minecraft-1.21.5-rc1" = _GVTlGeC4;
+        "minecraft-1.21.5-rc2" = _GVTlGeC4;
+        "minecraft-1.21.5" = _GVTlGeC4;
+        "minecraft-25w14craftmine" = _GVTlGeC4;
+        "minecraft-25w15a" = _GVTlGeC4;
+        "minecraft-25w16a" = _GVTlGeC4;
+        "minecraft-25w17a" = _GVTlGeC4;
+        "minecraft-25w18a" = _GVTlGeC4;
+        "minecraft-25w19a" = _GVTlGeC4;
+        "minecraft-25w20a" = _GVTlGeC4;
+        "minecraft-25w21a" = _GVTlGeC4;
+        "minecraft-1.21.6-pre1" = _GVTlGeC4;
+        "minecraft-1.21.6-pre2" = _GVTlGeC4;
+        "minecraft-1.21.6-pre3" = _GVTlGeC4;
+        "minecraft-1.21.6-pre4" = _GVTlGeC4;
+        "minecraft-1.21.6-rc1" = _GVTlGeC4;
+        "minecraft-1.21.6" = _GVTlGeC4;
+        "minecraft-1.21.7-rc1" = _GVTlGeC4;
+        "minecraft-1.21.7-rc2" = _GVTlGeC4;
+        "minecraft-1.21.7" = _GVTlGeC4;
+        "minecraft-1.21.8-rc1" = _GVTlGeC4;
+        "minecraft-1.21.8" = _GVTlGeC4;
+        "minecraft-1.21.9-pre1" = _GVTlGeC4;
+        "minecraft-1.21.9-pre2" = _GVTlGeC4;
+        "minecraft-1.21.9-pre3" = _GVTlGeC4;
+        "minecraft-1.21.9-pre4" = _GVTlGeC4;
+        "minecraft-1.21.9-rc1" = _GVTlGeC4;
+        "minecraft-1.21.9" = _GVTlGeC4;
+        "minecraft-1.21.10-rc1" = _GVTlGeC4;
+        "minecraft-1.21.10" = _GVTlGeC4;
+        "minecraft-1.21.11-pre1" = _GVTlGeC4;
+        "minecraft-1.21.11-pre2" = _GVTlGeC4;
+        "minecraft-1.21.11-pre3" = _GVTlGeC4;
+        "minecraft-1.21.11-pre4" = _GVTlGeC4;
+        "minecraft-1.21.11-pre5" = _GVTlGeC4;
+        "minecraft-1.21.11-rc1" = _GVTlGeC4;
+        "minecraft-1.21.11-rc2" = _GVTlGeC4;
+        "minecraft-1.21.11-rc3" = _GVTlGeC4;
+        "minecraft-1.21.11" = _GVTlGeC4;
+        "minecraft-26.1-snapshot-1" = _GVTlGeC4;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "xalis-enchanted-books-addon";
+            id = "LJazX7OI";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="GVTlGeC4";}

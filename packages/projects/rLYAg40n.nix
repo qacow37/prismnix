@@ -1,0 +1,38 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _mIJCavks = {
+            "id" = "mIJCavks";
+            "file" = "life-essence-mod-1.0.0.jar";
+            "hash" = "sha512-t4rtCQGTulM6rNUQGEkdFS/jZ1kgeBr8cACaRa5pKPLm5XnxMqHcwFOnxIxjBLWbta6irUClUnEAyyH6G+wDnQ==";
+        };
+        _QnP17WaQ = {
+            "id" = "QnP17WaQ";
+            "file" = "life-essence-mod-1.0.1.jar";
+            "hash" = "sha512-QJLlVjtAVkgfQn2FyIDvtm24uTecU/f/X9/rIekX9xWA0kPDT0GiAyS2w8NUlSZ7W8uQt04SVvQVZGw3hqn3lQ==";
+        };
+    in {
+        "mIJCavks" = _mIJCavks;
+        "QnP17WaQ" = _QnP17WaQ;
+        "forge-1.20.1" = _QnP17WaQ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "life-essential-oil";
+            id = "rLYAg40n";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="QnP17WaQ";}

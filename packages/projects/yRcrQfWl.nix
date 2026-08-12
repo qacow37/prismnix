@@ -1,0 +1,56 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _JChec5j3 = {
+            "id" = "JChec5j3";
+            "file" = "campfirebackport-1.7.10-1.10.1.jar";
+            "hash" = "sha512-WV0wwPGIXuV7W7x60f7viU5Ruj7Swf2gQoCVJ/XMBSLOlzLHCtfX92cKHgnM9eSKCifs+4HAIUOwOKWQhXSfqg==";
+        };
+        _gvqUOEpt = {
+            "id" = "gvqUOEpt";
+            "file" = "campfirebackport-1.7.10-1.11.jar";
+            "hash" = "sha512-gebOc+5hTiofOYiUfuHU2WkTX8dyQDLIQ5TLrouiFia6vv6CEaC0dlRv52oiR7FobwUQpBTWBB/bF7lUSMyT0w==";
+        };
+        _bpqxn0a3 = {
+            "id" = "bpqxn0a3";
+            "file" = "campfirebackport-1.7.10-1.11.1.jar";
+            "hash" = "sha512-220r6AKUHoCdD7jBmIrQ+Tb8vzFIu4LfyiYMgsu0h4cCE6sZcsPII6FsQa62zLTwgimrT+IqZBCizoVe5gM+vQ==";
+        };
+        _8ce2scXn = {
+            "id" = "8ce2scXn";
+            "file" = "campfirebackport-1.7.10-1.11.2.jar";
+            "hash" = "sha512-YTwsxiIwdOTkHvlfW3/yep4aIe3M5XjYa5p+5ek9WFA/Se0KIJx1Bg8Ty+MJu7osFvEwa/9qpDYNHf0eKzqTmw==";
+        };
+        _faPjmd7J = {
+            "id" = "faPjmd7J";
+            "file" = "campfirebackport-1.7.10-1.11.3.jar";
+            "hash" = "sha512-rbCpmCqNGEhuA1hZ3J8MZTeYZjonraSB/r61ZZUrr221O1qHnftCQXaz5G5WZIYKEgV2e+ATNo3JjqlBgMudyQ==";
+        };
+    in {
+        "JChec5j3" = _JChec5j3;
+        "gvqUOEpt" = _gvqUOEpt;
+        "bpqxn0a3" = _bpqxn0a3;
+        "8ce2scXn" = _8ce2scXn;
+        "faPjmd7J" = _faPjmd7J;
+        "forge-1.7.10" = _faPjmd7J;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "campfire-backport";
+            id = "yRcrQfWl";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="faPjmd7J";}

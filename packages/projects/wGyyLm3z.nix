@@ -1,0 +1,129 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _WiUGTEij = {
+            "id" = "WiUGTEij";
+            "file" = "No-Pumpkin-Blur.zip";
+            "hash" = "sha512-y2SJgA18yt5Dr00x13ITuHvWWg/s+yscZFnwoG8ONqhknowcg6U05DM1MpUmsnEs5DRwyaTz9FiyDlJVMYueFA==";
+        };
+        _6mg1Vv43 = {
+            "id" = "6mg1Vv43";
+            "file" = "No-Pumpkin-Blur.zip";
+            "hash" = "sha512-3e6RBMdzurYUsDRq4CLmBiQQWFZrJDCdo/B9NJUZcpUbvuaLvTV7ugcP83jN8OIXh2Zoo+6dFRaitx9pSeYAlg==";
+        };
+        _kr15QqNw = {
+            "id" = "kr15QqNw";
+            "file" = "No-Pumpkin-Blur.zip";
+            "hash" = "sha512-PC9bpdb/CFGzo/zpUmWkVxhXGX3rueefWrzDUJBzK6gpeCMCFiH/nzv8Jmlpmtcw0Y4CKVhGsT/deNEi9EI/1A==";
+        };
+    in {
+        "WiUGTEij" = _WiUGTEij;
+        "6mg1Vv43" = _6mg1Vv43;
+        "kr15QqNw" = _kr15QqNw;
+        "minecraft-1.6.1" = _kr15QqNw;
+        "minecraft-1.6.2" = _kr15QqNw;
+        "minecraft-1.6.4" = _kr15QqNw;
+        "minecraft-1.7.2" = _kr15QqNw;
+        "minecraft-1.7.3" = _kr15QqNw;
+        "minecraft-1.7.4" = _kr15QqNw;
+        "minecraft-1.7.5" = _kr15QqNw;
+        "minecraft-1.7.6" = _kr15QqNw;
+        "minecraft-1.7.7" = _kr15QqNw;
+        "minecraft-1.7.8" = _kr15QqNw;
+        "minecraft-1.7.9" = _kr15QqNw;
+        "minecraft-1.7.10" = _kr15QqNw;
+        "minecraft-1.8" = _kr15QqNw;
+        "minecraft-1.8.1" = _kr15QqNw;
+        "minecraft-1.8.2" = _kr15QqNw;
+        "minecraft-1.8.3" = _kr15QqNw;
+        "minecraft-1.8.4" = _kr15QqNw;
+        "minecraft-1.8.5" = _kr15QqNw;
+        "minecraft-1.8.6" = _kr15QqNw;
+        "minecraft-1.8.7" = _kr15QqNw;
+        "minecraft-1.8.8" = _kr15QqNw;
+        "minecraft-1.8.9" = _kr15QqNw;
+        "minecraft-1.9" = _kr15QqNw;
+        "minecraft-1.9.1" = _kr15QqNw;
+        "minecraft-1.9.2" = _kr15QqNw;
+        "minecraft-1.9.3" = _kr15QqNw;
+        "minecraft-1.9.4" = _kr15QqNw;
+        "minecraft-1.10" = _kr15QqNw;
+        "minecraft-1.10.1" = _kr15QqNw;
+        "minecraft-1.10.2" = _kr15QqNw;
+        "minecraft-1.11" = _kr15QqNw;
+        "minecraft-1.11.1" = _kr15QqNw;
+        "minecraft-1.11.2" = _kr15QqNw;
+        "minecraft-1.12" = _kr15QqNw;
+        "minecraft-1.12.1" = _kr15QqNw;
+        "minecraft-1.12.2" = _kr15QqNw;
+        "minecraft-1.13" = _kr15QqNw;
+        "minecraft-1.13.1" = _kr15QqNw;
+        "minecraft-1.13.2" = _kr15QqNw;
+        "minecraft-1.14" = _kr15QqNw;
+        "minecraft-1.14.1" = _kr15QqNw;
+        "minecraft-1.14.2" = _kr15QqNw;
+        "minecraft-1.14.3" = _kr15QqNw;
+        "minecraft-1.14.4" = _kr15QqNw;
+        "minecraft-1.15" = _kr15QqNw;
+        "minecraft-1.15.1" = _kr15QqNw;
+        "minecraft-1.15.2" = _kr15QqNw;
+        "minecraft-1.16" = _kr15QqNw;
+        "minecraft-1.16.1" = _kr15QqNw;
+        "minecraft-1.16.2" = _kr15QqNw;
+        "minecraft-1.16.3" = _kr15QqNw;
+        "minecraft-1.16.4" = _kr15QqNw;
+        "minecraft-1.16.5" = _kr15QqNw;
+        "minecraft-1.17" = _kr15QqNw;
+        "minecraft-1.17.1" = _kr15QqNw;
+        "minecraft-1.18" = _kr15QqNw;
+        "minecraft-1.18.1" = _kr15QqNw;
+        "minecraft-1.18.2" = _kr15QqNw;
+        "minecraft-1.19" = _kr15QqNw;
+        "minecraft-1.19.1" = _kr15QqNw;
+        "minecraft-1.19.2" = _kr15QqNw;
+        "minecraft-1.19.3" = _kr15QqNw;
+        "minecraft-1.19.4" = _kr15QqNw;
+        "minecraft-1.20" = _kr15QqNw;
+        "minecraft-1.20.1" = _kr15QqNw;
+        "minecraft-1.20.2" = _kr15QqNw;
+        "minecraft-1.20.3" = _kr15QqNw;
+        "minecraft-1.20.4" = _kr15QqNw;
+        "minecraft-1.20.5" = _kr15QqNw;
+        "minecraft-1.20.6" = _kr15QqNw;
+        "minecraft-1.21" = _kr15QqNw;
+        "minecraft-1.21.1" = _kr15QqNw;
+        "minecraft-1.21.2" = _kr15QqNw;
+        "minecraft-1.21.3" = _kr15QqNw;
+        "minecraft-1.21.4" = _kr15QqNw;
+        "minecraft-1.21.5" = _kr15QqNw;
+        "minecraft-1.21.6" = _kr15QqNw;
+        "minecraft-1.21.7" = _kr15QqNw;
+        "minecraft-1.21.8" = _kr15QqNw;
+        "minecraft-1.21.9" = _kr15QqNw;
+        "minecraft-1.21.10" = _kr15QqNw;
+        "minecraft-1.21.11" = _kr15QqNw;
+        "minecraft-26.1" = _kr15QqNw;
+        "minecraft-26.1.1" = _kr15QqNw;
+        "minecraft-26.1.2" = _kr15QqNw;
+        "minecraft-26.2" = _kr15QqNw;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "nopumpkinblureffect";
+            id = "wGyyLm3z";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Zlib" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "zlib License";
+                    shortName = "Zlib";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="kr15QqNw";}

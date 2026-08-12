@@ -1,0 +1,177 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _HjWE3O39 = {
+            "id" = "HjWE3O39";
+            "file" = "TreeFalls-1.1.0.jar";
+            "hash" = "sha512-Pru4pcjx+U8WDg7dRNLQ/t5M/OkpPOuPL3GkfvCKeLe3d8TvurBHIzL2bcW5TC6pb8IkfJuIsIMrAwjE0Iu6tA==";
+        };
+        _A5byJUan = {
+            "id" = "A5byJUan";
+            "file" = "TreeFalls-1.1.1.jar";
+            "hash" = "sha512-JnYT64dKJtCO8FP6cJfDjc+ylhbgDD4+Uq1zaVXY7RSRFnKjFe+UvDba+dTXk2qeCoF4ZgKgetDWuncO3BDZew==";
+        };
+        _RHnp8Jt3 = {
+            "id" = "RHnp8Jt3";
+            "file" = "TreeFalls-1.2.0.jar";
+            "hash" = "sha512-RJrM5grfZTmKYlURay7dsKY6nQ4LzQ8Su1KU1XXB+VvViBRtST/b7zZtGReRMBv8o9eOfy9+GtAAHIQyWD2f/w==";
+        };
+        _UdBURLEM = {
+            "id" = "UdBURLEM";
+            "file" = "TreeFalls-1.3.0.jar";
+            "hash" = "sha512-igKYP5rrSGsABzUSaHABvC9OdKVwFK7tXizC+f8UMZNvjnfqLO5Aj5DZ5jQiz0Daha4+4yqw02HUbII9n3n1OA==";
+        };
+        _uhjam8EC = {
+            "id" = "uhjam8EC";
+            "file" = "TreeFalls-1.3.1.jar";
+            "hash" = "sha512-yrEW4B5bKdLDBK6JOF4xV33VWyyuWjiE/xQkNCdtPMZ7+chYPxUrvoYMX3MjBOqt/0E6S9iWQ1KX0iIt7hIErg==";
+        };
+        _zPxcOBDJ = {
+            "id" = "zPxcOBDJ";
+            "file" = "TreeFalls-1.3.2.jar";
+            "hash" = "sha512-h7x+TbOIcEZ2Fk6QXjEZYwE/ywIeWoAaygp8DO+TgXaZDkXw47zf0qztZIYb9+UAQAn4AkV0UNB4ttS5Lk5CmA==";
+        };
+        _3COHujiz = {
+            "id" = "3COHujiz";
+            "file" = "TreeFalls-1.3.3.jar";
+            "hash" = "sha512-fjChTivIM3g5ru/CKzrlRPh8MTx26cP1B82CIe8M0N306p/UWq6hnTq4TgmkT53a2TSI0489MV4KdpfbxV0PTQ==";
+        };
+    in {
+        "HjWE3O39" = _HjWE3O39;
+        "A5byJUan" = _A5byJUan;
+        "RHnp8Jt3" = _RHnp8Jt3;
+        "UdBURLEM" = _UdBURLEM;
+        "uhjam8EC" = _uhjam8EC;
+        "zPxcOBDJ" = _zPxcOBDJ;
+        "3COHujiz" = _3COHujiz;
+        "folia-1.20" = _3COHujiz;
+        "folia-1.20.1" = _3COHujiz;
+        "folia-1.20.2" = _3COHujiz;
+        "folia-1.20.3" = _3COHujiz;
+        "folia-1.20.4" = _3COHujiz;
+        "folia-1.20.5" = _3COHujiz;
+        "folia-1.20.6" = _3COHujiz;
+        "folia-1.21" = _3COHujiz;
+        "folia-1.21.1" = _3COHujiz;
+        "folia-1.21.2" = _3COHujiz;
+        "folia-1.21.3" = _3COHujiz;
+        "folia-1.21.4" = _3COHujiz;
+        "folia-1.21.5" = _3COHujiz;
+        "folia-1.21.6" = _3COHujiz;
+        "folia-1.21.7" = _3COHujiz;
+        "folia-1.21.8" = _3COHujiz;
+        "folia-1.21.9" = _3COHujiz;
+        "folia-1.21.10" = _3COHujiz;
+        "folia-1.21.11" = _3COHujiz;
+        "folia-26.1" = _3COHujiz;
+        "folia-26.1.1" = _3COHujiz;
+        "folia-26.1.2" = _3COHujiz;
+        "paper-1.20" = _3COHujiz;
+        "paper-1.20.1" = _3COHujiz;
+        "paper-1.20.2" = _3COHujiz;
+        "paper-1.20.3" = _3COHujiz;
+        "paper-1.20.4" = _3COHujiz;
+        "paper-1.20.5" = _3COHujiz;
+        "paper-1.20.6" = _3COHujiz;
+        "paper-1.21" = _3COHujiz;
+        "paper-1.21.1" = _3COHujiz;
+        "paper-1.21.2" = _3COHujiz;
+        "paper-1.21.3" = _3COHujiz;
+        "paper-1.21.4" = _3COHujiz;
+        "paper-1.21.5" = _3COHujiz;
+        "paper-1.21.6" = _3COHujiz;
+        "paper-1.21.7" = _3COHujiz;
+        "paper-1.21.8" = _3COHujiz;
+        "paper-1.21.9" = _3COHujiz;
+        "paper-1.21.10" = _3COHujiz;
+        "paper-1.21.11" = _3COHujiz;
+        "paper-26.1" = _3COHujiz;
+        "paper-26.1.1" = _3COHujiz;
+        "paper-26.1.2" = _3COHujiz;
+        "purpur-1.20" = _3COHujiz;
+        "purpur-1.20.1" = _3COHujiz;
+        "purpur-1.20.2" = _3COHujiz;
+        "purpur-1.20.3" = _3COHujiz;
+        "purpur-1.20.4" = _3COHujiz;
+        "purpur-1.20.5" = _3COHujiz;
+        "purpur-1.20.6" = _3COHujiz;
+        "purpur-1.21" = _3COHujiz;
+        "purpur-1.21.1" = _3COHujiz;
+        "purpur-1.21.2" = _3COHujiz;
+        "purpur-1.21.3" = _3COHujiz;
+        "purpur-1.21.4" = _3COHujiz;
+        "purpur-1.21.5" = _3COHujiz;
+        "purpur-1.21.6" = _3COHujiz;
+        "purpur-1.21.7" = _3COHujiz;
+        "purpur-1.21.8" = _3COHujiz;
+        "purpur-1.21.9" = _3COHujiz;
+        "purpur-1.21.10" = _3COHujiz;
+        "purpur-1.21.11" = _3COHujiz;
+        "purpur-26.1" = _3COHujiz;
+        "purpur-26.1.1" = _3COHujiz;
+        "purpur-26.1.2" = _3COHujiz;
+        "bukkit-1.20" = _3COHujiz;
+        "bukkit-1.20.1" = _3COHujiz;
+        "bukkit-1.20.2" = _3COHujiz;
+        "bukkit-1.20.3" = _3COHujiz;
+        "bukkit-1.20.4" = _3COHujiz;
+        "bukkit-1.20.5" = _3COHujiz;
+        "bukkit-1.20.6" = _3COHujiz;
+        "bukkit-1.21" = _3COHujiz;
+        "bukkit-1.21.1" = _3COHujiz;
+        "bukkit-1.21.2" = _3COHujiz;
+        "bukkit-1.21.3" = _3COHujiz;
+        "bukkit-1.21.4" = _3COHujiz;
+        "bukkit-1.21.5" = _3COHujiz;
+        "bukkit-1.21.6" = _3COHujiz;
+        "bukkit-1.21.7" = _3COHujiz;
+        "bukkit-1.21.8" = _3COHujiz;
+        "bukkit-1.21.9" = _3COHujiz;
+        "bukkit-1.21.10" = _3COHujiz;
+        "bukkit-1.21.11" = _3COHujiz;
+        "bukkit-26.1" = _3COHujiz;
+        "bukkit-26.1.1" = _3COHujiz;
+        "bukkit-26.1.2" = _3COHujiz;
+        "spigot-1.20" = _3COHujiz;
+        "spigot-1.20.1" = _3COHujiz;
+        "spigot-1.20.2" = _3COHujiz;
+        "spigot-1.20.3" = _3COHujiz;
+        "spigot-1.20.4" = _3COHujiz;
+        "spigot-1.20.5" = _3COHujiz;
+        "spigot-1.20.6" = _3COHujiz;
+        "spigot-1.21" = _3COHujiz;
+        "spigot-1.21.1" = _3COHujiz;
+        "spigot-1.21.2" = _3COHujiz;
+        "spigot-1.21.3" = _3COHujiz;
+        "spigot-1.21.4" = _3COHujiz;
+        "spigot-1.21.5" = _3COHujiz;
+        "spigot-1.21.6" = _3COHujiz;
+        "spigot-1.21.7" = _3COHujiz;
+        "spigot-1.21.8" = _3COHujiz;
+        "spigot-1.21.9" = _3COHujiz;
+        "spigot-1.21.10" = _3COHujiz;
+        "spigot-1.21.11" = _3COHujiz;
+        "spigot-26.1" = _3COHujiz;
+        "spigot-26.1.1" = _3COHujiz;
+        "spigot-26.1.2" = _3COHujiz;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "treefalls";
+            id = "gBMJuNmk";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/Mvndi/TreeFalls/blob/main/LICENSE.md";
+                };
+            };
+        };
+in callPackage fn {version="3COHujiz";}

@@ -1,0 +1,153 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _nIcYxYTe = {
+            "id" = "nIcYxYTe";
+            "file" = "InvisibleArmor(1.20).zip";
+            "hash" = "sha512-0IxR1YUe2NcS7HwDZVx3h2m5mnxwLTpbUSMmQd8/nvX3K2BNVtZJ//VxQclayc1BRzZv1ISDmZvbGT27Qx6lww==";
+        };
+        _ytxYSZJE = {
+            "id" = "ytxYSZJE";
+            "file" = "InvisibleArmor+v1.1.zip";
+            "hash" = "sha512-WN0PibSIKc3qXD+SLBEA99tLmi7z8A3jXxFjch6TTmlbcd+UJ7vMj5R/3xnx1Tvo4/Zt1bzlEqm8H6UvjPir7w==";
+        };
+        _LAtvmCoG = {
+            "id" = "LAtvmCoG";
+            "file" = "InvisibleArmor 1.2.zip";
+            "hash" = "sha512-oyyvIcrax4KFNQp9DKmYZwiNqhrBjtWvqQix2to58NuY+K1zhwdoS7enx1I2dN451chE/Rj6YzAJ5OFKJZbaaA==";
+        };
+        _sJSpJRF8 = {
+            "id" = "sJSpJRF8";
+            "file" = "InvisibleArmor 1.2.1.zip";
+            "hash" = "sha512-sVO2aInGEFXy2dnnshYnhahE+HO9+jhDFEguGK1ikNTdsMGGbbgj9otk6CWIW+kn/BB79WKjBG0IlXBidF1xvQ==";
+        };
+        _erwAelpV = {
+            "id" = "erwAelpV";
+            "file" = "InvisibleArmor 1.2.2.zip";
+            "hash" = "sha512-3oO/PRE4CQtqRhhGLqCXuvuGPl+U4iVi2eIM3xy10zw1RcCHCVPZoJcug+iEFptAuuuSBcVzZnvAka0Ol7MCmQ==";
+        };
+    in {
+        "nIcYxYTe" = _nIcYxYTe;
+        "ytxYSZJE" = _ytxYSZJE;
+        "LAtvmCoG" = _LAtvmCoG;
+        "sJSpJRF8" = _sJSpJRF8;
+        "erwAelpV" = _erwAelpV;
+        "minecraft-1.13" = _erwAelpV;
+        "minecraft-1.13.1" = _erwAelpV;
+        "minecraft-1.13.2" = _erwAelpV;
+        "minecraft-1.14" = _erwAelpV;
+        "minecraft-1.14.1" = _erwAelpV;
+        "minecraft-1.14.2" = _erwAelpV;
+        "minecraft-1.14.3" = _erwAelpV;
+        "minecraft-1.14.4" = _erwAelpV;
+        "minecraft-1.15" = _erwAelpV;
+        "minecraft-1.15.1" = _erwAelpV;
+        "minecraft-1.15.2" = _erwAelpV;
+        "minecraft-1.16" = _erwAelpV;
+        "minecraft-1.16.1" = _erwAelpV;
+        "minecraft-1.16.2" = _erwAelpV;
+        "minecraft-1.16.3" = _erwAelpV;
+        "minecraft-1.16.4" = _erwAelpV;
+        "minecraft-1.16.5" = _erwAelpV;
+        "minecraft-1.17" = _erwAelpV;
+        "minecraft-1.17.1" = _erwAelpV;
+        "minecraft-1.18" = _erwAelpV;
+        "minecraft-1.18.1" = _erwAelpV;
+        "minecraft-1.18.2" = _erwAelpV;
+        "minecraft-1.19" = _erwAelpV;
+        "minecraft-1.19.1" = _erwAelpV;
+        "minecraft-1.19.2" = _erwAelpV;
+        "minecraft-1.19.3" = _erwAelpV;
+        "minecraft-1.19.4" = _erwAelpV;
+        "minecraft-1.20" = _erwAelpV;
+        "minecraft-1.20.1" = _erwAelpV;
+        "minecraft-1.20.2" = _erwAelpV;
+        "minecraft-1.20.3" = _erwAelpV;
+        "minecraft-1.20.4" = _erwAelpV;
+        "minecraft-1.20.5" = _erwAelpV;
+        "minecraft-1.20.6" = _erwAelpV;
+        "minecraft-1.21" = _erwAelpV;
+        "minecraft-1.21.1" = _erwAelpV;
+        "minecraft-1.21.2" = _erwAelpV;
+        "minecraft-1.21.3" = _erwAelpV;
+        "minecraft-1.21.4" = _erwAelpV;
+        "minecraft-1.21.5" = _erwAelpV;
+        "minecraft-1.21.6" = _erwAelpV;
+        "minecraft-1.21.7" = _erwAelpV;
+        "minecraft-1.21.8" = _erwAelpV;
+        "minecraft-1.21.9" = _erwAelpV;
+        "minecraft-1.21.10" = _erwAelpV;
+        "minecraft-1.7.2" = _erwAelpV;
+        "minecraft-1.7.3" = _erwAelpV;
+        "minecraft-1.7.4" = _erwAelpV;
+        "minecraft-1.7.5" = _erwAelpV;
+        "minecraft-1.7.6" = _erwAelpV;
+        "minecraft-1.7.7" = _erwAelpV;
+        "minecraft-1.7.8" = _erwAelpV;
+        "minecraft-1.7.9" = _erwAelpV;
+        "minecraft-1.7.10" = _erwAelpV;
+        "minecraft-1.8" = _erwAelpV;
+        "minecraft-1.8.1" = _erwAelpV;
+        "minecraft-1.8.2" = _erwAelpV;
+        "minecraft-1.8.3" = _erwAelpV;
+        "minecraft-1.8.4" = _erwAelpV;
+        "minecraft-1.8.5" = _erwAelpV;
+        "minecraft-1.8.6" = _erwAelpV;
+        "minecraft-1.8.7" = _erwAelpV;
+        "minecraft-1.8.8" = _erwAelpV;
+        "minecraft-1.8.9" = _erwAelpV;
+        "minecraft-1.9" = _erwAelpV;
+        "minecraft-1.9.1" = _erwAelpV;
+        "minecraft-1.9.2" = _erwAelpV;
+        "minecraft-1.9.3" = _erwAelpV;
+        "minecraft-1.9.4" = _erwAelpV;
+        "minecraft-1.10" = _erwAelpV;
+        "minecraft-1.10.1" = _erwAelpV;
+        "minecraft-1.10.2" = _erwAelpV;
+        "minecraft-1.11" = _erwAelpV;
+        "minecraft-1.11.1" = _erwAelpV;
+        "minecraft-1.11.2" = _erwAelpV;
+        "minecraft-1.12" = _erwAelpV;
+        "minecraft-1.12.1" = _erwAelpV;
+        "minecraft-1.12.2" = _erwAelpV;
+        "minecraft-1.21.11" = _erwAelpV;
+        "minecraft-26.1" = _erwAelpV;
+        "minecraft-26.1.1" = _erwAelpV;
+        "minecraft-26.1.2" = _erwAelpV;
+        "minecraft-26.2-snapshot-2" = _erwAelpV;
+        "minecraft-26.2-snapshot-3" = _erwAelpV;
+        "minecraft-26.2-snapshot-4" = _erwAelpV;
+        "minecraft-26.2-snapshot-5" = _erwAelpV;
+        "minecraft-26.2-snapshot-6" = _erwAelpV;
+        "minecraft-26.2-snapshot-7" = _erwAelpV;
+        "minecraft-26.2-snapshot-8" = _erwAelpV;
+        "minecraft-26.2-pre-1" = _erwAelpV;
+        "minecraft-26.2-pre-2" = _erwAelpV;
+        "minecraft-26.2" = _erwAelpV;
+        "minecraft-26.3-snapshot-1" = _erwAelpV;
+        "minecraft-26.3-snapshot-2" = _erwAelpV;
+        "minecraft-26.3-snapshot-3" = _erwAelpV;
+        "minecraft-26.3-snapshot-4" = _erwAelpV;
+        "minecraft-26.3-snapshot-5" = _erwAelpV;
+        "minecraft-26.3-snapshot-6" = _erwAelpV;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "invisible-armor";
+            id = "SZVt9Fyc";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                    shortName = "CC-BY-NC-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="erwAelpV";}

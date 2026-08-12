@@ -1,0 +1,109 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Qs9suVlQ = {
+            "id" = "Qs9suVlQ";
+            "file" = "La_Flor_Principal.zip";
+            "hash" = "sha512-tM1KH5glNq7mvBTASBEKFOGkkD1OVXl2nFGn9Ci5EO4MGCnJwjkYi51R3QyBkgwp1chJ9ar+zUgt0EBgRTN8Aw==";
+        };
+    in {
+        "Qs9suVlQ" = _Qs9suVlQ;
+        "iris-1.16" = _Qs9suVlQ;
+        "iris-1.16.1" = _Qs9suVlQ;
+        "iris-1.16.2" = _Qs9suVlQ;
+        "iris-1.16.3" = _Qs9suVlQ;
+        "iris-1.16.4" = _Qs9suVlQ;
+        "iris-1.16.5" = _Qs9suVlQ;
+        "iris-1.17" = _Qs9suVlQ;
+        "iris-1.17.1" = _Qs9suVlQ;
+        "iris-1.18" = _Qs9suVlQ;
+        "iris-1.18.1" = _Qs9suVlQ;
+        "iris-1.18.2" = _Qs9suVlQ;
+        "iris-1.19" = _Qs9suVlQ;
+        "iris-1.19.1" = _Qs9suVlQ;
+        "iris-1.19.2" = _Qs9suVlQ;
+        "iris-1.19.3" = _Qs9suVlQ;
+        "iris-1.19.4" = _Qs9suVlQ;
+        "iris-1.20" = _Qs9suVlQ;
+        "iris-1.20.1" = _Qs9suVlQ;
+        "iris-1.20.2" = _Qs9suVlQ;
+        "iris-1.20.3" = _Qs9suVlQ;
+        "iris-1.20.4" = _Qs9suVlQ;
+        "iris-1.20.5" = _Qs9suVlQ;
+        "iris-1.20.6" = _Qs9suVlQ;
+        "iris-1.21" = _Qs9suVlQ;
+        "iris-1.21.1" = _Qs9suVlQ;
+        "iris-1.21.2" = _Qs9suVlQ;
+        "iris-1.21.3" = _Qs9suVlQ;
+        "iris-1.21.4" = _Qs9suVlQ;
+        "iris-1.21.5" = _Qs9suVlQ;
+        "iris-1.21.6" = _Qs9suVlQ;
+        "iris-1.21.7" = _Qs9suVlQ;
+        "iris-1.21.8" = _Qs9suVlQ;
+        "iris-1.21.9" = _Qs9suVlQ;
+        "iris-1.21.10" = _Qs9suVlQ;
+        "iris-1.21.11" = _Qs9suVlQ;
+        "iris-26.1" = _Qs9suVlQ;
+        "iris-26.1.1" = _Qs9suVlQ;
+        "iris-26.1.2" = _Qs9suVlQ;
+        "iris-26.2" = _Qs9suVlQ;
+        "optifine-1.16" = _Qs9suVlQ;
+        "optifine-1.16.1" = _Qs9suVlQ;
+        "optifine-1.16.2" = _Qs9suVlQ;
+        "optifine-1.16.3" = _Qs9suVlQ;
+        "optifine-1.16.4" = _Qs9suVlQ;
+        "optifine-1.16.5" = _Qs9suVlQ;
+        "optifine-1.17" = _Qs9suVlQ;
+        "optifine-1.17.1" = _Qs9suVlQ;
+        "optifine-1.18" = _Qs9suVlQ;
+        "optifine-1.18.1" = _Qs9suVlQ;
+        "optifine-1.18.2" = _Qs9suVlQ;
+        "optifine-1.19" = _Qs9suVlQ;
+        "optifine-1.19.1" = _Qs9suVlQ;
+        "optifine-1.19.2" = _Qs9suVlQ;
+        "optifine-1.19.3" = _Qs9suVlQ;
+        "optifine-1.19.4" = _Qs9suVlQ;
+        "optifine-1.20" = _Qs9suVlQ;
+        "optifine-1.20.1" = _Qs9suVlQ;
+        "optifine-1.20.2" = _Qs9suVlQ;
+        "optifine-1.20.3" = _Qs9suVlQ;
+        "optifine-1.20.4" = _Qs9suVlQ;
+        "optifine-1.20.5" = _Qs9suVlQ;
+        "optifine-1.20.6" = _Qs9suVlQ;
+        "optifine-1.21" = _Qs9suVlQ;
+        "optifine-1.21.1" = _Qs9suVlQ;
+        "optifine-1.21.2" = _Qs9suVlQ;
+        "optifine-1.21.3" = _Qs9suVlQ;
+        "optifine-1.21.4" = _Qs9suVlQ;
+        "optifine-1.21.5" = _Qs9suVlQ;
+        "optifine-1.21.6" = _Qs9suVlQ;
+        "optifine-1.21.7" = _Qs9suVlQ;
+        "optifine-1.21.8" = _Qs9suVlQ;
+        "optifine-1.21.9" = _Qs9suVlQ;
+        "optifine-1.21.10" = _Qs9suVlQ;
+        "optifine-1.21.11" = _Qs9suVlQ;
+        "optifine-26.1" = _Qs9suVlQ;
+        "optifine-26.1.1" = _Qs9suVlQ;
+        "optifine-26.1.2" = _Qs9suVlQ;
+        "optifine-26.2" = _Qs9suVlQ;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "principal";
+            id = "qCur2p1Q";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Qs9suVlQ";}

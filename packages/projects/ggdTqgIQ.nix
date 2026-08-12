@@ -1,0 +1,131 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _lZ5oEydS = {
+            "id" = "lZ5oEydS";
+            "file" = "Realistic Sun & Moon.zip";
+            "hash" = "sha512-6VJsBm2DpcIUbXkQdFvfhB/pr9jJmzJVeGR9oMtJJSFKU4fbsmUdUQ+WbuUGE7XtFkhS5uYBIMtUX8vSjAAEWw==";
+        };
+        _EkOOpgiI = {
+            "id" = "EkOOpgiI";
+            "file" = "Realistic Sun & Moon.zip";
+            "hash" = "sha512-ZCqM6IZmx7tVCHt1KVLPpyuGGrJ1/8w3smJfnLoaC0IeoWEjVvCPXIq9M9IwTwMN2m9KMXP3wPH3P+NiskycZw==";
+        };
+        _sGh97HkH = {
+            "id" = "sGh97HkH";
+            "file" = "Realistic Sun & Moon.zip";
+            "hash" = "sha512-cou5ypRxWMlnbIvzDSFo67Sf5F0jG0mwS1pW6ds6QMSpvQCofWL4cBEVwbL2cSVfwAu7b2gYtH49D4n744bL9Q==";
+        };
+    in {
+        "lZ5oEydS" = _lZ5oEydS;
+        "EkOOpgiI" = _EkOOpgiI;
+        "sGh97HkH" = _sGh97HkH;
+        "minecraft-1.5.1" = _EkOOpgiI;
+        "minecraft-1.5.2" = _EkOOpgiI;
+        "minecraft-1.6.1" = _sGh97HkH;
+        "minecraft-1.6.2" = _sGh97HkH;
+        "minecraft-1.6.4" = _sGh97HkH;
+        "minecraft-1.7.2" = _sGh97HkH;
+        "minecraft-1.7.3" = _sGh97HkH;
+        "minecraft-1.7.4" = _sGh97HkH;
+        "minecraft-1.7.5" = _sGh97HkH;
+        "minecraft-1.7.6" = _sGh97HkH;
+        "minecraft-1.7.7" = _sGh97HkH;
+        "minecraft-1.7.8" = _sGh97HkH;
+        "minecraft-1.7.9" = _sGh97HkH;
+        "minecraft-1.7.10" = _sGh97HkH;
+        "minecraft-1.8" = _sGh97HkH;
+        "minecraft-1.8.1" = _sGh97HkH;
+        "minecraft-1.8.2" = _sGh97HkH;
+        "minecraft-1.8.3" = _sGh97HkH;
+        "minecraft-1.8.4" = _sGh97HkH;
+        "minecraft-1.8.5" = _sGh97HkH;
+        "minecraft-1.8.6" = _sGh97HkH;
+        "minecraft-1.8.7" = _sGh97HkH;
+        "minecraft-1.8.8" = _sGh97HkH;
+        "minecraft-1.8.9" = _sGh97HkH;
+        "minecraft-1.9" = _sGh97HkH;
+        "minecraft-1.9.1" = _sGh97HkH;
+        "minecraft-1.9.2" = _sGh97HkH;
+        "minecraft-1.9.3" = _sGh97HkH;
+        "minecraft-1.9.4" = _sGh97HkH;
+        "minecraft-1.10" = _sGh97HkH;
+        "minecraft-1.10.1" = _sGh97HkH;
+        "minecraft-1.10.2" = _sGh97HkH;
+        "minecraft-1.11" = _sGh97HkH;
+        "minecraft-1.11.1" = _sGh97HkH;
+        "minecraft-1.11.2" = _sGh97HkH;
+        "minecraft-1.12" = _sGh97HkH;
+        "minecraft-1.12.1" = _sGh97HkH;
+        "minecraft-1.12.2" = _sGh97HkH;
+        "minecraft-1.13" = _sGh97HkH;
+        "minecraft-1.13.1" = _sGh97HkH;
+        "minecraft-1.13.2" = _sGh97HkH;
+        "minecraft-1.14" = _sGh97HkH;
+        "minecraft-1.14.1" = _sGh97HkH;
+        "minecraft-1.14.2" = _sGh97HkH;
+        "minecraft-1.14.3" = _sGh97HkH;
+        "minecraft-1.14.4" = _sGh97HkH;
+        "minecraft-1.15" = _sGh97HkH;
+        "minecraft-1.15.1" = _sGh97HkH;
+        "minecraft-1.15.2" = _sGh97HkH;
+        "minecraft-1.16" = _sGh97HkH;
+        "minecraft-1.16.1" = _sGh97HkH;
+        "minecraft-1.16.2" = _sGh97HkH;
+        "minecraft-1.16.3" = _sGh97HkH;
+        "minecraft-1.16.4" = _sGh97HkH;
+        "minecraft-1.16.5" = _sGh97HkH;
+        "minecraft-1.17" = _sGh97HkH;
+        "minecraft-1.17.1" = _sGh97HkH;
+        "minecraft-1.18" = _sGh97HkH;
+        "minecraft-1.18.1" = _sGh97HkH;
+        "minecraft-1.18.2" = _sGh97HkH;
+        "minecraft-1.19" = _sGh97HkH;
+        "minecraft-1.19.1" = _sGh97HkH;
+        "minecraft-1.19.2" = _sGh97HkH;
+        "minecraft-1.19.3" = _sGh97HkH;
+        "minecraft-1.19.4" = _sGh97HkH;
+        "minecraft-1.20" = _sGh97HkH;
+        "minecraft-1.20.1" = _sGh97HkH;
+        "minecraft-1.20.2" = _sGh97HkH;
+        "minecraft-1.20.3" = _sGh97HkH;
+        "minecraft-1.20.4" = _sGh97HkH;
+        "minecraft-1.20.5" = _sGh97HkH;
+        "minecraft-1.20.6" = _sGh97HkH;
+        "minecraft-1.21" = _sGh97HkH;
+        "minecraft-1.21.1" = _sGh97HkH;
+        "minecraft-1.21.2" = _sGh97HkH;
+        "minecraft-1.21.3" = _sGh97HkH;
+        "minecraft-1.21.4" = _sGh97HkH;
+        "minecraft-1.21.5" = _sGh97HkH;
+        "minecraft-1.21.6" = _sGh97HkH;
+        "minecraft-1.21.7" = _sGh97HkH;
+        "minecraft-1.21.8" = _sGh97HkH;
+        "minecraft-1.21.9" = _sGh97HkH;
+        "minecraft-1.21.10" = _sGh97HkH;
+        "minecraft-1.21.11" = _sGh97HkH;
+        "minecraft-26.1" = _sGh97HkH;
+        "minecraft-26.1.1" = _sGh97HkH;
+        "minecraft-26.1.2" = _sGh97HkH;
+        "minecraft-26.2" = _sGh97HkH;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "realistic-sun-moon";
+            id = "ggdTqgIQ";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="sGh97HkH";}

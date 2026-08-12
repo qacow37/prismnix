@@ -1,0 +1,148 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _1INY7f7e = {
+            "id" = "1INY7f7e";
+            "file" = "RawInput-1.1.0-ornithe.jar";
+            "hash" = "sha512-9oA4Sl3iqF53B+9yRPOSlUXl+syuUB5XNs3Rj7bQPnTKfYxewANOjn6YHiOaG4g5uMIMaQ2X7vrWkQ4+K06V0Q==";
+        };
+        _RQt8Giid = {
+            "id" = "RQt8Giid";
+            "file" = "RawInput-1.1.0-fabric.jar";
+            "hash" = "sha512-Inn8Mc9kjsVLvEsLPs6/R2JV/arZZIw1IjWy6d2PjCo3JofyuQ3MYsHh3vmznIZYoO6XrHTaAU9QgTm7XWr37Q==";
+        };
+        _I4HOFYes = {
+            "id" = "I4HOFYes";
+            "file" = "RawInput-1.1.1-ornithe.jar";
+            "hash" = "sha512-uq06In1jzdhCIvJ8LdHDz1sntE4EHqNPvBEvKuxgx7rhuy7PhEV3HOomdz6+dFY/uWCbnEkIFoxKIq2QeQefvA==";
+        };
+        _RpXsFqZc = {
+            "id" = "RpXsFqZc";
+            "file" = "RawInput-1.1.1-fabric.jar";
+            "hash" = "sha512-Buq38jlWznmAzYyBagA+aEHtSkQrKEQXsOkjMDra4J0bxPycLMaOMYuOpSlX3/xtg1c8MwIs910aHF6rEu5R4g==";
+        };
+    in {
+        "1INY7f7e" = _1INY7f7e;
+        "RQt8Giid" = _RQt8Giid;
+        "I4HOFYes" = _I4HOFYes;
+        "RpXsFqZc" = _RpXsFqZc;
+        "fabric-1.7.2" = _RpXsFqZc;
+        "fabric-1.7.3" = _RpXsFqZc;
+        "fabric-1.7.4" = _RpXsFqZc;
+        "fabric-1.7.5" = _RpXsFqZc;
+        "fabric-1.7.6" = _RpXsFqZc;
+        "fabric-1.7.7" = _RpXsFqZc;
+        "fabric-1.7.8" = _RpXsFqZc;
+        "fabric-1.7.9" = _RpXsFqZc;
+        "fabric-1.7.10" = _RpXsFqZc;
+        "fabric-1.8" = _RpXsFqZc;
+        "fabric-1.8.1" = _RpXsFqZc;
+        "fabric-1.8.2" = _RpXsFqZc;
+        "fabric-1.8.3" = _RpXsFqZc;
+        "fabric-1.8.4" = _RpXsFqZc;
+        "fabric-1.8.5" = _RpXsFqZc;
+        "fabric-1.8.6" = _RpXsFqZc;
+        "fabric-1.8.7" = _RpXsFqZc;
+        "fabric-1.8.8" = _RpXsFqZc;
+        "fabric-1.8.9" = _RpXsFqZc;
+        "fabric-1.9" = _RpXsFqZc;
+        "fabric-1.9.1" = _RpXsFqZc;
+        "fabric-1.9.2" = _RpXsFqZc;
+        "fabric-1.9.3" = _RpXsFqZc;
+        "fabric-1.9.4" = _RpXsFqZc;
+        "fabric-1.10" = _RpXsFqZc;
+        "fabric-1.10.1" = _RpXsFqZc;
+        "fabric-1.10.2" = _RpXsFqZc;
+        "fabric-1.11" = _RpXsFqZc;
+        "fabric-1.11.1" = _RpXsFqZc;
+        "fabric-1.11.2" = _RpXsFqZc;
+        "fabric-1.12" = _RpXsFqZc;
+        "fabric-1.12.1" = _RpXsFqZc;
+        "fabric-1.12.2" = _RpXsFqZc;
+        "ornithe-1.7.2" = _I4HOFYes;
+        "ornithe-1.7.3" = _I4HOFYes;
+        "ornithe-1.7.4" = _I4HOFYes;
+        "ornithe-1.7.5" = _I4HOFYes;
+        "ornithe-1.7.6" = _I4HOFYes;
+        "ornithe-1.7.7" = _I4HOFYes;
+        "ornithe-1.7.8" = _I4HOFYes;
+        "ornithe-1.7.9" = _I4HOFYes;
+        "ornithe-1.7.10" = _I4HOFYes;
+        "ornithe-1.8" = _I4HOFYes;
+        "ornithe-1.8.1" = _I4HOFYes;
+        "ornithe-1.8.2" = _I4HOFYes;
+        "ornithe-1.8.3" = _I4HOFYes;
+        "ornithe-1.8.4" = _I4HOFYes;
+        "ornithe-1.8.5" = _I4HOFYes;
+        "ornithe-1.8.6" = _I4HOFYes;
+        "ornithe-1.8.7" = _I4HOFYes;
+        "ornithe-1.8.8" = _I4HOFYes;
+        "ornithe-1.8.9" = _I4HOFYes;
+        "ornithe-1.9" = _I4HOFYes;
+        "ornithe-1.9.1" = _I4HOFYes;
+        "ornithe-1.9.2" = _I4HOFYes;
+        "ornithe-1.9.3" = _I4HOFYes;
+        "ornithe-1.9.4" = _I4HOFYes;
+        "ornithe-1.10" = _I4HOFYes;
+        "ornithe-1.10.1" = _I4HOFYes;
+        "ornithe-1.10.2" = _I4HOFYes;
+        "ornithe-1.11" = _I4HOFYes;
+        "ornithe-1.11.1" = _I4HOFYes;
+        "ornithe-1.11.2" = _I4HOFYes;
+        "ornithe-1.12" = _I4HOFYes;
+        "ornithe-1.12.1" = _I4HOFYes;
+        "ornithe-1.12.2" = _I4HOFYes;
+        "legacy-fabric-1.7.2" = _RpXsFqZc;
+        "legacy-fabric-1.7.3" = _RpXsFqZc;
+        "legacy-fabric-1.7.4" = _RpXsFqZc;
+        "legacy-fabric-1.7.5" = _RpXsFqZc;
+        "legacy-fabric-1.7.6" = _RpXsFqZc;
+        "legacy-fabric-1.7.7" = _RpXsFqZc;
+        "legacy-fabric-1.7.8" = _RpXsFqZc;
+        "legacy-fabric-1.7.9" = _RpXsFqZc;
+        "legacy-fabric-1.7.10" = _RpXsFqZc;
+        "legacy-fabric-1.8" = _RpXsFqZc;
+        "legacy-fabric-1.8.1" = _RpXsFqZc;
+        "legacy-fabric-1.8.2" = _RpXsFqZc;
+        "legacy-fabric-1.8.3" = _RpXsFqZc;
+        "legacy-fabric-1.8.4" = _RpXsFqZc;
+        "legacy-fabric-1.8.5" = _RpXsFqZc;
+        "legacy-fabric-1.8.6" = _RpXsFqZc;
+        "legacy-fabric-1.8.7" = _RpXsFqZc;
+        "legacy-fabric-1.8.8" = _RpXsFqZc;
+        "legacy-fabric-1.8.9" = _RpXsFqZc;
+        "legacy-fabric-1.9" = _RpXsFqZc;
+        "legacy-fabric-1.9.1" = _RpXsFqZc;
+        "legacy-fabric-1.9.2" = _RpXsFqZc;
+        "legacy-fabric-1.9.3" = _RpXsFqZc;
+        "legacy-fabric-1.9.4" = _RpXsFqZc;
+        "legacy-fabric-1.10" = _RpXsFqZc;
+        "legacy-fabric-1.10.1" = _RpXsFqZc;
+        "legacy-fabric-1.10.2" = _RpXsFqZc;
+        "legacy-fabric-1.11" = _RpXsFqZc;
+        "legacy-fabric-1.11.1" = _RpXsFqZc;
+        "legacy-fabric-1.11.2" = _RpXsFqZc;
+        "legacy-fabric-1.12" = _RpXsFqZc;
+        "legacy-fabric-1.12.1" = _RpXsFqZc;
+        "legacy-fabric-1.12.2" = _RpXsFqZc;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "rawmouseinput";
+            id = "cHtd43CF";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="RpXsFqZc";}

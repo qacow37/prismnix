@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _mgDpAA4x = {
+            "id" = "mgDpAA4x";
+            "file" = "xaerotrainmap-1.0.0.jar";
+            "hash" = "sha512-a90MxlSSUjzOk50lFGMqYMuzhwHs4V1KtcrMxKg3+yiw4TCGmKCv4ZIa208K0Oamm/Su5oqzJ3xH6puBXQAGjQ==";
+        };
+    in {
+        "mgDpAA4x" = _mgDpAA4x;
+        "neoforge-1.21.1" = _mgDpAA4x;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "xaero-train-map";
+            id = "Ov2r3aVY";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="mgDpAA4x";}

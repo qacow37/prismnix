@@ -1,0 +1,139 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _UwBKZWBD = {
+            "id" = "UwBKZWBD";
+            "file" = "advanced-restart.jar";
+            "hash" = "sha512-tbiBHOKsW0cqYIERf3cY6rfISFG14Ji18pluMMaIswGWWjUZChM0q7a8LYOHJAVxApzVsfaQ3HtO52wdRnFbgQ==";
+        };
+        _GACZMIO3 = {
+            "id" = "GACZMIO3";
+            "file" = "advanced-restart.jar";
+            "hash" = "sha512-di/EZ3HlUUkSfjg3KF56ZU3WEWxqzCquUJpVQ8VS+HFn9+JcReOYggxNrPbyOQX2CkbnDGM5No6maZSi+VwyOA==";
+        };
+        _vv7bc66x = {
+            "id" = "vv7bc66x";
+            "file" = "advanced-restart.jar";
+            "hash" = "sha512-zQ1lEUTdV6flXzLW8rgwnqv8u9ydsMzz2nCigboB6izsO46LODRUb54kzl7brMYSnqgc8JZ01PE7v915rSyKvA==";
+        };
+        _iQAPhU8W = {
+            "id" = "iQAPhU8W";
+            "file" = "Advanced-Restart-1.2.0.jar";
+            "hash" = "sha512-2NFtbMzuwReLlgzmXbtpwDqUW6RC4f2Uyc6JiEeDebI2dx8zFAY2Ft+v4AeZG/FhJDWOx9AGXANIz1ixdnnoWQ==";
+        };
+        _RIoABlUk = {
+            "id" = "RIoABlUk";
+            "file" = "Advanced-Restart-1.2.1.jar";
+            "hash" = "sha512-jWoXZXtExrxQnElATeuL5c8qp/Pqs9BmrFAW6xerSEP8BXo4EtnOnq5f5O918/zxwt8K4FCDz39JthaMLNaA6w==";
+        };
+    in {
+        "UwBKZWBD" = _UwBKZWBD;
+        "GACZMIO3" = _GACZMIO3;
+        "vv7bc66x" = _vv7bc66x;
+        "iQAPhU8W" = _iQAPhU8W;
+        "RIoABlUk" = _RIoABlUk;
+        "bukkit-1.20" = _GACZMIO3;
+        "bukkit-1.20.1" = _GACZMIO3;
+        "bukkit-1.20.2" = _GACZMIO3;
+        "bukkit-1.20.3" = _GACZMIO3;
+        "bukkit-1.20.4" = _GACZMIO3;
+        "bukkit-1.19" = _GACZMIO3;
+        "bukkit-1.19.1" = _GACZMIO3;
+        "bukkit-1.19.2" = _GACZMIO3;
+        "bukkit-1.19.3" = _GACZMIO3;
+        "bukkit-1.19.4" = _GACZMIO3;
+        "bukkit-1.21" = _RIoABlUk;
+        "bukkit-1.21.1" = _RIoABlUk;
+        "bukkit-1.21.2" = _RIoABlUk;
+        "bukkit-1.21.3" = _RIoABlUk;
+        "bukkit-1.21.4" = _RIoABlUk;
+        "bukkit-1.21.5" = _RIoABlUk;
+        "bukkit-1.21.6" = _RIoABlUk;
+        "bukkit-1.21.7" = _RIoABlUk;
+        "bukkit-1.21.8" = _RIoABlUk;
+        "bukkit-1.21.9" = _RIoABlUk;
+        "bukkit-1.21.10" = _RIoABlUk;
+        "paper-1.20" = _GACZMIO3;
+        "paper-1.20.1" = _GACZMIO3;
+        "paper-1.20.2" = _GACZMIO3;
+        "paper-1.20.3" = _GACZMIO3;
+        "paper-1.20.4" = _GACZMIO3;
+        "paper-1.19" = _GACZMIO3;
+        "paper-1.19.1" = _GACZMIO3;
+        "paper-1.19.2" = _GACZMIO3;
+        "paper-1.19.3" = _GACZMIO3;
+        "paper-1.19.4" = _GACZMIO3;
+        "paper-1.21" = _RIoABlUk;
+        "paper-1.21.1" = _RIoABlUk;
+        "paper-1.21.2" = _RIoABlUk;
+        "paper-1.21.3" = _RIoABlUk;
+        "paper-1.21.4" = _RIoABlUk;
+        "paper-1.21.5" = _RIoABlUk;
+        "paper-1.21.6" = _RIoABlUk;
+        "paper-1.21.7" = _RIoABlUk;
+        "paper-1.21.8" = _RIoABlUk;
+        "paper-1.21.9" = _RIoABlUk;
+        "paper-1.21.10" = _RIoABlUk;
+        "purpur-1.20" = _GACZMIO3;
+        "purpur-1.20.1" = _GACZMIO3;
+        "purpur-1.20.2" = _GACZMIO3;
+        "purpur-1.20.3" = _GACZMIO3;
+        "purpur-1.20.4" = _GACZMIO3;
+        "purpur-1.19" = _GACZMIO3;
+        "purpur-1.19.1" = _GACZMIO3;
+        "purpur-1.19.2" = _GACZMIO3;
+        "purpur-1.19.3" = _GACZMIO3;
+        "purpur-1.19.4" = _GACZMIO3;
+        "purpur-1.21" = _RIoABlUk;
+        "purpur-1.21.1" = _RIoABlUk;
+        "purpur-1.21.2" = _RIoABlUk;
+        "purpur-1.21.3" = _RIoABlUk;
+        "purpur-1.21.4" = _RIoABlUk;
+        "purpur-1.21.5" = _RIoABlUk;
+        "purpur-1.21.6" = _RIoABlUk;
+        "purpur-1.21.7" = _RIoABlUk;
+        "purpur-1.21.8" = _RIoABlUk;
+        "purpur-1.21.9" = _RIoABlUk;
+        "purpur-1.21.10" = _RIoABlUk;
+        "spigot-1.20" = _GACZMIO3;
+        "spigot-1.20.1" = _GACZMIO3;
+        "spigot-1.20.2" = _GACZMIO3;
+        "spigot-1.20.3" = _GACZMIO3;
+        "spigot-1.20.4" = _GACZMIO3;
+        "spigot-1.19" = _GACZMIO3;
+        "spigot-1.19.1" = _GACZMIO3;
+        "spigot-1.19.2" = _GACZMIO3;
+        "spigot-1.19.3" = _GACZMIO3;
+        "spigot-1.19.4" = _GACZMIO3;
+        "spigot-1.21" = _RIoABlUk;
+        "spigot-1.21.1" = _RIoABlUk;
+        "spigot-1.21.2" = _RIoABlUk;
+        "spigot-1.21.3" = _RIoABlUk;
+        "spigot-1.21.4" = _RIoABlUk;
+        "spigot-1.21.5" = _RIoABlUk;
+        "spigot-1.21.6" = _RIoABlUk;
+        "spigot-1.21.7" = _RIoABlUk;
+        "spigot-1.21.8" = _RIoABlUk;
+        "spigot-1.21.9" = _RIoABlUk;
+        "spigot-1.21.10" = _RIoABlUk;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "advanced-restart";
+            id = "zUIPDajx";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="RIoABlUk";}

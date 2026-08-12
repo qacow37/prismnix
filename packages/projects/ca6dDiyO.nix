@@ -1,0 +1,167 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _aI3h2IZj = {
+            "id" = "aI3h2IZj";
+            "file" = "pottery sherd duplication 1.21.zip";
+            "hash" = "sha512-DQtKviFeCdhleWOz+61P5DQowLZO6hYJTJYjfn7CSyCUbEPGADGy/RJ3zaj/YkycuOp1l9cZkbal+19OEQrfZQ==";
+        };
+        _T9NtNowi = {
+            "id" = "T9NtNowi";
+            "file" = "pottery sherd duplication 1.20.zip";
+            "hash" = "sha512-Jvb8//3ubWRlteGCVR+s1eE+kJ+gnLc5jcWGTHAzJZuHNk7BlyD46Lkexx1ulThDetDMTnXSQSH1GHR5fscYYQ==";
+        };
+        _oOSDjdag = {
+            "id" = "oOSDjdag";
+            "file" = "pottery-sherd-duplication-1.jar";
+            "hash" = "sha512-y8tvI29nTlSZho4oQEPin4AVrUkKgM0h8RbNrrMfZZVsTjTR9+nXQYz44N3V6PVIJX3Iy/Vypt4rAcelqwvOQA==";
+        };
+        _jfaUdhli = {
+            "id" = "jfaUdhli";
+            "file" = "pottery-sherd-duplication-1.jar";
+            "hash" = "sha512-C7l5eU+lP1XO0+wADo6zMCKSGpVNQ6Vq6suA3JMaIJrPJW2sRa976xvel6Tc6qzCNyILsX9/PmkvX/9agqp8tg==";
+        };
+        _ViTZmKTM = {
+            "id" = "ViTZmKTM";
+            "file" = "Pottery Sherd Duplication 1.21.2.zip";
+            "hash" = "sha512-XnT1Dzq3nmwUNXizrNHzC47sI97rob6nPEq6kxthFmjIPXB2R1CkNDUqJibZpZthL9iPgeC3Ul/PKQZI1GxLyQ==";
+        };
+        _kTC8tPz8 = {
+            "id" = "kTC8tPz8";
+            "file" = "pottery-sherd-duplication-1.jar";
+            "hash" = "sha512-RncGVK7doOV1SfGz5KEQgqX7RDfFBrPYrDt8c4J1Y/MWUteiEwI1HCg9OdQ0F1SsS5Jh0B451KOKnxpAy8RM0A==";
+        };
+    in {
+        "aI3h2IZj" = _aI3h2IZj;
+        "T9NtNowi" = _T9NtNowi;
+        "oOSDjdag" = _oOSDjdag;
+        "jfaUdhli" = _jfaUdhli;
+        "ViTZmKTM" = _ViTZmKTM;
+        "kTC8tPz8" = _kTC8tPz8;
+        "datapack-1.21" = _aI3h2IZj;
+        "datapack-1.21.1" = _aI3h2IZj;
+        "datapack-1.20" = _T9NtNowi;
+        "datapack-1.20.1" = _T9NtNowi;
+        "datapack-1.20.2" = _T9NtNowi;
+        "datapack-1.20.3" = _T9NtNowi;
+        "datapack-1.20.4" = _T9NtNowi;
+        "datapack-1.20.5" = _T9NtNowi;
+        "datapack-1.20.6" = _T9NtNowi;
+        "datapack-1.21.2" = _ViTZmKTM;
+        "datapack-1.21.3" = _ViTZmKTM;
+        "datapack-1.21.4" = _ViTZmKTM;
+        "datapack-1.21.5" = _ViTZmKTM;
+        "datapack-1.21.6" = _ViTZmKTM;
+        "datapack-1.21.7" = _ViTZmKTM;
+        "datapack-1.21.8" = _ViTZmKTM;
+        "datapack-1.21.9" = _ViTZmKTM;
+        "datapack-1.21.10" = _ViTZmKTM;
+        "datapack-1.21.11" = _ViTZmKTM;
+        "datapack-26.1" = _ViTZmKTM;
+        "datapack-26.1.1" = _ViTZmKTM;
+        "datapack-26.1.2" = _ViTZmKTM;
+        "datapack-26.2" = _ViTZmKTM;
+        "fabric-1.20" = _oOSDjdag;
+        "fabric-1.20.1" = _oOSDjdag;
+        "fabric-1.20.2" = _oOSDjdag;
+        "fabric-1.20.3" = _oOSDjdag;
+        "fabric-1.20.4" = _oOSDjdag;
+        "fabric-1.20.5" = _oOSDjdag;
+        "fabric-1.20.6" = _oOSDjdag;
+        "fabric-1.21" = _jfaUdhli;
+        "fabric-1.21.1" = _jfaUdhli;
+        "fabric-1.21.2" = _kTC8tPz8;
+        "fabric-1.21.3" = _kTC8tPz8;
+        "fabric-1.21.4" = _kTC8tPz8;
+        "fabric-1.21.5" = _kTC8tPz8;
+        "fabric-1.21.6" = _kTC8tPz8;
+        "fabric-1.21.7" = _kTC8tPz8;
+        "fabric-1.21.8" = _kTC8tPz8;
+        "fabric-1.21.9" = _kTC8tPz8;
+        "fabric-1.21.10" = _kTC8tPz8;
+        "fabric-1.21.11" = _kTC8tPz8;
+        "fabric-26.1" = _kTC8tPz8;
+        "fabric-26.1.1" = _kTC8tPz8;
+        "fabric-26.1.2" = _kTC8tPz8;
+        "fabric-26.2" = _kTC8tPz8;
+        "forge-1.20" = _oOSDjdag;
+        "forge-1.20.1" = _oOSDjdag;
+        "forge-1.20.2" = _oOSDjdag;
+        "forge-1.20.3" = _oOSDjdag;
+        "forge-1.20.4" = _oOSDjdag;
+        "forge-1.20.5" = _oOSDjdag;
+        "forge-1.20.6" = _oOSDjdag;
+        "forge-1.21" = _jfaUdhli;
+        "forge-1.21.1" = _jfaUdhli;
+        "forge-1.21.2" = _kTC8tPz8;
+        "forge-1.21.3" = _kTC8tPz8;
+        "forge-1.21.4" = _kTC8tPz8;
+        "forge-1.21.5" = _kTC8tPz8;
+        "forge-1.21.6" = _kTC8tPz8;
+        "forge-1.21.7" = _kTC8tPz8;
+        "forge-1.21.8" = _kTC8tPz8;
+        "forge-1.21.9" = _kTC8tPz8;
+        "forge-1.21.10" = _kTC8tPz8;
+        "forge-1.21.11" = _kTC8tPz8;
+        "forge-26.1" = _kTC8tPz8;
+        "forge-26.1.1" = _kTC8tPz8;
+        "forge-26.1.2" = _kTC8tPz8;
+        "forge-26.2" = _kTC8tPz8;
+        "quilt-1.20" = _oOSDjdag;
+        "quilt-1.20.1" = _oOSDjdag;
+        "quilt-1.20.2" = _oOSDjdag;
+        "quilt-1.20.3" = _oOSDjdag;
+        "quilt-1.20.4" = _oOSDjdag;
+        "quilt-1.20.5" = _oOSDjdag;
+        "quilt-1.20.6" = _oOSDjdag;
+        "quilt-1.21" = _jfaUdhli;
+        "quilt-1.21.1" = _jfaUdhli;
+        "quilt-1.21.2" = _kTC8tPz8;
+        "quilt-1.21.3" = _kTC8tPz8;
+        "quilt-1.21.4" = _kTC8tPz8;
+        "quilt-1.21.5" = _kTC8tPz8;
+        "quilt-1.21.6" = _kTC8tPz8;
+        "quilt-1.21.7" = _kTC8tPz8;
+        "quilt-1.21.8" = _kTC8tPz8;
+        "quilt-1.21.9" = _kTC8tPz8;
+        "quilt-1.21.10" = _kTC8tPz8;
+        "quilt-1.21.11" = _kTC8tPz8;
+        "quilt-26.1" = _kTC8tPz8;
+        "quilt-26.1.1" = _kTC8tPz8;
+        "quilt-26.1.2" = _kTC8tPz8;
+        "quilt-26.2" = _kTC8tPz8;
+        "neoforge-1.21.2" = _kTC8tPz8;
+        "neoforge-1.21.3" = _kTC8tPz8;
+        "neoforge-1.21.4" = _kTC8tPz8;
+        "neoforge-1.21.5" = _kTC8tPz8;
+        "neoforge-1.21.6" = _kTC8tPz8;
+        "neoforge-1.21.7" = _kTC8tPz8;
+        "neoforge-1.21.8" = _kTC8tPz8;
+        "neoforge-1.21.9" = _kTC8tPz8;
+        "neoforge-1.21.10" = _kTC8tPz8;
+        "neoforge-1.21.11" = _kTC8tPz8;
+        "neoforge-26.1" = _kTC8tPz8;
+        "neoforge-26.1.1" = _kTC8tPz8;
+        "neoforge-26.1.2" = _kTC8tPz8;
+        "neoforge-26.2" = _kTC8tPz8;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "pottery-sherd-duplication";
+            id = "ca6dDiyO";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="kTC8tPz8";}

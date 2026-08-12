@@ -1,0 +1,184 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _sX4vnt39 = {
+            "id" = "sX4vnt39";
+            "file" = "[1.19.3] More Vanilla Paintings v1.0.zip";
+            "hash" = "sha512-VcVrjnE63DcbLtAqF9Atr0RBS2922lIoyflvREcEkkhRCEjOFSBC2QnRIS8MVi7SjBQHGuLivQfVaf0JDIqkFw==";
+        };
+        _crPBy3QJ = {
+            "id" = "crPBy3QJ";
+            "file" = "[1.19.4] More Vanilla Paintings v1.0.zip";
+            "hash" = "sha512-iIqfhR+WVYBWMcv4ZpogzlUIDTfNv3yLwX/VPbJRQ7bXxYwTfBxeg8/TtqUrtNd7bpKxcLf9U6nxhMLV1HWS1w==";
+        };
+        _pjlj21yJ = {
+            "id" = "pjlj21yJ";
+            "file" = "[1.19.4] More Vanilla Paintings v1.0.zip";
+            "hash" = "sha512-aiqOzNWdTx4nIb1nABvlVzPr8GmWs6uveiLDPTnkj4P7QmLQ8yUhF0A+87Wh+zqgLYuPpjKSugwvFwtv9xy7gQ==";
+        };
+        _jrHbZhk5 = {
+            "id" = "jrHbZhk5";
+            "file" = "mvp-1.0.jar";
+            "hash" = "sha512-oeUqMvux0wArWRS5+se2aYaTF0PZlWVA8I3BqIQVxE9PMyfXjolhKZIDXDoMsIQRpTRl9lwDxPuPSUMbeKR0lg==";
+        };
+        _C97O5dHC = {
+            "id" = "C97O5dHC";
+            "file" = "[1.20.1] More Vanilla Paintings v1.0.zip";
+            "hash" = "sha512-+EiP49GADiyn1JKFhG/y6RQeoXQswTQoYISwHwqXiu9lgCypeVsjniS9fyAR+cBAHa5zIAZhVrR0eX3f/8uTkQ==";
+        };
+        _YqbBcO9K = {
+            "id" = "YqbBcO9K";
+            "file" = "mvp-1.0.jar";
+            "hash" = "sha512-US+YcY9RbnUReayfQfZiXAtv4LDnM2WpqAZfhgamLbFFHVGqN2ZHivCHvOhAYr21V2opI/ADmdDilp+RQDeWDg==";
+        };
+        _kQO08wpX = {
+            "id" = "kQO08wpX";
+            "file" = "[1.20.x] More Vanilla Paintings v1.0.zip";
+            "hash" = "sha512-HKRtP8eBPD3YxuDONkcWGE86lewFYZUR8H+Go0SueuBcaxx0WaOV2wz44Zpi93gSKPCKn5LGOm+2JxFS1+MjSg==";
+        };
+        _ADKqgu30 = {
+            "id" = "ADKqgu30";
+            "file" = "mvp-1.0.jar";
+            "hash" = "sha512-dFVpMRJl3a3gkIt7wnrF3tVveEzJWhedBOuUUQ8ujro1OVro2NTX02BFKLB1E5NqBv0Pw/1E28hS73QAAcQMxQ==";
+        };
+        _A7djtvtj = {
+            "id" = "A7djtvtj";
+            "file" = "More Vanilla Paintings v1.1.zip";
+            "hash" = "sha512-rya9fWxoBjUoUdi8c1nJDGuK7JyMZM4Z7iI3jhRoFsurPX5a4e2mnoCVLsC8T49QXTDSqMWw1KY/tlwuvWlTMQ==";
+        };
+    in {
+        "sX4vnt39" = _sX4vnt39;
+        "crPBy3QJ" = _crPBy3QJ;
+        "pjlj21yJ" = _pjlj21yJ;
+        "jrHbZhk5" = _jrHbZhk5;
+        "C97O5dHC" = _C97O5dHC;
+        "YqbBcO9K" = _YqbBcO9K;
+        "kQO08wpX" = _kQO08wpX;
+        "ADKqgu30" = _ADKqgu30;
+        "A7djtvtj" = _A7djtvtj;
+        "datapack-1.19" = _sX4vnt39;
+        "datapack-1.19.1" = _sX4vnt39;
+        "datapack-1.19.2" = _sX4vnt39;
+        "datapack-1.19.3" = _sX4vnt39;
+        "datapack-23w03a" = _crPBy3QJ;
+        "datapack-23w04a" = _crPBy3QJ;
+        "datapack-23w05a" = _crPBy3QJ;
+        "datapack-1.19.4" = _pjlj21yJ;
+        "datapack-1.20" = _A7djtvtj;
+        "datapack-1.20.1" = _A7djtvtj;
+        "datapack-1.20.2" = _A7djtvtj;
+        "datapack-1.20.3" = _A7djtvtj;
+        "datapack-1.20.4" = _A7djtvtj;
+        "datapack-1.20.5" = _A7djtvtj;
+        "datapack-1.20.6" = _A7djtvtj;
+        "datapack-1.21" = _A7djtvtj;
+        "datapack-1.21.1" = _A7djtvtj;
+        "datapack-1.21.2" = _A7djtvtj;
+        "datapack-1.21.3" = _A7djtvtj;
+        "datapack-1.21.4" = _A7djtvtj;
+        "datapack-1.21.5" = _A7djtvtj;
+        "datapack-1.21.6" = _A7djtvtj;
+        "datapack-1.21.7" = _A7djtvtj;
+        "datapack-1.21.8" = _A7djtvtj;
+        "datapack-1.21.9" = _A7djtvtj;
+        "datapack-1.21.10" = _A7djtvtj;
+        "datapack-1.21.11" = _A7djtvtj;
+        "datapack-26.1" = _A7djtvtj;
+        "datapack-26.1.1" = _A7djtvtj;
+        "datapack-26.1.2" = _A7djtvtj;
+        "datapack-26.2" = _A7djtvtj;
+        "datapack-23w31a" = _A7djtvtj;
+        "datapack-1.20.5-rc3" = _A7djtvtj;
+        "fabric-1.19.4" = _jrHbZhk5;
+        "fabric-1.20" = _ADKqgu30;
+        "fabric-1.20.1" = _ADKqgu30;
+        "fabric-1.20.2" = _ADKqgu30;
+        "fabric-1.20.3" = _ADKqgu30;
+        "fabric-1.20.4" = _ADKqgu30;
+        "fabric-1.20.5" = _ADKqgu30;
+        "fabric-1.20.6" = _ADKqgu30;
+        "fabric-1.21" = _ADKqgu30;
+        "fabric-1.21.1" = _ADKqgu30;
+        "fabric-1.21.2" = _ADKqgu30;
+        "fabric-1.21.3" = _ADKqgu30;
+        "fabric-1.21.4" = _ADKqgu30;
+        "fabric-1.21.5" = _ADKqgu30;
+        "fabric-1.21.6" = _ADKqgu30;
+        "fabric-1.21.7" = _ADKqgu30;
+        "fabric-1.21.8" = _ADKqgu30;
+        "fabric-1.21.9" = _ADKqgu30;
+        "fabric-1.21.10" = _ADKqgu30;
+        "fabric-1.21.11" = _ADKqgu30;
+        "fabric-26.1" = _ADKqgu30;
+        "fabric-26.1.1" = _ADKqgu30;
+        "fabric-26.1.2" = _ADKqgu30;
+        "fabric-26.2" = _ADKqgu30;
+        "forge-1.19.4" = _jrHbZhk5;
+        "forge-1.20" = _ADKqgu30;
+        "forge-1.20.1" = _ADKqgu30;
+        "forge-1.20.2" = _ADKqgu30;
+        "forge-1.20.3" = _ADKqgu30;
+        "forge-1.20.4" = _ADKqgu30;
+        "forge-1.20.5" = _ADKqgu30;
+        "forge-1.20.6" = _ADKqgu30;
+        "forge-1.21" = _ADKqgu30;
+        "forge-1.21.1" = _ADKqgu30;
+        "forge-1.21.2" = _ADKqgu30;
+        "forge-1.21.3" = _ADKqgu30;
+        "forge-1.21.4" = _ADKqgu30;
+        "forge-1.21.5" = _ADKqgu30;
+        "forge-1.21.6" = _ADKqgu30;
+        "forge-1.21.7" = _ADKqgu30;
+        "forge-1.21.8" = _ADKqgu30;
+        "forge-1.21.9" = _ADKqgu30;
+        "forge-1.21.10" = _ADKqgu30;
+        "forge-1.21.11" = _ADKqgu30;
+        "forge-26.1" = _ADKqgu30;
+        "forge-26.1.1" = _ADKqgu30;
+        "forge-26.1.2" = _ADKqgu30;
+        "forge-26.2" = _ADKqgu30;
+        "quilt-1.19.4" = _jrHbZhk5;
+        "quilt-1.20" = _ADKqgu30;
+        "quilt-1.20.1" = _ADKqgu30;
+        "quilt-1.20.2" = _ADKqgu30;
+        "quilt-1.20.3" = _ADKqgu30;
+        "quilt-1.20.4" = _ADKqgu30;
+        "quilt-1.20.5" = _ADKqgu30;
+        "quilt-1.20.6" = _ADKqgu30;
+        "quilt-1.21" = _ADKqgu30;
+        "quilt-1.21.1" = _ADKqgu30;
+        "quilt-1.21.2" = _ADKqgu30;
+        "quilt-1.21.3" = _ADKqgu30;
+        "quilt-1.21.4" = _ADKqgu30;
+        "quilt-1.21.5" = _ADKqgu30;
+        "quilt-1.21.6" = _ADKqgu30;
+        "quilt-1.21.7" = _ADKqgu30;
+        "quilt-1.21.8" = _ADKqgu30;
+        "quilt-1.21.9" = _ADKqgu30;
+        "quilt-1.21.10" = _ADKqgu30;
+        "quilt-1.21.11" = _ADKqgu30;
+        "quilt-26.1" = _ADKqgu30;
+        "quilt-26.1.1" = _ADKqgu30;
+        "quilt-26.1.2" = _ADKqgu30;
+        "quilt-26.2" = _ADKqgu30;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "mvp";
+            id = "QLV53Ahc";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="A7djtvtj";}

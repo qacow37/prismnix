@@ -1,0 +1,120 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _9z0is8kF = {
+            "id" = "9z0is8kF";
+            "file" = "Smooth Tiny Swords.zip";
+            "hash" = "sha512-/BGqyBw9JNBb/kyEQ/QkuFX4f5lJNEjhzeMkqRICCINBO0fpbCSjQ0QoDa3G9vUlOsGDsbfdIOMoykKNvOroMA==";
+        };
+        _UP59at1e = {
+            "id" = "UP59at1e";
+            "file" = "Smooth Tiny Swords.zip";
+            "hash" = "sha512-IMr28DRjeLnMTIckFF6Bzl+h9pSsiRr4ufcU+/Rq0OzAWpv73TAUj3/Kl2oiNZsdwi/9c/CIkYHB6DzSTl90xQ==";
+        };
+    in {
+        "9z0is8kF" = _9z0is8kF;
+        "UP59at1e" = _UP59at1e;
+        "minecraft-1.16" = _UP59at1e;
+        "minecraft-1.16.1" = _UP59at1e;
+        "minecraft-1.16.2" = _UP59at1e;
+        "minecraft-1.16.3" = _UP59at1e;
+        "minecraft-1.16.4" = _UP59at1e;
+        "minecraft-1.16.5" = _UP59at1e;
+        "minecraft-1.17" = _UP59at1e;
+        "minecraft-1.17.1" = _UP59at1e;
+        "minecraft-1.18" = _UP59at1e;
+        "minecraft-1.18.1" = _UP59at1e;
+        "minecraft-1.18.2" = _UP59at1e;
+        "minecraft-1.19" = _UP59at1e;
+        "minecraft-1.19.1" = _UP59at1e;
+        "minecraft-1.19.2" = _UP59at1e;
+        "minecraft-1.19.3" = _UP59at1e;
+        "minecraft-1.19.4" = _UP59at1e;
+        "minecraft-1.20" = _UP59at1e;
+        "minecraft-1.20.1" = _UP59at1e;
+        "minecraft-1.20.2" = _UP59at1e;
+        "minecraft-1.20.3" = _UP59at1e;
+        "minecraft-1.20.4" = _UP59at1e;
+        "minecraft-1.20.5" = _UP59at1e;
+        "minecraft-1.20.6" = _UP59at1e;
+        "minecraft-1.21" = _UP59at1e;
+        "minecraft-1.21.1" = _UP59at1e;
+        "minecraft-1.21.2" = _UP59at1e;
+        "minecraft-1.21.3" = _UP59at1e;
+        "minecraft-1.21.4" = _UP59at1e;
+        "minecraft-1.21.5" = _UP59at1e;
+        "minecraft-1.21.6" = _UP59at1e;
+        "minecraft-1.21.7" = _UP59at1e;
+        "minecraft-1.21.8" = _UP59at1e;
+        "minecraft-1.21.9" = _UP59at1e;
+        "minecraft-1.21.10" = _UP59at1e;
+        "minecraft-23w31a" = _UP59at1e;
+        "minecraft-23w32a" = _UP59at1e;
+        "minecraft-23w33a" = _UP59at1e;
+        "minecraft-23w35a" = _UP59at1e;
+        "minecraft-1.20.2-pre1" = _UP59at1e;
+        "minecraft-23w42a" = _UP59at1e;
+        "minecraft-23w43a" = _UP59at1e;
+        "minecraft-23w43b" = _UP59at1e;
+        "minecraft-23w44a" = _UP59at1e;
+        "minecraft-23w45a" = _UP59at1e;
+        "minecraft-23w46a" = _UP59at1e;
+        "minecraft-24w03a" = _UP59at1e;
+        "minecraft-24w03b" = _UP59at1e;
+        "minecraft-24w04a" = _UP59at1e;
+        "minecraft-24w05a" = _UP59at1e;
+        "minecraft-24w05b" = _UP59at1e;
+        "minecraft-24w06a" = _UP59at1e;
+        "minecraft-24w07a" = _UP59at1e;
+        "minecraft-24w09a" = _UP59at1e;
+        "minecraft-24w10a" = _UP59at1e;
+        "minecraft-24w11a" = _UP59at1e;
+        "minecraft-24w12a" = _UP59at1e;
+        "minecraft-24w13a" = _UP59at1e;
+        "minecraft-24w14potato" = _UP59at1e;
+        "minecraft-24w14a" = _UP59at1e;
+        "minecraft-1.20.5-pre1" = _UP59at1e;
+        "minecraft-1.20.5-pre2" = _UP59at1e;
+        "minecraft-1.20.5-pre3" = _UP59at1e;
+        "minecraft-24w18a" = _UP59at1e;
+        "minecraft-24w19a" = _UP59at1e;
+        "minecraft-24w19b" = _UP59at1e;
+        "minecraft-24w20a" = _UP59at1e;
+        "minecraft-24w33a" = _UP59at1e;
+        "minecraft-24w34a" = _UP59at1e;
+        "minecraft-24w35a" = _UP59at1e;
+        "minecraft-24w36a" = _UP59at1e;
+        "minecraft-24w37a" = _UP59at1e;
+        "minecraft-24w38a" = _UP59at1e;
+        "minecraft-24w39a" = _UP59at1e;
+        "minecraft-24w40a" = _UP59at1e;
+        "minecraft-1.21.2-pre1" = _UP59at1e;
+        "minecraft-1.21.2-pre2" = _UP59at1e;
+        "minecraft-24w44a" = _UP59at1e;
+        "minecraft-24w45a" = _UP59at1e;
+        "minecraft-24w46a" = _UP59at1e;
+        "minecraft-1.21.11" = _UP59at1e;
+        "minecraft-26.1" = _UP59at1e;
+        "minecraft-26.1.1" = _UP59at1e;
+        "minecraft-26.1.2" = _UP59at1e;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "short-sword-rework";
+            id = "mtZkKQ8g";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="UP59at1e";}

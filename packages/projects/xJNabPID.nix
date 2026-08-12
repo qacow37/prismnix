@@ -1,0 +1,103 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _nPdxfY8Y = {
+            "id" = "nPdxfY8Y";
+            "file" = "flashlight-shader.zip";
+            "hash" = "sha512-YA6OAsZBCQxuT54B4v0fD8Tc6ABeh7Ft9fTSGtOdyzUwVNxobNa9VR+AF46JeMyuLFrKUBifQCsjK6h14MLnvQ==";
+        };
+    in {
+        "nPdxfY8Y" = _nPdxfY8Y;
+        "iris-1.14" = _nPdxfY8Y;
+        "iris-1.14.1" = _nPdxfY8Y;
+        "iris-1.14.2" = _nPdxfY8Y;
+        "iris-1.14.3" = _nPdxfY8Y;
+        "iris-1.14.4" = _nPdxfY8Y;
+        "iris-1.15" = _nPdxfY8Y;
+        "iris-1.15.1" = _nPdxfY8Y;
+        "iris-1.15.2" = _nPdxfY8Y;
+        "iris-1.16" = _nPdxfY8Y;
+        "iris-1.16.1" = _nPdxfY8Y;
+        "iris-1.16.2" = _nPdxfY8Y;
+        "iris-1.16.3" = _nPdxfY8Y;
+        "iris-1.16.4" = _nPdxfY8Y;
+        "iris-1.16.5" = _nPdxfY8Y;
+        "iris-1.17" = _nPdxfY8Y;
+        "iris-1.17.1" = _nPdxfY8Y;
+        "iris-1.18" = _nPdxfY8Y;
+        "iris-1.18.1" = _nPdxfY8Y;
+        "iris-1.18.2" = _nPdxfY8Y;
+        "iris-1.19" = _nPdxfY8Y;
+        "iris-1.19.1" = _nPdxfY8Y;
+        "iris-1.19.2" = _nPdxfY8Y;
+        "iris-1.19.3" = _nPdxfY8Y;
+        "iris-1.19.4" = _nPdxfY8Y;
+        "iris-1.20" = _nPdxfY8Y;
+        "iris-1.20.1" = _nPdxfY8Y;
+        "iris-1.20.2" = _nPdxfY8Y;
+        "iris-1.20.3" = _nPdxfY8Y;
+        "iris-1.20.4" = _nPdxfY8Y;
+        "iris-1.20.5" = _nPdxfY8Y;
+        "iris-1.20.6" = _nPdxfY8Y;
+        "iris-1.21" = _nPdxfY8Y;
+        "iris-1.21.1" = _nPdxfY8Y;
+        "iris-1.21.2" = _nPdxfY8Y;
+        "iris-1.21.3" = _nPdxfY8Y;
+        "iris-1.21.4" = _nPdxfY8Y;
+        "optifine-1.14" = _nPdxfY8Y;
+        "optifine-1.14.1" = _nPdxfY8Y;
+        "optifine-1.14.2" = _nPdxfY8Y;
+        "optifine-1.14.3" = _nPdxfY8Y;
+        "optifine-1.14.4" = _nPdxfY8Y;
+        "optifine-1.15" = _nPdxfY8Y;
+        "optifine-1.15.1" = _nPdxfY8Y;
+        "optifine-1.15.2" = _nPdxfY8Y;
+        "optifine-1.16" = _nPdxfY8Y;
+        "optifine-1.16.1" = _nPdxfY8Y;
+        "optifine-1.16.2" = _nPdxfY8Y;
+        "optifine-1.16.3" = _nPdxfY8Y;
+        "optifine-1.16.4" = _nPdxfY8Y;
+        "optifine-1.16.5" = _nPdxfY8Y;
+        "optifine-1.17" = _nPdxfY8Y;
+        "optifine-1.17.1" = _nPdxfY8Y;
+        "optifine-1.18" = _nPdxfY8Y;
+        "optifine-1.18.1" = _nPdxfY8Y;
+        "optifine-1.18.2" = _nPdxfY8Y;
+        "optifine-1.19" = _nPdxfY8Y;
+        "optifine-1.19.1" = _nPdxfY8Y;
+        "optifine-1.19.2" = _nPdxfY8Y;
+        "optifine-1.19.3" = _nPdxfY8Y;
+        "optifine-1.19.4" = _nPdxfY8Y;
+        "optifine-1.20" = _nPdxfY8Y;
+        "optifine-1.20.1" = _nPdxfY8Y;
+        "optifine-1.20.2" = _nPdxfY8Y;
+        "optifine-1.20.3" = _nPdxfY8Y;
+        "optifine-1.20.4" = _nPdxfY8Y;
+        "optifine-1.20.5" = _nPdxfY8Y;
+        "optifine-1.20.6" = _nPdxfY8Y;
+        "optifine-1.21" = _nPdxfY8Y;
+        "optifine-1.21.1" = _nPdxfY8Y;
+        "optifine-1.21.2" = _nPdxfY8Y;
+        "optifine-1.21.3" = _nPdxfY8Y;
+        "optifine-1.21.4" = _nPdxfY8Y;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "spooky-flashlight-shader";
+            id = "xJNabPID";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="nPdxfY8Y";}

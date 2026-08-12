@@ -1,0 +1,115 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _542ozsfU = {
+            "id" = "542ozsfU";
+            "file" = "nomorescore+fabric-quilt-1.0.0.jar";
+            "hash" = "sha512-4H/LmBlhj/V0SEwbTmMUBK+wZrVuo+1GF/92s3E/Xg7mnxEJ7SKV8PAqtM+C6mH+WrI5lYd5UBQA8jFT9r8Zgg==";
+        };
+        _Pj3rvMce = {
+            "id" = "Pj3rvMce";
+            "file" = "nomorescore-1.1.0.jar";
+            "hash" = "sha512-hk0LeVqYajqGpLioGBGk0tmAe43dUxRMUEtgbR512PED+2z6VITXpCPoFCF5YjfVKgAUbY7VI/o3Qnr6paRvYQ==";
+        };
+    in {
+        "542ozsfU" = _542ozsfU;
+        "Pj3rvMce" = _Pj3rvMce;
+        "fabric-1.14.4" = _Pj3rvMce;
+        "fabric-1.15" = _Pj3rvMce;
+        "fabric-1.15.1" = _Pj3rvMce;
+        "fabric-1.15.2" = _Pj3rvMce;
+        "fabric-1.16" = _Pj3rvMce;
+        "fabric-1.16.1" = _Pj3rvMce;
+        "fabric-1.16.2" = _Pj3rvMce;
+        "fabric-1.16.3" = _Pj3rvMce;
+        "fabric-1.16.4" = _Pj3rvMce;
+        "fabric-1.16.5" = _Pj3rvMce;
+        "fabric-1.17" = _Pj3rvMce;
+        "fabric-1.17.1" = _Pj3rvMce;
+        "fabric-1.18" = _Pj3rvMce;
+        "fabric-1.18.1" = _Pj3rvMce;
+        "fabric-1.18.2" = _Pj3rvMce;
+        "fabric-1.19" = _Pj3rvMce;
+        "fabric-1.19.1" = _Pj3rvMce;
+        "fabric-1.19.2" = _Pj3rvMce;
+        "fabric-1.19.3" = _Pj3rvMce;
+        "fabric-1.19.4" = _Pj3rvMce;
+        "fabric-1.20" = _Pj3rvMce;
+        "fabric-1.20.1" = _Pj3rvMce;
+        "fabric-1.20.2" = _Pj3rvMce;
+        "fabric-1.20.3" = _Pj3rvMce;
+        "fabric-1.20.4" = _Pj3rvMce;
+        "fabric-1.20.5" = _Pj3rvMce;
+        "fabric-1.20.6" = _Pj3rvMce;
+        "fabric-1.21" = _Pj3rvMce;
+        "fabric-1.21.1" = _Pj3rvMce;
+        "fabric-1.21.2" = _Pj3rvMce;
+        "fabric-1.21.3" = _Pj3rvMce;
+        "fabric-1.21.4" = _Pj3rvMce;
+        "fabric-1.21.5" = _Pj3rvMce;
+        "fabric-1.21.6" = _Pj3rvMce;
+        "fabric-1.21.7" = _Pj3rvMce;
+        "fabric-1.21.8" = _Pj3rvMce;
+        "fabric-1.21.9" = _Pj3rvMce;
+        "fabric-1.21.10" = _Pj3rvMce;
+        "fabric-25w41a" = _Pj3rvMce;
+        "quilt-1.14.4" = _Pj3rvMce;
+        "quilt-1.15" = _Pj3rvMce;
+        "quilt-1.15.1" = _Pj3rvMce;
+        "quilt-1.15.2" = _Pj3rvMce;
+        "quilt-1.16" = _Pj3rvMce;
+        "quilt-1.16.1" = _Pj3rvMce;
+        "quilt-1.16.2" = _Pj3rvMce;
+        "quilt-1.16.3" = _Pj3rvMce;
+        "quilt-1.16.4" = _Pj3rvMce;
+        "quilt-1.16.5" = _Pj3rvMce;
+        "quilt-1.17" = _Pj3rvMce;
+        "quilt-1.17.1" = _Pj3rvMce;
+        "quilt-1.18" = _Pj3rvMce;
+        "quilt-1.18.1" = _Pj3rvMce;
+        "quilt-1.18.2" = _Pj3rvMce;
+        "quilt-1.19" = _Pj3rvMce;
+        "quilt-1.19.1" = _Pj3rvMce;
+        "quilt-1.19.2" = _Pj3rvMce;
+        "quilt-1.19.3" = _Pj3rvMce;
+        "quilt-1.19.4" = _Pj3rvMce;
+        "quilt-1.20" = _Pj3rvMce;
+        "quilt-1.20.1" = _Pj3rvMce;
+        "quilt-1.20.2" = _Pj3rvMce;
+        "quilt-1.20.3" = _Pj3rvMce;
+        "quilt-1.20.4" = _Pj3rvMce;
+        "quilt-1.20.5" = _Pj3rvMce;
+        "quilt-1.20.6" = _Pj3rvMce;
+        "quilt-1.21" = _Pj3rvMce;
+        "quilt-1.21.1" = _Pj3rvMce;
+        "quilt-1.21.2" = _Pj3rvMce;
+        "quilt-1.21.3" = _Pj3rvMce;
+        "quilt-1.21.4" = _Pj3rvMce;
+        "quilt-1.21.5" = _Pj3rvMce;
+        "quilt-1.21.6" = _Pj3rvMce;
+        "quilt-1.21.7" = _Pj3rvMce;
+        "quilt-1.21.8" = _Pj3rvMce;
+        "quilt-1.21.9" = _Pj3rvMce;
+        "quilt-1.21.10" = _Pj3rvMce;
+        "quilt-25w41a" = _Pj3rvMce;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "rmscore";
+            id = "aRooc1Sw";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Pj3rvMce";}

@@ -1,0 +1,141 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Si4u5LEC = {
+            "id" = "Si4u5LEC";
+            "file" = "Artisanal Nether Bricks v1.0.0.zip";
+            "hash" = "sha512-6jZqTTaO90Qn8fsqIMZas5IOoDAqfe0Mk/gFAdM+5gFnUi9XPZLztNMnppefHO5QAAbZdpIkN7H/05H3ORiveQ==";
+        };
+        _FreAwsGr = {
+            "id" = "FreAwsGr";
+            "file" = "Artisanal Nether Bricks v1.1.0.zip";
+            "hash" = "sha512-T+CiNeCeN9oofW21sGP/RIkrVyfqG9kCkYNh/5ymES6JjZnEmzK7eegbBnZ2kHtT3XKa+XJmSLxfEPI40RK2RA==";
+        };
+        _aYOn08gj = {
+            "id" = "aYOn08gj";
+            "file" = "Artisanal Nether Bricks v1.2.0.zip";
+            "hash" = "sha512-UFofy/buEXi0iAMQ3tI8UrlqFCnMHD/YAfZyuWw4Df25JBTVyvGLwD4tsuN3kFRPaYykS3SVNXPAZQEy20x6sg==";
+        };
+        _45IBiRKb = {
+            "id" = "45IBiRKb";
+            "file" = "Artisanal Nether Bricks v1.3.0.zip";
+            "hash" = "sha512-+LihcZQzwbXqhqMZLQvOXLbSqoqU7vEoiYO93abPR4UYoRDwkVlb8IpcSLIJtieBdxh1LQXOIJJ2Cel8p7XIyA==";
+        };
+    in {
+        "Si4u5LEC" = _Si4u5LEC;
+        "FreAwsGr" = _FreAwsGr;
+        "aYOn08gj" = _aYOn08gj;
+        "45IBiRKb" = _45IBiRKb;
+        "minecraft-1.19" = _45IBiRKb;
+        "minecraft-1.19.1" = _45IBiRKb;
+        "minecraft-1.19.2" = _45IBiRKb;
+        "minecraft-1.19.3" = _45IBiRKb;
+        "minecraft-1.19.4" = _45IBiRKb;
+        "minecraft-1.20" = _45IBiRKb;
+        "minecraft-1.20.1" = _45IBiRKb;
+        "minecraft-1.20.2" = _45IBiRKb;
+        "minecraft-1.20.3" = _45IBiRKb;
+        "minecraft-1.20.4" = _45IBiRKb;
+        "minecraft-1.20.5" = _45IBiRKb;
+        "minecraft-1.20.6" = _45IBiRKb;
+        "minecraft-1.21" = _45IBiRKb;
+        "minecraft-1.15" = _45IBiRKb;
+        "minecraft-1.15.1" = _45IBiRKb;
+        "minecraft-1.15.2" = _45IBiRKb;
+        "minecraft-1.16" = _45IBiRKb;
+        "minecraft-1.16.1" = _45IBiRKb;
+        "minecraft-1.16.2" = _45IBiRKb;
+        "minecraft-1.16.3" = _45IBiRKb;
+        "minecraft-1.16.4" = _45IBiRKb;
+        "minecraft-1.16.5" = _45IBiRKb;
+        "minecraft-1.17" = _45IBiRKb;
+        "minecraft-1.17.1" = _45IBiRKb;
+        "minecraft-1.18" = _45IBiRKb;
+        "minecraft-1.18.1" = _45IBiRKb;
+        "minecraft-1.18.2" = _45IBiRKb;
+        "minecraft-1.21.1" = _45IBiRKb;
+        "minecraft-1.21.2" = _45IBiRKb;
+        "minecraft-1.21.3" = _45IBiRKb;
+        "minecraft-1.21.4" = _45IBiRKb;
+        "minecraft-1.21.5" = _45IBiRKb;
+        "minecraft-22w42a" = _45IBiRKb;
+        "minecraft-22w43a" = _45IBiRKb;
+        "minecraft-22w44a" = _45IBiRKb;
+        "minecraft-23w14a" = _45IBiRKb;
+        "minecraft-23w16a" = _45IBiRKb;
+        "minecraft-23w31a" = _45IBiRKb;
+        "minecraft-23w32a" = _45IBiRKb;
+        "minecraft-23w33a" = _45IBiRKb;
+        "minecraft-23w35a" = _45IBiRKb;
+        "minecraft-1.20.2-pre1" = _45IBiRKb;
+        "minecraft-23w42a" = _45IBiRKb;
+        "minecraft-23w43a" = _45IBiRKb;
+        "minecraft-23w43b" = _45IBiRKb;
+        "minecraft-23w44a" = _45IBiRKb;
+        "minecraft-23w45a" = _45IBiRKb;
+        "minecraft-23w46a" = _45IBiRKb;
+        "minecraft-24w03a" = _45IBiRKb;
+        "minecraft-24w03b" = _45IBiRKb;
+        "minecraft-24w04a" = _45IBiRKb;
+        "minecraft-24w05a" = _45IBiRKb;
+        "minecraft-24w05b" = _45IBiRKb;
+        "minecraft-24w06a" = _45IBiRKb;
+        "minecraft-24w07a" = _45IBiRKb;
+        "minecraft-24w09a" = _45IBiRKb;
+        "minecraft-24w10a" = _45IBiRKb;
+        "minecraft-24w11a" = _45IBiRKb;
+        "minecraft-24w12a" = _45IBiRKb;
+        "minecraft-24w13a" = _45IBiRKb;
+        "minecraft-24w14potato" = _45IBiRKb;
+        "minecraft-24w14a" = _45IBiRKb;
+        "minecraft-1.20.5-pre1" = _45IBiRKb;
+        "minecraft-1.20.5-pre2" = _45IBiRKb;
+        "minecraft-1.20.5-pre3" = _45IBiRKb;
+        "minecraft-24w18a" = _45IBiRKb;
+        "minecraft-24w19a" = _45IBiRKb;
+        "minecraft-24w19b" = _45IBiRKb;
+        "minecraft-24w20a" = _45IBiRKb;
+        "minecraft-24w33a" = _45IBiRKb;
+        "minecraft-24w34a" = _45IBiRKb;
+        "minecraft-24w35a" = _45IBiRKb;
+        "minecraft-24w36a" = _45IBiRKb;
+        "minecraft-24w37a" = _45IBiRKb;
+        "minecraft-24w38a" = _45IBiRKb;
+        "minecraft-24w39a" = _45IBiRKb;
+        "minecraft-24w40a" = _45IBiRKb;
+        "minecraft-1.21.2-pre1" = _45IBiRKb;
+        "minecraft-1.21.2-pre2" = _45IBiRKb;
+        "minecraft-24w44a" = _45IBiRKb;
+        "minecraft-24w45a" = _45IBiRKb;
+        "minecraft-24w46a" = _45IBiRKb;
+        "minecraft-1.21.6" = _45IBiRKb;
+        "minecraft-1.21.7" = _45IBiRKb;
+        "minecraft-1.21.8" = _45IBiRKb;
+        "minecraft-1.21.9" = _45IBiRKb;
+        "minecraft-1.21.10" = _45IBiRKb;
+        "minecraft-1.21.11" = _45IBiRKb;
+        "minecraft-26.1" = _45IBiRKb;
+        "minecraft-26.1.1" = _45IBiRKb;
+        "minecraft-26.1.2" = _45IBiRKb;
+        "minecraft-26.2" = _45IBiRKb;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "artisanal-nether-bricks";
+            id = "eiCgYj9E";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="45IBiRKb";}

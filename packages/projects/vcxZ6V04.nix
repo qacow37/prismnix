@@ -1,0 +1,157 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _aN8wxPB2 = {
+            "id" = "aN8wxPB2";
+            "file" = "Sonic The Hedgehog Beds (Pixel Consistent).zip";
+            "hash" = "sha512-5vNP7S8AOJVwfhwqKZhDWPgGC+6qSNs0xnRW3ef580PuRIi/MI/rIa9/0mF99B6i425KT+iF4RJR8RLzBhBkDg==";
+        };
+        _EElTajgk = {
+            "id" = "EElTajgk";
+            "file" = "Sonic The Hedgehog Beds (Pixel Consistent) (pre1-20-2).zip";
+            "hash" = "sha512-iUB+PH4p0xFWLu8cgTasRA0E3mmmbWouZSog1wHGgNtJh9Gxt14VKmiNET0O9l67sYsixKxvu8XtKf/F/zCs0A==";
+        };
+        _SiKtIlHQ = {
+            "id" = "SiKtIlHQ";
+            "file" = "Sonic The Hedgehog Beds 1.0.1 (Pixel Consistent).zip";
+            "hash" = "sha512-dBKMxlFEYmBU7JUdyQMwpqIQpsj5bdphYQ7W3cpTaVV+dK1xOHyfNNDSUiTBJz3pThzRTgWGfJLGNi2zOZnVQQ==";
+        };
+        _sjFP7WeP = {
+            "id" = "sjFP7WeP";
+            "file" = "Sonic The Hedgehog Beds 1.0.2 (Pixel Consistent).zip";
+            "hash" = "sha512-94TBdoZOMfWx4uV2smuSooj9a3hvM9ifz8QqmFQ6CFzzX0Y/3Q6eD8HqG0lsT/Sf1JKsAthoKDx+BRnEtKBkwA==";
+        };
+        _dnHkk7RD = {
+            "id" = "dnHkk7RD";
+            "file" = "Sonic The Hedgehog Beds 1.0.3 (Pixel Consistent).zip";
+            "hash" = "sha512-uJDRVeECJ8Y92nL0B+tpQZYEH/cVexst9szZNONwLLVjUSvSd22Hum82F2xqpmnnCV6BYWuBsEthbntvGjdlzQ==";
+        };
+        _EKuvQMWH = {
+            "id" = "EKuvQMWH";
+            "file" = "Sonic The Hedgehog Beds 1.0.4 (Pixel Consistent).zip";
+            "hash" = "sha512-K+xSzHHM8lQg8s7VUDC1Da5WWJFfJEddZo0I9aS7EJXxMpJ6OF03hBSVLbl7LtLOenE4xOPf0/hUbmPVo7A/lw==";
+        };
+    in {
+        "aN8wxPB2" = _aN8wxPB2;
+        "EElTajgk" = _EElTajgk;
+        "SiKtIlHQ" = _SiKtIlHQ;
+        "sjFP7WeP" = _sjFP7WeP;
+        "dnHkk7RD" = _dnHkk7RD;
+        "EKuvQMWH" = _EKuvQMWH;
+        "minecraft-1.20.2" = _EKuvQMWH;
+        "minecraft-1.20.3" = _EKuvQMWH;
+        "minecraft-1.20.4" = _EKuvQMWH;
+        "minecraft-1.20.5" = _EKuvQMWH;
+        "minecraft-1.20.6" = _EKuvQMWH;
+        "minecraft-1.21" = _EKuvQMWH;
+        "minecraft-1.21.1" = _EKuvQMWH;
+        "minecraft-1.21.2" = _EKuvQMWH;
+        "minecraft-1.21.3" = _EKuvQMWH;
+        "minecraft-1.21.4" = _EKuvQMWH;
+        "minecraft-1.12.2" = _EElTajgk;
+        "minecraft-1.13" = _EElTajgk;
+        "minecraft-1.13.1" = _EElTajgk;
+        "minecraft-1.13.2" = _EElTajgk;
+        "minecraft-1.14" = _EElTajgk;
+        "minecraft-1.14.1" = _EElTajgk;
+        "minecraft-1.14.2" = _EElTajgk;
+        "minecraft-1.14.3" = _EElTajgk;
+        "minecraft-1.14.4" = _EElTajgk;
+        "minecraft-1.15" = _EElTajgk;
+        "minecraft-1.15.1" = _EElTajgk;
+        "minecraft-1.15.2" = _EElTajgk;
+        "minecraft-1.16" = _sjFP7WeP;
+        "minecraft-1.16.1" = _sjFP7WeP;
+        "minecraft-1.16.2" = _sjFP7WeP;
+        "minecraft-1.16.3" = _sjFP7WeP;
+        "minecraft-1.16.4" = _sjFP7WeP;
+        "minecraft-1.16.5" = _sjFP7WeP;
+        "minecraft-1.17" = _sjFP7WeP;
+        "minecraft-1.17.1" = _sjFP7WeP;
+        "minecraft-1.18" = _sjFP7WeP;
+        "minecraft-1.18.1" = _sjFP7WeP;
+        "minecraft-1.18.2" = _sjFP7WeP;
+        "minecraft-1.19" = _sjFP7WeP;
+        "minecraft-1.19.1" = _sjFP7WeP;
+        "minecraft-1.19.2" = _sjFP7WeP;
+        "minecraft-1.19.3" = _sjFP7WeP;
+        "minecraft-1.19.4" = _sjFP7WeP;
+        "minecraft-1.20" = _EKuvQMWH;
+        "minecraft-1.20.1" = _EKuvQMWH;
+        "minecraft-23w31a" = _EKuvQMWH;
+        "minecraft-1.21.5" = _EKuvQMWH;
+        "minecraft-1.21.6" = _EKuvQMWH;
+        "minecraft-1.21.7" = _EKuvQMWH;
+        "minecraft-1.21.8" = _EKuvQMWH;
+        "minecraft-1.21.9" = _EKuvQMWH;
+        "minecraft-1.21.10" = _EKuvQMWH;
+        "minecraft-1.21.11" = _EKuvQMWH;
+        "minecraft-26.1" = _EKuvQMWH;
+        "minecraft-23w32a" = _EKuvQMWH;
+        "minecraft-23w33a" = _EKuvQMWH;
+        "minecraft-23w35a" = _EKuvQMWH;
+        "minecraft-1.20.2-pre1" = _EKuvQMWH;
+        "minecraft-23w42a" = _EKuvQMWH;
+        "minecraft-23w43a" = _EKuvQMWH;
+        "minecraft-23w43b" = _EKuvQMWH;
+        "minecraft-23w44a" = _EKuvQMWH;
+        "minecraft-23w45a" = _EKuvQMWH;
+        "minecraft-23w46a" = _EKuvQMWH;
+        "minecraft-24w03a" = _EKuvQMWH;
+        "minecraft-24w03b" = _EKuvQMWH;
+        "minecraft-24w04a" = _EKuvQMWH;
+        "minecraft-24w05a" = _EKuvQMWH;
+        "minecraft-24w05b" = _EKuvQMWH;
+        "minecraft-24w06a" = _EKuvQMWH;
+        "minecraft-24w07a" = _EKuvQMWH;
+        "minecraft-24w09a" = _EKuvQMWH;
+        "minecraft-24w10a" = _EKuvQMWH;
+        "minecraft-24w11a" = _EKuvQMWH;
+        "minecraft-24w12a" = _EKuvQMWH;
+        "minecraft-24w13a" = _EKuvQMWH;
+        "minecraft-24w14potato" = _EKuvQMWH;
+        "minecraft-24w14a" = _EKuvQMWH;
+        "minecraft-1.20.5-pre1" = _EKuvQMWH;
+        "minecraft-1.20.5-pre2" = _EKuvQMWH;
+        "minecraft-1.20.5-pre3" = _EKuvQMWH;
+        "minecraft-24w18a" = _EKuvQMWH;
+        "minecraft-24w19a" = _EKuvQMWH;
+        "minecraft-24w19b" = _EKuvQMWH;
+        "minecraft-24w20a" = _EKuvQMWH;
+        "minecraft-24w33a" = _EKuvQMWH;
+        "minecraft-24w34a" = _EKuvQMWH;
+        "minecraft-24w35a" = _EKuvQMWH;
+        "minecraft-24w36a" = _EKuvQMWH;
+        "minecraft-24w37a" = _EKuvQMWH;
+        "minecraft-24w38a" = _EKuvQMWH;
+        "minecraft-24w39a" = _EKuvQMWH;
+        "minecraft-24w40a" = _EKuvQMWH;
+        "minecraft-1.21.2-pre1" = _EKuvQMWH;
+        "minecraft-1.21.2-pre2" = _EKuvQMWH;
+        "minecraft-24w44a" = _EKuvQMWH;
+        "minecraft-24w45a" = _EKuvQMWH;
+        "minecraft-24w46a" = _EKuvQMWH;
+        "minecraft-26.1.1" = _EKuvQMWH;
+        "minecraft-26.1.2" = _EKuvQMWH;
+        "minecraft-26.2" = _EKuvQMWH;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "sonic-the-hedgehog-beds-(pixel-consistent)";
+            id = "vcxZ6V04";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                    shortName = "CC-BY-NC-SA-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="EKuvQMWH";}

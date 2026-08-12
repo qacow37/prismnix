@@ -1,0 +1,38 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _4vvcepUb = {
+            "id" = "4vvcepUb";
+            "file" = "MendingRepairCost-1.0.0.jar";
+            "hash" = "sha512-NUFUc2Ub7b+U2uAkDO9WLZWb0J/50ulawDfN95jdEFrtn8Q9MFt32PQTESqsBpfu5P/NZTmwAPswUyaXKEMtkg==";
+        };
+        _CfnP0Ogl = {
+            "id" = "CfnP0Ogl";
+            "file" = "MendingRepairCost-1.0.1.jar";
+            "hash" = "sha512-0r9oJdtvpVKBeHrfezxrRkaaXJ6ij1A3HVoi+2T5B6RyY5xOG8+7cudymZBwSZvlWiI55cqdGLeAIkOvb6mBwA==";
+        };
+    in {
+        "4vvcepUb" = _4vvcepUb;
+        "CfnP0Ogl" = _CfnP0Ogl;
+        "fabric-1.20.1" = _CfnP0Ogl;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "mending-repair-cost";
+            id = "b6jkMsb7";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/Arona74/MendingRepairCost/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="CfnP0Ogl";}

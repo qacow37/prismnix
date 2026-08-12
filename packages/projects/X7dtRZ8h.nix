@@ -1,0 +1,122 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _RsPjvLAN = {
+            "id" = "RsPjvLAN";
+            "file" = "CreateUI.zip";
+            "hash" = "sha512-n2ZBLsXqEXaUu55+kBZgwiO1AAbYntfSkny52bQgA+8qwuBiIupgbGZvAxphOlmwUICdYrl3LvHJujffdNnZVQ==";
+        };
+        _J7XbjWn6 = {
+            "id" = "J7XbjWn6";
+            "file" = "Create_UI_1.21.zip";
+            "hash" = "sha512-Rc2oDtlfXBuVlR+fgdm3J6H3CwoTJZ8Yppe9jDLoT/EH7ILmNW/kV7dCRBJUgO1f0dSzkmjCDgk46vjOjcWJ1w==";
+        };
+    in {
+        "RsPjvLAN" = _RsPjvLAN;
+        "J7XbjWn6" = _J7XbjWn6;
+        "minecraft-1.0" = _RsPjvLAN;
+        "minecraft-1.1" = _RsPjvLAN;
+        "minecraft-1.2.1" = _RsPjvLAN;
+        "minecraft-1.2.2" = _RsPjvLAN;
+        "minecraft-1.2.3" = _RsPjvLAN;
+        "minecraft-1.2.4" = _RsPjvLAN;
+        "minecraft-1.2.5" = _RsPjvLAN;
+        "minecraft-1.3.1" = _RsPjvLAN;
+        "minecraft-1.3.2" = _RsPjvLAN;
+        "minecraft-1.4.2" = _RsPjvLAN;
+        "minecraft-1.4.4" = _RsPjvLAN;
+        "minecraft-1.4.5" = _RsPjvLAN;
+        "minecraft-1.4.6" = _RsPjvLAN;
+        "minecraft-1.4.7" = _RsPjvLAN;
+        "minecraft-1.5.1" = _RsPjvLAN;
+        "minecraft-1.5.2" = _RsPjvLAN;
+        "minecraft-1.6.1" = _RsPjvLAN;
+        "minecraft-1.6.2" = _RsPjvLAN;
+        "minecraft-1.6.4" = _RsPjvLAN;
+        "minecraft-1.7.2" = _RsPjvLAN;
+        "minecraft-1.7.3" = _RsPjvLAN;
+        "minecraft-1.7.4" = _RsPjvLAN;
+        "minecraft-1.7.5" = _RsPjvLAN;
+        "minecraft-1.7.6" = _RsPjvLAN;
+        "minecraft-1.7.7" = _RsPjvLAN;
+        "minecraft-1.7.8" = _RsPjvLAN;
+        "minecraft-1.7.9" = _RsPjvLAN;
+        "minecraft-1.7.10" = _RsPjvLAN;
+        "minecraft-1.8" = _RsPjvLAN;
+        "minecraft-1.8.1" = _RsPjvLAN;
+        "minecraft-1.8.2" = _RsPjvLAN;
+        "minecraft-1.8.3" = _RsPjvLAN;
+        "minecraft-1.8.4" = _RsPjvLAN;
+        "minecraft-1.8.5" = _RsPjvLAN;
+        "minecraft-1.8.6" = _RsPjvLAN;
+        "minecraft-1.8.7" = _RsPjvLAN;
+        "minecraft-1.8.8" = _RsPjvLAN;
+        "minecraft-1.8.9" = _RsPjvLAN;
+        "minecraft-1.9" = _RsPjvLAN;
+        "minecraft-1.9.1" = _RsPjvLAN;
+        "minecraft-1.9.2" = _RsPjvLAN;
+        "minecraft-1.9.3" = _RsPjvLAN;
+        "minecraft-1.9.4" = _RsPjvLAN;
+        "minecraft-1.10" = _RsPjvLAN;
+        "minecraft-1.10.1" = _RsPjvLAN;
+        "minecraft-1.10.2" = _RsPjvLAN;
+        "minecraft-1.11" = _RsPjvLAN;
+        "minecraft-1.11.1" = _RsPjvLAN;
+        "minecraft-1.11.2" = _RsPjvLAN;
+        "minecraft-1.12" = _RsPjvLAN;
+        "minecraft-1.12.1" = _RsPjvLAN;
+        "minecraft-1.12.2" = _RsPjvLAN;
+        "minecraft-1.13" = _RsPjvLAN;
+        "minecraft-1.13.1" = _RsPjvLAN;
+        "minecraft-1.13.2" = _RsPjvLAN;
+        "minecraft-1.14" = _RsPjvLAN;
+        "minecraft-1.14.1" = _RsPjvLAN;
+        "minecraft-1.14.2" = _RsPjvLAN;
+        "minecraft-1.14.3" = _RsPjvLAN;
+        "minecraft-1.14.4" = _RsPjvLAN;
+        "minecraft-1.15" = _RsPjvLAN;
+        "minecraft-1.15.1" = _RsPjvLAN;
+        "minecraft-1.15.2" = _RsPjvLAN;
+        "minecraft-1.16" = _RsPjvLAN;
+        "minecraft-1.16.1" = _RsPjvLAN;
+        "minecraft-1.16.2" = _RsPjvLAN;
+        "minecraft-1.16.3" = _RsPjvLAN;
+        "minecraft-1.16.4" = _RsPjvLAN;
+        "minecraft-1.16.5" = _RsPjvLAN;
+        "minecraft-1.17" = _RsPjvLAN;
+        "minecraft-1.17.1" = _RsPjvLAN;
+        "minecraft-1.18" = _RsPjvLAN;
+        "minecraft-1.18.1" = _RsPjvLAN;
+        "minecraft-1.18.2" = _RsPjvLAN;
+        "minecraft-1.19" = _RsPjvLAN;
+        "minecraft-1.19.1" = _RsPjvLAN;
+        "minecraft-1.19.2" = _RsPjvLAN;
+        "minecraft-1.19.3" = _RsPjvLAN;
+        "minecraft-1.19.4" = _RsPjvLAN;
+        "minecraft-1.20" = _RsPjvLAN;
+        "minecraft-1.20.1" = _RsPjvLAN;
+        "minecraft-1.20.2" = _RsPjvLAN;
+        "minecraft-1.20.3" = _RsPjvLAN;
+        "minecraft-1.20.4" = _RsPjvLAN;
+        "minecraft-1.21.1" = _J7XbjWn6;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "createui";
+            id = "X7dtRZ8h";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="J7XbjWn6";}

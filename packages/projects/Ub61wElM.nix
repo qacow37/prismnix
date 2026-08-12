@@ -1,0 +1,78 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Wm0L6Fn4 = {
+            "id" = "Wm0L6Fn4";
+            "file" = "Not So Fire.zip";
+            "hash" = "sha512-M/tDu0aiU9VDBlYAjVFNzHJl/jE6ZP0BAG9IvULjnSBJ7YGZgfZ/Gx3YwJK9sECqQC68OVTF9XK+70OFNnx14A==";
+        };
+    in {
+        "Wm0L6Fn4" = _Wm0L6Fn4;
+        "minecraft-1.14" = _Wm0L6Fn4;
+        "minecraft-1.14.1" = _Wm0L6Fn4;
+        "minecraft-1.14.2" = _Wm0L6Fn4;
+        "minecraft-1.14.3" = _Wm0L6Fn4;
+        "minecraft-1.14.4" = _Wm0L6Fn4;
+        "minecraft-1.15" = _Wm0L6Fn4;
+        "minecraft-1.15.1" = _Wm0L6Fn4;
+        "minecraft-1.15.2" = _Wm0L6Fn4;
+        "minecraft-1.16" = _Wm0L6Fn4;
+        "minecraft-1.16.1" = _Wm0L6Fn4;
+        "minecraft-1.16.2" = _Wm0L6Fn4;
+        "minecraft-1.16.3" = _Wm0L6Fn4;
+        "minecraft-1.16.4" = _Wm0L6Fn4;
+        "minecraft-1.16.5" = _Wm0L6Fn4;
+        "minecraft-1.17" = _Wm0L6Fn4;
+        "minecraft-1.17.1" = _Wm0L6Fn4;
+        "minecraft-1.18" = _Wm0L6Fn4;
+        "minecraft-1.18.1" = _Wm0L6Fn4;
+        "minecraft-1.18.2" = _Wm0L6Fn4;
+        "minecraft-1.19" = _Wm0L6Fn4;
+        "minecraft-1.19.1" = _Wm0L6Fn4;
+        "minecraft-1.19.2" = _Wm0L6Fn4;
+        "minecraft-1.19.3" = _Wm0L6Fn4;
+        "minecraft-1.19.4" = _Wm0L6Fn4;
+        "minecraft-1.20" = _Wm0L6Fn4;
+        "minecraft-1.20.1" = _Wm0L6Fn4;
+        "minecraft-1.20.2" = _Wm0L6Fn4;
+        "minecraft-1.20.3" = _Wm0L6Fn4;
+        "minecraft-1.20.4" = _Wm0L6Fn4;
+        "minecraft-1.20.5" = _Wm0L6Fn4;
+        "minecraft-1.20.6" = _Wm0L6Fn4;
+        "minecraft-1.21" = _Wm0L6Fn4;
+        "minecraft-1.21.1" = _Wm0L6Fn4;
+        "minecraft-1.21.2" = _Wm0L6Fn4;
+        "minecraft-1.21.3" = _Wm0L6Fn4;
+        "minecraft-1.21.4" = _Wm0L6Fn4;
+        "minecraft-1.21.5" = _Wm0L6Fn4;
+        "minecraft-1.21.6" = _Wm0L6Fn4;
+        "minecraft-1.21.7" = _Wm0L6Fn4;
+        "minecraft-1.21.8" = _Wm0L6Fn4;
+        "minecraft-1.21.9" = _Wm0L6Fn4;
+        "minecraft-1.21.10" = _Wm0L6Fn4;
+        "minecraft-1.21.11" = _Wm0L6Fn4;
+        "minecraft-26.1" = _Wm0L6Fn4;
+        "minecraft-26.1.1" = _Wm0L6Fn4;
+        "minecraft-26.1.2" = _Wm0L6Fn4;
+        "minecraft-26.2" = _Wm0L6Fn4;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "not-so-fire";
+            id = "Ub61wElM";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Wm0L6Fn4";}

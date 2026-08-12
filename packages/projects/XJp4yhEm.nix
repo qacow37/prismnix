@@ -1,0 +1,122 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _YVhysSbT = {
+            "id" = "YVhysSbT";
+            "file" = "cleanglass+_v1_mc1.7.2-1.12.2.zip";
+            "hash" = "sha512-NIdONHBH4HWe+ShYTGmKEnZu4taMIOmMwLUA3v44fTmMMnpJBiy6j40sTyqc7iOAgVvl6iREAs1wOB+62DEv7g==";
+        };
+        _2OdQpWB9 = {
+            "id" = "2OdQpWB9";
+            "file" = "cleanglass+_v2_mc1.13-1.16.5.zip";
+            "hash" = "sha512-0OSE5PQkaKB/trzrgEb8UalkrV2j5rrSOprGTTR6nignzdF/SO7iaZlZErl9toymTky8RS5N7vu4XDlgyZOLyA==";
+        };
+        _1Na1eV5p = {
+            "id" = "1Na1eV5p";
+            "file" = "cleanglass+_v3_mc1.17-1.21.10.zip";
+            "hash" = "sha512-V7/fiEV2i0iwUd1pnhFDSgx8QQtao3/VA0iRZmROn9P4BxzjIzwrDVpb4KZ3NIto5GaDNsqL2W1Sg48eKJeHNA==";
+        };
+    in {
+        "YVhysSbT" = _YVhysSbT;
+        "2OdQpWB9" = _2OdQpWB9;
+        "1Na1eV5p" = _1Na1eV5p;
+        "minecraft-1.7.2" = _YVhysSbT;
+        "minecraft-1.7.3" = _YVhysSbT;
+        "minecraft-1.7.4" = _YVhysSbT;
+        "minecraft-1.7.5" = _YVhysSbT;
+        "minecraft-1.7.6" = _YVhysSbT;
+        "minecraft-1.7.7" = _YVhysSbT;
+        "minecraft-1.7.8" = _YVhysSbT;
+        "minecraft-1.7.9" = _YVhysSbT;
+        "minecraft-1.7.10" = _YVhysSbT;
+        "minecraft-1.8" = _YVhysSbT;
+        "minecraft-1.8.1" = _YVhysSbT;
+        "minecraft-1.8.2" = _YVhysSbT;
+        "minecraft-1.8.3" = _YVhysSbT;
+        "minecraft-1.8.4" = _YVhysSbT;
+        "minecraft-1.8.5" = _YVhysSbT;
+        "minecraft-1.8.6" = _YVhysSbT;
+        "minecraft-1.8.7" = _YVhysSbT;
+        "minecraft-1.8.8" = _YVhysSbT;
+        "minecraft-1.8.9" = _YVhysSbT;
+        "minecraft-1.9" = _YVhysSbT;
+        "minecraft-1.9.1" = _YVhysSbT;
+        "minecraft-1.9.2" = _YVhysSbT;
+        "minecraft-1.9.3" = _YVhysSbT;
+        "minecraft-1.9.4" = _YVhysSbT;
+        "minecraft-1.10" = _YVhysSbT;
+        "minecraft-1.10.1" = _YVhysSbT;
+        "minecraft-1.10.2" = _YVhysSbT;
+        "minecraft-1.11" = _YVhysSbT;
+        "minecraft-1.11.1" = _YVhysSbT;
+        "minecraft-1.11.2" = _YVhysSbT;
+        "minecraft-1.12" = _YVhysSbT;
+        "minecraft-1.12.1" = _YVhysSbT;
+        "minecraft-1.12.2" = _YVhysSbT;
+        "minecraft-1.13" = _2OdQpWB9;
+        "minecraft-1.13.1" = _2OdQpWB9;
+        "minecraft-1.13.2" = _2OdQpWB9;
+        "minecraft-1.14" = _2OdQpWB9;
+        "minecraft-1.14.1" = _2OdQpWB9;
+        "minecraft-1.14.2" = _2OdQpWB9;
+        "minecraft-1.14.3" = _2OdQpWB9;
+        "minecraft-1.14.4" = _2OdQpWB9;
+        "minecraft-1.15" = _2OdQpWB9;
+        "minecraft-1.15.1" = _2OdQpWB9;
+        "minecraft-1.15.2" = _2OdQpWB9;
+        "minecraft-1.16" = _2OdQpWB9;
+        "minecraft-1.16.1" = _2OdQpWB9;
+        "minecraft-1.16.2" = _2OdQpWB9;
+        "minecraft-1.16.3" = _2OdQpWB9;
+        "minecraft-1.16.4" = _2OdQpWB9;
+        "minecraft-1.16.5" = _2OdQpWB9;
+        "minecraft-1.17" = _1Na1eV5p;
+        "minecraft-1.17.1" = _1Na1eV5p;
+        "minecraft-1.18" = _1Na1eV5p;
+        "minecraft-1.18.1" = _1Na1eV5p;
+        "minecraft-1.18.2" = _1Na1eV5p;
+        "minecraft-1.19" = _1Na1eV5p;
+        "minecraft-1.19.1" = _1Na1eV5p;
+        "minecraft-1.19.2" = _1Na1eV5p;
+        "minecraft-1.19.3" = _1Na1eV5p;
+        "minecraft-1.19.4" = _1Na1eV5p;
+        "minecraft-1.20" = _1Na1eV5p;
+        "minecraft-1.20.1" = _1Na1eV5p;
+        "minecraft-1.20.2" = _1Na1eV5p;
+        "minecraft-1.20.3" = _1Na1eV5p;
+        "minecraft-1.20.4" = _1Na1eV5p;
+        "minecraft-1.20.5" = _1Na1eV5p;
+        "minecraft-1.20.6" = _1Na1eV5p;
+        "minecraft-1.21" = _1Na1eV5p;
+        "minecraft-1.21.1" = _1Na1eV5p;
+        "minecraft-1.21.2" = _1Na1eV5p;
+        "minecraft-1.21.3" = _1Na1eV5p;
+        "minecraft-1.21.4" = _1Na1eV5p;
+        "minecraft-1.21.5" = _1Na1eV5p;
+        "minecraft-1.21.6" = _1Na1eV5p;
+        "minecraft-1.21.7" = _1Na1eV5p;
+        "minecraft-1.21.8" = _1Na1eV5p;
+        "minecraft-1.21.9" = _1Na1eV5p;
+        "minecraft-1.21.10" = _1Na1eV5p;
+        "minecraft-1.21.11" = _1Na1eV5p;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "cleanglass+";
+            id = "XJp4yhEm";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="1Na1eV5p";}

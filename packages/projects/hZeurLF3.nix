@@ -1,0 +1,125 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _wef7tKQT = {
+            "id" = "wef7tKQT";
+            "file" = "my-beloved-icon-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-63nLHnd32zsYOYAHSjDgIfUinXcggkcgyKjK/ypTgZkEeWl7thakjupjRXMXWK4RvipZn1vAepk5lnNGv1Fp4A==";
+        };
+        _FXqb2c9t = {
+            "id" = "FXqb2c9t";
+            "file" = "my-beloved-icon-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-NwkuGiVqJD++ReMJ7zJgbSDNfvBkbDvBVgiolDaVcSzVG8OWjUtULsNvo+YfZmRCh3OXGxime56ad3kqJCP7vw==";
+        };
+        _uXmUwkbv = {
+            "id" = "uXmUwkbv";
+            "file" = "my-beloved-icon-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-3j1yPY4yDEwS380znFk+yg2RGGr94RJOZP1xKykjbw4wqVf5/nH1Kr4H5peLLMsbtvxJW6DC0th2J1+zYNbwGQ==";
+        };
+    in {
+        "wef7tKQT" = _wef7tKQT;
+        "FXqb2c9t" = _FXqb2c9t;
+        "uXmUwkbv" = _uXmUwkbv;
+        "fabric-1.20" = _wef7tKQT;
+        "fabric-1.20.1" = _wef7tKQT;
+        "fabric-1.20.2" = _wef7tKQT;
+        "fabric-1.20.3" = _wef7tKQT;
+        "fabric-1.20.4" = _wef7tKQT;
+        "fabric-1.20.5" = _wef7tKQT;
+        "fabric-1.20.6" = _wef7tKQT;
+        "fabric-1.14" = _FXqb2c9t;
+        "fabric-1.14.1" = _FXqb2c9t;
+        "fabric-1.14.2" = _FXqb2c9t;
+        "fabric-1.14.3" = _FXqb2c9t;
+        "fabric-1.14.4" = _FXqb2c9t;
+        "fabric-1.15" = _FXqb2c9t;
+        "fabric-1.15.1" = _FXqb2c9t;
+        "fabric-1.15.2" = _FXqb2c9t;
+        "fabric-1.16" = _FXqb2c9t;
+        "fabric-1.16.1" = _FXqb2c9t;
+        "fabric-1.16.2" = _FXqb2c9t;
+        "fabric-1.16.3" = _FXqb2c9t;
+        "fabric-1.16.4" = _FXqb2c9t;
+        "fabric-1.16.5" = _FXqb2c9t;
+        "fabric-1.17" = _FXqb2c9t;
+        "fabric-1.17.1" = _FXqb2c9t;
+        "fabric-1.18" = _FXqb2c9t;
+        "fabric-1.18.1" = _FXqb2c9t;
+        "fabric-1.18.2" = _FXqb2c9t;
+        "fabric-1.19" = _FXqb2c9t;
+        "fabric-1.19.1" = _FXqb2c9t;
+        "fabric-1.19.2" = _FXqb2c9t;
+        "fabric-1.19.3" = _FXqb2c9t;
+        "fabric-1.19.4" = _FXqb2c9t;
+        "fabric-1.21" = _uXmUwkbv;
+        "fabric-1.21.1" = _uXmUwkbv;
+        "fabric-1.21.2" = _uXmUwkbv;
+        "fabric-1.21.3" = _uXmUwkbv;
+        "fabric-1.21.4" = _uXmUwkbv;
+        "fabric-1.21.5" = _uXmUwkbv;
+        "fabric-1.21.6" = _uXmUwkbv;
+        "fabric-1.21.7" = _uXmUwkbv;
+        "fabric-1.21.8" = _uXmUwkbv;
+        "fabric-1.21.9" = _uXmUwkbv;
+        "quilt-1.20" = _wef7tKQT;
+        "quilt-1.20.1" = _wef7tKQT;
+        "quilt-1.20.2" = _wef7tKQT;
+        "quilt-1.20.3" = _wef7tKQT;
+        "quilt-1.20.4" = _wef7tKQT;
+        "quilt-1.20.5" = _wef7tKQT;
+        "quilt-1.20.6" = _wef7tKQT;
+        "quilt-1.14" = _FXqb2c9t;
+        "quilt-1.14.1" = _FXqb2c9t;
+        "quilt-1.14.2" = _FXqb2c9t;
+        "quilt-1.14.3" = _FXqb2c9t;
+        "quilt-1.14.4" = _FXqb2c9t;
+        "quilt-1.15" = _FXqb2c9t;
+        "quilt-1.15.1" = _FXqb2c9t;
+        "quilt-1.15.2" = _FXqb2c9t;
+        "quilt-1.16" = _FXqb2c9t;
+        "quilt-1.16.1" = _FXqb2c9t;
+        "quilt-1.16.2" = _FXqb2c9t;
+        "quilt-1.16.3" = _FXqb2c9t;
+        "quilt-1.16.4" = _FXqb2c9t;
+        "quilt-1.16.5" = _FXqb2c9t;
+        "quilt-1.17" = _FXqb2c9t;
+        "quilt-1.17.1" = _FXqb2c9t;
+        "quilt-1.18" = _FXqb2c9t;
+        "quilt-1.18.1" = _FXqb2c9t;
+        "quilt-1.18.2" = _FXqb2c9t;
+        "quilt-1.19" = _FXqb2c9t;
+        "quilt-1.19.1" = _FXqb2c9t;
+        "quilt-1.19.2" = _FXqb2c9t;
+        "quilt-1.19.3" = _FXqb2c9t;
+        "quilt-1.19.4" = _FXqb2c9t;
+        "quilt-1.21" = _uXmUwkbv;
+        "quilt-1.21.1" = _uXmUwkbv;
+        "quilt-1.21.2" = _uXmUwkbv;
+        "quilt-1.21.3" = _uXmUwkbv;
+        "quilt-1.21.4" = _uXmUwkbv;
+        "quilt-1.21.5" = _uXmUwkbv;
+        "quilt-1.21.6" = _uXmUwkbv;
+        "quilt-1.21.7" = _uXmUwkbv;
+        "quilt-1.21.8" = _uXmUwkbv;
+        "quilt-1.21.9" = _uXmUwkbv;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "my-beloved-icon";
+            id = "hZeurLF3";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="uXmUwkbv";}

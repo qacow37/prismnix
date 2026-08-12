@@ -1,0 +1,153 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _upDZZ5qt = {
+            "id" = "upDZZ5qt";
+            "file" = "Taking Damage Deletes Chunk MC 1.21.3 v1.0.zip";
+            "hash" = "sha512-g6K35PK/gI3m/mjyEz1VQ8Ur30mTBZsxgV5XOJNHFuKuXtDa35P00Z2KvSlTAaPu0EH3LN4CZqALRXvmOhCC1A==";
+        };
+        _gkDHvtgV = {
+            "id" = "gkDHvtgV";
+            "file" = "MC but Damage Deletes Chunk v1.1.zip";
+            "hash" = "sha512-FVaxH0K6+WyEovROXSrJufQlBvLxErL4ndHkrNRR3Ok90JXlFisdn3qpAQ2/LrxU0QJotfHihLnfDVR5gkiwtQ==";
+        };
+        _2qo87Sab = {
+            "id" = "2qo87Sab";
+            "file" = "MC but Damage Deletes Chunk v1.2.zip";
+            "hash" = "sha512-MLT4CYsRVAUh4EguhuXQIJBZLMXxWFyop7t68xmdIc9TVan9pxoLzhFC2MmLSfbrYriWTSyRytVY3TU8JbaZvA==";
+        };
+        _uHZA1Bdk = {
+            "id" = "uHZA1Bdk";
+            "file" = "minecraft-but-taking-damage-deletes-the-chunk-v1.2.jar";
+            "hash" = "sha512-CneESIY+Ojc/a7DR2ZonRTvL6hTcB+oxBPdgHgUpp7FqgAp2F2l12q18vuJfFBNckxjxFw85/w0S467FxvULQQ==";
+        };
+        _16Ik3RVr = {
+            "id" = "16Ik3RVr";
+            "file" = "MC but Damage Deletes Chunk v1.2.1.zip";
+            "hash" = "sha512-GGSL5LOYNfVj5vrUobrGd4hQuQKJgRcp2fXEPYkVS6XIdZlrc14zR9ae7zscN6hPC7aDNRvg1AmJGx+5W12rKQ==";
+        };
+        _KshPYQuL = {
+            "id" = "KshPYQuL";
+            "file" = "minecraft-but-taking-damage-deletes-the-chunk-v1.2.1.jar";
+            "hash" = "sha512-84DTR9l/pMxwJZkePZxdsW+VAJLOSUsy6BBMWYwMGiLlIdgn/ttw/DkI4xgS6VS0k4iaaXTXQgSXuSWqG9BBEQ==";
+        };
+    in {
+        "upDZZ5qt" = _upDZZ5qt;
+        "gkDHvtgV" = _gkDHvtgV;
+        "2qo87Sab" = _2qo87Sab;
+        "uHZA1Bdk" = _uHZA1Bdk;
+        "16Ik3RVr" = _16Ik3RVr;
+        "KshPYQuL" = _KshPYQuL;
+        "datapack-1.21.3" = _16Ik3RVr;
+        "datapack-1.21" = _16Ik3RVr;
+        "datapack-1.21.1" = _16Ik3RVr;
+        "datapack-1.21.2" = _16Ik3RVr;
+        "datapack-1.21.4" = _16Ik3RVr;
+        "datapack-1.21.5" = _16Ik3RVr;
+        "datapack-1.21.6" = _16Ik3RVr;
+        "datapack-1.21.7" = _16Ik3RVr;
+        "datapack-1.21.8" = _16Ik3RVr;
+        "datapack-1.21.9" = _16Ik3RVr;
+        "datapack-1.21.10" = _16Ik3RVr;
+        "datapack-1.21.11" = _16Ik3RVr;
+        "datapack-1.20" = _16Ik3RVr;
+        "datapack-1.20.1" = _16Ik3RVr;
+        "datapack-1.20.2" = _16Ik3RVr;
+        "datapack-1.20.3" = _16Ik3RVr;
+        "datapack-1.20.4" = _16Ik3RVr;
+        "datapack-1.20.5" = _16Ik3RVr;
+        "datapack-1.20.6" = _16Ik3RVr;
+        "datapack-26.1" = _16Ik3RVr;
+        "datapack-26.1.1" = _16Ik3RVr;
+        "datapack-26.1.2" = _16Ik3RVr;
+        "datapack-26.2" = _16Ik3RVr;
+        "fabric-1.21" = _KshPYQuL;
+        "fabric-1.21.1" = _KshPYQuL;
+        "fabric-1.21.2" = _KshPYQuL;
+        "fabric-1.21.3" = _KshPYQuL;
+        "fabric-1.21.4" = _KshPYQuL;
+        "fabric-1.21.5" = _KshPYQuL;
+        "fabric-1.21.6" = _KshPYQuL;
+        "fabric-1.21.7" = _KshPYQuL;
+        "fabric-1.21.8" = _KshPYQuL;
+        "fabric-1.21.9" = _KshPYQuL;
+        "fabric-1.21.10" = _KshPYQuL;
+        "fabric-1.21.11" = _KshPYQuL;
+        "fabric-1.20" = _KshPYQuL;
+        "fabric-1.20.1" = _KshPYQuL;
+        "fabric-1.20.2" = _KshPYQuL;
+        "fabric-1.20.3" = _KshPYQuL;
+        "fabric-1.20.4" = _KshPYQuL;
+        "fabric-1.20.5" = _KshPYQuL;
+        "fabric-1.20.6" = _KshPYQuL;
+        "fabric-26.1" = _KshPYQuL;
+        "fabric-26.1.1" = _KshPYQuL;
+        "fabric-26.1.2" = _KshPYQuL;
+        "fabric-26.2" = _KshPYQuL;
+        "forge-1.21" = _KshPYQuL;
+        "forge-1.21.1" = _KshPYQuL;
+        "forge-1.21.2" = _KshPYQuL;
+        "forge-1.21.3" = _KshPYQuL;
+        "forge-1.21.4" = _KshPYQuL;
+        "forge-1.21.5" = _KshPYQuL;
+        "forge-1.21.6" = _KshPYQuL;
+        "forge-1.21.7" = _KshPYQuL;
+        "forge-1.21.8" = _KshPYQuL;
+        "forge-1.21.9" = _KshPYQuL;
+        "forge-1.21.10" = _KshPYQuL;
+        "forge-1.21.11" = _KshPYQuL;
+        "forge-1.20" = _KshPYQuL;
+        "forge-1.20.1" = _KshPYQuL;
+        "forge-1.20.2" = _KshPYQuL;
+        "forge-1.20.3" = _KshPYQuL;
+        "forge-1.20.4" = _KshPYQuL;
+        "forge-1.20.5" = _KshPYQuL;
+        "forge-1.20.6" = _KshPYQuL;
+        "forge-26.1" = _KshPYQuL;
+        "forge-26.1.1" = _KshPYQuL;
+        "forge-26.1.2" = _KshPYQuL;
+        "forge-26.2" = _KshPYQuL;
+        "neoforge-1.21" = _KshPYQuL;
+        "neoforge-1.21.1" = _KshPYQuL;
+        "neoforge-1.21.2" = _KshPYQuL;
+        "neoforge-1.21.3" = _KshPYQuL;
+        "neoforge-1.21.4" = _KshPYQuL;
+        "neoforge-1.21.5" = _KshPYQuL;
+        "neoforge-1.21.6" = _KshPYQuL;
+        "neoforge-1.21.7" = _KshPYQuL;
+        "neoforge-1.21.8" = _KshPYQuL;
+        "neoforge-1.21.9" = _KshPYQuL;
+        "neoforge-1.21.10" = _KshPYQuL;
+        "neoforge-1.21.11" = _KshPYQuL;
+        "neoforge-1.20" = _KshPYQuL;
+        "neoforge-1.20.1" = _KshPYQuL;
+        "neoforge-1.20.2" = _KshPYQuL;
+        "neoforge-1.20.3" = _KshPYQuL;
+        "neoforge-1.20.4" = _KshPYQuL;
+        "neoforge-1.20.5" = _KshPYQuL;
+        "neoforge-1.20.6" = _KshPYQuL;
+        "neoforge-26.1" = _KshPYQuL;
+        "neoforge-26.1.1" = _KshPYQuL;
+        "neoforge-26.1.2" = _KshPYQuL;
+        "neoforge-26.2" = _KshPYQuL;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "minecraft-but-taking-damage-deletes-the-chunk";
+            id = "sVHyF0L2";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="KshPYQuL";}

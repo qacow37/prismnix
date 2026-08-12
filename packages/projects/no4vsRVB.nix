@@ -1,0 +1,112 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _2C2xUnAf = {
+            "id" = "2C2xUnAf";
+            "file" = "Sethome v0.1.zip";
+            "hash" = "sha512-bc5qz4Knf1w5R9EOXxcNwv8C2mBW3q9BIaCIibDvFQ707ajE2X55FsHRRl22FFpR69ALukVSDiRaEyXBxatpRw==";
+        };
+        _LEqjoeDf = {
+            "id" = "LEqjoeDf";
+            "file" = "set_home-0.1.jar";
+            "hash" = "sha512-FlSe6gYoIc0SOv6nHDZO34T9SGu7A4iK+uOvO6G4zbbpoUe29xakeoOsOrb2cBydhL5XqlLVjNjX/eZ248qKCw==";
+        };
+    in {
+        "2C2xUnAf" = _2C2xUnAf;
+        "LEqjoeDf" = _LEqjoeDf;
+        "datapack-1.21" = _2C2xUnAf;
+        "datapack-1.21.1" = _2C2xUnAf;
+        "datapack-1.21.2" = _2C2xUnAf;
+        "datapack-1.21.3" = _2C2xUnAf;
+        "datapack-1.21.4" = _2C2xUnAf;
+        "datapack-1.21.5" = _2C2xUnAf;
+        "datapack-1.21.6" = _2C2xUnAf;
+        "datapack-1.21.7" = _2C2xUnAf;
+        "datapack-1.21.8" = _2C2xUnAf;
+        "datapack-1.21.9" = _2C2xUnAf;
+        "datapack-1.21.10" = _2C2xUnAf;
+        "fabric-1.21" = _LEqjoeDf;
+        "fabric-1.21.1" = _LEqjoeDf;
+        "fabric-1.21.2" = _LEqjoeDf;
+        "fabric-1.21.3" = _LEqjoeDf;
+        "fabric-1.21.4" = _LEqjoeDf;
+        "fabric-1.21.5" = _LEqjoeDf;
+        "fabric-1.21.6" = _LEqjoeDf;
+        "fabric-1.21.7" = _LEqjoeDf;
+        "fabric-1.21.8" = _LEqjoeDf;
+        "fabric-1.21.9" = _LEqjoeDf;
+        "fabric-1.21.10" = _LEqjoeDf;
+        "fabric-1.21.11" = _LEqjoeDf;
+        "fabric-26.1" = _LEqjoeDf;
+        "fabric-26.1.1" = _LEqjoeDf;
+        "fabric-26.1.2" = _LEqjoeDf;
+        "fabric-26.2" = _LEqjoeDf;
+        "forge-1.21" = _LEqjoeDf;
+        "forge-1.21.1" = _LEqjoeDf;
+        "forge-1.21.2" = _LEqjoeDf;
+        "forge-1.21.3" = _LEqjoeDf;
+        "forge-1.21.4" = _LEqjoeDf;
+        "forge-1.21.5" = _LEqjoeDf;
+        "forge-1.21.6" = _LEqjoeDf;
+        "forge-1.21.7" = _LEqjoeDf;
+        "forge-1.21.8" = _LEqjoeDf;
+        "forge-1.21.9" = _LEqjoeDf;
+        "forge-1.21.10" = _LEqjoeDf;
+        "forge-1.21.11" = _LEqjoeDf;
+        "forge-26.1" = _LEqjoeDf;
+        "forge-26.1.1" = _LEqjoeDf;
+        "forge-26.1.2" = _LEqjoeDf;
+        "forge-26.2" = _LEqjoeDf;
+        "neoforge-1.21" = _LEqjoeDf;
+        "neoforge-1.21.1" = _LEqjoeDf;
+        "neoforge-1.21.2" = _LEqjoeDf;
+        "neoforge-1.21.3" = _LEqjoeDf;
+        "neoforge-1.21.4" = _LEqjoeDf;
+        "neoforge-1.21.5" = _LEqjoeDf;
+        "neoforge-1.21.6" = _LEqjoeDf;
+        "neoforge-1.21.7" = _LEqjoeDf;
+        "neoforge-1.21.8" = _LEqjoeDf;
+        "neoforge-1.21.9" = _LEqjoeDf;
+        "neoforge-1.21.10" = _LEqjoeDf;
+        "neoforge-1.21.11" = _LEqjoeDf;
+        "neoforge-26.1" = _LEqjoeDf;
+        "neoforge-26.1.1" = _LEqjoeDf;
+        "neoforge-26.1.2" = _LEqjoeDf;
+        "neoforge-26.2" = _LEqjoeDf;
+        "quilt-1.21" = _LEqjoeDf;
+        "quilt-1.21.1" = _LEqjoeDf;
+        "quilt-1.21.2" = _LEqjoeDf;
+        "quilt-1.21.3" = _LEqjoeDf;
+        "quilt-1.21.4" = _LEqjoeDf;
+        "quilt-1.21.5" = _LEqjoeDf;
+        "quilt-1.21.6" = _LEqjoeDf;
+        "quilt-1.21.7" = _LEqjoeDf;
+        "quilt-1.21.8" = _LEqjoeDf;
+        "quilt-1.21.9" = _LEqjoeDf;
+        "quilt-1.21.10" = _LEqjoeDf;
+        "quilt-1.21.11" = _LEqjoeDf;
+        "quilt-26.1" = _LEqjoeDf;
+        "quilt-26.1.1" = _LEqjoeDf;
+        "quilt-26.1.2" = _LEqjoeDf;
+        "quilt-26.2" = _LEqjoeDf;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "set_home";
+            id = "no4vsRVB";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Zero v1.0 Universal";
+                    shortName = "CC0-1.0";
+                    url = "https://creativecommons.org/publicdomain/zero/1.0/";
+                };
+            };
+        };
+in callPackage fn {version="LEqjoeDf";}

@@ -1,0 +1,143 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _yvO4W7MX = {
+            "id" = "yvO4W7MX";
+            "file" = "sdob-1.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-SqYdVF6fiaMHkfTtD09unEfN829Hqyo/3huey5FpQrb1fkG4Qymhg4ceFdceGVIcWxhH1/gGfFF+gnIkt7QqCw==";
+        };
+        _5NYamh2h = {
+            "id" = "5NYamh2h";
+            "file" = "sdobfabric-1.0.0-fabric-1.20.1.jar";
+            "hash" = "sha512-mR9QXro4GH6J/cPB2SusxeL3cYs/hTzkuhuFFuWyketHlnwYNFLNO64wKCmjB22iut1b9Rn/AAg2kt27hMlzbg==";
+        };
+        _nF9aaw0v = {
+            "id" = "nF9aaw0v";
+            "file" = "sdob_forge-1.0.5-forge-1.20.1.jar";
+            "hash" = "sha512-PLlbLvh3t6QSMOPCFk5jBPPh/ErjSli3ARh38JnJLJYx8xWsp77AzxCEgdgavRoc9QGinTHNX6ADtWQ+mLlXAw==";
+        };
+        _muFGzKZt = {
+            "id" = "muFGzKZt";
+            "file" = "sdob_fabric-1.0.5-fabric-1.20.1.jar";
+            "hash" = "sha512-nJqoPG2PE9vEvWAxrhXj3L0dGo2ESnel366MsykRuZGu22jBrGYNf4dQArO0BDATnLIYWyxzH2L3kEwunww9sQ==";
+        };
+        _bSfufT1H = {
+            "id" = "bSfufT1H";
+            "file" = "sdob-1.1.0-universal.jar";
+            "hash" = "sha512-uH6+KoyXzv5UG1NIKraBNLLcFs6E6eP8FkNs7izQ5fktHg9maBQp15ymqj97QDr0agk1Jlv5SZJhsyP67UViRA==";
+        };
+    in {
+        "yvO4W7MX" = _yvO4W7MX;
+        "5NYamh2h" = _5NYamh2h;
+        "nF9aaw0v" = _nF9aaw0v;
+        "muFGzKZt" = _muFGzKZt;
+        "bSfufT1H" = _bSfufT1H;
+        "forge-1.20.1" = _bSfufT1H;
+        "forge-1.20.2" = _bSfufT1H;
+        "forge-1.20.3" = _bSfufT1H;
+        "forge-1.20.4" = _bSfufT1H;
+        "forge-1.20.5" = _bSfufT1H;
+        "forge-1.20.6" = _bSfufT1H;
+        "forge-1.21" = _bSfufT1H;
+        "forge-1.21.1" = _bSfufT1H;
+        "forge-1.21.2" = _bSfufT1H;
+        "forge-1.21.3" = _bSfufT1H;
+        "forge-1.21.4" = _bSfufT1H;
+        "forge-1.21.5" = _bSfufT1H;
+        "forge-1.21.6" = _bSfufT1H;
+        "forge-1.21.7" = _bSfufT1H;
+        "forge-1.21.8" = _bSfufT1H;
+        "forge-1.21.9" = _bSfufT1H;
+        "forge-1.21.10" = _bSfufT1H;
+        "forge-1.21.11" = _bSfufT1H;
+        "forge-26.1" = _bSfufT1H;
+        "forge-26.1.1" = _bSfufT1H;
+        "forge-26.1.2" = _bSfufT1H;
+        "forge-26.2" = _bSfufT1H;
+        "fabric-1.20.1" = _bSfufT1H;
+        "fabric-1.20.2" = _bSfufT1H;
+        "fabric-1.20.3" = _bSfufT1H;
+        "fabric-1.20.4" = _bSfufT1H;
+        "fabric-1.20.5" = _bSfufT1H;
+        "fabric-1.20.6" = _bSfufT1H;
+        "fabric-1.21" = _bSfufT1H;
+        "fabric-1.21.1" = _bSfufT1H;
+        "fabric-1.21.2" = _bSfufT1H;
+        "fabric-1.21.3" = _bSfufT1H;
+        "fabric-1.21.4" = _bSfufT1H;
+        "fabric-1.21.5" = _bSfufT1H;
+        "fabric-1.21.6" = _bSfufT1H;
+        "fabric-1.21.7" = _bSfufT1H;
+        "fabric-1.21.8" = _bSfufT1H;
+        "fabric-1.21.9" = _bSfufT1H;
+        "fabric-1.21.10" = _bSfufT1H;
+        "fabric-1.21.11" = _bSfufT1H;
+        "fabric-26.1" = _bSfufT1H;
+        "fabric-26.1.1" = _bSfufT1H;
+        "fabric-26.1.2" = _bSfufT1H;
+        "fabric-26.2" = _bSfufT1H;
+        "neoforge-1.20.1" = _bSfufT1H;
+        "neoforge-1.20.2" = _bSfufT1H;
+        "neoforge-1.20.3" = _bSfufT1H;
+        "neoforge-1.20.4" = _bSfufT1H;
+        "neoforge-1.20.5" = _bSfufT1H;
+        "neoforge-1.20.6" = _bSfufT1H;
+        "neoforge-1.21" = _bSfufT1H;
+        "neoforge-1.21.1" = _bSfufT1H;
+        "neoforge-1.21.2" = _bSfufT1H;
+        "neoforge-1.21.3" = _bSfufT1H;
+        "neoforge-1.21.4" = _bSfufT1H;
+        "neoforge-1.21.5" = _bSfufT1H;
+        "neoforge-1.21.6" = _bSfufT1H;
+        "neoforge-1.21.7" = _bSfufT1H;
+        "neoforge-1.21.8" = _bSfufT1H;
+        "neoforge-1.21.9" = _bSfufT1H;
+        "neoforge-1.21.10" = _bSfufT1H;
+        "neoforge-1.21.11" = _bSfufT1H;
+        "neoforge-26.1" = _bSfufT1H;
+        "neoforge-26.1.1" = _bSfufT1H;
+        "neoforge-26.1.2" = _bSfufT1H;
+        "neoforge-26.2" = _bSfufT1H;
+        "quilt-1.20.1" = _bSfufT1H;
+        "quilt-1.20.2" = _bSfufT1H;
+        "quilt-1.20.3" = _bSfufT1H;
+        "quilt-1.20.4" = _bSfufT1H;
+        "quilt-1.20.5" = _bSfufT1H;
+        "quilt-1.20.6" = _bSfufT1H;
+        "quilt-1.21" = _bSfufT1H;
+        "quilt-1.21.1" = _bSfufT1H;
+        "quilt-1.21.2" = _bSfufT1H;
+        "quilt-1.21.3" = _bSfufT1H;
+        "quilt-1.21.4" = _bSfufT1H;
+        "quilt-1.21.5" = _bSfufT1H;
+        "quilt-1.21.6" = _bSfufT1H;
+        "quilt-1.21.7" = _bSfufT1H;
+        "quilt-1.21.8" = _bSfufT1H;
+        "quilt-1.21.9" = _bSfufT1H;
+        "quilt-1.21.10" = _bSfufT1H;
+        "quilt-1.21.11" = _bSfufT1H;
+        "quilt-26.1" = _bSfufT1H;
+        "quilt-26.1.1" = _bSfufT1H;
+        "quilt-26.1.2" = _bSfufT1H;
+        "quilt-26.2" = _bSfufT1H;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "sdob";
+            id = "5Zdqv8rG";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-License-SDoB" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-License-SDoB";
+                    shortName = "LicenseRef-License-SDoB";
+                    url = "https://github.com/D4vide106/SDoB/blob/main/License.md";
+                };
+            };
+        };
+in callPackage fn {version="bSfufT1H";}

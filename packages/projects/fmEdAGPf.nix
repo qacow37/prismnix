@@ -1,0 +1,205 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BwOs5Aep = {
+            "id" = "BwOs5Aep";
+            "file" = "fullbright 1.20.6.zip";
+            "hash" = "sha512-HRlNSq4bwuupee0Qysa0suN+ZTGJvRWuC6kkNG6jB4xqRZ7+QMRfoW4QHv9gK98fsKubqqyvtnFE92nZpt1Wzw==";
+        };
+        _eWJ8ttxA = {
+            "id" = "eWJ8ttxA";
+            "file" = "fullbright-multiplayer-1.jar";
+            "hash" = "sha512-k8u4YPcYdmZGbDpL64tpV8ldBQuyV2vtcd8JBZ4SUB8ZUB3jnf8tVsa38kQib4pZ5YSh76USysp1m6csGUwpdQ==";
+        };
+        _xd2QHFdL = {
+            "id" = "xd2QHFdL";
+            "file" = "fullbright 1.21.zip";
+            "hash" = "sha512-j6D2bkFbQmjGjZCFWd7PcBVsEmLZbU5Dm6dJMD/0Q2X96B+GrXIdv1w6faN50ll/qvm6JkiYTMt1VfZP9nBFgQ==";
+        };
+        _NvGQFVNW = {
+            "id" = "NvGQFVNW";
+            "file" = "fullbright-multiplayer-1.jar";
+            "hash" = "sha512-dnzVX7vXjQm3HJsXRMGBHVjd6M3CnRE4TMIVOCUje45qLx0oHk+zLG1vmKrTSeqtqqzCCg2JmiQf+g6dLuC/Tw==";
+        };
+        _JxhU8KwB = {
+            "id" = "JxhU8KwB";
+            "file" = "Fullbright 1.19.4 - 1.21.1.zip";
+            "hash" = "sha512-+vCzb7D1d7QylbKpFOdAIZhj1wM3jdA97OYEO24SZ7VvDELBD/oEaTyy3gPxx/tnos6WCP0Dp0DIdClrhbvcWg==";
+        };
+        _ny8c9Q4T = {
+            "id" = "ny8c9Q4T";
+            "file" = "fullbright-multiplayer-1.2.jar";
+            "hash" = "sha512-fgh6B7vGBPj+1CdFB4vAU4vh6k81+s6QHeN5wdrCqweAKuATrJgkB0Ebih1cHqM28XSsfBdIHhO41nMKu0nmeQ==";
+        };
+        _d3K0yhyR = {
+            "id" = "d3K0yhyR";
+            "file" = "Fullbright 1.19.4 - 1.21.4 v1.3.zip";
+            "hash" = "sha512-dUkTDnTkZte/nICnLkqnbHbR2+cI0gBDyBgkxTNicWDgO/QsmUhQTOsyxZGPRHNsvKPuO4gMg2NK9dnlinLiEQ==";
+        };
+        _CkO3taMT = {
+            "id" = "CkO3taMT";
+            "file" = "fullbright-multiplayer-1.3.jar";
+            "hash" = "sha512-ncjY8pnh/w6gmT94Yv/lp3/x1VnhNlvHSOHXalp/iKN33nNuOzLlHDPhyYfbfOepXpZvJ01IkNG2GnM35rNq7Q==";
+        };
+        _O7uRdp3t = {
+            "id" = "O7uRdp3t";
+            "file" = "Fullbright 1.19.4 - 1.21.4 v1.4.zip";
+            "hash" = "sha512-+MKBdmNQ7/i3srRKBgMqcf5hhp7cJUIgGhf3rHi7gVvzsbfUTE4Ue7hvYpIO3sFRFAc9V/LO/m5Gi57wHJJdMQ==";
+        };
+        _L4JF904I = {
+            "id" = "L4JF904I";
+            "file" = "fullbright-multiplayer-1.4.jar";
+            "hash" = "sha512-bX3SGNWPHxRxmXCU4s5+6MWxBFr8tFYbiaeaRsrO04TabOptAJFmeU7HY86k/NTpYR7FPRdDiChU8tGxA0Q9vQ==";
+        };
+    in {
+        "BwOs5Aep" = _BwOs5Aep;
+        "eWJ8ttxA" = _eWJ8ttxA;
+        "xd2QHFdL" = _xd2QHFdL;
+        "NvGQFVNW" = _NvGQFVNW;
+        "JxhU8KwB" = _JxhU8KwB;
+        "ny8c9Q4T" = _ny8c9Q4T;
+        "d3K0yhyR" = _d3K0yhyR;
+        "CkO3taMT" = _CkO3taMT;
+        "O7uRdp3t" = _O7uRdp3t;
+        "L4JF904I" = _L4JF904I;
+        "datapack-1.19.4" = _O7uRdp3t;
+        "datapack-1.20" = _O7uRdp3t;
+        "datapack-1.20.1" = _O7uRdp3t;
+        "datapack-1.20.2" = _O7uRdp3t;
+        "datapack-1.20.3" = _O7uRdp3t;
+        "datapack-1.20.4" = _O7uRdp3t;
+        "datapack-1.20.5" = _O7uRdp3t;
+        "datapack-1.20.6" = _O7uRdp3t;
+        "datapack-1.21" = _O7uRdp3t;
+        "datapack-1.21.1" = _O7uRdp3t;
+        "datapack-1.21.2" = _O7uRdp3t;
+        "datapack-1.21.3" = _O7uRdp3t;
+        "datapack-1.21.4" = _O7uRdp3t;
+        "datapack-1.21.5" = _O7uRdp3t;
+        "datapack-1.21.6" = _O7uRdp3t;
+        "datapack-1.21.7" = _O7uRdp3t;
+        "datapack-1.21.8" = _O7uRdp3t;
+        "datapack-1.21.9" = _O7uRdp3t;
+        "datapack-1.21.10" = _O7uRdp3t;
+        "datapack-1.21.11" = _O7uRdp3t;
+        "datapack-26.1" = _O7uRdp3t;
+        "datapack-26.1.1" = _O7uRdp3t;
+        "datapack-26.1.2" = _O7uRdp3t;
+        "datapack-26.2" = _O7uRdp3t;
+        "fabric-1.19.4" = _L4JF904I;
+        "fabric-1.20" = _L4JF904I;
+        "fabric-1.20.1" = _L4JF904I;
+        "fabric-1.20.2" = _L4JF904I;
+        "fabric-1.20.3" = _L4JF904I;
+        "fabric-1.20.4" = _L4JF904I;
+        "fabric-1.20.5" = _L4JF904I;
+        "fabric-1.20.6" = _L4JF904I;
+        "fabric-1.21" = _L4JF904I;
+        "fabric-1.21.1" = _L4JF904I;
+        "fabric-1.21.2" = _L4JF904I;
+        "fabric-1.21.3" = _L4JF904I;
+        "fabric-1.21.4" = _L4JF904I;
+        "fabric-1.21.5" = _L4JF904I;
+        "fabric-1.21.6" = _L4JF904I;
+        "fabric-1.21.7" = _L4JF904I;
+        "fabric-1.21.8" = _L4JF904I;
+        "fabric-1.21.9" = _L4JF904I;
+        "fabric-1.21.10" = _L4JF904I;
+        "fabric-1.21.11" = _L4JF904I;
+        "fabric-26.1" = _L4JF904I;
+        "fabric-26.1.1" = _L4JF904I;
+        "fabric-26.1.2" = _L4JF904I;
+        "fabric-26.2" = _L4JF904I;
+        "forge-1.19.4" = _L4JF904I;
+        "forge-1.20" = _L4JF904I;
+        "forge-1.20.1" = _L4JF904I;
+        "forge-1.20.2" = _L4JF904I;
+        "forge-1.20.3" = _L4JF904I;
+        "forge-1.20.4" = _L4JF904I;
+        "forge-1.20.5" = _L4JF904I;
+        "forge-1.20.6" = _L4JF904I;
+        "forge-1.21" = _L4JF904I;
+        "forge-1.21.1" = _L4JF904I;
+        "forge-1.21.2" = _L4JF904I;
+        "forge-1.21.3" = _L4JF904I;
+        "forge-1.21.4" = _L4JF904I;
+        "forge-1.21.5" = _L4JF904I;
+        "forge-1.21.6" = _L4JF904I;
+        "forge-1.21.7" = _L4JF904I;
+        "forge-1.21.8" = _L4JF904I;
+        "forge-1.21.9" = _L4JF904I;
+        "forge-1.21.10" = _L4JF904I;
+        "forge-1.21.11" = _L4JF904I;
+        "forge-26.1" = _L4JF904I;
+        "forge-26.1.1" = _L4JF904I;
+        "forge-26.1.2" = _L4JF904I;
+        "forge-26.2" = _L4JF904I;
+        "neoforge-1.19.4" = _L4JF904I;
+        "neoforge-1.20" = _L4JF904I;
+        "neoforge-1.20.1" = _L4JF904I;
+        "neoforge-1.20.2" = _L4JF904I;
+        "neoforge-1.20.3" = _L4JF904I;
+        "neoforge-1.20.4" = _L4JF904I;
+        "neoforge-1.20.5" = _L4JF904I;
+        "neoforge-1.20.6" = _L4JF904I;
+        "neoforge-1.21" = _L4JF904I;
+        "neoforge-1.21.1" = _L4JF904I;
+        "neoforge-1.21.2" = _L4JF904I;
+        "neoforge-1.21.3" = _L4JF904I;
+        "neoforge-1.21.4" = _L4JF904I;
+        "neoforge-1.21.5" = _L4JF904I;
+        "neoforge-1.21.6" = _L4JF904I;
+        "neoforge-1.21.7" = _L4JF904I;
+        "neoforge-1.21.8" = _L4JF904I;
+        "neoforge-1.21.9" = _L4JF904I;
+        "neoforge-1.21.10" = _L4JF904I;
+        "neoforge-1.21.11" = _L4JF904I;
+        "neoforge-26.1" = _L4JF904I;
+        "neoforge-26.1.1" = _L4JF904I;
+        "neoforge-26.1.2" = _L4JF904I;
+        "neoforge-26.2" = _L4JF904I;
+        "quilt-1.19.4" = _L4JF904I;
+        "quilt-1.20" = _L4JF904I;
+        "quilt-1.20.1" = _L4JF904I;
+        "quilt-1.20.2" = _L4JF904I;
+        "quilt-1.20.3" = _L4JF904I;
+        "quilt-1.20.4" = _L4JF904I;
+        "quilt-1.20.5" = _L4JF904I;
+        "quilt-1.20.6" = _L4JF904I;
+        "quilt-1.21" = _L4JF904I;
+        "quilt-1.21.1" = _L4JF904I;
+        "quilt-1.21.2" = _L4JF904I;
+        "quilt-1.21.3" = _L4JF904I;
+        "quilt-1.21.4" = _L4JF904I;
+        "quilt-1.21.5" = _L4JF904I;
+        "quilt-1.21.6" = _L4JF904I;
+        "quilt-1.21.7" = _L4JF904I;
+        "quilt-1.21.8" = _L4JF904I;
+        "quilt-1.21.9" = _L4JF904I;
+        "quilt-1.21.10" = _L4JF904I;
+        "quilt-1.21.11" = _L4JF904I;
+        "quilt-26.1" = _L4JF904I;
+        "quilt-26.1.1" = _L4JF904I;
+        "quilt-26.1.2" = _L4JF904I;
+        "quilt-26.2" = _L4JF904I;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "fullbright-multiplayer";
+            id = "fmEdAGPf";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="L4JF904I";}

@@ -1,0 +1,231 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _RA1lzLCf = {
+            "id" = "RA1lzLCf";
+            "file" = "Xshards-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-wqvaL11f+IYpmhYrSFaCaWw1yrL0BrcJCVSX5w0IXlVeq8Cfr17CeW/fZZNTDjFF4M2wcvvPczm+Ziy1/t+ptw==";
+        };
+        _LdioORAj = {
+            "id" = "LdioORAj";
+            "file" = "Xshards-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-u5P4UB0b2yPCkvT0iT0Zm+ytWJGZydw8ygPQI2s4t9H2rJvh0Wd+Hy/EeHgsXgHmdK1brL1dlnW4wfu26sEDvA==";
+        };
+        _ub3wo4P7 = {
+            "id" = "ub3wo4P7";
+            "file" = "Xshards-1.1-SNAPSHOT.jar";
+            "hash" = "sha512-QLashGmKzIj+p4xsBK4GHoQtHE5KTqwy6WAbG8zNM7qLl4sS4ncQDSMQrrmxogh/2uEuEf2q1f7d4t+INfP+4g==";
+        };
+        _pgshQRUJ = {
+            "id" = "pgshQRUJ";
+            "file" = "Xshards-1.2-SNAPSHOT.jar";
+            "hash" = "sha512-jKA3pmNQiiye1SpG/MB/oCC/sVMgkUNnw2maoLfDtcCeGZcc4e3CZfG7NAvyBoJSppsbzRkCXLROKdqeiY1Khw==";
+        };
+        _D4c5sPcC = {
+            "id" = "D4c5sPcC";
+            "file" = "Xshards-1.2.1-SNAPSHOT.jar";
+            "hash" = "sha512-chz1Lmhz5scEMtowMaY4xMsvOQK8/bhD/Z+TrMqRhTzxU37yn8Ggm4JxiL4M0Pbajz34Cu8oTj8zoHLhLzjTaw==";
+        };
+        _U5hD6qb8 = {
+            "id" = "U5hD6qb8";
+            "file" = "Xshards-1.2.2-SNAPSHOT.jar";
+            "hash" = "sha512-mVWwkfUAigFqCY6mZMuu4QMzfxgAxFWBLHeAk1R5srUvz1nbRA22w4sd7EaJfYHL/IWwuJQAx/lVCFS2ij5Esg==";
+        };
+        _DjNLeMEr = {
+            "id" = "DjNLeMEr";
+            "file" = "Xshards-1.2.3.jar";
+            "hash" = "sha512-Xhg/vkB+4n4zM/CHteuicy6DsduqCzZAICRJE5BzYLtb6jpeTubgZjbJch+y/Ab9VTqzuh48zbfsLL48hnhssQ==";
+        };
+        _6KE7i1P0 = {
+            "id" = "6KE7i1P0";
+            "file" = "Xshards-1.2.4.jar";
+            "hash" = "sha512-PSAZ2nCXSXuTnK7u7hmwPm57QAsfYkl5BIAioplJNKZdnKYMJLe/8zOZfWbexjKWWakl8Av2iCYw7iDJsTq0Jw==";
+        };
+        _eE3HkpYW = {
+            "id" = "eE3HkpYW";
+            "file" = "Xshards-1.2.5.jar";
+            "hash" = "sha512-b9OK2csjWcNVwl5x3l6CLyGxir/QyUjkTE/YzgexnwunvLNZfInO1v9LTtIw5mWfhNt4RR6UtqZPQawjloz+Ww==";
+        };
+        _mVmfRdUQ = {
+            "id" = "mVmfRdUQ";
+            "file" = "Xshards-1.2.6.jar";
+            "hash" = "sha512-kVmZERswpN6XALeYeco94N2SI06xxtQgdAFpP5GUOH4DV5ORoqkh45FyBrp4rUXW9fuUP3Hc+uxK76zmlAthvA==";
+        };
+        _jNLilOgs = {
+            "id" = "jNLilOgs";
+            "file" = "Xshards-1.2.7.jar";
+            "hash" = "sha512-aA15LkogINJRrRRchmNXxxwDg+SKrkJSvANV/5RF8CGbMG0Cowb1VXcNaYhZjI5MVtdW3iD8p+zv7RBqGoqlVQ==";
+        };
+        _pDy6aDbX = {
+            "id" = "pDy6aDbX";
+            "file" = "Xshards-1.2.8.jar";
+            "hash" = "sha512-znB0Npy0vSwHTdxN8xflFOIMQDVVwEi62AbOrjkPjVwJYdNaO6MmEyYiNKIymI3rONFjf0h38sJT7KYh129dSw==";
+        };
+        _B52tHXXI = {
+            "id" = "B52tHXXI";
+            "file" = "Xshards-1.2.9.jar";
+            "hash" = "sha512-4zBFMjjGWLhDnhvyxzvcmD2Y5e2WnvJQPj/eEoHW08cwRI0yuCol+IFnEvSL5nBIX6ok3TOe4mWxciDTiHB5EA==";
+        };
+    in {
+        "RA1lzLCf" = _RA1lzLCf;
+        "LdioORAj" = _LdioORAj;
+        "ub3wo4P7" = _ub3wo4P7;
+        "pgshQRUJ" = _pgshQRUJ;
+        "D4c5sPcC" = _D4c5sPcC;
+        "U5hD6qb8" = _U5hD6qb8;
+        "DjNLeMEr" = _DjNLeMEr;
+        "6KE7i1P0" = _6KE7i1P0;
+        "eE3HkpYW" = _eE3HkpYW;
+        "mVmfRdUQ" = _mVmfRdUQ;
+        "jNLilOgs" = _jNLilOgs;
+        "pDy6aDbX" = _pDy6aDbX;
+        "B52tHXXI" = _B52tHXXI;
+        "bukkit-1.21.1" = _B52tHXXI;
+        "bukkit-1.17" = _B52tHXXI;
+        "bukkit-1.17.1" = _B52tHXXI;
+        "bukkit-1.18" = _B52tHXXI;
+        "bukkit-1.18.1" = _B52tHXXI;
+        "bukkit-1.18.2" = _B52tHXXI;
+        "bukkit-1.19" = _B52tHXXI;
+        "bukkit-1.19.1" = _B52tHXXI;
+        "bukkit-1.19.2" = _B52tHXXI;
+        "bukkit-1.19.3" = _B52tHXXI;
+        "bukkit-1.19.4" = _B52tHXXI;
+        "bukkit-1.20" = _B52tHXXI;
+        "bukkit-1.20.1" = _B52tHXXI;
+        "bukkit-1.20.2" = _B52tHXXI;
+        "bukkit-1.20.3" = _B52tHXXI;
+        "bukkit-1.20.4" = _B52tHXXI;
+        "bukkit-1.20.5" = _B52tHXXI;
+        "bukkit-1.20.6" = _B52tHXXI;
+        "bukkit-1.21" = _B52tHXXI;
+        "bukkit-1.21.2" = _B52tHXXI;
+        "bukkit-1.21.3" = _B52tHXXI;
+        "bukkit-1.21.4" = _B52tHXXI;
+        "bukkit-1.21.5" = _B52tHXXI;
+        "bukkit-1.21.6" = _B52tHXXI;
+        "bukkit-1.21.7" = _B52tHXXI;
+        "bukkit-1.21.8" = _B52tHXXI;
+        "bukkit-1.21.9" = _B52tHXXI;
+        "bukkit-1.21.10" = _B52tHXXI;
+        "bukkit-1.21.11" = _B52tHXXI;
+        "bukkit-26.1" = _B52tHXXI;
+        "bukkit-26.1.1" = _B52tHXXI;
+        "bukkit-26.1.2" = _B52tHXXI;
+        "paper-1.21.1" = _B52tHXXI;
+        "paper-1.17" = _B52tHXXI;
+        "paper-1.17.1" = _B52tHXXI;
+        "paper-1.18" = _B52tHXXI;
+        "paper-1.18.1" = _B52tHXXI;
+        "paper-1.18.2" = _B52tHXXI;
+        "paper-1.19" = _B52tHXXI;
+        "paper-1.19.1" = _B52tHXXI;
+        "paper-1.19.2" = _B52tHXXI;
+        "paper-1.19.3" = _B52tHXXI;
+        "paper-1.19.4" = _B52tHXXI;
+        "paper-1.20" = _B52tHXXI;
+        "paper-1.20.1" = _B52tHXXI;
+        "paper-1.20.2" = _B52tHXXI;
+        "paper-1.20.3" = _B52tHXXI;
+        "paper-1.20.4" = _B52tHXXI;
+        "paper-1.20.5" = _B52tHXXI;
+        "paper-1.20.6" = _B52tHXXI;
+        "paper-1.21" = _B52tHXXI;
+        "paper-1.21.2" = _B52tHXXI;
+        "paper-1.21.3" = _B52tHXXI;
+        "paper-1.21.4" = _B52tHXXI;
+        "paper-1.21.5" = _B52tHXXI;
+        "paper-1.21.6" = _B52tHXXI;
+        "paper-1.21.7" = _B52tHXXI;
+        "paper-1.21.8" = _B52tHXXI;
+        "paper-1.21.9" = _B52tHXXI;
+        "paper-1.21.10" = _B52tHXXI;
+        "paper-1.21.11" = _B52tHXXI;
+        "paper-26.1" = _B52tHXXI;
+        "paper-26.1.1" = _B52tHXXI;
+        "paper-26.1.2" = _B52tHXXI;
+        "spigot-1.21.1" = _B52tHXXI;
+        "spigot-1.17" = _B52tHXXI;
+        "spigot-1.17.1" = _B52tHXXI;
+        "spigot-1.18" = _B52tHXXI;
+        "spigot-1.18.1" = _B52tHXXI;
+        "spigot-1.18.2" = _B52tHXXI;
+        "spigot-1.19" = _B52tHXXI;
+        "spigot-1.19.1" = _B52tHXXI;
+        "spigot-1.19.2" = _B52tHXXI;
+        "spigot-1.19.3" = _B52tHXXI;
+        "spigot-1.19.4" = _B52tHXXI;
+        "spigot-1.20" = _B52tHXXI;
+        "spigot-1.20.1" = _B52tHXXI;
+        "spigot-1.20.2" = _B52tHXXI;
+        "spigot-1.20.3" = _B52tHXXI;
+        "spigot-1.20.4" = _B52tHXXI;
+        "spigot-1.20.5" = _B52tHXXI;
+        "spigot-1.20.6" = _B52tHXXI;
+        "spigot-1.21" = _B52tHXXI;
+        "spigot-1.21.2" = _B52tHXXI;
+        "spigot-1.21.3" = _B52tHXXI;
+        "spigot-1.21.4" = _B52tHXXI;
+        "spigot-1.21.5" = _B52tHXXI;
+        "spigot-1.21.6" = _B52tHXXI;
+        "spigot-1.21.7" = _B52tHXXI;
+        "spigot-1.21.8" = _B52tHXXI;
+        "spigot-1.21.9" = _B52tHXXI;
+        "spigot-1.21.10" = _B52tHXXI;
+        "spigot-1.21.11" = _B52tHXXI;
+        "spigot-26.1" = _B52tHXXI;
+        "spigot-26.1.1" = _B52tHXXI;
+        "spigot-26.1.2" = _B52tHXXI;
+        "purpur-1.17" = _B52tHXXI;
+        "purpur-1.17.1" = _B52tHXXI;
+        "purpur-1.18" = _B52tHXXI;
+        "purpur-1.18.1" = _B52tHXXI;
+        "purpur-1.18.2" = _B52tHXXI;
+        "purpur-1.19" = _B52tHXXI;
+        "purpur-1.19.1" = _B52tHXXI;
+        "purpur-1.19.2" = _B52tHXXI;
+        "purpur-1.19.3" = _B52tHXXI;
+        "purpur-1.19.4" = _B52tHXXI;
+        "purpur-1.20" = _B52tHXXI;
+        "purpur-1.20.1" = _B52tHXXI;
+        "purpur-1.20.2" = _B52tHXXI;
+        "purpur-1.20.3" = _B52tHXXI;
+        "purpur-1.20.4" = _B52tHXXI;
+        "purpur-1.20.5" = _B52tHXXI;
+        "purpur-1.20.6" = _B52tHXXI;
+        "purpur-1.21" = _B52tHXXI;
+        "purpur-1.21.1" = _B52tHXXI;
+        "purpur-1.21.2" = _B52tHXXI;
+        "purpur-1.21.3" = _B52tHXXI;
+        "purpur-1.21.4" = _B52tHXXI;
+        "purpur-1.21.5" = _B52tHXXI;
+        "purpur-1.21.6" = _B52tHXXI;
+        "purpur-1.21.7" = _B52tHXXI;
+        "purpur-1.21.8" = _B52tHXXI;
+        "purpur-1.21.9" = _B52tHXXI;
+        "purpur-1.21.10" = _B52tHXXI;
+        "purpur-1.21.11" = _B52tHXXI;
+        "purpur-26.1" = _B52tHXXI;
+        "purpur-26.1.1" = _B52tHXXI;
+        "purpur-26.1.2" = _B52tHXXI;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "xshards";
+            id = "dj6mn5Xl";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="B52tHXXI";}

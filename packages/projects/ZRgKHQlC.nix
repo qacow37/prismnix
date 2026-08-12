@@ -1,0 +1,133 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _1W0RQwAl = {
+            "id" = "1W0RQwAl";
+            "file" = "tpa-1.0.jar";
+            "hash" = "sha512-YllOEg5t8L08z9D8ldqpP2O1Lqu+22AVJqip3luL+vMmMc7VZKyCLglhTmqYx6yKz+3PWD3jwuxOQJSPNe3q/w==";
+        };
+        _JdhjeASw = {
+            "id" = "JdhjeASw";
+            "file" = "Tpa-2.0.jar";
+            "hash" = "sha512-raQLXKfXtISEpqAeKf79vRuQIiAlg/YxpbtGUH9IOD+hvccW5MEymCAYfAoAPr+pEvatOhwLbpgJbJaqK6/X8Q==";
+        };
+        _42dGjd7A = {
+            "id" = "42dGjd7A";
+            "file" = "TPA-3.0.jar";
+            "hash" = "sha512-HZZIAas82pCfXHnV9bHEgUTUW7Cny7MSaasHkOI9ZFKzEOku9YCO0kNe6d/OR+ayjiWneRhN7J1+eb31xBMN2Q==";
+        };
+    in {
+        "1W0RQwAl" = _1W0RQwAl;
+        "JdhjeASw" = _JdhjeASw;
+        "42dGjd7A" = _42dGjd7A;
+        "bukkit-1.19" = _JdhjeASw;
+        "bukkit-1.19.1" = _JdhjeASw;
+        "bukkit-1.19.2" = _JdhjeASw;
+        "bukkit-1.19.3" = _JdhjeASw;
+        "bukkit-1.19.4" = _JdhjeASw;
+        "bukkit-1.20" = _JdhjeASw;
+        "bukkit-1.20.1" = _JdhjeASw;
+        "bukkit-1.20.2" = _JdhjeASw;
+        "bukkit-1.20.3" = _JdhjeASw;
+        "bukkit-1.20.4" = _JdhjeASw;
+        "bukkit-1.20.5" = _JdhjeASw;
+        "bukkit-1.20.6" = _JdhjeASw;
+        "bukkit-1.21" = _JdhjeASw;
+        "bukkit-1.21.1" = _JdhjeASw;
+        "bukkit-1.21.2" = _JdhjeASw;
+        "bukkit-1.21.3" = _JdhjeASw;
+        "bukkit-1.21.4" = _JdhjeASw;
+        "bukkit-1.21.5" = _JdhjeASw;
+        "bukkit-1.21.6" = _JdhjeASw;
+        "bukkit-1.21.7" = _JdhjeASw;
+        "bukkit-1.21.8" = _JdhjeASw;
+        "bukkit-1.21.9" = _JdhjeASw;
+        "bukkit-1.21.10" = _JdhjeASw;
+        "bukkit-1.21.11" = _JdhjeASw;
+        "bukkit-1.18" = _JdhjeASw;
+        "bukkit-1.18.1" = _JdhjeASw;
+        "bukkit-1.18.2" = _JdhjeASw;
+        "bukkit-26.1" = _42dGjd7A;
+        "bukkit-26.1.1" = _42dGjd7A;
+        "bukkit-26.1.2" = _42dGjd7A;
+        "paper-1.19" = _JdhjeASw;
+        "paper-1.19.1" = _JdhjeASw;
+        "paper-1.19.2" = _JdhjeASw;
+        "paper-1.19.3" = _JdhjeASw;
+        "paper-1.19.4" = _JdhjeASw;
+        "paper-1.20" = _JdhjeASw;
+        "paper-1.20.1" = _JdhjeASw;
+        "paper-1.20.2" = _JdhjeASw;
+        "paper-1.20.3" = _JdhjeASw;
+        "paper-1.20.4" = _JdhjeASw;
+        "paper-1.20.5" = _JdhjeASw;
+        "paper-1.20.6" = _JdhjeASw;
+        "paper-1.21" = _JdhjeASw;
+        "paper-1.21.1" = _JdhjeASw;
+        "paper-1.21.2" = _JdhjeASw;
+        "paper-1.21.3" = _JdhjeASw;
+        "paper-1.21.4" = _JdhjeASw;
+        "paper-1.21.5" = _JdhjeASw;
+        "paper-1.21.6" = _JdhjeASw;
+        "paper-1.21.7" = _JdhjeASw;
+        "paper-1.21.8" = _JdhjeASw;
+        "paper-1.21.9" = _JdhjeASw;
+        "paper-1.21.10" = _JdhjeASw;
+        "paper-1.21.11" = _JdhjeASw;
+        "paper-1.18" = _JdhjeASw;
+        "paper-1.18.1" = _JdhjeASw;
+        "paper-1.18.2" = _JdhjeASw;
+        "paper-26.1" = _42dGjd7A;
+        "paper-26.1.1" = _42dGjd7A;
+        "paper-26.1.2" = _42dGjd7A;
+        "spigot-1.19" = _JdhjeASw;
+        "spigot-1.19.1" = _JdhjeASw;
+        "spigot-1.19.2" = _JdhjeASw;
+        "spigot-1.19.3" = _JdhjeASw;
+        "spigot-1.19.4" = _JdhjeASw;
+        "spigot-1.20" = _JdhjeASw;
+        "spigot-1.20.1" = _JdhjeASw;
+        "spigot-1.20.2" = _JdhjeASw;
+        "spigot-1.20.3" = _JdhjeASw;
+        "spigot-1.20.4" = _JdhjeASw;
+        "spigot-1.20.5" = _JdhjeASw;
+        "spigot-1.20.6" = _JdhjeASw;
+        "spigot-1.21" = _JdhjeASw;
+        "spigot-1.21.1" = _JdhjeASw;
+        "spigot-1.21.2" = _JdhjeASw;
+        "spigot-1.21.3" = _JdhjeASw;
+        "spigot-1.21.4" = _JdhjeASw;
+        "spigot-1.21.5" = _JdhjeASw;
+        "spigot-1.21.6" = _JdhjeASw;
+        "spigot-1.21.7" = _JdhjeASw;
+        "spigot-1.21.8" = _JdhjeASw;
+        "spigot-1.21.9" = _JdhjeASw;
+        "spigot-1.21.10" = _JdhjeASw;
+        "spigot-1.21.11" = _JdhjeASw;
+        "spigot-1.18" = _JdhjeASw;
+        "spigot-1.18.1" = _JdhjeASw;
+        "spigot-1.18.2" = _JdhjeASw;
+        "spigot-26.1" = _42dGjd7A;
+        "spigot-26.1.1" = _42dGjd7A;
+        "spigot-26.1.2" = _42dGjd7A;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "tpaa";
+            id = "ZRgKHQlC";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="42dGjd7A";}

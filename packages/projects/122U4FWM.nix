@@ -1,0 +1,188 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _pdQSRayi = {
+            "id" = "pdQSRayi";
+            "file" = "ImagePreviewer-1.0.jar";
+            "hash" = "sha512-2lL1DFCQPhqZ59/geDzT+OwGrsDH9V514r3g3p/SRBa40gqMuVa2zYnUippBwywgQ0ocbDM5cN0FyARkrl6TUw==";
+        };
+        _HxD5HIJ6 = {
+            "id" = "HxD5HIJ6";
+            "file" = "ImagePreviewer-1.1.jar";
+            "hash" = "sha512-MLQVnL0Ti7z96PRO1/hWP9Cx0e/4F4MVAVp91/wNeQ41dq6ZFfZLspR4ah3Nj9yrp7yJitjyfDHP84timAC1pw==";
+        };
+        _Cfx0nEnR = {
+            "id" = "Cfx0nEnR";
+            "file" = "ImagePreviewer-1.2.jar";
+            "hash" = "sha512-1qcLYV+mL3nqUBpwsVNR0CRXes50iCgdPVVeDpJtwr1ICJHRsx6btvrfE+BJoRSIQrH05PzUpT9ETdKJtcy0oA==";
+        };
+        _aCDV8Pk8 = {
+            "id" = "aCDV8Pk8";
+            "file" = "ImagePreviewer-1.2.1.jar";
+            "hash" = "sha512-oStVfxjrAeONAzopzs+SRaIbsDhXJC+msW7NbmfQR8+iW5M4i94Njurj4FzcmiW3CSmGZdXInHpUpRtwpYceDQ==";
+        };
+        _hbxBQ2Ft = {
+            "id" = "hbxBQ2Ft";
+            "file" = "ImagePreviewer-1.2.2.jar";
+            "hash" = "sha512-jWVvHhn7guQ1uY6N0SNpQvA+JF8iB/qJzuQrmJ4fZAq1RIw57SfWUgTXHBgrdvW3eB+pxt3vMDOL1SdgwFeEpA==";
+        };
+        _IVaQ9tto = {
+            "id" = "IVaQ9tto";
+            "file" = "ImagePreviewer-2.0.0.jar";
+            "hash" = "sha512-eQrE1Rpe9YMWnsZxM/lFo2Uqxbf+qvHYJn6is3zv7+5HTrmiEQP2qrna4msPF8HLi78uR/jEYeOg1i+nZqMjrg==";
+        };
+        _WydmSETx = {
+            "id" = "WydmSETx";
+            "file" = "ImagePreviewer-2.0.1.jar";
+            "hash" = "sha512-1HXC1MkOwK1jR+It03ohToci3qGDObVK9oY8U+7x6EmpFlsakyi1p9XqsjLYJANeHxY4tbhEwXtO0ou23eq1cQ==";
+        };
+        _qaqzIFND = {
+            "id" = "qaqzIFND";
+            "file" = "ImagePreviewer-2.1.0.jar";
+            "hash" = "sha512-FTNGIxtJ6vGr/JOFtRhYFtTwTUe787MpchqG5i49DWtZ8xaRJQZ3jVe7ftYo/hjYCIa4F4LFAskFbpdsbecrww==";
+        };
+    in {
+        "pdQSRayi" = _pdQSRayi;
+        "HxD5HIJ6" = _HxD5HIJ6;
+        "Cfx0nEnR" = _Cfx0nEnR;
+        "aCDV8Pk8" = _aCDV8Pk8;
+        "hbxBQ2Ft" = _hbxBQ2Ft;
+        "IVaQ9tto" = _IVaQ9tto;
+        "WydmSETx" = _WydmSETx;
+        "qaqzIFND" = _qaqzIFND;
+        "folia-1.20" = _qaqzIFND;
+        "folia-1.20.1" = _qaqzIFND;
+        "folia-1.20.2" = _qaqzIFND;
+        "folia-1.20.3" = _qaqzIFND;
+        "folia-1.20.4" = _qaqzIFND;
+        "folia-1.20.5" = _qaqzIFND;
+        "folia-1.20.6" = _qaqzIFND;
+        "folia-1.21" = _qaqzIFND;
+        "folia-1.21.1" = _qaqzIFND;
+        "folia-1.21.2" = _qaqzIFND;
+        "folia-1.21.3" = _qaqzIFND;
+        "folia-1.21.4" = _qaqzIFND;
+        "folia-1.21.5" = _qaqzIFND;
+        "folia-1.21.6" = _qaqzIFND;
+        "folia-1.21.7" = _qaqzIFND;
+        "folia-1.21.8" = _qaqzIFND;
+        "folia-1.21.9" = _qaqzIFND;
+        "folia-1.21.10" = _qaqzIFND;
+        "folia-1.21.11" = _qaqzIFND;
+        "folia-26.1" = _qaqzIFND;
+        "folia-26.1.1" = _qaqzIFND;
+        "folia-26.1.2" = _qaqzIFND;
+        "folia-26.2" = _qaqzIFND;
+        "paper-1.20" = _qaqzIFND;
+        "paper-1.20.1" = _qaqzIFND;
+        "paper-1.20.2" = _qaqzIFND;
+        "paper-1.20.3" = _qaqzIFND;
+        "paper-1.20.4" = _qaqzIFND;
+        "paper-1.20.5" = _qaqzIFND;
+        "paper-1.20.6" = _qaqzIFND;
+        "paper-1.21" = _qaqzIFND;
+        "paper-1.21.1" = _qaqzIFND;
+        "paper-1.21.2" = _qaqzIFND;
+        "paper-1.21.3" = _qaqzIFND;
+        "paper-1.21.4" = _qaqzIFND;
+        "paper-1.21.5" = _qaqzIFND;
+        "paper-1.21.6" = _qaqzIFND;
+        "paper-1.21.7" = _qaqzIFND;
+        "paper-1.21.8" = _qaqzIFND;
+        "paper-1.21.9" = _qaqzIFND;
+        "paper-1.21.10" = _qaqzIFND;
+        "paper-1.21.11" = _qaqzIFND;
+        "paper-26.1" = _qaqzIFND;
+        "paper-26.1.1" = _qaqzIFND;
+        "paper-26.1.2" = _qaqzIFND;
+        "paper-26.2" = _qaqzIFND;
+        "purpur-1.20" = _qaqzIFND;
+        "purpur-1.20.1" = _qaqzIFND;
+        "purpur-1.20.2" = _qaqzIFND;
+        "purpur-1.20.3" = _qaqzIFND;
+        "purpur-1.20.4" = _qaqzIFND;
+        "purpur-1.20.5" = _qaqzIFND;
+        "purpur-1.20.6" = _qaqzIFND;
+        "purpur-1.21" = _qaqzIFND;
+        "purpur-1.21.1" = _qaqzIFND;
+        "purpur-1.21.2" = _qaqzIFND;
+        "purpur-1.21.3" = _qaqzIFND;
+        "purpur-1.21.4" = _qaqzIFND;
+        "purpur-1.21.5" = _qaqzIFND;
+        "purpur-1.21.6" = _qaqzIFND;
+        "purpur-1.21.7" = _qaqzIFND;
+        "purpur-1.21.8" = _qaqzIFND;
+        "purpur-1.21.9" = _qaqzIFND;
+        "purpur-1.21.10" = _qaqzIFND;
+        "purpur-1.21.11" = _qaqzIFND;
+        "purpur-26.1" = _qaqzIFND;
+        "purpur-26.1.1" = _qaqzIFND;
+        "purpur-26.1.2" = _qaqzIFND;
+        "purpur-26.2" = _qaqzIFND;
+        "bukkit-1.20" = _qaqzIFND;
+        "bukkit-1.20.1" = _qaqzIFND;
+        "bukkit-1.20.2" = _qaqzIFND;
+        "bukkit-1.20.3" = _qaqzIFND;
+        "bukkit-1.20.4" = _qaqzIFND;
+        "bukkit-1.20.5" = _qaqzIFND;
+        "bukkit-1.20.6" = _qaqzIFND;
+        "bukkit-1.21" = _qaqzIFND;
+        "bukkit-1.21.1" = _qaqzIFND;
+        "bukkit-1.21.2" = _qaqzIFND;
+        "bukkit-1.21.3" = _qaqzIFND;
+        "bukkit-1.21.4" = _qaqzIFND;
+        "bukkit-1.21.5" = _qaqzIFND;
+        "bukkit-1.21.6" = _qaqzIFND;
+        "bukkit-1.21.7" = _qaqzIFND;
+        "bukkit-1.21.8" = _qaqzIFND;
+        "bukkit-1.21.9" = _qaqzIFND;
+        "bukkit-1.21.10" = _qaqzIFND;
+        "bukkit-1.21.11" = _qaqzIFND;
+        "bukkit-26.1" = _qaqzIFND;
+        "bukkit-26.1.1" = _qaqzIFND;
+        "bukkit-26.1.2" = _qaqzIFND;
+        "bukkit-26.2" = _qaqzIFND;
+        "spigot-1.20" = _qaqzIFND;
+        "spigot-1.20.1" = _qaqzIFND;
+        "spigot-1.20.2" = _qaqzIFND;
+        "spigot-1.20.3" = _qaqzIFND;
+        "spigot-1.20.4" = _qaqzIFND;
+        "spigot-1.20.5" = _qaqzIFND;
+        "spigot-1.20.6" = _qaqzIFND;
+        "spigot-1.21" = _qaqzIFND;
+        "spigot-1.21.1" = _qaqzIFND;
+        "spigot-1.21.2" = _qaqzIFND;
+        "spigot-1.21.3" = _qaqzIFND;
+        "spigot-1.21.4" = _qaqzIFND;
+        "spigot-1.21.5" = _qaqzIFND;
+        "spigot-1.21.6" = _qaqzIFND;
+        "spigot-1.21.7" = _qaqzIFND;
+        "spigot-1.21.8" = _qaqzIFND;
+        "spigot-1.21.9" = _qaqzIFND;
+        "spigot-1.21.10" = _qaqzIFND;
+        "spigot-1.21.11" = _qaqzIFND;
+        "spigot-26.1" = _qaqzIFND;
+        "spigot-26.1.1" = _qaqzIFND;
+        "spigot-26.1.2" = _qaqzIFND;
+        "spigot-26.2" = _qaqzIFND;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "image-previewer";
+            id = "122U4FWM";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="qaqzIFND";}

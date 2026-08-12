@@ -1,0 +1,200 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _OMNPjIV6 = {
+            "id" = "OMNPjIV6";
+            "file" = "OBCR_1.0_MC_1.20-1.21.8.zip";
+            "hash" = "sha512-bHF1yw1axugo32OfXsJLJyT5AlMaXUljQ9HoOkexbG3V2MDCdkRYraRCP7sdeIQny3r/r9auyMnmh15w+9xPvw==";
+        };
+        _7lWeuKxP = {
+            "id" = "7lWeuKxP";
+            "file" = "old-bed-crafting-recipe-1.0.jar";
+            "hash" = "sha512-ofbfIykmWeQG82bWgFAOqAz02Wg5XHCSEVCm72UthrCiPj61dBOU3j8P7wZjEiVhOiFqrSLX3bxidGiMbCFXUQ==";
+        };
+        _dhxRNCmi = {
+            "id" = "dhxRNCmi";
+            "file" = "OBCR_1.0.1_MC_1.20-1.21.10.zip";
+            "hash" = "sha512-YL/RYpuSRrOd1Xqrp6hgp3o2GavXfc2lYJ/YxRAAQXxLdy8tlRJBUSF9lklyP9LYiE72vQijPSOkKyySbXHJcw==";
+        };
+        _7lNv8ilD = {
+            "id" = "7lNv8ilD";
+            "file" = "old-bed-crafting-recipe-1.0.1.jar";
+            "hash" = "sha512-QkRElSXOzoI36cN+J4mPzTU99OWKtQ0MG6yTbr1RB9Aa62W9JbcOjUgrGXRoEbJlyx0MvOv7HijMpv7E3YN++g==";
+        };
+        _KdUCWNiR = {
+            "id" = "KdUCWNiR";
+            "file" = "OBCR_1.0.1_MC_1.20.x-1.21.x.zip";
+            "hash" = "sha512-hbLGTJTUgQIwxCOcaSKKFOabO+QB5dnPktFAxGpvwueH906UFN0GlwlAOUkqxoRSCHybsUEzY7w8abvn07+6sw==";
+        };
+        _obHfZNRB = {
+            "id" = "obHfZNRB";
+            "file" = "old-bed-crafting-recipe-1.0.1.jar";
+            "hash" = "sha512-e/sPtOeG1pYV09aiD7Wjbx5c5ENU9mETODg4OddS3HFv2eWmM+96mLnZLpvJ2jZ235rShbQQs8GQMCjeV5rWIA==";
+        };
+        _c0GAqcXP = {
+            "id" = "c0GAqcXP";
+            "file" = "OBCR_1.0.1_MC_26.1.x.zip";
+            "hash" = "sha512-mQDsQaT2bmfAF2Oc4NlwcsOMDc46MwhlSRGNlU3uWt4ddWVV33x5oWfntswVPCeP6H5PoCYo4zMCtMR+IxL+4g==";
+        };
+        _l1YOsWYA = {
+            "id" = "l1YOsWYA";
+            "file" = "old-bed-crafting-recipe-1.0.1.jar";
+            "hash" = "sha512-HNbzDfl4WRNNv7VnUkBQCmA2wwdk/mirD7PxgtNJOnprvLrlfHVFBcPSYzJIOQ/eatInuPepvPfrhD0o/kTcSw==";
+        };
+        _5NTsSE2n = {
+            "id" = "5NTsSE2n";
+            "file" = "OBCR_1.0.2_MC_26.1.x-26.2.zip";
+            "hash" = "sha512-RY51dzyfSGPevDqA8/nqKCD7tqfa7RkaGkrXEppb05holRQzWMA9NH7O/v3s+B70jdsEm0NHDkSftZhzkkZKCg==";
+        };
+        _ZmDFIlrY = {
+            "id" = "ZmDFIlrY";
+            "file" = "old-bed-crafting-recipe-1.0.2.jar";
+            "hash" = "sha512-CY3kDwbTbhOAhKGg9qciD3xn58kC95cWCgzadj6dXw0+8PVBxxl5gB759OULO2y0Gsr/knZLv1xDYUStMjWuEQ==";
+        };
+    in {
+        "OMNPjIV6" = _OMNPjIV6;
+        "7lWeuKxP" = _7lWeuKxP;
+        "dhxRNCmi" = _dhxRNCmi;
+        "7lNv8ilD" = _7lNv8ilD;
+        "KdUCWNiR" = _KdUCWNiR;
+        "obHfZNRB" = _obHfZNRB;
+        "c0GAqcXP" = _c0GAqcXP;
+        "l1YOsWYA" = _l1YOsWYA;
+        "5NTsSE2n" = _5NTsSE2n;
+        "ZmDFIlrY" = _ZmDFIlrY;
+        "datapack-1.20" = _KdUCWNiR;
+        "datapack-1.20.1" = _KdUCWNiR;
+        "datapack-1.20.2" = _KdUCWNiR;
+        "datapack-1.20.3" = _KdUCWNiR;
+        "datapack-1.20.4" = _KdUCWNiR;
+        "datapack-1.20.5" = _KdUCWNiR;
+        "datapack-1.20.6" = _KdUCWNiR;
+        "datapack-1.21" = _KdUCWNiR;
+        "datapack-1.21.1" = _KdUCWNiR;
+        "datapack-1.21.2" = _KdUCWNiR;
+        "datapack-1.21.3" = _KdUCWNiR;
+        "datapack-1.21.4" = _KdUCWNiR;
+        "datapack-1.21.5" = _KdUCWNiR;
+        "datapack-1.21.6" = _KdUCWNiR;
+        "datapack-1.21.7" = _KdUCWNiR;
+        "datapack-1.21.8" = _KdUCWNiR;
+        "datapack-1.21.9" = _KdUCWNiR;
+        "datapack-1.21.10" = _KdUCWNiR;
+        "datapack-1.21.11" = _KdUCWNiR;
+        "datapack-26.1" = _5NTsSE2n;
+        "datapack-26.1.1" = _5NTsSE2n;
+        "datapack-26.1.2" = _5NTsSE2n;
+        "datapack-26.2" = _5NTsSE2n;
+        "fabric-1.20" = _obHfZNRB;
+        "fabric-1.20.1" = _obHfZNRB;
+        "fabric-1.20.2" = _obHfZNRB;
+        "fabric-1.20.3" = _obHfZNRB;
+        "fabric-1.20.4" = _obHfZNRB;
+        "fabric-1.20.5" = _obHfZNRB;
+        "fabric-1.20.6" = _obHfZNRB;
+        "fabric-1.21" = _obHfZNRB;
+        "fabric-1.21.1" = _obHfZNRB;
+        "fabric-1.21.2" = _obHfZNRB;
+        "fabric-1.21.3" = _obHfZNRB;
+        "fabric-1.21.4" = _obHfZNRB;
+        "fabric-1.21.5" = _obHfZNRB;
+        "fabric-1.21.6" = _obHfZNRB;
+        "fabric-1.21.7" = _obHfZNRB;
+        "fabric-1.21.8" = _obHfZNRB;
+        "fabric-1.21.9" = _obHfZNRB;
+        "fabric-1.21.10" = _obHfZNRB;
+        "fabric-1.21.11" = _obHfZNRB;
+        "fabric-26.1" = _ZmDFIlrY;
+        "fabric-26.1.1" = _ZmDFIlrY;
+        "fabric-26.1.2" = _ZmDFIlrY;
+        "fabric-26.2" = _ZmDFIlrY;
+        "forge-1.20" = _obHfZNRB;
+        "forge-1.20.1" = _obHfZNRB;
+        "forge-1.20.2" = _obHfZNRB;
+        "forge-1.20.3" = _obHfZNRB;
+        "forge-1.20.4" = _obHfZNRB;
+        "forge-1.20.5" = _obHfZNRB;
+        "forge-1.20.6" = _obHfZNRB;
+        "forge-1.21" = _obHfZNRB;
+        "forge-1.21.1" = _obHfZNRB;
+        "forge-1.21.2" = _obHfZNRB;
+        "forge-1.21.3" = _obHfZNRB;
+        "forge-1.21.4" = _obHfZNRB;
+        "forge-1.21.5" = _obHfZNRB;
+        "forge-1.21.6" = _obHfZNRB;
+        "forge-1.21.7" = _obHfZNRB;
+        "forge-1.21.8" = _obHfZNRB;
+        "forge-1.21.9" = _obHfZNRB;
+        "forge-1.21.10" = _obHfZNRB;
+        "forge-1.21.11" = _obHfZNRB;
+        "forge-26.1" = _ZmDFIlrY;
+        "forge-26.1.1" = _ZmDFIlrY;
+        "forge-26.1.2" = _ZmDFIlrY;
+        "forge-26.2" = _ZmDFIlrY;
+        "neoforge-1.20" = _obHfZNRB;
+        "neoforge-1.20.1" = _obHfZNRB;
+        "neoforge-1.20.2" = _obHfZNRB;
+        "neoforge-1.20.3" = _obHfZNRB;
+        "neoforge-1.20.4" = _obHfZNRB;
+        "neoforge-1.20.5" = _obHfZNRB;
+        "neoforge-1.20.6" = _obHfZNRB;
+        "neoforge-1.21" = _obHfZNRB;
+        "neoforge-1.21.1" = _obHfZNRB;
+        "neoforge-1.21.2" = _obHfZNRB;
+        "neoforge-1.21.3" = _obHfZNRB;
+        "neoforge-1.21.4" = _obHfZNRB;
+        "neoforge-1.21.5" = _obHfZNRB;
+        "neoforge-1.21.6" = _obHfZNRB;
+        "neoforge-1.21.7" = _obHfZNRB;
+        "neoforge-1.21.8" = _obHfZNRB;
+        "neoforge-1.21.9" = _obHfZNRB;
+        "neoforge-1.21.10" = _obHfZNRB;
+        "neoforge-1.21.11" = _obHfZNRB;
+        "neoforge-26.1" = _ZmDFIlrY;
+        "neoforge-26.1.1" = _ZmDFIlrY;
+        "neoforge-26.1.2" = _ZmDFIlrY;
+        "neoforge-26.2" = _ZmDFIlrY;
+        "quilt-1.20" = _obHfZNRB;
+        "quilt-1.20.1" = _obHfZNRB;
+        "quilt-1.20.2" = _obHfZNRB;
+        "quilt-1.20.3" = _obHfZNRB;
+        "quilt-1.20.4" = _obHfZNRB;
+        "quilt-1.20.5" = _obHfZNRB;
+        "quilt-1.20.6" = _obHfZNRB;
+        "quilt-1.21" = _obHfZNRB;
+        "quilt-1.21.1" = _obHfZNRB;
+        "quilt-1.21.2" = _obHfZNRB;
+        "quilt-1.21.3" = _obHfZNRB;
+        "quilt-1.21.4" = _obHfZNRB;
+        "quilt-1.21.5" = _obHfZNRB;
+        "quilt-1.21.6" = _obHfZNRB;
+        "quilt-1.21.7" = _obHfZNRB;
+        "quilt-1.21.8" = _obHfZNRB;
+        "quilt-1.21.9" = _obHfZNRB;
+        "quilt-1.21.10" = _obHfZNRB;
+        "quilt-1.21.11" = _obHfZNRB;
+        "quilt-26.1" = _ZmDFIlrY;
+        "quilt-26.1.1" = _ZmDFIlrY;
+        "quilt-26.1.2" = _ZmDFIlrY;
+        "quilt-26.2" = _ZmDFIlrY;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "old-bed-crafting-recipe";
+            id = "Q31T4Gja";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                    shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                    url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
+                };
+            };
+        };
+in callPackage fn {version="ZmDFIlrY";}

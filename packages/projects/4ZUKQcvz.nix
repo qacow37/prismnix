@@ -1,0 +1,118 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _V3QYGAEj = {
+            "id" = "V3QYGAEj";
+            "file" = "Roblox sword sweep and crit sounds.zip";
+            "hash" = "sha512-HNG7MF1h0cfV7e2kBXLvoXbock5eKB6478WMbWBAPgxhZYkp5QDLS2GWpx8go2CmtJVY6Pzf9CEB3t/5ZAw7Jw==";
+        };
+    in {
+        "V3QYGAEj" = _V3QYGAEj;
+        "minecraft-1.16" = _V3QYGAEj;
+        "minecraft-1.16.1" = _V3QYGAEj;
+        "minecraft-1.16.2" = _V3QYGAEj;
+        "minecraft-1.16.3" = _V3QYGAEj;
+        "minecraft-1.16.4" = _V3QYGAEj;
+        "minecraft-1.16.5" = _V3QYGAEj;
+        "minecraft-1.17" = _V3QYGAEj;
+        "minecraft-1.17.1" = _V3QYGAEj;
+        "minecraft-1.18" = _V3QYGAEj;
+        "minecraft-1.18.1" = _V3QYGAEj;
+        "minecraft-1.18.2" = _V3QYGAEj;
+        "minecraft-1.19" = _V3QYGAEj;
+        "minecraft-1.19.1" = _V3QYGAEj;
+        "minecraft-1.19.2" = _V3QYGAEj;
+        "minecraft-22w42a" = _V3QYGAEj;
+        "minecraft-22w43a" = _V3QYGAEj;
+        "minecraft-22w44a" = _V3QYGAEj;
+        "minecraft-1.19.3" = _V3QYGAEj;
+        "minecraft-1.19.4" = _V3QYGAEj;
+        "minecraft-23w14a" = _V3QYGAEj;
+        "minecraft-23w16a" = _V3QYGAEj;
+        "minecraft-1.20" = _V3QYGAEj;
+        "minecraft-1.20.1" = _V3QYGAEj;
+        "minecraft-23w31a" = _V3QYGAEj;
+        "minecraft-23w32a" = _V3QYGAEj;
+        "minecraft-23w33a" = _V3QYGAEj;
+        "minecraft-23w35a" = _V3QYGAEj;
+        "minecraft-1.20.2-pre1" = _V3QYGAEj;
+        "minecraft-1.20.2" = _V3QYGAEj;
+        "minecraft-23w42a" = _V3QYGAEj;
+        "minecraft-23w43a" = _V3QYGAEj;
+        "minecraft-23w43b" = _V3QYGAEj;
+        "minecraft-23w44a" = _V3QYGAEj;
+        "minecraft-23w45a" = _V3QYGAEj;
+        "minecraft-23w46a" = _V3QYGAEj;
+        "minecraft-1.20.3" = _V3QYGAEj;
+        "minecraft-1.20.4" = _V3QYGAEj;
+        "minecraft-24w03a" = _V3QYGAEj;
+        "minecraft-24w03b" = _V3QYGAEj;
+        "minecraft-24w04a" = _V3QYGAEj;
+        "minecraft-24w05a" = _V3QYGAEj;
+        "minecraft-24w05b" = _V3QYGAEj;
+        "minecraft-24w06a" = _V3QYGAEj;
+        "minecraft-24w07a" = _V3QYGAEj;
+        "minecraft-24w09a" = _V3QYGAEj;
+        "minecraft-24w10a" = _V3QYGAEj;
+        "minecraft-24w11a" = _V3QYGAEj;
+        "minecraft-24w12a" = _V3QYGAEj;
+        "minecraft-24w13a" = _V3QYGAEj;
+        "minecraft-24w14potato" = _V3QYGAEj;
+        "minecraft-24w14a" = _V3QYGAEj;
+        "minecraft-1.20.5-pre1" = _V3QYGAEj;
+        "minecraft-1.20.5-pre2" = _V3QYGAEj;
+        "minecraft-1.20.5-pre3" = _V3QYGAEj;
+        "minecraft-1.20.5" = _V3QYGAEj;
+        "minecraft-1.20.6" = _V3QYGAEj;
+        "minecraft-24w18a" = _V3QYGAEj;
+        "minecraft-24w19a" = _V3QYGAEj;
+        "minecraft-24w19b" = _V3QYGAEj;
+        "minecraft-24w20a" = _V3QYGAEj;
+        "minecraft-1.21" = _V3QYGAEj;
+        "minecraft-1.21.1" = _V3QYGAEj;
+        "minecraft-24w33a" = _V3QYGAEj;
+        "minecraft-24w34a" = _V3QYGAEj;
+        "minecraft-24w35a" = _V3QYGAEj;
+        "minecraft-24w36a" = _V3QYGAEj;
+        "minecraft-24w37a" = _V3QYGAEj;
+        "minecraft-24w38a" = _V3QYGAEj;
+        "minecraft-24w39a" = _V3QYGAEj;
+        "minecraft-24w40a" = _V3QYGAEj;
+        "minecraft-1.21.2" = _V3QYGAEj;
+        "minecraft-1.21.3" = _V3QYGAEj;
+        "minecraft-24w44a" = _V3QYGAEj;
+        "minecraft-24w45a" = _V3QYGAEj;
+        "minecraft-24w46a" = _V3QYGAEj;
+        "minecraft-1.21.4" = _V3QYGAEj;
+        "minecraft-1.21.5" = _V3QYGAEj;
+        "minecraft-1.21.6" = _V3QYGAEj;
+        "minecraft-1.21.7" = _V3QYGAEj;
+        "minecraft-1.21.8" = _V3QYGAEj;
+        "minecraft-1.21.9" = _V3QYGAEj;
+        "minecraft-1.21.10" = _V3QYGAEj;
+        "minecraft-1.21.11" = _V3QYGAEj;
+        "minecraft-26.1" = _V3QYGAEj;
+        "minecraft-26.1.1" = _V3QYGAEj;
+        "minecraft-26.1.2" = _V3QYGAEj;
+        "minecraft-26.2" = _V3QYGAEj;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "roblox-sword-sweep-and-crit-sounds";
+            id = "4ZUKQcvz";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="V3QYGAEj";}

@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _hrex3w8g = {
+            "id" = "hrex3w8g";
+            "file" = "exchangevaluetracker-1.0.0.jar";
+            "hash" = "sha512-0KnyW62dQ0Nc/QoLZENIIKiBvzzIpaqNDTbZvjgE+oGXz/Qe48g+D1iXxwUMi1heZprNSeB+uL1aN3mD4klDLA==";
+        };
+    in {
+        "hrex3w8g" = _hrex3w8g;
+        "fabric-25w14craftmine" = _hrex3w8g;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "exchange-value-tracker";
+            id = "Wd5MO1ll";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="hrex3w8g";}

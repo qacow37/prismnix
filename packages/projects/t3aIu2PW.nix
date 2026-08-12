@@ -1,0 +1,158 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ZxNNcK20 = {
+            "id" = "ZxNNcK20";
+            "file" = "Tactical3DTools[9.1].zip";
+            "hash" = "sha512-1jcQw3K7viCd0q1oqpZCshCD0OZkMxXFBoBpblNRC8BVLFPghoGzD9ERHqTqiSNFgM/PF1ZEusNKWkD2eklwyQ==";
+        };
+        _VDSN5orl = {
+            "id" = "VDSN5orl";
+            "file" = "Tactical3DTools[9.4].zip";
+            "hash" = "sha512-uxGMQmoW3kpnUVJMIMAKrPecqD2YYL++YHA/EUxsPgpNU6aACkMm0gamhY6LdYAcN4QWv2cuPqh0kVsMri8uxQ==";
+        };
+        _PBsEhez6 = {
+            "id" = "PBsEhez6";
+            "file" = "Tactical3DTools[10].zip";
+            "hash" = "sha512-EoaSGnH4Y9OqRKrqmuzfLO8bwYLPhULDd/wcl5jzpI84AycaqXyqmEqjB9vSDzNK40MAPu5kYTtY1/8A/nzbrg==";
+        };
+        _rsMkgKK0 = {
+            "id" = "rsMkgKK0";
+            "file" = "Tactical3DTools[10.1].zip";
+            "hash" = "sha512-asrNck6w3sbmZR5XqZfHJkIghwmHE2UKOEuY/eXgtBB5MqKYUknag8p2U60fT2BP4kTF9QMJPa0YZHSZc8g7Aw==";
+        };
+        _qB9HMY9l = {
+            "id" = "qB9HMY9l";
+            "file" = "Tactical3DTools[10.2].zip";
+            "hash" = "sha512-D/wHA7tshmUvyabT9SkqeaejkaQUvOfo7UQ0EGtNLKM4ikT1TNnBOzV7B1WeBmi8qJB/e2+IMFjR0ncnx/0FZA==";
+        };
+    in {
+        "ZxNNcK20" = _ZxNNcK20;
+        "VDSN5orl" = _VDSN5orl;
+        "PBsEhez6" = _PBsEhez6;
+        "rsMkgKK0" = _rsMkgKK0;
+        "qB9HMY9l" = _qB9HMY9l;
+        "minecraft-1.12" = _rsMkgKK0;
+        "minecraft-1.12.1" = _rsMkgKK0;
+        "minecraft-1.12.2" = _qB9HMY9l;
+        "minecraft-1.13" = _rsMkgKK0;
+        "minecraft-1.13.1" = _rsMkgKK0;
+        "minecraft-1.13.2" = _rsMkgKK0;
+        "minecraft-1.14" = _rsMkgKK0;
+        "minecraft-1.14.1" = _rsMkgKK0;
+        "minecraft-1.14.2" = _rsMkgKK0;
+        "minecraft-1.14.3" = _rsMkgKK0;
+        "minecraft-1.14.4" = _rsMkgKK0;
+        "minecraft-1.15" = _rsMkgKK0;
+        "minecraft-1.15.1" = _rsMkgKK0;
+        "minecraft-1.15.2" = _rsMkgKK0;
+        "minecraft-1.16" = _rsMkgKK0;
+        "minecraft-1.16.1" = _rsMkgKK0;
+        "minecraft-1.16.2" = _rsMkgKK0;
+        "minecraft-1.16.3" = _rsMkgKK0;
+        "minecraft-1.16.4" = _rsMkgKK0;
+        "minecraft-1.16.5" = _qB9HMY9l;
+        "minecraft-1.17" = _rsMkgKK0;
+        "minecraft-1.17.1" = _rsMkgKK0;
+        "minecraft-1.18" = _rsMkgKK0;
+        "minecraft-1.18.1" = _rsMkgKK0;
+        "minecraft-1.18.2" = _rsMkgKK0;
+        "minecraft-1.19" = _rsMkgKK0;
+        "minecraft-1.19.1" = _rsMkgKK0;
+        "minecraft-1.19.2" = _rsMkgKK0;
+        "minecraft-1.19.3" = _rsMkgKK0;
+        "minecraft-1.19.4" = _rsMkgKK0;
+        "minecraft-1.20" = _qB9HMY9l;
+        "minecraft-1.20.1" = _qB9HMY9l;
+        "minecraft-1.20.2" = _qB9HMY9l;
+        "minecraft-1.20.3" = _qB9HMY9l;
+        "minecraft-1.20.4" = _qB9HMY9l;
+        "minecraft-1.20.5" = _qB9HMY9l;
+        "minecraft-1.20.6" = _qB9HMY9l;
+        "minecraft-1.21" = _qB9HMY9l;
+        "minecraft-1.21.1" = _qB9HMY9l;
+        "minecraft-1.21.2" = _qB9HMY9l;
+        "minecraft-1.21.3" = _qB9HMY9l;
+        "minecraft-1.21.4" = _qB9HMY9l;
+        "minecraft-1.21.5" = _qB9HMY9l;
+        "minecraft-1.21.6" = _qB9HMY9l;
+        "minecraft-1.21.7" = _qB9HMY9l;
+        "minecraft-1.21.8" = _qB9HMY9l;
+        "minecraft-1.21.9" = _qB9HMY9l;
+        "minecraft-1.21.10" = _qB9HMY9l;
+        "minecraft-22w42a" = _rsMkgKK0;
+        "minecraft-22w43a" = _rsMkgKK0;
+        "minecraft-22w44a" = _rsMkgKK0;
+        "minecraft-23w14a" = _rsMkgKK0;
+        "minecraft-23w16a" = _rsMkgKK0;
+        "minecraft-23w31a" = _qB9HMY9l;
+        "minecraft-23w32a" = _qB9HMY9l;
+        "minecraft-23w33a" = _qB9HMY9l;
+        "minecraft-23w35a" = _qB9HMY9l;
+        "minecraft-1.20.2-pre1" = _qB9HMY9l;
+        "minecraft-23w42a" = _qB9HMY9l;
+        "minecraft-23w43a" = _qB9HMY9l;
+        "minecraft-23w43b" = _qB9HMY9l;
+        "minecraft-23w44a" = _qB9HMY9l;
+        "minecraft-23w45a" = _qB9HMY9l;
+        "minecraft-23w46a" = _qB9HMY9l;
+        "minecraft-24w03a" = _qB9HMY9l;
+        "minecraft-24w03b" = _qB9HMY9l;
+        "minecraft-24w04a" = _qB9HMY9l;
+        "minecraft-24w05a" = _qB9HMY9l;
+        "minecraft-24w05b" = _qB9HMY9l;
+        "minecraft-24w06a" = _qB9HMY9l;
+        "minecraft-24w07a" = _qB9HMY9l;
+        "minecraft-24w09a" = _qB9HMY9l;
+        "minecraft-24w10a" = _qB9HMY9l;
+        "minecraft-24w11a" = _qB9HMY9l;
+        "minecraft-24w12a" = _qB9HMY9l;
+        "minecraft-24w13a" = _qB9HMY9l;
+        "minecraft-24w14potato" = _qB9HMY9l;
+        "minecraft-24w14a" = _qB9HMY9l;
+        "minecraft-1.20.5-pre1" = _qB9HMY9l;
+        "minecraft-1.20.5-pre2" = _qB9HMY9l;
+        "minecraft-1.20.5-pre3" = _qB9HMY9l;
+        "minecraft-24w18a" = _qB9HMY9l;
+        "minecraft-24w19a" = _qB9HMY9l;
+        "minecraft-24w19b" = _qB9HMY9l;
+        "minecraft-24w20a" = _qB9HMY9l;
+        "minecraft-24w33a" = _qB9HMY9l;
+        "minecraft-24w34a" = _qB9HMY9l;
+        "minecraft-24w35a" = _qB9HMY9l;
+        "minecraft-24w36a" = _qB9HMY9l;
+        "minecraft-24w37a" = _qB9HMY9l;
+        "minecraft-24w38a" = _qB9HMY9l;
+        "minecraft-24w39a" = _qB9HMY9l;
+        "minecraft-24w40a" = _qB9HMY9l;
+        "minecraft-1.21.2-pre1" = _qB9HMY9l;
+        "minecraft-1.21.2-pre2" = _qB9HMY9l;
+        "minecraft-24w44a" = _qB9HMY9l;
+        "minecraft-24w45a" = _qB9HMY9l;
+        "minecraft-24w46a" = _qB9HMY9l;
+        "minecraft-1.21.11" = _qB9HMY9l;
+        "minecraft-26.1" = _qB9HMY9l;
+        "minecraft-26.1.1" = _qB9HMY9l;
+        "minecraft-26.1.2" = _qB9HMY9l;
+        "minecraft-26.2-snapshot-8" = _qB9HMY9l;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "tactical-3d-tools";
+            id = "t3aIu2PW";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Attribution 4.0 International";
+                    shortName = "CC-BY-4.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="qB9HMY9l";}

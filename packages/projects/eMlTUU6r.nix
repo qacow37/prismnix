@@ -1,0 +1,376 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _N4AuvR7W = {
+            "id" = "N4AuvR7W";
+            "file" = "ReanimateMC-1.20.1-alpha-1.0.0.jar";
+            "hash" = "sha512-ENdDFU9SizWTlWOew9FcNvc/DIqvrB2TRcPCWIz9E7uwvabnNF8ohYjTRIG9HkbaXg994soEodC4JkkXUqT22w==";
+        };
+        _24IijZAS = {
+            "id" = "24IijZAS";
+            "file" = "ReanimateMC-1.20.1-alpha-1.0.1.jar";
+            "hash" = "sha512-FCeoY+uCNvZJysKa5looj25o+ygw0D06Kg6SVg8xE2y/DHZoJjI6DXm6w4otkMHcczlPmhoawHq5edZGYqPZuw==";
+        };
+        _BTnGIrzJ = {
+            "id" = "BTnGIrzJ";
+            "file" = "ReanimateMC-alpha-1.0.2.jar";
+            "hash" = "sha512-6TJnyCmA1LjtU/yoROKSbSyrT8zI8gjwZSGmcHB3RbXusepvLjON7C/I75SWuXOgWsFa+fm9yLwJefCtv1GFhQ==";
+        };
+        _Qer915O8 = {
+            "id" = "Qer915O8";
+            "file" = "ReanimateMC-alpha-1.0.3.jar";
+            "hash" = "sha512-s1O3RAziM9p/uHTw6pgv4IuNl5G2P+F6Qce+T56dsSuGyQZIvvWueWK901AySPp0cdGNCIGgUJ+iC9d3eo4ZCg==";
+        };
+        _eqWaOWrW = {
+            "id" = "eqWaOWrW";
+            "file" = "ReanimateMC-alpha-1.0.4.jar";
+            "hash" = "sha512-sbx3fgnn4bbpvQaG6Fd1lkIcS8ctGLDX/RaNgqEcoVwHDiTgftTjEyURVlZHE43vRXmJf3D/MO0qfJRV4RcbRg==";
+        };
+        _oZegHYG9 = {
+            "id" = "oZegHYG9";
+            "file" = "ReanimateMC-alpha-1.1.0.jar";
+            "hash" = "sha512-gvdqgJCg1djoCCXHiDcxC5oHOy3j5JozN3JvnaqA5VjFkLlr/wEWzsdbl5G5dlzUnvFPxAgJCoSbkEYfigZD/w==";
+        };
+        _NZnwRWrY = {
+            "id" = "NZnwRWrY";
+            "file" = "ReanimateMC-1.0.00.jar";
+            "hash" = "sha512-LPdiO/wrRcQxNncf9A/T2eZpRC1xmSHrcVr9kUkMzfrS2yGAvKilHuJMJ2QFUGWXfvP4NsX2ju3cD8lPI/FzWw==";
+        };
+        _V7MRb7z8 = {
+            "id" = "V7MRb7z8";
+            "file" = "ReanimateMC-1.0.01.jar";
+            "hash" = "sha512-OXtuJ7tK3KNSHKeJbaVRfAPsr2qXB6XpxKw1JwXCGp3pPa5vUucDiFeIzqdbPThhxcrXXuUCtk9xhPXEP9tMFQ==";
+        };
+        _dgT7xT2a = {
+            "id" = "dgT7xT2a";
+            "file" = "ReanimateMC-1.0.02.jar";
+            "hash" = "sha512-/vl3LbJqCvSnleYqSTRVxIqtkarAjjQAG2Wh2hviMphLfP6YfFm4Uj4500tz6HjKB7B6ZETlUn5xGx9nvSh5OA==";
+        };
+        _Pug1iuMU = {
+            "id" = "Pug1iuMU";
+            "file" = "ReanimateMC-1.0.03.jar";
+            "hash" = "sha512-55oDwgLH8W341zLsk1Ao4xMbn5zeoa6M+UD4TA/8lzzd8AL7oZIrY69EZQ01x/N4nI5pRuCPZdQaXin5IjvmrA==";
+        };
+        _8CUJbzZo = {
+            "id" = "8CUJbzZo";
+            "file" = "ReanimateMC-1.0.04.jar";
+            "hash" = "sha512-NcaFFneDHGEqV+ye6eqqKKUDtmT8l2+h3R32iPalfYQbptBppjGkdMvYQbA/aoe+GfICg8S1wkehPlmW9UjdOw==";
+        };
+        _xXZIm08j = {
+            "id" = "xXZIm08j";
+            "file" = "ReanimateMC-1.0.05.jar";
+            "hash" = "sha512-jwHCNfQziPPWw2r+LeWDYEEhZ+ffymLr1ddouLlmzJiE6Tzpb0wTGZOkHrVqqRU4aaLTOjUrMlvvAmqAWMUKSw==";
+        };
+        _wVPSPXYV = {
+            "id" = "wVPSPXYV";
+            "file" = "ReanimateMC-1.1.00.jar";
+            "hash" = "sha512-WLlpdyaNM09jTNvxjijcPkPV6tAgsC0k7UNU+Y4yY5E1wHfH76FoZDpWVmtUOLoFw6Lsn0EPfIZAZk3e0Ej5WQ==";
+        };
+        _WDFsDXhM = {
+            "id" = "WDFsDXhM";
+            "file" = "ReanimateMC-1.1.01.jar";
+            "hash" = "sha512-MwRaqvqhopbqdiQBUJuMeaniq/zNewgDj/sSf/b0BqyFcBbhYcrmm/joygfNY9IJ9kskN+04Lc68TnRk4SZrNw==";
+        };
+        _BEMgqr5I = {
+            "id" = "BEMgqr5I";
+            "file" = "ReanimateMC-1.1.02.jar";
+            "hash" = "sha512-1G9MqRibbljI8jErxkic3LGRvc89Oj2SgwQRt/roUUAdLNGiVotdJW00/mLcOWGC6Id8cKTPS8Iv3kOCyxRypg==";
+        };
+        _UXIn8eAV = {
+            "id" = "UXIn8eAV";
+            "file" = "ReanimateMC-1.1.03.jar";
+            "hash" = "sha512-Qqywz8C40RjGi26vQqYAu9ZQsWIMgbeV9izMvg9asEoSQBOMv6wF/C1u6E26I6PCBTKetmRJV0H80BxUsmD+RQ==";
+        };
+        _3tvP720M = {
+            "id" = "3tvP720M";
+            "file" = "ReanimateMC-1.1.04.jar";
+            "hash" = "sha512-bDoPh35BIUWKD1OsdKBapQ3ypN/ET2LOt6XUB7YFDeMCgPFr2U5S8fnWgR3hgE7274qx5jDdysD58VkpdkQJsQ==";
+        };
+        _oGvQBMLk = {
+            "id" = "oGvQBMLk";
+            "file" = "ReanimateMC-1.1.05.jar";
+            "hash" = "sha512-NUWfIBCNDYpUhJ8jT2Dkh8Lxb4RCFuEwfwBNeG9W5UZlUoMzN+5XEEKqaKS0nbSrJ+hv+avfYIvwRNGlF6vgww==";
+        };
+        _cE0aTMeq = {
+            "id" = "cE0aTMeq";
+            "file" = "ReanimateMC-1.1.10.jar";
+            "hash" = "sha512-+5q/NMWTPFNbZS21UBoj2tBtp7ju8F0RIWi9T+ZDbdns4PU3kX/MAi8L7oSRDYDAE3DupqMmLf3e7FZMXx5/NQ==";
+        };
+        _d0eJr2KM = {
+            "id" = "d0eJr2KM";
+            "file" = "ReanimateMC-1.1.11.jar";
+            "hash" = "sha512-qYaO8Oi0TxIDeAqK6SXEiIaBR0qAglwnR3db/oBK8mXeG1byIIp36txMk+sALe+xZChFbSy/gxXdjI+xuieH8Q==";
+        };
+        _Y7HLhFeg = {
+            "id" = "Y7HLhFeg";
+            "file" = "ReanimateMC-1.2.00.jar";
+            "hash" = "sha512-MP+D4qtuqCrI33+f41c3tcvJEeG9CoOwblv8shThYyM8+rY6dFrCqlTy6E+6QF1UcbutLDi4chRKy8yApaHfWQ==";
+        };
+        _w1LCpbcn = {
+            "id" = "w1LCpbcn";
+            "file" = "ReanimateMC-1.2.01.jar";
+            "hash" = "sha512-yPPFTm/5X/o4dNDkH0n3doKQPLdJDxbeSTIHRY8BMcW9xZ55v6zCsj66d/tK+oF2D359h8njgz8s2N6rc90a7Q==";
+        };
+        _7L18s0se = {
+            "id" = "7L18s0se";
+            "file" = "ReanimateMC-1.2.02.jar";
+            "hash" = "sha512-PLCHe8DXKJRh1j/oV1stDfiT+A+ikGIZmi356GUZA9EuXkhiil9p+eUTjlomr95ZEZOhdTxDMn61QNWCqrPiIA==";
+        };
+        _f2KlL3Vm = {
+            "id" = "f2KlL3Vm";
+            "file" = "ReanimateMC-1.2.10.jar";
+            "hash" = "sha512-hhX+0xTQyqQ1tndRn0muFOXb1toBiOvruzNn4kCSCXB31u51PB0j5Y+263KZAA8CEHs7DxY7SuLStewDgddsRQ==";
+        };
+        _iW4ktPV6 = {
+            "id" = "iW4ktPV6";
+            "file" = "ReanimateMC-1.2.11.jar";
+            "hash" = "sha512-JBpXiSSuOGFilqAsC9yqA1BBDqfXu2ckT9dYleI/H2HqVOyzvkaTUSUrvg3iZIAgJCYNUyTd8b7/BRYFawg1Rw==";
+        };
+        _fnQzvQMw = {
+            "id" = "fnQzvQMw";
+            "file" = "ReanimateMC-1.2.12.jar";
+            "hash" = "sha512-23JcD2yS5fJWBw9YxBiFdX7FZNZ6VIEw5cnjvI+osgVC8WQIrfk79gSI2tH/IiMQUZJRtI6gd6RI/+0Pw4JLkA==";
+        };
+        _kw2jPVBf = {
+            "id" = "kw2jPVBf";
+            "file" = "ReanimateMC-1.2.13.jar";
+            "hash" = "sha512-bhyG89YST0yMYLFB3HduLJujOdyfnvxgI/lsVCp3qHx73elsQozKvAu3hgejqUBCYsqSUW3YNKhCZ8TmU9o0iw==";
+        };
+    in {
+        "N4AuvR7W" = _N4AuvR7W;
+        "24IijZAS" = _24IijZAS;
+        "BTnGIrzJ" = _BTnGIrzJ;
+        "Qer915O8" = _Qer915O8;
+        "eqWaOWrW" = _eqWaOWrW;
+        "oZegHYG9" = _oZegHYG9;
+        "NZnwRWrY" = _NZnwRWrY;
+        "V7MRb7z8" = _V7MRb7z8;
+        "dgT7xT2a" = _dgT7xT2a;
+        "Pug1iuMU" = _Pug1iuMU;
+        "8CUJbzZo" = _8CUJbzZo;
+        "xXZIm08j" = _xXZIm08j;
+        "wVPSPXYV" = _wVPSPXYV;
+        "WDFsDXhM" = _WDFsDXhM;
+        "BEMgqr5I" = _BEMgqr5I;
+        "UXIn8eAV" = _UXIn8eAV;
+        "3tvP720M" = _3tvP720M;
+        "oGvQBMLk" = _oGvQBMLk;
+        "cE0aTMeq" = _cE0aTMeq;
+        "d0eJr2KM" = _d0eJr2KM;
+        "Y7HLhFeg" = _Y7HLhFeg;
+        "w1LCpbcn" = _w1LCpbcn;
+        "7L18s0se" = _7L18s0se;
+        "f2KlL3Vm" = _f2KlL3Vm;
+        "iW4ktPV6" = _iW4ktPV6;
+        "fnQzvQMw" = _fnQzvQMw;
+        "kw2jPVBf" = _kw2jPVBf;
+        "bukkit-1.20.1" = _fnQzvQMw;
+        "bukkit-1.20.2" = _fnQzvQMw;
+        "bukkit-1.17" = _3tvP720M;
+        "bukkit-1.17.1" = _3tvP720M;
+        "bukkit-1.18" = _3tvP720M;
+        "bukkit-1.18.1" = _3tvP720M;
+        "bukkit-1.18.2" = _3tvP720M;
+        "bukkit-1.19" = _3tvP720M;
+        "bukkit-1.19.1" = _3tvP720M;
+        "bukkit-1.19.2" = _3tvP720M;
+        "bukkit-1.19.3" = _3tvP720M;
+        "bukkit-1.19.4" = _3tvP720M;
+        "bukkit-1.20" = _fnQzvQMw;
+        "bukkit-1.16.5" = _3tvP720M;
+        "bukkit-1.20.3" = _fnQzvQMw;
+        "bukkit-1.20.4" = _fnQzvQMw;
+        "bukkit-1.20.5" = _fnQzvQMw;
+        "bukkit-1.20.6" = _fnQzvQMw;
+        "bukkit-1.21" = _kw2jPVBf;
+        "bukkit-1.21.1" = _kw2jPVBf;
+        "bukkit-1.21.2" = _kw2jPVBf;
+        "bukkit-1.21.3" = _kw2jPVBf;
+        "bukkit-1.21.4" = _kw2jPVBf;
+        "bukkit-1.21.5" = _kw2jPVBf;
+        "bukkit-1.16" = _BEMgqr5I;
+        "bukkit-1.16.1" = _BEMgqr5I;
+        "bukkit-1.16.2" = _BEMgqr5I;
+        "bukkit-1.16.3" = _BEMgqr5I;
+        "bukkit-1.16.4" = _BEMgqr5I;
+        "bukkit-1.2.1" = _w1LCpbcn;
+        "bukkit-1.2.2" = _w1LCpbcn;
+        "bukkit-1.2.3" = _w1LCpbcn;
+        "bukkit-1.2.4" = _w1LCpbcn;
+        "bukkit-1.2.5" = _w1LCpbcn;
+        "bukkit-1.21.6" = _kw2jPVBf;
+        "bukkit-1.21.7" = _kw2jPVBf;
+        "bukkit-1.21.8" = _kw2jPVBf;
+        "bukkit-1.21.9" = _kw2jPVBf;
+        "bukkit-1.21.10" = _kw2jPVBf;
+        "bukkit-1.21.11" = _kw2jPVBf;
+        "bukkit-26.1" = _kw2jPVBf;
+        "bukkit-26.1.1" = _kw2jPVBf;
+        "bukkit-26.1.2" = _kw2jPVBf;
+        "bukkit-26.2" = _kw2jPVBf;
+        "paper-1.20.1" = _fnQzvQMw;
+        "paper-1.20.2" = _fnQzvQMw;
+        "paper-1.17" = _3tvP720M;
+        "paper-1.17.1" = _3tvP720M;
+        "paper-1.18" = _3tvP720M;
+        "paper-1.18.1" = _3tvP720M;
+        "paper-1.18.2" = _3tvP720M;
+        "paper-1.19" = _3tvP720M;
+        "paper-1.19.1" = _3tvP720M;
+        "paper-1.19.2" = _3tvP720M;
+        "paper-1.19.3" = _3tvP720M;
+        "paper-1.19.4" = _3tvP720M;
+        "paper-1.20" = _fnQzvQMw;
+        "paper-1.16.5" = _3tvP720M;
+        "paper-1.20.3" = _fnQzvQMw;
+        "paper-1.20.4" = _fnQzvQMw;
+        "paper-1.20.5" = _fnQzvQMw;
+        "paper-1.20.6" = _fnQzvQMw;
+        "paper-1.21" = _kw2jPVBf;
+        "paper-1.21.1" = _kw2jPVBf;
+        "paper-1.21.2" = _kw2jPVBf;
+        "paper-1.21.3" = _kw2jPVBf;
+        "paper-1.21.4" = _kw2jPVBf;
+        "paper-1.21.5" = _kw2jPVBf;
+        "paper-1.16" = _BEMgqr5I;
+        "paper-1.16.1" = _BEMgqr5I;
+        "paper-1.16.2" = _BEMgqr5I;
+        "paper-1.16.3" = _BEMgqr5I;
+        "paper-1.16.4" = _BEMgqr5I;
+        "paper-1.2.1" = _w1LCpbcn;
+        "paper-1.2.2" = _w1LCpbcn;
+        "paper-1.2.3" = _w1LCpbcn;
+        "paper-1.2.4" = _w1LCpbcn;
+        "paper-1.2.5" = _w1LCpbcn;
+        "paper-1.21.6" = _kw2jPVBf;
+        "paper-1.21.7" = _kw2jPVBf;
+        "paper-1.21.8" = _kw2jPVBf;
+        "paper-1.21.9" = _kw2jPVBf;
+        "paper-1.21.10" = _kw2jPVBf;
+        "paper-1.21.11" = _kw2jPVBf;
+        "paper-26.1" = _kw2jPVBf;
+        "paper-26.1.1" = _kw2jPVBf;
+        "paper-26.1.2" = _kw2jPVBf;
+        "paper-26.2" = _kw2jPVBf;
+        "purpur-1.20.1" = _fnQzvQMw;
+        "purpur-1.20.2" = _fnQzvQMw;
+        "purpur-1.17" = _3tvP720M;
+        "purpur-1.17.1" = _3tvP720M;
+        "purpur-1.18" = _3tvP720M;
+        "purpur-1.18.1" = _3tvP720M;
+        "purpur-1.18.2" = _3tvP720M;
+        "purpur-1.19" = _3tvP720M;
+        "purpur-1.19.1" = _3tvP720M;
+        "purpur-1.19.2" = _3tvP720M;
+        "purpur-1.19.3" = _3tvP720M;
+        "purpur-1.19.4" = _3tvP720M;
+        "purpur-1.20" = _fnQzvQMw;
+        "purpur-1.16.5" = _3tvP720M;
+        "purpur-1.20.3" = _fnQzvQMw;
+        "purpur-1.20.4" = _fnQzvQMw;
+        "purpur-1.20.5" = _fnQzvQMw;
+        "purpur-1.20.6" = _fnQzvQMw;
+        "purpur-1.21" = _kw2jPVBf;
+        "purpur-1.21.1" = _kw2jPVBf;
+        "purpur-1.21.2" = _kw2jPVBf;
+        "purpur-1.21.3" = _kw2jPVBf;
+        "purpur-1.21.4" = _kw2jPVBf;
+        "purpur-1.21.5" = _kw2jPVBf;
+        "purpur-1.16" = _BEMgqr5I;
+        "purpur-1.16.1" = _BEMgqr5I;
+        "purpur-1.16.2" = _BEMgqr5I;
+        "purpur-1.16.3" = _BEMgqr5I;
+        "purpur-1.16.4" = _BEMgqr5I;
+        "purpur-1.2.1" = _w1LCpbcn;
+        "purpur-1.2.2" = _w1LCpbcn;
+        "purpur-1.2.3" = _w1LCpbcn;
+        "purpur-1.2.4" = _w1LCpbcn;
+        "purpur-1.2.5" = _w1LCpbcn;
+        "purpur-1.21.6" = _kw2jPVBf;
+        "purpur-1.21.7" = _kw2jPVBf;
+        "purpur-1.21.8" = _kw2jPVBf;
+        "purpur-1.21.9" = _kw2jPVBf;
+        "purpur-1.21.10" = _kw2jPVBf;
+        "purpur-1.21.11" = _kw2jPVBf;
+        "purpur-26.1" = _kw2jPVBf;
+        "purpur-26.1.1" = _kw2jPVBf;
+        "purpur-26.1.2" = _kw2jPVBf;
+        "purpur-26.2" = _kw2jPVBf;
+        "spigot-1.20.1" = _fnQzvQMw;
+        "spigot-1.20.2" = _fnQzvQMw;
+        "spigot-1.17" = _3tvP720M;
+        "spigot-1.17.1" = _3tvP720M;
+        "spigot-1.18" = _3tvP720M;
+        "spigot-1.18.1" = _3tvP720M;
+        "spigot-1.18.2" = _3tvP720M;
+        "spigot-1.19" = _3tvP720M;
+        "spigot-1.19.1" = _3tvP720M;
+        "spigot-1.19.2" = _3tvP720M;
+        "spigot-1.19.3" = _3tvP720M;
+        "spigot-1.19.4" = _3tvP720M;
+        "spigot-1.20" = _fnQzvQMw;
+        "spigot-1.16.5" = _3tvP720M;
+        "spigot-1.20.3" = _fnQzvQMw;
+        "spigot-1.20.4" = _fnQzvQMw;
+        "spigot-1.20.5" = _fnQzvQMw;
+        "spigot-1.20.6" = _fnQzvQMw;
+        "spigot-1.21" = _kw2jPVBf;
+        "spigot-1.21.1" = _kw2jPVBf;
+        "spigot-1.21.2" = _kw2jPVBf;
+        "spigot-1.21.3" = _kw2jPVBf;
+        "spigot-1.21.4" = _kw2jPVBf;
+        "spigot-1.21.5" = _kw2jPVBf;
+        "spigot-1.16" = _BEMgqr5I;
+        "spigot-1.16.1" = _BEMgqr5I;
+        "spigot-1.16.2" = _BEMgqr5I;
+        "spigot-1.16.3" = _BEMgqr5I;
+        "spigot-1.16.4" = _BEMgqr5I;
+        "spigot-1.2.1" = _w1LCpbcn;
+        "spigot-1.2.2" = _w1LCpbcn;
+        "spigot-1.2.3" = _w1LCpbcn;
+        "spigot-1.2.4" = _w1LCpbcn;
+        "spigot-1.2.5" = _w1LCpbcn;
+        "spigot-1.21.6" = _kw2jPVBf;
+        "spigot-1.21.7" = _kw2jPVBf;
+        "spigot-1.21.8" = _kw2jPVBf;
+        "spigot-1.21.9" = _kw2jPVBf;
+        "spigot-1.21.10" = _kw2jPVBf;
+        "spigot-1.21.11" = _kw2jPVBf;
+        "spigot-26.1" = _kw2jPVBf;
+        "spigot-26.1.1" = _kw2jPVBf;
+        "spigot-26.1.2" = _kw2jPVBf;
+        "spigot-26.2" = _kw2jPVBf;
+        "sponge-1.20.1" = _Qer915O8;
+        "sponge-1.20.2" = _Qer915O8;
+        "sponge-1.17" = _Qer915O8;
+        "sponge-1.17.1" = _Qer915O8;
+        "sponge-1.18" = _Qer915O8;
+        "sponge-1.18.1" = _Qer915O8;
+        "sponge-1.18.2" = _Qer915O8;
+        "sponge-1.19" = _Qer915O8;
+        "sponge-1.19.1" = _Qer915O8;
+        "sponge-1.19.2" = _Qer915O8;
+        "sponge-1.19.3" = _Qer915O8;
+        "sponge-1.19.4" = _Qer915O8;
+        "sponge-1.20" = _Qer915O8;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "reanimatemc";
+            id = "eMlTUU6r";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/Jachou-yt/ReanimateMC/blob/master/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="kw2jPVBf";}

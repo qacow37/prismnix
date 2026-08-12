@@ -1,0 +1,129 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _dtNgo82b = {
+            "id" = "dtNgo82b";
+            "file" = "WhiteEnchantmentGlint.zip";
+            "hash" = "sha512-8y3GrpN/bNSpq6kZ8iBC4iEWwdy/NT7aO/2uZpynM/aYMQYfBsf1Y6K8EhGzYepWdBHj93GI75bE8i/ZszKzkQ==";
+        };
+        _aFzlCSje = {
+            "id" = "aFzlCSje";
+            "file" = "WhiteEnchantmentGlint.zip";
+            "hash" = "sha512-FdEAslwHpXwq1amioCv8lCPNLMeDscg+Wx7aJuePsUXXPzsRcS2sT4mL3R+MJ1gP7DZo78iGm7eZhazxFFo2Rg==";
+        };
+        _BG2ExsMV = {
+            "id" = "BG2ExsMV";
+            "file" = "WhiteEnchantmentGlint.zip";
+            "hash" = "sha512-iCYJTfWXyozPsSM5ILlxgB+cGmgzArnm8/qWsc667XjIsBMYwp6ObL9ce7RvKJeChXLInpW2CzOfIoABnpHi4Q==";
+        };
+    in {
+        "dtNgo82b" = _dtNgo82b;
+        "aFzlCSje" = _aFzlCSje;
+        "BG2ExsMV" = _BG2ExsMV;
+        "minecraft-1.6.1" = _BG2ExsMV;
+        "minecraft-1.6.2" = _BG2ExsMV;
+        "minecraft-1.6.4" = _BG2ExsMV;
+        "minecraft-1.7.2" = _BG2ExsMV;
+        "minecraft-1.7.3" = _BG2ExsMV;
+        "minecraft-1.7.4" = _BG2ExsMV;
+        "minecraft-1.7.5" = _BG2ExsMV;
+        "minecraft-1.7.6" = _BG2ExsMV;
+        "minecraft-1.7.7" = _BG2ExsMV;
+        "minecraft-1.7.8" = _BG2ExsMV;
+        "minecraft-1.7.9" = _BG2ExsMV;
+        "minecraft-1.7.10" = _BG2ExsMV;
+        "minecraft-1.8" = _BG2ExsMV;
+        "minecraft-1.8.1" = _BG2ExsMV;
+        "minecraft-1.8.2" = _BG2ExsMV;
+        "minecraft-1.8.3" = _BG2ExsMV;
+        "minecraft-1.8.4" = _BG2ExsMV;
+        "minecraft-1.8.5" = _BG2ExsMV;
+        "minecraft-1.8.6" = _BG2ExsMV;
+        "minecraft-1.8.7" = _BG2ExsMV;
+        "minecraft-1.8.8" = _BG2ExsMV;
+        "minecraft-1.8.9" = _BG2ExsMV;
+        "minecraft-1.9" = _BG2ExsMV;
+        "minecraft-1.9.1" = _BG2ExsMV;
+        "minecraft-1.9.2" = _BG2ExsMV;
+        "minecraft-1.9.3" = _BG2ExsMV;
+        "minecraft-1.9.4" = _BG2ExsMV;
+        "minecraft-1.10" = _BG2ExsMV;
+        "minecraft-1.10.1" = _BG2ExsMV;
+        "minecraft-1.10.2" = _BG2ExsMV;
+        "minecraft-1.11" = _BG2ExsMV;
+        "minecraft-1.11.1" = _BG2ExsMV;
+        "minecraft-1.11.2" = _BG2ExsMV;
+        "minecraft-1.12" = _BG2ExsMV;
+        "minecraft-1.12.1" = _BG2ExsMV;
+        "minecraft-1.12.2" = _BG2ExsMV;
+        "minecraft-1.13" = _BG2ExsMV;
+        "minecraft-1.13.1" = _BG2ExsMV;
+        "minecraft-1.13.2" = _BG2ExsMV;
+        "minecraft-1.14" = _BG2ExsMV;
+        "minecraft-1.14.1" = _BG2ExsMV;
+        "minecraft-1.14.2" = _BG2ExsMV;
+        "minecraft-1.14.3" = _BG2ExsMV;
+        "minecraft-1.14.4" = _BG2ExsMV;
+        "minecraft-1.15" = _BG2ExsMV;
+        "minecraft-1.15.1" = _BG2ExsMV;
+        "minecraft-1.15.2" = _BG2ExsMV;
+        "minecraft-1.16" = _BG2ExsMV;
+        "minecraft-1.16.1" = _BG2ExsMV;
+        "minecraft-1.16.2" = _BG2ExsMV;
+        "minecraft-1.16.3" = _BG2ExsMV;
+        "minecraft-1.16.4" = _BG2ExsMV;
+        "minecraft-1.16.5" = _BG2ExsMV;
+        "minecraft-1.17" = _BG2ExsMV;
+        "minecraft-1.17.1" = _BG2ExsMV;
+        "minecraft-1.18" = _BG2ExsMV;
+        "minecraft-1.18.1" = _BG2ExsMV;
+        "minecraft-1.18.2" = _BG2ExsMV;
+        "minecraft-1.19" = _BG2ExsMV;
+        "minecraft-1.19.1" = _BG2ExsMV;
+        "minecraft-1.19.2" = _BG2ExsMV;
+        "minecraft-1.19.3" = _BG2ExsMV;
+        "minecraft-1.19.4" = _BG2ExsMV;
+        "minecraft-1.20" = _BG2ExsMV;
+        "minecraft-1.20.1" = _BG2ExsMV;
+        "minecraft-1.20.2" = _BG2ExsMV;
+        "minecraft-1.20.3" = _BG2ExsMV;
+        "minecraft-1.20.4" = _BG2ExsMV;
+        "minecraft-1.20.5" = _BG2ExsMV;
+        "minecraft-1.20.6" = _BG2ExsMV;
+        "minecraft-1.21" = _BG2ExsMV;
+        "minecraft-1.21.1" = _BG2ExsMV;
+        "minecraft-1.21.2" = _BG2ExsMV;
+        "minecraft-1.21.3" = _BG2ExsMV;
+        "minecraft-1.21.4" = _BG2ExsMV;
+        "minecraft-1.21.5" = _BG2ExsMV;
+        "minecraft-1.21.6" = _BG2ExsMV;
+        "minecraft-1.21.7" = _BG2ExsMV;
+        "minecraft-1.21.8" = _BG2ExsMV;
+        "minecraft-1.21.9" = _BG2ExsMV;
+        "minecraft-1.21.10" = _BG2ExsMV;
+        "minecraft-1.21.11" = _BG2ExsMV;
+        "minecraft-26.1" = _BG2ExsMV;
+        "minecraft-26.1.1" = _BG2ExsMV;
+        "minecraft-26.1.2" = _BG2ExsMV;
+        "minecraft-26.2" = _BG2ExsMV;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "white-enchantment-glint";
+            id = "92xXrUMv";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="BG2ExsMV";}

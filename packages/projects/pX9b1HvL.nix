@@ -1,0 +1,147 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _urBlQMzm = {
+            "id" = "urBlQMzm";
+            "file" = "PickupSpawners-0.0.jar";
+            "hash" = "sha512-WR06Gl1xWThVxWnSa9r7vDBaQOBs1prFfmaLbd8QJsZ933/M5cXwfvoGzRHgTRFZ8vnSmLUTH3LuM0Fjm2JaVQ==";
+        };
+        _vYDRMNZH = {
+            "id" = "vYDRMNZH";
+            "file" = "PickupSpawners-0.1.0.jar";
+            "hash" = "sha512-LdAThxd+pZA9aT9bZJIC36r2XTBoPl4ONp9d7/2VZnzmohOBB+AXUs+SpIRAVB3Rr/o1HbN4I9GmWfiQ+kjJdw==";
+        };
+        _DSyhT80C = {
+            "id" = "DSyhT80C";
+            "file" = "PickupSpawners-0.2.0.jar";
+            "hash" = "sha512-QpkHXCfijWBbiuqeDPgNHNrZFdZ5FA92D9BGEi5djgaUegdM72VI3TeiI0ZbAUqhMpJAtZTBg7mZJG+X7ZfBnQ==";
+        };
+        _n0S3ejVG = {
+            "id" = "n0S3ejVG";
+            "file" = "PickupSpawners-0.3.0.jar";
+            "hash" = "sha512-RhdnrVYh6J5Ljw84L9uobwy/fmF77A0J8RezJR/jnZcw+S2nIgwrPp7CSSkvcVVr4s3UtyPlSMgJeHkf1QtyxA==";
+        };
+        _bq98dSw2 = {
+            "id" = "bq98dSw2";
+            "file" = "PickupSpawners-0.3.1.jar";
+            "hash" = "sha512-iwWeOEJLg+rlRKujiM5qGfledhgXp3vfqYN4P5yBEwws/B1nKIItHVH7YnYNk9WKElAiBlW1fHKs/MzJoiFIng==";
+        };
+    in {
+        "urBlQMzm" = _urBlQMzm;
+        "vYDRMNZH" = _vYDRMNZH;
+        "DSyhT80C" = _DSyhT80C;
+        "n0S3ejVG" = _n0S3ejVG;
+        "bq98dSw2" = _bq98dSw2;
+        "paper-1.20.6" = _bq98dSw2;
+        "paper-1.21" = _bq98dSw2;
+        "paper-1.21.1" = _bq98dSw2;
+        "paper-1.21.2" = _bq98dSw2;
+        "paper-1.21.3" = _bq98dSw2;
+        "paper-1.20" = _bq98dSw2;
+        "paper-1.20.1" = _bq98dSw2;
+        "paper-1.20.2" = _bq98dSw2;
+        "paper-1.20.3" = _bq98dSw2;
+        "paper-1.20.4" = _bq98dSw2;
+        "paper-1.20.5" = _bq98dSw2;
+        "paper-1.21.4" = _bq98dSw2;
+        "paper-1.21.5" = _bq98dSw2;
+        "paper-1.21.6" = _bq98dSw2;
+        "paper-1.21.7" = _bq98dSw2;
+        "paper-1.21.8" = _bq98dSw2;
+        "paper-1.21.9" = _bq98dSw2;
+        "paper-1.21.10" = _bq98dSw2;
+        "paper-1.21.11" = _bq98dSw2;
+        "paper-26.1" = _bq98dSw2;
+        "paper-26.1.1" = _bq98dSw2;
+        "paper-26.1.2" = _bq98dSw2;
+        "paper-26.2" = _bq98dSw2;
+        "purpur-1.20.6" = _bq98dSw2;
+        "purpur-1.21" = _bq98dSw2;
+        "purpur-1.21.1" = _bq98dSw2;
+        "purpur-1.21.2" = _bq98dSw2;
+        "purpur-1.21.3" = _bq98dSw2;
+        "purpur-1.20" = _bq98dSw2;
+        "purpur-1.20.1" = _bq98dSw2;
+        "purpur-1.20.2" = _bq98dSw2;
+        "purpur-1.20.3" = _bq98dSw2;
+        "purpur-1.20.4" = _bq98dSw2;
+        "purpur-1.20.5" = _bq98dSw2;
+        "purpur-1.21.4" = _bq98dSw2;
+        "purpur-1.21.5" = _bq98dSw2;
+        "purpur-1.21.6" = _bq98dSw2;
+        "purpur-1.21.7" = _bq98dSw2;
+        "purpur-1.21.8" = _bq98dSw2;
+        "purpur-1.21.9" = _bq98dSw2;
+        "purpur-1.21.10" = _bq98dSw2;
+        "purpur-1.21.11" = _bq98dSw2;
+        "purpur-26.1" = _bq98dSw2;
+        "purpur-26.1.1" = _bq98dSw2;
+        "purpur-26.1.2" = _bq98dSw2;
+        "purpur-26.2" = _bq98dSw2;
+        "spigot-1.20.6" = _bq98dSw2;
+        "spigot-1.21" = _bq98dSw2;
+        "spigot-1.21.1" = _bq98dSw2;
+        "spigot-1.21.2" = _bq98dSw2;
+        "spigot-1.21.3" = _bq98dSw2;
+        "spigot-1.20" = _bq98dSw2;
+        "spigot-1.20.1" = _bq98dSw2;
+        "spigot-1.20.2" = _bq98dSw2;
+        "spigot-1.20.3" = _bq98dSw2;
+        "spigot-1.20.4" = _bq98dSw2;
+        "spigot-1.20.5" = _bq98dSw2;
+        "spigot-1.21.4" = _bq98dSw2;
+        "spigot-1.21.5" = _bq98dSw2;
+        "spigot-1.21.6" = _bq98dSw2;
+        "spigot-1.21.7" = _bq98dSw2;
+        "spigot-1.21.8" = _bq98dSw2;
+        "spigot-1.21.9" = _bq98dSw2;
+        "spigot-1.21.10" = _bq98dSw2;
+        "spigot-1.21.11" = _bq98dSw2;
+        "spigot-26.1" = _bq98dSw2;
+        "spigot-26.1.1" = _bq98dSw2;
+        "spigot-26.1.2" = _bq98dSw2;
+        "spigot-26.2" = _bq98dSw2;
+        "folia-1.20" = _bq98dSw2;
+        "folia-1.20.1" = _bq98dSw2;
+        "folia-1.20.2" = _bq98dSw2;
+        "folia-1.20.3" = _bq98dSw2;
+        "folia-1.20.4" = _bq98dSw2;
+        "folia-1.20.5" = _bq98dSw2;
+        "folia-1.20.6" = _bq98dSw2;
+        "folia-1.21" = _bq98dSw2;
+        "folia-1.21.1" = _bq98dSw2;
+        "folia-1.21.2" = _bq98dSw2;
+        "folia-1.21.3" = _bq98dSw2;
+        "folia-1.21.4" = _bq98dSw2;
+        "folia-1.21.5" = _bq98dSw2;
+        "folia-1.21.6" = _bq98dSw2;
+        "folia-1.21.7" = _bq98dSw2;
+        "folia-1.21.8" = _bq98dSw2;
+        "folia-1.21.9" = _bq98dSw2;
+        "folia-1.21.10" = _bq98dSw2;
+        "folia-1.21.11" = _bq98dSw2;
+        "folia-26.1" = _bq98dSw2;
+        "folia-26.1.1" = _bq98dSw2;
+        "folia-26.1.2" = _bq98dSw2;
+        "folia-26.2" = _bq98dSw2;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "pickup-spawners";
+            id = "pX9b1HvL";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 or later";
+                    shortName = "GPL-3.0-or-later";
+                    url = "https://github.com/TrueDarkLord/Pickup-Spawners?tab=GPL-3.0-1-ov-file";
+                };
+            };
+        };
+in callPackage fn {version="bq98dSw2";}

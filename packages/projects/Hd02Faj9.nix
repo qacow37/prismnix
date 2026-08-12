@@ -1,0 +1,270 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _DQPYjJno = {
+            "id" = "DQPYjJno";
+            "file" = "RustyConnector-0.3.0.jar";
+            "hash" = "sha512-UNCLhJ/tLA32IAorO7XiC6XDqBz9Ba9jPB3Lg6fEMNFT1Jt/LI2K7BQz4pDw5oB6ZmG9FnceXvjyGWKphk7siw==";
+        };
+        _kWgd2xon = {
+            "id" = "kWgd2xon";
+            "file" = "RustyConnector-v0.4.0.jar";
+            "hash" = "sha512-YHzpTo6dSpJv4YOrK5HnnZ/26uN3tiIPMchWNrumAJBMcIOXKkLz7DpvT/FaUVhLTLxqAlnV9Uaa5sLkQyOxFA==";
+        };
+        _OtgPRXhc = {
+            "id" = "OtgPRXhc";
+            "file" = "RustyConnector-v0.4.1.jar";
+            "hash" = "sha512-mCzLZqs3Ys6+vn1ka/G0TaExiKzhDGJxDR00u2pltEOa/lvWlZNdsS667j4msW4jnRLWpgp1bFEHTtImCt0U6w==";
+        };
+        _tx9VDSWf = {
+            "id" = "tx9VDSWf";
+            "file" = "RustyConnector-v0.5.0.jar";
+            "hash" = "sha512-vsl9MQG3f7Fz3CfPkVL8jVbUSU2O23APikWGteRJE4ZrOxlCnRddkPpvOUIFKs9IsuZqUcNIAhu6+WHuMK/YIw==";
+        };
+        _ugMttweY = {
+            "id" = "ugMttweY";
+            "file" = "RustyConnector-v0.5.1.jar";
+            "hash" = "sha512-ilgTxlWFzFl+SiHBt+Fd7WY+ue4GCPT0dubNR7GbsFirj2bG88HUiGam+pkwApDZwfs5SJVkCFqfJXG5Q135wA==";
+        };
+        _dRxeBVMB = {
+            "id" = "dRxeBVMB";
+            "file" = "RustyConnector-v0.5.2.jar";
+            "hash" = "sha512-NLuYBxVttNILfdhiPt/kKDHYrRuBy/nxjSPS44VFcAxLOpHsUV4/OhXw/z8SH6C5y8CdbhWXpCgi9Adalc9ccw==";
+        };
+        _UPWItT0i = {
+            "id" = "UPWItT0i";
+            "file" = "RustyConnector-v0.5.3.jar";
+            "hash" = "sha512-eJdtvdBiSB5qbrcrGQ6L0/2kWswaUJ/cbz8bUsnp9Vsm77g3CRff4c4FcaRdGlMfpIfw7ZnWGj+d+58mEFu23g==";
+        };
+        _tCLcpLyk = {
+            "id" = "tCLcpLyk";
+            "file" = "rusty-connector-0.6.0.jar";
+            "hash" = "sha512-TVNzo7cvmjduAsNaaOj7j67hu7irE2uCIhCBkNZzm4n0AyTN+SfOg0bdnM+5hWW3KlI7+6hfUhQlSQIE7cxeRg==";
+        };
+        _svBT5Aox = {
+            "id" = "svBT5Aox";
+            "file" = "rusty-connector-0.6.1.jar";
+            "hash" = "sha512-v+CmKNt95RosMURz36IF4BDSqzZozghZ3sth6pGKDbpCFOnVjwLnEKluH5xvOMDYpu6iBhaSfNS0r6kcXxcQQg==";
+        };
+        _DsETJthQ = {
+            "id" = "DsETJthQ";
+            "file" = "rusty-connector-0.7.0.jar";
+            "hash" = "sha512-Cwttiw61Rn5Q5o+gTeTwZoqE7wiasoFQFkkv8xAVh1htrXbzRskpMLWFllzkN67C7qXmasp9tYAZ6NWO4LKVnA==";
+        };
+        _jmfxeBru = {
+            "id" = "jmfxeBru";
+            "file" = "rusty-connector-0.7.1.jar";
+            "hash" = "sha512-Btaf874imr07MOKojqvtPeJKsohI4mjHjrXdJ4Rm35UTcyKcUoCwGP6yAS/NYOb0MFTAw4d/gwtg4dWwpiIizw==";
+        };
+        _msRLAc9z = {
+            "id" = "msRLAc9z";
+            "file" = "rusty-connector-0.7.2.jar";
+            "hash" = "sha512-/wN7UUwPpXARmlHHJgl66EcDlUWr80pDrOqIwD7mMCe3HeyGnW9htv/RvuCs57PETjv5tJqi76gm1ecpvs/BYA==";
+        };
+        _2g0TaHMZ = {
+            "id" = "2g0TaHMZ";
+            "file" = "rustyconnector-0.8.0.jar";
+            "hash" = "sha512-rMaJLhHk0vCjD5KqV3k6mHnOkK/cYs/rd6qvwVfEVFCCJ2W8eyYHwgwdj/TGHqC4jP/Nwx8f9VpiPinagACT+g==";
+        };
+        _BcYlqIkV = {
+            "id" = "BcYlqIkV";
+            "file" = "rustyconnector-0.8.1.jar";
+            "hash" = "sha512-cBKzYbEWD0cnetFwl6+pQcX4WHsZEwy9npDi2hsMjNsN4TPLkBeHDJs5RmE0260ngXh6N2R9S62aJHTNEtQsSg==";
+        };
+        _8ViPNGxp = {
+            "id" = "8ViPNGxp";
+            "file" = "rustyconnector-0.8.2.jar";
+            "hash" = "sha512-W57m75dXEtXWQ3rfiT2UC3Zyj3SHVt8KXhCbAhbv1ZPyMfd6GQjTOaQAgAf2nDTf/WhWurpHl3TjbheWzFPYEw==";
+        };
+        _nO8OCoU9 = {
+            "id" = "nO8OCoU9";
+            "file" = "rustyconnector-fabric-0.9.0.jar";
+            "hash" = "sha512-ymKJYzZ5E4WlOp8h8Eg5jmwj7gXCdCBmKBf8u8/yGLQ0yCkyATz3OftSComDAd6vtYiuyEGmK1ihvrrmngAo9Q==";
+        };
+        _CsT8ofKb = {
+            "id" = "CsT8ofKb";
+            "file" = "rustyconnector-fabric-0.9.1.jar";
+            "hash" = "sha512-DrizjtJxFY2B4/Ov43p5gCwKTLpT4S0FyBZi3OTuwJEMCu41YBEkW1jL4SIDQ5j2lnT5LZurxApqyyeF41i98w==";
+        };
+        _iy0UvtvP = {
+            "id" = "iy0UvtvP";
+            "file" = "rustyconnector-paper-0.9.1.jar";
+            "hash" = "sha512-DDCK7Tc9EmWili3djRPtl9JOeplLeLLD+w2NiMrepHRYtQyKhp9pqP4LZfc1BkVlQcI509uM+kxk4JZ+T3MEXQ==";
+        };
+        _h5y42FUn = {
+            "id" = "h5y42FUn";
+            "file" = "rustyconnector-velocity-0.9.1.jar";
+            "hash" = "sha512-aV7ZXMdcnnnixJuc2rf4KO7OcwxmPwF/UUSB+CdkEUGupOanHtdEgCGDgHvEdrkNs7MVXCjudBVC2Hgwtc3zlA==";
+        };
+    in {
+        "DQPYjJno" = _DQPYjJno;
+        "kWgd2xon" = _kWgd2xon;
+        "OtgPRXhc" = _OtgPRXhc;
+        "tx9VDSWf" = _tx9VDSWf;
+        "ugMttweY" = _ugMttweY;
+        "dRxeBVMB" = _dRxeBVMB;
+        "UPWItT0i" = _UPWItT0i;
+        "tCLcpLyk" = _tCLcpLyk;
+        "svBT5Aox" = _svBT5Aox;
+        "DsETJthQ" = _DsETJthQ;
+        "jmfxeBru" = _jmfxeBru;
+        "msRLAc9z" = _msRLAc9z;
+        "2g0TaHMZ" = _2g0TaHMZ;
+        "BcYlqIkV" = _BcYlqIkV;
+        "8ViPNGxp" = _8ViPNGxp;
+        "nO8OCoU9" = _nO8OCoU9;
+        "CsT8ofKb" = _CsT8ofKb;
+        "iy0UvtvP" = _iy0UvtvP;
+        "h5y42FUn" = _h5y42FUn;
+        "paper-1.16" = _iy0UvtvP;
+        "paper-1.16.1" = _iy0UvtvP;
+        "paper-1.16.2" = _iy0UvtvP;
+        "paper-1.16.3" = _iy0UvtvP;
+        "paper-1.16.4" = _iy0UvtvP;
+        "paper-1.16.5" = _iy0UvtvP;
+        "paper-1.17" = _iy0UvtvP;
+        "paper-1.17.1" = _iy0UvtvP;
+        "paper-1.18" = _iy0UvtvP;
+        "paper-1.18.1" = _iy0UvtvP;
+        "paper-1.18.2" = _iy0UvtvP;
+        "paper-1.19" = _iy0UvtvP;
+        "paper-1.19.1" = _iy0UvtvP;
+        "paper-1.19.2" = _iy0UvtvP;
+        "paper-1.19.3" = _iy0UvtvP;
+        "paper-1.19.4" = _iy0UvtvP;
+        "paper-1.20" = _iy0UvtvP;
+        "paper-1.20.1" = _iy0UvtvP;
+        "paper-1.20.2" = _iy0UvtvP;
+        "paper-1.20.3" = _iy0UvtvP;
+        "paper-1.20.4" = _iy0UvtvP;
+        "paper-1.20.5" = _iy0UvtvP;
+        "paper-1.20.6" = _iy0UvtvP;
+        "paper-1.21" = _iy0UvtvP;
+        "paper-1.21.1" = _iy0UvtvP;
+        "paper-1.21.2" = _iy0UvtvP;
+        "paper-1.21.3" = _iy0UvtvP;
+        "paper-1.21.4" = _iy0UvtvP;
+        "paper-1.21.5" = _iy0UvtvP;
+        "paper-1.21.6" = _iy0UvtvP;
+        "paper-1.21.7" = _iy0UvtvP;
+        "paper-1.21.8" = _iy0UvtvP;
+        "paper-1.21.9" = _iy0UvtvP;
+        "paper-1.21.10" = _iy0UvtvP;
+        "velocity-1.16" = _nO8OCoU9;
+        "velocity-1.16.1" = _nO8OCoU9;
+        "velocity-1.16.2" = _nO8OCoU9;
+        "velocity-1.16.3" = _nO8OCoU9;
+        "velocity-1.16.4" = _nO8OCoU9;
+        "velocity-1.16.5" = _h5y42FUn;
+        "velocity-1.17" = _h5y42FUn;
+        "velocity-1.17.1" = _h5y42FUn;
+        "velocity-1.18" = _h5y42FUn;
+        "velocity-1.18.1" = _h5y42FUn;
+        "velocity-1.18.2" = _h5y42FUn;
+        "velocity-1.19" = _h5y42FUn;
+        "velocity-1.19.1" = _h5y42FUn;
+        "velocity-1.19.2" = _h5y42FUn;
+        "velocity-1.19.3" = _h5y42FUn;
+        "velocity-1.19.4" = _h5y42FUn;
+        "velocity-1.20" = _h5y42FUn;
+        "velocity-1.20.1" = _h5y42FUn;
+        "velocity-1.20.2" = _h5y42FUn;
+        "velocity-1.20.3" = _h5y42FUn;
+        "velocity-1.20.4" = _h5y42FUn;
+        "velocity-1.20.5" = _h5y42FUn;
+        "velocity-1.20.6" = _h5y42FUn;
+        "velocity-1.21" = _h5y42FUn;
+        "velocity-1.21.1" = _h5y42FUn;
+        "velocity-1.21.2" = _h5y42FUn;
+        "velocity-1.21.3" = _h5y42FUn;
+        "velocity-1.21.4" = _h5y42FUn;
+        "velocity-1.21.5" = _h5y42FUn;
+        "velocity-1.21.6" = _h5y42FUn;
+        "velocity-1.21.7" = _h5y42FUn;
+        "velocity-1.21.8" = _h5y42FUn;
+        "velocity-1.21.9" = _h5y42FUn;
+        "velocity-1.21.10" = _h5y42FUn;
+        "folia-1.16" = _iy0UvtvP;
+        "folia-1.16.1" = _iy0UvtvP;
+        "folia-1.16.2" = _iy0UvtvP;
+        "folia-1.16.3" = _iy0UvtvP;
+        "folia-1.16.4" = _iy0UvtvP;
+        "folia-1.16.5" = _iy0UvtvP;
+        "folia-1.17" = _iy0UvtvP;
+        "folia-1.17.1" = _iy0UvtvP;
+        "folia-1.18" = _iy0UvtvP;
+        "folia-1.18.1" = _iy0UvtvP;
+        "folia-1.18.2" = _iy0UvtvP;
+        "folia-1.19" = _iy0UvtvP;
+        "folia-1.19.1" = _iy0UvtvP;
+        "folia-1.19.2" = _iy0UvtvP;
+        "folia-1.19.3" = _iy0UvtvP;
+        "folia-1.19.4" = _iy0UvtvP;
+        "folia-1.20" = _iy0UvtvP;
+        "folia-1.20.1" = _iy0UvtvP;
+        "folia-1.20.2" = _iy0UvtvP;
+        "folia-1.20.3" = _iy0UvtvP;
+        "folia-1.20.4" = _iy0UvtvP;
+        "folia-1.20.5" = _iy0UvtvP;
+        "folia-1.20.6" = _iy0UvtvP;
+        "folia-1.21" = _iy0UvtvP;
+        "folia-1.21.1" = _iy0UvtvP;
+        "folia-1.21.2" = _iy0UvtvP;
+        "folia-1.21.3" = _iy0UvtvP;
+        "folia-1.21.4" = _iy0UvtvP;
+        "folia-1.21.5" = _iy0UvtvP;
+        "folia-1.21.6" = _iy0UvtvP;
+        "folia-1.21.7" = _iy0UvtvP;
+        "folia-1.21.8" = _iy0UvtvP;
+        "folia-1.21.9" = _iy0UvtvP;
+        "folia-1.21.10" = _iy0UvtvP;
+        "fabric-1.16" = _nO8OCoU9;
+        "fabric-1.16.1" = _nO8OCoU9;
+        "fabric-1.16.2" = _nO8OCoU9;
+        "fabric-1.16.3" = _nO8OCoU9;
+        "fabric-1.16.4" = _nO8OCoU9;
+        "fabric-1.16.5" = _CsT8ofKb;
+        "fabric-1.17" = _CsT8ofKb;
+        "fabric-1.17.1" = _CsT8ofKb;
+        "fabric-1.18" = _CsT8ofKb;
+        "fabric-1.18.1" = _CsT8ofKb;
+        "fabric-1.18.2" = _CsT8ofKb;
+        "fabric-1.19" = _CsT8ofKb;
+        "fabric-1.19.1" = _CsT8ofKb;
+        "fabric-1.19.2" = _CsT8ofKb;
+        "fabric-1.19.3" = _CsT8ofKb;
+        "fabric-1.19.4" = _CsT8ofKb;
+        "fabric-1.20" = _CsT8ofKb;
+        "fabric-1.20.1" = _CsT8ofKb;
+        "fabric-1.20.2" = _CsT8ofKb;
+        "fabric-1.20.3" = _CsT8ofKb;
+        "fabric-1.20.4" = _CsT8ofKb;
+        "fabric-1.20.5" = _CsT8ofKb;
+        "fabric-1.20.6" = _CsT8ofKb;
+        "fabric-1.21" = _CsT8ofKb;
+        "fabric-1.21.1" = _CsT8ofKb;
+        "fabric-1.21.2" = _CsT8ofKb;
+        "fabric-1.21.3" = _CsT8ofKb;
+        "fabric-1.21.4" = _CsT8ofKb;
+        "fabric-1.21.5" = _CsT8ofKb;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "rustyconnector";
+            id = "Hd02Faj9";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = "https://www.gnu.org/licenses/gpl-3.0.en.html";
+                };
+            };
+        };
+in callPackage fn {version="h5y42FUn";}

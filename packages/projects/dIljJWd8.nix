@@ -1,0 +1,252 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _TwOeiKbF = {
+            "id" = "TwOeiKbF";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-Np4FLvBjQNfuaAZhXJgOk/eN+F00SctWY16HWDtSUdzVT0A+d84TK1TpHlAyQtS9OOh+MxHQhlKyMcZKFzpZEw==";
+        };
+        _ZmbJnXCf = {
+            "id" = "ZmbJnXCf";
+            "file" = "MCSM - Musicpack v1.1.zip";
+            "hash" = "sha512-gD2Z4IPutydrcPKbiatscwlIa3UOCBHIXFe+s+KzOz8RjBOgIlhrJ9irEnbqB4Bff2xmHuYZM49iyg6MSudiSQ==";
+        };
+        _MypjMBsf = {
+            "id" = "MypjMBsf";
+            "file" = "MCSM - Musicpack v1.2.zip";
+            "hash" = "sha512-FF2k7+TuGdI8LCdIcsEV0ui7L5CTrKfs93ZLulsVtUBwNwQJvaDp8pDaufkGwl6A0E9USCdSxWeINrxGv8oiyg==";
+        };
+        _qph0jEce = {
+            "id" = "qph0jEce";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-P+wRiGy7ZzwWZUZmm5GsZceb7wgLCgOHCZuu4XyanJa8625JvDSurXqgSoX17ZzxPaAWJkRC1MOAGsj2ChqR/Q==";
+        };
+        _hWB69QFE = {
+            "id" = "hWB69QFE";
+            "file" = "MCSM - Musicpack (1.8.9+).zip";
+            "hash" = "sha512-Hn7GjmIfQz3uKou05GG3k4E/80c3emD7BIi3fShwEdv+v3t1jxiBLnDb4+DftWOdqoNygAQkZ5ALoPm/jwJcZg==";
+        };
+        _kH6BAMbD = {
+            "id" = "kH6BAMbD";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-d0r3ZcCV9jiH3EfCYb+8meaANQchtT/yJ6pk2MlTKR+pOb+vg2vKaB2XpOSd2VUGJfuz5aCzfY4eSJzlqqbGxA==";
+        };
+        _syhOd3UT = {
+            "id" = "syhOd3UT";
+            "file" = "MCSM Musicpack (1.8.9+).zip";
+            "hash" = "sha512-tf+vf9/wDOC8gLeAkIxTicYThQdsPLLQFX0nZ5I5yr6sBm62X+IM5snmlLskNiDQAvnB6Ld+NLOQrIUU6vK0Pg==";
+        };
+        _UAWs24bM = {
+            "id" = "UAWs24bM";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-KWz06faqhgNvsl7Uv3B7BoYIoHT9B+lW+ChGXoekk7lp8Ip8jgdnULJSkMcDq2SmF+wIBhhefne82UjwzpklrA==";
+        };
+        _GBsjfj5Y = {
+            "id" = "GBsjfj5Y";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-YwRDpYNIgTxYJ2TPaWXvElvO160T15ccy6inrPWuUAswco/BPJs5stesdvnwkC4CfdMSzyIQG8LQN2jPj5/tPA==";
+        };
+        _FnAF1pPT = {
+            "id" = "FnAF1pPT";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-hKNvk15HM+CjBor1wDUgQXpHTuMKn+MPG1yvyD+0Di+SdMDcFJ/nWa1+RF86Hqb5uHLMPRaoGjLHyGNfcUAkYQ==";
+        };
+        _hDdaee6f = {
+            "id" = "hDdaee6f";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-qYEXVE4If/zKMwjHNJxGif+40tIyiJcyTUigZ0gp+2BMmx2VDdUFYRBtERPkACpgkU+akkaMY01U/gOQYNE8Vw==";
+        };
+        _LB8kqyHu = {
+            "id" = "LB8kqyHu";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-Pv1F4hqByigUZOrmhLU4qwwPBrTbodR/x6AUyBm0ukr9qbMJ9kANANShI/zWFQY7VgG4bwTAx7WrhchcEWKuKg==";
+        };
+        _jjnMK0o1 = {
+            "id" = "jjnMK0o1";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-pLrSRgTye3JpD8LoP2ZgEAEBnXkETVhQWKRTeDcF1On7gL0D94FeYH+oe8+tu2ojJN3CjkHfyBiIHR6DRxpWYg==";
+        };
+        _LmzMkJQj = {
+            "id" = "LmzMkJQj";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-DE3hmpxtLSBVQ/aHhVd04A3nb3aHhTbHexLcHH06yz8PxgSkG8IBdnqVAqjXPAMyjE6LCVixI/77VXjRVZglhA==";
+        };
+        _V6ebpanN = {
+            "id" = "V6ebpanN";
+            "file" = "MCSM - Musicpack.zip";
+            "hash" = "sha512-H2wVxX/eQ95FC3W6HKudf5K2ZsK2Tep0M3AfR+/rZ+8R3GXXS9UcTVWPcve82aiR+4ZyTAX544yuouCMV1jRCA==";
+        };
+    in {
+        "TwOeiKbF" = _TwOeiKbF;
+        "ZmbJnXCf" = _ZmbJnXCf;
+        "MypjMBsf" = _MypjMBsf;
+        "qph0jEce" = _qph0jEce;
+        "hWB69QFE" = _hWB69QFE;
+        "kH6BAMbD" = _kH6BAMbD;
+        "syhOd3UT" = _syhOd3UT;
+        "UAWs24bM" = _UAWs24bM;
+        "GBsjfj5Y" = _GBsjfj5Y;
+        "FnAF1pPT" = _FnAF1pPT;
+        "hDdaee6f" = _hDdaee6f;
+        "LB8kqyHu" = _LB8kqyHu;
+        "jjnMK0o1" = _jjnMK0o1;
+        "LmzMkJQj" = _LmzMkJQj;
+        "V6ebpanN" = _V6ebpanN;
+        "minecraft-1.21.1" = _V6ebpanN;
+        "minecraft-1.21.2" = _V6ebpanN;
+        "minecraft-1.21.3" = _V6ebpanN;
+        "minecraft-1.21.4" = _V6ebpanN;
+        "minecraft-1.21.5" = _V6ebpanN;
+        "minecraft-1.21.6" = _V6ebpanN;
+        "minecraft-1.21.7" = _V6ebpanN;
+        "minecraft-1.21.8" = _V6ebpanN;
+        "minecraft-1.21.9" = _V6ebpanN;
+        "minecraft-1.21.10" = _V6ebpanN;
+        "minecraft-1.20.3" = _V6ebpanN;
+        "minecraft-1.20.4" = _V6ebpanN;
+        "minecraft-1.20.5" = _V6ebpanN;
+        "minecraft-1.20.6" = _V6ebpanN;
+        "minecraft-1.21" = _V6ebpanN;
+        "minecraft-1.8.9" = _V6ebpanN;
+        "minecraft-1.9" = _V6ebpanN;
+        "minecraft-1.9.1" = _V6ebpanN;
+        "minecraft-1.9.2" = _V6ebpanN;
+        "minecraft-1.9.3" = _V6ebpanN;
+        "minecraft-1.9.4" = _V6ebpanN;
+        "minecraft-1.10" = _V6ebpanN;
+        "minecraft-1.10.1" = _V6ebpanN;
+        "minecraft-1.10.2" = _V6ebpanN;
+        "minecraft-1.11" = _V6ebpanN;
+        "minecraft-1.11.1" = _V6ebpanN;
+        "minecraft-1.11.2" = _V6ebpanN;
+        "minecraft-1.12" = _V6ebpanN;
+        "minecraft-1.12.1" = _V6ebpanN;
+        "minecraft-1.12.2" = _V6ebpanN;
+        "minecraft-1.13" = _V6ebpanN;
+        "minecraft-1.13.1" = _V6ebpanN;
+        "minecraft-1.13.2" = _V6ebpanN;
+        "minecraft-1.14" = _V6ebpanN;
+        "minecraft-1.14.1" = _V6ebpanN;
+        "minecraft-1.14.2" = _V6ebpanN;
+        "minecraft-1.14.3" = _V6ebpanN;
+        "minecraft-1.14.4" = _V6ebpanN;
+        "minecraft-1.15" = _V6ebpanN;
+        "minecraft-1.15.1" = _V6ebpanN;
+        "minecraft-1.15.2" = _V6ebpanN;
+        "minecraft-1.16" = _V6ebpanN;
+        "minecraft-1.16.1" = _V6ebpanN;
+        "minecraft-1.16.2" = _V6ebpanN;
+        "minecraft-1.16.3" = _V6ebpanN;
+        "minecraft-1.16.4" = _V6ebpanN;
+        "minecraft-1.16.5" = _V6ebpanN;
+        "minecraft-1.17" = _V6ebpanN;
+        "minecraft-1.17.1" = _V6ebpanN;
+        "minecraft-1.18" = _V6ebpanN;
+        "minecraft-1.18.1" = _V6ebpanN;
+        "minecraft-1.18.2" = _V6ebpanN;
+        "minecraft-1.19" = _V6ebpanN;
+        "minecraft-1.19.1" = _V6ebpanN;
+        "minecraft-1.19.2" = _V6ebpanN;
+        "minecraft-1.19.3" = _V6ebpanN;
+        "minecraft-1.19.4" = _V6ebpanN;
+        "minecraft-1.20" = _V6ebpanN;
+        "minecraft-1.20.1" = _V6ebpanN;
+        "minecraft-1.20.2" = _V6ebpanN;
+        "minecraft-1.21.11" = _V6ebpanN;
+        "minecraft-26.1" = _V6ebpanN;
+        "minecraft-26.1.1" = _V6ebpanN;
+        "minecraft-26.1.2" = _V6ebpanN;
+        "minecraft-1.7.4" = _V6ebpanN;
+        "minecraft-1.7.5" = _V6ebpanN;
+        "minecraft-1.7.6" = _V6ebpanN;
+        "minecraft-1.7.7" = _V6ebpanN;
+        "minecraft-1.7.8" = _V6ebpanN;
+        "minecraft-1.7.9" = _V6ebpanN;
+        "minecraft-1.7.10" = _V6ebpanN;
+        "minecraft-1.8" = _V6ebpanN;
+        "minecraft-1.8.1" = _V6ebpanN;
+        "minecraft-1.8.2" = _V6ebpanN;
+        "minecraft-1.8.3" = _V6ebpanN;
+        "minecraft-1.8.4" = _V6ebpanN;
+        "minecraft-1.8.5" = _V6ebpanN;
+        "minecraft-1.8.6" = _V6ebpanN;
+        "minecraft-1.8.7" = _V6ebpanN;
+        "minecraft-1.8.8" = _V6ebpanN;
+        "minecraft-22w42a" = _V6ebpanN;
+        "minecraft-22w43a" = _V6ebpanN;
+        "minecraft-22w44a" = _V6ebpanN;
+        "minecraft-23w14a" = _V6ebpanN;
+        "minecraft-23w16a" = _V6ebpanN;
+        "minecraft-23w31a" = _V6ebpanN;
+        "minecraft-23w32a" = _V6ebpanN;
+        "minecraft-23w33a" = _V6ebpanN;
+        "minecraft-23w35a" = _V6ebpanN;
+        "minecraft-1.20.2-pre1" = _V6ebpanN;
+        "minecraft-1.6.1" = _V6ebpanN;
+        "minecraft-1.6.2" = _V6ebpanN;
+        "minecraft-1.6.4" = _V6ebpanN;
+        "minecraft-1.7.2" = _V6ebpanN;
+        "minecraft-1.7.3" = _V6ebpanN;
+        "minecraft-23w42a" = _V6ebpanN;
+        "minecraft-23w43a" = _V6ebpanN;
+        "minecraft-23w43b" = _V6ebpanN;
+        "minecraft-23w44a" = _V6ebpanN;
+        "minecraft-23w45a" = _V6ebpanN;
+        "minecraft-23w46a" = _V6ebpanN;
+        "minecraft-24w03a" = _V6ebpanN;
+        "minecraft-24w03b" = _V6ebpanN;
+        "minecraft-24w04a" = _V6ebpanN;
+        "minecraft-24w05a" = _V6ebpanN;
+        "minecraft-24w05b" = _V6ebpanN;
+        "minecraft-24w06a" = _V6ebpanN;
+        "minecraft-24w07a" = _V6ebpanN;
+        "minecraft-24w09a" = _V6ebpanN;
+        "minecraft-24w10a" = _V6ebpanN;
+        "minecraft-24w11a" = _V6ebpanN;
+        "minecraft-24w12a" = _V6ebpanN;
+        "minecraft-24w13a" = _V6ebpanN;
+        "minecraft-24w14potato" = _V6ebpanN;
+        "minecraft-24w14a" = _V6ebpanN;
+        "minecraft-1.20.5-pre1" = _V6ebpanN;
+        "minecraft-1.20.5-pre2" = _V6ebpanN;
+        "minecraft-1.20.5-pre3" = _V6ebpanN;
+        "minecraft-24w18a" = _V6ebpanN;
+        "minecraft-24w19a" = _V6ebpanN;
+        "minecraft-24w19b" = _V6ebpanN;
+        "minecraft-24w20a" = _V6ebpanN;
+        "minecraft-24w33a" = _V6ebpanN;
+        "minecraft-24w34a" = _V6ebpanN;
+        "minecraft-24w35a" = _V6ebpanN;
+        "minecraft-24w36a" = _V6ebpanN;
+        "minecraft-24w37a" = _V6ebpanN;
+        "minecraft-24w38a" = _V6ebpanN;
+        "minecraft-24w39a" = _V6ebpanN;
+        "minecraft-24w40a" = _V6ebpanN;
+        "minecraft-1.21.2-pre1" = _V6ebpanN;
+        "minecraft-1.21.2-pre2" = _V6ebpanN;
+        "minecraft-24w44a" = _V6ebpanN;
+        "minecraft-24w45a" = _V6ebpanN;
+        "minecraft-24w46a" = _V6ebpanN;
+        "minecraft-26.2" = _V6ebpanN;
+        "minecraft-26.3-snapshot-1" = _V6ebpanN;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "minecraft-story-mode-musicpack";
+            id = "dIljJWd8";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Creative Commons Zero v1.0 Universal";
+                    shortName = "CC0-1.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="V6ebpanN";}

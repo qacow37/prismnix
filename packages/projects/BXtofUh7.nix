@@ -1,0 +1,283 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _x2qPjAq2 = {
+            "id" = "x2qPjAq2";
+            "file" = "minimap-spigot-1.4.0.jar";
+            "hash" = "sha512-RBmm3iimcMQUQC6cGGKGc/Teqzebzr0lpuN0jtabJeBpE859u7xDCYVnXLjHe25vV0N3217Jw80/MuCGRLPfdw==";
+        };
+        _8KWwXSrr = {
+            "id" = "8KWwXSrr";
+            "file" = "minimap-sponge-8-1.4.0.jar";
+            "hash" = "sha512-d8ZvenToBWHq8r6T45jyXGxVgkEFyzIJngiloD/bKXSkwunFIuvmHfJK7Dd6GFBK48yzfTt7ZjK2UwU7vHR8kA==";
+        };
+        _VNmOmt8T = {
+            "id" = "VNmOmt8T";
+            "file" = "minimap-spigot-1.5.0.jar";
+            "hash" = "sha512-K0B3GnKrIfhd5YDbFTxkflOlt0pyBX1kEBRLBbAG9LCJYiPivnkeKwi8OhjEFMPmJp6yojet0yghhgxiINzE1A==";
+        };
+        _RYa7cJed = {
+            "id" = "RYa7cJed";
+            "file" = "minimap-sponge-8-1.5.0.jar";
+            "hash" = "sha512-mTgg+wFxjmX4Z+hvJFHlytRZURsOWjmYcmv5+5vwnONNApY6/iui14PmyQMSFyvRuCO0p2DbT1XlKv0ISs6PSA==";
+        };
+        _WODmur4Q = {
+            "id" = "WODmur4Q";
+            "file" = "minimap-spigot-1.6.0.jar";
+            "hash" = "sha512-K3znki94E8kuj1Dd7oxXoXf9Sh6bygQtzO9pSZPmo7Tp0aTSr6NLDpG9fRPqx0C9tb1Gw+uV/SchLqHNOxDJ2Q==";
+        };
+        _n4yGM7Iz = {
+            "id" = "n4yGM7Iz";
+            "file" = "minimap-sponge-8-1.6.0.jar";
+            "hash" = "sha512-SyXUFBFa7Uey4hYlsKslh/RwvqfSlNbwHsUW1RJzRLpga6cx20U/BvLvOwh1I3aAh6jv68k8TExftIPv5PZYNA==";
+        };
+        _GrXaTPLM = {
+            "id" = "GrXaTPLM";
+            "file" = "minimap-spigot-1.8.0.jar";
+            "hash" = "sha512-VVtH6NyD8PwZgLqUPJeFhgVWcbqwLOl2GboY6m1xpnk9o/4OSrVp7EDmP9U8p+/k7ZzXjnbL7+F7NDfpgkteXA==";
+        };
+        _S5Eeac7A = {
+            "id" = "S5Eeac7A";
+            "file" = "minimap-spigot-1.9.0.jar";
+            "hash" = "sha512-F2wvRUKFtLopO27rYwe6ka49TulMn693ywwd4ZJMezGJBWg2oexhdOwxd2uzqmxK3lfjIuoJi2PXBMyqOUDb9w==";
+        };
+        _lkWa10nb = {
+            "id" = "lkWa10nb";
+            "file" = "minimap-sponge-8-1.9.0.jar";
+            "hash" = "sha512-LHDKS3RU1zDv27mpyBWS1Wvua4LF8/8IjtQcmEdbSfdPkstj3UgtCp2HUy26YHYOit8iw2xv6aJ9Ka4eCSVQ0w==";
+        };
+        _tc8Y0hID = {
+            "id" = "tc8Y0hID";
+            "file" = "minimap-sponge-8-1.11.0.jar";
+            "hash" = "sha512-3aYdc5R8qhT4ePy3P3Wc9aQKdeG/Ov0Vj/P4rWPP44PSzPfUau+aagGeKy6ESlkBD8inOOVZes8myg+coXtMdw==";
+        };
+        _azlfG3nQ = {
+            "id" = "azlfG3nQ";
+            "file" = "minimap-spigot-1.11.0.jar";
+            "hash" = "sha512-g0IdZnkzNGfcm1k6AbzNvafMRXg7xbAPPewqN8feEgHNGIYuBo05VF24qj/UVi6IRt0Y8F+Y5T+3axgul6WbHw==";
+        };
+        _24ApoNVM = {
+            "id" = "24ApoNVM";
+            "file" = "minimap-spigot-1.12.0.jar";
+            "hash" = "sha512-pjHosCd4ieYIkaqMAkqXfHdriZc8gFgYi9ryqa/F9oucBkW/2xQpR1hJNpE/28DEK/dcBzS/WDdA4QwuAvVUtw==";
+        };
+        _XWK85gHo = {
+            "id" = "XWK85gHo";
+            "file" = "minimap-sponge-8-1.12.0.jar";
+            "hash" = "sha512-Ola49KgI0YouM2JKGGq7FOSItd8se8Y95b6bYQ+7NjVGMZLzewexEKtgI/xA2kxL0kNgW238P1y4SpD8rsBxdA==";
+        };
+        _XuZKJ5sU = {
+            "id" = "XuZKJ5sU";
+            "file" = "minimap-spigot-1.13.0.jar";
+            "hash" = "sha512-UK7tWvVXS/zn6+5cJfGF/I+z+JZG23s0mol79NI0Sr45qe6ns2zNfE4Cd47RxYzFp2+2kPOnzwluExt0I/9pZg==";
+        };
+        _gAoS4gAh = {
+            "id" = "gAoS4gAh";
+            "file" = "minimap-sponge-8-1.13.0.jar";
+            "hash" = "sha512-FiiOkKGipcI+Zx2AdH1HEE2OEPmNuED4wmSizKYdi6n9gXMru95RbwEBiKdNCyFu2uud2iqvOjNkEd1oEx29jw==";
+        };
+        _b28xRh7Z = {
+            "id" = "b28xRh7Z";
+            "file" = "minimap-spigot-1.17.0.jar";
+            "hash" = "sha512-/EwmK+sN95M8LTyovWXipLIu0TKtsbWfysqF0Rl9ac8Eog+bKP32BGhyS31hxkzwwWTEBv2Ir0hXO6Z0m/ltXw==";
+        };
+        _ezXEthYy = {
+            "id" = "ezXEthYy";
+            "file" = "minimap-sponge-8-1.17.0.jar";
+            "hash" = "sha512-HugVBM0uNosMyqFjDnUVljsjeIVzKLhoUGa5JPdEzHFl61bebnf7xjOWff1ZmxHy8n1nqfjfKQPh2/yA6tyLuQ==";
+        };
+        _Tb1om0yF = {
+            "id" = "Tb1om0yF";
+            "file" = "minimap-spigot-1.18.0.jar";
+            "hash" = "sha512-obtECacsyjJuG5YEpvkYhbdlRaHxqABVZtKCciEv4i2Zdvz821HJs6wNfXBISH4m9gI1d1DnctNX3k8vD+gJsg==";
+        };
+    in {
+        "x2qPjAq2" = _x2qPjAq2;
+        "8KWwXSrr" = _8KWwXSrr;
+        "VNmOmt8T" = _VNmOmt8T;
+        "RYa7cJed" = _RYa7cJed;
+        "WODmur4Q" = _WODmur4Q;
+        "n4yGM7Iz" = _n4yGM7Iz;
+        "GrXaTPLM" = _GrXaTPLM;
+        "S5Eeac7A" = _S5Eeac7A;
+        "lkWa10nb" = _lkWa10nb;
+        "tc8Y0hID" = _tc8Y0hID;
+        "azlfG3nQ" = _azlfG3nQ;
+        "24ApoNVM" = _24ApoNVM;
+        "XWK85gHo" = _XWK85gHo;
+        "XuZKJ5sU" = _XuZKJ5sU;
+        "gAoS4gAh" = _gAoS4gAh;
+        "b28xRh7Z" = _b28xRh7Z;
+        "ezXEthYy" = _ezXEthYy;
+        "Tb1om0yF" = _Tb1om0yF;
+        "bukkit-1.16" = _Tb1om0yF;
+        "bukkit-1.16.1" = _Tb1om0yF;
+        "bukkit-1.16.2" = _Tb1om0yF;
+        "bukkit-1.16.3" = _Tb1om0yF;
+        "bukkit-1.16.4" = _Tb1om0yF;
+        "bukkit-1.16.5" = _Tb1om0yF;
+        "bukkit-1.17" = _Tb1om0yF;
+        "bukkit-1.17.1" = _Tb1om0yF;
+        "bukkit-1.18" = _Tb1om0yF;
+        "bukkit-1.18.1" = _Tb1om0yF;
+        "bukkit-1.18.2" = _Tb1om0yF;
+        "bukkit-1.19" = _Tb1om0yF;
+        "bukkit-1.19.1" = _Tb1om0yF;
+        "bukkit-1.19.2" = _Tb1om0yF;
+        "bukkit-1.19.3" = _Tb1om0yF;
+        "bukkit-1.19.4" = _Tb1om0yF;
+        "bukkit-1.20" = _Tb1om0yF;
+        "bukkit-1.20.1" = _Tb1om0yF;
+        "bukkit-1.20.2" = _Tb1om0yF;
+        "bukkit-1.20.3" = _Tb1om0yF;
+        "bukkit-1.20.4" = _Tb1om0yF;
+        "bukkit-1.20.5" = _Tb1om0yF;
+        "bukkit-1.20.6" = _Tb1om0yF;
+        "bukkit-1.21" = _Tb1om0yF;
+        "bukkit-1.21.1" = _Tb1om0yF;
+        "bukkit-1.21.2" = _Tb1om0yF;
+        "bukkit-1.21.3" = _Tb1om0yF;
+        "bukkit-1.21.4" = _Tb1om0yF;
+        "bukkit-1.21.5" = _Tb1om0yF;
+        "bukkit-1.21.6" = _Tb1om0yF;
+        "bukkit-1.21.7" = _Tb1om0yF;
+        "bukkit-1.21.8" = _Tb1om0yF;
+        "bukkit-1.21.9" = _Tb1om0yF;
+        "bukkit-1.21.10" = _Tb1om0yF;
+        "bukkit-1.21.11" = _Tb1om0yF;
+        "bukkit-26.1" = _Tb1om0yF;
+        "bukkit-26.1.1" = _Tb1om0yF;
+        "bukkit-26.1.2" = _Tb1om0yF;
+        "paper-1.16" = _Tb1om0yF;
+        "paper-1.16.1" = _Tb1om0yF;
+        "paper-1.16.2" = _Tb1om0yF;
+        "paper-1.16.3" = _Tb1om0yF;
+        "paper-1.16.4" = _Tb1om0yF;
+        "paper-1.16.5" = _Tb1om0yF;
+        "paper-1.17" = _Tb1om0yF;
+        "paper-1.17.1" = _Tb1om0yF;
+        "paper-1.18" = _Tb1om0yF;
+        "paper-1.18.1" = _Tb1om0yF;
+        "paper-1.18.2" = _Tb1om0yF;
+        "paper-1.19" = _Tb1om0yF;
+        "paper-1.19.1" = _Tb1om0yF;
+        "paper-1.19.2" = _Tb1om0yF;
+        "paper-1.19.3" = _Tb1om0yF;
+        "paper-1.19.4" = _Tb1om0yF;
+        "paper-1.20" = _Tb1om0yF;
+        "paper-1.20.1" = _Tb1om0yF;
+        "paper-1.20.2" = _Tb1om0yF;
+        "paper-1.20.3" = _Tb1om0yF;
+        "paper-1.20.4" = _Tb1om0yF;
+        "paper-1.20.5" = _Tb1om0yF;
+        "paper-1.20.6" = _Tb1om0yF;
+        "paper-1.21" = _Tb1om0yF;
+        "paper-1.21.1" = _Tb1om0yF;
+        "paper-1.21.2" = _Tb1om0yF;
+        "paper-1.21.3" = _Tb1om0yF;
+        "paper-1.21.4" = _Tb1om0yF;
+        "paper-1.21.5" = _Tb1om0yF;
+        "paper-1.21.6" = _Tb1om0yF;
+        "paper-1.21.7" = _Tb1om0yF;
+        "paper-1.21.8" = _Tb1om0yF;
+        "paper-1.21.9" = _Tb1om0yF;
+        "paper-1.21.10" = _Tb1om0yF;
+        "paper-1.21.11" = _Tb1om0yF;
+        "paper-26.1" = _Tb1om0yF;
+        "paper-26.1.1" = _Tb1om0yF;
+        "paper-26.1.2" = _Tb1om0yF;
+        "purpur-1.16" = _b28xRh7Z;
+        "purpur-1.16.1" = _b28xRh7Z;
+        "purpur-1.16.2" = _b28xRh7Z;
+        "purpur-1.16.3" = _b28xRh7Z;
+        "purpur-1.16.4" = _b28xRh7Z;
+        "purpur-1.16.5" = _b28xRh7Z;
+        "purpur-1.17" = _b28xRh7Z;
+        "purpur-1.17.1" = _b28xRh7Z;
+        "purpur-1.18" = _b28xRh7Z;
+        "purpur-1.18.1" = _b28xRh7Z;
+        "purpur-1.18.2" = _b28xRh7Z;
+        "purpur-1.19" = _b28xRh7Z;
+        "purpur-1.19.1" = _b28xRh7Z;
+        "purpur-1.19.2" = _b28xRh7Z;
+        "purpur-1.19.3" = _b28xRh7Z;
+        "purpur-1.19.4" = _b28xRh7Z;
+        "purpur-1.20" = _b28xRh7Z;
+        "purpur-1.20.1" = _b28xRh7Z;
+        "purpur-1.20.2" = _b28xRh7Z;
+        "purpur-1.20.3" = _b28xRh7Z;
+        "purpur-1.20.4" = _b28xRh7Z;
+        "purpur-1.20.5" = _b28xRh7Z;
+        "purpur-1.20.6" = _b28xRh7Z;
+        "purpur-1.21" = _b28xRh7Z;
+        "purpur-1.21.1" = _b28xRh7Z;
+        "purpur-1.21.2" = _b28xRh7Z;
+        "purpur-1.21.3" = _b28xRh7Z;
+        "purpur-1.21.4" = _b28xRh7Z;
+        "purpur-1.21.5" = _b28xRh7Z;
+        "purpur-1.21.6" = _b28xRh7Z;
+        "purpur-1.21.7" = _b28xRh7Z;
+        "purpur-1.21.8" = _b28xRh7Z;
+        "purpur-1.21.9" = _b28xRh7Z;
+        "purpur-1.21.10" = _b28xRh7Z;
+        "purpur-1.21.11" = _b28xRh7Z;
+        "spigot-1.16" = _Tb1om0yF;
+        "spigot-1.16.1" = _Tb1om0yF;
+        "spigot-1.16.2" = _Tb1om0yF;
+        "spigot-1.16.3" = _Tb1om0yF;
+        "spigot-1.16.4" = _Tb1om0yF;
+        "spigot-1.16.5" = _Tb1om0yF;
+        "spigot-1.17" = _Tb1om0yF;
+        "spigot-1.17.1" = _Tb1om0yF;
+        "spigot-1.18" = _Tb1om0yF;
+        "spigot-1.18.1" = _Tb1om0yF;
+        "spigot-1.18.2" = _Tb1om0yF;
+        "spigot-1.19" = _Tb1om0yF;
+        "spigot-1.19.1" = _Tb1om0yF;
+        "spigot-1.19.2" = _Tb1om0yF;
+        "spigot-1.19.3" = _Tb1om0yF;
+        "spigot-1.19.4" = _Tb1om0yF;
+        "spigot-1.20" = _Tb1om0yF;
+        "spigot-1.20.1" = _Tb1om0yF;
+        "spigot-1.20.2" = _Tb1om0yF;
+        "spigot-1.20.3" = _Tb1om0yF;
+        "spigot-1.20.4" = _Tb1om0yF;
+        "spigot-1.20.5" = _Tb1om0yF;
+        "spigot-1.20.6" = _Tb1om0yF;
+        "spigot-1.21" = _Tb1om0yF;
+        "spigot-1.21.1" = _Tb1om0yF;
+        "spigot-1.21.2" = _Tb1om0yF;
+        "spigot-1.21.3" = _Tb1om0yF;
+        "spigot-1.21.4" = _Tb1om0yF;
+        "spigot-1.21.5" = _Tb1om0yF;
+        "spigot-1.21.6" = _Tb1om0yF;
+        "spigot-1.21.7" = _Tb1om0yF;
+        "spigot-1.21.8" = _Tb1om0yF;
+        "spigot-1.21.9" = _Tb1om0yF;
+        "spigot-1.21.10" = _Tb1om0yF;
+        "spigot-1.21.11" = _Tb1om0yF;
+        "spigot-26.1" = _Tb1om0yF;
+        "spigot-26.1.1" = _Tb1om0yF;
+        "spigot-26.1.2" = _Tb1om0yF;
+        "sponge-1.16.5" = _ezXEthYy;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "minimap-control";
+            id = "BXtofUh7";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="Tb1om0yF";}

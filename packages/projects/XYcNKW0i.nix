@@ -1,0 +1,141 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BpVP3pSe = {
+            "id" = "BpVP3pSe";
+            "file" = "Eugene's Wealthy Plains Village.zip";
+            "hash" = "sha512-xk4ByLUWXV9y8jRJYG7Z63f78dwxTwUTnTMtgfrDCEQe/9PRjP6EldENOOEphvzSDGDd/gvDgSK0+7jh+sx1og==";
+        };
+        _l81UGkCW = {
+            "id" = "l81UGkCW";
+            "file" = "eugenes-wealthy-plains-village-1.0.jar";
+            "hash" = "sha512-9/2rkmGr8QCZL/h7uk6OPYPray8CzZ7wEmrP7AmzRwjv8gTe7CZv7vumyCGieJkgIKTAPxa1IIWJ2w/o5coNXQ==";
+        };
+        _IdgrV67J = {
+            "id" = "IdgrV67J";
+            "file" = "Eugene's Wealthy Plains Village 1.0.1.zip";
+            "hash" = "sha512-KKMDLWacX9HEQe25okw8PBU6aK9Es388813r+ycTgEogHfV0VY0LYxOPkrkPNTBcLdzbcZrTDC8xt0ABYUFlYw==";
+        };
+        _zWjgoRWa = {
+            "id" = "zWjgoRWa";
+            "file" = "eugenes-wealthy-plains-village-1.0.1.jar";
+            "hash" = "sha512-fy+PzTL6mFixlE6m3jNjmEXNyj79im168T+uB43zytNh4jz71Cy0zZPnajBNaXb90ZDTHqhF40J2/cQNPlSwnA==";
+        };
+    in {
+        "BpVP3pSe" = _BpVP3pSe;
+        "l81UGkCW" = _l81UGkCW;
+        "IdgrV67J" = _IdgrV67J;
+        "zWjgoRWa" = _zWjgoRWa;
+        "datapack-1.14.4" = _IdgrV67J;
+        "datapack-1.15" = _IdgrV67J;
+        "datapack-1.15.1" = _IdgrV67J;
+        "datapack-1.15.2" = _IdgrV67J;
+        "datapack-1.16" = _IdgrV67J;
+        "datapack-1.16.1" = _IdgrV67J;
+        "datapack-1.16.2" = _IdgrV67J;
+        "datapack-1.16.3" = _IdgrV67J;
+        "datapack-1.16.4" = _IdgrV67J;
+        "datapack-1.16.5" = _IdgrV67J;
+        "datapack-1.17" = _IdgrV67J;
+        "datapack-1.17.1" = _IdgrV67J;
+        "datapack-1.18" = _IdgrV67J;
+        "datapack-1.18.1" = _IdgrV67J;
+        "datapack-1.18.2" = _IdgrV67J;
+        "datapack-1.19" = _IdgrV67J;
+        "datapack-1.19.1" = _IdgrV67J;
+        "datapack-1.19.2" = _IdgrV67J;
+        "datapack-1.19.3" = _IdgrV67J;
+        "datapack-1.19.4" = _IdgrV67J;
+        "datapack-1.20" = _IdgrV67J;
+        "datapack-1.20.1" = _IdgrV67J;
+        "datapack-1.20.2" = _IdgrV67J;
+        "fabric-1.14.4" = _zWjgoRWa;
+        "fabric-1.15" = _zWjgoRWa;
+        "fabric-1.15.1" = _zWjgoRWa;
+        "fabric-1.15.2" = _zWjgoRWa;
+        "fabric-1.16" = _zWjgoRWa;
+        "fabric-1.16.1" = _zWjgoRWa;
+        "fabric-1.16.2" = _zWjgoRWa;
+        "fabric-1.16.3" = _zWjgoRWa;
+        "fabric-1.16.4" = _zWjgoRWa;
+        "fabric-1.16.5" = _zWjgoRWa;
+        "fabric-1.17" = _zWjgoRWa;
+        "fabric-1.17.1" = _zWjgoRWa;
+        "fabric-1.18" = _zWjgoRWa;
+        "fabric-1.18.1" = _zWjgoRWa;
+        "fabric-1.18.2" = _zWjgoRWa;
+        "fabric-1.19" = _zWjgoRWa;
+        "fabric-1.19.1" = _zWjgoRWa;
+        "fabric-1.19.2" = _zWjgoRWa;
+        "fabric-1.19.3" = _zWjgoRWa;
+        "fabric-1.19.4" = _zWjgoRWa;
+        "fabric-1.20" = _zWjgoRWa;
+        "fabric-1.20.1" = _zWjgoRWa;
+        "fabric-1.20.2" = _zWjgoRWa;
+        "forge-1.14.4" = _zWjgoRWa;
+        "forge-1.15" = _zWjgoRWa;
+        "forge-1.15.1" = _zWjgoRWa;
+        "forge-1.15.2" = _zWjgoRWa;
+        "forge-1.16" = _zWjgoRWa;
+        "forge-1.16.1" = _zWjgoRWa;
+        "forge-1.16.2" = _zWjgoRWa;
+        "forge-1.16.3" = _zWjgoRWa;
+        "forge-1.16.4" = _zWjgoRWa;
+        "forge-1.16.5" = _zWjgoRWa;
+        "forge-1.17" = _zWjgoRWa;
+        "forge-1.17.1" = _zWjgoRWa;
+        "forge-1.18" = _zWjgoRWa;
+        "forge-1.18.1" = _zWjgoRWa;
+        "forge-1.18.2" = _zWjgoRWa;
+        "forge-1.19" = _zWjgoRWa;
+        "forge-1.19.1" = _zWjgoRWa;
+        "forge-1.19.2" = _zWjgoRWa;
+        "forge-1.19.3" = _zWjgoRWa;
+        "forge-1.19.4" = _zWjgoRWa;
+        "forge-1.20" = _zWjgoRWa;
+        "forge-1.20.1" = _zWjgoRWa;
+        "forge-1.20.2" = _zWjgoRWa;
+        "quilt-1.14.4" = _zWjgoRWa;
+        "quilt-1.15" = _zWjgoRWa;
+        "quilt-1.15.1" = _zWjgoRWa;
+        "quilt-1.15.2" = _zWjgoRWa;
+        "quilt-1.16" = _zWjgoRWa;
+        "quilt-1.16.1" = _zWjgoRWa;
+        "quilt-1.16.2" = _zWjgoRWa;
+        "quilt-1.16.3" = _zWjgoRWa;
+        "quilt-1.16.4" = _zWjgoRWa;
+        "quilt-1.16.5" = _zWjgoRWa;
+        "quilt-1.17" = _zWjgoRWa;
+        "quilt-1.17.1" = _zWjgoRWa;
+        "quilt-1.18" = _zWjgoRWa;
+        "quilt-1.18.1" = _zWjgoRWa;
+        "quilt-1.18.2" = _zWjgoRWa;
+        "quilt-1.19" = _zWjgoRWa;
+        "quilt-1.19.1" = _zWjgoRWa;
+        "quilt-1.19.2" = _zWjgoRWa;
+        "quilt-1.19.3" = _zWjgoRWa;
+        "quilt-1.19.4" = _zWjgoRWa;
+        "quilt-1.20" = _zWjgoRWa;
+        "quilt-1.20.1" = _zWjgoRWa;
+        "quilt-1.20.2" = _zWjgoRWa;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "eugenes-wealthy-plains-village";
+            id = "XYcNKW0i";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="zWjgoRWa";}

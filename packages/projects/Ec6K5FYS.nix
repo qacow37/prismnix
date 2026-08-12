@@ -1,0 +1,155 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _kaXnbX8j = {
+            "id" = "kaXnbX8j";
+            "file" = "disable-enderman-picking-up-blocks-1.0.jar";
+            "hash" = "sha512-pC8AHe0rA/W0nK3TrPFnmYbK6E/0FK20MXi10gMseO5jQdhE93WCZdZMXqgqanBTkba+V5zr4XWmSg/apKl2eQ==";
+        };
+        _uPx83ncD = {
+            "id" = "uPx83ncD";
+            "file" = "disable-enderman-picking-up-blocks - 1.19.3-1.0.jar";
+            "hash" = "sha512-OIF61BypiEmIHRWmuhWxv998xrtIbEVT15hwomNG5VIRD+GHXBrz1unviKN5dIBmxATBRssp8ugHKjrHg+r/AA==";
+        };
+        _BNudT5sz = {
+            "id" = "BNudT5sz";
+            "file" = "DEPB-1.19.4.jar";
+            "hash" = "sha512-zf8KyIEuRsckU8oi9QhQatvw5VmUw0qitSdGMe7uWrUz47lGMqLV8KHMuXQ60dQ0oI0CVyeVB5MF8F3X3dr30g==";
+        };
+        _fZSoEtFW = {
+            "id" = "fZSoEtFW";
+            "file" = "disable-enderman-picking-up-blocks-main-1.0.jar";
+            "hash" = "sha512-couRRUhQhhA5jdxBRZ6KpC3CDvCd1G90CnF7tOpbC22L6fqhMmI1OOOjobVfjWqi5KTxQbdASnh6E8I1fiNqCw==";
+        };
+        _FaAhSsAD = {
+            "id" = "FaAhSsAD";
+            "file" = "depub.jar";
+            "hash" = "sha512-Nnl45j0EsrPfU1r9M8k76XxixJspVKchtq1jrj+bqjj2LRE3/eXqgP3lyIOR4Zk8MffSQo8dpErApZenfaMjBA==";
+        };
+    in {
+        "kaXnbX8j" = _kaXnbX8j;
+        "uPx83ncD" = _uPx83ncD;
+        "BNudT5sz" = _BNudT5sz;
+        "fZSoEtFW" = _fZSoEtFW;
+        "FaAhSsAD" = _FaAhSsAD;
+        "fabric-1.19.2" = _FaAhSsAD;
+        "fabric-1.19.3" = _FaAhSsAD;
+        "fabric-1.19.4" = _FaAhSsAD;
+        "fabric-1.20.1" = _FaAhSsAD;
+        "fabric-1.18.2" = _FaAhSsAD;
+        "fabric-1.19" = _FaAhSsAD;
+        "fabric-1.19.1" = _FaAhSsAD;
+        "fabric-1.20" = _FaAhSsAD;
+        "fabric-1.20.2" = _FaAhSsAD;
+        "fabric-1.20.3" = _FaAhSsAD;
+        "fabric-1.20.4" = _FaAhSsAD;
+        "fabric-1.20.5" = _FaAhSsAD;
+        "fabric-1.20.6" = _FaAhSsAD;
+        "fabric-1.21" = _FaAhSsAD;
+        "fabric-1.21.1" = _FaAhSsAD;
+        "fabric-1.21.2" = _FaAhSsAD;
+        "fabric-1.21.3" = _FaAhSsAD;
+        "fabric-1.21.4" = _FaAhSsAD;
+        "fabric-1.21.5" = _FaAhSsAD;
+        "fabric-1.21.6" = _FaAhSsAD;
+        "fabric-1.21.7" = _FaAhSsAD;
+        "fabric-1.21.8" = _FaAhSsAD;
+        "fabric-1.21.9" = _FaAhSsAD;
+        "fabric-1.21.10" = _FaAhSsAD;
+        "fabric-1.21.11" = _FaAhSsAD;
+        "forge-1.19.2" = _FaAhSsAD;
+        "forge-1.19.3" = _FaAhSsAD;
+        "forge-1.19.4" = _FaAhSsAD;
+        "forge-1.20.1" = _FaAhSsAD;
+        "forge-1.18.2" = _FaAhSsAD;
+        "forge-1.19" = _FaAhSsAD;
+        "forge-1.19.1" = _FaAhSsAD;
+        "forge-1.20" = _FaAhSsAD;
+        "forge-1.20.2" = _FaAhSsAD;
+        "forge-1.20.3" = _FaAhSsAD;
+        "forge-1.20.4" = _FaAhSsAD;
+        "forge-1.20.5" = _FaAhSsAD;
+        "forge-1.20.6" = _FaAhSsAD;
+        "forge-1.21" = _FaAhSsAD;
+        "forge-1.21.1" = _FaAhSsAD;
+        "forge-1.21.2" = _FaAhSsAD;
+        "forge-1.21.3" = _FaAhSsAD;
+        "forge-1.21.4" = _FaAhSsAD;
+        "forge-1.21.5" = _FaAhSsAD;
+        "forge-1.21.6" = _FaAhSsAD;
+        "forge-1.21.7" = _FaAhSsAD;
+        "forge-1.21.8" = _FaAhSsAD;
+        "forge-1.21.9" = _FaAhSsAD;
+        "forge-1.21.10" = _FaAhSsAD;
+        "forge-1.21.11" = _FaAhSsAD;
+        "neoforge-1.18.2" = _FaAhSsAD;
+        "neoforge-1.19" = _FaAhSsAD;
+        "neoforge-1.19.1" = _FaAhSsAD;
+        "neoforge-1.19.2" = _FaAhSsAD;
+        "neoforge-1.19.3" = _FaAhSsAD;
+        "neoforge-1.19.4" = _FaAhSsAD;
+        "neoforge-1.20" = _FaAhSsAD;
+        "neoforge-1.20.1" = _FaAhSsAD;
+        "neoforge-1.20.2" = _FaAhSsAD;
+        "neoforge-1.20.3" = _FaAhSsAD;
+        "neoforge-1.20.4" = _FaAhSsAD;
+        "neoforge-1.20.5" = _FaAhSsAD;
+        "neoforge-1.20.6" = _FaAhSsAD;
+        "neoforge-1.21" = _FaAhSsAD;
+        "neoforge-1.21.1" = _FaAhSsAD;
+        "neoforge-1.21.2" = _FaAhSsAD;
+        "neoforge-1.21.3" = _FaAhSsAD;
+        "neoforge-1.21.4" = _FaAhSsAD;
+        "neoforge-1.21.5" = _FaAhSsAD;
+        "neoforge-1.21.6" = _FaAhSsAD;
+        "neoforge-1.21.7" = _FaAhSsAD;
+        "neoforge-1.21.8" = _FaAhSsAD;
+        "neoforge-1.21.9" = _FaAhSsAD;
+        "neoforge-1.21.10" = _FaAhSsAD;
+        "neoforge-1.21.11" = _FaAhSsAD;
+        "quilt-1.18.2" = _FaAhSsAD;
+        "quilt-1.19" = _FaAhSsAD;
+        "quilt-1.19.1" = _FaAhSsAD;
+        "quilt-1.19.2" = _FaAhSsAD;
+        "quilt-1.19.3" = _FaAhSsAD;
+        "quilt-1.19.4" = _FaAhSsAD;
+        "quilt-1.20" = _FaAhSsAD;
+        "quilt-1.20.1" = _FaAhSsAD;
+        "quilt-1.20.2" = _FaAhSsAD;
+        "quilt-1.20.3" = _FaAhSsAD;
+        "quilt-1.20.4" = _FaAhSsAD;
+        "quilt-1.20.5" = _FaAhSsAD;
+        "quilt-1.20.6" = _FaAhSsAD;
+        "quilt-1.21" = _FaAhSsAD;
+        "quilt-1.21.1" = _FaAhSsAD;
+        "quilt-1.21.2" = _FaAhSsAD;
+        "quilt-1.21.3" = _FaAhSsAD;
+        "quilt-1.21.4" = _FaAhSsAD;
+        "quilt-1.21.5" = _FaAhSsAD;
+        "quilt-1.21.6" = _FaAhSsAD;
+        "quilt-1.21.7" = _FaAhSsAD;
+        "quilt-1.21.8" = _FaAhSsAD;
+        "quilt-1.21.9" = _FaAhSsAD;
+        "quilt-1.21.10" = _FaAhSsAD;
+        "quilt-1.21.11" = _FaAhSsAD;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "disable-enderman-picking-up-blocks";
+            id = "Ec6K5FYS";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="FaAhSsAD";}

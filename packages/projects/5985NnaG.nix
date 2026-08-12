@@ -1,0 +1,120 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _kpMrATOk = {
+            "id" = "kpMrATOk";
+            "file" = "Melody's Jellyfish v1.0.0.zip";
+            "hash" = "sha512-LQIRj3HSWtFb/R5ycav+gNdECljpn0t/VulHFHZf3IpLVXfMfIhmIVLW52gAEfCkrSjyr0AcsD8nq2gTRELGhg==";
+        };
+        _gwbMusTF = {
+            "id" = "gwbMusTF";
+            "file" = "melodys-jellyfish-v1-0-1.zip";
+            "hash" = "sha512-6qgyeTkLuC4PqsWrIdFNHZQAvXSaZ5h+UlKcUN8saA1YtTvdS5QTL2KM/JNaiHq5R62aO8ww3D+HM4oopTyM3g==";
+        };
+        _DYWftqnR = {
+            "id" = "DYWftqnR";
+            "file" = "Melodys Jellyfish 1.0.3.zip";
+            "hash" = "sha512-8kKLhGb8KbAS8Md1j5ya/4wvpvUst8f1HvmW6vsVdhIkC07lftD5vwxumq/rLX3Ti7+sJdiR7K0Ku+SJzisftw==";
+        };
+    in {
+        "kpMrATOk" = _kpMrATOk;
+        "gwbMusTF" = _gwbMusTF;
+        "DYWftqnR" = _DYWftqnR;
+        "minecraft-1.18.1" = _DYWftqnR;
+        "minecraft-1.18.2" = _DYWftqnR;
+        "minecraft-1.19" = _DYWftqnR;
+        "minecraft-1.19.1" = _DYWftqnR;
+        "minecraft-1.19.2" = _DYWftqnR;
+        "minecraft-1.19.3" = _DYWftqnR;
+        "minecraft-1.19.4" = _DYWftqnR;
+        "minecraft-1.20" = _DYWftqnR;
+        "minecraft-1.20.1" = _DYWftqnR;
+        "minecraft-1.20.2" = _DYWftqnR;
+        "minecraft-1.20.3" = _DYWftqnR;
+        "minecraft-1.20.4" = _DYWftqnR;
+        "minecraft-1.20.5" = _DYWftqnR;
+        "minecraft-1.20.6" = _DYWftqnR;
+        "minecraft-1.21" = _DYWftqnR;
+        "minecraft-1.21.1" = _DYWftqnR;
+        "minecraft-1.21.2" = _DYWftqnR;
+        "minecraft-1.21.3" = _DYWftqnR;
+        "minecraft-1.21.4" = _DYWftqnR;
+        "minecraft-1.21.5" = _DYWftqnR;
+        "minecraft-1.18" = _DYWftqnR;
+        "minecraft-22w42a" = _DYWftqnR;
+        "minecraft-22w43a" = _DYWftqnR;
+        "minecraft-22w44a" = _DYWftqnR;
+        "minecraft-23w14a" = _DYWftqnR;
+        "minecraft-23w16a" = _DYWftqnR;
+        "minecraft-23w31a" = _DYWftqnR;
+        "minecraft-23w32a" = _DYWftqnR;
+        "minecraft-23w33a" = _DYWftqnR;
+        "minecraft-23w35a" = _DYWftqnR;
+        "minecraft-1.20.2-pre1" = _DYWftqnR;
+        "minecraft-23w42a" = _DYWftqnR;
+        "minecraft-23w43a" = _DYWftqnR;
+        "minecraft-23w43b" = _DYWftqnR;
+        "minecraft-23w44a" = _DYWftqnR;
+        "minecraft-23w45a" = _DYWftqnR;
+        "minecraft-23w46a" = _DYWftqnR;
+        "minecraft-24w03a" = _DYWftqnR;
+        "minecraft-24w03b" = _DYWftqnR;
+        "minecraft-24w04a" = _DYWftqnR;
+        "minecraft-24w05a" = _DYWftqnR;
+        "minecraft-24w05b" = _DYWftqnR;
+        "minecraft-24w06a" = _DYWftqnR;
+        "minecraft-24w07a" = _DYWftqnR;
+        "minecraft-24w09a" = _DYWftqnR;
+        "minecraft-24w10a" = _DYWftqnR;
+        "minecraft-24w11a" = _DYWftqnR;
+        "minecraft-24w12a" = _DYWftqnR;
+        "minecraft-24w13a" = _DYWftqnR;
+        "minecraft-24w14potato" = _DYWftqnR;
+        "minecraft-24w14a" = _DYWftqnR;
+        "minecraft-1.20.5-pre1" = _DYWftqnR;
+        "minecraft-1.20.5-pre2" = _DYWftqnR;
+        "minecraft-1.20.5-pre3" = _DYWftqnR;
+        "minecraft-24w18a" = _DYWftqnR;
+        "minecraft-24w19a" = _DYWftqnR;
+        "minecraft-24w19b" = _DYWftqnR;
+        "minecraft-24w20a" = _DYWftqnR;
+        "minecraft-24w33a" = _DYWftqnR;
+        "minecraft-24w34a" = _DYWftqnR;
+        "minecraft-24w35a" = _DYWftqnR;
+        "minecraft-24w36a" = _DYWftqnR;
+        "minecraft-24w37a" = _DYWftqnR;
+        "minecraft-24w38a" = _DYWftqnR;
+        "minecraft-24w39a" = _DYWftqnR;
+        "minecraft-24w40a" = _DYWftqnR;
+        "minecraft-1.21.2-pre1" = _DYWftqnR;
+        "minecraft-1.21.2-pre2" = _DYWftqnR;
+        "minecraft-24w44a" = _DYWftqnR;
+        "minecraft-24w45a" = _DYWftqnR;
+        "minecraft-24w46a" = _DYWftqnR;
+        "minecraft-1.21.6" = _DYWftqnR;
+        "minecraft-1.21.7" = _DYWftqnR;
+        "minecraft-1.21.8" = _DYWftqnR;
+        "minecraft-1.21.9" = _DYWftqnR;
+        "minecraft-1.21.10" = _DYWftqnR;
+        "minecraft-1.21.11" = _DYWftqnR;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "melodysjellyfish";
+            id = "5985NnaG";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = "https://melodymews.com/?utm_source=jellyfishmodrinth&utm_medium=referral&utm_campaign=jellyfishmodrinth#termsofuse";
+                };
+            };
+        };
+in callPackage fn {version="DYWftqnR";}

@@ -1,0 +1,162 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _GG001OWc = {
+            "id" = "GG001OWc";
+            "file" = "WildWolves_pre1.14_Default_1.1.zip";
+            "hash" = "sha512-KskBO2SiRkFWCSq71P1zHK1TyzmivvHFV4sGYmACX0g1Fp63NzymcV+aXLWE7LU+1Lo5qq5cPJ7R1uLnY/Fu1g==";
+        };
+        _LombLdlz = {
+            "id" = "LombLdlz";
+            "file" = "WildWolves_pre1.14_NoCollars.zip";
+            "hash" = "sha512-IA5oXRtHOdqllWw4HtncB17uOFiaQXI/4WnEUAcPRN7fQssT6vSIUZHwRxCiP5V2F6kgQvTqcWuK3wwhEKW98w==";
+        };
+        _Yuf6nvFM = {
+            "id" = "Yuf6nvFM";
+            "file" = "WildWolves_NoCollars_1.1.zip";
+            "hash" = "sha512-NXq79aZx/g9C7mGxM1akUXmZEFNqLowfYxcIIkDyJ5aT6YzJleN4fSZ8BOc3RABlFOfOahoQ/dWn9HdZCAY1RA==";
+        };
+        _SSRpU3Ux = {
+            "id" = "SSRpU3Ux";
+            "file" = "WildWolves_Default.zip";
+            "hash" = "sha512-XLrutxCaPtFssv3ic/CGz7FU6SX4FPobEezQqP65uAsN+zZuqsN0zj9tsm716GFbDLOuC9J/gBvzBP/DmQfkgw==";
+        };
+        _V4tPrJRn = {
+            "id" = "V4tPrJRn";
+            "file" = "WildWolves_NoCollars.zip";
+            "hash" = "sha512-4p8iZDXvxiEVP8lWqYZAT6jv/H7J67b07dcqKwjDSLQ6z91zdBBxxYDS/NBHfOnWA1+bO+GZ+G81HDsDXj07ZA==";
+        };
+        _xbEYCDAT = {
+            "id" = "xbEYCDAT";
+            "file" = "WildWolves_Default.zip";
+            "hash" = "sha512-24uPih5iFXkrb79aQ0Fk41WimFkEjBdpcov3R/tiJb6XBbKPFWHdaZdAgClpps/jGemylrP/6o6c6b06U3roOg==";
+        };
+    in {
+        "GG001OWc" = _GG001OWc;
+        "LombLdlz" = _LombLdlz;
+        "Yuf6nvFM" = _Yuf6nvFM;
+        "SSRpU3Ux" = _SSRpU3Ux;
+        "V4tPrJRn" = _V4tPrJRn;
+        "xbEYCDAT" = _xbEYCDAT;
+        "minecraft-1.0" = _LombLdlz;
+        "minecraft-1.1" = _LombLdlz;
+        "minecraft-1.2.1" = _LombLdlz;
+        "minecraft-1.2.2" = _LombLdlz;
+        "minecraft-1.2.3" = _LombLdlz;
+        "minecraft-1.2.4" = _LombLdlz;
+        "minecraft-1.2.5" = _LombLdlz;
+        "minecraft-1.3.1" = _LombLdlz;
+        "minecraft-1.3.2" = _LombLdlz;
+        "minecraft-1.4.2" = _LombLdlz;
+        "minecraft-1.4.4" = _LombLdlz;
+        "minecraft-1.4.5" = _LombLdlz;
+        "minecraft-1.4.6" = _LombLdlz;
+        "minecraft-1.4.7" = _LombLdlz;
+        "minecraft-1.5.1" = _LombLdlz;
+        "minecraft-1.5.2" = _LombLdlz;
+        "minecraft-1.6.1" = _LombLdlz;
+        "minecraft-1.6.2" = _LombLdlz;
+        "minecraft-1.6.4" = _LombLdlz;
+        "minecraft-1.7.2" = _LombLdlz;
+        "minecraft-1.7.3" = _LombLdlz;
+        "minecraft-1.7.4" = _LombLdlz;
+        "minecraft-1.7.5" = _LombLdlz;
+        "minecraft-1.7.6" = _LombLdlz;
+        "minecraft-1.7.7" = _LombLdlz;
+        "minecraft-1.7.8" = _LombLdlz;
+        "minecraft-1.7.9" = _LombLdlz;
+        "minecraft-1.7.10" = _LombLdlz;
+        "minecraft-1.8" = _LombLdlz;
+        "minecraft-1.8.1" = _LombLdlz;
+        "minecraft-1.8.2" = _LombLdlz;
+        "minecraft-1.8.3" = _LombLdlz;
+        "minecraft-1.8.4" = _LombLdlz;
+        "minecraft-1.8.5" = _LombLdlz;
+        "minecraft-1.8.6" = _LombLdlz;
+        "minecraft-1.8.7" = _LombLdlz;
+        "minecraft-1.8.8" = _LombLdlz;
+        "minecraft-1.8.9" = _LombLdlz;
+        "minecraft-1.9" = _LombLdlz;
+        "minecraft-1.9.1" = _LombLdlz;
+        "minecraft-1.9.2" = _LombLdlz;
+        "minecraft-1.9.3" = _LombLdlz;
+        "minecraft-1.9.4" = _LombLdlz;
+        "minecraft-1.10" = _LombLdlz;
+        "minecraft-1.10.1" = _LombLdlz;
+        "minecraft-1.10.2" = _LombLdlz;
+        "minecraft-1.11" = _LombLdlz;
+        "minecraft-1.11.1" = _LombLdlz;
+        "minecraft-1.11.2" = _LombLdlz;
+        "minecraft-1.12" = _LombLdlz;
+        "minecraft-1.12.1" = _LombLdlz;
+        "minecraft-1.12.2" = _LombLdlz;
+        "minecraft-1.13" = _LombLdlz;
+        "minecraft-1.13.1" = _LombLdlz;
+        "minecraft-1.13.2" = _LombLdlz;
+        "minecraft-1.14" = _SSRpU3Ux;
+        "minecraft-1.14.1" = _SSRpU3Ux;
+        "minecraft-1.14.2" = _SSRpU3Ux;
+        "minecraft-1.14.3" = _SSRpU3Ux;
+        "minecraft-1.14.4" = _SSRpU3Ux;
+        "minecraft-1.15" = _SSRpU3Ux;
+        "minecraft-1.15.1" = _SSRpU3Ux;
+        "minecraft-1.15.2" = _SSRpU3Ux;
+        "minecraft-1.16" = _SSRpU3Ux;
+        "minecraft-1.16.1" = _SSRpU3Ux;
+        "minecraft-1.16.2" = _SSRpU3Ux;
+        "minecraft-1.16.3" = _SSRpU3Ux;
+        "minecraft-1.16.4" = _SSRpU3Ux;
+        "minecraft-1.16.5" = _SSRpU3Ux;
+        "minecraft-1.17" = _SSRpU3Ux;
+        "minecraft-1.17.1" = _SSRpU3Ux;
+        "minecraft-1.18" = _SSRpU3Ux;
+        "minecraft-1.18.1" = _SSRpU3Ux;
+        "minecraft-1.18.2" = _SSRpU3Ux;
+        "minecraft-1.19" = _SSRpU3Ux;
+        "minecraft-1.19.1" = _SSRpU3Ux;
+        "minecraft-1.19.2" = _SSRpU3Ux;
+        "minecraft-1.19.3" = _SSRpU3Ux;
+        "minecraft-1.19.4" = _SSRpU3Ux;
+        "minecraft-1.20" = _xbEYCDAT;
+        "minecraft-1.20.1" = _xbEYCDAT;
+        "minecraft-1.20.2" = _xbEYCDAT;
+        "minecraft-1.20.3" = _xbEYCDAT;
+        "minecraft-1.20.4" = _xbEYCDAT;
+        "minecraft-1.20.5" = _xbEYCDAT;
+        "minecraft-1.20.6" = _xbEYCDAT;
+        "minecraft-1.21" = _xbEYCDAT;
+        "minecraft-1.21.1" = _xbEYCDAT;
+        "minecraft-1.21.2" = _xbEYCDAT;
+        "minecraft-1.21.3" = _xbEYCDAT;
+        "minecraft-1.21.4" = _xbEYCDAT;
+        "minecraft-1.21.5" = _xbEYCDAT;
+        "minecraft-1.21.6" = _xbEYCDAT;
+        "minecraft-1.21.7" = _xbEYCDAT;
+        "minecraft-1.21.8" = _xbEYCDAT;
+        "minecraft-1.21.9" = _xbEYCDAT;
+        "minecraft-1.21.10" = _xbEYCDAT;
+        "minecraft-1.21.11" = _xbEYCDAT;
+        "minecraft-26.1" = _xbEYCDAT;
+        "minecraft-26.1.1" = _xbEYCDAT;
+        "minecraft-26.1.2" = _xbEYCDAT;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "wildwolves";
+            id = "xdURYLyK";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="xbEYCDAT";}

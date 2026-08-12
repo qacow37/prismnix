@@ -1,0 +1,163 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _hjFxyjb4 = {
+            "id" = "hjFxyjb4";
+            "file" = "NoHUD By 1qmik.zip";
+            "hash" = "sha512-ZRVrDMtDdnIVInxhly5+F4ypq1cHiSgiCiW59nYr3joUsCcX4YYyrFoka6HQ/ir14s3+sOxhcU2iIhKl7qWPlg==";
+        };
+        _Cl3Nq85P = {
+            "id" = "Cl3Nq85P";
+            "file" = "NoHUD By 1qmik.zip";
+            "hash" = "sha512-ocBvAtvpF92JoevIVnzmMUAjF0vMImSGWk6I2eermL2BHV9v1tZz+2ZRJCLuitP4ECovQSk5UbhQOX/7o+46xA==";
+        };
+        _c2Lo76nd = {
+            "id" = "c2Lo76nd";
+            "file" = "NoHUD By 1qmik.zip";
+            "hash" = "sha512-Ovx64q5JWfyRgJXIQCjd2Bbh3/DO0SF7i00sKGIugcCBHCZujxe6qRPNtBNfpz4wkc9RzsIeNc2H7rrkcV7YLA==";
+        };
+        _ARKkbbdw = {
+            "id" = "ARKkbbdw";
+            "file" = "§6NoHUD§0.zip";
+            "hash" = "sha512-hNX3rr+65NoMGEH0t/PRMn7Fs71lVV3AR9GzShaNkZF1KS34Q0AT9cQopxqdMroAtjywNNa0I8CS02KEB05NJg==";
+        };
+        _PA7uGK3T = {
+            "id" = "PA7uGK3T";
+            "file" = "NoHUD By 1qmik.zip";
+            "hash" = "sha512-2hcCNDGCd6ssVIcLsv44KwRHBLY/bI3mUphjPGPpYITS+sBSk6E0rSJPnJj5KDqz0HTm0smAVwVXe2nF7x9iPw==";
+        };
+        _ndIkTb2V = {
+            "id" = "ndIkTb2V";
+            "file" = "NoHUD by 1qmik.zip";
+            "hash" = "sha512-gGwpeSRawUD1g4q9Z/eFU1OkRbJ4EJpnjeSXtQzPYgwAGiN+Zg7Zp4GAaOb5PCby+nAKal8a6Iw4PteSJ/fdIw==";
+        };
+    in {
+        "hjFxyjb4" = _hjFxyjb4;
+        "Cl3Nq85P" = _Cl3Nq85P;
+        "c2Lo76nd" = _c2Lo76nd;
+        "ARKkbbdw" = _ARKkbbdw;
+        "PA7uGK3T" = _PA7uGK3T;
+        "ndIkTb2V" = _ndIkTb2V;
+        "minecraft-1.20.2" = _hjFxyjb4;
+        "minecraft-1.20.3" = _hjFxyjb4;
+        "minecraft-1.20.4" = _hjFxyjb4;
+        "minecraft-1.20.5" = _hjFxyjb4;
+        "minecraft-1.20.6" = _hjFxyjb4;
+        "minecraft-1.21" = _hjFxyjb4;
+        "minecraft-1.21.1" = _hjFxyjb4;
+        "minecraft-1.0" = _Cl3Nq85P;
+        "minecraft-1.1" = _Cl3Nq85P;
+        "minecraft-1.2.1" = _Cl3Nq85P;
+        "minecraft-1.2.2" = _Cl3Nq85P;
+        "minecraft-1.2.3" = _Cl3Nq85P;
+        "minecraft-1.2.4" = _Cl3Nq85P;
+        "minecraft-1.2.5" = _Cl3Nq85P;
+        "minecraft-1.3.1" = _Cl3Nq85P;
+        "minecraft-1.3.2" = _Cl3Nq85P;
+        "minecraft-1.4.2" = _Cl3Nq85P;
+        "minecraft-1.4.4" = _Cl3Nq85P;
+        "minecraft-1.4.5" = _Cl3Nq85P;
+        "minecraft-1.4.6" = _Cl3Nq85P;
+        "minecraft-1.4.7" = _Cl3Nq85P;
+        "minecraft-1.5.1" = _Cl3Nq85P;
+        "minecraft-1.5.2" = _Cl3Nq85P;
+        "minecraft-1.6.1" = _Cl3Nq85P;
+        "minecraft-1.6.2" = _Cl3Nq85P;
+        "minecraft-1.6.4" = _Cl3Nq85P;
+        "minecraft-1.7.2" = _Cl3Nq85P;
+        "minecraft-1.7.3" = _Cl3Nq85P;
+        "minecraft-1.7.4" = _Cl3Nq85P;
+        "minecraft-1.7.5" = _Cl3Nq85P;
+        "minecraft-1.7.6" = _Cl3Nq85P;
+        "minecraft-1.7.7" = _Cl3Nq85P;
+        "minecraft-1.7.8" = _Cl3Nq85P;
+        "minecraft-1.7.9" = _Cl3Nq85P;
+        "minecraft-1.7.10" = _Cl3Nq85P;
+        "minecraft-1.8" = _Cl3Nq85P;
+        "minecraft-1.8.1" = _Cl3Nq85P;
+        "minecraft-1.8.2" = _Cl3Nq85P;
+        "minecraft-1.8.3" = _Cl3Nq85P;
+        "minecraft-1.8.4" = _Cl3Nq85P;
+        "minecraft-1.8.5" = _Cl3Nq85P;
+        "minecraft-1.8.6" = _Cl3Nq85P;
+        "minecraft-1.8.7" = _Cl3Nq85P;
+        "minecraft-1.8.8" = _Cl3Nq85P;
+        "minecraft-1.8.9" = _Cl3Nq85P;
+        "minecraft-1.9" = _Cl3Nq85P;
+        "minecraft-1.9.1" = _Cl3Nq85P;
+        "minecraft-1.9.2" = _Cl3Nq85P;
+        "minecraft-1.9.3" = _Cl3Nq85P;
+        "minecraft-1.9.4" = _Cl3Nq85P;
+        "minecraft-1.10" = _Cl3Nq85P;
+        "minecraft-1.10.1" = _Cl3Nq85P;
+        "minecraft-1.10.2" = _Cl3Nq85P;
+        "minecraft-1.11" = _Cl3Nq85P;
+        "minecraft-1.11.1" = _Cl3Nq85P;
+        "minecraft-1.11.2" = _Cl3Nq85P;
+        "minecraft-1.12" = _Cl3Nq85P;
+        "minecraft-1.12.1" = _Cl3Nq85P;
+        "minecraft-1.12.2" = _Cl3Nq85P;
+        "minecraft-1.13" = _Cl3Nq85P;
+        "minecraft-1.13.1" = _Cl3Nq85P;
+        "minecraft-1.13.2" = _Cl3Nq85P;
+        "minecraft-1.14" = _Cl3Nq85P;
+        "minecraft-1.14.1" = _Cl3Nq85P;
+        "minecraft-1.14.2" = _Cl3Nq85P;
+        "minecraft-1.14.3" = _Cl3Nq85P;
+        "minecraft-1.14.4" = _Cl3Nq85P;
+        "minecraft-1.15" = _Cl3Nq85P;
+        "minecraft-1.15.1" = _Cl3Nq85P;
+        "minecraft-1.15.2" = _Cl3Nq85P;
+        "minecraft-1.16" = _Cl3Nq85P;
+        "minecraft-1.16.1" = _Cl3Nq85P;
+        "minecraft-1.16.2" = _Cl3Nq85P;
+        "minecraft-1.16.3" = _Cl3Nq85P;
+        "minecraft-1.16.4" = _Cl3Nq85P;
+        "minecraft-1.16.5" = _Cl3Nq85P;
+        "minecraft-1.17" = _Cl3Nq85P;
+        "minecraft-1.17.1" = _Cl3Nq85P;
+        "minecraft-1.18" = _Cl3Nq85P;
+        "minecraft-1.18.1" = _Cl3Nq85P;
+        "minecraft-1.18.2" = _Cl3Nq85P;
+        "minecraft-1.19" = _Cl3Nq85P;
+        "minecraft-1.19.1" = _Cl3Nq85P;
+        "minecraft-1.19.2" = _Cl3Nq85P;
+        "minecraft-1.19.3" = _Cl3Nq85P;
+        "minecraft-1.19.4" = _Cl3Nq85P;
+        "minecraft-1.20" = _Cl3Nq85P;
+        "minecraft-1.20.1" = _Cl3Nq85P;
+        "minecraft-1.21.2" = _ndIkTb2V;
+        "minecraft-1.21.3" = _ndIkTb2V;
+        "minecraft-1.21.4" = _ndIkTb2V;
+        "minecraft-1.21.5" = _ndIkTb2V;
+        "minecraft-1.21.6" = _ndIkTb2V;
+        "minecraft-1.21.7" = _ndIkTb2V;
+        "minecraft-1.21.8" = _ndIkTb2V;
+        "minecraft-1.21.9" = _ndIkTb2V;
+        "minecraft-1.21.10" = _ndIkTb2V;
+        "minecraft-1.21.11" = _ndIkTb2V;
+        "minecraft-26.1" = _ndIkTb2V;
+        "minecraft-26.1.1" = _ndIkTb2V;
+        "minecraft-26.1.2" = _ndIkTb2V;
+        "minecraft-26.2" = _ndIkTb2V;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "no-hud";
+            id = "tdIoOUdk";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "Apache License 2.0";
+                    shortName = "Apache-2.0";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="ndIkTb2V";}

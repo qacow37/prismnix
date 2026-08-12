@@ -1,0 +1,172 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _JR7Uuv3W = {
+            "id" = "JR7Uuv3W";
+            "file" = "Dry-Deserts_v0.1.0_1.19.3+.zip";
+            "hash" = "sha512-hfuKVEW66VkEDDspYKLYf0sOgTiI/xY+/zqakxrsHveAj8i3vPL4cl5Opi5BzMXiw7avANeyKxf7ZgyQXL3zmA==";
+        };
+        _KlGmdEOC = {
+            "id" = "KlGmdEOC";
+            "file" = "Dry-Deserts_v1.0.0_1.19+.zip";
+            "hash" = "sha512-o8rESEQ/wMIjQeAdBqq25/ts/25OI2BlFvg8oUMWkL63h/03z3J8GKiVP9WEB+9HmWXC2IBx9x6f6FxinEc+Lg==";
+        };
+        _LKCxkPc7 = {
+            "id" = "LKCxkPc7";
+            "file" = "dry-deserts-v1.0.0.jar";
+            "hash" = "sha512-iBL1QCK+WTtiGfsPUq2W9iUDMI1Va3JL0oF0er6Bz4xc17jH57+Md+Za0ATLuXbLBCTfFQc2hjNt4TRJt2lzzg==";
+        };
+        _bMqTiYFr = {
+            "id" = "bMqTiYFr";
+            "file" = "Dry-Deserts_v1.0.1_1.19+.zip";
+            "hash" = "sha512-vmpSSTU6DypzbqSP0sJsOiKajREOqdJHDHek+DFshBVDEHQY6zL8Mpln+WAsc8H9d/IsCsTlYUvYprswF1f5tg==";
+        };
+        _hM08dAmp = {
+            "id" = "hM08dAmp";
+            "file" = "dry-deserts-v1.0.1.jar";
+            "hash" = "sha512-pMKKY4r9QiIhfBGJyqwDxhYD/l7oA9mH6kfBhxCDlHRfzF5Q2b5paBYphcQBJ8PqmTAKYugvwfCztFC03GHe3A==";
+        };
+        _3li0OYnL = {
+            "id" = "3li0OYnL";
+            "file" = "Dry-Deserts_v1.0.2_1.19+.zip";
+            "hash" = "sha512-o8rESEQ/wMIjQeAdBqq25/ts/25OI2BlFvg8oUMWkL63h/03z3J8GKiVP9WEB+9HmWXC2IBx9x6f6FxinEc+Lg==";
+        };
+        _XmgDYcGj = {
+            "id" = "XmgDYcGj";
+            "file" = "dry-deserts-v1.0.2.jar";
+            "hash" = "sha512-bWV6c8CYoEgqcbEnNB0WIzUscwYgeoYzPfjZWS2OEdq8uin09Nmy6wVQQrXb11agKZQwNgFbJkbO2FfCnryMRw==";
+        };
+    in {
+        "JR7Uuv3W" = _JR7Uuv3W;
+        "KlGmdEOC" = _KlGmdEOC;
+        "LKCxkPc7" = _LKCxkPc7;
+        "bMqTiYFr" = _bMqTiYFr;
+        "hM08dAmp" = _hM08dAmp;
+        "3li0OYnL" = _3li0OYnL;
+        "XmgDYcGj" = _XmgDYcGj;
+        "datapack-1.19.3" = _3li0OYnL;
+        "datapack-1.19.4" = _3li0OYnL;
+        "datapack-1.20" = _3li0OYnL;
+        "datapack-1.20.1" = _3li0OYnL;
+        "datapack-1.20.2" = _3li0OYnL;
+        "datapack-1.20.3" = _3li0OYnL;
+        "datapack-1.20.4" = _3li0OYnL;
+        "datapack-1.20.5" = _3li0OYnL;
+        "datapack-1.20.6" = _3li0OYnL;
+        "datapack-1.21" = _3li0OYnL;
+        "datapack-1.21.1" = _3li0OYnL;
+        "datapack-1.21.2" = _3li0OYnL;
+        "datapack-1.21.3" = _3li0OYnL;
+        "datapack-1.21.4" = _3li0OYnL;
+        "datapack-1.21.5" = _3li0OYnL;
+        "datapack-1.21.6" = _3li0OYnL;
+        "datapack-1.21.7" = _3li0OYnL;
+        "datapack-1.21.8" = _3li0OYnL;
+        "datapack-1.19" = _3li0OYnL;
+        "datapack-1.19.1" = _3li0OYnL;
+        "datapack-1.19.2" = _3li0OYnL;
+        "fabric-1.19" = _XmgDYcGj;
+        "fabric-1.19.1" = _XmgDYcGj;
+        "fabric-1.19.2" = _XmgDYcGj;
+        "fabric-1.19.3" = _XmgDYcGj;
+        "fabric-1.19.4" = _XmgDYcGj;
+        "fabric-1.20" = _XmgDYcGj;
+        "fabric-1.20.1" = _XmgDYcGj;
+        "fabric-1.20.2" = _XmgDYcGj;
+        "fabric-1.20.3" = _XmgDYcGj;
+        "fabric-1.20.4" = _XmgDYcGj;
+        "fabric-1.20.5" = _XmgDYcGj;
+        "fabric-1.20.6" = _XmgDYcGj;
+        "fabric-1.21" = _XmgDYcGj;
+        "fabric-1.21.1" = _XmgDYcGj;
+        "fabric-1.21.2" = _XmgDYcGj;
+        "fabric-1.21.3" = _XmgDYcGj;
+        "fabric-1.21.4" = _XmgDYcGj;
+        "fabric-1.21.5" = _XmgDYcGj;
+        "fabric-1.21.6" = _XmgDYcGj;
+        "fabric-1.21.7" = _XmgDYcGj;
+        "fabric-1.21.8" = _XmgDYcGj;
+        "forge-1.19" = _XmgDYcGj;
+        "forge-1.19.1" = _XmgDYcGj;
+        "forge-1.19.2" = _XmgDYcGj;
+        "forge-1.19.3" = _XmgDYcGj;
+        "forge-1.19.4" = _XmgDYcGj;
+        "forge-1.20" = _XmgDYcGj;
+        "forge-1.20.1" = _XmgDYcGj;
+        "forge-1.20.2" = _XmgDYcGj;
+        "forge-1.20.3" = _XmgDYcGj;
+        "forge-1.20.4" = _XmgDYcGj;
+        "forge-1.20.5" = _XmgDYcGj;
+        "forge-1.20.6" = _XmgDYcGj;
+        "forge-1.21" = _XmgDYcGj;
+        "forge-1.21.1" = _XmgDYcGj;
+        "forge-1.21.2" = _XmgDYcGj;
+        "forge-1.21.3" = _XmgDYcGj;
+        "forge-1.21.4" = _XmgDYcGj;
+        "forge-1.21.5" = _XmgDYcGj;
+        "forge-1.21.6" = _XmgDYcGj;
+        "forge-1.21.7" = _XmgDYcGj;
+        "forge-1.21.8" = _XmgDYcGj;
+        "neoforge-1.19" = _XmgDYcGj;
+        "neoforge-1.19.1" = _XmgDYcGj;
+        "neoforge-1.19.2" = _XmgDYcGj;
+        "neoforge-1.19.3" = _XmgDYcGj;
+        "neoforge-1.19.4" = _XmgDYcGj;
+        "neoforge-1.20" = _XmgDYcGj;
+        "neoforge-1.20.1" = _XmgDYcGj;
+        "neoforge-1.20.2" = _XmgDYcGj;
+        "neoforge-1.20.3" = _XmgDYcGj;
+        "neoforge-1.20.4" = _XmgDYcGj;
+        "neoforge-1.20.5" = _XmgDYcGj;
+        "neoforge-1.20.6" = _XmgDYcGj;
+        "neoforge-1.21" = _XmgDYcGj;
+        "neoforge-1.21.1" = _XmgDYcGj;
+        "neoforge-1.21.2" = _XmgDYcGj;
+        "neoforge-1.21.3" = _XmgDYcGj;
+        "neoforge-1.21.4" = _XmgDYcGj;
+        "neoforge-1.21.5" = _XmgDYcGj;
+        "neoforge-1.21.6" = _XmgDYcGj;
+        "neoforge-1.21.7" = _XmgDYcGj;
+        "neoforge-1.21.8" = _XmgDYcGj;
+        "quilt-1.19" = _XmgDYcGj;
+        "quilt-1.19.1" = _XmgDYcGj;
+        "quilt-1.19.2" = _XmgDYcGj;
+        "quilt-1.19.3" = _XmgDYcGj;
+        "quilt-1.19.4" = _XmgDYcGj;
+        "quilt-1.20" = _XmgDYcGj;
+        "quilt-1.20.1" = _XmgDYcGj;
+        "quilt-1.20.2" = _XmgDYcGj;
+        "quilt-1.20.3" = _XmgDYcGj;
+        "quilt-1.20.4" = _XmgDYcGj;
+        "quilt-1.20.5" = _XmgDYcGj;
+        "quilt-1.20.6" = _XmgDYcGj;
+        "quilt-1.21" = _XmgDYcGj;
+        "quilt-1.21.1" = _XmgDYcGj;
+        "quilt-1.21.2" = _XmgDYcGj;
+        "quilt-1.21.3" = _XmgDYcGj;
+        "quilt-1.21.4" = _XmgDYcGj;
+        "quilt-1.21.5" = _XmgDYcGj;
+        "quilt-1.21.6" = _XmgDYcGj;
+        "quilt-1.21.7" = _XmgDYcGj;
+        "quilt-1.21.8" = _XmgDYcGj;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "dry-deserts";
+            id = "KoxX7UMW";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/Lizdtre/Dry-Deserts/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="XmgDYcGj";}

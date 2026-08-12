@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _k8RmWhsL = {
+            "id" = "k8RmWhsL";
+            "file" = "Freezing Enchantment v1.0.0 [1.21-1.21.8].zip";
+            "hash" = "sha512-TkCMHejm4bKmaqiVYP0X5eBfStXgr3oW06K4XQYGUmrsqpYnPLpTbUE68qbgGItMnLdEAeVK3jUX+vQ68DNqkA==";
+        };
+        _ZJIIWsaX = {
+            "id" = "ZJIIWsaX";
+            "file" = "freezing-enchantment-v1.0.0.jar";
+            "hash" = "sha512-7aP6P8DxbqeieYujR7KipJpqKB6m9j8JTdW4oWZb5qfuOiNb/PDhk8bnbtmTB3RFET0LurD3CD04s5sLCQEzaw==";
+        };
+    in {
+        "k8RmWhsL" = _k8RmWhsL;
+        "ZJIIWsaX" = _ZJIIWsaX;
+        "datapack-1.21" = _k8RmWhsL;
+        "datapack-1.21.1" = _k8RmWhsL;
+        "datapack-1.21.2" = _k8RmWhsL;
+        "datapack-1.21.3" = _k8RmWhsL;
+        "datapack-1.21.4" = _k8RmWhsL;
+        "datapack-1.21.5" = _k8RmWhsL;
+        "datapack-1.21.6" = _k8RmWhsL;
+        "datapack-1.21.7" = _k8RmWhsL;
+        "datapack-1.21.8" = _k8RmWhsL;
+        "datapack-1.21.9" = _k8RmWhsL;
+        "datapack-1.21.10" = _k8RmWhsL;
+        "datapack-1.21.11" = _k8RmWhsL;
+        "datapack-26.1" = _k8RmWhsL;
+        "datapack-26.1.1" = _k8RmWhsL;
+        "datapack-26.1.2" = _k8RmWhsL;
+        "datapack-26.2" = _k8RmWhsL;
+        "fabric-1.21" = _ZJIIWsaX;
+        "fabric-1.21.1" = _ZJIIWsaX;
+        "fabric-1.21.2" = _ZJIIWsaX;
+        "fabric-1.21.3" = _ZJIIWsaX;
+        "fabric-1.21.4" = _ZJIIWsaX;
+        "fabric-1.21.5" = _ZJIIWsaX;
+        "fabric-1.21.6" = _ZJIIWsaX;
+        "fabric-1.21.7" = _ZJIIWsaX;
+        "fabric-1.21.8" = _ZJIIWsaX;
+        "fabric-1.21.9" = _ZJIIWsaX;
+        "fabric-1.21.10" = _ZJIIWsaX;
+        "fabric-1.21.11" = _ZJIIWsaX;
+        "fabric-26.1" = _ZJIIWsaX;
+        "fabric-26.1.1" = _ZJIIWsaX;
+        "fabric-26.1.2" = _ZJIIWsaX;
+        "fabric-26.2" = _ZJIIWsaX;
+        "forge-1.21" = _ZJIIWsaX;
+        "forge-1.21.1" = _ZJIIWsaX;
+        "forge-1.21.2" = _ZJIIWsaX;
+        "forge-1.21.3" = _ZJIIWsaX;
+        "forge-1.21.4" = _ZJIIWsaX;
+        "forge-1.21.5" = _ZJIIWsaX;
+        "forge-1.21.6" = _ZJIIWsaX;
+        "forge-1.21.7" = _ZJIIWsaX;
+        "forge-1.21.8" = _ZJIIWsaX;
+        "forge-1.21.9" = _ZJIIWsaX;
+        "forge-1.21.10" = _ZJIIWsaX;
+        "forge-1.21.11" = _ZJIIWsaX;
+        "forge-26.1" = _ZJIIWsaX;
+        "forge-26.1.1" = _ZJIIWsaX;
+        "forge-26.1.2" = _ZJIIWsaX;
+        "forge-26.2" = _ZJIIWsaX;
+        "neoforge-1.21" = _ZJIIWsaX;
+        "neoforge-1.21.1" = _ZJIIWsaX;
+        "neoforge-1.21.2" = _ZJIIWsaX;
+        "neoforge-1.21.3" = _ZJIIWsaX;
+        "neoforge-1.21.4" = _ZJIIWsaX;
+        "neoforge-1.21.5" = _ZJIIWsaX;
+        "neoforge-1.21.6" = _ZJIIWsaX;
+        "neoforge-1.21.7" = _ZJIIWsaX;
+        "neoforge-1.21.8" = _ZJIIWsaX;
+        "neoforge-1.21.9" = _ZJIIWsaX;
+        "neoforge-1.21.10" = _ZJIIWsaX;
+        "neoforge-1.21.11" = _ZJIIWsaX;
+        "neoforge-26.1" = _ZJIIWsaX;
+        "neoforge-26.1.1" = _ZJIIWsaX;
+        "neoforge-26.1.2" = _ZJIIWsaX;
+        "neoforge-26.2" = _ZJIIWsaX;
+        "quilt-1.21" = _ZJIIWsaX;
+        "quilt-1.21.1" = _ZJIIWsaX;
+        "quilt-1.21.2" = _ZJIIWsaX;
+        "quilt-1.21.3" = _ZJIIWsaX;
+        "quilt-1.21.4" = _ZJIIWsaX;
+        "quilt-1.21.5" = _ZJIIWsaX;
+        "quilt-1.21.6" = _ZJIIWsaX;
+        "quilt-1.21.7" = _ZJIIWsaX;
+        "quilt-1.21.8" = _ZJIIWsaX;
+        "quilt-1.21.9" = _ZJIIWsaX;
+        "quilt-1.21.10" = _ZJIIWsaX;
+        "quilt-1.21.11" = _ZJIIWsaX;
+        "quilt-26.1" = _ZJIIWsaX;
+        "quilt-26.1.1" = _ZJIIWsaX;
+        "quilt-26.1.2" = _ZJIIWsaX;
+        "quilt-26.2" = _ZJIIWsaX;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "freezing-enchantment";
+            id = "zEpFl4Bj";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU Lesser General Public License v3.0 or later";
+                    shortName = "LGPL-3.0-or-later";
+                    url = "https://github.com/lullaby6/data-packs/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="ZJIIWsaX";}

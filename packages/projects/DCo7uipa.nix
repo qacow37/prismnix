@@ -1,0 +1,227 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _952aov0T = {
+            "id" = "952aov0T";
+            "file" = "copper_tools_data.zip";
+            "hash" = "sha512-rbEdcJG2tjfaPt68Ohx70LWmOLQgKZg2UxEKrduEKVfieXxOcRf5urUTYkMYO+bWQAj33OxAQDSyoY5DSzPjQw==";
+        };
+        _b0xbg0cQ = {
+            "id" = "b0xbg0cQ";
+            "file" = "stone-to-copper-tools-0.1.jar";
+            "hash" = "sha512-xB0cux57utrqVe5An03CybJXaTnEKGTj8skdqf3UAOk4h1b1jlhC5LFfcAqxkwkZaggEq/ceX0YjkTH/ypCm4A==";
+        };
+        _tlX7Dalj = {
+            "id" = "tlX7Dalj";
+            "file" = "copper_tools_data_1.20.5-1.20.6.zip";
+            "hash" = "sha512-6+McxcWI5+aQpn/bFzaT7LHvfc4BT7X4jIjqWQVBsdiN/ApzJNiexVTS5m3lZz4NkaIK0tWXTsI/zg+D4RwbDw==";
+        };
+        _jZ48waxf = {
+            "id" = "jZ48waxf";
+            "file" = "stone-to-copper-tools-1.20.5-1.20.6-0.1.jar";
+            "hash" = "sha512-3kKkj9IJ4K8gkDP2+K3+5x//sNRTT4M+AtlTFut8MnVT9VVZqwjWUsI14SGSSDjC7QYBF7yD0fyVYpPHckWHow==";
+        };
+        _sU6pXuY5 = {
+            "id" = "sU6pXuY5";
+            "file" = "copper_tools_data_1.17-1.20.4.zip";
+            "hash" = "sha512-MNyLiKUlQ/dB1UpuiRcJ76J/i54xEznPaFeBZr2FryrSH8axJF+XchRSC0krtUb5YWdUlXr4TQqvUGLSnuH10Q==";
+        };
+        _hmVZSUqi = {
+            "id" = "hmVZSUqi";
+            "file" = "stone-to-copper-tools-1.17-1.20.4-0.1.jar";
+            "hash" = "sha512-B8loJ5kDTgtoKBw4JcwgYM3VTwLsM3BPZEq30BOnXAZjE4fRRgqzNLoC+k2sIQOaxvl/ny8/m/24LRfux67y1g==";
+        };
+        _okCCxB0z = {
+            "id" = "okCCxB0z";
+            "file" = "copper_tools_data_1.21-1.21.8.zip";
+            "hash" = "sha512-r0s1+XNWDIXmzlgz/MCOiu99YNvmME/LFMhMt86BT/rjXj/CDozXlqw/0DteycW0i0dk4yoA+aIIhepI4cMfWw==";
+        };
+        _G6aywKEL = {
+            "id" = "G6aywKEL";
+            "file" = "stone-to-copper-tools-datapack-0.2_1.21-1.21.8.jar";
+            "hash" = "sha512-BpmidgxGoQT2emkxJ3PNDyZoVUo4FHAZLMM43WiK+BoMpACPgdyp2QjJLkSwoCO1OBZ2hjYSFeThdEChBGEAmw==";
+        };
+        _vta78w9F = {
+            "id" = "vta78w9F";
+            "file" = "copper_tools_data_1.20.5-1.20.6.zip";
+            "hash" = "sha512-oLk+TFjoMXGIht7ft/UwXgdl7T/yzd7Ss0XamJLLSEgVXbsvf8yQYOMqo1f1381TrHDIhk9t0ir38fXRoT+Oig==";
+        };
+        _xNdm8BWL = {
+            "id" = "xNdm8BWL";
+            "file" = "stone-to-copper-tools-datapack-0.2_1.20.5-1.20.6.jar";
+            "hash" = "sha512-w9EbmymWSFEz+HyH6CHjN+axQ4f2yOEo1syTfHiYRR+UAz4mp4hqVPWvok3MCngYWVOwWzrA78knl48b7UJUTg==";
+        };
+        _ZMYNmSsG = {
+            "id" = "ZMYNmSsG";
+            "file" = "copper_tools_data_1.17-1.20.4.zip";
+            "hash" = "sha512-SLwLyrLyMIqypIPBVIbpnsMv7OaHuOSLvIlK/yvRNQYlu5N0l6Fwhe7Ie3tewr+u7SbkmmXcA9ujr3BpGrwmwg==";
+        };
+        _AnqUzNWE = {
+            "id" = "AnqUzNWE";
+            "file" = "stone-to-copper-tools-datapack-0.2_1.17-1.20.4.jar";
+            "hash" = "sha512-qMXAohaDI0r2jSycSRCBD9s2Ylf2EObI7/f2TY5j/JTziXFZebbIJDaVVqL+D7Y3u7DVjb7qp6SSIGKMmlkXTQ==";
+        };
+    in {
+        "952aov0T" = _952aov0T;
+        "b0xbg0cQ" = _b0xbg0cQ;
+        "tlX7Dalj" = _tlX7Dalj;
+        "jZ48waxf" = _jZ48waxf;
+        "sU6pXuY5" = _sU6pXuY5;
+        "hmVZSUqi" = _hmVZSUqi;
+        "okCCxB0z" = _okCCxB0z;
+        "G6aywKEL" = _G6aywKEL;
+        "vta78w9F" = _vta78w9F;
+        "xNdm8BWL" = _xNdm8BWL;
+        "ZMYNmSsG" = _ZMYNmSsG;
+        "AnqUzNWE" = _AnqUzNWE;
+        "datapack-1.21" = _okCCxB0z;
+        "datapack-1.21.1" = _okCCxB0z;
+        "datapack-1.21.2" = _okCCxB0z;
+        "datapack-1.21.3" = _okCCxB0z;
+        "datapack-1.21.4" = _okCCxB0z;
+        "datapack-1.21.5" = _okCCxB0z;
+        "datapack-1.21.6" = _okCCxB0z;
+        "datapack-1.21.7" = _okCCxB0z;
+        "datapack-1.21.8" = _okCCxB0z;
+        "datapack-1.20.5" = _vta78w9F;
+        "datapack-1.20.6" = _vta78w9F;
+        "datapack-1.17" = _ZMYNmSsG;
+        "datapack-1.17.1" = _ZMYNmSsG;
+        "datapack-1.18" = _ZMYNmSsG;
+        "datapack-1.18.1" = _ZMYNmSsG;
+        "datapack-1.18.2" = _ZMYNmSsG;
+        "datapack-1.19" = _ZMYNmSsG;
+        "datapack-1.19.1" = _ZMYNmSsG;
+        "datapack-1.19.2" = _ZMYNmSsG;
+        "datapack-1.19.3" = _ZMYNmSsG;
+        "datapack-1.19.4" = _ZMYNmSsG;
+        "datapack-1.20" = _ZMYNmSsG;
+        "datapack-1.20.1" = _ZMYNmSsG;
+        "datapack-1.20.2" = _ZMYNmSsG;
+        "datapack-1.20.3" = _ZMYNmSsG;
+        "datapack-1.20.4" = _ZMYNmSsG;
+        "fabric-1.21" = _G6aywKEL;
+        "fabric-1.21.1" = _G6aywKEL;
+        "fabric-1.21.2" = _G6aywKEL;
+        "fabric-1.21.3" = _G6aywKEL;
+        "fabric-1.21.4" = _G6aywKEL;
+        "fabric-1.21.5" = _G6aywKEL;
+        "fabric-1.21.6" = _G6aywKEL;
+        "fabric-1.21.7" = _G6aywKEL;
+        "fabric-1.21.8" = _G6aywKEL;
+        "fabric-1.20.5" = _xNdm8BWL;
+        "fabric-1.20.6" = _xNdm8BWL;
+        "fabric-1.17" = _AnqUzNWE;
+        "fabric-1.17.1" = _AnqUzNWE;
+        "fabric-1.18" = _AnqUzNWE;
+        "fabric-1.18.1" = _AnqUzNWE;
+        "fabric-1.18.2" = _AnqUzNWE;
+        "fabric-1.19" = _AnqUzNWE;
+        "fabric-1.19.1" = _AnqUzNWE;
+        "fabric-1.19.2" = _AnqUzNWE;
+        "fabric-1.19.3" = _AnqUzNWE;
+        "fabric-1.19.4" = _AnqUzNWE;
+        "fabric-1.20" = _AnqUzNWE;
+        "fabric-1.20.1" = _AnqUzNWE;
+        "fabric-1.20.2" = _AnqUzNWE;
+        "fabric-1.20.3" = _AnqUzNWE;
+        "fabric-1.20.4" = _AnqUzNWE;
+        "forge-1.21" = _G6aywKEL;
+        "forge-1.21.1" = _G6aywKEL;
+        "forge-1.21.2" = _G6aywKEL;
+        "forge-1.21.3" = _G6aywKEL;
+        "forge-1.21.4" = _G6aywKEL;
+        "forge-1.21.5" = _G6aywKEL;
+        "forge-1.21.6" = _G6aywKEL;
+        "forge-1.21.7" = _G6aywKEL;
+        "forge-1.21.8" = _G6aywKEL;
+        "forge-1.20.5" = _xNdm8BWL;
+        "forge-1.20.6" = _xNdm8BWL;
+        "forge-1.17" = _AnqUzNWE;
+        "forge-1.17.1" = _AnqUzNWE;
+        "forge-1.18" = _AnqUzNWE;
+        "forge-1.18.1" = _AnqUzNWE;
+        "forge-1.18.2" = _AnqUzNWE;
+        "forge-1.19" = _AnqUzNWE;
+        "forge-1.19.1" = _AnqUzNWE;
+        "forge-1.19.2" = _AnqUzNWE;
+        "forge-1.19.3" = _AnqUzNWE;
+        "forge-1.19.4" = _AnqUzNWE;
+        "forge-1.20" = _AnqUzNWE;
+        "forge-1.20.1" = _AnqUzNWE;
+        "forge-1.20.2" = _AnqUzNWE;
+        "forge-1.20.3" = _AnqUzNWE;
+        "forge-1.20.4" = _AnqUzNWE;
+        "neoforge-1.21" = _G6aywKEL;
+        "neoforge-1.21.1" = _G6aywKEL;
+        "neoforge-1.21.2" = _G6aywKEL;
+        "neoforge-1.21.3" = _G6aywKEL;
+        "neoforge-1.21.4" = _G6aywKEL;
+        "neoforge-1.21.5" = _G6aywKEL;
+        "neoforge-1.21.6" = _G6aywKEL;
+        "neoforge-1.21.7" = _G6aywKEL;
+        "neoforge-1.21.8" = _G6aywKEL;
+        "neoforge-1.20.5" = _xNdm8BWL;
+        "neoforge-1.20.6" = _xNdm8BWL;
+        "neoforge-1.17" = _AnqUzNWE;
+        "neoforge-1.17.1" = _AnqUzNWE;
+        "neoforge-1.18" = _AnqUzNWE;
+        "neoforge-1.18.1" = _AnqUzNWE;
+        "neoforge-1.18.2" = _AnqUzNWE;
+        "neoforge-1.19" = _AnqUzNWE;
+        "neoforge-1.19.1" = _AnqUzNWE;
+        "neoforge-1.19.2" = _AnqUzNWE;
+        "neoforge-1.19.3" = _AnqUzNWE;
+        "neoforge-1.19.4" = _AnqUzNWE;
+        "neoforge-1.20" = _AnqUzNWE;
+        "neoforge-1.20.1" = _AnqUzNWE;
+        "neoforge-1.20.2" = _AnqUzNWE;
+        "neoforge-1.20.3" = _AnqUzNWE;
+        "neoforge-1.20.4" = _AnqUzNWE;
+        "quilt-1.21" = _G6aywKEL;
+        "quilt-1.21.1" = _G6aywKEL;
+        "quilt-1.21.2" = _G6aywKEL;
+        "quilt-1.21.3" = _G6aywKEL;
+        "quilt-1.21.4" = _G6aywKEL;
+        "quilt-1.21.5" = _G6aywKEL;
+        "quilt-1.21.6" = _G6aywKEL;
+        "quilt-1.21.7" = _G6aywKEL;
+        "quilt-1.21.8" = _G6aywKEL;
+        "quilt-1.20.5" = _xNdm8BWL;
+        "quilt-1.20.6" = _xNdm8BWL;
+        "quilt-1.17" = _AnqUzNWE;
+        "quilt-1.17.1" = _AnqUzNWE;
+        "quilt-1.18" = _AnqUzNWE;
+        "quilt-1.18.1" = _AnqUzNWE;
+        "quilt-1.18.2" = _AnqUzNWE;
+        "quilt-1.19" = _AnqUzNWE;
+        "quilt-1.19.1" = _AnqUzNWE;
+        "quilt-1.19.2" = _AnqUzNWE;
+        "quilt-1.19.3" = _AnqUzNWE;
+        "quilt-1.19.4" = _AnqUzNWE;
+        "quilt-1.20" = _AnqUzNWE;
+        "quilt-1.20.1" = _AnqUzNWE;
+        "quilt-1.20.2" = _AnqUzNWE;
+        "quilt-1.20.3" = _AnqUzNWE;
+        "quilt-1.20.4" = _AnqUzNWE;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "stone-to-copper-tools";
+            id = "DCo7uipa";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="AnqUzNWE";}

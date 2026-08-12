@@ -1,0 +1,32 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _S3pAqL5x = {
+            "id" = "S3pAqL5x";
+            "file" = "create_synthetic_pressure-1.0.1.jar";
+            "hash" = "sha512-5b7BnVkcvpv3iRop0PRv524AwSROnVVE0mAFfja4IiVemrALoWcXo4pRHDlOCKkS8oNiTHMqrrqHJjUCmtWMuQ==";
+        };
+    in {
+        "S3pAqL5x" = _S3pAqL5x;
+        "neoforge-1.21.1" = _S3pAqL5x;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "create-synthetic-pressure";
+            id = "DFKpjlu6";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="S3pAqL5x";}

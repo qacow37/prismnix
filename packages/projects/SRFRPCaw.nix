@@ -1,0 +1,120 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _SFpKbYDy = {
+            "id" = "SFpKbYDy";
+            "file" = "MelodysCuteXPPink.zip";
+            "hash" = "sha512-K/izil6hf4qxjQrQFsY8atel/UxFBD8cnOKSJLWOuEHq9YyFDVSWHM8ixTOhdU0Wq73VUh8Pbap23Z6xJBeypg==";
+        };
+        _zUKPdkGW = {
+            "id" = "zUKPdkGW";
+            "file" = "Melodys Pink Exp Orbs 1.0.1.zip";
+            "hash" = "sha512-ZK5svnxXacQt1yqL4PiYrGUGLaqSHzVYoTvF7LUfSqGsrCpfXaneu0xy5KWhbixbfES5Nls7X1sDcVjm7pCskA==";
+        };
+    in {
+        "SFpKbYDy" = _SFpKbYDy;
+        "zUKPdkGW" = _zUKPdkGW;
+        "minecraft-1.16.2" = _zUKPdkGW;
+        "minecraft-1.16.3" = _zUKPdkGW;
+        "minecraft-1.16.4" = _zUKPdkGW;
+        "minecraft-1.16.5" = _zUKPdkGW;
+        "minecraft-1.17" = _zUKPdkGW;
+        "minecraft-1.17.1" = _zUKPdkGW;
+        "minecraft-1.18" = _zUKPdkGW;
+        "minecraft-1.18.1" = _zUKPdkGW;
+        "minecraft-1.18.2" = _zUKPdkGW;
+        "minecraft-1.19" = _zUKPdkGW;
+        "minecraft-1.19.1" = _zUKPdkGW;
+        "minecraft-1.19.2" = _zUKPdkGW;
+        "minecraft-1.19.3" = _zUKPdkGW;
+        "minecraft-1.19.4" = _zUKPdkGW;
+        "minecraft-1.20" = _zUKPdkGW;
+        "minecraft-1.20.1" = _zUKPdkGW;
+        "minecraft-1.20.2" = _zUKPdkGW;
+        "minecraft-1.20.3" = _zUKPdkGW;
+        "minecraft-1.20.4" = _zUKPdkGW;
+        "minecraft-1.20.5" = _zUKPdkGW;
+        "minecraft-1.20.6" = _zUKPdkGW;
+        "minecraft-1.21" = _zUKPdkGW;
+        "minecraft-1.21.1" = _zUKPdkGW;
+        "minecraft-22w42a" = _zUKPdkGW;
+        "minecraft-22w43a" = _zUKPdkGW;
+        "minecraft-22w44a" = _zUKPdkGW;
+        "minecraft-23w14a" = _zUKPdkGW;
+        "minecraft-23w16a" = _zUKPdkGW;
+        "minecraft-23w31a" = _zUKPdkGW;
+        "minecraft-23w32a" = _zUKPdkGW;
+        "minecraft-23w33a" = _zUKPdkGW;
+        "minecraft-23w35a" = _zUKPdkGW;
+        "minecraft-1.20.2-pre1" = _zUKPdkGW;
+        "minecraft-23w42a" = _zUKPdkGW;
+        "minecraft-23w43a" = _zUKPdkGW;
+        "minecraft-23w43b" = _zUKPdkGW;
+        "minecraft-23w44a" = _zUKPdkGW;
+        "minecraft-23w45a" = _zUKPdkGW;
+        "minecraft-23w46a" = _zUKPdkGW;
+        "minecraft-24w03a" = _zUKPdkGW;
+        "minecraft-24w03b" = _zUKPdkGW;
+        "minecraft-24w04a" = _zUKPdkGW;
+        "minecraft-24w05a" = _zUKPdkGW;
+        "minecraft-24w05b" = _zUKPdkGW;
+        "minecraft-24w06a" = _zUKPdkGW;
+        "minecraft-24w07a" = _zUKPdkGW;
+        "minecraft-24w09a" = _zUKPdkGW;
+        "minecraft-24w10a" = _zUKPdkGW;
+        "minecraft-24w11a" = _zUKPdkGW;
+        "minecraft-24w12a" = _zUKPdkGW;
+        "minecraft-24w13a" = _zUKPdkGW;
+        "minecraft-24w14potato" = _zUKPdkGW;
+        "minecraft-24w14a" = _zUKPdkGW;
+        "minecraft-1.20.5-pre1" = _zUKPdkGW;
+        "minecraft-1.20.5-pre2" = _zUKPdkGW;
+        "minecraft-1.20.5-pre3" = _zUKPdkGW;
+        "minecraft-24w18a" = _zUKPdkGW;
+        "minecraft-24w19a" = _zUKPdkGW;
+        "minecraft-24w19b" = _zUKPdkGW;
+        "minecraft-24w20a" = _zUKPdkGW;
+        "minecraft-24w33a" = _zUKPdkGW;
+        "minecraft-24w34a" = _zUKPdkGW;
+        "minecraft-24w35a" = _zUKPdkGW;
+        "minecraft-24w36a" = _zUKPdkGW;
+        "minecraft-24w37a" = _zUKPdkGW;
+        "minecraft-24w38a" = _zUKPdkGW;
+        "minecraft-24w39a" = _zUKPdkGW;
+        "minecraft-24w40a" = _zUKPdkGW;
+        "minecraft-1.21.2-pre1" = _zUKPdkGW;
+        "minecraft-1.21.2-pre2" = _zUKPdkGW;
+        "minecraft-1.21.2" = _zUKPdkGW;
+        "minecraft-1.21.3" = _zUKPdkGW;
+        "minecraft-24w44a" = _zUKPdkGW;
+        "minecraft-24w45a" = _zUKPdkGW;
+        "minecraft-24w46a" = _zUKPdkGW;
+        "minecraft-1.21.4" = _zUKPdkGW;
+        "minecraft-1.21.5" = _zUKPdkGW;
+        "minecraft-1.21.6" = _zUKPdkGW;
+        "minecraft-1.21.7" = _zUKPdkGW;
+        "minecraft-1.21.8" = _zUKPdkGW;
+        "minecraft-1.21.9" = _zUKPdkGW;
+        "minecraft-1.21.10" = _zUKPdkGW;
+        "minecraft-1.21.11" = _zUKPdkGW;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "melodys-cute-xp-orbs-pink";
+            id = "SRFRPCaw";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = "https://melodymews.com/?utm_source=pinkexpmodrinth&utm_medium=referral&utm_campaign=pinkexpmodrinth#termsofuse";
+                };
+            };
+        };
+in callPackage fn {version="zUKPdkGW";}

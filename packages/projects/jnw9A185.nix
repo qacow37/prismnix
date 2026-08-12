@@ -1,0 +1,123 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BZ47T5h9 = {
+            "id" = "BZ47T5h9";
+            "file" = "BoundlessForging-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-85OV3kid48ZBsOEDaAyrQ0+VsSgx9nr3S8BCbiZmmtRaCtMFNMrxnVToBKlpSAYyP6YtRgE31445Ch2WBMwDAQ==";
+        };
+        _wERDIMfS = {
+            "id" = "wERDIMfS";
+            "file" = "BoundlessForging-1.1.jar";
+            "hash" = "sha512-V4KPFODHk7ByPCzU0rIQ9FtrCePpToRApHknY0QEn2FoihInzpNJntfQAbWtmLepVQLh8fFYiJXEZ0nuS8puLQ==";
+        };
+        _1wFTCeJz = {
+            "id" = "1wFTCeJz";
+            "file" = "BoundlessForging-1.0.jar";
+            "hash" = "sha512-85OV3kid48ZBsOEDaAyrQ0+VsSgx9nr3S8BCbiZmmtRaCtMFNMrxnVToBKlpSAYyP6YtRgE31445Ch2WBMwDAQ==";
+        };
+    in {
+        "BZ47T5h9" = _BZ47T5h9;
+        "wERDIMfS" = _wERDIMfS;
+        "1wFTCeJz" = _1wFTCeJz;
+        "spigot-1.20" = _BZ47T5h9;
+        "spigot-1.20.1" = _BZ47T5h9;
+        "spigot-1.20.2" = _BZ47T5h9;
+        "spigot-1.20.3" = _BZ47T5h9;
+        "spigot-1.20.4" = _BZ47T5h9;
+        "spigot-1.20.5" = _BZ47T5h9;
+        "spigot-1.20.6" = _BZ47T5h9;
+        "spigot-1.21" = _BZ47T5h9;
+        "spigot-1.21.1" = _BZ47T5h9;
+        "spigot-1.21.2" = _BZ47T5h9;
+        "spigot-1.21.3" = _BZ47T5h9;
+        "spigot-1.21.4" = _BZ47T5h9;
+        "spigot-1.21.5" = _BZ47T5h9;
+        "spigot-1.21.6" = _BZ47T5h9;
+        "spigot-1.21.7" = _BZ47T5h9;
+        "spigot-1.21.8" = _BZ47T5h9;
+        "spigot-1.21.9" = _BZ47T5h9;
+        "spigot-1.21.10" = _BZ47T5h9;
+        "spigot-1.21.11" = _BZ47T5h9;
+        "spigot-26.1" = _BZ47T5h9;
+        "spigot-26.1.1" = _BZ47T5h9;
+        "spigot-26.1.2" = _BZ47T5h9;
+        "folia-1.21.1" = _wERDIMfS;
+        "folia-1.21.2" = _wERDIMfS;
+        "folia-1.21.3" = _wERDIMfS;
+        "folia-1.21.4" = _wERDIMfS;
+        "folia-1.21.5" = _wERDIMfS;
+        "folia-1.21.6" = _wERDIMfS;
+        "folia-1.21.7" = _wERDIMfS;
+        "folia-1.21.8" = _wERDIMfS;
+        "folia-1.21.9" = _wERDIMfS;
+        "folia-1.21.10" = _wERDIMfS;
+        "folia-1.21.11" = _wERDIMfS;
+        "folia-26.1" = _wERDIMfS;
+        "folia-26.1.1" = _wERDIMfS;
+        "folia-26.1.2" = _wERDIMfS;
+        "paper-1.21.1" = _wERDIMfS;
+        "paper-1.21.2" = _wERDIMfS;
+        "paper-1.21.3" = _wERDIMfS;
+        "paper-1.21.4" = _wERDIMfS;
+        "paper-1.21.5" = _wERDIMfS;
+        "paper-1.21.6" = _wERDIMfS;
+        "paper-1.21.7" = _wERDIMfS;
+        "paper-1.21.8" = _wERDIMfS;
+        "paper-1.21.9" = _wERDIMfS;
+        "paper-1.21.10" = _wERDIMfS;
+        "paper-1.21.11" = _wERDIMfS;
+        "paper-26.1" = _wERDIMfS;
+        "paper-26.1.1" = _wERDIMfS;
+        "paper-26.1.2" = _wERDIMfS;
+        "paper-1.20" = _1wFTCeJz;
+        "paper-1.20.1" = _1wFTCeJz;
+        "paper-1.20.2" = _1wFTCeJz;
+        "paper-1.20.3" = _1wFTCeJz;
+        "paper-1.20.4" = _1wFTCeJz;
+        "paper-1.20.5" = _1wFTCeJz;
+        "paper-1.20.6" = _1wFTCeJz;
+        "paper-1.21" = _1wFTCeJz;
+        "purpur-1.21.1" = _wERDIMfS;
+        "purpur-1.21.2" = _wERDIMfS;
+        "purpur-1.21.3" = _wERDIMfS;
+        "purpur-1.21.4" = _wERDIMfS;
+        "purpur-1.21.5" = _wERDIMfS;
+        "purpur-1.21.6" = _wERDIMfS;
+        "purpur-1.21.7" = _wERDIMfS;
+        "purpur-1.21.8" = _wERDIMfS;
+        "purpur-1.21.9" = _wERDIMfS;
+        "purpur-1.21.10" = _wERDIMfS;
+        "purpur-1.21.11" = _wERDIMfS;
+        "purpur-26.1" = _wERDIMfS;
+        "purpur-26.1.1" = _wERDIMfS;
+        "purpur-26.1.2" = _wERDIMfS;
+        "purpur-1.20" = _1wFTCeJz;
+        "purpur-1.20.1" = _1wFTCeJz;
+        "purpur-1.20.2" = _1wFTCeJz;
+        "purpur-1.20.3" = _1wFTCeJz;
+        "purpur-1.20.4" = _1wFTCeJz;
+        "purpur-1.20.5" = _1wFTCeJz;
+        "purpur-1.20.6" = _1wFTCeJz;
+        "purpur-1.21" = _1wFTCeJz;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "boundless-forging";
+            id = "jnw9A185";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 or later";
+                    shortName = "GPL-3.0-or-later";
+                    url = "https://github.com/BlurOne-GIT/Boundless-Forging/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="1wFTCeJz";}

@@ -1,0 +1,317 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _6JepS0T6 = {
+            "id" = "6JepS0T6";
+            "file" = "ComplementaryShaders_v4.6.zip";
+            "hash" = "sha512-0YwbZqnz9SymUqW+4I91sFoOqE1Zl4O/6yPejWcSAnaAImHXcLkRFpBQa6Tr9b7SflicECPbj0IHSHNFJsrk/w==";
+        };
+        _CMWGx8BZ = {
+            "id" = "CMWGx8BZ";
+            "file" = "ComplementaryShaders_v4.7.zip";
+            "hash" = "sha512-FdtlKBoVz3hduzROOlPFvTcJQH2L7FjpFgNrqxorko1VS3oD0b4t1dIvL2Pl1DInB73TSGj6G2V/6MDH51uTGw==";
+        };
+        _YWBtNYH3 = {
+            "id" = "YWBtNYH3";
+            "file" = "ComplementaryShaders_v4.7.1.zip";
+            "hash" = "sha512-zvYeKduNTsEAOOB2maqBS5VPQa994X+JmyUT9pM/eIBt/d7/6uQbvd3KyWxlNpR/qh7k1IO3yhHlyKE6gY1CEg==";
+        };
+        _G16NNnV9 = {
+            "id" = "G16NNnV9";
+            "file" = "ComplementaryShaders_v4.7.2.zip";
+            "hash" = "sha512-oa7ry4w/2jKJ5seXigMRYmGfor7YucZ5OMGaAAxuAwMiQzR9bHLikw0plggspMOrF2TJ84T2uPBkXp/b7xbaeg==";
+        };
+        _B1208PyS = {
+            "id" = "B1208PyS";
+            "file" = "ComplementaryUnbound_r5.0.zip";
+            "hash" = "sha512-yC84uiprKUiTgoWKLU1xAOkUmrtw6GT1161IKBbiCTGpuEV5r6s3bWoJTnXBpXHbPnfNcYm7+Q1BFu9yeCGuAQ==";
+        };
+        _JHN3K1Ng = {
+            "id" = "JHN3K1Ng";
+            "file" = "ComplementaryUnbound_r5.0.1.zip";
+            "hash" = "sha512-gChp0EwPz4hh1kcpoFx1ep/o0D++W79vGnED1nfSEJwMLtFi3GZZ9plWRcv+r3MjHYmX+IZKQdvfPwxCNjdvKQ==";
+        };
+        _FYuEM2Ph = {
+            "id" = "FYuEM2Ph";
+            "file" = "ComplementaryUnbound_r5.1.zip";
+            "hash" = "sha512-DTBgk5HtZyahll3WIsqCz0RE9MRPMpC3khk4QFvETpTbtc1+dXkKAPvuuTfRtBlUbrs0kzMiYwEiLbtnq0JKIw==";
+        };
+        _MCqlWur4 = {
+            "id" = "MCqlWur4";
+            "file" = "ComplementaryUnbound_r5.1.1.zip";
+            "hash" = "sha512-FhDscoBv3Zs28/UM2X9YdhL6TXVk0V3f9XUmXGfkBrxtjmXvngvZRbeSBxicu2sed7pbO5xvtoojZL0khTIUPQ==";
+        };
+        _5h0C4qfp = {
+            "id" = "5h0C4qfp";
+            "file" = "ComplementaryUnbound_r5.2.zip";
+            "hash" = "sha512-31fbIqc1tLB3J9gjuaBuk+DpZw1KOrmhgsXmBCqdif+C1g/+DO8zHVNO2yUS5bCcEjpWYYAb5F1nBBZeYZX3aA==";
+        };
+        _qWTl3wic = {
+            "id" = "qWTl3wic";
+            "file" = "ComplementaryUnbound_r5.2.1.zip";
+            "hash" = "sha512-BCUrFO5MhugBGD8VD1ALTKtAABFfGmsiRimYnnU9I/sVN4+qxqnfaflwHqJpm8sBhM+9iEdyXhdD1X0ILrXyUA==";
+        };
+        _RMaZ3tSJ = {
+            "id" = "RMaZ3tSJ";
+            "file" = "ComplementaryUnbound_r5.2.2.zip";
+            "hash" = "sha512-4WXx2/RLUvLKnJIeSxU05VDHFphvk3f84MmOEpEF9OqefkLXDmRwfXaiEusSH1JfVVFbY1FuO+CC+hByF9JrzA==";
+        };
+        _CVu3AGAd = {
+            "id" = "CVu3AGAd";
+            "file" = "ComplementaryUnbound_r5.3.zip";
+            "hash" = "sha512-dxcWFuNf5FaJim0UD4WN5sIBHnAB0yY0BObNRaNW/+zPrO+RgkeNYxWh4yFkLRS91eyjhl7K2Ft1D11PQE3wVQ==";
+        };
+        _Z1zqMzjh = {
+            "id" = "Z1zqMzjh";
+            "file" = "ComplementaryUnbound_r5.4.zip";
+            "hash" = "sha512-4AfkcKHDAxGWkRjbnATVJ8BoD2sUgPhyzggO5e+c2tEhcGNZx9KOzMULKEPOf7OE9pLFjwhM3MC77KIGQfRfwA==";
+        };
+        _4Jd3kWRb = {
+            "id" = "4Jd3kWRb";
+            "file" = "ComplementaryUnbound_r5.5.zip";
+            "hash" = "sha512-y6Zo42l+3pQauYYbzVOngA0NllYExa8BfpdYGvwbgazHpQ9u+W9QgYksYRJKqjoF84CKj3+YVy2nXr1llOE1jQ==";
+        };
+        _1ng9gVp7 = {
+            "id" = "1ng9gVp7";
+            "file" = "ComplementaryUnbound_r5.5.1.zip";
+            "hash" = "sha512-p51TatYQdB06wl+utPMqf/9tJbiVKbWkkZ1yufn4F6FWgKc05cy1Dv13c3/yFQia25PXo8ArQ5wludq5iOQcNg==";
+        };
+        _5jNdWYgl = {
+            "id" = "5jNdWYgl";
+            "file" = "ComplementaryUnbound_r5.6.zip";
+            "hash" = "sha512-Rb8gPtxzW3ou4jxFoSFtNVemJdyM+KKE4bGcxHcWu4Wg8jqUkF8/fSuFwHi5rBucCtoUVoCkAI5cv5n8n0V+7w==";
+        };
+        _LXrX6oqm = {
+            "id" = "LXrX6oqm";
+            "file" = "ComplementaryUnbound_r5.6.1.zip";
+            "hash" = "sha512-PEazNfrw3eA2ZlcdI73DqgTN0w+p6j/QEhQgOnqAu/Uv+mSLRNnAbGIwjCNBONpIpprDgRlt4Gg8V+xFL/aPQQ==";
+        };
+        _yBmCjTMh = {
+            "id" = "yBmCjTMh";
+            "file" = "ComplementaryUnbound_r5.7.zip";
+            "hash" = "sha512-ah7THbXZ4w7ahLLNQuI3gNsW/o/r3L7MjLyPOhNyfi76aNiBIlEmsQspXMqUMv7KyBNL05y8wEsK9IMOuybGuA==";
+        };
+        _d8rcvDTp = {
+            "id" = "d8rcvDTp";
+            "file" = "ComplementaryUnbound_r5.7.1.zip";
+            "hash" = "sha512-IHrZKrNU4b4ALhzM6XjaOGCvaVMt3N7LwqlD/+H/esXuxrAhBzrmi5PXhJnGPVBd46v2PZBYzfbLgL7WUot1Mg==";
+        };
+        _BTHXcCkt = {
+            "id" = "BTHXcCkt";
+            "file" = "ComplementaryUnbound_r5.8.zip";
+            "hash" = "sha512-WX024DRzw49Su9u/YClhq890ClO01wBBeLeqVKvA0XHIPuMdbpS5O+/vst45JFqF5A99725OPlAQ63WaFSYlwA==";
+        };
+        _VMHXIk50 = {
+            "id" = "VMHXIk50";
+            "file" = "ComplementaryUnbound_r5.8.1.zip";
+            "hash" = "sha512-kJjdngwYuA96uig5zqM86aYU2XZlu/ysh8zObkdxZnxBYC2ZCIhSyxZCzKsgss7/m5ivjy55W9DTuQt8nLq5FA==";
+        };
+    in {
+        "6JepS0T6" = _6JepS0T6;
+        "CMWGx8BZ" = _CMWGx8BZ;
+        "YWBtNYH3" = _YWBtNYH3;
+        "G16NNnV9" = _G16NNnV9;
+        "B1208PyS" = _B1208PyS;
+        "JHN3K1Ng" = _JHN3K1Ng;
+        "FYuEM2Ph" = _FYuEM2Ph;
+        "MCqlWur4" = _MCqlWur4;
+        "5h0C4qfp" = _5h0C4qfp;
+        "qWTl3wic" = _qWTl3wic;
+        "RMaZ3tSJ" = _RMaZ3tSJ;
+        "CVu3AGAd" = _CVu3AGAd;
+        "Z1zqMzjh" = _Z1zqMzjh;
+        "4Jd3kWRb" = _4Jd3kWRb;
+        "1ng9gVp7" = _1ng9gVp7;
+        "5jNdWYgl" = _5jNdWYgl;
+        "LXrX6oqm" = _LXrX6oqm;
+        "yBmCjTMh" = _yBmCjTMh;
+        "d8rcvDTp" = _d8rcvDTp;
+        "BTHXcCkt" = _BTHXcCkt;
+        "VMHXIk50" = _VMHXIk50;
+        "iris-1.7.2" = _6JepS0T6;
+        "iris-1.7.3" = _6JepS0T6;
+        "iris-1.7.4" = _6JepS0T6;
+        "iris-1.7.5" = _6JepS0T6;
+        "iris-1.7.6" = _6JepS0T6;
+        "iris-1.7.7" = _6JepS0T6;
+        "iris-1.7.8" = _6JepS0T6;
+        "iris-1.7.9" = _6JepS0T6;
+        "iris-1.7.10" = _VMHXIk50;
+        "iris-1.8" = _VMHXIk50;
+        "iris-1.8.1" = _VMHXIk50;
+        "iris-1.8.2" = _VMHXIk50;
+        "iris-1.8.3" = _VMHXIk50;
+        "iris-1.8.4" = _VMHXIk50;
+        "iris-1.8.5" = _VMHXIk50;
+        "iris-1.8.6" = _VMHXIk50;
+        "iris-1.8.7" = _VMHXIk50;
+        "iris-1.8.8" = _VMHXIk50;
+        "iris-1.8.9" = _VMHXIk50;
+        "iris-1.9" = _VMHXIk50;
+        "iris-1.9.1" = _VMHXIk50;
+        "iris-1.9.2" = _VMHXIk50;
+        "iris-1.9.3" = _VMHXIk50;
+        "iris-1.9.4" = _VMHXIk50;
+        "iris-1.10" = _VMHXIk50;
+        "iris-1.10.1" = _VMHXIk50;
+        "iris-1.10.2" = _VMHXIk50;
+        "iris-1.11" = _VMHXIk50;
+        "iris-1.11.1" = _VMHXIk50;
+        "iris-1.11.2" = _VMHXIk50;
+        "iris-1.12" = _VMHXIk50;
+        "iris-1.12.1" = _VMHXIk50;
+        "iris-1.12.2" = _VMHXIk50;
+        "iris-1.13" = _VMHXIk50;
+        "iris-1.13.1" = _VMHXIk50;
+        "iris-1.13.2" = _VMHXIk50;
+        "iris-1.14" = _VMHXIk50;
+        "iris-1.14.1" = _VMHXIk50;
+        "iris-1.14.2" = _VMHXIk50;
+        "iris-1.14.3" = _VMHXIk50;
+        "iris-1.14.4" = _VMHXIk50;
+        "iris-1.15" = _VMHXIk50;
+        "iris-1.15.1" = _VMHXIk50;
+        "iris-1.15.2" = _VMHXIk50;
+        "iris-1.16" = _VMHXIk50;
+        "iris-1.16.1" = _VMHXIk50;
+        "iris-1.16.2" = _VMHXIk50;
+        "iris-1.16.3" = _VMHXIk50;
+        "iris-1.16.4" = _VMHXIk50;
+        "iris-1.16.5" = _VMHXIk50;
+        "iris-1.17" = _VMHXIk50;
+        "iris-1.17.1" = _VMHXIk50;
+        "iris-1.18" = _VMHXIk50;
+        "iris-1.18.1" = _VMHXIk50;
+        "iris-1.18.2" = _VMHXIk50;
+        "iris-1.19" = _VMHXIk50;
+        "iris-1.19.1" = _VMHXIk50;
+        "iris-1.19.2" = _VMHXIk50;
+        "iris-1.19.3" = _VMHXIk50;
+        "iris-1.19.4" = _VMHXIk50;
+        "iris-1.20" = _VMHXIk50;
+        "iris-1.20.1" = _VMHXIk50;
+        "iris-1.20.2" = _VMHXIk50;
+        "iris-1.20.3" = _VMHXIk50;
+        "iris-1.20.4" = _VMHXIk50;
+        "iris-1.20.5" = _VMHXIk50;
+        "iris-1.20.6" = _VMHXIk50;
+        "iris-1.21" = _VMHXIk50;
+        "iris-1.21.1" = _VMHXIk50;
+        "iris-1.21.2" = _VMHXIk50;
+        "iris-1.21.3" = _VMHXIk50;
+        "iris-1.21.4" = _VMHXIk50;
+        "iris-1.21.5" = _VMHXIk50;
+        "iris-1.21.6" = _VMHXIk50;
+        "iris-1.21.7" = _VMHXIk50;
+        "iris-1.21.8" = _VMHXIk50;
+        "iris-1.21.9" = _VMHXIk50;
+        "iris-1.21.10" = _VMHXIk50;
+        "iris-1.21.11" = _VMHXIk50;
+        "iris-26.1" = _VMHXIk50;
+        "iris-26.1.1" = _VMHXIk50;
+        "iris-26.1.2" = _VMHXIk50;
+        "iris-26.2" = _VMHXIk50;
+        "optifine-1.7.2" = _6JepS0T6;
+        "optifine-1.7.3" = _6JepS0T6;
+        "optifine-1.7.4" = _6JepS0T6;
+        "optifine-1.7.5" = _6JepS0T6;
+        "optifine-1.7.6" = _6JepS0T6;
+        "optifine-1.7.7" = _6JepS0T6;
+        "optifine-1.7.8" = _6JepS0T6;
+        "optifine-1.7.9" = _6JepS0T6;
+        "optifine-1.7.10" = _VMHXIk50;
+        "optifine-1.8" = _VMHXIk50;
+        "optifine-1.8.1" = _VMHXIk50;
+        "optifine-1.8.2" = _VMHXIk50;
+        "optifine-1.8.3" = _VMHXIk50;
+        "optifine-1.8.4" = _VMHXIk50;
+        "optifine-1.8.5" = _VMHXIk50;
+        "optifine-1.8.6" = _VMHXIk50;
+        "optifine-1.8.7" = _VMHXIk50;
+        "optifine-1.8.8" = _VMHXIk50;
+        "optifine-1.8.9" = _VMHXIk50;
+        "optifine-1.9" = _VMHXIk50;
+        "optifine-1.9.1" = _VMHXIk50;
+        "optifine-1.9.2" = _VMHXIk50;
+        "optifine-1.9.3" = _VMHXIk50;
+        "optifine-1.9.4" = _VMHXIk50;
+        "optifine-1.10" = _VMHXIk50;
+        "optifine-1.10.1" = _VMHXIk50;
+        "optifine-1.10.2" = _VMHXIk50;
+        "optifine-1.11" = _VMHXIk50;
+        "optifine-1.11.1" = _VMHXIk50;
+        "optifine-1.11.2" = _VMHXIk50;
+        "optifine-1.12" = _VMHXIk50;
+        "optifine-1.12.1" = _VMHXIk50;
+        "optifine-1.12.2" = _VMHXIk50;
+        "optifine-1.13" = _VMHXIk50;
+        "optifine-1.13.1" = _VMHXIk50;
+        "optifine-1.13.2" = _VMHXIk50;
+        "optifine-1.14" = _VMHXIk50;
+        "optifine-1.14.1" = _VMHXIk50;
+        "optifine-1.14.2" = _VMHXIk50;
+        "optifine-1.14.3" = _VMHXIk50;
+        "optifine-1.14.4" = _VMHXIk50;
+        "optifine-1.15" = _VMHXIk50;
+        "optifine-1.15.1" = _VMHXIk50;
+        "optifine-1.15.2" = _VMHXIk50;
+        "optifine-1.16" = _VMHXIk50;
+        "optifine-1.16.1" = _VMHXIk50;
+        "optifine-1.16.2" = _VMHXIk50;
+        "optifine-1.16.3" = _VMHXIk50;
+        "optifine-1.16.4" = _VMHXIk50;
+        "optifine-1.16.5" = _VMHXIk50;
+        "optifine-1.17" = _VMHXIk50;
+        "optifine-1.17.1" = _VMHXIk50;
+        "optifine-1.18" = _VMHXIk50;
+        "optifine-1.18.1" = _VMHXIk50;
+        "optifine-1.18.2" = _VMHXIk50;
+        "optifine-1.19" = _VMHXIk50;
+        "optifine-1.19.1" = _VMHXIk50;
+        "optifine-1.19.2" = _VMHXIk50;
+        "optifine-1.19.3" = _VMHXIk50;
+        "optifine-1.19.4" = _VMHXIk50;
+        "optifine-1.20" = _VMHXIk50;
+        "optifine-1.20.1" = _VMHXIk50;
+        "optifine-1.20.2" = _VMHXIk50;
+        "optifine-1.20.3" = _VMHXIk50;
+        "optifine-1.20.4" = _VMHXIk50;
+        "optifine-1.20.5" = _VMHXIk50;
+        "optifine-1.20.6" = _VMHXIk50;
+        "optifine-1.21" = _VMHXIk50;
+        "optifine-1.21.1" = _VMHXIk50;
+        "optifine-1.21.2" = _VMHXIk50;
+        "optifine-1.21.3" = _VMHXIk50;
+        "optifine-1.21.4" = _VMHXIk50;
+        "optifine-1.21.5" = _VMHXIk50;
+        "optifine-1.21.6" = _VMHXIk50;
+        "optifine-1.21.7" = _VMHXIk50;
+        "optifine-1.21.8" = _VMHXIk50;
+        "optifine-1.21.9" = _VMHXIk50;
+        "optifine-1.21.10" = _VMHXIk50;
+        "optifine-1.21.11" = _VMHXIk50;
+        "optifine-26.1" = _VMHXIk50;
+        "optifine-26.1.1" = _VMHXIk50;
+        "optifine-26.1.2" = _VMHXIk50;
+        "optifine-26.2" = _VMHXIk50;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "complementary-unbound";
+            id = "R6NEzAwj";
+            type = "shader";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-Custom";
+                    shortName = "LicenseRef-Custom";
+                    url = "https://github.com/ComplementaryDevelopment/ComplementaryShadersV4/blob/main/License.txt";
+                };
+            };
+        };
+in callPackage fn {version="VMHXIk50";}

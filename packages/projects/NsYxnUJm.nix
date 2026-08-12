@@ -1,0 +1,354 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _KJ2EXHzQ = {
+            "id" = "KJ2EXHzQ";
+            "file" = "Stellarity-Lite-1-20-4.zip";
+            "hash" = "sha512-SH1oClE8hvtJieAeztV4ag7TfsSDnQLizN71IJIlkQ7DLhuhWZdGWkrlaeUwSne/qqn2rLUipjhuYe89i6pngQ==";
+        };
+        _NTjpIPdB = {
+            "id" = "NTjpIPdB";
+            "file" = "Stellarity-Lite-1-20-1.zip";
+            "hash" = "sha512-wPeGsgnF2mHL5M4Y1QgvlwEYLeWuzI/B9u8nODDPii8FXS30Vu7i5IAVpUjR/bksw/CdL0GYhkjKcAPZcui3aw==";
+        };
+        _RhA8KiYU = {
+            "id" = "RhA8KiYU";
+            "file" = "stellarity-lite-1.20.1.jar";
+            "hash" = "sha512-4ogWf3dYvD5QVs4d7ObLLZY3unUVfVmfXORKfn/9vQ3056GeAwcMYFS6aQQGKlqY46W2RzcoldsgdfN2suzUKw==";
+        };
+        _Dl0jrFU5 = {
+            "id" = "Dl0jrFU5";
+            "file" = "stellarity-lite-1.20.4.jar";
+            "hash" = "sha512-nh5lbDUScSju1sXXhSf80LkpKdV2zXL8hujJhOShrcou+Thbk3xqQabZ73zIa4msThyBusBP8CEFH43+6BOcZg==";
+        };
+        _cysMu24a = {
+            "id" = "cysMu24a";
+            "file" = "stellarity_3.0.5-lite.zip";
+            "hash" = "sha512-ScI1O3nc/0CIr4FB4sPGaqFbxNLeJI87+dwfzQAYtqFoFNvlvfPz4Fq1QqoDsrWAkp5mcPto+4iwNI8yohpH2A==";
+        };
+        _5mVb5Jq9 = {
+            "id" = "5mVb5Jq9";
+            "file" = "stellarity-lite-3.0.5-lite.jar";
+            "hash" = "sha512-9/1NGdepxcppM6r/rMdIlJVptBUUlvJ0fjco2bwx30E0k1/A8v7Al9Eo/Mg4BM4iBiP8RVBrp1/5bROp7ldeQw==";
+        };
+        _EdLQRhKB = {
+            "id" = "EdLQRhKB";
+            "file" = "stellarity_3.0.5.1-lite.zip";
+            "hash" = "sha512-kHrkTc7LnrKKq/0zKBxY9xajNDrNCLQIQdqEPQIPf1BJqtjXZNxO/3AsGipV2Eumm9hzanqmtkqLFRZE19kTQA==";
+        };
+        _vd128S58 = {
+            "id" = "vd128S58";
+            "file" = "stellarity-lite-3.0.5.1-lite.jar";
+            "hash" = "sha512-C2ZbKO8uAeooSwNAd9r0MbhJUv9VmEX8kKuFWACXedk248ja0kfTy4gflX7Gtdc6PheELorw1YUM4LvxPfh6zA==";
+        };
+        _Rp7a6jZc = {
+            "id" = "Rp7a6jZc";
+            "file" = "stellarity_lite.zip";
+            "hash" = "sha512-bAzvhg+XBZ7Xq7f2QUWa7rEV98iES2C1TdyIRD2E1N5RSeZldVIUQi5LfuKisSNbO7DU81EdM+TR8oOVrgpbSg==";
+        };
+        _z8wlhuj4 = {
+            "id" = "z8wlhuj4";
+            "file" = "stellarity-lite-3.0.5.2.jar";
+            "hash" = "sha512-FZeUyp5ecKfide9iMnZVGrmIggasfZVuEfNkSnwwfOwcrk7pO44+wd3Jnb4yA68n0Xh1yXJxjFGsYuBeyYVScQ==";
+        };
+        _a0HYzrSn = {
+            "id" = "a0HYzrSn";
+            "file" = "stellarity_lite.zip";
+            "hash" = "sha512-mf6PB4d7CgnJ+iP0b/BeneC2sFin8Nondhe2wGcKw2549ggnSBJZbGpFGnb/hiU6SxvSA3VWBYROsMTihpMutg==";
+        };
+        _t0Jl9j0i = {
+            "id" = "t0Jl9j0i";
+            "file" = "stellarity-lite-3.0.5.3.jar";
+            "hash" = "sha512-vuK9JPhykzR1t9CGBDGDzIVN2SW6PhuNtZAuG3mzDHuyKKZLB/DGkN7WUlEDKDrxjK9fSyguf7FtRQiQafesWw==";
+        };
+        _C45jN2jW = {
+            "id" = "C45jN2jW";
+            "file" = "stellarity_lite_3.0.5.4.zip";
+            "hash" = "sha512-HJbVE6+MOythaCUIWU6BPnCx4sTv4wP9CS+5mzn+ju5vHlUkgmAFOcAAfNPd8MkpOXSf204pE/9oIRm2ifo+Gg==";
+        };
+        _1x2x53lL = {
+            "id" = "1x2x53lL";
+            "file" = "stellarity-lite-3.0.5.4.jar";
+            "hash" = "sha512-4AeVVBJa2PkXK/T+YQ7nAd8RuWp3xxIhC+qFzn5sReXTxwOyC/I+3rSJV4vCIDTx4HmNTXmq9k7TVCJT/yNIfg==";
+        };
+        _LRG4lnbw = {
+            "id" = "LRG4lnbw";
+            "file" = "stellarity_lite_3.0.5.5.zip";
+            "hash" = "sha512-hQSDMJJhFF6l4lwnCYLHYYhaacHuCsima+Yo4nFcLUThiGhF1ZJg2WQ/a1jI9+R7iSXquLTOwMSO71NQ4h7u+A==";
+        };
+        _ExM1dvxK = {
+            "id" = "ExM1dvxK";
+            "file" = "stellarity-lite-3.0.5.5.jar";
+            "hash" = "sha512-Sx3zHumH9UTxoH+LTwrSXMZ1WAhNi4hnf8rFkfPuFckhB3i98idLsMZBk0Mf9wWlf9N+BP6lcIGy8fhfHmzyGw==";
+        };
+        _IXyMjdUK = {
+            "id" = "IXyMjdUK";
+            "file" = "stellarity_lite_3.0.5.6.zip";
+            "hash" = "sha512-ILh5cxR5yugWgr9+NkZYrwK7mA4kI1gET3FJeww0h1eh2cZZdL0WJFyrda+GtRDfN4LaHR6OE6w0rtdDFbuYAA==";
+        };
+        _STpZVHMn = {
+            "id" = "STpZVHMn";
+            "file" = "stellarity-lite-3.0.5.6.jar";
+            "hash" = "sha512-Ttp7ZI6cxECcBKVyh+Gz9aAwsShs7PAe/q8PVa3aQnzgvaSqKkwUIAa7Sn+56NqLAihzg6Y7GZDVC+95EV/EFg==";
+        };
+        _ZI2qwTca = {
+            "id" = "ZI2qwTca";
+            "file" = "StellarityLite-3.0.5.7.zip";
+            "hash" = "sha512-QTWsHl8PhBJz1SHu2Zmiu0qe6oj5v/Yv9+7Mtk4hF9m7zLlul2u3XEcRgNWzJDZ0MuJJlefEyWtVIbLuuX8HsQ==";
+        };
+        _2fJlbV3c = {
+            "id" = "2fJlbV3c";
+            "file" = "stellarity-lite-3.0.5.7.jar";
+            "hash" = "sha512-fUm19kjZke41ymkWUkOO611kWYEZm8g0V+2lEYQbFEBlT8Z2/KCj0nGib6ldCEIz1RBO/4L7vMjq9dqfxj240A==";
+        };
+        _P71UdXku = {
+            "id" = "P71UdXku";
+            "file" = "StellarityLite-3.0.5.8.zip";
+            "hash" = "sha512-Vb9t0gWKVtSTOVqk5DjWm/1oQ57/MoBx00hd4FVueISC3oCbNd3pseTzT8YxYousY2xM7IZ0uB4mwpBdDsZlNg==";
+        };
+        _ljSUjRyn = {
+            "id" = "ljSUjRyn";
+            "file" = "stellarity-lite-3.0.5.8.jar";
+            "hash" = "sha512-ogBCKtfBZh1sZNQPqIjpJN+SwlwOqhTP+BuixPozoHVJeNqpyp08TWvp8Gj7r4PwG06LqQBtrG19LOATE/rntA==";
+        };
+        _A9ZY2Fxf = {
+            "id" = "A9ZY2Fxf";
+            "file" = "StellarityLite-3.0.5.9.zip";
+            "hash" = "sha512-NpcYBkQKOjINrPBqYmpCEHAwdTO71WXqAtlCsKoRCBJLjz2yk4iaS83b5Nv9eL2/rF1w2vK7TsIUNHiD+Iivfg==";
+        };
+        _hQcgxWPT = {
+            "id" = "hQcgxWPT";
+            "file" = "stellarity-lite-3.0.5.9.jar";
+            "hash" = "sha512-EnDPbI3ja/13pcJOcM9haDfxT/jxw1aC02of5kHnD7ug0YMgElhguw8V6YEosfP2QuKWVE3iJ6GgVtngXFQ8FA==";
+        };
+        _eLyss3f8 = {
+            "id" = "eLyss3f8";
+            "file" = "StellarityLite-3.0.5.10.zip";
+            "hash" = "sha512-37lZiz0sSuHCRWBc93CRuX4uBlBNEnUod+uQUu79N2e4sNBYLYo9qCYkKOBluxTtlBOPQ46iDd1SM85QahuoEw==";
+        };
+        _uK7fZUr6 = {
+            "id" = "uK7fZUr6";
+            "file" = "StellarityLite_3.0.5.10.zip";
+            "hash" = "sha512-WzHFogCpfKzM9TGyRIxuR+wl7rWtmo3qiLIHLwaI96MNXHEX47XXz0vXZ2KVVMMyhGuuQlcd3y9YRau+9/bQ2A==";
+        };
+        _JPLtEwtY = {
+            "id" = "JPLtEwtY";
+            "file" = "StellarityLite-3.0.5.11.zip";
+            "hash" = "sha512-OmMy9mNoPjv2ikmo7hzEZvDxTY99ftGEln2XGXCeEHCLf4Kpunr0bD/95g7dYmnhHIFjuBWbYL8v8GTovpcsaA==";
+        };
+        _yttZILe2 = {
+            "id" = "yttZILe2";
+            "file" = "stellarity-lite-3.0.5.11.jar";
+            "hash" = "sha512-Qzop2Hjn6DwRZXBDayun4thrX7Y7Q1NDxp5+I8Ikbdxs8Wjqmf2HLBfTAQh+a3KTYidSXJvtz21KAPo6mUvkPA==";
+        };
+    in {
+        "KJ2EXHzQ" = _KJ2EXHzQ;
+        "NTjpIPdB" = _NTjpIPdB;
+        "RhA8KiYU" = _RhA8KiYU;
+        "Dl0jrFU5" = _Dl0jrFU5;
+        "cysMu24a" = _cysMu24a;
+        "5mVb5Jq9" = _5mVb5Jq9;
+        "EdLQRhKB" = _EdLQRhKB;
+        "vd128S58" = _vd128S58;
+        "Rp7a6jZc" = _Rp7a6jZc;
+        "z8wlhuj4" = _z8wlhuj4;
+        "a0HYzrSn" = _a0HYzrSn;
+        "t0Jl9j0i" = _t0Jl9j0i;
+        "C45jN2jW" = _C45jN2jW;
+        "1x2x53lL" = _1x2x53lL;
+        "LRG4lnbw" = _LRG4lnbw;
+        "ExM1dvxK" = _ExM1dvxK;
+        "IXyMjdUK" = _IXyMjdUK;
+        "STpZVHMn" = _STpZVHMn;
+        "ZI2qwTca" = _ZI2qwTca;
+        "2fJlbV3c" = _2fJlbV3c;
+        "P71UdXku" = _P71UdXku;
+        "ljSUjRyn" = _ljSUjRyn;
+        "A9ZY2Fxf" = _A9ZY2Fxf;
+        "hQcgxWPT" = _hQcgxWPT;
+        "eLyss3f8" = _eLyss3f8;
+        "uK7fZUr6" = _uK7fZUr6;
+        "JPLtEwtY" = _JPLtEwtY;
+        "yttZILe2" = _yttZILe2;
+        "datapack-1.20.3" = _KJ2EXHzQ;
+        "datapack-1.20.4" = _KJ2EXHzQ;
+        "datapack-1.20" = _NTjpIPdB;
+        "datapack-1.20.1" = _NTjpIPdB;
+        "datapack-1.21.4" = _P71UdXku;
+        "datapack-1.21" = _P71UdXku;
+        "datapack-1.21.1" = _P71UdXku;
+        "datapack-1.21.2" = _P71UdXku;
+        "datapack-1.21.3" = _P71UdXku;
+        "datapack-1.21.5" = _P71UdXku;
+        "datapack-1.21.6" = _P71UdXku;
+        "datapack-1.21.7" = _uK7fZUr6;
+        "datapack-1.21.8" = _JPLtEwtY;
+        "datapack-1.21.9" = _JPLtEwtY;
+        "datapack-1.21.10" = _JPLtEwtY;
+        "datapack-24w33a" = _P71UdXku;
+        "datapack-24w34a" = _P71UdXku;
+        "datapack-24w35a" = _P71UdXku;
+        "datapack-24w36a" = _P71UdXku;
+        "datapack-24w37a" = _P71UdXku;
+        "datapack-24w38a" = _P71UdXku;
+        "datapack-24w39a" = _P71UdXku;
+        "datapack-24w40a" = _P71UdXku;
+        "datapack-1.21.2-pre1" = _P71UdXku;
+        "datapack-1.21.2-pre2" = _P71UdXku;
+        "datapack-24w44a" = _P71UdXku;
+        "datapack-24w45a" = _P71UdXku;
+        "datapack-24w46a" = _P71UdXku;
+        "datapack-1.21.11" = _JPLtEwtY;
+        "datapack-26.1" = _JPLtEwtY;
+        "datapack-26.1.1" = _JPLtEwtY;
+        "datapack-26.1.2" = _JPLtEwtY;
+        "datapack-26.2" = _JPLtEwtY;
+        "fabric-1.20" = _RhA8KiYU;
+        "fabric-1.20.1" = _RhA8KiYU;
+        "fabric-1.20.3" = _Dl0jrFU5;
+        "fabric-1.20.4" = _Dl0jrFU5;
+        "fabric-1.21.4" = _ljSUjRyn;
+        "fabric-1.21" = _ljSUjRyn;
+        "fabric-1.21.1" = _ljSUjRyn;
+        "fabric-1.21.2" = _ljSUjRyn;
+        "fabric-1.21.3" = _ljSUjRyn;
+        "fabric-1.21.5" = _ljSUjRyn;
+        "fabric-1.21.6" = _ljSUjRyn;
+        "fabric-1.21.7" = _ljSUjRyn;
+        "fabric-1.21.8" = _yttZILe2;
+        "fabric-1.21.9" = _yttZILe2;
+        "fabric-1.21.10" = _yttZILe2;
+        "fabric-24w33a" = _ljSUjRyn;
+        "fabric-24w34a" = _ljSUjRyn;
+        "fabric-24w35a" = _ljSUjRyn;
+        "fabric-24w36a" = _ljSUjRyn;
+        "fabric-24w37a" = _ljSUjRyn;
+        "fabric-24w38a" = _ljSUjRyn;
+        "fabric-24w39a" = _ljSUjRyn;
+        "fabric-24w40a" = _ljSUjRyn;
+        "fabric-1.21.2-pre1" = _ljSUjRyn;
+        "fabric-1.21.2-pre2" = _ljSUjRyn;
+        "fabric-24w44a" = _ljSUjRyn;
+        "fabric-24w45a" = _ljSUjRyn;
+        "fabric-24w46a" = _ljSUjRyn;
+        "fabric-1.21.11" = _yttZILe2;
+        "fabric-26.1" = _yttZILe2;
+        "fabric-26.1.1" = _yttZILe2;
+        "fabric-26.1.2" = _yttZILe2;
+        "fabric-26.2" = _yttZILe2;
+        "forge-1.20" = _RhA8KiYU;
+        "forge-1.20.1" = _RhA8KiYU;
+        "forge-1.20.3" = _Dl0jrFU5;
+        "forge-1.20.4" = _Dl0jrFU5;
+        "forge-1.21.4" = _ljSUjRyn;
+        "forge-1.21" = _ljSUjRyn;
+        "forge-1.21.1" = _ljSUjRyn;
+        "forge-1.21.2" = _ljSUjRyn;
+        "forge-1.21.3" = _ljSUjRyn;
+        "forge-1.21.5" = _ljSUjRyn;
+        "forge-1.21.6" = _ljSUjRyn;
+        "forge-1.21.7" = _ljSUjRyn;
+        "forge-1.21.8" = _yttZILe2;
+        "forge-1.21.9" = _yttZILe2;
+        "forge-1.21.10" = _yttZILe2;
+        "forge-24w33a" = _ljSUjRyn;
+        "forge-24w34a" = _ljSUjRyn;
+        "forge-24w35a" = _ljSUjRyn;
+        "forge-24w36a" = _ljSUjRyn;
+        "forge-24w37a" = _ljSUjRyn;
+        "forge-24w38a" = _ljSUjRyn;
+        "forge-24w39a" = _ljSUjRyn;
+        "forge-24w40a" = _ljSUjRyn;
+        "forge-1.21.2-pre1" = _ljSUjRyn;
+        "forge-1.21.2-pre2" = _ljSUjRyn;
+        "forge-24w44a" = _ljSUjRyn;
+        "forge-24w45a" = _ljSUjRyn;
+        "forge-24w46a" = _ljSUjRyn;
+        "forge-1.21.11" = _yttZILe2;
+        "forge-26.1" = _yttZILe2;
+        "forge-26.1.1" = _yttZILe2;
+        "forge-26.1.2" = _yttZILe2;
+        "forge-26.2" = _yttZILe2;
+        "quilt-1.20" = _RhA8KiYU;
+        "quilt-1.20.1" = _RhA8KiYU;
+        "quilt-1.20.3" = _Dl0jrFU5;
+        "quilt-1.20.4" = _Dl0jrFU5;
+        "quilt-1.21.4" = _ljSUjRyn;
+        "quilt-1.21" = _ljSUjRyn;
+        "quilt-1.21.1" = _ljSUjRyn;
+        "quilt-1.21.2" = _ljSUjRyn;
+        "quilt-1.21.3" = _ljSUjRyn;
+        "quilt-1.21.5" = _ljSUjRyn;
+        "quilt-1.21.6" = _ljSUjRyn;
+        "quilt-1.21.7" = _ljSUjRyn;
+        "quilt-1.21.8" = _yttZILe2;
+        "quilt-1.21.9" = _yttZILe2;
+        "quilt-1.21.10" = _yttZILe2;
+        "quilt-24w33a" = _ljSUjRyn;
+        "quilt-24w34a" = _ljSUjRyn;
+        "quilt-24w35a" = _ljSUjRyn;
+        "quilt-24w36a" = _ljSUjRyn;
+        "quilt-24w37a" = _ljSUjRyn;
+        "quilt-24w38a" = _ljSUjRyn;
+        "quilt-24w39a" = _ljSUjRyn;
+        "quilt-24w40a" = _ljSUjRyn;
+        "quilt-1.21.2-pre1" = _ljSUjRyn;
+        "quilt-1.21.2-pre2" = _ljSUjRyn;
+        "quilt-24w44a" = _ljSUjRyn;
+        "quilt-24w45a" = _ljSUjRyn;
+        "quilt-24w46a" = _ljSUjRyn;
+        "quilt-1.21.11" = _yttZILe2;
+        "quilt-26.1" = _yttZILe2;
+        "quilt-26.1.1" = _yttZILe2;
+        "quilt-26.1.2" = _yttZILe2;
+        "quilt-26.2" = _yttZILe2;
+        "neoforge-1.21.4" = _ljSUjRyn;
+        "neoforge-1.21" = _ljSUjRyn;
+        "neoforge-1.21.1" = _ljSUjRyn;
+        "neoforge-1.21.2" = _ljSUjRyn;
+        "neoforge-1.21.3" = _ljSUjRyn;
+        "neoforge-1.21.5" = _ljSUjRyn;
+        "neoforge-1.21.6" = _ljSUjRyn;
+        "neoforge-1.21.7" = _ljSUjRyn;
+        "neoforge-1.21.8" = _yttZILe2;
+        "neoforge-1.21.9" = _yttZILe2;
+        "neoforge-1.21.10" = _yttZILe2;
+        "neoforge-24w33a" = _ljSUjRyn;
+        "neoforge-24w34a" = _ljSUjRyn;
+        "neoforge-24w35a" = _ljSUjRyn;
+        "neoforge-24w36a" = _ljSUjRyn;
+        "neoforge-24w37a" = _ljSUjRyn;
+        "neoforge-24w38a" = _ljSUjRyn;
+        "neoforge-24w39a" = _ljSUjRyn;
+        "neoforge-24w40a" = _ljSUjRyn;
+        "neoforge-1.21.2-pre1" = _ljSUjRyn;
+        "neoforge-1.21.2-pre2" = _ljSUjRyn;
+        "neoforge-24w44a" = _ljSUjRyn;
+        "neoforge-24w45a" = _ljSUjRyn;
+        "neoforge-24w46a" = _ljSUjRyn;
+        "neoforge-1.21.11" = _yttZILe2;
+        "neoforge-26.1" = _yttZILe2;
+        "neoforge-26.1.1" = _yttZILe2;
+        "neoforge-26.1.2" = _yttZILe2;
+        "neoforge-26.2" = _yttZILe2;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "stellarity-lite";
+            id = "NsYxnUJm";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://raw.githubusercontent.com/szarkans/stellarity_lite/refs/heads/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="yttZILe2";}

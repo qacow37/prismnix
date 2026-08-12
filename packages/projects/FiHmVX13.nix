@@ -1,0 +1,382 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _293PhIUs = {
+            "id" = "293PhIUs";
+            "file" = "Peelocity-0.0.7-ALPHA-7.jar";
+            "hash" = "sha512-XWn7fiaQe+/sIb1DrIljfq0QTuFPES6F++6eLWJnwQVBUoZe1Q+kIrUKm3JkDz0vDMQbpJ3YvUxuZ+3kSIDcrA==";
+        };
+        _8xAC8nDR = {
+            "id" = "8xAC8nDR";
+            "file" = "Peelocity-0.0.8-ALPHA-17.jar";
+            "hash" = "sha512-vhwVTU2yGBkAPwlgfyhDE7tVGNU5T4EGmhb/lSOiTAs7IBnjHekZE8kpBJyTrBGv4UpYnWRQJUMvqq14B6CN3A==";
+        };
+        _Z4POr9EL = {
+            "id" = "Z4POr9EL";
+            "file" = "Peelocity-0.0.9-ALPHA-1.jar";
+            "hash" = "sha512-e3t69TstWhzLiHG13Q1xK429Gv43PTjM/4mfzJx6A9jlja5wBmBYCG/v5Ywj545EhbQoeXviT8sBBYH3TT0+9g==";
+        };
+        _rnjk43lX = {
+            "id" = "rnjk43lX";
+            "file" = "Peelocity-0.1.2-BETA-8.jar";
+            "hash" = "sha512-gUQr1coPX9bvNSYWKoYSvOzHCx94FTalM5CFHfYrv4LHtnAmIGiQbVynUs27i7QKvkkiUPbrpvGQ8q0VL0/sbA==";
+        };
+        _DiqTN0q9 = {
+            "id" = "DiqTN0q9";
+            "file" = "Peelocity-0.1.3-BETA-4.jar";
+            "hash" = "sha512-dad7mACHJtR7ONEvqdXAVwy2pYB3N1x64M7tMQpPdFtOoFtvPUcIW9Hhi5L4Vw4LfJXekcVDmZs6ppxOKlPdLA==";
+        };
+        _Tw275EtO = {
+            "id" = "Tw275EtO";
+            "file" = "Peelocity-0.1.4-BETA-3.jar";
+            "hash" = "sha512-4PFBLqGi4xyyblI8BavhehkwWxg0hhif9O4YoWaqKpiu6nE/E1p/QI8+ooHrvtxI3K3nmvgxG9fNqP9r8ixfZQ==";
+        };
+        _xbCKHnOK = {
+            "id" = "xbCKHnOK";
+            "file" = "Peelocity-0.1.4-BETA-4.jar";
+            "hash" = "sha512-eoz4VEg7MBe4N9f+KszLXiek7nlxiGCnNLaHhVJtgJ6uKGXG3q5hzXOPNV73rONOgUYjOEkPmN+FYMHdfv7KeQ==";
+        };
+        _LsEyQgfr = {
+            "id" = "LsEyQgfr";
+            "file" = "Peelocity-0.1.5-BETA-4.jar";
+            "hash" = "sha512-CoWYg4laAhkFly4R1hjTN5XBRAJzh5BKWLfiFbsccLLxxrtER80JV89H6yoZETAZxmrxRo4eXeoHnRPlouMxaA==";
+        };
+        _DnFt5VQf = {
+            "id" = "DnFt5VQf";
+            "file" = "Peelocity-0.1.6-BETA-3.jar";
+            "hash" = "sha512-HzqC6XaIRBxXhog0dBkg4ywojaIY9MtNH0iXfn/rvIFqf+abVMtWc+R1FVT9nj2CZPdns3MRlP1wyuN4iMvBwQ==";
+        };
+        _hCstT8IZ = {
+            "id" = "hCstT8IZ";
+            "file" = "Peelocity-0.1.7-BETA-2.jar";
+            "hash" = "sha512-FFsC5XruTvFsqdSiKk6Nl36plp2E4/Fiii1B3O/vb4qjAVE4uiFAFIB7GZ++z3ywqyb21JBba19+Q+RkGYn4Gg==";
+        };
+        _P262bpB7 = {
+            "id" = "P262bpB7";
+            "file" = "Peelocity-0.1.7-BETA-3.jar";
+            "hash" = "sha512-02i+cLFa5J+tkfOwWMxK8W4W4NbkAOJOf94ucvHVDGclqONQbLjx6U2pc2o7BAUuLfPsoDwq3BUhbQx/c16xig==";
+        };
+        _QDjdYtkB = {
+            "id" = "QDjdYtkB";
+            "file" = "Peelocity-0.1.8-BETA-2.jar";
+            "hash" = "sha512-cWuCP7xEn6SZB+24vNuvmFEP7Bf6f8ZCc8OikcabuvQRhMC8oB57aaD0NxW3zoRvtGVLzXQIa69wImEk3LW16Q==";
+        };
+        _4Fhun9T6 = {
+            "id" = "4Fhun9T6";
+            "file" = "Peelocity-0.1.8-BETA-3.jar";
+            "hash" = "sha512-d7VqsAnDmgpLba1SOk6ultruzG1SP+EpXUVrujhiGb4T+p+e4sL9oHiy0Vwsj2U+in+LqibIjqXZkmGtbTnk7Q==";
+        };
+        _jyAVgmYn = {
+            "id" = "jyAVgmYn";
+            "file" = "Peelocity-0.1.8-BETA-4.jar";
+            "hash" = "sha512-TShI9lZ5z8qpWyGQzdmxDOubMhGJPjRsT2bBcrlpf6mwUsPasrZXOR3uSFord3fiSMshFDX5aeOQ8X+So0WEMQ==";
+        };
+        _hO4Bae6t = {
+            "id" = "hO4Bae6t";
+            "file" = "Peelocity-0.1.9-BETA-1.jar";
+            "hash" = "sha512-3pD7dXQHNMM/cmmCMIAnv2P+hulHG8nsOEieTdr40++Vzw+xkypO8rugtxvhW17ZoPrUbvtq82et2cFAIiQ+FA==";
+        };
+        _MSmH73lM = {
+            "id" = "MSmH73lM";
+            "file" = "Peelocity-0.1.9-BETA-4.jar";
+            "hash" = "sha512-e8EBjWHENfsROkXV6zaaC7ox88TWiZRyQC8VhogZyVFC+A692Y04cdEPZudM9L+jtEhbgt5Nd8DcahYKX9E1YQ==";
+        };
+        _LOZrR6Lq = {
+            "id" = "LOZrR6Lq";
+            "file" = "Peelocity-1.0.0-2.jar";
+            "hash" = "sha512-3mgnaHrrqa5jSUFBOAPaJWxkbe0hE0o3gDPfOwP4HjEegCD0VI+U2Kuu1LHEmKukwrqHaFEfjSMoZSOyGJR7tw==";
+        };
+        _LIt5EANC = {
+            "id" = "LIt5EANC";
+            "file" = "Peelocity-1.0.1.jar";
+            "hash" = "sha512-P8r+L1rwMV/JZHqpnzPjOAtVhcGCoA715rgJjNGVuWBn6DEf8WFpN8ZxpjRLeJPu3chZ6QL6ZGXr9GZ5oPIOsQ==";
+        };
+        _c5HRvQKd = {
+            "id" = "c5HRvQKd";
+            "file" = "Peelocity-1.0.1+build.3.jar";
+            "hash" = "sha512-EQlYNAAp/EQErzz9o/K/0Jv5huLonly3WAHW/fUFIfgZuVUeExVSpjOe419vrphtpCwgGxwlsWbaEY2OTvaxrA==";
+        };
+        _6cwDCwWb = {
+            "id" = "6cwDCwWb";
+            "file" = "Peelocity-1.0.2+build.1.jar";
+            "hash" = "sha512-C03+7lZPoZqWbR4SxxoGDHoGwaB4HTSJSIpt/sOUgbWWiHgrvrx3GkoZHDrYmOsFHxMMZCXnszD2rXiwm21Anw==";
+        };
+        _OvqCrDy6 = {
+            "id" = "OvqCrDy6";
+            "file" = "Peelocity-1.0.2+build.2.jar";
+            "hash" = "sha512-RBANSZbPxowIzHKozObF2pL3pB5P61AoJxUiYfkIuaSUw3o1vuKxu2WlH6cSNnt0GWcdJGdxf+bagdnyN/tfYQ==";
+        };
+        _mo3i7av2 = {
+            "id" = "mo3i7av2";
+            "file" = "Peelocity-1.0.2+build.3.jar";
+            "hash" = "sha512-qDQedHOLZZPPicZUUNPilnt9rca9C9XUW8+x89e//OaXuz1rl4qunnIpalNpaZttzxGGV1eJgneDvXu7hG55tg==";
+        };
+        _Ie0NF3h0 = {
+            "id" = "Ie0NF3h0";
+            "file" = "PooperMC-Universal-1.1.0+build.1.jar";
+            "hash" = "sha512-CJPcUvcuQDY4zv6czTSy8zEZhulj4iIqJOCZJbCmg8iiuOYlhvCLRRYtmB6oydWcAdWexs4CDGhNrlgaVsahGA==";
+        };
+        _xdTRn2As = {
+            "id" = "xdTRn2As";
+            "file" = "PooperMC-Universal-1.1.0+build.1.jar";
+            "hash" = "sha512-OiYU+cGT9i7r+h69CjZ+pYUKdip0gzPM0Eklh2WaNxmZvQ+IS4dWlrS+qpIliuob98Lzslbh96xB06h3Q86LtQ==";
+        };
+        _rsucs0lT = {
+            "id" = "rsucs0lT";
+            "file" = "PooperMC-Universal-1.1.0+build.3.jar";
+            "hash" = "sha512-57esiorm7shMkQ+rwPEBNDz7IE7tWSSIlDqN+QTMavkoO1dD/3aNaR6/RBN0+NyA93SDI5J40YGpeq1//vaj/w==";
+        };
+        _hMbYEf1B = {
+            "id" = "hMbYEf1B";
+            "file" = "PooperMC-Universal-1.1.0+build.4.jar";
+            "hash" = "sha512-KiQxVvBqpehM6GoishAyVjESzHYis/iyUY22oae/oeiCKIDJmdesISp6KQFanhO51C4J1I0Z2jayfTcRdHJqaA==";
+        };
+        _SqTc9Xae = {
+            "id" = "SqTc9Xae";
+            "file" = "PooperMC-Universal-1.1.1+build.1.jar";
+            "hash" = "sha512-TXEkccrudTbdImvwZPR8FgPXS6SS04E3RUNm1YSiVAlaXmhtF/V6ts4thGABGyOhu4GzS2AzABUpr03Tjv88JA==";
+        };
+        _PtD38Aau = {
+            "id" = "PtD38Aau";
+            "file" = "PooperMC-Universal-1.1.2+build.1.jar";
+            "hash" = "sha512-D27Dhocx6RABnXLRQ4LfhyGE+psXuzabzwVwqMAVsKps74pJ2x22xR85/2lTL9+cb1nQNDtMc/8aCHvIj+Ptcw==";
+        };
+        _zvuWEeOs = {
+            "id" = "zvuWEeOs";
+            "file" = "PooperMC-Universal-1.1.3+build.1.jar";
+            "hash" = "sha512-98c38ccDTto/Zuv/ThFwrwhlxvYqgfRZxjEh4Io1URnguV2q6E2a1tbRvlT9qFnsX1PMoN+iQ/E9CP/KRGhShg==";
+        };
+    in {
+        "293PhIUs" = _293PhIUs;
+        "8xAC8nDR" = _8xAC8nDR;
+        "Z4POr9EL" = _Z4POr9EL;
+        "rnjk43lX" = _rnjk43lX;
+        "DiqTN0q9" = _DiqTN0q9;
+        "Tw275EtO" = _Tw275EtO;
+        "xbCKHnOK" = _xbCKHnOK;
+        "LsEyQgfr" = _LsEyQgfr;
+        "DnFt5VQf" = _DnFt5VQf;
+        "hCstT8IZ" = _hCstT8IZ;
+        "P262bpB7" = _P262bpB7;
+        "QDjdYtkB" = _QDjdYtkB;
+        "4Fhun9T6" = _4Fhun9T6;
+        "jyAVgmYn" = _jyAVgmYn;
+        "hO4Bae6t" = _hO4Bae6t;
+        "MSmH73lM" = _MSmH73lM;
+        "LOZrR6Lq" = _LOZrR6Lq;
+        "LIt5EANC" = _LIt5EANC;
+        "c5HRvQKd" = _c5HRvQKd;
+        "6cwDCwWb" = _6cwDCwWb;
+        "OvqCrDy6" = _OvqCrDy6;
+        "mo3i7av2" = _mo3i7av2;
+        "Ie0NF3h0" = _Ie0NF3h0;
+        "xdTRn2As" = _xdTRn2As;
+        "rsucs0lT" = _rsucs0lT;
+        "hMbYEf1B" = _hMbYEf1B;
+        "SqTc9Xae" = _SqTc9Xae;
+        "PtD38Aau" = _PtD38Aau;
+        "zvuWEeOs" = _zvuWEeOs;
+        "velocity-1.20.4" = _zvuWEeOs;
+        "velocity-1.20.2" = _zvuWEeOs;
+        "velocity-1.12.2" = _xdTRn2As;
+        "velocity-1.13" = _xdTRn2As;
+        "velocity-1.13.1" = _xdTRn2As;
+        "velocity-1.13.2" = _xdTRn2As;
+        "velocity-1.14" = _xdTRn2As;
+        "velocity-1.14.1" = _xdTRn2As;
+        "velocity-1.14.2" = _xdTRn2As;
+        "velocity-1.14.3" = _xdTRn2As;
+        "velocity-1.14.4" = _xdTRn2As;
+        "velocity-1.15" = _xdTRn2As;
+        "velocity-1.15.1" = _xdTRn2As;
+        "velocity-1.15.2" = _xdTRn2As;
+        "velocity-1.16" = _xdTRn2As;
+        "velocity-1.16.1" = _xdTRn2As;
+        "velocity-1.16.2" = _xdTRn2As;
+        "velocity-1.16.3" = _xdTRn2As;
+        "velocity-1.16.4" = _xdTRn2As;
+        "velocity-1.16.5" = _zvuWEeOs;
+        "velocity-1.17" = _zvuWEeOs;
+        "velocity-1.17.1" = _zvuWEeOs;
+        "velocity-1.18" = _zvuWEeOs;
+        "velocity-1.18.1" = _zvuWEeOs;
+        "velocity-1.18.2" = _zvuWEeOs;
+        "velocity-1.19" = _zvuWEeOs;
+        "velocity-1.19.1" = _zvuWEeOs;
+        "velocity-1.19.2" = _zvuWEeOs;
+        "velocity-1.19.3" = _zvuWEeOs;
+        "velocity-1.19.4" = _zvuWEeOs;
+        "velocity-1.20" = _zvuWEeOs;
+        "velocity-1.20.1" = _zvuWEeOs;
+        "velocity-1.20.3" = _zvuWEeOs;
+        "velocity-1.8.9" = _xdTRn2As;
+        "velocity-1.9" = _xdTRn2As;
+        "velocity-1.9.1" = _xdTRn2As;
+        "velocity-1.9.2" = _xdTRn2As;
+        "velocity-1.9.3" = _xdTRn2As;
+        "velocity-1.9.4" = _xdTRn2As;
+        "velocity-1.10" = _xdTRn2As;
+        "velocity-1.10.1" = _xdTRn2As;
+        "velocity-1.10.2" = _xdTRn2As;
+        "velocity-1.11" = _xdTRn2As;
+        "velocity-1.11.1" = _xdTRn2As;
+        "velocity-1.11.2" = _xdTRn2As;
+        "velocity-1.12" = _xdTRn2As;
+        "velocity-1.12.1" = _xdTRn2As;
+        "velocity-1.20.5" = _zvuWEeOs;
+        "velocity-1.20.6" = _zvuWEeOs;
+        "velocity-1.21" = _zvuWEeOs;
+        "velocity-1.21.1" = _zvuWEeOs;
+        "velocity-1.21.2" = _zvuWEeOs;
+        "velocity-1.21.3" = _zvuWEeOs;
+        "velocity-1.21.4" = _zvuWEeOs;
+        "velocity-1.21.5" = _zvuWEeOs;
+        "velocity-1.21.6" = _zvuWEeOs;
+        "velocity-1.21.7" = _zvuWEeOs;
+        "velocity-1.21.8" = _zvuWEeOs;
+        "velocity-1.21.9" = _zvuWEeOs;
+        "velocity-1.21.10" = _zvuWEeOs;
+        "velocity-1.21.11" = _zvuWEeOs;
+        "paper-1.8.9" = _xdTRn2As;
+        "paper-1.9" = _xdTRn2As;
+        "paper-1.9.1" = _xdTRn2As;
+        "paper-1.9.2" = _xdTRn2As;
+        "paper-1.9.3" = _xdTRn2As;
+        "paper-1.9.4" = _xdTRn2As;
+        "paper-1.10" = _xdTRn2As;
+        "paper-1.10.1" = _xdTRn2As;
+        "paper-1.10.2" = _xdTRn2As;
+        "paper-1.11" = _xdTRn2As;
+        "paper-1.11.1" = _xdTRn2As;
+        "paper-1.11.2" = _xdTRn2As;
+        "paper-1.12" = _xdTRn2As;
+        "paper-1.12.1" = _xdTRn2As;
+        "paper-1.12.2" = _xdTRn2As;
+        "paper-1.13" = _xdTRn2As;
+        "paper-1.13.1" = _xdTRn2As;
+        "paper-1.13.2" = _xdTRn2As;
+        "paper-1.14" = _xdTRn2As;
+        "paper-1.14.1" = _xdTRn2As;
+        "paper-1.14.2" = _xdTRn2As;
+        "paper-1.14.3" = _xdTRn2As;
+        "paper-1.14.4" = _xdTRn2As;
+        "paper-1.15" = _xdTRn2As;
+        "paper-1.15.1" = _xdTRn2As;
+        "paper-1.15.2" = _xdTRn2As;
+        "paper-1.16" = _xdTRn2As;
+        "paper-1.16.1" = _xdTRn2As;
+        "paper-1.16.2" = _xdTRn2As;
+        "paper-1.16.3" = _xdTRn2As;
+        "paper-1.16.4" = _xdTRn2As;
+        "paper-1.16.5" = _zvuWEeOs;
+        "paper-1.17" = _zvuWEeOs;
+        "paper-1.17.1" = _zvuWEeOs;
+        "paper-1.18" = _zvuWEeOs;
+        "paper-1.18.1" = _zvuWEeOs;
+        "paper-1.18.2" = _zvuWEeOs;
+        "paper-1.19" = _zvuWEeOs;
+        "paper-1.19.1" = _zvuWEeOs;
+        "paper-1.19.2" = _zvuWEeOs;
+        "paper-1.19.3" = _zvuWEeOs;
+        "paper-1.19.4" = _zvuWEeOs;
+        "paper-1.20" = _zvuWEeOs;
+        "paper-1.20.1" = _zvuWEeOs;
+        "paper-1.20.2" = _zvuWEeOs;
+        "paper-1.20.3" = _zvuWEeOs;
+        "paper-1.20.4" = _zvuWEeOs;
+        "paper-1.20.5" = _zvuWEeOs;
+        "paper-1.20.6" = _zvuWEeOs;
+        "paper-1.21" = _zvuWEeOs;
+        "paper-1.21.1" = _zvuWEeOs;
+        "paper-1.21.2" = _zvuWEeOs;
+        "paper-1.21.3" = _zvuWEeOs;
+        "paper-1.21.4" = _zvuWEeOs;
+        "paper-1.21.5" = _zvuWEeOs;
+        "paper-1.21.6" = _zvuWEeOs;
+        "paper-1.21.7" = _zvuWEeOs;
+        "paper-1.21.8" = _zvuWEeOs;
+        "paper-1.21.9" = _zvuWEeOs;
+        "paper-1.21.10" = _zvuWEeOs;
+        "paper-1.21.11" = _zvuWEeOs;
+        "purpur-1.8.9" = _xdTRn2As;
+        "purpur-1.9" = _xdTRn2As;
+        "purpur-1.9.1" = _xdTRn2As;
+        "purpur-1.9.2" = _xdTRn2As;
+        "purpur-1.9.3" = _xdTRn2As;
+        "purpur-1.9.4" = _xdTRn2As;
+        "purpur-1.10" = _xdTRn2As;
+        "purpur-1.10.1" = _xdTRn2As;
+        "purpur-1.10.2" = _xdTRn2As;
+        "purpur-1.11" = _xdTRn2As;
+        "purpur-1.11.1" = _xdTRn2As;
+        "purpur-1.11.2" = _xdTRn2As;
+        "purpur-1.12" = _xdTRn2As;
+        "purpur-1.12.1" = _xdTRn2As;
+        "purpur-1.12.2" = _xdTRn2As;
+        "purpur-1.13" = _xdTRn2As;
+        "purpur-1.13.1" = _xdTRn2As;
+        "purpur-1.13.2" = _xdTRn2As;
+        "purpur-1.14" = _xdTRn2As;
+        "purpur-1.14.1" = _xdTRn2As;
+        "purpur-1.14.2" = _xdTRn2As;
+        "purpur-1.14.3" = _xdTRn2As;
+        "purpur-1.14.4" = _xdTRn2As;
+        "purpur-1.15" = _xdTRn2As;
+        "purpur-1.15.1" = _xdTRn2As;
+        "purpur-1.15.2" = _xdTRn2As;
+        "purpur-1.16" = _xdTRn2As;
+        "purpur-1.16.1" = _xdTRn2As;
+        "purpur-1.16.2" = _xdTRn2As;
+        "purpur-1.16.3" = _xdTRn2As;
+        "purpur-1.16.4" = _xdTRn2As;
+        "purpur-1.16.5" = _zvuWEeOs;
+        "purpur-1.17" = _zvuWEeOs;
+        "purpur-1.17.1" = _zvuWEeOs;
+        "purpur-1.18" = _zvuWEeOs;
+        "purpur-1.18.1" = _zvuWEeOs;
+        "purpur-1.18.2" = _zvuWEeOs;
+        "purpur-1.19" = _zvuWEeOs;
+        "purpur-1.19.1" = _zvuWEeOs;
+        "purpur-1.19.2" = _zvuWEeOs;
+        "purpur-1.19.3" = _zvuWEeOs;
+        "purpur-1.19.4" = _zvuWEeOs;
+        "purpur-1.20" = _zvuWEeOs;
+        "purpur-1.20.1" = _zvuWEeOs;
+        "purpur-1.20.2" = _zvuWEeOs;
+        "purpur-1.20.3" = _zvuWEeOs;
+        "purpur-1.20.4" = _zvuWEeOs;
+        "purpur-1.20.5" = _zvuWEeOs;
+        "purpur-1.20.6" = _zvuWEeOs;
+        "purpur-1.21" = _zvuWEeOs;
+        "purpur-1.21.1" = _zvuWEeOs;
+        "purpur-1.21.2" = _zvuWEeOs;
+        "purpur-1.21.3" = _zvuWEeOs;
+        "purpur-1.21.4" = _zvuWEeOs;
+        "purpur-1.21.5" = _zvuWEeOs;
+        "purpur-1.21.6" = _zvuWEeOs;
+        "purpur-1.21.7" = _zvuWEeOs;
+        "purpur-1.21.8" = _zvuWEeOs;
+        "purpur-1.21.9" = _zvuWEeOs;
+        "purpur-1.21.10" = _zvuWEeOs;
+        "purpur-1.21.11" = _zvuWEeOs;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "pooper";
+            id = "FiHmVX13";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 or later";
+                    shortName = "GPL-3.0-or-later";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="zvuWEeOs";}

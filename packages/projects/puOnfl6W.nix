@@ -1,0 +1,138 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _H6l7DnOo = {
+            "id" = "H6l7DnOo";
+            "file" = "Yuki Suou Totem.zip";
+            "hash" = "sha512-nxz0Fn0TOK8k1D4ZpFMNd+D5fOXcL01kq9aDINUwO/UYU2nilJrWsY4DE1C3vn9eeUIDKt6tVhQjk0zdjoTbqg==";
+        };
+        _YUUyp5nh = {
+            "id" = "YUUyp5nh";
+            "file" = "Yuki_Suou-1.21.11-Totem.zip";
+            "hash" = "sha512-nxz0Fn0TOK8k1D4ZpFMNd+D5fOXcL01kq9aDINUwO/UYU2nilJrWsY4DE1C3vn9eeUIDKt6tVhQjk0zdjoTbqg==";
+        };
+        _1sNiBpez = {
+            "id" = "1sNiBpez";
+            "file" = "Yuki_Suou-1.16-26.1-Totem.zip";
+            "hash" = "sha512-gzMTnYZYqPXoGXE9u9SCFPtiwDnLU3D6SbEyZg8k6seQjOGEnnJbJBvtYLjnqy4Poda8UDlVogksJULm/N3FyQ==";
+        };
+        _KKIpBNwe = {
+            "id" = "KKIpBNwe";
+            "file" = "Yuki_Suou-1.17-26.2-Totem-1.1.zip";
+            "hash" = "sha512-GxzDyCAnXGXxfC98/GJZ5T6aP7+hfoFDqwhkRWInr79jtDkb1CCeXFjOv3igXMlaZBFGqqh0vPEVP7k3s2i/fg==";
+        };
+    in {
+        "H6l7DnOo" = _H6l7DnOo;
+        "YUUyp5nh" = _YUUyp5nh;
+        "1sNiBpez" = _1sNiBpez;
+        "KKIpBNwe" = _KKIpBNwe;
+        "minecraft-1.16" = _1sNiBpez;
+        "minecraft-1.16.1" = _1sNiBpez;
+        "minecraft-1.16.2" = _1sNiBpez;
+        "minecraft-1.16.3" = _1sNiBpez;
+        "minecraft-1.16.4" = _1sNiBpez;
+        "minecraft-1.16.5" = _1sNiBpez;
+        "minecraft-1.17" = _KKIpBNwe;
+        "minecraft-1.17.1" = _KKIpBNwe;
+        "minecraft-1.18" = _KKIpBNwe;
+        "minecraft-1.18.1" = _KKIpBNwe;
+        "minecraft-1.18.2" = _KKIpBNwe;
+        "minecraft-1.19" = _KKIpBNwe;
+        "minecraft-1.19.1" = _KKIpBNwe;
+        "minecraft-1.19.2" = _KKIpBNwe;
+        "minecraft-1.19.3" = _KKIpBNwe;
+        "minecraft-1.19.4" = _KKIpBNwe;
+        "minecraft-1.20" = _KKIpBNwe;
+        "minecraft-1.20.1" = _KKIpBNwe;
+        "minecraft-1.20.2" = _KKIpBNwe;
+        "minecraft-1.20.3" = _KKIpBNwe;
+        "minecraft-1.20.4" = _KKIpBNwe;
+        "minecraft-1.20.5" = _KKIpBNwe;
+        "minecraft-1.20.6" = _KKIpBNwe;
+        "minecraft-1.21" = _KKIpBNwe;
+        "minecraft-1.21.1" = _KKIpBNwe;
+        "minecraft-1.21.2" = _KKIpBNwe;
+        "minecraft-1.21.3" = _KKIpBNwe;
+        "minecraft-1.21.4" = _KKIpBNwe;
+        "minecraft-1.21.5" = _KKIpBNwe;
+        "minecraft-1.21.6" = _KKIpBNwe;
+        "minecraft-1.21.7" = _KKIpBNwe;
+        "minecraft-1.21.8" = _KKIpBNwe;
+        "minecraft-1.21.9" = _KKIpBNwe;
+        "minecraft-1.21.10" = _KKIpBNwe;
+        "minecraft-1.21.11" = _KKIpBNwe;
+        "minecraft-26.1" = _KKIpBNwe;
+        "minecraft-22w42a" = _KKIpBNwe;
+        "minecraft-22w43a" = _KKIpBNwe;
+        "minecraft-22w44a" = _KKIpBNwe;
+        "minecraft-23w14a" = _KKIpBNwe;
+        "minecraft-23w16a" = _KKIpBNwe;
+        "minecraft-23w31a" = _KKIpBNwe;
+        "minecraft-23w32a" = _KKIpBNwe;
+        "minecraft-23w33a" = _KKIpBNwe;
+        "minecraft-23w35a" = _KKIpBNwe;
+        "minecraft-1.20.2-pre1" = _KKIpBNwe;
+        "minecraft-23w42a" = _KKIpBNwe;
+        "minecraft-23w43a" = _KKIpBNwe;
+        "minecraft-23w43b" = _KKIpBNwe;
+        "minecraft-23w44a" = _KKIpBNwe;
+        "minecraft-23w45a" = _KKIpBNwe;
+        "minecraft-23w46a" = _KKIpBNwe;
+        "minecraft-24w03a" = _KKIpBNwe;
+        "minecraft-24w03b" = _KKIpBNwe;
+        "minecraft-24w04a" = _KKIpBNwe;
+        "minecraft-24w05a" = _KKIpBNwe;
+        "minecraft-24w05b" = _KKIpBNwe;
+        "minecraft-24w06a" = _KKIpBNwe;
+        "minecraft-24w07a" = _KKIpBNwe;
+        "minecraft-24w09a" = _KKIpBNwe;
+        "minecraft-24w10a" = _KKIpBNwe;
+        "minecraft-24w11a" = _KKIpBNwe;
+        "minecraft-24w12a" = _KKIpBNwe;
+        "minecraft-24w13a" = _KKIpBNwe;
+        "minecraft-24w14potato" = _KKIpBNwe;
+        "minecraft-24w14a" = _KKIpBNwe;
+        "minecraft-1.20.5-pre1" = _KKIpBNwe;
+        "minecraft-1.20.5-pre2" = _KKIpBNwe;
+        "minecraft-1.20.5-pre3" = _KKIpBNwe;
+        "minecraft-24w18a" = _KKIpBNwe;
+        "minecraft-24w19a" = _KKIpBNwe;
+        "minecraft-24w19b" = _KKIpBNwe;
+        "minecraft-24w20a" = _KKIpBNwe;
+        "minecraft-24w33a" = _KKIpBNwe;
+        "minecraft-24w34a" = _KKIpBNwe;
+        "minecraft-24w35a" = _KKIpBNwe;
+        "minecraft-24w36a" = _KKIpBNwe;
+        "minecraft-24w37a" = _KKIpBNwe;
+        "minecraft-24w38a" = _KKIpBNwe;
+        "minecraft-24w39a" = _KKIpBNwe;
+        "minecraft-24w40a" = _KKIpBNwe;
+        "minecraft-1.21.2-pre1" = _KKIpBNwe;
+        "minecraft-1.21.2-pre2" = _KKIpBNwe;
+        "minecraft-24w44a" = _KKIpBNwe;
+        "minecraft-24w45a" = _KKIpBNwe;
+        "minecraft-24w46a" = _KKIpBNwe;
+        "minecraft-26.1.1" = _KKIpBNwe;
+        "minecraft-26.1.2" = _KKIpBNwe;
+        "minecraft-26.2" = _KKIpBNwe;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "yuki-suou-totem-(alya-hides-her-feelings-in-russian)";
+            id = "puOnfl6W";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="KKIpBNwe";}

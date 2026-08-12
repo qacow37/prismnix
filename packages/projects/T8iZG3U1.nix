@@ -1,0 +1,463 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _8R8L5QqT = {
+            "id" = "8R8L5QqT";
+            "file" = "Quests-4.6.1.jar";
+            "hash" = "sha512-pzHmFiF8QQ8nHz7APlek4rh8eiwKFo8p+3GTaSqwG4UjZnY5iSjCripTI760v1B/zM0tgcZst9zm6OQwu8RF9w==";
+        };
+        _61ae82MR = {
+            "id" = "61ae82MR";
+            "file" = "Quests-4.7.0.jar";
+            "hash" = "sha512-TDs1cjdHIbD8scuVOHdMqLPJ9BO7p8n+NFTirf3uM5WgMXo0Yh8ujTB3J78VtQNMVWjG6n/M2BNgNfh1BBfXDw==";
+        };
+        _ioPo0oZ6 = {
+            "id" = "ioPo0oZ6";
+            "file" = "Quests-4.7.1.jar";
+            "hash" = "sha512-pI7MN6jZgjn5cdQtOOSMN3yxpZiHy2CaJEGHoN1S8AOrjLFgyt40vmF86jjNAFJhZDXMPe6QxnhtPloNtrO+Pg==";
+        };
+        _20vfddqJ = {
+            "id" = "20vfddqJ";
+            "file" = "Quests-4.7.2.jar";
+            "hash" = "sha512-YLEeRokx4leR6Hs84CVtF/V34wYwLvGcAVpFzEpMK35J6eX+Cg0tiWJGCt+P7p/lshONJ7uS0XWfnBNk66f4wg==";
+        };
+        _X72jgDYj = {
+            "id" = "X72jgDYj";
+            "file" = "Quests-4.8.0.jar";
+            "hash" = "sha512-U/Gr991O/hUmvTSOyJ/oW+3CZekhQeDty4Rfb3eam0100nf0X1ytBYfY5HWGH8bjHjtPWfJijfg4zLVV0LzrYg==";
+        };
+        _qjCV7Tgh = {
+            "id" = "qjCV7Tgh";
+            "file" = "Quests-4.8.1.jar";
+            "hash" = "sha512-gWKRYfCtnD+yHLHSnAafeR8seUpW42HaCS5ZHumpPVxURQ8iVc9Ful49Q2pnVMyNkRas/8MrJoieXM5A9wN9XA==";
+        };
+        _7mmuTYNU = {
+            "id" = "7mmuTYNU";
+            "file" = "Quests-4.8.2.jar";
+            "hash" = "sha512-2LXwNkLVR1GjmXRhW9jYbHFFDt3aj1F8kZeR604vvRjv8CX3S97xYw4AN8R8UuUXhR4lGT7xdyBmakpEt/+nlg==";
+        };
+        _YI5VmUOj = {
+            "id" = "YI5VmUOj";
+            "file" = "Quests-4.8.3.jar";
+            "hash" = "sha512-aMDo8fj7PlvdzB4NeFFvfVFGdscoNMhk8jCEGcIIj7Zq1oYgOhjLVccuSrRzuNg8qVeZRAUMHnXLw49tiUtD0g==";
+        };
+        _BV8LZNwm = {
+            "id" = "BV8LZNwm";
+            "file" = "Quests-5.0.0-rc.1.jar";
+            "hash" = "sha512-DmBXnnKsD298VZfSAvbMIZ/4a6hWOYtCBfXiBxg/eDLZNksCPygWSJWjPUfmZH+wxYYnKKz62aFyvj5xqrI3zA==";
+        };
+        _hRC3DjS2 = {
+            "id" = "hRC3DjS2";
+            "file" = "Quests-5.0.0-rc.2.jar";
+            "hash" = "sha512-lZjinNCF0EPhakZq5EZjKx4jjaWm6C3xlqnjBFOCE30vvZu4dZPz7EyoWFM/uOswMgSYYZ3vZEU6CTYHEyvMbA==";
+        };
+        _iCjlCqP5 = {
+            "id" = "iCjlCqP5";
+            "file" = "Quests-5.0.0-rc.3.jar";
+            "hash" = "sha512-AxHag4vjgtUv8vd6hADGUcE9NK1LN8SbIH2Zk7xvWbTXbDApjTu1yd0scCG0FKIRcadHfeMh6gLEOP/zhA7iww==";
+        };
+        _xIh6iSiI = {
+            "id" = "xIh6iSiI";
+            "file" = "Quests-5.0.0.jar";
+            "hash" = "sha512-DNaR7oFpUxauloYZiwXMj1Vd0lCK1P0HsW6C+f5e4JqvYgmrM7X+vygIGovVc9lrfSXfSZ+xIArPKBJAZxwy3g==";
+        };
+        _BqJf8FRy = {
+            "id" = "BqJf8FRy";
+            "file" = "Quests-5.0.1.jar";
+            "hash" = "sha512-AO1i/yVrGnkq9TtaHaGEan3MR/apjASTA+bvlfKStAtXnHeodWexlOmyYh3bV8f09ftmSS6Dc4NeCX3BK5JIvA==";
+        };
+        _9aib87oe = {
+            "id" = "9aib87oe";
+            "file" = "Quests-5.0.2.jar";
+            "hash" = "sha512-YvnM0XW+lLej+wfjeLfNGXWvUCENdrho3qZacvpnmTQRxp4t6emGhaWYVpOlMzXIGs6q9h7/b8yZ9hZ8NuFlbw==";
+        };
+        _nYwvZLMp = {
+            "id" = "nYwvZLMp";
+            "file" = "Quests-5.0.3.jar";
+            "hash" = "sha512-YY+Z4bPbqsAsHpQ96UvSwlvVQpRQt/E1U1adyXfB/imfW6dH3APvhNTOguMQWNuaxs+s6fR9JIGrqoJ0uTJljg==";
+        };
+        _j4eTZfof = {
+            "id" = "j4eTZfof";
+            "file" = "Quests-5.0.4.jar";
+            "hash" = "sha512-uBY89IA5lJsgh62JDjNMxYcx12vzEGfMwAj9c8f6zsmGCA0URsCpg7IfQbG6SxjQCv/7M10kFHhV33iDKappqA==";
+        };
+        _wM81vdvQ = {
+            "id" = "wM81vdvQ";
+            "file" = "Quests-5.0.5.jar";
+            "hash" = "sha512-cB2gzmmAa7uu83jPyx0s/KgsdZdY7CkmSftk1fstjNt34J2ARDCd6hsF5pFdRoCBGasGMSXuX+b0GzK2LSUqAQ==";
+        };
+        _npZF29gO = {
+            "id" = "npZF29gO";
+            "file" = "Quests-5.1.0.jar";
+            "hash" = "sha512-UzCTw/I3/EVAhp+Rl/jWlZirNpMg4YdX79mmRPmtt7PHBC+2jKqCZ7utOU2G5sVIZOqk8g7B6HKozBZNhG0rOQ==";
+        };
+        _ZLfQdzbB = {
+            "id" = "ZLfQdzbB";
+            "file" = "Quests-5.1.1.jar";
+            "hash" = "sha512-IBv6bd2m1ZC61drGozYsqNs5tuDYe4yn2G0hjeJqpMyxzEQLHg3As3AjMyOlHZCttaVQaoHxu1T9fNU/rux0Ew==";
+        };
+        _pgnA2aXg = {
+            "id" = "pgnA2aXg";
+            "file" = "Quests-5.1.2.jar";
+            "hash" = "sha512-lNqKJ9yHkC0UXNzcRsxedilTEyziKXfUEcyT+UhQQ6eMh+95foE//E39brACVT73FjZokWOOH7QaXIzG32NA0w==";
+        };
+        _pFoBjpC0 = {
+            "id" = "pFoBjpC0";
+            "file" = "Quests-5.1.3.jar";
+            "hash" = "sha512-HZTB1YDYY7QATV5b3KNNhVQE1DUGm2MdAeDRwTncen4w5oY3lUqIttqq2Ck17/OVu4s7oXdXC2+NGqWgvURL6Q==";
+        };
+        _kgGuBjzi = {
+            "id" = "kgGuBjzi";
+            "file" = "Quests-5.1.4.jar";
+            "hash" = "sha512-JvsoPU9rv8GzywV9CQKsl24awZ6E2hODOtIuN7pU35lcF/XgN/g9yFmxclApLPSo4A2cLT0OGHL0sQteM9LJGw==";
+        };
+        _rsfMlLXM = {
+            "id" = "rsfMlLXM";
+            "file" = "Quests-5.1.5.jar";
+            "hash" = "sha512-gZYJlOCYmL8b8gy3Yujp2sRSuKPayzaDLneqNKELUZOh1MwfIhr7ufCV0gIKHa2cyolclw152whTVbMDKo4WMw==";
+        };
+        _lwoZrkaz = {
+            "id" = "lwoZrkaz";
+            "file" = "Quests-5.1.6.jar";
+            "hash" = "sha512-LZ6kWjogWBO9vj9bPtcJxgoR9RsCoutco2VpaMZp7t2qCeYHLh3iJq+yTGsw+R7/tSyuc9G7hUenA/qWLATypA==";
+        };
+        _P24156jR = {
+            "id" = "P24156jR";
+            "file" = "Quests-5.2.0.jar";
+            "hash" = "sha512-k5VvjoRort4KhapOIp6WKZy1wvVDE7d20F4pD7nqCbfxHEZMCz/wuQzAsdPt5XCLprOnY/UQG+pk8gm+hckpGg==";
+        };
+        _yIJaB39E = {
+            "id" = "yIJaB39E";
+            "file" = "Quests-5.2.1.jar";
+            "hash" = "sha512-+oiQTb6+Tdufl42m9kLEhN+sD2B5hxuzeuy1pJ+3Kcj0ju8B24rxQR9l9NKjMUI4+6Gj/JGpddG6qSCjFqP3Dw==";
+        };
+        _DP2VS7kn = {
+            "id" = "DP2VS7kn";
+            "file" = "Quests-5.2.2.jar";
+            "hash" = "sha512-A/zK5nhE1dOJCWUPacj9AqF/LQv5sedsohCKi/2Ra5Bxm/77ujfXlCpNPyey0dAuauSDUevMc8TPAUVfPv+h4w==";
+        };
+        _uzD3o9Uz = {
+            "id" = "uzD3o9Uz";
+            "file" = "Quests-5.2.3.jar";
+            "hash" = "sha512-CRp2r4lIghkt6PRLGVNINLo5nPU5jv7x4bcA2c/sDKl7c9Bbc25khF9jHyEFvpS4w93PHoJfUzKAlBuP4V6+xQ==";
+        };
+        _ezUcnYBO = {
+            "id" = "ezUcnYBO";
+            "file" = "Quests-5.2.4.jar";
+            "hash" = "sha512-47cseCH1b0PvFD+kQhdLHikpd6SqdoGrCvq/WJa3Gwav9/JxwVGJ6Wl/aX02n8eiL2//cYWRRm56zvxPL+k2Nw==";
+        };
+        _C2fx7gkA = {
+            "id" = "C2fx7gkA";
+            "file" = "Quests-5.2.5.jar";
+            "hash" = "sha512-Ze64ivLQv+chV7ODIP9zUtV774UncdxVSzxnq6d3FEVmiL3nvupyw4mvAEvB5ikmcKx1Bl8txjZB3w7ekaZgTg==";
+        };
+        _EF8sqxGm = {
+            "id" = "EF8sqxGm";
+            "file" = "Quests-5.2.6.jar";
+            "hash" = "sha512-uaHIhIwAUOAAQLPCkeEqOnanh8yaWYtH9sRcTx9EGpY+gkbTGlKvV5OavJGKLEyQ3IBXx1E5opOXZkGX8wQ27g==";
+        };
+        _ftddVo8G = {
+            "id" = "ftddVo8G";
+            "file" = "Quests-5.2.7.jar";
+            "hash" = "sha512-FzpLMQ4CvVLWYzN4EfSId8xw7avE7wT3lu5rWM2S2jzKRQ/VAzq/RrpVh+88sLnUSUGOWymSraB2xaDVgPpRuw==";
+        };
+        _D9RRvLLu = {
+            "id" = "D9RRvLLu";
+            "file" = "Quests-5.2.8.jar";
+            "hash" = "sha512-qszBpv13EMiCaz3Rylkvi59ojKMZ78+uhLRpgN/RLRsw7mhi4VX9sGTaFboAaVPFFwtAUyGVlLnQZt9qn3dvnQ==";
+        };
+        _VcexlwtM = {
+            "id" = "VcexlwtM";
+            "file" = "Quests-5.2.9.jar";
+            "hash" = "sha512-tlvcHlB3KU1dmcsvCVm/vZSQa3enz82Otv9E+ejEMBdKP+KYmc7uJXA5eic2WEyo9v40tPyFptDGyBTqhpcoTQ==";
+        };
+        _eDbP8hjt = {
+            "id" = "eDbP8hjt";
+            "file" = "Quests-5.3.0.jar";
+            "hash" = "sha512-Fht54bS93dU2gP8bpy6F3W5iWfHen/ePSapMxd7F/0pww52xR7jXkwowpX+886HcigtzzEDygXmLTwffs2JyEQ==";
+        };
+        _tsvzYi4C = {
+            "id" = "tsvzYi4C";
+            "file" = "Quests-5.3.1.jar";
+            "hash" = "sha512-3j4/V2sXYcYvWErE5IQ7scq6I4Vy31F3b5OPXnB7iK2zxdFCf06hmraYx6uJqX7A0nJIRm3y+Wr+bON2ZTt+kQ==";
+        };
+    in {
+        "8R8L5QqT" = _8R8L5QqT;
+        "61ae82MR" = _61ae82MR;
+        "ioPo0oZ6" = _ioPo0oZ6;
+        "20vfddqJ" = _20vfddqJ;
+        "X72jgDYj" = _X72jgDYj;
+        "qjCV7Tgh" = _qjCV7Tgh;
+        "7mmuTYNU" = _7mmuTYNU;
+        "YI5VmUOj" = _YI5VmUOj;
+        "BV8LZNwm" = _BV8LZNwm;
+        "hRC3DjS2" = _hRC3DjS2;
+        "iCjlCqP5" = _iCjlCqP5;
+        "xIh6iSiI" = _xIh6iSiI;
+        "BqJf8FRy" = _BqJf8FRy;
+        "9aib87oe" = _9aib87oe;
+        "nYwvZLMp" = _nYwvZLMp;
+        "j4eTZfof" = _j4eTZfof;
+        "wM81vdvQ" = _wM81vdvQ;
+        "npZF29gO" = _npZF29gO;
+        "ZLfQdzbB" = _ZLfQdzbB;
+        "pgnA2aXg" = _pgnA2aXg;
+        "pFoBjpC0" = _pFoBjpC0;
+        "kgGuBjzi" = _kgGuBjzi;
+        "rsfMlLXM" = _rsfMlLXM;
+        "lwoZrkaz" = _lwoZrkaz;
+        "P24156jR" = _P24156jR;
+        "yIJaB39E" = _yIJaB39E;
+        "DP2VS7kn" = _DP2VS7kn;
+        "uzD3o9Uz" = _uzD3o9Uz;
+        "ezUcnYBO" = _ezUcnYBO;
+        "C2fx7gkA" = _C2fx7gkA;
+        "EF8sqxGm" = _EF8sqxGm;
+        "ftddVo8G" = _ftddVo8G;
+        "D9RRvLLu" = _D9RRvLLu;
+        "VcexlwtM" = _VcexlwtM;
+        "eDbP8hjt" = _eDbP8hjt;
+        "tsvzYi4C" = _tsvzYi4C;
+        "paper-1.8.9" = _tsvzYi4C;
+        "paper-1.9" = _tsvzYi4C;
+        "paper-1.9.1" = _tsvzYi4C;
+        "paper-1.9.2" = _tsvzYi4C;
+        "paper-1.9.3" = _tsvzYi4C;
+        "paper-1.9.4" = _tsvzYi4C;
+        "paper-1.10" = _tsvzYi4C;
+        "paper-1.10.1" = _tsvzYi4C;
+        "paper-1.10.2" = _tsvzYi4C;
+        "paper-1.11" = _tsvzYi4C;
+        "paper-1.11.1" = _tsvzYi4C;
+        "paper-1.11.2" = _tsvzYi4C;
+        "paper-1.12" = _tsvzYi4C;
+        "paper-1.12.1" = _tsvzYi4C;
+        "paper-1.12.2" = _tsvzYi4C;
+        "paper-1.13" = _tsvzYi4C;
+        "paper-1.13.1" = _tsvzYi4C;
+        "paper-1.13.2" = _tsvzYi4C;
+        "paper-1.14" = _tsvzYi4C;
+        "paper-1.14.1" = _tsvzYi4C;
+        "paper-1.14.2" = _tsvzYi4C;
+        "paper-1.14.3" = _tsvzYi4C;
+        "paper-1.14.4" = _tsvzYi4C;
+        "paper-1.15" = _tsvzYi4C;
+        "paper-1.15.1" = _tsvzYi4C;
+        "paper-1.15.2" = _tsvzYi4C;
+        "paper-1.16" = _tsvzYi4C;
+        "paper-1.16.1" = _tsvzYi4C;
+        "paper-1.16.2" = _tsvzYi4C;
+        "paper-1.16.3" = _tsvzYi4C;
+        "paper-1.16.4" = _tsvzYi4C;
+        "paper-1.16.5" = _tsvzYi4C;
+        "paper-1.17" = _tsvzYi4C;
+        "paper-1.17.1" = _tsvzYi4C;
+        "paper-1.18" = _tsvzYi4C;
+        "paper-1.18.1" = _tsvzYi4C;
+        "paper-1.18.2" = _tsvzYi4C;
+        "paper-1.19" = _tsvzYi4C;
+        "paper-1.19.1" = _tsvzYi4C;
+        "paper-1.19.2" = _tsvzYi4C;
+        "paper-1.19.3" = _tsvzYi4C;
+        "paper-1.19.4" = _tsvzYi4C;
+        "paper-1.20" = _tsvzYi4C;
+        "paper-1.20.1" = _tsvzYi4C;
+        "paper-1.20.2" = _tsvzYi4C;
+        "paper-1.20.3" = _tsvzYi4C;
+        "paper-1.20.4" = _tsvzYi4C;
+        "paper-1.8" = _tsvzYi4C;
+        "paper-1.8.1" = _tsvzYi4C;
+        "paper-1.8.2" = _tsvzYi4C;
+        "paper-1.8.3" = _tsvzYi4C;
+        "paper-1.8.4" = _tsvzYi4C;
+        "paper-1.8.5" = _tsvzYi4C;
+        "paper-1.8.6" = _tsvzYi4C;
+        "paper-1.8.7" = _tsvzYi4C;
+        "paper-1.8.8" = _tsvzYi4C;
+        "paper-1.20.5" = _tsvzYi4C;
+        "paper-1.20.6" = _tsvzYi4C;
+        "paper-1.21" = _tsvzYi4C;
+        "paper-1.21.1" = _tsvzYi4C;
+        "paper-1.21.2" = _tsvzYi4C;
+        "paper-1.21.3" = _tsvzYi4C;
+        "paper-1.21.4" = _tsvzYi4C;
+        "paper-1.21.5" = _tsvzYi4C;
+        "paper-1.21.6" = _tsvzYi4C;
+        "paper-1.21.7" = _tsvzYi4C;
+        "paper-1.21.8" = _tsvzYi4C;
+        "paper-1.21.9" = _tsvzYi4C;
+        "paper-1.21.10" = _tsvzYi4C;
+        "paper-1.21.11" = _tsvzYi4C;
+        "paper-26.1" = _tsvzYi4C;
+        "paper-26.1.1" = _tsvzYi4C;
+        "paper-26.1.2" = _tsvzYi4C;
+        "paper-26.2" = _tsvzYi4C;
+        "spigot-1.8.9" = _tsvzYi4C;
+        "spigot-1.9" = _tsvzYi4C;
+        "spigot-1.9.1" = _tsvzYi4C;
+        "spigot-1.9.2" = _tsvzYi4C;
+        "spigot-1.9.3" = _tsvzYi4C;
+        "spigot-1.9.4" = _tsvzYi4C;
+        "spigot-1.10" = _tsvzYi4C;
+        "spigot-1.10.1" = _tsvzYi4C;
+        "spigot-1.10.2" = _tsvzYi4C;
+        "spigot-1.11" = _tsvzYi4C;
+        "spigot-1.11.1" = _tsvzYi4C;
+        "spigot-1.11.2" = _tsvzYi4C;
+        "spigot-1.12" = _tsvzYi4C;
+        "spigot-1.12.1" = _tsvzYi4C;
+        "spigot-1.12.2" = _tsvzYi4C;
+        "spigot-1.13" = _tsvzYi4C;
+        "spigot-1.13.1" = _tsvzYi4C;
+        "spigot-1.13.2" = _tsvzYi4C;
+        "spigot-1.14" = _tsvzYi4C;
+        "spigot-1.14.1" = _tsvzYi4C;
+        "spigot-1.14.2" = _tsvzYi4C;
+        "spigot-1.14.3" = _tsvzYi4C;
+        "spigot-1.14.4" = _tsvzYi4C;
+        "spigot-1.15" = _tsvzYi4C;
+        "spigot-1.15.1" = _tsvzYi4C;
+        "spigot-1.15.2" = _tsvzYi4C;
+        "spigot-1.16" = _tsvzYi4C;
+        "spigot-1.16.1" = _tsvzYi4C;
+        "spigot-1.16.2" = _tsvzYi4C;
+        "spigot-1.16.3" = _tsvzYi4C;
+        "spigot-1.16.4" = _tsvzYi4C;
+        "spigot-1.16.5" = _tsvzYi4C;
+        "spigot-1.17" = _tsvzYi4C;
+        "spigot-1.17.1" = _tsvzYi4C;
+        "spigot-1.18" = _tsvzYi4C;
+        "spigot-1.18.1" = _tsvzYi4C;
+        "spigot-1.18.2" = _tsvzYi4C;
+        "spigot-1.19" = _tsvzYi4C;
+        "spigot-1.19.1" = _tsvzYi4C;
+        "spigot-1.19.2" = _tsvzYi4C;
+        "spigot-1.19.3" = _tsvzYi4C;
+        "spigot-1.19.4" = _tsvzYi4C;
+        "spigot-1.20" = _tsvzYi4C;
+        "spigot-1.20.1" = _tsvzYi4C;
+        "spigot-1.20.2" = _tsvzYi4C;
+        "spigot-1.20.3" = _tsvzYi4C;
+        "spigot-1.20.4" = _tsvzYi4C;
+        "spigot-1.8" = _tsvzYi4C;
+        "spigot-1.8.1" = _tsvzYi4C;
+        "spigot-1.8.2" = _tsvzYi4C;
+        "spigot-1.8.3" = _tsvzYi4C;
+        "spigot-1.8.4" = _tsvzYi4C;
+        "spigot-1.8.5" = _tsvzYi4C;
+        "spigot-1.8.6" = _tsvzYi4C;
+        "spigot-1.8.7" = _tsvzYi4C;
+        "spigot-1.8.8" = _tsvzYi4C;
+        "spigot-1.20.5" = _tsvzYi4C;
+        "spigot-1.20.6" = _tsvzYi4C;
+        "spigot-1.21" = _tsvzYi4C;
+        "spigot-1.21.1" = _tsvzYi4C;
+        "spigot-1.21.2" = _tsvzYi4C;
+        "spigot-1.21.3" = _tsvzYi4C;
+        "spigot-1.21.4" = _tsvzYi4C;
+        "spigot-1.21.5" = _tsvzYi4C;
+        "spigot-1.21.6" = _tsvzYi4C;
+        "spigot-1.21.7" = _tsvzYi4C;
+        "spigot-1.21.8" = _tsvzYi4C;
+        "spigot-1.21.9" = _tsvzYi4C;
+        "spigot-1.21.10" = _tsvzYi4C;
+        "spigot-1.21.11" = _tsvzYi4C;
+        "spigot-26.1" = _tsvzYi4C;
+        "spigot-26.1.1" = _tsvzYi4C;
+        "spigot-26.1.2" = _tsvzYi4C;
+        "spigot-26.2" = _tsvzYi4C;
+        "purpur-1.8.9" = _tsvzYi4C;
+        "purpur-1.9" = _tsvzYi4C;
+        "purpur-1.9.1" = _tsvzYi4C;
+        "purpur-1.9.2" = _tsvzYi4C;
+        "purpur-1.9.3" = _tsvzYi4C;
+        "purpur-1.9.4" = _tsvzYi4C;
+        "purpur-1.10" = _tsvzYi4C;
+        "purpur-1.10.1" = _tsvzYi4C;
+        "purpur-1.10.2" = _tsvzYi4C;
+        "purpur-1.11" = _tsvzYi4C;
+        "purpur-1.11.1" = _tsvzYi4C;
+        "purpur-1.11.2" = _tsvzYi4C;
+        "purpur-1.12" = _tsvzYi4C;
+        "purpur-1.12.1" = _tsvzYi4C;
+        "purpur-1.12.2" = _tsvzYi4C;
+        "purpur-1.13" = _tsvzYi4C;
+        "purpur-1.13.1" = _tsvzYi4C;
+        "purpur-1.13.2" = _tsvzYi4C;
+        "purpur-1.14" = _tsvzYi4C;
+        "purpur-1.14.1" = _tsvzYi4C;
+        "purpur-1.14.2" = _tsvzYi4C;
+        "purpur-1.14.3" = _tsvzYi4C;
+        "purpur-1.14.4" = _tsvzYi4C;
+        "purpur-1.15" = _tsvzYi4C;
+        "purpur-1.15.1" = _tsvzYi4C;
+        "purpur-1.15.2" = _tsvzYi4C;
+        "purpur-1.16" = _tsvzYi4C;
+        "purpur-1.16.1" = _tsvzYi4C;
+        "purpur-1.16.2" = _tsvzYi4C;
+        "purpur-1.16.3" = _tsvzYi4C;
+        "purpur-1.16.4" = _tsvzYi4C;
+        "purpur-1.16.5" = _tsvzYi4C;
+        "purpur-1.17" = _tsvzYi4C;
+        "purpur-1.17.1" = _tsvzYi4C;
+        "purpur-1.18" = _tsvzYi4C;
+        "purpur-1.18.1" = _tsvzYi4C;
+        "purpur-1.18.2" = _tsvzYi4C;
+        "purpur-1.19" = _tsvzYi4C;
+        "purpur-1.19.1" = _tsvzYi4C;
+        "purpur-1.19.2" = _tsvzYi4C;
+        "purpur-1.19.3" = _tsvzYi4C;
+        "purpur-1.19.4" = _tsvzYi4C;
+        "purpur-1.20" = _tsvzYi4C;
+        "purpur-1.20.1" = _tsvzYi4C;
+        "purpur-1.20.2" = _tsvzYi4C;
+        "purpur-1.20.3" = _tsvzYi4C;
+        "purpur-1.20.4" = _tsvzYi4C;
+        "purpur-1.8" = _tsvzYi4C;
+        "purpur-1.8.1" = _tsvzYi4C;
+        "purpur-1.8.2" = _tsvzYi4C;
+        "purpur-1.8.3" = _tsvzYi4C;
+        "purpur-1.8.4" = _tsvzYi4C;
+        "purpur-1.8.5" = _tsvzYi4C;
+        "purpur-1.8.6" = _tsvzYi4C;
+        "purpur-1.8.7" = _tsvzYi4C;
+        "purpur-1.8.8" = _tsvzYi4C;
+        "purpur-1.20.5" = _tsvzYi4C;
+        "purpur-1.20.6" = _tsvzYi4C;
+        "purpur-1.21" = _tsvzYi4C;
+        "purpur-1.21.1" = _tsvzYi4C;
+        "purpur-1.21.2" = _tsvzYi4C;
+        "purpur-1.21.3" = _tsvzYi4C;
+        "purpur-1.21.4" = _tsvzYi4C;
+        "purpur-1.21.5" = _tsvzYi4C;
+        "purpur-1.21.6" = _tsvzYi4C;
+        "purpur-1.21.7" = _tsvzYi4C;
+        "purpur-1.21.8" = _tsvzYi4C;
+        "purpur-1.21.9" = _tsvzYi4C;
+        "purpur-1.21.10" = _tsvzYi4C;
+        "purpur-1.21.11" = _tsvzYi4C;
+        "purpur-26.1" = _tsvzYi4C;
+        "purpur-26.1.1" = _tsvzYi4C;
+        "purpur-26.1.2" = _tsvzYi4C;
+        "purpur-26.2" = _tsvzYi4C;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "quests.classic";
+            id = "T8iZG3U1";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "MIT" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "MIT License";
+                    shortName = "MIT";
+                    url = "https://github.com/PikaMug/Quests/blob/main/LICENSE.txt";
+                };
+            };
+        };
+in callPackage fn {version="tsvzYi4C";}

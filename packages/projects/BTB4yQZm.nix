@@ -1,0 +1,105 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _K7Ql2VNn = {
+            "id" = "K7Ql2VNn";
+            "file" = "!   §cMirai §dKuriyama §7[32x].zip";
+            "hash" = "sha512-6lDM+6QR7+TRyCpD7xu09w7zAhHeFcxtlwmjUFu9V+2sTzQQXPAKsWJe8y/jdU4UcdySUki02A+36NOppG7yZA==";
+        };
+    in {
+        "K7Ql2VNn" = _K7Ql2VNn;
+        "minecraft-1.19" = _K7Ql2VNn;
+        "minecraft-1.19.1" = _K7Ql2VNn;
+        "minecraft-1.19.2" = _K7Ql2VNn;
+        "minecraft-22w42a" = _K7Ql2VNn;
+        "minecraft-22w43a" = _K7Ql2VNn;
+        "minecraft-22w44a" = _K7Ql2VNn;
+        "minecraft-1.19.3" = _K7Ql2VNn;
+        "minecraft-1.19.4" = _K7Ql2VNn;
+        "minecraft-23w14a" = _K7Ql2VNn;
+        "minecraft-23w16a" = _K7Ql2VNn;
+        "minecraft-1.20" = _K7Ql2VNn;
+        "minecraft-1.20.1" = _K7Ql2VNn;
+        "minecraft-23w31a" = _K7Ql2VNn;
+        "minecraft-23w32a" = _K7Ql2VNn;
+        "minecraft-23w33a" = _K7Ql2VNn;
+        "minecraft-23w35a" = _K7Ql2VNn;
+        "minecraft-1.20.2-pre1" = _K7Ql2VNn;
+        "minecraft-1.20.2" = _K7Ql2VNn;
+        "minecraft-23w42a" = _K7Ql2VNn;
+        "minecraft-23w43a" = _K7Ql2VNn;
+        "minecraft-23w43b" = _K7Ql2VNn;
+        "minecraft-23w44a" = _K7Ql2VNn;
+        "minecraft-23w45a" = _K7Ql2VNn;
+        "minecraft-23w46a" = _K7Ql2VNn;
+        "minecraft-1.20.3" = _K7Ql2VNn;
+        "minecraft-1.20.4" = _K7Ql2VNn;
+        "minecraft-24w03a" = _K7Ql2VNn;
+        "minecraft-24w03b" = _K7Ql2VNn;
+        "minecraft-24w04a" = _K7Ql2VNn;
+        "minecraft-24w05a" = _K7Ql2VNn;
+        "minecraft-24w05b" = _K7Ql2VNn;
+        "minecraft-24w06a" = _K7Ql2VNn;
+        "minecraft-24w07a" = _K7Ql2VNn;
+        "minecraft-24w09a" = _K7Ql2VNn;
+        "minecraft-24w10a" = _K7Ql2VNn;
+        "minecraft-24w11a" = _K7Ql2VNn;
+        "minecraft-24w12a" = _K7Ql2VNn;
+        "minecraft-24w13a" = _K7Ql2VNn;
+        "minecraft-24w14potato" = _K7Ql2VNn;
+        "minecraft-24w14a" = _K7Ql2VNn;
+        "minecraft-1.20.5-pre1" = _K7Ql2VNn;
+        "minecraft-1.20.5-pre2" = _K7Ql2VNn;
+        "minecraft-1.20.5-pre3" = _K7Ql2VNn;
+        "minecraft-1.20.5" = _K7Ql2VNn;
+        "minecraft-1.20.6" = _K7Ql2VNn;
+        "minecraft-24w18a" = _K7Ql2VNn;
+        "minecraft-24w19a" = _K7Ql2VNn;
+        "minecraft-24w19b" = _K7Ql2VNn;
+        "minecraft-24w20a" = _K7Ql2VNn;
+        "minecraft-1.21" = _K7Ql2VNn;
+        "minecraft-1.21.1" = _K7Ql2VNn;
+        "minecraft-24w33a" = _K7Ql2VNn;
+        "minecraft-24w34a" = _K7Ql2VNn;
+        "minecraft-24w35a" = _K7Ql2VNn;
+        "minecraft-24w36a" = _K7Ql2VNn;
+        "minecraft-24w37a" = _K7Ql2VNn;
+        "minecraft-24w38a" = _K7Ql2VNn;
+        "minecraft-24w39a" = _K7Ql2VNn;
+        "minecraft-24w40a" = _K7Ql2VNn;
+        "minecraft-1.21.2-pre1" = _K7Ql2VNn;
+        "minecraft-1.21.2-pre2" = _K7Ql2VNn;
+        "minecraft-1.21.2" = _K7Ql2VNn;
+        "minecraft-1.21.3" = _K7Ql2VNn;
+        "minecraft-24w44a" = _K7Ql2VNn;
+        "minecraft-24w45a" = _K7Ql2VNn;
+        "minecraft-24w46a" = _K7Ql2VNn;
+        "minecraft-1.21.4" = _K7Ql2VNn;
+        "minecraft-1.21.5" = _K7Ql2VNn;
+        "minecraft-1.21.6" = _K7Ql2VNn;
+        "minecraft-1.21.7" = _K7Ql2VNn;
+        "minecraft-1.21.8" = _K7Ql2VNn;
+        "minecraft-1.21.9" = _K7Ql2VNn;
+        "minecraft-1.21.10" = _K7Ql2VNn;
+        "minecraft-1.21.11" = _K7Ql2VNn;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "mirai-kuriyama-32x";
+            id = "BTB4yQZm";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="K7Ql2VNn";}

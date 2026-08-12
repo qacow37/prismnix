@@ -1,0 +1,172 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _eUD22nLD = {
+            "id" = "eUD22nLD";
+            "file" = "EnchantBookPlus-v1.0.0.jar";
+            "hash" = "sha512-Yh13iQvCpthV+BHXNJrOH6UUBBxmeC/e/4ZJx045EHNiovmaml5SEgJR7/3qEh6v+cpc7x0PnvUzkbg5NkEpKA==";
+        };
+        _caIkmyua = {
+            "id" = "caIkmyua";
+            "file" = "EnchantBookPlus-1.0.1.jar";
+            "hash" = "sha512-T3gK7M6bi8w69Efrc13Fr7EvcauBZttpAL5WNgJu/LyfVzOZsudXtf9OALSA5+XDLvulGGV0TSh6vsyl1fgEaA==";
+        };
+        _aJs1s4oJ = {
+            "id" = "aJs1s4oJ";
+            "file" = "EnchantBookPlus-1.0.2.jar";
+            "hash" = "sha512-dgFkv5J3sPZYY9Dy/hgaP0De/dtpd+2oczizTAC5hDMYTwkqHOlKDHQOnt1I3EpXKLYOuJQ/pFyHBhvqTh6JFQ==";
+        };
+        _zpDOcDyC = {
+            "id" = "zpDOcDyC";
+            "file" = "EnchantBookPlus-1.0.3.jar";
+            "hash" = "sha512-N1vjbA9Nfjnp6m/mZOYsxGpOu6/reGPYbT8vD5c+APieMo96rFqT7nHJlJ1vUICfoeSlUTLuHWAxrQaEn+lmpg==";
+        };
+        _hjk5x2Ju = {
+            "id" = "hjk5x2Ju";
+            "file" = "EnchantBookPlus-1.0.4.jar";
+            "hash" = "sha512-/PaJikvR3xc4KlgeVxVF+qAK2sUBMX518NxhdS0TuEr1VDe/fBlioAInV+s89/D9bJy70+l0Yhh9+32SI70hkg==";
+        };
+        _CkpQALuU = {
+            "id" = "CkpQALuU";
+            "file" = "EnchantBookPlus-1.1.0.jar";
+            "hash" = "sha512-A3YKzcAvTZoTTd2bQU8EkZlHqL7bAJHbu02gIacz018je8VMRznd1e4YQ66qsEwq5kaUd29TwY9cIlUkqj2q+g==";
+        };
+        _OpJ8svaz = {
+            "id" = "OpJ8svaz";
+            "file" = "EnchantBookPlus-1.2.0.jar";
+            "hash" = "sha512-xS4KrfUpMOGvI+IqZB3JysOBq96qwe/25ZeIAK9YT6r5nwGQlQOkvmJU3UhHwOrvN8oyr0lMov4ei1A6zDGrsQ==";
+        };
+        _C80f26d9 = {
+            "id" = "C80f26d9";
+            "file" = "EnchantBookPlus-1.2.1.jar";
+            "hash" = "sha512-oYUan90PcPb4lPM6fYbEoi7cz2ZRs+UTd5CSNf4C4/ZyZo1LxkriGCm2nJm1Z98ZuOXjWYuzuyVFJ2umZlSnEg==";
+        };
+    in {
+        "eUD22nLD" = _eUD22nLD;
+        "caIkmyua" = _caIkmyua;
+        "aJs1s4oJ" = _aJs1s4oJ;
+        "zpDOcDyC" = _zpDOcDyC;
+        "hjk5x2Ju" = _hjk5x2Ju;
+        "CkpQALuU" = _CkpQALuU;
+        "OpJ8svaz" = _OpJ8svaz;
+        "C80f26d9" = _C80f26d9;
+        "paper-1.20" = _C80f26d9;
+        "paper-1.20.1" = _C80f26d9;
+        "paper-1.20.2" = _C80f26d9;
+        "paper-1.20.3" = _C80f26d9;
+        "paper-1.20.4" = _C80f26d9;
+        "paper-1.20.5" = _C80f26d9;
+        "paper-1.20.6" = _C80f26d9;
+        "paper-1.21" = _C80f26d9;
+        "paper-1.21.1" = _C80f26d9;
+        "paper-1.21.2" = _C80f26d9;
+        "paper-1.21.3" = _C80f26d9;
+        "paper-1.21.4" = _C80f26d9;
+        "paper-1.21.5" = _C80f26d9;
+        "paper-1.21.6" = _C80f26d9;
+        "paper-1.21.7" = _C80f26d9;
+        "paper-1.21.8" = _C80f26d9;
+        "paper-1.21.9" = _C80f26d9;
+        "paper-1.21.10" = _C80f26d9;
+        "paper-1.21.11" = _C80f26d9;
+        "paper-1.17" = _C80f26d9;
+        "paper-1.17.1" = _C80f26d9;
+        "paper-1.18" = _C80f26d9;
+        "paper-1.18.1" = _C80f26d9;
+        "paper-1.18.2" = _C80f26d9;
+        "paper-1.19" = _C80f26d9;
+        "paper-1.19.1" = _C80f26d9;
+        "paper-1.19.2" = _C80f26d9;
+        "paper-1.19.3" = _C80f26d9;
+        "paper-1.19.4" = _C80f26d9;
+        "paper-26.1" = _C80f26d9;
+        "paper-26.1.1" = _C80f26d9;
+        "paper-26.1.2" = _C80f26d9;
+        "paper-26.2" = _C80f26d9;
+        "bukkit-1.17" = _C80f26d9;
+        "bukkit-1.17.1" = _C80f26d9;
+        "bukkit-1.18" = _C80f26d9;
+        "bukkit-1.18.1" = _C80f26d9;
+        "bukkit-1.18.2" = _C80f26d9;
+        "bukkit-1.19" = _C80f26d9;
+        "bukkit-1.19.1" = _C80f26d9;
+        "bukkit-1.19.2" = _C80f26d9;
+        "bukkit-1.19.3" = _C80f26d9;
+        "bukkit-1.19.4" = _C80f26d9;
+        "bukkit-1.20" = _C80f26d9;
+        "bukkit-1.20.1" = _C80f26d9;
+        "bukkit-1.20.2" = _C80f26d9;
+        "bukkit-1.20.3" = _C80f26d9;
+        "bukkit-1.20.4" = _C80f26d9;
+        "bukkit-1.20.5" = _C80f26d9;
+        "bukkit-1.20.6" = _C80f26d9;
+        "bukkit-1.21" = _C80f26d9;
+        "bukkit-1.21.1" = _C80f26d9;
+        "bukkit-1.21.2" = _C80f26d9;
+        "bukkit-1.21.3" = _C80f26d9;
+        "bukkit-1.21.4" = _C80f26d9;
+        "bukkit-1.21.5" = _C80f26d9;
+        "bukkit-1.21.6" = _C80f26d9;
+        "bukkit-1.21.7" = _C80f26d9;
+        "bukkit-1.21.8" = _C80f26d9;
+        "bukkit-1.21.9" = _C80f26d9;
+        "bukkit-1.21.10" = _C80f26d9;
+        "bukkit-1.21.11" = _C80f26d9;
+        "bukkit-26.1" = _C80f26d9;
+        "bukkit-26.1.1" = _C80f26d9;
+        "bukkit-26.1.2" = _C80f26d9;
+        "bukkit-26.2" = _C80f26d9;
+        "spigot-1.17" = _C80f26d9;
+        "spigot-1.17.1" = _C80f26d9;
+        "spigot-1.18" = _C80f26d9;
+        "spigot-1.18.1" = _C80f26d9;
+        "spigot-1.18.2" = _C80f26d9;
+        "spigot-1.19" = _C80f26d9;
+        "spigot-1.19.1" = _C80f26d9;
+        "spigot-1.19.2" = _C80f26d9;
+        "spigot-1.19.3" = _C80f26d9;
+        "spigot-1.19.4" = _C80f26d9;
+        "spigot-1.20" = _C80f26d9;
+        "spigot-1.20.1" = _C80f26d9;
+        "spigot-1.20.2" = _C80f26d9;
+        "spigot-1.20.3" = _C80f26d9;
+        "spigot-1.20.4" = _C80f26d9;
+        "spigot-1.20.5" = _C80f26d9;
+        "spigot-1.20.6" = _C80f26d9;
+        "spigot-1.21" = _C80f26d9;
+        "spigot-1.21.1" = _C80f26d9;
+        "spigot-1.21.2" = _C80f26d9;
+        "spigot-1.21.3" = _C80f26d9;
+        "spigot-1.21.4" = _C80f26d9;
+        "spigot-1.21.5" = _C80f26d9;
+        "spigot-1.21.6" = _C80f26d9;
+        "spigot-1.21.7" = _C80f26d9;
+        "spigot-1.21.8" = _C80f26d9;
+        "spigot-1.21.9" = _C80f26d9;
+        "spigot-1.21.10" = _C80f26d9;
+        "spigot-1.21.11" = _C80f26d9;
+        "spigot-26.1" = _C80f26d9;
+        "spigot-26.1.1" = _C80f26d9;
+        "spigot-26.1.2" = _C80f26d9;
+        "spigot-26.2" = _C80f26d9;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "enchantbookplus";
+            id = "dMOPYb3s";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 only";
+                    shortName = "GPL-3.0-only";
+                    url = "https://github.com/cloudnode-pro/EnchantBookPlus/blob/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="C80f26d9";}

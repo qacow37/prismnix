@@ -1,0 +1,119 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _8sUUDEvG = {
+            "id" = "8sUUDEvG";
+            "file" = "Immortality-1.0.0.jar";
+            "hash" = "sha512-IBlHuSevUDWbJxvvPYBwf4FBlDe5Iy+49qiVJe4eq+JXVAGBLLNqvCCynXp1hMH0gcJHgGFT7JJ5CwJw+KHrTA==";
+        };
+        _wi50mAJZ = {
+            "id" = "wi50mAJZ";
+            "file" = "Immortality-1.0.1.jar";
+            "hash" = "sha512-JZD4ovTILT0YgvJzXmEwV6QqC1gUByA4rXXtE13ISnsEYs0U0AMqoXDjbRTlW4LxxUKZn6COWEqWmArkavrDxg==";
+        };
+        _mIVb5qci = {
+            "id" = "mIVb5qci";
+            "file" = "Immortality-1.0.2.jar";
+            "hash" = "sha512-JowjhyCkz7jDGArblw0UcufXAgmBf+OVlKyd9ivRru0GWIW2veQu/KboIQlyfo0rWVi1VGZjKkM3ussGyIPQqg==";
+        };
+    in {
+        "8sUUDEvG" = _8sUUDEvG;
+        "wi50mAJZ" = _wi50mAJZ;
+        "mIVb5qci" = _mIVb5qci;
+        "paper-1.16.5" = _mIVb5qci;
+        "paper-1.17" = _mIVb5qci;
+        "paper-1.17.1" = _mIVb5qci;
+        "paper-1.18" = _mIVb5qci;
+        "paper-1.18.1" = _mIVb5qci;
+        "paper-1.18.2" = _mIVb5qci;
+        "paper-1.19" = _mIVb5qci;
+        "paper-1.19.1" = _mIVb5qci;
+        "paper-1.19.2" = _mIVb5qci;
+        "paper-1.19.3" = _mIVb5qci;
+        "paper-1.19.4" = _mIVb5qci;
+        "paper-1.20" = _mIVb5qci;
+        "paper-1.20.1" = _mIVb5qci;
+        "paper-1.20.2" = _mIVb5qci;
+        "paper-1.20.3" = _mIVb5qci;
+        "paper-1.20.4" = _mIVb5qci;
+        "paper-1.20.5" = _mIVb5qci;
+        "paper-1.20.6" = _mIVb5qci;
+        "paper-1.21" = _mIVb5qci;
+        "paper-1.21.1" = _mIVb5qci;
+        "paper-1.21.2" = _mIVb5qci;
+        "paper-1.21.3" = _mIVb5qci;
+        "paper-1.21.4" = _mIVb5qci;
+        "paper-1.21.5" = _mIVb5qci;
+        "paper-1.21.6" = _mIVb5qci;
+        "paper-1.21.7" = _mIVb5qci;
+        "paper-1.21.8" = _mIVb5qci;
+        "paper-1.21.9" = _mIVb5qci;
+        "paper-1.21.10" = _mIVb5qci;
+        "paper-1.21.11" = _mIVb5qci;
+        "paper-1.16" = _mIVb5qci;
+        "paper-1.16.1" = _mIVb5qci;
+        "paper-1.16.2" = _mIVb5qci;
+        "paper-1.16.3" = _mIVb5qci;
+        "paper-1.16.4" = _mIVb5qci;
+        "paper-26.1" = _mIVb5qci;
+        "paper-26.1.1" = _mIVb5qci;
+        "paper-26.1.2" = _mIVb5qci;
+        "purpur-1.16.5" = _mIVb5qci;
+        "purpur-1.17" = _mIVb5qci;
+        "purpur-1.17.1" = _mIVb5qci;
+        "purpur-1.18" = _mIVb5qci;
+        "purpur-1.18.1" = _mIVb5qci;
+        "purpur-1.18.2" = _mIVb5qci;
+        "purpur-1.19" = _mIVb5qci;
+        "purpur-1.19.1" = _mIVb5qci;
+        "purpur-1.19.2" = _mIVb5qci;
+        "purpur-1.19.3" = _mIVb5qci;
+        "purpur-1.19.4" = _mIVb5qci;
+        "purpur-1.20" = _mIVb5qci;
+        "purpur-1.20.1" = _mIVb5qci;
+        "purpur-1.20.2" = _mIVb5qci;
+        "purpur-1.20.3" = _mIVb5qci;
+        "purpur-1.20.4" = _mIVb5qci;
+        "purpur-1.20.5" = _mIVb5qci;
+        "purpur-1.20.6" = _mIVb5qci;
+        "purpur-1.21" = _mIVb5qci;
+        "purpur-1.21.1" = _mIVb5qci;
+        "purpur-1.21.2" = _mIVb5qci;
+        "purpur-1.21.3" = _mIVb5qci;
+        "purpur-1.21.4" = _mIVb5qci;
+        "purpur-1.21.5" = _mIVb5qci;
+        "purpur-1.21.6" = _mIVb5qci;
+        "purpur-1.21.7" = _mIVb5qci;
+        "purpur-1.21.8" = _mIVb5qci;
+        "purpur-1.21.9" = _mIVb5qci;
+        "purpur-1.21.10" = _mIVb5qci;
+        "purpur-1.21.11" = _mIVb5qci;
+        "purpur-1.16" = _mIVb5qci;
+        "purpur-1.16.1" = _mIVb5qci;
+        "purpur-1.16.2" = _mIVb5qci;
+        "purpur-1.16.3" = _mIVb5qci;
+        "purpur-1.16.4" = _mIVb5qci;
+        "purpur-26.1" = _mIVb5qci;
+        "purpur-26.1.1" = _mIVb5qci;
+        "purpur-26.1.2" = _mIVb5qci;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "immortaliti";
+            id = "yLw9Wj3L";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU Lesser General Public License v3.0 or later";
+                    shortName = "LGPL-3.0-or-later";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="mIVb5qci";}

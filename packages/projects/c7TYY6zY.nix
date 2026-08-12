@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _kWce2APT = {
+            "id" = "kWce2APT";
+            "file" = "perfect Clear Glass.zip";
+            "hash" = "sha512-DTGM/W3OLx7dG1qxy1LyDWZC1Kh0CaqLMzmbMxgG991HkaO2dumrbcwKt3NJPXcpQszz1zTFbKJ4mB6SXzYXEA==";
+        };
+    in {
+        "kWce2APT" = _kWce2APT;
+        "minecraft-23w31a" = _kWce2APT;
+        "minecraft-23w32a" = _kWce2APT;
+        "minecraft-23w33a" = _kWce2APT;
+        "minecraft-23w35a" = _kWce2APT;
+        "minecraft-1.20.2-pre1" = _kWce2APT;
+        "minecraft-1.20.2-pre2" = _kWce2APT;
+        "minecraft-1.20.2-pre3" = _kWce2APT;
+        "minecraft-1.20.2-pre4" = _kWce2APT;
+        "minecraft-1.20.2-rc1" = _kWce2APT;
+        "minecraft-1.20.2-rc2" = _kWce2APT;
+        "minecraft-1.20.2" = _kWce2APT;
+        "minecraft-23w40a" = _kWce2APT;
+        "minecraft-23w41a" = _kWce2APT;
+        "minecraft-23w42a" = _kWce2APT;
+        "minecraft-23w43a" = _kWce2APT;
+        "minecraft-23w43b" = _kWce2APT;
+        "minecraft-23w44a" = _kWce2APT;
+        "minecraft-23w45a" = _kWce2APT;
+        "minecraft-23w46a" = _kWce2APT;
+        "minecraft-1.20.3-pre1" = _kWce2APT;
+        "minecraft-1.20.3-pre2" = _kWce2APT;
+        "minecraft-1.20.3-pre3" = _kWce2APT;
+        "minecraft-1.20.3-pre4" = _kWce2APT;
+        "minecraft-1.20.3-rc1" = _kWce2APT;
+        "minecraft-1.20.3" = _kWce2APT;
+        "minecraft-1.20.4-rc1" = _kWce2APT;
+        "minecraft-1.20.4" = _kWce2APT;
+        "minecraft-23w51a" = _kWce2APT;
+        "minecraft-23w51b" = _kWce2APT;
+        "minecraft-24w03a" = _kWce2APT;
+        "minecraft-24w03b" = _kWce2APT;
+        "minecraft-24w04a" = _kWce2APT;
+        "minecraft-24w05a" = _kWce2APT;
+        "minecraft-24w05b" = _kWce2APT;
+        "minecraft-24w06a" = _kWce2APT;
+        "minecraft-24w07a" = _kWce2APT;
+        "minecraft-24w09a" = _kWce2APT;
+        "minecraft-24w10a" = _kWce2APT;
+        "minecraft-24w11a" = _kWce2APT;
+        "minecraft-24w12a" = _kWce2APT;
+        "minecraft-24w13a" = _kWce2APT;
+        "minecraft-24w14potato" = _kWce2APT;
+        "minecraft-24w14a" = _kWce2APT;
+        "minecraft-1.20.5-pre1" = _kWce2APT;
+        "minecraft-1.20.5-pre2" = _kWce2APT;
+        "minecraft-1.20.5-pre3" = _kWce2APT;
+        "minecraft-1.20.5-pre4" = _kWce2APT;
+        "minecraft-1.20.5-rc1" = _kWce2APT;
+        "minecraft-1.20.5-rc2" = _kWce2APT;
+        "minecraft-1.20.5-rc3" = _kWce2APT;
+        "minecraft-1.20.5" = _kWce2APT;
+        "minecraft-1.20.6-rc1" = _kWce2APT;
+        "minecraft-1.20.6" = _kWce2APT;
+        "minecraft-24w18a" = _kWce2APT;
+        "minecraft-24w19a" = _kWce2APT;
+        "minecraft-24w19b" = _kWce2APT;
+        "minecraft-24w20a" = _kWce2APT;
+        "minecraft-24w21a" = _kWce2APT;
+        "minecraft-24w21b" = _kWce2APT;
+        "minecraft-1.21-pre1" = _kWce2APT;
+        "minecraft-1.21-pre2" = _kWce2APT;
+        "minecraft-1.21-pre3" = _kWce2APT;
+        "minecraft-1.21-pre4" = _kWce2APT;
+        "minecraft-1.21-rc1" = _kWce2APT;
+        "minecraft-1.21" = _kWce2APT;
+        "minecraft-1.21.1-rc1" = _kWce2APT;
+        "minecraft-1.21.1" = _kWce2APT;
+        "minecraft-24w33a" = _kWce2APT;
+        "minecraft-24w34a" = _kWce2APT;
+        "minecraft-24w35a" = _kWce2APT;
+        "minecraft-24w36a" = _kWce2APT;
+        "minecraft-24w37a" = _kWce2APT;
+        "minecraft-24w38a" = _kWce2APT;
+        "minecraft-24w39a" = _kWce2APT;
+        "minecraft-24w40a" = _kWce2APT;
+        "minecraft-1.21.2-pre1" = _kWce2APT;
+        "minecraft-1.21.2-pre2" = _kWce2APT;
+        "minecraft-1.21.2-pre3" = _kWce2APT;
+        "minecraft-1.21.2-pre4" = _kWce2APT;
+        "minecraft-1.21.2-pre5" = _kWce2APT;
+        "minecraft-1.21.2-rc1" = _kWce2APT;
+        "minecraft-1.21.2-rc2" = _kWce2APT;
+        "minecraft-1.21.2" = _kWce2APT;
+        "minecraft-1.21.3" = _kWce2APT;
+        "minecraft-24w44a" = _kWce2APT;
+        "minecraft-24w45a" = _kWce2APT;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "perfect-clear-glass";
+            id = "c7TYY6zY";
+            type = "resourcepack";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "LicenseRef-All-Rights-Reserved";
+                    shortName = "LicenseRef-All-Rights-Reserved";
+                    url = null;
+                };
+            };
+        };
+in callPackage fn {version="kWce2APT";}

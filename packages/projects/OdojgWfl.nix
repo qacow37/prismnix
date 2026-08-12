@@ -1,0 +1,170 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BUQwmh40 = {
+            "id" = "BUQwmh40";
+            "file" = "legacy-potion-colors-1.0.0.jar";
+            "hash" = "sha512-zA6xaEAKbJ+76pJHiIZw93rNu9Kb2CIqoV4pjwZI8rWEgWbwey6hHFTmWSVguAtBMJimuUPgbhviQOQqLaXbag==";
+        };
+        _Z0U2OisQ = {
+            "id" = "Z0U2OisQ";
+            "file" = "legacy-potion-colors-1.0.1.jar";
+            "hash" = "sha512-cHpyxecwYZOOx5yczdvvp4RrLryMLQ711hcWqQd4/gPCmOsztbz7EuIl5aAj4mt3o61cvOyxIfFC/kkj5hKOwg==";
+        };
+        _3nve9lkj = {
+            "id" = "3nve9lkj";
+            "file" = "legacy_potion_colors-1.0.2.jar";
+            "hash" = "sha512-1NjzvT3alnEY6h0sfOC4ql/fXz2XIBYtwGN3W2xZWKuF3Z8B6oRlmzyBbB5AJROY6y/QdlLP5nY39zIGMp0MgQ==";
+        };
+        _URO5QH0I = {
+            "id" = "URO5QH0I";
+            "file" = "legacy_potion_colors-1.1.0.jar";
+            "hash" = "sha512-/QiaQG1C2+H6ZL3vortZKRJUwmF2ezMSEiCeGu+YX7FFay51HGtInrhyxQli/22bWrx2G4irU7nEgRKhYDeb6g==";
+        };
+        _baJkCGV2 = {
+            "id" = "baJkCGV2";
+            "file" = "legacy_potion_colors-1.1.1.jar";
+            "hash" = "sha512-nzCrcAyHe69hRlfJYWhk0tnpDhitkLAfLz0MdrLjfvT8+Ry40oHrZL6F1oNkRtjV57nXx/h9dJ5S2aGuuI3coA==";
+        };
+        _HhVDGx9p = {
+            "id" = "HhVDGx9p";
+            "file" = "legacy_potion_colors-1.2.jar";
+            "hash" = "sha512-Gyzftrg8ABhUraBIb+QbXwSWYGaMGoV9lOrvSOsss9gUUHBTcHehC+jThxs5NK4ayqhLuhyvH8o5sj9fUfPJlQ==";
+        };
+        _tZAOheJ1 = {
+            "id" = "tZAOheJ1";
+            "file" = "legacy_potion_colors-1.3.jar";
+            "hash" = "sha512-U5lS1qtbo+1u6Xq5OSJdjOaLx82jZ1Grd0/kHqL15T6poBVwHN8vfH4GMT/QfASFPKX5O4AfE9irgMuARlTkEA==";
+        };
+    in {
+        "BUQwmh40" = _BUQwmh40;
+        "Z0U2OisQ" = _Z0U2OisQ;
+        "3nve9lkj" = _3nve9lkj;
+        "URO5QH0I" = _URO5QH0I;
+        "baJkCGV2" = _baJkCGV2;
+        "HhVDGx9p" = _HhVDGx9p;
+        "tZAOheJ1" = _tZAOheJ1;
+        "fabric-1.20.5" = _3nve9lkj;
+        "fabric-1.20.6-rc1" = _3nve9lkj;
+        "fabric-1.20.6" = _3nve9lkj;
+        "fabric-24w18a" = _3nve9lkj;
+        "fabric-24w19a" = _3nve9lkj;
+        "fabric-24w19b" = _3nve9lkj;
+        "fabric-24w20a" = _3nve9lkj;
+        "fabric-24w21a" = _3nve9lkj;
+        "fabric-24w21b" = _3nve9lkj;
+        "fabric-1.21-pre1" = _3nve9lkj;
+        "fabric-1.21-pre2" = _3nve9lkj;
+        "fabric-1.21-pre3" = _3nve9lkj;
+        "fabric-1.21-pre4" = _3nve9lkj;
+        "fabric-1.21-rc1" = _3nve9lkj;
+        "fabric-1.21" = _3nve9lkj;
+        "fabric-1.21.1-rc1" = _3nve9lkj;
+        "fabric-1.21.1" = _3nve9lkj;
+        "fabric-24w33a" = _3nve9lkj;
+        "fabric-24w34a" = _3nve9lkj;
+        "fabric-24w35a" = _3nve9lkj;
+        "fabric-24w36a" = _3nve9lkj;
+        "fabric-24w37a" = _3nve9lkj;
+        "fabric-24w38a" = _3nve9lkj;
+        "fabric-24w39a" = _3nve9lkj;
+        "fabric-24w40a" = _3nve9lkj;
+        "fabric-1.21.2-pre1" = _3nve9lkj;
+        "fabric-1.21.2-pre2" = _3nve9lkj;
+        "fabric-1.21.2-pre3" = _3nve9lkj;
+        "fabric-1.21.2-pre4" = _3nve9lkj;
+        "fabric-1.21.2-pre5" = _3nve9lkj;
+        "fabric-1.21.2-rc1" = _3nve9lkj;
+        "fabric-1.21.2-rc2" = _3nve9lkj;
+        "fabric-1.21.2" = _3nve9lkj;
+        "fabric-1.21.3" = _3nve9lkj;
+        "fabric-24w44a" = _3nve9lkj;
+        "fabric-24w45a" = _3nve9lkj;
+        "fabric-24w46a" = _3nve9lkj;
+        "fabric-1.21.4-pre1" = _3nve9lkj;
+        "fabric-1.21.4-pre2" = _3nve9lkj;
+        "fabric-1.21.4-pre3" = _3nve9lkj;
+        "fabric-1.21.4-rc1" = _3nve9lkj;
+        "fabric-1.21.4-rc2" = _3nve9lkj;
+        "fabric-1.21.4-rc3" = _3nve9lkj;
+        "fabric-1.21.4" = _3nve9lkj;
+        "fabric-25w02a" = _3nve9lkj;
+        "fabric-25w03a" = _baJkCGV2;
+        "fabric-25w04a" = _baJkCGV2;
+        "fabric-25w05a" = _baJkCGV2;
+        "fabric-25w06a" = _baJkCGV2;
+        "fabric-25w07a" = _baJkCGV2;
+        "fabric-25w08a" = _baJkCGV2;
+        "fabric-25w09a" = _baJkCGV2;
+        "fabric-25w09b" = _baJkCGV2;
+        "fabric-25w10a" = _baJkCGV2;
+        "fabric-1.21.5-pre1" = _baJkCGV2;
+        "fabric-1.21.5-pre2" = _baJkCGV2;
+        "fabric-1.21.5-pre3" = _baJkCGV2;
+        "fabric-1.21.5-rc1" = _baJkCGV2;
+        "fabric-1.21.5-rc2" = _baJkCGV2;
+        "fabric-1.21.5" = _baJkCGV2;
+        "fabric-25w15a" = _baJkCGV2;
+        "fabric-25w16a" = _baJkCGV2;
+        "fabric-25w17a" = _baJkCGV2;
+        "fabric-25w18a" = _baJkCGV2;
+        "fabric-25w19a" = _baJkCGV2;
+        "fabric-25w20a" = _baJkCGV2;
+        "fabric-25w21a" = _baJkCGV2;
+        "fabric-1.21.6-pre1" = _baJkCGV2;
+        "fabric-1.21.6-pre2" = _baJkCGV2;
+        "fabric-1.21.6-pre3" = _baJkCGV2;
+        "fabric-1.21.6-pre4" = _baJkCGV2;
+        "fabric-1.21.6-rc1" = _baJkCGV2;
+        "fabric-1.21.6" = _baJkCGV2;
+        "fabric-1.21.7-rc1" = _baJkCGV2;
+        "fabric-1.21.7-rc2" = _baJkCGV2;
+        "fabric-1.21.7" = _baJkCGV2;
+        "fabric-1.21.8-rc1" = _baJkCGV2;
+        "fabric-1.21.8" = _baJkCGV2;
+        "fabric-25w31a" = _baJkCGV2;
+        "fabric-25w32a" = _baJkCGV2;
+        "fabric-25w33a" = _baJkCGV2;
+        "fabric-25w34a" = _baJkCGV2;
+        "fabric-25w34b" = _baJkCGV2;
+        "fabric-25w35a" = _baJkCGV2;
+        "fabric-25w36a" = _baJkCGV2;
+        "fabric-25w36b" = _baJkCGV2;
+        "fabric-25w37a" = _baJkCGV2;
+        "fabric-1.21.9-pre1" = _baJkCGV2;
+        "fabric-1.21.9-pre2" = _baJkCGV2;
+        "fabric-1.21.9-pre3" = _baJkCGV2;
+        "fabric-1.21.9-pre4" = _baJkCGV2;
+        "fabric-1.21.9-rc1" = _baJkCGV2;
+        "fabric-1.21.9" = _baJkCGV2;
+        "fabric-1.21.10-rc1" = _baJkCGV2;
+        "fabric-1.21.10" = _baJkCGV2;
+        "fabric-1.21.11" = _baJkCGV2;
+        "fabric-26.1-rc-1" = _HhVDGx9p;
+        "fabric-26.1-rc-2" = _HhVDGx9p;
+        "fabric-26.1-rc-3" = _HhVDGx9p;
+        "fabric-26.1" = _HhVDGx9p;
+        "fabric-26.1.1-rc-1" = _HhVDGx9p;
+        "fabric-26.1.1" = _HhVDGx9p;
+        "fabric-26.2" = _tZAOheJ1;
+    });
+    fn = {stdenv, fetchurl, version, ...}:
+        lib.prismnix.pkgs.mkVersionedModrinthPkg {
+            inherit stdenv fetchurl;
+            name = "legacy-potion-colors";
+            id = "OdojgWfl";
+            type = "mod";
+            version = version;
+            versions = versions;
+            meta = {
+                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                    free = false;
+                    deprecated = false;
+                    redistributable = false;
+                    fullName = "GNU General Public License v3.0 or later";
+                    shortName = "GPL-3.0-or-later";
+                    url = "https://raw.githubusercontent.com/lowercasebtw/legacy-potion-colors/refs/heads/main/LICENSE";
+                };
+            };
+        };
+in callPackage fn {version="tZAOheJ1";}
