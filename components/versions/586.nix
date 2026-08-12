@@ -1,1 +1,1 @@
-{game={uid="net.minecraft";version="1.12.2";important=true;};forge={uid="net.minecraftforge";version="14.23.5.2864";};}
+{game={uid="net.minecraft";version="17w43a";important=true;};}

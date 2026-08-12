@@ -1,1 +1,1 @@
-{game={uid="net.minecraft";version="1.16.3";important=true;};fabric={uid="net.fabricm.fabric-loader";version="0.19.3";};quilt={uid="org.quiltmc.quilt-loader";version="0.30.1-beta.2";};forge={uid="net.minecraftforge";version="34.1.42";};}
+{game={uid="net.minecraft";version="1.16.4-pre1";important=true;};fabric={uid="net.fabricmc.fabric-loader";version="0.19.3";};quilt={uid="org.quiltmc.quilt-loader";version="0.30.1-beta.2";};}

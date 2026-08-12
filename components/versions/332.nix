@@ -1,1 +1,1 @@
-{game={uid="net.minecraft";version="1.18_experimental-snapshot-5";important=true;};}
+{game={uid="net.minecraft";version="1.18_experimental-snapshot-6";important=true;};}

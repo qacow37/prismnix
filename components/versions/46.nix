@@ -1,1 +1,1 @@
-{game={uid="net.minecraft";version="1.21.11_unobfuscated";important=true;};}
+{game={uid="net.minecraft";version="26.1-snapshot-1";important=true;};neoforge={uid="net.neoforged";version="26.1.0.0-alpha.4+snapshot-1";};}

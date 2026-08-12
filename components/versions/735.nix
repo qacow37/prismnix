@@ -1,1 +1,1 @@
-{game={uid="net.minecraft";version="1.8";important=true;};forge={uid="net.minecraftforge";version="11.14.4.1577";};liteloader={uid="com.mumfrey.liteloader";version="1.8";};}
+{game={uid="net.minecraft";version="1.8.1-pre1";important=true;};}

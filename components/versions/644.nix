@@ -1,1 +1,1 @@
-{game={uid="net.minecraft";version="16w15a";important=true;};}
+{game={uid="net.minecraft";version="16w15b";important=true;};}
