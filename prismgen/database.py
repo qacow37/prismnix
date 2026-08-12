@@ -1,5 +1,7 @@
 from requests import Session
 from dataclasses import dataclass
+from datetime import datetime
+from collections.abc import Callable
 import json
 
 @dataclass
@@ -19,9 +21,11 @@ class License:
 
     @staticmethod
     def from_dict(dict) -> "License":
+        name = dict["name"]
+        id = dict["id"]
         return License(
-            id   = dict["id"],
-            name = dict["name"],
+            id   = id,
+            name = name if name != "" else id,
             url  = dict["url"],
         )
     def to_dict(self) -> dict:
@@ -182,6 +186,55 @@ class Version:
             "game"   : self.game.to_dict(),
         }
 
+@dataclass
+class VersionData:
+    versions: list[Version]
+    refs: dict[str, str]
+
+class Collection:
+    project: Project
+    latest: Version
+    versions: list[Version]
+    game_refs: dict[str, dict[str, Version]]
+
+    def __init__(self, project: Project, version: Version):
+        self.project = project
+        self.latest = version
+        self.versions = []
+        self.game_refs = {}
+
+    def insert(
+        self,
+        version: Version,
+        predicate: Callable[[Version, Version], Version]
+    ):
+        for loader in version.game.loaders:
+            self.game_refs.setdefault(
+                loader,
+                {}
+            )
+            for game in version.game.versions:
+                dict = self.game_refs[loader]
+                if game in dict:
+                    dict[game] = predicate(
+                        dict[game],
+                        version
+                    )
+                else: dict[game] = version
+        self.versions.append(version)
+        self.latest = predicate(self.latest, version)
+
+    def get_version_data(self) -> VersionData:
+        refs = {}
+        for loader, nested in self.game_refs.items():
+            for game, version in nested.items():
+                k = f"{loader}-{game}"
+                refs[k] = version.id
+        return VersionData(
+            versions = self.versions,
+            refs = refs,
+        )
+
 class Database:
     _path: str
     projects: dict[str, Project]
@@ -260,6 +313,21 @@ class Database:
 
     def get_path(self) -> str:
         return self._path
+
+    def collect(
+        self,
+        filter: Callable[[Version], bool] = lambda _: True,
+        predicate: Callable[[Version, Version], Version] = lambda a,_:a,
+    ) -> list[Collection]:
+        colls = {}
+        for _, vers in self.versions.items():
+            if filter(vers) == True:
+                proj = self.projects[vers.project]
+                colls.setdefault(
+                    proj.id,
+                    Collection(proj, vers),
+                ).insert(vers, predicate)
+        return [v for _,v in colls.items()]
 
     def read(self) -> "Database":
         self.projects = {}
