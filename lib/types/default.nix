@@ -1,9 +1,9 @@
 {...}@args:
 let
-	file = import ./file.nix args;
-	jsonobj = import ./jsonobj.nix args;
+	fs = import ./fs.nix args;
+	json = import ./json.nix args;
 in
 {
-	file = file.file;
-	jsonobj = jsonobj.jsonobj;
+	fs = fs;
+	json = json;
 }

@@ -1,6 +1,6 @@
 {lib, ...}:
 {
-	jsonobj = lib.mkOptionType {
+	obj = lib.mkOptionType {
 		name = "json-object";
 		description = "a JSON object";
 		check = v: (lib.isAttrs v)
