@@ -1,4 +1,4 @@
-{lib, ...}: {config, pkgs, ...}:
+{self, lib, ...}: {config, pkgs, ...}:
 let
 	instance-path = name: "${config.programs.prismnix.path}/instances/${name}";
 
@@ -34,19 +34,19 @@ let
 					description = "All options to be written to the instance.cfg file";
 				};
 				components = lib.mkOption {
-					type = lib.types.listOf lib.prismnix.types.jsonobj;
+					type = lib.types.listOf lib.prismnix.types.json.obj;
 					default = [];
 					description = "The prismlauncher instance components";
+				};
+				filesystem = lib.mkOption {
+					type = lib.prismnix.types.fs.fs;
+					default = {};
+					description = "Filesystem entries for the instance";
 				};
 				packages = lib.mkOption {
 					type = lib.types.listOf lib.types.package;
 					default = [];
-					description = "Packages to install into the instance";
-				};
-				file = lib.mkOption {
-					type = lib.types.attrsOf lib.prismnix.types.file;
-					default = {};
-					description = "Files to create in the instance";
+					description = "All packages to install into the instance";
 				};
 				activation = lib.mkOption {
 					type = lib.hm.types.dagOf lib.types.str;
@@ -68,7 +68,12 @@ in
 		type = lib.types.attrsOf (lib.types.submoduleWith {
 			modules = [instance] ++ options;
 			specialArgs = {
+				prismnix = {
+					components = self.components;
+					packages = self.packages;
+				};
 				lib = lib;
+				pkgs = pkgs;
 			};
 			shorthandOnlyDefinesConfig = true;
 		});
@@ -105,6 +110,7 @@ in
 						run mkdir -p "${path}"
 						run cp -f ${mmc-pack} "${path}/mmc-pack.json"
 
+						run touch "${path}/instance.cfg"
 						${lib.concatMapAttrsStringSep
 							"\n"
 							(_: v: set-cfg v)
@@ -119,30 +125,21 @@ in
 	config.home.file = lib.mkIf config.programs.prismnix.enable (
 		lib.mkMerge (lib.mapAttrsToList (name: instance:
 			let
+				drv = lib.prismnix.pkgs.mkInstanceDrv {
+					stdenv = pkgs.stdenv;
+					name = "prismnix-${name}-drv";
+					pkgs = cfg.packages;
+					filesystem = cfg.filesystem;
+				};
 				cfg = instance.instance;
-				file = lib.mapAttrs' (filename: file: {
-					name = "${instance.path}/${filename}";
-					value = {
-						enable = file.enable;
-						text = file.text;
-						force = file.force;
-						source = lib.mkIf (file ? source) file.source;
-						target = "${instance.path}/${filename}";
-						onChange = file.onChange;
-						recursive = file.recursive;
-					};
-				}) cfg.file;
-
-				packages = lib.listToAttrs (map (item: {
-					name = "${instance.path}/${item}";
-					value = {
-						force = true;
-						recursive = true;
-						source = "${item}/minecraft/";
-						target = "${instance.path}";
-					};
-				}) (lib.unique cfg.packages));
-			in file // packages
+			in
+			{
+				"prismnix-${name}" = {
+					source = "${drv}";
+					target = instance-path name;
+					recursive = true;
+				};
+			}
 		) config.programs.prismnix.instances)
 	);
 }
