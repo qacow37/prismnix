@@ -81,7 +81,7 @@ def create_version(mc, pkgs):
 
     str_fabric = struct(
         "fabric",
-        "net.fabricm.fabric-loader",
+        "net.fabricmc.fabric-loader",
         fabric
     ) if intermediary != None else ""
 
