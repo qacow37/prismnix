@@ -26,6 +26,7 @@ let
         "fabric-1.21.9" = _GQGKREFI;
         "fabric-1.21.10" = _GQGKREFI;
         "fabric-1.21.11" = _S9VJ7fQi;
+        "default" = _GQGKREFI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GQGKREFI";}
+in callPackage fn {version="default";}

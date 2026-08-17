@@ -100,6 +100,7 @@ let
         "minecraft-1.21.3" = _g4FHPvta;
         "minecraft-1.20.6" = _g4FHPvta;
         "minecraft-1.21.4" = _g4FHPvta;
+        "default" = _g4FHPvta;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="g4FHPvta";}
+in callPackage fn {version="default";}

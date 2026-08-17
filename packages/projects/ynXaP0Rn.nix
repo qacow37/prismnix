@@ -34,6 +34,7 @@ let
         "Xnpc61EA" = _Xnpc61EA;
         "minecraft-1.20.1" = _Xnpc61EA;
         "minecraft-1.20" = _Xnpc61EA;
+        "default" = _Xnpc61EA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xnpc61EA";}
+in callPackage fn {version="default";}

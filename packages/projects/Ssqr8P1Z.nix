@@ -22,6 +22,7 @@ let
         "tYD2KAdr" = _tYD2KAdr;
         "forge-1.20.1" = _dNUje9JV;
         "neoforge-1.21.1" = _tYD2KAdr;
+        "default" = _tYD2KAdr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tYD2KAdr";}
+in callPackage fn {version="default";}

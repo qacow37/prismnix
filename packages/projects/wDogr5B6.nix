@@ -42,6 +42,7 @@ let
         "minecraft-1.20.4" = _xXagCldg;
         "minecraft-1.21.9" = _xXagCldg;
         "minecraft-1.21.10" = _xXagCldg;
+        "default" = _xXagCldg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xXagCldg";}
+in callPackage fn {version="default";}

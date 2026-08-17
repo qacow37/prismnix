@@ -39,6 +39,7 @@ let
         "VhdmFYX8" = _VhdmFYX8;
         "R7INDaKI" = _R7INDaKI;
         "forge-1.20.1" = _R7INDaKI;
+        "default" = _R7INDaKI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R7INDaKI";}
+in callPackage fn {version="default";}

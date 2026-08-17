@@ -21,6 +21,7 @@ let
         "UIaHoFKE" = _UIaHoFKE;
         "1NelzHtk" = _1NelzHtk;
         "forge-1.19.2" = _1NelzHtk;
+        "default" = _1NelzHtk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1NelzHtk";}
+in callPackage fn {version="default";}

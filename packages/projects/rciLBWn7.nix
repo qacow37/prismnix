@@ -64,6 +64,7 @@ let
         "NuDwgHaO" = _NuDwgHaO;
         "forge-1.20.1" = _IfHd8UEs;
         "neoforge-1.21.1" = _NuDwgHaO;
+        "default" = _NuDwgHaO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NuDwgHaO";}
+in callPackage fn {version="default";}

@@ -1356,6 +1356,7 @@ let
         "fabric-26.1.1" = _NpcpLfSS;
         "fabric-26.1.2" = _NpcpLfSS;
         "fabric-26.2" = _SokaTUaS;
+        "default" = _SokaTUaS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1376,4 +1377,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SokaTUaS";}
+in callPackage fn {version="default";}

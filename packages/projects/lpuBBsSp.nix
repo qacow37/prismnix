@@ -167,6 +167,7 @@ let
         "neoforge-26.1" = _LVs58B6g;
         "neoforge-26.1.1" = _LVs58B6g;
         "neoforge-26.1.2" = _LVs58B6g;
+        "default" = _LVs58B6g;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -187,4 +188,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LVs58B6g";}
+in callPackage fn {version="default";}

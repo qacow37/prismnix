@@ -28,6 +28,7 @@ let
         "SB9XLa80" = _SB9XLa80;
         "fabric-1.21.11" = _7q5GHOso;
         "neoforge-1.21.11" = _SB9XLa80;
+        "default" = _SB9XLa80;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SB9XLa80";}
+in callPackage fn {version="default";}

@@ -178,6 +178,7 @@ let
         "bungeecord-1.7.5" = _39AVRi1e;
         "bungeecord-1.7.6" = _39AVRi1e;
         "bungeecord-1.21.11" = _39AVRi1e;
+        "default" = _39AVRi1e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -198,4 +199,4 @@ let
                 };
             };
         };
-in callPackage fn {version="39AVRi1e";}
+in callPackage fn {version="default";}

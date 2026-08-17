@@ -108,6 +108,7 @@ let
         "fabric-1.21.3" = _cPyCdhvr;
         "fabric-1.21.4" = _cPyCdhvr;
         "fabric-1.21.5" = _cPyCdhvr;
+        "default" = _cPyCdhvr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cPyCdhvr";}
+in callPackage fn {version="default";}

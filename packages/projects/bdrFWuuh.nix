@@ -10,6 +10,7 @@ let
         "ZUIqD3n8" = _ZUIqD3n8;
         "iris-1.19.4" = _ZUIqD3n8;
         "optifine-1.19.4" = _ZUIqD3n8;
+        "default" = _ZUIqD3n8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZUIqD3n8";}
+in callPackage fn {version="default";}

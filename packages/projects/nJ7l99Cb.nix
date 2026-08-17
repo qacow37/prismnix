@@ -10,6 +10,7 @@ let
         "ING90tEv" = _ING90tEv;
         "minecraft-1.19.2" = _ING90tEv;
         "minecraft-1.19.3" = _ING90tEv;
+        "default" = _ING90tEv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ING90tEv";}
+in callPackage fn {version="default";}

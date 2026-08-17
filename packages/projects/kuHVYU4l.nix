@@ -21,6 +21,7 @@ let
         "qzUnZnD4" = _qzUnZnD4;
         "7UXBDfDU" = _7UXBDfDU;
         "legacy-fabric-1.6.4" = _7UXBDfDU;
+        "default" = _7UXBDfDU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7UXBDfDU";}
+in callPackage fn {version="default";}

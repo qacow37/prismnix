@@ -17,6 +17,7 @@ let
         "vanilla-1.21.10" = _Hj2ONZsr;
         "vanilla-1.21.11" = _UNnbt6dl;
         "vanilla-26.1-snapshot-1" = _UNnbt6dl;
+        "default" = _UNnbt6dl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UNnbt6dl";}
+in callPackage fn {version="default";}

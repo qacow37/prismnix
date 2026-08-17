@@ -57,6 +57,7 @@ let
         "s15n1Mqs" = _s15n1Mqs;
         "UUDPX3oO" = _UUDPX3oO;
         "fabric-1.21.1" = _UUDPX3oO;
+        "default" = _UUDPX3oO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UUDPX3oO";}
+in callPackage fn {version="default";}

@@ -261,6 +261,7 @@ let
         "5ARCC4Ql" = _5ARCC4Ql;
         "DcUUvtTX" = _DcUUvtTX;
         "bta-babric-b1.7.3" = _DcUUvtTX;
+        "default" = _DcUUvtTX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -281,4 +282,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DcUUvtTX";}
+in callPackage fn {version="default";}

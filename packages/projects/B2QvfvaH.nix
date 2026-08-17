@@ -21,6 +21,7 @@ let
         "83IaW1NV" = _83IaW1NV;
         "UchvGtkf" = _UchvGtkf;
         "forge-1.20.1" = _UchvGtkf;
+        "default" = _UchvGtkf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UchvGtkf";}
+in callPackage fn {version="default";}

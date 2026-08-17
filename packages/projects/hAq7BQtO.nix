@@ -16,6 +16,7 @@ let
         "JrFAcHp3" = _JrFAcHp3;
         "forge-1.20.1" = _JrFAcHp3;
         "neoforge-1.20.1" = _JrFAcHp3;
+        "default" = _JrFAcHp3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JrFAcHp3";}
+in callPackage fn {version="default";}

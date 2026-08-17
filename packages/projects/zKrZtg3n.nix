@@ -180,6 +180,7 @@ let
         "fabric-26.1.1" = _zvArYSpf;
         "fabric-26.1.2" = _zvArYSpf;
         "fabric-26.2" = _EIF0cUKm;
+        "default" = _EIF0cUKm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -200,4 +201,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EIF0cUKm";}
+in callPackage fn {version="default";}

@@ -1641,6 +1641,7 @@ let
         "quilt-26.1.2" = _XVPj6pOz;
         "quilt-26.2" = _87dEDBu9;
         "neoforge-1.21.1" = _JNJqm5zf;
+        "default" = _78cY6SEk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1661,4 +1662,4 @@ let
                 };
             };
         };
-in callPackage fn {version="78cY6SEk";}
+in callPackage fn {version="default";}

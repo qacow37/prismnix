@@ -604,6 +604,7 @@ let
         "iris-26.2-rc-1" = _N9BLPyT7;
         "iris-26.2-rc-2" = _N9BLPyT7;
         "iris-26.2" = _N9BLPyT7;
+        "default" = _N9BLPyT7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -624,4 +625,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N9BLPyT7";}
+in callPackage fn {version="default";}

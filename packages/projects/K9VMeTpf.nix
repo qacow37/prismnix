@@ -15,6 +15,7 @@ let
         "QYM7DPRZ" = _QYM7DPRZ;
         "iMw5GrPY" = _iMw5GrPY;
         "forge-1.20.1" = _iMw5GrPY;
+        "default" = _iMw5GrPY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iMw5GrPY";}
+in callPackage fn {version="default";}

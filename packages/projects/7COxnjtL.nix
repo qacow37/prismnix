@@ -33,6 +33,7 @@ let
         "qdILu2jB" = _qdILu2jB;
         "MHoriAPq" = _MHoriAPq;
         "fabric-1.21.1" = _MHoriAPq;
+        "default" = _MHoriAPq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MHoriAPq";}
+in callPackage fn {version="default";}

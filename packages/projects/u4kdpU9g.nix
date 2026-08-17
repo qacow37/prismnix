@@ -9,6 +9,7 @@ let
     in {
         "wAWSqJ48" = _wAWSqJ48;
         "quilt-1.19.2" = _wAWSqJ48;
+        "default" = _wAWSqJ48;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wAWSqJ48";}
+in callPackage fn {version="default";}

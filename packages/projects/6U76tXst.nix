@@ -231,6 +231,7 @@ let
         "minecraft-26.1.1" = _APWYpv5d;
         "minecraft-26.1.2" = _APWYpv5d;
         "minecraft-26.2" = _APWYpv5d;
+        "default" = _APWYpv5d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -251,4 +252,4 @@ let
                 };
             };
         };
-in callPackage fn {version="APWYpv5d";}
+in callPackage fn {version="default";}

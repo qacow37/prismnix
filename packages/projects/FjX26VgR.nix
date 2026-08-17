@@ -36,6 +36,7 @@ let
         "fabric-1.20.2" = _N550RAtr;
         "fabric-1.20.3" = _N550RAtr;
         "fabric-1.20.4" = _N550RAtr;
+        "default" = _N550RAtr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N550RAtr";}
+in callPackage fn {version="default";}

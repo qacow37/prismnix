@@ -132,6 +132,7 @@ let
         "quilt-1.21.1" = _kGfsCCtv;
         "neoforge-1.21" = _8Zp7Z4hj;
         "neoforge-1.21.1" = _8Zp7Z4hj;
+        "default" = _8Zp7Z4hj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -152,4 +153,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8Zp7Z4hj";}
+in callPackage fn {version="default";}

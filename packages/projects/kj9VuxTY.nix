@@ -114,6 +114,7 @@ let
         "optifine-26.1.1" = _CPU2tER5;
         "optifine-26.1.2" = _CPU2tER5;
         "optifine-26.2" = _CPU2tER5;
+        "default" = _CPU2tER5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -134,4 +135,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CPU2tER5";}
+in callPackage fn {version="default";}

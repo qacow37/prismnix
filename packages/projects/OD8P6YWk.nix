@@ -517,6 +517,7 @@ let
         "neoforge-26.1.1" = _MDvdxMAS;
         "neoforge-26.1.2" = _MDvdxMAS;
         "neoforge-26.2" = _MDvdxMAS;
+        "default" = _MDvdxMAS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -537,4 +538,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MDvdxMAS";}
+in callPackage fn {version="default";}

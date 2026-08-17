@@ -27,6 +27,7 @@ let
         "9OxogIFC" = _9OxogIFC;
         "UJCXAjOK" = _UJCXAjOK;
         "forge-1.7.10" = _UJCXAjOK;
+        "default" = _UJCXAjOK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UJCXAjOK";}
+in callPackage fn {version="default";}

@@ -112,6 +112,7 @@ let
         "brHyBlaU" = _brHyBlaU;
         "forge-1.20.1" = _brHyBlaU;
         "neoforge-1.21.4" = _sSBPiQlY;
+        "default" = _brHyBlaU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="brHyBlaU";}
+in callPackage fn {version="default";}

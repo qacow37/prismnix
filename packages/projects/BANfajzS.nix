@@ -22,6 +22,7 @@ let
         "quilt-1.19.1" = _NPGsIVcP;
         "quilt-1.19.2" = _NPGsIVcP;
         "quilt-1.18.2" = _TpMaPARk;
+        "default" = _TpMaPARk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TpMaPARk";}
+in callPackage fn {version="default";}

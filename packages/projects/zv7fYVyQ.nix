@@ -44,6 +44,7 @@ let
         "forge-1.21.1" = _O6W0tjrq;
         "neoforge-1.21.1" = _FMnTQvft;
         "fabric-1.21.1" = _XD16li3d;
+        "default" = _XD16li3d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XD16li3d";}
+in callPackage fn {version="default";}

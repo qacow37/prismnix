@@ -27,6 +27,7 @@ let
         "ifMBqUMz" = _ifMBqUMz;
         "Z54r4h2o" = _Z54r4h2o;
         "neoforge-1.21.1" = _Z54r4h2o;
+        "default" = _Z54r4h2o;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Z54r4h2o";}
+in callPackage fn {version="default";}

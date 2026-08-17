@@ -32,6 +32,7 @@ let
         "minecraft-1.21.9" = _7aricTCA;
         "minecraft-1.21.10" = _7aricTCA;
         "minecraft-1.8.9" = _DvQCj5Ub;
+        "default" = _7aricTCA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7aricTCA";}
+in callPackage fn {version="default";}

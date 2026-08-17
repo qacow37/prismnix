@@ -332,6 +332,7 @@ let
         "minecraft-1.21.10" = _djuKbLis;
         "minecraft-25w41a" = _djuKbLis;
         "minecraft-25w42a" = _djuKbLis;
+        "default" = _djuKbLis;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -352,4 +353,4 @@ let
                 };
             };
         };
-in callPackage fn {version="djuKbLis";}
+in callPackage fn {version="default";}

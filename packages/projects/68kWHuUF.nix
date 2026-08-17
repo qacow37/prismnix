@@ -138,6 +138,7 @@ let
         "quilt-26.1" = _sDBoLbAS;
         "quilt-26.1.1" = _sDBoLbAS;
         "quilt-26.1.2" = _sDBoLbAS;
+        "default" = _sDBoLbAS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -158,4 +159,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sDBoLbAS";}
+in callPackage fn {version="default";}

@@ -112,6 +112,7 @@ let
         "xuMt3nEc" = _xuMt3nEc;
         "fabric-1.20.1" = _bonvTxEE;
         "forge-1.20.1" = _xuMt3nEc;
+        "default" = _xuMt3nEc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xuMt3nEc";}
+in callPackage fn {version="default";}

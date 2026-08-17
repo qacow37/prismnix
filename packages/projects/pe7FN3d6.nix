@@ -31,6 +31,7 @@ let
         "forge-1.19.2" = _Hm11vzRw;
         "forge-1.20" = _unxodajn;
         "forge-1.20.1" = _unxodajn;
+        "default" = _unxodajn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="unxodajn";}
+in callPackage fn {version="default";}

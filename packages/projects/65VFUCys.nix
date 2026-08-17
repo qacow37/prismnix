@@ -28,6 +28,7 @@ let
         "VYMMfLSC" = _VYMMfLSC;
         "neoforge-1.21.1" = _VYMMfLSC;
         "fabric-1.21.1" = _S1GhiigM;
+        "default" = _VYMMfLSC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VYMMfLSC";}
+in callPackage fn {version="default";}

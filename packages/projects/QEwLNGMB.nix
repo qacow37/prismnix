@@ -82,6 +82,7 @@ let
         "LANeOUc6" = _LANeOUc6;
         "forge-1.20.1" = _emAFi5LC;
         "neoforge-1.21.1" = _LANeOUc6;
+        "default" = _LANeOUc6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LANeOUc6";}
+in callPackage fn {version="default";}

@@ -318,6 +318,7 @@ let
         "optifine-26.1.1" = _WcoEHPPx;
         "optifine-26.1.2" = _WcoEHPPx;
         "optifine-26.2" = _WcoEHPPx;
+        "default" = _WcoEHPPx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -338,4 +339,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WcoEHPPx";}
+in callPackage fn {version="default";}

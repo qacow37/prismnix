@@ -70,6 +70,7 @@ let
         "PUU5fDef" = _PUU5fDef;
         "fabric-1.21.7" = _PUU5fDef;
         "fabric-1.21.8" = _PUU5fDef;
+        "default" = _PUU5fDef;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PUU5fDef";}
+in callPackage fn {version="default";}

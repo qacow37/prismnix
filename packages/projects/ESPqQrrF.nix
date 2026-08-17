@@ -16,6 +16,7 @@ let
         "jloMWN6S" = _jloMWN6S;
         "neoforge-1.21" = _jloMWN6S;
         "neoforge-1.21.1" = _jloMWN6S;
+        "default" = _jloMWN6S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jloMWN6S";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "GP3WtCzF" = _GP3WtCzF;
         "Tzzphrug" = _Tzzphrug;
         "forge-1.20.1" = _Tzzphrug;
+        "default" = _Tzzphrug;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tzzphrug";}
+in callPackage fn {version="default";}

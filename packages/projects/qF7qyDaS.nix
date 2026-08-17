@@ -63,6 +63,7 @@ let
         "ifd4tlxg" = _ifd4tlxg;
         "llLtGrSV" = _llLtGrSV;
         "forge-1.12.2" = _llLtGrSV;
+        "default" = _llLtGrSV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="llLtGrSV";}
+in callPackage fn {version="default";}

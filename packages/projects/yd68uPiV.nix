@@ -15,6 +15,7 @@ let
         "JjjgPepl" = _JjjgPepl;
         "AXngxPn0" = _AXngxPn0;
         "forge-1.12.2" = _AXngxPn0;
+        "default" = _AXngxPn0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AXngxPn0";}
+in callPackage fn {version="default";}

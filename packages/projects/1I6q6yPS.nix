@@ -21,6 +21,7 @@ let
         "ms3tiaX0" = _ms3tiaX0;
         "DZLRvRCQ" = _DZLRvRCQ;
         "forge-1.20.1" = _DZLRvRCQ;
+        "default" = _DZLRvRCQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DZLRvRCQ";}
+in callPackage fn {version="default";}

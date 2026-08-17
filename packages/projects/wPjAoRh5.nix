@@ -16,6 +16,7 @@ let
         "I2tgEwzw" = _I2tgEwzw;
         "iris-1.20.1" = _I2tgEwzw;
         "optifine-1.20.1" = _I2tgEwzw;
+        "default" = _I2tgEwzw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I2tgEwzw";}
+in callPackage fn {version="default";}

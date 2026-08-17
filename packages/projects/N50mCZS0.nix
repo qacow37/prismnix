@@ -345,6 +345,7 @@ let
         "LXXkoSGu" = _LXXkoSGu;
         "cuPR700Q" = _cuPR700Q;
         "forge-1.7.10" = _cuPR700Q;
+        "default" = _cuPR700Q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -365,4 +366,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cuPR700Q";}
+in callPackage fn {version="default";}

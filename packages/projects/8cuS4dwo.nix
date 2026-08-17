@@ -280,6 +280,7 @@ let
         "fabric-26.2-pre-3" = _VEwOoOSv;
         "fabric-26.2-pre-4" = _VEwOoOSv;
         "fabric-26.2-pre-5" = _VEwOoOSv;
+        "default" = _VEwOoOSv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -300,4 +301,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VEwOoOSv";}
+in callPackage fn {version="default";}

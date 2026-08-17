@@ -9,6 +9,7 @@ let
     in {
         "cMUfCTNb" = _cMUfCTNb;
         "fabric-1.20.1" = _cMUfCTNb;
+        "default" = _cMUfCTNb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cMUfCTNb";}
+in callPackage fn {version="default";}

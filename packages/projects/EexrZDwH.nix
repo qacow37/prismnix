@@ -177,6 +177,7 @@ let
         "quilt-1.21.1" = _oW3SYaap;
         "quilt-1.21.2" = _oW3SYaap;
         "quilt-1.21.3" = _oW3SYaap;
+        "default" = _oW3SYaap;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -197,4 +198,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oW3SYaap";}
+in callPackage fn {version="default";}

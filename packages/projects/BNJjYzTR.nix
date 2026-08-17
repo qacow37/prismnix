@@ -21,6 +21,7 @@ let
         "exM9LLEt" = _exM9LLEt;
         "gekpysuC" = _gekpysuC;
         "forge-1.20.1" = _gekpysuC;
+        "default" = _gekpysuC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gekpysuC";}
+in callPackage fn {version="default";}

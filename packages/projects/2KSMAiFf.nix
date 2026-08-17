@@ -45,6 +45,7 @@ let
         "XPdfXbh5" = _XPdfXbh5;
         "Exw96vNo" = _Exw96vNo;
         "forge-1.20.1" = _Exw96vNo;
+        "default" = _Exw96vNo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Exw96vNo";}
+in callPackage fn {version="default";}

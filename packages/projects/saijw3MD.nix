@@ -151,6 +151,7 @@ let
         "forge-1.20.1" = _Kc0LBr65;
         "fabric-1.20" = _jStQ105n;
         "fabric-1.20.1" = _jStQ105n;
+        "default" = _jStQ105n;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -171,4 +172,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jStQ105n";}
+in callPackage fn {version="default";}

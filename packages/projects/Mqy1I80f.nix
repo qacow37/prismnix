@@ -37,6 +37,7 @@ let
         "minecraft-1.21.8" = _WF83I2Cp;
         "minecraft-1.21.9" = _WF83I2Cp;
         "minecraft-1.21.10" = _WF83I2Cp;
+        "default" = _WF83I2Cp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WF83I2Cp";}
+in callPackage fn {version="default";}

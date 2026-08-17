@@ -34,6 +34,7 @@ let
         "YBTmCLeu" = _YBTmCLeu;
         "fabric-1.21.4" = _fqUYmTnz;
         "fabric-1.21.11" = _YBTmCLeu;
+        "default" = _YBTmCLeu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YBTmCLeu";}
+in callPackage fn {version="default";}

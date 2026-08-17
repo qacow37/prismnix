@@ -34,6 +34,7 @@ let
         "fabric-23w13a" = _2kMwQIsa;
         "fabric-23w13a_or_b" = _2kMwQIsa;
         "fabric-23w14a" = _2kMwQIsa;
+        "default" = _2kMwQIsa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2kMwQIsa";}
+in callPackage fn {version="default";}

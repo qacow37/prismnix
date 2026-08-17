@@ -1953,6 +1953,7 @@ let
         "XWE1EfFx" = _XWE1EfFx;
         "Sxw6wWG5" = _Sxw6wWG5;
         "forge-1.7.10" = _Sxw6wWG5;
+        "default" = _Sxw6wWG5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1973,4 +1974,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Sxw6wWG5";}
+in callPackage fn {version="default";}

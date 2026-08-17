@@ -122,6 +122,7 @@ let
         "forge-26.1.1" = _nRebrum0;
         "forge-26.1.2" = _nRebrum0;
         "forge-26.2" = _nRebrum0;
+        "default" = _nRebrum0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -142,4 +143,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nRebrum0";}
+in callPackage fn {version="default";}

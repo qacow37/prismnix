@@ -147,6 +147,7 @@ let
         "babric-b1.7.3" = _PfkPYUWh;
         "bta-babric-b1.7.3" = _GdVIGVay;
         "modloader-b1.7.3" = _r6vzWduZ;
+        "default" = _r6vzWduZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="r6vzWduZ";}
+in callPackage fn {version="default";}

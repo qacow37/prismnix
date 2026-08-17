@@ -180,6 +180,7 @@ let
         "minecraft-1.21.11-rc1" = _KnSn4ReG;
         "minecraft-1.21.11-rc2" = _KnSn4ReG;
         "minecraft-1.21.11-rc3" = _KnSn4ReG;
+        "default" = _KnSn4ReG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -200,4 +201,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KnSn4ReG";}
+in callPackage fn {version="default";}

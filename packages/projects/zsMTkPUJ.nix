@@ -27,6 +27,7 @@ let
         "soonV9BS" = _soonV9BS;
         "pQMQNFMd" = _pQMQNFMd;
         "forge-1.7.10" = _pQMQNFMd;
+        "default" = _pQMQNFMd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pQMQNFMd";}
+in callPackage fn {version="default";}

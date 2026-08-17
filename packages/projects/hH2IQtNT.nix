@@ -259,6 +259,7 @@ let
         "quilt-1.21.9" = _ceLuroTv;
         "quilt-1.21.10" = _ceLuroTv;
         "quilt-1.21.11" = _ceLuroTv;
+        "default" = _ceLuroTv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -279,4 +280,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ceLuroTv";}
+in callPackage fn {version="default";}

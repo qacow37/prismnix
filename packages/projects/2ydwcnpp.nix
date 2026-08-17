@@ -36,6 +36,7 @@ let
         "spigot-1.2.5" = _Qd5DKclx;
         "spigot-1.20" = _Qd5DKclx;
         "spigot-1.20.1" = _Qd5DKclx;
+        "default" = _Qd5DKclx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Qd5DKclx";}
+in callPackage fn {version="default";}

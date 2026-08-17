@@ -316,6 +316,7 @@ let
         "ovQaGPbb" = _ovQaGPbb;
         "fabric-b1.7.3" = _ovQaGPbb;
         "babric-b1.7.3" = _ovQaGPbb;
+        "default" = _ovQaGPbb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -336,4 +337,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ovQaGPbb";}
+in callPackage fn {version="default";}

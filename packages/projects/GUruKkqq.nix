@@ -30,6 +30,7 @@ let
         "minecraft-1.21.7" = _SDUs45n9;
         "minecraft-1.21.8" = _SDUs45n9;
         "minecraft-26.2" = _SDUs45n9;
+        "default" = _SDUs45n9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SDUs45n9";}
+in callPackage fn {version="default";}

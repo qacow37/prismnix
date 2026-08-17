@@ -64,6 +64,7 @@ let
         "5cgTONdy" = _5cgTONdy;
         "forge-1.20.1" = _dCszVbra;
         "neoforge-1.21.1" = _5cgTONdy;
+        "default" = _5cgTONdy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="5cgTONdy";}
+in callPackage fn {version="default";}

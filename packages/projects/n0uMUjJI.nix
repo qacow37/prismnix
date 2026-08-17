@@ -95,6 +95,7 @@ let
         "fabric-26.1" = _LOmLSgfX;
         "fabric-26.1.1" = _LOmLSgfX;
         "fabric-26.1.2" = _LOmLSgfX;
+        "default" = _LOmLSgfX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LOmLSgfX";}
+in callPackage fn {version="default";}

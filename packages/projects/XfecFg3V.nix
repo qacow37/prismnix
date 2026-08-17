@@ -93,6 +93,7 @@ let
         "fxzQQ9fi" = _fxzQQ9fi;
         "ZC9SEZxx" = _ZC9SEZxx;
         "bta-babric-b1.7.3" = _ZC9SEZxx;
+        "default" = _ZC9SEZxx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZC9SEZxx";}
+in callPackage fn {version="default";}

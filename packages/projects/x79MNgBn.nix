@@ -25,6 +25,7 @@ let
         "neoforge-1.21.2" = _eRlVOZI6;
         "neoforge-1.21.3" = _eRlVOZI6;
         "neoforge-1.21.4" = _eRlVOZI6;
+        "default" = _eRlVOZI6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -45,4 +46,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eRlVOZI6";}
+in callPackage fn {version="default";}

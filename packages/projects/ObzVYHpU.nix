@@ -70,6 +70,7 @@ let
         "fabric-1.20.3" = _TtGNvIQz;
         "fabric-1.21.5" = _czSRSxel;
         "fabric-1.21.6" = _czSRSxel;
+        "default" = _czSRSxel;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="czSRSxel";}
+in callPackage fn {version="default";}

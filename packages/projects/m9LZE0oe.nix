@@ -28,6 +28,7 @@ let
         "lKnOOqly" = _lKnOOqly;
         "forge-1.19.2" = _mlQkRRN1;
         "forge-1.20.1" = _lKnOOqly;
+        "default" = _lKnOOqly;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lKnOOqly";}
+in callPackage fn {version="default";}

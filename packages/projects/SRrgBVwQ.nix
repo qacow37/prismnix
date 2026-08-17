@@ -15,6 +15,7 @@ let
         "LGXnGtLD" = _LGXnGtLD;
         "sEC0NYrm" = _sEC0NYrm;
         "forge-1.18.2" = _sEC0NYrm;
+        "default" = _sEC0NYrm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sEC0NYrm";}
+in callPackage fn {version="default";}

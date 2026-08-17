@@ -126,6 +126,7 @@ let
         "minecraft-26.1" = _UdnPIqSO;
         "minecraft-26.1.1" = _UdnPIqSO;
         "minecraft-26.1.2" = _UdnPIqSO;
+        "default" = _UdnPIqSO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -146,4 +147,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UdnPIqSO";}
+in callPackage fn {version="default";}

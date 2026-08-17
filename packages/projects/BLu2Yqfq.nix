@@ -129,6 +129,7 @@ let
         "forge-1.20.5" = _ruxlsWci;
         "forge-1.20.6" = _ruxlsWci;
         "neoforge-1.21.1" = _AntNFNAx;
+        "default" = _AntNFNAx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AntNFNAx";}
+in callPackage fn {version="default";}

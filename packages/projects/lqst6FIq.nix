@@ -22,6 +22,7 @@ let
         "tewsifA8" = _tewsifA8;
         "fabric-1.20.1" = _tewsifA8;
         "fabric-1.20.2" = _tewsifA8;
+        "default" = _tewsifA8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tewsifA8";}
+in callPackage fn {version="default";}

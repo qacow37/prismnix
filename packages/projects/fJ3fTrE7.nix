@@ -33,6 +33,7 @@ let
         "cW9mAINb" = _cW9mAINb;
         "2cgMOTQM" = _2cgMOTQM;
         "forge-1.20.1" = _2cgMOTQM;
+        "default" = _2cgMOTQM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2cgMOTQM";}
+in callPackage fn {version="default";}

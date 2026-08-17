@@ -213,6 +213,7 @@ let
         "mA44Wlmq" = _mA44Wlmq;
         "Ur3XWPSH" = _Ur3XWPSH;
         "forge-1.12.2" = _Ur3XWPSH;
+        "default" = _Ur3XWPSH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -233,4 +234,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ur3XWPSH";}
+in callPackage fn {version="default";}

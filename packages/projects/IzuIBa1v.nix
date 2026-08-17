@@ -277,6 +277,7 @@ let
         "quilt-1.21.9" = _XWUmar4v;
         "quilt-1.21.10" = _XWUmar4v;
         "quilt-1.21.11" = _XWUmar4v;
+        "default" = _XWUmar4v;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -297,4 +298,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XWUmar4v";}
+in callPackage fn {version="default";}

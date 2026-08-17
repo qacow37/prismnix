@@ -76,6 +76,7 @@ let
         "optifine-1.17" = _ETtf2JC5;
         "optifine-1.18" = _ETtf2JC5;
         "optifine-1.19" = _ETtf2JC5;
+        "default" = _ETtf2JC5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ETtf2JC5";}
+in callPackage fn {version="default";}

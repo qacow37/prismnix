@@ -40,6 +40,7 @@ let
         "UpKO3bcn" = _UpKO3bcn;
         "datapack-1.20.1" = _eOY6ApWD;
         "forge-1.20.1" = _UpKO3bcn;
+        "default" = _UpKO3bcn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UpKO3bcn";}
+in callPackage fn {version="default";}

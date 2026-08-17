@@ -154,6 +154,7 @@ let
         "DbsU2Tzg" = _DbsU2Tzg;
         "fabric-b1.7.3" = _DbsU2Tzg;
         "babric-b1.7.3" = _DbsU2Tzg;
+        "default" = _DbsU2Tzg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -174,4 +175,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DbsU2Tzg";}
+in callPackage fn {version="default";}

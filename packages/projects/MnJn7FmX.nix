@@ -33,6 +33,7 @@ let
         "RcdyrSqJ" = _RcdyrSqJ;
         "98FGl121" = _98FGl121;
         "forge-1.20.1" = _98FGl121;
+        "default" = _98FGl121;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="98FGl121";}
+in callPackage fn {version="default";}

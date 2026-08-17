@@ -124,6 +124,7 @@ let
         "quilt-1.21.9" = _HR524E7u;
         "quilt-1.21.10" = _HR524E7u;
         "quilt-1.21.11" = _HR524E7u;
+        "default" = _HR524E7u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HR524E7u";}
+in callPackage fn {version="default";}

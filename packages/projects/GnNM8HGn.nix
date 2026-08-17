@@ -28,6 +28,7 @@ let
         "RgiO6Xlx" = _RgiO6Xlx;
         "forge-1.20.1" = _9vT1VKik;
         "neoforge-1.21.1" = _RgiO6Xlx;
+        "default" = _RgiO6Xlx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RgiO6Xlx";}
+in callPackage fn {version="default";}

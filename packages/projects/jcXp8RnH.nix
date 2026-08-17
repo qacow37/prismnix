@@ -33,6 +33,7 @@ let
         "EucGaLrm" = _EucGaLrm;
         "d1Sxl1QQ" = _d1Sxl1QQ;
         "neoforge-1.21.1" = _d1Sxl1QQ;
+        "default" = _d1Sxl1QQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="d1Sxl1QQ";}
+in callPackage fn {version="default";}

@@ -100,6 +100,7 @@ let
         "sUIV5Mqp" = _sUIV5Mqp;
         "neoforge-1.21.1" = _sUIV5Mqp;
         "forge-1.20.1" = _CXckcNtn;
+        "default" = _sUIV5Mqp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sUIV5Mqp";}
+in callPackage fn {version="default";}

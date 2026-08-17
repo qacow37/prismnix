@@ -46,6 +46,7 @@ let
         "7LBVCgam" = _7LBVCgam;
         "forge-1.19.2" = _aqlmboNx;
         "forge-1.20.1" = _7LBVCgam;
+        "default" = _7LBVCgam;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7LBVCgam";}
+in callPackage fn {version="default";}

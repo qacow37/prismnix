@@ -148,6 +148,7 @@ let
         "XBVVCrnE" = _XBVVCrnE;
         "forge-1.12.2" = _t9m2MNC6;
         "forge-1.20.1" = _XBVVCrnE;
+        "default" = _XBVVCrnE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XBVVCrnE";}
+in callPackage fn {version="default";}

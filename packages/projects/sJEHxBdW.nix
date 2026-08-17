@@ -80,6 +80,7 @@ let
         "purpur-1.21.3" = _AK4LHivS;
         "purpur-1.21.4" = _AK4LHivS;
         "purpur-1.21.5" = _AK4LHivS;
+        "default" = _AK4LHivS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AK4LHivS";}
+in callPackage fn {version="default";}

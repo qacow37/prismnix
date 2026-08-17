@@ -144,6 +144,7 @@ let
         "minecraft-26.1" = _wpDWkrfQ;
         "minecraft-26.1.1" = _wpDWkrfQ;
         "minecraft-26.1.2" = _wpDWkrfQ;
+        "default" = _wpDWkrfQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -164,4 +165,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wpDWkrfQ";}
+in callPackage fn {version="default";}

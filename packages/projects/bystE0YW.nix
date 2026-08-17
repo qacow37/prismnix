@@ -38,6 +38,7 @@ let
         "minecraft-26.1" = _7OMJAprS;
         "minecraft-26.1.1" = _7OMJAprS;
         "minecraft-26.1.2" = _7OMJAprS;
+        "default" = _7OMJAprS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7OMJAprS";}
+in callPackage fn {version="default";}

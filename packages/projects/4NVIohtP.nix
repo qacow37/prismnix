@@ -21,6 +21,7 @@ let
         "lrBfbOEz" = _lrBfbOEz;
         "UGbIM4ge" = _UGbIM4ge;
         "neoforge-1.21.1" = _UGbIM4ge;
+        "default" = _UGbIM4ge;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UGbIM4ge";}
+in callPackage fn {version="default";}

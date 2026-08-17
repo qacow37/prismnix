@@ -9,6 +9,7 @@ let
     in {
         "L1apkcuo" = _L1apkcuo;
         "minecraft-1.8.9" = _L1apkcuo;
+        "default" = _L1apkcuo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="L1apkcuo";}
+in callPackage fn {version="default";}

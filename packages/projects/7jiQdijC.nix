@@ -53,6 +53,7 @@ let
         "forge-1.19.2" = _CdA5xFIb;
         "forge-1.20.1" = _CrSibNa9;
         "neoforge-1.20.1" = _CrSibNa9;
+        "default" = _CrSibNa9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CrSibNa9";}
+in callPackage fn {version="default";}

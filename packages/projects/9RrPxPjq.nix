@@ -130,6 +130,7 @@ let
         "CnMKioau" = _CnMKioau;
         "neoforge-1.21" = _CnMKioau;
         "neoforge-1.21.1" = _CnMKioau;
+        "default" = _CnMKioau;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -150,4 +151,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CnMKioau";}
+in callPackage fn {version="default";}

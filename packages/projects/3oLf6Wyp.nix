@@ -23,6 +23,7 @@ let
         "forge-1.19.2" = _h19Azsm0;
         "neoforge-1.20.1" = _X06QHxuF;
         "fabric-1.20.1" = _rGiltb2I;
+        "default" = _rGiltb2I;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rGiltb2I";}
+in callPackage fn {version="default";}

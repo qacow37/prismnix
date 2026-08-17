@@ -93,6 +93,7 @@ let
         "ZQpdWDF6" = _ZQpdWDF6;
         "OHGLdaLd" = _OHGLdaLd;
         "neoforge-1.21.1" = _OHGLdaLd;
+        "default" = _OHGLdaLd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OHGLdaLd";}
+in callPackage fn {version="default";}

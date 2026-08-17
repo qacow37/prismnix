@@ -56,6 +56,7 @@ let
         "minecraft-26.1.1" = _aMlYCTAx;
         "minecraft-26.1.2" = _aMlYCTAx;
         "minecraft-26.2" = _aMlYCTAx;
+        "default" = _aMlYCTAx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -76,4 +77,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aMlYCTAx";}
+in callPackage fn {version="default";}

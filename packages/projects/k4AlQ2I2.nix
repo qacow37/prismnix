@@ -28,6 +28,7 @@ let
         "jervgHin" = _jervgHin;
         "forge-1.20.1" = _Zdz7vcq1;
         "neoforge-1.21.1" = _jervgHin;
+        "default" = _jervgHin;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jervgHin";}
+in callPackage fn {version="default";}

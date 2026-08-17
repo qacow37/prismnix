@@ -90,6 +90,7 @@ let
         "paper-26.1.1" = _vbIaBtw4;
         "paper-26.1.2" = _vbIaBtw4;
         "paper-26.2" = _vbIaBtw4;
+        "default" = _vbIaBtw4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -110,4 +111,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vbIaBtw4";}
+in callPackage fn {version="default";}

@@ -20,6 +20,7 @@ let
         "minecraft-1.21.9" = _IkoIE0li;
         "minecraft-1.21.10" = _IkoIE0li;
         "minecraft-1.21.11" = _IkoIE0li;
+        "default" = _IkoIE0li;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -40,4 +41,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IkoIE0li";}
+in callPackage fn {version="default";}

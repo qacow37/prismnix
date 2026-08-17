@@ -141,6 +141,7 @@ let
         "neoforge-1.21.3" = _cVoTASCc;
         "neoforge-1.21.4" = _tBCg5kWp;
         "neoforge-1.21.5" = _tBCg5kWp;
+        "default" = _tBCg5kWp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tBCg5kWp";}
+in callPackage fn {version="default";}

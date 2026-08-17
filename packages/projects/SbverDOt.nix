@@ -39,6 +39,7 @@ let
         "LI2kP00Z" = _LI2kP00Z;
         "sC218a8D" = _sC218a8D;
         "forge-1.20.1" = _sC218a8D;
+        "default" = _sC218a8D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sC218a8D";}
+in callPackage fn {version="default";}

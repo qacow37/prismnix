@@ -33,6 +33,7 @@ let
         "QlVmEE2E" = _QlVmEE2E;
         "5oUOLKri" = _5oUOLKri;
         "fabric-1.21.1" = _5oUOLKri;
+        "default" = _5oUOLKri;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="5oUOLKri";}
+in callPackage fn {version="default";}

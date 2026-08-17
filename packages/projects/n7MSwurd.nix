@@ -131,6 +131,7 @@ let
         "forge-1.21.2" = _WM5aczQE;
         "forge-1.21.3" = _WM5aczQE;
         "forge-1.21.4" = _WM5aczQE;
+        "default" = _WM5aczQE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -151,4 +152,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WM5aczQE";}
+in callPackage fn {version="default";}

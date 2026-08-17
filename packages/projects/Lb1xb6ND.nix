@@ -88,6 +88,7 @@ let
         "GHFUAiMc" = _GHFUAiMc;
         "forge-1.20.1" = _ES1JnVlt;
         "neoforge-1.21.1" = _GHFUAiMc;
+        "default" = _GHFUAiMc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GHFUAiMc";}
+in callPackage fn {version="default";}

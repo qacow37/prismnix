@@ -15,6 +15,7 @@ let
         "hikvey5U" = _hikvey5U;
         "WYs8WkCm" = _WYs8WkCm;
         "minecraft-1.20.1" = _WYs8WkCm;
+        "default" = _WYs8WkCm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WYs8WkCm";}
+in callPackage fn {version="default";}

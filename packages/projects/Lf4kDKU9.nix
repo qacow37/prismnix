@@ -3254,6 +3254,7 @@ let
         "ornithe-26.3-snapshot-4" = _1z2i20rk;
         "ornithe-26.3-snapshot-5" = _1z2i20rk;
         "ornithe-26.3-snapshot-6" = _1z2i20rk;
+        "default" = _1z2i20rk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -3274,4 +3275,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1z2i20rk";}
+in callPackage fn {version="default";}

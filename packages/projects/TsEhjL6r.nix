@@ -153,6 +153,7 @@ let
         "neoforge-1.20.2" = _Ekre1nh1;
         "neoforge-1.20.3" = _Ekre1nh1;
         "neoforge-1.20.4" = _Ekre1nh1;
+        "default" = _Ujf7rLLK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -173,4 +174,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ujf7rLLK";}
+in callPackage fn {version="default";}

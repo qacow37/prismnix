@@ -15,6 +15,7 @@ let
         "DyjYP0Nl" = _DyjYP0Nl;
         "VpN3ij9G" = _VpN3ij9G;
         "fabric-1.21.1" = _VpN3ij9G;
+        "default" = _VpN3ij9G;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VpN3ij9G";}
+in callPackage fn {version="default";}

@@ -66,6 +66,7 @@ let
         "neoforge-1.20.1" = _3ERXLyv9;
         "neoforge-1.20.2" = _vgibl3t8;
         "neoforge-1.20.4" = _viyn2APc;
+        "default" = _viyn2APc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="viyn2APc";}
+in callPackage fn {version="default";}

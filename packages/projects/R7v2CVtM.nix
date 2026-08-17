@@ -226,6 +226,7 @@ let
         "pabcmOwc" = _pabcmOwc;
         "forge-1.20.1" = _pabcmOwc;
         "neoforge-1.20.1" = _pabcmOwc;
+        "default" = _pabcmOwc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -246,4 +247,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pabcmOwc";}
+in callPackage fn {version="default";}

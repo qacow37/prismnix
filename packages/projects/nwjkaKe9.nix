@@ -46,6 +46,7 @@ let
         "WLHeDJWI" = _WLHeDJWI;
         "forge-1.20.1" = _WLHeDJWI;
         "neoforge-1.20.1" = _WLHeDJWI;
+        "default" = _WLHeDJWI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WLHeDJWI";}
+in callPackage fn {version="default";}

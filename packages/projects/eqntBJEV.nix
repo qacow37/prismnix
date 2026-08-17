@@ -204,6 +204,7 @@ let
         "datapack-26.1" = _D9KDoIvd;
         "datapack-26.1.1" = _D9KDoIvd;
         "datapack-26.1.2" = _D9KDoIvd;
+        "default" = _GjcWs9sa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -224,4 +225,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GjcWs9sa";}
+in callPackage fn {version="default";}

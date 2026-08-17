@@ -23,6 +23,7 @@ let
         "forge-1.18" = _jBOCVNsa;
         "forge-1.18.1" = _jBOCVNsa;
         "forge-1.18.2" = _jBOCVNsa;
+        "default" = _jBOCVNsa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jBOCVNsa";}
+in callPackage fn {version="default";}

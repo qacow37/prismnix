@@ -86,6 +86,7 @@ let
         "neoforge-1.21.1" = _rtWM77bc;
         "forge-1.20" = _kGzbHdDG;
         "forge-1.20.1" = _kGzbHdDG;
+        "default" = _rtWM77bc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rtWM77bc";}
+in callPackage fn {version="default";}

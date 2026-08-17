@@ -137,6 +137,7 @@ let
         "forge-1.12" = _jZIkQLdu;
         "forge-1.12.1" = _jZIkQLdu;
         "forge-1.12.2" = _jZIkQLdu;
+        "default" = _jZIkQLdu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -157,4 +158,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jZIkQLdu";}
+in callPackage fn {version="default";}

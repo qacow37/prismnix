@@ -98,6 +98,7 @@ let
         "neoforge-1.21.9" = _m63RX7yG;
         "neoforge-1.21.10" = _m63RX7yG;
         "neoforge-1.21.11" = _GHPVAfm9;
+        "default" = _GHPVAfm9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -118,4 +119,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GHPVAfm9";}
+in callPackage fn {version="default";}

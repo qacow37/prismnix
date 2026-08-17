@@ -210,6 +210,7 @@ let
         "fabric-26.1" = _IPMBpCWP;
         "fabric-26.1.1" = _IPMBpCWP;
         "fabric-26.1.2" = _IPMBpCWP;
+        "default" = _IPMBpCWP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -230,4 +231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IPMBpCWP";}
+in callPackage fn {version="default";}

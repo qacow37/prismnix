@@ -124,6 +124,7 @@ let
         "forge-1.20.4" = _tHFzpIRk;
         "forge-1.20.5" = _tHFzpIRk;
         "forge-1.20.6" = _tHFzpIRk;
+        "default" = _tHFzpIRk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tHFzpIRk";}
+in callPackage fn {version="default";}

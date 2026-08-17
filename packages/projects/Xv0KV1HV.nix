@@ -45,6 +45,7 @@ let
         "minecraft-1.21.9" = _tigiJuDL;
         "minecraft-1.21.10" = _tigiJuDL;
         "minecraft-1.21.11" = _tigiJuDL;
+        "default" = _tigiJuDL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tigiJuDL";}
+in callPackage fn {version="default";}

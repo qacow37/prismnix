@@ -40,6 +40,7 @@ let
         "zCrvMyrx" = _zCrvMyrx;
         "forge-1.20.1" = _zCrvMyrx;
         "neoforge-1.21.1" = _czRtwl8q;
+        "default" = _zCrvMyrx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zCrvMyrx";}
+in callPackage fn {version="default";}

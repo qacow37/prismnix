@@ -244,6 +244,7 @@ let
         "LUQiuCin" = _LUQiuCin;
         "neoforge-1.21.1" = _VvSHjZXg;
         "fabric-1.21.1" = _LUQiuCin;
+        "default" = _LUQiuCin;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -264,4 +265,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LUQiuCin";}
+in callPackage fn {version="default";}

@@ -92,6 +92,7 @@ let
         "forge-1.21.11" = _PGSURc70;
         "neoforge-1.21.10" = _s2jWNCUr;
         "neoforge-1.21.11" = _RftE2V84;
+        "default" = _RftE2V84;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RftE2V84";}
+in callPackage fn {version="default";}

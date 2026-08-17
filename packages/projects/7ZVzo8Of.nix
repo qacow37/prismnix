@@ -15,6 +15,7 @@ let
         "TtsGioQe" = _TtsGioQe;
         "kmKuZY0U" = _kmKuZY0U;
         "forge-1.20.1" = _kmKuZY0U;
+        "default" = _kmKuZY0U;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kmKuZY0U";}
+in callPackage fn {version="default";}

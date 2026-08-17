@@ -72,6 +72,7 @@ let
         "minecraft-1.21.3" = _TEU3IYSC;
         "minecraft-1.21.4" = _TEU3IYSC;
         "minecraft-1.21.5" = _TEU3IYSC;
+        "default" = _TEU3IYSC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -92,4 +93,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TEU3IYSC";}
+in callPackage fn {version="default";}

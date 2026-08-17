@@ -78,6 +78,7 @@ let
         "minecraft-1.20" = _NNF86LR2;
         "minecraft-1.20.1" = _NNF86LR2;
         "minecraft-1.20.2" = _WBkfomw5;
+        "default" = _WBkfomw5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WBkfomw5";}
+in callPackage fn {version="default";}

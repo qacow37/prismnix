@@ -689,6 +689,7 @@ let
         "neoforge-1.20.4" = _g3YKAwl3;
         "neoforge-1.21" = _ttyOSGJ3;
         "neoforge-1.21.1" = _ttyOSGJ3;
+        "default" = _ttyOSGJ3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -709,4 +710,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ttyOSGJ3";}
+in callPackage fn {version="default";}

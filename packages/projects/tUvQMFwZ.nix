@@ -78,6 +78,7 @@ let
         "quilt-1.20.4" = _YT5JLAva;
         "quilt-1.20.5" = _YT5JLAva;
         "quilt-1.20.6" = _YT5JLAva;
+        "default" = _YT5JLAva;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YT5JLAva";}
+in callPackage fn {version="default";}

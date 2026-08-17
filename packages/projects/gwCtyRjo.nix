@@ -56,6 +56,7 @@ let
         "forge-1.20.4" = _bWevZSEt;
         "forge-1.20.5" = _bWevZSEt;
         "forge-1.20.6" = _bWevZSEt;
+        "default" = _bWevZSEt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -76,4 +77,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bWevZSEt";}
+in callPackage fn {version="default";}

@@ -41,6 +41,7 @@ let
         "neoforge-1.21.1" = _NTKPm1J1;
         "neoforge-1.21.10" = _7uDRxk1J;
         "neoforge-1.21.11" = _NG4QDgeo;
+        "default" = _NG4QDgeo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NG4QDgeo";}
+in callPackage fn {version="default";}

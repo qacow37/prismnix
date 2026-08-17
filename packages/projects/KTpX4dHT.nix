@@ -10,6 +10,7 @@ let
         "DfUnvBHC" = _DfUnvBHC;
         "minecraft-1.20.1" = _DfUnvBHC;
         "minecraft-1.21.1" = _DfUnvBHC;
+        "default" = _DfUnvBHC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DfUnvBHC";}
+in callPackage fn {version="default";}

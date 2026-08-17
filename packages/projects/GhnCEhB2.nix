@@ -14,6 +14,7 @@ let
         "minecraft-1.19.2" = _xiPAMIwa;
         "minecraft-1.19.3" = _xiPAMIwa;
         "minecraft-1.19.4" = _xiPAMIwa;
+        "default" = _xiPAMIwa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xiPAMIwa";}
+in callPackage fn {version="default";}

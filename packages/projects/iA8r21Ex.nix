@@ -35,6 +35,7 @@ let
         "minecraft-1.12" = _BUDCGxlB;
         "minecraft-1.12.1" = _BUDCGxlB;
         "minecraft-1.12.2" = _BUDCGxlB;
+        "default" = _BUDCGxlB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BUDCGxlB";}
+in callPackage fn {version="default";}

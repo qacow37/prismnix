@@ -120,6 +120,7 @@ let
         "purpur-1.21.9" = _MRc808GW;
         "purpur-1.21.10" = _MRc808GW;
         "purpur-1.21.11" = _MRc808GW;
+        "default" = _MRc808GW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MRc808GW";}
+in callPackage fn {version="default";}

@@ -219,6 +219,7 @@ let
         "ecpPHvKi" = _ecpPHvKi;
         "D1b0990Z" = _D1b0990Z;
         "forge-1.12.2" = _D1b0990Z;
+        "default" = _D1b0990Z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -239,4 +240,4 @@ let
                 };
             };
         };
-in callPackage fn {version="D1b0990Z";}
+in callPackage fn {version="default";}

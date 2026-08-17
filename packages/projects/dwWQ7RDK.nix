@@ -159,6 +159,7 @@ let
         "neoforge-1.21.9" = _cYRoRX4z;
         "neoforge-1.21.10" = _cYRoRX4z;
         "neoforge-1.21.11" = _cYRoRX4z;
+        "default" = _cYRoRX4z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -179,4 +180,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cYRoRX4z";}
+in callPackage fn {version="default";}

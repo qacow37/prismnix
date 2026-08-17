@@ -28,6 +28,7 @@ let
         "minecraft-1.20.2" = _SgEGYFl7;
         "minecraft-1.20.3" = _SgEGYFl7;
         "minecraft-1.20.4" = _SgEGYFl7;
+        "default" = _SgEGYFl7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SgEGYFl7";}
+in callPackage fn {version="default";}

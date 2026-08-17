@@ -124,6 +124,7 @@ let
         "mttr0NRt" = _mttr0NRt;
         "forge-1.19.2" = _5QDsqnar;
         "forge-1.20.1" = _mttr0NRt;
+        "default" = _mttr0NRt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mttr0NRt";}
+in callPackage fn {version="default";}

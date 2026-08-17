@@ -35,6 +35,7 @@ let
         "minecraft-1.21.3" = _Wu0LFTKe;
         "minecraft-1.21.4" = _Wu0LFTKe;
         "minecraft-1.21.5" = _Wu0LFTKe;
+        "default" = _Wu0LFTKe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Wu0LFTKe";}
+in callPackage fn {version="default";}

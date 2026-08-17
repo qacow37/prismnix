@@ -28,6 +28,7 @@ let
         "5TQxwOER" = _5TQxwOER;
         "forge-1.20.1" = _5TQxwOER;
         "neoforge-1.20.1" = _5TQxwOER;
+        "default" = _5TQxwOER;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="5TQxwOER";}
+in callPackage fn {version="default";}

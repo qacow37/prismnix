@@ -336,6 +336,7 @@ let
         "fabric-26.1.1" = _P1XtKZIq;
         "fabric-26.1.2" = _P1XtKZIq;
         "fabric-26.2" = _USEsyql8;
+        "default" = _USEsyql8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -356,4 +357,4 @@ let
                 };
             };
         };
-in callPackage fn {version="USEsyql8";}
+in callPackage fn {version="default";}

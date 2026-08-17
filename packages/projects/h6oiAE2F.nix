@@ -11,6 +11,7 @@ let
         "minecraft-1.19" = _BaxWId1i;
         "minecraft-1.19.1" = _BaxWId1i;
         "minecraft-1.19.2" = _BaxWId1i;
+        "default" = _BaxWId1i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31,4 +32,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BaxWId1i";}
+in callPackage fn {version="default";}

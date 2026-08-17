@@ -21,6 +21,7 @@ let
         "lIPyA6WK" = _lIPyA6WK;
         "HZ3MW8tG" = _HZ3MW8tG;
         "ornithe-1.8.9" = _HZ3MW8tG;
+        "default" = _HZ3MW8tG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HZ3MW8tG";}
+in callPackage fn {version="default";}

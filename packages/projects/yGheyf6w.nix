@@ -83,6 +83,7 @@ let
         "quilt-1.20" = _8iicHlpD;
         "quilt-1.20.1" = _8iicHlpD;
         "quilt-1.19.4" = _8iicHlpD;
+        "default" = _8iicHlpD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -103,4 +104,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8iicHlpD";}
+in callPackage fn {version="default";}

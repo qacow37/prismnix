@@ -15,6 +15,7 @@ let
         "sUzQyCvs" = _sUzQyCvs;
         "GgWR887R" = _GgWR887R;
         "neoforge-1.21.1" = _GgWR887R;
+        "default" = _GgWR887R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GgWR887R";}
+in callPackage fn {version="default";}

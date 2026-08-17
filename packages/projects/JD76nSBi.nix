@@ -93,6 +93,7 @@ let
         "OMEe0ZB6" = _OMEe0ZB6;
         "mYeRMCwk" = _mYeRMCwk;
         "minecraft-1.20.1" = _mYeRMCwk;
+        "default" = _mYeRMCwk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mYeRMCwk";}
+in callPackage fn {version="default";}

@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _XAPKGSBN;
         "spigot-1.21.10" = _XAPKGSBN;
         "spigot-1.21.11" = _XAPKGSBN;
+        "default" = _XAPKGSBN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XAPKGSBN";}
+in callPackage fn {version="default";}

@@ -113,6 +113,7 @@ let
         "babric-b1.7.3" = _OWPc554s;
         "fabric-b1.7.3" = _OWPc554s;
         "ornithe-b1.7.3" = _JkTIrrTV;
+        "default" = _JkTIrrTV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JkTIrrTV";}
+in callPackage fn {version="default";}

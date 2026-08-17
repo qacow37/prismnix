@@ -149,6 +149,7 @@ let
         "fabric-1.20.1" = _r5U453BP;
         "fabric-1.21.4" = _1PyWikiG;
         "fabric-1.20" = _r5U453BP;
+        "default" = _w6gH4hBE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w6gH4hBE";}
+in callPackage fn {version="default";}

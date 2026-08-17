@@ -42,6 +42,7 @@ let
         "minecraft-1.17.1" = _xGWC1tkX;
         "minecraft-1.18" = _xGWC1tkX;
         "minecraft-1.18.1" = _W88S32Al;
+        "default" = _W88S32Al;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="W88S32Al";}
+in callPackage fn {version="default";}

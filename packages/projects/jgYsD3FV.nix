@@ -252,6 +252,7 @@ let
         "iris-26.1.1" = _Oqq9SLMR;
         "iris-26.1.2" = _Oqq9SLMR;
         "iris-26.2" = _Oqq9SLMR;
+        "default" = _Oqq9SLMR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -272,4 +273,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Oqq9SLMR";}
+in callPackage fn {version="default";}

@@ -69,6 +69,7 @@ let
         "MEnzE555" = _MEnzE555;
         "8bLMPNUK" = _8bLMPNUK;
         "forge-1.20.1" = _8bLMPNUK;
+        "default" = _8bLMPNUK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8bLMPNUK";}
+in callPackage fn {version="default";}

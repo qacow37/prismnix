@@ -45,6 +45,7 @@ let
         "bsG4J9Dj" = _bsG4J9Dj;
         "sWhAueMC" = _sWhAueMC;
         "neoforge-1.21.1" = _sWhAueMC;
+        "default" = _sWhAueMC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sWhAueMC";}
+in callPackage fn {version="default";}

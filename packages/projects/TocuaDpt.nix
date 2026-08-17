@@ -93,6 +93,7 @@ let
         "jUTNpOw9" = _jUTNpOw9;
         "AztIoeo1" = _AztIoeo1;
         "neoforge-1.21.1" = _AztIoeo1;
+        "default" = _AztIoeo1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AztIoeo1";}
+in callPackage fn {version="default";}

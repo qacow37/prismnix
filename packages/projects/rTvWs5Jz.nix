@@ -52,6 +52,7 @@ let
         "Gwf4tCSK" = _Gwf4tCSK;
         "forge-1.20.1" = _Gwf4tCSK;
         "neoforge-1.20.1" = _Gwf4tCSK;
+        "default" = _Gwf4tCSK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Gwf4tCSK";}
+in callPackage fn {version="default";}

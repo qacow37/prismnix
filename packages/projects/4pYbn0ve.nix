@@ -269,6 +269,7 @@ let
         "datapack-1.21.2" = _P8OTr55K;
         "datapack-1.21.3" = _P8OTr55K;
         "datapack-1.21.4" = _UPY4ngX7;
+        "default" = _UPY4ngX7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -289,4 +290,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UPY4ngX7";}
+in callPackage fn {version="default";}

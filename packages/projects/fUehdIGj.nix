@@ -316,6 +316,7 @@ let
         "spigot-26.1.1" = _lwVvcIDI;
         "spigot-26.1.2" = _lwVvcIDI;
         "spigot-26.2" = _lwVvcIDI;
+        "default" = _lwVvcIDI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -336,4 +337,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lwVvcIDI";}
+in callPackage fn {version="default";}

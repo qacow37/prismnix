@@ -26,6 +26,7 @@ let
         "fabric-1.21.8" = _8HTTUbNS;
         "fabric-1.21.9" = _8HTTUbNS;
         "fabric-1.21.10" = _8HTTUbNS;
+        "default" = _8HTTUbNS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8HTTUbNS";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "u3w1BdTV" = _u3w1BdTV;
         "vjb0hAWB" = _vjb0hAWB;
         "neoforge-1.21.1" = _vjb0hAWB;
+        "default" = _vjb0hAWB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vjb0hAWB";}
+in callPackage fn {version="default";}

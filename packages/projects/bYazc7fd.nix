@@ -280,6 +280,7 @@ let
         "spigot-26.1.1" = _cAOIkpWF;
         "spigot-26.1.2" = _cAOIkpWF;
         "spigot-26.2" = _cAOIkpWF;
+        "default" = _cAOIkpWF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -300,4 +301,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cAOIkpWF";}
+in callPackage fn {version="default";}

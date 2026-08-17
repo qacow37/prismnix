@@ -487,6 +487,7 @@ let
         "neoforge-26.1" = _E52ALlLw;
         "neoforge-26.1.1" = _E52ALlLw;
         "neoforge-26.1.2" = _E52ALlLw;
+        "default" = _E52ALlLw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -507,4 +508,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E52ALlLw";}
+in callPackage fn {version="default";}

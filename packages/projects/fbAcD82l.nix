@@ -30,6 +30,7 @@ let
         "neoforge-1.20.1" = _sgN5C63G;
         "quilt-1.19.2" = _sgN5C63G;
         "quilt-1.20.1" = _sgN5C63G;
+        "default" = _sgN5C63G;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sgN5C63G";}
+in callPackage fn {version="default";}

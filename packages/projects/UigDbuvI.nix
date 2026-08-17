@@ -68,6 +68,7 @@ let
         "fabric-26.1" = _MenOL4NX;
         "fabric-26.1.1" = _MenOL4NX;
         "fabric-26.1.2" = _MenOL4NX;
+        "default" = _MenOL4NX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MenOL4NX";}
+in callPackage fn {version="default";}

@@ -226,6 +226,7 @@ let
         "btze5IVe" = _btze5IVe;
         "neoforge-1.21" = _hfcOs39b;
         "neoforge-1.21.1" = _btze5IVe;
+        "default" = _btze5IVe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -246,4 +247,4 @@ let
                 };
             };
         };
-in callPackage fn {version="btze5IVe";}
+in callPackage fn {version="default";}

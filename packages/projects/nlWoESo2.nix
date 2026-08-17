@@ -95,6 +95,7 @@ let
         "forge-1.19.2" = _uprus5SK;
         "forge-1.19" = _uprus5SK;
         "forge-1.19.1" = _uprus5SK;
+        "default" = _heNO81Im;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="heNO81Im";}
+in callPackage fn {version="default";}

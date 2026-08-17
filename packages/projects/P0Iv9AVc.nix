@@ -44,6 +44,7 @@ let
         "fabric-1.21.9" = _EUaixURT;
         "fabric-1.21.10" = _EUaixURT;
         "fabric-1.21.11" = _EUaixURT;
+        "default" = _32suzcf9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="32suzcf9";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "EndjUIUW" = _EndjUIUW;
         "forge-1.20.1" = _EndjUIUW;
         "neoforge-1.20.6" = _cUh40znZ;
+        "default" = _EndjUIUW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EndjUIUW";}
+in callPackage fn {version="default";}

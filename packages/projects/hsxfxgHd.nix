@@ -9,6 +9,7 @@ let
     in {
         "OAKmRkKO" = _OAKmRkKO;
         "fabric-1.21.1" = _OAKmRkKO;
+        "default" = _OAKmRkKO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OAKmRkKO";}
+in callPackage fn {version="default";}

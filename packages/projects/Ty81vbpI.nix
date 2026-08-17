@@ -50,6 +50,7 @@ let
         "fabric-1.20.4" = _uYDOYleD;
         "fabric-1.20.5" = _uYDOYleD;
         "fabric-1.20.6" = _uYDOYleD;
+        "default" = _uYDOYleD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uYDOYleD";}
+in callPackage fn {version="default";}

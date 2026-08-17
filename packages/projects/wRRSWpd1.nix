@@ -127,6 +127,7 @@ let
         "forge-1.19.3" = _mkHizPew;
         "neoforge-1.21.1" = _yhLQMaxS;
         "fabric-1.21.1" = _SmuyLaPd;
+        "default" = _yhLQMaxS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -147,4 +148,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yhLQMaxS";}
+in callPackage fn {version="default";}

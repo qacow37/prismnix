@@ -15,6 +15,7 @@ let
         "mIJCavks" = _mIJCavks;
         "QnP17WaQ" = _QnP17WaQ;
         "forge-1.20.1" = _QnP17WaQ;
+        "default" = _QnP17WaQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QnP17WaQ";}
+in callPackage fn {version="default";}

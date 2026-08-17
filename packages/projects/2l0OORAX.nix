@@ -88,6 +88,7 @@ let
         "zCW4RDIx" = _zCW4RDIx;
         "fabric-1.21.10" = _zCW4RDIx;
         "fabric-1.21.11" = _zCW4RDIx;
+        "default" = _zCW4RDIx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zCW4RDIx";}
+in callPackage fn {version="default";}

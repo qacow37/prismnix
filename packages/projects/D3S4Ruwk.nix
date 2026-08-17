@@ -37,6 +37,7 @@ let
         "minecraft-1.21.9" = _WHWpCRm1;
         "minecraft-1.21.10" = _WHWpCRm1;
         "minecraft-1.21.11" = _WHWpCRm1;
+        "default" = _WHWpCRm1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WHWpCRm1";}
+in callPackage fn {version="default";}

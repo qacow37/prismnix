@@ -63,6 +63,7 @@ let
         "UQ3WEjwv" = _UQ3WEjwv;
         "roHGIkU3" = _roHGIkU3;
         "legacy-fabric-1.6.4" = _roHGIkU3;
+        "default" = _roHGIkU3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="roHGIkU3";}
+in callPackage fn {version="default";}

@@ -31,6 +31,7 @@ let
         "forge-1.21.1" = _PBTdyKFW;
         "neoforge-1.21.1" = _PBTdyKFW;
         "quilt-1.21.1" = _PBTdyKFW;
+        "default" = _PBTdyKFW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PBTdyKFW";}
+in callPackage fn {version="default";}

@@ -196,6 +196,7 @@ let
         "CCIvAwgJ" = _CCIvAwgJ;
         "forge-1.20.1" = _heGoLyL0;
         "neoforge-1.21.1" = _CCIvAwgJ;
+        "default" = _CCIvAwgJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -216,4 +217,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CCIvAwgJ";}
+in callPackage fn {version="default";}

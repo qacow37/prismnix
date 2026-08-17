@@ -22,6 +22,7 @@ let
         "minecraft-1.12" = _CTR3graC;
         "minecraft-1.12.1" = _CTR3graC;
         "minecraft-1.12.2" = _CTR3graC;
+        "default" = _CTR3graC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CTR3graC";}
+in callPackage fn {version="default";}

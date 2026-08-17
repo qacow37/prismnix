@@ -706,6 +706,7 @@ let
         "QQO61rRS" = _QQO61rRS;
         "fabric-1.21.1" = _g5MKQfLZ;
         "neoforge-1.21.1" = _QQO61rRS;
+        "default" = _QQO61rRS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -726,4 +727,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QQO61rRS";}
+in callPackage fn {version="default";}

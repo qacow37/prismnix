@@ -55,6 +55,7 @@ let
         "fabric-1.20.3" = _hdiUlwW2;
         "fabric-1.20.4" = _hdiUlwW2;
         "neoforge-1.20.1" = _NJTxtTHs;
+        "default" = _NJTxtTHs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NJTxtTHs";}
+in callPackage fn {version="default";}

@@ -105,6 +105,7 @@ let
         "neoforge-1.21.1" = _MpabATyO;
         "neoforge-1.21.2" = _MpabATyO;
         "neoforge-1.21.3" = _MpabATyO;
+        "default" = _MpabATyO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MpabATyO";}
+in callPackage fn {version="default";}

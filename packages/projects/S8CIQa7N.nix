@@ -27,6 +27,7 @@ let
         "fabric-1.20.4" = _balOmlet;
         "fabric-1.21" = _vce9c6RL;
         "fabric-1.21.1" = _vce9c6RL;
+        "default" = _vce9c6RL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vce9c6RL";}
+in callPackage fn {version="default";}

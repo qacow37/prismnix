@@ -63,6 +63,7 @@ let
         "DAbuepJX" = _DAbuepJX;
         "VUs2loSx" = _VUs2loSx;
         "fabric-1.20.1" = _VUs2loSx;
+        "default" = _VUs2loSx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VUs2loSx";}
+in callPackage fn {version="default";}

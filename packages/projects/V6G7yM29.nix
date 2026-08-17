@@ -107,6 +107,7 @@ let
         "neoforge-1.20.6" = _4HfGa45L;
         "neoforge-1.21" = _4HfGa45L;
         "neoforge-1.21.1" = _4HfGa45L;
+        "default" = _4HfGa45L;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -127,4 +128,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4HfGa45L";}
+in callPackage fn {version="default";}

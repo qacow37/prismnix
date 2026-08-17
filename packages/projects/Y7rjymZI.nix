@@ -63,6 +63,7 @@ let
         "56BRmd10" = _56BRmd10;
         "BA31WBLc" = _BA31WBLc;
         "fabric-1.21" = _BA31WBLc;
+        "default" = _BA31WBLc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BA31WBLc";}
+in callPackage fn {version="default";}

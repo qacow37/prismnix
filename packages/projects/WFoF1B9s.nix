@@ -34,6 +34,7 @@ let
         "kOC36IGy" = _kOC36IGy;
         "fabric-1.21.1" = _kOC36IGy;
         "fabric-1.20.1" = _ygR7qJsD;
+        "default" = _kOC36IGy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kOC36IGy";}
+in callPackage fn {version="default";}

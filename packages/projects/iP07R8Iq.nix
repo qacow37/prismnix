@@ -38,6 +38,7 @@ let
         "paper-26.1.1" = _f2c0Wxq4;
         "paper-26.1.2" = _f2c0Wxq4;
         "paper-26.2" = _AqloFMG7;
+        "default" = _AqloFMG7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AqloFMG7";}
+in callPackage fn {version="default";}

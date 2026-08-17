@@ -14,6 +14,7 @@ let
         "minecraft-1.19.4" = _xv8msspd;
         "minecraft-1.20.1" = _xv8msspd;
         "minecraft-1.20.4" = _xv8msspd;
+        "default" = _xv8msspd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xv8msspd";}
+in callPackage fn {version="default";}

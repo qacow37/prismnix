@@ -802,6 +802,7 @@ let
         "folia-26.3-snapshot-4" = _KuHenSmV;
         "folia-26.3-snapshot-5" = _KuHenSmV;
         "folia-26.3-snapshot-6" = _KuHenSmV;
+        "default" = _KuHenSmV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -822,4 +823,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KuHenSmV";}
+in callPackage fn {version="default";}

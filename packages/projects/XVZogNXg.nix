@@ -63,6 +63,7 @@ let
         "dvb3tVEM" = _dvb3tVEM;
         "LUifDxcS" = _LUifDxcS;
         "neoforge-1.21.1" = _LUifDxcS;
+        "default" = _LUifDxcS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LUifDxcS";}
+in callPackage fn {version="default";}

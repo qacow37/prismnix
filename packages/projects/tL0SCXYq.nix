@@ -557,6 +557,7 @@ let
         "bukkit-1.20" = _ilVUXbu1;
         "bukkit-1.20.1" = _ilVUXbu1;
         "bukkit-1.20.2" = _ilVUXbu1;
+        "default" = _reFUiAdB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -577,4 +578,4 @@ let
                 };
             };
         };
-in callPackage fn {version="reFUiAdB";}
+in callPackage fn {version="default";}

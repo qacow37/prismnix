@@ -16,6 +16,7 @@ let
         "SyJRU75W" = _SyJRU75W;
         "minecraft-1.20.1" = _SyJRU75W;
         "minecraft-1.21.1" = _SyJRU75W;
+        "default" = _SyJRU75W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SyJRU75W";}
+in callPackage fn {version="default";}

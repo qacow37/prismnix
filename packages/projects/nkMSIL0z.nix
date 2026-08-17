@@ -39,6 +39,7 @@ let
         "BJFylaCD" = _BJFylaCD;
         "H7naCmM4" = _H7naCmM4;
         "forge-1.20.1" = _H7naCmM4;
+        "default" = _H7naCmM4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="H7naCmM4";}
+in callPackage fn {version="default";}

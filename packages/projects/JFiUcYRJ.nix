@@ -46,6 +46,7 @@ let
         "ByuReGv9" = _ByuReGv9;
         "fabric-1.21.1" = _ByuReGv9;
         "neoforge-1.21.1" = _NgBI7MG7;
+        "default" = _ByuReGv9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ByuReGv9";}
+in callPackage fn {version="default";}

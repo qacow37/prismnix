@@ -39,6 +39,7 @@ let
         "YkkpCQEL" = _YkkpCQEL;
         "Tf5FqGoQ" = _Tf5FqGoQ;
         "fabric-1.21" = _Tf5FqGoQ;
+        "default" = _Tf5FqGoQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tf5FqGoQ";}
+in callPackage fn {version="default";}

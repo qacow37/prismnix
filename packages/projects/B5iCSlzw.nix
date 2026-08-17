@@ -15,6 +15,7 @@ let
         "AEFpGDci" = _AEFpGDci;
         "Ct5mQNCS" = _Ct5mQNCS;
         "forge-1.20.1" = _Ct5mQNCS;
+        "default" = _Ct5mQNCS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ct5mQNCS";}
+in callPackage fn {version="default";}

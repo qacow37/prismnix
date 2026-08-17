@@ -32,6 +32,7 @@ let
         "neoforge-1.21.9" = _fPEupWV7;
         "neoforge-1.21.10" = _fPEupWV7;
         "neoforge-1.21.11" = _fPEupWV7;
+        "default" = _fPEupWV7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fPEupWV7";}
+in callPackage fn {version="default";}

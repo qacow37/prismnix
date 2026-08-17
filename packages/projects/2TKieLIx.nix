@@ -83,6 +83,7 @@ let
         "minecraft-1.21.4" = _pfWAtDHz;
         "minecraft-1.21.5" = _pfWAtDHz;
         "minecraft-26.2" = _C59ea1Uk;
+        "default" = _pfWAtDHz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -103,4 +104,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pfWAtDHz";}
+in callPackage fn {version="default";}

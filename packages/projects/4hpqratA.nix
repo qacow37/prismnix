@@ -78,6 +78,7 @@ let
         "quilt-1.21.9" = _iqSP5lsa;
         "quilt-1.21.10" = _iqSP5lsa;
         "quilt-1.21.11" = _iqSP5lsa;
+        "default" = _iqSP5lsa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iqSP5lsa";}
+in callPackage fn {version="default";}

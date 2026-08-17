@@ -191,6 +191,7 @@ let
         "quilt-1.21.6" = _TXsou15A;
         "quilt-1.21.7" = _TXsou15A;
         "quilt-1.21.8" = _TXsou15A;
+        "default" = _TXsou15A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -211,4 +212,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TXsou15A";}
+in callPackage fn {version="default";}

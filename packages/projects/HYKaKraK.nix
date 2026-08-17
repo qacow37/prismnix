@@ -1331,6 +1331,7 @@ let
         "sponge-26.1.1" = _UNchilgA;
         "sponge-26.1.2" = _UNchilgA;
         "sponge-26.2" = _UNchilgA;
+        "default" = _cxiKbD4K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1351,4 +1352,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cxiKbD4K";}
+in callPackage fn {version="default";}

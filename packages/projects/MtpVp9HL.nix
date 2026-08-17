@@ -129,6 +129,7 @@ let
         "oPNxX8DG" = _oPNxX8DG;
         "rEgdPvO2" = _rEgdPvO2;
         "neoforge-1.21.1" = _rEgdPvO2;
+        "default" = _rEgdPvO2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rEgdPvO2";}
+in callPackage fn {version="default";}

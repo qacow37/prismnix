@@ -16,6 +16,7 @@ let
         "HOkmTLWL" = _HOkmTLWL;
         "forge-1.16.5" = _DLrpX7AJ;
         "forge-1.19.2" = _HOkmTLWL;
+        "default" = _HOkmTLWL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HOkmTLWL";}
+in callPackage fn {version="default";}

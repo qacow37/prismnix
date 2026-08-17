@@ -124,6 +124,7 @@ let
         "tcODls0M" = _tcODls0M;
         "neoforge-1.21.1" = _tcODls0M;
         "fabric-1.21.1" = _xRD8x95d;
+        "default" = _tcODls0M;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tcODls0M";}
+in callPackage fn {version="default";}

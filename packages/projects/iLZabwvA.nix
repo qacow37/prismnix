@@ -144,6 +144,7 @@ let
         "fabric-26.1.1" = _wpQuyZiO;
         "fabric-26.1.2" = _wpQuyZiO;
         "fabric-26.2" = _wpQuyZiO;
+        "default" = _wpQuyZiO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -164,4 +165,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wpQuyZiO";}
+in callPackage fn {version="default";}

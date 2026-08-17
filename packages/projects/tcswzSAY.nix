@@ -172,6 +172,7 @@ let
         "quilt-1.21.9" = _KPCsi8HY;
         "quilt-1.21.10" = _KPCsi8HY;
         "quilt-1.21.11" = _ACCD4MP4;
+        "default" = _ACCD4MP4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ACCD4MP4";}
+in callPackage fn {version="default";}

@@ -106,6 +106,7 @@ let
         "zGO2US9n" = _zGO2US9n;
         "neoforge-1.21.1" = _tmrWWnFf;
         "forge-1.20.1" = _zGO2US9n;
+        "default" = _zGO2US9n;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zGO2US9n";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "ca0lancJ" = _ca0lancJ;
         "fabric-1.20.1" = _myYF2oDb;
         "neoforge-1.21.1" = _ca0lancJ;
+        "default" = _ca0lancJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ca0lancJ";}
+in callPackage fn {version="default";}

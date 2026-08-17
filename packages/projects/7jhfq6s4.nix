@@ -52,6 +52,7 @@ let
         "FIPF4aFu" = _FIPF4aFu;
         "forge-1.20.1" = _BzQn521F;
         "neoforge-1.21.1" = _FIPF4aFu;
+        "default" = _FIPF4aFu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FIPF4aFu";}
+in callPackage fn {version="default";}

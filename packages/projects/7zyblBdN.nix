@@ -47,6 +47,7 @@ let
         "minecraft-1.18" = _tBoKsOxs;
         "minecraft-1.18.1" = _tBoKsOxs;
         "minecraft-1.18.2" = _tBoKsOxs;
+        "default" = _tBoKsOxs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -67,4 +68,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tBoKsOxs";}
+in callPackage fn {version="default";}

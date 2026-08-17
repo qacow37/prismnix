@@ -74,6 +74,7 @@ let
         "quilt-1.21.9" = _Ug79mAua;
         "quilt-1.21.10" = _Ug79mAua;
         "quilt-1.21.11" = _Ug79mAua;
+        "default" = _Ug79mAua;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ug79mAua";}
+in callPackage fn {version="default";}

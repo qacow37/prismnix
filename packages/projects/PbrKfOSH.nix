@@ -77,6 +77,7 @@ let
         "minecraft-1.21.6" = _LaRBCmRN;
         "minecraft-1.21.7" = _LaRBCmRN;
         "minecraft-1.21.11" = _LaRBCmRN;
+        "default" = _LaRBCmRN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -97,4 +98,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LaRBCmRN";}
+in callPackage fn {version="default";}

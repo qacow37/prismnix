@@ -58,6 +58,7 @@ let
         "paper-1.21.6" = _xixwMmp3;
         "paper-1.21.7" = _xixwMmp3;
         "paper-1.21.8" = _xixwMmp3;
+        "default" = _xixwMmp3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xixwMmp3";}
+in callPackage fn {version="default";}

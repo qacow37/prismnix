@@ -34,6 +34,7 @@ let
         "nrf2YS8C" = _nrf2YS8C;
         "forge-1.20.1" = _nrf2YS8C;
         "forge-1.19.2" = _WQAeLgJn;
+        "default" = _nrf2YS8C;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nrf2YS8C";}
+in callPackage fn {version="default";}

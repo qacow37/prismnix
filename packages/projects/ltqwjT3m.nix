@@ -44,6 +44,7 @@ let
         "minecraft-1.21.3" = _EDgx2FNp;
         "minecraft-1.20" = _EDgx2FNp;
         "minecraft-1.21.4" = _EDgx2FNp;
+        "default" = _EDgx2FNp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EDgx2FNp";}
+in callPackage fn {version="default";}

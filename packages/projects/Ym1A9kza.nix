@@ -46,6 +46,7 @@ let
         "tOsip2Cz" = _tOsip2Cz;
         "neoforge-1.21" = _tOsip2Cz;
         "neoforge-1.21.1" = _tOsip2Cz;
+        "default" = _tOsip2Cz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tOsip2Cz";}
+in callPackage fn {version="default";}

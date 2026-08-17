@@ -113,6 +113,7 @@ let
         "folia-26.2" = _rxMXkmFX;
         "purpur-26.1.2" = _9VDohmU8;
         "purpur-26.2" = _rxMXkmFX;
+        "default" = _rxMXkmFX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rxMXkmFX";}
+in callPackage fn {version="default";}

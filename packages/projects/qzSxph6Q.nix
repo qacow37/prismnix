@@ -32,6 +32,7 @@ let
         "datapack-1.21" = _ktypafqy;
         "datapack-1.21.1" = _ktypafqy;
         "fabric-1.20.1" = _Zis72zK2;
+        "default" = _Zis72zK2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Zis72zK2";}
+in callPackage fn {version="default";}

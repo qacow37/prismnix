@@ -106,6 +106,7 @@ let
         "23ATVOcX" = _23ATVOcX;
         "forge-1.20.1" = _23ATVOcX;
         "forge-1.20.2" = _23ATVOcX;
+        "default" = _23ATVOcX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="23ATVOcX";}
+in callPackage fn {version="default";}

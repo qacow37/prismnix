@@ -46,6 +46,7 @@ let
         "s6kkXopc" = _s6kkXopc;
         "fabric-1.21.1" = _zzm4XWFH;
         "fabric-1.21.8" = _s6kkXopc;
+        "default" = _s6kkXopc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="s6kkXopc";}
+in callPackage fn {version="default";}

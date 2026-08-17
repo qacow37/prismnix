@@ -15,6 +15,7 @@ let
         "O3725yVi" = _O3725yVi;
         "2VcEPtLz" = _2VcEPtLz;
         "forge-1.20.1" = _2VcEPtLz;
+        "default" = _2VcEPtLz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2VcEPtLz";}
+in callPackage fn {version="default";}

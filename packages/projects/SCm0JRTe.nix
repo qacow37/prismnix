@@ -40,6 +40,7 @@ let
         "NQ8VZEDr" = _NQ8VZEDr;
         "neoforge-1.21.1" = _mWOdmtGl;
         "fabric-1.21.1" = _NQ8VZEDr;
+        "default" = _NQ8VZEDr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NQ8VZEDr";}
+in callPackage fn {version="default";}

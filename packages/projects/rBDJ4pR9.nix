@@ -33,6 +33,7 @@ let
         "IxKkhqMU" = _IxKkhqMU;
         "NLLuQaa7" = _NLLuQaa7;
         "fabric-1.18.2" = _NLLuQaa7;
+        "default" = _NLLuQaa7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NLLuQaa7";}
+in callPackage fn {version="default";}

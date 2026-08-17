@@ -29,6 +29,7 @@ let
         "forge-1.19.4" = _lWFkxjsX;
         "forge-1.20" = _lWFkxjsX;
         "forge-1.20.1" = _lWFkxjsX;
+        "default" = _lWFkxjsX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lWFkxjsX";}
+in callPackage fn {version="default";}

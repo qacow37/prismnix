@@ -40,6 +40,7 @@ let
         "rgN5Bpzv" = _rgN5Bpzv;
         "fabric-1.20.1" = _rgN5Bpzv;
         "forge-1.20.1" = _DXxmmAQj;
+        "default" = _rgN5Bpzv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rgN5Bpzv";}
+in callPackage fn {version="default";}

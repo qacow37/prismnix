@@ -195,6 +195,7 @@ let
         "minecraft-1.10" = _dKCulTaq;
         "minecraft-1.10.1" = _dKCulTaq;
         "minecraft-1.10.2" = _dKCulTaq;
+        "default" = _dKCulTaq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -215,4 +216,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dKCulTaq";}
+in callPackage fn {version="default";}

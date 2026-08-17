@@ -141,6 +141,7 @@ let
         "khohGfKw" = _khohGfKw;
         "7hdXsief" = _7hdXsief;
         "forge-1.20.1" = _7hdXsief;
+        "default" = _7hdXsief;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7hdXsief";}
+in callPackage fn {version="default";}

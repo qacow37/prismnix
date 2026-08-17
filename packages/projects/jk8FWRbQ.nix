@@ -16,6 +16,7 @@ let
         "HKmWiIbo" = _HKmWiIbo;
         "minecraft-1.21" = _5VQNLGvD;
         "minecraft-1.21.5" = _HKmWiIbo;
+        "default" = _HKmWiIbo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HKmWiIbo";}
+in callPackage fn {version="default";}

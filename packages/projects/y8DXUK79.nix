@@ -68,6 +68,7 @@ let
         "spigot-26.1" = _EaMYfed7;
         "spigot-26.1.1" = _EaMYfed7;
         "spigot-26.1.2" = _EaMYfed7;
+        "default" = _EaMYfed7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EaMYfed7";}
+in callPackage fn {version="default";}

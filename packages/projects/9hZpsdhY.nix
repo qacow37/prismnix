@@ -51,6 +51,7 @@ let
         "iAv2vniC" = _iAv2vniC;
         "eMMiSgMv" = _eMMiSgMv;
         "forge-1.20.1" = _eMMiSgMv;
+        "default" = _eMMiSgMv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eMMiSgMv";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "213IPd8u" = _213IPd8u;
         "fabric-1.20.1" = _213IPd8u;
         "fabric-1.20.2" = _T5cynego;
+        "default" = _213IPd8u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="213IPd8u";}
+in callPackage fn {version="default";}

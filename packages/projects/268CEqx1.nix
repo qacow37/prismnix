@@ -52,6 +52,7 @@ let
         "datapack-1.21.3" = _xRWryTZX;
         "datapack-1.21.4" = _xRWryTZX;
         "datapack-1.21.5" = _xRWryTZX;
+        "default" = _Yt5O2grv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Yt5O2grv";}
+in callPackage fn {version="default";}

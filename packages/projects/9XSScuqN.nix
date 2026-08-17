@@ -94,6 +94,7 @@ let
         "WKpvmN3Q" = _WKpvmN3Q;
         "babric-b1.7.3" = _WKpvmN3Q;
         "fabric-b1.7.3" = _WKpvmN3Q;
+        "default" = _WKpvmN3Q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WKpvmN3Q";}
+in callPackage fn {version="default";}

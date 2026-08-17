@@ -93,6 +93,7 @@ let
         "8VlVxHh4" = _8VlVxHh4;
         "YSlFPpAx" = _YSlFPpAx;
         "forge-1.20.1" = _YSlFPpAx;
+        "default" = _YSlFPpAx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YSlFPpAx";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "UD92jsos" = _UD92jsos;
         "paper-1.19.1" = _UD92jsos;
         "paper-1.19.2" = _UD92jsos;
+        "default" = _UD92jsos;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UD92jsos";}
+in callPackage fn {version="default";}

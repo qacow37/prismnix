@@ -33,6 +33,7 @@ let
         "WByzo2p4" = _WByzo2p4;
         "hQvTTvlL" = _hQvTTvlL;
         "fabric-1.20.1" = _hQvTTvlL;
+        "default" = _hQvTTvlL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hQvTTvlL";}
+in callPackage fn {version="default";}

@@ -51,6 +51,7 @@ let
         "HQZpCBIs" = _HQZpCBIs;
         "z5MpWBw2" = _z5MpWBw2;
         "forge-1.20.1" = _z5MpWBw2;
+        "default" = _z5MpWBw2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="z5MpWBw2";}
+in callPackage fn {version="default";}

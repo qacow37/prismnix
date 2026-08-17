@@ -39,6 +39,7 @@ let
         "quilt-1.21.2" = _l4QdmlVX;
         "quilt-1.21.3" = _l4QdmlVX;
         "quilt-1.21.4" = _l4QdmlVX;
+        "default" = _l4QdmlVX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l4QdmlVX";}
+in callPackage fn {version="default";}

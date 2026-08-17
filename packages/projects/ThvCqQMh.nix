@@ -75,6 +75,7 @@ let
         "neoforge-26.2" = _IEW4bAms;
         "forge-1.20" = _imdueWC9;
         "forge-1.20.1" = _imdueWC9;
+        "default" = _IEW4bAms;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IEW4bAms";}
+in callPackage fn {version="default";}

@@ -63,6 +63,7 @@ let
         "dw8trcln" = _dw8trcln;
         "nlu4V0w0" = _nlu4V0w0;
         "forge-1.8.9" = _nlu4V0w0;
+        "default" = _nlu4V0w0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nlu4V0w0";}
+in callPackage fn {version="default";}

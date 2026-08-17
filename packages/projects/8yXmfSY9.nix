@@ -53,6 +53,7 @@ let
         "canvas-1.20" = _WUWhnU1g;
         "canvas-1.20.1" = _WUWhnU1g;
         "canvas-1.20.2" = _KZHxcIvR;
+        "default" = _KZHxcIvR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KZHxcIvR";}
+in callPackage fn {version="default";}

@@ -76,6 +76,7 @@ let
         "BdAcgaP9" = _BdAcgaP9;
         "forge-1.19.2" = _SABDwpAr;
         "forge-1.20.1" = _BdAcgaP9;
+        "default" = _BdAcgaP9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BdAcgaP9";}
+in callPackage fn {version="default";}

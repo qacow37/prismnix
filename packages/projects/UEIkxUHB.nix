@@ -21,6 +21,7 @@ let
         "iris-1.21.2" = _ULET5Ak1;
         "iris-1.21.3" = _ULET5Ak1;
         "iris-1.21.4" = _ULET5Ak1;
+        "default" = _ULET5Ak1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ULET5Ak1";}
+in callPackage fn {version="default";}

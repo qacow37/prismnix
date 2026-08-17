@@ -357,6 +357,7 @@ let
         "datapack-26.1.1" = _xIayvf8F;
         "datapack-26.1.2" = _xIayvf8F;
         "datapack-26.2" = _xIayvf8F;
+        "default" = _agiByWs3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -377,4 +378,4 @@ let
                 };
             };
         };
-in callPackage fn {version="agiByWs3";}
+in callPackage fn {version="default";}

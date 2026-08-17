@@ -38,6 +38,7 @@ let
         "fabric-1.21.9" = _hOMi21GS;
         "fabric-1.21.10" = _hOMi21GS;
         "fabric-1.21.11" = _hOMi21GS;
+        "default" = _hOMi21GS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hOMi21GS";}
+in callPackage fn {version="default";}

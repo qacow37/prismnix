@@ -87,6 +87,7 @@ let
         "X8yp2pAl" = _X8yp2pAl;
         "cRx6XZaN" = _cRx6XZaN;
         "forge-1.7.10" = _cRx6XZaN;
+        "default" = _cRx6XZaN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cRx6XZaN";}
+in callPackage fn {version="default";}

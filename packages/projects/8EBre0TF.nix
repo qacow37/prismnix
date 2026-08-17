@@ -52,6 +52,7 @@ let
         "minecraft-1.21.2" = _NrkLDDoq;
         "minecraft-1.21.3" = _NrkLDDoq;
         "minecraft-1.21.4" = _NrkLDDoq;
+        "default" = _NrkLDDoq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NrkLDDoq";}
+in callPackage fn {version="default";}

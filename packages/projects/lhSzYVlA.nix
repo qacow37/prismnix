@@ -28,6 +28,7 @@ let
         "eN7VlONr" = _eN7VlONr;
         "minecraft-1.21.1" = _eN7VlONr;
         "minecraft-1.21" = _N26V3ZAr;
+        "default" = _eN7VlONr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eN7VlONr";}
+in callPackage fn {version="default";}

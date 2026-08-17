@@ -69,6 +69,7 @@ let
         "GTH1MVX0" = _GTH1MVX0;
         "CMCAY9JX" = _CMCAY9JX;
         "forge-1.20.1" = _CMCAY9JX;
+        "default" = _CMCAY9JX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CMCAY9JX";}
+in callPackage fn {version="default";}

@@ -45,6 +45,7 @@ let
         "ieiklotC" = _ieiklotC;
         "vArUb1XR" = _vArUb1XR;
         "forge-1.20.1" = _vArUb1XR;
+        "default" = _vArUb1XR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vArUb1XR";}
+in callPackage fn {version="default";}

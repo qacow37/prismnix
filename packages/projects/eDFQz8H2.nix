@@ -60,6 +60,7 @@ let
         "minecraft-1.21.8" = _hi2t8Kby;
         "minecraft-1.21.9" = _hi2t8Kby;
         "minecraft-1.21.10" = _hi2t8Kby;
+        "default" = _hi2t8Kby;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hi2t8Kby";}
+in callPackage fn {version="default";}

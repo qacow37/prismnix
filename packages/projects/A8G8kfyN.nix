@@ -34,6 +34,7 @@ let
         "minecraft-1.21.6" = _3WAiaLWF;
         "minecraft-1.21.7" = _3WAiaLWF;
         "minecraft-1.21.8" = _3WAiaLWF;
+        "default" = _3WAiaLWF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3WAiaLWF";}
+in callPackage fn {version="default";}

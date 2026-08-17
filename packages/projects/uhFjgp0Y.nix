@@ -105,6 +105,7 @@ let
         "UHhdVRmX" = _UHhdVRmX;
         "VKFWyuIi" = _VKFWyuIi;
         "modloader-inf-20100618" = _VKFWyuIi;
+        "default" = _VKFWyuIi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VKFWyuIi";}
+in callPackage fn {version="default";}

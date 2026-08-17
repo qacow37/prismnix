@@ -64,6 +64,7 @@ let
         "fabric-1.20.6" = _mvCG0n2o;
         "fabric-1.21" = _zkBSkSsd;
         "quilt-1.20.1" = _JAz4IDNB;
+        "default" = _zkBSkSsd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zkBSkSsd";}
+in callPackage fn {version="default";}

@@ -52,6 +52,7 @@ let
         "datapack-1.20" = _N1yvfvxU;
         "neoforge-1.20.1" = _awWfCMTA;
         "neoforge-1.21.1" = _awWfCMTA;
+        "default" = _awWfCMTA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="awWfCMTA";}
+in callPackage fn {version="default";}

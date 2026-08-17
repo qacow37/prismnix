@@ -9,6 +9,7 @@ let
     in {
         "2gPpyKEQ" = _2gPpyKEQ;
         "minecraft-1.21.11" = _2gPpyKEQ;
+        "default" = _2gPpyKEQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2gPpyKEQ";}
+in callPackage fn {version="default";}

@@ -118,6 +118,7 @@ let
         "SyTIf1MB" = _SyTIf1MB;
         "forge-1.20.1" = _ldIGADTI;
         "neoforge-1.21.1" = _SyTIf1MB;
+        "default" = _SyTIf1MB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -138,4 +139,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SyTIf1MB";}
+in callPackage fn {version="default";}

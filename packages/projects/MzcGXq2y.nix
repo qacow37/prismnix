@@ -10,6 +10,7 @@ let
         "R24JN3LP" = _R24JN3LP;
         "forge-1.20.1" = _R24JN3LP;
         "neoforge-1.20.1" = _R24JN3LP;
+        "default" = _R24JN3LP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R24JN3LP";}
+in callPackage fn {version="default";}

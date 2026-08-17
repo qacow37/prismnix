@@ -40,6 +40,7 @@ let
         "CTs63gMe" = _CTs63gMe;
         "forge-1.19.2" = _KPLy7PTb;
         "neoforge-1.21.1" = _CTs63gMe;
+        "default" = _CTs63gMe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CTs63gMe";}
+in callPackage fn {version="default";}

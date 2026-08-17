@@ -109,6 +109,7 @@ let
         "paper-26.1" = _vA1JLqQt;
         "paper-26.1.1" = _vA1JLqQt;
         "paper-26.1.2" = _vA1JLqQt;
+        "default" = _vA1JLqQt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -129,4 +130,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vA1JLqQt";}
+in callPackage fn {version="default";}

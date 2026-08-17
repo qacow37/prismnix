@@ -106,6 +106,7 @@ let
         "neoforge-1.21.8" = _iTPemriP;
         "neoforge-1.21.9" = _iTPemriP;
         "neoforge-1.21.10" = _iTPemriP;
+        "default" = _iTPemriP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iTPemriP";}
+in callPackage fn {version="default";}

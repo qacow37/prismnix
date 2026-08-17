@@ -16,6 +16,7 @@ let
         "Xg23smfS" = _Xg23smfS;
         "datapack-1.20.1" = _tz84I7pK;
         "fabric-1.20.1" = _Xg23smfS;
+        "default" = _Xg23smfS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xg23smfS";}
+in callPackage fn {version="default";}

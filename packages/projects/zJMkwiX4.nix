@@ -95,6 +95,7 @@ let
         "quilt-1.20.5" = _Kdgt17QE;
         "quilt-1.20.6" = _Kdgt17QE;
         "quilt-1.21" = _Kdgt17QE;
+        "default" = _PkFDPINU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PkFDPINU";}
+in callPackage fn {version="default";}

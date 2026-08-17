@@ -69,6 +69,7 @@ let
         "bl54WHKh" = _bl54WHKh;
         "yPDR1iNe" = _yPDR1iNe;
         "forge-1.20.1" = _yPDR1iNe;
+        "default" = _yPDR1iNe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yPDR1iNe";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "CbOyvamq" = _CbOyvamq;
         "dLlg6vla" = _dLlg6vla;
         "fabric-1.21.1" = _dLlg6vla;
+        "default" = _dLlg6vla;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dLlg6vla";}
+in callPackage fn {version="default";}

@@ -177,6 +177,7 @@ let
         "TUmsf1jw" = _TUmsf1jw;
         "DSPc3aYe" = _DSPc3aYe;
         "fabric-1.20.1" = _DSPc3aYe;
+        "default" = _DSPc3aYe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -197,4 +198,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DSPc3aYe";}
+in callPackage fn {version="default";}

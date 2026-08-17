@@ -101,6 +101,7 @@ let
         "quilt-26.1.1" = _XMLGUpNF;
         "quilt-26.1.2" = _XMLGUpNF;
         "quilt-26.2" = _JHLUnbyy;
+        "default" = _fXSDicz3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -121,4 +122,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fXSDicz3";}
+in callPackage fn {version="default";}

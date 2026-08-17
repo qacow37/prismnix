@@ -136,6 +136,7 @@ let
         "TUk09Fgz" = _TUk09Fgz;
         "forge-1.20.1" = _qFsGpG9l;
         "neoforge-1.21.1" = _TUk09Fgz;
+        "default" = _TUk09Fgz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TUk09Fgz";}
+in callPackage fn {version="default";}

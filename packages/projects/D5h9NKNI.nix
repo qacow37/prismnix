@@ -186,6 +186,7 @@ let
         "quilt-1.21.2" = _FUjD5p59;
         "quilt-1.21.3" = _FUjD5p59;
         "quilt-1.21.4" = _Q986CZXM;
+        "default" = _Q986CZXM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -206,4 +207,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Q986CZXM";}
+in callPackage fn {version="default";}

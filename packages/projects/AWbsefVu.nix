@@ -18,6 +18,7 @@ let
         "fabric-1.20.2" = _AxX55leQ;
         "quilt-1.20.1" = _AxX55leQ;
         "quilt-1.20.2" = _AxX55leQ;
+        "default" = _AxX55leQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AxX55leQ";}
+in callPackage fn {version="default";}

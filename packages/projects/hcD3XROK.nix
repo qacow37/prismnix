@@ -57,6 +57,7 @@ let
         "nQov2Lbl" = _nQov2Lbl;
         "2YDhnJMg" = _2YDhnJMg;
         "forge-1.12.2" = _2YDhnJMg;
+        "default" = _2YDhnJMg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2YDhnJMg";}
+in callPackage fn {version="default";}

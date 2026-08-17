@@ -12,6 +12,7 @@ let
         "minecraft-1.18.1" = _TACONXx0;
         "minecraft-1.18.2" = _TACONXx0;
         "minecraft-1.19.2" = _TACONXx0;
+        "default" = _TACONXx0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TACONXx0";}
+in callPackage fn {version="default";}

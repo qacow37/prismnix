@@ -22,6 +22,7 @@ let
         "guPPPtPD" = _guPPPtPD;
         "fabric-1.20.1" = _cuD9kkhb;
         "fabric-1.21.1" = _guPPPtPD;
+        "default" = _guPPPtPD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="guPPPtPD";}
+in callPackage fn {version="default";}

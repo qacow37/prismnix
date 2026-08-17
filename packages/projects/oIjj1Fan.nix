@@ -33,6 +33,7 @@ let
         "ErPhQo57" = _ErPhQo57;
         "sE5KVcHA" = _sE5KVcHA;
         "neoforge-1.21.1" = _sE5KVcHA;
+        "default" = _sE5KVcHA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sE5KVcHA";}
+in callPackage fn {version="default";}

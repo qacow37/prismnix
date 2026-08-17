@@ -1796,6 +1796,7 @@ let
         "optifine-26.2-snapshot-5" = _mHC4AArT;
         "optifine-26.2-snapshot-6" = _mHC4AArT;
         "optifine-26.2-snapshot-7" = _mHC4AArT;
+        "default" = _mHC4AArT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1816,4 +1817,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mHC4AArT";}
+in callPackage fn {version="default";}

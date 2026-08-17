@@ -33,6 +33,7 @@ let
         "T0ibxPTf" = _T0ibxPTf;
         "LZ7Et41P" = _LZ7Et41P;
         "forge-1.20.1" = _LZ7Et41P;
+        "default" = _LZ7Et41P;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LZ7Et41P";}
+in callPackage fn {version="default";}

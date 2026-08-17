@@ -241,6 +241,7 @@ let
         "quilt-26.1.1" = _GzHGR3Dj;
         "quilt-26.1.2" = _GzHGR3Dj;
         "quilt-26.2" = _EEKVAMtm;
+        "default" = _EEKVAMtm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -261,4 +262,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EEKVAMtm";}
+in callPackage fn {version="default";}

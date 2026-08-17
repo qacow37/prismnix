@@ -49,6 +49,7 @@ let
         "fabric-26.1" = _QndsamCp;
         "fabric-26.1.1" = _QndsamCp;
         "fabric-26.1.2" = _QndsamCp;
+        "default" = _QndsamCp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QndsamCp";}
+in callPackage fn {version="default";}

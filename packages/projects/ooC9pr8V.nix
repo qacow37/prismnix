@@ -10,6 +10,7 @@ let
         "8BZs3EKD" = _8BZs3EKD;
         "fabric-1.20.1" = _8BZs3EKD;
         "quilt-1.20.1" = _8BZs3EKD;
+        "default" = _8BZs3EKD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8BZs3EKD";}
+in callPackage fn {version="default";}

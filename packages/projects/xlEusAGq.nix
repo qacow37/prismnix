@@ -74,6 +74,7 @@ let
         "fabric-1.21.1" = _LYpbcjUJ;
         "quilt-1.21" = _LYpbcjUJ;
         "quilt-1.21.1" = _LYpbcjUJ;
+        "default" = _LYpbcjUJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LYpbcjUJ";}
+in callPackage fn {version="default";}

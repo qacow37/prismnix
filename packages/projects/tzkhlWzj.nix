@@ -63,6 +63,7 @@ let
         "GI5oJN73" = _GI5oJN73;
         "amgWyOWV" = _amgWyOWV;
         "forge-1.12.2" = _amgWyOWV;
+        "default" = _amgWyOWV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="amgWyOWV";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "L5HMMI20" = _L5HMMI20;
         "forge-1.20" = _EUoJbhSU;
         "forge-1.20.1" = _L5HMMI20;
+        "default" = _L5HMMI20;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="L5HMMI20";}
+in callPackage fn {version="default";}

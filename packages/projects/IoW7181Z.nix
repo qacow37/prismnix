@@ -24,6 +24,7 @@ let
         "minecraft-1.19" = _VP0Omfab;
         "minecraft-1.19.1" = _VP0Omfab;
         "minecraft-1.19.2" = _VP0Omfab;
+        "default" = _VP0Omfab;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VP0Omfab";}
+in callPackage fn {version="default";}

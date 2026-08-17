@@ -64,6 +64,7 @@ let
         "HyGL6zcr" = _HyGL6zcr;
         "forge-1.20.1" = _HyGL6zcr;
         "neoforge-1.20.1" = _pqjqeuRJ;
+        "default" = _HyGL6zcr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HyGL6zcr";}
+in callPackage fn {version="default";}

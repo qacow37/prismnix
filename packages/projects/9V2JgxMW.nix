@@ -15,6 +15,7 @@ let
         "g1CexRnU" = _g1CexRnU;
         "6kMi45KH" = _6kMi45KH;
         "neoforge-1.21.1" = _6kMi45KH;
+        "default" = _6kMi45KH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6kMi45KH";}
+in callPackage fn {version="default";}

@@ -436,6 +436,7 @@ let
         "bukkit-26.1.1" = _bw4YcU3s;
         "bukkit-26.1.2" = _bw4YcU3s;
         "bukkit-26.2" = _bw4YcU3s;
+        "default" = _bw4YcU3s;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -456,4 +457,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bw4YcU3s";}
+in callPackage fn {version="default";}

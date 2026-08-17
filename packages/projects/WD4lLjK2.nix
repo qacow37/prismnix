@@ -10,6 +10,7 @@ let
         "LtoBcfpf" = _LtoBcfpf;
         "iris-1.21.11" = _LtoBcfpf;
         "optifine-1.21.11" = _LtoBcfpf;
+        "default" = _LtoBcfpf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LtoBcfpf";}
+in callPackage fn {version="default";}

@@ -112,6 +112,7 @@ let
         "spigot-26.1.1" = _YbtW2MPi;
         "spigot-26.1.2" = _YbtW2MPi;
         "spigot-26.2" = _YbtW2MPi;
+        "default" = _YbtW2MPi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YbtW2MPi";}
+in callPackage fn {version="default";}

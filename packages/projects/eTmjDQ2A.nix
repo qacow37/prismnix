@@ -100,6 +100,7 @@ let
         "azTJ3S8C" = _azTJ3S8C;
         "fabric-1.20.1" = _FIG0ce11;
         "fabric-1.21.1" = _azTJ3S8C;
+        "default" = _azTJ3S8C;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="azTJ3S8C";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "r7I7BrEw" = _r7I7BrEw;
         "forge-1.20.1" = _AnFgA2UR;
         "fabric-1.20.1" = _r7I7BrEw;
+        "default" = _r7I7BrEw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="r7I7BrEw";}
+in callPackage fn {version="default";}

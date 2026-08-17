@@ -896,6 +896,7 @@ let
         "minecraft-26.2" = _FARmeCPG;
         "minecraft-26.3-snapshot-1" = _FARmeCPG;
         "minecraft-26.3-snapshot-2" = _FARmeCPG;
+        "default" = _FARmeCPG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -916,4 +917,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FARmeCPG";}
+in callPackage fn {version="default";}

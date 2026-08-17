@@ -199,6 +199,7 @@ let
         "fabric-26.1.1" = _aGHbahro;
         "fabric-26.1.2" = _aGHbahro;
         "fabric-26.2" = _apaMK4Xp;
+        "default" = _apaMK4Xp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -219,4 +220,4 @@ let
                 };
             };
         };
-in callPackage fn {version="apaMK4Xp";}
+in callPackage fn {version="default";}

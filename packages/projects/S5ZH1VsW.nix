@@ -51,6 +51,7 @@ let
         "fabric-1.20.3" = _SAMhyL2e;
         "fabric-1.20.4" = _Hw9F8kPC;
         "fabric-1.21.1" = _HEGTurE3;
+        "default" = _HEGTurE3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HEGTurE3";}
+in callPackage fn {version="default";}

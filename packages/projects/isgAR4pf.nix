@@ -104,6 +104,7 @@ let
         "minecraft-1.20.5" = _RayeIPyC;
         "minecraft-1.20.6" = _RayeIPyC;
         "minecraft-26.2" = _kue68cC7;
+        "default" = _kue68cC7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -124,4 +125,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kue68cC7";}
+in callPackage fn {version="default";}

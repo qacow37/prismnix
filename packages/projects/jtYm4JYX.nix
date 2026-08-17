@@ -70,6 +70,7 @@ let
         "OpRNAV1n" = _OpRNAV1n;
         "forge-1.20.1" = _OpRNAV1n;
         "neoforge-1.21.1" = _hcvEk2Ik;
+        "default" = _OpRNAV1n;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OpRNAV1n";}
+in callPackage fn {version="default";}

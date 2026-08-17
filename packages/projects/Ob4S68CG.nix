@@ -55,6 +55,7 @@ let
         "fabric-1.21.9" = _tATrogzM;
         "fabric-1.21.10" = _tATrogzM;
         "fabric-1.21.11" = _tATrogzM;
+        "default" = _tATrogzM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tATrogzM";}
+in callPackage fn {version="default";}

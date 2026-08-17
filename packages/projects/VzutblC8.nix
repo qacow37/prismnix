@@ -27,6 +27,7 @@ let
         "qRgApcqu" = _qRgApcqu;
         "Xh6NCL1S" = _Xh6NCL1S;
         "neoforge-1.21.1" = _Xh6NCL1S;
+        "default" = _Xh6NCL1S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xh6NCL1S";}
+in callPackage fn {version="default";}

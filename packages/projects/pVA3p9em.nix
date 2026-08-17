@@ -24,6 +24,7 @@ let
         "minecraft-1.21.6" = _DTI86DfH;
         "minecraft-1.21.7" = _DTI86DfH;
         "minecraft-1.21.8" = _DTI86DfH;
+        "default" = _DTI86DfH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DTI86DfH";}
+in callPackage fn {version="default";}

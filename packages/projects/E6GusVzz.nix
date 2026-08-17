@@ -92,6 +92,7 @@ let
         "neoforge-1.21.9" = _hzLufTiW;
         "neoforge-1.21.10" = _hzLufTiW;
         "neoforge-1.21.11" = _hzLufTiW;
+        "default" = _hzLufTiW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hzLufTiW";}
+in callPackage fn {version="default";}

@@ -123,6 +123,7 @@ let
         "oql1ySSL" = _oql1ySSL;
         "VGwdK2U5" = _VGwdK2U5;
         "fabric-1.21.1" = _VGwdK2U5;
+        "default" = _VGwdK2U5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VGwdK2U5";}
+in callPackage fn {version="default";}

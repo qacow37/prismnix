@@ -84,6 +84,7 @@ let
         "minecraft-26.1.1" = _JT87BKOB;
         "minecraft-26.1.2" = _JT87BKOB;
         "minecraft-26.2" = _JT87BKOB;
+        "default" = _JT87BKOB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JT87BKOB";}
+in callPackage fn {version="default";}

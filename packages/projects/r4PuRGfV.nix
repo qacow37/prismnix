@@ -570,6 +570,7 @@ let
         "neoforge-26.1.1" = _JW80uvhz;
         "neoforge-26.1.2" = _JW80uvhz;
         "neoforge-26.2" = _JW80uvhz;
+        "default" = _JW80uvhz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -590,4 +591,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JW80uvhz";}
+in callPackage fn {version="default";}

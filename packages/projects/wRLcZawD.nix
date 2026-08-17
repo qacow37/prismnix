@@ -36,6 +36,7 @@ let
         "fabric-22w13oneblockatatime" = _AKyzvuk3;
         "forge-1.18.2" = _9IwHMG8V;
         "forge-1.18.1" = _iEHxfpZJ;
+        "default" = _AKyzvuk3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AKyzvuk3";}
+in callPackage fn {version="default";}

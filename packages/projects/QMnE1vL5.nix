@@ -58,6 +58,7 @@ let
         "minecraft-26.1.1" = _Xsur1SOD;
         "minecraft-26.1.2" = _Xsur1SOD;
         "minecraft-26.2" = _Xsur1SOD;
+        "default" = _Xsur1SOD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xsur1SOD";}
+in callPackage fn {version="default";}

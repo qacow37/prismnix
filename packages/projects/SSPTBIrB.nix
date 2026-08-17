@@ -40,6 +40,7 @@ let
         "zNxGTDXB" = _zNxGTDXB;
         "neoforge-1.21.1" = _Zr6CteAt;
         "fabric-1.21.1" = _zNxGTDXB;
+        "default" = _zNxGTDXB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zNxGTDXB";}
+in callPackage fn {version="default";}

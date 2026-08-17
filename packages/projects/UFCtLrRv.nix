@@ -57,6 +57,7 @@ let
         "Cfbd908L" = _Cfbd908L;
         "eRu4UNsh" = _eRu4UNsh;
         "neoforge-1.21.1" = _eRu4UNsh;
+        "default" = _eRu4UNsh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eRu4UNsh";}
+in callPackage fn {version="default";}

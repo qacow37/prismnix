@@ -13,6 +13,7 @@ let
         "minecraft-1.20.1" = _CrtLvVvN;
         "minecraft-1.20.4" = _CrtLvVvN;
         "minecraft-1.21.1" = _CrtLvVvN;
+        "default" = _CrtLvVvN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -33,4 +34,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CrtLvVvN";}
+in callPackage fn {version="default";}

@@ -45,6 +45,7 @@ let
         "QTtIbBua" = _QTtIbBua;
         "j10zlI9h" = _j10zlI9h;
         "neoforge-1.21.1" = _j10zlI9h;
+        "default" = _j10zlI9h;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="j10zlI9h";}
+in callPackage fn {version="default";}

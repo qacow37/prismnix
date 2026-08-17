@@ -9,6 +9,7 @@ let
     in {
         "ennc2Cwi" = _ennc2Cwi;
         "fabric-1.21.10" = _ennc2Cwi;
+        "default" = _ennc2Cwi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ennc2Cwi";}
+in callPackage fn {version="default";}

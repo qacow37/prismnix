@@ -553,6 +553,7 @@ let
         "folia-26.1.2" = _epoTtWtR;
         "folia-26.2" = _epoTtWtR;
         "fabric-1.21.11" = _ijhcwJUw;
+        "default" = _epoTtWtR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -573,4 +574,4 @@ let
                 };
             };
         };
-in callPackage fn {version="epoTtWtR";}
+in callPackage fn {version="default";}

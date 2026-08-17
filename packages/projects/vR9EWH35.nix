@@ -73,6 +73,7 @@ let
         "neoforge-1.21.10" = _94mMuWzF;
         "neoforge-1.21.11" = _94mMuWzF;
         "fabric-1.21.11" = _bIOAfiXo;
+        "default" = _bIOAfiXo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -93,4 +94,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bIOAfiXo";}
+in callPackage fn {version="default";}

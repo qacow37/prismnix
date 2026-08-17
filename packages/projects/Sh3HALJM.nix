@@ -40,6 +40,7 @@ let
         "jc6ZMXug" = _jc6ZMXug;
         "neoforge-1.21.1" = _jc6ZMXug;
         "fabric-1.21.1" = _AE86mI0x;
+        "default" = _jc6ZMXug;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jc6ZMXug";}
+in callPackage fn {version="default";}

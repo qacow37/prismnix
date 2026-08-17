@@ -33,6 +33,7 @@ let
         "m4NXbygc" = _m4NXbygc;
         "RbDbNPy3" = _RbDbNPy3;
         "fabric-1.20.1" = _RbDbNPy3;
+        "default" = _RbDbNPy3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RbDbNPy3";}
+in callPackage fn {version="default";}

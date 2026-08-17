@@ -99,6 +99,7 @@ let
         "TVOWSb3z" = _TVOWSb3z;
         "o4GNsDn4" = _o4GNsDn4;
         "forge-1.20.1" = _o4GNsDn4;
+        "default" = _o4GNsDn4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="o4GNsDn4";}
+in callPackage fn {version="default";}

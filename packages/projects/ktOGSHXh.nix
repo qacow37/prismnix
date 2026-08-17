@@ -16,6 +16,7 @@ let
         "981grawV" = _981grawV;
         "minecraft-1.19.4" = _981grawV;
         "minecraft-1.20.4" = _981grawV;
+        "default" = _981grawV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="981grawV";}
+in callPackage fn {version="default";}

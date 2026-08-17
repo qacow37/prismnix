@@ -40,6 +40,7 @@ let
         "JXMVhVEi" = _JXMVhVEi;
         "forge-1.18.2" = _JXMVhVEi;
         "fabric-1.18.2" = _V0fLlVVe;
+        "default" = _JXMVhVEi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JXMVhVEi";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "PGW8iMlu" = _PGW8iMlu;
         "VHnbMfLh" = _VHnbMfLh;
         "forge-1.18.2" = _VHnbMfLh;
+        "default" = _VHnbMfLh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VHnbMfLh";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "oOfex2h6" = _oOfex2h6;
         "lZTBRemW" = _lZTBRemW;
         "neoforge-1.21.1" = _lZTBRemW;
+        "default" = _lZTBRemW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lZTBRemW";}
+in callPackage fn {version="default";}

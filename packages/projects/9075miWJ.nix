@@ -94,6 +94,7 @@ let
         "LITkSb7L" = _LITkSb7L;
         "forge-1.20.1" = _LITkSb7L;
         "neoforge-1.21.8" = _pwODaSm3;
+        "default" = _LITkSb7L;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LITkSb7L";}
+in callPackage fn {version="default";}

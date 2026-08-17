@@ -27,6 +27,7 @@ let
         "fabric-26.3-snapshot-4" = _sGfVVU31;
         "fabric-26.3-snapshot-5" = _sGfVVU31;
         "neoforge-26.2" = _a246PsGV;
+        "default" = _sGfVVU31;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sGfVVU31";}
+in callPackage fn {version="default";}

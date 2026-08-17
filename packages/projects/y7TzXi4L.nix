@@ -100,6 +100,7 @@ let
         "f04yiMTV" = _f04yiMTV;
         "fabric-1.21.1" = _3eDLfp7l;
         "neoforge-1.21.1" = _f04yiMTV;
+        "default" = _f04yiMTV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="f04yiMTV";}
+in callPackage fn {version="default";}

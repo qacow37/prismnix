@@ -54,6 +54,7 @@ let
         "minecraft-26.1.1" = _Wga5ZIkZ;
         "minecraft-26.1.2" = _Wga5ZIkZ;
         "minecraft-26.2" = _Wga5ZIkZ;
+        "default" = _Wga5ZIkZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Wga5ZIkZ";}
+in callPackage fn {version="default";}

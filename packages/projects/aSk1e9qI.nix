@@ -16,6 +16,7 @@ let
         "tAkPCdai" = _tAkPCdai;
         "forge-1.20.1" = _tAkPCdai;
         "forge-1.20.2" = _tAkPCdai;
+        "default" = _tAkPCdai;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tAkPCdai";}
+in callPackage fn {version="default";}

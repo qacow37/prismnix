@@ -220,6 +220,7 @@ let
         "optifine-26.1.1" = _IxxXLYda;
         "optifine-26.1.2" = _IxxXLYda;
         "optifine-26.2" = _IxxXLYda;
+        "default" = _IxxXLYda;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -240,4 +241,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IxxXLYda";}
+in callPackage fn {version="default";}

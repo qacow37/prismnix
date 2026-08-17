@@ -33,6 +33,7 @@ let
         "NrepMM4X" = _NrepMM4X;
         "8ogIbLtu" = _8ogIbLtu;
         "neoforge-1.21.1" = _8ogIbLtu;
+        "default" = _8ogIbLtu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8ogIbLtu";}
+in callPackage fn {version="default";}

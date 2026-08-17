@@ -44,6 +44,7 @@ let
         "minecraft-1.21.10" = _gkYRD0DR;
         "minecraft-1.21.11" = _gkYRD0DR;
         "minecraft-26.1" = _Qp75OtJS;
+        "default" = _Qp75OtJS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Qp75OtJS";}
+in callPackage fn {version="default";}

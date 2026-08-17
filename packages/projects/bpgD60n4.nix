@@ -27,6 +27,7 @@ let
         "BILXsCRv" = _BILXsCRv;
         "98tKO32B" = _98tKO32B;
         "fabric-25w14craftmine" = _98tKO32B;
+        "default" = _98tKO32B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="98tKO32B";}
+in callPackage fn {version="default";}

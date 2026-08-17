@@ -32,6 +32,7 @@ let
         "purpur-1.21.9" = _SFQP1v2k;
         "purpur-1.21.10" = _SFQP1v2k;
         "purpur-1.21.11" = _SFQP1v2k;
+        "default" = _SFQP1v2k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SFQP1v2k";}
+in callPackage fn {version="default";}

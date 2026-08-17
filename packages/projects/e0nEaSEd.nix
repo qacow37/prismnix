@@ -102,6 +102,7 @@ let
         "fabric-26.3-snapshot-4" = _JcOnQ5UC;
         "fabric-26.3-snapshot-5" = _JcOnQ5UC;
         "fabric-26.3-snapshot-6" = _JcOnQ5UC;
+        "default" = _JcOnQ5UC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -122,4 +123,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JcOnQ5UC";}
+in callPackage fn {version="default";}

@@ -162,6 +162,7 @@ let
         "minecraft-1.21.10" = _BfDuXLe3;
         "minecraft-1.21.11" = _BfDuXLe3;
         "minecraft-26.1" = _BfDuXLe3;
+        "default" = _BfDuXLe3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -182,4 +183,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BfDuXLe3";}
+in callPackage fn {version="default";}

@@ -40,6 +40,7 @@ let
         "quilt-1.21.1" = _ITaiugix;
         "quilt-1.20.1" = _ITaiugix;
         "quilt-1.20.4" = _ITaiugix;
+        "default" = _ITaiugix;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ITaiugix";}
+in callPackage fn {version="default";}

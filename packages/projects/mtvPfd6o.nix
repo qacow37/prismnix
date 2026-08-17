@@ -322,6 +322,7 @@ let
         "neoforge-1.21.10" = _aTTAWQT6;
         "neoforge-1.21.11" = _d1AIL2Ma;
         "neoforge-26.1" = _BuqZmdbc;
+        "default" = _BuqZmdbc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -342,4 +343,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BuqZmdbc";}
+in callPackage fn {version="default";}

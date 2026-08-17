@@ -9,6 +9,7 @@ let
     in {
         "NgLcW8cu" = _NgLcW8cu;
         "minecraft-1.21" = _NgLcW8cu;
+        "default" = _NgLcW8cu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NgLcW8cu";}
+in callPackage fn {version="default";}

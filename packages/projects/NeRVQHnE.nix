@@ -46,6 +46,7 @@ let
         "xyMnesQZ" = _xyMnesQZ;
         "babric-b1.7.3" = _xyMnesQZ;
         "fabric-b1.7.3" = _xyMnesQZ;
+        "default" = _xyMnesQZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xyMnesQZ";}
+in callPackage fn {version="default";}

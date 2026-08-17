@@ -374,6 +374,7 @@ let
         "minecraft-26.2-snapshot-1" = _pyLSbtaL;
         "minecraft-26.1.2-rc-1" = _pyLSbtaL;
         "minecraft-26.1.2" = _pyLSbtaL;
+        "default" = _pyLSbtaL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -394,4 +395,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pyLSbtaL";}
+in callPackage fn {version="default";}

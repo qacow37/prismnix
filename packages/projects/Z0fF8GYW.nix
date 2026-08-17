@@ -39,6 +39,7 @@ let
         "3Dp30m0Y" = _3Dp30m0Y;
         "yvC1aLTL" = _yvC1aLTL;
         "forge-1.20.1" = _yvC1aLTL;
+        "default" = _yvC1aLTL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yvC1aLTL";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "minecraft-1.19.4" = _TY4XhdUa;
         "minecraft-1.20" = _TY4XhdUa;
         "minecraft-1.20.1" = _TY4XhdUa;
+        "default" = _TY4XhdUa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TY4XhdUa";}
+in callPackage fn {version="default";}

@@ -70,6 +70,7 @@ let
         "WTpRAras" = _WTpRAras;
         "forge-1.12.2" = _WTpRAras;
         "sponge-1.12.2" = _WTpRAras;
+        "default" = _WTpRAras;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WTpRAras";}
+in callPackage fn {version="default";}

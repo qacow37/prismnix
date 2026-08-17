@@ -66,6 +66,7 @@ let
         "folia-1.19.4" = _zKzToGf3;
         "folia-1.20" = _zKzToGf3;
         "folia-1.20.1" = _zKzToGf3;
+        "default" = _zKzToGf3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zKzToGf3";}
+in callPackage fn {version="default";}

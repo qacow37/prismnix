@@ -57,6 +57,7 @@ let
         "4yftbBYP" = _4yftbBYP;
         "i2donXb2" = _i2donXb2;
         "forge-1.20.1" = _i2donXb2;
+        "default" = _i2donXb2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="i2donXb2";}
+in callPackage fn {version="default";}

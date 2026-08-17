@@ -88,6 +88,7 @@ let
         "6MSEdJAZ" = _6MSEdJAZ;
         "neoforge-1.21.1" = _BWQxgVOj;
         "fabric-1.21.1" = _6MSEdJAZ;
+        "default" = _6MSEdJAZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6MSEdJAZ";}
+in callPackage fn {version="default";}

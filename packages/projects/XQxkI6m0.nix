@@ -64,6 +64,7 @@ let
         "fabric-1.21.9" = _UptJKIg7;
         "fabric-1.21.10" = _UptJKIg7;
         "fabric-1.21.11" = _wss2gZFS;
+        "default" = _wss2gZFS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wss2gZFS";}
+in callPackage fn {version="default";}

@@ -50,6 +50,7 @@ let
         "spigot-1.21.9" = _MYKB3SLI;
         "spigot-1.21.10" = _MYKB3SLI;
         "spigot-1.21.11" = _MYKB3SLI;
+        "default" = _MYKB3SLI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MYKB3SLI";}
+in callPackage fn {version="default";}

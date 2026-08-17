@@ -939,6 +939,7 @@ let
         "neoforge-1.21.6" = _2h1DYuvy;
         "neoforge-1.21.7" = _2h1DYuvy;
         "forge-1.20.1" = _SgsosXAk;
+        "default" = _SgsosXAk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -959,4 +960,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SgsosXAk";}
+in callPackage fn {version="default";}

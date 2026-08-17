@@ -82,6 +82,7 @@ let
         "btKlrygA" = _btKlrygA;
         "forge-1.20.1" = _btKlrygA;
         "fabric-1.20.1" = _58jpCxQu;
+        "default" = _btKlrygA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="btKlrygA";}
+in callPackage fn {version="default";}

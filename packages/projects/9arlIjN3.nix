@@ -27,6 +27,7 @@ let
         "prtyVnI9" = _prtyVnI9;
         "PKK21wDv" = _PKK21wDv;
         "forge-1.20.1" = _PKK21wDv;
+        "default" = _PKK21wDv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PKK21wDv";}
+in callPackage fn {version="default";}

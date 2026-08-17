@@ -191,6 +191,7 @@ let
         "fabric-1.21.6" = _EsXJMbuu;
         "fabric-1.21.7" = _EsXJMbuu;
         "fabric-1.21.8" = _EsXJMbuu;
+        "default" = _EsXJMbuu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -211,4 +212,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EsXJMbuu";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "neoforge-1.21.2" = _E3SDGAHc;
         "neoforge-1.21.3" = _E3SDGAHc;
         "neoforge-1.21.4" = _E3SDGAHc;
+        "default" = _wn32NgvV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wn32NgvV";}
+in callPackage fn {version="default";}

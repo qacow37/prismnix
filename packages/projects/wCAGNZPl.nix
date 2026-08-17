@@ -16,6 +16,7 @@ let
         "U80Ma2gr" = _U80Ma2gr;
         "forge-1.16.5" = _ghssMD87;
         "forge-1.18.2" = _U80Ma2gr;
+        "default" = _U80Ma2gr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="U80Ma2gr";}
+in callPackage fn {version="default";}

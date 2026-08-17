@@ -65,6 +65,7 @@ let
         "fabric-26.1" = _IulicvIP;
         "fabric-26.1.1" = _IulicvIP;
         "fabric-26.1.2" = _IulicvIP;
+        "default" = _IulicvIP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -85,4 +86,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IulicvIP";}
+in callPackage fn {version="default";}

@@ -78,6 +78,7 @@ let
         "minecraft-24w44a" = _BMU4psWL;
         "minecraft-24w45a" = _BMU4psWL;
         "minecraft-24w46a" = _BMU4psWL;
+        "default" = _BMU4psWL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BMU4psWL";}
+in callPackage fn {version="default";}

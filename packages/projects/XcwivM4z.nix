@@ -26,6 +26,7 @@ let
         "iris-1.21.8" = _HHSwegCm;
         "iris-1.21.9" = _HHSwegCm;
         "iris-1.21.10" = _HHSwegCm;
+        "default" = _HHSwegCm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HHSwegCm";}
+in callPackage fn {version="default";}

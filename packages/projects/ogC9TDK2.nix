@@ -22,6 +22,7 @@ let
         "minecraft-1.21.9" = _Xcoo32Zu;
         "minecraft-1.21.10" = _Xcoo32Zu;
         "minecraft-1.21.11" = _Xcoo32Zu;
+        "default" = _Xcoo32Zu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xcoo32Zu";}
+in callPackage fn {version="default";}

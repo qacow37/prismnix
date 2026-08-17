@@ -12,6 +12,7 @@ let
         "iris-1.20.1" = _KGmqj9Oi;
         "optifine-1.20" = _KGmqj9Oi;
         "optifine-1.20.1" = _KGmqj9Oi;
+        "default" = _KGmqj9Oi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KGmqj9Oi";}
+in callPackage fn {version="default";}

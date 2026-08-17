@@ -210,6 +210,7 @@ let
         "neoforge-1.21.9" = _ZYtnELom;
         "neoforge-1.21.10" = _ZYtnELom;
         "neoforge-1.21.11" = _ZYtnELom;
+        "default" = _ZYtnELom;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -230,4 +231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZYtnELom";}
+in callPackage fn {version="default";}

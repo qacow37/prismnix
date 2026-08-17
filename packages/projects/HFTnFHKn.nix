@@ -365,6 +365,7 @@ let
         "bungeecord-26.1.1" = _vdjyDvoq;
         "bungeecord-26.1.2" = _vdjyDvoq;
         "bungeecord-26.2" = _vdjyDvoq;
+        "default" = _vdjyDvoq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -385,4 +386,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vdjyDvoq";}
+in callPackage fn {version="default";}

@@ -9,6 +9,7 @@ let
     in {
         "ObLYMdMS" = _ObLYMdMS;
         "forge-1.12.2" = _ObLYMdMS;
+        "default" = _ObLYMdMS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ObLYMdMS";}
+in callPackage fn {version="default";}

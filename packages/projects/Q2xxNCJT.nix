@@ -34,6 +34,7 @@ let
         "Bd86vn4u" = _Bd86vn4u;
         "fabric-1.21.1" = _bJZwf9mg;
         "neoforge-1.21.1" = _Bd86vn4u;
+        "default" = _Bd86vn4u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Bd86vn4u";}
+in callPackage fn {version="default";}

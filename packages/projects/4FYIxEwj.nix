@@ -46,6 +46,7 @@ let
         "ehh01Y9V" = _ehh01Y9V;
         "babric-b1.7.3" = _ehh01Y9V;
         "fabric-b1.7.3" = _ehh01Y9V;
+        "default" = _ehh01Y9V;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ehh01Y9V";}
+in callPackage fn {version="default";}

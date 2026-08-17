@@ -129,6 +129,7 @@ let
         "ZdIMVVVU" = _ZdIMVVVU;
         "nZvfCSRu" = _nZvfCSRu;
         "forge-1.20.1" = _nZvfCSRu;
+        "default" = _nZvfCSRu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nZvfCSRu";}
+in callPackage fn {version="default";}

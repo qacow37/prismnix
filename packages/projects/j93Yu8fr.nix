@@ -64,6 +64,7 @@ let
         "LMBXXeng" = _LMBXXeng;
         "quilt-1.20" = _LMBXXeng;
         "quilt-1.20.1" = _LMBXXeng;
+        "default" = _LMBXXeng;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LMBXXeng";}
+in callPackage fn {version="default";}

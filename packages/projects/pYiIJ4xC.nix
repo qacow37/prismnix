@@ -246,6 +246,7 @@ let
         "purpur-1.21.2" = _BgORlUYC;
         "purpur-1.21.3" = _BgORlUYC;
         "purpur-1.21.10" = _iRUlFprb;
+        "default" = _iRUlFprb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -266,4 +267,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iRUlFprb";}
+in callPackage fn {version="default";}

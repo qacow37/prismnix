@@ -73,6 +73,7 @@ let
         "legacy-fabric-1.13" = _Zh2JLFek;
         "legacy-fabric-1.13.1" = _Zh2JLFek;
         "legacy-fabric-1.13.2" = _Zh2JLFek;
+        "default" = _Zh2JLFek;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -93,4 +94,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Zh2JLFek";}
+in callPackage fn {version="default";}

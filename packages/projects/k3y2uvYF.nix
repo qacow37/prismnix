@@ -28,6 +28,7 @@ let
         "gH50GtVz" = _gH50GtVz;
         "forge-1.20.1" = _Dzq97gN7;
         "neoforge-1.21.1" = _gH50GtVz;
+        "default" = _gH50GtVz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gH50GtVz";}
+in callPackage fn {version="default";}

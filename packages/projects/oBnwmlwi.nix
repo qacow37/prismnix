@@ -21,6 +21,7 @@ let
         "VAJacsya" = _VAJacsya;
         "szart30I" = _szart30I;
         "forge-1.20.1" = _szart30I;
+        "default" = _szart30I;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="szart30I";}
+in callPackage fn {version="default";}

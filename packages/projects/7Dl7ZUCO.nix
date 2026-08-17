@@ -142,6 +142,7 @@ let
         "geyser-1.21.9" = _DTAC2XZg;
         "geyser-1.21.10" = _DTAC2XZg;
         "geyser-1.21.11" = _DTAC2XZg;
+        "default" = _KWqoRU7t;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -162,4 +163,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KWqoRU7t";}
+in callPackage fn {version="default";}

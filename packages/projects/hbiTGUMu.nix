@@ -111,6 +111,7 @@ let
         "LYec45qN" = _LYec45qN;
         "HvaWVLpP" = _HvaWVLpP;
         "bta-babric-b1.7.3" = _HvaWVLpP;
+        "default" = _HvaWVLpP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HvaWVLpP";}
+in callPackage fn {version="default";}

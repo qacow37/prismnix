@@ -78,6 +78,7 @@ let
         "minecraft-1.21.7" = _dNeFsMlc;
         "minecraft-1.21.8" = _dNeFsMlc;
         "minecraft-1.21.6" = _JEP3SQBF;
+        "default" = _JEP3SQBF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JEP3SQBF";}
+in callPackage fn {version="default";}

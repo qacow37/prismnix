@@ -9,6 +9,7 @@ let
     in {
         "XOPaaLgl" = _XOPaaLgl;
         "forge-1.20.1" = _XOPaaLgl;
+        "default" = _XOPaaLgl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XOPaaLgl";}
+in callPackage fn {version="default";}

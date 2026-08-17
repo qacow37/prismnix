@@ -40,6 +40,7 @@ let
         "CuYSaKoN" = _CuYSaKoN;
         "minecraft-1.21.1" = _FZP4afKY;
         "minecraft-1.21.4" = _CuYSaKoN;
+        "default" = _CuYSaKoN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CuYSaKoN";}
+in callPackage fn {version="default";}

@@ -42,6 +42,7 @@ let
         "fabric-1.21.11" = _fLr7PLkP;
         "fabric-26.1" = _uzfNieta;
         "fabric-26.2" = _arkQlBMH;
+        "default" = _arkQlBMH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="arkQlBMH";}
+in callPackage fn {version="default";}

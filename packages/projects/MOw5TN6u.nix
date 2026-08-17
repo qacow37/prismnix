@@ -28,6 +28,7 @@ let
         "iOSlao7R" = _iOSlao7R;
         "neoforge-1.21.1" = _1nu6ZI52;
         "forge-1.20.1" = _iOSlao7R;
+        "default" = _iOSlao7R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iOSlao7R";}
+in callPackage fn {version="default";}

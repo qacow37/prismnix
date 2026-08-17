@@ -15,6 +15,7 @@ let
         "rgVw9dos" = _rgVw9dos;
         "ggxVMR4g" = _ggxVMR4g;
         "fabric-1.20.1" = _ggxVMR4g;
+        "default" = _ggxVMR4g;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ggxVMR4g";}
+in callPackage fn {version="default";}

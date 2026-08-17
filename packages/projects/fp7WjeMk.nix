@@ -80,6 +80,7 @@ let
         "neoforge-1.21.10" = _zhgk4iWc;
         "neoforge-1.21.11" = _zhgk4iWc;
         "neoforge-26.1" = _zhgk4iWc;
+        "default" = _zhgk4iWc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zhgk4iWc";}
+in callPackage fn {version="default";}

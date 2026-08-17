@@ -16,6 +16,7 @@ let
         "XURE0W5I" = _XURE0W5I;
         "forge-1.18.2" = _HEUDtnCs;
         "forge-1.19.2" = _XURE0W5I;
+        "default" = _XURE0W5I;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XURE0W5I";}
+in callPackage fn {version="default";}

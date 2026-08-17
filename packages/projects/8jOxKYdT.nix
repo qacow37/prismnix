@@ -46,6 +46,7 @@ let
         "3W9EGzZT" = _3W9EGzZT;
         "forge-1.20.1" = _3W9EGzZT;
         "fabric-1.20.1" = _9FryS60K;
+        "default" = _3W9EGzZT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3W9EGzZT";}
+in callPackage fn {version="default";}

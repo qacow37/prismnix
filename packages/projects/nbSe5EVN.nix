@@ -15,6 +15,7 @@ let
         "Ga2gu5Qz" = _Ga2gu5Qz;
         "XApM7ZdU" = _XApM7ZdU;
         "fabric-1.21.1" = _XApM7ZdU;
+        "default" = _XApM7ZdU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XApM7ZdU";}
+in callPackage fn {version="default";}

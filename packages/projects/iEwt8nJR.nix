@@ -28,6 +28,7 @@ let
         "dewBuc5b" = _dewBuc5b;
         "fabric-1.20.1" = _kWUkLIgQ;
         "fabric-1.20.2" = _dewBuc5b;
+        "default" = _dewBuc5b;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dewBuc5b";}
+in callPackage fn {version="default";}

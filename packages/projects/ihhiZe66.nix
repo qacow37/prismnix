@@ -27,6 +27,7 @@ let
         "DadR9Aw6" = _DadR9Aw6;
         "myhKWtuX" = _myhKWtuX;
         "forge-1.20.1" = _myhKWtuX;
+        "default" = _myhKWtuX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="myhKWtuX";}
+in callPackage fn {version="default";}

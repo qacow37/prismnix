@@ -50,6 +50,7 @@ let
         "fabric-1.21.8" = _VPDCDkxl;
         "fabric-1.21.9" = _VPDCDkxl;
         "fabric-1.21.10" = _VPDCDkxl;
+        "default" = _VPDCDkxl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VPDCDkxl";}
+in callPackage fn {version="default";}

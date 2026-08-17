@@ -21,6 +21,7 @@ let
         "SpWtCasa" = _SpWtCasa;
         "TDT4LvWZ" = _TDT4LvWZ;
         "neoforge-1.21.1" = _TDT4LvWZ;
+        "default" = _TDT4LvWZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TDT4LvWZ";}
+in callPackage fn {version="default";}

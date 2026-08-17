@@ -33,6 +33,7 @@ let
         "RMqj3VCf" = _RMqj3VCf;
         "VDN2dujI" = _VDN2dujI;
         "forge-1.7.10" = _VDN2dujI;
+        "default" = _VDN2dujI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VDN2dujI";}
+in callPackage fn {version="default";}

@@ -82,6 +82,7 @@ let
         "npKBCMkt" = _npKBCMkt;
         "neoforge-1.21.1" = _npKBCMkt;
         "fabric-1.21.1" = _JqJeLNJd;
+        "default" = _npKBCMkt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="npKBCMkt";}
+in callPackage fn {version="default";}

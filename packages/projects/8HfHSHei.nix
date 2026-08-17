@@ -248,6 +248,7 @@ let
         "folia-26.1.1" = _HotrkIsj;
         "folia-26.1.2" = _HotrkIsj;
         "folia-26.2" = _HotrkIsj;
+        "default" = _HotrkIsj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -268,4 +269,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HotrkIsj";}
+in callPackage fn {version="default";}

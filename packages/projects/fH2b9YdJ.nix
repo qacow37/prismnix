@@ -69,6 +69,7 @@ let
         "forge-1.19.4" = _AnlrgFYf;
         "forge-1.20.1" = _JDMFo1tA;
         "neoforge-1.20.4" = _lUPKbLOk;
+        "default" = _JDMFo1tA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JDMFo1tA";}
+in callPackage fn {version="default";}

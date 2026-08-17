@@ -45,6 +45,7 @@ let
         "fabric-1.20.5" = _iRvMIVpN;
         "fabric-1.20.6" = _iRvMIVpN;
         "fabric-1.21" = _1SBidTC5;
+        "default" = _1SBidTC5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1SBidTC5";}
+in callPackage fn {version="default";}

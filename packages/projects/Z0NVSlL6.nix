@@ -224,6 +224,7 @@ let
         "spigot-26.1" = _hHM3enA7;
         "spigot-26.1.1" = _hHM3enA7;
         "spigot-26.1.2" = _hHM3enA7;
+        "default" = _hHM3enA7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -244,4 +245,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hHM3enA7";}
+in callPackage fn {version="default";}

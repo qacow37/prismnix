@@ -55,6 +55,7 @@ let
         "fabric-1.21.9" = _rcBF86Uc;
         "fabric-1.21.10" = _rcBF86Uc;
         "quilt-1.19.3" = _16V6vZLv;
+        "default" = _rcBF86Uc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rcBF86Uc";}
+in callPackage fn {version="default";}

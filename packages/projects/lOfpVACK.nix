@@ -9,6 +9,7 @@ let
     in {
         "zvLcTboj" = _zvLcTboj;
         "paper-1.21.1" = _zvLcTboj;
+        "default" = _zvLcTboj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zvLcTboj";}
+in callPackage fn {version="default";}

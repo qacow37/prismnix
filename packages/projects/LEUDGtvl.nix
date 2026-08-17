@@ -16,6 +16,7 @@ let
         "hqDLiEXs" = _hqDLiEXs;
         "fabric-1.20.1" = _EQvMUea3;
         "fabric-1.21.1" = _hqDLiEXs;
+        "default" = _hqDLiEXs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hqDLiEXs";}
+in callPackage fn {version="default";}

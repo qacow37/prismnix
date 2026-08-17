@@ -45,6 +45,7 @@ let
         "d1BGGyDK" = _d1BGGyDK;
         "l8A1Ptp0" = _l8A1Ptp0;
         "neoforge-1.21.1" = _l8A1Ptp0;
+        "default" = _l8A1Ptp0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l8A1Ptp0";}
+in callPackage fn {version="default";}

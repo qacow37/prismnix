@@ -134,6 +134,7 @@ let
         "fabric-26.1" = _DBadxptY;
         "fabric-26.1.1" = _DBadxptY;
         "fabric-26.1.2" = _DBadxptY;
+        "default" = _DBadxptY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -154,4 +155,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DBadxptY";}
+in callPackage fn {version="default";}

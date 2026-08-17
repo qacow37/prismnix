@@ -28,6 +28,7 @@ let
         "52vVW37B" = _52vVW37B;
         "fabric-1.20.1" = _CVF6vF49;
         "fabric-1.20.2" = _52vVW37B;
+        "default" = _52vVW37B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="52vVW37B";}
+in callPackage fn {version="default";}

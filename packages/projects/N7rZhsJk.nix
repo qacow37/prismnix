@@ -28,6 +28,7 @@ let
         "2hRKiSPI" = _2hRKiSPI;
         "fabric-b1.7.3" = _2hRKiSPI;
         "babric-b1.7.3" = _2hRKiSPI;
+        "default" = _2hRKiSPI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2hRKiSPI";}
+in callPackage fn {version="default";}

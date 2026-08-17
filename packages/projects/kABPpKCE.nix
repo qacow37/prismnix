@@ -15,6 +15,7 @@ let
         "Ar3wi0oc" = _Ar3wi0oc;
         "voiEu295" = _voiEu295;
         "forge-1.20.1" = _voiEu295;
+        "default" = _voiEu295;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="voiEu295";}
+in callPackage fn {version="default";}

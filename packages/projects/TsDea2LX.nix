@@ -21,6 +21,7 @@ let
         "TiFShiCO" = _TiFShiCO;
         "RgTaqzCG" = _RgTaqzCG;
         "forge-1.20.1" = _RgTaqzCG;
+        "default" = _RgTaqzCG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RgTaqzCG";}
+in callPackage fn {version="default";}

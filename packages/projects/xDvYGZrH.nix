@@ -252,6 +252,7 @@ let
         "neoforge-1.21.9" = _mNUv3Eih;
         "neoforge-1.21.10" = _mNUv3Eih;
         "neoforge-1.21.11" = _sdVLpnSi;
+        "default" = _sdVLpnSi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -272,4 +273,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sdVLpnSi";}
+in callPackage fn {version="default";}

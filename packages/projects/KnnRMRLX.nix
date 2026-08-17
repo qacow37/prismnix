@@ -27,6 +27,7 @@ let
         "AwXNPlP7" = _AwXNPlP7;
         "aTXx38a6" = _aTXx38a6;
         "forge-1.20.1" = _aTXx38a6;
+        "default" = _aTXx38a6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aTXx38a6";}
+in callPackage fn {version="default";}

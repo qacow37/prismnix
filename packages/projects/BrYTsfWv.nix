@@ -220,6 +220,7 @@ let
         "XfQXDcjc" = _XfQXDcjc;
         "neoforge-1.21.1" = _XfQXDcjc;
         "forge-1.20.1" = _sNRMTRgs;
+        "default" = _XfQXDcjc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -240,4 +241,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XfQXDcjc";}
+in callPackage fn {version="default";}

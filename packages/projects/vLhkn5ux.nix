@@ -33,6 +33,7 @@ let
         "UwVHn360" = _UwVHn360;
         "j1560XGp" = _j1560XGp;
         "forge-1.20.1" = _j1560XGp;
+        "default" = _j1560XGp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="j1560XGp";}
+in callPackage fn {version="default";}

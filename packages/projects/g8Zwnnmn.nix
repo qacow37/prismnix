@@ -1340,6 +1340,7 @@ let
         "spigot-1.21.11" = _fxA2TEaS;
         "spigot-26.1" = _fxA2TEaS;
         "spigot-26.2" = _fxA2TEaS;
+        "default" = _fxA2TEaS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1360,4 +1361,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fxA2TEaS";}
+in callPackage fn {version="default";}

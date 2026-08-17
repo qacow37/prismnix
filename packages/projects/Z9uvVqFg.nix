@@ -9,6 +9,7 @@ let
     in {
         "rAmGEplv" = _rAmGEplv;
         "forge-1.7.10" = _rAmGEplv;
+        "default" = _rAmGEplv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rAmGEplv";}
+in callPackage fn {version="default";}

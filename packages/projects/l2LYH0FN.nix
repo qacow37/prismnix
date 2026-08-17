@@ -15,6 +15,7 @@ let
         "Pw0FSLH9" = _Pw0FSLH9;
         "wtdlxJmx" = _wtdlxJmx;
         "neoforge-1.21.1" = _wtdlxJmx;
+        "default" = _wtdlxJmx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wtdlxJmx";}
+in callPackage fn {version="default";}

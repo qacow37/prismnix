@@ -10,6 +10,7 @@ let
         "Tz5Q48X4" = _Tz5Q48X4;
         "fabric-1.21.10" = _Tz5Q48X4;
         "fabric-1.21.11" = _Tz5Q48X4;
+        "default" = _Tz5Q48X4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tz5Q48X4";}
+in callPackage fn {version="default";}

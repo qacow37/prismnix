@@ -9,6 +9,7 @@ let
     in {
         "XEWsGTTN" = _XEWsGTTN;
         "forge-1.20.1" = _XEWsGTTN;
+        "default" = _XEWsGTTN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XEWsGTTN";}
+in callPackage fn {version="default";}

@@ -64,6 +64,7 @@ let
         "minecraft-26.1-snapshot-5" = _mBspPgUB;
         "minecraft-26.1-snapshot-6" = _mBspPgUB;
         "minecraft-26.1-snapshot-7" = _mBspPgUB;
+        "default" = _mBspPgUB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mBspPgUB";}
+in callPackage fn {version="default";}

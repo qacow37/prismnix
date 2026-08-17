@@ -51,6 +51,7 @@ let
         "forge-1.20.5" = _fWcCcEry;
         "forge-1.20.6" = _fWcCcEry;
         "neoforge-1.21.1" = _rlgdskZO;
+        "default" = _rlgdskZO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rlgdskZO";}
+in callPackage fn {version="default";}

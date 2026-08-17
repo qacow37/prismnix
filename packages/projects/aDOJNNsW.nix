@@ -15,6 +15,7 @@ let
         "JPtCjmQz" = _JPtCjmQz;
         "zy8ymgWP" = _zy8ymgWP;
         "neoforge-1.21.1" = _zy8ymgWP;
+        "default" = _zy8ymgWP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zy8ymgWP";}
+in callPackage fn {version="default";}

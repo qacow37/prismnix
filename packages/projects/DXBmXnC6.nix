@@ -51,6 +51,7 @@ let
         "gCGqo62d" = _gCGqo62d;
         "VspNFspQ" = _VspNFspQ;
         "forge-1.20.1" = _VspNFspQ;
+        "default" = _VspNFspQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VspNFspQ";}
+in callPackage fn {version="default";}

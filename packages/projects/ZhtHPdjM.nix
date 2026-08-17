@@ -27,6 +27,7 @@ let
         "fTD5n32t" = _fTD5n32t;
         "EoTP0FSe" = _EoTP0FSe;
         "forge-1.20.1" = _EoTP0FSe;
+        "default" = _EoTP0FSe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EoTP0FSe";}
+in callPackage fn {version="default";}

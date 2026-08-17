@@ -15,6 +15,7 @@ let
         "r4XJXPIl" = _r4XJXPIl;
         "baqQSpAP" = _baqQSpAP;
         "forge-1.20.1" = _baqQSpAP;
+        "default" = _baqQSpAP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="baqQSpAP";}
+in callPackage fn {version="default";}

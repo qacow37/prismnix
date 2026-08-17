@@ -22,6 +22,7 @@ let
         "Vg7VLTDX" = _Vg7VLTDX;
         "forge-1.19.2" = _D0LQyjdm;
         "forge-1.20.1" = _Vg7VLTDX;
+        "default" = _Vg7VLTDX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Vg7VLTDX";}
+in callPackage fn {version="default";}

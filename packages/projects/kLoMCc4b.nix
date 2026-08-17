@@ -70,6 +70,7 @@ let
         "90YOIp4K" = _90YOIp4K;
         "forge-1.20.1" = _90YOIp4K;
         "neoforge-1.20.1" = _90YOIp4K;
+        "default" = _90YOIp4K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="90YOIp4K";}
+in callPackage fn {version="default";}

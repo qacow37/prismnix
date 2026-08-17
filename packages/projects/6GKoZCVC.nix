@@ -27,6 +27,7 @@ let
         "AiKZRAuv" = _AiKZRAuv;
         "ge2ASciU" = _ge2ASciU;
         "neoforge-1.21.1" = _ge2ASciU;
+        "default" = _ge2ASciU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ge2ASciU";}
+in callPackage fn {version="default";}

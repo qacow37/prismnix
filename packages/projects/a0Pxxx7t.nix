@@ -113,6 +113,7 @@ let
         "folia-1.21.11" = _2itzZMrk;
         "paper-1.21.11" = _2itzZMrk;
         "purpur-1.21.11" = _2itzZMrk;
+        "default" = _tskfHzBC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tskfHzBC";}
+in callPackage fn {version="default";}

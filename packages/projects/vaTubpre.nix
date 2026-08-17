@@ -33,6 +33,7 @@ let
         "IF5gzwhf" = _IF5gzwhf;
         "ipstmi4R" = _ipstmi4R;
         "forge-1.20.1" = _ipstmi4R;
+        "default" = _ipstmi4R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ipstmi4R";}
+in callPackage fn {version="default";}

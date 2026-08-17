@@ -45,6 +45,7 @@ let
         "r0zvOr34" = _r0zvOr34;
         "HGL8NAi8" = _HGL8NAi8;
         "forge-1.20.1" = _HGL8NAi8;
+        "default" = _HGL8NAi8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HGL8NAi8";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "6lyiScam" = _6lyiScam;
         "forge-1.20.1" = _Rl0BNZwV;
         "neoforge-1.21" = _6lyiScam;
+        "default" = _6lyiScam;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6lyiScam";}
+in callPackage fn {version="default";}

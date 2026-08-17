@@ -10,6 +10,7 @@ let
         "AIfteXrs" = _AIfteXrs;
         "fabric-1.20" = _AIfteXrs;
         "fabric-1.20.1" = _AIfteXrs;
+        "default" = _AIfteXrs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AIfteXrs";}
+in callPackage fn {version="default";}

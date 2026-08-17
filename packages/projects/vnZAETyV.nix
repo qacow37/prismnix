@@ -81,6 +81,7 @@ let
         "AJ8mKh3V" = _AJ8mKh3V;
         "NkdELhcm" = _NkdELhcm;
         "neoforge-1.21.1" = _NkdELhcm;
+        "default" = _NkdELhcm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NkdELhcm";}
+in callPackage fn {version="default";}

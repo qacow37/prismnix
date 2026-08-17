@@ -21,6 +21,7 @@ let
         "s7iWdnMp" = _s7iWdnMp;
         "AD5SfGTW" = _AD5SfGTW;
         "forge-1.12.2" = _AD5SfGTW;
+        "default" = _AD5SfGTW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AD5SfGTW";}
+in callPackage fn {version="default";}

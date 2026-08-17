@@ -460,6 +460,7 @@ let
         "neoforge-26.1.1" = _y4adGmOp;
         "neoforge-26.1.2" = _y4adGmOp;
         "neoforge-26.2" = _F88UjBuf;
+        "default" = _F88UjBuf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -480,4 +481,4 @@ let
                 };
             };
         };
-in callPackage fn {version="F88UjBuf";}
+in callPackage fn {version="default";}

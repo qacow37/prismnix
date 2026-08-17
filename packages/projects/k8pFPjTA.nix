@@ -27,6 +27,7 @@ let
         "vOsU8DU6" = _vOsU8DU6;
         "Vm6OLtit" = _Vm6OLtit;
         "forge-1.8.9" = _Vm6OLtit;
+        "default" = _Vm6OLtit;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Vm6OLtit";}
+in callPackage fn {version="default";}

@@ -48,6 +48,7 @@ let
         "minecraft-26.1.1" = _EvheONVy;
         "minecraft-26.1.2" = _EvheONVy;
         "minecraft-26.2" = _EvheONVy;
+        "default" = _EvheONVy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -68,4 +69,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EvheONVy";}
+in callPackage fn {version="default";}

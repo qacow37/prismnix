@@ -60,6 +60,7 @@ let
         "neoforge-1.21.1" = _HcXyxGAt;
         "neoforge-1.21.4" = _NaVAv3tA;
         "neoforge-1.21.5" = _WMBPOMWu;
+        "default" = _WMBPOMWu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WMBPOMWu";}
+in callPackage fn {version="default";}

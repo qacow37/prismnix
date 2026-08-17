@@ -178,6 +178,7 @@ let
         "paper-26.1.1" = _Cqum1WWi;
         "paper-26.1.2" = _Cqum1WWi;
         "paper-26.2" = _Cqum1WWi;
+        "default" = _Cqum1WWi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -198,4 +199,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Cqum1WWi";}
+in callPackage fn {version="default";}

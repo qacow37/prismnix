@@ -149,6 +149,7 @@ let
         "forge-1.20.1" = _ZYPr8cT1;
         "neoforge-1.20.1" = _ZYPr8cT1;
         "neoforge-1.21.1" = _fmvza8i6;
+        "default" = _fmvza8i6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fmvza8i6";}
+in callPackage fn {version="default";}

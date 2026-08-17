@@ -18,6 +18,7 @@ let
         "fabric-1.20.1" = _GhAR43iu;
         "quilt-1.20" = _GhAR43iu;
         "quilt-1.20.1" = _GhAR43iu;
+        "default" = _GhAR43iu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GhAR43iu";}
+in callPackage fn {version="default";}

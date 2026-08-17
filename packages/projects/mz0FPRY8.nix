@@ -50,6 +50,7 @@ let
         "minecraft-23w43a" = _HvFzfpud;
         "minecraft-23w43b" = _HvFzfpud;
         "minecraft-23w44a" = _HvFzfpud;
+        "default" = _HvFzfpud;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HvFzfpud";}
+in callPackage fn {version="default";}

@@ -60,6 +60,7 @@ let
         "fabric-1.19.3" = _IOftAwJN;
         "fabric-1.19.4" = _IOftAwJN;
         "neoforge-1.21.1" = _JalveSgT;
+        "default" = _JalveSgT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JalveSgT";}
+in callPackage fn {version="default";}

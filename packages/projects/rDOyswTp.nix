@@ -81,6 +81,7 @@ let
         "kNDpCbbT" = _kNDpCbbT;
         "8HSsDICZ" = _8HSsDICZ;
         "neoforge-1.21.1" = _8HSsDICZ;
+        "default" = _8HSsDICZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8HSsDICZ";}
+in callPackage fn {version="default";}

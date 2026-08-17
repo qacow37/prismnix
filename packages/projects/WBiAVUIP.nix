@@ -15,6 +15,7 @@ let
         "D2UyH4Pe" = _D2UyH4Pe;
         "E2vvGsML" = _E2vvGsML;
         "minecraft-1.21" = _E2vvGsML;
+        "default" = _E2vvGsML;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E2vvGsML";}
+in callPackage fn {version="default";}

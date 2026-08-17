@@ -36,6 +36,7 @@ let
         "quilt-26.1.1" = _XCCXONTk;
         "quilt-26.1.2" = _XCCXONTk;
         "quilt-26.2" = _TXx75sgV;
+        "default" = _TXx75sgV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TXx75sgV";}
+in callPackage fn {version="default";}

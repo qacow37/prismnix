@@ -172,6 +172,7 @@ let
         "forge-1.16.5" = _cvV73NZf;
         "neoforge-1.21" = _otPmhdts;
         "neoforge-1.21.1" = _otPmhdts;
+        "default" = _3DloHXPa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3DloHXPa";}
+in callPackage fn {version="default";}

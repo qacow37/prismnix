@@ -621,6 +621,7 @@ let
         "waterfall-1.21.9" = _SDboI2kY;
         "waterfall-1.21.10" = _SDboI2kY;
         "waterfall-1.21.11" = _SDboI2kY;
+        "default" = _SDboI2kY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -641,4 +642,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SDboI2kY";}
+in callPackage fn {version="default";}

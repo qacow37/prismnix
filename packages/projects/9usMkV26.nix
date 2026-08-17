@@ -16,6 +16,7 @@ let
         "VdoXl5PT" = _VdoXl5PT;
         "fabric-1.19.2" = _s8n5skzQ;
         "neoforge-1.21.3" = _VdoXl5PT;
+        "default" = _VdoXl5PT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VdoXl5PT";}
+in callPackage fn {version="default";}

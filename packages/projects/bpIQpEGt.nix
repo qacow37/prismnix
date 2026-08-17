@@ -22,6 +22,7 @@ let
         "xhPrXziL" = _xhPrXziL;
         "fabric-1.20.1" = _xhPrXziL;
         "forge-1.20.1" = _xhPrXziL;
+        "default" = _xhPrXziL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xhPrXziL";}
+in callPackage fn {version="default";}

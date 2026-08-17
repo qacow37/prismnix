@@ -28,6 +28,7 @@ let
         "RPliFSHL" = _RPliFSHL;
         "forge-1.20.1" = _1C1JRIxs;
         "neoforge-1.21.1" = _RPliFSHL;
+        "default" = _RPliFSHL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RPliFSHL";}
+in callPackage fn {version="default";}

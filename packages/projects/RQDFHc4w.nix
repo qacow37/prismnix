@@ -16,6 +16,7 @@ let
         "D9DhFlPu" = _D9DhFlPu;
         "forge-1.18.2" = _FK0CwMou;
         "forge-1.19.2" = _D9DhFlPu;
+        "default" = _D9DhFlPu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="D9DhFlPu";}
+in callPackage fn {version="default";}

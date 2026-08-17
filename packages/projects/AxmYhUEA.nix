@@ -39,6 +39,7 @@ let
         "t3rHEFTN" = _t3rHEFTN;
         "WMELNVmz" = _WMELNVmz;
         "forge-1.20.1" = _WMELNVmz;
+        "default" = _WMELNVmz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WMELNVmz";}
+in callPackage fn {version="default";}

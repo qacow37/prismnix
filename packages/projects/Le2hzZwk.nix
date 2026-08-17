@@ -186,6 +186,7 @@ let
         "forge-1.12" = _ALdapr4x;
         "forge-1.12.1" = _ALdapr4x;
         "forge-1.12.2" = _ALdapr4x;
+        "default" = _ALdapr4x;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -206,4 +207,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ALdapr4x";}
+in callPackage fn {version="default";}

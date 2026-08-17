@@ -31,6 +31,7 @@ let
         "forge-1.21.11" = _lBXK16HT;
         "neoforge-1.21.11" = _lBXK16HT;
         "quilt-1.21.11" = _lBXK16HT;
+        "default" = _lBXK16HT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lBXK16HT";}
+in callPackage fn {version="default";}

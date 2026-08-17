@@ -135,6 +135,7 @@ let
         "neoforge-1.21.7" = _tDCenhvA;
         "neoforge-1.21.8" = _tDCenhvA;
         "neoforge-1.21.9" = _tDCenhvA;
+        "default" = _tDCenhvA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tDCenhvA";}
+in callPackage fn {version="default";}

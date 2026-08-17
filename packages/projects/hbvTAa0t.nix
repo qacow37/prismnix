@@ -33,6 +33,7 @@ let
         "Gs4RliU8" = _Gs4RliU8;
         "QEYa0xLp" = _QEYa0xLp;
         "fabric-1.21.1" = _QEYa0xLp;
+        "default" = _QEYa0xLp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QEYa0xLp";}
+in callPackage fn {version="default";}

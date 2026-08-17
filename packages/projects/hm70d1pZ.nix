@@ -15,6 +15,7 @@ let
         "dzdpnNsq" = _dzdpnNsq;
         "JTjC0Khz" = _JTjC0Khz;
         "minecraft-1.19.4" = _JTjC0Khz;
+        "default" = _JTjC0Khz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JTjC0Khz";}
+in callPackage fn {version="default";}

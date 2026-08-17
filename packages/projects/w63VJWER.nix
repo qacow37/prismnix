@@ -16,6 +16,7 @@ let
         "XMRT9rQE" = _XMRT9rQE;
         "minecraft-1.19.2" = _wUInBxe8;
         "minecraft-1.19.3" = _XMRT9rQE;
+        "default" = _XMRT9rQE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XMRT9rQE";}
+in callPackage fn {version="default";}

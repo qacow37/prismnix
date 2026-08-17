@@ -28,6 +28,7 @@ let
         "IONd5DVi" = _IONd5DVi;
         "neoforge-1.21.1" = _IONd5DVi;
         "fabric-1.21.1" = _XmkuYsu5;
+        "default" = _IONd5DVi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IONd5DVi";}
+in callPackage fn {version="default";}

@@ -40,6 +40,7 @@ let
         "GPtbF9kb" = _GPtbF9kb;
         "forge-1.20.1" = _GPtbF9kb;
         "neoforge-1.20.1" = _OPpHkcLC;
+        "default" = _GPtbF9kb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GPtbF9kb";}
+in callPackage fn {version="default";}

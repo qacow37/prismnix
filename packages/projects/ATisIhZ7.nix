@@ -16,6 +16,7 @@ let
         "msIfFGBy" = _msIfFGBy;
         "forge-1.20.1" = _d9Ekb5Ya;
         "neoforge-1.21.1" = _msIfFGBy;
+        "default" = _msIfFGBy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="msIfFGBy";}
+in callPackage fn {version="default";}

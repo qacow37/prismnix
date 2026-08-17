@@ -24,6 +24,7 @@ let
         "forge-1.21.1" = _bc5L2ATx;
         "neoforge-1.21.1" = _bc5L2ATx;
         "quilt-1.21.1" = _bc5L2ATx;
+        "default" = _bc5L2ATx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bc5L2ATx";}
+in callPackage fn {version="default";}

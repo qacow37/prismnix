@@ -64,6 +64,7 @@ let
         "o1pZqCLI" = _o1pZqCLI;
         "fabric-1.21" = _o1pZqCLI;
         "fabric-1.21.1" = _o1pZqCLI;
+        "default" = _o1pZqCLI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="o1pZqCLI";}
+in callPackage fn {version="default";}

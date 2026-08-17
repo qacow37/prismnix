@@ -88,6 +88,7 @@ let
         "ClmIQpn9" = _ClmIQpn9;
         "neoforge-1.21.1" = _ClmIQpn9;
         "neoforge-1.21" = _ClmIQpn9;
+        "default" = _ClmIQpn9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ClmIQpn9";}
+in callPackage fn {version="default";}

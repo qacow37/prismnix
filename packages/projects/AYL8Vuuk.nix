@@ -33,6 +33,7 @@ let
         "Ht18Cpir" = _Ht18Cpir;
         "U5bZr5zH" = _U5bZr5zH;
         "neoforge-1.21.1" = _U5bZr5zH;
+        "default" = _U5bZr5zH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="U5bZr5zH";}
+in callPackage fn {version="default";}

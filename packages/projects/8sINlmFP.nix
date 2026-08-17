@@ -32,6 +32,7 @@ let
         "neoforge-1.19.3" = _qHUBLudS;
         "neoforge-1.19.4" = _qHUBLudS;
         "neoforge-1.20.1" = _qHUBLudS;
+        "default" = _qHUBLudS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qHUBLudS";}
+in callPackage fn {version="default";}

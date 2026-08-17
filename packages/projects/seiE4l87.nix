@@ -27,6 +27,7 @@ let
         "OgNpyAPM" = _OgNpyAPM;
         "pLtBiLbi" = _pLtBiLbi;
         "forge-1.20.1" = _pLtBiLbi;
+        "default" = _pLtBiLbi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pLtBiLbi";}
+in callPackage fn {version="default";}

@@ -264,6 +264,7 @@ let
         "neoforge-1.21.9" = _2yxbi3pc;
         "neoforge-1.21.10" = _2yxbi3pc;
         "neoforge-1.21.11" = _KYODuaPg;
+        "default" = _KYODuaPg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -284,4 +285,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KYODuaPg";}
+in callPackage fn {version="default";}

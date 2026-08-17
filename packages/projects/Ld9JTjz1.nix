@@ -45,6 +45,7 @@ let
         "ByfQ4W1y" = _ByfQ4W1y;
         "AiGPuThY" = _AiGPuThY;
         "fabric-b1.7.3" = _AiGPuThY;
+        "default" = _AiGPuThY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AiGPuThY";}
+in callPackage fn {version="default";}

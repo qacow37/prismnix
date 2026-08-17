@@ -15,6 +15,7 @@ let
         "NaSIEvSy" = _NaSIEvSy;
         "BaodQBiU" = _BaodQBiU;
         "forge-1.20.1" = _BaodQBiU;
+        "default" = _BaodQBiU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BaodQBiU";}
+in callPackage fn {version="default";}

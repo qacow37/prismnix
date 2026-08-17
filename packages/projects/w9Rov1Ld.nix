@@ -22,6 +22,7 @@ let
         "legacy-fabric-1.10.2" = _SemU8BCn;
         "legacy-fabric-1.11.2" = _SemU8BCn;
         "legacy-fabric-1.12.2" = _SemU8BCn;
+        "default" = _SemU8BCn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SemU8BCn";}
+in callPackage fn {version="default";}

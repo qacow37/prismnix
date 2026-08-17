@@ -92,6 +92,7 @@ let
         "minecraft-26.1" = _Ub16IXaR;
         "minecraft-26.1.1" = _Ub16IXaR;
         "minecraft-26.1.2" = _Ub16IXaR;
+        "default" = _Ub16IXaR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ub16IXaR";}
+in callPackage fn {version="default";}

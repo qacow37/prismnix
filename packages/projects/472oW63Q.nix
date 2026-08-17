@@ -112,6 +112,7 @@ let
         "lpvJITem" = _lpvJITem;
         "babric-b1.7.3" = _lpvJITem;
         "fabric-b1.7.3" = _lpvJITem;
+        "default" = _lpvJITem;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lpvJITem";}
+in callPackage fn {version="default";}

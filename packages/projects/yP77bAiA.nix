@@ -240,6 +240,7 @@ let
         "neoforge-1.21.8" = _91IaLhug;
         "neoforge-1.21.10" = _91IaLhug;
         "neoforge-1.21.11" = _MugsgtOg;
+        "default" = _MugsgtOg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -260,4 +261,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MugsgtOg";}
+in callPackage fn {version="default";}

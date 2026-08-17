@@ -16,6 +16,7 @@ let
         "AWxpCrj7" = _AWxpCrj7;
         "fabric-1.20.1" = _AWxpCrj7;
         "forge-1.20.1" = _AWxpCrj7;
+        "default" = _AWxpCrj7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AWxpCrj7";}
+in callPackage fn {version="default";}

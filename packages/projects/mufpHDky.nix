@@ -22,6 +22,7 @@ let
         "forge-1.20.1" = _6P5ssydw;
         "quilt-1.20" = _6P5ssydw;
         "quilt-1.20.1" = _6P5ssydw;
+        "default" = _6P5ssydw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6P5ssydw";}
+in callPackage fn {version="default";}

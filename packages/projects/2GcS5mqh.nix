@@ -149,6 +149,7 @@ let
         "neoforge-1.20.2" = _uDFFkGLs;
         "neoforge-1.20.3" = _uDFFkGLs;
         "neoforge-1.20.4" = _uDFFkGLs;
+        "default" = _uDFFkGLs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uDFFkGLs";}
+in callPackage fn {version="default";}

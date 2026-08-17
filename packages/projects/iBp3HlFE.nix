@@ -57,6 +57,7 @@ let
         "67PkmTRS" = _67PkmTRS;
         "12rSPmpo" = _12rSPmpo;
         "forge-1.19.2" = _12rSPmpo;
+        "default" = _12rSPmpo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="12rSPmpo";}
+in callPackage fn {version="default";}

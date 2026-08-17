@@ -896,6 +896,7 @@ let
         "neoforge-1.21.6" = _ngN86EDG;
         "neoforge-1.21.7" = _ngN86EDG;
         "neoforge-1.21.8" = _ngN86EDG;
+        "default" = _ngN86EDG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -916,4 +917,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ngN86EDG";}
+in callPackage fn {version="default";}

@@ -111,6 +111,7 @@ let
         "shZ3374k" = _shZ3374k;
         "JnAUI2fI" = _JnAUI2fI;
         "forge-1.12.2" = _JnAUI2fI;
+        "default" = _JnAUI2fI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JnAUI2fI";}
+in callPackage fn {version="default";}

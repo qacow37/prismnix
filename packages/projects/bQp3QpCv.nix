@@ -21,6 +21,7 @@ let
         "fXVkYqPl" = _fXVkYqPl;
         "c8UVawux" = _c8UVawux;
         "forge-1.20.1" = _c8UVawux;
+        "default" = _c8UVawux;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c8UVawux";}
+in callPackage fn {version="default";}

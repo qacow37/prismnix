@@ -15,6 +15,7 @@ let
         "fy45bkqT" = _fy45bkqT;
         "LuvveCaI" = _LuvveCaI;
         "forge-1.12.2" = _LuvveCaI;
+        "default" = _LuvveCaI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LuvveCaI";}
+in callPackage fn {version="default";}

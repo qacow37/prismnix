@@ -27,6 +27,7 @@ let
         "UONBITrI" = _UONBITrI;
         "aoYTuybH" = _aoYTuybH;
         "fabric-1.21.1" = _aoYTuybH;
+        "default" = _aoYTuybH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aoYTuybH";}
+in callPackage fn {version="default";}

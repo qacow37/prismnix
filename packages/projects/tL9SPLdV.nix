@@ -111,6 +111,7 @@ let
         "yy2qahLr" = _yy2qahLr;
         "jGYoToMU" = _jGYoToMU;
         "forge-1.20.1" = _jGYoToMU;
+        "default" = _jGYoToMU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jGYoToMU";}
+in callPackage fn {version="default";}

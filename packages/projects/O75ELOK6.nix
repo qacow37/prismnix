@@ -10,6 +10,7 @@ let
         "R70pDVsY" = _R70pDVsY;
         "fabric-1.21" = _R70pDVsY;
         "fabric-1.21.1" = _R70pDVsY;
+        "default" = _R70pDVsY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R70pDVsY";}
+in callPackage fn {version="default";}

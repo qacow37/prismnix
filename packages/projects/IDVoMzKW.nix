@@ -39,6 +39,7 @@ let
         "kyjnclsf" = _kyjnclsf;
         "6POfeRSS" = _6POfeRSS;
         "fabric-1.21.4" = _6POfeRSS;
+        "default" = _6POfeRSS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6POfeRSS";}
+in callPackage fn {version="default";}

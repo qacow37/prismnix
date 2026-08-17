@@ -262,6 +262,7 @@ let
         "quilt-26.1.1" = _uZobEVOW;
         "quilt-26.1.2" = _uZobEVOW;
         "quilt-26.2" = _uZobEVOW;
+        "default" = _uZobEVOW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -282,4 +283,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uZobEVOW";}
+in callPackage fn {version="default";}

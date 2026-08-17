@@ -10,6 +10,7 @@ let
         "BbsnBrQ3" = _BbsnBrQ3;
         "fabric-1.20.1" = _BbsnBrQ3;
         "quilt-1.20.1" = _BbsnBrQ3;
+        "default" = _BbsnBrQ3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BbsnBrQ3";}
+in callPackage fn {version="default";}

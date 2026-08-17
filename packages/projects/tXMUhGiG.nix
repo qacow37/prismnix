@@ -21,6 +21,7 @@ let
         "4sRIy9Ws" = _4sRIy9Ws;
         "jdvTXl4R" = _jdvTXl4R;
         "neoforge-1.21.8" = _jdvTXl4R;
+        "default" = _jdvTXl4R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jdvTXl4R";}
+in callPackage fn {version="default";}

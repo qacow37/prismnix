@@ -148,6 +148,7 @@ let
         "IEb5FUk2" = _IEb5FUk2;
         "forge-1.7.10" = _uC0HAPwp;
         "forge-1.12.2" = _IEb5FUk2;
+        "default" = _IEb5FUk2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IEb5FUk2";}
+in callPackage fn {version="default";}

@@ -57,6 +57,7 @@ let
         "8nvoFy6T" = _8nvoFy6T;
         "PMmmfsWB" = _PMmmfsWB;
         "neoforge-1.21.1" = _PMmmfsWB;
+        "default" = _PMmmfsWB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PMmmfsWB";}
+in callPackage fn {version="default";}

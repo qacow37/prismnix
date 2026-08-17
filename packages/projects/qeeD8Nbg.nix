@@ -147,6 +147,7 @@ let
         "quilt-26.1.1" = _c6RcGbaT;
         "quilt-26.1.2" = _c6RcGbaT;
         "quilt-26.2" = _c6RcGbaT;
+        "default" = _X89koaHD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="X89koaHD";}
+in callPackage fn {version="default";}

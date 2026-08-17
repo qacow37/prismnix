@@ -405,6 +405,7 @@ let
         "nwNYT8pW" = _nwNYT8pW;
         "Do8vDpiC" = _Do8vDpiC;
         "forge-1.12.2" = _Do8vDpiC;
+        "default" = _Do8vDpiC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -425,4 +426,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Do8vDpiC";}
+in callPackage fn {version="default";}

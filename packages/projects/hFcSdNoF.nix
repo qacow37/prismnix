@@ -39,6 +39,7 @@ let
         "Hl4Arxj4" = _Hl4Arxj4;
         "SLmXCcbS" = _SLmXCcbS;
         "forge-1.19.2" = _SLmXCcbS;
+        "default" = _SLmXCcbS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SLmXCcbS";}
+in callPackage fn {version="default";}

@@ -122,6 +122,7 @@ let
         "iris-1.21.11" = _imWTBhu4;
         "iris-1.19" = _imWTBhu4;
         "iris-1.19.1" = _imWTBhu4;
+        "default" = _imWTBhu4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -142,4 +143,4 @@ let
                 };
             };
         };
-in callPackage fn {version="imWTBhu4";}
+in callPackage fn {version="default";}

@@ -65,6 +65,7 @@ let
         "fabric-1.20.1" = _LEyeZnfx;
         "forge-1.20.1" = _LEyeZnfx;
         "neoforge-1.20.1" = _LEyeZnfx;
+        "default" = _LEyeZnfx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -85,4 +86,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LEyeZnfx";}
+in callPackage fn {version="default";}

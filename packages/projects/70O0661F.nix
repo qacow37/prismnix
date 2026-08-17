@@ -186,6 +186,7 @@ let
         "optifine-26.3-snapshot-2" = _BOtdyODd;
         "optifine-26.3-snapshot-3" = _BOtdyODd;
         "optifine-26.3-snapshot-4" = _BOtdyODd;
+        "default" = _68iiakIJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -206,4 +207,4 @@ let
                 };
             };
         };
-in callPackage fn {version="68iiakIJ";}
+in callPackage fn {version="default";}

@@ -52,6 +52,7 @@ let
         "Q5mI1PbW" = _Q5mI1PbW;
         "fabric-1.21.1" = _foasiZxt;
         "fabric-1.20.1" = _Q5mI1PbW;
+        "default" = _Q5mI1PbW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Q5mI1PbW";}
+in callPackage fn {version="default";}

@@ -427,6 +427,7 @@ let
         "spigot-26.1" = _BSBtnrMp;
         "spigot-26.1.1" = _BSBtnrMp;
         "spigot-26.1.2" = _BSBtnrMp;
+        "default" = _BSBtnrMp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -447,4 +448,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BSBtnrMp";}
+in callPackage fn {version="default";}

@@ -40,6 +40,7 @@ let
         "Jwdpo3CR" = _Jwdpo3CR;
         "fabric-1.21.1" = _ddyadO7b;
         "neoforge-1.21.1" = _Jwdpo3CR;
+        "default" = _Jwdpo3CR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Jwdpo3CR";}
+in callPackage fn {version="default";}

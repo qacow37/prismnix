@@ -15,6 +15,7 @@ let
         "bnAo2rat" = _bnAo2rat;
         "KmtXBIDg" = _KmtXBIDg;
         "forge-1.20.1" = _KmtXBIDg;
+        "default" = _KmtXBIDg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KmtXBIDg";}
+in callPackage fn {version="default";}

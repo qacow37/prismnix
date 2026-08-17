@@ -38,6 +38,7 @@ let
         "quilt-1.19.4" = _HEIHQiP3;
         "quilt-1.20" = _HEIHQiP3;
         "quilt-1.20.1" = _HEIHQiP3;
+        "default" = _HEIHQiP3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HEIHQiP3";}
+in callPackage fn {version="default";}

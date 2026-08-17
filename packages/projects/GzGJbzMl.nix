@@ -45,6 +45,7 @@ let
         "NrMn9Ba1" = _NrMn9Ba1;
         "gdmwbFGL" = _gdmwbFGL;
         "forge-1.12.2" = _gdmwbFGL;
+        "default" = _gdmwbFGL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gdmwbFGL";}
+in callPackage fn {version="default";}

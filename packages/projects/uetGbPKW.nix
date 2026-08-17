@@ -21,6 +21,7 @@ let
         "iCtoFHKa" = _iCtoFHKa;
         "DwA6a1pT" = _DwA6a1pT;
         "neoforge-1.21.1" = _DwA6a1pT;
+        "default" = _DwA6a1pT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DwA6a1pT";}
+in callPackage fn {version="default";}

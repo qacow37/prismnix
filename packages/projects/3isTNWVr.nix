@@ -680,6 +680,7 @@ let
         "optifine-26.2-rc-1" = _TuWriT0u;
         "optifine-26.2-rc-2" = _TuWriT0u;
         "optifine-26.2" = _TuWriT0u;
+        "default" = _TuWriT0u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -700,4 +701,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TuWriT0u";}
+in callPackage fn {version="default";}

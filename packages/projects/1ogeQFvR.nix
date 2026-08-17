@@ -151,6 +151,7 @@ let
         "quilt-1.20.6" = _sLyPYLY0;
         "quilt-1.21" = _vrhMp3SU;
         "quilt-1.21.1" = _vrhMp3SU;
+        "default" = _vrhMp3SU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -171,4 +172,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vrhMp3SU";}
+in callPackage fn {version="default";}

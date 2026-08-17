@@ -33,6 +33,7 @@ let
         "huWz6aCL" = _huWz6aCL;
         "KYArxJys" = _KYArxJys;
         "neoforge-1.21.1" = _KYArxJys;
+        "default" = _KYArxJys;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KYArxJys";}
+in callPackage fn {version="default";}

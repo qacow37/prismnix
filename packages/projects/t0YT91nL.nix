@@ -274,6 +274,7 @@ let
         "quilt-1.20.5" = _enEtoyym;
         "quilt-1.20.6" = _enEtoyym;
         "quilt-26.2" = _enEtoyym;
+        "default" = _enEtoyym;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -294,4 +295,4 @@ let
                 };
             };
         };
-in callPackage fn {version="enEtoyym";}
+in callPackage fn {version="default";}

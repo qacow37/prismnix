@@ -46,6 +46,7 @@ let
         "UxL7MSLp" = _UxL7MSLp;
         "fabric-1.20.1" = _1fexiNr1;
         "forge-1.20.1" = _UxL7MSLp;
+        "default" = _UxL7MSLp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UxL7MSLp";}
+in callPackage fn {version="default";}

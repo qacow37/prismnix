@@ -39,6 +39,7 @@ let
         "Lf3Wwx83" = _Lf3Wwx83;
         "vssvL15u" = _vssvL15u;
         "neoforge-1.21.1" = _vssvL15u;
+        "default" = _vssvL15u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vssvL15u";}
+in callPackage fn {version="default";}

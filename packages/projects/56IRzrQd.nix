@@ -82,6 +82,7 @@ let
         "jbm4xpVw" = _jbm4xpVw;
         "fabric-1.21.1" = _cmRE0O6A;
         "neoforge-1.21.1" = _jbm4xpVw;
+        "default" = _jbm4xpVw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jbm4xpVw";}
+in callPackage fn {version="default";}

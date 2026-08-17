@@ -150,6 +150,7 @@ let
         "iris-1.20.1" = _o2S1KeDB;
         "optifine-1.12.2" = _o2S1KeDB;
         "optifine-1.20.1" = _o2S1KeDB;
+        "default" = _o2S1KeDB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -170,4 +171,4 @@ let
                 };
             };
         };
-in callPackage fn {version="o2S1KeDB";}
+in callPackage fn {version="default";}

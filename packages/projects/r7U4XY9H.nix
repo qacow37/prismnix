@@ -35,6 +35,7 @@ let
         "minecraft-26.2-snapshot-4" = _GNSpl4rx;
         "minecraft-26.2-snapshot-5" = _GNSpl4rx;
         "minecraft-26.2-snapshot-6" = _GNSpl4rx;
+        "default" = _GNSpl4rx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GNSpl4rx";}
+in callPackage fn {version="default";}

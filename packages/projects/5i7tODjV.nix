@@ -9,6 +9,7 @@ let
     in {
         "Dsl2ENli" = _Dsl2ENli;
         "minecraft-1.21" = _Dsl2ENli;
+        "default" = _Dsl2ENli;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Dsl2ENli";}
+in callPackage fn {version="default";}

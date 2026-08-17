@@ -280,6 +280,7 @@ let
         "qt8ZniX9" = _qt8ZniX9;
         "fabric-1.20.2" = _LR3GyS9A;
         "fabric-1.20.1" = _qt8ZniX9;
+        "default" = _qt8ZniX9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -300,4 +301,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qt8ZniX9";}
+in callPackage fn {version="default";}

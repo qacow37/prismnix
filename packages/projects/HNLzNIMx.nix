@@ -15,6 +15,7 @@ let
         "xb1HmXwI" = _xb1HmXwI;
         "riSG59un" = _riSG59un;
         "forge-1.7.10" = _riSG59un;
+        "default" = _riSG59un;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="riSG59un";}
+in callPackage fn {version="default";}

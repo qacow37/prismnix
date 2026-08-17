@@ -113,6 +113,7 @@ let
         "minecraft-26.1" = _BNCkCSPB;
         "minecraft-26.1.1" = _BNCkCSPB;
         "minecraft-26.1.2" = _BNCkCSPB;
+        "default" = _BNCkCSPB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BNCkCSPB";}
+in callPackage fn {version="default";}

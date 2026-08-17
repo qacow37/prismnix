@@ -15,6 +15,7 @@ let
         "TUNUXIBR" = _TUNUXIBR;
         "X3nkmgF4" = _X3nkmgF4;
         "forge-1.12.2" = _X3nkmgF4;
+        "default" = _X3nkmgF4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="X3nkmgF4";}
+in callPackage fn {version="default";}

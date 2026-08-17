@@ -181,6 +181,7 @@ let
         "neoforge-26.1.2" = _a4CsrK9n;
         "neoforge-26.2" = _hWzRomGr;
         "forge-1.20.1" = _K5kwtHnd;
+        "default" = _hWzRomGr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -201,4 +202,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hWzRomGr";}
+in callPackage fn {version="default";}

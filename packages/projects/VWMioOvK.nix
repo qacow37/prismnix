@@ -161,6 +161,7 @@ let
         "minecraft-26.1.1" = _bUpgesAt;
         "minecraft-26.1.2" = _bUpgesAt;
         "minecraft-26.2" = _L2LO9fhz;
+        "default" = _L2LO9fhz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -181,4 +182,4 @@ let
                 };
             };
         };
-in callPackage fn {version="L2LO9fhz";}
+in callPackage fn {version="default";}

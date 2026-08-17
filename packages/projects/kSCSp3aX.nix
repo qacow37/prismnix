@@ -9,6 +9,7 @@ let
     in {
         "GPpjaMYN" = _GPpjaMYN;
         "forge-1.20.1" = _GPpjaMYN;
+        "default" = _GPpjaMYN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GPpjaMYN";}
+in callPackage fn {version="default";}

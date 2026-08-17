@@ -128,6 +128,7 @@ let
         "minecraft-26.1.1" = _DNBMIX95;
         "minecraft-26.1.2" = _DNBMIX95;
         "minecraft-26.2" = _DNBMIX95;
+        "default" = _DNBMIX95;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -148,4 +149,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DNBMIX95";}
+in callPackage fn {version="default";}

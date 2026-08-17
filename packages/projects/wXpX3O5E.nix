@@ -248,6 +248,7 @@ let
         "neoforge-1.21.9" = _wkDWg8FW;
         "neoforge-1.21.10" = _wkDWg8FW;
         "neoforge-1.21.11" = _wkDWg8FW;
+        "default" = _5GLmlCMj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -268,4 +269,4 @@ let
                 };
             };
         };
-in callPackage fn {version="5GLmlCMj";}
+in callPackage fn {version="default";}

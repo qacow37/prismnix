@@ -28,6 +28,7 @@ let
         "tV20JV5E" = _tV20JV5E;
         "neoforge-1.21.1" = _jBc1AAMC;
         "fabric-1.21.1" = _tV20JV5E;
+        "default" = _tV20JV5E;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tV20JV5E";}
+in callPackage fn {version="default";}

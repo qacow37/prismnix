@@ -133,6 +133,7 @@ let
         "neoforge-1.21.9" = _sBbnPvew;
         "neoforge-1.21.10" = _sBbnPvew;
         "neoforge-1.21.11" = _sBbnPvew;
+        "default" = _Osv2lu22;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -153,4 +154,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Osv2lu22";}
+in callPackage fn {version="default";}

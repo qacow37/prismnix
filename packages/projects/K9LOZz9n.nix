@@ -55,6 +55,7 @@ let
         "minecraft-26.1" = _RACM75Vc;
         "minecraft-26.1.1" = _RACM75Vc;
         "minecraft-26.1.2" = _RACM75Vc;
+        "default" = _RACM75Vc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RACM75Vc";}
+in callPackage fn {version="default";}

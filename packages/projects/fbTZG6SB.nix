@@ -22,6 +22,7 @@ let
         "tjsrvHBr" = _tjsrvHBr;
         "minecraft-1.20.1" = _tjsrvHBr;
         "minecraft-1.20.4" = _tjsrvHBr;
+        "default" = _tjsrvHBr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tjsrvHBr";}
+in callPackage fn {version="default";}

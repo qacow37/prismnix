@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _AXVcgLVo;
         "forge-1.20.5" = _AXVcgLVo;
         "forge-1.20.6" = _AXVcgLVo;
+        "default" = _AXVcgLVo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AXVcgLVo";}
+in callPackage fn {version="default";}

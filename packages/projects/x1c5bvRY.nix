@@ -27,6 +27,7 @@ let
         "Va2ZUbja" = _Va2ZUbja;
         "nDgZtdM4" = _nDgZtdM4;
         "forge-1.7.10" = _nDgZtdM4;
+        "default" = _nDgZtdM4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nDgZtdM4";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "wlIiMmXS" = _wlIiMmXS;
         "QBynrySs" = _QBynrySs;
         "forge-1.20.1" = _QBynrySs;
+        "default" = _QBynrySs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QBynrySs";}
+in callPackage fn {version="default";}

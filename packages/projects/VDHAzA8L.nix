@@ -26,6 +26,7 @@ let
         "minecraft-1.19.4" = _ASPnYN6Q;
         "minecraft-1.20.1" = _ASPnYN6Q;
         "minecraft-1.20.4" = _ASPnYN6Q;
+        "default" = _ASPnYN6Q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ASPnYN6Q";}
+in callPackage fn {version="default";}

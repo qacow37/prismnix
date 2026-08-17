@@ -50,6 +50,7 @@ let
         "fabric-26.1.2" = _Pa2bNHd2;
         "fabric-26.2" = _SgCSNoTc;
         "paper-26.2" = _IVIGCSk5;
+        "default" = _IVIGCSk5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IVIGCSk5";}
+in callPackage fn {version="default";}

@@ -3670,6 +3670,7 @@ let
         "java-agent-26.2-rc-2" = _iZx7H1ZV;
         "java-agent-26.2" = _iZx7H1ZV;
         "java-agent-26.3-snapshot-1" = _iZx7H1ZV;
+        "default" = _iZx7H1ZV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -3690,4 +3691,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iZx7H1ZV";}
+in callPackage fn {version="default";}

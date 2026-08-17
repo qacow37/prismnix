@@ -9,6 +9,7 @@ let
     in {
         "oigrT662" = _oigrT662;
         "forge-1.12.2" = _oigrT662;
+        "default" = _oigrT662;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oigrT662";}
+in callPackage fn {version="default";}

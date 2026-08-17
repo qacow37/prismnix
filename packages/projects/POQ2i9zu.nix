@@ -2548,6 +2548,7 @@ let
         "quilt-26.1.1" = _oMurpW2P;
         "quilt-26.1.2" = _oMurpW2P;
         "quilt-26.2" = _BtDb4Lcu;
+        "default" = _BtDb4Lcu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2568,4 +2569,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BtDb4Lcu";}
+in callPackage fn {version="default";}

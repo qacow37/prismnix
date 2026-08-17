@@ -33,6 +33,7 @@ let
         "7XIi334i" = _7XIi334i;
         "uRRVItgd" = _uRRVItgd;
         "neoforge-1.21.1" = _uRRVItgd;
+        "default" = _uRRVItgd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uRRVItgd";}
+in callPackage fn {version="default";}

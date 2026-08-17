@@ -69,6 +69,7 @@ let
         "39lSLf3I" = _39lSLf3I;
         "41hivtFC" = _41hivtFC;
         "neoforge-1.21.1" = _41hivtFC;
+        "default" = _41hivtFC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="41hivtFC";}
+in callPackage fn {version="default";}

@@ -75,6 +75,7 @@ let
         "WP3I68FX" = _WP3I68FX;
         "HdxWTFGw" = _HdxWTFGw;
         "forge-1.20.1" = _HdxWTFGw;
+        "default" = _HdxWTFGw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HdxWTFGw";}
+in callPackage fn {version="default";}

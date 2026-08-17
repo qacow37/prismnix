@@ -39,6 +39,7 @@ let
         "ARGWxuLB" = _ARGWxuLB;
         "CoRlbBOr" = _CoRlbBOr;
         "minecraft-1.21.11" = _CoRlbBOr;
+        "default" = _CoRlbBOr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CoRlbBOr";}
+in callPackage fn {version="default";}

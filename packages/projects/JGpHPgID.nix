@@ -22,6 +22,7 @@ let
         "CH85A6kl" = _CH85A6kl;
         "neoforge-1.21" = _CH85A6kl;
         "neoforge-1.21.1" = _CH85A6kl;
+        "default" = _CH85A6kl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CH85A6kl";}
+in callPackage fn {version="default";}

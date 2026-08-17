@@ -106,6 +106,7 @@ let
         "rgSEL8DL" = _rgSEL8DL;
         "neoforge-1.21.1" = _5CpFvcRC;
         "fabric-1.21.1" = _rgSEL8DL;
+        "default" = _rgSEL8DL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rgSEL8DL";}
+in callPackage fn {version="default";}

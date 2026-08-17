@@ -166,6 +166,7 @@ let
         "BdBmpa8F" = _BdBmpa8F;
         "forge-1.20.1" = _Db6EKT3b;
         "neoforge-1.21.1" = _BdBmpa8F;
+        "default" = _BdBmpa8F;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -186,4 +187,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BdBmpa8F";}
+in callPackage fn {version="default";}

@@ -112,6 +112,7 @@ let
         "minecraft-1.7.8" = _AC3VXsus;
         "minecraft-1.7.9" = _AC3VXsus;
         "minecraft-1.7.10" = _AC3VXsus;
+        "default" = _AC3VXsus;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AC3VXsus";}
+in callPackage fn {version="default";}

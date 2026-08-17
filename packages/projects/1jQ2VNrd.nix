@@ -81,6 +81,7 @@ let
         "2UWzmkf1" = _2UWzmkf1;
         "WddVCGzu" = _WddVCGzu;
         "forge-1.20.1" = _WddVCGzu;
+        "default" = _WddVCGzu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WddVCGzu";}
+in callPackage fn {version="default";}

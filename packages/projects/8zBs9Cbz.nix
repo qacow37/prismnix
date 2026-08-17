@@ -61,6 +61,7 @@ let
         "optifine-26.1.1" = _VmWD6ioa;
         "optifine-26.1.2" = _VmWD6ioa;
         "optifine-26.2" = _VmWD6ioa;
+        "default" = _VmWD6ioa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -81,4 +82,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VmWD6ioa";}
+in callPackage fn {version="default";}

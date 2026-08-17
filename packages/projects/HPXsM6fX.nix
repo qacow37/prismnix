@@ -22,6 +22,7 @@ let
         "ypnANfNy" = _ypnANfNy;
         "minecraft-1.20.1" = _ypnANfNy;
         "minecraft-1.20" = _ypnANfNy;
+        "default" = _ypnANfNy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ypnANfNy";}
+in callPackage fn {version="default";}

@@ -51,6 +51,7 @@ let
         "1T5jZUCO" = _1T5jZUCO;
         "JpBDNRT1" = _JpBDNRT1;
         "forge-1.20.1" = _JpBDNRT1;
+        "default" = _JpBDNRT1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JpBDNRT1";}
+in callPackage fn {version="default";}

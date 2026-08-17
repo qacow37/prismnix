@@ -46,6 +46,7 @@ let
         "HDclXCCm" = _HDclXCCm;
         "fabric-1.21.1" = _HDclXCCm;
         "neoforge-1.21.1" = _PRQfWTSw;
+        "default" = _HDclXCCm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HDclXCCm";}
+in callPackage fn {version="default";}

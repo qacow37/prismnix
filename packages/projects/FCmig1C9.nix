@@ -380,6 +380,7 @@ let
         "fabric-1.18.2-pre2" = _KCJiPrcE;
         "fabric-1.18.2-pre3" = _KCJiPrcE;
         "fabric-1.18.2-rc1" = _KCJiPrcE;
+        "default" = _KCJiPrcE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -400,4 +401,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KCJiPrcE";}
+in callPackage fn {version="default";}

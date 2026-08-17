@@ -28,6 +28,7 @@ let
         "WucztYmg" = _WucztYmg;
         "quilt-1.19.2" = _MXvBgubp;
         "quilt-1.20.1" = _WucztYmg;
+        "default" = _WucztYmg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WucztYmg";}
+in callPackage fn {version="default";}

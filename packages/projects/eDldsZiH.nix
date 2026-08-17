@@ -28,6 +28,7 @@ let
         "ZCEDAkln" = _ZCEDAkln;
         "fabric-1.20.1" = _YHrfLIma;
         "forge-1.20.1" = _ZCEDAkln;
+        "default" = _ZCEDAkln;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZCEDAkln";}
+in callPackage fn {version="default";}

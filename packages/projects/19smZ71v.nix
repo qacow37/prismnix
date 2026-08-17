@@ -350,6 +350,7 @@ let
         "fabric-1.19.2" = _ohzcpVjy;
         "neoforge-1.20.1" = _onR21RXD;
         "neoforge-1.21.1" = _UDFT3cby;
+        "default" = _UDFT3cby;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -370,4 +371,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UDFT3cby";}
+in callPackage fn {version="default";}

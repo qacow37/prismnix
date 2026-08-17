@@ -21,6 +21,7 @@ let
         "forge-1.20.5" = _mjC3dryr;
         "forge-1.20.6" = _mjC3dryr;
         "forge-1.20" = _vxlNaKmJ;
+        "default" = _vxlNaKmJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vxlNaKmJ";}
+in callPackage fn {version="default";}

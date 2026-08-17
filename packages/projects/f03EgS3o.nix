@@ -688,6 +688,7 @@ let
         "nesKPrb4" = _nesKPrb4;
         "forge-1.19.4" = _EeXw0BnZ;
         "forge-1.20.1" = _nesKPrb4;
+        "default" = _nesKPrb4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -708,4 +709,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nesKPrb4";}
+in callPackage fn {version="default";}

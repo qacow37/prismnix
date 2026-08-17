@@ -33,6 +33,7 @@ let
         "minecraft-26.1.1" = _6DAsrCd2;
         "minecraft-26.1.2" = _6DAsrCd2;
         "minecraft-26.2" = _fnTEpUPW;
+        "default" = _fnTEpUPW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fnTEpUPW";}
+in callPackage fn {version="default";}

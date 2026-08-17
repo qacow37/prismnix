@@ -98,6 +98,7 @@ let
         "iris-26.1" = _HzxDiNcr;
         "iris-26.1.1" = _HzxDiNcr;
         "iris-26.1.2" = _HzxDiNcr;
+        "default" = _HzxDiNcr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -118,4 +119,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HzxDiNcr";}
+in callPackage fn {version="default";}

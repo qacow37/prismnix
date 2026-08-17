@@ -46,6 +46,7 @@ let
         "dpeByO7m" = _dpeByO7m;
         "fabric-1.21.1" = _SVlRLzPE;
         "fabric-26.2" = _dpeByO7m;
+        "default" = _dpeByO7m;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dpeByO7m";}
+in callPackage fn {version="default";}

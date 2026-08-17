@@ -346,6 +346,7 @@ let
         "jqsdnTwe" = _jqsdnTwe;
         "neoforge-1.21.1" = _PxYhpk1a;
         "neoforge-26.1.2" = _jqsdnTwe;
+        "default" = _jqsdnTwe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -366,4 +367,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jqsdnTwe";}
+in callPackage fn {version="default";}

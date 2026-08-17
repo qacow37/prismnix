@@ -15,6 +15,7 @@ let
         "yRIcbBNv" = _yRIcbBNv;
         "eWggGUcc" = _eWggGUcc;
         "neoforge-1.21.1" = _eWggGUcc;
+        "default" = _eWggGUcc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eWggGUcc";}
+in callPackage fn {version="default";}

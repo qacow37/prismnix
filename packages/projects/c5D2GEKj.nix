@@ -51,6 +51,7 @@ let
         "3VurnEZI" = _3VurnEZI;
         "Aec5UUGP" = _Aec5UUGP;
         "fabric-1.21.1" = _Aec5UUGP;
+        "default" = _Aec5UUGP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Aec5UUGP";}
+in callPackage fn {version="default";}

@@ -174,6 +174,7 @@ let
         "fabric-26.1.1" = _U8PARUSp;
         "fabric-26.1.2" = _U8PARUSp;
         "fabric-26.2" = _BTD5NaRO;
+        "default" = _BTD5NaRO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -194,4 +195,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BTD5NaRO";}
+in callPackage fn {version="default";}

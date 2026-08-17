@@ -100,6 +100,7 @@ let
         "ryOv6KIl" = _ryOv6KIl;
         "forge-1.18.2" = _ocC1Dfyg;
         "forge-1.20.1" = _ryOv6KIl;
+        "default" = _ryOv6KIl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ryOv6KIl";}
+in callPackage fn {version="default";}

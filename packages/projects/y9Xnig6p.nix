@@ -220,6 +220,7 @@ let
         "pncc8FpD" = _pncc8FpD;
         "fabric-1.21.1" = _sr7bmgPZ;
         "neoforge-1.21.1" = _pncc8FpD;
+        "default" = _pncc8FpD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -240,4 +241,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pncc8FpD";}
+in callPackage fn {version="default";}

@@ -137,6 +137,7 @@ let
         "minecraft-1.11" = _VS32M63l;
         "minecraft-1.11.1" = _VS32M63l;
         "minecraft-1.11.2" = _VS32M63l;
+        "default" = _VS32M63l;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -157,4 +158,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VS32M63l";}
+in callPackage fn {version="default";}

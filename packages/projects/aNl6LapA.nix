@@ -11,6 +11,7 @@ let
         "fabric-1.20" = _tjet779X;
         "fabric-1.20.1" = _tjet779X;
         "fabric-1.20.2" = _tjet779X;
+        "default" = _tjet779X;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31,4 +32,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tjet779X";}
+in callPackage fn {version="default";}

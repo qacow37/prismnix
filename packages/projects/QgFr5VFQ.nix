@@ -26,6 +26,7 @@ let
         "fabric-1.20.4" = _ClGHETPJ;
         "fabric-1.20.5" = _ClGHETPJ;
         "fabric-1.20.6" = _ClGHETPJ;
+        "default" = _ClGHETPJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ClGHETPJ";}
+in callPackage fn {version="default";}

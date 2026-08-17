@@ -36,6 +36,7 @@ let
         "legacy-fabric-1.7.3" = _njNlmfSA;
         "legacy-fabric-1.7.4" = _njNlmfSA;
         "legacy-fabric-1.7.5" = _njNlmfSA;
+        "default" = _njNlmfSA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="njNlmfSA";}
+in callPackage fn {version="default";}

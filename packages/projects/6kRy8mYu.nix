@@ -16,6 +16,7 @@ let
         "bc1FtaLf" = _bc1FtaLf;
         "minecraft-1.8" = _bc1FtaLf;
         "minecraft-1.8.9" = _bc1FtaLf;
+        "default" = _bc1FtaLf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bc1FtaLf";}
+in callPackage fn {version="default";}

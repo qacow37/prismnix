@@ -21,6 +21,7 @@ let
         "tAMR2lVR" = _tAMR2lVR;
         "tw6sCMnw" = _tw6sCMnw;
         "fabric-1.21.1" = _tw6sCMnw;
+        "default" = _tw6sCMnw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tw6sCMnw";}
+in callPackage fn {version="default";}

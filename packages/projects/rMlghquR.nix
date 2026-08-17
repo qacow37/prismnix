@@ -659,6 +659,7 @@ let
         "neoforge-1.21.8" = _UmAzXMr3;
         "neoforge-1.21.5" = _iTxKDvvQ;
         "neoforge-26.2" = _Yj0NhN8R;
+        "default" = _pspfox28;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -679,4 +680,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pspfox28";}
+in callPackage fn {version="default";}

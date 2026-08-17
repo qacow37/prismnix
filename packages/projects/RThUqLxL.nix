@@ -15,6 +15,7 @@ let
         "wqqMV2VZ" = _wqqMV2VZ;
         "hliMb1mi" = _hliMb1mi;
         "forge-1.8.9" = _hliMb1mi;
+        "default" = _hliMb1mi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hliMb1mi";}
+in callPackage fn {version="default";}

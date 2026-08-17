@@ -21,6 +21,7 @@ let
         "minecraft-1.19.4" = _6EMUpgaT;
         "minecraft-1.20.1" = _6EMUpgaT;
         "minecraft-1.20.4" = _6EMUpgaT;
+        "default" = _6EMUpgaT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6EMUpgaT";}
+in callPackage fn {version="default";}

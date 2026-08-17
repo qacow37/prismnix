@@ -49,6 +49,7 @@ let
         "forge-1.12" = _Umx9KNau;
         "forge-1.12.1" = _Umx9KNau;
         "forge-1.12.2" = _Umx9KNau;
+        "default" = _Umx9KNau;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Umx9KNau";}
+in callPackage fn {version="default";}

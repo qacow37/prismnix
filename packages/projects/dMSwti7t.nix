@@ -104,6 +104,7 @@ let
         "quilt-1.21.6" = _dARIP5id;
         "quilt-1.21.7" = _dARIP5id;
         "quilt-1.21.8" = _dARIP5id;
+        "default" = _dARIP5id;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -124,4 +125,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dARIP5id";}
+in callPackage fn {version="default";}

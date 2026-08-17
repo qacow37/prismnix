@@ -191,6 +191,7 @@ let
         "minecraft-1.21.8" = _zmMEPxCb;
         "minecraft-1.21.9" = _zmMEPxCb;
         "minecraft-1.21.10" = _zmMEPxCb;
+        "default" = _zmMEPxCb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -211,4 +212,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zmMEPxCb";}
+in callPackage fn {version="default";}

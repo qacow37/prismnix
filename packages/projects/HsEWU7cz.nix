@@ -28,6 +28,7 @@ let
         "DNPrGS3F" = _DNPrGS3F;
         "fabric-1.20.1" = _DNPrGS3F;
         "forge-1.20.1" = _BDEPSwAv;
+        "default" = _DNPrGS3F;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DNPrGS3F";}
+in callPackage fn {version="default";}

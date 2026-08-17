@@ -28,6 +28,7 @@ let
         "RMV1s428" = _RMV1s428;
         "fabric-1.20.1" = _1wJ0uB67;
         "forge-1.20.1" = _RMV1s428;
+        "default" = _RMV1s428;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RMV1s428";}
+in callPackage fn {version="default";}

@@ -64,6 +64,7 @@ let
         "4kPXplAN" = _4kPXplAN;
         "neoforge-1.21.1" = _lY9vVUXi;
         "forge-1.20.1" = _4kPXplAN;
+        "default" = _4kPXplAN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4kPXplAN";}
+in callPackage fn {version="default";}

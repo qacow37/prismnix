@@ -800,6 +800,7 @@ let
         "minecraft-26.2-rc-1" = _XYMGslMI;
         "minecraft-26.2-rc-2" = _XYMGslMI;
         "minecraft-26.2" = _XYMGslMI;
+        "default" = _XYMGslMI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -820,4 +821,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XYMGslMI";}
+in callPackage fn {version="default";}

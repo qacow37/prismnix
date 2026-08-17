@@ -79,6 +79,7 @@ let
         "minecraft-1.21.10" = _DwOsAY80;
         "minecraft-1.21.11" = _DwOsAY80;
         "minecraft-26.1" = _DwOsAY80;
+        "default" = _DwOsAY80;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -99,4 +100,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DwOsAY80";}
+in callPackage fn {version="default";}

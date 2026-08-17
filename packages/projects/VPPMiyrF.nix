@@ -53,6 +53,7 @@ let
         "forge-1.21.3" = _cyrpzvbD;
         "forge-1.21.4" = _cyrpzvbD;
         "forge-1.21.5" = _J0PnGPYD;
+        "default" = _azGfREAV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="azGfREAV";}
+in callPackage fn {version="default";}

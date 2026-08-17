@@ -281,6 +281,7 @@ let
         "neoforge-26.1.1" = _iPidiR2n;
         "neoforge-26.1.2" = _iPidiR2n;
         "neoforge-26.2" = _RIFkXmRV;
+        "default" = _RIFkXmRV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -301,4 +302,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RIFkXmRV";}
+in callPackage fn {version="default";}

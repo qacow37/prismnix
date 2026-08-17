@@ -32,6 +32,7 @@ let
         "fabric-1.21.9" = _KFlplZfs;
         "fabric-1.21.10" = _KFlplZfs;
         "fabric-1.21.11" = _KFlplZfs;
+        "default" = _KFlplZfs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KFlplZfs";}
+in callPackage fn {version="default";}

@@ -23,6 +23,7 @@ let
         "fabric-1.19.4" = _VR32gbW1;
         "fabric-1.20" = _4oahfQHO;
         "fabric-1.20.1" = _GAT200Vk;
+        "default" = _GAT200Vk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GAT200Vk";}
+in callPackage fn {version="default";}

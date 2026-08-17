@@ -16,6 +16,7 @@ let
         "roDxPs6A" = _roDxPs6A;
         "fabric-1.20" = _roDxPs6A;
         "fabric-1.20.1" = _roDxPs6A;
+        "default" = _roDxPs6A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="roDxPs6A";}
+in callPackage fn {version="default";}

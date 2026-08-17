@@ -108,6 +108,7 @@ let
         "fabric-26.1" = _1yextvOS;
         "fabric-26.1.1" = _1yextvOS;
         "fabric-26.1.2" = _1yextvOS;
+        "default" = _1yextvOS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1yextvOS";}
+in callPackage fn {version="default";}

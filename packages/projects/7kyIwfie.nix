@@ -15,6 +15,7 @@ let
         "y3St0do0" = _y3St0do0;
         "AQCgiv4K" = _AQCgiv4K;
         "neoforge-1.21.1" = _AQCgiv4K;
+        "default" = _AQCgiv4K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AQCgiv4K";}
+in callPackage fn {version="default";}

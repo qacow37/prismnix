@@ -52,6 +52,7 @@ let
         "Jc3IEMmu" = _Jc3IEMmu;
         "forge-1.20.1" = _Jc3IEMmu;
         "neoforge-1.20.1" = _F2xiYlnR;
+        "default" = _Jc3IEMmu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Jc3IEMmu";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "pVHS2lTc" = _pVHS2lTc;
         "NOeDEseI" = _NOeDEseI;
         "neoforge-1.21.1" = _NOeDEseI;
+        "default" = _NOeDEseI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NOeDEseI";}
+in callPackage fn {version="default";}

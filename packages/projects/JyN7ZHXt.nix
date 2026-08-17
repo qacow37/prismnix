@@ -28,6 +28,7 @@ let
         "kiVektne" = _kiVektne;
         "forge-1.19.2" = _KCgn180t;
         "forge-1.20.1" = _kiVektne;
+        "default" = _kiVektne;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kiVektne";}
+in callPackage fn {version="default";}

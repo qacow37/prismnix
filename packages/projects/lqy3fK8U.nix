@@ -15,6 +15,7 @@ let
         "qlgdr75b" = _qlgdr75b;
         "l2Ruer8W" = _l2Ruer8W;
         "forge-1.19.2" = _l2Ruer8W;
+        "default" = _l2Ruer8W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l2Ruer8W";}
+in callPackage fn {version="default";}

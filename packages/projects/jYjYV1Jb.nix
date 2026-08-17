@@ -22,6 +22,7 @@ let
         "T3B5ZVMs" = _T3B5ZVMs;
         "fabric-1.21.1" = _T3B5ZVMs;
         "neoforge-1.21.1" = _T3B5ZVMs;
+        "default" = _T3B5ZVMs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="T3B5ZVMs";}
+in callPackage fn {version="default";}

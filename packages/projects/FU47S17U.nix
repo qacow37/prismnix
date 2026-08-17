@@ -128,6 +128,7 @@ let
         "quilt-26.1.1" = _IAQMkPIk;
         "quilt-26.1.2" = _IAQMkPIk;
         "quilt-26.2" = _IAQMkPIk;
+        "default" = _IAQMkPIk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -148,4 +149,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IAQMkPIk";}
+in callPackage fn {version="default";}

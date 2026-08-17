@@ -105,6 +105,7 @@ let
         "wIpMvLSu" = _wIpMvLSu;
         "HtTubTnI" = _HtTubTnI;
         "bta-babric-b1.7.3" = _HtTubTnI;
+        "default" = _HtTubTnI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HtTubTnI";}
+in callPackage fn {version="default";}

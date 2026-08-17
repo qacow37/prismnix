@@ -40,6 +40,7 @@ let
         "lEmazn2j" = _lEmazn2j;
         "fabric-1.20.1" = _lEmazn2j;
         "quilt-1.20.1" = _jHaxpD7d;
+        "default" = _lEmazn2j;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lEmazn2j";}
+in callPackage fn {version="default";}

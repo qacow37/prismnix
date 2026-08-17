@@ -118,6 +118,7 @@ let
         "fabric-26.1.1" = _hObOcTVx;
         "fabric-26.1.2" = _hObOcTVx;
         "fabric-26.2" = _hObOcTVx;
+        "default" = _hObOcTVx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -138,4 +139,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hObOcTVx";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "IanOgB1l" = _IanOgB1l;
         "neoforge-1.21.1" = _IanOgB1l;
         "forge-1.20.1" = _Q4CANwg9;
+        "default" = _IanOgB1l;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IanOgB1l";}
+in callPackage fn {version="default";}

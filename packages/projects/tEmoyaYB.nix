@@ -92,6 +92,7 @@ let
         "forge-1.20.4" = _s30C98qa;
         "forge-1.20.5" = _s30C98qa;
         "forge-1.20.6" = _s30C98qa;
+        "default" = _s30C98qa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="s30C98qa";}
+in callPackage fn {version="default";}

@@ -136,6 +136,7 @@ let
         "forge-1.19.3" = _kKVRzlw5;
         "forge-1.19.4" = _kKVRzlw5;
         "forge-1.20" = _kKVRzlw5;
+        "default" = _JXPuBiOx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JXPuBiOx";}
+in callPackage fn {version="default";}

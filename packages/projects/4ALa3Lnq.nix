@@ -62,6 +62,7 @@ let
         "minecraft-26.1.1" = _wiMOG7sD;
         "minecraft-26.1.2" = _wiMOG7sD;
         "minecraft-26.2" = _wiMOG7sD;
+        "default" = _wiMOG7sD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wiMOG7sD";}
+in callPackage fn {version="default";}

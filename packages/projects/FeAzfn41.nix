@@ -100,6 +100,7 @@ let
         "spigot-26.1.1" = _jGptEFOw;
         "spigot-26.1.2" = _jGptEFOw;
         "spigot-26.2" = _jGptEFOw;
+        "default" = _jGptEFOw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jGptEFOw";}
+in callPackage fn {version="default";}

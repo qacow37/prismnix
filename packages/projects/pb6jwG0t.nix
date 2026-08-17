@@ -352,6 +352,7 @@ let
         "Ke2fN79T" = _Ke2fN79T;
         "fabric-1.21.1" = _NiZhIsOt;
         "neoforge-1.21.1" = _Ke2fN79T;
+        "default" = _Ke2fN79T;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -372,4 +373,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ke2fN79T";}
+in callPackage fn {version="default";}

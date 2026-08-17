@@ -15,6 +15,7 @@ let
         "QBePaU0F" = _QBePaU0F;
         "glMCyexX" = _glMCyexX;
         "fabric-1.20.1" = _glMCyexX;
+        "default" = _glMCyexX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="glMCyexX";}
+in callPackage fn {version="default";}

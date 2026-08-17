@@ -67,6 +67,7 @@ let
         "datapack-26.1.1" = _L1smiUTM;
         "datapack-26.1.2" = _L1smiUTM;
         "datapack-26.2" = _L1smiUTM;
+        "default" = _L1smiUTM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -87,4 +88,4 @@ let
                 };
             };
         };
-in callPackage fn {version="L1smiUTM";}
+in callPackage fn {version="default";}

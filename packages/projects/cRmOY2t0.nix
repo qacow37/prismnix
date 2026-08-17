@@ -45,6 +45,7 @@ let
         "EClLEXwg" = _EClLEXwg;
         "2QCmzo0d" = _2QCmzo0d;
         "fabric-1.20.4" = _2QCmzo0d;
+        "default" = _2QCmzo0d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2QCmzo0d";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "n0NZxdWQ" = _n0NZxdWQ;
         "WEGRWbrc" = _WEGRWbrc;
         "forge-1.20.1" = _WEGRWbrc;
+        "default" = _WEGRWbrc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WEGRWbrc";}
+in callPackage fn {version="default";}

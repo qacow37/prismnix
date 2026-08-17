@@ -14,6 +14,7 @@ let
         "vanilla-1.21.9" = _qBZk4u3k;
         "vanilla-1.21.10" = _qBZk4u3k;
         "vanilla-1.21.11" = _qBZk4u3k;
+        "default" = _qBZk4u3k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qBZk4u3k";}
+in callPackage fn {version="default";}

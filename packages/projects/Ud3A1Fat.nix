@@ -91,6 +91,7 @@ let
         "fabric-26.1.1" = _WzlNDeNj;
         "fabric-26.1.2" = _WzlNDeNj;
         "fabric-26.2" = _cp04JPSY;
+        "default" = _cp04JPSY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -111,4 +112,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cp04JPSY";}
+in callPackage fn {version="default";}

@@ -95,6 +95,7 @@ let
         "forge-1.21.6" = _DsYDrLE1;
         "forge-1.21.7" = _DsYDrLE1;
         "forge-1.21.8" = _DsYDrLE1;
+        "default" = _DsYDrLE1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DsYDrLE1";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "32huTUZk" = _32huTUZk;
         "minecraft-1.21.5" = _32huTUZk;
         "vanilla-1.21.5" = _32huTUZk;
+        "default" = _32huTUZk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="32huTUZk";}
+in callPackage fn {version="default";}

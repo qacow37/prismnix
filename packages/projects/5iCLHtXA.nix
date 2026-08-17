@@ -83,6 +83,7 @@ let
         "minecraft-1.21.2" = _NEWfWInp;
         "minecraft-1.21.3" = _NEWfWInp;
         "minecraft-1.21.4" = _NEWfWInp;
+        "default" = _NEWfWInp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -103,4 +104,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NEWfWInp";}
+in callPackage fn {version="default";}

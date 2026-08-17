@@ -147,6 +147,7 @@ let
         "49yzjvg1" = _49yzjvg1;
         "zTTVX4Io" = _zTTVX4Io;
         "fabric-1.20.1" = _zTTVX4Io;
+        "default" = _zTTVX4Io;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zTTVX4Io";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "Wpwp3n5H" = _Wpwp3n5H;
         "forge-1.20" = _Wpwp3n5H;
         "forge-1.20.1" = _Wpwp3n5H;
+        "default" = _Wpwp3n5H;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Wpwp3n5H";}
+in callPackage fn {version="default";}

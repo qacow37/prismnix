@@ -28,6 +28,7 @@ let
         "SdSTi2ie" = _SdSTi2ie;
         "fabric-1.21.1" = _SdSTi2ie;
         "neoforge-1.21.1" = _3VT1i1B2;
+        "default" = _SdSTi2ie;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SdSTi2ie";}
+in callPackage fn {version="default";}

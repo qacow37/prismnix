@@ -75,6 +75,7 @@ let
         "zLrhPB82" = _zLrhPB82;
         "11Ibzlti" = _11Ibzlti;
         "forge-1.20.1" = _11Ibzlti;
+        "default" = _11Ibzlti;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="11Ibzlti";}
+in callPackage fn {version="default";}

@@ -186,6 +186,7 @@ let
         "folia-1.21.11" = _LmwpPjFI;
         "folia-26.1.2" = _LmwpPjFI;
         "folia-26.2" = _LmwpPjFI;
+        "default" = _LmwpPjFI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -206,4 +207,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LmwpPjFI";}
+in callPackage fn {version="default";}

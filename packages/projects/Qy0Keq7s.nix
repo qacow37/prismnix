@@ -120,6 +120,7 @@ let
         "forge-1.21.1" = _qUIKidTV;
         "quilt-1.21" = _dkeQ2lAF;
         "quilt-1.21.1" = _qUIKidTV;
+        "default" = _qUIKidTV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qUIKidTV";}
+in callPackage fn {version="default";}

@@ -26,6 +26,7 @@ let
         "neoforge-26.1" = _R9EUM5vi;
         "neoforge-26.1.1" = _R9EUM5vi;
         "neoforge-26.1.2" = _R9EUM5vi;
+        "default" = _R9EUM5vi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R9EUM5vi";}
+in callPackage fn {version="default";}

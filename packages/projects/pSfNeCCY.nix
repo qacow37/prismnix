@@ -115,6 +115,7 @@ let
         "fabric-26.1.1" = _Emo4roPS;
         "fabric-26.1.2" = _Emo4roPS;
         "fabric-26.2" = _8PlfrOFi;
+        "default" = _8PlfrOFi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -135,4 +136,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8PlfrOFi";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "CEtuA4Tw" = _CEtuA4Tw;
         "WFNHohMK" = _WFNHohMK;
         "fabric-1.21" = _WFNHohMK;
+        "default" = _WFNHohMK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WFNHohMK";}
+in callPackage fn {version="default";}

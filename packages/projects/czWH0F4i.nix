@@ -160,6 +160,7 @@ let
         "quilt-1.19.4" = _LvERiOLd;
         "quilt-1.20" = _ETlZbcSR;
         "quilt-1.20.1" = _ETlZbcSR;
+        "default" = _ETlZbcSR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -180,4 +181,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ETlZbcSR";}
+in callPackage fn {version="default";}

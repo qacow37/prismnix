@@ -209,6 +209,7 @@ let
         "purpur-26.1.1" = _V22EXIno;
         "purpur-26.1.2" = _V22EXIno;
         "purpur-26.2" = _V22EXIno;
+        "default" = _V22EXIno;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -229,4 +230,4 @@ let
                 };
             };
         };
-in callPackage fn {version="V22EXIno";}
+in callPackage fn {version="default";}

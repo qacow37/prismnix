@@ -311,6 +311,7 @@ let
         "fabric-1.21.11" = _bRfYoDYQ;
         "fabric-26.1" = _VPRewrer;
         "fabric-26.1.1" = _VPRewrer;
+        "default" = _VPRewrer;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -331,4 +332,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VPRewrer";}
+in callPackage fn {version="default";}

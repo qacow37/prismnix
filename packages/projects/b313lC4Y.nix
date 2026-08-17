@@ -667,6 +667,7 @@ let
         "neoforge-1.21.9" = _2GylkeX3;
         "neoforge-1.21.10" = _2GylkeX3;
         "neoforge-1.21.11" = _2GylkeX3;
+        "default" = _2GylkeX3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -687,4 +688,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2GylkeX3";}
+in callPackage fn {version="default";}

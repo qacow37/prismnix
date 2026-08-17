@@ -28,6 +28,7 @@ let
         "minecraft-1.21.5" = _6GByDAcy;
         "minecraft-1.21.6" = _6GByDAcy;
         "minecraft-1.21.7" = _6GByDAcy;
+        "default" = _6GByDAcy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6GByDAcy";}
+in callPackage fn {version="default";}

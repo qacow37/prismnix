@@ -136,6 +136,7 @@ let
         "neoforge-26.1.1" = _MMvb8enl;
         "neoforge-26.1.2" = _MMvb8enl;
         "neoforge-26.2" = _gmvAISwu;
+        "default" = _gmvAISwu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gmvAISwu";}
+in callPackage fn {version="default";}

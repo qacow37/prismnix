@@ -70,6 +70,7 @@ let
         "paper-26.2" = _SEuWUii2;
         "spigot-1.21.3" = _zEUeCCDc;
         "spigot-1.21.4" = _jU3fIRVu;
+        "default" = _SEuWUii2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SEuWUii2";}
+in callPackage fn {version="default";}

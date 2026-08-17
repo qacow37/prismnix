@@ -18,6 +18,7 @@ let
         "fabric-26.1" = _pgNIYO3D;
         "fabric-26.1.1" = _pgNIYO3D;
         "fabric-26.1.2" = _pgNIYO3D;
+        "default" = _pgNIYO3D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pgNIYO3D";}
+in callPackage fn {version="default";}

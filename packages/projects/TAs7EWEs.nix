@@ -15,6 +15,7 @@ let
         "kpS5QFUx" = _kpS5QFUx;
         "lyPZNTBl" = _lyPZNTBl;
         "neoforge-1.21.1" = _lyPZNTBl;
+        "default" = _lyPZNTBl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lyPZNTBl";}
+in callPackage fn {version="default";}

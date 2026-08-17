@@ -57,6 +57,7 @@ let
         "cH02SgCG" = _cH02SgCG;
         "xmd72asr" = _xmd72asr;
         "fabric-1.20.1" = _xmd72asr;
+        "default" = _xmd72asr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xmd72asr";}
+in callPackage fn {version="default";}

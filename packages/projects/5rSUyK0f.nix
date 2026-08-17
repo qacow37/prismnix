@@ -43,6 +43,7 @@ let
         "fabric-1.21" = _DNS6F48X;
         "forge-1.20.1" = _Qkgxun0I;
         "neoforge-1.21.1" = _sl3dGA7G;
+        "default" = _DNS6F48X;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DNS6F48X";}
+in callPackage fn {version="default";}

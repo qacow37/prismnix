@@ -75,6 +75,7 @@ let
         "vZozd2fk" = _vZozd2fk;
         "GoC3OIL4" = _GoC3OIL4;
         "forge-1.20.1" = _GoC3OIL4;
+        "default" = _GoC3OIL4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GoC3OIL4";}
+in callPackage fn {version="default";}

@@ -52,6 +52,7 @@ let
         "quilt-1.21.6" = _ndakeuPg;
         "quilt-1.21.7" = _ndakeuPg;
         "quilt-1.21.8" = _ndakeuPg;
+        "default" = _ndakeuPg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ndakeuPg";}
+in callPackage fn {version="default";}

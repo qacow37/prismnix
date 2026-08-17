@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _VsdBECrg;
         "spigot-1.21.10" = _VsdBECrg;
         "spigot-1.21.11" = _VsdBECrg;
+        "default" = _VsdBECrg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VsdBECrg";}
+in callPackage fn {version="default";}

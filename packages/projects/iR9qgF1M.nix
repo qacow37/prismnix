@@ -110,6 +110,7 @@ let
         "spigot-1.21.2" = _FpoJvfv5;
         "spigot-1.21.3" = _FpoJvfv5;
         "spigot-1.21.4" = _FpoJvfv5;
+        "default" = _msJYdEVT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -130,4 +131,4 @@ let
                 };
             };
         };
-in callPackage fn {version="msJYdEVT";}
+in callPackage fn {version="default";}

@@ -160,6 +160,7 @@ let
         "neoforge-1.20.6" = _tnP4eg1K;
         "neoforge-1.21" = _tnP4eg1K;
         "neoforge-1.21.1" = _tnP4eg1K;
+        "default" = _DHUI24N7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -180,4 +181,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DHUI24N7";}
+in callPackage fn {version="default";}

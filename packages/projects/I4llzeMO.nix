@@ -145,6 +145,7 @@ let
         "neoforge-1.21.3" = _ugRmbKu5;
         "neoforge-1.21.4" = _ugRmbKu5;
         "neoforge-1.21.5" = _CVpyc9Vo;
+        "default" = _CVpyc9Vo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -165,4 +166,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CVpyc9Vo";}
+in callPackage fn {version="default";}

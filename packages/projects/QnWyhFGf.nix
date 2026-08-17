@@ -76,6 +76,7 @@ let
         "wVSPSTdd" = _wVSPSTdd;
         "fabric-1.21.1" = _wVSPSTdd;
         "neoforge-1.21.1" = _AiAqRJIo;
+        "default" = _wVSPSTdd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wVSPSTdd";}
+in callPackage fn {version="default";}

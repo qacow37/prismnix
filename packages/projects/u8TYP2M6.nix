@@ -52,6 +52,7 @@ let
         "szUK5EJh" = _szUK5EJh;
         "fabric-1.20.1" = _t2dzSOil;
         "fabric-1.21.1" = _szUK5EJh;
+        "default" = _szUK5EJh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="szUK5EJh";}
+in callPackage fn {version="default";}

@@ -100,6 +100,7 @@ let
         "bEEaENX3" = _bEEaENX3;
         "fabric-1.20.1" = _bEEaENX3;
         "forge-1.20.1" = _vp5z5nz4;
+        "default" = _bEEaENX3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bEEaENX3";}
+in callPackage fn {version="default";}

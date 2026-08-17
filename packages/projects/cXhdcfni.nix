@@ -202,6 +202,7 @@ let
         "WWKuuFPt" = _WWKuuFPt;
         "forge-1.20.1" = _WWKuuFPt;
         "neoforge-1.20.1" = _WWKuuFPt;
+        "default" = _WWKuuFPt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -222,4 +223,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WWKuuFPt";}
+in callPackage fn {version="default";}

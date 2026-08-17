@@ -201,6 +201,7 @@ let
         "rArxSgc2" = _rArxSgc2;
         "VlboHl4T" = _VlboHl4T;
         "forge-1.12.2" = _VlboHl4T;
+        "default" = _VlboHl4T;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -221,4 +222,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VlboHl4T";}
+in callPackage fn {version="default";}

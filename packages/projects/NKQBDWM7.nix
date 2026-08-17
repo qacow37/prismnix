@@ -55,6 +55,7 @@ let
         "minecraft-1.16.2" = _tPW99AsF;
         "minecraft-1.16.3" = _tPW99AsF;
         "minecraft-1.16.4" = _tPW99AsF;
+        "default" = _Dcysdwur;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Dcysdwur";}
+in callPackage fn {version="default";}

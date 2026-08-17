@@ -15,6 +15,7 @@ let
         "BbTlJ0s4" = _BbTlJ0s4;
         "uDnC1TSw" = _uDnC1TSw;
         "neoforge-1.21.1" = _uDnC1TSw;
+        "default" = _uDnC1TSw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uDnC1TSw";}
+in callPackage fn {version="default";}

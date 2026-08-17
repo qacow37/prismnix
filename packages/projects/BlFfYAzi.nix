@@ -18,6 +18,7 @@ let
         "minecraft-1.20.1" = _mYDSOccl;
         "minecraft-1.20.2" = _mYDSOccl;
         "minecraft-1.21.11" = _fGd4yjve;
+        "default" = _fGd4yjve;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fGd4yjve";}
+in callPackage fn {version="default";}

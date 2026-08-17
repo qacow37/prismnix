@@ -27,6 +27,7 @@ let
         "lI4jjRZ4" = _lI4jjRZ4;
         "f58NFPmP" = _f58NFPmP;
         "forge-1.16.5" = _f58NFPmP;
+        "default" = _f58NFPmP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="f58NFPmP";}
+in callPackage fn {version="default";}

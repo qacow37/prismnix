@@ -16,6 +16,7 @@ let
         "gXDDuxAJ" = _gXDDuxAJ;
         "forge-1.20.1" = _euXV1ZbF;
         "minecraft-1.20.1" = _gXDDuxAJ;
+        "default" = _gXDDuxAJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gXDDuxAJ";}
+in callPackage fn {version="default";}

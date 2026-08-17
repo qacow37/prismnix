@@ -176,6 +176,7 @@ let
         "paper-1.19.2" = _UXiJRLU2;
         "sponge-1.17.1" = _a7irWvTD;
         "forge-1.18.1" = _jGcwejGi;
+        "default" = _UXiJRLU2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -196,4 +197,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UXiJRLU2";}
+in callPackage fn {version="default";}

@@ -70,6 +70,7 @@ let
         "rtd6B72y" = _rtd6B72y;
         "forge-1.20.1" = _tSJHyhPh;
         "neoforge-1.21.1" = _rtd6B72y;
+        "default" = _rtd6B72y;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rtd6B72y";}
+in callPackage fn {version="default";}

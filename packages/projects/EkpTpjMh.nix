@@ -174,6 +174,7 @@ let
         "minecraft-1.21.11" = _EcQTXekE;
         "minecraft-26.1" = _EcQTXekE;
         "minecraft-26.1.1" = _EcQTXekE;
+        "default" = _EcQTXekE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -194,4 +195,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EcQTXekE";}
+in callPackage fn {version="default";}

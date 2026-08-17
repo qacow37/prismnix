@@ -402,6 +402,7 @@ let
         "fabric-26.1.2" = _96182rl3;
         "fabric-26.2" = _96182rl3;
         "fabric-26.3-snapshot-5" = _IuU32M4k;
+        "default" = _IuU32M4k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -422,4 +423,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IuU32M4k";}
+in callPackage fn {version="default";}

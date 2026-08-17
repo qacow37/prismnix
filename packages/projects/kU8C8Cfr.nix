@@ -10,6 +10,7 @@ let
         "REOAlRLD" = _REOAlRLD;
         "minecraft-1.20" = _REOAlRLD;
         "minecraft-1.20.1" = _REOAlRLD;
+        "default" = _REOAlRLD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="REOAlRLD";}
+in callPackage fn {version="default";}

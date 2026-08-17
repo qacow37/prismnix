@@ -10,6 +10,7 @@ let
         "SX4sgkg1" = _SX4sgkg1;
         "fabric-1.21" = _SX4sgkg1;
         "fabric-1.21.1" = _SX4sgkg1;
+        "default" = _SX4sgkg1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SX4sgkg1";}
+in callPackage fn {version="default";}

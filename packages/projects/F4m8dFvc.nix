@@ -18,6 +18,7 @@ let
         "minecraft-1.21.1" = _Jyb9DSRw;
         "fabric-1.21.1" = _dlKStcm6;
         "neoforge-1.21.1" = _dlKStcm6;
+        "default" = _dlKStcm6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dlKStcm6";}
+in callPackage fn {version="default";}

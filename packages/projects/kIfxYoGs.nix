@@ -320,6 +320,7 @@ let
         "neoforge-1.21.9" = _fz24WWx1;
         "neoforge-1.21.10" = _fz24WWx1;
         "neoforge-1.21.11" = _LXpu0APx;
+        "default" = _LXpu0APx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -340,4 +341,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LXpu0APx";}
+in callPackage fn {version="default";}

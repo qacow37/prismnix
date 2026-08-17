@@ -21,6 +21,7 @@ let
         "wzjvm6et" = _wzjvm6et;
         "Ha5RG6IC" = _Ha5RG6IC;
         "forge-1.12.2" = _Ha5RG6IC;
+        "default" = _Ha5RG6IC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ha5RG6IC";}
+in callPackage fn {version="default";}

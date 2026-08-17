@@ -22,6 +22,7 @@ let
         "eFKK0a4w" = _eFKK0a4w;
         "fabric-1.20.1" = _eFKK0a4w;
         "forge-1.20.1" = _eFKK0a4w;
+        "default" = _eFKK0a4w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eFKK0a4w";}
+in callPackage fn {version="default";}

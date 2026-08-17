@@ -111,6 +111,7 @@ let
         "EEwpr5zc" = _EEwpr5zc;
         "FLuCf3M7" = _FLuCf3M7;
         "forge-1.20.1" = _FLuCf3M7;
+        "default" = _FLuCf3M7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FLuCf3M7";}
+in callPackage fn {version="default";}

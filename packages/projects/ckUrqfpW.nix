@@ -89,6 +89,7 @@ let
         "minecraft-1.21.8" = _NscKMres;
         "minecraft-1.21.9" = _NscKMres;
         "minecraft-1.21.10" = _NscKMres;
+        "default" = _NscKMres;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -109,4 +110,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NscKMres";}
+in callPackage fn {version="default";}

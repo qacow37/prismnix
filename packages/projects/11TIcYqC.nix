@@ -27,6 +27,7 @@ let
         "5YRG4zan" = _5YRG4zan;
         "MSVNRQbL" = _MSVNRQbL;
         "fabric-1.20.1" = _MSVNRQbL;
+        "default" = _MSVNRQbL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MSVNRQbL";}
+in callPackage fn {version="default";}

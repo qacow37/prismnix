@@ -9,6 +9,7 @@ let
     in {
         "LXsrA45L" = _LXsrA45L;
         "fabric-20w14infinite" = _LXsrA45L;
+        "default" = _LXsrA45L;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LXsrA45L";}
+in callPackage fn {version="default";}

@@ -150,6 +150,7 @@ let
         "datapack-1.21.1" = _801ge1rn;
         "minecraft-1.20.1" = _OVJTguDq;
         "minecraft-1.21.1" = _801ge1rn;
+        "default" = _801ge1rn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -170,4 +171,4 @@ let
                 };
             };
         };
-in callPackage fn {version="801ge1rn";}
+in callPackage fn {version="default";}

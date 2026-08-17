@@ -51,6 +51,7 @@ let
         "TNTHdexN" = _TNTHdexN;
         "kGDFg5YW" = _kGDFg5YW;
         "forge-1.16.5" = _kGDFg5YW;
+        "default" = _kGDFg5YW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kGDFg5YW";}
+in callPackage fn {version="default";}

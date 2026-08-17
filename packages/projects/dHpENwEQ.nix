@@ -32,6 +32,7 @@ let
         "minecraft-26.1.1" = _PotpsBxf;
         "minecraft-26.1.2" = _PotpsBxf;
         "minecraft-26.2" = _PotpsBxf;
+        "default" = _PotpsBxf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PotpsBxf";}
+in callPackage fn {version="default";}

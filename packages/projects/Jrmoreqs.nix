@@ -1845,6 +1845,7 @@ let
         "paper-1.21.1" = _kLUZZ2KH;
         "spigot-1.21" = _kLUZZ2KH;
         "spigot-1.21.1" = _kLUZZ2KH;
+        "default" = _kLUZZ2KH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1865,4 +1866,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kLUZZ2KH";}
+in callPackage fn {version="default";}

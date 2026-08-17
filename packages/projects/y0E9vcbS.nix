@@ -24,6 +24,7 @@ let
         "fabric-26.1.1" = _SUQDEKfA;
         "fabric-26.1.2" = _SUQDEKfA;
         "fabric-26.2" = _uVAcxmJS;
+        "default" = _SUQDEKfA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SUQDEKfA";}
+in callPackage fn {version="default";}

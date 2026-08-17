@@ -138,6 +138,7 @@ let
         "minecraft-1.14.3" = _aNbiHYSL;
         "minecraft-1.14.4" = _aNbiHYSL;
         "minecraft-1.20" = _nYcvy94l;
+        "default" = _nYcvy94l;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -158,4 +159,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nYcvy94l";}
+in callPackage fn {version="default";}

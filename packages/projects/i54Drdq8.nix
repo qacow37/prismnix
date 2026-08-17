@@ -207,6 +207,7 @@ let
         "LtEzD1ro" = _LtEzD1ro;
         "OOT4E7C7" = _OOT4E7C7;
         "neoforge-1.21.1" = _OOT4E7C7;
+        "default" = _OOT4E7C7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -227,4 +228,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OOT4E7C7";}
+in callPackage fn {version="default";}

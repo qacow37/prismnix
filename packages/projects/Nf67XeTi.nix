@@ -40,6 +40,7 @@ let
         "ArsKCqdl" = _ArsKCqdl;
         "neoforge-1.21.1" = _cH7tgPQp;
         "fabric-1.21.1" = _ArsKCqdl;
+        "default" = _ArsKCqdl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ArsKCqdl";}
+in callPackage fn {version="default";}

@@ -149,6 +149,7 @@ let
         "neoforge-1.20.2" = _Umk2HBPV;
         "neoforge-1.20.3" = _Umk2HBPV;
         "neoforge-1.20.4" = _Umk2HBPV;
+        "default" = _cgFRgpJi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cgFRgpJi";}
+in callPackage fn {version="default";}

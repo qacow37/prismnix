@@ -33,6 +33,7 @@ let
         "Ca2bEb6C" = _Ca2bEb6C;
         "ETDz47gn" = _ETDz47gn;
         "forge-1.20.1" = _ETDz47gn;
+        "default" = _ETDz47gn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ETDz47gn";}
+in callPackage fn {version="default";}

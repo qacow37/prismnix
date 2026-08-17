@@ -46,6 +46,7 @@ let
         "NWaPUJut" = _NWaPUJut;
         "neoforge-1.21" = _NWaPUJut;
         "neoforge-1.21.1" = _NWaPUJut;
+        "default" = _NWaPUJut;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NWaPUJut";}
+in callPackage fn {version="default";}

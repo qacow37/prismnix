@@ -21,6 +21,7 @@ let
         "UNICUmNP" = _UNICUmNP;
         "asO6oH90" = _asO6oH90;
         "minecraft-1.20.1" = _asO6oH90;
+        "default" = _asO6oH90;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="asO6oH90";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "LOUaV42r" = _LOUaV42r;
         "SIPCw6tO" = _SIPCw6tO;
         "forge-1.18.2" = _SIPCw6tO;
+        "default" = _SIPCw6tO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SIPCw6tO";}
+in callPackage fn {version="default";}

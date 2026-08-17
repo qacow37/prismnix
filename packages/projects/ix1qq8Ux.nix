@@ -10091,6 +10091,7 @@ let
         "legacy-fabric-1.12.2" = _W0fgWf5U;
         "legacy-fabric-1.13.2" = _Zk8gny1t;
         "legacy-fabric-1.6.4" = _4L8kwbLQ;
+        "default" = _Z3o6SnNQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -10111,4 +10112,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Z3o6SnNQ";}
+in callPackage fn {version="default";}

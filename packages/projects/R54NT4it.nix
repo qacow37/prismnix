@@ -167,6 +167,7 @@ let
         "quilt-1.20.1" = _ptYLOBui;
         "forge-1.20.1" = _XgAuEfjD;
         "forge-1.20" = _XgAuEfjD;
+        "default" = _q59P2WFk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -187,4 +188,4 @@ let
                 };
             };
         };
-in callPackage fn {version="q59P2WFk";}
+in callPackage fn {version="default";}

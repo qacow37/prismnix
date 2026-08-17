@@ -18,6 +18,7 @@ let
         "minecraft-1.21.9" = _uRylUNFC;
         "minecraft-1.21.10" = _uRylUNFC;
         "minecraft-1.21.11" = _uRylUNFC;
+        "default" = _uRylUNFC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uRylUNFC";}
+in callPackage fn {version="default";}

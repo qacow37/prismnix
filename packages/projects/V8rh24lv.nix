@@ -75,6 +75,7 @@ let
         "EIoWtnfa" = _EIoWtnfa;
         "tkc4M5tY" = _tkc4M5tY;
         "neoforge-1.21.1" = _tkc4M5tY;
+        "default" = _tkc4M5tY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tkc4M5tY";}
+in callPackage fn {version="default";}

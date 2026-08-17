@@ -39,6 +39,7 @@ let
         "fabric-1.21.1" = _MTEOidFz;
         "fabric-1.21.2" = _MTEOidFz;
         "fabric-1.21.3" = _MTEOidFz;
+        "default" = _MTEOidFz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MTEOidFz";}
+in callPackage fn {version="default";}

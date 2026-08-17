@@ -45,6 +45,7 @@ let
         "9R2bfB7F" = _9R2bfB7F;
         "TbgJDMif" = _TbgJDMif;
         "forge-1.12.2" = _TbgJDMif;
+        "default" = _TbgJDMif;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TbgJDMif";}
+in callPackage fn {version="default";}

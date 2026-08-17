@@ -33,6 +33,7 @@ let
         "Zeb9vbrJ" = _Zeb9vbrJ;
         "52bIFOWT" = _52bIFOWT;
         "forge-1.20.1" = _52bIFOWT;
+        "default" = _52bIFOWT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="52bIFOWT";}
+in callPackage fn {version="default";}

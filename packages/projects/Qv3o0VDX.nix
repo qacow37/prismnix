@@ -85,6 +85,7 @@ let
         "forge-1.16.4" = _QWm1dT59;
         "forge-1.16.5" = _QWm1dT59;
         "forge-1.12.2" = _DmbnXKDP;
+        "default" = _DmbnXKDP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DmbnXKDP";}
+in callPackage fn {version="default";}

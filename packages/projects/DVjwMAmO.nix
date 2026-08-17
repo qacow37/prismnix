@@ -15,6 +15,7 @@ let
         "pDfYhNKx" = _pDfYhNKx;
         "kILA3d86" = _kILA3d86;
         "neoforge-1.21.1" = _kILA3d86;
+        "default" = _kILA3d86;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kILA3d86";}
+in callPackage fn {version="default";}

@@ -124,6 +124,7 @@ let
         "spigot-26.1.1" = _AN73vMZY;
         "spigot-26.1.2" = _AN73vMZY;
         "spigot-26.2" = _AN73vMZY;
+        "default" = _TpuMTTZ3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TpuMTTZ3";}
+in callPackage fn {version="default";}

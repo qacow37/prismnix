@@ -57,6 +57,7 @@ let
         "kFyeXmVS" = _kFyeXmVS;
         "S2dl02nv" = _S2dl02nv;
         "fabric-1.21.11" = _S2dl02nv;
+        "default" = _S2dl02nv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S2dl02nv";}
+in callPackage fn {version="default";}

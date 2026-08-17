@@ -16,6 +16,7 @@ let
         "yfbPIdr4" = _yfbPIdr4;
         "forge-1.8.9" = _rQtTSS3o;
         "forge-1.12.2" = _yfbPIdr4;
+        "default" = _yfbPIdr4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yfbPIdr4";}
+in callPackage fn {version="default";}

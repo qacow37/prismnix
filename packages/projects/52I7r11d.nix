@@ -47,6 +47,7 @@ let
         "fabric-26.1" = _XNKoDVLD;
         "fabric-26.1.1" = _XNKoDVLD;
         "fabric-26.1.2" = _XNKoDVLD;
+        "default" = _XNKoDVLD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -67,4 +68,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XNKoDVLD";}
+in callPackage fn {version="default";}

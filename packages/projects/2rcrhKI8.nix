@@ -94,6 +94,7 @@ let
         "fkzlsPX7" = _fkzlsPX7;
         "fabric-1.20.1" = _T0AMRg8m;
         "forge-1.20.1" = _fkzlsPX7;
+        "default" = _fkzlsPX7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fkzlsPX7";}
+in callPackage fn {version="default";}

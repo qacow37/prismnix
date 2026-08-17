@@ -68,6 +68,7 @@ let
         "forge-1.18" = _8KSgEVEA;
         "forge-1.18.1" = _8KSgEVEA;
         "forge-1.18.2" = _8KSgEVEA;
+        "default" = _8KSgEVEA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8KSgEVEA";}
+in callPackage fn {version="default";}

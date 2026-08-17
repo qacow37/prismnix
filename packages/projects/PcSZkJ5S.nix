@@ -11,6 +11,7 @@ let
         "datapack-1.21.1" = _RxhetcTS;
         "fabric-1.21.1" = _RxhetcTS;
         "forge-1.21.1" = _RxhetcTS;
+        "default" = _RxhetcTS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31,4 +32,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RxhetcTS";}
+in callPackage fn {version="default";}

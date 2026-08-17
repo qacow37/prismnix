@@ -64,6 +64,7 @@ let
         "opkVBext" = _opkVBext;
         "forge-1.20.1" = _WHt02PAA;
         "neoforge-1.21.1" = _opkVBext;
+        "default" = _opkVBext;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="opkVBext";}
+in callPackage fn {version="default";}

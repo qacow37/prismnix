@@ -27,6 +27,7 @@ let
         "kpiU59Li" = _kpiU59Li;
         "cdTszQUW" = _cdTszQUW;
         "fabric-1.20.1" = _cdTszQUW;
+        "default" = _cdTszQUW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cdTszQUW";}
+in callPackage fn {version="default";}

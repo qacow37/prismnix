@@ -22,6 +22,7 @@ let
         "iwWchf82" = _iwWchf82;
         "forge-1.7.10" = _eHAKOhJr;
         "forge-1.12.2" = _iwWchf82;
+        "default" = _iwWchf82;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iwWchf82";}
+in callPackage fn {version="default";}

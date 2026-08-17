@@ -174,6 +174,7 @@ let
         "minecraft-24w45a" = _hEAESGEr;
         "minecraft-24w46a" = _hEAESGEr;
         "minecraft-26.2" = _hEAESGEr;
+        "default" = _hEAESGEr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -194,4 +195,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hEAESGEr";}
+in callPackage fn {version="default";}

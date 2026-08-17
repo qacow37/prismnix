@@ -430,6 +430,7 @@ let
         "neoforge-26.1.1" = _mSqlcrD1;
         "neoforge-26.1.2" = _mSqlcrD1;
         "neoforge-26.2" = _mSqlcrD1;
+        "default" = _mSqlcrD1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -450,4 +451,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mSqlcrD1";}
+in callPackage fn {version="default";}

@@ -99,6 +99,7 @@ let
         "z95zp0mp" = _z95zp0mp;
         "EM9Z3sTa" = _EM9Z3sTa;
         "forge-1.16.5" = _EM9Z3sTa;
+        "default" = _EM9Z3sTa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EM9Z3sTa";}
+in callPackage fn {version="default";}

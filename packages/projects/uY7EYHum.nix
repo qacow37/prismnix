@@ -178,6 +178,7 @@ let
         "Z43mg4A6" = _Z43mg4A6;
         "forge-1.20.1" = _Z43mg4A6;
         "neoforge-1.20.1" = _Z43mg4A6;
+        "default" = _Z43mg4A6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -198,4 +199,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Z43mg4A6";}
+in callPackage fn {version="default";}

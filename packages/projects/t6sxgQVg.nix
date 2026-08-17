@@ -155,6 +155,7 @@ let
         "minecraft-26.1.1" = _2iqGdjIp;
         "minecraft-26.1.2" = _2iqGdjIp;
         "minecraft-26.2" = _WWLpy1hu;
+        "default" = _WWLpy1hu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -175,4 +176,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WWLpy1hu";}
+in callPackage fn {version="default";}

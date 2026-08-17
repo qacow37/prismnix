@@ -243,6 +243,7 @@ let
         "hrTglqFL" = _hrTglqFL;
         "ltDT5Sai" = _ltDT5Sai;
         "forge-1.20.1" = _ltDT5Sai;
+        "default" = _ltDT5Sai;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -263,4 +264,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ltDT5Sai";}
+in callPackage fn {version="default";}

@@ -42,6 +42,7 @@ let
         "minecraft-1.21.2" = _iU222Xdi;
         "minecraft-1.21.3" = _iU222Xdi;
         "minecraft-1.21.4" = _iU222Xdi;
+        "default" = _iU222Xdi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iU222Xdi";}
+in callPackage fn {version="default";}

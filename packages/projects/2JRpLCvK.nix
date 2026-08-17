@@ -16,6 +16,7 @@ let
         "upy38bFL" = _upy38bFL;
         "neoforge-1.21.1" = _6PCcn8on;
         "forge-1.20.1" = _upy38bFL;
+        "default" = _upy38bFL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="upy38bFL";}
+in callPackage fn {version="default";}

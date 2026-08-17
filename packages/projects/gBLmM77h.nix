@@ -33,6 +33,7 @@ let
         "NtK32FtO" = _NtK32FtO;
         "wGls5UAW" = _wGls5UAW;
         "forge-1.20.1" = _wGls5UAW;
+        "default" = _wGls5UAW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wGls5UAW";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "6hyS8faY" = _6hyS8faY;
         "LVy74bTC" = _LVy74bTC;
         "fabric-1.21.11" = _LVy74bTC;
+        "default" = _LVy74bTC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LVy74bTC";}
+in callPackage fn {version="default";}

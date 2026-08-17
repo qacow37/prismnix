@@ -108,6 +108,7 @@ let
         "quilt-1.20.3" = _7Hl03yPV;
         "quilt-1.20.4" = _7Hl03yPV;
         "neoforge-26.2" = _prsuniV7;
+        "default" = _prsuniV7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="prsuniV7";}
+in callPackage fn {version="default";}

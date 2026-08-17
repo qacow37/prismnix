@@ -88,6 +88,7 @@ let
         "neoforge-26.1.1" = _BSCNEPAv;
         "neoforge-26.1.2" = _BSCNEPAv;
         "neoforge-26.2" = _BSCNEPAv;
+        "default" = _BSCNEPAv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BSCNEPAv";}
+in callPackage fn {version="default";}

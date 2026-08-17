@@ -29,6 +29,7 @@ let
         "forge-1.19.2" = _nswAOup6;
         "forge-1.19.3" = _nswAOup6;
         "forge-1.19.4" = _nswAOup6;
+        "default" = _nswAOup6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nswAOup6";}
+in callPackage fn {version="default";}

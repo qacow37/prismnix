@@ -16,6 +16,7 @@ let
         "Zt2MKZir" = _Zt2MKZir;
         "fabric-1.21.1" = _ZyeX2g9o;
         "neoforge-1.21.1" = _Zt2MKZir;
+        "default" = _Zt2MKZir;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Zt2MKZir";}
+in callPackage fn {version="default";}

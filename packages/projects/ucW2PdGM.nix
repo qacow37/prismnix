@@ -102,6 +102,7 @@ let
         "minecraft-1.21.9" = _Eucyfplm;
         "minecraft-1.21.10" = _Eucyfplm;
         "minecraft-1.21.11" = _Eucyfplm;
+        "default" = _Eucyfplm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -122,4 +123,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Eucyfplm";}
+in callPackage fn {version="default";}

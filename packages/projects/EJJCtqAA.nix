@@ -15,6 +15,7 @@ let
         "UrT498Ff" = _UrT498Ff;
         "syxhuaBI" = _syxhuaBI;
         "minecraft-1.20.1" = _syxhuaBI;
+        "default" = _syxhuaBI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="syxhuaBI";}
+in callPackage fn {version="default";}

@@ -9,6 +9,7 @@ let
     in {
         "HBM3CLMe" = _HBM3CLMe;
         "minecraft-1.19.4" = _HBM3CLMe;
+        "default" = _HBM3CLMe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HBM3CLMe";}
+in callPackage fn {version="default";}

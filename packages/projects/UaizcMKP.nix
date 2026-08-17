@@ -1906,6 +1906,7 @@ let
         "forge-1.19.3" = _ge82hW52;
         "forge-1.19.4" = _ge82hW52;
         "forge-1.20" = _pHYgUdbE;
+        "default" = _Sqif41cl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1926,4 +1927,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Sqif41cl";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "XBeg7tkb" = _XBeg7tkb;
         "minecraft-1.21.8" = _XBeg7tkb;
         "minecraft-1.21.10" = _XBeg7tkb;
+        "default" = _XBeg7tkb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XBeg7tkb";}
+in callPackage fn {version="default";}

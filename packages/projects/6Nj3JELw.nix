@@ -88,6 +88,7 @@ let
         "nBotvmlz" = _nBotvmlz;
         "forge-1.16.5" = _49zx26v3;
         "forge-1.20.1" = _nBotvmlz;
+        "default" = _nBotvmlz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nBotvmlz";}
+in callPackage fn {version="default";}

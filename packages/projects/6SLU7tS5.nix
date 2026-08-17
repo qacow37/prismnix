@@ -511,6 +511,7 @@ let
         "minecraft-26.1.1" = _tPC8gaIQ;
         "minecraft-26.1.2" = _tPC8gaIQ;
         "minecraft-26.2" = _tPC8gaIQ;
+        "default" = _tPC8gaIQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -531,4 +532,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tPC8gaIQ";}
+in callPackage fn {version="default";}

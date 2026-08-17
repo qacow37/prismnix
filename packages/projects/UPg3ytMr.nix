@@ -172,6 +172,7 @@ let
         "m4ZOavUu" = _m4ZOavUu;
         "babric-b1.7.3" = _m4ZOavUu;
         "fabric-b1.7.3" = _m4ZOavUu;
+        "default" = _m4ZOavUu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="m4ZOavUu";}
+in callPackage fn {version="default";}

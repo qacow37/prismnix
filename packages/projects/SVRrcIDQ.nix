@@ -22,6 +22,7 @@ let
         "e6ytpdmf" = _e6ytpdmf;
         "datapack-1.20.1" = _usHpMPqm;
         "forge-1.20.1" = _e6ytpdmf;
+        "default" = _e6ytpdmf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="e6ytpdmf";}
+in callPackage fn {version="default";}

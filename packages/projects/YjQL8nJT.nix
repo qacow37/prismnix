@@ -16,6 +16,7 @@ let
         "zIkFZdjK" = _zIkFZdjK;
         "datapack-1.21.1" = _eeyf924x;
         "neoforge-1.21.1" = _zIkFZdjK;
+        "default" = _zIkFZdjK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zIkFZdjK";}
+in callPackage fn {version="default";}

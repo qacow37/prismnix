@@ -172,6 +172,7 @@ let
         "jzztROSF" = _jzztROSF;
         "fabric-1.21.1" = _IlZ44NoT;
         "neoforge-1.21.1" = _jzztROSF;
+        "default" = _jzztROSF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jzztROSF";}
+in callPackage fn {version="default";}

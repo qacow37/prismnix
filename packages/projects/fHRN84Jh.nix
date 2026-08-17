@@ -27,6 +27,7 @@ let
         "XVlVTBye" = _XVlVTBye;
         "zDSUsR3i" = _zDSUsR3i;
         "forge-1.12.2" = _zDSUsR3i;
+        "default" = _zDSUsR3i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zDSUsR3i";}
+in callPackage fn {version="default";}

@@ -41,6 +41,7 @@ let
         "forge-1.20.1" = _nlFD2wmC;
         "neoforge-1.20.1" = _nlFD2wmC;
         "neoforge-1.21.1" = _pxPCTEEq;
+        "default" = _pxPCTEEq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pxPCTEEq";}
+in callPackage fn {version="default";}

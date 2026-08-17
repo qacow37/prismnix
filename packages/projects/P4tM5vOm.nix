@@ -107,6 +107,7 @@ let
         "neoforge-1.20.6" = _fSEty11z;
         "neoforge-1.21" = _fSEty11z;
         "neoforge-1.21.1" = _fSEty11z;
+        "default" = _fSEty11z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -127,4 +128,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fSEty11z";}
+in callPackage fn {version="default";}

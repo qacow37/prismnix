@@ -16,6 +16,7 @@ let
         "GAxW1pV6" = _GAxW1pV6;
         "datapack-1.20.1" = _GAxW1pV6;
         "minecraft-1.20.1" = _idV98KmD;
+        "default" = _GAxW1pV6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GAxW1pV6";}
+in callPackage fn {version="default";}

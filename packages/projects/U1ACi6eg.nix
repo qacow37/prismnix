@@ -84,6 +84,7 @@ let
         "fabric-1.20.4" = _LJGCDWzS;
         "fabric-1.21.1" = _KFo12Zr9;
         "neoforge-1.21.1" = _rflSuXTL;
+        "default" = _rflSuXTL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rflSuXTL";}
+in callPackage fn {version="default";}

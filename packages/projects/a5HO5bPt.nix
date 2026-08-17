@@ -109,6 +109,7 @@ let
         "minecraft-26.1.1" = _RExI4TOT;
         "minecraft-26.1.2" = _RExI4TOT;
         "minecraft-26.2" = _RExI4TOT;
+        "default" = _RExI4TOT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -129,4 +130,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RExI4TOT";}
+in callPackage fn {version="default";}

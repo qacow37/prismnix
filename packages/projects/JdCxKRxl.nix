@@ -41,6 +41,7 @@ let
         "minecraft-1.20.1" = _8OSOePmc;
         "minecraft-1.21.1" = _NHp5U1ki;
         "minecraft-1.20" = _8OSOePmc;
+        "default" = _8OSOePmc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8OSOePmc";}
+in callPackage fn {version="default";}

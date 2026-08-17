@@ -275,6 +275,7 @@ let
         "waterfall-26.1.1" = _sm5yLBux;
         "waterfall-26.1.2" = _sm5yLBux;
         "waterfall-26.2" = _sm5yLBux;
+        "default" = _sm5yLBux;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -295,4 +296,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sm5yLBux";}
+in callPackage fn {version="default";}

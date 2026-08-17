@@ -15,6 +15,7 @@ let
         "IPo7v81g" = _IPo7v81g;
         "HLDBIKtJ" = _HLDBIKtJ;
         "neoforge-1.21.1" = _HLDBIKtJ;
+        "default" = _HLDBIKtJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HLDBIKtJ";}
+in callPackage fn {version="default";}

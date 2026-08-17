@@ -357,6 +357,7 @@ let
         "minecraft-26.2-snapshot-1" = _btmmRlhm;
         "minecraft-26.1.2-rc-1" = _btmmRlhm;
         "minecraft-26.1.2" = _btmmRlhm;
+        "default" = _btmmRlhm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -377,4 +378,4 @@ let
                 };
             };
         };
-in callPackage fn {version="btmmRlhm";}
+in callPackage fn {version="default";}

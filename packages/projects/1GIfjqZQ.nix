@@ -40,6 +40,7 @@ let
         "tTgfMZas" = _tTgfMZas;
         "fabric-1.20.1" = _57xSf4fd;
         "forge-1.20.1" = _tTgfMZas;
+        "default" = _tTgfMZas;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tTgfMZas";}
+in callPackage fn {version="default";}

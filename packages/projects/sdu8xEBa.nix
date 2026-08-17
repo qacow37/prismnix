@@ -325,6 +325,7 @@ let
         "minecraft-26.2" = _jqLVL8B7;
         "minecraft-26.3-snapshot-1" = _jqLVL8B7;
         "minecraft-26.3-snapshot-2" = _jqLVL8B7;
+        "default" = _jqLVL8B7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -345,4 +346,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jqLVL8B7";}
+in callPackage fn {version="default";}

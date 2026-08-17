@@ -138,6 +138,7 @@ let
         "minecraft-1.21.5" = _MXCe5Mgr;
         "minecraft-25w14craftmine" = _MXCe5Mgr;
         "minecraft-25w15a" = _MXCe5Mgr;
+        "default" = _MXCe5Mgr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -158,4 +159,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MXCe5Mgr";}
+in callPackage fn {version="default";}

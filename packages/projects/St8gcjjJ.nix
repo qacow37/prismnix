@@ -380,6 +380,7 @@ let
         "quilt-1.21" = _zzN4SV85;
         "bungeecord-1.21.4" = _IoAlsHLe;
         "bungeecord-1.21.5" = _IoAlsHLe;
+        "default" = _sugifXfJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -400,4 +401,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sugifXfJ";}
+in callPackage fn {version="default";}

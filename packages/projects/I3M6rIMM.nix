@@ -17,6 +17,7 @@ let
         "datapack-1.20.1" = _xCazLulZ;
         "fabric-1.20.1" = _V9BoTaFc;
         "forge-1.20.1" = _V9BoTaFc;
+        "default" = _V9BoTaFc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="V9BoTaFc";}
+in callPackage fn {version="default";}

@@ -183,6 +183,7 @@ let
         "18wolpbg" = _18wolpbg;
         "mkViescX" = _mkViescX;
         "forge-1.12.2" = _mkViescX;
+        "default" = _mkViescX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -203,4 +204,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mkViescX";}
+in callPackage fn {version="default";}

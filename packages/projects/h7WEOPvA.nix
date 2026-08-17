@@ -66,6 +66,7 @@ let
         "forge-1.16.4" = _bIgBAfn8;
         "forge-1.16.5" = _bIgBAfn8;
         "neoforge-1.20.2" = _ynDvnzDb;
+        "default" = _ynDvnzDb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ynDvnzDb";}
+in callPackage fn {version="default";}

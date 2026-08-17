@@ -68,6 +68,7 @@ let
         "paper-1.21.9" = _FymqlvPe;
         "paper-1.21.10" = _FymqlvPe;
         "paper-1.21.11" = _FymqlvPe;
+        "default" = _FymqlvPe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FymqlvPe";}
+in callPackage fn {version="default";}

@@ -40,6 +40,7 @@ let
         "2XNLVRRD" = _2XNLVRRD;
         "fabric-1.20.1" = _2XNLVRRD;
         "forge-1.20.1" = _ibGhzFGV;
+        "default" = _2XNLVRRD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2XNLVRRD";}
+in callPackage fn {version="default";}

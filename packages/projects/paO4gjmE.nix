@@ -46,6 +46,7 @@ let
         "DLQKQQ53" = _DLQKQQ53;
         "neoforge-1.21.1" = _TW85kEGf;
         "fabric-1.21.1" = _DLQKQQ53;
+        "default" = _DLQKQQ53;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DLQKQQ53";}
+in callPackage fn {version="default";}

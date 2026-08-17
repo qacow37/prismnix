@@ -10,6 +10,7 @@ let
         "c5UPsoMm" = _c5UPsoMm;
         "minecraft-1.20" = _c5UPsoMm;
         "minecraft-1.20.1" = _c5UPsoMm;
+        "default" = _c5UPsoMm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c5UPsoMm";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "NMap7psI" = _NMap7psI;
         "neoforge-1.21" = _NMap7psI;
         "neoforge-1.21.1" = _NMap7psI;
+        "default" = _NMap7psI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NMap7psI";}
+in callPackage fn {version="default";}

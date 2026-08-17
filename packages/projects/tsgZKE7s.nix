@@ -39,6 +39,7 @@ let
         "XA1y2Noy" = _XA1y2Noy;
         "gvftQuaN" = _gvftQuaN;
         "forge-1.7.10" = _gvftQuaN;
+        "default" = _gvftQuaN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gvftQuaN";}
+in callPackage fn {version="default";}

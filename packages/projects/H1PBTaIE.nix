@@ -501,6 +501,7 @@ let
         "spigot-26.1.1" = _pf8ANOwf;
         "spigot-26.1.2" = _pf8ANOwf;
         "spigot-26.2" = _pf8ANOwf;
+        "default" = _pf8ANOwf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -521,4 +522,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pf8ANOwf";}
+in callPackage fn {version="default";}

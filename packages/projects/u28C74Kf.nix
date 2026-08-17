@@ -252,6 +252,7 @@ let
         "datapack-26.1.1" = _bL6179Lt;
         "datapack-26.1.2" = _bL6179Lt;
         "datapack-26.2" = _bL6179Lt;
+        "default" = _TROElHor;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -272,4 +273,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TROElHor";}
+in callPackage fn {version="default";}

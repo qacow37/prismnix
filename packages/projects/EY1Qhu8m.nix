@@ -16,6 +16,7 @@ let
         "HGpWsot0" = _HGpWsot0;
         "minecraft-1.20.4" = _iGskzINm;
         "minecraft-1.20.6" = _HGpWsot0;
+        "default" = _HGpWsot0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HGpWsot0";}
+in callPackage fn {version="default";}

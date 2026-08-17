@@ -9,6 +9,7 @@ let
     in {
         "zGTC5cAe" = _zGTC5cAe;
         "forge-1.20.1" = _zGTC5cAe;
+        "default" = _zGTC5cAe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zGTC5cAe";}
+in callPackage fn {version="default";}

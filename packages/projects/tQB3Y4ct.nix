@@ -63,6 +63,7 @@ let
         "dVYoHhpd" = _dVYoHhpd;
         "wacJc9SH" = _wacJc9SH;
         "bta-babric-b1.7.3" = _wacJc9SH;
+        "default" = _wacJc9SH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wacJc9SH";}
+in callPackage fn {version="default";}

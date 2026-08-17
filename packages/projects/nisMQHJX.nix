@@ -16,6 +16,7 @@ let
         "fabric-22w15a" = _lerin8mV;
         "fabric-22w16a" = _lerin8mV;
         "fabric-22w16b" = _lerin8mV;
+        "default" = _lerin8mV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lerin8mV";}
+in callPackage fn {version="default";}

@@ -37,6 +37,7 @@ let
         "fabric-1.20.2" = _VelgDGK8;
         "fabric-1.20.3" = _VelgDGK8;
         "fabric-1.20.4" = _VelgDGK8;
+        "default" = _VelgDGK8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VelgDGK8";}
+in callPackage fn {version="default";}

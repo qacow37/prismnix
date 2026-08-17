@@ -36,6 +36,7 @@ let
         "fabric-26.1.1" = _idlYd0An;
         "fabric-26.1.2" = _idlYd0An;
         "fabric-26.2" = _QbcNoYS3;
+        "default" = _QbcNoYS3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QbcNoYS3";}
+in callPackage fn {version="default";}

@@ -22,6 +22,7 @@ let
         "cKVpRowx" = _cKVpRowx;
         "forge-1.8.8" = _cKVpRowx;
         "forge-1.8.9" = _cKVpRowx;
+        "default" = _cKVpRowx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cKVpRowx";}
+in callPackage fn {version="default";}

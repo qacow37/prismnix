@@ -512,6 +512,7 @@ let
         "legacy-fabric-1.13.1" = _fovMiz0T;
         "legacy-fabric-1.13.2" = _fovMiz0T;
         "rift-1.13.2" = _3j6qS3zC;
+        "default" = _nmIl5dRD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -532,4 +533,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nmIl5dRD";}
+in callPackage fn {version="default";}

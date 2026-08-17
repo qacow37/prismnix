@@ -90,6 +90,7 @@ let
         "forge-1.19" = _hdl9WWop;
         "forge-1.19.1" = _hdl9WWop;
         "forge-1.19.2" = _hdl9WWop;
+        "default" = _L86sxIBu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -110,4 +111,4 @@ let
                 };
             };
         };
-in callPackage fn {version="L86sxIBu";}
+in callPackage fn {version="default";}

@@ -1136,6 +1136,7 @@ let
         "neoforge-26.2" = _zpaBdsEf;
         "bukkit-26.1.2" = _7o0SC43b;
         "paper-26.1.2" = _7o0SC43b;
+        "default" = _iZCOIvcn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1156,4 +1157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iZCOIvcn";}
+in callPackage fn {version="default";}

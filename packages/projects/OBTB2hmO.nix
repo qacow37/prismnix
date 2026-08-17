@@ -1115,6 +1115,7 @@ let
         "spigot-26.1.1" = _orKgzLsl;
         "spigot-26.1.2" = _orKgzLsl;
         "spigot-26.2" = _orKgzLsl;
+        "default" = _orKgzLsl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1135,4 +1136,4 @@ let
                 };
             };
         };
-in callPackage fn {version="orKgzLsl";}
+in callPackage fn {version="default";}

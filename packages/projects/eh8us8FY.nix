@@ -154,6 +154,7 @@ let
         "PebXoMM1" = _PebXoMM1;
         "forge-1.7.10" = _PebXoMM1;
         "forge-1.12.2" = _EbDCfhZA;
+        "default" = _PebXoMM1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -174,4 +175,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PebXoMM1";}
+in callPackage fn {version="default";}

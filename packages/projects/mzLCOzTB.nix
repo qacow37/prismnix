@@ -57,6 +57,7 @@ let
         "minecraft-1.21.9" = _VUZMeos8;
         "minecraft-1.21.10" = _VUZMeos8;
         "minecraft-1.21.11" = _VUZMeos8;
+        "default" = _VUZMeos8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VUZMeos8";}
+in callPackage fn {version="default";}

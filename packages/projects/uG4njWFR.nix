@@ -157,6 +157,7 @@ let
         "datapack-1.20" = _mkjxxoNS;
         "forge-1.20.1" = _B4HIVX8Z;
         "neoforge-1.21.1" = _mUchb4lO;
+        "default" = _OJ2Rvc57;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -177,4 +178,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OJ2Rvc57";}
+in callPackage fn {version="default";}

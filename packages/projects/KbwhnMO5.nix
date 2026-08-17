@@ -58,6 +58,7 @@ let
         "APWOe78q" = _APWOe78q;
         "babric-b1.7.3" = _APWOe78q;
         "ornithe-b1.7.3" = _yggi0Pjy;
+        "default" = _APWOe78q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="APWOe78q";}
+in callPackage fn {version="default";}

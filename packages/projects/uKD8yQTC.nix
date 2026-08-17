@@ -27,6 +27,7 @@ let
         "Ia7XCjCB" = _Ia7XCjCB;
         "TXfiD0CL" = _TXfiD0CL;
         "forge-1.20.1" = _TXfiD0CL;
+        "default" = _TXfiD0CL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TXfiD0CL";}
+in callPackage fn {version="default";}

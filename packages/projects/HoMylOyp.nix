@@ -28,6 +28,7 @@ let
         "oSAc1Sw0" = _oSAc1Sw0;
         "forge-1.20.1" = _oSAc1Sw0;
         "neoforge-1.21.1" = _WSHKXlmc;
+        "default" = _oSAc1Sw0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oSAc1Sw0";}
+in callPackage fn {version="default";}

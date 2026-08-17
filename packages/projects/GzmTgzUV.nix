@@ -41,6 +41,7 @@ let
         "fabric-1.19.2" = _D90N35xf;
         "fabric-1.19.3" = _D90N35xf;
         "fabric-1.19.4" = _D90N35xf;
+        "default" = _D90N35xf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="D90N35xf";}
+in callPackage fn {version="default";}

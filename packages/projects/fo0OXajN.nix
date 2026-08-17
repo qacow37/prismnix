@@ -53,6 +53,7 @@ let
         "minecraft-1.21.2" = _AVgcs64t;
         "minecraft-1.21.3" = _AVgcs64t;
         "minecraft-1.21.4" = _AVgcs64t;
+        "default" = _AVgcs64t;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AVgcs64t";}
+in callPackage fn {version="default";}

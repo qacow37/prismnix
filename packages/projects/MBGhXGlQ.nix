@@ -57,6 +57,7 @@ let
         "lanIyuSU" = _lanIyuSU;
         "uF3CvFUL" = _uF3CvFUL;
         "forge-1.20.1" = _uF3CvFUL;
+        "default" = _uF3CvFUL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uF3CvFUL";}
+in callPackage fn {version="default";}

@@ -87,6 +87,7 @@ let
         "HqwL93Qj" = _HqwL93Qj;
         "vqKSOCni" = _vqKSOCni;
         "forge-1.20.1" = _vqKSOCni;
+        "default" = _vqKSOCni;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vqKSOCni";}
+in callPackage fn {version="default";}

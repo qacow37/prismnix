@@ -575,6 +575,7 @@ let
         "neoforge-26.1.1" = _HDipXwe3;
         "neoforge-26.1.2" = _HDipXwe3;
         "neoforge-26.2" = _cdpT9ZLN;
+        "default" = _cdpT9ZLN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -595,4 +596,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cdpT9ZLN";}
+in callPackage fn {version="default";}

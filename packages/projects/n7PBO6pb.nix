@@ -410,6 +410,7 @@ let
         "neoforge-26.1.1" = _um523HBQ;
         "neoforge-26.1.2" = _sPTGBuhw;
         "neoforge-26.2" = _G73UEOIm;
+        "default" = _G73UEOIm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -430,4 +431,4 @@ let
                 };
             };
         };
-in callPackage fn {version="G73UEOIm";}
+in callPackage fn {version="default";}

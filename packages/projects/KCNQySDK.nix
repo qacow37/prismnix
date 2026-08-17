@@ -33,6 +33,7 @@ let
         "oiFCxFGt" = _oiFCxFGt;
         "qiiGMTOP" = _qiiGMTOP;
         "fabric-1.20.1" = _qiiGMTOP;
+        "default" = _qiiGMTOP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qiiGMTOP";}
+in callPackage fn {version="default";}

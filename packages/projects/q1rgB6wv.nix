@@ -497,6 +497,7 @@ let
         "quilt-24w45a" = _NS6VPvmI;
         "quilt-24w46a" = _NS6VPvmI;
         "quilt-26.2" = _NS6VPvmI;
+        "default" = _NS6VPvmI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -517,4 +518,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NS6VPvmI";}
+in callPackage fn {version="default";}

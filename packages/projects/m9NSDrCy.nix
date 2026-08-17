@@ -21,6 +21,7 @@ let
         "3xI11yvM" = _3xI11yvM;
         "Mact0OtA" = _Mact0OtA;
         "forge-1.20.1" = _Mact0OtA;
+        "default" = _Mact0OtA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Mact0OtA";}
+in callPackage fn {version="default";}

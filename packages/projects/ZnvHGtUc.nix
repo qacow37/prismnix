@@ -9,6 +9,7 @@ let
     in {
         "EqmBryUI" = _EqmBryUI;
         "quilt-1.20.1" = _EqmBryUI;
+        "default" = _EqmBryUI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EqmBryUI";}
+in callPackage fn {version="default";}

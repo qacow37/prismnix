@@ -66,6 +66,7 @@ let
         "iris-1.20.2" = _cCZwupwm;
         "iris-26.2" = _xGGcqubm;
         "fabric-26.2" = _xGGcqubm;
+        "default" = _xGGcqubm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xGGcqubm";}
+in callPackage fn {version="default";}

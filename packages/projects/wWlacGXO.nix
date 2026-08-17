@@ -16,6 +16,7 @@ let
         "VLc28MW2" = _VLc28MW2;
         "forge-1.20.1" = _47h2H1zO;
         "fabric-1.20.1" = _VLc28MW2;
+        "default" = _VLc28MW2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VLc28MW2";}
+in callPackage fn {version="default";}

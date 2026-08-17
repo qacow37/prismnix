@@ -159,6 +159,7 @@ let
         "L3WusIUV" = _L3WusIUV;
         "LyGvJjZa" = _LyGvJjZa;
         "forge-1.8.9" = _LyGvJjZa;
+        "default" = _LyGvJjZa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -179,4 +180,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LyGvJjZa";}
+in callPackage fn {version="default";}

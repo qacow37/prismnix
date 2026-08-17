@@ -250,6 +250,7 @@ let
         "OwJXmsUa" = _OwJXmsUa;
         "fabric-1.20.1" = _UdlQADIk;
         "fabric-1.21.1" = _OwJXmsUa;
+        "default" = _OwJXmsUa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -270,4 +271,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OwJXmsUa";}
+in callPackage fn {version="default";}

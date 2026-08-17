@@ -74,6 +74,7 @@ let
         "vanilla-1.21.6" = _4y0PFOJI;
         "vanilla-1.21.7" = _4y0PFOJI;
         "vanilla-1.21.8" = _4y0PFOJI;
+        "default" = _pyomOEMj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pyomOEMj";}
+in callPackage fn {version="default";}

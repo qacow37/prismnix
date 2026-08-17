@@ -199,6 +199,7 @@ let
         "neoforge-1.20.1" = _lsZpaEfr;
         "neoforge-1.21" = _ULqb1JGE;
         "neoforge-1.21.1" = _VSV1jgLU;
+        "default" = _ERIpMgna;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -219,4 +220,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ERIpMgna";}
+in callPackage fn {version="default";}

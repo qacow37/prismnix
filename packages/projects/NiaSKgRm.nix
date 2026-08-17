@@ -99,6 +99,7 @@ let
         "cxw4SdAv" = _cxw4SdAv;
         "jcBkN2lr" = _jcBkN2lr;
         "forge-1.20.1" = _jcBkN2lr;
+        "default" = _jcBkN2lr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jcBkN2lr";}
+in callPackage fn {version="default";}

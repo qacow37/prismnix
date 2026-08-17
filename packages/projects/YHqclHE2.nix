@@ -205,6 +205,7 @@ let
         "minecraft-1.21.6" = _FOCTE7iG;
         "minecraft-1.21.7" = _FOCTE7iG;
         "minecraft-1.21.8" = _FOCTE7iG;
+        "default" = _FOCTE7iG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -225,4 +226,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FOCTE7iG";}
+in callPackage fn {version="default";}

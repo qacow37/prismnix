@@ -22,6 +22,7 @@ let
         "uIrA446U" = _uIrA446U;
         "forge-1.20.1" = _JGznh0cz;
         "neoforge-1.21.1" = _uIrA446U;
+        "default" = _uIrA446U;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uIrA446U";}
+in callPackage fn {version="default";}

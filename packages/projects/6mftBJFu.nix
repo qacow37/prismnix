@@ -63,6 +63,7 @@ let
         "WaPyHyPK" = _WaPyHyPK;
         "RRqIPtDa" = _RRqIPtDa;
         "forge-1.20.1" = _RRqIPtDa;
+        "default" = _RRqIPtDa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RRqIPtDa";}
+in callPackage fn {version="default";}

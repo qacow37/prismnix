@@ -21,6 +21,7 @@ let
         "wiCbdH5T" = _wiCbdH5T;
         "erw9FAKn" = _erw9FAKn;
         "forge-1.20.1" = _erw9FAKn;
+        "default" = _erw9FAKn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="erw9FAKn";}
+in callPackage fn {version="default";}

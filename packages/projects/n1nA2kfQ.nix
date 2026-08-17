@@ -113,6 +113,7 @@ let
         "forge-1.20.1" = _zdKuDWML;
         "fabric-1.20.1" = _zdKuDWML;
         "neoforge-1.20.1" = _zdKuDWML;
+        "default" = _zdKuDWML;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zdKuDWML";}
+in callPackage fn {version="default";}

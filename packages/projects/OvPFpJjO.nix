@@ -150,6 +150,7 @@ let
         "optifine-1.20.5" = _zCt57lIF;
         "optifine-1.20.6" = _zCt57lIF;
         "optifine-1.21" = _zCt57lIF;
+        "default" = _zCt57lIF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -170,4 +171,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zCt57lIF";}
+in callPackage fn {version="default";}

@@ -9,6 +9,7 @@ let
     in {
         "sDRGWtIb" = _sDRGWtIb;
         "forge-1.16.5" = _sDRGWtIb;
+        "default" = _sDRGWtIb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sDRGWtIb";}
+in callPackage fn {version="default";}

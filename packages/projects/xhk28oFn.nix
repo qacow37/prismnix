@@ -28,6 +28,7 @@ let
         "FYLwerLI" = _FYLwerLI;
         "forge-1.20.1" = _WE75BEgz;
         "fabric-1.20.1" = _FYLwerLI;
+        "default" = _FYLwerLI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FYLwerLI";}
+in callPackage fn {version="default";}

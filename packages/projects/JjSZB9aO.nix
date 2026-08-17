@@ -520,6 +520,7 @@ let
         "quilt-24w44a" = _emcEeMNv;
         "quilt-24w45a" = _emcEeMNv;
         "quilt-24w46a" = _emcEeMNv;
+        "default" = _emcEeMNv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -540,4 +541,4 @@ let
                 };
             };
         };
-in callPackage fn {version="emcEeMNv";}
+in callPackage fn {version="default";}

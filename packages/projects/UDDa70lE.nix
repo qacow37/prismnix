@@ -76,6 +76,7 @@ let
         "optifine-1.21.2" = _rfCVvTvJ;
         "optifine-1.21.3" = _rfCVvTvJ;
         "optifine-1.21.4" = _rfCVvTvJ;
+        "default" = _rfCVvTvJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rfCVvTvJ";}
+in callPackage fn {version="default";}

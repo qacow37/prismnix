@@ -351,6 +351,7 @@ let
         "VbAYrfPC" = _VbAYrfPC;
         "U7efAnFt" = _U7efAnFt;
         "forge-1.7.10" = _U7efAnFt;
+        "default" = _U7efAnFt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -371,4 +372,4 @@ let
                 };
             };
         };
-in callPackage fn {version="U7efAnFt";}
+in callPackage fn {version="default";}

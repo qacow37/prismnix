@@ -34,6 +34,7 @@ let
         "QDTMz7G2" = _QDTMz7G2;
         "neoforge-1.21.4" = _98J2L7d6;
         "forge-1.20.1" = _QDTMz7G2;
+        "default" = _QDTMz7G2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QDTMz7G2";}
+in callPackage fn {version="default";}

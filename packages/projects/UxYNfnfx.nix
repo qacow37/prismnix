@@ -28,6 +28,7 @@ let
         "nmvr3DB5" = _nmvr3DB5;
         "forge-1.20.1" = _nmvr3DB5;
         "neoforge-1.20.1" = _nmvr3DB5;
+        "default" = _nmvr3DB5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nmvr3DB5";}
+in callPackage fn {version="default";}

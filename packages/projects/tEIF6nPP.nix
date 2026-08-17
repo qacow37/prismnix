@@ -26,6 +26,7 @@ let
         "datapack-1.19.1" = _RKitQudV;
         "datapack-1.19.2" = _RKitQudV;
         "datapack-1.19.3" = _RKitQudV;
+        "default" = _RKitQudV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RKitQudV";}
+in callPackage fn {version="default";}

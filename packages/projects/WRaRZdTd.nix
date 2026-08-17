@@ -1141,6 +1141,7 @@ let
         "neoforge-1.20.4" = _S6Bg0kY7;
         "neoforge-1.21" = _kXvMN51Y;
         "neoforge-1.21.1" = _RIxcwgDb;
+        "default" = _RIxcwgDb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1161,4 +1162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RIxcwgDb";}
+in callPackage fn {version="default";}

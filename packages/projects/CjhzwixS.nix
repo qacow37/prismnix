@@ -16,6 +16,7 @@ let
         "ljxTnuYX" = _ljxTnuYX;
         "fabric-1.21.1" = _oWeShpzu;
         "neoforge-1.21.1" = _ljxTnuYX;
+        "default" = _ljxTnuYX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ljxTnuYX";}
+in callPackage fn {version="default";}

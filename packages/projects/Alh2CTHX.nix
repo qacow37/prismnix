@@ -15,6 +15,7 @@ let
         "JmW9tGPn" = _JmW9tGPn;
         "mspV9oSS" = _mspV9oSS;
         "forge-1.19.2" = _mspV9oSS;
+        "default" = _mspV9oSS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mspV9oSS";}
+in callPackage fn {version="default";}

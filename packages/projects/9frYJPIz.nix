@@ -21,6 +21,7 @@ let
         "x6ncEsiC" = _x6ncEsiC;
         "GT1jtqZ1" = _GT1jtqZ1;
         "minecraft-1.20.4" = _GT1jtqZ1;
+        "default" = _GT1jtqZ1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GT1jtqZ1";}
+in callPackage fn {version="default";}

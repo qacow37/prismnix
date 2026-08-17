@@ -27,6 +27,7 @@ let
         "ymnzW1f3" = _ymnzW1f3;
         "c3cPgArt" = _c3cPgArt;
         "neoforge-1.21.1" = _c3cPgArt;
+        "default" = _c3cPgArt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c3cPgArt";}
+in callPackage fn {version="default";}

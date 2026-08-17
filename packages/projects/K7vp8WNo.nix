@@ -60,6 +60,7 @@ let
         "fabric-26.1.1" = _T60d6hkR;
         "fabric-26.1.2" = _T60d6hkR;
         "fabric-26.2" = _JTlAwsdv;
+        "default" = _JTlAwsdv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JTlAwsdv";}
+in callPackage fn {version="default";}

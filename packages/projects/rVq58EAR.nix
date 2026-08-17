@@ -51,6 +51,7 @@ let
         "fabric-1.21.9" = _hOAExlWD;
         "fabric-1.21.10" = _hOAExlWD;
         "fabric-1.21.11" = _hOAExlWD;
+        "default" = _hOAExlWD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hOAExlWD";}
+in callPackage fn {version="default";}

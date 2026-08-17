@@ -113,6 +113,7 @@ let
         "minecraft-1.21.11" = _FWPRenP9;
         "minecraft-26.1" = _FWPRenP9;
         "minecraft-26.1.1" = _FWPRenP9;
+        "default" = _FWPRenP9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FWPRenP9";}
+in callPackage fn {version="default";}

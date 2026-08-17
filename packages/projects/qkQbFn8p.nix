@@ -974,6 +974,7 @@ let
         "neoforge-26.2" = _hPZL9xvZ;
         "babric-b1.7.3" = _8vBLkCiO;
         "nilloader-1.4.7" = _alaY7bZv;
+        "default" = _QKRznkUc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -994,4 +995,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QKRznkUc";}
+in callPackage fn {version="default";}

@@ -6348,6 +6348,7 @@ let
         "rift-26.2-rc-1" = _4ablvWsr;
         "rift-26.2-rc-2" = _4ablvWsr;
         "rift-26.2" = _4ablvWsr;
+        "default" = _4ablvWsr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -6368,4 +6369,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4ablvWsr";}
+in callPackage fn {version="default";}

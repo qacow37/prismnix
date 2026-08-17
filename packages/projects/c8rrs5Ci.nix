@@ -64,6 +64,7 @@ let
         "RccQuDbc" = _RccQuDbc;
         "forge-1.20.1" = _RccQuDbc;
         "forge-1.19.4" = _CKAhrpsL;
+        "default" = _RccQuDbc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RccQuDbc";}
+in callPackage fn {version="default";}

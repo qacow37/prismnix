@@ -21,6 +21,7 @@ let
         "xzuHmuxv" = _xzuHmuxv;
         "SY96VZpv" = _SY96VZpv;
         "forge-1.16.5" = _SY96VZpv;
+        "default" = _SY96VZpv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SY96VZpv";}
+in callPackage fn {version="default";}

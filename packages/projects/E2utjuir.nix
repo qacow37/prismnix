@@ -45,6 +45,7 @@ let
         "Q4JLN1to" = _Q4JLN1to;
         "c3RaccI0" = _c3RaccI0;
         "forge-1.20.1" = _c3RaccI0;
+        "default" = _c3RaccI0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c3RaccI0";}
+in callPackage fn {version="default";}

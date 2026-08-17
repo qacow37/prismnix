@@ -155,6 +155,7 @@ let
         "minecraft-24w44a" = _RuGFY4DN;
         "minecraft-24w45a" = _RuGFY4DN;
         "minecraft-24w46a" = _RuGFY4DN;
+        "default" = _RuGFY4DN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -175,4 +176,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RuGFY4DN";}
+in callPackage fn {version="default";}

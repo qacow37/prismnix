@@ -114,6 +114,7 @@ let
         "minecraft-1.17" = _g98GzfWS;
         "minecraft-1.17.1" = _g98GzfWS;
         "minecraft-26.2" = _FQATxPDA;
+        "default" = _FQATxPDA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -134,4 +135,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FQATxPDA";}
+in callPackage fn {version="default";}

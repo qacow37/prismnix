@@ -16,6 +16,7 @@ let
         "zIpkFGI8" = _zIpkFGI8;
         "fabric-1.20" = _zIpkFGI8;
         "fabric-1.20.1" = _zIpkFGI8;
+        "default" = _zIpkFGI8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zIpkFGI8";}
+in callPackage fn {version="default";}

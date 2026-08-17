@@ -98,6 +98,7 @@ let
         "quilt-26.1.1" = _d3sDOCSq;
         "quilt-26.1.2" = _d3sDOCSq;
         "quilt-26.2" = _d3sDOCSq;
+        "default" = _d3sDOCSq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -118,4 +119,4 @@ let
                 };
             };
         };
-in callPackage fn {version="d3sDOCSq";}
+in callPackage fn {version="default";}

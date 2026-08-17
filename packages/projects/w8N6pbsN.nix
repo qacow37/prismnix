@@ -70,6 +70,7 @@ let
         "optifine-1.21.4" = _xGLd4NPs;
         "optifine-1.21.5" = _xGLd4NPs;
         "optifine-1.21.10" = _xGLd4NPs;
+        "default" = _xGLd4NPs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xGLd4NPs";}
+in callPackage fn {version="default";}

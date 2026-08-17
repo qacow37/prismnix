@@ -81,6 +81,7 @@ let
         "dCPORo7e" = _dCPORo7e;
         "LrrCVtyl" = _LrrCVtyl;
         "neoforge-1.21.4" = _LrrCVtyl;
+        "default" = _LrrCVtyl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LrrCVtyl";}
+in callPackage fn {version="default";}

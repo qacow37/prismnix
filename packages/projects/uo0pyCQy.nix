@@ -43,6 +43,7 @@ let
         "minecraft-26.1.1" = _niguTasm;
         "minecraft-26.1.2" = _niguTasm;
         "minecraft-26.2" = _niguTasm;
+        "default" = _niguTasm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="niguTasm";}
+in callPackage fn {version="default";}

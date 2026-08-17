@@ -76,6 +76,7 @@ let
         "HaRG2Vkj" = _HaRG2Vkj;
         "neoforge-1.21.1" = _TAxZLsgW;
         "fabric-1.21.1" = _HaRG2Vkj;
+        "default" = _HaRG2Vkj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HaRG2Vkj";}
+in callPackage fn {version="default";}

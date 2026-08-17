@@ -314,6 +314,7 @@ let
         "optifine-26.1.1" = _yCCduG44;
         "optifine-26.1.2" = _yCCduG44;
         "optifine-26.2" = _yCCduG44;
+        "default" = _yCCduG44;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -334,4 +335,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yCCduG44";}
+in callPackage fn {version="default";}

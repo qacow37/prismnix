@@ -98,6 +98,7 @@ let
         "spigot-1.21.8" = _JbST50CY;
         "spigot-1.21.9" = _JbST50CY;
         "spigot-1.21.10" = _JbST50CY;
+        "default" = _JbST50CY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -118,4 +119,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JbST50CY";}
+in callPackage fn {version="default";}

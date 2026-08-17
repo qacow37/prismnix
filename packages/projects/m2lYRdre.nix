@@ -16,6 +16,7 @@ let
         "juJQAmj2" = _juJQAmj2;
         "fabric-1.20.1" = _juJQAmj2;
         "quilt-1.20.1" = _juJQAmj2;
+        "default" = _juJQAmj2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="juJQAmj2";}
+in callPackage fn {version="default";}

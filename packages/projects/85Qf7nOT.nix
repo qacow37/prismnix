@@ -63,6 +63,7 @@ let
         "minecraft-1.12.2" = _7GxM4ly0;
         "minecraft-1.21" = _evMS3sur;
         "minecraft-1.21.1" = _evMS3sur;
+        "default" = _evMS3sur;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="evMS3sur";}
+in callPackage fn {version="default";}

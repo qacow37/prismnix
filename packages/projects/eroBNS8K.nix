@@ -68,6 +68,7 @@ let
         "minecraft-1.21.11" = _PQImSwrt;
         "minecraft-1.21.9" = _PQImSwrt;
         "minecraft-1.21.10" = _PQImSwrt;
+        "default" = _TKs9ibHD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TKs9ibHD";}
+in callPackage fn {version="default";}

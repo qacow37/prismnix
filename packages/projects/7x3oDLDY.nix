@@ -333,6 +333,7 @@ let
         "hGrF8Vq2" = _hGrF8Vq2;
         "getUiHuV" = _getUiHuV;
         "fabric-1.21.1" = _getUiHuV;
+        "default" = _getUiHuV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -353,4 +354,4 @@ let
                 };
             };
         };
-in callPackage fn {version="getUiHuV";}
+in callPackage fn {version="default";}

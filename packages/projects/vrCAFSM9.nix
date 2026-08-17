@@ -52,6 +52,7 @@ let
         "NvSOXE3L" = _NvSOXE3L;
         "forge-1.20.1" = _MvXDVfBj;
         "fabric-1.21.1" = _NvSOXE3L;
+        "default" = _NvSOXE3L;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NvSOXE3L";}
+in callPackage fn {version="default";}

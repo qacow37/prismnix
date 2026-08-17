@@ -57,6 +57,7 @@ let
         "MVD4zoea" = _MVD4zoea;
         "QOPOrDAl" = _QOPOrDAl;
         "forge-1.16.5" = _QOPOrDAl;
+        "default" = _QOPOrDAl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QOPOrDAl";}
+in callPackage fn {version="default";}

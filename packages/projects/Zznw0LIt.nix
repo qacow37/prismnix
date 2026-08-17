@@ -95,6 +95,7 @@ let
         "fabric-1.21.9" = _VC6vZTM3;
         "fabric-1.21.10" = _VC6vZTM3;
         "fabric-1.21.11" = _SgfNA9ii;
+        "default" = _SgfNA9ii;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SgfNA9ii";}
+in callPackage fn {version="default";}

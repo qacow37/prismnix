@@ -349,6 +349,7 @@ let
         "minecraft-1.10" = _nMIzi55B;
         "minecraft-1.10.1" = _nMIzi55B;
         "minecraft-1.10.2" = _nMIzi55B;
+        "default" = _nMIzi55B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -369,4 +370,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nMIzi55B";}
+in callPackage fn {version="default";}

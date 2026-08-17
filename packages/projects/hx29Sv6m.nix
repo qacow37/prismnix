@@ -15,6 +15,7 @@ let
         "PHjes5Az" = _PHjes5Az;
         "pDThwclp" = _pDThwclp;
         "fabric-1.20.1" = _pDThwclp;
+        "default" = _pDThwclp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pDThwclp";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "8mUsGBat" = _8mUsGBat;
         "ENRLyi5i" = _ENRLyi5i;
         "forge-1.20.1" = _ENRLyi5i;
+        "default" = _ENRLyi5i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ENRLyi5i";}
+in callPackage fn {version="default";}

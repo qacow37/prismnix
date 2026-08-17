@@ -1092,6 +1092,7 @@ let
         "fabric-26.1.1" = _ZURQLOMg;
         "fabric-26.1.2" = _ZURQLOMg;
         "fabric-26.2" = _zfWZhotf;
+        "default" = _ZURQLOMg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1112,4 +1113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZURQLOMg";}
+in callPackage fn {version="default";}

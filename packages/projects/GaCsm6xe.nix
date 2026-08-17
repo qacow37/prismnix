@@ -22,6 +22,7 @@ let
         "nKRVElD5" = _nKRVElD5;
         "minecraft-1.21.4" = _mGiPRLw7;
         "minecraft-1.21.11" = _nKRVElD5;
+        "default" = _nKRVElD5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nKRVElD5";}
+in callPackage fn {version="default";}

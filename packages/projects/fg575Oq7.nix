@@ -51,6 +51,7 @@ let
         "DwYvLReA" = _DwYvLReA;
         "6B2EXFxm" = _6B2EXFxm;
         "forge-1.20.1" = _6B2EXFxm;
+        "default" = _6B2EXFxm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6B2EXFxm";}
+in callPackage fn {version="default";}

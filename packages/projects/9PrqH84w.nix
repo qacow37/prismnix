@@ -51,6 +51,7 @@ let
         "PXQLYQqC" = _PXQLYQqC;
         "Br15pODr" = _Br15pODr;
         "forge-1.20.1" = _Br15pODr;
+        "default" = _Br15pODr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Br15pODr";}
+in callPackage fn {version="default";}

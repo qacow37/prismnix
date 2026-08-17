@@ -555,6 +555,7 @@ let
         "sponge-1.20.3" = _omGAZAMz;
         "sponge-1.20.4" = _omGAZAMz;
         "sponge-1.20.5" = _omGAZAMz;
+        "default" = _tmiNkQj0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -575,4 +576,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tmiNkQj0";}
+in callPackage fn {version="default";}

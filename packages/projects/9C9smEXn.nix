@@ -84,6 +84,7 @@ let
         "minecraft-26.1.1" = _EZd3Bulw;
         "minecraft-26.1.2" = _EZd3Bulw;
         "minecraft-26.2" = _EZd3Bulw;
+        "default" = _EZd3Bulw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EZd3Bulw";}
+in callPackage fn {version="default";}

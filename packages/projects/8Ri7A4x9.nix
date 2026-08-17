@@ -196,6 +196,7 @@ let
         "neoforge-1.21.2" = _PjFilBTi;
         "neoforge-1.21.3" = _PjFilBTi;
         "neoforge-1.21.4" = _ErmbfNon;
+        "default" = _t66zW5n9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -216,4 +217,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t66zW5n9";}
+in callPackage fn {version="default";}

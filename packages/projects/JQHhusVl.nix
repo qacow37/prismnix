@@ -148,6 +148,7 @@ let
         "iWY4lnBb" = _iWY4lnBb;
         "forge-1.20.1" = _Ct3H4pbu;
         "neoforge-1.21.1" = _iWY4lnBb;
+        "default" = _iWY4lnBb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iWY4lnBb";}
+in callPackage fn {version="default";}

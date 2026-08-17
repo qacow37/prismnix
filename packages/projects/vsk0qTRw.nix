@@ -57,6 +57,7 @@ let
         "neoforge-26.2" = _XiFKSsre;
         "forge-1.20" = _nZLiv0NX;
         "forge-1.20.1" = _nZLiv0NX;
+        "default" = _XiFKSsre;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XiFKSsre";}
+in callPackage fn {version="default";}

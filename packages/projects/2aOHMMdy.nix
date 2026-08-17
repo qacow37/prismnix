@@ -242,6 +242,7 @@ let
         "neoforge-26.1.1" = _TBXxWmFW;
         "neoforge-26.1.2" = _TBXxWmFW;
         "neoforge-26.2" = _TBXxWmFW;
+        "default" = _TBXxWmFW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -262,4 +263,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TBXxWmFW";}
+in callPackage fn {version="default";}

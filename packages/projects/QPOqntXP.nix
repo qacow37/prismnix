@@ -31,6 +31,7 @@ let
         "fabric-1.20.2" = _xmCBT4oh;
         "fabric-1.20.3" = _xmCBT4oh;
         "fabric-1.20.4" = _xmCBT4oh;
+        "default" = _xmCBT4oh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xmCBT4oh";}
+in callPackage fn {version="default";}

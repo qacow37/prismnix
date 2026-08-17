@@ -742,6 +742,7 @@ let
         "optifine-26.2-rc-1" = _Cazb1vC3;
         "optifine-26.2-rc-2" = _Cazb1vC3;
         "optifine-26.2" = _Cazb1vC3;
+        "default" = _Cazb1vC3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -762,4 +763,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Cazb1vC3";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "iExokWgK" = _iExokWgK;
         "fabric-26.1.2" = _Lk8PZmRe;
         "fabric-26.2" = _iExokWgK;
+        "default" = _iExokWgK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iExokWgK";}
+in callPackage fn {version="default";}

@@ -123,6 +123,7 @@ let
         "minecraft-26.2-pre-3" = _in6HA2L8;
         "minecraft-26.2-pre-4" = _in6HA2L8;
         "minecraft-26.2" = _OzeMMPtu;
+        "default" = _OzeMMPtu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OzeMMPtu";}
+in callPackage fn {version="default";}

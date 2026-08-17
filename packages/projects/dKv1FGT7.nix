@@ -51,6 +51,7 @@ let
         "DHdJ5LFT" = _DHdJ5LFT;
         "v3ZmWrP5" = _v3ZmWrP5;
         "forge-1.12.2" = _v3ZmWrP5;
+        "default" = _v3ZmWrP5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="v3ZmWrP5";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "minecraft-1.21.3" = _rVnMAtdo;
         "minecraft-1.21.4" = _rVnMAtdo;
         "minecraft-1.21.5" = _rVnMAtdo;
+        "default" = _rVnMAtdo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rVnMAtdo";}
+in callPackage fn {version="default";}

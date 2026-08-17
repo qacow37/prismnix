@@ -27,6 +27,7 @@ let
         "2mBED03K" = _2mBED03K;
         "HtKNrbWA" = _HtKNrbWA;
         "neoforge-1.21.1" = _HtKNrbWA;
+        "default" = _HtKNrbWA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HtKNrbWA";}
+in callPackage fn {version="default";}

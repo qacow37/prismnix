@@ -15,6 +15,7 @@ let
         "JrijNocN" = _JrijNocN;
         "BQRcDDiT" = _BQRcDDiT;
         "neoforge-1.21.1" = _BQRcDDiT;
+        "default" = _BQRcDDiT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BQRcDDiT";}
+in callPackage fn {version="default";}

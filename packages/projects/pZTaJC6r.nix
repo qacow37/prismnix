@@ -28,6 +28,7 @@ let
         "TAfrBDM6" = _TAfrBDM6;
         "forge-1.18.2" = _2Xer0xy4;
         "forge-1.20.1" = _TAfrBDM6;
+        "default" = _TAfrBDM6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TAfrBDM6";}
+in callPackage fn {version="default";}

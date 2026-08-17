@@ -93,6 +93,7 @@ let
         "FSao98rN" = _FSao98rN;
         "iBiVcVZX" = _iBiVcVZX;
         "fabric-1.21.1" = _iBiVcVZX;
+        "default" = _iBiVcVZX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iBiVcVZX";}
+in callPackage fn {version="default";}

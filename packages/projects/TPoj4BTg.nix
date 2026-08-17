@@ -151,6 +151,7 @@ let
         "minecraft-1.20-pre6" = _kykFDTLc;
         "minecraft-1.20-pre7" = _kykFDTLc;
         "minecraft-1.20-rc1" = _kykFDTLc;
+        "default" = _kykFDTLc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -171,4 +172,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kykFDTLc";}
+in callPackage fn {version="default";}

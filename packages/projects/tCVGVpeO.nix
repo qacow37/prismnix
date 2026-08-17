@@ -42,6 +42,7 @@ let
         "neoforge-1.21.11" = _Jri5SoCl;
         "quilt-1.21.10" = _nE0JTEax;
         "quilt-1.21.11" = _Jri5SoCl;
+        "default" = _Jri5SoCl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Jri5SoCl";}
+in callPackage fn {version="default";}

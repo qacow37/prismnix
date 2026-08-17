@@ -199,6 +199,7 @@ let
         "spigot-1.21.9" = _NyRPRFTR;
         "spigot-1.21.10" = _NyRPRFTR;
         "spigot-1.21.11" = _NyRPRFTR;
+        "default" = _NyRPRFTR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -219,4 +220,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NyRPRFTR";}
+in callPackage fn {version="default";}

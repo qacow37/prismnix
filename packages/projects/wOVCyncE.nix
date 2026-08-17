@@ -22,6 +22,7 @@ let
         "DkaFp61D" = _DkaFp61D;
         "forge-1.19.2" = _LvdXi0ow;
         "forge-1.20.1" = _DkaFp61D;
+        "default" = _DkaFp61D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DkaFp61D";}
+in callPackage fn {version="default";}

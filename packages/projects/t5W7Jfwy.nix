@@ -1435,6 +1435,7 @@ let
         "neoforge-1.20.6" = _vKeyKfkC;
         "neoforge-1.21" = _nKHizsl6;
         "neoforge-1.21.1" = _nKHizsl6;
+        "default" = _nKHizsl6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1455,4 +1456,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nKHizsl6";}
+in callPackage fn {version="default";}

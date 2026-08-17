@@ -106,6 +106,7 @@ let
         "uiEdwcsv" = _uiEdwcsv;
         "neoforge-1.21.1" = _LkkOdqdR;
         "forge-1.20.1" = _uiEdwcsv;
+        "default" = _uiEdwcsv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uiEdwcsv";}
+in callPackage fn {version="default";}

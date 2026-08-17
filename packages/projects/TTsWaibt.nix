@@ -33,6 +33,7 @@ let
         "ih5NJAdc" = _ih5NJAdc;
         "hicaxDd0" = _hicaxDd0;
         "forge-1.12.2" = _hicaxDd0;
+        "default" = _hicaxDd0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hicaxDd0";}
+in callPackage fn {version="default";}

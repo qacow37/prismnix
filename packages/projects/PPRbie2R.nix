@@ -27,6 +27,7 @@ let
         "a9ULyVRG" = _a9ULyVRG;
         "LLPDdXRs" = _LLPDdXRs;
         "forge-1.20.1" = _LLPDdXRs;
+        "default" = _LLPDdXRs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LLPDdXRs";}
+in callPackage fn {version="default";}

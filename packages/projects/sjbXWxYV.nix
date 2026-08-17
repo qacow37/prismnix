@@ -10,6 +10,7 @@ let
         "fBGV35VM" = _fBGV35VM;
         "forge-1.20.1" = _fBGV35VM;
         "neoforge-1.20.1" = _fBGV35VM;
+        "default" = _fBGV35VM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fBGV35VM";}
+in callPackage fn {version="default";}

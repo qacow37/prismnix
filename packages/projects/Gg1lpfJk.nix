@@ -58,6 +58,7 @@ let
         "DB2liDby" = _DB2liDby;
         "forge-1.20.1" = _iwXxUjmm;
         "fabric-1.20.1" = _DB2liDby;
+        "default" = _DB2liDby;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DB2liDby";}
+in callPackage fn {version="default";}

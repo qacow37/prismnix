@@ -85,6 +85,7 @@ let
         "vanilla-1.21.2" = _x3P5aFJZ;
         "vanilla-1.21.3" = _x3P5aFJZ;
         "vanilla-1.21.4" = _x3P5aFJZ;
+        "default" = _zllbkmWX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zllbkmWX";}
+in callPackage fn {version="default";}

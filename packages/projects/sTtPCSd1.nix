@@ -257,6 +257,7 @@ let
         "spigot-26.1.1" = _MXQO4Cab;
         "spigot-26.1.2" = _MXQO4Cab;
         "spigot-26.2" = _MXQO4Cab;
+        "default" = _MXQO4Cab;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -277,4 +278,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MXQO4Cab";}
+in callPackage fn {version="default";}

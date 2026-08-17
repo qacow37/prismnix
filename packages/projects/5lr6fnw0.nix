@@ -99,6 +99,7 @@ let
         "WThrOLeI" = _WThrOLeI;
         "GGU6zOUH" = _GGU6zOUH;
         "neoforge-1.21.1" = _GGU6zOUH;
+        "default" = _GGU6zOUH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GGU6zOUH";}
+in callPackage fn {version="default";}

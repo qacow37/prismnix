@@ -237,6 +237,7 @@ let
         "SgHWhtLu" = _SgHWhtLu;
         "fREnxzit" = _fREnxzit;
         "forge-1.7.10" = _fREnxzit;
+        "default" = _fREnxzit;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -257,4 +258,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fREnxzit";}
+in callPackage fn {version="default";}

@@ -70,6 +70,7 @@ let
         "neoforge-1.21" = _PaZpas7D;
         "neoforge-1.21.1" = _PaZpas7D;
         "neoforge-1.21.2" = _PaZpas7D;
+        "default" = _j7NAgmTi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="j7NAgmTi";}
+in callPackage fn {version="default";}

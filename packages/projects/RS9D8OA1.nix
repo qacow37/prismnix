@@ -45,6 +45,7 @@ let
         "t4jgK6IH" = _t4jgK6IH;
         "tCGYgrun" = _tCGYgrun;
         "fabric-1.20.1" = _tCGYgrun;
+        "default" = _tCGYgrun;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tCGYgrun";}
+in callPackage fn {version="default";}

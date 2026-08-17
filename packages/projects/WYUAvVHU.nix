@@ -21,6 +21,7 @@ let
         "pf2Pqesn" = _pf2Pqesn;
         "VXZ9SSIE" = _VXZ9SSIE;
         "forge-1.20.1" = _VXZ9SSIE;
+        "default" = _VXZ9SSIE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VXZ9SSIE";}
+in callPackage fn {version="default";}

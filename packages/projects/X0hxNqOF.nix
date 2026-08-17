@@ -20,6 +20,7 @@ let
         "paper-1.21.9" = _lytYngVp;
         "paper-1.21.10" = _lytYngVp;
         "paper-1.21.11" = _lytYngVp;
+        "default" = _lytYngVp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -40,4 +41,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lytYngVp";}
+in callPackage fn {version="default";}

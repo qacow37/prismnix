@@ -535,6 +535,7 @@ let
         "neoforge-24w45a" = _WaSVhi4e;
         "neoforge-24w46a" = _WaSVhi4e;
         "neoforge-26.1" = _WaSVhi4e;
+        "default" = _WaSVhi4e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -555,4 +556,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WaSVhi4e";}
+in callPackage fn {version="default";}

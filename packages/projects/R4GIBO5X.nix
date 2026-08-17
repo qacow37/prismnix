@@ -23,6 +23,7 @@ let
         "minecraft-26.1" = _WRoIGcL2;
         "minecraft-26.1.1" = _WRoIGcL2;
         "minecraft-26.1.2" = _WRoIGcL2;
+        "default" = _WRoIGcL2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WRoIGcL2";}
+in callPackage fn {version="default";}

@@ -274,6 +274,7 @@ let
         "3tvArxwR" = _3tvArxwR;
         "forge-1.20.1" = _bIBBeovu;
         "neoforge-1.21.1" = _3tvArxwR;
+        "default" = _3tvArxwR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -294,4 +295,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3tvArxwR";}
+in callPackage fn {version="default";}

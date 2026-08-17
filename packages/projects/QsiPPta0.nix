@@ -15,6 +15,7 @@ let
         "uN4AKtrF" = _uN4AKtrF;
         "Rh86Cb7C" = _Rh86Cb7C;
         "fabric-1.21.1" = _Rh86Cb7C;
+        "default" = _Rh86Cb7C;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Rh86Cb7C";}
+in callPackage fn {version="default";}

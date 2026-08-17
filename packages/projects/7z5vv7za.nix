@@ -24,6 +24,7 @@ let
         "minecraft-1.19" = _uAwN2IEv;
         "minecraft-1.19.1" = _uAwN2IEv;
         "minecraft-1.19.2" = _uAwN2IEv;
+        "default" = _uAwN2IEv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uAwN2IEv";}
+in callPackage fn {version="default";}

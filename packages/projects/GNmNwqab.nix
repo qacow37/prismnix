@@ -231,6 +231,7 @@ let
         "45XDIsfw" = _45XDIsfw;
         "fCxMf0M2" = _fCxMf0M2;
         "forge-1.20.1" = _fCxMf0M2;
+        "default" = _fCxMf0M2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -251,4 +252,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fCxMf0M2";}
+in callPackage fn {version="default";}

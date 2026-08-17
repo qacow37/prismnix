@@ -21,6 +21,7 @@ let
         "J6mXJ0gt" = _J6mXJ0gt;
         "VuTR22ew" = _VuTR22ew;
         "neoforge-1.21.1" = _VuTR22ew;
+        "default" = _VuTR22ew;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VuTR22ew";}
+in callPackage fn {version="default";}

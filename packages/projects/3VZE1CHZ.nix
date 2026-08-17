@@ -34,6 +34,7 @@ let
         "SRhYueVp" = _SRhYueVp;
         "fabric-1.20.1" = _LrPzGeWD;
         "forge-1.20.1" = _SRhYueVp;
+        "default" = _SRhYueVp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SRhYueVp";}
+in callPackage fn {version="default";}

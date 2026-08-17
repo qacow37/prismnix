@@ -21,6 +21,7 @@ let
         "YIWJcaaB" = _YIWJcaaB;
         "oMm5vDjv" = _oMm5vDjv;
         "fabric-1.20.1" = _oMm5vDjv;
+        "default" = _oMm5vDjv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oMm5vDjv";}
+in callPackage fn {version="default";}

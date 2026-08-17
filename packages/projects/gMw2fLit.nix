@@ -33,6 +33,7 @@ let
         "HgEXrFxt" = _HgEXrFxt;
         "qqzeuABo" = _qqzeuABo;
         "fabric-1.20.1" = _qqzeuABo;
+        "default" = _qqzeuABo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qqzeuABo";}
+in callPackage fn {version="default";}

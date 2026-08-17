@@ -1422,6 +1422,7 @@ let
         "purpur-26.1.1" = _LbfETql3;
         "purpur-26.1.2" = _LbfETql3;
         "purpur-26.2" = _LbfETql3;
+        "default" = _Eo9Utr08;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1442,4 +1443,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Eo9Utr08";}
+in callPackage fn {version="default";}

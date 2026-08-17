@@ -172,6 +172,7 @@ let
         "QIppPmnb" = _QIppPmnb;
         "neoforge-1.21.1" = _QIppPmnb;
         "forge-1.20.1" = _lUR0DY9u;
+        "default" = _QIppPmnb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QIppPmnb";}
+in callPackage fn {version="default";}

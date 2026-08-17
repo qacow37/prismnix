@@ -148,6 +148,7 @@ let
         "paper-26.1.1" = _Tawt2Pks;
         "paper-26.1.2" = _Tawt2Pks;
         "paper-26.2" = _74tlRNNt;
+        "default" = _74tlRNNt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="74tlRNNt";}
+in callPackage fn {version="default";}

@@ -285,6 +285,7 @@ let
         "fabric-26.2-rc-1" = _ViSGQrRK;
         "fabric-26.2-rc-2" = _ViSGQrRK;
         "fabric-26.2" = _ViSGQrRK;
+        "default" = _ViSGQrRK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -305,4 +306,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ViSGQrRK";}
+in callPackage fn {version="default";}

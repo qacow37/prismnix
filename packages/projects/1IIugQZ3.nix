@@ -49,6 +49,7 @@ let
         "quilt-1.20.6" = _UD0CVSet;
         "quilt-1.21" = _UD0CVSet;
         "quilt-1.21.1" = _UD0CVSet;
+        "default" = _UD0CVSet;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UD0CVSet";}
+in callPackage fn {version="default";}

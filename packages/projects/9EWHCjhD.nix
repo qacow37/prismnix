@@ -21,6 +21,7 @@ let
         "nXP2Gta4" = _nXP2Gta4;
         "mrx0lanv" = _mrx0lanv;
         "minecraft-1.21.1" = _mrx0lanv;
+        "default" = _mrx0lanv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mrx0lanv";}
+in callPackage fn {version="default";}

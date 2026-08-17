@@ -82,6 +82,7 @@ let
         "fabric-1.20.1" = _SesaEXv6;
         "fabric-26.2" = _ihVRCnlX;
         "neoforge-26.2" = _B3OOFRYy;
+        "default" = _ihVRCnlX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ihVRCnlX";}
+in callPackage fn {version="default";}

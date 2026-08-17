@@ -21,6 +21,7 @@ let
         "TLhGaZGo" = _TLhGaZGo;
         "MFerJXsX" = _MFerJXsX;
         "forge-1.8.9" = _MFerJXsX;
+        "default" = _MFerJXsX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MFerJXsX";}
+in callPackage fn {version="default";}

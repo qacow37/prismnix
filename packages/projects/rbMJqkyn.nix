@@ -12,6 +12,7 @@ let
         "minecraft-1.18.2" = _jUXWLeGG;
         "minecraft-1.19.4" = _jUXWLeGG;
         "minecraft-1.20.1" = _jUXWLeGG;
+        "default" = _jUXWLeGG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jUXWLeGG";}
+in callPackage fn {version="default";}

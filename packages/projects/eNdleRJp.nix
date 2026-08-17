@@ -282,6 +282,7 @@ let
         "neoforge-1.21.1" = _UmfZYth9;
         "neoforge-1.21.2" = _IkLxAFIP;
         "neoforge-1.21.3" = _IkLxAFIP;
+        "default" = _IkLxAFIP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -302,4 +303,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IkLxAFIP";}
+in callPackage fn {version="default";}

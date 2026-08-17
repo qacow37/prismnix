@@ -331,6 +331,7 @@ let
         "spigot-26.1.1" = _E73eGCuW;
         "spigot-26.1.2" = _E73eGCuW;
         "spigot-26.2" = _E73eGCuW;
+        "default" = _E73eGCuW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -351,4 +352,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E73eGCuW";}
+in callPackage fn {version="default";}

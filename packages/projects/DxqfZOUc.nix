@@ -116,6 +116,7 @@ let
         "forge-1.20.2" = _cdX3vCAm;
         "forge-1.20.3" = _cdX3vCAm;
         "forge-1.20.4" = _cdX3vCAm;
+        "default" = _wvXBRa86;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -136,4 +137,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wvXBRa86";}
+in callPackage fn {version="default";}

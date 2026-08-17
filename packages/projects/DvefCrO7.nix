@@ -16,6 +16,7 @@ let
         "ECTUTi9O" = _ECTUTi9O;
         "forge-1.20.1" = _HNhAgV8B;
         "neoforge-1.21.1" = _ECTUTi9O;
+        "default" = _ECTUTi9O;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ECTUTi9O";}
+in callPackage fn {version="default";}

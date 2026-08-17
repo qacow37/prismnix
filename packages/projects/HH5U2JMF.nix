@@ -22,6 +22,7 @@ let
         "ho31hLSY" = _ho31hLSY;
         "forge-1.18.2" = _iS31Lclk;
         "neoforge-1.21.1" = _ho31hLSY;
+        "default" = _ho31hLSY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ho31hLSY";}
+in callPackage fn {version="default";}

@@ -667,6 +667,7 @@ let
         "fabric-26.1.1" = _LVuiv1C1;
         "fabric-26.1.2" = _LVuiv1C1;
         "fabric-26.2" = _MXMnuWSi;
+        "default" = _MXMnuWSi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -687,4 +688,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MXMnuWSi";}
+in callPackage fn {version="default";}

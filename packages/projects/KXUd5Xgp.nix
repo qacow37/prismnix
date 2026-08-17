@@ -21,6 +21,7 @@ let
         "pAWFTpAM" = _pAWFTpAM;
         "XTIjRTs0" = _XTIjRTs0;
         "forge-1.18.2" = _XTIjRTs0;
+        "default" = _XTIjRTs0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XTIjRTs0";}
+in callPackage fn {version="default";}

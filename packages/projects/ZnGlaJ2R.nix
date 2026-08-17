@@ -105,6 +105,7 @@ let
         "MAxaJhl6" = _MAxaJhl6;
         "K00RScCO" = _K00RScCO;
         "forge-1.7.10" = _K00RScCO;
+        "default" = _K00RScCO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="K00RScCO";}
+in callPackage fn {version="default";}

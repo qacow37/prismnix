@@ -139,6 +139,7 @@ let
         "purpur-1.21.11" = _VxGSHopM;
         "purpur-26.1" = _VxGSHopM;
         "purpur-26.1.1" = _VxGSHopM;
+        "default" = _DnuX50EV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -159,4 +160,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DnuX50EV";}
+in callPackage fn {version="default";}

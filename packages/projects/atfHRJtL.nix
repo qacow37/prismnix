@@ -237,6 +237,7 @@ let
         "fabric-22w12a" = _yaYCzMwX;
         "fabric-22w13a" = _yaYCzMwX;
         "fabric-22w13oneblockatatime" = _ip9oGDcW;
+        "default" = _yaYCzMwX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -257,4 +258,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yaYCzMwX";}
+in callPackage fn {version="default";}

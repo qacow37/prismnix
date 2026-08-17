@@ -34,6 +34,7 @@ let
         "Ny70RpjG" = _Ny70RpjG;
         "forge-1.20.1" = _Qgv6lxys;
         "neoforge-1.21.1" = _Ny70RpjG;
+        "default" = _Ny70RpjG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ny70RpjG";}
+in callPackage fn {version="default";}

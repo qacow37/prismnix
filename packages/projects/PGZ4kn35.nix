@@ -269,6 +269,7 @@ let
         "minecraft-26.3-snapshot-1" = _u5KEYkpM;
         "minecraft-26.3-snapshot-2" = _u5KEYkpM;
         "minecraft-26.3-snapshot-3" = _u5KEYkpM;
+        "default" = _u5KEYkpM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -289,4 +290,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u5KEYkpM";}
+in callPackage fn {version="default";}

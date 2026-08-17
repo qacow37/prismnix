@@ -9,6 +9,7 @@ let
     in {
         "taKAI32L" = _taKAI32L;
         "forge-1.20.1" = _taKAI32L;
+        "default" = _taKAI32L;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="taKAI32L";}
+in callPackage fn {version="default";}

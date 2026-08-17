@@ -11,6 +11,7 @@ let
         "minecraft-1.19" = _byaAS1LI;
         "minecraft-1.19.1" = _byaAS1LI;
         "minecraft-1.19.2" = _byaAS1LI;
+        "default" = _byaAS1LI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31,4 +32,4 @@ let
                 };
             };
         };
-in callPackage fn {version="byaAS1LI";}
+in callPackage fn {version="default";}

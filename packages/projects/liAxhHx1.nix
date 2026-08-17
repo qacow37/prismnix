@@ -10,6 +10,7 @@ let
         "vdY3E800" = _vdY3E800;
         "fabric-1.20.1" = _vdY3E800;
         "quilt-1.20.1" = _vdY3E800;
+        "default" = _vdY3E800;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vdY3E800";}
+in callPackage fn {version="default";}

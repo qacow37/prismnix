@@ -9,6 +9,7 @@ let
     in {
         "tetmbwMq" = _tetmbwMq;
         "forge-1.20.1" = _tetmbwMq;
+        "default" = _tetmbwMq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tetmbwMq";}
+in callPackage fn {version="default";}

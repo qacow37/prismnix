@@ -10,6 +10,7 @@ let
         "gXlj256n" = _gXlj256n;
         "forge-1.8.9" = _gXlj256n;
         "forge-1.12.2" = _gXlj256n;
+        "default" = _gXlj256n;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gXlj256n";}
+in callPackage fn {version="default";}

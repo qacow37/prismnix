@@ -145,6 +145,7 @@ let
         "bukkit-1.21.4" = _sZ9wtlOy;
         "paper-1.20.1" = _sZ9wtlOy;
         "paper-1.21.4" = _sZ9wtlOy;
+        "default" = _sZ9wtlOy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -165,4 +166,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sZ9wtlOy";}
+in callPackage fn {version="default";}

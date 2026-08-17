@@ -63,6 +63,7 @@ let
         "3WwOBT2W" = _3WwOBT2W;
         "CbatFFab" = _CbatFFab;
         "forge-1.12.2" = _CbatFFab;
+        "default" = _CbatFFab;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CbatFFab";}
+in callPackage fn {version="default";}

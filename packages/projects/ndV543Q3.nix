@@ -57,6 +57,7 @@ let
         "WDZ0i0mz" = _WDZ0i0mz;
         "ZMibIRkN" = _ZMibIRkN;
         "neoforge-1.21.1" = _ZMibIRkN;
+        "default" = _ZMibIRkN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZMibIRkN";}
+in callPackage fn {version="default";}

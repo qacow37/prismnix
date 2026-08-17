@@ -125,6 +125,7 @@ let
         "forge-1.12" = _ApNpZIx7;
         "forge-1.12.1" = _ApNpZIx7;
         "forge-1.12.2" = _sDupyTTo;
+        "default" = _sDupyTTo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -145,4 +146,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sDupyTTo";}
+in callPackage fn {version="default";}

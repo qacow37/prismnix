@@ -98,6 +98,7 @@ let
         "purpur-1.21.11" = _OLGuapO6;
         "purpur-26.1" = _OLGuapO6;
         "purpur-26.1.1" = _OLGuapO6;
+        "default" = _OLGuapO6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -118,4 +119,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OLGuapO6";}
+in callPackage fn {version="default";}

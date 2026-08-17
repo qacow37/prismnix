@@ -445,6 +445,7 @@ let
         "fabric-1.15" = _qenjsTrp;
         "fabric-1.15.1" = _qenjsTrp;
         "fabric-22w13oneblockatatime" = _K7N011Vl;
+        "default" = _cPJ8CZzM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -465,4 +466,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cPJ8CZzM";}
+in callPackage fn {version="default";}

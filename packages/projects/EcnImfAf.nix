@@ -94,6 +94,7 @@ let
         "fabric-1.20.4" = _nODk0Ihz;
         "fabric-1.20.5" = _nODk0Ihz;
         "fabric-1.20.6" = _nODk0Ihz;
+        "default" = _nODk0Ihz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nODk0Ihz";}
+in callPackage fn {version="default";}

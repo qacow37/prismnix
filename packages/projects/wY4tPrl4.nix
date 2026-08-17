@@ -50,6 +50,7 @@ let
         "fabric-1.20.1" = _3qcIqftn;
         "fabric-1.20" = _ASl0rchE;
         "fabric-1.19.4" = _hWpfReSI;
+        "default" = _hWpfReSI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hWpfReSI";}
+in callPackage fn {version="default";}

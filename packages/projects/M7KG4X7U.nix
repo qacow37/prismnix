@@ -78,6 +78,7 @@ let
         "minecraft-1.21.8" = _DdVhOAGu;
         "minecraft-1.21.9" = _DdVhOAGu;
         "minecraft-1.21.10" = _DdVhOAGu;
+        "default" = _DdVhOAGu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DdVhOAGu";}
+in callPackage fn {version="default";}

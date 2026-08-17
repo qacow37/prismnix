@@ -74,6 +74,7 @@ let
         "optifine-26.1.1" = _8OMK13ZA;
         "optifine-26.1.2" = _8OMK13ZA;
         "optifine-26.2" = _8OMK13ZA;
+        "default" = _8OMK13ZA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8OMK13ZA";}
+in callPackage fn {version="default";}

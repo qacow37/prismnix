@@ -40,6 +40,7 @@ let
         "minecraft-1.20.5" = _RDF5EE5R;
         "minecraft-1.20.6" = _RDF5EE5R;
         "minecraft-1.21" = _RDF5EE5R;
+        "default" = _RDF5EE5R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RDF5EE5R";}
+in callPackage fn {version="default";}

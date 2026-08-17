@@ -51,6 +51,7 @@ let
         "fabric-1.20.4" = _D6D3k4a1;
         "fabric-1.20.5" = _D6D3k4a1;
         "forge-1.20.1" = _KkIoDS4h;
+        "default" = _KkIoDS4h;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KkIoDS4h";}
+in callPackage fn {version="default";}

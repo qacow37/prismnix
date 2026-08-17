@@ -40,6 +40,7 @@ let
         "Gn0LYDBo" = _Gn0LYDBo;
         "forge-1.20.1" = _zm4IAVr6;
         "neoforge-1.21.1" = _Gn0LYDBo;
+        "default" = _Gn0LYDBo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Gn0LYDBo";}
+in callPackage fn {version="default";}

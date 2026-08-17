@@ -135,6 +135,7 @@ let
         "LUwCSYAv" = _LUwCSYAv;
         "6icdBdt3" = _6icdBdt3;
         "forge-1.16.5" = _6icdBdt3;
+        "default" = _6icdBdt3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6icdBdt3";}
+in callPackage fn {version="default";}

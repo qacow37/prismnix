@@ -46,6 +46,7 @@ let
         "neoforge-26.1" = _egTFWPdf;
         "neoforge-26.1.1" = _egTFWPdf;
         "neoforge-26.1.2" = _egTFWPdf;
+        "default" = _egTFWPdf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="egTFWPdf";}
+in callPackage fn {version="default";}

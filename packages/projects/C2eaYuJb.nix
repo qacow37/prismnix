@@ -177,6 +177,7 @@ let
         "2oZIsOcN" = _2oZIsOcN;
         "Yy9dZBUV" = _Yy9dZBUV;
         "forge-1.12.2" = _Yy9dZBUV;
+        "default" = _Yy9dZBUV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -197,4 +198,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Yy9dZBUV";}
+in callPackage fn {version="default";}

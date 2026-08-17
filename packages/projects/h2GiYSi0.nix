@@ -58,6 +58,7 @@ let
         "quilt-1.21.3" = _LpuUPtjc;
         "quilt-1.21.4" = _LpuUPtjc;
         "quilt-1.21.5" = _LpuUPtjc;
+        "default" = _LpuUPtjc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LpuUPtjc";}
+in callPackage fn {version="default";}

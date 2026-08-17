@@ -358,6 +358,7 @@ let
         "quilt-1.19.1-pre3" = _DxXiUerV;
         "quilt-1.19.1-pre4" = _DxXiUerV;
         "quilt-1.19.1-pre5" = _DxXiUerV;
+        "default" = _DxXiUerV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -378,4 +379,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DxXiUerV";}
+in callPackage fn {version="default";}

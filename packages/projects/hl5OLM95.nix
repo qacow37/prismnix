@@ -741,6 +741,7 @@ let
         "quilt-26.1.1" = _jDzSPLta;
         "quilt-26.1.2" = _jDzSPLta;
         "quilt-26.2" = _jDzSPLta;
+        "default" = _jDzSPLta;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -761,4 +762,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jDzSPLta";}
+in callPackage fn {version="default";}

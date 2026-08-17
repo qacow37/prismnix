@@ -100,6 +100,7 @@ let
         "RgLYYPvs" = _RgLYYPvs;
         "forge-1.20.1" = _xTNPlwGP;
         "neoforge-1.21.1" = _RgLYYPvs;
+        "default" = _RgLYYPvs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RgLYYPvs";}
+in callPackage fn {version="default";}

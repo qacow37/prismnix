@@ -63,6 +63,7 @@ let
         "iris-26.1.1" = _XVmtlTv0;
         "iris-26.1.2" = _XVmtlTv0;
         "iris-26.2" = _XVmtlTv0;
+        "default" = _XVmtlTv0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XVmtlTv0";}
+in callPackage fn {version="default";}

@@ -2700,6 +2700,7 @@ let
         "quilt-26.1" = _UI1cPzAb;
         "quilt-26.1.2" = _UI1cPzAb;
         "quilt-26.2" = _USvdhBa1;
+        "default" = _rgBTFiNv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2720,4 +2721,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rgBTFiNv";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "qi2m1U6E" = _qi2m1U6E;
         "forge-1.7.10" = _HyDA6b5O;
         "forge-1.12.2" = _qi2m1U6E;
+        "default" = _qi2m1U6E;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qi2m1U6E";}
+in callPackage fn {version="default";}

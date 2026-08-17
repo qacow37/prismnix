@@ -17,6 +17,7 @@ let
         "forge-1.18.2" = _NRR36uY9;
         "forge-1.20" = _DgisUYf4;
         "forge-1.20.1" = _DgisUYf4;
+        "default" = _DgisUYf4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DgisUYf4";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "GAVA8dif" = _GAVA8dif;
         "fabric-1.21.4" = _FXxnF9Ie;
         "fabric-1.21.11" = _GAVA8dif;
+        "default" = _GAVA8dif;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GAVA8dif";}
+in callPackage fn {version="default";}

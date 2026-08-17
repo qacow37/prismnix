@@ -87,6 +87,7 @@ let
         "3HD1Ukft" = _3HD1Ukft;
         "Uvm8Irn5" = _Uvm8Irn5;
         "forge-1.20.1" = _Uvm8Irn5;
+        "default" = _Uvm8Irn5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Uvm8Irn5";}
+in callPackage fn {version="default";}

@@ -148,6 +148,7 @@ let
         "KV3mdTLV" = _KV3mdTLV;
         "neoforge-1.21.1" = _KV3mdTLV;
         "fabric-1.21.1" = _PtHN23gq;
+        "default" = _KV3mdTLV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KV3mdTLV";}
+in callPackage fn {version="default";}

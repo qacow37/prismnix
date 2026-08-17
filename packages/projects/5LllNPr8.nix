@@ -16,6 +16,7 @@ let
         "GsRIZFPs" = _GsRIZFPs;
         "forge-1.20.1" = _LxKgY1GU;
         "neoforge-1.21.1" = _GsRIZFPs;
+        "default" = _GsRIZFPs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GsRIZFPs";}
+in callPackage fn {version="default";}

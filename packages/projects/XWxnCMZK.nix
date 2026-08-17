@@ -138,6 +138,7 @@ let
         "forge-1.16.5" = _Wwxerlg3;
         "forge-1.20.1" = _xlksRlm3;
         "neoforge-1.21.1" = _zwT4u8Li;
+        "default" = _xlksRlm3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -158,4 +159,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xlksRlm3";}
+in callPackage fn {version="default";}

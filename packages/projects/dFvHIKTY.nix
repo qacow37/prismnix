@@ -22,6 +22,7 @@ let
         "AcPcuL31" = _AcPcuL31;
         "datapack-1.21.1" = _AcPcuL31;
         "minecraft-1.21.1" = _AcPcuL31;
+        "default" = _AcPcuL31;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AcPcuL31";}
+in callPackage fn {version="default";}

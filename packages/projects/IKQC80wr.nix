@@ -117,6 +117,7 @@ let
         "GeU159yj" = _GeU159yj;
         "JTx5wh9C" = _JTx5wh9C;
         "fabric-1.21.1" = _JTx5wh9C;
+        "default" = _JTx5wh9C;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JTx5wh9C";}
+in callPackage fn {version="default";}

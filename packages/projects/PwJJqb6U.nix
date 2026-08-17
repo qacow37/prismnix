@@ -27,6 +27,7 @@ let
         "REeILd5T" = _REeILd5T;
         "DGznBxpB" = _DGznBxpB;
         "fabric-1.21.11" = _DGznBxpB;
+        "default" = _DGznBxpB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DGznBxpB";}
+in callPackage fn {version="default";}

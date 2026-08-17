@@ -106,6 +106,7 @@ let
         "jR9gBcj9" = _jR9gBcj9;
         "neoforge-1.21.1" = _jR9gBcj9;
         "forge-1.20.1" = _CmhgonPy;
+        "default" = _jR9gBcj9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jR9gBcj9";}
+in callPackage fn {version="default";}

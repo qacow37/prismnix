@@ -172,6 +172,7 @@ let
         "neoforge-1.21.9" = _HZlLCOct;
         "neoforge-1.21.10" = _HZlLCOct;
         "neoforge-1.21.11" = _EAOsCo4w;
+        "default" = _EAOsCo4w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EAOsCo4w";}
+in callPackage fn {version="default";}

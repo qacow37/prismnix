@@ -81,6 +81,7 @@ let
         "LUIsCn5k" = _LUIsCn5k;
         "VFdwVklL" = _VFdwVklL;
         "forge-1.8.9" = _VFdwVklL;
+        "default" = _VFdwVklL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VFdwVklL";}
+in callPackage fn {version="default";}

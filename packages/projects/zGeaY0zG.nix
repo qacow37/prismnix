@@ -15,6 +15,7 @@ let
         "UCm3D5b1" = _UCm3D5b1;
         "FMisyvxa" = _FMisyvxa;
         "minecraft-1.20.1" = _FMisyvxa;
+        "default" = _FMisyvxa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FMisyvxa";}
+in callPackage fn {version="default";}

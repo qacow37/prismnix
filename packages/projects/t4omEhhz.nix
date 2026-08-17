@@ -253,6 +253,7 @@ let
         "spigot-1.21.11" = _MfsI2DoW;
         "spigot-26.1" = _MfsI2DoW;
         "spigot-26.1.1" = _MfsI2DoW;
+        "default" = _MfsI2DoW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -273,4 +274,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MfsI2DoW";}
+in callPackage fn {version="default";}

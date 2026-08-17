@@ -66,6 +66,7 @@ let
         "forge-1.20.1" = _6DcTWPHt;
         "neoforge-1.20.1" = _6DcTWPHt;
         "neoforge-1.21.1" = _NewKETKl;
+        "default" = _NewKETKl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NewKETKl";}
+in callPackage fn {version="default";}

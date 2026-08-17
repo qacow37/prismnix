@@ -16,6 +16,7 @@ let
         "EDMfLczX" = _EDMfLczX;
         "paper-1.21" = _EDMfLczX;
         "purpur-1.21" = _EDMfLczX;
+        "default" = _EDMfLczX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EDMfLczX";}
+in callPackage fn {version="default";}

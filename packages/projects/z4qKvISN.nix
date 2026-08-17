@@ -148,6 +148,7 @@ let
         "jDicugYu" = _jDicugYu;
         "fabric-1.20.1" = _jDicugYu;
         "forge-1.20.1" = _jDicugYu;
+        "default" = _jDicugYu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jDicugYu";}
+in callPackage fn {version="default";}

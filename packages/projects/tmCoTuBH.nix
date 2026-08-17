@@ -68,6 +68,7 @@ let
         "fabric-1.21.11" = _pKrvf2qd;
         "fabric-26.1.2" = _ctfLEX16;
         "fabric-26.2" = _OLfSPTuI;
+        "default" = _OLfSPTuI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OLfSPTuI";}
+in callPackage fn {version="default";}

@@ -49,6 +49,7 @@ let
         "minecraft-1.21.7" = _7UKSTR47;
         "minecraft-1.21.8" = _7UKSTR47;
         "minecraft-1.21.9" = _7UKSTR47;
+        "default" = _7UKSTR47;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7UKSTR47";}
+in callPackage fn {version="default";}

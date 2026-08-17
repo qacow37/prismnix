@@ -52,6 +52,7 @@ let
         "w3pXP4LF" = _w3pXP4LF;
         "neoforge-1.21.1" = _w3pXP4LF;
         "forge-1.20.1" = _tkb4ppjk;
+        "default" = _w3pXP4LF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w3pXP4LF";}
+in callPackage fn {version="default";}

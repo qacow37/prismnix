@@ -220,6 +220,7 @@ let
         "Jb78G6CL" = _Jb78G6CL;
         "neoforge-1.21" = _KJN7WRG1;
         "neoforge-1.21.1" = _Jb78G6CL;
+        "default" = _Jb78G6CL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -240,4 +241,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Jb78G6CL";}
+in callPackage fn {version="default";}

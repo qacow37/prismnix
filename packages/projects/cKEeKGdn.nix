@@ -168,6 +168,7 @@ let
         "minecraft-1.19" = _ujCcvUPi;
         "minecraft-1.19.1" = _ujCcvUPi;
         "minecraft-1.20.1" = _JdWCe1Tp;
+        "default" = _JdWCe1Tp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -188,4 +189,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JdWCe1Tp";}
+in callPackage fn {version="default";}

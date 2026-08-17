@@ -21,6 +21,7 @@ let
         "f48qfdga" = _f48qfdga;
         "XgFoh4Su" = _XgFoh4Su;
         "forge-1.20.1" = _XgFoh4Su;
+        "default" = _XgFoh4Su;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XgFoh4Su";}
+in callPackage fn {version="default";}

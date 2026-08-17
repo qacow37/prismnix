@@ -108,6 +108,7 @@ let
         "optifine-1.18.1" = _HTIocIBv;
         "optifine-1.18.2" = _HTIocIBv;
         "optifine-1.19.4" = _HTIocIBv;
+        "default" = _tAx0UOBX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tAx0UOBX";}
+in callPackage fn {version="default";}

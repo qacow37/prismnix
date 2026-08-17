@@ -33,6 +33,7 @@ let
         "ZPExlT8F" = _ZPExlT8F;
         "KPaCS9js" = _KPaCS9js;
         "forge-1.20.1" = _KPaCS9js;
+        "default" = _KPaCS9js;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KPaCS9js";}
+in callPackage fn {version="default";}

@@ -343,6 +343,7 @@ let
         "neoforge-1.20.4" = _YGGL1Pbb;
         "neoforge-1.20.6" = _CnLECyMl;
         "neoforge-1.21.1" = _u30xtl3a;
+        "default" = _u30xtl3a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -363,4 +364,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u30xtl3a";}
+in callPackage fn {version="default";}

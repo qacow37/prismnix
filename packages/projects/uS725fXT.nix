@@ -52,6 +52,7 @@ let
         "g64HNKRQ" = _g64HNKRQ;
         "forge-1.20.1" = _g64HNKRQ;
         "neoforge-1.20.1" = _g64HNKRQ;
+        "default" = _g64HNKRQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="g64HNKRQ";}
+in callPackage fn {version="default";}

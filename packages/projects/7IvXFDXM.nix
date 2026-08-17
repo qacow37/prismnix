@@ -52,6 +52,7 @@ let
         "quilt-1.18" = _IcArP88P;
         "quilt-1.18.1" = _IcArP88P;
         "quilt-1.18.2" = _IcArP88P;
+        "default" = _IcArP88P;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IcArP88P";}
+in callPackage fn {version="default";}

@@ -37,6 +37,7 @@ let
         "minecraft-1.21.9" = _Drm642RO;
         "minecraft-1.21.10" = _Drm642RO;
         "minecraft-1.21.11" = _Drm642RO;
+        "default" = _Drm642RO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Drm642RO";}
+in callPackage fn {version="default";}

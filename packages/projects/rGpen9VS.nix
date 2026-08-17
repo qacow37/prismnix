@@ -104,6 +104,7 @@ let
         "neoforge-1.20.2" = _Jrop22Rb;
         "neoforge-1.20.3" = _Jrop22Rb;
         "neoforge-1.20.4" = _Jrop22Rb;
+        "default" = _xQLssPqI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -124,4 +125,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xQLssPqI";}
+in callPackage fn {version="default";}

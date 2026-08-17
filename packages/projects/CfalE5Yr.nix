@@ -14,6 +14,7 @@ let
         "fabric-1.20.4" = _yIONOvd0;
         "fabric-1.20.5" = _yIONOvd0;
         "fabric-1.20.6" = _yIONOvd0;
+        "default" = _yIONOvd0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yIONOvd0";}
+in callPackage fn {version="default";}

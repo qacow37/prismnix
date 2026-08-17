@@ -29,6 +29,7 @@ let
         "datapack-1.20.1" = _VTXBM2Do;
         "fabric-1.20.1" = _mUbOwSGS;
         "forge-1.20.1" = _mUbOwSGS;
+        "default" = _mUbOwSGS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mUbOwSGS";}
+in callPackage fn {version="default";}

@@ -166,6 +166,7 @@ let
         "spigot-1.21.10" = _VtMcbfLW;
         "spigot-1.21.11" = _VtMcbfLW;
         "spigot-26.1" = _VtMcbfLW;
+        "default" = _VtMcbfLW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -186,4 +187,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VtMcbfLW";}
+in callPackage fn {version="default";}

@@ -84,6 +84,7 @@ let
         "neoforge-1.21.7" = _ULQVgmLo;
         "neoforge-1.21.8" = _ULQVgmLo;
         "spigot-26.1.2" = _5c4Makrp;
+        "default" = _5c4Makrp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="5c4Makrp";}
+in callPackage fn {version="default";}

@@ -269,6 +269,7 @@ let
         "fabric-1.19.4" = _diKFirCR;
         "fabric-1.21.3" = _TkJidjJV;
         "fabric-1.21.4" = _AtJsEnb7;
+        "default" = _AtJsEnb7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -289,4 +290,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AtJsEnb7";}
+in callPackage fn {version="default";}

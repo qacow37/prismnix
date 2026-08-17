@@ -21,6 +21,7 @@ let
         "4dARHhhR" = _4dARHhhR;
         "NTXVdUI1" = _NTXVdUI1;
         "neoforge-1.21.1" = _NTXVdUI1;
+        "default" = _NTXVdUI1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NTXVdUI1";}
+in callPackage fn {version="default";}

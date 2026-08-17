@@ -60,6 +60,7 @@ let
         "minecraft-1.20" = _cd2teRnC;
         "minecraft-1.20.1" = _cd2teRnC;
         "minecraft-1.20.2" = _cd2teRnC;
+        "default" = _cd2teRnC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cd2teRnC";}
+in callPackage fn {version="default";}

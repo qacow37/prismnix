@@ -85,6 +85,7 @@ let
         "fabric-1.20.4" = _x4gDAOor;
         "fabric-1.20.5" = _x4gDAOor;
         "fabric-1.20.6" = _x4gDAOor;
+        "default" = _iNDHgEJS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iNDHgEJS";}
+in callPackage fn {version="default";}

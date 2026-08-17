@@ -46,6 +46,7 @@ let
         "optifine-1.21.9" = _FETgTo6F;
         "optifine-1.21.10" = _FETgTo6F;
         "optifine-1.21.11" = _FETgTo6F;
+        "default" = _FETgTo6F;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FETgTo6F";}
+in callPackage fn {version="default";}

@@ -84,6 +84,7 @@ let
         "forge-1.21.11" = _stYRiKfI;
         "neoforge-1.21.11" = _stYRiKfI;
         "quilt-1.21.11" = _stYRiKfI;
+        "default" = _stYRiKfI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="stYRiKfI";}
+in callPackage fn {version="default";}

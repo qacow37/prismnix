@@ -9,6 +9,7 @@ let
     in {
         "ImokUbm9" = _ImokUbm9;
         "fabric-1.20.1" = _ImokUbm9;
+        "default" = _ImokUbm9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ImokUbm9";}
+in callPackage fn {version="default";}

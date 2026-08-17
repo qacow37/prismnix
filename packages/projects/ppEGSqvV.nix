@@ -27,6 +27,7 @@ let
         "CTi9kZ6n" = _CTi9kZ6n;
         "XxsPb69W" = _XxsPb69W;
         "neoforge-1.21.1" = _XxsPb69W;
+        "default" = _XxsPb69W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XxsPb69W";}
+in callPackage fn {version="default";}

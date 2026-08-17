@@ -228,6 +228,7 @@ let
         "neoforge-26.3-snapshot-5" = _PAoZarbw;
         "neoforge-26.3-snapshot-6" = _PAoZarbw;
         "neoforge-26.3-snapshot-7" = _PAoZarbw;
+        "default" = _PAoZarbw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -248,4 +249,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PAoZarbw";}
+in callPackage fn {version="default";}

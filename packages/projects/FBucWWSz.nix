@@ -713,6 +713,7 @@ let
         "forge-26.3-snapshot-2" = _QRgd7jhG;
         "forge-26.3-snapshot-3" = _QRgd7jhG;
         "forge-26.3-snapshot-4" = _QRgd7jhG;
+        "default" = _6XbLt9ZN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -733,4 +734,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6XbLt9ZN";}
+in callPackage fn {version="default";}

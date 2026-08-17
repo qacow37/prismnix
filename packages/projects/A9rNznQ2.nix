@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _x33Fkrwg;
         "forge-1.20.5" = _x33Fkrwg;
         "forge-1.20.6" = _x33Fkrwg;
+        "default" = _x33Fkrwg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="x33Fkrwg";}
+in callPackage fn {version="default";}

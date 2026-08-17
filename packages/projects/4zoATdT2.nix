@@ -61,6 +61,7 @@ let
         "minecraft-26.1" = _krby4bi8;
         "minecraft-26.1.1" = _krby4bi8;
         "minecraft-26.1.2" = _krby4bi8;
+        "default" = _krby4bi8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -81,4 +82,4 @@ let
                 };
             };
         };
-in callPackage fn {version="krby4bi8";}
+in callPackage fn {version="default";}

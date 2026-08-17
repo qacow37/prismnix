@@ -119,6 +119,7 @@ let
         "forge-1.20.1" = _hvLlNI2P;
         "neoforge-1.20.1" = _hvLlNI2P;
         "neoforge-1.21.1" = _FksQL3Sq;
+        "default" = _FksQL3Sq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -139,4 +140,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FksQL3Sq";}
+in callPackage fn {version="default";}

@@ -51,6 +51,7 @@ let
         "3LBYerAY" = _3LBYerAY;
         "rFuaxYe3" = _rFuaxYe3;
         "forge-1.20.1" = _rFuaxYe3;
+        "default" = _rFuaxYe3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rFuaxYe3";}
+in callPackage fn {version="default";}

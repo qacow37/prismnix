@@ -46,6 +46,7 @@ let
         "fdvcLpvV" = _fdvcLpvV;
         "fabric-1.20.1" = _owPViECP;
         "fabric-1.21.1" = _fdvcLpvV;
+        "default" = _fdvcLpvV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fdvcLpvV";}
+in callPackage fn {version="default";}

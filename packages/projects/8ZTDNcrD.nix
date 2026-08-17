@@ -89,6 +89,7 @@ let
         "fabric-1.21.3" = _BcM41Hyv;
         "fabric-1.21.2" = _BcM41Hyv;
         "fabric-1.21.4" = _BcM41Hyv;
+        "default" = _BcM41Hyv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -109,4 +110,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BcM41Hyv";}
+in callPackage fn {version="default";}

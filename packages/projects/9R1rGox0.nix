@@ -39,6 +39,7 @@ let
         "iXy8ET60" = _iXy8ET60;
         "XBjMPp4Z" = _XBjMPp4Z;
         "minecraft-1.21.1" = _XBjMPp4Z;
+        "default" = _XBjMPp4Z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XBjMPp4Z";}
+in callPackage fn {version="default";}

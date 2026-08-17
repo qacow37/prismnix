@@ -87,6 +87,7 @@ let
         "quilt-1.21.6" = _BXFBtrus;
         "quilt-1.21.7" = _BXFBtrus;
         "quilt-1.21.8" = _BXFBtrus;
+        "default" = _NodIScTU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NodIScTU";}
+in callPackage fn {version="default";}

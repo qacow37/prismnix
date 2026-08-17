@@ -323,6 +323,7 @@ let
         "fabric-1.3.2" = _Ij0yiFJH;
         "legacy-fabric-1.3.2" = _Ij0yiFJH;
         "babric-b1.7.3" = _ER2u0RjP;
+        "default" = _eQDED2El;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -343,4 +344,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eQDED2El";}
+in callPackage fn {version="default";}

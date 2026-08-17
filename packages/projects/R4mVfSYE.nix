@@ -75,6 +75,7 @@ let
         "gwhZWLpu" = _gwhZWLpu;
         "215oLn3A" = _215oLn3A;
         "forge-1.20.1" = _215oLn3A;
+        "default" = _215oLn3A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="215oLn3A";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "cOhUgknX" = _cOhUgknX;
         "6HP2EDOr" = _6HP2EDOr;
         "forge-1.20.1" = _6HP2EDOr;
+        "default" = _6HP2EDOr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6HP2EDOr";}
+in callPackage fn {version="default";}

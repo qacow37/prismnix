@@ -422,6 +422,7 @@ let
         "fabric-26.2" = _BkoFgdth;
         "neoforge-26.1.2" = _qOU0pref;
         "neoforge-1.21.1" = _SuWiRk2o;
+        "default" = _CFCpyDDr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -442,4 +443,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CFCpyDDr";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "minecraft-1.19.4" = _WNjPuitT;
         "minecraft-1.20" = _WNjPuitT;
         "minecraft-1.20.1" = _WNjPuitT;
+        "default" = _WNjPuitT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WNjPuitT";}
+in callPackage fn {version="default";}

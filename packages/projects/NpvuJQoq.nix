@@ -3852,6 +3852,7 @@ let
         "velocity-26.1.1" = _ArZIav7i;
         "velocity-26.1.2" = _ArZIav7i;
         "velocity-26.2" = _ArZIav7i;
+        "default" = _ArZIav7i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -3872,4 +3873,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ArZIav7i";}
+in callPackage fn {version="default";}

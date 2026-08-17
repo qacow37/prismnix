@@ -1291,6 +1291,7 @@ let
         "neoforge-26.1.2" = _lOmshkUR;
         "neoforge-26.2" = _gOsOesCm;
         "bta-babric-b1.7.3" = _jRJz9ZcL;
+        "default" = _gOsOesCm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1311,4 +1312,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gOsOesCm";}
+in callPackage fn {version="default";}

@@ -825,6 +825,7 @@ let
         "lYxyS185" = _lYxyS185;
         "N3x0NnWm" = _N3x0NnWm;
         "forge-1.7.10" = _N3x0NnWm;
+        "default" = _N3x0NnWm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -845,4 +846,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N3x0NnWm";}
+in callPackage fn {version="default";}

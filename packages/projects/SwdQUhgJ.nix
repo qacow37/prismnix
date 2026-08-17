@@ -172,6 +172,7 @@ let
         "Vmah5idO" = _Vmah5idO;
         "neoforge-1.21.1" = _Vmah5idO;
         "forge-1.20.1" = _FyV6jLQD;
+        "default" = _Vmah5idO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Vmah5idO";}
+in callPackage fn {version="default";}

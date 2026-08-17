@@ -10,6 +10,7 @@ let
         "uILC37KT" = _uILC37KT;
         "minecraft-1.20.1" = _uILC37KT;
         "minecraft-1.21.1" = _uILC37KT;
+        "default" = _uILC37KT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uILC37KT";}
+in callPackage fn {version="default";}

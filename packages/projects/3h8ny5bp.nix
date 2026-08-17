@@ -27,6 +27,7 @@ let
         "YdRgcyMO" = _YdRgcyMO;
         "QMulcpIu" = _QMulcpIu;
         "forge-1.20.1" = _QMulcpIu;
+        "default" = _QMulcpIu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QMulcpIu";}
+in callPackage fn {version="default";}

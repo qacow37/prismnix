@@ -28,6 +28,7 @@ let
         "ZBfPso2e" = _ZBfPso2e;
         "forge-1.18.2" = _UUPnB5kb;
         "forge-1.20.1" = _ZBfPso2e;
+        "default" = _ZBfPso2e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZBfPso2e";}
+in callPackage fn {version="default";}

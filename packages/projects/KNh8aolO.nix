@@ -10,6 +10,7 @@ let
         "4cIXepib" = _4cIXepib;
         "neoforge-1.21" = _4cIXepib;
         "neoforge-1.21.1" = _4cIXepib;
+        "default" = _4cIXepib;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4cIXepib";}
+in callPackage fn {version="default";}

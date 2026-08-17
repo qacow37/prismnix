@@ -40,6 +40,7 @@ let
         "hkxD64Ve" = _hkxD64Ve;
         "neoforge-1.21.1" = _LKu512sR;
         "fabric-1.21.1" = _hkxD64Ve;
+        "default" = _hkxD64Ve;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hkxD64Ve";}
+in callPackage fn {version="default";}

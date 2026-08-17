@@ -92,6 +92,7 @@ let
         "spigot-1.19" = _gEPLHRg4;
         "spigot-1.19.1" = _gEPLHRg4;
         "spigot-1.19.2" = _gEPLHRg4;
+        "default" = _gEPLHRg4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gEPLHRg4";}
+in callPackage fn {version="default";}

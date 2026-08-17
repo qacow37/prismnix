@@ -15,6 +15,7 @@ let
         "UvsmmJ2D" = _UvsmmJ2D;
         "DVKmsGWI" = _DVKmsGWI;
         "neoforge-1.21.1" = _DVKmsGWI;
+        "default" = _DVKmsGWI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DVKmsGWI";}
+in callPackage fn {version="default";}

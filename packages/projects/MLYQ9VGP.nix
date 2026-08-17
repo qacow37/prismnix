@@ -660,6 +660,7 @@ let
         "fabric-26.1" = _choOJjCw;
         "fabric-26.1.1" = _choOJjCw;
         "fabric-26.1.2" = _JGE33wzb;
+        "default" = _JGE33wzb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -680,4 +681,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JGE33wzb";}
+in callPackage fn {version="default";}

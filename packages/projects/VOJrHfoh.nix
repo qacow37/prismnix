@@ -9,6 +9,7 @@ let
     in {
         "GbofOtrD" = _GbofOtrD;
         "fabric-1.21.10" = _GbofOtrD;
+        "default" = _GbofOtrD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GbofOtrD";}
+in callPackage fn {version="default";}

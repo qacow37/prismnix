@@ -86,6 +86,7 @@ let
         "neoforge-1.21.9" = _Zpd52GON;
         "neoforge-1.21.10" = _Zpd52GON;
         "neoforge-1.21.11" = _Zpd52GON;
+        "default" = _u430R6su;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u430R6su";}
+in callPackage fn {version="default";}

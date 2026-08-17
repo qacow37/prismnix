@@ -179,6 +179,7 @@ let
         "sponge-26.1.1" = _4aEwD4nz;
         "sponge-26.1.2" = _4aEwD4nz;
         "sponge-26.2" = _4aEwD4nz;
+        "default" = _4aEwD4nz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -199,4 +200,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4aEwD4nz";}
+in callPackage fn {version="default";}

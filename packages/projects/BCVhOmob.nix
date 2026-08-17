@@ -46,6 +46,7 @@ let
         "WAmoWDzP" = _WAmoWDzP;
         "neoforge-1.21.1" = _NRxg7HAY;
         "forge-1.20.1" = _WAmoWDzP;
+        "default" = _WAmoWDzP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WAmoWDzP";}
+in callPackage fn {version="default";}

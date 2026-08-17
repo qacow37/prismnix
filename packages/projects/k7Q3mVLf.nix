@@ -39,6 +39,7 @@ let
         "IGY3sPhm" = _IGY3sPhm;
         "szuAKuL0" = _szuAKuL0;
         "forge-1.20.1" = _szuAKuL0;
+        "default" = _szuAKuL0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="szuAKuL0";}
+in callPackage fn {version="default";}

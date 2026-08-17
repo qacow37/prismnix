@@ -39,6 +39,7 @@ let
         "Pwdc9mFL" = _Pwdc9mFL;
         "tetHVoRW" = _tetHVoRW;
         "forge-1.8.9" = _tetHVoRW;
+        "default" = _tetHVoRW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tetHVoRW";}
+in callPackage fn {version="default";}

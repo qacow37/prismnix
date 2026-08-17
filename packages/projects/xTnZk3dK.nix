@@ -272,6 +272,7 @@ let
         "quilt-26.1.1" = _IIP73rXO;
         "quilt-26.1.2" = _IIP73rXO;
         "quilt-26.2" = _DBlpm3K1;
+        "default" = _IIP73rXO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -292,4 +293,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IIP73rXO";}
+in callPackage fn {version="default";}

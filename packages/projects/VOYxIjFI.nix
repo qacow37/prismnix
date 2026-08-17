@@ -378,6 +378,7 @@ let
         "quilt-1.20" = _CzNKpSG7;
         "quilt-1.20.1" = _CzNKpSG7;
         "quilt-1.20.2" = _Xgag74T1;
+        "default" = _Xgag74T1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -398,4 +399,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xgag74T1";}
+in callPackage fn {version="default";}

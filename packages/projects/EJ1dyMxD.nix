@@ -217,6 +217,7 @@ let
         "iris-1.20.4" = _ZPvmUpma;
         "iris-1.20.5" = _ZPvmUpma;
         "iris-1.20.6" = _ZPvmUpma;
+        "default" = _GnBlgXAZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -237,4 +238,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GnBlgXAZ";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "SItK9HZ2" = _SItK9HZ2;
         "PKTgGPP2" = _PKTgGPP2;
         "fabric-1.20.1" = _PKTgGPP2;
+        "default" = _PKTgGPP2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PKTgGPP2";}
+in callPackage fn {version="default";}

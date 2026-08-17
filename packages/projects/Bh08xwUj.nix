@@ -10,6 +10,7 @@ let
         "MOLO5KyL" = _MOLO5KyL;
         "minecraft-1.20" = _MOLO5KyL;
         "minecraft-1.20.1" = _MOLO5KyL;
+        "default" = _MOLO5KyL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MOLO5KyL";}
+in callPackage fn {version="default";}

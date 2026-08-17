@@ -26,6 +26,7 @@ let
         "fabric-1.21.9" = _19LwiMmo;
         "fabric-1.21.10" = _19LwiMmo;
         "fabric-1.21.11" = _19LwiMmo;
+        "default" = _19LwiMmo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="19LwiMmo";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "NF6sl31r" = _NF6sl31r;
         "fabric-1.21.1" = _HBZWKFur;
         "fabric-1.20.1" = _NF6sl31r;
+        "default" = _NF6sl31r;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NF6sl31r";}
+in callPackage fn {version="default";}

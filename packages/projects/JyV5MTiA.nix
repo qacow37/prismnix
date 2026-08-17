@@ -640,6 +640,7 @@ let
         "quilt-26.1" = _LDueIIRM;
         "quilt-26.1.1" = _LDueIIRM;
         "quilt-26.1.2" = _LDueIIRM;
+        "default" = _LDueIIRM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -660,4 +661,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LDueIIRM";}
+in callPackage fn {version="default";}

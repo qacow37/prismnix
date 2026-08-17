@@ -28,6 +28,7 @@ let
         "eqTHdkts" = _eqTHdkts;
         "forge-1.20.1" = _FmtzgDzv;
         "neoforge-1.21.1" = _eqTHdkts;
+        "default" = _eqTHdkts;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eqTHdkts";}
+in callPackage fn {version="default";}

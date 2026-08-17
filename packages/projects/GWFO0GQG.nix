@@ -108,6 +108,7 @@ let
         "quilt-1.21.4" = _ChriEgdP;
         "quilt-1.20.5" = _rbGxlRTC;
         "quilt-1.20.6" = _rbGxlRTC;
+        "default" = _rbGxlRTC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rbGxlRTC";}
+in callPackage fn {version="default";}

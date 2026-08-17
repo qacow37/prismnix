@@ -90,6 +90,7 @@ let
         "quilt-1.20.5" = _YKITotDR;
         "quilt-1.20.6" = _YKITotDR;
         "quilt-1.21" = _YKITotDR;
+        "default" = _YKITotDR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -110,4 +111,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YKITotDR";}
+in callPackage fn {version="default";}

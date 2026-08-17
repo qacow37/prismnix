@@ -30,6 +30,7 @@ let
         "fabric-1.20.1" = _wNglyYDe;
         "datapack-1.20" = _RYtUroOi;
         "datapack-1.20.1" = _RYtUroOi;
+        "default" = _wNglyYDe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wNglyYDe";}
+in callPackage fn {version="default";}

@@ -17,6 +17,7 @@ let
         "datapack-1.20.1" = _UE5clOwS;
         "fabric-1.20.1" = _OocUwDPx;
         "quilt-1.20.1" = _OocUwDPx;
+        "default" = _OocUwDPx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OocUwDPx";}
+in callPackage fn {version="default";}

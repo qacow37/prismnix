@@ -66,6 +66,7 @@ let
         "forge-1.19.3" = _8wGrbj9D;
         "forge-1.19.4" = _F02ktgHe;
         "forge-1.20.1" = _RFBo4n19;
+        "default" = _RFBo4n19;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RFBo4n19";}
+in callPackage fn {version="default";}

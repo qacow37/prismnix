@@ -130,6 +130,7 @@ let
         "quilt-26.1.1" = _iGUiu4Ff;
         "quilt-26.1.2" = _iGUiu4Ff;
         "quilt-26.2" = _iGUiu4Ff;
+        "default" = _iGUiu4Ff;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -150,4 +151,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iGUiu4Ff";}
+in callPackage fn {version="default";}

@@ -69,6 +69,7 @@ let
         "d6O9iWMs" = _d6O9iWMs;
         "WRDNzD03" = _WRDNzD03;
         "forge-1.20.1" = _WRDNzD03;
+        "default" = _WRDNzD03;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WRDNzD03";}
+in callPackage fn {version="default";}

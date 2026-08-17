@@ -21,6 +21,7 @@ let
         "fabric-1.20.4" = _mQ8mVLtI;
         "fabric-1.20.5" = _mQ8mVLtI;
         "fabric-1.20.6" = _mQ8mVLtI;
+        "default" = _mQ8mVLtI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mQ8mVLtI";}
+in callPackage fn {version="default";}

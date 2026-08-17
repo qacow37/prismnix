@@ -809,6 +809,7 @@ let
         "neoforge-26.1.2" = _TrHBW1iV;
         "neoforge-26.2" = _TrHBW1iV;
         "java-agent-24w14a" = _IZzNJ603;
+        "default" = _IZzNJ603;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -829,4 +830,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IZzNJ603";}
+in callPackage fn {version="default";}

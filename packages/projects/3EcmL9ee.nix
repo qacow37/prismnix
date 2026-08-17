@@ -22,6 +22,7 @@ let
         "dlHLsnL5" = _dlHLsnL5;
         "forge-1.20.1" = _kfabzm74;
         "forge-1.18.2" = _dlHLsnL5;
+        "default" = _dlHLsnL5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dlHLsnL5";}
+in callPackage fn {version="default";}

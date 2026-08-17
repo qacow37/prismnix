@@ -377,6 +377,7 @@ let
         "folia-26.1.1" = _WPkYIP4c;
         "folia-26.1.2" = _WPkYIP4c;
         "folia-26.2" = _WPkYIP4c;
+        "default" = _vDmXDRvE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -397,4 +398,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vDmXDRvE";}
+in callPackage fn {version="default";}

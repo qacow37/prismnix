@@ -51,6 +51,7 @@ let
         "EleLf91k" = _EleLf91k;
         "maK19KHR" = _maK19KHR;
         "neoforge-1.21.1" = _maK19KHR;
+        "default" = _maK19KHR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="maK19KHR";}
+in callPackage fn {version="default";}

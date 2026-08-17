@@ -16,6 +16,7 @@ let
         "PEXL8CwF" = _PEXL8CwF;
         "fabric-1.20.1" = _PEXL8CwF;
         "forge-1.20.1" = _PEXL8CwF;
+        "default" = _PEXL8CwF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PEXL8CwF";}
+in callPackage fn {version="default";}

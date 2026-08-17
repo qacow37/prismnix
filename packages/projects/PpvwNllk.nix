@@ -10,6 +10,7 @@ let
         "ocv3SPVu" = _ocv3SPVu;
         "fabric-1.20.1" = _ocv3SPVu;
         "fabric-1.20.4" = _ocv3SPVu;
+        "default" = _ocv3SPVu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ocv3SPVu";}
+in callPackage fn {version="default";}

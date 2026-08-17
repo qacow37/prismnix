@@ -174,6 +174,7 @@ let
         "datapack-1.21.1" = _TLcMcrbl;
         "fabric-1.21.1" = _44zCyJwe;
         "neoforge-1.21.1" = _44zCyJwe;
+        "default" = _TLcMcrbl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -194,4 +195,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TLcMcrbl";}
+in callPackage fn {version="default";}

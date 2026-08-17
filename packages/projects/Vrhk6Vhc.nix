@@ -10,6 +10,7 @@ let
         "sUPhYPmX" = _sUPhYPmX;
         "minecraft-1.20" = _sUPhYPmX;
         "minecraft-1.20.1" = _sUPhYPmX;
+        "default" = _sUPhYPmX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sUPhYPmX";}
+in callPackage fn {version="default";}

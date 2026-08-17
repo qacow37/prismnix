@@ -18,6 +18,7 @@ let
         "minecraft-1.20.2" = _naVP2fVG;
         "minecraft-1.20.3" = _naVP2fVG;
         "minecraft-1.20.4" = _naVP2fVG;
+        "default" = _naVP2fVG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="naVP2fVG";}
+in callPackage fn {version="default";}

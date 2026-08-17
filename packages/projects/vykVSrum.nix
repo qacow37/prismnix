@@ -16,6 +16,7 @@ let
         "QDI8waiv" = _QDI8waiv;
         "minecraft-1.21.5" = _JiQu4aT1;
         "minecraft-1.21.6" = _QDI8waiv;
+        "default" = _QDI8waiv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QDI8waiv";}
+in callPackage fn {version="default";}

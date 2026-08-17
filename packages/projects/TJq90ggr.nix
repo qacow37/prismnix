@@ -27,6 +27,7 @@ let
         "qdKad0nR" = _qdKad0nR;
         "lTjj90fi" = _lTjj90fi;
         "forge-1.16.5" = _lTjj90fi;
+        "default" = _lTjj90fi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lTjj90fi";}
+in callPackage fn {version="default";}

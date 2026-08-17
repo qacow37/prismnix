@@ -16,6 +16,7 @@ let
         "wkIKWJ11" = _wkIKWJ11;
         "forge-1.18.2" = _RfmaqetH;
         "forge-1.19.2" = _wkIKWJ11;
+        "default" = _wkIKWJ11;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wkIKWJ11";}
+in callPackage fn {version="default";}

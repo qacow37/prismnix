@@ -40,6 +40,7 @@ let
         "kNQAblAr" = _kNQAblAr;
         "fabric-1.19.2" = _RLzAp7Ye;
         "fabric-1.20.1" = _kNQAblAr;
+        "default" = _kNQAblAr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kNQAblAr";}
+in callPackage fn {version="default";}

@@ -159,6 +159,7 @@ let
         "rz3qSzlr" = _rz3qSzlr;
         "W2PiDcLk" = _W2PiDcLk;
         "forge-1.20.1" = _W2PiDcLk;
+        "default" = _W2PiDcLk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -179,4 +180,4 @@ let
                 };
             };
         };
-in callPackage fn {version="W2PiDcLk";}
+in callPackage fn {version="default";}

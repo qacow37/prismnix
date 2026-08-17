@@ -33,6 +33,7 @@ let
         "minecraft-1.19.1" = _wmGELMRB;
         "minecraft-1.19.2" = _wmGELMRB;
         "minecraft-1.21.7" = _ag0sAsba;
+        "default" = _ag0sAsba;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ag0sAsba";}
+in callPackage fn {version="default";}

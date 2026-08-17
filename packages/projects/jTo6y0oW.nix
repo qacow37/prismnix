@@ -43,6 +43,7 @@ let
         "forge-1.20.3" = _WdDu7IY1;
         "forge-1.20.4" = _WdDu7IY1;
         "forge-1.21.1" = _Db2JSTpv;
+        "default" = _Db2JSTpv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Db2JSTpv";}
+in callPackage fn {version="default";}

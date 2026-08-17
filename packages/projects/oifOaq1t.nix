@@ -75,6 +75,7 @@ let
         "We0xTO4l" = _We0xTO4l;
         "Rut4ODOG" = _Rut4ODOG;
         "forge-1.20.1" = _Rut4ODOG;
+        "default" = _Rut4ODOG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Rut4ODOG";}
+in callPackage fn {version="default";}

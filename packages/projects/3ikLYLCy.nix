@@ -42,6 +42,7 @@ let
         "minecraft-1.21.6" = _IcTLuAR8;
         "minecraft-1.21.7" = _IcTLuAR8;
         "minecraft-1.21.8" = _IcTLuAR8;
+        "default" = _IcTLuAR8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IcTLuAR8";}
+in callPackage fn {version="default";}

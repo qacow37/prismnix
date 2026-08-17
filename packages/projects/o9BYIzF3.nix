@@ -12,6 +12,7 @@ let
         "fabric-1.21.1" = _KGPEGWPa;
         "quilt-1.21" = _KGPEGWPa;
         "quilt-1.21.1" = _KGPEGWPa;
+        "default" = _KGPEGWPa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KGPEGWPa";}
+in callPackage fn {version="default";}

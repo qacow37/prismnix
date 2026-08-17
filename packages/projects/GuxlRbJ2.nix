@@ -42,6 +42,7 @@ let
         "fabric-1.20.1" = _TQaLFmXL;
         "forge-1.20" = _TQaLFmXL;
         "forge-1.20.1" = _TQaLFmXL;
+        "default" = _TQaLFmXL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TQaLFmXL";}
+in callPackage fn {version="default";}

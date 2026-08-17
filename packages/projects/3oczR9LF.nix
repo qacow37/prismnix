@@ -45,6 +45,7 @@ let
         "xDB9Spyw" = _xDB9Spyw;
         "PMs09tzv" = _PMs09tzv;
         "neoforge-1.21.1" = _PMs09tzv;
+        "default" = _PMs09tzv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PMs09tzv";}
+in callPackage fn {version="default";}

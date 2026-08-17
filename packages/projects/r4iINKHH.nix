@@ -32,6 +32,7 @@ let
         "minecraft-1.21.9" = _9VwGsdkq;
         "minecraft-1.21.10" = _9VwGsdkq;
         "minecraft-1.21.11" = _9VwGsdkq;
+        "default" = _9VwGsdkq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9VwGsdkq";}
+in callPackage fn {version="default";}

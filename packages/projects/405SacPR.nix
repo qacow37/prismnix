@@ -17,6 +17,7 @@ let
         "minecraft-1.21.9" = _2Iz1KSWL;
         "minecraft-1.21.10" = _2Iz1KSWL;
         "minecraft-1.21.11" = _DMloNFCf;
+        "default" = _DMloNFCf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DMloNFCf";}
+in callPackage fn {version="default";}

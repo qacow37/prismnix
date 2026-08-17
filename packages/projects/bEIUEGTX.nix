@@ -1770,6 +1770,7 @@ let
         "waterfall-1.21.6" = _NTJwZDeb;
         "waterfall-1.21.7" = _NTJwZDeb;
         "waterfall-1.21.8" = _NTJwZDeb;
+        "default" = _NyPXRlze;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1790,4 +1791,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NyPXRlze";}
+in callPackage fn {version="default";}

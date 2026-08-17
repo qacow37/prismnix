@@ -93,6 +93,7 @@ let
         "XlPYPHGM" = _XlPYPHGM;
         "SGWvoBnC" = _SGWvoBnC;
         "neoforge-1.21.1" = _SGWvoBnC;
+        "default" = _SGWvoBnC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SGWvoBnC";}
+in callPackage fn {version="default";}

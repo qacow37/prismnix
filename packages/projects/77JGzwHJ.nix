@@ -161,6 +161,7 @@ let
         "minecraft-26.1" = _nziDeFWl;
         "minecraft-26.1.1" = _nziDeFWl;
         "minecraft-26.1.2" = _nziDeFWl;
+        "default" = _nziDeFWl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -181,4 +182,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nziDeFWl";}
+in callPackage fn {version="default";}

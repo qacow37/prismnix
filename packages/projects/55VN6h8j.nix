@@ -34,6 +34,7 @@ let
         "INrtSbtW" = _INrtSbtW;
         "forge-1.19.2" = _ok1NNpa1;
         "forge-1.20.1" = _INrtSbtW;
+        "default" = _INrtSbtW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="INrtSbtW";}
+in callPackage fn {version="default";}

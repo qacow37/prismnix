@@ -256,6 +256,7 @@ let
         "neoforge-1.21.9" = _VoSsdpJB;
         "neoforge-1.21.10" = _VoSsdpJB;
         "neoforge-1.21.11" = _flZLgeo7;
+        "default" = _flZLgeo7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -276,4 +277,4 @@ let
                 };
             };
         };
-in callPackage fn {version="flZLgeo7";}
+in callPackage fn {version="default";}

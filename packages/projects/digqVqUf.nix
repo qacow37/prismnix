@@ -69,6 +69,7 @@ let
         "cJJIRNXN" = _cJJIRNXN;
         "W6DJTExT" = _W6DJTExT;
         "forge-1.20.1" = _W6DJTExT;
+        "default" = _W6DJTExT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="W6DJTExT";}
+in callPackage fn {version="default";}

@@ -103,6 +103,7 @@ let
         "neoforge-1.21.3" = _aMjEA3ok;
         "neoforge-1.21.4" = _aMjEA3ok;
         "neoforge-26.1" = _YTegU1DB;
+        "default" = _YTegU1DB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -123,4 +124,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YTegU1DB";}
+in callPackage fn {version="default";}

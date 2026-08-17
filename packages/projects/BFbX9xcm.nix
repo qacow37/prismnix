@@ -76,6 +76,7 @@ let
         "acYEfsJa" = _acYEfsJa;
         "forge-1.20.1" = _acYEfsJa;
         "neoforge-1.21.1" = _xgAXTl17;
+        "default" = _acYEfsJa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="acYEfsJa";}
+in callPackage fn {version="default";}

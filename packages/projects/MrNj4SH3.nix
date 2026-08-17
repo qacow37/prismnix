@@ -120,6 +120,7 @@ let
         "spigot-26.1.1" = _QXmtLic4;
         "spigot-26.1.2" = _QXmtLic4;
         "spigot-26.2" = _QXmtLic4;
+        "default" = _QXmtLic4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QXmtLic4";}
+in callPackage fn {version="default";}

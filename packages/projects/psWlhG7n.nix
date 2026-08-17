@@ -87,6 +87,7 @@ let
         "F8g80rIO" = _F8g80rIO;
         "TuXwX16T" = _TuXwX16T;
         "forge-1.7.10" = _TuXwX16T;
+        "default" = _TuXwX16T;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TuXwX16T";}
+in callPackage fn {version="default";}

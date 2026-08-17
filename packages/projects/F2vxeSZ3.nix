@@ -76,6 +76,7 @@ let
         "minecraft-24w05b" = _RgHERPUe;
         "minecraft-24w06a" = _RgHERPUe;
         "minecraft-24w07a" = _RgHERPUe;
+        "default" = _RgHERPUe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RgHERPUe";}
+in callPackage fn {version="default";}

@@ -250,6 +250,7 @@ let
         "fabric-1.21.1" = _7ZEnujFi;
         "fabric-1.21.2" = _7ZEnujFi;
         "fabric-1.21.3" = _7ZEnujFi;
+        "default" = _7ZEnujFi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -270,4 +271,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7ZEnujFi";}
+in callPackage fn {version="default";}

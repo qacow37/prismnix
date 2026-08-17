@@ -69,6 +69,7 @@ let
         "Lh32UOWa" = _Lh32UOWa;
         "PQG8Qxcs" = _PQG8Qxcs;
         "fabric-1.21.1" = _PQG8Qxcs;
+        "default" = _PQG8Qxcs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PQG8Qxcs";}
+in callPackage fn {version="default";}

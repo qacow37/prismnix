@@ -51,6 +51,7 @@ let
         "D8TBrfoe" = _D8TBrfoe;
         "mCPrTJSO" = _mCPrTJSO;
         "neoforge-1.21.1" = _mCPrTJSO;
+        "default" = _mCPrTJSO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mCPrTJSO";}
+in callPackage fn {version="default";}

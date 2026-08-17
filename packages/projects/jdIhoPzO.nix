@@ -57,6 +57,7 @@ let
         "minecraft-1.21.9" = _KuDObS9R;
         "minecraft-1.21.10" = _KuDObS9R;
         "minecraft-1.21.11" = _KuDObS9R;
+        "default" = _KuDObS9R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KuDObS9R";}
+in callPackage fn {version="default";}

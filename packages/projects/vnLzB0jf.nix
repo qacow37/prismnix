@@ -29,6 +29,7 @@ let
         "datapack-1.19.2" = _5BTPElWJ;
         "datapack-1.21.1" = _NRtj2MHn;
         "fabric-1.21.1" = _NRtj2MHn;
+        "default" = _NRtj2MHn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NRtj2MHn";}
+in callPackage fn {version="default";}

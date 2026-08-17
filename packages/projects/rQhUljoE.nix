@@ -13,6 +13,7 @@ let
         "minecraft-1.21.2" = _TkrXDIog;
         "minecraft-1.21.3" = _TkrXDIog;
         "minecraft-1.21.4" = _TkrXDIog;
+        "default" = _TkrXDIog;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -33,4 +34,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TkrXDIog";}
+in callPackage fn {version="default";}

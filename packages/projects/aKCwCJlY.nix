@@ -323,6 +323,7 @@ let
         "datapack-26.1.1" = _OIcllpSf;
         "datapack-26.1.2" = _OIcllpSf;
         "datapack-26.2" = _OIcllpSf;
+        "default" = _OIcllpSf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -343,4 +344,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OIcllpSf";}
+in callPackage fn {version="default";}

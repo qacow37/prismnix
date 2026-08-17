@@ -34,6 +34,7 @@ let
         "EI64BVLv" = _EI64BVLv;
         "forge-1.20.1" = _EI64BVLv;
         "neoforge-1.20.1" = _EI64BVLv;
+        "default" = _EI64BVLv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EI64BVLv";}
+in callPackage fn {version="default";}

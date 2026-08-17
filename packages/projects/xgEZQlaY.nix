@@ -16,6 +16,7 @@ let
         "oZMcIpud" = _oZMcIpud;
         "fabric-1.21.1" = _KZWrAupt;
         "neoforge-1.21.1" = _oZMcIpud;
+        "default" = _oZMcIpud;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oZMcIpud";}
+in callPackage fn {version="default";}

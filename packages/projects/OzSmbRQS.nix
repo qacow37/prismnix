@@ -334,6 +334,7 @@ let
         "waterfall-1.19.3" = _hmvjmLR8;
         "waterfall-1.19.4" = _hmvjmLR8;
         "waterfall-26.2" = _IEILpPIV;
+        "default" = _IEILpPIV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -354,4 +355,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IEILpPIV";}
+in callPackage fn {version="default";}

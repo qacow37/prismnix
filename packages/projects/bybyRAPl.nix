@@ -253,6 +253,7 @@ let
         "fabric-26.1.1" = _GSdk27TD;
         "fabric-26.1.2" = _GSdk27TD;
         "fabric-26.2" = _LGIEH2Gc;
+        "default" = _LGIEH2Gc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -273,4 +274,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LGIEH2Gc";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "3ndJG4Rl" = _3ndJG4Rl;
         "1u6QA8Dx" = _1u6QA8Dx;
         "bta-babric-b1.7.3" = _1u6QA8Dx;
+        "default" = _1u6QA8Dx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1u6QA8Dx";}
+in callPackage fn {version="default";}

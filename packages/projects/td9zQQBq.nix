@@ -99,6 +99,7 @@ let
         "fabric-1.20.4" = _HFlEAPtz;
         "fabric-1.20.5" = _HFlEAPtz;
         "fabric-1.20.6" = _HFlEAPtz;
+        "default" = _HFlEAPtz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HFlEAPtz";}
+in callPackage fn {version="default";}

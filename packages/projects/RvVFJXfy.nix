@@ -51,6 +51,7 @@ let
         "JS5XmFlh" = _JS5XmFlh;
         "v4ImzjXl" = _v4ImzjXl;
         "forge-1.16.5" = _v4ImzjXl;
+        "default" = _v4ImzjXl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="v4ImzjXl";}
+in callPackage fn {version="default";}

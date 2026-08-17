@@ -65,6 +65,7 @@ let
         "neoforge-1.20.1" = _edXNrCZD;
         "neoforge-1.21" = _VGsYexOS;
         "neoforge-1.21.1" = _VGsYexOS;
+        "default" = _VGsYexOS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -85,4 +86,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VGsYexOS";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "Wp30TDel" = _Wp30TDel;
         "minecraft-1.21.5" = _dOuVzSH1;
         "minecraft-1.21.6" = _Wp30TDel;
+        "default" = _Wp30TDel;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Wp30TDel";}
+in callPackage fn {version="default";}

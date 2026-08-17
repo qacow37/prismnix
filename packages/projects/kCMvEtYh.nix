@@ -126,6 +126,7 @@ let
         "fabric-1.18.1" = _4KEEFTXM;
         "fabric-1.18.2" = _vtARCQs8;
         "fabric-1.19" = _eaDCS4OA;
+        "default" = _vtARCQs8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -146,4 +147,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vtARCQs8";}
+in callPackage fn {version="default";}

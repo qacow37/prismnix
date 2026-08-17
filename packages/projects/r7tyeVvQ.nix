@@ -310,6 +310,7 @@ let
         "forge-1.8.9" = _D9X7YHC5;
         "forge-1.9.4" = _HBHrUDEg;
         "forge-1.10.2" = _HBHrUDEg;
+        "default" = _HBHrUDEg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -330,4 +331,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HBHrUDEg";}
+in callPackage fn {version="default";}

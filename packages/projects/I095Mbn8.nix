@@ -102,6 +102,7 @@ let
         "quilt-1.21.8" = _jEERjsOh;
         "quilt-1.21.9" = _jEERjsOh;
         "quilt-1.21.10" = _jEERjsOh;
+        "default" = _jEERjsOh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -122,4 +123,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jEERjsOh";}
+in callPackage fn {version="default";}

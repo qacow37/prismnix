@@ -526,6 +526,7 @@ let
         "neoforge-26.1.1" = _atkh74xJ;
         "neoforge-26.1.2" = _atkh74xJ;
         "neoforge-26.2" = _RUpmeRGm;
+        "default" = _RUpmeRGm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -546,4 +547,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RUpmeRGm";}
+in callPackage fn {version="default";}

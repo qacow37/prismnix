@@ -201,6 +201,7 @@ let
         "XMAV7x6P" = _XMAV7x6P;
         "T3rKifCf" = _T3rKifCf;
         "fabric-1.20.1" = _T3rKifCf;
+        "default" = _T3rKifCf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -221,4 +222,4 @@ let
                 };
             };
         };
-in callPackage fn {version="T3rKifCf";}
+in callPackage fn {version="default";}

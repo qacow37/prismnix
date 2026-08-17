@@ -39,6 +39,7 @@ let
         "315bCdxu" = _315bCdxu;
         "zSTBlOay" = _zSTBlOay;
         "neoforge-1.21.1" = _zSTBlOay;
+        "default" = _zSTBlOay;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zSTBlOay";}
+in callPackage fn {version="default";}

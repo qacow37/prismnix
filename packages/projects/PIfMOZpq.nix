@@ -21,6 +21,7 @@ let
         "eVDSKMUD" = _eVDSKMUD;
         "t2iJle33" = _t2iJle33;
         "forge-1.20.1" = _t2iJle33;
+        "default" = _t2iJle33;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t2iJle33";}
+in callPackage fn {version="default";}

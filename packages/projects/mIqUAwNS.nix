@@ -10,6 +10,7 @@ let
         "sztYnoYT" = _sztYnoYT;
         "datapack-1.21.1" = _sztYnoYT;
         "minecraft-1.21.1" = _sztYnoYT;
+        "default" = _sztYnoYT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sztYnoYT";}
+in callPackage fn {version="default";}

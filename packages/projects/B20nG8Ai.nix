@@ -75,6 +75,7 @@ let
         "datapack-1.21-rc1" = _p6PdZ54F;
         "datapack-1.21" = _p6PdZ54F;
         "datapack-1.21.1" = _p6PdZ54F;
+        "default" = _p6PdZ54F;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="p6PdZ54F";}
+in callPackage fn {version="default";}

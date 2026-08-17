@@ -28,6 +28,7 @@ let
         "dfTIxdwD" = _dfTIxdwD;
         "fabric-1.21.1" = _YpYx2bnm;
         "neoforge-1.21.1" = _dfTIxdwD;
+        "default" = _dfTIxdwD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dfTIxdwD";}
+in callPackage fn {version="default";}

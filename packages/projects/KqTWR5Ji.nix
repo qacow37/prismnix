@@ -173,6 +173,7 @@ let
         "bungeecord-1.21.3" = _fouIp34g;
         "bungeecord-1.21.4" = _fouIp34g;
         "bungeecord-1.21.5" = _fouIp34g;
+        "default" = _fouIp34g;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -193,4 +194,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fouIp34g";}
+in callPackage fn {version="default";}

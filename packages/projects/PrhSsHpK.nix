@@ -68,6 +68,7 @@ let
         "minecraft-1.21.9" = _hdWCFiS6;
         "minecraft-1.21.10" = _hdWCFiS6;
         "minecraft-1.21.11" = _hdWCFiS6;
+        "default" = _hdWCFiS6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hdWCFiS6";}
+in callPackage fn {version="default";}

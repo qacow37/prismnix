@@ -34,6 +34,7 @@ let
         "quilt-1.20.2" = _ZCRev4AQ;
         "quilt-1.20.3" = _ZCRev4AQ;
         "quilt-1.20.4" = _ZCRev4AQ;
+        "default" = _ZCRev4AQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZCRev4AQ";}
+in callPackage fn {version="default";}

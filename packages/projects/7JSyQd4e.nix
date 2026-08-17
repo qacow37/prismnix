@@ -78,6 +78,7 @@ let
         "quilt-26.1" = _RxKQk532;
         "quilt-26.1.2" = _RxKQk532;
         "quilt-26.2" = _emb64mKA;
+        "default" = _emb64mKA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="emb64mKA";}
+in callPackage fn {version="default";}

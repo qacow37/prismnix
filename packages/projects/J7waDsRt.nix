@@ -10,6 +10,7 @@ let
         "ISaAtMbW" = _ISaAtMbW;
         "minecraft-1.20" = _ISaAtMbW;
         "minecraft-1.20.1" = _ISaAtMbW;
+        "default" = _ISaAtMbW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ISaAtMbW";}
+in callPackage fn {version="default";}

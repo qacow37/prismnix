@@ -27,6 +27,7 @@ let
         "OWqSGV87" = _OWqSGV87;
         "ENpEnzmd" = _ENpEnzmd;
         "forge-1.20.1" = _ENpEnzmd;
+        "default" = _ENpEnzmd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ENpEnzmd";}
+in callPackage fn {version="default";}

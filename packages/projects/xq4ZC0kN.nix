@@ -21,6 +21,7 @@ let
         "jgDe95Z4" = _jgDe95Z4;
         "BEDI44dw" = _BEDI44dw;
         "forge-1.12.2" = _BEDI44dw;
+        "default" = _BEDI44dw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BEDI44dw";}
+in callPackage fn {version="default";}

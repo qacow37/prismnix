@@ -21181,6 +21181,7 @@ let
         "velocity-26.1.1" = _ES87t4lm;
         "velocity-26.1.2" = _ES87t4lm;
         "velocity-26.2" = _ES87t4lm;
+        "default" = _zjyIhmad;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -21201,4 +21202,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zjyIhmad";}
+in callPackage fn {version="default";}

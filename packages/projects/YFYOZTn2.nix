@@ -99,6 +99,7 @@ let
         "minecraft-1.19.2" = _hauO17Cu;
         "minecraft-1.19.3" = _hauO17Cu;
         "minecraft-1.19.4" = _hauO17Cu;
+        "default" = _hauO17Cu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hauO17Cu";}
+in callPackage fn {version="default";}

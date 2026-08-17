@@ -28,6 +28,7 @@ let
         "OHTD2rmg" = _OHTD2rmg;
         "fabric-1.19.2" = _OHTD2rmg;
         "fabric-1.18.2" = _rH3wPMYW;
+        "default" = _OHTD2rmg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OHTD2rmg";}
+in callPackage fn {version="default";}

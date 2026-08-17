@@ -141,6 +141,7 @@ let
         "ZcSETOn4" = _ZcSETOn4;
         "sc6ak9us" = _sc6ak9us;
         "fabric-1.20.1" = _sc6ak9us;
+        "default" = _sc6ak9us;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sc6ak9us";}
+in callPackage fn {version="default";}

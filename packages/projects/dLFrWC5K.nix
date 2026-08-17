@@ -45,6 +45,7 @@ let
         "yetg3dca" = _yetg3dca;
         "uc2uCcIW" = _uc2uCcIW;
         "fabric-1.21.1" = _uc2uCcIW;
+        "default" = _uc2uCcIW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uc2uCcIW";}
+in callPackage fn {version="default";}

@@ -41,6 +41,7 @@ let
         "forge-1.20.1" = _GXA1WCeg;
         "neoforge-1.20.1" = _GXA1WCeg;
         "neoforge-1.21.1" = _HzOpAks9;
+        "default" = _HzOpAks9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HzOpAks9";}
+in callPackage fn {version="default";}

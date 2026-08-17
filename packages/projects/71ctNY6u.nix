@@ -50,6 +50,7 @@ let
         "minecraft-1.21.2" = _lXPZqupu;
         "minecraft-1.21.3" = _lXPZqupu;
         "minecraft-1.21.4" = _lXPZqupu;
+        "default" = _lXPZqupu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lXPZqupu";}
+in callPackage fn {version="default";}

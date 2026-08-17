@@ -16,6 +16,7 @@ let
         "NPtUiYzP" = _NPtUiYzP;
         "quilt-1.20.1" = _bH87k7r0;
         "forge-1.20.1" = _NPtUiYzP;
+        "default" = _NPtUiYzP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NPtUiYzP";}
+in callPackage fn {version="default";}

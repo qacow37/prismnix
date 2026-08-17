@@ -39,6 +39,7 @@ let
         "38rrmtnC" = _38rrmtnC;
         "SNPbuKeo" = _SNPbuKeo;
         "neoforge-1.21.1" = _SNPbuKeo;
+        "default" = _SNPbuKeo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SNPbuKeo";}
+in callPackage fn {version="default";}

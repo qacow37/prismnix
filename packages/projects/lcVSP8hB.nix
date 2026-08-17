@@ -28,6 +28,7 @@ let
         "f7XOVDMB" = _f7XOVDMB;
         "forge-1.20.1" = _f7XOVDMB;
         "neoforge-1.21.1" = _ig4FC4WA;
+        "default" = _f7XOVDMB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="f7XOVDMB";}
+in callPackage fn {version="default";}

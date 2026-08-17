@@ -242,6 +242,7 @@ let
         "neoforge-26.1.1" = _728FpGaz;
         "neoforge-26.1.2" = _728FpGaz;
         "neoforge-26.2" = _728FpGaz;
+        "default" = _728FpGaz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -262,4 +263,4 @@ let
                 };
             };
         };
-in callPackage fn {version="728FpGaz";}
+in callPackage fn {version="default";}

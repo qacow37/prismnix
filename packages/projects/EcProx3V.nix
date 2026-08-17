@@ -21,6 +21,7 @@ let
         "uO8w4doK" = _uO8w4doK;
         "TFEfjmgt" = _TFEfjmgt;
         "forge-1.12.2" = _TFEfjmgt;
+        "default" = _TFEfjmgt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TFEfjmgt";}
+in callPackage fn {version="default";}

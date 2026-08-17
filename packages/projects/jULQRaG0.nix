@@ -15,6 +15,7 @@ let
         "minecraft-1.21.4" = _eeVVlMcs;
         "minecraft-1.21.5" = _eeVVlMcs;
         "minecraft-1.21.6" = _eeVVlMcs;
+        "default" = _eeVVlMcs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eeVVlMcs";}
+in callPackage fn {version="default";}

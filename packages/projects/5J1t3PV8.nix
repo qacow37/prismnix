@@ -63,6 +63,7 @@ let
         "fabric-1.21.2" = _lul5ut3d;
         "fabric-1.21.3" = _lul5ut3d;
         "fabric-1.21.4" = _lul5ut3d;
+        "default" = _lul5ut3d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lul5ut3d";}
+in callPackage fn {version="default";}

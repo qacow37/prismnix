@@ -169,6 +169,7 @@ let
         "fabric-1.21.10" = _VPxEDVP2;
         "fabric-1.21.11" = _VPxEDVP2;
         "quilt-1.20.1" = _w2bdzE4R;
+        "default" = _VPxEDVP2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -189,4 +190,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VPxEDVP2";}
+in callPackage fn {version="default";}

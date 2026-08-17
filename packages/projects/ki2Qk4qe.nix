@@ -45,6 +45,7 @@ let
         "JKbKlKBb" = _JKbKlKBb;
         "klysdykw" = _klysdykw;
         "forge-1.20.1" = _klysdykw;
+        "default" = _klysdykw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="klysdykw";}
+in callPackage fn {version="default";}

@@ -151,6 +151,7 @@ let
         "neoforge-1.21.2" = _GsuHDIFC;
         "neoforge-1.21.3" = _GsuHDIFC;
         "neoforge-1.21.4" = _GsuHDIFC;
+        "default" = _GsuHDIFC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -171,4 +172,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GsuHDIFC";}
+in callPackage fn {version="default";}

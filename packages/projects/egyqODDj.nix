@@ -628,6 +628,7 @@ let
         "neoforge-1.21.8" = _rvWFGVbi;
         "neoforge-1.21.9" = _rvWFGVbi;
         "neoforge-1.21.10" = _rvWFGVbi;
+        "default" = _rvWFGVbi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -648,4 +649,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rvWFGVbi";}
+in callPackage fn {version="default";}

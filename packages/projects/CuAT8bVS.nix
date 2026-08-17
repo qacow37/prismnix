@@ -99,6 +99,7 @@ let
         "a9OfoH1C" = _a9OfoH1C;
         "Q2ArZOIM" = _Q2ArZOIM;
         "neoforge-1.21.1" = _Q2ArZOIM;
+        "default" = _Q2ArZOIM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Q2ArZOIM";}
+in callPackage fn {version="default";}

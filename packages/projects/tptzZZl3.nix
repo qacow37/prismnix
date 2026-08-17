@@ -27,6 +27,7 @@ let
         "44l8Syx2" = _44l8Syx2;
         "QoeKSEzn" = _QoeKSEzn;
         "neoforge-1.21.1" = _QoeKSEzn;
+        "default" = _QoeKSEzn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QoeKSEzn";}
+in callPackage fn {version="default";}

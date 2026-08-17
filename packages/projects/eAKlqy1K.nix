@@ -26,6 +26,7 @@ let
         "fabric-1.20.3" = _I908Etmb;
         "fabric-1.20.4" = _I908Etmb;
         "fabric-1.20.5" = _I908Etmb;
+        "default" = _I908Etmb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I908Etmb";}
+in callPackage fn {version="default";}

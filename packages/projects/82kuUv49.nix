@@ -9,6 +9,7 @@ let
     in {
         "cyLPsvEf" = _cyLPsvEf;
         "neoforge-1.21.1" = _cyLPsvEf;
+        "default" = _cyLPsvEf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cyLPsvEf";}
+in callPackage fn {version="default";}

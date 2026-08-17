@@ -31,6 +31,7 @@ let
         "neoforge-1.20.5" = _SYld544l;
         "neoforge-1.20.6" = _SYld544l;
         "neoforge-1.20.4" = _jTSWCmas;
+        "default" = _DTtDFb7N;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DTtDFb7N";}
+in callPackage fn {version="default";}

@@ -43,6 +43,7 @@ let
         "forge-1.21.1" = _BEvZdel3;
         "neoforge-1.21.1" = _BEvZdel3;
         "quilt-1.21.1" = _BEvZdel3;
+        "default" = _BEvZdel3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BEvZdel3";}
+in callPackage fn {version="default";}

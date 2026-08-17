@@ -51,6 +51,7 @@ let
         "tYPvdsN3" = _tYPvdsN3;
         "xObOj5b9" = _xObOj5b9;
         "fabric-1.20.1" = _xObOj5b9;
+        "default" = _xObOj5b9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xObOj5b9";}
+in callPackage fn {version="default";}

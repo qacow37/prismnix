@@ -38,6 +38,7 @@ let
         "fabric-1.21.8" = _ubU43XiI;
         "fabric-1.21.9" = _ubU43XiI;
         "fabric-1.21.10" = _ubU43XiI;
+        "default" = _ubU43XiI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ubU43XiI";}
+in callPackage fn {version="default";}

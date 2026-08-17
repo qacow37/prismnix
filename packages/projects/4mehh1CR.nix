@@ -148,6 +148,7 @@ let
         "xT265lxO" = _xT265lxO;
         "velocity-1.19.3" = _V9wev6re;
         "velocity-1.7.2" = _xT265lxO;
+        "default" = _xT265lxO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xT265lxO";}
+in callPackage fn {version="default";}

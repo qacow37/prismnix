@@ -82,6 +82,7 @@ let
         "quilt-1.19" = _jVVMcyna;
         "quilt-1.19.1" = _jVVMcyna;
         "quilt-1.19.2" = _jVVMcyna;
+        "default" = _ngfhxCc2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ngfhxCc2";}
+in callPackage fn {version="default";}

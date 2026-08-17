@@ -28,6 +28,7 @@ let
         "FBZspAP8" = _FBZspAP8;
         "fabric-1.20.1" = _Pmackuj7;
         "forge-1.20.1" = _FBZspAP8;
+        "default" = _FBZspAP8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FBZspAP8";}
+in callPackage fn {version="default";}

@@ -483,6 +483,7 @@ let
         "7blu2Qzu" = _7blu2Qzu;
         "9vBKElli" = _9vBKElli;
         "forge-1.20.1" = _9vBKElli;
+        "default" = _9vBKElli;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -503,4 +504,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9vBKElli";}
+in callPackage fn {version="default";}

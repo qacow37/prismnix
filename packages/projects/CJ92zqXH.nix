@@ -19,6 +19,7 @@ let
         "minecraft-1.20.2" = _Hatizpzq;
         "minecraft-1.20.3" = _Hatizpzq;
         "minecraft-1.20.4" = _Hatizpzq;
+        "default" = _Hatizpzq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Hatizpzq";}
+in callPackage fn {version="default";}

@@ -100,6 +100,7 @@ let
         "pyMGYGrW" = _pyMGYGrW;
         "fabric-1.20.1" = _pyMGYGrW;
         "fabric-1.21.1" = _TsONAfvS;
+        "default" = _pyMGYGrW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pyMGYGrW";}
+in callPackage fn {version="default";}

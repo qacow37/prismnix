@@ -71,6 +71,7 @@ let
         "quilt-1.21.1" = _HskNHif9;
         "quilt-1.21.2" = _HskNHif9;
         "quilt-1.21.3" = _HskNHif9;
+        "default" = _HskNHif9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -91,4 +92,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HskNHif9";}
+in callPackage fn {version="default";}

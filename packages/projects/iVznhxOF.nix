@@ -21,6 +21,7 @@ let
         "RjkQ7pom" = _RjkQ7pom;
         "eGPAVIBg" = _eGPAVIBg;
         "forge-1.20.1" = _eGPAVIBg;
+        "default" = _eGPAVIBg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eGPAVIBg";}
+in callPackage fn {version="default";}

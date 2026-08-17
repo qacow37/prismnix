@@ -166,6 +166,7 @@ let
         "spigot-1.21.2" = _zyRtfYta;
         "spigot-1.21.3" = _zyRtfYta;
         "spigot-1.21.4" = _zyRtfYta;
+        "default" = _zyRtfYta;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -186,4 +187,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zyRtfYta";}
+in callPackage fn {version="default";}

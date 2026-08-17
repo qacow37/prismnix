@@ -27,6 +27,7 @@ let
         "minecraft-1.21.4" = _b5ZAcJBq;
         "minecraft-26.1" = _HbPsUMPM;
         "minecraft-26.2" = _HbPsUMPM;
+        "default" = _HbPsUMPM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HbPsUMPM";}
+in callPackage fn {version="default";}

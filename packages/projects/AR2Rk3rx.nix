@@ -76,6 +76,7 @@ let
         "EPz0qmr4" = _EPz0qmr4;
         "forge-1.12.2" = _ZTkBRcpq;
         "forge-1.16.5" = _EPz0qmr4;
+        "default" = _EPz0qmr4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EPz0qmr4";}
+in callPackage fn {version="default";}

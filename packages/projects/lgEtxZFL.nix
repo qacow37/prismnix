@@ -16,6 +16,7 @@ let
         "UyEIiwET" = _UyEIiwET;
         "forge-1.20.1" = _uMHYcT2B;
         "fabric-1.20.1" = _UyEIiwET;
+        "default" = _UyEIiwET;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UyEIiwET";}
+in callPackage fn {version="default";}

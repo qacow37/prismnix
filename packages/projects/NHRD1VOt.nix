@@ -106,6 +106,7 @@ let
         "WIjDv4ti" = _WIjDv4ti;
         "neoforge-1.21.1" = _wYH8asVa;
         "fabric-1.21.1" = _WIjDv4ti;
+        "default" = _WIjDv4ti;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WIjDv4ti";}
+in callPackage fn {version="default";}

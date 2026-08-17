@@ -461,6 +461,7 @@ let
         "minecraft-26.2-snapshot-4" = _iU18XzHQ;
         "minecraft-26.2-snapshot-5" = _iU18XzHQ;
         "minecraft-26.2-snapshot-6" = _iU18XzHQ;
+        "default" = _iU18XzHQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -481,4 +482,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iU18XzHQ";}
+in callPackage fn {version="default";}

@@ -90,6 +90,7 @@ let
         "optifine-1.16.1" = _JjbNgAKT;
         "optifine-1.16.2" = _JjbNgAKT;
         "optifine-1.16.3" = _JjbNgAKT;
+        "default" = _JjbNgAKT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -110,4 +111,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JjbNgAKT";}
+in callPackage fn {version="default";}

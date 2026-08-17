@@ -52,6 +52,7 @@ let
         "LsY90nqb" = _LsY90nqb;
         "fabric-1.20.1" = _cFHyE9lF;
         "forge-1.20.1" = _LsY90nqb;
+        "default" = _LsY90nqb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LsY90nqb";}
+in callPackage fn {version="default";}

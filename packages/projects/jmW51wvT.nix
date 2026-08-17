@@ -81,6 +81,7 @@ let
         "fabric-1.20.4" = _w9QT28Xb;
         "fabric-1.20.5" = _w9QT28Xb;
         "fabric-1.20.6" = _w9QT28Xb;
+        "default" = _e2oLSIM4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="e2oLSIM4";}
+in callPackage fn {version="default";}

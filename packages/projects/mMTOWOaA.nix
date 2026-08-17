@@ -68,6 +68,7 @@ let
         "fabric-1.21.1" = _lBdgO4GL;
         "neoforge-1.21" = _KNtnADP6;
         "neoforge-1.21.1" = _KNtnADP6;
+        "default" = _KNtnADP6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KNtnADP6";}
+in callPackage fn {version="default";}

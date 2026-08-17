@@ -15,6 +15,7 @@ let
         "7MVx5cbP" = _7MVx5cbP;
         "mnoALkrq" = _mnoALkrq;
         "forge-1.20.1" = _mnoALkrq;
+        "default" = _mnoALkrq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mnoALkrq";}
+in callPackage fn {version="default";}

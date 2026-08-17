@@ -694,6 +694,7 @@ let
         "neoforge-1.20.1" = _mywVOObd;
         "neoforge-1.21" = _uF5DSbD5;
         "neoforge-1.21.1" = _hpPcu64f;
+        "default" = _hpPcu64f;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -714,4 +715,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hpPcu64f";}
+in callPackage fn {version="default";}

@@ -159,6 +159,7 @@ let
         "fabric-26.1.1" = _sDPN1PBt;
         "fabric-26.1.2" = _sDPN1PBt;
         "fabric-26.2" = _WF7185Oj;
+        "default" = _WF7185Oj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -179,4 +180,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WF7185Oj";}
+in callPackage fn {version="default";}

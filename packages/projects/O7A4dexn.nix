@@ -416,6 +416,7 @@ let
         "waterfall-1.21.9" = _Io0oXgKD;
         "waterfall-1.21.10" = _Io0oXgKD;
         "waterfall-1.21.11" = _Io0oXgKD;
+        "default" = _eCUZ1zvA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -436,4 +437,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eCUZ1zvA";}
+in callPackage fn {version="default";}

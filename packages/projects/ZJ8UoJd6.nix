@@ -27,6 +27,7 @@ let
         "RBQ2A3Il" = _RBQ2A3Il;
         "Ryspxbgu" = _Ryspxbgu;
         "forge-1.16.5" = _Ryspxbgu;
+        "default" = _Ryspxbgu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ryspxbgu";}
+in callPackage fn {version="default";}

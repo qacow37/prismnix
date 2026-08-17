@@ -87,6 +87,7 @@ let
         "cJZTHLqf" = _cJZTHLqf;
         "NTC3dPQr" = _NTC3dPQr;
         "forge-1.20.1" = _NTC3dPQr;
+        "default" = _NTC3dPQr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NTC3dPQr";}
+in callPackage fn {version="default";}

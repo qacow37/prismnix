@@ -1025,6 +1025,7 @@ let
         "waterfall-1.21.8" = _UKOogiGF;
         "waterfall-1.21.9" = _UKOogiGF;
         "waterfall-1.21.10" = _UKOogiGF;
+        "default" = _UKOogiGF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1045,4 +1046,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UKOogiGF";}
+in callPackage fn {version="default";}

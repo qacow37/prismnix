@@ -57,6 +57,7 @@ let
         "dh4xAux8" = _dh4xAux8;
         "prJXOd7d" = _prJXOd7d;
         "forge-1.12.2" = _prJXOd7d;
+        "default" = _prJXOd7d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="prJXOd7d";}
+in callPackage fn {version="default";}

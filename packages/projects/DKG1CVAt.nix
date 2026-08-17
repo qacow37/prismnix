@@ -112,6 +112,7 @@ let
         "fabric-1.20.1" = _NdqtlMPl;
         "fabric-1.20.2" = _NdqtlMPl;
         "fabric-1.21" = _wvK26f7w;
+        "default" = _NdqtlMPl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NdqtlMPl";}
+in callPackage fn {version="default";}

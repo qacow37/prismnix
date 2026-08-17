@@ -178,6 +178,7 @@ let
         "JWsLvnqd" = _JWsLvnqd;
         "neoforge-1.21.1" = _u73uLaX6;
         "fabric-1.21.1" = _JWsLvnqd;
+        "default" = _JWsLvnqd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -198,4 +199,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JWsLvnqd";}
+in callPackage fn {version="default";}

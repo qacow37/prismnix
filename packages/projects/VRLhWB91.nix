@@ -1318,6 +1318,7 @@ let
         "neoforge-26.1.1" = _5uiuhaEh;
         "neoforge-26.1.2" = _5uiuhaEh;
         "neoforge-26.2" = _bksVMKhf;
+        "default" = _LLYA3vec;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1338,4 +1339,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LLYA3vec";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "bvuuGPpW" = _bvuuGPpW;
         "fabric-1.20.1" = _bvuuGPpW;
         "quilt-1.20.1" = _bvuuGPpW;
+        "default" = _bvuuGPpW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bvuuGPpW";}
+in callPackage fn {version="default";}

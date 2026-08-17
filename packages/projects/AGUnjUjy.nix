@@ -148,6 +148,7 @@ let
         "optifine-1.21.9" = _G74YNoOB;
         "optifine-1.21.10" = _G74YNoOB;
         "optifine-1.21.11" = _G74YNoOB;
+        "default" = _G74YNoOB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="G74YNoOB";}
+in callPackage fn {version="default";}

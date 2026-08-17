@@ -10,6 +10,7 @@ let
         "lIvpES94" = _lIvpES94;
         "fabric-1.20" = _lIvpES94;
         "fabric-1.20.1" = _lIvpES94;
+        "default" = _lIvpES94;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lIvpES94";}
+in callPackage fn {version="default";}

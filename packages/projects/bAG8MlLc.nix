@@ -28,6 +28,7 @@ let
         "fabric-1.20.2" = _rzd10uia;
         "fabric-1.20.3" = _rzd10uia;
         "fabric-1.20.4" = _rzd10uia;
+        "default" = _rzd10uia;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rzd10uia";}
+in callPackage fn {version="default";}

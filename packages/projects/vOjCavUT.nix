@@ -165,6 +165,7 @@ let
         "2ITFcXT1" = _2ITFcXT1;
         "ii1jZrab" = _ii1jZrab;
         "forge-1.7.10" = _ii1jZrab;
+        "default" = _ii1jZrab;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -185,4 +186,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ii1jZrab";}
+in callPackage fn {version="default";}

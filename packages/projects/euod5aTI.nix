@@ -36,6 +36,7 @@ let
         "minecraft-1.21.6" = _JLSkHLv7;
         "minecraft-1.21.7" = _JLSkHLv7;
         "minecraft-1.21.8" = _JLSkHLv7;
+        "default" = _JLSkHLv7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JLSkHLv7";}
+in callPackage fn {version="default";}

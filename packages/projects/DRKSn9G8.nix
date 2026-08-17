@@ -112,6 +112,7 @@ let
         "HCsWT6mL" = _HCsWT6mL;
         "neoforge-1.21.1" = _HCsWT6mL;
         "forge-1.20.1" = _i0avCVnV;
+        "default" = _HCsWT6mL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HCsWT6mL";}
+in callPackage fn {version="default";}

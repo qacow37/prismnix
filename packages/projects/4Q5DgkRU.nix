@@ -57,6 +57,7 @@ let
         "Meacw469" = _Meacw469;
         "7QWLCoVr" = _7QWLCoVr;
         "fabric-1.18.2" = _7QWLCoVr;
+        "default" = _7QWLCoVr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7QWLCoVr";}
+in callPackage fn {version="default";}

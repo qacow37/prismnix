@@ -28,6 +28,7 @@ let
         "MBStppT0" = _MBStppT0;
         "fabric-1.20.1" = _MBStppT0;
         "fabric-1.21" = _BKGyPfTi;
+        "default" = _MBStppT0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MBStppT0";}
+in callPackage fn {version="default";}

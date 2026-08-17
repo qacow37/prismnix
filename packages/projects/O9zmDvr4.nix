@@ -46,6 +46,7 @@ let
         "PIuROoPL" = _PIuROoPL;
         "fabric-1.20.1" = _tqaNwEp7;
         "forge-1.20.1" = _PIuROoPL;
+        "default" = _PIuROoPL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PIuROoPL";}
+in callPackage fn {version="default";}

@@ -105,6 +105,7 @@ let
         "pNHF2YaK" = _pNHF2YaK;
         "huuYIrjo" = _huuYIrjo;
         "fabric-1.21.1" = _huuYIrjo;
+        "default" = _huuYIrjo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="huuYIrjo";}
+in callPackage fn {version="default";}

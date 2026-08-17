@@ -51,6 +51,7 @@ let
         "MdDXdoBB" = _MdDXdoBB;
         "vz60ZHh7" = _vz60ZHh7;
         "forge-1.20.1" = _vz60ZHh7;
+        "default" = _vz60ZHh7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vz60ZHh7";}
+in callPackage fn {version="default";}

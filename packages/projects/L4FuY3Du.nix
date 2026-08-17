@@ -10,6 +10,7 @@ let
         "yLWi17x5" = _yLWi17x5;
         "fabric-1.20" = _yLWi17x5;
         "fabric-1.20.1" = _yLWi17x5;
+        "default" = _yLWi17x5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yLWi17x5";}
+in callPackage fn {version="default";}

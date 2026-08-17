@@ -21,6 +21,7 @@ let
         "Td5OcO2F" = _Td5OcO2F;
         "FnRTXB4K" = _FnRTXB4K;
         "forge-1.20.1" = _FnRTXB4K;
+        "default" = _FnRTXB4K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FnRTXB4K";}
+in callPackage fn {version="default";}

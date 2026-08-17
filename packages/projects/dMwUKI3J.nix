@@ -16,6 +16,7 @@ let
         "DIEJNAeC" = _DIEJNAeC;
         "fabric-1.20.1" = _IXSCriRw;
         "forge-1.20.1" = _DIEJNAeC;
+        "default" = _DIEJNAeC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DIEJNAeC";}
+in callPackage fn {version="default";}

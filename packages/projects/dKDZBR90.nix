@@ -34,6 +34,7 @@ let
         "KrKgHcOp" = _KrKgHcOp;
         "fabric-1.20.1" = _A5DJ5fkL;
         "fabric-1.21.1" = _KrKgHcOp;
+        "default" = _KrKgHcOp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KrKgHcOp";}
+in callPackage fn {version="default";}

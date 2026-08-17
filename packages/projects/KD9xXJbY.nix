@@ -179,6 +179,7 @@ let
         "neoforge-1.21.6" = _WPxmJivI;
         "neoforge-1.21.7" = _WPxmJivI;
         "neoforge-1.21.8" = _WPxmJivI;
+        "default" = _WPxmJivI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -199,4 +200,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WPxmJivI";}
+in callPackage fn {version="default";}

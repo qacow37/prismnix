@@ -769,6 +769,7 @@ let
         "quilt-26.3-snapshot-4" = _OULOc2mu;
         "quilt-26.3-snapshot-5" = _OULOc2mu;
         "quilt-26.3-snapshot-6" = _OULOc2mu;
+        "default" = _OULOc2mu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -789,4 +790,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OULOc2mu";}
+in callPackage fn {version="default";}

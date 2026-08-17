@@ -33,6 +33,7 @@ let
         "QVxpecPA" = _QVxpecPA;
         "WldS3kKe" = _WldS3kKe;
         "forge-1.20.1" = _WldS3kKe;
+        "default" = _WldS3kKe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WldS3kKe";}
+in callPackage fn {version="default";}

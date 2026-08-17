@@ -81,6 +81,7 @@ let
         "7XKg0DBC" = _7XKg0DBC;
         "eueCHpN6" = _eueCHpN6;
         "fabric-1.20.1" = _eueCHpN6;
+        "default" = _eueCHpN6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eueCHpN6";}
+in callPackage fn {version="default";}

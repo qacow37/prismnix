@@ -28,6 +28,7 @@ let
         "TED5ClEL" = _TED5ClEL;
         "fabric-1.21.4" = _TED5ClEL;
         "quilt-1.21.4" = _TED5ClEL;
+        "default" = _TED5ClEL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TED5ClEL";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "vxhFnij2" = _vxhFnij2;
         "minecraft-1.20" = _vxhFnij2;
         "minecraft-1.20.1" = _vxhFnij2;
+        "default" = _vxhFnij2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vxhFnij2";}
+in callPackage fn {version="default";}

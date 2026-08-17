@@ -58,6 +58,7 @@ let
         "tFZSONtV" = _tFZSONtV;
         "fabric-1.20.1" = _BBtIYyB1;
         "forge-1.20.1" = _tFZSONtV;
+        "default" = _tFZSONtV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tFZSONtV";}
+in callPackage fn {version="default";}

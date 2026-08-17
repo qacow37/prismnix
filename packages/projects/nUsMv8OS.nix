@@ -35,6 +35,7 @@ let
         "fabric-1.21.4" = _sa203pxT;
         "fabric-1.21.5" = _HLOpaBgk;
         "fabric-1.21.7" = _sslWELuR;
+        "default" = _sslWELuR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sslWELuR";}
+in callPackage fn {version="default";}

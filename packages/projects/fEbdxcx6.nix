@@ -14,6 +14,7 @@ let
         "fabric-1.21.8" = _uYSbAneX;
         "fabric-1.21.9" = _uYSbAneX;
         "fabric-1.21.10" = _uYSbAneX;
+        "default" = _uYSbAneX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uYSbAneX";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "yNSiP60V" = _yNSiP60V;
         "minecraft-1.20" = _yNSiP60V;
         "minecraft-1.20.1" = _yNSiP60V;
+        "default" = _yNSiP60V;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yNSiP60V";}
+in callPackage fn {version="default";}

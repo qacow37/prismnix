@@ -27,6 +27,7 @@ let
         "KPgfEXO6" = _KPgfEXO6;
         "EDMqRnfK" = _EDMqRnfK;
         "forge-1.20.1" = _EDMqRnfK;
+        "default" = _EDMqRnfK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EDMqRnfK";}
+in callPackage fn {version="default";}

@@ -52,6 +52,7 @@ let
         "ftDV31SE" = _ftDV31SE;
         "fabric-1.21.1" = _ftDV31SE;
         "quilt-1.21.1" = _ftDV31SE;
+        "default" = _ftDV31SE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ftDV31SE";}
+in callPackage fn {version="default";}

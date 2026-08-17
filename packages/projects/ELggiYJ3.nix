@@ -9,6 +9,7 @@ let
     in {
         "MUfEap4I" = _MUfEap4I;
         "minecraft-1.20.1" = _MUfEap4I;
+        "default" = _MUfEap4I;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MUfEap4I";}
+in callPackage fn {version="default";}

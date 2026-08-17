@@ -117,6 +117,7 @@ let
         "CirwED1U" = _CirwED1U;
         "u63ixvSd" = _u63ixvSd;
         "forge-1.7.10" = _u63ixvSd;
+        "default" = _u63ixvSd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u63ixvSd";}
+in callPackage fn {version="default";}

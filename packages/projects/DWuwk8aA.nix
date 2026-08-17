@@ -716,6 +716,7 @@ let
         "fabric-26.1.1" = _dMeAAaEB;
         "fabric-26.1.2" = _dMeAAaEB;
         "fabric-26.2" = _bGytTuDO;
+        "default" = _bGytTuDO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -736,4 +737,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bGytTuDO";}
+in callPackage fn {version="default";}

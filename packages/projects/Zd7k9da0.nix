@@ -148,6 +148,7 @@ let
         "neoforge-1.20.6" = _AUSVTF3s;
         "neoforge-1.21" = _AUSVTF3s;
         "neoforge-1.21.1" = _AUSVTF3s;
+        "default" = _AUSVTF3s;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AUSVTF3s";}
+in callPackage fn {version="default";}

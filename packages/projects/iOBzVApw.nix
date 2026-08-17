@@ -230,6 +230,7 @@ let
         "quilt-25w15a" = _mVH6ybgi;
         "quilt-25w16a" = _mVH6ybgi;
         "quilt-25w17a" = _zzWktLSv;
+        "default" = _zzWktLSv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -250,4 +251,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zzWktLSv";}
+in callPackage fn {version="default";}

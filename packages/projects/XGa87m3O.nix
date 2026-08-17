@@ -66,6 +66,7 @@ let
         "spigot-1.20.4" = _przOmufA;
         "folia-1.20" = _F4eTOfmE;
         "folia-1.20.1" = _F4eTOfmE;
+        "default" = _przOmufA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="przOmufA";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "IkYo1VDI" = _IkYo1VDI;
         "minecraft-1.21.5" = _IkYo1VDI;
         "vanilla-1.21.5" = _AYxiG1KM;
+        "default" = _IkYo1VDI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IkYo1VDI";}
+in callPackage fn {version="default";}

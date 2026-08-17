@@ -15,6 +15,7 @@ let
         "HYeruP8L" = _HYeruP8L;
         "oILm8HIv" = _oILm8HIv;
         "fabric-1.20.1" = _oILm8HIv;
+        "default" = _oILm8HIv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oILm8HIv";}
+in callPackage fn {version="default";}

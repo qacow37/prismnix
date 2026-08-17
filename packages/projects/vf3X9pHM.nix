@@ -28,6 +28,7 @@ let
         "eqQFtReE" = _eqQFtReE;
         "babric-b1.7.3" = _eqQFtReE;
         "fabric-b1.7.3" = _eqQFtReE;
+        "default" = _eqQFtReE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eqQFtReE";}
+in callPackage fn {version="default";}

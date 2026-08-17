@@ -26,6 +26,7 @@ let
         "fabric-1.20.4" = _DBdiYuSS;
         "fabric-1.20.5" = _DBdiYuSS;
         "fabric-1.20.6" = _DBdiYuSS;
+        "default" = _DBdiYuSS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DBdiYuSS";}
+in callPackage fn {version="default";}

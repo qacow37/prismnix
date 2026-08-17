@@ -193,6 +193,7 @@ let
         "forge-1.21.3" = _SScBipD3;
         "forge-1.21.4" = _SScBipD3;
         "forge-1.21.5" = _SScBipD3;
+        "default" = _SU07r22C;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -213,4 +214,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SU07r22C";}
+in callPackage fn {version="default";}

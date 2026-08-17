@@ -51,6 +51,7 @@ let
         "fabric-1.21.10" = _YreGaOic;
         "fabric-1.21.11" = _YreGaOic;
         "fabric-26.1" = _YreGaOic;
+        "default" = _YreGaOic;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YreGaOic";}
+in callPackage fn {version="default";}

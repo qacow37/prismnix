@@ -10,6 +10,7 @@ let
         "dbayBLG8" = _dbayBLG8;
         "minecraft-1.17" = _dbayBLG8;
         "minecraft-1.20.1" = _dbayBLG8;
+        "default" = _dbayBLG8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dbayBLG8";}
+in callPackage fn {version="default";}

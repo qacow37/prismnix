@@ -341,6 +341,7 @@ let
         "neoforge-26.3-snapshot-2" = _WUBobDKx;
         "neoforge-26.3-snapshot-3" = _WUBobDKx;
         "neoforge-26.3-snapshot-4" = _WUBobDKx;
+        "default" = _WUBobDKx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -361,4 +362,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WUBobDKx";}
+in callPackage fn {version="default";}

@@ -526,6 +526,7 @@ let
         "fabric-26.1" = _Za3MBIfV;
         "fabric-26.1.1" = _Za3MBIfV;
         "fabric-26.1.2" = _Za3MBIfV;
+        "default" = _3VGTFcrw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -546,4 +547,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3VGTFcrw";}
+in callPackage fn {version="default";}

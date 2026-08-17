@@ -181,6 +181,7 @@ let
         "fabric-1.20.1" = _ptWk7ID7;
         "quilt-1.20.1" = _ptWk7ID7;
         "bta-babric-b1.7.3" = _82GHHm19;
+        "default" = _82GHHm19;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -201,4 +202,4 @@ let
                 };
             };
         };
-in callPackage fn {version="82GHHm19";}
+in callPackage fn {version="default";}

@@ -70,6 +70,7 @@ let
         "Ncjd1WlE" = _Ncjd1WlE;
         "forge-1.20.1" = _Ncjd1WlE;
         "forge-1.19.2" = _XWt9xb8y;
+        "default" = _Ncjd1WlE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ncjd1WlE";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "cKODASBS" = _cKODASBS;
         "minecraft-1.20.4" = _cKODASBS;
         "minecraft-1.20.3" = _cKODASBS;
+        "default" = _cKODASBS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cKODASBS";}
+in callPackage fn {version="default";}

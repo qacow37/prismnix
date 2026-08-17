@@ -81,6 +81,7 @@ let
         "minecraft-1.20.4" = _xe3Neorp;
         "minecraft-1.20.5" = _xe3Neorp;
         "minecraft-1.20.6" = _xe3Neorp;
+        "default" = _xe3Neorp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xe3Neorp";}
+in callPackage fn {version="default";}

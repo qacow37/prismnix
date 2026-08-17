@@ -24,6 +24,7 @@ let
         "paper-1.21.7" = _aZHtlHAi;
         "paper-1.21.8" = _aZHtlHAi;
         "paper-1.21.9" = _aZHtlHAi;
+        "default" = _aZHtlHAi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aZHtlHAi";}
+in callPackage fn {version="default";}

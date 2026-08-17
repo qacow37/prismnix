@@ -248,6 +248,7 @@ let
         "minecraft-26.1.1" = _XRTUXlMK;
         "minecraft-26.1.2" = _XRTUXlMK;
         "minecraft-26.2" = _XRTUXlMK;
+        "default" = _XRTUXlMK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -268,4 +269,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XRTUXlMK";}
+in callPackage fn {version="default";}

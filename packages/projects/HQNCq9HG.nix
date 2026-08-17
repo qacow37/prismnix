@@ -215,6 +215,7 @@ let
         "neoforge-1.21.6" = _vMupxSOk;
         "neoforge-1.21.7" = _vMupxSOk;
         "neoforge-1.21.8" = _vMupxSOk;
+        "default" = _vMupxSOk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -235,4 +236,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vMupxSOk";}
+in callPackage fn {version="default";}

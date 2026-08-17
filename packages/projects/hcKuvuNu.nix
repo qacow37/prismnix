@@ -15,6 +15,7 @@ let
         "o5hRIuLv" = _o5hRIuLv;
         "sfHLSuMR" = _sfHLSuMR;
         "forge-1.12.2" = _sfHLSuMR;
+        "default" = _sfHLSuMR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sfHLSuMR";}
+in callPackage fn {version="default";}

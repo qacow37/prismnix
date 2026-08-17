@@ -9,6 +9,7 @@ let
     in {
         "OMQc4ecz" = _OMQc4ecz;
         "fabric-1.20.1" = _OMQc4ecz;
+        "default" = _OMQc4ecz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OMQc4ecz";}
+in callPackage fn {version="default";}

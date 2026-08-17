@@ -15,6 +15,7 @@ let
         "FKE9ORtX" = _FKE9ORtX;
         "cAP2JPS1" = _cAP2JPS1;
         "forge-1.20.1" = _cAP2JPS1;
+        "default" = _cAP2JPS1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cAP2JPS1";}
+in callPackage fn {version="default";}

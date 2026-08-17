@@ -74,6 +74,7 @@ let
         "quilt-1.19.1" = _S4RXcPOn;
         "quilt-1.19.2" = _S4RXcPOn;
         "quilt-1.19.3" = _S4RXcPOn;
+        "default" = _S4RXcPOn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S4RXcPOn";}
+in callPackage fn {version="default";}

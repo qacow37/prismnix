@@ -87,6 +87,7 @@ let
         "HtbgbVpr" = _HtbgbVpr;
         "o3PCPame" = _o3PCPame;
         "fabric-1.20.1" = _o3PCPame;
+        "default" = _o3PCPame;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="o3PCPame";}
+in callPackage fn {version="default";}

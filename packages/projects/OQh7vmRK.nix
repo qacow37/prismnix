@@ -21,6 +21,7 @@ let
         "D40Ca1XD" = _D40Ca1XD;
         "LfimtbKO" = _LfimtbKO;
         "forge-1.19.2" = _LfimtbKO;
+        "default" = _LfimtbKO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LfimtbKO";}
+in callPackage fn {version="default";}

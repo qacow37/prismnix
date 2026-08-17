@@ -40,6 +40,7 @@ let
         "Sq411AY5" = _Sq411AY5;
         "forge-1.20.1" = _29Oy2hF6;
         "neoforge-1.21.1" = _Sq411AY5;
+        "default" = _Sq411AY5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Sq411AY5";}
+in callPackage fn {version="default";}

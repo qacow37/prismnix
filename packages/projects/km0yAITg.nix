@@ -221,6 +221,7 @@ let
         "purpur-1.21.6" = _OU1MuceC;
         "purpur-1.21.7" = _OU1MuceC;
         "purpur-1.21.8" = _OU1MuceC;
+        "default" = _OU1MuceC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -241,4 +242,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OU1MuceC";}
+in callPackage fn {version="default";}

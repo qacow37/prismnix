@@ -26,6 +26,7 @@ let
         "minecraft-1.19.4" = _hATPVPIm;
         "minecraft-1.20.4" = _hATPVPIm;
         "minecraft-1.20.1" = _hATPVPIm;
+        "default" = _hATPVPIm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hATPVPIm";}
+in callPackage fn {version="default";}

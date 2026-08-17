@@ -30,6 +30,7 @@ let
         "forge-1.18.2" = _Il0z8LyP;
         "forge-1.19.2" = _Yw0jDjEQ;
         "forge-1.20.1" = _xt62WCTA;
+        "default" = _xt62WCTA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xt62WCTA";}
+in callPackage fn {version="default";}

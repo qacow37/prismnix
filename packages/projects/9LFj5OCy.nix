@@ -70,6 +70,7 @@ let
         "36lVoGDh" = _36lVoGDh;
         "neoforge-1.21.1" = _36lVoGDh;
         "fabric-1.21.1" = _SfM4LYIN;
+        "default" = _36lVoGDh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="36lVoGDh";}
+in callPackage fn {version="default";}

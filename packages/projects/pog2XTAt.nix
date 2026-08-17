@@ -46,6 +46,7 @@ let
         "FenkJxdl" = _FenkJxdl;
         "fabric-1.20.1" = _qtrWH3Lm;
         "fabric-1.21.1" = _FenkJxdl;
+        "default" = _FenkJxdl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FenkJxdl";}
+in callPackage fn {version="default";}

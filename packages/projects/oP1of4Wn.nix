@@ -122,6 +122,7 @@ let
         "forge-1.19.3" = _Myd3w08r;
         "forge-1.19.4" = _Myd3w08r;
         "neoforge-1.21.1" = _IUHijzQc;
+        "default" = _9qFBIdEx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -142,4 +143,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9qFBIdEx";}
+in callPackage fn {version="default";}

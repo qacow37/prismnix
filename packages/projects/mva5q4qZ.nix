@@ -81,6 +81,7 @@ let
         "JhLXaayR" = _JhLXaayR;
         "UcXaPVeD" = _UcXaPVeD;
         "neoforge-1.21.1" = _UcXaPVeD;
+        "default" = _UcXaPVeD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UcXaPVeD";}
+in callPackage fn {version="default";}

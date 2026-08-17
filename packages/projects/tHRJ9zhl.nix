@@ -9,6 +9,7 @@ let
     in {
         "TCTetYHz" = _TCTetYHz;
         "neoforge-1.21.1" = _TCTetYHz;
+        "default" = _TCTetYHz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TCTetYHz";}
+in callPackage fn {version="default";}

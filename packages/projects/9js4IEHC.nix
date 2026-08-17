@@ -227,6 +227,7 @@ let
         "bungeecord-1.21.9" = _pH04fqa4;
         "bungeecord-1.21.10" = _pH04fqa4;
         "bungeecord-26.2" = _pH04fqa4;
+        "default" = _IPbxgBri;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -247,4 +248,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IPbxgBri";}
+in callPackage fn {version="default";}

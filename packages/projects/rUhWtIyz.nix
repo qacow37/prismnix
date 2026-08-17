@@ -123,6 +123,7 @@ let
         "quilt-1.19" = _iqeHOKpa;
         "quilt-1.19.1" = _iqeHOKpa;
         "quilt-1.19.2" = _iqeHOKpa;
+        "default" = _iqeHOKpa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iqeHOKpa";}
+in callPackage fn {version="default";}

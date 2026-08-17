@@ -27,6 +27,7 @@ let
         "ZeBSjv6k" = _ZeBSjv6k;
         "vCnLMcUS" = _vCnLMcUS;
         "forge-1.16.5" = _vCnLMcUS;
+        "default" = _vCnLMcUS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vCnLMcUS";}
+in callPackage fn {version="default";}

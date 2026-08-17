@@ -54,6 +54,7 @@ let
         "neoforge-1.21.7" = _doCwghoT;
         "neoforge-1.21.8" = _doCwghoT;
         "neoforge-26.1.2" = _3xOFmodS;
+        "default" = _3xOFmodS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3xOFmodS";}
+in callPackage fn {version="default";}

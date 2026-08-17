@@ -21,6 +21,7 @@ let
         "ClE7Zrf2" = _ClE7Zrf2;
         "PnYguaC2" = _PnYguaC2;
         "fabric-1.21.1" = _PnYguaC2;
+        "default" = _PnYguaC2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PnYguaC2";}
+in callPackage fn {version="default";}

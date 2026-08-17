@@ -39,6 +39,7 @@ let
         "7Vsmlp05" = _7Vsmlp05;
         "fdSN9W4S" = _fdSN9W4S;
         "neoforge-1.21.1" = _fdSN9W4S;
+        "default" = _fdSN9W4S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fdSN9W4S";}
+in callPackage fn {version="default";}

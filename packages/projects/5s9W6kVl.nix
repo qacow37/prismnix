@@ -73,6 +73,7 @@ let
         "fabric-26.1" = _ACrqVomb;
         "fabric-26.1.1" = _ACrqVomb;
         "fabric-26.1.2" = _ACrqVomb;
+        "default" = _ACrqVomb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -93,4 +94,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ACrqVomb";}
+in callPackage fn {version="default";}

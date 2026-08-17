@@ -125,6 +125,7 @@ let
         "quilt-1.21.11" = _NDAM360G;
         "quilt-26.1" = _NDAM360G;
         "quilt-26.1.1" = _NDAM360G;
+        "default" = _NDAM360G;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -145,4 +146,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NDAM360G";}
+in callPackage fn {version="default";}

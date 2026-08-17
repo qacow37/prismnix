@@ -80,6 +80,7 @@ let
         "fabric-1.21.2" = _MNB7PyXW;
         "fabric-1.21.3" = _MNB7PyXW;
         "fabric-1.21.4" = _MNB7PyXW;
+        "default" = _MNB7PyXW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MNB7PyXW";}
+in callPackage fn {version="default";}

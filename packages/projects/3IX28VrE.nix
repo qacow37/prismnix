@@ -16,6 +16,7 @@ let
         "minecraft-1.20" = _NLXcpfGV;
         "minecraft-1.20.1" = _NLXcpfGV;
         "minecraft-1.20.4" = _NLXcpfGV;
+        "default" = _NLXcpfGV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NLXcpfGV";}
+in callPackage fn {version="default";}

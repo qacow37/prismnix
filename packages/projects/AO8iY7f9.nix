@@ -31636,6 +31636,7 @@ let
         "minecraft-1.19" = _pwvtIOVv;
         "minecraft-1.19.1" = _pwvtIOVv;
         "minecraft-1.19.2" = _pwvtIOVv;
+        "default" = _pwvtIOVv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31656,4 +31657,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pwvtIOVv";}
+in callPackage fn {version="default";}

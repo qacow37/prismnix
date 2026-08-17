@@ -57,6 +57,7 @@ let
         "ELH93taL" = _ELH93taL;
         "4mxLvVmY" = _4mxLvVmY;
         "forge-1.20.1" = _4mxLvVmY;
+        "default" = _4mxLvVmY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4mxLvVmY";}
+in callPackage fn {version="default";}

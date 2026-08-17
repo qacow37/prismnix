@@ -43,6 +43,7 @@ let
         "minecraft-1.21.7" = _WOr33Rfp;
         "minecraft-1.21.8" = _WOr33Rfp;
         "minecraft-1.21.9" = _WOr33Rfp;
+        "default" = _WOr33Rfp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WOr33Rfp";}
+in callPackage fn {version="default";}

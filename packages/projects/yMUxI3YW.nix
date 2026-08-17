@@ -27,6 +27,7 @@ let
         "AO29RGFO" = _AO29RGFO;
         "ke6EMdS1" = _ke6EMdS1;
         "forge-1.20.1" = _ke6EMdS1;
+        "default" = _ke6EMdS1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ke6EMdS1";}
+in callPackage fn {version="default";}

@@ -419,6 +419,7 @@ let
         "fabric-25w14craftmine" = _7mbeX1xU;
         "quilt-1.20.4" = _1ELJ263j;
         "quilt-1.21" = _FbpTmwNf;
+        "default" = _cx5B4Q0k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -439,4 +440,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cx5B4Q0k";}
+in callPackage fn {version="default";}

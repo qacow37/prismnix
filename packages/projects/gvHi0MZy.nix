@@ -41,6 +41,7 @@ let
         "minecraft-26.1" = _NaJPxTye;
         "minecraft-26.1.1" = _NaJPxTye;
         "minecraft-26.1.2" = _NaJPxTye;
+        "default" = _NaJPxTye;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NaJPxTye";}
+in callPackage fn {version="default";}

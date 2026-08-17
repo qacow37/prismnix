@@ -173,6 +173,7 @@ let
         "minecraft-25w33a" = _Heu7dlIN;
         "minecraft-25w34a" = _Heu7dlIN;
         "minecraft-25w34b" = _Heu7dlIN;
+        "default" = _Heu7dlIN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -193,4 +194,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Heu7dlIN";}
+in callPackage fn {version="default";}

@@ -45,6 +45,7 @@ let
         "forge-1.21.2" = _9CDGaLAU;
         "forge-1.21.3" = _9CDGaLAU;
         "forge-1.21.4" = _9CDGaLAU;
+        "default" = _9CDGaLAU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9CDGaLAU";}
+in callPackage fn {version="default";}

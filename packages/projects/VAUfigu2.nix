@@ -64,6 +64,7 @@ let
         "IS5cdOAc" = _IS5cdOAc;
         "forge-1.12.2" = _IS5cdOAc;
         "forge-1.8.9" = _NOoQJ3Fx;
+        "default" = _IS5cdOAc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IS5cdOAc";}
+in callPackage fn {version="default";}

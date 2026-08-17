@@ -34,6 +34,7 @@ let
         "bApJTSYs" = _bApJTSYs;
         "neoforge-1.21.1" = _bApJTSYs;
         "forge-1.20.1" = _TmuLuAFp;
+        "default" = _bApJTSYs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bApJTSYs";}
+in callPackage fn {version="default";}

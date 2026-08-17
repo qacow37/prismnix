@@ -373,6 +373,7 @@ let
         "neoforge-26.1" = _V8BelOCR;
         "neoforge-26.1.1" = _V8BelOCR;
         "neoforge-26.1.2" = _V8BelOCR;
+        "default" = _V8BelOCR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -393,4 +394,4 @@ let
                 };
             };
         };
-in callPackage fn {version="V8BelOCR";}
+in callPackage fn {version="default";}

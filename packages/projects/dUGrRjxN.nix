@@ -74,6 +74,7 @@ let
         "paper-1.21.9" = _OHEck2t8;
         "paper-1.21.10" = _OHEck2t8;
         "paper-1.21.11" = _OHEck2t8;
+        "default" = _OHEck2t8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OHEck2t8";}
+in callPackage fn {version="default";}

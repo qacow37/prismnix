@@ -28,6 +28,7 @@ let
         "u23uORgP" = _u23uORgP;
         "datapack-1.20.1" = _Y5Gv7Apl;
         "forge-1.20.1" = _u23uORgP;
+        "default" = _u23uORgP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u23uORgP";}
+in callPackage fn {version="default";}

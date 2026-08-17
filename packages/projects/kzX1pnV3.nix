@@ -10,6 +10,7 @@ let
         "t1JS5Yoc" = _t1JS5Yoc;
         "forge-1.20.1" = _t1JS5Yoc;
         "neoforge-1.20.1" = _t1JS5Yoc;
+        "default" = _t1JS5Yoc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t1JS5Yoc";}
+in callPackage fn {version="default";}

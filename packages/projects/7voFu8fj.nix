@@ -58,6 +58,7 @@ let
         "2XtIcdBu" = _2XtIcdBu;
         "forge-1.20.1" = _2XtIcdBu;
         "fabric-1.20.1" = _lgLLsjCz;
+        "default" = _2XtIcdBu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2XtIcdBu";}
+in callPackage fn {version="default";}

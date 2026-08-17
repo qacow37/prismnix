@@ -104,6 +104,7 @@ let
         "spigot-1.21.8" = _6juceknm;
         "spigot-1.21.9" = _86PyVyTG;
         "spigot-1.21.10" = _86PyVyTG;
+        "default" = _hsllYPIp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -124,4 +125,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hsllYPIp";}
+in callPackage fn {version="default";}

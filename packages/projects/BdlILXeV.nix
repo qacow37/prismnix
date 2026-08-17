@@ -29,6 +29,7 @@ let
         "neoforge-1.21.1" = _es6cmiau;
         "neoforge-1.20.1" = _GHVME4mR;
         "forge-1.20.1" = _GHVME4mR;
+        "default" = _es6cmiau;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="es6cmiau";}
+in callPackage fn {version="default";}

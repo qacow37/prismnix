@@ -87,6 +87,7 @@ let
         "E513F2VO" = _E513F2VO;
         "xTLWDI8f" = _xTLWDI8f;
         "forge-1.20.1" = _xTLWDI8f;
+        "default" = _xTLWDI8f;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xTLWDI8f";}
+in callPackage fn {version="default";}

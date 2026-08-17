@@ -39,6 +39,7 @@ let
         "LZ8rPd4j" = _LZ8rPd4j;
         "J5U96BIu" = _J5U96BIu;
         "fabric-1.21.1" = _J5U96BIu;
+        "default" = _J5U96BIu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="J5U96BIu";}
+in callPackage fn {version="default";}

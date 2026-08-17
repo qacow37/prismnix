@@ -242,6 +242,7 @@ let
         "forge-1.20.1" = _OI33VQSh;
         "neoforge-1.21" = _GUoVo433;
         "neoforge-1.21.1" = _GUoVo433;
+        "default" = _GUoVo433;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -262,4 +263,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GUoVo433";}
+in callPackage fn {version="default";}

@@ -129,6 +129,7 @@ let
         "kJVHmhp8" = _kJVHmhp8;
         "nD915vxB" = _nD915vxB;
         "forge-1.12.2" = _nD915vxB;
+        "default" = _nD915vxB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nD915vxB";}
+in callPackage fn {version="default";}

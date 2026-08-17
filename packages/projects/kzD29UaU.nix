@@ -27,6 +27,7 @@ let
         "qrulEn2n" = _qrulEn2n;
         "RbcIOOvK" = _RbcIOOvK;
         "minecraft-1.20.1" = _RbcIOOvK;
+        "default" = _RbcIOOvK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RbcIOOvK";}
+in callPackage fn {version="default";}

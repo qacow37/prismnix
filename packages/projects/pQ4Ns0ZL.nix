@@ -139,6 +139,7 @@ let
         "purpur-26.2" = _kSlddFox;
         "spigot-26.2" = _kSlddFox;
         "sponge-26.2" = _kSlddFox;
+        "default" = _kSlddFox;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -159,4 +160,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kSlddFox";}
+in callPackage fn {version="default";}

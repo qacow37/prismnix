@@ -15,6 +15,7 @@ let
         "3v7ubDH0" = _3v7ubDH0;
         "w6PLWT2p" = _w6PLWT2p;
         "minecraft-24w14potato" = _w6PLWT2p;
+        "default" = _w6PLWT2p;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w6PLWT2p";}
+in callPackage fn {version="default";}

@@ -105,6 +105,7 @@ let
         "roRWhx92" = _roRWhx92;
         "ZRwyeSx4" = _ZRwyeSx4;
         "neoforge-1.21.1" = _ZRwyeSx4;
+        "default" = _ZRwyeSx4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZRwyeSx4";}
+in callPackage fn {version="default";}

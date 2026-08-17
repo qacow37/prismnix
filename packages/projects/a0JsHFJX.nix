@@ -63,6 +63,7 @@ let
         "xnpqwAAk" = _xnpqwAAk;
         "4UI73tld" = _4UI73tld;
         "forge-1.19.2" = _4UI73tld;
+        "default" = _4UI73tld;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4UI73tld";}
+in callPackage fn {version="default";}

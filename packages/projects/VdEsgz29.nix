@@ -44,6 +44,7 @@ let
         "forge-1.20.1" = _4AX94uzh;
         "neoforge-1.20.4" = _pqGBY4x0;
         "fabric-1.20.1" = _50PbwXLS;
+        "default" = _50PbwXLS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="50PbwXLS";}
+in callPackage fn {version="default";}

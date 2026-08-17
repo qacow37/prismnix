@@ -433,6 +433,7 @@ let
         "datapack-26.3-snapshot-2" = _MGFSksKW;
         "datapack-26.3-snapshot-3" = _MGFSksKW;
         "datapack-26.3-snapshot-4" = _MGFSksKW;
+        "default" = _MM4yaN4P;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -453,4 +454,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MM4yaN4P";}
+in callPackage fn {version="default";}

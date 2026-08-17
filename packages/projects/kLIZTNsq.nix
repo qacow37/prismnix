@@ -127,6 +127,7 @@ let
         "minecraft-1.20.5-pre1" = _zgEok6Nv;
         "minecraft-1.20.5-pre2" = _zgEok6Nv;
         "minecraft-1.20.5-pre3" = _zgEok6Nv;
+        "default" = _695TVSbK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -147,4 +148,4 @@ let
                 };
             };
         };
-in callPackage fn {version="695TVSbK";}
+in callPackage fn {version="default";}

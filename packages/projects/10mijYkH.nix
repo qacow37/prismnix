@@ -135,6 +135,7 @@ let
         "gxXekyft" = _gxXekyft;
         "HT0fewoX" = _HT0fewoX;
         "forge-1.20.1" = _HT0fewoX;
+        "default" = _HT0fewoX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HT0fewoX";}
+in callPackage fn {version="default";}

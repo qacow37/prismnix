@@ -40,6 +40,7 @@ let
         "Wh4F9bUp" = _Wh4F9bUp;
         "fabric-b1.7.3" = _VpCxjvup;
         "modloader-b1.7.3" = _Wh4F9bUp;
+        "default" = _Wh4F9bUp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Wh4F9bUp";}
+in callPackage fn {version="default";}

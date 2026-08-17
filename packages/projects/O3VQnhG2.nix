@@ -476,6 +476,7 @@ let
         "fabric-1.21.9" = _iNoFcR1q;
         "fabric-1.21.10" = _iNoFcR1q;
         "fabric-1.21.11" = _iNoFcR1q;
+        "default" = _CdLThDdk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -496,4 +497,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CdLThDdk";}
+in callPackage fn {version="default";}

@@ -82,6 +82,7 @@ let
         "2vkOtDs3" = _2vkOtDs3;
         "fabric-1.21.1" = _2vkOtDs3;
         "neoforge-1.21.1" = _fZ7v8tFq;
+        "default" = _2vkOtDs3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2vkOtDs3";}
+in callPackage fn {version="default";}

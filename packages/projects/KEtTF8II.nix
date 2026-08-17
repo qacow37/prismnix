@@ -25,6 +25,7 @@ let
         "minecraft-1.19.3" = _TVWOLeiG;
         "minecraft-1.19.4" = _TVWOLeiG;
         "minecraft-23w14a" = _TVWOLeiG;
+        "default" = _TVWOLeiG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -45,4 +46,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TVWOLeiG";}
+in callPackage fn {version="default";}

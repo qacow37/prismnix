@@ -27,6 +27,7 @@ let
         "cgS3kgtH" = _cgS3kgtH;
         "XQtDBanI" = _XQtDBanI;
         "fabric-1.20.1" = _XQtDBanI;
+        "default" = _XQtDBanI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XQtDBanI";}
+in callPackage fn {version="default";}

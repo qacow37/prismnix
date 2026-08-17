@@ -9,6 +9,7 @@ let
     in {
         "IFNcLDps" = _IFNcLDps;
         "forge-1.12.2" = _IFNcLDps;
+        "default" = _IFNcLDps;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IFNcLDps";}
+in callPackage fn {version="default";}

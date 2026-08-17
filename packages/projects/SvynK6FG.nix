@@ -67,6 +67,7 @@ let
         "optifine-1.20.6" = _vmKfCvnE;
         "optifine-1.21" = _vmKfCvnE;
         "optifine-1.21.1" = _vmKfCvnE;
+        "default" = _YpOxmaDM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -87,4 +88,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YpOxmaDM";}
+in callPackage fn {version="default";}

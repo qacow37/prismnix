@@ -45,6 +45,7 @@ let
         "TCicOryH" = _TCicOryH;
         "TPTTGEjW" = _TPTTGEjW;
         "fabric-1.20.4" = _TPTTGEjW;
+        "default" = _TPTTGEjW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TPTTGEjW";}
+in callPackage fn {version="default";}

@@ -723,6 +723,7 @@ let
         "purpur-1.20.4" = _kcjmcgTa;
         "purpur-1.20.5" = _kcjmcgTa;
         "purpur-1.20.6" = _kcjmcgTa;
+        "default" = _NWX8MGts;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -743,4 +744,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NWX8MGts";}
+in callPackage fn {version="default";}

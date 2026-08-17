@@ -254,6 +254,7 @@ let
         "modloader-a1.1.0" = _hpWUInHK;
         "modloader-a1.1.2" = _Aw7oVIH2;
         "modloader-a1.1.2_01" = _rKbuoZak;
+        "default" = _YQreoDbI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -274,4 +275,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YQreoDbI";}
+in callPackage fn {version="default";}

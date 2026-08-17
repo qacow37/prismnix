@@ -34,6 +34,7 @@ let
         "8N0SVMuX" = _8N0SVMuX;
         "forge-1.20.1" = _8N0SVMuX;
         "neoforge-1.20.1" = _8N0SVMuX;
+        "default" = _8N0SVMuX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8N0SVMuX";}
+in callPackage fn {version="default";}

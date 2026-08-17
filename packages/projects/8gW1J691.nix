@@ -27,6 +27,7 @@ let
         "y0IPuFPE" = _y0IPuFPE;
         "7WP7TEP0" = _7WP7TEP0;
         "forge-1.20.1" = _7WP7TEP0;
+        "default" = _7WP7TEP0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7WP7TEP0";}
+in callPackage fn {version="default";}

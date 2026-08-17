@@ -142,6 +142,7 @@ let
         "velocity-26.1" = _uR626II6;
         "velocity-26.1.1" = _uR626II6;
         "velocity-26.1.2" = _uR626II6;
+        "default" = _uR626II6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -162,4 +163,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uR626II6";}
+in callPackage fn {version="default";}

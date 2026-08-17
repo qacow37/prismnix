@@ -1574,6 +1574,7 @@ let
         "fabric-26.2" = _EhffDttB;
         "quilt-26.2" = _EhffDttB;
         "neoforge-26.2" = _hx2DPv5I;
+        "default" = _DimFgYWb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1594,4 +1595,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DimFgYWb";}
+in callPackage fn {version="default";}

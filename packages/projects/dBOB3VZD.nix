@@ -95,6 +95,7 @@ let
         "fabric-26.1" = _ESKR8872;
         "fabric-26.1.1" = _ESKR8872;
         "fabric-26.1.2" = _ESKR8872;
+        "default" = _ESKR8872;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ESKR8872";}
+in callPackage fn {version="default";}

@@ -84,6 +84,7 @@ let
         "neoforge-1.21.8" = _erk04BGa;
         "neoforge-1.21.9" = _erk04BGa;
         "neoforge-1.21.10" = _erk04BGa;
+        "default" = _tTpWP44G;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tTpWP44G";}
+in callPackage fn {version="default";}

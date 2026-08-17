@@ -59,6 +59,7 @@ let
         "minecraft-1.21.9" = _jxgabuA5;
         "minecraft-1.21.10" = _jxgabuA5;
         "minecraft-1.21.11" = _jxgabuA5;
+        "default" = _jxgabuA5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -79,4 +80,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jxgabuA5";}
+in callPackage fn {version="default";}

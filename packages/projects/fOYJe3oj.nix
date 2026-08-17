@@ -356,6 +356,7 @@ let
         "quilt-24w11a" = _Vsl6HLcr;
         "quilt-24w12a" = _Vsl6HLcr;
         "quilt-24w13a" = _Vsl6HLcr;
+        "default" = _Vsl6HLcr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -376,4 +377,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Vsl6HLcr";}
+in callPackage fn {version="default";}

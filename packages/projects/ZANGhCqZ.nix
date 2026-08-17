@@ -10,6 +10,7 @@ let
         "Fct5qPbD" = _Fct5qPbD;
         "paper-1.21.3" = _Fct5qPbD;
         "paper-1.21.4" = _Fct5qPbD;
+        "default" = _Fct5qPbD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Fct5qPbD";}
+in callPackage fn {version="default";}

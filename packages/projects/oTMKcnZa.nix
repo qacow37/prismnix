@@ -97,6 +97,7 @@ let
         "neoforge-26.2" = _fNMcQfcf;
         "java-agent-1.21.1" = _VS6Uw4XD;
         "nilloader-1.21.1" = _VS6Uw4XD;
+        "default" = _fNMcQfcf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -117,4 +118,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fNMcQfcf";}
+in callPackage fn {version="default";}

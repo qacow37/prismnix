@@ -15,6 +15,7 @@ let
         "fokuR3EL" = _fokuR3EL;
         "NRxNxImH" = _NRxNxImH;
         "forge-1.20.1" = _NRxNxImH;
+        "default" = _NRxNxImH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NRxNxImH";}
+in callPackage fn {version="default";}

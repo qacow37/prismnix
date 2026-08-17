@@ -27,6 +27,7 @@ let
         "zr2nomBZ" = _zr2nomBZ;
         "iRNe5FSM" = _iRNe5FSM;
         "neoforge-1.21.1" = _iRNe5FSM;
+        "default" = _iRNe5FSM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iRNe5FSM";}
+in callPackage fn {version="default";}

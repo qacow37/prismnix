@@ -52,6 +52,7 @@ let
         "fabric-1.21.9" = _DbmPYiN4;
         "fabric-1.21.10" = _DbmPYiN4;
         "fabric-1.21.11" = _DbmPYiN4;
+        "default" = _DbmPYiN4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DbmPYiN4";}
+in callPackage fn {version="default";}

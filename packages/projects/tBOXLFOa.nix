@@ -9,6 +9,7 @@ let
     in {
         "tGFiZyut" = _tGFiZyut;
         "forge-1.20.1" = _tGFiZyut;
+        "default" = _tGFiZyut;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tGFiZyut";}
+in callPackage fn {version="default";}

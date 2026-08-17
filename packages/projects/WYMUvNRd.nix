@@ -153,6 +153,7 @@ let
         "uyOgmPDv" = _uyOgmPDv;
         "bodzKnjZ" = _bodzKnjZ;
         "forge-1.7.10" = _bodzKnjZ;
+        "default" = _bodzKnjZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -173,4 +174,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bodzKnjZ";}
+in callPackage fn {version="default";}

@@ -148,6 +148,7 @@ let
         "quilt-1.20.2" = _HYftbnrc;
         "quilt-1.20.3" = _HYftbnrc;
         "quilt-1.20.4" = _HYftbnrc;
+        "default" = _HYftbnrc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HYftbnrc";}
+in callPackage fn {version="default";}

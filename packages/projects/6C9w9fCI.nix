@@ -64,6 +64,7 @@ let
         "qdiuCubX" = _qdiuCubX;
         "fabric-b1.7.3" = _qdiuCubX;
         "babric-b1.7.3" = _qdiuCubX;
+        "default" = _qdiuCubX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qdiuCubX";}
+in callPackage fn {version="default";}

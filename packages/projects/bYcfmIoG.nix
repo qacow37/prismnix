@@ -222,6 +222,7 @@ let
         "quilt-26.1.1" = _jHdsuNot;
         "quilt-26.1.2" = _jHdsuNot;
         "quilt-26.2" = _jHdsuNot;
+        "default" = _jHdsuNot;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -242,4 +243,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jHdsuNot";}
+in callPackage fn {version="default";}

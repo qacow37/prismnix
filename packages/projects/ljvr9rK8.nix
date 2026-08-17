@@ -16,6 +16,7 @@ let
         "I2AtvusQ" = _I2AtvusQ;
         "forge-1.20.1" = _PoRIABiC;
         "neoforge-1.21.1" = _I2AtvusQ;
+        "default" = _I2AtvusQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I2AtvusQ";}
+in callPackage fn {version="default";}

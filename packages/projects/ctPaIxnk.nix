@@ -118,6 +118,7 @@ let
         "RL8g99i9" = _RL8g99i9;
         "forge-1.16.5" = _2JsGoxss;
         "forge-1.20.1" = _RL8g99i9;
+        "default" = _RL8g99i9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -138,4 +139,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RL8g99i9";}
+in callPackage fn {version="default";}

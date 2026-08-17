@@ -76,6 +76,7 @@ let
         "fabric-1.19" = _LzK4ELvl;
         "fabric-1.19.3" = _BptXVcKg;
         "fabric-1.20" = _t91xtIPb;
+        "default" = _t91xtIPb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t91xtIPb";}
+in callPackage fn {version="default";}

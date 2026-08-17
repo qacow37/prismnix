@@ -57,6 +57,7 @@ let
         "qUrkEIZ2" = _qUrkEIZ2;
         "K2JKOkgi" = _K2JKOkgi;
         "neoforge-1.21.1" = _K2JKOkgi;
+        "default" = _K2JKOkgi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="K2JKOkgi";}
+in callPackage fn {version="default";}

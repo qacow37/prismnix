@@ -35,6 +35,7 @@ let
         "minecraft-1.20.2" = _NZipIP3V;
         "minecraft-1.20.3" = _NZipIP3V;
         "minecraft-1.20.4" = _NZipIP3V;
+        "default" = _NZipIP3V;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NZipIP3V";}
+in callPackage fn {version="default";}

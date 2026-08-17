@@ -27,6 +27,7 @@ let
         "Py62JMrM" = _Py62JMrM;
         "UBA0qOqp" = _UBA0qOqp;
         "forge-1.12.2" = _UBA0qOqp;
+        "default" = _UBA0qOqp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UBA0qOqp";}
+in callPackage fn {version="default";}

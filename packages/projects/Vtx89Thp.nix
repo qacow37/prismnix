@@ -29,6 +29,7 @@ let
         "minecraft-1.20.6" = _sEtYetB3;
         "minecraft-1.21" = _sEtYetB3;
         "minecraft-1.21.1" = _sEtYetB3;
+        "default" = _sEtYetB3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sEtYetB3";}
+in callPackage fn {version="default";}

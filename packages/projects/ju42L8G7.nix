@@ -52,6 +52,7 @@ let
         "6gSUATI1" = _6gSUATI1;
         "forge-1.20.1" = _6gSUATI1;
         "neoforge-1.21.1" = _88Ju5vgF;
+        "default" = _6gSUATI1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6gSUATI1";}
+in callPackage fn {version="default";}

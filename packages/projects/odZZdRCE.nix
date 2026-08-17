@@ -250,6 +250,7 @@ let
         "3kfULKvo" = _3kfULKvo;
         "datapack-1.21.1" = _3kfULKvo;
         "minecraft-1.21.1" = _3kfULKvo;
+        "default" = _3kfULKvo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -270,4 +271,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3kfULKvo";}
+in callPackage fn {version="default";}

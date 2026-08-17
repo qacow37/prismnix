@@ -168,6 +168,7 @@ let
         "neoforge-26.1.1" = _BGtXeW1P;
         "neoforge-26.1.2" = _BGtXeW1P;
         "neoforge-26.2" = _HDixAlUP;
+        "default" = _ArzSpQym;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -188,4 +189,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ArzSpQym";}
+in callPackage fn {version="default";}

@@ -45,6 +45,7 @@ let
         "Gni1R1vI" = _Gni1R1vI;
         "qZILPs99" = _qZILPs99;
         "forge-1.12.2" = _qZILPs99;
+        "default" = _qZILPs99;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qZILPs99";}
+in callPackage fn {version="default";}

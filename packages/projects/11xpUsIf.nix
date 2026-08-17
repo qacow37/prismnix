@@ -84,6 +84,7 @@ let
         "fabric-26.1.1" = _TvvSNgRf;
         "fabric-26.1.2" = _TvvSNgRf;
         "fabric-26.2" = _uodoR66I;
+        "default" = _uodoR66I;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uodoR66I";}
+in callPackage fn {version="default";}

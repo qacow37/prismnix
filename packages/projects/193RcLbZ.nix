@@ -75,6 +75,7 @@ let
         "dzgxFIBs" = _dzgxFIBs;
         "taSQZsRz" = _taSQZsRz;
         "forge-1.20.1" = _taSQZsRz;
+        "default" = _taSQZsRz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="taSQZsRz";}
+in callPackage fn {version="default";}

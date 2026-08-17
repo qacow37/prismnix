@@ -10,6 +10,7 @@ let
         "JLS25T10" = _JLS25T10;
         "fabric-1.20" = _JLS25T10;
         "fabric-1.20.1" = _JLS25T10;
+        "default" = _JLS25T10;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JLS25T10";}
+in callPackage fn {version="default";}

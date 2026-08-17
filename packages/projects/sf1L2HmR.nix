@@ -16,6 +16,7 @@ let
         "DnkuW3G5" = _DnkuW3G5;
         "minecraft-1.20.1" = _DnkuW3G5;
         "minecraft-1.21.1" = _DnkuW3G5;
+        "default" = _DnkuW3G5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DnkuW3G5";}
+in callPackage fn {version="default";}

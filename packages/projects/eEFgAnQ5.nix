@@ -50,6 +50,7 @@ let
         "minecraft-1.20.4" = _OUBoaOuB;
         "minecraft-1.20.5" = _OUBoaOuB;
         "minecraft-1.20.6" = _OUBoaOuB;
+        "default" = _ETIT9k18;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ETIT9k18";}
+in callPackage fn {version="default";}

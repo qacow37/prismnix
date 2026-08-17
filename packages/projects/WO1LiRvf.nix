@@ -98,6 +98,7 @@ let
         "sponge-1.21.9" = _WZ27mBle;
         "sponge-1.21.10" = _WZ27mBle;
         "sponge-1.21.11" = _WZ27mBle;
+        "default" = _wugrVlTu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -118,4 +119,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wugrVlTu";}
+in callPackage fn {version="default";}

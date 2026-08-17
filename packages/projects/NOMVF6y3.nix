@@ -9,6 +9,7 @@ let
     in {
         "wdPdS5oz" = _wdPdS5oz;
         "forge-1.19.2" = _wdPdS5oz;
+        "default" = _wdPdS5oz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wdPdS5oz";}
+in callPackage fn {version="default";}

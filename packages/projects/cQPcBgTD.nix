@@ -189,6 +189,7 @@ let
         "LfUlgUN4" = _LfUlgUN4;
         "vRv24IE6" = _vRv24IE6;
         "forge-1.20.1" = _vRv24IE6;
+        "default" = _vRv24IE6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -209,4 +210,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vRv24IE6";}
+in callPackage fn {version="default";}

@@ -106,6 +106,7 @@ let
         "spigot-1.21.2" = _Obflcfk3;
         "spigot-1.21.3" = _Obflcfk3;
         "spigot-1.21.4" = _Obflcfk3;
+        "default" = _Obflcfk3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Obflcfk3";}
+in callPackage fn {version="default";}

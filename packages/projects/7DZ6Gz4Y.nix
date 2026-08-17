@@ -18,6 +18,7 @@ let
         "fabric-1.20.1" = _P28LDhbi;
         "forge-1.20.1" = _P28LDhbi;
         "quilt-1.20.1" = _P28LDhbi;
+        "default" = _P28LDhbi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="P28LDhbi";}
+in callPackage fn {version="default";}

@@ -63,6 +63,7 @@ let
         "RBJmOKwP" = _RBJmOKwP;
         "GqolKPEW" = _GqolKPEW;
         "forge-1.19.2" = _GqolKPEW;
+        "default" = _GqolKPEW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GqolKPEW";}
+in callPackage fn {version="default";}

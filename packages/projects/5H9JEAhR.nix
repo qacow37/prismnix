@@ -357,6 +357,7 @@ let
         "r9Yp1IAD" = _r9Yp1IAD;
         "YOgNhbnc" = _YOgNhbnc;
         "forge-1.20.1" = _YOgNhbnc;
+        "default" = _YOgNhbnc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -377,4 +378,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YOgNhbnc";}
+in callPackage fn {version="default";}

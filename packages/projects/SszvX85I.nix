@@ -2938,6 +2938,7 @@ let
         "ch7DfnXP" = _ch7DfnXP;
         "fabric-1.21.1" = _ch7DfnXP;
         "neoforge-1.21.1" = _g5RUs6ml;
+        "default" = _ch7DfnXP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2958,4 +2959,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ch7DfnXP";}
+in callPackage fn {version="default";}

@@ -32,6 +32,7 @@ let
         "spigot-1.19.2" = _Es13SgsS;
         "spigot-1.19.3" = _Es13SgsS;
         "spigot-1.19.4" = _Es13SgsS;
+        "default" = _Es13SgsS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Es13SgsS";}
+in callPackage fn {version="default";}

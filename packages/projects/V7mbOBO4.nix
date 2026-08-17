@@ -88,6 +88,7 @@ let
         "fLyIEPoj" = _fLyIEPoj;
         "forge-1.20.1" = _NVPFDqFj;
         "neoforge-1.21.1" = _fLyIEPoj;
+        "default" = _fLyIEPoj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fLyIEPoj";}
+in callPackage fn {version="default";}

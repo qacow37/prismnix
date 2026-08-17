@@ -52,6 +52,7 @@ let
         "RMELAo8B" = _RMELAo8B;
         "fabric-1.21.4" = _IWlFo78D;
         "fabric-1.21.11" = _RMELAo8B;
+        "default" = _RMELAo8B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RMELAo8B";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "xRjv5ers" = _xRjv5ers;
         "VfxSTFHt" = _VfxSTFHt;
         "neoforge-1.21.1" = _VfxSTFHt;
+        "default" = _VfxSTFHt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VfxSTFHt";}
+in callPackage fn {version="default";}

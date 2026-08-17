@@ -55,6 +55,7 @@ let
         "fabric-26.1.1" = _KpF5sULv;
         "fabric-26.1.2" = _KpF5sULv;
         "fabric-26.2-pre-2" = _lf78UrL3;
+        "default" = _lf78UrL3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lf78UrL3";}
+in callPackage fn {version="default";}

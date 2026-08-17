@@ -82,6 +82,7 @@ let
         "H2LZoIa4" = _H2LZoIa4;
         "minecraft-1.19.2" = _H2LZoIa4;
         "minecraft-1.20.1" = _H2LZoIa4;
+        "default" = _H2LZoIa4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="H2LZoIa4";}
+in callPackage fn {version="default";}

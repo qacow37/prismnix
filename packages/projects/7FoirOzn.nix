@@ -77,6 +77,7 @@ let
         "neoforge-1.21.1" = _cbDyn80s;
         "forge-1.20.1" = _zHc8ZkCS;
         "fabric-1.20.1" = _vG36uD9Z;
+        "default" = _cbDyn80s;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -97,4 +98,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cbDyn80s";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "2mwar2Kz" = _2mwar2Kz;
         "minecraft-1.20.1" = _2mwar2Kz;
         "minecraft-1.21.1" = _2mwar2Kz;
+        "default" = _2mwar2Kz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2mwar2Kz";}
+in callPackage fn {version="default";}

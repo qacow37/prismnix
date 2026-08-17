@@ -10,6 +10,7 @@ let
         "THGCJz5A" = _THGCJz5A;
         "fabric-1.20.1" = _THGCJz5A;
         "quilt-1.20.1" = _THGCJz5A;
+        "default" = _THGCJz5A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="THGCJz5A";}
+in callPackage fn {version="default";}

@@ -75,6 +75,7 @@ let
         "vaFpgx5x" = _vaFpgx5x;
         "xtS9iqts" = _xtS9iqts;
         "neoforge-1.21.1" = _xtS9iqts;
+        "default" = _xtS9iqts;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xtS9iqts";}
+in callPackage fn {version="default";}

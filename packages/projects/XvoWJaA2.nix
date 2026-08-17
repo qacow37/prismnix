@@ -1055,6 +1055,7 @@ let
         "fabric-1.21" = _O12UM0D5;
         "neoforge-1.21" = _DWDFg53Y;
         "neoforge-1.21.1" = _DWDFg53Y;
+        "default" = _DWDFg53Y;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1075,4 +1076,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DWDFg53Y";}
+in callPackage fn {version="default";}

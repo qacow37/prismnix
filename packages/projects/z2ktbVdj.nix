@@ -29,6 +29,7 @@ let
         "fabric-26.1" = _TXPerniC;
         "fabric-26.1.1" = _TXPerniC;
         "fabric-26.1.2" = _TXPerniC;
+        "default" = _TXPerniC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TXPerniC";}
+in callPackage fn {version="default";}

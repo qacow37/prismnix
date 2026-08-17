@@ -16,6 +16,7 @@ let
         "Dcq65PMy" = _Dcq65PMy;
         "forge-1.20.1" = _kSVbKPiW;
         "neoforge-1.21.1" = _Dcq65PMy;
+        "default" = _Dcq65PMy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Dcq65PMy";}
+in callPackage fn {version="default";}

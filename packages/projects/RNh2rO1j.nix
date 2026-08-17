@@ -21,6 +21,7 @@ let
         "V1Btn867" = _V1Btn867;
         "spUUChp4" = _spUUChp4;
         "neoforge-1.21.1" = _spUUChp4;
+        "default" = _spUUChp4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="spUUChp4";}
+in callPackage fn {version="default";}

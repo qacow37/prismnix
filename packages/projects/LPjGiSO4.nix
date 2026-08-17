@@ -453,6 +453,7 @@ let
         "datapack-26.1.1" = _3UlARIGL;
         "datapack-26.1.2" = _3UlARIGL;
         "datapack-26.2" = _prWWpjSv;
+        "default" = _prWWpjSv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -473,4 +474,4 @@ let
                 };
             };
         };
-in callPackage fn {version="prWWpjSv";}
+in callPackage fn {version="default";}

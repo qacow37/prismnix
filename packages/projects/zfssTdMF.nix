@@ -201,6 +201,7 @@ let
         "fabric-1.20.6" = _opQaT8Hv;
         "fabric-1.21.8" = _vOqGIzD5;
         "legacy-fabric-1.13.2" = _eMLR87MA;
+        "default" = _eMLR87MA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -221,4 +222,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eMLR87MA";}
+in callPackage fn {version="default";}

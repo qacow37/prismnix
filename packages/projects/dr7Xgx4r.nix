@@ -87,6 +87,7 @@ let
         "jxnsfgV6" = _jxnsfgV6;
         "blAD20gf" = _blAD20gf;
         "forge-1.18.2" = _blAD20gf;
+        "default" = _blAD20gf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="blAD20gf";}
+in callPackage fn {version="default";}

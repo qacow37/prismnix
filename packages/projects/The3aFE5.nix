@@ -51,6 +51,7 @@ let
         "vTK7pvtt" = _vTK7pvtt;
         "K22PXmgh" = _K22PXmgh;
         "forge-1.20.1" = _K22PXmgh;
+        "default" = _K22PXmgh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="K22PXmgh";}
+in callPackage fn {version="default";}

@@ -212,6 +212,7 @@ let
         "ornithe-26.1" = _MbxpNYvO;
         "ornithe-26.1.1" = _MbxpNYvO;
         "ornithe-26.1.2" = _MbxpNYvO;
+        "default" = _MbxpNYvO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -232,4 +233,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MbxpNYvO";}
+in callPackage fn {version="default";}

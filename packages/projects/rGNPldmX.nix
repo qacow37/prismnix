@@ -30,6 +30,7 @@ let
         "fabric-1.21.1" = _SLmC34CS;
         "forge-1.20.1" = _VVceid93;
         "neoforge-1.21.1" = _ibDPs85p;
+        "default" = _SLmC34CS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SLmC34CS";}
+in callPackage fn {version="default";}

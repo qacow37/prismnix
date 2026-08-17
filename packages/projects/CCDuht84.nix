@@ -71,6 +71,7 @@ let
         "fabric-26.1" = _qivsVhtp;
         "fabric-26.1.1" = _qivsVhtp;
         "fabric-26.1.2" = _qivsVhtp;
+        "default" = _qivsVhtp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -91,4 +92,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qivsVhtp";}
+in callPackage fn {version="default";}

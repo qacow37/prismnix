@@ -19,6 +19,7 @@ let
         "paper-1.21.8" = _TgfVOKeG;
         "paper-1.21.9" = _TgfVOKeG;
         "paper-1.21.10" = _TgfVOKeG;
+        "default" = _TgfVOKeG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TgfVOKeG";}
+in callPackage fn {version="default";}

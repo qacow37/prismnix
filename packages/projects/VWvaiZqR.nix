@@ -22,6 +22,7 @@ let
         "GQmltZO5" = _GQmltZO5;
         "fabric-1.20.1" = _GQmltZO5;
         "quilt-1.20.1" = _xdGntEal;
+        "default" = _GQmltZO5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GQmltZO5";}
+in callPackage fn {version="default";}

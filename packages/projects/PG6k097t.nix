@@ -46,6 +46,7 @@ let
         "RDtV13Zf" = _RDtV13Zf;
         "fabric-1.20.1" = _RDtV13Zf;
         "quilt-1.20.1" = _RDtV13Zf;
+        "default" = _RDtV13Zf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RDtV13Zf";}
+in callPackage fn {version="default";}

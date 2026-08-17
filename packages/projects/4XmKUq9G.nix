@@ -1153,6 +1153,7 @@ let
         "forge-1.12.2" = _vLgam3oe;
         "babric-b1.7.3" = _ifveQXo8;
         "bta-babric-b1.7.3" = _8QUea9nq;
+        "default" = _8QUea9nq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1173,4 +1174,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8QUea9nq";}
+in callPackage fn {version="default";}

@@ -59,6 +59,7 @@ let
         "fabric-1.19" = _BiKrmIat;
         "fabric-1.19.1" = _BiKrmIat;
         "fabric-1.19.2" = _BiKrmIat;
+        "default" = _BiKrmIat;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -79,4 +80,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BiKrmIat";}
+in callPackage fn {version="default";}

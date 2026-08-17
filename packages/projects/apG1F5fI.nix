@@ -45,6 +45,7 @@ let
         "ztSiArzV" = _ztSiArzV;
         "GKRxlZ0v" = _GKRxlZ0v;
         "forge-1.20.1" = _GKRxlZ0v;
+        "default" = _GKRxlZ0v;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GKRxlZ0v";}
+in callPackage fn {version="default";}

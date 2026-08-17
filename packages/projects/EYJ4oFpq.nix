@@ -357,6 +357,7 @@ let
         "ZYPMtWFC" = _ZYPMtWFC;
         "94vdHITo" = _94vdHITo;
         "neoforge-1.21.1" = _94vdHITo;
+        "default" = _94vdHITo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -377,4 +378,4 @@ let
                 };
             };
         };
-in callPackage fn {version="94vdHITo";}
+in callPackage fn {version="default";}

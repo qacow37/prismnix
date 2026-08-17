@@ -519,6 +519,7 @@ let
         "paper-26.1.1" = _8CWIXOoR;
         "paper-26.1.2" = _8CWIXOoR;
         "paper-26.2" = _8CWIXOoR;
+        "default" = _8CWIXOoR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -539,4 +540,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8CWIXOoR";}
+in callPackage fn {version="default";}

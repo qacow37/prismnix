@@ -33,6 +33,7 @@ let
         "FituoYko" = _FituoYko;
         "fmdF8CJE" = _fmdF8CJE;
         "forge-1.20.1" = _fmdF8CJE;
+        "default" = _fmdF8CJE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fmdF8CJE";}
+in callPackage fn {version="default";}

@@ -106,6 +106,7 @@ let
         "e45HPg3a" = _e45HPg3a;
         "forge-1.20.1" = _e45HPg3a;
         "fabric-1.20.1" = _pTYbTdZ9;
+        "default" = _e45HPg3a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="e45HPg3a";}
+in callPackage fn {version="default";}

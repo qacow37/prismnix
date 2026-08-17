@@ -28,6 +28,7 @@ let
         "neoforge-26.1" = _GZAktxSu;
         "neoforge-26.1.1" = _GZAktxSu;
         "neoforge-26.1.2" = _GZAktxSu;
+        "default" = _GZAktxSu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GZAktxSu";}
+in callPackage fn {version="default";}

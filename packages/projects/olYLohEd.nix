@@ -70,6 +70,7 @@ let
         "ZyATV56A" = _ZyATV56A;
         "forge-1.20.1" = _nTozi6hh;
         "neoforge-1.21.1" = _ZyATV56A;
+        "default" = _ZyATV56A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZyATV56A";}
+in callPackage fn {version="default";}

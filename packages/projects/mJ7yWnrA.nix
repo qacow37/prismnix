@@ -207,6 +207,7 @@ let
         "rpgkSjm0" = _rpgkSjm0;
         "FEKuWz1b" = _FEKuWz1b;
         "neoforge-1.21.1" = _FEKuWz1b;
+        "default" = _FEKuWz1b;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -227,4 +228,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FEKuWz1b";}
+in callPackage fn {version="default";}

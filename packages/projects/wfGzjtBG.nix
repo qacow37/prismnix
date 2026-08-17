@@ -9,6 +9,7 @@ let
     in {
         "BTD20asX" = _BTD20asX;
         "neoforge-1.21.1" = _BTD20asX;
+        "default" = _BTD20asX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BTD20asX";}
+in callPackage fn {version="default";}

@@ -155,6 +155,7 @@ let
         "purpur-26.1.1" = _cFF8PtQx;
         "purpur-26.1.2" = _cFF8PtQx;
         "purpur-26.2" = _cFF8PtQx;
+        "default" = _cFF8PtQx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -175,4 +176,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cFF8PtQx";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "Ab0Oni59" = _Ab0Oni59;
         "EcXDL4v7" = _EcXDL4v7;
         "neoforge-1.21.1" = _EcXDL4v7;
+        "default" = _EcXDL4v7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EcXDL4v7";}
+in callPackage fn {version="default";}

@@ -22,6 +22,7 @@ let
         "748RVy4p" = _748RVy4p;
         "forge-1.19.2" = _748RVy4p;
         "forge-1.19.4" = _fZrklmGL;
+        "default" = _748RVy4p;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="748RVy4p";}
+in callPackage fn {version="default";}

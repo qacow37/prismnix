@@ -1360,6 +1360,7 @@ let
         "neoforge-1.21.3" = _966ubnEL;
         "neoforge-1.21.4" = _NSrw3IrV;
         "neoforge-1.21.5" = _JlTOAeCA;
+        "default" = _mpucuO6a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1380,4 +1381,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mpucuO6a";}
+in callPackage fn {version="default";}

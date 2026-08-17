@@ -51,6 +51,7 @@ let
         "vanilla-1.21.6" = _hbLgJGAt;
         "vanilla-1.21.7" = _hbLgJGAt;
         "vanilla-1.21.8" = _hbLgJGAt;
+        "default" = _uMVu91BA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uMVu91BA";}
+in callPackage fn {version="default";}

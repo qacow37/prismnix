@@ -136,6 +136,7 @@ let
         "fabric-1.21.7" = _czyrha7b;
         "fabric-1.21.8" = _czyrha7b;
         "fabric-1.21.11" = _KBFuzerC;
+        "default" = _KBFuzerC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KBFuzerC";}
+in callPackage fn {version="default";}

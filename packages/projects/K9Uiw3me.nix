@@ -116,6 +116,7 @@ let
         "neoforge-1.20.4" = _tKxhz0Ej;
         "neoforge-1.20.6" = _ZSMHB3z2;
         "neoforge-1.21.1" = _CLssGpou;
+        "default" = _CLssGpou;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -136,4 +137,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CLssGpou";}
+in callPackage fn {version="default";}

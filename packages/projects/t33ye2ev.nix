@@ -30,6 +30,7 @@ let
         "quilt-1.20.1" = _NKqY4L09;
         "datapack-1.20" = _hPatJuD4;
         "datapack-1.20.1" = _hPatJuD4;
+        "default" = _hPatJuD4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hPatJuD4";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "4FazbSuT" = _4FazbSuT;
         "minecraft-1.20.1" = _4FazbSuT;
         "minecraft-1.21.1" = _4FazbSuT;
+        "default" = _4FazbSuT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4FazbSuT";}
+in callPackage fn {version="default";}

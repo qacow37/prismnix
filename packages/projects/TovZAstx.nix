@@ -297,6 +297,7 @@ let
         "K5ArEJvi" = _K5ArEJvi;
         "nwCtxmou" = _nwCtxmou;
         "neoforge-1.21.1" = _nwCtxmou;
+        "default" = _nwCtxmou;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -317,4 +318,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nwCtxmou";}
+in callPackage fn {version="default";}

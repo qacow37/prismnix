@@ -27,6 +27,7 @@ let
         "rGxEbwCV" = _rGxEbwCV;
         "ONlewCOE" = _ONlewCOE;
         "forge-1.20.1" = _ONlewCOE;
+        "default" = _ONlewCOE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ONlewCOE";}
+in callPackage fn {version="default";}

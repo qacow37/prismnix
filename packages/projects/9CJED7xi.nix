@@ -337,6 +337,7 @@ let
         "ornithe-1.12.1" = _wPTx8NBq;
         "ornithe-1.12.2-pre1" = _wPTx8NBq;
         "ornithe-1.12.2-pre2" = _wPTx8NBq;
+        "default" = _wPTx8NBq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -357,4 +358,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wPTx8NBq";}
+in callPackage fn {version="default";}

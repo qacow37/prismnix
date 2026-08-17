@@ -21,6 +21,7 @@ let
         "KCBRS5ML" = _KCBRS5ML;
         "QiKmSZyf" = _QiKmSZyf;
         "neoforge-1.21.1" = _QiKmSZyf;
+        "default" = _QiKmSZyf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QiKmSZyf";}
+in callPackage fn {version="default";}

@@ -149,6 +149,7 @@ let
         "minecraft-26.1" = _ZVUKscwk;
         "minecraft-26.1.1" = _ZVUKscwk;
         "minecraft-26.1.2" = _ZVUKscwk;
+        "default" = _ZVUKscwk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZVUKscwk";}
+in callPackage fn {version="default";}

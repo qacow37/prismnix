@@ -39,6 +39,7 @@ let
         "HvsryZFN" = _HvsryZFN;
         "39JO1AAy" = _39JO1AAy;
         "quilt-1.20.1" = _39JO1AAy;
+        "default" = _39JO1AAy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="39JO1AAy";}
+in callPackage fn {version="default";}

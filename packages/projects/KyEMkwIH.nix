@@ -15,6 +15,7 @@ let
         "ESQGuWek" = _ESQGuWek;
         "Oq22nSUw" = _Oq22nSUw;
         "minecraft-1.21.11" = _Oq22nSUw;
+        "default" = _Oq22nSUw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Oq22nSUw";}
+in callPackage fn {version="default";}

@@ -85,6 +85,7 @@ let
         "fabric-26.1" = _2ESryvrl;
         "fabric-26.1.1" = _2ESryvrl;
         "fabric-26.1.2" = _2ESryvrl;
+        "default" = _2ESryvrl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2ESryvrl";}
+in callPackage fn {version="default";}

@@ -168,6 +168,7 @@ let
         "forge-1.12.2" = _tgXtjVeo;
         "forge-1.19.3" = _IEr5QPym;
         "forge-1.19.4" = _IEr5QPym;
+        "default" = _IEr5QPym;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -188,4 +189,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IEr5QPym";}
+in callPackage fn {version="default";}

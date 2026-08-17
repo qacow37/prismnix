@@ -25,6 +25,7 @@ let
         "fabric-1.20.2" = _HYCrXL1A;
         "fabric-1.20.3" = _HYCrXL1A;
         "fabric-1.20.4" = _HYCrXL1A;
+        "default" = _HYCrXL1A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -45,4 +46,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HYCrXL1A";}
+in callPackage fn {version="default";}

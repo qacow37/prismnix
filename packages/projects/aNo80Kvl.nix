@@ -134,6 +134,7 @@ let
         "spigot-1.18" = _lCSfFx4k;
         "spigot-1.19" = _lCSfFx4k;
         "spigot-1.20" = _lCSfFx4k;
+        "default" = _lCSfFx4k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -154,4 +155,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lCSfFx4k";}
+in callPackage fn {version="default";}

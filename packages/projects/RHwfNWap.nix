@@ -179,6 +179,7 @@ let
         "sponge-1.19.4" = _DJdDWFNK;
         "sponge-1.21" = _u4dJ3Zzx;
         "sponge-1.21.4" = _khcsdMeD;
+        "default" = _QuDCbVAd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -199,4 +200,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QuDCbVAd";}
+in callPackage fn {version="default";}

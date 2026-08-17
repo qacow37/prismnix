@@ -81,6 +81,7 @@ let
         "quilt-1.20.2" = _TaOKwvAa;
         "quilt-1.20.3" = _TaOKwvAa;
         "quilt-1.20.4" = _TaOKwvAa;
+        "default" = _32ye3lSL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="32ye3lSL";}
+in callPackage fn {version="default";}

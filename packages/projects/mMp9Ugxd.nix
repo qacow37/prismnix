@@ -46,6 +46,7 @@ let
         "minecraft-1.8.7" = _UYyMobIa;
         "minecraft-1.8.8" = _UYyMobIa;
         "minecraft-1.8.9" = _UYyMobIa;
+        "default" = _UYyMobIa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UYyMobIa";}
+in callPackage fn {version="default";}

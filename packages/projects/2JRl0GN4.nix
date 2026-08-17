@@ -16,6 +16,7 @@ let
         "MIU7vgcu" = _MIU7vgcu;
         "minecraft-1.20.1" = _MIU7vgcu;
         "minecraft-1.20" = _MIU7vgcu;
+        "default" = _MIU7vgcu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MIU7vgcu";}
+in callPackage fn {version="default";}

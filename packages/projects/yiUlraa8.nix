@@ -33,6 +33,7 @@ let
         "iSgDDFbi" = _iSgDDFbi;
         "Rpbwbrk7" = _Rpbwbrk7;
         "neoforge-1.21.1" = _Rpbwbrk7;
+        "default" = _Rpbwbrk7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Rpbwbrk7";}
+in callPackage fn {version="default";}

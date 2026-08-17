@@ -15,6 +15,7 @@ let
         "LqS37UYN" = _LqS37UYN;
         "paIvSgIR" = _paIvSgIR;
         "fabric-1.21.1" = _paIvSgIR;
+        "default" = _paIvSgIR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="paIvSgIR";}
+in callPackage fn {version="default";}

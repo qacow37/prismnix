@@ -27,6 +27,7 @@ let
         "oNOFizW0" = _oNOFizW0;
         "vxjlFwbr" = _vxjlFwbr;
         "forge-1.19.2" = _vxjlFwbr;
+        "default" = _vxjlFwbr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vxjlFwbr";}
+in callPackage fn {version="default";}

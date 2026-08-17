@@ -9,6 +9,7 @@ let
     in {
         "XNofpNfs" = _XNofpNfs;
         "fabric-1.21.11" = _XNofpNfs;
+        "default" = _XNofpNfs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XNofpNfs";}
+in callPackage fn {version="default";}

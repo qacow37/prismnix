@@ -15,6 +15,7 @@ let
         "tZjOxlsS" = _tZjOxlsS;
         "c6csw7Nl" = _c6csw7Nl;
         "forge-1.20.1" = _c6csw7Nl;
+        "default" = _c6csw7Nl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c6csw7Nl";}
+in callPackage fn {version="default";}

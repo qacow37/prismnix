@@ -5610,6 +5610,7 @@ let
         "neoforge-1.21.10" = _FWOOIP01;
         "neoforge-1.21.11" = _xwBvrqy6;
         "neoforge-26.1.2" = _orAQ3YKk;
+        "default" = _cp2elfPy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -5630,4 +5631,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cp2elfPy";}
+in callPackage fn {version="default";}

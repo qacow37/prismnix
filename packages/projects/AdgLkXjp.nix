@@ -55,6 +55,7 @@ let
         "neoforge-26.1" = _ZiMoPOfV;
         "neoforge-26.1.1" = _ZiMoPOfV;
         "neoforge-26.1.2" = _ZiMoPOfV;
+        "default" = _ZiMoPOfV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZiMoPOfV";}
+in callPackage fn {version="default";}

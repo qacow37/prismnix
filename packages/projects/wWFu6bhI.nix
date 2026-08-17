@@ -28,6 +28,7 @@ let
         "minecraft-1.19" = _gFPTnusq;
         "minecraft-1.19.1" = _gFPTnusq;
         "minecraft-1.19.2" = _gFPTnusq;
+        "default" = _gFPTnusq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gFPTnusq";}
+in callPackage fn {version="default";}

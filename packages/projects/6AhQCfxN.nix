@@ -86,6 +86,7 @@ let
         "spigot-26.1" = _QcwnBtrs;
         "spigot-26.1.1" = _QcwnBtrs;
         "spigot-26.1.2" = _QcwnBtrs;
+        "default" = _QcwnBtrs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QcwnBtrs";}
+in callPackage fn {version="default";}

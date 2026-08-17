@@ -28,6 +28,7 @@ let
         "zVgh2cSe" = _zVgh2cSe;
         "datapack-1.21.1" = _LCg1pPUN;
         "fabric-1.21.1" = _zVgh2cSe;
+        "default" = _zVgh2cSe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zVgh2cSe";}
+in callPackage fn {version="default";}

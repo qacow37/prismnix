@@ -144,6 +144,7 @@ let
         "neoforge-1.20.1" = _ri80yJmp;
         "neoforge-1.21.11" = _8Zy16S7y;
         "neoforge-26.1.2" = _eoggvCrv;
+        "default" = _eoggvCrv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -164,4 +165,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eoggvCrv";}
+in callPackage fn {version="default";}

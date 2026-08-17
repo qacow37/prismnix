@@ -10,6 +10,7 @@ let
         "6woomlLa" = _6woomlLa;
         "minecraft-1.21" = _6woomlLa;
         "minecraft-1.21.4" = _6woomlLa;
+        "default" = _6woomlLa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6woomlLa";}
+in callPackage fn {version="default";}

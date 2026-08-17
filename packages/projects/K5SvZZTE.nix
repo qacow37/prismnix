@@ -76,6 +76,7 @@ let
         "quilt-1.20" = _JbjdGCmu;
         "quilt-1.20.1" = _JbjdGCmu;
         "quilt-1.20.2" = _jcFlSpzd;
+        "default" = _jcFlSpzd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jcFlSpzd";}
+in callPackage fn {version="default";}

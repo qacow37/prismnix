@@ -21,6 +21,7 @@ let
         "vanilla-1.21.10-rc1" = _Fvyi2quV;
         "vanilla-1.21.10" = _Fvyi2quV;
         "vanilla-1.21.11" = _Fvyi2quV;
+        "default" = _Fvyi2quV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Fvyi2quV";}
+in callPackage fn {version="default";}

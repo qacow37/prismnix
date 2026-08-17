@@ -170,6 +170,7 @@ let
         "minecraft-26.1.2" = _luGwbvPM;
         "minecraft-26.2-snapshot-2" = _luGwbvPM;
         "minecraft-26.2-snapshot-3" = _luGwbvPM;
+        "default" = _luGwbvPM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -190,4 +191,4 @@ let
                 };
             };
         };
-in callPackage fn {version="luGwbvPM";}
+in callPackage fn {version="default";}

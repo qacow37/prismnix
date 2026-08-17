@@ -39,6 +39,7 @@ let
         "iu4G03Fn" = _iu4G03Fn;
         "TYFDeh4d" = _TYFDeh4d;
         "fabric-1.21.11" = _TYFDeh4d;
+        "default" = _TYFDeh4d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TYFDeh4d";}
+in callPackage fn {version="default";}

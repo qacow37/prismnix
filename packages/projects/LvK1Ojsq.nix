@@ -44,6 +44,7 @@ let
         "minecraft-26.1" = _11wiRiFC;
         "minecraft-26.1.1" = _11wiRiFC;
         "minecraft-26.1.2" = _11wiRiFC;
+        "default" = _11wiRiFC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="11wiRiFC";}
+in callPackage fn {version="default";}

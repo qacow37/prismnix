@@ -147,6 +147,7 @@ let
         "B2QsRC5M" = _B2QsRC5M;
         "hAFmcrl9" = _hAFmcrl9;
         "forge-1.20.1" = _hAFmcrl9;
+        "default" = _hAFmcrl9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hAFmcrl9";}
+in callPackage fn {version="default";}

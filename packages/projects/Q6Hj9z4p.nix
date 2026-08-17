@@ -64,6 +64,7 @@ let
         "AuLxYA4q" = _AuLxYA4q;
         "forge-1.20.1" = _AXyIpMTC;
         "fabric-1.20.1" = _AuLxYA4q;
+        "default" = _AuLxYA4q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AuLxYA4q";}
+in callPackage fn {version="default";}

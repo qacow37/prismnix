@@ -106,6 +106,7 @@ let
         "TX7amOa7" = _TX7amOa7;
         "minecraft-1.20.1" = _KPrUrea4;
         "minecraft-1.21.1" = _TX7amOa7;
+        "default" = _TX7amOa7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TX7amOa7";}
+in callPackage fn {version="default";}

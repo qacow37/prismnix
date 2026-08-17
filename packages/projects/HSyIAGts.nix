@@ -29,6 +29,7 @@ let
         "minecraft-1.21.6" = _gWWyrUeL;
         "minecraft-1.21.7" = _gWWyrUeL;
         "minecraft-1.21.8" = _gWWyrUeL;
+        "default" = _gWWyrUeL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gWWyrUeL";}
+in callPackage fn {version="default";}

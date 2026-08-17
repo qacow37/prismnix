@@ -35,6 +35,7 @@ let
         "minecraft-1.21.2" = _pyrPDZmb;
         "minecraft-1.21.3" = _pyrPDZmb;
         "minecraft-1.21.4" = _pyrPDZmb;
+        "default" = _pyrPDZmb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pyrPDZmb";}
+in callPackage fn {version="default";}

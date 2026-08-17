@@ -28,6 +28,7 @@ let
         "Tcq1kSaa" = _Tcq1kSaa;
         "neoforge-1.21.1" = _fjmqrivb;
         "fabric-1.21.1" = _Tcq1kSaa;
+        "default" = _Tcq1kSaa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tcq1kSaa";}
+in callPackage fn {version="default";}

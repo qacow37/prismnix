@@ -153,6 +153,7 @@ let
         "fabric-26.1" = _hPS3shwI;
         "fabric-26.1.1" = _hPS3shwI;
         "fabric-26.1.2" = _hPS3shwI;
+        "default" = _hPS3shwI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -173,4 +174,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hPS3shwI";}
+in callPackage fn {version="default";}

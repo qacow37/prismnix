@@ -28,6 +28,7 @@ let
         "QvWI2sKD" = _QvWI2sKD;
         "datapack-1.20.1" = _QvWI2sKD;
         "fabric-1.20.1" = _QvWI2sKD;
+        "default" = _QvWI2sKD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QvWI2sKD";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "K8fBrURI" = _K8fBrURI;
         "forge-1.19.2" = _K8fBrURI;
         "forge-1.18.2" = _WkVU6TC0;
+        "default" = _K8fBrURI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="K8fBrURI";}
+in callPackage fn {version="default";}

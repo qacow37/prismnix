@@ -75,6 +75,7 @@ let
         "tEQQgtl8" = _tEQQgtl8;
         "lc8t2DTb" = _lc8t2DTb;
         "neoforge-1.21.1" = _lc8t2DTb;
+        "default" = _lc8t2DTb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lc8t2DTb";}
+in callPackage fn {version="default";}

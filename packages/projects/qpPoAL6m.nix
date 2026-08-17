@@ -1107,6 +1107,7 @@ let
         "quilt-26.1.1" = _lOYCVRCp;
         "quilt-26.1.2" = _lOYCVRCp;
         "quilt-26.2" = _Pw2HCuRa;
+        "default" = _Pw2HCuRa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1127,4 +1128,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Pw2HCuRa";}
+in callPackage fn {version="default";}

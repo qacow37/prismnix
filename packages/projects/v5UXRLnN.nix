@@ -556,6 +556,7 @@ let
         "quilt-26.2-snapshot-2" = _MP8MGsod;
         "quilt-26.2" = _Cbs9PSiy;
         "quilt-26.3-snapshot-1" = _Cbs9PSiy;
+        "default" = _Cbs9PSiy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -576,4 +577,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Cbs9PSiy";}
+in callPackage fn {version="default";}

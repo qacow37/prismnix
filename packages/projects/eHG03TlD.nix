@@ -39,6 +39,7 @@ let
         "s27CsmJG" = _s27CsmJG;
         "HYtD65cB" = _HYtD65cB;
         "fabric-1.20.1" = _HYtD65cB;
+        "default" = _HYtD65cB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HYtD65cB";}
+in callPackage fn {version="default";}

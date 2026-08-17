@@ -15,6 +15,7 @@ let
         "GILje63y" = _GILje63y;
         "ZHAIRSeF" = _ZHAIRSeF;
         "neoforge-1.21.1" = _ZHAIRSeF;
+        "default" = _ZHAIRSeF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZHAIRSeF";}
+in callPackage fn {version="default";}

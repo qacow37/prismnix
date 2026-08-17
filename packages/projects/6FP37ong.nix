@@ -10,6 +10,7 @@ let
         "WSTM8xss" = _WSTM8xss;
         "minecraft-1.21" = _WSTM8xss;
         "minecraft-1.21.1" = _WSTM8xss;
+        "default" = _WSTM8xss;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WSTM8xss";}
+in callPackage fn {version="default";}

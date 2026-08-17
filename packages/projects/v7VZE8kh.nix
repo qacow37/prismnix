@@ -40,6 +40,7 @@ let
         "GoEGm1Ea" = _GoEGm1Ea;
         "neoforge-1.21.1" = _yqDEblb0;
         "fabric-1.21.1" = _GoEGm1Ea;
+        "default" = _GoEGm1Ea;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GoEGm1Ea";}
+in callPackage fn {version="default";}

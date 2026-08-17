@@ -33,6 +33,7 @@ let
         "forge-1.20.5" = _ATkcFMv5;
         "forge-1.20.6" = _ATkcFMv5;
         "fabric-1.20.1" = _PlRKwOgf;
+        "default" = _ATkcFMv5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ATkcFMv5";}
+in callPackage fn {version="default";}

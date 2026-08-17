@@ -40,6 +40,7 @@ let
         "SI1HFomp" = _SI1HFomp;
         "babric-b1.7.3" = _SI1HFomp;
         "fabric-b1.7.3" = _SI1HFomp;
+        "default" = _SI1HFomp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SI1HFomp";}
+in callPackage fn {version="default";}

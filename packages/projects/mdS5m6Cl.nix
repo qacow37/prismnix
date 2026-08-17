@@ -10,6 +10,7 @@ let
         "ZT4csBI1" = _ZT4csBI1;
         "fabric-1.20" = _ZT4csBI1;
         "fabric-1.20.1" = _ZT4csBI1;
+        "default" = _ZT4csBI1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZT4csBI1";}
+in callPackage fn {version="default";}

@@ -89,6 +89,7 @@ let
         "datapack-1.21.1" = _zSSQzZae;
         "fabric-1.21.1" = _m86zprpd;
         "neoforge-1.21.1" = _m86zprpd;
+        "default" = _m86zprpd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -109,4 +110,4 @@ let
                 };
             };
         };
-in callPackage fn {version="m86zprpd";}
+in callPackage fn {version="default";}

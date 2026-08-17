@@ -69,6 +69,7 @@ let
         "JcyLLmvK" = _JcyLLmvK;
         "E2c334Ce" = _E2c334Ce;
         "fabric-1.20.1" = _E2c334Ce;
+        "default" = _E2c334Ce;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E2c334Ce";}
+in callPackage fn {version="default";}

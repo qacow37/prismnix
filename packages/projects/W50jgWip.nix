@@ -243,6 +243,7 @@ let
         "ByaF97sR" = _ByaF97sR;
         "xMpL7nyI" = _xMpL7nyI;
         "forge-1.20.1" = _xMpL7nyI;
+        "default" = _xMpL7nyI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -263,4 +264,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xMpL7nyI";}
+in callPackage fn {version="default";}

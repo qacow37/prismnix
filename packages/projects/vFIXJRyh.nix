@@ -124,6 +124,7 @@ let
         "purpur-26.1.1" = _FoxTVyW3;
         "purpur-26.1.2" = _FoxTVyW3;
         "purpur-26.2" = _FoxTVyW3;
+        "default" = _FoxTVyW3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FoxTVyW3";}
+in callPackage fn {version="default";}

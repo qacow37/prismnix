@@ -24,6 +24,7 @@ let
         "minecraft-1.21.9" = _CEXZLAns;
         "minecraft-1.21.10" = _CEXZLAns;
         "minecraft-1.21.11" = _CEXZLAns;
+        "default" = _CEXZLAns;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CEXZLAns";}
+in callPackage fn {version="default";}

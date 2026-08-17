@@ -22,6 +22,7 @@ let
         "CYT033AV" = _CYT033AV;
         "fabric-23w07a" = _jXs95FNl;
         "fabric-1.20" = _CYT033AV;
+        "default" = _CYT033AV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CYT033AV";}
+in callPackage fn {version="default";}

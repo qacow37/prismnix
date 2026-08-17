@@ -16,6 +16,7 @@ let
         "gdwUMGHA" = _gdwUMGHA;
         "fabric-1.21.1" = _TGtPXsAF;
         "neoforge-1.21.1" = _gdwUMGHA;
+        "default" = _gdwUMGHA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gdwUMGHA";}
+in callPackage fn {version="default";}

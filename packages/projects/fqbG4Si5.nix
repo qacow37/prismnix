@@ -15,6 +15,7 @@ let
         "pOvYgxzB" = _pOvYgxzB;
         "DVtaKPeL" = _DVtaKPeL;
         "forge-1.16.5" = _DVtaKPeL;
+        "default" = _DVtaKPeL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DVtaKPeL";}
+in callPackage fn {version="default";}

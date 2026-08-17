@@ -30,6 +30,7 @@ let
         "quilt-1.20.1" = _l8L0yA05;
         "forge-1.20.1" = _RBnOsKvv;
         "neoforge-1.20.1" = _RBnOsKvv;
+        "default" = _RBnOsKvv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RBnOsKvv";}
+in callPackage fn {version="default";}

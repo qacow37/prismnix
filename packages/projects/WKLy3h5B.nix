@@ -39,6 +39,7 @@ let
         "rpZSu48S" = _rpZSu48S;
         "rsUHNeoF" = _rsUHNeoF;
         "neoforge-1.21.1" = _rsUHNeoF;
+        "default" = _rsUHNeoF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rsUHNeoF";}
+in callPackage fn {version="default";}

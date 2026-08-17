@@ -10,6 +10,7 @@ let
         "XsWTfCD9" = _XsWTfCD9;
         "minecraft-1.20" = _XsWTfCD9;
         "minecraft-1.20.1" = _XsWTfCD9;
+        "default" = _XsWTfCD9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XsWTfCD9";}
+in callPackage fn {version="default";}

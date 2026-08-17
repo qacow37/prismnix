@@ -555,6 +555,7 @@ let
         "T77x9FBo" = _T77x9FBo;
         "DfcXtSn9" = _DfcXtSn9;
         "forge-1.7.10" = _DfcXtSn9;
+        "default" = _DfcXtSn9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -575,4 +576,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DfcXtSn9";}
+in callPackage fn {version="default";}

@@ -426,6 +426,7 @@ let
         "fabric-26.2-rc-1" = _CKG37Wp7;
         "fabric-26.2-rc-2" = _CKG37Wp7;
         "fabric-26.2" = _CKG37Wp7;
+        "default" = _zh7ntWRf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -446,4 +447,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zh7ntWRf";}
+in callPackage fn {version="default";}

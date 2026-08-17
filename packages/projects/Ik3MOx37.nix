@@ -41,6 +41,7 @@ let
         "fabric-1.21.1" = _msydcIBT;
         "quilt-1.21.1" = _msydcIBT;
         "neoforge-1.21.1" = _FLt4dF7E;
+        "default" = _msydcIBT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="msydcIBT";}
+in callPackage fn {version="default";}

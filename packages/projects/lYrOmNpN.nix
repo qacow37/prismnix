@@ -27,6 +27,7 @@ let
         "PGHqKezp" = _PGHqKezp;
         "17OFaUra" = _17OFaUra;
         "fabric-1.20.1" = _17OFaUra;
+        "default" = _17OFaUra;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="17OFaUra";}
+in callPackage fn {version="default";}

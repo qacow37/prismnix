@@ -26,6 +26,7 @@ let
         "iris-1.21.9" = _cymcnMu9;
         "iris-1.21.10" = _cymcnMu9;
         "iris-1.21.11" = _cymcnMu9;
+        "default" = _cymcnMu9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cymcnMu9";}
+in callPackage fn {version="default";}

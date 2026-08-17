@@ -95,6 +95,7 @@ let
         "fabric-1.21.1" = _JfSAp4oh;
         "fabric-1.19.2" = _LLj0Xu4T;
         "fabric-1.20.1" = _CYPaCSv0;
+        "default" = _CYPaCSv0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CYPaCSv0";}
+in callPackage fn {version="default";}

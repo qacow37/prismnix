@@ -2020,6 +2020,7 @@ let
         "ornithe-1.12" = _c5hvGuGn;
         "ornithe-1.12.1" = _c5hvGuGn;
         "ornithe-1.12.2" = _c5hvGuGn;
+        "default" = _xKxhjDJ2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2040,4 +2041,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xKxhjDJ2";}
+in callPackage fn {version="default";}

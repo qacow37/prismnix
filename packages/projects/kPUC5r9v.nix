@@ -39,6 +39,7 @@ let
         "OBJHU4vd" = _OBJHU4vd;
         "JoPtPriv" = _JoPtPriv;
         "forge-1.20.1" = _JoPtPriv;
+        "default" = _JoPtPriv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JoPtPriv";}
+in callPackage fn {version="default";}

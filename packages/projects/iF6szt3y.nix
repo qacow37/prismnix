@@ -144,6 +144,7 @@ let
         "quilt-1.20.5" = _YLRrAFpi;
         "quilt-1.20.6" = _YLRrAFpi;
         "quilt-1.21.4" = _YLRrAFpi;
+        "default" = _huHFl2n2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -164,4 +165,4 @@ let
                 };
             };
         };
-in callPackage fn {version="huHFl2n2";}
+in callPackage fn {version="default";}

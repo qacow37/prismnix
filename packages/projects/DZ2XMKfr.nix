@@ -68,6 +68,7 @@ let
         "fabric-26.1.1" = _Q1SxG6JD;
         "fabric-26.1.2" = _bVLuenvw;
         "fabric-26.2" = _UEVCbLog;
+        "default" = _UEVCbLog;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UEVCbLog";}
+in callPackage fn {version="default";}

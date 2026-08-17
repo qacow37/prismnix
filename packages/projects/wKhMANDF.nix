@@ -136,6 +136,7 @@ let
         "pLPcxLib" = _pLPcxLib;
         "neoforge-1.21.1" = _pLPcxLib;
         "fabric-1.21.1" = _XI1sJMOJ;
+        "default" = _pLPcxLib;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pLPcxLib";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "minecraft-1.20.6" = _Azu90vRX;
         "minecraft-1.21" = _Azu90vRX;
         "minecraft-1.21.1" = _Azu90vRX;
+        "default" = _Azu90vRX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Azu90vRX";}
+in callPackage fn {version="default";}

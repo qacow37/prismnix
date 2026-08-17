@@ -92,6 +92,7 @@ let
         "minecraft-1.21.9" = _GkDKAGic;
         "minecraft-1.21.10" = _GkDKAGic;
         "minecraft-1.21.11" = _GkDKAGic;
+        "default" = _GkDKAGic;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GkDKAGic";}
+in callPackage fn {version="default";}

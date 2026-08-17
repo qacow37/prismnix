@@ -359,6 +359,7 @@ let
         "minecraft-25w05a" = _sa46b0dq;
         "minecraft-25w06a" = _sa46b0dq;
         "minecraft-25w07a" = _sa46b0dq;
+        "default" = _sa46b0dq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -379,4 +380,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sa46b0dq";}
+in callPackage fn {version="default";}

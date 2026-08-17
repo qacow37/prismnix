@@ -35,6 +35,7 @@ let
         "minecraft-1.20.3" = _CWSTEGDg;
         "minecraft-1.20.4" = _CWSTEGDg;
         "minecraft-26.2" = _CWSTEGDg;
+        "default" = _CWSTEGDg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CWSTEGDg";}
+in callPackage fn {version="default";}

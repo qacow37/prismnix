@@ -33,6 +33,7 @@ let
         "neoforge-1.20.1" = _DOVoDprR;
         "neoforge-1.21.1" = _GBDR4YSy;
         "quilt-1.20.1" = _DOVoDprR;
+        "default" = _GBDR4YSy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GBDR4YSy";}
+in callPackage fn {version="default";}

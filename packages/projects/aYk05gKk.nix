@@ -18,6 +18,7 @@ let
         "fabric-1.20.2" = _NTM88Xj5;
         "fabric-1.20.3" = _NTM88Xj5;
         "fabric-1.20.4" = _NTM88Xj5;
+        "default" = _NTM88Xj5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NTM88Xj5";}
+in callPackage fn {version="default";}

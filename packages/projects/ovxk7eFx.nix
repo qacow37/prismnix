@@ -18,6 +18,7 @@ let
         "minecraft-1.20.4" = _wbiGMelx;
         "minecraft-1.19.2" = _wbiGMelx;
         "minecraft-1.19.4" = _wbiGMelx;
+        "default" = _wbiGMelx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wbiGMelx";}
+in callPackage fn {version="default";}

@@ -45,6 +45,7 @@ let
         "WfcSTo24" = _WfcSTo24;
         "CPjmkmin" = _CPjmkmin;
         "fabric-25w14craftmine" = _CPjmkmin;
+        "default" = _CPjmkmin;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CPjmkmin";}
+in callPackage fn {version="default";}

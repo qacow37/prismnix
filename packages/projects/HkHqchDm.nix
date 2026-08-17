@@ -9,6 +9,7 @@ let
     in {
         "THMDWGm4" = _THMDWGm4;
         "neoforge-1.21.1" = _THMDWGm4;
+        "default" = _THMDWGm4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="THMDWGm4";}
+in callPackage fn {version="default";}

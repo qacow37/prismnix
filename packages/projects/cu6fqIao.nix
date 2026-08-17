@@ -33,6 +33,7 @@ let
         "xHQTKtBz" = _xHQTKtBz;
         "c2IBEMmv" = _c2IBEMmv;
         "neoforge-1.21.1" = _c2IBEMmv;
+        "default" = _c2IBEMmv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c2IBEMmv";}
+in callPackage fn {version="default";}

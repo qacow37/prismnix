@@ -229,6 +229,7 @@ let
         "quilt-26.1.1" = _OpfnX63f;
         "quilt-26.1.2" = _OpfnX63f;
         "quilt-26.2" = _95sc2GhZ;
+        "default" = _95sc2GhZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -249,4 +250,4 @@ let
                 };
             };
         };
-in callPackage fn {version="95sc2GhZ";}
+in callPackage fn {version="default";}

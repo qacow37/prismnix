@@ -40,6 +40,7 @@ let
         "ZVLen6of" = _ZVLen6of;
         "minecraft-1.21.4" = _Vnr3OkZf;
         "minecraft-1.21.11" = _ZVLen6of;
+        "default" = _ZVLen6of;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZVLen6of";}
+in callPackage fn {version="default";}

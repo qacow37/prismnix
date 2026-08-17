@@ -196,6 +196,7 @@ let
         "quilt-26.1-snapshot-7" = _Q5Ch992A;
         "quilt-26.1-snapshot-8" = _Q5Ch992A;
         "quilt-26.1-snapshot-9" = _Q5Ch992A;
+        "default" = _Q5Ch992A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -216,4 +217,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Q5Ch992A";}
+in callPackage fn {version="default";}

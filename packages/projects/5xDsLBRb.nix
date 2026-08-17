@@ -16,6 +16,7 @@ let
         "2XsyrIHD" = _2XsyrIHD;
         "forge-1.20.1" = _2XsyrIHD;
         "neoforge-1.20.1" = _2XsyrIHD;
+        "default" = _2XsyrIHD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2XsyrIHD";}
+in callPackage fn {version="default";}

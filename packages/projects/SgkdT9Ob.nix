@@ -52,6 +52,7 @@ let
         "fabric-1.21" = _DettYUbs;
         "fabric-1.21.1" = _DettYUbs;
         "quilt-24w13a" = _6FZE1ast;
+        "default" = _DettYUbs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DettYUbs";}
+in callPackage fn {version="default";}

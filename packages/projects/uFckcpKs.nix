@@ -10,6 +10,7 @@ let
         "YT7374h6" = _YT7374h6;
         "fabric-1.20.1" = _YT7374h6;
         "quilt-1.20.1" = _YT7374h6;
+        "default" = _YT7374h6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YT7374h6";}
+in callPackage fn {version="default";}

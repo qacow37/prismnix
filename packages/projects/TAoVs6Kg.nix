@@ -33,6 +33,7 @@ let
         "forge-1.19.3" = _aywevaL5;
         "forge-1.19.4" = _aywevaL5;
         "forge-1.20" = _aywevaL5;
+        "default" = _aywevaL5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aywevaL5";}
+in callPackage fn {version="default";}

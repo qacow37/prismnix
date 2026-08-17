@@ -99,6 +99,7 @@ let
         "xXSvrhaq" = _xXSvrhaq;
         "7FWBoASd" = _7FWBoASd;
         "neoforge-1.21.1" = _7FWBoASd;
+        "default" = _7FWBoASd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7FWBoASd";}
+in callPackage fn {version="default";}

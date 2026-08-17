@@ -203,6 +203,7 @@ let
         "quilt-26.1.1" = _rrLOrAva;
         "quilt-26.1.2" = _rrLOrAva;
         "quilt-26.2" = _rrLOrAva;
+        "default" = _rrLOrAva;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -223,4 +224,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rrLOrAva";}
+in callPackage fn {version="default";}

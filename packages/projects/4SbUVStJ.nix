@@ -70,6 +70,7 @@ let
         "neoforge-26.1.1" = _EC3PnZDB;
         "neoforge-26.1.2" = _EC3PnZDB;
         "neoforge-26.2" = _cGOUEAXT;
+        "default" = _cGOUEAXT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cGOUEAXT";}
+in callPackage fn {version="default";}

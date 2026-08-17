@@ -91,6 +91,7 @@ let
         "quilt-1.21.10" = _YMiRaTgd;
         "quilt-1.21.11" = _YMiRaTgd;
         "quilt-26.1" = _YMiRaTgd;
+        "default" = _YMiRaTgd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -111,4 +112,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YMiRaTgd";}
+in callPackage fn {version="default";}

@@ -482,6 +482,7 @@ let
         "folia-1.21.5" = _H0eZROnC;
         "bungeecord-1.20.3" = _YsrX7x16;
         "bungeecord-1.20.4" = _YsrX7x16;
+        "default" = _H0eZROnC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -502,4 +503,4 @@ let
                 };
             };
         };
-in callPackage fn {version="H0eZROnC";}
+in callPackage fn {version="default";}

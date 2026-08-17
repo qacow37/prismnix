@@ -28,6 +28,7 @@ let
         "minecraft-1.18.2" = _trerunh4;
         "minecraft-1.19.4" = _trerunh4;
         "minecraft-1.21" = _trerunh4;
+        "default" = _trerunh4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="trerunh4";}
+in callPackage fn {version="default";}

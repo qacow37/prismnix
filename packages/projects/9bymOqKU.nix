@@ -70,6 +70,7 @@ let
         "GIFN97Vt" = _GIFN97Vt;
         "forge-1.20.1" = _GIFN97Vt;
         "neoforge-1.20.1" = _GIFN97Vt;
+        "default" = _GIFN97Vt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GIFN97Vt";}
+in callPackage fn {version="default";}

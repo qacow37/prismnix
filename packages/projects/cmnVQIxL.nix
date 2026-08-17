@@ -27,6 +27,7 @@ let
         "BlLTatFu" = _BlLTatFu;
         "rIPEZY84" = _rIPEZY84;
         "forge-1.16.5" = _rIPEZY84;
+        "default" = _rIPEZY84;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rIPEZY84";}
+in callPackage fn {version="default";}

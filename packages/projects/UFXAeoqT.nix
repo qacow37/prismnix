@@ -33,6 +33,7 @@ let
         "xEpTXgPb" = _xEpTXgPb;
         "QFMWmTt6" = _QFMWmTt6;
         "neoforge-1.21.1" = _QFMWmTt6;
+        "default" = _QFMWmTt6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QFMWmTt6";}
+in callPackage fn {version="default";}

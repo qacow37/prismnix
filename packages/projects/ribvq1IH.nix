@@ -16,6 +16,7 @@ let
         "bVUCnl4D" = _bVUCnl4D;
         "fabric-1.20.1" = _bVUCnl4D;
         "forge-1.20.1" = _bVUCnl4D;
+        "default" = _bVUCnl4D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bVUCnl4D";}
+in callPackage fn {version="default";}

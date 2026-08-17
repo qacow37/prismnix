@@ -53,6 +53,7 @@ let
         "neoforge-26.1.1" = _OVPa2TLM;
         "neoforge-26.1.2" = _OVPa2TLM;
         "forge-1.20.1" = _QSssUVxb;
+        "default" = _OVPa2TLM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OVPa2TLM";}
+in callPackage fn {version="default";}

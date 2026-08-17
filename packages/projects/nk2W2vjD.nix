@@ -399,6 +399,7 @@ let
         "bfBcVnLt" = _bfBcVnLt;
         "sEj1OP1x" = _sEj1OP1x;
         "fabric-1.21.1" = _sEj1OP1x;
+        "default" = _sEj1OP1x;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -419,4 +420,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sEj1OP1x";}
+in callPackage fn {version="default";}

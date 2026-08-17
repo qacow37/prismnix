@@ -16,6 +16,7 @@ let
         "tFSbFEb0" = _tFSbFEb0;
         "fabric-1.21.1" = _pCneexFW;
         "fabric-26.2" = _tFSbFEb0;
+        "default" = _tFSbFEb0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tFSbFEb0";}
+in callPackage fn {version="default";}

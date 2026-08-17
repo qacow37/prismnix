@@ -29,6 +29,7 @@ let
         "minecraft-1.16" = _VBtG6DL3;
         "minecraft-1.21" = _VBtG6DL3;
         "minecraft-1.19" = _VBtG6DL3;
+        "default" = _VBtG6DL3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VBtG6DL3";}
+in callPackage fn {version="default";}

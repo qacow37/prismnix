@@ -13,6 +13,7 @@ let
         "minecraft-1.20.2" = _JShUake6;
         "minecraft-1.20.3" = _JShUake6;
         "minecraft-1.20.4" = _JShUake6;
+        "default" = _JShUake6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -33,4 +34,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JShUake6";}
+in callPackage fn {version="default";}

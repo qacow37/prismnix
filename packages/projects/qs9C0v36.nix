@@ -37,6 +37,7 @@ let
         "minecraft-1.21.2" = _BnSCiCbt;
         "minecraft-1.21.3" = _BnSCiCbt;
         "minecraft-1.21.4" = _BnSCiCbt;
+        "default" = _BnSCiCbt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BnSCiCbt";}
+in callPackage fn {version="default";}

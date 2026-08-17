@@ -21,6 +21,7 @@ let
         "QEZDNan2" = _QEZDNan2;
         "RtZDxQCS" = _RtZDxQCS;
         "minecraft-1.20.1" = _RtZDxQCS;
+        "default" = _RtZDxQCS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RtZDxQCS";}
+in callPackage fn {version="default";}

@@ -32,6 +32,7 @@ let
         "minecraft-1.20.4" = _jZlyToMq;
         "minecraft-1.20.5" = _jZlyToMq;
         "minecraft-1.20.6" = _jZlyToMq;
+        "default" = _jZlyToMq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jZlyToMq";}
+in callPackage fn {version="default";}

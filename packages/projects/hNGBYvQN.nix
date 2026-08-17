@@ -33,6 +33,7 @@ let
         "g3sn79Tz" = _g3sn79Tz;
         "D3xGo3Gm" = _D3xGo3Gm;
         "neoforge-1.21.1" = _D3xGo3Gm;
+        "default" = _D3xGo3Gm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="D3xGo3Gm";}
+in callPackage fn {version="default";}

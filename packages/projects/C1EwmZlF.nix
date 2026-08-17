@@ -76,6 +76,7 @@ let
         "forge-1.18" = _CjiMACjC;
         "forge-1.18.1" = _CjiMACjC;
         "forge-1.18.2" = _CjiMACjC;
+        "default" = _CjiMACjC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CjiMACjC";}
+in callPackage fn {version="default";}

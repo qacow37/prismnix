@@ -22,6 +22,7 @@ let
         "PTb17CRD" = _PTb17CRD;
         "forge-1.20.1" = _cvA7ALRU;
         "neoforge-1.21.1" = _PTb17CRD;
+        "default" = _PTb17CRD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PTb17CRD";}
+in callPackage fn {version="default";}

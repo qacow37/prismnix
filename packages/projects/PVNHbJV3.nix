@@ -49,6 +49,7 @@ let
         "minecraft-1.21.1" = _cuLocVHn;
         "minecraft-1.21.2" = _cuLocVHn;
         "minecraft-1.21.3" = _cuLocVHn;
+        "default" = _cuLocVHn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cuLocVHn";}
+in callPackage fn {version="default";}

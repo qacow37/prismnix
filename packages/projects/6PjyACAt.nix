@@ -49,6 +49,7 @@ let
         "modloader-b1.3_01" = _p0LRFFHi;
         "modloader-b1.5_01" = _p0LRFFHi;
         "modloader-b1.6.6" = _p0LRFFHi;
+        "default" = _p0LRFFHi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="p0LRFFHi";}
+in callPackage fn {version="default";}

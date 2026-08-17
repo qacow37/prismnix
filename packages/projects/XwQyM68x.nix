@@ -15,6 +15,7 @@ let
         "GnbUQupt" = _GnbUQupt;
         "3S13PaCP" = _3S13PaCP;
         "forge-1.20.1" = _3S13PaCP;
+        "default" = _3S13PaCP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3S13PaCP";}
+in callPackage fn {version="default";}

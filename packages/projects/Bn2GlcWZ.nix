@@ -15,6 +15,7 @@ let
         "a2WPHg0k" = _a2WPHg0k;
         "MEXQRA5E" = _MEXQRA5E;
         "forge-1.12.2" = _MEXQRA5E;
+        "default" = _MEXQRA5E;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MEXQRA5E";}
+in callPackage fn {version="default";}

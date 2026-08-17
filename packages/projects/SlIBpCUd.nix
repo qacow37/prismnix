@@ -72,6 +72,7 @@ let
         "fabric-1.20.6" = _TkbZXpom;
         "fabric-1.21" = _wtT340YN;
         "fabric-1.21.1" = _wtT340YN;
+        "default" = _wtT340YN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -92,4 +93,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wtT340YN";}
+in callPackage fn {version="default";}

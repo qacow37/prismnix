@@ -63,6 +63,7 @@ let
         "minecraft-1.14.2" = _kvxr41v1;
         "minecraft-1.14.3" = _kvxr41v1;
         "minecraft-1.14.4" = _kvxr41v1;
+        "default" = _kvxr41v1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kvxr41v1";}
+in callPackage fn {version="default";}

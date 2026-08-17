@@ -52,6 +52,7 @@ let
         "TnUcLkGn" = _TnUcLkGn;
         "forge-1.19.4" = _6PNNVoGf;
         "fabric-1.21" = _TnUcLkGn;
+        "default" = _TnUcLkGn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TnUcLkGn";}
+in callPackage fn {version="default";}

@@ -26,6 +26,7 @@ let
         "quilt-1.20" = _IMkhNTeR;
         "quilt-1.20.1" = _IMkhNTeR;
         "quilt-1.20.2" = _IMkhNTeR;
+        "default" = _IMkhNTeR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IMkhNTeR";}
+in callPackage fn {version="default";}

@@ -52,6 +52,7 @@ let
         "SEQBA31a" = _SEQBA31a;
         "forge-1.20.1" = _SEQBA31a;
         "forge-1.19.2" = _aWULs1OU;
+        "default" = _SEQBA31a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SEQBA31a";}
+in callPackage fn {version="default";}

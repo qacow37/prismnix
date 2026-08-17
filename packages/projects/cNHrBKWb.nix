@@ -307,6 +307,7 @@ let
         "quilt-26.1.1" = _FUvasyco;
         "quilt-26.1.2" = _FUvasyco;
         "quilt-26.2" = _FUvasyco;
+        "default" = _FUvasyco;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -327,4 +328,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FUvasyco";}
+in callPackage fn {version="default";}

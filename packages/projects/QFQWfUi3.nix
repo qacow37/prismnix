@@ -45,6 +45,7 @@ let
         "ExUZJNg2" = _ExUZJNg2;
         "YTdhWlaZ" = _YTdhWlaZ;
         "bta-babric-b1.7.3" = _YTdhWlaZ;
+        "default" = _YTdhWlaZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YTdhWlaZ";}
+in callPackage fn {version="default";}

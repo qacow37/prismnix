@@ -44,6 +44,7 @@ let
         "minecraft-26.1.1" = _hOpUJEof;
         "minecraft-26.1.2" = _hOpUJEof;
         "minecraft-26.2" = _hOpUJEof;
+        "default" = _hOpUJEof;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hOpUJEof";}
+in callPackage fn {version="default";}

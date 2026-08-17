@@ -40,6 +40,7 @@ let
         "ck2DBQl8" = _ck2DBQl8;
         "fabric-1.20.1" = _ck2DBQl8;
         "quilt-1.20.1" = _ck2DBQl8;
+        "default" = _ck2DBQl8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ck2DBQl8";}
+in callPackage fn {version="default";}

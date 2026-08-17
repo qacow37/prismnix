@@ -10,6 +10,7 @@ let
         "NiFMD9PY" = _NiFMD9PY;
         "iris-1.21.11" = _NiFMD9PY;
         "optifine-1.21.11" = _NiFMD9PY;
+        "default" = _NiFMD9PY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NiFMD9PY";}
+in callPackage fn {version="default";}

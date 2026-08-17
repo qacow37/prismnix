@@ -33,6 +33,7 @@ let
         "AUeQBeTi" = _AUeQBeTi;
         "L6ziqMF2" = _L6ziqMF2;
         "forge-1.20.1" = _L6ziqMF2;
+        "default" = _L6ziqMF2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="L6ziqMF2";}
+in callPackage fn {version="default";}

@@ -451,6 +451,7 @@ let
         "folia-1.7.6" = _ZIXCwl0A;
         "folia-1.7.7" = _ZIXCwl0A;
         "folia-1.7.8" = _ZIXCwl0A;
+        "default" = _ZIXCwl0A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -471,4 +472,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZIXCwl0A";}
+in callPackage fn {version="default";}

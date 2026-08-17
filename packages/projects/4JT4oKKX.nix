@@ -45,6 +45,7 @@ let
         "HKdrvlZN" = _HKdrvlZN;
         "vnwLDYpT" = _vnwLDYpT;
         "forge-1.8.9" = _vnwLDYpT;
+        "default" = _vnwLDYpT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vnwLDYpT";}
+in callPackage fn {version="default";}

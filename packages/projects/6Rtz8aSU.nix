@@ -9,6 +9,7 @@ let
     in {
         "hbcKiTni" = _hbcKiTni;
         "minecraft-1.20.6" = _hbcKiTni;
+        "default" = _hbcKiTni;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hbcKiTni";}
+in callPackage fn {version="default";}

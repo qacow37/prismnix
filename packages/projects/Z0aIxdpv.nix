@@ -31,6 +31,7 @@ let
         "minecraft-1.20.4" = _GTv2l2RP;
         "minecraft-1.20.5" = _GTv2l2RP;
         "minecraft-1.20.6" = _GTv2l2RP;
+        "default" = _GTv2l2RP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GTv2l2RP";}
+in callPackage fn {version="default";}

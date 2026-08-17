@@ -54,6 +54,7 @@ let
         "minecraft-1.20.4" = _fuIakIYA;
         "minecraft-1.20.5" = _fuIakIYA;
         "minecraft-1.20.6" = _fuIakIYA;
+        "default" = _fuIakIYA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fuIakIYA";}
+in callPackage fn {version="default";}

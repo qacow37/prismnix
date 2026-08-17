@@ -28,6 +28,7 @@ let
         "digDMzMG" = _digDMzMG;
         "fabric-1.20" = _digDMzMG;
         "fabric-1.20.1" = _digDMzMG;
+        "default" = _digDMzMG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="digDMzMG";}
+in callPackage fn {version="default";}

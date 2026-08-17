@@ -10,6 +10,7 @@ let
         "k20EkreA" = _k20EkreA;
         "fabric-1.21" = _k20EkreA;
         "fabric-1.21.1" = _k20EkreA;
+        "default" = _k20EkreA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="k20EkreA";}
+in callPackage fn {version="default";}

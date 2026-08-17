@@ -1525,6 +1525,7 @@ let
         "velocity-1.21.8" = _AIy0rQsQ;
         "velocity-1.21.9" = _AIy0rQsQ;
         "velocity-1.21.10" = _AIy0rQsQ;
+        "default" = _Lsi7xFkr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1545,4 +1546,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Lsi7xFkr";}
+in callPackage fn {version="default";}

@@ -39,6 +39,7 @@ let
         "STMjzYU1" = _STMjzYU1;
         "OzTYPVTD" = _OzTYPVTD;
         "forge-1.20.1" = _OzTYPVTD;
+        "default" = _OzTYPVTD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OzTYPVTD";}
+in callPackage fn {version="default";}

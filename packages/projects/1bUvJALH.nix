@@ -81,6 +81,7 @@ let
         "46E2jV1F" = _46E2jV1F;
         "bkewNScb" = _bkewNScb;
         "neoforge-1.21.1" = _bkewNScb;
+        "default" = _bkewNScb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bkewNScb";}
+in callPackage fn {version="default";}

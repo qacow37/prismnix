@@ -39,6 +39,7 @@ let
         "6VJOKSeL" = _6VJOKSeL;
         "TLTGeAVT" = _TLTGeAVT;
         "fabric-1.21.11" = _TLTGeAVT;
+        "default" = _TLTGeAVT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TLTGeAVT";}
+in callPackage fn {version="default";}

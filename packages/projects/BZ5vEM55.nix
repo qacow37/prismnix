@@ -69,6 +69,7 @@ let
         "wUOBY9Gp" = _wUOBY9Gp;
         "AISCFrRL" = _AISCFrRL;
         "forge-1.7.10" = _AISCFrRL;
+        "default" = _AISCFrRL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AISCFrRL";}
+in callPackage fn {version="default";}

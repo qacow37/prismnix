@@ -117,6 +117,7 @@ let
         "pAjqbdaC" = _pAjqbdaC;
         "DjRYkgbu" = _DjRYkgbu;
         "forge-1.20.1" = _DjRYkgbu;
+        "default" = _DjRYkgbu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DjRYkgbu";}
+in callPackage fn {version="default";}

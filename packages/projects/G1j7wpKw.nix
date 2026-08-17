@@ -27,6 +27,7 @@ let
         "qaCTrlAl" = _qaCTrlAl;
         "tXU8Ntco" = _tXU8Ntco;
         "forge-1.20.1" = _tXU8Ntco;
+        "default" = _tXU8Ntco;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tXU8Ntco";}
+in callPackage fn {version="default";}

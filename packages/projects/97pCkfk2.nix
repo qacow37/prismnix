@@ -21,6 +21,7 @@ let
         "UTqtIsHK" = _UTqtIsHK;
         "JhtPYL88" = _JhtPYL88;
         "forge-1.20.1" = _JhtPYL88;
+        "default" = _JhtPYL88;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JhtPYL88";}
+in callPackage fn {version="default";}

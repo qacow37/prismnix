@@ -28,6 +28,7 @@ let
         "vanilla-26.1.1" = _37ohVkNd;
         "vanilla-26.1.2" = _37ohVkNd;
         "vanilla-26.2" = _37ohVkNd;
+        "default" = _37ohVkNd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="37ohVkNd";}
+in callPackage fn {version="default";}

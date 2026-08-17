@@ -487,6 +487,7 @@ let
         "fabric-26.1" = _kjDivfts;
         "fabric-26.1.1" = _kjDivfts;
         "fabric-26.1.2" = _kjDivfts;
+        "default" = _kjDivfts;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -507,4 +508,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kjDivfts";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "LUCKaamP" = _LUCKaamP;
         "OP3W4ovr" = _OP3W4ovr;
         "fabric-1.20.1" = _OP3W4ovr;
+        "default" = _OP3W4ovr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OP3W4ovr";}
+in callPackage fn {version="default";}

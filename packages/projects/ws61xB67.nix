@@ -51,6 +51,7 @@ let
         "O0gOF7ed" = _O0gOF7ed;
         "czDAtPMa" = _czDAtPMa;
         "forge-1.20.1" = _czDAtPMa;
+        "default" = _czDAtPMa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="czDAtPMa";}
+in callPackage fn {version="default";}

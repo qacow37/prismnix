@@ -85,6 +85,7 @@ let
         "quilt-1.21.8" = _uup35Vok;
         "quilt-1.21.10" = _bUpLKcwt;
         "quilt-1.21.11" = _58HORTeC;
+        "default" = _58HORTeC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="58HORTeC";}
+in callPackage fn {version="default";}

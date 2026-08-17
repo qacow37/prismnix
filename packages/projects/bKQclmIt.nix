@@ -118,6 +118,7 @@ let
         "quilt-1.20.2" = _RqkO2I7y;
         "quilt-1.20.3" = _RqkO2I7y;
         "quilt-1.20.4" = _RqkO2I7y;
+        "default" = _XLS4Ub17;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -138,4 +139,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XLS4Ub17";}
+in callPackage fn {version="default";}

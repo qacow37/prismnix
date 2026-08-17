@@ -44,6 +44,7 @@ let
         "forge-1.21.1" = _npT9Qjvb;
         "quilt-1.21.1" = _UsqlGt3I;
         "neoforge-1.21.1" = _TsMXDaL7;
+        "default" = _UsqlGt3I;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UsqlGt3I";}
+in callPackage fn {version="default";}

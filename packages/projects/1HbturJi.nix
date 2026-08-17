@@ -23,6 +23,7 @@ let
         "fabric-1.16.2" = _tt7482ao;
         "fabric-1.20" = _Js43GpJC;
         "fabric-1.20.1" = _Js43GpJC;
+        "default" = _Js43GpJC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Js43GpJC";}
+in callPackage fn {version="default";}

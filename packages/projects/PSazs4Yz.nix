@@ -39,6 +39,7 @@ let
         "i6gRKWby" = _i6gRKWby;
         "E2XLOTvU" = _E2XLOTvU;
         "forge-1.8.9" = _E2XLOTvU;
+        "default" = _E2XLOTvU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E2XLOTvU";}
+in callPackage fn {version="default";}

@@ -113,6 +113,7 @@ let
         "modloader-b1.7.3" = _GPJe1ljT;
         "fabric-b1.7.3" = _3w2pLFt4;
         "babric-b1.7.3" = _3w2pLFt4;
+        "default" = _3w2pLFt4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3w2pLFt4";}
+in callPackage fn {version="default";}

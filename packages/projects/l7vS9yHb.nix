@@ -58,6 +58,7 @@ let
         "W5lE08ga" = _W5lE08ga;
         "forge-1.20" = _W5lE08ga;
         "forge-1.20.1" = _W5lE08ga;
+        "default" = _W5lE08ga;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="W5lE08ga";}
+in callPackage fn {version="default";}

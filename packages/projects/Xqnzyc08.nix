@@ -254,6 +254,7 @@ let
         "legacy-fabric-26.1.1" = _XHnNklwg;
         "legacy-fabric-26.1.2" = _XHnNklwg;
         "legacy-fabric-26.2" = _XHnNklwg;
+        "default" = _XHnNklwg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -274,4 +275,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XHnNklwg";}
+in callPackage fn {version="default";}

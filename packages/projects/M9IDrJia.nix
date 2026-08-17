@@ -82,6 +82,7 @@ let
         "OVo4bBCV" = _OVo4bBCV;
         "neoforge-1.21" = _OVo4bBCV;
         "neoforge-1.21.1" = _OVo4bBCV;
+        "default" = _OVo4bBCV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OVo4bBCV";}
+in callPackage fn {version="default";}

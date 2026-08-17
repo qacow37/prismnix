@@ -154,6 +154,7 @@ let
         "quilt-26.1.1" = _RS8mpVsM;
         "quilt-26.1.2" = _RS8mpVsM;
         "quilt-26.2" = _RS8mpVsM;
+        "default" = _RS8mpVsM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -174,4 +175,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RS8mpVsM";}
+in callPackage fn {version="default";}

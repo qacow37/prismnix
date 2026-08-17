@@ -51,6 +51,7 @@ let
         "EzpUpYxB" = _EzpUpYxB;
         "75LQuyvS" = _75LQuyvS;
         "fabric-1.20.1" = _75LQuyvS;
+        "default" = _75LQuyvS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="75LQuyvS";}
+in callPackage fn {version="default";}

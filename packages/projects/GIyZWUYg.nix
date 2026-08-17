@@ -108,6 +108,7 @@ let
         "purpur-1.21.9" = _ilgEMI2K;
         "purpur-1.21.10" = _ilgEMI2K;
         "purpur-1.21.11" = _ilgEMI2K;
+        "default" = _ilgEMI2K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ilgEMI2K";}
+in callPackage fn {version="default";}

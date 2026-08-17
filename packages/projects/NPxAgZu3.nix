@@ -276,6 +276,7 @@ let
         "quilt-1.20.3" = _hEIC2sR1;
         "quilt-1.20.4-rc1" = _hEIC2sR1;
         "quilt-1.20.4" = _hEIC2sR1;
+        "default" = _hEIC2sR1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -296,4 +297,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hEIC2sR1";}
+in callPackage fn {version="default";}

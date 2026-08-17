@@ -36,6 +36,7 @@ let
         "minecraft-1.21" = _sDwv2OXY;
         "minecraft-1.21.1" = _sDwv2OXY;
         "minecraft-1.21.4" = _sDwv2OXY;
+        "default" = _sDwv2OXY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sDwv2OXY";}
+in callPackage fn {version="default";}

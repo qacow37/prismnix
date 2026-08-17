@@ -388,6 +388,7 @@ let
         "bukkit-1.21.1" = _N86xPK8R;
         "bukkit-1.21.2" = _N86xPK8R;
         "bukkit-1.21.3" = _N86xPK8R;
+        "default" = _wDzcK7Sn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -408,4 +409,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wDzcK7Sn";}
+in callPackage fn {version="default";}

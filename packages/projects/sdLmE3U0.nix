@@ -21,6 +21,7 @@ let
         "XMPEw7Lr" = _XMPEw7Lr;
         "gswfsWHw" = _gswfsWHw;
         "forge-1.20.1" = _gswfsWHw;
+        "default" = _gswfsWHw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gswfsWHw";}
+in callPackage fn {version="default";}

@@ -345,6 +345,7 @@ let
         "folia-1.20.2" = _lSSd2e2u;
         "folia-1.20.3" = _lSSd2e2u;
         "folia-1.20.4" = _lSSd2e2u;
+        "default" = _lSSd2e2u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -365,4 +366,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lSSd2e2u";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "Vt25s1Kv" = _Vt25s1Kv;
         "9ig2SGA7" = _9ig2SGA7;
         "fabric-1.21.11" = _9ig2SGA7;
+        "default" = _9ig2SGA7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9ig2SGA7";}
+in callPackage fn {version="default";}

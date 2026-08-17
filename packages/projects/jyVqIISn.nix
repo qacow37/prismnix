@@ -312,6 +312,7 @@ let
         "neoforge-24w40a" = _LyvFXOPu;
         "neoforge-1.21.2-pre1" = _LyvFXOPu;
         "neoforge-1.21.2-pre2" = _LyvFXOPu;
+        "default" = _LyvFXOPu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -332,4 +333,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LyvFXOPu";}
+in callPackage fn {version="default";}

@@ -371,6 +371,7 @@ let
         "spigot-1.20.6" = _tiCcsRlq;
         "spigot-1.21" = _tiCcsRlq;
         "spigot-1.21.11" = _WrckOvlG;
+        "default" = _WrckOvlG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -391,4 +392,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WrckOvlG";}
+in callPackage fn {version="default";}

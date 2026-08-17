@@ -390,6 +390,7 @@ let
         "bukkit-26.1" = _NLHZwtGa;
         "bukkit-26.1.1" = _NLHZwtGa;
         "bukkit-26.1.2" = _NLHZwtGa;
+        "default" = _NLHZwtGa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -410,4 +411,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NLHZwtGa";}
+in callPackage fn {version="default";}

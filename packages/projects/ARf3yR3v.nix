@@ -62,6 +62,7 @@ let
         "minecraft-1.20.6" = _o5yFKl4D;
         "minecraft-1.21" = _CAifVbal;
         "minecraft-1.21.1" = _CAifVbal;
+        "default" = _CAifVbal;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CAifVbal";}
+in callPackage fn {version="default";}

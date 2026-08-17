@@ -57,6 +57,7 @@ let
         "zMRSFrqD" = _zMRSFrqD;
         "GFpOAxlg" = _GFpOAxlg;
         "forge-1.20.1" = _GFpOAxlg;
+        "default" = _GFpOAxlg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GFpOAxlg";}
+in callPackage fn {version="default";}

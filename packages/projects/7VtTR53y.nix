@@ -22,6 +22,7 @@ let
         "KZsT4Uak" = _KZsT4Uak;
         "iris-1.21.11" = _KZsT4Uak;
         "optifine-1.21.11" = _KZsT4Uak;
+        "default" = _KZsT4Uak;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KZsT4Uak";}
+in callPackage fn {version="default";}

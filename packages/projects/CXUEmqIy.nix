@@ -106,6 +106,7 @@ let
         "neoforge-1.21.6" = _SCCRDejB;
         "neoforge-1.21.7" = _SCCRDejB;
         "neoforge-1.21.8" = _SCCRDejB;
+        "default" = _T5X10Cmo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="T5X10Cmo";}
+in callPackage fn {version="default";}

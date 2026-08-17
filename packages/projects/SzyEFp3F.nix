@@ -31,6 +31,7 @@ let
         "fabric-26.1.1" = _srx45ilw;
         "fabric-26.1.2" = _srx45ilw;
         "fabric-26.2" = _Hai2VSvp;
+        "default" = _Hai2VSvp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Hai2VSvp";}
+in callPackage fn {version="default";}

@@ -19,6 +19,7 @@ let
         "minecraft-1.20" = _nELOi24c;
         "minecraft-1.20.1" = _nELOi24c;
         "minecraft-1.20.4" = _nELOi24c;
+        "default" = _nELOi24c;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nELOi24c";}
+in callPackage fn {version="default";}

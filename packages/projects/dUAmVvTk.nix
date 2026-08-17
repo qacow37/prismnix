@@ -18,6 +18,7 @@ let
         "minecraft-1.19.4" = _wTyqlPWI;
         "minecraft-1.20" = _wTyqlPWI;
         "minecraft-1.20.1" = _wTyqlPWI;
+        "default" = _wTyqlPWI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wTyqlPWI";}
+in callPackage fn {version="default";}

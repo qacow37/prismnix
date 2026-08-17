@@ -100,6 +100,7 @@ let
         "IBrtD4Ae" = _IBrtD4Ae;
         "forge-1.20.1" = _IBrtD4Ae;
         "neoforge-1.20.1" = _IBrtD4Ae;
+        "default" = _IBrtD4Ae;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IBrtD4Ae";}
+in callPackage fn {version="default";}

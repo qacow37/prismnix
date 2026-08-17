@@ -64,6 +64,7 @@ let
         "Do4UXRtN" = _Do4UXRtN;
         "forge-1.20.1" = _AXXqAbSy;
         "neoforge-1.21.1" = _Do4UXRtN;
+        "default" = _Do4UXRtN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Do4UXRtN";}
+in callPackage fn {version="default";}

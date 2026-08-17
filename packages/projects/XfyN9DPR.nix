@@ -82,6 +82,7 @@ let
         "fabric-26.1" = _rticCEef;
         "fabric-26.1.1" = _rticCEef;
         "fabric-26.1.2" = _rticCEef;
+        "default" = _rticCEef;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rticCEef";}
+in callPackage fn {version="default";}

@@ -550,6 +550,7 @@ let
         "forge-1.20.1" = _edTYH2p8;
         "neoforge-1.21" = _ViNeqtNX;
         "neoforge-1.21.1" = _ViNeqtNX;
+        "default" = _ViNeqtNX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -570,4 +571,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ViNeqtNX";}
+in callPackage fn {version="default";}

@@ -351,6 +351,7 @@ let
         "5siFLc8E" = _5siFLc8E;
         "rV6A85Lk" = _rV6A85Lk;
         "forge-1.12.2" = _rV6A85Lk;
+        "default" = _rV6A85Lk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -371,4 +372,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rV6A85Lk";}
+in callPackage fn {version="default";}

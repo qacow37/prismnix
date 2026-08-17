@@ -21,6 +21,7 @@ let
         "aBA7IEMr" = _aBA7IEMr;
         "eMF3g5ot" = _eMF3g5ot;
         "fabric-1.20.1" = _eMF3g5ot;
+        "default" = _eMF3g5ot;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eMF3g5ot";}
+in callPackage fn {version="default";}

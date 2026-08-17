@@ -1957,6 +1957,7 @@ let
         "neoforge-1.21" = _F2nzeC19;
         "neoforge-1.21.1" = _F2nzeC19;
         "neoforge-26.1.2" = _Voaox2kE;
+        "default" = _Voaox2kE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1977,4 +1978,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Voaox2kE";}
+in callPackage fn {version="default";}

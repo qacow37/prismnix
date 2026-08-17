@@ -103,6 +103,7 @@ let
         "quilt-1.21.2" = _UwfbrWit;
         "quilt-1.21.3" = _UwfbrWit;
         "quilt-1.21.4" = _UwfbrWit;
+        "default" = _UwfbrWit;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -123,4 +124,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UwfbrWit";}
+in callPackage fn {version="default";}

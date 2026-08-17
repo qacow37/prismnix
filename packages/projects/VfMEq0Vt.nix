@@ -16,6 +16,7 @@ let
         "9Sok7GOx" = _9Sok7GOx;
         "datapack-1.20.1" = _74YQCKwy;
         "forge-1.20.1" = _9Sok7GOx;
+        "default" = _9Sok7GOx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9Sok7GOx";}
+in callPackage fn {version="default";}

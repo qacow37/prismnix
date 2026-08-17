@@ -40,6 +40,7 @@ let
         "ikdLP02G" = _ikdLP02G;
         "neoforge-1.21.1" = _ikdLP02G;
         "forge-1.20.1" = _6ByGTKSc;
+        "default" = _ikdLP02G;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ikdLP02G";}
+in callPackage fn {version="default";}

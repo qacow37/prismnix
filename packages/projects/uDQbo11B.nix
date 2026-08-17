@@ -15,6 +15,7 @@ let
         "SorDbTjO" = _SorDbTjO;
         "gYmmlI1o" = _gYmmlI1o;
         "forge-1.20.1" = _gYmmlI1o;
+        "default" = _gYmmlI1o;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gYmmlI1o";}
+in callPackage fn {version="default";}

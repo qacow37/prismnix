@@ -40,6 +40,7 @@ let
         "W5cLAISC" = _W5cLAISC;
         "forge-1.12.2" = _WDljLqg3;
         "forge-1.20.1" = _W5cLAISC;
+        "default" = _W5cLAISC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="W5cLAISC";}
+in callPackage fn {version="default";}

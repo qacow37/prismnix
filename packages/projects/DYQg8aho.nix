@@ -70,6 +70,7 @@ let
         "zed88rD5" = _zed88rD5;
         "forge-1.20.1" = _zed88rD5;
         "neoforge-1.21.1" = _Oi9MJhaz;
+        "default" = _zed88rD5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zed88rD5";}
+in callPackage fn {version="default";}

@@ -76,6 +76,7 @@ let
         "NNIpcWG8" = _NNIpcWG8;
         "forge-1.16.5" = _GQoekEl7;
         "forge-1.20.1" = _NNIpcWG8;
+        "default" = _NNIpcWG8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NNIpcWG8";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "t4tRiWEK" = _t4tRiWEK;
         "EEe4Vca5" = _EEe4Vca5;
         "fabric-1.19" = _EEe4Vca5;
+        "default" = _EEe4Vca5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EEe4Vca5";}
+in callPackage fn {version="default";}

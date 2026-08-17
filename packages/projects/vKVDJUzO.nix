@@ -78,6 +78,7 @@ let
         "quilt-1.20.2" = _TaWalPim;
         "quilt-1.20.3" = _TaWalPim;
         "quilt-1.20.4" = _TaWalPim;
+        "default" = _TaWalPim;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TaWalPim";}
+in callPackage fn {version="default";}

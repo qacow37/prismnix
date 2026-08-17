@@ -72,6 +72,7 @@ let
         "minecraft-26.1" = _PXUye3UI;
         "minecraft-26.1.1" = _PXUye3UI;
         "minecraft-26.1.2" = _PXUye3UI;
+        "default" = _PXUye3UI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -92,4 +93,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PXUye3UI";}
+in callPackage fn {version="default";}

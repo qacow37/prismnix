@@ -16,6 +16,7 @@ let
         "JvLHOABv" = _JvLHOABv;
         "fabric-26.1.2" = _Os4Ontve;
         "fabric-1.21.11" = _JvLHOABv;
+        "default" = _JvLHOABv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JvLHOABv";}
+in callPackage fn {version="default";}

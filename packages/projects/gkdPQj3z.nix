@@ -135,6 +135,7 @@ let
         "6z6IAtb3" = _6z6IAtb3;
         "81e00py1" = _81e00py1;
         "fabric-1.21.1" = _81e00py1;
+        "default" = _81e00py1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="81e00py1";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "neoforge-1.21.8" = _ptz4V6RX;
         "neoforge-1.21.9" = _ptz4V6RX;
         "neoforge-1.21.10" = _ptz4V6RX;
+        "default" = _ptz4V6RX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ptz4V6RX";}
+in callPackage fn {version="default";}

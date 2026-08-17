@@ -57,6 +57,7 @@ let
         "ioUmLuUG" = _ioUmLuUG;
         "aLsK1Wf4" = _aLsK1Wf4;
         "fabric-1.21" = _aLsK1Wf4;
+        "default" = _aLsK1Wf4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aLsK1Wf4";}
+in callPackage fn {version="default";}

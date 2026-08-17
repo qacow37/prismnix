@@ -37,6 +37,7 @@ let
         "minecraft-1.20.4" = _LtNOIXSi;
         "minecraft-1.20.5" = _LtNOIXSi;
         "minecraft-1.20.6" = _LtNOIXSi;
+        "default" = _LtNOIXSi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LtNOIXSi";}
+in callPackage fn {version="default";}

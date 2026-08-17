@@ -34,6 +34,7 @@ let
         "PebkDTsm" = _PebkDTsm;
         "neoforge-1.21.1" = _LJxPMia9;
         "neoforge-1.21.8" = _PebkDTsm;
+        "default" = _PebkDTsm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PebkDTsm";}
+in callPackage fn {version="default";}

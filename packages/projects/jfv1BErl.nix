@@ -44,6 +44,7 @@ let
         "minecraft-1.21.5-rc1" = _ndFalkFC;
         "minecraft-1.21.5" = _ndFalkFC;
         "minecraft-25w15a" = _ndFalkFC;
+        "default" = _ndFalkFC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ndFalkFC";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "AVrOs8y4" = _AVrOs8y4;
         "LSWMTcC6" = _LSWMTcC6;
         "minecraft-1.21.1" = _LSWMTcC6;
+        "default" = _LSWMTcC6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LSWMTcC6";}
+in callPackage fn {version="default";}

@@ -83,6 +83,7 @@ let
         "minecraft-1.21.8" = _jrkFIRGA;
         "minecraft-1.21.9" = _jrkFIRGA;
         "minecraft-1.21.10" = _jrkFIRGA;
+        "default" = _jrkFIRGA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -103,4 +104,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jrkFIRGA";}
+in callPackage fn {version="default";}

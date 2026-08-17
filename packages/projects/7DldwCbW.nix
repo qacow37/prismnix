@@ -40,6 +40,7 @@ let
         "mfJDTCEe" = _mfJDTCEe;
         "fabric-1.20.1" = _mG3gH7Pk;
         "forge-1.20.1" = _mfJDTCEe;
+        "default" = _mfJDTCEe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mfJDTCEe";}
+in callPackage fn {version="default";}

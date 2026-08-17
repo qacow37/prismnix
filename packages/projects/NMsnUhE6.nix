@@ -63,6 +63,7 @@ let
         "F1IjqTZT" = _F1IjqTZT;
         "HnYtIP48" = _HnYtIP48;
         "neoforge-1.21.1" = _HnYtIP48;
+        "default" = _HnYtIP48;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HnYtIP48";}
+in callPackage fn {version="default";}

@@ -30,6 +30,7 @@ let
         "optifine-26.1" = _S3PAGIFv;
         "optifine-26.1.1" = _S3PAGIFv;
         "optifine-26.2" = _S3PAGIFv;
+        "default" = _S3PAGIFv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S3PAGIFv";}
+in callPackage fn {version="default";}

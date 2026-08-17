@@ -15,6 +15,7 @@ let
         "mZ3PODn2" = _mZ3PODn2;
         "32hg237e" = _32hg237e;
         "minecraft-1.20.1" = _32hg237e;
+        "default" = _32hg237e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="32hg237e";}
+in callPackage fn {version="default";}

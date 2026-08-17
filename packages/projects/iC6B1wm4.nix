@@ -22,6 +22,7 @@ let
         "p2JP5hMp" = _p2JP5hMp;
         "forge-1.20.1" = _p2JP5hMp;
         "neoforge-1.20.1" = _p2JP5hMp;
+        "default" = _p2JP5hMp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="p2JP5hMp";}
+in callPackage fn {version="default";}

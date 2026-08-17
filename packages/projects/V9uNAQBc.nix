@@ -106,6 +106,7 @@ let
         "Y82jpTi7" = _Y82jpTi7;
         "forge-1.19.4" = _mp1j3Rz7;
         "forge-1.19.2" = _Y82jpTi7;
+        "default" = _Y82jpTi7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Y82jpTi7";}
+in callPackage fn {version="default";}

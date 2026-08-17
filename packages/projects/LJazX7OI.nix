@@ -230,6 +230,7 @@ let
         "minecraft-1.21.11-rc3" = _GVTlGeC4;
         "minecraft-1.21.11" = _GVTlGeC4;
         "minecraft-26.1-snapshot-1" = _GVTlGeC4;
+        "default" = _GVTlGeC4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -250,4 +251,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GVTlGeC4";}
+in callPackage fn {version="default";}

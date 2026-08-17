@@ -34,6 +34,7 @@ let
         "minecraft-1.20" = _WUAucaRb;
         "minecraft-1.20.1" = _WUAucaRb;
         "minecraft-1.20.2" = _WUAucaRb;
+        "default" = _WUAucaRb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WUAucaRb";}
+in callPackage fn {version="default";}

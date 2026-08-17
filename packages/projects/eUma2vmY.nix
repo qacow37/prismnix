@@ -196,6 +196,7 @@ let
         "fabric-1.21.1" = _xSFqbu1U;
         "neoforge-1.21" = _DnclMSEE;
         "neoforge-1.21.1" = _DnclMSEE;
+        "default" = _DnclMSEE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -216,4 +217,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DnclMSEE";}
+in callPackage fn {version="default";}

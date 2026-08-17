@@ -183,6 +183,7 @@ let
         "quilt-26.1.1" = _OYsUrlpo;
         "quilt-26.1.2" = _OYsUrlpo;
         "quilt-26.2" = _OYsUrlpo;
+        "default" = _OYsUrlpo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -203,4 +204,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OYsUrlpo";}
+in callPackage fn {version="default";}

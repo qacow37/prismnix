@@ -49,6 +49,7 @@ let
         "fabric-1.21.1" = _AsICMItF;
         "fabric-1.21" = _AsICMItF;
         "neoforge-1.21.1" = _b4lGaPAk;
+        "default" = _b4lGaPAk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="b4lGaPAk";}
+in callPackage fn {version="default";}

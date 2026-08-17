@@ -231,6 +231,7 @@ let
         "quilt-1.21.2" = _fOVHsM6M;
         "quilt-1.21.3" = _fOVHsM6M;
         "quilt-1.21.4" = _YokFoILZ;
+        "default" = _YokFoILZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -251,4 +252,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YokFoILZ";}
+in callPackage fn {version="default";}

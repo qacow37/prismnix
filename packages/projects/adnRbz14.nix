@@ -87,6 +87,7 @@ let
         "prC9g4wp" = _prC9g4wp;
         "w4h5LPaB" = _w4h5LPaB;
         "neoforge-1.21.1" = _w4h5LPaB;
+        "default" = _w4h5LPaB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w4h5LPaB";}
+in callPackage fn {version="default";}

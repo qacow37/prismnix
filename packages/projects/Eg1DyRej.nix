@@ -169,6 +169,7 @@ let
         "fabric-26.1" = _ofnrUjf4;
         "fabric-26.1.1" = _ofnrUjf4;
         "fabric-26.1.2" = _ofnrUjf4;
+        "default" = _ofnrUjf4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -189,4 +190,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ofnrUjf4";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "9GtExgtt" = _9GtExgtt;
         "fabric-1.21" = _9GtExgtt;
         "fabric-1.21.1" = _9GtExgtt;
+        "default" = _9GtExgtt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9GtExgtt";}
+in callPackage fn {version="default";}

@@ -65,6 +65,7 @@ let
         "forge-1.20.1" = _UDGFICQ8;
         "datapack-1.20.1" = _6u1eqbAk;
         "datapack-1.20" = _6u1eqbAk;
+        "default" = _6u1eqbAk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -85,4 +86,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6u1eqbAk";}
+in callPackage fn {version="default";}

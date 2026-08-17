@@ -381,6 +381,7 @@ let
         "minecraft-26.1.1" = _1TeX1Gor;
         "minecraft-26.1.2" = _1TeX1Gor;
         "minecraft-26.2" = _1TeX1Gor;
+        "default" = _1TeX1Gor;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -401,4 +402,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1TeX1Gor";}
+in callPackage fn {version="default";}

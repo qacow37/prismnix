@@ -117,6 +117,7 @@ let
         "sF4RVe4x" = _sF4RVe4x;
         "mB828sgz" = _mB828sgz;
         "forge-1.19.2" = _mB828sgz;
+        "default" = _mB828sgz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mB828sgz";}
+in callPackage fn {version="default";}

@@ -326,6 +326,7 @@ let
         "spigot-26.1.1" = _XmM04APQ;
         "spigot-26.1.2" = _XmM04APQ;
         "spigot-26.2" = _XmM04APQ;
+        "default" = _XmM04APQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -346,4 +347,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XmM04APQ";}
+in callPackage fn {version="default";}

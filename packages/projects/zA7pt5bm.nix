@@ -81,6 +81,7 @@ let
         "fabric-1.20.4" = _UfbHxsxn;
         "fabric-1.21" = _r32tmAXf;
         "fabric-1.21.1" = _r32tmAXf;
+        "default" = _r32tmAXf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="r32tmAXf";}
+in callPackage fn {version="default";}

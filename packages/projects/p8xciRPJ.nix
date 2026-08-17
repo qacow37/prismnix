@@ -15,6 +15,7 @@ let
         "minecraft-1.20.4" = _DNTrg7iF;
         "minecraft-1.20.5" = _DNTrg7iF;
         "minecraft-1.20.6" = _DNTrg7iF;
+        "default" = _DNTrg7iF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DNTrg7iF";}
+in callPackage fn {version="default";}

@@ -512,6 +512,7 @@ let
         "fabric-26.1" = _MCEofiMi;
         "fabric-26.1.1" = _MCEofiMi;
         "fabric-26.1.2" = _MCEofiMi;
+        "default" = _MCEofiMi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -532,4 +533,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MCEofiMi";}
+in callPackage fn {version="default";}

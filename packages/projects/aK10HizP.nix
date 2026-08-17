@@ -63,6 +63,7 @@ let
         "diunSaUI" = _diunSaUI;
         "TwFqXBE6" = _TwFqXBE6;
         "neoforge-1.21.1" = _TwFqXBE6;
+        "default" = _TwFqXBE6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TwFqXBE6";}
+in callPackage fn {version="default";}

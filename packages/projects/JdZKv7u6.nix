@@ -22,6 +22,7 @@ let
         "Ub9hSMlf" = _Ub9hSMlf;
         "fabric-1.20.1" = _Ub9hSMlf;
         "quilt-1.20.1" = _Ub9hSMlf;
+        "default" = _Ub9hSMlf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ub9hSMlf";}
+in callPackage fn {version="default";}

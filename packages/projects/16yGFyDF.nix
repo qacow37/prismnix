@@ -58,6 +58,7 @@ let
         "JOZ59eWF" = _JOZ59eWF;
         "forge-1.20.1" = _JOZ59eWF;
         "neoforge-1.20.1" = _JOZ59eWF;
+        "default" = _JOZ59eWF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JOZ59eWF";}
+in callPackage fn {version="default";}

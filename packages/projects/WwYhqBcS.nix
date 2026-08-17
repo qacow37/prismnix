@@ -15,6 +15,7 @@ let
         "GjOJESEO" = _GjOJESEO;
         "reQuMZGr" = _reQuMZGr;
         "forge-1.20.1" = _reQuMZGr;
+        "default" = _reQuMZGr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="reQuMZGr";}
+in callPackage fn {version="default";}

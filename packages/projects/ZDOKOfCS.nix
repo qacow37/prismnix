@@ -15,6 +15,7 @@ let
         "TuDJu1va" = _TuDJu1va;
         "pj4cNRkb" = _pj4cNRkb;
         "forge-1.12.2" = _pj4cNRkb;
+        "default" = _pj4cNRkb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pj4cNRkb";}
+in callPackage fn {version="default";}

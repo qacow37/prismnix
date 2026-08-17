@@ -21,6 +21,7 @@ let
         "AlTKL5EO" = _AlTKL5EO;
         "wxvGncuN" = _wxvGncuN;
         "forge-1.18.2" = _wxvGncuN;
+        "default" = _wxvGncuN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wxvGncuN";}
+in callPackage fn {version="default";}

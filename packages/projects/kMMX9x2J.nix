@@ -69,6 +69,7 @@ let
         "kogHvlm1" = _kogHvlm1;
         "hEbmLsCL" = _hEbmLsCL;
         "fabric-1.20.1" = _hEbmLsCL;
+        "default" = _hEbmLsCL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hEbmLsCL";}
+in callPackage fn {version="default";}

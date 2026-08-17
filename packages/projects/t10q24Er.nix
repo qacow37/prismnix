@@ -99,6 +99,7 @@ let
         "fIVG1TAp" = _fIVG1TAp;
         "YdX3dHLa" = _YdX3dHLa;
         "bta-babric-b1.7.3" = _YdX3dHLa;
+        "default" = _YdX3dHLa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YdX3dHLa";}
+in callPackage fn {version="default";}

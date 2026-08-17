@@ -67,6 +67,7 @@ let
         "neoforge-1.21.6" = _lTnkHZOv;
         "neoforge-1.21.7" = _lTnkHZOv;
         "neoforge-1.21.8" = _lTnkHZOv;
+        "default" = _vuezoyWH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -87,4 +88,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vuezoyWH";}
+in callPackage fn {version="default";}

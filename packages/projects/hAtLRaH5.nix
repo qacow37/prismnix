@@ -22,6 +22,7 @@ let
         "dYNSEgro" = _dYNSEgro;
         "forge-1.16.5" = _42EBRNIR;
         "forge-1.20.1" = _dYNSEgro;
+        "default" = _dYNSEgro;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dYNSEgro";}
+in callPackage fn {version="default";}

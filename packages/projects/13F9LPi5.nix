@@ -15,6 +15,7 @@ let
         "vdwHMC7z" = _vdwHMC7z;
         "39ea1RId" = _39ea1RId;
         "fabric-1.21.4" = _39ea1RId;
+        "default" = _39ea1RId;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="39ea1RId";}
+in callPackage fn {version="default";}

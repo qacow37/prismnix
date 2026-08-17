@@ -19,6 +19,7 @@ let
         "forge-1.21.11" = _PEMX1YBK;
         "neoforge-1.21.11" = _PEMX1YBK;
         "quilt-1.21.11" = _PEMX1YBK;
+        "default" = _PEMX1YBK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PEMX1YBK";}
+in callPackage fn {version="default";}

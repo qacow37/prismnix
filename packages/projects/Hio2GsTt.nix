@@ -11,6 +11,7 @@ let
         "minecraft-1.19.2" = _aeMGCWMA;
         "minecraft-1.19.3" = _aeMGCWMA;
         "minecraft-1.19.4" = _aeMGCWMA;
+        "default" = _aeMGCWMA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31,4 +32,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aeMGCWMA";}
+in callPackage fn {version="default";}

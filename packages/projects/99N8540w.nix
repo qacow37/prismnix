@@ -116,6 +116,7 @@ let
         "minecraft-1.21.9" = _FT3kWDGs;
         "minecraft-1.21.10" = _FT3kWDGs;
         "minecraft-1.21.11" = _nFdMak65;
+        "default" = _nFdMak65;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -136,4 +137,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nFdMak65";}
+in callPackage fn {version="default";}

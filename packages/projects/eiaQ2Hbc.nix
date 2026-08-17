@@ -15,6 +15,7 @@ let
         "PNVMEuOe" = _PNVMEuOe;
         "a5gOpPKH" = _a5gOpPKH;
         "forge-1.8.9" = _a5gOpPKH;
+        "default" = _a5gOpPKH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="a5gOpPKH";}
+in callPackage fn {version="default";}

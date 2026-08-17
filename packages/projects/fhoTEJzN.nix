@@ -15,6 +15,7 @@ let
         "8xosM9Qs" = _8xosM9Qs;
         "LDtoWym2" = _LDtoWym2;
         "fabric-1.21.11" = _LDtoWym2;
+        "default" = _LDtoWym2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LDtoWym2";}
+in callPackage fn {version="default";}

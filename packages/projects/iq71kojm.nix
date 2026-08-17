@@ -38,6 +38,7 @@ let
         "quilt-1.19" = _STABv846;
         "quilt-1.19.1" = _STABv846;
         "quilt-1.19.2" = _STABv846;
+        "default" = _STABv846;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="STABv846";}
+in callPackage fn {version="default";}

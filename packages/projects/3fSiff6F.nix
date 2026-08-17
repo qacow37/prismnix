@@ -2248,6 +2248,7 @@ let
         "quilt-1.21.8-rc1" = _2GHTKkE1;
         "quilt-1.21.8" = _2GHTKkE1;
         "quilt-25w31a" = _2GHTKkE1;
+        "default" = _2GHTKkE1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2268,4 +2269,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2GHTKkE1";}
+in callPackage fn {version="default";}

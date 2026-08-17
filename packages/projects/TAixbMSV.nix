@@ -16,6 +16,7 @@ let
         "u8OPTBy4" = _u8OPTBy4;
         "minecraft-1.21.1" = _u8OPTBy4;
         "minecraft-1.21" = _u8OPTBy4;
+        "default" = _u8OPTBy4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u8OPTBy4";}
+in callPackage fn {version="default";}

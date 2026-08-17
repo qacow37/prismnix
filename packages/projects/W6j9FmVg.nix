@@ -33,6 +33,7 @@ let
         "enYaj3e8" = _enYaj3e8;
         "oObFgRBp" = _oObFgRBp;
         "forge-1.20.1" = _oObFgRBp;
+        "default" = _oObFgRBp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oObFgRBp";}
+in callPackage fn {version="default";}

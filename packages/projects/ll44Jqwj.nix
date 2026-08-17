@@ -35,6 +35,7 @@ let
         "fabric-1.21" = _EmQnd2Se;
         "fabric-1.21.1" = _EmQnd2Se;
         "fabric-1.20.1" = _jDoLhOs1;
+        "default" = _jDoLhOs1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jDoLhOs1";}
+in callPackage fn {version="default";}

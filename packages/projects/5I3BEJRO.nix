@@ -27,6 +27,7 @@ let
         "KKVI7nBn" = _KKVI7nBn;
         "8231gOPb" = _8231gOPb;
         "fabric-1.21.1" = _8231gOPb;
+        "default" = _8231gOPb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8231gOPb";}
+in callPackage fn {version="default";}

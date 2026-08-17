@@ -50,6 +50,7 @@ let
         "minecraft-1.21.9" = _lfBmssck;
         "minecraft-1.21.10" = _lfBmssck;
         "minecraft-1.21.11" = _PZYSSA4e;
+        "default" = _PZYSSA4e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PZYSSA4e";}
+in callPackage fn {version="default";}

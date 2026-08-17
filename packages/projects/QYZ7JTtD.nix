@@ -71,6 +71,7 @@ let
         "fabric-26.1" = _tdGDi6wg;
         "fabric-26.1.1" = _tdGDi6wg;
         "fabric-26.1.2" = _tdGDi6wg;
+        "default" = _tdGDi6wg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -91,4 +92,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tdGDi6wg";}
+in callPackage fn {version="default";}

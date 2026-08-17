@@ -74,6 +74,7 @@ let
         "fabric-26.1.1" = _sPMu7AWt;
         "fabric-26.1.2" = _sPMu7AWt;
         "fabric-26.2" = _sPMu7AWt;
+        "default" = _sPMu7AWt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sPMu7AWt";}
+in callPackage fn {version="default";}

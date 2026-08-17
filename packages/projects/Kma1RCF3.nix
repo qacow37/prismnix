@@ -1669,6 +1669,7 @@ let
         "quilt-26.1.1" = _Dc1vl6r4;
         "quilt-26.1.2" = _Dc1vl6r4;
         "quilt-26.2" = _2muFgFPA;
+        "default" = _CickACH4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1689,4 +1690,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CickACH4";}
+in callPackage fn {version="default";}

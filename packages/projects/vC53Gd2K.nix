@@ -71,6 +71,7 @@ let
         "fabric-26.1" = _Lgw9mAGp;
         "fabric-26.1.1" = _Lgw9mAGp;
         "fabric-26.1.2" = _Lgw9mAGp;
+        "default" = _Lgw9mAGp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -91,4 +92,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Lgw9mAGp";}
+in callPackage fn {version="default";}

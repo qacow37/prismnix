@@ -34,6 +34,7 @@ let
         "SVG9MSK7" = _SVG9MSK7;
         "forge-1.20.1" = _Fdj4feOM;
         "forge-1.7.10" = _SVG9MSK7;
+        "default" = _SVG9MSK7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SVG9MSK7";}
+in callPackage fn {version="default";}

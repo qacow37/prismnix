@@ -187,6 +187,7 @@ let
         "minecraft-1.21.2" = _FC5SCLDE;
         "minecraft-1.21.3" = _FC5SCLDE;
         "minecraft-1.21.4" = _FC5SCLDE;
+        "default" = _FC5SCLDE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -207,4 +208,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FC5SCLDE";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "NcbL8F4R" = _NcbL8F4R;
         "MDkiEtg1" = _MDkiEtg1;
         "fabric-1.21.1" = _MDkiEtg1;
+        "default" = _MDkiEtg1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MDkiEtg1";}
+in callPackage fn {version="default";}

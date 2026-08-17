@@ -333,6 +333,7 @@ let
         "ePXmb5dv" = _ePXmb5dv;
         "w5hLlueH" = _w5hLlueH;
         "bta-babric-b1.7.3" = _w5hLlueH;
+        "default" = _w5hLlueH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -353,4 +354,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w5hLlueH";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "trgBdq62" = _trgBdq62;
         "UbzxmIm6" = _UbzxmIm6;
         "forge-1.20.1" = _UbzxmIm6;
+        "default" = _UbzxmIm6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UbzxmIm6";}
+in callPackage fn {version="default";}

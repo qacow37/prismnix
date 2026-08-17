@@ -35,6 +35,7 @@ let
         "fabric-1.17" = _yT60FIJ5;
         "fabric-1.17.1" = _yT60FIJ5;
         "fabric-1.20.4" = _UpTAQYnp;
+        "default" = _UpTAQYnp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UpTAQYnp";}
+in callPackage fn {version="default";}

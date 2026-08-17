@@ -92,6 +92,7 @@ let
         "optifine-1.20.1" = _R4PCQPU4;
         "optifine-1.16" = _R4PCQPU4;
         "optifine-1.21.1" = _R4PCQPU4;
+        "default" = _R4PCQPU4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R4PCQPU4";}
+in callPackage fn {version="default";}

@@ -37,6 +37,7 @@ let
         "minecraft-26.1.1" = _DNvWdtGP;
         "minecraft-26.1.2" = _DNvWdtGP;
         "minecraft-26.2" = _DNvWdtGP;
+        "default" = _DNvWdtGP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DNvWdtGP";}
+in callPackage fn {version="default";}

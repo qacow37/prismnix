@@ -569,6 +569,7 @@ let
         "folia-1.21.10" = _tgIjpa3D;
         "folia-1.21.11" = _tgIjpa3D;
         "folia-26.1" = _tgIjpa3D;
+        "default" = _tgIjpa3D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -589,4 +590,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tgIjpa3D";}
+in callPackage fn {version="default";}

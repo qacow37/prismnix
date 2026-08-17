@@ -27,6 +27,7 @@ let
         "rcEGtrCc" = _rcEGtrCc;
         "aGjtDfz3" = _aGjtDfz3;
         "forge-1.12.2" = _aGjtDfz3;
+        "default" = _aGjtDfz3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aGjtDfz3";}
+in callPackage fn {version="default";}

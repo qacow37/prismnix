@@ -282,6 +282,7 @@ let
         "fabric-1.14.2" = _FplFCap1;
         "fabric-1.16" = _vDwsESwl;
         "fabric-1.16.1" = _vDwsESwl;
+        "default" = _cXLmC4DV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -302,4 +303,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cXLmC4DV";}
+in callPackage fn {version="default";}

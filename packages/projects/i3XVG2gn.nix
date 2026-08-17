@@ -178,6 +178,7 @@ let
         "tjHzDTL4" = _tjHzDTL4;
         "fabric-1.21.1" = _qW3KB1li;
         "neoforge-1.21.1" = _tjHzDTL4;
+        "default" = _tjHzDTL4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -198,4 +199,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tjHzDTL4";}
+in callPackage fn {version="default";}

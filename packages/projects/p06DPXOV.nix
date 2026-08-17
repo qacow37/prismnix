@@ -75,6 +75,7 @@ let
         "xaTHD8IP" = _xaTHD8IP;
         "Eq7rlKJL" = _Eq7rlKJL;
         "forge-1.20.1" = _Eq7rlKJL;
+        "default" = _Eq7rlKJL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Eq7rlKJL";}
+in callPackage fn {version="default";}

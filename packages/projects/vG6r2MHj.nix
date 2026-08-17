@@ -28,6 +28,7 @@ let
         "AnACNPIS" = _AnACNPIS;
         "forge-1.20.1" = _esvCWBy2;
         "neoforge-1.21.1" = _AnACNPIS;
+        "default" = _AnACNPIS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AnACNPIS";}
+in callPackage fn {version="default";}

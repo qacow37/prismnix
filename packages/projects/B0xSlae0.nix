@@ -205,6 +205,7 @@ let
         "forge-1.20.1" = _MPtQu3dj;
         "forge-1.18.2" = _llTQBH1z;
         "forge-1.16.5" = _DItEePTw;
+        "default" = _MPtQu3dj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -225,4 +226,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MPtQu3dj";}
+in callPackage fn {version="default";}

@@ -96,6 +96,7 @@ let
         "neoforge-1.21.5" = _DttMObZb;
         "quilt-1.21.4" = _WUImjuk0;
         "quilt-1.21.5" = _DttMObZb;
+        "default" = _DttMObZb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -116,4 +117,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DttMObZb";}
+in callPackage fn {version="default";}

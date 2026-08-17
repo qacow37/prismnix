@@ -32,6 +32,7 @@ let
         "minecraft-1.21.2" = _iWriW2RS;
         "minecraft-1.21.3" = _iWriW2RS;
         "minecraft-1.21.4" = _iWriW2RS;
+        "default" = _iWriW2RS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iWriW2RS";}
+in callPackage fn {version="default";}

@@ -810,6 +810,7 @@ let
         "paper-26.2" = _Ot6CiEaV;
         "purpur-26.2" = _Ot6CiEaV;
         "spigot-26.2" = _Ot6CiEaV;
+        "default" = _GCK1TrYp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -830,4 +831,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GCK1TrYp";}
+in callPackage fn {version="default";}

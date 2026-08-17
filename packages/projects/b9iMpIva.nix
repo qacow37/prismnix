@@ -33,6 +33,7 @@ let
         "dey82Rhq" = _dey82Rhq;
         "pi5NBUlv" = _pi5NBUlv;
         "forge-1.20.1" = _pi5NBUlv;
+        "default" = _pi5NBUlv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pi5NBUlv";}
+in callPackage fn {version="default";}

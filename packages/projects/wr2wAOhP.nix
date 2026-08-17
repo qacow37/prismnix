@@ -15,6 +15,7 @@ let
         "LNw5Jmm4" = _LNw5Jmm4;
         "2WcUtrOS" = _2WcUtrOS;
         "forge-1.7.10" = _2WcUtrOS;
+        "default" = _2WcUtrOS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2WcUtrOS";}
+in callPackage fn {version="default";}

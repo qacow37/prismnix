@@ -16,6 +16,7 @@ let
         "SSgjgT31" = _SSgjgT31;
         "fabric-1.20.4" = _SSgjgT31;
         "quilt-1.20.4" = _SSgjgT31;
+        "default" = _SSgjgT31;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SSgjgT31";}
+in callPackage fn {version="default";}

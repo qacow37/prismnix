@@ -27,6 +27,7 @@ let
         "W6xaAora" = _W6xaAora;
         "MYLJjrtl" = _MYLJjrtl;
         "fabric-1.20.1" = _MYLJjrtl;
+        "default" = _MYLJjrtl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MYLJjrtl";}
+in callPackage fn {version="default";}

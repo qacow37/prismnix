@@ -15,6 +15,7 @@ let
         "B0P2uMEr" = _B0P2uMEr;
         "QLvmb0hn" = _QLvmb0hn;
         "fabric-1.21.11" = _QLvmb0hn;
+        "default" = _QLvmb0hn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QLvmb0hn";}
+in callPackage fn {version="default";}

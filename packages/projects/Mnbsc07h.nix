@@ -22,6 +22,7 @@ let
         "forge-1.20.1" = _haugsp18;
         "quilt-1.20" = _haugsp18;
         "quilt-1.20.1" = _haugsp18;
+        "default" = _haugsp18;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="haugsp18";}
+in callPackage fn {version="default";}

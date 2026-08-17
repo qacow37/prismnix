@@ -27,6 +27,7 @@ let
         "EAmSbeT8" = _EAmSbeT8;
         "KiCPPdlH" = _KiCPPdlH;
         "forge-1.20.1" = _KiCPPdlH;
+        "default" = _KiCPPdlH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KiCPPdlH";}
+in callPackage fn {version="default";}

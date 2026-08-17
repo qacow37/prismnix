@@ -70,6 +70,7 @@ let
         "YHLiRdv2" = _YHLiRdv2;
         "forge-1.20.1" = _YHLiRdv2;
         "forge-1.20" = _YHLiRdv2;
+        "default" = _YHLiRdv2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YHLiRdv2";}
+in callPackage fn {version="default";}

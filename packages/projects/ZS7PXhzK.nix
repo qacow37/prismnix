@@ -9,6 +9,7 @@ let
     in {
         "yoamUYsA" = _yoamUYsA;
         "forge-1.20.1" = _yoamUYsA;
+        "default" = _yoamUYsA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yoamUYsA";}
+in callPackage fn {version="default";}

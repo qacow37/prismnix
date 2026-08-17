@@ -16,6 +16,7 @@ let
         "Y15pD2ON" = _Y15pD2ON;
         "fabric-1.20.1" = _yE835dmu;
         "fabric-1.21.1" = _Y15pD2ON;
+        "default" = _Y15pD2ON;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Y15pD2ON";}
+in callPackage fn {version="default";}

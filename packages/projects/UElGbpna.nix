@@ -172,6 +172,7 @@ let
         "OCfZSVmc" = _OCfZSVmc;
         "datapack-1.18.2" = _Ni4U9f4Z;
         "forge-1.18.2" = _OCfZSVmc;
+        "default" = _OCfZSVmc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OCfZSVmc";}
+in callPackage fn {version="default";}

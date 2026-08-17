@@ -127,6 +127,7 @@ let
         "forge-1.20.1" = _wpbXn4di;
         "forge-1.20.2" = _2ZQh2Z6l;
         "fabric-1.20.1" = _pMHwjDDc;
+        "default" = _wpbXn4di;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -147,4 +148,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wpbXn4di";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "GTvYVYID" = _GTvYVYID;
         "IJAgeDnJ" = _IJAgeDnJ;
         "forge-1.7.10" = _IJAgeDnJ;
+        "default" = _IJAgeDnJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IJAgeDnJ";}
+in callPackage fn {version="default";}

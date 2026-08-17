@@ -58,6 +58,7 @@ let
         "ACC1MVA2" = _ACC1MVA2;
         "forge-1.20.1" = _YkCzPaya;
         "neoforge-1.21.1" = _ACC1MVA2;
+        "default" = _ACC1MVA2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ACC1MVA2";}
+in callPackage fn {version="default";}

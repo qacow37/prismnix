@@ -34,6 +34,7 @@ let
         "iNnOMRaN" = _iNnOMRaN;
         "minecraft-1.21.1" = _iNnOMRaN;
         "minecraft-1.21" = _g65LUXGO;
+        "default" = _iNnOMRaN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iNnOMRaN";}
+in callPackage fn {version="default";}

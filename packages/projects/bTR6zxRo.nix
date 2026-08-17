@@ -16,6 +16,7 @@ let
         "vdkt4pak" = _vdkt4pak;
         "forge-1.19.2" = _TRpYRYwR;
         "forge-1.20.1" = _vdkt4pak;
+        "default" = _vdkt4pak;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vdkt4pak";}
+in callPackage fn {version="default";}

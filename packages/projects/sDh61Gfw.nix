@@ -253,6 +253,7 @@ let
         "geyser-1.21.9" = _xmlhaVVN;
         "geyser-1.21.10" = _xmlhaVVN;
         "geyser-1.21.11" = _JIv27Fg5;
+        "default" = _JIv27Fg5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -273,4 +274,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JIv27Fg5";}
+in callPackage fn {version="default";}

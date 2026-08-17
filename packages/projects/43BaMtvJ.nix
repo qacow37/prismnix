@@ -16,6 +16,7 @@ let
         "UykVldns" = _UykVldns;
         "minecraft-1.21.10" = _UykVldns;
         "minecraft-1.21.11" = _UykVldns;
+        "default" = _UykVldns;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UykVldns";}
+in callPackage fn {version="default";}

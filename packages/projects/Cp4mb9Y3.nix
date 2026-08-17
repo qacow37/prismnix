@@ -21,6 +21,7 @@ let
         "LCRbCpEs" = _LCRbCpEs;
         "fGZHNGMR" = _fGZHNGMR;
         "neoforge-1.21.1" = _fGZHNGMR;
+        "default" = _fGZHNGMR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fGZHNGMR";}
+in callPackage fn {version="default";}

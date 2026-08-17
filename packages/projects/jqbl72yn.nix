@@ -90,6 +90,7 @@ let
         "forge-1.19.2" = _iASbybtY;
         "neoforge-1.20.1" = _iASbybtY;
         "neoforge-1.19.2" = _iASbybtY;
+        "default" = _iASbybtY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -110,4 +111,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iASbybtY";}
+in callPackage fn {version="default";}

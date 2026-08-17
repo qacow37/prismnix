@@ -15,6 +15,7 @@ let
         "fabric-1.20.4" = _XPiw1bps;
         "fabric-1.20.5" = _XPiw1bps;
         "fabric-1.20.6" = _XPiw1bps;
+        "default" = _XPiw1bps;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XPiw1bps";}
+in callPackage fn {version="default";}

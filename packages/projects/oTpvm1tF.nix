@@ -10,6 +10,7 @@ let
         "ZPS2O1WH" = _ZPS2O1WH;
         "forge-1.20" = _ZPS2O1WH;
         "forge-1.20.1" = _ZPS2O1WH;
+        "default" = _ZPS2O1WH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZPS2O1WH";}
+in callPackage fn {version="default";}

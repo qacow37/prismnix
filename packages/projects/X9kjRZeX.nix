@@ -52,6 +52,7 @@ let
         "fabric-1.20.3" = _TtSEksvr;
         "fabric-1.20.4" = _TtSEksvr;
         "neoforge-1.21.1" = _z8PFRVBs;
+        "default" = _z8PFRVBs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="z8PFRVBs";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "minecraft-1.21.9" = _6AZgLgHz;
         "minecraft-1.21.10" = _6AZgLgHz;
         "minecraft-1.21.11" = _6AZgLgHz;
+        "default" = _6AZgLgHz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6AZgLgHz";}
+in callPackage fn {version="default";}

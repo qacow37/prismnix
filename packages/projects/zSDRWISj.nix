@@ -106,6 +106,7 @@ let
         "minecraft-1.21.9" = _Xfalai1O;
         "minecraft-1.21.10" = _Xfalai1O;
         "minecraft-1.21.11" = _Xfalai1O;
+        "default" = _Xfalai1O;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xfalai1O";}
+in callPackage fn {version="default";}

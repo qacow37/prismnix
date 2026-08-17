@@ -78,6 +78,7 @@ let
         "quilt-1.21.5" = _ngj45aru;
         "neoforge-1.21" = _KJ74fB6m;
         "neoforge-1.21.5" = _ngj45aru;
+        "default" = _ngj45aru;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ngj45aru";}
+in callPackage fn {version="default";}

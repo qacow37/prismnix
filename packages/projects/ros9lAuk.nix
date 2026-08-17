@@ -22,6 +22,7 @@ let
         "tk9tDFz1" = _tk9tDFz1;
         "babric-b1.7.3" = _tk9tDFz1;
         "fabric-b1.7.3" = _tk9tDFz1;
+        "default" = _tk9tDFz1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tk9tDFz1";}
+in callPackage fn {version="default";}

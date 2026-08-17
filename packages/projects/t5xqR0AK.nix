@@ -333,6 +333,7 @@ let
         "neoforge-1.21.11" = _Umm4aoFM;
         "neoforge-26.1" = _Umm4aoFM;
         "neoforge-26.2" = _Umm4aoFM;
+        "default" = _Umm4aoFM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -353,4 +354,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Umm4aoFM";}
+in callPackage fn {version="default";}

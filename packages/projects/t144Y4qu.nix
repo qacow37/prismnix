@@ -12,6 +12,7 @@ let
         "forge-1.20.1" = _EcnojMMj;
         "neoforge-1.20" = _EcnojMMj;
         "neoforge-1.20.1" = _EcnojMMj;
+        "default" = _EcnojMMj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EcnojMMj";}
+in callPackage fn {version="default";}

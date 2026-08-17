@@ -34,6 +34,7 @@ let
         "fabric-1.21.2" = _aGnyDLAN;
         "fabric-1.21.3" = _aGnyDLAN;
         "fabric-1.21.4" = _aGnyDLAN;
+        "default" = _HL6azLUA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HL6azLUA";}
+in callPackage fn {version="default";}

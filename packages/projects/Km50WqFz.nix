@@ -14,6 +14,7 @@ let
         "paper-1.21.3" = _N3CAMmsQ;
         "paper-1.21.4" = _N3CAMmsQ;
         "paper-1.21.5" = _N3CAMmsQ;
+        "default" = _N3CAMmsQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N3CAMmsQ";}
+in callPackage fn {version="default";}

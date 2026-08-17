@@ -76,6 +76,7 @@ let
         "LxlqLOD2" = _LxlqLOD2;
         "forge-1.20.1" = _PL1vYjiu;
         "neoforge-1.21.1" = _LxlqLOD2;
+        "default" = _LxlqLOD2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LxlqLOD2";}
+in callPackage fn {version="default";}

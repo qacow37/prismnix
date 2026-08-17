@@ -82,6 +82,7 @@ let
         "96UyTMGt" = _96UyTMGt;
         "forge-1.20.1" = _mShC32id;
         "neoforge-1.21.1" = _96UyTMGt;
+        "default" = _96UyTMGt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="96UyTMGt";}
+in callPackage fn {version="default";}

@@ -32,6 +32,7 @@ let
         "minecraft-1.21.3" = _HrT658ki;
         "minecraft-1.21.4" = _HrT658ki;
         "minecraft-1.21.5" = _HrT658ki;
+        "default" = _HrT658ki;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HrT658ki";}
+in callPackage fn {version="default";}

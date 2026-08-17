@@ -34,6 +34,7 @@ let
         "Ora4lxcp" = _Ora4lxcp;
         "forge-1.20.1" = _Ora4lxcp;
         "forge-1.12.2" = _5XlbSkck;
+        "default" = _Ora4lxcp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ora4lxcp";}
+in callPackage fn {version="default";}

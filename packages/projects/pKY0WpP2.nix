@@ -52,6 +52,7 @@ let
         "GS3KLdWM" = _GS3KLdWM;
         "forge-1.20.1" = _3fcfIjr6;
         "neoforge-1.21.1" = _GS3KLdWM;
+        "default" = _GS3KLdWM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GS3KLdWM";}
+in callPackage fn {version="default";}

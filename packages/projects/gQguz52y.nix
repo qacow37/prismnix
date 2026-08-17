@@ -15,6 +15,7 @@ let
         "eGjib9YL" = _eGjib9YL;
         "NWo9dALV" = _NWo9dALV;
         "minecraft-1.8.9" = _NWo9dALV;
+        "default" = _NWo9dALV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NWo9dALV";}
+in callPackage fn {version="default";}

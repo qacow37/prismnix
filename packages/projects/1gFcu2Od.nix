@@ -111,6 +111,7 @@ let
         "Jiz4aohN" = _Jiz4aohN;
         "Hcm8UhSf" = _Hcm8UhSf;
         "minecraft-1.8.9" = _Hcm8UhSf;
+        "default" = _Hcm8UhSf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Hcm8UhSf";}
+in callPackage fn {version="default";}

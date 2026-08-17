@@ -179,6 +179,7 @@ let
         "minecraft-1.21.6" = _choFkVLr;
         "minecraft-1.21.7" = _choFkVLr;
         "minecraft-1.21.8" = _choFkVLr;
+        "default" = _choFkVLr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -199,4 +200,4 @@ let
                 };
             };
         };
-in callPackage fn {version="choFkVLr";}
+in callPackage fn {version="default";}

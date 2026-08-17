@@ -94,6 +94,7 @@ let
         "eKTkvu4j" = _eKTkvu4j;
         "fabric-1.21.1" = _eKTkvu4j;
         "neoforge-1.21.1" = _oKqR72EE;
+        "default" = _eKTkvu4j;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eKTkvu4j";}
+in callPackage fn {version="default";}

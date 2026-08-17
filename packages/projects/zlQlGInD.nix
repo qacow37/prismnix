@@ -40,6 +40,7 @@ let
         "minecraft-1.20.2" = _VINS2CeT;
         "minecraft-1.20.3" = _VINS2CeT;
         "minecraft-1.20.4" = _VINS2CeT;
+        "default" = _VINS2CeT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VINS2CeT";}
+in callPackage fn {version="default";}

@@ -834,6 +834,7 @@ let
         "forge-1.20.1" = _N06YHVPe;
         "neoforge-1.20.1" = _N06YHVPe;
         "neoforge-1.21.1" = _WZ0Cj96V;
+        "default" = _WZ0Cj96V;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -854,4 +855,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WZ0Cj96V";}
+in callPackage fn {version="default";}

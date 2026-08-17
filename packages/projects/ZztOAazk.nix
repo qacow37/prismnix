@@ -198,6 +198,7 @@ let
         "minecraft-26.3-snapshot-1" = _quPyARNg;
         "minecraft-26.3-snapshot-2" = _quPyARNg;
         "minecraft-26.3-snapshot-7" = _quPyARNg;
+        "default" = _quPyARNg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -218,4 +219,4 @@ let
                 };
             };
         };
-in callPackage fn {version="quPyARNg";}
+in callPackage fn {version="default";}

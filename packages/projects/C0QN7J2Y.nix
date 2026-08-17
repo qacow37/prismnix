@@ -333,6 +333,7 @@ let
         "jrsmRak0" = _jrsmRak0;
         "1b5RGXHW" = _1b5RGXHW;
         "forge-1.20.1" = _1b5RGXHW;
+        "default" = _1b5RGXHW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -353,4 +354,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1b5RGXHW";}
+in callPackage fn {version="default";}

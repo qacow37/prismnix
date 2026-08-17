@@ -33,6 +33,7 @@ let
         "forge-1.20.4" = _teGKOsrM;
         "forge-1.20.5" = _teGKOsrM;
         "forge-1.20.6" = _teGKOsrM;
+        "default" = _teGKOsrM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="teGKOsrM";}
+in callPackage fn {version="default";}

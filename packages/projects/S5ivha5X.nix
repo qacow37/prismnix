@@ -85,6 +85,7 @@ let
         "fabric-1.19.1" = _MjxKpliA;
         "fabric-1.19.2" = _MjxKpliA;
         "fabric-1.19.3" = _MjxKpliA;
+        "default" = _Y2CrTWGc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Y2CrTWGc";}
+in callPackage fn {version="default";}

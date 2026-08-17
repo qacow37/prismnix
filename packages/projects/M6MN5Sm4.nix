@@ -75,6 +75,7 @@ let
         "minecraft-1.20.4" = _aNgaviG3;
         "minecraft-1.20.5" = _aNgaviG3;
         "minecraft-1.20.6" = _aNgaviG3;
+        "default" = _aNgaviG3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aNgaviG3";}
+in callPackage fn {version="default";}

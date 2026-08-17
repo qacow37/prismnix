@@ -21,6 +21,7 @@ let
         "cRebpMid" = _cRebpMid;
         "KILyUjra" = _KILyUjra;
         "forge-1.20.1" = _KILyUjra;
+        "default" = _KILyUjra;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KILyUjra";}
+in callPackage fn {version="default";}

@@ -442,6 +442,7 @@ let
         "quilt-24w44a" = _vFK9x8dG;
         "quilt-24w45a" = _vFK9x8dG;
         "quilt-24w46a" = _vFK9x8dG;
+        "default" = _vFK9x8dG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -462,4 +463,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vFK9x8dG";}
+in callPackage fn {version="default";}

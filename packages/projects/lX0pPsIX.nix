@@ -16,6 +16,7 @@ let
         "yREinuec" = _yREinuec;
         "forge-1.16.5" = _xPHHAnrk;
         "forge-1.12.2" = _yREinuec;
+        "default" = _yREinuec;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yREinuec";}
+in callPackage fn {version="default";}

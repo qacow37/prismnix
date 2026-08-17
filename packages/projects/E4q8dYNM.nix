@@ -46,6 +46,7 @@ let
         "V6lsoIpm" = _V6lsoIpm;
         "fabric-1.20.1" = _n5vXIGvv;
         "fabric-1.21.1" = _V6lsoIpm;
+        "default" = _V6lsoIpm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="V6lsoIpm";}
+in callPackage fn {version="default";}

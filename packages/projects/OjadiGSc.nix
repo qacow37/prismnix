@@ -52,6 +52,7 @@ let
         "BvmFOGEg" = _BvmFOGEg;
         "forge-1.19.2" = _3HcWBoMI;
         "neoforge-1.21.1" = _BvmFOGEg;
+        "default" = _BvmFOGEg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BvmFOGEg";}
+in callPackage fn {version="default";}

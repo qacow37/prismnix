@@ -83,6 +83,7 @@ let
         "minecraft-26.1" = _UAQUwbds;
         "minecraft-26.1.1" = _UAQUwbds;
         "minecraft-26.1.2" = _UAQUwbds;
+        "default" = _UAQUwbds;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -103,4 +104,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UAQUwbds";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "jCGHoMoI" = _jCGHoMoI;
         "neoforge-1.21" = _Y1WsGUvF;
         "neoforge-1.21.1" = _jCGHoMoI;
+        "default" = _jCGHoMoI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jCGHoMoI";}
+in callPackage fn {version="default";}

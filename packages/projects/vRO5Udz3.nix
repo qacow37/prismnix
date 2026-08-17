@@ -27,6 +27,7 @@ let
         "KbvFTF3d" = _KbvFTF3d;
         "2vK2kKrN" = _2vK2kKrN;
         "forge-1.20.1" = _2vK2kKrN;
+        "default" = _2vK2kKrN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2vK2kKrN";}
+in callPackage fn {version="default";}

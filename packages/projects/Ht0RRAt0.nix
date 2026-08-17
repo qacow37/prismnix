@@ -143,6 +143,7 @@ let
         "quilt-26.1" = _d0v2GvHz;
         "quilt-26.1.1" = _d0v2GvHz;
         "quilt-26.1.2" = _d0v2GvHz;
+        "default" = _Smb0pfqe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -163,4 +164,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Smb0pfqe";}
+in callPackage fn {version="default";}

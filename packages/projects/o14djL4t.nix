@@ -9,6 +9,7 @@ let
     in {
         "hULU5MTd" = _hULU5MTd;
         "forge-1.18.2" = _hULU5MTd;
+        "default" = _hULU5MTd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hULU5MTd";}
+in callPackage fn {version="default";}

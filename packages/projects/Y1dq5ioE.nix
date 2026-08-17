@@ -45,6 +45,7 @@ let
         "NSxDbPV2" = _NSxDbPV2;
         "LRsqtqYq" = _LRsqtqYq;
         "neoforge-1.21.1" = _LRsqtqYq;
+        "default" = _LRsqtqYq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LRsqtqYq";}
+in callPackage fn {version="default";}

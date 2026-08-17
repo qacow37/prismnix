@@ -160,6 +160,7 @@ let
         "iGSukRPM" = _iGSukRPM;
         "fabric-1.21.1" = _iGSukRPM;
         "neoforge-1.21.1" = _X31r1lI4;
+        "default" = _iGSukRPM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -180,4 +181,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iGSukRPM";}
+in callPackage fn {version="default";}

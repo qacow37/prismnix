@@ -627,6 +627,7 @@ let
         "velocity-26.1.1" = _CLlIGfI3;
         "velocity-26.1.2" = _CLlIGfI3;
         "velocity-26.2" = _CLlIGfI3;
+        "default" = _CLlIGfI3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -647,4 +648,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CLlIGfI3";}
+in callPackage fn {version="default";}

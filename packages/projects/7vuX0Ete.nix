@@ -177,6 +177,7 @@ let
         "TAu96mN6" = _TAu96mN6;
         "IZudskXn" = _IZudskXn;
         "forge-1.20.1" = _IZudskXn;
+        "default" = _IZudskXn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -197,4 +198,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IZudskXn";}
+in callPackage fn {version="default";}

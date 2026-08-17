@@ -285,6 +285,7 @@ let
         "quilt-26.1.1" = _C9HbenHK;
         "quilt-26.1.2" = _C9HbenHK;
         "quilt-26.2" = _C9HbenHK;
+        "default" = _iTeCXdop;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -305,4 +306,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iTeCXdop";}
+in callPackage fn {version="default";}

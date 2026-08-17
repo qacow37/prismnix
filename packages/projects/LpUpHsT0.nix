@@ -27,6 +27,7 @@ let
         "eZVtVxL9" = _eZVtVxL9;
         "eJNNgGdr" = _eJNNgGdr;
         "fabric-1.21.1" = _eJNNgGdr;
+        "default" = _eJNNgGdr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eJNNgGdr";}
+in callPackage fn {version="default";}

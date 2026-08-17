@@ -75,6 +75,7 @@ let
         "kaPHIXfB" = _kaPHIXfB;
         "LPe6CFao" = _LPe6CFao;
         "neoforge-1.21.1" = _LPe6CFao;
+        "default" = _LPe6CFao;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LPe6CFao";}
+in callPackage fn {version="default";}

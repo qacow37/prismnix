@@ -61,6 +61,7 @@ let
         "fabric-1.18.2" = _m76K034P;
         "fabric-1.19" = _dQtJatb9;
         "quilt-1.19" = _dQtJatb9;
+        "default" = _dQtJatb9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -81,4 +82,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dQtJatb9";}
+in callPackage fn {version="default";}

@@ -224,6 +224,7 @@ let
         "fabric-26.1.1" = _MVCemRPv;
         "fabric-26.1.2" = _xue8Hsu9;
         "fabric-26.2" = _piomIOQ7;
+        "default" = _piomIOQ7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -244,4 +245,4 @@ let
                 };
             };
         };
-in callPackage fn {version="piomIOQ7";}
+in callPackage fn {version="default";}

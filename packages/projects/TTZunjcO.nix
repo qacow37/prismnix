@@ -35,6 +35,7 @@ let
         "fabric-1.20.1" = _CP4GTKJa;
         "fabric-1.21.1" = _WItxBeDR;
         "fabric-1.21.2" = _WItxBeDR;
+        "default" = _WItxBeDR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WItxBeDR";}
+in callPackage fn {version="default";}

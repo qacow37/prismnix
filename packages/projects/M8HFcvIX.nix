@@ -18,6 +18,7 @@ let
         "forge-1.20.2" = _Vga4Nj02;
         "forge-1.20.3" = _Vga4Nj02;
         "forge-1.20.4" = _Vga4Nj02;
+        "default" = _YWns7KyE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YWns7KyE";}
+in callPackage fn {version="default";}

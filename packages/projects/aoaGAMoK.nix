@@ -38,6 +38,7 @@ let
         "fabric-1.21.11" = _st38DijD;
         "bukkit-1.21.10" = _FNkqWOAw;
         "paper-1.21.10" = _FNkqWOAw;
+        "default" = _st38DijD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="st38DijD";}
+in callPackage fn {version="default";}

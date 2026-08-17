@@ -21,6 +21,7 @@ let
         "canj2Asz" = _canj2Asz;
         "Ardf1jdc" = _Ardf1jdc;
         "bta-babric-b1.7.3" = _Ardf1jdc;
+        "default" = _Ardf1jdc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ardf1jdc";}
+in callPackage fn {version="default";}

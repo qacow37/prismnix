@@ -135,6 +135,7 @@ let
         "VdvIjLUR" = _VdvIjLUR;
         "ianojaWb" = _ianojaWb;
         "forge-1.20.1" = _ianojaWb;
+        "default" = _ianojaWb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ianojaWb";}
+in callPackage fn {version="default";}

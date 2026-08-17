@@ -267,6 +267,7 @@ let
         "quilt-26.1.1" = _UbaDFoDT;
         "quilt-26.1.2" = _UbaDFoDT;
         "quilt-26.2" = _UbaDFoDT;
+        "default" = _UbaDFoDT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -287,4 +288,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UbaDFoDT";}
+in callPackage fn {version="default";}

@@ -48,6 +48,7 @@ let
         "fabric-1.21.1" = _Cel9SXLx;
         "quilt-1.21" = _Cel9SXLx;
         "quilt-1.21.1" = _Cel9SXLx;
+        "default" = _Cel9SXLx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -68,4 +69,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Cel9SXLx";}
+in callPackage fn {version="default";}

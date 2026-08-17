@@ -16,6 +16,7 @@ let
         "XODcOMRw" = _XODcOMRw;
         "minecraft-1.21.1" = _XODcOMRw;
         "minecraft-1.21" = _XODcOMRw;
+        "default" = _XODcOMRw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XODcOMRw";}
+in callPackage fn {version="default";}

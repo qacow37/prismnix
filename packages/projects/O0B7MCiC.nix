@@ -24,6 +24,7 @@ let
         "fabric-1.19.2" = _wavEuKRg;
         "quilt-1.18.2" = _luOfQu8O;
         "quilt-1.19.2" = _wavEuKRg;
+        "default" = _wavEuKRg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wavEuKRg";}
+in callPackage fn {version="default";}

@@ -116,6 +116,7 @@ let
         "quilt-26.1.2" = _40esOWGI;
         "neoforge-1.20" = _4pNMwYyl;
         "neoforge-1.20.1" = _4pNMwYyl;
+        "default" = _40esOWGI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -136,4 +137,4 @@ let
                 };
             };
         };
-in callPackage fn {version="40esOWGI";}
+in callPackage fn {version="default";}

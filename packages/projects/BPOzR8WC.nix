@@ -75,6 +75,7 @@ let
         "Sc8OWa7i" = _Sc8OWa7i;
         "FJASTJA5" = _FJASTJA5;
         "forge-1.12.2" = _FJASTJA5;
+        "default" = _FJASTJA5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FJASTJA5";}
+in callPackage fn {version="default";}

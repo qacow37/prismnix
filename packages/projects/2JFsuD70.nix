@@ -399,6 +399,7 @@ let
         "neoforge-26.1" = _DnBiNBAi;
         "neoforge-26.1.1" = _DnBiNBAi;
         "neoforge-26.1.2" = _DnBiNBAi;
+        "default" = _kRliMAW0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -419,4 +420,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kRliMAW0";}
+in callPackage fn {version="default";}

@@ -41,6 +41,7 @@ let
         "fabric-1.21.6" = _VTCmyTu9;
         "fabric-1.21.7" = _VTCmyTu9;
         "fabric-1.21.8" = _VTCmyTu9;
+        "default" = _VTCmyTu9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VTCmyTu9";}
+in callPackage fn {version="default";}

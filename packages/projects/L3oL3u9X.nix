@@ -18,6 +18,7 @@ let
         "minecraft-1.20.2" = _wm6eNOPR;
         "minecraft-1.20.3" = _wm6eNOPR;
         "minecraft-1.20.4" = _wm6eNOPR;
+        "default" = _wm6eNOPR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wm6eNOPR";}
+in callPackage fn {version="default";}

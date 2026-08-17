@@ -122,6 +122,7 @@ let
         "quilt-26.1.1" = _HAUEzCad;
         "quilt-26.1.2" = _HAUEzCad;
         "quilt-26.2" = _HAUEzCad;
+        "default" = _HAUEzCad;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -142,4 +143,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HAUEzCad";}
+in callPackage fn {version="default";}

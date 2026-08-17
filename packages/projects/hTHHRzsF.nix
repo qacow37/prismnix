@@ -28,6 +28,7 @@ let
         "eRDvJGaP" = _eRDvJGaP;
         "fabric-1.20.4" = _Och8yyBZ;
         "fabric-1.20.1" = _eRDvJGaP;
+        "default" = _eRDvJGaP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eRDvJGaP";}
+in callPackage fn {version="default";}

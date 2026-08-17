@@ -194,6 +194,7 @@ let
         "optifine-26.1.1" = _rcr90eRP;
         "optifine-26.1.2" = _rcr90eRP;
         "optifine-26.2" = _rcr90eRP;
+        "default" = _rcr90eRP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -214,4 +215,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rcr90eRP";}
+in callPackage fn {version="default";}

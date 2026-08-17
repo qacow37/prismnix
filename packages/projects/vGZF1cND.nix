@@ -13,6 +13,7 @@ let
         "minecraft-1.21.2" = _Js80V2v3;
         "minecraft-1.21.3" = _Js80V2v3;
         "minecraft-1.21.4" = _Js80V2v3;
+        "default" = _Js80V2v3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -33,4 +34,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Js80V2v3";}
+in callPackage fn {version="default";}

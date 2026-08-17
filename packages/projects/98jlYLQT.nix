@@ -84,6 +84,7 @@ let
         "minecraft-1.21.9" = _IpMQUkrv;
         "minecraft-1.21.10" = _IpMQUkrv;
         "minecraft-1.21.11" = _IpMQUkrv;
+        "default" = _IpMQUkrv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IpMQUkrv";}
+in callPackage fn {version="default";}

@@ -64,6 +64,7 @@ let
         "gccrCJDF" = _gccrCJDF;
         "fabric-1.21.1" = _lY08dEoK;
         "fabric-1.20.1" = _gccrCJDF;
+        "default" = _gccrCJDF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gccrCJDF";}
+in callPackage fn {version="default";}

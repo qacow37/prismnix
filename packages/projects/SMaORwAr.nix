@@ -18,6 +18,7 @@ let
         "fabric-1.20" = _KtDDJDdb;
         "fabric-1.20.1-rc1" = _KtDDJDdb;
         "fabric-1.20.1" = _KtDDJDdb;
+        "default" = _KtDDJDdb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KtDDJDdb";}
+in callPackage fn {version="default";}

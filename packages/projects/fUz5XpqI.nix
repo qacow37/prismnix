@@ -45,6 +45,7 @@ let
         "NGMlOJse" = _NGMlOJse;
         "a1FzTav2" = _a1FzTav2;
         "forge-1.20.1" = _a1FzTav2;
+        "default" = _a1FzTav2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="a1FzTav2";}
+in callPackage fn {version="default";}

@@ -9,6 +9,7 @@ let
     in {
         "cEGS55Mu" = _cEGS55Mu;
         "neoforge-1.21.1" = _cEGS55Mu;
+        "default" = _cEGS55Mu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cEGS55Mu";}
+in callPackage fn {version="default";}

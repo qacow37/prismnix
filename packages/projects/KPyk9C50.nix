@@ -900,6 +900,7 @@ let
         "velocity-26.1.1" = _TfnnpXio;
         "velocity-26.1.2" = _TfnnpXio;
         "velocity-26.2" = _TfnnpXio;
+        "default" = _TfnnpXio;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -920,4 +921,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TfnnpXio";}
+in callPackage fn {version="default";}

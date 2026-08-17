@@ -62,6 +62,7 @@ let
         "forge-1.19.2" = _l5Z0hXYP;
         "neoforge-1.20.1" = _hnPcn14L;
         "neoforge-1.21.1" = _dSpuz2DS;
+        "default" = _dSpuz2DS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dSpuz2DS";}
+in callPackage fn {version="default";}

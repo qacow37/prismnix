@@ -35,6 +35,7 @@ let
         "forge-1.20" = _SAWScJqr;
         "neoforge-1.20" = _SAWScJqr;
         "neoforge-1.20.1" = _SAWScJqr;
+        "default" = _SAWScJqr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SAWScJqr";}
+in callPackage fn {version="default";}

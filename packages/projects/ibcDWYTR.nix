@@ -9,6 +9,7 @@ let
     in {
         "gBipj4Rt" = _gBipj4Rt;
         "fabric-1.19.2" = _gBipj4Rt;
+        "default" = _gBipj4Rt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gBipj4Rt";}
+in callPackage fn {version="default";}

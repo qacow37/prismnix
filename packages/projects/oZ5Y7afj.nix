@@ -129,6 +129,7 @@ let
         "lON4m0II" = _lON4m0II;
         "acSRfYRz" = _acSRfYRz;
         "bta-babric-b1.7.3" = _acSRfYRz;
+        "default" = _acSRfYRz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="acSRfYRz";}
+in callPackage fn {version="default";}

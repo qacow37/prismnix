@@ -210,6 +210,7 @@ let
         "forge-1.20.1" = _HNprLaYs;
         "neoforge-1.20.1" = _HNprLaYs;
         "neoforge-1.21.1" = _2tLoZSdy;
+        "default" = _2tLoZSdy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -230,4 +231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2tLoZSdy";}
+in callPackage fn {version="default";}

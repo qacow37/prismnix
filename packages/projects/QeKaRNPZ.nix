@@ -27,6 +27,7 @@ let
         "Pj7PO6Hy" = _Pj7PO6Hy;
         "HektAbor" = _HektAbor;
         "forge-1.20.1" = _HektAbor;
+        "default" = _HektAbor;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HektAbor";}
+in callPackage fn {version="default";}

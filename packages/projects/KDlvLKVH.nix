@@ -92,6 +92,7 @@ let
         "minecraft-1.16.4" = _V9AOBIOT;
         "minecraft-1.16.5" = _V9AOBIOT;
         "minecraft-1.20" = _ragJbtZ9;
+        "default" = _ragJbtZ9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ragJbtZ9";}
+in callPackage fn {version="default";}

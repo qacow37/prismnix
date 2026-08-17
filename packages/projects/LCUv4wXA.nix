@@ -10,6 +10,7 @@ let
         "cB822RyC" = _cB822RyC;
         "forge-1.20" = _cB822RyC;
         "forge-1.20.1" = _cB822RyC;
+        "default" = _cB822RyC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cB822RyC";}
+in callPackage fn {version="default";}

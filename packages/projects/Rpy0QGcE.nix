@@ -87,6 +87,7 @@ let
         "dFNuMssW" = _dFNuMssW;
         "um5cb2j2" = _um5cb2j2;
         "forge-1.7.10" = _um5cb2j2;
+        "default" = _um5cb2j2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="um5cb2j2";}
+in callPackage fn {version="default";}

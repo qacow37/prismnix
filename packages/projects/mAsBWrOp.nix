@@ -44,6 +44,7 @@ let
         "minecraft-1.20.6" = _TVic7KE1;
         "minecraft-1.21" = _TVic7KE1;
         "minecraft-1.21.1" = _TVic7KE1;
+        "default" = _TVic7KE1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TVic7KE1";}
+in callPackage fn {version="default";}

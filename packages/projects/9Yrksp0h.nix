@@ -15,6 +15,7 @@ let
         "MSgMAPzd" = _MSgMAPzd;
         "IoTDG3N0" = _IoTDG3N0;
         "fabric-1.20.1" = _IoTDG3N0;
+        "default" = _IoTDG3N0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IoTDG3N0";}
+in callPackage fn {version="default";}

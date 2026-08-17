@@ -29,6 +29,7 @@ let
         "minecraft-1.20.4" = _AeHCLgam;
         "minecraft-1.20.5" = _AeHCLgam;
         "minecraft-1.20.6" = _AeHCLgam;
+        "default" = _AeHCLgam;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AeHCLgam";}
+in callPackage fn {version="default";}

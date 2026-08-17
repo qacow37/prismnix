@@ -65,6 +65,7 @@ let
         "minecraft-1.20.1" = _Db6yFaXS;
         "minecraft-1.21" = _Db6yFaXS;
         "minecraft-1.21.1" = _Db6yFaXS;
+        "default" = _Db6yFaXS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -85,4 +86,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Db6yFaXS";}
+in callPackage fn {version="default";}

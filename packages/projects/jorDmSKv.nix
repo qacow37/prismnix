@@ -453,6 +453,7 @@ let
         "neoforge-26.1.1" = _TIbKyLET;
         "neoforge-26.1.2" = _TIbKyLET;
         "neoforge-26.2" = _Gvcc2Prl;
+        "default" = _Gvcc2Prl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -473,4 +474,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Gvcc2Prl";}
+in callPackage fn {version="default";}

@@ -454,6 +454,7 @@ let
         "minecraft-26.2-rc-1" = _Hzxpmyrs;
         "minecraft-26.2-rc-2" = _Hzxpmyrs;
         "minecraft-26.2" = _Hzxpmyrs;
+        "default" = _Hzxpmyrs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -474,4 +475,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Hzxpmyrs";}
+in callPackage fn {version="default";}

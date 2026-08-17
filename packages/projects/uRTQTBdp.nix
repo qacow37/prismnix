@@ -28,6 +28,7 @@ let
         "Iavuorkp" = _Iavuorkp;
         "forge-1.18.2" = _c5DRShaP;
         "forge-1.16.5" = _Iavuorkp;
+        "default" = _Iavuorkp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Iavuorkp";}
+in callPackage fn {version="default";}

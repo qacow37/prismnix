@@ -110,6 +110,7 @@ let
         "purpur-1.21.9" = _Mbo3MQ1d;
         "purpur-1.21.10" = _Mbo3MQ1d;
         "purpur-1.21.11" = _Mbo3MQ1d;
+        "default" = _Mbo3MQ1d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -130,4 +131,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Mbo3MQ1d";}
+in callPackage fn {version="default";}

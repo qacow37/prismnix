@@ -141,6 +141,7 @@ let
         "neoforge-1.19.3" = _RBmuDEPI;
         "neoforge-1.19.4" = _RBmuDEPI;
         "neoforge-1.20.1" = _RBmuDEPI;
+        "default" = _RBmuDEPI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RBmuDEPI";}
+in callPackage fn {version="default";}

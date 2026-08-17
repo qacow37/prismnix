@@ -183,6 +183,7 @@ let
         "fabric-1.16.3" = _EIsc738r;
         "fabric-1.16.4" = _EIsc738r;
         "fabric-1.16.5" = _EIsc738r;
+        "default" = _EIsc738r;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -203,4 +204,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EIsc738r";}
+in callPackage fn {version="default";}

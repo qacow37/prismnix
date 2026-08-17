@@ -28,6 +28,7 @@ let
         "VAAXEDbs" = _VAAXEDbs;
         "fabric-1.21.1" = _VAAXEDbs;
         "neoforge-1.21.1" = _GCMTe5w1;
+        "default" = _VAAXEDbs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VAAXEDbs";}
+in callPackage fn {version="default";}

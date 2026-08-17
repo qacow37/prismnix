@@ -1498,6 +1498,7 @@ let
         "quilt-1.21-pre4" = _IlPGRiAk;
         "quilt-1.21-rc1" = _IlPGRiAk;
         "quilt-1.21" = _IlPGRiAk;
+        "default" = _IlPGRiAk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1518,4 +1519,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IlPGRiAk";}
+in callPackage fn {version="default";}

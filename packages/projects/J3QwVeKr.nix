@@ -22,6 +22,7 @@ let
         "hfLGNdlm" = _hfLGNdlm;
         "forge-1.20.1" = _shUad4Mh;
         "neoforge-1.21.1" = _hfLGNdlm;
+        "default" = _hfLGNdlm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hfLGNdlm";}
+in callPackage fn {version="default";}

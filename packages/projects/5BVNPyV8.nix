@@ -16,6 +16,7 @@ let
         "CbRYIUoB" = _CbRYIUoB;
         "fabric-1.20" = _bs2c7dKb;
         "fabric-1.20.1" = _CbRYIUoB;
+        "default" = _CbRYIUoB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CbRYIUoB";}
+in callPackage fn {version="default";}

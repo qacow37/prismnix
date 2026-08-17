@@ -20,6 +20,7 @@ let
         "fabric-1.20.1" = _M9XgJspi;
         "quilt-1.20" = _M9XgJspi;
         "quilt-1.20.1" = _M9XgJspi;
+        "default" = _M9XgJspi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -40,4 +41,4 @@ let
                 };
             };
         };
-in callPackage fn {version="M9XgJspi";}
+in callPackage fn {version="default";}

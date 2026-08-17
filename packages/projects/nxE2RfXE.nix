@@ -40,6 +40,7 @@ let
         "Zpr8GuTr" = _Zpr8GuTr;
         "fabric-1.21.1" = _Rlt9c9kz;
         "neoforge-1.21.1" = _Zpr8GuTr;
+        "default" = _Zpr8GuTr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Zpr8GuTr";}
+in callPackage fn {version="default";}

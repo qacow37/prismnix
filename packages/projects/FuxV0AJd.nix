@@ -15,6 +15,7 @@ let
         "9kCYr21M" = _9kCYr21M;
         "WiHVtGIB" = _WiHVtGIB;
         "forge-1.20.1" = _WiHVtGIB;
+        "default" = _WiHVtGIB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WiHVtGIB";}
+in callPackage fn {version="default";}

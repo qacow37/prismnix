@@ -70,6 +70,7 @@ let
         "EeDSLLYA" = _EeDSLLYA;
         "forge-1.20.1" = _EeDSLLYA;
         "neoforge-1.21.1" = _uPaIda4z;
+        "default" = _EeDSLLYA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EeDSLLYA";}
+in callPackage fn {version="default";}

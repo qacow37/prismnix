@@ -46,6 +46,7 @@ let
         "vrGPNTpT" = _vrGPNTpT;
         "forge-1.20.1" = _hEuUVTPE;
         "neoforge-1.21.1" = _vrGPNTpT;
+        "default" = _vrGPNTpT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vrGPNTpT";}
+in callPackage fn {version="default";}

@@ -74,6 +74,7 @@ let
         "spigot-1.21.9" = _zldmGU4i;
         "spigot-1.21.10" = _zldmGU4i;
         "spigot-1.21.11" = _zldmGU4i;
+        "default" = _zldmGU4i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zldmGU4i";}
+in callPackage fn {version="default";}

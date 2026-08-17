@@ -88,6 +88,7 @@ let
         "lbeHFsG2" = _lbeHFsG2;
         "neoforge-1.21.1" = _lbeHFsG2;
         "forge-1.20.1" = _FU5zISn9;
+        "default" = _lbeHFsG2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lbeHFsG2";}
+in callPackage fn {version="default";}

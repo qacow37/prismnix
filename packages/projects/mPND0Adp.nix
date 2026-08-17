@@ -194,6 +194,7 @@ let
         "forge-1.19.2" = _H047oHX2;
         "neoforge-1.20.1" = _ImuP9F4N;
         "quilt-1.20.1" = _vhHARmTB;
+        "default" = _vhHARmTB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -214,4 +215,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vhHARmTB";}
+in callPackage fn {version="default";}

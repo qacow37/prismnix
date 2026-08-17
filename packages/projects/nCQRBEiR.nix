@@ -3604,6 +3604,7 @@ let
         "neoforge-26.1.1" = _LBzwZnNE;
         "neoforge-26.1.2" = _LBzwZnNE;
         "neoforge-26.2" = _ISXATWN5;
+        "default" = _WAxfM46i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -3624,4 +3625,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WAxfM46i";}
+in callPackage fn {version="default";}

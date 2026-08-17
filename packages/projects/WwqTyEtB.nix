@@ -639,6 +639,7 @@ let
         "ornithe-1.14.2" = _DatozY96;
         "ornithe-1.14.3" = _DatozY96;
         "ornithe-1.14.4" = _DatozY96;
+        "default" = _l8Di977K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -659,4 +660,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l8Di977K";}
+in callPackage fn {version="default";}

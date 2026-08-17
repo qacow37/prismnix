@@ -374,6 +374,7 @@ let
         "optifine-26.1.1" = _zt4eHisU;
         "optifine-26.1.2" = _zt4eHisU;
         "optifine-26.2" = _zt4eHisU;
+        "default" = _zt4eHisU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -394,4 +395,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zt4eHisU";}
+in callPackage fn {version="default";}

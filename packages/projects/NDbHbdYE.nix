@@ -27,6 +27,7 @@ let
         "QUel8myw" = _QUel8myw;
         "ONr68msJ" = _ONr68msJ;
         "fabric-25w14craftmine" = _ONr68msJ;
+        "default" = _ONr68msJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ONr68msJ";}
+in callPackage fn {version="default";}

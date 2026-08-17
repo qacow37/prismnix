@@ -121,6 +121,7 @@ let
         "minecraft-24w44a" = _TLRchmTI;
         "minecraft-24w45a" = _TLRchmTI;
         "minecraft-24w46a" = _TLRchmTI;
+        "default" = _TLRchmTI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -141,4 +142,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TLRchmTI";}
+in callPackage fn {version="default";}

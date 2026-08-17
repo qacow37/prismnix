@@ -40,6 +40,7 @@ let
         "YDnLWFOU" = _YDnLWFOU;
         "fabric-1.20.1" = _ZGt43Plv;
         "fabric-1.21.1" = _YDnLWFOU;
+        "default" = _YDnLWFOU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YDnLWFOU";}
+in callPackage fn {version="default";}

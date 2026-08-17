@@ -295,6 +295,7 @@ let
         "purpur-26.1.1" = _cOSaDzt7;
         "purpur-26.1.2" = _cOSaDzt7;
         "purpur-26.2" = _cOSaDzt7;
+        "default" = _cOSaDzt7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -315,4 +316,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cOSaDzt7";}
+in callPackage fn {version="default";}

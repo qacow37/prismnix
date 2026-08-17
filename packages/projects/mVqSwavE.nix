@@ -124,6 +124,7 @@ let
         "SKBMGL8t" = _SKBMGL8t;
         "fabric-1.21.1" = _SKBMGL8t;
         "fabric-1.21" = _SKBMGL8t;
+        "default" = _SKBMGL8t;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SKBMGL8t";}
+in callPackage fn {version="default";}

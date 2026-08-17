@@ -16,6 +16,7 @@ let
         "Dt50lUvL" = _Dt50lUvL;
         "forge-1.20.1" = _y13CrO9L;
         "fabric-1.20.1" = _Dt50lUvL;
+        "default" = _Dt50lUvL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Dt50lUvL";}
+in callPackage fn {version="default";}

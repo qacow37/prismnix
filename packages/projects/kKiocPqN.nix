@@ -34,6 +34,7 @@ let
         "O5XP7boT" = _O5XP7boT;
         "forge-1.20.1" = _O5XP7boT;
         "neoforge-1.21.1" = _HLlN8Wiz;
+        "default" = _O5XP7boT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="O5XP7boT";}
+in callPackage fn {version="default";}

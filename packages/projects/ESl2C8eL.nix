@@ -19,6 +19,7 @@ let
         "fabric-1.20.1" = _YNiTVvfi;
         "neoforge-1.20.1" = _YNiTVvfi;
         "quilt-1.20.1" = _YNiTVvfi;
+        "default" = _YNiTVvfi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YNiTVvfi";}
+in callPackage fn {version="default";}

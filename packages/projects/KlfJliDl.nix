@@ -538,6 +538,7 @@ let
         "quilt-26.2-snapshot-2" = _GcK7mM81;
         "quilt-26.2" = _STYUKUCR;
         "quilt-26.3-snapshot-1" = _STYUKUCR;
+        "default" = _STYUKUCR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -558,4 +559,4 @@ let
                 };
             };
         };
-in callPackage fn {version="STYUKUCR";}
+in callPackage fn {version="default";}

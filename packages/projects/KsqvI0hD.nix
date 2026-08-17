@@ -57,6 +57,7 @@ let
         "RjtgTIzm" = _RjtgTIzm;
         "zdSwg9kS" = _zdSwg9kS;
         "neoforge-1.21.1" = _zdSwg9kS;
+        "default" = _zdSwg9kS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zdSwg9kS";}
+in callPackage fn {version="default";}

@@ -429,6 +429,7 @@ let
         "fabric-26.1" = _SGPPRgBt;
         "fabric-26.1.1" = _SGPPRgBt;
         "fabric-26.1.2" = _SGPPRgBt;
+        "default" = _SGPPRgBt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -449,4 +450,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SGPPRgBt";}
+in callPackage fn {version="default";}

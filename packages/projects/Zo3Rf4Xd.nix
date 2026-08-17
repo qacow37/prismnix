@@ -40,6 +40,7 @@ let
         "FMO15DKn" = _FMO15DKn;
         "forge-1.20.1" = _FMO15DKn;
         "neoforge-1.20.1" = _FMO15DKn;
+        "default" = _FMO15DKn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FMO15DKn";}
+in callPackage fn {version="default";}

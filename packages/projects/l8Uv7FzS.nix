@@ -689,6 +689,7 @@ let
         "purpur-26.1.1" = _DqixaESV;
         "purpur-26.1.2" = _DqixaESV;
         "purpur-26.2" = _DqixaESV;
+        "default" = _DqixaESV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -709,4 +710,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DqixaESV";}
+in callPackage fn {version="default";}

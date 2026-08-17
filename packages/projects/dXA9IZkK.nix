@@ -263,6 +263,7 @@ let
         "bukkit-1.21.6" = _LRdf4AW1;
         "bukkit-1.21.7" = _LRdf4AW1;
         "bukkit-1.21.8" = _LRdf4AW1;
+        "default" = _sQDrL88L;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -283,4 +284,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sQDrL88L";}
+in callPackage fn {version="default";}

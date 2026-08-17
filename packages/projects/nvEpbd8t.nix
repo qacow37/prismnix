@@ -56,6 +56,7 @@ let
         "minecraft-25w31a" = _dynf82xk;
         "minecraft-25w32a" = _dynf82xk;
         "minecraft-25w33a" = _dynf82xk;
+        "default" = _dynf82xk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -76,4 +77,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dynf82xk";}
+in callPackage fn {version="default";}

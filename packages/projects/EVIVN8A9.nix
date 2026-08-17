@@ -27,6 +27,7 @@ let
         "z5ZfDWaC" = _z5ZfDWaC;
         "TI25JxT2" = _TI25JxT2;
         "fabric-1.21.11" = _TI25JxT2;
+        "default" = _TI25JxT2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TI25JxT2";}
+in callPackage fn {version="default";}

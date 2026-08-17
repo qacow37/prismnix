@@ -196,6 +196,7 @@ let
         "GNiBeCL6" = _GNiBeCL6;
         "neoforge-1.21.1" = _GNiBeCL6;
         "fabric-1.21.1" = _vQTzJAfu;
+        "default" = _GNiBeCL6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -216,4 +217,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GNiBeCL6";}
+in callPackage fn {version="default";}

@@ -365,6 +365,7 @@ let
         "minecraft-26.1.1" = _lMUtPINv;
         "minecraft-26.1.2" = _lMUtPINv;
         "minecraft-26.2" = _lMUtPINv;
+        "default" = _lMUtPINv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -385,4 +386,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lMUtPINv";}
+in callPackage fn {version="default";}

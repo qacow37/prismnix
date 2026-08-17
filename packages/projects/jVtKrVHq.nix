@@ -346,6 +346,7 @@ let
         "mpewd2zy" = _mpewd2zy;
         "forge-1.20.1" = _mpewd2zy;
         "neoforge-1.20.1" = _mpewd2zy;
+        "default" = _mpewd2zy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -366,4 +367,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mpewd2zy";}
+in callPackage fn {version="default";}

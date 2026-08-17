@@ -16,6 +16,7 @@ let
         "tATsmw13" = _tATsmw13;
         "forge-1.20.1" = _CSzCdy9y;
         "fabric-1.20.1" = _tATsmw13;
+        "default" = _tATsmw13;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tATsmw13";}
+in callPackage fn {version="default";}

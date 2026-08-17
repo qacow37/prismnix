@@ -141,6 +141,7 @@ let
         "forge-1.18.2" = _cWWPsKi2;
         "forge-1.16.4" = _NuMaGaze;
         "forge-1.16.5" = _NuMaGaze;
+        "default" = _q63Zraup;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="q63Zraup";}
+in callPackage fn {version="default";}

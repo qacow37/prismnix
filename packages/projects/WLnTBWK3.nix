@@ -30,6 +30,7 @@ let
         "minecraft-rd-20090515" = _wb1hAs21;
         "minecraft-rd-160052" = _ZcC4xUxL;
         "minecraft-rd-161348" = _vB9bpJAJ;
+        "default" = _vB9bpJAJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vB9bpJAJ";}
+in callPackage fn {version="default";}

@@ -26,6 +26,7 @@ let
         "fabric-1.20.4" = _m4xSDUTl;
         "fabric-1.20.5" = _m4xSDUTl;
         "fabric-1.20.6" = _m4xSDUTl;
+        "default" = _m4xSDUTl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="m4xSDUTl";}
+in callPackage fn {version="default";}

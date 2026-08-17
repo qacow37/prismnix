@@ -45,6 +45,7 @@ let
         "yswtt1zh" = _yswtt1zh;
         "j4aPEjPP" = _j4aPEjPP;
         "forge-1.7.10" = _j4aPEjPP;
+        "default" = _j4aPEjPP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="j4aPEjPP";}
+in callPackage fn {version="default";}

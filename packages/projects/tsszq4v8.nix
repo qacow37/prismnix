@@ -39,6 +39,7 @@ let
         "nDCfMc3T" = _nDCfMc3T;
         "8LCZ2aHw" = _8LCZ2aHw;
         "forge-1.12.2" = _8LCZ2aHw;
+        "default" = _8LCZ2aHw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8LCZ2aHw";}
+in callPackage fn {version="default";}

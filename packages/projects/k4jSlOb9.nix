@@ -93,6 +93,7 @@ let
         "fabric-1.20.1" = _3Bv6k1vx;
         "fabric-1.20.4" = _1yMb1kLD;
         "fabric-1.21.1" = _gDIVEXrc;
+        "default" = _gDIVEXrc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gDIVEXrc";}
+in callPackage fn {version="default";}

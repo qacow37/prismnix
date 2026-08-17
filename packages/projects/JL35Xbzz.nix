@@ -173,6 +173,7 @@ let
         "fabric-26.1.1" = _P3WmKWRe;
         "fabric-26.1.2" = _P3WmKWRe;
         "fabric-26.2" = _YTF5TYVL;
+        "default" = _YTF5TYVL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -193,4 +194,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YTF5TYVL";}
+in callPackage fn {version="default";}

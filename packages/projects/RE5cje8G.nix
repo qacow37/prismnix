@@ -24,6 +24,7 @@ let
         "quilt-1.20.2" = _p4VBrie9;
         "quilt-1.20.3" = _p4VBrie9;
         "quilt-1.20.4" = _p4VBrie9;
+        "default" = _p4VBrie9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="p4VBrie9";}
+in callPackage fn {version="default";}

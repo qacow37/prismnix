@@ -126,6 +126,7 @@ let
         "datapack-1.20.4" = _N3aP2Hw0;
         "datapack-1.20.5" = _N3aP2Hw0;
         "datapack-1.20.6" = _N3aP2Hw0;
+        "default" = _sesgPOxZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -146,4 +147,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sesgPOxZ";}
+in callPackage fn {version="default";}

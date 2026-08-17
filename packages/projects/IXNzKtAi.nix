@@ -15,6 +15,7 @@ let
         "Ba4BRqOs" = _Ba4BRqOs;
         "QC4KtaER" = _QC4KtaER;
         "neoforge-1.21.8" = _QC4KtaER;
+        "default" = _QC4KtaER;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QC4KtaER";}
+in callPackage fn {version="default";}

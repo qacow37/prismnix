@@ -16,6 +16,7 @@ let
         "uLx61ZRs" = _uLx61ZRs;
         "fabric-1.20.1" = _uLx61ZRs;
         "forge-1.20.1" = _uLx61ZRs;
+        "default" = _uLx61ZRs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uLx61ZRs";}
+in callPackage fn {version="default";}

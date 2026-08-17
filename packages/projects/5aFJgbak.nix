@@ -134,6 +134,7 @@ let
         "optifine-1.10" = _aIEszPi2;
         "optifine-1.10.1" = _aIEszPi2;
         "optifine-1.10.2" = _aIEszPi2;
+        "default" = _TPXZnBte;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -154,4 +155,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TPXZnBte";}
+in callPackage fn {version="default";}

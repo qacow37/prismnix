@@ -105,6 +105,7 @@ let
         "lSAcY3Dz" = _lSAcY3Dz;
         "lBkto7ay" = _lBkto7ay;
         "bta-babric-b1.7.3" = _lBkto7ay;
+        "default" = _lBkto7ay;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lBkto7ay";}
+in callPackage fn {version="default";}

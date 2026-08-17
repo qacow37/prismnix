@@ -15,6 +15,7 @@ let
         "EL0VOyEx" = _EL0VOyEx;
         "UsWZSeS9" = _UsWZSeS9;
         "forge-1.20.1" = _UsWZSeS9;
+        "default" = _UsWZSeS9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UsWZSeS9";}
+in callPackage fn {version="default";}

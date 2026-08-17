@@ -9,6 +9,7 @@ let
     in {
         "PyXP2K3R" = _PyXP2K3R;
         "forge-1.20.1" = _PyXP2K3R;
+        "default" = _PyXP2K3R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PyXP2K3R";}
+in callPackage fn {version="default";}

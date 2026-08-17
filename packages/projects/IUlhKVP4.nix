@@ -15,6 +15,7 @@ let
         "9QFCTmWn" = _9QFCTmWn;
         "FcTcjseq" = _FcTcjseq;
         "fabric-1.20.1" = _FcTcjseq;
+        "default" = _FcTcjseq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FcTcjseq";}
+in callPackage fn {version="default";}

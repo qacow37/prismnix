@@ -16,6 +16,7 @@ let
         "QF4etxi0" = _QF4etxi0;
         "forge-1.20.1" = _KUeDBipg;
         "forge-1.16.5" = _QF4etxi0;
+        "default" = _QF4etxi0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QF4etxi0";}
+in callPackage fn {version="default";}

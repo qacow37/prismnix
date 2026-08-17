@@ -75,6 +75,7 @@ let
         "v3zB1DNM" = _v3zB1DNM;
         "SEMIYXL2" = _SEMIYXL2;
         "fabric-1.20.1" = _SEMIYXL2;
+        "default" = _SEMIYXL2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SEMIYXL2";}
+in callPackage fn {version="default";}

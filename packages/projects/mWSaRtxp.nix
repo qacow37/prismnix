@@ -28,6 +28,7 @@ let
         "TIGEI16S" = _TIGEI16S;
         "forge-1.20.1" = _TIGEI16S;
         "neoforge-1.20.1" = _TIGEI16S;
+        "default" = _TIGEI16S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TIGEI16S";}
+in callPackage fn {version="default";}

@@ -88,6 +88,7 @@ let
         "minecraft-1.12" = _dtotF78g;
         "minecraft-1.12.1" = _dtotF78g;
         "minecraft-1.12.2" = _dtotF78g;
+        "default" = _dtotF78g;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dtotF78g";}
+in callPackage fn {version="default";}

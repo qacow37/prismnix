@@ -31,6 +31,7 @@ let
         "iris-1.21.8" = _g4gbPUnA;
         "iris-1.21.9" = _g4gbPUnA;
         "iris-1.21.10" = _g4gbPUnA;
+        "default" = _g4gbPUnA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="g4gbPUnA";}
+in callPackage fn {version="default";}

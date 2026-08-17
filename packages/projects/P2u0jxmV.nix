@@ -51,6 +51,7 @@ let
         "UrfL3j9l" = _UrfL3j9l;
         "Ln2zl0br" = _Ln2zl0br;
         "forge-1.12.2" = _Ln2zl0br;
+        "default" = _Ln2zl0br;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ln2zl0br";}
+in callPackage fn {version="default";}

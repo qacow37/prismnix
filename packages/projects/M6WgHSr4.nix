@@ -21,6 +21,7 @@ let
         "fIFZbAY2" = _fIFZbAY2;
         "tKVeS05u" = _tKVeS05u;
         "forge-1.20.1" = _tKVeS05u;
+        "default" = _tKVeS05u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tKVeS05u";}
+in callPackage fn {version="default";}

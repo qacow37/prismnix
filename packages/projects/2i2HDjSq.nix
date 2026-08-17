@@ -53,6 +53,7 @@ let
         "minecraft-1.21.6" = _8puKFiil;
         "minecraft-1.21.7" = _OxjfHrDd;
         "minecraft-1.21.8" = _OxjfHrDd;
+        "default" = _OxjfHrDd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OxjfHrDd";}
+in callPackage fn {version="default";}

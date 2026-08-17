@@ -34,6 +34,7 @@ let
         "fabric-1.21.9" = _z57J2WMC;
         "fabric-1.21.10" = _z57J2WMC;
         "fabric-1.21.11" = _z57J2WMC;
+        "default" = _z57J2WMC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="z57J2WMC";}
+in callPackage fn {version="default";}

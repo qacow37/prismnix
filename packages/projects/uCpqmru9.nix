@@ -46,6 +46,7 @@ let
         "Vba3fggf" = _Vba3fggf;
         "fabric-1.19.2" = _pUO6pmAq;
         "forge-1.19.2" = _Vba3fggf;
+        "default" = _Vba3fggf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Vba3fggf";}
+in callPackage fn {version="default";}

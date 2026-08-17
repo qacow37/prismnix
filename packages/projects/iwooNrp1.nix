@@ -216,6 +216,7 @@ let
         "fabric-26.1" = _iTMQ7BEh;
         "fabric-26.1.1" = _iTMQ7BEh;
         "fabric-26.1.2" = _iTMQ7BEh;
+        "default" = _SMdoANli;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -236,4 +237,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SMdoANli";}
+in callPackage fn {version="default";}

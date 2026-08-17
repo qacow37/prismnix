@@ -15,6 +15,7 @@ let
         "vs0LeUr6" = _vs0LeUr6;
         "J5Tlt4so" = _J5Tlt4so;
         "fabric-1.21.1" = _J5Tlt4so;
+        "default" = _J5Tlt4so;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="J5Tlt4so";}
+in callPackage fn {version="default";}

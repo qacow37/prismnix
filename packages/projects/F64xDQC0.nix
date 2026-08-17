@@ -21,6 +21,7 @@ let
         "gACy3Q9F" = _gACy3Q9F;
         "uSrOARP2" = _uSrOARP2;
         "fabric-1.21.11" = _uSrOARP2;
+        "default" = _uSrOARP2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uSrOARP2";}
+in callPackage fn {version="default";}

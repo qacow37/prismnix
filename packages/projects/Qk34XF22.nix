@@ -63,6 +63,7 @@ let
         "fabric-26.1.1" = _SxCpqp4b;
         "fabric-26.1.2" = _SxCpqp4b;
         "fabric-26.2" = _UTc4MuSG;
+        "default" = _UTc4MuSG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UTc4MuSG";}
+in callPackage fn {version="default";}

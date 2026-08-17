@@ -80,6 +80,7 @@ let
         "paper-26.1.1" = _hFXagHpi;
         "paper-26.1.2" = _hFXagHpi;
         "paper-26.2" = _hFXagHpi;
+        "default" = _hFXagHpi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hFXagHpi";}
+in callPackage fn {version="default";}

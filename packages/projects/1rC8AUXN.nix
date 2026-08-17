@@ -141,6 +141,7 @@ let
         "LVzEOnRw" = _LVzEOnRw;
         "WRj3208D" = _WRj3208D;
         "neoforge-1.21.1" = _WRj3208D;
+        "default" = _WRj3208D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WRj3208D";}
+in callPackage fn {version="default";}

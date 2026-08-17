@@ -26,6 +26,7 @@ let
         "fabric-1.20.4" = _RgKWnsPM;
         "fabric-1.20.5" = _RgKWnsPM;
         "fabric-1.20.6" = _RgKWnsPM;
+        "default" = _RgKWnsPM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RgKWnsPM";}
+in callPackage fn {version="default";}

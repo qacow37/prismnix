@@ -64,6 +64,7 @@ let
         "minecraft-1.21.7" = _XLombTbr;
         "minecraft-1.21.8" = _XLombTbr;
         "minecraft-1.21.9" = _XLombTbr;
+        "default" = _XLombTbr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XLombTbr";}
+in callPackage fn {version="default";}

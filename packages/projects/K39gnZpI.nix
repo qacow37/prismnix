@@ -87,6 +87,7 @@ let
         "EgbYnpyz" = _EgbYnpyz;
         "AmKuTCiX" = _AmKuTCiX;
         "forge-1.7.10" = _AmKuTCiX;
+        "default" = _AmKuTCiX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AmKuTCiX";}
+in callPackage fn {version="default";}

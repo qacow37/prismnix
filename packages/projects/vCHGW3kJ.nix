@@ -593,6 +593,7 @@ let
         "neoforge-26.1.2" = _BATTvUer;
         "neoforge-26.2" = _zDNJaaNf;
         "forge-1.20.1" = _cukjZUM7;
+        "default" = _BATTvUer;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -613,4 +614,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BATTvUer";}
+in callPackage fn {version="default";}

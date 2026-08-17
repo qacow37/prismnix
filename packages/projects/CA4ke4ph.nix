@@ -76,6 +76,7 @@ let
         "nIirtepl" = _nIirtepl;
         "fabric-1.18.2" = _yMNBUqMi;
         "fabric-1.19.2" = _nIirtepl;
+        "default" = _nIirtepl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nIirtepl";}
+in callPackage fn {version="default";}

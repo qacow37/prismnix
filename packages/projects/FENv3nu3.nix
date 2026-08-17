@@ -63,6 +63,7 @@ let
         "Ky5sa5IF" = _Ky5sa5IF;
         "TgrVCrTk" = _TgrVCrTk;
         "forge-1.20.1" = _TgrVCrTk;
+        "default" = _TgrVCrTk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TgrVCrTk";}
+in callPackage fn {version="default";}

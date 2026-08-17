@@ -250,6 +250,7 @@ let
         "modloader-1.4.4" = _dJCPxc6p;
         "modloader-1.4.6" = _ts146cjs;
         "modloader-1.4.7" = _Fgx5jM6M;
+        "default" = _WafowJa1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -270,4 +271,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WafowJa1";}
+in callPackage fn {version="default";}

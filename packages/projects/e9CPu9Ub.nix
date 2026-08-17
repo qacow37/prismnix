@@ -87,6 +87,7 @@ let
         "UTQr44W6" = _UTQr44W6;
         "tqpdJN82" = _tqpdJN82;
         "neoforge-1.21.1" = _tqpdJN82;
+        "default" = _tqpdJN82;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tqpdJN82";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "TrhcDW8T" = _TrhcDW8T;
         "TOo6821K" = _TOo6821K;
         "neoforge-1.21.1" = _TOo6821K;
+        "default" = _TOo6821K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TOo6821K";}
+in callPackage fn {version="default";}

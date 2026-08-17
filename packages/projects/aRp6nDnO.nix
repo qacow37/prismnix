@@ -14,6 +14,7 @@ let
         "minecraft-1.19.4" = _JX4PLwlC;
         "minecraft-1.20" = _JX4PLwlC;
         "minecraft-1.20.1" = _JX4PLwlC;
+        "default" = _JX4PLwlC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JX4PLwlC";}
+in callPackage fn {version="default";}

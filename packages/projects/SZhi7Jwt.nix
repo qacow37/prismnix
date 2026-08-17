@@ -87,6 +87,7 @@ let
         "fabric-26.1" = _SxDywFC9;
         "fabric-26.1.1" = _SxDywFC9;
         "fabric-26.1.2" = _SxDywFC9;
+        "default" = _SxDywFC9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SxDywFC9";}
+in callPackage fn {version="default";}

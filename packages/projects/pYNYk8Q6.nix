@@ -89,6 +89,7 @@ let
         "forge-1.19" = _KSRsiUEb;
         "forge-1.19.1" = _KSRsiUEb;
         "forge-1.19.2" = _KSRsiUEb;
+        "default" = _KSRsiUEb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -109,4 +110,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KSRsiUEb";}
+in callPackage fn {version="default";}

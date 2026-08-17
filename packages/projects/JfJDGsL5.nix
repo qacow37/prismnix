@@ -209,6 +209,7 @@ let
         "quilt-26.1" = _HfeLud2G;
         "quilt-26.1.1" = _HfeLud2G;
         "quilt-26.1.2" = _HfeLud2G;
+        "default" = _HfeLud2G;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -229,4 +230,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HfeLud2G";}
+in callPackage fn {version="default";}

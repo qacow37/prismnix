@@ -353,6 +353,7 @@ let
         "sponge-1.19.3" = _Qer915O8;
         "sponge-1.19.4" = _Qer915O8;
         "sponge-1.20" = _Qer915O8;
+        "default" = _kw2jPVBf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -373,4 +374,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kw2jPVBf";}
+in callPackage fn {version="default";}

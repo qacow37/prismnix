@@ -190,6 +190,7 @@ let
         "purpur-1.21.8" = _ae74syNM;
         "purpur-1.21.9" = _ae74syNM;
         "purpur-1.21.10" = _ae74syNM;
+        "default" = _ae74syNM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -210,4 +211,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ae74syNM";}
+in callPackage fn {version="default";}

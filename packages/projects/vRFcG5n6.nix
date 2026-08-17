@@ -375,6 +375,7 @@ let
         "neoforge-1.21" = _dJSHREVC;
         "neoforge-1.21.1" = _dJSHREVC;
         "neoforge-1.21.5" = _HanU7vMk;
+        "default" = _dJSHREVC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -395,4 +396,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dJSHREVC";}
+in callPackage fn {version="default";}

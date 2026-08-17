@@ -147,6 +147,7 @@ let
         "minecraft-26.1.1" = _ielVMJns;
         "minecraft-26.1.2" = _ielVMJns;
         "minecraft-26.2" = _ielVMJns;
+        "default" = _ielVMJns;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ielVMJns";}
+in callPackage fn {version="default";}

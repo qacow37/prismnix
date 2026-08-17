@@ -18,6 +18,7 @@ let
         "minecraft-1.19" = _WqlAJuos;
         "minecraft-1.19.1" = _WqlAJuos;
         "minecraft-1.19.2" = _WqlAJuos;
+        "default" = _WqlAJuos;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WqlAJuos";}
+in callPackage fn {version="default";}

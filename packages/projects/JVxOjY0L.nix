@@ -9,6 +9,7 @@ let
     in {
         "TEB9Spk5" = _TEB9Spk5;
         "paper-1.21.1" = _TEB9Spk5;
+        "default" = _TEB9Spk5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TEB9Spk5";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "H7sicF18" = _H7sicF18;
         "aErpHUas" = _aErpHUas;
         "forge-1.20.1" = _aErpHUas;
+        "default" = _aErpHUas;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aErpHUas";}
+in callPackage fn {version="default";}

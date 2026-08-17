@@ -36,6 +36,7 @@ let
         "minecraft-1.8.6" = _BYI353PO;
         "minecraft-1.8.7" = _BYI353PO;
         "minecraft-1.8.8" = _BYI353PO;
+        "default" = _BYI353PO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BYI353PO";}
+in callPackage fn {version="default";}

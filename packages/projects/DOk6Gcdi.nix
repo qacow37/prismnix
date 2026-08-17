@@ -224,6 +224,7 @@ let
         "quilt-1.21.11" = _Frwre1Jb;
         "quilt-1.21.11-rc1" = _Frwre1Jb;
         "quilt-1.21.11-rc2" = _Frwre1Jb;
+        "default" = _ET58KKxg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -244,4 +245,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ET58KKxg";}
+in callPackage fn {version="default";}

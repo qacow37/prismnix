@@ -586,6 +586,7 @@ let
         "GrZ3WR83" = _GrZ3WR83;
         "fabric-1.21.1" = _DGEeLXuU;
         "neoforge-1.21.1" = _GrZ3WR83;
+        "default" = _GrZ3WR83;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -606,4 +607,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GrZ3WR83";}
+in callPackage fn {version="default";}

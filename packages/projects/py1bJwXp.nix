@@ -355,6 +355,7 @@ let
         "minecraft-26.2-snapshot-6" = _jdRdowTo;
         "minecraft-26.2-snapshot-7" = _jdRdowTo;
         "minecraft-26.2-snapshot-8" = _jdRdowTo;
+        "default" = _jdRdowTo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -375,4 +376,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jdRdowTo";}
+in callPackage fn {version="default";}

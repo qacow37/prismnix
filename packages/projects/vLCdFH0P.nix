@@ -184,6 +184,7 @@ let
         "hiSANp0I" = _hiSANp0I;
         "forge-1.20.1" = _c3jwqzeK;
         "neoforge-1.21.1" = _hiSANp0I;
+        "default" = _hiSANp0I;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -204,4 +205,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hiSANp0I";}
+in callPackage fn {version="default";}

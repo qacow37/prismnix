@@ -660,6 +660,7 @@ let
         "neoforge-26.1.2" = _3jUoAhAi;
         "neoforge-26.2" = _ngLjENZQ;
         "forge-1.20.1" = _P2TtscLV;
+        "default" = _P2TtscLV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -680,4 +681,4 @@ let
                 };
             };
         };
-in callPackage fn {version="P2TtscLV";}
+in callPackage fn {version="default";}

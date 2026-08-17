@@ -76,6 +76,7 @@ let
         "aZEd3nAa" = _aZEd3nAa;
         "neoforge-1.21.1" = _jUMDKWFQ;
         "forge-1.20.1" = _aZEd3nAa;
+        "default" = _aZEd3nAa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aZEd3nAa";}
+in callPackage fn {version="default";}

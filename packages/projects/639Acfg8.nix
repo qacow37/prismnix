@@ -45,6 +45,7 @@ let
         "DHD1nm80" = _DHD1nm80;
         "ORCoBub8" = _ORCoBub8;
         "forge-1.20.1" = _ORCoBub8;
+        "default" = _ORCoBub8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ORCoBub8";}
+in callPackage fn {version="default";}

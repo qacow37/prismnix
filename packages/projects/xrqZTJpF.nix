@@ -16,6 +16,7 @@ let
         "hZyt64Mc" = _hZyt64Mc;
         "fabric-1.18.2" = _fN55THl6;
         "fabric-1.19" = _hZyt64Mc;
+        "default" = _hZyt64Mc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hZyt64Mc";}
+in callPackage fn {version="default";}

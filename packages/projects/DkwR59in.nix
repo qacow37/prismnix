@@ -234,6 +234,7 @@ let
         "quilt-26.1.1" = _xlMDvIBt;
         "quilt-26.1.2" = _xlMDvIBt;
         "quilt-26.2" = _xlMDvIBt;
+        "default" = _xlMDvIBt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -254,4 +255,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xlMDvIBt";}
+in callPackage fn {version="default";}

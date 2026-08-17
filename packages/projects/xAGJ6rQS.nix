@@ -2735,6 +2735,7 @@ let
         "java-agent-26.2-rc-2" = _dHmCqlFI;
         "java-agent-26.2" = _dHmCqlFI;
         "java-agent-26.3-snapshot-1" = _dHmCqlFI;
+        "default" = _dHmCqlFI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2755,4 +2756,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dHmCqlFI";}
+in callPackage fn {version="default";}

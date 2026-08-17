@@ -134,6 +134,7 @@ let
         "minecraft-25w16a" = _R64gcVcY;
         "minecraft-25w17a" = _R64gcVcY;
         "minecraft-25w18a" = _R64gcVcY;
+        "default" = _R64gcVcY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -154,4 +155,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R64gcVcY";}
+in callPackage fn {version="default";}

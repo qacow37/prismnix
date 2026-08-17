@@ -45,6 +45,7 @@ let
         "AE2Pgsau" = _AE2Pgsau;
         "DdwTKPte" = _DdwTKPte;
         "forge-1.7.10" = _DdwTKPte;
+        "default" = _DdwTKPte;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DdwTKPte";}
+in callPackage fn {version="default";}

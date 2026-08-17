@@ -27,6 +27,7 @@ let
         "WFDJOBMM" = _WFDJOBMM;
         "FW67ZqiW" = _FW67ZqiW;
         "forge-1.20.1" = _FW67ZqiW;
+        "default" = _FW67ZqiW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FW67ZqiW";}
+in callPackage fn {version="default";}

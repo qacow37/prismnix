@@ -31,6 +31,7 @@ let
         "forge-1.21.11" = _OSS8tiBx;
         "neoforge-1.21.11" = _OSS8tiBx;
         "quilt-1.21.11" = _OSS8tiBx;
+        "default" = _OSS8tiBx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OSS8tiBx";}
+in callPackage fn {version="default";}

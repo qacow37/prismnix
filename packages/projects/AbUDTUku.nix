@@ -15,6 +15,7 @@ let
         "opnpLVZQ" = _opnpLVZQ;
         "a2Vhm5Su" = _a2Vhm5Su;
         "forge-1.20.1" = _a2Vhm5Su;
+        "default" = _a2Vhm5Su;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="a2Vhm5Su";}
+in callPackage fn {version="default";}

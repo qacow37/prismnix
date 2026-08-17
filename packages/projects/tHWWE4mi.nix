@@ -15,6 +15,7 @@ let
         "tyeVIga2" = _tyeVIga2;
         "j7Y97Gnx" = _j7Y97Gnx;
         "fabric-1.20.1" = _j7Y97Gnx;
+        "default" = _j7Y97Gnx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="j7Y97Gnx";}
+in callPackage fn {version="default";}

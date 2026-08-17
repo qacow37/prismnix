@@ -43,6 +43,7 @@ let
         "fabric-26.1" = _xDHeRSN9;
         "fabric-26.1.1" = _xDHeRSN9;
         "fabric-26.1.2" = _xDHeRSN9;
+        "default" = _UDtP9oIO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UDtP9oIO";}
+in callPackage fn {version="default";}

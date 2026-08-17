@@ -272,6 +272,7 @@ let
         "neoforge-26.1" = _JuOOCoCp;
         "neoforge-26.1.1" = _JuOOCoCp;
         "neoforge-26.1.2" = _JuOOCoCp;
+        "default" = _JuOOCoCp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -292,4 +293,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JuOOCoCp";}
+in callPackage fn {version="default";}

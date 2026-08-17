@@ -88,6 +88,7 @@ let
         "iris-1.20.1" = _QLiPA3d1;
         "iris-1.20.2" = _QLiPA3d1;
         "iris-1.20.3" = _QLiPA3d1;
+        "default" = _QLiPA3d1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QLiPA3d1";}
+in callPackage fn {version="default";}

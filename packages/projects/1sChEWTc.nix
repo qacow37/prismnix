@@ -237,6 +237,7 @@ let
         "aEZRTnO8" = _aEZRTnO8;
         "CNCx11pS" = _CNCx11pS;
         "fabric-1.21.11" = _CNCx11pS;
+        "default" = _CNCx11pS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -257,4 +258,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CNCx11pS";}
+in callPackage fn {version="default";}

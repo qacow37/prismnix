@@ -94,6 +94,7 @@ let
         "S4fOnBhz" = _S4fOnBhz;
         "neoforge-1.21.1" = _S4fOnBhz;
         "forge-1.20.1" = _UVhu6IyS;
+        "default" = _S4fOnBhz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S4fOnBhz";}
+in callPackage fn {version="default";}

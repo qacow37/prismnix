@@ -16,6 +16,7 @@ let
         "Qt6IBri6" = _Qt6IBri6;
         "neoforge-1.21.4" = _vF5er4JD;
         "neoforge-1.21.1" = _Qt6IBri6;
+        "default" = _Qt6IBri6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Qt6IBri6";}
+in callPackage fn {version="default";}

@@ -1642,6 +1642,7 @@ let
         "nilloader-1.7.10-pre3" = _Bkb60jXn;
         "nilloader-1.7.10-pre4" = _Bkb60jXn;
         "nilloader-1.7.10" = _Bkb60jXn;
+        "default" = _Bkb60jXn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1662,4 +1663,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Bkb60jXn";}
+in callPackage fn {version="default";}

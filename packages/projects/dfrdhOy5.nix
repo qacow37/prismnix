@@ -33,6 +33,7 @@ let
         "bppcVT2K" = _bppcVT2K;
         "ZepWp1g8" = _ZepWp1g8;
         "neoforge-1.21.1" = _ZepWp1g8;
+        "default" = _ZepWp1g8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZepWp1g8";}
+in callPackage fn {version="default";}

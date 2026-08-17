@@ -58,6 +58,7 @@ let
         "quilt-1.21.6" = _ekaPC961;
         "quilt-1.21.7" = _ekaPC961;
         "quilt-1.21.8" = _ekaPC961;
+        "default" = _ekaPC961;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ekaPC961";}
+in callPackage fn {version="default";}

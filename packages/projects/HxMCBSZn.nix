@@ -16,6 +16,7 @@ let
         "OXP1FFfm" = _OXP1FFfm;
         "neoforge-1.21.1" = _OXP1FFfm;
         "neoforge-1.21" = _OXP1FFfm;
+        "default" = _OXP1FFfm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OXP1FFfm";}
+in callPackage fn {version="default";}

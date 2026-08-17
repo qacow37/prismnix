@@ -32,6 +32,7 @@ let
         "forge-1.20.4" = _ETlpEp9Z;
         "forge-1.20.5" = _ETlpEp9Z;
         "forge-1.20.6" = _ETlpEp9Z;
+        "default" = _ETlpEp9Z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ETlpEp9Z";}
+in callPackage fn {version="default";}

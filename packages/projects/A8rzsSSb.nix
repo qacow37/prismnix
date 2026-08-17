@@ -1448,6 +1448,7 @@ let
         "fabric-1.21.1" = _HaSFZckf;
         "quilt-1.21" = _HaSFZckf;
         "quilt-1.21.1" = _HaSFZckf;
+        "default" = _dlgTCnCE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1468,4 +1469,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dlgTCnCE";}
+in callPackage fn {version="default";}

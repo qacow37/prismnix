@@ -58,6 +58,7 @@ let
         "HuAiK6KD" = _HuAiK6KD;
         "quilt-1.19.2" = _j9rf34i6;
         "quilt-1.20.1" = _HuAiK6KD;
+        "default" = _HuAiK6KD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HuAiK6KD";}
+in callPackage fn {version="default";}

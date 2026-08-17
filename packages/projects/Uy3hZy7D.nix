@@ -59,6 +59,7 @@ let
         "datapack-1.21.6" = _zpIZANk6;
         "datapack-1.21.7" = _zpIZANk6;
         "datapack-1.21.8" = _zpIZANk6;
+        "default" = _zpIZANk6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -79,4 +80,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zpIZANk6";}
+in callPackage fn {version="default";}

@@ -64,6 +64,7 @@ let
         "OuptJUap" = _OuptJUap;
         "forge-1.20.1" = _BJg65Fic;
         "neoforge-1.21.1" = _OuptJUap;
+        "default" = _OuptJUap;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OuptJUap";}
+in callPackage fn {version="default";}

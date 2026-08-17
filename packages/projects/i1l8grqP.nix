@@ -21,6 +21,7 @@ let
         "tY4DmXYg" = _tY4DmXYg;
         "fwIDyGLO" = _fwIDyGLO;
         "forge-1.20.1" = _fwIDyGLO;
+        "default" = _fwIDyGLO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fwIDyGLO";}
+in callPackage fn {version="default";}

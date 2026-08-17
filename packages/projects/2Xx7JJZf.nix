@@ -15,6 +15,7 @@ let
         "s460Fqry" = _s460Fqry;
         "WPMBIg8Q" = _WPMBIg8Q;
         "forge-1.20.1" = _WPMBIg8Q;
+        "default" = _WPMBIg8Q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WPMBIg8Q";}
+in callPackage fn {version="default";}

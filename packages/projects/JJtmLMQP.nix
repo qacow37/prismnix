@@ -28,6 +28,7 @@ let
         "minecraft-1.21.9" = _BuyKZ4bo;
         "minecraft-1.21.10" = _BuyKZ4bo;
         "minecraft-1.21.11" = _BuyKZ4bo;
+        "default" = _BuyKZ4bo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BuyKZ4bo";}
+in callPackage fn {version="default";}

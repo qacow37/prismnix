@@ -47,6 +47,7 @@ let
         "minecraft-1.21.2" = _NC5lITGp;
         "minecraft-1.21.3" = _NC5lITGp;
         "minecraft-1.21.4" = _NC5lITGp;
+        "default" = _NC5lITGp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -67,4 +68,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NC5lITGp";}
+in callPackage fn {version="default";}

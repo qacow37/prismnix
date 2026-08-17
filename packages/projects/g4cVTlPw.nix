@@ -63,6 +63,7 @@ let
         "OrPixeSh" = _OrPixeSh;
         "HoNfZeUr" = _HoNfZeUr;
         "neoforge-1.21.1" = _HoNfZeUr;
+        "default" = _HoNfZeUr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HoNfZeUr";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "gGZPYSUv" = _gGZPYSUv;
         "forge-1.20.1" = _3TXfbZqZ;
         "neoforge-1.21.1" = _gGZPYSUv;
+        "default" = _gGZPYSUv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gGZPYSUv";}
+in callPackage fn {version="default";}

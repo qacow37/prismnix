@@ -34,6 +34,7 @@ let
         "ISvcZbut" = _ISvcZbut;
         "minecraft-1.20.1" = _ISvcZbut;
         "minecraft-1.20" = _ISvcZbut;
+        "default" = _ISvcZbut;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ISvcZbut";}
+in callPackage fn {version="default";}

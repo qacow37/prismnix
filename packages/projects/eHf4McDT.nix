@@ -16,6 +16,7 @@ let
         "ctwvneM0" = _ctwvneM0;
         "neoforge-1.21.4" = _5YLv7BxZ;
         "neoforge-1.21.1" = _ctwvneM0;
+        "default" = _ctwvneM0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ctwvneM0";}
+in callPackage fn {version="default";}

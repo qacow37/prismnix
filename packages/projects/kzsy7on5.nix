@@ -72,6 +72,7 @@ let
         "fabric-1.8.6" = _ANlII4Po;
         "fabric-1.8.7" = _ANlII4Po;
         "fabric-1.8.8" = _ANlII4Po;
+        "default" = _CASpOXB7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -92,4 +93,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CASpOXB7";}
+in callPackage fn {version="default";}

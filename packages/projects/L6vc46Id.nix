@@ -52,6 +52,7 @@ let
         "ZcMxbJVR" = _ZcMxbJVR;
         "fabric-1.21.1" = _BlI583el;
         "fabric-1.21.10" = _ZcMxbJVR;
+        "default" = _ZcMxbJVR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZcMxbJVR";}
+in callPackage fn {version="default";}

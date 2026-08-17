@@ -16,6 +16,7 @@ let
         "E45niUZC" = _E45niUZC;
         "forge-1.20.1" = _tM5IMWml;
         "neoforge-1.21.1" = _E45niUZC;
+        "default" = _E45niUZC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E45niUZC";}
+in callPackage fn {version="default";}

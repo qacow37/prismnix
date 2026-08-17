@@ -314,6 +314,7 @@ let
         "neoforge-1.20.4" = _AdBTFMiZ;
         "neoforge-1.20.5" = _AdBTFMiZ;
         "neoforge-1.20.6" = _AdBTFMiZ;
+        "default" = _7JnMocV7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -334,4 +335,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7JnMocV7";}
+in callPackage fn {version="default";}

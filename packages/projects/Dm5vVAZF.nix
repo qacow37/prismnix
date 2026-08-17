@@ -75,6 +75,7 @@ let
         "fabric-26.1" = _ezMQ2bsd;
         "fabric-26.1.1" = _ezMQ2bsd;
         "fabric-26.1.2" = _ezMQ2bsd;
+        "default" = _ezMQ2bsd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ezMQ2bsd";}
+in callPackage fn {version="default";}

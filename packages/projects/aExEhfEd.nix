@@ -64,6 +64,7 @@ let
         "minecraft-26.1.1" = _uWhmXZID;
         "minecraft-26.1.2" = _uWhmXZID;
         "minecraft-26.2" = _uWhmXZID;
+        "default" = _uWhmXZID;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uWhmXZID";}
+in callPackage fn {version="default";}

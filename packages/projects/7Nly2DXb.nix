@@ -53,6 +53,7 @@ let
         "fabric-1.21.5" = _J5Hy3pby;
         "fabric-25w14craftmine" = _J5Hy3pby;
         "fabric-25w15a" = _J5Hy3pby;
+        "default" = _J5Hy3pby;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="J5Hy3pby";}
+in callPackage fn {version="default";}

@@ -439,6 +439,7 @@ let
         "neoforge-26.1.1" = _KyKEGOeC;
         "neoforge-26.1.2" = _KyKEGOeC;
         "neoforge-26.2" = _B20OAApt;
+        "default" = _BkvzJ5wm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -459,4 +460,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BkvzJ5wm";}
+in callPackage fn {version="default";}

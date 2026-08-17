@@ -36,6 +36,7 @@ let
         "fabric-1.20.1" = _XOGkalTz;
         "neoforge-1.21.1" = _88LSTvcf;
         "neoforge-1.21.4" = _HMGWtAWe;
+        "default" = _HMGWtAWe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HMGWtAWe";}
+in callPackage fn {version="default";}

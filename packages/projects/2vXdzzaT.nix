@@ -27,6 +27,7 @@ let
         "6GEz4Fye" = _6GEz4Fye;
         "XpLXR28M" = _XpLXR28M;
         "fabric-1.21.11" = _XpLXR28M;
+        "default" = _XpLXR28M;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XpLXR28M";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "eOlIkSmq" = _eOlIkSmq;
         "84T1z0M3" = _84T1z0M3;
         "forge-1.19.2" = _84T1z0M3;
+        "default" = _84T1z0M3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="84T1z0M3";}
+in callPackage fn {version="default";}

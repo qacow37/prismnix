@@ -27,6 +27,7 @@ let
         "6Z1KM2RJ" = _6Z1KM2RJ;
         "wSHFORKF" = _wSHFORKF;
         "iris-1.20.1" = _wSHFORKF;
+        "default" = _wSHFORKF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wSHFORKF";}
+in callPackage fn {version="default";}

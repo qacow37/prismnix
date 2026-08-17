@@ -76,6 +76,7 @@ let
         "pyXpTr9Y" = _pyXpTr9Y;
         "fabric-1.21.1" = _pyXpTr9Y;
         "neoforge-1.21.1" = _HKkTJK7Y;
+        "default" = _pyXpTr9Y;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pyXpTr9Y";}
+in callPackage fn {version="default";}

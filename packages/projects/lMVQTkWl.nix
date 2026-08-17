@@ -672,6 +672,7 @@ let
         "purpur-26.1.1" = _7WiTHibz;
         "purpur-26.1.2" = _7WiTHibz;
         "purpur-26.2" = _7WiTHibz;
+        "default" = _7WiTHibz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -692,4 +693,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7WiTHibz";}
+in callPackage fn {version="default";}

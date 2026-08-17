@@ -32,6 +32,7 @@ let
         "forge-1.20.5" = _nomS5ZVt;
         "forge-1.20.6" = _nomS5ZVt;
         "forge-1.20.1" = _UBoCGicj;
+        "default" = _UBoCGicj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UBoCGicj";}
+in callPackage fn {version="default";}

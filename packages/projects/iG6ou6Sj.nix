@@ -75,6 +75,7 @@ let
         "P2O3CBtl" = _P2O3CBtl;
         "jdFdCh07" = _jdFdCh07;
         "fabric-1.20.1" = _jdFdCh07;
+        "default" = _jdFdCh07;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jdFdCh07";}
+in callPackage fn {version="default";}

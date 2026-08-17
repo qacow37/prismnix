@@ -69,6 +69,7 @@ let
         "CDQ8fBO1" = _CDQ8fBO1;
         "Fai22mla" = _Fai22mla;
         "forge-1.12.2" = _Fai22mla;
+        "default" = _Fai22mla;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Fai22mla";}
+in callPackage fn {version="default";}

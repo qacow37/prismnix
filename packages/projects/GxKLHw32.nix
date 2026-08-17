@@ -98,6 +98,7 @@ let
         "minecraft-1.21.9" = _wtPAcHWF;
         "minecraft-1.21.10-rc1" = _wtPAcHWF;
         "minecraft-1.21.10" = _wtPAcHWF;
+        "default" = _wtPAcHWF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -118,4 +119,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wtPAcHWF";}
+in callPackage fn {version="default";}

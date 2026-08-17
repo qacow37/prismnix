@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _8PiCklEN;
         "forge-1.20.5" = _8PiCklEN;
         "forge-1.20.6" = _8PiCklEN;
+        "default" = _8PiCklEN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8PiCklEN";}
+in callPackage fn {version="default";}

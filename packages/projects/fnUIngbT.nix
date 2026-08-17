@@ -60,6 +60,7 @@ let
         "fabric-1.20" = _ZKbMTalp;
         "quilt-1.20.1" = _ZKbMTalp;
         "quilt-1.20" = _ZKbMTalp;
+        "default" = _ZKbMTalp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZKbMTalp";}
+in callPackage fn {version="default";}

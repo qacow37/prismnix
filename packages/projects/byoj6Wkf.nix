@@ -28,6 +28,7 @@ let
         "VfKv25iK" = _VfKv25iK;
         "forge-1.19.2" = _XMvh5IxI;
         "forge-1.20.1" = _VfKv25iK;
+        "default" = _VfKv25iK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VfKv25iK";}
+in callPackage fn {version="default";}

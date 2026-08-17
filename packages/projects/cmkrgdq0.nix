@@ -31,6 +31,7 @@ let
         "minecraft-1.21.2" = _IPs3fmBw;
         "minecraft-1.21.3" = _IPs3fmBw;
         "minecraft-1.21.4" = _IPs3fmBw;
+        "default" = _IPs3fmBw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IPs3fmBw";}
+in callPackage fn {version="default";}

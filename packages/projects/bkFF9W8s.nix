@@ -322,6 +322,7 @@ let
         "minecraft-26.3-snapshot-2" = _eTaRnAV0;
         "minecraft-26.3-snapshot-3" = _eTaRnAV0;
         "minecraft-26.3-snapshot-4" = _eTaRnAV0;
+        "default" = _eTaRnAV0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -342,4 +343,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eTaRnAV0";}
+in callPackage fn {version="default";}

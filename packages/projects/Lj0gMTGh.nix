@@ -56,6 +56,7 @@ let
         "neoforge-1.20.4" = _OJtf2gtt;
         "neoforge-1.20.5" = _OJtf2gtt;
         "neoforge-1.20.6" = _OJtf2gtt;
+        "default" = _OJtf2gtt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -76,4 +77,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OJtf2gtt";}
+in callPackage fn {version="default";}

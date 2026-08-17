@@ -22,6 +22,7 @@ let
         "77PtpC1X" = _77PtpC1X;
         "forge-1.20.1" = _77PtpC1X;
         "neoforge-1.20.1" = _77PtpC1X;
+        "default" = _77PtpC1X;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="77PtpC1X";}
+in callPackage fn {version="default";}

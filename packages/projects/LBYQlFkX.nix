@@ -33,6 +33,7 @@ let
         "ECPnqd70" = _ECPnqd70;
         "kOW3VwPl" = _kOW3VwPl;
         "neoforge-1.21.1" = _kOW3VwPl;
+        "default" = _kOW3VwPl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kOW3VwPl";}
+in callPackage fn {version="default";}

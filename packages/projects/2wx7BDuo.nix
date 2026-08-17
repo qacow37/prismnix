@@ -21,6 +21,7 @@ let
         "YU3rCMCM" = _YU3rCMCM;
         "4dXu4SOi" = _4dXu4SOi;
         "forge-1.20.1" = _4dXu4SOi;
+        "default" = _4dXu4SOi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4dXu4SOi";}
+in callPackage fn {version="default";}

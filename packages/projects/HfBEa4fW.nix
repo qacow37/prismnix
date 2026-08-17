@@ -82,6 +82,7 @@ let
         "OpQwZiTO" = _OpQwZiTO;
         "fabric-1.19.2" = _OpQwZiTO;
         "quilt-1.19.2" = _OpQwZiTO;
+        "default" = _OpQwZiTO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OpQwZiTO";}
+in callPackage fn {version="default";}

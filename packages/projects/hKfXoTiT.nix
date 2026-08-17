@@ -20,6 +20,7 @@ let
         "minecraft-1.20.4" = _qYGLAS12;
         "minecraft-1.20.5" = _qYGLAS12;
         "minecraft-1.20.6" = _qYGLAS12;
+        "default" = _qYGLAS12;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -40,4 +41,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qYGLAS12";}
+in callPackage fn {version="default";}

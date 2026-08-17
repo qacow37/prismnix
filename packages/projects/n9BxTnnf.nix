@@ -15,6 +15,7 @@ let
         "3g2Oa4fi" = _3g2Oa4fi;
         "oimfDzwE" = _oimfDzwE;
         "forge-1.20.1" = _oimfDzwE;
+        "default" = _oimfDzwE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oimfDzwE";}
+in callPackage fn {version="default";}

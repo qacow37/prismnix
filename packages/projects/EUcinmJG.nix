@@ -99,6 +99,7 @@ let
         "uGgXNeth" = _uGgXNeth;
         "uxn6RAGl" = _uxn6RAGl;
         "fabric-1.21.4" = _uxn6RAGl;
+        "default" = _uxn6RAGl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uxn6RAGl";}
+in callPackage fn {version="default";}

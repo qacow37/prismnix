@@ -167,6 +167,7 @@ let
         "neoforge-26.2" = _Zf30miXO;
         "neoforge-26.1.1" = _sTCrl90F;
         "neoforge-1.21.9" = _YWOPHDFC;
+        "default" = _lCtcmpQT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -187,4 +188,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lCtcmpQT";}
+in callPackage fn {version="default";}

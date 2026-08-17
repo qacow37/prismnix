@@ -32,6 +32,7 @@ let
         "fabric-1.21.2" = _DiFCcWuf;
         "fabric-1.21.3" = _DiFCcWuf;
         "fabric-1.21.4" = _DiFCcWuf;
+        "default" = _DiFCcWuf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DiFCcWuf";}
+in callPackage fn {version="default";}

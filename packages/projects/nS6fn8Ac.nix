@@ -63,6 +63,7 @@ let
         "AnVEAJA6" = _AnVEAJA6;
         "Lklqevms" = _Lklqevms;
         "forge-1.12.2" = _Lklqevms;
+        "default" = _Lklqevms;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Lklqevms";}
+in callPackage fn {version="default";}

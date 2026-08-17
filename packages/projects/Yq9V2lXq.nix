@@ -146,6 +146,7 @@ let
         "neoforge-1.21.6" = _LsBNqDIS;
         "neoforge-1.21.7" = _LsBNqDIS;
         "neoforge-1.21.8" = _LsBNqDIS;
+        "default" = _LsBNqDIS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -166,4 +167,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LsBNqDIS";}
+in callPackage fn {version="default";}

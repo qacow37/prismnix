@@ -24,6 +24,7 @@ let
         "minecraft-1.20.4" = _ht9pUKCW;
         "minecraft-24w14potato" = _mAxjtemh;
         "minecraft-24w14a" = _mAxjtemh;
+        "default" = _mAxjtemh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mAxjtemh";}
+in callPackage fn {version="default";}

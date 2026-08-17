@@ -303,6 +303,7 @@ let
         "LfSiCRFi" = _LfSiCRFi;
         "PvwMuZXj" = _PvwMuZXj;
         "forge-1.20.1" = _PvwMuZXj;
+        "default" = _PvwMuZXj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -323,4 +324,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PvwMuZXj";}
+in callPackage fn {version="default";}

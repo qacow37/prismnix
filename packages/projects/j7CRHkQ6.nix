@@ -46,6 +46,7 @@ let
         "SIPuXN84" = _SIPuXN84;
         "forge-1.20.1" = _6aRMLtaH;
         "neoforge-1.21.1" = _SIPuXN84;
+        "default" = _SIPuXN84;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SIPuXN84";}
+in callPackage fn {version="default";}

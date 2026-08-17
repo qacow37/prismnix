@@ -52,6 +52,7 @@ let
         "U66CuOJt" = _U66CuOJt;
         "fabric-1.19.2" = _dDLXan9i;
         "forge-1.19.2" = _U66CuOJt;
+        "default" = _U66CuOJt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="U66CuOJt";}
+in callPackage fn {version="default";}

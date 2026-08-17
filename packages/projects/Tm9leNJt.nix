@@ -38,6 +38,7 @@ let
         "fabric-20w13a" = _QR8l0A79;
         "fabric-20w13b" = _QR8l0A79;
         "fabric-20w14infinite" = _QR8l0A79;
+        "default" = _QR8l0A79;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QR8l0A79";}
+in callPackage fn {version="default";}

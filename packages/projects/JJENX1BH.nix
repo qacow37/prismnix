@@ -30,6 +30,7 @@ let
         "iris-1.21.1" = _VWUs1TDT;
         "optifine-1.20.1" = _VWUs1TDT;
         "optifine-1.21.1" = _VWUs1TDT;
+        "default" = _VWUs1TDT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VWUs1TDT";}
+in callPackage fn {version="default";}

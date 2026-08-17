@@ -69,6 +69,7 @@ let
         "8DfSChHL" = _8DfSChHL;
         "F4kiUDOO" = _F4kiUDOO;
         "neoforge-1.21.1" = _F4kiUDOO;
+        "default" = _F4kiUDOO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="F4kiUDOO";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "KSW7ji6u" = _KSW7ji6u;
         "fabric-1.20.1" = _KSW7ji6u;
         "quilt-1.20.1" = _KSW7ji6u;
+        "default" = _KSW7ji6u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KSW7ji6u";}
+in callPackage fn {version="default";}

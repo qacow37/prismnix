@@ -352,6 +352,7 @@ let
         "lnaUPWIi" = _lnaUPWIi;
         "forge-1.20.1" = _lnaUPWIi;
         "neoforge-1.21.1" = _YXbUMiHU;
+        "default" = _lnaUPWIi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -372,4 +373,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lnaUPWIi";}
+in callPackage fn {version="default";}

@@ -38,6 +38,7 @@ let
         "purpur-1.21.3" = _apCbPdPp;
         "purpur-1.21.4" = _apCbPdPp;
         "purpur-1.21.5" = _apCbPdPp;
+        "default" = _apCbPdPp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="apCbPdPp";}
+in callPackage fn {version="default";}

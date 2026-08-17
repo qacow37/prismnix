@@ -105,6 +105,7 @@ let
         "fabric-26.1.1" = _egi39xI4;
         "fabric-26.1.2" = _egi39xI4;
         "fabric-26.2" = _S1SOpfEp;
+        "default" = _S1SOpfEp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S1SOpfEp";}
+in callPackage fn {version="default";}

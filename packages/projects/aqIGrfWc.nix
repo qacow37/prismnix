@@ -15,6 +15,7 @@ let
         "URS04CA3" = _URS04CA3;
         "1QbEM02Z" = _1QbEM02Z;
         "forge-1.20.1" = _1QbEM02Z;
+        "default" = _1QbEM02Z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1QbEM02Z";}
+in callPackage fn {version="default";}

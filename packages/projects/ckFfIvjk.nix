@@ -45,6 +45,7 @@ let
         "fabric-26.1" = _TSMuZAEv;
         "fabric-26.1.1" = _TSMuZAEv;
         "neoforge-26.2" = _dKt09RAP;
+        "default" = _dKt09RAP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dKt09RAP";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "rExze0J5" = _rExze0J5;
         "forge-1.20.1" = _rExze0J5;
         "neoforge-1.20.1" = _rExze0J5;
+        "default" = _rExze0J5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rExze0J5";}
+in callPackage fn {version="default";}

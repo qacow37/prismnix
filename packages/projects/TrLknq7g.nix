@@ -40,6 +40,7 @@ let
         "ENXbOllO" = _ENXbOllO;
         "forge-1.20.1" = _dmQUgWrM;
         "fabric-1.20.1" = _ENXbOllO;
+        "default" = _ENXbOllO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ENXbOllO";}
+in callPackage fn {version="default";}

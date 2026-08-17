@@ -1013,6 +1013,7 @@ let
         "minecraft-26.3-snapshot-5" = _I2QfpvO2;
         "minecraft-26.3-snapshot-6" = _I2QfpvO2;
         "minecraft-26.3-snapshot-7" = _I2QfpvO2;
+        "default" = _I2QfpvO2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1033,4 +1034,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I2QfpvO2";}
+in callPackage fn {version="default";}

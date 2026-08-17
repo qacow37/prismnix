@@ -83,6 +83,7 @@ let
         "minecraft-25w04a" = _S75s3AMq;
         "minecraft-25w05a" = _S75s3AMq;
         "minecraft-25w06a" = _S75s3AMq;
+        "default" = _3I3axi22;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -103,4 +104,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3I3axi22";}
+in callPackage fn {version="default";}

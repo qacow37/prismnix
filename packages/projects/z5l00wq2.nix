@@ -274,6 +274,7 @@ let
         "neoforge-1.20.4" = _PveLA17s;
         "neoforge-1.20.5" = _PveLA17s;
         "neoforge-1.20.6" = _PveLA17s;
+        "default" = _PveLA17s;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -294,4 +295,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PveLA17s";}
+in callPackage fn {version="default";}

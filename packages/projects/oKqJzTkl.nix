@@ -123,6 +123,7 @@ let
         "dZoCTxwm" = _dZoCTxwm;
         "BV15Mbxf" = _BV15Mbxf;
         "forge-1.12.2" = _BV15Mbxf;
+        "default" = _BV15Mbxf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BV15Mbxf";}
+in callPackage fn {version="default";}

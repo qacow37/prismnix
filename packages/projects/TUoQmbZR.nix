@@ -55,6 +55,7 @@ let
         "iris-26.1.1" = _gdVC5Jx4;
         "iris-26.1.2" = _gdVC5Jx4;
         "iris-26.2" = _gdVC5Jx4;
+        "default" = _gdVC5Jx4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gdVC5Jx4";}
+in callPackage fn {version="default";}

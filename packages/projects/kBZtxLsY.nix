@@ -62,6 +62,7 @@ let
         "purpur-1.21.9" = _beibc4VT;
         "purpur-1.21.10" = _beibc4VT;
         "purpur-1.21.11" = _beibc4VT;
+        "default" = _beibc4VT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="beibc4VT";}
+in callPackage fn {version="default";}

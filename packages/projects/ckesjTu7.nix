@@ -16,6 +16,7 @@ let
         "8p44CL48" = _8p44CL48;
         "forge-1.20.1" = _E7vJGiHF;
         "fabric-1.20.1" = _8p44CL48;
+        "default" = _8p44CL48;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8p44CL48";}
+in callPackage fn {version="default";}

@@ -58,6 +58,7 @@ let
         "tmlKeiVa" = _tmlKeiVa;
         "fabric-1.20.4" = _QWYWMlaF;
         "fabric-1.21.1" = _tmlKeiVa;
+        "default" = _tmlKeiVa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tmlKeiVa";}
+in callPackage fn {version="default";}

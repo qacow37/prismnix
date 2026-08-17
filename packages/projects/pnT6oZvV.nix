@@ -21,6 +21,7 @@ let
         "oURpRhA4" = _oURpRhA4;
         "XkDEAlBn" = _XkDEAlBn;
         "fabric-1.20.1" = _XkDEAlBn;
+        "default" = _XkDEAlBn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XkDEAlBn";}
+in callPackage fn {version="default";}

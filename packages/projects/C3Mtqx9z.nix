@@ -214,6 +214,7 @@ let
         "ZMO1PPxN" = _ZMO1PPxN;
         "forge-1.20.1" = _ZMO1PPxN;
         "neoforge-1.20.1" = _ZMO1PPxN;
+        "default" = _ZMO1PPxN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -234,4 +235,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZMO1PPxN";}
+in callPackage fn {version="default";}

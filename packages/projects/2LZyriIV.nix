@@ -112,6 +112,7 @@ let
         "velocity-1.21.10" = _GPk4VlUn;
         "velocity-1.21.11" = _GPk4VlUn;
         "velocity-26.1" = _GPk4VlUn;
+        "default" = _GPk4VlUn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GPk4VlUn";}
+in callPackage fn {version="default";}

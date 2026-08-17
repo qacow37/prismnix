@@ -27,6 +27,7 @@ let
         "JXF1jT3i" = _JXF1jT3i;
         "uMeggR36" = _uMeggR36;
         "forge-1.20.1" = _uMeggR36;
+        "default" = _uMeggR36;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uMeggR36";}
+in callPackage fn {version="default";}

@@ -194,6 +194,7 @@ let
         "spigot-1.20.5" = _JsMtS6EJ;
         "spigot-1.20.6" = _JsMtS6EJ;
         "spigot-1.21" = _JsMtS6EJ;
+        "default" = _JsMtS6EJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -214,4 +215,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JsMtS6EJ";}
+in callPackage fn {version="default";}

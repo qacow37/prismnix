@@ -169,6 +169,7 @@ let
         "minecraft-26.1" = _ERpzirHc;
         "minecraft-26.1.1" = _ERpzirHc;
         "minecraft-26.1.2" = _ERpzirHc;
+        "default" = _ERpzirHc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -189,4 +190,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ERpzirHc";}
+in callPackage fn {version="default";}

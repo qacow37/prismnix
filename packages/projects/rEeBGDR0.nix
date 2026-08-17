@@ -138,6 +138,7 @@ let
         "quilt-1.21.6" = _Tsk0tDDb;
         "quilt-1.21.7" = _Tsk0tDDb;
         "quilt-1.21.8" = _Tsk0tDDb;
+        "default" = _Tsk0tDDb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -158,4 +159,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tsk0tDDb";}
+in callPackage fn {version="default";}

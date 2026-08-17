@@ -279,6 +279,7 @@ let
         "spigot-1.20.1" = _XdCPczfV;
         "neoforge-1.20.1" = _OVBWwlVg;
         "neoforge-1.21.1" = _RtqkrsvL;
+        "default" = _RtqkrsvL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -299,4 +300,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RtqkrsvL";}
+in callPackage fn {version="default";}

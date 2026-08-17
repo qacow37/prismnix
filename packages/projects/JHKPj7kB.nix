@@ -28,6 +28,7 @@ let
         "myIAtAPL" = _myIAtAPL;
         "neoforge-1.21.1" = _myIAtAPL;
         "neoforge-1.21" = _myIAtAPL;
+        "default" = _myIAtAPL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="myIAtAPL";}
+in callPackage fn {version="default";}

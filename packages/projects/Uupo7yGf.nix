@@ -90,6 +90,7 @@ let
         "minecraft-1.21.9" = _KEPsTS4k;
         "minecraft-1.21.10" = _KEPsTS4k;
         "minecraft-1.21.11" = _KEPsTS4k;
+        "default" = _KEPsTS4k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -110,4 +111,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KEPsTS4k";}
+in callPackage fn {version="default";}

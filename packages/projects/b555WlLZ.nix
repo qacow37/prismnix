@@ -21,6 +21,7 @@ let
         "sEkLPMlj" = _sEkLPMlj;
         "KUM1RGhL" = _KUM1RGhL;
         "minecraft-1.12.2" = _KUM1RGhL;
+        "default" = _KUM1RGhL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KUM1RGhL";}
+in callPackage fn {version="default";}

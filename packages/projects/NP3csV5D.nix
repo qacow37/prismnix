@@ -141,6 +141,7 @@ let
         "quilt-26.1" = _1WnvcLUB;
         "quilt-26.1.1" = _1WnvcLUB;
         "quilt-26.1.2" = _1WnvcLUB;
+        "default" = _1WnvcLUB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1WnvcLUB";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "t7eMbPlH" = _t7eMbPlH;
         "eNPO19FO" = _eNPO19FO;
         "forge-1.20.1" = _eNPO19FO;
+        "default" = _eNPO19FO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eNPO19FO";}
+in callPackage fn {version="default";}

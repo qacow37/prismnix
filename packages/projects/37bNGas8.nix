@@ -33,6 +33,7 @@ let
         "bTHZ97Tr" = _bTHZ97Tr;
         "nto7fwFX" = _nto7fwFX;
         "forge-1.20.1" = _nto7fwFX;
+        "default" = _nto7fwFX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nto7fwFX";}
+in callPackage fn {version="default";}

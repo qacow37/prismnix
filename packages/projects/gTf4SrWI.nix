@@ -16,6 +16,7 @@ let
         "yls4N4LQ" = _yls4N4LQ;
         "fabric-1.20.1" = _yls4N4LQ;
         "quilt-1.20.1" = _yls4N4LQ;
+        "default" = _yls4N4LQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yls4N4LQ";}
+in callPackage fn {version="default";}

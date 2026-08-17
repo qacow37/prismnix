@@ -25,6 +25,7 @@ let
         "fabric-1.21.6" = _AEjedgXm;
         "fabric-1.21.7" = _AEjedgXm;
         "fabric-1.21.8" = _AEjedgXm;
+        "default" = _AEjedgXm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -45,4 +46,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AEjedgXm";}
+in callPackage fn {version="default";}

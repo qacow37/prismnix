@@ -15,6 +15,7 @@ let
         "kDlOmCan" = _kDlOmCan;
         "70sXtlD5" = _70sXtlD5;
         "forge-1.20.1" = _70sXtlD5;
+        "default" = _70sXtlD5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="70sXtlD5";}
+in callPackage fn {version="default";}

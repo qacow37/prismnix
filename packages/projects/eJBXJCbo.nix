@@ -22,6 +22,7 @@ let
         "hEtNYhwc" = _hEtNYhwc;
         "forge-1.12.2" = _laIs1sni;
         "forge-1.14.4" = _hEtNYhwc;
+        "default" = _hEtNYhwc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hEtNYhwc";}
+in callPackage fn {version="default";}

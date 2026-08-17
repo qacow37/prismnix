@@ -15,6 +15,7 @@ let
         "vg31ksHM" = _vg31ksHM;
         "gunnlOXX" = _gunnlOXX;
         "forge-1.20.1" = _gunnlOXX;
+        "default" = _gunnlOXX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gunnlOXX";}
+in callPackage fn {version="default";}

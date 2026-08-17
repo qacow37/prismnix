@@ -57,6 +57,7 @@ let
         "ett5hobb" = _ett5hobb;
         "6Qimuf4A" = _6Qimuf4A;
         "forge-1.7.10" = _6Qimuf4A;
+        "default" = _6Qimuf4A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6Qimuf4A";}
+in callPackage fn {version="default";}

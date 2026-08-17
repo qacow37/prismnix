@@ -15,6 +15,7 @@ let
         "CLQy50p9" = _CLQy50p9;
         "6LIoEVPu" = _6LIoEVPu;
         "forge-1.12.2" = _6LIoEVPu;
+        "default" = _6LIoEVPu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6LIoEVPu";}
+in callPackage fn {version="default";}

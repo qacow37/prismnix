@@ -39,6 +39,7 @@ let
         "lnnfU3a4" = _lnnfU3a4;
         "RFKEUHLr" = _RFKEUHLr;
         "neoforge-1.21.1" = _RFKEUHLr;
+        "default" = _RFKEUHLr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RFKEUHLr";}
+in callPackage fn {version="default";}

@@ -142,6 +142,7 @@ let
         "quilt-1.20.2" = _FuG4NOFX;
         "quilt-1.20.3" = _FuG4NOFX;
         "quilt-1.20.4" = _FuG4NOFX;
+        "default" = _FuG4NOFX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -162,4 +163,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FuG4NOFX";}
+in callPackage fn {version="default";}

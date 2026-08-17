@@ -15,6 +15,7 @@ let
         "TWzkTrvr" = _TWzkTrvr;
         "JIha8XmV" = _JIha8XmV;
         "neoforge-1.21.1" = _JIha8XmV;
+        "default" = _JIha8XmV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JIha8XmV";}
+in callPackage fn {version="default";}

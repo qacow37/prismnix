@@ -39,6 +39,7 @@ let
         "fabric-1.21.9" = _cjsIa3eA;
         "fabric-1.21.10" = _cjsIa3eA;
         "fabric-1.21.11" = _cjsIa3eA;
+        "default" = _cjsIa3eA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cjsIa3eA";}
+in callPackage fn {version="default";}

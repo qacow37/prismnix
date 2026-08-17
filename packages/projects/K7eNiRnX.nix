@@ -28,6 +28,7 @@ let
         "dSotPtx8" = _dSotPtx8;
         "forge-1.20.1" = _dSotPtx8;
         "neoforge-1.20.1" = _dSotPtx8;
+        "default" = _dSotPtx8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dSotPtx8";}
+in callPackage fn {version="default";}

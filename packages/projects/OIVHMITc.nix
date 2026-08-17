@@ -58,6 +58,7 @@ let
         "oAsBAvls" = _oAsBAvls;
         "forge-1.20.1" = _oAsBAvls;
         "forge-1.20" = _gOiboM1h;
+        "default" = _oAsBAvls;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oAsBAvls";}
+in callPackage fn {version="default";}

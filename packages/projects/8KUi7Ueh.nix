@@ -21,6 +21,7 @@ let
         "DOEddPtd" = _DOEddPtd;
         "NS329bmL" = _NS329bmL;
         "fabric-1.21.1" = _NS329bmL;
+        "default" = _NS329bmL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NS329bmL";}
+in callPackage fn {version="default";}

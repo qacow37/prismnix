@@ -45,6 +45,7 @@ let
         "glGZpRHT" = _glGZpRHT;
         "1PnPiIlc" = _1PnPiIlc;
         "forge-1.20.1" = _1PnPiIlc;
+        "default" = _1PnPiIlc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1PnPiIlc";}
+in callPackage fn {version="default";}

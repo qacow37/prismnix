@@ -525,6 +525,7 @@ let
         "t8TpCMHH" = _t8TpCMHH;
         "ilaVYTII" = _ilaVYTII;
         "forge-1.12.2" = _ilaVYTII;
+        "default" = _ilaVYTII;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -545,4 +546,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ilaVYTII";}
+in callPackage fn {version="default";}

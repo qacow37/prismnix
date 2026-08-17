@@ -16,6 +16,7 @@ let
         "jEx4BK2w" = _jEx4BK2w;
         "fabric-1.20.1" = _jEx4BK2w;
         "fabric-1.20.2" = _jEx4BK2w;
+        "default" = _jEx4BK2w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jEx4BK2w";}
+in callPackage fn {version="default";}

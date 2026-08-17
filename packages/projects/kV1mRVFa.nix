@@ -120,6 +120,7 @@ let
         "purpur-26.1" = _uPtCAmSw;
         "purpur-26.1.1" = _uPtCAmSw;
         "purpur-26.1.2" = _uPtCAmSw;
+        "default" = _uPtCAmSw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uPtCAmSw";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "minecraft-1.20.6" = _LBbioKme;
         "minecraft-1.21" = _LBbioKme;
         "minecraft-1.21.1" = _LBbioKme;
+        "default" = _LBbioKme;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LBbioKme";}
+in callPackage fn {version="default";}

@@ -63,6 +63,7 @@ let
         "8Bv6PuQ1" = _8Bv6PuQ1;
         "YxsbA4Hz" = _YxsbA4Hz;
         "fabric-1.21.1" = _YxsbA4Hz;
+        "default" = _YxsbA4Hz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YxsbA4Hz";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "dv2TSism" = _dv2TSism;
         "nfTC4v35" = _nfTC4v35;
         "fabric-1.21.1" = _nfTC4v35;
+        "default" = _nfTC4v35;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nfTC4v35";}
+in callPackage fn {version="default";}

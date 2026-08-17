@@ -149,6 +149,7 @@ let
         "neoforge-1.21.7" = _zRBcAPpt;
         "neoforge-1.21.8" = _zRBcAPpt;
         "neoforge-26.1.2" = _hSInlaUA;
+        "default" = _hSInlaUA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hSInlaUA";}
+in callPackage fn {version="default";}

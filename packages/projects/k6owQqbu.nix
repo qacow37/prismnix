@@ -10,6 +10,7 @@ let
         "K3CAyDCG" = _K3CAyDCG;
         "iris-1.21" = _K3CAyDCG;
         "optifine-1.21" = _K3CAyDCG;
+        "default" = _K3CAyDCG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="K3CAyDCG";}
+in callPackage fn {version="default";}

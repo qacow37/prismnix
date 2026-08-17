@@ -66,6 +66,7 @@ let
         "forge-1.20.1" = _qfVdaKFL;
         "neoforge-1.20.1" = _qfVdaKFL;
         "neoforge-1.21.1" = _xzXArmox;
+        "default" = _xzXArmox;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xzXArmox";}
+in callPackage fn {version="default";}

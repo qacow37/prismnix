@@ -140,6 +140,7 @@ let
         "spigot-26.1" = _kC55Modx;
         "spigot-26.1.1" = _kC55Modx;
         "spigot-26.1.2" = _kC55Modx;
+        "default" = _kC55Modx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -160,4 +161,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kC55Modx";}
+in callPackage fn {version="default";}

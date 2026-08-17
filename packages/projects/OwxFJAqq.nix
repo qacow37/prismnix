@@ -849,6 +849,7 @@ let
         "minecraft-25w44a" = _DbnAuYFr;
         "minecraft-25w45a" = _DbnAuYFr;
         "minecraft-25w46a" = _DbnAuYFr;
+        "default" = _DbnAuYFr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -869,4 +870,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DbnAuYFr";}
+in callPackage fn {version="default";}

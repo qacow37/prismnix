@@ -339,6 +339,7 @@ let
         "neoforge-1.21.11" = _saPUaUnd;
         "neoforge-26.1" = _saPUaUnd;
         "neoforge-26.2" = _saPUaUnd;
+        "default" = _saPUaUnd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -359,4 +360,4 @@ let
                 };
             };
         };
-in callPackage fn {version="saPUaUnd";}
+in callPackage fn {version="default";}

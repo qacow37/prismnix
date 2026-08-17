@@ -190,6 +190,7 @@ let
         "WIVIxNoI" = _WIVIxNoI;
         "neoforge-1.21.1" = _WIVIxNoI;
         "forge-1.20.1" = _fDDp4YUY;
+        "default" = _WIVIxNoI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -210,4 +211,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WIVIxNoI";}
+in callPackage fn {version="default";}

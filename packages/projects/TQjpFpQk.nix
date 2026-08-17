@@ -51,6 +51,7 @@ let
         "38oH3mdj" = _38oH3mdj;
         "BifpDfjs" = _BifpDfjs;
         "neoforge-1.21.1" = _BifpDfjs;
+        "default" = _BifpDfjs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BifpDfjs";}
+in callPackage fn {version="default";}

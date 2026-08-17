@@ -27,6 +27,7 @@ let
         "NjJOBAOL" = _NjJOBAOL;
         "golij1vc" = _golij1vc;
         "forge-1.20.1" = _golij1vc;
+        "default" = _golij1vc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="golij1vc";}
+in callPackage fn {version="default";}

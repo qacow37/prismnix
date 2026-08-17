@@ -105,6 +105,7 @@ let
         "minecraft-1.21.7" = _TzYfaAC4;
         "minecraft-1.21.8" = _TzYfaAC4;
         "minecraft-1.21.9" = _TzYfaAC4;
+        "default" = _TzYfaAC4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TzYfaAC4";}
+in callPackage fn {version="default";}

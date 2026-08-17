@@ -50,6 +50,7 @@ let
         "forge-1.19.3" = _hdXexUf3;
         "forge-1.20" = _Te91BHKO;
         "forge-1.20.1" = _Te91BHKO;
+        "default" = _Te91BHKO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Te91BHKO";}
+in callPackage fn {version="default";}

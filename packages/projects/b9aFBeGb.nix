@@ -86,6 +86,7 @@ let
         "neoforge-1.21.7" = _mIdiSGiP;
         "neoforge-1.21.8" = _mIdiSGiP;
         "neoforge-1.21.6" = _mIdiSGiP;
+        "default" = _mIdiSGiP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mIdiSGiP";}
+in callPackage fn {version="default";}

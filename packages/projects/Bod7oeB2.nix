@@ -46,6 +46,7 @@ let
         "minecraft-26.1" = _NutAEiSL;
         "minecraft-26.1.1" = _NutAEiSL;
         "minecraft-26.1.2" = _NutAEiSL;
+        "default" = _NutAEiSL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NutAEiSL";}
+in callPackage fn {version="default";}

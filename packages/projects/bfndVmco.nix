@@ -52,6 +52,7 @@ let
         "AnsIGsWP" = _AnsIGsWP;
         "neoforge-1.21.1" = _fGFCcolu;
         "fabric-1.21.1" = _AnsIGsWP;
+        "default" = _AnsIGsWP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AnsIGsWP";}
+in callPackage fn {version="default";}

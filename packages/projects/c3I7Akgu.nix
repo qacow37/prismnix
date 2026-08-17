@@ -123,6 +123,7 @@ let
         "8f17Xnsv" = _8f17Xnsv;
         "HmrFjVcm" = _HmrFjVcm;
         "forge-1.7.10" = _HmrFjVcm;
+        "default" = _HmrFjVcm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HmrFjVcm";}
+in callPackage fn {version="default";}

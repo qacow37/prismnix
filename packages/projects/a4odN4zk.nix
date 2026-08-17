@@ -52,6 +52,7 @@ let
         "rAyk86cO" = _rAyk86cO;
         "forge-1.20.1" = _rAyk86cO;
         "neoforge-1.21.1" = _SYDDMIIl;
+        "default" = _rAyk86cO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rAyk86cO";}
+in callPackage fn {version="default";}

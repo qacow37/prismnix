@@ -39,6 +39,7 @@ let
         "wsxB68yC" = _wsxB68yC;
         "MpD1vxBv" = _MpD1vxBv;
         "forge-1.20.1" = _MpD1vxBv;
+        "default" = _MpD1vxBv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MpD1vxBv";}
+in callPackage fn {version="default";}

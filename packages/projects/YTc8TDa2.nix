@@ -22,6 +22,7 @@ let
         "zpL3ZKPE" = _zpL3ZKPE;
         "neoforge-1.21.1" = _sH9w1ffi;
         "forge-1.20.1" = _zpL3ZKPE;
+        "default" = _zpL3ZKPE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zpL3ZKPE";}
+in callPackage fn {version="default";}

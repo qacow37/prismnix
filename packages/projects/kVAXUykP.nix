@@ -745,6 +745,7 @@ let
         "fabric-23w32a" = _N3ERxNsv;
         "fabric-23w33a" = _N3ERxNsv;
         "fabric-23w35a" = _N3ERxNsv;
+        "default" = _N3ERxNsv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -765,4 +766,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N3ERxNsv";}
+in callPackage fn {version="default";}

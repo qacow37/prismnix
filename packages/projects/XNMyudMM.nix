@@ -19,6 +19,7 @@ let
         "minecraft-1.21.1" = _fURFkiAD;
         "minecraft-1.21.2" = _fURFkiAD;
         "minecraft-1.21.3" = _fURFkiAD;
+        "default" = _fURFkiAD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fURFkiAD";}
+in callPackage fn {version="default";}

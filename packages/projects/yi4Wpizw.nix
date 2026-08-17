@@ -34,6 +34,7 @@ let
         "KqqspTro" = _KqqspTro;
         "quilt-1.19.2" = _KqqspTro;
         "fabric-1.19.2" = _KqqspTro;
+        "default" = _KqqspTro;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KqqspTro";}
+in callPackage fn {version="default";}

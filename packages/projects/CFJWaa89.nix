@@ -257,6 +257,7 @@ let
         "neoforge-26.1" = _VTfV8rIx;
         "neoforge-26.1.1" = _VTfV8rIx;
         "neoforge-26.1.2" = _VTfV8rIx;
+        "default" = _VTfV8rIx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -277,4 +278,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VTfV8rIx";}
+in callPackage fn {version="default";}

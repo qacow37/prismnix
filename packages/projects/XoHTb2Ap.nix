@@ -399,6 +399,7 @@ let
         "neoforge-26.1.1" = _AKirLGK4;
         "neoforge-26.1.2" = _AKirLGK4;
         "neoforge-26.2" = _T4TaL1x7;
+        "default" = _WPlXiQuA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -419,4 +420,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WPlXiQuA";}
+in callPackage fn {version="default";}

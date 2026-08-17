@@ -21,6 +21,7 @@ let
         "jvHswfl0" = _jvHswfl0;
         "u13E3Swm" = _u13E3Swm;
         "forge-1.20.1" = _u13E3Swm;
+        "default" = _u13E3Swm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u13E3Swm";}
+in callPackage fn {version="default";}

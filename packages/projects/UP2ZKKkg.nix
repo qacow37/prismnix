@@ -39,6 +39,7 @@ let
         "lS5vuyG4" = _lS5vuyG4;
         "BXpYgw04" = _BXpYgw04;
         "minecraft-1.21" = _BXpYgw04;
+        "default" = _BXpYgw04;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BXpYgw04";}
+in callPackage fn {version="default";}

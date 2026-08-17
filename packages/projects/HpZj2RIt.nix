@@ -398,6 +398,7 @@ let
         "java-agent-1.21.9" = _8T88qiXj;
         "java-agent-1.21.10" = _8T88qiXj;
         "java-agent-1.21.11" = _8T88qiXj;
+        "default" = _XBM9grSd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -418,4 +419,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XBM9grSd";}
+in callPackage fn {version="default";}

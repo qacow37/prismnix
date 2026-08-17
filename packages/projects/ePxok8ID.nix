@@ -166,6 +166,7 @@ let
         "aGd32hGl" = _aGd32hGl;
         "neoforge-1.21.1" = _ahaWLJuF;
         "fabric-1.21.1" = _aGd32hGl;
+        "default" = _aGd32hGl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -186,4 +187,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aGd32hGl";}
+in callPackage fn {version="default";}

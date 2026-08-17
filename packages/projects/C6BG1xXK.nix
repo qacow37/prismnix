@@ -27,6 +27,7 @@ let
         "Ry34T0av" = _Ry34T0av;
         "JAc7Vr24" = _JAc7Vr24;
         "fabric-1.21.1" = _JAc7Vr24;
+        "default" = _JAc7Vr24;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JAc7Vr24";}
+in callPackage fn {version="default";}

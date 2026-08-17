@@ -69,6 +69,7 @@ let
         "EZtvxWJk" = _EZtvxWJk;
         "GCC0DalJ" = _GCC0DalJ;
         "forge-1.20.1" = _GCC0DalJ;
+        "default" = _GCC0DalJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GCC0DalJ";}
+in callPackage fn {version="default";}

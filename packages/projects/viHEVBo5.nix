@@ -51,6 +51,7 @@ let
         "nfYVHcan" = _nfYVHcan;
         "d0tlEXUL" = _d0tlEXUL;
         "fabric-1.20.1" = _d0tlEXUL;
+        "default" = _d0tlEXUL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="d0tlEXUL";}
+in callPackage fn {version="default";}

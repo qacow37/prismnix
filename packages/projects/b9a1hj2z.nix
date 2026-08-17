@@ -61,6 +61,7 @@ let
         "minecraft-1.21.4-rc2" = _ROFXFyNx;
         "minecraft-1.21.4-rc3" = _ROFXFyNx;
         "minecraft-1.21.4" = _ROFXFyNx;
+        "default" = _ROFXFyNx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -81,4 +82,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ROFXFyNx";}
+in callPackage fn {version="default";}

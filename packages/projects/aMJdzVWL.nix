@@ -39,6 +39,7 @@ let
         "6GkrR4gD" = _6GkrR4gD;
         "LuxyNUIz" = _LuxyNUIz;
         "forge-1.20.1" = _LuxyNUIz;
+        "default" = _LuxyNUIz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LuxyNUIz";}
+in callPackage fn {version="default";}

@@ -2398,6 +2398,7 @@ let
         "quilt-26.1.2-rc-1" = _BStDeutn;
         "quilt-26.1.2" = _BStDeutn;
         "quilt-26.2" = _BStDeutn;
+        "default" = _BStDeutn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2418,4 +2419,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BStDeutn";}
+in callPackage fn {version="default";}

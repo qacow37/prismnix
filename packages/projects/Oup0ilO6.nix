@@ -193,6 +193,7 @@ let
         "forge-1.12.2" = _LomD300W;
         "forge-1.19.2" = _5zFTAq7t;
         "forge-1.19.3" = _5zFTAq7t;
+        "default" = _LomD300W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -213,4 +214,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LomD300W";}
+in callPackage fn {version="default";}

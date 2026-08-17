@@ -10,6 +10,7 @@ let
         "IKapjbdY" = _IKapjbdY;
         "bukkit-1.20.1" = _IKapjbdY;
         "spigot-1.20.1" = _IKapjbdY;
+        "default" = _IKapjbdY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IKapjbdY";}
+in callPackage fn {version="default";}

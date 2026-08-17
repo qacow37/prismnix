@@ -351,6 +351,7 @@ let
         "neoforge-1.21.8" = _osPySA8c;
         "neoforge-1.21.9" = _osPySA8c;
         "neoforge-26.2" = _SdZex8Ey;
+        "default" = _SdZex8Ey;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -371,4 +372,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SdZex8Ey";}
+in callPackage fn {version="default";}

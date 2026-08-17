@@ -87,6 +87,7 @@ let
         "wi4rHWiu" = _wi4rHWiu;
         "JRUPpZuL" = _JRUPpZuL;
         "forge-1.12.2" = _JRUPpZuL;
+        "default" = _JRUPpZuL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JRUPpZuL";}
+in callPackage fn {version="default";}

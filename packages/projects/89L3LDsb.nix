@@ -19,6 +19,7 @@ let
         "fabric-1.20.2" = _usrapXQ5;
         "fabric-1.20.3" = _usrapXQ5;
         "fabric-1.20.4" = _usrapXQ5;
+        "default" = _usrapXQ5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="usrapXQ5";}
+in callPackage fn {version="default";}

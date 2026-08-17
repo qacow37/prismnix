@@ -124,6 +124,7 @@ let
         "57Efvarl" = _57Efvarl;
         "babric-b1.7.3" = _57Efvarl;
         "fabric-b1.7.3" = _57Efvarl;
+        "default" = _57Efvarl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="57Efvarl";}
+in callPackage fn {version="default";}

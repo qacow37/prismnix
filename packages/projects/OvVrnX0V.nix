@@ -120,6 +120,7 @@ let
         "bukkit-1.21.9" = _TabSRPvh;
         "bukkit-1.21.10" = _TabSRPvh;
         "bukkit-1.21.11" = _TabSRPvh;
+        "default" = _TabSRPvh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TabSRPvh";}
+in callPackage fn {version="default";}

@@ -82,6 +82,7 @@ let
         "minecraft-24w45a" = _HicUZLOA;
         "minecraft-24w46a" = _HicUZLOA;
         "minecraft-1.21.11" = _HicUZLOA;
+        "default" = _HicUZLOA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HicUZLOA";}
+in callPackage fn {version="default";}

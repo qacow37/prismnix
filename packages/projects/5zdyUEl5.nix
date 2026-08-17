@@ -63,6 +63,7 @@ let
         "fabric-1.21.9" = _DDDOANx7;
         "fabric-1.21.10" = _DDDOANx7;
         "fabric-1.21.11" = _DDDOANx7;
+        "default" = _DDDOANx7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DDDOANx7";}
+in callPackage fn {version="default";}

@@ -58,6 +58,7 @@ let
         "minecraft-1.20" = _iBIbAEOe;
         "minecraft-1.20.2" = _iBIbAEOe;
         "minecraft-1.20.3" = _iBIbAEOe;
+        "default" = _iBIbAEOe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iBIbAEOe";}
+in callPackage fn {version="default";}

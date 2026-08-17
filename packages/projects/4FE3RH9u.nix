@@ -51,6 +51,7 @@ let
         "XnDS50So" = _XnDS50So;
         "kkYGQ741" = _kkYGQ741;
         "forge-1.20.1" = _kkYGQ741;
+        "default" = _kkYGQ741;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kkYGQ741";}
+in callPackage fn {version="default";}

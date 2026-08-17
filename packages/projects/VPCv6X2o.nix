@@ -9,6 +9,7 @@ let
     in {
         "qmDRqSr1" = _qmDRqSr1;
         "velocity-1.21.5" = _qmDRqSr1;
+        "default" = _qmDRqSr1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qmDRqSr1";}
+in callPackage fn {version="default";}

@@ -388,6 +388,7 @@ let
         "ornithe-1.13" = _noJCVkwi;
         "ornithe-1.13.1" = _noJCVkwi;
         "ornithe-1.13.2" = _noJCVkwi;
+        "default" = _DEpyT4Tg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -408,4 +409,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DEpyT4Tg";}
+in callPackage fn {version="default";}

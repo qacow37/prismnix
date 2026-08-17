@@ -33,6 +33,7 @@ let
         "CFU1xjv7" = _CFU1xjv7;
         "g2mLrBG2" = _g2mLrBG2;
         "neoforge-1.21.1" = _g2mLrBG2;
+        "default" = _g2mLrBG2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="g2mLrBG2";}
+in callPackage fn {version="default";}

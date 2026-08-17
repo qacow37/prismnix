@@ -731,6 +731,7 @@ let
         "sponge-26.1" = _atIVaVx6;
         "sponge-26.1.1" = _atIVaVx6;
         "sponge-26.1.2" = _atIVaVx6;
+        "default" = _atIVaVx6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -751,4 +752,4 @@ let
                 };
             };
         };
-in callPackage fn {version="atIVaVx6";}
+in callPackage fn {version="default";}

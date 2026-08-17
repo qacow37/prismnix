@@ -9,6 +9,7 @@ let
     in {
         "dMOCAVl6" = _dMOCAVl6;
         "forge-1.12.2" = _dMOCAVl6;
+        "default" = _dMOCAVl6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dMOCAVl6";}
+in callPackage fn {version="default";}

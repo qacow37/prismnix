@@ -28,6 +28,7 @@ let
         "dtxRDwoi" = _dtxRDwoi;
         "forge-1.19.2" = _I6JkoaQ7;
         "forge-1.20.1" = _dtxRDwoi;
+        "default" = _dtxRDwoi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dtxRDwoi";}
+in callPackage fn {version="default";}

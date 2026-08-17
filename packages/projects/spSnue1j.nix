@@ -48,6 +48,7 @@ let
         "fabric-1.21" = _zLKFFwTO;
         "fabric-1.21.1" = _zLKFFwTO;
         "fabric-1.21.5" = _mikNgv56;
+        "default" = _mikNgv56;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -68,4 +69,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mikNgv56";}
+in callPackage fn {version="default";}

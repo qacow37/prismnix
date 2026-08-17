@@ -460,6 +460,7 @@ let
         "MbSdP7p2" = _MbSdP7p2;
         "forge-1.18.2" = _NblOOQbD;
         "forge-1.19.2" = _MbSdP7p2;
+        "default" = _MbSdP7p2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -480,4 +481,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MbSdP7p2";}
+in callPackage fn {version="default";}

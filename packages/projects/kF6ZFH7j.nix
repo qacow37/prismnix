@@ -112,6 +112,7 @@ let
         "EthuEP76" = _EthuEP76;
         "forge-1.20.1" = _EthuEP76;
         "neoforge-1.21.1" = _Uq7Y2azw;
+        "default" = _EthuEP76;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EthuEP76";}
+in callPackage fn {version="default";}

@@ -45,6 +45,7 @@ let
         "ZnliSRsh" = _ZnliSRsh;
         "4y9q3txN" = _4y9q3txN;
         "bta-babric-b1.7.3" = _4y9q3txN;
+        "default" = _4y9q3txN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4y9q3txN";}
+in callPackage fn {version="default";}

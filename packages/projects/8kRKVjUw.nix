@@ -34,6 +34,7 @@ let
         "6c1vcLsi" = _6c1vcLsi;
         "forge-1.20.1" = _Ccol3Utn;
         "neoforge-1.21.1" = _6c1vcLsi;
+        "default" = _6c1vcLsi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6c1vcLsi";}
+in callPackage fn {version="default";}

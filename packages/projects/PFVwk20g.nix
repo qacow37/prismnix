@@ -76,6 +76,7 @@ let
         "quilt-1.20.1" = _PXgMRzTt;
         "quilt-1.20.2" = _PXgMRzTt;
         "quilt-1.20.4" = _tP725UQt;
+        "default" = _tP725UQt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tP725UQt";}
+in callPackage fn {version="default";}

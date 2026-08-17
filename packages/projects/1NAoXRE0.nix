@@ -2099,6 +2099,7 @@ let
         "minecraft-20w14infinite" = _CinQKiDA;
         "minecraft-3D-Shareware-v1.34" = _lijbc1fo;
         "minecraft-26w14a" = _iMUh0GsS;
+        "default" = _iMUh0GsS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2119,4 +2120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iMUh0GsS";}
+in callPackage fn {version="default";}

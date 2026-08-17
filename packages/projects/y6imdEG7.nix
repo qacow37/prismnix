@@ -27,6 +27,7 @@ let
         "ZU840PVN" = _ZU840PVN;
         "pUtl6XNx" = _pUtl6XNx;
         "neoforge-1.21.1" = _pUtl6XNx;
+        "default" = _pUtl6XNx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pUtl6XNx";}
+in callPackage fn {version="default";}

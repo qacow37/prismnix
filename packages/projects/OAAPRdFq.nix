@@ -65,6 +65,7 @@ let
         "fabric-1.21.8" = _tx3YtkKW;
         "fabric-1.21.11" = _x9faumth;
         "fabric-26.1" = _ZeT1Aww0;
+        "default" = _ZeT1Aww0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -85,4 +86,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZeT1Aww0";}
+in callPackage fn {version="default";}

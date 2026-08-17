@@ -78,6 +78,7 @@ let
         "neoforge-1.20.1" = _egVcVZO3;
         "neoforge-1.21" = _ETLHUCWi;
         "neoforge-1.21.1" = _ETLHUCWi;
+        "default" = _ETLHUCWi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ETLHUCWi";}
+in callPackage fn {version="default";}

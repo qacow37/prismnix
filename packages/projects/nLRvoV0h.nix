@@ -42,6 +42,7 @@ let
         "minecraft-1.21.9" = _o40HL4RG;
         "minecraft-1.21.10" = _o40HL4RG;
         "minecraft-1.21.11" = _nHTPfBbs;
+        "default" = _nHTPfBbs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nHTPfBbs";}
+in callPackage fn {version="default";}

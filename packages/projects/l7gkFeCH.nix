@@ -49,6 +49,7 @@ let
         "minecraft-1.20.6" = _w88okiiv;
         "minecraft-1.21" = _w88okiiv;
         "minecraft-1.21.1" = _w88okiiv;
+        "default" = _w88okiiv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w88okiiv";}
+in callPackage fn {version="default";}

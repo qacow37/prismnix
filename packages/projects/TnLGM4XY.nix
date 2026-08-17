@@ -82,6 +82,7 @@ let
         "RTarCdtH" = _RTarCdtH;
         "forge-1.20.1" = _JAnNvUmV;
         "fabric-1.21.11" = _RTarCdtH;
+        "default" = _RTarCdtH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RTarCdtH";}
+in callPackage fn {version="default";}

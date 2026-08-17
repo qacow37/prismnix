@@ -3210,6 +3210,7 @@ let
         "waterfall-1.21.6" = _wj18KJL3;
         "waterfall-1.21.7" = _wj18KJL3;
         "waterfall-1.21.8" = _wj18KJL3;
+        "default" = _vksiS6em;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -3230,4 +3231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vksiS6em";}
+in callPackage fn {version="default";}

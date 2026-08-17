@@ -34,6 +34,7 @@ let
         "Fjc38CTC" = _Fjc38CTC;
         "forge-1.20.1" = _Fjc38CTC;
         "neoforge-1.21.1" = _jxoy0feV;
+        "default" = _Fjc38CTC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Fjc38CTC";}
+in callPackage fn {version="default";}

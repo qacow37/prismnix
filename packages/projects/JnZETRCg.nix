@@ -21,6 +21,7 @@ let
         "S6uu8T5W" = _S6uu8T5W;
         "tfD2gr3e" = _tfD2gr3e;
         "forge-1.12.2" = _tfD2gr3e;
+        "default" = _tfD2gr3e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tfD2gr3e";}
+in callPackage fn {version="default";}

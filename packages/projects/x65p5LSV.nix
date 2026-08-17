@@ -16,6 +16,7 @@ let
         "enSlRz6T" = _enSlRz6T;
         "fabric-b1.7.3" = _enSlRz6T;
         "babric-b1.7.3" = _enSlRz6T;
+        "default" = _enSlRz6T;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="enSlRz6T";}
+in callPackage fn {version="default";}

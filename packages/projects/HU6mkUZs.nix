@@ -352,6 +352,7 @@ let
         "RYBI5bnM" = _RYBI5bnM;
         "fabric-1.20.1" = _A95ZrOLQ;
         "fabric-1.21.1" = _RYBI5bnM;
+        "default" = _RYBI5bnM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -372,4 +373,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RYBI5bnM";}
+in callPackage fn {version="default";}

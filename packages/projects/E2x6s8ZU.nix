@@ -139,6 +139,7 @@ let
         "fabric-26.1.1" = _tCtIG64D;
         "fabric-26.1.2" = _tCtIG64D;
         "fabric-26.2" = _N3E1sHMi;
+        "default" = _N3E1sHMi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -159,4 +160,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N3E1sHMi";}
+in callPackage fn {version="default";}

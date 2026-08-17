@@ -174,6 +174,7 @@ let
         "forge-1.19.2" = _PXi5nPLl;
         "neoforge-1.21" = _Ui7de88C;
         "neoforge-1.21.1" = _Ui7de88C;
+        "default" = _Ui7de88C;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -194,4 +195,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ui7de88C";}
+in callPackage fn {version="default";}

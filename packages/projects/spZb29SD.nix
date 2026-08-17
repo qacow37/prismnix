@@ -251,6 +251,7 @@ let
         "forge-1.20.5" = _A5wtV88T;
         "forge-1.20.6" = _A5wtV88T;
         "forge-26.2" = _1HLHTaPT;
+        "default" = _1HLHTaPT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -271,4 +272,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1HLHTaPT";}
+in callPackage fn {version="default";}

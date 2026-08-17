@@ -76,6 +76,7 @@ let
         "zTS2S32w" = _zTS2S32w;
         "forge-1.20.1" = _zTS2S32w;
         "neoforge-1.20.1" = _uLRIdt0F;
+        "default" = _zTS2S32w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zTS2S32w";}
+in callPackage fn {version="default";}

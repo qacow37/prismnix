@@ -84,6 +84,7 @@ let
         "quilt-1.21.1" = _MXAKuoTr;
         "quilt-1.21.2" = _MXAKuoTr;
         "quilt-1.21.3" = _MXAKuoTr;
+        "default" = _MXAKuoTr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MXAKuoTr";}
+in callPackage fn {version="default";}

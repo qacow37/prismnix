@@ -45,6 +45,7 @@ let
         "2Nk02HHe" = _2Nk02HHe;
         "3BMteM6l" = _3BMteM6l;
         "neoforge-1.21.1" = _3BMteM6l;
+        "default" = _3BMteM6l;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3BMteM6l";}
+in callPackage fn {version="default";}

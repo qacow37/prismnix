@@ -9,6 +9,7 @@ let
     in {
         "SpD9yvLC" = _SpD9yvLC;
         "minecraft-1.7.10" = _SpD9yvLC;
+        "default" = _SpD9yvLC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SpD9yvLC";}
+in callPackage fn {version="default";}

@@ -99,6 +99,7 @@ let
         "DODeepD4" = _DODeepD4;
         "CBtFjIP6" = _CBtFjIP6;
         "forge-1.20.1" = _CBtFjIP6;
+        "default" = _CBtFjIP6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CBtFjIP6";}
+in callPackage fn {version="default";}

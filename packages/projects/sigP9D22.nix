@@ -45,6 +45,7 @@ let
         "KsENfE4V" = _KsENfE4V;
         "kH29ToJR" = _kH29ToJR;
         "forge-1.20.1" = _kH29ToJR;
+        "default" = _kH29ToJR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kH29ToJR";}
+in callPackage fn {version="default";}

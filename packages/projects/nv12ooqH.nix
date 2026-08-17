@@ -66,6 +66,7 @@ let
         "fabric-1.21.6" = _LMThRPXk;
         "fabric-1.21.7" = _LMThRPXk;
         "forge-1.20.1" = _tkXusHFT;
+        "default" = _yA64AO5S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yA64AO5S";}
+in callPackage fn {version="default";}

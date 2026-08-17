@@ -164,6 +164,7 @@ let
         "quilt-1.20.2" = _tJ23Vcff;
         "quilt-1.20.3" = _tJ23Vcff;
         "quilt-1.20.4" = _tJ23Vcff;
+        "default" = _JagCscwi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -184,4 +185,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JagCscwi";}
+in callPackage fn {version="default";}

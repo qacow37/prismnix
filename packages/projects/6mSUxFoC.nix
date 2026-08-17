@@ -43,6 +43,7 @@ let
         "neoforge-26.1" = _siMaEaqu;
         "neoforge-26.1.1" = _siMaEaqu;
         "neoforge-26.1.2" = _siMaEaqu;
+        "default" = _siMaEaqu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="siMaEaqu";}
+in callPackage fn {version="default";}

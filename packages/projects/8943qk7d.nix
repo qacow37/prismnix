@@ -21,6 +21,7 @@ let
         "minecraft-1.20" = _liIdprgR;
         "minecraft-1.20.1" = _liIdprgR;
         "minecraft-1.20.4" = _liIdprgR;
+        "default" = _liIdprgR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="liIdprgR";}
+in callPackage fn {version="default";}

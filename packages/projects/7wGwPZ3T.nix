@@ -22,6 +22,7 @@ let
         "aVYs75DA" = _aVYs75DA;
         "forge-1.20.1" = _aVYs75DA;
         "forge-1.19.2" = _trV4yEtd;
+        "default" = _aVYs75DA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aVYs75DA";}
+in callPackage fn {version="default";}

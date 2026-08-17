@@ -87,6 +87,7 @@ let
         "Cil1odzn" = _Cil1odzn;
         "IRFGNOX9" = _IRFGNOX9;
         "forge-1.7.10" = _IRFGNOX9;
+        "default" = _IRFGNOX9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IRFGNOX9";}
+in callPackage fn {version="default";}

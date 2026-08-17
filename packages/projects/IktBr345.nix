@@ -47,6 +47,7 @@ let
         "fabric-26.1.1" = _PNANobCm;
         "fabric-26.1.2" = _PNANobCm;
         "fabric-26.2" = _PNANobCm;
+        "default" = _PNANobCm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -67,4 +68,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PNANobCm";}
+in callPackage fn {version="default";}

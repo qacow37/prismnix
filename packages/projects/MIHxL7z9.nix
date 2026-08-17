@@ -46,6 +46,7 @@ let
         "rQo56TE2" = _rQo56TE2;
         "fabric-1.20.1" = _rQo56TE2;
         "quilt-1.20.1" = _rQo56TE2;
+        "default" = _rQo56TE2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rQo56TE2";}
+in callPackage fn {version="default";}

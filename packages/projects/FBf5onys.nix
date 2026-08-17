@@ -52,6 +52,7 @@ let
         "IECSrP6J" = _IECSrP6J;
         "forge-1.20.1" = _NZSZlHg0;
         "forge-1.19.2" = _IECSrP6J;
+        "default" = _IECSrP6J;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IECSrP6J";}
+in callPackage fn {version="default";}

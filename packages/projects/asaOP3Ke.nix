@@ -21,6 +21,7 @@ let
         "HyoWdUHq" = _HyoWdUHq;
         "ONmcXBWb" = _ONmcXBWb;
         "forge-1.20.1" = _ONmcXBWb;
+        "default" = _ONmcXBWb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ONmcXBWb";}
+in callPackage fn {version="default";}

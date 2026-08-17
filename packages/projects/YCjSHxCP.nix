@@ -88,6 +88,7 @@ let
         "UVtML06x" = _UVtML06x;
         "neoforge-1.21" = _UVtML06x;
         "neoforge-1.21.1" = _UVtML06x;
+        "default" = _UVtML06x;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UVtML06x";}
+in callPackage fn {version="default";}

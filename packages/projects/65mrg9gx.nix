@@ -21,6 +21,7 @@ let
         "minecraft-1.21.4" = _HrAVDhWd;
         "minecraft-1.21.5" = _HrAVDhWd;
         "minecraft-1.21.6" = _HrAVDhWd;
+        "default" = _HrAVDhWd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HrAVDhWd";}
+in callPackage fn {version="default";}

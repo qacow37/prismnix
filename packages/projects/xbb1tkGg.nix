@@ -39,6 +39,7 @@ let
         "odGmce4V" = _odGmce4V;
         "weXIeX8l" = _weXIeX8l;
         "fabric-1.21.1" = _weXIeX8l;
+        "default" = _weXIeX8l;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="weXIeX8l";}
+in callPackage fn {version="default";}

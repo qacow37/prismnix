@@ -486,6 +486,7 @@ let
         "optifine-26.3-snapshot-1" = _alyYmL5r;
         "optifine-26.3-snapshot-2" = _alyYmL5r;
         "optifine-26.3-snapshot-3" = _alyYmL5r;
+        "default" = _R8zjivoQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -506,4 +507,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R8zjivoQ";}
+in callPackage fn {version="default";}

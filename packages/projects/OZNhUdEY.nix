@@ -537,6 +537,7 @@ let
         "fabric-26.2" = _Mjrrn5VT;
         "fabric-26.3-snapshot-1" = _Mjrrn5VT;
         "fabric-26.3-snapshot-2" = _SYDYwt97;
+        "default" = _SYDYwt97;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -557,4 +558,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SYDYwt97";}
+in callPackage fn {version="default";}

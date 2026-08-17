@@ -171,6 +171,7 @@ let
         "QWoCMdiX" = _QWoCMdiX;
         "RGaodnB1" = _RGaodnB1;
         "forge-1.12.2" = _RGaodnB1;
+        "default" = _RGaodnB1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -191,4 +192,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RGaodnB1";}
+in callPackage fn {version="default";}

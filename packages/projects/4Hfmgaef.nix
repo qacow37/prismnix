@@ -63,6 +63,7 @@ let
         "bVotDVDh" = _bVotDVDh;
         "elKb2H82" = _elKb2H82;
         "forge-1.8.9" = _elKb2H82;
+        "default" = _elKb2H82;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="elKb2H82";}
+in callPackage fn {version="default";}

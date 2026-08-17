@@ -10,6 +10,7 @@ let
         "DalRtapS" = _DalRtapS;
         "minecraft-1.21.4" = _DalRtapS;
         "minecraft-1.21.7" = _DalRtapS;
+        "default" = _DalRtapS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DalRtapS";}
+in callPackage fn {version="default";}

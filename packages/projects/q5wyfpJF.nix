@@ -211,6 +211,7 @@ let
         "paper-26.1.2" = _rJOylURU;
         "paper-26.2" = _rJOylURU;
         "forge-1.20.1" = _x2alvpsJ;
+        "default" = _ebixUc39;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -231,4 +232,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ebixUc39";}
+in callPackage fn {version="default";}

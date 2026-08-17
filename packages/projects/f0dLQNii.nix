@@ -52,6 +52,7 @@ let
         "minecraft-1.21.2" = _DpBOTins;
         "minecraft-1.21.3" = _DpBOTins;
         "minecraft-1.21.4" = _DpBOTins;
+        "default" = _DpBOTins;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DpBOTins";}
+in callPackage fn {version="default";}

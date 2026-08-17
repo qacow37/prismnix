@@ -40,6 +40,7 @@ let
         "SGwmNYC6" = _SGwmNYC6;
         "fabric-1.20.1" = _qE0A2kSy;
         "fabric-1.21.1" = _SGwmNYC6;
+        "default" = _SGwmNYC6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SGwmNYC6";}
+in callPackage fn {version="default";}

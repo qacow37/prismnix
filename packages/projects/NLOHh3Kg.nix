@@ -75,6 +75,7 @@ let
         "aFxTfCN1" = _aFxTfCN1;
         "1Ga93fGw" = _1Ga93fGw;
         "forge-1.20.1" = _1Ga93fGw;
+        "default" = _1Ga93fGw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1Ga93fGw";}
+in callPackage fn {version="default";}

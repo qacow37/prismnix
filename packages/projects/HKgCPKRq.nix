@@ -92,6 +92,7 @@ let
         "spigot-1.21.10" = _vSC7jsAu;
         "spigot-1.21.11" = _vSC7jsAu;
         "forge-1.20.1" = _PDECWy8H;
+        "default" = _PDECWy8H;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PDECWy8H";}
+in callPackage fn {version="default";}

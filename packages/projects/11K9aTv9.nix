@@ -117,6 +117,7 @@ let
         "LcCW1gwL" = _LcCW1gwL;
         "R6XMUVkj" = _R6XMUVkj;
         "forge-1.20.1" = _R6XMUVkj;
+        "default" = _R6XMUVkj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R6XMUVkj";}
+in callPackage fn {version="default";}

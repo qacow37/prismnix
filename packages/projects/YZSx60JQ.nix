@@ -59,6 +59,7 @@ let
         "minecraft-1.14.2" = _6Olew2SD;
         "minecraft-1.14.3" = _6Olew2SD;
         "minecraft-1.14.4" = _6Olew2SD;
+        "default" = _6Olew2SD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -79,4 +80,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6Olew2SD";}
+in callPackage fn {version="default";}

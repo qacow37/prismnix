@@ -33,6 +33,7 @@ let
         "MGP1WaP6" = _MGP1WaP6;
         "NcAY8jnf" = _NcAY8jnf;
         "forge-1.16.5" = _NcAY8jnf;
+        "default" = _NcAY8jnf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NcAY8jnf";}
+in callPackage fn {version="default";}

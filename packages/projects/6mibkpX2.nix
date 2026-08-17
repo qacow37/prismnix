@@ -247,6 +247,7 @@ let
         "fabric-1.21.9" = _D5svBNPF;
         "fabric-1.21.10" = _D5svBNPF;
         "fabric-1.21.11" = _D5svBNPF;
+        "default" = _cbN2jsrt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -267,4 +268,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cbN2jsrt";}
+in callPackage fn {version="default";}

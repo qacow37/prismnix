@@ -54,6 +54,7 @@ let
         "bukkit-1.18.2" = _IMjJrwlv;
         "bukkit-1.19.2" = _IMjJrwlv;
         "bukkit-1.20.1" = _IMjJrwlv;
+        "default" = _IMjJrwlv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IMjJrwlv";}
+in callPackage fn {version="default";}

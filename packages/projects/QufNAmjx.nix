@@ -104,6 +104,7 @@ let
         "purpur-26.1" = _AT68K28Z;
         "purpur-26.1.1" = _AT68K28Z;
         "purpur-26.1.2" = _AT68K28Z;
+        "default" = _AT68K28Z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -124,4 +125,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AT68K28Z";}
+in callPackage fn {version="default";}

@@ -46,6 +46,7 @@ let
         "oJGD2grk" = _oJGD2grk;
         "fabric-1.20.1" = _oJGD2grk;
         "forge-1.20.1" = _lZrME4mH;
+        "default" = _oJGD2grk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oJGD2grk";}
+in callPackage fn {version="default";}

@@ -76,6 +76,7 @@ let
         "fabric-1.21" = _lU1YEPPC;
         "fabric-1.21.1" = _lU1YEPPC;
         "fabric-1.21.4" = _NOskRkOK;
+        "default" = _NOskRkOK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NOskRkOK";}
+in callPackage fn {version="default";}

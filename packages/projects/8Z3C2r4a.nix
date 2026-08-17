@@ -74,6 +74,7 @@ let
         "spigot-26.1.1" = _hKBlSslz;
         "spigot-26.1.2" = _hKBlSslz;
         "spigot-26.2" = _hKBlSslz;
+        "default" = _hKBlSslz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hKBlSslz";}
+in callPackage fn {version="default";}

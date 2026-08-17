@@ -15,6 +15,7 @@ let
         "erjTs7Vf" = _erjTs7Vf;
         "IEPcx3MJ" = _IEPcx3MJ;
         "babric-b1.7.3" = _IEPcx3MJ;
+        "default" = _IEPcx3MJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IEPcx3MJ";}
+in callPackage fn {version="default";}

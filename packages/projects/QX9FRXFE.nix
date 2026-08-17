@@ -68,6 +68,7 @@ let
         "minecraft-24w45a" = _1hts4BgC;
         "minecraft-24w46a" = _1hts4BgC;
         "minecraft-1.21.10" = _1hts4BgC;
+        "default" = _1hts4BgC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1hts4BgC";}
+in callPackage fn {version="default";}

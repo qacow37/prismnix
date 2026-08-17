@@ -154,6 +154,7 @@ let
         "OUmvFAPs" = _OUmvFAPs;
         "forge-1.20.1" = _oSXh1MVj;
         "neoforge-1.21.1" = _OUmvFAPs;
+        "default" = _OUmvFAPs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -174,4 +175,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OUmvFAPs";}
+in callPackage fn {version="default";}

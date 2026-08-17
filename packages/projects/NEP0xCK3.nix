@@ -10,6 +10,7 @@ let
         "FuxVSl0k" = _FuxVSl0k;
         "neoforge-1.21" = _FuxVSl0k;
         "neoforge-1.21.1" = _FuxVSl0k;
+        "default" = _FuxVSl0k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FuxVSl0k";}
+in callPackage fn {version="default";}

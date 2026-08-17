@@ -20,6 +20,7 @@ let
         "minecraft-1.21.2" = _VIL4cdXp;
         "minecraft-1.21.3" = _VIL4cdXp;
         "minecraft-1.21.4" = _VIL4cdXp;
+        "default" = _VIL4cdXp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -40,4 +41,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VIL4cdXp";}
+in callPackage fn {version="default";}

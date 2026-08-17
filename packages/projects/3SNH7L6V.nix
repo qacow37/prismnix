@@ -100,6 +100,7 @@ let
         "qOHsMap6" = _qOHsMap6;
         "fabric-1.20.1" = _qOHsMap6;
         "quilt-1.20.1" = _qOHsMap6;
+        "default" = _qOHsMap6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qOHsMap6";}
+in callPackage fn {version="default";}

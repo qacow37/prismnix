@@ -34,6 +34,7 @@ let
         "e50eIpMV" = _e50eIpMV;
         "neoforge-1.21.1" = _e50eIpMV;
         "forge-1.20.1" = _wE5L8285;
+        "default" = _e50eIpMV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="e50eIpMV";}
+in callPackage fn {version="default";}

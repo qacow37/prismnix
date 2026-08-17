@@ -9,6 +9,7 @@ let
     in {
         "mpEObTEn" = _mpEObTEn;
         "forge-1.20.1" = _mpEObTEn;
+        "default" = _mpEObTEn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mpEObTEn";}
+in callPackage fn {version="default";}

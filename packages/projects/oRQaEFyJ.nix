@@ -56,6 +56,7 @@ let
         "minecraft-1.8.8" = _uetPJrxy;
         "minecraft-1.8.9" = _uetPJrxy;
         "minecraft-1.21.11" = _ppVsTvrj;
+        "default" = _ppVsTvrj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -76,4 +77,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ppVsTvrj";}
+in callPackage fn {version="default";}

@@ -1272,6 +1272,7 @@ let
         "forge-1.21.2" = _gVSeYN7F;
         "forge-1.21.3" = _gVSeYN7F;
         "forge-1.21.4" = _gVSeYN7F;
+        "default" = _ePATnhau;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1292,4 +1293,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ePATnhau";}
+in callPackage fn {version="default";}

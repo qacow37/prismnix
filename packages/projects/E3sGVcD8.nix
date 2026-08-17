@@ -58,6 +58,7 @@ let
         "rsewsOBG" = _rsewsOBG;
         "forge-1.20.1" = _rsewsOBG;
         "neoforge-1.21.1" = _89QaQ0n0;
+        "default" = _rsewsOBG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rsewsOBG";}
+in callPackage fn {version="default";}

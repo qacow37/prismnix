@@ -100,6 +100,7 @@ let
         "esx2aMLq" = _esx2aMLq;
         "forge-1.20.1" = _ssYuCGi3;
         "fabric-1.20.1" = _esx2aMLq;
+        "default" = _esx2aMLq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="esx2aMLq";}
+in callPackage fn {version="default";}

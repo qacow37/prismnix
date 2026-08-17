@@ -228,6 +228,7 @@ let
         "quilt-26.1.1" = _48v28EU2;
         "quilt-26.1.2" = _48v28EU2;
         "quilt-26.2" = _wOM360Ot;
+        "default" = _wOM360Ot;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -248,4 +249,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wOM360Ot";}
+in callPackage fn {version="default";}

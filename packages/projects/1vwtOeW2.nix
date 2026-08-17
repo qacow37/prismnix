@@ -52,6 +52,7 @@ let
         "btZsIilN" = _btZsIilN;
         "fabric-1.19.2" = _1R8RNZ8g;
         "forge-1.19.2" = _btZsIilN;
+        "default" = _btZsIilN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="btZsIilN";}
+in callPackage fn {version="default";}

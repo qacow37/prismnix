@@ -27,6 +27,7 @@ let
         "VBil0Xf3" = _VBil0Xf3;
         "cPM0cfwo" = _cPM0cfwo;
         "neoforge-1.21.1" = _cPM0cfwo;
+        "default" = _cPM0cfwo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cPM0cfwo";}
+in callPackage fn {version="default";}

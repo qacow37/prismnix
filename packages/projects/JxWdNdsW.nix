@@ -10,6 +10,7 @@ let
         "vJmasNc0" = _vJmasNc0;
         "fabric-1.21" = _vJmasNc0;
         "fabric-1.21.1" = _vJmasNc0;
+        "default" = _vJmasNc0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vJmasNc0";}
+in callPackage fn {version="default";}

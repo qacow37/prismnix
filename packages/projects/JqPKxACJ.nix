@@ -26,6 +26,7 @@ let
         "neoforge-1.20.4" = _uNgfbrTL;
         "neoforge-1.21.1" = _uNgfbrTL;
         "neoforge-1.21.10" = _uNgfbrTL;
+        "default" = _uNgfbrTL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uNgfbrTL";}
+in callPackage fn {version="default";}

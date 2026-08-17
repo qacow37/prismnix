@@ -27,6 +27,7 @@ let
         "minecraft-1.8.7" = _OgPsng5d;
         "minecraft-1.8.8" = _OgPsng5d;
         "minecraft-1.8.9" = _OgPsng5d;
+        "default" = _OgPsng5d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OgPsng5d";}
+in callPackage fn {version="default";}

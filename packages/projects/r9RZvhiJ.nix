@@ -76,6 +76,7 @@ let
         "W9ILsQt7" = _W9ILsQt7;
         "forge-1.20.1" = _mUnU2u9e;
         "neoforge-1.21.1" = _W9ILsQt7;
+        "default" = _W9ILsQt7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="W9ILsQt7";}
+in callPackage fn {version="default";}

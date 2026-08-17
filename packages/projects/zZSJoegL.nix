@@ -15,6 +15,7 @@ let
         "pGEkyW4n" = _pGEkyW4n;
         "LT6Gz3it" = _LT6Gz3it;
         "forge-1.20.1" = _LT6Gz3it;
+        "default" = _LT6Gz3it;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LT6Gz3it";}
+in callPackage fn {version="default";}

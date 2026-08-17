@@ -556,6 +556,7 @@ let
         "spigot-1.19.2" = _JWuU0tpO;
         "spigot-1.19.3" = _JWuU0tpO;
         "spigot-1.21" = _3VJr2Orp;
+        "default" = _3VJr2Orp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -576,4 +577,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3VJr2Orp";}
+in callPackage fn {version="default";}

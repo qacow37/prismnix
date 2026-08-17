@@ -80,6 +80,7 @@ let
         "optifine-1.21.9" = _7GiMizFD;
         "optifine-1.21.10" = _7GiMizFD;
         "optifine-1.21.11" = _7GiMizFD;
+        "default" = _7GiMizFD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7GiMizFD";}
+in callPackage fn {version="default";}

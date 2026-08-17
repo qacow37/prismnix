@@ -22,6 +22,7 @@ let
         "4yoXE4OS" = _4yoXE4OS;
         "fabric-1.21.11" = _RgjImYoX;
         "fabric-26.1.2" = _4yoXE4OS;
+        "default" = _4yoXE4OS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4yoXE4OS";}
+in callPackage fn {version="default";}

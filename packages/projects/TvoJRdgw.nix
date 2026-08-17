@@ -21,6 +21,7 @@ let
         "JvSXhvC4" = _JvSXhvC4;
         "ZpAPbCnp" = _ZpAPbCnp;
         "forge-1.7.10" = _ZpAPbCnp;
+        "default" = _ZpAPbCnp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZpAPbCnp";}
+in callPackage fn {version="default";}

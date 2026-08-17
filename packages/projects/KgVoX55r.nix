@@ -22,6 +22,7 @@ let
         "54OSlNY2" = _54OSlNY2;
         "fabric-1.21" = _54OSlNY2;
         "fabric-1.21.1" = _54OSlNY2;
+        "default" = _54OSlNY2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="54OSlNY2";}
+in callPackage fn {version="default";}

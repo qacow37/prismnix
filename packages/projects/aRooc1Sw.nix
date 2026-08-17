@@ -92,6 +92,7 @@ let
         "quilt-1.21.9" = _Pj3rvMce;
         "quilt-1.21.10" = _Pj3rvMce;
         "quilt-25w41a" = _Pj3rvMce;
+        "default" = _Pj3rvMce;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Pj3rvMce";}
+in callPackage fn {version="default";}

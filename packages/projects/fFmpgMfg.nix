@@ -210,6 +210,7 @@ let
         "neoforge-26.1" = _tDJ85V3a;
         "neoforge-26.1.1" = _tDJ85V3a;
         "neoforge-26.1.2" = _tDJ85V3a;
+        "default" = _tDJ85V3a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -230,4 +231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tDJ85V3a";}
+in callPackage fn {version="default";}

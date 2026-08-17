@@ -246,6 +246,7 @@ let
         "bukkit-1.21.9" = _rXI3NOvS;
         "bukkit-1.21.10" = _rXI3NOvS;
         "bukkit-1.21.11" = _rXI3NOvS;
+        "default" = _EWpEeqNT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -266,4 +267,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EWpEeqNT";}
+in callPackage fn {version="default";}

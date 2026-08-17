@@ -632,6 +632,7 @@ let
         "velocity-26.1.1" = _8aHSWcbW;
         "velocity-26.1.2" = _8aHSWcbW;
         "velocity-26.2" = _8aHSWcbW;
+        "default" = _8aHSWcbW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -652,4 +653,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8aHSWcbW";}
+in callPackage fn {version="default";}

@@ -137,6 +137,7 @@ let
         "datapack-1.21.1" = _aV303Ktu;
         "fabric-1.21.1" = _cZmx9NLr;
         "neoforge-1.21.1" = _cZmx9NLr;
+        "default" = _cZmx9NLr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -157,4 +158,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cZmx9NLr";}
+in callPackage fn {version="default";}

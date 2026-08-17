@@ -60,6 +60,7 @@ let
         "minecraft-26.1" = _WxNsbbug;
         "minecraft-26.1.1" = _WxNsbbug;
         "minecraft-26.1.2" = _WxNsbbug;
+        "default" = _WxNsbbug;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WxNsbbug";}
+in callPackage fn {version="default";}

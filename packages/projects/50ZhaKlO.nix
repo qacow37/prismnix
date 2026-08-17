@@ -40,6 +40,7 @@ let
         "HYak6KS7" = _HYak6KS7;
         "fabric-1.20.1" = _HYak6KS7;
         "forge-1.20.1" = _aSNmRGpK;
+        "default" = _HYak6KS7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HYak6KS7";}
+in callPackage fn {version="default";}

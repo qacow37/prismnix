@@ -182,6 +182,7 @@ let
         "paper-1.21.9" = _VW6grkBf;
         "paper-1.21.10" = _VW6grkBf;
         "paper-1.21.11" = _RGBulpE1;
+        "default" = _RGBulpE1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -202,4 +203,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RGBulpE1";}
+in callPackage fn {version="default";}

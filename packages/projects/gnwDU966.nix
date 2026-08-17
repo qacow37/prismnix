@@ -1260,6 +1260,7 @@ let
         "modloader-1.5.2" = _Tt1vF8u3;
         "forge-b1.7.3" = _m8nrqEYe;
         "forge-b1.8.1" = _lkonbsxJ;
+        "default" = _Tt1vF8u3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1280,4 +1281,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tt1vF8u3";}
+in callPackage fn {version="default";}

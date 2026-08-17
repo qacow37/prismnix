@@ -182,6 +182,7 @@ let
         "fabric-1.20.1" = _r07ra0AW;
         "fabric-26.2" = _DxSiuKQL;
         "forge-1.20.1" = _w1OUeepM;
+        "default" = _DxSiuKQL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -202,4 +203,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DxSiuKQL";}
+in callPackage fn {version="default";}

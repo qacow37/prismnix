@@ -71,6 +71,7 @@ let
         "neoforge-1.21.1" = _rNPap4Oe;
         "quilt-1.21" = _rNPap4Oe;
         "quilt-1.21.1" = _rNPap4Oe;
+        "default" = _rNPap4Oe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -91,4 +92,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rNPap4Oe";}
+in callPackage fn {version="default";}

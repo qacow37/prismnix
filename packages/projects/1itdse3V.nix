@@ -94,6 +94,7 @@ let
         "quilt-1.21.1" = _OLAFIByz;
         "quilt-1.21.2" = _OLAFIByz;
         "quilt-1.21.3" = _OLAFIByz;
+        "default" = _OLAFIByz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OLAFIByz";}
+in callPackage fn {version="default";}

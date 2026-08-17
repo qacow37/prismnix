@@ -21,6 +21,7 @@ let
         "VMm4hPaQ" = _VMm4hPaQ;
         "jTIZDGBE" = _jTIZDGBE;
         "fabric-1.20.1" = _jTIZDGBE;
+        "default" = _jTIZDGBE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jTIZDGBE";}
+in callPackage fn {version="default";}

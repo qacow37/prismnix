@@ -59,6 +59,7 @@ let
         "fabric-26.2-rc-1" = _VmsCQqlE;
         "fabric-26.2-rc-2" = _VmsCQqlE;
         "fabric-26.2" = _VmsCQqlE;
+        "default" = _VmsCQqlE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -79,4 +80,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VmsCQqlE";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "pXLT7Iau" = _pXLT7Iau;
         "YKzITmJt" = _YKzITmJt;
         "fabric-25w14craftmine" = _YKzITmJt;
+        "default" = _YKzITmJt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YKzITmJt";}
+in callPackage fn {version="default";}

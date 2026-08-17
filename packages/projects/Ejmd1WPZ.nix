@@ -255,6 +255,7 @@ let
         "spigot-1.20.2" = _AoU328ko;
         "spigot-1.20.3" = _AoU328ko;
         "spigot-1.20.4" = _AoU328ko;
+        "default" = _inP4vrAG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -275,4 +276,4 @@ let
                 };
             };
         };
-in callPackage fn {version="inP4vrAG";}
+in callPackage fn {version="default";}

@@ -58,6 +58,7 @@ let
         "1UXF41fX" = _1UXF41fX;
         "neoforge-1.21.1" = _1UXF41fX;
         "forge-1.16.5" = _V6Mb1DIR;
+        "default" = _1UXF41fX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1UXF41fX";}
+in callPackage fn {version="default";}

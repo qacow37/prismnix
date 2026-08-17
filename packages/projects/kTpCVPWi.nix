@@ -16,6 +16,7 @@ let
         "EfmONEPq" = _EfmONEPq;
         "datapack-1.21.1" = _4aAN9bik;
         "neoforge-1.21.1" = _EfmONEPq;
+        "default" = _EfmONEPq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EfmONEPq";}
+in callPackage fn {version="default";}

@@ -74,6 +74,7 @@ let
         "fabric-26.1.1" = _Jm80gSd7;
         "fabric-26.1.2" = _Jm80gSd7;
         "fabric-26.2" = _Jm80gSd7;
+        "default" = _Jm80gSd7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Jm80gSd7";}
+in callPackage fn {version="default";}

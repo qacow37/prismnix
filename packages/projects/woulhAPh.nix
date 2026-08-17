@@ -34,6 +34,7 @@ let
         "lGzem3Vy" = _lGzem3Vy;
         "neoforge-1.21.1" = _VVw4TROM;
         "neoforge-1.21.8" = _lGzem3Vy;
+        "default" = _lGzem3Vy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lGzem3Vy";}
+in callPackage fn {version="default";}

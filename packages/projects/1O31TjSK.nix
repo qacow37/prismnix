@@ -76,6 +76,7 @@ let
         "kWFCN86H" = _kWFCN86H;
         "fabric-1.21.1" = _uSdiTchw;
         "neoforge-1.21.1" = _kWFCN86H;
+        "default" = _kWFCN86H;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kWFCN86H";}
+in callPackage fn {version="default";}

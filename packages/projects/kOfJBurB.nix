@@ -556,6 +556,7 @@ let
         "waterfall-1.21.10" = _tO2YqbQN;
         "geyser-1.21.9" = _dseB2cvz;
         "geyser-1.21.10" = _dseB2cvz;
+        "default" = _dseB2cvz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -576,4 +577,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dseB2cvz";}
+in callPackage fn {version="default";}

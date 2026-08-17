@@ -113,6 +113,7 @@ let
         "babric-b1.7.3" = _jM7Qrpuf;
         "fabric-b1.7.3" = _FiHlIw2q;
         "ornithe-b1.7.3" = _obYbUBO9;
+        "default" = _jM7Qrpuf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -133,4 +134,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jM7Qrpuf";}
+in callPackage fn {version="default";}

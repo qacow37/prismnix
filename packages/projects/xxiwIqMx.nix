@@ -21,6 +21,7 @@ let
         "ihe0Zbu4" = _ihe0Zbu4;
         "8xSID41w" = _8xSID41w;
         "fabric-1.21.4" = _8xSID41w;
+        "default" = _8xSID41w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8xSID41w";}
+in callPackage fn {version="default";}

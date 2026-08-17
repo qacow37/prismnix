@@ -33,6 +33,7 @@ let
         "vTTtLjTP" = _vTTtLjTP;
         "fM30vJrH" = _fM30vJrH;
         "forge-1.18.2" = _fM30vJrH;
+        "default" = _fM30vJrH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fM30vJrH";}
+in callPackage fn {version="default";}

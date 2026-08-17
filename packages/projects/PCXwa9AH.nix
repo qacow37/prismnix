@@ -228,6 +228,7 @@ let
         "minecraft-1.21.9" = _KYi005cA;
         "minecraft-1.21.10" = _KYi005cA;
         "minecraft-1.21.11" = _RDd32em3;
+        "default" = _RDd32em3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -248,4 +249,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RDd32em3";}
+in callPackage fn {version="default";}

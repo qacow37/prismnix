@@ -548,6 +548,7 @@ let
         "neoforge-26.1.2" = _efMcM8uM;
         "neoforge-26.2" = _lCUm2ITU;
         "forge-1.20.1" = _yyTVDWwg;
+        "default" = _lCUm2ITU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -568,4 +569,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lCUm2ITU";}
+in callPackage fn {version="default";}

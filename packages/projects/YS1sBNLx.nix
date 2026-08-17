@@ -24,6 +24,7 @@ let
         "neoforge-1.21.1" = _OsS2jRkY;
         "quilt-1.21" = _OsS2jRkY;
         "quilt-1.21.1" = _OsS2jRkY;
+        "default" = _OsS2jRkY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OsS2jRkY";}
+in callPackage fn {version="default";}

@@ -46,6 +46,7 @@ let
         "n8PUZTEF" = _n8PUZTEF;
         "forge-1.20.1" = _n8PUZTEF;
         "fabric-1.20.1" = _ONN2RViA;
+        "default" = _n8PUZTEF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="n8PUZTEF";}
+in callPackage fn {version="default";}

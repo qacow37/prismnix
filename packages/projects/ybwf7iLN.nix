@@ -160,6 +160,7 @@ let
         "KpuLRQQ5" = _KpuLRQQ5;
         "fabric-1.20.1" = _KpuLRQQ5;
         "forge-1.20.1" = _vVdkIY0A;
+        "default" = _KpuLRQQ5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -180,4 +181,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KpuLRQQ5";}
+in callPackage fn {version="default";}

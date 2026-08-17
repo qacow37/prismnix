@@ -135,6 +135,7 @@ let
         "Rw56Vuaf" = _Rw56Vuaf;
         "Sx7OIPTh" = _Sx7OIPTh;
         "forge-1.20.1" = _Sx7OIPTh;
+        "default" = _Sx7OIPTh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Sx7OIPTh";}
+in callPackage fn {version="default";}

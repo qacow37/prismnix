@@ -374,6 +374,7 @@ let
         "spigot-1.18" = _lpbUprD2;
         "spigot-1.19.4" = _lpbUprD2;
         "spigot-1.20.1" = _lpbUprD2;
+        "default" = _lpbUprD2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -394,4 +395,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lpbUprD2";}
+in callPackage fn {version="default";}

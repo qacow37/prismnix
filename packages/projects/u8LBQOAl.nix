@@ -126,6 +126,7 @@ let
         "quilt-1.20" = _vvPN4MxD;
         "quilt-1.20.1" = _vvPN4MxD;
         "quilt-1.20.4" = _xTXboOte;
+        "default" = _xTXboOte;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -146,4 +147,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xTXboOte";}
+in callPackage fn {version="default";}

@@ -129,6 +129,7 @@ let
         "SYCrwtl5" = _SYCrwtl5;
         "FlSODr7U" = _FlSODr7U;
         "neoforge-1.21.1" = _FlSODr7U;
+        "default" = _FlSODr7U;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FlSODr7U";}
+in callPackage fn {version="default";}

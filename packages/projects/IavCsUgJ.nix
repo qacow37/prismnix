@@ -36,6 +36,7 @@ let
         "neoforge-1.21.1" = _BBppKQR1;
         "neoforge-1.21.9" = _E370xzHP;
         "neoforge-1.21.10" = _E370xzHP;
+        "default" = _BBppKQR1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BBppKQR1";}
+in callPackage fn {version="default";}

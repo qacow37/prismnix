@@ -16,6 +16,7 @@ let
         "x3cFe98Q" = _x3cFe98Q;
         "fabric-1.21.4" = _csd755Qe;
         "fabric-1.21.11" = _x3cFe98Q;
+        "default" = _x3cFe98Q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="x3cFe98Q";}
+in callPackage fn {version="default";}

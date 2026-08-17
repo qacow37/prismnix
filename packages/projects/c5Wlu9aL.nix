@@ -16,6 +16,7 @@ let
         "LP33GBvC" = _LP33GBvC;
         "fabric-1.20.1" = _3VTWdUcs;
         "forge-1.20.1" = _LP33GBvC;
+        "default" = _LP33GBvC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LP33GBvC";}
+in callPackage fn {version="default";}

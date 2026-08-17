@@ -808,6 +808,7 @@ let
         "neoforge-1.20.6" = _NSCQ1Rid;
         "neoforge-1.20.5" = _csdm7ch4;
         "neoforge-1.20.4" = _clmK6DP2;
+        "default" = _Adrms9au;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -828,4 +829,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Adrms9au";}
+in callPackage fn {version="default";}

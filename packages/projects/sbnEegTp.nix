@@ -78,6 +78,7 @@ let
         "fabric-1.21.10" = _Esxl2NOd;
         "quilt-1.21.8" = _wlu9vppS;
         "quilt-1.21.10" = _Esxl2NOd;
+        "default" = _Esxl2NOd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -98,4 +99,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Esxl2NOd";}
+in callPackage fn {version="default";}

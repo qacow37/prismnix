@@ -16,6 +16,7 @@ let
         "erytzeo5" = _erytzeo5;
         "fabric-1.18.2" = _FPk6orSb;
         "fabric-1.19" = _erytzeo5;
+        "default" = _erytzeo5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="erytzeo5";}
+in callPackage fn {version="default";}

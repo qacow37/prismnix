@@ -81,6 +81,7 @@ let
         "LOxpF0Dv" = _LOxpF0Dv;
         "BoMMOHCm" = _BoMMOHCm;
         "forge-1.20.1" = _BoMMOHCm;
+        "default" = _BoMMOHCm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BoMMOHCm";}
+in callPackage fn {version="default";}

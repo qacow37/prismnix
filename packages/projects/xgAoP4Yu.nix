@@ -10,6 +10,7 @@ let
         "pztlwsmQ" = _pztlwsmQ;
         "fabric-1.20" = _pztlwsmQ;
         "fabric-1.20.1" = _pztlwsmQ;
+        "default" = _pztlwsmQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pztlwsmQ";}
+in callPackage fn {version="default";}

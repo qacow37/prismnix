@@ -47,6 +47,7 @@ let
         "minecraft-1.20.2" = _ZQStAFiG;
         "minecraft-1.20.3" = _ZQStAFiG;
         "minecraft-1.20.4" = _ZQStAFiG;
+        "default" = _ZQStAFiG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -67,4 +68,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZQStAFiG";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "ntpROjia" = _ntpROjia;
         "neoforge-1.21" = _CTwCf8Ft;
         "neoforge-1.21.1" = _ntpROjia;
+        "default" = _ntpROjia;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ntpROjia";}
+in callPackage fn {version="default";}

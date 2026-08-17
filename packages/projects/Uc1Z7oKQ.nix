@@ -94,6 +94,7 @@ let
         "quilt-26.1.1" = _YPNVaVeX;
         "quilt-26.1.2" = _YPNVaVeX;
         "quilt-26.2" = _YPNVaVeX;
+        "default" = _YPNVaVeX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YPNVaVeX";}
+in callPackage fn {version="default";}

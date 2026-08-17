@@ -165,6 +165,7 @@ let
         "Xybs5Mng" = _Xybs5Mng;
         "EB75fwjw" = _EB75fwjw;
         "forge-1.18.2" = _EB75fwjw;
+        "default" = _EB75fwjw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -185,4 +186,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EB75fwjw";}
+in callPackage fn {version="default";}

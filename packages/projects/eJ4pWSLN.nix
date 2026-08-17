@@ -21,6 +21,7 @@ let
         "7sjiDidM" = _7sjiDidM;
         "34yUipcp" = _34yUipcp;
         "forge-1.20.1" = _34yUipcp;
+        "default" = _34yUipcp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="34yUipcp";}
+in callPackage fn {version="default";}

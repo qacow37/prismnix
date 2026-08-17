@@ -27,6 +27,7 @@ let
         "GtYLhziw" = _GtYLhziw;
         "TpV8PuS8" = _TpV8PuS8;
         "forge-1.12.2" = _TpV8PuS8;
+        "default" = _TpV8PuS8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TpV8PuS8";}
+in callPackage fn {version="default";}

@@ -141,6 +141,7 @@ let
         "minecraft-26.1.1" = _r3metbar;
         "minecraft-26.1.2" = _r3metbar;
         "minecraft-26.2" = _2stdriya;
+        "default" = _2stdriya;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2stdriya";}
+in callPackage fn {version="default";}

@@ -183,6 +183,7 @@ let
         "H1zEnC4i" = _H1zEnC4i;
         "MZQZCodE" = _MZQZCodE;
         "forge-1.20.1" = _MZQZCodE;
+        "default" = _MZQZCodE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -203,4 +204,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MZQZCodE";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "tiGFuVyc" = _tiGFuVyc;
         "sS2WG0Ea" = _sS2WG0Ea;
         "fabric-1.20.1" = _sS2WG0Ea;
+        "default" = _sS2WG0Ea;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sS2WG0Ea";}
+in callPackage fn {version="default";}

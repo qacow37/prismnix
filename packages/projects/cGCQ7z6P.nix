@@ -15,6 +15,7 @@ let
         "zPqy1p8I" = _zPqy1p8I;
         "Wm16PIZb" = _Wm16PIZb;
         "neoforge-1.21.1" = _Wm16PIZb;
+        "default" = _Wm16PIZb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Wm16PIZb";}
+in callPackage fn {version="default";}

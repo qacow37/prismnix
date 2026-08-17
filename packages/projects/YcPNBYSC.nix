@@ -112,6 +112,7 @@ let
         "minecraft-1.21.9" = _SDSRSnLu;
         "minecraft-1.21.10" = _SDSRSnLu;
         "minecraft-1.21.11" = _SDSRSnLu;
+        "default" = _SDSRSnLu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SDSRSnLu";}
+in callPackage fn {version="default";}

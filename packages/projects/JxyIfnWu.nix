@@ -76,6 +76,7 @@ let
         "WdCq8adl" = _WdCq8adl;
         "forge-1.20.1" = _wdMbNd1d;
         "neoforge-1.21.1" = _WdCq8adl;
+        "default" = _WdCq8adl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WdCq8adl";}
+in callPackage fn {version="default";}

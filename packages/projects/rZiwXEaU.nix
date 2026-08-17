@@ -69,6 +69,7 @@ let
         "QiOqcHB6" = _QiOqcHB6;
         "wto036sB" = _wto036sB;
         "forge-1.8.9" = _wto036sB;
+        "default" = _wto036sB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wto036sB";}
+in callPackage fn {version="default";}

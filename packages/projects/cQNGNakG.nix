@@ -22,6 +22,7 @@ let
         "UOSBMlLe" = _UOSBMlLe;
         "forge-1.20.1" = _UOSBMlLe;
         "neoforge-1.20.1" = _eJ0nhWkU;
+        "default" = _UOSBMlLe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UOSBMlLe";}
+in callPackage fn {version="default";}

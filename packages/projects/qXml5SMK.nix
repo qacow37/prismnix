@@ -9,6 +9,7 @@ let
     in {
         "tdLYtfCc" = _tdLYtfCc;
         "forge-1.19.2" = _tdLYtfCc;
+        "default" = _tdLYtfCc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tdLYtfCc";}
+in callPackage fn {version="default";}

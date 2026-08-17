@@ -15,6 +15,7 @@ let
         "KBG3RQmu" = _KBG3RQmu;
         "UKZjnSlD" = _UKZjnSlD;
         "neoforge-1.21.1" = _UKZjnSlD;
+        "default" = _UKZjnSlD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UKZjnSlD";}
+in callPackage fn {version="default";}

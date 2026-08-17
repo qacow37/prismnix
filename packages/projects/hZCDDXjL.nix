@@ -69,6 +69,7 @@ let
         "minecraft-26.2-pre-1" = _diBsELRT;
         "minecraft-26.2-pre-2" = _diBsELRT;
         "minecraft-26.2-pre-3" = _diBsELRT;
+        "default" = _diBsELRT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="diBsELRT";}
+in callPackage fn {version="default";}

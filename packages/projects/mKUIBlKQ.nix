@@ -33,6 +33,7 @@ let
         "5UbQKg4S" = _5UbQKg4S;
         "iWuOlnPo" = _iWuOlnPo;
         "forge-1.12.2" = _iWuOlnPo;
+        "default" = _iWuOlnPo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iWuOlnPo";}
+in callPackage fn {version="default";}

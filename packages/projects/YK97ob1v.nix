@@ -172,6 +172,7 @@ let
         "bukkit-1.21.9" = _EN2VPfL5;
         "bukkit-1.21.10" = _EN2VPfL5;
         "bukkit-1.21.11" = _EN2VPfL5;
+        "default" = _EN2VPfL5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EN2VPfL5";}
+in callPackage fn {version="default";}

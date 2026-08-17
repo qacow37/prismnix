@@ -93,6 +93,7 @@ let
         "Zro1ROdU" = _Zro1ROdU;
         "EGetBgU3" = _EGetBgU3;
         "forge-1.12.2" = _EGetBgU3;
+        "default" = _EGetBgU3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EGetBgU3";}
+in callPackage fn {version="default";}

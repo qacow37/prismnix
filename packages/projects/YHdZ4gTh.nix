@@ -69,6 +69,7 @@ let
         "ltc1BVVA" = _ltc1BVVA;
         "wmrYTSyA" = _wmrYTSyA;
         "fabric-1.19.2" = _wmrYTSyA;
+        "default" = _wmrYTSyA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wmrYTSyA";}
+in callPackage fn {version="default";}

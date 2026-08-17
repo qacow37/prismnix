@@ -16,6 +16,7 @@ let
         "LG18ZrUE" = _LG18ZrUE;
         "fabric-1.20.4" = _8UuWsPBV;
         "fabric-1.21" = _LG18ZrUE;
+        "default" = _LG18ZrUE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LG18ZrUE";}
+in callPackage fn {version="default";}

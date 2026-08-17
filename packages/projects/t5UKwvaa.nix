@@ -27,6 +27,7 @@ let
         "9NkEQ850" = _9NkEQ850;
         "v3loXTka" = _v3loXTka;
         "bta-babric-b1.7.3" = _v3loXTka;
+        "default" = _v3loXTka;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="v3loXTka";}
+in callPackage fn {version="default";}

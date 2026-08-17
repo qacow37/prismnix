@@ -86,6 +86,7 @@ let
         "optifine-1.21.9" = _LcC7c1XT;
         "optifine-1.21.10" = _LcC7c1XT;
         "optifine-1.21.11" = _LcC7c1XT;
+        "default" = _LcC7c1XT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LcC7c1XT";}
+in callPackage fn {version="default";}

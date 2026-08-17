@@ -9,6 +9,7 @@ let
     in {
         "WAJio5wi" = _WAJio5wi;
         "fabric-1.21.1" = _WAJio5wi;
+        "default" = _WAJio5wi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WAJio5wi";}
+in callPackage fn {version="default";}

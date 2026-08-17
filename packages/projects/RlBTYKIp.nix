@@ -179,6 +179,7 @@ let
         "fabric-26.1" = _cVSrHECt;
         "fabric-26.1.1" = _cVSrHECt;
         "fabric-26.1.2" = _cVSrHECt;
+        "default" = _cVSrHECt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -199,4 +200,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cVSrHECt";}
+in callPackage fn {version="default";}

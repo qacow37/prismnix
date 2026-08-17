@@ -45,6 +45,7 @@ let
         "BUsI3ObS" = _BUsI3ObS;
         "dZzWtNPw" = _dZzWtNPw;
         "forge-1.20.1" = _dZzWtNPw;
+        "default" = _dZzWtNPw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dZzWtNPw";}
+in callPackage fn {version="default";}

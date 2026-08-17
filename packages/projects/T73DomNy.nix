@@ -134,6 +134,7 @@ let
         "quilt-1.21.6" = _UqXardPx;
         "quilt-1.21.7" = _UqXardPx;
         "quilt-1.21.8" = _UqXardPx;
+        "default" = _UqXardPx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -154,4 +155,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UqXardPx";}
+in callPackage fn {version="default";}

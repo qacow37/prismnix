@@ -126,6 +126,7 @@ let
         "fabric-1.18.1" = _OjuCPMq8;
         "fabric-1.18.2" = _MRrmH8JB;
         "fabric-1.19" = _Ph4exOvt;
+        "default" = _Ph4exOvt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -146,4 +147,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ph4exOvt";}
+in callPackage fn {version="default";}

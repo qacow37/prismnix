@@ -46,6 +46,7 @@ let
         "XGUSMafs" = _XGUSMafs;
         "neoforge-1.21.1" = _XGUSMafs;
         "forge-1.20.1" = _6oY5A4Iy;
+        "default" = _XGUSMafs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XGUSMafs";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "quilt-1.20.2" = _eSEKOoBR;
         "quilt-1.20.3" = _eSEKOoBR;
         "quilt-1.20.4" = _eSEKOoBR;
+        "default" = _eSEKOoBR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eSEKOoBR";}
+in callPackage fn {version="default";}

@@ -50,6 +50,7 @@ let
         "fabric-1.21.9" = _gWPlubql;
         "fabric-1.21.10" = _gWPlubql;
         "fabric-1.21.11" = _gWPlubql;
+        "default" = _gWPlubql;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gWPlubql";}
+in callPackage fn {version="default";}

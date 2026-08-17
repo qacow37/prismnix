@@ -27,6 +27,7 @@ let
         "minecraft-1.20.4" = _w3WGX3i8;
         "minecraft-1.21" = _JNMK4emc;
         "minecraft-1.21.1" = _JNMK4emc;
+        "default" = _JNMK4emc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JNMK4emc";}
+in callPackage fn {version="default";}

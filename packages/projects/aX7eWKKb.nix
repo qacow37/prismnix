@@ -45,6 +45,7 @@ let
         "rZrdU68T" = _rZrdU68T;
         "GgCMtS4V" = _GgCMtS4V;
         "neoforge-1.21.1" = _GgCMtS4V;
+        "default" = _GgCMtS4V;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GgCMtS4V";}
+in callPackage fn {version="default";}

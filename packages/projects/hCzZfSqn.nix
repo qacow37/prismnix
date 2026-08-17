@@ -12,6 +12,7 @@ let
         "fabric-1.20.2" = _DuBy74Nl;
         "fabric-1.20.3" = _DuBy74Nl;
         "fabric-1.20.4" = _DuBy74Nl;
+        "default" = _DuBy74Nl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DuBy74Nl";}
+in callPackage fn {version="default";}

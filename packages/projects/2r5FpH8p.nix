@@ -21,6 +21,7 @@ let
         "DrJIhaPB" = _DrJIhaPB;
         "erWSHMgu" = _erWSHMgu;
         "fabric-1.21.11" = _erWSHMgu;
+        "default" = _erWSHMgu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="erWSHMgu";}
+in callPackage fn {version="default";}

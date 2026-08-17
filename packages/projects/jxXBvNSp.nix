@@ -40,6 +40,7 @@ let
         "DCSp1i5p" = _DCSp1i5p;
         "forge-1.20.1" = _2sNcWf8K;
         "neoforge-1.21.1" = _DCSp1i5p;
+        "default" = _DCSp1i5p;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DCSp1i5p";}
+in callPackage fn {version="default";}

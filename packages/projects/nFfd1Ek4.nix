@@ -21,6 +21,7 @@ let
         "z7yDoj8N" = _z7yDoj8N;
         "kvo7zECp" = _kvo7zECp;
         "fabric-1.21.1" = _kvo7zECp;
+        "default" = _kvo7zECp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kvo7zECp";}
+in callPackage fn {version="default";}

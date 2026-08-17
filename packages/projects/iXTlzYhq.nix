@@ -122,6 +122,7 @@ let
         "spigot-1.21.3" = _OCFNaFqe;
         "spigot-1.21.4" = _OCFNaFqe;
         "spigot-1.21.11" = _OCFNaFqe;
+        "default" = _OCFNaFqe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -142,4 +143,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OCFNaFqe";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "zW1fazBS" = _zW1fazBS;
         "ZoyS9spt" = _ZoyS9spt;
         "minecraft-1.21.1" = _ZoyS9spt;
+        "default" = _ZoyS9spt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZoyS9spt";}
+in callPackage fn {version="default";}

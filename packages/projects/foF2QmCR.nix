@@ -30,6 +30,7 @@ let
         "fabric-26.1.1" = _ez5vuMb9;
         "fabric-26.1.2" = _ez5vuMb9;
         "fabric-26.2" = _KCMAu18W;
+        "default" = _KCMAu18W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KCMAu18W";}
+in callPackage fn {version="default";}

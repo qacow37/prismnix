@@ -283,6 +283,7 @@ let
         "vanilla-26.1.1" = _pCd2ipMp;
         "vanilla-26.1.2" = _pCd2ipMp;
         "vanilla-26.2" = _c7E5pYPx;
+        "default" = _c7E5pYPx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -303,4 +304,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c7E5pYPx";}
+in callPackage fn {version="default";}

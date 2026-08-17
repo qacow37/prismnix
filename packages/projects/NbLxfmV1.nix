@@ -646,6 +646,7 @@ let
         "quilt-1.21.11-rc2" = _HekJUapx;
         "quilt-1.21.11-rc3" = _HekJUapx;
         "quilt-1.21.11" = _HekJUapx;
+        "default" = _HekJUapx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -666,4 +667,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HekJUapx";}
+in callPackage fn {version="default";}

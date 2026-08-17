@@ -503,6 +503,7 @@ let
         "neoforge-26.1.2" = _djcEepCM;
         "fabric-1.21.1" = _AejMebCy;
         "quilt-1.21.1" = _AejMebCy;
+        "default" = _djcEepCM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -523,4 +524,4 @@ let
                 };
             };
         };
-in callPackage fn {version="djcEepCM";}
+in callPackage fn {version="default";}

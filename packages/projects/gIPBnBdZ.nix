@@ -224,6 +224,7 @@ let
         "quilt-1.20.3" = _S612LAvP;
         "quilt-1.20.4-rc1" = _S612LAvP;
         "quilt-1.20.4" = _S612LAvP;
+        "default" = _S612LAvP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -244,4 +245,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S612LAvP";}
+in callPackage fn {version="default";}

@@ -13,6 +13,7 @@ let
         "minecraft-1.19.2" = _LS7ML9ue;
         "minecraft-1.19.4" = _LS7ML9ue;
         "minecraft-1.20.4" = _LS7ML9ue;
+        "default" = _LS7ML9ue;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -33,4 +34,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LS7ML9ue";}
+in callPackage fn {version="default";}

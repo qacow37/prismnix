@@ -51,6 +51,7 @@ let
         "5C4TtbPt" = _5C4TtbPt;
         "JbOCtS6v" = _JbOCtS6v;
         "fabric-1.18.1" = _JbOCtS6v;
+        "default" = _JbOCtS6v;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JbOCtS6v";}
+in callPackage fn {version="default";}

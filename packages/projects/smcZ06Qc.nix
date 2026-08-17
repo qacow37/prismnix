@@ -193,6 +193,7 @@ let
         "fabric-26.1" = _6ATwAPkw;
         "fabric-26.1.1" = _6ATwAPkw;
         "fabric-26.1.2" = _6ATwAPkw;
+        "default" = _CLeIMB2W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -213,4 +214,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CLeIMB2W";}
+in callPackage fn {version="default";}

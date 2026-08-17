@@ -15,6 +15,7 @@ let
         "KvGoSCDx" = _KvGoSCDx;
         "Tut3kciV" = _Tut3kciV;
         "neoforge-1.21.1" = _Tut3kciV;
+        "default" = _Tut3kciV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tut3kciV";}
+in callPackage fn {version="default";}

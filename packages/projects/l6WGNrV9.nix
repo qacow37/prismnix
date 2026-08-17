@@ -21,6 +21,7 @@ let
         "m0A4t9H7" = _m0A4t9H7;
         "RI8AiPnx" = _RI8AiPnx;
         "forge-1.7.10" = _RI8AiPnx;
+        "default" = _RI8AiPnx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RI8AiPnx";}
+in callPackage fn {version="default";}

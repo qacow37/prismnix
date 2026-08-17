@@ -171,6 +171,7 @@ let
         "fabric-26.1" = _xu16hVzN;
         "fabric-26.1.1" = _xu16hVzN;
         "fabric-26.1.2" = _xu16hVzN;
+        "default" = _PIK4U4ip;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -191,4 +192,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PIK4U4ip";}
+in callPackage fn {version="default";}

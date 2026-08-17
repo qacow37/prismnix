@@ -1203,6 +1203,7 @@ let
         "neoforge-26.2" = _O6u7UB17;
         "neoforge-26.1" = _4D1xntV7;
         "neoforge-26.1.1" = _4D1xntV7;
+        "default" = _ucrgSAcv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1223,4 +1224,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ucrgSAcv";}
+in callPackage fn {version="default";}

@@ -135,6 +135,7 @@ let
         "KdBsDjoE" = _KdBsDjoE;
         "RtMxVKPM" = _RtMxVKPM;
         "forge-1.7.10" = _RtMxVKPM;
+        "default" = _RtMxVKPM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RtMxVKPM";}
+in callPackage fn {version="default";}

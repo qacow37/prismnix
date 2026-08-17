@@ -28,6 +28,7 @@ let
         "LDXNdRv2" = _LDXNdRv2;
         "neoforge-1.21.1" = _KZi6Ay8s;
         "neoforge-26.1.2" = _LDXNdRv2;
+        "default" = _LDXNdRv2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LDXNdRv2";}
+in callPackage fn {version="default";}

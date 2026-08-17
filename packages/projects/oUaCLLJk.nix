@@ -72,6 +72,7 @@ let
         "minecraft-1.21.9" = _ckycvOSx;
         "minecraft-1.21.10" = _ckycvOSx;
         "minecraft-1.21.11" = _ckycvOSx;
+        "default" = _ckycvOSx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -92,4 +93,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ckycvOSx";}
+in callPackage fn {version="default";}

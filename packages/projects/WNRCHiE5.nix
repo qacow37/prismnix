@@ -161,6 +161,7 @@ let
         "forge-1.20.1" = _xQaVq4qA;
         "neoforge-1.21.1" = _g0PyoRas;
         "fabric-1.20.1" = _5dAyd4ux;
+        "default" = _g0PyoRas;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -181,4 +182,4 @@ let
                 };
             };
         };
-in callPackage fn {version="g0PyoRas";}
+in callPackage fn {version="default";}

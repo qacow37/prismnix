@@ -16,6 +16,7 @@ let
         "evrapAu2" = _evrapAu2;
         "minecraft-1.18.2" = _evrapAu2;
         "minecraft-1.16.5" = _evrapAu2;
+        "default" = _evrapAu2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="evrapAu2";}
+in callPackage fn {version="default";}

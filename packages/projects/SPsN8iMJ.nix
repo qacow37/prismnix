@@ -101,6 +101,7 @@ let
         "fabric-1.21.4" = _Wsqs3rC1;
         "fabric-1.21.1" = _Z5yUKuzD;
         "fabric-26.1.1" = _ScuSROMt;
+        "default" = _ScuSROMt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -121,4 +122,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ScuSROMt";}
+in callPackage fn {version="default";}

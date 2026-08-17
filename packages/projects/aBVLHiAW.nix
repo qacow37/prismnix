@@ -359,6 +359,7 @@ let
         "purpur-26.1.1" = _VL8WL24W;
         "purpur-26.1.2" = _VL8WL24W;
         "purpur-26.2" = _VL8WL24W;
+        "default" = _VL8WL24W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -379,4 +380,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VL8WL24W";}
+in callPackage fn {version="default";}

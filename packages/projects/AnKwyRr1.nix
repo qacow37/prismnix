@@ -22,6 +22,7 @@ let
         "vswv13SZ" = _vswv13SZ;
         "datapack-1.21.1" = _vswv13SZ;
         "minecraft-1.21.1" = _vswv13SZ;
+        "default" = _vswv13SZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vswv13SZ";}
+in callPackage fn {version="default";}

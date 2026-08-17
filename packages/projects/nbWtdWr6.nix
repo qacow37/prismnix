@@ -97,6 +97,7 @@ let
         "quilt-1.21.3" = _WMdPCDh2;
         "quilt-1.21.4" = _WMdPCDh2;
         "quilt-1.21.5" = _WMdPCDh2;
+        "default" = _WMdPCDh2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -117,4 +118,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WMdPCDh2";}
+in callPackage fn {version="default";}

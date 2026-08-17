@@ -66,6 +66,7 @@ let
         "optifine-26.1.1" = _VCedhsAy;
         "optifine-26.1.2" = _VCedhsAy;
         "optifine-26.2" = _VCedhsAy;
+        "default" = _VCedhsAy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VCedhsAy";}
+in callPackage fn {version="default";}

@@ -25,6 +25,7 @@ let
         "minecraft-26.1" = _SrwspSVG;
         "minecraft-26.1.1" = _SrwspSVG;
         "minecraft-26.1.2" = _SrwspSVG;
+        "default" = _SrwspSVG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -45,4 +46,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SrwspSVG";}
+in callPackage fn {version="default";}

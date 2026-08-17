@@ -28,6 +28,7 @@ let
         "3kM1QzIP" = _3kM1QzIP;
         "forge-1.20.1" = _cdjEottG;
         "forge-1.18.2" = _3kM1QzIP;
+        "default" = _3kM1QzIP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3kM1QzIP";}
+in callPackage fn {version="default";}

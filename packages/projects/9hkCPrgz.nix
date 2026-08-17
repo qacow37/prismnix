@@ -36,6 +36,7 @@ let
         "datapack-1.20" = _CmUE2Nj3;
         "datapack-1.20.1" = _CmUE2Nj3;
         "datapack-1.20.2" = _m2a4AEmi;
+        "default" = _m2a4AEmi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="m2a4AEmi";}
+in callPackage fn {version="default";}

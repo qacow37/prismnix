@@ -45,6 +45,7 @@ let
         "fabric-1.21.9" = _usaJ2BMS;
         "fabric-1.21.10" = _usaJ2BMS;
         "fabric-1.21.11" = _AnSdQ3JE;
+        "default" = _usaJ2BMS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="usaJ2BMS";}
+in callPackage fn {version="default";}

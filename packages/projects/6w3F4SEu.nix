@@ -112,6 +112,7 @@ let
         "minecraft-26.1.1" = _ry4VI4eZ;
         "minecraft-26.1.2" = _ry4VI4eZ;
         "minecraft-26.2" = _M27tmode;
+        "default" = _M27tmode;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="M27tmode";}
+in callPackage fn {version="default";}

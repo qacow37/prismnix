@@ -1111,6 +1111,7 @@ let
         "forge-26.3-snapshot-4" = _aMNoJIDq;
         "forge-26.3-snapshot-5" = _C0ny2mMG;
         "forge-26.3-snapshot-6" = _C0ny2mMG;
+        "default" = _C0ny2mMG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1131,4 +1132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="C0ny2mMG";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "lmN8yk1g" = _lmN8yk1g;
         "ZeuCrViq" = _ZeuCrViq;
         "minecraft-1.7.10" = _ZeuCrViq;
+        "default" = _ZeuCrViq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZeuCrViq";}
+in callPackage fn {version="default";}

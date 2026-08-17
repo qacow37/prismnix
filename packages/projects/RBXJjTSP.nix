@@ -30,6 +30,7 @@ let
         "minecraft-1.21.6" = _lscvkNBN;
         "minecraft-1.21.7" = _lscvkNBN;
         "minecraft-1.21.8" = _lscvkNBN;
+        "default" = _lscvkNBN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lscvkNBN";}
+in callPackage fn {version="default";}

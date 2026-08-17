@@ -10,6 +10,7 @@ let
         "knGmpSyX" = _knGmpSyX;
         "minecraft-1.21.7" = _knGmpSyX;
         "minecraft-1.21.8" = _knGmpSyX;
+        "default" = _knGmpSyX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="knGmpSyX";}
+in callPackage fn {version="default";}

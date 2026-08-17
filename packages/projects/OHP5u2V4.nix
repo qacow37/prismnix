@@ -21,6 +21,7 @@ let
         "XyrsDPrO" = _XyrsDPrO;
         "1UUCogV1" = _1UUCogV1;
         "forge-1.20.1" = _1UUCogV1;
+        "default" = _1UUCogV1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1UUCogV1";}
+in callPackage fn {version="default";}

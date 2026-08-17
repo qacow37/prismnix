@@ -235,6 +235,7 @@ let
         "geyser-26.1" = _MAqjdI2q;
         "geyser-26.1.1" = _MAqjdI2q;
         "geyser-26.1.2" = _MAqjdI2q;
+        "default" = _MAqjdI2q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -255,4 +256,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MAqjdI2q";}
+in callPackage fn {version="default";}

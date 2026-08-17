@@ -76,6 +76,7 @@ let
         "M29EAkal" = _M29EAkal;
         "fabric-1.21.1" = _M29EAkal;
         "neoforge-1.21.1" = _xL1qDNc2;
+        "default" = _M29EAkal;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="M29EAkal";}
+in callPackage fn {version="default";}

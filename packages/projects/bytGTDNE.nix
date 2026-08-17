@@ -59,6 +59,7 @@ let
         "minecraft-1.19.3" = _NNMxUDD9;
         "minecraft-1.20" = _NNMxUDD9;
         "minecraft-1.20.1" = _NNMxUDD9;
+        "default" = _NNMxUDD9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -79,4 +80,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NNMxUDD9";}
+in callPackage fn {version="default";}

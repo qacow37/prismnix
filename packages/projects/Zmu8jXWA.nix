@@ -190,6 +190,7 @@ let
         "quilt-1.21.1" = _Ktzbblxh;
         "quilt-1.21.2" = _Ktzbblxh;
         "quilt-1.21.3" = _Ktzbblxh;
+        "default" = _ygORymL4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -210,4 +211,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ygORymL4";}
+in callPackage fn {version="default";}

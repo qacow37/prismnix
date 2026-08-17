@@ -177,6 +177,7 @@ let
         "folia-1.21.2" = _IPBprg2W;
         "folia-1.21.3" = _IPBprg2W;
         "folia-1.21.5" = _IPBprg2W;
+        "default" = _IPBprg2W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -197,4 +198,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IPBprg2W";}
+in callPackage fn {version="default";}

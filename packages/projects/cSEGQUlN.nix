@@ -15,6 +15,7 @@ let
         "GbOPKMap" = _GbOPKMap;
         "AmqKgYpq" = _AmqKgYpq;
         "fabric-1.21.11" = _AmqKgYpq;
+        "default" = _AmqKgYpq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AmqKgYpq";}
+in callPackage fn {version="default";}

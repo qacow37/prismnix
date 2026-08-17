@@ -370,6 +370,7 @@ let
         "neoforge-26.1.1" = _WXlCikiz;
         "neoforge-26.1.2" = _WXlCikiz;
         "neoforge-26.2" = _KIPpMLGH;
+        "default" = _KIPpMLGH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -390,4 +391,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KIPpMLGH";}
+in callPackage fn {version="default";}

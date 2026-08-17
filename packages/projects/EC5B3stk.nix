@@ -189,6 +189,7 @@ let
         "MQaK1QHw" = _MQaK1QHw;
         "okDedZnd" = _okDedZnd;
         "forge-1.7.10" = _okDedZnd;
+        "default" = _okDedZnd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -209,4 +210,4 @@ let
                 };
             };
         };
-in callPackage fn {version="okDedZnd";}
+in callPackage fn {version="default";}

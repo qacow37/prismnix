@@ -88,6 +88,7 @@ let
         "NcpMswDK" = _NcpMswDK;
         "forge-1.18.2" = _NcpMswDK;
         "forge-1.19.2" = _YZqLRGsm;
+        "default" = _NcpMswDK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NcpMswDK";}
+in callPackage fn {version="default";}

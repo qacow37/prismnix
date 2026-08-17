@@ -210,6 +210,7 @@ let
         "minecraft-1.21.1" = _YGgixlha;
         "minecraft-1.20" = _BS06iQwN;
         "minecraft-1.21" = _YGgixlha;
+        "default" = _YGgixlha;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -230,4 +231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YGgixlha";}
+in callPackage fn {version="default";}

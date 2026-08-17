@@ -45,6 +45,7 @@ let
         "fabric-26.1.1" = _fKeisY64;
         "fabric-26.1.2" = _fKeisY64;
         "fabric-26.2" = _hAtoGuKE;
+        "default" = _hAtoGuKE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hAtoGuKE";}
+in callPackage fn {version="default";}

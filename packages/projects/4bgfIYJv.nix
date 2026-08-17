@@ -105,6 +105,7 @@ let
         "evyIn5W4" = _evyIn5W4;
         "lv2SQ2fz" = _lv2SQ2fz;
         "forge-1.20.1" = _lv2SQ2fz;
+        "default" = _lv2SQ2fz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lv2SQ2fz";}
+in callPackage fn {version="default";}

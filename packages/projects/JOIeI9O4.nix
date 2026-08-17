@@ -33,6 +33,7 @@ let
         "CEoDhg7f" = _CEoDhg7f;
         "EOifXTXr" = _EOifXTXr;
         "forge-1.7.10" = _EOifXTXr;
+        "default" = _EOifXTXr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EOifXTXr";}
+in callPackage fn {version="default";}

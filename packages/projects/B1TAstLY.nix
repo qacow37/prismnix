@@ -76,6 +76,7 @@ let
         "bIO4RBmi" = _bIO4RBmi;
         "fabric-1.20.1" = _CCGWUukt;
         "fabric-1.21.1" = _bIO4RBmi;
+        "default" = _bIO4RBmi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bIO4RBmi";}
+in callPackage fn {version="default";}

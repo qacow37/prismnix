@@ -424,6 +424,7 @@ let
         "fabric-1.21.8" = _H1simGEZ;
         "fabric-1.21.9" = _X57uiYy4;
         "fabric-1.21.10" = _X57uiYy4;
+        "default" = _X57uiYy4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -444,4 +445,4 @@ let
                 };
             };
         };
-in callPackage fn {version="X57uiYy4";}
+in callPackage fn {version="default";}

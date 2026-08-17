@@ -572,6 +572,7 @@ let
         "optifine-26.1.1" = _3cIADbit;
         "optifine-26.1.2" = _3cIADbit;
         "optifine-26.2" = _3cIADbit;
+        "default" = _3cIADbit;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -592,4 +593,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3cIADbit";}
+in callPackage fn {version="default";}

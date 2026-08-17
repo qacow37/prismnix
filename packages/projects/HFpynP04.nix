@@ -60,6 +60,7 @@ let
         "optifine-26.1.1" = _7xmlQsfi;
         "optifine-26.1.2" = _7xmlQsfi;
         "optifine-26.2" = _7xmlQsfi;
+        "default" = _7xmlQsfi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7xmlQsfi";}
+in callPackage fn {version="default";}

@@ -9,6 +9,7 @@ let
     in {
         "scvAaFix" = _scvAaFix;
         "minecraft-1.20.1" = _scvAaFix;
+        "default" = _scvAaFix;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="scvAaFix";}
+in callPackage fn {version="default";}

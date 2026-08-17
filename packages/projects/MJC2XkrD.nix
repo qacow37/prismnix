@@ -25,6 +25,7 @@ let
         "minecraft-26.1.1" = _i2032Lfe;
         "minecraft-26.1.2" = _i2032Lfe;
         "minecraft-26.2" = _i2032Lfe;
+        "default" = _i2032Lfe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -45,4 +46,4 @@ let
                 };
             };
         };
-in callPackage fn {version="i2032Lfe";}
+in callPackage fn {version="default";}

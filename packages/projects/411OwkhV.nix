@@ -318,6 +318,7 @@ let
         "folia-1.20.2" = _DxvSTucG;
         "folia-1.20.3" = _DxvSTucG;
         "folia-1.20.4" = _DxvSTucG;
+        "default" = _DxvSTucG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -338,4 +339,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DxvSTucG";}
+in callPackage fn {version="default";}

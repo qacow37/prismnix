@@ -16,6 +16,7 @@ let
         "OWENs2Th" = _OWENs2Th;
         "fabric-1.21.1" = _HkBOX5XJ;
         "neoforge-1.21.1" = _OWENs2Th;
+        "default" = _OWENs2Th;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OWENs2Th";}
+in callPackage fn {version="default";}

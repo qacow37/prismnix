@@ -81,6 +81,7 @@ let
         "kPBhFAYD" = _kPBhFAYD;
         "Ap07GlHB" = _Ap07GlHB;
         "babric-b1.7.3" = _Ap07GlHB;
+        "default" = _Ap07GlHB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ap07GlHB";}
+in callPackage fn {version="default";}

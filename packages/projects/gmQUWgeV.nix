@@ -22,6 +22,7 @@ let
         "zGMfKGIU" = _zGMfKGIU;
         "neoforge-1.21.1" = _zGMfKGIU;
         "neoforge-1.21" = _zGMfKGIU;
+        "default" = _zGMfKGIU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zGMfKGIU";}
+in callPackage fn {version="default";}

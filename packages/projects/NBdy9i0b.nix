@@ -124,6 +124,7 @@ let
         "neoforge-1.21.2" = _EXgiZnIr;
         "neoforge-1.21.3" = _EXgiZnIr;
         "neoforge-1.21.4" = _EXgiZnIr;
+        "default" = _EXgiZnIr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EXgiZnIr";}
+in callPackage fn {version="default";}

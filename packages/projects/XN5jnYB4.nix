@@ -1035,6 +1035,7 @@ let
         "J4WM1py5" = _J4WM1py5;
         "LHI6Re9n" = _LHI6Re9n;
         "forge-1.7.10" = _LHI6Re9n;
+        "default" = _LHI6Re9n;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1055,4 +1056,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LHI6Re9n";}
+in callPackage fn {version="default";}

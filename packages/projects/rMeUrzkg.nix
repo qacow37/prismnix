@@ -28,6 +28,7 @@ let
         "Lfp2QIV5" = _Lfp2QIV5;
         "fabric-1.21.10" = _vafS3dJ3;
         "fabric-1.21.11" = _Lfp2QIV5;
+        "default" = _Lfp2QIV5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Lfp2QIV5";}
+in callPackage fn {version="default";}

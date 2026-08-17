@@ -9,6 +9,7 @@ let
     in {
         "IOs1rRga" = _IOs1rRga;
         "minecraft-1.21" = _IOs1rRga;
+        "default" = _IOs1rRga;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IOs1rRga";}
+in callPackage fn {version="default";}

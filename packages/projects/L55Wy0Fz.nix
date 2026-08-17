@@ -21,6 +21,7 @@ let
         "QBprvpeM" = _QBprvpeM;
         "iA5iBBLV" = _iA5iBBLV;
         "forge-1.12.2" = _iA5iBBLV;
+        "default" = _iA5iBBLV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iA5iBBLV";}
+in callPackage fn {version="default";}

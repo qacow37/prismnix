@@ -9,6 +9,7 @@ let
     in {
         "QNggleEx" = _QNggleEx;
         "forge-1.7.10" = _QNggleEx;
+        "default" = _QNggleEx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QNggleEx";}
+in callPackage fn {version="default";}

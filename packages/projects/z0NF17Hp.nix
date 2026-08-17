@@ -206,6 +206,7 @@ let
         "optifine-1.16.2" = _a7vrc4Lw;
         "optifine-1.16.3" = _a7vrc4Lw;
         "optifine-1.16.4" = _a7vrc4Lw;
+        "default" = _a7vrc4Lw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -226,4 +227,4 @@ let
                 };
             };
         };
-in callPackage fn {version="a7vrc4Lw";}
+in callPackage fn {version="default";}

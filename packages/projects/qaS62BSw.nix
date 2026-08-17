@@ -37,6 +37,7 @@ let
         "minecraft-1.21.2" = _jCPROR3F;
         "minecraft-1.21.3" = _jCPROR3F;
         "minecraft-1.21.4" = _jCPROR3F;
+        "default" = _jCPROR3F;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jCPROR3F";}
+in callPackage fn {version="default";}

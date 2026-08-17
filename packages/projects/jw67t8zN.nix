@@ -274,6 +274,7 @@ let
         "neoforge-26.1" = _x7G240v2;
         "neoforge-26.1.1" = _x7G240v2;
         "neoforge-26.1.2" = _x7G240v2;
+        "default" = _x7G240v2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -294,4 +295,4 @@ let
                 };
             };
         };
-in callPackage fn {version="x7G240v2";}
+in callPackage fn {version="default";}

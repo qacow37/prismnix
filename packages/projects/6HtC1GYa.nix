@@ -378,6 +378,7 @@ let
         "fabric-26.1" = _48gkbOYd;
         "fabric-26.1.1" = _48gkbOYd;
         "fabric-26.1.2" = _48gkbOYd;
+        "default" = _wWvPcmpM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -398,4 +399,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wWvPcmpM";}
+in callPackage fn {version="default";}

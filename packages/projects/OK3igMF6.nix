@@ -33,6 +33,7 @@ let
         "EKnloQH0" = _EKnloQH0;
         "NKA78Zxa" = _NKA78Zxa;
         "forge-1.12.2" = _NKA78Zxa;
+        "default" = _NKA78Zxa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NKA78Zxa";}
+in callPackage fn {version="default";}

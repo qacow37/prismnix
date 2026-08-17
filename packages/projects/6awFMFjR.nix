@@ -63,6 +63,7 @@ let
         "Oa0RDBOh" = _Oa0RDBOh;
         "yx32Af0N" = _yx32Af0N;
         "neoforge-1.21.1" = _yx32Af0N;
+        "default" = _yx32Af0N;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yx32Af0N";}
+in callPackage fn {version="default";}

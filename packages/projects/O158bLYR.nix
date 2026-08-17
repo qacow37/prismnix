@@ -39,6 +39,7 @@ let
         "Juif3630" = _Juif3630;
         "SlftDV3O" = _SlftDV3O;
         "fabric-1.20.1" = _SlftDV3O;
+        "default" = _SlftDV3O;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SlftDV3O";}
+in callPackage fn {version="default";}

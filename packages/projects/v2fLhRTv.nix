@@ -16,6 +16,7 @@ let
         "YTwdgJLf" = _YTwdgJLf;
         "fabric-1.19.2" = _1r3Gwla0;
         "fabric-1.20" = _YTwdgJLf;
+        "default" = _YTwdgJLf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YTwdgJLf";}
+in callPackage fn {version="default";}

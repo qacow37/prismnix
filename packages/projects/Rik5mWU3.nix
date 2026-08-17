@@ -16,6 +16,7 @@ let
         "iksGqeli" = _iksGqeli;
         "neoforge-1.21" = _iksGqeli;
         "neoforge-1.21.1" = _iksGqeli;
+        "default" = _iksGqeli;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iksGqeli";}
+in callPackage fn {version="default";}

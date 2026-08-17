@@ -48,6 +48,7 @@ let
         "datapack-1.20.1" = _RmxUlgwY;
         "fabric-1.20.1" = _pask2dEM;
         "quilt-1.20.1" = _pask2dEM;
+        "default" = _pask2dEM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -68,4 +69,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pask2dEM";}
+in callPackage fn {version="default";}

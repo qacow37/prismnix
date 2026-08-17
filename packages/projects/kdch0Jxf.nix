@@ -645,6 +645,7 @@ let
         "neoforge-26.1.1" = _ojgoWSyN;
         "neoforge-26.1.2" = _ojgoWSyN;
         "neoforge-26.2" = _ojgoWSyN;
+        "default" = _ojgoWSyN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -665,4 +666,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ojgoWSyN";}
+in callPackage fn {version="default";}

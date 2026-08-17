@@ -15,6 +15,7 @@ let
         "22ErJy59" = _22ErJy59;
         "NDEB8MTw" = _NDEB8MTw;
         "forge-1.12.2" = _NDEB8MTw;
+        "default" = _NDEB8MTw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NDEB8MTw";}
+in callPackage fn {version="default";}

@@ -120,6 +120,7 @@ let
         "quilt-26.1.1" = _JLDovcWc;
         "quilt-26.1.2" = _JLDovcWc;
         "quilt-26.2" = _JLDovcWc;
+        "default" = _JLDovcWc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JLDovcWc";}
+in callPackage fn {version="default";}

@@ -49,6 +49,7 @@ let
         "quilt-1.21.9" = _54rariBc;
         "quilt-1.21.10" = _54rariBc;
         "quilt-1.21.11" = _54rariBc;
+        "default" = _54rariBc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="54rariBc";}
+in callPackage fn {version="default";}

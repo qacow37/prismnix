@@ -52,6 +52,7 @@ let
         "minecraft-1.21.2" = _Gpa7UBZA;
         "minecraft-1.21.3" = _Gpa7UBZA;
         "minecraft-1.21.4" = _Gpa7UBZA;
+        "default" = _Gpa7UBZA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Gpa7UBZA";}
+in callPackage fn {version="default";}

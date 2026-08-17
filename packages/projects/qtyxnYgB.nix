@@ -28,6 +28,7 @@ let
         "HpkAuTfp" = _HpkAuTfp;
         "neoforge-1.21.1" = _7BmJOLA0;
         "neoforge-1.21.3" = _HpkAuTfp;
+        "default" = _HpkAuTfp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HpkAuTfp";}
+in callPackage fn {version="default";}

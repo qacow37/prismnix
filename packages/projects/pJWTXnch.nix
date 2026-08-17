@@ -106,6 +106,7 @@ let
         "DtbUGCnp" = _DtbUGCnp;
         "forge-1.20.1" = _anvddbjJ;
         "forge-1.21.8" = _DtbUGCnp;
+        "default" = _DtbUGCnp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DtbUGCnp";}
+in callPackage fn {version="default";}

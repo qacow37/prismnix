@@ -85,6 +85,7 @@ let
         "minecraft-1.20.5" = _trSAXLjx;
         "minecraft-1.20.6" = _trSAXLjx;
         "minecraft-26.2" = _trSAXLjx;
+        "default" = _trSAXLjx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="trSAXLjx";}
+in callPackage fn {version="default";}

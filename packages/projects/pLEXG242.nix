@@ -16,6 +16,7 @@ let
         "jRMBfTEf" = _jRMBfTEf;
         "minecraft-1.21" = _jRMBfTEf;
         "minecraft-1.21.1" = _jRMBfTEf;
+        "default" = _jRMBfTEf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jRMBfTEf";}
+in callPackage fn {version="default";}

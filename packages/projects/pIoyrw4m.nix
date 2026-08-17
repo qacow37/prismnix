@@ -45,6 +45,7 @@ let
         "oLblXIc0" = _oLblXIc0;
         "LOXHddVj" = _LOXHddVj;
         "forge-1.20.1" = _LOXHddVj;
+        "default" = _LOXHddVj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LOXHddVj";}
+in callPackage fn {version="default";}

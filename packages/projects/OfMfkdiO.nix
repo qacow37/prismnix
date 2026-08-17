@@ -202,6 +202,7 @@ let
         "3i0JP4qh" = _3i0JP4qh;
         "velocity-1.19.3" = _25kOslIx;
         "velocity-1.7.2" = _3i0JP4qh;
+        "default" = _3i0JP4qh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -222,4 +223,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3i0JP4qh";}
+in callPackage fn {version="default";}

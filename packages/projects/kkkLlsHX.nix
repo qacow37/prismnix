@@ -19,6 +19,7 @@ let
         "minecraft-1.20" = _AASp8tLS;
         "minecraft-1.20.1" = _AASp8tLS;
         "minecraft-1.20.4" = _AASp8tLS;
+        "default" = _AASp8tLS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AASp8tLS";}
+in callPackage fn {version="default";}

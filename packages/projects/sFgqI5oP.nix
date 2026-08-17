@@ -159,6 +159,7 @@ let
         "neoforge-1.21.10" = _zQ25PTpc;
         "neoforge-1.21.11" = _zQ25PTpc;
         "neoforge-26.2" = _djc0zkmb;
+        "default" = _axoTGv12;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -179,4 +180,4 @@ let
                 };
             };
         };
-in callPackage fn {version="axoTGv12";}
+in callPackage fn {version="default";}

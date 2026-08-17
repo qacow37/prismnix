@@ -81,6 +81,7 @@ let
         "HEOUKkXd" = _HEOUKkXd;
         "kaB12r0z" = _kaB12r0z;
         "forge-1.16.5" = _kaB12r0z;
+        "default" = _kaB12r0z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kaB12r0z";}
+in callPackage fn {version="default";}

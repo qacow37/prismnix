@@ -213,6 +213,7 @@ let
         "fabric-1.19.2" = _8HPyqDyO;
         "fabric-1.19.3" = _8HPyqDyO;
         "fabric-1.19.4" = _8HPyqDyO;
+        "default" = _WFDtitCm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -233,4 +234,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WFDtitCm";}
+in callPackage fn {version="default";}

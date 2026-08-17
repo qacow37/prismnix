@@ -21,6 +21,7 @@ let
         "dJbnnIls" = _dJbnnIls;
         "6ObRtyMG" = _6ObRtyMG;
         "forge-1.12.2" = _6ObRtyMG;
+        "default" = _6ObRtyMG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6ObRtyMG";}
+in callPackage fn {version="default";}

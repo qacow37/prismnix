@@ -16,6 +16,7 @@ let
         "LkoIFm65" = _LkoIFm65;
         "forge-1.20.1" = _zPusf9K3;
         "forge-1.18.2" = _LkoIFm65;
+        "default" = _LkoIFm65;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LkoIFm65";}
+in callPackage fn {version="default";}

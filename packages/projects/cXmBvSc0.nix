@@ -19,6 +19,7 @@ let
         "minecraft-1.19.2" = _YSaTRiSy;
         "minecraft-1.20" = _Ht5FbdnL;
         "minecraft-1.20.1" = _Ht5FbdnL;
+        "default" = _Ht5FbdnL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ht5FbdnL";}
+in callPackage fn {version="default";}

@@ -282,6 +282,7 @@ let
         "purpur-26.1.1" = _TEV5XXNh;
         "purpur-26.1.2" = _TEV5XXNh;
         "purpur-26.2" = _TEV5XXNh;
+        "default" = _TEV5XXNh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -302,4 +303,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TEV5XXNh";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "TQ8fT2ls" = _TQ8fT2ls;
         "LFLf8TIL" = _LFLf8TIL;
         "forge-1.20.1" = _LFLf8TIL;
+        "default" = _LFLf8TIL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LFLf8TIL";}
+in callPackage fn {version="default";}

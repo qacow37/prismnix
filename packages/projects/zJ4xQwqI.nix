@@ -230,6 +230,7 @@ let
         "neoforge-1.20.4" = _Tm0eJlJu;
         "neoforge-1.21" = _IB00hAXt;
         "neoforge-1.21.1" = _DBJTonDv;
+        "default" = _DBJTonDv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -250,4 +251,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DBJTonDv";}
+in callPackage fn {version="default";}

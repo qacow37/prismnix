@@ -34,6 +34,7 @@ let
         "fabric-1.20.5" = _OO4OMNQB;
         "fabric-1.20.6" = _OO4OMNQB;
         "fabric-1.21" = _OO4OMNQB;
+        "default" = _OO4OMNQB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OO4OMNQB";}
+in callPackage fn {version="default";}

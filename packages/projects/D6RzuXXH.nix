@@ -205,6 +205,7 @@ let
         "purpur-1.21.9" = _yGLiZah8;
         "purpur-1.21.10" = _yGLiZah8;
         "purpur-1.21.11" = _yGLiZah8;
+        "default" = _yGLiZah8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -225,4 +226,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yGLiZah8";}
+in callPackage fn {version="default";}

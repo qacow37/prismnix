@@ -143,6 +143,7 @@ let
         "quilt-26.1.1" = _kjzZws3E;
         "quilt-26.1.2" = _kjzZws3E;
         "quilt-26.2" = _soma2IEK;
+        "default" = _soma2IEK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -163,4 +164,4 @@ let
                 };
             };
         };
-in callPackage fn {version="soma2IEK";}
+in callPackage fn {version="default";}

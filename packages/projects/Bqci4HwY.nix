@@ -39,6 +39,7 @@ let
         "rHES4NIB" = _rHES4NIB;
         "rfBIwZYX" = _rfBIwZYX;
         "fabric-1.20.1" = _rfBIwZYX;
+        "default" = _rfBIwZYX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rfBIwZYX";}
+in callPackage fn {version="default";}

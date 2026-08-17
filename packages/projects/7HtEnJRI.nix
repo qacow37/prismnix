@@ -12,6 +12,7 @@ let
         "minecraft-1.8.9" = _tDyucwem;
         "minecraft-1.12.2" = _tDyucwem;
         "minecraft-1.20" = _tDyucwem;
+        "default" = _tDyucwem;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tDyucwem";}
+in callPackage fn {version="default";}

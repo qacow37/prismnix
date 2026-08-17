@@ -25,6 +25,7 @@ let
         "forge-1.19.2" = _t4ExfTCr;
         "forge-1.19.3" = _t4ExfTCr;
         "forge-1.19.4" = _t4ExfTCr;
+        "default" = _t4ExfTCr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -45,4 +46,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t4ExfTCr";}
+in callPackage fn {version="default";}

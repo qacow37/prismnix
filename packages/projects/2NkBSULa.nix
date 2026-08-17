@@ -184,6 +184,7 @@ let
         "spigot-26.1" = _ORgve0tv;
         "spigot-26.1.1" = _ORgve0tv;
         "spigot-26.1.2" = _ORgve0tv;
+        "default" = _ORgve0tv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -204,4 +205,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ORgve0tv";}
+in callPackage fn {version="default";}

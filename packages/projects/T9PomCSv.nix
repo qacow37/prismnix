@@ -136,6 +136,7 @@ let
         "hyQUls27" = _hyQUls27;
         "fabric-1.21.1" = _hyQUls27;
         "neoforge-1.21.1" = _1L6XJqnY;
+        "default" = _hyQUls27;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hyQUls27";}
+in callPackage fn {version="default";}

@@ -210,6 +210,7 @@ let
         "neoforge-1.21.9" = _WDFi1QQd;
         "neoforge-1.21.10" = _WDFi1QQd;
         "neoforge-1.21.11" = _WDFi1QQd;
+        "default" = _WDFi1QQd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -230,4 +231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WDFi1QQd";}
+in callPackage fn {version="default";}

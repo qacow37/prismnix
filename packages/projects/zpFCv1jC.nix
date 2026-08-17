@@ -69,6 +69,7 @@ let
         "z85LmWAm" = _z85LmWAm;
         "9UsckWGL" = _9UsckWGL;
         "neoforge-1.21.1" = _9UsckWGL;
+        "default" = _9UsckWGL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9UsckWGL";}
+in callPackage fn {version="default";}

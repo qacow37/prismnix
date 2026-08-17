@@ -1528,6 +1528,7 @@ let
         "neoforge-26.1.2" = _F77amHhu;
         "neoforge-26.2" = _F77amHhu;
         "babric-b1.7.3" = _e84truih;
+        "default" = _f3EUl5Ep;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1548,4 +1549,4 @@ let
                 };
             };
         };
-in callPackage fn {version="f3EUl5Ep";}
+in callPackage fn {version="default";}

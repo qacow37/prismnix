@@ -125,6 +125,7 @@ let
         "datapack-1.20.1" = _OkCaEDyh;
         "fabric-1.20.1" = _GWWkSXtF;
         "forge-1.20.1" = _zXYMiPys;
+        "default" = _zXYMiPys;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -145,4 +146,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zXYMiPys";}
+in callPackage fn {version="default";}

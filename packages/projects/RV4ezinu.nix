@@ -57,6 +57,7 @@ let
         "8foncxoL" = _8foncxoL;
         "s49dr29b" = _s49dr29b;
         "forge-1.20.1" = _s49dr29b;
+        "default" = _s49dr29b;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="s49dr29b";}
+in callPackage fn {version="default";}

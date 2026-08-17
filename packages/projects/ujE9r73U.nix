@@ -16,6 +16,7 @@ let
         "NBGUBzfj" = _NBGUBzfj;
         "fabric-1.20.1" = _tlTAm20p;
         "neoforge-1.21.1" = _NBGUBzfj;
+        "default" = _NBGUBzfj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NBGUBzfj";}
+in callPackage fn {version="default";}

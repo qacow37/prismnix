@@ -16,6 +16,7 @@ let
         "PD7SC1yE" = _PD7SC1yE;
         "fabric-1.14.2" = _Xt2LAUAV;
         "forge-1.12.2" = _PD7SC1yE;
+        "default" = _PD7SC1yE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PD7SC1yE";}
+in callPackage fn {version="default";}

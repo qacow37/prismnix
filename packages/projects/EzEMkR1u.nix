@@ -302,6 +302,7 @@ let
         "folia-26.1" = _lJPVaapD;
         "folia-26.1.1" = _lJPVaapD;
         "folia-26.1.2" = _lJPVaapD;
+        "default" = _lJPVaapD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -322,4 +323,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lJPVaapD";}
+in callPackage fn {version="default";}

@@ -76,6 +76,7 @@ let
         "EcKFRzjl" = _EcKFRzjl;
         "fabric-1.21.8" = _SWDAdSyg;
         "fabric-1.21.1" = _EcKFRzjl;
+        "default" = _EcKFRzjl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EcKFRzjl";}
+in callPackage fn {version="default";}

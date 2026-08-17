@@ -28,6 +28,7 @@ let
         "KMI53a3K" = _KMI53a3K;
         "fabric-1.20.4" = _L7BAQu7g;
         "fabric-1.21.1" = _KMI53a3K;
+        "default" = _KMI53a3K;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KMI53a3K";}
+in callPackage fn {version="default";}

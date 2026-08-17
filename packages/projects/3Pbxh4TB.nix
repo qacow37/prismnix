@@ -68,6 +68,7 @@ let
         "fabric-1.21.7" = _jMZyn4hw;
         "fabric-1.21.8" = _jMZyn4hw;
         "fabric-1.21.9" = _jMZyn4hw;
+        "default" = _jMZyn4hw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jMZyn4hw";}
+in callPackage fn {version="default";}

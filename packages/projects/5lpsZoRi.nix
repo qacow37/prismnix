@@ -46,6 +46,7 @@ let
         "wvGHsmul" = _wvGHsmul;
         "forge-1.18.2" = _xp7zKZ1z;
         "forge-1.19.2" = _wvGHsmul;
+        "default" = _wvGHsmul;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wvGHsmul";}
+in callPackage fn {version="default";}

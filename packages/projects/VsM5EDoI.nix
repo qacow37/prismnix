@@ -167,6 +167,7 @@ let
         "forge-1.17.1" = _L7ot1xtH;
         "neoforge-1.20.1" = _AiaPEN6q;
         "neoforge-1.21.1" = _LMGtMapI;
+        "default" = _LMGtMapI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -187,4 +188,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LMGtMapI";}
+in callPackage fn {version="default";}

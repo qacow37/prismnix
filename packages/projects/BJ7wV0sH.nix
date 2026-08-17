@@ -18,6 +18,7 @@ let
         "datapack-1.21.1" = _E67iEJav;
         "minecraft-1.20.1" = _E67iEJav;
         "minecraft-1.21.1" = _E67iEJav;
+        "default" = _E67iEJav;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E67iEJav";}
+in callPackage fn {version="default";}

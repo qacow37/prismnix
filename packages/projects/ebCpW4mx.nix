@@ -15,6 +15,7 @@ let
         "4znGZOnv" = _4znGZOnv;
         "kapBChew" = _kapBChew;
         "forge-1.12.2" = _kapBChew;
+        "default" = _kapBChew;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kapBChew";}
+in callPackage fn {version="default";}

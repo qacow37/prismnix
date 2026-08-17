@@ -182,6 +182,7 @@ let
         "purpur-26.1" = _rEEc548i;
         "purpur-26.1.1" = _rEEc548i;
         "purpur-26.1.2" = _rEEc548i;
+        "default" = _rEEc548i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -202,4 +203,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rEEc548i";}
+in callPackage fn {version="default";}

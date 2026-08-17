@@ -64,6 +64,7 @@ let
         "cko13csl" = _cko13csl;
         "forge-1.19.2" = _a93K9khM;
         "forge-1.20.1" = _cko13csl;
+        "default" = _cko13csl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cko13csl";}
+in callPackage fn {version="default";}

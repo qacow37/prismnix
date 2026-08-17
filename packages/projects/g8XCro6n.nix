@@ -80,6 +80,7 @@ let
         "paper-1.21.11" = _rbUGdPaW;
         "paper-26.1.2" = _rbUGdPaW;
         "paper-26.2" = _rbUGdPaW;
+        "default" = _rbUGdPaW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rbUGdPaW";}
+in callPackage fn {version="default";}

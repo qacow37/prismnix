@@ -94,6 +94,7 @@ let
         "fabric-1.20.6" = _VlmNAzmB;
         "fabric-1.21" = _VlmNAzmB;
         "fabric-1.21.1" = _VlmNAzmB;
+        "default" = _VlmNAzmB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VlmNAzmB";}
+in callPackage fn {version="default";}

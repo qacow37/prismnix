@@ -46,6 +46,7 @@ let
         "3n5NdOs9" = _3n5NdOs9;
         "fabric-1.16.4" = _yg0HALMG;
         "fabric-1.16.5" = _3n5NdOs9;
+        "default" = _3n5NdOs9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3n5NdOs9";}
+in callPackage fn {version="default";}

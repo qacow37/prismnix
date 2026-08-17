@@ -356,6 +356,7 @@ let
         "spigot-1.18" = _otGI8BrT;
         "spigot-1.19.4" = _otGI8BrT;
         "spigot-1.20.1" = _otGI8BrT;
+        "default" = _otGI8BrT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -376,4 +377,4 @@ let
                 };
             };
         };
-in callPackage fn {version="otGI8BrT";}
+in callPackage fn {version="default";}

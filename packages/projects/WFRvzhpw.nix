@@ -153,6 +153,7 @@ let
         "quilt-26.1" = _sica3hNd;
         "quilt-26.1.1" = _sica3hNd;
         "quilt-26.1.2" = _sica3hNd;
+        "default" = _sica3hNd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -173,4 +174,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sica3hNd";}
+in callPackage fn {version="default";}

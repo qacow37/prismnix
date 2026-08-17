@@ -81,6 +81,7 @@ let
         "JOpXJS7C" = _JOpXJS7C;
         "JTrHKWsM" = _JTrHKWsM;
         "neoforge-1.21.1" = _JTrHKWsM;
+        "default" = _JTrHKWsM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JTrHKWsM";}
+in callPackage fn {version="default";}

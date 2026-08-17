@@ -106,6 +106,7 @@ let
         "77ux4Lal" = _77ux4Lal;
         "forge-1.18.2" = _S3qnLY64;
         "forge-1.20.1" = _77ux4Lal;
+        "default" = _77ux4Lal;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="77ux4Lal";}
+in callPackage fn {version="default";}

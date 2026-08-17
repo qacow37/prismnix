@@ -45,6 +45,7 @@ let
         "datapack-1.21.7" = _RJ15tGi0;
         "datapack-1.21.8" = _RJ15tGi0;
         "datapack-1.21.9" = _RJ15tGi0;
+        "default" = _iNmLSr3q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iNmLSr3q";}
+in callPackage fn {version="default";}

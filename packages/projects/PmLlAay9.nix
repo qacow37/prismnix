@@ -467,6 +467,7 @@ let
         "forge-26.1.1" = _2KQZiiRC;
         "forge-26.1.2" = _2KQZiiRC;
         "forge-26.2" = _6eO1Snsk;
+        "default" = _VhZKaILE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -487,4 +488,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VhZKaILE";}
+in callPackage fn {version="default";}

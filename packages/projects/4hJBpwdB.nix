@@ -9,6 +9,7 @@ let
     in {
         "XMWTAfR2" = _XMWTAfR2;
         "minecraft-1.21" = _XMWTAfR2;
+        "default" = _XMWTAfR2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XMWTAfR2";}
+in callPackage fn {version="default";}

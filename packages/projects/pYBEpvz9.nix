@@ -88,6 +88,7 @@ let
         "GcwImpCe" = _GcwImpCe;
         "paper-1.20.1" = _GcwImpCe;
         "fabric-1.20.1" = _S35AAZqe;
+        "default" = _GcwImpCe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GcwImpCe";}
+in callPackage fn {version="default";}

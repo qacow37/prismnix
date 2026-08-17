@@ -32,6 +32,7 @@ let
         "spigot-1.21.3" = _xL8fjcrb;
         "spigot-1.21.4" = _xL8fjcrb;
         "spigot-1.21.5" = _xL8fjcrb;
+        "default" = _aVjiFORx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aVjiFORx";}
+in callPackage fn {version="default";}

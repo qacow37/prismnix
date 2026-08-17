@@ -27,6 +27,7 @@ let
         "cguNasYS" = _cguNasYS;
         "9sQkagdr" = _9sQkagdr;
         "minecraft-1.20.1" = _9sQkagdr;
+        "default" = _9sQkagdr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9sQkagdr";}
+in callPackage fn {version="default";}

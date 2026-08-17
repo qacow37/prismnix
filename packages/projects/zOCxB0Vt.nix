@@ -70,6 +70,7 @@ let
         "ozzXFI7w" = _ozzXFI7w;
         "datapack-1.20.1" = _Gh1GNtdG;
         "fabric-1.20.1" = _ozzXFI7w;
+        "default" = _ozzXFI7w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ozzXFI7w";}
+in callPackage fn {version="default";}

@@ -110,6 +110,7 @@ let
         "quilt-1.21.2" = _g3y3Xcut;
         "quilt-1.21.3" = _g3y3Xcut;
         "quilt-1.21.4" = _g3y3Xcut;
+        "default" = _GMtsMgrP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -130,4 +131,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GMtsMgrP";}
+in callPackage fn {version="default";}

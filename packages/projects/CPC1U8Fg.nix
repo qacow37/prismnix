@@ -87,6 +87,7 @@ let
         "7WtgOpYa" = _7WtgOpYa;
         "zc38Bh2e" = _zc38Bh2e;
         "forge-1.20.1" = _zc38Bh2e;
+        "default" = _zc38Bh2e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zc38Bh2e";}
+in callPackage fn {version="default";}

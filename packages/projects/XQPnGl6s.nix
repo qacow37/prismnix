@@ -393,6 +393,7 @@ let
         "quilt-1.20.4" = _GBaxItAV;
         "quilt-1.20.5" = _GBaxItAV;
         "quilt-1.20.6" = _GBaxItAV;
+        "default" = _GBaxItAV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -413,4 +414,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GBaxItAV";}
+in callPackage fn {version="default";}

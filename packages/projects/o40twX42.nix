@@ -75,6 +75,7 @@ let
         "quilt-1.20.2" = _t64ybpbu;
         "quilt-1.20.3" = _t64ybpbu;
         "quilt-1.20.4" = _t64ybpbu;
+        "default" = _t64ybpbu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t64ybpbu";}
+in callPackage fn {version="default";}

@@ -43,6 +43,7 @@ let
         "minecraft-26.3-snapshot-1" = _YaeNOPWa;
         "minecraft-26.3-snapshot-2" = _YaeNOPWa;
         "minecraft-26.3-snapshot-3" = _YaeNOPWa;
+        "default" = _YaeNOPWa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -63,4 +64,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YaeNOPWa";}
+in callPackage fn {version="default";}

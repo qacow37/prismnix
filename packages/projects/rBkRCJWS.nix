@@ -15,6 +15,7 @@ let
         "oEBU9MVS" = _oEBU9MVS;
         "rlfSXEKt" = _rlfSXEKt;
         "forge-1.20.1" = _rlfSXEKt;
+        "default" = _rlfSXEKt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rlfSXEKt";}
+in callPackage fn {version="default";}

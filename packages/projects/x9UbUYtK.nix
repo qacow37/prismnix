@@ -22,6 +22,7 @@ let
         "G36VMpvp" = _G36VMpvp;
         "forge-1.19.2" = _7XthOVCA;
         "forge-1.20.1" = _G36VMpvp;
+        "default" = _G36VMpvp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="G36VMpvp";}
+in callPackage fn {version="default";}

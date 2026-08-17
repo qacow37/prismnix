@@ -57,6 +57,7 @@ let
         "UEHmBBtf" = _UEHmBBtf;
         "rsSKgCUr" = _rsSKgCUr;
         "forge-1.20.1" = _rsSKgCUr;
+        "default" = _rsSKgCUr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rsSKgCUr";}
+in callPackage fn {version="default";}

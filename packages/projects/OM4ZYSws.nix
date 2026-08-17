@@ -1902,6 +1902,7 @@ let
         "neoforge-1.21.11" = _LUoMUGJQ;
         "neoforge-26.1.2" = _M0MyKRUB;
         "neoforge-26.2" = _JsC8ptbl;
+        "default" = _JsC8ptbl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1922,4 +1923,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JsC8ptbl";}
+in callPackage fn {version="default";}

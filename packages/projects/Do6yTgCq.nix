@@ -22,6 +22,7 @@ let
         "WQPKzd90" = _WQPKzd90;
         "minecraft-1.20.1" = _WQPKzd90;
         "minecraft-1.21.1" = _WQPKzd90;
+        "default" = _WQPKzd90;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WQPKzd90";}
+in callPackage fn {version="default";}

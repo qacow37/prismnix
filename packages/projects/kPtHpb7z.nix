@@ -195,6 +195,7 @@ let
         "gd711fKJ" = _gd711fKJ;
         "18caN6tr" = _18caN6tr;
         "forge-1.7.10" = _18caN6tr;
+        "default" = _18caN6tr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -215,4 +216,4 @@ let
                 };
             };
         };
-in callPackage fn {version="18caN6tr";}
+in callPackage fn {version="default";}

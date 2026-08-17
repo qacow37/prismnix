@@ -195,6 +195,7 @@ let
         "HOMQJaKu" = _HOMQJaKu;
         "jG2lpNjc" = _jG2lpNjc;
         "forge-1.20.1" = _jG2lpNjc;
+        "default" = _jG2lpNjc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -215,4 +216,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jG2lpNjc";}
+in callPackage fn {version="default";}

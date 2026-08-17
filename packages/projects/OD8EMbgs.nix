@@ -76,6 +76,7 @@ let
         "optifine-26.1.1" = _COofL12B;
         "optifine-26.1.2" = _COofL12B;
         "optifine-26.2" = _COofL12B;
+        "default" = _COofL12B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="COofL12B";}
+in callPackage fn {version="default";}

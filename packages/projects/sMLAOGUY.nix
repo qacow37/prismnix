@@ -12,6 +12,7 @@ let
         "fabric-1.20.1" = _vhE3gbyg;
         "quilt-1.20" = _vhE3gbyg;
         "quilt-1.20.1" = _vhE3gbyg;
+        "default" = _vhE3gbyg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -32,4 +33,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vhE3gbyg";}
+in callPackage fn {version="default";}

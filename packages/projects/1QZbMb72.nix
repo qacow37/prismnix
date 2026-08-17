@@ -108,6 +108,7 @@ let
         "spigot-1.21.2" = _WObtSvrK;
         "spigot-1.21.3" = _WObtSvrK;
         "spigot-1.21.4" = _WObtSvrK;
+        "default" = _WObtSvrK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WObtSvrK";}
+in callPackage fn {version="default";}

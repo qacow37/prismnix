@@ -15,6 +15,7 @@ let
         "AYBEIT1E" = _AYBEIT1E;
         "jiw2BlSW" = _jiw2BlSW;
         "fabric-1.20.1" = _jiw2BlSW;
+        "default" = _jiw2BlSW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jiw2BlSW";}
+in callPackage fn {version="default";}

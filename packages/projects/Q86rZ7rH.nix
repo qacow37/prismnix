@@ -27,6 +27,7 @@ let
         "QUdFMmO3" = _QUdFMmO3;
         "bu405k8M" = _bu405k8M;
         "fabric-1.21.1" = _bu405k8M;
+        "default" = _bu405k8M;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bu405k8M";}
+in callPackage fn {version="default";}

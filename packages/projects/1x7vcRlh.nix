@@ -21,6 +21,7 @@ let
         "DNPs4kvx" = _DNPs4kvx;
         "rcem9tts" = _rcem9tts;
         "forge-1.20.1" = _rcem9tts;
+        "default" = _rcem9tts;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rcem9tts";}
+in callPackage fn {version="default";}

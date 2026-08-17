@@ -45,6 +45,7 @@ let
         "cy4W5aWb" = _cy4W5aWb;
         "sdADu4Oy" = _sdADu4Oy;
         "forge-1.12.2" = _sdADu4Oy;
+        "default" = _sdADu4Oy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sdADu4Oy";}
+in callPackage fn {version="default";}

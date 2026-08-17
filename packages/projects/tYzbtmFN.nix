@@ -140,6 +140,7 @@ let
         "quilt-1.21.2" = _YCfTGzBI;
         "quilt-1.21.3" = _YCfTGzBI;
         "quilt-1.21.4" = _YCfTGzBI;
+        "default" = _YCfTGzBI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -160,4 +161,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YCfTGzBI";}
+in callPackage fn {version="default";}

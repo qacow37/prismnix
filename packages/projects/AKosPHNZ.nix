@@ -57,6 +57,7 @@ let
         "7LriaOPB" = _7LriaOPB;
         "NpOirJe3" = _NpOirJe3;
         "forge-1.19.2" = _NpOirJe3;
+        "default" = _NpOirJe3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NpOirJe3";}
+in callPackage fn {version="default";}

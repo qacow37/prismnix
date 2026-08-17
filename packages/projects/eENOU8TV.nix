@@ -27,6 +27,7 @@ let
         "igVuI6bQ" = _igVuI6bQ;
         "vTOUnEcb" = _vTOUnEcb;
         "neoforge-1.21.1" = _vTOUnEcb;
+        "default" = _vTOUnEcb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vTOUnEcb";}
+in callPackage fn {version="default";}

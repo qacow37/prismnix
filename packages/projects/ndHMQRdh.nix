@@ -15,6 +15,7 @@ let
         "Xd43k1Ha" = _Xd43k1Ha;
         "KSCbcoi2" = _KSCbcoi2;
         "fabric-1.20.1" = _KSCbcoi2;
+        "default" = _KSCbcoi2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KSCbcoi2";}
+in callPackage fn {version="default";}

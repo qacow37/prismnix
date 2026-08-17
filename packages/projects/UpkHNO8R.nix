@@ -63,6 +63,7 @@ let
         "fabric-26.1.1" = _QE39nkyp;
         "fabric-26.1.2" = _QE39nkyp;
         "fabric-26.2" = _WXUfeero;
+        "default" = _WXUfeero;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WXUfeero";}
+in callPackage fn {version="default";}

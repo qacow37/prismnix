@@ -22,6 +22,7 @@ let
         "Ows8ZRaG" = _Ows8ZRaG;
         "minecraft-1.20.1" = _Ows8ZRaG;
         "minecraft-1.20" = _Ows8ZRaG;
+        "default" = _Ows8ZRaG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ows8ZRaG";}
+in callPackage fn {version="default";}

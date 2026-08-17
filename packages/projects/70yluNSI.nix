@@ -30,6 +30,7 @@ let
         "quilt-1.19.1" = _dhfJy800;
         "quilt-1.19.2" = _dhfJy800;
         "quilt-1.19.3" = _dhfJy800;
+        "default" = _dhfJy800;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dhfJy800";}
+in callPackage fn {version="default";}

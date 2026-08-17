@@ -23,6 +23,7 @@ let
         "minecraft-1.19" = _Ncfqws16;
         "minecraft-1.19.1" = _Ncfqws16;
         "minecraft-1.19.2" = _Ncfqws16;
+        "default" = _Ncfqws16;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ncfqws16";}
+in callPackage fn {version="default";}

@@ -193,6 +193,7 @@ let
         "neoforge-1.21.10" = _8yAqEUaF;
         "neoforge-1.21.1" = _LxLexnee;
         "forge-1.20.1" = _M2ySgx5C;
+        "default" = _GaphBStt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -213,4 +214,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GaphBStt";}
+in callPackage fn {version="default";}

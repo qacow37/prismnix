@@ -40,6 +40,7 @@ let
         "quilt-1.21.2" = _DsB115GF;
         "quilt-1.21.3" = _DsB115GF;
         "quilt-1.21.4" = _DsB115GF;
+        "default" = _DsB115GF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DsB115GF";}
+in callPackage fn {version="default";}

@@ -74,6 +74,7 @@ let
         "minecraft-26.1.1" = _hFCUGKle;
         "minecraft-26.1.2" = _hFCUGKle;
         "minecraft-26.2" = _hFCUGKle;
+        "default" = _hFCUGKle;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -94,4 +95,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hFCUGKle";}
+in callPackage fn {version="default";}

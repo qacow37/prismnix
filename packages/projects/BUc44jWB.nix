@@ -28,6 +28,7 @@ let
         "T2dnrLLF" = _T2dnrLLF;
         "forge-1.20.1" = _T2dnrLLF;
         "neoforge-1.21.1" = _WRQUVw6x;
+        "default" = _T2dnrLLF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="T2dnrLLF";}
+in callPackage fn {version="default";}

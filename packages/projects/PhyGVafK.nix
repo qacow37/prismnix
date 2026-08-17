@@ -69,6 +69,7 @@ let
         "paper-1.21.8" = _JCEG42U7;
         "paper-1.21.10" = _kqrpspe3;
         "paper-1.21.11" = _kqrpspe3;
+        "default" = _kqrpspe3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kqrpspe3";}
+in callPackage fn {version="default";}

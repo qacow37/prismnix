@@ -76,6 +76,7 @@ let
         "ClyaxIT8" = _ClyaxIT8;
         "fabric-1.21.8" = _rwf0BURe;
         "fabric-1.21.11" = _ClyaxIT8;
+        "default" = _ClyaxIT8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ClyaxIT8";}
+in callPackage fn {version="default";}

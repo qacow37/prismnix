@@ -16,6 +16,7 @@ let
         "k76KOtvc" = _k76KOtvc;
         "fabric-1.20.1" = _k76KOtvc;
         "quilt-1.20.1" = _k76KOtvc;
+        "default" = _k76KOtvc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="k76KOtvc";}
+in callPackage fn {version="default";}

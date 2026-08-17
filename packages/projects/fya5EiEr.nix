@@ -20,6 +20,7 @@ let
         "forge-1.20.4" = _ruoIElpk;
         "forge-1.20.5" = _ruoIElpk;
         "forge-1.20.6" = _ruoIElpk;
+        "default" = _ruoIElpk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -40,4 +41,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ruoIElpk";}
+in callPackage fn {version="default";}

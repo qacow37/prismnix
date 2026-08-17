@@ -23,6 +23,7 @@ let
         "fabric-1.20.1" = _TZrlydJj;
         "forge-1.20.1" = _SYNIngVc;
         "neoforge-1.20.1" = _SYNIngVc;
+        "default" = _SYNIngVc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SYNIngVc";}
+in callPackage fn {version="default";}

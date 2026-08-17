@@ -9,6 +9,7 @@ let
     in {
         "HTAl2d0c" = _HTAl2d0c;
         "forge-1.12.2" = _HTAl2d0c;
+        "default" = _HTAl2d0c;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HTAl2d0c";}
+in callPackage fn {version="default";}

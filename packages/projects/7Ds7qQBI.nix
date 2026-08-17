@@ -57,6 +57,7 @@ let
         "dr4zDpve" = _dr4zDpve;
         "RiyOIkGO" = _RiyOIkGO;
         "forge-1.20.1" = _RiyOIkGO;
+        "default" = _RiyOIkGO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RiyOIkGO";}
+in callPackage fn {version="default";}

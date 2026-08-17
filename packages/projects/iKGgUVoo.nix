@@ -114,6 +114,7 @@ let
         "fabric-1.21" = _HVpNxrud;
         "quilt-1.21" = _HVpNxrud;
         "quilt-1.21.1" = _HVpNxrud;
+        "default" = _HVpNxrud;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -134,4 +135,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HVpNxrud";}
+in callPackage fn {version="default";}

@@ -116,6 +116,7 @@ let
         "spigot-1.21.8" = _RIoABlUk;
         "spigot-1.21.9" = _RIoABlUk;
         "spigot-1.21.10" = _RIoABlUk;
+        "default" = _RIoABlUk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -136,4 +137,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RIoABlUk";}
+in callPackage fn {version="default";}

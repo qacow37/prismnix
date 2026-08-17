@@ -10,6 +10,7 @@ let
         "YKzRpYs6" = _YKzRpYs6;
         "forge-1.16.4" = _YKzRpYs6;
         "forge-1.16.5" = _YKzRpYs6;
+        "default" = _YKzRpYs6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YKzRpYs6";}
+in callPackage fn {version="default";}

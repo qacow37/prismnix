@@ -244,6 +244,7 @@ let
         "quilt-1.21.9" = _jicAaGDr;
         "quilt-1.21.10" = _jicAaGDr;
         "quilt-1.21.11" = _jicAaGDr;
+        "default" = _jicAaGDr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -264,4 +265,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jicAaGDr";}
+in callPackage fn {version="default";}

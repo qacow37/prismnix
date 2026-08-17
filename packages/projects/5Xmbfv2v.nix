@@ -18,6 +18,7 @@ let
         "fabric-1.21.9" = _ina38bsi;
         "fabric-1.21.10" = _ina38bsi;
         "fabric-1.21.11" = _ina38bsi;
+        "default" = _ina38bsi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ina38bsi";}
+in callPackage fn {version="default";}

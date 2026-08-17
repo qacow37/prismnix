@@ -147,6 +147,7 @@ let
         "fabric-1.18" = _ndGngOws;
         "fabric-1.18.1" = _ndGngOws;
         "fabric-1.18.2" = _ndGngOws;
+        "default" = _ndGngOws;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ndGngOws";}
+in callPackage fn {version="default";}

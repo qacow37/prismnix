@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _EduTIlEp;
         "spigot-1.21.10" = _EduTIlEp;
         "spigot-1.21.11" = _EduTIlEp;
+        "default" = _EduTIlEp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EduTIlEp";}
+in callPackage fn {version="default";}

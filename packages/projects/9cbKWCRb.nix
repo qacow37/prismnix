@@ -130,6 +130,7 @@ let
         "neoforge-1.21.5" = _3gODQG5d;
         "neoforge-1.21.6" = _otl967R2;
         "forge-1.20.1" = _csLlamEE;
+        "default" = _otl967R2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -150,4 +151,4 @@ let
                 };
             };
         };
-in callPackage fn {version="otl967R2";}
+in callPackage fn {version="default";}

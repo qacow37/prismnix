@@ -22,6 +22,7 @@ let
         "PAJI2YtN" = _PAJI2YtN;
         "fabric-1.20.1" = _PAJI2YtN;
         "fabric-1.20" = _PAJI2YtN;
+        "default" = _PAJI2YtN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PAJI2YtN";}
+in callPackage fn {version="default";}

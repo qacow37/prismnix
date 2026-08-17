@@ -10,6 +10,7 @@ let
         "DRm70FKR" = _DRm70FKR;
         "forge-1.20.1" = _DRm70FKR;
         "neoforge-1.20.1" = _DRm70FKR;
+        "default" = _DRm70FKR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DRm70FKR";}
+in callPackage fn {version="default";}

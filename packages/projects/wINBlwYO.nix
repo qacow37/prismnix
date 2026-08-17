@@ -10,6 +10,7 @@ let
         "IuawESzw" = _IuawESzw;
         "forge-1.8.9" = _IuawESzw;
         "forge-1.12.2" = _IuawESzw;
+        "default" = _IuawESzw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IuawESzw";}
+in callPackage fn {version="default";}

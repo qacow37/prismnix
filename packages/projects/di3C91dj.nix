@@ -222,6 +222,7 @@ let
         "forge-1.12" = _UCEur8up;
         "forge-1.12.1" = _UCEur8up;
         "forge-1.12.2" = _UCEur8up;
+        "default" = _UCEur8up;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -242,4 +243,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UCEur8up";}
+in callPackage fn {version="default";}

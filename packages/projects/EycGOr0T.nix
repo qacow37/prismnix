@@ -10,6 +10,7 @@ let
         "EEl9M77p" = _EEl9M77p;
         "fabric-1.21.10" = _EEl9M77p;
         "fabric-1.21.11" = _EEl9M77p;
+        "default" = _EEl9M77p;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EEl9M77p";}
+in callPackage fn {version="default";}

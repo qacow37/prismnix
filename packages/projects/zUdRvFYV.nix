@@ -15,6 +15,7 @@ let
         "EC9d1OsM" = _EC9d1OsM;
         "czDtmNK7" = _czDtmNK7;
         "forge-1.20.1" = _czDtmNK7;
+        "default" = _czDtmNK7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="czDtmNK7";}
+in callPackage fn {version="default";}

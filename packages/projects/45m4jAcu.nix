@@ -76,6 +76,7 @@ let
         "R4wsT90R" = _R4wsT90R;
         "fabric-1.20.1" = _BRwyoMUG;
         "fabric-1.21.1" = _R4wsT90R;
+        "default" = _R4wsT90R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R4wsT90R";}
+in callPackage fn {version="default";}

@@ -154,6 +154,7 @@ let
         "Vu5G5itE" = _Vu5G5itE;
         "fabric-1.21.1" = _COysHvlP;
         "neoforge-1.21.1" = _Vu5G5itE;
+        "default" = _Vu5G5itE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -174,4 +175,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Vu5G5itE";}
+in callPackage fn {version="default";}

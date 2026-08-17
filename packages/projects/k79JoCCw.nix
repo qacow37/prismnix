@@ -152,6 +152,7 @@ let
         "minecraft-26.1" = _okTUgSp9;
         "minecraft-26.1.1" = _okTUgSp9;
         "minecraft-26.1.2" = _okTUgSp9;
+        "default" = _okTUgSp9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -172,4 +173,4 @@ let
                 };
             };
         };
-in callPackage fn {version="okTUgSp9";}
+in callPackage fn {version="default";}

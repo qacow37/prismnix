@@ -81,6 +81,7 @@ let
         "A2WkFF6N" = _A2WkFF6N;
         "cjrb1wmA" = _cjrb1wmA;
         "forge-1.20.1" = _cjrb1wmA;
+        "default" = _cjrb1wmA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cjrb1wmA";}
+in callPackage fn {version="default";}

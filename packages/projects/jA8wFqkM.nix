@@ -131,6 +131,7 @@ let
         "fabric-b1.7.3" = _y8GPsJcs;
         "bta-babric-b1.7.3" = _y8GPsJcs;
         "babric-b1.7.3" = _udvVbAly;
+        "default" = _y8GPsJcs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -151,4 +152,4 @@ let
                 };
             };
         };
-in callPackage fn {version="y8GPsJcs";}
+in callPackage fn {version="default";}

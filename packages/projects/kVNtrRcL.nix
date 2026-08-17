@@ -178,6 +178,7 @@ let
         "Qu15bii2" = _Qu15bii2;
         "neoforge-1.21.1" = _Qu15bii2;
         "forge-1.20.1" = _aYR5F40k;
+        "default" = _Qu15bii2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -198,4 +199,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Qu15bii2";}
+in callPackage fn {version="default";}

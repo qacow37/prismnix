@@ -9,6 +9,7 @@ let
     in {
         "OxZsKpiR" = _OxZsKpiR;
         "fabric-1.20.1" = _OxZsKpiR;
+        "default" = _OxZsKpiR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OxZsKpiR";}
+in callPackage fn {version="default";}

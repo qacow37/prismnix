@@ -69,6 +69,7 @@ let
         "3UNTxDhU" = _3UNTxDhU;
         "f1UrjTI8" = _f1UrjTI8;
         "minecraft-1.21.1" = _f1UrjTI8;
+        "default" = _f1UrjTI8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="f1UrjTI8";}
+in callPackage fn {version="default";}

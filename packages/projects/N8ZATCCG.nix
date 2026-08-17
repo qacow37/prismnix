@@ -40,6 +40,7 @@ let
         "f4RDisga" = _f4RDisga;
         "forge-1.19.2" = _MDDUw4JS;
         "neoforge-1.21.1" = _f4RDisga;
+        "default" = _f4RDisga;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="f4RDisga";}
+in callPackage fn {version="default";}

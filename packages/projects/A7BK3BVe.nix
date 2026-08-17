@@ -68,6 +68,7 @@ let
         "neoforge-1.21.11" = _GRuoSNmc;
         "neoforge-26.1.1" = _GRuoSNmc;
         "neoforge-26.1.2" = _GRuoSNmc;
+        "default" = _GRuoSNmc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GRuoSNmc";}
+in callPackage fn {version="default";}

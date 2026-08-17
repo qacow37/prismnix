@@ -76,6 +76,7 @@ let
         "minecraft-26.2-snapshot-7" = _VQaOkaga;
         "minecraft-26.2-snapshot-8" = _VQaOkaga;
         "minecraft-26.2-pre-1" = _VQaOkaga;
+        "default" = _VQaOkaga;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VQaOkaga";}
+in callPackage fn {version="default";}

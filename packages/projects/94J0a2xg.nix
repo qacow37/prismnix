@@ -52,6 +52,7 @@ let
         "myJjmuCT" = _myJjmuCT;
         "fabric-26.1.2" = _JaX7bEtg;
         "fabric-26.2" = _myJjmuCT;
+        "default" = _myJjmuCT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="myJjmuCT";}
+in callPackage fn {version="default";}

@@ -94,6 +94,7 @@ let
         "sOEEpbJZ" = _sOEEpbJZ;
         "babric-b1.7.3" = _sOEEpbJZ;
         "fabric-b1.7.3" = _sOEEpbJZ;
+        "default" = _sOEEpbJZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sOEEpbJZ";}
+in callPackage fn {version="default";}

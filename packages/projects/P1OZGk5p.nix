@@ -6498,6 +6498,7 @@ let
         "velocity-26.1.1" = _uz2jbJLI;
         "velocity-26.1.2" = _uz2jbJLI;
         "velocity-26.2" = _uz2jbJLI;
+        "default" = _uz2jbJLI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -6518,4 +6519,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uz2jbJLI";}
+in callPackage fn {version="default";}

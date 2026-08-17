@@ -9,6 +9,7 @@ let
     in {
         "rsccCEM5" = _rsccCEM5;
         "fabric-1.20.1" = _rsccCEM5;
+        "default" = _rsccCEM5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rsccCEM5";}
+in callPackage fn {version="default";}

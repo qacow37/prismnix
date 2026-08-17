@@ -27,6 +27,7 @@ let
         "fDrCPR5v" = _fDrCPR5v;
         "NIva5WdM" = _NIva5WdM;
         "fabric-1.21.11" = _NIva5WdM;
+        "default" = _NIva5WdM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NIva5WdM";}
+in callPackage fn {version="default";}

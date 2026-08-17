@@ -141,6 +141,7 @@ let
         "83Ykg0m8" = _83Ykg0m8;
         "cntszY2k" = _cntszY2k;
         "forge-1.7.10" = _cntszY2k;
+        "default" = _cntszY2k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cntszY2k";}
+in callPackage fn {version="default";}

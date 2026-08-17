@@ -42,6 +42,7 @@ let
         "fabric-1.19.2" = _Os4truWF;
         "quilt-1.18.2" = _retZlwzk;
         "quilt-1.19.2" = _cdaToKgi;
+        "default" = _Os4truWF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Os4truWF";}
+in callPackage fn {version="default";}

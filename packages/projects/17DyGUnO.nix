@@ -355,6 +355,7 @@ let
         "spigot-1.18.1" = _EQm76Pju;
         "spigot-1.19.3" = _TfFmtTF8;
         "bukkit-1.19.3" = _TfFmtTF8;
+        "default" = _JKA5rs67;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -375,4 +376,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JKA5rs67";}
+in callPackage fn {version="default";}

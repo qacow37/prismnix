@@ -50,6 +50,7 @@ let
         "datapack-1.21.8" = _vmipRvvf;
         "forge-1.21" = _NfBL82Hl;
         "quilt-1.21" = _NfBL82Hl;
+        "default" = _NfBL82Hl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -70,4 +71,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NfBL82Hl";}
+in callPackage fn {version="default";}

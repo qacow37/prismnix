@@ -171,6 +171,7 @@ let
         "minecraft-26.1.1" = _MCawVBfU;
         "minecraft-26.1.2" = _MCawVBfU;
         "minecraft-26.2" = _MCawVBfU;
+        "default" = _MCawVBfU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -191,4 +192,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MCawVBfU";}
+in callPackage fn {version="default";}

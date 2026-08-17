@@ -40,6 +40,7 @@ let
         "bz59xhbt" = _bz59xhbt;
         "iris-1.21.11" = _bz59xhbt;
         "optifine-1.21.11" = _bz59xhbt;
+        "default" = _bz59xhbt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bz59xhbt";}
+in callPackage fn {version="default";}

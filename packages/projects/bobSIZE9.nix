@@ -88,6 +88,7 @@ let
         "RRKVGETL" = _RRKVGETL;
         "forge-1.20.1" = _Apc3mFB1;
         "neoforge-1.21.1" = _RRKVGETL;
+        "default" = _RRKVGETL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RRKVGETL";}
+in callPackage fn {version="default";}

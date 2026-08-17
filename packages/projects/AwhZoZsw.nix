@@ -38,6 +38,7 @@ let
         "quilt-1.21.1" = _rECRNSvO;
         "neoforge-1.21" = _lmJoTyLR;
         "neoforge-1.21.1" = _lmJoTyLR;
+        "default" = _lmJoTyLR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lmJoTyLR";}
+in callPackage fn {version="default";}

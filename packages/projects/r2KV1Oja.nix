@@ -21,6 +21,7 @@ let
         "zOBHT49i" = _zOBHT49i;
         "EC0039hw" = _EC0039hw;
         "fabric-1.21.1" = _EC0039hw;
+        "default" = _EC0039hw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EC0039hw";}
+in callPackage fn {version="default";}

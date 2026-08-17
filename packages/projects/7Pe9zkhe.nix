@@ -9,6 +9,7 @@ let
     in {
         "m8UlUJ3e" = _m8UlUJ3e;
         "paper-1.21.1" = _m8UlUJ3e;
+        "default" = _m8UlUJ3e;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="m8UlUJ3e";}
+in callPackage fn {version="default";}

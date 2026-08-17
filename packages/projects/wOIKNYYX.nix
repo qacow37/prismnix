@@ -17,6 +17,7 @@ let
         "forge-1.20.2" = _iywAuBD2;
         "forge-1.20.3" = _iywAuBD2;
         "forge-1.20.4" = _iywAuBD2;
+        "default" = _iywAuBD2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iywAuBD2";}
+in callPackage fn {version="default";}

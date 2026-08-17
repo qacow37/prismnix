@@ -39,6 +39,7 @@ let
         "UZnO3VYO" = _UZnO3VYO;
         "nTOWeb48" = _nTOWeb48;
         "forge-1.20.1" = _nTOWeb48;
+        "default" = _nTOWeb48;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nTOWeb48";}
+in callPackage fn {version="default";}

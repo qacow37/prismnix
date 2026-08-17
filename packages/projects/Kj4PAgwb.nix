@@ -40,6 +40,7 @@ let
         "okguOmc1" = _okguOmc1;
         "fabric-1.20.1" = _Xz5BrrsP;
         "forge-1.20.1" = _okguOmc1;
+        "default" = _okguOmc1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="okguOmc1";}
+in callPackage fn {version="default";}

@@ -9,6 +9,7 @@ let
     in {
         "UvtLVQam" = _UvtLVQam;
         "neoforge-1.21.8" = _UvtLVQam;
+        "default" = _UvtLVQam;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UvtLVQam";}
+in callPackage fn {version="default";}

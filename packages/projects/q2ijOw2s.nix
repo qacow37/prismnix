@@ -170,6 +170,7 @@ let
         "quilt-24w44a" = _RfEgC5zu;
         "quilt-24w45a" = _RfEgC5zu;
         "quilt-24w46a" = _RfEgC5zu;
+        "default" = _RfEgC5zu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -190,4 +191,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RfEgC5zu";}
+in callPackage fn {version="default";}

@@ -11,6 +11,7 @@ let
         "fabric-1.19" = _rcPs2TXe;
         "fabric-1.19.1" = _rcPs2TXe;
         "fabric-1.19.2" = _rcPs2TXe;
+        "default" = _rcPs2TXe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31,4 +32,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rcPs2TXe";}
+in callPackage fn {version="default";}

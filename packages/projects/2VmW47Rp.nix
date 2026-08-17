@@ -187,6 +187,7 @@ let
         "datapack-26.1.1" = _QQ8Wng3R;
         "datapack-26.1.2" = _QQ8Wng3R;
         "datapack-26.2" = _QQ8Wng3R;
+        "default" = _QQ8Wng3R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -207,4 +208,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QQ8Wng3R";}
+in callPackage fn {version="default";}

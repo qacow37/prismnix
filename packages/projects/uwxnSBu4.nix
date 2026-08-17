@@ -752,6 +752,7 @@ let
         "fabric-26.1" = _ovaAwQS3;
         "fabric-26.1.1" = _ovaAwQS3;
         "fabric-26.1.2" = _ovaAwQS3;
+        "default" = _ovaAwQS3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -772,4 +773,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ovaAwQS3";}
+in callPackage fn {version="default";}

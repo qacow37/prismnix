@@ -16,6 +16,7 @@ let
         "SZwcyyd0" = _SZwcyyd0;
         "fabric-1.20.1" = _pyglnqtx;
         "fabric-1.21.1" = _SZwcyyd0;
+        "default" = _SZwcyyd0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SZwcyyd0";}
+in callPackage fn {version="default";}

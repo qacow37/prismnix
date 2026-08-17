@@ -152,6 +152,7 @@ let
         "purpur-1.21.9" = _nidXP3Jb;
         "purpur-1.21.10" = _nidXP3Jb;
         "purpur-1.21.11" = _nidXP3Jb;
+        "default" = _nidXP3Jb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -172,4 +173,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nidXP3Jb";}
+in callPackage fn {version="default";}

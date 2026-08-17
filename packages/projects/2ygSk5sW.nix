@@ -22,6 +22,7 @@ let
         "1fs4FiOW" = _1fs4FiOW;
         "fabric-1.21.1" = _bDE5NWEP;
         "neoforge-1.21.1" = _1fs4FiOW;
+        "default" = _1fs4FiOW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1fs4FiOW";}
+in callPackage fn {version="default";}

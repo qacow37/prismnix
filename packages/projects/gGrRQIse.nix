@@ -94,6 +94,7 @@ let
         "optifine-26.1.1" = _OzLiko32;
         "optifine-26.1.2" = _OzLiko32;
         "optifine-26.2" = _OzLiko32;
+        "default" = _OzLiko32;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OzLiko32";}
+in callPackage fn {version="default";}

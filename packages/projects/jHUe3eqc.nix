@@ -33,6 +33,7 @@ let
         "kP5KOa9t" = _kP5KOa9t;
         "mc188HXP" = _mc188HXP;
         "forge-1.19.4" = _mc188HXP;
+        "default" = _mc188HXP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mc188HXP";}
+in callPackage fn {version="default";}

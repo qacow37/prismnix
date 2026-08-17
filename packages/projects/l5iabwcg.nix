@@ -21,6 +21,7 @@ let
         "8R4JRsLD" = _8R4JRsLD;
         "j1bTAykl" = _j1bTAykl;
         "forge-1.20.1" = _j1bTAykl;
+        "default" = _j1bTAykl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="j1bTAykl";}
+in callPackage fn {version="default";}

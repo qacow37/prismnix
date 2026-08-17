@@ -81,6 +81,7 @@ let
         "Th3mQ4F7" = _Th3mQ4F7;
         "uiwrkghz" = _uiwrkghz;
         "fabric-1.20.1" = _uiwrkghz;
+        "default" = _uiwrkghz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uiwrkghz";}
+in callPackage fn {version="default";}

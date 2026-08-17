@@ -15,6 +15,7 @@ let
         "OecDWnCT" = _OecDWnCT;
         "DkmFE48y" = _DkmFE48y;
         "neoforge-1.21.1" = _DkmFE48y;
+        "default" = _DkmFE48y;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DkmFE48y";}
+in callPackage fn {version="default";}

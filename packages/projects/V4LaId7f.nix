@@ -256,6 +256,7 @@ let
         "neoforge-1.20.1" = _rTp7cfMR;
         "neoforge-1.21" = _dHLBaeMU;
         "neoforge-1.21.1" = _dHLBaeMU;
+        "default" = _dHLBaeMU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -276,4 +277,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dHLBaeMU";}
+in callPackage fn {version="default";}

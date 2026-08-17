@@ -33,6 +33,7 @@ let
         "2DKnAS9u" = _2DKnAS9u;
         "aLDtynEX" = _aLDtynEX;
         "forge-1.16.5" = _aLDtynEX;
+        "default" = _aLDtynEX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aLDtynEX";}
+in callPackage fn {version="default";}

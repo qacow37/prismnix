@@ -62,6 +62,7 @@ let
         "optifine-1.21.6" = _AJumhKPA;
         "optifine-1.21.7" = _AJumhKPA;
         "optifine-1.21.8" = _AJumhKPA;
+        "default" = _AJumhKPA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AJumhKPA";}
+in callPackage fn {version="default";}

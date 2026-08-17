@@ -301,6 +301,7 @@ let
         "neoforge-1.21.3" = _RDzbdses;
         "neoforge-1.21.4" = _RDzbdses;
         "neoforge-1.21.5" = _RDzbdses;
+        "default" = _RDzbdses;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -321,4 +322,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RDzbdses";}
+in callPackage fn {version="default";}

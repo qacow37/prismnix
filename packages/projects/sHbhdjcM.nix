@@ -15,6 +15,7 @@ let
         "cVHTvnOb" = _cVHTvnOb;
         "fbiZhaln" = _fbiZhaln;
         "fabric-1.21.5" = _fbiZhaln;
+        "default" = _fbiZhaln;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fbiZhaln";}
+in callPackage fn {version="default";}

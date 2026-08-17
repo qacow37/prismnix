@@ -37,6 +37,7 @@ let
         "minecraft-1.21.3" = _MjUEJfLE;
         "minecraft-1.21.4" = _MjUEJfLE;
         "minecraft-1.21.5" = _MjUEJfLE;
+        "default" = _MjUEJfLE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MjUEJfLE";}
+in callPackage fn {version="default";}

@@ -226,6 +226,7 @@ let
         "minecraft-1.21.9" = _csTyg8Py;
         "minecraft-1.21.10" = _csTyg8Py;
         "minecraft-1.21.11" = _arrgXFBf;
+        "default" = _arrgXFBf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -246,4 +247,4 @@ let
                 };
             };
         };
-in callPackage fn {version="arrgXFBf";}
+in callPackage fn {version="default";}

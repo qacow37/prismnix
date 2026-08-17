@@ -483,6 +483,7 @@ let
         "minecraft-1.19.4-rc3" = _rIcKPWUE;
         "minecraft-23w13a_or_b" = _tMlWvMTv;
         "minecraft-24w14potato" = _tMlWvMTv;
+        "default" = _rIcKPWUE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -503,4 +504,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rIcKPWUE";}
+in callPackage fn {version="default";}

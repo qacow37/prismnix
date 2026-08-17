@@ -3660,6 +3660,7 @@ let
         "neoforge-26.1.1" = _w2GS46iw;
         "neoforge-26.1.2" = _w2GS46iw;
         "neoforge-26.2" = _fpTDdsEL;
+        "default" = _fpTDdsEL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -3680,4 +3681,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fpTDdsEL";}
+in callPackage fn {version="default";}

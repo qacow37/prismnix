@@ -282,6 +282,7 @@ let
         "quilt-1.20.6" = _GBpUlktp;
         "quilt-1.21.1" = _GBpUlktp;
         "quilt-1.12" = _Fw6io2Hl;
+        "default" = _GBpUlktp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -302,4 +303,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GBpUlktp";}
+in callPackage fn {version="default";}

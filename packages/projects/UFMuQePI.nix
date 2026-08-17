@@ -276,6 +276,7 @@ let
         "spigot-1.21.2" = _NvWDfChT;
         "spigot-1.21.3" = _NvWDfChT;
         "spigot-1.21.4" = _NvWDfChT;
+        "default" = _NvWDfChT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -296,4 +297,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NvWDfChT";}
+in callPackage fn {version="default";}

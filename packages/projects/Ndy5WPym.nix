@@ -24,6 +24,7 @@ let
         "neoforge-1.21.2" = _rddBegee;
         "neoforge-1.21.3" = _rddBegee;
         "neoforge-1.21.4" = _rddBegee;
+        "default" = _rddBegee;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rddBegee";}
+in callPackage fn {version="default";}

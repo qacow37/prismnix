@@ -120,6 +120,7 @@ let
         "quilt-1.21.7" = _uMOvPLUi;
         "quilt-1.21.8" = _uMOvPLUi;
         "quilt-1.21.9" = _uMOvPLUi;
+        "default" = _uMOvPLUi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uMOvPLUi";}
+in callPackage fn {version="default";}

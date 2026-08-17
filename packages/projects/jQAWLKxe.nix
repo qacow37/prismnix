@@ -28,6 +28,7 @@ let
         "JPp8QT7s" = _JPp8QT7s;
         "fabric-1.21.1" = _i4F0wVLt;
         "neoforge-1.21.1" = _JPp8QT7s;
+        "default" = _JPp8QT7s;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JPp8QT7s";}
+in callPackage fn {version="default";}

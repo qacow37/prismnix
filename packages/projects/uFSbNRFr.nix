@@ -9,6 +9,7 @@ let
     in {
         "w80z3GRl" = _w80z3GRl;
         "fabric-1.21.1" = _w80z3GRl;
+        "default" = _w80z3GRl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w80z3GRl";}
+in callPackage fn {version="default";}

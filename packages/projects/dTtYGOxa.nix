@@ -63,6 +63,7 @@ let
         "qiMDOfPy" = _qiMDOfPy;
         "PqHFjDNu" = _PqHFjDNu;
         "fabric-1.20.1" = _PqHFjDNu;
+        "default" = _PqHFjDNu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PqHFjDNu";}
+in callPackage fn {version="default";}

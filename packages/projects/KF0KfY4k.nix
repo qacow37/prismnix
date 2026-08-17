@@ -248,6 +248,7 @@ let
         "neoforge-1.21.2" = _dCGt81z7;
         "neoforge-1.21.3" = _dCGt81z7;
         "neoforge-1.21.4" = _dCGt81z7;
+        "default" = _dCGt81z7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -268,4 +269,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dCGt81z7";}
+in callPackage fn {version="default";}

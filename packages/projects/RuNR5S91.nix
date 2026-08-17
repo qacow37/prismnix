@@ -21,6 +21,7 @@ let
         "RovCRBEV" = _RovCRBEV;
         "JUxquaWx" = _JUxquaWx;
         "forge-1.20.1" = _JUxquaWx;
+        "default" = _JUxquaWx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JUxquaWx";}
+in callPackage fn {version="default";}

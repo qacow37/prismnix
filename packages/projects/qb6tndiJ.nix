@@ -16,6 +16,7 @@ let
         "GKcrOQRy" = _GKcrOQRy;
         "forge-1.20.1" = _tB08ui56;
         "neoforge-1.21.1" = _GKcrOQRy;
+        "default" = _GKcrOQRy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GKcrOQRy";}
+in callPackage fn {version="default";}

@@ -39,6 +39,7 @@ let
         "fabric-1.20.3" = _SyQnSClE;
         "fabric-1.20.4" = _SyQnSClE;
         "forge-1.18.2" = _f3WoEvlQ;
+        "default" = _SyQnSClE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SyQnSClE";}
+in callPackage fn {version="default";}

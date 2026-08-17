@@ -44,6 +44,7 @@ let
         "minecraft-25w31a" = _Byc9pBoD;
         "minecraft-25w32a" = _Byc9pBoD;
         "minecraft-25w33a" = _Byc9pBoD;
+        "default" = _Byc9pBoD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Byc9pBoD";}
+in callPackage fn {version="default";}

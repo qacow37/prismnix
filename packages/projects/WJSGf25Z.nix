@@ -15,6 +15,7 @@ let
         "FC8BsUEq" = _FC8BsUEq;
         "xex1epUU" = _xex1epUU;
         "fabric-b1.7.3" = _xex1epUU;
+        "default" = _xex1epUU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xex1epUU";}
+in callPackage fn {version="default";}

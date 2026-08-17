@@ -16,6 +16,7 @@ let
         "lTUnYK6z" = _lTUnYK6z;
         "forge-1.19.2" = _lTUnYK6z;
         "neoforge-1.19.2" = _lTUnYK6z;
+        "default" = _lTUnYK6z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lTUnYK6z";}
+in callPackage fn {version="default";}

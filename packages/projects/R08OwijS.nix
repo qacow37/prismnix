@@ -64,6 +64,7 @@ let
         "YBmyjsi0" = _YBmyjsi0;
         "babric-b1.7.3" = _YBmyjsi0;
         "fabric-b1.7.3" = _YBmyjsi0;
+        "default" = _YBmyjsi0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YBmyjsi0";}
+in callPackage fn {version="default";}

@@ -225,6 +225,7 @@ let
         "HpM4aulU" = _HpM4aulU;
         "ifUg1vH8" = _ifUg1vH8;
         "forge-1.7.10" = _ifUg1vH8;
+        "default" = _ifUg1vH8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -245,4 +246,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ifUg1vH8";}
+in callPackage fn {version="default";}

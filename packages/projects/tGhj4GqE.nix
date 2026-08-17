@@ -21,6 +21,7 @@ let
         "Fo3W68PV" = _Fo3W68PV;
         "NTKir5UI" = _NTKir5UI;
         "fabric-1.21.11" = _NTKir5UI;
+        "default" = _NTKir5UI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NTKir5UI";}
+in callPackage fn {version="default";}

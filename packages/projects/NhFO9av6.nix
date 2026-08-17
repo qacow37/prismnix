@@ -64,6 +64,7 @@ let
         "kpncS0z4" = _kpncS0z4;
         "babric-b1.7.3" = _kpncS0z4;
         "fabric-b1.7.3" = _kpncS0z4;
+        "default" = _kpncS0z4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kpncS0z4";}
+in callPackage fn {version="default";}

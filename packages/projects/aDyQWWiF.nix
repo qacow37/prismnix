@@ -144,6 +144,7 @@ let
         "quilt-26.1.1" = _rITegbC5;
         "quilt-26.1.2" = _rITegbC5;
         "quilt-26.2" = _rITegbC5;
+        "default" = _rITegbC5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -164,4 +165,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rITegbC5";}
+in callPackage fn {version="default";}

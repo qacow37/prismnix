@@ -112,6 +112,7 @@ let
         "optifine-1.21.9" = _REcFtSru;
         "optifine-1.21.10" = _REcFtSru;
         "optifine-1.21.11" = _REcFtSru;
+        "default" = _REcFtSru;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="REcFtSru";}
+in callPackage fn {version="default";}

@@ -130,6 +130,7 @@ let
         "kGSPaHaM" = _kGSPaHaM;
         "forge-1.12.1" = _B53PG5uP;
         "forge-1.12.2" = _kGSPaHaM;
+        "default" = _kGSPaHaM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -150,4 +151,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kGSPaHaM";}
+in callPackage fn {version="default";}

@@ -81,6 +81,7 @@ let
         "tkfBRjqK" = _tkfBRjqK;
         "HQIoiO2c" = _HQIoiO2c;
         "neoforge-1.21.1" = _HQIoiO2c;
+        "default" = _HQIoiO2c;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HQIoiO2c";}
+in callPackage fn {version="default";}

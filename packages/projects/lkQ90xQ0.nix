@@ -23,6 +23,7 @@ let
         "datapack-1.21.1" = _hbdpLJBI;
         "datapack-1.12.1" = _6Itjz0Vh;
         "minecraft-1.21.1" = _RWULBT9h;
+        "default" = _hbdpLJBI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hbdpLJBI";}
+in callPackage fn {version="default";}

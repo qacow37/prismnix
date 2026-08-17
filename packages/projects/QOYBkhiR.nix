@@ -21,6 +21,7 @@ let
         "ZyjUtxbw" = _ZyjUtxbw;
         "DOegTR2S" = _DOegTR2S;
         "fabric-b1.7.3" = _DOegTR2S;
+        "default" = _DOegTR2S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DOegTR2S";}
+in callPackage fn {version="default";}

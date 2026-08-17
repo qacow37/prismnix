@@ -142,6 +142,7 @@ let
         "datapack-1.20.4" = _Yx7XrV3o;
         "datapack-1.20.5" = _Yx7XrV3o;
         "datapack-1.20.6" = _Yx7XrV3o;
+        "default" = _1vxvdJRQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -162,4 +163,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1vxvdJRQ";}
+in callPackage fn {version="default";}

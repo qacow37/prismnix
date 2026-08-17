@@ -137,6 +137,7 @@ let
         "fabric-26.1" = _3CpNCXfs;
         "fabric-26.1.1" = _3CpNCXfs;
         "fabric-26.1.2" = _3CpNCXfs;
+        "default" = _3CpNCXfs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -157,4 +158,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3CpNCXfs";}
+in callPackage fn {version="default";}

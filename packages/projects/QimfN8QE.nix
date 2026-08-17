@@ -244,6 +244,7 @@ let
         "quilt-1.21.9" = _VDrUvWSE;
         "quilt-1.21.10" = _VDrUvWSE;
         "quilt-1.21.11" = _VDrUvWSE;
+        "default" = _VDrUvWSE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -264,4 +265,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VDrUvWSE";}
+in callPackage fn {version="default";}

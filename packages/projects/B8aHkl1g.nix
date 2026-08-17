@@ -22,6 +22,7 @@ let
         "vG8kFWlA" = _vG8kFWlA;
         "minecraft-1.20" = _vG8kFWlA;
         "minecraft-1.20.1" = _vG8kFWlA;
+        "default" = _vG8kFWlA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vG8kFWlA";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "wfAVLiA2" = _wfAVLiA2;
         "forge-1.20.1" = _28mhpecy;
         "neoforge-1.21.1" = _wfAVLiA2;
+        "default" = _wfAVLiA2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wfAVLiA2";}
+in callPackage fn {version="default";}

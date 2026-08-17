@@ -52,6 +52,7 @@ let
         "DWGEtdwz" = _DWGEtdwz;
         "neoforge-1.21.1" = _uZ8siB8q;
         "fabric-1.21.1" = _DWGEtdwz;
+        "default" = _DWGEtdwz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DWGEtdwz";}
+in callPackage fn {version="default";}

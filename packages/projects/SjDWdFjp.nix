@@ -162,6 +162,7 @@ let
         "spigot-1.21.3" = _MvU3iMqr;
         "spigot-1.21.4" = _MvU3iMqr;
         "spigot-1.21.5" = _MvU3iMqr;
+        "default" = _G2mhZT01;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -182,4 +183,4 @@ let
                 };
             };
         };
-in callPackage fn {version="G2mhZT01";}
+in callPackage fn {version="default";}

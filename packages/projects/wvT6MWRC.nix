@@ -35,6 +35,7 @@ let
         "neoforge-1.20.1" = _oL58vR5D;
         "fabric-1.20.1" = _oL58vR5D;
         "forge-1.20.1" = _oL58vR5D;
+        "default" = _oL58vR5D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oL58vR5D";}
+in callPackage fn {version="default";}

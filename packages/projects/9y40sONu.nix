@@ -87,6 +87,7 @@ let
         "ucse972z" = _ucse972z;
         "PbbU7I1P" = _PbbU7I1P;
         "forge-1.20.1" = _PbbU7I1P;
+        "default" = _PbbU7I1P;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PbbU7I1P";}
+in callPackage fn {version="default";}

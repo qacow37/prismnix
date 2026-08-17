@@ -15,6 +15,7 @@ let
         "g3ZLr9Vb" = _g3ZLr9Vb;
         "XMvmeIjv" = _XMvmeIjv;
         "forge-1.18.2" = _XMvmeIjv;
+        "default" = _XMvmeIjv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XMvmeIjv";}
+in callPackage fn {version="default";}

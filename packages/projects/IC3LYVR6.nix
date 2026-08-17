@@ -21,6 +21,7 @@ let
         "sLicmim5" = _sLicmim5;
         "gd5eJWa5" = _gd5eJWa5;
         "fabric-1.21.1" = _gd5eJWa5;
+        "default" = _gd5eJWa5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gd5eJWa5";}
+in callPackage fn {version="default";}

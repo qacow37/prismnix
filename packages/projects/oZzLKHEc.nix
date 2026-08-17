@@ -51,6 +51,7 @@ let
         "qq6grcby" = _qq6grcby;
         "Fei0XON2" = _Fei0XON2;
         "forge-1.19.4" = _Fei0XON2;
+        "default" = _Fei0XON2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Fei0XON2";}
+in callPackage fn {version="default";}

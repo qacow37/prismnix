@@ -22,6 +22,7 @@ let
         "HpSrSsv3" = _HpSrSsv3;
         "neoforge-26.1.2" = _vDPp4lQ0;
         "neoforge-1.21.1" = _HpSrSsv3;
+        "default" = _HpSrSsv3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HpSrSsv3";}
+in callPackage fn {version="default";}

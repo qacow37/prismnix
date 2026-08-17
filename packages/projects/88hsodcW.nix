@@ -149,6 +149,7 @@ let
         "neoforge-1.21-pre4" = _z8KI8Mom;
         "neoforge-1.21-rc1" = _z8KI8Mom;
         "neoforge-1.21" = _z8KI8Mom;
+        "default" = _z8KI8Mom;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="z8KI8Mom";}
+in callPackage fn {version="default";}

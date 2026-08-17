@@ -178,6 +178,7 @@ let
         "java-agent-26.1.1" = _ax9WHV6q;
         "java-agent-26.1.2" = _ax9WHV6q;
         "java-agent-26.2" = _W9yOc4GR;
+        "default" = _W9yOc4GR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -198,4 +199,4 @@ let
                 };
             };
         };
-in callPackage fn {version="W9yOc4GR";}
+in callPackage fn {version="default";}

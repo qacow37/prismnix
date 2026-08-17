@@ -18,6 +18,7 @@ let
         "forge-1.20.1" = _ekJO4GUI;
         "neoforge-1.18.2" = _e1ws1OBE;
         "neoforge-1.20.1" = _ekJO4GUI;
+        "default" = _ekJO4GUI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ekJO4GUI";}
+in callPackage fn {version="default";}

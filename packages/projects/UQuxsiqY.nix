@@ -63,6 +63,7 @@ let
         "xroFbyzj" = _xroFbyzj;
         "94HtDW6U" = _94HtDW6U;
         "minecraft-1.20.1" = _94HtDW6U;
+        "default" = _94HtDW6U;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="94HtDW6U";}
+in callPackage fn {version="default";}

@@ -19,6 +19,7 @@ let
         "neoforge-1.21.2" = _DGcgowF3;
         "neoforge-1.21.3" = _DGcgowF3;
         "neoforge-1.21.4" = _DGcgowF3;
+        "default" = _DGcgowF3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DGcgowF3";}
+in callPackage fn {version="default";}

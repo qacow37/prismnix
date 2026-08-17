@@ -52,6 +52,7 @@ let
         "minecraft-1.12.2" = _Nps5smHW;
         "minecraft-1.20" = _Nps5smHW;
         "minecraft-1.20.1" = _Nps5smHW;
+        "default" = _Nps5smHW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Nps5smHW";}
+in callPackage fn {version="default";}

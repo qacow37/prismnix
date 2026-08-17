@@ -15,6 +15,7 @@ let
         "cmwaSNrf" = _cmwaSNrf;
         "YbmxATTp" = _YbmxATTp;
         "minecraft-1.20.1" = _YbmxATTp;
+        "default" = _YbmxATTp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YbmxATTp";}
+in callPackage fn {version="default";}

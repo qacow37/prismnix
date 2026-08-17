@@ -39,6 +39,7 @@ let
         "LrkdIDoN" = _LrkdIDoN;
         "l9l5j4Zh" = _l9l5j4Zh;
         "neoforge-1.21.1" = _l9l5j4Zh;
+        "default" = _l9l5j4Zh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l9l5j4Zh";}
+in callPackage fn {version="default";}

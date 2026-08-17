@@ -250,6 +250,7 @@ let
         "neoforge-1.20.4" = _Tnswfgx5;
         "neoforge-1.20.5" = _Tnswfgx5;
         "neoforge-1.20.6" = _Tnswfgx5;
+        "default" = _pxyePina;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -270,4 +271,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pxyePina";}
+in callPackage fn {version="default";}

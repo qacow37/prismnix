@@ -82,6 +82,7 @@ let
         "dNiDwTok" = _dNiDwTok;
         "forge-1.20.1" = _dNiDwTok;
         "neoforge-1.20.1" = _dNiDwTok;
+        "default" = _dNiDwTok;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dNiDwTok";}
+in callPackage fn {version="default";}

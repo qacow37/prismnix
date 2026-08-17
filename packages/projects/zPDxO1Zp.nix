@@ -15,6 +15,7 @@ let
         "s3VWlEkS" = _s3VWlEkS;
         "RCLYR16W" = _RCLYR16W;
         "fabric-1.20.1" = _RCLYR16W;
+        "default" = _RCLYR16W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RCLYR16W";}
+in callPackage fn {version="default";}

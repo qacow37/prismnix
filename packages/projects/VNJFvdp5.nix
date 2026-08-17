@@ -99,6 +99,7 @@ let
         "kkMPPLiM" = _kkMPPLiM;
         "qAEPpBnu" = _qAEPpBnu;
         "forge-1.7.10" = _qAEPpBnu;
+        "default" = _qAEPpBnu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qAEPpBnu";}
+in callPackage fn {version="default";}

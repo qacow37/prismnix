@@ -19,6 +19,7 @@ let
         "minecraft-1.20.2" = _20slQpLf;
         "minecraft-1.20.3" = _ata1XTVU;
         "minecraft-1.20.4" = _ata1XTVU;
+        "default" = _ata1XTVU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ata1XTVU";}
+in callPackage fn {version="default";}

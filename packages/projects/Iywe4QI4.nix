@@ -131,6 +131,7 @@ let
         "neoforge-26.1.1" = _HKTspDDZ;
         "neoforge-26.1.2" = _HKTspDDZ;
         "neoforge-26.2" = _9mvtzoEQ;
+        "default" = _OcAnPE91;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -151,4 +152,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OcAnPE91";}
+in callPackage fn {version="default";}

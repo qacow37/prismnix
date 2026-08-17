@@ -201,6 +201,7 @@ let
         "RpAtrEfc" = _RpAtrEfc;
         "fYztFWKv" = _fYztFWKv;
         "velocity-1.0" = _fYztFWKv;
+        "default" = _fYztFWKv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -221,4 +222,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fYztFWKv";}
+in callPackage fn {version="default";}

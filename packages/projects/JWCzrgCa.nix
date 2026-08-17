@@ -86,6 +86,7 @@ let
         "forge-1.20.4" = _nrCvbi2b;
         "forge-1.20.5" = _nrCvbi2b;
         "forge-1.20.6" = _nrCvbi2b;
+        "default" = _aFMRSnrL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aFMRSnrL";}
+in callPackage fn {version="default";}

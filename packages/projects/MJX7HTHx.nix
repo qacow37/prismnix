@@ -117,6 +117,7 @@ let
         "QI9vxDqv" = _QI9vxDqv;
         "MCel2qKp" = _MCel2qKp;
         "forge-1.12.2" = _MCel2qKp;
+        "default" = _MCel2qKp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MCel2qKp";}
+in callPackage fn {version="default";}

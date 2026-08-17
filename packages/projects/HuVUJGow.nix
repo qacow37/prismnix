@@ -27,6 +27,7 @@ let
         "minecraft-1.20.4" = _deqYUCO7;
         "minecraft-1.20.5" = _deqYUCO7;
         "minecraft-1.20.6" = _deqYUCO7;
+        "default" = _deqYUCO7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="deqYUCO7";}
+in callPackage fn {version="default";}

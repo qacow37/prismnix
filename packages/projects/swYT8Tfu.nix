@@ -19,6 +19,7 @@ let
         "minecraft-25w09a" = _uP4ms5Rg;
         "minecraft-25w09b" = _uP4ms5Rg;
         "minecraft-25w10a" = _uP4ms5Rg;
+        "default" = _uP4ms5Rg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uP4ms5Rg";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "rXZq10io" = _rXZq10io;
         "minecraft-1.21" = _rXZq10io;
         "minecraft-1.21.1" = _rXZq10io;
+        "default" = _rXZq10io;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rXZq10io";}
+in callPackage fn {version="default";}

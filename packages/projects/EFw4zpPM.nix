@@ -52,6 +52,7 @@ let
         "XsUAZGlz" = _XsUAZGlz;
         "forge-1.20.1" = _ih9xOtiP;
         "neoforge-1.21.1" = _XsUAZGlz;
+        "default" = _XsUAZGlz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XsUAZGlz";}
+in callPackage fn {version="default";}

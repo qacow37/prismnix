@@ -32,6 +32,7 @@ let
         "fabric-1.20" = _QBEXOllu;
         "fabric-1.20.1" = _QBEXOllu;
         "fabric-1.20.2" = _nyrsqVpn;
+        "default" = _UALY9PFd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UALY9PFd";}
+in callPackage fn {version="default";}

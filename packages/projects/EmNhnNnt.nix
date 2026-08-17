@@ -57,6 +57,7 @@ let
         "pTvdAfwg" = _pTvdAfwg;
         "KSgki4uc" = _KSgki4uc;
         "neoforge-1.21.1" = _KSgki4uc;
+        "default" = _KSgki4uc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KSgki4uc";}
+in callPackage fn {version="default";}

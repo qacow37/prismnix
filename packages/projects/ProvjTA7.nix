@@ -123,6 +123,7 @@ let
         "uKS12rUS" = _uKS12rUS;
         "GBSlpwLT" = _GBSlpwLT;
         "neoforge-1.21.1" = _GBSlpwLT;
+        "default" = _GBSlpwLT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GBSlpwLT";}
+in callPackage fn {version="default";}

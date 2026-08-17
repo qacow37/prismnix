@@ -53,6 +53,7 @@ let
         "quilt-1.21.4" = _CcHCLIpi;
         "quilt-1.21.5" = _CcHCLIpi;
         "quilt-1.21.6" = _CcHCLIpi;
+        "default" = _CcHCLIpi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CcHCLIpi";}
+in callPackage fn {version="default";}

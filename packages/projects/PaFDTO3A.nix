@@ -66,6 +66,7 @@ let
         "quilt-1.19.4" = _tgOFga9o;
         "quilt-1.20" = _tgOFga9o;
         "quilt-1.20.1" = _tgOFga9o;
+        "default" = _tgOFga9o;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tgOFga9o";}
+in callPackage fn {version="default";}

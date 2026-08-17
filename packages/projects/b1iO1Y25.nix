@@ -23,6 +23,7 @@ let
         "forge-1.20.1" = _ogmCTj86;
         "forge-1.18.2" = _ogmCTj86;
         "forge-1.19.2" = _ogmCTj86;
+        "default" = _ogmCTj86;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ogmCTj86";}
+in callPackage fn {version="default";}

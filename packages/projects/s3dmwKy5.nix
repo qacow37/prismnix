@@ -2468,6 +2468,7 @@ let
         "neoforge-26.1.1" = _jUd6Y6PM;
         "neoforge-26.1.2" = _mYUbCfgT;
         "neoforge-26.2" = _POAebwFo;
+        "default" = _SDUCBYRU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2488,4 +2489,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SDUCBYRU";}
+in callPackage fn {version="default";}

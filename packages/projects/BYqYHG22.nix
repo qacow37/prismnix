@@ -15,6 +15,7 @@ let
         "oy2lMbeB" = _oy2lMbeB;
         "NeaJNIjp" = _NeaJNIjp;
         "fabric-1.21.11" = _NeaJNIjp;
+        "default" = _NeaJNIjp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NeaJNIjp";}
+in callPackage fn {version="default";}

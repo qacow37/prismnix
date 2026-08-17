@@ -57,6 +57,7 @@ let
         "fabric-1.20.4" = _4SHylIO9;
         "fabric-1.20.5" = _4SHylIO9;
         "fabric-1.20.6" = _4SHylIO9;
+        "default" = _4SHylIO9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4SHylIO9";}
+in callPackage fn {version="default";}

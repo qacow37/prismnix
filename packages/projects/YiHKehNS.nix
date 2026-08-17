@@ -28,6 +28,7 @@ let
         "YOBRUG8l" = _YOBRUG8l;
         "fabric-1.20.1" = _XryqZCYF;
         "forge-1.20.1" = _YOBRUG8l;
+        "default" = _YOBRUG8l;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YOBRUG8l";}
+in callPackage fn {version="default";}

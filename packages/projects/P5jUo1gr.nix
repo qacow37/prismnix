@@ -32,6 +32,7 @@ let
         "forge-1.20.4" = _72ExnjER;
         "forge-1.20.5" = _72ExnjER;
         "forge-1.20.6" = _72ExnjER;
+        "default" = _72ExnjER;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="72ExnjER";}
+in callPackage fn {version="default";}

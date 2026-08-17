@@ -937,6 +937,7 @@ let
         "spigot-1.17" = _VT17Rdug;
         "spigot-1.17.1" = _VT17Rdug;
         "spigot-26.2" = _VT17Rdug;
+        "default" = _VT17Rdug;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -957,4 +958,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VT17Rdug";}
+in callPackage fn {version="default";}

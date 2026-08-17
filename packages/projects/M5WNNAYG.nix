@@ -10,6 +10,7 @@ let
         "wFI4FnV3" = _wFI4FnV3;
         "minecraft-1.21" = _wFI4FnV3;
         "minecraft-1.21.1" = _wFI4FnV3;
+        "default" = _wFI4FnV3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wFI4FnV3";}
+in callPackage fn {version="default";}

@@ -54,6 +54,7 @@ let
         "datapack-1.21.1" = _ACLCvXc9;
         "forge-1.20.1" = _LwrD2Nkk;
         "neoforge-1.21.1" = _78celQi3;
+        "default" = _78celQi3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="78celQi3";}
+in callPackage fn {version="default";}

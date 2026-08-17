@@ -33,6 +33,7 @@ let
         "Li3Wv12Q" = _Li3Wv12Q;
         "Bd3l8MXO" = _Bd3l8MXO;
         "forge-1.20.1" = _Bd3l8MXO;
+        "default" = _Bd3l8MXO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Bd3l8MXO";}
+in callPackage fn {version="default";}

@@ -22,6 +22,7 @@ let
         "FsQcromX" = _FsQcromX;
         "fabric-1.20.6" = _ilL9T1Xe;
         "fabric-1.21" = _FsQcromX;
+        "default" = _FsQcromX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FsQcromX";}
+in callPackage fn {version="default";}

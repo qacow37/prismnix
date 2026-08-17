@@ -26,6 +26,7 @@ let
         "minecraft-1.21.9" = _buntaBwe;
         "minecraft-1.21.10" = _buntaBwe;
         "minecraft-1.21.11" = _buntaBwe;
+        "default" = _buntaBwe;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="buntaBwe";}
+in callPackage fn {version="default";}

@@ -39,6 +39,7 @@ let
         "qdLqSxoo" = _qdLqSxoo;
         "4ToIRK1i" = _4ToIRK1i;
         "minecraft-1.21.1" = _4ToIRK1i;
+        "default" = _4ToIRK1i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4ToIRK1i";}
+in callPackage fn {version="default";}

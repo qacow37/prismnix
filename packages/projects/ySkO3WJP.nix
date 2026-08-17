@@ -99,6 +99,7 @@ let
         "fabric-26.1" = _Xel1KBcD;
         "fabric-26.1.1" = _Xel1KBcD;
         "fabric-26.1.2" = _Xel1KBcD;
+        "default" = _Xel1KBcD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xel1KBcD";}
+in callPackage fn {version="default";}

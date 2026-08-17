@@ -16,6 +16,7 @@ let
         "p12qcvmL" = _p12qcvmL;
         "fabric-b1.7.3" = _p12qcvmL;
         "babric-b1.7.3" = _p12qcvmL;
+        "default" = _p12qcvmL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="p12qcvmL";}
+in callPackage fn {version="default";}

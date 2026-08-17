@@ -46,6 +46,7 @@ let
         "minecraft-1.21.8" = _kxPIFnVU;
         "minecraft-1.21.5" = _kxPIFnVU;
         "minecraft-1.21.11" = _WogeFltv;
+        "default" = _WogeFltv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WogeFltv";}
+in callPackage fn {version="default";}

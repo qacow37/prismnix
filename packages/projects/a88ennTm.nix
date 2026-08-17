@@ -690,6 +690,7 @@ let
         "babric-26.1.2" = _p4PAdKku;
         "babric-26.1.1" = _PGJQcmLS;
         "babric-26.2" = _PdacOZFK;
+        "default" = _bscz4sZS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -710,4 +711,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bscz4sZS";}
+in callPackage fn {version="default";}

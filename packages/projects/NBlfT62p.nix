@@ -10,6 +10,7 @@ let
         "RNF7vPtp" = _RNF7vPtp;
         "forge-1.19.2" = _RNF7vPtp;
         "forge-1.20" = _RNF7vPtp;
+        "default" = _RNF7vPtp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RNF7vPtp";}
+in callPackage fn {version="default";}

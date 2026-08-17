@@ -1393,6 +1393,7 @@ let
         "geyser-26.1.1" = _UEBXlvdK;
         "geyser-26.1.2" = _UEBXlvdK;
         "geyser-26.2" = _UEBXlvdK;
+        "default" = _UEBXlvdK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1413,4 +1414,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UEBXlvdK";}
+in callPackage fn {version="default";}

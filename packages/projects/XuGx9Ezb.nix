@@ -244,6 +244,7 @@ let
         "vanilla-26.1.1" = _NtPbUuWd;
         "vanilla-26.1.2" = _NtPbUuWd;
         "vanilla-26.2" = _CNEYYN42;
+        "default" = _CNEYYN42;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -264,4 +265,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CNEYYN42";}
+in callPackage fn {version="default";}

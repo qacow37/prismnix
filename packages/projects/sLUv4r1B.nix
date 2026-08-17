@@ -27,6 +27,7 @@ let
         "dA257xXP" = _dA257xXP;
         "1fRUMDUc" = _1fRUMDUc;
         "fabric-1.20.1" = _1fRUMDUc;
+        "default" = _1fRUMDUc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1fRUMDUc";}
+in callPackage fn {version="default";}

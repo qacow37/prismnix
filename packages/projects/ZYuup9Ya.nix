@@ -51,6 +51,7 @@ let
         "2Xnev1gC" = _2Xnev1gC;
         "202egKSH" = _202egKSH;
         "forge-1.20.1" = _202egKSH;
+        "default" = _202egKSH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="202egKSH";}
+in callPackage fn {version="default";}

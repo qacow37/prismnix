@@ -38,6 +38,7 @@ let
         "iris-1.21.9" = _LCNLWfDo;
         "iris-1.21.10" = _LCNLWfDo;
         "iris-1.21.11" = _LCNLWfDo;
+        "default" = _LCNLWfDo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LCNLWfDo";}
+in callPackage fn {version="default";}

@@ -81,6 +81,7 @@ let
         "neoforge-1.21.10" = _jsRTYuFE;
         "datapack-1.20.1" = _4ouMcfpS;
         "datapack-1.20.6" = _mXP7MHB8;
+        "default" = _jsRTYuFE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jsRTYuFE";}
+in callPackage fn {version="default";}

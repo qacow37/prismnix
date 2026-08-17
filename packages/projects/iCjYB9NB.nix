@@ -82,6 +82,7 @@ let
         "NEDkggEo" = _NEDkggEo;
         "fabric-1.21.1" = _bbEd0Aqo;
         "neoforge-1.21.1" = _NEDkggEo;
+        "default" = _NEDkggEo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NEDkggEo";}
+in callPackage fn {version="default";}

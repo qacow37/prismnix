@@ -40,6 +40,7 @@ let
         "lRikFp3p" = _lRikFp3p;
         "fabric-1.21" = _lRikFp3p;
         "fabric-1.21.1" = _lRikFp3p;
+        "default" = _lRikFp3p;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lRikFp3p";}
+in callPackage fn {version="default";}

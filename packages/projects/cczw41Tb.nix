@@ -28,6 +28,7 @@ let
         "OMABgA24" = _OMABgA24;
         "fabric-1.20.1" = _wqxY49jf;
         "fabric-1.21.1" = _OMABgA24;
+        "default" = _OMABgA24;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OMABgA24";}
+in callPackage fn {version="default";}

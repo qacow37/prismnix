@@ -45,6 +45,7 @@ let
         "zEDunyc0" = _zEDunyc0;
         "tSEEFIca" = _tSEEFIca;
         "forge-1.12.2" = _tSEEFIca;
+        "default" = _tSEEFIca;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tSEEFIca";}
+in callPackage fn {version="default";}

@@ -49,6 +49,7 @@ let
         "minecraft-1.21.6" = _MpPpuDW6;
         "minecraft-1.21.7" = _MpPpuDW6;
         "minecraft-1.21.8" = _MpPpuDW6;
+        "default" = _MpPpuDW6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -69,4 +70,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MpPpuDW6";}
+in callPackage fn {version="default";}

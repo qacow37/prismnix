@@ -34,6 +34,7 @@ let
         "samgloyD" = _samgloyD;
         "minecraft-1.19.4" = _samgloyD;
         "minecraft-1.20.1" = _samgloyD;
+        "default" = _samgloyD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="samgloyD";}
+in callPackage fn {version="default";}

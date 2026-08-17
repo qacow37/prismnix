@@ -64,6 +64,7 @@ let
         "OIa8aSku" = _OIa8aSku;
         "neoforge-1.21" = _OIa8aSku;
         "neoforge-1.21.1" = _OIa8aSku;
+        "default" = _OIa8aSku;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OIa8aSku";}
+in callPackage fn {version="default";}

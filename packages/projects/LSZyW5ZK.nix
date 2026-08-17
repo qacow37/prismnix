@@ -35,6 +35,7 @@ let
         "spigot-1.21.6" = _VtcmHEib;
         "spigot-1.21.7" = _VtcmHEib;
         "spigot-1.21.8" = _VtcmHEib;
+        "default" = _VtcmHEib;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -55,4 +56,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VtcmHEib";}
+in callPackage fn {version="default";}

@@ -54,6 +54,7 @@ let
         "neoforge-1.21.4" = _kf8s06Tl;
         "neoforge-1.21.1" = _3jgn6Pwv;
         "neoforge-1.21.8" = _6bteBwTk;
+        "default" = _6bteBwTk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6bteBwTk";}
+in callPackage fn {version="default";}

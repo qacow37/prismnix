@@ -63,6 +63,7 @@ let
         "G0xV9246" = _G0xV9246;
         "WQos2Suo" = _WQos2Suo;
         "forge-1.7.10" = _WQos2Suo;
+        "default" = _WQos2Suo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WQos2Suo";}
+in callPackage fn {version="default";}

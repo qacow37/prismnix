@@ -111,6 +111,7 @@ let
         "PZfuHlDE" = _PZfuHlDE;
         "aBAKR8V8" = _aBAKR8V8;
         "forge-1.20.1" = _aBAKR8V8;
+        "default" = _aBAKR8V8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aBAKR8V8";}
+in callPackage fn {version="default";}

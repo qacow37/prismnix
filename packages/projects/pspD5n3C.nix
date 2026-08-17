@@ -22,6 +22,7 @@ let
         "6miYTmSY" = _6miYTmSY;
         "babric-b1.7.3" = _6miYTmSY;
         "fabric-b1.7.3" = _6miYTmSY;
+        "default" = _6miYTmSY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6miYTmSY";}
+in callPackage fn {version="default";}

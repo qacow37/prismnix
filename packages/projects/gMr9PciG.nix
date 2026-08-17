@@ -157,6 +157,7 @@ let
         "forge-1.20.1" = _LGans2aY;
         "neoforge-1.20.1" = _LGans2aY;
         "neoforge-1.21.1" = _ws66X9el;
+        "default" = _ws66X9el;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -177,4 +178,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ws66X9el";}
+in callPackage fn {version="default";}

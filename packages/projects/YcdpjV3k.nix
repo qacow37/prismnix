@@ -15,6 +15,7 @@ let
         "DRfNMDX3" = _DRfNMDX3;
         "LJYBvVR1" = _LJYBvVR1;
         "fabric-1.19.2" = _LJYBvVR1;
+        "default" = _LJYBvVR1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LJYBvVR1";}
+in callPackage fn {version="default";}

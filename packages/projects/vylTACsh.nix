@@ -219,6 +219,7 @@ let
         "9T43RGc3" = _9T43RGc3;
         "BoeDHUKw" = _BoeDHUKw;
         "forge-1.12.2" = _BoeDHUKw;
+        "default" = _BoeDHUKw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -239,4 +240,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BoeDHUKw";}
+in callPackage fn {version="default";}

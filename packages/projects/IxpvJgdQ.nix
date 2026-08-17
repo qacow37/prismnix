@@ -10,6 +10,7 @@ let
         "QtfVbXnA" = _QtfVbXnA;
         "forge-1.4.6" = _QtfVbXnA;
         "forge-1.4.7" = _QtfVbXnA;
+        "default" = _QtfVbXnA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QtfVbXnA";}
+in callPackage fn {version="default";}

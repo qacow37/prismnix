@@ -48,6 +48,7 @@ let
         "neoforge-26.1" = _HUsi67MX;
         "neoforge-26.1.1" = _HUsi67MX;
         "neoforge-26.1.2" = _HUsi67MX;
+        "default" = _HUsi67MX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -68,4 +69,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HUsi67MX";}
+in callPackage fn {version="default";}

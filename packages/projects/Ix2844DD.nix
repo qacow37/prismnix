@@ -145,6 +145,7 @@ let
         "purpur-1.21.11" = _ptRRMda2;
         "paper-1.21.10" = _ptRRMda2;
         "paper-1.21.11" = _ptRRMda2;
+        "default" = _ptRRMda2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -165,4 +166,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ptRRMda2";}
+in callPackage fn {version="default";}

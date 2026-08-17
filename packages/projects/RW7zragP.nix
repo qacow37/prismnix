@@ -352,6 +352,7 @@ let
         "neoforge-1.20.1" = _4kCA7v62;
         "neoforge-1.21" = _lnhTlZIP;
         "neoforge-1.21.1" = _lnhTlZIP;
+        "default" = _lnhTlZIP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -372,4 +373,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lnhTlZIP";}
+in callPackage fn {version="default";}

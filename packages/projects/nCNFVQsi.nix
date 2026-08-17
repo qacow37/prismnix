@@ -33,6 +33,7 @@ let
         "AlyK6re8" = _AlyK6re8;
         "na3lksTZ" = _na3lksTZ;
         "minecraft-1.12.2" = _na3lksTZ;
+        "default" = _na3lksTZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="na3lksTZ";}
+in callPackage fn {version="default";}

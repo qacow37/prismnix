@@ -9,6 +9,7 @@ let
     in {
         "JECuVaCR" = _JECuVaCR;
         "forge-1.20.1" = _JECuVaCR;
+        "default" = _JECuVaCR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JECuVaCR";}
+in callPackage fn {version="default";}

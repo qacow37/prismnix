@@ -15,6 +15,7 @@ let
         "XniWznko" = _XniWznko;
         "leXmKQMl" = _leXmKQMl;
         "forge-1.20.1" = _leXmKQMl;
+        "default" = _leXmKQMl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="leXmKQMl";}
+in callPackage fn {version="default";}

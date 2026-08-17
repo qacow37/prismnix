@@ -16,6 +16,7 @@ let
         "e6tPcnEP" = _e6tPcnEP;
         "fabric-1.19.2" = _e6tPcnEP;
         "quilt-1.19.2" = _e6tPcnEP;
+        "default" = _e6tPcnEP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="e6tPcnEP";}
+in callPackage fn {version="default";}

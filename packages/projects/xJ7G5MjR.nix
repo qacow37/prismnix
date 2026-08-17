@@ -636,6 +636,7 @@ let
         "fabric-1.21.6" = _ZLibDfNx;
         "fabric-1.21.7" = _ZLibDfNx;
         "fabric-1.21.8" = _PNoOMPor;
+        "default" = _PNoOMPor;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -656,4 +657,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PNoOMPor";}
+in callPackage fn {version="default";}

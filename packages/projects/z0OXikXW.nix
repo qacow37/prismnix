@@ -97,6 +97,7 @@ let
         "minecraft-26.2-snapshot-3" = _VIawHENY;
         "minecraft-26.2-snapshot-4" = _VIawHENY;
         "minecraft-26.2-snapshot-5" = _VIawHENY;
+        "default" = _wDPdWXTb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -117,4 +118,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wDPdWXTb";}
+in callPackage fn {version="default";}

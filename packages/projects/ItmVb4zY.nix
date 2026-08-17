@@ -450,6 +450,7 @@ let
         "fabric-1.21.1" = _RNbPHodv;
         "forge-1.20.1" = _L7IKCpcg;
         "neoforge-1.21.1" = _9bPk2DC3;
+        "default" = _9bPk2DC3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -470,4 +471,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9bPk2DC3";}
+in callPackage fn {version="default";}

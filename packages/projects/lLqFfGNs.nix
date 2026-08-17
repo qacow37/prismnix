@@ -116,6 +116,7 @@ let
         "optifine-26.1" = _gUv7fBPN;
         "optifine-26.1.1" = _gUv7fBPN;
         "optifine-26.1.2" = _gUv7fBPN;
+        "default" = _gUv7fBPN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -136,4 +137,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gUv7fBPN";}
+in callPackage fn {version="default";}

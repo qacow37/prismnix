@@ -233,6 +233,7 @@ let
         "folia-26.1" = _StXFPZfs;
         "folia-26.1.1" = _StXFPZfs;
         "folia-26.1.2" = _StXFPZfs;
+        "default" = _l2FIdJNb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -253,4 +254,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l2FIdJNb";}
+in callPackage fn {version="default";}

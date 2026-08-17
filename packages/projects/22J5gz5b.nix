@@ -46,6 +46,7 @@ let
         "po01pKAd" = _po01pKAd;
         "datapack-1.21.1" = _po01pKAd;
         "fabric-1.21.1" = _eMvNOZRp;
+        "default" = _po01pKAd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="po01pKAd";}
+in callPackage fn {version="default";}

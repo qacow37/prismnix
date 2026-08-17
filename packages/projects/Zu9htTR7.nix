@@ -23,6 +23,7 @@ let
         "fabric-1.19.3" = _WusJjObS;
         "fabric-1.20.1" = _KQXRisqL;
         "quilt-1.19.3" = _WusJjObS;
+        "default" = _KQXRisqL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KQXRisqL";}
+in callPackage fn {version="default";}

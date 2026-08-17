@@ -27,6 +27,7 @@ let
         "ercrdtAY" = _ercrdtAY;
         "I4KE9SBL" = _I4KE9SBL;
         "forge-1.20.1" = _I4KE9SBL;
+        "default" = _I4KE9SBL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I4KE9SBL";}
+in callPackage fn {version="default";}

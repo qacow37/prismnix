@@ -175,6 +175,7 @@ let
         "legacy-fabric-1.13" = _kIKAid8S;
         "legacy-fabric-1.13.1" = _kIKAid8S;
         "legacy-fabric-1.13.2" = _kIKAid8S;
+        "default" = _fhhAe6Mv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -195,4 +196,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fhhAe6Mv";}
+in callPackage fn {version="default";}

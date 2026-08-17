@@ -27,6 +27,7 @@ let
         "1PmM7Waa" = _1PmM7Waa;
         "iPXslylh" = _iPXslylh;
         "forge-1.7.10" = _iPXslylh;
+        "default" = _iPXslylh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iPXslylh";}
+in callPackage fn {version="default";}

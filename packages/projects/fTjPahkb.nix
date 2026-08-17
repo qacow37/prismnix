@@ -33,6 +33,7 @@ let
         "XQoJBTni" = _XQoJBTni;
         "zoyjBXEL" = _zoyjBXEL;
         "forge-1.20.1" = _zoyjBXEL;
+        "default" = _zoyjBXEL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zoyjBXEL";}
+in callPackage fn {version="default";}

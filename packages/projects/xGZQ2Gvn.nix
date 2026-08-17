@@ -81,6 +81,7 @@ let
         "yddYrV8i" = _yddYrV8i;
         "tALTkjn0" = _tALTkjn0;
         "forge-1.20.1" = _tALTkjn0;
+        "default" = _tALTkjn0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tALTkjn0";}
+in callPackage fn {version="default";}

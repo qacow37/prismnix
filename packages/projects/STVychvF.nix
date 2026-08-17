@@ -94,6 +94,7 @@ let
         "IGa8EU13" = _IGa8EU13;
         "fabric-1.21.5" = _OcLRJVti;
         "fabric-1.21.6" = _IGa8EU13;
+        "default" = _IGa8EU13;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IGa8EU13";}
+in callPackage fn {version="default";}

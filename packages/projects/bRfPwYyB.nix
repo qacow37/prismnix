@@ -46,6 +46,7 @@ let
         "neoforge-1.20.4" = _Eeg264Ka;
         "neoforge-1.20.2" = _e7dgjR7D;
         "neoforge-1.20.3" = _e7dgjR7D;
+        "default" = _Eeg264Ka;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Eeg264Ka";}
+in callPackage fn {version="default";}

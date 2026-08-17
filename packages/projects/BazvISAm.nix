@@ -15,6 +15,7 @@ let
         "EdXNAjjA" = _EdXNAjjA;
         "qoNPXC72" = _qoNPXC72;
         "forge-1.12.2" = _qoNPXC72;
+        "default" = _qoNPXC72;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qoNPXC72";}
+in callPackage fn {version="default";}

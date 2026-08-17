@@ -92,6 +92,7 @@ let
         "minecraft-26.1.1" = _Tv23piw4;
         "minecraft-26.1.2" = _Tv23piw4;
         "minecraft-26.2" = _zlObsVVC;
+        "default" = _zlObsVVC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zlObsVVC";}
+in callPackage fn {version="default";}

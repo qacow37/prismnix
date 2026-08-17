@@ -149,6 +149,7 @@ let
         "minecraft-26.2" = _f04BQTyk;
         "minecraft-26.1.1" = _vmLpZZYT;
         "minecraft-26.1.2" = _lYixffxn;
+        "default" = _lYixffxn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -169,4 +170,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lYixffxn";}
+in callPackage fn {version="default";}

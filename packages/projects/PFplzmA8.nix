@@ -19,6 +19,7 @@ let
         "forge-1.21.11" = _N0v4H1Js;
         "neoforge-1.21.11" = _N0v4H1Js;
         "quilt-1.21.11" = _N0v4H1Js;
+        "default" = _N0v4H1Js;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N0v4H1Js";}
+in callPackage fn {version="default";}

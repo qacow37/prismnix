@@ -15,6 +15,7 @@ let
         "CVNdiG5b" = _CVNdiG5b;
         "8ch54E0J" = _8ch54E0J;
         "fabric-b1.7.3" = _8ch54E0J;
+        "default" = _8ch54E0J;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8ch54E0J";}
+in callPackage fn {version="default";}

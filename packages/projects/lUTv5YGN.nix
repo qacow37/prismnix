@@ -57,6 +57,7 @@ let
         "EQw2KidJ" = _EQw2KidJ;
         "ncZdT81w" = _ncZdT81w;
         "forge-1.20.1" = _ncZdT81w;
+        "default" = _ncZdT81w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ncZdT81w";}
+in callPackage fn {version="default";}

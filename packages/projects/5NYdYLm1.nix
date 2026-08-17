@@ -28,6 +28,7 @@ let
         "4adkG2BK" = _4adkG2BK;
         "fabric-1.21.1" = _4adkG2BK;
         "neoforge-1.21.1" = _EfH1X1Lo;
+        "default" = _4adkG2BK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4adkG2BK";}
+in callPackage fn {version="default";}

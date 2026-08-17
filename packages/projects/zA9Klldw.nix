@@ -28,6 +28,7 @@ let
         "ENgM7WRw" = _ENgM7WRw;
         "neoforge-1.21.1" = _naLCoIB4;
         "forge-1.20.1" = _ENgM7WRw;
+        "default" = _ENgM7WRw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ENgM7WRw";}
+in callPackage fn {version="default";}

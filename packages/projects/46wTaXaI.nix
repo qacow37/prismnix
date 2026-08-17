@@ -76,6 +76,7 @@ let
         "vTJS11eR" = _vTJS11eR;
         "neoforge-1.21.4" = _s60ofByu;
         "forge-1.20.1" = _vTJS11eR;
+        "default" = _vTJS11eR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vTJS11eR";}
+in callPackage fn {version="default";}

@@ -494,6 +494,7 @@ let
         "waterfall-1.21.1" = _FXIvVUmz;
         "waterfall-1.21.2" = _FXIvVUmz;
         "waterfall-1.21.3" = _FXIvVUmz;
+        "default" = _FXIvVUmz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -514,4 +515,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FXIvVUmz";}
+in callPackage fn {version="default";}

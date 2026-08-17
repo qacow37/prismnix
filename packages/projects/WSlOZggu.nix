@@ -40,6 +40,7 @@ let
         "fabric-26.1.1" = _DpoWAciN;
         "fabric-26.1.2" = _DpoWAciN;
         "fabric-26.2" = _DpoWAciN;
+        "default" = _DpoWAciN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DpoWAciN";}
+in callPackage fn {version="default";}

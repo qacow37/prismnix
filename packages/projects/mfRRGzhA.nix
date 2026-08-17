@@ -79,6 +79,7 @@ let
         "neoforge-1.21.1" = _uiXBateq;
         "neoforge-1.21.4" = _3YKEsNP9;
         "neoforge-1.21.8" = _UltGRCUa;
+        "default" = _UltGRCUa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -99,4 +100,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UltGRCUa";}
+in callPackage fn {version="default";}

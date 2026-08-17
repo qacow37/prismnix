@@ -27,6 +27,7 @@ let
         "77Lw9E1k" = _77Lw9E1k;
         "DORFs2Sy" = _DORFs2Sy;
         "fabric-b1.7.3" = _DORFs2Sy;
+        "default" = _DORFs2Sy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DORFs2Sy";}
+in callPackage fn {version="default";}

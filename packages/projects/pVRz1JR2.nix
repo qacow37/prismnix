@@ -15,6 +15,7 @@ let
         "hmu4nXmu" = _hmu4nXmu;
         "Kvl95o6U" = _Kvl95o6U;
         "forge-1.20.1" = _Kvl95o6U;
+        "default" = _Kvl95o6U;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Kvl95o6U";}
+in callPackage fn {version="default";}

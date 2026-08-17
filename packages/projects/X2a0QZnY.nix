@@ -56,6 +56,7 @@ let
         "folia-1.21.6" = _OCdapQFT;
         "folia-1.21.7" = _OCdapQFT;
         "folia-1.21.8" = _OCdapQFT;
+        "default" = _OCdapQFT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -76,4 +77,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OCdapQFT";}
+in callPackage fn {version="default";}

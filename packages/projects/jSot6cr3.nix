@@ -52,6 +52,7 @@ let
         "nyIdmfn0" = _nyIdmfn0;
         "fabric-1.20.1" = _em4B4PYv;
         "forge-1.20.1" = _nyIdmfn0;
+        "default" = _nyIdmfn0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nyIdmfn0";}
+in callPackage fn {version="default";}

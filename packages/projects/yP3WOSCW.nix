@@ -131,6 +131,7 @@ let
         "forge-1.20" = _Ttm575OB;
         "forge-1.20.1" = _Ttm575OB;
         "neoforge-1.21.1" = _UeLS35yV;
+        "default" = _Ttm575OB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -151,4 +152,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ttm575OB";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "nrG58KNa" = _nrG58KNa;
         "7oZ11Prc" = _7oZ11Prc;
         "forge-1.20.1" = _7oZ11Prc;
+        "default" = _7oZ11Prc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7oZ11Prc";}
+in callPackage fn {version="default";}

@@ -86,6 +86,7 @@ let
         "forge-1.15.2" = _XPRbsHcR;
         "forge-1.12.1" = _wWWYVoFo;
         "forge-1.12.2" = _wWWYVoFo;
+        "default" = _zid0KBLi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zid0KBLi";}
+in callPackage fn {version="default";}

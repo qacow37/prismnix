@@ -181,6 +181,7 @@ let
         "neoforge-1.21.4" = _UCIRAnA8;
         "neoforge-26.1.1" = _T9GFQbib;
         "neoforge-26.1.2" = _T9GFQbib;
+        "default" = _T9GFQbib;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -201,4 +202,4 @@ let
                 };
             };
         };
-in callPackage fn {version="T9GFQbib";}
+in callPackage fn {version="default";}

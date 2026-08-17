@@ -21,6 +21,7 @@ let
         "fabric-1.16.1" = _eNzHNuxj;
         "fabric-1.16.2" = _eNzHNuxj;
         "fabric-1.16.3" = _eNzHNuxj;
+        "default" = _eNzHNuxj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eNzHNuxj";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "mzJoUgos" = _mzJoUgos;
         "dk4ddOcP" = _dk4ddOcP;
         "fabric-1.20.1" = _dk4ddOcP;
+        "default" = _dk4ddOcP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dk4ddOcP";}
+in callPackage fn {version="default";}

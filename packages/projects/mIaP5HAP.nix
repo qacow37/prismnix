@@ -542,6 +542,7 @@ let
         "spigot-26.1.1" = _MS4LzyTL;
         "spigot-26.1.2" = _MS4LzyTL;
         "spigot-26.2" = _MS4LzyTL;
+        "default" = _MS4LzyTL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -562,4 +563,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MS4LzyTL";}
+in callPackage fn {version="default";}

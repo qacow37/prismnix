@@ -148,6 +148,7 @@ let
         "fabric-1.20.1" = _VhSm60D2;
         "fabric-1.20" = _VhSm60D2;
         "fabric-1.20.2" = _VhSm60D2;
+        "default" = _VhSm60D2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VhSm60D2";}
+in callPackage fn {version="default";}

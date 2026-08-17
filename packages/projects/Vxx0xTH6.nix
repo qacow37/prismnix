@@ -530,6 +530,7 @@ let
         "fabric-1.21.9" = _IWBDU1w6;
         "fabric-1.21.10" = _IWBDU1w6;
         "fabric-1.21.11" = _IWBDU1w6;
+        "default" = _IWBDU1w6;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -550,4 +551,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IWBDU1w6";}
+in callPackage fn {version="default";}

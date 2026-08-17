@@ -15,6 +15,7 @@ let
         "Y5buAUhy" = _Y5buAUhy;
         "gN5nJDLL" = _gN5nJDLL;
         "neoforge-1.21.1" = _gN5nJDLL;
+        "default" = _gN5nJDLL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gN5nJDLL";}
+in callPackage fn {version="default";}

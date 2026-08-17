@@ -15,6 +15,7 @@ let
         "iPIWD6Pr" = _iPIWD6Pr;
         "YDMMENfy" = _YDMMENfy;
         "forge-1.12.2" = _YDMMENfy;
+        "default" = _YDMMENfy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YDMMENfy";}
+in callPackage fn {version="default";}

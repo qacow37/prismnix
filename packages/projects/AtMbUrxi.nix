@@ -27,6 +27,7 @@ let
         "minecraft-1.21.3" = _vsWPM7P4;
         "minecraft-1.21.4" = _vsWPM7P4;
         "minecraft-1.21.5" = _vsWPM7P4;
+        "default" = _vsWPM7P4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vsWPM7P4";}
+in callPackage fn {version="default";}

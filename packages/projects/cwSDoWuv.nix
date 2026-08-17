@@ -30,6 +30,7 @@ let
         "fabric-1.19.3" = _sob94geO;
         "fabric-1.19.4" = _sob94geO;
         "fabric-1.20.2" = _UL8NCBtV;
+        "default" = _UL8NCBtV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UL8NCBtV";}
+in callPackage fn {version="default";}

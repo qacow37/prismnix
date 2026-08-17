@@ -58,6 +58,7 @@ let
         "xrg5MjEA" = _xrg5MjEA;
         "neoforge-1.21" = _xrg5MjEA;
         "neoforge-1.21.1" = _xrg5MjEA;
+        "default" = _xrg5MjEA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xrg5MjEA";}
+in callPackage fn {version="default";}

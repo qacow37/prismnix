@@ -16,6 +16,7 @@ let
         "wiVr9tPu" = _wiVr9tPu;
         "fabric-1.20" = _wiVr9tPu;
         "fabric-1.20.1" = _wiVr9tPu;
+        "default" = _wiVr9tPu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wiVr9tPu";}
+in callPackage fn {version="default";}

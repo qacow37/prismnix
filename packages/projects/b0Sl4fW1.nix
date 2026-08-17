@@ -45,6 +45,7 @@ let
         "nCiZ6Zs6" = _nCiZ6Zs6;
         "IlIuxEDG" = _IlIuxEDG;
         "forge-1.20.1" = _IlIuxEDG;
+        "default" = _IlIuxEDG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IlIuxEDG";}
+in callPackage fn {version="default";}

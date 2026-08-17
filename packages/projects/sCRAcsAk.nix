@@ -155,6 +155,7 @@ let
         "fabric-1.20.1" = _tybPDfME;
         "fabric-1.20.2" = _tybPDfME;
         "fabric-1.20.3" = _8g905dxe;
+        "default" = _tybPDfME;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -175,4 +176,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tybPDfME";}
+in callPackage fn {version="default";}

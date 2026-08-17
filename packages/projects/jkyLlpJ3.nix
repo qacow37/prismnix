@@ -10,6 +10,7 @@ let
         "gii4Aqn3" = _gii4Aqn3;
         "fabric-1.20.1" = _gii4Aqn3;
         "fabric-1.20.2" = _gii4Aqn3;
+        "default" = _gii4Aqn3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gii4Aqn3";}
+in callPackage fn {version="default";}

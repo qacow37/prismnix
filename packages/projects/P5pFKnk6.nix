@@ -94,6 +94,7 @@ let
         "J3DTivsI" = _J3DTivsI;
         "forge-1.20.1" = _e3HKo2ip;
         "neoforge-1.21.1" = _J3DTivsI;
+        "default" = _J3DTivsI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="J3DTivsI";}
+in callPackage fn {version="default";}

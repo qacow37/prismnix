@@ -38,6 +38,7 @@ let
         "quilt-1.18.2" = _4GLuLeuc;
         "quilt-1.19.2" = _4GLuLeuc;
         "quilt-1.20.1" = _4GLuLeuc;
+        "default" = _4GLuLeuc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4GLuLeuc";}
+in callPackage fn {version="default";}

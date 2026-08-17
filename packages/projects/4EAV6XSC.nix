@@ -100,6 +100,7 @@ let
         "NKftF6EE" = _NKftF6EE;
         "neoforge-1.21.1" = _NKftF6EE;
         "forge-1.20.1" = _fwRAMTvP;
+        "default" = _NKftF6EE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NKftF6EE";}
+in callPackage fn {version="default";}

@@ -29,6 +29,7 @@ let
         "minecraft-1.21" = _NcaBRC3f;
         "minecraft-1.21.1" = _NcaBRC3f;
         "minecraft-1.21.4" = _NcaBRC3f;
+        "default" = _NcaBRC3f;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NcaBRC3f";}
+in callPackage fn {version="default";}

@@ -595,6 +595,7 @@ let
         "quilt-26.2-pre-6" = _A70I2RV4;
         "quilt-26.2-rc-1" = _A70I2RV4;
         "quilt-26.2-rc-2" = _A70I2RV4;
+        "default" = _A70I2RV4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -615,4 +616,4 @@ let
                 };
             };
         };
-in callPackage fn {version="A70I2RV4";}
+in callPackage fn {version="default";}

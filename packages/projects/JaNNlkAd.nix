@@ -118,6 +118,7 @@ let
         "SgdcCBBu" = _SgdcCBBu;
         "fabric-b1.7.3" = _SgdcCBBu;
         "babric-b1.7.3" = _SgdcCBBu;
+        "default" = _SgdcCBBu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -138,4 +139,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SgdcCBBu";}
+in callPackage fn {version="default";}

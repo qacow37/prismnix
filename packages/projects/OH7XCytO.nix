@@ -81,6 +81,7 @@ let
         "spigot-1.18.2" = _lgGIAIEf;
         "spigot-1.19.4" = _lgGIAIEf;
         "spigot-1.20.4" = _lgGIAIEf;
+        "default" = _Jh6dFJmx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Jh6dFJmx";}
+in callPackage fn {version="default";}

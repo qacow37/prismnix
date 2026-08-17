@@ -21,6 +21,7 @@ let
         "3sCClDEf" = _3sCClDEf;
         "TxNXPuKE" = _TxNXPuKE;
         "forge-1.20.1" = _TxNXPuKE;
+        "default" = _TxNXPuKE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TxNXPuKE";}
+in callPackage fn {version="default";}

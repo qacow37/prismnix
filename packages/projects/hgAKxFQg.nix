@@ -75,6 +75,7 @@ let
         "iris-1.21.3" = _dF60Go3s;
         "iris-1.21.4" = _dF60Go3s;
         "iris-1.21.5" = _dF60Go3s;
+        "default" = _dF60Go3s;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dF60Go3s";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "a5f6OFMS" = _a5f6OFMS;
         "30TWX853" = _30TWX853;
         "neoforge-1.21.1" = _30TWX853;
+        "default" = _30TWX853;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="30TWX853";}
+in callPackage fn {version="default";}

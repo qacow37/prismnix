@@ -122,6 +122,7 @@ let
         "paper-1.21.9" = _Tu4ordYl;
         "paper-1.21.10" = _Tu4ordYl;
         "paper-1.21.11" = _Tu4ordYl;
+        "default" = _Tu4ordYl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -142,4 +143,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Tu4ordYl";}
+in callPackage fn {version="default";}

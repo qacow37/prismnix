@@ -89,6 +89,7 @@ let
         "forge-1.19.2" = _yhIndg8W;
         "forge-1.18.2" = _3JVKn6aY;
         "forge-1.17.1" = _wHUerD0O;
+        "default" = _DayWFuzl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -109,4 +110,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DayWFuzl";}
+in callPackage fn {version="default";}

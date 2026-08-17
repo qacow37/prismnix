@@ -125,6 +125,7 @@ let
         "spigot-26.1.1" = _tDXrexiD;
         "spigot-26.1.2" = _tDXrexiD;
         "spigot-26.2" = _tDXrexiD;
+        "default" = _tDXrexiD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -145,4 +146,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tDXrexiD";}
+in callPackage fn {version="default";}

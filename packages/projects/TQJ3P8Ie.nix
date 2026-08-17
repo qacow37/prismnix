@@ -22,6 +22,7 @@ let
         "neoforge-1.21.6" = _7DtaDoDK;
         "neoforge-1.21.7" = _7DtaDoDK;
         "neoforge-1.21.8" = _7DtaDoDK;
+        "default" = _7DtaDoDK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7DtaDoDK";}
+in callPackage fn {version="default";}

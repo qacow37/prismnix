@@ -9,6 +9,7 @@ let
     in {
         "xMVYi2CV" = _xMVYi2CV;
         "minecraft-1.20.1" = _xMVYi2CV;
+        "default" = _xMVYi2CV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xMVYi2CV";}
+in callPackage fn {version="default";}

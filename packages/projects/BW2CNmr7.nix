@@ -15,6 +15,7 @@ let
         "IeAN3zbt" = _IeAN3zbt;
         "xjbvFql1" = _xjbvFql1;
         "minecraft-1.20.4" = _xjbvFql1;
+        "default" = _xjbvFql1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xjbvFql1";}
+in callPackage fn {version="default";}

@@ -17,6 +17,7 @@ let
         "minecraft-1.20" = _iJZ1MPVK;
         "minecraft-1.20.1" = _iJZ1MPVK;
         "minecraft-1.20.4" = _lFIlKiWF;
+        "default" = _lFIlKiWF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lFIlKiWF";}
+in callPackage fn {version="default";}

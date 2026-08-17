@@ -23,6 +23,7 @@ let
         "fabric-1.20.6" = _jaOpUutr;
         "forge-1.20" = _NWD04VeL;
         "forge-1.20.1" = _NWD04VeL;
+        "default" = _NWD04VeL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NWD04VeL";}
+in callPackage fn {version="default";}

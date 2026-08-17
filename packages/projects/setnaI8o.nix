@@ -40,6 +40,7 @@ let
         "quilt-1.16.5" = _ngmDmIkS;
         "quilt-1.17" = _ngmDmIkS;
         "quilt-1.17.1" = _ngmDmIkS;
+        "default" = _ngmDmIkS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ngmDmIkS";}
+in callPackage fn {version="default";}

@@ -33,6 +33,7 @@ let
         "RhKOR8TP" = _RhKOR8TP;
         "DPonftXi" = _DPonftXi;
         "bta-babric-b1.7.3" = _DPonftXi;
+        "default" = _DPonftXi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DPonftXi";}
+in callPackage fn {version="default";}

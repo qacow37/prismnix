@@ -458,6 +458,7 @@ let
         "quilt-20w20a" = _rCuBaQY2;
         "quilt-20w20b" = _rCuBaQY2;
         "quilt-20w21a" = _rCuBaQY2;
+        "default" = _rCuBaQY2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -478,4 +479,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rCuBaQY2";}
+in callPackage fn {version="default";}

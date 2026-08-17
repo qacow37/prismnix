@@ -28,6 +28,7 @@ let
         "MGDM2AP8" = _MGDM2AP8;
         "forge-1.20.1" = _MGDM2AP8;
         "neoforge-1.21.1" = _NpiKflVC;
+        "default" = _MGDM2AP8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MGDM2AP8";}
+in callPackage fn {version="default";}

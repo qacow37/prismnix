@@ -15,6 +15,7 @@ let
         "Zpzc1eru" = _Zpzc1eru;
         "saDVOxJB" = _saDVOxJB;
         "fabric-1.21.1" = _saDVOxJB;
+        "default" = _saDVOxJB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="saDVOxJB";}
+in callPackage fn {version="default";}

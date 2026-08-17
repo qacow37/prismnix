@@ -40,6 +40,7 @@ let
         "neoforge-1.21.6" = _jpRddDoG;
         "neoforge-1.21.7" = _jpRddDoG;
         "neoforge-1.21.8" = _jpRddDoG;
+        "default" = _jpRddDoG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jpRddDoG";}
+in callPackage fn {version="default";}

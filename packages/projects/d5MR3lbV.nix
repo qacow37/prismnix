@@ -9,6 +9,7 @@ let
     in {
         "tKlIF3YC" = _tKlIF3YC;
         "minecraft-1.21.5" = _tKlIF3YC;
+        "default" = _tKlIF3YC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tKlIF3YC";}
+in callPackage fn {version="default";}

@@ -136,6 +136,7 @@ let
         "lM9aiPSW" = _lM9aiPSW;
         "neoforge-1.21.1" = _lM9aiPSW;
         "forge-1.20.1" = _4opC9DbH;
+        "default" = _lM9aiPSW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lM9aiPSW";}
+in callPackage fn {version="default";}

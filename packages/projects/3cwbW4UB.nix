@@ -1533,6 +1533,7 @@ let
         "liteloader-1.13" = _G0I1ypqn;
         "liteloader-1.13.1" = _G0I1ypqn;
         "liteloader-1.13.2" = _G0I1ypqn;
+        "default" = _G0I1ypqn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1553,4 +1554,4 @@ let
                 };
             };
         };
-in callPackage fn {version="G0I1ypqn";}
+in callPackage fn {version="default";}

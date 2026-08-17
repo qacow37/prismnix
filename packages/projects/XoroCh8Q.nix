@@ -21,6 +21,7 @@ let
         "63PfloHw" = _63PfloHw;
         "dXrcER1D" = _dXrcER1D;
         "minecraft-1.21" = _dXrcER1D;
+        "default" = _dXrcER1D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dXrcER1D";}
+in callPackage fn {version="default";}

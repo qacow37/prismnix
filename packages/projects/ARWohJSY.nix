@@ -62,6 +62,7 @@ let
         "forge-1.16.5" = _V1E3zAE1;
         "forge-1.17.1" = _Zy5AhNWF;
         "forge-1.18.2" = _QaToOSKG;
+        "default" = _QaToOSKG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QaToOSKG";}
+in callPackage fn {version="default";}

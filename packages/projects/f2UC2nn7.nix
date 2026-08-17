@@ -15,6 +15,7 @@ let
         "eXQIBKaY" = _eXQIBKaY;
         "Lqtllo32" = _Lqtllo32;
         "fabric-1.20.1" = _Lqtllo32;
+        "default" = _Lqtllo32;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Lqtllo32";}
+in callPackage fn {version="default";}

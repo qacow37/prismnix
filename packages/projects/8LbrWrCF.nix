@@ -111,6 +111,7 @@ let
         "2fX09mzo" = _2fX09mzo;
         "HDtEygzm" = _HDtEygzm;
         "forge-1.20.1" = _HDtEygzm;
+        "default" = _HDtEygzm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HDtEygzm";}
+in callPackage fn {version="default";}

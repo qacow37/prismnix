@@ -21,6 +21,7 @@ let
         "zQuqpZSm" = _zQuqpZSm;
         "bxsLER6M" = _bxsLER6M;
         "forge-1.12.2" = _bxsLER6M;
+        "default" = _bxsLER6M;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bxsLER6M";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "ncc2BUEI" = _ncc2BUEI;
         "YSQYUPZU" = _YSQYUPZU;
         "forge-1.12.2" = _YSQYUPZU;
+        "default" = _YSQYUPZU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YSQYUPZU";}
+in callPackage fn {version="default";}

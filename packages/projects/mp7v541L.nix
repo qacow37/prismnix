@@ -46,6 +46,7 @@ let
         "purpur-26.1.1" = _t9DMztdb;
         "purpur-26.1.2" = _t9DMztdb;
         "purpur-26.2" = _t9DMztdb;
+        "default" = _t9DMztdb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t9DMztdb";}
+in callPackage fn {version="default";}

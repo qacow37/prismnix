@@ -52,6 +52,7 @@ let
         "lsHzazs4" = _lsHzazs4;
         "forge-1.20.1" = _tYIkgG1X;
         "neoforge-1.21.1" = _lsHzazs4;
+        "default" = _lsHzazs4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lsHzazs4";}
+in callPackage fn {version="default";}

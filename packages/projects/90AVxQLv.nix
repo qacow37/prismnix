@@ -16,6 +16,7 @@ let
         "EyVAmNwm" = _EyVAmNwm;
         "fabric-1.20" = _EyVAmNwm;
         "fabric-1.20.1" = _EyVAmNwm;
+        "default" = _EyVAmNwm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EyVAmNwm";}
+in callPackage fn {version="default";}

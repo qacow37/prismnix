@@ -34,6 +34,7 @@ let
         "ZI94Ro0T" = _ZI94Ro0T;
         "forge-1.20.1" = _QIn6wucm;
         "neoforge-1.21.1" = _ZI94Ro0T;
+        "default" = _ZI94Ro0T;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZI94Ro0T";}
+in callPackage fn {version="default";}

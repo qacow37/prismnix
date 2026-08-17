@@ -66,6 +66,7 @@ let
         "spigot-1.21.3" = _gJqvuEA0;
         "spigot-1.21.4" = _gJqvuEA0;
         "spigot-1.21.5" = _gJqvuEA0;
+        "default" = _gJqvuEA0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gJqvuEA0";}
+in callPackage fn {version="default";}

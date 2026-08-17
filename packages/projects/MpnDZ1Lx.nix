@@ -21,6 +21,7 @@ let
         "ndf2c2vG" = _ndf2c2vG;
         "z7xbAdje" = _z7xbAdje;
         "neoforge-1.21.1" = _z7xbAdje;
+        "default" = _z7xbAdje;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="z7xbAdje";}
+in callPackage fn {version="default";}

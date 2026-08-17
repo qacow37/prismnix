@@ -10,6 +10,7 @@ let
         "clRZdsqp" = _clRZdsqp;
         "fabric-1.20" = _clRZdsqp;
         "fabric-1.20.1" = _clRZdsqp;
+        "default" = _clRZdsqp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="clRZdsqp";}
+in callPackage fn {version="default";}

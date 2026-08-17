@@ -123,6 +123,7 @@ let
         "neoforge-1.21.9" = _LQRP9Put;
         "neoforge-1.21.10" = _LQRP9Put;
         "neoforge-1.21.11" = _LQRP9Put;
+        "default" = _WPmDKdS5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WPmDKdS5";}
+in callPackage fn {version="default";}

@@ -24,6 +24,7 @@ let
         "forge-1.19.4" = _OhiTWWEN;
         "forge-1.20.1" = _IrrOAoLs;
         "neoforge-1.20.1" = _IrrOAoLs;
+        "default" = _IrrOAoLs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IrrOAoLs";}
+in callPackage fn {version="default";}

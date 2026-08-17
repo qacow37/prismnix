@@ -73,6 +73,7 @@ let
         "fabric-1.21.2" = _RiYCprCA;
         "fabric-1.21.3" = _RiYCprCA;
         "neoforge-1.20.6" = _APk2x6fU;
+        "default" = _RiYCprCA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -93,4 +94,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RiYCprCA";}
+in callPackage fn {version="default";}

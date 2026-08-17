@@ -33,6 +33,7 @@ let
         "tUofNtRY" = _tUofNtRY;
         "SWAv0A7a" = _SWAv0A7a;
         "forge-1.20.1" = _SWAv0A7a;
+        "default" = _SWAv0A7a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SWAv0A7a";}
+in callPackage fn {version="default";}

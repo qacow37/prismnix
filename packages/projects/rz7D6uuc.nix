@@ -81,6 +81,7 @@ let
         "forge-1.20.1" = _h8I3u7Qc;
         "neoforge-1.21.1" = _T2gyBfjt;
         "neoforge-1.21.11" = _7p5Cm5Ok;
+        "default" = _SSAyLFPy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SSAyLFPy";}
+in callPackage fn {version="default";}

@@ -70,6 +70,7 @@ let
         "forge-1.20" = _sHne2jLP;
         "forge-1.20.1" = _sHne2jLP;
         "forge-1.20.2" = _uRKSNCuD;
+        "default" = _uRKSNCuD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uRKSNCuD";}
+in callPackage fn {version="default";}

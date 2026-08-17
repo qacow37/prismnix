@@ -40,6 +40,7 @@ let
         "Efs2eORm" = _Efs2eORm;
         "forge-1.19.2" = _Efs2eORm;
         "forge-1.18.2" = _K4ZXoTHs;
+        "default" = _Efs2eORm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Efs2eORm";}
+in callPackage fn {version="default";}

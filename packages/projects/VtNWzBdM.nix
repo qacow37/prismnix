@@ -22,6 +22,7 @@ let
         "Vt4uSVmB" = _Vt4uSVmB;
         "forge-1.20.1" = _NcoR8TJs;
         "neoforge-1.21.1" = _Vt4uSVmB;
+        "default" = _Vt4uSVmB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Vt4uSVmB";}
+in callPackage fn {version="default";}

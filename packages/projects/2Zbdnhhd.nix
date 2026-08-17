@@ -63,6 +63,7 @@ let
         "TQmMULPR" = _TQmMULPR;
         "7mR2zSZF" = _7mR2zSZF;
         "fabric-1.21.1" = _7mR2zSZF;
+        "default" = _7mR2zSZF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7mR2zSZF";}
+in callPackage fn {version="default";}

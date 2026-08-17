@@ -15,6 +15,7 @@ let
         "bk2MraZ8" = _bk2MraZ8;
         "zdDFXLhm" = _zdDFXLhm;
         "forge-1.20.1" = _zdDFXLhm;
+        "default" = _zdDFXLhm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zdDFXLhm";}
+in callPackage fn {version="default";}

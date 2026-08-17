@@ -10,6 +10,7 @@ let
         "OC9Vgjca" = _OC9Vgjca;
         "forge-1.20.1" = _OC9Vgjca;
         "neoforge-1.20.1" = _OC9Vgjca;
+        "default" = _OC9Vgjca;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OC9Vgjca";}
+in callPackage fn {version="default";}

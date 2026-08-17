@@ -15,6 +15,7 @@ let
         "wiZ9xub6" = _wiZ9xub6;
         "2WUvoFEg" = _2WUvoFEg;
         "fabric-1.21.1" = _2WUvoFEg;
+        "default" = _2WUvoFEg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2WUvoFEg";}
+in callPackage fn {version="default";}

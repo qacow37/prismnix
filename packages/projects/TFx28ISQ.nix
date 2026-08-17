@@ -10,6 +10,7 @@ let
         "zGVZTsML" = _zGVZTsML;
         "babric-b1.7.3" = _zGVZTsML;
         "fabric-b1.7.3" = _zGVZTsML;
+        "default" = _zGVZTsML;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zGVZTsML";}
+in callPackage fn {version="default";}

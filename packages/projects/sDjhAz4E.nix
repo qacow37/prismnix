@@ -97,6 +97,7 @@ let
         "minecraft-1.21.6" = _ftPjPEXZ;
         "minecraft-1.21.7" = _ftPjPEXZ;
         "minecraft-1.21.8" = _ftPjPEXZ;
+        "default" = _ftPjPEXZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -117,4 +118,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ftPjPEXZ";}
+in callPackage fn {version="default";}

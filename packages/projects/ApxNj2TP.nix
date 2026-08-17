@@ -88,6 +88,7 @@ let
         "PlTEL2z8" = _PlTEL2z8;
         "forge-1.18.2" = _QvSeekRh;
         "forge-1.20.1" = _PlTEL2z8;
+        "default" = _PlTEL2z8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PlTEL2z8";}
+in callPackage fn {version="default";}

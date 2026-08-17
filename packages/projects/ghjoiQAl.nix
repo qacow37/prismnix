@@ -153,6 +153,7 @@ let
         "BpPBBjZU" = _BpPBBjZU;
         "SeOh2lEZ" = _SeOh2lEZ;
         "forge-1.7.10" = _SeOh2lEZ;
+        "default" = _SeOh2lEZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -173,4 +174,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SeOh2lEZ";}
+in callPackage fn {version="default";}

@@ -39,6 +39,7 @@ let
         "TEAR5fMw" = _TEAR5fMw;
         "kXbVILoF" = _kXbVILoF;
         "neoforge-1.21.1" = _kXbVILoF;
+        "default" = _kXbVILoF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kXbVILoF";}
+in callPackage fn {version="default";}

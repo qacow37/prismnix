@@ -51,6 +51,7 @@ let
         "wguC74sw" = _wguC74sw;
         "iOIQOFNP" = _iOIQOFNP;
         "forge-1.8.9" = _iOIQOFNP;
+        "default" = _iOIQOFNP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iOIQOFNP";}
+in callPackage fn {version="default";}

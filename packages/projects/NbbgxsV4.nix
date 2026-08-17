@@ -99,6 +99,7 @@ let
         "mxQFtD6V" = _mxQFtD6V;
         "BsMSx4x9" = _BsMSx4x9;
         "forge-1.20.1" = _BsMSx4x9;
+        "default" = _BsMSx4x9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BsMSx4x9";}
+in callPackage fn {version="default";}

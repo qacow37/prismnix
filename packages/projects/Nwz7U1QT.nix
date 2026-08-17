@@ -488,6 +488,7 @@ let
         "neoforge-1.20.1" = _C2RFaAC9;
         "neoforge-1.20.4" = _LTvXlApO;
         "neoforge-1.21.1" = _roWfi5Si;
+        "default" = _roWfi5Si;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -508,4 +509,4 @@ let
                 };
             };
         };
-in callPackage fn {version="roWfi5Si";}
+in callPackage fn {version="default";}

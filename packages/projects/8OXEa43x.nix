@@ -27,6 +27,7 @@ let
         "BaeftiPl" = _BaeftiPl;
         "FfNRfeE8" = _FfNRfeE8;
         "forge-1.20.1" = _FfNRfeE8;
+        "default" = _FfNRfeE8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FfNRfeE8";}
+in callPackage fn {version="default";}

@@ -145,6 +145,7 @@ let
         "fabric-1.21.9" = _ONTWNGRX;
         "fabric-1.21.10" = _6egrDtxt;
         "fabric-1.21.11" = _2x2toQZh;
+        "default" = _2x2toQZh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -165,4 +166,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2x2toQZh";}
+in callPackage fn {version="default";}

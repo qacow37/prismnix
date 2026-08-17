@@ -27,6 +27,7 @@ let
         "dOKsmpAd" = _dOKsmpAd;
         "UwHnVL8Z" = _UwHnVL8Z;
         "forge-1.19.2" = _UwHnVL8Z;
+        "default" = _UwHnVL8Z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UwHnVL8Z";}
+in callPackage fn {version="default";}

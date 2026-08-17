@@ -40,6 +40,7 @@ let
         "fabric-26.1" = _RT8Gxnrj;
         "fabric-26.1.1" = _RT8Gxnrj;
         "fabric-26.1.2" = _RT8Gxnrj;
+        "default" = _RT8Gxnrj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RT8Gxnrj";}
+in callPackage fn {version="default";}

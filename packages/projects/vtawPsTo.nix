@@ -325,6 +325,7 @@ let
         "purpur-26.1.1" = _RRa80eDI;
         "purpur-26.1.2" = _RRa80eDI;
         "purpur-26.2" = _RRa80eDI;
+        "default" = _RRa80eDI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -345,4 +346,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RRa80eDI";}
+in callPackage fn {version="default";}

@@ -198,6 +198,7 @@ let
         "forge-1.12" = _ZIBEmIVB;
         "forge-1.12.1" = _ZIBEmIVB;
         "forge-1.12.2" = _ZIBEmIVB;
+        "default" = _ZIBEmIVB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -218,4 +219,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZIBEmIVB";}
+in callPackage fn {version="default";}

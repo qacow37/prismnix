@@ -38,6 +38,7 @@ let
         "iris-1.21.6" = _xA0NnuZl;
         "iris-1.21.7" = _xA0NnuZl;
         "iris-1.21.8" = _xA0NnuZl;
+        "default" = _xA0NnuZl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xA0NnuZl";}
+in callPackage fn {version="default";}

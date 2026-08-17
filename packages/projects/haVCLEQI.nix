@@ -15,6 +15,7 @@ let
         "TwKAUttV" = _TwKAUttV;
         "lISjibCw" = _lISjibCw;
         "minecraft-1.21.1" = _lISjibCw;
+        "default" = _lISjibCw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lISjibCw";}
+in callPackage fn {version="default";}

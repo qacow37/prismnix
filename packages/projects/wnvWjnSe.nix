@@ -76,6 +76,7 @@ let
         "COvL4VcE" = _COvL4VcE;
         "babric-b1.7.3" = _COvL4VcE;
         "fabric-b1.7.3" = _COvL4VcE;
+        "default" = _COvL4VcE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -96,4 +97,4 @@ let
                 };
             };
         };
-in callPackage fn {version="COvL4VcE";}
+in callPackage fn {version="default";}

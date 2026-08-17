@@ -28,6 +28,7 @@ let
         "72hi78ro" = _72hi78ro;
         "forge-1.20.1" = _C1ckPd3n;
         "neoforge-1.21.1" = _72hi78ro;
+        "default" = _72hi78ro;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="72hi78ro";}
+in callPackage fn {version="default";}

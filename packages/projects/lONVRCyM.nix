@@ -142,6 +142,7 @@ let
         "7lnlSr6B" = _7lnlSr6B;
         "forge-1.7.10" = _7lnlSr6B;
         "forge-1.12.2" = _9a7EIpl6;
+        "default" = _7lnlSr6B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -162,4 +163,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7lnlSr6B";}
+in callPackage fn {version="default";}

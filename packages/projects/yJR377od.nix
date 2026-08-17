@@ -87,6 +87,7 @@ let
         "forge-1.20" = _VZ827F6b;
         "forge-1.20.1" = _VZ827F6b;
         "forge-1.20.2" = _VZ827F6b;
+        "default" = _VZ827F6b;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VZ827F6b";}
+in callPackage fn {version="default";}

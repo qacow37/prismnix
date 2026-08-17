@@ -28,6 +28,7 @@ let
         "NDpyqaxa" = _NDpyqaxa;
         "neoforge-1.21.1" = _EL4qAdjS;
         "fabric-1.21.1" = _NDpyqaxa;
+        "default" = _NDpyqaxa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NDpyqaxa";}
+in callPackage fn {version="default";}

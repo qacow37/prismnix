@@ -984,6 +984,7 @@ let
         "neoforge-1.21.9" = _OakS83gK;
         "neoforge-1.21.10" = _OakS83gK;
         "neoforge-1.21.11" = _OakS83gK;
+        "default" = _OakS83gK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1004,4 +1005,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OakS83gK";}
+in callPackage fn {version="default";}

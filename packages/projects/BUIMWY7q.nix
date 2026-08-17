@@ -81,6 +81,7 @@ let
         "fabric-1.20" = _TbHcgtps;
         "fabric-1.20.1" = _TbHcgtps;
         "fabric-1.19.4" = _HNkglima;
+        "default" = _HNkglima;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HNkglima";}
+in callPackage fn {version="default";}

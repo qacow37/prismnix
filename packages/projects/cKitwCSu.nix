@@ -21,6 +21,7 @@ let
         "pscDLGeI" = _pscDLGeI;
         "uxSWLWki" = _uxSWLWki;
         "forge-1.7.10" = _uxSWLWki;
+        "default" = _uxSWLWki;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uxSWLWki";}
+in callPackage fn {version="default";}

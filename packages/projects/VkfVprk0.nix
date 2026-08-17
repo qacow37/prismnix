@@ -27,6 +27,7 @@ let
         "3xKTRhQH" = _3xKTRhQH;
         "uN36WX8S" = _uN36WX8S;
         "forge-1.16.5" = _uN36WX8S;
+        "default" = _uN36WX8S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uN36WX8S";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "ZPLBb4tr" = _ZPLBb4tr;
         "forge-1.20.1" = _9IBPJ2A0;
         "neoforge-1.21.1" = _ZPLBb4tr;
+        "default" = _ZPLBb4tr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZPLBb4tr";}
+in callPackage fn {version="default";}

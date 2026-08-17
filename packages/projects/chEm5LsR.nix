@@ -51,6 +51,7 @@ let
         "IKNpjZdC" = _IKNpjZdC;
         "sdywXtAZ" = _sdywXtAZ;
         "forge-1.20.1" = _sdywXtAZ;
+        "default" = _sdywXtAZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sdywXtAZ";}
+in callPackage fn {version="default";}

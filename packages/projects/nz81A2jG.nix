@@ -70,6 +70,7 @@ let
         "UZ8M1MeI" = _UZ8M1MeI;
         "fabric-1.21.1" = _gAfPJYSe;
         "neoforge-1.21.1" = _UZ8M1MeI;
+        "default" = _UZ8M1MeI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UZ8M1MeI";}
+in callPackage fn {version="default";}

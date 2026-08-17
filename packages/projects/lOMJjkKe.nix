@@ -310,6 +310,7 @@ let
         "neoforge-1.21.1" = _XJiJ2CG9;
         "neoforge-1.21.2" = _XJiJ2CG9;
         "neoforge-1.21.3" = _XJiJ2CG9;
+        "default" = _Ds8MWuip;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -330,4 +331,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ds8MWuip";}
+in callPackage fn {version="default";}

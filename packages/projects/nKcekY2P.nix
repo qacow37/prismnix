@@ -280,6 +280,7 @@ let
         "quilt-26.1.1" = _PAwUdZh7;
         "quilt-26.1.2" = _PAwUdZh7;
         "quilt-26.2" = _DoapPg8t;
+        "default" = _DoapPg8t;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -300,4 +301,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DoapPg8t";}
+in callPackage fn {version="default";}

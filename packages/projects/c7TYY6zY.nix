@@ -94,6 +94,7 @@ let
         "minecraft-1.21.3" = _kWce2APT;
         "minecraft-24w44a" = _kWce2APT;
         "minecraft-24w45a" = _kWce2APT;
+        "default" = _kWce2APT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kWce2APT";}
+in callPackage fn {version="default";}

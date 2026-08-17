@@ -16,6 +16,7 @@ let
         "EQo10MIc" = _EQo10MIc;
         "fabric-1.20" = _6OpsOOkT;
         "fabric-1.20.1" = _EQo10MIc;
+        "default" = _EQo10MIc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EQo10MIc";}
+in callPackage fn {version="default";}

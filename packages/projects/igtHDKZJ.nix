@@ -21,6 +21,7 @@ let
         "cpwFop76" = _cpwFop76;
         "i1rapN33" = _i1rapN33;
         "forge-1.12.2" = _i1rapN33;
+        "default" = _i1rapN33;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="i1rapN33";}
+in callPackage fn {version="default";}

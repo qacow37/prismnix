@@ -33,6 +33,7 @@ let
         "2ZcGDDbT" = _2ZcGDDbT;
         "DDvarpaZ" = _DDvarpaZ;
         "neoforge-1.21.1" = _DDvarpaZ;
+        "default" = _DDvarpaZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DDvarpaZ";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "cBsaCzTK" = _cBsaCzTK;
         "E38BEF2q" = _E38BEF2q;
         "minecraft-1.12.2" = _E38BEF2q;
+        "default" = _E38BEF2q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E38BEF2q";}
+in callPackage fn {version="default";}

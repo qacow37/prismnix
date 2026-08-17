@@ -51,6 +51,7 @@ let
         "PelBnx8T" = _PelBnx8T;
         "Mz7gR1sd" = _Mz7gR1sd;
         "neoforge-1.21.1" = _Mz7gR1sd;
+        "default" = _Mz7gR1sd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Mz7gR1sd";}
+in callPackage fn {version="default";}

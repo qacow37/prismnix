@@ -16,6 +16,7 @@ let
         "lOygETM7" = _lOygETM7;
         "minecraft-1.19.4" = _l2FCZA80;
         "minecraft-1.20.4" = _lOygETM7;
+        "default" = _lOygETM7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lOygETM7";}
+in callPackage fn {version="default";}

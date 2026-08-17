@@ -27,6 +27,7 @@ let
         "NGpn2ZKd" = _NGpn2ZKd;
         "6xKshAWI" = _6xKshAWI;
         "neoforge-1.21.1" = _6xKshAWI;
+        "default" = _6xKshAWI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6xKshAWI";}
+in callPackage fn {version="default";}

@@ -9,6 +9,7 @@ let
     in {
         "VAgecARb" = _VAgecARb;
         "minecraft-1.20.4" = _VAgecARb;
+        "default" = _VAgecARb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VAgecARb";}
+in callPackage fn {version="default";}

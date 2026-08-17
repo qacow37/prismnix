@@ -70,6 +70,7 @@ let
         "Ky6D527y" = _Ky6D527y;
         "fabric-1.21.1" = _Ky6D527y;
         "fabric-1.21" = _Ky6D527y;
+        "default" = _Ky6D527y;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ky6D527y";}
+in callPackage fn {version="default";}

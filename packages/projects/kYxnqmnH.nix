@@ -40,6 +40,7 @@ let
         "rtAnM40X" = _rtAnM40X;
         "fabric-1.20.1" = _Nluvc2cF;
         "forge-1.20.1" = _rtAnM40X;
+        "default" = _rtAnM40X;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rtAnM40X";}
+in callPackage fn {version="default";}

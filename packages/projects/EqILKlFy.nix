@@ -33,6 +33,7 @@ let
         "atafDrcC" = _atafDrcC;
         "XQE7faZS" = _XQE7faZS;
         "forge-1.20.1" = _XQE7faZS;
+        "default" = _XQE7faZS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XQE7faZS";}
+in callPackage fn {version="default";}

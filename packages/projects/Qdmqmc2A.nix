@@ -61,6 +61,7 @@ let
         "forge-1.20.2" = _sceo2DgD;
         "forge-1.20.3" = _sceo2DgD;
         "forge-1.20.4" = _sceo2DgD;
+        "default" = _sceo2DgD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -81,4 +82,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sceo2DgD";}
+in callPackage fn {version="default";}

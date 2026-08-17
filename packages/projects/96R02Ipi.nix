@@ -27,6 +27,7 @@ let
         "O6y1420V" = _O6y1420V;
         "O3iRgLHk" = _O3iRgLHk;
         "forge-1.20.1" = _O3iRgLHk;
+        "default" = _O3iRgLHk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="O3iRgLHk";}
+in callPackage fn {version="default";}

@@ -110,6 +110,7 @@ let
         "forge-1.20.4" = _HZ2kgDF2;
         "forge-1.20.5" = _HZ2kgDF2;
         "forge-1.20.6" = _HZ2kgDF2;
+        "default" = _jFIa24Zx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -130,4 +131,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jFIa24Zx";}
+in callPackage fn {version="default";}

@@ -22,6 +22,7 @@ let
         "forge-1.20.1" = _UH6Y80SO;
         "quilt-1.20" = _UH6Y80SO;
         "quilt-1.20.1" = _UH6Y80SO;
+        "default" = _UH6Y80SO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UH6Y80SO";}
+in callPackage fn {version="default";}

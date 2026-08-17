@@ -34,6 +34,7 @@ let
         "forge-1.21" = _uVMbflc1;
         "quilt-1.20.1" = _arL24391;
         "quilt-1.21" = _uVMbflc1;
+        "default" = _uVMbflc1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uVMbflc1";}
+in callPackage fn {version="default";}

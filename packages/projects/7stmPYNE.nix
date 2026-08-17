@@ -152,6 +152,7 @@ let
         "forge-1.19.4" = _ddx00Ae5;
         "forge-1.20" = _sPDmKCHE;
         "forge-1.20.1" = _sPDmKCHE;
+        "default" = _sPDmKCHE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -172,4 +173,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sPDmKCHE";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "oO5dio7v" = _oO5dio7v;
         "FnmfscLR" = _FnmfscLR;
         "forge-1.20.1" = _FnmfscLR;
+        "default" = _FnmfscLR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FnmfscLR";}
+in callPackage fn {version="default";}

@@ -34,6 +34,7 @@ let
         "H4wNS4NT" = _H4wNS4NT;
         "forge-1.20.1" = _Wt8UEZ7q;
         "neoforge-1.21.1" = _H4wNS4NT;
+        "default" = _H4wNS4NT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="H4wNS4NT";}
+in callPackage fn {version="default";}

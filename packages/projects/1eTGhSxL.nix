@@ -14,6 +14,7 @@ let
         "minecraft-24w13a" = _A1TaSPIJ;
         "minecraft-24w14potato" = _A1TaSPIJ;
         "minecraft-24w14a" = _A1TaSPIJ;
+        "default" = _A1TaSPIJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -34,4 +35,4 @@ let
                 };
             };
         };
-in callPackage fn {version="A1TaSPIJ";}
+in callPackage fn {version="default";}

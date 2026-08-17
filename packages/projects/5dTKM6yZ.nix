@@ -239,6 +239,7 @@ let
         "minecraft-1.21.3" = _ZOLX5TTP;
         "minecraft-1.21.4" = _ZOLX5TTP;
         "minecraft-1.21.5" = _ZOLX5TTP;
+        "default" = _ZOLX5TTP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -259,4 +260,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZOLX5TTP";}
+in callPackage fn {version="default";}

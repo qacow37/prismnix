@@ -69,6 +69,7 @@ let
         "Is4FvGmc" = _Is4FvGmc;
         "Gjp5k6xA" = _Gjp5k6xA;
         "quilt-1.19.2" = _Gjp5k6xA;
+        "default" = _Gjp5k6xA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Gjp5k6xA";}
+in callPackage fn {version="default";}

@@ -84,6 +84,7 @@ let
         "neoforge-1.20.1" = _DI42kw0b;
         "neoforge-1.21" = _jx53LalF;
         "neoforge-1.21.1" = _jx53LalF;
+        "default" = _jx53LalF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jx53LalF";}
+in callPackage fn {version="default";}

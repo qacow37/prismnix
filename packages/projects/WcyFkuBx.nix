@@ -109,6 +109,7 @@ let
         "fabric-1.21.9" = _RupOtvV2;
         "fabric-1.21.10" = _RupOtvV2;
         "fabric-1.21.11" = _RupOtvV2;
+        "default" = _RupOtvV2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -129,4 +130,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RupOtvV2";}
+in callPackage fn {version="default";}

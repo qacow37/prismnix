@@ -39,6 +39,7 @@ let
         "oSWF92Jg" = _oSWF92Jg;
         "JpwMr8Q3" = _JpwMr8Q3;
         "neoforge-1.21.1" = _JpwMr8Q3;
+        "default" = _JpwMr8Q3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JpwMr8Q3";}
+in callPackage fn {version="default";}

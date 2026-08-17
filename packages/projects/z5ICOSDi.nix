@@ -33,6 +33,7 @@ let
         "qk2DtrWp" = _qk2DtrWp;
         "dpozLLK9" = _dpozLLK9;
         "forge-1.20.1" = _dpozLLK9;
+        "default" = _dpozLLK9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dpozLLK9";}
+in callPackage fn {version="default";}

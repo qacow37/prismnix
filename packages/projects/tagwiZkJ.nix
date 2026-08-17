@@ -696,6 +696,7 @@ let
         "neoforge-1.20.6" = _qm2ho2dd;
         "neoforge-1.21" = _VEburL70;
         "neoforge-1.21.1" = _VEburL70;
+        "default" = _VEburL70;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -716,4 +717,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VEburL70";}
+in callPackage fn {version="default";}

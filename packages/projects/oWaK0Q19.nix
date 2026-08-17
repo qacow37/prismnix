@@ -39,6 +39,7 @@ let
         "YhZLrAFC" = _YhZLrAFC;
         "w7zlLnea" = _w7zlLnea;
         "neoforge-1.21.1" = _w7zlLnea;
+        "default" = _w7zlLnea;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="w7zlLnea";}
+in callPackage fn {version="default";}

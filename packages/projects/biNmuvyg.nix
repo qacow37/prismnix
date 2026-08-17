@@ -15,6 +15,7 @@ let
         "qoxgP92g" = _qoxgP92g;
         "7MmpTgrB" = _7MmpTgrB;
         "fabric-1.20.1" = _7MmpTgrB;
+        "default" = _7MmpTgrB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7MmpTgrB";}
+in callPackage fn {version="default";}

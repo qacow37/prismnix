@@ -407,6 +407,7 @@ let
         "folia-1.21.8" = _NN4d96mq;
         "folia-1.21.9" = _NN4d96mq;
         "folia-1.21.10" = _NN4d96mq;
+        "default" = _NN4d96mq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -427,4 +428,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NN4d96mq";}
+in callPackage fn {version="default";}

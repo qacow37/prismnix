@@ -226,6 +226,7 @@ let
         "I7okFW2c" = _I7okFW2c;
         "babric-b1.7.3" = _I7okFW2c;
         "fabric-b1.7.3" = _I7okFW2c;
+        "default" = _I7okFW2c;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -246,4 +247,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I7okFW2c";}
+in callPackage fn {version="default";}

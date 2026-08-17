@@ -504,6 +504,7 @@ let
         "minecraft-26.1.2" = _PDtRkzpm;
         "minecraft-26.2-snapshot-2" = _PDtRkzpm;
         "minecraft-26.2-snapshot-3" = _PDtRkzpm;
+        "default" = _PDtRkzpm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -524,4 +525,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PDtRkzpm";}
+in callPackage fn {version="default";}

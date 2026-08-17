@@ -9,6 +9,7 @@ let
     in {
         "BGHVViPX" = _BGHVViPX;
         "neoforge-1.21.1" = _BGHVViPX;
+        "default" = _BGHVViPX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BGHVViPX";}
+in callPackage fn {version="default";}

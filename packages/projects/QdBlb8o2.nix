@@ -42,6 +42,7 @@ let
         "minecraft-1.21.2" = _AT22R4ES;
         "minecraft-1.21.3" = _AT22R4ES;
         "minecraft-1.21.4" = _AT22R4ES;
+        "default" = _AT22R4ES;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AT22R4ES";}
+in callPackage fn {version="default";}

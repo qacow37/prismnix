@@ -28,6 +28,7 @@ let
         "MbkapLEt" = _MbkapLEt;
         "datapack-1.20.1" = _LqQaSPSM;
         "fabric-1.20.1" = _MbkapLEt;
+        "default" = _MbkapLEt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MbkapLEt";}
+in callPackage fn {version="default";}

@@ -174,6 +174,7 @@ let
         "optifine-1.21.1" = _TK0ZSsk0;
         "optifine-1.21.2" = _TK0ZSsk0;
         "optifine-1.21.3" = _TK0ZSsk0;
+        "default" = _TK0ZSsk0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -194,4 +195,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TK0ZSsk0";}
+in callPackage fn {version="default";}

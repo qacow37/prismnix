@@ -740,6 +740,7 @@ let
         "neoforge-1.21.5" = _KcPdrsWz;
         "neoforge-1.21.6" = _KcPdrsWz;
         "neoforge-1.21.7" = _KcPdrsWz;
+        "default" = _TJmpRu4d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -760,4 +761,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TJmpRu4d";}
+in callPackage fn {version="default";}

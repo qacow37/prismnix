@@ -84,6 +84,7 @@ let
         "optifine-1.19.4" = _eFL8xOji;
         "optifine-1.20" = _eFL8xOji;
         "optifine-1.20.1" = _eFL8xOji;
+        "default" = _eFL8xOji;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -104,4 +105,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eFL8xOji";}
+in callPackage fn {version="default";}

@@ -1259,6 +1259,7 @@ let
         "fabric-26.1.1" = _AbmuCE3d;
         "fabric-26.1.2" = _AbmuCE3d;
         "fabric-26.2" = _AbmuCE3d;
+        "default" = _AbmuCE3d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1279,4 +1280,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AbmuCE3d";}
+in callPackage fn {version="default";}

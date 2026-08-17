@@ -141,6 +141,7 @@ let
         "MFnjpst9" = _MFnjpst9;
         "FckoNOJW" = _FckoNOJW;
         "fabric-1.20.1" = _FckoNOJW;
+        "default" = _FckoNOJW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FckoNOJW";}
+in callPackage fn {version="default";}

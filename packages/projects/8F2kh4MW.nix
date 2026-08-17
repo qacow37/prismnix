@@ -63,6 +63,7 @@ let
         "xUF5ClMw" = _xUF5ClMw;
         "EUPct7A9" = _EUPct7A9;
         "forge-1.20.1" = _EUPct7A9;
+        "default" = _EUPct7A9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EUPct7A9";}
+in callPackage fn {version="default";}

@@ -39,6 +39,7 @@ let
         "lsQ8O4Wd" = _lsQ8O4Wd;
         "l12HNfr7" = _l12HNfr7;
         "forge-1.20.1" = _l12HNfr7;
+        "default" = _l12HNfr7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l12HNfr7";}
+in callPackage fn {version="default";}

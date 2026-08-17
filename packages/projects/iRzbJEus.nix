@@ -62,6 +62,7 @@ let
         "forge-1.11" = _Y54POAPw;
         "forge-1.11.2" = _Y54POAPw;
         "forge-1.12" = _Y54POAPw;
+        "default" = _Y54POAPw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Y54POAPw";}
+in callPackage fn {version="default";}

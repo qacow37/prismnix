@@ -494,6 +494,7 @@ let
         "neoforge-26.1.1" = _GteyPhns;
         "neoforge-26.1.2" = _GteyPhns;
         "neoforge-26.2" = _GteyPhns;
+        "default" = _GteyPhns;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -514,4 +515,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GteyPhns";}
+in callPackage fn {version="default";}

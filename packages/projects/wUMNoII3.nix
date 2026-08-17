@@ -21,6 +21,7 @@ let
         "SQgth84M" = _SQgth84M;
         "OSM9K1Vz" = _OSM9K1Vz;
         "fabric-1.20.1" = _OSM9K1Vz;
+        "default" = _OSM9K1Vz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OSM9K1Vz";}
+in callPackage fn {version="default";}

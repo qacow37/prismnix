@@ -232,6 +232,7 @@ let
         "HidnPIDE" = _HidnPIDE;
         "fabric-1.20.1" = _GvT31u8z;
         "forge-1.20.1" = _HidnPIDE;
+        "default" = _HidnPIDE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -252,4 +253,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HidnPIDE";}
+in callPackage fn {version="default";}

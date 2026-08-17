@@ -10,6 +10,7 @@ let
         "aTOGO4ld" = _aTOGO4ld;
         "minecraft-1.21.9" = _aTOGO4ld;
         "minecraft-1.21.10" = _aTOGO4ld;
+        "default" = _aTOGO4ld;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aTOGO4ld";}
+in callPackage fn {version="default";}

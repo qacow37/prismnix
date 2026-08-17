@@ -22,6 +22,7 @@ let
         "H3DxdTkA" = _H3DxdTkA;
         "minecraft-1.21.1" = _H3DxdTkA;
         "datapack-1.21.1" = _H3DxdTkA;
+        "default" = _H3DxdTkA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="H3DxdTkA";}
+in callPackage fn {version="default";}

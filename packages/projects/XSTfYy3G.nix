@@ -27,6 +27,7 @@ let
         "minecraft-1.19.1" = _AtEGaTpU;
         "minecraft-1.19.2" = _AtEGaTpU;
         "minecraft-1.19.3" = _AtEGaTpU;
+        "default" = _AtEGaTpU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AtEGaTpU";}
+in callPackage fn {version="default";}

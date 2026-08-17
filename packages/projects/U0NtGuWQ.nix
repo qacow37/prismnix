@@ -45,6 +45,7 @@ let
         "forge-1.20.4" = _dHBKwJZ6;
         "forge-1.20.5" = _dHBKwJZ6;
         "forge-1.20.6" = _dHBKwJZ6;
+        "default" = _2d2IMadd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2d2IMadd";}
+in callPackage fn {version="default";}

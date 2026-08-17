@@ -63,6 +63,7 @@ let
         "qM3eduEF" = _qM3eduEF;
         "I28Tfg4L" = _I28Tfg4L;
         "forge-1.12.2" = _I28Tfg4L;
+        "default" = _I28Tfg4L;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I28Tfg4L";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "gmAOpXMv" = _gmAOpXMv;
         "rpcALVHS" = _rpcALVHS;
         "fabric-1.20.1" = _rpcALVHS;
+        "default" = _rpcALVHS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rpcALVHS";}
+in callPackage fn {version="default";}

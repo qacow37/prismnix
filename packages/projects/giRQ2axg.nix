@@ -29,6 +29,7 @@ let
         "datapack-1.20.1" = _H7KBss4q;
         "fabric-1.20.1" = _H7KBss4q;
         "forge-1.20.1" = _H7KBss4q;
+        "default" = _H7KBss4q;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="H7KBss4q";}
+in callPackage fn {version="default";}

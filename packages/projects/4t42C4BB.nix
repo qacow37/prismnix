@@ -112,6 +112,7 @@ let
         "OpYvXHHC" = _OpYvXHHC;
         "babric-b1.7.3" = _OpYvXHHC;
         "fabric-b1.7.3" = _OpYvXHHC;
+        "default" = _OpYvXHHC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OpYvXHHC";}
+in callPackage fn {version="default";}

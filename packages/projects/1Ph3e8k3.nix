@@ -39,6 +39,7 @@ let
         "minecraft-26.1.1" = _LpVAcAPr;
         "minecraft-26.1.2" = _LpVAcAPr;
         "minecraft-26.2" = _LpVAcAPr;
+        "default" = _LpVAcAPr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LpVAcAPr";}
+in callPackage fn {version="default";}

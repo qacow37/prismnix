@@ -88,6 +88,7 @@ let
         "eifP29Wj" = _eifP29Wj;
         "forge-1.20" = _eifP29Wj;
         "forge-1.20.1" = _eifP29Wj;
+        "default" = _eifP29Wj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eifP29Wj";}
+in callPackage fn {version="default";}

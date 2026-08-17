@@ -85,6 +85,7 @@ let
         "quilt-26.1.1" = _eosoKdrU;
         "quilt-26.1.2" = _eosoKdrU;
         "quilt-26.2" = _eosoKdrU;
+        "default" = _eosoKdrU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eosoKdrU";}
+in callPackage fn {version="default";}

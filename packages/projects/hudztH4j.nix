@@ -40,6 +40,7 @@ let
         "HdrWwrST" = _HdrWwrST;
         "forge-1.18.2" = _hqaRxH2K;
         "forge-1.16.5" = _HdrWwrST;
+        "default" = _HdrWwrST;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HdrWwrST";}
+in callPackage fn {version="default";}

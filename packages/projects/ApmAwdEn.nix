@@ -262,6 +262,7 @@ let
         "spigot-1.20.2" = _XBmIXyfr;
         "spigot-1.20.3" = _XBmIXyfr;
         "spigot-1.20.4" = _XBmIXyfr;
+        "default" = _XBmIXyfr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -282,4 +283,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XBmIXyfr";}
+in callPackage fn {version="default";}

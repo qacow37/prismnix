@@ -24,6 +24,7 @@ let
         "minecraft-1.21.3" = _CpWX55iR;
         "minecraft-1.21.4" = _CpWX55iR;
         "minecraft-1.21.5" = _CpWX55iR;
+        "default" = _CpWX55iR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CpWX55iR";}
+in callPackage fn {version="default";}

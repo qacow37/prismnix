@@ -75,6 +75,7 @@ let
         "neoforge-1.21.2" = _IdnafteN;
         "neoforge-1.21.3" = _IdnafteN;
         "neoforge-1.21.4" = _IdnafteN;
+        "default" = _IdnafteN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IdnafteN";}
+in callPackage fn {version="default";}

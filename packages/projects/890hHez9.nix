@@ -30,6 +30,7 @@ let
         "quilt-1.19.1" = _axISrKTr;
         "quilt-1.19.2" = _axISrKTr;
         "quilt-1.19.3" = _axISrKTr;
+        "default" = _axISrKTr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="axISrKTr";}
+in callPackage fn {version="default";}

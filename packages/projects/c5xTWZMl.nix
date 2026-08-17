@@ -376,6 +376,7 @@ let
         "psl45AMG" = _psl45AMG;
         "forge-1.20.1" = _tJwr99c1;
         "neoforge-1.21.1" = _psl45AMG;
+        "default" = _psl45AMG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -396,4 +397,4 @@ let
                 };
             };
         };
-in callPackage fn {version="psl45AMG";}
+in callPackage fn {version="default";}

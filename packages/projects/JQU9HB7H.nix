@@ -248,6 +248,7 @@ let
         "bukkit-26.1.1" = _FpXYPOSp;
         "bukkit-26.1.2" = _FpXYPOSp;
         "bukkit-26.2" = _FpXYPOSp;
+        "default" = _FpXYPOSp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -268,4 +269,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FpXYPOSp";}
+in callPackage fn {version="default";}

@@ -39,6 +39,7 @@ let
         "fPXTjtie" = _fPXTjtie;
         "pmFrNllU" = _pmFrNllU;
         "forge-1.7.10" = _pmFrNllU;
+        "default" = _pmFrNllU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pmFrNllU";}
+in callPackage fn {version="default";}

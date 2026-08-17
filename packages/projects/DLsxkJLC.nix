@@ -176,6 +176,7 @@ let
         "fabric-26.1" = _RTNvPMmQ;
         "fabric-26.1.1" = _RTNvPMmQ;
         "fabric-26.1.2" = _RTNvPMmQ;
+        "default" = _RTNvPMmQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -196,4 +197,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RTNvPMmQ";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "gbFiZIOB" = _gbFiZIOB;
         "fabric-1.20.1" = _gbFiZIOB;
         "fabric-1.21.1" = _gbFiZIOB;
+        "default" = _gbFiZIOB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gbFiZIOB";}
+in callPackage fn {version="default";}

@@ -57,6 +57,7 @@ let
         "minecraft-1.21.9" = _GvZ64PpR;
         "minecraft-1.21.10" = _GvZ64PpR;
         "minecraft-1.21.11" = _GvZ64PpR;
+        "default" = _GvZ64PpR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GvZ64PpR";}
+in callPackage fn {version="default";}

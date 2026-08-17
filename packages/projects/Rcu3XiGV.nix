@@ -147,6 +147,7 @@ let
         "bEI89WNd" = _bEI89WNd;
         "C4DfzosL" = _C4DfzosL;
         "forge-1.20.1" = _C4DfzosL;
+        "default" = _C4DfzosL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="C4DfzosL";}
+in callPackage fn {version="default";}

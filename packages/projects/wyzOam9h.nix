@@ -137,6 +137,7 @@ let
         "minecraft-26.1" = _cEvoLuXa;
         "minecraft-26.1.1" = _cEvoLuXa;
         "minecraft-26.1.2" = _cEvoLuXa;
+        "default" = _cEvoLuXa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -157,4 +158,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cEvoLuXa";}
+in callPackage fn {version="default";}

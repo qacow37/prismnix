@@ -75,6 +75,7 @@ let
         "QpXTLCEP" = _QpXTLCEP;
         "z2N9ED23" = _z2N9ED23;
         "forge-1.16.5" = _z2N9ED23;
+        "default" = _z2N9ED23;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="z2N9ED23";}
+in callPackage fn {version="default";}

@@ -13,6 +13,7 @@ let
         "minecraft-1.18.2" = _NFVreTXB;
         "minecraft-1.19.2" = _NFVreTXB;
         "minecraft-1.19.4" = _NFVreTXB;
+        "default" = _NFVreTXB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -33,4 +34,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NFVreTXB";}
+in callPackage fn {version="default";}

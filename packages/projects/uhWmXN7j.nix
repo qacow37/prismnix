@@ -54,6 +54,7 @@ let
         "minecraft-1.21.9" = _OKaMELDC;
         "minecraft-1.21.10" = _OKaMELDC;
         "minecraft-1.21.11" = _OKaMELDC;
+        "default" = _OKaMELDC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OKaMELDC";}
+in callPackage fn {version="default";}

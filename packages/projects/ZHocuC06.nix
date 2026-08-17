@@ -36,6 +36,7 @@ let
         "forge-1.19.2" = _Jyxa7Fut;
         "forge-1.20.1" = _WHvecoEX;
         "neoforge-1.21.1" = _mevrMbVX;
+        "default" = _mevrMbVX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -56,4 +57,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mevrMbVX";}
+in callPackage fn {version="default";}

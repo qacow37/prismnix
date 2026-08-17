@@ -39,6 +39,7 @@ let
         "UPCHmlaM" = _UPCHmlaM;
         "N8hirlYZ" = _N8hirlYZ;
         "forge-1.20.1" = _N8hirlYZ;
+        "default" = _N8hirlYZ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="N8hirlYZ";}
+in callPackage fn {version="default";}

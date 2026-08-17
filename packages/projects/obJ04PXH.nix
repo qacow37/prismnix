@@ -51,6 +51,7 @@ let
         "GOKvIK1M" = _GOKvIK1M;
         "GS7RPv3X" = _GS7RPv3X;
         "forge-1.20.1" = _GS7RPv3X;
+        "default" = _GS7RPv3X;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GS7RPv3X";}
+in callPackage fn {version="default";}

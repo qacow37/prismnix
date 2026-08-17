@@ -21,6 +21,7 @@ let
         "iXIOdIoV" = _iXIOdIoV;
         "TDwrdjSl" = _TDwrdjSl;
         "fabric-1.18.2" = _TDwrdjSl;
+        "default" = _TDwrdjSl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TDwrdjSl";}
+in callPackage fn {version="default";}

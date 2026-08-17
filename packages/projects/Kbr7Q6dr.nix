@@ -9,6 +9,7 @@ let
     in {
         "dhaa2ENU" = _dhaa2ENU;
         "forge-1.20.1" = _dhaa2ENU;
+        "default" = _dhaa2ENU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dhaa2ENU";}
+in callPackage fn {version="default";}

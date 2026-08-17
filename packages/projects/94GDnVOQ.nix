@@ -68,6 +68,7 @@ let
         "fabric-1.21.9" = _gmnsDXSP;
         "fabric-1.21.10" = _gmnsDXSP;
         "fabric-1.21.11" = _gmnsDXSP;
+        "default" = _gmnsDXSP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -88,4 +89,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gmnsDXSP";}
+in callPackage fn {version="default";}

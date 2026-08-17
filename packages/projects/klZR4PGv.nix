@@ -16,6 +16,7 @@ let
         "kg9TpgWL" = _kg9TpgWL;
         "forge-1.20.1" = _kg9TpgWL;
         "neoforge-1.20.1" = _kg9TpgWL;
+        "default" = _kg9TpgWL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kg9TpgWL";}
+in callPackage fn {version="default";}

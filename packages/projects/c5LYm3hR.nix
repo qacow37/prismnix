@@ -334,6 +334,7 @@ let
         "quilt-25w09a" = _QmGj5r8S;
         "quilt-25w09b" = _QmGj5r8S;
         "quilt-1.21.5" = _TbQvXXgM;
+        "default" = _cwlvootf;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -354,4 +355,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cwlvootf";}
+in callPackage fn {version="default";}

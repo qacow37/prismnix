@@ -177,6 +177,7 @@ let
         "APU33NbW" = _APU33NbW;
         "QWfncVPa" = _QWfncVPa;
         "forge-1.20.1" = _QWfncVPa;
+        "default" = _QWfncVPa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -197,4 +198,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QWfncVPa";}
+in callPackage fn {version="default";}

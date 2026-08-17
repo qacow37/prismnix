@@ -153,6 +153,7 @@ let
         "quilt-26.1" = _hfaPBAZ2;
         "quilt-26.1.1" = _hfaPBAZ2;
         "quilt-26.1.2" = _hfaPBAZ2;
+        "default" = _hfaPBAZ2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -173,4 +174,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hfaPBAZ2";}
+in callPackage fn {version="default";}

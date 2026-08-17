@@ -57,6 +57,7 @@ let
         "r4f449IT" = _r4f449IT;
         "856EM88M" = _856EM88M;
         "fabric-1.21" = _856EM88M;
+        "default" = _856EM88M;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="856EM88M";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "R803hiEF" = _R803hiEF;
         "JBerIfLV" = _JBerIfLV;
         "forge-1.20.1" = _JBerIfLV;
+        "default" = _JBerIfLV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JBerIfLV";}
+in callPackage fn {version="default";}

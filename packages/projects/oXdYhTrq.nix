@@ -238,6 +238,7 @@ let
         "spigot-26.1.1" = _qCrFv5D1;
         "spigot-26.1.2" = _qCrFv5D1;
         "spigot-26.2" = _qCrFv5D1;
+        "default" = _qCrFv5D1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -258,4 +259,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qCrFv5D1";}
+in callPackage fn {version="default";}

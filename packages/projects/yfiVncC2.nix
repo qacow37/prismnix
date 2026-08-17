@@ -59,6 +59,7 @@ let
         "paper-1.21.8" = _FbpP49VM;
         "paper-1.21.9" = _FbpP49VM;
         "paper-1.21.11" = _FbpP49VM;
+        "default" = _FbpP49VM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -79,4 +80,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FbpP49VM";}
+in callPackage fn {version="default";}

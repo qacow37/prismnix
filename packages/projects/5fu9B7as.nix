@@ -174,6 +174,7 @@ let
         "purpur-1.21.6" = _Buup0tbR;
         "purpur-1.21.7" = _Buup0tbR;
         "purpur-1.21.8" = _Buup0tbR;
+        "default" = _MepyIzQc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -194,4 +195,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MepyIzQc";}
+in callPackage fn {version="default";}

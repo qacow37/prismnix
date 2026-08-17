@@ -94,6 +94,7 @@ let
         "minecraft-1.21.10" = _rVMbu4Xh;
         "minecraft-1.18" = _rVMbu4Xh;
         "minecraft-1.18.1" = _rVMbu4Xh;
+        "default" = _rVMbu4Xh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -114,4 +115,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rVMbu4Xh";}
+in callPackage fn {version="default";}

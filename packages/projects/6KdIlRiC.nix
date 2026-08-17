@@ -28,6 +28,7 @@ let
         "TILV2Y7S" = _TILV2Y7S;
         "fabric-1.20.1" = _TILV2Y7S;
         "forge-1.20.1" = _LYJnl3d3;
+        "default" = _TILV2Y7S;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TILV2Y7S";}
+in callPackage fn {version="default";}

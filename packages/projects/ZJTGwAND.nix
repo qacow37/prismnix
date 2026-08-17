@@ -298,6 +298,7 @@ let
         "neoforge-26.1" = _UnTCBuco;
         "neoforge-26.1.1" = _UnTCBuco;
         "neoforge-26.1.2" = _UnTCBuco;
+        "default" = _Xzg42PX9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -318,4 +319,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Xzg42PX9";}
+in callPackage fn {version="default";}

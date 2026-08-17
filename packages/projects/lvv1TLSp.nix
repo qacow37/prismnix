@@ -9,6 +9,7 @@ let
     in {
         "TUAblDzn" = _TUAblDzn;
         "forge-1.20.1" = _TUAblDzn;
+        "default" = _TUAblDzn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TUAblDzn";}
+in callPackage fn {version="default";}

@@ -152,6 +152,7 @@ let
         "fabric-1.20.1" = _lPortcaj;
         "fabric-26.1-snapshot-1" = _N4NZHeYC;
         "fabric-1.21.8" = _kVgbQDfs;
+        "default" = _lPortcaj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -172,4 +173,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lPortcaj";}
+in callPackage fn {version="default";}

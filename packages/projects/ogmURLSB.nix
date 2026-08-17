@@ -69,6 +69,7 @@ let
         "SrbzIGzJ" = _SrbzIGzJ;
         "aTTrGrli" = _aTTrGrli;
         "forge-1.12.2" = _aTTrGrli;
+        "default" = _aTTrGrli;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aTTrGrli";}
+in callPackage fn {version="default";}

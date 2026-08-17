@@ -220,6 +220,7 @@ let
         "velocity-26.1.1" = _L89f7chS;
         "velocity-26.1.2" = _L89f7chS;
         "velocity-26.2" = _L89f7chS;
+        "default" = _L89f7chS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -240,4 +241,4 @@ let
                 };
             };
         };
-in callPackage fn {version="L89f7chS";}
+in callPackage fn {version="default";}

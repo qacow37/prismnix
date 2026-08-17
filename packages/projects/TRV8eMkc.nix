@@ -9,6 +9,7 @@ let
     in {
         "P32BM95u" = _P32BM95u;
         "neoforge-1.21.1" = _P32BM95u;
+        "default" = _P32BM95u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="P32BM95u";}
+in callPackage fn {version="default";}

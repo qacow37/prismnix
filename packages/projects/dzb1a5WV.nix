@@ -279,6 +279,7 @@ let
         "lSnZyFnZ" = _lSnZyFnZ;
         "LxesD770" = _LxesD770;
         "neoforge-1.21.1" = _LxesD770;
+        "default" = _LxesD770;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -299,4 +300,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LxesD770";}
+in callPackage fn {version="default";}

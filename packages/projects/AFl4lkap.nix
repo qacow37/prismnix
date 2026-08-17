@@ -17,6 +17,7 @@ let
         "minecraft-1.21.1" = _Wt0naTC3;
         "minecraft-1.21.2" = _Wt0naTC3;
         "minecraft-1.21.3" = _Wt0naTC3;
+        "default" = _Wt0naTC3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Wt0naTC3";}
+in callPackage fn {version="default";}

@@ -10,6 +10,7 @@ let
         "eUL9mvOm" = _eUL9mvOm;
         "datapack-1.21.1" = _eUL9mvOm;
         "minecraft-1.21.1" = _eUL9mvOm;
+        "default" = _eUL9mvOm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eUL9mvOm";}
+in callPackage fn {version="default";}

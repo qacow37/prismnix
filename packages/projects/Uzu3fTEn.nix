@@ -21,6 +21,7 @@ let
         "bLLWCMA8" = _bLLWCMA8;
         "EwB2VmZw" = _EwB2VmZw;
         "fabric-1.20.1" = _EwB2VmZw;
+        "default" = _EwB2VmZw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EwB2VmZw";}
+in callPackage fn {version="default";}

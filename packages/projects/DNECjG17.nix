@@ -244,6 +244,7 @@ let
         "forge-1.20.2" = _cW2ukofE;
         "neoforge-1.21.1" = _ONdhfFC5;
         "neoforge-1.21.10" = _SIO7DRtm;
+        "default" = _SIO7DRtm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -264,4 +265,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SIO7DRtm";}
+in callPackage fn {version="default";}

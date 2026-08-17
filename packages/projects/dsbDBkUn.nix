@@ -37,6 +37,7 @@ let
         "quilt-1.19" = _9Qo1ErxU;
         "quilt-1.19.1" = _9Qo1ErxU;
         "quilt-1.19.2" = _9Qo1ErxU;
+        "default" = _forlaTiD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -57,4 +58,4 @@ let
                 };
             };
         };
-in callPackage fn {version="forlaTiD";}
+in callPackage fn {version="default";}

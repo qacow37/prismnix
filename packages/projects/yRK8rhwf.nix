@@ -33,6 +33,7 @@ let
         "geNZroRi" = _geNZroRi;
         "fb3QVgtk" = _fb3QVgtk;
         "fabric-1.21.1" = _fb3QVgtk;
+        "default" = _fb3QVgtk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fb3QVgtk";}
+in callPackage fn {version="default";}

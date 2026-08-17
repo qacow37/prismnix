@@ -182,6 +182,7 @@ let
         "purpur-1.21.10" = _dYzNwvC3;
         "purpur-1.21.11" = _R1GrOhxK;
         "purpur-26.1.2" = _tsxsim29;
+        "default" = _tsxsim29;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -202,4 +203,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tsxsim29";}
+in callPackage fn {version="default";}

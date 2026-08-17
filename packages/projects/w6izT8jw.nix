@@ -147,6 +147,7 @@ let
         "quilt-1.21" = _bVK70oE0;
         "quilt-1.21.1" = _bVK70oE0;
         "quilt-1.21.4" = _exs3sqLP;
+        "default" = _exs3sqLP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -167,4 +168,4 @@ let
                 };
             };
         };
-in callPackage fn {version="exs3sqLP";}
+in callPackage fn {version="default";}

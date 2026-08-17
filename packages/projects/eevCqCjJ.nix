@@ -51,6 +51,7 @@ let
         "CRv2nH6T" = _CRv2nH6T;
         "ctOmUvK2" = _ctOmUvK2;
         "forge-1.12.2" = _ctOmUvK2;
+        "default" = _ctOmUvK2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ctOmUvK2";}
+in callPackage fn {version="default";}

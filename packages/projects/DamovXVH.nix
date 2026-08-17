@@ -57,6 +57,7 @@ let
         "tICfJzTe" = _tICfJzTe;
         "yjFedGKI" = _yjFedGKI;
         "forge-1.7.10" = _yjFedGKI;
+        "default" = _yjFedGKI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yjFedGKI";}
+in callPackage fn {version="default";}

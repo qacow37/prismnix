@@ -272,6 +272,7 @@ let
         "spigot-26.1.1" = _UDIL06v4;
         "spigot-26.1.2" = _UDIL06v4;
         "spigot-26.2" = _UDIL06v4;
+        "default" = _UDIL06v4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -292,4 +293,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UDIL06v4";}
+in callPackage fn {version="default";}

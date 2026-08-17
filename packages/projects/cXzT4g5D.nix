@@ -44,6 +44,7 @@ let
         "fabric-1.21.3" = _JPDUBu8D;
         "fabric-1.21.4" = _JPDUBu8D;
         "fabric-1.21.5" = _JPDUBu8D;
+        "default" = _JPDUBu8D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JPDUBu8D";}
+in callPackage fn {version="default";}

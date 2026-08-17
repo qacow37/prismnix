@@ -23,6 +23,7 @@ let
         "minecraft-1.21.6" = _EcQlAsjg;
         "minecraft-1.21.7" = _EcQlAsjg;
         "minecraft-1.21.8" = _EcQlAsjg;
+        "default" = _EcQlAsjg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EcQlAsjg";}
+in callPackage fn {version="default";}

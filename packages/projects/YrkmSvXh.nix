@@ -296,6 +296,7 @@ let
         "spigot-26.1" = _WmTB4uNN;
         "spigot-26.1.1" = _WmTB4uNN;
         "spigot-26.1.2" = _WmTB4uNN;
+        "default" = _WmTB4uNN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -316,4 +317,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WmTB4uNN";}
+in callPackage fn {version="default";}

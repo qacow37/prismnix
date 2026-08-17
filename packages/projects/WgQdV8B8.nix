@@ -19,6 +19,7 @@ let
         "fabric-1.21.9" = _hbNIDpie;
         "fabric-1.21.10" = _hbNIDpie;
         "fabric-1.21.11" = _hbNIDpie;
+        "default" = _hbNIDpie;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hbNIDpie";}
+in callPackage fn {version="default";}

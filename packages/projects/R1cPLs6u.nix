@@ -27,6 +27,7 @@ let
         "BvAMVUiF" = _BvAMVUiF;
         "wbr62bA8" = _wbr62bA8;
         "fabric-1.20.1" = _wbr62bA8;
+        "default" = _wbr62bA8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wbr62bA8";}
+in callPackage fn {version="default";}

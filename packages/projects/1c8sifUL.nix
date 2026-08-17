@@ -33,6 +33,7 @@ let
         "pcTPf4Hf" = _pcTPf4Hf;
         "CoqZrd3t" = _CoqZrd3t;
         "forge-1.7.10" = _CoqZrd3t;
+        "default" = _CoqZrd3t;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CoqZrd3t";}
+in callPackage fn {version="default";}

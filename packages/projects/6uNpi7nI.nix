@@ -34,6 +34,7 @@ let
         "SGQigNAv" = _SGQigNAv;
         "forge-1.20.1" = _QevoTLB5;
         "neoforge-1.21.1" = _SGQigNAv;
+        "default" = _SGQigNAv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SGQigNAv";}
+in callPackage fn {version="default";}

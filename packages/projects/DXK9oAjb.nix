@@ -28,6 +28,7 @@ let
         "forge-1.19" = _iaDirWlJ;
         "forge-1.19.1" = _iaDirWlJ;
         "forge-1.19.2" = _iaDirWlJ;
+        "default" = _iaDirWlJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iaDirWlJ";}
+in callPackage fn {version="default";}

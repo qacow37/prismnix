@@ -141,6 +141,7 @@ let
         "mM2Myd01" = _mM2Myd01;
         "rhspYckp" = _rhspYckp;
         "forge-1.20.1" = _rhspYckp;
+        "default" = _rhspYckp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rhspYckp";}
+in callPackage fn {version="default";}

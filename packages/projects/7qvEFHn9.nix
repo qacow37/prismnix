@@ -324,6 +324,7 @@ let
         "fabric-1.21.8" = _zbVskVhd;
         "fabric-1.21.6" = _zbVskVhd;
         "fabric-1.21.7" = _zbVskVhd;
+        "default" = _cwuoePBR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -344,4 +345,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cwuoePBR";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "Orp863hs" = _Orp863hs;
         "fgNx725w" = _fgNx725w;
         "fabric-1.20.1" = _fgNx725w;
+        "default" = _fgNx725w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fgNx725w";}
+in callPackage fn {version="default";}

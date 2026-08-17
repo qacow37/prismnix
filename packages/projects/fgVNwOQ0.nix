@@ -15,6 +15,7 @@ let
         "CzwTlcPA" = _CzwTlcPA;
         "TfLFBx3C" = _TfLFBx3C;
         "fabric-1.20.1" = _TfLFBx3C;
+        "default" = _TfLFBx3C;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TfLFBx3C";}
+in callPackage fn {version="default";}

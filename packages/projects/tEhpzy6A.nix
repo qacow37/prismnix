@@ -57,6 +57,7 @@ let
         "CLTe4LpP" = _CLTe4LpP;
         "2jubbShB" = _2jubbShB;
         "forge-1.19.2" = _2jubbShB;
+        "default" = _2jubbShB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2jubbShB";}
+in callPackage fn {version="default";}

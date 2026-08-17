@@ -283,6 +283,7 @@ let
         "quilt-1.21.7" = _TfMvytLR;
         "quilt-1.21.8" = _TfMvytLR;
         "quilt-1.21.9" = _TfMvytLR;
+        "default" = _TfMvytLR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -303,4 +304,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TfMvytLR";}
+in callPackage fn {version="default";}

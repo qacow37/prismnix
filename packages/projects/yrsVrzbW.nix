@@ -69,6 +69,7 @@ let
         "3PokjeLL" = _3PokjeLL;
         "cjVxC8Bu" = _cjVxC8Bu;
         "forge-1.12.2" = _cjVxC8Bu;
+        "default" = _cjVxC8Bu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cjVxC8Bu";}
+in callPackage fn {version="default";}

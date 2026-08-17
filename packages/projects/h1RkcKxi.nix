@@ -110,6 +110,7 @@ let
         "minecraft-26.1.1" = _kRfROoKA;
         "minecraft-26.1.2" = _kRfROoKA;
         "minecraft-26.2" = _kRfROoKA;
+        "default" = _kRfROoKA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -130,4 +131,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kRfROoKA";}
+in callPackage fn {version="default";}

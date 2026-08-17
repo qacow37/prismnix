@@ -27,6 +27,7 @@ let
         "QKTibTtG" = _QKTibTtG;
         "sGD15rit" = _sGD15rit;
         "forge-1.12.2" = _sGD15rit;
+        "default" = _sGD15rit;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sGD15rit";}
+in callPackage fn {version="default";}

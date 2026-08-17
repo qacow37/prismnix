@@ -21,6 +21,7 @@ let
         "minecraft-1.19.4" = _EuInRoyJ;
         "minecraft-1.20.1" = _EuInRoyJ;
         "minecraft-1.20.4" = _EuInRoyJ;
+        "default" = _EuInRoyJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EuInRoyJ";}
+in callPackage fn {version="default";}

@@ -523,6 +523,7 @@ let
         "purpur-26.1.1" = _BuvLmql9;
         "purpur-26.1.2" = _BuvLmql9;
         "purpur-26.2" = _BuvLmql9;
+        "default" = _BuvLmql9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -543,4 +544,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BuvLmql9";}
+in callPackage fn {version="default";}

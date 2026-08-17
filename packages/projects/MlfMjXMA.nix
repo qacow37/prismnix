@@ -63,6 +63,7 @@ let
         "nFG9xvtA" = _nFG9xvtA;
         "msOtNYLF" = _msOtNYLF;
         "forge-1.12.2" = _msOtNYLF;
+        "default" = _msOtNYLF;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="msOtNYLF";}
+in callPackage fn {version="default";}

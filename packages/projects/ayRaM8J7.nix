@@ -657,6 +657,7 @@ let
         "spigot-1.7.8" = _cLNipSgw;
         "spigot-1.7.9" = _cLNipSgw;
         "spigot-1.7.10" = _cLNipSgw;
+        "default" = _cLNipSgw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -677,4 +678,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cLNipSgw";}
+in callPackage fn {version="default";}

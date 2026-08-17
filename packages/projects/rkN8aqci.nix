@@ -105,6 +105,7 @@ let
         "fabric-1.20" = _xXhZI4u3;
         "fabric-1.20.1" = _xXhZI4u3;
         "fabric-1.20.2" = _xXhZI4u3;
+        "default" = _PaktOtpC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -125,4 +126,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PaktOtpC";}
+in callPackage fn {version="default";}

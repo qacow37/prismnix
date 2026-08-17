@@ -61,6 +61,7 @@ let
         "neoforge-1.21.4" = _dwdGWYMO;
         "neoforge-1.21.5" = _dwdGWYMO;
         "neoforge-1.21.6" = _dwdGWYMO;
+        "default" = _dwdGWYMO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -81,4 +82,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dwdGWYMO";}
+in callPackage fn {version="default";}

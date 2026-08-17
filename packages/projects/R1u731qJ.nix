@@ -88,6 +88,7 @@ let
         "dhps7rlN" = _dhps7rlN;
         "neoforge-1.21.1" = _dhps7rlN;
         "forge-1.20.1" = _9gFhw3m9;
+        "default" = _dhps7rlN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dhps7rlN";}
+in callPackage fn {version="default";}

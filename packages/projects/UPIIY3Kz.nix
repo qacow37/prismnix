@@ -75,6 +75,7 @@ let
         "qoEDig7e" = _qoEDig7e;
         "TIA0qweb" = _TIA0qweb;
         "fabric-1.20.1" = _TIA0qweb;
+        "default" = _TIA0qweb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TIA0qweb";}
+in callPackage fn {version="default";}

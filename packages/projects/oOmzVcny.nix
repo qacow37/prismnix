@@ -15,6 +15,7 @@ let
         "niGiMhMd" = _niGiMhMd;
         "LXhsiXLG" = _LXhsiXLG;
         "minecraft-1.12.2" = _LXhsiXLG;
+        "default" = _LXhsiXLG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LXhsiXLG";}
+in callPackage fn {version="default";}

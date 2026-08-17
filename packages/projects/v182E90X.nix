@@ -858,6 +858,7 @@ let
         "sponge-26.1.1" = _JTF1ib5z;
         "sponge-26.1.2" = _JTF1ib5z;
         "sponge-26.2" = _JTF1ib5z;
+        "default" = _JTF1ib5z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -878,4 +879,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JTF1ib5z";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "6tbFAXox" = _6tbFAXox;
         "RzbXCuUy" = _RzbXCuUy;
         "forge-1.8.9" = _RzbXCuUy;
+        "default" = _RzbXCuUy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RzbXCuUy";}
+in callPackage fn {version="default";}

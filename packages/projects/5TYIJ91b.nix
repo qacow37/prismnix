@@ -22,6 +22,7 @@ let
         "EboEffD4" = _EboEffD4;
         "fabric-1.17" = _EboEffD4;
         "fabric-1.17.1" = _EboEffD4;
+        "default" = _EboEffD4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EboEffD4";}
+in callPackage fn {version="default";}

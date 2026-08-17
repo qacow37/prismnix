@@ -56,6 +56,7 @@ let
         "fabric-26.1.1" = _XNXrKWCU;
         "fabric-26.1.2" = _XNXrKWCU;
         "fabric-26.2" = _FOXbUPNd;
+        "default" = _FOXbUPNd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -76,4 +77,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FOXbUPNd";}
+in callPackage fn {version="default";}

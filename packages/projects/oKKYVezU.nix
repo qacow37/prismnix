@@ -123,6 +123,7 @@ let
         "fabric-1.21.9" = _sYBPoYNz;
         "fabric-1.21.10" = _sYBPoYNz;
         "fabric-1.21.11" = _RiLJ0Run;
+        "default" = _RiLJ0Run;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RiLJ0Run";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "CFcA9IPo" = _CFcA9IPo;
         "eyk2ERRJ" = _eyk2ERRJ;
         "forge-1.12.2" = _eyk2ERRJ;
+        "default" = _eyk2ERRJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eyk2ERRJ";}
+in callPackage fn {version="default";}

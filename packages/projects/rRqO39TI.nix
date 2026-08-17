@@ -216,6 +216,7 @@ let
         "folia-1.21.6" = _oQMpRaPc;
         "folia-1.21.7" = _oQMpRaPc;
         "folia-1.21.8" = _oQMpRaPc;
+        "default" = _oQMpRaPc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -236,4 +237,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oQMpRaPc";}
+in callPackage fn {version="default";}

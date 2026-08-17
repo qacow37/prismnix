@@ -21,6 +21,7 @@ let
         "aM0dosZN" = _aM0dosZN;
         "NM13LmMK" = _NM13LmMK;
         "fabric-1.20.2" = _NM13LmMK;
+        "default" = _NM13LmMK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NM13LmMK";}
+in callPackage fn {version="default";}

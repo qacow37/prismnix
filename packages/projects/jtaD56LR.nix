@@ -16,6 +16,7 @@ let
         "vr7WMAhi" = _vr7WMAhi;
         "fabric-1.20.1" = _vSRdZ23t;
         "fabric-1.21.1" = _vr7WMAhi;
+        "default" = _vr7WMAhi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vr7WMAhi";}
+in callPackage fn {version="default";}

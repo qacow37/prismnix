@@ -15,6 +15,7 @@ let
         "o5CyFAsl" = _o5CyFAsl;
         "rjdMOuai" = _rjdMOuai;
         "neoforge-1.21.1" = _rjdMOuai;
+        "default" = _rjdMOuai;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rjdMOuai";}
+in callPackage fn {version="default";}

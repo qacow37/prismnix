@@ -52,6 +52,7 @@ let
         "grAPZgay" = _grAPZgay;
         "fabric-1.21.1" = _grAPZgay;
         "neoforge-1.21.1" = _5XJQbNBl;
+        "default" = _grAPZgay;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="grAPZgay";}
+in callPackage fn {version="default";}

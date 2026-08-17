@@ -33,6 +33,7 @@ let
         "idcgCiPZ" = _idcgCiPZ;
         "kwzcEeSC" = _kwzcEeSC;
         "forge-1.12.2" = _kwzcEeSC;
+        "default" = _kwzcEeSC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kwzcEeSC";}
+in callPackage fn {version="default";}

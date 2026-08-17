@@ -15,6 +15,7 @@ let
         "Sw4l2ITi" = _Sw4l2ITi;
         "naJs8D56" = _naJs8D56;
         "forge-1.20.1" = _naJs8D56;
+        "default" = _naJs8D56;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="naJs8D56";}
+in callPackage fn {version="default";}

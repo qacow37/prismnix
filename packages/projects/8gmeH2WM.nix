@@ -136,6 +136,7 @@ let
         "BsfTB3Ap" = _BsfTB3Ap;
         "fabric-1.21.1" = _BsfTB3Ap;
         "neoforge-1.21.1" = _m12pOVaK;
+        "default" = _BsfTB3Ap;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -156,4 +157,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BsfTB3Ap";}
+in callPackage fn {version="default";}

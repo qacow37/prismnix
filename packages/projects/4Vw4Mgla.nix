@@ -299,6 +299,7 @@ let
         "waterfall-26.1.1" = _7EPompbt;
         "waterfall-26.1.2" = _7EPompbt;
         "waterfall-26.2" = _7EPompbt;
+        "default" = _TaqxBSli;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -319,4 +320,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TaqxBSli";}
+in callPackage fn {version="default";}

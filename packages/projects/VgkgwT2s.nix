@@ -9,6 +9,7 @@ let
     in {
         "ELzmAMi7" = _ELzmAMi7;
         "paper-1.21.11" = _ELzmAMi7;
+        "default" = _ELzmAMi7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ELzmAMi7";}
+in callPackage fn {version="default";}

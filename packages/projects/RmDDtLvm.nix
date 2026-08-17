@@ -125,6 +125,7 @@ let
         "quilt-26.1" = _JaML5C3D;
         "quilt-26.1.1" = _JaML5C3D;
         "quilt-26.1.2" = _JaML5C3D;
+        "default" = _JaML5C3D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -145,4 +146,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JaML5C3D";}
+in callPackage fn {version="default";}

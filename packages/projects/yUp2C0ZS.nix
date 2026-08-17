@@ -46,6 +46,7 @@ let
         "dfFqrgbo" = _dfFqrgbo;
         "forge-1.19.4" = _8A0FaRKJ;
         "forge-1.20.1" = _dfFqrgbo;
+        "default" = _dfFqrgbo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dfFqrgbo";}
+in callPackage fn {version="default";}

@@ -21,6 +21,7 @@ let
         "3eAfGuqj" = _3eAfGuqj;
         "9WMT14bu" = _9WMT14bu;
         "minecraft-b1.7.3" = _9WMT14bu;
+        "default" = _9WMT14bu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9WMT14bu";}
+in callPackage fn {version="default";}

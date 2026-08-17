@@ -38,6 +38,7 @@ let
         "datapack-1.20.4" = _W5zyz7On;
         "datapack-1.20.5" = _W5zyz7On;
         "datapack-1.20.6" = _W5zyz7On;
+        "default" = _XdefyWQg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XdefyWQg";}
+in callPackage fn {version="default";}

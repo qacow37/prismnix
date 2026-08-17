@@ -31,6 +31,7 @@ let
         "fabric-1.20.2" = _nuOkX95R;
         "fabric-1.20.3" = _nuOkX95R;
         "fabric-1.20.4" = _nuOkX95R;
+        "default" = _nuOkX95R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nuOkX95R";}
+in callPackage fn {version="default";}

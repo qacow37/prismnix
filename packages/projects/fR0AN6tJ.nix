@@ -58,6 +58,7 @@ let
         "WpwHLls7" = _WpwHLls7;
         "minecraft-1.21.1" = _WpwHLls7;
         "minecraft-1.21" = _WpwHLls7;
+        "default" = _WpwHLls7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WpwHLls7";}
+in callPackage fn {version="default";}

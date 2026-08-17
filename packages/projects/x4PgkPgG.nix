@@ -24,6 +24,7 @@ let
         "fabric-1.20.1" = _iJPkhdIA;
         "minecraft-1.20.1" = _KP3AdYMt;
         "forge-1.20.1" = _AsWBwk28;
+        "default" = _AsWBwk28;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AsWBwk28";}
+in callPackage fn {version="default";}

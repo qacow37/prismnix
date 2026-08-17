@@ -65,6 +65,7 @@ let
         "spigot-26.1" = _CISaxBkx;
         "spigot-26.1.1" = _CISaxBkx;
         "spigot-26.1.2" = _CISaxBkx;
+        "default" = _CISaxBkx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -85,4 +86,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CISaxBkx";}
+in callPackage fn {version="default";}

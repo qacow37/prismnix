@@ -39,6 +39,7 @@ let
         "TxTRt42h" = _TxTRt42h;
         "JJWBLsUH" = _JJWBLsUH;
         "forge-1.20.1" = _JJWBLsUH;
+        "default" = _JJWBLsUH;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JJWBLsUH";}
+in callPackage fn {version="default";}

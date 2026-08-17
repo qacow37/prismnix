@@ -62,6 +62,7 @@ let
         "fabric-1.21.8" = _VhZNiNmt;
         "fabric-1.21.9" = _VhZNiNmt;
         "fabric-1.21.10" = _VhZNiNmt;
+        "default" = _VhZNiNmt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VhZNiNmt";}
+in callPackage fn {version="default";}

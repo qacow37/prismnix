@@ -430,6 +430,7 @@ let
         "ypyLABVP" = _ypyLABVP;
         "forge-1.20.1" = _ypyLABVP;
         "neoforge-1.21.1" = _C1o5aQit;
+        "default" = _ypyLABVP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -450,4 +451,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ypyLABVP";}
+in callPackage fn {version="default";}

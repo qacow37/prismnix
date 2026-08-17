@@ -870,6 +870,7 @@ let
         "minecraft-26.3-snapshot-5" = _SVxFWAm4;
         "minecraft-26.3-snapshot-6" = _SVxFWAm4;
         "minecraft-26.3-snapshot-7" = _SVxFWAm4;
+        "default" = _SVxFWAm4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -890,4 +891,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SVxFWAm4";}
+in callPackage fn {version="default";}

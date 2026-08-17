@@ -22,6 +22,7 @@ let
         "ZyDdXRPV" = _ZyDdXRPV;
         "forge-1.20.1" = _VTGPKRxl;
         "neoforge-1.21.1" = _ZyDdXRPV;
+        "default" = _ZyDdXRPV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZyDdXRPV";}
+in callPackage fn {version="default";}

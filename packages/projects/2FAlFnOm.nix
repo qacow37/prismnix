@@ -127,6 +127,7 @@ let
         "spigot-1.20.6" = _LewLXi5K;
         "spigot-1.21" = _LewLXi5K;
         "purpur-26.1" = _SC0SA8GW;
+        "default" = _SC0SA8GW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -147,4 +148,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SC0SA8GW";}
+in callPackage fn {version="default";}

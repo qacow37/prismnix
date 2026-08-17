@@ -15,6 +15,7 @@ let
         "dSH27nOB" = _dSH27nOB;
         "dUonaWAo" = _dUonaWAo;
         "forge-1.20.1" = _dUonaWAo;
+        "default" = _dUonaWAo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dUonaWAo";}
+in callPackage fn {version="default";}

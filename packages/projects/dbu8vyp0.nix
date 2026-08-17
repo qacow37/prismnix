@@ -87,6 +87,7 @@ let
         "fabric-1.20" = _gyvdyZgM;
         "fabric-1.20.1" = _gyvdyZgM;
         "fabric-1.21" = _rGojpSOL;
+        "default" = _rGojpSOL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rGojpSOL";}
+in callPackage fn {version="default";}

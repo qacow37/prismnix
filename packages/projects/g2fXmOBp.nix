@@ -19,6 +19,7 @@ let
         "vanilla-1.19.2" = _ICXUPGbM;
         "vanilla-1.19.3" = _ICXUPGbM;
         "vanilla-1.19.4" = _ICXUPGbM;
+        "default" = _ICXUPGbM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -39,4 +40,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ICXUPGbM";}
+in callPackage fn {version="default";}

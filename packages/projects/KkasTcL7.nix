@@ -15,6 +15,7 @@ let
         "FoWWfBIc" = _FoWWfBIc;
         "ngSmdv4a" = _ngSmdv4a;
         "minecraft-1.19.3" = _ngSmdv4a;
+        "default" = _ngSmdv4a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ngSmdv4a";}
+in callPackage fn {version="default";}

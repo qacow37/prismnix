@@ -272,6 +272,7 @@ let
         "forge-1.20.2" = _fdao305y;
         "forge-1.20.3" = _fdao305y;
         "forge-1.20.4" = _fdao305y;
+        "default" = _86BhaEoU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -292,4 +293,4 @@ let
                 };
             };
         };
-in callPackage fn {version="86BhaEoU";}
+in callPackage fn {version="default";}

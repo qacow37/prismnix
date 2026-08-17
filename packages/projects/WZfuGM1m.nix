@@ -71,6 +71,7 @@ let
         "neoforge-1.21.1" = _UcvDwdvO;
         "neoforge-1.20.1" = _sYBFtimp;
         "forge-1.20.1" = _sYBFtimp;
+        "default" = _sYBFtimp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -91,4 +92,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sYBFtimp";}
+in callPackage fn {version="default";}

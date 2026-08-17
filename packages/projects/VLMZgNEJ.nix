@@ -104,6 +104,7 @@ let
         "forge-1.16.5" = _XEsbJHWJ;
         "forge-1.7.10" = _i5Ks4ecw;
         "babric-b1.7.3" = _GCGKQSfu;
+        "default" = _Egtavxsi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -124,4 +125,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Egtavxsi";}
+in callPackage fn {version="default";}

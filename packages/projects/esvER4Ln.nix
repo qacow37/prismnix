@@ -58,6 +58,7 @@ let
         "quilt-26.1.1" = _CSL1wWEI;
         "quilt-26.1.2" = _CSL1wWEI;
         "quilt-26.2" = _CSL1wWEI;
+        "default" = _CSL1wWEI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CSL1wWEI";}
+in callPackage fn {version="default";}

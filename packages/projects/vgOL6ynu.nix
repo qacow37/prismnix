@@ -54,6 +54,7 @@ let
         "fabric-26.1" = _hbdWtcR3;
         "fabric-26.1.1" = _hbdWtcR3;
         "fabric-26.1.2" = _hbdWtcR3;
+        "default" = _hbdWtcR3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hbdWtcR3";}
+in callPackage fn {version="default";}

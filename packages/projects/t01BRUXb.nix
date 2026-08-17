@@ -16,6 +16,7 @@ let
         "fabric-1.19" = _QTO9GKwy;
         "fabric-1.19.1" = _QTO9GKwy;
         "fabric-1.19.2" = _QTO9GKwy;
+        "default" = _QTO9GKwy;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QTO9GKwy";}
+in callPackage fn {version="default";}

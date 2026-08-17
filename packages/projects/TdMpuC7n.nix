@@ -63,6 +63,7 @@ let
         "rb3lNTmR" = _rb3lNTmR;
         "VCY8Cw5j" = _VCY8Cw5j;
         "forge-1.7.10" = _VCY8Cw5j;
+        "default" = _VCY8Cw5j;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VCY8Cw5j";}
+in callPackage fn {version="default";}

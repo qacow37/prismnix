@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _2PAIDcWd;
         "spigot-1.21.10" = _2PAIDcWd;
         "spigot-1.21.11" = _2PAIDcWd;
+        "default" = _2PAIDcWd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2PAIDcWd";}
+in callPackage fn {version="default";}

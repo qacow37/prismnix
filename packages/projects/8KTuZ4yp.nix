@@ -45,6 +45,7 @@ let
         "saRBo3iL" = _saRBo3iL;
         "XzIP9nbn" = _XzIP9nbn;
         "forge-1.20.1" = _XzIP9nbn;
+        "default" = _XzIP9nbn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XzIP9nbn";}
+in callPackage fn {version="default";}

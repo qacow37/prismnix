@@ -535,6 +535,7 @@ let
         "neoforge-26.1" = _KanPF2Bk;
         "neoforge-26.1.1" = _KanPF2Bk;
         "neoforge-26.1.2" = _KanPF2Bk;
+        "default" = _KanPF2Bk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -555,4 +556,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KanPF2Bk";}
+in callPackage fn {version="default";}

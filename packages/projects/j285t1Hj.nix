@@ -22,6 +22,7 @@ let
         "iIKFeovb" = _iIKFeovb;
         "minecraft-1.20.1" = _iIKFeovb;
         "minecraft-1.20" = _iIKFeovb;
+        "default" = _iIKFeovb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iIKFeovb";}
+in callPackage fn {version="default";}

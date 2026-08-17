@@ -82,6 +82,7 @@ let
         "snCPknin" = _snCPknin;
         "forge-1.12.2" = _snCPknin;
         "forge-1.16.5" = _WjMCsigo;
+        "default" = _snCPknin;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="snCPknin";}
+in callPackage fn {version="default";}

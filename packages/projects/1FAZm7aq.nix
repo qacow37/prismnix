@@ -385,6 +385,7 @@ let
         "forge-1.12.2" = _L9EAGdws;
         "forge-1.18" = _zwVPxFdc;
         "forge-1.18.1" = _zwVPxFdc;
+        "default" = _G8pSUdvs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -405,4 +406,4 @@ let
                 };
             };
         };
-in callPackage fn {version="G8pSUdvs";}
+in callPackage fn {version="default";}

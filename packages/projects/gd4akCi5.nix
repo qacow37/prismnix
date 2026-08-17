@@ -30,6 +30,7 @@ let
         "minecraft-1.21" = _EA9WwrfS;
         "minecraft-1.19" = _EA9WwrfS;
         "minecraft-1.20" = _EA9WwrfS;
+        "default" = _EA9WwrfS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EA9WwrfS";}
+in callPackage fn {version="default";}

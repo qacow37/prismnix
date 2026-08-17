@@ -131,6 +131,7 @@ let
         "forge-1.20.1" = _dnWW4euS;
         "fabric-1.20.1" = _BBPvazDb;
         "quilt-1.20.1" = _BBPvazDb;
+        "default" = _dnWW4euS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -151,4 +152,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dnWW4euS";}
+in callPackage fn {version="default";}

@@ -27,6 +27,7 @@ let
         "Qfstv0S8" = _Qfstv0S8;
         "WcnijmHv" = _WcnijmHv;
         "forge-1.7.10" = _WcnijmHv;
+        "default" = _WcnijmHv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WcnijmHv";}
+in callPackage fn {version="default";}

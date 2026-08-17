@@ -406,6 +406,7 @@ let
         "spigot-1.21.9" = _XRIf3v07;
         "spigot-1.21.10" = _XRIf3v07;
         "spigot-1.21.11" = _XRIf3v07;
+        "default" = _XRIf3v07;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -426,4 +427,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XRIf3v07";}
+in callPackage fn {version="default";}

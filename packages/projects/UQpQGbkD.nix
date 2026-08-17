@@ -80,6 +80,7 @@ let
         "minecraft-1.19.4" = _JW45bLfc;
         "minecraft-1.20" = _SG2XERnv;
         "minecraft-1.20.1" = _SG2XERnv;
+        "default" = _SG2XERnv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SG2XERnv";}
+in callPackage fn {version="default";}

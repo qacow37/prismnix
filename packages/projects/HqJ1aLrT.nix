@@ -15,6 +15,7 @@ let
         "EgTa5egt" = _EgTa5egt;
         "nvhYdgVW" = _nvhYdgVW;
         "forge-1.16.5" = _nvhYdgVW;
+        "default" = _nvhYdgVW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nvhYdgVW";}
+in callPackage fn {version="default";}

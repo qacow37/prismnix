@@ -104,6 +104,7 @@ let
         "neoforge-1.21.3" = _Atba2uui;
         "neoforge-1.21.4" = _Atba2uui;
         "neoforge-1.21.5" = _Atba2uui;
+        "default" = _oQXSKhun;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -124,4 +125,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oQXSKhun";}
+in callPackage fn {version="default";}

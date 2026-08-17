@@ -73,6 +73,7 @@ let
         "quilt-25w43a" = _DLRGDBeL;
         "quilt-25w44a" = _DLRGDBeL;
         "quilt-25w45a" = _DLRGDBeL;
+        "default" = _DLRGDBeL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -93,4 +94,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DLRGDBeL";}
+in callPackage fn {version="default";}

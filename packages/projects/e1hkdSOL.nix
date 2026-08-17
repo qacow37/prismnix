@@ -53,6 +53,7 @@ let
         "minecraft-1.20.4" = _pclvbMxl;
         "minecraft-1.20.5" = _pclvbMxl;
         "minecraft-1.20.6" = _pclvbMxl;
+        "default" = _pclvbMxl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pclvbMxl";}
+in callPackage fn {version="default";}

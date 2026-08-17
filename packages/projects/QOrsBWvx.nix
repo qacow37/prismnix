@@ -46,6 +46,7 @@ let
         "spigot-1.20.4" = _KDp7leax;
         "spigot-1.20.5" = _KDp7leax;
         "spigot-1.20.6" = _KDp7leax;
+        "default" = _KDp7leax;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KDp7leax";}
+in callPackage fn {version="default";}

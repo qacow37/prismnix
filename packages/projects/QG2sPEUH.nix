@@ -15,6 +15,7 @@ let
         "zNaqR3mk" = _zNaqR3mk;
         "JnURHt19" = _JnURHt19;
         "forge-1.20.1" = _JnURHt19;
+        "default" = _JnURHt19;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JnURHt19";}
+in callPackage fn {version="default";}

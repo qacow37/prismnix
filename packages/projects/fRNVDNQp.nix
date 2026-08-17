@@ -317,6 +317,7 @@ let
         "minecraft-1.20" = _RC1b6F8M;
         "minecraft-1.20.1" = _RC1b6F8M;
         "minecraft-26.2" = _kleomlGr;
+        "default" = _kleomlGr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -337,4 +338,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kleomlGr";}
+in callPackage fn {version="default";}

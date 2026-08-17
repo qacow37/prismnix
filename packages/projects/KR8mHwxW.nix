@@ -106,6 +106,7 @@ let
         "aMsa2zHD" = _aMsa2zHD;
         "babric-b1.7.3" = _aMsa2zHD;
         "fabric-b1.7.3" = _aMsa2zHD;
+        "default" = _aMsa2zHD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="aMsa2zHD";}
+in callPackage fn {version="default";}

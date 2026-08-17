@@ -22,6 +22,7 @@ let
         "p3BWSiPm" = _p3BWSiPm;
         "forge-1.20.1" = _xguQZh5F;
         "neoforge-1.21.1" = _p3BWSiPm;
+        "default" = _p3BWSiPm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="p3BWSiPm";}
+in callPackage fn {version="default";}

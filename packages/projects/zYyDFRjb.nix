@@ -86,6 +86,7 @@ let
         "quilt-26.1.2" = _H008x7Xp;
         "quilt-26.2" = _H008x7Xp;
         "quilt-1.21.4" = _7LizsARb;
+        "default" = _7LizsARb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -106,4 +107,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7LizsARb";}
+in callPackage fn {version="default";}

@@ -127,6 +127,7 @@ let
         "spigot-26.1.1" = _SutkLVdp;
         "spigot-26.1.2" = _SutkLVdp;
         "spigot-26.2" = _SutkLVdp;
+        "default" = _SutkLVdp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -147,4 +148,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SutkLVdp";}
+in callPackage fn {version="default";}

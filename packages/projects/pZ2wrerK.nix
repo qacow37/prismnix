@@ -2967,6 +2967,7 @@ let
         "geyser-26.1.1" = _IpMxXlnY;
         "geyser-26.1.2" = _IpMxXlnY;
         "geyser-26.2" = _rf2reX3T;
+        "default" = _rf2reX3T;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2987,4 +2988,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rf2reX3T";}
+in callPackage fn {version="default";}

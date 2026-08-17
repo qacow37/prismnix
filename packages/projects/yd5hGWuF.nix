@@ -57,6 +57,7 @@ let
         "ea5cnOn6" = _ea5cnOn6;
         "g4hclaTW" = _g4hclaTW;
         "forge-1.12.2" = _g4hclaTW;
+        "default" = _g4hclaTW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="g4hclaTW";}
+in callPackage fn {version="default";}

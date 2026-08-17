@@ -10,6 +10,7 @@ let
         "WMMLuNbI" = _WMMLuNbI;
         "minecraft-1.8.9" = _WMMLuNbI;
         "minecraft-1.19" = _WMMLuNbI;
+        "default" = _WMMLuNbI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WMMLuNbI";}
+in callPackage fn {version="default";}

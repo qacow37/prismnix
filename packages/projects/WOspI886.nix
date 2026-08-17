@@ -9,6 +9,7 @@ let
     in {
         "Bn8Tecap" = _Bn8Tecap;
         "fabric-1.20.1" = _Bn8Tecap;
+        "default" = _Bn8Tecap;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Bn8Tecap";}
+in callPackage fn {version="default";}

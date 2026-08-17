@@ -27,6 +27,7 @@ let
         "QRcHGEN3" = _QRcHGEN3;
         "nZOePn09" = _nZOePn09;
         "minecraft-1.21" = _nZOePn09;
+        "default" = _nZOePn09;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nZOePn09";}
+in callPackage fn {version="default";}

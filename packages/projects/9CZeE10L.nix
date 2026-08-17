@@ -27,6 +27,7 @@ let
         "DGTRpys5" = _DGTRpys5;
         "zqHOULay" = _zqHOULay;
         "forge-1.8.9" = _zqHOULay;
+        "default" = _zqHOULay;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zqHOULay";}
+in callPackage fn {version="default";}

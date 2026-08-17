@@ -27,6 +27,7 @@ let
         "nkHZ8muA" = _nkHZ8muA;
         "E72Zub2p" = _E72Zub2p;
         "paper-1.21.4" = _E72Zub2p;
+        "default" = _E72Zub2p;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E72Zub2p";}
+in callPackage fn {version="default";}

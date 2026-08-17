@@ -130,6 +130,7 @@ let
         "quilt-26.1.1" = _A2lupJ3D;
         "quilt-26.1.2" = _A2lupJ3D;
         "quilt-26.2" = _A2lupJ3D;
+        "default" = _A2lupJ3D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -150,4 +151,4 @@ let
                 };
             };
         };
-in callPackage fn {version="A2lupJ3D";}
+in callPackage fn {version="default";}

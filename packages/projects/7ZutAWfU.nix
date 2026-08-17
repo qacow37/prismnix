@@ -39,6 +39,7 @@ let
         "vanilla-1.20.6" = _lKWateud;
         "vanilla-1.21" = _lKWateud;
         "vanilla-1.21.1" = _lKWateud;
+        "default" = _vz0L4dTc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vz0L4dTc";}
+in callPackage fn {version="default";}

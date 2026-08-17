@@ -15,6 +15,7 @@ let
         "FlyUdqal" = _FlyUdqal;
         "xTFM6I3N" = _xTFM6I3N;
         "forge-1.20.1" = _xTFM6I3N;
+        "default" = _xTFM6I3N;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xTFM6I3N";}
+in callPackage fn {version="default";}

@@ -41,6 +41,7 @@ let
         "paper-26.1" = _kCuaHlb3;
         "paper-26.1.1" = _kCuaHlb3;
         "paper-26.1.2" = _kCuaHlb3;
+        "default" = _kCuaHlb3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -61,4 +62,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kCuaHlb3";}
+in callPackage fn {version="default";}

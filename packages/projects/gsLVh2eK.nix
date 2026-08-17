@@ -141,6 +141,7 @@ let
         "SMdTGUj4" = _SMdTGUj4;
         "kYLGVQ0A" = _kYLGVQ0A;
         "forge-1.20.1" = _kYLGVQ0A;
+        "default" = _kYLGVQ0A;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -161,4 +162,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kYLGVQ0A";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "iLaTxrjr" = _iLaTxrjr;
         "forge-1.20.1" = _iLaTxrjr;
         "neoforge-1.20.1" = _iLaTxrjr;
+        "default" = _iLaTxrjr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iLaTxrjr";}
+in callPackage fn {version="default";}

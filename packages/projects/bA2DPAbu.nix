@@ -135,6 +135,7 @@ let
         "sXNgGLBC" = _sXNgGLBC;
         "QWPqCrAE" = _QWPqCrAE;
         "forge-1.20.1" = _QWPqCrAE;
+        "default" = _QWPqCrAE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -155,4 +156,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QWPqCrAE";}
+in callPackage fn {version="default";}

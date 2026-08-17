@@ -435,6 +435,7 @@ let
         "purpur-1.21.9" = _mxoQCIvp;
         "purpur-1.21.10" = _mxoQCIvp;
         "purpur-1.21.11" = _mxoQCIvp;
+        "default" = _iVOEs6rd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -455,4 +456,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iVOEs6rd";}
+in callPackage fn {version="default";}

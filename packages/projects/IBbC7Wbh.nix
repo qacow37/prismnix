@@ -81,6 +81,7 @@ let
         "quilt-1.21.8" = _kzOpFptr;
         "quilt-1.21.9" = _kzOpFptr;
         "quilt-1.21.10" = _kzOpFptr;
+        "default" = _kzOpFptr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kzOpFptr";}
+in callPackage fn {version="default";}

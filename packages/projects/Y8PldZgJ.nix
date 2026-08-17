@@ -34,6 +34,7 @@ let
         "BBMS9of1" = _BBMS9of1;
         "fabric-1.21" = _xBN9i9l0;
         "fabric-1.21.5" = _BBMS9of1;
+        "default" = _BBMS9of1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BBMS9of1";}
+in callPackage fn {version="default";}

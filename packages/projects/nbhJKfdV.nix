@@ -40,6 +40,7 @@ let
         "JPdddesI" = _JPdddesI;
         "forge-1.20.1" = _JPdddesI;
         "neoforge-1.20.1" = _JPdddesI;
+        "default" = _JPdddesI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JPdddesI";}
+in callPackage fn {version="default";}

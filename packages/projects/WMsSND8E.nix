@@ -10,6 +10,7 @@ let
         "I32ePe3i" = _I32ePe3i;
         "datapack-1.21.1" = _I32ePe3i;
         "minecraft-1.21.1" = _I32ePe3i;
+        "default" = _I32ePe3i;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I32ePe3i";}
+in callPackage fn {version="default";}

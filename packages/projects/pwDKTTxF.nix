@@ -30,6 +30,7 @@ let
         "minecraft-1.21.6" = _c45rsgJs;
         "minecraft-1.21.7" = _c45rsgJs;
         "minecraft-1.21.8" = _c45rsgJs;
+        "default" = _c45rsgJs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="c45rsgJs";}
+in callPackage fn {version="default";}

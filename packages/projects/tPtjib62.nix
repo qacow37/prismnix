@@ -75,6 +75,7 @@ let
         "minecraft-26.1.1" = _Qt949MJE;
         "minecraft-26.1.2" = _Qt949MJE;
         "minecraft-26.2" = _Qt949MJE;
+        "default" = _Qt949MJE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Qt949MJE";}
+in callPackage fn {version="default";}

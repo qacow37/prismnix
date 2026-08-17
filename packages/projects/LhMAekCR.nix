@@ -185,6 +185,7 @@ let
         "spigot-1.21.8" = _LTjLTVvb;
         "spigot-1.21.9" = _LTjLTVvb;
         "spigot-1.21.10" = _LTjLTVvb;
+        "default" = _LTjLTVvb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -205,4 +206,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LTjLTVvb";}
+in callPackage fn {version="default";}

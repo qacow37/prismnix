@@ -85,6 +85,7 @@ let
         "minecraft-1.21.1" = _TToBDpsE;
         "minecraft-1.21.2" = _TToBDpsE;
         "minecraft-1.21.3" = _TToBDpsE;
+        "default" = _TToBDpsE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TToBDpsE";}
+in callPackage fn {version="default";}

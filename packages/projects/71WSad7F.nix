@@ -15,6 +15,7 @@ let
         "V2R17LOY" = _V2R17LOY;
         "gntBWs1F" = _gntBWs1F;
         "neoforge-1.21.1" = _gntBWs1F;
+        "default" = _gntBWs1F;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gntBWs1F";}
+in callPackage fn {version="default";}

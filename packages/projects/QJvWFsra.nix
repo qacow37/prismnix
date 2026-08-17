@@ -286,6 +286,7 @@ let
         "5fpguzaV" = _5fpguzaV;
         "neoforge-1.21.1" = _5fpguzaV;
         "forge-1.20.1" = _lKsXDmfr;
+        "default" = _5fpguzaV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -306,4 +307,4 @@ let
                 };
             };
         };
-in callPackage fn {version="5fpguzaV";}
+in callPackage fn {version="default";}

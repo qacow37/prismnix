@@ -21,6 +21,7 @@ let
         "2iIcHKHD" = _2iIcHKHD;
         "AZNYSImQ" = _AZNYSImQ;
         "neoforge-1.21.1" = _AZNYSImQ;
+        "default" = _AZNYSImQ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AZNYSImQ";}
+in callPackage fn {version="default";}

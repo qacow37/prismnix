@@ -282,6 +282,7 @@ let
         "neoforge-1.21.5" = _a14W7R7H;
         "neoforge-1.21.8" = _9rcq5Vt5;
         "neoforge-1.21.10" = _6RFGrCmp;
+        "default" = _6RFGrCmp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -302,4 +303,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6RFGrCmp";}
+in callPackage fn {version="default";}

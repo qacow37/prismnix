@@ -34,6 +34,7 @@ let
         "3GyPnfvB" = _3GyPnfvB;
         "forge-1.19.2" = _lSbege9M;
         "forge-1.20.1" = _3GyPnfvB;
+        "default" = _3GyPnfvB;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3GyPnfvB";}
+in callPackage fn {version="default";}

@@ -52,6 +52,7 @@ let
         "fabric-1.20" = _OdWrtk1W;
         "fabric-1.20.1" = _OdWrtk1W;
         "fabric-1.20.2" = _OdWrtk1W;
+        "default" = _OdWrtk1W;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OdWrtk1W";}
+in callPackage fn {version="default";}

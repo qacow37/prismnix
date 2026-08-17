@@ -10,6 +10,7 @@ let
         "wbgGGTPm" = _wbgGGTPm;
         "minecraft-1.12.2" = _wbgGGTPm;
         "minecraft-1.20.4" = _wbgGGTPm;
+        "default" = _wbgGGTPm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wbgGGTPm";}
+in callPackage fn {version="default";}

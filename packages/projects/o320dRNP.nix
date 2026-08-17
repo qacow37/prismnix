@@ -60,6 +60,7 @@ let
         "fabric-26.1.2" = _OxPoLsOV;
         "fabric-26.2-rc-2" = _OxPoLsOV;
         "fabric-26.2" = _OxPoLsOV;
+        "default" = _OxPoLsOV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OxPoLsOV";}
+in callPackage fn {version="default";}

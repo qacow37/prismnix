@@ -110,6 +110,7 @@ let
         "quilt-1.21.6" = _dBSX22xp;
         "quilt-1.21.7" = _dBSX22xp;
         "quilt-1.21.8" = _dBSX22xp;
+        "default" = _dBSX22xp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -130,4 +131,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dBSX22xp";}
+in callPackage fn {version="default";}

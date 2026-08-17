@@ -435,6 +435,7 @@ let
         "neoforge-1.20.2" = _UMZ3hVMI;
         "neoforge-1.20.4" = _FUdGyr5F;
         "neoforge-1.21.1" = _yMpTLwpa;
+        "default" = _yMpTLwpa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -455,4 +456,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yMpTLwpa";}
+in callPackage fn {version="default";}

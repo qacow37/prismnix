@@ -16,6 +16,7 @@ let
         "YYvJAZmv" = _YYvJAZmv;
         "forge-1.20.1" = _lPRTZbfS;
         "neoforge-1.21.1" = _YYvJAZmv;
+        "default" = _YYvJAZmv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YYvJAZmv";}
+in callPackage fn {version="default";}

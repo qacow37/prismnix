@@ -70,6 +70,7 @@ let
         "minecraft-1.21.6" = _PtaSM7OA;
         "minecraft-1.21.7" = _PtaSM7OA;
         "minecraft-1.21.8" = _PtaSM7OA;
+        "default" = _PtaSM7OA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PtaSM7OA";}
+in callPackage fn {version="default";}

@@ -11,6 +11,7 @@ let
         "minecraft-1.19" = _rbkFMiPN;
         "minecraft-1.19.1" = _rbkFMiPN;
         "minecraft-1.19.2" = _rbkFMiPN;
+        "default" = _rbkFMiPN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -31,4 +32,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rbkFMiPN";}
+in callPackage fn {version="default";}

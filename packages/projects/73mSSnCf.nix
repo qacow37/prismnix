@@ -563,6 +563,7 @@ let
         "neoforge-26.1" = _pfdWqD3i;
         "neoforge-26.1.1" = _pfdWqD3i;
         "neoforge-26.1.2" = _oxncNKk9;
+        "default" = _VRVOMdub;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -583,4 +584,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VRVOMdub";}
+in callPackage fn {version="default";}

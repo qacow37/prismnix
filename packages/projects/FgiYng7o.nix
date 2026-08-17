@@ -52,6 +52,7 @@ let
         "spigot-1.21.8" = _ggjt9anl;
         "spigot-1.21.9" = _ggjt9anl;
         "spigot-1.21.10" = _ggjt9anl;
+        "default" = _ggjt9anl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ggjt9anl";}
+in callPackage fn {version="default";}

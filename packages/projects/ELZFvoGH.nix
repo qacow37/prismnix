@@ -99,6 +99,7 @@ let
         "BBTLb4fR" = _BBTLb4fR;
         "WUmn2dx5" = _WUmn2dx5;
         "neoforge-1.21.1" = _WUmn2dx5;
+        "default" = _WUmn2dx5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WUmn2dx5";}
+in callPackage fn {version="default";}

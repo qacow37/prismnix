@@ -21,6 +21,7 @@ let
         "j8C6pLas" = _j8C6pLas;
         "njOPBSOP" = _njOPBSOP;
         "forge-1.20.1" = _njOPBSOP;
+        "default" = _njOPBSOP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="njOPBSOP";}
+in callPackage fn {version="default";}

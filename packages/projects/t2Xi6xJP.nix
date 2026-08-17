@@ -55,6 +55,7 @@ let
         "minecraft-1.21.9" = _ussvfsEV;
         "minecraft-1.21.10" = _ussvfsEV;
         "minecraft-1.21.11" = _ussvfsEV;
+        "default" = _ussvfsEV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ussvfsEV";}
+in callPackage fn {version="default";}

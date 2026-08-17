@@ -28,6 +28,7 @@ let
         "fabric-1.20.6" = _Cie00CsP;
         "fabric-1.21" = _Cie00CsP;
         "fabric-1.21.1" = _Cie00CsP;
+        "default" = _Cie00CsP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Cie00CsP";}
+in callPackage fn {version="default";}

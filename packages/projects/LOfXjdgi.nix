@@ -54,6 +54,7 @@ let
         "quilt-1.19.4" = _AdXPoYiL;
         "quilt-1.20" = _AdXPoYiL;
         "quilt-1.20.1" = _AdXPoYiL;
+        "default" = _AdXPoYiL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AdXPoYiL";}
+in callPackage fn {version="default";}

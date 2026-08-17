@@ -28,6 +28,7 @@ let
         "I38hyWv7" = _I38hyWv7;
         "quilt-1.19.2" = _fMWBGEpm;
         "quilt-1.20.1" = _I38hyWv7;
+        "default" = _I38hyWv7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I38hyWv7";}
+in callPackage fn {version="default";}

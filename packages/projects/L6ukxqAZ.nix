@@ -182,6 +182,7 @@ let
         "neoforge-26.1.1" = _6XBFTArA;
         "neoforge-26.1.2" = _6XBFTArA;
         "neoforge-26.2" = _6XBFTArA;
+        "default" = _6XBFTArA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -202,4 +203,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6XBFTArA";}
+in callPackage fn {version="default";}

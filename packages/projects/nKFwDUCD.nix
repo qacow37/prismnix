@@ -28,6 +28,7 @@ let
         "PSEdWSp0" = _PSEdWSp0;
         "minecraft-1.20.1" = _PSEdWSp0;
         "minecraft-1.20" = _PSEdWSp0;
+        "default" = _PSEdWSp0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PSEdWSp0";}
+in callPackage fn {version="default";}

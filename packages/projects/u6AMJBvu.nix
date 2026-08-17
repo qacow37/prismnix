@@ -146,6 +146,7 @@ let
         "fabric-1.20.5" = _2JXP7rna;
         "fabric-1.20.6" = _2JXP7rna;
         "fabric-1.21" = _2JXP7rna;
+        "default" = _2JXP7rna;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -166,4 +167,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2JXP7rna";}
+in callPackage fn {version="default";}

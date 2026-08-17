@@ -177,6 +177,7 @@ let
         "quilt-26.1.1" = _ZmDFIlrY;
         "quilt-26.1.2" = _ZmDFIlrY;
         "quilt-26.2" = _ZmDFIlrY;
+        "default" = _ZmDFIlrY;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -197,4 +198,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZmDFIlrY";}
+in callPackage fn {version="default";}

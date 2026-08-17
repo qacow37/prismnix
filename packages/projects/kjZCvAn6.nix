@@ -231,6 +231,7 @@ let
         "kFPJl0ig" = _kFPJl0ig;
         "bcszfrVc" = _bcszfrVc;
         "neoforge-1.21.1" = _bcszfrVc;
+        "default" = _bcszfrVc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -251,4 +252,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bcszfrVc";}
+in callPackage fn {version="default";}

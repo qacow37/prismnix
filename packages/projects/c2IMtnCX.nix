@@ -15,6 +15,7 @@ let
         "IbWL2wzi" = _IbWL2wzi;
         "4F9wgmna" = _4F9wgmna;
         "forge-1.12.2" = _4F9wgmna;
+        "default" = _4F9wgmna;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4F9wgmna";}
+in callPackage fn {version="default";}

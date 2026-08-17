@@ -268,6 +268,7 @@ let
         "fabric-1.20.2" = _VMXnQfPe;
         "fabric-1.20.4" = _VMXnQfPe;
         "fabric-1.20.3" = _VMXnQfPe;
+        "default" = _guOAe2lz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -288,4 +289,4 @@ let
                 };
             };
         };
-in callPackage fn {version="guOAe2lz";}
+in callPackage fn {version="default";}

@@ -258,6 +258,7 @@ let
         "waterfall-1.20.4" = _PLYzop5n;
         "waterfall-1.20.5" = _PLYzop5n;
         "waterfall-1.20.6" = _PLYzop5n;
+        "default" = _1dLdVb20;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -278,4 +279,4 @@ let
                 };
             };
         };
-in callPackage fn {version="1dLdVb20";}
+in callPackage fn {version="default";}

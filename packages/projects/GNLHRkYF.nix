@@ -24,6 +24,7 @@ let
         "minecraft-1.20.4" = _X9KzQ9PR;
         "minecraft-1.21" = _OGFPS2RW;
         "minecraft-1.21.1" = _OGFPS2RW;
+        "default" = _OGFPS2RW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OGFPS2RW";}
+in callPackage fn {version="default";}

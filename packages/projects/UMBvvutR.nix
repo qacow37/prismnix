@@ -129,6 +129,7 @@ let
         "B5PI5PF6" = _B5PI5PF6;
         "HMdpuHmt" = _HMdpuHmt;
         "forge-1.20.1" = _HMdpuHmt;
+        "default" = _HMdpuHmt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HMdpuHmt";}
+in callPackage fn {version="default";}

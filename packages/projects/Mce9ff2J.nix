@@ -124,6 +124,7 @@ let
         "Cv0qePuL" = _Cv0qePuL;
         "fabric-1.21.1" = _LVGTbvlI;
         "neoforge-1.21.1" = _Cv0qePuL;
+        "default" = _Cv0qePuL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -144,4 +145,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Cv0qePuL";}
+in callPackage fn {version="default";}

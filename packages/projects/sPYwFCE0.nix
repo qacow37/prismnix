@@ -361,6 +361,7 @@ let
         "quilt-26.1" = _EWvMrc8Z;
         "quilt-26.1.1" = _EWvMrc8Z;
         "quilt-26.1.2" = _EWvMrc8Z;
+        "default" = _EWvMrc8Z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -381,4 +382,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EWvMrc8Z";}
+in callPackage fn {version="default";}

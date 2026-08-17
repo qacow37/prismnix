@@ -51,6 +51,7 @@ let
         "fabric-26.1" = _Hzp59gAc;
         "fabric-26.1.1" = _Hzp59gAc;
         "fabric-26.1.2" = _Hzp59gAc;
+        "default" = _Hzp59gAc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Hzp59gAc";}
+in callPackage fn {version="default";}

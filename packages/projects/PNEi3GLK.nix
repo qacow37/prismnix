@@ -121,6 +121,7 @@ let
         "fabric-15w14a" = _4EGjmsns;
         "fabric-20w14infinite" = _gTuJcytY;
         "fabric-22w13oneblockatatime" = _A45jqJ8j;
+        "default" = _A45jqJ8j;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -141,4 +142,4 @@ let
                 };
             };
         };
-in callPackage fn {version="A45jqJ8j";}
+in callPackage fn {version="default";}

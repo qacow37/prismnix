@@ -298,6 +298,7 @@ let
         "quilt-26.1.1" = _Fc2mDMga;
         "quilt-26.1.2" = _Fc2mDMga;
         "quilt-26.2" = _Fc2mDMga;
+        "default" = _Fc2mDMga;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -318,4 +319,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Fc2mDMga";}
+in callPackage fn {version="default";}

@@ -15,6 +15,7 @@ let
         "3pVAlTIR" = _3pVAlTIR;
         "GCdvF3o8" = _GCdvF3o8;
         "forge-1.20.1" = _GCdvF3o8;
+        "default" = _GCdvF3o8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GCdvF3o8";}
+in callPackage fn {version="default";}

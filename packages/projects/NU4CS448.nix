@@ -15,6 +15,7 @@ let
         "minecraft-1.21.4" = _hCOsS4Ip;
         "minecraft-1.21.5" = _hCOsS4Ip;
         "minecraft-1.21.6" = _hCOsS4Ip;
+        "default" = _hCOsS4Ip;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hCOsS4Ip";}
+in callPackage fn {version="default";}

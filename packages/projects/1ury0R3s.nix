@@ -536,6 +536,7 @@ let
         "forge-1.21.11-rc2" = _Wl1EgGIm;
         "forge-1.21.11-rc3" = _Wl1EgGIm;
         "forge-1.21.11" = _Wl1EgGIm;
+        "default" = _hRaJUtrx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -556,4 +557,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hRaJUtrx";}
+in callPackage fn {version="default";}

@@ -99,6 +99,7 @@ let
         "fabric-26.1" = _pmdiLIgL;
         "fabric-26.1.1" = _pmdiLIgL;
         "fabric-26.1.2" = _pmdiLIgL;
+        "default" = _pmdiLIgL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -119,4 +120,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pmdiLIgL";}
+in callPackage fn {version="default";}

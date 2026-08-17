@@ -38,6 +38,7 @@ let
         "minecraft-1.21.9" = _KPtve96k;
         "minecraft-1.21.10" = _KPtve96k;
         "minecraft-1.21.11" = _KPtve96k;
+        "default" = _KPtve96k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KPtve96k";}
+in callPackage fn {version="default";}

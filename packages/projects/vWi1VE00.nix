@@ -75,6 +75,7 @@ let
         "RAUqbmP8" = _RAUqbmP8;
         "ILWGU5O0" = _ILWGU5O0;
         "forge-1.20.1" = _ILWGU5O0;
+        "default" = _ILWGU5O0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ILWGU5O0";}
+in callPackage fn {version="default";}

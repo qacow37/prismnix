@@ -46,6 +46,7 @@ let
         "quilt-26.1.1" = _bThkGddj;
         "quilt-26.1.2" = _bThkGddj;
         "quilt-26.2" = _laHFTSdt;
+        "default" = _laHFTSdt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="laHFTSdt";}
+in callPackage fn {version="default";}

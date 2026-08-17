@@ -101,6 +101,7 @@ let
         "neoforge-1.21.1" = _soesZiME;
         "neoforge-1.20.1" = _j5Gbthe0;
         "forge-1.20.1" = _j5Gbthe0;
+        "default" = _soesZiME;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -121,4 +122,4 @@ let
                 };
             };
         };
-in callPackage fn {version="soesZiME";}
+in callPackage fn {version="default";}

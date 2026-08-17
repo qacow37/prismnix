@@ -31,6 +31,7 @@ let
         "iris-26.1.1" = _CuNf4bhz;
         "iris-26.1.2" = _CuNf4bhz;
         "iris-26.2" = _CuNf4bhz;
+        "default" = _CuNf4bhz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CuNf4bhz";}
+in callPackage fn {version="default";}

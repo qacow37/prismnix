@@ -27,6 +27,7 @@ let
         "PnpUiQRo" = _PnpUiQRo;
         "K3mpJsic" = _K3mpJsic;
         "forge-1.20.1" = _K3mpJsic;
+        "default" = _K3mpJsic;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="K3mpJsic";}
+in callPackage fn {version="default";}

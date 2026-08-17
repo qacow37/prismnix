@@ -17,6 +17,7 @@ let
         "minecraft-1.20" = _LdXgiNSx;
         "minecraft-1.20.1" = _LdXgiNSx;
         "minecraft-1.21" = _OIlUXSsL;
+        "default" = _OIlUXSsL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OIlUXSsL";}
+in callPackage fn {version="default";}

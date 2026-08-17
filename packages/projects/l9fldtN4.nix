@@ -26,6 +26,7 @@ let
         "quilt-1.20" = _hwClzDIs;
         "quilt-1.20.1" = _hwClzDIs;
         "quilt-1.20.2" = _hwClzDIs;
+        "default" = _hwClzDIs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -46,4 +47,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hwClzDIs";}
+in callPackage fn {version="default";}

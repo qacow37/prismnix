@@ -9,6 +9,7 @@ let
     in {
         "6GI72j0N" = _6GI72j0N;
         "minecraft-22w42a" = _6GI72j0N;
+        "default" = _6GI72j0N;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6GI72j0N";}
+in callPackage fn {version="default";}

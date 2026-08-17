@@ -66,6 +66,7 @@ let
         "minecraft-26.3-snapshot-3" = _gWOWHFtt;
         "minecraft-26.3-snapshot-4" = _gWOWHFtt;
         "minecraft-26.3-snapshot-5" = _gWOWHFtt;
+        "default" = _gWOWHFtt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -86,4 +87,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gWOWHFtt";}
+in callPackage fn {version="default";}

@@ -85,6 +85,7 @@ let
         "minecraft-24w44a" = _FSOKaMp4;
         "minecraft-24w45a" = _FSOKaMp4;
         "minecraft-24w46a" = _FSOKaMp4;
+        "default" = _FSOKaMp4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FSOKaMp4";}
+in callPackage fn {version="default";}

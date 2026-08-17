@@ -197,6 +197,7 @@ let
         "minecraft-26.1.1" = _DBbcNUXp;
         "minecraft-26.1.2" = _DBbcNUXp;
         "minecraft-26.2" = _DBbcNUXp;
+        "default" = _DBbcNUXp;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -217,4 +218,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DBbcNUXp";}
+in callPackage fn {version="default";}

@@ -46,6 +46,7 @@ let
         "quilt-26.1" = _JcKpGinX;
         "quilt-26.1.1" = _JcKpGinX;
         "quilt-26.1.2" = _JcKpGinX;
+        "default" = _JcKpGinX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JcKpGinX";}
+in callPackage fn {version="default";}

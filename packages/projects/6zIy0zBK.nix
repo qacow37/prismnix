@@ -334,6 +334,7 @@ let
         "EHKGX408" = _EHKGX408;
         "velocity-1.19.3" = _yLdriDGb;
         "velocity-1.7.2" = _EHKGX408;
+        "default" = _EHKGX408;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -354,4 +355,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EHKGX408";}
+in callPackage fn {version="default";}

@@ -189,6 +189,7 @@ let
         "rrkmz5yj" = _rrkmz5yj;
         "96NblWt2" = _96NblWt2;
         "forge-1.20.1" = _96NblWt2;
+        "default" = _96NblWt2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -209,4 +210,4 @@ let
                 };
             };
         };
-in callPackage fn {version="96NblWt2";}
+in callPackage fn {version="default";}

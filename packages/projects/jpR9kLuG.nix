@@ -123,6 +123,7 @@ let
         "neoforge-1.21.2" = _UQCR511w;
         "neoforge-1.21.3" = _UQCR511w;
         "neoforge-1.21.4" = _UQCR511w;
+        "default" = _UQCR511w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UQCR511w";}
+in callPackage fn {version="default";}

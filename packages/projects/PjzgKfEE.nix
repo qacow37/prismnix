@@ -148,6 +148,7 @@ let
         "neoforge-26.1.1" = _CPCdIisu;
         "neoforge-26.1.2" = _CPCdIisu;
         "neoforge-26.2" = _CPCdIisu;
+        "default" = _vkBlBoSD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -168,4 +169,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vkBlBoSD";}
+in callPackage fn {version="default";}

@@ -16,6 +16,7 @@ let
         "YzwtLv2P" = _YzwtLv2P;
         "fabric-1.20" = _YzwtLv2P;
         "fabric-1.20.1" = _YzwtLv2P;
+        "default" = _YzwtLv2P;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="YzwtLv2P";}
+in callPackage fn {version="default";}

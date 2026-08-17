@@ -53,6 +53,7 @@ let
         "forge-1.12.2" = _9PLyU0Vk;
         "forge-1.7.10" = _glg5HSml;
         "neoforge-1.21.1" = _sBcnbMoM;
+        "default" = _glg5HSml;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -73,4 +74,4 @@ let
                 };
             };
         };
-in callPackage fn {version="glg5HSml";}
+in callPackage fn {version="default";}

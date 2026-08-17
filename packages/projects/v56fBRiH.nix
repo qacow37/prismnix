@@ -21,6 +21,7 @@ let
         "S0g2rATp" = _S0g2rATp;
         "bI7MEhtm" = _bI7MEhtm;
         "fabric-1.21.11" = _bI7MEhtm;
+        "default" = _bI7MEhtm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bI7MEhtm";}
+in callPackage fn {version="default";}

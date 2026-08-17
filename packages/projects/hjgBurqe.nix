@@ -22,6 +22,7 @@ let
         "jz20JOJO" = _jz20JOJO;
         "neoforge-1.21.1" = _tI0fnvPU;
         "forge-1.20.1" = _jz20JOJO;
+        "default" = _jz20JOJO;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jz20JOJO";}
+in callPackage fn {version="default";}

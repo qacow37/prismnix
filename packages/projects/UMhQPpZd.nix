@@ -45,6 +45,7 @@ let
         "lfVw7clo" = _lfVw7clo;
         "HCARJfls" = _HCARJfls;
         "forge-1.12.2" = _HCARJfls;
+        "default" = _HCARJfls;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HCARJfls";}
+in callPackage fn {version="default";}

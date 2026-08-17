@@ -40,6 +40,7 @@ let
         "LreTBqlL" = _LreTBqlL;
         "fabric-1.21" = _LreTBqlL;
         "quilt-1.21" = _LreTBqlL;
+        "default" = _LreTBqlL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LreTBqlL";}
+in callPackage fn {version="default";}

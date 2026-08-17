@@ -21,6 +21,7 @@ let
         "rDFwr1gv" = _rDFwr1gv;
         "mEtG7FfP" = _mEtG7FfP;
         "neoforge-1.21.1" = _mEtG7FfP;
+        "default" = _mEtG7FfP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mEtG7FfP";}
+in callPackage fn {version="default";}

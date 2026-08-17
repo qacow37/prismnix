@@ -406,6 +406,7 @@ let
         "neoforge-1.21" = _o2kINZoC;
         "neoforge-1.21.1" = _o2kINZoC;
         "neoforge-1.21.5" = _2470Lm5o;
+        "default" = _JclddCSX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -426,4 +427,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JclddCSX";}
+in callPackage fn {version="default";}

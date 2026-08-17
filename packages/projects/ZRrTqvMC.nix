@@ -33,6 +33,7 @@ let
         "33MiSISi" = _33MiSISi;
         "u36DJObN" = _u36DJObN;
         "forge-1.12.2" = _u36DJObN;
+        "default" = _u36DJObN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u36DJObN";}
+in callPackage fn {version="default";}

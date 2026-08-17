@@ -38,6 +38,7 @@ let
         "fabric-1.21.9" = _EfxWtgt7;
         "fabric-1.21.10" = _EfxWtgt7;
         "fabric-1.21.11" = _PC20oeLs;
+        "default" = _PC20oeLs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -58,4 +59,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PC20oeLs";}
+in callPackage fn {version="default";}

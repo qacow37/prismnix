@@ -15,6 +15,7 @@ let
         "slRKlUt5" = _slRKlUt5;
         "S23jm2v2" = _S23jm2v2;
         "forge-1.20.1" = _S23jm2v2;
+        "default" = _S23jm2v2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S23jm2v2";}
+in callPackage fn {version="default";}

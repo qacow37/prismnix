@@ -15,6 +15,7 @@ let
         "iOrVIixn" = _iOrVIixn;
         "BWOWIzRW" = _BWOWIzRW;
         "forge-1.8.9" = _BWOWIzRW;
+        "default" = _BWOWIzRW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BWOWIzRW";}
+in callPackage fn {version="default";}

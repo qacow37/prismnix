@@ -51,6 +51,7 @@ let
         "VFQX3ojv" = _VFQX3ojv;
         "hdLAYa59" = _hdLAYa59;
         "forge-1.20.1" = _hdLAYa59;
+        "default" = _hdLAYa59;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hdLAYa59";}
+in callPackage fn {version="default";}

@@ -60,6 +60,7 @@ let
         "quilt-1.18.2" = _U63mrpTI;
         "quilt-1.19.2" = _U63mrpTI;
         "quilt-1.20.1" = _U63mrpTI;
+        "default" = _U63mrpTI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="U63mrpTI";}
+in callPackage fn {version="default";}

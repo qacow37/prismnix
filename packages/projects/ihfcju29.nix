@@ -77,6 +77,7 @@ let
         "minecraft-1.21.11" = _HPlfLvt9;
         "minecraft-26.1" = _HPlfLvt9;
         "minecraft-26.1.1" = _HPlfLvt9;
+        "default" = _HPlfLvt9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -97,4 +98,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HPlfLvt9";}
+in callPackage fn {version="default";}

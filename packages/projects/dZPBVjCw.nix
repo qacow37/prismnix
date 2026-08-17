@@ -10,6 +10,7 @@ let
         "3GForZHK" = _3GForZHK;
         "minecraft-1.21" = _3GForZHK;
         "minecraft-1.21.1" = _3GForZHK;
+        "default" = _3GForZHK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3GForZHK";}
+in callPackage fn {version="default";}

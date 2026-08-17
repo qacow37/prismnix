@@ -40,6 +40,7 @@ let
         "hb669W6B" = _hb669W6B;
         "neoforge-1.21.1" = _7KOxVEgp;
         "forge-1.20.1" = _hb669W6B;
+        "default" = _hb669W6B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -60,4 +61,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hb669W6B";}
+in callPackage fn {version="default";}

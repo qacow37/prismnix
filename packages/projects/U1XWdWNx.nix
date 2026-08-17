@@ -167,6 +167,7 @@ let
         "folia-26.1.1" = _7h7i8mBb;
         "folia-26.1.2" = _7h7i8mBb;
         "folia-26.2" = _7h7i8mBb;
+        "default" = _7h7i8mBb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -187,4 +188,4 @@ let
                 };
             };
         };
-in callPackage fn {version="7h7i8mBb";}
+in callPackage fn {version="default";}

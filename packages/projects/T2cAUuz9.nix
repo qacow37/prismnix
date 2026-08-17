@@ -9,6 +9,7 @@ let
     in {
         "oga8kib4" = _oga8kib4;
         "legacy-fabric-1.6.4" = _oga8kib4;
+        "default" = _oga8kib4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="oga8kib4";}
+in callPackage fn {version="default";}

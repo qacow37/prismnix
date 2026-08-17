@@ -436,6 +436,7 @@ let
         "spigot-26.1.1" = _BtLkakNV;
         "spigot-26.1.2" = _BtLkakNV;
         "spigot-26.2" = _BtLkakNV;
+        "default" = _BtLkakNV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -456,4 +457,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BtLkakNV";}
+in callPackage fn {version="default";}

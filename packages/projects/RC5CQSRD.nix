@@ -28,6 +28,7 @@ let
         "DfhUeak9" = _DfhUeak9;
         "forge-1.7.10" = _OAkz4PBP;
         "forge-1.12.2" = _DfhUeak9;
+        "default" = _DfhUeak9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DfhUeak9";}
+in callPackage fn {version="default";}

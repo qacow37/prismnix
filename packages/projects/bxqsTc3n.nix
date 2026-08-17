@@ -23,6 +23,7 @@ let
         "fabric-1.20.1" = _jxHIsM9Z;
         "fabric-1.21.1" = _l2z1pejI;
         "fabric-1.21.11" = _CMP7HSjs;
+        "default" = _CMP7HSjs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CMP7HSjs";}
+in callPackage fn {version="default";}

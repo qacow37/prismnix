@@ -18,6 +18,7 @@ let
         "fabric-1.21" = _NoakHoIz;
         "forge-1.21" = _NoakHoIz;
         "quilt-1.21" = _NoakHoIz;
+        "default" = _NoakHoIz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NoakHoIz";}
+in callPackage fn {version="default";}

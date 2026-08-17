@@ -62,6 +62,7 @@ let
         "minecraft-1.21.5" = _jdeJtIgS;
         "minecraft-25w14craftmine" = _jdeJtIgS;
         "minecraft-25w15a" = _jdeJtIgS;
+        "default" = _jdeJtIgS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -82,4 +83,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jdeJtIgS";}
+in callPackage fn {version="default";}

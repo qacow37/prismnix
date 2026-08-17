@@ -10,6 +10,7 @@ let
         "yxIVMPV4" = _yxIVMPV4;
         "minecraft-1.20.1" = _yxIVMPV4;
         "minecraft-1.21.1" = _yxIVMPV4;
+        "default" = _yxIVMPV4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="yxIVMPV4";}
+in callPackage fn {version="default";}

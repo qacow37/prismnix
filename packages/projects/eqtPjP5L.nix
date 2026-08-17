@@ -71,6 +71,7 @@ let
         "neoforge-1.20.2" = _gBJlDUJs;
         "neoforge-1.20.3" = _gBJlDUJs;
         "neoforge-1.20.4" = _gBJlDUJs;
+        "default" = _gBJlDUJs;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -91,4 +92,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gBJlDUJs";}
+in callPackage fn {version="default";}

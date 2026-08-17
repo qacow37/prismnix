@@ -272,6 +272,7 @@ let
         "velocity-26.1.1" = _3wrTVp93;
         "velocity-26.1.2" = _3wrTVp93;
         "velocity-26.2" = _3wrTVp93;
+        "default" = _3wrTVp93;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -292,4 +293,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3wrTVp93";}
+in callPackage fn {version="default";}

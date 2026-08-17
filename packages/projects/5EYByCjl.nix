@@ -92,6 +92,7 @@ let
         "paper-1.21.9" = _tSW6jSJz;
         "paper-1.21.10" = _tSW6jSJz;
         "paper-1.21.11" = _tSW6jSJz;
+        "default" = _tSW6jSJz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -112,4 +113,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tSW6jSJz";}
+in callPackage fn {version="default";}

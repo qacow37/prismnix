@@ -31,6 +31,7 @@ let
         "forge-1.20.2" = _HcB8OMl2;
         "forge-1.20.3" = _HcB8OMl2;
         "forge-1.20.4" = _HcB8OMl2;
+        "default" = _HcB8OMl2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -51,4 +52,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HcB8OMl2";}
+in callPackage fn {version="default";}

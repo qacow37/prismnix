@@ -85,6 +85,7 @@ let
         "fabric-1.21.10" = _kzzcQcuE;
         "fabric-1.21.11" = _kzzcQcuE;
         "fabric-26.1" = _RTxMdaLK;
+        "default" = _RTxMdaLK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -105,4 +106,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RTxMdaLK";}
+in callPackage fn {version="default";}

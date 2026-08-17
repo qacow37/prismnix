@@ -90,6 +90,7 @@ let
         "minecraft-1.21.3" = _2NjPPEpL;
         "minecraft-1.21.4" = _2NjPPEpL;
         "minecraft-1.21.5" = _2NjPPEpL;
+        "default" = _HDoaPniJ;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -110,4 +111,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HDoaPniJ";}
+in callPackage fn {version="default";}

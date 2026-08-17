@@ -28,6 +28,7 @@ let
         "dZ454Ly3" = _dZ454Ly3;
         "fabric-1.20.1" = _dZ454Ly3;
         "quilt-1.20.1" = _dZ454Ly3;
+        "default" = _dZ454Ly3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dZ454Ly3";}
+in callPackage fn {version="default";}

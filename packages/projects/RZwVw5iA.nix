@@ -123,6 +123,7 @@ let
         "forge-1.20.1" = _rOSCLvXP;
         "neoforge-1.20.1" = _52Hcejci;
         "neoforge-1.21.1" = _rfOGriAb;
+        "default" = _rfOGriAb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rfOGriAb";}
+in callPackage fn {version="default";}

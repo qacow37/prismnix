@@ -79,6 +79,7 @@ let
         "minecraft-26.1.1" = _rEcFYBtL;
         "minecraft-26.1.2" = _rEcFYBtL;
         "minecraft-26.2" = _rEcFYBtL;
+        "default" = _rEcFYBtL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -99,4 +100,4 @@ let
                 };
             };
         };
-in callPackage fn {version="rEcFYBtL";}
+in callPackage fn {version="default";}

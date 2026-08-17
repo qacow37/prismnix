@@ -81,6 +81,7 @@ let
         "QuMATiiq" = _QuMATiiq;
         "pxf1373R" = _pxf1373R;
         "forge-1.20.1" = _pxf1373R;
+        "default" = _pxf1373R;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -101,4 +102,4 @@ let
                 };
             };
         };
-in callPackage fn {version="pxf1373R";}
+in callPackage fn {version="default";}

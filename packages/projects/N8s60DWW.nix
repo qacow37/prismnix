@@ -101,6 +101,7 @@ let
         "fabric-1.21" = _S53p3KBG;
         "fabric-1.21.1" = _S53p3KBG;
         "fabric-1.21.4" = _Nqb4SaIL;
+        "default" = _S53p3KBG;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -121,4 +122,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S53p3KBG";}
+in callPackage fn {version="default";}

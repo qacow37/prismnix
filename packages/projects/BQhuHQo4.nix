@@ -290,6 +290,7 @@ let
         "neoforge-26.1" = _Rc4eCDXl;
         "neoforge-26.1.1" = _Rc4eCDXl;
         "neoforge-26.1.2" = _Rc4eCDXl;
+        "default" = _Rc4eCDXl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -310,4 +311,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Rc4eCDXl";}
+in callPackage fn {version="default";}

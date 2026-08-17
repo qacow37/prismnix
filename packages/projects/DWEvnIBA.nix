@@ -33,6 +33,7 @@ let
         "bwxiiW5V" = _bwxiiW5V;
         "iuBRrs35" = _iuBRrs35;
         "fabric-1.21.1" = _iuBRrs35;
+        "default" = _iuBRrs35;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iuBRrs35";}
+in callPackage fn {version="default";}

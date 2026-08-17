@@ -23,6 +23,7 @@ let
         "datapack-1.20.1" = _NdpERQSI;
         "fabric-1.20.1" = _qmFWt1sv;
         "forge-1.20.1" = _qmFWt1sv;
+        "default" = _qmFWt1sv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="qmFWt1sv";}
+in callPackage fn {version="default";}

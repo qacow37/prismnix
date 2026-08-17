@@ -93,6 +93,7 @@ let
         "VI6UtgO6" = _VI6UtgO6;
         "iKHXs3Gb" = _iKHXs3Gb;
         "neoforge-1.21.1" = _iKHXs3Gb;
+        "default" = _iKHXs3Gb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -113,4 +114,4 @@ let
                 };
             };
         };
-in callPackage fn {version="iKHXs3Gb";}
+in callPackage fn {version="default";}

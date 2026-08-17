@@ -119,6 +119,7 @@ let
         "neoforge-26.1" = _DVHAu4EU;
         "neoforge-26.1.1" = _DVHAu4EU;
         "neoforge-26.1.2" = _DVHAu4EU;
+        "default" = _DVHAu4EU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -139,4 +140,4 @@ let
                 };
             };
         };
-in callPackage fn {version="DVHAu4EU";}
+in callPackage fn {version="default";}

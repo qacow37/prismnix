@@ -57,6 +57,7 @@ let
         "R48GFwB0" = _R48GFwB0;
         "FtbmoAMK" = _FtbmoAMK;
         "neoforge-1.21.1" = _FtbmoAMK;
+        "default" = _FtbmoAMK;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="FtbmoAMK";}
+in callPackage fn {version="default";}

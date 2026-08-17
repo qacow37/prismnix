@@ -108,6 +108,7 @@ let
         "quilt-1.21.2-pre3" = _XdU12N07;
         "quilt-1.21.2-pre4" = _XdU12N07;
         "quilt-1.21.2-pre5" = _XdU12N07;
+        "default" = _XdU12N07;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -128,4 +129,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XdU12N07";}
+in callPackage fn {version="default";}

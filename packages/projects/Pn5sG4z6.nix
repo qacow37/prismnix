@@ -29,6 +29,7 @@ let
         "fabric-1.21.9" = _dEZWMpDo;
         "fabric-1.21.10" = _dEZWMpDo;
         "fabric-1.21.11" = _dEZWMpDo;
+        "default" = _dEZWMpDo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -49,4 +50,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dEZWMpDo";}
+in callPackage fn {version="default";}

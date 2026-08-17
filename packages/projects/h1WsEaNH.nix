@@ -15,6 +15,7 @@ let
         "YGsrlUXs" = _YGsrlUXs;
         "tamQr4CM" = _tamQr4CM;
         "forge-1.20.1" = _tamQr4CM;
+        "default" = _tamQr4CM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="tamQr4CM";}
+in callPackage fn {version="default";}

@@ -80,6 +80,7 @@ let
         "neoforge-1.21.2" = _Pjp7ChCT;
         "neoforge-1.21.3" = _Pjp7ChCT;
         "neoforge-1.21.4" = _Pjp7ChCT;
+        "default" = _Pjp7ChCT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -100,4 +101,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Pjp7ChCT";}
+in callPackage fn {version="default";}

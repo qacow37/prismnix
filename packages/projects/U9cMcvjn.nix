@@ -70,6 +70,7 @@ let
         "8Nj8XBox" = _8Nj8XBox;
         "neoforge-1.20.4" = _IiRWlAcp;
         "neoforge-1.21.1" = _8Nj8XBox;
+        "default" = _8Nj8XBox;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8Nj8XBox";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "LJxLVdmm" = _LJxLVdmm;
         "fabric-1.20.1" = _LJxLVdmm;
         "quilt-1.20.1" = _LJxLVdmm;
+        "default" = _LJxLVdmm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LJxLVdmm";}
+in callPackage fn {version="default";}

@@ -309,6 +309,7 @@ let
         "spigot-26.2" = _5fcBY2K0;
         "fabric-1.21.8" = _QxHWAr06;
         "fabric-1.21.11" = _kKlXDvGX;
+        "default" = _5fcBY2K0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -329,4 +330,4 @@ let
                 };
             };
         };
-in callPackage fn {version="5fcBY2K0";}
+in callPackage fn {version="default";}

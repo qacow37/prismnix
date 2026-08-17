@@ -32,6 +32,7 @@ let
         "fabric-1.20.1" = _wDeelpy6;
         "fabric-1.21.1" = _jk6NywbT;
         "quilt-1.20.1" = _wDeelpy6;
+        "default" = _jk6NywbT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jk6NywbT";}
+in callPackage fn {version="default";}

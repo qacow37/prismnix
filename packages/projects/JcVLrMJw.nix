@@ -39,6 +39,7 @@ let
         "VBkwbxQQ" = _VBkwbxQQ;
         "h9BLmFRt" = _h9BLmFRt;
         "fabric-1.21.5" = _h9BLmFRt;
+        "default" = _h9BLmFRt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="h9BLmFRt";}
+in callPackage fn {version="default";}

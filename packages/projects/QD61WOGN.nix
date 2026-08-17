@@ -64,6 +64,7 @@ let
         "wCwWS030" = _wCwWS030;
         "forge-1.20.1" = _wCwWS030;
         "neoforge-1.20.1" = _wCwWS030;
+        "default" = _wCwWS030;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wCwWS030";}
+in callPackage fn {version="default";}

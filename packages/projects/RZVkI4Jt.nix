@@ -72,6 +72,7 @@ let
         "purpur-1.21.11" = _WfKXEvB1;
         "spigot-1.21" = _11Krsdyd;
         "spigot-1.21.1" = _11Krsdyd;
+        "default" = _WfKXEvB1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -92,4 +93,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WfKXEvB1";}
+in callPackage fn {version="default";}

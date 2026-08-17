@@ -117,6 +117,7 @@ let
         "hsSFoRLG" = _hsSFoRLG;
         "ZVRmvTVz" = _ZVRmvTVz;
         "neoforge-1.21.1" = _ZVRmvTVz;
+        "default" = _ZVRmvTVz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZVRmvTVz";}
+in callPackage fn {version="default";}

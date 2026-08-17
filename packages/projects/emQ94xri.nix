@@ -172,6 +172,7 @@ let
         "9LiRnALb" = _9LiRnALb;
         "forge-1.20.1" = _fNQAXtVi;
         "neoforge-1.21.1" = _9LiRnALb;
+        "default" = _9LiRnALb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="9LiRnALb";}
+in callPackage fn {version="default";}

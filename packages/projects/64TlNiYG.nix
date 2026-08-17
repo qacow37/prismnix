@@ -54,6 +54,7 @@ let
         "minecraft-26.1" = _cuNotgde;
         "minecraft-26.1.1" = _cuNotgde;
         "minecraft-26.1.2" = _cuNotgde;
+        "default" = _cuNotgde;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -74,4 +75,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cuNotgde";}
+in callPackage fn {version="default";}

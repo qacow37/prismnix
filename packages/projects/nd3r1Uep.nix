@@ -254,6 +254,7 @@ let
         "spigot-1.21.8" = _FZBrpvMO;
         "spigot-1.21.9" = _FZBrpvMO;
         "spigot-1.21.10" = _FZBrpvMO;
+        "default" = _kVwGDSyo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -274,4 +275,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kVwGDSyo";}
+in callPackage fn {version="default";}

@@ -336,6 +336,7 @@ let
         "datapack-26.1.1" = _E39wx2BN;
         "datapack-26.1.2" = _E39wx2BN;
         "datapack-26.2" = _E39wx2BN;
+        "default" = _E39wx2BN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -356,4 +357,4 @@ let
                 };
             };
         };
-in callPackage fn {version="E39wx2BN";}
+in callPackage fn {version="default";}

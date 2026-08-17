@@ -1091,6 +1091,7 @@ let
         "neoforge-26.1" = _j4Pc4obj;
         "neoforge-26.1.1" = _j4Pc4obj;
         "neoforge-26.1.2" = _j4Pc4obj;
+        "default" = _j4Pc4obj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1111,4 +1112,4 @@ let
                 };
             };
         };
-in callPackage fn {version="j4Pc4obj";}
+in callPackage fn {version="default";}

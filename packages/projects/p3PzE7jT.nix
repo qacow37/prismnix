@@ -70,6 +70,7 @@ let
         "minecraft-1.21" = _RMVulCZi;
         "minecraft-1.21.1" = _RMVulCZi;
         "minecraft-1.21.2" = _RMVulCZi;
+        "default" = _RMVulCZi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -90,4 +91,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RMVulCZi";}
+in callPackage fn {version="default";}

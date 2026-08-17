@@ -18,6 +18,7 @@ let
         "minecraft-1.20.1" = _xrUcc2FW;
         "minecraft-1.19" = _xrUcc2FW;
         "minecraft-1.19.1" = _xrUcc2FW;
+        "default" = _xrUcc2FW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="xrUcc2FW";}
+in callPackage fn {version="default";}

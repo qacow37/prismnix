@@ -21,6 +21,7 @@ let
         "ZcRPSxUK" = _ZcRPSxUK;
         "kWhHLwap" = _kWhHLwap;
         "forge-1.20.1" = _kWhHLwap;
+        "default" = _kWhHLwap;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kWhHLwap";}
+in callPackage fn {version="default";}

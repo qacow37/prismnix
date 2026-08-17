@@ -34,6 +34,7 @@ let
         "jriIvND9" = _jriIvND9;
         "fabric-b1.7.3" = _jriIvND9;
         "babric-b1.7.3" = _jriIvND9;
+        "default" = _jriIvND9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jriIvND9";}
+in callPackage fn {version="default";}

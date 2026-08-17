@@ -16,6 +16,7 @@ let
         "MgLoqkpu" = _MgLoqkpu;
         "forge-1.20.1" = _2WUzZnvi;
         "fabric-1.20.1" = _MgLoqkpu;
+        "default" = _MgLoqkpu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MgLoqkpu";}
+in callPackage fn {version="default";}

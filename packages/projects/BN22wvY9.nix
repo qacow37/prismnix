@@ -67,6 +67,7 @@ let
         "neoforge-26.1.1" = _4vafUMWd;
         "neoforge-26.1.2" = _4vafUMWd;
         "neoforge-26.2" = _QMfnSIm1;
+        "default" = _QMfnSIm1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -87,4 +88,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QMfnSIm1";}
+in callPackage fn {version="default";}

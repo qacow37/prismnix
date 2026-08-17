@@ -191,6 +191,7 @@ let
         "neoforge-26.2" = _M8NbYcKc;
         "paper-26.1.2" = _mloTP9Gz;
         "paper-26.2" = _99aAW151;
+        "default" = _okeLj2e7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -211,4 +212,4 @@ let
                 };
             };
         };
-in callPackage fn {version="okeLj2e7";}
+in callPackage fn {version="default";}

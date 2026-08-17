@@ -208,6 +208,7 @@ let
         "A57yER99" = _A57yER99;
         "forge-1.20" = _A57yER99;
         "forge-1.20.1" = _A57yER99;
+        "default" = _A57yER99;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -228,4 +229,4 @@ let
                 };
             };
         };
-in callPackage fn {version="A57yER99";}
+in callPackage fn {version="default";}

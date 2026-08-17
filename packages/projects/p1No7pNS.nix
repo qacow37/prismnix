@@ -169,6 +169,7 @@ let
         "minecraft-26.2-snapshot-7" = _XHcoOxOZ;
         "minecraft-26.2-snapshot-8" = _XHcoOxOZ;
         "minecraft-26.2-pre-1" = _XHcoOxOZ;
+        "default" = _u8UMPH8s;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -189,4 +190,4 @@ let
                 };
             };
         };
-in callPackage fn {version="u8UMPH8s";}
+in callPackage fn {version="default";}

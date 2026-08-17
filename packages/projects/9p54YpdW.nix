@@ -103,6 +103,7 @@ let
         "neoforge-1.21.1" = _o6esis3D;
         "fabric-1.20.1" = _bVWBvaBp;
         "fabric-1.21.1" = _n3m50u2M;
+        "default" = _o6esis3D;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -123,4 +124,4 @@ let
                 };
             };
         };
-in callPackage fn {version="o6esis3D";}
+in callPackage fn {version="default";}

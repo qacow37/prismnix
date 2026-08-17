@@ -189,6 +189,7 @@ let
         "rWdlHwdU" = _rWdlHwdU;
         "jX8rvn24" = _jX8rvn24;
         "forge-1.20.1" = _jX8rvn24;
+        "default" = _jX8rvn24;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -209,4 +210,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jX8rvn24";}
+in callPackage fn {version="default";}

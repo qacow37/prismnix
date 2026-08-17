@@ -46,6 +46,7 @@ let
         "fabric-1.21.6" = _cpecBNt8;
         "fabric-1.21.7" = _cpecBNt8;
         "fabric-1.21.8" = _cpecBNt8;
+        "default" = _cpecBNt8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="cpecBNt8";}
+in callPackage fn {version="default";}

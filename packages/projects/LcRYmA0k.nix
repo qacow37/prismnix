@@ -27,6 +27,7 @@ let
         "C4IdWEP8" = _C4IdWEP8;
         "hKZ53rI0" = _hKZ53rI0;
         "fabric-1.20.1" = _hKZ53rI0;
+        "default" = _hKZ53rI0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hKZ53rI0";}
+in callPackage fn {version="default";}

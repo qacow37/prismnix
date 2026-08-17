@@ -30,6 +30,7 @@ let
         "modloader-a1.0.11" = _PYDXExyN;
         "modloader-a1.2.6" = _G3nlEcDI;
         "modloader-a1.1.2_01" = _bwD0u1EA;
+        "default" = _bwD0u1EA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -50,4 +51,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bwD0u1EA";}
+in callPackage fn {version="default";}

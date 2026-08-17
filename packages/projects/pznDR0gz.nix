@@ -196,6 +196,7 @@ let
         "bukkit-1.21.9" = _HwCXMouS;
         "bukkit-1.21.10" = _HwCXMouS;
         "bukkit-1.21.11" = _HwCXMouS;
+        "default" = _F1zc68NI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -216,4 +217,4 @@ let
                 };
             };
         };
-in callPackage fn {version="F1zc68NI";}
+in callPackage fn {version="default";}

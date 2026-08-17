@@ -39,6 +39,7 @@ let
         "LSxFbkSe" = _LSxFbkSe;
         "jiFjTPU2" = _jiFjTPU2;
         "fabric-1.21.1" = _jiFjTPU2;
+        "default" = _jiFjTPU2;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jiFjTPU2";}
+in callPackage fn {version="default";}

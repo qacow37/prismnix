@@ -106,6 +106,7 @@ let
         "I7Dd2s6N" = _I7Dd2s6N;
         "forge-1.20.1" = _W6e0sVHD;
         "neoforge-1.21.1" = _I7Dd2s6N;
+        "default" = _I7Dd2s6N;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -126,4 +127,4 @@ let
                 };
             };
         };
-in callPackage fn {version="I7Dd2s6N";}
+in callPackage fn {version="default";}

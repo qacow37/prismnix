@@ -15,6 +15,7 @@ let
         "qRDU1paz" = _qRDU1paz;
         "ztJD1rCc" = _ztJD1rCc;
         "minecraft-1.21.4" = _ztJD1rCc;
+        "default" = _ztJD1rCc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ztJD1rCc";}
+in callPackage fn {version="default";}

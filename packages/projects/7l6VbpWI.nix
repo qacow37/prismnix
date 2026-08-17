@@ -100,6 +100,7 @@ let
         "quilt-1.21.9" = _BT66ZAv1;
         "quilt-1.21.10" = _BT66ZAv1;
         "quilt-1.21.11" = _BT66ZAv1;
+        "default" = _BT66ZAv1;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="BT66ZAv1";}
+in callPackage fn {version="default";}

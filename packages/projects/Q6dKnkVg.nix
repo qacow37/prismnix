@@ -87,6 +87,7 @@ let
         "forge-1.20.5" = _Es30cZ3D;
         "forge-1.20.6" = _Es30cZ3D;
         "neoforge-1.21.1" = _vevm54RM;
+        "default" = _vevm54RM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vevm54RM";}
+in callPackage fn {version="default";}

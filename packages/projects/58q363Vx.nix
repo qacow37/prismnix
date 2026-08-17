@@ -61,6 +61,7 @@ let
         "minecraft-26.1" = _CGQPlRFl;
         "minecraft-26.1.1" = _CGQPlRFl;
         "minecraft-26.1.2" = _CGQPlRFl;
+        "default" = _CGQPlRFl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -81,4 +82,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CGQPlRFl";}
+in callPackage fn {version="default";}

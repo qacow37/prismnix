@@ -46,6 +46,7 @@ let
         "IrykFyJd" = _IrykFyJd;
         "babric-b1.7.3" = _fxBpnrp3;
         "fabric-b1.7.3" = _IrykFyJd;
+        "default" = _IrykFyJd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IrykFyJd";}
+in callPackage fn {version="default";}

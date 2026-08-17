@@ -407,6 +407,7 @@ let
         "bta-babric-b1.7.3" = _PVeorifM;
         "babric-b1.7.3" = _4dKMkJpd;
         "fabric-b1.7.3" = _4dKMkJpd;
+        "default" = _4dKMkJpd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -427,4 +428,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4dKMkJpd";}
+in callPackage fn {version="default";}

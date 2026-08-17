@@ -22,6 +22,7 @@ let
         "EMOM443a" = _EMOM443a;
         "forge-1.19.2" = _DFtBRoTR;
         "forge-1.20.1" = _EMOM443a;
+        "default" = _EMOM443a;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="EMOM443a";}
+in callPackage fn {version="default";}

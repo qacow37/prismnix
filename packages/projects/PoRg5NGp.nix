@@ -39,6 +39,7 @@ let
         "3IgktqbO" = _3IgktqbO;
         "UGMvvJib" = _UGMvvJib;
         "forge-1.20.1" = _UGMvvJib;
+        "default" = _UGMvvJib;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UGMvvJib";}
+in callPackage fn {version="default";}

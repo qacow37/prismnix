@@ -52,6 +52,7 @@ let
         "minecraft-1.21.6" = _MvDaYTUE;
         "minecraft-1.21.7" = _MvDaYTUE;
         "minecraft-1.21.8" = _MvDaYTUE;
+        "default" = _MvDaYTUE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="MvDaYTUE";}
+in callPackage fn {version="default";}

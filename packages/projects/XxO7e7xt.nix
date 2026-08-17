@@ -15,6 +15,7 @@ let
         "Upo8PRjv" = _Upo8PRjv;
         "ppbomHs3" = _ppbomHs3;
         "fabric-1.21.11" = _ppbomHs3;
+        "default" = _ppbomHs3;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ppbomHs3";}
+in callPackage fn {version="default";}

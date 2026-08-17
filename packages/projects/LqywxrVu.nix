@@ -167,6 +167,7 @@ let
         "fabric-26.1" = _XKgCogSE;
         "fabric-26.1.1" = _XKgCogSE;
         "fabric-26.1.2" = _XKgCogSE;
+        "default" = _XKgCogSE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -187,4 +188,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XKgCogSE";}
+in callPackage fn {version="default";}

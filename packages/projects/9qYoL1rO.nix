@@ -100,6 +100,7 @@ let
         "fabric-26.1.1" = _vVFlFork;
         "fabric-26.1.2" = _vVFlFork;
         "fabric-26.2" = _vVFlFork;
+        "default" = _vVFlFork;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -120,4 +121,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vVFlFork";}
+in callPackage fn {version="default";}

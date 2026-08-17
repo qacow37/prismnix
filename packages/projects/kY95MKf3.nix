@@ -160,6 +160,7 @@ let
         "XRgGBan5" = _XRgGBan5;
         "forge-1.20.1" = _XRgGBan5;
         "neoforge-1.21.1" = _wZJiiIv5;
+        "default" = _XRgGBan5;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -180,4 +181,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XRgGBan5";}
+in callPackage fn {version="default";}

@@ -23,6 +23,7 @@ let
         "neoforge-1.21.1" = _1EOjy9Ad;
         "forge-1.20.1" = _8ldtFI8x;
         "fabric-1.20.1" = _gcWTWkia;
+        "default" = _gcWTWkia;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gcWTWkia";}
+in callPackage fn {version="default";}

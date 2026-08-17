@@ -23,6 +23,7 @@ let
         "minecraft-26.1" = _TCpFxsMC;
         "minecraft-26.1.1" = _TCpFxsMC;
         "minecraft-26.1.2" = _TCpFxsMC;
+        "default" = _TCpFxsMC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TCpFxsMC";}
+in callPackage fn {version="default";}

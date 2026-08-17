@@ -114,6 +114,7 @@ let
         "spigot-1.21.9" = _CkwQPM2d;
         "spigot-1.21.10" = _CkwQPM2d;
         "spigot-1.21.11" = _CkwQPM2d;
+        "default" = _CkwQPM2d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -134,4 +135,4 @@ let
                 };
             };
         };
-in callPackage fn {version="CkwQPM2d";}
+in callPackage fn {version="default";}

@@ -46,6 +46,7 @@ let
         "T7b0n2Zx" = _T7b0n2Zx;
         "forge-1.20.1" = _dezMnC04;
         "forge-1.12.2" = _T7b0n2Zx;
+        "default" = _T7b0n2Zx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="T7b0n2Zx";}
+in callPackage fn {version="default";}

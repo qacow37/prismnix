@@ -15,6 +15,7 @@ let
         "wArWRjoY" = _wArWRjoY;
         "SiBFlIGn" = _SiBFlIGn;
         "minecraft-1.20.1" = _SiBFlIGn;
+        "default" = _SiBFlIGn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SiBFlIGn";}
+in callPackage fn {version="default";}

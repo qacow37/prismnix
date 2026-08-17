@@ -142,6 +142,7 @@ let
         "quilt-26.1" = _fsPIx7ZI;
         "quilt-26.1.1" = _fsPIx7ZI;
         "quilt-26.1.2" = _fsPIx7ZI;
+        "default" = _fsPIx7ZI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -162,4 +163,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fsPIx7ZI";}
+in callPackage fn {version="default";}

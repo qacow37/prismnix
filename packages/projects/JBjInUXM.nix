@@ -823,6 +823,7 @@ let
         "modloader-1.5.1" = _xKH3jPnI;
         "modloader-1.5.2" = _hnlLo95y;
         "modloader-1.3.2" = _G039wDsc;
+        "default" = _UFN4141z;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -843,4 +844,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UFN4141z";}
+in callPackage fn {version="default";}

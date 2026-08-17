@@ -33,6 +33,7 @@ let
         "ifIMTNDz" = _ifIMTNDz;
         "ouScerv7" = _ouScerv7;
         "fabric-1.20.1" = _ouScerv7;
+        "default" = _ouScerv7;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ouScerv7";}
+in callPackage fn {version="default";}

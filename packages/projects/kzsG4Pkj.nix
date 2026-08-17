@@ -45,6 +45,7 @@ let
         "ISyEMOEx" = _ISyEMOEx;
         "dj5mjXuT" = _dj5mjXuT;
         "forge-1.12.2" = _dj5mjXuT;
+        "default" = _dj5mjXuT;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dj5mjXuT";}
+in callPackage fn {version="default";}

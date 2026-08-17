@@ -51,6 +51,7 @@ let
         "fabric-26.1.1" = _TgUNmKlg;
         "fabric-26.1.2" = _TgUNmKlg;
         "fabric-26.2" = _TgUNmKlg;
+        "default" = _TgUNmKlg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -71,4 +72,4 @@ let
                 };
             };
         };
-in callPackage fn {version="TgUNmKlg";}
+in callPackage fn {version="default";}

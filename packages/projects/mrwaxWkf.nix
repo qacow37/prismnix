@@ -95,6 +95,7 @@ let
         "quilt-1.21.6" = _etujsmte;
         "quilt-1.21.7" = _etujsmte;
         "quilt-1.21.8" = _etujsmte;
+        "default" = _etujsmte;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -115,4 +116,4 @@ let
                 };
             };
         };
-in callPackage fn {version="etujsmte";}
+in callPackage fn {version="default";}

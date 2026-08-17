@@ -77,6 +77,7 @@ let
         "fabric-1.21.10" = _rQ8Bw7j7;
         "fabric-1.21.11" = _rQ8Bw7j7;
         "fabric-26.1.2" = _zNHH5pin;
+        "default" = _zNHH5pin;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -97,4 +98,4 @@ let
                 };
             };
         };
-in callPackage fn {version="zNHH5pin";}
+in callPackage fn {version="default";}

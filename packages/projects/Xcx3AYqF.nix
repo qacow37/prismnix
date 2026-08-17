@@ -10,6 +10,7 @@ let
         "PUMKOXbb" = _PUMKOXbb;
         "fabric-1.21" = _PUMKOXbb;
         "fabric-1.21.1" = _PUMKOXbb;
+        "default" = _PUMKOXbb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="PUMKOXbb";}
+in callPackage fn {version="default";}

@@ -63,6 +63,7 @@ let
         "gIYfLGXQ" = _gIYfLGXQ;
         "Gymws4f9" = _Gymws4f9;
         "neoforge-1.21.1" = _Gymws4f9;
+        "default" = _Gymws4f9;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Gymws4f9";}
+in callPackage fn {version="default";}

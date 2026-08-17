@@ -224,6 +224,7 @@ let
         "neoforge-1.21.2" = _AY4m6Awd;
         "neoforge-1.21.3" = _AY4m6Awd;
         "neoforge-1.21.4" = _AY4m6Awd;
+        "default" = _AY4m6Awd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -244,4 +245,4 @@ let
                 };
             };
         };
-in callPackage fn {version="AY4m6Awd";}
+in callPackage fn {version="default";}

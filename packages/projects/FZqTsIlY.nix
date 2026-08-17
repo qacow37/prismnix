@@ -120,6 +120,7 @@ let
         "fabric-26.1.1" = _WYQr4Q4o;
         "fabric-26.1.2" = _WYQr4Q4o;
         "fabric-26.2" = _WYQr4Q4o;
+        "default" = _WYQr4Q4o;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -140,4 +141,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WYQr4Q4o";}
+in callPackage fn {version="default";}

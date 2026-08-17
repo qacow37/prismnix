@@ -156,6 +156,7 @@ let
         "minecraft-1.21.9" = _wdtiMP2k;
         "minecraft-1.21.10" = _wdtiMP2k;
         "minecraft-1.21.11" = _wdtiMP2k;
+        "default" = _wdtiMP2k;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -176,4 +177,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wdtiMP2k";}
+in callPackage fn {version="default";}

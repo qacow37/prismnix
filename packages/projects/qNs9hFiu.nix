@@ -179,6 +179,7 @@ let
         "fabric-1.20.5-rc1" = _niM10c8T;
         "fabric-1.20.5-rc2" = _niM10c8T;
         "fabric-1.20.5-rc3" = _niM10c8T;
+        "default" = _niM10c8T;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -199,4 +200,4 @@ let
                 };
             };
         };
-in callPackage fn {version="niM10c8T";}
+in callPackage fn {version="default";}

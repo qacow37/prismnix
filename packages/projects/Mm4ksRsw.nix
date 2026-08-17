@@ -52,6 +52,7 @@ let
         "eVdagRiP" = _eVdagRiP;
         "fabric-1.21.1" = _eVdagRiP;
         "neoforge-1.21.1" = _h7WgZstl;
+        "default" = _eVdagRiP;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="eVdagRiP";}
+in callPackage fn {version="default";}

@@ -362,6 +362,7 @@ let
         "quilt-1.21.11" = _GeKuwtWP;
         "quilt-26.1" = _22cgGz13;
         "quilt-26.1.1" = _22cgGz13;
+        "default" = _22cgGz13;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -382,4 +383,4 @@ let
                 };
             };
         };
-in callPackage fn {version="22cgGz13";}
+in callPackage fn {version="default";}

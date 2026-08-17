@@ -216,6 +216,7 @@ let
         "fabric-1.21.5" = _EkG7CUlT;
         "forge-1.20" = _VNFB2Vgv;
         "forge-1.20.1" = _VNFB2Vgv;
+        "default" = _NqiMvVlc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -236,4 +237,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NqiMvVlc";}
+in callPackage fn {version="default";}

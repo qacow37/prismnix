@@ -33,6 +33,7 @@ let
         "DBQTMl21" = _DBQTMl21;
         "U8FsXC3B" = _U8FsXC3B;
         "forge-1.20.1" = _U8FsXC3B;
+        "default" = _U8FsXC3B;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -53,4 +54,4 @@ let
                 };
             };
         };
-in callPackage fn {version="U8FsXC3B";}
+in callPackage fn {version="default";}

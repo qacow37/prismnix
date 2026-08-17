@@ -129,6 +129,7 @@ let
         "minecraft-26.1.1" = _CCTxcHvE;
         "minecraft-26.1.2" = _CCTxcHvE;
         "minecraft-26.2" = _Apkj2sCl;
+        "default" = _Apkj2sCl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -149,4 +150,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Apkj2sCl";}
+in callPackage fn {version="default";}

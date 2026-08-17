@@ -82,6 +82,7 @@ let
         "bgtoIO14" = _bgtoIO14;
         "neoforge-1.21.1" = _bgtoIO14;
         "forge-1.20.1" = _DJ2Hrsqq;
+        "default" = _bgtoIO14;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -102,4 +103,4 @@ let
                 };
             };
         };
-in callPackage fn {version="bgtoIO14";}
+in callPackage fn {version="default";}

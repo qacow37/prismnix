@@ -55,6 +55,7 @@ let
         "babric-b1.8" = _honmc4iU;
         "babric-b1.8.1" = _honmc4iU;
         "bta-babric-b1.7.3" = _225w6wxW;
+        "default" = _225w6wxW;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="225w6wxW";}
+in callPackage fn {version="default";}

@@ -297,6 +297,7 @@ let
         "minecraft-26.1" = _3JSOnZea;
         "minecraft-26.1.1" = _3JSOnZea;
         "minecraft-26.1.2" = _3JSOnZea;
+        "default" = _3JSOnZea;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -317,4 +318,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3JSOnZea";}
+in callPackage fn {version="default";}

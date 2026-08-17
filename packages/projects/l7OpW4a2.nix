@@ -39,6 +39,7 @@ let
         "7mzsCPbd" = _7mzsCPbd;
         "S7Jyyl3d" = _S7Jyyl3d;
         "forge-1.20.1" = _S7Jyyl3d;
+        "default" = _S7Jyyl3d;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S7Jyyl3d";}
+in callPackage fn {version="default";}

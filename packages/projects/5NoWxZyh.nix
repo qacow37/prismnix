@@ -123,6 +123,7 @@ let
         "veuIyzt0" = _veuIyzt0;
         "VSQn4E4U" = _VSQn4E4U;
         "forge-1.20.1" = _VSQn4E4U;
+        "default" = _VSQn4E4U;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -143,4 +144,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VSQn4E4U";}
+in callPackage fn {version="default";}

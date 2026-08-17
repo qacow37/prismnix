@@ -250,6 +250,7 @@ let
         "vELn14ZA" = _vELn14ZA;
         "fabric-1.20.1" = _vELn14ZA;
         "quilt-1.20.1" = _vELn14ZA;
+        "default" = _vELn14ZA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -270,4 +271,4 @@ let
                 };
             };
         };
-in callPackage fn {version="vELn14ZA";}
+in callPackage fn {version="default";}

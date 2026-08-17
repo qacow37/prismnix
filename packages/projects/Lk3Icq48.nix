@@ -75,6 +75,7 @@ let
         "Oi2Qhpcb" = _Oi2Qhpcb;
         "KRixtKdl" = _KRixtKdl;
         "forge-1.16.5" = _KRixtKdl;
+        "default" = _KRixtKdl;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -95,4 +96,4 @@ let
                 };
             };
         };
-in callPackage fn {version="KRixtKdl";}
+in callPackage fn {version="default";}

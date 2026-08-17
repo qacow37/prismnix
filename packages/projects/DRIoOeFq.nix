@@ -45,6 +45,7 @@ let
         "RqxJxqSP" = _RqxJxqSP;
         "ItoKTvGR" = _ItoKTvGR;
         "forge-1.8.9" = _ItoKTvGR;
+        "default" = _ItoKTvGR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -65,4 +66,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ItoKTvGR";}
+in callPackage fn {version="default";}

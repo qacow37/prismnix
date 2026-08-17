@@ -32,6 +32,7 @@ let
         "fabric-1.21.9" = _gdXImrAa;
         "fabric-1.21.10" = _gdXImrAa;
         "fabric-1.21.11" = _gdXImrAa;
+        "default" = _gdXImrAa;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -52,4 +53,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gdXImrAa";}
+in callPackage fn {version="default";}

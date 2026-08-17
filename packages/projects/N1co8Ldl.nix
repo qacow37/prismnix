@@ -9,6 +9,7 @@ let
     in {
         "agkl2wry" = _agkl2wry;
         "neoforge-1.21.8" = _agkl2wry;
+        "default" = _agkl2wry;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -29,4 +30,4 @@ let
                 };
             };
         };
-in callPackage fn {version="agkl2wry";}
+in callPackage fn {version="default";}

@@ -358,6 +358,7 @@ let
         "neoforge-1.21.6" = _OlefnsUB;
         "neoforge-1.21.7" = _OlefnsUB;
         "neoforge-1.21.8" = _OlefnsUB;
+        "default" = _HtMBiUk0;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -378,4 +379,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HtMBiUk0";}
+in callPackage fn {version="default";}

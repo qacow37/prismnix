@@ -10,6 +10,7 @@ let
         "ohBGz96l" = _ohBGz96l;
         "forge-1.20.1" = _ohBGz96l;
         "neoforge-1.20.1" = _ohBGz96l;
+        "default" = _ohBGz96l;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -30,4 +31,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ohBGz96l";}
+in callPackage fn {version="default";}

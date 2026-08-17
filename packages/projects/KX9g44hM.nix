@@ -91,6 +91,7 @@ let
         "spigot-1.19.1" = _CuC7yP6f;
         "spigot-1.19.2" = _CuC7yP6f;
         "folia-1.21.11" = _JzNbPLuV;
+        "default" = _JzNbPLuV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -111,4 +112,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JzNbPLuV";}
+in callPackage fn {version="default";}

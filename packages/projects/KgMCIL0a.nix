@@ -27,6 +27,7 @@ let
         "ZwlaJTQQ" = _ZwlaJTQQ;
         "wZNGWiRm" = _wZNGWiRm;
         "fabric-1.21.4" = _wZNGWiRm;
+        "default" = _wZNGWiRm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wZNGWiRm";}
+in callPackage fn {version="default";}

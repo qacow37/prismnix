@@ -15,6 +15,7 @@ let
         "4hl1BvHu" = _4hl1BvHu;
         "OIgSethw" = _OIgSethw;
         "forge-1.20.1" = _OIgSethw;
+        "default" = _OIgSethw;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OIgSethw";}
+in callPackage fn {version="default";}

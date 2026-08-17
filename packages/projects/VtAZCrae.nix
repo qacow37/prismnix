@@ -16,6 +16,7 @@ let
         "WV89NenD" = _WV89NenD;
         "fabric-1.19.2" = _9A53qaIP;
         "fabric-1.20.1" = _WV89NenD;
+        "default" = _WV89NenD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="WV89NenD";}
+in callPackage fn {version="default";}

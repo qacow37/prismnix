@@ -96,6 +96,7 @@ let
         "minecraft-1.21.9" = _VDGrowYd;
         "minecraft-1.21.10" = _VDGrowYd;
         "minecraft-1.21.11" = _VDGrowYd;
+        "default" = _VDGrowYd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -116,4 +117,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VDGrowYd";}
+in callPackage fn {version="default";}

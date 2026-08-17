@@ -1006,6 +1006,7 @@ let
         "neoforge-26.2-snapshot-2" = _H9kBCSHN;
         "neoforge-26.2-snapshot-3" = _H9kBCSHN;
         "neoforge-26.2" = _QshPBLar;
+        "default" = _QshPBLar;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -1026,4 +1027,4 @@ let
                 };
             };
         };
-in callPackage fn {version="QshPBLar";}
+in callPackage fn {version="default";}

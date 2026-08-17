@@ -22,6 +22,7 @@ let
         "3uUNt7Rm" = _3uUNt7Rm;
         "neoforge-1.20.4" = _DV2xLisc;
         "forge-1.20.1" = _3uUNt7Rm;
+        "default" = _3uUNt7Rm;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="3uUNt7Rm";}
+in callPackage fn {version="default";}

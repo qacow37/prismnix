@@ -87,6 +87,7 @@ let
         "LFAOenof" = _LFAOenof;
         "e3nI28JR" = _e3nI28JR;
         "forge-1.20.1" = _e3nI28JR;
+        "default" = _e3nI28JR;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -107,4 +108,4 @@ let
                 };
             };
         };
-in callPackage fn {version="e3nI28JR";}
+in callPackage fn {version="default";}

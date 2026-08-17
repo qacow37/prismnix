@@ -22,6 +22,7 @@ let
         "kRVokcp8" = _kRVokcp8;
         "neoforge-1.21.1" = _kRVokcp8;
         "fabric-1.21.1" = _rTQx7khC;
+        "default" = _kRVokcp8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -42,4 +43,4 @@ let
                 };
             };
         };
-in callPackage fn {version="kRVokcp8";}
+in callPackage fn {version="default";}

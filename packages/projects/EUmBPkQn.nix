@@ -176,6 +176,7 @@ let
         "neoforge-26.1" = _wiKFA2Bt;
         "neoforge-26.1.1" = _wiKFA2Bt;
         "neoforge-26.1.2" = _wiKFA2Bt;
+        "default" = _wiKFA2Bt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -196,4 +197,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wiKFA2Bt";}
+in callPackage fn {version="default";}

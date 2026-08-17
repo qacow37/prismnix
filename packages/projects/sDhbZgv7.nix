@@ -111,6 +111,7 @@ let
         "ssC110Xa" = _ssC110Xa;
         "LTcBizqM" = _LTcBizqM;
         "forge-1.12.2" = _LTcBizqM;
+        "default" = _LTcBizqM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -131,4 +132,4 @@ let
                 };
             };
         };
-in callPackage fn {version="LTcBizqM";}
+in callPackage fn {version="default";}

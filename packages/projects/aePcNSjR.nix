@@ -39,6 +39,7 @@ let
         "ibiSBUVj" = _ibiSBUVj;
         "mACIiqtj" = _mACIiqtj;
         "fabric-1.21.1" = _mACIiqtj;
+        "default" = _mACIiqtj;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="mACIiqtj";}
+in callPackage fn {version="default";}

@@ -254,6 +254,7 @@ let
         "bukkit-1.18" = _lABTWRiM;
         "bukkit-1.18.1" = _lABTWRiM;
         "bukkit-1.18.2" = _lABTWRiM;
+        "default" = _jR2DMCQu;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -274,4 +275,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jR2DMCQu";}
+in callPackage fn {version="default";}

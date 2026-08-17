@@ -18,6 +18,7 @@ let
         "datapack-1.20" = _njotWmra;
         "fabric-1.20.1" = _g7V1ssWZ;
         "forge-1.20.1" = _g7V1ssWZ;
+        "default" = _njotWmra;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -38,4 +39,4 @@ let
                 };
             };
         };
-in callPackage fn {version="njotWmra";}
+in callPackage fn {version="default";}

@@ -28,6 +28,7 @@ let
         "XC2kXPPd" = _XC2kXPPd;
         "neoforge-1.21.1" = _kMTvd9NT;
         "forge-1.20.1" = _XC2kXPPd;
+        "default" = _XC2kXPPd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="XC2kXPPd";}
+in callPackage fn {version="default";}

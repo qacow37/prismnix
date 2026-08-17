@@ -55,6 +55,7 @@ let
         "minecraft-1.19.3" = _GEPcpFgi;
         "minecraft-1.19.4" = _GEPcpFgi;
         "minecraft-1.20.1" = _GEPcpFgi;
+        "default" = _GEPcpFgi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -75,4 +76,4 @@ let
                 };
             };
         };
-in callPackage fn {version="GEPcpFgi";}
+in callPackage fn {version="default";}

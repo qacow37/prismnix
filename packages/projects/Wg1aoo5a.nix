@@ -69,6 +69,7 @@ let
         "bOIeMw4b" = _bOIeMw4b;
         "hyPe10rA" = _hyPe10rA;
         "fabric-1.20.1" = _hyPe10rA;
+        "default" = _hyPe10rA;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="hyPe10rA";}
+in callPackage fn {version="default";}

@@ -316,6 +316,7 @@ let
         "uVC8Dcpn" = _uVC8Dcpn;
         "fabric-1.21.1" = _uVC8Dcpn;
         "neoforge-1.21.1" = _pGYf4OZX;
+        "default" = _uVC8Dcpn;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -336,4 +337,4 @@ let
                 };
             };
         };
-in callPackage fn {version="uVC8Dcpn";}
+in callPackage fn {version="default";}

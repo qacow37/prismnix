@@ -469,6 +469,7 @@ let
         "forge-1.21.1" = _aISyMdnk;
         "forge-1.21.2" = _aISyMdnk;
         "forge-1.21.3" = _aISyMdnk;
+        "default" = _awfCupFq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -489,4 +490,4 @@ let
                 };
             };
         };
-in callPackage fn {version="awfCupFq";}
+in callPackage fn {version="default";}

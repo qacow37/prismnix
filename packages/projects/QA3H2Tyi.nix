@@ -21,6 +21,7 @@ let
         "MsZmldV1" = _MsZmldV1;
         "npnTVv1P" = _npnTVv1P;
         "forge-1.20.1" = _npnTVv1P;
+        "default" = _npnTVv1P;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="npnTVv1P";}
+in callPackage fn {version="default";}

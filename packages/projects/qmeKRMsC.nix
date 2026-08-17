@@ -44,6 +44,7 @@ let
         "fabric-1.20.4" = _pX46DHKC;
         "forge-1.20.4" = _pX46DHKC;
         "quilt-1.20.4" = _pX46DHKC;
+        "default" = _dLKEmDrz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -64,4 +65,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dLKEmDrz";}
+in callPackage fn {version="default";}

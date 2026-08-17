@@ -63,6 +63,7 @@ let
         "ZiOpcDV7" = _ZiOpcDV7;
         "l6racbb8" = _l6racbb8;
         "minecraft-b1.7.3" = _l6racbb8;
+        "default" = _l6racbb8;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -83,4 +84,4 @@ let
                 };
             };
         };
-in callPackage fn {version="l6racbb8";}
+in callPackage fn {version="default";}

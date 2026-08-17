@@ -138,6 +138,7 @@ let
         "optifine-1.21.3" = _t1vPVCFN;
         "optifine-1.21.4" = _t1vPVCFN;
         "optifine-1.21.5" = _t1vPVCFN;
+        "default" = _t1vPVCFN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -158,4 +159,4 @@ let
                 };
             };
         };
-in callPackage fn {version="t1vPVCFN";}
+in callPackage fn {version="default";}

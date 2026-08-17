@@ -39,6 +39,7 @@ let
         "eOtVMtSr" = _eOtVMtSr;
         "sR9BpDwg" = _sR9BpDwg;
         "forge-1.20.1" = _sR9BpDwg;
+        "default" = _sR9BpDwg;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -59,4 +60,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sR9BpDwg";}
+in callPackage fn {version="default";}

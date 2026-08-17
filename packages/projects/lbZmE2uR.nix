@@ -117,6 +117,7 @@ let
         "NlPrhi5G" = _NlPrhi5G;
         "4XIKzK99" = _4XIKzK99;
         "fabric-25w14craftmine" = _4XIKzK99;
+        "default" = _4XIKzK99;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4XIKzK99";}
+in callPackage fn {version="default";}

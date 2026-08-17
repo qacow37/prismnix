@@ -28,6 +28,7 @@ let
         "8G1JunIv" = _8G1JunIv;
         "fabric-1.21.10" = _x384YNBI;
         "fabric-1.21.11" = _8G1JunIv;
+        "default" = _8G1JunIv;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -48,4 +49,4 @@ let
                 };
             };
         };
-in callPackage fn {version="8G1JunIv";}
+in callPackage fn {version="default";}

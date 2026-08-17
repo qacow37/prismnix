@@ -52,6 +52,7 @@ let
         "JzmOctfr" = _JzmOctfr;
         "fabric-1.21.1" = _p4oVgKm3;
         "neoforge-1.21.1" = _JzmOctfr;
+        "default" = _JzmOctfr;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -72,4 +73,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JzmOctfr";}
+in callPackage fn {version="default";}

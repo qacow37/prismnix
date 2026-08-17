@@ -16,6 +16,7 @@ let
         "R34JFdlX" = _R34JFdlX;
         "fabric-1.20.1" = _R34JFdlX;
         "forge-1.20.1" = _R34JFdlX;
+        "default" = _R34JFdlX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -36,4 +37,4 @@ let
                 };
             };
         };
-in callPackage fn {version="R34JFdlX";}
+in callPackage fn {version="default";}

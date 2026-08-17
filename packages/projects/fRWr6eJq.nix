@@ -46,6 +46,7 @@ let
         "4695joRq" = _4695joRq;
         "neoforge-1.21.1" = _4695joRq;
         "forge-1.20.1" = _c0n1Dpxn;
+        "default" = _4695joRq;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -66,4 +67,4 @@ let
                 };
             };
         };
-in callPackage fn {version="4695joRq";}
+in callPackage fn {version="default";}

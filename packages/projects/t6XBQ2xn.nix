@@ -358,6 +358,7 @@ let
         "fabric-24w33a" = _fDbxgNHz;
         "fabric-24w34a" = _fDbxgNHz;
         "fabric-24w35a" = _fDbxgNHz;
+        "default" = _fDbxgNHz;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -378,4 +379,4 @@ let
                 };
             };
         };
-in callPackage fn {version="fDbxgNHz";}
+in callPackage fn {version="default";}

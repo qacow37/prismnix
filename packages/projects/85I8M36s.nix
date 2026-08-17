@@ -172,6 +172,7 @@ let
         "optifine-26.1.1" = _lSnWgJsC;
         "optifine-26.1.2" = _lSnWgJsC;
         "optifine-26.2" = _lSnWgJsC;
+        "default" = _lSnWgJsC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -192,4 +193,4 @@ let
                 };
             };
         };
-in callPackage fn {version="lSnWgJsC";}
+in callPackage fn {version="default";}

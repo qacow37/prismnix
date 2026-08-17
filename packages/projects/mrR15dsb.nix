@@ -27,6 +27,7 @@ let
         "ux36c2fk" = _ux36c2fk;
         "wEaEchSL" = _wEaEchSL;
         "neoforge-1.21.1" = _wEaEchSL;
+        "default" = _wEaEchSL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -47,4 +48,4 @@ let
                 };
             };
         };
-in callPackage fn {version="wEaEchSL";}
+in callPackage fn {version="default";}

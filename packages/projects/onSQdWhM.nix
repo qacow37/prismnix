@@ -2377,6 +2377,7 @@ let
         "quilt-1.21.6" = _ZEMiaisv;
         "quilt-1.21.7" = _ZEMiaisv;
         "quilt-1.21.8" = _ZEMiaisv;
+        "default" = _UABdI9pk;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -2397,4 +2398,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UABdI9pk";}
+in callPackage fn {version="default";}

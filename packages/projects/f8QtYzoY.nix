@@ -23,6 +23,7 @@ let
         "fabric-1.21.3" = _Ywscp2Zo;
         "fabric-1.21.4" = _Ywscp2Zo;
         "fabric-1.21.5" = _Ywscp2Zo;
+        "default" = _Ywscp2Zo;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -43,4 +44,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Ywscp2Zo";}
+in callPackage fn {version="default";}

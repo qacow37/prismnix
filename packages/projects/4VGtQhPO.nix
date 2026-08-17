@@ -69,6 +69,7 @@ let
         "UmR32cvy" = _UmR32cvy;
         "z1ySD2zi" = _z1ySD2zi;
         "forge-1.12.2" = _z1ySD2zi;
+        "default" = _z1ySD2zi;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="z1ySD2zi";}
+in callPackage fn {version="default";}

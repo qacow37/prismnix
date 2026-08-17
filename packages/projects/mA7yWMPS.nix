@@ -210,6 +210,7 @@ let
         "forge-1.20.1" = _BgMT8cxQ;
         "neoforge-1.20.1" = _BgMT8cxQ;
         "neoforge-1.20.6" = _NXMUlakx;
+        "default" = _NXMUlakx;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -230,4 +231,4 @@ let
                 };
             };
         };
-in callPackage fn {version="NXMUlakx";}
+in callPackage fn {version="default";}

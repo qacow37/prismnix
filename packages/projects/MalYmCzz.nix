@@ -42,6 +42,7 @@ let
         "minecraft-26.1.1" = _jnrpZOMV;
         "minecraft-26.1.2" = _jnrpZOMV;
         "minecraft-26.2" = _jnrpZOMV;
+        "default" = _jnrpZOMV;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -62,4 +63,4 @@ let
                 };
             };
         };
-in callPackage fn {version="jnrpZOMV";}
+in callPackage fn {version="default";}

@@ -24,6 +24,7 @@ let
         "forge-1.21.1" = _zfkwz71m;
         "fabric-1.21.1" = _80yLVsrc;
         "fabric-1.21" = _80yLVsrc;
+        "default" = _80yLVsrc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -44,4 +45,4 @@ let
                 };
             };
         };
-in callPackage fn {version="80yLVsrc";}
+in callPackage fn {version="default";}

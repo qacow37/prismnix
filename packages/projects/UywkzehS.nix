@@ -64,6 +64,7 @@ let
         "OlAf3MXN" = _OlAf3MXN;
         "forge-1.20.1" = _R5doz593;
         "neoforge-1.21.1" = _OlAf3MXN;
+        "default" = _OlAf3MXN;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="OlAf3MXN";}
+in callPackage fn {version="default";}

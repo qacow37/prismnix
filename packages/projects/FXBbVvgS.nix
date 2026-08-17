@@ -69,6 +69,7 @@ let
         "cypcAfKY" = _cypcAfKY;
         "2lapOFS4" = _2lapOFS4;
         "forge-1.20.1" = _2lapOFS4;
+        "default" = _2lapOFS4;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="2lapOFS4";}
+in callPackage fn {version="default";}

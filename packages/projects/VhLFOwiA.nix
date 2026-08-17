@@ -67,6 +67,7 @@ let
         "minecraft-26.1.1" = _IEjUstIS;
         "minecraft-26.1.2" = _IEjUstIS;
         "minecraft-26.2" = _IEjUstIS;
+        "default" = _IEjUstIS;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -87,4 +88,4 @@ let
                 };
             };
         };
-in callPackage fn {version="IEjUstIS";}
+in callPackage fn {version="default";}

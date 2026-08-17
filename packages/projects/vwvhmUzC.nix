@@ -21,6 +21,7 @@ let
         "RkyLr3iH" = _RkyLr3iH;
         "VBq78i37" = _VBq78i37;
         "fabric-1.20.1" = _VBq78i37;
+        "default" = _VBq78i37;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -41,4 +42,4 @@ let
                 };
             };
         };
-in callPackage fn {version="VBq78i37";}
+in callPackage fn {version="default";}

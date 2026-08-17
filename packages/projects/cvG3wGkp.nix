@@ -34,6 +34,7 @@ let
         "nOxfRLen" = _nOxfRLen;
         "fabric-1.20.1" = _nOxfRLen;
         "fabric-1.21" = _8jnntnmk;
+        "default" = _nOxfRLen;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -54,4 +55,4 @@ let
                 };
             };
         };
-in callPackage fn {version="nOxfRLen";}
+in callPackage fn {version="default";}

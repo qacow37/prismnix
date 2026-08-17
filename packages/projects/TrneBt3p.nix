@@ -139,6 +139,7 @@ let
         "fabric-1.21.1" = _iRudGEk3;
         "forge-1.20.1" = _fSdpTBKb;
         "neoforge-1.21.1" = _ZeG8lSOL;
+        "default" = _ZeG8lSOL;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -159,4 +160,4 @@ let
                 };
             };
         };
-in callPackage fn {version="ZeG8lSOL";}
+in callPackage fn {version="default";}

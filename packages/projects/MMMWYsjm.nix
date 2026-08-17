@@ -603,6 +603,7 @@ let
         "forge-1.20.1" = _sUSIa3Sy;
         "neoforge-1.20.1" = _sUSIa3Sy;
         "neoforge-1.21.1" = _dXCPPM3u;
+        "default" = _dXCPPM3u;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -623,4 +624,4 @@ let
                 };
             };
         };
-in callPackage fn {version="dXCPPM3u";}
+in callPackage fn {version="default";}

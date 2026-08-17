@@ -17,6 +17,7 @@ let
         "fabric-1.21.6" = _72GirBOd;
         "fabric-1.21.7" = _72GirBOd;
         "fabric-1.21.8" = _72GirBOd;
+        "default" = _72GirBOd;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -37,4 +38,4 @@ let
                 };
             };
         };
-in callPackage fn {version="72GirBOd";}
+in callPackage fn {version="default";}

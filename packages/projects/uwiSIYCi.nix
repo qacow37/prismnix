@@ -69,6 +69,7 @@ let
         "zfGS5gic" = _zfGS5gic;
         "RxN44wmt" = _RxN44wmt;
         "forge-1.20.1" = _RxN44wmt;
+        "default" = _RxN44wmt;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -89,4 +90,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RxN44wmt";}
+in callPackage fn {version="default";}

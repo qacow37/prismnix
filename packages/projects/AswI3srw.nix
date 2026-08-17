@@ -225,6 +225,7 @@ let
         "Mfv3l6BK" = _Mfv3l6BK;
         "s3Zl52TM" = _s3Zl52TM;
         "fabric-1.21.8" = _s3Zl52TM;
+        "default" = _s3Zl52TM;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -245,4 +246,4 @@ let
                 };
             };
         };
-in callPackage fn {version="s3Zl52TM";}
+in callPackage fn {version="default";}

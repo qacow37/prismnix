@@ -249,6 +249,7 @@ let
         "hxfsmUU5" = _hxfsmUU5;
         "6Zy8EkoX" = _6Zy8EkoX;
         "forge-1.12.2" = _6Zy8EkoX;
+        "default" = _6Zy8EkoX;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -269,4 +270,4 @@ let
                 };
             };
         };
-in callPackage fn {version="6Zy8EkoX";}
+in callPackage fn {version="default";}

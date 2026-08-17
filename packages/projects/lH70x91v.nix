@@ -112,6 +112,7 @@ let
         "velocity-1.12" = _UEXjIGTE;
         "velocity-1.12.1" = _UEXjIGTE;
         "velocity-1.12.2" = _UEXjIGTE;
+        "default" = _UEXjIGTE;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -132,4 +133,4 @@ let
                 };
             };
         };
-in callPackage fn {version="UEXjIGTE";}
+in callPackage fn {version="default";}

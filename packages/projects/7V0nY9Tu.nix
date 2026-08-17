@@ -157,6 +157,7 @@ let
         "forge-1.20.4" = _5ZUaDllJ;
         "neoforge-1.20.2" = _A3TIQDMU;
         "neoforge-1.20.4" = _A3TIQDMU;
+        "default" = _A3TIQDMU;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -177,4 +178,4 @@ let
                 };
             };
         };
-in callPackage fn {version="A3TIQDMU";}
+in callPackage fn {version="default";}

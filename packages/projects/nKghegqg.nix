@@ -57,6 +57,7 @@ let
         "PxlgTlzh" = _PxlgTlzh;
         "S74ZUZKc" = _S74ZUZKc;
         "forge-1.20.1" = _S74ZUZKc;
+        "default" = _S74ZUZKc;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -77,4 +78,4 @@ let
                 };
             };
         };
-in callPackage fn {version="S74ZUZKc";}
+in callPackage fn {version="default";}

@@ -88,6 +88,7 @@ let
         "velocity-26.1.1" = _SaU22ddb;
         "velocity-26.1.2" = _SaU22ddb;
         "velocity-26.2" = _SaU22ddb;
+        "default" = _SaU22ddb;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -108,4 +109,4 @@ let
                 };
             };
         };
-in callPackage fn {version="SaU22ddb";}
+in callPackage fn {version="default";}

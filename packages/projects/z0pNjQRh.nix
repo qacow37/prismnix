@@ -64,6 +64,7 @@ let
         "minecraft-26.2-snapshot-7" = _JiSQW12w;
         "minecraft-26.2-snapshot-8" = _JiSQW12w;
         "minecraft-26.2-pre-1" = _JiSQW12w;
+        "default" = _JiSQW12w;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -84,4 +85,4 @@ let
                 };
             };
         };
-in callPackage fn {version="JiSQW12w";}
+in callPackage fn {version="default";}

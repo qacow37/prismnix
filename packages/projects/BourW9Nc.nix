@@ -15,6 +15,7 @@ let
         "U2VsJTAy" = _U2VsJTAy;
         "sNaBWurI" = _sNaBWurI;
         "fabric-1.21.10" = _sNaBWurI;
+        "default" = _sNaBWurI;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -35,4 +36,4 @@ let
                 };
             };
         };
-in callPackage fn {version="sNaBWurI";}
+in callPackage fn {version="default";}

@@ -58,6 +58,7 @@ let
         "RUWIJ4MD" = _RUWIJ4MD;
         "forge-1.20.1" = _RUWIJ4MD;
         "forge-1.19.2" = _jCdshfDB;
+        "default" = _RUWIJ4MD;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -78,4 +79,4 @@ let
                 };
             };
         };
-in callPackage fn {version="RUWIJ4MD";}
+in callPackage fn {version="default";}

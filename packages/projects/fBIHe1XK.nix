@@ -60,6 +60,7 @@ let
         "forge-26.1.1" = _Gkdmr80f;
         "forge-26.1.2" = _Gkdmr80f;
         "forge-26.2" = _Gkdmr80f;
+        "default" = _Gkdmr80f;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -80,4 +81,4 @@ let
                 };
             };
         };
-in callPackage fn {version="Gkdmr80f";}
+in callPackage fn {version="default";}

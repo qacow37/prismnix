@@ -117,6 +117,7 @@ let
         "kgLseT27" = _kgLseT27;
         "HqGpaSfC" = _HqGpaSfC;
         "forge-1.20.1" = _HqGpaSfC;
+        "default" = _HqGpaSfC;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -137,4 +138,4 @@ let
                 };
             };
         };
-in callPackage fn {version="HqGpaSfC";}
+in callPackage fn {version="default";}

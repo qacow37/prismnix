@@ -103,6 +103,7 @@ let
         "quilt-1.20.2" = _NhdzSYCp;
         "quilt-1.20.3" = _NhdzSYCp;
         "quilt-1.20.4" = _NhdzSYCp;
+        "default" = _gIZsppDh;
     });
     fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
@@ -123,4 +124,4 @@ let
                 };
             };
         };
-in callPackage fn {version="gIZsppDh";}
+in callPackage fn {version="default";}
