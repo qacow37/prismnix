@@ -17,15 +17,13 @@
 	in
 	{
 		homeModules = {
-			prismnix = import ./homeModules/prismnix
-				{
-					self = self;
-					lib = lib;
-					inputs = inputs;
-				};
+			prismnix = import ./homeModules/prismnix.nix
+			{
+				lib = lib;
+				inputs = inputs;
+			};
 		};
-		components   = import ./components {inherit lib;};
-		lib.prismnix = import ./lib        {inherit lib;};
+		lib.prismnix = import ./lib {inherit lib;};
 
 		overlays = {
 			default = final: prev: {
@@ -40,6 +38,8 @@
 			packages = import ./packages {
 				lib = lib;
 				callPackage = pkgs.callPackage;
+				inputs = inputs;
+				system = system;
 			};
 			devShells.default = pkgs.mkShell {
 				packages = with pkgs; [
