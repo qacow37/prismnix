@@ -6,15 +6,14 @@ import nix
 _default = """{lib, callPackage, ...}:
 let
     versions = {{versions | indent(4, first=false)}};
-    fn = {stdenv, fetchurl, version?null, ...}:
+    fn = {stdenv, fetchurl, version, ...}:
         lib.prismnix.pkgs.mkVersionedModrinthPkg {
             inherit stdenv fetchurl;
             name = {{slug}};
             id = {{id}};
             type = {{type}};
-            default = {{latest}};
-            versions = versions;
             version = version;
+            versions = versions;
             meta = {
                 license = lib.getLicenseFromSpdxIdOr {{licenseid}} {
                     free = false;
@@ -26,7 +25,7 @@ let
                 };
             };
         };
-in callPackage fn {}"""
+in callPackage fn {version="default";}"""
 
 @dataclass
 class PkgTemplateParams:
@@ -80,6 +79,7 @@ class PkgTemplate:
         for ref, id in params.versions.refs.items():
             var = f"_{id}"
             versions.val[ref] = nix.Var(var)
+        versions.val["default"] = nix.Var(f"_{params.latest}")
 
         templ = self.env.get_template("default")
         return templ.stream({
