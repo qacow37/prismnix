@@ -1,4 +1,4 @@
-{lib, callPackage, ...}@args:
+{lib, callPackage, inputs, system, ...}@args:
 let
 	proj = import ./projects args;
 in proj //
@@ -15,4 +15,7 @@ in proj //
 		callPackage
 		lib.prismnix.pkgs.mkVersionedModrinthPkg
 		args;
+
+	# Reexport PrismLauncher package
+	prismlauncher = inputs.prismlauncher.packages.${system}.default;
 }
