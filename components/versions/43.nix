@@ -1,1 +1,0 @@
-{game={uid="net.minecraft";version="26.1-snapshot-4";important=true;};neoforge={uid="net.neoforged";version="26.1.0.0-alpha.8+snapshot-4";};}

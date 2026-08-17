@@ -1,1 +1,0 @@
-{game={uid="net.minecraft";version="3D Shareware v1.34";important=true;};}

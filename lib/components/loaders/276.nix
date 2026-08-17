@@ -1,0 +1,1 @@
+{minecraft="22w24a";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}

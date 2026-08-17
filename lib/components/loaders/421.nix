@@ -1,0 +1,1 @@
+{minecraft="20w14infinite";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}

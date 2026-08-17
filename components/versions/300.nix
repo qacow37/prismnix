@@ -1,1 +1,0 @@
-{game={uid="net.minecraft";version="1.19_deep_dark_experimental_snapshot-1";important=true;};}

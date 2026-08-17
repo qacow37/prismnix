@@ -1,1 +1,0 @@
-{game={uid="net.minecraft";version="26.1-snapshot-9";important=true;};}

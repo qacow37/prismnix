@@ -1,0 +1,1 @@
+{minecraft="1.21.11-rc2_unobfuscated";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}
