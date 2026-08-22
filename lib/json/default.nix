@@ -15,4 +15,6 @@
 			&& (lib.types.json.check v);
 		merge = lib.options.mergeDefaultOption;
 	};
+
+	toJSON = lib.generators.toJSON {};
 }

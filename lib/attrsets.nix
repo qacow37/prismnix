@@ -203,4 +203,83 @@
 			item
 			attrset
 	);
+
+	/**
+		Create a function that returns attributes
+		for the given attrset.
+
+		# Inputs
+
+		`attrset`
+
+		: Attrset to transform into a function
+
+		# Type
+
+		```
+		asFunction :: { String :: a } -> (String -> a)
+		```
+	*/
+	asFunction = attrset: (attr:
+		attrset.${attr}
+	);
+
+	/**
+		Create a function that returns attributes
+		for a given attrset. If the requested attribute
+		is not in the attrset, the function will return
+		the given default.
+
+		# Inputs
+
+		`attrset`
+
+		: Attrset to transform into a function
+
+		`default`
+
+		: Default to return if the attribute is not in the attrset
+
+		# Type
+
+		```
+		asFunctionWithDefault :: { String :: a } -> a -> (String -> a)
+		```
+	*/
+	asFunctionWithDefault = set: default: (attr:
+		if (builtins.hasAttr attr set)
+			then set.${attr}
+			else default
+	);
+
+	attrsAsFn = asFunction;
+	attrsAsFnDefault = asFunctionWithDefault;
+
+	/**
+		Call a function for each attribute in a set
+		and return all result lists concatted.
+
+		# Inputs
+
+		`f`
+
+		: A function, given an attributes name and value,
+		  returns a list of new values
+
+		`attrset`
+
+		: Attrset to map over
+
+		# Type
+
+		```
+		concatMapAttrsToList :: (String -> a -> [b]) -> { String :: a } -> [b]
+		```
+	*/
+	concatMapAttrsToList = f: attrset: (
+		lib.concatLists (lib.mapAttrsToList
+			f
+			attrset
+		)
+	);
 }

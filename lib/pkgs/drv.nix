@@ -60,9 +60,9 @@
 			stdenv = stdenv;
 			name = "${name}-pkg";
 			pkgs = pkgs;
-			files = lib.prismnix.filesystem.files fs;
+			files = lib.prismnix.filesFS fs;
 		};
-		fs = lib.prismnix.filesystem.validate name filesystem;
+		fs = lib.prismnix.validateFS name filesystem;
 	in
 	{
 		name = name;
@@ -106,7 +106,7 @@
 			${lib.concatMapAttrsStringSep
 				"\n"
 				(_: e: ''linkl "${e.target}"'')
-				(lib.prismnix.filesystem.filterLinks fs)
+				(lib.prismnix.filterLinksFS fs)
 			}
 			linkr ${pkg}/minecraft "${o}"
 		'';

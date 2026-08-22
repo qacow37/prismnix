@@ -1,11 +1,17 @@
 {lib, ...}: rec
 {
-	mkScopedMod = {name, specialArgs?{}}: mod:
+	mkScopedMod = {
+		name,
+		specialArgs?{},
+		transform?(y: y),
+	}: mod:
 	{config, options, ...}:
 	let
-		m = if (builtins.isFunction mod)
-			then mod args
-			else mod;
+		m = transform (
+			if (builtins.isFunction mod)
+				then mod args
+				else mod
+		);
 		args = specialArgs // {
 			lib = lib;
 			config = config.${name};
@@ -16,7 +22,7 @@
 	{
 		config = (
 			if (m ? config) == true
-				then lib.mapAttrs (k: v:
+				then lib.prismnix.mapModuleAttrs (k: v:
 					lib.mkIf
 						config.${name}.enable
 						v
@@ -45,6 +51,7 @@
 		specialArgs?{},
 		modules?[],
 		enableByDefault?false,
+		modTransform?(y: y),
 		...
 	}: {
 		options = {
@@ -59,6 +66,7 @@
 		imports = map (m: mkScopedMod {
 			name = name;
 			specialArgs = specialArgs;
+			transform = modTransform;
 		} m) modules;
 	};
 }
