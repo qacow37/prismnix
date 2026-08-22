@@ -9,19 +9,21 @@
 	};
 	config.instance = {
 		packages = map (pkg:
-			lib.prismnix.minecraft.packages.pkgFor {
-				mod-loader = let c = config.mod-loader; in (
-					lib.prismnix.orNull
-						c.enable
-						c.loader
-				);
-				shader-loader = let c = config.shader-loader; in (
-					lib.prismnix.orNull
-						c.enable
-						c.loader
-				);
-				version = config.version;
+			lib.prismnix.minecraft.pkgs.tryOverrideByType {
 				pkg = pkg;
+				types = lib.prismnix.attrsAsFnDefault {
+					"mod" = let c = config.mod-loader; in (
+						if c.enable == true
+							then "${c.loader}-${config.version}"
+							else throw "prismnix: for installing mods you must enable a mod-loader"
+					);
+					"shader" = let c = config.shader-loader; in (
+						if c.enable == true
+							then "${c.loader}-${config.version}"
+							else throw "prismnix: for installing shaders you must enable a shader-loader"
+					);
+					"resourcepack" = "minecraft-${config.version}";
+				} null;
 			}
 		) config.packages;
 	};
