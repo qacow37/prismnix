@@ -1,36 +1,34 @@
-{lib, pkgs, config, options, version, ...}:
-lib.prismnix.minecraft.mkMod {
-	name = "sound-controller";
-
-	settings = {config, ...}: {
-		file = "soundcontroller.json";
-		format = "json";
+{lib, pkgs, config, ...}:
+{
+	sound-controller = let cfg = config.sound-controller; in {
+		package = pkgs.prismnix.sound-controller;
 
 		options = {
-			display-subtitles = lib.mkOption {
-				type = lib.types.bool;
-				default = false;
-				description = "Whether to enable displaying subtitles with sound IDs";
-			};
-			sounds = lib.mkOption {
-				type = lib.types.attrsOf lib.types.float;
-				default = {};
-				description = "Sound IDs to set to a specific volume";
+			settings = lib.prismnix.minecraft.mods.mkConfigOptions {
+				display-subtitles = lib.mkOption {
+					type = lib.types.bool;
+					default = false;
+					description = "Whether to enable displaying subtitles with sound IDs";
+				};
+				sounds = lib.mkOption {
+					type = lib.types.attrsOf lib.types.float;
+					default = {};
+					description = "Sound IDs to set to a specific volume";
+				};
 			};
 		};
-		config = {
-			"subtitlesEnabled" = config.display-subtitles;
-			"sounds" = lib.mapAttrsToList (k: v:
-				{
-					"soundId" = k;
-					"volume" = v;
-				}
-			) config.sounds;
+		config = lib.prismnix.minecraft.mods.mkConfigFile cfg.settings {
+			filename = "soundcontroller.json";
+			format = "json";
+			content = {
+				"subtitlesEnabled" = cfg.settings.display-subtitles;
+				"sounds" = lib.mapAttrsToList (k: v:
+					{
+						"soundId" = k;
+						"volume" = v;
+					}
+				) cfg.settings.sounds;
+			};
 		};
 	};
-
-	pkg = pkgs.prismnix.sound-controller;
-	version = version;
-	options = options;
-	config = config;
 }
