@@ -1,30 +1,34 @@
 # prismnix
-A flake to install [PrismLauncher](https://prismlauncher.org/) for Minecraft and create your instances declaratively.
+A flake to install [PrismLauncher](https://prismlauncher.org/)
+for Minecraft and create your instances declaratively.
 
 ## Contribution
 The project is in a usable state, but it lives from community contributions:
-Many options, especially options for many mods, are still missing.
+Many nix options, especially options for many mods, are still missing.
 If you would like to help, even if you are not sure where to start, please see the detailed guide [here](./docs/contribute/contribute.md).
 
 ## Features
-- Declarative PrismLauncher Management:
-  Installs PrismLauncher and allows you to declarativly
-  create your instances. This includes setting the game version
-  and the java settings directly in your Nix configuration.
-- Easy Mod Management:
+- **Manage Instances Declaratively**:
+  Allows you to declarativly create your instances.
+  This includes setting the game version, the java settings
+  and many more things directly in your Nix configuration.
+
+- **Easy Mod Management**:
   Install mods, resource packs, and shader packs from Modrinth
   without manually entering a single hash or URL.
   The flake handles resolution and downloading automatically
-  by leveraging its extensive library of over **30,000 pre-defined package derivations**.
-- Smart Updates & Pinning:
+  by leveraging its large library of over **30,000 pre-defined packages**.
+
+- **Updates & Pinning**:
   Mods and resources automatically update to their latest versions
-  when you rebuild your flake, while still allowing you
-  to pin them to specific versions.
-- Extensible Option Library:
+  when building your configuration, while still allowing you
+  to pin them to specific versions by using their versionid.
+
+- **Easy To Expand**:
   Built with a modular architecture that makes it trivial
-  to contribute new options. A growing library of
-  existing options serves as a template
-  for adding missing features.
+  to contribute new options. A growing library of existing utility
+  helps you to easily contribute new options. Many existing
+  options can also serve as a template for your options.
 
 ## Configuration
 Please refer to the [docs](./docs/configuration/configuration.md).
