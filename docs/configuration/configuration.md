@@ -93,6 +93,8 @@ with what window size the Minecraft window should open.
 
 Here is a short list of the most commonly used options:
 
+---
+
 #### General Options
 General options include options which are not scoped
 in a sub section:
@@ -186,6 +188,8 @@ programs.prismnix.instances."My Instance" = {
 };
 ```
 
+---
+
 ### Minecraft options
 All Minecraft options are nested under `minecraft` submodule.
 To enable it:
@@ -202,14 +206,22 @@ programs.prismnix.instances."My Instance" = {
 };
 ```
 
+---
+
 #### Mods
 For detailed instructions, [look here](./mods.md).
+
+---
 
 #### Shaders
 For detailed instructions, [look here](./shaders.md).
 
+---
+
 #### Packages
 For detailed instructions, [look here](./packages.md).
+
+---
 
 #### Options for Minecraft Versions 1.20+
 For instances with a Minecraft version of 1.20 or later
