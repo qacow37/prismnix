@@ -11,23 +11,20 @@ let
         "forge-1.12.2" = _EMoyIDPa;
         "default" = _EMoyIDPa;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dragon-mounts-legacy-continued";
-            id = "D2l6Eoka";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Unlicense";
-                    shortName = "LicenseRef-Unlicense";
-                    url = "https://github.com/backuporg/dragon-mounts/blob/1.12.2/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dragon-mounts-legacy-continued";
+        id = "D2l6Eoka";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Unlicense";
+                shortName = "LicenseRef-Unlicense";
+                url = "https://github.com/backuporg/dragon-mounts/blob/1.12.2/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

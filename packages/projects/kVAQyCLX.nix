@@ -242,23 +242,20 @@ let
         "fabric-26.2" = _P8vUrYcA;
         "default" = _P8vUrYcA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "resclone";
-            id = "kVAQyCLX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "resclone";
+        id = "kVAQyCLX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

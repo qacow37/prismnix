@@ -289,23 +289,20 @@ let
         "forge-1.21.11" = _v563cvgV;
         "default" = _fFM66ltD;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "crawl";
-            id = "H1JOVjhn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Do What The F*ck You Want To Public License";
-                    shortName = "WTFPL";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "crawl";
+        id = "H1JOVjhn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Do What The F*ck You Want To Public License";
+                shortName = "WTFPL";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

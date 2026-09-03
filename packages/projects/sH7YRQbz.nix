@@ -18,23 +18,20 @@ let
         "fabric-1.21.1" = _Uacz9jxf;
         "default" = _Uacz9jxf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "copper-age-backport-durability-fix";
-            id = "sH7YRQbz";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "copper-age-backport-durability-fix";
+        id = "sH7YRQbz";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

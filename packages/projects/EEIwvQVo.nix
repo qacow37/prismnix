@@ -206,23 +206,20 @@ let
         "neoforge-1.21.7" = _xWUN0cml;
         "default" = _xWUN0cml;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tidal-towns";
-            id = "EEIwvQVo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tidal-towns";
+        id = "EEIwvQVo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

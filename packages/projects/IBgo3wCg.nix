@@ -50,23 +50,20 @@ let
         "quilt-1.20.1" = _pPvOG8VV;
         "default" = _pPvOG8VV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "calculatorrinf-uwu";
-            id = "IBgo3wCg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "calculatorrinf-uwu";
+        id = "IBgo3wCg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

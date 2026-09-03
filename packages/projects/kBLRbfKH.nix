@@ -139,23 +139,20 @@ let
         "folia-26.2" = _f6yD7X4t;
         "default" = _f6yD7X4t;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "betterview";
-            id = "kBLRbfKH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://github.com/MinceraftMC/BetterView/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "betterview";
+        id = "kBLRbfKH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://github.com/MinceraftMC/BetterView/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

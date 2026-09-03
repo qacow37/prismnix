@@ -36,23 +36,20 @@ let
         "minecraft-1.20.1" = _2OHgDhp2;
         "default" = _2OHgDhp2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "armor-strength-color-varying!";
-            id = "2QhJJ73i";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://www.bing.com/ck/a?!&&p=8bbc54210a0afcb7c95be605cd98ba01209fd0d3a986ef7f460073918086e4aeJmltdHM9MTc0MDUyODAwMA&ptn=3&ver=2&hsh=4&fclid=0533c94f-ca26-6c39-3a22-dc17cb816d72&psq=mit+license&u=a1aHR0cHM6Ly9taXQtbGljZW5zZS5vcmcv&ntb=1";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "armor-strength-color-varying!";
+        id = "2QhJJ73i";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://www.bing.com/ck/a?!&&p=8bbc54210a0afcb7c95be605cd98ba01209fd0d3a986ef7f460073918086e4aeJmltdHM9MTc0MDUyODAwMA&ptn=3&ver=2&hsh=4&fclid=0533c94f-ca26-6c39-3a22-dc17cb816d72&psq=mit+license&u=a1aHR0cHM6Ly9taXQtbGljZW5zZS5vcmcv&ntb=1";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

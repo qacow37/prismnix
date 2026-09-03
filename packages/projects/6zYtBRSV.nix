@@ -756,23 +756,20 @@ let
         "fabric-26.2" = _UJOIaLm2;
         "default" = _UJOIaLm2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "topper-lb";
-            id = "6zYtBRSV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/HSGamer/Topper/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "topper-lb";
+        id = "6zYtBRSV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/HSGamer/Topper/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

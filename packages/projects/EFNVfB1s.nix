@@ -250,23 +250,20 @@ let
         "quilt-1.21.4" = _RVXtgzVV;
         "default" = _RVXtgzVV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ctlibmod";
-            id = "EFNVfB1s";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "The Unlicense";
-                    shortName = "Unlicense";
-                    url = "https://unlicense.org/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ctlibmod";
+        id = "EFNVfB1s";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "The Unlicense";
+                shortName = "Unlicense";
+                url = "https://unlicense.org/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

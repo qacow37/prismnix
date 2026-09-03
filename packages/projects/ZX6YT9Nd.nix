@@ -17,23 +17,20 @@ let
         "forge-1.20.1" = _T7K6JUXL;
         "default" = _T7K6JUXL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "yetgamers-crawling";
-            id = "ZX6YT9Nd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "yetgamers-crawling";
+        id = "ZX6YT9Nd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

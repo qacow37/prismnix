@@ -58,23 +58,20 @@ let
         "folia-1.21.8" = _OCdapQFT;
         "default" = _OCdapQFT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simple-timber";
-            id = "X2a0QZnY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/K4RUNIO/simpleTimber/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-timber";
+        id = "X2a0QZnY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/K4RUNIO/simpleTimber/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

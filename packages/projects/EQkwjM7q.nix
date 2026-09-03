@@ -530,23 +530,20 @@ let
         "neoforge-1.21.1" = _lDwGzIKP;
         "default" = _lDwGzIKP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "songs-of-war";
-            id = "EQkwjM7q";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://github.com/ArkTechMC/SongsOfWar?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "songs-of-war";
+        id = "EQkwjM7q";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://github.com/ArkTechMC/SongsOfWar?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

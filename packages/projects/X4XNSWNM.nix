@@ -122,23 +122,20 @@ let
         "fabric-1.19.4" = _dgWGFJmM;
         "default" = _xFpUSQ7a;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enderite-lieonlion";
-            id = "X4XNSWNM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/LieOnLion/Enderite/blob/Forge-1.19.4/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enderite-lieonlion";
+        id = "X4XNSWNM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/LieOnLion/Enderite/blob/Forge-1.19.4/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

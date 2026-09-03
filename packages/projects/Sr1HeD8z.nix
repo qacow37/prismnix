@@ -3748,23 +3748,20 @@ let
         "quilt-26.1.2" = _32DtlEjn;
         "default" = _77s2UUQy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "woodwalkers";
-            id = "Sr1HeD8z";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/ToCraft/woodwalkers-mod/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "woodwalkers";
+        id = "Sr1HeD8z";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/ToCraft/woodwalkers-mod/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -312,23 +312,20 @@ let
         "folia-1.21.11" = _xU0dPRG2;
         "default" = _xU0dPRG2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "easy-worldmanager";
-            id = "QAtLcYVG";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/Mathildeuh/WorldManager/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "easy-worldmanager";
+        id = "QAtLcYVG";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/Mathildeuh/WorldManager/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

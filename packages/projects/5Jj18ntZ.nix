@@ -174,23 +174,20 @@ let
         "fabric-1.21.5" = _c7esIKnA;
         "default" = _c7esIKnA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mentioned";
-            id = "5Jj18ntZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Kirdow/MentionedMod/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mentioned";
+        id = "5Jj18ntZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Kirdow/MentionedMod/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

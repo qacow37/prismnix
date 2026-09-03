@@ -56,23 +56,20 @@ let
         "fabric-26.2" = _GgcB7D50;
         "default" = _GgcB7D50;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "neotooltipfix";
-            id = "6zODptkY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0 AND MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0, MIT License";
-                    shortName = "MPL-2.0 AND MIT";
-                    url = "https://github.com/NGSpace/neotooltipfix/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "neotooltipfix";
+        id = "6zODptkY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0 AND MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0, MIT License";
+                shortName = "MPL-2.0 AND MIT";
+                url = "https://github.com/NGSpace/neotooltipfix/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

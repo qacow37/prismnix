@@ -79,23 +79,20 @@ let
         "forge-1.20.1" = _4Ac3gXoA;
         "default" = _4Ac3gXoA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "reworked-witch-origin";
-            id = "HZXJMfKZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/CodingPanda0623/Reworked-Witch-Origin?tab=MIT-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "reworked-witch-origin";
+        id = "HZXJMfKZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/CodingPanda0623/Reworked-Witch-Origin?tab=MIT-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -393,23 +393,20 @@ let
         "neoforge-1.21.11" = _g77tKkwx;
         "default" = _g77tKkwx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "some-more-blocks";
-            id = "R1LxuhQe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Seface-Studios/some-more-blocks/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "some-more-blocks";
+        id = "R1LxuhQe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Seface-Studios/some-more-blocks/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

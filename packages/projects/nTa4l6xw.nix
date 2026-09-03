@@ -102,23 +102,20 @@ let
         "forge-1.19.2" = _9GiO4PfL;
         "default" = _VaSG7H3K;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "marblegates-exotic-enchantment-flowing-agony-reborn";
-            id = "nTa4l6xw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
-                    shortName = "BSD-3-Clause";
-                    url = "https://github.com/Error1015/FlowingAgony-Reborn/blob/1.20.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "marblegates-exotic-enchantment-flowing-agony-reborn";
+        id = "nTa4l6xw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                shortName = "BSD-3-Clause";
+                url = "https://github.com/Error1015/FlowingAgony-Reborn/blob/1.20.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

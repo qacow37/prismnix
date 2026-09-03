@@ -31,23 +31,20 @@ let
         "fabric-26.1.2" = _S39FznES;
         "default" = _S39FznES;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enhanced-chat";
-            id = "ijy5hQgT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://github.com/KdGaming0/Enhanced-Chat?tab=GPL-3.0-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enhanced-chat";
+        id = "ijy5hQgT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://github.com/KdGaming0/Enhanced-Chat?tab=GPL-3.0-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

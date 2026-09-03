@@ -810,23 +810,20 @@ let
         "ornithe-b1.7.3" = _1xhHxknV;
         "default" = _D5dOLqYl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "minecraftcapes";
-            id = "9gNVPfzw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 only";
-                    shortName = "LGPL-2.1-only";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "minecraftcapes";
+        id = "9gNVPfzw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 only";
+                shortName = "LGPL-2.1-only";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

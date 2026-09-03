@@ -630,23 +630,20 @@ let
         "minecraft-26.2" = _Sb1phOeJ;
         "default" = _Sb1phOeJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "no-block-break-particles";
-            id = "pBNA8g5m";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://codeberg.org/NeoNyaa/No-Block-Break-Particles/src/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "no-block-break-particles";
+        id = "pBNA8g5m";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://codeberg.org/NeoNyaa/No-Block-Break-Particles/src/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

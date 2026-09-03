@@ -179,23 +179,20 @@ let
         "neoforge-1.21.8" = _aqWRCSCn;
         "default" = _9O577c4o;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "auto-twerk";
-            id = "SsUJxcog";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "auto-twerk";
+        id = "SsUJxcog";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

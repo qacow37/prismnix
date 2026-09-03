@@ -57,23 +57,20 @@ let
         "minecraft-1.20.1" = _ZslQczG8;
         "default" = _ZslQczG8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xalis-bushy-leaves";
-            id = "ff4JOkSA";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/xalixilax/xali-s-Bushy-Leaves/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xalis-bushy-leaves";
+        id = "ff4JOkSA";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/xalixilax/xali-s-Bushy-Leaves/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

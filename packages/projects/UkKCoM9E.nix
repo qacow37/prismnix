@@ -84,23 +84,20 @@ let
         "fabric-1.21.4" = _mPvlaKiZ;
         "default" = _mPvlaKiZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "grindstone-is-made-of-stone";
-            id = "UkKCoM9E";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Kir-Antipov/grindstone-is-made-of-stone/blob/1.17.x/stable/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "grindstone-is-made-of-stone";
+        id = "UkKCoM9E";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Kir-Antipov/grindstone-is-made-of-stone/blob/1.17.x/stable/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -34,23 +34,20 @@ let
         "minecraft-1.21.11" = _gSkY7y5p;
         "default" = _gSkY7y5p;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "custome_totem-skin";
-            id = "LvCO5SKL";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://creativecommons.org/licenses/by/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "custome_totem-skin";
+        id = "LvCO5SKL";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://creativecommons.org/licenses/by/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

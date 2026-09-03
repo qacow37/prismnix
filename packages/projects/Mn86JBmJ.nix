@@ -60,23 +60,20 @@ let
         "fabric-1.20.6" = _1HILon5w;
         "default" = _1HILon5w;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simple-hud-utilities";
-            id = "Mn86JBmJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/johnvictorfs/simple-utilities-mod/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-hud-utilities";
+        id = "Mn86JBmJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/johnvictorfs/simple-utilities-mod/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

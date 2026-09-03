@@ -48,23 +48,20 @@ let
         "iris-1.21.11" = _8ihbM9j8;
         "default" = _8ihbM9j8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lyrae-shaders";
-            id = "EjUbGcrd";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Project-Lyrae-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Project-Lyrae-License";
-                    shortName = "LicenseRef-Project-Lyrae-License";
-                    url = "https://github.com/kadir014/lyrae-shaders/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lyrae-shaders";
+        id = "EjUbGcrd";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Project-Lyrae-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Project-Lyrae-License";
+                shortName = "LicenseRef-Project-Lyrae-License";
+                url = "https://github.com/kadir014/lyrae-shaders/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

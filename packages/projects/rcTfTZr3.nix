@@ -612,23 +612,20 @@ let
         "liteloader-1.7.10" = _LIWEWgbC;
         "default" = _xjmToylJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "presence-footsteps";
-            id = "rcTfTZr3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield-1.0";
-                    shortName = "LicenseRef-Polyform-Shield-1.0";
-                    url = "https://polyformproject.org/licenses/shield/1.0.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "presence-footsteps";
+        id = "rcTfTZr3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield-1.0";
+                shortName = "LicenseRef-Polyform-Shield-1.0";
+                url = "https://polyformproject.org/licenses/shield/1.0.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

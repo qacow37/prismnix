@@ -68,23 +68,20 @@ let
         "minecraft-26.2" = _kVXh1SbO;
         "default" = _kVXh1SbO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "christmas-bundles";
-            id = "E41fWeco";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/JimiIT92/ChristmasBundles?tab=MIT-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "christmas-bundles";
+        id = "E41fWeco";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/JimiIT92/ChristmasBundles?tab=MIT-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -48,23 +48,20 @@ let
         "fabric-1.20.6" = _Gy5LnJu9;
         "default" = _Gy5LnJu9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "javadungeons";
-            id = "Qg8XcLNJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/ashie404/JavaDungeons/blob/1.20/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "javadungeons";
+        id = "Qg8XcLNJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/ashie404/JavaDungeons/blob/1.20/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

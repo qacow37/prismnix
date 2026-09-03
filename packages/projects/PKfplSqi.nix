@@ -11,23 +11,20 @@ let
         "minecraft-1.21" = _9QzH8l7r;
         "default" = _9QzH8l7r;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "blue-style-cpvp-pack-16x";
-            id = "PKfplSqi";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "blue-style-cpvp-pack-16x";
+        id = "PKfplSqi";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

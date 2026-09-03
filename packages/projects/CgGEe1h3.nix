@@ -7238,23 +7238,20 @@ let
         "quilt-26.2" = _jpm7c87b;
         "default" = _qC11T86y;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "easy-npc";
-            id = "CgGEe1h3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/MarkusBordihn/BOs-Easy-NPC/blob/1.20.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "easy-npc";
+        id = "CgGEe1h3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/MarkusBordihn/BOs-Easy-NPC/blob/1.20.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

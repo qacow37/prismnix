@@ -54,23 +54,20 @@ let
         "neoforge-1.21.1" = _RvIJ0GwH;
         "default" = _RvIJ0GwH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "patsb";
-            id = "gsyF64Pp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://raw.githubusercontent.com/NiTiSon/PotionsAsTheyShouldBe/refs/heads/indev/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "patsb";
+        id = "gsyF64Pp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://raw.githubusercontent.com/NiTiSon/PotionsAsTheyShouldBe/refs/heads/indev/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

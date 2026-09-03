@@ -312,23 +312,20 @@ let
         "minecraft-1.8.9" = _NS8F880a;
         "default" = _NS8F880a;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "minimal-pixel-crosshair";
-            id = "are6GyAd";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/NovaXIII/my-license/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "minimal-pixel-crosshair";
+        id = "are6GyAd";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/NovaXIII/my-license/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -176,23 +176,20 @@ let
         "quilt-1.21.8" = _r2tGEPpo;
         "default" = _ZHj4PNv8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tiny-item-animations";
-            id = "wMkevcSR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LPUL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LPUL";
-                    shortName = "LicenseRef-LPUL";
-                    url = "https://github.com/Trivaxy/Tiny-Item-Animations/blob/multiloader-1.21/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tiny-item-animations";
+        id = "wMkevcSR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LPUL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LPUL";
+                shortName = "LicenseRef-LPUL";
+                url = "https://github.com/Trivaxy/Tiny-Item-Animations/blob/multiloader-1.21/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

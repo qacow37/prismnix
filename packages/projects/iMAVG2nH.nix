@@ -59,23 +59,20 @@ let
         "neoforge-1.21.1" = _UlajPCS1;
         "default" = _UlajPCS1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "analog-audio";
-            id = "iMAVG2nH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PMOL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PMOL-1.0";
-                    shortName = "LicenseRef-PMOL-1.0";
-                    url = "https://playgroundmods.github.io/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "analog-audio";
+        id = "iMAVG2nH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PMOL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PMOL-1.0";
+                shortName = "LicenseRef-PMOL-1.0";
+                url = "https://playgroundmods.github.io/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

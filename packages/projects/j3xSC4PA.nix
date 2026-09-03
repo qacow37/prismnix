@@ -378,23 +378,20 @@ let
         "neoforge-26.2" = _Gm4byhYU;
         "default" = _Gm4byhYU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "homeostatic-seasons";
-            id = "j3xSC4PA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/wendall911/HomeostaticSeasons/blob/1.21.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "homeostatic-seasons";
+        id = "j3xSC4PA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/wendall911/HomeostaticSeasons/blob/1.21.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

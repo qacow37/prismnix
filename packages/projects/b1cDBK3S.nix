@@ -23,23 +23,20 @@ let
         "minecraft-1.15.1" = _OY7EdU5q;
         "default" = _OY7EdU5q;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "critical-particle-fix";
-            id = "b1cDBK3S";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://codeberg.org/NeoNyaa/Minecraft-Java-Addons/src/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "critical-particle-fix";
+        id = "b1cDBK3S";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://codeberg.org/NeoNyaa/Minecraft-Java-Addons/src/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

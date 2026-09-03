@@ -165,23 +165,20 @@ let
         "neoforge-1.21.4" = _EbwKU4DE;
         "default" = _EbwKU4DE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "villager-armor-layer";
-            id = "eTGQghnD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 only";
-                    shortName = "AGPL-3.0-only";
-                    url = "https://github.com/Viola-Siemens/Villager-Armor-Layer/blob/dev/Forge-1.16.5-v1.0.X/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "villager-armor-layer";
+        id = "eTGQghnD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
+                url = "https://github.com/Viola-Siemens/Villager-Armor-Layer/blob/dev/Forge-1.16.5-v1.0.X/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -304,23 +304,20 @@ let
         "fabric-1.21.11" = _dt3IWqUW;
         "default" = _dt3IWqUW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "creeper-healing";
-            id = "umAqxZ6n";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "creeper-healing";
+        id = "umAqxZ6n";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

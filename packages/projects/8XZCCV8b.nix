@@ -69,23 +69,20 @@ let
         "quilt-1.20.4" = _QUptyEtK;
         "default" = _QUptyEtK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "betterleads";
-            id = "8XZCCV8b";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/quaoz/BetterLeads/blob/1.20/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "betterleads";
+        id = "8XZCCV8b";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/quaoz/BetterLeads/blob/1.20/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

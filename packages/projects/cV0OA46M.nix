@@ -32,23 +32,20 @@ let
         "neoforge-1.21.1" = _d9Mz6Ci3;
         "default" = _d9Mz6Ci3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-mob-variants-modernized";
-            id = "cV0OA46M";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Delta-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Delta-License";
-                    shortName = "LicenseRef-Delta-License";
-                    url = "https://github.com/AkshajxGit/MoreMobVariants/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-mob-variants-modernized";
+        id = "cV0OA46M";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Delta-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Delta-License";
+                shortName = "LicenseRef-Delta-License";
+                url = "https://github.com/AkshajxGit/MoreMobVariants/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

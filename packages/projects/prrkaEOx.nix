@@ -26,23 +26,20 @@ let
         "fabric-1.20.6" = _qieHtt5b;
         "default" = _qieHtt5b;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "visible-shield-cooldown";
-            id = "prrkaEOx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 or later";
-                    shortName = "AGPL-3.0-or-later";
-                    url = "https://github.com/Viola-Siemens/Visible-Shield-Cooldown?tab=AGPL-3.0-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "visible-shield-cooldown";
+        id = "prrkaEOx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 or later";
+                shortName = "AGPL-3.0-or-later";
+                url = "https://github.com/Viola-Siemens/Visible-Shield-Cooldown?tab=AGPL-3.0-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

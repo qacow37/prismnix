@@ -113,23 +113,20 @@ let
         "minecraft-1.16.1" = _7F0FQmWx;
         "default" = _7F0FQmWx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-ores";
-            id = "WEQrUsiR";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Share Alike 4.0 International";
-                    shortName = "CC-BY-SA-4.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-ores";
+        id = "WEQrUsiR";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Share Alike 4.0 International";
+                shortName = "CC-BY-SA-4.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

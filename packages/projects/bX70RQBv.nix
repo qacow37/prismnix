@@ -34,23 +34,20 @@ let
         "minecraft-1.21.6" = _v3yDMbJc;
         "default" = _v3yDMbJc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "explosion";
-            id = "bX70RQBv";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Share Alike 4.0 International";
-                    shortName = "CC-BY-SA-4.0";
-                    url = "https://git.frfrnocap.men/endernon/skyblock-tweaks/raw/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "explosion";
+        id = "bX70RQBv";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Share Alike 4.0 International";
+                shortName = "CC-BY-SA-4.0";
+                url = "https://git.frfrnocap.men/endernon/skyblock-tweaks/raw/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

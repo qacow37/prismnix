@@ -192,23 +192,20 @@ let
         "quilt-1.21.3" = _8wb6eb7K;
         "default" = _AN3kaZot;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nightvision-spyglass";
-            id = "mOl6kTX8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Phytons-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Phytons-Custom-License";
-                    shortName = "LicenseRef-Phytons-Custom-License";
-                    url = "https://github.com/Phytonlp/legal/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nightvision-spyglass";
+        id = "mOl6kTX8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Phytons-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Phytons-Custom-License";
+                shortName = "LicenseRef-Phytons-Custom-License";
+                url = "https://github.com/Phytonlp/legal/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

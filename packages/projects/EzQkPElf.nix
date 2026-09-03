@@ -36,23 +36,20 @@ let
         "neoforge-1.21.1" = _Jy1AfUlC;
         "default" = _kcaoltFt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "welcome-screen";
-            id = "EzQkPElf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGNYA-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGNYA-License";
-                    shortName = "LicenseRef-AGNYA-License";
-                    url = "https://github.com/nvb-uy/WelcomeScreen/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "welcome-screen";
+        id = "EzQkPElf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGNYA-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGNYA-License";
+                shortName = "LicenseRef-AGNYA-License";
+                url = "https://github.com/nvb-uy/WelcomeScreen/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

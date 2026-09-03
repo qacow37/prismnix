@@ -94,23 +94,20 @@ let
         "neoforge-1.21.1" = _dIREDNNz;
         "default" = _kNzbP8Pi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hexlands";
-            id = "jkmTQqWQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/alcatrazEscapee/hexlands/blob/1.19.x/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hexlands";
+        id = "jkmTQqWQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/alcatrazEscapee/hexlands/blob/1.19.x/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

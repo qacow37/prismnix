@@ -411,23 +411,20 @@ let
         "fabric-26.2" = _10QpYKuY;
         "default" = _10QpYKuY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "skyocean";
-            id = "dIczrQAR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyOcean" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SkyOcean";
-                    shortName = "LicenseRef-SkyOcean";
-                    url = "https://github.com/meowdding/SkyOcean/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "skyocean";
+        id = "dIczrQAR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyOcean" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SkyOcean";
+                shortName = "LicenseRef-SkyOcean";
+                url = "https://github.com/meowdding/SkyOcean/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

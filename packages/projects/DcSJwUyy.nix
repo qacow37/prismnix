@@ -51,23 +51,20 @@ let
         "fabric-1.21.9" = _ujI9GJ0Q;
         "default" = _ujI9GJ0Q;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fastchest-revived";
-            id = "DcSJwUyy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/AkisYTB3/FastChestRevived/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fastchest-revived";
+        id = "DcSJwUyy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/AkisYTB3/FastChestRevived/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

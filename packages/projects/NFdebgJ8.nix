@@ -112,23 +112,20 @@ let
         "fabric-26.2" = _DovWvVft;
         "default" = _DovWvVft;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "savs-common-economy";
-            id = "NFdebgJ8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Zero v1.0 Universal";
-                    shortName = "CC0-1.0";
-                    url = "https://github.com/xSaVageAU/Savs-Common-Economy/blob/984b14be56eaed90b94ee4d1e892e9ee9037d212/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "savs-common-economy";
+        id = "NFdebgJ8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Zero v1.0 Universal";
+                shortName = "CC0-1.0";
+                url = "https://github.com/xSaVageAU/Savs-Common-Economy/blob/984b14be56eaed90b94ee4d1e892e9ee9037d212/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

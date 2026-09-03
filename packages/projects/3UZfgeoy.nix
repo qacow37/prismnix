@@ -660,23 +660,20 @@ let
         "purpur-26.2" = _sabwPV1D;
         "default" = _sabwPV1D;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fixlag";
-            id = "3UZfgeoy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 or later";
-                    shortName = "AGPL-3.0-or-later";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fixlag";
+        id = "3UZfgeoy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 or later";
+                shortName = "AGPL-3.0-or-later";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

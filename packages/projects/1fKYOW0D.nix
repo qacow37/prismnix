@@ -42,23 +42,20 @@ let
         "minecraft-1.21" = _9ZIQ41wX;
         "default" = _9ZIQ41wX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-better-shiny-mon";
-            id = "1fKYOW0D";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cobblemon-Better-Shiny-Mon-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Cobblemon-Better-Shiny-Mon-License";
-                    shortName = "LicenseRef-Cobblemon-Better-Shiny-Mon-License";
-                    url = "https://gist.github.com/Frozenbanditt/9725b0f59987bd9cf8d7deb670c357ca";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-better-shiny-mon";
+        id = "1fKYOW0D";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cobblemon-Better-Shiny-Mon-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Cobblemon-Better-Shiny-Mon-License";
+                shortName = "LicenseRef-Cobblemon-Better-Shiny-Mon-License";
+                url = "https://gist.github.com/Frozenbanditt/9725b0f59987bd9cf8d7deb670c357ca";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

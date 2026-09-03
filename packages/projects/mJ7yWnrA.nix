@@ -209,23 +209,20 @@ let
         "neoforge-1.21.1" = _FEKuWz1b;
         "default" = _FEKuWz1b;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "magitech_mod";
-            id = "mJ7yWnrA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Magitech-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Magitech-License";
-                    shortName = "LicenseRef-Magitech-License";
-                    url = "https://github.com/STLN-S1NcLair/Magitech-Neoforge-1.21.1/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "magitech_mod";
+        id = "mJ7yWnrA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Magitech-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Magitech-License";
+                shortName = "LicenseRef-Magitech-License";
+                url = "https://github.com/STLN-S1NcLair/Magitech-Neoforge-1.21.1/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

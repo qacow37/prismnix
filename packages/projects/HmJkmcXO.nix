@@ -101,23 +101,20 @@ let
         "fabric-1.21.4" = _4HzFvafV;
         "default" = _4HzFvafV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nohotbarlooping";
-            id = "HmJkmcXO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://raw.githubusercontent.com/Erb3/NoHotbarLooping/1.20/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nohotbarlooping";
+        id = "HmJkmcXO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://raw.githubusercontent.com/Erb3/NoHotbarLooping/1.20/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

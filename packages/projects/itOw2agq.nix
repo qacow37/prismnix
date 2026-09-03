@@ -87,23 +87,20 @@ let
         "neoforge-1.21.1" = _XOaPCedX;
         "default" = _XOaPCedX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "symbols-n-stuff";
-            id = "itOw2agq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-TDL-M" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-TDL-M";
-                    shortName = "LicenseRef-TDL-M";
-                    url = "https://github.com/fzzyhmstrs/Timefall-Development-Licence-Modified";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "symbols-n-stuff";
+        id = "itOw2agq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-TDL-M" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-TDL-M";
+                shortName = "LicenseRef-TDL-M";
+                url = "https://github.com/fzzyhmstrs/Timefall-Development-Licence-Modified";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

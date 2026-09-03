@@ -834,23 +834,20 @@ let
         "neoforge-26.1.2" = _TTL8n99s;
         "default" = _TTL8n99s;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "charged-charms";
-            id = "cqzqfZKX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 or later";
-                    shortName = "LGPL-3.0-or-later";
-                    url = "https://github.com/wendall911/ChargedCharms/blob/1.20.x/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "charged-charms";
+        id = "cqzqfZKX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 or later";
+                shortName = "LGPL-3.0-or-later";
+                url = "https://github.com/wendall911/ChargedCharms/blob/1.20.x/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

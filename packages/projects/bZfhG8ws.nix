@@ -42,23 +42,20 @@ let
         "forge-1.20.1" = _ifeZLfSY;
         "default" = _ifeZLfSY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "yet-another-furniture";
-            id = "bZfhG8ws";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Starfish-License";
-                    shortName = "LicenseRef-Starfish-License";
-                    url = "https://github.com/starfish-studios/One-More-Furniture?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "yet-another-furniture";
+        id = "bZfhG8ws";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Starfish-License";
+                shortName = "LicenseRef-Starfish-License";
+                url = "https://github.com/starfish-studios/One-More-Furniture?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

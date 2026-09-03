@@ -24,23 +24,20 @@ let
         "minecraft-26.2" = _S18Hw8gg;
         "default" = _S18Hw8gg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-pvp-visual";
-            id = "m2mK3Z3d";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-2--MIT---1--CC-BY-NC-SA-4.0---1--CC-BY-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-2--MIT---1--CC-BY-NC-SA-4.0---1--CC-BY-SA-4.0";
-                    shortName = "LicenseRef-2--MIT---1--CC-BY-NC-SA-4.0---1--CC-BY-SA-4.0";
-                    url = "https://raw.githubusercontent.com/AimLvca/Better-PvP-Visual/a5dc0c070befe70335f44ead6d3e110fe3d32cde/License-Credits.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-pvp-visual";
+        id = "m2mK3Z3d";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-2--MIT---1--CC-BY-NC-SA-4.0---1--CC-BY-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-2--MIT---1--CC-BY-NC-SA-4.0---1--CC-BY-SA-4.0";
+                shortName = "LicenseRef-2--MIT---1--CC-BY-NC-SA-4.0---1--CC-BY-SA-4.0";
+                url = "https://raw.githubusercontent.com/AimLvca/Better-PvP-Visual/a5dc0c070befe70335f44ead6d3e110fe3d32cde/License-Credits.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

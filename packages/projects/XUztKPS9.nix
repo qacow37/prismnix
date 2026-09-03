@@ -67,23 +67,20 @@ let
         "neoforge-1.21.1" = _l6fgFjUf;
         "default" = _l6fgFjUf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "the-aethers-delight";
-            id = "XUztKPS9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT";
-                    shortName = "LicenseRef-MIT";
-                    url = "https://spdx.org/licenses/MIT.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the-aethers-delight";
+        id = "XUztKPS9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT";
+                shortName = "LicenseRef-MIT";
+                url = "https://spdx.org/licenses/MIT.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

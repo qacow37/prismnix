@@ -982,23 +982,20 @@ let
         "neoforge-26.2" = _7ZvEZ1MT;
         "default" = _7ZvEZ1MT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "build-guide";
-            id = "XwBDibES";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr " \tCC-BY-NC-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 3.0 Unported";
-                    shortName = " \tCC-BY-NC-3.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "build-guide";
+        id = "XwBDibES";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr " \tCC-BY-NC-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 3.0 Unported";
+                shortName = " \tCC-BY-NC-3.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

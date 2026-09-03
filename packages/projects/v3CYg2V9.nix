@@ -1453,23 +1453,20 @@ let
         "neoforge-26.2" = _oxaKGAeG;
         "default" = _oxaKGAeG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "drippy-loading-screen";
-            id = "v3CYg2V9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSLv3";
-                    shortName = "LicenseRef-DSMSLv3";
-                    url = "https://github.com/Keksuccino/Drippy-Loading-Screen/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "drippy-loading-screen";
+        id = "v3CYg2V9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSLv3";
+                shortName = "LicenseRef-DSMSLv3";
+                url = "https://github.com/Keksuccino/Drippy-Loading-Screen/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

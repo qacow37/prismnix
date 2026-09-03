@@ -23,23 +23,20 @@ let
         "forge-1.20.1" = _8g9cu75G;
         "default" = _8g9cu75G;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tfth";
-            id = "sGz64mG6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-3.0";
-                    shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-3.0";
-                    url = "https://creativecommons.org/licenses/by-nc/3.0/deed.en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tfth";
+        id = "sGz64mG6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-3.0";
+                shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-3.0";
+                url = "https://creativecommons.org/licenses/by-nc/3.0/deed.en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

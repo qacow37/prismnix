@@ -11,23 +11,20 @@ let
         "forge-1.20.1" = _tGFiZyut;
         "default" = _tGFiZyut;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tan-compat";
-            id = "tBOXLFOa";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/teampurpol/tan-compat/blob/main/README.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tan-compat";
+        id = "tBOXLFOa";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/teampurpol/tan-compat/blob/main/README.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

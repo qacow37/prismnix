@@ -828,23 +828,20 @@ let
         "fabric-26.2" = _AveYQRaz;
         "default" = _AveYQRaz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "skyblockaddons-unofficial";
-            id = "F35D4vTL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/Fix3dll/SkyblockAddons/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "skyblockaddons-unofficial";
+        id = "F35D4vTL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/Fix3dll/SkyblockAddons/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

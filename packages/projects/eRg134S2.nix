@@ -161,23 +161,20 @@ let
         "fabric-26.2" = _PF2Z9qrQ;
         "default" = _PF2Z9qrQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "kmd-travel";
-            id = "eRg134S2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Source-Available-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Source-Available-License";
-                    shortName = "LicenseRef-Source-Available-License";
-                    url = "https://github.com/Ninjasummoner/KMDTravelMod/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "kmd-travel";
+        id = "eRg134S2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Source-Available-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Source-Available-License";
+                shortName = "LicenseRef-Source-Available-License";
+                url = "https://github.com/Ninjasummoner/KMDTravelMod/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

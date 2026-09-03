@@ -158,23 +158,20 @@ let
         "purpur-26.1.2" = _hXw4cKZJ;
         "default" = _hXw4cKZJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aoneblock";
-            id = "qq7CK8U4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Eclipse Public License 2.0";
-                    shortName = "EPL-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aoneblock";
+        id = "qq7CK8U4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Eclipse Public License 2.0";
+                shortName = "EPL-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

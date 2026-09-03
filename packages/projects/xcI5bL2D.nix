@@ -40,23 +40,20 @@ let
         "minecraft-26.2" = _XvsYTEK4;
         "default" = _XvsYTEK4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "littermoonfishbetter-gui-for-sophisticated-backpacks";
-            id = "xcI5bL2D";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://github.com/Fogg05/CozyUI-Plus/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "littermoonfishbetter-gui-for-sophisticated-backpacks";
+        id = "xcI5bL2D";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://github.com/Fogg05/CozyUI-Plus/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

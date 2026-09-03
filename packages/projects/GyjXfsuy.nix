@@ -41,23 +41,20 @@ let
         "minecraft-1.16.5" = _TvPiGw3l;
         "default" = _gysD7W6S;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rc-pack";
-            id = "GyjXfsuy";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MTR-Resource-Pack-TOU" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MTR-Resource-Pack-TOU";
-                    shortName = "LicenseRef-MTR-Resource-Pack-TOU";
-                    url = "https://docs.google.com/document/d/1Y5oUz_Q7YD6XAhgbKEs4D3XFZIP-QJcuo1u2GhuX0Yk/edit?usp=drivesdk";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rc-pack";
+        id = "GyjXfsuy";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MTR-Resource-Pack-TOU" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MTR-Resource-Pack-TOU";
+                shortName = "LicenseRef-MTR-Resource-Pack-TOU";
+                url = "https://docs.google.com/document/d/1Y5oUz_Q7YD6XAhgbKEs4D3XFZIP-QJcuo1u2GhuX0Yk/edit?usp=drivesdk";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

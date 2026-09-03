@@ -84,23 +84,20 @@ let
         "fabric-26.1.2" = _CSD0a4JG;
         "default" = _CSD0a4JG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "player-highlighter-mod";
-            id = "Jq3V0WGv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/lyuwenhan/minecraft-java-edition-mods/blob/main/player-highlighter/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "player-highlighter-mod";
+        id = "Jq3V0WGv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/lyuwenhan/minecraft-java-edition-mods/blob/main/player-highlighter/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

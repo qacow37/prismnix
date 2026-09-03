@@ -35,23 +35,20 @@ let
         "forge-1.20.1" = _2cgMOTQM;
         "default" = _2cgMOTQM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "marvelous-menagerie-paradoxical";
-            id = "fJ3fTrE7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/VoidArkana/MarvelousMenagerieParadoxical/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "marvelous-menagerie-paradoxical";
+        id = "fJ3fTrE7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/VoidArkana/MarvelousMenagerieParadoxical/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

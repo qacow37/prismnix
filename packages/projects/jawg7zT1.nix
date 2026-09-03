@@ -202,23 +202,20 @@ let
         "forge-1.20.4" = _HsgCicxl;
         "default" = _yXovoEQf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cave-dust";
-            id = "jawg7zT1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cave-dust";
+        id = "jawg7zT1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

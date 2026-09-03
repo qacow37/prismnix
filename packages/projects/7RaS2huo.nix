@@ -282,23 +282,20 @@ let
         "geyser-1.21.11" = _k0suZm7T;
         "default" = _LzyZHV6u;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "headdrop";
-            id = "7RaS2huo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://github.com/RRS-9747/HeadDrop/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "headdrop";
+        id = "7RaS2huo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://github.com/RRS-9747/HeadDrop/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

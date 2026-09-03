@@ -827,23 +827,20 @@ let
         "neoforge-1.21.8" = _Ynq1cUqw;
         "default" = _xzztNZML;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "staaaaaaaaaaaack";
-            id = "myL7fuqp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/frank89722/Staaaaaaaaaaaack/blob/release/1.19.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "staaaaaaaaaaaack";
+        id = "myL7fuqp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/frank89722/Staaaaaaaaaaaack/blob/release/1.19.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

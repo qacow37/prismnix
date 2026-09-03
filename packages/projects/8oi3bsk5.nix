@@ -612,23 +612,20 @@ let
         "datapack-26.2" = _CzijfXJQ;
         "default" = _CzijfXJQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "terralith";
-            id = "8oi3bsk5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Stardust-Labs-License";
-                    shortName = "LicenseRef-Stardust-Labs-License";
-                    url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "terralith";
+        id = "8oi3bsk5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Stardust-Labs-License";
+                shortName = "LicenseRef-Stardust-Labs-License";
+                url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

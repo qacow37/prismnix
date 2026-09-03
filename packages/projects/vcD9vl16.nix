@@ -100,23 +100,20 @@ let
         "neoforge-1.21.11" = _GHPVAfm9;
         "default" = _GHPVAfm9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "free-cursor";
-            id = "vcD9vl16";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v2.0 only";
-                    shortName = "GPL-2.0-only";
-                    url = "https://github.com/Makev1ch/freecursor/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "free-cursor";
+        id = "vcD9vl16";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v2.0 only";
+                shortName = "GPL-2.0-only";
+                url = "https://github.com/Makev1ch/freecursor/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

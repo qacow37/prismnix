@@ -38,23 +38,20 @@ let
         "neoforge-1.21.1" = _vm92tsuo;
         "default" = _vm92tsuo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-beamline";
-            id = "ZmrUepY5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/xhyrom/beamline/blob/ver/1.21.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-beamline";
+        id = "ZmrUepY5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/xhyrom/beamline/blob/ver/1.21.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

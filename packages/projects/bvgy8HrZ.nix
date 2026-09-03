@@ -622,23 +622,20 @@ let
         "forge-1.19.2" = _VeuzG4c5;
         "default" = _ndvIwXq3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cc-vs";
-            id = "bvgy8HrZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/TechTastic/CC-VS/blob/1.18.x/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cc-vs";
+        id = "bvgy8HrZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/TechTastic/CC-VS/blob/1.18.x/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

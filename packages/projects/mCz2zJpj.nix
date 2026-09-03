@@ -209,23 +209,20 @@ let
         "quilt-26.1.2" = _WhSznG4F;
         "default" = _WhSznG4F;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "faewulf-itemrename";
-            id = "mCz2zJpj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                    shortName = "CC-BY-NC-SA-4.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "faewulf-itemrename";
+        id = "mCz2zJpj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                shortName = "CC-BY-NC-SA-4.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

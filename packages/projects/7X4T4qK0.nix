@@ -2862,23 +2862,20 @@ let
         "neoforge-26.2" = _XYnQnNPd;
         "default" = _XYnQnNPd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "angel-block-mod";
-            id = "7X4T4qK0";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License";
-                    shortName = "LicenseRef-Custom-License";
-                    url = "https://github.com/spekarchik/TheBlockOfAngel/blob/main/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "angel-block-mod";
+        id = "7X4T4qK0";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License";
+                shortName = "LicenseRef-Custom-License";
+                url = "https://github.com/spekarchik/TheBlockOfAngel/blob/main/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

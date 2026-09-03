@@ -238,23 +238,20 @@ let
         "quilt-1.20.1" = _8Yqna5gX;
         "default" = _E7Okput0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-herbalbrews";
-            id = "Eh11TaTm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-custom";
-                    shortName = "LicenseRef-custom";
-                    url = "https://github.com/satisfyu/HerbalBrews/blob/main/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-herbalbrews";
+        id = "Eh11TaTm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-custom";
+                shortName = "LicenseRef-custom";
+                url = "https://github.com/satisfyu/HerbalBrews/blob/main/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

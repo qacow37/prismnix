@@ -150,23 +150,20 @@ let
         "neoforge-1.21.1" = _9GjNW2Gf;
         "default" = _9GjNW2Gf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "zeta";
-            id = "MVARlG2f";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported";
-                    shortName = "CC-BY-NC-SA-3.0";
-                    url = "https://github.com/VazkiiMods/Zeta/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "zeta";
+        id = "MVARlG2f";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported";
+                shortName = "CC-BY-NC-SA-3.0";
+                url = "https://github.com/VazkiiMods/Zeta/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

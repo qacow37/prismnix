@@ -23,23 +23,20 @@ let
         "forge-1.12.2" = _AD5SfGTW;
         "default" = _AD5SfGTW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dynamx";
-            id = "MuAEUut2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
-                    shortName = "CC-BY-NC-ND-4.0";
-                    url = "https://github.com/DynamXInc/DynamX/blob/beta/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dynamx";
+        id = "MuAEUut2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
+                url = "https://github.com/DynamXInc/DynamX/blob/beta/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

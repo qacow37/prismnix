@@ -975,23 +975,20 @@ let
         "purpur-26.2" = _wvHdu4gu;
         "default" = _wvHdu4gu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "multiverse-core";
-            id = "3wmN97b8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
-                    shortName = "BSD-3-Clause";
-                    url = "https://github.com/Multiverse/Multiverse-Core/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "multiverse-core";
+        id = "3wmN97b8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                shortName = "BSD-3-Clause";
+                url = "https://github.com/Multiverse/Multiverse-Core/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

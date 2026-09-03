@@ -100,23 +100,20 @@ let
         "quilt-1.21.11" = _5lJwkalN;
         "default" = _5lJwkalN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "compatibility-blooming-biosphere-tectonic";
-            id = "GDnm1VHj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/SpluoSplatus/Vanilla-Refresh/wiki/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "compatibility-blooming-biosphere-tectonic";
+        id = "GDnm1VHj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/SpluoSplatus/Vanilla-Refresh/wiki/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

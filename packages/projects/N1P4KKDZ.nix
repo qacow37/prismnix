@@ -194,23 +194,20 @@ let
         "fabric-1.20.1" = _NbugcenK;
         "default" = _ZSnvEdkm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "beetlebox";
-            id = "N1P4KKDZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://gitlab.com/volbot/beetlebox/-/blob/1.20.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "beetlebox";
+        id = "N1P4KKDZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://gitlab.com/volbot/beetlebox/-/blob/1.20.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

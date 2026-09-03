@@ -11,23 +11,20 @@ let
         "forge-1.20.1" = _Tx8lpCoW;
         "default" = _Tx8lpCoW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "amongplus";
-            id = "SSmnTY1h";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution No Derivatives 4.0 International";
-                    shortName = "CC-BY-ND-4.0";
-                    url = "https://youtube.com/@ilplay";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "amongplus";
+        id = "SSmnTY1h";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution No Derivatives 4.0 International";
+                shortName = "CC-BY-ND-4.0";
+                url = "https://youtube.com/@ilplay";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -113,23 +113,20 @@ let
         "quilt-1.21.1" = _HzmvOmrW;
         "default" = _HzmvOmrW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "firework-frenzy";
-            id = "BMFTOutp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/CammiePone/Firework-Frenzy/blob/HEAD/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "firework-frenzy";
+        id = "BMFTOutp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/CammiePone/Firework-Frenzy/blob/HEAD/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

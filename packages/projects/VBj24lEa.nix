@@ -94,23 +94,20 @@ let
         "spigot-1.21.3" = _uZ3VS43M;
         "default" = _uZ3VS43M;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bedwars1058";
-            id = "VBj24lEa";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://github.com/andrei1058/BedWars1058/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bedwars1058";
+        id = "VBj24lEa";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://github.com/andrei1058/BedWars1058/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

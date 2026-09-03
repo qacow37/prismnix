@@ -380,23 +380,20 @@ let
         "minecraft-26.1.2" = _4HauO6Ys;
         "default" = _4HauO6Ys;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "animated-totem-of-undying";
-            id = "T8okQJ4h";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Terms-of-Use-in-Description" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-See-Terms-of-Use-in-Description";
-                    shortName = "LicenseRef-See-Terms-of-Use-in-Description";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "animated-totem-of-undying";
+        id = "T8okQJ4h";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Terms-of-Use-in-Description" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-See-Terms-of-Use-in-Description";
+                shortName = "LicenseRef-See-Terms-of-Use-in-Description";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

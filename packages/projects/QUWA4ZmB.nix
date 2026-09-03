@@ -78,23 +78,20 @@ let
         "neoforge-1.21.1" = _QTXY5qpX;
         "default" = _QTXY5qpX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "blood-and-deepslate";
-            id = "QUWA4ZmB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AFL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Academic Free License v3.0";
-                    shortName = "AFL-3.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "blood-and-deepslate";
+        id = "QUWA4ZmB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AFL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Academic Free License v3.0";
+                shortName = "AFL-3.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -245,23 +245,20 @@ let
         "neoforge-1.21.1" = _Z9nioxrI;
         "default" = _Z9nioxrI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "villager-overhaul";
-            id = "cMhN11T6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Z2SIX-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Z2SIX-Mod-License";
-                    shortName = "LicenseRef-Z2SIX-Mod-License";
-                    url = "https://z2six.dev/en/legal/licenses";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "villager-overhaul";
+        id = "cMhN11T6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Z2SIX-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Z2SIX-Mod-License";
+                shortName = "LicenseRef-Z2SIX-Mod-License";
+                url = "https://z2six.dev/en/legal/licenses";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

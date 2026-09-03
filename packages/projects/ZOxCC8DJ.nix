@@ -203,23 +203,20 @@ let
         "forge-1.7.10" = _agCeVJJr;
         "default" = _agCeVJJr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "asjcore";
-            id = "ZOxCC8DJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NCCPL-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NCCPL-License";
-                    shortName = "LicenseRef-NCCPL-License";
-                    url = "https://gist.github.com/AlexSocol/1a906c6643e1af403e9accc2c30e1aba";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "asjcore";
+        id = "ZOxCC8DJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NCCPL-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NCCPL-License";
+                shortName = "LicenseRef-NCCPL-License";
+                url = "https://gist.github.com/AlexSocol/1a906c6643e1af403e9accc2c30e1aba";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

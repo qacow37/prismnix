@@ -78,23 +78,20 @@ let
         "neoforge-1.21.1" = _DCM9UgQw;
         "default" = _DCM9UgQw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "druids";
-            id = "flHIknzE";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Rulft44/druids/blob/fabric-1.21.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "druids";
+        id = "flHIknzE";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Rulft44/druids/blob/fabric-1.21.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

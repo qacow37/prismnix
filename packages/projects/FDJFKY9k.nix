@@ -106,23 +106,20 @@ let
         "fabric-1.20.1" = _U3jTXcTy;
         "default" = _U3jTXcTy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "trash-slot";
-            id = "FDJFKY9k";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-OUFL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-OUFL-1.0";
-                    shortName = "LicenseRef-OUFL-1.0";
-                    url = "https://capplehub.fun/licenses/OUFL-1.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "trash-slot";
+        id = "FDJFKY9k";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-OUFL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-OUFL-1.0";
+                shortName = "LicenseRef-OUFL-1.0";
+                url = "https://capplehub.fun/licenses/OUFL-1.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

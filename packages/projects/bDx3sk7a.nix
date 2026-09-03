@@ -60,23 +60,20 @@ let
         "fabric-1.21.1" = _3walORft;
         "default" = _3walORft;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "show-held-items";
-            id = "bDx3sk7a";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "show-held-items";
+        id = "bDx3sk7a";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

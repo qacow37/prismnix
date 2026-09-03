@@ -193,23 +193,20 @@ let
         "forge-1.19.2" = _3XunbpMq;
         "default" = _z7npcqAM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ez-actions";
-            id = "gJiy6dk4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Z2SIX-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Z2SIX-Mod-License";
-                    shortName = "LicenseRef-Z2SIX-Mod-License";
-                    url = "https://z2six.dev/en/legal/licenses";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ez-actions";
+        id = "gJiy6dk4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Z2SIX-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Z2SIX-Mod-License";
+                shortName = "LicenseRef-Z2SIX-Mod-License";
+                url = "https://z2six.dev/en/legal/licenses";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

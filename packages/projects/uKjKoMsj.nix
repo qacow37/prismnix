@@ -164,23 +164,20 @@ let
         "neoforge-1.21.6" = _P59amr1L;
         "default" = _lDvKkCFz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "immersivethunder";
-            id = "uKjKoMsj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/netcatgirl/ImmersiveThunder/blob/1.21.4/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "immersivethunder";
+        id = "uKjKoMsj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/netcatgirl/ImmersiveThunder/blob/1.21.4/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

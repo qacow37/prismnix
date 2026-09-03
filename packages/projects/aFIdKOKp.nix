@@ -93,23 +93,20 @@ let
         "quilt-1.21.1" = _xa0amAmz;
         "default" = _xa0amAmz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "afk-sit";
-            id = "aFIdKOKp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/clo4/datapacks/blob/main/afk-sit/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "afk-sit";
+        id = "aFIdKOKp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/clo4/datapacks/blob/main/afk-sit/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

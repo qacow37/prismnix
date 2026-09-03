@@ -117,23 +117,20 @@ let
         "forge-1.20.1" = _dqaBUpHl;
         "default" = _DCI8egH7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xxl-packets";
-            id = "SeCuopwJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Zero v1.0 Universal";
-                    shortName = "CC0-1.0";
-                    url = "https://github.com/AbyssDweller/XXLPackets/blob/Fabric-1.19.x/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xxl-packets";
+        id = "SeCuopwJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Zero v1.0 Universal";
+                shortName = "CC0-1.0";
+                url = "https://github.com/AbyssDweller/XXLPackets/blob/Fabric-1.19.x/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

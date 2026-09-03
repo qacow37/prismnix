@@ -180,23 +180,20 @@ let
         "neoforge-1.21.1" = _AovBGJaE;
         "default" = _kdMYT8sI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rare-ice";
-            id = "uSi0tajU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/shedaniel/rare-ice/blob/1.15/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rare-ice";
+        id = "uSi0tajU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/shedaniel/rare-ice/blob/1.15/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

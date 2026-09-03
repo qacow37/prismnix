@@ -102,23 +102,20 @@ let
         "neoforge-26.1.2" = _eoAT3Gwu;
         "default" = _eoAT3Gwu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ars-magica-legacy";
-            id = "hm4S7JIe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dont-Be-a-Jerk-License";
-                    shortName = "LicenseRef-Dont-Be-a-Jerk-License";
-                    url = "https://github.com/MinecraftschurliMods/Ars-Magica-Legacy/blob/version/1.19.x/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ars-magica-legacy";
+        id = "hm4S7JIe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dont-Be-a-Jerk-License";
+                shortName = "LicenseRef-Dont-Be-a-Jerk-License";
+                url = "https://github.com/MinecraftschurliMods/Ars-Magica-Legacy/blob/version/1.19.x/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

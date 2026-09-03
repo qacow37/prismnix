@@ -192,23 +192,20 @@ let
         "minecraft-1.12.2" = _HAjEPqys;
         "default" = _HAjEPqys;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-elytra-(medieval-dragon-style)";
-            id = "90tpB7mh";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    shortName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    url = "https://creativecommons.org/licenses/by-nc-nd/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-elytra-(medieval-dragon-style)";
+        id = "90tpB7mh";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-ND-4.0";
+                shortName = "LicenseRef-CC-BY-NC-ND-4.0";
+                url = "https://creativecommons.org/licenses/by-nc-nd/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

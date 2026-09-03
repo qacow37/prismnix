@@ -179,23 +179,20 @@ let
         "quilt-26.2" = _ZmDFIlrY;
         "default" = _ZmDFIlrY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "old-bed-crafting-recipe";
-            id = "Q31T4Gja";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "old-bed-crafting-recipe";
+        id = "Q31T4Gja";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

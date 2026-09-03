@@ -11,23 +11,20 @@ let
         "forge-1.20.1" = _P4mytd4g;
         "default" = _P4mytd4g;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "herobrine-experiment";
-            id = "etqYHhFB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Eclipse-Public-Licence" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Eclipse-Public-Licence";
-                    shortName = "LicenseRef-Eclipse-Public-Licence";
-                    url = "https://www.eclipse.org/legal/epl-2.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "herobrine-experiment";
+        id = "etqYHhFB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Eclipse-Public-Licence" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Eclipse-Public-Licence";
+                shortName = "LicenseRef-Eclipse-Public-Licence";
+                url = "https://www.eclipse.org/legal/epl-2.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

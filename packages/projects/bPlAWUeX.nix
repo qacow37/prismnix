@@ -191,23 +191,20 @@ let
         "fabric-26.2" = _CtvWJbvv;
         "default" = _CtvWJbvv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "randomteleporter";
-            id = "bPlAWUeX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Do What The F*ck You Want To Public License";
-                    shortName = "WTFPL";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "randomteleporter";
+        id = "bPlAWUeX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Do What The F*ck You Want To Public License";
+                shortName = "WTFPL";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

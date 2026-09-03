@@ -336,23 +336,20 @@ let
         "fabric-26.1.2" = _JTvGPleu;
         "default" = _MuPZ8ezI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dynamic-resource-bars";
-            id = "PntTdyYi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License";
-                    shortName = "LicenseRef-Custom-License";
-                    url = "https://github.com/muon-rw/Dynamic-Resource-Bars/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dynamic-resource-bars";
+        id = "PntTdyYi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License";
+                shortName = "LicenseRef-Custom-License";
+                url = "https://github.com/muon-rw/Dynamic-Resource-Bars/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

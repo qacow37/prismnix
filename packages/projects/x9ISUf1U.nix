@@ -120,23 +120,20 @@ let
         "fabric-26.2" = _V66NDoho;
         "default" = _V66NDoho;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fishing-rod-fix";
-            id = "x9ISUf1U";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/andrewchik0/fishing-rod-fix/blob/1.20/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fishing-rod-fix";
+        id = "x9ISUf1U";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/andrewchik0/fishing-rod-fix/blob/1.20/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

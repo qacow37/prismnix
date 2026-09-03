@@ -77,23 +77,20 @@ let
         "fabric-26.2" = _4XKzetX5;
         "default" = _4XKzetX5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "durability-digits";
-            id = "SlaMA5f5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-02Alexis-Protective-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-02Alexis-Protective-License";
-                    shortName = "LicenseRef-02Alexis-Protective-License";
-                    url = "https://github.com/02A1exis/02A1exis/blob/main/licenses/protective-license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "durability-digits";
+        id = "SlaMA5f5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-02Alexis-Protective-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-02Alexis-Protective-License";
+                shortName = "LicenseRef-02Alexis-Protective-License";
+                url = "https://github.com/02A1exis/02A1exis/blob/main/licenses/protective-license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

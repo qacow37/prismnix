@@ -178,23 +178,20 @@ let
         "neoforge-1.21.1" = _CaxJ3tAY;
         "default" = _rV2IXfB7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "immersive-lanterns";
-            id = "vskzdsyT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Tonis-MMC-License";
-                    shortName = "LicenseRef-Tonis-MMC-License";
-                    url = "https://license.txni.dev/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "immersive-lanterns";
+        id = "vskzdsyT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Tonis-MMC-License";
+                shortName = "LicenseRef-Tonis-MMC-License";
+                url = "https://license.txni.dev/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -109,23 +109,20 @@ let
         "fabric-26.2" = _xXdBIGfO;
         "default" = _xXdBIGfO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ender-nexus";
-            id = "QfXOzeIK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Open Software License 3.0";
-                    shortName = "OSL-3.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ender-nexus";
+        id = "QfXOzeIK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Open Software License 3.0";
+                shortName = "OSL-3.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -62,23 +62,20 @@ let
         "fabric-26.2" = _cRrgybhL;
         "default" = _cRrgybhL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "armor-hud-percentages";
-            id = "TFF1gVlD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LSL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LSL-1.0";
-                    shortName = "LicenseRef-LSL-1.0";
-                    url = "https://github.com/Lumyrix/ArmorHudPercentages/blob/final/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "armor-hud-percentages";
+        id = "TFF1gVlD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LSL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LSL-1.0";
+                shortName = "LicenseRef-LSL-1.0";
+                url = "https://github.com/Lumyrix/ArmorHudPercentages/blob/final/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

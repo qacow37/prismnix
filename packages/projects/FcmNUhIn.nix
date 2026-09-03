@@ -29,23 +29,20 @@ let
         "forge-1.19.2" = _38O3FSQW;
         "default" = _38O3FSQW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "scp-anomalies";
-            id = "FcmNUhIn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-SA-3.0";
-                    shortName = "LicenseRef-CC-BY-SA-3.0";
-                    url = "https://creativecommons.org/licenses/by-sa/3.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "scp-anomalies";
+        id = "FcmNUhIn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-SA-3.0";
+                shortName = "LicenseRef-CC-BY-SA-3.0";
+                url = "https://creativecommons.org/licenses/by-sa/3.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

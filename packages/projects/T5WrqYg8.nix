@@ -17,23 +17,20 @@ let
         "forge-1.20.1" = _f5OLnboG;
         "default" = _f5OLnboG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tinkers_vein_miner";
-            id = "T5WrqYg8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "JSON" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "JSON License";
-                    shortName = "JSON";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tinkers_vein_miner";
+        id = "T5WrqYg8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "JSON" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "JSON License";
+                shortName = "JSON";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

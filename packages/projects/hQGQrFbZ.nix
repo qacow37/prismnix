@@ -90,23 +90,20 @@ let
         "forge-1.20.6" = _gELnLFJb;
         "default" = _gELnLFJb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "adminshop";
-            id = "hQGQrFbZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 or later";
-                    shortName = "LGPL-2.1-or-later";
-                    url = "https://github.com/AmmoniumX/AdminShop/blob/master-1.19.2/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "adminshop";
+        id = "hQGQrFbZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 or later";
+                shortName = "LGPL-2.1-or-later";
+                url = "https://github.com/AmmoniumX/AdminShop/blob/master-1.19.2/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -781,23 +781,20 @@ let
         "minecraft-1.21.11" = _G4uXH2Zj;
         "default" = _G4uXH2Zj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "resource-fixes-and-tweaks";
-            id = "xq2isoUl";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "The Unlicense";
-                    shortName = "Unlicense";
-                    url = "https://unlicense.org/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "resource-fixes-and-tweaks";
+        id = "xq2isoUl";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "The Unlicense";
+                shortName = "Unlicense";
+                url = "https://unlicense.org/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

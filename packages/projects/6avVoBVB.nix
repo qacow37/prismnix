@@ -56,23 +56,20 @@ let
         "forge-1.20.1" = _84h0ngfk;
         "default" = _3blOqCAH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simply-tooltips";
-            id = "6avVoBVB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Timefall-Development-License-1.2";
-                    shortName = "LicenseRef-Timefall-Development-License-1.2";
-                    url = "https://github.com/Sweenus/simplytooltips/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simply-tooltips";
+        id = "6avVoBVB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Timefall-Development-License-1.2";
+                shortName = "LicenseRef-Timefall-Development-License-1.2";
+                url = "https://github.com/Sweenus/simplytooltips/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

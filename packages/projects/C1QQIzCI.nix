@@ -136,23 +136,20 @@ let
         "spigot-1.21.11" = _e6Ku71zh;
         "default" = _e6Ku71zh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "coinop";
-            id = "C1QQIzCI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-License-with-attribution" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-License-with-attribution";
-                    shortName = "LicenseRef-MIT-License-with-attribution";
-                    url = "https://github.com/APPLEPIE6969/CoinOp/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "coinop";
+        id = "C1QQIzCI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-License-with-attribution" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-License-with-attribution";
+                shortName = "LicenseRef-MIT-License-with-attribution";
+                url = "https://github.com/APPLEPIE6969/CoinOp/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

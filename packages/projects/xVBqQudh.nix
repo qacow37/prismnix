@@ -136,23 +136,20 @@ let
         "fabric-1.21" = _Ulyg9Dpo;
         "default" = _Ulyg9Dpo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "flower-power";
-            id = "xVBqQudh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "European Union Public License 1.2";
-                    shortName = "EUPL-1.2";
-                    url = "https://github.com/tumGER/FlowerPower/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "flower-power";
+        id = "xVBqQudh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "European Union Public License 1.2";
+                shortName = "EUPL-1.2";
+                url = "https://github.com/tumGER/FlowerPower/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

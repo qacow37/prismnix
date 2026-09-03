@@ -177,23 +177,20 @@ let
         "fabric-26.2" = _iICfi19v;
         "default" = _iICfi19v;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "glass-carpet";
-            id = "Tf8V4CJU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License";
-                    shortName = "LicenseRef-Custom-License";
-                    url = "https://github.com/A5ho9999/MinecraftMods/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "glass-carpet";
+        id = "Tf8V4CJU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License";
+                shortName = "LicenseRef-Custom-License";
+                url = "https://github.com/A5ho9999/MinecraftMods/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -29,23 +29,20 @@ let
         "fabric-1.21.1" = _8231gOPb;
         "default" = _8231gOPb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sentient_pants";
-            id = "5I3BEJRO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT-0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT No Attribution";
-                    shortName = "MIT-0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sentient_pants";
+        id = "5I3BEJRO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT-0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT No Attribution";
+                shortName = "MIT-0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

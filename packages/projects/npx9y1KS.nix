@@ -824,23 +824,20 @@ let
         "minecraft-1.21.11" = _SmsUYmjA;
         "default" = _SmsUYmjA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gui-simplestylized";
-            id = "npx9y1KS";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Read-the-terms-of-use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Read-the-terms-of-use";
-                    shortName = "LicenseRef-Read-the-terms-of-use";
-                    url = "https://gabriel-djalayer.gitbook.io/gdteam-wiki/guides/licenses#gui-simplestylized";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gui-simplestylized";
+        id = "npx9y1KS";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Read-the-terms-of-use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Read-the-terms-of-use";
+                shortName = "LicenseRef-Read-the-terms-of-use";
+                url = "https://gabriel-djalayer.gitbook.io/gdteam-wiki/guides/licenses#gui-simplestylized";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

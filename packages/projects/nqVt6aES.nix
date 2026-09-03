@@ -389,23 +389,20 @@ let
         "neoforge-1.20.1" = _TwZf1vY4;
         "default" = _BNSiQjTD;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tardis-refined";
-            id = "nqVt6aES";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple";
-                    shortName = "LicenseRef-Multiple";
-                    url = "https://github.com/WhoCraft/TardisRefined/blob/minecraft/1.20/LICENSE.MD";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tardis-refined";
+        id = "nqVt6aES";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple";
+                shortName = "LicenseRef-Multiple";
+                url = "https://github.com/WhoCraft/TardisRefined/blob/minecraft/1.20/LICENSE.MD";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

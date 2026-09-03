@@ -54,23 +54,20 @@ let
         "forge-1.20.1" = _FsS0WvZY;
         "default" = _y8YF9LbX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spice-of-life-maid";
-            id = "iXs7Ep7B";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
-                    shortName = "BSD-3-Clause";
-                    url = "https://github.com/MasterMarisa/Spice-of-Life-Maid/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spice-of-life-maid";
+        id = "iXs7Ep7B";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                shortName = "BSD-3-Clause";
+                url = "https://github.com/MasterMarisa/Spice-of-Life-Maid/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

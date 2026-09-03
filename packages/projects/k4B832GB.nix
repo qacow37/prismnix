@@ -139,23 +139,20 @@ let
         "forge-1.20.1" = _Kil1EIV8;
         "default" = _oj60C4Gt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tweaks-delight";
-            id = "k4B832GB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/axperty/tweaksdelight/blob/1.21-neoforge/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tweaks-delight";
+        id = "k4B832GB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/axperty/tweaksdelight/blob/1.21-neoforge/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

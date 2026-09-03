@@ -951,23 +951,20 @@ let
         "neoforge-26.2" = _jBLH7Qy8;
         "default" = _jBLH7Qy8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lambdynamiclights";
-            id = "yBW8D80W";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-License";
-                    shortName = "LicenseRef-Lambda-License";
-                    url = "https://github.com/LambdAurora/LambDynamicLights/blob/1.21.5/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lambdynamiclights";
+        id = "yBW8D80W";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-License";
+                shortName = "LicenseRef-Lambda-License";
+                url = "https://github.com/LambdAurora/LambDynamicLights/blob/1.21.5/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

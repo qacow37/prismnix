@@ -128,23 +128,20 @@ let
         "minecraft-26.2" = _uCHPFSfO;
         "default" = _uCHPFSfO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "night-vision";
-            id = "sA6eDnQN";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution 4.0 International";
-                    shortName = "CC-BY-4.0";
-                    url = "https://github.com/Luracasmus/night-vision/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "night-vision";
+        id = "sA6eDnQN";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
+                url = "https://github.com/Luracasmus/night-vision/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

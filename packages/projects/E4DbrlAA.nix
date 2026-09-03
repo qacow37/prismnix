@@ -206,23 +206,20 @@ let
         "neoforge-1.21.11" = _VqOwsa9w;
         "default" = _KgFjsaR4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spruce-willis-the-xmas-tree";
-            id = "E4DbrlAA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 only";
-                    shortName = "LGPL-2.1-only";
-                    url = "https://github.com/kiris-mods/spruce-willis-the-xmas-tree/blob/dev/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spruce-willis-the-xmas-tree";
+        id = "E4DbrlAA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 only";
+                shortName = "LGPL-2.1-only";
+                url = "https://github.com/kiris-mods/spruce-willis-the-xmas-tree/blob/dev/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

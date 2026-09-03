@@ -761,23 +761,20 @@ let
         "quilt-1.20" = _T59YDbWf;
         "default" = _tk5EQpUG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "runiclib";
-            id = "mk0Htq87";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AZURUNE-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AZURUNE-License";
-                    shortName = "LicenseRef-AZURUNE-License";
-                    url = "https://github.com/Yirmiri/Yirmiri/blob/main/AZURUNE-LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "runiclib";
+        id = "mk0Htq87";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AZURUNE-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AZURUNE-License";
+                shortName = "LicenseRef-AZURUNE-License";
+                url = "https://github.com/Yirmiri/Yirmiri/blob/main/AZURUNE-LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

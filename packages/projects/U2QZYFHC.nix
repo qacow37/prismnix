@@ -32,23 +32,20 @@ let
         "fabric-1.20.2" = _RmZFcgJd;
         "default" = _RmZFcgJd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lots-more-food";
-            id = "U2QZYFHC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
-                    shortName = "CC-BY-NC-ND-4.0";
-                    url = "https://license.lpsmods.dev/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lots-more-food";
+        id = "U2QZYFHC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
+                url = "https://license.lpsmods.dev/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

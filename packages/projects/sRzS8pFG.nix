@@ -49,23 +49,20 @@ let
         "forge-1.19.2" = _cxJfbV4y;
         "default" = _cxJfbV4y;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hamsters";
-            id = "sRzS8pFG";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-Java-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Starfish-Java-License";
-                    shortName = "LicenseRef-Starfish-Java-License";
-                    url = "https://github.com/starfish-studios/Hamsters?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hamsters";
+        id = "sRzS8pFG";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-Java-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Starfish-Java-License";
+                shortName = "LicenseRef-Starfish-Java-License";
+                url = "https://github.com/starfish-studios/Hamsters?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

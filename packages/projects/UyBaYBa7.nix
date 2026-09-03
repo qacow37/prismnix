@@ -874,23 +874,20 @@ let
         "forge-26.2" = _aMTzo3n8;
         "default" = _aMTzo3n8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "server_waypoint";
-            id = "UyBaYBa7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/2676959/server_waypoint/blob/1.21/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "server_waypoint";
+        id = "UyBaYBa7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/2676959/server_waypoint/blob/1.21/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

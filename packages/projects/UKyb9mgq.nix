@@ -72,23 +72,20 @@ let
         "neoforge-1.21.1" = _u4abjJfL;
         "default" = _u4abjJfL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-max-repel";
-            id = "UKyb9mgq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
-                    shortName = "CC-BY-NC-ND-4.0";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-max-repel";
+        id = "UKyb9mgq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
+                url = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

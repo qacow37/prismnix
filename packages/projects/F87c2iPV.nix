@@ -78,23 +78,20 @@ let
         "quilt-1.21.1" = _ljQocqPr;
         "default" = _ljQocqPr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-layered-blocks";
-            id = "F87c2iPV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-More-Layered-Blocks-V1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-More-Layered-Blocks-V1";
-                    shortName = "LicenseRef-More-Layered-Blocks-V1";
-                    url = "https://github.com/warior456/More-Layered-Blocks/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-layered-blocks";
+        id = "F87c2iPV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-More-Layered-Blocks-V1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-More-Layered-Blocks-V1";
+                shortName = "LicenseRef-More-Layered-Blocks-V1";
+                url = "https://github.com/warior456/More-Layered-Blocks/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

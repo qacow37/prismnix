@@ -41,23 +41,20 @@ let
         "neoforge-1.21.1" = _2YwopjIZ;
         "default" = _2YwopjIZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-alcohol-industry";
-            id = "DK0udKSN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Alcohol-Industry-Licence" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Alcohol-Industry-Licence";
-                    shortName = "LicenseRef-Alcohol-Industry-Licence";
-                    url = "https://raw.githubusercontent.com/potato98765/create-alcohol-industry/refs/heads/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-alcohol-industry";
+        id = "DK0udKSN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Alcohol-Industry-Licence" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Alcohol-Industry-Licence";
+                shortName = "LicenseRef-Alcohol-Industry-Licence";
+                url = "https://raw.githubusercontent.com/potato98765/create-alcohol-industry/refs/heads/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

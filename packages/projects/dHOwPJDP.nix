@@ -17,23 +17,20 @@ let
         "minecraft-1.20.6" = _9HDxrizq;
         "default" = _9HDxrizq;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ae2-texture-backport";
-            id = "dHOwPJDP";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    shortName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ae2-texture-backport";
+        id = "dHOwPJDP";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-SA-3.0";
+                shortName = "LicenseRef-CC-BY-NC-SA-3.0";
+                url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

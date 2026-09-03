@@ -11,23 +11,20 @@ let
         "forge-1.12.2" = _ZxzUJeQH;
         "default" = _ZxzUJeQH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tinkers-construct-addon-tool-leveling-with-random-modifiers";
-            id = "u1LAJtTD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/blahthebiste/Liketechnik-s-Tinker-Tweaks/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tinkers-construct-addon-tool-leveling-with-random-modifiers";
+        id = "u1LAJtTD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/blahthebiste/Liketechnik-s-Tinker-Tweaks/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

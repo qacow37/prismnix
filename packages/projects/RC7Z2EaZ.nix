@@ -128,23 +128,20 @@ let
         "optifine-1.21.6" = _j9JJRIVO;
         "default" = _j9JJRIVO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "snowimagined";
-            id = "RC7Z2EaZ";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/OverimaginedShaders/Snowimagined/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "snowimagined";
+        id = "RC7Z2EaZ";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/OverimaginedShaders/Snowimagined/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

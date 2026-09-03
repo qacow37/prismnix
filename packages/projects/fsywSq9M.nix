@@ -62,23 +62,20 @@ let
         "fabric-1.21.11" = _yDrRhgP7;
         "default" = _yDrRhgP7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rwc-gui-shop";
-            id = "fsywSq9M";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/rickiewars/gui-shop/blob/1.21.5/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rwc-gui-shop";
+        id = "fsywSq9M";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/rickiewars/gui-shop/blob/1.21.5/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

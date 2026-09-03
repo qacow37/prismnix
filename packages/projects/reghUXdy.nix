@@ -113,23 +113,20 @@ let
         "optifine-26.2" = _vQXzN8YJ;
         "default" = _vQXzN8YJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "astralcore";
-            id = "reghUXdy";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-License";
-                    shortName = "LicenseRef-Complementary-License";
-                    url = "https://github.com/GamesofDev/Astral-Core-Shader/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "astralcore";
+        id = "reghUXdy";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-License";
+                shortName = "LicenseRef-Complementary-License";
+                url = "https://github.com/GamesofDev/Astral-Core-Shader/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -287,23 +287,20 @@ let
         "quilt-1.21.11" = _pooZ0RB3;
         "default" = _FSVwKUSv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "handful";
-            id = "pOinkRyW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Handful-Non-Commercial-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Handful-Non-Commercial-License";
-                    shortName = "LicenseRef-Handful-Non-Commercial-License";
-                    url = "https://github.com/mammut53/handful/blob/1.21/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "handful";
+        id = "pOinkRyW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Handful-Non-Commercial-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Handful-Non-Commercial-License";
+                shortName = "LicenseRef-Handful-Non-Commercial-License";
+                url = "https://github.com/mammut53/handful/blob/1.21/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

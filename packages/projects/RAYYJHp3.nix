@@ -43,23 +43,20 @@ let
         "fabric-1.16.5" = _fN5GhDxb;
         "default" = _j4Rpb8Dk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "light-block-fabric";
-            id = "RAYYJHp3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/Hexeption/LightBlock/blob/1.16/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "light-block-fabric";
+        id = "RAYYJHp3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/Hexeption/LightBlock/blob/1.16/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -48,23 +48,20 @@ let
         "fabric-1.21.7" = _iaqkOU51;
         "default" = _iaqkOU51;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "quick-craft";
-            id = "xiMkeGPc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
-                    shortName = "CC-BY-NC-4.0";
-                    url = "https://creativecommons.org/licenses/by-nc/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "quick-craft";
+        id = "xiMkeGPc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                shortName = "CC-BY-NC-4.0";
+                url = "https://creativecommons.org/licenses/by-nc/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -111,23 +111,20 @@ let
         "fabric-26.2" = _vHeAb2gZ;
         "default" = _vHeAb2gZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stacks-are-stacks";
-            id = "Pg1TxNQ1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License";
-                    shortName = "LicenseRef-Custom-License";
-                    url = "https://github.com/A5ho9999/MinecraftMods/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stacks-are-stacks";
+        id = "Pg1TxNQ1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License";
+                shortName = "LicenseRef-Custom-License";
+                url = "https://github.com/A5ho9999/MinecraftMods/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

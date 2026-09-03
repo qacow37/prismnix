@@ -228,23 +228,20 @@ let
         "neoforge-26.1.2" = _l6mMYYIY;
         "default" = _l6mMYYIY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ltx-industries";
-            id = "LQRvkGba";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Repo-Readme" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-See-Repo-Readme";
-                    shortName = "LicenseRef-See-Repo-Readme";
-                    url = "https://github.com/liedge/LTX-Industries?tab=readme-ov-file#licensing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ltx-industries";
+        id = "LQRvkGba";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Repo-Readme" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-See-Repo-Readme";
+                shortName = "LicenseRef-See-Repo-Readme";
+                url = "https://github.com/liedge/LTX-Industries?tab=readme-ov-file#licensing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

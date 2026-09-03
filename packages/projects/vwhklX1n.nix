@@ -18,23 +18,20 @@ let
         "neoforge-1.21.1" = _2WqbeD1h;
         "default" = _2WqbeD1h;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "daily-boss-x-irons-spells-n-spellbooks";
-            id = "vwhklX1n";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-license";
-                    shortName = "LicenseRef-Custom-license";
-                    url = "https://github.com/PlaIsMe/DailyBoss/blob/1.20.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "daily-boss-x-irons-spells-n-spellbooks";
+        id = "vwhklX1n";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-license";
+                shortName = "LicenseRef-Custom-license";
+                url = "https://github.com/PlaIsMe/DailyBoss/blob/1.20.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

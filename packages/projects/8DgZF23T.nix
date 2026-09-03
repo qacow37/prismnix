@@ -97,23 +97,20 @@ let
         "forge-1.21.8" = _DsYDrLE1;
         "default" = _DsYDrLE1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "craftable-saddles";
-            id = "8DgZF23T";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "The Unlicense";
-                    shortName = "Unlicense";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "craftable-saddles";
+        id = "8DgZF23T";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "The Unlicense";
+                shortName = "Unlicense";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

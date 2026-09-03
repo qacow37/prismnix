@@ -225,23 +225,20 @@ let
         "forge-1.21.5" = _upHJpzS7;
         "default" = _iFTVltFk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "music-delay-reducer";
-            id = "CTJn5mVm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-mSLA-v2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-mSLA-v2.0";
-                    shortName = "LicenseRef-mSLA-v2.0";
-                    url = "https://kyronis.net/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "music-delay-reducer";
+        id = "CTJn5mVm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-mSLA-v2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-mSLA-v2.0";
+                shortName = "LicenseRef-mSLA-v2.0";
+                url = "https://kyronis.net/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

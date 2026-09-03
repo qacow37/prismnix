@@ -1362,23 +1362,20 @@ let
         "neoforge-1.21.5" = _JlTOAeCA;
         "default" = _mpucuO6a;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "labelling-containers";
-            id = "b2T42hfY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Infinituum-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Infinituum-License";
-                    shortName = "LicenseRef-Infinituum-License";
-                    url = "https://github.com/Infinituum17/LabellingContainers/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "labelling-containers";
+        id = "b2T42hfY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Infinituum-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Infinituum-License";
+                shortName = "LicenseRef-Infinituum-License";
+                url = "https://github.com/Infinituum17/LabellingContainers/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

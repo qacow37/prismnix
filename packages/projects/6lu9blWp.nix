@@ -528,23 +528,20 @@ let
         "neoforge-26.2" = _RUpmeRGm;
         "default" = _RUpmeRGm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "workshop-for-handsome-adventurer";
-            id = "6lu9blWp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MoonFathers-limited-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MoonFathers-limited-license";
-                    shortName = "LicenseRef-MoonFathers-limited-license";
-                    url = "https://github.com/moonfather1/playablepeaceful/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "workshop-for-handsome-adventurer";
+        id = "6lu9blWp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MoonFathers-limited-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MoonFathers-limited-license";
+                shortName = "LicenseRef-MoonFathers-limited-license";
+                url = "https://github.com/moonfather1/playablepeaceful/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

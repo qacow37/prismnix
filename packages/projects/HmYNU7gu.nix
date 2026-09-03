@@ -28,23 +28,20 @@ let
         "minecraft-1.21.10" = _WCkAWA6e;
         "default" = _WCkAWA6e;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "1.20-panorama-with-shaders-(night)";
-            id = "HmYNU7gu";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 2-Clause \"Simplified\" License";
-                    shortName = "BSD-2-Clause";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "1.20-panorama-with-shaders-(night)";
+        id = "HmYNU7gu";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 2-Clause \"Simplified\" License";
+                shortName = "BSD-2-Clause";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

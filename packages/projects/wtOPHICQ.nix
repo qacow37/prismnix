@@ -281,23 +281,20 @@ let
         "neoforge-26.2" = _d0yWr98E;
         "default" = _d0yWr98E;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spiffyhud";
-            id = "wtOPHICQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSLv3";
-                    shortName = "LicenseRef-DSMSLv3";
-                    url = "https://github.com/Keksuccino/Spiffy-HUD/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spiffyhud";
+        id = "wtOPHICQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSLv3";
+                shortName = "LicenseRef-DSMSLv3";
+                url = "https://github.com/Keksuccino/Spiffy-HUD/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

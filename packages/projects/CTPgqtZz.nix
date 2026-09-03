@@ -99,23 +99,20 @@ let
         "purpur-1.21.10" = _Wuu9kci8;
         "default" = _6q9B5b7Q;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "luckpermsguiplus";
-            id = "CTPgqtZz";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LuckPermsGUIPlus-Proprietary-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LuckPermsGUIPlus-Proprietary-License";
-                    shortName = "LicenseRef-LuckPermsGUIPlus-Proprietary-License";
-                    url = "https://mkf.arockenbauer.fr/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "luckpermsguiplus";
+        id = "CTPgqtZz";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LuckPermsGUIPlus-Proprietary-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LuckPermsGUIPlus-Proprietary-License";
+                shortName = "LicenseRef-LuckPermsGUIPlus-Proprietary-License";
+                url = "https://mkf.arockenbauer.fr/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

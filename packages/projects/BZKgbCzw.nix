@@ -168,23 +168,20 @@ let
         "neoforge-1.21.1" = _TeWePvqO;
         "default" = _TeWePvqO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "terra-entity";
-            id = "BZKgbCzw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 or later";
-                    shortName = "LGPL-3.0-or-later";
-                    url = "https://github.com/EDGtheXu/TerraEntity";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "terra-entity";
+        id = "BZKgbCzw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 or later";
+                shortName = "LGPL-3.0-or-later";
+                url = "https://github.com/EDGtheXu/TerraEntity";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

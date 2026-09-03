@@ -166,23 +166,20 @@ let
         "quilt-26.2" = _9ypx7Asj;
         "default" = _9ypx7Asj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lovely_snails";
-            id = "hBVVhStr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-License";
-                    shortName = "LicenseRef-Lambda-License";
-                    url = "https://github.com/LambdAurora/lovely_snails/blob/1.20/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lovely_snails";
+        id = "hBVVhStr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-License";
+                shortName = "LicenseRef-Lambda-License";
+                url = "https://github.com/LambdAurora/lovely_snails/blob/1.20/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

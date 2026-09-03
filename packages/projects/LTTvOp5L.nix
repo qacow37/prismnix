@@ -1230,23 +1230,20 @@ let
         "neoforge-26.2" = _qb8smGTf;
         "default" = _zuWePqzc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "storage-delight";
-            id = "LTTvOp5L";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/axperty/storagedelight/blob/1.21.9-neoforge/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "storage-delight";
+        id = "LTTvOp5L";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/axperty/storagedelight/blob/1.21.9-neoforge/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

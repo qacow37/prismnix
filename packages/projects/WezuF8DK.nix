@@ -61,23 +61,20 @@ let
         "minecraft-1.21.10" = _pG6GIOyM;
         "default" = _pG6GIOyM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "see-through-lava-and-water.";
-            id = "WezuF8DK";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
-                    shortName = "BSD-3-Clause";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "see-through-lava-and-water.";
+        id = "WezuF8DK";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                shortName = "BSD-3-Clause";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

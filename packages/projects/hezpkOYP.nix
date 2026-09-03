@@ -255,23 +255,20 @@ let
         "neoforge-1.21.1" = _S6xZzbRg;
         "default" = _S6xZzbRg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-qol";
-            id = "hezpkOYP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/iglee42/CreateQualityOfLife/blob/1.18.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-qol";
+        id = "hezpkOYP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/iglee42/CreateQualityOfLife/blob/1.18.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

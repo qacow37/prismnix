@@ -91,23 +91,20 @@ let
         "fabric-26.2" = _NwOzIuDI;
         "default" = _NwOzIuDI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hide-arrows";
-            id = "4adMMXYm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Do What The F*ck You Want To Public License";
-                    shortName = "WTFPL";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hide-arrows";
+        id = "4adMMXYm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Do What The F*ck You Want To Public License";
+                shortName = "WTFPL";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

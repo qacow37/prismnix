@@ -5612,23 +5612,20 @@ let
         "neoforge-26.1.2" = _orAQ3YKk;
         "default" = _cp2elfPy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wavey-capes";
-            id = "kYuIpRLv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-tr7zw-Protective-License";
-                    shortName = "LicenseRef-tr7zw-Protective-License";
-                    url = "https://github.com/tr7zw/WaveyCapes/blob/1.18/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wavey-capes";
+        id = "kYuIpRLv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-tr7zw-Protective-License";
+                shortName = "LicenseRef-tr7zw-Protective-License";
+                url = "https://github.com/tr7zw/WaveyCapes/blob/1.18/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

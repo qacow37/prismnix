@@ -277,23 +277,20 @@ let
         "forge-1.19.2" = _hxs9LskH;
         "default" = _oB6FEYFF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "animated-loading-screen";
-            id = "cGHt9WgV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Zlib" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "zlib License";
-                    shortName = "Zlib";
-                    url = "https://en.wikipedia.org/wiki/Zlib_License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "animated-loading-screen";
+        id = "cGHt9WgV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Zlib" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "zlib License";
+                shortName = "Zlib";
+                url = "https://en.wikipedia.org/wiki/Zlib_License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

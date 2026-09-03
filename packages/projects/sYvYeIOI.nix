@@ -255,23 +255,20 @@ let
         "minecraft-26.2" = _FU6qEnp6;
         "default" = _FU6qEnp6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chiseled-stone-brick-fix";
-            id = "sYvYeIOI";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Resourcepack-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Craemon-Resourcepack-License";
-                    shortName = "LicenseRef-Craemon-Resourcepack-License";
-                    url = "https://github.com/Craemon/Chiseled-Stone-Brick-Fix?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chiseled-stone-brick-fix";
+        id = "sYvYeIOI";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Resourcepack-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Craemon-Resourcepack-License";
+                shortName = "LicenseRef-Craemon-Resourcepack-License";
+                url = "https://github.com/Craemon/Chiseled-Stone-Brick-Fix?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -43,23 +43,20 @@ let
         "forge-1.20.1" = _vPpwaDaS;
         "default" = _vPpwaDaS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aether-overworld-ores";
-            id = "Nipqb0qe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/The-Aether-Team/Overworld-Ores/tree/1.21.1-develop#scroll-license-information";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aether-overworld-ores";
+        id = "Nipqb0qe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/The-Aether-Team/Overworld-Ores/tree/1.21.1-develop#scroll-license-information";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

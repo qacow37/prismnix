@@ -29,23 +29,20 @@ let
         "fabric-1.20.1" = _hKZ53rI0;
         "default" = _hKZ53rI0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-stardust";
-            id = "LcRYmA0k";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://www.tldrlegal.com/license/mit-license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-stardust";
+        id = "LcRYmA0k";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://www.tldrlegal.com/license/mit-license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -524,23 +524,20 @@ let
         "neoforge-26.2" = _j7RlEUmE;
         "default" = _BkdknKQy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "component-viewer";
-            id = "P9vIqP8R";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://raw.githubusercontent.com/fixyldev/component-viewer/HEAD/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "component-viewer";
+        id = "P9vIqP8R";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://raw.githubusercontent.com/fixyldev/component-viewer/HEAD/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

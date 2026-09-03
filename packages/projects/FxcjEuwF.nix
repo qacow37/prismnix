@@ -54,23 +54,20 @@ let
         "minecraft-1.20.1" = _cTm1JHCO;
         "default" = _cTm1JHCO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr-japanese-accessories";
-            id = "FxcjEuwF";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Henoke-MTR-ResoursePack-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Henoke-MTR-ResoursePack-License";
-                    shortName = "LicenseRef-Henoke-MTR-ResoursePack-License";
-                    url = "https://gist.githubusercontent.com/Henoke-ekoneH/f69fdaeb6ecbd6ec78c1efd9e91013fc/raw/35310bd970013cdb4ebc6e3c048309d5779ca9ca/HenokeMTRResoursePackLisence.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr-japanese-accessories";
+        id = "FxcjEuwF";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Henoke-MTR-ResoursePack-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Henoke-MTR-ResoursePack-License";
+                shortName = "LicenseRef-Henoke-MTR-ResoursePack-License";
+                url = "https://gist.githubusercontent.com/Henoke-ekoneH/f69fdaeb6ecbd6ec78c1efd9e91013fc/raw/35310bd970013cdb4ebc6e3c048309d5779ca9ca/HenokeMTRResoursePackLisence.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

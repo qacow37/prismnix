@@ -186,23 +186,20 @@ let
         "optifine-1.21.11" = _mULXIH2t;
         "default" = _mULXIH2t;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "amethyst-shaders";
-            id = "LypdYQ63";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/gamerbenyt/amethyst-shaders/blob/main/README.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "amethyst-shaders";
+        id = "LypdYQ63";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/gamerbenyt/amethyst-shaders/blob/main/README.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

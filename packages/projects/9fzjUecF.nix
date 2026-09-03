@@ -491,23 +491,20 @@ let
         "quilt-1.21.1" = _QLb3J5oV;
         "default" = _hJyhciLU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bandwidthoptimizer";
-            id = "9fzjUecF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 or later";
-                    shortName = "LGPL-2.1-or-later";
-                    url = "https://github.com/duckgun13476/BandwidthOptimizer?tab=LGPL-2.1-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bandwidthoptimizer";
+        id = "9fzjUecF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 or later";
+                shortName = "LGPL-2.1-or-later";
+                url = "https://github.com/duckgun13476/BandwidthOptimizer?tab=LGPL-2.1-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

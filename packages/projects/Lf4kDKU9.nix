@@ -3256,23 +3256,20 @@ let
         "ornithe-26.3-snapshot-6" = _1z2i20rk;
         "default" = _1z2i20rk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enchlevel-langpatch";
-            id = "Lf4kDKU9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Do What The F*ck You Want To Public License";
-                    shortName = "WTFPL";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enchlevel-langpatch";
+        id = "Lf4kDKU9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Do What The F*ck You Want To Public License";
+                shortName = "WTFPL";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

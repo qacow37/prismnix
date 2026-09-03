@@ -99,23 +99,20 @@ let
         "neoforge-1.21" = _IDRMIIb4;
         "default" = _IDRMIIb4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gml";
-            id = "zg2tT2Vu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/GroovyMC/GroovyModLoader/blob/1.19.x/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gml";
+        id = "zg2tT2Vu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/GroovyMC/GroovyModLoader/blob/1.19.x/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

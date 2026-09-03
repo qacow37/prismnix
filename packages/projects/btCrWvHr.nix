@@ -420,23 +420,20 @@ let
         "neoforge-1.21.1" = _K3Vz3uXn;
         "default" = _tsjhxDOY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enderscape";
-            id = "btCrWvHr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Enderscape-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Enderscape-Mod-License";
-                    shortName = "LicenseRef-Enderscape-Mod-License";
-                    url = "https://github.com/Penumbra-MC/Enderscape/blob/1.21.11/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enderscape";
+        id = "btCrWvHr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Enderscape-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Enderscape-Mod-License";
+                shortName = "LicenseRef-Enderscape-Mod-License";
+                url = "https://github.com/Penumbra-MC/Enderscape/blob/1.21.11/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

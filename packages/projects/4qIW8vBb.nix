@@ -71,23 +71,20 @@ let
         "fabric-1.21.1" = _4aMqNDCa;
         "default" = _4aMqNDCa;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aether-treasure-reforging";
-            id = "4qIW8vBb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/The-Aether-Team/Treasure-Reforging#scroll-license-information";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aether-treasure-reforging";
+        id = "4qIW8vBb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/The-Aether-Team/Treasure-Reforging#scroll-license-information";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

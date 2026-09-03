@@ -114,23 +114,20 @@ let
         "neoforge-1.21.1" = _qj0lXWQt;
         "default" = _qj0lXWQt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "epic-knights-bettercombat-compatibility";
-            id = "q3sK3Quf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
-                    shortName = "CC-BY-NC-4.0";
-                    url = "https://github.com/Salty-Codes/epicknights_bettercombat/tree/main?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "epic-knights-bettercombat-compatibility";
+        id = "q3sK3Quf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                shortName = "CC-BY-NC-4.0";
+                url = "https://github.com/Salty-Codes/epicknights_bettercombat/tree/main?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

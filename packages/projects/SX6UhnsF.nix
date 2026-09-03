@@ -97,23 +97,20 @@ let
         "fabric-1.21.11" = _nOHhWXT3;
         "default" = _nOHhWXT3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "vulkan-create-compatibility";
-            id = "SX6UhnsF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-No-Redistribution-Without-Permission" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License-No-Redistribution-Without-Permission";
-                    shortName = "LicenseRef-Custom-License-No-Redistribution-Without-Permission";
-                    url = "https://github.com/nik121g/LICENSE/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vulkan-create-compatibility";
+        id = "SX6UhnsF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-No-Redistribution-Without-Permission" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License-No-Redistribution-Without-Permission";
+                shortName = "LicenseRef-Custom-License-No-Redistribution-Without-Permission";
+                url = "https://github.com/nik121g/LICENSE/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

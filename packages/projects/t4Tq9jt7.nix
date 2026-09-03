@@ -90,23 +90,20 @@ let
         "neoforge-26.2" = _7KCALYeK;
         "default" = _7KCALYeK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "clean-and-clear-glass";
-            id = "t4Tq9jt7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lidwinae-Mod-License-v1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lidwinae-Mod-License-v1.0";
-                    shortName = "LicenseRef-Lidwinae-Mod-License-v1.0";
-                    url = "https://github.com/lidwinae/lidwinae-mod-license/blob/v1.0/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "clean-and-clear-glass";
+        id = "t4Tq9jt7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lidwinae-Mod-License-v1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lidwinae-Mod-License-v1.0";
+                shortName = "LicenseRef-Lidwinae-Mod-License-v1.0";
+                url = "https://github.com/lidwinae/lidwinae-mod-license/blob/v1.0/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

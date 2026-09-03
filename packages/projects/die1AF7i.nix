@@ -719,23 +719,20 @@ let
         "neoforge-1.21.5" = _ZA5mD6l6;
         "default" = _NyZj7kJm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tide";
-            id = "die1AF7i";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://github.com/Lightning-64/Tide-2/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tide";
+        id = "die1AF7i";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://github.com/Lightning-64/Tide-2/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

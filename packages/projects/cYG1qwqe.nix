@@ -392,23 +392,20 @@ let
         "spigot-26.2" = _57M0SaW1;
         "default" = _57M0SaW1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "deathlogger";
-            id = "cYG1qwqe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-NRNR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-NRNR";
-                    shortName = "LicenseRef-MIT-NRNR";
-                    url = "https://raw.githubusercontent.com/SynkMC/DeathLogger/refs/heads/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "deathlogger";
+        id = "cYG1qwqe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-NRNR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-NRNR";
+                shortName = "LicenseRef-MIT-NRNR";
+                url = "https://raw.githubusercontent.com/SynkMC/DeathLogger/refs/heads/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

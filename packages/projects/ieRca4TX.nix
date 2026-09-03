@@ -22,23 +22,20 @@ let
         "forge-1.20.6" = _JtMO0hhV;
         "default" = _JtMO0hhV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "origin-furs-unofficial-forge-port";
-            id = "ieRca4TX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Unlicense";
-                    shortName = "LicenseRef-Unlicense";
-                    url = "https://unlicense.org/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "origin-furs-unofficial-forge-port";
+        id = "ieRca4TX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Unlicense";
+                shortName = "LicenseRef-Unlicense";
+                url = "https://unlicense.org/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

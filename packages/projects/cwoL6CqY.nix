@@ -453,23 +453,20 @@ let
         "neoforge-26.2" = _YvhEe230;
         "default" = _YvhEe230;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "item-transform-helper";
-            id = "cwoL6CqY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "The Unlicense";
-                    shortName = "Unlicense";
-                    url = "https://github.com/ThexXTURBOXx/ItemTransformHelper/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "item-transform-helper";
+        id = "cwoL6CqY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "The Unlicense";
+                shortName = "Unlicense";
+                url = "https://github.com/ThexXTURBOXx/ItemTransformHelper/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

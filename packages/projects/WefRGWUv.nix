@@ -17,23 +17,20 @@ let
         "forge-1.20.1" = _v66cebf5;
         "default" = _v66cebf5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gunfire-overhaul-echoes-of-the-battlefield";
-            id = "WefRGWUv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-for-Gunfire-Overhaul-Mod" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License-for-Gunfire-Overhaul-Mod";
-                    shortName = "LicenseRef-Custom-License-for-Gunfire-Overhaul-Mod";
-                    url = "https://github.com/Vinlanx/licensesformods/blob/08a4822ad6f062a712a7ccc21fb5046a3f59401b/Custom%20License%20for%20Gunfire%20Overhaul%20Mod";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gunfire-overhaul-echoes-of-the-battlefield";
+        id = "WefRGWUv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-for-Gunfire-Overhaul-Mod" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License-for-Gunfire-Overhaul-Mod";
+                shortName = "LicenseRef-Custom-License-for-Gunfire-Overhaul-Mod";
+                url = "https://github.com/Vinlanx/licensesformods/blob/08a4822ad6f062a712a7ccc21fb5046a3f59401b/Custom%20License%20for%20Gunfire%20Overhaul%20Mod";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

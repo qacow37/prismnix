@@ -912,23 +912,20 @@ let
         "quilt-1.21.8" = _PN1nOU4U;
         "default" = _PN1nOU4U;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "waterplayer";
-            id = "wDF3M2aD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Strict-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Strict-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Strict-License-1.0.0";
-                    url = "https://polyformproject.org/licenses/strict/1.0.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "waterplayer";
+        id = "wDF3M2aD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Strict-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Strict-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Strict-License-1.0.0";
+                url = "https://polyformproject.org/licenses/strict/1.0.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

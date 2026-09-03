@@ -2402,23 +2402,20 @@ let
         "fabric-26.2" = _l7cZW8Cq;
         "default" = _2kfG4muE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "next-fabric-bedrock-miner";
-            id = "G4udXdNu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://github.com/bunnyi116/fabric-bedrock-miner/blob/preprocess-mojang/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "next-fabric-bedrock-miner";
+        id = "G4udXdNu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://github.com/bunnyi116/fabric-bedrock-miner/blob/preprocess-mojang/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

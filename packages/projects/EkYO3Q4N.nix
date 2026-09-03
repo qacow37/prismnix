@@ -130,23 +130,20 @@ let
         "spigot-1.21.10" = _hGTZRkx5;
         "default" = _trKCXB6B;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spherelib";
-            id = "EkYO3Q4N";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 only";
-                    shortName = "AGPL-3.0-only";
-                    url = "https://www.gnu.org/licenses/gpl-3.0.html#license-text";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spherelib";
+        id = "EkYO3Q4N";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
+                url = "https://www.gnu.org/licenses/gpl-3.0.html#license-text";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

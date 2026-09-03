@@ -117,23 +117,20 @@ let
         "neoforge-1.21.1" = _785rsUjd;
         "default" = _785rsUjd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "occultism-kubejs";
-            id = "u5J68aYW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/klikli-dev/occultism-kubejs/blob/version/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "occultism-kubejs";
+        id = "u5J68aYW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/klikli-dev/occultism-kubejs/blob/version/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

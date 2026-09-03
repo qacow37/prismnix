@@ -63,23 +63,20 @@ let
         "neoforge-1.21.4" = _zbgpxrOm;
         "default" = _yiXoBbe7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rehooked";
-            id = "967kkKiF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 2-Clause \"Simplified\" License";
-                    shortName = "BSD-2-Clause";
-                    url = "https://github.com/OE100/ReHooked/blob/1.20.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rehooked";
+        id = "967kkKiF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 2-Clause \"Simplified\" License";
+                shortName = "BSD-2-Clause";
+                url = "https://github.com/OE100/ReHooked/blob/1.20.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

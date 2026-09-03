@@ -166,23 +166,20 @@ let
         "quilt-1.20.1" = _6IzdThGc;
         "default" = _lAqY1FlJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-wildernature";
-            id = "AAiRU4aQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/satisfyu/WilderNature/blob/f81df933a3311af496793cef5534fe3e589921c8/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-wildernature";
+        id = "AAiRU4aQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/satisfyu/WilderNature/blob/f81df933a3311af496793cef5534fe3e589921c8/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

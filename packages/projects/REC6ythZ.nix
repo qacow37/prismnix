@@ -132,23 +132,20 @@ let
         "forge-1.20.1" = _wrgHebmW;
         "default" = _fgCNU8NR;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "idle-boost";
-            id = "REC6ythZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-mSLA-v2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-mSLA-v2.0";
-                    shortName = "LicenseRef-mSLA-v2.0";
-                    url = "https://kyronis.net/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "idle-boost";
+        id = "REC6ythZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-mSLA-v2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-mSLA-v2.0";
+                shortName = "LicenseRef-mSLA-v2.0";
+                url = "https://kyronis.net/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

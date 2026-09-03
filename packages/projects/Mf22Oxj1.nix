@@ -52,23 +52,20 @@ let
         "neoforge-26.1.1" = _NDJQF6Js;
         "default" = _OzRhka8x;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cheats+";
-            id = "Mf22Oxj1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution 4.0 International";
-                    shortName = "CC-BY-4.0";
-                    url = "https://creativecommons.org/licenses/by/4.0/legalcode";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cheats+";
+        id = "Mf22Oxj1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
+                url = "https://creativecommons.org/licenses/by/4.0/legalcode";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

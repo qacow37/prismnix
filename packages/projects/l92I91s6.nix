@@ -245,23 +245,20 @@ let
         "neoforge-26.2" = _r5l8f1Ob;
         "default" = _gVfTyng5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ping-in-tablist";
-            id = "l92I91s6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "The Unlicense";
-                    shortName = "Unlicense";
-                    url = "https://raw.githubusercontent.com/Alex-265/mc-ping-in-tablist/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ping-in-tablist";
+        id = "l92I91s6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "The Unlicense";
+                shortName = "Unlicense";
+                url = "https://raw.githubusercontent.com/Alex-265/mc-ping-in-tablist/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -712,23 +712,20 @@ let
         "fabric-1.19.2" = _ZaH5GpWB;
         "default" = _HjExzgX5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sdm-shop";
-            id = "dOrw4veV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v2.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Academic-Free-License-v2.1";
-                    shortName = "LicenseRef-Academic-Free-License-v2.1";
-                    url = "https://spdx.org/licenses/AFL-2.1";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sdm-shop";
+        id = "dOrw4veV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v2.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Academic-Free-License-v2.1";
+                shortName = "LicenseRef-Academic-Free-License-v2.1";
+                url = "https://spdx.org/licenses/AFL-2.1";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

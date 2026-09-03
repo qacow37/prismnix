@@ -210,23 +210,20 @@ let
         "neoforge-1.21.1" = _btNg7Xzi;
         "default" = _XsN6Ellv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-crafting-tables-lieonlion";
-            id = "C5hwIsg1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/LieOnLion/More-Crafting-Tables/blob/github/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-crafting-tables-lieonlion";
+        id = "C5hwIsg1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/LieOnLion/More-Crafting-Tables/blob/github/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

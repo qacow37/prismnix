@@ -52,23 +52,20 @@ let
         "neoforge-1.21.11" = _hMwOGr6R;
         "default" = _hMwOGr6R;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "image-mod";
-            id = "q8ogmbVK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://www.gnu.org/licenses/gpl-3.0-standalone.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "image-mod";
+        id = "q8ogmbVK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://www.gnu.org/licenses/gpl-3.0-standalone.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

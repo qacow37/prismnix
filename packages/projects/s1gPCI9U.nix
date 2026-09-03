@@ -32,23 +32,20 @@ let
         "fabric-1.20.1" = _kWHGqrcz;
         "default" = _kWHGqrcz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "maxvar-reap";
-            id = "s1gPCI9U";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://raw.githubusercontent.com/maxvar/mcf-reap/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "maxvar-reap";
+        id = "s1gPCI9U";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://raw.githubusercontent.com/maxvar/mcf-reap/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

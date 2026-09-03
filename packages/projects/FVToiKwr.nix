@@ -365,23 +365,20 @@ let
         "fabric-1.21.1" = _znZsBYGz;
         "default" = _hPBpjlxa;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "via-romana";
-            id = "FVToiKwr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Responsive-Source-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Responsive-Source-License";
-                    shortName = "LicenseRef-Responsive-Source-License";
-                    url = "https://github.com/RasaNovum/responsive-source-license/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "via-romana";
+        id = "FVToiKwr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Responsive-Source-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Responsive-Source-License";
+                shortName = "LicenseRef-Responsive-Source-License";
+                url = "https://github.com/RasaNovum/responsive-source-license/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -432,23 +432,20 @@ let
         "fabric-26.1.2" = _LO1vjJFl;
         "default" = _LO1vjJFl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "noba";
-            id = "ZrHxHT33";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Zlib" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "zlib License";
-                    shortName = "Zlib";
-                    url = "https://codeberg.org/nobaboy/NobaAddons/src/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "noba";
+        id = "ZrHxHT33";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Zlib" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "zlib License";
+                shortName = "Zlib";
+                url = "https://codeberg.org/nobaboy/NobaAddons/src/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

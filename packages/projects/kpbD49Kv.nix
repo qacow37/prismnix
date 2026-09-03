@@ -70,23 +70,20 @@ let
         "quilt-1.21.11" = _itPhn3cc;
         "default" = _itPhn3cc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cursed-spawners";
-            id = "kpbD49Kv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lily-License-v1.1";
-                    shortName = "LicenseRef-Lily-License-v1.1";
-                    url = "https://github.com/Provismet/Cursed-Spawners/blob/1.21/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cursed-spawners";
+        id = "kpbD49Kv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lily-License-v1.1";
+                shortName = "LicenseRef-Lily-License-v1.1";
+                url = "https://github.com/Provismet/Cursed-Spawners/blob/1.21/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

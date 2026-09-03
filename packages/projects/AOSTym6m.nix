@@ -95,23 +95,20 @@ let
         "fabric-26.2" = _deC7bRua;
         "default" = _deC7bRua;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pickup-hud";
-            id = "AOSTym6m";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v2.0 only";
-                    shortName = "GPL-2.0-only";
-                    url = "https://github.com/kotleni/pickuphud-minecraft/blob/1.21.10/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pickup-hud";
+        id = "AOSTym6m";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v2.0 only";
+                shortName = "GPL-2.0-only";
+                url = "https://github.com/kotleni/pickuphud-minecraft/blob/1.21.10/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

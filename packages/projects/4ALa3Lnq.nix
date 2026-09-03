@@ -64,23 +64,20 @@ let
         "minecraft-26.2" = _wiMOG7sD;
         "default" = _wiMOG7sD;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "strings-and-things";
-            id = "4ALa3Lnq";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution 4.0 International";
-                    shortName = "CC-BY-4.0";
-                    url = "https://creativecommons.org/licenses/by/4.0/deed.en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "strings-and-things";
+        id = "4ALa3Lnq";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
+                url = "https://creativecommons.org/licenses/by/4.0/deed.en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

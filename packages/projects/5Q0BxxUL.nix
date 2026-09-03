@@ -215,23 +215,20 @@ let
         "quilt-1.21.10" = _aUKGggnY;
         "default" = _aUKGggnY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tils-graves";
-            id = "5Q0BxxUL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
-                    shortName = "CC-BY-NC-4.0";
-                    url = "https://github.com/MavLeague/tils_graves/blob/main/LICENSE-CC-BY-NC-4.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tils-graves";
+        id = "5Q0BxxUL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                shortName = "CC-BY-NC-4.0";
+                url = "https://github.com/MavLeague/tils_graves/blob/main/LICENSE-CC-BY-NC-4.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -50,23 +50,20 @@ let
         "datapack-1.20.4" = _YafiHW9f;
         "default" = _G36OFgMb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "progression-reborn-knives";
-            id = "V45JL0Gs";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Legacy-License";
-                    shortName = "LicenseRef-Legacy-License";
-                    url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "progression-reborn-knives";
+        id = "V45JL0Gs";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Legacy-License";
+                shortName = "LicenseRef-Legacy-License";
+                url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

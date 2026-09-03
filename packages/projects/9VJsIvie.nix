@@ -47,23 +47,20 @@ let
         "fabric-1.21.11" = _2Dl2ju1a;
         "default" = _2Dl2ju1a;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "indexer";
-            id = "9VJsIvie";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/AgustinBeniteez/Indexer-mod?tab=MIT-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "indexer";
+        id = "9VJsIvie";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/AgustinBeniteez/Indexer-mod?tab=MIT-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

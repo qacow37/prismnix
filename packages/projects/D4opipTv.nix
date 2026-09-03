@@ -118,23 +118,20 @@ let
         "quilt-23w17a" = _UHeUyAEe;
         "default" = _UHeUyAEe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "teacup";
-            id = "D4opipTv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 or later";
-                    shortName = "LGPL-3.0-or-later";
-                    url = "https://github.com/JustFoxx/Tea-Cup/blob/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "teacup";
+        id = "D4opipTv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 or later";
+                shortName = "LGPL-3.0-or-later";
+                url = "https://github.com/JustFoxx/Tea-Cup/blob/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

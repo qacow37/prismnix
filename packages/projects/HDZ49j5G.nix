@@ -42,23 +42,20 @@ let
         "forge-1.19.2" = _nQM7JVHm;
         "default" = _ZZlbtM52;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "colorful-azaleas";
-            id = "HDZ49j5G";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Modified-MIT-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Modified-MIT-License";
-                    shortName = "LicenseRef-Modified-MIT-License";
-                    url = "https://github.com/terrarium-earth/ColorfulAzaleas/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "colorful-azaleas";
+        id = "HDZ49j5G";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Modified-MIT-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Modified-MIT-License";
+                shortName = "LicenseRef-Modified-MIT-License";
+                url = "https://github.com/terrarium-earth/ColorfulAzaleas/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

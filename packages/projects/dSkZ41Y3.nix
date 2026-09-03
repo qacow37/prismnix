@@ -481,23 +481,20 @@ let
         "neoforge-26.1.2" = _rVk2W58l;
         "default" = _rVk2W58l;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "skinshifter";
-            id = "dSkZ41Y3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crafted-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Crafted-License-1.0";
-                    shortName = "LicenseRef-Crafted-License-1.0";
-                    url = "https://github.com/ToCraft/SkinShifter/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "skinshifter";
+        id = "dSkZ41Y3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crafted-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Crafted-License-1.0";
+                shortName = "LicenseRef-Crafted-License-1.0";
+                url = "https://github.com/ToCraft/SkinShifter/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

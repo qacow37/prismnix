@@ -40,23 +40,20 @@ let
         "fabric-26.2" = _sikTvnjB;
         "default" = _sikTvnjB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "load-stone";
-            id = "2UT1ynXh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-IlyRac-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-IlyRac-License";
-                    shortName = "LicenseRef-IlyRac-License";
-                    url = "https://github.com/IlyRac/Loadstone/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "load-stone";
+        id = "2UT1ynXh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-IlyRac-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-IlyRac-License";
+                shortName = "LicenseRef-IlyRac-License";
+                url = "https://github.com/IlyRac/Loadstone/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

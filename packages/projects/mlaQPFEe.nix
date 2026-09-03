@@ -73,23 +73,20 @@ let
         "neoforge-1.21.1" = _Us19e7Vp;
         "default" = _Us19e7Vp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ultramarine";
-            id = "mlaQPFEe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-BSD-3-AND-CC-BY-NC-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-BSD-3-AND-CC-BY-NC-4.0";
-                    shortName = "LicenseRef-BSD-3-AND-CC-BY-NC-4.0";
-                    url = "https://github.com/LocusAzzurro/Ultramarine/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ultramarine";
+        id = "mlaQPFEe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-BSD-3-AND-CC-BY-NC-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-BSD-3-AND-CC-BY-NC-4.0";
+                shortName = "LicenseRef-BSD-3-AND-CC-BY-NC-4.0";
+                url = "https://github.com/LocusAzzurro/Ultramarine/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

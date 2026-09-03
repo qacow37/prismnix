@@ -74,23 +74,20 @@ let
         "quilt-1.21.1" = _hMfLcymt;
         "default" = _hMfLcymt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "env.json";
-            id = "ZKEKrxKq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
-                    shortName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
-                    url = "https://github.com/MModding/env.json/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "env.json";
+        id = "ZKEKrxKq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
+                shortName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
+                url = "https://github.com/MModding/env.json/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

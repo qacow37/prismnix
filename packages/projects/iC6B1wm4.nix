@@ -24,23 +24,20 @@ let
         "neoforge-1.20.1" = _p2JP5hMp;
         "default" = _p2JP5hMp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "anyblade";
-            id = "iC6B1wm4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 or later";
-                    shortName = "LGPL-2.1-or-later";
-                    url = "https://github.com/Arcomit/anythingslashblade/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "anyblade";
+        id = "iC6B1wm4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 or later";
+                shortName = "LGPL-2.1-or-later";
+                url = "https://github.com/Arcomit/anythingslashblade/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

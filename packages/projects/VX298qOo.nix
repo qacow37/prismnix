@@ -12,23 +12,20 @@ let
         "forge-1.20.1" = _O1s1YhEO;
         "default" = _O1s1YhEO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "redstone-clock-mod";
-            id = "VX298qOo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 or later";
-                    shortName = "LGPL-2.1-or-later";
-                    url = "https://github.com/Viola-Siemens/Redstone-Clock?tab=LGPL-2.1-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "redstone-clock-mod";
+        id = "VX298qOo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 or later";
+                shortName = "LGPL-2.1-or-later";
+                url = "https://github.com/Viola-Siemens/Redstone-Clock?tab=LGPL-2.1-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

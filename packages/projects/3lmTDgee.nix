@@ -40,23 +40,20 @@ let
         "fabric-1.21.8" = _RW9y1iEZ;
         "default" = _RW9y1iEZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "compostables";
-            id = "3lmTDgee";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC0-1.0";
-                    shortName = "LicenseRef-CC0-1.0";
-                    url = "https://github.com/globalista-dev/compostables?tab=CC0-1.0-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "compostables";
+        id = "3lmTDgee";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC0-1.0";
+                shortName = "LicenseRef-CC0-1.0";
+                url = "https://github.com/globalista-dev/compostables?tab=CC0-1.0-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

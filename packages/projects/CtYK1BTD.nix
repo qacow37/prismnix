@@ -719,23 +719,20 @@ let
         "neoforge-26.2" = _Fr90pieq;
         "default" = _Fr90pieq;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bacteriums";
-            id = "CtYK1BTD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 only";
-                    shortName = "LGPL-2.1-only";
-                    url = "https://raw.githubusercontent.com/huanmeng-qwq/Bacterium/refs/heads/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bacteriums";
+        id = "CtYK1BTD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 only";
+                shortName = "LGPL-2.1-only";
+                url = "https://raw.githubusercontent.com/huanmeng-qwq/Bacterium/refs/heads/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

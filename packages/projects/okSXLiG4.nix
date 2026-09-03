@@ -20,23 +20,20 @@ let
         "optifine-1.21.11" = _U14b7BOg;
         "default" = _U14b7BOg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ritegvhs";
-            id = "okSXLiG4";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 2-Clause \"Simplified\" License";
-                    shortName = "BSD-2-Clause";
-                    url = "https://github.com/untodesu/ritegvhs/blob/devel/RITEG-LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ritegvhs";
+        id = "okSXLiG4";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 2-Clause \"Simplified\" License";
+                shortName = "BSD-2-Clause";
+                url = "https://github.com/untodesu/ritegvhs/blob/devel/RITEG-LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

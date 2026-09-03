@@ -165,23 +165,20 @@ let
         "fabric-26.2" = _UgfIDm2G;
         "default" = _UgfIDm2G;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mmodding-library";
-            id = "J3eDXLuX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
-                    shortName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
-                    url = "https://github.com/MModding/mmodding-library/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mmodding-library";
+        id = "J3eDXLuX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
+                shortName = "LicenseRef-Code-PolyForm-Shield-1.0.0-Assets-ARR";
+                url = "https://github.com/MModding/mmodding-library/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

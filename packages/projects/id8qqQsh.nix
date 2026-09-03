@@ -49,23 +49,20 @@ let
         "minecraft-1.20.4" = _ZQStAFiG;
         "default" = _ZQStAFiG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr-irr";
-            id = "id8qqQsh";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Indian-Railways-Resources-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Indian-Railways-Resources-License";
-                    shortName = "LicenseRef-Indian-Railways-Resources-License";
-                    url = "https://gist.github.com/Haarshit21/3348249ecea106571228f23779612e7c";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr-irr";
+        id = "id8qqQsh";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Indian-Railways-Resources-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Indian-Railways-Resources-License";
+                shortName = "LicenseRef-Indian-Railways-Resources-License";
+                url = "https://gist.github.com/Haarshit21/3348249ecea106571228f23779612e7c";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

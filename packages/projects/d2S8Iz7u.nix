@@ -54,23 +54,20 @@ let
         "minecraft-26.1.2" = _ceHLxRF3;
         "default" = _ceHLxRF3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "improved-sodiumembeddium-rus-translation";
-            id = "d2S8Iz7u";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Github-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Github-Custom-License";
-                    shortName = "LicenseRef-Github-Custom-License";
-                    url = "https://github.com/bimbuxz/Improved-Sodium-Embeddium-RUS-Translation/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "improved-sodiumembeddium-rus-translation";
+        id = "d2S8Iz7u";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Github-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Github-Custom-License";
+                shortName = "LicenseRef-Github-Custom-License";
+                url = "https://github.com/bimbuxz/Improved-Sodium-Embeddium-RUS-Translation/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

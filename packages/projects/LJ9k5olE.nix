@@ -156,23 +156,20 @@ let
         "purpur-26.2" = _Ey6n0bvf;
         "default" = _PYZQtccH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aurelium";
-            id = "LJ9k5olE";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Aurelium-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Aurelium-License";
-                    shortName = "LicenseRef-Aurelium-License";
-                    url = "https://github.com/APPLEPIE6969/Aurelium/blob/1.4.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aurelium";
+        id = "LJ9k5olE";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Aurelium-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Aurelium-License";
+                shortName = "LicenseRef-Aurelium-License";
+                url = "https://github.com/APPLEPIE6969/Aurelium/blob/1.4.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

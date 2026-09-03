@@ -77,23 +77,20 @@ let
         "forge-1.20.1" = _1Ga93fGw;
         "default" = _1Ga93fGw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "shaded-war";
-            id = "NLOHh3Kg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License";
-                    shortName = "LicenseRef-Custom-License";
-                    url = "https://raw.githubusercontent.com/fullfud/Shadedwar/refs/heads/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "shaded-war";
+        id = "NLOHh3Kg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License";
+                shortName = "LicenseRef-Custom-License";
+                url = "https://raw.githubusercontent.com/fullfud/Shadedwar/refs/heads/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

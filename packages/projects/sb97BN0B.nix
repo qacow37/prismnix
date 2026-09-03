@@ -95,23 +95,20 @@ let
         "forge-1.7.10" = _SYgnD9rf;
         "default" = _SYgnD9rf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enviromine-continuation";
-            id = "sb97BN0B";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-SA-4.0";
-                    shortName = "LicenseRef-CC-BY-NC-SA-4.0";
-                    url = "https://github.com/kotmatross28729/EnviroMine-continuation/blob/1.3.138/LICENSE.MD";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enviromine-continuation";
+        id = "sb97BN0B";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-SA-4.0";
+                shortName = "LicenseRef-CC-BY-NC-SA-4.0";
+                url = "https://github.com/kotmatross28729/EnviroMine-continuation/blob/1.3.138/LICENSE.MD";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

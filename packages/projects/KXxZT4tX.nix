@@ -73,23 +73,20 @@ let
         "neoforge-1.21.1" = _VGE8V10q;
         "default" = _VGE8V10q;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "monster-of-the-night-skies";
-            id = "KXxZT4tX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cammies-Corner-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Cammies-Corner-License";
-                    shortName = "LicenseRef-Cammies-Corner-License";
-                    url = "https://github.com/CammiePone/Monster-of-the-Night-Skies/blob/HEAD/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "monster-of-the-night-skies";
+        id = "KXxZT4tX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cammies-Corner-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Cammies-Corner-License";
+                shortName = "LicenseRef-Cammies-Corner-License";
+                url = "https://github.com/CammiePone/Monster-of-the-Night-Skies/blob/HEAD/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

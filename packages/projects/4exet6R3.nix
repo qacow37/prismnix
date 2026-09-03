@@ -76,23 +76,20 @@ let
         "neoforge-1.21.11" = _1RtDMTDz;
         "default" = _1RtDMTDz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-designed-decor";
-            id = "4exet6R3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CMF-Community-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CMF-Community-License";
-                    shortName = "LicenseRef-CMF-Community-License";
-                    url = "https://www.curseforge.com/minecraft/mc-mods/create-designed-decor#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-designed-decor";
+        id = "4exet6R3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CMF-Community-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CMF-Community-License";
+                shortName = "LicenseRef-CMF-Community-License";
+                url = "https://www.curseforge.com/minecraft/mc-mods/create-designed-decor#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

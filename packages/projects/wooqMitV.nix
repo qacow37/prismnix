@@ -36,23 +36,20 @@ let
         "minecraft-1.20" = _DiJB4GH1;
         "default" = _DiJB4GH1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cbc-tallyho";
-            id = "wooqMitV";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AFL-3.0";
-                    shortName = "LicenseRef-AFL-3.0";
-                    url = "https://opensource.org/license/afl-3-0-php";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cbc-tallyho";
+        id = "wooqMitV";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AFL-3.0";
+                shortName = "LicenseRef-AFL-3.0";
+                url = "https://opensource.org/license/afl-3-0-php";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -213,23 +213,20 @@ let
         "quilt-26.1" = _ewR14ZMH;
         "default" = _ewR14ZMH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stonehenge";
-            id = "B87JI6Q9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://mega.nz/file/KoVRCAYI#3OZYgLXstpYNGx3mEk7TGdO9JtV7PdsC3RRYFDsoluY";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stonehenge";
+        id = "B87JI6Q9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://mega.nz/file/KoVRCAYI#3OZYgLXstpYNGx3mEk7TGdO9JtV7PdsC3RRYFDsoluY";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

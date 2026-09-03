@@ -812,23 +812,20 @@ let
         "quilt-26.2" = _R08K2DHO;
         "default" = _R08K2DHO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "playtimestatistics";
-            id = "rsBa8ErW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-License";
-                    shortName = "LicenseRef-MIT-License";
-                    url = "https://github.com/Starmoonts/PlayTimeStatistics?tab=MIT-1-ov-file#";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "playtimestatistics";
+        id = "rsBa8ErW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-License";
+                shortName = "LicenseRef-MIT-License";
+                url = "https://github.com/Starmoonts/PlayTimeStatistics?tab=MIT-1-ov-file#";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

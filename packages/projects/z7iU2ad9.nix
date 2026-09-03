@@ -59,23 +59,20 @@ let
         "minecraft-26.1.2" = _mXm6RJMm;
         "default" = _mXm6RJMm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "faithful-32-watch-of-undying-addon";
-            id = "z7iU2ad9";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/BertSa/Watch-of-Undying-32x/blob/1.21.x/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "faithful-32-watch-of-undying-addon";
+        id = "z7iU2ad9";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/BertSa/Watch-of-Undying-32x/blob/1.21.x/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

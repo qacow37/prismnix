@@ -90,23 +90,20 @@ let
         "neoforge-1.21.1" = _b1ibDwo3;
         "default" = _v5JHhJwU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pokemon-field-lab";
-            id = "8FUnBD8c";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-License";
-                    shortName = "LicenseRef-Lambda-License";
-                    url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pokemon-field-lab";
+        id = "8FUnBD8c";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-License";
+                shortName = "LicenseRef-Lambda-License";
+                url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

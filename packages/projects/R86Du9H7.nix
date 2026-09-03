@@ -25,23 +25,20 @@ let
         "quilt-1.20.1" = _HiyaS0fX;
         "default" = _3SfL37tQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "block-n-zapping";
-            id = "R86Du9H7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Art" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-AND-ARR-Art";
-                    shortName = "LicenseRef-MIT-Code-AND-ARR-Art";
-                    url = "https://github.com/LopyLuna/Block-n-Zapping/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "block-n-zapping";
+        id = "R86Du9H7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Art" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-AND-ARR-Art";
+                shortName = "LicenseRef-MIT-Code-AND-ARR-Art";
+                url = "https://github.com/LopyLuna/Block-n-Zapping/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

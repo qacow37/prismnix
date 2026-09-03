@@ -56,23 +56,20 @@ let
         "fabric-1.21.9" = _lesRrU7R;
         "default" = _lesRrU7R;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "make-it-bigger";
-            id = "t2QICuPq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dont-Be-a-Jerk";
-                    shortName = "LicenseRef-Dont-Be-a-Jerk";
-                    url = "https://github.com/evantahler/Dont-be-a-Jerk";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "make-it-bigger";
+        id = "t2QICuPq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dont-Be-a-Jerk";
+                shortName = "LicenseRef-Dont-Be-a-Jerk";
+                url = "https://github.com/evantahler/Dont-be-a-Jerk";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

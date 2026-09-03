@@ -56,23 +56,20 @@ let
         "fabric-1.20.1" = _GVqUKzJp;
         "default" = _suYdvEKP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-train-lights";
-            id = "nRC3whhL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 only";
-                    shortName = "AGPL-3.0-only";
-                    url = "https://github.com/ProgrammerLP/Create-Train-Lights";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-train-lights";
+        id = "nRC3whhL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
+                url = "https://github.com/ProgrammerLP/Create-Train-Lights";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

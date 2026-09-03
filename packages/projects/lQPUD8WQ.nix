@@ -11,23 +11,20 @@ let
         "forge-1.12.2" = _8Gj9FBs8;
         "default" = _8Gj9FBs8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "defiled-lands";
-            id = "lQPUD8WQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-Only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-Only";
-                    shortName = "LicenseRef-MIT-Code-Only";
-                    url = "https://github.com/Lykrast/DefiledLands/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "defiled-lands";
+        id = "lQPUD8WQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-Only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-Only";
+                shortName = "LicenseRef-MIT-Code-Only";
+                url = "https://github.com/Lykrast/DefiledLands/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

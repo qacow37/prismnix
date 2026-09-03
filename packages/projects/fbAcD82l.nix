@@ -32,23 +32,20 @@ let
         "quilt-1.20.1" = _sgN5C63G;
         "default" = _sgN5C63G;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-backtank-jetpack-curios-compatibility";
-            id = "fbAcD82l";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/villainous-j/create-backtank-jetpack-curios-compatibility-datapack?tab=MIT-1-ov-file#MIT-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-backtank-jetpack-curios-compatibility";
+        id = "fbAcD82l";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/villainous-j/create-backtank-jetpack-curios-compatibility-datapack?tab=MIT-1-ov-file#MIT-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

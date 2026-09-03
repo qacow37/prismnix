@@ -1126,23 +1126,20 @@ let
         "purpur-26.2" = _B8C0YAzv;
         "default" = _B8C0YAzv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "origins-reborn";
-            id = "17wKhP5n";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-AND-LicenseRef-Proprietary" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
-                    shortName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
-                    url = "https://github.com/cometcake575/Origins-Reborn/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "origins-reborn";
+        id = "17wKhP5n";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-AND-LicenseRef-Proprietary" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
+                shortName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
+                url = "https://github.com/cometcake575/Origins-Reborn/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -328,23 +328,20 @@ let
         "optifine-1.19.4" = _KgJHr8Dp;
         "default" = _cpD4esk9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rethinking-voxels";
-            id = "kmwfVOoi";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-Agreement" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-Agreement";
-                    shortName = "LicenseRef-Complementary-Agreement";
-                    url = "https://github.com/gri573/rethinking-voxels/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rethinking-voxels";
+        id = "kmwfVOoi";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-Agreement" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-Agreement";
+                shortName = "LicenseRef-Complementary-Agreement";
+                url = "https://github.com/gri573/rethinking-voxels/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

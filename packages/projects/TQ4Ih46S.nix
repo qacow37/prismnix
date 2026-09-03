@@ -84,23 +84,20 @@ let
         "fabric-26.1.2" = _8zglX9Sj;
         "default" = _8zglX9Sj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "planifolia";
-            id = "TQ4Ih46S";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/tildejustin/planifolia/blob/1.21.2-1.21.5-sodium-0.6/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "planifolia";
+        id = "TQ4Ih46S";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/tildejustin/planifolia/blob/1.21.2-1.21.5-sodium-0.6/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

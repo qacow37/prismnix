@@ -32,23 +32,20 @@ let
         "neoforge-1.21.1" = _I3RNsslS;
         "default" = _I3RNsslS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "loot-log";
-            id = "w0gH5swS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Embers-Modding-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Embers-Modding-License";
-                    shortName = "LicenseRef-Embers-Modding-License";
-                    url = "https://tysontheember.dev/modding-licence/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "loot-log";
+        id = "w0gH5swS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Embers-Modding-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Embers-Modding-License";
+                shortName = "LicenseRef-Embers-Modding-License";
+                url = "https://tysontheember.dev/modding-licence/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

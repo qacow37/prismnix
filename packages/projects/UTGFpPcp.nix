@@ -56,23 +56,20 @@ let
         "fabric-1.21.11" = _iWiaEODy;
         "default" = _iWiaEODy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pricks-n-planks";
-            id = "UTGFpPcp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Portixs-License-v1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Portixs-License-v1.0";
-                    shortName = "LicenseRef-Portixs-License-v1.0";
-                    url = "https://github.com/Portix24/PricksnPlanks/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pricks-n-planks";
+        id = "UTGFpPcp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Portixs-License-v1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Portixs-License-v1.0";
+                shortName = "LicenseRef-Portixs-License-v1.0";
+                url = "https://github.com/Portix24/PricksnPlanks/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

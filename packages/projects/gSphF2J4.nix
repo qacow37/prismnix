@@ -130,23 +130,20 @@ let
         "minecraft-1.19.2" = _8IJDVreH;
         "default" = _8IJDVreH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pixelmine-smooth-operator";
-            id = "gSphF2J4";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Artistic-License-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-The-Artistic-License-2.0";
-                    shortName = "LicenseRef-The-Artistic-License-2.0";
-                    url = "https://opensource.org/license/artistic-2-0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pixelmine-smooth-operator";
+        id = "gSphF2J4";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Artistic-License-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-The-Artistic-License-2.0";
+                shortName = "LicenseRef-The-Artistic-License-2.0";
+                url = "https://opensource.org/license/artistic-2-0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

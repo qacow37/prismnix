@@ -122,23 +122,20 @@ let
         "quilt-26.2" = _bSfufT1H;
         "default" = _bSfufT1H;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sdob";
-            id = "5Zdqv8rG";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-License-SDoB" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-License-SDoB";
-                    shortName = "LicenseRef-License-SDoB";
-                    url = "https://github.com/D4vide106/SDoB/blob/main/License.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sdob";
+        id = "5Zdqv8rG";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-License-SDoB" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-License-SDoB";
+                shortName = "LicenseRef-License-SDoB";
+                url = "https://github.com/D4vide106/SDoB/blob/main/License.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

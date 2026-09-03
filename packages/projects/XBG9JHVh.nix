@@ -81,23 +81,20 @@ let
         "minecraft-26.2" = _dxLoMROG;
         "default" = _dxLoMROG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sophies-enchants";
-            id = "XBG9JHVh";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SophieLicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SophieLicense";
-                    shortName = "LicenseRef-SophieLicense";
-                    url = "https://github.com/Bentcheesee/Sophies-SkyBlock?tab=License-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sophies-enchants";
+        id = "XBG9JHVh";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SophieLicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SophieLicense";
+                shortName = "LicenseRef-SophieLicense";
+                url = "https://github.com/Bentcheesee/Sophies-SkyBlock?tab=License-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -120,23 +120,20 @@ let
         "neoforge-26.1" = _e85CIFv0;
         "default" = _e85CIFv0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "porting-dead-libs";
-            id = "fKkUaEuN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Common-Sense-License-by-Porting-Dead-Mods" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Common-Sense-License-by-Porting-Dead-Mods";
-                    shortName = "LicenseRef-Common-Sense-License-by-Porting-Dead-Mods";
-                    url = "https://github.com/Porting-Dead-Mods/Porting-Dead-Libs/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "porting-dead-libs";
+        id = "fKkUaEuN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Common-Sense-License-by-Porting-Dead-Mods" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Common-Sense-License-by-Porting-Dead-Mods";
+                shortName = "LicenseRef-Common-Sense-License-by-Porting-Dead-Mods";
+                url = "https://github.com/Porting-Dead-Mods/Porting-Dead-Libs/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

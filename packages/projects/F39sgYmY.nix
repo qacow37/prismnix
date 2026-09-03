@@ -264,23 +264,20 @@ let
         "fabric-1.21.1" = _OVniCqRS;
         "default" = _OVniCqRS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "inventory-pause-forge";
-            id = "F39sgYmY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "European Union Public License 1.2";
-                    shortName = "EUPL-1.2";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "inventory-pause-forge";
+        id = "F39sgYmY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "European Union Public License 1.2";
+                shortName = "EUPL-1.2";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

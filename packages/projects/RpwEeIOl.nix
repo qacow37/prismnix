@@ -58,23 +58,20 @@ let
         "fabric-26.1-snapshot-9" = _irqcFikm;
         "default" = _irqcFikm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fps-render";
-            id = "RpwEeIOl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Open-Source" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Open-Source";
-                    shortName = "LicenseRef-Open-Source";
-                    url = "https://raw.githubusercontent.com/I114rk/FPS-Render/refs/heads/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fps-render";
+        id = "RpwEeIOl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Open-Source" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Open-Source";
+                shortName = "LicenseRef-Open-Source";
+                url = "https://raw.githubusercontent.com/I114rk/FPS-Render/refs/heads/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -94,23 +94,20 @@ let
         "fabric-1.21.11" = _1mZXGZhZ;
         "default" = _1mZXGZhZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hyperfurnace";
-            id = "c8vWOZpv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chihalu-Licenese" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Chihalu-Licenese";
-                    shortName = "LicenseRef-Chihalu-Licenese";
-                    url = "https://chihalucoding.github.io/Minecraft-Mod-License/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hyperfurnace";
+        id = "c8vWOZpv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chihalu-Licenese" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Chihalu-Licenese";
+                shortName = "LicenseRef-Chihalu-Licenese";
+                url = "https://chihalucoding.github.io/Minecraft-Mod-License/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

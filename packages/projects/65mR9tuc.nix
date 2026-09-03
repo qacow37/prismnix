@@ -23,23 +23,20 @@ let
         "minecraft-1.21.3" = _dCeE627v;
         "default" = _dCeE627v;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dtn-x-nw";
-            id = "65mR9tuc";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 or later";
-                    shortName = "LGPL-3.0-or-later";
-                    url = "https://www.gnu.org/licenses/lgpl-3.0.en.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dtn-x-nw";
+        id = "65mR9tuc";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 or later";
+                shortName = "LGPL-3.0-or-later";
+                url = "https://www.gnu.org/licenses/lgpl-3.0.en.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

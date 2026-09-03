@@ -134,23 +134,20 @@ let
         "fabric-26.2" = _hOTbk3bT;
         "default" = _hOTbk3bT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-fabric-console";
-            id = "Y8o1j1Sf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/jpenilla/better-fabric-console/blob/master/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-fabric-console";
+        id = "Y8o1j1Sf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/jpenilla/better-fabric-console/blob/master/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

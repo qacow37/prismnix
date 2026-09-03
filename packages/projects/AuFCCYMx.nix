@@ -135,23 +135,20 @@ let
         "datapack-1.21.4" = _4WUlRc4K;
         "default" = _IbMR9Ie6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "elytra-armor";
-            id = "AuFCCYMx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/DorkixAzIgazi/armored-elytra?tab=MIT-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "elytra-armor";
+        id = "AuFCCYMx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/DorkixAzIgazi/armored-elytra?tab=MIT-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

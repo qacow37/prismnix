@@ -230,23 +230,20 @@ let
         "neoforge-26.2" = _byAH0rWw;
         "default" = _VDt2Sf8j;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fullbright-simple";
-            id = "6zT9ahZO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/MrRockis/SimpleFullbright/blob/1.21.9/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fullbright-simple";
+        id = "6zT9ahZO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/MrRockis/SimpleFullbright/blob/1.21.9/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

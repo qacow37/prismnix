@@ -189,23 +189,20 @@ let
         "fabric-1.16.5" = _KOsuG31Y;
         "default" = _u9qzEVZ1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "timelesslib";
-            id = "vKDSSPpv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Zlib" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "zlib License";
-                    shortName = "Zlib";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "timelesslib";
+        id = "vKDSSPpv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Zlib" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "zlib License";
+                shortName = "Zlib";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

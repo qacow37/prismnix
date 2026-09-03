@@ -82,23 +82,20 @@ let
         "fabric-1.21.8" = _xs9PllqB;
         "default" = _xs9PllqB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "placeable-plants";
-            id = "o3wjLmDn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://raw.githubusercontent.com/wenwen357951/placeable-fabric/refs/heads/1.21.5/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "placeable-plants";
+        id = "o3wjLmDn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://raw.githubusercontent.com/wenwen357951/placeable-fabric/refs/heads/1.21.5/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

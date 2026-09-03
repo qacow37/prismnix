@@ -252,23 +252,20 @@ let
         "minecraft-1.21.1" = _3kfULKvo;
         "default" = _3kfULKvo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "allthemons-x-mega-showdown-legacy";
-            id = "odZZdRCE";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AllTheMons-License-v3.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AllTheMons-License-v3.2";
-                    shortName = "LicenseRef-AllTheMons-License-v3.2";
-                    url = "https://docs.google.com/document/d/1vBFYBIpBCMDAHCwV7BDfQnachftFxBhv0AsrC_-ZcTo/edit?tab=t.b3tozy6290sj#bookmark=id.4tomjw6ue6px";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "allthemons-x-mega-showdown-legacy";
+        id = "odZZdRCE";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AllTheMons-License-v3.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AllTheMons-License-v3.2";
+                shortName = "LicenseRef-AllTheMons-License-v3.2";
+                url = "https://docs.google.com/document/d/1vBFYBIpBCMDAHCwV7BDfQnachftFxBhv0AsrC_-ZcTo/edit?tab=t.b3tozy6290sj#bookmark=id.4tomjw6ue6px";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

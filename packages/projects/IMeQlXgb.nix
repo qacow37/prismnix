@@ -34,23 +34,20 @@ let
         "fabric-1.21.3" = _6ZJOgPWv;
         "default" = _6ZJOgPWv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "eat-with-ease";
-            id = "IMeQlXgb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 only";
-                    shortName = "AGPL-3.0-only";
-                    url = "https://github.com/BertSa/EatWithEase/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "eat-with-ease";
+        id = "IMeQlXgb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
+                url = "https://github.com/BertSa/EatWithEase/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

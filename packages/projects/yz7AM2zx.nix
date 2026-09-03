@@ -3784,23 +3784,20 @@ let
         "neoforge-26.2" = _Yc4L5kt0;
         "default" = _5t4WQjoG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "structurify";
-            id = "yz7AM2zx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    shortName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    url = "https://github.com/Faboslav/structurify/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "structurify";
+        id = "yz7AM2zx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-ND-4.0";
+                shortName = "LicenseRef-CC-BY-NC-ND-4.0";
+                url = "https://github.com/Faboslav/structurify/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

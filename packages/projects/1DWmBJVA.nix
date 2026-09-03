@@ -658,23 +658,20 @@ let
         "neoforge-1.21.1" = _ZywXpLC6;
         "default" = _BV45cdzS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-vinery";
-            id = "1DWmBJVA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-custom";
-                    shortName = "LicenseRef-custom";
-                    url = "https://github.com/satisfyu/Vinery/commit/bbb097825c0b4c2d5efeb2b6de5e9eb00268e6f7";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-vinery";
+        id = "1DWmBJVA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-custom";
+                shortName = "LicenseRef-custom";
+                url = "https://github.com/satisfyu/Vinery/commit/bbb097825c0b4c2d5efeb2b6de5e9eb00268e6f7";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

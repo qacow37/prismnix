@@ -674,23 +674,20 @@ let
         "neoforge-26.2" = _1sUcXXlt;
         "default" = _NhZEdvol;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "just-enough-resources-jer";
-            id = "uEfK2CXF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dont-Be-a-Jerk";
-                    shortName = "LicenseRef-Dont-Be-a-Jerk";
-                    url = "https://github.com/way2muchnoise/JustEnoughResources/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "just-enough-resources-jer";
+        id = "uEfK2CXF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dont-Be-a-Jerk";
+                shortName = "LicenseRef-Dont-Be-a-Jerk";
+                url = "https://github.com/way2muchnoise/JustEnoughResources/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

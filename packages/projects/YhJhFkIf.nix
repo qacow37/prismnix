@@ -214,23 +214,20 @@ let
         "fabric-1.21.1" = _hkUgZzFE;
         "default" = _hkUgZzFE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stal-alloys";
-            id = "YhJhFkIf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Sephta/stal-alloys/blob/1.19.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stal-alloys";
+        id = "YhJhFkIf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Sephta/stal-alloys/blob/1.19.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

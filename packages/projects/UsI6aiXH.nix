@@ -107,23 +107,20 @@ let
         "minecraft-26.2" = _4A62BaDT;
         "default" = _4A62BaDT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tiny-tools+";
-            id = "UsI6aiXH";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License--Non-Commercial-Use-Only-No-Redistribution" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License--Non-Commercial-Use-Only-No-Redistribution";
-                    shortName = "LicenseRef-Custom-License--Non-Commercial-Use-Only-No-Redistribution";
-                    url = "https://www.curseforge.com/minecraft/texture-packs/tinytools#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tiny-tools+";
+        id = "UsI6aiXH";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License--Non-Commercial-Use-Only-No-Redistribution" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License--Non-Commercial-Use-Only-No-Redistribution";
+                shortName = "LicenseRef-Custom-License--Non-Commercial-Use-Only-No-Redistribution";
+                url = "https://www.curseforge.com/minecraft/texture-packs/tinytools#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

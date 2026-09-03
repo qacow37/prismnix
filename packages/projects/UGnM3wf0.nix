@@ -107,23 +107,20 @@ let
         "neoforge-1.21.1" = _G1R8Q7SQ;
         "default" = _HDiLltOZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "extended-tools";
-            id = "UGnM3wf0";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AURILISDEV-LICENSE-1.0.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
-                    shortName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
-                    url = "https://github.com/aurilisdev/Electrodynamics/blob/1.20/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "extended-tools";
+        id = "UGnM3wf0";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AURILISDEV-LICENSE-1.0.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
+                shortName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
+                url = "https://github.com/aurilisdev/Electrodynamics/blob/1.20/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

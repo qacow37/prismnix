@@ -145,23 +145,20 @@ let
         "fabric-1.21.5" = _X67JBE3V;
         "default" = _WjH0ReaK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "luminous-blocks";
-            id = "sE5eVkj4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Modvane-Public-Mod-License-v1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Modvane-Public-Mod-License-v1.0";
-                    shortName = "LicenseRef-Modvane-Public-Mod-License-v1.0";
-                    url = "https://modvane.com/modvane-public-mod-license-v1-0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "luminous-blocks";
+        id = "sE5eVkj4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Modvane-Public-Mod-License-v1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Modvane-Public-Mod-License-v1.0";
+                shortName = "LicenseRef-Modvane-Public-Mod-License-v1.0";
+                url = "https://modvane.com/modvane-public-mod-license-v1-0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

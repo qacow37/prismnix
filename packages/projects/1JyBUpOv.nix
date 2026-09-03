@@ -30,23 +30,20 @@ let
         "neoforge-1.21.1" = _gvKMyOiJ;
         "default" = _GTSIdqqo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "oreganized-carcinogenius";
-            id = "1JyBUpOv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT";
-                    shortName = "LicenseRef-MIT";
-                    url = "https://github.com/TeamGalena/oreganized/blob/carcinogenius/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "oreganized-carcinogenius";
+        id = "1JyBUpOv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT";
+                shortName = "LicenseRef-MIT";
+                url = "https://github.com/TeamGalena/oreganized/blob/carcinogenius/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

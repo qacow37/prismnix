@@ -128,23 +128,20 @@ let
         "quilt-26.2" = _22lsJv87;
         "default" = _22lsJv87;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "the-frostpale";
-            id = "Eab9WkP8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NIT";
-                    shortName = "LicenseRef-NIT";
-                    url = "https://github.com/kanokarob/Frostpale-Smithed/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the-frostpale";
+        id = "Eab9WkP8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NIT";
+                shortName = "LicenseRef-NIT";
+                url = "https://github.com/kanokarob/Frostpale-Smithed/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

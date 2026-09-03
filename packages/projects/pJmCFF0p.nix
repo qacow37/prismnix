@@ -334,23 +334,20 @@ let
         "neoforge-1.21.1" = _JfqnpP2Z;
         "default" = _f0pKpUWd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "handcrafted";
-            id = "pJmCFF0p";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terrarium-Licence" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terrarium-Licence";
-                    shortName = "LicenseRef-Terrarium-Licence";
-                    url = "https://github.com/terrarium-earth/Handcrafted/blob/1.19.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "handcrafted";
+        id = "pJmCFF0p";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terrarium-Licence" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terrarium-Licence";
+                shortName = "LicenseRef-Terrarium-Licence";
+                url = "https://github.com/terrarium-earth/Handcrafted/blob/1.19.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

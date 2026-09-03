@@ -251,23 +251,20 @@ let
         "neoforge-26.1.2" = _z0LnSMQN;
         "default" = _z0LnSMQN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cryptocraft";
-            id = "Chj89I8D";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://www.mozilla.org/en-US/MPL/2.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cryptocraft";
+        id = "Chj89I8D";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://www.mozilla.org/en-US/MPL/2.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

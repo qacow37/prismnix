@@ -132,23 +132,20 @@ let
         "fabric-1.21.10" = _VVsNK5yW;
         "default" = _VVsNK5yW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "invarpaint-stockbook";
-            id = "K0k9G0ui";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "European Union Public License 1.2";
-                    shortName = "EUPL-1.2";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "invarpaint-stockbook";
+        id = "K0k9G0ui";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "European Union Public License 1.2";
+                shortName = "EUPL-1.2";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

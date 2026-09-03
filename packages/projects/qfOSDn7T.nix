@@ -133,23 +133,20 @@ let
         "fabric-1.21.11" = _RVTpjFL6;
         "default" = _RVTpjFL6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "soup-api";
-            id = "qfOSDn7T";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOUP-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SOUP-1.0";
-                    shortName = "LicenseRef-SOUP-1.0";
-                    url = "https://github.com/Pa-dej/soup-redirect/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "soup-api";
+        id = "qfOSDn7T";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOUP-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SOUP-1.0";
+                shortName = "LicenseRef-SOUP-1.0";
+                url = "https://github.com/Pa-dej/soup-redirect/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

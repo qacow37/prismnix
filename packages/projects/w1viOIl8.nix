@@ -67,23 +67,20 @@ let
         "quilt-26.1.2" = _CrzHr2tb;
         "default" = _fWtCzAtk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "panorama_screen";
-            id = "w1viOIl8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-3.0-or-later";
-                    shortName = "LicenseRef-LGPL-3.0-or-later";
-                    url = "https://www.gnu.org/licenses/lgpl-3.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "panorama_screen";
+        id = "w1viOIl8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-3.0-or-later";
+                shortName = "LicenseRef-LGPL-3.0-or-later";
+                url = "https://www.gnu.org/licenses/lgpl-3.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

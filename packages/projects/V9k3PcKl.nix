@@ -124,23 +124,20 @@ let
         "quilt-1.21.11" = _JPJfYqIi;
         "default" = _JPJfYqIi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fallen_from_heaven";
-            id = "V9k3PcKl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
-                    shortName = "CC-BY-NC-4.0";
-                    url = "https://github.com/MavLeague/fallen_from_heaven/blob/main/LICENSE-CC-BY-NC-4.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fallen_from_heaven";
+        id = "V9k3PcKl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                shortName = "CC-BY-NC-4.0";
+                url = "https://github.com/MavLeague/fallen_from_heaven/blob/main/LICENSE-CC-BY-NC-4.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

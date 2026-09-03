@@ -66,23 +66,20 @@ let
         "fabric-1.20.4" = _gnNS559T;
         "default" = _kC76Oxgt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "everlasting";
-            id = "GJry151G";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Timefall-Development-License-1.2";
-                    shortName = "LicenseRef-Timefall-Development-License-1.2";
-                    url = "https://github.com/EndLone/everlasting/raw/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "everlasting";
+        id = "GJry151G";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Timefall-Development-License-1.2";
+                shortName = "LicenseRef-Timefall-Development-License-1.2";
+                url = "https://github.com/EndLone/everlasting/raw/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

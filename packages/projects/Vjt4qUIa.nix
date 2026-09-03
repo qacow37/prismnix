@@ -44,23 +44,20 @@ let
         "minecraft-1.20.6" = _gcYIMwzp;
         "default" = _gcYIMwzp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "programmer-art-brewing-guide";
-            id = "Vjt4qUIa";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-UnknownRT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-UnknownRT";
-                    shortName = "LicenseRef-UnknownRT";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "programmer-art-brewing-guide";
+        id = "Vjt4qUIa";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-UnknownRT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-UnknownRT";
+                shortName = "LicenseRef-UnknownRT";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

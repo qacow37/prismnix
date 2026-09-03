@@ -280,23 +280,20 @@ let
         "neoforge-1.21.4" = _KOS9ZjSu;
         "default" = _RSr0ReAN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "filters-api";
-            id = "naBrvjcq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://raw.githubusercontent.com/ZiYueCommentary/Filters-API/1.16.5/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "filters-api";
+        id = "naBrvjcq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://raw.githubusercontent.com/ZiYueCommentary/Filters-API/1.16.5/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

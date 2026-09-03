@@ -12,23 +12,20 @@ let
         "optifine-1.21.11" = _LtoBcfpf;
         "default" = _LtoBcfpf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "luxora-shaders";
-            id = "WD4lLjK2";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/HoneyStudiosOfficial/Luxora-Shaders";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "luxora-shaders";
+        id = "WD4lLjK2";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/HoneyStudiosOfficial/Luxora-Shaders";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

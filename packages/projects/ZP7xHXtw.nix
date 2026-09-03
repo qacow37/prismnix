@@ -1076,23 +1076,20 @@ let
         "neoforge-26.2" = _DVwuMj1w;
         "default" = _DVwuMj1w;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rrls";
-            id = "ZP7xHXtw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Open Software License 3.0";
-                    shortName = "OSL-3.0";
-                    url = "https://github.com/dima-dencep/rrls/blob/HEAD/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rrls";
+        id = "ZP7xHXtw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Open Software License 3.0";
+                shortName = "OSL-3.0";
+                url = "https://github.com/dima-dencep/rrls/blob/HEAD/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

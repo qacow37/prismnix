@@ -53,23 +53,20 @@ let
         "fabric-1.21.11" = _mZZ9jRsH;
         "default" = _mZZ9jRsH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "manhunt-remastered";
-            id = "7rc8ee6q";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 only";
-                    shortName = "AGPL-3.0-only";
-                    url = "https://github.com/anhgelus/manhunt-mod/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "manhunt-remastered";
+        id = "7rc8ee6q";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
+                url = "https://github.com/anhgelus/manhunt-mod/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

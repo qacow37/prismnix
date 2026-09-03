@@ -217,23 +217,20 @@ let
         "neoforge-26.2" = _FGQ0N0pi;
         "default" = _dRDBhEO0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "slashwarp";
-            id = "ky9Rozed";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://github.com/Hedgehog-Technologies/SlashWarp/blob/1.21.5/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "slashwarp";
+        id = "ky9Rozed";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://github.com/Hedgehog-Technologies/SlashWarp/blob/1.21.5/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

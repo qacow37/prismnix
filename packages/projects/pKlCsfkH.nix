@@ -144,23 +144,20 @@ let
         "fabric-1.21.11" = _wdOdEqtv;
         "default" = _wdOdEqtv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "universal-shortcuts";
-            id = "pKlCsfkH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Do What The F*ck You Want To Public License";
-                    shortName = "WTFPL";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "universal-shortcuts";
+        id = "pKlCsfkH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Do What The F*ck You Want To Public License";
+                shortName = "WTFPL";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

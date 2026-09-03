@@ -75,23 +75,20 @@ let
         "neoforge-1.21.1" = _BWLqYY95;
         "default" = _BWLqYY95;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dropthemeat";
-            id = "Qgn68FJf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/Moralle/DropTheMeat/blob/1.20.1/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dropthemeat";
+        id = "Qgn68FJf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/Moralle/DropTheMeat/blob/1.20.1/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

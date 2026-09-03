@@ -17,23 +17,20 @@ let
         "fabric-1.21.1" = _MVD2N7g0;
         "default" = _MVD2N7g0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tota";
-            id = "BsTUkbq5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mixed" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Mixed";
-                    shortName = "LicenseRef-Mixed";
-                    url = "https://codeberg.org/LutherDev/TotA/src/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tota";
+        id = "BsTUkbq5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mixed" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Mixed";
+                shortName = "LicenseRef-Mixed";
+                url = "https://codeberg.org/LutherDev/TotA/src/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

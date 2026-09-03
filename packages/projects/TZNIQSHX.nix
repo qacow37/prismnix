@@ -222,23 +222,20 @@ let
         "velocity-26.2" = _L89f7chS;
         "default" = _L89f7chS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "leafrtp";
-            id = "TZNIQSHX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/DailyStruggle/RTP/blob/V3/LICENSE-MIT";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "leafrtp";
+        id = "TZNIQSHX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/DailyStruggle/RTP/blob/V3/LICENSE-MIT";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

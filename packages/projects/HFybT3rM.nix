@@ -24,23 +24,20 @@ let
         "fabric-26.1.2" = _Kpeib8xy;
         "default" = _Kpeib8xy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simpletpa";
-            id = "HFybT3rM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/brainage04/SimpleTPA/blob/HEAD/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simpletpa";
+        id = "HFybT3rM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/brainage04/SimpleTPA/blob/HEAD/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

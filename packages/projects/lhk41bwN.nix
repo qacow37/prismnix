@@ -65,23 +65,20 @@ let
         "fabric-1.19.2" = _KzD8NKLx;
         "default" = _KzD8NKLx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hexshield";
-            id = "lhk41bwN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-Universal" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC0-1.0-Universal";
-                    shortName = "LicenseRef-CC0-1.0-Universal";
-                    url = "https://gitlab.com/slowmotionbro2000/hexshield/-/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hexshield";
+        id = "lhk41bwN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-Universal" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC0-1.0-Universal";
+                shortName = "LicenseRef-CC0-1.0-Universal";
+                url = "https://gitlab.com/slowmotionbro2000/hexshield/-/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

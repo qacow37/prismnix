@@ -236,23 +236,20 @@ let
         "fabric-26.2" = _KBw8bWZQ;
         "default" = _KBw8bWZQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "arcana-novum";
-            id = "9J7sCd3t";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Open Software License 3.0";
-                    shortName = "OSL-3.0";
-                    url = "https://opensource.org/license/osl-3-0-php";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "arcana-novum";
+        id = "9J7sCd3t";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Open Software License 3.0";
+                shortName = "OSL-3.0";
+                url = "https://opensource.org/license/osl-3-0-php";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

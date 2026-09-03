@@ -90,23 +90,20 @@ let
         "optifine-26.2" = _YwszqXzK;
         "default" = _YwszqXzK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "muuf-a.g.i-shaders";
-            id = "Xng19eSP";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://www.gnu.org/licenses/gpl-3.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "muuf-a.g.i-shaders";
+        id = "Xng19eSP";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://www.gnu.org/licenses/gpl-3.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

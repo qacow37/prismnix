@@ -337,23 +337,20 @@ let
         "neoforge-1.21.11" = _Pm7PFNAB;
         "default" = _4P6E3Icn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "potionenchant";
-            id = "arP9VIaR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/1397559266/potionenchant/tree/master/src/main";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "potionenchant";
+        id = "arP9VIaR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/1397559266/potionenchant/tree/master/src/main";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

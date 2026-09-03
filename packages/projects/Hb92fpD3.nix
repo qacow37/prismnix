@@ -56,23 +56,20 @@ let
         "fabric-1.21.4" = _5GZSX98G;
         "default" = _MUiwfTyX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "krave-client";
-            id = "Hb92fpD3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Krave-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Krave-License";
-                    shortName = "LicenseRef-Krave-License";
-                    url = "https://github.com/iqoksz95-debug/License/blob/main/Krave%20License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "krave-client";
+        id = "Hb92fpD3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Krave-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Krave-License";
+                shortName = "LicenseRef-Krave-License";
+                url = "https://github.com/iqoksz95-debug/License/blob/main/Krave%20License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

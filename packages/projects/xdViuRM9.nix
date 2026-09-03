@@ -248,23 +248,20 @@ let
         "quilt-1.21.11" = _sQM5Q0IL;
         "default" = _sQM5Q0IL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "universal_mod_localizer";
-            id = "xdViuRM9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WTFPL";
-                    shortName = "LicenseRef-WTFPL";
-                    url = "https://gitea.com/kongzhongtitian/UniversalModLocalizer/src/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "universal_mod_localizer";
+        id = "xdViuRM9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WTFPL";
+                shortName = "LicenseRef-WTFPL";
+                url = "https://gitea.com/kongzhongtitian/UniversalModLocalizer/src/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -40,23 +40,20 @@ let
         "neoforge-1.21.1" = _mVM7v2Fd;
         "default" = _5CzGeJ6V;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "modern-inline";
-            id = "aWx29eoy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Unlicense";
-                    shortName = "LicenseRef-Unlicense";
-                    url = "https://unlicense.org/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "modern-inline";
+        id = "aWx29eoy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Unlicense";
+                shortName = "LicenseRef-Unlicense";
+                url = "https://unlicense.org/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

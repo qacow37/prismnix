@@ -42,23 +42,20 @@ let
         "forge-1.20.1" = _tLGvZFeu;
         "default" = _tLGvZFeu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hearth-and-home";
-            id = "ePCzRQkj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-Studios-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Starfish-Studios-Mod-License";
-                    shortName = "LicenseRef-Starfish-Studios-Mod-License";
-                    url = "https://github.com/starfish-studios/Naturalist/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hearth-and-home";
+        id = "ePCzRQkj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-Studios-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Starfish-Studios-Mod-License";
+                shortName = "LicenseRef-Starfish-Studios-Mod-License";
+                url = "https://github.com/starfish-studios/Naturalist/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

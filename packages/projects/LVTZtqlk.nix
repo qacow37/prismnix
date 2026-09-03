@@ -67,23 +67,20 @@ let
         "fabric-1.20.6" = _yeRZxPfy;
         "default" = _DkDOvk0p;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "videotape";
-            id = "LVTZtqlk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT-0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT No Attribution";
-                    shortName = "MIT-0";
-                    url = "https://codeberg.org/Anthus/videotape/src/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "videotape";
+        id = "LVTZtqlk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT-0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT No Attribution";
+                shortName = "MIT-0";
+                url = "https://codeberg.org/Anthus/videotape/src/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

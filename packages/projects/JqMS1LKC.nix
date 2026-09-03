@@ -180,23 +180,20 @@ let
         "fabric-1.21.1" = _JWsLvnqd;
         "default" = _JWsLvnqd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-rustling-spots";
-            id = "JqMS1LKC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://www.curseforge.com/minecraft/mc-mods/cobblemon-rustling-spots#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-rustling-spots";
+        id = "JqMS1LKC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://www.curseforge.com/minecraft/mc-mods/cobblemon-rustling-spots#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

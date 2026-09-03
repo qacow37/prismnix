@@ -17,23 +17,20 @@ let
         "forge-1.20.1" = _X4LrHUWq;
         "default" = _X4LrHUWq;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "just-enough-armour-(reforged)";
-            id = "QUST1Wwd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Amethyst" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Amethyst";
-                    shortName = "LicenseRef-Amethyst";
-                    url = "https://github.com/gamerbenyt/Amethyst/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "just-enough-armour-(reforged)";
+        id = "QUST1Wwd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Amethyst" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Amethyst";
+                shortName = "LicenseRef-Amethyst";
+                url = "https://github.com/gamerbenyt/Amethyst/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

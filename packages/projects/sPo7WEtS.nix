@@ -93,23 +93,20 @@ let
         "neoforge-1.21.4" = _R5GVYt4u;
         "default" = _R5GVYt4u;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simplerpgcore";
-            id = "sPo7WEtS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MPL.v2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MPL.v2";
-                    shortName = "LicenseRef-MPL.v2";
-                    url = "https://www.mozilla.org/en-US/MPL/2.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simplerpgcore";
+        id = "sPo7WEtS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MPL.v2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MPL.v2";
+                shortName = "LicenseRef-MPL.v2";
+                url = "https://www.mozilla.org/en-US/MPL/2.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

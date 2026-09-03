@@ -43,23 +43,20 @@ let
         "fabric-26.1.1" = _XxWJ5xGN;
         "default" = _XxWJ5xGN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "march-ui";
-            id = "eHMF15kn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-March-UI-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-March-UI-License";
-                    shortName = "LicenseRef-March-UI-License";
-                    url = "https://www.curseforge.com/minecraft/mc-mods/march-ui#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "march-ui";
+        id = "eHMF15kn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-March-UI-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-March-UI-License";
+                shortName = "LicenseRef-March-UI-License";
+                url = "https://www.curseforge.com/minecraft/mc-mods/march-ui#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

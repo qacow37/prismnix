@@ -42,23 +42,20 @@ let
         "forge-1.12.2" = _h6we3nZT;
         "default" = _i2vyXyRv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "glintcolorizer";
-            id = "SevsTfWN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    url = "https://raw.githubusercontent.com/Polyfrost/GlintColorizer/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "glintcolorizer";
+        id = "SevsTfWN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                url = "https://raw.githubusercontent.com/Polyfrost/GlintColorizer/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

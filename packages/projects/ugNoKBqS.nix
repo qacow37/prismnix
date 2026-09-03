@@ -62,23 +62,20 @@ let
         "fabric-1.20.1" = _aWIlILbl;
         "default" = _aWIlILbl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-axolotl";
-            id = "ugNoKBqS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-tr7zw-Protective-License";
-                    shortName = "LicenseRef-tr7zw-Protective-License";
-                    url = "https://github.com/KxmischesDomi/MoreAxolotls/blob/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-axolotl";
+        id = "ugNoKBqS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-tr7zw-Protective-License";
+                shortName = "LicenseRef-tr7zw-Protective-License";
+                url = "https://github.com/KxmischesDomi/MoreAxolotls/blob/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

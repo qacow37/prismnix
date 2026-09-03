@@ -65,23 +65,20 @@ let
         "forge-1.12.2" = _msOtNYLF;
         "default" = _msOtNYLF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "paperfixes";
-            id = "MlfMjXMA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0";
-                    shortName = "LicenseRef-GPL-3.0";
-                    url = "https://github.com/Elephant1214/PaperFixes?tab=GPL-3.0-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "paperfixes";
+        id = "MlfMjXMA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0";
+                shortName = "LicenseRef-GPL-3.0";
+                url = "https://github.com/Elephant1214/PaperFixes?tab=GPL-3.0-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -273,23 +273,20 @@ let
         "neoforge-1.21.8" = _VlKe4myB;
         "default" = _VlKe4myB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ag-day-counter";
-            id = "rvq6KsSD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntrolGaming-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AntrolGaming-License";
-                    shortName = "LicenseRef-AntrolGaming-License";
-                    url = "https://pastebin.com/FiFQ7jG4";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ag-day-counter";
+        id = "rvq6KsSD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntrolGaming-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AntrolGaming-License";
+                shortName = "LicenseRef-AntrolGaming-License";
+                url = "https://pastebin.com/FiFQ7jG4";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

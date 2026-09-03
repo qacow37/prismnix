@@ -690,23 +690,20 @@ let
         "forge-1.20.1" = _nesKPrb4;
         "default" = _nesKPrb4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mekkon";
-            id = "f03EgS3o";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SD-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SD-License-1.0.0";
-                    shortName = "LicenseRef-SD-License-1.0.0";
-                    url = "https://docs.google.com/document/d/1tzThLITB3CsRFJhr04DOZRxOCGHWCdBO/edit?usp=sharing&ouid=111934399256154685428&rtpof=true&sd=true";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mekkon";
+        id = "f03EgS3o";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SD-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SD-License-1.0.0";
+                shortName = "LicenseRef-SD-License-1.0.0";
+                url = "https://docs.google.com/document/d/1tzThLITB3CsRFJhr04DOZRxOCGHWCdBO/edit?usp=sharing&ouid=111934399256154685428&rtpof=true&sd=true";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

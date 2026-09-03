@@ -89,23 +89,20 @@ let
         "neoforge-1.21.1" = _Hh6sIxds;
         "default" = _Hh6sIxds;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "geng";
-            id = "q4mFVuu1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AFL-3";
-                    shortName = "LicenseRef-AFL-3";
-                    url = "https://opensource.org/license/afl-3-0-php";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "geng";
+        id = "q4mFVuu1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AFL-3";
+                shortName = "LicenseRef-AFL-3";
+                url = "https://opensource.org/license/afl-3-0-php";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

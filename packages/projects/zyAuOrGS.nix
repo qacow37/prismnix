@@ -178,23 +178,20 @@ let
         "forge-1.18.1" = _jGcwejGi;
         "default" = _UXiJRLU2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "level-border";
-            id = "zyAuOrGS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-linking-exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
-                    shortName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
-                    url = "https://raw.githubusercontent.com/jakobkmar/level-border/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "level-border";
+        id = "zyAuOrGS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-linking-exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
+                url = "https://raw.githubusercontent.com/jakobkmar/level-border/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

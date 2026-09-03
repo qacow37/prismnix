@@ -130,23 +130,20 @@ let
         "forge-1.20.1" = _IYOLF4TR;
         "default" = _KY7ZmjVf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "foolproof";
-            id = "QUbgerPk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Tonis-MMC-License";
-                    shortName = "LicenseRef-Tonis-MMC-License";
-                    url = "https://license.txni.dev/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "foolproof";
+        id = "QUbgerPk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Tonis-MMC-License";
+                shortName = "LicenseRef-Tonis-MMC-License";
+                url = "https://license.txni.dev/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

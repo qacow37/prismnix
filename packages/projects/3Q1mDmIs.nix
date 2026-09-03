@@ -346,23 +346,20 @@ let
         "neoforge-1.20.6" = _4R7veuuv;
         "default" = _h2fZRbSr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hospitals";
-            id = "3Q1mDmIs";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-License";
-                    shortName = "LicenseRef-MIT-License";
-                    url = "https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hospitals";
+        id = "3Q1mDmIs";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-License";
+                shortName = "LicenseRef-MIT-License";
+                url = "https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

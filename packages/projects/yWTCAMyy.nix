@@ -11,23 +11,20 @@ let
         "forge-1.20.1" = _bZu6ddTr;
         "default" = _bZu6ddTr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fire-alarm-mod";
-            id = "yWTCAMyy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://pastebin.com/NqyvH0gP";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fire-alarm-mod";
+        id = "yWTCAMyy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://pastebin.com/NqyvH0gP";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

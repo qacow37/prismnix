@@ -46,23 +46,20 @@ let
         "quilt-26.2" = _F8lhZnoe;
         "default" = _F8lhZnoe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sneaky_capes";
-            id = "5oXcBNkf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://codeberg.org/Penguin_Spy/sneaky_capes#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sneaky_capes";
+        id = "5oXcBNkf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://codeberg.org/Penguin_Spy/sneaky_capes#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

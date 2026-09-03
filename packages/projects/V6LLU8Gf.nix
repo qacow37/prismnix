@@ -455,23 +455,20 @@ let
         "neoforge-26.2" = _yyyqupBe;
         "default" = _yyyqupBe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "katters-structures";
-            id = "V6LLU8Gf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Katters-Structures" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Katters-Structures";
-                    shortName = "LicenseRef-Katters-Structures";
-                    url = "https://github.com/Explorers-Eden/Katters_Structures/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "katters-structures";
+        id = "V6LLU8Gf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Katters-Structures" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Katters-Structures";
+                shortName = "LicenseRef-Katters-Structures";
+                url = "https://github.com/Explorers-Eden/Katters_Structures/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

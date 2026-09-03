@@ -26,23 +26,20 @@ let
         "quilt-1.20.1" = _LSvkqzLx;
         "default" = _LSvkqzLx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "water-walking-fix";
-            id = "pbDZnNMF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/apace100/water-walking-fix/blob/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "water-walking-fix";
+        id = "pbDZnNMF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/apace100/water-walking-fix/blob/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

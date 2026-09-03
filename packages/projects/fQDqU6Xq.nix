@@ -20,23 +20,20 @@ let
         "forge-1.20.2" = _p4JqfjKL;
         "default" = _p4JqfjKL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "totem-of-revival";
-            id = "fQDqU6Xq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WTFPL";
-                    shortName = "LicenseRef-WTFPL";
-                    url = "https://spdx.org/licenses/WTFPL.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "totem-of-revival";
+        id = "fQDqU6Xq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WTFPL";
+                shortName = "LicenseRef-WTFPL";
+                url = "https://spdx.org/licenses/WTFPL.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

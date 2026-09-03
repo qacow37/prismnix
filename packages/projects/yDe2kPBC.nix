@@ -2302,23 +2302,20 @@ let
         "sponge-1.21.10" = _uOPxDEDj;
         "default" = _IK0VUiCZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xdlib";
-            id = "yDe2kPBC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-MC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-XDs-MC-License";
-                    shortName = "LicenseRef-XDs-MC-License";
-                    url = "https://xdpxi.vercel.app/license/mc";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xdlib";
+        id = "yDe2kPBC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-MC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-XDs-MC-License";
+                shortName = "LicenseRef-XDs-MC-License";
+                url = "https://xdpxi.vercel.app/license/mc";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

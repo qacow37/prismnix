@@ -42,23 +42,20 @@ let
         "neoforge-1.21.1" = _U6kExSSz;
         "default" = _U6kExSSz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cosmetic-armor-reworked-forked";
-            id = "6cpT8CUC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MMPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MMPL";
-                    shortName = "LicenseRef-MMPL";
-                    url = "https://openhub.net/licenses/MMPL";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cosmetic-armor-reworked-forked";
+        id = "6cpT8CUC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MMPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MMPL";
+                shortName = "LicenseRef-MMPL";
+                url = "https://openhub.net/licenses/MMPL";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

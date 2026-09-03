@@ -262,23 +262,20 @@ let
         "neoforge-1.21.1" = _vIo8vp51;
         "default" = _vIo8vp51;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "adventofascension";
-            id = "9qn2AQBc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Advent-of-Ascension-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Advent-of-Ascension-License";
-                    shortName = "LicenseRef-Advent-of-Ascension-License";
-                    url = "https://github.com/Tslat/Advent-Of-Ascension/blob/1.18.2/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "adventofascension";
+        id = "9qn2AQBc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Advent-of-Ascension-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Advent-of-Ascension-License";
+                shortName = "LicenseRef-Advent-of-Ascension-License";
+                url = "https://github.com/Tslat/Advent-Of-Ascension/blob/1.18.2/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

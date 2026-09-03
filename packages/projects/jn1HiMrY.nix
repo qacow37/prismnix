@@ -62,23 +62,20 @@ let
         "neoforge-1.21.1" = _JalveSgT;
         "default" = _JalveSgT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "coffee-delight";
-            id = "jn1HiMrY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pineapple-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Pineapple-License";
-                    shortName = "LicenseRef-Pineapple-License";
-                    url = "https://github.com/AmarokIce/CoffeeDelight/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "coffee-delight";
+        id = "jn1HiMrY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pineapple-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Pineapple-License";
+                shortName = "LicenseRef-Pineapple-License";
+                url = "https://github.com/AmarokIce/CoffeeDelight/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

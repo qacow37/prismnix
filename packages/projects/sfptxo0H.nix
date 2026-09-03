@@ -72,23 +72,20 @@ let
         "neoforge-1.21.1" = _qTQReiiZ;
         "default" = _qTQReiiZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-picnic";
-            id = "sfptxo0H";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-";
-                    shortName = "LicenseRef-";
-                    url = "https://manucruzleiva.github.io/mod-wiki/picnic/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-picnic";
+        id = "sfptxo0H";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-";
+                shortName = "LicenseRef-";
+                url = "https://manucruzleiva.github.io/mod-wiki/picnic/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -778,23 +778,20 @@ let
         "datapack-26.3-snapshot-6" = _QDevjwF8;
         "default" = _prDw0dBC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "structures-mod";
-            id = "6lxFhM2b";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GaraKrrals-Project-License-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GaraKrrals-Project-License-2.0";
-                    shortName = "LicenseRef-GaraKrrals-Project-License-2.0";
-                    url = "https://raw.githubusercontent.com/GaraKrrall/License/main/GaraKrrals_Project_License_2_0.pdf";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "structures-mod";
+        id = "6lxFhM2b";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GaraKrrals-Project-License-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GaraKrrals-Project-License-2.0";
+                shortName = "LicenseRef-GaraKrrals-Project-License-2.0";
+                url = "https://raw.githubusercontent.com/GaraKrrall/License/main/GaraKrrals_Project_License_2_0.pdf";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

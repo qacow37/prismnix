@@ -30,23 +30,20 @@ let
         "minecraft-1.8.9" = _EjJrsTZS;
         "default" = _EjJrsTZS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "faithful-zephhyre-64x";
-            id = "393nc82b";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Faithful-Zephhyre-64x-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Faithful-Zephhyre-64x-License";
-                    shortName = "LicenseRef-Faithful-Zephhyre-64x-License";
-                    url = "https://pastebin.com/6G95Dx3J";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "faithful-zephhyre-64x";
+        id = "393nc82b";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Faithful-Zephhyre-64x-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Faithful-Zephhyre-64x-License";
+                shortName = "LicenseRef-Faithful-Zephhyre-64x-License";
+                url = "https://pastebin.com/6G95Dx3J";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

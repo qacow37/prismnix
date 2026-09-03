@@ -722,23 +722,20 @@ let
         "neoforge-26.2" = _W9z1MH3f;
         "default" = _W9z1MH3f;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mine-treasure";
-            id = "5y2R1ofr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MT";
-                    shortName = "LicenseRef-MT";
-                    url = "https://github.com/Mine-Treasure/mine-treasure/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mine-treasure";
+        id = "5y2R1ofr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MT";
+                shortName = "LicenseRef-MT";
+                url = "https://github.com/Mine-Treasure/mine-treasure/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

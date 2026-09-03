@@ -85,23 +85,20 @@ let
         "neoforge-1.21.1" = _kZyMXeU3;
         "default" = _kZyMXeU3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "adventure-items-stats";
-            id = "n9AWcfmo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    url = "https://github.com/bh679/adventureitemstats-mc/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "adventure-items-stats";
+        id = "n9AWcfmo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                url = "https://github.com/bh679/adventureitemstats-mc/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

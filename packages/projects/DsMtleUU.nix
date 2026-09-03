@@ -896,23 +896,20 @@ let
         "minecraft-26.2-snapshot-5" = _z79s6oXT;
         "default" = _z79s6oXT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "squared-shadow";
-            id = "DsMtleUU";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AndreWharn" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AndreWharn";
-                    shortName = "LicenseRef-AndreWharn";
-                    url = "https://andrewharn.carrd.co/#tou";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "squared-shadow";
+        id = "DsMtleUU";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AndreWharn" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AndreWharn";
+                shortName = "LicenseRef-AndreWharn";
+                url = "https://andrewharn.carrd.co/#tou";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -173,23 +173,20 @@ let
         "forge-1.20.1" = _rWLl0Uvk;
         "default" = _rWLl0Uvk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "vstuff";
-            id = "voOBl6iP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Valkyrien-Skies-Dont-Just-Take-It-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Valkyrien-Skies-Dont-Just-Take-It-License";
-                    shortName = "LicenseRef-Valkyrien-Skies-Dont-Just-Take-It-License";
-                    url = "https://github.com/yayEvy/vstuffcontinued/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vstuff";
+        id = "voOBl6iP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Valkyrien-Skies-Dont-Just-Take-It-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Valkyrien-Skies-Dont-Just-Take-It-License";
+                shortName = "LicenseRef-Valkyrien-Skies-Dont-Just-Take-It-License";
+                url = "https://github.com/yayEvy/vstuffcontinued/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

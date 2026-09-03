@@ -186,23 +186,20 @@ let
         "quilt-26.2" = _kRxypUQv;
         "default" = _kRxypUQv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ly-combat-log";
-            id = "8qIR8MrV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 or later";
-                    shortName = "AGPL-3.0-or-later";
-                    url = "https://github.com/lullaby6/combat-log-data-pack/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ly-combat-log";
+        id = "8qIR8MrV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 or later";
+                shortName = "AGPL-3.0-or-later";
+                url = "https://github.com/lullaby6/combat-log-data-pack/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

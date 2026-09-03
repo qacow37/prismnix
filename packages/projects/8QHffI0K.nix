@@ -180,23 +180,20 @@ let
         "quilt-26.2" = _4qqHlYAw;
         "default" = _4qqHlYAw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "make-me-shapeless";
-            id = "8QHffI0K";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "make-me-shapeless";
+        id = "8QHffI0K";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

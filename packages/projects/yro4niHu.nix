@@ -160,23 +160,20 @@ let
         "spigot-26.2" = _xKZ0Z0JG;
         "default" = _xKZ0Z0JG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "plugmanx";
-            id = "yro4niHu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Test-Account666/PlugManX/blob/master/license/mit/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "plugmanx";
+        id = "yro4niHu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Test-Account666/PlugManX/blob/master/license/mit/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -62,23 +62,20 @@ let
         "minecraft-26.2" = _1lvMaM8F;
         "default" = _1lvMaM8F;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aaircrafters-blue-ui";
-            id = "cAas2Wbx";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AAirCrafters-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AAirCrafters-License";
-                    shortName = "LicenseRef-AAirCrafters-License";
-                    url = "https://aircrafter.cloud/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aaircrafters-blue-ui";
+        id = "cAas2Wbx";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AAirCrafters-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AAirCrafters-License";
+                shortName = "LicenseRef-AAirCrafters-License";
+                url = "https://aircrafter.cloud/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

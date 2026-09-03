@@ -274,23 +274,20 @@ let
         "neoforge-1.21.1" = _9QBICTvP;
         "default" = _hz4mIag0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "haunted-harvest";
-            id = "a378ICDH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Supplementaries-Team-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Supplementaries-Team-License";
-                    shortName = "LicenseRef-Supplementaries-Team-License";
-                    url = "https://github.com/MehVahdJukaar/Supplementaries-Team-License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "haunted-harvest";
+        id = "a378ICDH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Supplementaries-Team-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Supplementaries-Team-License";
+                shortName = "LicenseRef-Supplementaries-Team-License";
+                url = "https://github.com/MehVahdJukaar/Supplementaries-Team-License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

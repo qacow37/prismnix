@@ -1394,23 +1394,20 @@ let
         "fabric-26.1.2" = _vv7kxY52;
         "default" = _ZaMjT9X9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobweb";
-            id = "dQcfqGbl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crystal-Nest-Community-License-v1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Crystal-Nest-Community-License-v1";
-                    shortName = "LicenseRef-Crystal-Nest-Community-License-v1";
-                    url = "https://github.com/Crystal-Nest/.github/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobweb";
+        id = "dQcfqGbl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crystal-Nest-Community-License-v1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Crystal-Nest-Community-License-v1";
+                shortName = "LicenseRef-Crystal-Nest-Community-License-v1";
+                url = "https://github.com/Crystal-Nest/.github/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

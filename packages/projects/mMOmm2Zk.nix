@@ -34,23 +34,20 @@ let
         "iris-1.21.11" = _6ZzHXdRN;
         "default" = _6ZzHXdRN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "zephyr-starlight";
-            id = "mMOmm2Zk";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                    shortName = "CC-BY-NC-SA-4.0";
-                    url = "https://github.com/Kirilpro6284/zephyr-starlight/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "zephyr-starlight";
+        id = "mMOmm2Zk";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                shortName = "CC-BY-NC-SA-4.0";
+                url = "https://github.com/Kirilpro6284/zephyr-starlight/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

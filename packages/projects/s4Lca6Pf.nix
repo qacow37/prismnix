@@ -190,23 +190,20 @@ let
         "neoforge-26.1.2" = _BxzYbmrQ;
         "default" = _BxzYbmrQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "master-weapons";
-            id = "s4Lca6Pf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR-with-runtime-modifications-exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ARR-with-runtime-modifications-exception";
-                    shortName = "LicenseRef-ARR-with-runtime-modifications-exception";
-                    url = "https://github.com/omnixerio/master-weapons/blob/versions/26.1.2/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "master-weapons";
+        id = "s4Lca6Pf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR-with-runtime-modifications-exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ARR-with-runtime-modifications-exception";
+                shortName = "LicenseRef-ARR-with-runtime-modifications-exception";
+                url = "https://github.com/omnixerio/master-weapons/blob/versions/26.1.2/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

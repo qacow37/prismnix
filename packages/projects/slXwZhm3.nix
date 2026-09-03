@@ -93,23 +93,20 @@ let
         "neoforge-1.21.11" = _nkt2G4Q4;
         "default" = _nkt2G4Q4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sidb";
-            id = "slXwZhm3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Soncresity-Standard-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Soncresity-Standard-License";
-                    shortName = "LicenseRef-Soncresity-Standard-License";
-                    url = "https://www.soncresity.industries/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sidb";
+        id = "slXwZhm3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Soncresity-Standard-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Soncresity-Standard-License";
+                shortName = "LicenseRef-Soncresity-Standard-License";
+                url = "https://www.soncresity.industries/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -157,23 +157,20 @@ let
         "quilt-1.21.8" = _37d1l4as;
         "default" = _37d1l4as;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "japanese-offering-shrines";
-            id = "VyXqAEh5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://mega.nz/file/KoVRCAYI#3OZYgLXstpYNGx3mEk7TGdO9JtV7PdsC3RRYFDsoluY";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "japanese-offering-shrines";
+        id = "VyXqAEh5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://mega.nz/file/KoVRCAYI#3OZYgLXstpYNGx3mEk7TGdO9JtV7PdsC3RRYFDsoluY";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

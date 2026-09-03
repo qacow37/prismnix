@@ -526,23 +526,20 @@ let
         "forge-1.20.1" = _i7Tp1AHw;
         "default" = _rduAfwb7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "guideme";
-            id = "Ck4E7v7R";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-OSS-Licenses" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple-OSS-Licenses";
-                    shortName = "LicenseRef-Multiple-OSS-Licenses";
-                    url = "https://github.com/AppliedEnergistics/GuideME/blob/main/LICENSE.MD";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "guideme";
+        id = "Ck4E7v7R";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-OSS-Licenses" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple-OSS-Licenses";
+                shortName = "LicenseRef-Multiple-OSS-Licenses";
+                url = "https://github.com/AppliedEnergistics/GuideME/blob/main/LICENSE.MD";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

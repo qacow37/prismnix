@@ -65,23 +65,20 @@ let
         "neoforge-1.20.4" = _qJ3svAPw;
         "default" = _qJ3svAPw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lucent";
-            id = "JE0fgMUp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lucent-API-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lucent-API-License";
-                    shortName = "LicenseRef-Lucent-API-License";
-                    url = "https://gitlab.com/modding-legacy/lucent/-/blob/1.19.x/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lucent";
+        id = "JE0fgMUp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lucent-API-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lucent-API-License";
+                shortName = "LicenseRef-Lucent-API-License";
+                url = "https://gitlab.com/modding-legacy/lucent/-/blob/1.19.x/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

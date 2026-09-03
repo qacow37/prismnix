@@ -316,23 +316,20 @@ let
         "optifine-26.2" = _yCCduG44;
         "default" = _yCCduG44;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "complementary-reimagined";
-            id = "HVnmMxH1";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "complementary-reimagined";
+        id = "HVnmMxH1";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

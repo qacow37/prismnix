@@ -108,23 +108,20 @@ let
         "fabric-1.20.6" = _jWe63gNf;
         "default" = _2IrfqAlU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enchancement-unbound";
-            id = "5vggpqYZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT-0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT No Attribution";
-                    shortName = "MIT-0";
-                    url = "https://github.com/ekulxam/enchancement-unbound/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enchancement-unbound";
+        id = "5vggpqYZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT-0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT No Attribution";
+                shortName = "MIT-0";
+                url = "https://github.com/ekulxam/enchancement-unbound/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

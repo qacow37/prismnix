@@ -974,23 +974,20 @@ let
         "neoforge-26.1.2" = _EFjxcIqG;
         "default" = _O027O8AV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "remotely";
-            id = "LuYZT6NN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License-";
-                    shortName = "LicenseRef-Custom-License-";
-                    url = "https://github.com/RedxAx/Remotely/blob/ReOS/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "remotely";
+        id = "LuYZT6NN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License-";
+                shortName = "LicenseRef-Custom-License-";
+                url = "https://github.com/RedxAx/Remotely/blob/ReOS/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

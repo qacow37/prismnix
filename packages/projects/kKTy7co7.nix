@@ -283,23 +283,20 @@ let
         "waterfall-1.21.4" = _iCf3IV6G;
         "default" = _obyvw1Za;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "redisbungee";
-            id = "kKTy7co7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-EPL-1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-EPL-1";
-                    shortName = "LicenseRef-EPL-1";
-                    url = "https://www.eclipse.org/legal/epl-v10.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "redisbungee";
+        id = "kKTy7co7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-EPL-1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-EPL-1";
+                shortName = "LicenseRef-EPL-1";
+                url = "https://www.eclipse.org/legal/epl-v10.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

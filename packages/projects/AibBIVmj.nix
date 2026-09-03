@@ -1091,23 +1091,20 @@ let
         "fabric-26.2" = _SkeqId57;
         "default" = _SkeqId57;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "oneconfig";
-            id = "AibBIVmj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-with-Additional-Terms-Applicable-to-OneConfig" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-3.0-with-Additional-Terms-Applicable-to-OneConfig";
-                    shortName = "LicenseRef-LGPL-3.0-with-Additional-Terms-Applicable-to-OneConfig";
-                    url = "https://raw.githubusercontent.com/Polyfrost/OneConfig/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "oneconfig";
+        id = "AibBIVmj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-with-Additional-Terms-Applicable-to-OneConfig" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-3.0-with-Additional-Terms-Applicable-to-OneConfig";
+                shortName = "LicenseRef-LGPL-3.0-with-Additional-Terms-Applicable-to-OneConfig";
+                url = "https://raw.githubusercontent.com/Polyfrost/OneConfig/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

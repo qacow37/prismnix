@@ -24,23 +24,20 @@ let
         "minecraft-1.20" = _ypnANfNy;
         "default" = _ypnANfNy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pale-wolf-fix";
-            id = "HPXsM6fX";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Fresh-Animations-terms-of-use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-See-Fresh-Animations-terms-of-use";
-                    shortName = "LicenseRef-See-Fresh-Animations-terms-of-use";
-                    url = "https://modrinth.com/resourcepack/fresh-animations";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pale-wolf-fix";
+        id = "HPXsM6fX";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Fresh-Animations-terms-of-use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-See-Fresh-Animations-terms-of-use";
+                shortName = "LicenseRef-See-Fresh-Animations-terms-of-use";
+                url = "https://modrinth.com/resourcepack/fresh-animations";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

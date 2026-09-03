@@ -18,23 +18,20 @@ let
         "fabric-1.21.11" = _m4RM9ncB;
         "default" = _m4RM9ncB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wemmbus-background-music-taste";
-            id = "sljwGyPk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 2-Clause \"Simplified\" License";
-                    shortName = "BSD-2-Clause";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wemmbus-background-music-taste";
+        id = "sljwGyPk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 2-Clause \"Simplified\" License";
+                shortName = "BSD-2-Clause";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

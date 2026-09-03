@@ -115,23 +115,20 @@ let
         "minecraft-1.20.6" = _Im3M7cAz;
         "default" = _Im3M7cAz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stoneborn-missing-mods";
-            id = "k1LDRNDN";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-You-Can-Use-It" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-You-Can-Use-It";
-                    shortName = "LicenseRef-You-Can-Use-It";
-                    url = "https://github.com/vizthex123/StonebornMissingMods/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stoneborn-missing-mods";
+        id = "k1LDRNDN";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-You-Can-Use-It" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-You-Can-Use-It";
+                shortName = "LicenseRef-You-Can-Use-It";
+                url = "https://github.com/vizthex123/StonebornMissingMods/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

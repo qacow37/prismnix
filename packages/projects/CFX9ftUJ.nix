@@ -1077,23 +1077,20 @@ let
         "neoforge-26.2" = _JBg5bHJd;
         "default" = _JBg5bHJd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "advanced-netherite";
-            id = "CFX9ftUJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/Autovw/AdvancedNetherite/blob/1.18.X/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "advanced-netherite";
+        id = "CFX9ftUJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/Autovw/AdvancedNetherite/blob/1.18.X/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

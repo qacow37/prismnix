@@ -228,23 +228,20 @@ let
         "fabric-1.21.11" = _nvUDqB93;
         "default" = _nvUDqB93;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "backburner";
-            id = "8lRk52St";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "European Union Public License 1.2";
-                    shortName = "EUPL-1.2";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "backburner";
+        id = "8lRk52St";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "European Union Public License 1.2";
+                shortName = "EUPL-1.2";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

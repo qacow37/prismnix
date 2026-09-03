@@ -236,23 +236,20 @@ let
         "minecraft-26.2" = _NlpdeO7l;
         "default" = _NlpdeO7l;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tooltips-stylized";
-            id = "mC2IML84";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Read-the-terms-of-use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Read-the-terms-of-use";
-                    shortName = "LicenseRef-Read-the-terms-of-use";
-                    url = "https://gabriel-djalayer.gitbook.io/gdteam-wiki/guides/licenses#tooltips-stylized";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tooltips-stylized";
+        id = "mC2IML84";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Read-the-terms-of-use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Read-the-terms-of-use";
+                shortName = "LicenseRef-Read-the-terms-of-use";
+                url = "https://gabriel-djalayer.gitbook.io/gdteam-wiki/guides/licenses#tooltips-stylized";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

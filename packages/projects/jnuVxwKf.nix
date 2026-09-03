@@ -87,23 +87,20 @@ let
         "forge-1.18.2" = _uWeeYaXa;
         "default" = _WJkMFHWI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "forge-essentials";
-            id = "jnuVxwKf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://github.com/ForgeEssentials/ForgeEssentials/blob/1.12.2/develop/LICENSE.TXT";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "forge-essentials";
+        id = "jnuVxwKf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://github.com/ForgeEssentials/ForgeEssentials/blob/1.12.2/develop/LICENSE.TXT";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

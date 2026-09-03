@@ -160,23 +160,20 @@ let
         "neoforge-26.2" = _BYLLWXOq;
         "default" = _BYLLWXOq;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fency";
-            id = "lO0swhFU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fency-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fency-License";
-                    shortName = "LicenseRef-Fency-License";
-                    url = "https://github.com/TheMrMilchmann/TheFenceUnleashed/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fency";
+        id = "lO0swhFU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fency-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fency-License";
+                shortName = "LicenseRef-Fency-License";
+                url = "https://github.com/TheMrMilchmann/TheFenceUnleashed/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

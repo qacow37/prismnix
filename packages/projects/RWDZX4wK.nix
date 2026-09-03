@@ -23,23 +23,20 @@ let
         "neoforge-1.21.1" = _nvo7N9tK;
         "default" = _nvo7N9tK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sable-aabb-fix";
-            id = "RWDZX4wK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-";
-                    shortName = "LicenseRef-";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sable-aabb-fix";
+        id = "RWDZX4wK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-";
+                shortName = "LicenseRef-";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -134,23 +134,20 @@ let
         "quilt-26.1.2" = _YaVwpPby;
         "default" = _YaVwpPby;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "artisanat";
-            id = "QDxAP5Cp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield-1.0.0";
-                    shortName = "LicenseRef-Polyform-Shield-1.0.0";
-                    url = "https://github.com/DawnTeamMC/Artisanat/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "artisanat";
+        id = "QDxAP5Cp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield-1.0.0";
+                shortName = "LicenseRef-Polyform-Shield-1.0.0";
+                url = "https://github.com/DawnTeamMC/Artisanat/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

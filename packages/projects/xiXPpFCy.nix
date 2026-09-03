@@ -15,23 +15,20 @@ let
         "minecraft-1.21" = _2qtIHo0L;
         "default" = _2qtIHo0L;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "iconstab";
-            id = "xiXPpFCy";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "\tIEC-Code-Components-EULA" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "IEC    Code Components End-user licence agreement";
-                    shortName = "\tIEC-Code-Components-EULA";
-                    url = "https://www.minecraft.net/en-us/eula";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "iconstab";
+        id = "xiXPpFCy";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "\tIEC-Code-Components-EULA" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "IEC    Code Components End-user licence agreement";
+                shortName = "\tIEC-Code-Components-EULA";
+                url = "https://www.minecraft.net/en-us/eula";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

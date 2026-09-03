@@ -264,23 +264,20 @@ let
         "forge-1.20.1" = _PSC3dlCl;
         "default" = _pEhG9g9P;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tmrv";
-            id = "yFypjcfd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-OSL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-OSL-3.0";
-                    shortName = "LicenseRef-OSL-3.0";
-                    url = "https://github.com/Nolij/TooManyRecipeViewers/raw/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tmrv";
+        id = "yFypjcfd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-OSL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-OSL-3.0";
+                shortName = "LicenseRef-OSL-3.0";
+                url = "https://github.com/Nolij/TooManyRecipeViewers/raw/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

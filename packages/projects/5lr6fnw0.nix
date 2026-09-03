@@ -101,23 +101,20 @@ let
         "neoforge-1.21.1" = _GGU6zOUH;
         "default" = _GGU6zOUH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pastel";
-            id = "5lr6fnw0";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR-Assets-GNU-LGPLv3-Code" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ARR-Assets-GNU-LGPLv3-Code";
-                    shortName = "LicenseRef-ARR-Assets-GNU-LGPLv3-Code";
-                    url = "https://github.com/terrarium-earth/Pastel/blob/1.21.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pastel";
+        id = "5lr6fnw0";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR-Assets-GNU-LGPLv3-Code" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ARR-Assets-GNU-LGPLv3-Code";
+                shortName = "LicenseRef-ARR-Assets-GNU-LGPLv3-Code";
+                url = "https://github.com/terrarium-earth/Pastel/blob/1.21.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

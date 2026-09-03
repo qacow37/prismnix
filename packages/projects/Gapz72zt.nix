@@ -183,23 +183,20 @@ let
         "fabric-26.2" = _WBH7ak4J;
         "default" = _WBH7ak4J;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "redaction";
-            id = "Gapz72zt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    url = "https://raw.githubusercontent.com/Polyfrost/REDACTION/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "redaction";
+        id = "Gapz72zt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                url = "https://raw.githubusercontent.com/Polyfrost/REDACTION/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

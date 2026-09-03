@@ -88,23 +88,20 @@ let
         "quilt-26.1" = _MzE2vJi7;
         "default" = _MzE2vJi7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "infinite-tools";
-            id = "o26803Wh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://codeberg.org/ZenXArch/Infinite_Tools/src/branch/dev/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "infinite-tools";
+        id = "o26803Wh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://codeberg.org/ZenXArch/Infinite_Tools/src/branch/dev/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

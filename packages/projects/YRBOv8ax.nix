@@ -47,23 +47,20 @@ let
         "forge-1.7.10" = _oH3EUhNk;
         "default" = _oH3EUhNk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nd1710";
-            id = "YRBOv8ax";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/FalsePattern/NeodymiumUnofficial/blob/nd-unofficial/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nd1710";
+        id = "YRBOv8ax";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/FalsePattern/NeodymiumUnofficial/blob/nd-unofficial/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

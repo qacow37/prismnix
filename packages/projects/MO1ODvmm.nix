@@ -110,23 +110,20 @@ let
         "quilt-1.20.1" = _EHWeIIJg;
         "default" = _EHWeIIJg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "culinaire";
-            id = "MO1ODvmm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield-1.0.0";
-                    shortName = "LicenseRef-Polyform-Shield-1.0.0";
-                    url = "https://github.com/DawnTeamMC/Culinaire/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "culinaire";
+        id = "MO1ODvmm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield-1.0.0";
+                shortName = "LicenseRef-Polyform-Shield-1.0.0";
+                url = "https://github.com/DawnTeamMC/Culinaire/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

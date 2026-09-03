@@ -138,23 +138,20 @@ let
         "fabric-1.20" = _D7KQabYc;
         "default" = _iW1p2lwn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simply-skills";
-            id = "lyvwxqAy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Timefall-Development-License-1.2";
-                    shortName = "LicenseRef-Timefall-Development-License-1.2";
-                    url = "https://legacy.curseforge.com/project/890301/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simply-skills";
+        id = "lyvwxqAy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Timefall-Development-License-1.2";
+                shortName = "LicenseRef-Timefall-Development-License-1.2";
+                url = "https://legacy.curseforge.com/project/890301/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

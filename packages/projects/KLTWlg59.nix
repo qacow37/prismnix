@@ -645,23 +645,20 @@ let
         "neoforge-26.2" = _MqXn7ovo;
         "default" = _MqXn7ovo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "webcam-mod";
-            id = "KLTWlg59";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NUDL-v1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NUDL-v1.0";
-                    shortName = "LicenseRef-NUDL-v1.0";
-                    url = "https://github.com/DimasKama/Webcam/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "webcam-mod";
+        id = "KLTWlg59";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NUDL-v1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NUDL-v1.0";
+                shortName = "LicenseRef-NUDL-v1.0";
+                url = "https://github.com/DimasKama/Webcam/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

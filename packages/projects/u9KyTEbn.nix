@@ -264,23 +264,20 @@ let
         "quilt-26.2" = _2CJKYphv;
         "default" = _2CJKYphv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "phytons-hearts";
-            id = "u9KyTEbn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Phytons-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Phytons-Custom-License";
-                    shortName = "LicenseRef-Phytons-Custom-License";
-                    url = "https://github.com/Phytonlp/legal/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "phytons-hearts";
+        id = "u9KyTEbn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Phytons-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Phytons-Custom-License";
+                shortName = "LicenseRef-Phytons-Custom-License";
+                url = "https://github.com/Phytonlp/legal/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

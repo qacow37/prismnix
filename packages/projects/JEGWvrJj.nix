@@ -153,23 +153,20 @@ let
         "minecraft-26.2" = _pfJ0IIoM;
         "default" = _pfJ0IIoM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "night-ui";
-            id = "JEGWvrJj";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NotToBlame-Resource-License";
-                    shortName = "LicenseRef-NotToBlame-Resource-License";
-                    url = "https://www.nottobla.me/assets/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "night-ui";
+        id = "JEGWvrJj";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NotToBlame-Resource-License";
+                shortName = "LicenseRef-NotToBlame-Resource-License";
+                url = "https://www.nottobla.me/assets/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

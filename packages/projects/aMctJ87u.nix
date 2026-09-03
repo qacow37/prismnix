@@ -48,23 +48,20 @@ let
         "fabric-1.21.4" = _gXJ32y50;
         "default" = _gXJ32y50;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mining-speed-tooltips";
-            id = "aMctJ87u";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Tonis-MMC-License";
-                    shortName = "LicenseRef-Tonis-MMC-License";
-                    url = "https://license.txni.dev/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mining-speed-tooltips";
+        id = "aMctJ87u";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Tonis-MMC-License";
+                shortName = "LicenseRef-Tonis-MMC-License";
+                url = "https://license.txni.dev/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

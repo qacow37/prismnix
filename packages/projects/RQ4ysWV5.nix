@@ -14,23 +14,20 @@ let
         "quilt-1.21.1" = _2eL9wmRw;
         "default" = _2eL9wmRw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hats-put-anything-on-your-head";
-            id = "RQ4ysWV5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution 1.0 Generic";
-                    shortName = "CC-BY-1.0";
-                    url = "https://spdx.org/licenses/CC-BY-1.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hats-put-anything-on-your-head";
+        id = "RQ4ysWV5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 1.0 Generic";
+                shortName = "CC-BY-1.0";
+                url = "https://spdx.org/licenses/CC-BY-1.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

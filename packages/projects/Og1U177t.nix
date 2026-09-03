@@ -34,23 +34,20 @@ let
         "fabric-26.2" = _kae1ekXi;
         "default" = _kae1ekXi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "farblockentityrendering";
-            id = "Og1U177t";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-IlyRac-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-IlyRac-License";
-                    shortName = "LicenseRef-IlyRac-License";
-                    url = "https://github.com/IlyRac/FarBlockEntityRendering/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "farblockentityrendering";
+        id = "Og1U177t";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-IlyRac-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-IlyRac-License";
+                shortName = "LicenseRef-IlyRac-License";
+                url = "https://github.com/IlyRac/FarBlockEntityRendering/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

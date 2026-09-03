@@ -114,23 +114,20 @@ let
         "fabric-1.21.1" = _3ntMJp1Z;
         "default" = _3ntMJp1Z;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bushier-flowers";
-            id = "OK421ZCh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://www.curseforge.com/minecraft/mc-mods/bushier-flowers/files/4026211#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bushier-flowers";
+        id = "OK421ZCh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://www.curseforge.com/minecraft/mc-mods/bushier-flowers/files/4026211#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

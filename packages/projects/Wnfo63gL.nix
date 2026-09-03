@@ -22,23 +22,20 @@ let
         "forge-1.20.6" = _9OnlwTg9;
         "default" = _9OnlwTg9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-6.0.8-backported-fixes";
-            id = "Wnfo63gL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/MrGazdag/create-schematicannon-dupe-fix-mod/blob/master/LICENSE.MD";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-6.0.8-backported-fixes";
+        id = "Wnfo63gL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/MrGazdag/create-schematicannon-dupe-fix-mod/blob/master/LICENSE.MD";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

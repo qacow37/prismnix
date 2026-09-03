@@ -47,23 +47,20 @@ let
         "fabric-1.20.1" = _QlDGdZxj;
         "default" = _QlDGdZxj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "the-twilight-forest-unofficial";
-            id = "1XoXkBdT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-2.1-and-CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-2.1-and-CC-BY-NC-SA-4.0";
-                    shortName = "LicenseRef-LGPL-2.1-and-CC-BY-NC-SA-4.0";
-                    url = "https://github.com/marlester-dev/twilightforest-unofficial/blob/HEAD/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the-twilight-forest-unofficial";
+        id = "1XoXkBdT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-2.1-and-CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-2.1-and-CC-BY-NC-SA-4.0";
+                shortName = "LicenseRef-LGPL-2.1-and-CC-BY-NC-SA-4.0";
+                url = "https://github.com/marlester-dev/twilightforest-unofficial/blob/HEAD/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

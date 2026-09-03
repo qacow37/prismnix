@@ -287,23 +287,20 @@ let
         "quilt-26.2" = _C9HbenHK;
         "default" = _iTeCXdop;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rmes-campfire-leather";
-            id = "6vL2LZV7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-RME-4-Clause-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-RME-4-Clause-License";
-                    shortName = "LicenseRef-RME-4-Clause-License";
-                    url = "https://github.com/RMEngelbrecht/Campfire-Leather/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rmes-campfire-leather";
+        id = "6vL2LZV7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-RME-4-Clause-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-RME-4-Clause-License";
+                shortName = "LicenseRef-RME-4-Clause-License";
+                url = "https://github.com/RMEngelbrecht/Campfire-Leather/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

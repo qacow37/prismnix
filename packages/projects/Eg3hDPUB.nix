@@ -316,23 +316,20 @@ let
         "neoforge-26.1.2" = _2tdLGRsy;
         "default" = _2tdLGRsy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fetzis-asian-decoration";
-            id = "Eg3hDPUB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---Fetzis-Mods" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License---Fetzis-Mods";
-                    shortName = "LicenseRef-Custom-License---Fetzis-Mods";
-                    url = "https://fetzis-orga.gitbook.io/fetzis-asian-decoration/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fetzis-asian-decoration";
+        id = "Eg3hDPUB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---Fetzis-Mods" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License---Fetzis-Mods";
+                shortName = "LicenseRef-Custom-License---Fetzis-Mods";
+                url = "https://fetzis-orga.gitbook.io/fetzis-asian-decoration/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

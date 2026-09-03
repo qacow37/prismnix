@@ -27,23 +27,20 @@ let
         "minecraft-1.20.4" = _U3S38n5s;
         "default" = _U3S38n5s;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "true-bamboo";
-            id = "R4NdgM8w";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://choosealicense.com/licenses/mit/#";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "true-bamboo";
+        id = "R4NdgM8w";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://choosealicense.com/licenses/mit/#";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

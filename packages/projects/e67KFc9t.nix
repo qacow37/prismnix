@@ -1217,23 +1217,20 @@ let
         "minecraft-26.3-snapshot-6" = _oLLVnw28;
         "default" = _oLLVnw28;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mickey-joes-relatively-improved-default";
-            id = "e67KFc9t";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-";
-                    shortName = "LicenseRef-";
-                    url = "https://docs.google.com/document/d/1pZhZgquviBfUInZu2ju_tA35Zgf_Pe8hdJ3Gi4C-pOU/edit?usp=drivesdk";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mickey-joes-relatively-improved-default";
+        id = "e67KFc9t";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-";
+                shortName = "LicenseRef-";
+                url = "https://docs.google.com/document/d/1pZhZgquviBfUInZu2ju_tA35Zgf_Pe8hdJ3Gi4C-pOU/edit?usp=drivesdk";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

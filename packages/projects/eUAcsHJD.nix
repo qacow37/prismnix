@@ -46,23 +46,20 @@ let
         "purpur-1.21.11" = _dMsyuWJT;
         "default" = _dMsyuWJT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "unlimitedenchant";
-            id = "eUAcsHJD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DBAD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DBAD";
-                    shortName = "LicenseRef-DBAD";
-                    url = "https://github.com/Elephant1214/UnlimitedEnchant?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "unlimitedenchant";
+        id = "eUAcsHJD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DBAD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DBAD";
+                shortName = "LicenseRef-DBAD";
+                url = "https://github.com/Elephant1214/UnlimitedEnchant?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

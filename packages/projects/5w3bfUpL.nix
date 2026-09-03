@@ -380,23 +380,20 @@ let
         "neoforge-1.21.11" = _7TEZ2exJ;
         "default" = _7TEZ2exJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "powerstones";
-            id = "5w3bfUpL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://raw.githubusercontent.com/CalvinMT/PowerStones/refs/heads/1.18/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "powerstones";
+        id = "5w3bfUpL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://raw.githubusercontent.com/CalvinMT/PowerStones/refs/heads/1.18/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -614,23 +614,20 @@ let
         "ornithe-1.3.2" = _SvND0HR9;
         "default" = _5yf7PdcG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fabricated-forge";
-            id = "JpHZ1Cyv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Open Software License 3.0";
-                    shortName = "OSL-3.0";
-                    url = "https://github.com/FabricCompatibilityLayers/Fabricated-Legacy-Forge/blob/1.3.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fabricated-forge";
+        id = "JpHZ1Cyv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Open Software License 3.0";
+                shortName = "OSL-3.0";
+                url = "https://github.com/FabricCompatibilityLayers/Fabricated-Legacy-Forge/blob/1.3.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -47,23 +47,20 @@ let
         "fabric-1.21.4" = _25Mljudy;
         "default" = _eW9eUzzN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "trivia";
-            id = "KHJUvArA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGPL-3.0-or-later";
-                    shortName = "LicenseRef-AGPL-3.0-or-later";
-                    url = "https://spdx.org/licenses/AGPL-3.0-or-later.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "trivia";
+        id = "KHJUvArA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGPL-3.0-or-later";
+                shortName = "LicenseRef-AGPL-3.0-or-later";
+                url = "https://spdx.org/licenses/AGPL-3.0-or-later.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

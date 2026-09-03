@@ -169,23 +169,20 @@ let
         "forge-26.2" = _MlvqecgF;
         "default" = _MlvqecgF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mbs-moogs-bountiful-structures";
-            id = "Qnb1HbfK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/FinnSetchell/MoogsBountifulStructures/blob/1.21-datapack/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mbs-moogs-bountiful-structures";
+        id = "Qnb1HbfK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/FinnSetchell/MoogsBountifulStructures/blob/1.21-datapack/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

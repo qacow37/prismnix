@@ -522,23 +522,20 @@ let
         "neoforge-26.2" = _21gXhB6j;
         "default" = _21gXhB6j;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stacked-blocks";
-            id = "UYrNpKJN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/axperty/stackedblocks/blob/1.21.5-neoforge/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stacked-blocks";
+        id = "UYrNpKJN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/axperty/stackedblocks/blob/1.21.5-neoforge/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

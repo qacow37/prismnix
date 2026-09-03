@@ -55,23 +55,20 @@ let
         "minecraft-1.21.4" = _4Y4Oyhh4;
         "default" = _4Y4Oyhh4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xiaolai";
-            id = "1v1FASBq";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GFL-1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GFL-1.1";
-                    shortName = "LicenseRef-GFL-1.1";
-                    url = "https://github.com/lxgw/kose-font?tab=OFL-1.1-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xiaolai";
+        id = "1v1FASBq";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GFL-1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GFL-1.1";
+                shortName = "LicenseRef-GFL-1.1";
+                url = "https://github.com/lxgw/kose-font?tab=OFL-1.1-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

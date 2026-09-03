@@ -190,23 +190,20 @@ let
         "forge-1.21.5" = _txmyOcLJ;
         "default" = _FlOEypGV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "netherite-compass";
-            id = "AnC3DwAn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/DorkixAzIgazi/NetheriteCompass/blob/43e9c0cdf47949bcc72f53f10945465e84addca0/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "netherite-compass";
+        id = "AnC3DwAn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/DorkixAzIgazi/NetheriteCompass/blob/43e9c0cdf47949bcc72f53f10945465e84addca0/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

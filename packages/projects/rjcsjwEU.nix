@@ -258,23 +258,20 @@ let
         "fabric-1.20.1" = _3fiKE9sg;
         "default" = _3fiKE9sg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "saints-dragons";
-            id = "rjcsjwEU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dual-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dual-License";
-                    shortName = "LicenseRef-Dual-License";
-                    url = "https://github.com/LilRicefield/saints-dragons/blob/1.20.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "saints-dragons";
+        id = "rjcsjwEU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dual-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dual-License";
+                shortName = "LicenseRef-Dual-License";
+                url = "https://github.com/LilRicefield/saints-dragons/blob/1.20.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

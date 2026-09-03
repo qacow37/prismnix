@@ -133,23 +133,20 @@ let
         "quilt-26.2" = _UvvSKYnq;
         "default" = _UvvSKYnq;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ominous-mansions";
-            id = "ayr9Z7rk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NIT";
-                    shortName = "LicenseRef-NIT";
-                    url = "https://github.com/kanokarob/Ominous-Mansions-Smithed/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ominous-mansions";
+        id = "ayr9Z7rk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NIT";
+                shortName = "LicenseRef-NIT";
+                url = "https://github.com/kanokarob/Ominous-Mansions-Smithed/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

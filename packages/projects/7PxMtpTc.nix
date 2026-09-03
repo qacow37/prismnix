@@ -14,23 +14,20 @@ let
         "fabric-1.21.11" = _bhtxR02p;
         "default" = _bhtxR02p;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "smooth-double-doors";
-            id = "7PxMtpTc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://git.straice.com/DekinDev/Smooth_Double_Doors/src/branch/1.21.8/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "smooth-double-doors";
+        id = "7PxMtpTc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://git.straice.com/DekinDev/Smooth_Double_Doors/src/branch/1.21.8/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

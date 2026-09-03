@@ -976,23 +976,20 @@ let
         "fabric-1.20.1" = _fouLO3jc;
         "default" = _ChiOT0xS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fossils-and-archeology-revival";
-            id = "IJY7IqPP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-FA-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-FA-License";
-                    shortName = "LicenseRef-FA-License";
-                    url = "https://github.com/TeamFossilsArcheology/FossilsArcheologyRevival/blob/573f3467f821e2c1bce302a005e8d51f0775cfcf/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fossils-and-archeology-revival";
+        id = "IJY7IqPP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-FA-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-FA-License";
+                shortName = "LicenseRef-FA-License";
+                url = "https://github.com/TeamFossilsArcheology/FossilsArcheologyRevival/blob/573f3467f821e2c1bce302a005e8d51f0775cfcf/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

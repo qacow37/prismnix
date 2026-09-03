@@ -188,23 +188,20 @@ let
         "fabric-26.1.1" = _2vO7xC8R;
         "default" = _2vO7xC8R;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simple-gems-fabricated";
-            id = "DDo3bs9U";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CECILL-2.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "CeCILL Free Software License Agreement v2.1";
-                    shortName = "CECILL-2.1";
-                    url = "https://cecill.info/licences/Licence_CeCILL_V2.1-en.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-gems-fabricated";
+        id = "DDo3bs9U";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CECILL-2.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "CeCILL Free Software License Agreement v2.1";
+                shortName = "CECILL-2.1";
+                url = "https://cecill.info/licences/Licence_CeCILL_V2.1-en.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

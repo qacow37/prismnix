@@ -129,23 +129,20 @@ let
         "fabric-1.20.1" = _pMHwjDDc;
         "default" = _wpbXn4di;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wallpapers";
-            id = "JsJ52MHU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Makers-Mods-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Makers-Mods-License";
-                    shortName = "LicenseRef-Makers-Mods-License";
-                    url = "https://github.com/IIAmMaker/Carved-wood/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wallpapers";
+        id = "JsJ52MHU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Makers-Mods-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Makers-Mods-License";
+                shortName = "LicenseRef-Makers-Mods-License";
+                url = "https://github.com/IIAmMaker/Carved-wood/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

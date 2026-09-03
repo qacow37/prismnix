@@ -60,23 +60,20 @@ let
         "fabric-1.21.8" = _uxOUvLKU;
         "default" = _uxOUvLKU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "noplayernamedisplay";
-            id = "QeNtHxJC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-Universal" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC0-1.0-Universal";
-                    shortName = "LicenseRef-CC0-1.0-Universal";
-                    url = "https://github.com/Hashibutogarasu/no-player-name-display/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "noplayernamedisplay";
+        id = "QeNtHxJC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-Universal" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC0-1.0-Universal";
+                shortName = "LicenseRef-CC0-1.0-Universal";
+                url = "https://github.com/Hashibutogarasu/no-player-name-display/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

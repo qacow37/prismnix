@@ -462,23 +462,20 @@ let
         "quilt-1.21.11" = _TrtDOk2g;
         "default" = _TrtDOk2g;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "reverse-glass-block-panel";
-            id = "4nSFLvGQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LR";
-                    shortName = "LicenseRef-LR";
-                    url = "https://dustebin.com/api/pastes/W2VpfLGS.py/raw";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "reverse-glass-block-panel";
+        id = "4nSFLvGQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LR";
+                shortName = "LicenseRef-LR";
+                url = "https://dustebin.com/api/pastes/W2VpfLGS.py/raw";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

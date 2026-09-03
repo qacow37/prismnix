@@ -263,23 +263,20 @@ let
         "purpur-26.1.2" = _nPhKwFYj;
         "default" = _nPhKwFYj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "zessentials";
-            id = "B8ICgd4I";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-NoDerivatives-4.0-International" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Attribution-NonCommercial-NoDerivatives-4.0-International";
-                    shortName = "LicenseRef-Attribution-NonCommercial-NoDerivatives-4.0-International";
-                    url = "https://github.com/Maxlego08/zEssentials/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "zessentials";
+        id = "B8ICgd4I";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-NoDerivatives-4.0-International" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Attribution-NonCommercial-NoDerivatives-4.0-International";
+                shortName = "LicenseRef-Attribution-NonCommercial-NoDerivatives-4.0-International";
+                url = "https://github.com/Maxlego08/zEssentials/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

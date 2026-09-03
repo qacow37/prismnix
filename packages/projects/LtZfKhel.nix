@@ -49,23 +49,20 @@ let
         "neoforge-1.21.1" = _qpinHX2C;
         "default" = _qpinHX2C;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simple-clouds";
-            id = "LtZfKhel";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Perimeter-License-1.0.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Perimeter-License-1.0.1";
-                    shortName = "LicenseRef-PolyForm-Perimeter-License-1.0.1";
-                    url = "https://polyformproject.org/licenses/perimeter/1.0.1/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-clouds";
+        id = "LtZfKhel";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Perimeter-License-1.0.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Perimeter-License-1.0.1";
+                shortName = "LicenseRef-PolyForm-Perimeter-License-1.0.1";
+                url = "https://polyformproject.org/licenses/perimeter/1.0.1/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -23,23 +23,20 @@ let
         "neoforge-1.21.1" = _G7N1k717;
         "default" = _G7N1k717;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-lift-n-load";
-            id = "aJR8vXL6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Art" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-AND-ARR-Art";
-                    shortName = "LicenseRef-MIT-Code-AND-ARR-Art";
-                    url = "https://raw.githubusercontent.com/LopyLuna/Lift-n-Load/refs/heads/1.21.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-lift-n-load";
+        id = "aJR8vXL6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Art" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-AND-ARR-Art";
+                shortName = "LicenseRef-MIT-Code-AND-ARR-Art";
+                url = "https://raw.githubusercontent.com/LopyLuna/Lift-n-Load/refs/heads/1.21.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

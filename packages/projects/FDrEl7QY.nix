@@ -54,23 +54,20 @@ let
         "fabric-1.21.1" = _zvKKXPY5;
         "default" = _zvKKXPY5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aether-enhanced-extinguishing";
-            id = "FDrEl7QY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/The-Aether-Team/Enhanced-Extinguishing#scroll-license-information";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aether-enhanced-extinguishing";
+        id = "FDrEl7QY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/The-Aether-Team/Enhanced-Extinguishing#scroll-license-information";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

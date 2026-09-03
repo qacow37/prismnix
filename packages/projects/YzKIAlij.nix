@@ -74,23 +74,20 @@ let
         "fabric-26.1.2" = _v15yiASz;
         "default" = _v15yiASz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "economy";
-            id = "YzKIAlij";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Unlicense";
-                    shortName = "LicenseRef-Unlicense";
-                    url = "https://github.com/IsaiahMC/EconomyFabric/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "economy";
+        id = "YzKIAlij";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Unlicense";
+                shortName = "LicenseRef-Unlicense";
+                url = "https://github.com/IsaiahMC/EconomyFabric/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

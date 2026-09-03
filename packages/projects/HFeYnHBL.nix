@@ -47,23 +47,20 @@ let
         "minecraft-1.21.5" = _vVHI538g;
         "default" = _vVHI538g;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bread-hunger-bar";
-            id = "HFeYnHBL";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://ftp.gnu.org/gnu/Licenses/gpl-3.0.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bread-hunger-bar";
+        id = "HFeYnHBL";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://ftp.gnu.org/gnu/Licenses/gpl-3.0.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

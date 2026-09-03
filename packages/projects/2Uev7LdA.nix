@@ -371,23 +371,20 @@ let
         "quilt-26.2" = _4z8ZHuGj;
         "default" = _4z8ZHuGj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lambdabettergrass";
-            id = "2Uev7LdA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-License";
-                    shortName = "LicenseRef-Lambda-License";
-                    url = "https://github.com/LambdAurora/LambdaBetterGrass/blob/1.21.8/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lambdabettergrass";
+        id = "2Uev7LdA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-License";
+                shortName = "LicenseRef-Lambda-License";
+                url = "https://github.com/LambdAurora/LambdaBetterGrass/blob/1.21.8/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

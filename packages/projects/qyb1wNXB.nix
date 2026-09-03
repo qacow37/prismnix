@@ -252,23 +252,20 @@ let
         "neoforge-26.2" = _pQlynQci;
         "default" = _gk4cQbCJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "teleportcakes";
-            id = "qyb1wNXB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-or-later-CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-or-later-CC-BY-NC-SA-4.0";
-                    shortName = "LicenseRef-GPL-3.0-or-later-CC-BY-NC-SA-4.0";
-                    url = "https://github.com/xhanhh/TeleportCakes?tab=readme-ov-file#-license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "teleportcakes";
+        id = "qyb1wNXB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-or-later-CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-or-later-CC-BY-NC-SA-4.0";
+                shortName = "LicenseRef-GPL-3.0-or-later-CC-BY-NC-SA-4.0";
+                url = "https://github.com/xhanhh/TeleportCakes?tab=readme-ov-file#-license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

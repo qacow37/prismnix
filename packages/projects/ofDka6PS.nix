@@ -811,23 +811,20 @@ let
         "quilt-26.2" = _vHl89Bi7;
         "default" = _vHl89Bi7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spawn-animations-compats";
-            id = "ofDka6PS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fyoncle-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fyoncle-Custom-License";
-                    shortName = "LicenseRef-Fyoncle-Custom-License";
-                    url = "https://github.com/Fyoncle/spawnanimations-compats/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spawn-animations-compats";
+        id = "ofDka6PS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fyoncle-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fyoncle-Custom-License";
+                shortName = "LicenseRef-Fyoncle-Custom-License";
+                url = "https://github.com/Fyoncle/spawnanimations-compats/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

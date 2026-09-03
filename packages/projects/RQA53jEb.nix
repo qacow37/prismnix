@@ -30,23 +30,20 @@ let
         "minecraft-26.2" = _vT6kMdwV;
         "default" = _vT6kMdwV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "darkmode-mist";
-            id = "RQA53jEb";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyOcean" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SkyOcean";
-                    shortName = "LicenseRef-SkyOcean";
-                    url = "https://github.com/meowdding/SkyOcean/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "darkmode-mist";
+        id = "RQA53jEb";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyOcean" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SkyOcean";
+                shortName = "LicenseRef-SkyOcean";
+                url = "https://github.com/meowdding/SkyOcean/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -59,23 +59,20 @@ let
         "fabric-1.21.11" = _S2dl02nv;
         "default" = _S2dl02nv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pvp_utils";
-            id = "NX1JojlU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PVPUtils-NC" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PVPUtils-NC";
-                    shortName = "LicenseRef-PVPUtils-NC";
-                    url = "https://github.com/bakabaicai/PVPUtils/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pvp_utils";
+        id = "NX1JojlU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PVPUtils-NC" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PVPUtils-NC";
+                shortName = "LicenseRef-PVPUtils-NC";
+                url = "https://github.com/bakabaicai/PVPUtils/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -666,23 +666,20 @@ let
         "quilt-1.21.11" = _aQdfQ91c;
         "default" = _OjXR9AmS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nekoui";
-            id = "EZpbRipP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-nokarin" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-nokarin";
-                    shortName = "LicenseRef-nokarin";
-                    url = "https://github.strivo.xyz/nekoui-download/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nekoui";
+        id = "EZpbRipP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-nokarin" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-nokarin";
+                shortName = "LicenseRef-nokarin";
+                url = "https://github.strivo.xyz/nekoui-download/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -108,23 +108,20 @@ let
         "quilt-1.21.11" = _eqTIwndh;
         "default" = _eqTIwndh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "extended-enchanting";
-            id = "pGJRuQZQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lily-License-v1.1";
-                    shortName = "LicenseRef-Lily-License-v1.1";
-                    url = "https://github.com/Provismet/Extended-Enchanting/blob/1.21.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "extended-enchanting";
+        id = "pGJRuQZQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lily-License-v1.1";
+                shortName = "LicenseRef-Lily-License-v1.1";
+                url = "https://github.com/Provismet/Extended-Enchanting/blob/1.21.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

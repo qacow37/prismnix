@@ -19,23 +19,20 @@ let
         "forge-1.20.1" = _kOZVEfRn;
         "default" = _kOZVEfRn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mcda";
-            id = "oMitr7dU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Timefall-Development-License-1.1";
-                    shortName = "LicenseRef-Timefall-Development-License-1.1";
-                    url = "https://github.com/Timefall-Development/Timefall-Development-Licence/blob/main/TimefallDevelopmentLicense1.1.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mcda";
+        id = "oMitr7dU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Timefall-Development-License-1.1";
+                shortName = "LicenseRef-Timefall-Development-License-1.1";
+                url = "https://github.com/Timefall-Development/Timefall-Development-Licence/blob/main/TimefallDevelopmentLicense1.1.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

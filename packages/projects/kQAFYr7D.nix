@@ -122,23 +122,20 @@ let
         "minecraft-24w46a" = _cbxOrb9E;
         "default" = _cbxOrb9E;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dont-leak-your-base!";
-            id = "kQAFYr7D";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-RCNCL-V1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-RCNCL-V1.0";
-                    shortName = "LicenseRef-RCNCL-V1.0";
-                    url = "https://raw.githubusercontent.com/raelmc/Rael-License/refs/heads/main/RCNCL%20V1.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dont-leak-your-base!";
+        id = "kQAFYr7D";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-RCNCL-V1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-RCNCL-V1.0";
+                shortName = "LicenseRef-RCNCL-V1.0";
+                url = "https://raw.githubusercontent.com/raelmc/Rael-License/refs/heads/main/RCNCL%20V1.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

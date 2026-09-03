@@ -44,23 +44,20 @@ let
         "minecraft-1.20.1" = _6HvoPu8F;
         "default" = _6HvoPu8F;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enhanced-weaponry";
-            id = "rAOETNdM";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-attribution-NonCommercial-ShareAlike-4.0-International" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-attribution-NonCommercial-ShareAlike-4.0-International";
-                    shortName = "LicenseRef-attribution-NonCommercial-ShareAlike-4.0-International";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enhanced-weaponry";
+        id = "rAOETNdM";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-attribution-NonCommercial-ShareAlike-4.0-International" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-attribution-NonCommercial-ShareAlike-4.0-International";
+                shortName = "LicenseRef-attribution-NonCommercial-ShareAlike-4.0-International";
+                url = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

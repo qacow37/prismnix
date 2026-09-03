@@ -325,23 +325,20 @@ let
         "neoforge-1.21.11" = _XW0ePPxE;
         "default" = _vYdiceJB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pineapple-delight";
-            id = "8wXnuOvg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pineapple-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Pineapple-License";
-                    shortName = "LicenseRef-Pineapple-License";
-                    url = "https://github.com/AmarokIce/PineappleDelight/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pineapple-delight";
+        id = "8wXnuOvg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pineapple-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Pineapple-License";
+                shortName = "LicenseRef-Pineapple-License";
+                url = "https://github.com/AmarokIce/PineappleDelight/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

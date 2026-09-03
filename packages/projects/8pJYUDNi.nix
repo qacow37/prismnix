@@ -297,23 +297,20 @@ let
         "fabric-1.21.10" = _n0j7BYJ6;
         "default" = _T0lGKyhx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chatting";
-            id = "8pJYUDNi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    url = "https://raw.githubusercontent.com/Polyfrost/Chatting/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chatting";
+        id = "8pJYUDNi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                url = "https://raw.githubusercontent.com/Polyfrost/Chatting/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

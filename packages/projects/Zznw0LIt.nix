@@ -97,23 +97,20 @@ let
         "fabric-1.21.11" = _SgfNA9ii;
         "default" = _SgfNA9ii;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "clock-hud-renew";
-            id = "Zznw0LIt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WTFPL";
-                    shortName = "LicenseRef-WTFPL";
-                    url = "https://choosealicense.com/licenses/wtfpl/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "clock-hud-renew";
+        id = "Zznw0LIt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WTFPL";
+                shortName = "LicenseRef-WTFPL";
+                url = "https://choosealicense.com/licenses/wtfpl/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

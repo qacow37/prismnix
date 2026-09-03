@@ -367,23 +367,20 @@ let
         "quilt-1.21.1" = _wk7RVi1O;
         "default" = _H25DA3F7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-failskins";
-            id = "GFTKLMrj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-NIB-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-NIB-1.0";
-                    shortName = "LicenseRef-CC-BY-NC-NIB-1.0";
-                    url = "https://docs.google.com/document/d/1V9N24PxtVOYrVNyBvyksDyKF7PHQJWMkEFnYbKySyo8/edit?usp=sharing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-failskins";
+        id = "GFTKLMrj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-NIB-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-NIB-1.0";
+                shortName = "LicenseRef-CC-BY-NC-NIB-1.0";
+                url = "https://docs.google.com/document/d/1V9N24PxtVOYrVNyBvyksDyKF7PHQJWMkEFnYbKySyo8/edit?usp=sharing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

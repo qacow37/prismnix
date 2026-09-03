@@ -22,23 +22,20 @@ let
         "quilt-1.21.5" = _62V3iZC7;
         "default" = _62V3iZC7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bigger-barrels";
-            id = "jsR7N4xL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution 1.0 Generic";
-                    shortName = "CC-BY-1.0";
-                    url = "https://spdx.org/licenses/CC-BY-1.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bigger-barrels";
+        id = "jsR7N4xL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 1.0 Generic";
+                shortName = "CC-BY-1.0";
+                url = "https://spdx.org/licenses/CC-BY-1.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

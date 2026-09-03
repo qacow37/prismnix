@@ -61,23 +61,20 @@ let
         "minecraft-26.1.1" = _Sc3lQe4U;
         "default" = _Sc3lQe4U;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lowfire+";
-            id = "a75PdFt2";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Terms-of-Use-in-Description" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-See-Terms-of-Use-in-Description";
-                    shortName = "LicenseRef-See-Terms-of-Use-in-Description";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lowfire+";
+        id = "a75PdFt2";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Terms-of-Use-in-Description" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-See-Terms-of-Use-in-Description";
+                shortName = "LicenseRef-See-Terms-of-Use-in-Description";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

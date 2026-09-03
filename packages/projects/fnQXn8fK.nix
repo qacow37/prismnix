@@ -111,23 +111,20 @@ let
         "quilt-26.2" = _aJGGTBDb;
         "default" = _vmTBLsEw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "humanoid-villagers";
-            id = "fnQXn8fK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://choosealicense.com/licenses/apache-2.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "humanoid-villagers";
+        id = "fnQXn8fK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://choosealicense.com/licenses/apache-2.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

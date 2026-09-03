@@ -255,23 +255,20 @@ let
         "neoforge-1.20.1" = _CrTQI7GX;
         "default" = _TgN5ic41;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "inventory-binds";
-            id = "Yi2fIEtc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PrometheuZ-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PrometheuZ-license";
-                    shortName = "LicenseRef-PrometheuZ-license";
-                    url = "https://github.com/PrometheuzzZ/PJMods/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "inventory-binds";
+        id = "Yi2fIEtc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PrometheuZ-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PrometheuZ-license";
+                shortName = "LicenseRef-PrometheuZ-license";
+                url = "https://github.com/PrometheuzzZ/PJMods/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

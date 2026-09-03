@@ -446,23 +446,20 @@ let
         "neoforge-26.2" = _EBgDeYbA;
         "default" = _EBgDeYbA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hybrid-beta";
-            id = "Jmx5kJiS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
-                    shortName = "CC-BY-NC-ND-4.0";
-                    url = "https://github.com/Crystalis7/Hybrid-Beta/blob/master/LICENCE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hybrid-beta";
+        id = "Jmx5kJiS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
+                url = "https://github.com/Crystalis7/Hybrid-Beta/blob/master/LICENCE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

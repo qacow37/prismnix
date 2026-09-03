@@ -160,23 +160,20 @@ let
         "neoforge-1.21.1" = _AoQsFwaX;
         "default" = _AoQsFwaX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "natures-delight";
-            id = "18s8zHvJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Natures-Delight-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Natures-Delight-License";
-                    shortName = "LicenseRef-Natures-Delight-License";
-                    url = "https://github.com/Team-Hibiscus/NaturesDelight/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "natures-delight";
+        id = "18s8zHvJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Natures-Delight-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Natures-Delight-License";
+                shortName = "LicenseRef-Natures-Delight-License";
+                url = "https://github.com/Team-Hibiscus/NaturesDelight/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

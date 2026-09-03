@@ -149,23 +149,20 @@ let
         "quilt-26.2" = _rZy77g7c;
         "default" = _rZy77g7c;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "craft-rooted-dirt";
-            id = "tGBav6hi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Datapack-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Craemon-Datapack-License";
-                    shortName = "LicenseRef-Craemon-Datapack-License";
-                    url = "https://github.com/Craemon/Datapacks/blob/main/common/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "craft-rooted-dirt";
+        id = "tGBav6hi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Datapack-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Craemon-Datapack-License";
+                shortName = "LicenseRef-Craemon-Datapack-License";
+                url = "https://github.com/Craemon/Datapacks/blob/main/common/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -199,23 +199,20 @@ let
         "fabric-1.19.2" = _PVvTPPWs;
         "default" = _iVr2JYOB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr-japan-ticket-mod";
-            id = "4JZgUlpj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved-with-Personal-Modification-Permission" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved-with-Personal-Modification-Permission";
-                    shortName = "LicenseRef-All-Rights-Reserved-with-Personal-Modification-Permission";
-                    url = "https://github.com/yaxuobj/All-Rights-Reserved-with-Personal-Modification-Permission/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr-japan-ticket-mod";
+        id = "4JZgUlpj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved-with-Personal-Modification-Permission" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved-with-Personal-Modification-Permission";
+                shortName = "LicenseRef-All-Rights-Reserved-with-Personal-Modification-Permission";
+                url = "https://github.com/yaxuobj/All-Rights-Reserved-with-Personal-Modification-Permission/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

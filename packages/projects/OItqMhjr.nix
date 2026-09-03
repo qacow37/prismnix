@@ -78,23 +78,20 @@ let
         "forge-1.20.1" = _V22LMRQE;
         "default" = _V22LMRQE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "explosive-block-crackers-wither-storm-mod";
-            id = "OItqMhjr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AFL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Academic Free License v3.0";
-                    shortName = "AFL-3.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "explosive-block-crackers-wither-storm-mod";
+        id = "OItqMhjr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AFL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Academic Free License v3.0";
+                shortName = "AFL-3.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

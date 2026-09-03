@@ -60,23 +60,20 @@ let
         "folia-1.20.6" = _dZPJwgxi;
         "default" = _dZPJwgxi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "unlimitednametags";
-            id = "Ch81wZOQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-";
-                    shortName = "LicenseRef-";
-                    url = "https://github.com/alexdev03/UnlimitedNametags/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "unlimitednametags";
+        id = "Ch81wZOQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-";
+                shortName = "LicenseRef-";
+                url = "https://github.com/alexdev03/UnlimitedNametags/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

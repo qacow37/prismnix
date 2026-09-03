@@ -257,23 +257,20 @@ let
         "quilt-26.3-snapshot-7" = _VqdY2vwC;
         "default" = _VqdY2vwC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "2032-world-height";
-            id = "JTNe4RSx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "The Unlicense";
-                    shortName = "Unlicense";
-                    url = "https://spdx.org/licenses/Unlicense.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "2032-world-height";
+        id = "JTNe4RSx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "The Unlicense";
+                shortName = "Unlicense";
+                url = "https://spdx.org/licenses/Unlicense.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

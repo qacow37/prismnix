@@ -29,23 +29,20 @@ let
         "forge-1.8.9" = _RzbXCuUy;
         "default" = _RzbXCuUy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "crosshair";
-            id = "obfJASPU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    url = "https://raw.githubusercontent.com/Polyfrost/OverflowParticles/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "crosshair";
+        id = "obfJASPU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                url = "https://raw.githubusercontent.com/Polyfrost/OverflowParticles/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

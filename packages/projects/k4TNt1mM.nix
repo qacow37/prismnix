@@ -21,23 +21,20 @@ let
         "fabric-1.20" = _7ear4nmy;
         "default" = _7ear4nmy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tierify";
-            id = "k4TNt1mM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-ARR-Assets" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-ARR-Assets";
-                    shortName = "LicenseRef-MIT-Code-ARR-Assets";
-                    url = "https://github.com/nvb-uy/Tierify/blob/main/LICENSE_CODE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tierify";
+        id = "k4TNt1mM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-ARR-Assets" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-ARR-Assets";
+                shortName = "LicenseRef-MIT-Code-ARR-Assets";
+                url = "https://github.com/nvb-uy/Tierify/blob/main/LICENSE_CODE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

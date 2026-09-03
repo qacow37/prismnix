@@ -55,23 +55,20 @@ let
         "forge-1.20.1" = _EWb8UFr4;
         "default" = _EWb8UFr4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "scp-lockdown";
-            id = "Y59cV2RW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-SA-3.0";
-                    shortName = "LicenseRef-CC-BY-SA-3.0";
-                    url = "https://creativecommons.org/licenses/by-sa/3.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "scp-lockdown";
+        id = "Y59cV2RW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-SA-3.0";
+                shortName = "LicenseRef-CC-BY-SA-3.0";
+                url = "https://creativecommons.org/licenses/by-sa/3.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

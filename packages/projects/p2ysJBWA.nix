@@ -262,23 +262,20 @@ let
         "spigot-1.21.5" = _eenrnn3u;
         "default" = _eenrnn3u;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "jobsreborn-patchplacebreak";
-            id = "p2ysJBWA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://opensource.org/licenses/MIT";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "jobsreborn-patchplacebreak";
+        id = "p2ysJBWA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://opensource.org/licenses/MIT";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -250,23 +250,20 @@ let
         "forge-1.16.4" = _l4aibVvC;
         "default" = _l4aibVvC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "proximatunnel";
-            id = "EzshB8Tk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ProximaMP" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ProximaMP";
-                    shortName = "LicenseRef-ProximaMP";
-                    url = "https://proximamp.com/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "proximatunnel";
+        id = "EzshB8Tk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ProximaMP" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ProximaMP";
+                shortName = "LicenseRef-ProximaMP";
+                url = "https://proximamp.com/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -58,23 +58,20 @@ let
         "fabric-1.20.1" = _2XMDA7Ua;
         "default" = _9A1Hfemv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "missing-mods-checker";
-            id = "gR4YXm1s";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Tonis-MMC-License";
-                    shortName = "LicenseRef-Tonis-MMC-License";
-                    url = "https://license.txni.dev/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "missing-mods-checker";
+        id = "gR4YXm1s";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Tonis-MMC-License";
+                shortName = "LicenseRef-Tonis-MMC-License";
+                url = "https://license.txni.dev/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

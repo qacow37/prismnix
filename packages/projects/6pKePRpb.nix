@@ -66,23 +66,20 @@ let
         "neoforge-26.1" = _BcFgNfBP;
         "default" = _BcFgNfBP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "death-keeper";
-            id = "6pKePRpb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Assets" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-AND-ARR-Assets";
-                    shortName = "LicenseRef-MIT-Code-AND-ARR-Assets";
-                    url = "https://raw.githubusercontent.com/LopyLuna/Death-Keeper/refs/heads/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "death-keeper";
+        id = "6pKePRpb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Assets" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-AND-ARR-Assets";
+                shortName = "LicenseRef-MIT-Code-AND-ARR-Assets";
+                url = "https://raw.githubusercontent.com/LopyLuna/Death-Keeper/refs/heads/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

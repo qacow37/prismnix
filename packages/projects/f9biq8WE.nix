@@ -41,23 +41,20 @@ let
         "forge-1.7.10" = _Qp8ki9U1;
         "default" = _Qp8ki9U1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mo-creatures-legacy";
-            id = "f9biq8WE";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GNU-General-Public-License-v3.0-and-Further-Conditions" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GNU-General-Public-License-v3.0-and-Further-Conditions";
-                    shortName = "LicenseRef-GNU-General-Public-License-v3.0-and-Further-Conditions";
-                    url = "https://github.com/Rozmir-Rohi/mo-creatures-legacy/tree/main?tab=License-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mo-creatures-legacy";
+        id = "f9biq8WE";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GNU-General-Public-License-v3.0-and-Further-Conditions" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GNU-General-Public-License-v3.0-and-Further-Conditions";
+                shortName = "LicenseRef-GNU-General-Public-License-v3.0-and-Further-Conditions";
+                url = "https://github.com/Rozmir-Rohi/mo-creatures-legacy/tree/main?tab=License-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

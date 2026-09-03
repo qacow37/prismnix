@@ -11,23 +11,20 @@ let
         "fabric-1.21.1" = _MRyvFKT4;
         "default" = _MRyvFKT4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dungeon-finder";
-            id = "YngTjCWl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
-                    shortName = "BSD-3-Clause";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dungeon-finder";
+        id = "YngTjCWl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                shortName = "BSD-3-Clause";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -23,23 +23,20 @@ let
         "minecraft-1.20.4" = _LRXugtQh;
         "default" = _LRXugtQh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "class-377-retextures";
-            id = "DC9IQVe5";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Depends-on-Retexture" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Depends-on-Retexture";
-                    shortName = "LicenseRef-Depends-on-Retexture";
-                    url = "https://github.com/AwesomeKalin/MTR-ResourcePacks/blob/master/Class-377-Retexture/README.md#LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "class-377-retextures";
+        id = "DC9IQVe5";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Depends-on-Retexture" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Depends-on-Retexture";
+                shortName = "LicenseRef-Depends-on-Retexture";
+                url = "https://github.com/AwesomeKalin/MTR-ResourcePacks/blob/master/Class-377-Retexture/README.md#LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

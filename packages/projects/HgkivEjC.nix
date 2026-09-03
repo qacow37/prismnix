@@ -60,23 +60,20 @@ let
         "forge-1.20.1" = _gCz6aRoC;
         "default" = _gCz6aRoC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "teleport-master";
-            id = "HgkivEjC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Viola-Siemens/Teleport-Master/blob/Forge-1.19.X-v2.0.X/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "teleport-master";
+        id = "HgkivEjC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Viola-Siemens/Teleport-Master/blob/Forge-1.19.X-v2.0.X/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

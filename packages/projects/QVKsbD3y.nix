@@ -23,23 +23,20 @@ let
         "neoforge-1.21.1" = _cj8ey0Fn;
         "default" = _cj8ey0Fn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mythical-critters";
-            id = "QVKsbD3y";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-custom";
-                    shortName = "LicenseRef-custom";
-                    url = "https://github.com/VirtualSofia/MythicalCritters/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mythical-critters";
+        id = "QVKsbD3y";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-custom";
+                shortName = "LicenseRef-custom";
+                url = "https://github.com/VirtualSofia/MythicalCritters/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

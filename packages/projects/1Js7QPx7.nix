@@ -408,23 +408,20 @@ let
         "spigot-1.21.11" = _XRIf3v07;
         "default" = _XRIf3v07;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "upgraded-stair-recipes";
-            id = "1Js7QPx7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CSL-1.0";
-                    shortName = "LicenseRef-CSL-1.0";
-                    url = "https://github.com/Charken-Inc/Datapacks/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "upgraded-stair-recipes";
+        id = "1Js7QPx7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CSL-1.0";
+                shortName = "LicenseRef-CSL-1.0";
+                url = "https://github.com/Charken-Inc/Datapacks/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

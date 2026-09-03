@@ -148,23 +148,20 @@ let
         "quilt-1.20.4" = _shf866bL;
         "default" = _shf866bL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dimension-detector";
-            id = "u4lzJTkX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://raw.githubusercontent.com/PawekPL/minecraft-dimension-detector-datapack/1.16/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dimension-detector";
+        id = "u4lzJTkX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://raw.githubusercontent.com/PawekPL/minecraft-dimension-detector-datapack/1.16/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

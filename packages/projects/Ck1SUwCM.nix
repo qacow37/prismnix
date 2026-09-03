@@ -25,23 +25,20 @@ let
         "fabric-1.21.8" = _ryZY76fK;
         "default" = _ryZY76fK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "syncrepair";
-            id = "Ck1SUwCM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://www.gnu.org/licenses/gpl-3.0.html#license-text";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "syncrepair";
+        id = "Ck1SUwCM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://www.gnu.org/licenses/gpl-3.0.html#license-text";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

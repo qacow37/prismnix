@@ -426,23 +426,20 @@ let
         "minecraft-26.3-snapshot-6" = _HD8nISUp;
         "default" = _HD8nISUp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "michidarkgui";
-            id = "ZcwdrFAx";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-2026-ProjectMichi" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-2026-ProjectMichi";
-                    shortName = "LicenseRef-2026-ProjectMichi";
-                    url = "https://github.com/michi3160/License/wiki/License1.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "michidarkgui";
+        id = "ZcwdrFAx";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-2026-ProjectMichi" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-2026-ProjectMichi";
+                shortName = "LicenseRef-2026-ProjectMichi";
+                url = "https://github.com/michi3160/License/wiki/License1.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

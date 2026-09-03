@@ -213,23 +213,20 @@ let
         "quilt-1.21.1" = _O5NzJWf4;
         "default" = _xF23qxML;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enclosure";
-            id = "mc1DjRvU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Enclosure-Open-Source-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Enclosure-Open-Source-License";
-                    shortName = "LicenseRef-Enclosure-Open-Source-License";
-                    url = "https://github.com/zly2006/Enclosure/blob/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enclosure";
+        id = "mc1DjRvU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Enclosure-Open-Source-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Enclosure-Open-Source-License";
+                shortName = "LicenseRef-Enclosure-Open-Source-License";
+                url = "https://github.com/zly2006/Enclosure/blob/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

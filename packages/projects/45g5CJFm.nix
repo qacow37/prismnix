@@ -36,23 +36,20 @@ let
         "fabric-1.21.11" = _YBTmCLeu;
         "default" = _YBTmCLeu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wynnanimated";
-            id = "45g5CJFm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Timefall-Development-License-1.2";
-                    shortName = "LicenseRef-Timefall-Development-License-1.2";
-                    url = "https://github.com/Sweenus/WynnAnimated/blob/1.21.11/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wynnanimated";
+        id = "45g5CJFm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Timefall-Development-License-1.2";
+                shortName = "LicenseRef-Timefall-Development-License-1.2";
+                url = "https://github.com/Sweenus/WynnAnimated/blob/1.21.11/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

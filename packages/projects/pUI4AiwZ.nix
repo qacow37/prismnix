@@ -442,23 +442,20 @@ let
         "velocity-26.1.2" = _TJhDh0M0;
         "default" = _TJhDh0M0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "staff";
-            id = "pUI4AiwZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 or later";
-                    shortName = "AGPL-3.0-or-later";
-                    url = "https://www.gnu.org/licenses/agpl-3.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "staff";
+        id = "pUI4AiwZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 or later";
+                shortName = "AGPL-3.0-or-later";
+                url = "https://www.gnu.org/licenses/agpl-3.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -227,23 +227,20 @@ let
         "forge-1.8.9" = _ewJHpWEo;
         "default" = _ewJHpWEo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "partly-sane-skies";
-            id = "jlWHBQtc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
-                    shortName = "BSD-3-Clause";
-                    url = "https://github.com/PartlySaneStudios/partly-sane-skies/blob/main/COPYING";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "partly-sane-skies";
+        id = "jlWHBQtc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                shortName = "BSD-3-Clause";
+                url = "https://github.com/PartlySaneStudios/partly-sane-skies/blob/main/COPYING";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

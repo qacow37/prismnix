@@ -145,23 +145,20 @@ let
         "neoforge-1.21.1" = _qhj5i3jf;
         "default" = _qhj5i3jf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "beebuddy";
-            id = "9LrD18LI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL-MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WTFPL-MIT";
-                    shortName = "LicenseRef-WTFPL-MIT";
-                    url = "https://git.lunabee.space/beebuddy/file/LICENSE.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "beebuddy";
+        id = "9LrD18LI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL-MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WTFPL-MIT";
+                shortName = "LicenseRef-WTFPL-MIT";
+                url = "https://git.lunabee.space/beebuddy/file/LICENSE.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

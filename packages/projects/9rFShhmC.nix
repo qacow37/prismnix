@@ -54,23 +54,20 @@ let
         "forge-1.20.1" = _JrBDE5og;
         "default" = _JrBDE5og;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "scp-overtime";
-            id = "9rFShhmC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-";
-                    shortName = "LicenseRef-";
-                    url = "https://creativecommons.org/licenses/by-sa/3.0/legalcode";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "scp-overtime";
+        id = "9rFShhmC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-";
+                shortName = "LicenseRef-";
+                url = "https://creativecommons.org/licenses/by-sa/3.0/legalcode";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

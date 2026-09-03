@@ -96,23 +96,20 @@ let
         "fabric-b1.7.3" = _sOEEpbJZ;
         "default" = _sOEEpbJZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tropicraft-stationapi";
-            id = "NyAJw76z";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-MPL-2.0";
-                    shortName = "LicenseRef-MIT-MPL-2.0";
-                    url = "https://github.com/DanyGames2014/Tropicraft?tab=MIT-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tropicraft-stationapi";
+        id = "NyAJw76z";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-MPL-2.0";
+                shortName = "LicenseRef-MIT-MPL-2.0";
+                url = "https://github.com/DanyGames2014/Tropicraft?tab=MIT-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

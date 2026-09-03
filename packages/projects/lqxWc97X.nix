@@ -25,23 +25,20 @@ let
         "minecraft-1.20.4" = _KS6fMjG4;
         "default" = _KS6fMjG4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr4-british-rail-class-395-javelin";
-            id = "lqxWc97X";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MTR-Resource-Pack-Terms-of-Use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MTR-Resource-Pack-Terms-of-Use";
-                    shortName = "LicenseRef-MTR-Resource-Pack-Terms-of-Use";
-                    url = "https://docs.google.com/document/d/1ErnO1G0EoKbz6xzv9GDielwdcthgFdfVZMecAudOKb4/edit?usp=sharing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr4-british-rail-class-395-javelin";
+        id = "lqxWc97X";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MTR-Resource-Pack-Terms-of-Use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MTR-Resource-Pack-Terms-of-Use";
+                shortName = "LicenseRef-MTR-Resource-Pack-Terms-of-Use";
+                url = "https://docs.google.com/document/d/1ErnO1G0EoKbz6xzv9GDielwdcthgFdfVZMecAudOKb4/edit?usp=sharing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -43,23 +43,20 @@ let
         "forge-1.20.6" = _YBBzbTEx;
         "default" = _YBBzbTEx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-magics";
-            id = "8x58x3u8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-VladITandLPlayer-Works-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-VladITandLPlayer-Works-License";
-                    shortName = "LicenseRef-VladITandLPlayer-Works-License";
-                    url = "https://github.com/Vlmspl/CreateMagics/blob/1.19.2/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-magics";
+        id = "8x58x3u8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-VladITandLPlayer-Works-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-VladITandLPlayer-Works-License";
+                shortName = "LicenseRef-VladITandLPlayer-Works-License";
+                url = "https://github.com/Vlmspl/CreateMagics/blob/1.19.2/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

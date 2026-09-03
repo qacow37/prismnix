@@ -1062,23 +1062,20 @@ let
         "neoforge-1.21.1" = _qwBasUDD;
         "default" = _qwBasUDD;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "creeperhost-minetogether";
-            id = "Nu7Lnzkx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GPL-3.0";
-                    shortName = "GPL-3.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "creeperhost-minetogether";
+        id = "Nu7Lnzkx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GPL-3.0";
+                shortName = "GPL-3.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

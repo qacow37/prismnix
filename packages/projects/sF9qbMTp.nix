@@ -109,23 +109,20 @@ let
         "minecraft-26.1" = _f042hgGh;
         "default" = _f042hgGh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "3d-dripstone";
-            id = "sF9qbMTp";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SS3DS" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SS3DS";
-                    shortName = "LicenseRef-SS3DS";
-                    url = "https://pastebin.com/raw/UnquJZQ7";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "3d-dripstone";
+        id = "sF9qbMTp";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SS3DS" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SS3DS";
+                shortName = "LicenseRef-SS3DS";
+                url = "https://pastebin.com/raw/UnquJZQ7";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

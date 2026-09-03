@@ -152,23 +152,20 @@ let
         "minecraft-26.2" = _SwG4LEMz;
         "default" = _SwG4LEMz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "abdarkmode";
-            id = "LlIOeEZf";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AB-Dark-Mode" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AB-Dark-Mode";
-                    shortName = "LicenseRef-AB-Dark-Mode";
-                    url = "https://github.com/AndreaBonnie/AB-Dark-Mode-License/blob/main/AB%20Dark%20Mode%20License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "abdarkmode";
+        id = "LlIOeEZf";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AB-Dark-Mode" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AB-Dark-Mode";
+                shortName = "LicenseRef-AB-Dark-Mode";
+                url = "https://github.com/AndreaBonnie/AB-Dark-Mode-License/blob/main/AB%20Dark%20Mode%20License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

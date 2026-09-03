@@ -82,23 +82,20 @@ let
         "minecraft-1.21.4" = _2Af7jDae;
         "default" = _2Af7jDae;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xaero-map-ru-ua";
-            id = "q9mYhicp";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-License-from-Mirik9724-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-License-from-Mirik9724-";
-                    shortName = "LicenseRef-License-from-Mirik9724-";
-                    url = "https://github.com/Mirik9724/Mirik9724/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xaero-map-ru-ua";
+        id = "q9mYhicp";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-License-from-Mirik9724-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-License-from-Mirik9724-";
+                shortName = "LicenseRef-License-from-Mirik9724-";
+                url = "https://github.com/Mirik9724/Mirik9724/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

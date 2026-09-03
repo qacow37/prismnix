@@ -155,23 +155,20 @@ let
         "forge-1.20.1" = _z4VFEx2N;
         "default" = _z4VFEx2N;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "the-last-sword-you-never-forgot";
-            id = "naW7WZy0";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGALAF-Mod-Version-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGALAF-Mod-Version-2.0";
-                    shortName = "LicenseRef-AGALAF-Mod-Version-2.0";
-                    url = "https://github.com/CJiangqiu/EpicEngine?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the-last-sword-you-never-forgot";
+        id = "naW7WZy0";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGALAF-Mod-Version-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGALAF-Mod-Version-2.0";
+                shortName = "LicenseRef-AGALAF-Mod-Version-2.0";
+                url = "https://github.com/CJiangqiu/EpicEngine?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

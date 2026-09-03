@@ -22,23 +22,20 @@ let
         "quilt-1.20.1" = _t9afjbhS;
         "default" = _t9afjbhS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chewstuff";
-            id = "Vma7ZDvU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "0BSD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD Zero Clause License";
-                    shortName = "0BSD";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chewstuff";
+        id = "Vma7ZDvU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "0BSD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD Zero Clause License";
+                shortName = "0BSD";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

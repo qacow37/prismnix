@@ -51,23 +51,20 @@ let
         "minecraft-1.21.5" = _trOFRy0g;
         "default" = _trOFRy0g;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "copper-lighter";
-            id = "yn9g4sed";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-Of-Use-in-the-Description" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terms-Of-Use-in-the-Description";
-                    shortName = "LicenseRef-Terms-Of-Use-in-the-Description";
-                    url = "https://modrinth.com/resourcepack/copper-lighter";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "copper-lighter";
+        id = "yn9g4sed";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-Of-Use-in-the-Description" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terms-Of-Use-in-the-Description";
+                shortName = "LicenseRef-Terms-Of-Use-in-the-Description";
+                url = "https://modrinth.com/resourcepack/copper-lighter";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

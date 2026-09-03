@@ -149,23 +149,20 @@ let
         "neoforge-1.21.1" = _95bBXJVg;
         "default" = _95bBXJVg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "legacy-landscape";
-            id = "EMniOm7T";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "European Union Public License 1.2";
-                    shortName = "EUPL-1.2";
-                    url = "https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "legacy-landscape";
+        id = "EMniOm7T";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "European Union Public License 1.2";
+                shortName = "EUPL-1.2";
+                url = "https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

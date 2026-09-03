@@ -160,23 +160,20 @@ let
         "quilt-26.2" = _ni2AdZGS;
         "default" = _ni2AdZGS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "right-click-chest-boat";
-            id = "eV0rTOBa";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution 4.0 International";
-                    shortName = "CC-BY-4.0";
-                    url = "https://github.com/Killarexe/Right-Click-Chest-Boat/blob/master/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "right-click-chest-boat";
+        id = "eV0rTOBa";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
+                url = "https://github.com/Killarexe/Right-Click-Chest-Boat/blob/master/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

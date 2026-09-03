@@ -1039,23 +1039,20 @@ let
         "neoforge-26.2" = _E3obAdZc;
         "default" = _E3obAdZc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tcdcommons";
-            id = "Eldc1g37";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-TCDCommons-API-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-TCDCommons-API-License";
-                    shortName = "LicenseRef-TCDCommons-API-License";
-                    url = "https://github.com/TheCSDev/tcdcommons/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tcdcommons";
+        id = "Eldc1g37";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-TCDCommons-API-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-TCDCommons-API-License";
+                shortName = "LicenseRef-TCDCommons-API-License";
+                url = "https://github.com/TheCSDev/tcdcommons/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

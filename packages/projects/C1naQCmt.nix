@@ -187,23 +187,20 @@ let
         "fabric-1.21.10" = _TWCshUuZ;
         "default" = _TWCshUuZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "autotrade-fabric";
-            id = "C1naQCmt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-0BSD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-0BSD";
-                    shortName = "LicenseRef-0BSD";
-                    url = "https://spdx.org/licenses/0BSD.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "autotrade-fabric";
+        id = "C1naQCmt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-0BSD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-0BSD";
+                shortName = "LicenseRef-0BSD";
+                url = "https://spdx.org/licenses/0BSD.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

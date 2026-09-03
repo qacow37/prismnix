@@ -111,23 +111,20 @@ let
         "quilt-1.19.4" = _rCrZK8Sn;
         "default" = _oTwWDp7X;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "animationoverhaul";
-            id = "jCikwMS7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGNYA-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGNYA-License";
-                    shortName = "LicenseRef-AGNYA-License";
-                    url = "https://github.com/nvb-uy/Animation_Overhaul/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "animationoverhaul";
+        id = "jCikwMS7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGNYA-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGNYA-License";
+                shortName = "LicenseRef-AGNYA-License";
+                url = "https://github.com/nvb-uy/Animation_Overhaul/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

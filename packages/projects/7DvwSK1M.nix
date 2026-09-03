@@ -29,23 +29,20 @@ let
         "forge-1.12.2" = _Ubgep9rP;
         "default" = _Ubgep9rP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sytex-studios-(boralo-modu";
-            id = "7DvwSK1M";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Sytex131" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Sytex131";
-                    shortName = "LicenseRef-Sytex131";
-                    url = "https://github.com/Sytex131/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sytex-studios-(boralo-modu";
+        id = "7DvwSK1M";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Sytex131" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Sytex131";
+                shortName = "LicenseRef-Sytex131";
+                url = "https://github.com/Sytex131/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

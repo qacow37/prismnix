@@ -23,23 +23,20 @@ let
         "forge-1.12.2" = _BEDI44dw;
         "default" = _BEDI44dw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "embers-unofficial-extended-life";
-            id = "xq4ZC0kN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Ender-Development/Embers-Extended-Life/blob/rekindled/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "embers-unofficial-extended-life";
+        id = "xq4ZC0kN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Ender-Development/Embers-Extended-Life/blob/rekindled/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

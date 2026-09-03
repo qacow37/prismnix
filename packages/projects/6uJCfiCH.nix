@@ -196,23 +196,20 @@ let
         "optifine-26.2" = _rcr90eRP;
         "default" = _rcr90eRP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spooklementary";
-            id = "6uJCfiCH";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-License";
-                    shortName = "LicenseRef-Complementary-License";
-                    url = "https://github.com/SpacEagle17/Spooklementary/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spooklementary";
+        id = "6uJCfiCH";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-License";
+                shortName = "LicenseRef-Complementary-License";
+                url = "https://github.com/SpacEagle17/Spooklementary/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

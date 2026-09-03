@@ -38,23 +38,20 @@ let
         "minecraft-1.16.5" = _YxZ3kFgG;
         "default" = _I6BfLmc8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtrtokyu9000series";
-            id = "lqKXi148";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AME-TREC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AME-TREC-License";
-                    shortName = "LicenseRef-AME-TREC-License";
-                    url = "https://ame-trec.github.io/mtr_kiyaku.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtrtokyu9000series";
+        id = "lqKXi148";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AME-TREC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AME-TREC-License";
+                shortName = "LicenseRef-AME-TREC-License";
+                url = "https://ame-trec.github.io/mtr_kiyaku.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

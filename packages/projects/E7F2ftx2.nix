@@ -38,23 +38,20 @@ let
         "neoforge-1.21.1" = _2OxSaLTR;
         "default" = _2OxSaLTR;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stick-n-stone";
-            id = "E7F2ftx2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Timefall-Development-License-1.2";
-                    shortName = "LicenseRef-Timefall-Development-License-1.2";
-                    url = "https://github.com/Pigfection/sticknstone/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stick-n-stone";
+        id = "E7F2ftx2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Timefall-Development-License-1.2";
+                shortName = "LicenseRef-Timefall-Development-License-1.2";
+                url = "https://github.com/Pigfection/sticknstone/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

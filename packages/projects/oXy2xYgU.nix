@@ -296,23 +296,20 @@ let
         "neoforge-1.21.11" = _BLBtGOaG;
         "default" = _IqYBGcgG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "texture-locale-redirector";
-            id = "oXy2xYgU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/LocalizedMC/TextureLocaleRedirector/blob/stonecutter/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "texture-locale-redirector";
+        id = "oXy2xYgU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/LocalizedMC/TextureLocaleRedirector/blob/stonecutter/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

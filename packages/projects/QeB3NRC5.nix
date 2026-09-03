@@ -186,23 +186,20 @@ let
         "fabric-1.20.1" = _6YlQtEx9;
         "default" = _GxKTptCM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "re-avaritia";
-            id = "QeB3NRC5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Nova-Committee/Re-Avaritia/blob/1.20.1-forged/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "re-avaritia";
+        id = "QeB3NRC5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Nova-Committee/Re-Avaritia/blob/1.20.1-forged/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

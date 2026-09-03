@@ -35,23 +35,20 @@ let
         "fabric-1.20.1" = _LcWlcQ8t;
         "default" = _LcWlcQ8t;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "betterenddelight";
-            id = "eAXhQySJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-custom-license";
-                    shortName = "LicenseRef-custom-license";
-                    url = "https://github.com/ShangguanXi/TheBetterEndDelight?tab=License-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "betterenddelight";
+        id = "eAXhQySJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-custom-license";
+                shortName = "LicenseRef-custom-license";
+                url = "https://github.com/ShangguanXi/TheBetterEndDelight?tab=License-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

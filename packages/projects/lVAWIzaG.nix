@@ -179,23 +179,20 @@ let
         "bukkit-26.2" = _8BOX5ftx;
         "default" = _8BOX5ftx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "zauctionhouse";
-            id = "lVAWIzaG";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/GroupeZ-dev/zAuctionHouse/blob/develop/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "zauctionhouse";
+        id = "lVAWIzaG";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/GroupeZ-dev/zAuctionHouse/blob/develop/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

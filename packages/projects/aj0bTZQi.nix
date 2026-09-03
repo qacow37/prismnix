@@ -31,23 +31,20 @@ let
         "minecraft-1.20.4" = _OPYf1K3T;
         "default" = _OPYf1K3T;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr4-wap7-locomotive";
-            id = "aj0bTZQi";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-License-for-3-Phase-Locomotives" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-License-for-3-Phase-Locomotives";
-                    shortName = "LicenseRef-License-for-3-Phase-Locomotives";
-                    url = "https://gist.github.com/Haarshit21/fea8619ce56d83ecc65c3fbb0a5abf8b";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr4-wap7-locomotive";
+        id = "aj0bTZQi";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-License-for-3-Phase-Locomotives" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-License-for-3-Phase-Locomotives";
+                shortName = "LicenseRef-License-for-3-Phase-Locomotives";
+                url = "https://gist.github.com/Haarshit21/fea8619ce56d83ecc65c3fbb0a5abf8b";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

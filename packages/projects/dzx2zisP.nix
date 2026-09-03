@@ -102,23 +102,20 @@ let
         "optifine-1.21.10" = _X5paKLYY;
         "default" = _X5paKLYY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cyanide-shaders";
-            id = "dzx2zisP";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cyanide-Agreement" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Cyanide-Agreement";
-                    shortName = "LicenseRef-Cyanide-Agreement";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cyanide-shaders";
+        id = "dzx2zisP";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cyanide-Agreement" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Cyanide-Agreement";
+                shortName = "LicenseRef-Cyanide-Agreement";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

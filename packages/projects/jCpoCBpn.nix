@@ -98,23 +98,20 @@ let
         "fabric-1.21.1" = _ry2FgK0f;
         "default" = _ry2FgK0f;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "reframed";
-            id = "jCpoCBpn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT AND LGPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT AND LGPL-3.0";
-                    shortName = "MIT AND LGPL-3.0";
-                    url = "https://github.com/DriHut/ReFramed/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "reframed";
+        id = "jCpoCBpn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT AND LGPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT AND LGPL-3.0";
+                shortName = "MIT AND LGPL-3.0";
+                url = "https://github.com/DriHut/ReFramed/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

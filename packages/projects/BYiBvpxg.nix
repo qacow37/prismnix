@@ -346,23 +346,20 @@ let
         "forge-26.2" = _l67D7Abx;
         "default" = _2iB5QioB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simple-macro";
-            id = "BYiBvpxg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-except-Icons" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-except-Icons";
-                    shortName = "LicenseRef-MIT-except-Icons";
-                    url = "https://raw.githubusercontent.com/Hajsori/Simple-Macro/refs/heads/1.21.1/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-macro";
+        id = "BYiBvpxg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-except-Icons" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-except-Icons";
+                shortName = "LicenseRef-MIT-except-Icons";
+                url = "https://raw.githubusercontent.com/Hajsori/Simple-Macro/refs/heads/1.21.1/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

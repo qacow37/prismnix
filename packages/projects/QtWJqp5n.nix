@@ -11,23 +11,20 @@ let
         "fabric-1.21.11" = _aEHuHXag;
         "default" = _aEHuHXag;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-ping-display-plus";
-            id = "QtWJqp5n";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 or later";
-                    shortName = "LGPL-3.0-or-later";
-                    url = "https://github.com/StarSNG25/Better-Ping-Display-Plus/blob/1.21.x-fabric/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-ping-display-plus";
+        id = "QtWJqp5n";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 or later";
+                shortName = "LGPL-3.0-or-later";
+                url = "https://github.com/StarSNG25/Better-Ping-Display-Plus/blob/1.21.x-fabric/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

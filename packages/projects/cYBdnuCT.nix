@@ -11,23 +11,20 @@ let
         "neoforge-1.21.1" = _pBAyyns5;
         "default" = _pBAyyns5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bigger-stacks-unofficial";
-            id = "cYBdnuCT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://github.com/Rinorsi/biggerstacks-Unofficial/blob/main/licence.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bigger-stacks-unofficial";
+        id = "cYBdnuCT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://github.com/Rinorsi/biggerstacks-Unofficial/blob/main/licence.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

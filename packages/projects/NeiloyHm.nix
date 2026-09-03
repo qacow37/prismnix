@@ -94,23 +94,20 @@ let
         "neoforge-1.21.1" = _lEnkIRJr;
         "default" = _lEnkIRJr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fetzis-displays";
-            id = "NeiloyHm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---Fetzis-Mods" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License---Fetzis-Mods";
-                    shortName = "LicenseRef-Custom-License---Fetzis-Mods";
-                    url = "https://fetzis-orga.gitbook.io/fetzis-displays/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fetzis-displays";
+        id = "NeiloyHm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---Fetzis-Mods" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License---Fetzis-Mods";
+                shortName = "LicenseRef-Custom-License---Fetzis-Mods";
+                url = "https://fetzis-orga.gitbook.io/fetzis-displays/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

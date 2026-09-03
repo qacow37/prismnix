@@ -91,23 +91,20 @@ let
         "forge-1.17.1" = _wHUerD0O;
         "default" = _DayWFuzl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "keymap";
-            id = "duSoEJIr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "ISC" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "ISC License";
-                    shortName = "ISC";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "keymap";
+        id = "duSoEJIr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "ISC" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "ISC License";
+                shortName = "ISC";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

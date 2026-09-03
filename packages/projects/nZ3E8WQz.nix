@@ -357,23 +357,20 @@ let
         "fabric-26.2" = _NnaqP9dF;
         "default" = _M2yqiDv1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "crashpatch";
-            id = "nZ3E8WQz";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
-                    url = "https://raw.githubusercontent.com/Polyfrost/CrashPatch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "crashpatch";
+        id = "nZ3E8WQz";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                url = "https://raw.githubusercontent.com/Polyfrost/CrashPatch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

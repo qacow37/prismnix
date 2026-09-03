@@ -13,23 +13,20 @@ let
         "forge-1.20.2" = _RFAznUVo;
         "default" = _RFAznUVo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "unusual-prehistory";
-            id = "tHu3oHNo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/Peeko32213/Unusual-Prehistory/blob/main-final/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "unusual-prehistory";
+        id = "tHu3oHNo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/Peeko32213/Unusual-Prehistory/blob/main-final/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

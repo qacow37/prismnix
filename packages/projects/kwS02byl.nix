@@ -31,23 +31,20 @@ let
         "fabric-1.21.11" = _eawKqmwN;
         "default" = _eawKqmwN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ridingmousefix";
-            id = "kwS02byl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/JustAlittleWolf/RidingMouseFix/blob/1.0.0/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ridingmousefix";
+        id = "kwS02byl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/JustAlittleWolf/RidingMouseFix/blob/1.0.0/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

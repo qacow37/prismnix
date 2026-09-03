@@ -117,23 +117,20 @@ let
         "quilt-1.21.1" = _IdsaSyvZ;
         "default" = _zu0UFH4R;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "betsy-ross";
-            id = "QHsVGyjJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Wagers-of-Industrial-Warfare/BetsyRoss/blob/221a5cac059dcfa539cc53eef7ea10621d015e2f/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "betsy-ross";
+        id = "QHsVGyjJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Wagers-of-Industrial-Warfare/BetsyRoss/blob/221a5cac059dcfa539cc53eef7ea10621d015e2f/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

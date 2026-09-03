@@ -2032,23 +2032,20 @@ let
         "neoforge-1.21.5" = _P0QGvgKd;
         "default" = _bzveozeB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "paperdoll";
-            id = "edwFXb9k";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-tr7zw-Protective-License";
-                    shortName = "LicenseRef-tr7zw-Protective-License";
-                    url = "https://github.com/tr7zw/PaperDoll/blob/1.18/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "paperdoll";
+        id = "edwFXb9k";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-tr7zw-Protective-License";
+                shortName = "LicenseRef-tr7zw-Protective-License";
+                url = "https://github.com/tr7zw/PaperDoll/blob/1.18/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

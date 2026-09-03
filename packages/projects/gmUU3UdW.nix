@@ -278,23 +278,20 @@ let
         "neoforge-1.21.11" = _ZQz8SbYS;
         "default" = _ZQz8SbYS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ibo";
-            id = "gmUU3UdW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dual-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dual-License";
-                    shortName = "LicenseRef-Dual-License";
-                    url = "https://tangled.org/lesbian.skin/ibo#licensing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ibo";
+        id = "gmUU3UdW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dual-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dual-License";
+                shortName = "LicenseRef-Dual-License";
+                url = "https://tangled.org/lesbian.skin/ibo#licensing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

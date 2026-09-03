@@ -708,23 +708,20 @@ let
         "quilt-26.2" = _ZsKxsUNy;
         "default" = _ZsKxsUNy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "crop-and-kettle";
-            id = "hd2YH2vf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CnK-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CnK-License";
-                    shortName = "LicenseRef-CnK-License";
-                    url = "https://github.com/maybejake/crop-and-kettle/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "crop-and-kettle";
+        id = "hd2YH2vf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CnK-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CnK-License";
+                shortName = "LicenseRef-CnK-License";
+                url = "https://github.com/maybejake/crop-and-kettle/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

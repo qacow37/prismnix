@@ -209,23 +209,20 @@ let
         "neoforge-1.21.11" = _nfqfeKsL;
         "default" = _Jvu612ei;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mcqoy";
-            id = "tNmWwdI2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-EUPL-1.2";
-                    shortName = "LicenseRef-EUPL-1.2";
-                    url = "https://github.com/sisby-folk/mcqoy/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mcqoy";
+        id = "tNmWwdI2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-EUPL-1.2";
+                shortName = "LicenseRef-EUPL-1.2";
+                url = "https://github.com/sisby-folk/mcqoy/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

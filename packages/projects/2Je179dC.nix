@@ -83,23 +83,20 @@ let
         "neoforge-1.21.1" = _c959D4Q7;
         "default" = _Vi4tJ5ui;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "healight";
-            id = "2Je179dC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Obscuria-Ecosystem" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Obscuria-Ecosystem";
-                    shortName = "LicenseRef-Obscuria-Ecosystem";
-                    url = "https://obscurialithium.github.io/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "healight";
+        id = "2Je179dC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Obscuria-Ecosystem" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Obscuria-Ecosystem";
+                shortName = "LicenseRef-Obscuria-Ecosystem";
+                url = "https://obscurialithium.github.io/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

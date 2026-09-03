@@ -40,23 +40,20 @@ let
         "neoforge-1.18.2" = _3CybzLQo;
         "default" = _3CybzLQo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-unify";
-            id = "fmHq5iI6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Art" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-AND-ARR-Art";
-                    shortName = "LicenseRef-MIT-Code-AND-ARR-Art";
-                    url = "https://github.com/LopyLuna/Create-Unify/blob/1.19.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-unify";
+        id = "fmHq5iI6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Art" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-AND-ARR-Art";
+                shortName = "LicenseRef-MIT-Code-AND-ARR-Art";
+                url = "https://github.com/LopyLuna/Create-Unify/blob/1.19.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

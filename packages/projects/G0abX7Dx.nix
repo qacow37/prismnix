@@ -54,23 +54,20 @@ let
         "neoforge-1.20.1" = _Bu9TOBUn;
         "default" = _xlbMefo8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pureores";
-            id = "G0abX7Dx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-R-NR";
-                    shortName = "LicenseRef-MIT-R-NR";
-                    url = "https://github.com/purejosh/pureores/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pureores";
+        id = "G0abX7Dx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-R-NR";
+                shortName = "LicenseRef-MIT-R-NR";
+                url = "https://github.com/purejosh/pureores/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

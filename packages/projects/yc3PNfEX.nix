@@ -31,23 +31,20 @@ let
         "neoforge-1.21.1" = _W9RoOMDd;
         "default" = _W9RoOMDd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-trainer-doubles";
-            id = "yc3PNfEX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCOML-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MCOML-License";
-                    shortName = "LicenseRef-MCOML-License";
-                    url = "https://gitlab.com/srcmc/rct/mod/-/raw/1.21.1/LICENSE.txt?ref_type=heads";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-trainer-doubles";
+        id = "yc3PNfEX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCOML-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MCOML-License";
+                shortName = "LicenseRef-MCOML-License";
+                url = "https://gitlab.com/srcmc/rct/mod/-/raw/1.21.1/LICENSE.txt?ref_type=heads";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

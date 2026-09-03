@@ -1020,23 +1020,20 @@ let
         "neoforge-26.2" = _f7FUyEFf;
         "default" = _6eYscjy2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "polylib";
-            id = "6lvkzFFj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-4-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 4-Clause \"Original\" or \"Old\" License";
-                    shortName = "BSD-4-Clause";
-                    url = "https://github.com/CreeperHost/PolyLib/blob/release/1.20/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "polylib";
+        id = "6lvkzFFj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-4-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 4-Clause \"Original\" or \"Old\" License";
+                shortName = "BSD-4-Clause";
+                url = "https://github.com/CreeperHost/PolyLib/blob/release/1.20/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

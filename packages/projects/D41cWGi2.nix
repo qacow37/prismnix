@@ -72,23 +72,20 @@ let
         "quilt-1.20.1" = _DlDZPYTq;
         "default" = _zgzcpJKw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "all-the-fan-made-discs";
-            id = "D41cWGi2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ATFMD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ATFMD";
-                    shortName = "LicenseRef-ATFMD";
-                    url = "https://github.com/SuperNoobYT/AllTheFanMadeDiscs/blob/1.19.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "all-the-fan-made-discs";
+        id = "D41cWGi2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ATFMD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ATFMD";
+                shortName = "LicenseRef-ATFMD";
+                url = "https://github.com/SuperNoobYT/AllTheFanMadeDiscs/blob/1.19.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

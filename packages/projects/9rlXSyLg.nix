@@ -1315,23 +1315,20 @@ let
         "neoforge-26.2" = _tUALGrAr;
         "default" = _DZ9ekJtp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "crate-delight";
-            id = "9rlXSyLg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/axperty/cratedelight/blob/1.21.7-neoforge/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "crate-delight";
+        id = "9rlXSyLg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/axperty/cratedelight/blob/1.21.7-neoforge/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

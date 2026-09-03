@@ -189,23 +189,20 @@ let
         "minecraft-1.21.11" = _my36ym21;
         "default" = _my36ym21;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "emissive+particles";
-            id = "1QotTS7w";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-UandersonTest3-Licence-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-UandersonTest3-Licence-1.0";
-                    shortName = "LicenseRef-UandersonTest3-Licence-1.0";
-                    url = "https://github.com/UandersonTest3/Uanderson_Test3-Licence-1.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "emissive+particles";
+        id = "1QotTS7w";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-UandersonTest3-Licence-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-UandersonTest3-Licence-1.0";
+                shortName = "LicenseRef-UandersonTest3-Licence-1.0";
+                url = "https://github.com/UandersonTest3/Uanderson_Test3-Licence-1.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

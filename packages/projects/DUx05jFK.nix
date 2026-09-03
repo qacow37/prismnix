@@ -276,23 +276,20 @@ let
         "neoforge-1.21.1" = _k5zQJ1Hr;
         "default" = _k5zQJ1Hr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dmr";
-            id = "DUx05jFK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
-                    url = "https://github.com/Wyrmheart-Team/Dragon_Mounts_Remastered/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dmr";
+        id = "DUx05jFK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
+                shortName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
+                url = "https://github.com/Wyrmheart-Team/Dragon_Mounts_Remastered/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -95,23 +95,20 @@ let
         "forge-1.20.1" = _KlKH4KyH;
         "default" = _KlKH4KyH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ice-and-fire-delight";
-            id = "mGwAPysv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-My-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-My-license";
-                    shortName = "LicenseRef-My-license";
-                    url = "https://donne431.github.io/license.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ice-and-fire-delight";
+        id = "mGwAPysv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-My-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-My-license";
+                shortName = "LicenseRef-My-license";
+                url = "https://donne431.github.io/license.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

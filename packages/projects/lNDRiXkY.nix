@@ -1690,23 +1690,20 @@ let
         "quilt-26.2" = _dOfY3eZf;
         "default" = _e7ZWTYfe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "variants-and-ventures";
-            id = "lNDRiXkY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    shortName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    url = "https://raw.githubusercontent.com/Faboslav/variants-and-ventures/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "variants-and-ventures";
+        id = "lNDRiXkY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-ND-4.0";
+                shortName = "LicenseRef-CC-BY-NC-ND-4.0";
+                url = "https://raw.githubusercontent.com/Faboslav/variants-and-ventures/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

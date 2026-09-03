@@ -22,23 +22,20 @@ let
         "neoforge-1.21.1" = _ib2oDXXx;
         "default" = _ib2oDXXx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "projectile-ding";
-            id = "INLXGXFI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Opinionated-Queer-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Opinionated-Queer-License";
-                    shortName = "LicenseRef-Opinionated-Queer-License";
-                    url = "https://oql.avris.it/license?c=newt%7Chttps%3A%2F%2Fnewty.dev";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "projectile-ding";
+        id = "INLXGXFI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Opinionated-Queer-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Opinionated-Queer-License";
+                shortName = "LicenseRef-Opinionated-Queer-License";
+                url = "https://oql.avris.it/license?c=newt%7Chttps%3A%2F%2Fnewty.dev";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

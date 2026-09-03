@@ -65,23 +65,20 @@ let
         "neoforge-1.20.6" = _LWjbLdBp;
         "default" = _LWjbLdBp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dyeable-redstone-signal";
-            id = "Vj7kcqix";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 or later";
-                    shortName = "AGPL-3.0-or-later";
-                    url = "https://github.com/Viola-Siemens/Dyeable-Redstone-Signal/blob/dev/Forge-1.19.3/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dyeable-redstone-signal";
+        id = "Vj7kcqix";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 or later";
+                shortName = "AGPL-3.0-or-later";
+                url = "https://github.com/Viola-Siemens/Dyeable-Redstone-Signal/blob/dev/Forge-1.19.3/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -130,23 +130,20 @@ let
         "spigot-1.21.9" = _IaSnG3xO;
         "default" = _IaSnG3xO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "easyshopgui";
-            id = "VOlwRsK4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/turjo999-dev/Gui/blob/0be22c2b578df7ac18290251a38c1e252c413c62/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "easyshopgui";
+        id = "VOlwRsK4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/turjo999-dev/Gui/blob/0be22c2b578df7ac18290251a38c1e252c413c62/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

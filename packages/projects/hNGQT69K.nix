@@ -105,23 +105,20 @@ let
         "iris-1.21.11" = _NQzWkv5v;
         "default" = _NQzWkv5v;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pyvtron-shaders-official-modrinth";
-            id = "hNGQT69K";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pyvton-Copyright-Claw-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Pyvton-Copyright-Claw-License";
-                    shortName = "LicenseRef-Pyvton-Copyright-Claw-License";
-                    url = "https://pyvton.pages.dev/licenses/pccl";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pyvtron-shaders-official-modrinth";
+        id = "hNGQT69K";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pyvton-Copyright-Claw-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Pyvton-Copyright-Claw-License";
+                shortName = "LicenseRef-Pyvton-Copyright-Claw-License";
+                url = "https://pyvton.pages.dev/licenses/pccl";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -45,23 +45,20 @@ let
         "forge-1.21.1" = _Db2JSTpv;
         "default" = _Db2JSTpv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "worldsalads-opulence";
-            id = "jTo6y0oW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldSalad-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WorldSalad-License";
-                    shortName = "LicenseRef-WorldSalad-License";
-                    url = "https://github.com/WorldSaladDev/WorldSalad-License/blob/main/WorldSalad%20License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "worldsalads-opulence";
+        id = "jTo6y0oW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldSalad-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WorldSalad-License";
+                shortName = "LicenseRef-WorldSalad-License";
+                url = "https://github.com/WorldSaladDev/WorldSalad-License/blob/main/WorldSalad%20License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

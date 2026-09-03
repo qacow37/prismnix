@@ -2538,23 +2538,20 @@ let
         "minecraft-26.3-snapshot-7" = _ApJuHYos;
         "default" = _ApJuHYos;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pvp-zegarn";
-            id = "8kTnLnGL";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International--" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International--";
-                    shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International--";
-                    url = "https://creativecommons.org/licenses/by-nc/4.0/  ";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pvp-zegarn";
+        id = "8kTnLnGL";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International--" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International--";
+                shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International--";
+                url = "https://creativecommons.org/licenses/by-nc/4.0/  ";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

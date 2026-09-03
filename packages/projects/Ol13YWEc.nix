@@ -112,23 +112,20 @@ let
         "quilt-1.21.4" = _g3y3Xcut;
         "default" = _GMtsMgrP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "arte";
-            id = "Ol13YWEc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Apache-NON-AI-License-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Apache-NON-AI-License-2.0";
-                    shortName = "LicenseRef-Apache-NON-AI-License-2.0";
-                    url = "https://github.com/ShardMC/Arte/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "arte";
+        id = "Ol13YWEc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Apache-NON-AI-License-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Apache-NON-AI-License-2.0";
+                shortName = "LicenseRef-Apache-NON-AI-License-2.0";
+                url = "https://github.com/ShardMC/Arte/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

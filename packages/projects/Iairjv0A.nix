@@ -743,23 +743,20 @@ let
         "fabric-1.21.1" = _8yUdFsqR;
         "default" = _8yUdFsqR;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stellarview";
-            id = "Iairjv0A";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License";
-                    shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stellarview";
+        id = "Iairjv0A";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License";
+                shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-ShareAlike-4.0-International-License";
+                url = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

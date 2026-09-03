@@ -513,23 +513,20 @@ let
         "fabric-26.1.2" = _eRcHU9Jz;
         "default" = _eRcHU9Jz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "packcore";
-            id = "V3FnL7QV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    url = "https://github.com/KdGaming0/PackCore/blob/v4/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "packcore";
+        id = "V3FnL7QV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                url = "https://github.com/KdGaming0/PackCore/blob/v4/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

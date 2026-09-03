@@ -86,23 +86,20 @@ let
         "fabric-26.2" = _dIg3Pu1U;
         "default" = _dIg3Pu1U;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "eposs-unlimited-enchantments";
-            id = "6YplFU9p";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://license.eposs.dev/MIT";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "eposs-unlimited-enchantments";
+        id = "6YplFU9p";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://license.eposs.dev/MIT";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

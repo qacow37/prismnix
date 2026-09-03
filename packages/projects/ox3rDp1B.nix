@@ -343,23 +343,20 @@ let
         "quilt-1.20.4" = _vUOHzs12;
         "default" = _4pyW4Uba;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bedrockify";
-            id = "ox3rDp1B";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-linking-exception" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
-                    shortName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
-                    url = "https://github.com/juancarloscp52/BedrockIfy/blob/1.16.2%2B/stable/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bedrockify";
+        id = "ox3rDp1B";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-linking-exception" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-linking-exception";
+                url = "https://github.com/juancarloscp52/BedrockIfy/blob/1.16.2%2B/stable/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

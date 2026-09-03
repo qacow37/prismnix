@@ -318,23 +318,20 @@ let
         "neoforge-1.21.1" = _pGYf4OZX;
         "default" = _uVC8Dcpn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "beatcraft";
-            id = "15cEUjRz";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v2.0 only";
-                    shortName = "GPL-2.0-only";
-                    url = "https://github.com/Swifter1243/BeatCraft/blob/development/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "beatcraft";
+        id = "15cEUjRz";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v2.0 only";
+                shortName = "GPL-2.0-only";
+                url = "https://github.com/Swifter1243/BeatCraft/blob/development/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

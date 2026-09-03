@@ -406,23 +406,20 @@ let
         "neoforge-26.2" = _VSLetlPO;
         "default" = _VSLetlPO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "just-zoom";
-            id = "iAiqcykM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSLv2";
-                    shortName = "LicenseRef-DSMSLv2";
-                    url = "https://github.com/Keksuccino/JustZoom/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "just-zoom";
+        id = "iAiqcykM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSLv2";
+                shortName = "LicenseRef-DSMSLv2";
+                url = "https://github.com/Keksuccino/JustZoom/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

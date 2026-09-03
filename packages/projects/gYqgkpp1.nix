@@ -75,23 +75,20 @@ let
         "minecraft-1.21.8" = _wUSC1S7r;
         "default" = _eNbqBQx2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "palamod-program-art";
-            id = "gYqgkpp1";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOLEA-PIXEL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SOLEA-PIXEL";
-                    shortName = "LicenseRef-SOLEA-PIXEL";
-                    url = "https://soleapixel.com/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "palamod-program-art";
+        id = "gYqgkpp1";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOLEA-PIXEL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SOLEA-PIXEL";
+                shortName = "LicenseRef-SOLEA-PIXEL";
+                url = "https://soleapixel.com/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

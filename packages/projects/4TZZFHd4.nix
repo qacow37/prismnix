@@ -20,23 +20,20 @@ let
         "fabric-1.21.10" = _U4SR7oBh;
         "default" = _U4SR7oBh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hat-club";
-            id = "4TZZFHd4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple";
-                    shortName = "LicenseRef-Multiple";
-                    url = "https://pastebin.com/raw/EJ8ckse1";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hat-club";
+        id = "4TZZFHd4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple";
+                shortName = "LicenseRef-Multiple";
+                url = "https://pastebin.com/raw/EJ8ckse1";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

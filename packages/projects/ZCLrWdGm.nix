@@ -167,23 +167,20 @@ let
         "neoforge-1.20.1" = _mWjqegPA;
         "default" = _mWjqegPA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "yttr";
-            id = "ZCLrWdGm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-with-ARR-Assets" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-with-ARR-Assets";
-                    shortName = "LicenseRef-MIT-Code-with-ARR-Assets";
-                    url = "https://git.sleeping.town/unascribed-mods/Yttr/src/branch/1.20.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "yttr";
+        id = "ZCLrWdGm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-with-ARR-Assets" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-with-ARR-Assets";
+                shortName = "LicenseRef-MIT-Code-with-ARR-Assets";
+                url = "https://git.sleeping.town/unascribed-mods/Yttr/src/branch/1.20.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

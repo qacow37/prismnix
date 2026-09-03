@@ -48,23 +48,20 @@ let
         "minecraft-1.21.11" = _HnCTcKTo;
         "default" = _HnCTcKTo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "light-leak";
-            id = "K8EDf11b";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-and-Conditions-for-Minecraft-resource-packs-by-DarkSkyCube" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terms-and-Conditions-for-Minecraft-resource-packs-by-DarkSkyCube";
-                    shortName = "LicenseRef-Terms-and-Conditions-for-Minecraft-resource-packs-by-DarkSkyCube";
-                    url = "https://gist.github.com/Ancientino/42b10cb503be7a6aa765920cb298d813";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "light-leak";
+        id = "K8EDf11b";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-and-Conditions-for-Minecraft-resource-packs-by-DarkSkyCube" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terms-and-Conditions-for-Minecraft-resource-packs-by-DarkSkyCube";
+                shortName = "LicenseRef-Terms-and-Conditions-for-Minecraft-resource-packs-by-DarkSkyCube";
+                url = "https://gist.github.com/Ancientino/42b10cb503be7a6aa765920cb298d813";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

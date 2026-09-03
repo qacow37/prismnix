@@ -66,23 +66,20 @@ let
         "fabric-1.21.11" = _HQgj3qVS;
         "default" = _HQgj3qVS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "totemvignette";
-            id = "SautLYxp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17s-Project-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fy17s-Project-License";
-                    shortName = "LicenseRef-Fy17s-Project-License";
-                    url = "https://github.com/FySjutton/TotemVignette/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "totemvignette";
+        id = "SautLYxp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17s-Project-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fy17s-Project-License";
+                shortName = "LicenseRef-Fy17s-Project-License";
+                url = "https://github.com/FySjutton/TotemVignette/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

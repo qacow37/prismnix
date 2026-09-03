@@ -42,23 +42,20 @@ let
         "neoforge-1.21.4" = _L6Ziv29x;
         "default" = _L6Ziv29x;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chrysalis";
-            id = "rlnjZCZJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chrysalis-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Chrysalis-License";
-                    shortName = "LicenseRef-Chrysalis-License";
-                    url = "https://github.com/Sydokiddo/chrysalis/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chrysalis";
+        id = "rlnjZCZJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chrysalis-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Chrysalis-License";
+                shortName = "LicenseRef-Chrysalis-License";
+                url = "https://github.com/Sydokiddo/chrysalis/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

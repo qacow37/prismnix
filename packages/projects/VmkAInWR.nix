@@ -219,23 +219,20 @@ let
         "neoforge-26.2" = _CoMCpce0;
         "default" = _CoMCpce0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "llama-steeds";
-            id = "VmkAInWR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Zlib" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "zlib License";
-                    shortName = "Zlib";
-                    url = "https://github.com/justinhschaaf/LlamaSteeds/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "llama-steeds";
+        id = "VmkAInWR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Zlib" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "zlib License";
+                shortName = "Zlib";
+                url = "https://github.com/justinhschaaf/LlamaSteeds/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

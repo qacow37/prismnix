@@ -595,23 +595,20 @@ let
         "spigot-1.21.11" = _mdnMyrqj;
         "default" = _hLrtWvuu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "faster-paths";
-            id = "dDo4Wd28";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CSL-1.0";
-                    shortName = "LicenseRef-CSL-1.0";
-                    url = "https://github.com/Charken-Inc/Datapacks/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "faster-paths";
+        id = "dDo4Wd28";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CSL-1.0";
+                shortName = "LicenseRef-CSL-1.0";
+                url = "https://github.com/Charken-Inc/Datapacks/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

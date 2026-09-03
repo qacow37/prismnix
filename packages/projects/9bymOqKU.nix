@@ -72,23 +72,20 @@ let
         "neoforge-1.20.1" = _GIFN97Vt;
         "default" = _GIFN97Vt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "voided-enlightenment";
-            id = "9bymOqKU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Avoiding-Leeching-License-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Avoiding-Leeching-License-v1.1";
-                    shortName = "LicenseRef-Avoiding-Leeching-License-v1.1";
-                    url = "https://github.com/VoidLeech/VoidedEnlightenment/blob/1.20.1/dev-5.0.14/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "voided-enlightenment";
+        id = "9bymOqKU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Avoiding-Leeching-License-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Avoiding-Leeching-License-v1.1";
+                shortName = "LicenseRef-Avoiding-Leeching-License-v1.1";
+                url = "https://github.com/VoidLeech/VoidedEnlightenment/blob/1.20.1/dev-5.0.14/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

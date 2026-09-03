@@ -48,23 +48,20 @@ let
         "minecraft-1.21.11" = _iQIDhNeP;
         "default" = _iQIDhNeP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xplus-font-pack";
-            id = "NxHhG9r1";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OFL-1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "SIL Open Font License 1.1";
-                    shortName = "OFL-1.1";
-                    url = "https://openfontlicense.org/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xplus-font-pack";
+        id = "NxHhG9r1";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OFL-1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "SIL Open Font License 1.1";
+                shortName = "OFL-1.1";
+                url = "https://openfontlicense.org/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

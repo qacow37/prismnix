@@ -55,23 +55,20 @@ let
         "fabric-1.21.11" = _VND5S5sX;
         "default" = _VND5S5sX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "weird-wares";
-            id = "8YhM0jrV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-The-Lambda-License";
-                    shortName = "LicenseRef-The-Lambda-License";
-                    url = "https://sylv.gay/licenses/lambda/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "weird-wares";
+        id = "8YhM0jrV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-The-Lambda-License";
+                shortName = "LicenseRef-The-Lambda-License";
+                url = "https://sylv.gay/licenses/lambda/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

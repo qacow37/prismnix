@@ -134,23 +134,20 @@ let
         "neoforge-1.21.1" = _EssE56Wf;
         "default" = _dq128fRk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "satisfying-buttons";
-            id = "Zf8HMFM5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Tonis-MMC-License";
-                    shortName = "LicenseRef-Tonis-MMC-License";
-                    url = "https://gist.githubusercontent.com/nthxny/42d45dd915bb19af3789d498ef13b022/raw/192fc5295c5861a0df078a45fa677e7fa5596516/gistfile1.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "satisfying-buttons";
+        id = "Zf8HMFM5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Tonis-MMC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Tonis-MMC-License";
+                shortName = "LicenseRef-Tonis-MMC-License";
+                url = "https://gist.githubusercontent.com/nthxny/42d45dd915bb19af3789d498ef13b022/raw/192fc5295c5861a0df078a45fa677e7fa5596516/gistfile1.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

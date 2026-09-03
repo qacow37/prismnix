@@ -36,23 +36,20 @@ let
         "neoforge-1.21.11" = _BKMRfQ4P;
         "default" = _BKMRfQ4P;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wet-backapacks";
-            id = "lgqEhwGc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v2.1 or later";
-                    shortName = "LGPL-2.1-or-later";
-                    url = " https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wet-backapacks";
+        id = "lgqEhwGc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v2.1 or later";
+                shortName = "LGPL-2.1-or-later";
+                url = " https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

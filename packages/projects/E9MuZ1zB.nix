@@ -91,23 +91,20 @@ let
         "fabric-1.18.2" = _ZdM7sEvK;
         "default" = _vcpBjegc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-power-loader-fabric";
-            id = "E9MuZ1zB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/hlysine/create_power_loader/blob/fabric/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-power-loader-fabric";
+        id = "E9MuZ1zB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/hlysine/create_power_loader/blob/fabric/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

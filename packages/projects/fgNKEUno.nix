@@ -407,23 +407,20 @@ let
         "fabric-26.2" = _8D7K0Cwj;
         "default" = _8D7K0Cwj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "portable-storage";
-            id = "fgNKEUno";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/LoosePrince/portable-storage/blob/v1.3.3/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "portable-storage";
+        id = "fgNKEUno";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/LoosePrince/portable-storage/blob/v1.3.3/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

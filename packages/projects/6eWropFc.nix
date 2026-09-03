@@ -280,23 +280,20 @@ let
         "neoforge-1.21.1" = _Sf76K57m;
         "default" = _Sf76K57m;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wandering-wizardry";
-            id = "6eWropFc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MPL-with-ARR-assets" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MPL-with-ARR-assets";
-                    shortName = "LicenseRef-MPL-with-ARR-assets";
-                    url = "https://github.com/Sweet-Berry-Collective/Wandering-Wizardry/blob/1.20/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wandering-wizardry";
+        id = "6eWropFc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MPL-with-ARR-assets" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MPL-with-ARR-assets";
+                shortName = "LicenseRef-MPL-with-ARR-assets";
+                url = "https://github.com/Sweet-Berry-Collective/Wandering-Wizardry/blob/1.20/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

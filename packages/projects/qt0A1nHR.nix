@@ -51,23 +51,20 @@ let
         "quilt-1.20.4" = _e2cYRJL3;
         "default" = _e2cYRJL3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "extrade-origins-addon";
-            id = "qt0A1nHR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Provismet/ExtraDE-Origins-Addon/blob/1.19.3/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "extrade-origins-addon";
+        id = "qt0A1nHR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Provismet/ExtraDE-Origins-Addon/blob/1.19.3/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

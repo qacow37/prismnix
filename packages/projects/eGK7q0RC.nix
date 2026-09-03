@@ -55,23 +55,20 @@ let
         "fabric-26.2" = _8HtPUNe0;
         "default" = _8HtPUNe0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dslp";
-            id = "eGK7q0RC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr " MIT-0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT No Attribution";
-                    shortName = " MIT-0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dslp";
+        id = "eGK7q0RC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr " MIT-0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT No Attribution";
+                shortName = " MIT-0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -17,23 +17,20 @@ let
         "minecraft-1.20.6" = _HNZVdBVF;
         "default" = _HNZVdBVF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "warden-totem-2";
-            id = "Gssg1O28";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Zlib" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "zlib License";
-                    shortName = "Zlib";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "warden-totem-2";
+        id = "Gssg1O28";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Zlib" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "zlib License";
+                shortName = "Zlib";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

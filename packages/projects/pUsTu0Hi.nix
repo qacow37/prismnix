@@ -212,23 +212,20 @@ let
         "minecraft-26.1" = _igK5lpoh;
         "default" = _igK5lpoh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tools-and-utils";
-            id = "pUsTu0Hi";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-of-Use-in-Description" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terms-of-Use-in-Description";
-                    shortName = "LicenseRef-Terms-of-Use-in-Description";
-                    url = "https://modrinth.com/resourcepack/tools-and-utils";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tools-and-utils";
+        id = "pUsTu0Hi";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-of-Use-in-Description" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terms-of-Use-in-Description";
+                shortName = "LicenseRef-Terms-of-Use-in-Description";
+                url = "https://modrinth.com/resourcepack/tools-and-utils";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

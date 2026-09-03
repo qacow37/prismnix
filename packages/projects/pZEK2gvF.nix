@@ -29,23 +29,20 @@ let
         "neoforge-1.21.1" = _Rclw6KAf;
         "default" = _Rclw6KAf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sg-economy-api";
-            id = "pZEK2gvF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SirGrantd-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SirGrantd-License";
-                    shortName = "LicenseRef-SirGrantd-License";
-                    url = "https://github.com/SirGrantd/MagicCoins?tab=License-1-ov-file#sirgrantd-license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sg-economy-api";
+        id = "pZEK2gvF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SirGrantd-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SirGrantd-License";
+                shortName = "LicenseRef-SirGrantd-License";
+                url = "https://github.com/SirGrantd/MagicCoins?tab=License-1-ov-file#sirgrantd-license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

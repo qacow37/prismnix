@@ -138,23 +138,20 @@ let
         "forge-1.20.1" = _4opC9DbH;
         "default" = _lM9aiPSW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hazen-n-stuff";
-            id = "I94FeWYD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield";
-                    shortName = "LicenseRef-Polyform-Shield";
-                    url = "https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Shield-1.0.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hazen-n-stuff";
+        id = "I94FeWYD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield";
+                shortName = "LicenseRef-Polyform-Shield";
+                url = "https://github.com/polyformproject/polyform-licenses/blob/1.0.0/PolyForm-Shield-1.0.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

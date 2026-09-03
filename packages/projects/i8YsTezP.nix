@@ -11,23 +11,20 @@ let
         "fabric-1.20.1" = _rsccCEM5;
         "default" = _rsccCEM5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "portachest";
-            id = "i8YsTezP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/ZLT9/portachest/blob/mc1.20.1/fabric/dev/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "portachest";
+        id = "i8YsTezP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/ZLT9/portachest/blob/mc1.20.1/fabric/dev/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

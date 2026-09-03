@@ -119,23 +119,20 @@ let
         "neoforge-1.21.9" = _E69c7frU;
         "default" = _E69c7frU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "valhelsia-structures";
-            id = "T21szC0a";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Valhelsia-Structures-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Valhelsia-Structures-License";
-                    shortName = "LicenseRef-Valhelsia-Structures-License";
-                    url = "https://github.com/ValhelsiaTeam/Valhelsia-Structures/blob/1.19/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "valhelsia-structures";
+        id = "T21szC0a";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Valhelsia-Structures-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Valhelsia-Structures-License";
+                shortName = "LicenseRef-Valhelsia-Structures-License";
+                url = "https://github.com/ValhelsiaTeam/Valhelsia-Structures/blob/1.19/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

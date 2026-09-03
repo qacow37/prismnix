@@ -357,23 +357,20 @@ let
         "neoforge-1.21.1" = _UjX6dr61;
         "default" = _UjX6dr61;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create";
-            id = "LNytGWDc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Create-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Create-Mod-License";
-                    shortName = "LicenseRef-Create-Mod-License";
-                    url = "https://github.com/Creators-of-Create/Create/blob/HEAD/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create";
+        id = "LNytGWDc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Create-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Create-Mod-License";
+                shortName = "LicenseRef-Create-Mod-License";
+                url = "https://github.com/Creators-of-Create/Create/blob/HEAD/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

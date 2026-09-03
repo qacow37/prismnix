@@ -266,23 +266,20 @@ let
         "quilt-1.21.10" = _FG8tlvt2;
         "default" = _FG8tlvt2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "i-want-it-earlier";
-            id = "5VeBsBSL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Onako2/i-want-it-earlier/blob/1.22/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "i-want-it-earlier";
+        id = "5VeBsBSL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Onako2/i-want-it-earlier/blob/1.22/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -4134,23 +4134,20 @@ let
         "babric-b1.7.3" = _2I1m95aJ;
         "default" = _iiF6U3Ne;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "entityculling";
-            id = "NNAgCjsB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-tr7zw-Protective-License";
-                    shortName = "LicenseRef-tr7zw-Protective-License";
-                    url = "https://github.com/tr7zw/EntityCulling/blob/1.18/LICENSE-EntityCulling";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "entityculling";
+        id = "NNAgCjsB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-tr7zw-Protective-License";
+                shortName = "LicenseRef-tr7zw-Protective-License";
+                url = "https://github.com/tr7zw/EntityCulling/blob/1.18/LICENSE-EntityCulling";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

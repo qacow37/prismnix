@@ -110,23 +110,20 @@ let
         "purpur-26.1.2" = _N0NZAO47;
         "default" = _N0NZAO47;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "yvtils_mm";
-            id = "XpSkXqAa";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-YV-MPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-YV-MPL";
-                    shortName = "LicenseRef-YV-MPL";
-                    url = "https://yvtils.net/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "yvtils_mm";
+        id = "XpSkXqAa";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-YV-MPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-YV-MPL";
+                shortName = "LicenseRef-YV-MPL";
+                url = "https://yvtils.net/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

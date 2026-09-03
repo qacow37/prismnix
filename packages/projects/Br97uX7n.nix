@@ -65,23 +65,20 @@ let
         "legacy-fabric-1.6.4" = _roHGIkU3;
         "default" = _roHGIkU3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nightmare-mode-btw";
-            id = "Br97uX7n";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://choosealicense.com/licenses/mit/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nightmare-mode-btw";
+        id = "Br97uX7n";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://choosealicense.com/licenses/mit/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

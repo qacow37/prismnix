@@ -423,23 +423,20 @@ let
         "neoforge-26.1.2" = _Hx8rhREg;
         "default" = _Hx8rhREg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "alcocraft";
-            id = "6t2MdNbo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AlcoCraft-Plus-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AlcoCraft-Plus-license";
-                    shortName = "LicenseRef-AlcoCraft-Plus-license";
-                    url = "https://github.com/NexoraMC/AlcoCraft-Plus/blob/1.21.8/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "alcocraft";
+        id = "6t2MdNbo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AlcoCraft-Plus-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AlcoCraft-Plus-license";
+                shortName = "LicenseRef-AlcoCraft-Plus-license";
+                url = "https://github.com/NexoraMC/AlcoCraft-Plus/blob/1.21.8/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -69,23 +69,20 @@ let
         "fabric-26.1.2" = _EGgt1hRo;
         "default" = _EGgt1hRo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "weather-notifier";
-            id = "cKD8Hi22";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17-Project-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fy17-Project-License";
-                    shortName = "LicenseRef-Fy17-Project-License";
-                    url = "https://github.com/FySjutton/WeatherNotifier/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "weather-notifier";
+        id = "cKD8Hi22";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17-Project-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fy17-Project-License";
+                shortName = "LicenseRef-Fy17-Project-License";
+                url = "https://github.com/FySjutton/WeatherNotifier/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

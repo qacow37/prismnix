@@ -121,23 +121,20 @@ let
         "forge-1.20.1" = _2pC7hGuX;
         "default" = _2pC7hGuX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "the-box-of-horrors";
-            id = "Nt0wLqt5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-";
-                    shortName = "LicenseRef-";
-                    url = "https://creativecommons.org/licenses/by-sa/3.0/legalcode";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the-box-of-horrors";
+        id = "Nt0wLqt5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-";
+                shortName = "LicenseRef-";
+                url = "https://creativecommons.org/licenses/by-sa/3.0/legalcode";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

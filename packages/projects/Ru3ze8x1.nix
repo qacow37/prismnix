@@ -180,23 +180,20 @@ let
         "folia-26.2" = _CbvuqWkh;
         "default" = _CbvuqWkh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chunker";
-            id = "Ru3ze8x1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LICENSE" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LICENSE";
-                    shortName = "LicenseRef-LICENSE";
-                    url = "https://github.com/DavidS-Repo/chunker/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chunker";
+        id = "Ru3ze8x1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LICENSE" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LICENSE";
+                shortName = "LicenseRef-LICENSE";
+                url = "https://github.com/DavidS-Repo/chunker/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

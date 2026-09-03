@@ -307,23 +307,20 @@ let
         "datapack-26.2" = _uxUF2h4B;
         "default" = _uxUF2h4B;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "structory-towers";
-            id = "j3FONRYr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Stardust-Labs-License";
-                    shortName = "LicenseRef-Stardust-Labs-License";
-                    url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "structory-towers";
+        id = "j3FONRYr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Stardust-Labs-License";
+                shortName = "LicenseRef-Stardust-Labs-License";
+                url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

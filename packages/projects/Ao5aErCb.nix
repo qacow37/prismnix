@@ -147,23 +147,20 @@ let
         "neoforge-1.21.1" = _MpHBvqbX;
         "default" = _MpHBvqbX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "limited-respawns";
-            id = "Ao5aErCb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    url = "https://polyformproject.org/licenses/shield/1.0.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "limited-respawns";
+        id = "Ao5aErCb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                url = "https://polyformproject.org/licenses/shield/1.0.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

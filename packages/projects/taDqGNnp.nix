@@ -86,23 +86,20 @@ let
         "quilt-1.20.1" = _zr53cHf4;
         "default" = _iQxrByRH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "night-vision-helmets";
-            id = "taDqGNnp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MomentariyModder-License";
-                    shortName = "LicenseRef-MomentariyModder-License";
-                    url = "https://momentariymodder.com/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "night-vision-helmets";
+        id = "taDqGNnp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MomentariyModder-License";
+                shortName = "LicenseRef-MomentariyModder-License";
+                url = "https://momentariymodder.com/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

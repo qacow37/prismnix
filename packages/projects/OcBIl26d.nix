@@ -86,23 +86,20 @@ let
         "fabric-1.21.10" = _nyajjD3L;
         "default" = _nyajjD3L;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "adaptivehud";
-            id = "OcBIl26d";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AdaptiveHUD-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AdaptiveHUD-License";
-                    shortName = "LicenseRef-AdaptiveHUD-License";
-                    url = "https://github.com/FySjutton/AdaptiveHUD/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "adaptivehud";
+        id = "OcBIl26d";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AdaptiveHUD-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AdaptiveHUD-License";
+                shortName = "LicenseRef-AdaptiveHUD-License";
+                url = "https://github.com/FySjutton/AdaptiveHUD/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

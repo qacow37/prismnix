@@ -962,23 +962,20 @@ let
         "fabric-26.2" = _oeI1vRts;
         "default" = _oeI1vRts;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "polyplus";
-            id = "Iw9mZi4a";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield-1.0.0";
-                    shortName = "LicenseRef-Polyform-Shield-1.0.0";
-                    url = "https://github.com/Polyfrost/PolyPlus/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "polyplus";
+        id = "Iw9mZi4a";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield-1.0.0";
+                shortName = "LicenseRef-Polyform-Shield-1.0.0";
+                url = "https://github.com/Polyfrost/PolyPlus/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

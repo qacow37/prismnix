@@ -1428,23 +1428,20 @@ let
         "neoforge-26.2" = _O6lSgZlw;
         "default" = _L5nVwMw9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cc-tweaked";
-            id = "gu7yAYhd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CCPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CCPL";
-                    shortName = "LicenseRef-CCPL";
-                    url = "https://github.com/cc-tweaked/CC-Tweaked/blob/mc-1.16.x/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cc-tweaked";
+        id = "gu7yAYhd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CCPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CCPL";
+                shortName = "LicenseRef-CCPL";
+                url = "https://github.com/cc-tweaked/CC-Tweaked/blob/mc-1.16.x/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

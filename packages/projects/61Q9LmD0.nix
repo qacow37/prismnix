@@ -70,23 +70,20 @@ let
         "neoforge-1.21.1" = _YLTgy2LD;
         "default" = _McvP7tY5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hybrid-blocks";
-            id = "61Q9LmD0";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-AND-ARR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-AND-ARR";
-                    shortName = "LicenseRef-MIT-AND-ARR";
-                    url = "https://github.com/hybridlabs/hybrid-blocks/blob/1.20/src/main/resources/fabric.mod.json#L19";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hybrid-blocks";
+        id = "61Q9LmD0";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-AND-ARR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-AND-ARR";
+                shortName = "LicenseRef-MIT-AND-ARR";
+                url = "https://github.com/hybridlabs/hybrid-blocks/blob/1.20/src/main/resources/fabric.mod.json#L19";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

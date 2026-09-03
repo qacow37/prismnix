@@ -209,23 +209,20 @@ let
         "neoforge-1.21.1" = _OOT4E7C7;
         "default" = _OOT4E7C7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "starfield-pastoral";
-            id = "i54Drdq8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-StardewCraft-Custom-Non-Commercial-Fan-Project-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-StardewCraft-Custom-Non-Commercial-Fan-Project-License";
-                    shortName = "LicenseRef-StardewCraft-Custom-Non-Commercial-Fan-Project-License";
-                    url = "https://github.com/ChangQingElysium/Starfield-Pastoral/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "starfield-pastoral";
+        id = "i54Drdq8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-StardewCraft-Custom-Non-Commercial-Fan-Project-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-StardewCraft-Custom-Non-Commercial-Fan-Project-License";
+                shortName = "LicenseRef-StardewCraft-Custom-Non-Commercial-Fan-Project-License";
+                url = "https://github.com/ChangQingElysium/Starfield-Pastoral/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

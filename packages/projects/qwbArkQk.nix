@@ -244,23 +244,20 @@ let
         "quilt-1.20.1" = _RUk2PHO1;
         "default" = _d67ufvNS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-candlelight-farmcharm-compat";
-            id = "qwbArkQk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/satisfyu/Candlelight/blob/architectury-1.20.1-farm%26charm/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-candlelight-farmcharm-compat";
+        id = "qwbArkQk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/satisfyu/Candlelight/blob/architectury-1.20.1-farm%26charm/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

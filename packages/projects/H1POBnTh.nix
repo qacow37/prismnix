@@ -592,23 +592,20 @@ let
         "neoforge-26.2" = _V2HcfXx4;
         "default" = _V2HcfXx4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "deadly-deadly-dungeon";
-            id = "H1POBnTh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-Limited-Rights-Granted" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License-Limited-Rights-Granted";
-                    shortName = "LicenseRef-Custom-License-Limited-Rights-Granted";
-                    url = "https://github.com/Caesius-Leo/Deadly_Deadly_Dungeon_Feedback/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "deadly-deadly-dungeon";
+        id = "H1POBnTh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-Limited-Rights-Granted" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License-Limited-Rights-Granted";
+                shortName = "LicenseRef-Custom-License-Limited-Rights-Granted";
+                url = "https://github.com/Caesius-Leo/Deadly_Deadly_Dungeon_Feedback/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

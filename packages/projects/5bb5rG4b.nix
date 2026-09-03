@@ -193,23 +193,20 @@ let
         "neoforge-26.2" = _IdYg6dRY;
         "default" = _IdYg6dRY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "blaha-replushed";
-            id = "5bb5rG4b";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Unlicense";
-                    shortName = "LicenseRef-Unlicense";
-                    url = "https://raw.githubusercontent.com/hibiii/Blahaj/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "blaha-replushed";
+        id = "5bb5rG4b";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Unlicense";
+                shortName = "LicenseRef-Unlicense";
+                url = "https://raw.githubusercontent.com/hibiii/Blahaj/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

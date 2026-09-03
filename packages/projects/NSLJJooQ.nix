@@ -192,23 +192,20 @@ let
         "quilt-1.19.4" = _f7MymOkk;
         "default" = _DXW8m2gO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "worldedit-cui";
-            id = "NSLJJooQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Eclipse Public License 2.0";
-                    shortName = "EPL-2.0";
-                    url = "https://github.com/EngineHub/WorldEditCUI/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "worldedit-cui";
+        id = "NSLJJooQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Eclipse Public License 2.0";
+                shortName = "EPL-2.0";
+                url = "https://github.com/EngineHub/WorldEditCUI/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

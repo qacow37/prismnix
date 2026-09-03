@@ -332,23 +332,20 @@ let
         "neoforge-1.21.1" = _T26aJH7E;
         "default" = _T26aJH7E;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tempad";
-            id = "gKNwt7xu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terrarium-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terrarium-License";
-                    shortName = "LicenseRef-Terrarium-License";
-                    url = "https://github.com/terrarium-earth/Tempad/blob/1.20.x/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tempad";
+        id = "gKNwt7xu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terrarium-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terrarium-License";
+                shortName = "LicenseRef-Terrarium-License";
+                url = "https://github.com/terrarium-earth/Tempad/blob/1.20.x/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

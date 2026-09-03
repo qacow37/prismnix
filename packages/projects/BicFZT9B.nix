@@ -29,23 +29,20 @@ let
         "fabric-1.20.1" = _gBbDvwad;
         "default" = _gBbDvwad;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "el-and-ls-dye-mod";
-            id = "BicFZT9B";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Tellios-Projects/Mint/blob/1a89362105f4efb1635b4a6dfb4d9fe5e4f634ec/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "el-and-ls-dye-mod";
+        id = "BicFZT9B";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Tellios-Projects/Mint/blob/1a89362105f4efb1635b4a6dfb4d9fe5e4f634ec/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

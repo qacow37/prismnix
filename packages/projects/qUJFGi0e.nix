@@ -108,23 +108,20 @@ let
         "forge-1.20.1" = _uiEdwcsv;
         "default" = _uiEdwcsv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gemini_live_lib";
-            id = "qUJFGi0e";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CoFHDontBeaJerkLicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CoFHDontBeaJerkLicense";
-                    shortName = "LicenseRef-CoFHDontBeaJerkLicense";
-                    url = "https://github.com/sshcrack/talking-colonists/blob/neoforge-1.21.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gemini_live_lib";
+        id = "qUJFGi0e";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CoFHDontBeaJerkLicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CoFHDontBeaJerkLicense";
+                shortName = "LicenseRef-CoFHDontBeaJerkLicense";
+                url = "https://github.com/sshcrack/talking-colonists/blob/neoforge-1.21.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

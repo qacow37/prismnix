@@ -62,23 +62,20 @@ let
         "minecraft-26.2" = _bArAb3Ll;
         "default" = _bArAb3Ll;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rabbit-villagers";
-            id = "vMyC2JTv";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License." {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
-                    shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
-                    url = "https://creativecommons.org/licenses/by/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rabbit-villagers";
+        id = "vMyC2JTv";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License." {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
+                shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
+                url = "https://creativecommons.org/licenses/by/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

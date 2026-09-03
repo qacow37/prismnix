@@ -86,23 +86,20 @@ let
         "forge-1.20.1" = _LPIkHMSA;
         "default" = _th8ZgKbB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "theurgy-kubejs";
-            id = "oXj2r26F";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/klikli-dev/theurgy-kubejs/blob/main/README.md#licensing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "theurgy-kubejs";
+        id = "oXj2r26F";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/klikli-dev/theurgy-kubejs/blob/main/README.md#licensing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

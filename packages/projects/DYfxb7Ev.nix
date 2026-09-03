@@ -93,23 +93,20 @@ let
         "fabric-26.1.2" = _w66KVrGl;
         "default" = _w66KVrGl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "anti-item-break";
-            id = "DYfxb7Ev";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntiItemBreak-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AntiItemBreak-License";
-                    shortName = "LicenseRef-AntiItemBreak-License";
-                    url = "https://github.com/FySjutton/AntiItemBreak/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "anti-item-break";
+        id = "DYfxb7Ev";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntiItemBreak-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AntiItemBreak-License";
+                shortName = "LicenseRef-AntiItemBreak-License";
+                url = "https://github.com/FySjutton/AntiItemBreak/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

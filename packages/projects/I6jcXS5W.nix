@@ -56,23 +56,20 @@ let
         "neoforge-1.21.6" = _pmx8uz1v;
         "default" = _pmx8uz1v;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "angle-ring";
-            id = "I6jcXS5W";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dual-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dual-License";
-                    shortName = "LicenseRef-Dual-License";
-                    url = "https://tangled.sh/@lesbian.skin/angle_ring#licensing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "angle-ring";
+        id = "I6jcXS5W";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dual-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dual-License";
+                shortName = "LicenseRef-Dual-License";
+                url = "https://tangled.sh/@lesbian.skin/angle_ring#licensing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

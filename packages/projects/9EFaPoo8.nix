@@ -450,23 +450,20 @@ let
         "quilt-26.2" = _ItSnSx09;
         "default" = _ItSnSx09;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "amethyst-nether";
-            id = "9EFaPoo8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Amethystians-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-The-Amethystians-License";
-                    shortName = "LicenseRef-The-Amethystians-License";
-                    url = "https://github.com/bbschef/amethyst-nether?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "amethyst-nether";
+        id = "9EFaPoo8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Amethystians-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-The-Amethystians-License";
+                shortName = "LicenseRef-The-Amethystians-License";
+                url = "https://github.com/bbschef/amethyst-nether?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

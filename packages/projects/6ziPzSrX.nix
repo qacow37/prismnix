@@ -120,23 +120,20 @@ let
         "forge-1.20.1" = _CzJkcehd;
         "default" = _CzJkcehd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tokorotenslime";
-            id = "6ziPzSrX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-TokorotenSlime-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-TokorotenSlime-License";
-                    shortName = "LicenseRef-TokorotenSlime-License";
-                    url = "https://github.com/kasaradanamo/TokorotenSlime/blob/fabric-1.21.9/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tokorotenslime";
+        id = "6ziPzSrX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-TokorotenSlime-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-TokorotenSlime-License";
+                shortName = "LicenseRef-TokorotenSlime-License";
+                url = "https://github.com/kasaradanamo/TokorotenSlime/blob/fabric-1.21.9/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -171,23 +171,20 @@ let
         "quilt-1.20.1" = _w2bdzE4R;
         "default" = _VPxEDVP2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nedologin";
-            id = "fnP1u8PK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Beerware" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Beerware";
-                    shortName = "LicenseRef-Beerware";
-                    url = "https://raw.githubusercontent.com/Ariss-Interactive/nedologin/refs/heads/mc-1.21.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nedologin";
+        id = "fnP1u8PK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Beerware" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Beerware";
+                shortName = "LicenseRef-Beerware";
+                url = "https://raw.githubusercontent.com/Ariss-Interactive/nedologin/refs/heads/mc-1.21.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

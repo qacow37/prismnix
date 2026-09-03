@@ -41,23 +41,20 @@ let
         "neoforge-1.21.1" = _CGRQn5ML;
         "default" = _CGRQn5ML;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "slag-n-embers";
-            id = "56bnCCwq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Assets" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Code-AND-ARR-Assets";
-                    shortName = "LicenseRef-MIT-Code-AND-ARR-Assets";
-                    url = "https://raw.githubusercontent.com/LopyLuna/Slag-n-Embers/refs/heads/1.21.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "slag-n-embers";
+        id = "56bnCCwq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Code-AND-ARR-Assets" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Code-AND-ARR-Assets";
+                shortName = "LicenseRef-MIT-Code-AND-ARR-Assets";
+                url = "https://raw.githubusercontent.com/LopyLuna/Slag-n-Embers/refs/heads/1.21.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

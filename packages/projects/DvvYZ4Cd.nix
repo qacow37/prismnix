@@ -68,23 +68,20 @@ let
         "neoforge-1.21.1" = _OSRiGh5F;
         "default" = _OSRiGh5F;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "magical-psi-revival";
-            id = "DvvYZ4Cd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Psi-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Psi-License";
-                    shortName = "LicenseRef-Psi-License";
-                    url = "https://github.com/wendall911/MagicalPsiRevival/blob/1.20.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "magical-psi-revival";
+        id = "DvvYZ4Cd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Psi-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Psi-License";
+                shortName = "LicenseRef-Psi-License";
+                url = "https://github.com/wendall911/MagicalPsiRevival/blob/1.20.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

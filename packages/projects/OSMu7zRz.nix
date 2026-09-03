@@ -148,23 +148,20 @@ let
         "fabric-26.2" = _4C7vJeTJ;
         "default" = _4C7vJeTJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bettertab";
-            id = "OSMu7zRz";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-BetterTab-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-BetterTab-License";
-                    shortName = "LicenseRef-BetterTab-License";
-                    url = "https://github.com/FySjutton/AdaptiveHUD/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bettertab";
+        id = "OSMu7zRz";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-BetterTab-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-BetterTab-License";
+                shortName = "LicenseRef-BetterTab-License";
+                url = "https://github.com/FySjutton/AdaptiveHUD/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

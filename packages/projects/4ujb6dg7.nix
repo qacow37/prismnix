@@ -54,23 +54,20 @@ let
         "neoforge-1.21.1" = _kh388OYz;
         "default" = _kh388OYz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rcw";
-            id = "4ujb6dg7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    shortName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    url = "https://github.com/Desoroxxx/Re-Crystallized-Wing/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rcw";
+        id = "4ujb6dg7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-SA-3.0";
+                shortName = "LicenseRef-CC-BY-NC-SA-3.0";
+                url = "https://github.com/Desoroxxx/Re-Crystallized-Wing/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

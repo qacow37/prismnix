@@ -822,23 +822,20 @@ let
         "neoforge-26.2" = _pHuIWHyx;
         "default" = _ihEiqSv4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ecologics";
-            id = "NCKpPR0Z";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple";
-                    shortName = "LicenseRef-Multiple";
-                    url = "https://github.com/samedifferent/Ecologics/blob/1.19-crossplatform/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ecologics";
+        id = "NCKpPR0Z";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple";
+                shortName = "LicenseRef-Multiple";
+                url = "https://github.com/samedifferent/Ecologics/blob/1.19-crossplatform/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

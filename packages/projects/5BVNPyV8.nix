@@ -18,23 +18,20 @@ let
         "fabric-1.20.1" = _CbRYIUoB;
         "default" = _CbRYIUoB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stackable-flowers";
-            id = "5BVNPyV8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGPL-3.0";
-                    shortName = "LicenseRef-AGPL-3.0";
-                    url = "https://www.gnu.org/licenses/agpl-3.0.de.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stackable-flowers";
+        id = "5BVNPyV8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGPL-3.0";
+                shortName = "LicenseRef-AGPL-3.0";
+                url = "https://www.gnu.org/licenses/agpl-3.0.de.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

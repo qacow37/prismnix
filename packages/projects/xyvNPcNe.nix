@@ -158,23 +158,20 @@ let
         "minecraft-26.2" = _l1GKXrLq;
         "default" = _l1GKXrLq;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "christmas-chests-all-year";
-            id = "xyvNPcNe";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Resource-Pack-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Craemon-Resource-Pack-License";
-                    shortName = "LicenseRef-Craemon-Resource-Pack-License";
-                    url = "https://github.com/Craemon/ChristmasChestsAllYear/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "christmas-chests-all-year";
+        id = "xyvNPcNe";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Resource-Pack-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Craemon-Resource-Pack-License";
+                shortName = "LicenseRef-Craemon-Resource-Pack-License";
+                url = "https://github.com/Craemon/ChristmasChestsAllYear/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

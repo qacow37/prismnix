@@ -401,23 +401,20 @@ let
         "forge-1.12.2" = _rqDYZlyv;
         "default" = _rqDYZlyv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wyrms";
-            id = "1JXyEoxt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CL-ARR-NR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CL-ARR-NR";
-                    shortName = "LicenseRef-CL-ARR-NR";
-                    url = "https://github.com/Vetpetmon-Labs/Wyrms-of-Nyrus-Hub/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wyrms";
+        id = "1JXyEoxt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CL-ARR-NR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CL-ARR-NR";
+                shortName = "LicenseRef-CL-ARR-NR";
+                url = "https://github.com/Vetpetmon-Labs/Wyrms-of-Nyrus-Hub/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

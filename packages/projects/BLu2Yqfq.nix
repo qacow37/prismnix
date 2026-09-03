@@ -131,23 +131,20 @@ let
         "neoforge-1.21.1" = _AntNFNAx;
         "default" = _AntNFNAx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-radars";
-            id = "BLu2Yqfq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Arsenalists-of-Create-Source-Available-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Arsenalists-of-Create-Source-Available-License";
-                    shortName = "LicenseRef-Arsenalists-of-Create-Source-Available-License";
-                    url = "https://github.com/Arsenalists-of-Create/Create-Radar/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-radars";
+        id = "BLu2Yqfq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Arsenalists-of-Create-Source-Available-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Arsenalists-of-Create-Source-Available-License";
+                shortName = "LicenseRef-Arsenalists-of-Create-Source-Available-License";
+                url = "https://github.com/Arsenalists-of-Create/Create-Radar/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

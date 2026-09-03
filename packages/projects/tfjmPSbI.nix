@@ -62,23 +62,20 @@ let
         "neoforge-1.21.1" = _xDwRcEoZ;
         "default" = _xDwRcEoZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "caverns-and-chasms";
-            id = "tfjmPSbI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Abnormals-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Abnormals-License";
-                    shortName = "LicenseRef-Abnormals-License";
-                    url = "https://github.com/team-abnormals/caverns-and-chasms/blob/1.19.x/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "caverns-and-chasms";
+        id = "tfjmPSbI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Abnormals-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Abnormals-License";
+                shortName = "LicenseRef-Abnormals-License";
+                url = "https://github.com/team-abnormals/caverns-and-chasms/blob/1.19.x/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

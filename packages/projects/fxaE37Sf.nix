@@ -46,23 +46,20 @@ let
         "neoforge-1.21" = _D4AQatXR;
         "default" = _D4AQatXR;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "iron-shulker-boxes";
-            id = "fxaE37Sf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://github.com/progwml6/ironshulkerboxes/blob/1.16/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "iron-shulker-boxes";
+        id = "fxaE37Sf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://github.com/progwml6/ironshulkerboxes/blob/1.16/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

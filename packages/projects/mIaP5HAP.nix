@@ -544,23 +544,20 @@ let
         "spigot-26.2" = _MS4LzyTL;
         "default" = _MS4LzyTL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ultimateshop";
-            id = "mIaP5HAP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-UltimateShop-EULA" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-UltimateShop-EULA";
-                    shortName = "LicenseRef-UltimateShop-EULA";
-                    url = "https://github.com/PQguanfang/UltimateShop/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ultimateshop";
+        id = "mIaP5HAP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-UltimateShop-EULA" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-UltimateShop-EULA";
+                shortName = "LicenseRef-UltimateShop-EULA";
+                url = "https://github.com/PQguanfang/UltimateShop/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

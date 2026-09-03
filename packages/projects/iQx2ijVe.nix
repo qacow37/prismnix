@@ -145,23 +145,20 @@ let
         "minecraft-26.2" = _GQZReeEU;
         "default" = _GQZReeEU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pvp-for-cuties";
-            id = "iQx2ijVe";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-mixed-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-mixed-license";
-                    shortName = "LicenseRef-mixed-license";
-                    url = "https://github.com/Pizztakio/pvp-for-cuties/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pvp-for-cuties";
+        id = "iQx2ijVe";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-mixed-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-mixed-license";
+                shortName = "LicenseRef-mixed-license";
+                url = "https://github.com/Pizztakio/pvp-for-cuties/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

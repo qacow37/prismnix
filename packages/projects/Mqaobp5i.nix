@@ -83,23 +83,20 @@ let
         "quilt-1.21.1" = _ZIush00x;
         "default" = _Ka20O0gT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rechiseled-cobblemon";
-            id = "Mqaobp5i";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://github.com/SuperMartijn642/RechiseledCobblemon#textures-license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rechiseled-cobblemon";
+        id = "Mqaobp5i";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://github.com/SuperMartijn642/RechiseledCobblemon#textures-license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

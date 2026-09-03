@@ -14,23 +14,20 @@ let
         "fabric-1.20.4" = _8zvSgkjC;
         "default" = _8zvSgkjC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "emized-botany-pots";
-            id = "IhMKi1nq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT-0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT No Attribution";
-                    shortName = "MIT-0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "emized-botany-pots";
+        id = "IhMKi1nq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT-0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT No Attribution";
+                shortName = "MIT-0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -109,23 +109,20 @@ let
         "paper-1.21.11" = _JqVfcIkG;
         "default" = _JqVfcIkG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-warps";
-            id = "hQdPDBhH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crimson-Amai-Products-Licence" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Crimson-Amai-Products-Licence";
-                    shortName = "LicenseRef-Crimson-Amai-Products-Licence";
-                    url = "https://github.com/CrimsonAmai/Crimson-Amai-Products-Licence/blob/main/Crimson%20Amai%20Products%20Licence.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-warps";
+        id = "hQdPDBhH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crimson-Amai-Products-Licence" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Crimson-Amai-Products-Licence";
+                shortName = "LicenseRef-Crimson-Amai-Products-Licence";
+                url = "https://github.com/CrimsonAmai/Crimson-Amai-Products-Licence/blob/main/Crimson%20Amai%20Products%20Licence.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

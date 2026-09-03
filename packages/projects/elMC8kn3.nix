@@ -89,23 +89,20 @@ let
         "neoforge-26.1.1" = _jhBQAeRv;
         "default" = _jhBQAeRv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rebindnarrator";
-            id = "elMC8kn3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DBAD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DBAD";
-                    shortName = "LicenseRef-DBAD";
-                    url = "https://gist.github.com/Ocraftyone/06f367618c202a79bc6309ee59250260";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rebindnarrator";
+        id = "elMC8kn3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DBAD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DBAD";
+                shortName = "LicenseRef-DBAD";
+                url = "https://gist.github.com/Ocraftyone/06f367618c202a79bc6309ee59250260";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

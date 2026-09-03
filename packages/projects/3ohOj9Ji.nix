@@ -308,23 +308,20 @@ let
         "neoforge-1.20.4" = _7scBY0fx;
         "default" = _tX7RK2V3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lunas-origins";
-            id = "3ohOj9Ji";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lunas-User-Agreement." {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lunas-User-Agreement.";
-                    shortName = "LicenseRef-Lunas-User-Agreement.";
-                    url = "https://github.com/Lunaticol/Lunas-Origins/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lunas-origins";
+        id = "3ohOj9Ji";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lunas-User-Agreement." {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lunas-User-Agreement.";
+                shortName = "LicenseRef-Lunas-User-Agreement.";
+                url = "https://github.com/Lunaticol/Lunas-Origins/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

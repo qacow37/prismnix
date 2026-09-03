@@ -137,23 +137,20 @@ let
         "forge-1.7.10" = _nbADGzwE;
         "default" = _nbADGzwE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "handmade-guns-overdrive";
-            id = "tLB5NaAk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-HMG-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-HMG-License";
-                    shortName = "LicenseRef-HMG-License";
-                    url = "https://www.curseforge.com/minecraft/mc-mods/handmadegunsmodex#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "handmade-guns-overdrive";
+        id = "tLB5NaAk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-HMG-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-HMG-License";
+                shortName = "LicenseRef-HMG-License";
+                url = "https://www.curseforge.com/minecraft/mc-mods/handmadegunsmodex#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

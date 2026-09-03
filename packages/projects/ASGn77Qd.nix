@@ -76,23 +76,20 @@ let
         "purpur-26.1.1" = _3kLVOQCM;
         "default" = _3kLVOQCM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bskyblock";
-            id = "ASGn77Qd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Eclipse Public License 2.0";
-                    shortName = "EPL-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bskyblock";
+        id = "ASGn77Qd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Eclipse Public License 2.0";
+                shortName = "EPL-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

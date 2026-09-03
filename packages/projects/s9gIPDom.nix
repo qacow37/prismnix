@@ -568,23 +568,20 @@ let
         "neoforge-1.21.2" = _67cTlF79;
         "default" = _zsrG9CmF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "figura";
-            id = "s9gIPDom";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
-                    url = "https://polyformproject.org/licenses/noncommercial/1.0.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "figura";
+        id = "s9gIPDom";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
+                shortName = "LicenseRef-PolyForm-Noncommercial-1.0.0";
+                url = "https://polyformproject.org/licenses/noncommercial/1.0.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

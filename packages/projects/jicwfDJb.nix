@@ -31,23 +31,20 @@ let
         "fabric-1.21" = _SEj5bfr2;
         "default" = _AiCwc4VU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "improvedlodestones";
-            id = "jicwfDJb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved-except-the-icon" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved-except-the-icon";
-                    shortName = "LicenseRef-All-Rights-Reserved-except-the-icon";
-                    url = "https://github.com/Aegrithas/ImprovedLodestones/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "improvedlodestones";
+        id = "jicwfDJb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved-except-the-icon" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved-except-the-icon";
+                shortName = "LicenseRef-All-Rights-Reserved-except-the-icon";
+                url = "https://github.com/Aegrithas/ImprovedLodestones/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

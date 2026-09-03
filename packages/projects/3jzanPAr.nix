@@ -175,23 +175,20 @@ let
         "minecraft-24w46a" = _kqUQIeTe;
         "default" = _kqUQIeTe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mini-me-totem";
-            id = "3jzanPAr";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NotToBlame-Resource-License";
-                    shortName = "LicenseRef-NotToBlame-Resource-License";
-                    url = "https://www.nottobla.me/assets/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mini-me-totem";
+        id = "3jzanPAr";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NotToBlame-Resource-License";
+                shortName = "LicenseRef-NotToBlame-Resource-License";
+                url = "https://www.nottobla.me/assets/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

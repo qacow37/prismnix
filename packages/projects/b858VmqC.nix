@@ -469,23 +469,20 @@ let
         "neoforge-26.2" = _SUxRcskC;
         "default" = _SUxRcskC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "exotelcraft";
-            id = "b858VmqC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-EXOTELCRAFT-LICENSE-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-EXOTELCRAFT-LICENSE-1.0";
-                    shortName = "LicenseRef-EXOTELCRAFT-LICENSE-1.0";
-                    url = "https://legacy.curseforge.com/project/476444/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "exotelcraft";
+        id = "b858VmqC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-EXOTELCRAFT-LICENSE-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-EXOTELCRAFT-LICENSE-1.0";
+                shortName = "LicenseRef-EXOTELCRAFT-LICENSE-1.0";
+                url = "https://legacy.curseforge.com/project/476444/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

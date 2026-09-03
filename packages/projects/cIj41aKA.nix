@@ -17,23 +17,20 @@ let
         "forge-1.20.1" = _2LG7i7ci;
         "default" = _2LG7i7ci;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "golf";
-            id = "cIj41aKA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Academic-Free-License-v3.0";
-                    shortName = "LicenseRef-Academic-Free-License-v3.0";
-                    url = "https://spdx.org/licenses/AFL-3.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "golf";
+        id = "cIj41aKA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Academic-Free-License-v3.0";
+                shortName = "LicenseRef-Academic-Free-License-v3.0";
+                url = "https://spdx.org/licenses/AFL-3.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

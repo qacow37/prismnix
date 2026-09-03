@@ -52,23 +52,20 @@ let
         "fabric-26.2" = _OYV44IOw;
         "default" = _OYV44IOw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "harous-leashed-fences";
-            id = "TE3FkT39";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/martinkadlec0/harous-leashed-fences/blob/1.21.10/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "harous-leashed-fences";
+        id = "TE3FkT39";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/martinkadlec0/harous-leashed-fences/blob/1.21.10/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -460,23 +460,20 @@ let
         "quilt-20w21a" = _rCuBaQY2;
         "default" = _rCuBaQY2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "selfskin";
-            id = "kj7JLMnT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NVPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NVPL";
-                    shortName = "LicenseRef-NVPL";
-                    url = "https://git.pixie.town/thufie/npl-builder/src/branch/main/nvpl.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "selfskin";
+        id = "kj7JLMnT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NVPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NVPL";
+                shortName = "LicenseRef-NVPL";
+                url = "https://git.pixie.town/thufie/npl-builder/src/branch/main/nvpl.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

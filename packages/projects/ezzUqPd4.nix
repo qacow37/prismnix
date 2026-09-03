@@ -24,23 +24,20 @@ let
         "optifine-1.21" = _kwkM9Dyo;
         "default" = _kwkM9Dyo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "jonasgrove";
-            id = "ezzUqPd4";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-License";
-                    shortName = "LicenseRef-Complementary-License";
-                    url = "https://github.com/GamesofDev/Celestial-Grove/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "jonasgrove";
+        id = "ezzUqPd4";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-License";
+                shortName = "LicenseRef-Complementary-License";
+                url = "https://github.com/GamesofDev/Celestial-Grove/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

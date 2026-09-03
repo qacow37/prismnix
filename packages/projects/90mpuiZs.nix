@@ -414,23 +414,20 @@ let
         "neoforge-1.21.11" = _W21rNOM7;
         "default" = _W21rNOM7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "horizonui";
-            id = "90mpuiZs";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-nokarin" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-nokarin";
-                    shortName = "LicenseRef-nokarin";
-                    url = "https://github.com/strivo-dev/HorizonUI/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "horizonui";
+        id = "90mpuiZs";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-nokarin" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-nokarin";
+                shortName = "LicenseRef-nokarin";
+                url = "https://github.com/strivo-dev/HorizonUI/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -1388,23 +1388,20 @@ let
         "neoforge-1.21.1" = _BoGvkmKs;
         "default" = _eDkdvpvV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "amendments";
-            id = "6iTJugQR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Supplementaries-Team-License-1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Supplementaries-Team-License-1.1";
-                    shortName = "LicenseRef-Supplementaries-Team-License-1.1";
-                    url = "https://github.com/MehVahdJukaar/Supplementaries-Team-License/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "amendments";
+        id = "6iTJugQR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Supplementaries-Team-License-1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Supplementaries-Team-License-1.1";
+                shortName = "LicenseRef-Supplementaries-Team-License-1.1";
+                url = "https://github.com/MehVahdJukaar/Supplementaries-Team-License/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

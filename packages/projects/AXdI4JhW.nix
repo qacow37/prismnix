@@ -53,23 +53,20 @@ let
         "minecraft-1.21.5" = _Z0rAx0Qy;
         "default" = _Z0rAx0Qy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-sus-blocks";
-            id = "AXdI4JhW";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-Universal" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC0-1.0-Universal";
-                    shortName = "LicenseRef-CC0-1.0-Universal";
-                    url = "https://github.com/Simplexity-Development/Sus_Pack?tab=CC0-1.0-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-sus-blocks";
+        id = "AXdI4JhW";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-Universal" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC0-1.0-Universal";
+                shortName = "LicenseRef-CC0-1.0-Universal";
+                url = "https://github.com/Simplexity-Development/Sus_Pack?tab=CC0-1.0-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

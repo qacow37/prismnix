@@ -113,23 +113,20 @@ let
         "neoforge-1.21.1" = _IDa4XpKU;
         "default" = _4dRH6CNr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "advanced-music-mod";
-            id = "azvN9Im1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-mSLA" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-mSLA";
-                    shortName = "LicenseRef-mSLA";
-                    url = "https://sites.google.com/view/moritz-htk/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "advanced-music-mod";
+        id = "azvN9Im1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-mSLA" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-mSLA";
+                shortName = "LicenseRef-mSLA";
+                url = "https://sites.google.com/view/moritz-htk/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -72,23 +72,20 @@ let
         "fabric-1.21.5" = _vOZaG8QO;
         "default" = _vOZaG8QO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "itemswap";
-            id = "baQgLwO4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WTFPL";
-                    shortName = "LicenseRef-WTFPL";
-                    url = "https://www.wtfpl.net/about/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "itemswap";
+        id = "baQgLwO4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WTFPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WTFPL";
+                shortName = "LicenseRef-WTFPL";
+                url = "https://www.wtfpl.net/about/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

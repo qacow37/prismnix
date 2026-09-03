@@ -41,23 +41,20 @@ let
         "minecraft-1.8.9" = _lWdARgYU;
         "default" = _lWdARgYU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "betterbedwars-reimagined";
-            id = "XKVfWpM1";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-C-BBR-2026" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-C-BBR-2026";
-                    shortName = "LicenseRef-C-BBR-2026";
-                    url = "https://docs.google.com/document/d/1uB5qm1WKpIB38x9vxs6vSHh_AXbNdcotYN_8Md17EM0/edit?usp=sharing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "betterbedwars-reimagined";
+        id = "XKVfWpM1";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-C-BBR-2026" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-C-BBR-2026";
+                shortName = "LicenseRef-C-BBR-2026";
+                url = "https://docs.google.com/document/d/1uB5qm1WKpIB38x9vxs6vSHh_AXbNdcotYN_8Md17EM0/edit?usp=sharing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

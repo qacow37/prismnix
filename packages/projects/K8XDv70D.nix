@@ -578,23 +578,20 @@ let
         "iris-26.2" = _hJLuOEbz;
         "default" = _hJLuOEbz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nwoofs-wynn-shader";
-            id = "K8XDv70D";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Nwoofs-Wynn-Shader-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Nwoofs-Wynn-Shader-License";
-                    shortName = "LicenseRef-Nwoofs-Wynn-Shader-License";
-                    url = "https://github.com/nwoof2012/Nwoofs-Wynn-Shader/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nwoofs-wynn-shader";
+        id = "K8XDv70D";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Nwoofs-Wynn-Shader-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Nwoofs-Wynn-Shader-License";
+                shortName = "LicenseRef-Nwoofs-Wynn-Shader-License";
+                url = "https://github.com/nwoof2012/Nwoofs-Wynn-Shader/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

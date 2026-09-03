@@ -332,23 +332,20 @@ let
         "forge-1.19.2" = _S8vgfORU;
         "default" = _Hvn733jo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemontrainers";
-            id = "1QV9wNCJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Apache-2.0-with-Commons-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Apache-2.0-with-Commons-Clause";
-                    shortName = "LicenseRef-Apache-2.0-with-Commons-Clause";
-                    url = "https://pastebin.com/VbJZ6VpW";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemontrainers";
+        id = "1QV9wNCJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Apache-2.0-with-Commons-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Apache-2.0-with-Commons-Clause";
+                shortName = "LicenseRef-Apache-2.0-with-Commons-Clause";
+                url = "https://pastebin.com/VbJZ6VpW";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -24,23 +24,20 @@ let
         "neoforge-1.20.1" = _77PtpC1X;
         "default" = _77PtpC1X;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "allthefood";
-            id = "Mk4gY5e2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 3.0 Unported";
-                    shortName = "CC-BY-NC-3.0";
-                    url = "https://spdx.org/licenses/CC-BY-NC-3.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "allthefood";
+        id = "Mk4gY5e2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 3.0 Unported";
+                shortName = "CC-BY-NC-3.0";
+                url = "https://spdx.org/licenses/CC-BY-NC-3.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

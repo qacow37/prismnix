@@ -662,23 +662,20 @@ let
         "fabric-26.1.2" = _JGE33wzb;
         "default" = _JGE33wzb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cardboard";
-            id = "MLYQ9VGP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0 AND MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GPL-3.0 AND MIT";
-                    shortName = "GPL-3.0 AND MIT";
-                    url = "https://github.com/PaperMC/Paper/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cardboard";
+        id = "MLYQ9VGP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0 AND MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GPL-3.0 AND MIT";
+                shortName = "GPL-3.0 AND MIT";
+                url = "https://github.com/PaperMC/Paper/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

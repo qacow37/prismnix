@@ -1006,23 +1006,20 @@ let
         "purpur-26.2" = _A39p4XGu;
         "default" = _A39p4XGu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bettertrialchambers";
-            id = "ownTWGOH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-source-available" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-source-available";
-                    shortName = "LicenseRef-source-available";
-                    url = "https://raw.githubusercontent.com/ESMP-FUN/BetterTrialChambers/refs/heads/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bettertrialchambers";
+        id = "ownTWGOH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-source-available" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-source-available";
+                shortName = "LicenseRef-source-available";
+                url = "https://raw.githubusercontent.com/ESMP-FUN/BetterTrialChambers/refs/heads/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

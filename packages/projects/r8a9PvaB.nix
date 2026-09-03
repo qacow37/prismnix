@@ -149,23 +149,20 @@ let
         "quilt-26.2" = _kWcUJrlP;
         "default" = _kWcUJrlP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "craft-budding-amethyst";
-            id = "r8a9PvaB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Datapack-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Craemon-Datapack-License";
-                    shortName = "LicenseRef-Craemon-Datapack-License";
-                    url = "https://github.com/Craemon/Datapacks/blob/main/common/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "craft-budding-amethyst";
+        id = "r8a9PvaB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-Datapack-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Craemon-Datapack-License";
+                shortName = "LicenseRef-Craemon-Datapack-License";
+                url = "https://github.com/Craemon/Datapacks/blob/main/common/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

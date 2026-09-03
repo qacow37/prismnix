@@ -88,23 +88,20 @@ let
         "fabric-26.2" = _Lq8ztdxM;
         "default" = _Lq8ztdxM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mace-indicator-plus";
-            id = "q0u4qpws";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mace-Indicator-Plus-Proprietary-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Mace-Indicator-Plus-Proprietary-License-1.0";
-                    shortName = "LicenseRef-Mace-Indicator-Plus-Proprietary-License-1.0";
-                    url = "https://raw.githubusercontent.com/earlystream/Mace-Indicator-Plus/refs/heads/main/LICENSE_mace_indicator_plus";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mace-indicator-plus";
+        id = "q0u4qpws";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mace-Indicator-Plus-Proprietary-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Mace-Indicator-Plus-Proprietary-License-1.0";
+                shortName = "LicenseRef-Mace-Indicator-Plus-Proprietary-License-1.0";
+                url = "https://raw.githubusercontent.com/earlystream/Mace-Indicator-Plus/refs/heads/main/LICENSE_mace_indicator_plus";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

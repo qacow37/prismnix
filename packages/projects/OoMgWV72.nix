@@ -350,23 +350,20 @@ let
         "quilt-26.2" = _yy1wu0bN;
         "default" = _yy1wu0bN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fake-fabric-loader";
-            id = "OoMgWV72";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-MC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-XDs-MC-License";
-                    shortName = "LicenseRef-XDs-MC-License";
-                    url = "https://www.xdpxi.dev/legal/mc";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fake-fabric-loader";
+        id = "OoMgWV72";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-MC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-XDs-MC-License";
+                shortName = "LicenseRef-XDs-MC-License";
+                url = "https://www.xdpxi.dev/legal/mc";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

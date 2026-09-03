@@ -288,23 +288,20 @@ let
         "quilt-1.21.11" = _UJgcsIub;
         "default" = _UJgcsIub;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "real-events";
-            id = "mh5GBAsy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-MC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-XDs-MC-License";
-                    shortName = "LicenseRef-XDs-MC-License";
-                    url = "https://xdpxi.vercel.app/license/mc";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "real-events";
+        id = "mh5GBAsy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-MC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-XDs-MC-License";
+                shortName = "LicenseRef-XDs-MC-License";
+                url = "https://xdpxi.vercel.app/license/mc";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

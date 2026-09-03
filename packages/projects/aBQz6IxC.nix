@@ -25,23 +25,20 @@ let
         "minecraft-1.20.4" = _vWMOeURd;
         "default" = _vWMOeURd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr34-vande-bharat-(train-18)";
-            id = "aBQz6IxC";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-VB-Express-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-VB-Express-Custom-License";
-                    shortName = "LicenseRef-VB-Express-Custom-License";
-                    url = "https://gist.github.com/Haarshit21/ca07e4a93de78bd15c6339bc5f61290d";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr34-vande-bharat-(train-18)";
+        id = "aBQz6IxC";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-VB-Express-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-VB-Express-Custom-License";
+                shortName = "LicenseRef-VB-Express-Custom-License";
+                url = "https://gist.github.com/Haarshit21/ca07e4a93de78bd15c6339bc5f61290d";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

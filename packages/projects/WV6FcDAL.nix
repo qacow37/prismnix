@@ -90,23 +90,20 @@ let
         "forge-1.20.1" = _Jn9rBjns;
         "default" = _Jn9rBjns;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "scp-additions";
-            id = "WV6FcDAL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Sharealike-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Creative-Commons-Sharealike-3.0";
-                    shortName = "LicenseRef-Creative-Commons-Sharealike-3.0";
-                    url = "https://creativecommons.org/licenses/by-sa/3.0/legalcode";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "scp-additions";
+        id = "WV6FcDAL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Sharealike-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Creative-Commons-Sharealike-3.0";
+                shortName = "LicenseRef-Creative-Commons-Sharealike-3.0";
+                url = "https://creativecommons.org/licenses/by-sa/3.0/legalcode";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

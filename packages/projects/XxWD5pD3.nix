@@ -2128,23 +2128,20 @@ let
         "neoforge-26.1.2" = _pK0VDmDU;
         "default" = _pK0VDmDU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ae2";
-            id = "XxWD5pD3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple";
-                    shortName = "LicenseRef-Multiple";
-                    url = "https://github.com/AppliedEnergistics/Applied-Energistics-2#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ae2";
+        id = "XxWD5pD3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple";
+                shortName = "LicenseRef-Multiple";
+                url = "https://github.com/AppliedEnergistics/Applied-Energistics-2#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

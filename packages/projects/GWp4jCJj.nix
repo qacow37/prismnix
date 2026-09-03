@@ -539,23 +539,20 @@ let
         "quilt-1.20.1" = _RHxImHho;
         "default" = _bOiDu0LS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-big-cannons";
-            id = "GWp4jCJj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Create-Big-Cannons-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Create-Big-Cannons-License";
-                    shortName = "LicenseRef-Create-Big-Cannons-License";
-                    url = "https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/0b3e23456f38bac359112d82d6aad1b5430c04d1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-big-cannons";
+        id = "GWp4jCJj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Create-Big-Cannons-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Create-Big-Cannons-License";
+                shortName = "LicenseRef-Create-Big-Cannons-License";
+                url = "https://github.com/Cannoneers-of-Create/CreateBigCannons/blob/0b3e23456f38bac359112d82d6aad1b5430c04d1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

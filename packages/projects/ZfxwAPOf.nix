@@ -132,23 +132,20 @@ let
         "fabric-1.21" = _9ZxBQQEu;
         "default" = _9nK32uHd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "kevs-guardvillagers-fork";
-            id = "ZfxwAPOf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CUSTOM-LICENSE" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CUSTOM-LICENSE";
-                    shortName = "LicenseRef-CUSTOM-LICENSE";
-                    url = "https://github.com/KevzCz/GuardVillagers/blob/1.21.1/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "kevs-guardvillagers-fork";
+        id = "ZfxwAPOf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CUSTOM-LICENSE" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CUSTOM-LICENSE";
+                shortName = "LicenseRef-CUSTOM-LICENSE";
+                url = "https://github.com/KevzCz/GuardVillagers/blob/1.21.1/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -179,23 +179,20 @@ let
         "neoforge-1.21.1" = _rvjB99RI;
         "default" = _rvjB99RI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tellus";
-            id = "tTcL5uOD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-3.0-license";
-                    shortName = "LicenseRef-LGPL-3.0-license";
-                    url = "https://github.com/Yucareux/Tellus?tab=LGPL-3.0-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tellus";
+        id = "tTcL5uOD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-3.0-license";
+                shortName = "LicenseRef-LGPL-3.0-license";
+                url = "https://github.com/Yucareux/Tellus?tab=LGPL-3.0-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

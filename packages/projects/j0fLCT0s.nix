@@ -40,23 +40,20 @@ let
         "minecraft-1.20.1" = _R7JC6VTp;
         "default" = _R7JC6VTp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "variantarmory";
-            id = "j0fLCT0s";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldSalad-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WorldSalad-License";
-                    shortName = "LicenseRef-WorldSalad-License";
-                    url = "https://github.com/WorldSaladDev/WorldSalad-License/blob/main/WorldSalad%20License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "variantarmory";
+        id = "j0fLCT0s";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldSalad-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WorldSalad-License";
+                shortName = "LicenseRef-WorldSalad-License";
+                url = "https://github.com/WorldSaladDev/WorldSalad-License/blob/main/WorldSalad%20License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

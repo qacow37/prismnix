@@ -275,23 +275,20 @@ let
         "quilt-26.2" = _qT3YGBCT;
         "default" = _qT3YGBCT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "provis-health-bars";
-            id = "4wDQsby8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lily-License-v1.1";
-                    shortName = "LicenseRef-Lily-License-v1.1";
-                    url = "https://github.com/Provismet/ProviHealth/blob/1.21.5/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "provis-health-bars";
+        id = "4wDQsby8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lily-License-v1.1";
+                shortName = "LicenseRef-Lily-License-v1.1";
+                url = "https://github.com/Provismet/ProviHealth/blob/1.21.5/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

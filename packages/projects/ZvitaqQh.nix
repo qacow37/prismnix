@@ -200,23 +200,20 @@ let
         "optifine-26.2" = _Ca8OxUZj;
         "default" = _Ca8OxUZj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "redhat-shaders";
-            id = "ZvitaqQh";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chocapic13-Agreement" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Chocapic13-Agreement";
-                    shortName = "LicenseRef-Chocapic13-Agreement";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "redhat-shaders";
+        id = "ZvitaqQh";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chocapic13-Agreement" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Chocapic13-Agreement";
+                shortName = "LicenseRef-Chocapic13-Agreement";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -48,23 +48,20 @@ let
         "minecraft-1.21.11" = _e1hyGXaE;
         "default" = _e1hyGXaE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rabbit-villager-add-ons";
-            id = "9dYqq6oG";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License." {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
-                    shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
-                    url = "https://creativecommons.org/licenses/by/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rabbit-villager-add-ons";
+        id = "9dYqq6oG";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License." {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
+                shortName = "LicenseRef-Creative-Commons-Attribution-NonCommercial-4.0-International-License.";
+                url = "https://creativecommons.org/licenses/by/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

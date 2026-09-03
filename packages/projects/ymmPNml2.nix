@@ -23,23 +23,20 @@ let
         "neoforge-1.21.1" = _n5bF6dkv;
         "default" = _n5bF6dkv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "kaleidoscope_sculk";
-            id = "ymmPNml2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
-                    shortName = "BSD-3-Clause";
-                    url = "https://github.com/Itnonamea/kaleidoscope_sculk/blob/master/LICENSE-CODE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "kaleidoscope_sculk";
+        id = "ymmPNml2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-3-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD 3-Clause \"New\" or \"Revised\" License";
+                shortName = "BSD-3-Clause";
+                url = "https://github.com/Itnonamea/kaleidoscope_sculk/blob/master/LICENSE-CODE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

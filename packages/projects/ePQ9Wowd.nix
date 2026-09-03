@@ -109,23 +109,20 @@ let
         "minecraft-26.1.2" = _d4KKeCRI;
         "default" = _d4KKeCRI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ls-datapack-resources";
-            id = "ePQ9Wowd";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-License";
-                    shortName = "LicenseRef-License";
-                    url = "https://github.com/SpluoSplatus/Ultris/wiki/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ls-datapack-resources";
+        id = "ePQ9Wowd";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-License";
+                shortName = "LicenseRef-License";
+                url = "https://github.com/SpluoSplatus/Ultris/wiki/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

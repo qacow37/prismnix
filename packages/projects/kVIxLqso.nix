@@ -312,23 +312,20 @@ let
         "neoforge-1.21.1" = _CPAbSUUg;
         "default" = _CPAbSUUg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-trainutilities";
-            id = "kVIxLqso";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 only";
-                    shortName = "AGPL-3.0-only";
-                    url = "https://github.com/ProgrammerLP/Create-Trainutilities/blob/1.20.1_C6/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-trainutilities";
+        id = "kVIxLqso";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
+                url = "https://github.com/ProgrammerLP/Create-Trainutilities/blob/1.20.1_C6/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

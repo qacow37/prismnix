@@ -121,23 +121,20 @@ let
         "minecraft-26.2-snapshot-4" = _BRLdiU2b;
         "default" = _BRLdiU2b;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "melodyswitches";
-            id = "gtdL2vkh";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://melodymews.com/?utm_source=witchesmodrinth&utm_medium=referral&utm_campaign=witchesmodrinth#termsofuse";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "melodyswitches";
+        id = "gtdL2vkh";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://melodymews.com/?utm_source=witchesmodrinth&utm_medium=referral&utm_campaign=witchesmodrinth#termsofuse";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -107,23 +107,20 @@ let
         "neoforge-1.21.4" = _oTFvhWTu;
         "default" = _toC9TbAp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fastquit-forge";
-            id = "itFaO2Tg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/frcvdt45g6by7hnj8ukm-nh8b7g6vtf5r4de3/FastQuit-Forge/blob/1.20.1-forge/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fastquit-forge";
+        id = "itFaO2Tg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/frcvdt45g6by7hnj8ukm-nh8b7g6vtf5r4de3/FastQuit-Forge/blob/1.20.1-forge/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -29,23 +29,20 @@ let
         "neoforge-1.21.1" = _lZTBRemW;
         "default" = _lZTBRemW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "teallib";
-            id = "rLJ1qF79";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Teal-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Teal-License";
-                    shortName = "LicenseRef-Teal-License";
-                    url = "https://github.com/N1nn1/TealLib/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "teallib";
+        id = "rLJ1qF79";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Teal-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Teal-License";
+                shortName = "LicenseRef-Teal-License";
+                url = "https://github.com/N1nn1/TealLib/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

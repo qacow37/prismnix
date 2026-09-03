@@ -188,23 +188,20 @@ let
         "optifine-26.2" = _M8PnRxP6;
         "default" = _M8PnRxP6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pixelcraft-shaders";
-            id = "3cdrsl5X";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-License";
-                    shortName = "LicenseRef-Complementary-License";
-                    url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pixelcraft-shaders";
+        id = "3cdrsl5X";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-License";
+                shortName = "LicenseRef-Complementary-License";
+                url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

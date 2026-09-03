@@ -48,23 +48,20 @@ let
         "forge-1.20.1" = _cmMqJHOu;
         "default" = _jQDQ4EWE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "op_tools";
-            id = "u8ERp3vW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GMSMML" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GMSMML";
-                    shortName = "LicenseRef-GMSMML";
-                    url = "https://gamemodstudios.github.io/legal/gmsmml";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "op_tools";
+        id = "u8ERp3vW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GMSMML" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GMSMML";
+                shortName = "LicenseRef-GMSMML";
+                url = "https://gamemodstudios.github.io/legal/gmsmml";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

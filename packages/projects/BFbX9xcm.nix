@@ -78,23 +78,20 @@ let
         "neoforge-1.21.1" = _xgAXTl17;
         "default" = _acYEfsJa;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mowzies-mobs";
-            id = "BFbX9xcm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mowzies-Mobs-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Mowzies-Mobs-License";
-                    shortName = "LicenseRef-Mowzies-Mobs-License";
-                    url = "https://legacy.curseforge.com/project/250498/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mowzies-mobs";
+        id = "BFbX9xcm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mowzies-Mobs-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Mowzies-Mobs-License";
+                shortName = "LicenseRef-Mowzies-Mobs-License";
+                url = "https://legacy.curseforge.com/project/250498/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

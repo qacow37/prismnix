@@ -367,23 +367,20 @@ let
         "neoforge-1.21.1" = _MFuRZOBA;
         "default" = _MFuRZOBA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "navas-zamega";
-            id = "2V1Y86sc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MEGA-SHOWDOWN-LICENSE-v2.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MEGA-SHOWDOWN-LICENSE-v2.1";
-                    shortName = "LicenseRef-MEGA-SHOWDOWN-LICENSE-v2.1";
-                    url = "https://github.com/yajatkaul/CobblemonMegaShowdown/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "navas-zamega";
+        id = "2V1Y86sc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MEGA-SHOWDOWN-LICENSE-v2.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MEGA-SHOWDOWN-LICENSE-v2.1";
+                shortName = "LicenseRef-MEGA-SHOWDOWN-LICENSE-v2.1";
+                url = "https://github.com/yajatkaul/CobblemonMegaShowdown/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

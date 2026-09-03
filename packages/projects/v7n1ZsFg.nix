@@ -205,23 +205,20 @@ let
         "minecraft-26.1.2" = _wnX98MtF;
         "default" = _O15mIFdg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "vb+";
-            id = "v7n1ZsFg";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-bangetto-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-bangetto-License";
-                    shortName = "LicenseRef-bangetto-License";
-                    url = "https://bangetto.github.io/licenses/bangetto/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vb+";
+        id = "v7n1ZsFg";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-bangetto-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-bangetto-License";
+                shortName = "LicenseRef-bangetto-License";
+                url = "https://bangetto.github.io/licenses/bangetto/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

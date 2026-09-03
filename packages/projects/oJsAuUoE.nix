@@ -187,23 +187,20 @@ let
         "minecraft-26.2" = _o1qAzRyr;
         "default" = _o1qAzRyr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sapixcraft";
-            id = "oJsAuUoE";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SPX-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SPX-License";
-                    shortName = "LicenseRef-SPX-License";
-                    url = "https://sapixcraft.com/legal";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sapixcraft";
+        id = "oJsAuUoE";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SPX-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SPX-License";
+                shortName = "LicenseRef-SPX-License";
+                url = "https://sapixcraft.com/legal";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

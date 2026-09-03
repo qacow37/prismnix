@@ -83,23 +83,20 @@ let
         "forge-1.12.2" = _tcFm3f8c;
         "default" = _tcFm3f8c;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tinkers-evolution";
-            id = "IGALuv74";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "JSON" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "JSON License";
-                    shortName = "JSON";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tinkers-evolution";
+        id = "IGALuv74";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "JSON" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "JSON License";
+                shortName = "JSON";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

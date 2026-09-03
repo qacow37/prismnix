@@ -4174,23 +4174,20 @@ let
         "neoforge-26.1.2" = _jiqU4w0z;
         "default" = _2OIn7Uqs;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "armourers-workshop";
-            id = "y4JF3gXL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-3.0 " {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported";
-                    shortName = "CC-BY-NC-SA-3.0 ";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "armourers-workshop";
+        id = "y4JF3gXL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-3.0 " {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported";
+                shortName = "CC-BY-NC-SA-3.0 ";
+                url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

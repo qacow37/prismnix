@@ -96,23 +96,20 @@ let
         "datapack-26.2" = _d2mW6n1P;
         "default" = _d2mW6n1P;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fast-barter";
-            id = "CG79IMQc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Forged-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Forged-License-1.0";
-                    shortName = "LicenseRef-Forged-License-1.0";
-                    url = "https://github.com/ForgedMC/.github/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fast-barter";
+        id = "CG79IMQc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Forged-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Forged-License-1.0";
+                shortName = "LicenseRef-Forged-License-1.0";
+                url = "https://github.com/ForgedMC/.github/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

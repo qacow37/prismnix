@@ -60,23 +60,20 @@ let
         "forge-1.20" = _gOiboM1h;
         "default" = _oAsBAvls;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mc-fnaf-sb-mc-mod";
-            id = "OIVHMITc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v.-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Academic-Free-License-v.-3.0";
-                    shortName = "LicenseRef-Academic-Free-License-v.-3.0";
-                    url = "https://opensource.org/license/afl-3-0-php";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mc-fnaf-sb-mc-mod";
+        id = "OIVHMITc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v.-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Academic-Free-License-v.-3.0";
+                shortName = "LicenseRef-Academic-Free-License-v.-3.0";
+                url = "https://opensource.org/license/afl-3-0-php";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -39,23 +39,20 @@ let
         "quilt-1.19.3" = _86OpM49z;
         "default" = _86OpM49z;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fishing";
-            id = "jov013LO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ACSL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ACSL";
-                    shortName = "LicenseRef-ACSL";
-                    url = "https://anticapitalist.software/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fishing";
+        id = "jov013LO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ACSL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ACSL";
+                shortName = "LicenseRef-ACSL";
+                url = "https://anticapitalist.software/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

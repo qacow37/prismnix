@@ -85,23 +85,20 @@ let
         "forge-1.20.1" = _ItiqYtL3;
         "default" = _ItiqYtL3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "inventory-sorter-configurable";
-            id = "5mTUz0VW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0-and-GPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-SA-3.0-and-GPL-3.0";
-                    shortName = "LicenseRef-CC-BY-NC-SA-3.0-and-GPL-3.0";
-                    url = "https://github.com/qyurila/inventorysorter/blob/1.18.2/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "inventory-sorter-configurable";
+        id = "5mTUz0VW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0-and-GPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-SA-3.0-and-GPL-3.0";
+                shortName = "LicenseRef-CC-BY-NC-SA-3.0-and-GPL-3.0";
+                url = "https://github.com/qyurila/inventorysorter/blob/1.18.2/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

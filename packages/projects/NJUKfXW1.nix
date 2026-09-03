@@ -12,23 +12,20 @@ let
         "minecraft-1.20.1" = _vxhFnij2;
         "default" = _vxhFnij2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "greenfield-resource-pack";
-            id = "NJUKfXW1";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GreenfieldMC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GreenfieldMC-License";
-                    shortName = "LicenseRef-GreenfieldMC-License";
-                    url = "https://www.greenfieldmc.net/conditions/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "greenfield-resource-pack";
+        id = "NJUKfXW1";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GreenfieldMC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GreenfieldMC-License";
+                shortName = "LicenseRef-GreenfieldMC-License";
+                url = "https://www.greenfieldmc.net/conditions/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -160,23 +160,20 @@ let
         "quilt-1.21.11" = _olo0Q6nb;
         "default" = _olo0Q6nb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "revamped-shipwrecks";
-            id = "ZnZ8uqXN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
-                    shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "revamped-shipwrecks";
+        id = "ZnZ8uqXN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
+                shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
+                url = "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

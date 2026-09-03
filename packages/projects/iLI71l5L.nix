@@ -33,23 +33,20 @@ let
         "fabric-26.2" = _vse7Wglq;
         "default" = _vse7Wglq;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "terraincart";
-            id = "iLI71l5L";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-IlyRac-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-IlyRac-License";
-                    shortName = "LicenseRef-IlyRac-License";
-                    url = "https://github.com/IlyRac/Terracart/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "terraincart";
+        id = "iLI71l5L";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-IlyRac-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-IlyRac-License";
+                shortName = "LicenseRef-IlyRac-License";
+                url = "https://github.com/IlyRac/Terracart/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -100,23 +100,20 @@ let
         "neoforge-1.21.1" = _p8cmy9X5;
         "default" = _p8cmy9X5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "weather-detector";
-            id = "jcff3y6F";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://raw.githubusercontent.com/tanukibouwer/weather-detector/main/LICENSE?token=GHSAT0AAAAAAB6BOSWF4ELOAULBAGUAXROYZAMUPSA";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "weather-detector";
+        id = "jcff3y6F";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://raw.githubusercontent.com/tanukibouwer/weather-detector/main/LICENSE?token=GHSAT0AAAAAAB6BOSWF4ELOAULBAGUAXROYZAMUPSA";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -46,23 +46,20 @@ let
         "fabric-1.21.1" = _XD16li3d;
         "default" = _XD16li3d;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dsbg";
-            id = "zv7fYVyQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution No Derivatives 4.0 International";
-                    shortName = "CC-BY-ND-4.0";
-                    url = "https://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dsbg";
+        id = "zv7fYVyQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution No Derivatives 4.0 International";
+                shortName = "CC-BY-ND-4.0";
+                url = "https://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

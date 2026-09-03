@@ -165,23 +165,20 @@ let
         "quilt-1.21.6" = _bq5UEji2;
         "default" = _bq5UEji2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bosses-addition";
-            id = "VHSZvYsd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Amethyst" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Amethyst";
-                    shortName = "LicenseRef-Amethyst";
-                    url = "https://github.com/gamerbenyt/Amethyst/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bosses-addition";
+        id = "VHSZvYsd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Amethyst" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Amethyst";
+                shortName = "LicenseRef-Amethyst";
+                url = "https://github.com/gamerbenyt/Amethyst/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

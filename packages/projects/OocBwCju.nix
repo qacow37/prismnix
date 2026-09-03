@@ -138,23 +138,20 @@ let
         "neoforge-26.1.2" = _APGy7Qx3;
         "default" = _dRJqw8Ec;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "srsl";
-            id = "OocBwCju";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AM-CC-0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AM-CC-0";
-                    shortName = "LicenseRef-AM-CC-0";
-                    url = "https://github.com/An-Mao/CC/blob/main/AM_CC_0_EN.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "srsl";
+        id = "OocBwCju";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AM-CC-0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AM-CC-0";
+                shortName = "LicenseRef-AM-CC-0";
+                url = "https://github.com/An-Mao/CC/blob/main/AM_CC_0_EN.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -171,23 +171,20 @@ let
         "fabric-1.21.4" = _59kvR0xF;
         "default" = _7AsfIojf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "super_simple_holograms";
-            id = "fzsjksyT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCSPSL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MCSPSL";
-                    shortName = "LicenseRef-MCSPSL";
-                    url = "https://github.com/MabelMedia-LLC/MCSPSL/raw/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "super_simple_holograms";
+        id = "fzsjksyT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCSPSL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MCSPSL";
+                shortName = "LicenseRef-MCSPSL";
+                url = "https://github.com/MabelMedia-LLC/MCSPSL/raw/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

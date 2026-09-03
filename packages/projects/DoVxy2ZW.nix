@@ -29,23 +29,20 @@ let
         "forge-1.12.2" = _HsrDByTp;
         "default" = _HsrDByTp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ae2uel-extra";
-            id = "DoVxy2ZW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple";
-                    shortName = "LicenseRef-Multiple";
-                    url = "https://github.com/gardenevery/AE2UEL-Extra#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ae2uel-extra";
+        id = "DoVxy2ZW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple";
+                shortName = "LicenseRef-Multiple";
+                url = "https://github.com/gardenevery/AE2UEL-Extra#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

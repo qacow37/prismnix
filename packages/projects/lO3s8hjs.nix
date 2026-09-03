@@ -765,23 +765,20 @@ let
         "neoforge-26.2" = _BmCtZyC4;
         "default" = _BmCtZyC4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bridging-mod";
-            id = "lO3s8hjs";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/CloudG360/BridgingMod/blob/latest/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bridging-mod";
+        id = "lO3s8hjs";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/CloudG360/BridgingMod/blob/latest/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

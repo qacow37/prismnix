@@ -195,23 +195,20 @@ let
         "fabric-26.2" = _iBJjbKLd;
         "default" = _iBJjbKLd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "earth-and-water";
-            id = "QZBq3KMs";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Limited-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Limited-All-Rights-Reserved";
-                    shortName = "LicenseRef-Limited-All-Rights-Reserved";
-                    url = "https://github.com/PotatoWolfie/earth-and-water-fabric/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "earth-and-water";
+        id = "QZBq3KMs";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Limited-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Limited-All-Rights-Reserved";
+                shortName = "LicenseRef-Limited-All-Rights-Reserved";
+                url = "https://github.com/PotatoWolfie/earth-and-water-fabric/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

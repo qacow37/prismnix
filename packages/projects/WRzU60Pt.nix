@@ -73,23 +73,20 @@ let
         "fabric-1.20.4" = _RvYPsQcL;
         "default" = _RvYPsQcL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bettersleeping-revived";
-            id = "WRzU60Pt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/ReviversMC/bettersleeping/blob/master/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bettersleeping-revived";
+        id = "WRzU60Pt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/ReviversMC/bettersleeping/blob/master/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

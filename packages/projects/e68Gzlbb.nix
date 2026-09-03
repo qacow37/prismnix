@@ -30,23 +30,20 @@ let
         "minecraft-1.21.5" = _d74DKsne;
         "default" = _d74DKsne;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "typs-blue-pvp-textures";
-            id = "e68Gzlbb";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Full-Lisence" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Full-Lisence";
-                    shortName = "LicenseRef-Full-Lisence";
-                    url = "https://github.com/AstroDe-v/Typs-Blue-Pack/blob/main/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "typs-blue-pvp-textures";
+        id = "e68Gzlbb";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Full-Lisence" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Full-Lisence";
+                shortName = "LicenseRef-Full-Lisence";
+                url = "https://github.com/AstroDe-v/Typs-Blue-Pack/blob/main/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

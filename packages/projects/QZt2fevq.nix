@@ -1068,23 +1068,20 @@ let
         "forge-1.21.1" = _RFeyaZ2S;
         "default" = _MDzIYcD3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "natural-temperature";
-            id = "QZt2fevq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-Limited-Rights-Granted" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License-Limited-Rights-Granted";
-                    shortName = "LicenseRef-Custom-License-Limited-Rights-Granted";
-                    url = "https://github.com/Caesius-Leo/Natural-Temperature-Mod/blob/main/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "natural-temperature";
+        id = "QZt2fevq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-Limited-Rights-Granted" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License-Limited-Rights-Granted";
+                shortName = "LicenseRef-Custom-License-Limited-Rights-Granted";
+                url = "https://github.com/Caesius-Leo/Natural-Temperature-Mod/blob/main/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

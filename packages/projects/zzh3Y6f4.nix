@@ -120,23 +120,20 @@ let
         "minecraft-26.2" = _g5TnA1er;
         "default" = _g5TnA1er;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "glacial-indifference";
-            id = "zzh3Y6f4";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OFL-1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "SIL Open Font License 1.1";
-                    shortName = "OFL-1.1";
-                    url = "https://www.fontsquirrel.com/license/glacial-indifference";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "glacial-indifference";
+        id = "zzh3Y6f4";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OFL-1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "SIL Open Font License 1.1";
+                shortName = "OFL-1.1";
+                url = "https://www.fontsquirrel.com/license/glacial-indifference";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

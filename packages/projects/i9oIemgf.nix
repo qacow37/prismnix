@@ -182,23 +182,20 @@ let
         "neoforge-1.20.6" = _Uc9qfvWN;
         "default" = _rig8ejVf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fancymenu-system-interactions-addon";
-            id = "i9oIemgf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSLv2";
-                    shortName = "LicenseRef-DSMSLv2";
-                    url = "https://github.com/Keksuccino/FancyMenu-System-Interactions-Addon/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fancymenu-system-interactions-addon";
+        id = "i9oIemgf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSLv2";
+                shortName = "LicenseRef-DSMSLv2";
+                url = "https://github.com/Keksuccino/FancyMenu-System-Interactions-Addon/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

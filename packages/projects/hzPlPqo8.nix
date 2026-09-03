@@ -18,23 +18,20 @@ let
         "forge-1.20.1" = _G0mUzIHE;
         "default" = _G0mUzIHE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lygia";
-            id = "hzPlPqo8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Patron-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Patron-License";
-                    shortName = "LicenseRef-Patron-License";
-                    url = "https://lygia.xyz/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lygia";
+        id = "hzPlPqo8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Patron-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Patron-License";
+                shortName = "LicenseRef-Patron-License";
+                url = "https://lygia.xyz/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

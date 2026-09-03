@@ -308,23 +308,20 @@ let
         "neoforge-1.21.1" = _IsIw5iAW;
         "default" = _IsIw5iAW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-myths-and-legends-sidemod";
-            id = "CaOWby9K";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---No-Monetized-Use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License---No-Monetized-Use";
-                    shortName = "LicenseRef-Custom-License---No-Monetized-Use";
-                    url = "https://gist.github.com/D0ctorLeon/5a89ace5690b8c3b398b5b692e9b5e02";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-myths-and-legends-sidemod";
+        id = "CaOWby9K";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---No-Monetized-Use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License---No-Monetized-Use";
+                shortName = "LicenseRef-Custom-License---No-Monetized-Use";
+                url = "https://gist.github.com/D0ctorLeon/5a89ace5690b8c3b398b5b692e9b5e02";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

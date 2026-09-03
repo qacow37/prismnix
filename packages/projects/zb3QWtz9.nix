@@ -60,23 +60,20 @@ let
         "minecraft-26.2" = _4Mdysnfl;
         "default" = _4Mdysnfl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gui-purpleoled";
-            id = "zb3QWtz9";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Read-the-terms-of-use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Read-the-terms-of-use";
-                    shortName = "LicenseRef-Read-the-terms-of-use";
-                    url = "https://gabriel-djalayer.gitbook.io/gdteam-wiki/guides/licenses#gui-purpleoled";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gui-purpleoled";
+        id = "zb3QWtz9";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Read-the-terms-of-use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Read-the-terms-of-use";
+                shortName = "LicenseRef-Read-the-terms-of-use";
+                url = "https://gabriel-djalayer.gitbook.io/gdteam-wiki/guides/licenses#gui-purpleoled";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

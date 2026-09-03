@@ -71,23 +71,20 @@ let
         "forge-1.8.9" = _MWkE9lUS;
         "default" = _MWkE9lUS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "easyconfigs";
-            id = "1haNeLMH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
-                    url = "https://github.com/KdGaming0/EasyConfigs/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "easyconfigs";
+        id = "1haNeLMH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
+                url = "https://github.com/KdGaming0/EasyConfigs/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

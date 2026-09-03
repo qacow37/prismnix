@@ -178,23 +178,20 @@ let
         "minecraft-26.1.2" = _TwE4mRUx;
         "default" = _TwE4mRUx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hide-armor";
-            id = "HzbPDpv8";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NotToBlame-Resource-License";
-                    shortName = "LicenseRef-NotToBlame-Resource-License";
-                    url = "https://www.nottobla.me/assets/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hide-armor";
+        id = "HzbPDpv8";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NotToBlame-Resource-License";
+                shortName = "LicenseRef-NotToBlame-Resource-License";
+                url = "https://www.nottobla.me/assets/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

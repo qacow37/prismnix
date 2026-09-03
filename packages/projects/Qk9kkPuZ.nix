@@ -61,23 +61,20 @@ let
         "quilt-1.21.5" = _E7neuKW2;
         "default" = _E7neuKW2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "health-display";
-            id = "Qk9kkPuZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-HeDeAn-custom-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-HeDeAn-custom-license";
-                    shortName = "LicenseRef-HeDeAn-custom-license";
-                    url = "https://drive.google.com/file/d/1oK0QEarALJgWRA2gJ-B_GqdVR26XQ1Sm/view?usp=sharing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "health-display";
+        id = "Qk9kkPuZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-HeDeAn-custom-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-HeDeAn-custom-license";
+                shortName = "LicenseRef-HeDeAn-custom-license";
+                url = "https://drive.google.com/file/d/1oK0QEarALJgWRA2gJ-B_GqdVR26XQ1Sm/view?usp=sharing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

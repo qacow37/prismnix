@@ -57,23 +57,20 @@ let
         "iris-26.2" = _gdVC5Jx4;
         "default" = _gdVC5Jx4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bettervoxels";
-            id = "TUoQmbZR";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-Agreement-1.3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-Agreement-1.3";
-                    shortName = "LicenseRef-Complementary-Agreement-1.3";
-                    url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bettervoxels";
+        id = "TUoQmbZR";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-Agreement-1.3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-Agreement-1.3";
+                shortName = "LicenseRef-Complementary-Agreement-1.3";
+                url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

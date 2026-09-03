@@ -151,23 +151,20 @@ let
         "minecraft-26.1.2" = _jPqwRKH9;
         "default" = _jPqwRKH9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "clear-weather";
-            id = "zeqSl3HZ";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NotToBlame-Resource-License";
-                    shortName = "LicenseRef-NotToBlame-Resource-License";
-                    url = "https://www.nottobla.me/assets/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "clear-weather";
+        id = "zeqSl3HZ";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NotToBlame-Resource-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NotToBlame-Resource-License";
+                shortName = "LicenseRef-NotToBlame-Resource-License";
+                url = "https://www.nottobla.me/assets/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

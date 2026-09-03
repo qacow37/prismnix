@@ -228,23 +228,20 @@ let
         "minecraft-1.21.11" = _arrgXFBf;
         "default" = _arrgXFBf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "undopia-pride-bees";
-            id = "wGXJGq96";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Undopia-Patch-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Undopia-Patch-License";
-                    shortName = "LicenseRef-Undopia-Patch-License";
-                    url = "https://patch.undopia.net/terms-and-conditions";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "undopia-pride-bees";
+        id = "wGXJGq96";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Undopia-Patch-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Undopia-Patch-License";
+                shortName = "LicenseRef-Undopia-Patch-License";
+                url = "https://patch.undopia.net/terms-and-conditions";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

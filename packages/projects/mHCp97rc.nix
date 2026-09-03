@@ -42,23 +42,20 @@ let
         "quilt-1.21.1" = _q6GP4XxT;
         "default" = _q6GP4XxT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gaht-mod";
-            id = "mHCp97rc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GNU-GPLv3.0-AND-CC-BY-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GNU-GPLv3.0-AND-CC-BY-SA-4.0";
-                    shortName = "LicenseRef-GNU-GPLv3.0-AND-CC-BY-SA-4.0";
-                    url = "https://github.com/Lumelore/gahtmod/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gaht-mod";
+        id = "mHCp97rc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GNU-GPLv3.0-AND-CC-BY-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GNU-GPLv3.0-AND-CC-BY-SA-4.0";
+                shortName = "LicenseRef-GNU-GPLv3.0-AND-CC-BY-SA-4.0";
+                url = "https://github.com/Lumelore/gahtmod/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

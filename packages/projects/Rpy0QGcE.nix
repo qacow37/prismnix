@@ -89,23 +89,20 @@ let
         "forge-1.7.10" = _um5cb2j2;
         "default" = _um5cb2j2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "betterwithpatches";
-            id = "Rpy0QGcE";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MMPL-J-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MMPL-J-1.0";
-                    shortName = "LicenseRef-MMPL-J-1.0";
-                    url = "https://github.com/Yoghurt4C/LilTaterReloaded/blob/fabric-1.16/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "betterwithpatches";
+        id = "Rpy0QGcE";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MMPL-J-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MMPL-J-1.0";
+                shortName = "LicenseRef-MMPL-J-1.0";
+                url = "https://github.com/Yoghurt4C/LilTaterReloaded/blob/fabric-1.16/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

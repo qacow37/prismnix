@@ -5029,23 +5029,20 @@ let
         "quilt-26.3-snapshot-5" = _cStLbuP8;
         "default" = _cStLbuP8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "life-series-dev";
-            id = "RLDqKhd4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LFE-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LFE-1.0";
-                    shortName = "LicenseRef-LFE-1.0";
-                    url = "https://github.com/Mat0u5/LifeSeries/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "life-series-dev";
+        id = "RLDqKhd4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LFE-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LFE-1.0";
+                shortName = "LicenseRef-LFE-1.0";
+                url = "https://github.com/Mat0u5/LifeSeries/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

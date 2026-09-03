@@ -6748,23 +6748,20 @@ let
         "neoforge-1.21.1" = _CitoQHqE;
         "default" = _BonbMBGR;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "moonlight";
-            id = "twkfQtEc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-with-additional-dependency-clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-with-additional-dependency-clause";
-                    shortName = "LicenseRef-LGPL-with-additional-dependency-clause";
-                    url = "https://github.com/MehVahdJukaar/Moonlight/blob/1.20/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "moonlight";
+        id = "twkfQtEc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-with-additional-dependency-clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-with-additional-dependency-clause";
+                shortName = "LicenseRef-LGPL-with-additional-dependency-clause";
+                url = "https://github.com/MehVahdJukaar/Moonlight/blob/1.20/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

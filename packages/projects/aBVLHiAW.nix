@@ -361,23 +361,20 @@ let
         "purpur-26.2" = _VL8WL24W;
         "default" = _VL8WL24W;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bentobox";
-            id = "aBVLHiAW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Eclipse Public License 2.0";
-                    shortName = "EPL-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bentobox";
+        id = "aBVLHiAW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Eclipse Public License 2.0";
+                shortName = "EPL-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

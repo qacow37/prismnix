@@ -85,23 +85,20 @@ let
         "neoforge-1.21.1" = _dUM55Jd9;
         "default" = _dUM55Jd9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "psi";
-            id = "pOeA0exL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Psi-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Psi-License";
-                    shortName = "LicenseRef-Psi-License";
-                    url = "https://psi.vazkii.net/license.php";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "psi";
+        id = "pOeA0exL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Psi-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Psi-License";
+                shortName = "LicenseRef-Psi-License";
+                url = "https://psi.vazkii.net/license.php";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

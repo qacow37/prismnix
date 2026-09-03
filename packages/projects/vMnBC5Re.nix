@@ -44,23 +44,20 @@ let
         "minecraft-26.1.2" = _BQEkSnLe;
         "default" = _BQEkSnLe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "k2d-font";
-            id = "vMnBC5Re";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Open-Font-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Open-Font-License";
-                    shortName = "LicenseRef-Open-Font-License";
-                    url = "https://openfontlicense.org/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "k2d-font";
+        id = "vMnBC5Re";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Open-Font-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Open-Font-License";
+                shortName = "LicenseRef-Open-Font-License";
+                url = "https://openfontlicense.org/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

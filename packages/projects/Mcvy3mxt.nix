@@ -46,23 +46,20 @@ let
         "forge-1.20.6" = _qfpl5Ak1;
         "default" = _qfpl5Ak1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lc2h";
-            id = "Mcvy3mxt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-BRSSLA-V1.5" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-BRSSLA-V1.5";
-                    shortName = "LicenseRef-BRSSLA-V1.5";
-                    url = "https://github.com/Admany/LC2H/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lc2h";
+        id = "Mcvy3mxt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-BRSSLA-V1.5" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-BRSSLA-V1.5";
+                shortName = "LicenseRef-BRSSLA-V1.5";
+                url = "https://github.com/Admany/LC2H/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

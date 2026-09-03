@@ -264,23 +264,20 @@ let
         "neoforge-26.2" = _5ITpHgBi;
         "default" = _5ITpHgBi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "craftable-tall-grass";
-            id = "xuVvzASF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Craemon-license";
-                    shortName = "LicenseRef-Craemon-license";
-                    url = "https://github.com/Craemon/Craftable-Tall-Grass/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "craftable-tall-grass";
+        id = "xuVvzASF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Craemon-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Craemon-license";
+                shortName = "LicenseRef-Craemon-license";
+                url = "https://github.com/Craemon/Craftable-Tall-Grass/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

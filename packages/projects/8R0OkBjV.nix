@@ -769,23 +769,20 @@ let
         "quilt-26.3-snapshot-5" = _SONtdw7p;
         "default" = _SONtdw7p;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "voidblock-portable";
-            id = "8R0OkBjV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-Maps-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-Maps-License";
-                    shortName = "LicenseRef-Custom-Maps-License";
-                    url = "https://loweredgames.github.io./license.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "voidblock-portable";
+        id = "8R0OkBjV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-Maps-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-Maps-License";
+                shortName = "LicenseRef-Custom-Maps-License";
+                url = "https://loweredgames.github.io./license.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

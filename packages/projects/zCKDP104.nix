@@ -158,23 +158,20 @@ let
         "forge-1.20.1" = _HHYSLxUq;
         "default" = _xo4DDC8t;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "calypsos-candy-workshop";
-            id = "zCKDP104";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/LNatit/CandyWorkshop/blob/master/LICENSE-CODE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "calypsos-candy-workshop";
+        id = "zCKDP104";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/LNatit/CandyWorkshop/blob/master/LICENSE-CODE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

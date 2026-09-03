@@ -85,23 +85,20 @@ let
         "bukkit-1.20.1" = _d7GcbicX;
         "default" = _d7GcbicX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chatcontrol";
-            id = "XGimhYe2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ChatControl-fair-use-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ChatControl-fair-use-license";
-                    shortName = "LicenseRef-ChatControl-fair-use-license";
-                    url = "https://github.com/kangarko/ChatControl-Free/blob/5.9.6/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chatcontrol";
+        id = "XGimhYe2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ChatControl-fair-use-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ChatControl-fair-use-license";
+                shortName = "LicenseRef-ChatControl-fair-use-license";
+                url = "https://github.com/kangarko/ChatControl-Free/blob/5.9.6/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

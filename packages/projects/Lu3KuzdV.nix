@@ -283,23 +283,20 @@ let
         "folia-26.1.2" = _Kma0kBsY;
         "default" = _Kma0kBsY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "coreprotect";
-            id = "Lu3KuzdV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Artistic-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Artistic License 2.0";
-                    shortName = "Artistic-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "coreprotect";
+        id = "Lu3KuzdV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Artistic-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Artistic License 2.0";
+                shortName = "Artistic-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

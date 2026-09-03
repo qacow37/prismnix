@@ -129,23 +129,20 @@ let
         "quilt-1.21.3" = _191En9E8;
         "default" = _191En9E8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "jetpackcraft";
-            id = "plNnjc9k";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-license";
-                    shortName = "LicenseRef-Custom-license";
-                    url = "https://zahadneokurkycz.github.io/legal/jetpackcraft-license.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "jetpackcraft";
+        id = "plNnjc9k";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-license";
+                shortName = "LicenseRef-Custom-license";
+                url = "https://zahadneokurkycz.github.io/legal/jetpackcraft-license.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

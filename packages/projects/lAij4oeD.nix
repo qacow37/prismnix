@@ -360,23 +360,20 @@ let
         "neoforge-26.1.2" = _1Jiu0mrS;
         "default" = _1Jiu0mrS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lithereal";
-            id = "lAij4oeD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lithereal-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lithereal-Mod-License";
-                    shortName = "LicenseRef-Lithereal-Mod-License";
-                    url = "https://github.com/LightBlueGamer/Lithereal/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lithereal";
+        id = "lAij4oeD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lithereal-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lithereal-Mod-License";
+                shortName = "LicenseRef-Lithereal-Mod-License";
+                url = "https://github.com/LightBlueGamer/Lithereal/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -161,23 +161,20 @@ let
         "iris-1.21.11" = _PWB6M4aT;
         "default" = _PWB6M4aT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "allium-shaders";
-            id = "EQs4Ewl7";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-License";
-                    shortName = "LicenseRef-Complementary-License";
-                    url = "https://github.com/clorece/Allium/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "allium-shaders";
+        id = "EQs4Ewl7";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-License";
+                shortName = "LicenseRef-Complementary-License";
+                url = "https://github.com/clorece/Allium/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

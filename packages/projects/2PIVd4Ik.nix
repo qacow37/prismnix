@@ -190,23 +190,20 @@ let
         "neoforge-26.1.2" = _HSjMx64m;
         "default" = _HSjMx64m;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "netherex";
-            id = "2PIVd4Ik";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-for-code-and-most-assets.-All-Rights-Reserved-for-some-assets." {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-for-code-and-most-assets.-All-Rights-Reserved-for-some-assets.";
-                    shortName = "LicenseRef-MIT-for-code-and-most-assets.-All-Rights-Reserved-for-some-assets.";
-                    url = "https://github.com/LogicTechCorp/NetherEx?tab=readme-ov-file#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "netherex";
+        id = "2PIVd4Ik";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-for-code-and-most-assets.-All-Rights-Reserved-for-some-assets." {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-for-code-and-most-assets.-All-Rights-Reserved-for-some-assets.";
+                shortName = "LicenseRef-MIT-for-code-and-most-assets.-All-Rights-Reserved-for-some-assets.";
+                url = "https://github.com/LogicTechCorp/NetherEx?tab=readme-ov-file#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

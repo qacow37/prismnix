@@ -23,23 +23,20 @@ let
         "neoforge-1.21.1" = _tDH37oNY;
         "default" = _tDH37oNY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "unlocked-void-sea";
-            id = "vsv72IJr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Responsive-Source-License-v1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Responsive-Source-License-v1.0";
-                    shortName = "LicenseRef-Responsive-Source-License-v1.0";
-                    url = "https://github.com/Tyrthurey/unlockedvoidsea/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "unlocked-void-sea";
+        id = "vsv72IJr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Responsive-Source-License-v1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Responsive-Source-License-v1.0";
+                shortName = "LicenseRef-Responsive-Source-License-v1.0";
+                url = "https://github.com/Tyrthurey/unlockedvoidsea/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

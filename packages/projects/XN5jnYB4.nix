@@ -1037,23 +1037,20 @@ let
         "forge-1.7.10" = _LHI6Re9n;
         "default" = _LHI6Re9n;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "angelica";
-            id = "XN5jnYB4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple---Primarily-LGPLv3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple---Primarily-LGPLv3";
-                    shortName = "LicenseRef-Multiple---Primarily-LGPLv3";
-                    url = "https://github.com/GTNewHorizons/Angelica?tab=readme-ov-file#credits";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "angelica";
+        id = "XN5jnYB4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple---Primarily-LGPLv3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple---Primarily-LGPLv3";
+                shortName = "LicenseRef-Multiple---Primarily-LGPLv3";
+                url = "https://github.com/GTNewHorizons/Angelica?tab=readme-ov-file#credits";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

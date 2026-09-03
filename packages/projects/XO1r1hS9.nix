@@ -154,23 +154,20 @@ let
         "quilt-1.21.5" = _8NEDhYbo;
         "default" = _Kut7t0gj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mineraft";
-            id = "XO1r1hS9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ItsJustLuke-Mineraft-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ItsJustLuke-Mineraft-License";
-                    shortName = "LicenseRef-ItsJustLuke-Mineraft-License";
-                    url = "https://github.com/lukejw12/uistuff/blob/main/licenses/mineraft-license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mineraft";
+        id = "XO1r1hS9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ItsJustLuke-Mineraft-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ItsJustLuke-Mineraft-License";
+                shortName = "LicenseRef-ItsJustLuke-Mineraft-License";
+                url = "https://github.com/lukejw12/uistuff/blob/main/licenses/mineraft-license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

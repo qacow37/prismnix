@@ -130,23 +130,20 @@ let
         "quilt-1.20.1" = _oG5DC7IV;
         "default" = _8VB2yvP3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-furniture";
-            id = "3JQDJrYW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-custom";
-                    shortName = "LicenseRef-custom";
-                    url = "https://github.com/satisfyu/NeverEnoughFurniture/blob/main/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-furniture";
+        id = "3JQDJrYW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-custom";
+                shortName = "LicenseRef-custom";
+                url = "https://github.com/satisfyu/NeverEnoughFurniture/blob/main/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

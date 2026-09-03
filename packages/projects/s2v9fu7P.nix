@@ -460,23 +460,20 @@ let
         "spigot-1.21.11" = _CoCRaYRg;
         "default" = _AyTJXcyX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sword_blocking";
-            id = "s2v9fu7P";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CSL-1.0";
-                    shortName = "LicenseRef-CSL-1.0";
-                    url = "https://github.com/Charken-Inc/Datapacks/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sword_blocking";
+        id = "s2v9fu7P";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CSL-1.0";
+                shortName = "LicenseRef-CSL-1.0";
+                url = "https://github.com/Charken-Inc/Datapacks/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

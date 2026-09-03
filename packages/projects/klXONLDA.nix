@@ -270,23 +270,20 @@ let
         "neoforge-1.21.4" = _q0cjl0wN;
         "default" = _q0cjl0wN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "villages-and-pillages";
-            id = "klXONLDA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    shortName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    url = "https://github.com/Faboslav/villages-and-pillages/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "villages-and-pillages";
+        id = "klXONLDA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-ND-4.0";
+                shortName = "LicenseRef-CC-BY-NC-ND-4.0";
+                url = "https://github.com/Faboslav/villages-and-pillages/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

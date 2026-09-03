@@ -566,23 +566,20 @@ let
         "forge-1.20.6" = _UC5hEOUf;
         "default" = _99MYui4e;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "starcatcher";
-            id = "h2jXvxNR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-";
-                    shortName = "LicenseRef-";
-                    url = "https://github.com/wdiscute/starcatcher/blob/Last-Published-Version-neoforge-1.21.1/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "starcatcher";
+        id = "h2jXvxNR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-";
+                shortName = "LicenseRef-";
+                url = "https://github.com/wdiscute/starcatcher/blob/Last-Published-Version-neoforge-1.21.1/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

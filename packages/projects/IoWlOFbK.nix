@@ -84,23 +84,20 @@ let
         "neoforge-1.21.1" = _2PBtR37M;
         "default" = _2PBtR37M;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "placeable-goat-horns";
-            id = "IoWlOFbK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-licenses" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple-licenses";
-                    shortName = "LicenseRef-Multiple-licenses";
-                    url = "https://github.com/seymourimadeit/goat-horn-block/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "placeable-goat-horns";
+        id = "IoWlOFbK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-licenses" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple-licenses";
+                shortName = "LicenseRef-Multiple-licenses";
+                url = "https://github.com/seymourimadeit/goat-horn-block/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

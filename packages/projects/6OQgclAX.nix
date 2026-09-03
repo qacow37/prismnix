@@ -172,23 +172,20 @@ let
         "optifine-26.2" = _AiE5Yuj3;
         "default" = _AiE5Yuj3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pollution-2035-shaders";
-            id = "6OQgclAX";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chocapic13-Sharing-and-modification-rules" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Chocapic13-Sharing-and-modification-rules";
-                    shortName = "LicenseRef-Chocapic13-Sharing-and-modification-rules";
-                    url = "https://github.com/At87668/Pollution-2035-Shaders/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pollution-2035-shaders";
+        id = "6OQgclAX";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Chocapic13-Sharing-and-modification-rules" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Chocapic13-Sharing-and-modification-rules";
+                shortName = "LicenseRef-Chocapic13-Sharing-and-modification-rules";
+                url = "https://github.com/At87668/Pollution-2035-Shaders/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

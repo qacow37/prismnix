@@ -61,23 +61,20 @@ let
         "quilt-1.20.1" = _hmySapPv;
         "default" = _Y8k15gT5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "created-spawn-eggs";
-            id = "Gx1Jy7Og";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MomentariyModder-License";
-                    shortName = "LicenseRef-MomentariyModder-License";
-                    url = "https://momentariymodder.com/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "created-spawn-eggs";
+        id = "Gx1Jy7Og";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MomentariyModder-License";
+                shortName = "LicenseRef-MomentariyModder-License";
+                url = "https://momentariymodder.com/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

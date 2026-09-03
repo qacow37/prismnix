@@ -23,23 +23,20 @@ let
         "fabric-1.21.1" = _NS329bmL;
         "default" = _NS329bmL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobbletwoclient";
-            id = "8KUi7Ueh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CobbleTwo-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CobbleTwo-Mod-License";
-                    shortName = "LicenseRef-CobbleTwo-Mod-License";
-                    url = "https://github.com/yajatkaul/CobbleTwo/blob/clientOptional/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobbletwoclient";
+        id = "8KUi7Ueh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CobbleTwo-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CobbleTwo-Mod-License";
+                shortName = "LicenseRef-CobbleTwo-Mod-License";
+                url = "https://github.com/yajatkaul/CobbleTwo/blob/clientOptional/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

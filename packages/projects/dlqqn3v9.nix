@@ -108,23 +108,20 @@ let
         "neoforge-1.21.1" = _G3RqjA2f;
         "default" = _G3RqjA2f;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "morecolorful";
-            id = "dlqqn3v9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MoreColorful-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MoreColorful-License";
-                    shortName = "LicenseRef-MoreColorful-License";
-                    url = "https://github.com/ChalkerCharles/MoreColorful/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "morecolorful";
+        id = "dlqqn3v9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MoreColorful-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MoreColorful-License";
+                shortName = "LicenseRef-MoreColorful-License";
+                url = "https://github.com/ChalkerCharles/MoreColorful/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -190,23 +190,20 @@ let
         "quilt-1.20.1" = _W2QrBsrL;
         "default" = _8YKO4bsZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-brewery-farmcharm-compat";
-            id = "b7NV2plI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/Team-Let-s-Do/Brewery/blob/1.20.1/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-brewery-farmcharm-compat";
+        id = "b7NV2plI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/Team-Let-s-Do/Brewery/blob/1.20.1/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

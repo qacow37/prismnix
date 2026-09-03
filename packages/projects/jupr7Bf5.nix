@@ -95,23 +95,20 @@ let
         "fabric-1.14" = _97zfc1sO;
         "default" = _MqLKfrk2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "foamfix";
-            id = "jupr7Bf5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/asiekierka/FoamFix/blob/0.9.x-1.12.2/docs/licenses/COPYING";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "foamfix";
+        id = "jupr7Bf5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/asiekierka/FoamFix/blob/0.9.x-1.12.2/docs/licenses/COPYING";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -73,23 +73,20 @@ let
         "fabric-26.2" = _6jbheeND;
         "default" = _6jbheeND;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "void-dimension-fabric";
-            id = "Y3nTVOjA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v2.0 only";
-                    shortName = "GPL-2.0-only";
-                    url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html#SEC1";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "void-dimension-fabric";
+        id = "Y3nTVOjA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v2.0 only";
+                shortName = "GPL-2.0-only";
+                url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html#SEC1";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -93,23 +93,20 @@ let
         "quilt-1.18.2" = _Zt56xQ8P;
         "default" = _Zt56xQ8P;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "valleycraft";
-            id = "8ZXLyutd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/ValleyCraft-Dev-Team/ValleyCraft-Wiki/blob/gh-pages/docs/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "valleycraft";
+        id = "8ZXLyutd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/ValleyCraft-Dev-Team/ValleyCraft-Wiki/blob/gh-pages/docs/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

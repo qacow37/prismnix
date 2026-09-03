@@ -150,23 +150,20 @@ let
         "fabric-1.21.1" = _PtHN23gq;
         "default" = _KV3mdTLV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cobblemon-armory";
-            id = "2GSJkNsi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cobblemon-Armory" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Cobblemon-Armory";
-                    shortName = "LicenseRef-Cobblemon-Armory";
-                    url = "https://github.com/JoltTheWolf/Cobblemon-Armory-Fabric/blob/Main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cobblemon-armory";
+        id = "2GSJkNsi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Cobblemon-Armory" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Cobblemon-Armory";
+                shortName = "LicenseRef-Cobblemon-Armory";
+                url = "https://github.com/JoltTheWolf/Cobblemon-Armory-Fabric/blob/Main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -36,23 +36,20 @@ let
         "neoforge-1.21.1" = _Ny70RpjG;
         "default" = _Ny70RpjG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "createadvlogistics";
-            id = "T5viQjDe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-with-Assets-ARR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-with-Assets-ARR";
-                    shortName = "LicenseRef-MIT-with-Assets-ARR";
-                    url = "https://codeberg.org/ThePuzzlemaker/createadvlogistics/src/branch/1.21.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "createadvlogistics";
+        id = "T5viQjDe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-with-Assets-ARR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-with-Assets-ARR";
+                shortName = "LicenseRef-MIT-with-Assets-ARR";
+                url = "https://codeberg.org/ThePuzzlemaker/createadvlogistics/src/branch/1.21.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

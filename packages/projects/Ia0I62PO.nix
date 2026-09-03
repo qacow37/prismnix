@@ -121,23 +121,20 @@ let
         "fabric-1.20.1" = _ObGgTqCL;
         "default" = _ObGgTqCL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "oblivion-api";
-            id = "Ia0I62PO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Avoiding-Leeching-License-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Avoiding-Leeching-License-v1.1";
-                    shortName = "LicenseRef-Avoiding-Leeching-License-v1.1";
-                    url = "https://github.com/VoidLeech/Oblivion/blob/1.20.1/dev/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "oblivion-api";
+        id = "Ia0I62PO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Avoiding-Leeching-License-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Avoiding-Leeching-License-v1.1";
+                shortName = "LicenseRef-Avoiding-Leeching-License-v1.1";
+                url = "https://github.com/VoidLeech/Oblivion/blob/1.20.1/dev/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

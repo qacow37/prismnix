@@ -297,23 +297,20 @@ let
         "spigot-1.21.1" = _N5RqZp5W;
         "default" = _N5RqZp5W;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "http";
-            id = "4PKsHCki";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT";
-                    shortName = "LicenseRef-MIT";
-                    url = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiCwsO4252HAxWLLkQIHUDgDkQQFnoECAYQAQ&url=https%3A%2F%2Fopensource.org%2Flicense%2Fmit&usg=AOvVaw0JouoMsOReC1lXVEak9dPg&opi=89978449";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "http";
+        id = "4PKsHCki";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT";
+                shortName = "LicenseRef-MIT";
+                url = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiCwsO4252HAxWLLkQIHUDgDkQQFnoECAYQAQ&url=https%3A%2F%2Fopensource.org%2Flicense%2Fmit&usg=AOvVaw0JouoMsOReC1lXVEak9dPg&opi=89978449";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

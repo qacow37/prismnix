@@ -17,23 +17,20 @@ let
         "fabric-1.21.1" = _UldceIzj;
         "default" = _UldceIzj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "medic!";
-            id = "gmBMhrZD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mixed" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Mixed";
-                    shortName = "LicenseRef-Mixed";
-                    url = "https://codeberg.org/LutherDev/medic/src/branch/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "medic!";
+        id = "gmBMhrZD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Mixed" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Mixed";
+                shortName = "LicenseRef-Mixed";
+                url = "https://codeberg.org/LutherDev/medic/src/branch/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

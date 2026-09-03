@@ -403,23 +403,20 @@ let
         "neoforge-26.2" = _CYYwNHcs;
         "default" = _CYYwNHcs;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "modernfix-mvus";
-            id = "TjSm1wrD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/coredex-source/ModernFix---mVUS/blob/1.21.10/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "modernfix-mvus";
+        id = "TjSm1wrD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/coredex-source/ModernFix---mVUS/blob/1.21.10/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

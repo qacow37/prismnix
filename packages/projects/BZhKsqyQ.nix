@@ -76,23 +76,20 @@ let
         "fabric-1.21.11" = _TRGbx7NP;
         "default" = _TRGbx7NP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "anger-management-mod";
-            id = "BZhKsqyQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause-FreeBSD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD-2-Clause-FreeBSD";
-                    shortName = "BSD-2-Clause-FreeBSD";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "anger-management-mod";
+        id = "BZhKsqyQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "BSD-2-Clause-FreeBSD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD-2-Clause-FreeBSD";
+                shortName = "BSD-2-Clause-FreeBSD";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

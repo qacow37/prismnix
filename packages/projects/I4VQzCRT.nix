@@ -66,23 +66,20 @@ let
         "neoforge-1.21.8" = _uyiwJ94V;
         "default" = _uyiwJ94V;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "op-scythes";
-            id = "I4VQzCRT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AFL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Academic Free License v3.0";
-                    shortName = "AFL-3.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "op-scythes";
+        id = "I4VQzCRT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AFL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Academic Free License v3.0";
+                shortName = "AFL-3.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

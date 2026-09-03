@@ -312,23 +312,20 @@ let
         "forge-1.10.2" = _HBHrUDEg;
         "default" = _HBHrUDEg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "computercraft";
-            id = "r7tyeVvQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ComputerCraft-Public-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ComputerCraft-Public-License";
-                    shortName = "LicenseRef-ComputerCraft-Public-License";
-                    url = "https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "computercraft";
+        id = "r7tyeVvQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ComputerCraft-Public-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ComputerCraft-Public-License";
+                shortName = "LicenseRef-ComputerCraft-Public-License";
+                url = "https://raw.githubusercontent.com/dan200/ComputerCraft/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -270,23 +270,20 @@ let
         "fabric-26.1.2" = _DSVtXCOi;
         "default" = _DSVtXCOi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "payeveryone";
-            id = "EJO20Qp6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT-0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT No Attribution";
-                    shortName = "MIT-0";
-                    url = "https://raw.githubusercontent.com/aurickk/Pay-Everyone/refs/heads/main/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "payeveryone";
+        id = "EJO20Qp6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT-0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT No Attribution";
+                shortName = "MIT-0";
+                url = "https://raw.githubusercontent.com/aurickk/Pay-Everyone/refs/heads/main/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

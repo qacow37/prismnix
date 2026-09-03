@@ -11,23 +11,20 @@ let
         "minecraft-1.20.1" = _dIzW99PV;
         "default" = _dIzW99PV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xaero-map-chinese-resourcepack";
-            id = "u7ydBcbz";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
-                    shortName = "CC-BY-NC-4.0";
-                    url = "https://github.com/19136644525lxy/Xaero-Map-Chinese-Resourcepack/blob/9c55d707283b5dc8ec3e1e18bcbeff2e2a0e5e66/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xaero-map-chinese-resourcepack";
+        id = "u7ydBcbz";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                shortName = "CC-BY-NC-4.0";
+                url = "https://github.com/19136644525lxy/Xaero-Map-Chinese-Resourcepack/blob/9c55d707283b5dc8ec3e1e18bcbeff2e2a0e5e66/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

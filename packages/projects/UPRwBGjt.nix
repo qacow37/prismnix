@@ -113,23 +113,20 @@ let
         "forge-1.8.9" = _bfwnjT9Y;
         "default" = _bfwnjT9Y;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aetheriamod";
-            id = "UPRwBGjt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Aetheria-Mod-License-v1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Aetheria-Mod-License-v1.0";
-                    shortName = "LicenseRef-Aetheria-Mod-License-v1.0";
-                    url = "https://github.com/aetheria-org/Aetheria/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aetheriamod";
+        id = "UPRwBGjt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Aetheria-Mod-License-v1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Aetheria-Mod-License-v1.0";
+                shortName = "LicenseRef-Aetheria-Mod-License-v1.0";
+                url = "https://github.com/aetheria-org/Aetheria/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

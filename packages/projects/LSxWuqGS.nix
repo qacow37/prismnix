@@ -42,23 +42,20 @@ let
         "minecraft-1.21.11" = _ZVLen6of;
         "default" = _ZVLen6of;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "3d-animated-totem-of-undying-hmi-support";
-            id = "LSxWuqGS";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Terms-of-Use-in-Description" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-See-Terms-of-Use-in-Description";
-                    shortName = "LicenseRef-See-Terms-of-Use-in-Description";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "3d-animated-totem-of-undying-hmi-support";
+        id = "LSxWuqGS";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-See-Terms-of-Use-in-Description" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-See-Terms-of-Use-in-Description";
+                shortName = "LicenseRef-See-Terms-of-Use-in-Description";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

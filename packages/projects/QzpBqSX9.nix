@@ -17,23 +17,20 @@ let
         "forge-1.8.9" = _33yTVI3o;
         "default" = _33yTVI3o;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dankers-skyblock-mod";
-            id = "QzpBqSX9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/bowser0000/SkyblockMod/blob/master/COPYING.LESSER";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dankers-skyblock-mod";
+        id = "QzpBqSX9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/bowser0000/SkyblockMod/blob/master/COPYING.LESSER";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -52,23 +52,20 @@ let
         "fabric-1.21.10" = _WStFU5Ft;
         "default" = _WStFU5Ft;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "oneauras-cart-optimizer";
-            id = "kk8CdYJC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://gist.githubusercontent.com/oneauraaa/f8c518940b0d375c4e7cba0d0e69a79c/raw/92023477187b2630aa544f328a6698c966444899/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "oneauras-cart-optimizer";
+        id = "kk8CdYJC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://gist.githubusercontent.com/oneauraaa/f8c518940b0d375c4e7cba0d0e69a79c/raw/92023477187b2630aa544f328a6698c966444899/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

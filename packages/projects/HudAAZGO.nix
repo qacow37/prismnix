@@ -94,23 +94,20 @@ let
         "quilt-1.21.11" = _Vl2VB9L5;
         "default" = _Vl2VB9L5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "moonstone_meteorites";
-            id = "HudAAZGO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lemuron-Creation-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lemuron-Creation-License";
-                    shortName = "LicenseRef-Lemuron-Creation-License";
-                    url = "https://gitlab.com/moonlighting-studios/moonstone_meteorites/-/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "moonstone_meteorites";
+        id = "HudAAZGO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lemuron-Creation-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lemuron-Creation-License";
+                shortName = "LicenseRef-Lemuron-Creation-License";
+                url = "https://gitlab.com/moonlighting-studios/moonstone_meteorites/-/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

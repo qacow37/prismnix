@@ -67,23 +67,20 @@ let
         "forge-1.20.1" = _tNLvGEjE;
         "default" = _tNLvGEjE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-broken-bad-fabric";
-            id = "uIfluo9C";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Non-Commercial-Mod-License-NCML-v1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Non-Commercial-Mod-License-NCML-v1";
-                    shortName = "LicenseRef-Non-Commercial-Mod-License-NCML-v1";
-                    url = "https://pastebin.com/fPLDSyu2";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-broken-bad-fabric";
+        id = "uIfluo9C";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Non-Commercial-Mod-License-NCML-v1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Non-Commercial-Mod-License-NCML-v1";
+                shortName = "LicenseRef-Non-Commercial-Mod-License-NCML-v1";
+                url = "https://pastebin.com/fPLDSyu2";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

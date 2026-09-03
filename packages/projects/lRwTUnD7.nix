@@ -896,23 +896,20 @@ let
         "neoforge-1.21.1" = _qyxrdzND;
         "default" = _gQx1F1dx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rctmod";
-            id = "lRwTUnD7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCOML" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MCOML";
-                    shortName = "LicenseRef-MCOML";
-                    url = "https://gitlab.com/srcmc/rct/mod/-/raw/1.21.1/LICENSE.txt?ref_type=heads";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rctmod";
+        id = "lRwTUnD7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCOML" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MCOML";
+                shortName = "LicenseRef-MCOML";
+                url = "https://gitlab.com/srcmc/rct/mod/-/raw/1.21.1/LICENSE.txt?ref_type=heads";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -21,23 +21,20 @@ let
         "fabric-1.21.9" = _fnX4RKsE;
         "default" = _fnX4RKsE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "attack-through-grass-1.21.5";
-            id = "2OszNfwK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    url = "https://polyformproject.org/licenses/shield/1.0.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "attack-through-grass-1.21.5";
+        id = "2OszNfwK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                url = "https://polyformproject.org/licenses/shield/1.0.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

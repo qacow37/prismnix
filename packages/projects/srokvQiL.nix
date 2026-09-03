@@ -131,23 +131,20 @@ let
         "forge-1.7.10" = _DnqmRkWI;
         "default" = _DnqmRkWI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nemexlib";
-            id = "srokvQiL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-TNMX-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-TNMX-License";
-                    shortName = "LicenseRef-TNMX-License";
-                    url = "https://github.com/Thenemex/NemexLib/blob/master/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nemexlib";
+        id = "srokvQiL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-TNMX-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-TNMX-License";
+                shortName = "LicenseRef-TNMX-License";
+                url = "https://github.com/Thenemex/NemexLib/blob/master/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -66,23 +66,20 @@ let
         "fabric-1.17.1" = _nf0kLzJy;
         "default" = _EBdYn7cM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lan-extender";
-            id = "bvX7CV7s";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "ISC" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "ISC License";
-                    shortName = "ISC";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lan-extender";
+        id = "bvX7CV7s";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "ISC" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "ISC License";
+                shortName = "ISC";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

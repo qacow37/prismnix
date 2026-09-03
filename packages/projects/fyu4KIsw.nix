@@ -135,23 +135,20 @@ let
         "purpur-1.21.11" = _wqTvmY5g;
         "default" = _wqTvmY5g;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "shopkeeper-protection";
-            id = "fyu4KIsw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crimson-Amai-Products-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Crimson-Amai-Products-License";
-                    shortName = "LicenseRef-Crimson-Amai-Products-License";
-                    url = "https://github.com/CrimsonAmai/Crimson-Amai-Products-Licence/blob/main/Crimson%20Amai%20Products%20Licence.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "shopkeeper-protection";
+        id = "fyu4KIsw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crimson-Amai-Products-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Crimson-Amai-Products-License";
+                shortName = "LicenseRef-Crimson-Amai-Products-License";
+                url = "https://github.com/CrimsonAmai/Crimson-Amai-Products-Licence/blob/main/Crimson%20Amai%20Products%20Licence.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

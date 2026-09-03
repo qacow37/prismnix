@@ -156,23 +156,20 @@ let
         "minecraft-1.20.1" = _yCO8aX8u;
         "default" = _yCO8aX8u;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "perfect-ae2-backport";
-            id = "2nz47oli";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple";
-                    shortName = "LicenseRef-Multiple";
-                    url = "https://github.com/Rumi727/AE2-Resource-Backport/tree/main#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "perfect-ae2-backport";
+        id = "2nz47oli";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple";
+                shortName = "LicenseRef-Multiple";
+                url = "https://github.com/Rumi727/AE2-Resource-Backport/tree/main#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

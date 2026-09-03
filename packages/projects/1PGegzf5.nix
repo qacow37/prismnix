@@ -36,23 +36,20 @@ let
         "minecraft-1.21.11" = _g3G42ebh;
         "default" = _g3G42ebh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "overlays";
-            id = "1PGegzf5";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-EULA" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-EULA";
-                    shortName = "LicenseRef-EULA";
-                    url = "https://en.m.wikipedia.org/wiki/End-user_license_agreement";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "overlays";
+        id = "1PGegzf5";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-EULA" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-EULA";
+                shortName = "LicenseRef-EULA";
+                url = "https://en.m.wikipedia.org/wiki/End-user_license_agreement";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

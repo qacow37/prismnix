@@ -120,23 +120,20 @@ let
         "velocity-26.2" = _bJZvzm5F;
         "default" = _bJZvzm5F;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fake-player-plugin-(fpp)";
-            id = "oioBwOz4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-FPP-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-FPP-License";
-                    shortName = "LicenseRef-FPP-License";
-                    url = "https://fpp.wtf/legal/copyright";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fake-player-plugin-(fpp)";
+        id = "oioBwOz4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-FPP-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-FPP-License";
+                shortName = "LicenseRef-FPP-License";
+                url = "https://fpp.wtf/legal/copyright";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

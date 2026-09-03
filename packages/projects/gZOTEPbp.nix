@@ -120,23 +120,20 @@ let
         "neoforge-26.2" = _jI4GrN1g;
         "default" = _jI4GrN1g;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mc-day-counter";
-            id = "gZOTEPbp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-02Alexis-Protective-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-02Alexis-Protective-License";
-                    shortName = "LicenseRef-02Alexis-Protective-License";
-                    url = "https://github.com/02A1exis/02A1exis/blob/main/licenses/protective-license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mc-day-counter";
+        id = "gZOTEPbp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-02Alexis-Protective-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-02Alexis-Protective-License";
+                shortName = "LicenseRef-02Alexis-Protective-License";
+                url = "https://github.com/02A1exis/02A1exis/blob/main/licenses/protective-license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

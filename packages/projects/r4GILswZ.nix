@@ -141,23 +141,20 @@ let
         "minecraft-26.2" = _AOqbBNcY;
         "default" = _AOqbBNcY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "faithful-64x";
-            id = "r4GILswZ";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Faithful-Resource-Pack-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Faithful-Resource-Pack-License";
-                    shortName = "LicenseRef-Faithful-Resource-Pack-License";
-                    url = "https://faithfulpack.net/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "faithful-64x";
+        id = "r4GILswZ";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Faithful-Resource-Pack-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Faithful-Resource-Pack-License";
+                shortName = "LicenseRef-Faithful-Resource-Pack-License";
+                url = "https://faithfulpack.net/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -23,23 +23,20 @@ let
         "fabric-1.20.1" = _Lgm7Xw9B;
         "default" = _Lgm7Xw9B;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ad-astra-cargo-rockets";
-            id = "uCwB2hRp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://gitlab.com/billyg270/ad-astra-cargo-rockets/-/raw/master/LICENSE.txt?ref_type=heads";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ad-astra-cargo-rockets";
+        id = "uCwB2hRp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://gitlab.com/billyg270/ad-astra-cargo-rockets/-/raw/master/LICENSE.txt?ref_type=heads";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

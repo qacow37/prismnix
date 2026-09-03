@@ -475,23 +475,20 @@ let
         "neoforge-1.21.1" = _GwAjZwzx;
         "default" = _ZTkxt65d;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-meadow";
-            id = "ra7o6Sl7";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-custom";
-                    shortName = "LicenseRef-custom";
-                    url = "https://github.com/satisfyu/Meadow/commit/cf8192e07ceff0f05035146c4fa6383a78aebf84";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-meadow";
+        id = "ra7o6Sl7";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-custom";
+                shortName = "LicenseRef-custom";
+                url = "https://github.com/satisfyu/Meadow/commit/cf8192e07ceff0f05035146c4fa6383a78aebf84";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

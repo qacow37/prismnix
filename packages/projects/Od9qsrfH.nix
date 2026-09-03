@@ -62,23 +62,20 @@ let
         "neoforge-1.21.1" = _V00BJPX8;
         "default" = _me9RxE8w;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "millet-delight";
-            id = "Od9qsrfH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/DreaMemory2/MilletDelight/blob/26.1-fabric/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "millet-delight";
+        id = "Od9qsrfH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/DreaMemory2/MilletDelight/blob/26.1-fabric/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

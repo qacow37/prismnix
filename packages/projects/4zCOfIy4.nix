@@ -55,23 +55,20 @@ let
         "minecraft-1.21.1" = _mGxlAuaa;
         "default" = _mGxlAuaa;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "furigana";
-            id = "4zCOfIy4";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://raw.githubusercontent.com/keve1227/furigana/main/Furigana/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "furigana";
+        id = "4zCOfIy4";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://raw.githubusercontent.com/keve1227/furigana/main/Furigana/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -138,23 +138,20 @@ let
         "optifine-1.21.8" = _KB0sOLSc;
         "default" = _KB0sOLSc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "super-duper-vanilla";
-            id = "LMIZZNxZ";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-FlameRender-TM-Studios-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-FlameRender-TM-Studios-License";
-                    shortName = "LicenseRef-FlameRender-TM-Studios-License";
-                    url = "https://github.com/Eldeston/Super-Duper-Vanilla/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "super-duper-vanilla";
+        id = "LMIZZNxZ";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-FlameRender-TM-Studios-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-FlameRender-TM-Studios-License";
+                shortName = "LicenseRef-FlameRender-TM-Studios-License";
+                url = "https://github.com/Eldeston/Super-Duper-Vanilla/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -211,23 +211,20 @@ let
         "minecraft-1.20.6-rc1" = _qOHCsxbA;
         "default" = _qOHCsxbA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fraktur";
-            id = "PPt77SS0";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-OFL-1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-OFL-1.1";
-                    shortName = "LicenseRef-OFL-1.1";
-                    url = "https://openfontlicense.org/open-font-license-official-text/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fraktur";
+        id = "PPt77SS0";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-OFL-1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-OFL-1.1";
+                shortName = "LicenseRef-OFL-1.1";
+                url = "https://openfontlicense.org/open-font-license-official-text/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

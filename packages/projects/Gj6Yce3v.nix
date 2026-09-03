@@ -235,23 +235,20 @@ let
         "neoforge-26.2" = _6hO73roK;
         "default" = _6hO73roK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sway";
-            id = "Gj6Yce3v";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                    shortName = "CC-BY-NC-SA-4.0";
-                    url = "https://github.com/RazorPlay01/CustomPlayerAnimation/blob/stonecutter/LICENSE-CC-BY-NC-SA-4.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sway";
+        id = "Gj6Yce3v";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                shortName = "CC-BY-NC-SA-4.0";
+                url = "https://github.com/RazorPlay01/CustomPlayerAnimation/blob/stonecutter/LICENSE-CC-BY-NC-SA-4.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -324,23 +324,20 @@ let
         "neoforge-26.2" = _ABweuwve;
         "default" = _ABweuwve;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "purpurpack-smelt-raw-ore-blocks";
-            id = "Sue2z8Bl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/PurpurMC/PurpurPacks#MIT-1";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "purpurpack-smelt-raw-ore-blocks";
+        id = "Sue2z8Bl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/PurpurMC/PurpurPacks#MIT-1";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

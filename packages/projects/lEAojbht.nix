@@ -55,23 +55,20 @@ let
         "fabric-26.2" = _wOGZNA1H;
         "default" = _wOGZNA1H;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "npc-lib";
-            id = "lEAojbht";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/juliarn/npc-lib/blob/v3/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "npc-lib";
+        id = "lEAojbht";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/juliarn/npc-lib/blob/v3/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

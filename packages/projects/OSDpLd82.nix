@@ -84,23 +84,20 @@ let
         "forge-1.20.1" = _ojHucLxr;
         "default" = _Of3JR2lP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "building-but-better";
-            id = "OSDpLd82";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Starfish-License";
-                    shortName = "LicenseRef-Starfish-License";
-                    url = "https://github.com/starfish-studios/Building-But-Better/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "building-but-better";
+        id = "OSDpLd82";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Starfish-License";
+                shortName = "LicenseRef-Starfish-License";
+                url = "https://github.com/starfish-studios/Building-But-Better/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

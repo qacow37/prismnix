@@ -80,23 +80,20 @@ let
         "minecraft-1.21.11" = _7MU2IH9k;
         "default" = _7MU2IH9k;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "scl-cr10";
-            id = "pA8H0yFe";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DogeStudios-General-Product-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DogeStudios-General-Product-License";
-                    shortName = "LicenseRef-DogeStudios-General-Product-License";
-                    url = "https://bit.ly/3FDIH5v";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "scl-cr10";
+        id = "pA8H0yFe";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DogeStudios-General-Product-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DogeStudios-General-Product-License";
+                shortName = "LicenseRef-DogeStudios-General-Product-License";
+                url = "https://bit.ly/3FDIH5v";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

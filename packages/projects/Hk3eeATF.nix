@@ -168,23 +168,20 @@ let
         "fabric-26.2" = _3FpQYzkT;
         "default" = _3FpQYzkT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "armour-bundles";
-            id = "Hk3eeATF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Auroali/armour-bundles/blob/dc355569d946cbd600144de294f3d8f263195d6e/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "armour-bundles";
+        id = "Hk3eeATF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Auroali/armour-bundles/blob/dc355569d946cbd600144de294f3d8f263195d6e/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

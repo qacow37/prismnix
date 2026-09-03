@@ -624,23 +624,20 @@ let
         "neoforge-26.1.2" = _s9HzePgb;
         "default" = _s9HzePgb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "neoenchant";
-            id = "BynmO8IO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Voxel";
-                    shortName = "LicenseRef-Voxel";
-                    url = "https://github.com/Hardel-DW/NeoEnchant/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "neoenchant";
+        id = "BynmO8IO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Voxel";
+                shortName = "LicenseRef-Voxel";
+                url = "https://github.com/Hardel-DW/NeoEnchant/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

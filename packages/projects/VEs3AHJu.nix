@@ -64,23 +64,20 @@ let
         "quilt-1.21" = _kyrCjCbg;
         "default" = _oOu7MCk3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "alcohol";
-            id = "VEs3AHJu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GNU-GPL-v3.0-plus-Chaotic-Hell-Clause" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GNU-GPL-v3.0-plus-Chaotic-Hell-Clause";
-                    shortName = "LicenseRef-GNU-GPL-v3.0-plus-Chaotic-Hell-Clause";
-                    url = "https://raw.githubusercontent.com/HerrChaos/alcohol_only/refs/heads/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "alcohol";
+        id = "VEs3AHJu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GNU-GPL-v3.0-plus-Chaotic-Hell-Clause" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GNU-GPL-v3.0-plus-Chaotic-Hell-Clause";
+                shortName = "LicenseRef-GNU-GPL-v3.0-plus-Chaotic-Hell-Clause";
+                url = "https://raw.githubusercontent.com/HerrChaos/alcohol_only/refs/heads/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

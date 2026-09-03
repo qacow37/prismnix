@@ -196,23 +196,20 @@ let
         "spigot-1.21.7" = _y59qjU0S;
         "default" = _y59qjU0S;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "iaup";
-            id = "wmbBDdpi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-IteamsAdderUploadPlus-Exclusive-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-IteamsAdderUploadPlus-Exclusive-License";
-                    shortName = "LicenseRef-IteamsAdderUploadPlus-Exclusive-License";
-                    url = "https://github.com/HelloTools-Studio/IAUP/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "iaup";
+        id = "wmbBDdpi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-IteamsAdderUploadPlus-Exclusive-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-IteamsAdderUploadPlus-Exclusive-License";
+                shortName = "LicenseRef-IteamsAdderUploadPlus-Exclusive-License";
+                url = "https://github.com/HelloTools-Studio/IAUP/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

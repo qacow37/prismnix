@@ -24,23 +24,20 @@ let
         "minecraft-26.2" = _xa8065z4;
         "default" = _xa8065z4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "deep-hollows";
-            id = "X6M6iMYr";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyOcean" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SkyOcean";
-                    shortName = "LicenseRef-SkyOcean";
-                    url = "https://github.com/meowdding/SkyOcean/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "deep-hollows";
+        id = "X6M6iMYr";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyOcean" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SkyOcean";
+                shortName = "LicenseRef-SkyOcean";
+                url = "https://github.com/meowdding/SkyOcean/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

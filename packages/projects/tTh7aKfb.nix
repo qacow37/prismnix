@@ -15,23 +15,20 @@ let
         "fabric-1.20.4" = _zAtK6ljT;
         "default" = _zAtK6ljT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "end-reborn-additions";
-            id = "tTh7aKfb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Legacy-License";
-                    shortName = "LicenseRef-Legacy-License";
-                    url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "end-reborn-additions";
+        id = "tTh7aKfb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Legacy-License";
+                shortName = "LicenseRef-Legacy-License";
+                url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

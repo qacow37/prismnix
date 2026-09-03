@@ -38,23 +38,20 @@ let
         "neoforge-1.21.1" = _KJtV8Cab;
         "default" = _KJtV8Cab;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "divinerpg-compatability";
-            id = "LBDJRCEy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-rights-reserved-unless-otherwise-stated." {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-rights-reserved-unless-otherwise-stated.";
-                    shortName = "LicenseRef-All-rights-reserved-unless-otherwise-stated.";
-                    url = "https://legacy.curseforge.com/project/807162/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "divinerpg-compatability";
+        id = "LBDJRCEy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-rights-reserved-unless-otherwise-stated." {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-rights-reserved-unless-otherwise-stated.";
+                shortName = "LicenseRef-All-rights-reserved-unless-otherwise-stated.";
+                url = "https://legacy.curseforge.com/project/807162/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

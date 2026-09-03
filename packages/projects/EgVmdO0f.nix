@@ -49,23 +49,20 @@ let
         "minecraft-1.21.7" = _HuQd8RyA;
         "default" = _HuQd8RyA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "unlit-campfires";
-            id = "EgVmdO0f";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fyoncle-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fyoncle-Custom-License";
-                    shortName = "LicenseRef-Fyoncle-Custom-License";
-                    url = "https://github.com/Fyoncle/Unlit-Campfires/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "unlit-campfires";
+        id = "EgVmdO0f";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fyoncle-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fyoncle-Custom-License";
+                shortName = "LicenseRef-Fyoncle-Custom-License";
+                url = "https://github.com/Fyoncle/Unlit-Campfires/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

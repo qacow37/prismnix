@@ -141,23 +141,20 @@ let
         "fabric-26.2" = _ubdmDhzE;
         "default" = _ubdmDhzE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "webs";
-            id = "y6IaGCHf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Limited-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Limited-All-Rights-Reserved";
-                    shortName = "LicenseRef-Limited-All-Rights-Reserved";
-                    url = "https://github.com/PotatoWolfie/web/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "webs";
+        id = "y6IaGCHf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Limited-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Limited-All-Rights-Reserved";
+                shortName = "LicenseRef-Limited-All-Rights-Reserved";
+                url = "https://github.com/PotatoWolfie/web/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -221,23 +221,20 @@ let
         "neoforge-26.1.2" = _XxkVqGbT;
         "default" = _XxkVqGbT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "beyondenchant";
-            id = "t2pMCVgG";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Voxel-License";
-                    shortName = "LicenseRef-Voxel-License";
-                    url = "https://github.com/Hardel-DW/BeyondEnchant/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "beyondenchant";
+        id = "t2pMCVgG";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Voxel-License";
+                shortName = "LicenseRef-Voxel-License";
+                url = "https://github.com/Hardel-DW/BeyondEnchant/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

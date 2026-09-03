@@ -21,23 +21,20 @@ let
         "quilt-1.21.11" = _PEMX1YBK;
         "default" = _PEMX1YBK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ride-dash-airbikes";
-            id = "qOrqTVcN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Geegaz-Datapacks/RideDash/blob/main/src/LICENSE_datapack.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ride-dash-airbikes";
+        id = "qOrqTVcN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Geegaz-Datapacks/RideDash/blob/main/src/LICENSE_datapack.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

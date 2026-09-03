@@ -194,23 +194,20 @@ let
         "quilt-1.21" = _7w5Vq1Lk;
         "default" = _7w5Vq1Lk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chitinous_ties";
-            id = "MkLZoL69";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Open-Horse-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Open-Horse-License";
-                    shortName = "LicenseRef-Open-Horse-License";
-                    url = "https://git.lunabee.space/chitinous_ties/file/LICENSE.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chitinous_ties";
+        id = "MkLZoL69";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Open-Horse-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Open-Horse-License";
+                shortName = "LicenseRef-Open-Horse-License";
+                url = "https://git.lunabee.space/chitinous_ties/file/LICENSE.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

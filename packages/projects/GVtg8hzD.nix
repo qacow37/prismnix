@@ -70,23 +70,20 @@ let
         "minecraft-1.21.5" = _sU4WxgMm;
         "default" = _sU4WxgMm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "misans-font";
-            id = "GVtg8hzD";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MiSans-Font-Intellectual-Property-License-Agreement" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MiSans-Font-Intellectual-Property-License-Agreement";
-                    shortName = "LicenseRef-MiSans-Font-Intellectual-Property-License-Agreement";
-                    url = "https://hyperos.mi.com/font-download/MiSans%E5%AD%97%E4%BD%93%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE.pdf";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "misans-font";
+        id = "GVtg8hzD";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MiSans-Font-Intellectual-Property-License-Agreement" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MiSans-Font-Intellectual-Property-License-Agreement";
+                shortName = "LicenseRef-MiSans-Font-Intellectual-Property-License-Agreement";
+                url = "https://hyperos.mi.com/font-download/MiSans%E5%AD%97%E4%BD%93%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE.pdf";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

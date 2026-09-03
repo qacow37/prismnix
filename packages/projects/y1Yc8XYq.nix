@@ -76,23 +76,20 @@ let
         "quilt-26.2" = _bVtyEOoy;
         "default" = _bVtyEOoy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "illuminated";
-            id = "y1Yc8XYq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-License";
-                    shortName = "LicenseRef-Lambda-License";
-                    url = "https://github.com/LambdAurora/Illuminated/blob/1.21.4/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "illuminated";
+        id = "y1Yc8XYq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-License";
+                shortName = "LicenseRef-Lambda-License";
+                url = "https://github.com/LambdAurora/Illuminated/blob/1.21.4/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

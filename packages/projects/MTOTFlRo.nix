@@ -85,23 +85,20 @@ let
         "neoforge-1.20.6" = _TyCzf2sz;
         "default" = _kGj2MzL0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "knights-and-castles";
-            id = "MTOTFlRo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Amethyst" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Amethyst";
-                    shortName = "LicenseRef-Amethyst";
-                    url = "https://github.com/gamerbenyt/Amethyst/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "knights-and-castles";
+        id = "MTOTFlRo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Amethyst" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Amethyst";
+                shortName = "LicenseRef-Amethyst";
+                url = "https://github.com/gamerbenyt/Amethyst/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

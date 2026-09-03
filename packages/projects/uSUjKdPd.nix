@@ -11,23 +11,20 @@ let
         "forge-1.12.2" = _tG707yJ0;
         "default" = _tG707yJ0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "misty-world";
-            id = "uSUjKdPd";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Artistic-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Artistic License 2.0";
-                    shortName = "Artistic-2.0";
-                    url = "https://www.perlfoundation.org/artistic-license-20.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "misty-world";
+        id = "uSUjKdPd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Artistic-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Artistic License 2.0";
+                shortName = "Artistic-2.0";
+                url = "https://www.perlfoundation.org/artistic-license-20.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

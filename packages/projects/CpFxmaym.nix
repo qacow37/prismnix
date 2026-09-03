@@ -42,23 +42,20 @@ let
         "fabric-1.20.1" = _eAYyX0WT;
         "default" = _eAYyX0WT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sugar-delight!";
-            id = "CpFxmaym";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://t.me/imnotlemonTA10";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sugar-delight!";
+        id = "CpFxmaym";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://t.me/imnotlemonTA10";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -10093,23 +10093,20 @@ let
         "legacy-fabric-1.6.4" = _4L8kwbLQ;
         "default" = _Z3o6SnNQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "crash-assistant";
-            id = "ix1qq8Ux";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LicenseRef-KostromDan-MML-1.1.3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LicenseRef-KostromDan-MML-1.1.3";
-                    shortName = "LicenseRef-LicenseRef-KostromDan-MML-1.1.3";
-                    url = "https://github.com/KostromDan/Crash-Assistant/blob/1.19-1.20.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "crash-assistant";
+        id = "ix1qq8Ux";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LicenseRef-KostromDan-MML-1.1.3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LicenseRef-KostromDan-MML-1.1.3";
+                shortName = "LicenseRef-LicenseRef-KostromDan-MML-1.1.3";
+                url = "https://github.com/KostromDan/Crash-Assistant/blob/1.19-1.20.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

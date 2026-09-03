@@ -160,23 +160,20 @@ let
         "fabric-1.21.5" = _q0APUPSB;
         "default" = _BbBimWSL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "speaking-villagers-chatgpt-and-tts";
-            id = "wtm9IaHc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Speaking-Villagers-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Speaking-Villagers-Mod-License";
-                    shortName = "LicenseRef-Speaking-Villagers-Mod-License";
-                    url = "https://sites.google.com/view/speaking-villagers-wiki/speaking-villagers-mod-license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "speaking-villagers-chatgpt-and-tts";
+        id = "wtm9IaHc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Speaking-Villagers-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Speaking-Villagers-Mod-License";
+                shortName = "LicenseRef-Speaking-Villagers-Mod-License";
+                url = "https://sites.google.com/view/speaking-villagers-wiki/speaking-villagers-mod-license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

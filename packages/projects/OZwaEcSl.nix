@@ -542,23 +542,20 @@ let
         "fabric-26.2" = _bJKcu3mP;
         "default" = _bJKcu3mP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bewisclient";
-            id = "OZwaEcSl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Bewisclient-1.0-International-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Bewisclient-1.0-International-License";
-                    shortName = "LicenseRef-Bewisclient-1.0-International-License";
-                    url = "https://raw.githubusercontent.com/bewisclient-team/bewisclient-v3/refs/heads/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bewisclient";
+        id = "OZwaEcSl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Bewisclient-1.0-International-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Bewisclient-1.0-International-License";
+                shortName = "LicenseRef-Bewisclient-1.0-International-License";
+                url = "https://raw.githubusercontent.com/bewisclient-team/bewisclient-v3/refs/heads/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

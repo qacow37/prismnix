@@ -2122,23 +2122,20 @@ let
         "neoforge-1.21.11" = _Rh2ImJ86;
         "default" = _Rh2ImJ86;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "zume";
-            id = "o6qsdrrQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Open Software License 3.0";
-                    shortName = "OSL-3.0";
-                    url = "https://github.com/Nolij/Zume/raw/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "zume";
+        id = "o6qsdrrQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OSL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Open Software License 3.0";
+                shortName = "OSL-3.0";
+                url = "https://github.com/Nolij/Zume/raw/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

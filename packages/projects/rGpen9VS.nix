@@ -106,23 +106,20 @@ let
         "neoforge-1.20.4" = _Jrop22Rb;
         "default" = _xQLssPqI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enderswords";
-            id = "rGpen9VS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-R-NR";
-                    shortName = "LicenseRef-MIT-R-NR";
-                    url = "https://github.com/purejosh/enderswords/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enderswords";
+        id = "rGpen9VS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-R-NR";
+                shortName = "LicenseRef-MIT-R-NR";
+                url = "https://github.com/purejosh/enderswords/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

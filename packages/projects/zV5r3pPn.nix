@@ -5092,23 +5092,20 @@ let
         "neoforge-26.1.2" = _IEzXSo3w;
         "default" = _rJYtiDew;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "3dskinlayers";
-            id = "zV5r3pPn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-tr7zw-Protective-License";
-                    shortName = "LicenseRef-tr7zw-Protective-License";
-                    url = "https://github.com/tr7zw/3d-Skin-Layers/blob/1.17/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "3dskinlayers";
+        id = "zV5r3pPn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-tr7zw-Protective-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-tr7zw-Protective-License";
+                shortName = "LicenseRef-tr7zw-Protective-License";
+                url = "https://github.com/tr7zw/3d-Skin-Layers/blob/1.17/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

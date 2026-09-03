@@ -60,23 +60,20 @@ let
         "minecraft-1.21" = _4nfuS8vp;
         "default" = _4nfuS8vp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "vexxed-visuals-terrafirmacraft";
-            id = "TAEibNyf";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-EUROPEAN-UNION-PUBLIC-LICENCE-v.-1.2-EUPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-EUROPEAN-UNION-PUBLIC-LICENCE-v.-1.2-EUPL";
-                    shortName = "LicenseRef-EUROPEAN-UNION-PUBLIC-LICENCE-v.-1.2-EUPL";
-                    url = "https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/open-source-strategy-history/european-union-public-licence_en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vexxed-visuals-terrafirmacraft";
+        id = "TAEibNyf";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-EUROPEAN-UNION-PUBLIC-LICENCE-v.-1.2-EUPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-EUROPEAN-UNION-PUBLIC-LICENCE-v.-1.2-EUPL";
+                shortName = "LicenseRef-EUROPEAN-UNION-PUBLIC-LICENCE-v.-1.2-EUPL";
+                url = "https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/open-source-strategy-history/european-union-public-licence_en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

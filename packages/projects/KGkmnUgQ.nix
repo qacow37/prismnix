@@ -19,23 +19,20 @@ let
         "fabric-1.20.1" = _LcgmaDyW;
         "default" = _LcgmaDyW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "god-tool";
-            id = "KGkmnUgQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-and-GPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC0-1.0-and-GPL-3.0";
-                    shortName = "LicenseRef-CC0-1.0-and-GPL-3.0";
-                    url = "https://github.com/Coool-one/God-tool/tree/forge/default?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "god-tool";
+        id = "KGkmnUgQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0-and-GPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC0-1.0-and-GPL-3.0";
+                shortName = "LicenseRef-CC0-1.0-and-GPL-3.0";
+                url = "https://github.com/Coool-one/God-tool/tree/forge/default?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

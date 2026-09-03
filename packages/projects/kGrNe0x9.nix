@@ -29,23 +29,20 @@ let
         "minecraft-26.1" = _obuSG96e;
         "default" = _obuSG96e;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "incendium-textures-reimagined";
-            id = "kGrNe0x9";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Stardust-Labs-License";
-                    shortName = "LicenseRef-Stardust-Labs-License";
-                    url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "incendium-textures-reimagined";
+        id = "kGrNe0x9";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Stardust-Labs-License";
+                shortName = "LicenseRef-Stardust-Labs-License";
+                url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

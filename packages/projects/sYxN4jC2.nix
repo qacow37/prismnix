@@ -75,23 +75,20 @@ let
         "forge-1.20.1" = _FPCWfb0F;
         "default" = _FPCWfb0F;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rpg-timeline";
-            id = "sYxN4jC2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Z2SIX-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Z2SIX-Mod-License";
-                    shortName = "LicenseRef-Z2SIX-Mod-License";
-                    url = "https://z2six.dev/en/legal/licenses";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rpg-timeline";
+        id = "sYxN4jC2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Z2SIX-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Z2SIX-Mod-License";
+                shortName = "LicenseRef-Z2SIX-Mod-License";
+                url = "https://z2six.dev/en/legal/licenses";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

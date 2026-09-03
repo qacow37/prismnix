@@ -298,23 +298,20 @@ let
         "quilt-1.20.1" = _kJnEswOQ;
         "default" = _50maZm84;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "aquamirae";
-            id = "k23mNPhZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Obscuria-Modding" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Obscuria-Modding";
-                    shortName = "LicenseRef-Obscuria-Modding";
-                    url = "https://obscurialithium.github.io/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "aquamirae";
+        id = "k23mNPhZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Obscuria-Modding" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Obscuria-Modding";
+                shortName = "LicenseRef-Obscuria-Modding";
+                url = "https://obscurialithium.github.io/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

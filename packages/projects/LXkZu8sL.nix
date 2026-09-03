@@ -337,23 +337,20 @@ let
         "neoforge-1.20.1" = _flqMjCM7;
         "default" = _flqMjCM7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "alivecombat";
-            id = "LXkZu8sL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
-                    url = "https://github.com/XM666-Dev/alivecombat/blob/1.21.1/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "alivecombat";
+        id = "LXkZu8sL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                url = "https://github.com/XM666-Dev/alivecombat/blob/1.21.1/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

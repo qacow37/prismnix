@@ -193,23 +193,20 @@ let
         "quilt-1.20.4" = _AUfp2ReS;
         "default" = _7UUgrDDA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "icommon";
-            id = "SVKv1SZo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0 AND Unlicense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LGPL-3.0 AND Unlicense";
-                    shortName = "LGPL-3.0 AND Unlicense";
-                    url = "https://cardboardpowered.org/icommon/download/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "icommon";
+        id = "SVKv1SZo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0 AND Unlicense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LGPL-3.0 AND Unlicense";
+                shortName = "LGPL-3.0 AND Unlicense";
+                url = "https://cardboardpowered.org/icommon/download/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

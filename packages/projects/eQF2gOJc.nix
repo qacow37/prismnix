@@ -56,23 +56,20 @@ let
         "bukkit-1.20.1" = _IMjJrwlv;
         "default" = _IMjJrwlv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "armourers-workshop-plugin";
-            id = "eQF2gOJc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported";
-                    shortName = "CC-BY-NC-SA-3.0";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "armourers-workshop-plugin";
+        id = "eQF2gOJc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported";
+                shortName = "CC-BY-NC-SA-3.0";
+                url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

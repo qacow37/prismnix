@@ -513,23 +513,20 @@ let
         "neoforge-26.1.2" = _u1Sq6Zqa;
         "default" = _qxotJ4bP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enchants-and-expeditions";
-            id = "g1PZM73x";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Legacy-License";
-                    shortName = "LicenseRef-Legacy-License";
-                    url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enchants-and-expeditions";
+        id = "g1PZM73x";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Legacy-License";
+                shortName = "LicenseRef-Legacy-License";
+                url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

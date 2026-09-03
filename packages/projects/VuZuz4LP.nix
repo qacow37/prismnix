@@ -18,23 +18,20 @@ let
         "quilt-1.20.2" = _YHRo2bbz;
         "default" = _YHRo2bbz;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bow-spam-be-gone";
-            id = "VuZuz4LP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/squeeglii/BowSpamBeGone/blob/latest/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bow-spam-be-gone";
+        id = "VuZuz4LP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/squeeglii/BowSpamBeGone/blob/latest/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

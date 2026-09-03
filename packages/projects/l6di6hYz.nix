@@ -98,23 +98,20 @@ let
         "optifine-26.1.2" = _kqFlgfIA;
         "default" = _kqFlgfIA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fantasy-shaders";
-            id = "l6di6hYz";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-READM.md" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-READM.md";
-                    shortName = "LicenseRef-READM.md";
-                    url = "https://github.com/AleGraphics17/privacy-policy/blob/main/README.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fantasy-shaders";
+        id = "l6di6hYz";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-READM.md" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-READM.md";
+                shortName = "LicenseRef-READM.md";
+                url = "https://github.com/AleGraphics17/privacy-policy/blob/main/README.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

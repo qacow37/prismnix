@@ -143,23 +143,20 @@ let
         "fabric-1.18.2" = _tZ2OLCFA;
         "default" = _xavC3iVn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "grindy-elytras";
-            id = "Nr1fitr3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fyoncle-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fyoncle-Custom-License";
-                    shortName = "LicenseRef-Fyoncle-Custom-License";
-                    url = "https://github.com/Fyoncle/Grindy-Elytras/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "grindy-elytras";
+        id = "Nr1fitr3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fyoncle-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fyoncle-Custom-License";
+                shortName = "LicenseRef-Fyoncle-Custom-License";
+                url = "https://github.com/Fyoncle/Grindy-Elytras/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

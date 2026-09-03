@@ -609,23 +609,20 @@ let
         "forge-1.21.1" = _POJVRI1b;
         "default" = _BQDQpvkc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simple-autopickup";
-            id = "ycs4OjaI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGPL-3.0-only";
-                    shortName = "LicenseRef-AGPL-3.0-only";
-                    url = "https://www.gnu.org/licenses/gpl-3.0.en.html#license-text";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-autopickup";
+        id = "ycs4OjaI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGPL-3.0-only";
+                shortName = "LicenseRef-AGPL-3.0-only";
+                url = "https://www.gnu.org/licenses/gpl-3.0.en.html#license-text";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

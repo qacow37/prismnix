@@ -135,23 +135,20 @@ let
         "minecraft-26.1" = _bjbD34o6;
         "default" = _bjbD34o6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "extra-flowery-gui";
-            id = "UYeecoyN";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Overgrown-Flowery-GUI-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Overgrown-Flowery-GUI-License";
-                    shortName = "LicenseRef-Overgrown-Flowery-GUI-License";
-                    url = "https://pastebin.com/raw/7BVw5dLt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "extra-flowery-gui";
+        id = "UYeecoyN";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Overgrown-Flowery-GUI-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Overgrown-Flowery-GUI-License";
+                shortName = "LicenseRef-Overgrown-Flowery-GUI-License";
+                url = "https://pastebin.com/raw/7BVw5dLt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

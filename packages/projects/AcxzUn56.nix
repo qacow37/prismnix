@@ -306,23 +306,20 @@ let
         "neoforge-26.1.2" = _bKMCRN2L;
         "default" = _OdxPumSf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "handwerk";
-            id = "AcxzUn56";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Handwerk-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Handwerk-Custom-License";
-                    shortName = "LicenseRef-Handwerk-Custom-License";
-                    url = "https://codeberg.org/OxFaTech/Handwerk/src/branch/next/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "handwerk";
+        id = "AcxzUn56";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Handwerk-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Handwerk-Custom-License";
+                shortName = "LicenseRef-Handwerk-Custom-License";
+                url = "https://codeberg.org/OxFaTech/Handwerk/src/branch/next/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

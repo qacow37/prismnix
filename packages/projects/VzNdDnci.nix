@@ -83,23 +83,20 @@ let
         "forge-1.20.1" = _vRW0Vci0;
         "default" = _vRW0Vci0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stacked-armor-trims";
-            id = "VzNdDnci";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense";
-                    shortName = "LicenseRef-ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense";
-                    url = "https://github.com/ApfelRauber/StackedTrims/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stacked-armor-trims";
+        id = "VzNdDnci";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense";
+                shortName = "LicenseRef-ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense";
+                url = "https://github.com/ApfelRauber/StackedTrims/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -107,23 +107,20 @@ let
         "bta-babric-b1.7.3" = _HtTubTnI;
         "default" = _HtTubTnI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rins-fortress";
-            id = "DkxWbUyM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC0-1.0";
-                    shortName = "LicenseRef-CC0-1.0";
-                    url = "https://github.com/mizuri-n/Better-with-defense?tab=CC0-1.0-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rins-fortress";
+        id = "DkxWbUyM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC0-1.0";
+                shortName = "LicenseRef-CC0-1.0";
+                url = "https://github.com/mizuri-n/Better-with-defense?tab=CC0-1.0-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -33,23 +33,20 @@ let
         "fabric-1.21.4" = _Zsp8biQQ;
         "default" = _Zsp8biQQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tabgamemodes";
-            id = "kbDaN0zg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/oddbyte/TabGamemode?tab=License-2-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tabgamemodes";
+        id = "kbDaN0zg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/oddbyte/TabGamemode?tab=License-2-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

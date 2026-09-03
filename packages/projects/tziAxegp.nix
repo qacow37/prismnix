@@ -54,23 +54,20 @@ let
         "fabric-1.20.1" = _eEo4Y9fU;
         "default" = _DueJeoY9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "emojiless";
-            id = "tziAxegp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "0BSD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD Zero Clause License";
-                    shortName = "0BSD";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "emojiless";
+        id = "tziAxegp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "0BSD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD Zero Clause License";
+                shortName = "0BSD";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -25,23 +25,20 @@ let
         "forge-1.20.4" = _3oHJK77v;
         "default" = _3oHJK77v;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "and-there-was-only-one-bed";
-            id = "iEOEWNV5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    shortName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "and-there-was-only-one-bed";
+        id = "iEOEWNV5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-SA-3.0";
+                shortName = "LicenseRef-CC-BY-NC-SA-3.0";
+                url = "https://creativecommons.org/licenses/by-nc-sa/3.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

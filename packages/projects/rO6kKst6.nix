@@ -256,23 +256,20 @@ let
         "neoforge-26.1.2" = _3qL2nOis;
         "default" = _3qL2nOis;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "railcraft-reborn";
-            id = "rO6kKst6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Railcraft-Reborn-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Railcraft-Reborn-License";
-                    shortName = "LicenseRef-Railcraft-Reborn-License";
-                    url = "https://github.com/railcraft-reborn/railcraft/blob/1.20.x/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "railcraft-reborn";
+        id = "rO6kKst6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Railcraft-Reborn-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Railcraft-Reborn-License";
+                shortName = "LicenseRef-Railcraft-Reborn-License";
+                url = "https://github.com/railcraft-reborn/railcraft/blob/1.20.x/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

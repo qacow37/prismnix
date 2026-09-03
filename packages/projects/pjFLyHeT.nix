@@ -1411,23 +1411,20 @@ let
         "neoforge-1.21.5" = _ZWayZ43K;
         "default" = _IC667RDl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "openlink";
-            id = "pjFLyHeT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SCAUP" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SCAUP";
-                    shortName = "LicenseRef-SCAUP";
-                    url = "https://github.com/StarCarefree/OpenLink?tab=MIT-1-ov-file#readme";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "openlink";
+        id = "pjFLyHeT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SCAUP" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SCAUP";
+                shortName = "LicenseRef-SCAUP";
+                url = "https://github.com/StarCarefree/OpenLink?tab=MIT-1-ov-file#readme";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -42,23 +42,20 @@ let
         "fabric-1.20.4" = _cvn0lJ6B;
         "default" = _cvn0lJ6B;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lemclienthelper";
-            id = "7aopnLji";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Perimeter" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Perimeter";
-                    shortName = "LicenseRef-PolyForm-Perimeter";
-                    url = "https://polyformproject.org/licenses/perimeter/1.0.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lemclienthelper";
+        id = "7aopnLji";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Perimeter" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Perimeter";
+                shortName = "LicenseRef-PolyForm-Perimeter";
+                url = "https://polyformproject.org/licenses/perimeter/1.0.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

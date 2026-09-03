@@ -116,23 +116,20 @@ let
         "quilt-26.2" = _HuW6FVHb;
         "default" = _HuW6FVHb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "harry-potter-wizarding-world";
-            id = "rZTUf963";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-HPWW-Project-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-HPWW-Project-License";
-                    shortName = "LicenseRef-HPWW-Project-License";
-                    url = "https://github.com/MrSheep11/Harry-Potter-And-The-Wizarding-World/blob/HPWW-Datapack-Resourcepack/Harry%20Potter%20_%20Wizarding%20World%20Liscense%20_%20MrSh3ep.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "harry-potter-wizarding-world";
+        id = "rZTUf963";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-HPWW-Project-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-HPWW-Project-License";
+                shortName = "LicenseRef-HPWW-Project-License";
+                url = "https://github.com/MrSheep11/Harry-Potter-And-The-Wizarding-World/blob/HPWW-Datapack-Resourcepack/Harry%20Potter%20_%20Wizarding%20World%20Liscense%20_%20MrSh3ep.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

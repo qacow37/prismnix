@@ -1189,23 +1189,20 @@ let
         "neoforge-26.1.1" = _rowEwQyq;
         "default" = _EfkDkE6V;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "config-manager";
-            id = "wp5JcWwZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Mozilla Public License 2.0";
-                    shortName = "MPL-2.0";
-                    url = "https://github.com/FelixAgairu/config-manager/blob/6188510cfda14f89698b9c948aaeae216850dbb6/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "config-manager";
+        id = "wp5JcWwZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://github.com/FelixAgairu/config-manager/blob/6188510cfda14f89698b9c948aaeae216850dbb6/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

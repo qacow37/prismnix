@@ -114,23 +114,20 @@ let
         "fabric-1.21.4" = _agtkZFtr;
         "default" = _agtkZFtr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nubs-qol-mods";
-            id = "bYwHgKTK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://raw.githubusercontent.com/NUB31/nub-qol/master/LICENSE?token=GHSAT0AAAAAACMIUPLZTF37J26FAICUGBJEZOTXT7Q";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nubs-qol-mods";
+        id = "bYwHgKTK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://raw.githubusercontent.com/NUB31/nub-qol/master/LICENSE?token=GHSAT0AAAAAACMIUPLZTF37J26FAICUGBJEZOTXT7Q";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

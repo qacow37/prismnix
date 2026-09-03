@@ -68,23 +68,20 @@ let
         "minecraft-26.3-snapshot-5" = _gWOWHFtt;
         "default" = _gWOWHFtt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "netherite-sword-plus";
-            id = "GsLN2O0y";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://www.apache.org/licenses/LICENSE-2.0.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "netherite-sword-plus";
+        id = "GsLN2O0y";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

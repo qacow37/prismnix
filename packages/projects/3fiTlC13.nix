@@ -332,23 +332,20 @@ let
         "quilt-23w16a" = _Cw9fbwfW;
         "default" = _ScPWv9ZI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nnbsp-fix";
-            id = "3fiTlC13";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/tildejustin/nnbsp-fix/blob/main/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nnbsp-fix";
+        id = "3fiTlC13";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/tildejustin/nnbsp-fix/blob/main/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

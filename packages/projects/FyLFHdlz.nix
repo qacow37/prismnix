@@ -1075,23 +1075,20 @@ let
         "neoforge-26.1" = _eZoRyZ7g;
         "default" = _eZoRyZ7g;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mingen";
-            id = "FyLFHdlz";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-nederliver-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-nederliver-license";
-                    shortName = "LicenseRef-nederliver-license";
-                    url = "https://github.com/nederliver/MinGen/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mingen";
+        id = "FyLFHdlz";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-nederliver-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-nederliver-license";
+                shortName = "LicenseRef-nederliver-license";
+                url = "https://github.com/nederliver/MinGen/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

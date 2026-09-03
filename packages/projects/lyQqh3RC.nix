@@ -78,23 +78,20 @@ let
         "spigot-1.21.1" = _v7LjD3AV;
         "default" = _v7LjD3AV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "keepchunks";
-            id = "lyQqh3RC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-License";
-                    shortName = "LicenseRef-License";
-                    url = "https://github.com/Geitenijs/KeepChunks/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "keepchunks";
+        id = "lyQqh3RC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-License";
+                shortName = "LicenseRef-License";
+                url = "https://github.com/Geitenijs/KeepChunks/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

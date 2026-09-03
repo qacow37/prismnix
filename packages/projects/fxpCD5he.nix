@@ -66,23 +66,20 @@ let
         "fabric-1.20.2" = _fy9aYlKi;
         "default" = _fy9aYlKi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "blockgame-enhanced";
-            id = "fxpCD5he";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/jb0s/blockgame-enhanced/blob/production/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "blockgame-enhanced";
+        id = "fxpCD5he";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/jb0s/blockgame-enhanced/blob/production/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

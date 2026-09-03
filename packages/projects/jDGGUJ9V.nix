@@ -217,23 +217,20 @@ let
         "quilt-26.2" = _5F53Wsaf;
         "default" = _12XjC9Jd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bubblellaneous";
-            id = "jDGGUJ9V";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Share Alike 4.0 International";
-                    shortName = "CC-BY-SA-4.0";
-                    url = "https://github.com/bbfh-dev/bubblellaneous-pack/blob/main/src/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bubblellaneous";
+        id = "jDGGUJ9V";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Share Alike 4.0 International";
+                shortName = "CC-BY-SA-4.0";
+                url = "https://github.com/bbfh-dev/bubblellaneous-pack/blob/main/src/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

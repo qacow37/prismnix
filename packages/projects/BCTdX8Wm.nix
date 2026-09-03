@@ -17,23 +17,20 @@ let
         "fabric-1.21.1" = _7AjfD60B;
         "default" = _7AjfD60B;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "kantostarters";
-            id = "BCTdX8Wm";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CobbleKanto-Project-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CobbleKanto-Project-Custom-License";
-                    shortName = "LicenseRef-CobbleKanto-Project-Custom-License";
-                    url = "https://gist.github.com/PrimordioCobble/781664946f0ed66ca56d16eac72bbfdf";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "kantostarters";
+        id = "BCTdX8Wm";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CobbleKanto-Project-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CobbleKanto-Project-Custom-License";
+                shortName = "LicenseRef-CobbleKanto-Project-Custom-License";
+                url = "https://gist.github.com/PrimordioCobble/781664946f0ed66ca56d16eac72bbfdf";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

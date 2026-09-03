@@ -60,23 +60,20 @@ let
         "quilt-1.21.5" = _LpuUPtjc;
         "default" = _LpuUPtjc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "arrow-bundles";
-            id = "h2GiYSi0";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://imgs.xkcd.com/comics/gdpr.png";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "arrow-bundles";
+        id = "h2GiYSi0";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://imgs.xkcd.com/comics/gdpr.png";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

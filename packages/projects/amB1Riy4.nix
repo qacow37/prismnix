@@ -396,23 +396,20 @@ let
         "quilt-26.2" = _ZHw23wbr;
         "default" = _ZHw23wbr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "key";
-            id = "amB1Riy4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Therms-of-use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Therms-of-use";
-                    shortName = "LicenseRef-Therms-of-use";
-                    url = "https://cmd-golem.com/info/legal.html#therms_of_use";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "key";
+        id = "amB1Riy4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Therms-of-use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Therms-of-use";
+                shortName = "LicenseRef-Therms-of-use";
+                url = "https://cmd-golem.com/info/legal.html#therms_of_use";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

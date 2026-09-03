@@ -1584,23 +1584,20 @@ let
         "neoforge-26.2" = _UDcubpko;
         "default" = _UDcubpko;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-stats";
-            id = "n6PXGAoM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Better-Statistics-Screen-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Better-Statistics-Screen-License";
-                    shortName = "LicenseRef-Better-Statistics-Screen-License";
-                    url = "https://github.com/TheCSDev/betterstats/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-stats";
+        id = "n6PXGAoM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Better-Statistics-Screen-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Better-Statistics-Screen-License";
+                shortName = "LicenseRef-Better-Statistics-Screen-License";
+                url = "https://github.com/TheCSDev/betterstats/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

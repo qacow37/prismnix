@@ -60,23 +60,20 @@ let
         "forge-1.20.4" = _wQdprtA8;
         "default" = _9vs7Ztp1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rabbit-pathfinding-fixed-(unofficial-forge-port)";
-            id = "GEndvIfp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://www.apache.org/licenses/LICENSE-2.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rabbit-pathfinding-fixed-(unofficial-forge-port)";
+        id = "GEndvIfp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://www.apache.org/licenses/LICENSE-2.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

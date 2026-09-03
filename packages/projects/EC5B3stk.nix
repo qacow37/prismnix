@@ -191,23 +191,20 @@ let
         "forge-1.7.10" = _okDedZnd;
         "default" = _okDedZnd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "middleearth-tweaks";
-            id = "EC5B3stk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/Javanosa/MiddleEarth-Tweaks/blob/main/License.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "middleearth-tweaks";
+        id = "EC5B3stk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/Javanosa/MiddleEarth-Tweaks/blob/main/License.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

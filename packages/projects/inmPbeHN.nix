@@ -587,23 +587,20 @@ let
         "neoforge-1.20.4" = _5jmfe5uw;
         "default" = _LrkZdrFQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fastentitytransfer";
-            id = "inmPbeHN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Christofmeg/FastEntityTransfer/blob/1.19.x-multiloader/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fastentitytransfer";
+        id = "inmPbeHN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Christofmeg/FastEntityTransfer/blob/1.19.x-multiloader/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

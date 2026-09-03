@@ -382,23 +382,20 @@ let
         "forge-1.16.5" = _TpUMhn0f;
         "default" = _apXlxTlZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "voltaic";
-            id = "kzF5itx6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AURILISDEV-LICENSE-1.0.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
-                    shortName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
-                    url = "https://github.com/aurilisdev/Electrodynamics/blob/1.20/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "voltaic";
+        id = "kzF5itx6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AURILISDEV-LICENSE-1.0.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
+                shortName = "LicenseRef-AURILISDEV-LICENSE-1.0.2";
+                url = "https://github.com/aurilisdev/Electrodynamics/blob/1.20/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

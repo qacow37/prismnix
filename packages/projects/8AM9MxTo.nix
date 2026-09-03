@@ -108,23 +108,20 @@ let
         "neoforge-1.21.1" = _sNZvtdD6;
         "default" = _sNZvtdD6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bmcmod";
-            id = "8AM9MxTo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOLEA-PIXEL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SOLEA-PIXEL";
-                    shortName = "LicenseRef-SOLEA-PIXEL";
-                    url = "https://soleapixel.com/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bmcmod";
+        id = "8AM9MxTo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOLEA-PIXEL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SOLEA-PIXEL";
+                shortName = "LicenseRef-SOLEA-PIXEL";
+                url = "https://soleapixel.com/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -30,23 +30,20 @@ let
         "fabric-1.20.1" = _B84Fe80F;
         "default" = _B84Fe80F;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-goggle-placement-lieonlion";
-            id = "dQG1xfZI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/LieOnLion/Create-Goggle-Placement/blob/github/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-goggle-placement-lieonlion";
+        id = "dQG1xfZI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/LieOnLion/Create-Goggle-Placement/blob/github/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

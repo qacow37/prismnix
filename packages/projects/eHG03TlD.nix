@@ -41,23 +41,20 @@ let
         "fabric-1.20.1" = _HYtD65cB;
         "default" = _HYtD65cB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "paxels-fabric";
-            id = "eHG03TlD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Carp-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Carp-License";
-                    shortName = "LicenseRef-Carp-License";
-                    url = "https://legacy.curseforge.com/project/1082907/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "paxels-fabric";
+        id = "eHG03TlD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Carp-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Carp-License";
+                shortName = "LicenseRef-Carp-License";
+                url = "https://legacy.curseforge.com/project/1082907/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

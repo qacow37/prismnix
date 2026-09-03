@@ -54,23 +54,20 @@ let
         "fabric-1.20.2" = _N4vmHCGp;
         "default" = _TbZuyz0C;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "squashed";
-            id = "dgDaegP4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Tellios-Projects/Squashed/blob/03ee480db3111b70041fcb94a18c56c3011ee795/LICENSE.md#L4";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "squashed";
+        id = "dgDaegP4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Tellios-Projects/Squashed/blob/03ee480db3111b70041fcb94a18c56c3011ee795/LICENSE.md#L4";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

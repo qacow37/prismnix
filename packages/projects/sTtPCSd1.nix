@@ -259,23 +259,20 @@ let
         "spigot-26.2" = _MXQO4Cab;
         "default" = _MXQO4Cab;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "thegoldeconomy";
-            id = "sTtPCSd1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-EUPL-1.2";
-                    shortName = "LicenseRef-EUPL-1.2";
-                    url = "https://eupl.eu/1.2/en/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "thegoldeconomy";
+        id = "sTtPCSd1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-EUPL-1.2";
+                shortName = "LicenseRef-EUPL-1.2";
+                url = "https://eupl.eu/1.2/en/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

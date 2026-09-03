@@ -294,23 +294,20 @@ let
         "minecraft-26.3-snapshot-4" = _z0AGZQop;
         "default" = _z0AGZQop;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fresh-music-disc";
-            id = "tCOxYZoD";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    shortName = "LicenseRef-CC-BY-NC-ND-4.0";
-                    url = "https://creativecommons.org/licenses/by-nc-nd/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fresh-music-disc";
+        id = "tCOxYZoD";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-ND-4.0";
+                shortName = "LicenseRef-CC-BY-NC-ND-4.0";
+                url = "https://creativecommons.org/licenses/by-nc-nd/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

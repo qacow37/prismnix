@@ -18,23 +18,20 @@ let
         "forge-1.20.1" = _uCwY65Gi;
         "default" = _uCwY65Gi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "amazing-digital-discs";
-            id = "yvAlkcjL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3.O" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AFL-3.O";
-                    shortName = "LicenseRef-AFL-3.O";
-                    url = "https://opensource.org/license/afl-3-0-php/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "amazing-digital-discs";
+        id = "yvAlkcjL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3.O" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AFL-3.O";
+                shortName = "LicenseRef-AFL-3.O";
+                url = "https://opensource.org/license/afl-3-0-php/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

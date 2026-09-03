@@ -59,23 +59,20 @@ let
         "fabric-1.21.10" = _G7z0tUaS;
         "default" = _G7z0tUaS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "armor-swapper";
-            id = "1U952SUK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17-Project-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fy17-Project-License";
-                    shortName = "LicenseRef-Fy17-Project-License";
-                    url = "https://github.com/FySjutton/ArmorSwapper/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "armor-swapper";
+        id = "1U952SUK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17-Project-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fy17-Project-License";
+                shortName = "LicenseRef-Fy17-Project-License";
+                url = "https://github.com/FySjutton/ArmorSwapper/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -147,23 +147,20 @@ let
         "fabric-26.1.2" = _uBYc7tJp;
         "default" = _uBYc7tJp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wider-tab";
-            id = "IA3kkkhV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/RedCarlos26/WiderTab/blob/main/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wider-tab";
+        id = "IA3kkkhV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/RedCarlos26/WiderTab/blob/main/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -49,23 +49,20 @@ let
         "quilt-1.20.4" = _moi92ex3;
         "default" = _moi92ex3;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "infinite-banner-patterns";
-            id = "mOsKcnBr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef--ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef--ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense-";
-                    shortName = "LicenseRef--ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense-";
-                    url = "https://github.com/ApfelRauber/InfiniteBannerStack/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "infinite-banner-patterns";
+        id = "mOsKcnBr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef--ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef--ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense-";
+                shortName = "LicenseRef--ApfelRaubers-generalized-Version-of-Blus-License-of-Common-Sense-";
+                url = "https://github.com/ApfelRauber/InfiniteBannerStack/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

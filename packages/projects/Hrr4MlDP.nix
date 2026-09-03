@@ -18,23 +18,20 @@ let
         "optifine-1.20" = _cBxsD2BF;
         "default" = _cBxsD2BF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "reflective-vanilla-shaders";
-            id = "Hrr4MlDP";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Zero v1.0 Universal";
-                    shortName = "CC0-1.0";
-                    url = "https://creativecommons.org/share-your-work/public-domain/cc0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "reflective-vanilla-shaders";
+        id = "Hrr4MlDP";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Zero v1.0 Universal";
+                shortName = "CC0-1.0";
+                url = "https://creativecommons.org/share-your-work/public-domain/cc0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

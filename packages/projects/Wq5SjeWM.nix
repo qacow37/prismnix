@@ -3908,23 +3908,20 @@ let
         "neoforge-26.2" = _ZqeTChk4;
         "default" = _ZqeTChk4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fancymenu";
-            id = "Wq5SjeWM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSLv3";
-                    shortName = "LicenseRef-DSMSLv3";
-                    url = "https://github.com/Keksuccino/FancyMenu/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fancymenu";
+        id = "Wq5SjeWM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSLv3";
+                shortName = "LicenseRef-DSMSLv3";
+                url = "https://github.com/Keksuccino/FancyMenu/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -652,23 +652,20 @@ let
         "fabric-1.21.11" = _upCfs9QZ;
         "default" = _1t3Wlixp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "music-and-melody";
-            id = "dpNZjlVi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Legacy-License";
-                    shortName = "LicenseRef-Legacy-License";
-                    url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "music-and-melody";
+        id = "dpNZjlVi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Legacy-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Legacy-License";
+                shortName = "LicenseRef-Legacy-License";
+                url = "https://github.com/Rebel459/legacies/blob/main/legacy-license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

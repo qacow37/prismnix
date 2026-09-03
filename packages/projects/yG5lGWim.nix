@@ -101,23 +101,20 @@ let
         "fabric-26.1.2" = _pmdiLIgL;
         "default" = _pmdiLIgL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stupid-block-animations";
-            id = "yG5lGWim";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stupid-Block-Animations-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Stupid-Block-Animations-License";
-                    shortName = "LicenseRef-Stupid-Block-Animations-License";
-                    url = "https://gist.githubusercontent.com/fenny013/dcb44a24f8cd1b406daedcf5cc0be089/raw/9363c31e4739ae78a864128d65cb28123166d4ad/gistfile1.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stupid-block-animations";
+        id = "yG5lGWim";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stupid-Block-Animations-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Stupid-Block-Animations-License";
+                shortName = "LicenseRef-Stupid-Block-Animations-License";
+                url = "https://gist.githubusercontent.com/fenny013/dcb44a24f8cd1b406daedcf5cc0be089/raw/9363c31e4739ae78a864128d65cb28123166d4ad/gistfile1.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

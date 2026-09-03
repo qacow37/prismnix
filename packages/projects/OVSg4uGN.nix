@@ -712,23 +712,20 @@ let
         "fabric-26.2" = _CEX4ERKQ;
         "default" = _LmzW19eV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "embers-text-api";
-            id = "OVSg4uGN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Embers-Modding-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Embers-Modding-License";
-                    shortName = "LicenseRef-Embers-Modding-License";
-                    url = "https://tysontheember.dev/modding-licence/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "embers-text-api";
+        id = "OVSg4uGN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Embers-Modding-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Embers-Modding-License";
+                shortName = "LicenseRef-Embers-Modding-License";
+                url = "https://tysontheember.dev/modding-licence/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

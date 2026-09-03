@@ -139,23 +139,20 @@ let
         "spigot-26.1.2" = _sbC7SZj3;
         "default" = _Y5wte3x9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "worldreset";
-            id = "xfwMgINI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldReset-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WorldReset-License";
-                    shortName = "LicenseRef-WorldReset-License";
-                    url = "https://github.com/vipluk/WorldReset/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "worldreset";
+        id = "xfwMgINI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldReset-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WorldReset-License";
+                shortName = "LicenseRef-WorldReset-License";
+                url = "https://github.com/vipluk/WorldReset/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

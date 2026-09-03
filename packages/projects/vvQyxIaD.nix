@@ -50,23 +50,20 @@ let
         "neoforge-1.20.1" = _J4lYgCGc;
         "default" = _J4lYgCGc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ancientvessels";
-            id = "vvQyxIaD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-R-NR";
-                    shortName = "LicenseRef-MIT-R-NR";
-                    url = "https://github.com/purejosh/ancientvessels/blob/a1d58bf5cbb7dd97d162030e2ff6959b9c11f196/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ancientvessels";
+        id = "vvQyxIaD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-R-NR";
+                shortName = "LicenseRef-MIT-R-NR";
+                url = "https://github.com/purejosh/ancientvessels/blob/a1d58bf5cbb7dd97d162030e2ff6959b9c11f196/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

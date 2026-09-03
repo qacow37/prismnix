@@ -88,23 +88,20 @@ let
         "minecraft-24w46a" = _3ijcaasQ;
         "default" = _3ijcaasQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "melodysillagers";
-            id = "J7uXWTVl";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://melodymews.com/?utm_source=Illagersmodrinth&utm_medium=referral&utm_campaign=Illagersmodrinth#termsofuse";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "melodysillagers";
+        id = "J7uXWTVl";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://melodymews.com/?utm_source=Illagersmodrinth&utm_medium=referral&utm_campaign=Illagersmodrinth#termsofuse";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

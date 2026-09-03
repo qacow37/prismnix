@@ -130,23 +130,20 @@ let
         "forge-26.1" = _DwuIe6ha;
         "default" = _DwuIe6ha;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spare-no-items";
-            id = "RIVSZ9Ee";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dash-MCL-ND-1.0-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dash-MCL-ND-1.0-License";
-                    shortName = "LicenseRef-Dash-MCL-ND-1.0-License";
-                    url = "https://gamedash43.github.io/dash-mcl-licenses/#nd";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spare-no-items";
+        id = "RIVSZ9Ee";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dash-MCL-ND-1.0-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dash-MCL-ND-1.0-License";
+                shortName = "LicenseRef-Dash-MCL-ND-1.0-License";
+                url = "https://gamedash43.github.io/dash-mcl-licenses/#nd";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

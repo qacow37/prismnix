@@ -71,23 +71,20 @@ let
         "forge-1.20.1" = _BOVeeCeF;
         "default" = _jeEOmKwO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "recipe-modification";
-            id = "fRIu3HNp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield";
-                    shortName = "LicenseRef-Polyform-Shield";
-                    url = "https://polyformproject.org/licenses/shield/1.0.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "recipe-modification";
+        id = "fRIu3HNp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield";
+                shortName = "LicenseRef-Polyform-Shield";
+                url = "https://polyformproject.org/licenses/shield/1.0.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

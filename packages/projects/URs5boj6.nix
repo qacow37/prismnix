@@ -103,23 +103,20 @@ let
         "ornithe-1.8.9" = _Fh3jEHeJ;
         "default" = _Fh3jEHeJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "radium-mod";
-            id = "URs5boj6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Shield-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Shield-1.0.0";
-                    url = "https://polyformproject.org/licenses/shield/1.0.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "radium-mod";
+        id = "URs5boj6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Shield-1.0.0";
+                shortName = "LicenseRef-PolyForm-Shield-1.0.0";
+                url = "https://polyformproject.org/licenses/shield/1.0.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

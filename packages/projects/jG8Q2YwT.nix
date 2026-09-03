@@ -558,23 +558,20 @@ let
         "neoforge-1.20.1" = _PO49nQ9r;
         "default" = _ou8TDqX2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "biome-makeover";
-            id = "jG8Q2YwT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/Lemonszz/Biome-Makeover/blob/1.18/LICENCE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "biome-makeover";
+        id = "jG8Q2YwT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/Lemonszz/Biome-Makeover/blob/1.18/LICENCE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -478,23 +478,20 @@ let
         "spigot-26.2" = _5y5frEy5;
         "default" = _5y5frEy5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nexusauctionhouse";
-            id = "7jTY70FG";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-NRNR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-NRNR";
-                    shortName = "LicenseRef-MIT-NRNR";
-                    url = "https://github.com/SynkMC/NexusAuctionHouse/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nexusauctionhouse";
+        id = "7jTY70FG";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-NRNR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-NRNR";
+                shortName = "LicenseRef-MIT-NRNR";
+                url = "https://github.com/SynkMC/NexusAuctionHouse/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

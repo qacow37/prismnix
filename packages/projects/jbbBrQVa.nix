@@ -277,23 +277,20 @@ let
         "quilt-1.21.1" = _8MaQRS0b;
         "default" = _EcX7NfgP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "missingmons-cobblemon";
-            id = "jbbBrQVa";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Missingmon-Asset-Use-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Missingmon-Asset-Use-License";
-                    shortName = "LicenseRef-Missingmon-Asset-Use-License";
-                    url = "https://gist.github.com/RedRibbonz/d0e17a3746a85909f90123e5701b05b1";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "missingmons-cobblemon";
+        id = "jbbBrQVa";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Missingmon-Asset-Use-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Missingmon-Asset-Use-License";
+                shortName = "LicenseRef-Missingmon-Asset-Use-License";
+                url = "https://gist.github.com/RedRibbonz/d0e17a3746a85909f90123e5701b05b1";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

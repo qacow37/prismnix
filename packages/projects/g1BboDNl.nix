@@ -18,23 +18,20 @@ let
         "neoforge-1.21.1" = _quylAxP6;
         "default" = _quylAxP6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lambdynamiclights-unofficial-neoforge";
-            id = "g1BboDNl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-The-Lambda-License";
-                    shortName = "LicenseRef-The-Lambda-License";
-                    url = "https://github.com/LostPattern/LambDynamicLights/blob/1.21/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lambdynamiclights-unofficial-neoforge";
+        id = "g1BboDNl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-The-Lambda-License";
+                shortName = "LicenseRef-The-Lambda-License";
+                url = "https://github.com/LostPattern/LambDynamicLights/blob/1.21/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

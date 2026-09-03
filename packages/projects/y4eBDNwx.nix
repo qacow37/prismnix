@@ -82,23 +82,20 @@ let
         "minecraft-1.21.1" = _ql2TWqGD;
         "default" = _ql2TWqGD;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hunger-preview-addon-for-faithful";
-            id = "y4eBDNwx";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MomentariyModder-License";
-                    shortName = "LicenseRef-MomentariyModder-License";
-                    url = "https://momentariymodder.com/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hunger-preview-addon-for-faithful";
+        id = "y4eBDNwx";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MomentariyModder-License";
+                shortName = "LicenseRef-MomentariyModder-License";
+                url = "https://momentariymodder.com/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

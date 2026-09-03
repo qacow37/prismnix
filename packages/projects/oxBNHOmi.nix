@@ -116,23 +116,20 @@ let
         "forge-1.20.1" = _NxDNyBxi;
         "default" = _NxDNyBxi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "shippy-ships";
-            id = "oxBNHOmi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---Limited-Rights-Granted" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License---Limited-Rights-Granted";
-                    shortName = "LicenseRef-Custom-License---Limited-Rights-Granted";
-                    url = "https://github.com/Caesius-Leo/Shippy-Ships/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "shippy-ships";
+        id = "oxBNHOmi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License---Limited-Rights-Granted" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License---Limited-Rights-Granted";
+                shortName = "LicenseRef-Custom-License---Limited-Rights-Granted";
+                url = "https://github.com/Caesius-Leo/Shippy-Ships/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

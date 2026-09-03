@@ -70,23 +70,20 @@ let
         "fabric-26.2" = _yTVH7vdk;
         "default" = _yTVH7vdk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "silly-goose";
-            id = "rCEicR30";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Limited-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Limited-All-Rights-Reserved";
-                    shortName = "LicenseRef-Limited-All-Rights-Reserved";
-                    url = "https://github.com/PotatoWolfie/silly-goose-fabric/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "silly-goose";
+        id = "rCEicR30";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Limited-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Limited-All-Rights-Reserved";
+                shortName = "LicenseRef-Limited-All-Rights-Reserved";
+                url = "https://github.com/PotatoWolfie/silly-goose-fabric/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -115,23 +115,20 @@ let
         "neoforge-1.21.1" = _hNl3GZQg;
         "default" = _oKs1fXBU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "glowtone";
-            id = "8yXsqoAM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-FrozenBlock-Modding-Oasis-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-FrozenBlock-Modding-Oasis-License";
-                    shortName = "LicenseRef-FrozenBlock-Modding-Oasis-License";
-                    url = "https://raw.githubusercontent.com/FrozenBlock/Licenses/refs/heads/master/FBMO-LICENSE-v1.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "glowtone";
+        id = "8yXsqoAM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-FrozenBlock-Modding-Oasis-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-FrozenBlock-Modding-Oasis-License";
+                shortName = "LicenseRef-FrozenBlock-Modding-Oasis-License";
+                url = "https://raw.githubusercontent.com/FrozenBlock/Licenses/refs/heads/master/FBMO-LICENSE-v1.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

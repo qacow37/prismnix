@@ -174,23 +174,20 @@ let
         "quilt-1.21.11" = _6cLdj2kj;
         "default" = _3nFZj6dW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-hand-bobbing";
-            id = "2FJYrSBD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/KaiAF/BetterHandBobbing/blob/678059a5bbba425d64c9428c31dead2b3030a05c/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-hand-bobbing";
+        id = "2FJYrSBD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/KaiAF/BetterHandBobbing/blob/678059a5bbba425d64c9428c31dead2b3030a05c/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

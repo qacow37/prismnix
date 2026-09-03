@@ -36,23 +36,20 @@ let
         "minecraft-1.21.1" = _eJ9AidSp;
         "default" = _eJ9AidSp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sparkles-addon-alpha-islands";
-            id = "xlOw7Aut";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Stardust-Labs-License";
-                    shortName = "LicenseRef-Stardust-Labs-License";
-                    url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sparkles-addon-alpha-islands";
+        id = "xlOw7Aut";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Stardust-Labs-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Stardust-Labs-License";
+                shortName = "LicenseRef-Stardust-Labs-License";
+                url = "https://github.com/Stardust-Labs-MC/license/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

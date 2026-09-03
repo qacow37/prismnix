@@ -38,23 +38,20 @@ let
         "minecraft-1.20.4" = _ieoQQ2zQ;
         "default" = _ieoQQ2zQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr4-commonwealth-transport-group-resources-for-mtr";
-            id = "4f8PWmT9";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Please-refer-to-description" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Please-refer-to-description";
-                    shortName = "LicenseRef-Please-refer-to-description";
-                    url = "https://github.com/szandorthe13th/Szandors-Stuff/blob/main/MTR%20Resource%20Pack%20Terms%20of%20Use.pdf";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr4-commonwealth-transport-group-resources-for-mtr";
+        id = "4f8PWmT9";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Please-refer-to-description" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Please-refer-to-description";
+                shortName = "LicenseRef-Please-refer-to-description";
+                url = "https://github.com/szandorthe13th/Szandors-Stuff/blob/main/MTR%20Resource%20Pack%20Terms%20of%20Use.pdf";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -39,23 +39,20 @@ let
         "fabric-1.20.4" = _uUGxIlOQ;
         "default" = _uUGxIlOQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "vivecraft-tb-compat";
-            id = "pQyGBSZC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "ISC" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "ISC License";
-                    shortName = "ISC";
-                    url = "https://raw.githubusercontent.com/VRealmsMC/VivecraftTBCompat/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vivecraft-tb-compat";
+        id = "pQyGBSZC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "ISC" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "ISC License";
+                shortName = "ISC";
+                url = "https://raw.githubusercontent.com/VRealmsMC/VivecraftTBCompat/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

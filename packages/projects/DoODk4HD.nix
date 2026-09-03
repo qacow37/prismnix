@@ -976,23 +976,20 @@ let
         "optifine-26.2" = _WSYjUhNi;
         "default" = _WSYjUhNi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "i-like-vanilla";
-            id = "DoODk4HD";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-What42s-Shader-License-2.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-What42s-Shader-License-2.2";
-                    shortName = "LicenseRef-What42s-Shader-License-2.2";
-                    url = "https://github.com/What42Pizza/I-Like-Vanilla/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "i-like-vanilla";
+        id = "DoODk4HD";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-What42s-Shader-License-2.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-What42s-Shader-License-2.2";
+                shortName = "LicenseRef-What42s-Shader-License-2.2";
+                url = "https://github.com/What42Pizza/I-Like-Vanilla/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

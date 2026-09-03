@@ -240,23 +240,20 @@ let
         "neoforge-1.21.1" = _BdDOfMzg;
         "default" = _pN9pMjiW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "extendedae-plus";
-            id = "xr109llC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-3.0";
-                    shortName = "LicenseRef-LGPL-3.0";
-                    url = "https://github.com/GaLicn/ExtendedAE_Plus?tab=LGPL-3.0-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "extendedae-plus";
+        id = "xr109llC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-3.0";
+                shortName = "LicenseRef-LGPL-3.0";
+                url = "https://github.com/GaLicn/ExtendedAE_Plus?tab=LGPL-3.0-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

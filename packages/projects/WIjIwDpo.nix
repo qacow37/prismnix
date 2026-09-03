@@ -595,23 +595,20 @@ let
         "neoforge-1.21.1" = _JIcjqkMD;
         "default" = _XIN9dD4Q;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "elemental";
-            id = "WIjIwDpo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SCSL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SCSL";
-                    shortName = "LicenseRef-SCSL";
-                    url = "https://raw.githubusercontent.com/saperate/SlimePearls/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "elemental";
+        id = "WIjIwDpo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SCSL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SCSL";
+                shortName = "LicenseRef-SCSL";
+                url = "https://raw.githubusercontent.com/saperate/SlimePearls/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

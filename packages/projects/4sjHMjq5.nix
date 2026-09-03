@@ -65,23 +65,20 @@ let
         "neoforge-1.21.1" = _n6KyaeVp;
         "default" = _n6KyaeVp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "minefactorial";
-            id = "4sjHMjq5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/EmmaTheMartian/minefactorial/blob/1.21.1/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "minefactorial";
+        id = "4sjHMjq5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/EmmaTheMartian/minefactorial/blob/1.21.1/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

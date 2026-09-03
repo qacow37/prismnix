@@ -357,23 +357,20 @@ let
         "forge-1.6.4" = _ZpspnX2M;
         "default" = _Y3Gc88UV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "botania";
-            id = "pfjLUfGv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Botania-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Botania-License";
-                    shortName = "LicenseRef-Botania-License";
-                    url = "https://botaniamod.net/license.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "botania";
+        id = "pfjLUfGv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Botania-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Botania-License";
+                shortName = "LicenseRef-Botania-License";
+                url = "https://botaniamod.net/license.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

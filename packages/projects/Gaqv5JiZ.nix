@@ -38,23 +38,20 @@ let
         "minecraft-1.20.2" = _nFqk4N6H;
         "default" = _nFqk4N6H;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "foliage+-lite";
-            id = "Gaqv5JiZ";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NaiNonTheN00b1-ToU-Class-II" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NaiNonTheN00b1-ToU-Class-II";
-                    shortName = "LicenseRef-NaiNonTheN00b1-ToU-Class-II";
-                    url = "https://nons.page/archive/terms-of-use/#class-ii";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "foliage+-lite";
+        id = "Gaqv5JiZ";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NaiNonTheN00b1-ToU-Class-II" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NaiNonTheN00b1-ToU-Class-II";
+                shortName = "LicenseRef-NaiNonTheN00b1-ToU-Class-II";
+                url = "https://nons.page/archive/terms-of-use/#class-ii";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

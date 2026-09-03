@@ -194,23 +194,20 @@ let
         "quilt-1.21.1" = _KITeit1w;
         "default" = _KITeit1w;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sculk-depths";
-            id = "IpnJiCsh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Sculk-Depths-License-V2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Sculk-Depths-License-V2";
-                    shortName = "LicenseRef-Sculk-Depths-License-V2";
-                    url = "https://github.com/warior456/Sculk-Depths/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sculk-depths";
+        id = "IpnJiCsh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Sculk-Depths-License-V2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Sculk-Depths-License-V2";
+                shortName = "LicenseRef-Sculk-Depths-License-V2";
+                url = "https://github.com/warior456/Sculk-Depths/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

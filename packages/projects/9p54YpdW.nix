@@ -105,23 +105,20 @@ let
         "fabric-1.21.1" = _n3m50u2M;
         "default" = _o6esis3D;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mc-device";
-            id = "9p54YpdW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-1.0.0-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Noncommercial-1.0.0-";
-                    shortName = "LicenseRef-PolyForm-Noncommercial-1.0.0-";
-                    url = "https://polyformproject.org/licenses/noncommercial/1.0.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mc-device";
+        id = "9p54YpdW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-1.0.0-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Noncommercial-1.0.0-";
+                shortName = "LicenseRef-PolyForm-Noncommercial-1.0.0-";
+                url = "https://polyformproject.org/licenses/noncommercial/1.0.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

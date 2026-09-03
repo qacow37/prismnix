@@ -71,23 +71,20 @@ let
         "neoforge-1.21.1" = _SrEgKxRK;
         "default" = _SrEgKxRK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "f708-gun-mod";
-            id = "9dTg2Tsv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Copyright-F708.-All-Rights-Reserved." {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Copyright-F708.-All-Rights-Reserved.";
-                    shortName = "LicenseRef-Copyright-F708.-All-Rights-Reserved.";
-                    url = "https://www.curseforge.com/minecraft/mc-mods/f708-guns#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "f708-gun-mod";
+        id = "9dTg2Tsv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Copyright-F708.-All-Rights-Reserved." {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Copyright-F708.-All-Rights-Reserved.";
+                shortName = "LicenseRef-Copyright-F708.-All-Rights-Reserved.";
+                url = "https://www.curseforge.com/minecraft/mc-mods/f708-guns#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

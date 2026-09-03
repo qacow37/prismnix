@@ -178,23 +178,20 @@ let
         "quilt-1.20.1" = _KEv4JeEB;
         "default" = _Wfs6V69X;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lets-do-bakery-farmcharm-compat";
-            id = "oNB5jhlA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/satisfyu/Bakery/blob/1.20.1/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lets-do-bakery-farmcharm-compat";
+        id = "oNB5jhlA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/satisfyu/Bakery/blob/1.20.1/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

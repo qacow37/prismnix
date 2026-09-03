@@ -105,23 +105,20 @@ let
         "neoforge-1.21.1" = _OGCQp4rB;
         "default" = _OGCQp4rB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hud-texts";
-            id = "sgFIOK5w";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntrolGaming-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AntrolGaming-License";
-                    shortName = "LicenseRef-AntrolGaming-License";
-                    url = "https://pastebin.com/FiFQ7jG4";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hud-texts";
+        id = "sgFIOK5w";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntrolGaming-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AntrolGaming-License";
+                shortName = "LicenseRef-AntrolGaming-License";
+                url = "https://pastebin.com/FiFQ7jG4";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

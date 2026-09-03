@@ -32,23 +32,20 @@ let
         "optifine-1.21.1" = _VWUs1TDT;
         "default" = _VWUs1TDT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "atmospheric-shaders";
-            id = "JJENX1BH";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License-Agreement-1.6" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Complementary-License-Agreement-1.6";
-                    shortName = "LicenseRef-Complementary-License-Agreement-1.6";
-                    url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "atmospheric-shaders";
+        id = "JJENX1BH";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Complementary-License-Agreement-1.6" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Complementary-License-Agreement-1.6";
+                shortName = "LicenseRef-Complementary-License-Agreement-1.6";
+                url = "https://github.com/ComplementaryDevelopment/ComplementaryReimagined/blob/main/License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

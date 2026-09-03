@@ -27,23 +27,20 @@ let
         "forge-1.20.1" = _p5ZkvSWD;
         "default" = _p5ZkvSWD;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "xp-from-crops";
-            id = "RvkVY4dn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://ftp.gnu.org/gnu/Licenses/gpl-3.0.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "xp-from-crops";
+        id = "RvkVY4dn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://ftp.gnu.org/gnu/Licenses/gpl-3.0.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

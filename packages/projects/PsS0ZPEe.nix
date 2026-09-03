@@ -217,23 +217,20 @@ let
         "forge-1.20.1" = _AEk8W7Wy;
         "default" = _nJipj2lk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wetland-whimsy";
-            id = "PsS0ZPEe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr " Artistic-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Artistic License 2.0";
-                    shortName = " Artistic-2.0";
-                    url = "https://opensource.org/license/artistic-2-0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wetland-whimsy";
+        id = "PsS0ZPEe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr " Artistic-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Artistic License 2.0";
+                shortName = " Artistic-2.0";
+                url = "https://opensource.org/license/artistic-2-0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

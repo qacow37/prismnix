@@ -30,23 +30,20 @@ let
         "neoforge-1.21.8" = _sg9zz8Cg;
         "default" = _CIEcI1Z4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "extrapixelmon";
-            id = "U4IZqdiz";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL---3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL---3.0";
-                    shortName = "LicenseRef-GPL---3.0";
-                    url = "https://www.gnu.org/licenses/gpl-3.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "extrapixelmon";
+        id = "U4IZqdiz";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL---3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL---3.0";
+                shortName = "LicenseRef-GPL---3.0";
+                url = "https://www.gnu.org/licenses/gpl-3.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

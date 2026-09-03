@@ -1432,23 +1432,20 @@ let
         "neoforge-26.2" = _CAZAVb0n;
         "default" = _7XdPQMOk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sodium";
-            id = "AANobbMI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield-1.0.0";
-                    shortName = "LicenseRef-Polyform-Shield-1.0.0";
-                    url = "https://github.com/CaffeineMC/sodium/blob/dev/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sodium";
+        id = "AANobbMI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield-1.0.0";
+                shortName = "LicenseRef-Polyform-Shield-1.0.0";
+                url = "https://github.com/CaffeineMC/sodium/blob/dev/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

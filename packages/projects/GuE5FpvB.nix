@@ -269,23 +269,20 @@ let
         "quilt-26.1.2" = _BjPhwjDV;
         "default" = _BjPhwjDV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "promenade";
-            id = "GuE5FpvB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield-1.0.0";
-                    shortName = "LicenseRef-Polyform-Shield-1.0.0";
-                    url = "https://github.com/DawnTeamMC/Promenade/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "promenade";
+        id = "GuE5FpvB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield-1.0.0";
+                shortName = "LicenseRef-Polyform-Shield-1.0.0";
+                url = "https://github.com/DawnTeamMC/Promenade/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

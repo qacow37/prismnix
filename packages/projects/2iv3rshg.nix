@@ -84,23 +84,20 @@ let
         "fabric-1.21.1" = _X6lLfcVa;
         "default" = _zlXJLmFD;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dominoes";
-            id = "2iv3rshg";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "European Union Public License 1.2";
-                    shortName = "EUPL-1.2";
-                    url = "https://github.com/sisby-folk/dominoes/blob/fabric-1.21.8/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dominoes";
+        id = "2iv3rshg";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "European Union Public License 1.2";
+                shortName = "EUPL-1.2";
+                url = "https://github.com/sisby-folk/dominoes/blob/fabric-1.21.8/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

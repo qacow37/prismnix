@@ -78,23 +78,20 @@ let
         "neoforge-1.21.1" = _xL1qDNc2;
         "default" = _M29EAkal;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mapwright";
-            id = "iDYmMWwn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Mapwright-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-The-Mapwright-License";
-                    shortName = "LicenseRef-The-Mapwright-License";
-                    url = "https://github.com/NotSoEpic/map-drawing/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mapwright";
+        id = "iDYmMWwn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-Mapwright-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-The-Mapwright-License";
+                shortName = "LicenseRef-The-Mapwright-License";
+                url = "https://github.com/NotSoEpic/map-drawing/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

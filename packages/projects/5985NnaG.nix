@@ -99,23 +99,20 @@ let
         "minecraft-1.21.11" = _DYWftqnR;
         "default" = _DYWftqnR;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "melodysjellyfish";
-            id = "5985NnaG";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://melodymews.com/?utm_source=jellyfishmodrinth&utm_medium=referral&utm_campaign=jellyfishmodrinth#termsofuse";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "melodysjellyfish";
+        id = "5985NnaG";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://melodymews.com/?utm_source=jellyfishmodrinth&utm_medium=referral&utm_campaign=jellyfishmodrinth#termsofuse";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

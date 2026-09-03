@@ -549,23 +549,20 @@ let
         "neoforge-26.1.2" = _z2xmRSlp;
         "default" = _z2xmRSlp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nightworld";
-            id = "Ci8bgONi";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crystal-Nest-Community-License-v1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Crystal-Nest-Community-License-v1";
-                    shortName = "LicenseRef-Crystal-Nest-Community-License-v1";
-                    url = "https://github.com/Crystal-Nest/.github/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nightworld";
+        id = "Ci8bgONi";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crystal-Nest-Community-License-v1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Crystal-Nest-Community-License-v1";
+                shortName = "LicenseRef-Crystal-Nest-Community-License-v1";
+                url = "https://github.com/Crystal-Nest/.github/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

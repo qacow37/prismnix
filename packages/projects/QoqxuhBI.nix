@@ -491,23 +491,20 @@ let
         "minecraft-1.21.8" = _Y5ogXq8t;
         "default" = _t3079jcE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-tools-n-stuff";
-            id = "QoqxuhBI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://sites.google.com/view/battleaxes-forge-downloads/tos-privacy-policy";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-tools-n-stuff";
+        id = "QoqxuhBI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://sites.google.com/view/battleaxes-forge-downloads/tos-privacy-policy";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

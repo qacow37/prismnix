@@ -86,23 +86,20 @@ let
         "iris-26.1.2" = _zGC385Y8;
         "default" = _zGC385Y8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "visual-vibrance";
-            id = "l6Uqs2fS";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef--" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef--";
-                    shortName = "LicenseRef--";
-                    url = "https://raw.githubusercontent.com/jbritain/visual-vibrance/refs/heads/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "visual-vibrance";
+        id = "l6Uqs2fS";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef--" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef--";
+                shortName = "LicenseRef--";
+                url = "https://raw.githubusercontent.com/jbritain/visual-vibrance/refs/heads/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

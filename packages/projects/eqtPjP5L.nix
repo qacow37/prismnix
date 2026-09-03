@@ -73,23 +73,20 @@ let
         "neoforge-1.20.4" = _gBJlDUJs;
         "default" = _gBJlDUJs;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enchantment-info";
-            id = "eqtPjP5L";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Durt-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Team-Durt-License";
-                    shortName = "LicenseRef-Team-Durt-License";
-                    url = "https://license.durt.team/1.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enchantment-info";
+        id = "eqtPjP5L";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Durt-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Team-Durt-License";
+                shortName = "LicenseRef-Team-Durt-License";
+                url = "https://license.durt.team/1.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

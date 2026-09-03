@@ -82,23 +82,20 @@ let
         "paper-26.2" = _rbUGdPaW;
         "default" = _rbUGdPaW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "announcer-plus";
-            id = "g8XCro6n";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/jpenilla/AnnouncerPlus/blob/master/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "announcer-plus";
+        id = "g8XCro6n";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/jpenilla/AnnouncerPlus/blob/master/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

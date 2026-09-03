@@ -322,23 +322,20 @@ let
         "neoforge-1.21.1" = _56nwe5IX;
         "default" = _56nwe5IX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "brandons-core";
-            id = "iFDWVIFV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CoFH-Dont-Be-a-Jerk-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
-                    shortName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
-                    url = "https://github.com/Draconic-Inc/BrandonsCore/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "brandons-core";
+        id = "iFDWVIFV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CoFH-Dont-Be-a-Jerk-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
+                shortName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
+                url = "https://github.com/Draconic-Inc/BrandonsCore/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

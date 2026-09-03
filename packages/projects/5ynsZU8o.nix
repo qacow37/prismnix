@@ -90,23 +90,20 @@ let
         "quilt-1.21.11" = _LiRID8kX;
         "default" = _lv61hD7H;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "shriekier-shriekers";
-            id = "5ynsZU8o";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 only";
-                    shortName = "AGPL-3.0-only";
-                    url = "https://github.com/OpenBagTwo/ShriekierShriekers/blob/1.20.1/README.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "shriekier-shriekers";
+        id = "5ynsZU8o";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
+                url = "https://github.com/OpenBagTwo/ShriekierShriekers/blob/1.20.1/README.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

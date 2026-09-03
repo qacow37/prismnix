@@ -52,23 +52,20 @@ let
         "fabric-1.20.1" = _S5Lwx1CU;
         "default" = _RUPdHPDM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "glasses";
-            id = "GcrqvTGh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Nova-Relay-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Nova-Relay-License-1.0";
-                    shortName = "LicenseRef-Nova-Relay-License-1.0";
-                    url = "https://github.com/Nova-Committee/Glasses/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "glasses";
+        id = "GcrqvTGh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Nova-Relay-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Nova-Relay-License-1.0";
+                shortName = "LicenseRef-Nova-Relay-License-1.0";
+                url = "https://github.com/Nova-Committee/Glasses/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -71,23 +71,20 @@ let
         "fabric-1.21.1" = _PQG8Qxcs;
         "default" = _PQG8Qxcs;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gamblers-fallacy";
-            id = "OfyKZVVI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/PadjokeJ/GamblersFallacy";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gamblers-fallacy";
+        id = "OfyKZVVI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/PadjokeJ/GamblersFallacy";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

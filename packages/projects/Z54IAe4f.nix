@@ -389,23 +389,20 @@ let
         "neoforge-26.1.2" = _tn7iQVK5;
         "default" = _ECniao0P;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "waypointers";
-            id = "Z54IAe4f";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-RQL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-RQL";
-                    shortName = "LicenseRef-RQL";
-                    url = "https://git.braindead.cc/dot/waypointers/src/branch/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "waypointers";
+        id = "Z54IAe4f";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-RQL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-RQL";
+                shortName = "LicenseRef-RQL";
+                url = "https://git.braindead.cc/dot/waypointers/src/branch/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

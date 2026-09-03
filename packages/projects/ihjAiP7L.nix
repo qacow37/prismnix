@@ -193,23 +193,20 @@ let
         "purpur-1.21.11" = _EgQ28r11;
         "default" = _EgQ28r11;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "skygridx";
-            id = "ihjAiP7L";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LICENSE" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LICENSE";
-                    shortName = "LicenseRef-LICENSE";
-                    url = "https://github.com/DavidS-Repo/chunker/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "skygridx";
+        id = "ihjAiP7L";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LICENSE" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LICENSE";
+                shortName = "LicenseRef-LICENSE";
+                url = "https://github.com/DavidS-Repo/chunker/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

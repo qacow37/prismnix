@@ -116,23 +116,20 @@ let
         "minecraft-26.2" = _gwfGzxi6;
         "default" = _gwfGzxi6;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rotrblocks-emiores";
-            id = "bdRRjnCk";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-of-use" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terms-of-use";
-                    shortName = "LicenseRef-Terms-of-use";
-                    url = "https://illystray.com/terms/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rotrblocks-emiores";
+        id = "bdRRjnCk";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-of-use" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terms-of-use";
+                shortName = "LicenseRef-Terms-of-use";
+                url = "https://illystray.com/terms/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

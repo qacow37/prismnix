@@ -80,23 +80,20 @@ let
         "fabric-1.19.2" = _42f6J67W;
         "default" = _PVBGUL9I;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "instrument++";
-            id = "7X16YWpP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Viola-Siemens/Instrument-Plus-Plus/blob/Forge_1.19.X_v2.0.X/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "instrument++";
+        id = "7X16YWpP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Viola-Siemens/Instrument-Plus-Plus/blob/Forge_1.19.X_v2.0.X/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

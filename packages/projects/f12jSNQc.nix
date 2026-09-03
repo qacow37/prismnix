@@ -820,23 +820,20 @@ let
         "purpur-26.2" = _Y0fhetfA;
         "default" = _Y0fhetfA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "custom-mob-attributes";
-            id = "f12jSNQc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fneifnoxs-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fneifnoxs-License";
-                    shortName = "LicenseRef-Fneifnoxs-License";
-                    url = "https://pastebin.com/E6MB5nZG";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "custom-mob-attributes";
+        id = "f12jSNQc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fneifnoxs-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fneifnoxs-License";
+                shortName = "LicenseRef-Fneifnoxs-License";
+                url = "https://pastebin.com/E6MB5nZG";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

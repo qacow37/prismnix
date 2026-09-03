@@ -22,23 +22,20 @@ let
         "minecraft-1.21.11" = _ePF4v8U7;
         "default" = _ePF4v8U7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "no-bedrockk";
-            id = "H7p5WBYv";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://reynahd.isfucking.pro/ZDSCM8.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "no-bedrockk";
+        id = "H7p5WBYv";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://reynahd.isfucking.pro/ZDSCM8.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

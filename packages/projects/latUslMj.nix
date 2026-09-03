@@ -614,23 +614,20 @@ let
         "fabric-1.21" = _b1MmAofG;
         "default" = _By4XaiQB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "acornlib";
-            id = "latUslMj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AcoYT-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AcoYT-License";
-                    shortName = "LicenseRef-AcoYT-License";
-                    url = "https://github.com/AcoYTMC/AcornLib/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "acornlib";
+        id = "latUslMj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AcoYT-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AcoYT-License";
+                shortName = "LicenseRef-AcoYT-License";
+                url = "https://github.com/AcoYTMC/AcornLib/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -366,23 +366,20 @@ let
         "neoforge-26.1.2" = _zsZTocfO;
         "default" = _zsZTocfO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "yggdrasil-structure";
-            id = "hwNDseBp";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Voxel-License";
-                    shortName = "LicenseRef-Voxel-License";
-                    url = "https://github.com/Hardel-DW/Yggdrasil-Structure/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "yggdrasil-structure";
+        id = "hwNDseBp";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Voxel-License";
+                shortName = "LicenseRef-Voxel-License";
+                url = "https://github.com/Hardel-DW/Yggdrasil-Structure/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

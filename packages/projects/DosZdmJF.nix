@@ -808,23 +808,20 @@ let
         "neoforge-26.2" = _boMGA2rh;
         "default" = _boMGA2rh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "jakes-build-tools";
-            id = "DosZdmJF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-JBT-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-JBT-License";
-                    shortName = "LicenseRef-JBT-License";
-                    url = "https://github.com/maybejake/Jakes-Build-Tools/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "jakes-build-tools";
+        id = "DosZdmJF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-JBT-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-JBT-License";
+                shortName = "LicenseRef-JBT-License";
+                url = "https://github.com/maybejake/Jakes-Build-Tools/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

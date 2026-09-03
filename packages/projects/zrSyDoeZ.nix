@@ -18,23 +18,20 @@ let
         "forge-1.8.9" = _QOnqMZB2;
         "default" = _QOnqMZB2;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "worlddownloaderlegacy";
-            id = "zrSyDoeZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MMPL-v2.0.3" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MMPL-v2.0.3";
-                    shortName = "LicenseRef-MMPL-v2.0.3";
-                    url = "https://github.com/Nixuge/WorldDownloaderForge#creditslicense";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "worlddownloaderlegacy";
+        id = "zrSyDoeZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MMPL-v2.0.3" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MMPL-v2.0.3";
+                shortName = "LicenseRef-MMPL-v2.0.3";
+                url = "https://github.com/Nixuge/WorldDownloaderForge#creditslicense";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

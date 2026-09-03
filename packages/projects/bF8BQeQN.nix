@@ -50,23 +50,20 @@ let
         "minecraft-1.21.4" = _FPKnkOX8;
         "default" = _3PNcl1ea;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tactical-pda-ftb-quests-new-book";
-            id = "bF8BQeQN";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-Of-Use-in-the-Description" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terms-Of-Use-in-the-Description";
-                    shortName = "LicenseRef-Terms-Of-Use-in-the-Description";
-                    url = "https://modrinth.com/resourcepack/tactical-pda-ftb-quests-new-book";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tactical-pda-ftb-quests-new-book";
+        id = "bF8BQeQN";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terms-Of-Use-in-the-Description" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terms-Of-Use-in-the-Description";
+                shortName = "LicenseRef-Terms-Of-Use-in-the-Description";
+                url = "https://modrinth.com/resourcepack/tactical-pda-ftb-quests-new-book";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

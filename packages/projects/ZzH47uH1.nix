@@ -218,23 +218,20 @@ let
         "quilt-26.2" = _pufA26xS;
         "default" = _pufA26xS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "village-horizons-+";
-            id = "ZzH47uH1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
-                    shortName = "CC-BY-NC-ND-4.0";
-                    url = "https://github.com/santisoler/cc-licenses/blob/main/LICENSE-CC-BY-NC-ND";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "village-horizons-+";
+        id = "ZzH47uH1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
+                url = "https://github.com/santisoler/cc-licenses/blob/main/LICENSE-CC-BY-NC-ND";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

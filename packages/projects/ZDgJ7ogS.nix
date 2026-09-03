@@ -209,23 +209,20 @@ let
         "forge-1.20.1" = _TkzO0vOY;
         "default" = _TkzO0vOY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ticex";
-            id = "ZDgJ7ogS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-Licenses" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple-Licenses";
-                    shortName = "LicenseRef-Multiple-Licenses";
-                    url = "https://github.com/mofumofumoffy/ticex/blob/1.20.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ticex";
+        id = "ZDgJ7ogS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-Licenses" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple-Licenses";
+                shortName = "LicenseRef-Multiple-Licenses";
+                url = "https://github.com/mofumofumoffy/ticex/blob/1.20.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

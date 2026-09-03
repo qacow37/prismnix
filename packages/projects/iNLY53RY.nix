@@ -72,23 +72,20 @@ let
         "neoforge-1.21.1" = _KQtWaSrF;
         "default" = _KQtWaSrF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "limitless-vehicle";
-            id = "iNLY53RY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 or later";
-                    shortName = "GPL-3.0-or-later";
-                    url = "https://github.com/YWZJ-Studio/ywzj_vehicle/blob/1.20.1-dev/README.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "limitless-vehicle";
+        id = "iNLY53RY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = "https://github.com/YWZJ-Studio/ywzj_vehicle/blob/1.20.1-dev/README.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

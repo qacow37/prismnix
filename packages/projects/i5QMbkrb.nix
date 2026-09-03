@@ -53,23 +53,20 @@ let
         "neoforge-1.21.4" = _f9vFKizY;
         "default" = _f9vFKizY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "minimotd-reforged";
-            id = "i5QMbkrb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/jpenilla/MiniMOTD/blob/master/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "minimotd-reforged";
+        id = "i5QMbkrb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/jpenilla/MiniMOTD/blob/master/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

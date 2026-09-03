@@ -61,23 +61,20 @@ let
         "neoforge-1.21.1" = _acPk7j8a;
         "default" = _acPk7j8a;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cerbons-better-beacons";
-            id = "gSeQTNSE";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    shortName = "LicenseRef-CC-BY-NC-SA-3.0";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cerbons-better-beacons";
+        id = "gSeQTNSE";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-SA-3.0";
+                shortName = "LicenseRef-CC-BY-NC-SA-3.0";
+                url = "https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

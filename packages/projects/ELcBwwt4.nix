@@ -24,23 +24,20 @@ let
         "forge-1.12.2" = _iwWchf82;
         "default" = _iwWchf82;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "blahaj-legacy";
-            id = "ELcBwwt4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pineapple-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Pineapple-License";
-                    shortName = "LicenseRef-Pineapple-License";
-                    url = "https://github.com/AmarokIce/Blahaj-Legacy/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "blahaj-legacy";
+        id = "ELcBwwt4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pineapple-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Pineapple-License";
+                shortName = "LicenseRef-Pineapple-License";
+                url = "https://github.com/AmarokIce/Blahaj-Legacy/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

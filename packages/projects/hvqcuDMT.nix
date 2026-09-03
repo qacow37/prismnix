@@ -254,23 +254,20 @@ let
         "neoforge-26.2" = _G0ZXslP9;
         "default" = _G0ZXslP9;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rp-renames";
-            id = "hvqcuDMT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Durt-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Team-Durt-License-1.0";
-                    shortName = "LicenseRef-Team-Durt-License-1.0";
-                    url = "https://license.durt.team/1.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rp-renames";
+        id = "hvqcuDMT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Durt-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Team-Durt-License-1.0";
+                shortName = "LicenseRef-Team-Durt-License-1.0";
+                url = "https://license.durt.team/1.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

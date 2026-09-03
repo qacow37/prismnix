@@ -89,23 +89,20 @@ let
         "forge-1.20.1" = _xTLWDI8f;
         "default" = _xTLWDI8f;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "snowycrescentcore";
-            id = "P8Gz4meC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-additional-terms" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-with-additional-terms";
-                    shortName = "LicenseRef-GPL-3.0-with-additional-terms";
-                    url = "https://github.com/Zershyan/SnowyCrescentCore/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "snowycrescentcore";
+        id = "P8Gz4meC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-additional-terms" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-with-additional-terms";
+                shortName = "LicenseRef-GPL-3.0-with-additional-terms";
+                url = "https://github.com/Zershyan/SnowyCrescentCore/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

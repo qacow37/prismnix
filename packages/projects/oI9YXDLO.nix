@@ -47,23 +47,20 @@ let
         "forge-1.18.2" = _nu9dFSLZ;
         "default" = _nu9dFSLZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "corpsecomplex-unofficial";
-            id = "oI9YXDLO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/MCTeamPotato/CorpseComplex-Unofficial";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "corpsecomplex-unofficial";
+        id = "oI9YXDLO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/MCTeamPotato/CorpseComplex-Unofficial";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

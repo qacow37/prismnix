@@ -150,23 +150,20 @@ let
         "fabric-1.20.1" = _6mAsNpBn;
         "default" = _6mAsNpBn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "absolute-ultracraft";
-            id = "JGAiUYbt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-for-Code-and-CC-BY-NC-4.0-for-Art-Assets" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-for-Code-and-CC-BY-NC-4.0-for-Art-Assets";
-                    shortName = "LicenseRef-MIT-for-Code-and-CC-BY-NC-4.0-for-Art-Assets";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "absolute-ultracraft";
+        id = "JGAiUYbt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-for-Code-and-CC-BY-NC-4.0-for-Art-Assets" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-for-Code-and-CC-BY-NC-4.0-for-Art-Assets";
+                shortName = "LicenseRef-MIT-for-Code-and-CC-BY-NC-4.0-for-Art-Assets";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

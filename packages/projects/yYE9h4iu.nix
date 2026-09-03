@@ -23,23 +23,20 @@ let
         "neoforge-1.21.1" = _WvFwXguE;
         "default" = _WvFwXguE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cit-resewn-neopatcher";
-            id = "yYE9h4iu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Durt-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Team-Durt-License-1.0";
-                    shortName = "LicenseRef-Team-Durt-License-1.0";
-                    url = "https://license.durt.team/1.0";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cit-resewn-neopatcher";
+        id = "yYE9h4iu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Durt-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Team-Durt-License-1.0";
+                shortName = "LicenseRef-Team-Durt-License-1.0";
+                url = "https://license.durt.team/1.0";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

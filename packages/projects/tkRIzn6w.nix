@@ -226,23 +226,20 @@ let
         "forge-1.20.2" = _6K5s7AGa;
         "default" = _y99JIMKg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "emerald-craft";
-            id = "tkRIzn6w";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Viola-Siemens/EmeraldCraftMod/blob/Forge-1.19.2_6.X/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "emerald-craft";
+        id = "tkRIzn6w";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Viola-Siemens/EmeraldCraftMod/blob/Forge-1.19.2_6.X/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

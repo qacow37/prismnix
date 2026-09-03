@@ -382,23 +382,20 @@ let
         "fabric-26.1.2" = _7BLLGx9Q;
         "default" = _7BLLGx9Q;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fishonmc-extras-r";
-            id = "iau5kAOK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://github.com/DannyPX/FishOnMC-Extras-R/blob/1.21.4/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fishonmc-extras-r";
+        id = "iau5kAOK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://github.com/DannyPX/FishOnMC-Extras-R/blob/1.21.4/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

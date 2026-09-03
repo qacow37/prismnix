@@ -4642,23 +4642,20 @@ let
         "neoforge-26.2" = _tv458ZVf;
         "default" = _NF0U7dcs;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "modonomicon";
-            id = "692GClaE";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT AND CC-BY-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License, Creative Commons Attribution 4.0 International";
-                    shortName = "MIT AND CC-BY-4.0";
-                    url = "https://github.com/klikli-dev/modonomicon#licensing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "modonomicon";
+        id = "692GClaE";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT AND CC-BY-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License, Creative Commons Attribution 4.0 International";
+                shortName = "MIT AND CC-BY-4.0";
+                url = "https://github.com/klikli-dev/modonomicon#licensing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

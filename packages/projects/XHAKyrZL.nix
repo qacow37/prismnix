@@ -382,23 +382,20 @@ let
         "neoforge-1.20.1" = _5hpG2eFK;
         "default" = _5hpG2eFK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "healing-pretty-good";
-            id = "XHAKyrZL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CUSTOM" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CUSTOM";
-                    shortName = "LicenseRef-CUSTOM";
-                    url = "https://github.com/Deadlydiamond98/HealingPrettyGood/blob/1.20/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "healing-pretty-good";
+        id = "XHAKyrZL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CUSTOM" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CUSTOM";
+                shortName = "LicenseRef-CUSTOM";
+                url = "https://github.com/Deadlydiamond98/HealingPrettyGood/blob/1.20/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

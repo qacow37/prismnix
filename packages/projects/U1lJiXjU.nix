@@ -18,23 +18,20 @@ let
         "neoforge-1.21.1" = _gdwUMGHA;
         "default" = _gdwUMGHA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "seasons-greetings";
-            id = "U1lJiXjU";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-Java-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Starfish-Java-License";
-                    shortName = "LicenseRef-Starfish-Java-License";
-                    url = "https://github.com/starfish-studios/Seasons-Greetings/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "seasons-greetings";
+        id = "U1lJiXjU";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Starfish-Java-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Starfish-Java-License";
+                shortName = "LicenseRef-Starfish-Java-License";
+                url = "https://github.com/starfish-studios/Seasons-Greetings/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -38,23 +38,20 @@ let
         "fabric-1.21.11" = _6AK3RJxp;
         "default" = _6AK3RJxp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "teamviewer";
-            id = "LG9GwGm5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-3.0";
-                    shortName = "LicenseRef-LGPL-3.0";
-                    url = "https://github.com/opensource-jp/licenses/blob/main/LGPL-3.0/LGPL-3.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "teamviewer";
+        id = "LG9GwGm5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-3.0";
+                shortName = "LicenseRef-LGPL-3.0";
+                url = "https://github.com/opensource-jp/licenses/blob/main/LGPL-3.0/LGPL-3.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

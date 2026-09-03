@@ -100,23 +100,20 @@ let
         "neoforge-1.21.1" = _w30oDCUY;
         "default" = _w30oDCUY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dive-into-the-abyss";
-            id = "x2qQNlIy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://github.com/LuciferC-137/MC-Mod_ABYSS/wiki/License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dive-into-the-abyss";
+        id = "x2qQNlIy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://github.com/LuciferC-137/MC-Mod_ABYSS/wiki/License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

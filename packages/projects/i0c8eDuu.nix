@@ -83,23 +83,20 @@ let
         "neoforge-1.21.8" = _2IbhNAu5;
         "default" = _2IbhNAu5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ags-death-counter";
-            id = "i0c8eDuu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntrolGaming-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AntrolGaming-License";
-                    shortName = "LicenseRef-AntrolGaming-License";
-                    url = "https://pastebin.com/FiFQ7jG4";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ags-death-counter";
+        id = "i0c8eDuu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AntrolGaming-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AntrolGaming-License";
+                shortName = "LicenseRef-AntrolGaming-License";
+                url = "https://pastebin.com/FiFQ7jG4";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

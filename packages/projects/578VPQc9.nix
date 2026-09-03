@@ -232,23 +232,20 @@ let
         "quilt-1.21.1" = _C4SdQzjz;
         "default" = _CyO5SOUB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "complete-cobblemon-collection-w-legendary-spawns";
-            id = "578VPQc9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved";
-                    shortName = "LicenseRef-All-Rights-Reserved";
-                    url = "https://docs.google.com/document/d/1PIOYi3ocjqWzOaTcvupkQyQ0cdHwWnqd1n6ppb0ELiY/edit?usp=sharing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "complete-cobblemon-collection-w-legendary-spawns";
+        id = "578VPQc9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://docs.google.com/document/d/1PIOYi3ocjqWzOaTcvupkQyQ0cdHwWnqd1n6ppb0ELiY/edit?usp=sharing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

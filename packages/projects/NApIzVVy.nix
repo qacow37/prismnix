@@ -162,23 +162,20 @@ let
         "fabric-1.21.1" = _COwHk0vk;
         "default" = _COwHk0vk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tbcs";
-            id = "NApIzVVy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCOML" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MCOML";
-                    shortName = "LicenseRef-MCOML";
-                    url = "https://gitlab.com/srcmc/tbcs/-/raw/HEAD/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tbcs";
+        id = "NApIzVVy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MCOML" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MCOML";
+                shortName = "LicenseRef-MCOML";
+                url = "https://gitlab.com/srcmc/tbcs/-/raw/HEAD/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

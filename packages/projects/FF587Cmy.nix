@@ -120,23 +120,20 @@ let
         "minecraft-26.2" = _r7T8vc9H;
         "default" = _r7T8vc9H;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "vollkorn";
-            id = "FF587Cmy";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OFL-1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "SIL Open Font License 1.1";
-                    shortName = "OFL-1.1";
-                    url = "https://www.fontsquirrel.com/license/vollkorn";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vollkorn";
+        id = "FF587Cmy";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OFL-1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "SIL Open Font License 1.1";
+                shortName = "OFL-1.1";
+                url = "https://www.fontsquirrel.com/license/vollkorn";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

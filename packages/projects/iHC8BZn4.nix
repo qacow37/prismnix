@@ -145,23 +145,20 @@ let
         "optifine-1.21" = _s9yjAgG6;
         "default" = _u7oNAXa5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hysteria-shaders";
-            id = "iHC8BZn4";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGNYA-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGNYA-License";
-                    shortName = "LicenseRef-AGNYA-License";
-                    url = "https://github.com/nvb-uy/Hysteria/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hysteria-shaders";
+        id = "iHC8BZn4";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGNYA-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGNYA-License";
+                shortName = "LicenseRef-AGNYA-License";
+                url = "https://github.com/nvb-uy/Hysteria/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

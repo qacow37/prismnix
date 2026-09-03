@@ -28,23 +28,20 @@ let
         "minecraft-1.21.4" = _H7qxAk1P;
         "default" = _H7qxAk1P;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "good-days-faithful-pvp";
-            id = "nWiyTXj1";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Faithful-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Faithful-License";
-                    shortName = "LicenseRef-Faithful-License";
-                    url = "https://faithfulpack.net/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "good-days-faithful-pvp";
+        id = "nWiyTXj1";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Faithful-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Faithful-License";
+                shortName = "LicenseRef-Faithful-License";
+                url = "https://faithfulpack.net/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

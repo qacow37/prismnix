@@ -11,23 +11,20 @@ let
         "forge-1.20.1" = _fbZJeWIQ;
         "default" = _fbZJeWIQ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "cursed-stare";
-            id = "vTECq4qT";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-M-Productions-Mods-EULA" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-M-Productions-Mods-EULA";
-                    shortName = "LicenseRef-M-Productions-Mods-EULA";
-                    url = "https://drive.google.com/file/d/10_fr4wSu1iuMazzCa2B7m-fHpAF0YlYS/view?usp=sharing";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cursed-stare";
+        id = "vTECq4qT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-M-Productions-Mods-EULA" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-M-Productions-Mods-EULA";
+                shortName = "LicenseRef-M-Productions-Mods-EULA";
+                url = "https://drive.google.com/file/d/10_fr4wSu1iuMazzCa2B7m-fHpAF0YlYS/view?usp=sharing";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -30,23 +30,20 @@ let
         "fabric-1.20.2" = _dewBuc5b;
         "default" = _dewBuc5b;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "umu-little-maid";
-            id = "iEwt8nJR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-UMU-Little-Maid-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-UMU-Little-Maid-License";
-                    shortName = "LicenseRef-UMU-Little-Maid-License";
-                    url = "https://github.com/Zemelua/UMU-Little-Maid/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "umu-little-maid";
+        id = "iEwt8nJR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-UMU-Little-Maid-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-UMU-Little-Maid-License";
+                shortName = "LicenseRef-UMU-Little-Maid-License";
+                url = "https://github.com/Zemelua/UMU-Little-Maid/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -174,23 +174,20 @@ let
         "quilt-26.2" = _Cu5gleAN;
         "default" = _Cu5gleAN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "universal-enchantment-splitter";
-            id = "IXiyLUnq";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "universal-enchantment-splitter";
+        id = "IXiyLUnq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -23,23 +23,20 @@ let
         "forge-1.12.2" = _oq7SsMsP;
         "default" = _oq7SsMsP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "modularwarfare-ultimate";
-            id = "HDPCPqDy";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ARR";
-                    shortName = "LicenseRef-ARR";
-                    url = "https://github.com/Ar2t1e/License/blob/main/MWFU-LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "modularwarfare-ultimate";
+        id = "HDPCPqDy";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ARR";
+                shortName = "LicenseRef-ARR";
+                url = "https://github.com/Ar2t1e/License/blob/main/MWFU-LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -24,23 +24,20 @@ let
         "fabric-1.20.1" = _ru4vxD8D;
         "default" = _ru4vxD8D;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "goodbye-dirt-screen";
-            id = "L4Rpxkc0";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/frcvdt45g6by7hnj8ukm-nh8b7g6vtf5r4de3/GoodByeDirtScreen/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "goodbye-dirt-screen";
+        id = "L4Rpxkc0";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/frcvdt45g6by7hnj8ukm-nh8b7g6vtf5r4de3/GoodByeDirtScreen/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -311,23 +311,20 @@ let
         "neoforge-1.21.1" = _3EC8C1GU;
         "default" = _3EC8C1GU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bountiful-fares";
-            id = "YgrSDjlb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Heccology-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Heccology-License";
-                    shortName = "LicenseRef-Heccology-License";
-                    url = "https://github.com/Heccology/Bountiful-Fares?tab=License-1-ov-file#";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bountiful-fares";
+        id = "YgrSDjlb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Heccology-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Heccology-License";
+                shortName = "LicenseRef-Heccology-License";
+                url = "https://github.com/Heccology/Bountiful-Fares?tab=License-1-ov-file#";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

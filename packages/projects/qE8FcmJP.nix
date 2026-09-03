@@ -240,23 +240,20 @@ let
         "neoforge-26.1.2" = _Yypt7Nnu;
         "default" = _YpB04GBI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "alan-unified-ui";
-            id = "qE8FcmJP";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-HaoTianA-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-HaoTianA-License-1.0";
-                    shortName = "LicenseRef-HaoTianA-License-1.0";
-                    url = "https://github.com/AlanHT520/SIRIUS-Ui-Mod/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "alan-unified-ui";
+        id = "qE8FcmJP";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-HaoTianA-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-HaoTianA-License-1.0";
+                shortName = "LicenseRef-HaoTianA-License-1.0";
+                url = "https://github.com/AlanHT520/SIRIUS-Ui-Mod/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

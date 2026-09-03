@@ -74,23 +74,20 @@ let
         "fabric-1.21.1" = _3uYWEd1x;
         "default" = _Tftzk0Qn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "capitals-a-monarchy-mod-for-mca-reborn";
-            id = "tHmppiXj";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-GPL-3.0-only";
-                    shortName = "LicenseRef-GPL-3.0-only";
-                    url = "https://github.com/MajesttyX/mca_capitals_addon/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "capitals-a-monarchy-mod-for-mca-reborn";
+        id = "tHmppiXj";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-GPL-3.0-only";
+                shortName = "LicenseRef-GPL-3.0-only";
+                url = "https://github.com/MajesttyX/mca_capitals_addon/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

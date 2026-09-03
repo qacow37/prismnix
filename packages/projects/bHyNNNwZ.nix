@@ -106,23 +106,20 @@ let
         "quilt-1.21.11" = _oVdkm3gu;
         "default" = _oVdkm3gu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nneoenchant-addons-structure";
-            id = "bHyNNNwZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Voxel";
-                    shortName = "LicenseRef-Voxel";
-                    url = "https://github.com/Hardel-DW/NeoEnchant/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nneoenchant-addons-structure";
+        id = "bHyNNNwZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Voxel" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Voxel";
+                shortName = "LicenseRef-Voxel";
+                url = "https://github.com/Hardel-DW/NeoEnchant/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

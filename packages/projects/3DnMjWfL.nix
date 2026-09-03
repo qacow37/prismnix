@@ -210,23 +210,20 @@ let
         "neoforge-26.1.2" = _fk3yUlq0;
         "default" = _rsTVs2KV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hicudan";
-            id = "3DnMjWfL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/non-ai-licenses/non-ai-licenses/blob/main/NON-AI-APACHE2";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hicudan";
+        id = "3DnMjWfL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/non-ai-licenses/non-ai-licenses/blob/main/NON-AI-APACHE2";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

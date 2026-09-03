@@ -159,23 +159,20 @@ let
         "quilt-26.2" = _oqeir9Iw;
         "default" = _oqeir9Iw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pocket_dimension";
-            id = "ycIKn71C";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial 4.0 International";
-                    shortName = "CC-BY-NC-4.0";
-                    url = "https://github.com/MavLeague/pocket_dimension/blob/main/LICENSE-CC-BY-NC-4.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pocket_dimension";
+        id = "ycIKn71C";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                shortName = "CC-BY-NC-4.0";
+                url = "https://github.com/MavLeague/pocket_dimension/blob/main/LICENSE-CC-BY-NC-4.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

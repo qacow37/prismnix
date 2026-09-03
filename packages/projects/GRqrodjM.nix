@@ -156,23 +156,20 @@ let
         "forge-1.20.1" = _oMf9LqL7;
         "default" = _rv1JwLWn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-more-package-couriers";
-            id = "GRqrodjM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-License";
-                    shortName = "LicenseRef-Lambda-License";
-                    url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-more-package-couriers";
+        id = "GRqrodjM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-License";
+                shortName = "LicenseRef-Lambda-License";
+                url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

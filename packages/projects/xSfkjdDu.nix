@@ -165,23 +165,20 @@ let
         "forge-1.19.3" = _nx8KyVFr;
         "default" = _NVCE3ueP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "beyond-earth";
-            id = "xSfkjdDu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Beyond-Earth-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Beyond-Earth-License";
-                    shortName = "LicenseRef-Beyond-Earth-License";
-                    url = "https://pastebin.com/EuJCy5m6";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "beyond-earth";
+        id = "xSfkjdDu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Beyond-Earth-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Beyond-Earth-License";
+                shortName = "LicenseRef-Beyond-Earth-License";
+                url = "https://pastebin.com/EuJCy5m6";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

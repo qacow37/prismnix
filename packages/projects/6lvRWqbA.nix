@@ -242,23 +242,20 @@ let
         "neoforge-26.2" = _zym6Bm6y;
         "default" = _zym6Bm6y;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enderite-mod";
-            id = "6lvRWqbA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://raw.githubusercontent.com/Nic4Las/Minecraft-Enderite-Mod/master/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enderite-mod";
+        id = "6lvRWqbA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://raw.githubusercontent.com/Nic4Las/Minecraft-Enderite-Mod/master/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

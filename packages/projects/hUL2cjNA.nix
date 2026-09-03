@@ -76,23 +76,20 @@ let
         "neoforge-1.20.1" = _UhYKtKPC;
         "default" = _e1KJLvm1;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "purecoppertools";
-            id = "hUL2cjNA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-R-NR";
-                    shortName = "LicenseRef-MIT-R-NR";
-                    url = "https://github.com/purejosh/purecoppertools/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "purecoppertools";
+        id = "hUL2cjNA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-R-NR";
+                shortName = "LicenseRef-MIT-R-NR";
+                url = "https://github.com/purejosh/purecoppertools/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

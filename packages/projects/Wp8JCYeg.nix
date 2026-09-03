@@ -55,23 +55,20 @@ let
         "minecraft-1.19.3" = _RDCP0ThT;
         "default" = _RDCP0ThT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "botamochi129-rspack";
-            id = "Wp8JCYeg";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-botamochi129-Pack-LIcense-B" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-botamochi129-Pack-LIcense-B";
-                    shortName = "LicenseRef-botamochi129-Pack-LIcense-B";
-                    url = "https://github.com/botamochi129/katan_railway/blob/main/License_B_ReadMe.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "botamochi129-rspack";
+        id = "Wp8JCYeg";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-botamochi129-Pack-LIcense-B" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-botamochi129-Pack-LIcense-B";
+                shortName = "LicenseRef-botamochi129-Pack-LIcense-B";
+                url = "https://github.com/botamochi129/katan_railway/blob/main/License_B_ReadMe.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

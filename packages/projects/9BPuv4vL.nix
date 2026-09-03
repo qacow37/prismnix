@@ -68,23 +68,20 @@ let
         "neoforge-1.21.1" = _xVfv1ket;
         "default" = _xVfv1ket;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "beautify";
-            id = "9BPuv4vL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Pandarix/Beautify/blob/1.20-rework/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "beautify";
+        id = "9BPuv4vL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Pandarix/Beautify/blob/1.20-rework/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

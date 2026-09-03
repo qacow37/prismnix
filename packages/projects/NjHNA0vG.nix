@@ -245,23 +245,20 @@ let
         "neoforge-1.20.1" = _yIRtDpZe;
         "default" = _yIRtDpZe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "shutters";
-            id = "NjHNA0vG";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-3.0-Unported" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-3.0-Unported";
-                    shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-3.0-Unported";
-                    url = "https://github.com/nudelauflauch/shutter?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "shutters";
+        id = "NjHNA0vG";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-3.0-Unported" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-3.0-Unported";
+                shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-3.0-Unported";
+                url = "https://github.com/nudelauflauch/shutter?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

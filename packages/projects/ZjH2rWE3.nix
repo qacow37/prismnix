@@ -370,23 +370,20 @@ let
         "spigot-1.20.1" = _wAQ7GaVU;
         "default" = _wAQ7GaVU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "timed-commands";
-            id = "ZjH2rWE3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://cdn-raw.modrinth.com/licenses/mit.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "timed-commands";
+        id = "ZjH2rWE3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://cdn-raw.modrinth.com/licenses/mit.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

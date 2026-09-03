@@ -376,23 +376,20 @@ let
         "neoforge-26.2" = _fXPkJEq3;
         "default" = _ooGGheg7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "boat-item-view";
-            id = "BdKIyOLe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Lesser General Public License v3.0 only";
-                    shortName = "LGPL-3.0-only";
-                    url = "https://github.com/50ap5ud5/BoatItemView/blob/1.21.x-multiloader/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "boat-item-view";
+        id = "BdKIyOLe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = "https://github.com/50ap5ud5/BoatItemView/blob/1.21.x-multiloader/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

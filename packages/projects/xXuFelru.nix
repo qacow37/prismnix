@@ -56,23 +56,20 @@ let
         "neoforge-1.21.1" = _rUbPw3w3;
         "default" = _pQSfgkte;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "genesis-world-previewer-pregenerator";
-            id = "xXuFelru";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Alkearl-License-Agreement" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Alkearl-License-Agreement";
-                    shortName = "LicenseRef-Alkearl-License-Agreement";
-                    url = "https://github.com/Alkeari/Genesis/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "genesis-world-previewer-pregenerator";
+        id = "xXuFelru";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Alkearl-License-Agreement" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Alkearl-License-Agreement";
+                shortName = "LicenseRef-Alkearl-License-Agreement";
+                url = "https://github.com/Alkeari/Genesis/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

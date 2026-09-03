@@ -391,23 +391,20 @@ let
         "fabric-1.21.1" = _EUJNfzzE;
         "default" = _EUJNfzzE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mc-dungeons-enchanting";
-            id = "iwkcspV8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Timefall-Development-License";
-                    shortName = "LicenseRef-Timefall-Development-License";
-                    url = "https://legacy.curseforge.com/project/886511/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mc-dungeons-enchanting";
+        id = "iwkcspV8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Timefall-Development-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Timefall-Development-License";
+                shortName = "LicenseRef-Timefall-Development-License";
+                url = "https://legacy.curseforge.com/project/886511/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

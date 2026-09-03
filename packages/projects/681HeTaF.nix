@@ -362,23 +362,20 @@ let
         "quilt-26.3-snapshot-7" = _oNLN3gUN;
         "default" = _oNLN3gUN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "colored-bricks-mod";
-            id = "681HeTaF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://nesleisk.github.io/AllMods/license.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "colored-bricks-mod";
+        id = "681HeTaF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://nesleisk.github.io/AllMods/license.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

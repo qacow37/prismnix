@@ -41,23 +41,20 @@ let
         "neoforge-1.21.1" = _w7zlLnea;
         "default" = _w7zlLnea;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-aeronautics";
-            id = "oWaK0Q19";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Simulated-Project-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Simulated-Project-License";
-                    shortName = "LicenseRef-Simulated-Project-License";
-                    url = "https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-aeronautics";
+        id = "oWaK0Q19";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Simulated-Project-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Simulated-Project-License";
+                shortName = "LicenseRef-Simulated-Project-License";
+                url = "https://github.com/Creators-of-Aeronautics/Simulated-Project/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

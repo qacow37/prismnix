@@ -688,23 +688,20 @@ let
         "folia-26.2" = _Sb9M3Fn4;
         "default" = _Sb9M3Fn4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "proantitab";
-            id = "1Er8JDvh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-2.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v2.0 or later";
-                    shortName = "GPL-2.0-or-later";
-                    url = "https://github.com/RayzsYT/ProAntiTab/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "proantitab";
+        id = "1Er8JDvh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-2.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v2.0 or later";
+                shortName = "GPL-2.0-or-later";
+                url = "https://github.com/RayzsYT/ProAntiTab/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

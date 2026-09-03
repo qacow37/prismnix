@@ -41,23 +41,20 @@ let
         "neoforge-1.21" = _tlHLfFTJ;
         "default" = _YtW69sC0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "custom-world-generation";
-            id = "VZMHGe7M";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU Affero General Public License v3.0 or later";
-                    shortName = "AGPL-3.0-or-later";
-                    url = "https://github.com/Viola-Siemens/Custom-World-Generation/blob/dev/Forge-1.19.3/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "custom-world-generation";
+        id = "VZMHGe7M";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU Affero General Public License v3.0 or later";
+                shortName = "AGPL-3.0-or-later";
+                url = "https://github.com/Viola-Siemens/Custom-World-Generation/blob/dev/Forge-1.19.3/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

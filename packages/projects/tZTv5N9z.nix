@@ -144,23 +144,20 @@ let
         "fabric-1.20.1" = _w9JmdtBm;
         "default" = _w9JmdtBm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "sanguinis-luxuria";
-            id = "tZTv5N9z";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Auroali/sanguinis-luxuria/blob/11ec22eaeeded60fe3003b17069f8ea8ecdc26af/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "sanguinis-luxuria";
+        id = "tZTv5N9z";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Auroali/sanguinis-luxuria/blob/11ec22eaeeded60fe3003b17069f8ea8ecdc26af/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -37,23 +37,20 @@ let
         "fabric-1.21.8" = _ugV0tO9M;
         "default" = _ugV0tO9M;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "holdable-frogs";
-            id = "XOSn0Rtx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/nekokitsune/holdable-frogs/blob/9c440cbfb11f781c3010b50fcc84d4ce8c2ccaa8/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "holdable-frogs";
+        id = "XOSn0Rtx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/nekokitsune/holdable-frogs/blob/9c440cbfb11f781c3010b50fcc84d4ce8c2ccaa8/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

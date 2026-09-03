@@ -19,23 +19,20 @@ let
         "minecraft-1.21.2" = _nwFoY7cr;
         "default" = _nwFoY7cr;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "applied-energistics-style-mekanism";
-            id = "YQtIo6Qd";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Liteyuki-Studio-Opensource-LICENSE" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Liteyuki-Studio-Opensource-LICENSE";
-                    shortName = "LicenseRef-Liteyuki-Studio-Opensource-LICENSE";
-                    url = "https://github.com/LiteyukiStudio/LiteyukiStudioOpensourceLICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "applied-energistics-style-mekanism";
+        id = "YQtIo6Qd";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Liteyuki-Studio-Opensource-LICENSE" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Liteyuki-Studio-Opensource-LICENSE";
+                shortName = "LicenseRef-Liteyuki-Studio-Opensource-LICENSE";
+                url = "https://github.com/LiteyukiStudio/LiteyukiStudioOpensourceLICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

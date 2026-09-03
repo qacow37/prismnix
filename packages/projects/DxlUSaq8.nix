@@ -162,23 +162,20 @@ let
         "quilt-1.21.11" = _6XtpimHd;
         "default" = _6XtpimHd;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "additional-armoury";
-            id = "DxlUSaq8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lily-License-v1.1";
-                    shortName = "LicenseRef-Lily-License-v1.1";
-                    url = "https://github.com/Provismet/Additional-Armoury/blob/1.21.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "additional-armoury";
+        id = "DxlUSaq8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lily-License-v1.1";
+                shortName = "LicenseRef-Lily-License-v1.1";
+                url = "https://github.com/Provismet/Additional-Armoury/blob/1.21.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

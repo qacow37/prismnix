@@ -3329,23 +3329,20 @@ let
         "forge-1.20.6" = _f749OaVt;
         "default" = _tYvtkzpa;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "roundabout_the_jojo_mod";
-            id = "IDI5Ie1o";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Roundabout" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Roundabout";
-                    shortName = "LicenseRef-Roundabout";
-                    url = "https://github.com/Hydraheads/RoundaboutMod/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "roundabout_the_jojo_mod";
+        id = "IDI5Ie1o";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Roundabout" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Roundabout";
+                shortName = "LicenseRef-Roundabout";
+                url = "https://github.com/Hydraheads/RoundaboutMod/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

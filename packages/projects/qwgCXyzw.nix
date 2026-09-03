@@ -54,23 +54,20 @@ let
         "quilt-1.21.1" = _ftDV31SE;
         "default" = _ftDV31SE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "joy";
-            id = "qwgCXyzw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Joy-Licensing-Information" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Joy-Licensing-Information";
-                    shortName = "LicenseRef-Joy-Licensing-Information";
-                    url = "https://git.pridecraft.gay/joy/tree/HEAD/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "joy";
+        id = "qwgCXyzw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Joy-Licensing-Information" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Joy-Licensing-Information";
+                shortName = "LicenseRef-Joy-Licensing-Information";
+                url = "https://git.pridecraft.gay/joy/tree/HEAD/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

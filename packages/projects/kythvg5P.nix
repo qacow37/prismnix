@@ -200,23 +200,20 @@ let
         "forge-1.20.1" = _nijuPUdb;
         "default" = _v6v9rVmW;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mtr-traffic-addon";
-            id = "kythvg5P";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CookieCraftMods-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CookieCraftMods-Custom-License";
-                    shortName = "LicenseRef-CookieCraftMods-Custom-License";
-                    url = "https://github.com/0PALEQ/MTR-Traffic-Addon/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mtr-traffic-addon";
+        id = "kythvg5P";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CookieCraftMods-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CookieCraftMods-Custom-License";
+                shortName = "LicenseRef-CookieCraftMods-Custom-License";
+                url = "https://github.com/0PALEQ/MTR-Traffic-Addon/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

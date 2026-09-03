@@ -224,23 +224,20 @@ let
         "quilt-26.1.2" = _5F7p6zmZ;
         "default" = _5F7p6zmZ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pale-formations";
-            id = "sJcvkhDc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
-                    shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pale-formations";
+        id = "sJcvkhDc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
+                shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International-";
+                url = "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

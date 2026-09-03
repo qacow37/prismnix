@@ -30,23 +30,20 @@ let
         "neoforge-1.21.1" = _RPliFSHL;
         "default" = _RPliFSHL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "daily-boss-x-l_ender-s-cataclysm";
-            id = "Z1mtkoz6";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-license";
-                    shortName = "LicenseRef-Custom-license";
-                    url = "https://github.com/PlaIsMe/DailyBoss/blob/1.20.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "daily-boss-x-l_ender-s-cataclysm";
+        id = "Z1mtkoz6";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-license";
+                shortName = "LicenseRef-Custom-license";
+                url = "https://github.com/PlaIsMe/DailyBoss/blob/1.20.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

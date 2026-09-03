@@ -114,23 +114,20 @@ let
         "neoforge-26.1" = _j0Bs65aa;
         "default" = _I7KW38kf;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spartan-weaponry-unofficial";
-            id = "w8V2GMiK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/Mai-xiyu/SpartanWeaponry-NeoForge";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spartan-weaponry-unofficial";
+        id = "w8V2GMiK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/Mai-xiyu/SpartanWeaponry-NeoForge";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

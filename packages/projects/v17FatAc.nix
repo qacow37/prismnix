@@ -141,23 +141,20 @@ let
         "fabric-1.21.1" = _acNSsFFk;
         "default" = _TqaHu4Ma;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "kaleidoscope-cookery";
-            id = "v17FatAc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                    shortName = "CC-BY-NC-SA-4.0";
-                    url = "https://github.com/KaleidoscopeMods/KaleidoscopeCookery/blob/main/LICENSE-ASSETS";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "kaleidoscope-cookery";
+        id = "v17FatAc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
+                shortName = "CC-BY-NC-SA-4.0";
+                url = "https://github.com/KaleidoscopeMods/KaleidoscopeCookery/blob/main/LICENSE-ASSETS";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

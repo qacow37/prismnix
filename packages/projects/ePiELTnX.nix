@@ -40,23 +40,20 @@ let
         "quilt-1.18.2" = _D7R0P46r;
         "default" = _D7R0P46r;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "seaborgium";
-            id = "ePiELTnX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "ISC" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "ISC License";
-                    shortName = "ISC";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "seaborgium";
+        id = "ePiELTnX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "ISC" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "ISC License";
+                shortName = "ISC";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

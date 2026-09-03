@@ -157,23 +157,20 @@ let
         "neoforge-26.2" = _5idoY4kV;
         "default" = _5idoY4kV;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wayfarerlib";
-            id = "31z5aE89";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PMOL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PMOL-1.0";
-                    shortName = "LicenseRef-PMOL-1.0";
-                    url = "https://playgroundmods.github.io/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wayfarerlib";
+        id = "31z5aE89";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PMOL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PMOL-1.0";
+                shortName = "LicenseRef-PMOL-1.0";
+                url = "https://playgroundmods.github.io/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

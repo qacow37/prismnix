@@ -159,23 +159,20 @@ let
         "fabric-26.1.2" = _ZcIkP1yY;
         "default" = _ZcIkP1yY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fast-leaf-decay";
-            id = "PcKMtamx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/LukeOnuke/fast-leaf-decay/blob/master/LICENCE.TXT";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fast-leaf-decay";
+        id = "PcKMtamx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/LukeOnuke/fast-leaf-decay/blob/master/LICENCE.TXT";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

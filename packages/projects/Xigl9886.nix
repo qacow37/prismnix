@@ -91,23 +91,20 @@ let
         "neoforge-1.21.1" = _A4YOSo7j;
         "default" = _A4YOSo7j;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-diamond-factory";
-            id = "Xigl9886";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Academic-Free-License-v3.0";
-                    shortName = "LicenseRef-Academic-Free-License-v3.0";
-                    url = "https://interoperable-europe.ec.europa.eu/licence/academic-free-license-v30";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-diamond-factory";
+        id = "Xigl9886";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Academic-Free-License-v3.0";
+                shortName = "LicenseRef-Academic-Free-License-v3.0";
+                url = "https://interoperable-europe.ec.europa.eu/licence/academic-free-license-v30";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

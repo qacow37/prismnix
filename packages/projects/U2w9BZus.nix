@@ -56,23 +56,20 @@ let
         "fabric-26.3-snapshot-6" = _LmIVtB3w;
         "default" = _LmIVtB3w;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "modernregsyncfix";
-            id = "U2w9BZus";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/DexrnZacAttack/ModernRegSyncFix";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "modernregsyncfix";
+        id = "U2w9BZus";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/DexrnZacAttack/ModernRegSyncFix";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

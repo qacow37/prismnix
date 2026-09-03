@@ -89,23 +89,20 @@ let
         "quilt-1.21.1" = _Nk6zPhLN;
         "default" = _Nk6zPhLN;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pureemeraldtools";
-            id = "H4PePKPY";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-R-NR";
-                    shortName = "LicenseRef-MIT-R-NR";
-                    url = "https://github.com/purejosh/pureemeraldtools/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pureemeraldtools";
+        id = "H4PePKPY";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-R-NR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-R-NR";
+                shortName = "LicenseRef-MIT-R-NR";
+                url = "https://github.com/purejosh/pureemeraldtools/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

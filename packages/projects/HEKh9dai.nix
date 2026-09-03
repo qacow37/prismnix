@@ -162,23 +162,20 @@ let
         "quilt-26.2" = _Vr0xfxTC;
         "default" = _Vr0xfxTC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "biome-strongholds";
-            id = "HEKh9dai";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-NIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-NIT";
-                    shortName = "LicenseRef-NIT";
-                    url = "https://github.com/kanokarob/Biome-Strongholds-Smithed/blob/main/license.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "biome-strongholds";
+        id = "HEKh9dai";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-NIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-NIT";
+                shortName = "LicenseRef-NIT";
+                url = "https://github.com/kanokarob/Biome-Strongholds-Smithed/blob/main/license.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

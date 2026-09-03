@@ -152,23 +152,20 @@ let
         "fabric-26.2" = _wCr310Gj;
         "default" = _wCr310Gj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "marlow-crystal-optimizer";
-            id = "ozpC8eDC";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Bram1903/MarlowsCrystalOptimizer/blob/1.0.0-SNAPSHOT/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "marlow-crystal-optimizer";
+        id = "ozpC8eDC";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Bram1903/MarlowsCrystalOptimizer/blob/1.0.0-SNAPSHOT/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

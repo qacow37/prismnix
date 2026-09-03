@@ -139,23 +139,20 @@ let
         "fabric-1.20.4" = _r1Mr9Dvy;
         "default" = _r1Mr9Dvy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "nbtexporter";
-            id = "wkOIQwq8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Eclipse Public License 2.0";
-                    shortName = "EPL-2.0";
-                    url = "https://www.eclipse.org/legal/epl-2.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nbtexporter";
+        id = "wkOIQwq8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "EPL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Eclipse Public License 2.0";
+                shortName = "EPL-2.0";
+                url = "https://www.eclipse.org/legal/epl-2.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

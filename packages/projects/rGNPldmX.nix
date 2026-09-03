@@ -32,23 +32,20 @@ let
         "neoforge-1.21.1" = _ibDPs85p;
         "default" = _SLmC34CS;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ultimine-unchained";
-            id = "rGNPldmX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Alkearl-License-Agreement" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Alkearl-License-Agreement";
-                    shortName = "LicenseRef-Alkearl-License-Agreement";
-                    url = "https://github.com/Alkeari/Ultimine-Unchained/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ultimine-unchained";
+        id = "rGNPldmX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Alkearl-License-Agreement" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Alkearl-License-Agreement";
+                shortName = "LicenseRef-Alkearl-License-Agreement";
+                url = "https://github.com/Alkeari/Ultimine-Unchained/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

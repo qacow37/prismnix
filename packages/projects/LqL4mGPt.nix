@@ -17,23 +17,20 @@ let
         "forge-1.20.1" = _S75jorpC;
         "default" = _S75jorpC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chainmailed";
-            id = "LqL4mGPt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://en.wikipedia.org/wiki/MIT_License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chainmailed";
+        id = "LqL4mGPt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://en.wikipedia.org/wiki/MIT_License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

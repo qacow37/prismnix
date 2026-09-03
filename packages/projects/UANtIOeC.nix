@@ -35,23 +35,20 @@ let
         "minecraft-1.21.11" = _j2zFMgNg;
         "default" = _j2zFMgNg;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "maestro-overture";
-            id = "UANtIOeC";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Obscuria-Ecosystem" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Obscuria-Ecosystem";
-                    shortName = "LicenseRef-Obscuria-Ecosystem";
-                    url = "https://obscurialithium.github.io/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "maestro-overture";
+        id = "UANtIOeC";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Obscuria-Ecosystem" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Obscuria-Ecosystem";
+                shortName = "LicenseRef-Obscuria-Ecosystem";
+                url = "https://obscurialithium.github.io/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

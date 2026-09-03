@@ -119,23 +119,20 @@ let
         "fabric-1.21.1" = _JTx5wh9C;
         "default" = _JTx5wh9C;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fais-mythical-monstrosities";
-            id = "IKQC80wr";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fais-Mythical-Monstrosities-Proprietary-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fais-Mythical-Monstrosities-Proprietary-License";
-                    shortName = "LicenseRef-Fais-Mythical-Monstrosities-Proprietary-License";
-                    url = "https://raw.githubusercontent.com/fai-xi/fai-custom-license/refs/heads/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fais-mythical-monstrosities";
+        id = "IKQC80wr";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fais-Mythical-Monstrosities-Proprietary-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fais-Mythical-Monstrosities-Proprietary-License";
+                shortName = "LicenseRef-Fais-Mythical-Monstrosities-Proprietary-License";
+                url = "https://raw.githubusercontent.com/fai-xi/fai-custom-license/refs/heads/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

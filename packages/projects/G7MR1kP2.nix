@@ -120,23 +120,20 @@ let
         "quilt-26.2" = _E2vTREcy;
         "default" = _E2vTREcy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "magic-mirrors-plus";
-            id = "G7MR1kP2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Phytons-Custom-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Phytons-Custom-License";
-                    shortName = "LicenseRef-Phytons-Custom-License";
-                    url = "https://github.com/Phytonlp/legal/blob/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "magic-mirrors-plus";
+        id = "G7MR1kP2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Phytons-Custom-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Phytons-Custom-License";
+                shortName = "LicenseRef-Phytons-Custom-License";
+                url = "https://github.com/Phytonlp/legal/blob/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

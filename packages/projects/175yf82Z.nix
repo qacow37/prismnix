@@ -1853,23 +1853,20 @@ let
         "fabric-26.2" = _WNLPNxLe;
         "default" = _1MoACqvh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rems-carpet-addition";
-            id = "175yf82Z";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-3.0";
-                    shortName = "LicenseRef-LGPL-3.0";
-                    url = "https://www.gnu.org/licenses/lgpl-3.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rems-carpet-addition";
+        id = "175yf82Z";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-3.0";
+                shortName = "LicenseRef-LGPL-3.0";
+                url = "https://www.gnu.org/licenses/lgpl-3.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

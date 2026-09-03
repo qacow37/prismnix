@@ -194,23 +194,20 @@ let
         "fabric-1.16.5" = _Sy4c3rpC;
         "default" = _Sy4c3rpC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "randompatches";
-            id = "JmtW1Cr5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/TheRandomLabs/RandomPatches/blob/1.16-fabric/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "randompatches";
+        id = "JmtW1Cr5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/TheRandomLabs/RandomPatches/blob/1.16-fabric/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

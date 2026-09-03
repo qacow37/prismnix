@@ -152,23 +152,20 @@ let
         "forge-1.20.1" = _UNxWo4er;
         "default" = _l6QahVpp;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "jinxedlib";
-            id = "Vrr7WtS4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-KekeCreations-License-Version-1.0-January-2025" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-KekeCreations-License-Version-1.0-January-2025";
-                    shortName = "LicenseRef-KekeCreations-License-Version-1.0-January-2025";
-                    url = "https://github.com/KekeCreations/JinxedLib/blob/1.21/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "jinxedlib";
+        id = "Vrr7WtS4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-KekeCreations-License-Version-1.0-January-2025" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-KekeCreations-License-Version-1.0-January-2025";
+                shortName = "LicenseRef-KekeCreations-License-Version-1.0-January-2025";
+                url = "https://github.com/KekeCreations/JinxedLib/blob/1.21/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

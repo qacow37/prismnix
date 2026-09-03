@@ -18,23 +18,20 @@ let
         "neoforge-26.1.2" = _P0SJIejI;
         "default" = _P0SJIejI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "creeperconsent";
-            id = "Mp9B9kJR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MulanPubL-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MulanPubL-2.0";
-                    shortName = "LicenseRef-MulanPubL-2.0";
-                    url = "https://gitlab.com/viktor80/CreeperConsent/-/raw/master/LICENSE?ref_type=heads";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "creeperconsent";
+        id = "Mp9B9kJR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MulanPubL-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MulanPubL-2.0";
+                shortName = "LicenseRef-MulanPubL-2.0";
+                url = "https://gitlab.com/viktor80/CreeperConsent/-/raw/master/LICENSE?ref_type=heads";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

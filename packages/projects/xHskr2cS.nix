@@ -151,23 +151,20 @@ let
         "neoforge-1.21.1" = _Vl334yh6;
         "default" = _3EAmx5Pn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "modern-world-creation";
-            id = "xHskr2cS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSLv2";
-                    shortName = "LicenseRef-DSMSLv2";
-                    url = "https://github.com/Keksuccino/ModernWorldCreation/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "modern-world-creation";
+        id = "xHskr2cS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSLv2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSLv2";
+                shortName = "LicenseRef-DSMSLv2";
+                url = "https://github.com/Keksuccino/ModernWorldCreation/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

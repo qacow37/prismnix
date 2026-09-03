@@ -353,23 +353,20 @@ let
         "forge-1.7.10" = _U7efAnFt;
         "default" = _U7efAnFt;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "endlessids";
-            id = "qGHY4QGo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-plus-MEGA-or-later" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LGPL-3.0-plus-MEGA-or-later";
-                    shortName = "LicenseRef-LGPL-3.0-plus-MEGA-or-later";
-                    url = "https://github.com/GTMEGA/EndlessIDs/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "endlessids";
+        id = "qGHY4QGo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LGPL-3.0-plus-MEGA-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LGPL-3.0-plus-MEGA-or-later";
+                shortName = "LicenseRef-LGPL-3.0-plus-MEGA-or-later";
+                url = "https://github.com/GTMEGA/EndlessIDs/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -526,23 +526,20 @@ let
         "neoforge-1.21.1" = _lBMsiWyw;
         "default" = _lBMsiWyw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "draconic-evolution";
-            id = "nBqivi8H";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CoFH-Dont-Be-a-Jerk-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
-                    shortName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
-                    url = "https://github.com/Draconic-Inc/Draconic-Evolution/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "draconic-evolution";
+        id = "nBqivi8H";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CoFH-Dont-Be-a-Jerk-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
+                shortName = "LicenseRef-CoFH-Dont-Be-a-Jerk-License";
+                url = "https://github.com/Draconic-Inc/Draconic-Evolution/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

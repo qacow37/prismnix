@@ -34,23 +34,20 @@ let
         "fabric-1.20.6" = _sSIvtX4x;
         "default" = _sSIvtX4x;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hexcessible";
-            id = "CrGP9qh8";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-JSON-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-The-JSON-License";
-                    shortName = "LicenseRef-The-JSON-License";
-                    url = "https://g.tizu.dev/hexcessible/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hexcessible";
+        id = "CrGP9qh8";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-The-JSON-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-The-JSON-License";
+                shortName = "LicenseRef-The-JSON-License";
+                url = "https://g.tizu.dev/hexcessible/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

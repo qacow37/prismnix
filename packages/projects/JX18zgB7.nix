@@ -126,23 +126,20 @@ let
         "optifine-1.21.8" = _ZO60Nzwo;
         "default" = _ZO60Nzwo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "valentine";
-            id = "JX18zgB7";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Merged" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Merged";
-                    shortName = "LicenseRef-Merged";
-                    url = "https://github.com/gamerbenyt/Valentine-Shader/tree/main";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "valentine";
+        id = "JX18zgB7";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Merged" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Merged";
+                shortName = "LicenseRef-Merged";
+                url = "https://github.com/gamerbenyt/Valentine-Shader/tree/main";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

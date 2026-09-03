@@ -35,23 +35,20 @@ let
         "minecraft-1.21.11" = _QQ4jZf8t;
         "default" = _QQ4jZf8t;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "3d-better-carpets";
-            id = "BlkMK7Ur";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/Cutebitcoin/3D-Better-Carpets/blob/1.0/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "3d-better-carpets";
+        id = "BlkMK7Ur";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/Cutebitcoin/3D-Better-Carpets/blob/1.0/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

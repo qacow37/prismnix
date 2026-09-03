@@ -79,23 +79,20 @@ let
         "spigot-26.1.2" = _5Kzk2TKI;
         "default" = _5Kzk2TKI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rulesplugin";
-            id = "qi7dyoZ5";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-RPCLA-v1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-RPCLA-v1.2";
-                    shortName = "LicenseRef-RPCLA-v1.2";
-                    url = "https://rulesplugin.netlify.app/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rulesplugin";
+        id = "qi7dyoZ5";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-RPCLA-v1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-RPCLA-v1.2";
+                shortName = "LicenseRef-RPCLA-v1.2";
+                url = "https://rulesplugin.netlify.app/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

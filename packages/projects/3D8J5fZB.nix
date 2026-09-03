@@ -97,23 +97,20 @@ let
         "fabric-26.1.2" = _k4M3kdLm;
         "default" = _k4M3kdLm;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "share-ender-chest";
-            id = "3D8J5fZB";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://spdx.org/licenses/MIT.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "share-ender-chest";
+        id = "3D8J5fZB";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://spdx.org/licenses/MIT.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

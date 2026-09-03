@@ -48,23 +48,20 @@ let
         "forge-1.20.1" = _9ehL3WbZ;
         "default" = _wVFXuH8U;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "kaleidoscope-cookery-satiated-shield-tuner";
-            id = "dj8HLXRh";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-BY-NC-SA-4.0";
-                    shortName = "LicenseRef-CC-BY-NC-SA-4.0";
-                    url = "https://github.com/ShrHang/Kaleidoscope-Cookery-Satiated-Shield-Tuner/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "kaleidoscope-cookery-satiated-shield-tuner";
+        id = "dj8HLXRh";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-NC-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-BY-NC-SA-4.0";
+                shortName = "LicenseRef-CC-BY-NC-SA-4.0";
+                url = "https://github.com/ShrHang/Kaleidoscope-Cookery-Satiated-Shield-Tuner/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

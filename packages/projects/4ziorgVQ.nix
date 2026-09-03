@@ -119,23 +119,20 @@ let
         "minecraft-26.3-snapshot-5" = _LV6uFj1Q;
         "default" = _LV6uFj1Q;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rbs-texture-pack";
-            id = "4ziorgVQ";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-Compilation-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-Compilation-License";
-                    shortName = "LicenseRef-Custom-Compilation-License";
-                    url = "https://gist.github.com/rbeseyt/public";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rbs-texture-pack";
+        id = "4ziorgVQ";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-Compilation-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-Compilation-License";
+                shortName = "LicenseRef-Custom-Compilation-License";
+                url = "https://gist.github.com/rbeseyt/public";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -64,23 +64,20 @@ let
         "fabric-26.2" = _VT1Do4vj;
         "default" = _VT1Do4vj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "origins-legacy-classes";
-            id = "2Cg8rBxf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/GGSkyOne/origins-legacy-classes/blob/1.21.11/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "origins-legacy-classes";
+        id = "2Cg8rBxf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/GGSkyOne/origins-legacy-classes/blob/1.21.11/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

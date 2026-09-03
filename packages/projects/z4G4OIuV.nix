@@ -182,23 +182,20 @@ let
         "neoforge-1.21" = _b1gG8jMJ;
         "default" = _b1gG8jMJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "quantifiedapi";
-            id = "z4G4OIuV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-BRSSLA-V1.5" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-BRSSLA-V1.5";
-                    shortName = "LicenseRef-BRSSLA-V1.5";
-                    url = "https://github.com/Admany/Quantified-API/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "quantifiedapi";
+        id = "z4G4OIuV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-BRSSLA-V1.5" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-BRSSLA-V1.5";
+                shortName = "LicenseRef-BRSSLA-V1.5";
+                url = "https://github.com/Admany/Quantified-API/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

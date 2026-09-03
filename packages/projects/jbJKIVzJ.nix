@@ -77,23 +77,20 @@ let
         "forge-1.8.9" = _g0asNZ8J;
         "default" = _g0asNZ8J;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "yqlossclientmixin";
-            id = "jbJKIVzJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v2.0 only";
-                    shortName = "GPL-2.0-only";
-                    url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "yqlossclientmixin";
+        id = "jbJKIVzJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-2.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v2.0 only";
+                shortName = "GPL-2.0-only";
+                url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

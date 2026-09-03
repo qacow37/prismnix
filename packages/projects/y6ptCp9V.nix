@@ -140,23 +140,20 @@ let
         "neoforge-1.21.7" = _oJY4hi1r;
         "default" = _aVvWipwA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lands-of-icaria";
-            id = "y6ptCp9V";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-license";
-                    shortName = "LicenseRef-Custom-license";
-                    url = "https://www.curseforge.com/minecraft/mc-mods/lands-of-icaria#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lands-of-icaria";
+        id = "y6ptCp9V";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-license";
+                shortName = "LicenseRef-Custom-license";
+                url = "https://www.curseforge.com/minecraft/mc-mods/lands-of-icaria#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

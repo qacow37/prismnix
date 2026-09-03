@@ -46,23 +46,20 @@ let
         "neoforge-1.20.1" = _IbrEfLHB;
         "default" = _IbrEfLHB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "gardenofglass";
-            id = "u9tsjkut";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Botania-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Botania-License";
-                    shortName = "LicenseRef-Botania-License";
-                    url = "https://botaniamod.net/license.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "gardenofglass";
+        id = "u9tsjkut";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Botania-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Botania-License";
+                shortName = "LicenseRef-Botania-License";
+                url = "https://botaniamod.net/license.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

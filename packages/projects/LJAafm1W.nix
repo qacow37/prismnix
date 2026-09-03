@@ -48,23 +48,20 @@ let
         "forge-1.20.2" = _Fbn46lir;
         "default" = _pl9CX3LE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "minecards-forge";
-            id = "LJAafm1W";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldSalad-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-WorldSalad-License";
-                    shortName = "LicenseRef-WorldSalad-License";
-                    url = "https://github.com/WorldSaladDev/WorldSalad-License/blob/main/WorldSalad%20License.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "minecards-forge";
+        id = "LJAafm1W";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-WorldSalad-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-WorldSalad-License";
+                shortName = "LicenseRef-WorldSalad-License";
+                url = "https://github.com/WorldSaladDev/WorldSalad-License/blob/main/WorldSalad%20License.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -691,23 +691,20 @@ let
         "neoforge-1.21.1" = _dj0GknP1;
         "default" = _4l8WFSUB;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "hammer-animations";
-            id = "C7cTlgwS";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Zeith-Standard-Free-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Zeith-Standard-Free-License";
-                    shortName = "LicenseRef-Zeith-Standard-Free-License";
-                    url = "https://zeith.dev/license/zsfl";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hammer-animations";
+        id = "C7cTlgwS";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Zeith-Standard-Free-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Zeith-Standard-Free-License";
+                shortName = "LicenseRef-Zeith-Standard-Free-License";
+                url = "https://zeith.dev/license/zsfl";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

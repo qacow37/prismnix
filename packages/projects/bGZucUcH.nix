@@ -56,23 +56,20 @@ let
         "forge-1.20.1" = _vADzCxVt;
         "default" = _NISJ6gu7;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "artistry-draw";
-            id = "bGZucUcH";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Iliiasik/Artistry/blob/1.21.11/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "artistry-draw";
+        id = "bGZucUcH";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Iliiasik/Artistry/blob/1.21.11/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

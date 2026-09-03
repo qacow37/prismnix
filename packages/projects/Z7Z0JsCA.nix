@@ -217,23 +217,20 @@ let
         "neoforge-1.21.5" = _yymfWGVb;
         "default" = _dakthYDM;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "void-lib";
-            id = "Z7Z0JsCA";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Infinituum-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Infinituum-License";
-                    shortName = "LicenseRef-Infinituum-License";
-                    url = "https://github.com/Infinituum17/VoidLib/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "void-lib";
+        id = "Z7Z0JsCA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Infinituum-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Infinituum-License";
+                shortName = "LicenseRef-Infinituum-License";
+                url = "https://github.com/Infinituum17/VoidLib/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

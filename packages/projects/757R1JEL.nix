@@ -50,23 +50,20 @@ let
         "fabric-1.21.11" = _KA1dbIci;
         "default" = _KA1dbIci;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "stewdrinksound";
-            id = "757R1JEL";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17-Project-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Fy17-Project-License";
-                    shortName = "LicenseRef-Fy17-Project-License";
-                    url = "https://github.com/FySjutton/StewDrinkSound/blob/master/README.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "stewdrinksound";
+        id = "757R1JEL";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Fy17-Project-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Fy17-Project-License";
+                shortName = "LicenseRef-Fy17-Project-License";
+                url = "https://github.com/FySjutton/StewDrinkSound/blob/master/README.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

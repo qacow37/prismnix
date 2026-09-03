@@ -25,23 +25,20 @@ let
         "minecraft-1.21.8" = _BEJaZub4;
         "default" = _BEJaZub4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "3d-bookshelf-variants";
-            id = "InkhhXaF";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Vanilla-Tweaks-Terms" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Vanilla-Tweaks-Terms";
-                    shortName = "LicenseRef-Vanilla-Tweaks-Terms";
-                    url = "https://vanillatweaks.net/terms/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "3d-bookshelf-variants";
+        id = "InkhhXaF";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Vanilla-Tweaks-Terms" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Vanilla-Tweaks-Terms";
+                shortName = "LicenseRef-Vanilla-Tweaks-Terms";
+                url = "https://vanillatweaks.net/terms/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

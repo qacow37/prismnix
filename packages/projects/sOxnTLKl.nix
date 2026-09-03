@@ -25,23 +25,20 @@ let
         "neoforge-1.21.1" = _mxfQE01f;
         "default" = _mxfQE01f;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "explosion-overhaul-a-new-level-of-destruction";
-            id = "sOxnTLKl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-for-Explosion-Overhaul-Mod" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-License-for-Explosion-Overhaul-Mod";
-                    shortName = "LicenseRef-Custom-License-for-Explosion-Overhaul-Mod";
-                    url = "https://github.com/Vinlanx/licensesformods/blob/6daf8997e04478cdc17cc24f404a3b4ed5647e5b/Custom%20License%20for%20Explosion%20Overhaul%20Mod";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "explosion-overhaul-a-new-level-of-destruction";
+        id = "sOxnTLKl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License-for-Explosion-Overhaul-Mod" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-License-for-Explosion-Overhaul-Mod";
+                shortName = "LicenseRef-Custom-License-for-Explosion-Overhaul-Mod";
+                url = "https://github.com/Vinlanx/licensesformods/blob/6daf8997e04478cdc17cc24f404a3b4ed5647e5b/Custom%20License%20for%20Explosion%20Overhaul%20Mod";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

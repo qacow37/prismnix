@@ -62,23 +62,20 @@ let
         "quilt-1.20.4" = _iJU0mzwG;
         "default" = _iJU0mzwG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fedicraft";
-            id = "WYJ9YHh9";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT OR Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License, Apache License 2.0";
-                    shortName = "MIT OR Apache-2.0";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fedicraft";
+        id = "WYJ9YHh9";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT OR Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License, Apache License 2.0";
+                shortName = "MIT OR Apache-2.0";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

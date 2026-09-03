@@ -77,23 +77,20 @@ let
         "neoforge-1.21.1" = _lc8t2DTb;
         "default" = _lc8t2DTb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "magic-coins";
-            id = "qgQomU7L";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SirGrantd-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SirGrantd-License";
-                    shortName = "LicenseRef-SirGrantd-License";
-                    url = "https://github.com/G-Arantd/MagicCoins/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "magic-coins";
+        id = "qgQomU7L";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SirGrantd-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SirGrantd-License";
+                shortName = "LicenseRef-SirGrantd-License";
+                url = "https://github.com/G-Arantd/MagicCoins/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -99,23 +99,20 @@ let
         "fabric-26.2" = _CD40QwMx;
         "default" = _CD40QwMx;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "skyblock-rpc";
-            id = "qESHWJ0N";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyBlock-RPC-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SkyBlock-RPC-License";
-                    shortName = "LicenseRef-SkyBlock-RPC-License";
-                    url = "https://github.com/meowdding/skyblock-rpc/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "skyblock-rpc";
+        id = "qESHWJ0N";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SkyBlock-RPC-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SkyBlock-RPC-License";
+                shortName = "LicenseRef-SkyBlock-RPC-License";
+                url = "https://github.com/meowdding/skyblock-rpc/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

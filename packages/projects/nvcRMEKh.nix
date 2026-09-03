@@ -226,23 +226,20 @@ let
         "minecraft-26.2" = _8ghObCs4;
         "default" = _8ghObCs4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "better-expressions";
-            id = "nvcRMEKh";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CreativeCommons-Attribution-NonCommercial-NoDerivatives-4.0-International" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CreativeCommons-Attribution-NonCommercial-NoDerivatives-4.0-International";
-                    shortName = "LicenseRef-CreativeCommons-Attribution-NonCommercial-NoDerivatives-4.0-International";
-                    url = "https://creativecommons.org/licenses/by-nc-nd/4.0/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-expressions";
+        id = "nvcRMEKh";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CreativeCommons-Attribution-NonCommercial-NoDerivatives-4.0-International" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CreativeCommons-Attribution-NonCommercial-NoDerivatives-4.0-International";
+                shortName = "LicenseRef-CreativeCommons-Attribution-NonCommercial-NoDerivatives-4.0-International";
+                url = "https://creativecommons.org/licenses/by-nc-nd/4.0/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

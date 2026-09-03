@@ -75,23 +75,20 @@ let
         "legacy-fabric-1.13.2" = _Zh2JLFek;
         "default" = _Zh2JLFek;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fpspluslf";
-            id = "GAqJA6ia";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom";
-                    shortName = "LicenseRef-Custom";
-                    url = "https://github.com/HowardZHY/FPS-Plus/blob/Ver-D/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fpspluslf";
+        id = "GAqJA6ia";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/HowardZHY/FPS-Plus/blob/Ver-D/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

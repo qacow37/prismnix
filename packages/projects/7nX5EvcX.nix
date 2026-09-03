@@ -226,23 +226,20 @@ let
         "quilt-1.20.1" = _KxYwrUIv;
         "default" = _z3r8QA0K;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "applications";
-            id = "7nX5EvcX";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MomentariyModder-License";
-                    shortName = "LicenseRef-MomentariyModder-License";
-                    url = "https://momentariymodder.com/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "applications";
+        id = "7nX5EvcX";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MomentariyModder-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MomentariyModder-License";
+                shortName = "LicenseRef-MomentariyModder-License";
+                url = "https://momentariymodder.com/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

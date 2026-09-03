@@ -725,23 +725,20 @@ let
         "neoforge-1.20.4" = _Pl56bqmV;
         "default" = _gZClwdxY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ad-astra";
-            id = "3ufwT9JF";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terrarium-Licence" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Terrarium-Licence";
-                    shortName = "LicenseRef-Terrarium-Licence";
-                    url = "https://github.com/terrarium-earth/Ad-Astra/blob/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ad-astra";
+        id = "3ufwT9JF";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Terrarium-Licence" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Terrarium-Licence";
+                shortName = "LicenseRef-Terrarium-Licence";
+                url = "https://github.com/terrarium-earth/Ad-Astra/blob/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

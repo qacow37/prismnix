@@ -170,23 +170,20 @@ let
         "minecraft-1.21.8" = _mLvHVchJ;
         "default" = _mLvHVchJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "fontpack-caxton";
-            id = "PAFhTB7i";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "OFL-1.1-RFN" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "SIL Open Font License 1.1 with Reserved Font Name";
-                    shortName = "OFL-1.1-RFN";
-                    url = "https://spdx.org/licenses/OFL-1.1-RFN.html";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fontpack-caxton";
+        id = "PAFhTB7i";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "OFL-1.1-RFN" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "SIL Open Font License 1.1 with Reserved Font Name";
+                shortName = "OFL-1.1-RFN";
+                url = "https://spdx.org/licenses/OFL-1.1-RFN.html";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

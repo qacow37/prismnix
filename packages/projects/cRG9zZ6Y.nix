@@ -245,23 +245,20 @@ let
         "purpur-1.21.8" = _qMyzPqg4;
         "default" = _qMyzPqg4;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "simple-clans";
-            id = "cRG9zZ6Y";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-FGPL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-FGPL";
-                    shortName = "LicenseRef-FGPL";
-                    url = "https://flubel.com/license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-clans";
+        id = "cRG9zZ6Y";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-FGPL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-FGPL";
+                shortName = "LicenseRef-FGPL";
+                url = "https://flubel.com/license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

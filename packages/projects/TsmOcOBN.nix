@@ -204,23 +204,20 @@ let
         "fabric-26.3-snapshot-1" = _Ui3Vzjge;
         "default" = _QEAMyiVC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "vulkan-postfx";
-            id = "TsmOcOBN";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Vulkan-PostFX-License-v1.2" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Vulkan-PostFX-License-v1.2";
-                    shortName = "LicenseRef-Vulkan-PostFX-License-v1.2";
-                    url = "https://github.com/Player9753193/Vulkan-PostFX/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "vulkan-postfx";
+        id = "TsmOcOBN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Vulkan-PostFX-License-v1.2" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Vulkan-PostFX-License-v1.2";
+                shortName = "LicenseRef-Vulkan-PostFX-License-v1.2";
+                url = "https://github.com/Player9753193/Vulkan-PostFX/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

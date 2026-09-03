@@ -226,23 +226,20 @@ let
         "neoforge-1.21.1" = _FdVtKdOE;
         "default" = _FdVtKdOE;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "createlazytick";
-            id = "Z0d7hFh4";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-License-1.0.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
-                    shortName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
-                    url = "https://github.com/duckgun13476/Create-LazyTick/blob/1.20.1-6.0.x-forge/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "createlazytick";
+        id = "Z0d7hFh4";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Noncommercial-License-1.0.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Noncommercial-License-1.0.0";
+                url = "https://github.com/duckgun13476/Create-LazyTick/blob/1.20.1-6.0.x-forge/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -23,23 +23,20 @@ let
         "minecraft-1.20.1" = _9z63Mulw;
         "default" = _9z63Mulw;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pondify";
-            id = "L4yDsVcd";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Dont-Be-a-Jerk";
-                    shortName = "LicenseRef-Dont-Be-a-Jerk";
-                    url = "https://github.com/evantahler/Dont-be-a-Jerk";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pondify";
+        id = "L4yDsVcd";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dont-Be-a-Jerk" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Dont-Be-a-Jerk";
+                shortName = "LicenseRef-Dont-Be-a-Jerk";
+                url = "https://github.com/evantahler/Dont-be-a-Jerk";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

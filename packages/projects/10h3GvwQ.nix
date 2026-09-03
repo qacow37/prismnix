@@ -73,23 +73,20 @@ let
         "neoforge-1.20.4" = _67BYl6wx;
         "default" = _16FLrObj;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "panoramica";
-            id = "10h3GvwQ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSL";
-                    shortName = "LicenseRef-DSMSL";
-                    url = "https://github.com/Keksuccino/Panoramica/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "panoramica";
+        id = "10h3GvwQ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSL";
+                shortName = "LicenseRef-DSMSL";
+                url = "https://github.com/Keksuccino/Panoramica/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

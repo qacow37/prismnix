@@ -29,23 +29,20 @@ let
         "forge-1.12.2" = _qWxLLPvT;
         "default" = _qWxLLPvT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "immersive-intelligence";
-            id = "q19xbT91";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Immersive-Intelligence-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Team-Immersive-Intelligence-License";
-                    shortName = "LicenseRef-Team-Immersive-Intelligence-License";
-                    url = "https://github.com/Team-Immersive-Intelligence/ImmersiveIntelligence/blob/dev/main/license.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "immersive-intelligence";
+        id = "q19xbT91";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Team-Immersive-Intelligence-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Team-Immersive-Intelligence-License";
+                shortName = "LicenseRef-Team-Immersive-Intelligence-License";
+                url = "https://github.com/Team-Immersive-Intelligence/ImmersiveIntelligence/blob/dev/main/license.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -199,23 +199,20 @@ let
         "neoforge-1.21.1" = _BMezbCaG;
         "default" = _BMezbCaG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "big-brain";
-            id = "jRRBLkzK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-licenses" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple-licenses";
-                    shortName = "LicenseRef-Multiple-licenses";
-                    url = "https://raw.githubusercontent.com/seymourimadeit/Big-Brain/main/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "big-brain";
+        id = "jRRBLkzK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple-licenses" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple-licenses";
+                shortName = "LicenseRef-Multiple-licenses";
+                url = "https://raw.githubusercontent.com/seymourimadeit/Big-Brain/main/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -236,23 +236,20 @@ let
         "forge-1.20.1" = _qlK9RUlh;
         "default" = _qlK9RUlh;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "netherlink-nli";
-            id = "hi5xan9q";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-with-Additional-Terms" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-with-Additional-Terms";
-                    shortName = "LicenseRef-MIT-with-Additional-Terms";
-                    url = "https://github.com/MUYUTwilighter/NetherLink/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "netherlink-nli";
+        id = "hi5xan9q";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-with-Additional-Terms" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-with-Additional-Terms";
+                shortName = "LicenseRef-MIT-with-Additional-Terms";
+                url = "https://github.com/MUYUTwilighter/NetherLink/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

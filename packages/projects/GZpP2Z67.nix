@@ -114,23 +114,20 @@ let
         "quilt-1.21.1" = _R8aA2Hhc;
         "default" = _kNMvv1uk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "veil-origins";
-            id = "GZpP2Z67";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-V.1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CSL-V.1.0";
-                    shortName = "LicenseRef-CSL-V.1.0";
-                    url = "https://github.com/InsanityLabs/Clopen-Source-License/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "veil-origins";
+        id = "GZpP2Z67";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CSL-V.1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CSL-V.1.0";
+                shortName = "LicenseRef-CSL-V.1.0";
+                url = "https://github.com/InsanityLabs/Clopen-Source-License/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -232,23 +232,20 @@ let
         "spigot-1.21.4" = _N1ZvyoMX;
         "default" = _N1ZvyoMX;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "afk-pool";
-            id = "HKH2UjUI";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/dolosarafat/AfkPool/blob/2e50c8008c2271d9b9f61ba89fcadc5087b57801/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "afk-pool";
+        id = "HKH2UjUI";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/dolosarafat/AfkPool/blob/2e50c8008c2271d9b9f61ba89fcadc5087b57801/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

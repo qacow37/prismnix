@@ -11,23 +11,20 @@ let
         "fabric-1.20.1" = _rqkoYVzG;
         "default" = _rqkoYVzG;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "shakshuka-delight";
-            id = "Kt3KLrwo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-Attribution-1.0-Generic" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC-Attribution-1.0-Generic";
-                    shortName = "LicenseRef-CC-Attribution-1.0-Generic";
-                    url = "https://creativecommons.org/licenses/by/1.0/legalcode";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "shakshuka-delight";
+        id = "Kt3KLrwo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-Attribution-1.0-Generic" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC-Attribution-1.0-Generic";
+                shortName = "LicenseRef-CC-Attribution-1.0-Generic";
+                url = "https://creativecommons.org/licenses/by/1.0/legalcode";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

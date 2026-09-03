@@ -35,23 +35,20 @@ let
         "neoforge-1.21.1" = _sE5KVcHA;
         "default" = _sE5KVcHA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "enigmaticlegacy+";
-            id = "oIjj1Fan";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Enigmatic-Legacy-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Enigmatic-Legacy-License";
-                    shortName = "LicenseRef-Enigmatic-Legacy-License";
-                    url = "https://github.com/Aizistral-Studios/Enigmatic-Legacy/blob/1.19.X/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "enigmaticlegacy+";
+        id = "oIjj1Fan";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Enigmatic-Legacy-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Enigmatic-Legacy-License";
+                shortName = "LicenseRef-Enigmatic-Legacy-License";
+                url = "https://github.com/Aizistral-Studios/Enigmatic-Legacy/blob/1.19.X/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

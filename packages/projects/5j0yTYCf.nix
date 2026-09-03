@@ -75,23 +75,20 @@ let
         "fabric-1.20.2" = _w9nac6OF;
         "default" = _w9nac6OF;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "the_below_bedrock_caves";
-            id = "5j0yTYCf";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CPMML-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CPMML-v1.1";
-                    shortName = "LicenseRef-CPMML-v1.1";
-                    url = "https://github.com/Gitko01/BelowBedrockCaves/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the_below_bedrock_caves";
+        id = "5j0yTYCf";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CPMML-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CPMML-v1.1";
+                shortName = "LicenseRef-CPMML-v1.1";
+                url = "https://github.com/Gitko01/BelowBedrockCaves/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

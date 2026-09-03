@@ -222,23 +222,20 @@ let
         "neoforge-1.21.1" = _Jb78G6CL;
         "default" = _Jb78G6CL;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "data-essence";
-            id = "p2r7HYfw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Halcyon-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Halcyon-License";
-                    shortName = "LicenseRef-Halcyon-License";
-                    url = "https://github.com/Gronglegrowth/Data-Essence/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "data-essence";
+        id = "p2r7HYfw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Halcyon-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Halcyon-License";
+                shortName = "LicenseRef-Halcyon-License";
+                url = "https://github.com/Gronglegrowth/Data-Essence/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

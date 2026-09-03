@@ -145,23 +145,20 @@ let
         "neoforge-26.2" = _hVUe0oDX;
         "default" = _eNQjXC2I;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "zoom-simple";
-            id = "EYKTeOIO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/MrRockis/SimpleZoom/blob/1.21.11/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "zoom-simple";
+        id = "EYKTeOIO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/MrRockis/SimpleZoom/blob/1.21.11/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

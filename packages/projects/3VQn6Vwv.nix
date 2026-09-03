@@ -144,23 +144,20 @@ let
         "quilt-1.21.11" = _83iAgLWJ;
         "default" = _83iAgLWJ;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dual-swords";
-            id = "3VQn6Vwv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lily-License-v1.1";
-                    shortName = "LicenseRef-Lily-License-v1.1";
-                    url = "https://github.com/Provismet/Dual-Swords/blob/1.21.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dual-swords";
+        id = "3VQn6Vwv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License-v1.1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lily-License-v1.1";
+                shortName = "LicenseRef-Lily-License-v1.1";
+                url = "https://github.com/Provismet/Dual-Swords/blob/1.21.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

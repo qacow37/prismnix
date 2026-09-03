@@ -38,23 +38,20 @@ let
         "fabric-26.1.2" = _JdD18uQi;
         "default" = _JdD18uQi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "diamond-scanner";
-            id = "WFJJOAEn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-PixCap" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-PixCap";
-                    shortName = "LicenseRef-PixCap";
-                    url = "https://github.com/pixcapsoft/Diamond-Scanner/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "diamond-scanner";
+        id = "WFJJOAEn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PixCap" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-PixCap";
+                shortName = "LicenseRef-PixCap";
+                url = "https://github.com/pixcapsoft/Diamond-Scanner/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

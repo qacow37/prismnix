@@ -23,23 +23,20 @@ let
         "forge-1.20.1" = _flg1t9Pc;
         "default" = _flg1t9Pc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "the-broken-script-patches";
-            id = "oLIw4oT1";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-0BSD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-0BSD";
-                    shortName = "LicenseRef-0BSD";
-                    url = "https://opensource.org/license/0bsd";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "the-broken-script-patches";
+        id = "oLIw4oT1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-0BSD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-0BSD";
+                shortName = "LicenseRef-0BSD";
+                url = "https://opensource.org/license/0bsd";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

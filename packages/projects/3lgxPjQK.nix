@@ -74,23 +74,20 @@ let
         "neoforge-1.21.11" = _6SKO90GA;
         "default" = _6SKO90GA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "modelengine-client-optimization";
-            id = "3lgxPjQK";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AGPL-3.0";
-                    shortName = "LicenseRef-AGPL-3.0";
-                    url = "https://github.com/Taiyou06/meg-client-mod/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "modelengine-client-optimization";
+        id = "3lgxPjQK";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AGPL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AGPL-3.0";
+                shortName = "LicenseRef-AGPL-3.0";
+                url = "https://github.com/Taiyou06/meg-client-mod/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

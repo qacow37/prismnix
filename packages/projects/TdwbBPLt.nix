@@ -45,23 +45,20 @@ let
         "fabric-1.21.11" = _83r1IcNI;
         "default" = _83r1IcNI;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "oxify";
-            id = "TdwbBPLt";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Apache License 2.0";
-                    shortName = "Apache-2.0";
-                    url = "https://github.com/CodeINN95612/OxifyMod?tab=Apache-2.0-1-ov-file#";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "oxify";
+        id = "TdwbBPLt";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = "https://github.com/CodeINN95612/OxifyMod?tab=Apache-2.0-1-ov-file#";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

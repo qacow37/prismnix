@@ -213,23 +213,20 @@ let
         "quilt-26.1.1" = _k7NWBkIv;
         "default" = _k7NWBkIv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-ancient-debris-5x";
-            id = "1FTKqUlk";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/T1taniumF0rge-Industries-Inc/More-Ancient-Debris-5x";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-ancient-debris-5x";
+        id = "1FTKqUlk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/T1taniumF0rge-Industries-Inc/More-Ancient-Debris-5x";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

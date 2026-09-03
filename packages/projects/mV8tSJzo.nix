@@ -68,23 +68,20 @@ let
         "purpur-1.20.4" = _vwHIqVQi;
         "default" = _vwHIqVQi;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "globalvillagercuring";
-            id = "mV8tSJzo";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "0BSD" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "BSD Zero Clause License";
-                    shortName = "0BSD";
-                    url = "https://opensource.org/license/0bsd/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "globalvillagercuring";
+        id = "mV8tSJzo";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "0BSD" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "BSD Zero Clause License";
+                shortName = "0BSD";
+                url = "https://opensource.org/license/0bsd/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

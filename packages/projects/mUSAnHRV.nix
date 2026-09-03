@@ -243,23 +243,20 @@ let
         "fabric-26.2" = _kKupDlJ5;
         "default" = _4Lyrgu6X;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mercurizer";
-            id = "mUSAnHRV";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR-EM" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-ARR-EM";
-                    shortName = "LicenseRef-ARR-EM";
-                    url = "https://github.com/ModderZellior/Mecurizer/blob/mecurizer/1.21.11/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mercurizer";
+        id = "mUSAnHRV";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ARR-EM" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-ARR-EM";
+                shortName = "LicenseRef-ARR-EM";
+                url = "https://github.com/ModderZellior/Mecurizer/blob/mecurizer/1.21.11/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

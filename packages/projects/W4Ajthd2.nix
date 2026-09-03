@@ -1666,23 +1666,20 @@ let
         "neoforge-26.1.2" = _syHrjDJ0;
         "default" = _syHrjDJ0;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "harvest-with-ease";
-            id = "W4Ajthd2";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crystal-Nest-Community-License-v1" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Crystal-Nest-Community-License-v1";
-                    shortName = "LicenseRef-Crystal-Nest-Community-License-v1";
-                    url = "https://github.com/Crystal-Nest/.github/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "harvest-with-ease";
+        id = "W4Ajthd2";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Crystal-Nest-Community-License-v1" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Crystal-Nest-Community-License-v1";
+                shortName = "LicenseRef-Crystal-Nest-Community-License-v1";
+                url = "https://github.com/Crystal-Nest/.github/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

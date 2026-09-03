@@ -13,23 +13,20 @@ let
         "minecraft-1.21.1" = _xqKeBNUl;
         "default" = _xqKeBNUl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "dlc-manager-emoji-pack";
-            id = "AatnS6mF";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "Creative Commons Zero v1.0 Universal";
-                    shortName = "CC0-1.0";
-                    url = "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "dlc-manager-emoji-pack";
+        id = "AatnS6mF";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Zero v1.0 Universal";
+                shortName = "CC0-1.0";
+                url = "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -31,23 +31,20 @@ let
         "minecraft-1.21" = _8u890CMC;
         "default" = _8u890CMC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "uspm-ext-larsh";
-            id = "lLUfev8i";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Larshs-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Larshs-license";
-                    shortName = "LicenseRef-Larshs-license";
-                    url = "https://larsh512.neocities.org/modlicenses";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "uspm-ext-larsh";
+        id = "lLUfev8i";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Larshs-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Larshs-license";
+                shortName = "LicenseRef-Larshs-license";
+                url = "https://larsh512.neocities.org/modlicenses";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

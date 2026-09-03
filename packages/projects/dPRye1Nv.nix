@@ -214,23 +214,20 @@ let
         "forge-26.1.2" = _6QCs0HfU;
         "default" = _6QCs0HfU;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "apex-a-proper-equipment-expansion";
-            id = "dPRye1Nv";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/ifound1dollar/MC_Fabric_APEx/blob/current/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "apex-a-proper-equipment-expansion";
+        id = "dPRye1Nv";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/ifound1dollar/MC_Fabric_APEx/blob/current/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

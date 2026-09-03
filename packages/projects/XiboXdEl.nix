@@ -108,23 +108,20 @@ let
         "neoforge-1.21.1" = _sK3CXmaO;
         "default" = _sK3CXmaO;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "si-refined-obsidian";
-            id = "XiboXdEl";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Soncresity-Standard-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Soncresity-Standard-License";
-                    shortName = "LicenseRef-Soncresity-Standard-License";
-                    url = "https://www.soncresity.industries/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "si-refined-obsidian";
+        id = "XiboXdEl";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Soncresity-Standard-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Soncresity-Standard-License";
+                shortName = "LicenseRef-Soncresity-Standard-License";
+                url = "https://www.soncresity.industries/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

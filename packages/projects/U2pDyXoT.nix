@@ -36,23 +36,20 @@ let
         "minecraft-1.7.10" = _wJC5RM4p;
         "default" = _wJC5RM4p;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "galacticircle";
-            id = "U2pDyXoT";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved-and-Redistribution-outside-modpacks-is-forbidden-unless-Permission-Granted-by-the-Creator-itself" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-All-Rights-Reserved-and-Redistribution-outside-modpacks-is-forbidden-unless-Permission-Granted-by-the-Creator-itself";
-                    shortName = "LicenseRef-All-Rights-Reserved-and-Redistribution-outside-modpacks-is-forbidden-unless-Permission-Granted-by-the-Creator-itself";
-                    url = null;
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "galacticircle";
+        id = "U2pDyXoT";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved-and-Redistribution-outside-modpacks-is-forbidden-unless-Permission-Granted-by-the-Creator-itself" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved-and-Redistribution-outside-modpacks-is-forbidden-unless-Permission-Granted-by-the-Creator-itself";
+                shortName = "LicenseRef-All-Rights-Reserved-and-Redistribution-outside-modpacks-is-forbidden-unless-Permission-Granted-by-the-Creator-itself";
+                url = null;
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

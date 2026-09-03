@@ -87,23 +87,20 @@ let
         "quilt-1.20" = _5roSgpsC;
         "default" = _Migvhbfk;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "more-food";
-            id = "yn3V0qEx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Academic-Free-License-v3.0";
-                    shortName = "LicenseRef-Academic-Free-License-v3.0";
-                    url = "https://opensource.org/license/afl-3-0-php/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "more-food";
+        id = "yn3V0qEx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Academic-Free-License-v3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Academic-Free-License-v3.0";
+                shortName = "LicenseRef-Academic-Free-License-v3.0";
+                url = "https://opensource.org/license/afl-3-0-php/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

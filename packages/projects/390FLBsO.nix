@@ -107,23 +107,20 @@ let
         "minecraft-1.13.1" = _xqw9Z7Sl;
         "default" = _xqw9Z7Sl;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "equanimity";
-            id = "390FLBsO";
-            type = "resourcepack";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Equanimity-Reourcepack-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Equanimity-Reourcepack-License";
-                    shortName = "LicenseRef-Equanimity-Reourcepack-License";
-                    url = "https://raw.githubusercontent.com/Filmjolk/EGT-License/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "equanimity";
+        id = "390FLBsO";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Equanimity-Reourcepack-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Equanimity-Reourcepack-License";
+                shortName = "LicenseRef-Equanimity-Reourcepack-License";
+                url = "https://raw.githubusercontent.com/Filmjolk/EGT-License/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

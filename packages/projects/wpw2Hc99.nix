@@ -44,23 +44,20 @@ let
         "neoforge-1.21" = _tVV30FBH;
         "default" = _tVV30FBH;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "moms-love";
-            id = "wpw2Hc99";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Nova-Committee/MomLove/blob/1.18.2-fabric/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "moms-love";
+        id = "wpw2Hc99";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Nova-Committee/MomLove/blob/1.18.2-fabric/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

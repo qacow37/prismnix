@@ -74,23 +74,20 @@ let
         "fabric-1.21.1" = _8JirBZVu;
         "default" = _8JirBZVu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wacky-pearls";
-            id = "cHWNRDHx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SCSL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SCSL";
-                    shortName = "LicenseRef-SCSL";
-                    url = "https://raw.githubusercontent.com/saperate/SlimePearls/1.19/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wacky-pearls";
+        id = "cHWNRDHx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SCSL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SCSL";
+                shortName = "LicenseRef-SCSL";
+                url = "https://raw.githubusercontent.com/saperate/SlimePearls/1.19/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

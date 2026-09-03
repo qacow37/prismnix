@@ -156,23 +156,20 @@ let
         "fabric-1.21.5" = _Skfzm7Bo;
         "default" = _Skfzm7Bo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "lprm";
-            id = "TtMrwZoZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Polyform-Shield";
-                    shortName = "LicenseRef-Polyform-Shield";
-                    url = "https://raw.githubusercontent.com/polyformproject/polyform-licenses/refs/heads/1.0.0/PolyForm-Shield-1.0.0.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "lprm";
+        id = "TtMrwZoZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Polyform-Shield" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Polyform-Shield";
+                shortName = "LicenseRef-Polyform-Shield";
+                url = "https://raw.githubusercontent.com/polyformproject/polyform-licenses/refs/heads/1.0.0/PolyForm-Shield-1.0.0.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

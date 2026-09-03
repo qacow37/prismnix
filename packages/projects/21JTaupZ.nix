@@ -72,23 +72,20 @@ let
         "forge-1.18.2" = _Nl9Pd0Ve;
         "default" = _jdJCsldy;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-tank-defenses";
-            id = "21JTaupZ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-AFL-3.0";
-                    shortName = "LicenseRef-AFL-3.0";
-                    url = "https://opensource.org/license/afl-3-0-php";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-tank-defenses";
+        id = "21JTaupZ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-AFL-3.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-AFL-3.0";
+                shortName = "LicenseRef-AFL-3.0";
+                url = "https://opensource.org/license/afl-3-0-php";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

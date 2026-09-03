@@ -35,23 +35,20 @@ let
         "neoforge-1.21.1" = _NtJF029e;
         "default" = _NtJF029e;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-more-linked-remote";
-            id = "4hoqvPkW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-License";
-                    shortName = "LicenseRef-Lambda-License";
-                    url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-more-linked-remote";
+        id = "4hoqvPkW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-License";
+                shortName = "LicenseRef-Lambda-License";
+                url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

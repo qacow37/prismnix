@@ -11,23 +11,20 @@ let
         "forge-1.20.1" = _PyXP2K3R;
         "default" = _PyXP2K3R;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "prehistoric-dweller";
-            id = "K3WAm3Fx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/NalienDev/cave_dweller_neo";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "prehistoric-dweller";
+        id = "K3WAm3Fx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/NalienDev/cave_dweller_neo";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

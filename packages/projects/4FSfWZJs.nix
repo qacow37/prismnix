@@ -32,23 +32,20 @@ let
         "fabric-1.21.1" = _9C39ponR;
         "default" = _9C39ponR;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tnt-logic-realistic-explosion-physics";
-            id = "4FSfWZJs";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-E-ML" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-E-ML";
-                    shortName = "LicenseRef-E-ML";
-                    url = "https://erozeq.click/mods_license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tnt-logic-realistic-explosion-physics";
+        id = "4FSfWZJs";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-E-ML" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-E-ML";
+                shortName = "LicenseRef-E-ML";
+                url = "https://erozeq.click/mods_license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

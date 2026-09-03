@@ -355,23 +355,20 @@ let
         "folia-26.2" = _CSTuHtuv;
         "default" = _CSTuHtuv;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "chatcolors";
-            id = "HIEZ98Xn";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-BusyBee-ARR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-BusyBee-ARR";
-                    shortName = "LicenseRef-BusyBee-ARR";
-                    url = "https://github.com/BusyBee-Development/ChatColor?tab=License-1-ov-file";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chatcolors";
+        id = "HIEZ98Xn";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-BusyBee-ARR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-BusyBee-ARR";
+                shortName = "LicenseRef-BusyBee-ARR";
+                url = "https://github.com/BusyBee-Development/ChatColor?tab=License-1-ov-file";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

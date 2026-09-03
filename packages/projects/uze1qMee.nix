@@ -100,23 +100,20 @@ let
         "quilt-1.20.4" = _I8sMknKj;
         "default" = _ZbmayDVe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "provis-origins";
-            id = "uze1qMee";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lily-License";
-                    shortName = "LicenseRef-Lily-License";
-                    url = "https://github.com/Provismet/Provi-Origins/blob/1.20.2/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "provis-origins";
+        id = "uze1qMee";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lily-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lily-License";
+                shortName = "LicenseRef-Lily-License";
+                url = "https://github.com/Provismet/Provi-Origins/blob/1.20.2/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

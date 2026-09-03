@@ -17,23 +17,20 @@ let
         "forge-1.20.1" = _WhBT0sp5;
         "default" = _WhBT0sp5;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "daily-boss-x-annoying-villagers";
-            id = "HYF2Okvx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Custom-license";
-                    shortName = "LicenseRef-Custom-license";
-                    url = "https://github.com/PlaIsMe/DailyBoss/blob/1.20.1/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "daily-boss-x-annoying-villagers";
+        id = "HYF2Okvx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Custom-license";
+                shortName = "LicenseRef-Custom-license";
+                url = "https://github.com/PlaIsMe/DailyBoss/blob/1.20.1/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -88,23 +88,20 @@ let
         "quilt-1.21.8" = _KyH72UJ8;
         "default" = _KyH72UJ8;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "no-free-deaths";
-            id = "zOOYTMGD";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/clo4/datapacks/blob/main/pause-day-cycle/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "no-free-deaths";
+        id = "zOOYTMGD";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/clo4/datapacks/blob/main/pause-day-cycle/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

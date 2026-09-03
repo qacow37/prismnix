@@ -25,23 +25,20 @@ let
         "neoforge-1.21.1" = _EK7eZaba;
         "default" = _EK7eZaba;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "0pack2reload";
-            id = "2hl2n0xu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Nova-Relay-License-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Nova-Relay-License-1.0";
-                    shortName = "LicenseRef-Nova-Relay-License-1.0";
-                    url = "https://github.com/Nova-Committee/0Pack2Reload/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "0pack2reload";
+        id = "2hl2n0xu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Nova-Relay-License-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Nova-Relay-License-1.0";
+                shortName = "LicenseRef-Nova-Relay-License-1.0";
+                url = "https://github.com/Nova-Committee/0Pack2Reload/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -1713,23 +1713,20 @@ let
         "neoforge-1.21.3" = _cpdUuarK;
         "default" = _YdnYD5Mu;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "load-my-chunks";
-            id = "OtbeKtn3";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Drathonix/LoadMyChunks/blob/stonecutter/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "load-my-chunks";
+        id = "OtbeKtn3";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Drathonix/LoadMyChunks/blob/stonecutter/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

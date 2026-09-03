@@ -262,23 +262,20 @@ let
         "neoforge-26.2" = _p1JdDDHP;
         "default" = _p1JdDDHP;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "wooden-tools-are-dumb";
-            id = "uazDNzUx";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MLL-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MLL-1.0";
-                    shortName = "LicenseRef-MLL-1.0";
-                    url = "https://github.com/moonfather1/playablepeaceful/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "wooden-tools-are-dumb";
+        id = "uazDNzUx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MLL-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MLL-1.0";
+                shortName = "LicenseRef-MLL-1.0";
+                url = "https://github.com/moonfather1/playablepeaceful/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

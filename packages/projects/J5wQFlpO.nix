@@ -76,23 +76,20 @@ let
         "forge-1.19.2" = _V6iWo4sb;
         "default" = _V6iWo4sb;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "biomes-in-jars";
-            id = "J5wQFlpO";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-DSMSL";
-                    shortName = "LicenseRef-DSMSL";
-                    url = "https://github.com/Keksuccino/Biomes-in-Jars/blob/main/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "biomes-in-jars";
+        id = "J5wQFlpO";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-DSMSL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-DSMSL";
+                shortName = "LicenseRef-DSMSL";
+                url = "https://github.com/Keksuccino/Biomes-in-Jars/blob/main/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

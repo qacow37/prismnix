@@ -157,23 +157,20 @@ let
         "fabric-1.21.1" = _jelUpXkK;
         "default" = _jelUpXkK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rubi";
-            id = "KATCCQvJ";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "GNU General Public License v3.0 only";
-                    shortName = "GPL-3.0-only";
-                    url = "https://raw.githubusercontent.com/keve1227/rubi/v1.0.0/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rubi";
+        id = "KATCCQvJ";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = "https://raw.githubusercontent.com/keve1227/rubi/v1.0.0/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

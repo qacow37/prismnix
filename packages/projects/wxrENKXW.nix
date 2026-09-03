@@ -296,23 +296,20 @@ let
         "purpur-1.21.10" = _8JhgDS2b;
         "default" = _8JhgDS2b;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "origins-mobs";
-            id = "wxrENKXW";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-AND-LicenseRef-Proprietary" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
-                    shortName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
-                    url = "https://github.com/cometcake575/Origins-Mobs-License/blob/main/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "origins-mobs";
+        id = "wxrENKXW";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-AND-LicenseRef-Proprietary" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
+                shortName = "LicenseRef-MIT-AND-LicenseRef-Proprietary";
+                url = "https://github.com/cometcake575/Origins-Mobs-License/blob/main/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

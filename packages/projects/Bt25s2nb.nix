@@ -118,23 +118,20 @@ let
         "spigot-26.1.2" = _Sss6ZvvC;
         "default" = _Sss6ZvvC;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "rosestacker";
-            id = "Bt25s2nb";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Non-Distribution" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-MIT-Non-Distribution";
-                    shortName = "LicenseRef-MIT-Non-Distribution";
-                    url = "https://github.com/Rosewood-Development/RoseStacker/blob/master/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "rosestacker";
+        id = "Bt25s2nb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-Non-Distribution" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-MIT-Non-Distribution";
+                shortName = "LicenseRef-MIT-Non-Distribution";
+                url = "https://github.com/Rosewood-Development/RoseStacker/blob/master/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

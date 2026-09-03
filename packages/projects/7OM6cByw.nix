@@ -280,23 +280,20 @@ let
         "quilt-1.21.11" = _zK0G1bjK;
         "default" = _zK0G1bjK;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "mud-craft";
-            id = "7OM6cByw";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-LR" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-LR";
-                    shortName = "LicenseRef-LR";
-                    url = "https://dustebin.com/api/pastes/W2VpfLGS.py/raw";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "mud-craft";
+        id = "7OM6cByw";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LR" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-LR";
+                shortName = "LicenseRef-LR";
+                url = "https://dustebin.com/api/pastes/W2VpfLGS.py/raw";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

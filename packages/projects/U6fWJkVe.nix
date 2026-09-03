@@ -47,23 +47,20 @@ let
         "forge-1.12.2" = _EyFtwytY;
         "default" = _EyFtwytY;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "techguns";
-            id = "U6fWJkVe";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Techguns-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Techguns-Mod-License";
-                    shortName = "LicenseRef-Techguns-Mod-License";
-                    url = "https://github.com/TheSlize/Techguns2-Completion-Update/blob/master/LICENSE.txt";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "techguns";
+        id = "U6fWJkVe";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Techguns-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Techguns-Mod-License";
+                shortName = "LicenseRef-Techguns-Mod-License";
+                url = "https://github.com/TheSlize/Techguns2-Completion-Update/blob/master/LICENSE.txt";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

@@ -205,23 +205,20 @@ let
         "neoforge-1.20.1" = _H5fYIhUa;
         "default" = _gye7Vv1U;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "jsg";
-            id = "ZIPxM9eR";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Just-Stargate-Mod-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Just-Stargate-Mod-License";
-                    shortName = "LicenseRef-Just-Stargate-Mod-License";
-                    url = "https://github.com/Tau-ri-Dev/JSGMod-1.12.2/blob/master/LICENSE.md";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "jsg";
+        id = "ZIPxM9eR";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Just-Stargate-Mod-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Just-Stargate-Mod-License";
+                shortName = "LicenseRef-Just-Stargate-Mod-License";
+                url = "https://github.com/Tau-ri-Dev/JSGMod-1.12.2/blob/master/LICENSE.md";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

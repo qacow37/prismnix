@@ -84,23 +84,20 @@ let
         "fabric-1.21" = _nbH7gVUo;
         "default" = _nbH7gVUo;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "spmhelper";
-            id = "R42Dqz03";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://github.com/Zadudoder/SPmHelper?tab=MIT-1-ov-file#";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spmhelper";
+        id = "R42Dqz03";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Zadudoder/SPmHelper?tab=MIT-1-ov-file#";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

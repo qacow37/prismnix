@@ -338,23 +338,20 @@ let
         "neoforge-1.21.4" = _NoEijcjS;
         "default" = _Vkgxv2Sn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "paladium";
-            id = "pURl7B2k";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOLEA-PIXEL" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-SOLEA-PIXEL";
-                    shortName = "LicenseRef-SOLEA-PIXEL";
-                    url = "https://soleapixel.com/license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "paladium";
+        id = "pURl7B2k";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-SOLEA-PIXEL" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-SOLEA-PIXEL";
+                shortName = "LicenseRef-SOLEA-PIXEL";
+                url = "https://soleapixel.com/license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

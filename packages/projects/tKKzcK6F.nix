@@ -224,23 +224,20 @@ let
         "neoforge-26.2" = _rPv6DKUw;
         "default" = _dPlt2rrA;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "always-a-bigger-fish";
-            id = "tKKzcK6F";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Multiple";
-                    shortName = "LicenseRef-Multiple";
-                    url = "https://github.com/cassiancc/Always-a-Bigger-Fish/blob/main/README.md#license";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "always-a-bigger-fish";
+        id = "tKKzcK6F";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Multiple" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Multiple";
+                shortName = "LicenseRef-Multiple";
+                url = "https://github.com/cassiancc/Always-a-Bigger-Fish/blob/main/README.md#license";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

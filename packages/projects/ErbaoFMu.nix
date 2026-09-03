@@ -370,23 +370,20 @@ let
         "quilt-26.3-snapshot-4" = _miVJ4N9V;
         "default" = _miVJ4N9V;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "efficient-raw-ore-blocks-smelting";
-            id = "ErbaoFMu";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
-                    url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "efficient-raw-ore-blocks-smelting";
+        id = "ErbaoFMu";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Syhmac-Creations-ToS-and-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                shortName = "LicenseRef-Syhmac-Creations-ToS-and-License";
+                url = "https://syhmac.pl/wiki/minecraft-creations-tos-and-license/";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

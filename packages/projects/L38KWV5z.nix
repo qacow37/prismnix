@@ -487,23 +487,20 @@ let
         "neoforge-1.21.1" = _3SSKuZMk;
         "default" = _qyd8fNdc;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "bizzys_tooltopia";
-            id = "L38KWV5z";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International";
-                    shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International";
-                    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bizzys_tooltopia";
+        id = "L38KWV5z";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International";
+                shortName = "LicenseRef-Attribution-NonCommercial-ShareAlike-4.0-International";
+                url = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

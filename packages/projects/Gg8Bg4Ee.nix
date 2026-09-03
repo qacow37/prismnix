@@ -74,23 +74,20 @@ let
         "fabric-1.20.4" = _Sk84C2ee;
         "default" = _Sk84C2ee;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "need-more-ores";
-            id = "Gg8Bg4Ee";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "MIT" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "MIT License";
-                    shortName = "MIT";
-                    url = "https://raw.githubusercontent.com/RobertGameStudio/NeedMoreOresLicense/main/MIT%20License";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "need-more-ores";
+        id = "Gg8Bg4Ee";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://raw.githubusercontent.com/RobertGameStudio/NeedMoreOresLicense/main/MIT%20License";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

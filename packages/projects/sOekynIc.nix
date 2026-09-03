@@ -48,23 +48,20 @@ let
         "forge-1.20.1" = _uKirtrMU;
         "default" = _VcrQU0xe;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "create-more-pipe-bombs-in-packages";
-            id = "sOekynIc";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-LicLambda-Licenseense" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Lambda-LicLambda-Licenseense";
-                    shortName = "LicenseRef-Lambda-LicLambda-Licenseense";
-                    url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "create-more-pipe-bombs-in-packages";
+        id = "sOekynIc";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Lambda-LicLambda-Licenseense" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Lambda-LicLambda-Licenseense";
+                shortName = "LicenseRef-Lambda-LicLambda-Licenseense";
+                url = "https://gist.github.com/rekales/1c8c37911f23eb54a4bbbfdec627b490";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

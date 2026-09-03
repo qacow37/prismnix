@@ -90,23 +90,20 @@ let
         "neoforge-1.20.1" = _9bPpwDyT;
         "default" = _9bPpwDyT;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "just-parry";
-            id = "QfyIvDga";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-4.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Creative-Commons-4.0";
-                    shortName = "LicenseRef-Creative-Commons-4.0";
-                    url = "https://creativecommons.org/licenses/by/4.0/deed.en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "just-parry";
+        id = "QfyIvDga";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Creative-Commons-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Creative-Commons-4.0";
+                shortName = "LicenseRef-Creative-Commons-4.0";
+                url = "https://creativecommons.org/licenses/by/4.0/deed.en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

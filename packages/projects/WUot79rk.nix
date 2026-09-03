@@ -157,23 +157,20 @@ let
         "optifine-1.21.11" = _BH2A8fpn;
         "default" = _BH2A8fpn;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "pyvtron-vx";
-            id = "WUot79rk";
-            type = "shader";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pyvton-Copyright-Claw-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-Pyvton-Copyright-Claw-License";
-                    shortName = "LicenseRef-Pyvton-Copyright-Claw-License";
-                    url = "https://pyvton.pages.dev/licenses/pccl";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "pyvtron-vx";
+        id = "WUot79rk";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Pyvton-Copyright-Claw-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-Pyvton-Copyright-Claw-License";
+                shortName = "LicenseRef-Pyvton-Copyright-Claw-License";
+                url = "https://pyvton.pages.dev/licenses/pccl";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

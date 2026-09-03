@@ -11,23 +11,20 @@ let
         "neoforge-1.21.1" = _JqYr32km;
         "default" = _JqYr32km;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "tachometers-eas";
-            id = "HoKyvOVM";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-CC0-1.0";
-                    shortName = "LicenseRef-CC0-1.0";
-                    url = "https://creativecommons.org/publicdomain/zero/1.0/deed.en";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tachometers-eas";
+        id = "HoKyvOVM";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC0-1.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-CC0-1.0";
+                shortName = "LicenseRef-CC0-1.0";
+                url = "https://creativecommons.org/publicdomain/zero/1.0/deed.en";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}

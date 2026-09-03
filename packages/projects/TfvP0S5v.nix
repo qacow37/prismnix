@@ -198,23 +198,20 @@ let
         "forge-1.20.1" = _ZpVPUr3y;
         "default" = _ZpVPUr3y;
     });
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = "ts-multitools";
-            id = "TfvP0S5v";
-            type = "mod";
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr "LicenseRef-TSMultiTools-License" {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = "LicenseRef-TSMultiTools-License";
-                    shortName = "LicenseRef-TSMultiTools-License";
-                    url = "https://github.com/kasaradanamo/TS-MultiTools/blob/fabric-1.21.11/LICENSE";
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "ts-multitools";
+        id = "TfvP0S5v";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-TSMultiTools-License" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-TSMultiTools-License";
+                shortName = "LicenseRef-TSMultiTools-License";
+                url = "https://github.com/kasaradanamo/TS-MultiTools/blob/fabric-1.21.11/LICENSE";
             };
         };
-in callPackage fn {version="default";}
+    };
+in callPackage fn {}
