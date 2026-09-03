@@ -6,26 +6,23 @@ import nix
 _default = """{lib, callPackage, ...}:
 let
     versions = {{versions | indent(4, first=false)}};
-    fn = {stdenv, fetchurl, version, ...}:
-        lib.prismnix.pkgs.mkVersionedModrinthPkg {
-            inherit stdenv fetchurl;
-            name = {{slug}};
-            id = {{id}};
-            type = {{type}};
-            version = version;
-            versions = versions;
-            meta = {
-                license = lib.getLicenseFromSpdxIdOr {{licenseid}} {
-                    free = false;
-                    deprecated = false;
-                    redistributable = false;
-                    fullName = {{licensename}};
-                    shortName = {{licenseid}};
-                    url = {{licenseurl}};
-                };
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = {{slug}};
+        id = {{id}};
+        type = {{type}};
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr {{licenseid}} {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = {{licensename}};
+                shortName = {{licenseid}};
+                url = {{licenseurl}};
             };
         };
-in callPackage fn {version="default";}"""
+    };
+in callPackage fn {}"""
 
 @dataclass
 class PkgTemplateParams:
