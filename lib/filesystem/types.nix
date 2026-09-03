@@ -1,44 +1,124 @@
 {lib, ...}: rec
 {
-	type = lib.types.enum [
-		"file"
-		"link"
-	];
-	file = lib.types.submodule {
-		options = {
-			source = lib.mkOption {
-				type = lib.types.path;
-				description = "Source of the file";
-			};
-			recursive = lib.mkOption {
-				type = lib.types.bool;
-				default = false;
-				description = "Whether to link the source recursivly";
-			};
+	sources = {
+		file = lib.mkOptionType {
+			name = "filesystem.sources.file";
+			check = v: (
+				(v.type or null) == "file"
+				&& (lib.types.path.check (v.path or null))
+			);
+			merge = lib.mergeEqualOption;
+		};
+		dir = lib.mkOptionType {
+			name = "filesystem.sources.dir";
+			check = v: (
+				(v.type or null) == "dir"
+				&& (lib.types.path.check (v.path or null))
+			);
+			merge = lib.mergeEqualOption;
+		};
+		link = lib.mkOptionType {
+			name = "filesystem.sources.link";
+			check = v: (
+				(v.type or null) == "link"
+				&& (lib.types.path.check (v.path or null))
+				&& (builtins.isBool (v.recursive or false))
+			);
+			merge = lib.mergeEqualOption;
+		};
+		text = lib.mkOptionType {
+			name = "filesystem.sources.text";
+			check = v: (
+				(v.type or null) == "text"
+				&& (builtins.isString (v.text or null))
+			);
+			merge = lib.mergeEqualOption;
 		};
 	};
-	entry = lib.types.submodule ({name, ...}: {
-		options = {
-			disable = lib.mkOption {
-				type = lib.types.bool;
-				default = false;
-				description = "Whether to disable this filesystem entry";
-			};
-			type = lib.mkOption {
-				type = type;
-				description = "Type of the entry in the filesystem";
-			};
-			file = lib.mkOption {
-				type = lib.types.nullOr file;
-				default = null;
-				description = "File data of the entry of type `file`";
-			};
-			target = lib.mkOption {
-				type = lib.types.str;
-				default = name;
-				description = "Path to the target in the filesytem";
-			};
+
+	fileSource = lib.mkOptionType {
+		name = "filesystem.fileSource";
+		check = v:
+			sources.file.check v
+			|| sources.dir.check v
+			|| sources.link.check v
+			|| sources.text.check v;
+		merge = lib.mergeEqualOption;
+	};
+
+	/**
+		Type representing a filesystem
+		entry of type "file". Represents
+		a file with a source attribute
+		of type `fileSource`.
+	*/
+	file = lib.mkOptionType {
+		name = "filesystem.file";
+		check = v: (
+			(v.type or null) == "file"
+			&& v ? source
+			&& fileSource.check v.source
+		);
+		merge = lib.mergeEqualOption;
+	};
+
+	drvlink = lib.mkOptionType {
+		name = "filesystem.drvlink";
+		check = v: (v.type or null) == "drvlink";
+		merge = lib.mergeEqualOption;
+	};
+
+	/**
+		Type representing a filesystem
+		entry of type "dir". Represents
+		a directory of `name -> entry`.
+	*/
+	dir = lib.mkOptionType {
+		name = "filesystem.dir";
+		check = v: (
+			(v.type or null) == "dir"
+			&& lib.isAttrs (v.content or null)
+			&& lib.prismnix.attrsets.all (k: v:
+				!(lib.hasInfix "/" k)
+				&& (entry.check v)
+			) v.content
+		);
+		merge = loc: defs: {
+			type = "dir";
+			content = lib.foldl (a: b:
+				a // (lib.mapAttrs (k: v:
+					if a ? ${k}
+						then entry.merge
+							loc
+							[a.${k} v]
+						else v
+				) b.value.content)
+			) {} defs;
 		};
-	});
-	filesystem = lib.types.attrsOf entry;
+	};
+
+	/**
+		Type representing any entry
+		in a filesystem.
+	*/
+	entry = lib.mkOptionType {
+		name = "filesystem.entry";
+		check = v:
+			file.check v
+			|| dir.check v
+			|| drvlink.check v;
+		merge = loc: defs: (
+			if lib.all (v: file.check v.value) defs
+				then file.merge loc defs
+				else if lib.all (v: drvlink.check v.value) defs
+					then drvlink.merge loc defs
+					else if lib.all (v: dir.check v.value) defs
+						then dir.merge loc defs
+						else throw "prismnix.filesystem.entry: can not merge entries of different types: `${
+							lib.concatStringsSep
+								"."
+								loc
+						}`"
+		);
+	};
 }

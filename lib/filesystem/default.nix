@@ -1,72 +1,241 @@
 {lib, ...}@args: rec
 {
 	types = import ./types.nix args;
-	fs    = import ./fs.nix    args;
+	pkgs = import ./pkgs.nix args;
 
-	filterDisabledFS = fs.filterDisabled;
-	filterLinksFS    = fs.filterLinks;
-	filterFilesFS    = fs.filterFiles;
-	normaliseFS      = fs.normalise;
-	filesFS          = fs.files;
-	validateFS       = fs.validate;
+	inherit (pkgs) mkDrv;
 
 	/**
-		List all paths of items in a directory.
-		Very similiar to `builtins.readDir` only
-		that it returns a list of paths
+		Return if a given value
+		is a valid entry in a filesystem.
 
 		# Inputs
 
-		`path`
+		`v`
 
-		: Path to the directory
+		: Value to validate
 
 		# Type
 
 		```
-		readDir :: Path -> List
+		isEntry :: a -> Bool
 		```
 	*/
-	readDir = path: map (v: path + "/${v}") (
-		builtins.attrNames (
-			builtins.readDir
-				path
-		)
-	);
+	isEntry = v: types.entry.check v;
 
 	/**
-		Filter all paths of items in a directory
-		and store them in a list.
+		Return if a given value
+		is a valid file in a filesystem.
+
+		# Inputs
+
+		`v`
+
+		: Value to validate
+
+		# Type
+
+		```
+		isFile :: a -> Bool
+		```
+	*/
+	isFile = v: types.file.check v;
+
+	/**
+		Return if a given value
+		is a valid directory in a filesystem.
+
+		# Inputs
+
+		`v`
+
+		: Value to validate
+
+		# Type
+
+		```
+		isDir :: a -> Bool
+		```
+	*/
+	isDir = v: types.dir.check v;
+
+	/**
+		Create a directory entry for a filesystem
+		with the given attrset as its content.
+
+		# Inputs
+
+		`content`
+
+		: Filesystem entries of the directory.
+	*/
+	mkDir = {...}@content: {
+		type = "dir";
+		content = content;
+	};
+
+	/**
+		Create a drvlink entry for a filesystem.
+		This function takes an empty attrset for options.
+		It may not be empty in the future.
+	*/
+	mkDrvLink = {...}:{
+		type = "drvlink";
+	};
+
+	/**
+		Create a file entry for a filesytem
+		with the given source.
+
+		# Inputs
+
+		`src`
+
+		: Source of the file entry
+	*/
+	mkFile = {type, ...}@src: {
+		type = "file";
+		source = src;
+	};
+
+	/**
+		Create a file entry for a filesystem
+		with a text source containing
+		the given text.
+
+		# Inputs
+
+		`text`
+
+		: Text of the file
+	*/
+	mkTextFile = text: mkFile {
+		type = "text";
+		text = text;
+	};
+
+	/**
+		Map files recursively in a given filesystem.
+		Throws if the given filesystem
+		is not a valid entry.
 
 		# Inputs
 
 		`f`
 
-		: A function taking a path and the file type.
-		  Return true to include the path and false to
-		  remove it from the resulting list.
+		: Function to apply to files
 
-		`path`
+		`fs`
 
-		: Path to the directory
+		: Filesystem to map recursively
 
-		#  Type
+		# Type
 
 		```
-		filterReadDir :: (Path -> String -> Bool) -> Path -> List
+		mapFilesRecursive :: ([String] -> a -> b) -> f -> g
 		```
 	*/
-	filterReadDir = f: path: lib.foldl (a: {name, value}:
-		let p = path + "/${name}"; in
-			if (f p value) == true
-				then a ++ [p]
-				else a
-	) [] (lib.attrsToList (builtins.readDir path));
+	mapFilesRecursive = f: fs: (if isEntry fs
+		then (
+			mapFilesRecursive'
+				[]
+				f
+				fs
+		)
+		else throw "prismnix.filesystem.mapFilesRecursive: expected filesystem, got `${lib.typeOf fs}`: ${lib.generators.toPretty {} fs}"
+	);
+	mapFilesRecursive' = path: f: fs: (
+		let
+			types = {
+				"dir" = lib.mapAttrs (k: v:
+					mapFilesRecursive'
+						(path ++ [k])
+						f
+						v
+				) fs.content;
+				"file" = f path fs;
+				"drvlink" = fs;
+			};
+		in types.${fs.type}
+	);
 
-	importDir = path: map (p: import p) (
-		filterReadDir (p: v:
-			   v == "regular"
-			|| v == "directory"
-		) path
+	/**
+		Map a filesytem recursively to a list. The given
+		function gets called for each non directory entry
+		and returns an element. `mapRecursiveToList`
+		then returns all elements collected in a list.
+		Throws if the given filesystem is not a valid entry.
+
+		# Inputs
+
+		`f`
+
+		: Function to apply to each non directory entry
+
+		`fs`
+
+		: Filesystem to map to a list
+
+		# Type
+
+		```
+		mapRecursiveToList :: ([String] -> a -> b) -> f -> [b]
+		```
+	*/
+	mapRecursiveToList = f: fs: (if isEntry fs
+		then (
+			mapRecursiveToList'
+				[]
+				f
+				fs
+		)
+		else throw "prismnix.filesystem.mapRecursiveToList: expected filesystem, got `${lib.typeOf fs}`: ${lib.generators.toPretty {} fs}"
+	);
+	mapRecursiveToList' = path: f: fs: (
+		let
+			types = {
+				"dir" = lib.concatLists (lib.mapAttrsToList (k: v:
+					mapRecursiveToList'
+						(path ++ [k])
+						f
+						v
+				) fs.content);
+				"drvlink" = [(f path fs)];
+				"file" = [(f path fs)];
+			};
+		in types.${fs.type}
+	);
+	/**
+		Map files recursively to a list in a
+		given filesystem. The given function gets called
+		for each file and returns an element.
+		`mapFilesRecursiveToList` then returns all elements
+		collected in a list.
+		Throws if the given filesystem is not a valid entry.
+
+		# Inputs
+
+		`f`
+
+		: Function to apply to each file
+
+		`fs`
+
+		: Filesystem to map to a list
+
+		# Type
+
+		```
+		mapFilesRecursiveToList :: ([String] -> a -> b) -> f -> [b]
+		```
+	*/
+	mapFilesRecursiveToList = f: fs: (
+		lib.concatLists (
+			mapRecursiveToList (p: e:
+				if e.type == "file"
+					then [(f p e)]
+					else []
+			) fs
+		)
 	);
 }

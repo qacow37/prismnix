@@ -1,5 +1,8 @@
 {lib, ...}:
 {
+	/**
+		Type representing a json object.
+	*/
 	object = lib.mkOptionType {
 		name = "json-object";
 		description = "a JSON object";
@@ -8,6 +11,9 @@
 		merge = lib.options.mergeDefaultOption;
 	};
 
+	/**
+		Type representing a json array.
+	*/
 	array = lib.mkOptionType {
 		name = "json-array";
 		description = "a JSON array";

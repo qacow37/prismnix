@@ -11,6 +11,11 @@
 				default = name;
 				description = "Target name of the config";
 			};
+			#
+			# Not possible in the current
+			# implementation of the config option.
+			#
+			#
 			# force = lib.mkOption {
 			# 	type = lib.types.bool;
 			# 	default = false;

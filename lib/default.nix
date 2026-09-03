@@ -3,13 +3,15 @@
 	attrsets   = import ./attrsets.nix args;
 	components = import ./components   args;
 	dag        = import ./dag          args;
+	docs       = import ./docs         args;
 	filesystem = import ./filesystem   args;
 	instance   = import ./instance     args;
 	json       = import ./json         args;
 	list       = import ./list.nix     args;
 	minecraft  = import ./minecraft    args;
 	modules    = import ./modules      args;
-	pkgs       = import ./pkgs         args;
+	path       = import ./path.nix     args;
+	pkgs       = import ./pkgs.nix     args;
 	toml       = import ./toml         args;
 	mc = minecraft;
 
@@ -19,20 +21,18 @@
 		filterMapAttrs
 		filterMapAttrs'
 		filterMapAttrsToList
+		filterMapListToAttrs
+		filterMapConcatListToAttrs
+		mapListToAttrs
 		insertIf
 		insertNotNull
 		concatMapAttrsToList;
 
 	inherit (filesystem)
-		filterDisabledFS
-		filterLinksFS
-		filterFilesFS
-		normaliseFS
-		filesFS
-		validateFS
-		readDir
-		filterReadDir
-		importDir;
+		mkDir
+		mkDrvLink
+		mkFile
+		mkTextFile;
 
 	inherit (list)
 		appendIf
@@ -46,39 +46,16 @@
 		mapModuleAttrs
 		mkScope;
 
+	inherit (path)
+		readDir
+		filterReadDir
+		importDir;
+
 	inherit (pkgs)
 		mkPackage
 		mkVersionedModrinthPkg
-		mkModrinthPkg
-		mkInstanceDrv;
+		mkModrinthPkg;
 
 	inherit (toml)
 		toTOML;
-
-	/**
-		Simple utility function that returns `item`
-		if the condition is true
-		`null` otherwise.
-
-		# Inputs
-
-		`cond`
-
-		: Condition, false to return null
-
-		`item`
-
-		: Item that gets returned if `cond` is true
-
-		# Type
-
-		```
-		orNull = Bool -> a -> a
-		```
-	*/
-	orNull = cond: item: (
-		if cond == true
-			then item
-			else null
-	);
 }

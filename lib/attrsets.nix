@@ -122,7 +122,7 @@
 
 		`f`
 
-		: A function returning an attrset like `filterValuePair` does
+		: Function returning a `filterValuePair`
 
 		`attrset`
 
@@ -142,6 +142,102 @@
 					attrset
 			)
 		)
+	);
+
+	/**
+		Map a list to an attrset.
+
+		# Inputs
+
+		`f`
+
+		: Function returning a `nameValuePair`
+
+		`list`
+
+		: List to map to an attrset
+
+		# Type
+
+		```
+		mapListToAttrs
+			:: (a -> { name :: String; value :: b; })
+			-> [a]
+			-> { String :: b }
+		```
+	*/
+	mapListToAttrs = f: list: (
+		lib.listToAttrs (
+			map
+			f
+			list
+		)
+	);
+
+	/**
+		Filter and map a list to an attrset.
+
+		# Inputs
+
+		`f`
+
+		: Function returning a `filterNameValuePair`
+
+		`list`
+
+		: List to filter and map
+
+		# Type
+
+		```
+		filterMapListToAttrs
+			:: (a -> { filter :: Bool; name :: String; value :: b; })
+			-> [a]
+			-> { String :: b }
+		```
+	*/
+	filterMapListToAttrs = f: list: (
+		lib.listToAttrs (
+			map ({name, value, ...}: lib.nameValuePair name value) (
+				builtins.filter
+					(v: v.filter)
+					(map f list)
+			)
+		)
+	);
+
+	/**
+		Filter, map and concat the mapped values
+		of a given map to an attrset. Returned
+		values of the given function are concatted.
+
+		# Inputs
+
+		`f`
+
+		: Function returning a `filterNameValuePair`.
+		  The returned pair must have a list as the value.
+
+		`list`
+
+		: List to filter, map and concat the results for
+
+		# Type
+
+		```
+		filterMapListToAttrs
+			:: (a -> { filter :: Bool; name :: String; value :: [b]; })
+			-> [a]
+			-> { String :: [b] }
+		```
+	*/
+	filterMapConcatListToAttrs = f: list: (
+		lib.foldl (a: b: a //
+			{
+				${b.name} = (a.${b.name} or [])
+					++ b.value;
+			}
+		) {} (builtins.filter (v: v.filter) (map f list))
 	);
 
 	/**
@@ -256,8 +352,7 @@
 	attrsAsFnDefault = asFunctionWithDefault;
 
 	/**
-		Call a function for each attribute in a set
-		and return all result lists concatted.
+		Call a function for each attribute in a set.
 
 		# Inputs
 
@@ -280,6 +375,97 @@
 		lib.concatLists (lib.mapAttrsToList
 			f
 			attrset
+		)
+	);
+
+	/**
+		Compares an attribute with a name in an attrset
+		to a given value. Returns true if the attribute
+		exists and is equal to given value. If the attribute
+		does not exist in the attrset, the function
+		will return false.
+
+		# Inputs
+
+		`name`
+
+		: Name of the attribute to compare with
+
+		`value`
+
+		: Value to compare the attribute against
+
+		`attrset`
+
+		: Attrset optionally containing the attribute
+
+		# Type
+
+		```
+		isAttrEq :: String -> a -> { String :: b } -> Bool
+		```
+	*/
+	# isAttrEq = name: value: attrset: (
+	# 	if builtins.hasAttr name attrset
+	# 		then attrset.${name} == value
+	# 		else false
+	# );
+
+	/**
+		Returns true if a given function
+		returns for all attributes
+		in an attrset true.
+
+		# Input
+
+		`f`
+
+		: Function returning a boolean for each attribute
+
+		`attrset`
+
+		: Attrset to map
+
+		# Type
+
+		```
+		all :: (String -> a -> Bool) -> { String :: a } -> Bool
+		```
+	*/
+	all = f: attrset: (
+		lib.foldl (a: b: a && b) true (
+			lib.mapAttrsToList
+				f
+				attrset
+		)
+	);
+
+	/**
+		Returns true if a given function
+		returns for any attribute
+		in an attrset true.
+
+		# Input
+
+		`f`
+
+		: Function returning a boolean for each attribute
+
+		`attrset`
+
+		: Attrset to map
+
+		# Type
+
+		```
+		all :: (String -> a -> Bool) -> { String :: a } -> Bool
+		```
+	*/
+	any = f: attrset: (
+		lib.foldl (a: b: a || b) false (
+			lib.mapAttrsToList
+				f
+				attrset
 		)
 	);
 }

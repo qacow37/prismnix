@@ -12,6 +12,22 @@
 		in formats.${format} content
 	);
 
+	/**
+		Create an attribute set containing
+		options for a Mods `settings` section.
+
+		# Inputs
+
+		`set`
+
+		: Options to create in the section.
+
+		# Type
+
+		```
+		mkConfigOptions :: set -> options
+		```
+	*/
 	mkConfigOptions = set: (
 		set // {
 			disable = lib.mkOption {
@@ -22,6 +38,28 @@
 		}
 	);
 
+	/**
+		Create a valid configuration for generating
+		a mod config file for a mod config option section.
+
+		# Inputs
+
+		`cfg`
+
+		: Configs option section created by using `mkConfigOptions`.
+
+		# Type
+
+		```
+		mkConfigFile :: cfg -> {
+			filename :: String;
+			format   :: String;
+			content  :: a;
+			copy     :: Bool ? true;
+			path     :: String ? "config/${filename}";
+		} -> config
+		```
+	*/
 	mkConfigFile = cfg: {
 		filename,
 		format,

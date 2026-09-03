@@ -1,5 +1,11 @@
 {lib, ...}:
 {
+	/**
+		Create the instance submodule type with:
+		 - Additional modules
+		 - Base path
+		 - specialArgs to pass to every module
+	*/
 	instance = {
 		modules,
 		basepath,
@@ -13,13 +19,16 @@
 					enable = lib.mkOption {
 						type = lib.types.bool;
 						default = true;
+						example = true;
 						description = "Whether to install the instance or not";
 					};
 					instance = {
 						path = lib.mkOption {
 							type = lib.types.str;
 							default = "${basepath}/${name}";
-							description = "Path to install the instance to";
+							defaultText = "\${programs.prismnix.path}/${name}";
+							example = "./myinstance";
+							description = "Path relative to $HOME to install the instance to";
 						};
 
 						# PrismLauncher specific
@@ -36,8 +45,8 @@
 
 						# General
 						filesystem = lib.mkOption {
-							type = lib.prismnix.filesystem.types.filesystem;
-							default = {};
+							type = lib.prismnix.filesystem.types.dir;
+							default = lib.prismnix.mkDir {};
 							description = "Filesystem entries to construct";
 						};
 						packages = lib.mkOption {

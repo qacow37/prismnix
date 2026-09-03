@@ -83,4 +83,69 @@
 		version = "unknown";
 	};
 	mkModrinthUrl = {project, version, file}: "https://cdn.modrinth.com/data/${project}/versions/${version}/${lib.escapeURL file}";
+
+	mkVersionedModrinthPkgFn = args:
+		{stdenv, fetchurl, version?"default"}:
+			mkVersionedModrinthPkg (
+				args // {
+					inherit
+						stdenv
+						fetchurl
+						version;
+				}
+			);
+
+	mkLink' = {stdenv, name, pkgs, args?{}}:
+		stdenv.mkDerivation (args // {
+			name = name;
+			buildInputs   = (args.buildInputs   or []) ++ pkgs;
+			dontConfigure = (args.dontConfigure or true);
+			dontBuild     = (args.dontBuild     or true);
+			dontUnpack    = (args.dontUnpack    or true);
+
+			installPhase = (args.installPhase or "") + ''
+				shopt -s globstar
+				mkdir -p "$out"
+
+				linkr() {
+					src="$1"
+
+					for file in "$src"/**; do
+						if [[ -f "$file" || -L "$file" ]]; then
+							rel=''${file/#"$src"}
+							dir=''${rel%/*}
+							res="$out/$rel"
+
+							if [[ ! -e "$res" ]]; then
+								mkdir -p "$out/$dir"
+								ln -s "$file" "$res"
+							fi
+						fi
+					done
+				}
+
+				${lib.concatMapStringsSep "\n" (pkg:
+					''linkr "${pkg}"''
+				) pkgs}
+			'';
+		});
+
+	mkLink = f:
+	let
+		link = mkLink' {
+			stdenv = args.stdenv;
+			name = "${args.name}-link";
+			pkgs = args.pkgs;
+		};
+		args = f link;
+	in mkLink' {
+		stdenv = args.stdenv;
+		name = args.name;
+		pkgs = [link];
+		args = lib.removeAttrs args [
+			"stdenv"
+			"name"
+			"pkgs"
+		];
+	};
 }

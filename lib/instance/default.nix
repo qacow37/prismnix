@@ -2,6 +2,9 @@
 {
 	types = import ./types args;
 
+	/**
+		Convert prismlauncher components to a json string.
+	*/
 	componentsToJSON = components: (lib.toJSON {
 		components = map (c: removeAttrs c ["priority"]) (
 			builtins.sort (a: b: a.priority < b.priority) (
@@ -15,6 +18,9 @@
 		formatVersion = 1;
 	});
 
+	/**
+		Creates the home-manager DAG for an instance.
+	*/
 	hmDagFor = {name, instance, writeText, ...}:
 	let
 		cfg = writeText "instance.cfg" (
@@ -29,21 +35,29 @@
 		);
 		mmc = writeText "mmc-pack.json" (componentsToJSON instance.components);
 		path = instance.path;
-	in instance.activation // {
-		"prismnix.${name}.default" = lib.hm.dag.entryAfter ["linkGeneration"]
-		''
-			run mkdir -p "${path}/minecraft"
-			run cp -f "${mmc}" "${path}/mmc-pack.json"
-			run cp -f "${cfg}" "${path}/instance.cfg"
-			run chmod u+w "${path}/mmc-pack.json"
-			run chmod u+w "${path}/instance.cfg"
-		'';
-	};
+	in lib.mapAttrs' (k: v: lib.nameValuePair "prismnix.${name}.${k}" v)
+		(instance.activation // {
+			"default" = lib.hm.dag.entryAfter ["linkGeneration"]
+			''
+				run mkdir -p "${path}/minecraft"
+				run cp -f "${mmc}" "${path}/mmc-pack.json"
+				run cp -f "${cfg}" "${path}/instance.cfg"
+				run chmod u+w "${path}/mmc-pack.json"
+				run chmod u+w "${path}/instance.cfg"
+			'';
+		});
 
+	/**
+		Creates the derivation of the instance.
+	*/
 	mkDerivation = {stdenv, name, instance, ...}:
-		lib.prismnix.pkgs.mkInstanceDrv {
-			inherit stdenv name;
+		lib.prismnix.filesystem.mkDrv {
+			inherit
+				stdenv
+				name;
+			filesystem = lib.prismnix.mkDir {
+				"minecraft" = instance.filesystem;
+			};
 			pkgs = lib.unique instance.packages;
-			filesystem = instance.filesystem;
 		};
 }

@@ -66,6 +66,21 @@
 		) list
 	);
 
+	/**
+		Convert an attrset to a TOML string.
+
+		# Inputs
+
+		`set`
+
+		: Attrset to convert to TOML
+
+		# Type
+
+		```
+		toTOML :: {} -> set -> String
+		```
+	*/
 	toTOML = {...}: attrset: (
 		lib.concatMapAttrsStringSep "\n" (k: v:
 			if builtins.isAttrs v
