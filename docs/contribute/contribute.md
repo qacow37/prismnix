@@ -91,7 +91,11 @@ Follow these steps to add new options:
 
 #### Basic Option Reference
 For a more complete list of instance options, see [Configuration Options](../configuration/options.md).
-For details on available helper functions, see the [Library Documentation](../lib/lib.md).
+
+For details on available helper functions, see the `lib` directory.
+Almost all functions should be well documented with comments.
+Every subdirectory or file in the `lib` directory is it's own scope in the `lib`.
+You are welcome to add new functions, even if you only need them for yourself.
 
 | Option                | Type          | Description                                                                                                                    |
 |-----------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------|

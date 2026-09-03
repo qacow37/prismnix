@@ -20,7 +20,7 @@ If you would like to help, even if you are not sure where to start, please see t
   by leveraging its large library of over **30,000 pre-defined packages**.
 
 - **Updates & Pinning**:
-  Mods and resources automatically update to their latest versions
+  Mods and resources automatically update to the latest version
   when building your configuration, while still allowing you
   to pin them to specific versions by using their versionid.
 

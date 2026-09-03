@@ -138,10 +138,7 @@ the amount of mods minecraft has.
     }
     ```
 
-    For examples, you can look in the
-    `options/minecraft/options/mods/options` directory.
-    The [`sound-controller.nix`](`../../options/minecraft/options/mods/options/sound-controller.nix`)
-    file is especially useful because it's well commented.
+    For examples, you can look [here](./mod-examples.md).
 
     If your module serves as a strong example,
     please add detailed comments to your code and
@@ -156,7 +153,7 @@ the amount of mods minecraft has.
     build your configuration and make sure
     the config file was generated correctly.
 
-## Testing Your Contribution
+## Testing Your Mod
 Before submitting your pull request,
 please make sure your changes work correctly:
 
