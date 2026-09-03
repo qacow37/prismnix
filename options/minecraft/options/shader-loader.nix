@@ -11,6 +11,7 @@
 		version = lib.mkOption {
 			type = lib.types.str;
 			default = "${config.mod-loader.loader}-${config.version}";
+			defaultText = "<latest version for minecraft.version>";
 			description = "Version of the shader loader";
 		};
 
@@ -20,6 +21,7 @@
 				pkgs.prismnix
 				cfg.loader
 				cfg.version;
+			defaultText = "<package for shader-loader.loader>";
 			description = "Shader loader package to use";
 		};
 	};

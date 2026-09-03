@@ -2,7 +2,6 @@
 let
 	mc-loader = config.mod-loader.loader;
 	mc-version = config.version;
-	version = "${mc-loader}-${mc-version}";
 in
 lib.prismnix.mkScope {
 	name = "mods";
@@ -20,7 +19,8 @@ lib.prismnix.mkScope {
 				enable = lib.mkEnableOption "Whether to enable the `${k}` mod";
 				version = lib.mkOption {
 					type = lib.types.str;
-					default = version;
+					default = "${mc-loader}-${mc-version}";
+					defaultText = "<latest version of mod compatible with minecraft.version>";
 					description = "Version of the `${k}` mod";
 				};
 				package = lib.mkOption {
@@ -30,6 +30,7 @@ lib.prismnix.mkScope {
 							(v ? package)
 							v.package
 					);
+					defaultText = "<package of the mod>";
 					description = "Package of the `${k}` mod";
 				};
 			}

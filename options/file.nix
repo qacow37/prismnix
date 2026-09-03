@@ -10,19 +10,12 @@ let
 			};
 
 			text = lib.mkOption {
-				type = lib.types.nullOr lib.types.lines;
-				default = null;
+				type = lib.types.lines;
 				description = "Text content of the file";
 			};
 			source = lib.mkOption {
-				type = lib.types.path;
-				default = let
-					pkg = pkgs.writeText
-						name
-						config.text;
-				in if (config.text != null)
-					then "${pkg}"
-					else throw "source of file `${name}` must not be null";
+				type = lib.types.nullOr lib.types.path;
+				default = null;
 				description = "Path of the source file or directory";
 			};
 			target = lib.mkOption {
@@ -31,14 +24,14 @@ let
 				description = "Path to the target file relative to `instance.path`";
 			};
 
-			recursive = lib.mkOption {
-				type = lib.types.bool;
-				default = false;
-			};
+			# recursive = lib.mkOption {
+			# 	type = lib.types.bool;
+			# 	default = false;
+			# };
 			copy = lib.mkOption {
 				type = lib.types.bool;
 				default = false;
-				description = "Copy the file instead of symlinking";
+				description = "Copy the files or directory recursively instead of symlinking";
 			};
 		};
 	});
@@ -51,7 +44,20 @@ in
 	};
 	config.instance =
 	let
-		file = lib.filterAttrs (_: v: v.enable) config.file;
+		file = lib.prismnix.filterMapAttrs (k: v:
+			{
+				filter = v.enable;
+				value = v // {
+					source = (
+						if v.source == null
+							then pkgs.writeText
+								"${k}"
+								v.text
+							else v.source
+					);
+				};
+			}
+		) config.file;
 		link = lib.filterAttrs (_: v: v.copy == false) file;
 		copy = lib.mapAttrsToList (_: v:
 			{
@@ -61,16 +67,21 @@ in
 		) (lib.filterAttrs (_: v: v.copy == true ) file);
 	in
 	{
-		filesystem = lib.mapAttrs (_: v:
-			{
-				type = "file";
-				file = {
-					source = v.source;
-					recursive = v.recursive;
-				};
-				target = v.target;
-			}
-		) link;
+		filesystem = lib.mkMerge (lib.mapAttrsToList (_: v:
+			let
+				filesystem = lib.foldl
+					(a: b: (
+						lib.prismnix.mkDir {
+							${b} = a;
+						}
+					))
+					(lib.prismnix.mkFile {
+						type = "link";
+						path = "${v.source}";
+					})
+					(lib.reverseList (lib.path.subpath.components v.target));
+			in filesystem
+		) link);
 
 		activation = lib.mkIf (copy != []) {
 			"prismnix.${name}.file" = lib.prismnix.dag.entry name (

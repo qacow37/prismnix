@@ -14,6 +14,7 @@ let cfg = config.programs.prismnix; in
 		path = lib.mkOption {
 			type = lib.types.str;
 			default = "${config.xdg.dataHome}/PrismLauncher";
+			defaultText = "$XDG_DATA_HOME/PrismLauncher";
 			description = "Path to prismlauncher directory";
 		};
 

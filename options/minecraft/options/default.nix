@@ -10,6 +10,7 @@
 			type = lib.prismnix.json.object;
 			default = lib.prismnix.components.minecraftWith
 				config.version;
+			defaultText = "<component for minecraft.version>";
 			description = "Minecraft component to use";
 		};
 	};

@@ -1,6 +1,6 @@
 {lib, pkgs, config, ...}:
 {
-	sound-controller = let cfg = config.sound-controller; in {
+	sound-controller = {
 		package = pkgs.prismnix.sound-controller;
 
 		options = {
@@ -17,18 +17,24 @@
 				};
 			};
 		};
-		config = lib.prismnix.minecraft.mods.mkConfigFile cfg.settings {
-			filename = "soundcontroller.json";
-			format = "json";
-			content = {
-				"subtitlesEnabled" = cfg.settings.display-subtitles;
-				"sounds" = lib.mapAttrsToList (k: v:
-					{
-						"soundId" = k;
-						"volume" = v;
-					}
-				) cfg.settings.sounds;
+		config = lib.prismnix.minecraft.mods.mkConfigFile
+			config.sound-controller.setting
+			{
+				filename = "soundcontroller.json";
+				format = "json";
+				content = {
+					"subtitlesEnabled" = config
+						.sound-controller
+						.settings
+						.display-subtitles;
+
+					"sounds" = lib.mapAttrsToList (k: v:
+						{
+							"soundId" = k;
+							"volume" = v;
+						}
+					) config.sound-controller.settings.sounds;
+				};
 			};
-		};
 	};
 }

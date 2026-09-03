@@ -13,6 +13,7 @@
 			default = lib.prismnix.components.latestVersionOf
 				cfg.loader
 				config.version;
+			defaultText = "<latest version for minecraft.version>";
 			description = "Version of the mod loader";
 		};
 
@@ -21,6 +22,7 @@
 			default = lib.prismnix.components.loaderWith
 				cfg.loader
 				cfg.version;
+			defaultText = "<component for mod-loader.loader>";
 			description = "Mod loader component to use";
 		};
 	};

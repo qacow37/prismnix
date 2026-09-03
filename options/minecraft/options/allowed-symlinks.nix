@@ -20,7 +20,10 @@ let
 in
 {
 	options.allowed-symlinks = {
-		enable = lib.mkEnableOption "Enable generating the allowed_symlinks.txt";
+		enable = lib.mkEnableOption (lib.concatStringsSep "\n" [
+			"Enable generating the allowed_symlinks.txt."
+			"If no patterns are specified, a default pattern allowing all symlinks is used."
+		]);
 		patterns = lib.mkOption {
 			type = lib.types.listOf pattern;
 			default = [
