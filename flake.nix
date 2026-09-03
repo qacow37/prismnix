@@ -16,18 +16,25 @@
 		lib = nixpkgs.lib // home-manager.lib // self.lib;
 	in
 	{
-		homeModules = {
-			prismnix = import ./homeModules/prismnix.nix
-			{
-				lib = lib;
-				inputs = inputs;
-			};
+		homeModules = rec {
+			prismnixWith = {...}@args: (
+				import ./homeModules/prismnix.nix ({
+					lib = lib;
+					inputs = inputs;
+				} // args)
+			);
+			prismnix = prismnixWith {};
 		};
 		lib.prismnix = import ./lib {inherit lib;};
 
 		overlays = {
 			default = final: prev: {
-				prismnix = self.packages.${prev.stdenv.hostPlatform.system};
+				prismnix = import ./packages {
+					lib = lib;
+					pkgs = prev;
+					inputs = inputs;
+					system = prev.stdenv.hostPlatform.system;
+				};
 			};
 		};
 	} // flake-utils.lib.eachDefaultSystem (system:
@@ -37,10 +44,11 @@
 		{
 			packages = import ./packages {
 				lib = lib;
-				callPackage = pkgs.callPackage;
+				pkgs = pkgs;
 				inputs = inputs;
 				system = system;
 			};
+
 			devShells.default = pkgs.mkShell {
 				packages = with pkgs; [
 					python3

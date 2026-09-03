@@ -1,0 +1,75 @@
+{
+	"type": "virtual",
+	"name": "programs",
+	"nofile": true,
+	"groups": [
+		{
+			"type": "dir",
+			"name": "prismnix",
+			"groups": [
+				{
+					"type": "dir",
+					"name": "instances",
+					"nofile": true,
+					"groups": [
+						{
+							"type": "virtual",
+							"name": "<name>",
+							"mask": "instances",
+							"groups": [
+								{
+									"type": "dir",
+									"name": "minecraft",
+									"groups": [
+										{
+											"type": "dir",
+											"name": "mods",
+											"groups": [
+												{
+													"type": "file",
+													"name": "fabric-api"
+												},
+												{
+													"type": "file",
+													"name": "sound-controller"
+												}
+											]
+										},
+										{
+											"type": "file",
+											"name": "mod-loader"
+										},
+										{
+											"type": "file",
+											"name": "shader-loader"
+										},
+										{
+											"type": "file",
+											"name": "allowed-symlinks"
+										},
+										{
+											"type": "file",
+											"name": "default-links"
+										}
+									]
+								},
+								{
+									"type": "file",
+									"name": "instance"
+								},
+								{
+									"type": "file",
+									"name": "config"
+								},
+								{
+									"type": "file",
+									"name": "file"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
