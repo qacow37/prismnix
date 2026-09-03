@@ -25,11 +25,7 @@ lib.prismnix.mkScope {
 				};
 				package = lib.mkOption {
 					type = lib.types.nullOr lib.types.package;
-					default = (
-						lib.prismnix.orNull
-							(v ? package)
-							v.package
-					);
+					default = v.package or null;
 					defaultText = "<package of the mod>";
 					description = "Package of the `${k}` mod";
 				};

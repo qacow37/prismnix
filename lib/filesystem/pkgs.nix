@@ -53,9 +53,12 @@
 									'';
 							};
 							entryTypes = {
-								"drvlink" = ''ln -sf \
-									${lib.escapeShellArg "${pkg}/${file}"} \
-									${lib.escapeShellArg "./${file}"}
+								"drvlink" = ''
+									if [[ -e "${pkg}/${file}" ]]; then
+										ln -sf \
+											${lib.escapeShellArg "${pkg}/${file}"} \
+											${lib.escapeShellArg "./${file}"}
+									fi
 								'';
 								"file" = fileSrc.${src.type};
 							};

@@ -50,11 +50,9 @@
 	/**
 		Creates the derivation of the instance.
 	*/
-	mkDerivation = {stdenv, name, instance, ...}:
-		lib.prismnix.filesystem.mkDrv {
-			inherit
-				stdenv
-				name;
+	mkDerivation = {callPackage, name, instance, ...}:
+		callPackage lib.prismnix.filesystem.mkDrv {
+			inherit name;
 			filesystem = lib.prismnix.mkDir {
 				"minecraft" = instance.filesystem;
 			};

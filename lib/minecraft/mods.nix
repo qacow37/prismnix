@@ -42,6 +42,39 @@
 		Create a valid configuration for generating
 		a mod config file for a mod config option section.
 
+		# Examples
+
+		```nix
+			config = lib.prismnix.minecraft.mods.mkConfigFile
+				config.mymod.settings
+				{
+					filename = "mymod.json";
+					format = "json";
+					content = {
+						AnObject = {
+							field1 = 10;
+							field2 = 20;
+						};
+					};
+				};
+		```
+
+		```nix
+			config = lib.prismnix.minecraft.mods.mkConfigFile
+				config.mymod.settings
+				{
+					filename = "mymod.toml";
+					path = "somefolder/mymod.toml";
+					format = "toml";
+					content = {
+						AnTable = {
+							field1 = true;
+							field2 = false;
+						};
+					};
+				};
+		```
+
 		# Inputs
 
 		`cfg`
