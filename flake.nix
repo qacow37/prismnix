@@ -41,6 +41,12 @@
 			pkgs = nixpkgs.legacyPackages.${system};
 		in
 		{
+            docs = import ./docs {
+                lib = lib;
+                inputs = inputs;
+                pkgs = pkgs;
+            };
+
 			packages = import ./packages {
 				lib = lib;
 				pkgs = pkgs;

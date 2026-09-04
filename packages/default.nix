@@ -1,4 +1,4 @@
-{lib, pkgs, inputs, system, ...}@args:
+{lib, pkgs, inputs, system, ...}:
 let
     proj = import ./projects {
         lib = lib;
@@ -6,8 +6,6 @@ let
     };
 in proj //
 {
-    docs = import ./docs args;
-
     # Reexport PrismLauncher package
     prismlauncher = inputs.prismlauncher.packages.${system}.default;
 }
