@@ -4,6 +4,7 @@
 		enable = lib.mkOption {
 			type = lib.types.bool;
 			default = true;
+			example = false;
 			description = lib.concatStringsSep "\n" [
 				"Whether to use the default symlinks."
 				"Default symlinks are: "

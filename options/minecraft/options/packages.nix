@@ -1,9 +1,13 @@
-{lib, config, ...}:
+{lib, config, pkgs, ...}:
 {
 	options = {
 		packages = lib.mkOption {
 			type = lib.types.listOf lib.types.package;
 			default = [];
+			example = [
+				pkgs.prismnix.sodium
+				pkgs.prismnix.iris
+			];
 			description = "Packages to install into the instance";
 		};
 	};

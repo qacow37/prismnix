@@ -37,6 +37,7 @@
 				display-subtitles = lib.mkOption {
 					type = lib.types.bool;
 					default = false;
+					example = true;
 					description = "Whether to enable displaying subtitles with sound IDs";
 				};
 
@@ -55,6 +56,12 @@
 				sounds = lib.mkOption {
 					type = lib.types.attrsOf lib.types.float;
 					default = {};
+					example = {
+						"minecraft:entity.enderman.ambient" = 0.4;
+						"minecraft:entity.enderman.death"   = 0.3;
+						"minecraft:entity.enderman.hurt"    = 0.2;
+						"minecraft:entity.enderman.scream"  = 0.1;
+					};
 					description = "Sound IDs to set to a specific volume";
 				};
 			};

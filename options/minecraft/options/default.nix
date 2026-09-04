@@ -3,6 +3,7 @@
 	options = {
 		version = lib.mkOption {
 			type = lib.types.str;
+			example = "1.21.11";
 			description = "Minecraft version to use";
 		};
 

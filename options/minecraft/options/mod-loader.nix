@@ -5,6 +5,7 @@
 
 		loader = lib.mkOption {
 			type = lib.types.str;
+			example = "fabric";
 			description = "Mod loader to use";
 		};
 
@@ -14,6 +15,7 @@
 				cfg.loader
 				config.version;
 			defaultText = "<latest version for minecraft.version>";
+			example = "0.19.3";
 			description = "Version of the mod loader";
 		};
 

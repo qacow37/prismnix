@@ -9,10 +9,12 @@ let
 					"prefix"
 				];
 				default = "prefix";
+				example = "prefix";
 				description = "Pattern type";
 			};
 			value = lib.mkOption {
 				type = lib.types.str;
+				example = "resourcepacks/";
 				description = "Pattern value";
 			};
 		};
@@ -30,6 +32,16 @@ in
 				{
 					type = "regex";
 					value = ".*";
+				}
+			];
+			example = [
+				{
+					type = "regex";
+					value = ".*";
+				}
+				{
+					type = "prefix";
+					value = "resourcepacks/";
 				}
 			];
 			description = "Patterns to write into the allowed_symlinks.txt";

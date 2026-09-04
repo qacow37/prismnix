@@ -21,6 +21,7 @@ lib.prismnix.mkScope {
 					type = lib.types.str;
 					default = "${mc-loader}-${mc-version}";
 					defaultText = "<latest version of mod compatible with minecraft.version>";
+					example = "fabric-1.21.11";
 					description = "Version of the `${k}` mod";
 				};
 				package = lib.mkOption {

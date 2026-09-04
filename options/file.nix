@@ -6,11 +6,13 @@ let
 			enable = lib.mkOption {
 				type = lib.types.bool;
 				default = true;
+				example = true;
 				description = "Whether this file should be installed or not";
 			};
 
 			text = lib.mkOption {
 				type = lib.types.lines;
+				example = "This content gets written into this file!";
 				description = "Text content of the file";
 			};
 			source = lib.mkOption {
@@ -31,6 +33,7 @@ let
 			copy = lib.mkOption {
 				type = lib.types.bool;
 				default = false;
+				example = true;
 				description = "Copy the files or directory recursively instead of symlinking";
 			};
 		};

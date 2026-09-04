@@ -5,7 +5,15 @@
 
 		loader = lib.mkOption {
 			type = lib.types.str;
-			description = "Shader loader to use";
+			example = "iris";
+			description = lib.concatStringsSep "\n" [
+				"Shader loader to use."
+				"Available shader loaders are:"
+				''- "iris"''
+				''- "canvas"''
+				''- "vanilla"''
+				''- "optifine"''
+			];
 		};
 
 		version = lib.mkOption {
