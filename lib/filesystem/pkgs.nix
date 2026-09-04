@@ -1,75 +1,60 @@
-{lib, ...}: rec
+{lib, ...}:
 {
-	mkDrv = {stdenv, writeText, name, filesystem, pkgs?[]}:
-		lib.prismnix.pkgs.mkLink (pkg: {
-			stdenv = stdenv;
-			name = name;
+	mkDerivation = {
+		stdenv,
+		writeText,
+		callPackage,
+
+		name,
+		filesystem,
+		pkgs ? [],
+	}:
+	let
+		pkg = callPackage lib.prismnix.pkgs.mkJoinLink {
+			name = "${name}-pkgs";
 			pkgs = pkgs;
+		};
+		fspkg = stdenv.mkDerivation {
+			name = "${name}-fs";
 
-			installPhase = ''
-				mkdir -p "$out"
-				${lib.concatStringsSep "\n" (
-					lib.prismnix.filesystem.mapRecursiveToList (path: entry:
-						let
-							dir = lib.concatStringsSep "/" (
-								lib.dropEnd
-									1
-									path
-							);
-							file = lib.concatStringsSep "/" path;
+			buildInputs = [pkg];
+			dontConfigure = true;
+			dontBuild = true;
+			dontUnpack = true;
 
-							src = if entry.source.type == "text"
-								then {
-									path = "${writeText
-										"${name}-file"
-										entry.source.text
-									}";
-									type = "file";
-								}
-								else entry.source;
-							fileSrc = {
-								"file" = ''cp -f \
-									${lib.escapeShellArg src.path} \
-									${lib.escapeShellArg "./${file}"}
-								'';
-								"dir"  = ''cp -rf \
-									${lib.escapeShellArg src.path} \
-									${lib.escapeShellArg "./${file}"}
-								'';
-								"link" = if (src.recursive or false)
-									then ''
-										shopt -s globstar
-										file=${lib.escapeShellArg file}
-										for f in ${lib.escapeShellArg src.path}/**; do
-											rel=''${f/#${lib.escapeShellArg src.path}}
-											dst="$file/$rel"
-											ln -sf "$f" "$dst"
-										end
-										shopt -u globstar
-									''
-									else ''ln -sf \
-										${lib.escapeShellArg src.path} \
-										${lib.escapeShellArg "./${file}"}
-									'';
-							};
-							entryTypes = {
-								"drvlink" = ''
-									if [[ -e "${pkg}/${file}" ]]; then
-										ln -sf \
-											${lib.escapeShellArg "${pkg}/${file}"} \
-											${lib.escapeShellArg "./${file}"}
-									fi
-								'';
-								"file" = fileSrc.${src.type};
-							};
-						in
-						''
-							cd $out
-							mkdir -p ./${lib.escapeShellArg dir}
-							${entryTypes.${entry.type}}
-						''
-					) filesystem
-				)}
-			'';
-	});
+			installPhase = lib.prismnix.filesystem.concatMapRecursiveStringsSep "\n" (path: entry:
+				let
+					patharg = lib.escapeShellArg (
+						lib.concatStringsSep
+							"/"
+							path
+					);
+
+					file = {
+						"text" = "cp ${writeText "${name}-txt" entry.source.text} $out/${patharg}";
+						"file" = "cp -r ${lib.escapeShellArg entry.source.path} $out/${patharg}";
+						"link" = "ln -s ${lib.escapeShellArg entry.source.path} $out/${patharg}";
+					};
+					types = {
+						"drvlink" = ''
+							if [[ -e ${pkg}/${patharg} ]]; then
+								ln -s                 \
+									${pkg}/${patharg} \
+									$out/${patharg}
+							fi
+						'';
+						"dir" = "mkdir $out/${patharg}";
+						"file" = file.${entry.source.type};
+					};
+				in types.${entry.type}
+			) filesystem;
+		};
+		joinedPackage = callPackage lib.prismnix.pkgs.mkJoinLink {
+			name = name;
+			pkgs = [
+				fspkg
+				pkg
+			];
+		};
+	in joinedPackage;
 }

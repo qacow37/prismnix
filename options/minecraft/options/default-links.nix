@@ -15,9 +15,11 @@
 	};
 	config.instance = lib.mkIf config.default-links.enable {
 		filesystem = lib.prismnix.mkDir {
-			"mods"          = lib.prismnix.mkDrvLink {};
-			"resourcepacks" = lib.prismnix.mkDrvLink {};
-			"shaderpacks"   = lib.prismnix.mkDrvLink {};
+			minecraft = lib.prismnix.mkDir {
+				"mods"          = lib.prismnix.mkDrvLink {};
+				"resourcepacks" = lib.prismnix.mkDrvLink {};
+				"shaderpacks"   = lib.prismnix.mkDrvLink {};
+			};
 		};
 	};
 }

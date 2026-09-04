@@ -9,20 +9,11 @@
 			);
 			merge = lib.mergeEqualOption;
 		};
-		dir = lib.mkOptionType {
-			name = "filesystem.sources.dir";
-			check = v: (
-				(v.type or null) == "dir"
-				&& (lib.types.path.check (v.path or null))
-			);
-			merge = lib.mergeEqualOption;
-		};
 		link = lib.mkOptionType {
 			name = "filesystem.sources.link";
 			check = v: (
 				(v.type or null) == "link"
 				&& (lib.types.path.check (v.path or null))
-				&& (builtins.isBool (v.recursive or false))
 			);
 			merge = lib.mergeEqualOption;
 		};
@@ -40,7 +31,6 @@
 		name = "filesystem.fileSource";
 		check = v:
 			sources.file.check v
-			|| sources.dir.check v
 			|| sources.link.check v
 			|| sources.text.check v;
 		merge = lib.mergeEqualOption;
@@ -83,18 +73,7 @@
 				&& (entry.check v)
 			) v.content
 		);
-		merge = loc: defs: {
-			type = "dir";
-			content = lib.foldl (a: b:
-				a // (lib.mapAttrs (k: v:
-					if a ? ${k}
-						then entry.merge
-							loc
-							[a.${k} v]
-						else v
-				) b.value.content)
-			) {} defs;
-		};
+		merge = entry.merge;
 	};
 
 	/**
@@ -103,22 +82,47 @@
 	*/
 	entry = lib.mkOptionType {
 		name = "filesystem.entry";
-		check = v:
+		check = v: (
 			file.check v
 			|| dir.check v
-			|| drvlink.check v;
-		merge = loc: defs: (
-			if lib.all (v: file.check v.value) defs
-				then file.merge loc defs
-				else if lib.all (v: drvlink.check v.value) defs
-					then drvlink.merge loc defs
-					else if lib.all (v: dir.check v.value) defs
-						then dir.merge loc defs
-						else throw "prismnix.filesystem.entry: can not merge entries of different types: `${
-							lib.concatStringsSep
-								"."
-								loc
-						}`"
+			|| drvlink.check v
 		);
+
+		# merge = loc: defs: throw (
+		# 	lib.concatMapStringsSep
+		# 		"\n\n"
+		# 		(v: lib.generators.toPretty {} v)
+		# 		defs
+		# );
+		merge = loc: d:
+		let
+			head = lib.head d;
+			tail = lib.tail d;
+		in lib.foldl (a: b:
+			lib.prismnix.filesystem.merge (p: f: g:
+				let
+					types = {
+						"file" = file.merge;
+						"drvlink" = drvlink.merge;
+					};
+					result = (
+						if f.type == g.type
+						then (
+							types.${f.type} (loc ++ p) [
+								(lib.mkDefinition {
+									value = f;
+									file = head.file;
+								})
+								(lib.mkDefinition {
+									value = g;
+									file = b.file;
+								})
+							]
+						)
+						else throw "at ${lib.concatStringsSep "." (loc ++ p)}: failed to merge two filesystems declared at `${head.file}`, `${b.file}`"
+					);
+				in result
+			) a b.value
+		) head.value tail;
 	};
 }

@@ -3,7 +3,7 @@
 	types = import ./types.nix args;
 	pkgs = import ./pkgs.nix args;
 
-	inherit (pkgs) mkDrv;
+	inherit (pkgs) mkDerivation;
 
 	/**
 		Return if a given value
@@ -58,6 +58,33 @@
 		```
 	*/
 	isDir = v: types.dir.check v;
+
+	/**
+		Checks if `v` is a valid filesystem.
+		Returns `v` if it is a valid filesytem,
+		otherwise it throws with an error message
+		with `loc` inserted at the beginning.
+
+		# Inputs
+
+		`v`
+
+		: Value to validate
+
+		`loc`
+
+		: Location to print for the error
+
+		# Type
+
+		```
+		isValid :: f -> String -> f
+		```
+	*/
+	isValid = v: loc: (if (isEntry v)
+		then v
+		else throw "${loc}: invalid filesystem, got `${lib.typeOf v}`: ${lib.generators.toPretty {} v}"
+	);
 
 	/**
 		Create a directory entry for a filesystem
@@ -135,14 +162,11 @@
 		mapFilesRecursive :: ([String] -> a -> b) -> f -> g
 		```
 	*/
-	mapFilesRecursive = f: fs: (if isEntry fs
-		then (
-			mapFilesRecursive'
-				[]
-				f
-				fs
-		)
-		else throw "prismnix.filesystem.mapFilesRecursive: expected filesystem, got `${lib.typeOf fs}`: ${lib.generators.toPretty {} fs}"
+	mapFilesRecursive = f: fs: (
+		mapFilesRecursive'
+			[]
+			f
+			(isValid fs "prismnix.filesystem.mapFilesRecursive")
 	);
 	mapFilesRecursive' = path: f: fs: (
 		let
@@ -182,14 +206,11 @@
 		mapRecursiveToList :: ([String] -> a -> b) -> f -> [b]
 		```
 	*/
-	mapRecursiveToList = f: fs: (if isEntry fs
-		then (
-			mapRecursiveToList'
-				[]
-				f
-				fs
-		)
-		else throw "prismnix.filesystem.mapRecursiveToList: expected filesystem, got `${lib.typeOf fs}`: ${lib.generators.toPretty {} fs}"
+	mapRecursiveToList = f: fs: (
+		mapRecursiveToList'
+			[]
+			f
+			(isValid fs "prismnix.filesystem.mapRecursiveToList")
 	);
 	mapRecursiveToList' = path: f: fs: (
 		let
@@ -237,5 +258,167 @@
 					else []
 			) fs
 		)
+	);
+
+	/**
+		Map a filesytem recursively to a string. The given
+		function gets called for each entry and
+		returns a string or null. `concatMapRecursiveStringsSep`
+		then returns all strings concatted, `null` values are discarded.
+
+		Throws if the given filesystem is not a valid entry.
+
+		# Inputs
+
+		`sep`
+
+		: Seperator for seperating the strings
+
+		`f`
+
+		: Function to apply to each entry
+
+		`fs`
+
+		: Filesystem to map to a string
+
+		# Type
+
+		```
+		concatMapRecursiveStringsSep
+			:: String
+			-> ([String] -> a -> b)
+			-> f
+			-> String
+		```
+	*/
+	concatMapRecursiveStringsSep = sep: f: fs: (
+		let
+			result = (concatMapRecursiveStringsSep'
+				[]
+				sep
+				f
+				(isValid fs "prismnix.filesystem.concatMapRecursiveStringsSep")
+			);
+		in if result == null
+			then ""
+			else result
+	);
+
+	concatMapRecursiveStringsSep' = path: sep: f: fs: (
+		let
+			mapped = f path fs;
+			childs = lib.mapAttrsToList (k: v:
+				concatMapRecursiveStringsSep'
+					(path ++ [k])
+					sep
+					f
+					v
+			) fs.content;
+
+			types = {
+				"dir" = (lib.foldl
+					(a: b:
+						if a != null && b != null
+							then a + sep + b
+							else if a != null then a
+							else if b != null then b
+							else null
+					)
+					mapped
+					childs
+				);
+				"file" = mapped;
+				"drvlink" = mapped;
+			};
+		in types.${fs.type}
+	);
+
+	/**
+		Merge two filesystem with a function `f`.
+		The function `f` gets called for two
+		overlapping entries if any of the entries is not a directory.
+		The function is then supposed to merge the two
+		entries or throw.
+
+		Throws if the function `f` does not return a valid filesytem.
+
+		# Inputs
+
+		`f`
+
+		: Function to merge two filesystem entries
+		  if one of them is not a directory.
+
+		`fs1`
+
+		: First filesystem
+
+		`fs2`
+
+		: Second filesystem
+
+		# Type
+
+		```
+		merge :: ([String] -> a -> b -> c) -> f -> g -> h
+		```
+	*/
+	merge = f: fs1: fs2: (merge'
+		[]
+		f
+		(isValid fs1 "prismnix.filesystem.merge: fs1")
+		(isValid fs2 "prismnix.filesystem.merge: fs2")
+	);
+	merge' = path: f: fs1: fs2: (
+		if (fs1.type == "dir") && (fs2.type == "dir")
+			then (
+				mkDir (lib.foldl (a: b:
+					if a ? ${b.name}
+						then a // {
+							${b.name} = (merge'
+								(path ++ [b.name])
+								f
+								a.${b.name}
+								b.value
+							);
+						}
+						else a // {${b.name} = b.value;}
+				) {} ((lib.attrsToList fs1.content) ++ (lib.attrsToList fs2.content)))
+			)
+		else isValid (f path fs1 fs2) "prismnix.filesystem.merge: <lambda>"
+	);
+
+	/**
+		Merge a list of filesystems with a function `f`.
+		The function `f` gets called for two
+		overlapping entries if any of the entries is not a directory.
+		The function is then supposed to merge the two
+		entries or throw.
+
+		Throws if the function `f` does not return a valid filesytem.
+
+		# Inputs
+
+		`f`
+
+		: Function to merge two filesystem entries
+		  if one of them is not a directory.
+
+		`fs`
+
+		: List of filesystems to merge
+
+		# Type
+
+		```
+		mergeList :: ([String] -> a -> b -> c) -> [f] -> g
+		```
+	*/
+	mergeList = f: fs: (
+		lib.foldl
+			(merge f)
+			(lib.head fs)
+			(lib.tail fs)
 	);
 }

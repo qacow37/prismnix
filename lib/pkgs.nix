@@ -95,57 +95,34 @@
 				}
 			);
 
-	mkLink' = {stdenv, name, pkgs, args?{}}:
-		stdenv.mkDerivation (args // {
-			name = name;
-			buildInputs   = (args.buildInputs   or []) ++ pkgs;
-			dontConfigure = (args.dontConfigure or true);
-			dontBuild     = (args.dontBuild     or true);
-			dontUnpack    = (args.dontUnpack    or true);
+	mkJoinLink = {stdenv, name, pkgs}: stdenv.mkDerivation {
+		name = name;
 
-			installPhase = (args.installPhase or "") + ''
-				shopt -s globstar
-				mkdir -p "$out"
+		buildInputs = pkgs;
+		dontConfigure = true;
+		dontBuild = true;
+		dontUnpack = true;
 
-				linkr() {
-					src="$1"
+		installPhase = ''
+			shopt -s globstar
+			mkdir -p $out
 
-					for file in "$src"/**; do
-						if [[ -f "$file" || -L "$file" ]]; then
-							rel=''${file/#"$src"}
-							dir=''${rel%/*}
-							res="$out/$rel"
+			for dep in $buildInputs; do
+				for file in $dep/**; do
+					dst="$out/''${file/#$dep}"
+					parent="$(dirname "$dst")"
 
-							if [[ ! -e "$res" ]]; then
-								mkdir -p "$out/$dir"
-								ln -s "$file" "$res"
-							fi
+					if [[ -w "$parent" && ! -e "$dst" ]]; then
+						if [[ -L "$file" ]]; then
+							cp -P "$file" "$dst"
+						elif [[ -d "$file" ]]; then
+							mkdir -p "$dst"
+						elif [[ -f "$file" ]]; then
+							ln -s "$file" "$dst"
 						fi
-					done
-				}
-
-				${lib.concatMapStringsSep "\n" (pkg:
-					''linkr "${pkg}"''
-				) pkgs}
-			'';
-		});
-
-	mkLink = f:
-	let
-		link = mkLink' {
-			stdenv = args.stdenv;
-			name = "${args.name}-link";
-			pkgs = args.pkgs;
-		};
-		args = f link;
-	in mkLink' {
-		stdenv = args.stdenv;
-		name = args.name;
-		pkgs = [link];
-		args = lib.removeAttrs args [
-			"stdenv"
-			"name"
-			"pkgs"
-		];
+					fi
+				done
+			done
+		'';
 	};
 }

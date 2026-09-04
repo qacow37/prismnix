@@ -68,8 +68,8 @@ in
 	in
 	{
 		filesystem = lib.mkMerge (lib.mapAttrsToList (_: v:
-			let
-				filesystem = lib.foldl
+			lib.prismnix.mkDir {
+				minecraft = (lib.foldl
 					(a: b: (
 						lib.prismnix.mkDir {
 							${b} = a;
@@ -79,8 +79,9 @@ in
 						type = "link";
 						path = "${v.source}";
 					})
-					(lib.reverseList (lib.path.subpath.components v.target));
-			in filesystem
+					(lib.reverseList (lib.path.subpath.components v.target))
+				);
+			}
 		) link);
 
 		activation = lib.mkIf (copy != []) {

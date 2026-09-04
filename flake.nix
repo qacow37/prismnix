@@ -50,6 +50,10 @@
 			};
 
 			devShells.default = pkgs.mkShell {
+				#
+				# Build CLI with
+				# pyhthon dependencies
+				#
 				packages = with pkgs; [
 					python3
 					python3Packages.requests
