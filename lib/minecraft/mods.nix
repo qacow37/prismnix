@@ -33,6 +33,7 @@
 			disable = lib.mkOption {
 				type = lib.types.bool;
 				default = false;
+				example = true;
 				description = "Whether to disable generating the config file";
 			};
 		}

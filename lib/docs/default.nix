@@ -55,10 +55,7 @@
 	'';
 
 	mkOptionsDoc = {
-		stdenv,
-		writeText,
 		callPackage,
-
 		name,
 		options,
 		scheme,
@@ -141,10 +138,9 @@
 			in types.${group.type}
 		);
 		files = lib.prismnix.mkDir (files' [] scheme);
-	in lib.prismnix.filesystem.mkDrv {
-		stdenv = stdenv;
-		writeText = writeText;
+	in callPackage lib.prismnix.filesystem.mkDerivation {
 		name = name;
 		filesystem = files;
+		pkgs = [];
 	};
 }
