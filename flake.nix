@@ -15,6 +15,7 @@
 	};
 	outputs = {self, nixpkgs, prismlauncher, home-manager, flake-utils, ...}@inputs:
 	let
+        systems = lib.systems.flakeExposed;
 		lib = nixpkgs.lib // home-manager.lib // self.lib;
 	in
 	{
@@ -39,7 +40,7 @@
 				};
 			};
 		};
-	} // flake-utils.lib.eachDefaultSystem (system:
+	} // flake-utils.lib.eachSystem systems (system:
 		let
 			pkgs = nixpkgs.legacyPackages.${system};
 		in

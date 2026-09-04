@@ -127,4 +127,4 @@ When contributing to this project, you must agree that you have authored 100% of
 
 ---
 
-*Thank you for contributing to prismnix!*
+*Thank you for contributing to prismnix :)*
