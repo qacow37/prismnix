@@ -1,4 +1,6 @@
 {
+    description = "Flake to install PrismLauncher for Minecraft and create your instances declaratively";
+
 	inputs = {
 		prismlauncher = {
 			url = "github:PrismLauncher/PrismLauncher";
