@@ -15,7 +15,7 @@
 	};
 	outputs = {self, nixpkgs, prismlauncher, home-manager, flake-utils, ...}@inputs:
 	let
-        systems = lib.systems.flakeExposed;
+        systems = nixpkgs.lib.systems.flakeExposed;
 		lib = nixpkgs.lib // home-manager.lib // self.lib;
 	in
 	{
