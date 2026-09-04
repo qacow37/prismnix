@@ -31,14 +31,10 @@
 		lib.prismnix = import ./lib {inherit lib;};
 
 		overlays = {
-			default = final: prev: {
-				prismnix = import ./packages {
-					lib = lib;
-					pkgs = prev;
-					inputs = inputs;
-					system = prev.stdenv.hostPlatform.system;
-				};
-			};
+			default = import ./overlays/default.nix {
+                lib = lib;
+                inputs = inputs;
+            };
 		};
 	} // flake-utils.lib.eachSystem systems (system:
 		let
