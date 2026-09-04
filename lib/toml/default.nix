@@ -1,5 +1,5 @@
 {...}@args: rec
 {
-	generator = import ./generator.nix args;
-	toTOML = generator.toTOML {};
+    generator = import ./generator.nix args;
+    toTOML = generator.toTOML {};
 }

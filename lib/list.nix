@@ -1,81 +1,81 @@
 {...}: rec
 {
-	/**
-		Append an element to a list
-		if a condition is met.
+    /**
+        Append an element to a list
+        if a condition is met.
 
-		# Inputs
+        # Inputs
 
-		`c`
+        `c`
 
-		: A boolean, true to append, false to return the list as is
+        : A boolean, true to append, false to return the list as is
 
-		`item`
+        `item`
 
-		: Item to optionally append
+        : Item to optionally append
 
-		`list`
+        `list`
 
-		: List to optionally append to
+        : List to optionally append to
 
-		# Type
+        # Type
 
-		```
-		appendIf :: Bool -> a -> [a] -> [a]
-		```
-	*/
-	appendIf = cond: item: list: (
-		if cond == true
-			then list ++ [item]
-			else list
-	);
+        ```
+        appendIf :: Bool -> a -> [a] -> [a]
+        ```
+    */
+    appendIf = cond: item: list: (
+        if cond == true
+            then list ++ [item]
+            else list
+    );
 
-	/**
-		Append an item to a list
-		if the item is not null.
+    /**
+        Append an item to a list
+        if the item is not null.
 
-		# Inputs
+        # Inputs
 
-		`item`
+        `item`
 
-		: Item to append if not null
+        : Item to append if not null
 
-		`list`
+        `list`
 
-		: List to optinally append to
+        : List to optinally append to
 
-		# Type
+        # Type
 
-		```
-		appendNotNull :: a -> [a] -> [a]
-		```
-	*/
-	appendNotNull = item: list: (
-		appendIf
-			(item != null)
-			item
-			list
-	);
+        ```
+        appendNotNull :: a -> [a] -> [a]
+        ```
+    */
+    appendNotNull = item: list: (
+        appendIf
+            (item != null)
+            item
+            list
+    );
 
-	/**
-		Wrap an item in a list
-		if the item is not `null`.
+    /**
+        Wrap an item in a list
+        if the item is not `null`.
 
-		# Inputs
+        # Inputs
 
-		`item`
+        `item`
 
-		: An item to wrap in a list if its not `null`
+        : An item to wrap in a list if its not `null`
 
-		# Type
+        # Type
 
-		```
-		emptyIfNull :: a -> [a]
-		```
-	*/
-	emptyIfNull = item: (
-		if item != null
-			then [item]
-			else []
-	);
+        ```
+        emptyIfNull :: a -> [a]
+        ```
+    */
+    emptyIfNull = item: (
+        if item != null
+            then [item]
+            else []
+    );
 }
