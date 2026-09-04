@@ -16,7 +16,7 @@ attribute set of (submodule)
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file\.nix](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file.nix)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file.nix)
 
 
 
@@ -39,8 +39,16 @@ boolean
 true
 ```
 
+
+
+*Example:*
+
+```nix
+true
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file\.nix](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file.nix)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file.nix)
 
 
 
@@ -63,8 +71,16 @@ boolean
 false
 ```
 
+
+
+*Example:*
+
+```nix
+true
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file\.nix](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file.nix)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file.nix)
 
 
 
@@ -88,7 +104,7 @@ null
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file\.nix](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file.nix)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file.nix)
 
 
 
@@ -112,7 +128,7 @@ string
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file\.nix](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file.nix)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file.nix)
 
 
 
@@ -127,7 +143,15 @@ Text content of the file
 *Type:*
 strings concatenated with “\\n”
 
+
+
+*Example:*
+
+```nix
+"This content gets written into this file!"
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file\.nix](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/file.nix)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/file.nix)
 
 

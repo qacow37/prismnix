@@ -10,7 +10,7 @@ option.
 
 ## Using the Overlay
 
-Most packages are already packages with the flake.
+Most packages are already packaged with the flake.
 So it is recommended to use the overlay provided by the flake:
 
 ```nix
@@ -37,7 +37,7 @@ programs.prismnix.instances."My Instance" = {
 };
 ```
 
-Versions of packages passed the `packages` option
+Versions of packages listed in the `minecraft.packages` option
 will be automaticly set to their latest version
 of the set minecraft and loader version unless
 their version was [overriden](#pinning-packages).
@@ -78,7 +78,7 @@ Because of stability reasons or mod dependency compatibility
 issues you might want to pin a package to a specifc version.
 
 For that you can override the package and set
-the version to specific version:
+the version to a specific version:
 
 ```nix
 programs.prismnix.instances."My Instance" = {

@@ -18,7 +18,7 @@ false
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -41,8 +41,19 @@ list of package
 [ ]
 ```
 
+
+
+*Example:*
+
+```nix
+[
+  <derivation sodium>
+  <derivation iris>
+]
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -64,7 +75,7 @@ a JSON object
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -79,7 +90,15 @@ Minecraft version to use
 *Type:*
 string
 
+
+
+*Example:*
+
+```nix
+"1.21.11"
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 

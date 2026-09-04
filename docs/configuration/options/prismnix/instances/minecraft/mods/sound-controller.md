@@ -24,7 +24,7 @@ true
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -48,7 +48,7 @@ null or package
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -71,8 +71,16 @@ boolean
 false
 ```
 
+
+
+*Example:*
+
+```nix
+true
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -95,8 +103,16 @@ boolean
 false
 ```
 
+
+
+*Example:*
+
+```nix
+true
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -119,8 +135,21 @@ attribute set of floating point number
 { }
 ```
 
+
+
+*Example:*
+
+```nix
+{
+  "minecraft:entity.enderman.ambient" = 0.4;
+  "minecraft:entity.enderman.death" = 0.3;
+  "minecraft:entity.enderman.hurt" = 0.2;
+  "minecraft:entity.enderman.scream" = 0.1;
+}
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -143,7 +172,15 @@ string
 "<latest version of mod compatible with minecraft.version>"
 ```
 
+
+
+*Example:*
+
+```nix
+"fabric-1.21.11"
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 

@@ -24,7 +24,7 @@ true
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -48,7 +48,7 @@ null or package
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -56,15 +56,29 @@ null or package
 
 
 
-Shader loader to use
+Shader loader to use\.
+Available shader loaders are:
+
+ - “iris”
+ - “canvas”
+ - “vanilla”
+ - “optifine”
 
 
 
 *Type:*
 string
 
+
+
+*Example:*
+
+```nix
+"iris"
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -88,6 +102,6 @@ string
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 

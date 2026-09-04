@@ -43,10 +43,10 @@ to use the available options under `minecraft.mods`.
 
 But because all of these options are human written
 and maintained many mods may not be available as
-options their. In that case [fallback to packages](#fallback-to-packages)
-or consider contributing the missing mod to the project.
+options. In that case [fallback to packages](#fallback-to-packages)
+or consider contributing the missing mods to the project.
 
-For available mods [look here](./options/prismnix/instances/minecraft/mods/).
+For available mods, [look here](./options/prismnix/instances/minecraft/mods/).
 
 A mod is then installed by enabling it.
 Most of the following options are available for any mod.
@@ -67,6 +67,31 @@ programs.prismnix.instances."My Instance" = {
                 # Optionally:
                 # you are able to replace the package.
                 package = "...";
+            };
+        };
+    };
+};
+```
+
+Some mods also include a `settings` option
+for configuring the options of the mod itself.
+
+You should look in its dedicated Markdown file
+for documentation.
+
+**Example**
+
+```nix
+programs.prismnix.instances."My Instance" = {
+    minecraft = {
+        mods = {
+            sound-controller = {
+                enable = true;
+                settings = {
+                    sounds = {
+
+                    };
+                };
             };
         };
     };

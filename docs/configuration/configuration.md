@@ -18,7 +18,7 @@
 Quick guide to get you started.
 
 1.  **Adding the flake as an input**:
-    You have to add the flake as an input first.
+    You have to add this flake as an input first.
     For this simply add this to your inputs:
 
     ```nix
@@ -34,7 +34,7 @@ Quick guide to get you started.
     The only module currently provided is
     the `prismnix.homeModules.prismnix` module.
 
-    Add it to your configuration be either importing it
+    Add it to your configuration by either importing it
     or listing it in the module section:
 
     ```nix
@@ -56,7 +56,7 @@ Quick guide to get you started.
     };
     ```
 
-    This now installs PrismLauncher using the
+    This installs PrismLauncher using the
     official PrismLauncher package.
 
 3.  **Creating Instances**:
@@ -64,8 +64,8 @@ Quick guide to get you started.
     this flake is for.
 
     Instances are created by adding an attribute
-    to the `instances` option where the attribute name
-    is the instance name:
+    to the `programs.prismnix.instances` option
+    where the attribute name is the instance name:
 
     ```nix
     programs.prismnix.instances = {
@@ -89,7 +89,7 @@ under the `config` section of the instance.
 
 PrismLauncher specific options include options like
 how much memory the instance is allowed to use or
-with what window size the Minecraft window should open.
+the initial window size of the Minecraft window.
 
 Here is a short list of the most commonly used options:
 
@@ -157,7 +157,7 @@ programs.prismnix.instances."My Instance" = {
 
 #### Window Options
 Options related to the games window including
-intitial window size and if the game should
+intitial window size or if the game should
 launch maximized.
 
 ```nix
@@ -242,7 +242,7 @@ it is recommended to set these options:
     };
     ```
 
-    This options is set by default to `true`.
+    This options is set to `true` by default.
 
 -   `allowed-symlinks`:
     You should make sure that `minecraft.allowed-symlinks.enable`

@@ -25,7 +25,7 @@ true
 ```
 
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -53,8 +53,25 @@ list of (submodule)
 ]
 ```
 
+
+
+*Example:*
+
+```nix
+[
+  {
+    type = "regex";
+    value = ".*";
+  }
+  {
+    type = "prefix";
+    value = "resourcepacks/";
+  }
+]
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -77,8 +94,16 @@ one of “glob”, “regex”, “prefix”
 "prefix"
 ```
 
+
+
+*Example:*
+
+```nix
+"prefix"
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
 
@@ -93,7 +118,15 @@ Pattern value
 *Type:*
 string
 
+
+
+*Example:*
+
+```nix
+"resourcepacks/"
+```
+
 *Declared by:*
- - [/nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft](file:///nix/store/mglcknapxljwx6cbhr3i8wslgxgrwwbr-source/options/minecraft)
+ - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/minecraft)
 
 
