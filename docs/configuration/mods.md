@@ -49,6 +49,15 @@ or consider contributing the missing mods to the project.
 For available mods, [look here](./options/prismnix/instances/minecraft/mods/).
 
 A mod is then installed by enabling it.
+
+Packages and options for mods are named after
+the project slug of the mod on Modrinth. To find the project
+slug you just have to look at the last part of the Modrinth URL:
+
+`https://modrinth.com/mod/sound-controller`
+
+The last part here is `sound-controller`, that is the slug of the mod.
+
 Most of the following options are available for any mod.
 
 **Example**:
