@@ -196,12 +196,14 @@ class Collection:
     latest: Version
     versions: list[Version]
     game_refs: dict[str, dict[str, Version]]
+    vers_refs: dict[str, Version]
 
     def __init__(self, project: Project, version: Version):
         self.project = project
         self.latest = version
         self.versions = []
         self.game_refs = {}
+        self.vers_refs = {}
 
     def insert(
         self,
@@ -221,6 +223,8 @@ class Collection:
                         version
                     )
                 else: dict[game] = version
+
+        self.vers_refs[version.version] = version
         self.versions.append(version)
         self.latest = predicate(self.latest, version)
 
@@ -230,6 +234,11 @@ class Collection:
             for game, version in nested.items():
                 k = f"{loader}-{game}"
                 refs[k] = version.id
+
+        for name, version in self.vers_refs.items():
+            k = f"pkg-{name}"
+            refs[k] = version.id
+
         return VersionData(
             versions = self.versions,
             refs = refs,
