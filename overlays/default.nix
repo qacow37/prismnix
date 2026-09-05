@@ -16,7 +16,7 @@ final: prev: let pkgs = prev; in {
             lib.prismnix.pkgs.mkVersionedModrinthPkg
             args;
 
-    } // (import ./packages {
+    } // (import ../packages {
         lib = lib;
         pkgs = pkgs;
         inputs = inputs;
