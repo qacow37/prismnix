@@ -4,7 +4,7 @@ let
         lib = lib;
         callPackage = pkgs.callPackage;
     };
-in proj (
+in proj // (
     if inputs.prismlauncher.packages.${system} ? default
     then {
         # Reexport PrismLauncher package
