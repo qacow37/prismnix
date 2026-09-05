@@ -9,6 +9,7 @@ let
     in {
         "W2A4v2aV" = _W2A4v2aV;
         "fabric-1.21.8" = _W2A4v2aV;
+        "pkg-1.0.0" = _W2A4v2aV;
         "default" = _W2A4v2aV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

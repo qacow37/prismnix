@@ -40,6 +40,12 @@ let
         "UpKO3bcn" = _UpKO3bcn;
         "datapack-1.20.1" = _eOY6ApWD;
         "forge-1.20.1" = _UpKO3bcn;
+        "pkg-1.0.0" = _njxq59KS;
+        "pkg-1.0.0+mod" = _oSF1LX6p;
+        "pkg-1.1" = _jf2cztLT;
+        "pkg-1.1+mod" = _zkZQxiIp;
+        "pkg-1.2" = _eOY6ApWD;
+        "pkg-1.2+mod" = _UpKO3bcn;
         "default" = _UpKO3bcn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

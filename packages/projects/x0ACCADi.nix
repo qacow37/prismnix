@@ -45,6 +45,8 @@ let
         "forge-1.19.3" = _cZKedtpy;
         "forge-1.21" = _Z2j6aoX6;
         "forge-1.21.1" = _Z2j6aoX6;
+        "pkg-0.2.0" = _cZKedtpy;
+        "pkg-1.21-0.2.2-forge" = _Z2j6aoX6;
         "default" = _Z2j6aoX6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

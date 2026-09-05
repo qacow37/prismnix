@@ -9,6 +9,7 @@ let
     in {
         "tBBxSyTd" = _tBBxSyTd;
         "forge-1.18.2" = _tBBxSyTd;
+        "pkg-91" = _tBBxSyTd;
         "default" = _tBBxSyTd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

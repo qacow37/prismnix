@@ -16,6 +16,8 @@ let
         "z4zImSE2" = _z4zImSE2;
         "minecraft-1.21" = _z4zImSE2;
         "minecraft-1.21.1" = _z4zImSE2;
+        "pkg-1.0" = _1WYC2lyr;
+        "pkg-2.0" = _z4zImSE2;
         "default" = _z4zImSE2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

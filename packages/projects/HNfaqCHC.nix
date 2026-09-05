@@ -172,6 +172,7 @@ let
         "optifine-26.1" = _7RgXEuhu;
         "optifine-26.1.1" = _7RgXEuhu;
         "optifine-26.1.2" = _7RgXEuhu;
+        "pkg-v1.0" = _7RgXEuhu;
         "default" = _7RgXEuhu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

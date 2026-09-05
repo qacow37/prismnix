@@ -15,6 +15,8 @@ let
         "O3725yVi" = _O3725yVi;
         "2VcEPtLz" = _2VcEPtLz;
         "forge-1.20.1" = _2VcEPtLz;
+        "pkg-1.0.0" = _O3725yVi;
+        "pkg-1.0.1" = _2VcEPtLz;
         "default" = _2VcEPtLz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "7fJnNjfQ" = _7fJnNjfQ;
         "minecraft-1.21.5" = _7fJnNjfQ;
+        "pkg-LilyRefreshV1" = _7fJnNjfQ;
         "default" = _7fJnNjfQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

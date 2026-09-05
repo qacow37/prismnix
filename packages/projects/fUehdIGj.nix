@@ -316,6 +316,9 @@ let
         "spigot-26.1.1" = _lwVvcIDI;
         "spigot-26.1.2" = _lwVvcIDI;
         "spigot-26.2" = _lwVvcIDI;
+        "pkg-2.1.1" = _HJUu7Wkr;
+        "pkg-2.2" = _xTiE2VkO;
+        "pkg-2.3" = _lwVvcIDI;
         "default" = _lwVvcIDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

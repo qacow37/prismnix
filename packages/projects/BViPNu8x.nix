@@ -27,6 +27,10 @@ let
         "NjJOBAOL" = _NjJOBAOL;
         "golij1vc" = _golij1vc;
         "forge-1.20.1" = _golij1vc;
+        "pkg-1.0" = _lB7TLMQX;
+        "pkg-1.1" = _riI7Mh6e;
+        "pkg-1.1fix" = _NjJOBAOL;
+        "pkg-1.2" = _golij1vc;
         "default" = _golij1vc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

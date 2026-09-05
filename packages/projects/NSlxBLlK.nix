@@ -72,6 +72,7 @@ let
         "minecraft-1.21.3" = _TEU3IYSC;
         "minecraft-1.21.4" = _TEU3IYSC;
         "minecraft-1.21.5" = _TEU3IYSC;
+        "pkg-1" = _TEU3IYSC;
         "default" = _TEU3IYSC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

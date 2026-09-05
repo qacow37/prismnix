@@ -21,6 +21,7 @@ let
         "nrG58KNa" = _nrG58KNa;
         "7oZ11Prc" = _7oZ11Prc;
         "forge-1.20.1" = _7oZ11Prc;
+        "pkg-6.0.1" = _7oZ11Prc;
         "default" = _7oZ11Prc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

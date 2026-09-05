@@ -9,6 +9,7 @@ let
     in {
         "Bn8Tecap" = _Bn8Tecap;
         "fabric-1.20.1" = _Bn8Tecap;
+        "pkg-1.0" = _Bn8Tecap;
         "default" = _Bn8Tecap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

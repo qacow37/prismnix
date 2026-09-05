@@ -22,6 +22,8 @@ let
         "NjRMF4aq" = _NjRMF4aq;
         "forge-1.20.1" = _Vr3cl3vg;
         "fabric-1.20.1" = _NjRMF4aq;
+        "pkg-1.0.0" = _8ksIv93k;
+        "pkg-2.1.0" = _NjRMF4aq;
         "default" = _NjRMF4aq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

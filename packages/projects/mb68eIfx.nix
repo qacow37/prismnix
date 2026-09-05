@@ -57,6 +57,12 @@ let
         "forge-1.19.2" = _vjnPq86j;
         "neoforge-1.21" = _3InSHTOp;
         "neoforge-1.21.1" = _3InSHTOp;
+        "pkg-1.0.0" = _fVEIG4UT;
+        "pkg-SkyVillages-1.0.1" = _2YkmTxRZ;
+        "pkg-SkyVillages-1.0.1-1.18.1-fabric" = _zZHXHHck;
+        "pkg-1.0.2.1-1.19.2" = _4pWaGbf7;
+        "pkg-1.0.1-1.19" = _vjnPq86j;
+        "pkg-1.0.6" = _3InSHTOp;
         "default" = _3InSHTOp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

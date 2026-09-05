@@ -15,6 +15,8 @@ let
         "1UAL2kT2" = _1UAL2kT2;
         "DSTr22gP" = _DSTr22gP;
         "fabric-1.20.1" = _DSTr22gP;
+        "pkg-0.1-1.20.1" = _1UAL2kT2;
+        "pkg-0.2-1.20.1" = _DSTr22gP;
         "default" = _DSTr22gP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

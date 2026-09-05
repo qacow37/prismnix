@@ -117,6 +117,25 @@ let
         "roKofymm" = _roKofymm;
         "DwzkZm7Q" = _DwzkZm7Q;
         "forge-1.20.1" = _DwzkZm7Q;
+        "pkg-0.1-1.20.1-forge" = _QyJfjEwC;
+        "pkg-0.3-1.20.1-forge" = _VQqdrBvF;
+        "pkg-0.4-1.20.1-forge" = _JPFTtTPb;
+        "pkg-0.5-1.20.1-forge" = _6Q5gZVxK;
+        "pkg-0.6-1.20.1-forge" = _XB0dyNBG;
+        "pkg-0.7-1.20.1-forge" = _djbhK7yN;
+        "pkg-0.8.1-1.20.1-forge" = _DwKiFtMW;
+        "pkg-0.8.2-1.20.1-forge" = _MHIyla1Y;
+        "pkg-0.8.3" = _SihZQp6b;
+        "pkg-2.0.2-1.20.1-forge" = _pZLOUTXm;
+        "pkg-2.1.0-1.20.1-forge" = _fYRiQYGz;
+        "pkg-2.1.1-1.20.1-forge" = _oTV14JXs;
+        "pkg-2.1.2-1.20.1-forge" = _1oLouUzo;
+        "pkg-2.1.3-1.20.1-forge" = _DD0Lr3SH;
+        "pkg-2.2.1-1.20.1-forge" = _c3Iwun9s;
+        "pkg-2.2.2-1.20.1-forge" = _RnYuEHyR;
+        "pkg-2.2.3-1.20.1-forge" = _dalUtc6u;
+        "pkg-2.2.5-1.20.1-forge" = _roKofymm;
+        "pkg-2.2.6-1.20.1-forge" = _DwzkZm7Q;
         "default" = _DwzkZm7Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

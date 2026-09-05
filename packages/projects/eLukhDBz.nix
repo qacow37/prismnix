@@ -27,6 +27,9 @@ let
         "wDl8ND20" = _wDl8ND20;
         "2AXHWkP1" = _2AXHWkP1;
         "fabric-1.21.1" = _2AXHWkP1;
+        "pkg-1.0.0" = _wDl8ND20;
+        "pkg-1.0.1" = _slsuf5rb;
+        "pkg-1.1.0" = _2AXHWkP1;
         "default" = _2AXHWkP1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

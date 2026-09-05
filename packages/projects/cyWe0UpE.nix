@@ -178,6 +178,9 @@ let
         "bungeecord-1.7.5" = _39AVRi1e;
         "bungeecord-1.7.6" = _39AVRi1e;
         "bungeecord-1.21.11" = _39AVRi1e;
+        "pkg-1.0-SNAPSHOT" = _SwGvcUAZ;
+        "pkg-1.1" = _FPWQ43ZT;
+        "pkg-1.2" = _39AVRi1e;
         "default" = _39AVRi1e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

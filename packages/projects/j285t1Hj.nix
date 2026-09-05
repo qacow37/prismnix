@@ -22,6 +22,9 @@ let
         "iIKFeovb" = _iIKFeovb;
         "minecraft-1.20.1" = _iIKFeovb;
         "minecraft-1.20" = _iIKFeovb;
+        "pkg-0.1.0" = _v1dhFbxF;
+        "pkg-0.1.1" = _LkIsIHIX;
+        "pkg-0.1.2" = _iIKFeovb;
         "default" = _iIKFeovb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

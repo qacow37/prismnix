@@ -178,6 +178,20 @@ let
         "fabric-1.20" = _QmcCSZey;
         "fabric-1.20.1" = _4WMdlCQl;
         "neoforge-1.20.4" = _H977V6EU;
+        "pkg-1.18.2-3.1.0" = _d5W55P1o;
+        "pkg-agricraft-1.18.2-3.1.1" = _UNpmbpvK;
+        "pkg-agricraft-1.18.2-3.1.2" = _tvLEBTIM;
+        "pkg-agricraft-1.18.2-3.1.3" = _HerswTcc;
+        "pkg-agricraft-1.18.2-3.1.4" = _b1WY6meO;
+        "pkg-1.18.2-3.1.5" = _uJeHilWY;
+        "pkg-1.18.2-3.1.6" = _iWRjz6ig;
+        "pkg-4.0.0-beta" = _dcR3BzMo;
+        "pkg-4.0.1-beta" = _7EyCx9NT;
+        "pkg-4.0.2-beta" = _H977V6EU;
+        "pkg-4.0.3" = _ARgbq1eQ;
+        "pkg-4.0.4" = _8SHea2rq;
+        "pkg-4.0.5" = _GlRGZ1RK;
+        "pkg-4.0.6" = _qXNjK6M2;
         "default" = _qXNjK6M2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "dtfTClbK" = _dtfTClbK;
         "forge-1.20.1" = _dtfTClbK;
+        "pkg-1.20.1-1.0.0" = _dtfTClbK;
         "default" = _dtfTClbK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

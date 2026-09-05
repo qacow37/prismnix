@@ -44,6 +44,9 @@ let
         "minecraft-1.21.5-rc1" = _ndFalkFC;
         "minecraft-1.21.5" = _ndFalkFC;
         "minecraft-25w15a" = _ndFalkFC;
+        "pkg-1.21" = _ehGqcWZU;
+        "pkg-1" = _NePWZkjg;
+        "pkg-1.214" = _ndFalkFC;
         "default" = _ndFalkFC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

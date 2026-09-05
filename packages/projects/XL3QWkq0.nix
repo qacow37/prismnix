@@ -34,6 +34,11 @@ let
         "L5HMMI20" = _L5HMMI20;
         "forge-1.20" = _EUoJbhSU;
         "forge-1.20.1" = _L5HMMI20;
+        "pkg-1.0.0" = _kHf2TxkL;
+        "pkg-1.0.1" = _EUoJbhSU;
+        "pkg-1.1.0" = _DLyGCY5G;
+        "pkg-1.1.1" = _gt2Tpqkp;
+        "pkg-1.1.2" = _L5HMMI20;
         "default" = _L5HMMI20;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

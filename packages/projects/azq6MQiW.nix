@@ -9,6 +9,7 @@ let
     in {
         "MaOEK4r5" = _MaOEK4r5;
         "minecraft-1.21.5" = _MaOEK4r5;
+        "pkg-1.0" = _MaOEK4r5;
         "default" = _MaOEK4r5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

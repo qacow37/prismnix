@@ -38,6 +38,8 @@ let
         "quilt-1.20.2" = _lgEGAxz3;
         "quilt-1.20.3" = _lgEGAxz3;
         "quilt-1.20.4" = _lgEGAxz3;
+        "pkg-0.1" = _kiTBmCyb;
+        "pkg-0.1+mod" = _lgEGAxz3;
         "default" = _lgEGAxz3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

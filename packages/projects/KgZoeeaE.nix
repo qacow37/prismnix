@@ -50,6 +50,7 @@ let
         "spigot-1.21.4" = _GRBW8bS3;
         "spigot-1.21.5" = _GRBW8bS3;
         "spigot-1.21.6" = _GRBW8bS3;
+        "pkg-1.0" = _GRBW8bS3;
         "default" = _GRBW8bS3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

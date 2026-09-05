@@ -15,6 +15,8 @@ let
         "FkuU31F8" = _FkuU31F8;
         "olPIahHJ" = _olPIahHJ;
         "neoforge-1.21.1" = _olPIahHJ;
+        "pkg-0.1.0" = _FkuU31F8;
+        "pkg-0.2.0" = _olPIahHJ;
         "default" = _olPIahHJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

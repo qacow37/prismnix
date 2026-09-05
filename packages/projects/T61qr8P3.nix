@@ -27,6 +27,10 @@ let
         "96CF4pSh" = _96CF4pSh;
         "cCwy66ZE" = _cCwy66ZE;
         "forge-1.8.9" = _cCwy66ZE;
+        "pkg-V0.1" = _aWw4OezK;
+        "pkg-V0.2" = _nasT0Or7;
+        "pkg-V0.3" = _96CF4pSh;
+        "pkg-V0.3.1" = _cCwy66ZE;
         "default" = _cCwy66ZE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

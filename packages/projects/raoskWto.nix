@@ -22,6 +22,8 @@ let
         "FsQcromX" = _FsQcromX;
         "fabric-1.20.6" = _ilL9T1Xe;
         "fabric-1.21" = _FsQcromX;
+        "pkg-2.1.0" = _SCrLofCW;
+        "pkg-2.1.1" = _FsQcromX;
         "default" = _FsQcromX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

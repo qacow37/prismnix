@@ -16,6 +16,8 @@ let
         "BJtebAGA" = _BJtebAGA;
         "minecraft-1.21.8" = _mJ80dECC;
         "minecraft-1.21.10" = _BJtebAGA;
+        "pkg-1" = _mJ80dECC;
+        "pkg-1.1" = _BJtebAGA;
         "default" = _BJtebAGA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

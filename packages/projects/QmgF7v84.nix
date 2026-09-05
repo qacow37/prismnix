@@ -60,6 +60,7 @@ let
         "fabric-1.21.8" = _gdEtOoPX;
         "fabric-1.21.9" = _gdEtOoPX;
         "fabric-1.21.10" = _gdEtOoPX;
+        "pkg-1.0" = _gdEtOoPX;
         "default" = _gdEtOoPX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

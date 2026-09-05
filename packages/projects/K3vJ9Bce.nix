@@ -16,6 +16,8 @@ let
         "H8orbHUz" = _H8orbHUz;
         "fabric-1.21.8" = _EyAIPx3V;
         "fabric-1.21.9" = _H8orbHUz;
+        "pkg-1.0.0-1.21.8" = _EyAIPx3V;
+        "pkg-1.1.0-1.21.9" = _H8orbHUz;
         "default" = _H8orbHUz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

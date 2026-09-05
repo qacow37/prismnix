@@ -16,6 +16,8 @@ let
         "OyjYTEGD" = _OyjYTEGD;
         "datapack-1.19.2" = _fhQ9iDMw;
         "forge-1.19.2" = _OyjYTEGD;
+        "pkg-1.0.0" = _fhQ9iDMw;
+        "pkg-1.0.0+mod" = _OyjYTEGD;
         "default" = _OyjYTEGD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

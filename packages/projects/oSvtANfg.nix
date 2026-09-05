@@ -22,6 +22,8 @@ let
         "uC7wWsDE" = _uC7wWsDE;
         "fabric-1.19.2" = _uC7wWsDE;
         "fabric-1.18.2" = _EA2E9b22;
+        "pkg-1.0.0" = _EA2E9b22;
+        "pkg-1.0.1" = _uC7wWsDE;
         "default" = _uC7wWsDE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

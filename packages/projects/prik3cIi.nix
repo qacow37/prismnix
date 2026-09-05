@@ -28,6 +28,8 @@ let
         "fabric-1.19.4" = _BmAdk4bU;
         "fabric-1.20" = _BmAdk4bU;
         "fabric-1.20.1" = _BmAdk4bU;
+        "pkg-1.0" = _30RsjRPX;
+        "pkg-1.0+mod" = _BmAdk4bU;
         "default" = _BmAdk4bU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

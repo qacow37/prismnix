@@ -22,6 +22,9 @@ let
         "guPPPtPD" = _guPPPtPD;
         "fabric-1.20.1" = _cuD9kkhb;
         "fabric-1.21.1" = _guPPPtPD;
+        "pkg-1.0" = _cuD9kkhb;
+        "pkg-2.0" = _mMiOOsgP;
+        "pkg-1.21.1-1.1" = _guPPPtPD;
         "default" = _guPPPtPD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

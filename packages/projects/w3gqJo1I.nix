@@ -21,6 +21,8 @@ let
         "OVtmrgGO" = _OVtmrgGO;
         "6MxAOLsF" = _6MxAOLsF;
         "forge-1.20.1" = _6MxAOLsF;
+        "pkg-1.0.0" = _OVtmrgGO;
+        "pkg-0.4" = _6MxAOLsF;
         "default" = _6MxAOLsF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

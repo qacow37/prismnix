@@ -133,6 +133,7 @@ let
         "minecraft-1.21.9" = _xV9Am2TS;
         "minecraft-1.21.10" = _xV9Am2TS;
         "minecraft-1.21.11" = _sMyBNPv6;
+        "pkg-1.0" = _sMyBNPv6;
         "default" = _sMyBNPv6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

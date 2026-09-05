@@ -26,6 +26,7 @@ let
         "minecraft-1.21.8" = _OQOLoc5V;
         "minecraft-1.21.9" = _OQOLoc5V;
         "minecraft-1.21.10" = _OQOLoc5V;
+        "pkg-1" = _OQOLoc5V;
         "default" = _OQOLoc5V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

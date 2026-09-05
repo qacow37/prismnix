@@ -9,6 +9,7 @@ let
     in {
         "QAfhPYTA" = _QAfhPYTA;
         "forge-1.18.2" = _QAfhPYTA;
+        "pkg-1.0" = _QAfhPYTA;
         "default" = _QAfhPYTA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

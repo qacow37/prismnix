@@ -16,6 +16,7 @@ let
         "I2P3f9PP" = _I2P3f9PP;
         "forge-1.19.4" = _39YEG3vB;
         "forge-1.20.1" = _I2P3f9PP;
+        "pkg-0.10" = _I2P3f9PP;
         "default" = _I2P3f9PP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

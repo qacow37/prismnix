@@ -158,6 +158,7 @@ let
         "spigot-26.1.1" = _rzvMi2vi;
         "spigot-26.1.2" = _rzvMi2vi;
         "spigot-26.2" = _rzvMi2vi;
+        "pkg-1.0.0" = _rzvMi2vi;
         "default" = _rzvMi2vi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

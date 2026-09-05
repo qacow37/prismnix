@@ -28,6 +28,10 @@ let
         "TAfrBDM6" = _TAfrBDM6;
         "forge-1.18.2" = _2Xer0xy4;
         "forge-1.20.1" = _TAfrBDM6;
+        "pkg-0.4.3-beta" = _yL98PMFs;
+        "pkg-0.5.2-beta" = _dKNYyT8i;
+        "pkg-0.4.4-beta" = _2Xer0xy4;
+        "pkg-0.5.3-beta" = _TAfrBDM6;
         "default" = _TAfrBDM6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

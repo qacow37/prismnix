@@ -16,6 +16,8 @@ let
         "XT5MjCiy" = _XT5MjCiy;
         "forge-1.20.1" = _XT5MjCiy;
         "fabric-1.20.1" = _XT5MjCiy;
+        "pkg-1.0.0+mod" = _jtKr1njo;
+        "pkg-1.0.1+mod" = _XT5MjCiy;
         "default" = _XT5MjCiy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

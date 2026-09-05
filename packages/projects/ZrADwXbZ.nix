@@ -106,6 +106,8 @@ let
         "quilt-26.1.1" = _mjrWLMAt;
         "quilt-26.1.2" = _mjrWLMAt;
         "quilt-26.2" = _mjrWLMAt;
+        "pkg-1.0" = _ODFMaKWs;
+        "pkg-1.1" = _mjrWLMAt;
         "default" = _mjrWLMAt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

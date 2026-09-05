@@ -33,6 +33,7 @@ let
         "fabric-1.20.2" = _C07HaWbR;
         "fabric-1.20.3" = _C07HaWbR;
         "fabric-1.20.4" = _C07HaWbR;
+        "pkg-final" = _C07HaWbR;
         "default" = _C07HaWbR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

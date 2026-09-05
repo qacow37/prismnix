@@ -32,6 +32,9 @@ let
         "paper-1.21.9" = _5VQOo0ov;
         "paper-1.21.10" = _5VQOo0ov;
         "paper-1.21.11" = _5VQOo0ov;
+        "pkg-1.0.0" = _GgZK68OU;
+        "pkg-1.1" = _pn9ZcoaM;
+        "pkg-2.0.0" = _5VQOo0ov;
         "default" = _5VQOo0ov;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

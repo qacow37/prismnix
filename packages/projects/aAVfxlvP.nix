@@ -16,6 +16,8 @@ let
         "vwn9OWpy" = _vwn9OWpy;
         "datapack-1.18.2" = _OvQ9c60e;
         "forge-1.18.2" = _vwn9OWpy;
+        "pkg-0.01" = _OvQ9c60e;
+        "pkg-0.01+mod" = _vwn9OWpy;
         "default" = _vwn9OWpy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

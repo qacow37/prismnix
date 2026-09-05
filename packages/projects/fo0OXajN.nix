@@ -53,6 +53,8 @@ let
         "minecraft-1.21.2" = _AVgcs64t;
         "minecraft-1.21.3" = _AVgcs64t;
         "minecraft-1.21.4" = _AVgcs64t;
+        "pkg-0.1" = _Z7terSXD;
+        "pkg-1.2" = _AVgcs64t;
         "default" = _AVgcs64t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

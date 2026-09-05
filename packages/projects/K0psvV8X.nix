@@ -71,6 +71,11 @@ let
         "vanilla-1.21.6" = _H2C6ELgr;
         "vanilla-1.21.7" = _H2C6ELgr;
         "vanilla-1.21.8" = _H2C6ELgr;
+        "pkg-1.0" = _H2C6ELgr;
+        "pkg-1.1" = _dpMwn3jD;
+        "pkg-1.2" = _fIIao3wH;
+        "pkg-1.3" = _u2byJ7jY;
+        "pkg-1.4" = _Fr605ZQZ;
         "default" = _Fr605ZQZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

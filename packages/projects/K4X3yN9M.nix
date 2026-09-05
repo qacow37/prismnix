@@ -9,6 +9,7 @@ let
     in {
         "pig8vHhD" = _pig8vHhD;
         "paper-1.21.8" = _pig8vHhD;
+        "pkg-1" = _pig8vHhD;
         "default" = _pig8vHhD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

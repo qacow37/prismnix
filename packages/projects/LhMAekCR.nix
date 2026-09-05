@@ -185,6 +185,22 @@ let
         "spigot-1.21.8" = _LTjLTVvb;
         "spigot-1.21.9" = _LTjLTVvb;
         "spigot-1.21.10" = _LTjLTVvb;
+        "pkg-2.1.1" = _jr209xpc;
+        "pkg-2.1.1-BACKPORT" = _wQo0lpym;
+        "pkg-2.2.0" = _R6k0eTtO;
+        "pkg-2.2.1" = _GUOiygrK;
+        "pkg-2.2.2" = _ZIovYu16;
+        "pkg-2.3.0" = _FxKyYk1z;
+        "pkg-2.3.1" = _I6Pd09mz;
+        "pkg-2.3.2" = _Lg5EsMgU;
+        "pkg-2.3.3" = _JMgXpmsV;
+        "pkg-2.3.4" = _kscdNPka;
+        "pkg-2.3.5" = _cg6E8LKY;
+        "pkg-2.4.0" = _JmXtWYkO;
+        "pkg-2.4.1" = _M0hbrati;
+        "pkg-2.4.2" = _MZaJT6W5;
+        "pkg-2.4.3" = _QgtqGnD6;
+        "pkg-2.4.4" = _LTjLTVvb;
         "default" = _LTjLTVvb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

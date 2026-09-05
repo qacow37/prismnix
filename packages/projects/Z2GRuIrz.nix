@@ -32,6 +32,7 @@ let
         "quilt-1.20.2" = _Swm7GjDS;
         "quilt-1.20.3" = _Swm7GjDS;
         "quilt-1.20.4" = _Swm7GjDS;
+        "pkg-1.20.1-0.1.0" = _Swm7GjDS;
         "default" = _Swm7GjDS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

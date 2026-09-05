@@ -24,6 +24,9 @@ let
         "neoforge-1.21.2" = _rddBegee;
         "neoforge-1.21.3" = _rddBegee;
         "neoforge-1.21.4" = _rddBegee;
+        "pkg-1.0.0" = _w7RleDYF;
+        "pkg-1.0.1" = _ZXxOL2xR;
+        "pkg-1.0.2" = _rddBegee;
         "default" = _rddBegee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

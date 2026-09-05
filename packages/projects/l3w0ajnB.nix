@@ -9,6 +9,7 @@ let
     in {
         "jFUeTbze" = _jFUeTbze;
         "fabric-1.20.1" = _jFUeTbze;
+        "pkg-1.0.0" = _jFUeTbze;
         "default" = _jFUeTbze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

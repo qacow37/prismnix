@@ -10,6 +10,7 @@ let
         "XsWTfCD9" = _XsWTfCD9;
         "minecraft-1.20" = _XsWTfCD9;
         "minecraft-1.20.1" = _XsWTfCD9;
+        "pkg-1.1.2" = _XsWTfCD9;
         "default" = _XsWTfCD9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

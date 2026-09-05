@@ -77,6 +77,8 @@ let
         "minecraft-1.21.1" = _fppnN8KU;
         "minecraft-1.21.2" = _fppnN8KU;
         "minecraft-1.21.3" = _fppnN8KU;
+        "pkg-1.1" = _DNkOSQSX;
+        "pkg-1.2" = _fppnN8KU;
         "default" = _fppnN8KU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "NeLK8hkM" = _NeLK8hkM;
         "fabric-1.8.9" = _NeLK8hkM;
+        "pkg-0.1.0" = _NeLK8hkM;
         "default" = _NeLK8hkM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _nwvDz63p;
         "forge-1.20.5" = _nwvDz63p;
         "forge-1.20.6" = _nwvDz63p;
+        "pkg-1.0" = _nwvDz63p;
         "default" = _nwvDz63p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

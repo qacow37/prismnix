@@ -9,6 +9,7 @@ let
     in {
         "CY9sBvr8" = _CY9sBvr8;
         "neoforge-1.21.1" = _CY9sBvr8;
+        "pkg-0.1.0" = _CY9sBvr8;
         "default" = _CY9sBvr8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,7 @@ let
         "forge-1.20.4" = _KlSWUgx2;
         "forge-1.20.5" = _KlSWUgx2;
         "forge-1.20.6" = _KlSWUgx2;
+        "pkg-1.0.0" = _KlSWUgx2;
         "default" = _KlSWUgx2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

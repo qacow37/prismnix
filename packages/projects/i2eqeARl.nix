@@ -16,6 +16,7 @@ let
         "fabric-1.21.9" = _NgndsWtB;
         "fabric-1.21.10" = _NgndsWtB;
         "fabric-1.21.11" = _NgndsWtB;
+        "pkg-1.0.0" = _NgndsWtB;
         "default" = _NgndsWtB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

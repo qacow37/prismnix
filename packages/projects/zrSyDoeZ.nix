@@ -16,6 +16,8 @@ let
         "QOnqMZB2" = _QOnqMZB2;
         "forge-1.9.4" = _kOZvLD3g;
         "forge-1.8.9" = _QOnqMZB2;
+        "pkg-1.0.0" = _kOZvLD3g;
+        "pkg-1.0.6" = _QOnqMZB2;
         "default" = _QOnqMZB2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

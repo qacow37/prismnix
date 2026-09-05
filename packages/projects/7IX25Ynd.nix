@@ -28,6 +28,8 @@ let
         "paper-1.21.11" = _IDqfhbp6;
         "paper-26.1.2" = _PGA2QChW;
         "spigot-26.1.2" = _PGA2QChW;
+        "pkg-1.0" = _IDqfhbp6;
+        "pkg-1.1" = _PGA2QChW;
         "default" = _PGA2QChW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

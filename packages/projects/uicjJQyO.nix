@@ -21,6 +21,9 @@ let
         "7yPBs5jy" = _7yPBs5jy;
         "G9Z54AV9" = _G9Z54AV9;
         "neoforge-1.21.1" = _G9Z54AV9;
+        "pkg-0.6.1" = _NEcxRPRP;
+        "pkg-0.6.2" = _7yPBs5jy;
+        "pkg-0.6.3" = _G9Z54AV9;
         "default" = _G9Z54AV9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

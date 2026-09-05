@@ -45,6 +45,13 @@ let
         "cy4W5aWb" = _cy4W5aWb;
         "sdADu4Oy" = _sdADu4Oy;
         "forge-1.12.2" = _sdADu4Oy;
+        "pkg-0.0.5" = _IlTxp3O6;
+        "pkg-1.0.0" = _dSmEVSs9;
+        "pkg-1.0.1" = _5vNL9mmv;
+        "pkg-1.0.2" = _m5qEQ56J;
+        "pkg-1.0.3" = _zi3tRImB;
+        "pkg-1.0.4" = _cy4W5aWb;
+        "pkg-1.0.5" = _sdADu4Oy;
         "default" = _sdADu4Oy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -114,6 +114,8 @@ let
         "minecraft-1.17" = _g98GzfWS;
         "minecraft-1.17.1" = _g98GzfWS;
         "minecraft-26.2" = _FQATxPDA;
+        "pkg-1.0.0" = _g98GzfWS;
+        "pkg-26.2" = _FQATxPDA;
         "default" = _FQATxPDA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -38,6 +38,8 @@ let
         "purpur-1.21.3" = _apCbPdPp;
         "purpur-1.21.4" = _apCbPdPp;
         "purpur-1.21.5" = _apCbPdPp;
+        "pkg-1.0.0" = _zF2sMGke;
+        "pkg-1.1" = _apCbPdPp;
         "default" = _apCbPdPp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

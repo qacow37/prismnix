@@ -10,6 +10,7 @@ let
         "BIgbmg7a" = _BIgbmg7a;
         "minecraft-1.18.2" = _BIgbmg7a;
         "minecraft-1.20.6" = _BIgbmg7a;
+        "pkg-1.0" = _BIgbmg7a;
         "default" = _BIgbmg7a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

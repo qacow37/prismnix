@@ -16,6 +16,8 @@ let
         "SSgjgT31" = _SSgjgT31;
         "fabric-1.20.4" = _SSgjgT31;
         "quilt-1.20.4" = _SSgjgT31;
+        "pkg-1.0.0" = _fymOw9ea;
+        "pkg-1.0.1" = _SSgjgT31;
         "default" = _SSgjgT31;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -84,6 +84,17 @@ let
         "iris-26.1.1" = _eYaprkGH;
         "iris-26.1.2" = _eYaprkGH;
         "iris-26.2" = _eYaprkGH;
+        "pkg-1.0" = _bxLZnQWU;
+        "pkg-1.2" = _dF1JdP5u;
+        "pkg-1.3" = _NbTlus63;
+        "pkg-1.4" = _4DMx4J87;
+        "pkg-1.5" = _6VbRxwdi;
+        "pkg-1.6" = _sEB53SGx;
+        "pkg-1.7" = _7WCfbhK6;
+        "pkg-1.8" = _o4gXpNBi;
+        "pkg-1.9" = _HczevtAP;
+        "pkg-2.0" = _lModIDl2;
+        "pkg-2.1" = _eYaprkGH;
         "default" = _eYaprkGH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

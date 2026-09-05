@@ -16,6 +16,7 @@ let
         "fm2KBIV6" = _fm2KBIV6;
         "forge-1.20.1" = _oWF9Q5y1;
         "fabric-1.20.1" = _fm2KBIV6;
+        "pkg-1.0.0-beta" = _fm2KBIV6;
         "default" = _fm2KBIV6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

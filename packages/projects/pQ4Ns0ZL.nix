@@ -139,6 +139,19 @@ let
         "purpur-26.2" = _kSlddFox;
         "spigot-26.2" = _kSlddFox;
         "sponge-26.2" = _kSlddFox;
+        "pkg-1.0.0" = _qa8gyRLu;
+        "pkg-1.1.0" = _2ecpjjG7;
+        "pkg-1.2.0" = _LiNY6Xbi;
+        "pkg-1.2.1" = _3lfT55Vi;
+        "pkg-1.3.0" = _o5n6Fsmo;
+        "pkg-1.3.1" = _TDBxwoor;
+        "pkg-1.3.2" = _A7Wi5Fix;
+        "pkg-1.3.3" = _h9nFZxDJ;
+        "pkg-1.3.4" = _duTb1ILq;
+        "pkg-1.3.5" = _5isyxrT8;
+        "pkg-1.4.0" = _Tgr4VfW5;
+        "pkg-1.4.2" = _9Q88v1FK;
+        "pkg-mc26.2-2.0.0" = _kSlddFox;
         "default" = _kSlddFox;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

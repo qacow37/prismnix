@@ -22,6 +22,9 @@ let
         "Q91hCADk" = _Q91hCADk;
         "fabric-1.21.1" = _qK7eAkli;
         "fabric-1.21.10" = _Q91hCADk;
+        "pkg-0.1.1" = _3yDtlZTr;
+        "pkg-v1.0-1.21.1" = _qK7eAkli;
+        "pkg-v1.0-1.21.10" = _Q91hCADk;
         "default" = _Q91hCADk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

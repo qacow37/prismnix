@@ -15,6 +15,7 @@ let
         "UrT498Ff" = _UrT498Ff;
         "syxhuaBI" = _syxhuaBI;
         "minecraft-1.20.1" = _syxhuaBI;
+        "pkg-0.1.0" = _syxhuaBI;
         "default" = _syxhuaBI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

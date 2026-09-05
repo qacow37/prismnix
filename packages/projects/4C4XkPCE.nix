@@ -20,6 +20,8 @@ let
         "fabric-26.1.1" = _cFBMxP98;
         "fabric-26.1.2" = _cFBMxP98;
         "fabric-26.2" = _cFBMxP98;
+        "pkg-1.0.0" = _SgQVdy20;
+        "pkg-1.0.1" = _cFBMxP98;
         "default" = _cFBMxP98;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

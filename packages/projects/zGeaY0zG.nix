@@ -15,6 +15,8 @@ let
         "UCm3D5b1" = _UCm3D5b1;
         "FMisyvxa" = _FMisyvxa;
         "minecraft-1.20.1" = _FMisyvxa;
+        "pkg-U21" = _UCm3D5b1;
+        "pkg-U22" = _FMisyvxa;
         "default" = _FMisyvxa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

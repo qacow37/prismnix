@@ -9,6 +9,7 @@ let
     in {
         "OxZsKpiR" = _OxZsKpiR;
         "fabric-1.20.1" = _OxZsKpiR;
+        "pkg-1.0.1" = _OxZsKpiR;
         "default" = _OxZsKpiR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

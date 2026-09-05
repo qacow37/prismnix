@@ -71,6 +71,7 @@ let
         "spigot-1.19.4" = _hAtPFM4i;
         "spigot-1.20" = _hAtPFM4i;
         "spigot-1.20.1" = _hAtPFM4i;
+        "pkg-2.3.1" = _hAtPFM4i;
         "default" = _hAtPFM4i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

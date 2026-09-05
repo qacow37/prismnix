@@ -21,6 +21,9 @@ let
         "8JAnpcve" = _8JAnpcve;
         "8jgu87vF" = _8jgu87vF;
         "neoforge-1.21.1" = _8jgu87vF;
+        "pkg-1.0.0" = _fPkFx5uJ;
+        "pkg-1.0.1" = _8JAnpcve;
+        "pkg-1.0.2" = _8jgu87vF;
         "default" = _8jgu87vF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

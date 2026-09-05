@@ -10,6 +10,7 @@ let
         "ING90tEv" = _ING90tEv;
         "minecraft-1.19.2" = _ING90tEv;
         "minecraft-1.19.3" = _ING90tEv;
+        "pkg-1.0" = _ING90tEv;
         "default" = _ING90tEv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

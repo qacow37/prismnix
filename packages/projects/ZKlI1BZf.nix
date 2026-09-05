@@ -101,6 +101,9 @@ let
         "neoforge-1.21.8" = _tTbPRSwy;
         "neoforge-1.21.9" = _tTbPRSwy;
         "neoforge-1.21.10" = _tTbPRSwy;
+        "pkg-1.0" = _Xz1hIj3M;
+        "pkg-1.1" = _pzjOvmgt;
+        "pkg-1.2" = _tTbPRSwy;
         "default" = _tTbPRSwy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

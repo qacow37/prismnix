@@ -16,6 +16,7 @@ let
         "wfAVLiA2" = _wfAVLiA2;
         "forge-1.20.1" = _28mhpecy;
         "neoforge-1.21.1" = _wfAVLiA2;
+        "pkg-1.0.6" = _wfAVLiA2;
         "default" = _wfAVLiA2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

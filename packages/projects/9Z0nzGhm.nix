@@ -340,6 +340,7 @@ let
         "fabric-26.1-pre-3" = _gTZ19QHF;
         "fabric-26.1-rc-1" = _gTZ19QHF;
         "fabric-26.1-rc-2" = _gTZ19QHF;
+        "pkg-1.0.1" = _gTZ19QHF;
         "default" = _gTZ19QHF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

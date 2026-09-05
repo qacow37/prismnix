@@ -45,6 +45,13 @@ let
         "NGMlOJse" = _NGMlOJse;
         "a1FzTav2" = _a1FzTav2;
         "forge-1.20.1" = _a1FzTav2;
+        "pkg-1.2" = _C3xt0Ioa;
+        "pkg-1.3" = _rxxRjg9C;
+        "pkg-1.5" = _l3ctzr8G;
+        "pkg-1.9" = _qn9LJwcj;
+        "pkg-1.9.8" = _ZaejFsiL;
+        "pkg-2.0.0" = _NGMlOJse;
+        "pkg-2.5.0" = _a1FzTav2;
         "default" = _a1FzTav2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

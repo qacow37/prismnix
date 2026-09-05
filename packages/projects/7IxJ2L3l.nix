@@ -47,6 +47,12 @@ let
         "neoforge-1.21.1" = _C7PsUBKg;
         "forge-1.20.1" = _cy2Vjes4;
         "fabric-1.20.1" = _I22ue8Mc;
+        "pkg-nydelight-1.21.1-1.0.0" = _4Qc2edxE;
+        "pkg-nydelight-1.20.1-1.0.0" = _ErI9St30;
+        "pkg-nydelight-1.20.1-1.0.1" = _I22ue8Mc;
+        "pkg-nydelight-1.21.1-1.0.1" = _BelBeSFT;
+        "pkg-nydelight-1.20.1-1.1.0" = _cy2Vjes4;
+        "pkg-nydelight-1.21.1-1.1.0" = _C7PsUBKg;
         "default" = _C7PsUBKg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

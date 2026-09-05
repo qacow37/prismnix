@@ -16,6 +16,7 @@ let
         "NPtUiYzP" = _NPtUiYzP;
         "quilt-1.20.1" = _bH87k7r0;
         "forge-1.20.1" = _NPtUiYzP;
+        "pkg-1.0.0" = _NPtUiYzP;
         "default" = _NPtUiYzP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

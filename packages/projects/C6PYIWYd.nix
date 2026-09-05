@@ -21,6 +21,7 @@ let
         "minecraft-1.21.3" = _VPANQEpp;
         "minecraft-1.21.4" = _VPANQEpp;
         "minecraft-1.21.5" = _VPANQEpp;
+        "pkg-1.0" = _VPANQEpp;
         "default" = _VPANQEpp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

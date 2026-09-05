@@ -98,6 +98,8 @@ let
         "sponge-1.21.9" = _WZ27mBle;
         "sponge-1.21.10" = _WZ27mBle;
         "sponge-1.21.11" = _WZ27mBle;
+        "pkg-0.0.1" = _WKUWZVuE;
+        "pkg-0.0.2" = _wugrVlTu;
         "default" = _wugrVlTu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

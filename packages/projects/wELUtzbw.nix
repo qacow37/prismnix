@@ -28,6 +28,10 @@ let
         "72hi78ro" = _72hi78ro;
         "forge-1.20.1" = _C1ckPd3n;
         "neoforge-1.21.1" = _72hi78ro;
+        "pkg-1.0008-forge-1.20.1" = _vMA6yw0q;
+        "pkg-1.0008-neoforge-1.21.1" = _SS7ryzI3;
+        "pkg-1.0104-forge-1.20.1" = _C1ckPd3n;
+        "pkg-1.0104-neoforge-1.21.1" = _72hi78ro;
         "default" = _72hi78ro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

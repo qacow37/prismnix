@@ -40,6 +40,7 @@ let
         "minecraft-1.21.6" = _GyCAly67;
         "minecraft-1.21.7" = _GyCAly67;
         "minecraft-1.21.8" = _GyCAly67;
+        "pkg-Purple_Totem" = _GyCAly67;
         "default" = _GyCAly67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

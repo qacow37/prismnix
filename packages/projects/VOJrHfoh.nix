@@ -9,6 +9,7 @@ let
     in {
         "GbofOtrD" = _GbofOtrD;
         "fabric-1.21.10" = _GbofOtrD;
+        "pkg-1.0.0" = _GbofOtrD;
         "default" = _GbofOtrD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

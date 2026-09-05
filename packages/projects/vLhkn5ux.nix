@@ -33,6 +33,11 @@ let
         "UwVHn360" = _UwVHn360;
         "j1560XGp" = _j1560XGp;
         "forge-1.20.1" = _j1560XGp;
+        "pkg-1.0.0" = _CFl5OBZP;
+        "pkg-1.0.1" = _kp3ZtfWA;
+        "pkg-1.0.2" = _F4lrIcIv;
+        "pkg-1.0.3" = _UwVHn360;
+        "pkg-1.0.4" = _j1560XGp;
         "default" = _j1560XGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

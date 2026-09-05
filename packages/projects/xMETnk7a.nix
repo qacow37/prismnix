@@ -9,6 +9,7 @@ let
     in {
         "cxkMmRrf" = _cxkMmRrf;
         "paper-1.21.1" = _cxkMmRrf;
+        "pkg-1.0.0" = _cxkMmRrf;
         "default" = _cxkMmRrf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

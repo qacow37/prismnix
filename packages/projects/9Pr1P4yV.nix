@@ -26,6 +26,7 @@ let
         "quilt-1.19" = _lpwjIps1;
         "quilt-1.19.1" = _lpwjIps1;
         "quilt-1.19.2" = _lpwjIps1;
+        "pkg-v1.2.1-t7" = _lpwjIps1;
         "default" = _lpwjIps1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

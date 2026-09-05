@@ -105,6 +105,7 @@ let
         "minecraft-1.7.8" = _V7Pk1fp4;
         "minecraft-1.7.9" = _V7Pk1fp4;
         "minecraft-1.7.10" = _V7Pk1fp4;
+        "pkg-1.0.0" = _V7Pk1fp4;
         "default" = _V7Pk1fp4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

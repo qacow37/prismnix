@@ -10,6 +10,7 @@ let
         "VAaKUzQr" = _VAaKUzQr;
         "minecraft-1.20" = _VAaKUzQr;
         "minecraft-1.21" = _VAaKUzQr;
+        "pkg-1" = _VAaKUzQr;
         "default" = _VAaKUzQr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

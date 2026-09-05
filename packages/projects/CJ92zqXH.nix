@@ -19,6 +19,8 @@ let
         "minecraft-1.20.2" = _Hatizpzq;
         "minecraft-1.20.3" = _Hatizpzq;
         "minecraft-1.20.4" = _Hatizpzq;
+        "pkg-7.2E_DEMO" = _pnJhblNU;
+        "pkg-7.2E_LITE" = _Hatizpzq;
         "default" = _Hatizpzq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "HOkmTLWL" = _HOkmTLWL;
         "forge-1.16.5" = _DLrpX7AJ;
         "forge-1.19.2" = _HOkmTLWL;
+        "pkg-1.1.3" = _HOkmTLWL;
         "default" = _HOkmTLWL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

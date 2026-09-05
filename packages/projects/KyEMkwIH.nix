@@ -15,6 +15,8 @@ let
         "ESQGuWek" = _ESQGuWek;
         "Oq22nSUw" = _Oq22nSUw;
         "minecraft-1.21.11" = _Oq22nSUw;
+        "pkg-1.0.0" = _ESQGuWek;
+        "pkg-1.2.1.2" = _Oq22nSUw;
         "default" = _Oq22nSUw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "4Rx062kv" = _4Rx062kv;
         "forge-1.19.2" = _8coywzyi;
         "fabric-1.21.1" = _4Rx062kv;
+        "pkg-3.0" = _8coywzyi;
+        "pkg-1.21.1-4.0" = _4Rx062kv;
         "default" = _4Rx062kv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

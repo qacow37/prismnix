@@ -16,6 +16,8 @@ let
         "Y89Yv2At" = _Y89Yv2At;
         "minecraft-1.21.5" = _PIklTswa;
         "minecraft-1.21.6" = _Y89Yv2At;
+        "pkg-1.0" = _PIklTswa;
+        "pkg-1.1" = _Y89Yv2At;
         "default" = _Y89Yv2At;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

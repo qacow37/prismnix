@@ -9,6 +9,7 @@ let
     in {
         "GbOM46pJ" = _GbOM46pJ;
         "forge-1.20.1" = _GbOM46pJ;
+        "pkg-1.0.0" = _GbOM46pJ;
         "default" = _GbOM46pJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -58,6 +58,7 @@ let
         "minecraft-26.1.1" = _oIXu4HDz;
         "minecraft-26.1.2" = _oIXu4HDz;
         "minecraft-26.2" = _oIXu4HDz;
+        "pkg-1.0" = _oIXu4HDz;
         "default" = _oIXu4HDz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

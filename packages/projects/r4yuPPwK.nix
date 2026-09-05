@@ -17,6 +17,7 @@ let
         "minecraft-1.20.1" = _h0s5rsUi;
         "minecraft-1.21" = _EVA7mCY3;
         "minecraft-1.21.1" = _EVA7mCY3;
+        "pkg-3D_Potion" = _EVA7mCY3;
         "default" = _EVA7mCY3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

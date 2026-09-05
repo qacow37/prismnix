@@ -27,6 +27,10 @@ let
         "LUCKaamP" = _LUCKaamP;
         "OP3W4ovr" = _OP3W4ovr;
         "fabric-1.20.1" = _OP3W4ovr;
+        "pkg-1.0.0" = _ColTjvsO;
+        "pkg-1.1.0" = _zPz0PEzn;
+        "pkg-1.1.1" = _LUCKaamP;
+        "pkg-1.2.0" = _OP3W4ovr;
         "default" = _OP3W4ovr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

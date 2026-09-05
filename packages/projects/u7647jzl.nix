@@ -138,6 +138,7 @@ let
         "minecraft-1.21.5" = _MXCe5Mgr;
         "minecraft-25w14craftmine" = _MXCe5Mgr;
         "minecraft-25w15a" = _MXCe5Mgr;
+        "pkg-v1" = _MXCe5Mgr;
         "default" = _MXCe5Mgr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

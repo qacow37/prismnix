@@ -16,6 +16,8 @@ let
         "SZzBOunJ" = _SZzBOunJ;
         "forge-1.20.1" = _5tY4wfly;
         "neoforge-1.21.1" = _SZzBOunJ;
+        "pkg-1.0.0" = _5tY4wfly;
+        "pkg-1.1" = _SZzBOunJ;
         "default" = _SZzBOunJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -70,6 +70,12 @@ let
         "J4NlxJ1e" = _J4NlxJ1e;
         "neoforge-1.21.1" = _J4NlxJ1e;
         "forge-1.20.1" = _QH50kz0d;
+        "pkg-1.0.81" = _O0bwVspl;
+        "pkg-1.0.82" = _rodrG2tb;
+        "pkg-1.0.83" = _s86sZ9Kw;
+        "pkg-1.0.1" = _yhYztoAt;
+        "pkg-1.0.1-Hotfix" = _D7rmfYcp;
+        "pkg-1.0.2" = _J4NlxJ1e;
         "default" = _J4NlxJ1e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

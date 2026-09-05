@@ -27,6 +27,10 @@ let
         "KPgfEXO6" = _KPgfEXO6;
         "EDMqRnfK" = _EDMqRnfK;
         "forge-1.20.1" = _EDMqRnfK;
+        "pkg-1.0.0" = _1SasjMO0;
+        "pkg-1.0.1" = _UN22uxxT;
+        "pkg-1.0.2" = _KPgfEXO6;
+        "pkg-1.0.3" = _EDMqRnfK;
         "default" = _EDMqRnfK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

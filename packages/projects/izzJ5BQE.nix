@@ -9,6 +9,7 @@ let
     in {
         "1QhM96AG" = _1QhM96AG;
         "minecraft-1.8.9" = _1QhM96AG;
+        "pkg-Rteam-Pack-V.1.0" = _1QhM96AG;
         "default" = _1QhM96AG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

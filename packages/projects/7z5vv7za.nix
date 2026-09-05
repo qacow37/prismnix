@@ -24,6 +24,7 @@ let
         "minecraft-1.19" = _uAwN2IEv;
         "minecraft-1.19.1" = _uAwN2IEv;
         "minecraft-1.19.2" = _uAwN2IEv;
+        "pkg-1" = _uAwN2IEv;
         "default" = _uAwN2IEv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

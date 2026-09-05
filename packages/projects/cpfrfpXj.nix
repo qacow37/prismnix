@@ -15,6 +15,8 @@ let
         "iPIWD6Pr" = _iPIWD6Pr;
         "YDMMENfy" = _YDMMENfy;
         "forge-1.12.2" = _YDMMENfy;
+        "pkg-V1" = _iPIWD6Pr;
+        "pkg-V2" = _YDMMENfy;
         "default" = _YDMMENfy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

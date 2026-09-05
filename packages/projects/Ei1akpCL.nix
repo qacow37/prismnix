@@ -203,6 +203,8 @@ let
         "quilt-26.1.1" = _rrLOrAva;
         "quilt-26.1.2" = _rrLOrAva;
         "quilt-26.2" = _rrLOrAva;
+        "pkg-1.0" = _4uRPll3R;
+        "pkg-1.0+mod" = _rrLOrAva;
         "default" = _rrLOrAva;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

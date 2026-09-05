@@ -111,6 +111,20 @@ let
         "datapack-1.20.3" = _AEUeIbp1;
         "datapack-1.20.4" = _AEUeIbp1;
         "datapack-1.21.1" = _tAwuVVuQ;
+        "pkg-1.18" = _CnWG4AOh;
+        "pkg-1.18.1" = _csPHV2PF;
+        "pkg-1.18.2" = _gWuG6pVH;
+        "pkg-1.19" = _nlp1rHKx;
+        "pkg-1.19.1" = _L5VwzxYB;
+        "pkg-1.19.2" = _G2Ok04KI;
+        "pkg-1.19.3" = _eUT1GVfl;
+        "pkg-1.19.4" = _7HkvlCeV;
+        "pkg-1.20" = _L8LbM9Ao;
+        "pkg-1.20.1" = _6HuF3xA0;
+        "pkg-1.20.2" = _RJrBl7VC;
+        "pkg-1.0.0" = _AEUeIbp1;
+        "pkg-1.0.3" = _tAwuVVuQ;
+        "pkg-1.3" = _u55any0Y;
         "default" = _u55any0Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

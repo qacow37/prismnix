@@ -9,6 +9,7 @@ let
     in {
         "IhS4Kduj" = _IhS4Kduj;
         "minecraft-1.19.4" = _IhS4Kduj;
+        "pkg-0.1" = _IhS4Kduj;
         "default" = _IhS4Kduj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

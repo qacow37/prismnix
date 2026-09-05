@@ -100,6 +100,22 @@ let
         "pyMGYGrW" = _pyMGYGrW;
         "fabric-1.20.1" = _pyMGYGrW;
         "fabric-1.21.1" = _TsONAfvS;
+        "pkg-0.1.0" = _kdXir2kN;
+        "pkg-0.2.0" = _E5ZwsvLs;
+        "pkg-0.3.0" = _OStoIIqK;
+        "pkg-0.4.0" = _m5Na0ZAP;
+        "pkg-0.4.1" = _D8gwlcN2;
+        "pkg-0.5.0" = _woVeUY8N;
+        "pkg-0.5.1" = _571n0x0k;
+        "pkg-0.6.0" = _VmltHJoA;
+        "pkg-0.6.1" = _hjQo5huS;
+        "pkg-0.7.0" = _3ecepLJo;
+        "pkg-0.7.1" = _ygcBpLjo;
+        "pkg-0.8.0" = _58X6k8Ib;
+        "pkg-0.9.0" = _7cefjBH6;
+        "pkg-0.10.0" = _vrciFeS8;
+        "pkg-0.10.1+1.21.1" = _TsONAfvS;
+        "pkg-0.10.1+1.20.1" = _pyMGYGrW;
         "default" = _pyMGYGrW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

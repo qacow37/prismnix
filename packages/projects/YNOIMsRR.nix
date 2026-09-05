@@ -27,6 +27,10 @@ let
         "GtYLhziw" = _GtYLhziw;
         "TpV8PuS8" = _TpV8PuS8;
         "forge-1.12.2" = _TpV8PuS8;
+        "pkg-1.1.8+1.12-forge" = _6er7Zlj9;
+        "pkg-1.1.9" = _6oNHNDkI;
+        "pkg-1.1.11" = _GtYLhziw;
+        "pkg-1.1.12" = _TpV8PuS8;
         "default" = _TpV8PuS8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

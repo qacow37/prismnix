@@ -27,6 +27,7 @@ let
         "minecraft-1.21.6" = _jTplLc6w;
         "minecraft-1.21.7" = _jTplLc6w;
         "minecraft-1.21.8" = _jTplLc6w;
+        "pkg-1" = _jTplLc6w;
         "default" = _jTplLc6w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

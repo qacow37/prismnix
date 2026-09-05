@@ -49,6 +49,8 @@ let
         "quilt-1.20.6" = _UD0CVSet;
         "quilt-1.21" = _UD0CVSet;
         "quilt-1.21.1" = _UD0CVSet;
+        "pkg-1.0" = _iphv3Vi5;
+        "pkg-1.0+mod" = _UD0CVSet;
         "default" = _UD0CVSet;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

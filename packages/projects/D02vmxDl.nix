@@ -16,6 +16,8 @@ let
         "chTHH6YA" = _chTHH6YA;
         "babric-b1.7.3" = _chTHH6YA;
         "fabric-b1.7.3" = _chTHH6YA;
+        "pkg-5.1.1" = _2ZyP3yed;
+        "pkg-5.2.1" = _chTHH6YA;
         "default" = _chTHH6YA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

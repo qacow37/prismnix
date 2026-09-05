@@ -33,6 +33,11 @@ let
         "BM3JAmhN" = _BM3JAmhN;
         "m78VcMBQ" = _m78VcMBQ;
         "bta-babric-b1.7.3" = _m78VcMBQ;
+        "pkg-1.0.0-7.2_01" = _4ChJoiFT;
+        "pkg-1.0.1-7.2_01" = _7TaMzkSl;
+        "pkg-2.0.0+7.3_04" = _7znJ1VGs;
+        "pkg-2.1.0+7.3_04" = _BM3JAmhN;
+        "pkg-2.2.0+7.3_04" = _m78VcMBQ;
         "default" = _m78VcMBQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

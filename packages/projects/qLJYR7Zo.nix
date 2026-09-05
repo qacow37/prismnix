@@ -44,6 +44,7 @@ let
         "quilt-1.20.6" = _86wr80qI;
         "quilt-1.21" = _86wr80qI;
         "quilt-1.21.1" = _86wr80qI;
+        "pkg-1.20+1.0.0" = _86wr80qI;
         "default" = _86wr80qI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

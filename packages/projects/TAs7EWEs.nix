@@ -15,6 +15,8 @@ let
         "kpS5QFUx" = _kpS5QFUx;
         "lyPZNTBl" = _lyPZNTBl;
         "neoforge-1.21.1" = _lyPZNTBl;
+        "pkg-v1.0.0" = _kpS5QFUx;
+        "pkg-v1.2.0" = _lyPZNTBl;
         "default" = _lyPZNTBl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

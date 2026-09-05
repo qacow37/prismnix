@@ -10,6 +10,7 @@ let
         "ZSrQDotu" = _ZSrQDotu;
         "fabric-1.20" = _ZSrQDotu;
         "fabric-1.20.1" = _ZSrQDotu;
+        "pkg-1.0.0" = _ZSrQDotu;
         "default" = _ZSrQDotu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

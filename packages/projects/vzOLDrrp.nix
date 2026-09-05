@@ -21,6 +21,9 @@ let
         "K8A4QDi7" = _K8A4QDi7;
         "tEfAHfr4" = _tEfAHfr4;
         "forge-1.20.1" = _tEfAHfr4;
+        "pkg-1.0.0" = _ldSSEgjq;
+        "pkg-1.0.1" = _K8A4QDi7;
+        "pkg-1.0.2" = _tEfAHfr4;
         "default" = _tEfAHfr4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

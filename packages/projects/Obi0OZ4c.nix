@@ -35,6 +35,8 @@ let
         "forge-1.19.2" = _AhabMJ9Q;
         "forge-1.20" = _IYPAlitn;
         "forge-1.20.1" = _IYPAlitn;
+        "pkg-1.19.2-1.0.0" = _AhabMJ9Q;
+        "pkg-1.20.1-1.1.0" = _IYPAlitn;
         "default" = _IYPAlitn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

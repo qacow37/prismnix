@@ -22,6 +22,8 @@ let
         "K34hPJPl" = _K34hPJPl;
         "forge-1.20.1" = _TPqsiKUD;
         "neoforge-1.21.1" = _K34hPJPl;
+        "pkg-1.1" = _E0RRRlDq;
+        "pkg-1.2" = _K34hPJPl;
         "default" = _K34hPJPl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

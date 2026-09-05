@@ -29,6 +29,8 @@ let
         "datapack-1.20.1" = _YbxQenTI;
         "forge-1.20.1" = _ly498gCn;
         "fabric-1.20.1" = _ly498gCn;
+        "pkg-1.0" = _YbxQenTI;
+        "pkg-1.0+mod" = _ly498gCn;
         "default" = _ly498gCn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

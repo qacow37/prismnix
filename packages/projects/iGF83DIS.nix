@@ -9,6 +9,7 @@ let
     in {
         "GLjM3gTo" = _GLjM3gTo;
         "forge-1.20.1" = _GLjM3gTo;
+        "pkg-1.1.0" = _GLjM3gTo;
         "default" = _GLjM3gTo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

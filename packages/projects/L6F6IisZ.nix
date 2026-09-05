@@ -15,6 +15,8 @@ let
         "vs0LeUr6" = _vs0LeUr6;
         "J5Tlt4so" = _J5Tlt4so;
         "fabric-1.21.1" = _J5Tlt4so;
+        "pkg-1.0.0" = _vs0LeUr6;
+        "pkg-1.1.0" = _J5Tlt4so;
         "default" = _J5Tlt4so;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

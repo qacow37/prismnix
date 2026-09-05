@@ -52,6 +52,7 @@ let
         "optifine-1.21.2" = _LgR1TLL7;
         "optifine-1.21.3" = _LgR1TLL7;
         "optifine-1.21.4" = _LgR1TLL7;
+        "pkg-1.0" = _LgR1TLL7;
         "default" = _LgR1TLL7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

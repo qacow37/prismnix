@@ -40,6 +40,12 @@ let
         "zCrvMyrx" = _zCrvMyrx;
         "forge-1.20.1" = _zCrvMyrx;
         "neoforge-1.21.1" = _czRtwl8q;
+        "pkg-1.10.0" = _2xksnuXX;
+        "pkg-2.0.0" = _IKl7Kn0R;
+        "pkg-1.21.1-0.1" = _vLDMyb93;
+        "pkg-2.1.0" = _dxFlQxAZ;
+        "pkg-1.0" = _czRtwl8q;
+        "pkg-3.0.0" = _zCrvMyrx;
         "default" = _zCrvMyrx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "DFGBeKHh" = _DFGBeKHh;
         "neoforge-1.21.1" = _DFGBeKHh;
+        "pkg-1.1-SNAPSHOT" = _DFGBeKHh;
         "default" = _DFGBeKHh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

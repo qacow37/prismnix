@@ -69,6 +69,10 @@ let
         "EZtvxWJk" = _EZtvxWJk;
         "GCC0DalJ" = _GCC0DalJ;
         "forge-1.20.1" = _GCC0DalJ;
+        "pkg-1.0.0" = _GCC0DalJ;
+        "pkg-1.0.5" = _P4kv6pZU;
+        "pkg-1.0.6" = _PIgvfdCn;
+        "pkg-1.0.7" = _7Wb0lujy;
         "default" = _GCC0DalJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

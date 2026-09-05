@@ -28,6 +28,9 @@ let
         "Y1aCAlo8" = _Y1aCAlo8;
         "fabric-1.20.1" = _pwzxszQT;
         "forge-1.20.1" = _Y1aCAlo8;
+        "pkg-1.0.0" = _6AJMmKuS;
+        "pkg-1.0.1" = _KGvSTp3T;
+        "pkg-1.0.2" = _Y1aCAlo8;
         "default" = _Y1aCAlo8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

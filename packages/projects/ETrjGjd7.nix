@@ -10,6 +10,7 @@ let
         "PPES5Oev" = _PPES5Oev;
         "fabric-1.20" = _PPES5Oev;
         "fabric-1.20.1" = _PPES5Oev;
+        "pkg-1.0.0" = _PPES5Oev;
         "default" = _PPES5Oev;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

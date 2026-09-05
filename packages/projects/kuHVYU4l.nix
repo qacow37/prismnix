@@ -21,6 +21,9 @@ let
         "qzUnZnD4" = _qzUnZnD4;
         "7UXBDfDU" = _7UXBDfDU;
         "legacy-fabric-1.6.4" = _7UXBDfDU;
+        "pkg-1.0.0" = _w2SHbeBv;
+        "pkg-1.0.1" = _qzUnZnD4;
+        "pkg-1.1.0" = _7UXBDfDU;
         "default" = _7UXBDfDU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

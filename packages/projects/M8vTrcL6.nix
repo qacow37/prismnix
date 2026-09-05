@@ -22,6 +22,8 @@ let
         "noBzTz0L" = _noBzTz0L;
         "forge-1.20.1" = _pcRRP7t2;
         "forge-1.19.2" = _noBzTz0L;
+        "pkg-1.0.0" = _rvPgbNG6;
+        "pkg-1.1.0" = _noBzTz0L;
         "default" = _noBzTz0L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

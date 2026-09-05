@@ -22,6 +22,9 @@ let
         "Vt4uSVmB" = _Vt4uSVmB;
         "forge-1.20.1" = _NcoR8TJs;
         "neoforge-1.21.1" = _Vt4uSVmB;
+        "pkg-1.9.5" = _JvRvNawk;
+        "pkg-1.9.6" = _NcoR8TJs;
+        "pkg-2.0.0" = _Vt4uSVmB;
         "default" = _Vt4uSVmB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

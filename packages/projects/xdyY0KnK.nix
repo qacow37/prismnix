@@ -32,6 +32,7 @@ let
         "neoforge-1.21.9" = _fPEupWV7;
         "neoforge-1.21.10" = _fPEupWV7;
         "neoforge-1.21.11" = _fPEupWV7;
+        "pkg-1.0.4" = _fPEupWV7;
         "default" = _fPEupWV7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

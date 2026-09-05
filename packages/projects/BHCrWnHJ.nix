@@ -74,6 +74,8 @@ let
         "quilt-1.20.6" = _SsGwsheS;
         "quilt-1.21" = _SsGwsheS;
         "quilt-1.21.1" = _SsGwsheS;
+        "pkg-1.0.0" = _3DvmjMpx;
+        "pkg-1.0.0+mod" = _SsGwsheS;
         "default" = _SsGwsheS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

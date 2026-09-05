@@ -27,6 +27,7 @@ let
         "minecraft-1.20.4" = _deqYUCO7;
         "minecraft-1.20.5" = _deqYUCO7;
         "minecraft-1.20.6" = _deqYUCO7;
+        "pkg-1.0.1" = _deqYUCO7;
         "default" = _deqYUCO7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

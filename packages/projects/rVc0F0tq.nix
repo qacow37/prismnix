@@ -125,6 +125,8 @@ let
         "datapack-1.21.9" = _BhNc82rR;
         "datapack-1.21.10" = _BhNc82rR;
         "datapack-1.21.11" = _BhNc82rR;
+        "pkg-0.1.0+mod" = _LWSKwfPL;
+        "pkg-0.1.0" = _BhNc82rR;
         "default" = _BhNc82rR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

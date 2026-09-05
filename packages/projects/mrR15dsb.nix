@@ -27,6 +27,8 @@ let
         "ux36c2fk" = _ux36c2fk;
         "wEaEchSL" = _wEaEchSL;
         "neoforge-1.21.1" = _wEaEchSL;
+        "pkg-1.0.0" = _AJdS03FD;
+        "pkg-1.21.1" = _wEaEchSL;
         "default" = _wEaEchSL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -20,6 +20,8 @@ let
         "forge-1.20.4" = _ruoIElpk;
         "forge-1.20.5" = _ruoIElpk;
         "forge-1.20.6" = _ruoIElpk;
+        "pkg-0.0.1" = _70KuAQu0;
+        "pkg-2.0" = _ruoIElpk;
         "default" = _ruoIElpk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

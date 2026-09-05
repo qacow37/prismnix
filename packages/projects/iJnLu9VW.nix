@@ -22,6 +22,8 @@ let
         "PE4tf27P" = _PE4tf27P;
         "forge-1.19.4" = _XVmfRgTj;
         "forge-1.20.1" = _PE4tf27P;
+        "pkg-1.0.0" = _dkHWOfGa;
+        "pkg-1.0.1" = _PE4tf27P;
         "default" = _PE4tf27P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

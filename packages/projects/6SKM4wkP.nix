@@ -15,6 +15,8 @@ let
         "5r69if2w" = _5r69if2w;
         "NVSSxJI0" = _NVSSxJI0;
         "fabric-1.21.1" = _NVSSxJI0;
+        "pkg-1.0.0" = _5r69if2w;
+        "pkg-1.0.1" = _NVSSxJI0;
         "default" = _NVSSxJI0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

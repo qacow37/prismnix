@@ -10,6 +10,7 @@ let
         "iGMLi6uv" = _iGMLi6uv;
         "minecraft-1.20.1" = _iGMLi6uv;
         "minecraft-1.21.1" = _iGMLi6uv;
+        "pkg-v1.0" = _iGMLi6uv;
         "default" = _iGMLi6uv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

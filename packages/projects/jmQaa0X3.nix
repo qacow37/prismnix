@@ -275,6 +275,22 @@ let
         "waterfall-26.1.1" = _sm5yLBux;
         "waterfall-26.1.2" = _sm5yLBux;
         "waterfall-26.2" = _sm5yLBux;
+        "pkg-1.6.0" = _l9zMdsfp;
+        "pkg-1.7.0" = _AjijCB6g;
+        "pkg-1.7.1" = _5LMypDRP;
+        "pkg-1.7.2" = _uyD8NYLU;
+        "pkg-1.7.3" = _zCXxt8Rd;
+        "pkg-1.7.5" = _Xa68RXEX;
+        "pkg-1.7.6" = _G67KRwyR;
+        "pkg-1.8.0" = _vycKwAAC;
+        "pkg-2.0.0" = _VWCFmj3I;
+        "pkg-2.0.1" = _ygZ6csx2;
+        "pkg-2.0.2" = _quUXQrKK;
+        "pkg-2.1.0" = _HtkIRF8v;
+        "pkg-2.2.0" = _HKn5qVY3;
+        "pkg-2.2.1" = _Xf975PAX;
+        "pkg-2.2.2" = _669DS5MT;
+        "pkg-2.3.0" = _sm5yLBux;
         "default" = _sm5yLBux;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

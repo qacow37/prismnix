@@ -11,6 +11,7 @@ let
         "minecraft-1.18" = _FIGAiyrV;
         "minecraft-1.18.1" = _FIGAiyrV;
         "minecraft-1.18.2" = _FIGAiyrV;
+        "pkg-1.18+" = _FIGAiyrV;
         "default" = _FIGAiyrV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

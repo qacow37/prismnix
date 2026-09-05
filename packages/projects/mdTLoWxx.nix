@@ -74,6 +74,7 @@ let
         "minecraft-26.1" = _hwrraNyt;
         "minecraft-26.1.1" = _hwrraNyt;
         "minecraft-26.1.2" = _hwrraNyt;
+        "pkg-1.0" = _hwrraNyt;
         "default" = _hwrraNyt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

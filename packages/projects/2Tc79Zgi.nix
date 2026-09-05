@@ -23,6 +23,7 @@ let
         "minecraft-1.21.6" = _2BsISGpc;
         "minecraft-1.21.7" = _2BsISGpc;
         "minecraft-1.21.8" = _87GRyETX;
+        "pkg-1" = _2BsISGpc;
         "default" = _2BsISGpc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

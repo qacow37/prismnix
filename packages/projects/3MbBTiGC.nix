@@ -16,6 +16,8 @@ let
         "MhzOjzfV" = _MhzOjzfV;
         "forge-1.19.2" = _pr9PhTxX;
         "neoforge-1.20.1" = _MhzOjzfV;
+        "pkg-1.19.2-4.2.0.5" = _pr9PhTxX;
+        "pkg-1.20.1-5.0.0-build.2-beta" = _MhzOjzfV;
         "default" = _MhzOjzfV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

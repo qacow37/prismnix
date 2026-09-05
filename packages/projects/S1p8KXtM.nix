@@ -46,6 +46,13 @@ let
         "vrGPNTpT" = _vrGPNTpT;
         "forge-1.20.1" = _hEuUVTPE;
         "neoforge-1.21.1" = _vrGPNTpT;
+        "pkg-1.0" = _syM8VNym;
+        "pkg-1.1" = _bWuDchcH;
+        "pkg-1.1a" = _dttyZ2mB;
+        "pkg-1.2" = _L8Wfh5Ao;
+        "pkg-1.3" = _hEuUVTPE;
+        "pkg-1.3.0" = _RaPhqmPu;
+        "pkg-1.3.1" = _vrGPNTpT;
         "default" = _vrGPNTpT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

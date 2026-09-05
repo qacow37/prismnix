@@ -27,6 +27,10 @@ let
         "8xtK2fK3" = _8xtK2fK3;
         "yaKIRtXH" = _yaKIRtXH;
         "forge-1.20.1" = _yaKIRtXH;
+        "pkg-2.5" = _TANSWK9l;
+        "pkg-2.6" = _Gfpu9lmv;
+        "pkg-2.7" = _8xtK2fK3;
+        "pkg-1.0.0" = _yaKIRtXH;
         "default" = _yaKIRtXH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

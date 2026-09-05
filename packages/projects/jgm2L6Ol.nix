@@ -9,6 +9,7 @@ let
     in {
         "rcJMN2Jc" = _rcJMN2Jc;
         "minecraft-26.2" = _rcJMN2Jc;
+        "pkg-26.2" = _rcJMN2Jc;
         "default" = _rcJMN2Jc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

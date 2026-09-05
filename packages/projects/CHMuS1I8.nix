@@ -9,6 +9,7 @@ let
     in {
         "cRWkWVw9" = _cRWkWVw9;
         "minecraft-1.21.1" = _cRWkWVw9;
+        "pkg-1" = _cRWkWVw9;
         "default" = _cRWkWVw9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

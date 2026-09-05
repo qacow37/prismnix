@@ -16,6 +16,8 @@ let
         "ECTUTi9O" = _ECTUTi9O;
         "forge-1.20.1" = _HNhAgV8B;
         "neoforge-1.21.1" = _ECTUTi9O;
+        "pkg-1.0.0" = _HNhAgV8B;
+        "pkg-1.1.3" = _ECTUTi9O;
         "default" = _ECTUTi9O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -332,6 +332,7 @@ let
         "minecraft-1.21.10" = _djuKbLis;
         "minecraft-25w41a" = _djuKbLis;
         "minecraft-25w42a" = _djuKbLis;
+        "pkg-Universal" = _djuKbLis;
         "default" = _djuKbLis;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

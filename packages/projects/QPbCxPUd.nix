@@ -28,6 +28,8 @@ let
         "KAWpOtFh" = _KAWpOtFh;
         "forge-1.19.2" = _gsR90GXq;
         "neoforge-1.21.1" = _KAWpOtFh;
+        "pkg-0.1.0" = _fiA7hHNj;
+        "pkg-0.2.0" = _KAWpOtFh;
         "default" = _KAWpOtFh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

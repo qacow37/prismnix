@@ -21,6 +21,9 @@ let
         "a3MET26e" = _a3MET26e;
         "azl8HIBs" = _azl8HIBs;
         "forge-1.20.1" = _azl8HIBs;
+        "pkg-1.0.0" = _9ZTnRtPw;
+        "pkg-1.0.1" = _a3MET26e;
+        "pkg-1.1.0" = _azl8HIBs;
         "default" = _azl8HIBs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

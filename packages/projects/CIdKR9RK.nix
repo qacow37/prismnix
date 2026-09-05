@@ -18,6 +18,7 @@ let
         "minecraft-1.20.6" = _FERLy8EU;
         "minecraft-1.21" = _FERLy8EU;
         "minecraft-1.21.1" = _FERLy8EU;
+        "pkg-1.0" = _FERLy8EU;
         "default" = _FERLy8EU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

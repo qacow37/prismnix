@@ -16,6 +16,7 @@ let
         "4YZUS083" = _4YZUS083;
         "fabric-1.21.10" = _FcSufxUG;
         "fabric-1.21.11" = _4YZUS083;
+        "pkg-1.0.0" = _4YZUS083;
         "default" = _4YZUS083;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

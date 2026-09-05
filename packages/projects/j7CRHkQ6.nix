@@ -46,6 +46,13 @@ let
         "SIPuXN84" = _SIPuXN84;
         "forge-1.20.1" = _6aRMLtaH;
         "neoforge-1.21.1" = _SIPuXN84;
+        "pkg-4.2-8.7.1-SNAPSHOT" = _KX2lO44A;
+        "pkg-4.3-8.8-SNAPSHOT" = _h12wuHsd;
+        "pkg-1.20.1-4.5-8.8" = _VTMvZLKV;
+        "pkg-1.21.1-4.5-8.8" = _qLlNL8OZ;
+        "pkg-1.21.1-4.5.1-8.8" = _cKImQcd6;
+        "pkg-1.20.1-4.6-8.9" = _6aRMLtaH;
+        "pkg-1.21.1-4.6-8.9" = _SIPuXN84;
         "default" = _SIPuXN84;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

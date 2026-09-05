@@ -15,6 +15,8 @@ let
         "xAURKHq1" = _xAURKHq1;
         "qzyrLDod" = _qzyrLDod;
         "forge-1.20.1" = _qzyrLDod;
+        "pkg-1.0.0" = _xAURKHq1;
+        "pkg-1.2.0" = _qzyrLDod;
         "default" = _qzyrLDod;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

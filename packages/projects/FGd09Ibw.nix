@@ -33,6 +33,10 @@ let
         "minecraft-1.19.1" = _wmGELMRB;
         "minecraft-1.19.2" = _wmGELMRB;
         "minecraft-1.21.7" = _ag0sAsba;
+        "pkg-1.20.1" = _UtbG1080;
+        "pkg-1.21.4" = _sJPPcmb1;
+        "pkg-1.19.2" = _wmGELMRB;
+        "pkg-1.21.7" = _ag0sAsba;
         "default" = _ag0sAsba;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -55,6 +55,7 @@ let
         "minecraft-1.21.4" = _TgBRVSwg;
         "minecraft-1.21.5" = _TgBRVSwg;
         "minecraft-1.21.6" = _TgBRVSwg;
+        "pkg-1.0" = _TgBRVSwg;
         "default" = _TgBRVSwg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

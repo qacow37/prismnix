@@ -9,6 +9,7 @@ let
     in {
         "L7ARALE1" = _L7ARALE1;
         "fabric-1.16.5" = _L7ARALE1;
+        "pkg-1.0.2" = _L7ARALE1;
         "default" = _L7ARALE1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

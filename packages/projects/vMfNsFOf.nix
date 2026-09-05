@@ -10,6 +10,7 @@ let
         "l0MUvWrw" = _l0MUvWrw;
         "minecraft-1.21.10" = _l0MUvWrw;
         "minecraft-1.21.11" = _l0MUvWrw;
+        "pkg-1.0" = _l0MUvWrw;
         "default" = _l0MUvWrw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _1MRaCPuS;
         "forge-1.20.5" = _1MRaCPuS;
         "forge-1.20.6" = _1MRaCPuS;
+        "pkg-1.20.1-1.0.0" = _1MRaCPuS;
         "default" = _1MRaCPuS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

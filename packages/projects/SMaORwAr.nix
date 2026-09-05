@@ -18,6 +18,8 @@ let
         "fabric-1.20" = _KtDDJDdb;
         "fabric-1.20.1-rc1" = _KtDDJDdb;
         "fabric-1.20.1" = _KtDDJDdb;
+        "pkg-1.0.0" = _NKaA2Adf;
+        "pkg-1.1.0" = _KtDDJDdb;
         "default" = _KtDDJDdb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

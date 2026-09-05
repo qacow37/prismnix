@@ -21,6 +21,9 @@ let
         "ZcRPSxUK" = _ZcRPSxUK;
         "kWhHLwap" = _kWhHLwap;
         "forge-1.20.1" = _kWhHLwap;
+        "pkg-1.1.5" = _5UN9jbOY;
+        "pkg-1.1.8" = _ZcRPSxUK;
+        "pkg-1.1.9" = _kWhHLwap;
         "default" = _kWhHLwap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

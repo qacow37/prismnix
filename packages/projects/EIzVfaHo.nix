@@ -40,6 +40,9 @@ let
         "hkxD64Ve" = _hkxD64Ve;
         "neoforge-1.21.1" = _LKu512sR;
         "fabric-1.21.1" = _hkxD64Ve;
+        "pkg-0.1" = _rMAg6B5t;
+        "pkg-0.1.1" = _uLNd9v2M;
+        "pkg-0.1.2" = _hkxD64Ve;
         "default" = _hkxD64Ve;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

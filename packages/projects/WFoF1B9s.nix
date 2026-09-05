@@ -34,6 +34,10 @@ let
         "kOC36IGy" = _kOC36IGy;
         "fabric-1.21.1" = _kOC36IGy;
         "fabric-1.20.1" = _ygR7qJsD;
+        "pkg-1.0.0" = _StDvNV2i;
+        "pkg-1.0.1" = _amPoiDRb;
+        "pkg-1.0.2" = _XtivHwCp;
+        "pkg-1.1.0" = _kOC36IGy;
         "default" = _kOC36IGy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

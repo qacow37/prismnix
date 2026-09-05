@@ -21,6 +21,9 @@ let
         "oURpRhA4" = _oURpRhA4;
         "XkDEAlBn" = _XkDEAlBn;
         "fabric-1.20.1" = _XkDEAlBn;
+        "pkg-1.2.1" = _Eurd2fGT;
+        "pkg-1.2.1.1" = _oURpRhA4;
+        "pkg-1.2.2" = _XkDEAlBn;
         "default" = _XkDEAlBn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

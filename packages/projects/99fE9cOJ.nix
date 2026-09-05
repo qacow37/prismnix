@@ -107,6 +107,9 @@ let
         "optifine-1.21.9" = _rPK2UrOs;
         "optifine-1.21.10" = _rPK2UrOs;
         "optifine-1.21.11" = _rPK2UrOs;
+        "pkg-0.10" = _otck3lfE;
+        "pkg-0.20" = _rPK2UrOs;
+        "pkg-0.30" = _XDF6d0oa;
         "default" = _XDF6d0oa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

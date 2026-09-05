@@ -15,6 +15,8 @@ let
         "pXLT7Iau" = _pXLT7Iau;
         "YKzITmJt" = _YKzITmJt;
         "fabric-25w14craftmine" = _YKzITmJt;
+        "pkg-1.0" = _pXLT7Iau;
+        "pkg-1.1" = _YKzITmJt;
         "default" = _YKzITmJt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

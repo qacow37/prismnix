@@ -15,6 +15,8 @@ let
         "fVQkKaP2" = _fVQkKaP2;
         "tZMrs1hh" = _tZMrs1hh;
         "forge-1.12.2" = _tZMrs1hh;
+        "pkg-1.0.0" = _fVQkKaP2;
+        "pkg-1.2.0" = _tZMrs1hh;
         "default" = _tZMrs1hh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

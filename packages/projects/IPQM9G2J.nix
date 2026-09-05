@@ -16,6 +16,7 @@ let
         "JGP9FAoh" = _JGP9FAoh;
         "neoforge-1.21.1" = _Bp43Vh52;
         "forge-1.20.1" = _JGP9FAoh;
+        "pkg-1.0.0" = _JGP9FAoh;
         "default" = _JGP9FAoh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

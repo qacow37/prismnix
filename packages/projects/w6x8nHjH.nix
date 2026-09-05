@@ -15,6 +15,8 @@ let
         "Gpb52z4i" = _Gpb52z4i;
         "bf6YiW1X" = _bf6YiW1X;
         "forge-1.8.9" = _bf6YiW1X;
+        "pkg-1.8.9-1.0" = _Gpb52z4i;
+        "pkg-1.8.9-1.1" = _bf6YiW1X;
         "default" = _bf6YiW1X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

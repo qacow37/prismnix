@@ -15,6 +15,8 @@ let
         "iUCikgCQ" = _iUCikgCQ;
         "WOaoAnsf" = _WOaoAnsf;
         "forge-1.20.1" = _WOaoAnsf;
+        "pkg-1.0.0" = _iUCikgCQ;
+        "pkg-2.0.0" = _WOaoAnsf;
         "default" = _WOaoAnsf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "3PNIucHS" = _3PNIucHS;
         "youwkItE" = _youwkItE;
         "fabric-1.21.1" = _youwkItE;
+        "pkg-1.1.4" = _3PNIucHS;
+        "pkg-1.1.8" = _youwkItE;
         "default" = _youwkItE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

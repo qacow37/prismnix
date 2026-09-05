@@ -40,6 +40,12 @@ let
         "SI1HFomp" = _SI1HFomp;
         "babric-b1.7.3" = _SI1HFomp;
         "fabric-b1.7.3" = _SI1HFomp;
+        "pkg-0.1.0" = _UNElMWJP;
+        "pkg-0.2.0" = _esJBlC4G;
+        "pkg-0.2.1" = _E8Nl5Omv;
+        "pkg-0.3.0" = _tKxZ6A57;
+        "pkg-0.3.1" = _nLHzGDkF;
+        "pkg-0.3.2" = _SI1HFomp;
         "default" = _SI1HFomp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

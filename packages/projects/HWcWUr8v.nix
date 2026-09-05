@@ -221,6 +221,27 @@ let
         "purpur-26.1.2" = _8MEGCdDa;
         "neoforge-1.21.4" = _N969JuAs;
         "forge-1.21.4" = _NYsjNSYJ;
+        "pkg-1.0.0+1.21.10" = _nQkvUqd2;
+        "pkg-1.1.0+1.21.10" = _Vu2JyZ9M;
+        "pkg-1.2.0a+1.21.10" = _LhwYhfby;
+        "pkg-1.2.1a+1.21.x" = _d1HkP0iQ;
+        "pkg-1.3.0+1.21.x" = _Wk7mwNDb;
+        "pkg-1.4.0+1.21.x" = _dcneHryO;
+        "pkg-1.4.0+1.21.x-fabric-alpha" = _WAxD3xIs;
+        "pkg-1.4.0+1.21.x-quilt-alpha" = _N6d6SIX8;
+        "pkg-1.4.1+1.21.x" = _8vHpo96H;
+        "pkg-1.4.2+1.21.x" = _u5w3vMLI;
+        "pkg-1.4.3+26.x.x" = _ItQSJ2PH;
+        "pkg-1.4.4+26.x.x" = _K9h3zNaM;
+        "pkg-1.4.5+26.x.x" = _xQDuZBiI;
+        "pkg-1.4.5+1.21.x" = _i6m5RJTs;
+        "pkg-1.5.0+26.x.x" = _98YHalhI;
+        "pkg-1.5.0+1.21.x" = _XHnVoUEi;
+        "pkg-1.6.0+1.21.x" = _E7YjT3Ax;
+        "pkg-1.6.0+26.x.x" = _8MEGCdDa;
+        "pkg-1.6.0+fabric-1.21.x" = _YbQS6FTL;
+        "pkg-1.6.0+neoforge-1.21.x" = _N969JuAs;
+        "pkg-1.6.0+forge-1.21.x" = _NYsjNSYJ;
         "default" = _NYsjNSYJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

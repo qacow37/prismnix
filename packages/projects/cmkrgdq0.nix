@@ -31,6 +31,8 @@ let
         "minecraft-1.21.2" = _IPs3fmBw;
         "minecraft-1.21.3" = _IPs3fmBw;
         "minecraft-1.21.4" = _IPs3fmBw;
+        "pkg-1.0.0" = _V3kLkkKb;
+        "pkg-1.0.1" = _IPs3fmBw;
         "default" = _IPs3fmBw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

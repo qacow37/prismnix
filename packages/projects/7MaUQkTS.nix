@@ -15,6 +15,8 @@ let
         "bLNy373L" = _bLNy373L;
         "9ZSKao5C" = _9ZSKao5C;
         "minecraft-1.21.11" = _9ZSKao5C;
+        "pkg-V0.1" = _bLNy373L;
+        "pkg-v1" = _9ZSKao5C;
         "default" = _9ZSKao5C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

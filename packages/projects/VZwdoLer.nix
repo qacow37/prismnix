@@ -46,6 +46,11 @@ let
         "n8PUZTEF" = _n8PUZTEF;
         "forge-1.20.1" = _n8PUZTEF;
         "fabric-1.20.1" = _ONN2RViA;
+        "pkg-1.0.0" = _WJLxBB6S;
+        "pkg-1.0.1" = _DXTFhHv5;
+        "pkg-1.0.2" = _IU0thyuI;
+        "pkg-1.1.0" = _7lRqzP9w;
+        "pkg-1.2.0" = _n8PUZTEF;
         "default" = _n8PUZTEF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

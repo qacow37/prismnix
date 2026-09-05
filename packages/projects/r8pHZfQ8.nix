@@ -15,6 +15,8 @@ let
         "CT6WZGE3" = _CT6WZGE3;
         "3YCCDNg7" = _3YCCDNg7;
         "forge-1.20.1" = _3YCCDNg7;
+        "pkg-4.0" = _CT6WZGE3;
+        "pkg-3.0" = _3YCCDNg7;
         "default" = _3YCCDNg7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

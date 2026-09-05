@@ -76,6 +76,8 @@ let
         "optifine-1.21.5" = _IBAdcxrN;
         "optifine-1.21.6" = _IBAdcxrN;
         "optifine-1.21.7" = _IBAdcxrN;
+        "pkg-1.0.0" = _kZVl2HVk;
+        "pkg-2.0.0" = _IBAdcxrN;
         "default" = _IBAdcxrN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

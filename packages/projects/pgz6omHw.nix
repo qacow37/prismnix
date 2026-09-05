@@ -16,6 +16,8 @@ let
         "UogA3StE" = _UogA3StE;
         "fabric-1.19.2" = _1YdTCMEH;
         "fabric-1.20.1" = _UogA3StE;
+        "pkg-1.0-1.19.2" = _1YdTCMEH;
+        "pkg-1.0-1.20.1" = _UogA3StE;
         "default" = _UogA3StE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

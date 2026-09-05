@@ -24,6 +24,8 @@ let
         "fabric-26.1.1" = _SUQDEKfA;
         "fabric-26.1.2" = _SUQDEKfA;
         "fabric-26.2" = _uVAcxmJS;
+        "pkg-1.0.0" = _PtFSJwH7;
+        "pkg-1.0.1" = _SUQDEKfA;
         "default" = _SUQDEKfA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

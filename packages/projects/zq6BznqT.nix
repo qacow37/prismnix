@@ -113,6 +113,20 @@ let
         "modloader-b1.7.3" = _GPJe1ljT;
         "fabric-b1.7.3" = _3w2pLFt4;
         "babric-b1.7.3" = _3w2pLFt4;
+        "pkg-1.1.0" = _opLgxZo4;
+        "pkg-1.2.0" = _OvrmKnm0;
+        "pkg-1.3.0" = _b8ziL9DP;
+        "pkg-1.0.0" = _HJ8ADsq4;
+        "pkg-1.4.0" = _YTH3CjXi;
+        "pkg-1.6.0" = _Ket5EqdF;
+        "pkg-1.7.0" = _ojxWLn34;
+        "pkg-1.7.1" = _ZxAnFDcF;
+        "pkg-1.9.0" = _BGVzgKPA;
+        "pkg-1.9.1" = _IhoOWyJB;
+        "pkg-1.10.0" = _4sJqYI2m;
+        "pkg-1.11.0" = _b7PR6a4n;
+        "pkg-1.12.0" = _TRFMPXtn;
+        "pkg-1.12.1" = _3w2pLFt4;
         "default" = _3w2pLFt4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

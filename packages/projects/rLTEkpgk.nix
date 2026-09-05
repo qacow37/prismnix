@@ -22,6 +22,7 @@ let
         "neoforge-1.20.6" = _tt5SLrhe;
         "neoforge-1.21" = _tt5SLrhe;
         "neoforge-1.21.1" = _tt5SLrhe;
+        "pkg-1.0.0" = _tt5SLrhe;
         "default" = _tt5SLrhe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

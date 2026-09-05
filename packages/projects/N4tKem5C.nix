@@ -112,6 +112,15 @@ let
         "3HQt8x3v" = _3HQt8x3v;
         "datapack-1.21.1" = _UYNZU0Je;
         "neoforge-1.21.1" = _3HQt8x3v;
+        "pkg-Release" = _oejUvEJs;
+        "pkg-Update-1" = _ecTP96uT;
+        "pkg-Update-2" = _8WZFiUfk;
+        "pkg-Update-3" = _PWyb84Ro;
+        "pkg-Update-4" = _uUPTdrdR;
+        "pkg-Update-5" = _v83Botht;
+        "pkg-Update-6" = _JcYks02A;
+        "pkg-Update-7" = _djmUkn8b;
+        "pkg-Update-8" = _3HQt8x3v;
         "default" = _3HQt8x3v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

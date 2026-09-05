@@ -57,6 +57,15 @@ let
         "r4f449IT" = _r4f449IT;
         "856EM88M" = _856EM88M;
         "fabric-1.21" = _856EM88M;
+        "pkg-1.0.0" = _55ip51OQ;
+        "pkg-2.0" = _Ft6qjwh7;
+        "pkg-2.1" = _JDOix7vy;
+        "pkg-2.2" = _ghPKcBTv;
+        "pkg-3.0" = _zh0wd0Xd;
+        "pkg-3.1" = _JlURkk7V;
+        "pkg-3.2" = _ZJ9yMOIT;
+        "pkg-3.3" = _r4f449IT;
+        "pkg-3.4" = _856EM88M;
         "default" = _856EM88M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

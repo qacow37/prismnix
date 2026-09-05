@@ -16,6 +16,7 @@ let
         "iris-1.21.6" = _YD9fCZMn;
         "iris-1.21.7" = _YD9fCZMn;
         "iris-1.21.8" = _YD9fCZMn;
+        "pkg-1" = _YD9fCZMn;
         "default" = _YD9fCZMn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

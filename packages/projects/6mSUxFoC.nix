@@ -43,6 +43,8 @@ let
         "neoforge-26.1" = _siMaEaqu;
         "neoforge-26.1.1" = _siMaEaqu;
         "neoforge-26.1.2" = _siMaEaqu;
+        "pkg-1.0.0" = _vj33HXmz;
+        "pkg-1.0.5" = _siMaEaqu;
         "default" = _siMaEaqu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

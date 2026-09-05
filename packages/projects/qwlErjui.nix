@@ -15,6 +15,8 @@ let
         "3v7ubDH0" = _3v7ubDH0;
         "w6PLWT2p" = _w6PLWT2p;
         "minecraft-24w14potato" = _w6PLWT2p;
+        "pkg-1.0" = _3v7ubDH0;
+        "pkg-1.1" = _w6PLWT2p;
         "default" = _w6PLWT2p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

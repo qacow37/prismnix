@@ -15,6 +15,8 @@ let
         "AdxLo7YZ" = _AdxLo7YZ;
         "lmvZra4x" = _lmvZra4x;
         "forge-1.20.1" = _lmvZra4x;
+        "pkg-1+mod" = _AdxLo7YZ;
+        "pkg-2+mod" = _lmvZra4x;
         "default" = _lmvZra4x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

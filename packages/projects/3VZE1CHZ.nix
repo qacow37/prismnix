@@ -34,6 +34,10 @@ let
         "SRhYueVp" = _SRhYueVp;
         "fabric-1.20.1" = _LrPzGeWD;
         "forge-1.20.1" = _SRhYueVp;
+        "pkg-1.0" = _6yRGM6wo;
+        "pkg-1.1" = _OS0JRVWG;
+        "pkg-1.2-fabric" = _LrPzGeWD;
+        "pkg-1.1-forge" = _SRhYueVp;
         "default" = _SRhYueVp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

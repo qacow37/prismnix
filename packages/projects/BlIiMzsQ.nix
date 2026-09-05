@@ -16,6 +16,8 @@ let
         "7IhNSZWa" = _7IhNSZWa;
         "minecraft-1.20.1" = _7IhNSZWa;
         "minecraft-1.21.1" = _7IhNSZWa;
+        "pkg-1.0" = _SqaaYRIR;
+        "pkg-2.0" = _7IhNSZWa;
         "default" = _7IhNSZWa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "Gros8hjP" = _Gros8hjP;
         "fabric-1.21.1" = _Gros8hjP;
         "neoforge-1.21.1" = _Ymx4kHax;
+        "pkg-1.0.0" = _TD0BLn1K;
+        "pkg-1.0.1" = _Gros8hjP;
         "default" = _Gros8hjP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

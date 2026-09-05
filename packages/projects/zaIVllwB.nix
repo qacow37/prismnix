@@ -156,6 +156,8 @@ let
         "minecraft-1.21.9" = _wdtiMP2k;
         "minecraft-1.21.10" = _wdtiMP2k;
         "minecraft-1.21.11" = _wdtiMP2k;
+        "pkg-v1.0" = _RcsDeRuo;
+        "pkg-v1.0.1" = _wdtiMP2k;
         "default" = _wdtiMP2k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

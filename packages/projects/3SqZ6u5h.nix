@@ -165,6 +165,24 @@ let
         "U2MljoD8" = _U2MljoD8;
         "9kX6Cbxe" = _9kX6Cbxe;
         "forge-1.7.10" = _9kX6Cbxe;
+        "pkg-1.2.6b" = _H6hhSjqx;
+        "pkg-1.2.7.b50" = _zKctGPxF;
+        "pkg-1.2.7.b51" = _6hxbL5Or;
+        "pkg-1.2.7.b52" = _kqlcfzEa;
+        "pkg-1.2.7.b53" = _qvBPY4uG;
+        "pkg-1.2.8.b54" = _t6N153Dy;
+        "pkg-1.2.7.b55" = _DxXyPvKh;
+        "pkg-1.2.8.b56" = _HflG5Mcv;
+        "pkg-1.2.8.b57" = _U6CnkiU0;
+        "pkg-1.2.9.b58" = _Ipe8cIXB;
+        "pkg-combat.2.0.b19" = _Ewuy1HoU;
+        "pkg-1.2.9.b59" = _jDAN2ru8;
+        "pkg-combat.2.0.b20" = _yFu1waM5;
+        "pkg-1.3.b15" = _m5ddDJwE;
+        "pkg-1.3.b16" = _eGbxkoSM;
+        "pkg-1.3.b17" = _fOgroi5q;
+        "pkg-1.3.b18" = _8nV9xMHK;
+        "pkg-1.3.b19" = _9kX6Cbxe;
         "default" = _9kX6Cbxe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "wNHtLCSy" = _wNHtLCSy;
         "forge-1.18.2" = _qfe1Xpkp;
         "forge-1.20.1" = _wNHtLCSy;
+        "pkg-1.0.0" = _LxjevSQF;
+        "pkg-1.0.1" = _wNHtLCSy;
         "default" = _wNHtLCSy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

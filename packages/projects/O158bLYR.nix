@@ -39,6 +39,12 @@ let
         "Juif3630" = _Juif3630;
         "SlftDV3O" = _SlftDV3O;
         "fabric-1.20.1" = _SlftDV3O;
+        "pkg-0.0.0+1.20.1" = _bsofumlV;
+        "pkg-1.0.0+1.20.1" = _NV0TN2SF;
+        "pkg-1.1.0+1.20.1" = _UHoVBWwQ;
+        "pkg-1.2.0+1.20.1" = _eVgtlUZI;
+        "pkg-1.2.1+1.20.1" = _Juif3630;
+        "pkg-1.2.2+1.20.1" = _SlftDV3O;
         "default" = _SlftDV3O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -38,6 +38,10 @@ let
         "quilt-1.19.4" = _HEIHQiP3;
         "quilt-1.20" = _HEIHQiP3;
         "quilt-1.20.1" = _HEIHQiP3;
+        "pkg-1" = _NWEvjB9E;
+        "pkg-1+mod" = _LW4QZ0FE;
+        "pkg-2" = _sc3hJitX;
+        "pkg-2+mod" = _HEIHQiP3;
         "default" = _HEIHQiP3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

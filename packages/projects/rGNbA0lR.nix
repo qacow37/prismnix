@@ -35,6 +35,7 @@ let
         "fabric-26.1" = _LYSEZFRS;
         "fabric-26.1.1" = _LYSEZFRS;
         "fabric-26.2" = _xlGYIcTn;
+        "pkg-1.0.0" = _xlGYIcTn;
         "default" = _xlGYIcTn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

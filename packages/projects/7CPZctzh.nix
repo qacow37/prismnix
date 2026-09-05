@@ -23,6 +23,8 @@ let
         "fabric-1.20.6" = _jaOpUutr;
         "forge-1.20" = _NWD04VeL;
         "forge-1.20.1" = _NWD04VeL;
+        "pkg-1.0.1" = _jaOpUutr;
+        "pkg-1.0.2" = _NWD04VeL;
         "default" = _NWD04VeL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "d33029LP" = _d33029LP;
         "neoforge-1.21.1" = _d33029LP;
+        "pkg-1.6-neoforge-1.0.1" = _d33029LP;
         "default" = _d33029LP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -255,6 +255,10 @@ let
         "spigot-1.20.2" = _AoU328ko;
         "spigot-1.20.3" = _AoU328ko;
         "spigot-1.20.4" = _AoU328ko;
+        "pkg-1.4.1" = _AoU328ko;
+        "pkg-1.4.2" = _sPO2cgmf;
+        "pkg-1.4.3" = _8S9gxfvL;
+        "pkg-1.4.4" = _inP4vrAG;
         "default" = _inP4vrAG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

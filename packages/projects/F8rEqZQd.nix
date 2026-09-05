@@ -28,6 +28,10 @@ let
         "yNSiP60V" = _yNSiP60V;
         "minecraft-1.20" = _yNSiP60V;
         "minecraft-1.20.1" = _yNSiP60V;
+        "pkg-1.0" = _S0hDbbNi;
+        "pkg-1.1" = _kpx3pH8p;
+        "pkg-1.2" = _ZX8xQzSZ;
+        "pkg-1.3" = _yNSiP60V;
         "default" = _yNSiP60V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

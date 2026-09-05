@@ -9,6 +9,7 @@ let
     in {
         "oLbOi407" = _oLbOi407;
         "forge-1.20.1" = _oLbOi407;
+        "pkg-1.0" = _oLbOi407;
         "default" = _oLbOi407;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

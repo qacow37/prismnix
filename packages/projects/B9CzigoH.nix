@@ -39,6 +39,12 @@ let
         "QLgFx90i" = _QLgFx90i;
         "b8T3qbTa" = _b8T3qbTa;
         "minecraft-1.21.1" = _b8T3qbTa;
+        "pkg-1" = _2ckrny0e;
+        "pkg-2" = _RSRnQb2T;
+        "pkg-3" = _zrIwqvYB;
+        "pkg-4" = _pWO44VG8;
+        "pkg-4_Hotfix" = _QLgFx90i;
+        "pkg-5" = _b8T3qbTa;
         "default" = _b8T3qbTa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

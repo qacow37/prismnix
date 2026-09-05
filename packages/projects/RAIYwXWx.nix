@@ -9,6 +9,7 @@ let
     in {
         "qmtteQmL" = _qmtteQmL;
         "minecraft-1.20.1" = _qmtteQmL;
+        "pkg-masterpiece_0211_a" = _qmtteQmL;
         "default" = _qmtteQmL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "Yb0g0Lga" = _Yb0g0Lga;
         "minecraft-1.21.1" = _Yb0g0Lga;
         "minecraft-1.20.1" = _Yb0g0Lga;
+        "pkg-1.0" = _OESKQuT4;
+        "pkg-1.5" = _Yb0g0Lga;
         "default" = _Yb0g0Lga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

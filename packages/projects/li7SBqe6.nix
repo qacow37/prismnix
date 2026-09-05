@@ -94,6 +94,7 @@ let
         "optifine-1.21.9" = _J5JYVkvE;
         "optifine-1.21.10" = _J5JYVkvE;
         "optifine-1.21.11" = _J5JYVkvE;
+        "pkg-1.0" = _J5JYVkvE;
         "default" = _J5JYVkvE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

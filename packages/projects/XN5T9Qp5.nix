@@ -52,6 +52,13 @@ let
         "datapack-1.21.11" = _pid6FEBh;
         "fabric-1.21.11" = _Ba7xvE3C;
         "quilt-1.21.11" = _Ba7xvE3C;
+        "pkg-1.0.1" = _GGAfceoS;
+        "pkg-1.0.2" = _b2I1yoMX;
+        "pkg-1.0.3" = _GqWvMfLj;
+        "pkg-1.1" = _chwlc9QU;
+        "pkg-1.2" = _La7M23XR;
+        "pkg-1.3" = _pid6FEBh;
+        "pkg-1.3+mod" = _Ba7xvE3C;
         "default" = _Ba7xvE3C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

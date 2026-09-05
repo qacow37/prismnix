@@ -21,6 +21,8 @@ let
         "CWtUtcYF" = _CWtUtcYF;
         "rIEpFETy" = _rIEpFETy;
         "forge-1.20.1" = _rIEpFETy;
+        "pkg-1.0.0" = _CWtUtcYF;
+        "pkg-1.0.1" = _rIEpFETy;
         "default" = _rIEpFETy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

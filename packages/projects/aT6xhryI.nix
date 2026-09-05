@@ -39,6 +39,7 @@ let
         "minecraft-1.20.4" = _FdwdRRAG;
         "minecraft-1.20.5" = _FdwdRRAG;
         "minecraft-1.20.6" = _FdwdRRAG;
+        "pkg-0.3.0" = _FdwdRRAG;
         "default" = _FdwdRRAG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

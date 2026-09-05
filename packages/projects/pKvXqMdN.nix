@@ -130,6 +130,7 @@ let
         "minecraft-26.1-snapshot-10" = _gsxwUQlU;
         "minecraft-26.1-snapshot-11" = _gsxwUQlU;
         "minecraft-26.1-pre-1" = _gsxwUQlU;
+        "pkg-1.0.0" = _gsxwUQlU;
         "default" = _gsxwUQlU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

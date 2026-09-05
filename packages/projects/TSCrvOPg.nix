@@ -21,6 +21,9 @@ let
         "3sCClDEf" = _3sCClDEf;
         "TxNXPuKE" = _TxNXPuKE;
         "forge-1.20.1" = _TxNXPuKE;
+        "pkg-2.1.0" = _tpXwKepn;
+        "pkg-2.1.1" = _3sCClDEf;
+        "pkg-2.2.0" = _TxNXPuKE;
         "default" = _TxNXPuKE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

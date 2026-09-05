@@ -16,6 +16,7 @@ let
         "dmV3nIT1" = _dmV3nIT1;
         "minecraft-1.21.11" = _ZA6spFwe;
         "minecraft-26.2" = _dmV3nIT1;
+        "pkg-0.1" = _dmV3nIT1;
         "default" = _dmV3nIT1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

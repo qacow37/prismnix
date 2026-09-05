@@ -33,6 +33,11 @@ let
         "kP5KOa9t" = _kP5KOa9t;
         "mc188HXP" = _mc188HXP;
         "forge-1.19.4" = _mc188HXP;
+        "pkg-1.0.0" = _SSlhu7hW;
+        "pkg-1.1.0" = _wxfpeD6F;
+        "pkg-1.2.0" = _qsP1gDPB;
+        "pkg-1.3.0" = _kP5KOa9t;
+        "pkg-1.4.0" = _mc188HXP;
         "default" = _mc188HXP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

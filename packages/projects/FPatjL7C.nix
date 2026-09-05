@@ -62,6 +62,10 @@ let
         "bukkit-1.21.9" = _QqYE7j8X;
         "bukkit-1.21.10" = _QqYE7j8X;
         "bukkit-1.21.11" = _QqYE7j8X;
+        "pkg-1.8" = _2hUwHSgf;
+        "pkg-1.9-SNAPSHOT" = _6dd9SUkq;
+        "pkg-2.0-SNAPSHOT" = _UIKB6riy;
+        "pkg-2.2" = _QqYE7j8X;
         "default" = _QqYE7j8X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

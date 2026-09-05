@@ -15,6 +15,8 @@ let
         "jytR2UAH" = _jytR2UAH;
         "g8icbA63" = _g8icbA63;
         "forge-1.20.1" = _g8icbA63;
+        "pkg-1.0.0" = _jytR2UAH;
+        "pkg-1.1.0" = _g8icbA63;
         "default" = _g8icbA63;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

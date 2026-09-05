@@ -22,6 +22,7 @@ let
         "forge-1.20.1" = _YGvQ7DOr;
         "quilt-1.20" = _YGvQ7DOr;
         "quilt-1.20.1" = _YGvQ7DOr;
+        "pkg-1.0" = _YGvQ7DOr;
         "default" = _YGvQ7DOr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

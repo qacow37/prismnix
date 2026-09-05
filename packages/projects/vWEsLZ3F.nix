@@ -9,6 +9,7 @@ let
     in {
         "cEGS55Mu" = _cEGS55Mu;
         "neoforge-1.21.1" = _cEGS55Mu;
+        "pkg-0.0.2" = _cEGS55Mu;
         "default" = _cEGS55Mu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

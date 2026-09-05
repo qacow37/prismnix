@@ -19,6 +19,8 @@ let
         "vanilla-1.19.2" = _ICXUPGbM;
         "vanilla-1.19.3" = _ICXUPGbM;
         "vanilla-1.19.4" = _ICXUPGbM;
+        "pkg-1.2.0" = _pHCNd24Y;
+        "pkg-1.3.0" = _ICXUPGbM;
         "default" = _ICXUPGbM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

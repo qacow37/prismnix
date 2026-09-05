@@ -16,6 +16,8 @@ let
         "rcOTtuqu" = _rcOTtuqu;
         "forge-1.7.10" = _uEVbAomH;
         "forge-1.10.2" = _rcOTtuqu;
+        "pkg-1.7.10-1.1.3" = _uEVbAomH;
+        "pkg-1.10.2-2.2.3-beta" = _rcOTtuqu;
         "default" = _rcOTtuqu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

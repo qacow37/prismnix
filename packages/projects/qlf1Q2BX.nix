@@ -28,6 +28,10 @@ let
         "jVOe9SMX" = _jVOe9SMX;
         "datapack-1.20.2" = _15cla3Bz;
         "fabric-1.20.2" = _jVOe9SMX;
+        "pkg-2.0" = _TJred8R2;
+        "pkg-2.1" = _punGn3qb;
+        "pkg-0.0.1" = _15cla3Bz;
+        "pkg-0.0.2" = _jVOe9SMX;
         "default" = _jVOe9SMX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

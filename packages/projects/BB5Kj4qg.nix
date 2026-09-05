@@ -9,6 +9,7 @@ let
     in {
         "2dNNuOy4" = _2dNNuOy4;
         "minecraft-1.20.1" = _2dNNuOy4;
+        "pkg-01" = _2dNNuOy4;
         "default" = _2dNNuOy4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

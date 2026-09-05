@@ -38,6 +38,8 @@ let
         "purpur-1.21.9" = _wvun869K;
         "purpur-1.21.10" = _wvun869K;
         "purpur-1.21.11" = _wvun869K;
+        "pkg-1.0" = _KigyE40Z;
+        "pkg-2.0" = _wvun869K;
         "default" = _wvun869K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

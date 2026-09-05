@@ -31,6 +31,8 @@ let
         "neoforge-1.21.1" = _MOrXnGs2;
         "quilt-1.21.1" = _MOrXnGs2;
         "datapack-1.21.1" = _NLEH2sRN;
+        "pkg-1.0.0" = _jsR46wqM;
+        "pkg-2.0.0" = _NLEH2sRN;
         "default" = _NLEH2sRN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

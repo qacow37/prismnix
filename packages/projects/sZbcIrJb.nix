@@ -15,6 +15,8 @@ let
         "vjh1OwMP" = _vjh1OwMP;
         "Ucq7afTi" = _Ucq7afTi;
         "neoforge-1.21.1" = _Ucq7afTi;
+        "pkg-1.2.5" = _vjh1OwMP;
+        "pkg-1.3.0" = _Ucq7afTi;
         "default" = _Ucq7afTi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

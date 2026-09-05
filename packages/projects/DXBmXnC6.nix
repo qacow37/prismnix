@@ -51,6 +51,14 @@ let
         "gCGqo62d" = _gCGqo62d;
         "VspNFspQ" = _VspNFspQ;
         "forge-1.20.1" = _VspNFspQ;
+        "pkg-1.1.0" = _HDb1F8xD;
+        "pkg-1.3.0" = _ZZ3pr9FC;
+        "pkg-1.4.0" = _cdP3dc2E;
+        "pkg-1.5.0" = _Hwi80anl;
+        "pkg-1.5.1" = _4jPhsTEF;
+        "pkg-1.5.2" = _y6b1BBZR;
+        "pkg-1.6.0" = _gCGqo62d;
+        "pkg-1.7.0" = _VspNFspQ;
         "default" = _VspNFspQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

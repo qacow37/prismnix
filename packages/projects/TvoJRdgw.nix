@@ -21,6 +21,9 @@ let
         "JvSXhvC4" = _JvSXhvC4;
         "ZpAPbCnp" = _ZpAPbCnp;
         "forge-1.7.10" = _ZpAPbCnp;
+        "pkg-1.1.5" = _RXkinEZk;
+        "pkg-1.2.0" = _JvSXhvC4;
+        "pkg-1.2.1" = _ZpAPbCnp;
         "default" = _ZpAPbCnp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

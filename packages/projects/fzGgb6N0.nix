@@ -21,6 +21,9 @@ let
         "4dARHhhR" = _4dARHhhR;
         "NTXVdUI1" = _NTXVdUI1;
         "neoforge-1.21.1" = _NTXVdUI1;
+        "pkg-0.1.2" = _j9waVFUP;
+        "pkg-0.1.3" = _4dARHhhR;
+        "pkg-0.1.4" = _NTXVdUI1;
         "default" = _NTXVdUI1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

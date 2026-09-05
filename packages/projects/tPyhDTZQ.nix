@@ -10,6 +10,7 @@ let
         "ebwvVtKi" = _ebwvVtKi;
         "minecraft-1.20" = _ebwvVtKi;
         "minecraft-1.20.1" = _ebwvVtKi;
+        "pkg-1.20.1" = _ebwvVtKi;
         "default" = _ebwvVtKi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

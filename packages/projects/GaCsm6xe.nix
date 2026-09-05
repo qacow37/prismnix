@@ -22,6 +22,9 @@ let
         "nKRVElD5" = _nKRVElD5;
         "minecraft-1.21.4" = _mGiPRLw7;
         "minecraft-1.21.11" = _nKRVElD5;
+        "pkg-1" = _V1laNCSi;
+        "pkg-2" = _mGiPRLw7;
+        "pkg-1.21.8" = _nKRVElD5;
         "default" = _nKRVElD5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -25,6 +25,8 @@ let
         "minecraft-26.1" = _SrwspSVG;
         "minecraft-26.1.1" = _SrwspSVG;
         "minecraft-26.1.2" = _SrwspSVG;
+        "pkg-0.0.1" = _JVAGEcd7;
+        "pkg-0.0.2" = _SrwspSVG;
         "default" = _SrwspSVG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

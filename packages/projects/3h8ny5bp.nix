@@ -27,6 +27,10 @@ let
         "YdRgcyMO" = _YdRgcyMO;
         "QMulcpIu" = _QMulcpIu;
         "forge-1.20.1" = _QMulcpIu;
+        "pkg-2.11.2" = _zX3sIWNc;
+        "pkg-3.12.2" = _R8YmX49N;
+        "pkg-3.13.0" = _YdRgcyMO;
+        "pkg-3.13.1" = _QMulcpIu;
         "default" = _QMulcpIu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

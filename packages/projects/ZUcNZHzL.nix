@@ -31,6 +31,7 @@ let
         "iris-26.1.1" = _CuNf4bhz;
         "iris-26.1.2" = _CuNf4bhz;
         "iris-26.2" = _CuNf4bhz;
+        "pkg-1.0" = _CuNf4bhz;
         "default" = _CuNf4bhz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

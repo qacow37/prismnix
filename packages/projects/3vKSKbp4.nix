@@ -26,6 +26,8 @@ let
         "fabric-1.21.2" = _NehpP9li;
         "fabric-1.21.3" = _NehpP9li;
         "fabric-1.21.4" = _NehpP9li;
+        "pkg-1.0.0" = _qIMboIrK;
+        "pkg-1.0.1" = _NehpP9li;
         "default" = _NehpP9li;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

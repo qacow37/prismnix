@@ -29,6 +29,8 @@ let
         "fabric-1.19.4" = _jEhwMSJS;
         "fabric-1.20" = _Vgs0Ogkf;
         "fabric-1.20.1" = _Vgs0Ogkf;
+        "pkg-1.1.3" = _Vgs0Ogkf;
+        "pkg-1.1.2" = _jEhwMSJS;
         "default" = _Vgs0Ogkf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

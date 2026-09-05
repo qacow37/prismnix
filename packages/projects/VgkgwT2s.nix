@@ -9,6 +9,7 @@ let
     in {
         "ELzmAMi7" = _ELzmAMi7;
         "paper-1.21.11" = _ELzmAMi7;
+        "pkg-1.0.0" = _ELzmAMi7;
         "default" = _ELzmAMi7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

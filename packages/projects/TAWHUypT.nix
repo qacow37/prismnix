@@ -10,6 +10,7 @@ let
         "ME2tTRnk" = _ME2tTRnk;
         "minecraft-1.20" = _ME2tTRnk;
         "minecraft-1.20.1" = _ME2tTRnk;
+        "pkg-1.0" = _ME2tTRnk;
         "default" = _ME2tTRnk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

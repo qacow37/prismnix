@@ -15,6 +15,8 @@ let
         "e65zjV97" = _e65zjV97;
         "jWvPwAWA" = _jWvPwAWA;
         "minecraft-1.21.1" = _jWvPwAWA;
+        "pkg-Nuit-v1" = _e65zjV97;
+        "pkg-Nuit-v1.1" = _jWvPwAWA;
         "default" = _jWvPwAWA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

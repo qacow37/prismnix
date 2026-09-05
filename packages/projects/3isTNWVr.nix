@@ -680,6 +680,12 @@ let
         "optifine-26.2-rc-1" = _TuWriT0u;
         "optifine-26.2-rc-2" = _TuWriT0u;
         "optifine-26.2" = _TuWriT0u;
+        "pkg-0.2" = _2hB8mfgW;
+        "pkg-0.3" = _4Kj0bKUs;
+        "pkg-0.4" = _FjZ3YcKs;
+        "pkg-0.5" = _sfhlzmAv;
+        "pkg-0.6" = _t3qHpQWW;
+        "pkg-0.85" = _TuWriT0u;
         "default" = _TuWriT0u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

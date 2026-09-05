@@ -24,6 +24,8 @@ let
         "quilt-1.21.8" = _QcEgMWSn;
         "quilt-1.21.9" = _j391omiq;
         "quilt-1.21.10" = _j391omiq;
+        "pkg-1.21.8-1.0.6" = _QcEgMWSn;
+        "pkg-1.21.10-1.0.6" = _j391omiq;
         "default" = _j391omiq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

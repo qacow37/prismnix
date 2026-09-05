@@ -28,6 +28,10 @@ let
         "FYLwerLI" = _FYLwerLI;
         "forge-1.20.1" = _WE75BEgz;
         "fabric-1.20.1" = _FYLwerLI;
+        "pkg-1.0.3" = _WE75BEgz;
+        "pkg-1.0" = _QRQzmeoP;
+        "pkg-1.0.4" = _XPTtKLJh;
+        "pkg-1.0.5" = _FYLwerLI;
         "default" = _FYLwerLI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

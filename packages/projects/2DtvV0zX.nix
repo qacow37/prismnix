@@ -58,6 +58,14 @@ let
         "1UXF41fX" = _1UXF41fX;
         "neoforge-1.21.1" = _1UXF41fX;
         "forge-1.16.5" = _V6Mb1DIR;
+        "pkg-1.0.0" = _ZwWVWk8o;
+        "pkg-1.0.2" = _GcVfv9jy;
+        "pkg-1.0.3" = _adxiIVbF;
+        "pkg-1.0.5" = _AxcYStaA;
+        "pkg-1.0.7" = _bOfNnctS;
+        "pkg-1.1.0" = _V6Mb1DIR;
+        "pkg-1.1.2" = _HKpS1CYk;
+        "pkg-1.1.6" = _1UXF41fX;
         "default" = _1UXF41fX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

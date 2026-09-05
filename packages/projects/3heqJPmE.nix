@@ -10,6 +10,7 @@ let
         "IKapjbdY" = _IKapjbdY;
         "bukkit-1.20.1" = _IKapjbdY;
         "spigot-1.20.1" = _IKapjbdY;
+        "pkg-1.0" = _IKapjbdY;
         "default" = _IKapjbdY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

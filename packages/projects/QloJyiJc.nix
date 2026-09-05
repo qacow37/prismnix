@@ -50,6 +50,10 @@ let
         "minecraft-26.1.1" = _FYwOKRDr;
         "minecraft-26.1.2" = _FYwOKRDr;
         "minecraft-26.2" = _FYwOKRDr;
+        "pkg-FreshTechnoThePig_v1.0" = _naDvopTG;
+        "pkg-FreshTechnoThePig_v2.0" = _EtMSX0sa;
+        "pkg-FreshTechnoThePig_v2.1" = _JXcTaYrH;
+        "pkg-FreshTechnoThePig_v2.2" = _FYwOKRDr;
         "default" = _FYwOKRDr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

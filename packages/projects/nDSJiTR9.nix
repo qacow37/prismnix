@@ -22,6 +22,8 @@ let
         "HoaXAXZV" = _HoaXAXZV;
         "forge-1.20.1" = _HoaXAXZV;
         "fabric-1.20.1" = _YxsEGZXp;
+        "pkg-1.1" = _YxsEGZXp;
+        "pkg-1.2" = _HoaXAXZV;
         "default" = _HoaXAXZV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

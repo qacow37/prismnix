@@ -18,6 +18,8 @@ let
         "fabric-1.20.1" = _P28LDhbi;
         "forge-1.20.1" = _P28LDhbi;
         "quilt-1.20.1" = _P28LDhbi;
+        "pkg-1.0.0+1.20.1" = _BNudKxDP;
+        "pkg-1.0.0+1.20.1+mod" = _P28LDhbi;
         "default" = _P28LDhbi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

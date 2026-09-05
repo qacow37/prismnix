@@ -10,6 +10,7 @@ let
         "sLPdr0s2" = _sLPdr0s2;
         "forge-1.20.1" = _sLPdr0s2;
         "neoforge-1.20.1" = _sLPdr0s2;
+        "pkg-1.0.0" = _sLPdr0s2;
         "default" = _sLPdr0s2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

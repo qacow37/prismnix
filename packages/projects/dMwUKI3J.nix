@@ -16,6 +16,7 @@ let
         "DIEJNAeC" = _DIEJNAeC;
         "fabric-1.20.1" = _IXSCriRw;
         "forge-1.20.1" = _DIEJNAeC;
+        "pkg-1.0.0-alpha.3" = _DIEJNAeC;
         "default" = _DIEJNAeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

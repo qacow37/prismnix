@@ -128,6 +128,7 @@ let
         "optifine-1.21.9" = _P7UsV4sW;
         "optifine-1.21.10" = _P7UsV4sW;
         "optifine-1.21.11" = _P7UsV4sW;
+        "pkg-1.0" = _P7UsV4sW;
         "default" = _P7UsV4sW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

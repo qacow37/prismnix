@@ -16,6 +16,8 @@ let
         "zIpkFGI8" = _zIpkFGI8;
         "fabric-1.20" = _zIpkFGI8;
         "fabric-1.20.1" = _zIpkFGI8;
+        "pkg-0.0.0" = _kxGd04PN;
+        "pkg-0.0.1" = _zIpkFGI8;
         "default" = _zIpkFGI8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

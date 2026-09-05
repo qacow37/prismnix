@@ -15,6 +15,8 @@ let
         "xTANrPMS" = _xTANrPMS;
         "Adz3G7K4" = _Adz3G7K4;
         "neoforge-1.21.1" = _Adz3G7K4;
+        "pkg-1.0.0" = _xTANrPMS;
+        "pkg-1.0.1" = _Adz3G7K4;
         "default" = _Adz3G7K4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

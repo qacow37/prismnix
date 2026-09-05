@@ -50,6 +50,8 @@ let
         "fabric-1.21.7" = _hDRAch8J;
         "fabric-1.21.8" = _hDRAch8J;
         "fabric-1.21.9" = _hDRAch8J;
+        "pkg-1.0.0" = _ZC9oAh8W;
+        "pkg-1.0.1" = _hDRAch8J;
         "default" = _hDRAch8J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

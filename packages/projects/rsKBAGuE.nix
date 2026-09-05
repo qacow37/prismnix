@@ -33,6 +33,11 @@ let
         "Zeb9vbrJ" = _Zeb9vbrJ;
         "52bIFOWT" = _52bIFOWT;
         "forge-1.20.1" = _52bIFOWT;
+        "pkg-0.1.0" = _evGhI10f;
+        "pkg-0.1.1" = _vngwztr1;
+        "pkg-0.1.2" = _xymmnYzp;
+        "pkg-0.1.3" = _Zeb9vbrJ;
+        "pkg-0.1.3V2" = _52bIFOWT;
         "default" = _52bIFOWT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

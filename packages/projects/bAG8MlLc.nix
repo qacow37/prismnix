@@ -28,6 +28,9 @@ let
         "fabric-1.20.2" = _rzd10uia;
         "fabric-1.20.3" = _rzd10uia;
         "fabric-1.20.4" = _rzd10uia;
+        "pkg-0.4.2" = _st4OKWqJ;
+        "pkg-0.4.3" = _20myz2np;
+        "pkg-0.4.4" = _rzd10uia;
         "default" = _rzd10uia;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

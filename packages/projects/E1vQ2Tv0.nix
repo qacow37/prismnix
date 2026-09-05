@@ -156,6 +156,7 @@ let
         "fabric-26.1" = _MsA5vrod;
         "fabric-26.1.1" = _MsA5vrod;
         "fabric-26.1.2" = _MsA5vrod;
+        "pkg-1.0.0" = _MsA5vrod;
         "default" = _MsA5vrod;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

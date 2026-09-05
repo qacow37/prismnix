@@ -10,6 +10,7 @@ let
         "PFpILIB8" = _PFpILIB8;
         "fabric-1.20.1" = _PFpILIB8;
         "fabric-1.20.2" = _PFpILIB8;
+        "pkg-1.0.0" = _PFpILIB8;
         "default" = _PFpILIB8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

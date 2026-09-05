@@ -12,6 +12,7 @@ let
         "forge-1.18.2" = _Yelu3tOL;
         "forge-1.19.3" = _Yelu3tOL;
         "forge-1.20.1" = _Yelu3tOL;
+        "pkg-1.1.0+1.16.5-1.20.1" = _Yelu3tOL;
         "default" = _Yelu3tOL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

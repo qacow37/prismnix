@@ -112,6 +112,8 @@ let
         "velocity-1.12" = _UEXjIGTE;
         "velocity-1.12.1" = _UEXjIGTE;
         "velocity-1.12.2" = _UEXjIGTE;
+        "pkg-1.0.2" = _ogSvXyc6;
+        "pkg-1.1.0" = _UEXjIGTE;
         "default" = _UEXjIGTE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

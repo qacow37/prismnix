@@ -34,6 +34,11 @@ let
         "e50eIpMV" = _e50eIpMV;
         "neoforge-1.21.1" = _e50eIpMV;
         "forge-1.20.1" = _wE5L8285;
+        "pkg-1.0" = _mOiSp6dd;
+        "pkg-1.0.1" = _onk5C6Df;
+        "pkg-1.1+mc1.21.1-neoforge" = _AeWwr17w;
+        "pkg-1.1+mc1.20.1-forge" = _wE5L8285;
+        "pkg-2.0+mc1.21.1-neoforge" = _e50eIpMV;
         "default" = _e50eIpMV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

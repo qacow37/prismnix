@@ -16,6 +16,8 @@ let
         "urrEFltz" = _urrEFltz;
         "forge-1.16.5" = _Tb49TN9x;
         "forge-1.19.2" = _urrEFltz;
+        "pkg-1.0.1" = _Tb49TN9x;
+        "pkg-2.0.0" = _urrEFltz;
         "default" = _urrEFltz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

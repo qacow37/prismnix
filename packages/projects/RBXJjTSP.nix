@@ -30,6 +30,8 @@ let
         "minecraft-1.21.6" = _lscvkNBN;
         "minecraft-1.21.7" = _lscvkNBN;
         "minecraft-1.21.8" = _lscvkNBN;
+        "pkg-1.20" = _rgWEai21;
+        "pkg-1.21" = _lscvkNBN;
         "default" = _lscvkNBN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

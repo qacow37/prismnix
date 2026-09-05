@@ -15,6 +15,8 @@ let
         "LOUaV42r" = _LOUaV42r;
         "SIPCw6tO" = _SIPCw6tO;
         "forge-1.18.2" = _SIPCw6tO;
+        "pkg-1.18.2-1.0.2" = _LOUaV42r;
+        "pkg-1.1.1" = _SIPCw6tO;
         "default" = _SIPCw6tO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

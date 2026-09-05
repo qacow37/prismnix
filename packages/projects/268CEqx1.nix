@@ -52,6 +52,8 @@ let
         "datapack-1.21.3" = _xRWryTZX;
         "datapack-1.21.4" = _xRWryTZX;
         "datapack-1.21.5" = _xRWryTZX;
+        "pkg-1.0" = _67wo5Fr5;
+        "pkg-1.1" = _Yt5O2grv;
         "default" = _Yt5O2grv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

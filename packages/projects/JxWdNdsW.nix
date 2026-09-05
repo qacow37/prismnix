@@ -10,6 +10,7 @@ let
         "vJmasNc0" = _vJmasNc0;
         "fabric-1.21" = _vJmasNc0;
         "fabric-1.21.1" = _vJmasNc0;
+        "pkg-1.0" = _vJmasNc0;
         "default" = _vJmasNc0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

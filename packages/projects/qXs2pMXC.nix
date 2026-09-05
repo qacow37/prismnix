@@ -16,6 +16,8 @@ let
         "jEx4BK2w" = _jEx4BK2w;
         "fabric-1.20.1" = _jEx4BK2w;
         "fabric-1.20.2" = _jEx4BK2w;
+        "pkg-1.0" = _twzTzRnN;
+        "pkg-1.0.1" = _jEx4BK2w;
         "default" = _jEx4BK2w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

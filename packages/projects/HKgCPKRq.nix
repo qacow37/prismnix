@@ -92,6 +92,7 @@ let
         "spigot-1.21.10" = _vSC7jsAu;
         "spigot-1.21.11" = _vSC7jsAu;
         "forge-1.20.1" = _PDECWy8H;
+        "pkg-1.1.0" = _PDECWy8H;
         "default" = _PDECWy8H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

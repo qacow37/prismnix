@@ -18,6 +18,8 @@ let
         "datapack-1.20.1" = _BSGHUksN;
         "fabric-1.20" = _82AjqGEv;
         "fabric-1.20.1" = _82AjqGEv;
+        "pkg-1.0" = _BSGHUksN;
+        "pkg-1.0+mod" = _82AjqGEv;
         "default" = _82AjqGEv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

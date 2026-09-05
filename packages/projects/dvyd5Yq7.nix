@@ -9,6 +9,7 @@ let
     in {
         "KSX7ngL0" = _KSX7ngL0;
         "fabric-1.20.1" = _KSX7ngL0;
+        "pkg-0.1.0" = _KSX7ngL0;
         "default" = _KSX7ngL0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -12,6 +12,7 @@ let
         "quilt-1.19.1" = _17wKUSJt;
         "quilt-1.19.2" = _17wKUSJt;
         "quilt-1.19.3" = _17wKUSJt;
+        "pkg-1.0.0+1.19" = _17wKUSJt;
         "default" = _17wKUSJt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

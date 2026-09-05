@@ -52,6 +52,14 @@ let
         "tG8E6zT4" = _tG8E6zT4;
         "minecraft-1.21" = _tG8E6zT4;
         "minecraft-1.21.1" = _tG8E6zT4;
+        "pkg-1.0" = _RRdvCgXr;
+        "pkg-1.1" = _8LBo3H4m;
+        "pkg-1.2" = _zor1ui7S;
+        "pkg-1.3" = _mYjI2Yve;
+        "pkg-1.4" = _kawGcJ8f;
+        "pkg-1.5" = _6PeOalgr;
+        "pkg-1.6" = _96cwsNFA;
+        "pkg-1.7" = _tG8E6zT4;
         "default" = _tG8E6zT4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

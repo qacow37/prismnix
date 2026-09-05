@@ -27,6 +27,10 @@ let
         "rGxEbwCV" = _rGxEbwCV;
         "ONlewCOE" = _ONlewCOE;
         "forge-1.20.1" = _ONlewCOE;
+        "pkg-1.0" = _IesflnKE;
+        "pkg-1.1" = _1FED2w6M;
+        "pkg-1.2" = _rGxEbwCV;
+        "pkg-1.2.1" = _ONlewCOE;
         "default" = _ONlewCOE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

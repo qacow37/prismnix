@@ -442,6 +442,10 @@ let
         "quilt-24w44a" = _vFK9x8dG;
         "quilt-24w45a" = _vFK9x8dG;
         "quilt-24w46a" = _vFK9x8dG;
+        "pkg-1.0.0" = _oGF7Z9ad;
+        "pkg-1.0.0+mod" = _zgpU1A5y;
+        "pkg-1.0.1" = _GJYCxClx;
+        "pkg-1.0.1+mod" = _vFK9x8dG;
         "default" = _vFK9x8dG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

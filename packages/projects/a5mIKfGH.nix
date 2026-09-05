@@ -24,6 +24,7 @@ let
         "minecraft-1.21.6" = _Xau1lRxD;
         "minecraft-1.21.7" = _Xau1lRxD;
         "minecraft-1.21.8" = _Xau1lRxD;
+        "pkg-1" = _Xau1lRxD;
         "default" = _Xau1lRxD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

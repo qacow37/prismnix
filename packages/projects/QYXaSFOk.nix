@@ -46,6 +46,11 @@ let
         "glaosxOE" = _glaosxOE;
         "forge-1.20.1" = _glaosxOE;
         "forge-1.19.4" = _QCJYcMeS;
+        "pkg-18.2.0" = _dKOjzzRd;
+        "pkg-18.3.0" = _SgpxM3z6;
+        "pkg-18.4" = _Xg85nj7F;
+        "pkg-18.5" = _N2x5S7kS;
+        "pkg-18.6" = _glaosxOE;
         "default" = _glaosxOE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

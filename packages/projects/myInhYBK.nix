@@ -21,6 +21,7 @@ let
         "9kuYlXRY" = _9kuYlXRY;
         "lg75WfvK" = _lg75WfvK;
         "forge-1.20.1" = _lg75WfvK;
+        "pkg-1.0-SNAPSHOT" = _lg75WfvK;
         "default" = _lg75WfvK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

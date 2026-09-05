@@ -23,6 +23,9 @@ let
         "fabric-1.16.2" = _tt7482ao;
         "fabric-1.20" = _Js43GpJC;
         "fabric-1.20.1" = _Js43GpJC;
+        "pkg-1.0.0" = _hhShQHqI;
+        "pkg-1.0.1" = _tt7482ao;
+        "pkg-1.1.0+fabric-mc1.20" = _Js43GpJC;
         "default" = _Js43GpJC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

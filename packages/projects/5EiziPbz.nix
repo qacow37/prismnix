@@ -39,6 +39,12 @@ let
         "Lf3Wwx83" = _Lf3Wwx83;
         "vssvL15u" = _vssvL15u;
         "neoforge-1.21.1" = _vssvL15u;
+        "pkg-0.0.3" = _4s2j5ykO;
+        "pkg-0.0.5" = _ULfeIGvK;
+        "pkg-0.0.6" = _Az8xicys;
+        "pkg-0.0.7" = _tsDEWApQ;
+        "pkg-1.5.1" = _Lf3Wwx83;
+        "pkg-1.6.0" = _vssvL15u;
         "default" = _vssvL15u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

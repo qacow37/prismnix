@@ -18,6 +18,8 @@ let
         "minecraft-1.17.1" = _Uwdybu2C;
         "minecraft-1.18.2" = _Uwdybu2C;
         "minecraft-1.19.2" = _Uwdybu2C;
+        "pkg-V1.0" = _k4E1fh8g;
+        "pkg-V2.0" = _Uwdybu2C;
         "default" = _Uwdybu2C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

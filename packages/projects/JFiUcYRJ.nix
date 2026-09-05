@@ -46,6 +46,12 @@ let
         "ByuReGv9" = _ByuReGv9;
         "fabric-1.21.1" = _ByuReGv9;
         "neoforge-1.21.1" = _NgBI7MG7;
+        "pkg-1.0" = _2A6kDQhF;
+        "pkg-1.1" = _SVboGKlN;
+        "pkg-1.2" = _68kOCyuF;
+        "pkg-1.3" = _Ob7uEof8;
+        "pkg-1.3.1-neoforge" = _NgBI7MG7;
+        "pkg-1.3.1-fabric" = _ByuReGv9;
         "default" = _ByuReGv9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

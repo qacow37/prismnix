@@ -16,6 +16,8 @@ let
         "mehoNohU" = _mehoNohU;
         "forge-1.19.2" = _cQupLAxi;
         "forge-1.20.1" = _mehoNohU;
+        "pkg-1.0.3" = _cQupLAxi;
+        "pkg-1.0.4" = _mehoNohU;
         "default" = _mehoNohU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

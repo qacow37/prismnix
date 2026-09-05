@@ -17,6 +17,7 @@ let
         "paper-1.21.6" = _3APKaL2v;
         "paper-1.21.7" = _3APKaL2v;
         "paper-1.21.8" = _3APKaL2v;
+        "pkg-1.0" = _3APKaL2v;
         "default" = _3APKaL2v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

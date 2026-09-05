@@ -18,6 +18,7 @@ let
         "fabric-1.19" = _J7LElTQD;
         "fabric-1.19.1" = _J7LElTQD;
         "fabric-1.19.2" = _J7LElTQD;
+        "pkg-1.0.0" = _J7LElTQD;
         "default" = _J7LElTQD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

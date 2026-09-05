@@ -9,6 +9,7 @@ let
     in {
         "UlnIYarz" = _UlnIYarz;
         "forge-1.18.2" = _UlnIYarz;
+        "pkg-1.0-1.18.2" = _UlnIYarz;
         "default" = _UlnIYarz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

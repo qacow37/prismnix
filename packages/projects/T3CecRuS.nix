@@ -15,6 +15,8 @@ let
         "IPo7v81g" = _IPo7v81g;
         "HLDBIKtJ" = _HLDBIKtJ;
         "neoforge-1.21.1" = _HLDBIKtJ;
+        "pkg-1.0.0" = _IPo7v81g;
+        "pkg-1.0.1" = _HLDBIKtJ;
         "default" = _HLDBIKtJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

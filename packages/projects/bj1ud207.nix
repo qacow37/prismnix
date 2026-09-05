@@ -70,6 +70,7 @@ let
         "minecraft-1.21.11" = _APW7NGSM;
         "minecraft-26.1" = _APW7NGSM;
         "minecraft-26.1.1" = _APW7NGSM;
+        "pkg-0.0.1" = _APW7NGSM;
         "default" = _APW7NGSM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

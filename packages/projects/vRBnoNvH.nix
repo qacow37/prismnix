@@ -27,6 +27,9 @@ let
         "PnpUiQRo" = _PnpUiQRo;
         "K3mpJsic" = _K3mpJsic;
         "forge-1.20.1" = _K3mpJsic;
+        "pkg-1.0.5" = _PnpUiQRo;
+        "pkg-1.0.6" = _hYISHCiv;
+        "pkg-1.0.8" = _K3mpJsic;
         "default" = _K3mpJsic;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

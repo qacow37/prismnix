@@ -45,6 +45,13 @@ let
         "BUsI3ObS" = _BUsI3ObS;
         "dZzWtNPw" = _dZzWtNPw;
         "forge-1.20.1" = _dZzWtNPw;
+        "pkg-1.0.0" = _X7MFdFUW;
+        "pkg-1.0.1" = _MysyyfR9;
+        "pkg-1.0.2" = _Kq0ekMja;
+        "pkg-1.1.0" = _xyeaTA7E;
+        "pkg-1.1.1" = _gieOAETG;
+        "pkg-1.1.2" = _BUsI3ObS;
+        "pkg-1.2.0" = _dZzWtNPw;
         "default" = _dZzWtNPw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

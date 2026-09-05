@@ -21,6 +21,9 @@ let
         "exM9LLEt" = _exM9LLEt;
         "gekpysuC" = _gekpysuC;
         "forge-1.20.1" = _gekpysuC;
+        "pkg-1.2" = _8SQl0BYk;
+        "pkg-1.3" = _exM9LLEt;
+        "pkg-1.4" = _gekpysuC;
         "default" = _gekpysuC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

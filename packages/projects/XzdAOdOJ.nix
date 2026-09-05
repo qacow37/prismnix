@@ -22,6 +22,9 @@ let
         "Wkd64cUQ" = _Wkd64cUQ;
         "fabric-1.20.1" = _ob2kSiVv;
         "fabric-1.21.1" = _Wkd64cUQ;
+        "pkg-1.0.0" = _ob2kSiVv;
+        "pkg-1.0.0+1.21.1" = _McQphWzh;
+        "pkg-1.0.1+1.21.1" = _Wkd64cUQ;
         "default" = _Wkd64cUQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

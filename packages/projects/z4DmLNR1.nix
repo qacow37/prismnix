@@ -18,6 +18,8 @@ let
         "fabric-1.20.1" = _zKRT073G;
         "quilt-1.20" = _zKRT073G;
         "quilt-1.20.1" = _zKRT073G;
+        "pkg-1.0.0" = _GGjoh4tD;
+        "pkg-1.0.1" = _zKRT073G;
         "default" = _zKRT073G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

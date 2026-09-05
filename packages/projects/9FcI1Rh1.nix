@@ -41,6 +41,8 @@ let
         "minecraft-1.19.2" = _VekiIIFD;
         "minecraft-1.19.3" = _VekiIIFD;
         "minecraft-1.19.4" = _VekiIIFD;
+        "pkg-1.0" = _UYrILpcy;
+        "pkg-v2.0" = _VekiIIFD;
         "default" = _VekiIIFD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -11,6 +11,7 @@ let
         "minecraft-1.12" = _GgTofusA;
         "minecraft-1.12.1" = _GgTofusA;
         "minecraft-1.12.2" = _GgTofusA;
+        "pkg-1.0" = _GgTofusA;
         "default" = _GgTofusA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

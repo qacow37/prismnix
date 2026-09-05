@@ -15,6 +15,8 @@ let
         "mpWff49i" = _mpWff49i;
         "wyJdXTWu" = _wyJdXTWu;
         "fabric-1.21.11" = _wyJdXTWu;
+        "pkg-1.0.0" = _mpWff49i;
+        "pkg-1.0.1" = _wyJdXTWu;
         "default" = _wyJdXTWu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

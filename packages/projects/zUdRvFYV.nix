@@ -15,6 +15,8 @@ let
         "EC9d1OsM" = _EC9d1OsM;
         "czDtmNK7" = _czDtmNK7;
         "forge-1.20.1" = _czDtmNK7;
+        "pkg-1.0.0" = _EC9d1OsM;
+        "pkg-1.0.4" = _czDtmNK7;
         "default" = _czDtmNK7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

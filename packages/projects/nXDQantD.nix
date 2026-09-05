@@ -16,6 +16,8 @@ let
         "TllNbRUk" = _TllNbRUk;
         "minecraft-1.20.1" = _AN1eqryY;
         "minecraft-1.21.1" = _TllNbRUk;
+        "pkg-1.0.0" = _AN1eqryY;
+        "pkg-1.0.1" = _TllNbRUk;
         "default" = _TllNbRUk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

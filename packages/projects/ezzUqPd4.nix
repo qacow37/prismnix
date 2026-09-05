@@ -22,6 +22,8 @@ let
         "optifine-1.19" = _dHXqonkh;
         "optifine-1.20" = _dHXqonkh;
         "optifine-1.21" = _kwkM9Dyo;
+        "pkg-1.0.0" = _dHXqonkh;
+        "pkg-1.0.1" = _kwkM9Dyo;
         "default" = _kwkM9Dyo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

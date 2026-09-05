@@ -28,6 +28,8 @@ let
         "ZPLBb4tr" = _ZPLBb4tr;
         "forge-1.20.1" = _9IBPJ2A0;
         "neoforge-1.21.1" = _ZPLBb4tr;
+        "pkg-1.0.0" = _JzWdgG7S;
+        "pkg-1.0.1" = _ZPLBb4tr;
         "default" = _ZPLBb4tr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

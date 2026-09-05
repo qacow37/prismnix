@@ -9,6 +9,7 @@ let
     in {
         "OpIScVf1" = _OpIScVf1;
         "forge-1.12.2" = _OpIScVf1;
+        "pkg-1.1.6" = _OpIScVf1;
         "default" = _OpIScVf1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -34,6 +34,9 @@ let
         "Fjc38CTC" = _Fjc38CTC;
         "forge-1.20.1" = _Fjc38CTC;
         "neoforge-1.21.1" = _jxoy0feV;
+        "pkg-1.0" = _i54Qxds8;
+        "pkg-1.2" = _jxoy0feV;
+        "pkg-2.0" = _Fjc38CTC;
         "default" = _Fjc38CTC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

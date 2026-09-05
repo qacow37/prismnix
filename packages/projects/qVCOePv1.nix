@@ -11,6 +11,7 @@ let
         "minecraft-1.21.2" = _HQIakad7;
         "minecraft-1.21.3" = _HQIakad7;
         "minecraft-1.21.4" = _HQIakad7;
+        "pkg-1.0" = _HQIakad7;
         "default" = _HQIakad7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

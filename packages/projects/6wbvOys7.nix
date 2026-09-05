@@ -59,6 +59,15 @@ let
         "datapack-1.20.1" = _pVtM13g0;
         "datapack-1.20.4" = _pVtM13g0;
         "forge-1.20.1" = _Xa5wTlqv;
+        "pkg-V1-Ceres-Add-on" = _hFx6WTHw;
+        "pkg-V1-Mimas-Add-on" = _K4sb4PUU;
+        "pkg-BV2-Thermal-Compat" = _RCHWrcKE;
+        "pkg-BV1-Mekanism-Compat" = _IIHB29UW;
+        "pkg-BV1-Thermal-and-Mekanism-Compat" = _GIAwpDTt;
+        "pkg-BV1.3-Thermal-Compat" = _WqZMA7Jw;
+        "pkg-BV1.1-Thermal-and-Mekanism-Cpat" = _3bRn4bVX;
+        "pkg-BV1.1-Mekanism-Compat" = _Xa5wTlqv;
+        "pkg-V1.1-Ceres-Add-on" = _pVtM13g0;
         "default" = _pVtM13g0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -207,6 +207,20 @@ let
         "folia-26.1.1" = _ujzZ1xJ4;
         "folia-26.1.2" = _ujzZ1xJ4;
         "folia-26.2" = _ujzZ1xJ4;
+        "pkg-3.6.3" = _3dm3P6NY;
+        "pkg-3.6.4" = _bN3OCosl;
+        "pkg-3.6.5" = _cfyseuAq;
+        "pkg-3.6.6" = _lvse2krj;
+        "pkg-3.6.7" = _24aSXKsR;
+        "pkg-3.6.8" = _fR2vbyAY;
+        "pkg-3.6.9" = _qppjVMZp;
+        "pkg-3.7.0" = _gpoTpxDU;
+        "pkg-4.0.0" = _RFswn1dx;
+        "pkg-4.1.0" = _GIkSo6X3;
+        "pkg-4.2.0" = _RF380c1f;
+        "pkg-4.3.0" = _7aHeYpSN;
+        "pkg-4.3.0-legacy" = _mYs2fo1e;
+        "pkg-4.4.0" = _ujzZ1xJ4;
         "default" = _ujzZ1xJ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

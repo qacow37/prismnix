@@ -22,6 +22,8 @@ let
         "pBlnih8P" = _pBlnih8P;
         "forge-1.18.2" = _MZojKaLn;
         "fabric-1.18.2" = _pBlnih8P;
+        "pkg-1.0" = _pBlnih8P;
+        "pkg-1.0+1" = _MZojKaLn;
         "default" = _pBlnih8P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

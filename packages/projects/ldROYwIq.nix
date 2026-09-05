@@ -10,6 +10,7 @@ let
         "712jEozE" = _712jEozE;
         "fabric-1.20.1" = _712jEozE;
         "forge-1.20.1" = _712jEozE;
+        "pkg-1.0.0" = _712jEozE;
         "default" = _712jEozE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -58,6 +58,15 @@ let
         "oAsBAvls" = _oAsBAvls;
         "forge-1.20.1" = _oAsBAvls;
         "forge-1.20" = _gOiboM1h;
+        "pkg-.0" = _EfVulpd4;
+        "pkg-.2" = _wHmK3KDE;
+        "pkg-.3" = _qxG8HrHQ;
+        "pkg-1.0" = _5hoMgC8k;
+        "pkg-1.04" = _Upji0ZqV;
+        "pkg-1.05" = _BcTqzu8v;
+        "pkg-1.0.0" = _OMBefPQA;
+        "pkg-1.0.4" = _gOiboM1h;
+        "pkg-1.0.5" = _oAsBAvls;
         "default" = _oAsBAvls;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "y3St0do0" = _y3St0do0;
         "AQCgiv4K" = _AQCgiv4K;
         "neoforge-1.21.1" = _AQCgiv4K;
+        "pkg-1.3.0" = _y3St0do0;
+        "pkg-1.3.1" = _AQCgiv4K;
         "default" = _AQCgiv4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

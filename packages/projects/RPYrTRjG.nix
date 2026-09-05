@@ -27,6 +27,10 @@ let
         "WFDJOBMM" = _WFDJOBMM;
         "FW67ZqiW" = _FW67ZqiW;
         "forge-1.20.1" = _FW67ZqiW;
+        "pkg-1.0.0" = _K06qg27q;
+        "pkg-1.1.0" = _igGYyqFf;
+        "pkg-1.1.1" = _WFDJOBMM;
+        "pkg-1.2.0" = _FW67ZqiW;
         "default" = _FW67ZqiW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

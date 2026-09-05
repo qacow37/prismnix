@@ -120,6 +120,8 @@ let
         "quilt-26.1.1" = _JLDovcWc;
         "quilt-26.1.2" = _JLDovcWc;
         "quilt-26.2" = _JLDovcWc;
+        "pkg-v1.0.0" = _2G6wT0Ez;
+        "pkg-v1.0.0+mod" = _JLDovcWc;
         "default" = _JLDovcWc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -61,6 +61,7 @@ let
         "minecraft-1.21.4-rc2" = _ROFXFyNx;
         "minecraft-1.21.4-rc3" = _ROFXFyNx;
         "minecraft-1.21.4" = _ROFXFyNx;
+        "pkg-1" = _ROFXFyNx;
         "default" = _ROFXFyNx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

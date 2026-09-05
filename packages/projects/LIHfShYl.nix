@@ -16,6 +16,8 @@ let
         "XBeg7tkb" = _XBeg7tkb;
         "minecraft-1.21.8" = _XBeg7tkb;
         "minecraft-1.21.10" = _XBeg7tkb;
+        "pkg-1.0-vanilla_assets" = _vyjJa8ka;
+        "pkg-1.0-rp_compat" = _XBeg7tkb;
         "default" = _XBeg7tkb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

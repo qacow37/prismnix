@@ -63,6 +63,16 @@ let
         "MSHrusLf" = _MSHrusLf;
         "1J28yFbU" = _1J28yFbU;
         "forge-1.20.1" = _1J28yFbU;
+        "pkg-1.6.2" = _QcYddPTB;
+        "pkg-1.V3.7.1.1" = _VNw6B5fz;
+        "pkg-1.7.1.4.2.1.0.0.1" = _AAORrlyx;
+        "pkg-6.7.9" = _ao3sgjAd;
+        "pkg-6.7.9f" = _5eq2Jeh8;
+        "pkg-6.7.9ff" = _d9w16vvU;
+        "pkg-6.7.11" = _UhGV64tk;
+        "pkg-6.7.25" = _LGhsSdXU;
+        "pkg-6.7.27" = _MSHrusLf;
+        "pkg-6.8.1" = _1J28yFbU;
         "default" = _1J28yFbU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

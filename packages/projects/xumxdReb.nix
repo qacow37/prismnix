@@ -14,6 +14,7 @@ let
         "fabric-1.21.3" = _Merhwalo;
         "fabric-1.21.4" = _Merhwalo;
         "fabric-1.21.5" = _Merhwalo;
+        "pkg-1.0.0" = _Merhwalo;
         "default" = _Merhwalo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

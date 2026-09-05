@@ -16,6 +16,8 @@ let
         "yTPcEjT6" = _yTPcEjT6;
         "fabric-1.21.9" = _yTPcEjT6;
         "fabric-1.21.10" = _yTPcEjT6;
+        "pkg-1.0+mc.1.21.9" = _eMAepd4V;
+        "pkg-1.1+mc.1.21.10" = _yTPcEjT6;
         "default" = _yTPcEjT6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

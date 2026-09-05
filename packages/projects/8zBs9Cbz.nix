@@ -61,6 +61,8 @@ let
         "optifine-26.1.1" = _VmWD6ioa;
         "optifine-26.1.2" = _VmWD6ioa;
         "optifine-26.2" = _VmWD6ioa;
+        "pkg-1.0.0" = _hjjZ7J6o;
+        "pkg-1.1" = _VmWD6ioa;
         "default" = _VmWD6ioa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

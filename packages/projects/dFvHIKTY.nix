@@ -22,6 +22,9 @@ let
         "AcPcuL31" = _AcPcuL31;
         "datapack-1.21.1" = _AcPcuL31;
         "minecraft-1.21.1" = _AcPcuL31;
+        "pkg-v1.0" = _7L1Uhl9l;
+        "pkg-v1.1" = _9kX3DIWO;
+        "pkg-v1.2" = _AcPcuL31;
         "default" = _AcPcuL31;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

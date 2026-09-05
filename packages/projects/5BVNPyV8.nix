@@ -16,6 +16,8 @@ let
         "CbRYIUoB" = _CbRYIUoB;
         "fabric-1.20" = _bs2c7dKb;
         "fabric-1.20.1" = _CbRYIUoB;
+        "pkg-1.0" = _bs2c7dKb;
+        "pkg-1.1" = _CbRYIUoB;
         "default" = _CbRYIUoB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

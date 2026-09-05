@@ -41,6 +41,11 @@ let
         "fabric-1.21.6" = _VTCmyTu9;
         "fabric-1.21.7" = _VTCmyTu9;
         "fabric-1.21.8" = _VTCmyTu9;
+        "pkg-2.0.0+1.21-1.21.8" = _ECovzLVe;
+        "pkg-2.1.0+1.21-1.21.1" = _GyrDaP3H;
+        "pkg-2.1.0+1.21.2-1.21.3" = _QzTn7F3a;
+        "pkg-2.1.0+1.21.4-1.21.5" = _Ilx0TFIG;
+        "pkg-2.1.0+1.21.6-1.21.8" = _VTCmyTu9;
         "default" = _VTCmyTu9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

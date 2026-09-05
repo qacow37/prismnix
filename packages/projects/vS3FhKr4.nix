@@ -27,6 +27,10 @@ let
         "cguNasYS" = _cguNasYS;
         "9sQkagdr" = _9sQkagdr;
         "minecraft-1.20.1" = _9sQkagdr;
+        "pkg-0.1" = _4maCRgeP;
+        "pkg-0.2" = _9jR20pq3;
+        "pkg-0.3" = _cguNasYS;
+        "pkg-0.3.1" = _9sQkagdr;
         "default" = _9sQkagdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

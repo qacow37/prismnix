@@ -16,6 +16,8 @@ let
         "59KtbNuL" = _59KtbNuL;
         "forge-1.20.1" = _JVqRxXSI;
         "neoforge-1.21.4" = _59KtbNuL;
+        "pkg-1.0.2" = _JVqRxXSI;
+        "pkg-1.1.0" = _59KtbNuL;
         "default" = _59KtbNuL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

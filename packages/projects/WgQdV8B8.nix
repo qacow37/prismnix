@@ -19,6 +19,7 @@ let
         "fabric-1.21.9" = _hbNIDpie;
         "fabric-1.21.10" = _hbNIDpie;
         "fabric-1.21.11" = _hbNIDpie;
+        "pkg-0.0.14" = _hbNIDpie;
         "default" = _hbNIDpie;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

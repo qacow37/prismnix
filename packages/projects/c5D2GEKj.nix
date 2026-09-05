@@ -51,6 +51,14 @@ let
         "3VurnEZI" = _3VurnEZI;
         "Aec5UUGP" = _Aec5UUGP;
         "fabric-1.21.1" = _Aec5UUGP;
+        "pkg-PPTGA-1.0.1" = _ntB9FYjU;
+        "pkg-PPTGA-1.0.2-1.21.1" = _zJmcABvC;
+        "pkg-PPTGA-1.0.3-1.21.1" = _5w0WxFyi;
+        "pkg-PPTGA-1.0.4-1.21.1" = _iAPI5CXH;
+        "pkg-PPTGA-1.0.5-1.21.1" = _sWcEiPj4;
+        "pkg-PPTGA-1.0.6-1.21.1" = _xR3NN7fE;
+        "pkg-PPTGA-1.0.7-1.21.1" = _3VurnEZI;
+        "pkg-1.0.8" = _Aec5UUGP;
         "default" = _Aec5UUGP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

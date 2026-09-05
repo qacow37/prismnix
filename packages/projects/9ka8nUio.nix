@@ -21,6 +21,7 @@ let
         "minecraft-1.20.5" = _APZ38UeW;
         "minecraft-1.20.6" = _APZ38UeW;
         "minecraft-1.21" = _APZ38UeW;
+        "pkg-1.0" = _APZ38UeW;
         "default" = _APZ38UeW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

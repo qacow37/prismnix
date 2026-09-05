@@ -30,6 +30,7 @@ let
         "minecraft-1.20.6" = _cTa5OImV;
         "minecraft-1.21" = _cTa5OImV;
         "minecraft-1.21.1" = _cTa5OImV;
+        "pkg-1" = _cTa5OImV;
         "default" = _cTa5OImV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

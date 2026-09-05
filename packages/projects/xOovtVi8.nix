@@ -21,6 +21,7 @@ let
         "Vsi1y4Dt" = _Vsi1y4Dt;
         "ZxVJQUY7" = _ZxVJQUY7;
         "forge-1.20.1" = _ZxVJQUY7;
+        "pkg-1.0" = _ZxVJQUY7;
         "default" = _ZxVJQUY7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

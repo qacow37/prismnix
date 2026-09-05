@@ -28,6 +28,10 @@ let
         "iOSlao7R" = _iOSlao7R;
         "neoforge-1.21.1" = _1nu6ZI52;
         "forge-1.20.1" = _iOSlao7R;
+        "pkg-4.4.1-37" = _CV6UXQBi;
+        "pkg-4.4.1-38" = _ZPx7CmrO;
+        "pkg-4.5.0-39" = _1nu6ZI52;
+        "pkg-4.3.0-36b" = _iOSlao7R;
         "default" = _iOSlao7R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

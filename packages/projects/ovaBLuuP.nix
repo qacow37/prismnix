@@ -19,6 +19,8 @@ let
         "fabric-1.20.2" = _preXmCmH;
         "fabric-1.20.3" = _preXmCmH;
         "fabric-1.20.4" = _preXmCmH;
+        "pkg-1.0.0" = _XSn97D7p;
+        "pkg-1.0.1" = _preXmCmH;
         "default" = _preXmCmH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

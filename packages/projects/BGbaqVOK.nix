@@ -45,6 +45,13 @@ let
         "UmwtK1KW" = _UmwtK1KW;
         "1ROEHigX" = _1ROEHigX;
         "neoforge-1.21.1" = _1ROEHigX;
+        "pkg-0.1.0" = _TxLeCnFs;
+        "pkg-0.8" = _sC7HV89S;
+        "pkg-1.0" = _Ht5Tcr5y;
+        "pkg-1.1" = _bvC6slv2;
+        "pkg-1.1.1" = _7fzawWCf;
+        "pkg-1.2.5" = _UmwtK1KW;
+        "pkg-1.3" = _1ROEHigX;
         "default" = _1ROEHigX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

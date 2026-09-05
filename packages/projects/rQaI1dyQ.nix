@@ -64,6 +64,12 @@ let
         "OuptJUap" = _OuptJUap;
         "forge-1.20.1" = _BJg65Fic;
         "neoforge-1.21.1" = _OuptJUap;
+        "pkg-1.0.0" = _u0vIsTCV;
+        "pkg-1.1.2" = _Z6rrD5JN;
+        "pkg-1.2.0" = _WI7L1uT1;
+        "pkg-1.3.1" = _RsM3ym57;
+        "pkg-1.3.5" = _Q28GezP1;
+        "pkg-1.3.6" = _OuptJUap;
         "default" = _OuptJUap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

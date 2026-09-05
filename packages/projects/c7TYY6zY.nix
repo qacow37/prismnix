@@ -94,6 +94,7 @@ let
         "minecraft-1.21.3" = _kWce2APT;
         "minecraft-24w44a" = _kWce2APT;
         "minecraft-24w45a" = _kWce2APT;
+        "pkg-1" = _kWce2APT;
         "default" = _kWce2APT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

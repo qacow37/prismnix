@@ -40,6 +40,12 @@ let
         "ck2DBQl8" = _ck2DBQl8;
         "fabric-1.20.1" = _ck2DBQl8;
         "quilt-1.20.1" = _ck2DBQl8;
+        "pkg-1.0+1.20.1-6" = _ZEII1yRr;
+        "pkg-1.0+1.20.1-7" = _x2N0NGVq;
+        "pkg-1.0+1.20.1-11" = _Bg4z0Ga3;
+        "pkg-1.0+1.20.1-15" = _kF36awMc;
+        "pkg-1.0+1.20.1-18" = _G7gYc139;
+        "pkg-1.0+1.20.1-26" = _ck2DBQl8;
         "default" = _ck2DBQl8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

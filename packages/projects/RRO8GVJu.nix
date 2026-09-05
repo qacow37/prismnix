@@ -10,6 +10,7 @@ let
         "OC9Vgjca" = _OC9Vgjca;
         "forge-1.20.1" = _OC9Vgjca;
         "neoforge-1.20.1" = _OC9Vgjca;
+        "pkg-1.0.0" = _OC9Vgjca;
         "default" = _OC9Vgjca;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

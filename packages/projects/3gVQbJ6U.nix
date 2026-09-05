@@ -16,6 +16,7 @@ let
         "minecraft-26.1.1" = _MPapteuB;
         "minecraft-26.1.2" = _MPapteuB;
         "minecraft-26.2" = _MPapteuB;
+        "pkg-0.1" = _MPapteuB;
         "default" = _MPapteuB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

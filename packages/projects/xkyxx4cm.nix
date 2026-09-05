@@ -28,6 +28,8 @@ let
         "apOsz1Ii" = _apOsz1Ii;
         "neoforge-1.21.1" = _eJTL1E8W;
         "fabric-1.21.1" = _apOsz1Ii;
+        "pkg-0.0.1" = _MPLL5thk;
+        "pkg-0.0.2" = _apOsz1Ii;
         "default" = _apOsz1Ii;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

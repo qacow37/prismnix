@@ -9,6 +9,7 @@ let
     in {
         "wpfiwZCP" = _wpfiwZCP;
         "fabric-1.18.2" = _wpfiwZCP;
+        "pkg-1.0.0" = _wpfiwZCP;
         "default" = _wpfiwZCP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

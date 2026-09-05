@@ -244,6 +244,8 @@ let
         "quilt-1.21.9" = _jicAaGDr;
         "quilt-1.21.10" = _jicAaGDr;
         "quilt-1.21.11" = _jicAaGDr;
+        "pkg-1.0" = _V7Y2Rgup;
+        "pkg-1.0+mod" = _jicAaGDr;
         "default" = _jicAaGDr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

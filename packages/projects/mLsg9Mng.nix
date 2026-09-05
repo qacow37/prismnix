@@ -9,6 +9,7 @@ let
     in {
         "MxAXVupp" = _MxAXVupp;
         "forge-1.20.1" = _MxAXVupp;
+        "pkg-1.20.1-1.4" = _MxAXVupp;
         "default" = _MxAXVupp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

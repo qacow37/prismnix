@@ -15,6 +15,8 @@ let
         "B5z4r48l" = _B5z4r48l;
         "RMZyOkZM" = _RMZyOkZM;
         "forge-1.20.1" = _RMZyOkZM;
+        "pkg-1.0.0" = _B5z4r48l;
+        "pkg-1.0.1" = _RMZyOkZM;
         "default" = _RMZyOkZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

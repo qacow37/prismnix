@@ -21,6 +21,8 @@ let
         "ja193tuK" = _ja193tuK;
         "lh0NuezQ" = _lh0NuezQ;
         "forge-1.18.2" = _lh0NuezQ;
+        "pkg-1.2.4" = _lh0NuezQ;
+        "pkg-1.4.9" = _ja193tuK;
         "default" = _lh0NuezQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

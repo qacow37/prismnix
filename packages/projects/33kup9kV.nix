@@ -16,6 +16,8 @@ let
         "NB6Tl4Ny" = _NB6Tl4Ny;
         "minecraft-1.20" = _NB6Tl4Ny;
         "minecraft-1.20.4" = _NB6Tl4Ny;
+        "pkg-0.1" = _NteI0pow;
+        "pkg-0.2" = _NB6Tl4Ny;
         "default" = _NB6Tl4Ny;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

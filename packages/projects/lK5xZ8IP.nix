@@ -164,6 +164,7 @@ let
         "spigot-1.21.2" = _VwyxXM1S;
         "spigot-1.21.3" = _VwyxXM1S;
         "spigot-1.21.4" = _VwyxXM1S;
+        "pkg-1.0.0" = _VwyxXM1S;
         "default" = _VwyxXM1S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

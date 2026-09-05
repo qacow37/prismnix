@@ -16,6 +16,7 @@ let
         "minecraft-1.19.2" = _vwmMXRlA;
         "minecraft-1.19.3" = _vwmMXRlA;
         "minecraft-1.19.4" = _vwmMXRlA;
+        "pkg-1.0.0" = _vwmMXRlA;
         "default" = _vwmMXRlA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

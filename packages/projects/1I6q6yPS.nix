@@ -21,6 +21,9 @@ let
         "ms3tiaX0" = _ms3tiaX0;
         "DZLRvRCQ" = _DZLRvRCQ;
         "forge-1.20.1" = _DZLRvRCQ;
+        "pkg-1.20.1-1.0.0" = _FgydjvTF;
+        "pkg-1.20.1-1.0.4" = _ms3tiaX0;
+        "pkg-1.20.1-1.0.6" = _DZLRvRCQ;
         "default" = _DZLRvRCQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "XDWveAwJ" = _XDWveAwJ;
         "minecraft-1.20.1" = _XDWveAwJ;
+        "pkg-1.20.1" = _XDWveAwJ;
         "default" = _XDWveAwJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

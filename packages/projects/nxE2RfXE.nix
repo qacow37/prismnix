@@ -40,6 +40,9 @@ let
         "Zpr8GuTr" = _Zpr8GuTr;
         "fabric-1.21.1" = _Rlt9c9kz;
         "neoforge-1.21.1" = _Zpr8GuTr;
+        "pkg-1.0.0" = _QocDzBVB;
+        "pkg-1.0.1" = _Y6MZO8Cg;
+        "pkg-1.1.2" = _Zpr8GuTr;
         "default" = _Zpr8GuTr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

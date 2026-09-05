@@ -55,6 +55,7 @@ let
         "minecraft-26.1.1" = _VfPOOc33;
         "minecraft-26.1.2" = _VfPOOc33;
         "minecraft-26.2" = _VfPOOc33;
+        "pkg-0.0.2" = _VfPOOc33;
         "default" = _VfPOOc33;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

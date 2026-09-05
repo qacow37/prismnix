@@ -22,6 +22,9 @@ let
         "yO6btPZy" = _yO6btPZy;
         "forge-1.20.1" = _U16RgKwy;
         "fabric-1.21.1" = _yO6btPZy;
+        "pkg-1.0.0" = _VMYMoNLl;
+        "pkg-1.1.0" = _U16RgKwy;
+        "pkg-1.1.0-1.21.1" = _yO6btPZy;
         "default" = _yO6btPZy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

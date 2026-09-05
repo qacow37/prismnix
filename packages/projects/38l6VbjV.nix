@@ -16,6 +16,8 @@ let
         "W1Rzdsp2" = _W1Rzdsp2;
         "forge-1.7.10" = _5KrTx0LD;
         "forge-1.8.9" = _W1Rzdsp2;
+        "pkg-Forge-1.7.10-1.0.0" = _5KrTx0LD;
+        "pkg-Forge-1.8.9-1.0.0" = _W1Rzdsp2;
         "default" = _W1Rzdsp2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

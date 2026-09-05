@@ -15,6 +15,8 @@ let
         "r2Q94ReC" = _r2Q94ReC;
         "smRHJT4S" = _smRHJT4S;
         "forge-1.12.2" = _smRHJT4S;
+        "pkg-1.1.1" = _r2Q94ReC;
+        "pkg-1.1.2" = _smRHJT4S;
         "default" = _smRHJT4S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

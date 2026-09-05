@@ -16,6 +16,8 @@ let
         "5Ot2EjCb" = _5Ot2EjCb;
         "datapack-1.18.2" = _ZaTvlRQf;
         "forge-1.18.2" = _5Ot2EjCb;
+        "pkg-0.01" = _ZaTvlRQf;
+        "pkg-0.01+mod" = _5Ot2EjCb;
         "default" = _5Ot2EjCb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

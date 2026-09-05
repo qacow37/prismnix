@@ -9,6 +9,7 @@ let
     in {
         "XY67pD7A" = _XY67pD7A;
         "fabric-1.21.1" = _XY67pD7A;
+        "pkg-1.21.1-1.0" = _XY67pD7A;
         "default" = _XY67pD7A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

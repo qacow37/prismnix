@@ -15,6 +15,8 @@ let
         "JjjgPepl" = _JjjgPepl;
         "AXngxPn0" = _AXngxPn0;
         "forge-1.12.2" = _AXngxPn0;
+        "pkg-1.7.0" = _JjjgPepl;
+        "pkg-1.8.0" = _AXngxPn0;
         "default" = _AXngxPn0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

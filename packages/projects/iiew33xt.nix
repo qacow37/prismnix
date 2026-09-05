@@ -9,6 +9,7 @@ let
     in {
         "lI68KzQj" = _lI68KzQj;
         "neoforge-1.21.1" = _lI68KzQj;
+        "pkg-1.0.0" = _lI68KzQj;
         "default" = _lI68KzQj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

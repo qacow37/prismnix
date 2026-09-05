@@ -21,6 +21,8 @@ let
         "fabric-1.20.4" = _mQ8mVLtI;
         "fabric-1.20.5" = _mQ8mVLtI;
         "fabric-1.20.6" = _mQ8mVLtI;
+        "pkg-1.0.3" = _mZIyboMP;
+        "pkg-1.2.0" = _mQ8mVLtI;
         "default" = _mQ8mVLtI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

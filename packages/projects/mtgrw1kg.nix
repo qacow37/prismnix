@@ -93,6 +93,7 @@ let
         "minecraft-26.2-pre-1" = _j7DEawFL;
         "minecraft-26.2-pre-2" = _j7DEawFL;
         "minecraft-26.2" = _j7DEawFL;
+        "pkg-1.0" = _j7DEawFL;
         "default" = _j7DEawFL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

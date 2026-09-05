@@ -130,6 +130,27 @@ let
         "ObguyNNa" = _ObguyNNa;
         "forge-1.20.1" = _5Iu1imU3;
         "neoforge-1.21.1" = _ObguyNNa;
+        "pkg-0.1.0e" = _2zksHByT;
+        "pkg-0.2.0a-1.20.1" = _8ItiFu7e;
+        "pkg-0.2.5a-1.20.1" = _wbKzLzFZ;
+        "pkg-0.3.0a-1.20.1" = _ddPAUcLV;
+        "pkg-0.3.0b-1.20.1" = _dE9uUXx2;
+        "pkg-0.4.0b-1.20.1" = _Gu8ilkaf;
+        "pkg-0.4.0g-1.21.1" = _N074WzPQ;
+        "pkg-0.5.0a-1.21.1" = _iZM83DxN;
+        "pkg-0.5.1a-1.20.1" = _43D7qbCY;
+        "pkg-0.5.1b-1.20.1" = _npywgT6o;
+        "pkg-0.6.0a-1.21.1" = _Ig5uO2pV;
+        "pkg-0.7.0-1.21.1" = _QeAV9vBp;
+        "pkg-0.7.0a-1.20.1" = _CK7UIOFw;
+        "pkg-0.8.0-1.21.1" = _qyvy5RoX;
+        "pkg-0.8.1-1.21.1" = _2bPw2972;
+        "pkg-0.8.2-1.21.1" = _NHi9rRFq;
+        "pkg-0.8.3-1.21.1" = _9BmdewXG;
+        "pkg-0.7.1-1.20.1" = _dui0hsEd;
+        "pkg-0.8.3h-1.21.1" = _kXcPqBPH;
+        "pkg-0.7.1a-1.20.1" = _5Iu1imU3;
+        "pkg-0.8.3i-1.21.1" = _ObguyNNa;
         "default" = _ObguyNNa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "AnACNPIS" = _AnACNPIS;
         "forge-1.20.1" = _esvCWBy2;
         "neoforge-1.21.1" = _AnACNPIS;
+        "pkg-1.0.0" = _l9bHNKfG;
+        "pkg-1.1.0" = _AnACNPIS;
         "default" = _AnACNPIS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -102,6 +102,8 @@ let
         "spigot-1.21.11" = _upXEIsWr;
         "spigot-26.1" = _upXEIsWr;
         "spigot-26.1.1" = _upXEIsWr;
+        "pkg-1.0" = _CHXhpGDU;
+        "pkg-4.0" = _upXEIsWr;
         "default" = _upXEIsWr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

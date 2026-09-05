@@ -26,6 +26,9 @@ let
         "minecraft-1.19.4" = _hATPVPIm;
         "minecraft-1.20.4" = _hATPVPIm;
         "minecraft-1.20.1" = _hATPVPIm;
+        "pkg-1" = _AmMbMK09;
+        "pkg-1.1" = _kbvfqTPp;
+        "pkg-1.1.1" = _hATPVPIm;
         "default" = _hATPVPIm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

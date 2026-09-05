@@ -9,6 +9,7 @@ let
     in {
         "Qgsb4LSC" = _Qgsb4LSC;
         "forge-1.20.1" = _Qgsb4LSC;
+        "pkg-1.0.0" = _Qgsb4LSC;
         "default" = _Qgsb4LSC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

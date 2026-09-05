@@ -15,6 +15,8 @@ let
         "sUzQyCvs" = _sUzQyCvs;
         "GgWR887R" = _GgWR887R;
         "neoforge-1.21.1" = _GgWR887R;
+        "pkg-1.0.2" = _sUzQyCvs;
+        "pkg-1.0.3" = _GgWR887R;
         "default" = _GgWR887R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

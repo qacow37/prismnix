@@ -14,6 +14,7 @@ let
         "minecraft-1.19.4" = _gdlzolBS;
         "minecraft-1.20.1" = _gdlzolBS;
         "minecraft-1.20.4" = _gdlzolBS;
+        "pkg-alpha-1" = _gdlzolBS;
         "default" = _gdlzolBS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

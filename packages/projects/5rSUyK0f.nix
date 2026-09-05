@@ -43,6 +43,9 @@ let
         "fabric-1.21" = _DNS6F48X;
         "forge-1.20.1" = _Qkgxun0I;
         "neoforge-1.21.1" = _sl3dGA7G;
+        "pkg-1.0.0" = _BY8ZdTVM;
+        "pkg-1.0.1" = _DNS6F48X;
+        "pkg-1.0.2" = _sl3dGA7G;
         "default" = _DNS6F48X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

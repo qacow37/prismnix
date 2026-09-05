@@ -68,6 +68,7 @@ let
         "minecraft-1.21.9" = _saywHLVM;
         "minecraft-1.21.10" = _saywHLVM;
         "minecraft-1.21.11" = _saywHLVM;
+        "pkg-1.0" = _saywHLVM;
         "default" = _saywHLVM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

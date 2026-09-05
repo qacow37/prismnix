@@ -16,6 +16,7 @@ let
         "5BcRis6L" = _5BcRis6L;
         "neoforge-1.21.1" = _HXnh61xn;
         "fabric-1.21.1" = _5BcRis6L;
+        "pkg-1.2.3" = _5BcRis6L;
         "default" = _5BcRis6L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

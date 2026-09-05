@@ -27,6 +27,10 @@ let
         "fTD5n32t" = _fTD5n32t;
         "EoTP0FSe" = _EoTP0FSe;
         "forge-1.20.1" = _EoTP0FSe;
+        "pkg-0.0.2" = _2aqwdm5E;
+        "pkg-0.0.3" = _rfMuEzVq;
+        "pkg-0.0.4" = _fTD5n32t;
+        "pkg-0.0.5" = _EoTP0FSe;
         "default" = _EoTP0FSe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

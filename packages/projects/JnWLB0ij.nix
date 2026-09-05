@@ -110,6 +110,7 @@ let
         "optifine-26.1.1" = _qjdD4hcK;
         "optifine-26.1.2" = _qjdD4hcK;
         "optifine-26.2" = _qjdD4hcK;
+        "pkg-1.0.0" = _qjdD4hcK;
         "default" = _qjdD4hcK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

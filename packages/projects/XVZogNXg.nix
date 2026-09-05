@@ -63,6 +63,16 @@ let
         "dvb3tVEM" = _dvb3tVEM;
         "LUifDxcS" = _LUifDxcS;
         "neoforge-1.21.1" = _LUifDxcS;
+        "pkg-1.0.0" = _zeEuBEt4;
+        "pkg-1.5" = _lfguve0q;
+        "pkg-1.5.1" = _CA7fG43F;
+        "pkg-1.5.2" = _jyasmhtt;
+        "pkg-1.6" = _RaVmvhGz;
+        "pkg-1.6.1" = _VD63BHPR;
+        "pkg-1.6.2" = _TwRSFpVg;
+        "pkg-2.0.0" = _6PUB7AEu;
+        "pkg-2.1.0" = _dvb3tVEM;
+        "pkg-3.0.0" = _LUifDxcS;
         "default" = _LUifDxcS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

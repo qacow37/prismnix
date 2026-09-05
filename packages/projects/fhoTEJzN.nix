@@ -15,6 +15,8 @@ let
         "8xosM9Qs" = _8xosM9Qs;
         "LDtoWym2" = _LDtoWym2;
         "fabric-1.21.11" = _LDtoWym2;
+        "pkg-0.19.3a" = _8xosM9Qs;
+        "pkg-0.19.4" = _LDtoWym2;
         "default" = _LDtoWym2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

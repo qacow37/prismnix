@@ -16,6 +16,8 @@ let
         "rpOm77o6" = _rpOm77o6;
         "forge-1.20.1" = _zHNPJAHW;
         "neoforge-1.21.1" = _rpOm77o6;
+        "pkg-1.0.5+1.20.1" = _zHNPJAHW;
+        "pkg-1.0.6+1.21.1-neoforge" = _rpOm77o6;
         "default" = _rpOm77o6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

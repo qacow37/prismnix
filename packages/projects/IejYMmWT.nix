@@ -113,6 +113,7 @@ let
         "spigot-1.21.9" = _mKZn2GHG;
         "spigot-1.21.10" = _mKZn2GHG;
         "spigot-1.21.11" = _mKZn2GHG;
+        "pkg-1.4" = _mKZn2GHG;
         "default" = _mKZn2GHG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

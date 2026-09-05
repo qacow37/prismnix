@@ -15,6 +15,7 @@ let
         "dEUWke7e" = _dEUWke7e;
         "3QQFEmuC" = _3QQFEmuC;
         "fabric-1.20.1" = _3QQFEmuC;
+        "pkg-0.1-1.20.1" = _3QQFEmuC;
         "default" = _3QQFEmuC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

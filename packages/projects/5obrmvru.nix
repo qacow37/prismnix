@@ -28,6 +28,10 @@ let
         "MGDM2AP8" = _MGDM2AP8;
         "forge-1.20.1" = _MGDM2AP8;
         "neoforge-1.21.1" = _NpiKflVC;
+        "pkg-0.2" = _sP6uw8KE;
+        "pkg-0.3" = _wxP9ZA0o;
+        "pkg-1.4-1.21.1" = _NpiKflVC;
+        "pkg-0.6" = _MGDM2AP8;
         "default" = _MGDM2AP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

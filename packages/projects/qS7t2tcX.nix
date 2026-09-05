@@ -9,6 +9,7 @@ let
     in {
         "6GI72j0N" = _6GI72j0N;
         "minecraft-22w42a" = _6GI72j0N;
+        "pkg-v-1" = _6GI72j0N;
         "default" = _6GI72j0N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

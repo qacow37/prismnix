@@ -17,6 +17,7 @@ let
         "fabric-1.20.1" = _aJKl7pKB;
         "fabric-1.21" = _XMcuMTZr;
         "fabric-1.21.1" = _XMcuMTZr;
+        "pkg-1.0.0" = _XMcuMTZr;
         "default" = _XMcuMTZr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

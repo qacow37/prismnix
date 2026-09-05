@@ -22,6 +22,9 @@ let
         "HpSrSsv3" = _HpSrSsv3;
         "neoforge-26.1.2" = _vDPp4lQ0;
         "neoforge-1.21.1" = _HpSrSsv3;
+        "pkg-26.1.2-2.0.0" = _vDPp4lQ0;
+        "pkg-1.21.1-1.5.3" = _CZ1OdBnA;
+        "pkg-1.21.1-1.6.0" = _HpSrSsv3;
         "default" = _HpSrSsv3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

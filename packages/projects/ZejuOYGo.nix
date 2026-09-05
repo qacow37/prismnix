@@ -11,6 +11,7 @@ let
         "minecraft-1.20.5" = _zlyidIPN;
         "minecraft-1.20.6" = _zlyidIPN;
         "minecraft-1.21" = _zlyidIPN;
+        "pkg-1.0" = _zlyidIPN;
         "default" = _zlyidIPN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

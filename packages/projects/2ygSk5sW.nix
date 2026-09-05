@@ -22,6 +22,9 @@ let
         "1fs4FiOW" = _1fs4FiOW;
         "fabric-1.21.1" = _bDE5NWEP;
         "neoforge-1.21.1" = _1fs4FiOW;
+        "pkg-1.0.0-fabric" = _bDE5NWEP;
+        "pkg-1.0.0-neoforge" = _Jr05GHEr;
+        "pkg-1.0.1-neoforge" = _1fs4FiOW;
         "default" = _1fs4FiOW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

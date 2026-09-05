@@ -21,6 +21,9 @@ let
         "zOBHT49i" = _zOBHT49i;
         "EC0039hw" = _EC0039hw;
         "fabric-1.21.1" = _EC0039hw;
+        "pkg-1.21.1.0" = _tFMjSNgK;
+        "pkg-1.21.1.1" = _zOBHT49i;
+        "pkg-1.21.1.2" = _EC0039hw;
         "default" = _EC0039hw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

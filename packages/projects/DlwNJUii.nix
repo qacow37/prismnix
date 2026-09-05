@@ -69,6 +69,9 @@ let
         "minecraft-1.21.3" = _wNkafeLO;
         "minecraft-1.21.4" = _wNkafeLO;
         "minecraft-1.21.5" = _wNkafeLO;
+        "pkg-2.3" = _hXjZM9ZN;
+        "pkg-2.4" = _sinapELF;
+        "pkg-3" = _wNkafeLO;
         "default" = _wNkafeLO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

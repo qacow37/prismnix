@@ -336,6 +336,10 @@ let
         "quilt-26.1.1" = _ZS4OecmW;
         "quilt-26.1.2" = _ZS4OecmW;
         "quilt-26.2" = _ZS4OecmW;
+        "pkg-Smelted-Leather" = _PcI3kzZ4;
+        "pkg-Smelted-Leather+mod" = _eZ8OB0iF;
+        "pkg-Smelted_Leather" = _MROLzRLT;
+        "pkg-Smelted_Leather+mod" = _ZS4OecmW;
         "default" = _ZS4OecmW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

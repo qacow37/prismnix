@@ -560,6 +560,9 @@ let
         "optifine-26.2-snapshot-5" = _6lmZGZ0H;
         "optifine-26.2-snapshot-6" = _6lmZGZ0H;
         "optifine-26.2-snapshot-7" = _6lmZGZ0H;
+        "pkg-1.1.0" = _8hNusBQl;
+        "pkg-1.2.0" = _bWJMCNcE;
+        "pkg-1.3.0" = _6lmZGZ0H;
         "default" = _6lmZGZ0H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

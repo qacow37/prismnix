@@ -9,6 +9,7 @@ let
     in {
         "xCmtgbUD" = _xCmtgbUD;
         "forge-1.20.1" = _xCmtgbUD;
+        "pkg-1.3.2" = _xCmtgbUD;
         "default" = _xCmtgbUD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

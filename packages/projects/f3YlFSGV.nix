@@ -9,6 +9,7 @@ let
     in {
         "Vs8iNEju" = _Vs8iNEju;
         "fabric-1.21.1" = _Vs8iNEju;
+        "pkg-1.1.0" = _Vs8iNEju;
         "default" = _Vs8iNEju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

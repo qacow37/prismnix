@@ -22,6 +22,8 @@ let
         "iwWchf82" = _iwWchf82;
         "forge-1.7.10" = _eHAKOhJr;
         "forge-1.12.2" = _iwWchf82;
+        "pkg-1.0" = _CggCMgWO;
+        "pkg-1.0(NoMixin)" = _iwWchf82;
         "default" = _iwWchf82;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

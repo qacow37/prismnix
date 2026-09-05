@@ -9,6 +9,7 @@ let
     in {
         "RC3qtDC2" = _RC3qtDC2;
         "forge-1.20.1" = _RC3qtDC2;
+        "pkg-1.0.0" = _RC3qtDC2;
         "default" = _RC3qtDC2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

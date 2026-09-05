@@ -15,6 +15,8 @@ let
         "TWzkTrvr" = _TWzkTrvr;
         "JIha8XmV" = _JIha8XmV;
         "neoforge-1.21.1" = _JIha8XmV;
+        "pkg-1.0.0" = _TWzkTrvr;
+        "pkg-1.0.1" = _JIha8XmV;
         "default" = _JIha8XmV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

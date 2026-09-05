@@ -39,6 +39,8 @@ let
         "vanilla-1.20.6" = _lKWateud;
         "vanilla-1.21" = _lKWateud;
         "vanilla-1.21.1" = _lKWateud;
+        "pkg-1" = _lKWateud;
+        "pkg-2" = _vz0L4dTc;
         "default" = _vz0L4dTc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

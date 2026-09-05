@@ -24,6 +24,8 @@ let
         "fabric-1.20" = _QWlveWh6;
         "fabric-1.20.1" = _QWlveWh6;
         "forge-1.19.2" = _VCvH5BFd;
+        "pkg-1.4.4" = _VCvH5BFd;
+        "pkg-1.5.0" = _QWlveWh6;
         "default" = _QWlveWh6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

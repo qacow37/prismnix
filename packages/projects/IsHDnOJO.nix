@@ -37,6 +37,7 @@ let
         "minecraft-1.21.3" = _MjUEJfLE;
         "minecraft-1.21.4" = _MjUEJfLE;
         "minecraft-1.21.5" = _MjUEJfLE;
+        "pkg-1.0.0" = _MjUEJfLE;
         "default" = _MjUEJfLE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

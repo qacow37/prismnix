@@ -52,6 +52,13 @@ let
         "SEQBA31a" = _SEQBA31a;
         "forge-1.20.1" = _SEQBA31a;
         "forge-1.19.2" = _aWULs1OU;
+        "pkg-1.0.0" = _Ctemiq9d;
+        "pkg-1.0.1" = _aWULs1OU;
+        "pkg-1.0.2" = _IHITBEtY;
+        "pkg-1.0.3" = _7qGqipTM;
+        "pkg-1.0.4" = _o0EPRhyJ;
+        "pkg-1.0.5" = _niUD0Cz9;
+        "pkg-1.0.6" = _SEQBA31a;
         "default" = _SEQBA31a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

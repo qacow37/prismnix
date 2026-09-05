@@ -15,6 +15,7 @@ let
         "minecraft-1.21.3" = _CmQOmPiI;
         "minecraft-1.21.4" = _CmQOmPiI;
         "minecraft-1.21.5" = _CmQOmPiI;
+        "pkg-1.0.0" = _CmQOmPiI;
         "default" = _CmQOmPiI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

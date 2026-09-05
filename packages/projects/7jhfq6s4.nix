@@ -52,6 +52,10 @@ let
         "FIPF4aFu" = _FIPF4aFu;
         "forge-1.20.1" = _BzQn521F;
         "neoforge-1.21.1" = _FIPF4aFu;
+        "pkg-1.01" = _B6YWYInF;
+        "pkg-1.02" = _NW36tkR6;
+        "pkg-1.03" = _1O80j603;
+        "pkg-1.04.0" = _FIPF4aFu;
         "default" = _FIPF4aFu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

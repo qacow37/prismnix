@@ -15,6 +15,8 @@ let
         "h8Ls9YTV" = _h8Ls9YTV;
         "MTcVJD6A" = _MTcVJD6A;
         "minecraft-1.8.9" = _MTcVJD6A;
+        "pkg-7.1.0SE" = _h8Ls9YTV;
+        "pkg-7.1.0" = _MTcVJD6A;
         "default" = _MTcVJD6A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

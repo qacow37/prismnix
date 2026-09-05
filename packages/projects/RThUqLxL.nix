@@ -15,6 +15,8 @@ let
         "wqqMV2VZ" = _wqqMV2VZ;
         "hliMb1mi" = _hliMb1mi;
         "forge-1.8.9" = _hliMb1mi;
+        "pkg-1.0" = _wqqMV2VZ;
+        "pkg-1.1" = _hliMb1mi;
         "default" = _hliMb1mi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "HKmWiIbo" = _HKmWiIbo;
         "minecraft-1.21" = _5VQNLGvD;
         "minecraft-1.21.5" = _HKmWiIbo;
+        "pkg-ResourcePack_1.0_for_1.21" = _5VQNLGvD;
+        "pkg-ResourcePack_1.0_for_1.21.5" = _HKmWiIbo;
         "default" = _HKmWiIbo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

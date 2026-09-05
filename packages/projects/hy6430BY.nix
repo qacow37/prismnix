@@ -9,6 +9,7 @@ let
     in {
         "oGaXTgmQ" = _oGaXTgmQ;
         "forge-1.20.1" = _oGaXTgmQ;
+        "pkg-1.0.0-1.20.1" = _oGaXTgmQ;
         "default" = _oGaXTgmQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

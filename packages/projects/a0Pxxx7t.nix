@@ -113,6 +113,13 @@ let
         "folia-1.21.11" = _2itzZMrk;
         "paper-1.21.11" = _2itzZMrk;
         "purpur-1.21.11" = _2itzZMrk;
+        "pkg-1.0.0+1.21.11" = _Lc4wXug6;
+        "pkg-1.0.1+1.21.11" = _JfhRBdmu;
+        "pkg-1.1.0+1.21.11" = _M0q94GZV;
+        "pkg-1.1.1a1+1.21.11" = _T3n0kk53;
+        "pkg-1.1.1+1.21.11" = _ZCz1oitY;
+        "pkg-1.1.1a2+1.21.11" = _2itzZMrk;
+        "pkg-1.1.1+26.1" = _tskfHzBC;
         "default" = _tskfHzBC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

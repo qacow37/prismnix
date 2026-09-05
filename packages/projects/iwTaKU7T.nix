@@ -45,6 +45,13 @@ let
         "XSnL4eEZ" = _XSnL4eEZ;
         "AK1Azceg" = _AK1Azceg;
         "forge-1.12.2" = _AK1Azceg;
+        "pkg-2.01" = _fcQN5QPA;
+        "pkg-2.02" = _ZO1MSro2;
+        "pkg-2.03" = _hqieMTGs;
+        "pkg-2.04" = _MrzdwiDu;
+        "pkg-2.05" = _VqTnM5xc;
+        "pkg-3.0" = _XSnL4eEZ;
+        "pkg-4.0" = _AK1Azceg;
         "default" = _AK1Azceg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -36,6 +36,7 @@ let
         "fabric-1.20" = _GdheNqEM;
         "fabric-1.20.1" = _GdheNqEM;
         "fabric-1.20.2" = _GdheNqEM;
+        "pkg-0.0.1" = _GdheNqEM;
         "default" = _GdheNqEM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

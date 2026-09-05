@@ -9,6 +9,7 @@ let
     in {
         "L55EKlrV" = _L55EKlrV;
         "minecraft-1.21.1" = _L55EKlrV;
+        "pkg-1.0" = _L55EKlrV;
         "default" = _L55EKlrV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -937,6 +937,14 @@ let
         "spigot-1.17" = _VT17Rdug;
         "spigot-1.17.1" = _VT17Rdug;
         "spigot-26.2" = _VT17Rdug;
+        "pkg-1.1.0" = _FRmZT7lN;
+        "pkg-1.1.1" = _P17qcn18;
+        "pkg-1.1.2" = _CMX8QRd2;
+        "pkg-1.1.3" = _WnSSS7BW;
+        "pkg-1.1.4" = _9mAf1I7R;
+        "pkg-1.1.4.1" = _Z2wpfime;
+        "pkg-1.1.5" = _KcNRsqah;
+        "pkg-1.1.6" = _VT17Rdug;
         "default" = _VT17Rdug;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

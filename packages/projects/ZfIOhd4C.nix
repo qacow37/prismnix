@@ -9,6 +9,7 @@ let
     in {
         "hcvGEXEh" = _hcvGEXEh;
         "forge-1.20.1" = _hcvGEXEh;
+        "pkg-1.0.0" = _hcvGEXEh;
         "default" = _hcvGEXEh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

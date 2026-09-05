@@ -90,6 +90,15 @@ let
         "fabric-1.21.1" = _F5rxjYlt;
         "fabric-1.20.1" = _jc4momLj;
         "neoforge-1.21.1" = _xy6qesWB;
+        "pkg-1.0.0" = _5K2WYewC;
+        "pkg-1.0.1" = _yrDC0Z7k;
+        "pkg-1.0.2" = _ngMJYPTc;
+        "pkg-1.0.3" = _I2iyKzXi;
+        "pkg-1.0.4" = _iL8ESoNs;
+        "pkg-1.0.5" = _NneA5Orz;
+        "pkg-1.0.6" = _F5rxjYlt;
+        "pkg-1.1.0" = _jc4momLj;
+        "pkg-1.0.6-neoforge-port" = _xy6qesWB;
         "default" = _xy6qesWB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

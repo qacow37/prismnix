@@ -40,6 +40,8 @@ let
         "ukGwJVqd" = _ukGwJVqd;
         "neoforge-1.21.4" = _ukGwJVqd;
         "neoforge-1.21.5" = _ukGwJVqd;
+        "pkg-1.0.0.1" = _InchQqt4;
+        "pkg-1.0.0.6" = _ukGwJVqd;
         "default" = _ukGwJVqd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

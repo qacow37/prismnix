@@ -11,6 +11,7 @@ let
         "iris-1.20" = _Y4TfO4vk;
         "iris-1.21" = _Y4TfO4vk;
         "iris-1.21.10" = _Y4TfO4vk;
+        "pkg-1.0.0" = _Y4TfO4vk;
         "default" = _Y4TfO4vk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,10 @@ let
         "B84Fe80F" = _B84Fe80F;
         "forge-1.20.1" = _yUfpnPxM;
         "fabric-1.20.1" = _B84Fe80F;
+        "pkg-1.0.0+1.20.1-forge" = _WNaqymFH;
+        "pkg-1.0.0+1.20.1-fabric" = _6K4cYhAB;
+        "pkg-1.0.1+1.20.1-forge" = _yUfpnPxM;
+        "pkg-1.0.1+1.20.1-fabric" = _B84Fe80F;
         "default" = _B84Fe80F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

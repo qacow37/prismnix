@@ -21,6 +21,9 @@ let
         "J6mXJ0gt" = _J6mXJ0gt;
         "VuTR22ew" = _VuTR22ew;
         "neoforge-1.21.1" = _VuTR22ew;
+        "pkg-1.0.0" = _cJ2NWsDV;
+        "pkg-1.0.1" = _J6mXJ0gt;
+        "pkg-1.0.2" = _VuTR22ew;
         "default" = _VuTR22ew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

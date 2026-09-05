@@ -134,6 +134,8 @@ let
         "optifine-1.20.5" = _w3Pxx3b4;
         "optifine-1.20.6" = _w3Pxx3b4;
         "optifine-1.21" = _w3Pxx3b4;
+        "pkg-1.110" = _zPova4kB;
+        "pkg-1.200" = _w3Pxx3b4;
         "default" = _w3Pxx3b4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

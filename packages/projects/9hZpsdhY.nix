@@ -51,6 +51,14 @@ let
         "iAv2vniC" = _iAv2vniC;
         "eMMiSgMv" = _eMMiSgMv;
         "forge-1.20.1" = _eMMiSgMv;
+        "pkg-0.0.1" = _nl383fFT;
+        "pkg-0.0.2" = _1YmSrRYz;
+        "pkg-0.0.3" = _ZtHaK3Ij;
+        "pkg-0.0.4" = _8Tt5UwCF;
+        "pkg-0.0.5" = _NqTmCJvp;
+        "pkg-0.0.6" = _pcyJjsvJ;
+        "pkg-0.0.7" = _iAv2vniC;
+        "pkg-0.0.8" = _eMMiSgMv;
         "default" = _eMMiSgMv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

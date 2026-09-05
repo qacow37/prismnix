@@ -231,6 +231,8 @@ let
         "purpur-1.21.9" = _Lp24yX7v;
         "purpur-1.21.10" = _Lp24yX7v;
         "purpur-1.21.11" = _Lp24yX7v;
+        "pkg-1.0" = _E9PdofSC;
+        "pkg-1.1" = _Lp24yX7v;
         "default" = _Lp24yX7v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

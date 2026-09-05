@@ -76,6 +76,12 @@ let
         "pyXpTr9Y" = _pyXpTr9Y;
         "fabric-1.21.1" = _pyXpTr9Y;
         "neoforge-1.21.1" = _HKkTJK7Y;
+        "pkg-1.0.0" = _sC35gbUa;
+        "pkg-1.0.1" = _zXeuGDaF;
+        "pkg-1.0.2" = _Yg4FlM8I;
+        "pkg-1.0.3" = _YDXPpVYX;
+        "pkg-1.1.4" = _oIeBnMvu;
+        "pkg-1.1.5" = _pyXpTr9Y;
         "default" = _pyXpTr9Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

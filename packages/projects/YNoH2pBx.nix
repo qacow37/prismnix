@@ -139,6 +139,25 @@ let
         "paper-26.1.1" = _Xcg7uwUB;
         "paper-26.1.2" = _Xcg7uwUB;
         "paper-26.2" = _Xcg7uwUB;
+        "pkg-2.1.1" = _yKDAP4zg;
+        "pkg-2.1.2" = _8mmoQfKo;
+        "pkg-3.0.0" = _OOu5BEp7;
+        "pkg-3.0.1" = _VsmF8sa9;
+        "pkg-3.0.2" = _m7RSkPp6;
+        "pkg-3.0.3" = _t5Ns4nsj;
+        "pkg-3.1.0" = _ABbsTNU0;
+        "pkg-3.1.1" = _jh4LzWtT;
+        "pkg-3.1.2" = _cYCMikGK;
+        "pkg-3.1.3" = _YBl1s4sD;
+        "pkg-3.2.0" = _xHbguypQ;
+        "pkg-3.2.1" = _xkDxJzpi;
+        "pkg-3.2.2" = _hNak2gGA;
+        "pkg-3.2.3" = _kOV0iiZ9;
+        "pkg-3.2.4" = _uNDLL6MR;
+        "pkg-3.3.0" = _gsdbUlkX;
+        "pkg-3.3.1" = _mTCsQcVX;
+        "pkg-3.4.0" = _Gh8FiYqr;
+        "pkg-3.4.1" = _Xcg7uwUB;
         "default" = _Xcg7uwUB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

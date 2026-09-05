@@ -16,6 +16,8 @@ let
         "TZPofKdL" = _TZPofKdL;
         "minecraft-1.20" = _TZPofKdL;
         "minecraft-1.20.1" = _TZPofKdL;
+        "pkg-1.2" = _IsMFruZ1;
+        "pkg-1.2.1" = _TZPofKdL;
         "default" = _TZPofKdL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

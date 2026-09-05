@@ -125,6 +125,9 @@ let
         "minecraft-1.20.6" = _CSX5bxgr;
         "minecraft-1.21" = _LG3DAELq;
         "minecraft-1.21.1" = _LG3DAELq;
+        "pkg-2.0" = _RTnpnRRv;
+        "pkg-2.0.1" = _CSX5bxgr;
+        "pkg-2.0.2" = _LG3DAELq;
         "default" = _LG3DAELq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

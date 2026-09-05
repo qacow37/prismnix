@@ -68,6 +68,7 @@ let
         "forge-1.18" = _8KSgEVEA;
         "forge-1.18.1" = _8KSgEVEA;
         "forge-1.18.2" = _8KSgEVEA;
+        "pkg-1.0" = _8KSgEVEA;
         "default" = _8KSgEVEA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -70,6 +70,17 @@ let
         "WTpRAras" = _WTpRAras;
         "forge-1.12.2" = _WTpRAras;
         "sponge-1.12.2" = _WTpRAras;
+        "pkg-1.9.6" = _RiA6EN2b;
+        "pkg-1.9.7" = _ajeC9xSe;
+        "pkg-1.9.8" = _zHPoZhwo;
+        "pkg-2.0.0" = _j9fk8aYh;
+        "pkg-2.0.1" = _qMbZM2Rl;
+        "pkg-2.0.2" = _9pJC8bY8;
+        "pkg-3.0.0" = _utL5sS86;
+        "pkg-3.0.0-II" = _8qgIh8ii;
+        "pkg-3.0.1" = _wsZ25BSk;
+        "pkg-3.0.2" = _2DuKuOA1;
+        "pkg-3.0.3" = _WTpRAras;
         "default" = _WTpRAras;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

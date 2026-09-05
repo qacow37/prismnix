@@ -62,6 +62,8 @@ let
         "spigot-1.21.9" = _ZIv3MZBT;
         "spigot-1.21.10" = _ZIv3MZBT;
         "spigot-1.21.11" = _ZIv3MZBT;
+        "pkg-0.1" = _B1AXw63V;
+        "pkg-0.2" = _ZIv3MZBT;
         "default" = _ZIv3MZBT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

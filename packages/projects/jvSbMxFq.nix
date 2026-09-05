@@ -12,6 +12,7 @@ let
         "fabric-1.20.1" = _5tV8wnZv;
         "quilt-1.20" = _5tV8wnZv;
         "quilt-1.20.1" = _5tV8wnZv;
+        "pkg-1.0.0" = _5tV8wnZv;
         "default" = _5tV8wnZv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

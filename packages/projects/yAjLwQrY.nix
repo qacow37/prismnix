@@ -16,6 +16,8 @@ let
         "jh9tPPlm" = _jh9tPPlm;
         "forge-1.20.1" = _tPyaNEtw;
         "neoforge-1.21.1" = _jh9tPPlm;
+        "pkg-1.20.1-1.0.0" = _tPyaNEtw;
+        "pkg-1.21.1-1.0.1" = _jh9tPPlm;
         "default" = _jh9tPPlm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

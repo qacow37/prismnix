@@ -26,6 +26,9 @@ let
         "quilt-1.20" = _IMkhNTeR;
         "quilt-1.20.1" = _IMkhNTeR;
         "quilt-1.20.2" = _IMkhNTeR;
+        "pkg-1.0.0-alpha1" = _AGz41PPP;
+        "pkg-1.0.0-alpha2" = _1SHsbc9q;
+        "pkg-1.0.0-alpha3" = _IMkhNTeR;
         "default" = _IMkhNTeR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

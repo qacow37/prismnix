@@ -34,6 +34,7 @@ let
         "forge-1.19.2" = _QlNdXhDe;
         "forge-1.19.3" = _QlNdXhDe;
         "forge-1.19.4" = _TtUMPdCg;
+        "pkg-1.2" = _TtUMPdCg;
         "default" = _TtUMPdCg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

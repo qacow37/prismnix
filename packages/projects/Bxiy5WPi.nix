@@ -9,6 +9,7 @@ let
     in {
         "SAnvDU5e" = _SAnvDU5e;
         "forge-1.20.1" = _SAnvDU5e;
+        "pkg-1.0" = _SAnvDU5e;
         "default" = _SAnvDU5e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -45,6 +45,13 @@ let
         "EClLEXwg" = _EClLEXwg;
         "2QCmzo0d" = _2QCmzo0d;
         "fabric-1.20.4" = _2QCmzo0d;
+        "pkg-0.1" = _vqS5f5pQ;
+        "pkg-0.2" = _nXlZcT3m;
+        "pkg-0.2.1" = _TXZUPmps;
+        "pkg-0.3" = _h75aFmv3;
+        "pkg-0.3.1" = _KkUjGlNv;
+        "pkg-0.3.2-modfest" = _EClLEXwg;
+        "pkg-0.4" = _2QCmzo0d;
         "default" = _2QCmzo0d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

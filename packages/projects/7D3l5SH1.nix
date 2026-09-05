@@ -694,6 +694,7 @@ let
         "optifine-26.2-rc-1" = _grKmd2jn;
         "optifine-26.2-rc-2" = _grKmd2jn;
         "optifine-26.2" = _grKmd2jn;
+        "pkg-0.2" = _grKmd2jn;
         "default" = _grKmd2jn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

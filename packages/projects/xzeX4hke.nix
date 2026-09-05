@@ -16,6 +16,7 @@ let
         "SedgOKHL" = _SedgOKHL;
         "fabric-1.19.2" = _vTRi53zD;
         "forge-1.19.2" = _SedgOKHL;
+        "pkg-1.0" = _SedgOKHL;
         "default" = _SedgOKHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

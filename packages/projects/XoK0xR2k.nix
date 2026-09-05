@@ -9,6 +9,7 @@ let
     in {
         "dDj2Yzet" = _dDj2Yzet;
         "fabric-1.18.2" = _dDj2Yzet;
+        "pkg-1.0" = _dDj2Yzet;
         "default" = _dDj2Yzet;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

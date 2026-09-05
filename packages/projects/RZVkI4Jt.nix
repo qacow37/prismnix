@@ -72,6 +72,13 @@ let
         "purpur-1.21.11" = _WfKXEvB1;
         "spigot-1.21" = _11Krsdyd;
         "spigot-1.21.1" = _11Krsdyd;
+        "pkg-1" = _jZ0Hkdc5;
+        "pkg-1.1" = _9CUhVzBO;
+        "pkg-1.2" = _11Krsdyd;
+        "pkg-1.3" = _GUCUW8ZI;
+        "pkg-1.3.1" = _ia8xEzJz;
+        "pkg-1.4.0" = _YmmQ3klI;
+        "pkg-1.5.0" = _WfKXEvB1;
         "default" = _WfKXEvB1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

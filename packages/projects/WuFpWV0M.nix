@@ -21,6 +21,9 @@ let
         "R803hiEF" = _R803hiEF;
         "JBerIfLV" = _JBerIfLV;
         "forge-1.20.1" = _JBerIfLV;
+        "pkg-1.0-SNAPSHOT" = _P1YjmUde;
+        "pkg-1.1-SNAPSHOT" = _R803hiEF;
+        "pkg-1.2-SNAPSHOT" = _JBerIfLV;
         "default" = _JBerIfLV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -45,6 +45,10 @@ let
         "minecraft-1.21.9" = _RY73IShM;
         "minecraft-1.21.10" = _RY73IShM;
         "minecraft-1.21.11" = _RY73IShM;
+        "pkg-PS4" = _Kxf5BFGS;
+        "pkg-Xbox" = _x4IZhO29;
+        "pkg-Nintendo" = _eojcrAER;
+        "pkg-Re-Console" = _RY73IShM;
         "default" = _RY73IShM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

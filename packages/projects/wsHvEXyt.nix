@@ -9,6 +9,7 @@ let
     in {
         "2R0iSDEo" = _2R0iSDEo;
         "forge-1.12.2" = _2R0iSDEo;
+        "pkg-1.1.0" = _2R0iSDEo;
         "default" = _2R0iSDEo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

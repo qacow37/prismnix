@@ -130,6 +130,27 @@ let
         "XzW8W75E" = _XzW8W75E;
         "forge-1.20.1" = _XzW8W75E;
         "forge-1.19.2" = _yjJJEf6D;
+        "pkg-1.20.1-0.71" = _L8kjqRTW;
+        "pkg-1.19.2-0.7" = _P8QfRX0j;
+        "pkg-1.20.1-0.8" = _Tqyrv4ph;
+        "pkg-1.19.2-0.8" = _RFTS24We;
+        "pkg-1.20.1-0.9" = _czp40OFi;
+        "pkg-1.19.2-0.9" = _N7slbsH5;
+        "pkg-1.20.1-0.91" = _H7CFHrdQ;
+        "pkg-1.19.2-0.91" = _ifurcpbS;
+        "pkg-1.20.1-0.92" = _njzMJTUW;
+        "pkg-1.19.2-0.92" = _BI4l01Ca;
+        "pkg-1.20.1-0.93" = _XJU26NVF;
+        "pkg-1.19.2-0.93" = _4WTixNXL;
+        "pkg-1.20.1-0.94" = _fwo6ao0c;
+        "pkg-1.20.1-0.95" = _iEJACwiV;
+        "pkg-1.19.2-0.95" = _KjKZ2f4k;
+        "pkg-1.20.1-0.96" = _UcZyZN8Q;
+        "pkg-1.20.1-0.96.1" = _Nt4hgndy;
+        "pkg-1.19.2-0.97" = _yjJJEf6D;
+        "pkg-1.20.1-0.97" = _NaWjW8bl;
+        "pkg-1.20.1-0.98" = _lWk0Io3b;
+        "pkg-1.20.1-0.98.1" = _XzW8W75E;
         "default" = _XzW8W75E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

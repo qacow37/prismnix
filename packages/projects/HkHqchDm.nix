@@ -9,6 +9,7 @@ let
     in {
         "THMDWGm4" = _THMDWGm4;
         "neoforge-1.21.1" = _THMDWGm4;
+        "pkg-1.21.1-1.0.0" = _THMDWGm4;
         "default" = _THMDWGm4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "Pbaohd94" = _Pbaohd94;
         "forge-1.20.1" = _Pbaohd94;
         "neoforge-1.20.1" = _Pbaohd94;
+        "pkg-1.0" = _JzlXQxz9;
+        "pkg-1.0.1" = _Pbaohd94;
         "default" = _Pbaohd94;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

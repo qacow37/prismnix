@@ -15,6 +15,8 @@ let
         "9kCYr21M" = _9kCYr21M;
         "WiHVtGIB" = _WiHVtGIB;
         "forge-1.20.1" = _WiHVtGIB;
+        "pkg-1.5.1" = _9kCYr21M;
+        "pkg-2.0.0" = _WiHVtGIB;
         "default" = _WiHVtGIB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

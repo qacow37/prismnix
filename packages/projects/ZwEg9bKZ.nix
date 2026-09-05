@@ -10,6 +10,7 @@ let
         "T7Cr1xOY" = _T7Cr1xOY;
         "fabric-1.21" = _T7Cr1xOY;
         "fabric-1.21.1" = _T7Cr1xOY;
+        "pkg-1.0" = _T7Cr1xOY;
         "default" = _T7Cr1xOY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

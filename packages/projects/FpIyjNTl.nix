@@ -74,6 +74,7 @@ let
         "quilt-26.2-snapshot-1" = _aXkgHMhA;
         "quilt-26.1.2-rc-1" = _aXkgHMhA;
         "quilt-26.1.2" = _aXkgHMhA;
+        "pkg-1.0.0" = _aXkgHMhA;
         "default" = _aXkgHMhA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

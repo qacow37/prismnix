@@ -9,6 +9,7 @@ let
     in {
         "zAHe9VM7" = _zAHe9VM7;
         "minecraft-24w33a" = _zAHe9VM7;
+        "pkg-1.0" = _zAHe9VM7;
         "default" = _zAHe9VM7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

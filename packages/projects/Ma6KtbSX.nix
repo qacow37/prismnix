@@ -36,6 +36,8 @@ let
         "minecraft-26.1" = _vC55lpCP;
         "minecraft-26.1.1" = _vC55lpCP;
         "minecraft-26.1.2" = _vC55lpCP;
+        "pkg-1" = _DOhVOOMi;
+        "pkg-2" = _vC55lpCP;
         "default" = _vC55lpCP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

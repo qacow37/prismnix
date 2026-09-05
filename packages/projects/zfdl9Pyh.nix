@@ -21,6 +21,8 @@ let
         "nBP88K2i" = _nBP88K2i;
         "ettgbiqy" = _ettgbiqy;
         "forge-1.20.1" = _ettgbiqy;
+        "pkg-1.3" = _hFigRdNh;
+        "pkg-1.4" = _ettgbiqy;
         "default" = _ettgbiqy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

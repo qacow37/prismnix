@@ -28,6 +28,10 @@ let
         "utuWI8LK" = _utuWI8LK;
         "fabric-1.18.2" = _utuWI8LK;
         "fabric-1.19" = _wZPzgbFZ;
+        "pkg-1.18.2-3.2.1" = _HEsekQOQ;
+        "pkg-1.19-4.0.3" = _bzFEvGFf;
+        "pkg-1.19-4.0.5" = _wZPzgbFZ;
+        "pkg-1.18.2-3.2.3" = _utuWI8LK;
         "default" = _utuWI8LK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

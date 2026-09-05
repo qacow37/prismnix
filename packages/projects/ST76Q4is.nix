@@ -802,6 +802,11 @@ let
         "folia-26.3-snapshot-4" = _KuHenSmV;
         "folia-26.3-snapshot-5" = _KuHenSmV;
         "folia-26.3-snapshot-6" = _KuHenSmV;
+        "pkg-1.0.0" = _ukbdKXdH;
+        "pkg-1.0.1" = _EsBSScKC;
+        "pkg-1.0.2" = _xmkUqC2g;
+        "pkg-1.0.3" = _4kLlRr6Y;
+        "pkg-1.0.4" = _KuHenSmV;
         "default" = _KuHenSmV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

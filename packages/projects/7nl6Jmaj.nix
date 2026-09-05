@@ -15,6 +15,8 @@ let
         "CLQy50p9" = _CLQy50p9;
         "6LIoEVPu" = _6LIoEVPu;
         "forge-1.12.2" = _6LIoEVPu;
+        "pkg-0.0.1" = _CLQy50p9;
+        "pkg-0.1.0" = _6LIoEVPu;
         "default" = _6LIoEVPu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

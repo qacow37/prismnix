@@ -288,6 +288,8 @@ let
         "quilt-1.20.4" = _t0lmWBb5;
         "quilt-1.20.5" = _t0lmWBb5;
         "quilt-1.20.6" = _t0lmWBb5;
+        "pkg-1" = _JetTZ7TH;
+        "pkg-1+mod" = _t0lmWBb5;
         "default" = _t0lmWBb5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

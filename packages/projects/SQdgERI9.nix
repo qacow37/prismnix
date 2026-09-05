@@ -21,6 +21,9 @@ let
         "AlTKL5EO" = _AlTKL5EO;
         "wxvGncuN" = _wxvGncuN;
         "forge-1.18.2" = _wxvGncuN;
+        "pkg-1.3.1" = _R7jczTNA;
+        "pkg-1.4.0" = _AlTKL5EO;
+        "pkg-1.4.5" = _wxvGncuN;
         "default" = _wxvGncuN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

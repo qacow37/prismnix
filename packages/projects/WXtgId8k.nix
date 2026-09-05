@@ -16,6 +16,7 @@ let
         "PowEHx53" = _PowEHx53;
         "forge-1.20.1" = _NSYfmTrR;
         "fabric-1.20.1" = _PowEHx53;
+        "pkg-1.0.0" = _PowEHx53;
         "default" = _PowEHx53;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

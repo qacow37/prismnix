@@ -21,6 +21,9 @@ let
         "xRjv5ers" = _xRjv5ers;
         "VfxSTFHt" = _VfxSTFHt;
         "neoforge-1.21.1" = _VfxSTFHt;
+        "pkg-1.0.0" = _kZ2AB07Q;
+        "pkg-1.1.0" = _xRjv5ers;
+        "pkg-1.1.1" = _VfxSTFHt;
         "default" = _VfxSTFHt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

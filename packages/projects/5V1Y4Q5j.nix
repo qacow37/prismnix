@@ -26,6 +26,7 @@ let
         "paper-1.21.6" = _oMVd78dr;
         "paper-1.21.7" = _oMVd78dr;
         "paper-1.21.8" = _oMVd78dr;
+        "pkg-1.0" = _oMVd78dr;
         "default" = _oMVd78dr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

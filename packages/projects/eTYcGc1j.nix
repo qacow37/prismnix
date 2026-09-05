@@ -109,6 +109,8 @@ let
         "spigot-26.1.1" = _gtfpEHtL;
         "spigot-26.1.2" = _gtfpEHtL;
         "spigot-26.2" = _gtfpEHtL;
+        "pkg-1.4.1-SNAPSHOT" = _VXWXUEVR;
+        "pkg-1.4.3-SNAPSHOT" = _gtfpEHtL;
         "default" = _gtfpEHtL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

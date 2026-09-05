@@ -10,6 +10,7 @@ let
         "ZT4csBI1" = _ZT4csBI1;
         "fabric-1.20" = _ZT4csBI1;
         "fabric-1.20.1" = _ZT4csBI1;
+        "pkg-1.0.0" = _ZT4csBI1;
         "default" = _ZT4csBI1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

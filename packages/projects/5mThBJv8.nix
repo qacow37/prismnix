@@ -20,6 +20,7 @@ let
         "spigot-1.16.3" = _7Yduxhz9;
         "spigot-1.16.4" = _7Yduxhz9;
         "spigot-1.16.5" = _7Yduxhz9;
+        "pkg-1.0-SNAPSHOT" = _7Yduxhz9;
         "default" = _7Yduxhz9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

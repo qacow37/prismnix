@@ -51,6 +51,14 @@ let
         "MdDXdoBB" = _MdDXdoBB;
         "vz60ZHh7" = _vz60ZHh7;
         "forge-1.20.1" = _vz60ZHh7;
+        "pkg-1.0.0" = _OIUiBTOO;
+        "pkg-1.0.1" = _t0RqtWU0;
+        "pkg-1.1.0" = _InXZRXaw;
+        "pkg-1.1.1" = _Beznln13;
+        "pkg-1.1.2" = _LMQwoUWK;
+        "pkg-1.1.3" = _CYxDWWfq;
+        "pkg-1.1.4" = _MdDXdoBB;
+        "pkg-1.1.5" = _vz60ZHh7;
         "default" = _vz60ZHh7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

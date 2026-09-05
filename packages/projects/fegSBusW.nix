@@ -374,6 +374,8 @@ let
         "minecraft-26.2-snapshot-1" = _pyLSbtaL;
         "minecraft-26.1.2-rc-1" = _pyLSbtaL;
         "minecraft-26.1.2" = _pyLSbtaL;
+        "pkg-LFSS" = _IcMDCbpS;
+        "pkg-26.1.2" = _pyLSbtaL;
         "default" = _pyLSbtaL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

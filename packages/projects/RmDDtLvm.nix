@@ -125,6 +125,12 @@ let
         "quilt-26.1" = _JaML5C3D;
         "quilt-26.1.1" = _JaML5C3D;
         "quilt-26.1.2" = _JaML5C3D;
+        "pkg-1.0" = _2GhkXxZ4;
+        "pkg-Unbreakable+mod" = _GX8ju5qC;
+        "pkg-Unbreakable-Enchantment" = _w1ymE3mb;
+        "pkg-Unbreakable-Enchantment+mod" = _PvZa3xzX;
+        "pkg-1.3" = _Ln4E2Vtd;
+        "pkg-1.3+mod" = _JaML5C3D;
         "default" = _JaML5C3D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

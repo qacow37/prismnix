@@ -40,6 +40,8 @@ let
         "fabric-1.21.2" = _AmS6A5lt;
         "fabric-1.21.3" = _AmS6A5lt;
         "fabric-1.21.4" = _AmS6A5lt;
+        "pkg-1.1.0" = _AmS6A5lt;
+        "pkg-1.2.0" = _eR3vs920;
         "default" = _AmS6A5lt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

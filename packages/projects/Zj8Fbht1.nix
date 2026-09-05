@@ -24,6 +24,9 @@ let
         "minecraft-1.20.4" = _ht9pUKCW;
         "minecraft-24w14potato" = _mAxjtemh;
         "minecraft-24w14a" = _mAxjtemh;
+        "pkg-1.0" = _Yq6e5xob;
+        "pkg-1.1" = _ht9pUKCW;
+        "pkg-1.2" = _mAxjtemh;
         "default" = _mAxjtemh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

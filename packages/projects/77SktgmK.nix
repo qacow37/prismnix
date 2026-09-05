@@ -34,6 +34,8 @@ let
         "fabric-1.21.1" = _GTdl83UG;
         "fabric-1.21.2" = _GTdl83UG;
         "fabric-1.21.3" = _GTdl83UG;
+        "pkg-1" = _pQ8Az75B;
+        "pkg-1.1" = _GTdl83UG;
         "default" = _GTdl83UG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

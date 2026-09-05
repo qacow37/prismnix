@@ -37,6 +37,8 @@ let
         "minecraft-1.20.4" = _LtNOIXSi;
         "minecraft-1.20.5" = _LtNOIXSi;
         "minecraft-1.20.6" = _LtNOIXSi;
+        "pkg-1" = _Q2L36Pkg;
+        "pkg-1.1" = _LtNOIXSi;
         "default" = _LtNOIXSi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

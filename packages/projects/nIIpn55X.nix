@@ -27,6 +27,7 @@ let
         "iris-1.21.9" = _r0k0Lgvp;
         "iris-1.21.10" = _r0k0Lgvp;
         "iris-1.21.11" = _r0k0Lgvp;
+        "pkg-1.0.0" = _r0k0Lgvp;
         "default" = _r0k0Lgvp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

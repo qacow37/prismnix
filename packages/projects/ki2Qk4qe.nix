@@ -45,6 +45,13 @@ let
         "JKbKlKBb" = _JKbKlKBb;
         "klysdykw" = _klysdykw;
         "forge-1.20.1" = _klysdykw;
+        "pkg-1.2.3.13" = _KJ1raap2;
+        "pkg-1.2.3.14" = _9oclVM65;
+        "pkg-1.2.3.15" = _vKv1zTaW;
+        "pkg-1.2.4" = _7jH8pPX7;
+        "pkg-1.2.4.1" = _x9FMgWQa;
+        "pkg-1.2.4.2" = _JKbKlKBb;
+        "pkg-1.2.5" = _klysdykw;
         "default" = _klysdykw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

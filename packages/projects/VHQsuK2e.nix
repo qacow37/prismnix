@@ -52,6 +52,11 @@ let
         "JzmOctfr" = _JzmOctfr;
         "fabric-1.21.1" = _p4oVgKm3;
         "neoforge-1.21.1" = _JzmOctfr;
+        "pkg-1.0.0" = _j1AtXV7h;
+        "pkg-1.0.0-fix" = _XP6CXsyO;
+        "pkg-1.0.1" = _P55e6QqN;
+        "pkg-1.1.0" = _or2P08Ke;
+        "pkg-1.2.0" = _JzmOctfr;
         "default" = _JzmOctfr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

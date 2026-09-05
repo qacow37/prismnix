@@ -13,6 +13,7 @@ let
         "fabric-1.20" = _BPHLorm7;
         "fabric-1.20.1" = _BPHLorm7;
         "fabric-1.20.2" = _BPHLorm7;
+        "pkg-1.0" = _BPHLorm7;
         "default" = _BPHLorm7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

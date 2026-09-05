@@ -112,6 +112,13 @@ let
         "minecraft-26.1.1" = _ToHTDp4I;
         "minecraft-26.1.2" = _ToHTDp4I;
         "minecraft-26.2" = _ToHTDp4I;
+        "pkg-1.0" = _qZCyNvMo;
+        "pkg-1.1" = _QFXblPRr;
+        "pkg-1.2" = _TJx0LHHw;
+        "pkg-1.3" = _iTSZm99I;
+        "pkg-1.4" = _D7WcTkUQ;
+        "pkg-1.5" = _likjjwKP;
+        "pkg-1.6" = _ToHTDp4I;
         "default" = _ToHTDp4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -25,6 +25,8 @@ let
         "neoforge-1.21.9" = _aypCA1Xn;
         "neoforge-1.21.10" = _aypCA1Xn;
         "neoforge-1.21.11" = _aypCA1Xn;
+        "pkg-1.0" = _NBUBKvfH;
+        "pkg-1.1" = _aypCA1Xn;
         "default" = _aypCA1Xn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "gdvJvP2F" = _gdvJvP2F;
         "fabric-26.1.2" = _fQjEwjXo;
         "forge-1.8.9" = _gdvJvP2F;
+        "pkg-1.0.0" = _fQjEwjXo;
+        "pkg-1.0.1" = _gdvJvP2F;
         "default" = _gdvJvP2F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

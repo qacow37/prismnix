@@ -99,6 +99,11 @@ let
         "minecraft-26.3-snapshot-1" = _msP6AGot;
         "minecraft-26.3-snapshot-2" = _msP6AGot;
         "minecraft-26.3-snapshot-3" = _msP6AGot;
+        "pkg-1.18+" = _PGkKHDCE;
+        "pkg-1.20.2+" = _2IXrBwBl;
+        "pkg-1.21.x" = _fsg7OWS9;
+        "pkg-Last_Apple" = _IeXgmTAk;
+        "pkg-Last" = _msP6AGot;
         "default" = _msP6AGot;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

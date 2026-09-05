@@ -27,6 +27,10 @@ let
         "5YRG4zan" = _5YRG4zan;
         "MSVNRQbL" = _MSVNRQbL;
         "fabric-1.20.1" = _MSVNRQbL;
+        "pkg-0.1.0" = _jH6NU32h;
+        "pkg-0.1.1" = _C1pxMgAX;
+        "pkg-0.2.0" = _5YRG4zan;
+        "pkg-1.0.0" = _MSVNRQbL;
         "default" = _MSVNRQbL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

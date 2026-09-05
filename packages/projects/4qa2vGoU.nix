@@ -15,6 +15,8 @@ let
         "92T1LTXx" = _92T1LTXx;
         "pJrnrjaH" = _pJrnrjaH;
         "neoforge-1.21.1" = _pJrnrjaH;
+        "pkg-1.0.0" = _92T1LTXx;
+        "pkg-1.1.0" = _pJrnrjaH;
         "default" = _pJrnrjaH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "PHjes5Az" = _PHjes5Az;
         "pDThwclp" = _pDThwclp;
         "fabric-1.20.1" = _pDThwclp;
+        "pkg-0.0.1a+mc1.20.1-Fabric" = _PHjes5Az;
+        "pkg-0.0.2a+mc1.20.1-Fabric" = _pDThwclp;
         "default" = _pDThwclp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

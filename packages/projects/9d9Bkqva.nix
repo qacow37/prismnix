@@ -430,6 +430,8 @@ let
         "ypyLABVP" = _ypyLABVP;
         "forge-1.20.1" = _ypyLABVP;
         "neoforge-1.21.1" = _C1o5aQit;
+        "pkg-1.20.1" = _ypyLABVP;
+        "pkg-1.21.1" = _C1o5aQit;
         "default" = _ypyLABVP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

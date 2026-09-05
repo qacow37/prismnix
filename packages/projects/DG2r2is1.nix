@@ -9,6 +9,7 @@ let
     in {
         "NjOucOS3" = _NjOucOS3;
         "neoforge-1.21.1" = _NjOucOS3;
+        "pkg-1.0.0" = _NjOucOS3;
         "default" = _NjOucOS3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -37,6 +37,8 @@ let
         "minecraft-26.1.1" = _tFEENOr5;
         "minecraft-26.1.2" = _tFEENOr5;
         "minecraft-26.2" = _tFEENOr5;
+        "pkg-1" = _UOrMxlxe;
+        "pkg-2" = _tFEENOr5;
         "default" = _tFEENOr5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -34,6 +34,11 @@ let
         "N2RnaVto" = _N2RnaVto;
         "fabric-1.21.8" = _vz3xdalQ;
         "fabric-1.21.11" = _N2RnaVto;
+        "pkg-1.0.0+1.21.8" = _g4qlY8de;
+        "pkg-1.1.1+1.21.8" = _DyynLvwk;
+        "pkg-1.1.2+1.21.8" = _vz3xdalQ;
+        "pkg-1.2.0+1.21.11" = _LywS84Iq;
+        "pkg-1.2.1+1.21.11" = _N2RnaVto;
         "default" = _N2RnaVto;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "xUFR76lx" = _xUFR76lx;
         "fabric-1.21.1" = _xUFR76lx;
+        "pkg-2.1.0-1.21.1" = _xUFR76lx;
         "default" = _xUFR76lx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

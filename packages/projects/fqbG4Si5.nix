@@ -15,6 +15,8 @@ let
         "pOvYgxzB" = _pOvYgxzB;
         "DVtaKPeL" = _DVtaKPeL;
         "forge-1.16.5" = _DVtaKPeL;
+        "pkg-1.0.0" = _pOvYgxzB;
+        "pkg-1.0.1" = _DVtaKPeL;
         "default" = _DVtaKPeL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

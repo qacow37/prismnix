@@ -15,6 +15,8 @@ let
         "mZ3PODn2" = _mZ3PODn2;
         "32hg237e" = _32hg237e;
         "minecraft-1.20.1" = _32hg237e;
+        "pkg-1a" = _mZ3PODn2;
+        "pkg-1b" = _32hg237e;
         "default" = _32hg237e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

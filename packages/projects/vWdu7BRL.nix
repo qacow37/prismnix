@@ -105,6 +105,7 @@ let
         "optifine-1.21.8" = _oD6AJxjs;
         "optifine-1.21.9" = _oD6AJxjs;
         "optifine-1.21.10" = _oD6AJxjs;
+        "pkg-0.3" = _oD6AJxjs;
         "default" = _oD6AJxjs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "DvYyiS76" = _DvYyiS76;
         "forge-1.20.1" = _DvYyiS76;
+        "pkg-1.0-SNAPSHOT" = _DvYyiS76;
         "default" = _DvYyiS76;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -37,6 +37,7 @@ let
         "minecraft-1.21.3" = _I04FUVWi;
         "minecraft-1.21.4" = _I04FUVWi;
         "minecraft-1.21.5" = _I04FUVWi;
+        "pkg-1.0" = _I04FUVWi;
         "default" = _I04FUVWi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

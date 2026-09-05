@@ -25,6 +25,8 @@ let
         "minecraft-24w33a" = _p28nl5E5;
         "minecraft-1.21.2" = _p28nl5E5;
         "minecraft-1.21.3" = _p28nl5E5;
+        "pkg-1.0.0" = _ssL4TNAC;
+        "pkg-1.0.1" = _p28nl5E5;
         "default" = _p28nl5E5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

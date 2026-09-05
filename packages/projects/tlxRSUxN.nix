@@ -15,6 +15,8 @@ let
         "PxfgD7Sb" = _PxfgD7Sb;
         "V7KL8sl5" = _V7KL8sl5;
         "forge-1.20.1" = _V7KL8sl5;
+        "pkg-1.0.0" = _PxfgD7Sb;
+        "pkg-1.1.0" = _V7KL8sl5;
         "default" = _V7KL8sl5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

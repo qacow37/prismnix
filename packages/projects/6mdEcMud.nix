@@ -15,6 +15,8 @@ let
         "n4ql8fN2" = _n4ql8fN2;
         "KELc6GPW" = _KELc6GPW;
         "forge-1.20.1" = _KELc6GPW;
+        "pkg-1.0.1" = _n4ql8fN2;
+        "pkg-1.0.2" = _KELc6GPW;
         "default" = _KELc6GPW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

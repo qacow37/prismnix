@@ -34,6 +34,9 @@ let
         "nOxfRLen" = _nOxfRLen;
         "fabric-1.20.1" = _nOxfRLen;
         "fabric-1.21" = _8jnntnmk;
+        "pkg-1.0.0" = _TthOg51J;
+        "pkg-1.0.1" = _t2owUI2g;
+        "pkg-1.0.2" = _nOxfRLen;
         "default" = _nOxfRLen;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

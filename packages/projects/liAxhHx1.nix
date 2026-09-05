@@ -10,6 +10,7 @@ let
         "vdY3E800" = _vdY3E800;
         "fabric-1.20.1" = _vdY3E800;
         "quilt-1.20.1" = _vdY3E800;
+        "pkg-0.1.1+1.20.1" = _vdY3E800;
         "default" = _vdY3E800;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

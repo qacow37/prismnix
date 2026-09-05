@@ -24,6 +24,7 @@ let
         "minecraft-1.21.6" = _DTI86DfH;
         "minecraft-1.21.7" = _DTI86DfH;
         "minecraft-1.21.8" = _DTI86DfH;
+        "pkg-1.0" = _DTI86DfH;
         "default" = _DTI86DfH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "LqS37UYN" = _LqS37UYN;
         "paIvSgIR" = _paIvSgIR;
         "fabric-1.21.1" = _paIvSgIR;
+        "pkg-0.0.9" = _LqS37UYN;
+        "pkg-0.1.0" = _paIvSgIR;
         "default" = _paIvSgIR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

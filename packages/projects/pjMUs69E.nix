@@ -24,6 +24,7 @@ let
         "forge-1.19.2" = _SWVVrSwu;
         "forge-1.19.3" = _SWVVrSwu;
         "forge-1.19.4" = _SWVVrSwu;
+        "pkg-1.0" = _SWVVrSwu;
         "default" = _SWVVrSwu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

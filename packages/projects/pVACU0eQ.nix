@@ -90,6 +90,7 @@ let
         "minecraft-1.21.9" = _ne0xM5vM;
         "minecraft-1.21.10" = _ne0xM5vM;
         "minecraft-1.21.11" = _ne0xM5vM;
+        "pkg-1.1" = _ne0xM5vM;
         "default" = _ne0xM5vM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

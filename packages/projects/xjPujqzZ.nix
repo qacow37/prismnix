@@ -16,6 +16,8 @@ let
         "lMCGktZ4" = _lMCGktZ4;
         "fabric-1.14.4" = _aPp1OcG0;
         "fabric-1.15.2" = _lMCGktZ4;
+        "pkg-1.0.1" = _aPp1OcG0;
+        "pkg-1.1.1" = _lMCGktZ4;
         "default" = _lMCGktZ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

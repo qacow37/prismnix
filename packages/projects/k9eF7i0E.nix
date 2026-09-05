@@ -14,6 +14,7 @@ let
         "minecraft-1.20.6" = _zhLEbSiO;
         "minecraft-1.21" = _zhLEbSiO;
         "minecraft-1.21.1" = _zhLEbSiO;
+        "pkg-1" = _zhLEbSiO;
         "default" = _zhLEbSiO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

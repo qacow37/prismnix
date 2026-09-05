@@ -33,6 +33,10 @@ let
         "neoforge-1.20.1" = _DOVoDprR;
         "neoforge-1.21.1" = _GBDR4YSy;
         "quilt-1.20.1" = _DOVoDprR;
+        "pkg-1.4.1+1.20.1" = _cvOVJEuS;
+        "pkg-1.4.1+1.20.1+mod" = _DOVoDprR;
+        "pkg-1.4.6-neoforge+1.21.1" = _32o6qJ9q;
+        "pkg-1.4.6-neoforge+1.21.1+mod" = _GBDR4YSy;
         "default" = _GBDR4YSy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,7 @@ let
         "quilt-1.18.2" = _VcL81Mgr;
         "quilt-1.19.4" = _VcL81Mgr;
         "quilt-1.20.2" = _VcL81Mgr;
+        "pkg-0.1.1" = _VcL81Mgr;
         "default" = _VcL81Mgr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

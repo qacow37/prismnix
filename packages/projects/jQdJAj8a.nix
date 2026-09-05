@@ -9,6 +9,7 @@ let
     in {
         "mNALX99Y" = _mNALX99Y;
         "minecraft-1.21.11" = _mNALX99Y;
+        "pkg-1-Release" = _mNALX99Y;
         "default" = _mNALX99Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

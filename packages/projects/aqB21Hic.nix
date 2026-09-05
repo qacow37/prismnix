@@ -21,6 +21,9 @@ let
         "z5nF0NGJ" = _z5nF0NGJ;
         "LUjrv2Fu" = _LUjrv2Fu;
         "fabric-1.20.1" = _LUjrv2Fu;
+        "pkg-1.0.0" = _2I23R07A;
+        "pkg-1.0.1" = _z5nF0NGJ;
+        "pkg-1.0.2" = _LUjrv2Fu;
         "default" = _LUjrv2Fu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

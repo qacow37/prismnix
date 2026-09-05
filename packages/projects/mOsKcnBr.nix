@@ -47,6 +47,9 @@ let
         "quilt-1.20.2" = _moi92ex3;
         "quilt-1.20.3" = _moi92ex3;
         "quilt-1.20.4" = _moi92ex3;
+        "pkg-0.0.1" = _Brgameyy;
+        "pkg-1.0.1" = _d3DHFllH;
+        "pkg-1.1.0" = _moi92ex3;
         "default" = _moi92ex3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

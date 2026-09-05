@@ -86,6 +86,16 @@ let
         "optifine-1.21.9" = _LcC7c1XT;
         "optifine-1.21.10" = _LcC7c1XT;
         "optifine-1.21.11" = _LcC7c1XT;
+        "pkg-Nostalgia_Ultra-V1" = _cU4PodxG;
+        "pkg-Nostalgia_Ultra-V2" = _p3ohjXOG;
+        "pkg-Nostalgia_Ultra-V3" = _KM80QILg;
+        "pkg-Nostalgia_Ultra-V4" = _jJm50KQL;
+        "pkg-Nostalgia_Ultra-V5" = _wntzQGKf;
+        "pkg-Nostalgia_Ultra-V6" = _KiT2obwk;
+        "pkg-Nostalgia_Ultra-V7" = _Kse9neax;
+        "pkg-Nostalgia_Ultra-V8" = _3vjJFUZc;
+        "pkg-Nostalgia_Ultra-V9" = _KCEC2CbI;
+        "pkg-Nostalgia_Ultra-V10" = _LcC7c1XT;
         "default" = _LcC7c1XT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

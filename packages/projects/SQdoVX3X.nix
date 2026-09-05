@@ -15,6 +15,8 @@ let
         "KvGoSCDx" = _KvGoSCDx;
         "Tut3kciV" = _Tut3kciV;
         "neoforge-1.21.1" = _Tut3kciV;
+        "pkg-1.0.0" = _KvGoSCDx;
+        "pkg-1.0.1" = _Tut3kciV;
         "default" = _Tut3kciV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

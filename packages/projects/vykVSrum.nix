@@ -16,6 +16,8 @@ let
         "QDI8waiv" = _QDI8waiv;
         "minecraft-1.21.5" = _JiQu4aT1;
         "minecraft-1.21.6" = _QDI8waiv;
+        "pkg-1.0" = _JiQu4aT1;
+        "pkg-1.1" = _QDI8waiv;
         "default" = _QDI8waiv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

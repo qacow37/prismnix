@@ -15,6 +15,8 @@ let
         "ZjBrHFJ9" = _ZjBrHFJ9;
         "UQt48Pln" = _UQt48Pln;
         "forge-1.12.2" = _UQt48Pln;
+        "pkg-1.0" = _ZjBrHFJ9;
+        "pkg-1.1" = _UQt48Pln;
         "default" = _UQt48Pln;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

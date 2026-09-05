@@ -15,6 +15,8 @@ let
         "ZKioqRHv" = _ZKioqRHv;
         "5BHOMi8V" = _5BHOMi8V;
         "minecraft-1.21.8" = _5BHOMi8V;
+        "pkg-U1" = _ZKioqRHv;
+        "pkg-U2" = _5BHOMi8V;
         "default" = _5BHOMi8V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

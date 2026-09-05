@@ -58,6 +58,14 @@ let
         "W5lE08ga" = _W5lE08ga;
         "forge-1.20" = _W5lE08ga;
         "forge-1.20.1" = _W5lE08ga;
+        "pkg-1.0.0" = _Q8VRKHY7;
+        "pkg-1.0.1" = _pRMdtUIq;
+        "pkg-1.0.3" = _klsNoRuK;
+        "pkg-1.0.4" = _PnfSl4rn;
+        "pkg-1.1.0" = _6kL6XGkN;
+        "pkg-1.1.1" = _1xdcEoNW;
+        "pkg-1.1.2" = _IfFJDF3h;
+        "pkg-1.1.3" = _W5lE08ga;
         "default" = _W5lE08ga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

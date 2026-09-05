@@ -45,6 +45,8 @@ let
         "forge-1.20" = _DdpXl47z;
         "forge-1.20.1" = _DdpXl47z;
         "forge-1.20.2" = _DdpXl47z;
+        "pkg-1.0.0" = _MD4ZwEWZ;
+        "pkg-1.1.0" = _DdpXl47z;
         "default" = _DdpXl47z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

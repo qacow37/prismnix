@@ -155,6 +155,14 @@ let
         "velocity-1.7.8" = _8qpRxrMw;
         "velocity-1.7.9" = _8qpRxrMw;
         "velocity-1.7.10" = _8qpRxrMw;
+        "pkg-1.0.0-f014d5f" = _Di3FxAzr;
+        "pkg-1.0.1-667f6ca" = _ZRsZcVXP;
+        "pkg-1.1.0-c4e6340" = _b7wn868T;
+        "pkg-1.1.1-a54ecec" = _NxZUoGae;
+        "pkg-2025.10.05" = _Fjyaprku;
+        "pkg-2025.11.27" = _CaaZPt02;
+        "pkg-2025.12.13" = _jiMkZjS4;
+        "pkg-2025.12.23a" = _8qpRxrMw;
         "default" = _8qpRxrMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

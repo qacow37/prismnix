@@ -15,6 +15,8 @@ let
         "K0MbS3kd" = _K0MbS3kd;
         "xZhWfWtq" = _xZhWfWtq;
         "forge-1.16.5" = _xZhWfWtq;
+        "pkg-1.16.5-1" = _K0MbS3kd;
+        "pkg-1.16.5-2" = _xZhWfWtq;
         "default" = _xZhWfWtq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -30,6 +30,8 @@ let
         "fabric-1.21.1" = _SLmC34CS;
         "forge-1.20.1" = _VVceid93;
         "neoforge-1.21.1" = _ibDPs85p;
+        "pkg-1.2.0-1.20.1" = _VVceid93;
+        "pkg-1.2.0-1.21.1" = _SLmC34CS;
         "default" = _SLmC34CS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

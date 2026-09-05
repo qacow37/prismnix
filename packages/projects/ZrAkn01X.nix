@@ -45,6 +45,7 @@ let
         "minecraft-1.21.8" = _uAcReLwA;
         "minecraft-1.21.9" = _uAcReLwA;
         "minecraft-1.21.10" = _uAcReLwA;
+        "pkg-1.0" = _uAcReLwA;
         "default" = _uAcReLwA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

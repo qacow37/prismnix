@@ -9,6 +9,7 @@ let
     in {
         "feTaUSTF" = _feTaUSTF;
         "fabric-1.19.2" = _feTaUSTF;
+        "pkg-1.1.3" = _feTaUSTF;
         "default" = _feTaUSTF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

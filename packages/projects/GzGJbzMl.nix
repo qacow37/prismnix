@@ -45,6 +45,13 @@ let
         "NrMn9Ba1" = _NrMn9Ba1;
         "gdmwbFGL" = _gdmwbFGL;
         "forge-1.12.2" = _gdmwbFGL;
+        "pkg-1.0.0" = _450T8BrD;
+        "pkg-1.0.1" = _yf1EOpBS;
+        "pkg-1.0.2" = _y1s4kwK5;
+        "pkg-1.0.3" = _jfnpv7NX;
+        "pkg-1.1" = _zCQkD4qP;
+        "pkg-1.1.1" = _NrMn9Ba1;
+        "pkg-1.1.2" = _gdmwbFGL;
         "default" = _gdmwbFGL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

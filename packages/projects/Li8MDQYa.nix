@@ -44,6 +44,9 @@ let
         "minecraft-1.21.3" = _TxzWDBYI;
         "minecraft-1.21.4" = _TxzWDBYI;
         "minecraft-1.21.5" = _TxzWDBYI;
+        "pkg-Release" = _woQSmYHd;
+        "pkg-HUD_Update" = _mhZT9MbK;
+        "pkg-Armor_Fix" = _TxzWDBYI;
         "default" = _TxzWDBYI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "QBprvpeM" = _QBprvpeM;
         "iA5iBBLV" = _iA5iBBLV;
         "forge-1.12.2" = _iA5iBBLV;
+        "pkg-1.2.0" = _6VsSRuCr;
+        "pkg-1.3.0" = _QBprvpeM;
+        "pkg-1.4.0" = _iA5iBBLV;
         "default" = _iA5iBBLV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

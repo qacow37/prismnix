@@ -246,6 +246,26 @@ let
         "purpur-1.21.8" = _9HluOWdy;
         "purpur-1.21.9" = _9HluOWdy;
         "purpur-1.21.10" = _9HluOWdy;
+        "pkg-1.5.8-SNAPSHOT" = _cooeIDpn;
+        "pkg-1.5.9-SNAPSHOT" = _a9MGqcby;
+        "pkg-1.6.0-SNAPSHOT" = _abvTwVdU;
+        "pkg-1.6.1-SNAPSHOT" = _sCweS7o0;
+        "pkg-1.6.2-SNAPSHOT" = _iOvAXvI9;
+        "pkg-1.6.3-SNAPSHOT" = _Vl7RZ2aH;
+        "pkg-1.6.4-SNAPSHOT" = _N3gEFZtZ;
+        "pkg-1.6.5-SNAPSHOT" = _oCWa8sRs;
+        "pkg-1.6.6-SNAPSHOT" = _kV6kALXr;
+        "pkg-1.6.7-SNAPSHOT" = _K5M8zQS0;
+        "pkg-1.6.8-SNAPSHOT" = _Nj0xVIeH;
+        "pkg-1.6.9-SNAPSHOT" = _h96GFQZD;
+        "pkg-1.7.0-SNAPSHOT" = _aFsCu2d0;
+        "pkg-1.7.1-SNAPSHOT" = _Z6W9U3La;
+        "pkg-1.7.2-SNAPSHOT" = _qMp4snDL;
+        "pkg-1.7.3-SNAPSHOT" = _vo4WHyb6;
+        "pkg-1.7.4-SNAPSHOT" = _zEfxet4o;
+        "pkg-1.7.5-SNAPSHOT" = _kIdCQvc5;
+        "pkg-1.7.6-SNAPSHOT" = _9HluOWdy;
+        "pkg-1.7.7-SNAPSHOT" = _MLblsJEi;
         "default" = _MLblsJEi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

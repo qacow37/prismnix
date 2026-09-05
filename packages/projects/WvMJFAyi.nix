@@ -34,6 +34,11 @@ let
         "qodofG4e" = _qodofG4e;
         "fabric-1.20.1" = _qodofG4e;
         "quilt-1.20.1" = _qodofG4e;
+        "pkg-1.0.0" = _9hOi6ETO;
+        "pkg-1.0.1" = _wVrdZgV3;
+        "pkg-1.0.2" = _JHb9YkJa;
+        "pkg-1.0.3" = _qX8UQJBA;
+        "pkg-1.0.4" = _qodofG4e;
         "default" = _qodofG4e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

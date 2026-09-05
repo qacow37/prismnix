@@ -16,6 +16,8 @@ let
         "Wp30TDel" = _Wp30TDel;
         "minecraft-1.21.5" = _dOuVzSH1;
         "minecraft-1.21.6" = _Wp30TDel;
+        "pkg-1.1" = _dOuVzSH1;
+        "pkg-1.2" = _Wp30TDel;
         "default" = _Wp30TDel;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "lIiDSDpk" = _lIiDSDpk;
         "PhtxH7g2" = _PhtxH7g2;
         "forge-1.20.1" = _PhtxH7g2;
+        "pkg-1.1.2" = _lIiDSDpk;
+        "pkg-1.2.0" = _PhtxH7g2;
         "default" = _PhtxH7g2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

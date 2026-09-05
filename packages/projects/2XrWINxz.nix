@@ -15,6 +15,8 @@ let
         "Y7TeRiIa" = _Y7TeRiIa;
         "rpfhGgM2" = _rpfhGgM2;
         "forge-1.20.1" = _rpfhGgM2;
+        "pkg-1.5.0" = _Y7TeRiIa;
+        "pkg-1.6.0" = _rpfhGgM2;
         "default" = _rpfhGgM2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -34,6 +34,9 @@ let
         "VvhgdIvC" = _VvhgdIvC;
         "neoforge-1.21.1" = _VvhgdIvC;
         "fabric-1.21.1" = _P5dS2bL1;
+        "pkg-1.0.0" = _TQXVGnUD;
+        "pkg-1.0.1" = _qDo10vOd;
+        "pkg-1.0.2" = _VvhgdIvC;
         "default" = _VvhgdIvC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

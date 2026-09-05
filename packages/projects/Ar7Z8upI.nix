@@ -21,6 +21,9 @@ let
         "Jpj93KaC" = _Jpj93KaC;
         "46nbadMw" = _46nbadMw;
         "fabric-1.21.1" = _46nbadMw;
+        "pkg-1.6-fabric-1.0.0" = _zIA1eH5f;
+        "pkg-1.6-fabric-1.1.0" = _Jpj93KaC;
+        "pkg-1.6-fabric-1.1.1" = _46nbadMw;
         "default" = _46nbadMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

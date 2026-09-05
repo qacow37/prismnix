@@ -40,6 +40,10 @@ let
         "ZVLen6of" = _ZVLen6of;
         "minecraft-1.21.4" = _Vnr3OkZf;
         "minecraft-1.21.11" = _ZVLen6of;
+        "pkg-1.0.0" = _YdWih91y;
+        "pkg-1.0.1" = _xFOIY6Vm;
+        "pkg-1.0.2" = _HCDwjbty;
+        "pkg-1.0.3" = _ZVLen6of;
         "default" = _ZVLen6of;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

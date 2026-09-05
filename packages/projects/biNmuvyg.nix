@@ -15,6 +15,8 @@ let
         "qoxgP92g" = _qoxgP92g;
         "7MmpTgrB" = _7MmpTgrB;
         "fabric-1.20.1" = _7MmpTgrB;
+        "pkg-1.0" = _qoxgP92g;
+        "pkg-1.1" = _7MmpTgrB;
         "default" = _7MmpTgrB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

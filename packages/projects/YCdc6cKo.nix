@@ -9,6 +9,7 @@ let
     in {
         "XZ93w1xP" = _XZ93w1xP;
         "neoforge-1.21.1" = _XZ93w1xP;
+        "pkg-1.1.2" = _XZ93w1xP;
         "default" = _XZ93w1xP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

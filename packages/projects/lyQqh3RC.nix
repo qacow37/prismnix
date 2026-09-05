@@ -76,6 +76,7 @@ let
         "spigot-1.20.6" = _v7LjD3AV;
         "spigot-1.21" = _v7LjD3AV;
         "spigot-1.21.1" = _v7LjD3AV;
+        "pkg-v1.7.3" = _v7LjD3AV;
         "default" = _v7LjD3AV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

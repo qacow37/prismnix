@@ -16,6 +16,8 @@ let
         "Ml99upFP" = _Ml99upFP;
         "fabric-1.20" = _Ml99upFP;
         "fabric-1.20.1" = _Ml99upFP;
+        "pkg-1.0.0" = _M5pelFG1;
+        "pkg-1.1.0" = _Ml99upFP;
         "default" = _Ml99upFP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

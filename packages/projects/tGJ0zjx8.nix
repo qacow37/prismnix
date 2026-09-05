@@ -22,6 +22,9 @@ let
         "ZoarQxFE" = _ZoarQxFE;
         "minecraft-1.21.5" = _9wfMvcYd;
         "minecraft-1.21.8" = _ZoarQxFE;
+        "pkg-V1" = _33UekFpZ;
+        "pkg-Creeper_Refreshed_FA_V2" = _9wfMvcYd;
+        "pkg-Creeper_Recrafted_FA_V3" = _ZoarQxFE;
         "default" = _ZoarQxFE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

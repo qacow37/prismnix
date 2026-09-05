@@ -27,6 +27,10 @@ let
         "XVlVTBye" = _XVlVTBye;
         "zDSUsR3i" = _zDSUsR3i;
         "forge-1.12.2" = _zDSUsR3i;
+        "pkg-1.0" = _fxhMbwT6;
+        "pkg-1.1" = _NPjESTts;
+        "pkg-1.2" = _XVlVTBye;
+        "pkg-2.0" = _zDSUsR3i;
         "default" = _zDSUsR3i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

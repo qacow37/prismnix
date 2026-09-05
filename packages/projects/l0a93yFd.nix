@@ -204,6 +204,8 @@ let
         "folia-26.1" = _DANuI2vx;
         "folia-26.1.1" = _DANuI2vx;
         "folia-26.1.2" = _DANuI2vx;
+        "pkg-1.0" = _usX62OuM;
+        "pkg-2.0" = _DANuI2vx;
         "default" = _DANuI2vx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

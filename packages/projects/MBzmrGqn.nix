@@ -15,6 +15,8 @@ let
         "2XSfKUL1" = _2XSfKUL1;
         "Q8BxPvE9" = _Q8BxPvE9;
         "fabric-1.21.1" = _Q8BxPvE9;
+        "pkg-1.0.0" = _2XSfKUL1;
+        "pkg-2.0.0" = _Q8BxPvE9;
         "default" = _Q8BxPvE9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

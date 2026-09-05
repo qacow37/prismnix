@@ -170,6 +170,8 @@ let
         "quilt-26.1" = _LZeCopTj;
         "quilt-26.1.1" = _LZeCopTj;
         "quilt-26.1.2" = _LZeCopTj;
+        "pkg-1.0.0" = _AtAz6JRU;
+        "pkg-1.0.0+mod" = _LZeCopTj;
         "default" = _LZeCopTj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

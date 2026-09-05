@@ -9,6 +9,7 @@ let
     in {
         "ypJ8gzmJ" = _ypJ8gzmJ;
         "iris-1.21.5" = _ypJ8gzmJ;
+        "pkg-1.0" = _ypJ8gzmJ;
         "default" = _ypJ8gzmJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

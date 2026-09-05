@@ -22,6 +22,8 @@ let
         "forge-1.20.1" = _haugsp18;
         "quilt-1.20" = _haugsp18;
         "quilt-1.20.1" = _haugsp18;
+        "pkg-1.0" = _zQxXzUGO;
+        "pkg-1.0+mod" = _haugsp18;
         "default" = _haugsp18;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

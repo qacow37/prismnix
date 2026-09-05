@@ -142,6 +142,18 @@ let
         "geyser-1.21.9" = _DTAC2XZg;
         "geyser-1.21.10" = _DTAC2XZg;
         "geyser-1.21.11" = _DTAC2XZg;
+        "pkg-1.0.0" = _ZN6jQa1Z;
+        "pkg-1.1.0" = _pkcG19by;
+        "pkg-1.2.0" = _yADom2bj;
+        "pkg-1.3.0" = _Hl7frCO6;
+        "pkg-1.4.0" = _dPmypkMm;
+        "pkg-1.4.1-BETA" = _UIPbbXXI;
+        "pkg-1.4.2-BETA" = _DQ5i2Bbs;
+        "pkg-1.4.3-BETA" = _W9ussssf;
+        "pkg-1.4.3-BETA.1" = _jeghxPgr;
+        "pkg-1.5.0" = _DTAC2XZg;
+        "pkg-1.6.0-BETA" = _B5KwFs11;
+        "pkg-1.6.0-BETA.26.7.2" = _KWqoRU7t;
         "default" = _KWqoRU7t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

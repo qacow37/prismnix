@@ -15,6 +15,8 @@ let
         "FbllYDtE" = _FbllYDtE;
         "Dys1Pyys" = _Dys1Pyys;
         "fabric-1.20.4" = _Dys1Pyys;
+        "pkg-1.0.0-R" = _FbllYDtE;
+        "pkg-1.0.1-R" = _Dys1Pyys;
         "default" = _Dys1Pyys;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

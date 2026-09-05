@@ -10,6 +10,7 @@ let
         "sQVxG59N" = _sQVxG59N;
         "minecraft-1.20.1" = _sQVxG59N;
         "minecraft-1.21.1" = _sQVxG59N;
+        "pkg-v1.0" = _sQVxG59N;
         "default" = _sQVxG59N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "iOrVIixn" = _iOrVIixn;
         "BWOWIzRW" = _BWOWIzRW;
         "forge-1.8.9" = _BWOWIzRW;
+        "pkg-0.7.0" = _iOrVIixn;
+        "pkg-0.8.0" = _BWOWIzRW;
         "default" = _BWOWIzRW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

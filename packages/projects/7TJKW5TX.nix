@@ -33,6 +33,11 @@ let
         "PGW8iMlu" = _PGW8iMlu;
         "VHnbMfLh" = _VHnbMfLh;
         "forge-1.18.2" = _VHnbMfLh;
+        "pkg-1.0.0" = _NWtSST21;
+        "pkg-1.1" = _p4MM0ahg;
+        "pkg-2.0.0" = _1OwAH6Ld;
+        "pkg-2.0.1" = _PGW8iMlu;
+        "pkg-2.0.2" = _VHnbMfLh;
         "default" = _VHnbMfLh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

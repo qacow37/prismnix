@@ -57,6 +57,7 @@ let
         "neoforge-1.21.9" = _YpuVUPTf;
         "neoforge-1.21.10" = _YpuVUPTf;
         "neoforge-1.21.11" = _YpuVUPTf;
+        "pkg-1.0.0" = _ovNKHqSI;
         "default" = _ovNKHqSI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

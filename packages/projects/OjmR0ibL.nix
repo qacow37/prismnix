@@ -15,6 +15,8 @@ let
         "lxMP6ErT" = _lxMP6ErT;
         "LQmwlSCg" = _LQmwlSCg;
         "neoforge-1.21.1" = _LQmwlSCg;
+        "pkg-1.0.0" = _lxMP6ErT;
+        "pkg-1.0.1" = _LQmwlSCg;
         "default" = _LQmwlSCg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

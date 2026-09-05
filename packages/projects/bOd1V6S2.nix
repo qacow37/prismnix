@@ -9,6 +9,7 @@ let
     in {
         "XMVAcCCG" = _XMVAcCCG;
         "fabric-1.20.1" = _XMVAcCCG;
+        "pkg-1.0-SNAPSHOT" = _XMVAcCCG;
         "default" = _XMVAcCCG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

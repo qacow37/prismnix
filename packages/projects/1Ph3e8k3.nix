@@ -39,6 +39,7 @@ let
         "minecraft-26.1.1" = _LpVAcAPr;
         "minecraft-26.1.2" = _LpVAcAPr;
         "minecraft-26.2" = _LpVAcAPr;
+        "pkg-0.1" = _LpVAcAPr;
         "default" = _LpVAcAPr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

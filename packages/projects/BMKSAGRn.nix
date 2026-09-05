@@ -21,6 +21,9 @@ let
         "iXIOdIoV" = _iXIOdIoV;
         "TDwrdjSl" = _TDwrdjSl;
         "fabric-1.18.2" = _TDwrdjSl;
+        "pkg-1.0" = _36sR4oUt;
+        "pkg-1.0.1" = _iXIOdIoV;
+        "pkg-1.0.2" = _TDwrdjSl;
         "default" = _TDwrdjSl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

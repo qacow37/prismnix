@@ -12,6 +12,7 @@ let
         "fabric-1.20.2" = _txVVemow;
         "fabric-1.20.3" = _txVVemow;
         "fabric-1.20.4" = _txVVemow;
+        "pkg-1.0.0" = _txVVemow;
         "default" = _txVVemow;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

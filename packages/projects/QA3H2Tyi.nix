@@ -21,6 +21,9 @@ let
         "MsZmldV1" = _MsZmldV1;
         "npnTVv1P" = _npnTVv1P;
         "forge-1.20.1" = _npnTVv1P;
+        "pkg-0.4.0" = _6wxugpaY;
+        "pkg-1.1.0" = _MsZmldV1;
+        "pkg-1.2.0" = _npnTVv1P;
         "default" = _npnTVv1P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -45,6 +45,13 @@ let
         "zSoxO819" = _zSoxO819;
         "mDs6PAQr" = _mDs6PAQr;
         "forge-1.7.10" = _mDs6PAQr;
+        "pkg-1.4.0" = _cxBLzKBI;
+        "pkg-1.4.1" = _1Eqtjw42;
+        "pkg-2.0.0" = _8MWIWzFO;
+        "pkg-2.0.0-hotfix1" = _MAuFfNco;
+        "pkg-2.1.0" = _raXHB8H0;
+        "pkg-2.2.0" = _zSoxO819;
+        "pkg-2.2.1" = _mDs6PAQr;
         "default" = _mDs6PAQr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

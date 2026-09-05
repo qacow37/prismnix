@@ -18,6 +18,8 @@ let
         "fabric-1.20.2" = _AxX55leQ;
         "quilt-1.20.1" = _AxX55leQ;
         "quilt-1.20.2" = _AxX55leQ;
+        "pkg-0.0.2+mc1.20.1" = _vUrZVMlW;
+        "pkg-1.0.0+mc1.20.1" = _AxX55leQ;
         "default" = _AxX55leQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

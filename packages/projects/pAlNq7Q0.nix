@@ -15,6 +15,8 @@ let
         "6fsw7IcG" = _6fsw7IcG;
         "AVQMM77i" = _AVQMM77i;
         "fabric-1.20.1" = _AVQMM77i;
+        "pkg-Fabric-1.2.0" = _6fsw7IcG;
+        "pkg-Fabric-1.3.0" = _AVQMM77i;
         "default" = _AVQMM77i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "GJBCdLxi" = _GJBCdLxi;
         "fabric-1.20.1" = _AjTXhw4l;
         "fabric-1.21.1" = _GJBCdLxi;
+        "pkg-1.20.1-1.0.2" = _AjTXhw4l;
+        "pkg-1.21.1-1.0.3" = _GJBCdLxi;
         "default" = _GJBCdLxi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

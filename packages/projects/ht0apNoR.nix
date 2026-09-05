@@ -11,6 +11,7 @@ let
         "forge-1.20.1" = _PbDumJ1A;
         "forge-1.20.2" = _PbDumJ1A;
         "forge-1.20.3" = _PbDumJ1A;
+        "pkg-2.2.0" = _PbDumJ1A;
         "default" = _PbDumJ1A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

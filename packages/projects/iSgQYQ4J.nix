@@ -31,6 +31,7 @@ let
         "iris-1.21.8" = _g4gbPUnA;
         "iris-1.21.9" = _g4gbPUnA;
         "iris-1.21.10" = _g4gbPUnA;
+        "pkg-1" = _g4gbPUnA;
         "default" = _g4gbPUnA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

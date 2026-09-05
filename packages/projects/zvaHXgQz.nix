@@ -21,6 +21,8 @@ let
         "quilt-1.20.1" = _Uwi3mNBj;
         "quilt-1.21.1" = _P1pdTwvn;
         "neoforge-1.21.1" = _P1pdTwvn;
+        "pkg-1.0" = _Uwi3mNBj;
+        "pkg-1.0.1" = _P1pdTwvn;
         "default" = _P1pdTwvn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

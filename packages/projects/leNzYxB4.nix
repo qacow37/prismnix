@@ -21,6 +21,9 @@ let
         "8we5wzoi" = _8we5wzoi;
         "RH0ET8NX" = _RH0ET8NX;
         "forge-1.20.1" = _RH0ET8NX;
+        "pkg-0.1.0" = _uqxzllWF;
+        "pkg-0.2.0" = _8we5wzoi;
+        "pkg-0.2.1" = _RH0ET8NX;
         "default" = _RH0ET8NX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

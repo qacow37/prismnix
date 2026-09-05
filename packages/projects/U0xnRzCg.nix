@@ -9,6 +9,7 @@ let
     in {
         "vB2R8SDX" = _vB2R8SDX;
         "forge-1.12.2" = _vB2R8SDX;
+        "pkg-1.12.2-1.4.5" = _vB2R8SDX;
         "default" = _vB2R8SDX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -93,6 +93,9 @@ let
         "quilt-1.21.2" = _iAveSpWS;
         "quilt-1.21.3" = _iAveSpWS;
         "quilt-1.21.4" = _iAveSpWS;
+        "pkg-0.1.0+1.20.6" = _5vVNZtcV;
+        "pkg-0.1.0+1.21.1" = _iAveSpWS;
+        "pkg-0.1.0+1.20.1" = _flZk3Lvn;
         "default" = _flZk3Lvn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "AVrOs8y4" = _AVrOs8y4;
         "LSWMTcC6" = _LSWMTcC6;
         "minecraft-1.21.1" = _LSWMTcC6;
+        "pkg-CobbleTCG-ResourcePack3-1.0.0" = _AVrOs8y4;
+        "pkg-CobbleTCG_ResourcePack4-1.3.9" = _LSWMTcC6;
         "default" = _LSWMTcC6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

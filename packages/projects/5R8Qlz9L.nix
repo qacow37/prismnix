@@ -28,6 +28,10 @@ let
         "NDpyqaxa" = _NDpyqaxa;
         "neoforge-1.21.1" = _EL4qAdjS;
         "fabric-1.21.1" = _NDpyqaxa;
+        "pkg-0.1.0+1.21.1-neoforge" = _8pmYYO6a;
+        "pkg-0.1.0+1.21.1-fabric" = _XL1iumuJ;
+        "pkg-0.2.0+1.21.1-neoforge" = _EL4qAdjS;
+        "pkg-0.2.0+1.21.1-fabric" = _NDpyqaxa;
         "default" = _NDpyqaxa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

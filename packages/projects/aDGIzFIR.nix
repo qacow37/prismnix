@@ -22,6 +22,9 @@ let
         "77QX4y87" = _77QX4y87;
         "forge-1.20.1" = _77QX4y87;
         "fabric-1.20.1" = _77QX4y87;
+        "pkg-0.1.0" = _wYtVQmdv;
+        "pkg-0.2.0-Beta" = _hANpsmYK;
+        "pkg-1.0.0" = _77QX4y87;
         "default" = _77QX4y87;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

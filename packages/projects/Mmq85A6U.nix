@@ -9,6 +9,7 @@ let
     in {
         "XUesAnAB" = _XUesAnAB;
         "forge-1.20.1" = _XUesAnAB;
+        "pkg-1.0.0" = _XUesAnAB;
         "default" = _XUesAnAB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

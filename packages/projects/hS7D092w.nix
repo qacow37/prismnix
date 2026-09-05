@@ -28,6 +28,10 @@ let
         "243ckPF1" = _243ckPF1;
         "fabric-1.20.1" = _iclzdeHB;
         "fabric-1.21.1" = _243ckPF1;
+        "pkg-0.8-1.20.1" = _ZtcSDGs5;
+        "pkg-0.8-1.21.1" = _V5UHDBZc;
+        "pkg-0.9-1.20.1" = _iclzdeHB;
+        "pkg-0.9-1.21.1" = _243ckPF1;
         "default" = _243ckPF1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

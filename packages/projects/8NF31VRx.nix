@@ -9,6 +9,7 @@ let
     in {
         "2AtONrEJ" = _2AtONrEJ;
         "fabric-1.20.1" = _2AtONrEJ;
+        "pkg-0.1.0" = _2AtONrEJ;
         "default" = _2AtONrEJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

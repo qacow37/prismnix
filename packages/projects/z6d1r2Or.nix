@@ -10,6 +10,7 @@ let
         "zD1XN9Sc" = _zD1XN9Sc;
         "fabric-1.21" = _zD1XN9Sc;
         "fabric-1.21.1" = _zD1XN9Sc;
+        "pkg-1.0.0" = _zD1XN9Sc;
         "default" = _zD1XN9Sc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

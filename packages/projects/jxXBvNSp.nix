@@ -40,6 +40,12 @@ let
         "DCSp1i5p" = _DCSp1i5p;
         "forge-1.20.1" = _2sNcWf8K;
         "neoforge-1.21.1" = _DCSp1i5p;
+        "pkg-1.1.0" = _owsRtsAB;
+        "pkg-1.1.1" = _ZqtwFI00;
+        "pkg-1.1.2" = _2sNcWf8K;
+        "pkg-1.1.3" = _uE0FiQTt;
+        "pkg-1.1.3_fix" = _vpJ7H4nq;
+        "pkg-1.2.0" = _DCSp1i5p;
         "default" = _DCSp1i5p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

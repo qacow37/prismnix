@@ -33,6 +33,11 @@ let
         "QVxpecPA" = _QVxpecPA;
         "WldS3kKe" = _WldS3kKe;
         "forge-1.20.1" = _WldS3kKe;
+        "pkg-1.0.0" = _gCPj3nIW;
+        "pkg-1.1.0" = _iRjK0T0H;
+        "pkg-1.1.1" = _Yzn6sRqF;
+        "pkg-1.1.2" = _QVxpecPA;
+        "pkg-1.1.3" = _WldS3kKe;
         "default" = _WldS3kKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

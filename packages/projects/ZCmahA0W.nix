@@ -15,6 +15,8 @@ let
         "CQhxdTpR" = _CQhxdTpR;
         "BHrejOJa" = _BHrejOJa;
         "fabric-1.20.1" = _BHrejOJa;
+        "pkg-1.20.1-1.0.2" = _CQhxdTpR;
+        "pkg-1.20.1-1.0.3" = _BHrejOJa;
         "default" = _BHrejOJa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

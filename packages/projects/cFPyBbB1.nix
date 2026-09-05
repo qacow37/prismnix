@@ -150,6 +150,22 @@ let
         "iris-1.20.1" = _o2S1KeDB;
         "optifine-1.12.2" = _o2S1KeDB;
         "optifine-1.20.1" = _o2S1KeDB;
+        "pkg-1.0.1" = _1vAJ9kZm;
+        "pkg-2.0.1" = _7LqM8Hgz;
+        "pkg-2.0.2" = _yKyfsBc1;
+        "pkg-2.0.3" = _oubY67ly;
+        "pkg-2.0.4" = _kYLLjFRs;
+        "pkg-2.0.5" = _oL5ZDqaO;
+        "pkg-3.0.1" = _XPk3t2fu;
+        "pkg-3.0.2" = _Iee65Dko;
+        "pkg-3.1.0" = _cgsXvszz;
+        "pkg-3.1.1" = _TuhpCFo4;
+        "pkg-3.1.2" = _qu8TrEXT;
+        "pkg-3.1.3" = _sEhgXHWg;
+        "pkg-3.1.4" = _kOpdzyEV;
+        "pkg-3.1.5" = _2xlJfRwd;
+        "pkg-3.1.6" = _vyWrTwOC;
+        "pkg-3.1.7" = _o2S1KeDB;
         "default" = _o2S1KeDB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

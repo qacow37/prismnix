@@ -6348,6 +6348,9 @@ let
         "rift-26.2-rc-1" = _4ablvWsr;
         "rift-26.2-rc-2" = _4ablvWsr;
         "rift-26.2" = _4ablvWsr;
+        "pkg-0.1" = _S9xoGIaJ;
+        "pkg-0.2" = _WfCNPEbf;
+        "pkg-0.2.1" = _4ablvWsr;
         "default" = _4ablvWsr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

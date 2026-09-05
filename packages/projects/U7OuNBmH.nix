@@ -9,6 +9,7 @@ let
     in {
         "xg9813ki" = _xg9813ki;
         "fabric-1.19.2" = _xg9813ki;
+        "pkg-1.3.6" = _xg9813ki;
         "default" = _xg9813ki;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

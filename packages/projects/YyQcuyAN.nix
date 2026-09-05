@@ -22,6 +22,8 @@ let
         "UZEBNeOe" = _UZEBNeOe;
         "minecraft-1.21" = _UZEBNeOe;
         "minecraft-1.21.1" = _UZEBNeOe;
+        "pkg-1" = _UZEBNeOe;
+        "pkg-2" = _ksGl1HTJ;
         "default" = _UZEBNeOe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "vtkmMv0z" = _vtkmMv0z;
         "fabric-1.21" = _vtkmMv0z;
+        "pkg-release-candidate-1.0.3" = _vtkmMv0z;
         "default" = _vtkmMv0z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

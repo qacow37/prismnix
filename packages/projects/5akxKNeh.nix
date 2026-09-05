@@ -24,6 +24,8 @@ let
         "neoforge-1.21.1" = _NYSYVanQ;
         "quilt-1.21" = _NYSYVanQ;
         "quilt-1.21.1" = _NYSYVanQ;
+        "pkg-1.0" = _AUAQsUm3;
+        "pkg-1.0+mod" = _NYSYVanQ;
         "default" = _NYSYVanQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

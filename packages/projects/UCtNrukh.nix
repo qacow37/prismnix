@@ -15,6 +15,8 @@ let
         "ay1DO2GF" = _ay1DO2GF;
         "ahVm4QAY" = _ahVm4QAY;
         "fabric-1.21.1" = _ahVm4QAY;
+        "pkg-1.0" = _ay1DO2GF;
+        "pkg-1.1" = _ahVm4QAY;
         "default" = _ahVm4QAY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

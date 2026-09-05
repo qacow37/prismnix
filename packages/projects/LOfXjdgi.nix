@@ -54,6 +54,8 @@ let
         "quilt-1.19.4" = _AdXPoYiL;
         "quilt-1.20" = _AdXPoYiL;
         "quilt-1.20.1" = _AdXPoYiL;
+        "pkg-1.4.5" = _EyU6v6wJ;
+        "pkg-1.4.6" = _AdXPoYiL;
         "default" = _AdXPoYiL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

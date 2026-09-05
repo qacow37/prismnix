@@ -197,6 +197,27 @@ let
         "minecraft-26.1.1" = _iqZUwLKq;
         "minecraft-26.1.2" = _iqZUwLKq;
         "minecraft-26.2" = _iqZUwLKq;
+        "pkg-FPA+All_Extensions-v1.3" = _rha2Izh9;
+        "pkg-FreshProgrammerAnimations_v1.9" = _YwxdFjEn;
+        "pkg-FPA+All_Extensions-v1.4" = _6Iv6spK7;
+        "pkg-FreshProgrammerAnimations_v1.9.2" = _Uk7YCTj6;
+        "pkg-FPA+All_Extensions-v1.4.1" = _u39AB2YO;
+        "pkg-FreshProgrammerAnimations_v1.9.3" = _WfuiBEcC;
+        "pkg-FreshProgrammerAnimations_1.9.3a" = _GeSSdBjX;
+        "pkg-FPA+All_Extensions-v1.4.2" = _zenlpNb0;
+        "pkg-FreshProgrammerAnimations_v1.9.4" = _WjRVhmLQ;
+        "pkg-FPA+All_Extensions-v1.5.2" = _mtRyNN4q;
+        "pkg-FPA+All_Extensions-v1.5.2a" = _3bhNmM7Y;
+        "pkg-FreshProgrammerAnimations_1.9.4a" = _S7eLgxAL;
+        "pkg-FreshProgrammerAnimations_v1.10" = _zV0YZ779;
+        "pkg-FPA+All_Extensions-v1.6" = _NrMoHlPW;
+        "pkg-FreshProgrammerAnimations_1.10.1" = _5ByKri0v;
+        "pkg-FPA+All_Extensions-v1.7" = _Z92gfu2H;
+        "pkg-FreshProgrammerAnimations_1.10.3" = _hO5ap9qk;
+        "pkg-FPA+All_Extensions-v1.8" = _vJDoVdvy;
+        "pkg-FreshProgrammerAnimations_1.10.4" = _Col8XiYP;
+        "pkg-FPA+All_Extensions-v1.9.2" = _obodS6RZ;
+        "pkg-FreshProgrammerAnimations_1.10.5" = _iqZUwLKq;
         "default" = _iqZUwLKq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "ojF27UGr" = _ojF27UGr;
         "forge-1.20.1" = _ojF27UGr;
+        "pkg-1.0.0" = _ojF27UGr;
         "default" = _ojF27UGr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

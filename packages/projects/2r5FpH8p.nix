@@ -21,6 +21,9 @@ let
         "DrJIhaPB" = _DrJIhaPB;
         "erWSHMgu" = _erWSHMgu;
         "fabric-1.21.11" = _erWSHMgu;
+        "pkg-1.21.11-1.0" = _UtIISgzB;
+        "pkg-1.21.11-1.1" = _DrJIhaPB;
+        "pkg-1.21.11-2.0" = _erWSHMgu;
         "default" = _erWSHMgu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

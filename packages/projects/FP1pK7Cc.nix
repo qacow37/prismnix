@@ -54,6 +54,10 @@ let
         "fabric-1.20.1" = _PDrgNlbr;
         "forge-1.20" = _xpxx0Wsz;
         "forge-1.20.1" = _xpxx0Wsz;
+        "pkg-Do_not_download_this_version" = _DF5hxEvW;
+        "pkg-1.0.1.3(Version_Horizons)" = _iZWbyYF6;
+        "pkg-1.0.1.3Forge(Sinytra_Connector)" = _r9SKlOCs;
+        "pkg-1.5.0_GnomeChroniclesChapter2" = _xpxx0Wsz;
         "default" = _xpxx0Wsz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

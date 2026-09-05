@@ -9,6 +9,7 @@ let
     in {
         "qlwYTecP" = _qlwYTecP;
         "forge-1.20.1" = _qlwYTecP;
+        "pkg-1.20.1-8.0.0" = _qlwYTecP;
         "default" = _qlwYTecP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

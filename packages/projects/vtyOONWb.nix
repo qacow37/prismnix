@@ -9,6 +9,7 @@ let
     in {
         "Vb1bAmzm" = _Vb1bAmzm;
         "fabric-1.21.4" = _Vb1bAmzm;
+        "pkg-1.0.0" = _Vb1bAmzm;
         "default" = _Vb1bAmzm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

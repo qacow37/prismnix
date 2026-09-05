@@ -40,6 +40,12 @@ let
         "bz59xhbt" = _bz59xhbt;
         "iris-1.21.11" = _bz59xhbt;
         "optifine-1.21.11" = _bz59xhbt;
+        "pkg-1.0.0-alpha" = _KMCM3nr8;
+        "pkg-1.0.1-beta" = _QYv5bEQC;
+        "pkg-1.0.2-beta" = _MUDq2Icv;
+        "pkg-1.0.3-beta" = _6s5KqOc2;
+        "pkg-1.0.4-beta" = _dkr9IP3w;
+        "pkg-1.0.5-beta" = _bz59xhbt;
         "default" = _bz59xhbt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

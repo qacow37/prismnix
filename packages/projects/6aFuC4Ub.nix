@@ -15,6 +15,8 @@ let
         "LbwXq6mm" = _LbwXq6mm;
         "fFBFJaJ5" = _fFBFJaJ5;
         "fabric-1.20.4" = _fFBFJaJ5;
+        "pkg-0.0.1+1.20.4" = _LbwXq6mm;
+        "pkg-0.0.2+1.20.4" = _fFBFJaJ5;
         "default" = _fFBFJaJ5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

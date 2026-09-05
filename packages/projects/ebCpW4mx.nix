@@ -15,6 +15,8 @@ let
         "4znGZOnv" = _4znGZOnv;
         "kapBChew" = _kapBChew;
         "forge-1.12.2" = _kapBChew;
+        "pkg-1.0.0" = _4znGZOnv;
+        "pkg-1.0.1" = _kapBChew;
         "default" = _kapBChew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

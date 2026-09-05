@@ -21,6 +21,9 @@ let
         "sEkLPMlj" = _sEkLPMlj;
         "KUM1RGhL" = _KUM1RGhL;
         "minecraft-1.12.2" = _KUM1RGhL;
+        "pkg-0.1" = _a5r24jc9;
+        "pkg-0.2" = _sEkLPMlj;
+        "pkg-latest" = _KUM1RGhL;
         "default" = _KUM1RGhL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

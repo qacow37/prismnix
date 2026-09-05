@@ -27,6 +27,10 @@ let
         "BvAMVUiF" = _BvAMVUiF;
         "wbr62bA8" = _wbr62bA8;
         "fabric-1.20.1" = _wbr62bA8;
+        "pkg-1.0.0" = _HPyVGr2a;
+        "pkg-1.1.0" = _rJa3zEAj;
+        "pkg-1.1.1" = _BvAMVUiF;
+        "pkg-1.1.2" = _wbr62bA8;
         "default" = _wbr62bA8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

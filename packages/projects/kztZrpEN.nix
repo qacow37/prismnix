@@ -32,6 +32,7 @@ let
         "minecraft-1.21.9" = _NsqLyxen;
         "minecraft-1.21.10" = _NsqLyxen;
         "minecraft-1.21.11" = _NsqLyxen;
+        "pkg-1.0" = _NsqLyxen;
         "default" = _NsqLyxen;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,10 @@ let
         "1SBgzeka" = _1SBgzeka;
         "uEJ3PuJi" = _uEJ3PuJi;
         "forge-1.20.1" = _uEJ3PuJi;
+        "pkg-2.0.294" = _C3FRiviy;
+        "pkg-0.4.294" = _EG1eFNN7;
+        "pkg-0.4.302" = _1SBgzeka;
+        "pkg-0.4.316" = _uEJ3PuJi;
         "default" = _uEJ3PuJi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

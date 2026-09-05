@@ -15,6 +15,8 @@ let
         "4hl1BvHu" = _4hl1BvHu;
         "OIgSethw" = _OIgSethw;
         "forge-1.20.1" = _OIgSethw;
+        "pkg-1.0.0" = _4hl1BvHu;
+        "pkg-2.0.0" = _OIgSethw;
         "default" = _OIgSethw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

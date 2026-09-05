@@ -22,6 +22,9 @@ let
         "PTb17CRD" = _PTb17CRD;
         "forge-1.20.1" = _cvA7ALRU;
         "neoforge-1.21.1" = _PTb17CRD;
+        "pkg-1.0.0" = _EduTEjmt;
+        "pkg-1.0.1" = _cvA7ALRU;
+        "pkg-1.21.1-2.0.0" = _PTb17CRD;
         "default" = _PTb17CRD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

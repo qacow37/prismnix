@@ -16,6 +16,8 @@ let
         "x3cFe98Q" = _x3cFe98Q;
         "fabric-1.21.4" = _csd755Qe;
         "fabric-1.21.11" = _x3cFe98Q;
+        "pkg-1.0.0-1.21.4" = _csd755Qe;
+        "pkg-1.0.1-1.21.11" = _x3cFe98Q;
         "default" = _x3cFe98Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

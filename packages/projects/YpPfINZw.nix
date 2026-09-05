@@ -9,6 +9,7 @@ let
     in {
         "zSCsEKfr" = _zSCsEKfr;
         "neoforge-1.21.1" = _zSCsEKfr;
+        "pkg-1.1" = _zSCsEKfr;
         "default" = _zSCsEKfr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

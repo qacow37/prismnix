@@ -22,6 +22,9 @@ let
         "KZsT4Uak" = _KZsT4Uak;
         "iris-1.21.11" = _KZsT4Uak;
         "optifine-1.21.11" = _KZsT4Uak;
+        "pkg-beta-1.0" = _3A9pBGNf;
+        "pkg-beta-1.1" = _kggf9mSm;
+        "pkg-beta-1.2" = _KZsT4Uak;
         "default" = _KZsT4Uak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

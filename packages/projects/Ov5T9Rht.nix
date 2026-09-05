@@ -15,6 +15,8 @@ let
         "FpRCds9U" = _FpRCds9U;
         "CuHuik2S" = _CuHuik2S;
         "forge-1.20.1" = _CuHuik2S;
+        "pkg-0.2.0+alpha.11.51" = _FpRCds9U;
+        "pkg-0.2.0-c3me-alpha.11.52-dirty" = _CuHuik2S;
         "default" = _CuHuik2S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

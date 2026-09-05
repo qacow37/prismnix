@@ -172,6 +172,7 @@ let
         "optifine-26.1.1" = _lSnWgJsC;
         "optifine-26.1.2" = _lSnWgJsC;
         "optifine-26.2" = _lSnWgJsC;
+        "pkg-1.0" = _lSnWgJsC;
         "default" = _lSnWgJsC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,9 @@ let
         "ik24PT1I" = _ik24PT1I;
         "uZNPFyjA" = _uZNPFyjA;
         "forge-1.20.1" = _uZNPFyjA;
+        "pkg-1.0.2" = _6nYTRjFv;
+        "pkg-1.0.3" = _Ec79fwga;
+        "pkg-1.0.4" = _uZNPFyjA;
         "default" = _uZNPFyjA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

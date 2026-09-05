@@ -66,6 +66,9 @@ let
         "datapack-26.1.1" = _U827mWfM;
         "datapack-26.1.2" = _U827mWfM;
         "datapack-26.2" = _M7u17Rji;
+        "pkg-0.0.0" = _Hev5raG7;
+        "pkg-0.0.1" = _twLLp2bF;
+        "pkg-0.0.2" = _M7u17Rji;
         "default" = _M7u17Rji;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

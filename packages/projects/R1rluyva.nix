@@ -75,6 +75,17 @@ let
         "vZozd2fk" = _vZozd2fk;
         "GoC3OIL4" = _GoC3OIL4;
         "forge-1.20.1" = _GoC3OIL4;
+        "pkg-1.0.0" = _JwaZBR23;
+        "pkg-1.0.6" = _zHdgx0Av;
+        "pkg-1.1.2" = _MPyQD9Wi;
+        "pkg-1.1.3" = _aHhIman3;
+        "pkg-1.1.4" = _BiKtP6xs;
+        "pkg-1.1.5" = _FvcA9h2C;
+        "pkg-1.1.6" = _wM2sKIlE;
+        "pkg-1.1.8" = _nrhf55L3;
+        "pkg-1.2.8" = _KHokwBtd;
+        "pkg-1.3.9" = _vZozd2fk;
+        "pkg-1.4.0" = _GoC3OIL4;
         "default" = _GoC3OIL4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

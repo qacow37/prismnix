@@ -20,6 +20,7 @@ let
         "fabric-1.21.9" = _L78APZdS;
         "fabric-1.21.10" = _L78APZdS;
         "fabric-1.21.11" = _L78APZdS;
+        "pkg-1.0.0" = _L78APZdS;
         "default" = _L78APZdS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

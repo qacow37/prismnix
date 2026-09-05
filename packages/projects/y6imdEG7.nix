@@ -27,6 +27,10 @@ let
         "ZU840PVN" = _ZU840PVN;
         "pUtl6XNx" = _pUtl6XNx;
         "neoforge-1.21.1" = _pUtl6XNx;
+        "pkg-1.0.1" = _qEKe8HA9;
+        "pkg-1.1.0" = _FkXtq7FW;
+        "pkg-1.1.1" = _ZU840PVN;
+        "pkg-1.1.2" = _pUtl6XNx;
         "default" = _pUtl6XNx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

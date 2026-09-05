@@ -26,6 +26,8 @@ let
         "minecraft-26.1" = _LowWajHa;
         "minecraft-26.1.1" = _LowWajHa;
         "minecraft-26.1.2" = _LowWajHa;
+        "pkg-0.0.1" = _3Vu7sgKb;
+        "pkg-0.0.2" = _LowWajHa;
         "default" = _LowWajHa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

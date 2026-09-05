@@ -9,6 +9,7 @@ let
     in {
         "XfbGthbN" = _XfbGthbN;
         "forge-1.12" = _XfbGthbN;
+        "pkg-3.1.1" = _XfbGthbN;
         "default" = _XfbGthbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

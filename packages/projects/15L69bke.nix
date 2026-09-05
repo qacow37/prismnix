@@ -17,6 +17,7 @@ let
         "minecraft-1.21.4" = _isWuOukc;
         "minecraft-1.21.5" = _isWuOukc;
         "minecraft-1.21.6" = _isWuOukc;
+        "pkg-1.0" = _isWuOukc;
         "default" = _isWuOukc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

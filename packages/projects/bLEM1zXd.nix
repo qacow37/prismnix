@@ -15,6 +15,8 @@ let
         "Zb30i1wJ" = _Zb30i1wJ;
         "8N5LHbe2" = _8N5LHbe2;
         "neoforge-1.21.1" = _8N5LHbe2;
+        "pkg-2.0.0" = _Zb30i1wJ;
+        "pkg-3.0.0" = _8N5LHbe2;
         "default" = _8N5LHbe2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

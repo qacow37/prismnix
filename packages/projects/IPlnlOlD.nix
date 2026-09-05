@@ -37,6 +37,7 @@ let
         "minecraft-1.21.9" = _xKMFIsVW;
         "minecraft-1.21.10" = _xKMFIsVW;
         "minecraft-1.21.11" = _xKMFIsVW;
+        "pkg-0.0.1" = _xKMFIsVW;
         "default" = _xKMFIsVW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

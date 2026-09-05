@@ -58,6 +58,11 @@ let
         "optifine-1.21.5" = _TCGgPyZf;
         "optifine-1.21.6" = _TCGgPyZf;
         "optifine-1.21.11" = _G38wemAP;
+        "pkg-v1.0" = _12M2WIZQ;
+        "pkg-v1.1" = _TCGgPyZf;
+        "pkg-v1.2" = _HXA1198p;
+        "pkg-v1.3" = _qYvp2TfG;
+        "pkg-v1.4" = _G38wemAP;
         "default" = _G38wemAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

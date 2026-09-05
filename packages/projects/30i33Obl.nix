@@ -40,6 +40,12 @@ let
         "SGwmNYC6" = _SGwmNYC6;
         "fabric-1.20.1" = _qE0A2kSy;
         "fabric-1.21.1" = _SGwmNYC6;
+        "pkg-1.6.6-SERVERONLY" = _mM8e4RyQ;
+        "pkg-1.7.1-SERVERONLY" = _kKuVEmqL;
+        "pkg-1.8.0+1.6.0-serveronly" = _acxAaihj;
+        "pkg-1.8.1+1.6.0-serveronly" = _Ibtz2gVi;
+        "pkg-1.7.5+1.5.2-serveronly" = _qE0A2kSy;
+        "pkg-1.8.1+1.6.0-serveronly-hotfix.1" = _SGwmNYC6;
         "default" = _SGwmNYC6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

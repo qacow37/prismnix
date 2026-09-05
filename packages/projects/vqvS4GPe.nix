@@ -22,6 +22,8 @@ let
         "kRVokcp8" = _kRVokcp8;
         "neoforge-1.21.1" = _kRVokcp8;
         "fabric-1.21.1" = _rTQx7khC;
+        "pkg-1.0" = _iEwjSQFO;
+        "pkg-1.1" = _kRVokcp8;
         "default" = _kRVokcp8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

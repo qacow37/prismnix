@@ -10,6 +10,7 @@ let
         "uILC37KT" = _uILC37KT;
         "minecraft-1.20.1" = _uILC37KT;
         "minecraft-1.21.1" = _uILC37KT;
+        "pkg-1.0" = _uILC37KT;
         "default" = _uILC37KT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

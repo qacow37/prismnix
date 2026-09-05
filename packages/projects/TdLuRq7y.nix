@@ -15,6 +15,8 @@ let
         "AKKYx6bx" = _AKKYx6bx;
         "rDs3N6GK" = _rDs3N6GK;
         "forge-1.8.9" = _rDs3N6GK;
+        "pkg-1.0.0" = _AKKYx6bx;
+        "pkg-1.0.1" = _rDs3N6GK;
         "default" = _rDs3N6GK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

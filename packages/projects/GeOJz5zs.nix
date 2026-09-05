@@ -32,6 +32,9 @@ let
         "fabric-1.21.9" = _JPCGsA3B;
         "fabric-1.21.10" = _JPCGsA3B;
         "fabric-1.21.11" = _JPCGsA3B;
+        "pkg-1.0.0" = _Inv0PgOW;
+        "pkg-2.0.0" = _dW6m7kXM;
+        "pkg-2.1.0" = _JPCGsA3B;
         "default" = _JPCGsA3B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

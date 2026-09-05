@@ -9,6 +9,7 @@ let
     in {
         "HBM3CLMe" = _HBM3CLMe;
         "minecraft-1.19.4" = _HBM3CLMe;
+        "pkg-Pre-release" = _HBM3CLMe;
         "default" = _HBM3CLMe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

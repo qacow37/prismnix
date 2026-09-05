@@ -22,6 +22,7 @@ let
         "quilt-1.19.1" = _9TLligoh;
         "quilt-1.19.2" = _9TLligoh;
         "quilt-1.19.3" = _9TLligoh;
+        "pkg-1.0" = _9TLligoh;
         "default" = _9TLligoh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

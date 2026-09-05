@@ -95,6 +95,8 @@ let
         "minecraft-1.21.8" = _GtfnNi2s;
         "minecraft-1.21.9" = _GtfnNi2s;
         "minecraft-1.21.10" = _GtfnNi2s;
+        "pkg-1.0.0" = _d5SKL9fo;
+        "pkg-1.1.0" = _GtfnNi2s;
         "default" = _GtfnNi2s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

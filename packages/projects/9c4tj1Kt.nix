@@ -47,6 +47,7 @@ let
         "spigot-26.1" = _vCb6Vntp;
         "spigot-26.1.1" = _vCb6Vntp;
         "spigot-26.1.2" = _vCb6Vntp;
+        "pkg-2.3.542" = _vCb6Vntp;
         "default" = _vCb6Vntp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

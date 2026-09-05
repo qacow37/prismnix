@@ -44,6 +44,7 @@ let
         "minecraft-1.20.6" = _vTnG250W;
         "minecraft-1.21" = _vTnG250W;
         "minecraft-1.21.1" = _vTnG250W;
+        "pkg-1.0" = _vTnG250W;
         "default" = _vTnG250W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

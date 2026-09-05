@@ -76,6 +76,12 @@ let
         "kWFCN86H" = _kWFCN86H;
         "fabric-1.21.1" = _uSdiTchw;
         "neoforge-1.21.1" = _kWFCN86H;
+        "pkg-1.1.0" = _eMh15LQl;
+        "pkg-2.0.0" = _C8Y2EyfS;
+        "pkg-3.0.0" = _g9woBtec;
+        "pkg-4.0" = _H7eywqLe;
+        "pkg-5.0" = _MwV4Nt7w;
+        "pkg-6.0" = _kWFCN86H;
         "default" = _kWFCN86H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

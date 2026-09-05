@@ -46,6 +46,11 @@ let
         "XGUSMafs" = _XGUSMafs;
         "neoforge-1.21.1" = _XGUSMafs;
         "forge-1.20.1" = _6oY5A4Iy;
+        "pkg-1.0.0" = _zimlpv6q;
+        "pkg-1.0.1" = _6oY5A4Iy;
+        "pkg-1.1.1" = _ShEtolZO;
+        "pkg-1.1.3" = _yOeCh9kk;
+        "pkg-1.1.4" = _XGUSMafs;
         "default" = _XGUSMafs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

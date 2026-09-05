@@ -182,6 +182,27 @@ let
         "quilt-26.1.1" = _pyb3QTAB;
         "quilt-26.1.2" = _pyb3QTAB;
         "quilt-26.2" = _K0fdPZxH;
+        "pkg-2.0.0-patch.1+1.19" = _gS8vcSJi;
+        "pkg-2.0.1+1.19" = _4nZ3ZqFo;
+        "pkg-2.0.2+1.19" = _KLuVGUhK;
+        "pkg-2.0.3+1.18.2" = _9LImpn6Z;
+        "pkg-2.0.3+1.19" = _RxAVFfwY;
+        "pkg-2.0.4+1.19" = _LCc1Cfsz;
+        "pkg-2.0.4+1.19.3" = _oRdfEj1H;
+        "pkg-2.0.4+1.20" = _PcI8qT7z;
+        "pkg-2.0.5+1.20" = _grjLcXPi;
+        "pkg-2.0.6+1.20.4" = _O2IHka8e;
+        "pkg-2.0.7+1.20.6" = _N7qwK9Qw;
+        "pkg-2.0.8+1.21" = _WFAsTXt4;
+        "pkg-2.0.9+1.21" = _dsB08lSK;
+        "pkg-2.0.10+1.21.3" = _3tnucTxs;
+        "pkg-2.0.11+1.21.4" = _6J7c0sqS;
+        "pkg-2.0.12+1.21.5" = _Jdttefs4;
+        "pkg-2.0.13+1.21.5" = _RpSe2FyG;
+        "pkg-2.0.14+1.21.5" = _U6IqSB2o;
+        "pkg-2.0.15+1.21.11" = _A2CqY9l7;
+        "pkg-2.0.16+26.1" = _pyb3QTAB;
+        "pkg-2.0.17+26.1" = _K0fdPZxH;
         "default" = _K0fdPZxH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

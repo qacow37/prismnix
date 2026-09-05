@@ -20,6 +20,7 @@ let
         "minecraft-1.21.9" = _c5XZ9Oq3;
         "minecraft-1.21.10" = _c5XZ9Oq3;
         "minecraft-1.21.11" = _c5XZ9Oq3;
+        "pkg-Torrezx-Better_trident" = _c5XZ9Oq3;
         "default" = _c5XZ9Oq3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

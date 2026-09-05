@@ -16,6 +16,7 @@ let
         "EKWIuQpr" = _EKWIuQpr;
         "fabric-1.21.1" = _PAleycfv;
         "fabric-1.21.8" = _EKWIuQpr;
+        "pkg-1.0.0" = _EKWIuQpr;
         "default" = _EKWIuQpr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

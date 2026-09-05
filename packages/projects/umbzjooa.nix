@@ -21,6 +21,9 @@ let
         "FDKH50PY" = _FDKH50PY;
         "4IcVn8TO" = _4IcVn8TO;
         "fabric-1.21.11" = _4IcVn8TO;
+        "pkg-1.0.0" = _NGxJ1p9b;
+        "pkg-1.0.1" = _FDKH50PY;
+        "pkg-1.0.2" = _4IcVn8TO;
         "default" = _4IcVn8TO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

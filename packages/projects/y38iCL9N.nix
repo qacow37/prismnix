@@ -21,6 +21,8 @@ let
         "minecraft-1.19.4" = _6EMUpgaT;
         "minecraft-1.20.1" = _6EMUpgaT;
         "minecraft-1.20.4" = _6EMUpgaT;
+        "pkg-0.1" = _6V7n9o4T;
+        "pkg-0.2" = _6EMUpgaT;
         "default" = _6EMUpgaT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

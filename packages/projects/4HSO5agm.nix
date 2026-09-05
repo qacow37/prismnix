@@ -9,6 +9,7 @@ let
     in {
         "oMQ09aCU" = _oMQ09aCU;
         "forge-1.20.1" = _oMQ09aCU;
+        "pkg-1.0.0" = _oMQ09aCU;
         "default" = _oMQ09aCU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

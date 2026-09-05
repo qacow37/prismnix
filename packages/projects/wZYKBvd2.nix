@@ -15,6 +15,8 @@ let
         "PUkrZzZb" = _PUkrZzZb;
         "lkd4EKAq" = _lkd4EKAq;
         "forge-1.20.1" = _lkd4EKAq;
+        "pkg-1.0.0" = _PUkrZzZb;
+        "pkg-1.1.0" = _lkd4EKAq;
         "default" = _lkd4EKAq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

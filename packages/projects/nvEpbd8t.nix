@@ -56,6 +56,7 @@ let
         "minecraft-25w31a" = _dynf82xk;
         "minecraft-25w32a" = _dynf82xk;
         "minecraft-25w33a" = _dynf82xk;
+        "pkg-1.3" = _dynf82xk;
         "default" = _dynf82xk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

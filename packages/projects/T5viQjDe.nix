@@ -34,6 +34,11 @@ let
         "Ny70RpjG" = _Ny70RpjG;
         "forge-1.20.1" = _Qgv6lxys;
         "neoforge-1.21.1" = _Ny70RpjG;
+        "pkg-0.1.0" = _ZFaeNDvu;
+        "pkg-0.1.1" = _yXfjf7rb;
+        "pkg-0.2.0" = _Qgv6lxys;
+        "pkg-0.3.0" = _rF4oL6oe;
+        "pkg-0.4.2" = _Ny70RpjG;
         "default" = _Ny70RpjG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

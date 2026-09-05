@@ -10,6 +10,7 @@ let
         "ah40QieR" = _ah40QieR;
         "datapack-1.20.1" = _ah40QieR;
         "minecraft-1.20.1" = _ah40QieR;
+        "pkg-1.1" = _ah40QieR;
         "default" = _ah40QieR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

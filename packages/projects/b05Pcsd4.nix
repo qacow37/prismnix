@@ -70,6 +70,7 @@ let
         "minecraft-1.21.6" = _tMCMT2eJ;
         "minecraft-1.21.7" = _tMCMT2eJ;
         "minecraft-1.21.8" = _tMCMT2eJ;
+        "pkg-1.0" = _tMCMT2eJ;
         "default" = _tMCMT2eJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

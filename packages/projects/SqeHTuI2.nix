@@ -15,6 +15,8 @@ let
         "erjTs7Vf" = _erjTs7Vf;
         "IEPcx3MJ" = _IEPcx3MJ;
         "babric-b1.7.3" = _IEPcx3MJ;
+        "pkg-1.0.0" = _erjTs7Vf;
+        "pkg-1.0.1" = _IEPcx3MJ;
         "default" = _IEPcx3MJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

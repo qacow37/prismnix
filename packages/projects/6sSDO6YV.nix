@@ -312,6 +312,10 @@ let
         "quilt-26.1.1" = _J1gsgbak;
         "quilt-26.1.2" = _J1gsgbak;
         "quilt-26.2" = _J1gsgbak;
+        "pkg-Cheaper-Golden-Apple-Recipe" = _mU6d3fSq;
+        "pkg-Cheaper-Golden-Apple-Recipe+mod" = _oEPZaSlC;
+        "pkg-Cheaper_Golden_Apple_Recipe" = _uauF40oc;
+        "pkg-Cheaper_Golden_Apple_Recipe+mod" = _J1gsgbak;
         "default" = _J1gsgbak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

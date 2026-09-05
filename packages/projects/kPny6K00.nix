@@ -33,6 +33,7 @@ let
         "neoforge-1.21.3" = _sXMem8VN;
         "neoforge-1.21.4" = _sXMem8VN;
         "neoforge-1.21.5" = _CQAVinm0;
+        "pkg-1.0" = _CQAVinm0;
         "default" = _CQAVinm0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

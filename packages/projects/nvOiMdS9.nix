@@ -483,6 +483,10 @@ let
         "minecraft-1.19.4-rc3" = _rIcKPWUE;
         "minecraft-23w13a_or_b" = _tMlWvMTv;
         "minecraft-24w14potato" = _tMlWvMTv;
+        "pkg-2.0" = _vXYODTVH;
+        "pkg-2.1" = _tMlWvMTv;
+        "pkg-2.2" = _xogYIZjh;
+        "pkg-2.3" = _rIcKPWUE;
         "default" = _rIcKPWUE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

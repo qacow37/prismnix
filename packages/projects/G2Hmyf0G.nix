@@ -9,6 +9,7 @@ let
     in {
         "70oHEIpB" = _70oHEIpB;
         "forge-1.8.9" = _70oHEIpB;
+        "pkg-v1.0.0" = _70oHEIpB;
         "default" = _70oHEIpB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

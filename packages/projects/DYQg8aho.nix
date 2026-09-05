@@ -70,6 +70,12 @@ let
         "zed88rD5" = _zed88rD5;
         "forge-1.20.1" = _zed88rD5;
         "neoforge-1.21.1" = _Oi9MJhaz;
+        "pkg-1.0" = _s0td1PY4;
+        "pkg-1.1" = _LW15otmY;
+        "pkg-1.2" = _2WiAKeTJ;
+        "pkg-1.25" = _FeTdtmvJ;
+        "pkg-1.3" = _O804EiFj;
+        "pkg-1.4" = _zed88rD5;
         "default" = _zed88rD5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

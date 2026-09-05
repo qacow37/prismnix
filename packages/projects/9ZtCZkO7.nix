@@ -1642,6 +1642,11 @@ let
         "nilloader-1.7.10-pre3" = _Bkb60jXn;
         "nilloader-1.7.10-pre4" = _Bkb60jXn;
         "nilloader-1.7.10" = _Bkb60jXn;
+        "pkg-1.8.4" = _Im5L2C6B;
+        "pkg-1.8.5" = _11jyK8OD;
+        "pkg-1.8.6" = _hyw5lu6W;
+        "pkg-1.9.0" = _KFCMbLpH;
+        "pkg-1.9.1" = _Bkb60jXn;
         "default" = _Bkb60jXn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

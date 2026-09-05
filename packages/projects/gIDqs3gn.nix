@@ -178,6 +178,27 @@ let
         "java-agent-26.1.1" = _ax9WHV6q;
         "java-agent-26.1.2" = _ax9WHV6q;
         "java-agent-26.2" = _W9yOc4GR;
+        "pkg-0.6.4-ALPHA" = _lccJKW8N;
+        "pkg-0.6.11-ALPHA" = _CyeeodFn;
+        "pkg-0.6.15-ALPHA" = _PnlxPsWA;
+        "pkg-0.6.16-ALPHA" = _roN9QPaI;
+        "pkg-0.6.19-ALPHA" = _Uq3WHEoP;
+        "pkg-0.7.2-ALPHA" = _yKl2Q36J;
+        "pkg-0.7.4-ALPHA" = _gjz1jGUr;
+        "pkg-0.7.5-ALPHA" = _R2l9pd3X;
+        "pkg-0.7.6-ALPHA" = _i2tmzchj;
+        "pkg-0.7.8-ALPHA" = _jQEF11tb;
+        "pkg-0.7.9-ALPHA" = _iLI2apmC;
+        "pkg-0.7.10-ALPHA" = _nMTNj48K;
+        "pkg-0.7.11-ALPHA" = _N9gxJ53w;
+        "pkg-0.7.12-ALPHA" = _9oPpfkEu;
+        "pkg-0.7.13-ALPHA" = _8s2gX3BW;
+        "pkg-0.7.14-ALPHA" = _QBaxoKZo;
+        "pkg-0.7.16-ALPHA" = _qdZW47J3;
+        "pkg-0.7.17-ALPHA" = _5pWkeUzn;
+        "pkg-0.7.18-ALPHA" = _caXAgh06;
+        "pkg-2026.0.1-ALPHA" = _ax9WHV6q;
+        "pkg-2026.0.2-ALPHA" = _W9yOc4GR;
         "default" = _W9yOc4GR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

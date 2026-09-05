@@ -48,6 +48,8 @@ let
         "fabric-1.20.1" = _FSPAgg8m;
         "fabric-1.21" = _FSPAgg8m;
         "fabric-1.21.1" = _FSPAgg8m;
+        "pkg-1.0" = _gfqA5rQB;
+        "pkg-1.0+mod" = _FSPAgg8m;
         "default" = _FSPAgg8m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -52,6 +52,8 @@ let
         "neoforge-26.1.1" = _mlF5HAtS;
         "neoforge-26.1.2" = _mlF5HAtS;
         "neoforge-26.2" = _mlF5HAtS;
+        "pkg-1.0" = _jVKRGmmi;
+        "pkg-1.1.0" = _mlF5HAtS;
         "default" = _mlF5HAtS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

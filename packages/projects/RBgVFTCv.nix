@@ -15,6 +15,8 @@ let
         "6hBIEJY2" = _6hBIEJY2;
         "IhTplPXa" = _IhTplPXa;
         "forge-1.20.1" = _IhTplPXa;
+        "pkg-1.0.0" = _6hBIEJY2;
+        "pkg-1.0.1" = _IhTplPXa;
         "default" = _IhTplPXa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

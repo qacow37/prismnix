@@ -22,6 +22,8 @@ let
         "optifine-1.19.2" = _CgdY86YT;
         "optifine-1.19.3" = _CgdY86YT;
         "optifine-1.20.1" = _CgdY86YT;
+        "pkg-1.2" = _X5eYhMjV;
+        "pkg-1.3" = _CgdY86YT;
         "default" = _CgdY86YT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

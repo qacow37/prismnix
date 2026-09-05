@@ -124,6 +124,25 @@ let
         "fabric-1.21.5" = _DhMAxPB9;
         "neoforge-1.21.1" = _fYHfGRbK;
         "neoforge-1.21.5" = _WkKs4mez;
+        "pkg-FORGE-mc1.20.1-v0.0.1-alpha" = _IPESsuG9;
+        "pkg-FORGE-mc1.21.1-v0.0.1-alpha" = _df6jjrqF;
+        "pkg-FORGE-mc1.21.5-v0.0.1-alpha" = _pQ0megEM;
+        "pkg-FABRIC-mc1.20.1-v0.0.1-alpha" = _r29YYaiH;
+        "pkg-FABRIC-mc1.21.1-v0.0.1-alpha" = _IFEwFR98;
+        "pkg-FABRIC-mc1.21.5-v0.0.1-alpha" = _yOvXyb8l;
+        "pkg-FABRIC-mc1.20.1-v0.0.2-alpha" = _gAxTFMCp;
+        "pkg-FABRIC-mc1.21.1-v0.0.2-alpha" = _Ys3T8gKU;
+        "pkg-FABRIC-mc1.21.5-v0.0.2-alpha" = _ZISx9TMU;
+        "pkg-NEOFORGE-mc1.21.1-v0.0.1-alpha" = _a8BxAOB2;
+        "pkg-NEOFORGE-mc1.21.5-v0.0.1-alpha" = _PgyM7uMr;
+        "pkg-FG-mc1.20.1-v0.1.0-alpha" = _yE93Q2Ed;
+        "pkg-FG-mc1.21.1-v0.1.0-alpha" = _z4uTMqMM;
+        "pkg-FG-mc1.21.5-v0.1.0-alpha" = _w4aMDOih;
+        "pkg-FB-mc1.20.1-v0.1.0-alpha" = _BclZMXef;
+        "pkg-FB-mc1.21.1-v0.1.0-alpha" = _nVXt0mgU;
+        "pkg-FB-mc1.21.5-v0.1.0-alpha" = _DhMAxPB9;
+        "pkg-NF-mc1.21.5-v0.1.0-alpha" = _WkKs4mez;
+        "pkg-NF-mc1.21.1-v0.1.0-alpha" = _fYHfGRbK;
         "default" = _fYHfGRbK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -33,6 +33,11 @@ let
         "7XIi334i" = _7XIi334i;
         "uRRVItgd" = _uRRVItgd;
         "neoforge-1.21.1" = _uRRVItgd;
+        "pkg-0.2.0" = _DFDEJJcK;
+        "pkg-0.2.1" = _i3ESGvjl;
+        "pkg-0.2.2" = _kMQl4Jgm;
+        "pkg-0.2.3" = _7XIi334i;
+        "pkg-0.3.0" = _uRRVItgd;
         "default" = _uRRVItgd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

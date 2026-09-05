@@ -9,6 +9,7 @@ let
     in {
         "hygviSF0" = _hygviSF0;
         "fabric-1.21.1" = _hygviSF0;
+        "pkg-1.0.3-1.21.1" = _hygviSF0;
         "default" = _hygviSF0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

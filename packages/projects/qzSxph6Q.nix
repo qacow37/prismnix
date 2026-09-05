@@ -32,6 +32,8 @@ let
         "datapack-1.21" = _ktypafqy;
         "datapack-1.21.1" = _ktypafqy;
         "fabric-1.20.1" = _Zis72zK2;
+        "pkg-1.0" = _ktypafqy;
+        "pkg-1.0+mod" = _Zis72zK2;
         "default" = _Zis72zK2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

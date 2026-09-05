@@ -28,6 +28,10 @@ let
         "dQ95dIjY" = _dQ95dIjY;
         "forge-1.18.2" = _5zpIKGzl;
         "forge-1.20.1" = _dQ95dIjY;
+        "pkg-1.0" = _XBB0gi2i;
+        "pkg-1.1" = _5zpIKGzl;
+        "pkg-1.20.1-1.1" = _9IseGBgW;
+        "pkg-1.20.1-1.2" = _dQ95dIjY;
         "default" = _dQ95dIjY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

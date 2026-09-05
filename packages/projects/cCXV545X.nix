@@ -58,6 +58,14 @@ let
         "RUWIJ4MD" = _RUWIJ4MD;
         "forge-1.20.1" = _RUWIJ4MD;
         "forge-1.19.2" = _jCdshfDB;
+        "pkg-1.4.5" = _AmaRpb1P;
+        "pkg-1.4.6" = _R9fPDneV;
+        "pkg-1.5.0" = _j6rOMFcA;
+        "pkg-1.5.1" = _xRrzFtOO;
+        "pkg-1.5.2" = _6RniLntW;
+        "pkg-2.0.0" = _CyiVW1w1;
+        "pkg-2.1" = _5gJUscHq;
+        "pkg-2.2" = _RUWIJ4MD;
         "default" = _RUWIJ4MD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

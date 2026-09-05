@@ -15,6 +15,8 @@ let
         "pYyD1fch" = _pYyD1fch;
         "qubpugZi" = _qubpugZi;
         "forge-1.20.1" = _qubpugZi;
+        "pkg-1.0.0" = _pYyD1fch;
+        "pkg-1.1.0" = _qubpugZi;
         "default" = _qubpugZi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

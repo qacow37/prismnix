@@ -16,6 +16,8 @@ let
         "mR5hgPby" = _mR5hgPby;
         "minecraft-1.20.2" = _LDfOm8DS;
         "minecraft-1.21.4" = _mR5hgPby;
+        "pkg-2D" = _LDfOm8DS;
+        "pkg-3D" = _mR5hgPby;
         "default" = _mR5hgPby;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

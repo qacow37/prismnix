@@ -16,6 +16,8 @@ let
         "TlVcdYGD" = _TlVcdYGD;
         "minecraft-1.21" = _TlVcdYGD;
         "minecraft-1.21.1" = _TlVcdYGD;
+        "pkg-1.0.0" = _fkCWN5o4;
+        "pkg-1.1.0" = _TlVcdYGD;
         "default" = _TlVcdYGD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

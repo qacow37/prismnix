@@ -254,6 +254,9 @@ let
         "bukkit-1.18" = _lABTWRiM;
         "bukkit-1.18.1" = _lABTWRiM;
         "bukkit-1.18.2" = _lABTWRiM;
+        "pkg-2.2.0" = _6Wpbe0LO;
+        "pkg-2.4.0" = _QgmpUMBq;
+        "pkg-2.6.0" = _jR2DMCQu;
         "default" = _jR2DMCQu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

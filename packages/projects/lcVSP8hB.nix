@@ -28,6 +28,10 @@ let
         "f7XOVDMB" = _f7XOVDMB;
         "forge-1.20.1" = _f7XOVDMB;
         "neoforge-1.21.1" = _ig4FC4WA;
+        "pkg-1.0-1.20.1" = _bVHAOrdG;
+        "pkg-1.0-1.21.1" = _QWK4JafL;
+        "pkg-1.1-1.21.1" = _ig4FC4WA;
+        "pkg-1.1-1.20.1" = _f7XOVDMB;
         "default" = _f7XOVDMB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

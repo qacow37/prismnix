@@ -9,6 +9,7 @@ let
     in {
         "lYQORKRW" = _lYQORKRW;
         "minecraft-1.21.11" = _lYQORKRW;
+        "pkg-Small-tiny-totem" = _lYQORKRW;
         "default" = _lYQORKRW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

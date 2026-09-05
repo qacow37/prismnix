@@ -69,6 +69,10 @@ let
         "minecraft-1.21.9" = _JIDyERb2;
         "minecraft-1.21.10" = _JIDyERb2;
         "minecraft-1.21.11" = _JIDyERb2;
+        "pkg-R3" = _zPzQaJLW;
+        "pkg-R4" = _haYm6nTL;
+        "pkg-R5" = _HC44ldY7;
+        "pkg-R6" = _JIDyERb2;
         "default" = _JIDyERb2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

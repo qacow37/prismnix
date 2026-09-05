@@ -15,6 +15,8 @@ let
         "yfTvRroy" = _yfTvRroy;
         "j74iOWFj" = _j74iOWFj;
         "fabric-b1.7.3" = _j74iOWFj;
+        "pkg-0.1.0" = _yfTvRroy;
+        "pkg-0.2.0" = _j74iOWFj;
         "default" = _j74iOWFj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

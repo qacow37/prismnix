@@ -46,6 +46,13 @@ let
         "Bdw7wqJr" = _Bdw7wqJr;
         "fabric-1.19.2" = _E9ytfJRB;
         "fabric-1.20.1" = _Bdw7wqJr;
+        "pkg-1.0.1+ArdaCraft" = _vqnqqO3w;
+        "pkg-1.0.2+ArdaCraft" = _jBU1myGN;
+        "pkg-1.0.3+ArdaCraft" = _31tDJTZY;
+        "pkg-1.0.4+ArdaCraft" = _mxNGBsi6;
+        "pkg-1.0.5+ArdaCraft" = _E9ytfJRB;
+        "pkg-1.1.0+ArdaCraft" = _iCfqqqjw;
+        "pkg-1.1.1+ArdaCraft" = _Bdw7wqJr;
         "default" = _Bdw7wqJr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

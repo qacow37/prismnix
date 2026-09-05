@@ -9,6 +9,7 @@ let
     in {
         "RYDht3ER" = _RYDht3ER;
         "fabric-1.21.11" = _RYDht3ER;
+        "pkg-1.0.0" = _RYDht3ER;
         "default" = _RYDht3ER;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

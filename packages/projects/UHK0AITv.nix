@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _MM4BkW2j;
         "forge-1.20.5" = _MM4BkW2j;
         "forge-1.20.6" = _MM4BkW2j;
+        "pkg-1.0.5" = _MM4BkW2j;
         "default" = _MM4BkW2j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

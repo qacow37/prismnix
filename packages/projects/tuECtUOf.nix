@@ -9,6 +9,7 @@ let
     in {
         "169NcoAO" = _169NcoAO;
         "forge-1.19.2" = _169NcoAO;
+        "pkg-1.6.4" = _169NcoAO;
         "default" = _169NcoAO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

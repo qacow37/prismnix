@@ -28,6 +28,8 @@ let
         "cXpstppi" = _cXpstppi;
         "fabric-1.20.1" = _eMyrsj4V;
         "forge-1.20.1" = _cXpstppi;
+        "pkg-1.6.0" = _P0JSsrqi;
+        "pkg-1.6.1" = _cXpstppi;
         "default" = _cXpstppi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

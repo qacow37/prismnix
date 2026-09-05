@@ -16,6 +16,8 @@ let
         "RvuXGPmF" = _RvuXGPmF;
         "fabric-1.20.1" = _7juqeAkV;
         "fabric-1.20.4" = _RvuXGPmF;
+        "pkg-1.0" = _7juqeAkV;
+        "pkg-1.1" = _RvuXGPmF;
         "default" = _RvuXGPmF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

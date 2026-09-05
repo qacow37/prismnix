@@ -21,6 +21,9 @@ let
         "MBBkMeu4" = _MBBkMeu4;
         "1Caw2kOt" = _1Caw2kOt;
         "forge-1.12.2" = _1Caw2kOt;
+        "pkg-2.5.1.210" = _LBhZRXFG;
+        "pkg-2.5.1.212" = _MBBkMeu4;
+        "pkg-2.5.1.213" = _1Caw2kOt;
         "default" = _1Caw2kOt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

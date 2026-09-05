@@ -21,6 +21,7 @@ let
         "forge-1.16.3" = _biSgBZub;
         "forge-1.16.4" = _biSgBZub;
         "forge-1.16.5" = _biSgBZub;
+        "pkg-3.1.2" = _biSgBZub;
         "default" = _biSgBZub;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

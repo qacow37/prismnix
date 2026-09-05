@@ -27,6 +27,10 @@ let
         "6Z1KM2RJ" = _6Z1KM2RJ;
         "wSHFORKF" = _wSHFORKF;
         "iris-1.20.1" = _wSHFORKF;
+        "pkg-1.0.0" = _FfkOa0G1;
+        "pkg-1.1.0" = _Mf0RnX15;
+        "pkg-1.2.0" = _6Z1KM2RJ;
+        "pkg-1.3.0" = _wSHFORKF;
         "default" = _wSHFORKF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

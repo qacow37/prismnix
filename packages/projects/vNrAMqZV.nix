@@ -10,6 +10,7 @@ let
         "kVucsjFW" = _kVucsjFW;
         "fabric-1.20" = _kVucsjFW;
         "fabric-1.20.1" = _kVucsjFW;
+        "pkg-1.9.0" = _kVucsjFW;
         "default" = _kVucsjFW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

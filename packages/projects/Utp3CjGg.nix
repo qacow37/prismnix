@@ -15,6 +15,7 @@ let
         "minecraft-1.20.4" = _OVP7Wkbg;
         "minecraft-1.20.5" = _OVP7Wkbg;
         "minecraft-1.20.6" = _OVP7Wkbg;
+        "pkg-1.1.0" = _OVP7Wkbg;
         "default" = _OVP7Wkbg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

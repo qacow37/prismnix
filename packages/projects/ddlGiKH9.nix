@@ -9,6 +9,7 @@ let
     in {
         "GhJPEAOt" = _GhJPEAOt;
         "neoforge-1.21.1" = _GhJPEAOt;
+        "pkg-1.0.0" = _GhJPEAOt;
         "default" = _GhJPEAOt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

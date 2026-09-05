@@ -21,6 +21,9 @@ let
         "tVLiDS5G" = _tVLiDS5G;
         "lPW4FjtO" = _lPW4FjtO;
         "quilt-1.19.2" = _lPW4FjtO;
+        "pkg-1.0.0" = _bq3uW6SK;
+        "pkg-1.0.1" = _tVLiDS5G;
+        "pkg-1.0.2" = _lPW4FjtO;
         "default" = _lPW4FjtO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

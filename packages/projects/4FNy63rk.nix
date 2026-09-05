@@ -10,6 +10,7 @@ let
         "SXYW59WG" = _SXYW59WG;
         "fabric-1.20.1" = _SXYW59WG;
         "neoforge-1.20.1" = _SXYW59WG;
+        "pkg-0.0.1" = _SXYW59WG;
         "default" = _SXYW59WG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

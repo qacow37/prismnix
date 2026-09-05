@@ -29,6 +29,10 @@ let
         "neoforge-1.21.1" = _es6cmiau;
         "neoforge-1.20.1" = _GHVME4mR;
         "forge-1.20.1" = _GHVME4mR;
+        "pkg-1.21.1-0.0.1" = _lOjfLbPn;
+        "pkg-1.20.1-0.0.1" = _GHVME4mR;
+        "pkg-1.21.1-0.1.0" = _O0nc0W47;
+        "pkg-1.21.1-0.1.1" = _es6cmiau;
         "default" = _es6cmiau;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,9 @@ let
         "tewsifA8" = _tewsifA8;
         "fabric-1.20.1" = _tewsifA8;
         "fabric-1.20.2" = _tewsifA8;
+        "pkg-1.0.0" = _gZM3PiAW;
+        "pkg-1.1.0" = _Ul5ro7OV;
+        "pkg-1.2.0" = _tewsifA8;
         "default" = _tewsifA8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

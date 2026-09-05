@@ -126,6 +126,10 @@ let
         "datapack-1.20.4" = _N3aP2Hw0;
         "datapack-1.20.5" = _N3aP2Hw0;
         "datapack-1.20.6" = _N3aP2Hw0;
+        "pkg-1" = _wtfSYpOH;
+        "pkg-1.0" = _TUGO87V4;
+        "pkg-1.1" = _N3aP2Hw0;
+        "pkg-1.2" = _sesgPOxZ;
         "default" = _sesgPOxZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

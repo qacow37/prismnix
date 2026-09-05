@@ -173,6 +173,12 @@ let
         "quilt-26.1.1" = _PR17yjmQ;
         "quilt-26.1.2" = _PR17yjmQ;
         "quilt-26.2" = _PR17yjmQ;
+        "pkg-v1.0" = _7FauI9gq;
+        "pkg-v1.0.1" = _DNO3Xevi;
+        "pkg-v1.0.2" = _u54jRNPw;
+        "pkg-v1.0.3" = _YfpPClL8;
+        "pkg-v1.0.4" = _xAyVb4OW;
+        "pkg-v1.1" = _PR17yjmQ;
         "default" = _PR17yjmQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,8 @@ let
         "paper-1.21.4" = _hVBF2qk5;
         "paper-1.21.5" = _hVBF2qk5;
         "paper-26.1.2" = _NR85EkLw;
+        "pkg-1.0-SNAPSHOT" = _hVBF2qk5;
+        "pkg-1.0.1" = _NR85EkLw;
         "default" = _NR85EkLw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

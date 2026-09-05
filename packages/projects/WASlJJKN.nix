@@ -9,6 +9,7 @@ let
     in {
         "qsKA3Mp2" = _qsKA3Mp2;
         "fabric-1.20.1" = _qsKA3Mp2;
+        "pkg-1.0.0" = _qsKA3Mp2;
         "default" = _qsKA3Mp2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -38,6 +38,7 @@ let
         "minecraft-1.21.3" = _MYtfBche;
         "minecraft-1.21.4" = _MYtfBche;
         "minecraft-1.21.5" = _MYtfBche;
+        "pkg-1.0" = _VNPR3cDX;
         "default" = _VNPR3cDX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -75,6 +75,7 @@ let
         "minecraft-1.20.4" = _eInjozKI;
         "minecraft-1.20.5" = _eInjozKI;
         "minecraft-1.20.6" = _eInjozKI;
+        "pkg-1" = _eInjozKI;
         "default" = _eInjozKI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

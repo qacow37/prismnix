@@ -16,6 +16,8 @@ let
         "PD7SC1yE" = _PD7SC1yE;
         "fabric-1.14.2" = _Xt2LAUAV;
         "forge-1.12.2" = _PD7SC1yE;
+        "pkg-0.3.0" = _Xt2LAUAV;
+        "pkg-0.2.1" = _PD7SC1yE;
         "default" = _PD7SC1yE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

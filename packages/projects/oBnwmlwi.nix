@@ -21,6 +21,9 @@ let
         "VAJacsya" = _VAJacsya;
         "szart30I" = _szart30I;
         "forge-1.20.1" = _szart30I;
+        "pkg-5.60c" = _t0DL45Yn;
+        "pkg-5.7.0c" = _VAJacsya;
+        "pkg-5.7.0d" = _szart30I;
         "default" = _szart30I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

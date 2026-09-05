@@ -91,6 +91,10 @@ let
         "spigot-1.19.1" = _CuC7yP6f;
         "spigot-1.19.2" = _CuC7yP6f;
         "folia-1.21.11" = _JzNbPLuV;
+        "pkg-2.7.4" = _CuC7yP6f;
+        "pkg-2.7.8" = _tCEpHBVi;
+        "pkg-3.0.4" = _2ZxqPuGe;
+        "pkg-3.0.5" = _JzNbPLuV;
         "default" = _JzNbPLuV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

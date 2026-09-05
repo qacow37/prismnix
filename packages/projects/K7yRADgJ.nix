@@ -42,6 +42,7 @@ let
         "neoforge-1.21.6" = _LMBAI5av;
         "neoforge-1.21.7" = _LMBAI5av;
         "neoforge-1.21.8" = _LMBAI5av;
+        "pkg-1.0.0" = _LMBAI5av;
         "default" = _LMBAI5av;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

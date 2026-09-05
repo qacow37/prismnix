@@ -30,6 +30,7 @@ let
         "neoforge-1.21.1" = _fjjZ7ymr;
         "neoforge-1.21.4" = _L63DJwec;
         "neoforge-1.21.8" = _yLarUBAB;
+        "pkg-1.0.0" = _yLarUBAB;
         "default" = _yLarUBAB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

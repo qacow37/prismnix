@@ -15,6 +15,7 @@ let
         "KTstvAyR" = _KTstvAyR;
         "n2ShBVvY" = _n2ShBVvY;
         "minecraft-1.21.5" = _n2ShBVvY;
+        "pkg-1.21.5" = _n2ShBVvY;
         "default" = _n2ShBVvY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

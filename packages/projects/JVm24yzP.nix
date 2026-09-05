@@ -16,6 +16,8 @@ let
         "WvM2pTi0" = _WvM2pTi0;
         "fabric-1.20" = _WvM2pTi0;
         "fabric-1.20.1" = _WvM2pTi0;
+        "pkg-1.0.0+1.20.1" = _p7M5ikXn;
+        "pkg-1.0.1+1.20.1" = _WvM2pTi0;
         "default" = _WvM2pTi0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

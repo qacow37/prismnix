@@ -12,6 +12,7 @@ let
         "minecraft-1.16.3" = _VRcYESD1;
         "minecraft-1.16.4" = _VRcYESD1;
         "minecraft-1.16.5" = _VRcYESD1;
+        "pkg-0.2" = _VRcYESD1;
         "default" = _VRcYESD1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

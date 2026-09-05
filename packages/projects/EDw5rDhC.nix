@@ -9,6 +9,7 @@ let
     in {
         "IcjGewBk" = _IcjGewBk;
         "minecraft-24w11a" = _IcjGewBk;
+        "pkg-0.1" = _IcjGewBk;
         "default" = _IcjGewBk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

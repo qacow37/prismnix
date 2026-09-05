@@ -34,6 +34,9 @@ let
         "QV63g2Nx" = _QV63g2Nx;
         "fabric-1.20.4" = _T1PU096b;
         "fabric-1.20.1" = _QV63g2Nx;
+        "pkg-1.0.1" = _cKcHi16Q;
+        "pkg-1.0.2" = _kjc0Enbt;
+        "pkg-1.0.3" = _QV63g2Nx;
         "default" = _QV63g2Nx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

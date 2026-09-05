@@ -15,6 +15,8 @@ let
         "KFFCQ3UQ" = _KFFCQ3UQ;
         "FQFyaKMS" = _FQFyaKMS;
         "forge-1.20.1" = _FQFyaKMS;
+        "pkg-0.1" = _KFFCQ3UQ;
+        "pkg-0.1.5" = _FQFyaKMS;
         "default" = _FQFyaKMS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

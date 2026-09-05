@@ -9,6 +9,7 @@ let
     in {
         "zXE1AfmM" = _zXE1AfmM;
         "fabric-1.21.1" = _zXE1AfmM;
+        "pkg-1.0.0+cobblemon-1.6.1" = _zXE1AfmM;
         "default" = _zXE1AfmM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -24,6 +24,8 @@ let
         "neoforge-1.20.1" = _Wv76ZmEK;
         "quilt-1.19.2" = _Wv76ZmEK;
         "quilt-1.20.1" = _Wv76ZmEK;
+        "pkg-1.0" = _BKzQmSlk;
+        "pkg-1.0+mod" = _Wv76ZmEK;
         "default" = _Wv76ZmEK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

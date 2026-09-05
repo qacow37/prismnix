@@ -16,6 +16,7 @@ let
         "U7RucPgA" = _U7RucPgA;
         "forge-1.20.1" = _YhwvmRNp;
         "neoforge-1.21.1" = _U7RucPgA;
+        "pkg-1.0.0" = _U7RucPgA;
         "default" = _U7RucPgA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

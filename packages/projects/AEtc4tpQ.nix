@@ -9,6 +9,7 @@ let
     in {
         "gM3KDRA5" = _gM3KDRA5;
         "forge-1.20.1" = _gM3KDRA5;
+        "pkg-1.0.1-1.20.1" = _gM3KDRA5;
         "default" = _gM3KDRA5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

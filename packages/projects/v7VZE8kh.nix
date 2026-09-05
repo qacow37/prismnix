@@ -40,6 +40,9 @@ let
         "GoEGm1Ea" = _GoEGm1Ea;
         "neoforge-1.21.1" = _yqDEblb0;
         "fabric-1.21.1" = _GoEGm1Ea;
+        "pkg-1.0.0" = _IWAGW3xB;
+        "pkg-1.0.1" = _xNJvZgvf;
+        "pkg-1.1.2" = _GoEGm1Ea;
         "default" = _GoEGm1Ea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

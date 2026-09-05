@@ -12,6 +12,7 @@ let
         "fabric-1.20.2" = _oDf2itch;
         "fabric-1.20.3" = _oDf2itch;
         "fabric-1.20.4" = _oDf2itch;
+        "pkg-1.0" = _oDf2itch;
         "default" = _oDf2itch;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

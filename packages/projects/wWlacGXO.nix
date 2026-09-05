@@ -16,6 +16,7 @@ let
         "VLc28MW2" = _VLc28MW2;
         "forge-1.20.1" = _47h2H1zO;
         "fabric-1.20.1" = _VLc28MW2;
+        "pkg-1.0.0" = _VLc28MW2;
         "default" = _VLc28MW2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

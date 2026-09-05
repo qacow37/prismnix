@@ -27,6 +27,10 @@ let
         "qGPfZQQX" = _qGPfZQQX;
         "GW3fYzWS" = _GW3fYzWS;
         "paper-1.21.8" = _GW3fYzWS;
+        "pkg-1.0-1.21.8" = _Q4E7nCQD;
+        "pkg-2.0-1.21.8" = _72JCof4X;
+        "pkg-2.1-1.21.8" = _qGPfZQQX;
+        "pkg-2.2-1.21.8" = _GW3fYzWS;
         "default" = _GW3fYzWS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

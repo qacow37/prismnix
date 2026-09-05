@@ -18,6 +18,8 @@ let
         "fabric-1.19" = _fnUpR6eb;
         "fabric-1.19.1" = _fnUpR6eb;
         "fabric-1.19.2" = _fnUpR6eb;
+        "pkg-1.0.2" = _faGfLteg;
+        "pkg-1.0.3" = _fnUpR6eb;
         "default" = _fnUpR6eb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

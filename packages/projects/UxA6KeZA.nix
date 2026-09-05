@@ -21,6 +21,9 @@ let
         "wiCbdH5T" = _wiCbdH5T;
         "erw9FAKn" = _erw9FAKn;
         "forge-1.20.1" = _erw9FAKn;
+        "pkg-1.0.0" = _NIC1XPKT;
+        "pkg-1.0.1" = _wiCbdH5T;
+        "pkg-1.0.2" = _erw9FAKn;
         "default" = _erw9FAKn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

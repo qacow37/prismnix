@@ -15,6 +15,8 @@ let
         "KA1Z06cQ" = _KA1Z06cQ;
         "2OWCwYdB" = _2OWCwYdB;
         "minecraft-1.21.1" = _2OWCwYdB;
+        "pkg-CobbleTCG-ResourcePack2-1.0.0" = _KA1Z06cQ;
+        "pkg-CobbleTCG_ResourcePack2-1.3.9" = _2OWCwYdB;
         "default" = _2OWCwYdB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

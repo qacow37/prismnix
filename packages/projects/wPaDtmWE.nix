@@ -10,6 +10,7 @@ let
         "Nm5oLCXg" = _Nm5oLCXg;
         "fabric-1.20.3" = _Nm5oLCXg;
         "fabric-1.20.4" = _Nm5oLCXg;
+        "pkg-1.0.0" = _Nm5oLCXg;
         "default" = _Nm5oLCXg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

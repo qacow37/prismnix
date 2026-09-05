@@ -21,6 +21,9 @@ let
         "S0g2rATp" = _S0g2rATp;
         "bI7MEhtm" = _bI7MEhtm;
         "fabric-1.21.11" = _bI7MEhtm;
+        "pkg-1.1.0" = _GGB5pIwt;
+        "pkg-1.1.1_0" = _S0g2rATp;
+        "pkg-1.2.0_0" = _bI7MEhtm;
         "default" = _bI7MEhtm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

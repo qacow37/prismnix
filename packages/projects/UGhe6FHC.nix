@@ -33,6 +33,11 @@ let
         "EkLAvGlz" = _EkLAvGlz;
         "EXpZYHhd" = _EXpZYHhd;
         "forge-1.20.1" = _EXpZYHhd;
+        "pkg-2.4" = _qTirLFap;
+        "pkg-2.9" = _YyxzkRqT;
+        "pkg-3.3" = _KKZGVrIP;
+        "pkg-3.4" = _EkLAvGlz;
+        "pkg-3.6" = _EXpZYHhd;
         "default" = _EXpZYHhd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

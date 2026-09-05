@@ -102,6 +102,7 @@ let
         "fabric-26.3-snapshot-4" = _JcOnQ5UC;
         "fabric-26.3-snapshot-5" = _JcOnQ5UC;
         "fabric-26.3-snapshot-6" = _JcOnQ5UC;
+        "pkg-1.0.0" = _JcOnQ5UC;
         "default" = _JcOnQ5UC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -23,6 +23,8 @@ let
         "fabric-1.21.1" = _jvMC0DIT;
         "fabric-1.21.8" = _trpsWQXf;
         "neoforge-1.21.8" = _2Nq7QeNu;
+        "pkg-1.0.0" = _jvMC0DIT;
+        "pkg-frost-walker+-21.8.0.0-fabric" = _2Nq7QeNu;
         "default" = _2Nq7QeNu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

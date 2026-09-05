@@ -18,6 +18,8 @@ let
         "datapack-1.20.1" = _afOaAntE;
         "fabric-1.20" = _2ahGLtGk;
         "fabric-1.20.1" = _2ahGLtGk;
+        "pkg-1.0" = _afOaAntE;
+        "pkg-1.0+mod" = _2ahGLtGk;
         "default" = _2ahGLtGk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

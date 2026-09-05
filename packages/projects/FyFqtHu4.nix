@@ -18,6 +18,8 @@ let
         "datapack-1.20" = _njotWmra;
         "fabric-1.20.1" = _g7V1ssWZ;
         "forge-1.20.1" = _g7V1ssWZ;
+        "pkg-1.0" = _g7V1ssWZ;
+        "pkg-1.1" = _njotWmra;
         "default" = _njotWmra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

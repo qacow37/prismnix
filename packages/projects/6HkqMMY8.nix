@@ -16,6 +16,8 @@ let
         "hTda82i1" = _hTda82i1;
         "forge-1.20.1" = _f8EPKw8s;
         "neoforge-1.21.1" = _hTda82i1;
+        "pkg-1.2.0" = _f8EPKw8s;
+        "pkg-1.3.0" = _hTda82i1;
         "default" = _hTda82i1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

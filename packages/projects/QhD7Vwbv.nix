@@ -22,6 +22,7 @@ let
         "minecraft-1.21.11" = _xhympKRW;
         "minecraft-26.1" = _xhympKRW;
         "minecraft-26.1.1" = _xhympKRW;
+        "pkg-1.21" = _xhympKRW;
         "default" = _xhympKRW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

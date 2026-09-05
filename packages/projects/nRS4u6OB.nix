@@ -9,6 +9,7 @@ let
     in {
         "FhAdJiEt" = _FhAdJiEt;
         "minecraft-24w11a" = _FhAdJiEt;
+        "pkg-1.0.0" = _FhAdJiEt;
         "default" = _FhAdJiEt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

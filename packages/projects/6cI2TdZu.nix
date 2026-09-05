@@ -28,6 +28,8 @@ let
         "dyTZtcJi" = _dyTZtcJi;
         "fabric-1.21.11" = _TArKjoro;
         "fabric-1.21.1" = _dyTZtcJi;
+        "pkg-2.1.0-windows" = _RifYDV5t;
+        "pkg-2.2.0-windows" = _dyTZtcJi;
         "default" = _dyTZtcJi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

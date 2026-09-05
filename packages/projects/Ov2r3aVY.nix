@@ -9,6 +9,7 @@ let
     in {
         "mgDpAA4x" = _mgDpAA4x;
         "neoforge-1.21.1" = _mgDpAA4x;
+        "pkg-1.0.0" = _mgDpAA4x;
         "default" = _mgDpAA4x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

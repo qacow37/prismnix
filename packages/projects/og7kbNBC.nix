@@ -144,6 +144,15 @@ let
         "paper-1.21.6" = _yCobhoxw;
         "paper-1.21.7" = _yCobhoxw;
         "paper-1.21.8" = _yCobhoxw;
+        "pkg-0.1.0-forge" = _fGqEnwOk;
+        "pkg-0.1.0-neoforge" = _18NShRW8;
+        "pkg-0.1.0-fabric" = _LkoRy1w3;
+        "pkg-0.1.0-paper" = _9fhw8Vvv;
+        "pkg-0.1.1-forge" = _TOoEgxGf;
+        "pkg-0.1.1-fabric" = _INhQGdVE;
+        "pkg-0.1.1-neoforge" = _o6HqvFjx;
+        "pkg-0.1.1-paper" = _yCobhoxw;
+        "pkg-0.1.2-forge" = _mBIJjrz6;
         "default" = _mBIJjrz6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

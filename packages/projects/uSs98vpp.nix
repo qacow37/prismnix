@@ -9,6 +9,7 @@ let
     in {
         "uq8ahIAP" = _uq8ahIAP;
         "forge-1.12.2" = _uq8ahIAP;
+        "pkg-2.2.0" = _uq8ahIAP;
         "default" = _uq8ahIAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

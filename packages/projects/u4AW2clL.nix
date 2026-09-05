@@ -46,6 +46,9 @@ let
         "quilt-1.21.6" = _KT3HE48G;
         "quilt-1.21.7" = _KT3HE48G;
         "quilt-1.21.8" = _KT3HE48G;
+        "pkg-1.0.0+1.20.5" = _Sx0rXhVs;
+        "pkg-1.1.0+1.21.1" = _pTfn8z4u;
+        "pkg-1.1.0+1.21.7" = _KT3HE48G;
         "default" = _KT3HE48G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

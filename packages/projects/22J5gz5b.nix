@@ -46,6 +46,10 @@ let
         "po01pKAd" = _po01pKAd;
         "datapack-1.21.1" = _po01pKAd;
         "fabric-1.21.1" = _eMvNOZRp;
+        "pkg-v1.6.0a" = _oxUjskPj;
+        "pkg-v1.6.0b" = _xMiHWpkt;
+        "pkg-v1.6.0c" = _eMvNOZRp;
+        "pkg-v1.6.1a" = _po01pKAd;
         "default" = _po01pKAd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

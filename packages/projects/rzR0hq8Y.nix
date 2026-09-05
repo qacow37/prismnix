@@ -21,6 +21,9 @@ let
         "Hlskom4G" = _Hlskom4G;
         "JGYJSwte" = _JGYJSwte;
         "forge-1.20.1" = _JGYJSwte;
+        "pkg-1.0" = _xLfIlA7D;
+        "pkg-1.1" = _Hlskom4G;
+        "pkg-1.2" = _JGYJSwte;
         "default" = _JGYJSwte;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

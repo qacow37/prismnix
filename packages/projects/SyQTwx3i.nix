@@ -12,6 +12,7 @@ let
         "fabric-1.20.1" = _LLgUMVPf;
         "quilt-1.20" = _LLgUMVPf;
         "quilt-1.20.1" = _LLgUMVPf;
+        "pkg-1.0.0" = _LLgUMVPf;
         "default" = _LLgUMVPf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

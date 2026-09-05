@@ -83,6 +83,12 @@ let
         "minecraft-25w04a" = _S75s3AMq;
         "minecraft-25w05a" = _S75s3AMq;
         "minecraft-25w06a" = _S75s3AMq;
+        "pkg-0.10.1" = _CTzg4PBd;
+        "pkg-v0.11" = _YZWyrz51;
+        "pkg-0.13.0" = _b0JG3qEi;
+        "pkg-1.0.0-beta.1" = _hhW0Ocyw;
+        "pkg-1.0.0-beta.2" = _S75s3AMq;
+        "pkg-1.0.0" = _3I3axi22;
         "default" = _3I3axi22;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

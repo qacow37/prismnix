@@ -80,6 +80,18 @@ let
         "neoforge-1.21.1" = _GR0ewcQQ;
         "quilt-1.21.1" = _GR0ewcQQ;
         "minecraft-1.21.1" = _nAF1VuQf;
+        "pkg-1.0-release" = _NJLphZOv;
+        "pkg-1.0-release+mod" = _ufTzzFhz;
+        "pkg-V1.1-Vanilla" = _Bqly4mon;
+        "pkg-V1.1-Modded" = _ZKuS0PMh;
+        "pkg-V1.1-Vanilla+mod" = _Oc3Cf1rC;
+        "pkg-V1.1-Modded+mod" = _5uchGy7Y;
+        "pkg-V1.2-Vanilla" = _RUENEMvp;
+        "pkg-V1.2-Modded" = _m0UNFlwV;
+        "pkg-V1.2-Vanilla+mod" = _vTZ16eKN;
+        "pkg-V1.2-Modded+mod" = _RD19MwOU;
+        "pkg-V1.3" = _nAF1VuQf;
+        "pkg-V1.3+mod" = _GR0ewcQQ;
         "default" = _GR0ewcQQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

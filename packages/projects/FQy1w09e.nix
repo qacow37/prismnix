@@ -40,6 +40,10 @@ let
         "EV5V0c96" = _EV5V0c96;
         "forge-1.20.1" = _EV5V0c96;
         "neoforge-1.20.1" = _EV5V0c96;
+        "pkg-1.0" = _EV5V0c96;
+        "pkg-1.1" = _HYQeAxip;
+        "pkg-1.2" = _frQyjsWL;
+        "pkg-1.3" = _H6f4shn2;
         "default" = _EV5V0c96;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

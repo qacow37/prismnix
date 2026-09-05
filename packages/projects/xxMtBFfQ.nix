@@ -9,6 +9,7 @@ let
     in {
         "TgCSMKtU" = _TgCSMKtU;
         "fabric-1.21.11" = _TgCSMKtU;
+        "pkg-1.0.0" = _TgCSMKtU;
         "default" = _TgCSMKtU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

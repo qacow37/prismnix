@@ -9,6 +9,7 @@ let
     in {
         "RKdHGypu" = _RKdHGypu;
         "forge-1.20.1" = _RKdHGypu;
+        "pkg-0.9.0" = _RKdHGypu;
         "default" = _RKdHGypu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

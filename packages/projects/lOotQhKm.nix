@@ -9,6 +9,7 @@ let
     in {
         "YVTBmKLS" = _YVTBmKLS;
         "fabric-1.21.11" = _YVTBmKLS;
+        "pkg-1.0.0" = _YVTBmKLS;
         "default" = _YVTBmKLS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

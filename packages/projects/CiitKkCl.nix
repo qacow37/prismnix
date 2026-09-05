@@ -16,6 +16,8 @@ let
         "rcu7XhBC" = _rcu7XhBC;
         "datapack-1.21.1" = _zSfT7EK6;
         "neoforge-1.21.1" = _rcu7XhBC;
+        "pkg-1.0+DataPackVer" = _zSfT7EK6;
+        "pkg-1.0+ModVer" = _rcu7XhBC;
         "default" = _rcu7XhBC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

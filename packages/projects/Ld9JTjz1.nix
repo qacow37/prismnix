@@ -45,6 +45,13 @@ let
         "ByfQ4W1y" = _ByfQ4W1y;
         "AiGPuThY" = _AiGPuThY;
         "fabric-b1.7.3" = _AiGPuThY;
+        "pkg-0.1" = _fGKoXXwJ;
+        "pkg-0.2" = _4YTEznZN;
+        "pkg-0.2.1" = _oORFar1Z;
+        "pkg-0.2.2" = _39gQ7bsT;
+        "pkg-0.3" = _cwhSScqd;
+        "pkg-0.4" = _ByfQ4W1y;
+        "pkg-0.4.1" = _AiGPuThY;
         "default" = _AiGPuThY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

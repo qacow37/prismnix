@@ -21,6 +21,9 @@ let
         "3xI11yvM" = _3xI11yvM;
         "Mact0OtA" = _Mact0OtA;
         "forge-1.20.1" = _Mact0OtA;
+        "pkg-1.0.0" = _A2VJrtZd;
+        "pkg-1.0.1" = _3xI11yvM;
+        "pkg-1.0.2" = _Mact0OtA;
         "default" = _Mact0OtA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

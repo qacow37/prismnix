@@ -33,6 +33,11 @@ let
         "tUofNtRY" = _tUofNtRY;
         "SWAv0A7a" = _SWAv0A7a;
         "forge-1.20.1" = _SWAv0A7a;
+        "pkg-0.0.1" = _hkrtq3Xy;
+        "pkg-0.0.2" = _aSUYC1J5;
+        "pkg-0.1.0" = _xyo4fdoy;
+        "pkg-0.1.1" = _tUofNtRY;
+        "pkg-0.1.2" = _SWAv0A7a;
         "default" = _SWAv0A7a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

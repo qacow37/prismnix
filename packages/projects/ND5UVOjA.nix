@@ -21,6 +21,8 @@ let
         "minecraft-1.21.9" = _6AZgLgHz;
         "minecraft-1.21.10" = _6AZgLgHz;
         "minecraft-1.21.11" = _6AZgLgHz;
+        "pkg-1.0" = _cVDMSsYo;
+        "pkg-1.1" = _6AZgLgHz;
         "default" = _6AZgLgHz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

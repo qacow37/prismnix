@@ -39,6 +39,12 @@ let
         "7mzsCPbd" = _7mzsCPbd;
         "S7Jyyl3d" = _S7Jyyl3d;
         "forge-1.20.1" = _S7Jyyl3d;
+        "pkg-0.1-1.20.1" = _tUavMfyv;
+        "pkg-0.2-1.20.1" = _A6IOtr8v;
+        "pkg-0.3-1.20.1" = _Enuzs0vg;
+        "pkg-0.3.1-1.20.1" = _AVOsxZ5l;
+        "pkg-0.4-1.20.1" = _7mzsCPbd;
+        "pkg-0.5.0-1.20.1" = _S7Jyyl3d;
         "default" = _S7Jyyl3d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

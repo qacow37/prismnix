@@ -21,6 +21,9 @@ let
         "Y2mPDL4C" = _Y2mPDL4C;
         "YukX9wNC" = _YukX9wNC;
         "forge-1.19.2" = _YukX9wNC;
+        "pkg-1.0.1" = _dv3RTrvw;
+        "pkg-2.0.1" = _Y2mPDL4C;
+        "pkg-2.0.2" = _YukX9wNC;
         "default" = _YukX9wNC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

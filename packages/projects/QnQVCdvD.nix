@@ -26,6 +26,7 @@ let
         "minecraft-1.18.1" = _WP3utWdU;
         "minecraft-1.18.2" = _WP3utWdU;
         "minecraft-1.21" = _uLEFsJic;
+        "pkg-2" = _uLEFsJic;
         "default" = _uLEFsJic;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

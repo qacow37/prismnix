@@ -12,6 +12,7 @@ let
         "fabric-1.20.1" = _nCoQwnPC;
         "fabric-1.20.2" = _nCoQwnPC;
         "fabric-1.20.3" = _nCoQwnPC;
+        "pkg-1.0-1.20.3" = _nCoQwnPC;
         "default" = _nCoQwnPC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

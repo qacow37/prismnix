@@ -72,6 +72,7 @@ let
         "optifine-26.1" = _YQJkhJ7N;
         "optifine-26.1.1" = _YQJkhJ7N;
         "optifine-26.1.2" = _YQJkhJ7N;
+        "pkg-onlyshadows" = _YQJkhJ7N;
         "default" = _YQJkhJ7N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

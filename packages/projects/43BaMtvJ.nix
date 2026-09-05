@@ -16,6 +16,8 @@ let
         "UykVldns" = _UykVldns;
         "minecraft-1.21.10" = _UykVldns;
         "minecraft-1.21.11" = _UykVldns;
+        "pkg-1.0.3" = _2sGLx1PA;
+        "pkg-1.0.4" = _UykVldns;
         "default" = _UykVldns;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

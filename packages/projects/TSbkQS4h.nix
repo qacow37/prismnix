@@ -15,6 +15,8 @@ let
         "k5gEbLsM" = _k5gEbLsM;
         "Ov91Mfrp" = _Ov91Mfrp;
         "forge-1.20.1" = _Ov91Mfrp;
+        "pkg-1.2.1a-boobcat" = _k5gEbLsM;
+        "pkg-1.2.4-boobcat" = _Ov91Mfrp;
         "default" = _Ov91Mfrp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

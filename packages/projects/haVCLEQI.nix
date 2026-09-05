@@ -15,6 +15,8 @@ let
         "TwKAUttV" = _TwKAUttV;
         "lISjibCw" = _lISjibCw;
         "minecraft-1.21.1" = _lISjibCw;
+        "pkg-1.0" = _TwKAUttV;
+        "pkg-1.1" = _lISjibCw;
         "default" = _lISjibCw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

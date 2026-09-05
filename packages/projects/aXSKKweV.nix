@@ -21,6 +21,9 @@ let
         "rDFwr1gv" = _rDFwr1gv;
         "mEtG7FfP" = _mEtG7FfP;
         "neoforge-1.21.1" = _mEtG7FfP;
+        "pkg-0.0.2" = _8uPJdDxk;
+        "pkg-0.0.3" = _rDFwr1gv;
+        "pkg-0.0.4" = _mEtG7FfP;
         "default" = _mEtG7FfP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

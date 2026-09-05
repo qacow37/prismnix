@@ -9,6 +9,7 @@ let
     in {
         "CqenoT72" = _CqenoT72;
         "forge-1.12.2" = _CqenoT72;
+        "pkg-1.1.2" = _CqenoT72;
         "default" = _CqenoT72;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

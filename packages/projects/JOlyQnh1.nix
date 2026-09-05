@@ -52,6 +52,8 @@ let
         "U66CuOJt" = _U66CuOJt;
         "fabric-1.19.2" = _dDLXan9i;
         "forge-1.19.2" = _U66CuOJt;
+        "pkg-1.0.0" = _mfnAbVd4;
+        "pkg-1.1.1" = _U66CuOJt;
         "default" = _U66CuOJt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -40,6 +40,12 @@ let
         "FMO15DKn" = _FMO15DKn;
         "forge-1.20.1" = _FMO15DKn;
         "neoforge-1.20.1" = _FMO15DKn;
+        "pkg-1.20.1-1.0.0" = _8H2zc4VW;
+        "pkg-1.20.1-1.1.0" = _PSiLOkyh;
+        "pkg-1.20.1-1.2.0" = _GW8EZvbJ;
+        "pkg-1.20.1-1.3.0" = _PM572Px4;
+        "pkg-1.20.1-2.0.0" = _e4j6ORYD;
+        "pkg-1.20.1-2.0.1" = _FMO15DKn;
         "default" = _FMO15DKn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

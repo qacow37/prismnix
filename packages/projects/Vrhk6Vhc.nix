@@ -10,6 +10,7 @@ let
         "sUPhYPmX" = _sUPhYPmX;
         "minecraft-1.20" = _sUPhYPmX;
         "minecraft-1.20.1" = _sUPhYPmX;
+        "pkg-1.0" = _sUPhYPmX;
         "default" = _sUPhYPmX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

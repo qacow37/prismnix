@@ -16,6 +16,8 @@ let
         "U80Ma2gr" = _U80Ma2gr;
         "forge-1.16.5" = _ghssMD87;
         "forge-1.18.2" = _U80Ma2gr;
+        "pkg-1.16.5" = _ghssMD87;
+        "pkg-1.18.2" = _U80Ma2gr;
         "default" = _U80Ma2gr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

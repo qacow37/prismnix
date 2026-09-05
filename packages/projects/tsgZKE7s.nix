@@ -39,6 +39,7 @@ let
         "XA1y2Noy" = _XA1y2Noy;
         "gvftQuaN" = _gvftQuaN;
         "forge-1.7.10" = _gvftQuaN;
+        "pkg-universal" = _gvftQuaN;
         "default" = _gvftQuaN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

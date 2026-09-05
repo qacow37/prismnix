@@ -13,6 +13,7 @@ let
         "minecraft-1.20" = _Faws5tiI;
         "minecraft-1.21" = _Faws5tiI;
         "minecraft-1.21.1" = _Faws5tiI;
+        "pkg-1.0" = _Faws5tiI;
         "default" = _Faws5tiI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

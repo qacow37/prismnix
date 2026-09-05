@@ -46,6 +46,10 @@ let
         "quilt-1.21.1" = _XOcZZJTg;
         "quilt-1.21.2" = _XOcZZJTg;
         "quilt-1.21.3" = _XOcZZJTg;
+        "pkg-1.0.0+terralith-2.5.5" = _BhsN93yu;
+        "pkg-1.0.0+terralith-2.5.5+mod" = _84lOpp3d;
+        "pkg-1.0.2+terralith-2.5.5" = _JpkCRgTe;
+        "pkg-1.0.2+terralith-2.5.5+mod" = _XOcZZJTg;
         "default" = _XOcZZJTg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

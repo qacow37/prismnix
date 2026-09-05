@@ -10,6 +10,7 @@ let
         "YjO4mT06" = _YjO4mT06;
         "forge-1.20.1" = _YjO4mT06;
         "neoforge-1.20.1" = _YjO4mT06;
+        "pkg-1.1" = _YjO4mT06;
         "default" = _YjO4mT06;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

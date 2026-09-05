@@ -9,6 +9,7 @@ let
     in {
         "AcC1dBMa" = _AcC1dBMa;
         "forge-1.20.1" = _AcC1dBMa;
+        "pkg-1.20.1-10.4.13.69" = _AcC1dBMa;
         "default" = _AcC1dBMa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

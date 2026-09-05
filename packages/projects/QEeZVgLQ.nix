@@ -15,6 +15,8 @@ let
         "IF50cZK5" = _IF50cZK5;
         "Ukq5Ugxp" = _Ukq5Ugxp;
         "fabric-1.21.8" = _Ukq5Ugxp;
+        "pkg-1.0.0" = _IF50cZK5;
+        "pkg-1.0.1" = _Ukq5Ugxp;
         "default" = _Ukq5Ugxp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

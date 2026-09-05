@@ -76,6 +76,12 @@ let
         "M29EAkal" = _M29EAkal;
         "fabric-1.21.1" = _M29EAkal;
         "neoforge-1.21.1" = _xL1qDNc2;
+        "pkg-1.0.1" = _VuZ0ti4y;
+        "pkg-1.0.2" = _3QLFJ4sY;
+        "pkg-1.0.3" = _9MUleqNg;
+        "pkg-1.0.4" = _hpiE93dm;
+        "pkg-1.0.5" = _n733hcgR;
+        "pkg-1.0.6" = _M29EAkal;
         "default" = _M29EAkal;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

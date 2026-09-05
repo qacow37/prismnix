@@ -16,6 +16,8 @@ let
         "VhM0lc3Q" = _VhM0lc3Q;
         "fabric-1.21.10" = _TcKc9cAk;
         "fabric-1.21.11" = _VhM0lc3Q;
+        "pkg-1" = _TcKc9cAk;
+        "pkg-2" = _VhM0lc3Q;
         "default" = _VhM0lc3Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

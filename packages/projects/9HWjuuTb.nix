@@ -148,6 +148,8 @@ let
         "forge-1.19.4" = _un3Flfdm;
         "forge-1.20" = _un3Flfdm;
         "forge-1.20.1" = _un3Flfdm;
+        "pkg-1" = _t0ZgLFnk;
+        "pkg-1+mod" = _un3Flfdm;
         "default" = _un3Flfdm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

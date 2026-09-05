@@ -27,6 +27,10 @@ let
         "NGpn2ZKd" = _NGpn2ZKd;
         "6xKshAWI" = _6xKshAWI;
         "neoforge-1.21.1" = _6xKshAWI;
+        "pkg-0.0.4" = _WeN4Zn4o;
+        "pkg-0.0.5" = _9cyNtDTl;
+        "pkg-0.0.6" = _NGpn2ZKd;
+        "pkg-1.0.0" = _6xKshAWI;
         "default" = _6xKshAWI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

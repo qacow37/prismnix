@@ -33,6 +33,7 @@ let
         "forge-1.20.1" = _wt6Qw64V;
         "neoforge-1.20" = _wt6Qw64V;
         "neoforge-1.20.1" = _wt6Qw64V;
+        "pkg-1.7.0" = _wt6Qw64V;
         "default" = _wt6Qw64V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

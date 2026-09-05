@@ -154,6 +154,8 @@ let
         "quilt-26.1.1" = _RS8mpVsM;
         "quilt-26.1.2" = _RS8mpVsM;
         "quilt-26.2" = _RS8mpVsM;
+        "pkg-1.1" = _v1KBlO8e;
+        "pkg-1.1+mod" = _RS8mpVsM;
         "default" = _RS8mpVsM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

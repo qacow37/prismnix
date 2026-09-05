@@ -40,6 +40,10 @@ let
         "hb669W6B" = _hb669W6B;
         "neoforge-1.21.1" = _7KOxVEgp;
         "forge-1.20.1" = _hb669W6B;
+        "pkg-21.1.11" = _8szLBJVi;
+        "pkg-21.1.12" = _yZDQEAGg;
+        "pkg-21.1.13" = _PXSoip5Y;
+        "pkg-21.1.14" = _hb669W6B;
         "default" = _hb669W6B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

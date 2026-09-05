@@ -30,6 +30,10 @@ let
         "iris-1.21.1" = _VWUs1TDT;
         "optifine-1.20.1" = _VWUs1TDT;
         "optifine-1.21.1" = _VWUs1TDT;
+        "pkg-0.0.1" = _FEyutL35;
+        "pkg-0.0.4" = _rzA19f3C;
+        "pkg-0.1" = _EcFMUvB5;
+        "pkg-0.2" = _VWUs1TDT;
         "default" = _VWUs1TDT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

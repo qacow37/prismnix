@@ -45,6 +45,13 @@ let
         "xDB9Spyw" = _xDB9Spyw;
         "PMs09tzv" = _PMs09tzv;
         "neoforge-1.21.1" = _PMs09tzv;
+        "pkg-1.0.0" = _tLyl5w1K;
+        "pkg-1.1.0" = _LiwPeJtV;
+        "pkg-1.1.1" = _O65ZQh6t;
+        "pkg-1.2.0" = _7HsAcbJk;
+        "pkg-1.3.0" = _myEzBQBi;
+        "pkg-beetroot" = _xDB9Spyw;
+        "pkg-1.4.0" = _PMs09tzv;
         "default" = _PMs09tzv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

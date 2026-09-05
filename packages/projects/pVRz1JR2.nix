@@ -15,6 +15,8 @@ let
         "hmu4nXmu" = _hmu4nXmu;
         "Kvl95o6U" = _Kvl95o6U;
         "forge-1.20.1" = _Kvl95o6U;
+        "pkg-1.0.2" = _hmu4nXmu;
+        "pkg-1.1.0" = _Kvl95o6U;
         "default" = _Kvl95o6U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -209,6 +209,26 @@ let
         "purpur-26.1.1" = _V22EXIno;
         "purpur-26.1.2" = _V22EXIno;
         "purpur-26.2" = _V22EXIno;
+        "pkg-1.0.0" = _h6VIWxPj;
+        "pkg-1.0.1" = _sAcog2qW;
+        "pkg-1.0.3" = _ZsKxdT54;
+        "pkg-1.0.4" = _YEdyFEXS;
+        "pkg-1.0.5" = _avYmjcEO;
+        "pkg-1.0.6" = _Pkz95AhB;
+        "pkg-1.0.7" = _2xRK81kF;
+        "pkg-1.0.8" = _VahdTCyi;
+        "pkg-1.1.0" = _mWrnrx2R;
+        "pkg-1.1.1" = _uTZI9FiI;
+        "pkg-1.1.2" = _S1lUhSJj;
+        "pkg-1.1.3" = _OHxObBBp;
+        "pkg-1.1.4" = _OHacKqep;
+        "pkg-1.1.5" = _yHeOs8tm;
+        "pkg-1.1.6" = _o017EiMI;
+        "pkg-1.1.7" = _tJ8yc1Hz;
+        "pkg-1.1.8" = _C0AL9yNu;
+        "pkg-1.1.9" = _oengcTYg;
+        "pkg-1.1.10" = _ILCLlpav;
+        "pkg-1.1.11" = _V22EXIno;
         "default" = _V22EXIno;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

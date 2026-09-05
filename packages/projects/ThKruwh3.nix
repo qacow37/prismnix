@@ -15,6 +15,8 @@ let
         "K4d9gPya" = _K4d9gPya;
         "36uwytNG" = _36uwytNG;
         "neoforge-1.21.4" = _36uwytNG;
+        "pkg-1.0.0.0-a" = _K4d9gPya;
+        "pkg-1.0.0.0-b" = _36uwytNG;
         "default" = _36uwytNG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

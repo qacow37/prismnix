@@ -32,6 +32,8 @@ let
         "forge-1.21.1" = _wLSLnMoM;
         "neoforge-1.21.1" = _wLSLnMoM;
         "quilt-1.21.1" = _wLSLnMoM;
+        "pkg-1.0.0" = _dkhL4Cnl;
+        "pkg-1.0.0+mod" = _wLSLnMoM;
         "default" = _wLSLnMoM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

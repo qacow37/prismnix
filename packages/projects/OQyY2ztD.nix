@@ -9,6 +9,7 @@ let
     in {
         "2gPpyKEQ" = _2gPpyKEQ;
         "minecraft-1.21.11" = _2gPpyKEQ;
+        "pkg-1.0" = _2gPpyKEQ;
         "default" = _2gPpyKEQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

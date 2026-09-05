@@ -9,6 +9,7 @@ let
     in {
         "3n72p2N0" = _3n72p2N0;
         "forge-1.20.1" = _3n72p2N0;
+        "pkg-ver_kadzu" = _3n72p2N0;
         "default" = _3n72p2N0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

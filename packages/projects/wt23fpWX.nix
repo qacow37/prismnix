@@ -33,6 +33,11 @@ let
         "Vt25s1Kv" = _Vt25s1Kv;
         "9ig2SGA7" = _9ig2SGA7;
         "fabric-1.21.11" = _9ig2SGA7;
+        "pkg-1.21.11-1.2.2" = _zqXYDsmu;
+        "pkg-1.21.11-1.2.3" = _WupCQW3i;
+        "pkg-1.21.11-1.2.4" = _hGMOx9j5;
+        "pkg-1.21.11-1.2.5" = _Vt25s1Kv;
+        "pkg-1.21.11-1.4.3" = _9ig2SGA7;
         "default" = _9ig2SGA7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -39,6 +39,12 @@ let
         "rpZSu48S" = _rpZSu48S;
         "rsUHNeoF" = _rsUHNeoF;
         "neoforge-1.21.1" = _rsUHNeoF;
+        "pkg-5.0.0" = _AjM1ZAsN;
+        "pkg-5.0.1" = _VyILxCtx;
+        "pkg-5.0.3" = _tDGI0vDx;
+        "pkg-5.0.4" = _oKr5DEeK;
+        "pkg-5.0.5" = _rpZSu48S;
+        "pkg-5.0.6" = _rsUHNeoF;
         "default" = _rsUHNeoF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

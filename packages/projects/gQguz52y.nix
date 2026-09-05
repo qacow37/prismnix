@@ -15,6 +15,8 @@ let
         "eGjib9YL" = _eGjib9YL;
         "NWo9dALV" = _NWo9dALV;
         "minecraft-1.8.9" = _NWo9dALV;
+        "pkg-1.0" = _eGjib9YL;
+        "pkg-1.1" = _NWo9dALV;
         "default" = _NWo9dALV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

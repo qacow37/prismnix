@@ -58,6 +58,10 @@ let
         "paper-1.21.6" = _xixwMmp3;
         "paper-1.21.7" = _xixwMmp3;
         "paper-1.21.8" = _xixwMmp3;
+        "pkg-1.0" = _t2oOEDpU;
+        "pkg-1.1" = _JkNbNvOK;
+        "pkg-1.2" = _SyO4elgo;
+        "pkg-1.2.1" = _xixwMmp3;
         "default" = _xixwMmp3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

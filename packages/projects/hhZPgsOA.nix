@@ -74,6 +74,10 @@ let
         "spigot-1.21.9" = _zldmGU4i;
         "spigot-1.21.10" = _zldmGU4i;
         "spigot-1.21.11" = _zldmGU4i;
+        "pkg-1.0" = _aWg707lI;
+        "pkg-2.0" = _N62aN5QH;
+        "pkg-3.0" = _uCa7R9nE;
+        "pkg-4.0" = _zldmGU4i;
         "default" = _zldmGU4i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

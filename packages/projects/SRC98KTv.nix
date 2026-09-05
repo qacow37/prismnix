@@ -13,6 +13,7 @@ let
         "minecraft-1.18.2" = _eOiUTUsT;
         "minecraft-1.19.2" = _eOiUTUsT;
         "minecraft-1.20.1" = _eOiUTUsT;
+        "pkg-2.8" = _eOiUTUsT;
         "default" = _eOiUTUsT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

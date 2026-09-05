@@ -21,6 +21,9 @@ let
         "SQgth84M" = _SQgth84M;
         "OSM9K1Vz" = _OSM9K1Vz;
         "fabric-1.20.1" = _OSM9K1Vz;
+        "pkg-0.8.0" = _srfzFCb2;
+        "pkg-0.8.1" = _SQgth84M;
+        "pkg-0.8.1H" = _OSM9K1Vz;
         "default" = _OSM9K1Vz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

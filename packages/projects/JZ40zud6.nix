@@ -28,6 +28,9 @@ let
         "tV20JV5E" = _tV20JV5E;
         "neoforge-1.21.1" = _jBc1AAMC;
         "fabric-1.21.1" = _tV20JV5E;
+        "pkg-1.0.0" = _Z0UhDExQ;
+        "pkg-1.01" = _jBc1AAMC;
+        "pkg-1.0.1" = _tV20JV5E;
         "default" = _tV20JV5E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

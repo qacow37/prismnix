@@ -24,6 +24,7 @@ let
         "purpur-26.1.1" = _L4Ot3AK8;
         "purpur-26.1.2" = _L4Ot3AK8;
         "purpur-26.2" = _L4Ot3AK8;
+        "pkg-1.0.3" = _L4Ot3AK8;
         "default" = _L4Ot3AK8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

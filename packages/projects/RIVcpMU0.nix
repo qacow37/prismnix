@@ -9,6 +9,7 @@ let
     in {
         "LMUDlS17" = _LMUDlS17;
         "forge-1.20.1" = _LMUDlS17;
+        "pkg-1.20.1-1.0.0" = _LMUDlS17;
         "default" = _LMUDlS17;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

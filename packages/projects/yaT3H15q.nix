@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _ZrSOiR83;
         "spigot-1.21.10" = _ZrSOiR83;
         "spigot-1.21.11" = _ZrSOiR83;
+        "pkg-1.0" = _ZrSOiR83;
         "default" = _ZrSOiR83;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

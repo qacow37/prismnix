@@ -9,6 +9,7 @@ let
     in {
         "TNiO3VwE" = _TNiO3VwE;
         "forge-1.20.1" = _TNiO3VwE;
+        "pkg-1.0" = _TNiO3VwE;
         "default" = _TNiO3VwE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

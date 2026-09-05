@@ -21,6 +21,9 @@ let
         "4sRIy9Ws" = _4sRIy9Ws;
         "jdvTXl4R" = _jdvTXl4R;
         "neoforge-1.21.8" = _jdvTXl4R;
+        "pkg-1.0.1" = _S1MCw1Sr;
+        "pkg-1.0.3" = _4sRIy9Ws;
+        "pkg-1.0.4" = _jdvTXl4R;
         "default" = _jdvTXl4R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

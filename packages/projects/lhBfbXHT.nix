@@ -53,6 +53,13 @@ let
         "minecraft-1.21.6" = _7GlnGl3v;
         "minecraft-1.21.7" = _7GlnGl3v;
         "minecraft-1.21.8" = _7GlnGl3v;
+        "pkg-BiomesV1" = _7NYUe1Fc;
+        "pkg-LoopedV1" = _L42Acdvm;
+        "pkg-GrassV1" = _XgrXlWxr;
+        "pkg-Biome1.1" = _b9RNj8D8;
+        "pkg-Grass_Height_V2" = _tGbbIqfw;
+        "pkg-Looped_V1.1" = _fK4pmAwd;
+        "pkg-Grass_V1.1" = _7GlnGl3v;
         "default" = _7GlnGl3v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

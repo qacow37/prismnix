@@ -28,6 +28,8 @@ let
         "Tcq1kSaa" = _Tcq1kSaa;
         "neoforge-1.21.1" = _fjmqrivb;
         "fabric-1.21.1" = _Tcq1kSaa;
+        "pkg-1.0.0" = _xaBEMlrn;
+        "pkg-1.1" = _Tcq1kSaa;
         "default" = _Tcq1kSaa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

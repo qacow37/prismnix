@@ -10,6 +10,7 @@ let
         "kLtG84B0" = _kLtG84B0;
         "minecraft-1.21" = _kLtG84B0;
         "minecraft-1.21.1" = _kLtG84B0;
+        "pkg-0.1.0+mc1.21.1" = _kLtG84B0;
         "default" = _kLtG84B0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

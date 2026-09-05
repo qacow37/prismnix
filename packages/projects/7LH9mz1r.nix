@@ -16,6 +16,8 @@ let
         "ktbmFKk9" = _ktbmFKk9;
         "fabric-1.21" = _ktbmFKk9;
         "fabric-1.21.1" = _ktbmFKk9;
+        "pkg-1.0.0" = _xmfGdbKj;
+        "pkg-1.1.0" = _ktbmFKk9;
         "default" = _ktbmFKk9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

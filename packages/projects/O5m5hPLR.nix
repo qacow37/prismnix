@@ -80,6 +80,7 @@ let
         "optifine-26.1.1" = _kzIhDPGE;
         "optifine-26.1.2" = _kzIhDPGE;
         "optifine-26.2" = _kzIhDPGE;
+        "pkg-B3-PvP" = _kzIhDPGE;
         "default" = _kzIhDPGE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

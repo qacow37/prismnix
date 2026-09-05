@@ -9,6 +9,7 @@ let
     in {
         "ANMOedQP" = _ANMOedQP;
         "fabric-1.20.4" = _ANMOedQP;
+        "pkg-0.1.1" = _ANMOedQP;
         "default" = _ANMOedQP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

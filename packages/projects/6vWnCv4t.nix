@@ -112,6 +112,8 @@ let
         "minecraft-1.7.8" = _AC3VXsus;
         "minecraft-1.7.9" = _AC3VXsus;
         "minecraft-1.7.10" = _AC3VXsus;
+        "pkg-1.0" = _NRQ6ti6W;
+        "pkg-1.0.1" = _AC3VXsus;
         "default" = _AC3VXsus;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

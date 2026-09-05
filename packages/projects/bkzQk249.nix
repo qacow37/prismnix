@@ -39,6 +39,10 @@ let
         "fabric-1.20.3" = _SyQnSClE;
         "fabric-1.20.4" = _SyQnSClE;
         "forge-1.18.2" = _f3WoEvlQ;
+        "pkg-1.1.0-fabric" = _fqhjGTV9;
+        "pkg-1.2.0" = _jji34OTa;
+        "pkg-1.2.0-forge" = _f3WoEvlQ;
+        "pkg-1.2.1-fabric" = _SyQnSClE;
         "default" = _SyQnSClE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

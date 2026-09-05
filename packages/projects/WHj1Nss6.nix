@@ -15,6 +15,8 @@ let
         "C0ewmXZL" = _C0ewmXZL;
         "deDogNwF" = _deDogNwF;
         "neoforge-1.21.1" = _deDogNwF;
+        "pkg-0.0.2" = _C0ewmXZL;
+        "pkg-0.0.3" = _deDogNwF;
         "default" = _deDogNwF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,10 @@ let
         "vOsU8DU6" = _vOsU8DU6;
         "Vm6OLtit" = _Vm6OLtit;
         "forge-1.8.9" = _Vm6OLtit;
+        "pkg-1.0.0" = _dUT2h3j4;
+        "pkg-1.1" = _y8l1mU3I;
+        "pkg-1.2" = _vOsU8DU6;
+        "pkg-1.3" = _Vm6OLtit;
         "default" = _Vm6OLtit;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "yBLcZZRZ" = _yBLcZZRZ;
         "fabric-1.21.11" = _yBLcZZRZ;
         "quilt-1.21.11" = _yBLcZZRZ;
+        "pkg-1.0.0" = _RwnX1vzW;
+        "pkg-1.0.1" = _yBLcZZRZ;
         "default" = _yBLcZZRZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -561,6 +561,7 @@ let
         "minecraft-1.19.2-rc1" = _oK3wl2At;
         "minecraft-1.19.2-rc2" = _oK3wl2At;
         "minecraft-1.19.2" = _oK3wl2At;
+        "pkg-1.0" = _oK3wl2At;
         "default" = _oK3wl2At;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -66,6 +66,7 @@ let
         "optifine-1.21.9" = _t95Tavli;
         "optifine-1.21.10" = _t95Tavli;
         "optifine-1.21.11" = _t95Tavli;
+        "pkg-1.0" = _t95Tavli;
         "default" = _t95Tavli;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

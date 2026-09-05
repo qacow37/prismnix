@@ -9,6 +9,7 @@ let
     in {
         "iMRGd06Y" = _iMRGd06Y;
         "forge-1.12.2" = _iMRGd06Y;
+        "pkg-0.1.3.0" = _iMRGd06Y;
         "default" = _iMRGd06Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

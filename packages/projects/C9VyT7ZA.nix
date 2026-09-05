@@ -9,6 +9,7 @@ let
     in {
         "WZfFut04" = _WZfFut04;
         "fabric-1.20.1" = _WZfFut04;
+        "pkg-1.0-Debug" = _WZfFut04;
         "default" = _WZfFut04;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "joypCfEt" = _joypCfEt;
         "forge-1.16.5" = _joypCfEt;
+        "pkg-1.16-1.0" = _joypCfEt;
         "default" = _joypCfEt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

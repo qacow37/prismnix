@@ -9,6 +9,7 @@ let
     in {
         "26WPtINt" = _26WPtINt;
         "neoforge-1.21.1" = _26WPtINt;
+        "pkg-0.4" = _26WPtINt;
         "default" = _26WPtINt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

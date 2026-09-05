@@ -9,6 +9,7 @@ let
     in {
         "g85Lf3Bv" = _g85Lf3Bv;
         "forge-1.20.1" = _g85Lf3Bv;
+        "pkg-1.0.0" = _g85Lf3Bv;
         "default" = _g85Lf3Bv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

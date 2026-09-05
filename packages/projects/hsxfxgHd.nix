@@ -9,6 +9,7 @@ let
     in {
         "OAKmRkKO" = _OAKmRkKO;
         "fabric-1.21.1" = _OAKmRkKO;
+        "pkg-1.21.1-1.0" = _OAKmRkKO;
         "default" = _OAKmRkKO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

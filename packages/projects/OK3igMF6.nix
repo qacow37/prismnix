@@ -33,6 +33,11 @@ let
         "EKnloQH0" = _EKnloQH0;
         "NKA78Zxa" = _NKA78Zxa;
         "forge-1.12.2" = _NKA78Zxa;
+        "pkg-0.2.5" = _eVGDXT0I;
+        "pkg-0.2.6" = _6GIpqfHW;
+        "pkg-0.2.7" = _bOwR1HeY;
+        "pkg-0.2.8" = _EKnloQH0;
+        "pkg-0.3.0" = _NKA78Zxa;
         "default" = _NKA78Zxa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "joVLYWfG" = _joVLYWfG;
         "fabric-1.20.4" = _gr53g2LS;
         "fabric-1.21.1" = _joVLYWfG;
+        "pkg-1.0.2+mc1.20.4" = _gr53g2LS;
+        "pkg-v1.1.0-mc1.21.1" = _joVLYWfG;
         "default" = _joVLYWfG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

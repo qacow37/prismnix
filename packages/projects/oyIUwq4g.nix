@@ -34,6 +34,8 @@ let
         "fabric-26.1.1" = _XKNOOdVi;
         "fabric-26.1.2" = _XKNOOdVi;
         "fabric-26.2" = _XKNOOdVi;
+        "pkg-1.0.0" = _jdSGRfFJ;
+        "pkg-1.0.1" = _XKNOOdVi;
         "default" = _XKNOOdVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

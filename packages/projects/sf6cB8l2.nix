@@ -38,6 +38,9 @@ let
         "fabric-26.1.1" = _TLseNMGd;
         "fabric-26.1.2" = _TLseNMGd;
         "fabric-26.2" = _TLseNMGd;
+        "pkg-1.0.0" = _ElNogMMl;
+        "pkg-1.0.1" = _VP6QA7eM;
+        "pkg-1.0.2" = _TLseNMGd;
         "default" = _TLseNMGd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

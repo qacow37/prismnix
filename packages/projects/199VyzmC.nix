@@ -16,6 +16,8 @@ let
         "STumnqJf" = _STumnqJf;
         "fabric-26.1.2" = _MGeq5OGo;
         "fabric-26.2" = _STumnqJf;
+        "pkg-1.0.0" = _MGeq5OGo;
+        "pkg-1.0.1" = _STumnqJf;
         "default" = _STumnqJf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

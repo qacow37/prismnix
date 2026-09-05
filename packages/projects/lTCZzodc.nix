@@ -16,6 +16,8 @@ let
         "2mHOirBS" = _2mHOirBS;
         "forge-1.18.2" = _NvHLEnFr;
         "forge-1.16.5" = _2mHOirBS;
+        "pkg-2.0.0" = _NvHLEnFr;
+        "pkg-1.22.0" = _2mHOirBS;
         "default" = _2mHOirBS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

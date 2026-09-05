@@ -120,6 +120,13 @@ let
         "fabric-26.1.1" = _utnlina0;
         "fabric-26.1.2" = _utnlina0;
         "fabric-26.2" = _utnlina0;
+        "pkg-1.0.0" = _u367pZfB;
+        "pkg-2.0" = _TO2UUGAG;
+        "pkg-3.0" = _DWE3d8jg;
+        "pkg-3.1" = _9Ni9nB0Q;
+        "pkg-3.2" = _8gpCW34u;
+        "pkg-3.3" = _YflrGYTV;
+        "pkg-3.4" = _utnlina0;
         "default" = _utnlina0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

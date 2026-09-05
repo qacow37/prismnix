@@ -27,6 +27,10 @@ let
         "eZVtVxL9" = _eZVtVxL9;
         "eJNNgGdr" = _eJNNgGdr;
         "fabric-1.21.1" = _eJNNgGdr;
+        "pkg-1.0.0" = _cgmj8JQR;
+        "pkg-1.0.1" = _K0942pM3;
+        "pkg-1.0.2" = _eZVtVxL9;
+        "pkg-1.0.3" = _eJNNgGdr;
         "default" = _eJNNgGdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

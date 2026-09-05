@@ -28,6 +28,8 @@ let
         "kiVektne" = _kiVektne;
         "forge-1.19.2" = _KCgn180t;
         "forge-1.20.1" = _kiVektne;
+        "pkg-1.0.0" = _2JW9Miyo;
+        "pkg-1.1.0" = _kiVektne;
         "default" = _kiVektne;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

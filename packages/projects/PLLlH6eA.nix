@@ -15,6 +15,8 @@ let
         "vg31ksHM" = _vg31ksHM;
         "gunnlOXX" = _gunnlOXX;
         "forge-1.20.1" = _gunnlOXX;
+        "pkg-1.0.0" = _vg31ksHM;
+        "pkg-1.0.1" = _gunnlOXX;
         "default" = _gunnlOXX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

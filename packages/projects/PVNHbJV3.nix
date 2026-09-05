@@ -49,6 +49,9 @@ let
         "minecraft-1.21.1" = _cuLocVHn;
         "minecraft-1.21.2" = _cuLocVHn;
         "minecraft-1.21.3" = _cuLocVHn;
+        "pkg-1.1" = _5Veano12;
+        "pkg-1.2" = _4lNhBr8S;
+        "pkg-1.3" = _cuLocVHn;
         "default" = _cuLocVHn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

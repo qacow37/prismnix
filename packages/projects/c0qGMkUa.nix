@@ -10,6 +10,7 @@ let
         "xSEysAVe" = _xSEysAVe;
         "fabric-1.20" = _xSEysAVe;
         "fabric-1.20.1" = _xSEysAVe;
+        "pkg-1.0.0" = _xSEysAVe;
         "default" = _xSEysAVe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

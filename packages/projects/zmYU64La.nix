@@ -51,6 +51,10 @@ let
         "fabric-1.21.10" = _YreGaOic;
         "fabric-1.21.11" = _YreGaOic;
         "fabric-26.1" = _YreGaOic;
+        "pkg-1.0.0" = _IrlsimZr;
+        "pkg-1.0.1" = _psICTfzc;
+        "pkg-1.0.2" = _nUHSYFgI;
+        "pkg-1.0.3" = _YreGaOic;
         "default" = _YreGaOic;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

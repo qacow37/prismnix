@@ -9,6 +9,7 @@ let
     in {
         "xu0argEm" = _xu0argEm;
         "forge-1.20.1" = _xu0argEm;
+        "pkg-1.0" = _xu0argEm;
         "default" = _xu0argEm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

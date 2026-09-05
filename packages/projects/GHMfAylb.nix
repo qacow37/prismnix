@@ -88,6 +88,7 @@ let
         "minecraft-1.12" = _dtotF78g;
         "minecraft-1.12.1" = _dtotF78g;
         "minecraft-1.12.2" = _dtotF78g;
+        "pkg-1.0.1" = _dtotF78g;
         "default" = _dtotF78g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

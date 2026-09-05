@@ -49,6 +49,8 @@ let
         "forge-1.20.1" = _ceoeTSOD;
         "forge-1.19.2" = _yw580nas;
         "neoforge-1.20.4" = _nKBY1qtO;
+        "pkg-1.0" = _yw580nas;
+        "pkg-1.1" = _ceoeTSOD;
         "default" = _ceoeTSOD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "zW1fazBS" = _zW1fazBS;
         "ZoyS9spt" = _ZoyS9spt;
         "minecraft-1.21.1" = _ZoyS9spt;
+        "pkg-HeightV1" = _zW1fazBS;
+        "pkg-LeavesV1" = _ZoyS9spt;
         "default" = _ZoyS9spt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

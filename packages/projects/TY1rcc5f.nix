@@ -15,6 +15,8 @@ let
         "ScuGuqhZ" = _ScuGuqhZ;
         "AW2ytprW" = _AW2ytprW;
         "fabric-1.21.1" = _AW2ytprW;
+        "pkg-1.0.0" = _ScuGuqhZ;
+        "pkg-1.1.0" = _AW2ytprW;
         "default" = _AW2ytprW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "GBxB0nii" = _GBxB0nii;
         "forge-1.18.2" = _GBxB0nii;
+        "pkg-1.18.2-ss0.3.4" = _GBxB0nii;
         "default" = _GBxB0nii;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

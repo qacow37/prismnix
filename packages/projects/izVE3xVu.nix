@@ -9,6 +9,7 @@ let
     in {
         "IOs1rRga" = _IOs1rRga;
         "minecraft-1.21" = _IOs1rRga;
+        "pkg-1" = _IOs1rRga;
         "default" = _IOs1rRga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

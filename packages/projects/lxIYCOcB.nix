@@ -27,6 +27,10 @@ let
         "fDrCPR5v" = _fDrCPR5v;
         "NIva5WdM" = _NIva5WdM;
         "fabric-1.21.11" = _NIva5WdM;
+        "pkg-0.9.0" = _BFdJlQWu;
+        "pkg-0.9.001" = _C09ylE3W;
+        "pkg-0.9.002" = _fDrCPR5v;
+        "pkg-0.9.2" = _NIva5WdM;
         "default" = _NIva5WdM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

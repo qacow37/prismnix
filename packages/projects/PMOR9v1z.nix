@@ -81,6 +81,19 @@ let
         "QuMATiiq" = _QuMATiiq;
         "pxf1373R" = _pxf1373R;
         "forge-1.20.1" = _pxf1373R;
+        "pkg-0.1.1-BETA" = _Jg0EVoP0;
+        "pkg-0.1.2-BETA" = _nm2swmZ2;
+        "pkg-0.1.3-BETA" = _nQjs5BSI;
+        "pkg-0.1.4-BETA" = _xq8IQF9D;
+        "pkg-0.1.5-BETA" = _8pAgacpD;
+        "pkg-0.2.1-BETA" = _mtsLBLEZ;
+        "pkg-0.3.0-BETA" = _cOBRnam3;
+        "pkg-0.4.0-BETA" = _Jb6brfYk;
+        "pkg-0.5.0-BETA" = _Hexl5Ost;
+        "pkg-0.5.0-BETA-HotFix" = _kOsBqVYD;
+        "pkg-0.5.5-BETA" = _UNdidC9T;
+        "pkg-0.6.0-BETA" = _QuMATiiq;
+        "pkg-0.7.0-BETA" = _pxf1373R;
         "default" = _pxf1373R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

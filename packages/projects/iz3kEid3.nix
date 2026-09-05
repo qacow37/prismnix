@@ -10,6 +10,7 @@ let
         "9kGBZbAR" = _9kGBZbAR;
         "minecraft-1.20.1" = _9kGBZbAR;
         "minecraft-1.21.1" = _9kGBZbAR;
+        "pkg-1.0" = _9kGBZbAR;
         "default" = _9kGBZbAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

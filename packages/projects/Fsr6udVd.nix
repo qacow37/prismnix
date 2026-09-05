@@ -19,6 +19,8 @@ let
         "forge-1.20.1" = _16bKdote;
         "neoforge-1.20.1" = _16bKdote;
         "quilt-1.20.1" = _16bKdote;
+        "pkg-0.1" = _iAcAcQdf;
+        "pkg-0.1+mod" = _16bKdote;
         "default" = _16bKdote;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

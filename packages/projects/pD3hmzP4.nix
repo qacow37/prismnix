@@ -30,6 +30,8 @@ let
         "quilt-1.20.2" = _cUfzVsSu;
         "quilt-1.20.3" = _cUfzVsSu;
         "quilt-1.20.4" = _cUfzVsSu;
+        "pkg-1" = _j264u3rB;
+        "pkg-1+mod" = _cUfzVsSu;
         "default" = _cUfzVsSu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

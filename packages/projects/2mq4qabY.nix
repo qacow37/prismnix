@@ -21,6 +21,9 @@ let
         "Dxde6flh" = _Dxde6flh;
         "aYuWjdFT" = _aYuWjdFT;
         "forge-1.7.10" = _aYuWjdFT;
+        "pkg-1.0" = _J561JDHD;
+        "pkg-1.2" = _Dxde6flh;
+        "pkg-1.3" = _aYuWjdFT;
         "default" = _aYuWjdFT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

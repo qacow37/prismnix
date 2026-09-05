@@ -21,6 +21,9 @@ let
         "tAMR2lVR" = _tAMR2lVR;
         "tw6sCMnw" = _tw6sCMnw;
         "fabric-1.21.1" = _tw6sCMnw;
+        "pkg-1.0.0" = _qyAWLcpO;
+        "pkg-1.0.1" = _tAMR2lVR;
+        "pkg-1.0.2" = _tw6sCMnw;
         "default" = _tw6sCMnw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "FKE9ORtX" = _FKE9ORtX;
         "cAP2JPS1" = _cAP2JPS1;
         "forge-1.20.1" = _cAP2JPS1;
+        "pkg-1.0.3" = _FKE9ORtX;
+        "pkg-1.0.8" = _cAP2JPS1;
         "default" = _cAP2JPS1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

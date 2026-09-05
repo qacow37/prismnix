@@ -31,6 +31,7 @@ let
         "minecraft-1.14.2" = _OecN3BsU;
         "minecraft-1.14.3" = _OecN3BsU;
         "minecraft-1.14.4" = _OecN3BsU;
+        "pkg-1.8.9" = _OecN3BsU;
         "default" = _OecN3BsU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

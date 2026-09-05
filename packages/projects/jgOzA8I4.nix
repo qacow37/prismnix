@@ -51,6 +51,14 @@ let
         "EleLf91k" = _EleLf91k;
         "maK19KHR" = _maK19KHR;
         "neoforge-1.21.1" = _maK19KHR;
+        "pkg-1.0.0" = _38ngBv0k;
+        "pkg-1.1.0" = _iIY4Z7aP;
+        "pkg-1.3.0" = _q1l9GoYg;
+        "pkg-1.4.0" = _M7RrASk9;
+        "pkg-1.5.0" = _lOrkIsuL;
+        "pkg-1.6.0" = _vtBxkIPe;
+        "pkg-1.7.0" = _EleLf91k;
+        "pkg-1.8.0" = _maK19KHR;
         "default" = _maK19KHR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

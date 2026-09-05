@@ -9,6 +9,7 @@ let
     in {
         "fFEM0AWp" = _fFEM0AWp;
         "minecraft-1.8.9" = _fFEM0AWp;
+        "pkg-1.0" = _fFEM0AWp;
         "default" = _fFEM0AWp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

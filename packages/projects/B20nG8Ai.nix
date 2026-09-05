@@ -75,6 +75,11 @@ let
         "datapack-1.21-rc1" = _p6PdZ54F;
         "datapack-1.21" = _p6PdZ54F;
         "datapack-1.21.1" = _p6PdZ54F;
+        "pkg-0.00" = _9r0WuXgt;
+        "pkg-0.01" = _jGCNlupG;
+        "pkg-0.02" = _NdHY3fnj;
+        "pkg-0.03" = _bjgWgkMP;
+        "pkg-0.04" = _p6PdZ54F;
         "default" = _p6PdZ54F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

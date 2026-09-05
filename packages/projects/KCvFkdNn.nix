@@ -14,6 +14,7 @@ let
         "fabric-1.20.2" = _SCHXG0KP;
         "fabric-1.20.3" = _SCHXG0KP;
         "fabric-1.20.4" = _SCHXG0KP;
+        "pkg-1.0.0+1.19.4-1.20" = _SCHXG0KP;
         "default" = _SCHXG0KP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

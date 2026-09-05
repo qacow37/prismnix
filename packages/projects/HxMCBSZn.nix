@@ -16,6 +16,8 @@ let
         "OXP1FFfm" = _OXP1FFfm;
         "neoforge-1.21.1" = _OXP1FFfm;
         "neoforge-1.21" = _OXP1FFfm;
+        "pkg-0.0.1" = _TXisvreZ;
+        "pkg-0.1.0" = _OXP1FFfm;
         "default" = _OXP1FFfm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

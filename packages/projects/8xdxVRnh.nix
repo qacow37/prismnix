@@ -16,6 +16,8 @@ let
         "PUL1Yw64" = _PUL1Yw64;
         "datapack-1.20.1" = _i0hqQuvj;
         "fabric-1.20.1" = _PUL1Yw64;
+        "pkg-1.0.0" = _i0hqQuvj;
+        "pkg-1.0.0+mod" = _PUL1Yw64;
         "default" = _PUL1Yw64;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

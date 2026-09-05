@@ -15,6 +15,7 @@ let
         "Nqv2vN5S" = _Nqv2vN5S;
         "QZjKN4BV" = _QZjKN4BV;
         "minecraft-1.21.5" = _QZjKN4BV;
+        "pkg-2.0.0" = _QZjKN4BV;
         "default" = _QZjKN4BV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

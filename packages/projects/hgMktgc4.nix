@@ -164,6 +164,7 @@ let
         "spigot-1.20.6" = _I2PsMHvx;
         "spigot-1.21" = _I2PsMHvx;
         "spigot-1.21.1" = _I2PsMHvx;
+        "pkg-1.0.0" = _I2PsMHvx;
         "default" = _I2PsMHvx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

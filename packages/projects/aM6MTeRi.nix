@@ -15,6 +15,8 @@ let
         "1o51Sx67" = _1o51Sx67;
         "HVI28W6Z" = _HVI28W6Z;
         "fabric-1.21.11" = _HVI28W6Z;
+        "pkg-1.0.0" = _1o51Sx67;
+        "pkg-1.0.1" = _HVI28W6Z;
         "default" = _HVI28W6Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

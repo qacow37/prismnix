@@ -15,6 +15,8 @@ let
         "8xn36vHK" = _8xn36vHK;
         "gOU53NVy" = _gOU53NVy;
         "neoforge-1.21.1" = _gOU53NVy;
+        "pkg-1.0.0" = _8xn36vHK;
+        "pkg-1.1.3" = _gOU53NVy;
         "default" = _gOU53NVy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

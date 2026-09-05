@@ -61,6 +61,8 @@ let
         "minecraft-26.1.1" = _MoAlesew;
         "minecraft-26.1.2" = _MoAlesew;
         "minecraft-26.2" = _MoAlesew;
+        "pkg-v1.2" = _tMvlA0Ew;
+        "pkg-v1.3" = _MoAlesew;
         "default" = _MoAlesew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

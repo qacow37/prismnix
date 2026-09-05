@@ -69,6 +69,15 @@ let
         "ltc1BVVA" = _ltc1BVVA;
         "wmrYTSyA" = _wmrYTSyA;
         "fabric-1.19.2" = _wmrYTSyA;
+        "pkg-0.1.1" = _rRTAl1Tm;
+        "pkg-0.1.2" = _10dKxxS6;
+        "pkg-0.5.0" = _rGrdIJmR;
+        "pkg-0.5.1" = _FRafD0Tr;
+        "pkg-0.5.2" = _WjVMjjPd;
+        "pkg-0.5.3" = _HPVRYQMV;
+        "pkg-0.6" = _yKkn0Kth;
+        "pkg-0.6.1" = _6aBQ9gyh;
+        "pkg-0.7" = _wmrYTSyA;
         "default" = _wmrYTSyA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

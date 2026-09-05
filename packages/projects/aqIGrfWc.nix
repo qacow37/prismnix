@@ -15,6 +15,8 @@ let
         "URS04CA3" = _URS04CA3;
         "1QbEM02Z" = _1QbEM02Z;
         "forge-1.20.1" = _1QbEM02Z;
+        "pkg-1.1.3" = _URS04CA3;
+        "pkg-1.1.4" = _1QbEM02Z;
         "default" = _1QbEM02Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -18,6 +18,7 @@ let
         "forge-1.20.2" = _gQDlasHf;
         "forge-1.20.3" = _gQDlasHf;
         "forge-1.20.4" = _gQDlasHf;
+        "pkg-1.0.0" = _gQDlasHf;
         "default" = _gQDlasHf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

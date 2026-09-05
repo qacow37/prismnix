@@ -16,6 +16,8 @@ let
         "CotjITcX" = _CotjITcX;
         "forge-1.20.1" = _L36Qru5W;
         "neoforge-1.21.1" = _CotjITcX;
+        "pkg-2.0.2" = _L36Qru5W;
+        "pkg-3.0.3" = _CotjITcX;
         "default" = _CotjITcX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

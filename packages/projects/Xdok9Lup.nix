@@ -15,6 +15,8 @@ let
         "9N5yaivs" = _9N5yaivs;
         "SDVSvSen" = _SDVSvSen;
         "forge-1.20.1" = _SDVSvSen;
+        "pkg-1.0" = _9N5yaivs;
+        "pkg-1.1" = _SDVSvSen;
         "default" = _SDVSvSen;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

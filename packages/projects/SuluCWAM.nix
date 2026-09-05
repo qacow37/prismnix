@@ -139,6 +139,27 @@ let
         "fabric-26.1.1" = _BAoDxneB;
         "fabric-26.1.2" = _BAoDxneB;
         "fabric-26.2" = _nFBniy7B;
+        "pkg-1.0.0-0-1.21.9" = _jOKDUPrr;
+        "pkg-1.0.0-1-1de1d2e3-1.21.8" = _Hkc6j31z;
+        "pkg-1.0.0-2-c0450dc9-1.21.5" = _Cw6XdQgp;
+        "pkg-1.0.1-0-1.21.9" = _oUn87mez;
+        "pkg-1.0.1-1-751839cc-1.21.8" = _66yGcnOz;
+        "pkg-1.0.1-2-4383de05-1.21.5" = _kcm4KWtt;
+        "pkg-1.0.2-0-1.21.9" = _98NAzrL0;
+        "pkg-1.0.2-1-43115b37-1.21.8" = _fMzdB7pj;
+        "pkg-1.0.2-2-38c95f70-1.21.5" = _xWmA3v4c;
+        "pkg-1.0.3-0-1.21.11" = _XzizvhcQ;
+        "pkg-1.0.4-0-1.21.11" = _9qxqjTJE;
+        "pkg-1.0.5-0-1.21.11_unraveled" = _LMCz81DM;
+        "pkg-1.0.6-beta1-1-9bf08ecc-26.1" = _FOAfez2E;
+        "pkg-1.0.6-beta2-0-26.1" = _xGG9yNnr;
+        "pkg-1.0.6-0-26.1" = _BAoDxneB;
+        "pkg-1.0.6-1-7c41ac94-1.21.11" = _esp9nx1F;
+        "pkg-1.0.6-2-653d8f66-1.21.9" = _SjOuUxPo;
+        "pkg-1.0.6-3-7676e3fb-1.21.8" = _oaH7WQYc;
+        "pkg-1.0.6-4-94d6d056-1.21.5" = _pa9qQQbR;
+        "pkg-1.0.6-16-038736a1-26.2" = _v8y8Jdxe;
+        "pkg-1.0.7-0-26.2" = _nFBniy7B;
         "default" = _nFBniy7B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

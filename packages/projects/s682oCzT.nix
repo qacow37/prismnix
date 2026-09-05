@@ -31,6 +31,7 @@ let
         "minecraft-1.21.8" = _baNrDvOs;
         "minecraft-1.21.9" = _baNrDvOs;
         "minecraft-1.21.10" = _baNrDvOs;
+        "pkg-1.19-1.21.10" = _baNrDvOs;
         "default" = _baNrDvOs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

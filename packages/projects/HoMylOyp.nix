@@ -28,6 +28,8 @@ let
         "oSAc1Sw0" = _oSAc1Sw0;
         "forge-1.20.1" = _oSAc1Sw0;
         "neoforge-1.21.1" = _WSHKXlmc;
+        "pkg-1.0" = _UKdn2lro;
+        "pkg-1.1" = _oSAc1Sw0;
         "default" = _oSAc1Sw0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

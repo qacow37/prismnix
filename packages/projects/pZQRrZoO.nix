@@ -15,6 +15,8 @@ let
         "DlHzlNyq" = _DlHzlNyq;
         "VbGigXg0" = _VbGigXg0;
         "forge-1.20.1" = _VbGigXg0;
+        "pkg-1.0" = _DlHzlNyq;
+        "pkg-1.1" = _VbGigXg0;
         "default" = _VbGigXg0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -59,6 +59,8 @@ let
         "minecraft-1.14.2" = _6Olew2SD;
         "minecraft-1.14.3" = _6Olew2SD;
         "minecraft-1.14.4" = _6Olew2SD;
+        "pkg-2.1" = _M66dHoME;
+        "pkg-2" = _6Olew2SD;
         "default" = _6Olew2SD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

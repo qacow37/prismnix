@@ -15,6 +15,8 @@ let
         "pGEkyW4n" = _pGEkyW4n;
         "LT6Gz3it" = _LT6Gz3it;
         "forge-1.20.1" = _LT6Gz3it;
+        "pkg-1.0.0" = _pGEkyW4n;
+        "pkg-1.1.0" = _LT6Gz3it;
         "default" = _LT6Gz3it;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

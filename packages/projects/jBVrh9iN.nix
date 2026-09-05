@@ -16,6 +16,8 @@ let
         "NLnISxOe" = _NLnISxOe;
         "minecraft-1.20" = _NLnISxOe;
         "minecraft-1.20.1" = _NLnISxOe;
+        "pkg-1.1.1" = _h5ag1VuL;
+        "pkg-1.1.2" = _NLnISxOe;
         "default" = _NLnISxOe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

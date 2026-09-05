@@ -16,6 +16,7 @@ let
         "E45niUZC" = _E45niUZC;
         "forge-1.20.1" = _tM5IMWml;
         "neoforge-1.21.1" = _E45niUZC;
+        "pkg-1.0.0" = _E45niUZC;
         "default" = _E45niUZC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

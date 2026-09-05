@@ -9,6 +9,7 @@ let
     in {
         "WX1hFA0E" = _WX1hFA0E;
         "fabric-26.3-snapshot-3" = _WX1hFA0E;
+        "pkg-0.1.0" = _WX1hFA0E;
         "default" = _WX1hFA0E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

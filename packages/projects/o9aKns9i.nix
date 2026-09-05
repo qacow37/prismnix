@@ -79,6 +79,7 @@ let
         "minecraft-26.1.1" = _peisk27o;
         "minecraft-26.1.2" = _peisk27o;
         "minecraft-26.2" = _peisk27o;
+        "pkg-1-alpha" = _peisk27o;
         "default" = _peisk27o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

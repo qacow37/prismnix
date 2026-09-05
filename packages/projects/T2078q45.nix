@@ -15,6 +15,8 @@ let
         "XL0YAGJe" = _XL0YAGJe;
         "t3NLX5Hm" = _t3NLX5Hm;
         "minecraft-1.21.1" = _t3NLX5Hm;
+        "pkg-0.1" = _XL0YAGJe;
+        "pkg-V0.2" = _t3NLX5Hm;
         "default" = _t3NLX5Hm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

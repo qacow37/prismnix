@@ -22,6 +22,8 @@ let
         "DI5NnN84" = _DI5NnN84;
         "fabric-1.20.4" = _DI5NnN84;
         "fabric-1.20.1" = _Ru1y35OC;
+        "pkg-1.0.0" = _iKXAAhlE;
+        "pkg-1.0.1" = _DI5NnN84;
         "default" = _DI5NnN84;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

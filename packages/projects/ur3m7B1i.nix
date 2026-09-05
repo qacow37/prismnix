@@ -112,6 +112,10 @@ let
         "optifine-1.21.9" = _REcFtSru;
         "optifine-1.21.10" = _REcFtSru;
         "optifine-1.21.11" = _REcFtSru;
+        "pkg-1" = _W9anfE1h;
+        "pkg-1.1" = _wNFMBwbl;
+        "pkg-1.2" = _SG9BdXun;
+        "pkg-1.3" = _REcFtSru;
         "default" = _REcFtSru;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

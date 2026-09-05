@@ -33,6 +33,11 @@ let
         "DBQTMl21" = _DBQTMl21;
         "U8FsXC3B" = _U8FsXC3B;
         "forge-1.20.1" = _U8FsXC3B;
+        "pkg-0.0.1" = _gIsKwjBe;
+        "pkg-0.0.2-ALPHA" = _G6mnJdA5;
+        "pkg-0.0.3-ALPHA" = _iDTLBW6p;
+        "pkg-0.0.5" = _DBQTMl21;
+        "pkg-0.0.6-ALPHA" = _U8FsXC3B;
         "default" = _U8FsXC3B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "4vvcepUb" = _4vvcepUb;
         "CfnP0Ogl" = _CfnP0Ogl;
         "fabric-1.20.1" = _CfnP0Ogl;
+        "pkg-1.0.0" = _4vvcepUb;
+        "pkg-1.0.1" = _CfnP0Ogl;
         "default" = _CfnP0Ogl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

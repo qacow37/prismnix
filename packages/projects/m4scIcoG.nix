@@ -15,6 +15,8 @@ let
         "1jJ27UMu" = _1jJ27UMu;
         "JzKHiq00" = _JzKHiq00;
         "forge-1.20.1" = _JzKHiq00;
+        "pkg-1.0.0" = _1jJ27UMu;
+        "pkg-1.1.0" = _JzKHiq00;
         "default" = _JzKHiq00;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

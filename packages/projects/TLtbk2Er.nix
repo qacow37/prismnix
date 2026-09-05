@@ -198,6 +198,26 @@ let
         "quilt-1.20.2" = _BvxRb6by;
         "quilt-1.20.3" = _BvxRb6by;
         "quilt-1.20.4" = _BvxRb6by;
+        "pkg-1.0.0-alpha.1-win-x64" = _xR5voCXu;
+        "pkg-1.0.0-alpha.1-mac-arm" = _UA1c24of;
+        "pkg-1.0.0-alpha.1-linux-x64" = _895govtT;
+        "pkg-1.0.0-alpha.1-linux-arm" = _r8WPo0Rm;
+        "pkg-1.0.0-alpha.1-mac-x86" = _QoPOyVmG;
+        "pkg-1.0.0" = _P09XjIeS;
+        "pkg-1.1.0" = _oArbtZBm;
+        "pkg-1.1.1" = _4mYdEGpn;
+        "pkg-1.1.2" = _td6k4iOY;
+        "pkg-1.1.3" = _ysmdOYj0;
+        "pkg-1.2.0-panama" = _eiwOy5If;
+        "pkg-1.2.0-nalim" = _p0k4rpGt;
+        "pkg-1.2.0-membrane" = _BvxRb6by;
+        "pkg-1.2.1-panama" = _DCb5NV4X;
+        "pkg-1.3.0-panama" = _4m56fG2b;
+        "pkg-1.3.0-membrane" = _QtE1oPe2;
+        "pkg-1.3.0-nalim" = _aNmfUeW1;
+        "pkg-mc26.2-1.3.1-nalim" = _Dd11I57q;
+        "pkg-mc26.2-1.3.1-membrane" = _6ktlDIq6;
+        "pkg-mc26.2-1.3.1-panama" = _CkO8Xjj9;
         "default" = _CkO8Xjj9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

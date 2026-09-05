@@ -114,6 +114,8 @@ let
         "minecraft-26.1.1" = _cntODSQP;
         "minecraft-26.1.2" = _cntODSQP;
         "minecraft-26.2" = _cntODSQP;
+        "pkg-V1" = _FYXbvU7r;
+        "pkg-V2" = _cntODSQP;
         "default" = _cntODSQP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

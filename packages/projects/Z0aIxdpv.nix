@@ -31,6 +31,7 @@ let
         "minecraft-1.20.4" = _GTv2l2RP;
         "minecraft-1.20.5" = _GTv2l2RP;
         "minecraft-1.20.6" = _GTv2l2RP;
+        "pkg-1.0" = _GTv2l2RP;
         "default" = _GTv2l2RP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

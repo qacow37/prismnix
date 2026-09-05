@@ -88,6 +88,13 @@ let
         "GcwImpCe" = _GcwImpCe;
         "paper-1.20.1" = _GcwImpCe;
         "fabric-1.20.1" = _S35AAZqe;
+        "pkg-1.0.3" = _KClXdKQx;
+        "pkg-1.0.4" = _bzh5YWDt;
+        "pkg-1.0.5" = _6rewSm6d;
+        "pkg-1.0.6" = _H7J1WAer;
+        "pkg-1.0.7" = _S4JyYSD6;
+        "pkg-1.0.8" = _i9O4QUUx;
+        "pkg-1.0.9" = _GcwImpCe;
         "default" = _GcwImpCe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

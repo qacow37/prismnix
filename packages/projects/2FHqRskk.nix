@@ -13,6 +13,7 @@ let
         "fabric-1.21.2" = _Hw000wat;
         "fabric-1.21.3" = _Hw000wat;
         "fabric-1.21.4" = _Hw000wat;
+        "pkg-1.0" = _Hw000wat;
         "default" = _Hw000wat;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

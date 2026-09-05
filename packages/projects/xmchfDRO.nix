@@ -45,6 +45,13 @@ let
         "WfcSTo24" = _WfcSTo24;
         "CPjmkmin" = _CPjmkmin;
         "fabric-25w14craftmine" = _CPjmkmin;
+        "pkg-1.0.0" = _3IDLA8Gy;
+        "pkg-1.1.0" = _dSdBYihn;
+        "pkg-1.2.0" = _KIfMCWgW;
+        "pkg-1.3.0" = _ZhMoaZ4R;
+        "pkg-1.3.1" = _7okhQdJt;
+        "pkg-1.4.0" = _WfcSTo24;
+        "pkg-1.5.0" = _CPjmkmin;
         "default" = _CPjmkmin;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

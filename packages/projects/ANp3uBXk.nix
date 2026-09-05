@@ -233,6 +233,14 @@ let
         "minecraft-26.2-rc-1" = _xmSlx1Mk;
         "minecraft-26.2-rc-2" = _xmSlx1Mk;
         "minecraft-26.2" = _xmSlx1Mk;
+        "pkg-v1.0(release)" = _TYtTY5zQ;
+        "pkg-v1.1(pack_fix)" = _HJYypOMl;
+        "pkg-v1.2(Copper_age)" = _qGPmxztS;
+        "pkg-v1.3(Mod_Support)" = _vRumLPVF;
+        "pkg-v1.4(copper_added_back)" = _Zr1Ab15f;
+        "pkg-v1.5(Mod_Support_2)" = _1DmSNWrT;
+        "pkg-v1.6(Tiny_Takeover)" = _NuP35Rq0;
+        "pkg-v1.6.1(Trims_Fix)" = _xmSlx1Mk;
         "default" = _xmSlx1Mk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

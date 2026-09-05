@@ -355,6 +355,9 @@ let
         "minecraft-26.2-snapshot-6" = _jdRdowTo;
         "minecraft-26.2-snapshot-7" = _jdRdowTo;
         "minecraft-26.2-snapshot-8" = _jdRdowTo;
+        "pkg-v1" = _Q91pFDd8;
+        "pkg-v2" = _MmoDJThM;
+        "pkg-v3" = _jdRdowTo;
         "default" = _jdRdowTo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

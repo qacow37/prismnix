@@ -10,6 +10,7 @@ let
         "gii4Aqn3" = _gii4Aqn3;
         "fabric-1.20.1" = _gii4Aqn3;
         "fabric-1.20.2" = _gii4Aqn3;
+        "pkg-1.0.5" = _gii4Aqn3;
         "default" = _gii4Aqn3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -19,6 +19,7 @@ let
         "fabric-1.21.9" = _tP128HaV;
         "fabric-1.21.10" = _tP128HaV;
         "fabric-1.21.11" = _tP128HaV;
+        "pkg-1.0.0" = _tP128HaV;
         "default" = _tP128HaV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

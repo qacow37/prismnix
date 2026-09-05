@@ -15,6 +15,8 @@ let
         "KpPPW7oM" = _KpPPW7oM;
         "LVlSDZ7T" = _LVlSDZ7T;
         "minecraft-1.8.9" = _LVlSDZ7T;
+        "pkg-0.1" = _KpPPW7oM;
+        "pkg-1.0.0" = _LVlSDZ7T;
         "default" = _LVlSDZ7T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

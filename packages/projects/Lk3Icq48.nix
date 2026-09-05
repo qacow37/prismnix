@@ -75,6 +75,18 @@ let
         "Oi2Qhpcb" = _Oi2Qhpcb;
         "KRixtKdl" = _KRixtKdl;
         "forge-1.16.5" = _KRixtKdl;
+        "pkg-1.0.0" = _iDb9pq9o;
+        "pkg-1.0.1" = _lUGXKiIn;
+        "pkg-1.1.0" = _mSsyzSa0;
+        "pkg-1.1.1" = _3KdhhTxm;
+        "pkg-1.1.2" = _TBXAJj4j;
+        "pkg-1.1.3" = _UVfYUesO;
+        "pkg-1.2.1" = _pvzSmKMK;
+        "pkg-1.3.0" = _TgMx94qE;
+        "pkg-1.4.0" = _YH2V8J7H;
+        "pkg-2.0.0" = _Ji6SuDYw;
+        "pkg-2.0.1" = _Oi2Qhpcb;
+        "pkg-2.0.2" = _KRixtKdl;
         "default" = _KRixtKdl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

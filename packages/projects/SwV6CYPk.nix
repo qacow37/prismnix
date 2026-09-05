@@ -18,6 +18,8 @@ let
         "fabric-1.20.2" = _v4mpmuAg;
         "fabric-1.20.3" = _v4mpmuAg;
         "fabric-1.20.4" = _v4mpmuAg;
+        "pkg-1.0.0" = _vStos2qo;
+        "pkg-1.0.1" = _v4mpmuAg;
         "default" = _v4mpmuAg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

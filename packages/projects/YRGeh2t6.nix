@@ -15,6 +15,8 @@ let
         "XVs3hkRX" = _XVs3hkRX;
         "g5KR4jYp" = _g5KR4jYp;
         "forge-1.20.1" = _g5KR4jYp;
+        "pkg-0.0" = _XVs3hkRX;
+        "pkg-1.1-hotfix" = _g5KR4jYp;
         "default" = _g5KR4jYp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -44,6 +44,11 @@ let
         "velocity-1.20.5" = _F6qIyBpN;
         "velocity-1.21" = _F6qIyBpN;
         "velocity-1.21.1" = _F6qIyBpN;
+        "pkg-1.0-7-1.20.1-7" = _ShtmteeE;
+        "pkg-1.0-7" = _F6qIyBpN;
+        "pkg-1.1-1.20.5-17" = _GfQPuxSH;
+        "pkg-1.1-1.21-34" = _tOe4VAzV;
+        "pkg-1.1-1.21.4-28" = _HMDRwgnl;
         "default" = _HMDRwgnl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

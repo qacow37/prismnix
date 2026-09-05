@@ -141,6 +141,8 @@ let
         "quilt-26.1.1" = _LpEtiO3Z;
         "quilt-26.1.2" = _LpEtiO3Z;
         "quilt-26.2" = _LpEtiO3Z;
+        "pkg-1" = _IR75GVb5;
+        "pkg-1+mod" = _LpEtiO3Z;
         "default" = _LpEtiO3Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -51,6 +51,14 @@ let
         "2Xnev1gC" = _2Xnev1gC;
         "202egKSH" = _202egKSH;
         "forge-1.20.1" = _202egKSH;
+        "pkg-1.0.0" = _9ypBPYrL;
+        "pkg-1.0.1" = _fK4NIPxT;
+        "pkg-1.1.0" = _57tlmy0t;
+        "pkg-1.2.0" = _kpfUhslT;
+        "pkg-1.2.1" = _PSJDDrqf;
+        "pkg-1.2.2" = _5xs1fekf;
+        "pkg-1.3.0" = _2Xnev1gC;
+        "pkg-1.3.1" = _202egKSH;
         "default" = _202egKSH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

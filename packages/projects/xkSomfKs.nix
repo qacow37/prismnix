@@ -27,6 +27,10 @@ let
         "vlxOLNSU" = _vlxOLNSU;
         "niedebha" = _niedebha;
         "forge-1.18.2" = _niedebha;
+        "pkg-1.4.2" = _lZZGzslC;
+        "pkg-1.5.0" = _7kEHb3OQ;
+        "pkg-1.6.0" = _vlxOLNSU;
+        "pkg-1.6.1" = _niedebha;
         "default" = _niedebha;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

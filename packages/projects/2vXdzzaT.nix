@@ -27,6 +27,10 @@ let
         "6GEz4Fye" = _6GEz4Fye;
         "XpLXR28M" = _XpLXR28M;
         "fabric-1.21.11" = _XpLXR28M;
+        "pkg-1.0" = _T8sYalfP;
+        "pkg-1.1" = _pDGgW52v;
+        "pkg-1.2" = _6GEz4Fye;
+        "pkg-1.3" = _XpLXR28M;
         "default" = _XpLXR28M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

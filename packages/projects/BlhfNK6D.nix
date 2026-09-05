@@ -24,6 +24,8 @@ let
         "forge-1.21.1" = _zfkwz71m;
         "fabric-1.21.1" = _80yLVsrc;
         "fabric-1.21" = _80yLVsrc;
+        "pkg-0.1.0" = _zfkwz71m;
+        "pkg-1.0.0" = _80yLVsrc;
         "default" = _80yLVsrc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

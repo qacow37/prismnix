@@ -21,6 +21,9 @@ let
         "t49Mx7MQ" = _t49Mx7MQ;
         "bBZNwf0w" = _bBZNwf0w;
         "fabric-1.21.11" = _bBZNwf0w;
+        "pkg-1.0.0+1.21.11" = _kVnovtab;
+        "pkg-1.0.1+1.21.11" = _t49Mx7MQ;
+        "pkg-1.1.0+1.21.11" = _bBZNwf0w;
         "default" = _bBZNwf0w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

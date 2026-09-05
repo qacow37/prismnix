@@ -9,6 +9,7 @@ let
     in {
         "Hr6PwpZA" = _Hr6PwpZA;
         "fabric-1.20.2" = _Hr6PwpZA;
+        "pkg-1.0.0" = _Hr6PwpZA;
         "default" = _Hr6PwpZA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

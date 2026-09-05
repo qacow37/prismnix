@@ -9,6 +9,7 @@ let
     in {
         "povAgVDv" = _povAgVDv;
         "forge-1.19.2" = _povAgVDv;
+        "pkg-1.0.0" = _povAgVDv;
         "default" = _povAgVDv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

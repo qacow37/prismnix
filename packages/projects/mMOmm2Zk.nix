@@ -32,6 +32,9 @@ let
         "iris-1.21.9" = _6ZzHXdRN;
         "iris-1.21.10" = _6ZzHXdRN;
         "iris-1.21.11" = _6ZzHXdRN;
+        "pkg-v0.2.1a-hotfix1" = _92mrwnA4;
+        "pkg-v0.2.2a" = _5pHKQ0Ve;
+        "pkg-v0.2.2a-hotfix1" = _6ZzHXdRN;
         "default" = _6ZzHXdRN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

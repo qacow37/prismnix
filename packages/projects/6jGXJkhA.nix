@@ -22,6 +22,9 @@ let
         "PAJI2YtN" = _PAJI2YtN;
         "fabric-1.20.1" = _PAJI2YtN;
         "fabric-1.20" = _PAJI2YtN;
+        "pkg-1.0.0" = _PY6C6fcx;
+        "pkg-1.0.1" = _cfqcVARa;
+        "pkg-1.1.0" = _PAJI2YtN;
         "default" = _PAJI2YtN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

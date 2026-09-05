@@ -34,6 +34,11 @@ let
         "DbenDDM4" = _DbenDDM4;
         "fabric-1.20.1" = _VDAamf7u;
         "forge-1.16.5" = _DbenDDM4;
+        "pkg-1.0.0" = _h8OjoBUk;
+        "pkg-1.1.0" = _UATbK3sn;
+        "pkg-1.2.0" = _diomf0jL;
+        "pkg-1.0.0+fabric" = _VDAamf7u;
+        "pkg-1.0.0+forge" = _DbenDDM4;
         "default" = _DbenDDM4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

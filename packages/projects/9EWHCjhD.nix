@@ -21,6 +21,9 @@ let
         "nXP2Gta4" = _nXP2Gta4;
         "mrx0lanv" = _mrx0lanv;
         "minecraft-1.21.1" = _mrx0lanv;
+        "pkg-LeafyV1" = _8bBYFIBE;
+        "pkg-Leafy(Animated)V1" = _nXP2Gta4;
+        "pkg-Leafy(Height)V1" = _mrx0lanv;
         "default" = _mrx0lanv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

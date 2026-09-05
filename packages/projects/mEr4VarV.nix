@@ -39,6 +39,12 @@ let
         "GmJBa6OI" = _GmJBa6OI;
         "76eRtlMg" = _76eRtlMg;
         "forge-1.12.2" = _76eRtlMg;
+        "pkg-12.6.32" = _1lDU6qbm;
+        "pkg-12.6.33" = _67hTeEf9;
+        "pkg-12.6.34" = _BiJz6onV;
+        "pkg-12.6.35" = _fIjKr2pR;
+        "pkg-12.6.37" = _GmJBa6OI;
+        "pkg-12.6.38" = _76eRtlMg;
         "default" = _76eRtlMg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

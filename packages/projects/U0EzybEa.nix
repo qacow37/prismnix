@@ -15,6 +15,8 @@ let
         "EL0VOyEx" = _EL0VOyEx;
         "UsWZSeS9" = _UsWZSeS9;
         "forge-1.20.1" = _UsWZSeS9;
+        "pkg-1.0.0" = _EL0VOyEx;
+        "pkg-1.0.1" = _UsWZSeS9;
         "default" = _UsWZSeS9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

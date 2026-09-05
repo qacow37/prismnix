@@ -34,6 +34,11 @@ let
         "wwAsgkk2" = _wwAsgkk2;
         "fabric-1.20.1" = _eeKdQb3a;
         "fabric-1.21.1" = _wwAsgkk2;
+        "pkg-1.0.0+cobblemon-1.5.2-beta" = _qC0y3tFQ;
+        "pkg-1.0.1+cobblemon-1.5.2-beta" = _eeKdQb3a;
+        "pkg-1.0.1+cobblemon-1.6.1" = _QJGy1Qls;
+        "pkg-1.0.2+cobblemon-1.6.1" = _V7a0OxT9;
+        "pkg-1.0.3+cobblemon-1.6.1" = _wwAsgkk2;
         "default" = _wwAsgkk2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

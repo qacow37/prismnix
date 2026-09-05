@@ -40,6 +40,9 @@ let
         "LSwvVQiB" = _LSwvVQiB;
         "neoforge-1.21.1" = _xo79epr6;
         "forge-1.20.1" = _LSwvVQiB;
+        "pkg-1.0.1" = _DiNpJ8nB;
+        "pkg-1.1.0" = _i47jc5LF;
+        "pkg-1.1.1" = _LSwvVQiB;
         "default" = _LSwvVQiB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

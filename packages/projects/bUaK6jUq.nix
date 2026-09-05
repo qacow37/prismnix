@@ -16,6 +16,8 @@ let
         "NBtUHbCZ" = _NBtUHbCZ;
         "fabric-1.21.5" = _mfMjZYYJ;
         "forge-1.8.9" = _NBtUHbCZ;
+        "pkg-3.1.1" = _mfMjZYYJ;
+        "pkg-4.0.0" = _NBtUHbCZ;
         "default" = _NBtUHbCZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

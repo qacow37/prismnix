@@ -15,6 +15,8 @@ let
         "obMeXuc7" = _obMeXuc7;
         "n3kYMYvv" = _n3kYMYvv;
         "fabric-1.20.1" = _n3kYMYvv;
+        "pkg-1.0.0" = _obMeXuc7;
+        "pkg-1.0.1" = _n3kYMYvv;
         "default" = _n3kYMYvv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

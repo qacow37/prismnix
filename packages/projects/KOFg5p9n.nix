@@ -28,6 +28,10 @@ let
         "OQqQF9jG" = _OQqQF9jG;
         "babric-b1.7.3" = _OQqQF9jG;
         "fabric-b1.7.3" = _OQqQF9jG;
+        "pkg-1.0.2" = _1a8q6vBf;
+        "pkg-1.1.0" = _SclNo4r8;
+        "pkg-1.1.1" = _VXx7lnug;
+        "pkg-1.1.2" = _OQqQF9jG;
         "default" = _OQqQF9jG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

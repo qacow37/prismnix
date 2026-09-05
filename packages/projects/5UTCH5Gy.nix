@@ -28,6 +28,10 @@ let
         "OHTD2rmg" = _OHTD2rmg;
         "fabric-1.19.2" = _OHTD2rmg;
         "fabric-1.18.2" = _rH3wPMYW;
+        "pkg-0.2.0a-fabric-1.19.2" = _5UjXcJtW;
+        "pkg-0.2.0a-fabric-1.18.2" = _z1FJ0Vuw;
+        "pkg-v0.1.0a-fabric-1.18.2" = _rH3wPMYW;
+        "pkg-v0.3.0a-fabric-1.19.2" = _OHTD2rmg;
         "default" = _OHTD2rmg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

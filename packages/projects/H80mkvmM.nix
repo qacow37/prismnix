@@ -9,6 +9,7 @@ let
     in {
         "ifCBEC9b" = _ifCBEC9b;
         "forge-1.20.1" = _ifCBEC9b;
+        "pkg-AIGF-0.1" = _ifCBEC9b;
         "default" = _ifCBEC9b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,10 @@ let
         "YOBRUG8l" = _YOBRUG8l;
         "fabric-1.20.1" = _XryqZCYF;
         "forge-1.20.1" = _YOBRUG8l;
+        "pkg-0.1+1.20.1" = _P2fXEDyj;
+        "pkg-v1-1631+1.20.1" = _CuVb4dSX;
+        "pkg-v1.1-1631+1.20.1" = _XryqZCYF;
+        "pkg-v1.1-FORGE-6.0.6+1.20.1" = _YOBRUG8l;
         "default" = _YOBRUG8l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

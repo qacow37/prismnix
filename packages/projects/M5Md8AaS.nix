@@ -16,6 +16,8 @@ let
         "iSAjFpKY" = _iSAjFpKY;
         "fabric-1.20.1" = _iSAjFpKY;
         "forge-1.20.1" = _iSAjFpKY;
+        "pkg-1.3.3" = _da1mfNBp;
+        "pkg-1.3.4" = _iSAjFpKY;
         "default" = _iSAjFpKY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,9 @@ let
         "hEtNYhwc" = _hEtNYhwc;
         "forge-1.12.2" = _laIs1sni;
         "forge-1.14.4" = _hEtNYhwc;
+        "pkg-1.3.11" = _kL4T5TNB;
+        "pkg-1.3.14" = _laIs1sni;
+        "pkg-1.14.4-1.0.53" = _hEtNYhwc;
         "default" = _hEtNYhwc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

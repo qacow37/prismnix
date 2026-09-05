@@ -15,6 +15,8 @@ let
         "QE8nXfup" = _QE8nXfup;
         "jI00jLEo" = _jI00jLEo;
         "forge-1.20.1" = _jI00jLEo;
+        "pkg-1.0.0-forge+mc1.20.1" = _QE8nXfup;
+        "pkg-1.0.1-forge+mc1.20.1" = _jI00jLEo;
         "default" = _jI00jLEo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

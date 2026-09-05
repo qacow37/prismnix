@@ -36,6 +36,7 @@ let
         "spigot-1.20.6" = _PFgaDLwy;
         "spigot-1.21" = _PFgaDLwy;
         "spigot-1.21.1" = _PFgaDLwy;
+        "pkg-1.0" = _PFgaDLwy;
         "default" = _PFgaDLwy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

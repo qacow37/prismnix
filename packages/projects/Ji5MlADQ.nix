@@ -24,6 +24,7 @@ let
         "minecraft-1.21.3" = _CpWX55iR;
         "minecraft-1.21.4" = _CpWX55iR;
         "minecraft-1.21.5" = _CpWX55iR;
+        "pkg-1.1" = _CpWX55iR;
         "default" = _CpWX55iR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

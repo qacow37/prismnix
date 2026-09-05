@@ -45,6 +45,7 @@ let
         "fabric-26.1" = _TSMuZAEv;
         "fabric-26.1.1" = _TSMuZAEv;
         "neoforge-26.2" = _dKt09RAP;
+        "pkg-1.0.0" = _dKt09RAP;
         "default" = _dKt09RAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

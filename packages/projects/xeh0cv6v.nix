@@ -30,6 +30,8 @@ let
         "fabric-26.2" = _3resjDVD;
         "neoforge-26.1.2" = _XrRlApi1;
         "neoforge-26.2" = _KcRFGNzi;
+        "pkg-1.0.0" = _XrRlApi1;
+        "pkg-2.0.0" = _KcRFGNzi;
         "default" = _KcRFGNzi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

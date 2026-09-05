@@ -15,6 +15,8 @@ let
         "vdwHMC7z" = _vdwHMC7z;
         "39ea1RId" = _39ea1RId;
         "fabric-1.21.4" = _39ea1RId;
+        "pkg-0.1.4-alpha" = _vdwHMC7z;
+        "pkg-0.1.5-alpha" = _39ea1RId;
         "default" = _39ea1RId;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

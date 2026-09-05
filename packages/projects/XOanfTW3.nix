@@ -24,6 +24,9 @@ let
         "fabric-1.19" = _ob5o9Cf5;
         "fabric-1.19.1" = _ob5o9Cf5;
         "fabric-1.19.2" = _ob5o9Cf5;
+        "pkg-1.0.0+mc1.18.2" = _z2OBcEX3;
+        "pkg-1.0.2" = _s0dgS2Qg;
+        "pkg-1.0.3" = _ob5o9Cf5;
         "default" = _ob5o9Cf5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

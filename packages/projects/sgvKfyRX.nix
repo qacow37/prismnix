@@ -62,6 +62,7 @@ let
         "minecraft-1.19.4" = _bhoxMQWs;
         "minecraft-1.20.1" = _bhoxMQWs;
         "minecraft-1.20.2" = _bhoxMQWs;
+        "pkg-1.0.0" = _bhoxMQWs;
         "default" = _bhoxMQWs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

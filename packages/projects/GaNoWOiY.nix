@@ -9,6 +9,7 @@ let
     in {
         "HntmEnJA" = _HntmEnJA;
         "neoforge-1.21.1" = _HntmEnJA;
+        "pkg-1.21.1-1.0.0-neoforge" = _HntmEnJA;
         "default" = _HntmEnJA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

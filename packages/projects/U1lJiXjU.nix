@@ -16,6 +16,8 @@ let
         "gdwUMGHA" = _gdwUMGHA;
         "fabric-1.21.1" = _TGtPXsAF;
         "neoforge-1.21.1" = _gdwUMGHA;
+        "pkg-1.0.2+fabric-1.21.1" = _TGtPXsAF;
+        "pkg-1.0.2+neoforge-1.21.1" = _gdwUMGHA;
         "default" = _gdwUMGHA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

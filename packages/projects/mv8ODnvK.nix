@@ -22,6 +22,9 @@ let
         "zv0SRZb5" = _zv0SRZb5;
         "datapack-1.21.1" = _zv0SRZb5;
         "minecraft-1.21.1" = _H916Svr4;
+        "pkg-1.0" = _H916Svr4;
+        "pkg-1.1" = _Pp6TVB3C;
+        "pkg-1.1.1" = _zv0SRZb5;
         "default" = _zv0SRZb5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

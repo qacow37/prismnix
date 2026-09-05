@@ -28,6 +28,10 @@ let
         "zVgh2cSe" = _zVgh2cSe;
         "datapack-1.21.1" = _LCg1pPUN;
         "fabric-1.21.1" = _zVgh2cSe;
+        "pkg-0.1" = _QOs1Tp6Z;
+        "pkg-0.1.1" = _QLIB3LYO;
+        "pkg-0.2.0" = _LCg1pPUN;
+        "pkg-1.0.0" = _zVgh2cSe;
         "default" = _zVgh2cSe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

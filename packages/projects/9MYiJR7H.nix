@@ -16,6 +16,8 @@ let
         "iO4SPFEe" = _iO4SPFEe;
         "fabric-1.19.3" = _YgoK5aYh;
         "fabric-1.21.1" = _iO4SPFEe;
+        "pkg-1.0.0" = _YgoK5aYh;
+        "pkg-1.0.1" = _iO4SPFEe;
         "default" = _iO4SPFEe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

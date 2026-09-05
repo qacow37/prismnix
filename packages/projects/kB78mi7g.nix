@@ -15,6 +15,8 @@ let
         "mTkfWpCF" = _mTkfWpCF;
         "eOT26OHl" = _eOT26OHl;
         "forge-1.20.1" = _eOT26OHl;
+        "pkg-2.2.0-1.20.1" = _mTkfWpCF;
+        "pkg-2.2.1-1.20.1" = _eOT26OHl;
         "default" = _eOT26OHl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

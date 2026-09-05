@@ -10,6 +10,7 @@ let
         "yLWi17x5" = _yLWi17x5;
         "fabric-1.20" = _yLWi17x5;
         "fabric-1.20.1" = _yLWi17x5;
+        "pkg-0.0.3" = _yLWi17x5;
         "default" = _yLWi17x5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

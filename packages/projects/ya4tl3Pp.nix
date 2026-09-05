@@ -9,6 +9,7 @@ let
     in {
         "pI60JZ4I" = _pI60JZ4I;
         "forge-1.20.1" = _pI60JZ4I;
+        "pkg-1.0.0" = _pI60JZ4I;
         "default" = _pI60JZ4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,10 @@ let
         "FynoU9P7" = _FynoU9P7;
         "N33BoiJc" = _N33BoiJc;
         "forge-1.20.1" = _N33BoiJc;
+        "pkg-1.0.0" = _5yi1dPlR;
+        "pkg-1.0.1" = _OlyBACkp;
+        "pkg-1.0.1hotfix" = _FynoU9P7;
+        "pkg-1.0.2" = _N33BoiJc;
         "default" = _N33BoiJc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

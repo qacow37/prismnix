@@ -9,6 +9,7 @@ let
     in {
         "GebHhpsF" = _GebHhpsF;
         "neoforge-26.1.2" = _GebHhpsF;
+        "pkg-1.0.0" = _GebHhpsF;
         "default" = _GebHhpsF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

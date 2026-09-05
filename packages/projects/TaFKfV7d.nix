@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _iHai28T0;
         "forge-1.20.5" = _iHai28T0;
         "forge-1.20.6" = _iHai28T0;
+        "pkg-1.0.0" = _iHai28T0;
         "default" = _iHai28T0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

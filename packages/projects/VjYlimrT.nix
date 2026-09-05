@@ -40,6 +40,12 @@ let
         "Efs2eORm" = _Efs2eORm;
         "forge-1.19.2" = _Efs2eORm;
         "forge-1.18.2" = _K4ZXoTHs;
+        "pkg-1.0.0" = _jmG6dLvy;
+        "pkg-1.0.1" = _Jy8blu1t;
+        "pkg-1.0.2" = _63ad0v3A;
+        "pkg-1.0.3" = _GCjLPMd3;
+        "pkg-1.0.4" = _K4ZXoTHs;
+        "pkg-1.0.5" = _Efs2eORm;
         "default" = _Efs2eORm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -66,6 +66,8 @@ let
         "quilt-1.19.4" = _tgOFga9o;
         "quilt-1.20" = _tgOFga9o;
         "quilt-1.20.1" = _tgOFga9o;
+        "pkg-1.0.0" = _CoMNsP1p;
+        "pkg-1.0.1" = _tgOFga9o;
         "default" = _tgOFga9o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

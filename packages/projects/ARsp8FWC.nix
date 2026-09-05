@@ -10,6 +10,7 @@ let
         "k20EkreA" = _k20EkreA;
         "fabric-1.21" = _k20EkreA;
         "fabric-1.21.1" = _k20EkreA;
+        "pkg-1.0.0" = _k20EkreA;
         "default" = _k20EkreA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

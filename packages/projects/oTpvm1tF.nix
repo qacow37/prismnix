@@ -10,6 +10,7 @@ let
         "ZPS2O1WH" = _ZPS2O1WH;
         "forge-1.20" = _ZPS2O1WH;
         "forge-1.20.1" = _ZPS2O1WH;
+        "pkg-0.1.0" = _ZPS2O1WH;
         "default" = _ZPS2O1WH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

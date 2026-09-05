@@ -12,6 +12,7 @@ let
         "fabric-1.21.1" = _KGPEGWPa;
         "quilt-1.21" = _KGPEGWPa;
         "quilt-1.21.1" = _KGPEGWPa;
+        "pkg-0.1.0+1.21.1" = _KGPEGWPa;
         "default" = _KGPEGWPa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "LledqS67" = _LledqS67;
         "minecraft-1.21.1" = _LledqS67;
         "vanilla-1.21.1" = _LledqS67;
+        "pkg-1.0.0" = _LledqS67;
         "default" = _LledqS67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

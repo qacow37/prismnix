@@ -46,6 +46,13 @@ let
         "ZVoNGAdk" = _ZVoNGAdk;
         "forge-1.18.2" = _LadIMkMt;
         "forge-1.20.1" = _ZVoNGAdk;
+        "pkg-1.0.0" = _LadIMkMt;
+        "pkg-1.0.1" = _q7AiSt7u;
+        "pkg-1.0.2" = _srsvpKwZ;
+        "pkg-1.0.4" = _UgIz97zf;
+        "pkg-1.0.5" = _f1dKpsjp;
+        "pkg-1.0.6" = _CcGrX7MG;
+        "pkg-1.0.7" = _ZVoNGAdk;
         "default" = _ZVoNGAdk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -398,6 +398,11 @@ let
         "java-agent-1.21.9" = _8T88qiXj;
         "java-agent-1.21.10" = _8T88qiXj;
         "java-agent-1.21.11" = _8T88qiXj;
+        "pkg-1.9.9.4" = _g4K8k5EU;
+        "pkg-2.0.5.3" = _UyvTbjvY;
+        "pkg-2.0.5.6" = _UjTTZmrn;
+        "pkg-2.0.6.0" = _8T88qiXj;
+        "pkg-2.0.6.3" = _XBM9grSd;
         "default" = _XBM9grSd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

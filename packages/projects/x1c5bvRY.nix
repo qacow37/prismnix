@@ -27,6 +27,10 @@ let
         "Va2ZUbja" = _Va2ZUbja;
         "nDgZtdM4" = _nDgZtdM4;
         "forge-1.7.10" = _nDgZtdM4;
+        "pkg-1.0.0" = _OfVCy0Sz;
+        "pkg-1.0.2" = _lVsuZmrC;
+        "pkg-1.0.3" = _Va2ZUbja;
+        "pkg-2.0" = _nDgZtdM4;
         "default" = _nDgZtdM4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

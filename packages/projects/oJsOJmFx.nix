@@ -46,6 +46,7 @@ let
         "minecraft-26.1" = _uOg4SZzk;
         "minecraft-26.1.1" = _uOg4SZzk;
         "minecraft-26.1.2" = _uOg4SZzk;
+        "pkg-V1+Netherite" = _uOg4SZzk;
         "default" = _uOg4SZzk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

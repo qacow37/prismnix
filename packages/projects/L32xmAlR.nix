@@ -22,6 +22,9 @@ let
         "CYT033AV" = _CYT033AV;
         "fabric-23w07a" = _jXs95FNl;
         "fabric-1.20" = _CYT033AV;
+        "pkg-1.0-BETA+1.20" = _CF873rnq;
+        "pkg-1.1-BETA+1.20" = _jXs95FNl;
+        "pkg-1.2-BETA+1.20" = _CYT033AV;
         "default" = _CYT033AV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

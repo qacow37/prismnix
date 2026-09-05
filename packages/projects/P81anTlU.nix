@@ -90,6 +90,17 @@ let
         "paper-26.1.1" = _vbIaBtw4;
         "paper-26.1.2" = _vbIaBtw4;
         "paper-26.2" = _vbIaBtw4;
+        "pkg-1.0.0" = _tHg5zm0D;
+        "pkg-1.7.0" = _A0dteIwH;
+        "pkg-2.0.0" = _Gp6jTF6k;
+        "pkg-2.5.0" = _x4A0pWsE;
+        "pkg-3.0.0" = _l1baYnu9;
+        "pkg-3.2.0" = _Ogr5uWkb;
+        "pkg-3.3.0" = _1dZsykFb;
+        "pkg-3.4.0" = _w1mL2MHZ;
+        "pkg-4.8.0" = _P6nQrPsw;
+        "pkg-5.0.0" = _ilN5sqY5;
+        "pkg-5.5.0" = _vbIaBtw4;
         "default" = _vbIaBtw4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

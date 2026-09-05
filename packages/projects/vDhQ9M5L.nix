@@ -15,6 +15,7 @@ let
         "fabric-1.20.4" = _XPiw1bps;
         "fabric-1.20.5" = _XPiw1bps;
         "fabric-1.20.6" = _XPiw1bps;
+        "pkg-1.0.0" = _XPiw1bps;
         "default" = _XPiw1bps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

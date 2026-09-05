@@ -48,6 +48,12 @@ let
         "datapack-1.20.2" = _YafiHW9f;
         "datapack-1.20.3" = _YafiHW9f;
         "datapack-1.20.4" = _YafiHW9f;
+        "pkg-1.1.0+mod" = _ojJuYFSZ;
+        "pkg-1.3.0+mod" = _qfUrjTOb;
+        "pkg-1.3.0b+mod" = _gvRPh7Ml;
+        "pkg-1.3.6+mod" = _PXr0ggpw;
+        "pkg-1.3.10" = _YafiHW9f;
+        "pkg-1.3.10+mod" = _G36OFgMb;
         "default" = _G36OFgMb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

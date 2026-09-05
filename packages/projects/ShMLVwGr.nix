@@ -9,6 +9,7 @@ let
     in {
         "gKNjyER5" = _gKNjyER5;
         "forge-1.18.2" = _gKNjyER5;
+        "pkg-1.0" = _gKNjyER5;
         "default" = _gKNjyER5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

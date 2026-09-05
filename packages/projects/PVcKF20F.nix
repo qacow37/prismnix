@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _XAPKGSBN;
         "spigot-1.21.10" = _XAPKGSBN;
         "spigot-1.21.11" = _XAPKGSBN;
+        "pkg-1.0" = _XAPKGSBN;
         "default" = _XAPKGSBN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

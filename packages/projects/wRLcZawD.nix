@@ -36,6 +36,11 @@ let
         "fabric-22w13oneblockatatime" = _AKyzvuk3;
         "forge-1.18.2" = _9IwHMG8V;
         "forge-1.18.1" = _iEHxfpZJ;
+        "pkg-fabric-1.0.0-1.18.2" = _paxwpCD9;
+        "pkg-fabric-1.0.1-1.18.2" = _74VEeaEa;
+        "pkg-forge-1.0.0-1.18.2" = _9IwHMG8V;
+        "pkg-forge-1.0.0-1.18.1" = _iEHxfpZJ;
+        "pkg-fabric-1.14.514-22w13oneblockatatime" = _AKyzvuk3;
         "default" = _AKyzvuk3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

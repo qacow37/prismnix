@@ -16,6 +16,7 @@ let
         "fabric-22w15a" = _lerin8mV;
         "fabric-22w16a" = _lerin8mV;
         "fabric-22w16b" = _lerin8mV;
+        "pkg-0.0.3-1.18.2" = _lerin8mV;
         "default" = _lerin8mV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

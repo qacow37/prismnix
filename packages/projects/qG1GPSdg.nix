@@ -10,6 +10,7 @@ let
         "1REvoS6w" = _1REvoS6w;
         "minecraft-1.20" = _1REvoS6w;
         "minecraft-1.20.1" = _1REvoS6w;
+        "pkg-1.0" = _1REvoS6w;
         "default" = _1REvoS6w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

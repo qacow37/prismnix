@@ -16,6 +16,8 @@ let
         "tAkPCdai" = _tAkPCdai;
         "forge-1.20.1" = _tAkPCdai;
         "forge-1.20.2" = _tAkPCdai;
+        "pkg-0.1.0" = _fV15e7jN;
+        "pkg-0.1.1" = _tAkPCdai;
         "default" = _tAkPCdai;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

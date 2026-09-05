@@ -46,6 +46,13 @@ let
         "tOsip2Cz" = _tOsip2Cz;
         "neoforge-1.21" = _tOsip2Cz;
         "neoforge-1.21.1" = _tOsip2Cz;
+        "pkg-1.0.2" = _SwA2xva4;
+        "pkg-1.0.3" = _mQBWrPHs;
+        "pkg-1.0.4" = _RP6Ilgmx;
+        "pkg-1.0.5" = _UOD0oY0a;
+        "pkg-1.0.6" = _5Mf7Z7oy;
+        "pkg-1.0.7" = _v9n6KRMQ;
+        "pkg-1.0.8" = _tOsip2Cz;
         "default" = _tOsip2Cz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

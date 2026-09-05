@@ -117,6 +117,25 @@ let
         "6BL939fK" = _6BL939fK;
         "wPvGWIj9" = _wPvGWIj9;
         "neoforge-1.21.1" = _wPvGWIj9;
+        "pkg-1.1.6-hotfix-r5" = _y3PoZHK0;
+        "pkg-1.1.6-hotfix-r6" = _s01O94yG;
+        "pkg-1.1.6-hotfix-r7" = _XKOMIg4a;
+        "pkg-1.1.7-r1" = _bzoJMsMH;
+        "pkg-1.1.7-r2" = _kDMLtvpa;
+        "pkg-1.1.7-hotfix-r1" = _zP6Iaph1;
+        "pkg-1.1.7-hotfix-r2" = _styh0P9F;
+        "pkg-1.1.7-hotfix-r3" = _MRimRykE;
+        "pkg-1.1.7-hotfix-r4" = _9Jc8If0B;
+        "pkg-1.1.7-hotfix-r5" = _KjXdQwOw;
+        "pkg-1.1.8-r1" = _lCQ7o20E;
+        "pkg-1.1.8-r2" = _nJwswUwG;
+        "pkg-1.1.8-r3" = _4XDYjVDl;
+        "pkg-1.1.8-hotfix-r1" = _N9ffXNy0;
+        "pkg-1.1.8-hotfix-r2" = _BwxUMl5T;
+        "pkg-1.1.8-hotfix-r3" = _SISBXRRW;
+        "pkg-1.1.8-hotfix-r4" = _QFzpV9bs;
+        "pkg-1.1.8-hotfix-r5" = _6BL939fK;
+        "pkg-1.1.8-hotfix-r6" = _wPvGWIj9;
         "default" = _wPvGWIj9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

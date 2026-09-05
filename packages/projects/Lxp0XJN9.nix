@@ -9,6 +9,7 @@ let
     in {
         "jecckIoh" = _jecckIoh;
         "neoforge-1.21.1" = _jecckIoh;
+        "pkg-1.0.0" = _jecckIoh;
         "default" = _jecckIoh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

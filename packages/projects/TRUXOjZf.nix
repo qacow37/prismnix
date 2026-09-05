@@ -29,6 +29,9 @@ let
         "minecraft-1.21.10" = _RHoKEmum;
         "minecraft-1.21.11" = _RHoKEmum;
         "minecraft-26.1" = _RHoKEmum;
+        "pkg-1.0" = _xAduvGrV;
+        "pkg-1.01" = _iAimpWO8;
+        "pkg-1.02" = _RHoKEmum;
         "default" = _RHoKEmum;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

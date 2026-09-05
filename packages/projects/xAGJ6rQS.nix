@@ -2735,6 +2735,12 @@ let
         "java-agent-26.2-rc-2" = _dHmCqlFI;
         "java-agent-26.2" = _dHmCqlFI;
         "java-agent-26.3-snapshot-1" = _dHmCqlFI;
+        "pkg-1.0.0" = _MhWg0DYE;
+        "pkg-1.0.1" = _hPWDKr8S;
+        "pkg-1.0.2" = _h0v4sRHX;
+        "pkg-1.0.3" = _PUQCS7d6;
+        "pkg-1.0.4" = _BWSHJY2J;
+        "pkg-1.0.5" = _dHmCqlFI;
         "default" = _dHmCqlFI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

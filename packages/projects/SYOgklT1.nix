@@ -15,6 +15,8 @@ let
         "nJBOffEj" = _nJBOffEj;
         "ga1OvnHm" = _ga1OvnHm;
         "forge-1.20.1" = _ga1OvnHm;
+        "pkg-3.0.0" = _nJBOffEj;
+        "pkg-3.0.1" = _ga1OvnHm;
         "default" = _ga1OvnHm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

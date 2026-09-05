@@ -76,6 +76,9 @@ let
         "velocity-1.21.1" = _36XrMmo6;
         "fabric-1.21" = _6TuBVc9E;
         "fabric-1.21.1" = _6TuBVc9E;
+        "pkg-2.5" = _JOG7y3sM;
+        "pkg-2.5.1" = _s425DF9Z;
+        "pkg-2.5.2" = _hZzXnfLd;
         "default" = _hZzXnfLd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,10 @@ let
         "oOfex2h6" = _oOfex2h6;
         "lZTBRemW" = _lZTBRemW;
         "neoforge-1.21.1" = _lZTBRemW;
+        "pkg-1.0.teal" = _reZGBYGi;
+        "pkg-1.1.teal" = _j9ankPOR;
+        "pkg-1.2.teal" = _oOfex2h6;
+        "pkg-1.3.teal" = _lZTBRemW;
         "default" = _lZTBRemW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

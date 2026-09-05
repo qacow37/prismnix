@@ -15,6 +15,8 @@ let
         "jggbey8t" = _jggbey8t;
         "lrjf5Ytr" = _lrjf5Ytr;
         "forge-1.20.1" = _lrjf5Ytr;
+        "pkg-1.0.0" = _jggbey8t;
+        "pkg-1.0.1" = _lrjf5Ytr;
         "default" = _lrjf5Ytr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

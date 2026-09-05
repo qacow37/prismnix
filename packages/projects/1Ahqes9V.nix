@@ -10,6 +10,7 @@ let
         "6XoI31b7" = _6XoI31b7;
         "fabric-1.20" = _6XoI31b7;
         "fabric-1.20.1" = _6XoI31b7;
+        "pkg-0.1.0" = _6XoI31b7;
         "default" = _6XoI31b7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

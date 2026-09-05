@@ -44,6 +44,7 @@ let
         "minecraft-1.20.6" = _TVic7KE1;
         "minecraft-1.21" = _TVic7KE1;
         "minecraft-1.21.1" = _TVic7KE1;
+        "pkg-1.0" = _TVic7KE1;
         "default" = _TVic7KE1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

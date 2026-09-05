@@ -21,6 +21,9 @@ let
         "eVDSKMUD" = _eVDSKMUD;
         "t2iJle33" = _t2iJle33;
         "forge-1.20.1" = _t2iJle33;
+        "pkg-1.0.0" = _VKBmE8PM;
+        "pkg-1.3.0" = _eVDSKMUD;
+        "pkg-1.4.0" = _t2iJle33;
         "default" = _t2iJle33;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

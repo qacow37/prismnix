@@ -135,6 +135,27 @@ let
         "neoforge-1.21.1" = _uYqygr0K;
         "neoforge-1.21.3" = _qs9k7hOI;
         "neoforge-1.21.5" = _N9LD74YF;
+        "pkg-1.19.2-2.1.6.7-release" = _UyPhGRzh;
+        "pkg-1.20.4-2.1.7.0-release" = _LMZ3udyO;
+        "pkg-1.21-2.1.8.0-beta" = _wW4tfqWg;
+        "pkg-1.20.1-2.1.6.8-beta" = _dRuanmnu;
+        "pkg-1.21.1-2.1.8.0-beta" = _q0Z0XSIl;
+        "pkg-1.20.1-2.1.6.8-beta-3" = _BC4BbM1r;
+        "pkg-1.21-2.1.8.0-beta-3" = _vX29XJAT;
+        "pkg-1.21.1-2.1.8.1-release" = _8zPjV6HG;
+        "pkg-1.21.1-2.1.8.2-release" = _O6e6xfxA;
+        "pkg-1.21-2.1.8.2-release" = _YW7ovGFB;
+        "pkg-1.20.1-2.1.6.9-release" = _VlcYUrI4;
+        "pkg-1.21.1-2.1.8.3-beta-0" = _zWHLzoIK;
+        "pkg-1.21-2.1.8.3-beta-0" = _wUefb7jz;
+        "pkg-1.21.1-2.1.8.4-release" = _TyPDA9aK;
+        "pkg-1.20.1-2.1.7.0-beta+0" = _3PNEYrmB;
+        "pkg-1.21.1-2.1.8.4-hotfix-3" = _ArxlazKL;
+        "pkg-1.21.3-2.1.8.5-beta-1" = _qs9k7hOI;
+        "pkg-1.19.2-2.1.10.0" = _FNLpGjnR;
+        "pkg-1.20.1-2.1.10.2" = _lC2uBBu2;
+        "pkg-1.21.1-2.1.10.3" = _uYqygr0K;
+        "pkg-1.21.5-2.1.11.1" = _N9LD74YF;
         "default" = _N9LD74YF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "iyAcXr8S" = _iyAcXr8S;
         "uwzIQY3O" = _uwzIQY3O;
         "forge-1.20.1" = _uwzIQY3O;
+        "pkg-1.4.3" = _s9GUkwnF;
+        "pkg-2.1.6" = _iyAcXr8S;
+        "pkg-2.5.0" = _uwzIQY3O;
         "default" = _uwzIQY3O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

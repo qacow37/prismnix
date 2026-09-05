@@ -46,6 +46,7 @@ let
         "minecraft-1.21.9" = _Ksirhode;
         "minecraft-1.21.10" = _Ksirhode;
         "minecraft-1.21.11" = _Ksirhode;
+        "pkg-1" = _Ksirhode;
         "default" = _Ksirhode;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

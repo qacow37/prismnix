@@ -16,6 +16,8 @@ let
         "HK2uPnW6" = _HK2uPnW6;
         "minecraft-1.21" = _ZY8gRnRb;
         "minecraft-1.21.11" = _HK2uPnW6;
+        "pkg-1.0" = _ZY8gRnRb;
+        "pkg-0.2" = _HK2uPnW6;
         "default" = _HK2uPnW6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

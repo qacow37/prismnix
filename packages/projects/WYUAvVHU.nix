@@ -21,6 +21,9 @@ let
         "pf2Pqesn" = _pf2Pqesn;
         "VXZ9SSIE" = _VXZ9SSIE;
         "forge-1.20.1" = _VXZ9SSIE;
+        "pkg-1.0.0" = _QGuVJnmn;
+        "pkg-1.1.0" = _pf2Pqesn;
+        "pkg-1.3.0" = _VXZ9SSIE;
         "default" = _VXZ9SSIE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

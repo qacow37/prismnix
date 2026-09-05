@@ -46,6 +46,13 @@ let
         "3n5NdOs9" = _3n5NdOs9;
         "fabric-1.16.4" = _yg0HALMG;
         "fabric-1.16.5" = _3n5NdOs9;
+        "pkg-1.3.1" = _AaFnoOKX;
+        "pkg-1.3.2" = _yg0HALMG;
+        "pkg-1.4.0" = _DyaDsJft;
+        "pkg-1.4.1" = _eIBLA5Uj;
+        "pkg-1.4.2" = _xRtQdcV5;
+        "pkg-1.4.3" = _Le0eSoPx;
+        "pkg-1.4.4" = _3n5NdOs9;
         "default" = _3n5NdOs9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

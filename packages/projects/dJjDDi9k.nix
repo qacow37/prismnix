@@ -16,6 +16,8 @@ let
         "EiFSJ4EE" = _EiFSJ4EE;
         "minecraft-1.21.5" = _mpRvGLLh;
         "minecraft-1.21.6" = _EiFSJ4EE;
+        "pkg-1.1" = _mpRvGLLh;
+        "pkg-1.2" = _EiFSJ4EE;
         "default" = _EiFSJ4EE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

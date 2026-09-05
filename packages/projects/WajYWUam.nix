@@ -60,6 +60,7 @@ let
         "quilt-1.21.8" = _binlbSgi;
         "quilt-1.21.9" = _binlbSgi;
         "quilt-1.21.10" = _binlbSgi;
+        "pkg-1.0.0" = _binlbSgi;
         "default" = _binlbSgi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -173,6 +173,10 @@ let
         "minecraft-25w33a" = _Heu7dlIN;
         "minecraft-25w34a" = _Heu7dlIN;
         "minecraft-25w34b" = _Heu7dlIN;
+        "pkg-1.0" = _HS9orbz0;
+        "pkg-1.0.1" = _yqgvwhwE;
+        "pkg-1.0.2" = _vUBqXAY6;
+        "pkg-1.0.3" = _Heu7dlIN;
         "default" = _Heu7dlIN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -80,6 +80,8 @@ let
         "purpur-26.1" = _IFEXkzCv;
         "purpur-26.1.1" = _IFEXkzCv;
         "purpur-26.1.2" = _IFEXkzCv;
+        "pkg-1.0" = _2LQ27h3x;
+        "pkg-1.1" = _IFEXkzCv;
         "default" = _IFEXkzCv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

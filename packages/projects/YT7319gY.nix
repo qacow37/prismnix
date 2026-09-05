@@ -16,6 +16,8 @@ let
         "p12qcvmL" = _p12qcvmL;
         "fabric-b1.7.3" = _p12qcvmL;
         "babric-b1.7.3" = _p12qcvmL;
+        "pkg-0.3.0" = _fXFNle2Z;
+        "pkg-0.3.1" = _p12qcvmL;
         "default" = _p12qcvmL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

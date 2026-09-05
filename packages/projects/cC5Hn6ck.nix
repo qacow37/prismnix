@@ -15,6 +15,8 @@ let
         "AzO4inwW" = _AzO4inwW;
         "Nd56JAaF" = _Nd56JAaF;
         "neoforge-1.21.1" = _Nd56JAaF;
+        "pkg-0.1-1.21.1" = _AzO4inwW;
+        "pkg-0.2-1.21.1" = _Nd56JAaF;
         "default" = _Nd56JAaF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

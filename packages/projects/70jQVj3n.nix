@@ -21,6 +21,9 @@ let
         "cBsaCzTK" = _cBsaCzTK;
         "E38BEF2q" = _E38BEF2q;
         "minecraft-1.12.2" = _E38BEF2q;
+        "pkg-1.0" = _DgCaeI37;
+        "pkg-1.0.1" = _cBsaCzTK;
+        "pkg-1.0.2" = _E38BEF2q;
         "default" = _E38BEF2q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

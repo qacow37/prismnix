@@ -51,6 +51,8 @@ let
         "quilt-26.1.1" = _ws0AMCU5;
         "quilt-26.1.2" = _ws0AMCU5;
         "quilt-26.2" = _PaUcHOt6;
+        "pkg-1.0.0" = _ZuhEhxyD;
+        "pkg-1.0.0+mod" = _PaUcHOt6;
         "default" = _PaUcHOt6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

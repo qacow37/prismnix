@@ -27,6 +27,10 @@ let
         "Ry34T0av" = _Ry34T0av;
         "JAc7Vr24" = _JAc7Vr24;
         "fabric-1.21.1" = _JAc7Vr24;
+        "pkg-1.0.0" = _NLWRmjCn;
+        "pkg-1.0.1" = _4jljsEF3;
+        "pkg-1.1.0" = _Ry34T0av;
+        "pkg-1.2.0" = _JAc7Vr24;
         "default" = _JAc7Vr24;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

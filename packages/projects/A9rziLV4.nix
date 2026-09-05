@@ -9,6 +9,7 @@ let
     in {
         "pLQQC55S" = _pLQQC55S;
         "fabric-1.20.1" = _pLQQC55S;
+        "pkg-2.2.1" = _pLQQC55S;
         "default" = _pLQQC55S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

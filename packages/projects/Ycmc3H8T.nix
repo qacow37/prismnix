@@ -17,6 +17,8 @@ let
         "forge-1.12.2" = _61rodE0m;
         "forge-1.20" = _zJjjScbV;
         "forge-1.20.1" = _zJjjScbV;
+        "pkg-1.1.2" = _61rodE0m;
+        "pkg-2.0.0" = _zJjjScbV;
         "default" = _zJjjScbV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

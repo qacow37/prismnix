@@ -9,6 +9,7 @@ let
     in {
         "NIK487Yc" = _NIK487Yc;
         "fabric-1.21.1" = _NIK487Yc;
+        "pkg-1.0.0" = _NIK487Yc;
         "default" = _NIK487Yc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

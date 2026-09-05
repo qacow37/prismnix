@@ -16,6 +16,8 @@ let
         "Dt50lUvL" = _Dt50lUvL;
         "forge-1.20.1" = _y13CrO9L;
         "fabric-1.20.1" = _Dt50lUvL;
+        "pkg-1.0.0+forge-1.20.1" = _y13CrO9L;
+        "pkg-1.0.0+fabric-1.20.1" = _Dt50lUvL;
         "default" = _Dt50lUvL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

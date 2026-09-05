@@ -21,6 +21,9 @@ let
         "UIaHoFKE" = _UIaHoFKE;
         "1NelzHtk" = _1NelzHtk;
         "forge-1.19.2" = _1NelzHtk;
+        "pkg-1.19.2-1.0.1" = _BhLRT2kJ;
+        "pkg-1.19.2-1.0.2" = _UIaHoFKE;
+        "pkg-1.19.2-1.0.4" = _1NelzHtk;
         "default" = _1NelzHtk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

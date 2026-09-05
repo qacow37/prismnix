@@ -22,6 +22,9 @@ let
         "54OSlNY2" = _54OSlNY2;
         "fabric-1.21" = _54OSlNY2;
         "fabric-1.21.1" = _54OSlNY2;
+        "pkg-0.1.0" = _c2gosOO7;
+        "pkg-0.1.1" = _pj0qvadR;
+        "pkg-0.1.2" = _54OSlNY2;
         "default" = _54OSlNY2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

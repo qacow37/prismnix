@@ -15,6 +15,7 @@ let
         "BkCXs2Lu" = _BkCXs2Lu;
         "zsGVOg9S" = _zsGVOg9S;
         "fabric-1.21.11" = _zsGVOg9S;
+        "pkg-1.3.2" = _zsGVOg9S;
         "default" = _zsGVOg9S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

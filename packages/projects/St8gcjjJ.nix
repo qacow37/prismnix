@@ -380,6 +380,9 @@ let
         "quilt-1.21" = _zzN4SV85;
         "bungeecord-1.21.4" = _IoAlsHLe;
         "bungeecord-1.21.5" = _IoAlsHLe;
+        "pkg-1.0.0" = _FeUNzYtj;
+        "pkg-1.1.0" = _5YD2LNHv;
+        "pkg-1.2.0" = _sugifXfJ;
         "default" = _sugifXfJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "minecraft-1.20.2" = _SgEGYFl7;
         "minecraft-1.20.3" = _SgEGYFl7;
         "minecraft-1.20.4" = _SgEGYFl7;
+        "pkg-1.0" = _vGLTgXbI;
+        "pkg-1.1" = _SgEGYFl7;
         "default" = _SgEGYFl7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

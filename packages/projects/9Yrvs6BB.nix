@@ -15,6 +15,8 @@ let
         "1mleQ0CW" = _1mleQ0CW;
         "QDOrmgsy" = _QDOrmgsy;
         "fabric-1.21.10" = _QDOrmgsy;
+        "pkg-1.0" = _1mleQ0CW;
+        "pkg-1.1" = _QDOrmgsy;
         "default" = _QDOrmgsy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -38,6 +38,7 @@ let
         "minecraft-26.1" = _jBMYCtSC;
         "minecraft-26.1.1" = _jBMYCtSC;
         "minecraft-26.1.2" = _jBMYCtSC;
+        "pkg-1.0" = _jBMYCtSC;
         "default" = _jBMYCtSC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

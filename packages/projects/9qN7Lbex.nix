@@ -21,6 +21,9 @@ let
         "vYtoPSXr" = _vYtoPSXr;
         "bioxtul0" = _bioxtul0;
         "fabric-1.20.1" = _bioxtul0;
+        "pkg-1.0.0" = _6Vf0HUfp;
+        "pkg-1.0.1" = _vYtoPSXr;
+        "pkg-1.0.2" = _bioxtul0;
         "default" = _bioxtul0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

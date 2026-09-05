@@ -9,6 +9,7 @@ let
     in {
         "PmVYPUt7" = _PmVYPUt7;
         "forge-1.20.1" = _PmVYPUt7;
+        "pkg-2.3.0" = _PmVYPUt7;
         "default" = _PmVYPUt7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

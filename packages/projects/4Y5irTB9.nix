@@ -15,6 +15,8 @@ let
         "pNWJBRgK" = _pNWJBRgK;
         "ZpKm05nd" = _ZpKm05nd;
         "forge-1.12.2" = _ZpKm05nd;
+        "pkg-12.3.21" = _pNWJBRgK;
+        "pkg-12.2.22" = _ZpKm05nd;
         "default" = _ZpKm05nd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

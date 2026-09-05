@@ -34,6 +34,11 @@ let
         "aKttE96Q" = _aKttE96Q;
         "fabric-1.20.1" = _U8tJHXKg;
         "forge-1.20.1" = _aKttE96Q;
+        "pkg-1.3" = _Aq84JnaS;
+        "pkg-1.6" = _U8tJHXKg;
+        "pkg-2.0" = _WAJzcklH;
+        "pkg-2.1" = _v2UPIH2f;
+        "pkg-2.2" = _aKttE96Q;
         "default" = _aKttE96Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

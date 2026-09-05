@@ -16,6 +16,7 @@ let
         "EDMfLczX" = _EDMfLczX;
         "paper-1.21" = _EDMfLczX;
         "purpur-1.21" = _EDMfLczX;
+        "pkg-1.0" = _EDMfLczX;
         "default" = _EDMfLczX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

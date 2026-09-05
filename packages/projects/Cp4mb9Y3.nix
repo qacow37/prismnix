@@ -21,6 +21,9 @@ let
         "LCRbCpEs" = _LCRbCpEs;
         "fGZHNGMR" = _fGZHNGMR;
         "neoforge-1.21.1" = _fGZHNGMR;
+        "pkg-0.1.0" = _ZTuo8C4K;
+        "pkg-0.1.1" = _LCRbCpEs;
+        "pkg-1.0.0" = _fGZHNGMR;
         "default" = _fGZHNGMR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

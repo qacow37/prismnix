@@ -52,6 +52,14 @@ let
         "KWI4ujVB" = _KWI4ujVB;
         "minecraft-1.19.3" = _nAJtRkPQ;
         "minecraft-1.20.4" = _KWI4ujVB;
+        "pkg-PA1" = _JZrSO0P0;
+        "pkg-A2" = _9bWDLkl1;
+        "pkg-3" = _nAJtRkPQ;
+        "pkg-4" = _KfRzhnnF;
+        "pkg-5" = _qs5WSO0P;
+        "pkg-6" = _57geKbaq;
+        "pkg-7" = _deYBxsWU;
+        "pkg-8" = _KWI4ujVB;
         "default" = _KWI4ujVB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

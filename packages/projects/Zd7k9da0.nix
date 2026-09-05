@@ -148,6 +148,7 @@ let
         "neoforge-1.20.6" = _AUSVTF3s;
         "neoforge-1.21" = _AUSVTF3s;
         "neoforge-1.21.1" = _AUSVTF3s;
+        "pkg-1.0.0" = _AUSVTF3s;
         "default" = _AUSVTF3s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "pjsGhjUU" = _pjsGhjUU;
         "fabric-1.21" = _pjsGhjUU;
         "fabric-1.21.1" = _pjsGhjUU;
+        "pkg-1.0.0" = _pjsGhjUU;
         "default" = _pjsGhjUU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

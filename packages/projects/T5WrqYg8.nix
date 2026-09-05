@@ -15,6 +15,8 @@ let
         "Kdx3WtdA" = _Kdx3WtdA;
         "f5OLnboG" = _f5OLnboG;
         "forge-1.20.1" = _f5OLnboG;
+        "pkg-1.0.0" = _Kdx3WtdA;
+        "pkg-1.1.0" = _f5OLnboG;
         "default" = _f5OLnboG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -56,6 +56,8 @@ let
         "minecraft-26.1.1" = _aMlYCTAx;
         "minecraft-26.1.2" = _aMlYCTAx;
         "minecraft-26.2" = _aMlYCTAx;
+        "pkg-1.0" = _tIp32FFL;
+        "pkg-1.1" = _aMlYCTAx;
         "default" = _aMlYCTAx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

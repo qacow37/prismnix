@@ -39,6 +39,11 @@ let
         "LSxFbkSe" = _LSxFbkSe;
         "jiFjTPU2" = _jiFjTPU2;
         "fabric-1.21.1" = _jiFjTPU2;
+        "pkg-1.0.0" = _hEibVKKd;
+        "pkg-1.0.1" = _Mxs667R4;
+        "pkg-1.1.0" = _e8a1HPDH;
+        "pkg-1.1.1" = _LSxFbkSe;
+        "pkg-1.1.2" = _jiFjTPU2;
         "default" = _jiFjTPU2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

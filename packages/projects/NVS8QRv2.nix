@@ -16,6 +16,8 @@ let
         "S9ecSvOB" = _S9ecSvOB;
         "fabric-1.21" = _S9ecSvOB;
         "fabric-1.21.1" = _S9ecSvOB;
+        "pkg-1.0.0" = _sBNRSl8T;
+        "pkg-1.1.2" = _S9ecSvOB;
         "default" = _S9ecSvOB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "6RjJssMr" = _6RjJssMr;
         "forge-1.20.1" = _6RjJssMr;
+        "pkg-1.1.0" = _6RjJssMr;
         "default" = _6RjJssMr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

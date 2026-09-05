@@ -9,6 +9,7 @@ let
     in {
         "fDEnDKRO" = _fDEnDKRO;
         "forge-1.20.1" = _fDEnDKRO;
+        "pkg-1.0.8" = _fDEnDKRO;
         "default" = _fDEnDKRO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

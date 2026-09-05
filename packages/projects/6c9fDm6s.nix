@@ -27,6 +27,10 @@ let
         "djUucers" = _djUucers;
         "znyyBH5a" = _znyyBH5a;
         "forge-1.20.1" = _znyyBH5a;
+        "pkg-1.0.0" = _uxdJIdgf;
+        "pkg-1.1.0" = _XMoBLTun;
+        "pkg-1.1.1" = _djUucers;
+        "pkg-1.7" = _znyyBH5a;
         "default" = _znyyBH5a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

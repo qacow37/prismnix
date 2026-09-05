@@ -21,6 +21,9 @@ let
         "lMKDShl8" = _lMKDShl8;
         "yGa5isjj" = _yGa5isjj;
         "neoforge-1.21.1" = _yGa5isjj;
+        "pkg-1.0.0" = _lwgdexIm;
+        "pkg-1.1.0" = _lMKDShl8;
+        "pkg-1.2.0" = _yGa5isjj;
         "default" = _yGa5isjj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "iSypKirS" = _iSypKirS;
         "MXd4s9MJ" = _MXd4s9MJ;
         "forge-1.20.1" = _MXd4s9MJ;
+        "pkg-1.0.0" = _iSypKirS;
+        "pkg-1.1.0" = _MXd4s9MJ;
         "default" = _MXd4s9MJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "MGpIgh9e" = _MGpIgh9e;
         "neoforge-1.20.1" = _MGpIgh9e;
         "neoforge-1.21.1" = _MGpIgh9e;
+        "pkg-1.0" = _MGpIgh9e;
         "default" = _MGpIgh9e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

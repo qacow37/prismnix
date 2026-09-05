@@ -88,6 +88,9 @@ let
         "iris-1.20.1" = _QLiPA3d1;
         "iris-1.20.2" = _QLiPA3d1;
         "iris-1.20.3" = _QLiPA3d1;
+        "pkg-2.9.0" = _SKAX8z7K;
+        "pkg-2.10.0" = _pN8VfhwO;
+        "pkg-2.11.0" = _QLiPA3d1;
         "default" = _QLiPA3d1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

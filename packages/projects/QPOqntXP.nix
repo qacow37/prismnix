@@ -31,6 +31,8 @@ let
         "fabric-1.20.2" = _xmCBT4oh;
         "fabric-1.20.3" = _xmCBT4oh;
         "fabric-1.20.4" = _xmCBT4oh;
+        "pkg-1.0" = _rzZ20Z17;
+        "pkg-1.1" = _xmCBT4oh;
         "default" = _xmCBT4oh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

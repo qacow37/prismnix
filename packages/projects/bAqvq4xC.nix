@@ -9,6 +9,7 @@ let
     in {
         "xNQCiQQ4" = _xNQCiQQ4;
         "minecraft-1.20" = _xNQCiQQ4;
+        "pkg-1.5" = _xNQCiQQ4;
         "default" = _xNQCiQQ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

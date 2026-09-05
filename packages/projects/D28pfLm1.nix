@@ -31,6 +31,8 @@ let
         "minecraft-1.21.9" = _5hTHPrLP;
         "minecraft-1.21.10" = _5hTHPrLP;
         "minecraft-1.21.11" = _5hTHPrLP;
+        "pkg-Torrezx-Better_netherite" = _Ejz3X8uJ;
+        "pkg-Torrezx-Better_Netherite" = _5hTHPrLP;
         "default" = _5hTHPrLP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

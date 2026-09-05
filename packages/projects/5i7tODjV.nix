@@ -9,6 +9,7 @@ let
     in {
         "Dsl2ENli" = _Dsl2ENli;
         "minecraft-1.21" = _Dsl2ENli;
+        "pkg-1" = _Dsl2ENli;
         "default" = _Dsl2ENli;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -80,6 +80,8 @@ let
         "optifine-26.1.1" = _cmzftSj6;
         "optifine-26.1.2" = _cmzftSj6;
         "optifine-26.2" = _cmzftSj6;
+        "pkg-V1" = _pMvXG50X;
+        "pkg-2" = _cmzftSj6;
         "default" = _cmzftSj6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

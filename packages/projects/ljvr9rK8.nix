@@ -16,6 +16,8 @@ let
         "I2AtvusQ" = _I2AtvusQ;
         "forge-1.20.1" = _PoRIABiC;
         "neoforge-1.21.1" = _I2AtvusQ;
+        "pkg-0.0.4" = _PoRIABiC;
+        "pkg-0.0.4b" = _I2AtvusQ;
         "default" = _I2AtvusQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

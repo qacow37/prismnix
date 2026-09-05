@@ -27,6 +27,10 @@ let
         "9KwrFgMe" = _9KwrFgMe;
         "msHkXTdr" = _msHkXTdr;
         "forge-1.21.1" = _msHkXTdr;
+        "pkg-1.8.7" = _jh6Kre2T;
+        "pkg-1.8.7.beta1" = _btmk8zcE;
+        "pkg-1.8.7.beta2" = _9KwrFgMe;
+        "pkg-1.8.8" = _msHkXTdr;
         "default" = _msHkXTdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

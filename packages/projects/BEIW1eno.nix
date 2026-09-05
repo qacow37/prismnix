@@ -40,6 +40,9 @@ let
         "HjStumVI" = _HjStumVI;
         "neoforge-1.21.1" = _sJDxU0YW;
         "fabric-1.21.1" = _HjStumVI;
+        "pkg-0.1" = _h456j6p2;
+        "pkg-0.2" = _eDFEypFv;
+        "pkg-1.0" = _HjStumVI;
         "default" = _HjStumVI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

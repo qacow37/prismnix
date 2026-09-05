@@ -85,6 +85,12 @@ let
         "forge-1.16.4" = _QWm1dT59;
         "forge-1.16.5" = _QWm1dT59;
         "forge-1.12.2" = _DmbnXKDP;
+        "pkg-1.0.0-fabric" = _FkqL4PMc;
+        "pkg-1.0.0-forge" = _vemiNYY1;
+        "pkg-1.0.0-fabric-java8" = _IWVPuGfe;
+        "pkg-1.0.0-forge-java8" = _QWm1dT59;
+        "pkg-1.0.0-forge-1.12" = _uqqBA84U;
+        "pkg-1.0.1-forge-1.12" = _DmbnXKDP;
         "default" = _DmbnXKDP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

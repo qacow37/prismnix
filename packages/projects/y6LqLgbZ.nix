@@ -108,6 +108,8 @@ let
         "spigot-26.1.1" = _hHw3cMIs;
         "spigot-26.1.2" = _hHw3cMIs;
         "spigot-26.2" = _hHw3cMIs;
+        "pkg-1.0.0" = _C1Piteaq;
+        "pkg-2.3" = _hHw3cMIs;
         "default" = _hHw3cMIs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

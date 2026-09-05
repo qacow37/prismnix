@@ -28,6 +28,9 @@ let
         "IONd5DVi" = _IONd5DVi;
         "neoforge-1.21.1" = _IONd5DVi;
         "fabric-1.21.1" = _XmkuYsu5;
+        "pkg-0.1-BETA" = _JXhqA9Nq;
+        "pkg-0.2" = _XmkuYsu5;
+        "pkg-1.0" = _IONd5DVi;
         "default" = _IONd5DVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

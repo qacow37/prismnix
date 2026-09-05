@@ -16,6 +16,8 @@ let
         "g0Pnn4LM" = _g0Pnn4LM;
         "datapack-1.20.1" = _g0Pnn4LM;
         "fabric-1.20.1" = _g0Pnn4LM;
+        "pkg-1.1" = _BruAiVgr;
+        "pkg-1.2" = _g0Pnn4LM;
         "default" = _g0Pnn4LM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "IT30Bx9b" = _IT30Bx9b;
         "forge-1.20.1" = _E6sG5Scp;
         "neoforge-1.21.1" = _IT30Bx9b;
+        "pkg-1.0.4" = _E6sG5Scp;
+        "pkg-1.0.5" = _IT30Bx9b;
         "default" = _IT30Bx9b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -43,6 +43,8 @@ let
         "minecraft-1.21.7" = _G8VUkNk2;
         "minecraft-1.21.8" = _G8VUkNk2;
         "minecraft-1.21.9" = _G8VUkNk2;
+        "pkg-1.5.0" = _pwS52P5W;
+        "pkg-1.6.0" = _G8VUkNk2;
         "default" = _G8VUkNk2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

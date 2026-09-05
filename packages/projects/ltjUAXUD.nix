@@ -9,6 +9,7 @@ let
     in {
         "UvtLVQam" = _UvtLVQam;
         "neoforge-1.21.8" = _UvtLVQam;
+        "pkg-1.0.4" = _UvtLVQam;
         "default" = _UvtLVQam;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

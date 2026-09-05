@@ -15,6 +15,8 @@ let
         "TtsGioQe" = _TtsGioQe;
         "kmKuZY0U" = _kmKuZY0U;
         "forge-1.20.1" = _kmKuZY0U;
+        "pkg-1.0.0" = _TtsGioQe;
+        "pkg-1.1.0" = _kmKuZY0U;
         "default" = _kmKuZY0U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

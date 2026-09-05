@@ -61,6 +61,11 @@ let
         "iris-1.21.9" = _QPzRPm9y;
         "iris-1.21.10" = _QPzRPm9y;
         "iris-1.21.11" = _QPzRPm9y;
+        "pkg-0.2" = _tnnIun0y;
+        "pkg-0.3" = _WuGe4zyf;
+        "pkg-1.0" = _TqbBBm6q;
+        "pkg-1.1" = _q2VuihVp;
+        "pkg-1.2" = _QPzRPm9y;
         "default" = _QPzRPm9y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

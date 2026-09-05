@@ -9,6 +9,7 @@ let
     in {
         "dxBTwEBg" = _dxBTwEBg;
         "fabric-1.20.1" = _dxBTwEBg;
+        "pkg-1.0.0" = _dxBTwEBg;
         "default" = _dxBTwEBg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

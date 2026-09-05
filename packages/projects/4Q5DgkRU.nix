@@ -57,6 +57,15 @@ let
         "Meacw469" = _Meacw469;
         "7QWLCoVr" = _7QWLCoVr;
         "fabric-1.18.2" = _7QWLCoVr;
+        "pkg-1.0" = _Ywsg4wd0;
+        "pkg-1.1" = _od9QsovA;
+        "pkg-1.2" = _SyPQZi9B;
+        "pkg-1.3" = _hfNwvprA;
+        "pkg-1.3.1" = _2diyC12K;
+        "pkg-1.3.2" = _Zt9I5Tx2;
+        "pkg-1.4.0" = _WFFc5LD1;
+        "pkg-1.4.1-build.50+mc1.18.2" = _Meacw469;
+        "pkg-1.4.2-build.55+mc1.18.2" = _7QWLCoVr;
         "default" = _7QWLCoVr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

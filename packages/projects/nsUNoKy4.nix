@@ -9,6 +9,7 @@ let
     in {
         "tR9utER4" = _tR9utER4;
         "fabric-1.20.1" = _tR9utER4;
+        "pkg-1.0.0" = _tR9utER4;
         "default" = _tR9utER4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

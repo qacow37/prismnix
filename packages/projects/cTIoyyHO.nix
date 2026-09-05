@@ -10,6 +10,7 @@ let
         "PK3FccsR" = _PK3FccsR;
         "minecraft-1.21" = _PK3FccsR;
         "minecraft-1.21.1" = _PK3FccsR;
+        "pkg-1.0" = _PK3FccsR;
         "default" = _PK3FccsR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

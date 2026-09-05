@@ -70,6 +70,17 @@ let
         "ZyATV56A" = _ZyATV56A;
         "forge-1.20.1" = _nTozi6hh;
         "neoforge-1.21.1" = _ZyATV56A;
+        "pkg-1.2.3fix2" = _SaVsIK6O;
+        "pkg-1.2.4.2fix" = _qMZSVDHJ;
+        "pkg-1.3.0" = _vSWOrSWt;
+        "pkg-1.3.0.1" = _InlmhzAJ;
+        "pkg-1.3.0.2" = _xDgBvYgU;
+        "pkg-1.3.0.3" = _jH1hqjHL;
+        "pkg-1.3.0.4" = _VkvWOWKj;
+        "pkg-1.3.0.5" = _ucdkbmNm;
+        "pkg-1.3.0.6" = _qbbJQYYV;
+        "pkg-2.0.0-1.20.1" = _nTozi6hh;
+        "pkg-2.0.0-1.21.1" = _ZyATV56A;
         "default" = _ZyATV56A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

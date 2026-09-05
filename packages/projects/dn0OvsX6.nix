@@ -16,6 +16,7 @@ let
         "XURE0W5I" = _XURE0W5I;
         "forge-1.18.2" = _HEUDtnCs;
         "forge-1.19.2" = _XURE0W5I;
+        "pkg-1.0.2" = _XURE0W5I;
         "default" = _XURE0W5I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

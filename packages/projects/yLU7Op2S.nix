@@ -41,6 +41,8 @@ let
         "vanilla-1.21.6" = _T7clEGGV;
         "vanilla-1.21.7" = _T7clEGGV;
         "vanilla-1.21.8" = _T7clEGGV;
+        "pkg-1.0.0" = _T7clEGGV;
+        "pkg-1.1.0" = _yXmthX1e;
         "default" = _yXmthX1e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

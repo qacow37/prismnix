@@ -21,6 +21,9 @@ let
         "s7iWdnMp" = _s7iWdnMp;
         "AD5SfGTW" = _AD5SfGTW;
         "forge-1.12.2" = _AD5SfGTW;
+        "pkg-4.0.1" = _4n2hmHCj;
+        "pkg-4.0.2" = _s7iWdnMp;
+        "pkg-4.2.0" = _AD5SfGTW;
         "default" = _AD5SfGTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

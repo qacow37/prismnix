@@ -34,6 +34,11 @@ let
         "SGQigNAv" = _SGQigNAv;
         "forge-1.20.1" = _QevoTLB5;
         "neoforge-1.21.1" = _SGQigNAv;
+        "pkg-1.0.0" = _DJzO7X7a;
+        "pkg-1.0.1" = _KVmacarg;
+        "pkg-1.0.3" = _EO7otpRz;
+        "pkg-1.0.4" = _QevoTLB5;
+        "pkg-2.0.0.0" = _SGQigNAv;
         "default" = _SGQigNAv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

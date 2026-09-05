@@ -16,6 +16,8 @@ let
         "og6SKuLx" = _og6SKuLx;
         "fabric-1.20" = _og6SKuLx;
         "fabric-1.20.1" = _og6SKuLx;
+        "pkg-1.7.0" = _SgihiArU;
+        "pkg-1.7.1" = _og6SKuLx;
         "default" = _og6SKuLx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

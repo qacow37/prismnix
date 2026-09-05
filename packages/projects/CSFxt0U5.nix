@@ -26,6 +26,7 @@ let
         "neoforge-26.1" = _R9EUM5vi;
         "neoforge-26.1.1" = _R9EUM5vi;
         "neoforge-26.1.2" = _R9EUM5vi;
+        "pkg-1.0.0" = _R9EUM5vi;
         "default" = _R9EUM5vi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

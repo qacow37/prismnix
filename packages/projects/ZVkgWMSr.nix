@@ -9,6 +9,7 @@ let
     in {
         "osER6jJ2" = _osER6jJ2;
         "forge-1.20.1" = _osER6jJ2;
+        "pkg-1.2.0" = _osER6jJ2;
         "default" = _osER6jJ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

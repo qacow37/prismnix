@@ -27,6 +27,10 @@ let
         "Ia7XCjCB" = _Ia7XCjCB;
         "TXfiD0CL" = _TXfiD0CL;
         "forge-1.20.1" = _TXfiD0CL;
+        "pkg-1.0.0" = _T1UeRp0w;
+        "pkg-2.0.0" = _HvSEsdcO;
+        "pkg-2.1.0" = _Ia7XCjCB;
+        "pkg-2.1.1" = _TXfiD0CL;
         "default" = _TXfiD0CL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

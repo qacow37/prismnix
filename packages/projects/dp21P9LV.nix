@@ -18,6 +18,8 @@ let
         "minecraft-1.8.9" = _32xEWyT3;
         "minecraft-1.21" = _pivTUn9o;
         "minecraft-1.21.10" = _pivTUn9o;
+        "pkg-1.8.9" = _32xEWyT3;
+        "pkg-1.21.x" = _pivTUn9o;
         "default" = _pivTUn9o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

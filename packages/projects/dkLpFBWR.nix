@@ -276,6 +276,9 @@ let
         "minecraft-1.21.7-rc1" = _JGNQ5R8o;
         "minecraft-1.21.7-rc2" = _JGNQ5R8o;
         "minecraft-1.21.7" = _JGNQ5R8o;
+        "pkg-1" = _xoCatulY;
+        "pkg-2" = _Bvr2zabW;
+        "pkg-v3.0" = _JGNQ5R8o;
         "default" = _JGNQ5R8o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

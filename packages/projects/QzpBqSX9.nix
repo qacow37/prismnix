@@ -15,6 +15,8 @@ let
         "VFcyXm7F" = _VFcyXm7F;
         "33yTVI3o" = _33yTVI3o;
         "forge-1.8.9" = _33yTVI3o;
+        "pkg-2.2" = _VFcyXm7F;
+        "pkg-2.3.1" = _33yTVI3o;
         "default" = _33yTVI3o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

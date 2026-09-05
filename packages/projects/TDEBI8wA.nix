@@ -22,6 +22,8 @@ let
         "fabric-1.20.5" = _Lsi6GO1I;
         "fabric-1.20.6" = _Lsi6GO1I;
         "fabric-1.21" = _QFfbpg5r;
+        "pkg-1.0.0" = _Lsi6GO1I;
+        "pkg-1.1.0" = _QFfbpg5r;
         "default" = _QFfbpg5r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

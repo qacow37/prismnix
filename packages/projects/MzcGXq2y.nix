@@ -10,6 +10,7 @@ let
         "R24JN3LP" = _R24JN3LP;
         "forge-1.20.1" = _R24JN3LP;
         "neoforge-1.20.1" = _R24JN3LP;
+        "pkg-1.0.1" = _R24JN3LP;
         "default" = _R24JN3LP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

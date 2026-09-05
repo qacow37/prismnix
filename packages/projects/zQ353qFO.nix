@@ -9,6 +9,7 @@ let
     in {
         "hIqmko40" = _hIqmko40;
         "forge-1.12.2" = _hIqmko40;
+        "pkg-1.0" = _hIqmko40;
         "default" = _hIqmko40;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "vCEoWl7F" = _vCEoWl7F;
         "minecraft-24w36a" = _rbmBplek;
         "minecraft-1.21.5" = _vCEoWl7F;
+        "pkg-1" = _rbmBplek;
+        "pkg-V1.1" = _vCEoWl7F;
         "default" = _vCEoWl7F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

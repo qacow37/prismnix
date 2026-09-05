@@ -15,6 +15,8 @@ let
         "rX7U0lVy" = _rX7U0lVy;
         "VXBSymGc" = _VXBSymGc;
         "forge-1.20.1" = _VXBSymGc;
+        "pkg-0.0.1" = _rX7U0lVy;
+        "pkg-0.0.2" = _VXBSymGc;
         "default" = _VXBSymGc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

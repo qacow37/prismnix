@@ -27,6 +27,10 @@ let
         "OgNpyAPM" = _OgNpyAPM;
         "pLtBiLbi" = _pLtBiLbi;
         "forge-1.20.1" = _pLtBiLbi;
+        "pkg-1.3.0" = _eil0zQ47;
+        "pkg-1.4.0" = _79nw7Snx;
+        "pkg-1.7.0" = _OgNpyAPM;
+        "pkg-1.10.0" = _pLtBiLbi;
         "default" = _pLtBiLbi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

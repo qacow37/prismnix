@@ -15,6 +15,8 @@ let
         "QUo1ypth" = _QUo1ypth;
         "5Oubeti2" = _5Oubeti2;
         "neoforge-1.21.1" = _5Oubeti2;
+        "pkg-1.21.1-v1.0.0" = _QUo1ypth;
+        "pkg-1.21.1-v1.1.0" = _5Oubeti2;
         "default" = _5Oubeti2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

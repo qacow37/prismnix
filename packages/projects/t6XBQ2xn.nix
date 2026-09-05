@@ -358,6 +358,9 @@ let
         "fabric-24w33a" = _fDbxgNHz;
         "fabric-24w34a" = _fDbxgNHz;
         "fabric-24w35a" = _fDbxgNHz;
+        "pkg-1.0.0" = _37uhLGmD;
+        "pkg-1.1.0" = _30ak0J3Q;
+        "pkg-1.1.1" = _fDbxgNHz;
         "default" = _fDbxgNHz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

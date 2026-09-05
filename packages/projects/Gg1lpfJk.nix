@@ -58,6 +58,14 @@ let
         "DB2liDby" = _DB2liDby;
         "forge-1.20.1" = _iwXxUjmm;
         "fabric-1.20.1" = _DB2liDby;
+        "pkg-1.0.0" = _3o6V7hkn;
+        "pkg-1.0.1" = _2Yhupn4w;
+        "pkg-1.0.2" = _dHufGFX6;
+        "pkg-1.0.3" = _dX8FBPxO;
+        "pkg-1.1.0" = _80Mz02mO;
+        "pkg-1.1.1" = _ayg1SMWU;
+        "pkg-1.1.2" = _WBMvj8hd;
+        "pkg-1.2.0" = _DB2liDby;
         "default" = _DB2liDby;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -33,6 +33,11 @@ let
         "ZPExlT8F" = _ZPExlT8F;
         "KPaCS9js" = _KPaCS9js;
         "forge-1.20.1" = _KPaCS9js;
+        "pkg-1.0.0" = _LBz4r4Wh;
+        "pkg-1.0.1" = _OV2UucUf;
+        "pkg-2.0.0" = _3s6q3dy0;
+        "pkg-2.0.1" = _ZPExlT8F;
+        "pkg-3.0.0" = _KPaCS9js;
         "default" = _KPaCS9js;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

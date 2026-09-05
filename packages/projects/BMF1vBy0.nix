@@ -18,6 +18,8 @@ let
         "fabric-1.21" = _NoakHoIz;
         "forge-1.21" = _NoakHoIz;
         "quilt-1.21" = _NoakHoIz;
+        "pkg-1" = _Kfa8IP7w;
+        "pkg-1+mod" = _NoakHoIz;
         "default" = _NoakHoIz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "YDs1SMUH" = _YDs1SMUH;
         "4X6ZjXjl" = _4X6ZjXjl;
         "forge-1.8.9" = _4X6ZjXjl;
+        "pkg-1.8.9-1.4.3" = _YDs1SMUH;
+        "pkg-1.8.9-1.4.3.1" = _4X6ZjXjl;
         "default" = _4X6ZjXjl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

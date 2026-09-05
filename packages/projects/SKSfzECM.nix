@@ -32,6 +32,10 @@ let
         "minecraft-26.1" = _tGFnL1te;
         "minecraft-26.1.1" = _tGFnL1te;
         "minecraft-26.1.2" = _tGFnL1te;
+        "pkg-joelsbettergrass-1.21+-v1" = _OadZduYW;
+        "pkg-joelsbettergrass-1.21+-v1.1" = _vfgPVbZm;
+        "pkg-joelsbettergrass-1.21+-v1.2" = _FHhClMyS;
+        "pkg-joelsbettergrass-26.1.2+-v1.3" = _tGFnL1te;
         "default" = _tGFnL1te;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

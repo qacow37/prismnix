@@ -38,6 +38,8 @@ let
         "minecraft-26.1.1" = _wgipeSL1;
         "minecraft-26.1.2" = _wgipeSL1;
         "minecraft-26.2" = _wgipeSL1;
+        "pkg-1.0" = _HgrHhji3;
+        "pkg-1.1" = _wgipeSL1;
         "default" = _wgipeSL1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

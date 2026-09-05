@@ -161,6 +161,7 @@ let
         "minecraft-26.1.1" = _bUpgesAt;
         "minecraft-26.1.2" = _bUpgesAt;
         "minecraft-26.2" = _L2LO9fhz;
+        "pkg-MG-5.0" = _L2LO9fhz;
         "default" = _L2LO9fhz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

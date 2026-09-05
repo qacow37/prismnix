@@ -26,6 +26,8 @@ let
         "minecraft-1.21.9" = _buntaBwe;
         "minecraft-1.21.10" = _buntaBwe;
         "minecraft-1.21.11" = _buntaBwe;
+        "pkg-1.0" = _AgTyhHu4;
+        "pkg-1.1" = _buntaBwe;
         "default" = _buntaBwe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,9 @@ let
         "soonV9BS" = _soonV9BS;
         "pQMQNFMd" = _pQMQNFMd;
         "forge-1.7.10" = _pQMQNFMd;
+        "pkg-1.6.1" = _CUppNu4I;
+        "pkg-1.7" = _imNn9F4v;
+        "pkg-1.8.2" = _pQMQNFMd;
         "default" = _pQMQNFMd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

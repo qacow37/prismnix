@@ -27,6 +27,10 @@ let
         "EAmSbeT8" = _EAmSbeT8;
         "KiCPPdlH" = _KiCPPdlH;
         "forge-1.20.1" = _KiCPPdlH;
+        "pkg-1.0.0" = _bu5pn05A;
+        "pkg-1.1.0" = _hH1Y6Wra;
+        "pkg-1.1.5" = _EAmSbeT8;
+        "pkg-1.1.6" = _KiCPPdlH;
         "default" = _KiCPPdlH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

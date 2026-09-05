@@ -9,6 +9,7 @@ let
     in {
         "odkIj90A" = _odkIj90A;
         "forge-1.20.1" = _odkIj90A;
+        "pkg-1.0" = _odkIj90A;
         "default" = _odkIj90A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

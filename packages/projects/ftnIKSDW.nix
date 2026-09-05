@@ -15,6 +15,8 @@ let
         "qDSRrCaC" = _qDSRrCaC;
         "xXFlZesL" = _xXFlZesL;
         "neoforge-1.21.1" = _xXFlZesL;
+        "pkg-1.0.3" = _qDSRrCaC;
+        "pkg-1.0.0" = _xXFlZesL;
         "default" = _xXFlZesL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

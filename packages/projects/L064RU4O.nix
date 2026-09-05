@@ -27,6 +27,10 @@ let
         "2mBED03K" = _2mBED03K;
         "HtKNrbWA" = _HtKNrbWA;
         "neoforge-1.21.1" = _HtKNrbWA;
+        "pkg-0.1" = _mMTeN4LJ;
+        "pkg-0.2" = _9tk5ARbV;
+        "pkg-0.2.5-beta" = _2mBED03K;
+        "pkg-0.3-beta" = _HtKNrbWA;
         "default" = _HtKNrbWA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

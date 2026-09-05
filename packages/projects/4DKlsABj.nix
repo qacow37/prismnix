@@ -15,6 +15,8 @@ let
         "Ab0Oni59" = _Ab0Oni59;
         "EcXDL4v7" = _EcXDL4v7;
         "neoforge-1.21.1" = _EcXDL4v7;
+        "pkg-1.0.0" = _Ab0Oni59;
+        "pkg-1.0.1" = _EcXDL4v7;
         "default" = _EcXDL4v7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

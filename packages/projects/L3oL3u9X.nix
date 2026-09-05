@@ -18,6 +18,8 @@ let
         "minecraft-1.20.2" = _wm6eNOPR;
         "minecraft-1.20.3" = _wm6eNOPR;
         "minecraft-1.20.4" = _wm6eNOPR;
+        "pkg-1.0" = _oDTj6uIY;
+        "pkg-1.0.1" = _wm6eNOPR;
         "default" = _wm6eNOPR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

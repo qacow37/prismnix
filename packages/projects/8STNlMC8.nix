@@ -75,6 +75,18 @@ let
         "WP3I68FX" = _WP3I68FX;
         "HdxWTFGw" = _HdxWTFGw;
         "forge-1.20.1" = _HdxWTFGw;
+        "pkg-1.0.0" = _3SWOrU20;
+        "pkg-1.1.0" = _8m7aBHaj;
+        "pkg-1.2.0" = _svr9K5KI;
+        "pkg-1.2.1" = _OlWFXwoD;
+        "pkg-2.0.0" = _PrDcHLFq;
+        "pkg-2.0.1" = _c1Q2cfad;
+        "pkg-2.0.2" = _4CZ9FwSH;
+        "pkg-2.0.3" = _wvWvWu1N;
+        "pkg-2.0.4-ponderless" = _9yIEeVY1;
+        "pkg-2.0.4" = _OQ14w6FS;
+        "pkg-2.0.5-ponderless" = _WP3I68FX;
+        "pkg-2.0.5" = _HdxWTFGw;
         "default" = _HdxWTFGw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

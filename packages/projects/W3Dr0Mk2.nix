@@ -9,6 +9,7 @@ let
     in {
         "CnTF2dQA" = _CnTF2dQA;
         "fabric-1.21.1" = _CnTF2dQA;
+        "pkg-0.1" = _CnTF2dQA;
         "default" = _CnTF2dQA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

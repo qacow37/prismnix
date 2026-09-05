@@ -28,6 +28,8 @@ let
         "neoforge-1.21.11" = _PsfpGPE3;
         "neoforge-26.1" = _PsfpGPE3;
         "neoforge-26.1.1" = _PsfpGPE3;
+        "pkg-0.1.2.0" = _dGuijRtq;
+        "pkg-0.1.2.1" = _PsfpGPE3;
         "default" = _PsfpGPE3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

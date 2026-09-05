@@ -31,6 +31,7 @@ let
         "forge-1.19.2" = _wBm0tNGP;
         "forge-1.20.1" = _3lnAdMeE;
         "neoforge-1.20.1" = _3lnAdMeE;
+        "pkg-1.7" = _3lnAdMeE;
         "default" = _3lnAdMeE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

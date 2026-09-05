@@ -18,6 +18,7 @@ let
         "forge-1.19.2" = _7fCYvel8;
         "forge-1.19.3" = _7fCYvel8;
         "forge-1.19.4" = _7fCYvel8;
+        "pkg-0.2.3" = _7fCYvel8;
         "default" = _7fCYvel8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

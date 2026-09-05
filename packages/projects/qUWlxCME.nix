@@ -15,6 +15,8 @@ let
         "YCXeNMfm" = _YCXeNMfm;
         "sEaCwz7y" = _sEaCwz7y;
         "fabric-1.20.1" = _sEaCwz7y;
+        "pkg-1.3-SNAPSHOT" = _YCXeNMfm;
+        "pkg-1.4" = _sEaCwz7y;
         "default" = _sEaCwz7y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

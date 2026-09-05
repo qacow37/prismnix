@@ -10,6 +10,7 @@ let
         "LtoBcfpf" = _LtoBcfpf;
         "iris-1.21.11" = _LtoBcfpf;
         "optifine-1.21.11" = _LtoBcfpf;
+        "pkg-v1.0" = _LtoBcfpf;
         "default" = _LtoBcfpf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

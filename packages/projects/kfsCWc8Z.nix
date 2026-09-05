@@ -53,6 +53,7 @@ let
         "minecraft-1.21.10" = _OKOinPZX;
         "minecraft-1.21.11" = _OKOinPZX;
         "minecraft-26.1" = _OKOinPZX;
+        "pkg-0.1" = _OKOinPZX;
         "default" = _OKOinPZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

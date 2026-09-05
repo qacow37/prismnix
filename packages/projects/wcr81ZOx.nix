@@ -9,6 +9,7 @@ let
     in {
         "KwF43rrb" = _KwF43rrb;
         "forge-1.16.5" = _KwF43rrb;
+        "pkg-1.0.0" = _KwF43rrb;
         "default" = _KwF43rrb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "HpyRX5zU" = _HpyRX5zU;
         "forge-1.20.1" = _HpyRX5zU;
+        "pkg-0.0.1-alpha.1" = _HpyRX5zU;
         "default" = _HpyRX5zU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

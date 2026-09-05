@@ -15,6 +15,8 @@ let
         "Ar3wi0oc" = _Ar3wi0oc;
         "voiEu295" = _voiEu295;
         "forge-1.20.1" = _voiEu295;
+        "pkg-1.1" = _Ar3wi0oc;
+        "pkg-1.2" = _voiEu295;
         "default" = _voiEu295;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

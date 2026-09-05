@@ -15,6 +15,8 @@ let
         "3zVPsrnH" = _3zVPsrnH;
         "SZAoISZB" = _SZAoISZB;
         "neoforge-1.21.1" = _SZAoISZB;
+        "pkg-1.21.1-1.0" = _3zVPsrnH;
+        "pkg-1.21.1-1.1" = _SZAoISZB;
         "default" = _SZAoISZB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

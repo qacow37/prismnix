@@ -222,6 +222,10 @@ let
         "quilt-26.1.1" = _V2KDolHa;
         "quilt-26.1.2" = _V2KDolHa;
         "quilt-26.2" = _V2KDolHa;
+        "pkg-1" = _Pua5CTIh;
+        "pkg-1+mod" = _PEg2Mrrx;
+        "pkg-2" = _IMEU3LLo;
+        "pkg-2+mod" = _V2KDolHa;
         "default" = _V2KDolHa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

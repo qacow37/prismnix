@@ -17,6 +17,8 @@ let
         "fabric-1.20" = _leJVL1Le;
         "fabric-1.20.1" = _leJVL1Le;
         "fabric-1.20.2" = _leJVL1Le;
+        "pkg-1.0.0" = _hVNjMrzZ;
+        "pkg-1.0.1" = _leJVL1Le;
         "default" = _leJVL1Le;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "kizL8omu" = _kizL8omu;
         "fabric-1.20.4" = _kizL8omu;
+        "pkg-0.2-fabric-1.20.4" = _kizL8omu;
         "default" = _kizL8omu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -517,6 +517,10 @@ let
         "neoforge-26.1.1" = _MDvdxMAS;
         "neoforge-26.1.2" = _MDvdxMAS;
         "neoforge-26.2" = _MDvdxMAS;
+        "pkg-v1.0-datapack" = _XZtKtEyk;
+        "pkg-v1.0-mod" = _eADMF6vA;
+        "pkg-1.1" = _WDcTZuGX;
+        "pkg-1.1+mod" = _MDvdxMAS;
         "default" = _MDvdxMAS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

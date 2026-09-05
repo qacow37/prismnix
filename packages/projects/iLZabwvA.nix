@@ -144,6 +144,26 @@ let
         "fabric-26.1.1" = _wpQuyZiO;
         "fabric-26.1.2" = _wpQuyZiO;
         "fabric-26.2" = _wpQuyZiO;
+        "pkg-1.0+1.20.1" = _Y9bKFSt0;
+        "pkg-1.0+1.20.4" = _JL2ujaEx;
+        "pkg-1.0.1+1.20.1" = _wyWHPESR;
+        "pkg-1.0.1+1.20.4" = _jRlzVbV6;
+        "pkg-1.0.2+1.20.1" = _l1uziJ9y;
+        "pkg-1.0.2+1.20.4" = _3p3Ktprw;
+        "pkg-1.0.2+1.20.6" = _w9VNHzdj;
+        "pkg-1.0.2+1.21" = _OlEc5QM7;
+        "pkg-1.0.3+1.20.1" = _8ULOMT9z;
+        "pkg-1.0.3+1.20.4" = _7wAghhb6;
+        "pkg-1.0.3+1.20.6" = _aTDMoL6u;
+        "pkg-1.0.3+1.21" = _47rtMCpY;
+        "pkg-1.1.0+1.20.1-1.21" = _7HNlDGgl;
+        "pkg-1.1.1+1.20.1-1.21" = _olgntbTg;
+        "pkg-1.1.2+1.21-1.21.1" = _fCtPFkA0;
+        "pkg-1.1.3+1.21-1.21.1" = _RKbGuWNV;
+        "pkg-1.1.3+1.21.2-rc1" = _Qw9hpAjN;
+        "pkg-1.1.4" = _bDIVSIKX;
+        "pkg-1.1.5" = _K7Ji5g4r;
+        "pkg-1.1.6+26.1" = _wpQuyZiO;
         "default" = _wpQuyZiO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

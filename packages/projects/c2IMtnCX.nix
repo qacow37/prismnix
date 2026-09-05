@@ -15,6 +15,8 @@ let
         "IbWL2wzi" = _IbWL2wzi;
         "4F9wgmna" = _4F9wgmna;
         "forge-1.12.2" = _4F9wgmna;
+        "pkg-3.2.6" = _IbWL2wzi;
+        "pkg-3.2.7" = _4F9wgmna;
         "default" = _4F9wgmna;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

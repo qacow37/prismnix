@@ -27,6 +27,9 @@ let
         "W6xaAora" = _W6xaAora;
         "MYLJjrtl" = _MYLJjrtl;
         "fabric-1.20.1" = _MYLJjrtl;
+        "pkg-1.0.0" = _K0ugie8W;
+        "pkg-1.1.0" = _W6xaAora;
+        "pkg-1.1.1" = _MYLJjrtl;
         "default" = _MYLJjrtl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -46,6 +46,10 @@ let
         "quilt-1.21.1" = _txKwBRol;
         "quilt-1.21.2" = _txKwBRol;
         "quilt-1.21.3" = _txKwBRol;
+        "pkg-1.0.0+amplified_nether-1.2.5" = _6FMGMt0V;
+        "pkg-1.0.0+amplified_nether-1.2.5+mod" = _kEGacSMQ;
+        "pkg-1.0.1+amplified_nether-1.2.5" = _ibGNUu9Q;
+        "pkg-1.0.1+amplified_nether-1.2.5+mod" = _txKwBRol;
         "default" = _txKwBRol;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -19,6 +19,8 @@ let
         "paper-26.1.1" = _PTAm6Pya;
         "paper-26.1.2" = _PTAm6Pya;
         "paper-26.2" = _PTAm6Pya;
+        "pkg-1.0.0" = _SFcIiw8T;
+        "pkg-2.0.0" = _PTAm6Pya;
         "default" = _PTAm6Pya;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

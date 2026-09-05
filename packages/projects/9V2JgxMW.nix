@@ -15,6 +15,8 @@ let
         "g1CexRnU" = _g1CexRnU;
         "6kMi45KH" = _6kMi45KH;
         "neoforge-1.21.1" = _6kMi45KH;
+        "pkg-1.0.0" = _g1CexRnU;
+        "pkg-1.2.0" = _6kMi45KH;
         "default" = _6kMi45KH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

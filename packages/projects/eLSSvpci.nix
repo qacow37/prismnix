@@ -27,6 +27,10 @@ let
         "6hyS8faY" = _6hyS8faY;
         "LVy74bTC" = _LVy74bTC;
         "fabric-1.21.11" = _LVy74bTC;
+        "pkg-3.4.0" = _5lBIIqWr;
+        "pkg-3.4.1" = _29J0UyrX;
+        "pkg-3.5.1" = _6hyS8faY;
+        "pkg-4.1.4" = _LVy74bTC;
         "default" = _LVy74bTC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

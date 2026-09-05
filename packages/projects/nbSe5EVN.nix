@@ -15,6 +15,8 @@ let
         "Ga2gu5Qz" = _Ga2gu5Qz;
         "XApM7ZdU" = _XApM7ZdU;
         "fabric-1.21.1" = _XApM7ZdU;
+        "pkg-1.0" = _Ga2gu5Qz;
+        "pkg-2.0" = _XApM7ZdU;
         "default" = _XApM7ZdU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

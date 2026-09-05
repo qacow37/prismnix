@@ -21,6 +21,9 @@ let
         "ze76CBgM" = _ze76CBgM;
         "mG4z4VaA" = _mG4z4VaA;
         "forge-1.20.1" = _mG4z4VaA;
+        "pkg-1.0.0" = _QnOwFf8z;
+        "pkg-1.1.0" = _ze76CBgM;
+        "pkg-1.1.1" = _mG4z4VaA;
         "default" = _mG4z4VaA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

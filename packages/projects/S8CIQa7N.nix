@@ -27,6 +27,9 @@ let
         "fabric-1.20.4" = _balOmlet;
         "fabric-1.21" = _vce9c6RL;
         "fabric-1.21.1" = _vce9c6RL;
+        "pkg-1.0.0" = _FMx59sZB;
+        "pkg-1.0.1" = _balOmlet;
+        "pkg-1.0.2" = _vce9c6RL;
         "default" = _vce9c6RL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

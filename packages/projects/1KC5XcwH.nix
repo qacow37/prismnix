@@ -138,6 +138,7 @@ let
         "minecraft-1.14.3" = _aNbiHYSL;
         "minecraft-1.14.4" = _aNbiHYSL;
         "minecraft-1.20" = _nYcvy94l;
+        "pkg-1" = _nYcvy94l;
         "default" = _nYcvy94l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

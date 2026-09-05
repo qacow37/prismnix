@@ -15,6 +15,8 @@ let
         "bnAo2rat" = _bnAo2rat;
         "KmtXBIDg" = _KmtXBIDg;
         "forge-1.20.1" = _KmtXBIDg;
+        "pkg-0.0.5.2" = _bnAo2rat;
+        "pkg-0.0.6" = _KmtXBIDg;
         "default" = _KmtXBIDg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

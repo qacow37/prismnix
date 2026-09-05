@@ -23,6 +23,9 @@ let
         "fabric-1.19.4" = _UA13VWAi;
         "fabric-1.20.6" = _RlmFRDb4;
         "fabric-1.21.11" = _er2mBygs;
+        "pkg-0.1" = _UA13VWAi;
+        "pkg-0.2" = _RlmFRDb4;
+        "pkg-0.3+1.21.11" = _er2mBygs;
         "default" = _er2mBygs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

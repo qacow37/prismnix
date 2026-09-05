@@ -486,6 +486,17 @@ let
         "optifine-26.3-snapshot-1" = _alyYmL5r;
         "optifine-26.3-snapshot-2" = _alyYmL5r;
         "optifine-26.3-snapshot-3" = _alyYmL5r;
+        "pkg-1.0.0" = _ChknvdLj;
+        "pkg-1.1.0" = _DP5CCzEX;
+        "pkg-1.1.1" = _X4tcmQFX;
+        "pkg-1.2.1" = _xsAC0xC9;
+        "pkg-1.2.2" = _4pvLeJvr;
+        "pkg-1.3.2" = _ThO3lnk2;
+        "pkg-1.3.3" = _JgcAOlGc;
+        "pkg-1.3.4" = _5QTgyqVH;
+        "pkg-1.3.5" = _v1DxXNua;
+        "pkg-1.3.6" = _alyYmL5r;
+        "pkg-1.3.7" = _R8zjivoQ;
         "default" = _R8zjivoQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

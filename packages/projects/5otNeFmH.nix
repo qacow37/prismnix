@@ -22,6 +22,9 @@ let
         "Vo7focWN" = _Vo7focWN;
         "forge-1.16.5" = _dmrZKG90;
         "fabric-1.21.4" = _Vo7focWN;
+        "pkg-1.0old" = _dmrZKG90;
+        "pkg-2.5" = _58YtrIPN;
+        "pkg-2.5.1" = _Vo7focWN;
         "default" = _Vo7focWN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

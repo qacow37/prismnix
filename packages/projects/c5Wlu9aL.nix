@@ -16,6 +16,7 @@ let
         "LP33GBvC" = _LP33GBvC;
         "fabric-1.20.1" = _3VTWdUcs;
         "forge-1.20.1" = _LP33GBvC;
+        "pkg-1.0.0" = _LP33GBvC;
         "default" = _LP33GBvC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

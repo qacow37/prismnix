@@ -48,6 +48,13 @@ let
         "minecraft-1.21" = _t3HkqE7c;
         "minecraft-1.21.1" = _t3HkqE7c;
         "minecraft-1.21.4" = _mPyFV4QC;
+        "pkg-Default_1.0.0" = _NmKoXpim;
+        "pkg-Default_1.0.1" = _LLyZvI13;
+        "pkg-Symmetrical-Swords_1.0.1" = _t3HkqE7c;
+        "pkg-Default_1.0.1__1.21.4" = _oUUcFI3u;
+        "pkg-Symmetrical-Swords_1.1.0__1.21.4" = _LMl6ULiN;
+        "pkg-Default_1.1.1__1.21.4" = _1WdhnjkL;
+        "pkg-Symmetrical-Swords_1.1.1__1.21.4" = _mPyFV4QC;
         "default" = _mPyFV4QC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

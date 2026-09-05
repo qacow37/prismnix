@@ -16,6 +16,8 @@ let
         "iYImWm0k" = _iYImWm0k;
         "neoforge-1.21.10" = _dXOchi3d;
         "neoforge-1.21.1" = _iYImWm0k;
+        "pkg-1.21.10-1.1.1" = _dXOchi3d;
+        "pkg-1.21.1-1.1.1" = _iYImWm0k;
         "default" = _iYImWm0k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

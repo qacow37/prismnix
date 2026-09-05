@@ -31,6 +31,10 @@ let
         "forge-1.20.2" = _HcB8OMl2;
         "forge-1.20.3" = _HcB8OMl2;
         "forge-1.20.4" = _HcB8OMl2;
+        "pkg-1.0.0-1.20.1-fabric" = _njPLYYmb;
+        "pkg-1.0.0-forge-1.20.1" = _O8KJ97YH;
+        "pkg-1.0.1-1.20.1-fabric" = _FHLcn1rj;
+        "pkg-1.0.1-forge-1.20.1" = _HcB8OMl2;
         "default" = _HcB8OMl2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

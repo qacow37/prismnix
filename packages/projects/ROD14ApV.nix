@@ -13,6 +13,7 @@ let
         "minecraft-1.19.2" = _LS7ML9ue;
         "minecraft-1.19.4" = _LS7ML9ue;
         "minecraft-1.20.4" = _LS7ML9ue;
+        "pkg-1.0" = _LS7ML9ue;
         "default" = _LS7ML9ue;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "WeEI1VNb" = _WeEI1VNb;
         "forge-1.20.1" = _WeEI1VNb;
+        "pkg-1.3.0" = _WeEI1VNb;
         "default" = _WeEI1VNb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

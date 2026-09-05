@@ -27,6 +27,10 @@ let
         "K036Vygc" = _K036Vygc;
         "7cCkOOgr" = _7cCkOOgr;
         "fabric-1.19.3" = _7cCkOOgr;
+        "pkg-1.0.1" = _cTlBEcKi;
+        "pkg-1.0.2" = _FrQRrJtH;
+        "pkg-1.0.3" = _K036Vygc;
+        "pkg-1.0.4" = _7cCkOOgr;
         "default" = _7cCkOOgr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

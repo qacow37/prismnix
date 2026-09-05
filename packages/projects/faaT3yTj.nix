@@ -15,6 +15,8 @@ let
         "gDXPG4l2" = _gDXPG4l2;
         "BSOINkBe" = _BSOINkBe;
         "forge-1.20.1" = _BSOINkBe;
+        "pkg-1.0.0" = _gDXPG4l2;
+        "pkg-1.0.1" = _BSOINkBe;
         "default" = _BSOINkBe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

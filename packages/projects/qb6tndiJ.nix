@@ -16,6 +16,8 @@ let
         "GKcrOQRy" = _GKcrOQRy;
         "forge-1.20.1" = _tB08ui56;
         "neoforge-1.21.1" = _GKcrOQRy;
+        "pkg-1.0.0-b31-beta" = _tB08ui56;
+        "pkg-2.0.0-b29-beta" = _GKcrOQRy;
         "default" = _GKcrOQRy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

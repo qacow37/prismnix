@@ -21,6 +21,9 @@ let
         "l7vZS7BG" = _l7vZS7BG;
         "RTvkQ5fh" = _RTvkQ5fh;
         "forge-1.19.2" = _RTvkQ5fh;
+        "pkg-1.3.0-1.19.2" = _7T8sD5CP;
+        "pkg-1.3.1-1.19.2" = _l7vZS7BG;
+        "pkg-1.3.3-1.19.2" = _RTvkQ5fh;
         "default" = _RTvkQ5fh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

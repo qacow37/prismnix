@@ -16,6 +16,7 @@ let
         "htb4pW8M" = _htb4pW8M;
         "fabric-1.19.2" = _aUCAIWcu;
         "forge-1.19.2" = _htb4pW8M;
+        "pkg-1.0.2" = _htb4pW8M;
         "default" = _htb4pW8M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

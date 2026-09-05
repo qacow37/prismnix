@@ -17,6 +17,8 @@ let
         "datapack-1.20.1" = _oUOoah5n;
         "fabric-1.20.1" = _NKDBRBXO;
         "forge-1.20.1" = _NKDBRBXO;
+        "pkg-1.0" = _oUOoah5n;
+        "pkg-1.0+mod" = _NKDBRBXO;
         "default" = _NKDBRBXO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

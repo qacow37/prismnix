@@ -44,6 +44,7 @@ let
         "minecraft-1.21.2" = _uY600uWm;
         "minecraft-1.21.3" = _uY600uWm;
         "minecraft-1.21.4" = _uY600uWm;
+        "pkg-1.0" = _uY600uWm;
         "default" = _uY600uWm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

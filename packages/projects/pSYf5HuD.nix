@@ -17,6 +17,7 @@ let
         "minecraft-1.19" = _Hfb88Yxs;
         "minecraft-1.20" = _Hfb88Yxs;
         "minecraft-1.21" = _Hfb88Yxs;
+        "pkg-Eerie" = _Hfb88Yxs;
         "default" = _Hfb88Yxs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

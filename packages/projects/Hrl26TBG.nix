@@ -18,6 +18,7 @@ let
         "minecraft-1.21" = _YWC8iIyl;
         "minecraft-1.21.1" = _YWC8iIyl;
         "minecraft-24w33a" = _YWC8iIyl;
+        "pkg-v1.0" = _YWC8iIyl;
         "default" = _YWC8iIyl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -13,6 +13,7 @@ let
         "minecraft-1.21.2" = _BoLoagdp;
         "minecraft-1.21.3" = _BoLoagdp;
         "minecraft-1.21.4" = _BoLoagdp;
+        "pkg-1" = _BoLoagdp;
         "default" = _BoLoagdp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

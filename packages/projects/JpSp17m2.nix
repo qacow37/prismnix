@@ -10,6 +10,7 @@ let
         "WMMLuNbI" = _WMMLuNbI;
         "minecraft-1.8.9" = _WMMLuNbI;
         "minecraft-1.19" = _WMMLuNbI;
+        "pkg-1.0" = _WMMLuNbI;
         "default" = _WMMLuNbI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

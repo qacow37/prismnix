@@ -10,6 +10,7 @@ let
         "g4aoBppG" = _g4aoBppG;
         "forge-1.8.9" = _g4aoBppG;
         "forge-1.12.2" = _g4aoBppG;
+        "pkg-2.2.0" = _g4aoBppG;
         "default" = _g4aoBppG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -80,6 +80,8 @@ let
         "purpur-1.21.9" = _Qxlozgcx;
         "purpur-1.21.10" = _Qxlozgcx;
         "purpur-1.21.11" = _Qxlozgcx;
+        "pkg-1.0" = _ddoSNUeG;
+        "pkg-1.1" = _Qxlozgcx;
         "default" = _Qxlozgcx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

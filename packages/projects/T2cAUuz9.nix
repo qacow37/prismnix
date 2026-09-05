@@ -9,6 +9,7 @@ let
     in {
         "oga8kib4" = _oga8kib4;
         "legacy-fabric-1.6.4" = _oga8kib4;
+        "pkg-10.1.0" = _oga8kib4;
         "default" = _oga8kib4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

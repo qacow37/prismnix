@@ -28,6 +28,10 @@ let
         "I38hyWv7" = _I38hyWv7;
         "quilt-1.19.2" = _fMWBGEpm;
         "quilt-1.20.1" = _I38hyWv7;
+        "pkg-0.1.40" = _kXogPDZR;
+        "pkg-0.1.45" = _enscIOqi;
+        "pkg-0.1.46" = _fMWBGEpm;
+        "pkg-0.2.60" = _I38hyWv7;
         "default" = _I38hyWv7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

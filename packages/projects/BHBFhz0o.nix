@@ -27,6 +27,10 @@ let
         "dOKsmpAd" = _dOKsmpAd;
         "UwHnVL8Z" = _UwHnVL8Z;
         "forge-1.19.2" = _UwHnVL8Z;
+        "pkg-1.19.2-v0.1" = _hasksgw8;
+        "pkg-1.19.2-v0.2" = _GAfuubL6;
+        "pkg-0.3" = _dOKsmpAd;
+        "pkg-0.4" = _UwHnVL8Z;
         "default" = _UwHnVL8Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

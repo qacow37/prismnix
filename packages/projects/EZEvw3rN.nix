@@ -39,6 +39,12 @@ let
         "TxTRt42h" = _TxTRt42h;
         "JJWBLsUH" = _JJWBLsUH;
         "forge-1.20.1" = _JJWBLsUH;
+        "pkg-1.0" = _COemjRga;
+        "pkg-1.1" = _bsF5i6xn;
+        "pkg-1.2" = _CQDdWAqY;
+        "pkg-1.3" = _d0yzD9dN;
+        "pkg-1.4" = _TxTRt42h;
+        "pkg-1.5" = _JJWBLsUH;
         "default" = _JJWBLsUH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

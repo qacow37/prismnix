@@ -28,6 +28,8 @@ let
         "FBZspAP8" = _FBZspAP8;
         "fabric-1.20.1" = _Pmackuj7;
         "forge-1.20.1" = _FBZspAP8;
+        "pkg-0.3.2" = _u4tqBzDB;
+        "pkg-0.3.3" = _FBZspAP8;
         "default" = _FBZspAP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

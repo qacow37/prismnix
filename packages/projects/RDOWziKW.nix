@@ -21,6 +21,9 @@ let
         "TrhcDW8T" = _TrhcDW8T;
         "TOo6821K" = _TOo6821K;
         "neoforge-1.21.1" = _TOo6821K;
+        "pkg-1.0.0" = _jPUiTo1p;
+        "pkg-1.1.1" = _TrhcDW8T;
+        "pkg-2.0" = _TOo6821K;
         "default" = _TOo6821K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "OD6ahVpf" = _OD6ahVpf;
         "2zeH4y87" = _2zeH4y87;
         "neoforge-1.21.1" = _2zeH4y87;
+        "pkg-1.0.0" = _OD6ahVpf;
+        "pkg-1.1.0" = _2zeH4y87;
         "default" = _2zeH4y87;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

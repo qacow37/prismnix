@@ -9,6 +9,7 @@ let
     in {
         "NESZjCeo" = _NESZjCeo;
         "forge-1.20.1" = _NESZjCeo;
+        "pkg-1.0.0" = _NESZjCeo;
         "default" = _NESZjCeo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

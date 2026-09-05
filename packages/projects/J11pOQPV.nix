@@ -92,6 +92,8 @@ let
         "spigot-1.19" = _gEPLHRg4;
         "spigot-1.19.1" = _gEPLHRg4;
         "spigot-1.19.2" = _gEPLHRg4;
+        "pkg-1.2.0" = _djUwPIXV;
+        "pkg-1.2.1" = _gEPLHRg4;
         "default" = _gEPLHRg4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

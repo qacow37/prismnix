@@ -10,6 +10,7 @@ let
         "y9D5ULC5" = _y9D5ULC5;
         "fabric-1.16.4" = _y9D5ULC5;
         "fabric-1.16.5" = _y9D5ULC5;
+        "pkg-1.0.0" = _y9D5ULC5;
         "default" = _y9D5ULC5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

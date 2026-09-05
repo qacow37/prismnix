@@ -15,6 +15,8 @@ let
         "p4fo1whJ" = _p4fo1whJ;
         "grSUz1dI" = _grSUz1dI;
         "minecraft-1.21.5" = _grSUz1dI;
+        "pkg-1.0.0" = _p4fo1whJ;
+        "pkg-1.0.1" = _grSUz1dI;
         "default" = _grSUz1dI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

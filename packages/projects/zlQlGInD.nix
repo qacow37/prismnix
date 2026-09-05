@@ -40,6 +40,7 @@ let
         "minecraft-1.20.2" = _VINS2CeT;
         "minecraft-1.20.3" = _VINS2CeT;
         "minecraft-1.20.4" = _VINS2CeT;
+        "pkg-1" = _VINS2CeT;
         "default" = _VINS2CeT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

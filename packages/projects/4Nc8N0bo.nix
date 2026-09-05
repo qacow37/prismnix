@@ -15,6 +15,8 @@ let
         "mkfSgscx" = _mkfSgscx;
         "HR5pKQeo" = _HR5pKQeo;
         "forge-1.20.1" = _HR5pKQeo;
+        "pkg-0.0.1" = _mkfSgscx;
+        "pkg-1.0.0" = _HR5pKQeo;
         "default" = _HR5pKQeo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -52,6 +52,10 @@ let
         "wPXK22Iv" = _wPXK22Iv;
         "fabric-1.20.4" = _wPXK22Iv;
         "datapack-1.20.4" = _Rqq10qOY;
+        "pkg-1.0.0" = _ixl64cRy;
+        "pkg-1.1.0" = _oVYIGcCu;
+        "pkg-1.1.1" = _SHuB7Xyi;
+        "pkg-1.1.2" = _wPXK22Iv;
         "default" = _wPXK22Iv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

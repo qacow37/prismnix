@@ -9,6 +9,7 @@ let
     in {
         "F4axIpDj" = _F4axIpDj;
         "neoforge-1.21.1" = _F4axIpDj;
+        "pkg-1.0.0" = _F4axIpDj;
         "default" = _F4axIpDj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

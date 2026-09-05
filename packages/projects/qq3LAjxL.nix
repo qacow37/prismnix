@@ -29,6 +29,8 @@ let
         "minecraft-1.16" = _VBtG6DL3;
         "minecraft-1.21" = _VBtG6DL3;
         "minecraft-1.19" = _VBtG6DL3;
+        "pkg-1.0" = _4tFaTYTm;
+        "pkg-1.1" = _VBtG6DL3;
         "default" = _VBtG6DL3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "REOAlRLD" = _REOAlRLD;
         "minecraft-1.20" = _REOAlRLD;
         "minecraft-1.20.1" = _REOAlRLD;
+        "pkg-1.0.0" = _REOAlRLD;
         "default" = _REOAlRLD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

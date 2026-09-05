@@ -94,6 +94,14 @@ let
         "pK5y76Qg" = _pK5y76Qg;
         "forge-1.20.1" = _XymzSHL9;
         "neoforge-1.21.1" = _pK5y76Qg;
+        "pkg-1.0.0" = _7zPWa1yS;
+        "pkg-1.0.1-india" = _lUzkmkUO;
+        "pkg-1.0.2-germany" = _MmstMy4A;
+        "pkg-1.0.3-china" = _LurfVkRz;
+        "pkg-1.0.4-south-korea" = _pIxdvvQl;
+        "pkg-1.0.5-sweden" = _EO3RaLdO;
+        "pkg-1.0.6-usa-christmas" = _5KenE9JY;
+        "pkg-1.0.7-korea-lunar" = _pK5y76Qg;
         "default" = _pK5y76Qg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

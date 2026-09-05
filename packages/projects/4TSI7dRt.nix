@@ -17,6 +17,8 @@ let
         "fabric-1.19" = _taoK2TUO;
         "fabric-1.19.1" = _taoK2TUO;
         "fabric-1.19.2" = _taoK2TUO;
+        "pkg-0.1.0" = _xB5LMqZW;
+        "pkg-0.1.1" = _taoK2TUO;
         "default" = _taoK2TUO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

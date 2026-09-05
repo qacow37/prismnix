@@ -9,6 +9,7 @@ let
     in {
         "gAPE48mZ" = _gAPE48mZ;
         "forge-1.7.10" = _gAPE48mZ;
+        "pkg-1.0" = _gAPE48mZ;
         "default" = _gAPE48mZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

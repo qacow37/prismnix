@@ -16,6 +16,8 @@ let
         "Aw06oOAJ" = _Aw06oOAJ;
         "forge-1.20.1" = _7b2xGPUD;
         "neoforge-1.21.1" = _Aw06oOAJ;
+        "pkg-1.3" = _7b2xGPUD;
+        "pkg-1.4" = _Aw06oOAJ;
         "default" = _Aw06oOAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

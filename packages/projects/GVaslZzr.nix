@@ -21,6 +21,9 @@ let
         "VXkCSRi0" = _VXkCSRi0;
         "g40IR9dJ" = _g40IR9dJ;
         "fabric-1.21.11" = _g40IR9dJ;
+        "pkg-1.0.0" = _v9wfYXPW;
+        "pkg-1.0.1" = _VXkCSRi0;
+        "pkg-1.0.2" = _g40IR9dJ;
         "default" = _g40IR9dJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

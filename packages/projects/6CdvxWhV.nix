@@ -52,6 +52,7 @@ let
         "optifine-26.1" = _KkG4Aviu;
         "optifine-26.1.1" = _KkG4Aviu;
         "optifine-26.1.2" = _KkG4Aviu;
+        "pkg-1.0" = _KkG4Aviu;
         "default" = _KkG4Aviu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

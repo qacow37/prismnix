@@ -16,6 +16,7 @@ let
         "legacy-fabric-1.8.7" = _hp3oZxHx;
         "legacy-fabric-1.8.8" = _hp3oZxHx;
         "legacy-fabric-1.8.9" = _hp3oZxHx;
+        "pkg-1.0.0+1.8.2-1.8.9" = _hp3oZxHx;
         "default" = _hp3oZxHx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

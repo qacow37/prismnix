@@ -51,6 +51,12 @@ let
         "TNTHdexN" = _TNTHdexN;
         "kGDFg5YW" = _kGDFg5YW;
         "forge-1.16.5" = _kGDFg5YW;
+        "pkg-1.0.0" = _G9bNT00a;
+        "pkg-1.1.0" = _a6Vgvhsr;
+        "pkg-1.1.1" = _CNytj4FE;
+        "pkg-1.1.2" = _MocXtDbT;
+        "pkg-1.1.3" = _TNTHdexN;
+        "pkg-1.1.4" = _kGDFg5YW;
         "default" = _kGDFg5YW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

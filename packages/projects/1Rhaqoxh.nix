@@ -17,6 +17,8 @@ let
         "fabric-1.20.6" = _NfJ4pyla;
         "fabric-1.21" = _NfJ4pyla;
         "fabric-1.21.4" = _PTNPjeM6;
+        "pkg-1.0" = _NfJ4pyla;
+        "pkg-1.1-SNAPSHOT" = _PTNPjeM6;
         "default" = _PTNPjeM6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

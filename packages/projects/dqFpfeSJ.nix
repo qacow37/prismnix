@@ -28,6 +28,8 @@ let
         "TVq0PLsB" = _TVq0PLsB;
         "forge-1.19.2" = _QBvPDY49;
         "forge-1.20.1" = _TVq0PLsB;
+        "pkg-3.0.0" = _SMuZ6W8Z;
+        "pkg-3.0.1" = _TVq0PLsB;
         "default" = _TVq0PLsB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

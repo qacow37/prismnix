@@ -44,6 +44,7 @@ let
         "minecraft-25w31a" = _Byc9pBoD;
         "minecraft-25w32a" = _Byc9pBoD;
         "minecraft-25w33a" = _Byc9pBoD;
+        "pkg-1.0" = _Byc9pBoD;
         "default" = _Byc9pBoD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

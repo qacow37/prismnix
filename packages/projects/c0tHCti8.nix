@@ -25,6 +25,7 @@ let
         "minecraft-1.21.9" = _s3bb1SUt;
         "minecraft-1.21.10" = _s3bb1SUt;
         "minecraft-1.21.11" = _s3bb1SUt;
+        "pkg-2.5" = _s3bb1SUt;
         "default" = _s3bb1SUt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

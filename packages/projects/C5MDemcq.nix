@@ -16,6 +16,8 @@ let
         "nAg6z9EI" = _nAg6z9EI;
         "fabric-1.20.1" = _GSBLoCGk;
         "fabric-1.21.1" = _nAg6z9EI;
+        "pkg-1.0.0" = _GSBLoCGk;
+        "pkg-1.1.0" = _nAg6z9EI;
         "default" = _nAg6z9EI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

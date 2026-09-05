@@ -98,6 +98,7 @@ let
         "minecraft-1.21.9" = _wtPAcHWF;
         "minecraft-1.21.10-rc1" = _wtPAcHWF;
         "minecraft-1.21.10" = _wtPAcHWF;
+        "pkg-0.1" = _wtPAcHWF;
         "default" = _wtPAcHWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

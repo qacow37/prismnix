@@ -21,6 +21,9 @@ let
         "VMm4hPaQ" = _VMm4hPaQ;
         "jTIZDGBE" = _jTIZDGBE;
         "fabric-1.20.1" = _jTIZDGBE;
+        "pkg-0.1.0" = _zX4cIYKF;
+        "pkg-0.2.0" = _VMm4hPaQ;
+        "pkg-0.2.1" = _jTIZDGBE;
         "default" = _jTIZDGBE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "pVHS2lTc" = _pVHS2lTc;
         "NOeDEseI" = _NOeDEseI;
         "neoforge-1.21.1" = _NOeDEseI;
+        "pkg-1.0.0" = _Qtu69g6M;
+        "pkg-1.0.1" = _pVHS2lTc;
+        "pkg-1.0.2" = _NOeDEseI;
         "default" = _NOeDEseI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

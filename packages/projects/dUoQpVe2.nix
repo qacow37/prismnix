@@ -16,6 +16,8 @@ let
         "PEXL8CwF" = _PEXL8CwF;
         "fabric-1.20.1" = _PEXL8CwF;
         "forge-1.20.1" = _PEXL8CwF;
+        "pkg-1.0" = _td0NBBjD;
+        "pkg-1.1" = _PEXL8CwF;
         "default" = _PEXL8CwF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "QUM9fJg3" = _QUM9fJg3;
         "fabric-1.20" = _QUM9fJg3;
         "fabric-1.20.1" = _QUM9fJg3;
+        "pkg-3.4.0" = _QUM9fJg3;
         "default" = _QUM9fJg3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

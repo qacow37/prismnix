@@ -9,6 +9,7 @@ let
     in {
         "SEATAUZx" = _SEATAUZx;
         "minecraft-1.20.1" = _SEATAUZx;
+        "pkg-1.0" = _SEATAUZx;
         "default" = _SEATAUZx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

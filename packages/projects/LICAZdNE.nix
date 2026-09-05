@@ -18,6 +18,7 @@ let
         "paper-1.21.7" = _VdklJlfO;
         "paper-1.21.8" = _VdklJlfO;
         "paper-1.21.9" = _VdklJlfO;
+        "pkg-1.0" = _VdklJlfO;
         "default" = _VdklJlfO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

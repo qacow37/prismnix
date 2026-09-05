@@ -109,6 +109,7 @@ let
         "minecraft-26.1" = _xdoX2pMw;
         "minecraft-26.1.1" = _xdoX2pMw;
         "minecraft-26.1.2" = _xdoX2pMw;
+        "pkg-282" = _xdoX2pMw;
         "default" = _xdoX2pMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

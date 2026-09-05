@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _R80E6QHi;
         "forge-1.20.5" = _R80E6QHi;
         "forge-1.20.6" = _R80E6QHi;
+        "pkg-1.0.0" = _R80E6QHi;
         "default" = _R80E6QHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

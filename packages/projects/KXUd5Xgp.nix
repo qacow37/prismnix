@@ -21,6 +21,9 @@ let
         "pAWFTpAM" = _pAWFTpAM;
         "XTIjRTs0" = _XTIjRTs0;
         "forge-1.18.2" = _XTIjRTs0;
+        "pkg-1.18.2-1.0.0-release" = _i1XQOg1j;
+        "pkg-1.18.2-1.0.1-release" = _pAWFTpAM;
+        "pkg-1.18.2-1.0.2-release" = _XTIjRTs0;
         "default" = _XTIjRTs0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

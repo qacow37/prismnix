@@ -60,6 +60,7 @@ let
         "minecraft-26.1" = _7hpgWzCt;
         "minecraft-26.1.1" = _7hpgWzCt;
         "minecraft-26.1.2" = _7hpgWzCt;
+        "pkg-BetterBooks1.0" = _7hpgWzCt;
         "default" = _7hpgWzCt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

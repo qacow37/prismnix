@@ -9,6 +9,7 @@ let
     in {
         "VAgecARb" = _VAgecARb;
         "minecraft-1.20.4" = _VAgecARb;
+        "pkg-1.20.4" = _VAgecARb;
         "default" = _VAgecARb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

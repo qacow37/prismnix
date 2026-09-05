@@ -16,6 +16,8 @@ let
         "mgjrzgAM" = _mgjrzgAM;
         "forge-1.20.1" = _mgjrzgAM;
         "neoforge-1.20.1" = _mgjrzgAM;
+        "pkg-20.1.2" = _NIVCX9p6;
+        "pkg-20.1.3" = _mgjrzgAM;
         "default" = _mgjrzgAM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

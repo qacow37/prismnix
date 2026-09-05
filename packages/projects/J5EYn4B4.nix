@@ -16,6 +16,8 @@ let
         "SyJRU75W" = _SyJRU75W;
         "minecraft-1.20.1" = _SyJRU75W;
         "minecraft-1.21.1" = _SyJRU75W;
+        "pkg-1.1" = _OEudVi00;
+        "pkg-1.2" = _SyJRU75W;
         "default" = _SyJRU75W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

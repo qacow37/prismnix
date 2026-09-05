@@ -9,6 +9,7 @@ let
     in {
         "TCTetYHz" = _TCTetYHz;
         "neoforge-1.21.1" = _TCTetYHz;
+        "pkg-1.0.0" = _TCTetYHz;
         "default" = _TCTetYHz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -19,6 +19,8 @@ let
         "neoforge-1.21.2" = _DGcgowF3;
         "neoforge-1.21.3" = _DGcgowF3;
         "neoforge-1.21.4" = _DGcgowF3;
+        "pkg-1.0" = _gevxNQeq;
+        "pkg-2.0.0.21.1" = _DGcgowF3;
         "default" = _DGcgowF3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

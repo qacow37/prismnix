@@ -16,6 +16,8 @@ let
         "PmdSdHhm" = _PmdSdHhm;
         "fabric-1.20.2" = _Z9f9J3jF;
         "fabric-1.20.4" = _PmdSdHhm;
+        "pkg-1.0" = _Z9f9J3jF;
+        "pkg-2.0" = _PmdSdHhm;
         "default" = _PmdSdHhm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

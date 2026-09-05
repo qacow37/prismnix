@@ -40,6 +40,8 @@ let
         "bukkit-1.20.5" = _rUMsHDCO;
         "bukkit-1.20.6" = _rUMsHDCO;
         "bukkit-1.21" = _rUMsHDCO;
+        "pkg-1.3" = _GvjPrBwA;
+        "pkg-1.4" = _rUMsHDCO;
         "default" = _rUMsHDCO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

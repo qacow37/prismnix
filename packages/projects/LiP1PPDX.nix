@@ -51,6 +51,14 @@ let
         "PelBnx8T" = _PelBnx8T;
         "Mz7gR1sd" = _Mz7gR1sd;
         "neoforge-1.21.1" = _Mz7gR1sd;
+        "pkg-0.1.0" = _gM8AR9PP;
+        "pkg-0.1.1" = _6FKgDa6p;
+        "pkg-0.1.2" = _ZkiBWD6w;
+        "pkg-0.1.3" = _rjZsmO3d;
+        "pkg-0.2.0" = _8nx4vvYV;
+        "pkg-0.2.1" = _AIyKJoPi;
+        "pkg-0.3.0" = _PelBnx8T;
+        "pkg-0.3.1" = _Mz7gR1sd;
         "default" = _Mz7gR1sd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

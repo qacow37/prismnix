@@ -21,6 +21,9 @@ let
         "RovCRBEV" = _RovCRBEV;
         "JUxquaWx" = _JUxquaWx;
         "forge-1.20.1" = _JUxquaWx;
+        "pkg-1.1.0" = _tYCVSEt3;
+        "pkg-1.2.0" = _RovCRBEV;
+        "pkg-1.2.1" = _JUxquaWx;
         "default" = _JUxquaWx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

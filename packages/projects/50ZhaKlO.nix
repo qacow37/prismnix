@@ -40,6 +40,8 @@ let
         "HYak6KS7" = _HYak6KS7;
         "fabric-1.20.1" = _HYak6KS7;
         "forge-1.20.1" = _aSNmRGpK;
+        "pkg-1.1.0" = _vhDKEGbz;
+        "pkg-1.1.1" = _HYak6KS7;
         "default" = _HYak6KS7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

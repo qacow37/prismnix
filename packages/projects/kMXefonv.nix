@@ -15,6 +15,8 @@ let
         "ubNqPtjo" = _ubNqPtjo;
         "4BeUlkDT" = _4BeUlkDT;
         "forge-1.8.9" = _4BeUlkDT;
+        "pkg-3.0.39" = _ubNqPtjo;
+        "pkg-2.1.0" = _4BeUlkDT;
         "default" = _4BeUlkDT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

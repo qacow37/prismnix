@@ -47,6 +47,8 @@ let
         "minecraft-1.7.6" = _oHbWmGIO;
         "minecraft-1.7.7" = _oHbWmGIO;
         "minecraft-1.7.8" = _oHbWmGIO;
+        "pkg-1.1" = _elJh0Miw;
+        "pkg-1.2" = _oHbWmGIO;
         "default" = _oHbWmGIO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "wc1qDSFn" = _wc1qDSFn;
         "minecraft-24w45a" = _eXPkjf0V;
         "minecraft-1.21.4" = _wc1qDSFn;
+        "pkg-1.0" = _eXPkjf0V;
+        "pkg-1.1" = _wc1qDSFn;
         "default" = _wc1qDSFn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

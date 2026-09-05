@@ -9,6 +9,7 @@ let
     in {
         "92gMB5Jx" = _92gMB5Jx;
         "fabric-1.21.1" = _92gMB5Jx;
+        "pkg-1.0.0" = _92gMB5Jx;
         "default" = _92gMB5Jx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -50,6 +50,7 @@ let
         "paper-1.21.10" = _DJNZB8sy;
         "paper-1.21.11" = _DJNZB8sy;
         "paper-26.1" = _DJNZB8sy;
+        "pkg-1.0-SNAPSHOT" = _DJNZB8sy;
         "default" = _DJNZB8sy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

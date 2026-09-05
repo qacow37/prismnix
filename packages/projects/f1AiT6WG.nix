@@ -20,6 +20,7 @@ let
         "minecraft-1.21.9" = _WNWt6itu;
         "minecraft-1.21.10" = _WNWt6itu;
         "minecraft-1.21.11" = _WNWt6itu;
+        "pkg-1.0" = _WNWt6itu;
         "default" = _WNWt6itu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

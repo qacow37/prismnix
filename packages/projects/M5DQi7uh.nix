@@ -15,6 +15,7 @@ let
         "DnNl8CTr" = _DnNl8CTr;
         "YDOQKXzd" = _YDOQKXzd;
         "forge-1.20.1" = _YDOQKXzd;
+        "pkg-1.0.0" = _YDOQKXzd;
         "default" = _YDOQKXzd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "No2dAjz1" = _No2dAjz1;
         "fabric-1.15.1" = _6Bal6DbT;
         "fabric-1.14.4" = _No2dAjz1;
+        "pkg-1.1.0" = _6Bal6DbT;
+        "pkg-1.0.0" = _No2dAjz1;
         "default" = _No2dAjz1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

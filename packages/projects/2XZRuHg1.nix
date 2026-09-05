@@ -10,6 +10,7 @@ let
         "yxIVMPV4" = _yxIVMPV4;
         "minecraft-1.20.1" = _yxIVMPV4;
         "minecraft-1.21.1" = _yxIVMPV4;
+        "pkg-1.0.0" = _yxIVMPV4;
         "default" = _yxIVMPV4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

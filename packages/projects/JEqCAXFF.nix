@@ -117,6 +117,24 @@ let
         "forge-1.21.4" = _Y2P3q7m0;
         "neoforge-1.21.4" = _Y2P3q7m0;
         "quilt-1.21.4" = _Y2P3q7m0;
+        "pkg-v0.1.0-alpha+1.21.3" = _DAfkyCED;
+        "pkg-v0.1.1-alpha+1.21.4" = _Sq77OFYw;
+        "pkg-v0.1.2-alpha+1.21.4" = _sA1YWTTV;
+        "pkg-v0.1.3-alpha+1.21.4" = _wLjhhjo0;
+        "pkg-v0.2.0-alpha+1.21.4" = _S05q23c0;
+        "pkg-v0.2.0-alpha+1.21.4+mod" = _71VViA4z;
+        "pkg-v1.0.0+1.21.4" = _QYedQWhg;
+        "pkg-v1.0.1+1.21.4" = _UtjIOxiJ;
+        "pkg-v1.0.2+1.21.4" = _iPgdviw2;
+        "pkg-v1.0.2+1.21.4+mod" = _pH5NVfE1;
+        "pkg-v1.0.3+1.21.4" = _6j1dfK3x;
+        "pkg-v1.0.4+1.21.4" = _CxiY3ubr;
+        "pkg-v1.0.5+1.21.4" = _fm2A3kNB;
+        "pkg-v1.0.5+1.21.4+mod" = _7F6nszyN;
+        "pkg-v1.0.6+1.21.4" = _UOPgnKtI;
+        "pkg-v1.0.6+1.21.4+mod" = _IEqr0mGw;
+        "pkg-v1.0.7+1.21.4" = _Up9h0Oub;
+        "pkg-v1.0.7+1.21.4+mod" = _Y2P3q7m0;
         "default" = _Y2P3q7m0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -24,6 +24,7 @@ let
         "forge-1.19.4" = _OhiTWWEN;
         "forge-1.20.1" = _IrrOAoLs;
         "neoforge-1.20.1" = _IrrOAoLs;
+        "pkg-2.0" = _IrrOAoLs;
         "default" = _IrrOAoLs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

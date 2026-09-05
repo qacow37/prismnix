@@ -10,6 +10,7 @@ let
         "puYuSlVz" = _puYuSlVz;
         "forge-1.20" = _puYuSlVz;
         "forge-1.20.1" = _puYuSlVz;
+        "pkg-1.20.1-1.0.0" = _puYuSlVz;
         "default" = _puYuSlVz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

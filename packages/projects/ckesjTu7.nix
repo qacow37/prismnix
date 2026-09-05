@@ -16,6 +16,7 @@ let
         "8p44CL48" = _8p44CL48;
         "forge-1.20.1" = _E7vJGiHF;
         "fabric-1.20.1" = _8p44CL48;
+        "pkg-1.0.0" = _8p44CL48;
         "default" = _8p44CL48;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

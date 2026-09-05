@@ -9,6 +9,7 @@ let
     in {
         "ruaEb2QB" = _ruaEb2QB;
         "fabric-1.21.1" = _ruaEb2QB;
+        "pkg-1" = _ruaEb2QB;
         "default" = _ruaEb2QB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

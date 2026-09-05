@@ -15,6 +15,8 @@ let
         "g3ZLr9Vb" = _g3ZLr9Vb;
         "XMvmeIjv" = _XMvmeIjv;
         "forge-1.18.2" = _XMvmeIjv;
+        "pkg-2.0.0-alpha.2+1.18.2" = _g3ZLr9Vb;
+        "pkg-2.0.0-alpha.4+1.18.2" = _XMvmeIjv;
         "default" = _XMvmeIjv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

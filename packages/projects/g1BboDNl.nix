@@ -16,6 +16,8 @@ let
         "quylAxP6" = _quylAxP6;
         "neoforge-1.21" = _u9EEcrEq;
         "neoforge-1.21.1" = _quylAxP6;
+        "pkg-3.1.2-neo-0+1.21.1" = _u9EEcrEq;
+        "pkg-3.1.4-neo-0+1.21.1" = _quylAxP6;
         "default" = _quylAxP6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

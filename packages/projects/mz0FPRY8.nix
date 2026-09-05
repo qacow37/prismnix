@@ -50,6 +50,10 @@ let
         "minecraft-23w43a" = _HvFzfpud;
         "minecraft-23w43b" = _HvFzfpud;
         "minecraft-23w44a" = _HvFzfpud;
+        "pkg-1" = _vsRkbsEh;
+        "pkg-2" = _buq38RC9;
+        "pkg-3" = _HcldDaK1;
+        "pkg-4" = _HvFzfpud;
         "default" = _HvFzfpud;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

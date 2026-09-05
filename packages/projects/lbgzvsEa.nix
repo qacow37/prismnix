@@ -9,6 +9,7 @@ let
     in {
         "QEQezPSp" = _QEQezPSp;
         "fabric-1.21.11" = _QEQezPSp;
+        "pkg-1.0.0" = _QEQezPSp;
         "default" = _QEQezPSp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

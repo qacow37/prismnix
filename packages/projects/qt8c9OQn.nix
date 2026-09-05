@@ -911,6 +911,7 @@ let
         "minecraft-26.3-snapshot-3" = _UPtvO2VH;
         "minecraft-26.3-snapshot-4" = _UPtvO2VH;
         "minecraft-26.3-snapshot-5" = _UPtvO2VH;
+        "pkg-1.0" = _UPtvO2VH;
         "default" = _UPtvO2VH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

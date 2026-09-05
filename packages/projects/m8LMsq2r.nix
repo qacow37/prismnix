@@ -90,6 +90,13 @@ let
         "purpur-26.1.1" = _cmp0X30h;
         "purpur-26.1.2" = _cmp0X30h;
         "purpur-26.2" = _cmp0X30h;
+        "pkg-1.0" = _8053ULHc;
+        "pkg-1.0.1" = _vAJuOTVT;
+        "pkg-1.0.2" = _XObeQFnY;
+        "pkg-1.0.3" = _FzB1zr4O;
+        "pkg-1.0.4" = _tT4KeiMT;
+        "pkg-1.0.5" = _FMv2pK51;
+        "pkg-1.0.6" = _cmp0X30h;
         "default" = _cmp0X30h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

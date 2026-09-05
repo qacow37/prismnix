@@ -11,6 +11,7 @@ let
         "fabric-1.20" = _XJlVrCe1;
         "fabric-1.20.1" = _XJlVrCe1;
         "fabric-1.20.2" = _XJlVrCe1;
+        "pkg-v1.0.0" = _XJlVrCe1;
         "default" = _XJlVrCe1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "SdSTi2ie" = _SdSTi2ie;
         "fabric-1.21.1" = _SdSTi2ie;
         "neoforge-1.21.1" = _3VT1i1B2;
+        "pkg-0.1.0" = _t3Q3vacn;
+        "pkg-0.1.1" = _SdSTi2ie;
         "default" = _SdSTi2ie;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

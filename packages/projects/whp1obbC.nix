@@ -75,6 +75,8 @@ let
         "neoforge-1.20.2" = _WajjEwSF;
         "neoforge-1.20.3" = _WajjEwSF;
         "neoforge-1.20.4" = _WajjEwSF;
+        "pkg-1.0.0" = _dHZFaC9x;
+        "pkg-1.0.0+mod" = _WajjEwSF;
         "default" = _WajjEwSF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

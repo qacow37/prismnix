@@ -52,6 +52,12 @@ let
         "LsY90nqb" = _LsY90nqb;
         "fabric-1.20.1" = _cFHyE9lF;
         "forge-1.20.1" = _LsY90nqb;
+        "pkg-1.0.0" = _Mhfl4uVS;
+        "pkg-1.0.1" = _gia9aGUI;
+        "pkg-1.0.2" = _Ab72BGaQ;
+        "pkg-1.1.0" = _GEMYgmf8;
+        "pkg-1.2.0" = _MPo1b9iz;
+        "pkg-1.3.0" = _LsY90nqb;
         "default" = _LsY90nqb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

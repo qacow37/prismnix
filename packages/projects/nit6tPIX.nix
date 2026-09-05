@@ -9,6 +9,7 @@ let
     in {
         "B8xtLTcs" = _B8xtLTcs;
         "minecraft-1.20.4" = _B8xtLTcs;
+        "pkg-1" = _B8xtLTcs;
         "default" = _B8xtLTcs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

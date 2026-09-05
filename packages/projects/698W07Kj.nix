@@ -16,6 +16,7 @@ let
         "Ncpfodmn" = _Ncpfodmn;
         "fabric-1.21.11" = _Ey8gcxdj;
         "fabric-1.21.8" = _Ncpfodmn;
+        "pkg-1.0.0" = _Ncpfodmn;
         "default" = _Ncpfodmn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

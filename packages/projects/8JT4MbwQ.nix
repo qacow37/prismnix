@@ -15,6 +15,8 @@ let
         "Orp863hs" = _Orp863hs;
         "fgNx725w" = _fgNx725w;
         "fabric-1.20.1" = _fgNx725w;
+        "pkg-1.0" = _Orp863hs;
+        "pkg-1.1" = _fgNx725w;
         "default" = _fgNx725w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

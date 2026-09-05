@@ -20,6 +20,8 @@ let
         "fabric-1.20.4" = _VRCoJ68a;
         "fabric-1.21" = _gWHmjqsm;
         "fabric-1.21.1" = _gWHmjqsm;
+        "pkg-1.0-1.20.1" = _VRCoJ68a;
+        "pkg-1.0-1.21" = _gWHmjqsm;
         "default" = _gWHmjqsm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

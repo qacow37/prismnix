@@ -34,6 +34,11 @@ let
         "Ora4lxcp" = _Ora4lxcp;
         "forge-1.20.1" = _Ora4lxcp;
         "forge-1.12.2" = _5XlbSkck;
+        "pkg-1.0.0-b400-release" = _34zUr1lG;
+        "pkg-1.1.0-b412-release" = _nyvHBlza;
+        "pkg-1.0.17-release" = _Dc3OEs8T;
+        "pkg-1.0.21-release" = _5XlbSkck;
+        "pkg-1.1.0-b420-release" = _Ora4lxcp;
         "default" = _Ora4lxcp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

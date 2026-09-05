@@ -9,6 +9,7 @@ let
     in {
         "oSHAELLk" = _oSHAELLk;
         "forge-1.20.1" = _oSHAELLk;
+        "pkg-1.3.1" = _oSHAELLk;
         "default" = _oSHAELLk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

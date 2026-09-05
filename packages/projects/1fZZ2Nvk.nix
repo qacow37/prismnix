@@ -33,6 +33,11 @@ let
         "T0ibxPTf" = _T0ibxPTf;
         "LZ7Et41P" = _LZ7Et41P;
         "forge-1.20.1" = _LZ7Et41P;
+        "pkg-2025" = _qu9lu7xC;
+        "pkg-2025A" = _aP4Tys2o;
+        "pkg-2phase" = _6C0G7ZJY;
+        "pkg-2_phase" = _T0ibxPTf;
+        "pkg-3phase2025a" = _LZ7Et41P;
         "default" = _LZ7Et41P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

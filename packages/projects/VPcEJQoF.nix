@@ -9,6 +9,7 @@ let
     in {
         "lCTOgDkt" = _lCTOgDkt;
         "fabric-1.21.1" = _lCTOgDkt;
+        "pkg-1.0.0" = _lCTOgDkt;
         "default" = _lCTOgDkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

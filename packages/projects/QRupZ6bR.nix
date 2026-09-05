@@ -28,6 +28,7 @@ let
         "minecraft-1.20.2" = _Zo7TLEcO;
         "minecraft-1.20.3" = _Zo7TLEcO;
         "minecraft-1.20.4" = _Zo7TLEcO;
+        "pkg-1.21.1" = _Zo7TLEcO;
         "default" = _Zo7TLEcO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

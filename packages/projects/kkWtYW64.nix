@@ -32,6 +32,8 @@ let
         "fabric-1.21.9" = _KFlplZfs;
         "fabric-1.21.10" = _KFlplZfs;
         "fabric-1.21.11" = _KFlplZfs;
+        "pkg-1.0+1.20.1-1.21.4" = _5P9hq4hF;
+        "pkg-1.0+1.21.5-1.21.11" = _KFlplZfs;
         "default" = _KFlplZfs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -133,6 +133,26 @@ let
         "fabric-26.2" = _py5Ohazu;
         "fabric-1.21.4" = _nLdmT9dh;
         "fabric-1.21.11" = _YnHBRS7o;
+        "pkg-1.19.4-0.2.0" = _Mm8xHCrJ;
+        "pkg-1.20.2-0.2.0" = _icetIvIz;
+        "pkg-1.19.4-0.3.0" = _Z41iCBc6;
+        "pkg-1.20.2-0.3.0" = _ayRACmil;
+        "pkg-1.19.4-0.3.1" = _4P6xsOH3;
+        "pkg-1.20.2-0.3.1" = _y2m0ifVk;
+        "pkg-1.18.2-0.3.2" = _t4TuMRs0;
+        "pkg-1.19.4-0.3.2" = _xWhYOgR8;
+        "pkg-1.20.4-0.3.2" = _n02gJOhW;
+        "pkg-1.20.1-0.3.2" = _XxDsty2r;
+        "pkg-1.18.2-0.4.0" = _cvp8DNyw;
+        "pkg-1.19.4-0.4.0" = _4FYsIy8L;
+        "pkg-1.20.1-0.4.0" = _Lt8sI0Hn;
+        "pkg-1.20.4-0.4.0" = _JIzmb3kN;
+        "pkg-1.21-0.4.0" = _6CPkc87T;
+        "pkg-1.17.1-0.4.0" = _cln0SdUM;
+        "pkg-0.4.0+1.17.1-no-stapi" = _lk4GEjiH;
+        "pkg-0.4.0+26.2" = _py5Ohazu;
+        "pkg-0.4.0+1.21.4" = _nLdmT9dh;
+        "pkg-0.4.0+1.21.11" = _YnHBRS7o;
         "default" = _YnHBRS7o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

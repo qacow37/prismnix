@@ -74,6 +74,8 @@ let
         "quilt-1.21.9" = _FoFaWeWP;
         "quilt-1.21.10" = _FoFaWeWP;
         "quilt-1.21.11" = _FoFaWeWP;
+        "pkg-1.0" = _d4vmsmGj;
+        "pkg-1.0+mod" = _FoFaWeWP;
         "default" = _FoFaWeWP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

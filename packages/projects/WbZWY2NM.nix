@@ -9,6 +9,7 @@ let
     in {
         "KdDy2LAw" = _KdDy2LAw;
         "forge-1.12.2" = _KdDy2LAw;
+        "pkg-12.4.10" = _KdDy2LAw;
         "default" = _KdDy2LAw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "clbDRhAm" = _clbDRhAm;
         "minecraft-1.12.2" = _clbDRhAm;
+        "pkg-1.12.2-1.0" = _clbDRhAm;
         "default" = _clbDRhAm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

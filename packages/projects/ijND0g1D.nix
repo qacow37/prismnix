@@ -28,6 +28,10 @@ let
         "ntpROjia" = _ntpROjia;
         "neoforge-1.21" = _CTwCf8Ft;
         "neoforge-1.21.1" = _ntpROjia;
+        "pkg-0.1.3" = _CTwCf8Ft;
+        "pkg-0.1.4" = _Md18Sg8I;
+        "pkg-0.1.5" = _eSuk3thq;
+        "pkg-0.1.6" = _ntpROjia;
         "default" = _ntpROjia;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

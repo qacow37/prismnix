@@ -27,6 +27,10 @@ let
         "PGHqKezp" = _PGHqKezp;
         "17OFaUra" = _17OFaUra;
         "fabric-1.20.1" = _17OFaUra;
+        "pkg-2.0.3+1.20.1-fabric-beta" = _e7CfCDg4;
+        "pkg-2.0.4+1.20.1-fabric-beta" = _Znb4e1o6;
+        "pkg-2.0.5+1.20.1-fabric-beta" = _PGHqKezp;
+        "pkg-2.0.6+1.20.1-fabric-beta" = _17OFaUra;
         "default" = _17OFaUra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

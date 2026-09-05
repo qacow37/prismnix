@@ -157,6 +157,27 @@ let
         "forge-1.19.4" = _tRdpXqG5;
         "neoforge-1.20.4" = _3mMvQaNn;
         "neoforge-1.20.6" = _maNi6dP8;
+        "pkg-more_ships_1.14" = _gE9sr8ld;
+        "pkg-more_ships_1.15" = _xGz1sfkE;
+        "pkg-more_ships_1.16.4" = _1UOdRr0t;
+        "pkg-more_ships_1.16.5" = _cABFCaqa;
+        "pkg-more_ships_1.16.5_djbrando_1" = _DtI1kM4l;
+        "pkg-more_ships_1.14.4_rare_1" = _p8QTHJ1t;
+        "pkg-more_ships_1.15.2_rare_1" = _gh2PWBA8;
+        "pkg-more_ships_1.16.5_djbrando_2" = _LPmkaQKT;
+        "pkg-more_ships_1.16.5_2" = _caiJ9eQu;
+        "pkg-more_ships_1.16.5_3" = _L8vv01vF;
+        "pkg-more_ships_1.17.1_3" = _sF0ctRrZ;
+        "pkg-more_ships_1.16.5_thegamersbrew_1" = _INCPHryn;
+        "pkg-more_ships_1.18.2_3" = _FaJtuqFl;
+        "pkg-more_ships_1.16.5_NFTFlipper" = _NmA8bnGX;
+        "pkg-more_ships_1.19.2_3" = _UNznMiQX;
+        "pkg-more_ships_1.16.5_4.1" = _V22F9hrs;
+        "pkg-more_ships_1.18.2_4.1" = _XkIiZgV3;
+        "pkg-more_ships_1.19.2_4.1" = _JE2ERd1K;
+        "pkg-more_ships_1.18.2_4.1_Raphlon7mi" = _Cp2o0YA4;
+        "pkg-4.1.0" = _IjwPhle9;
+        "pkg-4.2.0" = _maNi6dP8;
         "default" = _maNi6dP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "VKsJ4bj1" = _VKsJ4bj1;
         "19ZvgoAg" = _19ZvgoAg;
         "minecraft-1.19.4" = _19ZvgoAg;
+        "pkg-1" = _bIlnn4EC;
+        "pkg-2" = _VKsJ4bj1;
+        "pkg-3" = _19ZvgoAg;
         "default" = _19ZvgoAg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "lhc5gZAI" = _lhc5gZAI;
         "B0LZVGnh" = _B0LZVGnh;
         "neoforge-1.21.1" = _B0LZVGnh;
+        "pkg-1.0.0" = _81URF81p;
+        "pkg-1.1.0" = _lhc5gZAI;
+        "pkg-1.2.0" = _B0LZVGnh;
         "default" = _B0LZVGnh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

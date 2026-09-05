@@ -16,6 +16,7 @@ let
         "quilt-1.20.2" = _S2IgmT4O;
         "quilt-1.20.3" = _S2IgmT4O;
         "quilt-1.20.4" = _S2IgmT4O;
+        "pkg-1.20.x-1.0.0" = _S2IgmT4O;
         "default" = _S2IgmT4O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

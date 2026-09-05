@@ -56,6 +56,14 @@ let
         "fabric-1.18.1" = _xOEAD8IL;
         "fabric-1.19" = _Z280XoFr;
         "fabric-1.19.1" = _Z280XoFr;
+        "pkg-MysticalCrops-Beta-1.0" = _d2vPnpR0;
+        "pkg-mysticalcrops-1.0.0-pre-release-1.19.2" = _In3NBUnR;
+        "pkg-mysticalcrops-1.0.1-pre-release-1.19.2" = _hNcZaGpI;
+        "pkg-mysticalcrops-1.0.0-pre-release-1.18.2" = _U5mVLTZH;
+        "pkg-mysticalcrops-1.1.0-1.18.2" = _eTYq8a2Y;
+        "pkg-mysticalcrops-1.1.0-1.19.2" = _9Sf9iezx;
+        "pkg-1.8.5-1.18.2" = _xOEAD8IL;
+        "pkg-1.8.5-1.19.2" = _Z280XoFr;
         "default" = _Z280XoFr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

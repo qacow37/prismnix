@@ -15,6 +15,8 @@ let
         "Zpzc1eru" = _Zpzc1eru;
         "saDVOxJB" = _saDVOxJB;
         "fabric-1.21.1" = _saDVOxJB;
+        "pkg-0.1.1" = _Zpzc1eru;
+        "pkg-0.2.0" = _saDVOxJB;
         "default" = _saDVOxJB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

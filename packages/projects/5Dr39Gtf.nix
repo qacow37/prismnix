@@ -80,6 +80,7 @@ let
         "minecraft-1.20.5" = _kVPcSwz5;
         "minecraft-1.20.6" = _kVPcSwz5;
         "minecraft-1.21" = _Lwywy1r7;
+        "pkg-1" = _Lwywy1r7;
         "default" = _Lwywy1r7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

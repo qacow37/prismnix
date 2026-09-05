@@ -27,6 +27,10 @@ let
         "kpiU59Li" = _kpiU59Li;
         "cdTszQUW" = _cdTszQUW;
         "fabric-1.20.1" = _cdTszQUW;
+        "pkg-1.0" = _SdySoJdN;
+        "pkg-1.1" = _zzwZX1cK;
+        "pkg-1.2" = _kpiU59Li;
+        "pkg-1.3" = _cdTszQUW;
         "default" = _cdTszQUW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

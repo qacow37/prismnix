@@ -14,6 +14,7 @@ let
         "forge-1.19.2" = _zpiqngK6;
         "quilt-1.18.2" = _zpiqngK6;
         "quilt-1.19.2" = _zpiqngK6;
+        "pkg-1.0.0" = _zpiqngK6;
         "default" = _zpiqngK6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

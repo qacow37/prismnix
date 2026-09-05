@@ -10,6 +10,7 @@ let
         "SIcfsVHO" = _SIcfsVHO;
         "minecraft-1.20" = _SIcfsVHO;
         "minecraft-1.20.1" = _SIcfsVHO;
+        "pkg-6.0" = _SIcfsVHO;
         "default" = _SIcfsVHO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

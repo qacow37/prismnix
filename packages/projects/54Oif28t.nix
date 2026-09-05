@@ -16,6 +16,7 @@ let
         "tATsmw13" = _tATsmw13;
         "forge-1.20.1" = _CSzCdy9y;
         "fabric-1.20.1" = _tATsmw13;
+        "pkg-1.0.0" = _tATsmw13;
         "default" = _tATsmw13;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

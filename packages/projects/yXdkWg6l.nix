@@ -20,6 +20,8 @@ let
         "fabric-1.20.4" = _BMyp5IIo;
         "fabric-1.20.5" = _BMyp5IIo;
         "fabric-1.20.6" = _BMyp5IIo;
+        "pkg-1.0.0" = _7CRNTdoK;
+        "pkg-1.0.1" = _BMyp5IIo;
         "default" = _BMyp5IIo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

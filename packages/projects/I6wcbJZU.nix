@@ -10,6 +10,7 @@ let
         "Tz5Q48X4" = _Tz5Q48X4;
         "fabric-1.21.10" = _Tz5Q48X4;
         "fabric-1.21.11" = _Tz5Q48X4;
+        "pkg-1.0.0" = _Tz5Q48X4;
         "default" = _Tz5Q48X4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

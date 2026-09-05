@@ -34,6 +34,9 @@ let
         "minecraft-1.20.1" = _tCazMbsG;
         "minecraft-1.20.6" = _tCazMbsG;
         "minecraft-1.21.1" = _tCazMbsG;
+        "pkg-0.4" = _cufihPWR;
+        "pkg-0.5" = _B70xBL30;
+        "pkg-6.0" = _tCazMbsG;
         "default" = _tCazMbsG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

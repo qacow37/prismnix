@@ -706,6 +706,14 @@ let
         "minecraft-26.2" = _V467RWDG;
         "minecraft-26.3-snapshot-1" = _V467RWDG;
         "minecraft-26.3-snapshot-2" = _V467RWDG;
+        "pkg-0.0.1" = _CrWhS7Cn;
+        "pkg-0.0.2" = _LSrbBk4e;
+        "pkg-0.0.3" = _PibMmpLc;
+        "pkg-0.0.4" = _kkX4Jdr3;
+        "pkg-0.0.5" = _OGgW41VZ;
+        "pkg-0.0.6" = _VguWrC7J;
+        "pkg-0.0.7" = _gNI2zc2h;
+        "pkg-0.0.8" = _V467RWDG;
         "default" = _V467RWDG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

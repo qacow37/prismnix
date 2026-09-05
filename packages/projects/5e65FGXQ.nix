@@ -44,6 +44,8 @@ let
         "quilt-1.21.9" = _IEbD337h;
         "quilt-1.21.10" = _IEbD337h;
         "quilt-1.21.11" = _IEbD337h;
+        "pkg-1.0.0+1.21.1" = _IEbD337h;
+        "pkg-1.1.0+26.1" = _O80uSS6o;
         "default" = _O80uSS6o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

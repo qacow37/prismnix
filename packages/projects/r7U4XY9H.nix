@@ -35,6 +35,10 @@ let
         "minecraft-26.2-snapshot-4" = _GNSpl4rx;
         "minecraft-26.2-snapshot-5" = _GNSpl4rx;
         "minecraft-26.2-snapshot-6" = _GNSpl4rx;
+        "pkg-1" = _hnlmVEE0;
+        "pkg-2" = _PIMechZt;
+        "pkg-3" = _sxX5TBBA;
+        "pkg-4" = _GNSpl4rx;
         "default" = _GNSpl4rx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

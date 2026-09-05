@@ -15,6 +15,8 @@ let
         "7MH5D5iX" = _7MH5D5iX;
         "mS5k4qun" = _mS5k4qun;
         "forge-1.20.1" = _mS5k4qun;
+        "pkg-1.0.0" = _7MH5D5iX;
+        "pkg-1.1.0" = _mS5k4qun;
         "default" = _mS5k4qun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

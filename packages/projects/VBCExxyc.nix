@@ -10,6 +10,7 @@ let
         "CsZUh6fj" = _CsZUh6fj;
         "forge-1.12.2" = _CsZUh6fj;
         "forge-1.16.5" = _CsZUh6fj;
+        "pkg-1" = _CsZUh6fj;
         "default" = _CsZUh6fj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

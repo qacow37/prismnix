@@ -21,6 +21,9 @@ let
         "V2WHMjt8" = _V2WHMjt8;
         "1GMvyG9n" = _1GMvyG9n;
         "forge-1.20.1" = _1GMvyG9n;
+        "pkg-0.1.0" = _nSCBZS2q;
+        "pkg-0.2.0" = _V2WHMjt8;
+        "pkg-0.3.2" = _1GMvyG9n;
         "default" = _1GMvyG9n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

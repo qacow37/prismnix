@@ -9,6 +9,7 @@ let
     in {
         "jPD2DzYK" = _jPD2DzYK;
         "fabric-1.21.11" = _jPD2DzYK;
+        "pkg-21.11.0" = _jPD2DzYK;
         "default" = _jPD2DzYK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

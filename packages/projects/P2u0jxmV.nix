@@ -51,6 +51,14 @@ let
         "UrfL3j9l" = _UrfL3j9l;
         "Ln2zl0br" = _Ln2zl0br;
         "forge-1.12.2" = _Ln2zl0br;
+        "pkg-1.12.2-0.3.0.0" = _IPu5omc9;
+        "pkg-1.12.2-0.4.0.0" = _B9JINDql;
+        "pkg-1.12.2-0.4.1.0" = _nVZX9siG;
+        "pkg-1.12.2-0.4.2.0" = _GeI8g6YJ;
+        "pkg-1.12.2-0.5.0.0" = _hrz8o0uf;
+        "pkg-1.12.2-0.6.0.0" = _QTaCknUd;
+        "pkg-1.12.2-0.6.1.0" = _UrfL3j9l;
+        "pkg-1.12.2-0.6.1.1" = _Ln2zl0br;
         "default" = _Ln2zl0br;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

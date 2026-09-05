@@ -20,6 +20,7 @@ let
         "minecraft-1.20.2" = _CqCRt240;
         "minecraft-1.20.3" = _CqCRt240;
         "minecraft-1.20.4" = _CqCRt240;
+        "pkg-1" = _CqCRt240;
         "default" = _CqCRt240;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

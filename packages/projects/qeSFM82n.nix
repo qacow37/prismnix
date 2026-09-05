@@ -15,6 +15,8 @@ let
         "8n7ZevpS" = _8n7ZevpS;
         "ILA0J4i7" = _ILA0J4i7;
         "forge-1.19.2" = _ILA0J4i7;
+        "pkg-1.0" = _8n7ZevpS;
+        "pkg-2.0.0" = _ILA0J4i7;
         "default" = _ILA0J4i7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

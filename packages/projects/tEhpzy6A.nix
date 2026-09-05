@@ -57,6 +57,15 @@ let
         "CLTe4LpP" = _CLTe4LpP;
         "2jubbShB" = _2jubbShB;
         "forge-1.19.2" = _2jubbShB;
+        "pkg-1.0.0" = _mqPBPeiH;
+        "pkg-1.1.0" = _XZL3UN7r;
+        "pkg-1.2.0" = _WTZBflv6;
+        "pkg-1.2.1" = _bX7cwiEa;
+        "pkg-1.2.2" = _LVeaKBac;
+        "pkg-1.2.3" = _x3za94Sr;
+        "pkg-1.3.0" = _izY9Qin9;
+        "pkg-1.4.0" = _CLTe4LpP;
+        "pkg-1.4.1" = _2jubbShB;
         "default" = _2jubbShB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

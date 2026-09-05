@@ -36,6 +36,7 @@ let
         "iris-26.1" = _zkmsy0i7;
         "iris-26.1.1" = _zkmsy0i7;
         "iris-26.1.2" = _zkmsy0i7;
+        "pkg-0.8.0" = _zkmsy0i7;
         "default" = _zkmsy0i7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

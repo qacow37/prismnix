@@ -15,6 +15,8 @@ let
         "vpJHLZGH" = _vpJHLZGH;
         "L6KPVFxI" = _L6KPVFxI;
         "neoforge-1.21.1" = _L6KPVFxI;
+        "pkg-1.0.0" = _vpJHLZGH;
+        "pkg-2.0.0" = _L6KPVFxI;
         "default" = _L6KPVFxI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

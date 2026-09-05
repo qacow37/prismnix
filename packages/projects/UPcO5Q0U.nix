@@ -9,6 +9,7 @@ let
     in {
         "VWz7savv" = _VWz7savv;
         "forge-1.20.1" = _VWz7savv;
+        "pkg-0.1.0a" = _VWz7savv;
         "default" = _VWz7savv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

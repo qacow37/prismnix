@@ -15,6 +15,8 @@ let
         "I6FruBM0" = _I6FruBM0;
         "4fMD44Go" = _4fMD44Go;
         "forge-1.18.2" = _4fMD44Go;
+        "pkg-1.18.2-2.0.1" = _I6FruBM0;
+        "pkg-1.18.2-2.0.2" = _4fMD44Go;
         "default" = _4fMD44Go;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

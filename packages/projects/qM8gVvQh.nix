@@ -15,6 +15,8 @@ let
         "S2RJxzy4" = _S2RJxzy4;
         "phOAhzsg" = _phOAhzsg;
         "neoforge-1.21.1" = _phOAhzsg;
+        "pkg-1.0.0" = _S2RJxzy4;
+        "pkg-1.0.1" = _phOAhzsg;
         "default" = _phOAhzsg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

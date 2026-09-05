@@ -179,6 +179,15 @@ let
         "quilt-1.20.4" = _UKpADAoa;
         "quilt-1.20.5" = _UKpADAoa;
         "quilt-1.20.6" = _UKpADAoa;
+        "pkg-1.0.0-LegacyFabric" = _lz1w3PQo;
+        "pkg-1.0.0-LegacyForge" = _S6FAWszT;
+        "pkg-1.0.1-LegacyFabric" = _zIfn5yaW;
+        "pkg-1.0.1-LegacyForge" = _FmFwNGsK;
+        "pkg-1.1.0-LegacyForge" = _HkqCFYx4;
+        "pkg-1.1.0-LegacyFabric" = _qcEKR94s;
+        "pkg-1.1.0-Forge" = _uY31Np5q;
+        "pkg-1.1.0-Neoforge" = _hgGAcbbf;
+        "pkg-1.1.0-Fabric" = _UKpADAoa;
         "default" = _UKpADAoa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -13,6 +13,7 @@ let
         "minecraft-1.19.4" = _zBtMiKVs;
         "minecraft-1.20" = _zBtMiKVs;
         "minecraft-1.20.1" = _zBtMiKVs;
+        "pkg-1.0.3" = _zBtMiKVs;
         "default" = _zBtMiKVs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

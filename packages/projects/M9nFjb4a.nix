@@ -27,6 +27,10 @@ let
         "FtYB78A6" = _FtYB78A6;
         "O6tgISGl" = _O6tgISGl;
         "fabric-1.20.1" = _O6tgISGl;
+        "pkg-1.0.0" = _fYHjUqIE;
+        "pkg-1.1.0" = _hlkrpI1y;
+        "pkg-1.2.0" = _FtYB78A6;
+        "pkg-1.2.1" = _O6tgISGl;
         "default" = _O6tgISGl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

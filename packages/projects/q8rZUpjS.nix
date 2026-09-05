@@ -112,6 +112,23 @@ let
         "fabric-1.21.8" = _v01pDhmX;
         "fabric-1.21.11" = _91zQqaH6;
         "fabric-26.2" = _aReF9Y8c;
+        "pkg-0.1" = _McWo3tPM;
+        "pkg-0.2" = _l9fZUOLI;
+        "pkg-0.2.1" = _Klm6s8zq;
+        "pkg-0.2.2" = _qoScs50t;
+        "pkg-0.3" = _eFJUMZpA;
+        "pkg-0.4" = _aNS0eFb3;
+        "pkg-0.4.1" = _ytDcHlCd;
+        "pkg-0.4.2" = _3ueKUMaF;
+        "pkg-0.4.3" = _YkW95yXy;
+        "pkg-0.5" = _yzipvtd1;
+        "pkg-0.6" = _v01pDhmX;
+        "pkg-0.7" = _OpbrhCf6;
+        "pkg-0.7.1" = _TzPfxp0M;
+        "pkg-0.7.2" = _7C3Tl8rM;
+        "pkg-0.8" = _91zQqaH6;
+        "pkg-1.0-26.2" = _UeMbna11;
+        "pkg-1.0.1-26.2" = _aReF9Y8c;
         "default" = _aReF9Y8c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

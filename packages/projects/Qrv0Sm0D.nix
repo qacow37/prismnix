@@ -76,6 +76,17 @@ let
         "fabric-1.20.2" = _zo9ANOe4;
         "fabric-1.20.3" = _XV79rf2n;
         "fabric-1.20.4" = _U5a1Yy6P;
+        "pkg-1.0.5+1.19.2" = _dHd9tAcn;
+        "pkg-1.0.6+1.19.2" = _pgLgLcAa;
+        "pkg-1.1.0" = _ifkhYHXf;
+        "pkg-1.1.1" = _U5znizFC;
+        "pkg-1.2.0" = _EqgkpTtX;
+        "pkg-1.2.1" = _EsPX1jKD;
+        "pkg-1.3.0" = _FqSw4yyR;
+        "pkg-1.3.1" = _WuuP2vI2;
+        "pkg-Manhunt-v1.4.0" = _zo9ANOe4;
+        "pkg-Manhunt-v1.5.0" = _XV79rf2n;
+        "pkg-Manhunt-v1.6.0" = _U5a1Yy6P;
         "default" = _U5a1Yy6P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "mzHUACAK" = _mzHUACAK;
         "minecraft-1.20" = _mzHUACAK;
         "minecraft-1.20.1" = _mzHUACAK;
+        "pkg-v14.6" = _mzHUACAK;
         "default" = _mzHUACAK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

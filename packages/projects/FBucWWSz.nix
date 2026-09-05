@@ -713,6 +713,13 @@ let
         "forge-26.3-snapshot-2" = _QRgd7jhG;
         "forge-26.3-snapshot-3" = _QRgd7jhG;
         "forge-26.3-snapshot-4" = _QRgd7jhG;
+        "pkg-1.0.0" = _AnPajskc;
+        "pkg-1.0.1" = _rAqurmRe;
+        "pkg-1.0.2" = _FRdrkF4F;
+        "pkg-1.0.3" = _ZwwCpltM;
+        "pkg-1.0.4" = _QRgd7jhG;
+        "pkg-1.0.5" = _vgGBuWB1;
+        "pkg-1.0.6" = _6XbLt9ZN;
         "default" = _6XbLt9ZN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

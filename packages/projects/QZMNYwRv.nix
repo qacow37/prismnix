@@ -15,6 +15,8 @@ let
         "Lev6eBLD" = _Lev6eBLD;
         "F2kUNVTx" = _F2kUNVTx;
         "neoforge-1.21.1" = _F2kUNVTx;
+        "pkg-1.0.0" = _Lev6eBLD;
+        "pkg-1.0.1" = _F2kUNVTx;
         "default" = _F2kUNVTx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

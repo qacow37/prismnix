@@ -64,6 +64,8 @@ let
         "spigot-26.1.1" = _L9HT3ezp;
         "spigot-26.1.2" = _L9HT3ezp;
         "spigot-26.2" = _L9HT3ezp;
+        "pkg-v1" = _8DL27QF5;
+        "pkg-v2" = _L9HT3ezp;
         "default" = _L9HT3ezp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

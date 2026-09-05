@@ -28,6 +28,10 @@ let
         "8G1JunIv" = _8G1JunIv;
         "fabric-1.21.10" = _x384YNBI;
         "fabric-1.21.11" = _8G1JunIv;
+        "pkg-1.0.0" = _6IJgUy8m;
+        "pkg-1.0.1" = _QxIZ3ZEY;
+        "pkg-1.0.2" = _x384YNBI;
+        "pkg-1.0.2-1.21.11" = _8G1JunIv;
         "default" = _8G1JunIv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

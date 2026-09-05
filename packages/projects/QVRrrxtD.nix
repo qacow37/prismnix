@@ -9,6 +9,7 @@ let
     in {
         "QtVrj7UG" = _QtVrj7UG;
         "forge-1.8.9" = _QtVrj7UG;
+        "pkg-1.3.1" = _QtVrj7UG;
         "default" = _QtVrj7UG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

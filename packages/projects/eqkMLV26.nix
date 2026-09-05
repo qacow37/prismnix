@@ -16,6 +16,8 @@ let
         "YzwtLv2P" = _YzwtLv2P;
         "fabric-1.20" = _YzwtLv2P;
         "fabric-1.20.1" = _YzwtLv2P;
+        "pkg-1.5.0" = _xEzARdQf;
+        "pkg-1.5.1" = _YzwtLv2P;
         "default" = _YzwtLv2P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

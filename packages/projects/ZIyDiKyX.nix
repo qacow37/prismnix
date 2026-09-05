@@ -15,6 +15,8 @@ let
         "qsR44c2f" = _qsR44c2f;
         "393F74HO" = _393F74HO;
         "fabric-1.20.1" = _393F74HO;
+        "pkg-1.0.0" = _qsR44c2f;
+        "pkg-1.0.1" = _393F74HO;
         "default" = _393F74HO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

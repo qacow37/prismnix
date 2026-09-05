@@ -46,6 +46,8 @@ let
         "minecraft-1.8.7" = _UYyMobIa;
         "minecraft-1.8.8" = _UYyMobIa;
         "minecraft-1.8.9" = _UYyMobIa;
+        "pkg-1.16+" = _MpKTLGJk;
+        "pkg-1.8.9" = _UYyMobIa;
         "default" = _UYyMobIa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "bTPLKAkK" = _bTPLKAkK;
         "minecraft-1.20.1" = _bTPLKAkK;
+        "pkg-1.0.0" = _bTPLKAkK;
         "default" = _bTPLKAkK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

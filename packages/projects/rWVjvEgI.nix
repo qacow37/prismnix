@@ -43,6 +43,11 @@ let
         "fabric-1.21" = _AweiRDDv;
         "fabric-1.20.6" = _BsDBuija;
         "fabric-1.21.1" = _AweiRDDv;
+        "pkg-1.0.0" = _f7tPFwSe;
+        "pkg-1.1.0" = _tUjh1IQh;
+        "pkg-1.0.1" = _BsDBuija;
+        "pkg-1.1.1" = _ErT4aM0z;
+        "pkg-1.1.2" = _AweiRDDv;
         "default" = _AweiRDDv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

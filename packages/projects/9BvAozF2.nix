@@ -85,6 +85,14 @@ let
         "quilt-26.1.1" = _2HjEwXfa;
         "quilt-26.1.2" = _2HjEwXfa;
         "quilt-26.2" = _hv7j822Y;
+        "pkg-unlimited_enchants_v1" = _OgVWM6lp;
+        "pkg-unlimited_enchants_v1+mod" = _R4sxgqn2;
+        "pkg-unlimited-enchants-1.21.11" = _C0inZEoR;
+        "pkg-unlimited-enchants-1.21.11+mod" = _1gKsr4Kn;
+        "pkg-26.1" = _OFbZIig9;
+        "pkg-26.1+mod" = _2HjEwXfa;
+        "pkg-26.2" = _vyKDBNyk;
+        "pkg-26.2+mod" = _hv7j822Y;
         "default" = _hv7j822Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

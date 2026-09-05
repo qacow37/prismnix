@@ -86,6 +86,10 @@ let
         "ornithe-1.12" = _KKXjBh95;
         "ornithe-1.12.1" = _KKXjBh95;
         "ornithe-1.12.2" = _KKXjBh95;
+        "pkg-1.0.0+1.12.x" = _HvSS60lh;
+        "pkg-1.0.1+1.12.x" = _GJmuxwRT;
+        "pkg-1.1.0+1.12.x" = _bLqeu0Jq;
+        "pkg-1.1.1+1.12.x" = _KKXjBh95;
         "default" = _KKXjBh95;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

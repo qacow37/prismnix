@@ -22,6 +22,9 @@ let
         "5YhLaqoi" = _5YhLaqoi;
         "neoforge-1.21" = _5YhLaqoi;
         "neoforge-1.21.1" = _5YhLaqoi;
+        "pkg-1.0.2" = _QTR7xplS;
+        "pkg-1.0.3" = _pqzhbnbc;
+        "pkg-1.2.0" = _5YhLaqoi;
         "default" = _5YhLaqoi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

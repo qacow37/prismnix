@@ -134,6 +134,7 @@ let
         "minecraft-25w16a" = _R64gcVcY;
         "minecraft-25w17a" = _R64gcVcY;
         "minecraft-25w18a" = _R64gcVcY;
+        "pkg-1.0.0" = _R64gcVcY;
         "default" = _R64gcVcY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

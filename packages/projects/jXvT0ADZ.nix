@@ -16,6 +16,8 @@ let
         "lOygETM7" = _lOygETM7;
         "minecraft-1.19.4" = _l2FCZA80;
         "minecraft-1.20.4" = _lOygETM7;
+        "pkg-1" = _l2FCZA80;
+        "pkg-2" = _lOygETM7;
         "default" = _lOygETM7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

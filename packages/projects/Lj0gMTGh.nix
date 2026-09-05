@@ -56,6 +56,12 @@ let
         "neoforge-1.20.4" = _OJtf2gtt;
         "neoforge-1.20.5" = _OJtf2gtt;
         "neoforge-1.20.6" = _OJtf2gtt;
+        "pkg-1.0.3" = _SVMv74c7;
+        "pkg-1.0.4" = _GGOF3Z2P;
+        "pkg-1.0.5" = _ebZ2fnlP;
+        "pkg-1.0.5.1" = _TL3ScZQ1;
+        "pkg-1.0.6" = _6G52D4qg;
+        "pkg-1.0.6.2" = _OJtf2gtt;
         "default" = _OJtf2gtt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -276,6 +276,9 @@ let
         "spigot-1.21.2" = _NvWDfChT;
         "spigot-1.21.3" = _NvWDfChT;
         "spigot-1.21.4" = _NvWDfChT;
+        "pkg-1.0-beta-7a" = _rlq3gZYj;
+        "pkg-1.0-pre" = _ZxzXZmrF;
+        "pkg-1.0-pre-1" = _NvWDfChT;
         "default" = _NvWDfChT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

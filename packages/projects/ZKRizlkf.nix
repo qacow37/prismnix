@@ -10,6 +10,7 @@ let
         "SX4sgkg1" = _SX4sgkg1;
         "fabric-1.21" = _SX4sgkg1;
         "fabric-1.21.1" = _SX4sgkg1;
+        "pkg-1.0_MC-1.21" = _SX4sgkg1;
         "default" = _SX4sgkg1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

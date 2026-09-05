@@ -16,6 +16,7 @@ let
         "kv6MDdWN" = _kv6MDdWN;
         "forge-1.20.1" = _lYqnHLob;
         "forge-1.19.2" = _kv6MDdWN;
+        "pkg-3.6.8" = _kv6MDdWN;
         "default" = _kv6MDdWN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

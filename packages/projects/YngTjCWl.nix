@@ -9,6 +9,7 @@ let
     in {
         "MRyvFKT4" = _MRyvFKT4;
         "fabric-1.21.1" = _MRyvFKT4;
+        "pkg-1.0+build.6" = _MRyvFKT4;
         "default" = _MRyvFKT4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "u8OPTBy4" = _u8OPTBy4;
         "minecraft-1.21.1" = _u8OPTBy4;
         "minecraft-1.21" = _u8OPTBy4;
+        "pkg-1.0.0" = _wzEwy7td;
+        "pkg-2.0.0" = _u8OPTBy4;
         "default" = _u8OPTBy4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

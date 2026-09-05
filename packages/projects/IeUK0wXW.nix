@@ -12,6 +12,7 @@ let
         "forge-1.20.1" = _fY80pXfy;
         "neoforge-1.20" = _fY80pXfy;
         "neoforge-1.20.1" = _fY80pXfy;
+        "pkg-1.0.0" = _fY80pXfy;
         "default" = _fY80pXfy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

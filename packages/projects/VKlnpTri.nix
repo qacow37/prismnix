@@ -16,6 +16,8 @@ let
         "LkoIFm65" = _LkoIFm65;
         "forge-1.20.1" = _zPusf9K3;
         "forge-1.18.2" = _LkoIFm65;
+        "pkg-0.0.4" = _zPusf9K3;
+        "pkg-0.0.3" = _LkoIFm65;
         "default" = _LkoIFm65;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

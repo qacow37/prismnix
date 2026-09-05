@@ -9,6 +9,7 @@ let
     in {
         "68TawOmn" = _68TawOmn;
         "minecraft-1.21" = _68TawOmn;
+        "pkg-1" = _68TawOmn;
         "default" = _68TawOmn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -104,6 +104,13 @@ let
         "waterfall-1.20.5" = _eECUuwOf;
         "waterfall-1.20.6" = _eECUuwOf;
         "waterfall-1.21" = _eECUuwOf;
+        "pkg-1.0.0" = _PyMCo6sN;
+        "pkg-1.0-SNAPSHOT" = _mHtOW7c7;
+        "pkg-1.1-SNAPSHOT" = _D9o18bLb;
+        "pkg-1.2-SNAPSHOT" = _48dbcibt;
+        "pkg-2.0-SNAPSHOT-b2" = _dF9C4vHc;
+        "pkg-2.0-SNAPSHOT-b3" = _CJI4xNdl;
+        "pkg-2.0-SNAPSHOT-b4" = _HORFCWmh;
         "default" = _HORFCWmh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

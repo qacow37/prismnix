@@ -28,6 +28,8 @@ let
         "dfTIxdwD" = _dfTIxdwD;
         "fabric-1.21.1" = _YpYx2bnm;
         "neoforge-1.21.1" = _dfTIxdwD;
+        "pkg-1.0-SNAPSHOT" = _UIJVaMBj;
+        "pkg-1.1" = _dfTIxdwD;
         "default" = _dfTIxdwD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

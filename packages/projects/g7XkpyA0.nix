@@ -9,6 +9,7 @@ let
     in {
         "4NTv9u2B" = _4NTv9u2B;
         "fabric-1.21.11" = _4NTv9u2B;
+        "pkg-1.0.0" = _4NTv9u2B;
         "default" = _4NTv9u2B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

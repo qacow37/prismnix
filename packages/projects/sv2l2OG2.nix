@@ -16,6 +16,8 @@ let
         "xwa3bln2" = _xwa3bln2;
         "forge-1.19.2" = _XAX07V4o;
         "forge-1.20.1" = _xwa3bln2;
+        "pkg-1.19.2-1.0.0b" = _XAX07V4o;
+        "pkg-1.20.1-1.0.0" = _xwa3bln2;
         "default" = _xwa3bln2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

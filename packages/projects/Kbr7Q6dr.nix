@@ -9,6 +9,7 @@ let
     in {
         "dhaa2ENU" = _dhaa2ENU;
         "forge-1.20.1" = _dhaa2ENU;
+        "pkg-1.0.0" = _dhaa2ENU;
         "default" = _dhaa2ENU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

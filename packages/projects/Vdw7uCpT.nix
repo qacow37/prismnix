@@ -21,6 +21,9 @@ let
         "canj2Asz" = _canj2Asz;
         "Ardf1jdc" = _Ardf1jdc;
         "bta-babric-b1.7.3" = _Ardf1jdc;
+        "pkg-1.0.0-7.2_01" = _t8GmFS6J;
+        "pkg-1.0.0-7.3-pre4" = _canj2Asz;
+        "pkg-2.0.0-7.3_01" = _Ardf1jdc;
         "default" = _Ardf1jdc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

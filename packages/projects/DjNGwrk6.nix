@@ -16,6 +16,8 @@ let
         "vAmgxHaK" = _vAmgxHaK;
         "minecraft-1.19.2" = _lqSTCPPf;
         "minecraft-1.20.1" = _vAmgxHaK;
+        "pkg-1.0" = _lqSTCPPf;
+        "pkg-2.0" = _vAmgxHaK;
         "default" = _vAmgxHaK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

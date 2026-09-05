@@ -15,6 +15,8 @@ let
         "OWr45ZZh" = _OWr45ZZh;
         "K4TBCdA5" = _K4TBCdA5;
         "minecraft-1.20.6" = _K4TBCdA5;
+        "pkg-1" = _OWr45ZZh;
+        "pkg-2.0" = _K4TBCdA5;
         "default" = _K4TBCdA5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

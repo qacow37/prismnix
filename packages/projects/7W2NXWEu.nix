@@ -27,6 +27,10 @@ let
         "LgMqJbAZ" = _LgMqJbAZ;
         "xSIIj1xG" = _xSIIj1xG;
         "bta-babric-b1.7.3" = _xSIIj1xG;
+        "pkg-1.1.2" = _wUh4Bt0v;
+        "pkg-2.0.0" = _sv0nMAyo;
+        "pkg-2.1.0" = _LgMqJbAZ;
+        "pkg-2.2.0" = _xSIIj1xG;
         "default" = _xSIIj1xG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -88,6 +88,13 @@ let
         "S4EiIk59" = _S4EiIk59;
         "neoforge-1.21.1" = _xS5IzCTv;
         "fabric-1.21.1" = _S4EiIk59;
+        "pkg-1.1" = _87IYLKsl;
+        "pkg-1.2" = _SFgRD2l0;
+        "pkg-1.3" = _beLnOizx;
+        "pkg-1.4" = _SqmQdbsn;
+        "pkg-1.4.1" = _7nOx2Jot;
+        "pkg-1.5" = _Lzqwr1wu;
+        "pkg-1.6" = _S4EiIk59;
         "default" = _S4EiIk59;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

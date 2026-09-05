@@ -16,6 +16,8 @@ let
         "JrFAcHp3" = _JrFAcHp3;
         "forge-1.20.1" = _JrFAcHp3;
         "neoforge-1.20.1" = _JrFAcHp3;
+        "pkg-1.0.0" = _9JQNrt5O;
+        "pkg-1.0.1" = _JrFAcHp3;
         "default" = _JrFAcHp3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "THGCJz5A" = _THGCJz5A;
         "fabric-1.20.1" = _THGCJz5A;
         "quilt-1.20.1" = _THGCJz5A;
+        "pkg-1.0.0+1.20.1" = _THGCJz5A;
         "default" = _THGCJz5A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

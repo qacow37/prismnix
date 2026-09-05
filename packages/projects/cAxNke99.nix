@@ -50,6 +50,7 @@ let
         "optifine-1.21.4" = _aPeutF35;
         "optifine-1.21.5" = _aPeutF35;
         "optifine-1.21.6" = _aPeutF35;
+        "pkg-1.0" = _aPeutF35;
         "default" = _aPeutF35;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

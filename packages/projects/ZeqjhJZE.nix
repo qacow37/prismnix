@@ -10,6 +10,7 @@ let
         "prkn5QLw" = _prkn5QLw;
         "fabric-1.21.11" = _prkn5QLw;
         "fabric-26.1" = _prkn5QLw;
+        "pkg-v1.0.0" = _prkn5QLw;
         "default" = _prkn5QLw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

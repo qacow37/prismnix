@@ -16,6 +16,7 @@ let
         "l7XeWOon" = _l7XeWOon;
         "neoforge-1.21.1" = _xZtmCnep;
         "forge-1.20.1" = _l7XeWOon;
+        "pkg-1.0.0" = _l7XeWOon;
         "default" = _l7XeWOon;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

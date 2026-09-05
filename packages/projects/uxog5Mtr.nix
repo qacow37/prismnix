@@ -12,6 +12,7 @@ let
         "fabric-26.1.2" = _l421yiTU;
         "fabric-26.2-snapshot-2" = _l421yiTU;
         "fabric-26.2-snapshot-3" = _l421yiTU;
+        "pkg-1.0.0" = _l421yiTU;
         "default" = _l421yiTU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

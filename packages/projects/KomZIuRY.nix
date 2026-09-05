@@ -9,6 +9,7 @@ let
     in {
         "FSTSdnbM" = _FSTSdnbM;
         "forge-1.20.1" = _FSTSdnbM;
+        "pkg-1.0-SNAPSHOT" = _FSTSdnbM;
         "default" = _FSTSdnbM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

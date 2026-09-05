@@ -11,6 +11,7 @@ let
         "minecraft-1.20.1" = _l2pAogJs;
         "minecraft-1.20.2" = _l2pAogJs;
         "minecraft-1.20.3" = _l2pAogJs;
+        "pkg-2" = _l2pAogJs;
         "default" = _l2pAogJs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

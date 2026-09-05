@@ -15,6 +15,8 @@ let
         "MSgMAPzd" = _MSgMAPzd;
         "IoTDG3N0" = _IoTDG3N0;
         "fabric-1.20.1" = _IoTDG3N0;
+        "pkg-2.1" = _MSgMAPzd;
+        "pkg-1.0" = _IoTDG3N0;
         "default" = _IoTDG3N0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

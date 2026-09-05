@@ -9,6 +9,7 @@ let
     in {
         "45lwLmnC" = _45lwLmnC;
         "minecraft-1.20.1" = _45lwLmnC;
+        "pkg-1.0" = _45lwLmnC;
         "default" = _45lwLmnC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

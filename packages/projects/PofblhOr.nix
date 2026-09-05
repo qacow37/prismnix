@@ -15,6 +15,8 @@ let
         "DyjYP0Nl" = _DyjYP0Nl;
         "VpN3ij9G" = _VpN3ij9G;
         "fabric-1.21.1" = _VpN3ij9G;
+        "pkg-1.0.8" = _DyjYP0Nl;
+        "pkg-1.0.9" = _VpN3ij9G;
         "default" = _VpN3ij9G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

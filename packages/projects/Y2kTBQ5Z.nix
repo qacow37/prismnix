@@ -40,6 +40,12 @@ let
         "JXMVhVEi" = _JXMVhVEi;
         "forge-1.18.2" = _JXMVhVEi;
         "fabric-1.18.2" = _V0fLlVVe;
+        "pkg-1.0.0-FORGE" = _vnYnyXQ4;
+        "pkg-1.0.1-FORGE" = _V3wvsB4O;
+        "pkg-1.0.1-FABRIC" = _XXN795ue;
+        "pkg-1.0.2-FORGE" = _bSD5mzZP;
+        "pkg-1.0.2-FABRIC" = _V0fLlVVe;
+        "pkg-1.0.3-FORGE" = _JXMVhVEi;
         "default" = _JXMVhVEi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

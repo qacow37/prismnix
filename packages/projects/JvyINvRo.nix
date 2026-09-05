@@ -19,6 +19,7 @@ let
         "minecraft-1.21.5" = _MqaeonZX;
         "minecraft-1.21.6" = _MqaeonZX;
         "minecraft-1.21.7" = _MqaeonZX;
+        "pkg-1.0.0" = _MqaeonZX;
         "default" = _MqaeonZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

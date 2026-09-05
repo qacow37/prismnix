@@ -9,6 +9,7 @@ let
     in {
         "aT6VcSdc" = _aT6VcSdc;
         "quilt-1.19.2" = _aT6VcSdc;
+        "pkg-2.3.0+alpha" = _aT6VcSdc;
         "default" = _aT6VcSdc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

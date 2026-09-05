@@ -21,6 +21,9 @@ let
         "cRebpMid" = _cRebpMid;
         "KILyUjra" = _KILyUjra;
         "forge-1.20.1" = _KILyUjra;
+        "pkg-0.8.2-1.20.1" = _XD4Rad1D;
+        "pkg-0.8.3-1.20.1" = _cRebpMid;
+        "pkg-0.8.4-1.20.1" = _KILyUjra;
         "default" = _KILyUjra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "DOEddPtd" = _DOEddPtd;
         "NS329bmL" = _NS329bmL;
         "fabric-1.21.1" = _NS329bmL;
+        "pkg-1.0" = _XOi0Vixp;
+        "pkg-1.1" = _DOEddPtd;
+        "pkg-1.2" = _NS329bmL;
         "default" = _NS329bmL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

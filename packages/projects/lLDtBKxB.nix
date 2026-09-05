@@ -11,6 +11,7 @@ let
         "fabric-1.20" = _uAKMMCpE;
         "fabric-1.20.1" = _uAKMMCpE;
         "fabric-1.20.2" = _uAKMMCpE;
+        "pkg-1.0.0" = _uAKMMCpE;
         "default" = _uAKMMCpE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

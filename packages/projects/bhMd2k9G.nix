@@ -16,6 +16,8 @@ let
         "mVhakqcA" = _mVhakqcA;
         "neoforge-1.21.1" = _RmUweXwL;
         "datapack-1.21.1" = _mVhakqcA;
+        "pkg-1.0" = _RmUweXwL;
+        "pkg-v1.0" = _mVhakqcA;
         "default" = _mVhakqcA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

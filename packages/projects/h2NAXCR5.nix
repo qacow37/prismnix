@@ -21,6 +21,9 @@ let
         "lIPyA6WK" = _lIPyA6WK;
         "HZ3MW8tG" = _HZ3MW8tG;
         "ornithe-1.8.9" = _HZ3MW8tG;
+        "pkg-1.0.0+mc1.8.9" = _5Px4sX1t;
+        "pkg-1.0.1+mc1.8.9" = _lIPyA6WK;
+        "pkg-1.1.0+mc1.8.9" = _HZ3MW8tG;
         "default" = _HZ3MW8tG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

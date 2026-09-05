@@ -33,6 +33,11 @@ let
         "GP3WtCzF" = _GP3WtCzF;
         "Tzzphrug" = _Tzzphrug;
         "forge-1.20.1" = _Tzzphrug;
+        "pkg-2.1.5-mc1.20.1-forge" = _HMA0ZjND;
+        "pkg-2.1.6-mc1.20.1-forge" = _VqIFw2bK;
+        "pkg-2.1.7-mc1.20.1-forge" = _jEMj075X;
+        "pkg-2.1.8-mc1.20.1-forge" = _GP3WtCzF;
+        "pkg-2.1.9-mc1.20.1-forge" = _Tzzphrug;
         "default" = _Tzzphrug;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

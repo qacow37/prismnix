@@ -10,6 +10,7 @@ let
         "knGmpSyX" = _knGmpSyX;
         "minecraft-1.21.7" = _knGmpSyX;
         "minecraft-1.21.8" = _knGmpSyX;
+        "pkg-1" = _knGmpSyX;
         "default" = _knGmpSyX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

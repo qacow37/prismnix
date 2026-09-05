@@ -21,6 +21,9 @@ let
         "m0A4t9H7" = _m0A4t9H7;
         "RI8AiPnx" = _RI8AiPnx;
         "forge-1.7.10" = _RI8AiPnx;
+        "pkg-1.0" = _adrgGKS0;
+        "pkg-1.1" = _m0A4t9H7;
+        "pkg-1.2" = _RI8AiPnx;
         "default" = _RI8AiPnx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

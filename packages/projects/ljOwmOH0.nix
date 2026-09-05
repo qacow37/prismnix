@@ -74,6 +74,7 @@ let
         "spigot-26.1" = _Hp5AkEOP;
         "spigot-26.1.1" = _Hp5AkEOP;
         "spigot-26.1.2" = _Hp5AkEOP;
+        "pkg-1.2" = _Hp5AkEOP;
         "default" = _Hp5AkEOP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

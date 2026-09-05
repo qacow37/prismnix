@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _EduTIlEp;
         "spigot-1.21.10" = _EduTIlEp;
         "spigot-1.21.11" = _EduTIlEp;
+        "pkg-1.0.0" = _EduTIlEp;
         "default" = _EduTIlEp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

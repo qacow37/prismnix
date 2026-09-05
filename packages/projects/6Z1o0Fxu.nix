@@ -16,6 +16,7 @@ let
         "Tu2iZN6X" = _Tu2iZN6X;
         "fabric-1.20.1" = _BZH4ySKM;
         "forge-1.20.1" = _Tu2iZN6X;
+        "pkg-1.0.0" = _Tu2iZN6X;
         "default" = _Tu2iZN6X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

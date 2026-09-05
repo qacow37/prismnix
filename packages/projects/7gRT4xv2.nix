@@ -69,6 +69,14 @@ let
         "minecraft-1.21.9" = _lnTLjwJV;
         "minecraft-1.21.10" = _lnTLjwJV;
         "minecraft-1.21.11" = _lnTLjwJV;
+        "pkg-buckets" = _2l9VLmsg;
+        "pkg-Daydream_cnd" = _qIkMRoMn;
+        "pkg-Daydream_cpd" = _MeilGBNn;
+        "pkg-Daydream_hn" = _LZx68D9x;
+        "pkg-Daydream_nd" = _K7Wj8nU4;
+        "pkg-Daydream_nn" = _3wklYLIH;
+        "pkg-Daydream_pd" = _8fQKc2q9;
+        "pkg-Daydream_pn" = _lnTLjwJV;
         "default" = _lnTLjwJV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

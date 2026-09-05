@@ -63,6 +63,11 @@ let
         "iris-26.1.1" = _XVmtlTv0;
         "iris-26.1.2" = _XVmtlTv0;
         "iris-26.2" = _XVmtlTv0;
+        "pkg-0.98" = _rrxYL0Xs;
+        "pkg-0.99" = _YCjZMuKd;
+        "pkg-0.100" = _bgcoZSSz;
+        "pkg-0.101" = _khF2SsCc;
+        "pkg-0.102" = _XVmtlTv0;
         "default" = _XVmtlTv0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

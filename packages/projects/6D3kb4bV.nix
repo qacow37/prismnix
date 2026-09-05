@@ -27,6 +27,8 @@ let
         "exvHZsF4" = _exvHZsF4;
         "KyIjarVV" = _KyIjarVV;
         "minecraft-1.21" = _KyIjarVV;
+        "pkg-1" = _BE9hNRA6;
+        "pkg-2.0" = _KyIjarVV;
         "default" = _KyIjarVV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

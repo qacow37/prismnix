@@ -49,6 +49,8 @@ let
         "spigot-1.21.2" = _kSney7UY;
         "spigot-1.21.3" = _kSney7UY;
         "spigot-1.21.4" = _kSney7UY;
+        "pkg-BX3.4.5" = _qkb0hTuI;
+        "pkg-BX3.4.7" = _kSney7UY;
         "default" = _kSney7UY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

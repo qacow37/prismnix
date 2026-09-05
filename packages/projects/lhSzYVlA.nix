@@ -28,6 +28,10 @@ let
         "eN7VlONr" = _eN7VlONr;
         "minecraft-1.21.1" = _eN7VlONr;
         "minecraft-1.21" = _N26V3ZAr;
+        "pkg-CobbleTCG-ResorcePack2-1.0.0" = _GCqDCfak;
+        "pkg-CobbleTCG_ResourcePack3-1.3.9" = _9SGGykfX;
+        "pkg-CobbleTCG-ResorcePack3-1.3.91" = _N26V3ZAr;
+        "pkg-CobbleTCG-ResorcePack3-1.5.0" = _eN7VlONr;
         "default" = _eN7VlONr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

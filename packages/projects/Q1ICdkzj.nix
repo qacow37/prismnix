@@ -96,6 +96,9 @@ let
         "optifine-26.1" = _xncGr4KP;
         "optifine-26.1.1" = _xncGr4KP;
         "optifine-26.1.2" = _xncGr4KP;
+        "pkg-1.0" = _9adpLTX7;
+        "pkg-1.0.1" = _WSr5PJ4l;
+        "pkg-1.1" = _xncGr4KP;
         "default" = _xncGr4KP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

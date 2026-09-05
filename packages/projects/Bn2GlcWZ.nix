@@ -15,6 +15,8 @@ let
         "a2WPHg0k" = _a2WPHg0k;
         "MEXQRA5E" = _MEXQRA5E;
         "forge-1.12.2" = _MEXQRA5E;
+        "pkg-1.0.4" = _a2WPHg0k;
+        "pkg-1.0.5" = _MEXQRA5E;
         "default" = _MEXQRA5E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

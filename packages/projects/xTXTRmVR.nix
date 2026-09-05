@@ -119,6 +119,11 @@ let
         "minecraft-26.1.1" = _1fXD6grf;
         "minecraft-26.1.2" = _1fXD6grf;
         "minecraft-26.2" = _1fXD6grf;
+        "pkg-improved_spawners-0.1" = _tAzBnwxh;
+        "pkg-improved_spawners-0.2" = _gtnJ7lmw;
+        "pkg-improved_spawners_1.20.2-1.8" = _2UfMMJTu;
+        "pkg-improved_spawners-0.3" = _liselPtk;
+        "pkg-improved_spawners-0.4" = _1fXD6grf;
         "default" = _1fXD6grf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "niGiMhMd" = _niGiMhMd;
         "LXhsiXLG" = _LXhsiXLG;
         "minecraft-1.12.2" = _LXhsiXLG;
+        "pkg-11.2" = _niGiMhMd;
+        "pkg-11.3" = _LXhsiXLG;
         "default" = _LXhsiXLG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

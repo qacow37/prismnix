@@ -11,6 +11,7 @@ let
         "fabric-1.20.1" = _VGw7vcx4;
         "fabric-1.20.2" = _VGw7vcx4;
         "fabric-1.20.3" = _VGw7vcx4;
+        "pkg-1.2.2" = _VGw7vcx4;
         "default" = _VGw7vcx4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

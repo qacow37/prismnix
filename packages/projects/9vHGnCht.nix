@@ -15,6 +15,8 @@ let
         "H5M6fyOp" = _H5M6fyOp;
         "H9fjVMso" = _H9fjVMso;
         "forge-1.20.1" = _H9fjVMso;
+        "pkg-0.1-1.20.1" = _H5M6fyOp;
+        "pkg-0.2-1.20.1" = _H9fjVMso;
         "default" = _H9fjVMso;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -105,6 +105,23 @@ let
         "UHhdVRmX" = _UHhdVRmX;
         "VKFWyuIi" = _VKFWyuIi;
         "modloader-inf-20100618" = _VKFWyuIi;
+        "pkg-8.7" = _WZFtr91w;
+        "pkg-8.8" = _BosZwoFe;
+        "pkg-8.9" = _2xt1sojx;
+        "pkg-9.0" = _tjqNrBbu;
+        "pkg-9.1" = _PtF6R1sv;
+        "pkg-9.2" = _Tvna8o8Y;
+        "pkg-9.3" = _zOaB3pL9;
+        "pkg-9.4" = _aWTsjeM4;
+        "pkg-9.5" = _gB2HHxg3;
+        "pkg-9.6" = _KzhwNIkW;
+        "pkg-9.7" = _QWzGnYrQ;
+        "pkg-9.8" = _JJv1DPmj;
+        "pkg-9.9" = _ZpFgDrCa;
+        "pkg-10.0" = _YkKrF539;
+        "pkg-10.1" = _X032UlgP;
+        "pkg-10.2" = _UHhdVRmX;
+        "pkg-10.3" = _VKFWyuIi;
         "default" = _VKFWyuIi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

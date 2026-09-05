@@ -32,6 +32,10 @@ let
         "fabric-1.17" = _bY7nVD40;
         "fabric-1.18.1" = _3oEntfZm;
         "fabric-1.18.2" = _QTK1mkXa;
+        "pkg-1.1.1" = _ldXUy8y2;
+        "pkg-1.2.0" = _bY7nVD40;
+        "pkg-1.3.0" = _3oEntfZm;
+        "pkg-1.3.1" = _QTK1mkXa;
         "default" = _QTK1mkXa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "ucMlzxMS" = _ucMlzxMS;
         "forge-1.20.1" = _Ewpp1zNx;
         "neoforge-1.21.1" = _ucMlzxMS;
+        "pkg-1.0.0" = _Ewpp1zNx;
+        "pkg-1.2" = _ucMlzxMS;
         "default" = _ucMlzxMS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

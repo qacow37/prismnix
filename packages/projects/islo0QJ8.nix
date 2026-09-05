@@ -16,6 +16,8 @@ let
         "SS4e0HS6" = _SS4e0HS6;
         "minecraft-1.20.4" = _DLAm4brh;
         "minecraft-1.20.6" = _SS4e0HS6;
+        "pkg-1" = _DLAm4brh;
+        "pkg-2" = _SS4e0HS6;
         "default" = _SS4e0HS6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

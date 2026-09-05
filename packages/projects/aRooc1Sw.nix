@@ -92,6 +92,8 @@ let
         "quilt-1.21.9" = _Pj3rvMce;
         "quilt-1.21.10" = _Pj3rvMce;
         "quilt-25w41a" = _Pj3rvMce;
+        "pkg-1.0.0+fabric-quilt" = _542ozsfU;
+        "pkg-1.1.0" = _Pj3rvMce;
         "default" = _Pj3rvMce;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

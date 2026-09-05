@@ -9,6 +9,7 @@ let
     in {
         "WSIDtbhj" = _WSIDtbhj;
         "forge-1.20.1" = _WSIDtbhj;
+        "pkg-1.0.0" = _WSIDtbhj;
         "default" = _WSIDtbhj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

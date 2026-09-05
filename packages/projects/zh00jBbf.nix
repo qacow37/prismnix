@@ -15,6 +15,8 @@ let
         "HsbramtP" = _HsbramtP;
         "KJgEPEqf" = _KJgEPEqf;
         "fabric-1.21.4" = _KJgEPEqf;
+        "pkg-2.7" = _HsbramtP;
+        "pkg-0.4" = _KJgEPEqf;
         "default" = _KJgEPEqf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

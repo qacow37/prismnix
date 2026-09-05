@@ -21,6 +21,9 @@ let
         "Ejkj4Vnx" = _Ejkj4Vnx;
         "dYySBZAP" = _dYySBZAP;
         "forge-1.7.10" = _dYySBZAP;
+        "pkg-23.07.10" = _N8Dslp1r;
+        "pkg-24.07.10" = _Ejkj4Vnx;
+        "pkg-24.08.29" = _dYySBZAP;
         "default" = _dYySBZAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

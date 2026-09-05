@@ -15,6 +15,7 @@ let
         "NwAvrQXl" = _NwAvrQXl;
         "eWflki0A" = _eWflki0A;
         "forge-1.20.1" = _eWflki0A;
+        "pkg-1.0.0" = _eWflki0A;
         "default" = _eWflki0A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

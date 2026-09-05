@@ -10,6 +10,7 @@ let
         "DCHaSBQc" = _DCHaSBQc;
         "fabric-1.21" = _DCHaSBQc;
         "fabric-1.21.1" = _DCHaSBQc;
+        "pkg-1.0.0" = _DCHaSBQc;
         "default" = _DCHaSBQc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

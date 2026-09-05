@@ -29,6 +29,8 @@ let
         "forge-1.19.4" = _lWFkxjsX;
         "forge-1.20" = _lWFkxjsX;
         "forge-1.20.1" = _lWFkxjsX;
+        "pkg-1.0.0" = _CaSBSWFy;
+        "pkg-1.0.1" = _lWFkxjsX;
         "default" = _lWFkxjsX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

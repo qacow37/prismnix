@@ -11,6 +11,7 @@ let
         "forge-1.19.2" = _U0oVmrnD;
         "forge-1.19.3" = _U0oVmrnD;
         "forge-1.19.4" = _U0oVmrnD;
+        "pkg-1.7.0" = _U0oVmrnD;
         "default" = _U0oVmrnD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

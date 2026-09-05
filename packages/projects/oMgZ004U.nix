@@ -17,6 +17,8 @@ let
         "forge-1.20.1" = _cAcdjzEn;
         "neoforge-1.20.1" = _cAcdjzEn;
         "neoforge-1.21.1" = _sD979rMC;
+        "pkg-1.20-1.3.7-forge" = _cAcdjzEn;
+        "pkg-1.21-2.1.4-neoforge" = _sD979rMC;
         "default" = _sD979rMC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

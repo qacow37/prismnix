@@ -15,6 +15,8 @@ let
         "UvsmmJ2D" = _UvsmmJ2D;
         "DVKmsGWI" = _DVKmsGWI;
         "neoforge-1.21.1" = _DVKmsGWI;
+        "pkg-1.0.0" = _UvsmmJ2D;
+        "pkg-1.0.1" = _DVKmsGWI;
         "default" = _DVKmsGWI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

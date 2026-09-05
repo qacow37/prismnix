@@ -9,6 +9,7 @@ let
     in {
         "hrex3w8g" = _hrex3w8g;
         "fabric-25w14craftmine" = _hrex3w8g;
+        "pkg-1.0.0" = _hrex3w8g;
         "default" = _hrex3w8g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

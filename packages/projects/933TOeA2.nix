@@ -34,6 +34,8 @@ let
         "spigot-1.20.2" = _oeW2WevB;
         "spigot-1.20.3" = _oeW2WevB;
         "spigot-1.20.4" = _oeW2WevB;
+        "pkg-0.1.0" = _zebsLRVh;
+        "pkg-0.1.2" = _oeW2WevB;
         "default" = _oeW2WevB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "mQDRMKxv" = _mQDRMKxv;
         "fabric-25w14craftmine" = _mQDRMKxv;
+        "pkg-5.3.0" = _mQDRMKxv;
         "default" = _mQDRMKxv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -23,6 +23,8 @@ let
         "minecraft-1.21" = _LG41OdJv;
         "minecraft-1.21.1" = _LG41OdJv;
         "minecraft-24w33a" = _LG41OdJv;
+        "pkg-1.0.0" = _NxD0hOZE;
+        "pkg-1.0.1" = _LG41OdJv;
         "default" = _LG41OdJv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

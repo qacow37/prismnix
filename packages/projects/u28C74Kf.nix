@@ -252,6 +252,27 @@ let
         "datapack-26.1.1" = _bL6179Lt;
         "datapack-26.1.2" = _bL6179Lt;
         "datapack-26.2" = _bL6179Lt;
+        "pkg-1.0.0-1.16-1.19.4" = _8hsxVoeP;
+        "pkg-1.0.0-1.20.1" = _srq8iFio;
+        "pkg-1.0.0-1.17-1.19.4" = _8LO7wvIR;
+        "pkg-1.0.1-1.20.1" = _oeyYgtQK;
+        "pkg-1.0.2-1.20.1-Forge" = _UY0kCWBO;
+        "pkg-1.0.2-1.21.1-Fabric" = _6fYyz3kO;
+        "pkg-1.0.2-1.21.1-NeoForge" = _dRFm5qTc;
+        "pkg-1.0.2-1.21.1-Forge" = _urC8jkfu;
+        "pkg-1.0.2-1.21.3-NeoForge" = _86BOX6Mt;
+        "pkg-1.0.2-1.21.3-Fabric" = _tck9dGWs;
+        "pkg-1.0.2-1.21.3-Forge" = _1oM6QSAX;
+        "pkg-1.20.1-unspecified" = _uIsX4wfv;
+        "pkg-1.21.1-unspecified" = _2ljRhpp6;
+        "pkg-1.21.3-unspecified" = _76b7GqG3;
+        "pkg-1.0.2-1.21.6-Forge" = _TqXSIGjX;
+        "pkg-1.1.0-26.1-unspecified" = _bL6179Lt;
+        "pkg-1.1.0-26.1-Fabric" = _4gFyTY5T;
+        "pkg-1.1.0-26.1-NeoForge" = _yKUiyxSA;
+        "pkg-1.1.0-26.1-Forge" = _IEdrm4Xv;
+        "pkg-1.1.1-26.1-Forge" = _6prT64dP;
+        "pkg-1.1.1-26.1-NeoForge" = _TROElHor;
         "default" = _TROElHor;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

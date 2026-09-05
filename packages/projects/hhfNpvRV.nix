@@ -46,6 +46,10 @@ let
         "7LBVCgam" = _7LBVCgam;
         "forge-1.19.2" = _aqlmboNx;
         "forge-1.20.1" = _7LBVCgam;
+        "pkg-1.0.0" = _hDZ95Qx3;
+        "pkg-1.7" = _PrDHsCGf;
+        "pkg-1.9J" = _5qBzgVwr;
+        "pkg-2.0F" = _7LBVCgam;
         "default" = _7LBVCgam;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

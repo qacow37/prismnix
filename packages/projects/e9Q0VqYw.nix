@@ -45,6 +45,13 @@ let
         "oCKhu6gF" = _oCKhu6gF;
         "K4FE9CkW" = _K4FE9CkW;
         "forge-1.8.9" = _K4FE9CkW;
+        "pkg-4.0" = _6XOsJ6hY;
+        "pkg-4.1" = _YtBbGhst;
+        "pkg-4.2" = _l2RpWJ01;
+        "pkg-4.3" = _1jp3kgm8;
+        "pkg-4.4" = _MFQLmydu;
+        "pkg-4.4.1" = _oCKhu6gF;
+        "pkg-4.5" = _K4FE9CkW;
         "default" = _K4FE9CkW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

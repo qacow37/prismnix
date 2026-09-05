@@ -9,6 +9,7 @@ let
     in {
         "QMU943rj" = _QMU943rj;
         "forge-1.12.2" = _QMU943rj;
+        "pkg-1.12.2-1.0.3.1" = _QMU943rj;
         "default" = _QMU943rj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

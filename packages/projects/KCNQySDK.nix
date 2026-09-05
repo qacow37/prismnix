@@ -33,6 +33,11 @@ let
         "oiFCxFGt" = _oiFCxFGt;
         "qiiGMTOP" = _qiiGMTOP;
         "fabric-1.20.1" = _qiiGMTOP;
+        "pkg-1.0.0-1.20.1" = _JvQOwbtP;
+        "pkg-1.0.1-1.20.1" = _pozJ6QGK;
+        "pkg-1.0.2-1.20.1" = _sg0ydxSm;
+        "pkg-1.0.3-1.20.1" = _oiFCxFGt;
+        "pkg-1.0.4-1.20.1" = _qiiGMTOP;
         "default" = _qiiGMTOP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

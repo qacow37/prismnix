@@ -21,6 +21,9 @@ let
         "eOlIkSmq" = _eOlIkSmq;
         "84T1z0M3" = _84T1z0M3;
         "forge-1.19.2" = _84T1z0M3;
+        "pkg-0.1" = _z2r3B4ky;
+        "pkg-0.2" = _eOlIkSmq;
+        "pkg-0.2.1" = _84T1z0M3;
         "default" = _84T1z0M3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

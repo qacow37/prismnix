@@ -20,6 +20,7 @@ let
         "minecraft-1.21.2" = _IZPPekRl;
         "minecraft-1.21.3" = _IZPPekRl;
         "minecraft-1.21.4" = _IZPPekRl;
+        "pkg-1" = _IZPPekRl;
         "default" = _IZPPekRl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

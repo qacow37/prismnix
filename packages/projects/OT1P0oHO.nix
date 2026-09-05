@@ -134,6 +134,7 @@ let
         "optifine-1.21.2" = _sccT8gps;
         "optifine-1.21.3" = _sccT8gps;
         "optifine-1.21.4" = _sccT8gps;
+        "pkg-2.4" = _sccT8gps;
         "default" = _sccT8gps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

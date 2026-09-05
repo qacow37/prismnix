@@ -16,6 +16,7 @@ let
         "CTZc7ud6" = _CTZc7ud6;
         "forge-1.20.1" = _tojebA56;
         "fabric-1.20.1" = _CTZc7ud6;
+        "pkg-1.20.1-1.0.0" = _CTZc7ud6;
         "default" = _CTZc7ud6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

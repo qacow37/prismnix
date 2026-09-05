@@ -22,6 +22,8 @@ let
         "9FEs1ITm" = _9FEs1ITm;
         "neoforge-1.21.1" = _9FEs1ITm;
         "forge-1.20.1" = _SVrOiSaD;
+        "pkg-1.0.0" = _SVrOiSaD;
+        "pkg-1.0.1" = _9FEs1ITm;
         "default" = _9FEs1ITm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -57,6 +57,7 @@ let
         "minecraft-1.21.9" = _GvZ64PpR;
         "minecraft-1.21.10" = _GvZ64PpR;
         "minecraft-1.21.11" = _GvZ64PpR;
+        "pkg-1.0" = _GvZ64PpR;
         "default" = _GvZ64PpR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

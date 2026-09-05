@@ -18,6 +18,8 @@ let
         "fabric-1.19.2" = _HRCjy4lR;
         "fabric-1.20" = _FCaMlIt9;
         "fabric-1.20.1" = _FCaMlIt9;
+        "pkg-1" = _HRCjy4lR;
+        "pkg-1.1.0" = _FCaMlIt9;
         "default" = _FCaMlIt9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

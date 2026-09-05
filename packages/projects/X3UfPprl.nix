@@ -15,6 +15,8 @@ let
         "msogNHL1" = _msogNHL1;
         "Mg3hSxRC" = _Mg3hSxRC;
         "forge-1.20.1" = _Mg3hSxRC;
+        "pkg-0.8" = _msogNHL1;
+        "pkg-1.0" = _Mg3hSxRC;
         "default" = _Mg3hSxRC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

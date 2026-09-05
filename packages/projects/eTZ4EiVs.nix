@@ -15,6 +15,8 @@ let
         "5mKLopK6" = _5mKLopK6;
         "QlkbsAMw" = _QlkbsAMw;
         "forge-1.20.1" = _QlkbsAMw;
+        "pkg-0.0.1" = _5mKLopK6;
+        "pkg-0.0.2" = _QlkbsAMw;
         "default" = _QlkbsAMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

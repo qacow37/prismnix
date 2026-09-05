@@ -45,6 +45,13 @@ let
         "2Nk02HHe" = _2Nk02HHe;
         "3BMteM6l" = _3BMteM6l;
         "neoforge-1.21.1" = _3BMteM6l;
+        "pkg-0.1.0" = _OH9VvS73;
+        "pkg-0.2.0" = _GD9eawjx;
+        "pkg-0.3.0" = _NUhTvcnF;
+        "pkg-0.4.0" = _zIgAM7yj;
+        "pkg-0.4.1" = _lfhlTFkV;
+        "pkg-0.4.2" = _2Nk02HHe;
+        "pkg-0.5.0" = _3BMteM6l;
         "default" = _3BMteM6l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

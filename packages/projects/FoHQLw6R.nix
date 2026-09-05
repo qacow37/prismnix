@@ -42,6 +42,12 @@ let
         "minecraft-1.21.1" = _kxjNmPhN;
         "fabric-1.21.1" = _250IhxLN;
         "neoforge-1.21.1" = _250IhxLN;
+        "pkg-1.0" = _ZendQXvX;
+        "pkg-1.0+mod" = _LtQxk7fR;
+        "pkg-1.1" = _2qOexWWU;
+        "pkg-1.1+mod" = _T6bJkEKF;
+        "pkg-1.2" = _kxjNmPhN;
+        "pkg-1.2+mod" = _250IhxLN;
         "default" = _250IhxLN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

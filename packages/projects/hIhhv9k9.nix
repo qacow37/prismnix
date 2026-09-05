@@ -33,6 +33,11 @@ let
         "FituoYko" = _FituoYko;
         "fmdF8CJE" = _fmdF8CJE;
         "forge-1.20.1" = _fmdF8CJE;
+        "pkg-1.0.0" = _JvUZRdwd;
+        "pkg-1.0.1" = _Pj3pE5Mv;
+        "pkg-1.0.2" = _HMXIgiMf;
+        "pkg-1.0.3" = _FituoYko;
+        "pkg-1.0.4" = _fmdF8CJE;
         "default" = _fmdF8CJE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

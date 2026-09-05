@@ -113,6 +113,7 @@ let
         "spigot-1.21.9" = _EoaT8brr;
         "spigot-1.21.10" = _EoaT8brr;
         "spigot-1.21.11" = _EoaT8brr;
+        "pkg-1.0" = _EoaT8brr;
         "default" = _EoaT8brr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -52,6 +52,7 @@ let
         "forge-1.18.2" = _myXCDZv6;
         "neoforge-1.20" = _VFmLxJng;
         "neoforge-1.20.1" = _VFmLxJng;
+        "pkg-1.0.0" = _myXCDZv6;
         "default" = _myXCDZv6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

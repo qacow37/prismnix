@@ -52,6 +52,10 @@ let
         "btZsIilN" = _btZsIilN;
         "fabric-1.19.2" = _1R8RNZ8g;
         "forge-1.19.2" = _btZsIilN;
+        "pkg-1.0.1" = _hfTCPMul;
+        "pkg-1.0.2" = _WTngfVd3;
+        "pkg-1.0.4" = _URUFoD3d;
+        "pkg-1.0.5" = _btZsIilN;
         "default" = _btZsIilN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "wArWRjoY" = _wArWRjoY;
         "SiBFlIGn" = _SiBFlIGn;
         "minecraft-1.20.1" = _SiBFlIGn;
+        "pkg-1.0" = _wArWRjoY;
+        "pkg-1.1" = _SiBFlIGn;
         "default" = _SiBFlIGn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

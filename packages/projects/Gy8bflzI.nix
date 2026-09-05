@@ -17,6 +17,8 @@ let
         "minecraft-1.20.1" = _KMHgM1cs;
         "minecraft-1.21" = _I2esCPOi;
         "minecraft-1.21.1" = _I2esCPOi;
+        "pkg-1.0" = _KMHgM1cs;
+        "pkg-1.0.1" = _I2esCPOi;
         "default" = _I2esCPOi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

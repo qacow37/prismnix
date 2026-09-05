@@ -10,6 +10,7 @@ let
         "cB822RyC" = _cB822RyC;
         "forge-1.20" = _cB822RyC;
         "forge-1.20.1" = _cB822RyC;
+        "pkg-1.0.0" = _cB822RyC;
         "default" = _cB822RyC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

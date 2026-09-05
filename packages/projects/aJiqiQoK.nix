@@ -35,6 +35,7 @@ let
         "minecraft-1.21.9" = _2hryePYX;
         "minecraft-1.21.10" = _2hryePYX;
         "minecraft-1.21.11" = _2hryePYX;
+        "pkg-1.0" = _2hryePYX;
         "default" = _2hryePYX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

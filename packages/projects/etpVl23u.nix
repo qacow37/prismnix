@@ -44,6 +44,7 @@ let
         "forge-1.19.4" = _CunnAN48;
         "forge-1.19.2" = _gig0erm6;
         "forge-1.20" = _WpZpgvMd;
+        "pkg-4.0.0" = _WpZpgvMd;
         "default" = _WpZpgvMd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

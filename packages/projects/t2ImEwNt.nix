@@ -9,6 +9,7 @@ let
     in {
         "canM8X8y" = _canM8X8y;
         "fabric-1.21.11" = _canM8X8y;
+        "pkg-1.0.0" = _canM8X8y;
         "default" = _canM8X8y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

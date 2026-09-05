@@ -27,6 +27,10 @@ let
         "BILXsCRv" = _BILXsCRv;
         "98tKO32B" = _98tKO32B;
         "fabric-25w14craftmine" = _98tKO32B;
+        "pkg-0.1.0" = _XXcwAQI7;
+        "pkg-0.1.1" = _C4KHlOT3;
+        "pkg-0.1.2" = _BILXsCRv;
+        "pkg-0.1.3" = _98tKO32B;
         "default" = _98tKO32B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

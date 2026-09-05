@@ -18,6 +18,7 @@ let
         "forge-1.20.3" = _KxenaBoI;
         "forge-1.20.4" = _KxenaBoI;
         "forge-1.20.5" = _KxenaBoI;
+        "pkg-1.0.0" = _KxenaBoI;
         "default" = _KxenaBoI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "tyeVIga2" = _tyeVIga2;
         "j7Y97Gnx" = _j7Y97Gnx;
         "fabric-1.20.1" = _j7Y97Gnx;
+        "pkg-1.0-1.20.1" = _tyeVIga2;
+        "pkg-1.1-1.20.1" = _j7Y97Gnx;
         "default" = _j7Y97Gnx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

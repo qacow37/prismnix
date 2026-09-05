@@ -34,6 +34,11 @@ let
         "8py2UyzU" = _8py2UyzU;
         "forge-1.20.1" = _8py2UyzU;
         "neoforge-1.20.1" = _8py2UyzU;
+        "pkg-1.0.0-Beta" = _ZTkA7SX4;
+        "pkg-1.0.0-Beta-Fixed" = _zk3UD6EW;
+        "pkg-1.0.1" = _ZSrMe1Nt;
+        "pkg-1.0.2" = _yT8QKYpR;
+        "pkg-1.0.2c" = _8py2UyzU;
         "default" = _8py2UyzU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

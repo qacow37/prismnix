@@ -9,6 +9,7 @@ let
     in {
         "qmDRqSr1" = _qmDRqSr1;
         "velocity-1.21.5" = _qmDRqSr1;
+        "pkg-1.0" = _qmDRqSr1;
         "default" = _qmDRqSr1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

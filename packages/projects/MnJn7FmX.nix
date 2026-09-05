@@ -33,6 +33,11 @@ let
         "RcdyrSqJ" = _RcdyrSqJ;
         "98FGl121" = _98FGl121;
         "forge-1.20.1" = _98FGl121;
+        "pkg-1.0.0" = _spuYimpz;
+        "pkg-2.0.0" = _MqNrEanC;
+        "pkg-2.1.0" = _1vFEOaHc;
+        "pkg-2.2.0" = _RcdyrSqJ;
+        "pkg-3.0.0" = _98FGl121;
         "default" = _98FGl121;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

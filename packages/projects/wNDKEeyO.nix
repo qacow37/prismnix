@@ -40,6 +40,11 @@ let
         "Sq411AY5" = _Sq411AY5;
         "forge-1.20.1" = _29Oy2hF6;
         "neoforge-1.21.1" = _Sq411AY5;
+        "pkg-1.0" = _v8SHwKms;
+        "pkg-1.0.1" = _JbUz7xp7;
+        "pkg-1.0.2" = _pLDaaNkf;
+        "pkg-1.0.3" = _lGu1y7df;
+        "pkg-1.0.4" = _Sq411AY5;
         "default" = _Sq411AY5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -12,6 +12,7 @@ let
         "fabric-1.20.2" = _DuBy74Nl;
         "fabric-1.20.3" = _DuBy74Nl;
         "fabric-1.20.4" = _DuBy74Nl;
+        "pkg-1.1.0" = _DuBy74Nl;
         "default" = _DuBy74Nl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

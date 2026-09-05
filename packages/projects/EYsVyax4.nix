@@ -22,6 +22,8 @@ let
         "jSpeRKDO" = _jSpeRKDO;
         "forge-1.8.9" = _jSpeRKDO;
         "forge-1.12.2" = _Grjl93iS;
+        "pkg-3.2.9" = _Grjl93iS;
+        "pkg-v4" = _jSpeRKDO;
         "default" = _jSpeRKDO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

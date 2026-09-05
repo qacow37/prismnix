@@ -15,6 +15,8 @@ let
         "CMMhudnY" = _CMMhudnY;
         "KwSOPcXz" = _KwSOPcXz;
         "fabric-1.20.1" = _KwSOPcXz;
+        "pkg-1.0.0" = _CMMhudnY;
+        "pkg-1.1.2" = _KwSOPcXz;
         "default" = _KwSOPcXz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "iH3GeDIi" = _iH3GeDIi;
         "bjlGdrTP" = _bjlGdrTP;
         "forge-1.16.5" = _bjlGdrTP;
+        "pkg-3.0.0" = _iH3GeDIi;
+        "pkg-4.0.0" = _bjlGdrTP;
         "default" = _bjlGdrTP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,9 @@ let
         "cKVpRowx" = _cKVpRowx;
         "forge-1.8.8" = _cKVpRowx;
         "forge-1.8.9" = _cKVpRowx;
+        "pkg-1.0.0" = _Viz6pSpR;
+        "pkg-1.1.0" = _PLF35q5z;
+        "pkg-1.2.0" = _cKVpRowx;
         "default" = _cKVpRowx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

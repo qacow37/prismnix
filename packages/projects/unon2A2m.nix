@@ -285,6 +285,7 @@ let
         "sponge-1.19" = _OLIQ6AaN;
         "sponge-1.19.1" = _OLIQ6AaN;
         "sponge-1.19.2" = _OLIQ6AaN;
+        "pkg-3c1ba8b" = _OLIQ6AaN;
         "default" = _OLIQ6AaN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

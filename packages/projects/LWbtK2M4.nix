@@ -175,6 +175,9 @@ let
         "legacy-fabric-1.13" = _kIKAid8S;
         "legacy-fabric-1.13.1" = _kIKAid8S;
         "legacy-fabric-1.13.2" = _kIKAid8S;
+        "pkg-1.0.0" = _kIKAid8S;
+        "pkg-1.0.1" = _HNmO4kfO;
+        "pkg-1.0.2+26.1" = _fhhAe6Mv;
         "default" = _fhhAe6Mv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "OWENs2Th" = _OWENs2Th;
         "fabric-1.21.1" = _HkBOX5XJ;
         "neoforge-1.21.1" = _OWENs2Th;
+        "pkg-1.0.0" = _OWENs2Th;
         "default" = _OWENs2Th;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

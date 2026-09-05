@@ -434,6 +434,8 @@ let
         "quilt-1.21.11" = _3oCouspv;
         "quilt-26.1" = _3oCouspv;
         "quilt-26.1.1" = _3oCouspv;
+        "pkg-1.21.11" = _Mio229xH;
+        "pkg-1.21.11+mod" = _3oCouspv;
         "default" = _3oCouspv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

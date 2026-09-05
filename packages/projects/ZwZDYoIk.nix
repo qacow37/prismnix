@@ -22,6 +22,9 @@ let
         "3alO3r4p" = _3alO3r4p;
         "fabric-1.19" = _ogXzi8te;
         "quilt-1.19.2" = _3alO3r4p;
+        "pkg-1.0.0" = _v1G3zI6I;
+        "pkg-1.1.0" = _ogXzi8te;
+        "pkg-1.1.1" = _3alO3r4p;
         "default" = _3alO3r4p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "fMzst34r" = _fMzst34r;
         "FEkNBdoN" = _FEkNBdoN;
         "fabric-1.20.1" = _FEkNBdoN;
+        "pkg-1.0.0" = _fMzst34r;
+        "pkg-1.0.1" = _FEkNBdoN;
         "default" = _FEkNBdoN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

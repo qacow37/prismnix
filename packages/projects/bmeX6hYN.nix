@@ -69,6 +69,7 @@ let
         "fabric-26.2-rc-1" = _T47XCZr3;
         "fabric-26.2-rc-2" = _T47XCZr3;
         "fabric-26.2" = _T47XCZr3;
+        "pkg-1.0.0" = _T47XCZr3;
         "default" = _T47XCZr3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -124,6 +124,26 @@ let
         "rSlh9vpG" = _rSlh9vpG;
         "forge-1.20.1" = _rSlh9vpG;
         "neoforge-1.20.1" = _4zRFhDXn;
+        "pkg-2.0.0b+1.20.1-forge" = _Y3moCkCL;
+        "pkg-2.0.1-beta-forge" = _p3KrlQEE;
+        "pkg-2.0.2-beta-forge" = _mVU9YOY0;
+        "pkg-2.0.3-beta-forge" = _wnGCgwtx;
+        "pkg-2.0.3-beta-fix-forge" = _BMe1Qgdv;
+        "pkg-2.0.4-beta-forge" = _sMPKeBg6;
+        "pkg-2.0.4-beta-fix-forge" = _U7DKnl68;
+        "pkg-2.0.4-beta-fix2-forge" = _9ME6gqmH;
+        "pkg-2.0.4-beta-fix3-forge" = _jKE9LbJa;
+        "pkg-2.0.4-beta-fix4-forge" = _IQ4pdafY;
+        "pkg-2.0.4-beta-fix5-forge" = _oMeuOtVl;
+        "pkg-2.0.5-beta-forge" = _r5FTYjKo;
+        "pkg-2.0.6-beta-forge" = _FDHxJ7Py;
+        "pkg-2.0.7-beta" = _OJiWVA54;
+        "pkg-2.0.8-beta" = _d0YxqLDa;
+        "pkg-2.0.8-betaf1" = _sZPTHyLG;
+        "pkg-2.0.9-beta" = _9iLUdQCC;
+        "pkg-2.0.9-betaf" = _4zRFhDXn;
+        "pkg-2.1.0-beta" = _9hQ0tn5I;
+        "pkg-2.1.0-betaf1" = _rSlh9vpG;
         "default" = _rSlh9vpG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

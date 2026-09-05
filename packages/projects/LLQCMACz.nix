@@ -47,6 +47,7 @@ let
         "minecraft-1.21.2" = _NC5lITGp;
         "minecraft-1.21.3" = _NC5lITGp;
         "minecraft-1.21.4" = _NC5lITGp;
+        "pkg-r0.1" = _NC5lITGp;
         "default" = _NC5lITGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

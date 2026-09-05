@@ -91,6 +91,20 @@ let
         "fabric-1.18" = _7nNrY0It;
         "fabric-1.18.2" = _Zt56xQ8P;
         "quilt-1.18.2" = _Zt56xQ8P;
+        "pkg-ValleyCraft 1.1" = _2XkQrwj8;
+        "pkg-1.2" = _x5ZBZIfT;
+        "pkg-ValleyCraft 1.2.1" = _rENfHvu8;
+        "pkg-ValleyCraft V. 1.3: The Mabon Update" = _H5iQOtR6;
+        "pkg-ValleyCraft 1.3.1" = _4MVbn6M3;
+        "pkg-ValleyCraft 1.3.2" = _F8je0i2d;
+        "pkg-ValleyCraft 2.0" = _lxDhNZFh;
+        "pkg-ValleyCraft 2.0.1" = _fioARAvg;
+        "pkg-ValleyCraft 2.1" = _YXUl4Nd0;
+        "pkg-2.2" = _H4gerc7t;
+        "pkg-2.2.1" = _w2DvfhNM;
+        "pkg-2.2.2" = _7nNrY0It;
+        "pkg-2.3" = _MaNNf6JG;
+        "pkg-2.3.1" = _Zt56xQ8P;
         "default" = _Zt56xQ8P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

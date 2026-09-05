@@ -38,6 +38,8 @@ let
         "iris-1.21.9" = _LCNLWfDo;
         "iris-1.21.10" = _LCNLWfDo;
         "iris-1.21.11" = _LCNLWfDo;
+        "pkg-1.0.0" = _C0iCEzMv;
+        "pkg-1.1.0" = _LCNLWfDo;
         "default" = _LCNLWfDo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

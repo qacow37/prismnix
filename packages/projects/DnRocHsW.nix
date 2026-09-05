@@ -27,6 +27,10 @@ let
         "4j9PzVOC" = _4j9PzVOC;
         "PIt1a92g" = _PIt1a92g;
         "forge-1.12.2" = _PIt1a92g;
+        "pkg-1.12.2-0.3.10" = _ecH7X0MB;
+        "pkg-1.12.2-0.3.11" = _6LH9Z3ve;
+        "pkg-1.12.2-0.3.12" = _4j9PzVOC;
+        "pkg-0.4.2" = _PIt1a92g;
         "default" = _PIt1a92g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

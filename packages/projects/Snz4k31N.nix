@@ -9,6 +9,7 @@ let
     in {
         "aNvDP8vC" = _aNvDP8vC;
         "forge-1.18.2" = _aNvDP8vC;
+        "pkg-1.0.0" = _aNvDP8vC;
         "default" = _aNvDP8vC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

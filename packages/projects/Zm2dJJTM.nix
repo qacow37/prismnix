@@ -39,6 +39,12 @@ let
         "HDuSuVr1" = _HDuSuVr1;
         "F1I7quJH" = _F1I7quJH;
         "forge-1.20.1" = _F1I7quJH;
+        "pkg-2.1" = _kEYgCAKj;
+        "pkg-2.0-1.20.1" = _ipLROL0a;
+        "pkg-2.1-1.20.1" = _7xtJCxt0;
+        "pkg-2.2-1.20.1" = _F5x6ocsY;
+        "pkg-2.3-1.20.1" = _HDuSuVr1;
+        "pkg-2.4-1.20.1" = _F1I7quJH;
         "default" = _F1I7quJH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

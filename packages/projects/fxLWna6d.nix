@@ -56,6 +56,10 @@ let
         "fabric-26.1" = _nKjpMtMw;
         "fabric-26.1.1" = _nKjpMtMw;
         "fabric-26.1.2" = _nKjpMtMw;
+        "pkg-1.0-Release" = _k3u0oBvH;
+        "pkg-2.0-Release" = _MB3Nt87v;
+        "pkg-3.0-Release" = _tAI7bn7h;
+        "pkg-2.0-SNAPSHOT" = _nKjpMtMw;
         "default" = _nKjpMtMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

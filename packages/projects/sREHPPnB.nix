@@ -15,6 +15,8 @@ let
         "8mUsGBat" = _8mUsGBat;
         "ENRLyi5i" = _ENRLyi5i;
         "forge-1.20.1" = _ENRLyi5i;
+        "pkg-0.0.0" = _8mUsGBat;
+        "pkg-1.0.0" = _ENRLyi5i;
         "default" = _ENRLyi5i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

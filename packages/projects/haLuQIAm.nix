@@ -113,6 +113,10 @@ let
         "quilt-1.19.4" = _lT5SuF9n;
         "quilt-1.20" = _lT5SuF9n;
         "quilt-1.20.1" = _lT5SuF9n;
+        "pkg-1" = _qmz09uqj;
+        "pkg-1+mod" = _S87HKd5a;
+        "pkg-1.1" = _SubPoEZO;
+        "pkg-1.1+mod" = _lT5SuF9n;
         "default" = _lT5SuF9n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

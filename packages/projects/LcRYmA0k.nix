@@ -27,6 +27,9 @@ let
         "C4IdWEP8" = _C4IdWEP8;
         "hKZ53rI0" = _hKZ53rI0;
         "fabric-1.20.1" = _hKZ53rI0;
+        "pkg-0.1.4" = _dIbyNTkX;
+        "pkg-0.1.7" = _C4IdWEP8;
+        "pkg-0.1.8" = _hKZ53rI0;
         "default" = _hKZ53rI0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

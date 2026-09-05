@@ -16,6 +16,7 @@ let
         "V17e9T1s" = _V17e9T1s;
         "fabric-1.20" = _V17e9T1s;
         "fabric-1.20.1" = _V17e9T1s;
+        "pkg-1.0.0+1.20.x" = _V17e9T1s;
         "default" = _V17e9T1s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

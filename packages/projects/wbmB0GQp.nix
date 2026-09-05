@@ -21,6 +21,7 @@ let
         "minecraft-1.21.4" = _Sr33ipv8;
         "minecraft-1.21.5" = _Sr33ipv8;
         "minecraft-1.21.6" = _Sr33ipv8;
+        "pkg-v1.0" = _Sr33ipv8;
         "default" = _Sr33ipv8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

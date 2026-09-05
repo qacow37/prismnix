@@ -10,6 +10,7 @@ let
         "ISaAtMbW" = _ISaAtMbW;
         "minecraft-1.20" = _ISaAtMbW;
         "minecraft-1.20.1" = _ISaAtMbW;
+        "pkg-1.0" = _ISaAtMbW;
         "default" = _ISaAtMbW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

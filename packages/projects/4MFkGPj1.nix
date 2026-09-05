@@ -11,6 +11,7 @@ let
         "fabric-1.19" = _rcPs2TXe;
         "fabric-1.19.1" = _rcPs2TXe;
         "fabric-1.19.2" = _rcPs2TXe;
+        "pkg-1.19-4.0.2-FABRIC" = _rcPs2TXe;
         "default" = _rcPs2TXe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

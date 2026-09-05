@@ -35,6 +35,7 @@ let
         "minecraft-1.21.9" = _QG7FANe4;
         "minecraft-1.21.10" = _QG7FANe4;
         "minecraft-1.21.11" = _QG7FANe4;
+        "pkg-1.0.1" = _QG7FANe4;
         "default" = _QG7FANe4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

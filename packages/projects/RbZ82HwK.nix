@@ -16,6 +16,8 @@ let
         "k76KOtvc" = _k76KOtvc;
         "fabric-1.20.1" = _k76KOtvc;
         "quilt-1.20.1" = _k76KOtvc;
+        "pkg-0.1.0+1.20.1" = _pSq2mqoM;
+        "pkg-0.1.2+1.20.1" = _k76KOtvc;
         "default" = _k76KOtvc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -20,6 +20,8 @@ let
         "fabric-1.20.4" = _napH2FbA;
         "fabric-1.20.5" = _napH2FbA;
         "fabric-1.21" = _3Tv9eiZ4;
+        "pkg-1.0.0" = _napH2FbA;
+        "pkg-1.1.0" = _3Tv9eiZ4;
         "default" = _3Tv9eiZ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

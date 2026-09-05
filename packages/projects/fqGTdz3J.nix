@@ -9,6 +9,7 @@ let
     in {
         "rlBLUvqn" = _rlBLUvqn;
         "minecraft-1.21" = _rlBLUvqn;
+        "pkg-1" = _rlBLUvqn;
         "default" = _rlBLUvqn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

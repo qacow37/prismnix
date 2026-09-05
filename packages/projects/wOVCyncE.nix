@@ -22,6 +22,9 @@ let
         "DkaFp61D" = _DkaFp61D;
         "forge-1.19.2" = _LvdXi0ow;
         "forge-1.20.1" = _DkaFp61D;
+        "pkg-1.19.2-1.0.1" = _zzKZwPQ2;
+        "pkg-1.19.2-1.0.2" = _LvdXi0ow;
+        "pkg-1.0.3" = _DkaFp61D;
         "default" = _DkaFp61D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

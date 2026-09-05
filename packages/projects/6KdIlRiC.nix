@@ -28,6 +28,8 @@ let
         "TILV2Y7S" = _TILV2Y7S;
         "fabric-1.20.1" = _TILV2Y7S;
         "forge-1.20.1" = _LYJnl3d3;
+        "pkg-1.0.0" = _VXJY5fqV;
+        "pkg-1.0.1" = _TILV2Y7S;
         "default" = _TILV2Y7S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

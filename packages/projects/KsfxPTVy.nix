@@ -15,6 +15,8 @@ let
         "zpENL0p4" = _zpENL0p4;
         "gdu4lCHM" = _gdu4lCHM;
         "forge-1.20.1" = _gdu4lCHM;
+        "pkg-1.20.1-1.0" = _zpENL0p4;
+        "pkg-1.20.1-1.1" = _gdu4lCHM;
         "default" = _gdu4lCHM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "ZZGTZFgU" = _ZZGTZFgU;
         "fabric-1.20.1" = _OlXXoERL;
         "fabric-1.20.4" = _ZZGTZFgU;
+        "pkg-1.20.1-1.1" = _OlXXoERL;
+        "pkg-1.20.4-0.1.1" = _ZZGTZFgU;
         "default" = _ZZGTZFgU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

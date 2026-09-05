@@ -45,6 +45,13 @@ let
         "Gni1R1vI" = _Gni1R1vI;
         "qZILPs99" = _qZILPs99;
         "forge-1.12.2" = _qZILPs99;
+        "pkg-1.0.1" = _6ojK4rbH;
+        "pkg-1.0.2" = _jB0d81gq;
+        "pkg-1.0.3" = _FotREtvq;
+        "pkg-1.0.4" = _y710087L;
+        "pkg-1.0.6" = _Gq4O7tVU;
+        "pkg-1.0.7" = _Gni1R1vI;
+        "pkg-1.0.8" = _qZILPs99;
         "default" = _qZILPs99;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

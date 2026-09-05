@@ -76,6 +76,9 @@ let
         "optifine-1.21.2" = _rfCVvTvJ;
         "optifine-1.21.3" = _rfCVvTvJ;
         "optifine-1.21.4" = _rfCVvTvJ;
+        "pkg-2.0" = _FiNG2jsz;
+        "pkg-2.1" = _NX0rRg27;
+        "pkg-2.2" = _rfCVvTvJ;
         "default" = _rfCVvTvJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

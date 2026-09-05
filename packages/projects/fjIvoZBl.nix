@@ -9,6 +9,7 @@ let
     in {
         "tblVVQR6" = _tblVVQR6;
         "minecraft-1.19.4" = _tblVVQR6;
+        "pkg-1.0" = _tblVVQR6;
         "default" = _tblVVQR6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

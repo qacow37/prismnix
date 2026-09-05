@@ -15,6 +15,8 @@ let
         "5AOi4JCS" = _5AOi4JCS;
         "CYY1oqPm" = _CYY1oqPm;
         "forge-1.19.2" = _CYY1oqPm;
+        "pkg-1.0.0" = _5AOi4JCS;
+        "pkg-1.0.1" = _CYY1oqPm;
         "default" = _CYY1oqPm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

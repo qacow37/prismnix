@@ -310,6 +310,7 @@ let
         "minecraft-1.8.7" = _NS8F880a;
         "minecraft-1.8.8" = _NS8F880a;
         "minecraft-1.8.9" = _NS8F880a;
+        "pkg-1.0.0" = _NS8F880a;
         "default" = _NS8F880a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

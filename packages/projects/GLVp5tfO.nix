@@ -22,6 +22,8 @@ let
         "ftRgmfRC" = _ftRgmfRC;
         "fabric-1.20.1" = _EaLjooge;
         "fabric-1.18.2" = _ftRgmfRC;
+        "pkg-1.0.0" = _ftRgmfRC;
+        "pkg-1.0.1" = _EaLjooge;
         "default" = _ftRgmfRC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

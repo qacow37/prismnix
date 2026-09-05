@@ -41,6 +41,7 @@ let
         "spigot-26.1.1" = _ikKvjBcF;
         "spigot-26.1.2" = _ikKvjBcF;
         "spigot-26.2" = _ikKvjBcF;
+        "pkg-1.0" = _ikKvjBcF;
         "default" = _ikKvjBcF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

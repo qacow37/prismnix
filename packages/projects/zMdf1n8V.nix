@@ -20,6 +20,8 @@ let
         "fabric-1.20.4" = _gbBKCDQe;
         "fabric-1.20.5" = _gbBKCDQe;
         "fabric-1.20.6" = _gbBKCDQe;
+        "pkg-1.0.0" = _kNpSQj90;
+        "pkg-1.0.1" = _gbBKCDQe;
         "default" = _gbBKCDQe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

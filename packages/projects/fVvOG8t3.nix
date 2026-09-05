@@ -19,6 +19,7 @@ let
         "fabric-1.21.9" = _CMVDBh9u;
         "fabric-1.21.10" = _CMVDBh9u;
         "fabric-1.21.11" = _CMVDBh9u;
+        "pkg-1.0.0" = _CMVDBh9u;
         "default" = _CMVDBh9u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

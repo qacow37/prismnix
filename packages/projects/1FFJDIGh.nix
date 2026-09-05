@@ -16,6 +16,8 @@ let
         "hGP9kJdr" = _hGP9kJdr;
         "forge-1.17.1" = _Ug6JhvrL;
         "forge-1.19.2" = _hGP9kJdr;
+        "pkg-1.0.0" = _Ug6JhvrL;
+        "pkg-1.0.1" = _hGP9kJdr;
         "default" = _hGP9kJdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

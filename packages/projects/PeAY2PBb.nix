@@ -9,6 +9,7 @@ let
     in {
         "dUfElWNn" = _dUfElWNn;
         "minecraft-1.20" = _dUfElWNn;
+        "pkg-1" = _dUfElWNn;
         "default" = _dUfElWNn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

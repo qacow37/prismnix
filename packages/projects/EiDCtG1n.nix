@@ -18,6 +18,8 @@ let
         "fabric-26.1" = _pgNIYO3D;
         "fabric-26.1.1" = _pgNIYO3D;
         "fabric-26.1.2" = _pgNIYO3D;
+        "pkg-1.0.0" = _B6MmPFGz;
+        "pkg-1.0.1" = _pgNIYO3D;
         "default" = _pgNIYO3D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

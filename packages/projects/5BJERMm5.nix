@@ -40,6 +40,8 @@ let
         "quilt-1.21.2" = _DsB115GF;
         "quilt-1.21.3" = _DsB115GF;
         "quilt-1.21.4" = _DsB115GF;
+        "pkg-1.0.0" = _CRs3mEml;
+        "pkg-1.0.1" = _DsB115GF;
         "default" = _DsB115GF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -76,6 +76,7 @@ let
         "spigot-1.21.2" = _hkIDnRNe;
         "spigot-1.21.3" = _hkIDnRNe;
         "spigot-1.21.4" = _hkIDnRNe;
+        "pkg-1.0.0" = _hkIDnRNe;
         "default" = _hkIDnRNe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

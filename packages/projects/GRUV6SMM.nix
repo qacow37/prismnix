@@ -124,6 +124,8 @@ let
         "minecraft-1.21.4-rc2" = _I2iJe2kO;
         "minecraft-1.21.4-rc3" = _I2iJe2kO;
         "minecraft-1.21.4" = _I2iJe2kO;
+        "pkg-1.0" = _QmbWWvz7;
+        "pkg-1.1" = _I2iJe2kO;
         "default" = _I2iJe2kO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

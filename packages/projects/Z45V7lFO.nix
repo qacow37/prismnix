@@ -28,6 +28,7 @@ let
         "vanilla-26.1.1" = _37ohVkNd;
         "vanilla-26.1.2" = _37ohVkNd;
         "vanilla-26.2" = _37ohVkNd;
+        "pkg-1.0.0" = _37ohVkNd;
         "default" = _37ohVkNd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

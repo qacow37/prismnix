@@ -15,6 +15,8 @@ let
         "SorDbTjO" = _SorDbTjO;
         "gYmmlI1o" = _gYmmlI1o;
         "forge-1.20.1" = _gYmmlI1o;
+        "pkg-1.0.0" = _SorDbTjO;
+        "pkg-1.1.0" = _gYmmlI1o;
         "default" = _gYmmlI1o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

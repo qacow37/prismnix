@@ -16,6 +16,8 @@ let
         "NBGUBzfj" = _NBGUBzfj;
         "fabric-1.20.1" = _tlTAm20p;
         "neoforge-1.21.1" = _NBGUBzfj;
+        "pkg-1.0.2" = _tlTAm20p;
+        "pkg-1.1.0" = _NBGUBzfj;
         "default" = _NBGUBzfj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,7 @@ let
         "minecraft-1.21.11" = _bPECbzkr;
         "minecraft-26.1" = _bPECbzkr;
         "minecraft-26.1.1" = _bPECbzkr;
+        "pkg-1.21.x" = _bPECbzkr;
         "default" = _bPECbzkr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

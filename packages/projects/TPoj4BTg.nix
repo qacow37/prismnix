@@ -151,6 +151,8 @@ let
         "minecraft-1.20-pre6" = _kykFDTLc;
         "minecraft-1.20-pre7" = _kykFDTLc;
         "minecraft-1.20-rc1" = _kykFDTLc;
+        "pkg-1.0.0" = _kykFDTLc;
+        "pkg-1.0.1" = _22hE9sVF;
         "default" = _kykFDTLc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

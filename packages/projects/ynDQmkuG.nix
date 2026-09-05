@@ -9,6 +9,7 @@ let
     in {
         "tSL2ftDB" = _tSL2ftDB;
         "minecraft-1.20.1" = _tSL2ftDB;
+        "pkg-1" = _tSL2ftDB;
         "default" = _tSL2ftDB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

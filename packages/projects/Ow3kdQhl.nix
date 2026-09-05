@@ -15,6 +15,8 @@ let
         "BH1wGmXO" = _BH1wGmXO;
         "sUv7LUqp" = _sUv7LUqp;
         "minecraft-1.20.1" = _sUv7LUqp;
+        "pkg-wonderland.legacy-v1.0" = _BH1wGmXO;
+        "pkg-wonderland.legacy-v1.1" = _sUv7LUqp;
         "default" = _sUv7LUqp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

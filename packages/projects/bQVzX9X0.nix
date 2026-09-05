@@ -42,6 +42,10 @@ let
         "minecraft-26.1.1" = _l46fObTa;
         "minecraft-26.1.2" = _l46fObTa;
         "minecraft-26.2" = _l46fObTa;
+        "pkg-1.0" = _TNwNdkcc;
+        "pkg-1.1" = _JhZs1Nh6;
+        "pkg-1.2" = _Py7RLiQL;
+        "pkg-1.3" = _l46fObTa;
         "default" = _l46fObTa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "D40Ca1XD" = _D40Ca1XD;
         "LfimtbKO" = _LfimtbKO;
         "forge-1.19.2" = _LfimtbKO;
+        "pkg-0.0.1" = _ANOEB4AN;
+        "pkg-0.0.2" = _D40Ca1XD;
+        "pkg-0.0.3" = _LfimtbKO;
         "default" = _LfimtbKO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

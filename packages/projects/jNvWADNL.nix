@@ -16,6 +16,8 @@ let
         "CxUIvhcw" = _CxUIvhcw;
         "forge-1.18.2" = _KEM1BkWn;
         "forge-1.16.5" = _CxUIvhcw;
+        "pkg-1.18_V2.1" = _KEM1BkWn;
+        "pkg-V2.1" = _CxUIvhcw;
         "default" = _CxUIvhcw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

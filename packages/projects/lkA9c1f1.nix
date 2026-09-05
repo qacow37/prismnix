@@ -53,6 +53,11 @@ let
         "quilt-26.1" = _UVZFXFDA;
         "quilt-26.1.1" = _UVZFXFDA;
         "quilt-26.1.2" = _UVZFXFDA;
+        "pkg-1.0.1-26.1.x-fabric" = _ZVhf0Mdb;
+        "pkg-1.0.1-1.21.x-fabric" = _WooirB2w;
+        "pkg-1.0.0-26.1.x-neoforge" = _tWJD9rEn;
+        "pkg-1.0.1-26.1.x-neoforge" = _dLQTnRv9;
+        "pkg-1.0.2-26.1.x-fabric" = _UVZFXFDA;
         "default" = _UVZFXFDA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

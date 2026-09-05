@@ -22,6 +22,8 @@ let
         "nCs17mDT" = _nCs17mDT;
         "forge-1.20.1" = _D6Nu8LcF;
         "neoforge-1.21.1" = _nCs17mDT;
+        "pkg-1.0.0" = _wOUZfpOE;
+        "pkg-2.0.0" = _nCs17mDT;
         "default" = _nCs17mDT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "sNJf5LkW" = _sNJf5LkW;
         "neoforge-1.21.1" = _J2DNeh9d;
         "forge-1.20.1" = _sNJf5LkW;
+        "pkg-1.0.0" = _3JMdiuxS;
+        "pkg-1.0.1" = _sNJf5LkW;
         "default" = _sNJf5LkW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

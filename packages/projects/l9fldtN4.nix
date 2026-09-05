@@ -26,6 +26,8 @@ let
         "quilt-1.20" = _hwClzDIs;
         "quilt-1.20.1" = _hwClzDIs;
         "quilt-1.20.2" = _hwClzDIs;
+        "pkg-1.0" = _HLBuQatN;
+        "pkg-1.0+mod" = _hwClzDIs;
         "default" = _hwClzDIs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

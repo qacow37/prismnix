@@ -56,6 +56,7 @@ let
         "spigot-1.21.9" = _zODaCg42;
         "spigot-1.21.10" = _zODaCg42;
         "spigot-1.21.11" = _zODaCg42;
+        "pkg-3.0" = _zODaCg42;
         "default" = _zODaCg42;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

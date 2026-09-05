@@ -52,6 +52,14 @@ let
         "g64HNKRQ" = _g64HNKRQ;
         "forge-1.20.1" = _g64HNKRQ;
         "neoforge-1.20.1" = _g64HNKRQ;
+        "pkg-0.1" = _pYT1TGAS;
+        "pkg-0.1.0.1" = _7ky9ECnb;
+        "pkg-0.1.0.2" = _mlpjxfLg;
+        "pkg-0.1.1" = _GSajropv;
+        "pkg-0.1.1.1" = _JGZoMVgq;
+        "pkg-0.1.2" = _k7di3Fht;
+        "pkg-0.1.3" = _f1TYYIKw;
+        "pkg-0.1.4" = _g64HNKRQ;
         "default" = _g64HNKRQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

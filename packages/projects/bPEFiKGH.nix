@@ -9,6 +9,7 @@ let
     in {
         "ssWBuRFO" = _ssWBuRFO;
         "minecraft-1.20.1" = _ssWBuRFO;
+        "pkg-1.0.0" = _ssWBuRFO;
         "default" = _ssWBuRFO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

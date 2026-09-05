@@ -21,6 +21,9 @@ let
         "TLhGaZGo" = _TLhGaZGo;
         "MFerJXsX" = _MFerJXsX;
         "forge-1.8.9" = _MFerJXsX;
+        "pkg-1" = _PIbScjYg;
+        "pkg-2" = _TLhGaZGo;
+        "pkg-3" = _MFerJXsX;
         "default" = _MFerJXsX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

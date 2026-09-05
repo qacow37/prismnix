@@ -33,6 +33,11 @@ let
         "33MiSISi" = _33MiSISi;
         "u36DJObN" = _u36DJObN;
         "forge-1.12.2" = _u36DJObN;
+        "pkg-1.0.0" = _E4E5inHY;
+        "pkg-1.0.1" = _UPeI0hDf;
+        "pkg-1.0.2" = _AkWD8Ff9;
+        "pkg-1.0.3" = _33MiSISi;
+        "pkg-1.1.0" = _u36DJObN;
         "default" = _u36DJObN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

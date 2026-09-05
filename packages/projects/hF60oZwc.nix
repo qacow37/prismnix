@@ -13,6 +13,7 @@ let
         "minecraft-1.18.2" = _NFVreTXB;
         "minecraft-1.19.2" = _NFVreTXB;
         "minecraft-1.19.4" = _NFVreTXB;
+        "pkg-1.0" = _NFVreTXB;
         "default" = _NFVreTXB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

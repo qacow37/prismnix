@@ -16,6 +16,8 @@ let
         "vtEpS4gB" = _vtEpS4gB;
         "forge-1.18.2" = _CgD0V8Pn;
         "forge-1.20.1" = _vtEpS4gB;
+        "pkg-1.4.0" = _CgD0V8Pn;
+        "pkg-1.5.0" = _vtEpS4gB;
         "default" = _vtEpS4gB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

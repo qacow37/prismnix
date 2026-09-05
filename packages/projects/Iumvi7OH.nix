@@ -282,6 +282,26 @@ let
         "fabric-1.21.1" = _TyV8gZbj;
         "fabric-1.21.2" = _rZWPzsOq;
         "fabric-1.21.3" = _rZWPzsOq;
+        "pkg-0.2.0+20220827-BETA" = _UY5SAdUS;
+        "pkg-0.4.0+20221217-BETA" = _TULvWuJI;
+        "pkg-0.5.0-20221231" = _tuylA2uW;
+        "pkg-0.5.0+v20230122-BETA" = _dGhR7EFQ;
+        "pkg-0.5.0+v20230404-BETA" = _WauyqYdJ;
+        "pkg-0.5.1+v20230612-BETA" = _gBI5N3Az;
+        "pkg-0.6.0+v20230823-BETA" = _cmwdlh4t;
+        "pkg-0.6.1+v20230907-BETA" = _4cobiKRf;
+        "pkg-0.5.1+v20231202-BETA" = _1AXTT8h8;
+        "pkg-0.7.0+v20231216-BETA" = _tAUHg542;
+        "pkg-0.7.1+v20240112-BETA" = _c9oE4t6G;
+        "pkg-0.7.2+v20240129-BETA" = _cfyFw6Rt;
+        "pkg-0.7.3+v20240827-BETA" = _TyV8gZbj;
+        "pkg-0.7.3+v20250118-BETA" = _uHZTR659;
+        "pkg-0.7.4+v20250118-BETA" = _rZWPzsOq;
+        "pkg-0.8.0+v20250311-BETA" = _mKlENtxV;
+        "pkg-0.9.0+v20250827-BETA" = _RcnHZcIV;
+        "pkg-0.9.0+v20250827-BETA-reupload" = _jgsVdd63;
+        "pkg-0.10.0+v20251019-BETA" = _61LyVvZM;
+        "pkg-0.10.0+v20251019-BETA-reuploaded" = _jR35WqcC;
         "default" = _61LyVvZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

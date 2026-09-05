@@ -10,6 +10,7 @@ let
         "AIfteXrs" = _AIfteXrs;
         "fabric-1.20" = _AIfteXrs;
         "fabric-1.20.1" = _AIfteXrs;
+        "pkg-1.0.0" = _AIfteXrs;
         "default" = _AIfteXrs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

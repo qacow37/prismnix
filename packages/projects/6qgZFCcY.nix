@@ -79,6 +79,9 @@ let
         "fabric-1.21.2" = _Tph4fCFF;
         "fabric-1.21.3" = _Tph4fCFF;
         "fabric-1.21.4" = _Tph4fCFF;
+        "pkg-1.0.0" = _ORZSj64v;
+        "pkg-2.0" = _Ua0lnBIN;
+        "pkg-v9" = _Tph4fCFF;
         "default" = _Tph4fCFF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

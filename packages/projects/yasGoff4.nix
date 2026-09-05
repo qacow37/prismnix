@@ -14,6 +14,7 @@ let
         "minecraft-1.19.2" = _JpedBIQ8;
         "minecraft-1.19.4" = _JpedBIQ8;
         "minecraft-1.20.4" = _JpedBIQ8;
+        "pkg-1.0" = _JpedBIQ8;
         "default" = _JpedBIQ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "3ZWAkKEZ" = _3ZWAkKEZ;
         "fabric-1.20.1" = _EU89guLn;
         "fabric-1.19.4" = _3ZWAkKEZ;
+        "pkg-1.0" = _3ZWAkKEZ;
         "default" = _3ZWAkKEZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

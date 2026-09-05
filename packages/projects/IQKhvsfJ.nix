@@ -15,6 +15,8 @@ let
         "6256QTjA" = _6256QTjA;
         "nSKF5Ltj" = _nSKF5Ltj;
         "fabric-1.20.1" = _nSKF5Ltj;
+        "pkg-1.1.0" = _6256QTjA;
+        "pkg-1.1.1" = _nSKF5Ltj;
         "default" = _nSKF5Ltj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

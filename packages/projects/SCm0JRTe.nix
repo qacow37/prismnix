@@ -40,6 +40,9 @@ let
         "NQ8VZEDr" = _NQ8VZEDr;
         "neoforge-1.21.1" = _mWOdmtGl;
         "fabric-1.21.1" = _NQ8VZEDr;
+        "pkg-0.1" = _KeDgUkMJ;
+        "pkg-0.2" = _FAyjb1yw;
+        "pkg-0.3" = _NQ8VZEDr;
         "default" = _NQ8VZEDr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -12,6 +12,7 @@ let
         "forge-1.20.1" = _GkwfUr0h;
         "neoforge-1.20.1" = _GkwfUr0h;
         "quilt-1.20.1" = _GkwfUr0h;
+        "pkg-1.0" = _GkwfUr0h;
         "default" = _GkwfUr0h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

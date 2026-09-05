@@ -21,6 +21,9 @@ let
         "qw7qNj6c" = _qw7qNj6c;
         "uGORANcU" = _uGORANcU;
         "minecraft-1.12.2" = _uGORANcU;
+        "pkg-1.1" = _vKRifvs6;
+        "pkg-1.2" = _qw7qNj6c;
+        "pkg-1.3" = _uGORANcU;
         "default" = _uGORANcU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,9 @@ let
         "tYD2KAdr" = _tYD2KAdr;
         "forge-1.20.1" = _dNUje9JV;
         "neoforge-1.21.1" = _tYD2KAdr;
+        "pkg-1.0.0" = _dNUje9JV;
+        "pkg-1.1.0" = _XWfwF144;
+        "pkg-1.1.1" = _tYD2KAdr;
         "default" = _tYD2KAdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

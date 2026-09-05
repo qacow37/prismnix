@@ -15,6 +15,7 @@ let
         "fabric-1.20.4" = _cqanSowN;
         "fabric-1.20.5" = _cqanSowN;
         "fabric-1.20.6" = _cqanSowN;
+        "pkg-1.0.0" = _cqanSowN;
         "default" = _cqanSowN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

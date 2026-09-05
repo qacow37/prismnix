@@ -89,6 +89,7 @@ let
         "minecraft-1.21.8" = _NscKMres;
         "minecraft-1.21.9" = _NscKMres;
         "minecraft-1.21.10" = _NscKMres;
+        "pkg-1.0.0" = _NscKMres;
         "default" = _NscKMres;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

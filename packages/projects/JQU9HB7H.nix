@@ -248,6 +248,25 @@ let
         "bukkit-26.1.1" = _FpXYPOSp;
         "bukkit-26.1.2" = _FpXYPOSp;
         "bukkit-26.2" = _FpXYPOSp;
+        "pkg-1.2.0" = _edHggYo6;
+        "pkg-1.3.0" = _ZPrOBmXI;
+        "pkg-1.4.0" = _7MtcLxoP;
+        "pkg-1.5.0" = _kk5kKHxM;
+        "pkg-1.6.0-Discord" = _sQrPDrUn;
+        "pkg-1.7.0" = _qpwabzSe;
+        "pkg-1.8.0" = _CAzf3V3d;
+        "pkg-1.8.1" = _43O1PRg8;
+        "pkg-1.8.2" = _TFziY2J3;
+        "pkg-1.9.0" = _eXhPSj33;
+        "pkg-1.9.1" = _DcAUppGE;
+        "pkg-1.9.2" = _8SzvadUx;
+        "pkg-1.9.3" = _kVlnDHFx;
+        "pkg-1.9.4" = _VQT7VsSh;
+        "pkg-1.9.5" = _4onV7amY;
+        "pkg-1.9.6" = _zMiwjNcB;
+        "pkg-1.9.7" = _lAIk469W;
+        "pkg-1.9.8" = _Ke1X5jsI;
+        "pkg-2.0.0" = _FpXYPOSp;
         "default" = _FpXYPOSp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "eXQIBKaY" = _eXQIBKaY;
         "Lqtllo32" = _Lqtllo32;
         "fabric-1.20.1" = _Lqtllo32;
+        "pkg-1.20.1-2.2.3-fabric" = _eXQIBKaY;
+        "pkg-1.20.1-2.4-fabric" = _Lqtllo32;
         "default" = _Lqtllo32;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "JGsYkB05" = _JGsYkB05;
         "njJO2sAr" = _njJO2sAr;
         "minecraft-1.21" = _njJO2sAr;
+        "pkg-r1" = _JGsYkB05;
+        "pkg-r2" = _njJO2sAr;
         "default" = _njJO2sAr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -20,6 +20,7 @@ let
         "minecraft-1.21.2" = _VIL4cdXp;
         "minecraft-1.21.3" = _VIL4cdXp;
         "minecraft-1.21.4" = _VIL4cdXp;
+        "pkg-1" = _VIL4cdXp;
         "default" = _VIL4cdXp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

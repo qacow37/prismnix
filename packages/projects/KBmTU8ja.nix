@@ -176,6 +176,7 @@ let
         "optifine-1.21.9" = _MIi8NI2W;
         "optifine-1.21.10" = _MIi8NI2W;
         "optifine-1.21.11" = _MIi8NI2W;
+        "pkg-1.0" = _MIi8NI2W;
         "default" = _MIi8NI2W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

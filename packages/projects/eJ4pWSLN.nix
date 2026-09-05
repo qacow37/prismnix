@@ -21,6 +21,9 @@ let
         "7sjiDidM" = _7sjiDidM;
         "34yUipcp" = _34yUipcp;
         "forge-1.20.1" = _34yUipcp;
+        "pkg-2.0.294" = _qEvAPqlw;
+        "pkg-0.4.294" = _7sjiDidM;
+        "pkg-0.4.316" = _34yUipcp;
         "default" = _34yUipcp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

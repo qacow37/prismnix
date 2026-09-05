@@ -39,6 +39,12 @@ let
         "IFXniyHw" = _IFXniyHw;
         "zGGa7DYO" = _zGGa7DYO;
         "forge-1.20.1" = _zGGa7DYO;
+        "pkg-0.3.0-beta" = _B6jrsuj9;
+        "pkg-0.3.1-beta" = _aoPvLdHD;
+        "pkg-0.4.0-beta" = _cLLEl3VE;
+        "pkg-0.4.1-beta" = _MejDAEfk;
+        "pkg-0.4.2-beta" = _IFXniyHw;
+        "pkg-v0.5.0" = _zGGa7DYO;
         "default" = _zGGa7DYO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

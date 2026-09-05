@@ -15,6 +15,8 @@ let
         "7HLgczCa" = _7HLgczCa;
         "3rSkm060" = _3rSkm060;
         "fabric-1.21.4" = _3rSkm060;
+        "pkg-1.0.056vb" = _7HLgczCa;
+        "pkg-1.5.654vb" = _3rSkm060;
         "default" = _3rSkm060;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

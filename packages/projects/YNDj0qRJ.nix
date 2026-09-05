@@ -120,6 +120,9 @@ let
         "quilt-1.20.1" = _eEdcmC7V;
         "quilt-1.20.4" = _g4DRiUTX;
         "neoforge-1.21.1" = _jyvtNsJd;
+        "pkg-1.0.0" = _DOpzd65n;
+        "pkg-1.1.0" = _1mGeUMiI;
+        "pkg-1.1.1" = _jyvtNsJd;
         "default" = _jyvtNsJd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

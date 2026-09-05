@@ -74,6 +74,7 @@ let
         "optifine-26.1.1" = _8OMK13ZA;
         "optifine-26.1.2" = _8OMK13ZA;
         "optifine-26.2" = _8OMK13ZA;
+        "pkg-1.0.0" = _8OMK13ZA;
         "default" = _8OMK13ZA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

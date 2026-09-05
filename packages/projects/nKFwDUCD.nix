@@ -28,6 +28,10 @@ let
         "PSEdWSp0" = _PSEdWSp0;
         "minecraft-1.20.1" = _PSEdWSp0;
         "minecraft-1.20" = _PSEdWSp0;
+        "pkg-1.1" = _snU6HgaJ;
+        "pkg-2.1" = _tDSgCKRU;
+        "pkg-2.2" = _9310ttWR;
+        "pkg-2.3" = _PSEdWSp0;
         "default" = _PSEdWSp0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

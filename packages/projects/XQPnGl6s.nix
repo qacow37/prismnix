@@ -393,6 +393,8 @@ let
         "quilt-1.20.4" = _GBaxItAV;
         "quilt-1.20.5" = _GBaxItAV;
         "quilt-1.20.6" = _GBaxItAV;
+        "pkg-0.5" = _qDfFamW5;
+        "pkg-0.5+mod" = _GBaxItAV;
         "default" = _GBaxItAV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

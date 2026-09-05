@@ -16,6 +16,7 @@ let
         "eLAgkWE2" = _eLAgkWE2;
         "neoforge-1.21.1" = _axU2NLcG;
         "fabric-1.21.1" = _eLAgkWE2;
+        "pkg-1.0.0" = _eLAgkWE2;
         "default" = _eLAgkWE2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

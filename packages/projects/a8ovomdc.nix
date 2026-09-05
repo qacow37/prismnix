@@ -94,6 +94,8 @@ let
         "folia-26.1.1" = _Ymgnx8vb;
         "folia-26.1.2" = _Ymgnx8vb;
         "folia-26.2" = _Ymgnx8vb;
+        "pkg-1.0.0" = _lGaqrzpD;
+        "pkg-1.0.1" = _Ymgnx8vb;
         "default" = _Ymgnx8vb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

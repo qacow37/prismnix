@@ -113,6 +113,7 @@ let
         "spigot-1.21.9" = _jOP2uPPT;
         "spigot-1.21.10" = _jOP2uPPT;
         "spigot-1.21.11" = _jOP2uPPT;
+        "pkg-1.1" = _jOP2uPPT;
         "default" = _jOP2uPPT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

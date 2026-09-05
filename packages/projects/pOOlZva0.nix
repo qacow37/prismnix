@@ -21,6 +21,8 @@ let
         "fabric-1.20.4" = _TEdeUpFV;
         "fabric-1.21" = _Sp9Fenwu;
         "fabric-1.21.1" = _Sp9Fenwu;
+        "pkg-4.2.0+1.20" = _TEdeUpFV;
+        "pkg-5.2.0+1.21" = _Sp9Fenwu;
         "default" = _Sp9Fenwu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

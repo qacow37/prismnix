@@ -37,6 +37,8 @@ let
         "minecraft-26.1.1" = _4nowyhIP;
         "minecraft-26.1.2" = _4nowyhIP;
         "minecraft-26.2" = _4nowyhIP;
+        "pkg-1.0.0-Type-Clean-32x" = _dmGV4vvr;
+        "pkg-1.0.1-Type-Clean-32x" = _4nowyhIP;
         "default" = _4nowyhIP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

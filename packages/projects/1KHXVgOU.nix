@@ -309,6 +309,26 @@ let
         "ornithe-1.7.8" = _krnecNE1;
         "ornithe-1.7.9" = _krnecNE1;
         "ornithe-1.7.10" = _krnecNE1;
+        "pkg-1.0.0-alpha" = _kedMAa3J;
+        "pkg-1.0.1-alpha" = _UvZFsDOf;
+        "pkg-1.1.0" = _AegdPiVF;
+        "pkg-1.1.0+1.19.4" = _ROmDJmba;
+        "pkg-fabric-1.20+1.1.0" = _u7dhu6tg;
+        "pkg-fabric-1.20+1.1.1" = _jD6XEkhA;
+        "pkg-fabric-1.20+1.2.0" = _Wz36Bt1F;
+        "pkg-fabric-1.20+1.3.0" = _XheQn0ON;
+        "pkg-fabric-1.20+1.3.1" = _gQjAdpXB;
+        "pkg-fabric-1.20.2+1.3.1" = _u5hCaNcH;
+        "pkg-1.0.0+mc1.8.9+" = _Azj8ugFV;
+        "pkg-1.0.0+mc1.3+" = _krnecNE1;
+        "pkg-fabric-1.20.4+1.3.1" = _SUd6lxsD;
+        "pkg-fabric-1.21.4+1.3.2" = _j3S3dxg8;
+        "pkg-fabric-1.21.4+1.3.3" = _NS89KrEE;
+        "pkg-fabric-1.21.5+1.3.3" = _jgODi36F;
+        "pkg-fabric-1.21.6+1.3.3" = _LGpEloxY;
+        "pkg-fabric-1.21.8+1.3.3" = _N20vFlFd;
+        "pkg-fabric-1.21.9+1.4" = _oz5y2XKn;
+        "pkg-fabric-1.21.10+1.4" = _IaEIkzVw;
         "default" = _IaEIkzVw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

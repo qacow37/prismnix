@@ -75,6 +75,7 @@ let
         "minecraft-1.20.4" = _aNgaviG3;
         "minecraft-1.20.5" = _aNgaviG3;
         "minecraft-1.20.6" = _aNgaviG3;
+        "pkg-1.0" = _aNgaviG3;
         "default" = _aNgaviG3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

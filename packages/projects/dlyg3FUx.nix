@@ -278,6 +278,8 @@ let
         "quilt-1.21.9" = _jUSyLYZR;
         "quilt-1.21.10" = _jUSyLYZR;
         "quilt-1.21.11" = _jUSyLYZR;
+        "pkg-v1" = _pQ12eUef;
+        "pkg-v1+mod" = _jUSyLYZR;
         "default" = _jUSyLYZR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

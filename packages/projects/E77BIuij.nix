@@ -22,6 +22,7 @@ let
         "3uUNt7Rm" = _3uUNt7Rm;
         "neoforge-1.20.4" = _DV2xLisc;
         "forge-1.20.1" = _3uUNt7Rm;
+        "pkg-0.1.0" = _3uUNt7Rm;
         "default" = _3uUNt7Rm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

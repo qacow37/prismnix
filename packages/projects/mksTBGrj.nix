@@ -22,6 +22,8 @@ let
         "n0Hm330O" = _n0Hm330O;
         "forge-1.20.1" = _PjmgbkAg;
         "neoforge-1.21.1" = _n0Hm330O;
+        "pkg-1.0.0" = _FXqUvmIX;
+        "pkg-1.1" = _n0Hm330O;
         "default" = _n0Hm330O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

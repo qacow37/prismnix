@@ -60,6 +60,8 @@ let
         "optifine-26.1.1" = _R5TLg13i;
         "optifine-26.1.2" = _R5TLg13i;
         "optifine-26.2" = _R5TLg13i;
+        "pkg-1" = _p9AE4CWU;
+        "pkg-2" = _R5TLg13i;
         "default" = _R5TLg13i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

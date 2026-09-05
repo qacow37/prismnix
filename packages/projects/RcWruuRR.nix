@@ -16,6 +16,7 @@ let
         "ZTvYOPuL" = _ZTvYOPuL;
         "forge-1.12.2" = _oFbVKUt8;
         "forge-1.14.4" = _ZTvYOPuL;
+        "pkg-0.7.0" = _ZTvYOPuL;
         "default" = _ZTvYOPuL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

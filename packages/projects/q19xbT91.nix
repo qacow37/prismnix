@@ -27,6 +27,10 @@ let
         "kuylySZ4" = _kuylySZ4;
         "qWxLLPvT" = _qWxLLPvT;
         "forge-1.12.2" = _qWxLLPvT;
+        "pkg-0.3.0" = _dEqMoFtx;
+        "pkg-0.3.1-dev2" = _Wec7u1cg;
+        "pkg-0.3.1-Dev4" = _kuylySZ4;
+        "pkg-0.3.1-Dev5" = _qWxLLPvT;
         "default" = _qWxLLPvT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

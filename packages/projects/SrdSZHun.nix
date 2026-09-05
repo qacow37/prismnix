@@ -77,6 +77,7 @@ let
         "minecraft-1.21.8" = _Niipiqaa;
         "minecraft-1.21.9" = _Niipiqaa;
         "minecraft-1.21.10" = _Niipiqaa;
+        "pkg-1" = _Niipiqaa;
         "default" = _Niipiqaa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

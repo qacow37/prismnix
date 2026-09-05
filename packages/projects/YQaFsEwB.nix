@@ -10,6 +10,7 @@ let
         "8lSHT67E" = _8lSHT67E;
         "minecraft-1.20" = _8lSHT67E;
         "minecraft-1.20.1" = _8lSHT67E;
+        "pkg-1.0" = _8lSHT67E;
         "default" = _8lSHT67E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

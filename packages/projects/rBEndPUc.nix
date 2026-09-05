@@ -15,6 +15,8 @@ let
         "GILje63y" = _GILje63y;
         "ZHAIRSeF" = _ZHAIRSeF;
         "neoforge-1.21.1" = _ZHAIRSeF;
+        "pkg-0.1" = _GILje63y;
+        "pkg-0.1.1" = _ZHAIRSeF;
         "default" = _ZHAIRSeF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

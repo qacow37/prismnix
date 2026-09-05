@@ -48,6 +48,7 @@ let
         "neoforge-1.21.6" = _OEnPPTEx;
         "neoforge-1.21.7" = _OEnPPTEx;
         "neoforge-1.21.8" = _OEnPPTEx;
+        "pkg-1.0.0" = _OEnPPTEx;
         "default" = _OEnPPTEx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "AARwoXsy" = _AARwoXsy;
         "minecraft-1.20.1" = _AARwoXsy;
         "minecraft-1.21.1" = _AARwoXsy;
+        "pkg-1.0.0" = _AARwoXsy;
         "default" = _AARwoXsy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

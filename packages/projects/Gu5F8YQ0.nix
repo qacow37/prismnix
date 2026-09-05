@@ -58,6 +58,7 @@ let
         "spigot-1.21.8" = _9YgISxo3;
         "spigot-1.21.9" = _9YgISxo3;
         "spigot-1.21.10" = _9YgISxo3;
+        "pkg-1.0.0-SNAPSHOT" = _9YgISxo3;
         "default" = _9YgISxo3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "KFiZDY26" = _KFiZDY26;
         "fabric-1.20.1" = _KFiZDY26;
+        "pkg-1.0.0" = _KFiZDY26;
         "default" = _KFiZDY26;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

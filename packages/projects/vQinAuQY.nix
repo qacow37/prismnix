@@ -24,6 +24,8 @@ let
         "neoforge-1.20.6" = _S1pE9Pwg;
         "neoforge-1.21.1" = _1VmPjSas;
         "neoforge-1.21.2" = _1VmPjSas;
+        "pkg-1.2.0" = _hTPC82ZW;
+        "pkg-1.2.1" = _1VmPjSas;
         "default" = _1VmPjSas;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

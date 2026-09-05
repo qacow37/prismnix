@@ -62,6 +62,8 @@ let
         "paper-1.21.9" = _tyHyxMPU;
         "paper-1.21.10" = _tyHyxMPU;
         "paper-1.21.11" = _tyHyxMPU;
+        "pkg-1.0.0" = _tyHyxMPU;
+        "pkg-1.1.0" = _qgyR1WFQ;
         "default" = _qgyR1WFQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

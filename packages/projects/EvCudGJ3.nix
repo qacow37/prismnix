@@ -9,6 +9,7 @@ let
     in {
         "QONCuraQ" = _QONCuraQ;
         "forge-1.20.1" = _QONCuraQ;
+        "pkg-1.0.0" = _QONCuraQ;
         "default" = _QONCuraQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

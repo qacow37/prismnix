@@ -16,6 +16,8 @@ let
         "jRMBfTEf" = _jRMBfTEf;
         "minecraft-1.21" = _jRMBfTEf;
         "minecraft-1.21.1" = _jRMBfTEf;
+        "pkg-0.1" = _Ql27PKsj;
+        "pkg-0.2" = _jRMBfTEf;
         "default" = _jRMBfTEf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

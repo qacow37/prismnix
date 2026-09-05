@@ -18,6 +18,8 @@ let
         "fabric-1.20.2" = _EdTvZduh;
         "fabric-1.20.3" = _EdTvZduh;
         "fabric-1.20.4" = _EdTvZduh;
+        "pkg-1.0.0" = _RSMqCI58;
+        "pkg-1.1.0" = _EdTvZduh;
         "default" = _EdTvZduh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "44nejqaP" = _44nejqaP;
         "forge-1.12.2" = _HMlbP4et;
         "forge-1.7.10" = _44nejqaP;
+        "pkg-12.3.1" = _HMlbP4et;
+        "pkg-7.3.1" = _44nejqaP;
         "default" = _44nejqaP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

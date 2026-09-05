@@ -220,6 +220,13 @@ let
         "ornithe-1.12" = _tw0sg5SC;
         "ornithe-1.12.1" = _tw0sg5SC;
         "ornithe-1.12.2" = _tw0sg5SC;
+        "pkg-1.0.0+1.21.7-1.21.8" = _NZOpsHdJ;
+        "pkg-1.0.0+1.21-1.21.5" = _EVAdLp8x;
+        "pkg-1.0.0+1.20.3-1.20.6" = _VqeSTLPn;
+        "pkg-1.0.0+1.20-1.20.2" = _wsBQYaYH;
+        "pkg-1.0.0+1.12-1.12.2" = _tw0sg5SC;
+        "pkg-1.0.1+1.21.6-1.21.8" = _EVrbSshW;
+        "pkg-1.0.1+25w14craftmine" = _iyDw4gvT;
         "default" = _iyDw4gvT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

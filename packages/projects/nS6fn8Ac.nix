@@ -63,6 +63,15 @@ let
         "AnVEAJA6" = _AnVEAJA6;
         "Lklqevms" = _Lklqevms;
         "forge-1.12.2" = _Lklqevms;
+        "pkg-2.02" = _w4IO5uY0;
+        "pkg-2.03" = _CLK36bxk;
+        "pkg-2.04" = _nMSImgHV;
+        "pkg-2.06" = _JmK4tBdT;
+        "pkg-2.07" = _QUJ5F3VX;
+        "pkg-2.08" = _plubVwBS;
+        "pkg-3.0" = _VAvM1tiF;
+        "pkg-4.0" = _AnVEAJA6;
+        "pkg-4.01" = _Lklqevms;
         "default" = _Lklqevms;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

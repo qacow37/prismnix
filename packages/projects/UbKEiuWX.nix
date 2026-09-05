@@ -29,6 +29,10 @@ let
         "datapack-1.20.1" = _VTXBM2Do;
         "fabric-1.20.1" = _mUbOwSGS;
         "forge-1.20.1" = _mUbOwSGS;
+        "pkg-1.0" = _2XcEqG9Q;
+        "pkg-1.0+mod" = _l8opGxV8;
+        "pkg-1.1" = _VTXBM2Do;
+        "pkg-1.1+mod" = _mUbOwSGS;
         "default" = _mUbOwSGS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

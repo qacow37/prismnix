@@ -10,6 +10,7 @@ let
         "uCfsJNVo" = _uCfsJNVo;
         "iris-1.21" = _uCfsJNVo;
         "optifine-1.21" = _uCfsJNVo;
+        "pkg-1" = _uCfsJNVo;
         "default" = _uCfsJNVo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

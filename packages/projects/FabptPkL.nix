@@ -48,6 +48,9 @@ let
         "datapack-1.20.1" = _RmxUlgwY;
         "fabric-1.20.1" = _pask2dEM;
         "quilt-1.20.1" = _pask2dEM;
+        "pkg-1" = _FvEMCRx1;
+        "pkg-3.0.0" = _RmxUlgwY;
+        "pkg-3.0.0+mod" = _pask2dEM;
         "default" = _pask2dEM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -47,6 +47,9 @@ let
         "vanilla-1.21.6" = _CNj4r6gj;
         "vanilla-1.21.7" = _CNj4r6gj;
         "vanilla-1.21.8" = _CNj4r6gj;
+        "pkg-1.0.0" = _CNj4r6gj;
+        "pkg-1.0.1" = _iTDtA381;
+        "pkg-1.0.2" = _P7MjEZks;
         "default" = _P7MjEZks;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

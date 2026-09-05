@@ -25,6 +25,8 @@ let
         "minecraft-1.21.8" = _5whKRlTA;
         "minecraft-1.21.9" = _5whKRlTA;
         "minecraft-1.21.10" = _5whKRlTA;
+        "pkg-1" = _9y1TKMIc;
+        "pkg-2" = _5whKRlTA;
         "default" = _5whKRlTA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

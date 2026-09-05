@@ -15,6 +15,8 @@ let
         "kP9YDaxN" = _kP9YDaxN;
         "9lcgREed" = _9lcgREed;
         "forge-1.20.1" = _9lcgREed;
+        "pkg-1.20.1-1.0.0" = _kP9YDaxN;
+        "pkg-1.20.1-1.1.0" = _9lcgREed;
         "default" = _9lcgREed;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

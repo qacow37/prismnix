@@ -22,6 +22,9 @@ let
         "748RVy4p" = _748RVy4p;
         "forge-1.19.2" = _748RVy4p;
         "forge-1.19.4" = _fZrklmGL;
+        "pkg-1.0.0" = _ObnLJW1n;
+        "pkg-2.0.0" = _fZrklmGL;
+        "pkg-3.0" = _748RVy4p;
         "default" = _748RVy4p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "Dr78vIt0" = _Dr78vIt0;
         "forge-1.20.1" = _Dr78vIt0;
         "neoforge-1.20.1" = _Dr78vIt0;
+        "pkg-1.0.0" = _N4MLm213;
+        "pkg-1.0.1" = _Dr78vIt0;
         "default" = _Dr78vIt0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

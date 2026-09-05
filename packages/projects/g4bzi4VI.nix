@@ -15,6 +15,8 @@ let
         "LFH8BEFt" = _LFH8BEFt;
         "hyWDMbu8" = _hyWDMbu8;
         "forge-1.19.2" = _hyWDMbu8;
+        "pkg-1.0" = _LFH8BEFt;
+        "pkg-1.1" = _hyWDMbu8;
         "default" = _hyWDMbu8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

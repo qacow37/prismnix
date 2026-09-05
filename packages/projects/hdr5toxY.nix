@@ -16,6 +16,7 @@ let
         "mY917stN" = _mY917stN;
         "fabric-1.21.11" = _rBW3BTdj;
         "fabric-1.21.4" = _mY917stN;
+        "pkg-1.0.1" = _mY917stN;
         "default" = _mY917stN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

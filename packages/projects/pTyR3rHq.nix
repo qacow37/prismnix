@@ -22,6 +22,8 @@ let
         "forge-1.20" = _Jd06oseB;
         "neoforge-1.20" = _Jd06oseB;
         "neoforge-1.20.1" = _Jd06oseB;
+        "pkg-1.0" = _gNvSZ1WQ;
+        "pkg-1.1" = _Jd06oseB;
         "default" = _Jd06oseB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

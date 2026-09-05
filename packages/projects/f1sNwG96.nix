@@ -15,6 +15,8 @@ let
         "5r15aNWz" = _5r15aNWz;
         "F6Y09FtU" = _F6Y09FtU;
         "fabric-1.20.1" = _F6Y09FtU;
+        "pkg-0.8.4" = _5r15aNWz;
+        "pkg-0.8.5" = _F6Y09FtU;
         "default" = _F6Y09FtU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

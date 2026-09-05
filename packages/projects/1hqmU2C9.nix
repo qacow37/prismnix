@@ -28,6 +28,7 @@ let
         "minecraft-1.21.2" = _MzSAnWtS;
         "minecraft-1.21.3" = _MzSAnWtS;
         "minecraft-1.21.4" = _MzSAnWtS;
+        "pkg-1.18-1.21.4" = _MzSAnWtS;
         "default" = _MzSAnWtS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

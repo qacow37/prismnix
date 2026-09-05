@@ -73,6 +73,14 @@ let
         "iris-26.1.1" = _rHSmG5ci;
         "iris-26.1.2" = _rHSmG5ci;
         "iris-26.2" = _rHSmG5ci;
+        "pkg-0.1" = _KC8GLQhM;
+        "pkg-0.3" = _9gFB8YEL;
+        "pkg-0.4" = _hyk09UGl;
+        "pkg-0.5" = _BTtq1qeT;
+        "pkg-0.6" = _ufjBrCY2;
+        "pkg-0.7" = _e4dOxumU;
+        "pkg-v0.8" = _flzHaUkd;
+        "pkg-v0.9" = _rHSmG5ci;
         "default" = _rHSmG5ci;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

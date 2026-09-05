@@ -47,6 +47,7 @@ let
         "minecraft-26.1.1" = _NGgBPiFX;
         "minecraft-26.1.2" = _NGgBPiFX;
         "minecraft-26.2" = _NGgBPiFX;
+        "pkg-1.0" = _NGgBPiFX;
         "default" = _NGgBPiFX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

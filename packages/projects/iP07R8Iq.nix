@@ -38,6 +38,8 @@ let
         "paper-26.1.1" = _f2c0Wxq4;
         "paper-26.1.2" = _f2c0Wxq4;
         "paper-26.2" = _AqloFMG7;
+        "pkg-5.0.0" = _f2c0Wxq4;
+        "pkg-5.0.1" = _AqloFMG7;
         "default" = _AqloFMG7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

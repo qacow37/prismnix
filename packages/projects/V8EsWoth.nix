@@ -15,6 +15,8 @@ let
         "NcbL8F4R" = _NcbL8F4R;
         "MDkiEtg1" = _MDkiEtg1;
         "fabric-1.21.1" = _MDkiEtg1;
+        "pkg-1.0.0" = _NcbL8F4R;
+        "pkg-1.1.0" = _MDkiEtg1;
         "default" = _MDkiEtg1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

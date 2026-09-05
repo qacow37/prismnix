@@ -10,6 +10,7 @@ let
         "86dDQzUb" = _86dDQzUb;
         "fabric-1.21" = _86dDQzUb;
         "fabric-1.21.1" = _86dDQzUb;
+        "pkg-1.0.0" = _86dDQzUb;
         "default" = _86dDQzUb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -19,6 +19,8 @@ let
         "fabric-1.20.1" = _YNiTVvfi;
         "neoforge-1.20.1" = _YNiTVvfi;
         "quilt-1.20.1" = _YNiTVvfi;
+        "pkg-0.1.0" = _dtImdJrj;
+        "pkg-0.1.0+mod" = _YNiTVvfi;
         "default" = _YNiTVvfi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "TuDJu1va" = _TuDJu1va;
         "pj4cNRkb" = _pj4cNRkb;
         "forge-1.12.2" = _pj4cNRkb;
+        "pkg-1.3.0" = _TuDJu1va;
+        "pkg-1.3.5" = _pj4cNRkb;
         "default" = _pj4cNRkb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

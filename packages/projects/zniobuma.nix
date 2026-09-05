@@ -34,6 +34,10 @@ let
         "minecraft-26.1.1" = _tKJI0Bso;
         "minecraft-26.1.2" = _tKJI0Bso;
         "minecraft-26.2" = _tKJI0Bso;
+        "pkg-1.9.2" = _HorWf6qJ;
+        "pkg-1.9.3" = _Qxwlywdq;
+        "pkg-1.9.4" = _GaRDq3rs;
+        "pkg-1.9.7" = _tKJI0Bso;
         "default" = _tKJI0Bso;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

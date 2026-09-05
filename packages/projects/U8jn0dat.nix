@@ -108,6 +108,7 @@ let
         "spigot-1.20.2" = _MdICDCuw;
         "spigot-1.20.3" = _MdICDCuw;
         "spigot-1.20.4" = _MdICDCuw;
+        "pkg-1.0" = _MdICDCuw;
         "default" = _MdICDCuw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

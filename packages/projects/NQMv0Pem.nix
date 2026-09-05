@@ -9,6 +9,7 @@ let
     in {
         "YEYEnZtm" = _YEYEnZtm;
         "forge-1.7.10" = _YEYEnZtm;
+        "pkg-1.1.4" = _YEYEnZtm;
         "default" = _YEYEnZtm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

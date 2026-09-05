@@ -15,6 +15,8 @@ let
         "KjpK96yR" = _KjpK96yR;
         "6UpjzNXl" = _6UpjzNXl;
         "fabric-1.20.2" = _6UpjzNXl;
+        "pkg-0.0.16" = _KjpK96yR;
+        "pkg-0.0.24.1" = _6UpjzNXl;
         "default" = _6UpjzNXl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

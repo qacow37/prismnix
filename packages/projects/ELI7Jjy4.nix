@@ -15,6 +15,8 @@ let
         "qmf40UeD" = _qmf40UeD;
         "Evvx0ar0" = _Evvx0ar0;
         "forge-1.20.1" = _Evvx0ar0;
+        "pkg-1.6" = _qmf40UeD;
+        "pkg-1.7" = _Evvx0ar0;
         "default" = _Evvx0ar0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

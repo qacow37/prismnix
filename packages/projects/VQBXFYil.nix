@@ -30,6 +30,10 @@ let
         "forge-1.17.1" = _mSKxlMom;
         "forge-1.16.5" = _76khMpP3;
         "forge-1.15.2" = _teahm3Id;
+        "pkg-1.2.7" = _pHwyPZ38;
+        "pkg-1.1.6" = _mSKxlMom;
+        "pkg-1.0.6" = _76khMpP3;
+        "pkg-backport-1.0.0" = _teahm3Id;
         "default" = _teahm3Id;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

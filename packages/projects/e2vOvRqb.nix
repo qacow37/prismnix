@@ -30,6 +30,7 @@ let
         "minecraft-1.16.3" = _vnwWP7cq;
         "minecraft-1.16.4" = _vnwWP7cq;
         "minecraft-1.16.5" = _vnwWP7cq;
+        "pkg-39.9" = _vnwWP7cq;
         "default" = _vnwWP7cq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

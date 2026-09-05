@@ -51,6 +51,14 @@ let
         "whUmmVFm" = _whUmmVFm;
         "Yg367rtS" = _Yg367rtS;
         "forge-1.20.1" = _Yg367rtS;
+        "pkg-1.0.0.5" = _rYsNYIxw;
+        "pkg-1.0.1" = _cexkAPlX;
+        "pkg-1.0.2" = _simX0u2P;
+        "pkg-1.0.3" = _5JUSXOrT;
+        "pkg-1.0.4" = _ujBeORPy;
+        "pkg-1.0.4.5" = _Ug3gQPR6;
+        "pkg-1.0.5" = _whUmmVFm;
+        "pkg-1.0.6" = _Yg367rtS;
         "default" = _Yg367rtS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

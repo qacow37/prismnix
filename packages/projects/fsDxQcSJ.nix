@@ -90,6 +90,7 @@ let
         "optifine-1.16.1" = _JjbNgAKT;
         "optifine-1.16.2" = _JjbNgAKT;
         "optifine-1.16.3" = _JjbNgAKT;
+        "pkg-1.0" = _JjbNgAKT;
         "default" = _JjbNgAKT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

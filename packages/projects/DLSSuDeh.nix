@@ -10,6 +10,7 @@ let
         "bvuuGPpW" = _bvuuGPpW;
         "fabric-1.20.1" = _bvuuGPpW;
         "quilt-1.20.1" = _bvuuGPpW;
+        "pkg-1.0.0" = _bvuuGPpW;
         "default" = _bvuuGPpW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

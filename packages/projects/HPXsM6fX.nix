@@ -22,6 +22,9 @@ let
         "ypnANfNy" = _ypnANfNy;
         "minecraft-1.20.1" = _ypnANfNy;
         "minecraft-1.20" = _ypnANfNy;
+        "pkg-1.0.0" = _k4VCz7g8;
+        "pkg-1.0.1" = _notMsOLk;
+        "pkg-1.0.2" = _ypnANfNy;
         "default" = _ypnANfNy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

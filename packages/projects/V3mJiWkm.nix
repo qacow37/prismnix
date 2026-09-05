@@ -15,6 +15,8 @@ let
         "HYeruP8L" = _HYeruP8L;
         "oILm8HIv" = _oILm8HIv;
         "fabric-1.20.1" = _oILm8HIv;
+        "pkg-0.1.0-beta.1+fabric-mc1.20.1" = _HYeruP8L;
+        "pkg-0.1.1-beta.1+fabric-mc1.20.1" = _oILm8HIv;
         "default" = _oILm8HIv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

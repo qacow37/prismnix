@@ -9,6 +9,7 @@ let
     in {
         "1140cAMr" = _1140cAMr;
         "fabric-1.21.1" = _1140cAMr;
+        "pkg-2.0" = _1140cAMr;
         "default" = _1140cAMr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

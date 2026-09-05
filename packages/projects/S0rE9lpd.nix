@@ -21,6 +21,9 @@ let
         "aBA7IEMr" = _aBA7IEMr;
         "eMF3g5ot" = _eMF3g5ot;
         "fabric-1.20.1" = _eMF3g5ot;
+        "pkg-0.0.1-pre-alpha" = _53i3r1wX;
+        "pkg-0.0.2-pre-alpha" = _aBA7IEMr;
+        "pkg-0.0.3-pre-alpha" = _eMF3g5ot;
         "default" = _eMF3g5ot;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

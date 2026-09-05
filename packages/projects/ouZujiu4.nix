@@ -15,6 +15,8 @@ let
         "mBvlyeIN" = _mBvlyeIN;
         "5jtleBdP" = _5jtleBdP;
         "fabric-1.20.1" = _5jtleBdP;
+        "pkg-1.20.1-v0.1" = _mBvlyeIN;
+        "pkg-1.20.1-v0.2" = _5jtleBdP;
         "default" = _5jtleBdP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

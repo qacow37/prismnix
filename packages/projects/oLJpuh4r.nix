@@ -62,6 +62,8 @@ let
         "purpur-1.21.10" = _FqaugKHu;
         "spigot-1.20.3" = _VCZOrBSS;
         "spigot-1.20.4" = _VCZOrBSS;
+        "pkg-1.0-SNAPSHOT" = _VCZOrBSS;
+        "pkg-1.1" = _FqaugKHu;
         "default" = _FqaugKHu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

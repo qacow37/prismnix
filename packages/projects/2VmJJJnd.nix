@@ -118,6 +118,12 @@ let
         "quilt-26.1.1" = _OCrpQgs8;
         "quilt-26.1.2" = _OCrpQgs8;
         "quilt-26.2" = _OCrpQgs8;
+        "pkg-v1.0.0" = _v0RQ7tw9;
+        "pkg-v1.0.0+mod" = _AOUAXhvC;
+        "pkg-v1.0.1" = _mC3KI0Sh;
+        "pkg-v1.0.1+mod" = _oDdQnoJJ;
+        "pkg-v1.1.0" = _QB6PD01G;
+        "pkg-v1.1.0+mod" = _OCrpQgs8;
         "default" = _OCrpQgs8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

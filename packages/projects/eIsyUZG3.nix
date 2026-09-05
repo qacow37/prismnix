@@ -10,6 +10,7 @@ let
         "sKw2ERw2" = _sKw2ERw2;
         "neoforge-1.21" = _sKw2ERw2;
         "neoforge-1.21.1" = _sKw2ERw2;
+        "pkg-2.3.1-sodium-sable" = _sKw2ERw2;
         "default" = _sKw2ERw2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -25,6 +25,8 @@ let
         "minecraft-26.1.1" = _i2032Lfe;
         "minecraft-26.1.2" = _i2032Lfe;
         "minecraft-26.2" = _i2032Lfe;
+        "pkg-1.0.0" = _Z2ycfYVY;
+        "pkg-1.0.1" = _i2032Lfe;
         "default" = _i2032Lfe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

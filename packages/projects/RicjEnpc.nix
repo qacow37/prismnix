@@ -85,6 +85,11 @@ let
         "minecraft-24w44a" = _FSOKaMp4;
         "minecraft-24w45a" = _FSOKaMp4;
         "minecraft-24w46a" = _FSOKaMp4;
+        "pkg-4.5" = _RBz4Wpmj;
+        "pkg-5" = _kzUbFflB;
+        "pkg-5.5" = _frlZTNil;
+        "pkg-5.6" = _1x6OdGwK;
+        "pkg-6" = _FSOKaMp4;
         "default" = _FSOKaMp4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "bDWK03vZ" = _bDWK03vZ;
         "neoforge-1.21.1" = _TL9MtLP5;
         "forge-1.20.1" = _bDWK03vZ;
+        "pkg-1.0.0" = _TL9MtLP5;
+        "pkg-1.20.1-1.0.0" = _bDWK03vZ;
         "default" = _bDWK03vZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

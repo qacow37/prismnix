@@ -121,6 +121,15 @@ let
         "folia-1.21.9" = _BI0g2kiy;
         "folia-1.21.10" = _BI0g2kiy;
         "folia-1.21.11" = _BI0g2kiy;
+        "pkg-1.0.0" = _MiLMpf9c;
+        "pkg-1.0.1" = _W5iJrPSI;
+        "pkg-1.0.2" = _jCN5kTqr;
+        "pkg-1.0.3" = _iqWemMrk;
+        "pkg-1.1.0" = _jYuVqlRL;
+        "pkg-1.1.1" = _SXreX5dE;
+        "pkg-1.1.2" = _BI0g2kiy;
+        "pkg-1.1.3" = _ouVCp6RL;
+        "pkg-1.1.4" = _tNB5DUUk;
         "default" = _tNB5DUUk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

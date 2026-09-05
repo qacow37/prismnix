@@ -36,6 +36,9 @@ let
         "forge-1.19.2" = _Jyxa7Fut;
         "forge-1.20.1" = _WHvecoEX;
         "neoforge-1.21.1" = _mevrMbVX;
+        "pkg-0.2.3" = _WHvecoEX;
+        "pkg-0.2.4" = _EVp4poFf;
+        "pkg-0.2.5" = _mevrMbVX;
         "default" = _mevrMbVX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

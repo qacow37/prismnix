@@ -28,6 +28,10 @@ let
         "myIAtAPL" = _myIAtAPL;
         "neoforge-1.21.1" = _myIAtAPL;
         "neoforge-1.21" = _myIAtAPL;
+        "pkg-1.0.0" = _2vOuXy7f;
+        "pkg-1.1.0" = _R3qhVH9r;
+        "pkg-1.2.0" = _bCFn9jyV;
+        "pkg-1.2.1" = _myIAtAPL;
         "default" = _myIAtAPL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

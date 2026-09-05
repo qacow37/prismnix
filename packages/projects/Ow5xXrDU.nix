@@ -9,6 +9,7 @@ let
     in {
         "sK4dLUaF" = _sK4dLUaF;
         "forge-1.12.2" = _sK4dLUaF;
+        "pkg-1.0.0" = _sK4dLUaF;
         "default" = _sK4dLUaF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

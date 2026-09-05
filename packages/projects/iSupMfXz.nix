@@ -46,6 +46,13 @@ let
         "ATTGMqiB" = _ATTGMqiB;
         "forge-1.16.5" = _RPBRHFhU;
         "forge-1.20.1" = _ATTGMqiB;
+        "pkg-0.1" = _RPBRHFhU;
+        "pkg-0.1.1" = _g0guXbqz;
+        "pkg-0.1.2" = _MNCI4PTm;
+        "pkg-0.1.4" = _tscjvP51;
+        "pkg-0.1.4.2" = _yJS4MFfV;
+        "pkg-0.1.4.3" = _dfHoF5Zc;
+        "pkg-0.1.4.4" = _ATTGMqiB;
         "default" = _ATTGMqiB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

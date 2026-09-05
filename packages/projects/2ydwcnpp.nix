@@ -36,6 +36,7 @@ let
         "spigot-1.2.5" = _Qd5DKclx;
         "spigot-1.20" = _Qd5DKclx;
         "spigot-1.20.1" = _Qd5DKclx;
+        "pkg-0.1" = _Qd5DKclx;
         "default" = _Qd5DKclx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

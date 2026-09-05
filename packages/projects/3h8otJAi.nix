@@ -9,6 +9,7 @@ let
     in {
         "KHTNF8p1" = _KHTNF8p1;
         "forge-1.20.1" = _KHTNF8p1;
+        "pkg-1.0.0" = _KHTNF8p1;
         "default" = _KHTNF8p1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

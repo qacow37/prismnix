@@ -9,6 +9,7 @@ let
     in {
         "cuTCcTTz" = _cuTCcTTz;
         "forge-1.20.1" = _cuTCcTTz;
+        "pkg-1.0.0" = _cuTCcTTz;
         "default" = _cuTCcTTz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

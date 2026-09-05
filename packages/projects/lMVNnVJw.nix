@@ -25,6 +25,8 @@ let
         "neoforge-1.21.9" = _EYLy5ekm;
         "neoforge-1.21.10" = _EYLy5ekm;
         "neoforge-1.21.11" = _EYLy5ekm;
+        "pkg-1.0.0" = _J5MEtHw5;
+        "pkg-1.0.1" = _EYLy5ekm;
         "default" = _EYLy5ekm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

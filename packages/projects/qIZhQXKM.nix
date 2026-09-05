@@ -21,6 +21,9 @@ let
         "KY6wl5SV" = _KY6wl5SV;
         "sqXEwItv" = _sqXEwItv;
         "neoforge-1.21.1" = _sqXEwItv;
+        "pkg-1.0.0" = _tIhhXDTd;
+        "pkg-1.0.1" = _KY6wl5SV;
+        "pkg-1.0.2" = _sqXEwItv;
         "default" = _sqXEwItv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

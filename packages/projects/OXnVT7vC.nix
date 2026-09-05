@@ -22,6 +22,7 @@ let
         "minecraft-23w43b" = _jrDEYyb8;
         "minecraft-23w44a" = _jrDEYyb8;
         "minecraft-23w45a" = _jrDEYyb8;
+        "pkg-2.5" = _jrDEYyb8;
         "default" = _jrDEYyb8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

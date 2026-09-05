@@ -10,6 +10,7 @@ let
         "nYdqaBoC" = _nYdqaBoC;
         "minecraft-1.21.4" = _nYdqaBoC;
         "minecraft-1.21.5" = _nYdqaBoC;
+        "pkg-v.1" = _nYdqaBoC;
         "default" = _nYdqaBoC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -24,6 +24,8 @@ let
         "paper-1.21.7" = _aZHtlHAi;
         "paper-1.21.8" = _aZHtlHAi;
         "paper-1.21.9" = _aZHtlHAi;
+        "pkg-1.0.0" = _GGW8Zlmi;
+        "pkg-1.0.1" = _aZHtlHAi;
         "default" = _aZHtlHAi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

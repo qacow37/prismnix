@@ -100,6 +100,14 @@ let
         "spigot-26.1.1" = _jGptEFOw;
         "spigot-26.1.2" = _jGptEFOw;
         "spigot-26.2" = _jGptEFOw;
+        "pkg-1.0.0" = _JiQ4VNRL;
+        "pkg-2.0" = _XLl8Jv73;
+        "pkg-3.0" = _dpl5koxd;
+        "pkg-3.1" = _PkKUhd8A;
+        "pkg-4.4" = _MzwOTVnd;
+        "pkg-5.0" = _isWPoo1d;
+        "pkg-5.1" = _R0VKzRh9;
+        "pkg-5.2" = _jGptEFOw;
         "default" = _jGptEFOw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

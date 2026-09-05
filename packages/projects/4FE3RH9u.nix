@@ -51,6 +51,14 @@ let
         "XnDS50So" = _XnDS50So;
         "kkYGQ741" = _kkYGQ741;
         "forge-1.20.1" = _kkYGQ741;
+        "pkg-1.1.1" = _SCwUATf9;
+        "pkg-1.3.0" = _cQa0E2eI;
+        "pkg-1.3.1" = _oTCFf40S;
+        "pkg-1.3.2" = _c7Zix53a;
+        "pkg-1.3.3" = _m5OZLIfw;
+        "pkg-1.3.4" = _5CmSQjIc;
+        "pkg-1.3.5" = _XnDS50So;
+        "pkg-1.3.6" = _kkYGQ741;
         "default" = _kkYGQ741;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -40,6 +40,12 @@ let
         "8FvBZSXr" = _8FvBZSXr;
         "forge-1.12.2" = _8FvBZSXr;
         "sponge-1.12.2" = _8FvBZSXr;
+        "pkg-1.12.2-2.0.20" = _G0ZKkjon;
+        "pkg-1.12.2-2.0.21" = _MhVy881q;
+        "pkg-1.12.2-2.0.22" = _dNQKChpY;
+        "pkg-1.12.2-2.0.23" = _ORHSmGSW;
+        "pkg-1.12.2-2.0.25" = _z5WHAsl5;
+        "pkg-1.12.2-2.0.26" = _8FvBZSXr;
         "default" = _8FvBZSXr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

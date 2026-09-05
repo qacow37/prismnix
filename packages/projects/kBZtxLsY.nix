@@ -62,6 +62,8 @@ let
         "purpur-1.21.9" = _beibc4VT;
         "purpur-1.21.10" = _beibc4VT;
         "purpur-1.21.11" = _beibc4VT;
+        "pkg-1.0-SNAPSHOT" = _nPSsSEn9;
+        "pkg-2.0" = _beibc4VT;
         "default" = _beibc4VT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,7 @@ let
         "minecraft-1.21.6" = _fsl50cWu;
         "minecraft-1.21.7" = _fsl50cWu;
         "minecraft-1.21.8" = _fsl50cWu;
+        "pkg-1.2.1" = _fsl50cWu;
         "default" = _fsl50cWu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "6FEmKap0" = _6FEmKap0;
         "4ijauzac" = _4ijauzac;
         "fabric-1.20.1" = _4ijauzac;
+        "pkg-1.0.0" = _Ctm9Hasy;
+        "pkg-1.0.1" = _6FEmKap0;
+        "pkg-1.0.2" = _4ijauzac;
         "default" = _4ijauzac;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

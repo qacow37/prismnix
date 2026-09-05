@@ -141,6 +141,7 @@ let
         "minecraft-1.21.10" = _HgcHlmMW;
         "minecraft-1.21.11" = _HgcHlmMW;
         "minecraft-26.1" = _HgcHlmMW;
+        "pkg-1.0" = _HgcHlmMW;
         "default" = _HgcHlmMW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

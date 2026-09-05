@@ -17,6 +17,8 @@ let
         "minecraft-1.20" = _uhyHCtas;
         "minecraft-1.20.1" = _NAHxJaEX;
         "minecraft-1.21.1" = _NAHxJaEX;
+        "pkg-rct_trainer_animation_beta0.2" = _uhyHCtas;
+        "pkg-beta_0.2.1" = _NAHxJaEX;
         "default" = _NAHxJaEX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

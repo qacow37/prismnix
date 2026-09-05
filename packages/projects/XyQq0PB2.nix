@@ -39,6 +39,12 @@ let
         "vtvMf4XW" = _vtvMf4XW;
         "S0SI2xqA" = _S0SI2xqA;
         "forge-1.20.1" = _S0SI2xqA;
+        "pkg-1.1-1.20.1" = _KJToL33h;
+        "pkg-2.0-1.20.1" = _MhKSmTHo;
+        "pkg-2.1-1.20.1" = _slkAq8wi;
+        "pkg-2.2-1.20.1" = _FjffAzA6;
+        "pkg-1.2.3-1.20.1" = _vtvMf4XW;
+        "pkg-1.2.4-1.20.1" = _S0SI2xqA;
         "default" = _S0SI2xqA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

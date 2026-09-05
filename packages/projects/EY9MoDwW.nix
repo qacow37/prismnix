@@ -107,6 +107,8 @@ let
         "quilt-1.21.4" = _RVdmouUA;
         "quilt-1.21.9" = _OTheTCUm;
         "quilt-1.21.10" = _OTheTCUm;
+        "pkg-1" = _tth0XiBf;
+        "pkg-1+mod" = _OTheTCUm;
         "default" = _OTheTCUm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "MZy537Aa" = _MZy537Aa;
         "2IEvtTyW" = _2IEvtTyW;
         "forge-1.20.1" = _2IEvtTyW;
+        "pkg-0.1.0-beta" = _FIem3anV;
+        "pkg-0.2.0-beta" = _MZy537Aa;
+        "pkg-0.2.1-Release" = _2IEvtTyW;
         "default" = _2IEvtTyW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

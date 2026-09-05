@@ -34,6 +34,11 @@ let
         "yqYtmW5V" = _yqYtmW5V;
         "datapack-1.20.1" = _IVPLhNZ3;
         "fabric-1.20.1" = _yqYtmW5V;
+        "pkg-1" = _SGbeNJW4;
+        "pkg-2" = _Khq1TwJm;
+        "pkg-2+mod" = _tznaynpZ;
+        "pkg-3" = _IVPLhNZ3;
+        "pkg-3+mod" = _yqYtmW5V;
         "default" = _yqYtmW5V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

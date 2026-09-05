@@ -15,6 +15,8 @@ let
         "ZD3MysHd" = _ZD3MysHd;
         "GsQU3lRY" = _GsQU3lRY;
         "forge-1.20.1" = _GsQU3lRY;
+        "pkg-1.0.3" = _ZD3MysHd;
+        "pkg-1.0.4" = _GsQU3lRY;
         "default" = _GsQU3lRY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

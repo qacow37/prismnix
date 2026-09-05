@@ -35,6 +35,8 @@ let
         "minecraft-1.20.3" = _CWSTEGDg;
         "minecraft-1.20.4" = _CWSTEGDg;
         "minecraft-26.2" = _CWSTEGDg;
+        "pkg-24.1" = _mVZ7Q8J5;
+        "pkg-26.1" = _CWSTEGDg;
         "default" = _CWSTEGDg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

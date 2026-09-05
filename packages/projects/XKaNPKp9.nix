@@ -15,6 +15,8 @@ let
         "AWlAF55N" = _AWlAF55N;
         "zZXdRUyU" = _zZXdRUyU;
         "forge-1.16.5" = _zZXdRUyU;
+        "pkg-0.0.6+1.16" = _AWlAF55N;
+        "pkg-0.0.7+1.16" = _zZXdRUyU;
         "default" = _zZXdRUyU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -125,6 +125,14 @@ let
         "spigot-26.1.1" = _tDXrexiD;
         "spigot-26.1.2" = _tDXrexiD;
         "spigot-26.2" = _tDXrexiD;
+        "pkg-1.0" = _EXL6vkZt;
+        "pkg-1.1" = _t09F73ng;
+        "pkg-1.2" = _g8jRIBdE;
+        "pkg-1.3" = _ZWIRrnnC;
+        "pkg-1.4" = _dyCH7qAu;
+        "pkg-1.5" = _OYEguyMb;
+        "pkg-1.6" = _DjUl7mbI;
+        "pkg-1.7" = _tDXrexiD;
         "default" = _tDXrexiD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

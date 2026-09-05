@@ -94,6 +94,8 @@ let
         "quilt-26.1.1" = _m750SAHc;
         "quilt-26.1.2" = _m750SAHc;
         "quilt-26.2" = _m750SAHc;
+        "pkg-V1.0" = _sFKTvNGa;
+        "pkg-V1.0+mod" = _m750SAHc;
         "default" = _m750SAHc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

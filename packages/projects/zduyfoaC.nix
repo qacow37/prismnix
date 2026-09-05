@@ -10,6 +10,7 @@ let
         "WTsnRzdR" = _WTsnRzdR;
         "minecraft-1.21" = _WTsnRzdR;
         "minecraft-1.21.1" = _WTsnRzdR;
+        "pkg-v1.21" = _WTsnRzdR;
         "default" = _WTsnRzdR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

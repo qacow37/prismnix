@@ -40,6 +40,10 @@ let
         "W5cLAISC" = _W5cLAISC;
         "forge-1.12.2" = _WDljLqg3;
         "forge-1.20.1" = _W5cLAISC;
+        "pkg-2.0.0" = _5stYyRxN;
+        "pkg-2.0.1" = _ofyUShud;
+        "pkg-2.0.2" = _WDljLqg3;
+        "pkg-2.0.4" = _W5cLAISC;
         "default" = _W5cLAISC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

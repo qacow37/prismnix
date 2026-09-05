@@ -72,6 +72,8 @@ let
         "quilt-1.21.9" = _uVSpugPt;
         "quilt-1.21.10" = _uVSpugPt;
         "quilt-1.21.11" = _uVSpugPt;
+        "pkg-1.0.0" = _68o3isDE;
+        "pkg-1.1.0" = _uVSpugPt;
         "default" = _uVSpugPt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -18,6 +18,7 @@ let
         "forge-1.20.2" = _Vga4Nj02;
         "forge-1.20.3" = _Vga4Nj02;
         "forge-1.20.4" = _Vga4Nj02;
+        "pkg-1.20.1" = _YWns7KyE;
         "default" = _YWns7KyE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

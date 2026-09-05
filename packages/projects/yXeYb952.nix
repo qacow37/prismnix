@@ -20,6 +20,7 @@ let
         "fabric-1.21.9" = _ifSl5Dz7;
         "fabric-1.21.10" = _ifSl5Dz7;
         "fabric-1.21.11" = _ifSl5Dz7;
+        "pkg-1.0.0" = _ifSl5Dz7;
         "default" = _ifSl5Dz7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

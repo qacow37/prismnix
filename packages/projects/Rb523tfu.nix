@@ -15,6 +15,8 @@ let
         "Y5buAUhy" = _Y5buAUhy;
         "gN5nJDLL" = _gN5nJDLL;
         "neoforge-1.21.1" = _gN5nJDLL;
+        "pkg-1.2.0" = _Y5buAUhy;
+        "pkg-1.3.0" = _gN5nJDLL;
         "default" = _gN5nJDLL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

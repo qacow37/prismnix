@@ -15,6 +15,8 @@ let
         "Jv2W8POq" = _Jv2W8POq;
         "hSJPRUGp" = _hSJPRUGp;
         "forge-1.20.1" = _hSJPRUGp;
+        "pkg-1.0.1" = _Jv2W8POq;
+        "pkg-2.0.0" = _hSJPRUGp;
         "default" = _hSJPRUGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -30,6 +30,8 @@ let
         "fabric-26.1.1" = _HbszBlCV;
         "fabric-26.1.2" = _HbszBlCV;
         "fabric-26.2" = _HbszBlCV;
+        "pkg-1.0.0+1.21.X" = _b0gZINRv;
+        "pkg-1.0.0-26.1.X" = _HbszBlCV;
         "default" = _HbszBlCV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

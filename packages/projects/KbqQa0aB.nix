@@ -136,6 +136,8 @@ let
         "iris-1.20.6" = _WyZSH24t;
         "iris-1.21" = _WyZSH24t;
         "iris-1.21.1" = _WyZSH24t;
+        "pkg-1.0.0" = _5vzdyHep;
+        "pkg-1.1.0" = _WyZSH24t;
         "default" = _WyZSH24t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

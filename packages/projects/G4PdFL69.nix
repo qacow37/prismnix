@@ -27,6 +27,8 @@ let
         "minecraft-1.19.4" = _MLbgOVTp;
         "minecraft-1.20" = _MLbgOVTp;
         "minecraft-1.20.2" = _MLbgOVTp;
+        "pkg-V1" = _nMrBiv1E;
+        "pkg-v2" = _MLbgOVTp;
         "default" = _MLbgOVTp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

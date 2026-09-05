@@ -39,6 +39,12 @@ let
         "KIEPXAtA" = _KIEPXAtA;
         "2AFSYdYJ" = _2AFSYdYJ;
         "fabric-1.21.1" = _2AFSYdYJ;
+        "pkg-1.0.0" = _QCclkREl;
+        "pkg-1.0.1" = _uQkWuUtv;
+        "pkg-1.0.2" = _aVcXxOY8;
+        "pkg-1.0.3" = _8Eu5fNTV;
+        "pkg-1.0.4" = _KIEPXAtA;
+        "pkg-1.0.5" = _2AFSYdYJ;
         "default" = _2AFSYdYJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

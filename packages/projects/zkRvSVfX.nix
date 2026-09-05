@@ -15,6 +15,8 @@ let
         "B0P2uMEr" = _B0P2uMEr;
         "QLvmb0hn" = _QLvmb0hn;
         "fabric-1.21.11" = _QLvmb0hn;
+        "pkg-1.0.0" = _B0P2uMEr;
+        "pkg-1.0.1" = _QLvmb0hn;
         "default" = _QLvmb0hn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

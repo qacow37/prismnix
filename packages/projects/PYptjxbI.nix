@@ -58,6 +58,7 @@ let
         "spigot-26.1.1" = _rN77Gmj7;
         "spigot-26.1.2" = _rN77Gmj7;
         "spigot-26.2" = _rN77Gmj7;
+        "pkg-1.5" = _rN77Gmj7;
         "default" = _rN77Gmj7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

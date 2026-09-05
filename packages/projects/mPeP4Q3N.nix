@@ -129,6 +129,25 @@ let
         "Si0hRUb9" = _Si0hRUb9;
         "X9RTbgNX" = _X9RTbgNX;
         "forge-1.16.5" = _X9RTbgNX;
+        "pkg-forge-1.16.5-preview-0.0.4" = _vvBGgF25;
+        "pkg-forge-1.16.5-preview-0.0.5" = _rto7UxsD;
+        "pkg-forge-1.16.5-preview-0.0.51" = _q91Fb8bO;
+        "pkg-forge-1.16.5-preview-0.0.52" = _IFd3Ff0y;
+        "pkg-forge-1.16.5-preview-0.0.6" = _4ZRMNeBe;
+        "pkg-forge-1.16.5-preview-0.0.62" = _cUAUK40x;
+        "pkg-forge-1.16.5-preview-0.0.621" = _JOtlsEYq;
+        "pkg-forge-1.16.5-preview-0.0.622" = _ZrPvrV12;
+        "pkg-forge-1.16.5-preview-0.0.623" = _lDFxsm4j;
+        "pkg-forge-1.16.5-preview-0.0.7" = _Oif5hPNN;
+        "pkg-forge-1.16.5-preview-0.0.8" = _tFWWncWB;
+        "pkg-forge-1.16.5-preview-0.0.801" = _nb6GWIq4;
+        "pkg-forge-1.16.5-preview-0.0.802" = _9Ulyw5re;
+        "pkg-forge-1.16.5-preview-0.0.802a" = _3VCIID2o;
+        "pkg-forge-1.16.5-preview-0.0.802b" = _IdzcN5Ny;
+        "pkg-forge-1.16.5-preview-0.0.803" = _7yTUDJ26;
+        "pkg-forge-1.16.5-preview-0.0.803a" = _jKVx9Dzo;
+        "pkg-forge-1.16.5-preview-0.0.804" = _Si0hRUb9;
+        "pkg-forge-1.16.5-alpha-0.0.805" = _X9RTbgNX;
         "default" = _X9RTbgNX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

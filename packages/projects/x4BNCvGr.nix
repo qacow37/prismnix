@@ -21,6 +21,9 @@ let
         "bYYeigIv" = _bYYeigIv;
         "S5BG6yzt" = _S5BG6yzt;
         "fabric-1.20.1" = _S5BG6yzt;
+        "pkg-Fabric-1.20.1" = _k7BPksht;
+        "pkg-Fabric-1.20.1-1.1" = _bYYeigIv;
+        "pkg-Fabric-1.20.1-1.2.0" = _S5BG6yzt;
         "default" = _S5BG6yzt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

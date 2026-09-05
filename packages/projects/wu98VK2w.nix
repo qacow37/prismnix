@@ -9,6 +9,7 @@ let
     in {
         "L0niJsx8" = _L0niJsx8;
         "minecraft-1.21.4" = _L0niJsx8;
+        "pkg-Fox_Refreshed_FA_V1" = _L0niJsx8;
         "default" = _L0niJsx8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

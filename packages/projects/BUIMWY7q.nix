@@ -81,6 +81,13 @@ let
         "fabric-1.20" = _TbHcgtps;
         "fabric-1.20.1" = _TbHcgtps;
         "fabric-1.19.4" = _HNkglima;
+        "pkg-17.0.4" = _eAOwqYrS;
+        "pkg-17.0.1" = _WZSz7Qdg;
+        "pkg-16.0.3" = _ToQewIjr;
+        "pkg-16.0.1" = _i1SS6ZyC;
+        "pkg-18.0.0" = _hC7YwW9W;
+        "pkg-20.0.0" = _TbHcgtps;
+        "pkg-19.0.0" = _HNkglima;
         "default" = _HNkglima;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

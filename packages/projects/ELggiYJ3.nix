@@ -9,6 +9,7 @@ let
     in {
         "MUfEap4I" = _MUfEap4I;
         "minecraft-1.20.1" = _MUfEap4I;
+        "pkg-1.0" = _MUfEap4I;
         "default" = _MUfEap4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

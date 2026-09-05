@@ -13,6 +13,7 @@ let
         "minecraft-1.21.2" = _aW81mZIV;
         "minecraft-1.21.3" = _aW81mZIV;
         "minecraft-1.21.4" = _aW81mZIV;
+        "pkg-V5" = _aW81mZIV;
         "default" = _aW81mZIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

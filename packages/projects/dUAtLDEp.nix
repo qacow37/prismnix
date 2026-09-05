@@ -20,6 +20,7 @@ let
         "spigot-1.20" = _1EFghlUr;
         "spigot-1.20.1" = _1EFghlUr;
         "spigot-1.20.2" = _1EFghlUr;
+        "pkg-1.0" = _1EFghlUr;
         "default" = _1EFghlUr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

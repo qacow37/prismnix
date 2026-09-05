@@ -15,6 +15,8 @@ let
         "YFrGyM37" = _YFrGyM37;
         "WhBT0sp5" = _WhBT0sp5;
         "forge-1.20.1" = _WhBT0sp5;
+        "pkg-1.0" = _YFrGyM37;
+        "pkg-1.1" = _WhBT0sp5;
         "default" = _WhBT0sp5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

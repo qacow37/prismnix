@@ -104,6 +104,11 @@ let
         "neoforge-1.20.2" = _Jrop22Rb;
         "neoforge-1.20.3" = _Jrop22Rb;
         "neoforge-1.20.4" = _Jrop22Rb;
+        "pkg-1.0.1" = _FZDYifB5;
+        "pkg-1.0.3" = _DwNQjiBA;
+        "pkg-2.0.0" = _t3DmasJs;
+        "pkg-2.0.1" = _Jrop22Rb;
+        "pkg-3.0.0" = _xQLssPqI;
         "default" = _xQLssPqI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "7ENRaeYF" = _7ENRaeYF;
         "OvkozhNo" = _OvkozhNo;
         "neoforge-1.21.1" = _OvkozhNo;
+        "pkg-0.0.1-beta" = _7ENRaeYF;
+        "pkg-0.0.2" = _OvkozhNo;
         "default" = _OvkozhNo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

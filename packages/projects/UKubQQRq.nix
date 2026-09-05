@@ -21,6 +21,9 @@ let
         "a5f6OFMS" = _a5f6OFMS;
         "30TWX853" = _30TWX853;
         "neoforge-1.21.1" = _30TWX853;
+        "pkg-0.1.4" = _1z8xSg8B;
+        "pkg-0.1.4.1" = _a5f6OFMS;
+        "pkg-0.1.5.2" = _30TWX853;
         "default" = _30TWX853;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

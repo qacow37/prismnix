@@ -47,6 +47,7 @@ let
         "datapack-1.20" = _DpgJcyiv;
         "datapack-1.20.1" = _DpgJcyiv;
         "datapack-1.20.2" = _DpgJcyiv;
+        "pkg-1.0" = _DpgJcyiv;
         "default" = _DpgJcyiv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

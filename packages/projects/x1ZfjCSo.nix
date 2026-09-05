@@ -30,6 +30,9 @@ let
         "optifine-26.1" = _S3PAGIFv;
         "optifine-26.1.1" = _S3PAGIFv;
         "optifine-26.2" = _S3PAGIFv;
+        "pkg-1.0-beta.1" = _OnnjruE2;
+        "pkg-2.0-beta.2" = _eRr9E90y;
+        "pkg-1.0" = _S3PAGIFv;
         "default" = _S3PAGIFv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "K3CAyDCG" = _K3CAyDCG;
         "iris-1.21" = _K3CAyDCG;
         "optifine-1.21" = _K3CAyDCG;
+        "pkg-0.1" = _K3CAyDCG;
         "default" = _K3CAyDCG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

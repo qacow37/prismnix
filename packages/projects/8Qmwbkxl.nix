@@ -15,6 +15,8 @@ let
         "r2mmQkui" = _r2mmQkui;
         "6WjrJIWg" = _6WjrJIWg;
         "forge-1.20.1" = _6WjrJIWg;
+        "pkg-1.0" = _r2mmQkui;
+        "pkg-2.0" = _6WjrJIWg;
         "default" = _6WjrJIWg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

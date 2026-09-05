@@ -15,6 +15,8 @@ let
         "dSH27nOB" = _dSH27nOB;
         "dUonaWAo" = _dUonaWAo;
         "forge-1.20.1" = _dUonaWAo;
+        "pkg-1.1.0" = _dSH27nOB;
+        "pkg-1.1.5" = _dUonaWAo;
         "default" = _dUonaWAo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

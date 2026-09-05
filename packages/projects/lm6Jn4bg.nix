@@ -32,6 +32,8 @@ let
         "fabric-1.21.9" = _T35K8NKq;
         "fabric-1.21.10" = _T35K8NKq;
         "fabric-1.21.11" = _T35K8NKq;
+        "pkg-26.3.30" = _Zd44UiLe;
+        "pkg-26.3.31.2" = _T35K8NKq;
         "default" = _T35K8NKq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

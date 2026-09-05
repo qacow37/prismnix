@@ -28,6 +28,10 @@ let
         "dZ454Ly3" = _dZ454Ly3;
         "fabric-1.20.1" = _dZ454Ly3;
         "quilt-1.20.1" = _dZ454Ly3;
+        "pkg-0.0.8" = _AAXcnC6J;
+        "pkg-0.0.9" = _b63ST2oe;
+        "pkg-0.1.0" = _6Fbzd2Xi;
+        "pkg-0.1.1" = _dZ454Ly3;
         "default" = _dZ454Ly3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

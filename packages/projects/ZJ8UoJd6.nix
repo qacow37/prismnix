@@ -27,6 +27,10 @@ let
         "RBQ2A3Il" = _RBQ2A3Il;
         "Ryspxbgu" = _Ryspxbgu;
         "forge-1.16.5" = _Ryspxbgu;
+        "pkg-0.1-server-crash-fix" = _z3SrRuvb;
+        "pkg-0.2" = _ppFByaa0;
+        "pkg-0.2-crash-fix" = _RBQ2A3Il;
+        "pkg-0.2-packet-server-crash-fix" = _Ryspxbgu;
         "default" = _Ryspxbgu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

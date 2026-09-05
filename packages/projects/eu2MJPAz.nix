@@ -16,6 +16,7 @@ let
         "kspWSBKm" = _kspWSBKm;
         "neoforge-1.21.1" = _EwGzRXh3;
         "forge-1.20.1" = _kspWSBKm;
+        "pkg-1.0.0" = _kspWSBKm;
         "default" = _kspWSBKm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

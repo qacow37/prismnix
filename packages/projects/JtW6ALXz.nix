@@ -9,6 +9,7 @@ let
     in {
         "7riv4ntn" = _7riv4ntn;
         "quilt-1.20.1" = _7riv4ntn;
+        "pkg-0.2.0+1.20.1" = _7riv4ntn;
         "default" = _7riv4ntn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

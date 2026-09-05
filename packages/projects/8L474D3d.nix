@@ -34,6 +34,7 @@ let
         "minecraft-1.21.8" = _s7FMseky;
         "minecraft-1.21.9" = _s7FMseky;
         "minecraft-1.21.10" = _s7FMseky;
+        "pkg-1" = _s7FMseky;
         "default" = _s7FMseky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

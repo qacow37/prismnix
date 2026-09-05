@@ -27,6 +27,7 @@ let
         "bZoasarj" = _bZoasarj;
         "rYxKLZgE" = _rYxKLZgE;
         "minecraft-1.20.4" = _rYxKLZgE;
+        "pkg-1" = _rYxKLZgE;
         "default" = _rYxKLZgE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

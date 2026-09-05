@@ -16,6 +16,7 @@ let
         "neoforge-1.20.2" = _FpGS9hcg;
         "neoforge-1.20.3" = _FpGS9hcg;
         "neoforge-1.20.4" = _FpGS9hcg;
+        "pkg-1.0" = _FpGS9hcg;
         "default" = _FpGS9hcg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

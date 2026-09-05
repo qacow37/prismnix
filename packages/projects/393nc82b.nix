@@ -28,6 +28,10 @@ let
         "EjJrsTZS" = _EjJrsTZS;
         "minecraft-1.19" = _WBu2IiRT;
         "minecraft-1.8.9" = _EjJrsTZS;
+        "pkg-1.0" = _gVvgSBVZ;
+        "pkg-1.1" = _76eI9IUo;
+        "pkg-1.2" = _WBu2IiRT;
+        "pkg-1.8.9" = _EjJrsTZS;
         "default" = _EjJrsTZS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

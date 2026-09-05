@@ -21,6 +21,9 @@ let
         "9Fn8XDAN" = _9Fn8XDAN;
         "9sn17vfD" = _9sn17vfD;
         "forge-1.20.1" = _9sn17vfD;
+        "pkg-1.0" = _BbS6zczi;
+        "pkg-1.1" = _9Fn8XDAN;
+        "pkg-1.2" = _9sn17vfD;
         "default" = _9sn17vfD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

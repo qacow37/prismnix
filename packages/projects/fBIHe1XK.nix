@@ -60,6 +60,12 @@ let
         "forge-26.1.1" = _Gkdmr80f;
         "forge-26.1.2" = _Gkdmr80f;
         "forge-26.2" = _Gkdmr80f;
+        "pkg-1.0.0" = _ssvKIvDy;
+        "pkg-1.1.0" = _W757JmPg;
+        "pkg-1.2.0" = _the1Yw5V;
+        "pkg-1.2.1" = _RyEVsJWp;
+        "pkg-1.3.0" = _pidVWfeC;
+        "pkg-1.3.1" = _Gkdmr80f;
         "default" = _Gkdmr80f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

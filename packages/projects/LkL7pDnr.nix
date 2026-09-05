@@ -28,6 +28,10 @@ let
         "9GtExgtt" = _9GtExgtt;
         "fabric-1.21" = _9GtExgtt;
         "fabric-1.21.1" = _9GtExgtt;
+        "pkg-0.1.0-1.21.1" = _jPqnXwNL;
+        "pkg-0.1.1-1.21.1" = _UZi1YmNy;
+        "pkg-0.1.2-1.21.1" = _nxegfbLd;
+        "pkg-0.1.3-1.21.1" = _9GtExgtt;
         "default" = _9GtExgtt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

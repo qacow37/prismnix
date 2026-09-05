@@ -98,6 +98,9 @@ let
         "optifine-1.19.2" = _RB88XNEF;
         "optifine-1.19.3" = _RB88XNEF;
         "optifine-1.19.4" = _RB88XNEF;
+        "pkg-0.2" = _cTPM2nZs;
+        "pkg-1" = _RB88XNEF;
+        "pkg-Rewrite" = _p8Tvfh3t;
         "default" = _p8Tvfh3t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

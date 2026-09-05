@@ -65,6 +65,9 @@ let
         "spigot-26.1" = _CISaxBkx;
         "spigot-26.1.1" = _CISaxBkx;
         "spigot-26.1.2" = _CISaxBkx;
+        "pkg-1.5" = _XnKQTKok;
+        "pkg-7.5" = _HnA23tdu;
+        "pkg-7.6" = _CISaxBkx;
         "default" = _CISaxBkx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

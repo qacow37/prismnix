@@ -133,6 +133,23 @@ let
         "minecraft-1.19.2" = _OHwVFJZz;
         "minecraft-1.19.3" = _OHwVFJZz;
         "minecraft-1.19.4" = _OHwVFJZz;
+        "pkg-1.0" = _qgUaB4yc;
+        "pkg-Flowers-1.19" = _rnMlU60C;
+        "pkg-Grass-side-1.19" = _AcA4sbzG;
+        "pkg-Flowers-side-1.19" = _cciFprjj;
+        "pkg-Podzol-1.19" = _H2FJUvFc;
+        "pkg-Mycelium-1.19" = _TQ1RP522;
+        "pkg-Crimson-nylium-1.19" = _Hwh8dE1j;
+        "pkg-Warped-nylium-1.19" = _yLFpBXhA;
+        "pkg-Flowers" = _Caw7iIkQ;
+        "pkg-Grass-side" = _BLDDRhDO;
+        "pkg-Flowers-side" = _8nv7gLGP;
+        "pkg-Podzol" = _5qKxU9oN;
+        "pkg-Mycelium" = _mIHHGwuf;
+        "pkg-Crimson-nylium" = _5jp1WA6O;
+        "pkg-Warped-nylium" = _htTJn19S;
+        "pkg-Grass" = _JienQUZP;
+        "pkg-Grass-1.19" = _OHwVFJZz;
         "default" = _OHwVFJZz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

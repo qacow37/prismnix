@@ -177,6 +177,8 @@ let
         "quilt-1.21.1" = _oW3SYaap;
         "quilt-1.21.2" = _oW3SYaap;
         "quilt-1.21.3" = _oW3SYaap;
+        "pkg-1.0" = _b34QiUcs;
+        "pkg-1.0+mod" = _oW3SYaap;
         "default" = _oW3SYaap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

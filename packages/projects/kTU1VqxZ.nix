@@ -9,6 +9,7 @@ let
     in {
         "kTJZE85y" = _kTJZE85y;
         "quilt-1.18.2" = _kTJZE85y;
+        "pkg-1" = _kTJZE85y;
         "default" = _kTJZE85y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

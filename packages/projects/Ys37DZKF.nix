@@ -16,6 +16,7 @@ let
         "EcLfwl7o" = _EcLfwl7o;
         "fabric-1.21.1" = _C2OsNC2B;
         "neoforge-1.21.1" = _EcLfwl7o;
+        "pkg-1.0.0" = _EcLfwl7o;
         "default" = _EcLfwl7o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

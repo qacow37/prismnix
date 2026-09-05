@@ -27,6 +27,10 @@ let
         "ncc2BUEI" = _ncc2BUEI;
         "YSQYUPZU" = _YSQYUPZU;
         "forge-1.12.2" = _YSQYUPZU;
+        "pkg-0" = _jMkviOgy;
+        "pkg-1" = _McvZO5LE;
+        "pkg-2" = _ncc2BUEI;
+        "pkg-3" = _YSQYUPZU;
         "default" = _YSQYUPZU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,8 @@ let
         "forge-1.16.5" = _11lYARNn;
         "forge-1.18.1" = _dw6CYnVC;
         "forge-1.18.2" = _dw6CYnVC;
+        "pkg-1.16.5-1.0" = _11lYARNn;
+        "pkg-1.18.2-2.0" = _dw6CYnVC;
         "default" = _dw6CYnVC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

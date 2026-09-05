@@ -16,6 +16,8 @@ let
         "gXDDuxAJ" = _gXDDuxAJ;
         "forge-1.20.1" = _euXV1ZbF;
         "minecraft-1.20.1" = _gXDDuxAJ;
+        "pkg-1.0" = _euXV1ZbF;
+        "pkg-2.0" = _gXDDuxAJ;
         "default" = _gXDDuxAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

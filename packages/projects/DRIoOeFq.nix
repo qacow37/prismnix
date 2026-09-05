@@ -45,6 +45,13 @@ let
         "RqxJxqSP" = _RqxJxqSP;
         "ItoKTvGR" = _ItoKTvGR;
         "forge-1.8.9" = _ItoKTvGR;
+        "pkg-1.0.0" = _Z0Y6EWZ7;
+        "pkg-1.1.0" = _ynzINuVt;
+        "pkg-1.1.1" = _75UaLKGR;
+        "pkg-1.1.2" = _9KFaTQIz;
+        "pkg-1.1.3" = _UX7XKK7x;
+        "pkg-1.1.4" = _RqxJxqSP;
+        "pkg-1.2.0" = _ItoKTvGR;
         "default" = _ItoKTvGR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

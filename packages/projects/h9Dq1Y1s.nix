@@ -65,6 +65,11 @@ let
         "minecraft-23w13a_or_b" = _ixi87mwx;
         "minecraft-24w14potato" = _ixi87mwx;
         "minecraft-25w14craftmine" = _ixi87mwx;
+        "pkg-v0.4.0" = _VOkHp62g;
+        "pkg-p1.0" = _jtQ1EZIA;
+        "pkg-v0.5.0" = _x0VcYmA4;
+        "pkg-v0.5.1" = _JXrXrKHa;
+        "pkg-april_fools_2025_v0.5.REDACTED" = _ixi87mwx;
         "default" = _ixi87mwx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

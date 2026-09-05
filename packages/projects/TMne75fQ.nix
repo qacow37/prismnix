@@ -106,6 +106,12 @@ let
         "spigot-1.21.2" = _Obflcfk3;
         "spigot-1.21.3" = _Obflcfk3;
         "spigot-1.21.4" = _Obflcfk3;
+        "pkg-3.0.0" = _PksSxHWV;
+        "pkg-3.0.1" = _IgKm9mKP;
+        "pkg-3.0.2" = _yhu91cCa;
+        "pkg-3.0.3" = _CzI2uflN;
+        "pkg-3.2.0" = _8JeixC8d;
+        "pkg-3.2.2" = _Obflcfk3;
         "default" = _Obflcfk3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

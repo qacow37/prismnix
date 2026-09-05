@@ -10,6 +10,7 @@ let
         "2XKbvOPK" = _2XKbvOPK;
         "forge-1.19.2" = _2XKbvOPK;
         "forge-1.20.1" = _2XKbvOPK;
+        "pkg-1.0" = _2XKbvOPK;
         "default" = _2XKbvOPK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

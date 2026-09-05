@@ -16,6 +16,8 @@ let
         "uhA8M1Sd" = _uhA8M1Sd;
         "forge-1.20.1" = _pMTnrWFn;
         "neoforge-1.20.1" = _uhA8M1Sd;
+        "pkg-1.1.0" = _pMTnrWFn;
+        "pkg-1.0.5" = _uhA8M1Sd;
         "default" = _uhA8M1Sd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

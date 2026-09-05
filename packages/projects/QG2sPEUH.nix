@@ -15,6 +15,8 @@ let
         "zNaqR3mk" = _zNaqR3mk;
         "JnURHt19" = _JnURHt19;
         "forge-1.20.1" = _JnURHt19;
+        "pkg-1.0.0" = _zNaqR3mk;
+        "pkg-1.0.5" = _JnURHt19;
         "default" = _JnURHt19;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

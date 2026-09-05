@@ -34,6 +34,10 @@ let
         "Bd86vn4u" = _Bd86vn4u;
         "fabric-1.21.1" = _bJZwf9mg;
         "neoforge-1.21.1" = _Bd86vn4u;
+        "pkg-0.2.4" = _lm0SYDvn;
+        "pkg-1.0.0b" = _bJZwf9mg;
+        "pkg-1.0.3" = _elr0Ay2d;
+        "pkg-1.0.4" = _Bd86vn4u;
         "default" = _Bd86vn4u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

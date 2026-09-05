@@ -15,6 +15,8 @@ let
         "oy2lMbeB" = _oy2lMbeB;
         "NeaJNIjp" = _NeaJNIjp;
         "fabric-1.21.11" = _NeaJNIjp;
+        "pkg-1.0.0" = _oy2lMbeB;
+        "pkg-1.0.1" = _NeaJNIjp;
         "default" = _NeaJNIjp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

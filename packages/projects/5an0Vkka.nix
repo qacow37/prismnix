@@ -9,6 +9,7 @@ let
     in {
         "1JkCHKME" = _1JkCHKME;
         "forge-1.16.5" = _1JkCHKME;
+        "pkg-1.0.5" = _1JkCHKME;
         "default" = _1JkCHKME;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

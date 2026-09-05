@@ -16,6 +16,8 @@ let
         "Y15pD2ON" = _Y15pD2ON;
         "fabric-1.20.1" = _yE835dmu;
         "fabric-1.21.1" = _Y15pD2ON;
+        "pkg-1.0" = _yE835dmu;
+        "pkg-2.0" = _Y15pD2ON;
         "default" = _Y15pD2ON;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

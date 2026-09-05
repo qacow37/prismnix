@@ -16,6 +16,8 @@ let
         "erytzeo5" = _erytzeo5;
         "fabric-1.18.2" = _FPk6orSb;
         "fabric-1.19" = _erytzeo5;
+        "pkg-0.1.0" = _FPk6orSb;
+        "pkg-0.1.1" = _erytzeo5;
         "default" = _erytzeo5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

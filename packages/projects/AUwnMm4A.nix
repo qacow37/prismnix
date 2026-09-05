@@ -33,6 +33,11 @@ let
         "5mzbJwcy" = _5mzbJwcy;
         "OtgUnT4W" = _OtgUnT4W;
         "bta-babric-b1.7.3" = _OtgUnT4W;
+        "pkg-1.0.0" = _V3lY5hZ2;
+        "pkg-1.1.0" = _guhlvVgc;
+        "pkg-2.0.0-7.3_03" = _ZMh5drHx;
+        "pkg-2.1.0+7.3_04" = _5mzbJwcy;
+        "pkg-2.2.0+7.3_04" = _OtgUnT4W;
         "default" = _OtgUnT4W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

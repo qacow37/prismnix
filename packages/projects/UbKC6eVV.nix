@@ -67,6 +67,8 @@ let
         "minecraft-1.21.2" = _ietAPfak;
         "minecraft-1.21.3" = _ietAPfak;
         "minecraft-1.21.4" = _ietAPfak;
+        "pkg-1.0-mc1.9" = _FU9ILmrs;
+        "pkg-1.1-mc1.9" = _ietAPfak;
         "default" = _ietAPfak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

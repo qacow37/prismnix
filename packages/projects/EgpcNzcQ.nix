@@ -56,6 +56,7 @@ let
         "datapack-1.20.4" = _FAvAqmZ2;
         "datapack-1.20.5" = _FAvAqmZ2;
         "datapack-1.20.6" = _FAvAqmZ2;
+        "pkg-1.0.0" = _FAvAqmZ2;
         "default" = _FAvAqmZ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

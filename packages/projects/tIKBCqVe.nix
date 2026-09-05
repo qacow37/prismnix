@@ -9,6 +9,7 @@ let
     in {
         "8eTyklbx" = _8eTyklbx;
         "forge-1.12.2" = _8eTyklbx;
+        "pkg-1.0.5" = _8eTyklbx;
         "default" = _8eTyklbx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

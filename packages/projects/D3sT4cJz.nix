@@ -16,6 +16,8 @@ let
         "tlY0RXVq" = _tlY0RXVq;
         "forge-1.16.5" = _DOIlTOPC;
         "fabric-1.16.5" = _tlY0RXVq;
+        "pkg-1.16.5-1.0-Forge" = _DOIlTOPC;
+        "pkg-1.16.5-1.0-Fabric" = _tlY0RXVq;
         "default" = _tlY0RXVq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

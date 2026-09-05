@@ -33,6 +33,11 @@ let
         "mHURlohp" = _mHURlohp;
         "6iOmSvGp" = _6iOmSvGp;
         "neoforge-1.21.1" = _6iOmSvGp;
+        "pkg-1.0.0" = _fRcm4BSg;
+        "pkg-1.0.1" = _2qTnpi9R;
+        "pkg-1.0.2" = _Wlu1t80O;
+        "pkg-1.0.3" = _mHURlohp;
+        "pkg-1.0.4" = _6iOmSvGp;
         "default" = _6iOmSvGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

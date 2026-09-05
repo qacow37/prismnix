@@ -10,6 +10,7 @@ let
         "SsKbBf45" = _SsKbBf45;
         "forge-1.20" = _SsKbBf45;
         "forge-1.20.1" = _SsKbBf45;
+        "pkg-0.0.1" = _SsKbBf45;
         "default" = _SsKbBf45;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

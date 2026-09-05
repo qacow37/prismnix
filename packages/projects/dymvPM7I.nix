@@ -9,6 +9,7 @@ let
     in {
         "Q2VWF5eO" = _Q2VWF5eO;
         "minecraft-1.19.3" = _Q2VWF5eO;
+        "pkg-1" = _Q2VWF5eO;
         "default" = _Q2VWF5eO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

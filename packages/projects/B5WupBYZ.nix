@@ -22,6 +22,8 @@ let
         "forge-1.20" = _PypVmWVm;
         "quilt-1.19.4" = _PypVmWVm;
         "quilt-1.20" = _PypVmWVm;
+        "pkg-1.0" = _ugwftDvE;
+        "pkg-1.0+mod" = _PypVmWVm;
         "default" = _PypVmWVm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

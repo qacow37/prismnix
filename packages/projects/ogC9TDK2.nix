@@ -22,6 +22,7 @@ let
         "minecraft-1.21.9" = _Xcoo32Zu;
         "minecraft-1.21.10" = _Xcoo32Zu;
         "minecraft-1.21.11" = _Xcoo32Zu;
+        "pkg-1.0" = _Xcoo32Zu;
         "default" = _Xcoo32Zu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

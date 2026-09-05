@@ -16,6 +16,7 @@ let
         "vlFii3oF" = _vlFii3oF;
         "forge-1.16.5" = _yk1xONxY;
         "forge-1.20.1" = _vlFii3oF;
+        "pkg-1.0.0" = _vlFii3oF;
         "default" = _vlFii3oF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

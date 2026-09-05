@@ -16,6 +16,8 @@ let
         "iLaTxrjr" = _iLaTxrjr;
         "forge-1.20.1" = _iLaTxrjr;
         "neoforge-1.20.1" = _iLaTxrjr;
+        "pkg-1.0.0" = _hzCJgeuH;
+        "pkg-1.0.1" = _iLaTxrjr;
         "default" = _iLaTxrjr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

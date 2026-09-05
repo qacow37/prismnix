@@ -28,6 +28,7 @@ let
         "RmgTnJsa" = _RmgTnJsa;
         "forge-1.19.2" = _Sj4gT8hN;
         "forge-1.20.1" = _RmgTnJsa;
+        "pkg-0.1.2" = _RmgTnJsa;
         "default" = _RmgTnJsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

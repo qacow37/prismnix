@@ -39,6 +39,12 @@ let
         "Pwdc9mFL" = _Pwdc9mFL;
         "tetHVoRW" = _tetHVoRW;
         "forge-1.8.9" = _tetHVoRW;
+        "pkg-1.8.9-1.4.5" = _6iwTI6BB;
+        "pkg-1.8.9-1.4.5.1" = _t2PnWZRj;
+        "pkg-1.8.9-1.4.5.2" = _R2FnbY80;
+        "pkg-1.8.9-1.4.5.3" = _FwFjC5y1;
+        "pkg-1.4.5.4" = _Pwdc9mFL;
+        "pkg-1.8.9-1.4.5.5" = _tetHVoRW;
         "default" = _tetHVoRW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

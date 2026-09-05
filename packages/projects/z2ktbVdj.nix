@@ -29,6 +29,9 @@ let
         "fabric-26.1" = _TXPerniC;
         "fabric-26.1.1" = _TXPerniC;
         "fabric-26.1.2" = _TXPerniC;
+        "pkg-1.0.0+1.21.8" = _l7z9LE1a;
+        "pkg-1.0.1+1.21.8" = _BvFvJJjV;
+        "pkg-1.0.1+26.1" = _TXPerniC;
         "default" = _TXPerniC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

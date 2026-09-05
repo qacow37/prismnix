@@ -52,6 +52,8 @@ let
         "minecraft-1.21.3" = _TuwbZAy3;
         "minecraft-1.21.4" = _TuwbZAy3;
         "minecraft-1.21.5" = _TuwbZAy3;
+        "pkg-0.18.1" = _g0TY01IJ;
+        "pkg-0.20.0" = _TuwbZAy3;
         "default" = _TuwbZAy3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

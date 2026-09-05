@@ -22,6 +22,9 @@ let
         "EboEffD4" = _EboEffD4;
         "fabric-1.17" = _EboEffD4;
         "fabric-1.17.1" = _EboEffD4;
+        "pkg-0.1" = _USxEwClM;
+        "pkg-0.2" = _U4kuK7li;
+        "pkg-0.3" = _EboEffD4;
         "default" = _EboEffD4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

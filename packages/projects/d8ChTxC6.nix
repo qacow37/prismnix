@@ -15,6 +15,8 @@ let
         "oTa796Qu" = _oTa796Qu;
         "hfjOY1o8" = _hfjOY1o8;
         "forge-1.20.1" = _hfjOY1o8;
+        "pkg-1.0.0-RELEASE-FORGE-1.20.1" = _oTa796Qu;
+        "pkg-1.0.1-RELEASE-FORGE-1.20.1" = _hfjOY1o8;
         "default" = _hfjOY1o8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

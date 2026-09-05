@@ -17,6 +17,8 @@ let
         "fabric-1.20.1" = _trLR79wT;
         "fabric-1.21.1" = _YLU3iTk4;
         "quilt-1.21.1" = _YLU3iTk4;
+        "pkg-1.0" = _trLR79wT;
+        "pkg-1.21.1-1.0" = _YLU3iTk4;
         "default" = _YLU3iTk4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

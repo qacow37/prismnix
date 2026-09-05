@@ -24,6 +24,7 @@ let
         "minecraft-1.20.2" = _TtCfthNY;
         "minecraft-1.20.3" = _TtCfthNY;
         "minecraft-1.20.4" = _TtCfthNY;
+        "pkg-1" = _TtCfthNY;
         "default" = _TtCfthNY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

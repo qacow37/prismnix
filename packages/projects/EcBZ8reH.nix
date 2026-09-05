@@ -21,6 +21,9 @@ let
         "j8C6pLas" = _j8C6pLas;
         "njOPBSOP" = _njOPBSOP;
         "forge-1.20.1" = _njOPBSOP;
+        "pkg-forge-1.20.1-0.1.0" = _c0b2aema;
+        "pkg-0.2.0" = _j8C6pLas;
+        "pkg-0.2.1" = _njOPBSOP;
         "default" = _njOPBSOP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

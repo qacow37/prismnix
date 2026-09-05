@@ -46,6 +46,10 @@ let
         "PIuROoPL" = _PIuROoPL;
         "fabric-1.20.1" = _tqaNwEp7;
         "forge-1.20.1" = _PIuROoPL;
+        "pkg-1.0.0" = _t5vfmJ7j;
+        "pkg-1.0.1" = _R360WHkQ;
+        "pkg-1.0.2" = _JFwwO7QC;
+        "pkg-1.1.0" = _PIuROoPL;
         "default" = _PIuROoPL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

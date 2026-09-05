@@ -10,6 +10,7 @@ let
         "I32ePe3i" = _I32ePe3i;
         "datapack-1.21.1" = _I32ePe3i;
         "minecraft-1.21.1" = _I32ePe3i;
+        "pkg-1.0" = _I32ePe3i;
         "default" = _I32ePe3i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "IkYo1VDI" = _IkYo1VDI;
         "minecraft-1.21.5" = _IkYo1VDI;
         "vanilla-1.21.5" = _AYxiG1KM;
+        "pkg-v1.0" = _AYxiG1KM;
+        "pkg-v1.1" = _IkYo1VDI;
         "default" = _IkYo1VDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

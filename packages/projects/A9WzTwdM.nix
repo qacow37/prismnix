@@ -84,6 +84,7 @@ let
         "spigot-26.1.1" = _jWH1YB42;
         "spigot-26.1.2" = _jWH1YB42;
         "spigot-26.2" = _jWH1YB42;
+        "pkg-1.0-SNAPSHOT" = _jWH1YB42;
         "default" = _jWH1YB42;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

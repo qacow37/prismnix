@@ -10,6 +10,7 @@ let
         "YTwrZUrY" = _YTwrZUrY;
         "minecraft-1.21" = _YTwrZUrY;
         "minecraft-1.21.1" = _YTwrZUrY;
+        "pkg-1.0" = _YTwrZUrY;
         "default" = _YTwrZUrY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "FLMKMbXR" = _FLMKMbXR;
         "neoforge-1.21.1" = _VeUH55nl;
         "fabric-1.21.1" = _FLMKMbXR;
+        "pkg-1.0.0" = _H47zgfNP;
+        "pkg-1.1.1" = _FLMKMbXR;
         "default" = _FLMKMbXR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

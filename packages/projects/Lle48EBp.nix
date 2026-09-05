@@ -87,6 +87,7 @@ let
         "minecraft-1.21.9" = _gSOMKovP;
         "minecraft-1.21.10" = _gSOMKovP;
         "minecraft-1.21.11" = _gSOMKovP;
+        "pkg-4" = _gSOMKovP;
         "default" = _gSOMKovP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

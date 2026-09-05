@@ -28,6 +28,10 @@ let
         "MbkapLEt" = _MbkapLEt;
         "datapack-1.20.1" = _LqQaSPSM;
         "fabric-1.20.1" = _MbkapLEt;
+        "pkg-1" = _9jOIPUfu;
+        "pkg-2" = _mTIRmSVw;
+        "pkg-3" = _LqQaSPSM;
+        "pkg-3+mod" = _MbkapLEt;
         "default" = _MbkapLEt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

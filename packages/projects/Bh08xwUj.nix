@@ -10,6 +10,7 @@ let
         "MOLO5KyL" = _MOLO5KyL;
         "minecraft-1.20" = _MOLO5KyL;
         "minecraft-1.20.1" = _MOLO5KyL;
+        "pkg-1.0" = _MOLO5KyL;
         "default" = _MOLO5KyL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -25,6 +25,7 @@ let
         "fabric-1.21.11" = _FPYCMEfp;
         "fabric-26.1" = _Nr7GaeKd;
         "fabric-26.1.1" = _Nr7GaeKd;
+        "pkg-1.1.2" = _Nr7GaeKd;
         "default" = _Nr7GaeKd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

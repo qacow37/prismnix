@@ -15,6 +15,8 @@ let
         "4aDWBl08" = _4aDWBl08;
         "4NKBoYnV" = _4NKBoYnV;
         "fabric-1.21.11" = _4NKBoYnV;
+        "pkg-1.1.0" = _4aDWBl08;
+        "pkg-1.2.0" = _4NKBoYnV;
         "default" = _4NKBoYnV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

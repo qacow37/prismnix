@@ -15,6 +15,8 @@ let
         "Upo8PRjv" = _Upo8PRjv;
         "ppbomHs3" = _ppbomHs3;
         "fabric-1.21.11" = _ppbomHs3;
+        "pkg-0.1.0" = _Upo8PRjv;
+        "pkg-0.2.0" = _ppbomHs3;
         "default" = _ppbomHs3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "Sz8pv0eP" = _Sz8pv0eP;
         "neoforge-1.21.1" = _JtubsatY;
         "forge-1.20.1" = _Sz8pv0eP;
+        "pkg-0.2.3" = _kX44f6aq;
+        "pkg-0.3.3" = _Sz8pv0eP;
         "default" = _Sz8pv0eP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

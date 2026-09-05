@@ -40,6 +40,12 @@ let
         "J40YrFd1" = _J40YrFd1;
         "neoforge-1.21" = _J40YrFd1;
         "neoforge-1.21.1" = _J40YrFd1;
+        "pkg-1.0.7" = _NvrzU8Ga;
+        "pkg-1.0.8" = _TfxZIy5o;
+        "pkg-1.0.10" = _YuhESXru;
+        "pkg-1.0.16" = _tbnZBdgE;
+        "pkg-1.0.24" = _MDE50wbQ;
+        "pkg-1.0.33" = _J40YrFd1;
         "default" = _J40YrFd1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

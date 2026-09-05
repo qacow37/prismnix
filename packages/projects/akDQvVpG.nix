@@ -15,6 +15,8 @@ let
         "aL81Cnn7" = _aL81Cnn7;
         "QA5VjWLP" = _QA5VjWLP;
         "forge-1.20.1" = _QA5VjWLP;
+        "pkg-1.0.0" = _aL81Cnn7;
+        "pkg-1.0.1" = _QA5VjWLP;
         "default" = _QA5VjWLP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -52,6 +52,12 @@ let
         "puHS294y" = _puHS294y;
         "fabric-1.21" = _86AtLaZB;
         "fabric-1.21.1" = _puHS294y;
+        "pkg-0.0.1" = _8BsN85Wa;
+        "pkg-0.0.2" = _odY7O5aT;
+        "pkg-0.0.3" = _eKc48Zcy;
+        "pkg-0.0.4" = _86AtLaZB;
+        "pkg-0.0.4+1.21.1" = _UJA6Z36w;
+        "pkg-0.0.5+1.21.1" = _puHS294y;
         "default" = _puHS294y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

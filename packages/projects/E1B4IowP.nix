@@ -9,6 +9,7 @@ let
     in {
         "tgUGeIQ4" = _tgUGeIQ4;
         "forge-1.19.2" = _tgUGeIQ4;
+        "pkg-1.0.0.0" = _tgUGeIQ4;
         "default" = _tgUGeIQ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

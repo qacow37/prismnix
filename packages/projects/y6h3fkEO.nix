@@ -34,6 +34,11 @@ let
         "3zlgsgf5" = _3zlgsgf5;
         "fabric-1.18.1" = _MNcvghNd;
         "fabric-1.18.2" = _3zlgsgf5;
+        "pkg-0.0.3+1.18.1fabric0.12.12" = _IOHQF58r;
+        "pkg-0.0.4+1.18.1fabric0.12.12" = _MNcvghNd;
+        "pkg-0.0.4+1.18.2fabric0.13.3" = _NLw300at;
+        "pkg-0.0.5+1.18.2-fabric0.13.3" = _LPbGpRAG;
+        "pkg-0.0.6+1.18.2fabric0.13.3" = _3zlgsgf5;
         "default" = _3zlgsgf5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

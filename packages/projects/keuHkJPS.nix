@@ -11,6 +11,7 @@ let
         "minecraft-1.21.9" = _lSFXWWtf;
         "minecraft-1.21.10" = _lSFXWWtf;
         "minecraft-1.21.11" = _lSFXWWtf;
+        "pkg-1.0" = _lSFXWWtf;
         "default" = _lSFXWWtf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

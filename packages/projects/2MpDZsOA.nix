@@ -16,6 +16,8 @@ let
         "du9bGlhK" = _du9bGlhK;
         "forge-1.18.2" = _nPsxxflG;
         "forge-1.20.1" = _du9bGlhK;
+        "pkg-1.18.2-ss0.9.4" = _nPsxxflG;
+        "pkg-1.20.1-ss1.0.3" = _du9bGlhK;
         "default" = _du9bGlhK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

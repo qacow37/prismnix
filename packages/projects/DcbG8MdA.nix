@@ -18,6 +18,7 @@ let
         "fabric-1.19.4" = _LYaRFpkn;
         "quilt-1.20.1" = _Vpo4KTCH;
         "quilt-1.19.4" = _LYaRFpkn;
+        "pkg-1.4.0" = _LYaRFpkn;
         "default" = _LYaRFpkn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

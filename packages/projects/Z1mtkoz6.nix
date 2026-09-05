@@ -28,6 +28,8 @@ let
         "RPliFSHL" = _RPliFSHL;
         "forge-1.20.1" = _1C1JRIxs;
         "neoforge-1.21.1" = _RPliFSHL;
+        "pkg-1.0" = _iLWu5O0M;
+        "pkg-1.1" = _RPliFSHL;
         "default" = _RPliFSHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

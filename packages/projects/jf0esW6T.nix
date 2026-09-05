@@ -574,6 +574,8 @@ let
         "waterfall-1.21.9" = _fejgVlNl;
         "waterfall-1.21.10" = _fejgVlNl;
         "waterfall-1.21.11" = _fejgVlNl;
+        "pkg-7.0.0" = _jzuZUlu7;
+        "pkg-7.1.0" = _fejgVlNl;
         "default" = _fejgVlNl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

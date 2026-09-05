@@ -57,6 +57,13 @@ let
         "lanIyuSU" = _lanIyuSU;
         "uF3CvFUL" = _uF3CvFUL;
         "forge-1.20.1" = _uF3CvFUL;
+        "pkg-1.0.0" = _538OM1Mv;
+        "pkg-1.1" = _fRAEpZcJ;
+        "pkg-1.1.1" = _RbB4HAQV;
+        "pkg-1.2" = _vUgLt3Mo;
+        "pkg-1.3" = _sQD15LNH;
+        "pkg-Final" = _lanIyuSU;
+        "pkg-1.20.1-Final" = _uF3CvFUL;
         "default" = _uF3CvFUL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

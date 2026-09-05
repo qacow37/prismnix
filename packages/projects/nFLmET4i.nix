@@ -52,6 +52,7 @@ let
         "paper-1.21.10" = _wIOnFYZs;
         "spigot-1.21.11" = _cTlLjH1J;
         "spigot-1.21.10" = _wIOnFYZs;
+        "pkg-1.0.0" = _wIOnFYZs;
         "default" = _wIOnFYZs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

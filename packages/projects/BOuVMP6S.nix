@@ -81,6 +81,7 @@ let
         "neoforge-1.21.10" = _jsRTYuFE;
         "datapack-1.20.1" = _4ouMcfpS;
         "datapack-1.20.6" = _mXP7MHB8;
+        "pkg-1.0.0" = _jsRTYuFE;
         "default" = _jsRTYuFE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

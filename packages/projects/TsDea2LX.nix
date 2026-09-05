@@ -21,6 +21,9 @@ let
         "TiFShiCO" = _TiFShiCO;
         "RgTaqzCG" = _RgTaqzCG;
         "forge-1.20.1" = _RgTaqzCG;
+        "pkg-0.9.8" = _smts5HlL;
+        "pkg-0.9.9" = _TiFShiCO;
+        "pkg-0.9.10" = _RgTaqzCG;
         "default" = _RgTaqzCG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

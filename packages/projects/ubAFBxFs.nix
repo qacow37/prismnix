@@ -3670,6 +3670,18 @@ let
         "java-agent-26.2-rc-2" = _iZx7H1ZV;
         "java-agent-26.2" = _iZx7H1ZV;
         "java-agent-26.3-snapshot-1" = _iZx7H1ZV;
+        "pkg-1.0.0" = _gtXenIHv;
+        "pkg-1.0.1" = _CiMBgmu9;
+        "pkg-1.0.2" = _GyB1drX2;
+        "pkg-1.0.3" = _K9cuHEZP;
+        "pkg-1.0.4" = _m5oHsN6H;
+        "pkg-1.0.5" = _m3BQjNPp;
+        "pkg-1.0.6" = _78LURkK0;
+        "pkg-1.0.7" = _FpA77YL1;
+        "pkg-1.0.8" = _4df6jWJe;
+        "pkg-1.1.0" = _2IGArgTi;
+        "pkg-1.1.1" = _f1s2w0yp;
+        "pkg-1.1.2" = _iZx7H1ZV;
         "default" = _iZx7H1ZV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

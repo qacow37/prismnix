@@ -108,6 +108,10 @@ let
         "fabric-1.21.3" = _cPyCdhvr;
         "fabric-1.21.4" = _cPyCdhvr;
         "fabric-1.21.5" = _cPyCdhvr;
+        "pkg-1.0" = _fIWLHZqY;
+        "pkg-1.0+mod" = _WHhIFrsT;
+        "pkg-1.1" = _Y3IfNkgG;
+        "pkg-1.1+mod" = _cPyCdhvr;
         "default" = _cPyCdhvr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

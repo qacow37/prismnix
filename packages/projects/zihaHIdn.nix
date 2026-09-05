@@ -9,6 +9,7 @@ let
     in {
         "KAKLzN56" = _KAKLzN56;
         "minecraft-1.20.1" = _KAKLzN56;
+        "pkg-2.3" = _KAKLzN56;
         "default" = _KAKLzN56;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

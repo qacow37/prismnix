@@ -15,6 +15,8 @@ let
         "trgBdq62" = _trgBdq62;
         "UbzxmIm6" = _UbzxmIm6;
         "forge-1.20.1" = _UbzxmIm6;
+        "pkg-1.0.0" = _trgBdq62;
+        "pkg-1.0.1" = _UbzxmIm6;
         "default" = _UbzxmIm6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

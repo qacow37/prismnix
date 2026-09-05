@@ -22,6 +22,8 @@ let
         "jmMn0wgl" = _jmMn0wgl;
         "fabric-1.21.10" = _jmMn0wgl;
         "fabric-1.21.11" = _jmMn0wgl;
+        "pkg-1.0.0" = _l8AZ7veK;
+        "pkg-1.0.1" = _jmMn0wgl;
         "default" = _jmMn0wgl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

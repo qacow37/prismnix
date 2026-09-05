@@ -9,6 +9,7 @@ let
     in {
         "H87kodNX" = _H87kodNX;
         "fabric-1.21" = _H87kodNX;
+        "pkg-1.0.0" = _H87kodNX;
         "default" = _H87kodNX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

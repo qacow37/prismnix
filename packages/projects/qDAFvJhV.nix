@@ -28,6 +28,8 @@ let
         "LEf4iZae" = _LEf4iZae;
         "forge-1.20.1" = _LEf4iZae;
         "neoforge-1.21.1" = _THzKfMox;
+        "pkg-1.0.0" = _UPV55JeT;
+        "pkg-1.2.0" = _LEf4iZae;
         "default" = _LEf4iZae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

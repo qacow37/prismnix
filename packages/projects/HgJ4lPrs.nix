@@ -34,6 +34,11 @@ let
         "ISvcZbut" = _ISvcZbut;
         "minecraft-1.20.1" = _ISvcZbut;
         "minecraft-1.20" = _ISvcZbut;
+        "pkg-0.1.0" = _5a6lZYJN;
+        "pkg-0.1.1" = _EXkoqxZK;
+        "pkg-0.1.2" = _giV7FnUq;
+        "pkg-0.2.1" = _Me6Su6yJ;
+        "pkg-0.2.2" = _ISvcZbut;
         "default" = _ISvcZbut;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

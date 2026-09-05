@@ -9,6 +9,7 @@ let
     in {
         "iPdSkbwR" = _iPdSkbwR;
         "fabric-b1.7.3" = _iPdSkbwR;
+        "pkg-0.1.0" = _iPdSkbwR;
         "default" = _iPdSkbwR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

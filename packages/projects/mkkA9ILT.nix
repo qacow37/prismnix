@@ -42,6 +42,8 @@ let
         "fabric-1.21.8" = _nmdmAlzE;
         "fabric-1.21.9" = _nmdmAlzE;
         "fabric-1.21.10" = _nmdmAlzE;
+        "pkg-v1.0.0+1.21.1" = _BMQnuyOS;
+        "pkg-1.0.0+1.21.4-1.21.10" = _nmdmAlzE;
         "default" = _nmdmAlzE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -34,6 +34,9 @@ let
         "fabric-1.21.2" = _aGnyDLAN;
         "fabric-1.21.3" = _aGnyDLAN;
         "fabric-1.21.4" = _aGnyDLAN;
+        "pkg-1.0.0" = _4OvLOAYj;
+        "pkg-1.0.1" = _VljFhmxK;
+        "pkg-1.1.0" = _HL6azLUA;
         "default" = _HL6azLUA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

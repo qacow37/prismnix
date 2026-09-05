@@ -22,6 +22,8 @@ let
         "quilt-1.19.1" = _NPGsIVcP;
         "quilt-1.19.2" = _NPGsIVcP;
         "quilt-1.18.2" = _TpMaPARk;
+        "pkg-1.19.0-1.0.0" = _NPGsIVcP;
+        "pkg-1.18.2-0.1.5-patched" = _TpMaPARk;
         "default" = _TpMaPARk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -13,6 +13,7 @@ let
         "minecraft-1.20.2" = _JShUake6;
         "minecraft-1.20.3" = _JShUake6;
         "minecraft-1.20.4" = _JShUake6;
+        "pkg-1.0" = _JShUake6;
         "default" = _JShUake6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

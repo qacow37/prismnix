@@ -30,6 +30,8 @@ let
         "minecraft-1.21.6" = _c45rsgJs;
         "minecraft-1.21.7" = _c45rsgJs;
         "minecraft-1.21.8" = _c45rsgJs;
+        "pkg-1.0" = _TeNjhqOR;
+        "pkg-1.1" = _c45rsgJs;
         "default" = _c45rsgJs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

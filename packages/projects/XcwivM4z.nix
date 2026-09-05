@@ -26,6 +26,7 @@ let
         "iris-1.21.8" = _HHSwegCm;
         "iris-1.21.9" = _HHSwegCm;
         "iris-1.21.10" = _HHSwegCm;
+        "pkg-1.0.1" = _HHSwegCm;
         "default" = _HHSwegCm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

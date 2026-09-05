@@ -9,6 +9,7 @@ let
     in {
         "fTxOGTmu" = _fTxOGTmu;
         "forge-1.20.1" = _fTxOGTmu;
+        "pkg-1.0.0-1.20.1" = _fTxOGTmu;
         "default" = _fTxOGTmu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

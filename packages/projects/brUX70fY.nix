@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _IvCAtePV;
         "forge-1.20.5" = _IvCAtePV;
         "forge-1.20.6" = _IvCAtePV;
+        "pkg-0.2" = _IvCAtePV;
         "default" = _IvCAtePV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

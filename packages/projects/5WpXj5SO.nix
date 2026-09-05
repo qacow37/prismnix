@@ -9,6 +9,7 @@ let
     in {
         "30gxh5GT" = _30gxh5GT;
         "fabric-1.21.8" = _30gxh5GT;
+        "pkg-25.07.04-1.21.5" = _30gxh5GT;
         "default" = _30gxh5GT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

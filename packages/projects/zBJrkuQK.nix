@@ -25,6 +25,9 @@ let
         "forge-1.19.2" = _t4ExfTCr;
         "forge-1.19.3" = _t4ExfTCr;
         "forge-1.19.4" = _t4ExfTCr;
+        "pkg-1.2.0-1.16.5" = _aHEReJlx;
+        "pkg-1.1.0-1.18.2" = _JuggToHK;
+        "pkg-1.1.0-1.19.2" = _t4ExfTCr;
         "default" = _t4ExfTCr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

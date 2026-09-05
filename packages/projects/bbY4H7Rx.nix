@@ -15,6 +15,8 @@ let
         "6XBKxqJ3" = _6XBKxqJ3;
         "ypsADd6E" = _ypsADd6E;
         "fabric-1.19.2" = _ypsADd6E;
+        "pkg-2.5.18-modrinth" = _6XBKxqJ3;
+        "pkg-2.5.18-dev" = _ypsADd6E;
         "default" = _ypsADd6E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

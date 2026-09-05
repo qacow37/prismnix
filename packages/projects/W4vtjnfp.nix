@@ -15,6 +15,8 @@ let
         "tiGFuVyc" = _tiGFuVyc;
         "sS2WG0Ea" = _sS2WG0Ea;
         "fabric-1.20.1" = _sS2WG0Ea;
+        "pkg-1.0" = _tiGFuVyc;
+        "pkg-2.0" = _sS2WG0Ea;
         "default" = _sS2WG0Ea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

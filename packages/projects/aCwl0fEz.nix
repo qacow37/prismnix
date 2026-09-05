@@ -104,6 +104,9 @@ let
         "spigot-1.21.8" = _6juceknm;
         "spigot-1.21.9" = _86PyVyTG;
         "spigot-1.21.10" = _86PyVyTG;
+        "pkg-1.0.0" = _6juceknm;
+        "pkg-1.0.1" = _86PyVyTG;
+        "pkg-1.0.2" = _hsllYPIp;
         "default" = _hsllYPIp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

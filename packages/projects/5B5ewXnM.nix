@@ -445,6 +445,11 @@ let
         "fabric-1.15" = _qenjsTrp;
         "fabric-1.15.1" = _qenjsTrp;
         "fabric-22w13oneblockatatime" = _K7N011Vl;
+        "pkg-2.0.0-SNAPSHOT " = _syNbv18J;
+        "pkg-2.0.4" = _KPvRaCz4;
+        "pkg-2.1.1" = _j4S15TeC;
+        "pkg-2.1.2" = _NFikzwq4;
+        "pkg-2.1.3" = _cPJ8CZzM;
         "default" = _cPJ8CZzM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

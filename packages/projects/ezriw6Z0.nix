@@ -158,6 +158,20 @@ let
         "minecraft-1.21.9" = _e72qkQrw;
         "minecraft-1.21.10" = _e72qkQrw;
         "minecraft-1.21.11" = _e72qkQrw;
+        "pkg-v1" = _QleOgflY;
+        "pkg-Null+Boss+Textures" = _HyMNHtKg;
+        "pkg-v1+mod" = _OYC1qZCY;
+        "pkg-1.01" = _54wWIrTp;
+        "pkg-1.01+mod" = _wZDCFi1m;
+        "pkg-Standard+v1.1" = _H2G9sVKX;
+        "pkg-Standard+v1.1+mod" = _qsr9shLU;
+        "pkg-Textureless-v1.1" = _2IUY2jG3;
+        "pkg-Textureless-v1.1+mod" = _1GrOBpsS;
+        "pkg-Standard-1.11" = _a3SJwDGs;
+        "pkg-Textures" = _e72qkQrw;
+        "pkg-Mod+Textures-1.11" = _y0niMGwZ;
+        "pkg-1.2+needs_texture_pack" = _ki1vRqu7;
+        "pkg-1.2+needs_texture_pack+mod" = _LtNpT4wT;
         "default" = _LtNpT4wT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "CuJMYLyd" = _CuJMYLyd;
         "forge-1.20.1" = _CuJMYLyd;
+        "pkg-1.0" = _CuJMYLyd;
         "default" = _CuJMYLyd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

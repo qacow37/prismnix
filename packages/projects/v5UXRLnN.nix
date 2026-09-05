@@ -556,6 +556,8 @@ let
         "quilt-26.2-snapshot-2" = _MP8MGsod;
         "quilt-26.2" = _Cbs9PSiy;
         "quilt-26.3-snapshot-1" = _Cbs9PSiy;
+        "pkg-1.0" = _PnY7xNuw;
+        "pkg-1.0+mod" = _Cbs9PSiy;
         "default" = _Cbs9PSiy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

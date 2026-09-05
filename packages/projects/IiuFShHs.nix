@@ -187,6 +187,27 @@ let
         "forge-1.20.2" = _i8JlgQQI;
         "neoforge-1.21.4" = _A4gEsnsf;
         "neoforge-1.21.5" = _A4gEsnsf;
+        "pkg-DeepslateCutting 1.0.0" = _5EGq9ssu;
+        "pkg-DeepslateCutting 1.1.0" = _W50hGXYm;
+        "pkg-DeepslateCutting 1.1.1" = _TN4kPXZK;
+        "pkg-DeepslateCutting 1.1.2" = _E09GD1fr;
+        "pkg-DeepslateCutting 1.2.0" = _iEpBsdYg;
+        "pkg-DeepslateCutting 1.2.1" = _kcfBdd81;
+        "pkg-DeepslateCutting 1.2.2" = _HJIVJ1OT;
+        "pkg-DeepslateCutting 1.3.0 21w40a" = _as5t1BDb;
+        "pkg-DeepslateCutting 1.3.0" = _sPQk5Fxf;
+        "pkg-1.3.1" = _FtEJJc10;
+        "pkg-1.3.2" = _1ZhBNDAL;
+        "pkg-1.3.3" = _oJn3cS6j;
+        "pkg-1.3.4" = _9GR6NzaH;
+        "pkg-1.4.0" = _RgFw0ISL;
+        "pkg-1.5.0" = _NCerf3v5;
+        "pkg-1.6.0-forge" = _VTwvr7uo;
+        "pkg-1.6.0-fabric" = _uUkG1LY2;
+        "pkg-1.6.1-fabric" = _ug6ipy1x;
+        "pkg-1.6.1-forge" = _ZoCHZ926;
+        "pkg-1.7.0" = _DeBsNZpJ;
+        "pkg-1.7.0+1.21.4" = _A4gEsnsf;
         "default" = _A4gEsnsf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

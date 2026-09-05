@@ -135,6 +135,27 @@ let
         "forge-1.18.2" = _FNW8oSY2;
         "forge-1.19.2" = _c5xqn7en;
         "forge-1.20.1" = _rCUiMkUM;
+        "pkg-1604.1.0.1" = _SVcKyPM9;
+        "pkg-1604.1.0.2" = _haIezOIn;
+        "pkg-1604.1.0.3" = _lXK5sfvN;
+        "pkg-1604.1.0.4" = _zoTSzeJ7;
+        "pkg-1604.1.0.5" = _puSion28;
+        "pkg-1605.1.1.6" = _iehEU4Yq;
+        "pkg-1605.1.3-build.1" = _5vfYBR95;
+        "pkg-1605.1.4-build.2" = _66LUgYe2;
+        "pkg-1605.1.4-build.3" = _B6dUHFOD;
+        "pkg-1605.1.4-build.4" = _qETAfcEF;
+        "pkg-1802.1.5-build.10" = _Ukdzwnkh;
+        "pkg-1802.1.5-build.12" = _Uf9cDW2A;
+        "pkg-1802.1.5-build.14" = _wmlNjyan;
+        "pkg-1802.1.5-build.16" = _Sha3SUvQ;
+        "pkg-1902.1.6-build.22" = _ZrLJZtld;
+        "pkg-1902.1.9-build.9" = _4coWDthR;
+        "pkg-1902.1.9-build.11" = _FOwLd4EB;
+        "pkg-1802.1.6-build.7" = _FNW8oSY2;
+        "pkg-1902.1.9-build.16" = _c5xqn7en;
+        "pkg-2001.1.10-build.2" = _9VgQJ20P;
+        "pkg-2001.1.10-build.5" = _rCUiMkUM;
         "default" = _rCUiMkUM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

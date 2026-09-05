@@ -45,6 +45,13 @@ let
         "nCiZ6Zs6" = _nCiZ6Zs6;
         "IlIuxEDG" = _IlIuxEDG;
         "forge-1.20.1" = _IlIuxEDG;
+        "pkg-1.1.0" = _Fi8IBkp1;
+        "pkg-1.1.1" = _lSYlXv0J;
+        "pkg-1.1.4" = _q9Z0wKp6;
+        "pkg-1.1.5" = _pLqT0o8b;
+        "pkg-1.1.6" = _RKyxNIN1;
+        "pkg-1.1.7" = _nCiZ6Zs6;
+        "pkg-1.1.9" = _IlIuxEDG;
         "default" = _IlIuxEDG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

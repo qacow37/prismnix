@@ -28,6 +28,10 @@ let
         "B39fCjSa" = _B39fCjSa;
         "fabric-1.20.1" = _B39fCjSa;
         "forge-1.20.1" = _B39fCjSa;
+        "pkg-1.0" = _O8OpW9jr;
+        "pkg-wakanda-1.1" = _WbmUVg2m;
+        "pkg-1.3" = _i3Ee92EL;
+        "pkg-2.0" = _B39fCjSa;
         "default" = _B39fCjSa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

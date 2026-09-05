@@ -15,6 +15,8 @@ let
         "o5CyFAsl" = _o5CyFAsl;
         "rjdMOuai" = _rjdMOuai;
         "neoforge-1.21.1" = _rjdMOuai;
+        "pkg-0.0.1" = _o5CyFAsl;
+        "pkg-0.0.3" = _rjdMOuai;
         "default" = _rjdMOuai;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -127,6 +127,9 @@ let
         "spigot-1.20.6" = _LewLXi5K;
         "spigot-1.21" = _LewLXi5K;
         "purpur-26.1" = _SC0SA8GW;
+        "pkg-2.9" = _qlboHlC8;
+        "pkg-3.0" = _LewLXi5K;
+        "pkg-4.0" = _SC0SA8GW;
         "default" = _SC0SA8GW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "adot5J4k" = _adot5J4k;
         "xbq1yP2F" = _xbq1yP2F;
         "forge-1.20.1" = _xbq1yP2F;
+        "pkg-2.0.0" = _adot5J4k;
+        "pkg-2.1.0" = _xbq1yP2F;
         "default" = _xbq1yP2F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,7 @@ let
         "D2UyH4Pe" = _D2UyH4Pe;
         "E2vvGsML" = _E2vvGsML;
         "minecraft-1.21" = _E2vvGsML;
+        "pkg-1.0" = _E2vvGsML;
         "default" = _E2vvGsML;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

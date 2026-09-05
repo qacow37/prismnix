@@ -58,6 +58,7 @@ let
         "minecraft-26.1-rc-2" = _EEOSTcLt;
         "minecraft-26.1-rc-3" = _EEOSTcLt;
         "minecraft-26.1" = _EEOSTcLt;
+        "pkg-1.20-26.1" = _EEOSTcLt;
         "default" = _EEOSTcLt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

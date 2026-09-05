@@ -10,6 +10,7 @@ let
         "t1JS5Yoc" = _t1JS5Yoc;
         "forge-1.20.1" = _t1JS5Yoc;
         "neoforge-1.20.1" = _t1JS5Yoc;
+        "pkg-1.0.2" = _t1JS5Yoc;
         "default" = _t1JS5Yoc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

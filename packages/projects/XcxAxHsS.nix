@@ -52,6 +52,7 @@ let
         "minecraft-1.20.5" = _7HZnMN76;
         "minecraft-1.20.6" = _7HZnMN76;
         "minecraft-1.21.6" = _nguh2ls2;
+        "pkg-1.0.0" = _nguh2ls2;
         "default" = _nguh2ls2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

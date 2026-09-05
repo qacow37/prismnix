@@ -27,6 +27,10 @@ let
         "CuaIVb2i" = _CuaIVb2i;
         "aKj6pOSS" = _aKj6pOSS;
         "quilt-1.19.2" = _aKj6pOSS;
+        "pkg-1.0+1.19.2" = _NL84CBQ0;
+        "pkg-1.0.1+1.19" = _hYX6oT2v;
+        "pkg-1.0.2+1.19" = _CuaIVb2i;
+        "pkg-1.0.3+1.19" = _aKj6pOSS;
         "default" = _aKj6pOSS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

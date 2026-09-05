@@ -16,6 +16,8 @@ let
         "KSggPvkO" = _KSggPvkO;
         "neoforge-1.20.4" = _zQGBfeHA;
         "neoforge-1.21.1" = _KSggPvkO;
+        "pkg-1.0.0-beta" = _zQGBfeHA;
+        "pkg-1.1.0-beta" = _KSggPvkO;
         "default" = _KSggPvkO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

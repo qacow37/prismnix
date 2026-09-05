@@ -75,6 +75,7 @@ let
         "minecraft-1.21.6" = _tsMXWtt4;
         "minecraft-1.21.7" = _tsMXWtt4;
         "minecraft-1.21.8" = _tsMXWtt4;
+        "pkg-1" = _tsMXWtt4;
         "default" = _tsMXWtt4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

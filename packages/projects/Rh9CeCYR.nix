@@ -140,6 +140,8 @@ let
         "neoforge-26.2-snapshot-6" = _AU2A6HMK;
         "neoforge-26.2" = _4mO7CAOP;
         "quilt-1.20.1" = _KcV996da;
+        "pkg-1.0" = _J2f3LFXR;
+        "pkg-1.1" = _4mO7CAOP;
         "default" = _4mO7CAOP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

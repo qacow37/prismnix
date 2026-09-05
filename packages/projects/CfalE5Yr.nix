@@ -14,6 +14,7 @@ let
         "fabric-1.20.4" = _yIONOvd0;
         "fabric-1.20.5" = _yIONOvd0;
         "fabric-1.20.6" = _yIONOvd0;
+        "pkg-0.0.1" = _yIONOvd0;
         "default" = _yIONOvd0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

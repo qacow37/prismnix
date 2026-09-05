@@ -39,6 +39,7 @@ let
         "fabric-1.21.1" = _MTEOidFz;
         "fabric-1.21.2" = _MTEOidFz;
         "fabric-1.21.3" = _MTEOidFz;
+        "pkg-0.0.1+release.1" = _MTEOidFz;
         "default" = _MTEOidFz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

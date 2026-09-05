@@ -39,6 +39,12 @@ let
         "oSWF92Jg" = _oSWF92Jg;
         "JpwMr8Q3" = _JpwMr8Q3;
         "neoforge-1.21.1" = _JpwMr8Q3;
+        "pkg-1.0.5" = _F6PMdJgl;
+        "pkg-1.0.6" = _XQdoVXM0;
+        "pkg-1.0.7" = _Vyn1vb3l;
+        "pkg-2.0.0" = _uHKzafG1;
+        "pkg-2.1.0" = _oSWF92Jg;
+        "pkg-2.1.1" = _JpwMr8Q3;
         "default" = _JpwMr8Q3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -17,6 +17,8 @@ let
         "forge-1.19.2" = _U3sydCOB;
         "forge-1.20.1" = _CVea7v3m;
         "neoforge-1.20.1" = _CVea7v3m;
+        "pkg-1.19.2-3.0.2" = _U3sydCOB;
+        "pkg-1.20.1-3.1.0" = _CVea7v3m;
         "default" = _CVea7v3m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

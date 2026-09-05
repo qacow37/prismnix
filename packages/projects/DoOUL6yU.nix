@@ -60,6 +60,7 @@ let
         "quilt-1.19.4" = _i3FLETbK;
         "quilt-1.20" = _i3FLETbK;
         "quilt-1.20.1" = _i3FLETbK;
+        "pkg-1.0" = _i3FLETbK;
         "default" = _i3FLETbK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

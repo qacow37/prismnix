@@ -9,6 +9,7 @@ let
     in {
         "GFGgvio1" = _GFGgvio1;
         "neoforge-1.21.1" = _GFGgvio1;
+        "pkg-1.0.1" = _GFGgvio1;
         "default" = _GFGgvio1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

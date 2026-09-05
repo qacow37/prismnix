@@ -70,6 +70,13 @@ let
         "3yiFICTE" = _3yiFICTE;
         "forge-1.20.1" = _3yiFICTE;
         "neoforge-1.21.1" = _cKXQ7dSi;
+        "pkg-1.0.0" = _NPfeV31P;
+        "pkg-1.0.1" = _Zqlzvvgh;
+        "pkg-1.1.0" = _WbMJ8oRA;
+        "pkg-1.1.1" = _pgdIgjPq;
+        "pkg-1.2.0" = _EsKTU3aI;
+        "pkg-1.3.0" = _cKXQ7dSi;
+        "pkg-1.3.1" = _3yiFICTE;
         "default" = _3yiFICTE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

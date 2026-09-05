@@ -16,6 +16,8 @@ let
         "plxDlILv" = _plxDlILv;
         "fabric-1.21.1" = _dezZHijw;
         "neoforge-1.21.1" = _plxDlILv;
+        "pkg-0.1.0-fabric" = _dezZHijw;
+        "pkg-0.1.0-neoforge" = _plxDlILv;
         "default" = _plxDlILv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

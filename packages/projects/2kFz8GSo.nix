@@ -9,6 +9,7 @@ let
     in {
         "oVP4SDc4" = _oVP4SDc4;
         "minecraft-1.21.4" = _oVP4SDc4;
+        "pkg-1.0" = _oVP4SDc4;
         "default" = _oVP4SDc4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

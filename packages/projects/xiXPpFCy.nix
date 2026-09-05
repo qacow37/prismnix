@@ -13,6 +13,7 @@ let
         "minecraft-1.19" = _2qtIHo0L;
         "minecraft-1.20" = _2qtIHo0L;
         "minecraft-1.21" = _2qtIHo0L;
+        "pkg-Icons" = _2qtIHo0L;
         "default" = _2qtIHo0L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

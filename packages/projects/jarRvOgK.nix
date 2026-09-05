@@ -80,6 +80,16 @@ let
         "quilt-1.21.1" = _M7p7IC6Q;
         "neoforge-1.21" = _M7p7IC6Q;
         "neoforge-1.21.1" = _M7p7IC6Q;
+        "pkg-1.0" = _PBg6mkO9;
+        "pkg-1.1" = _iVhwsf6m;
+        "pkg-1.0+mod" = _8X1rqnaV;
+        "pkg-1.1+mod" = _Rpj1AQ1C;
+        "pkg-1.2" = _bAmRJKHN;
+        "pkg-1.2+mod" = _5HYDRekz;
+        "pkg-1.4" = _zdkN6k7C;
+        "pkg-1.4+mod" = _jfCVzISh;
+        "pkg-1.4.2" = _RhQywgdZ;
+        "pkg-1.4.2+mod" = _M7p7IC6Q;
         "default" = _M7p7IC6Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

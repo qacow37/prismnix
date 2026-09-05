@@ -49,6 +49,7 @@ let
         "minecraft-24w20a" = _ByxDrT5M;
         "minecraft-1.21" = _ByxDrT5M;
         "minecraft-1.21.1" = _ByxDrT5M;
+        "pkg-1.0" = _ByxDrT5M;
         "default" = _ByxDrT5M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

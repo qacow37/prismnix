@@ -16,6 +16,8 @@ let
         "mMEAzAsY" = _mMEAzAsY;
         "minecraft-1.21.4" = _LMXBbwyv;
         "minecraft-1.21.5" = _mMEAzAsY;
+        "pkg-1" = _LMXBbwyv;
+        "pkg-2" = _mMEAzAsY;
         "default" = _mMEAzAsY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

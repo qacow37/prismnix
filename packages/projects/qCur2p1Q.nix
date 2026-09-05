@@ -86,6 +86,7 @@ let
         "optifine-26.1.1" = _Qs9suVlQ;
         "optifine-26.1.2" = _Qs9suVlQ;
         "optifine-26.2" = _Qs9suVlQ;
+        "pkg-0.6" = _Qs9suVlQ;
         "default" = _Qs9suVlQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -14,6 +14,7 @@ let
         "paper-1.21.3" = _N3CAMmsQ;
         "paper-1.21.4" = _N3CAMmsQ;
         "paper-1.21.5" = _N3CAMmsQ;
+        "pkg-0.1" = _N3CAMmsQ;
         "default" = _N3CAMmsQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

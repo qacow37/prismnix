@@ -20,6 +20,8 @@ let
         "vanilla-1.21.9" = _lVTuENfg;
         "vanilla-1.21.10" = _lVTuENfg;
         "vanilla-1.21.11" = _lVTuENfg;
+        "pkg-1" = _iat4dEwM;
+        "pkg-2" = _lVTuENfg;
         "default" = _lVTuENfg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

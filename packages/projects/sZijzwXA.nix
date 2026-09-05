@@ -57,6 +57,12 @@ let
         "minecraft-1.20.4" = _WlxKEcI2;
         "minecraft-1.20.5" = _WlxKEcI2;
         "minecraft-1.20.6" = _WlxKEcI2;
+        "pkg-v1" = _AkotSQRs;
+        "pkg-V1.1" = _NjPJsELx;
+        "pkg-V1.2" = _tUbazEzp;
+        "pkg-V1.3" = _ggdAu3O5;
+        "pkg-V1.3(Totem)" = _1FWgaOBJ;
+        "pkg-V1.3(totem+sound)" = _WlxKEcI2;
         "default" = _WlxKEcI2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

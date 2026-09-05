@@ -19,6 +19,8 @@ let
         "iris-1.21.3" = _EbdhRanj;
         "iris-1.21.4" = _EbdhRanj;
         "iris-1.21" = _EbdhRanj;
+        "pkg-1.0" = _aui98X06;
+        "pkg-1.1" = _EbdhRanj;
         "default" = _EbdhRanj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -40,6 +40,9 @@ let
         "tTgfMZas" = _tTgfMZas;
         "fabric-1.20.1" = _57xSf4fd;
         "forge-1.20.1" = _tTgfMZas;
+        "pkg-1.0.0" = _TxJo0xZA;
+        "pkg-1.1.0" = _ZyMAzpzg;
+        "pkg-1.1.1" = _tTgfMZas;
         "default" = _tTgfMZas;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

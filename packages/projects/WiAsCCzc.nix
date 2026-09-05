@@ -35,6 +35,8 @@ let
         "minecraft-1.20.2" = _NZipIP3V;
         "minecraft-1.20.3" = _NZipIP3V;
         "minecraft-1.20.4" = _NZipIP3V;
+        "pkg-R1" = _9C1D9CKZ;
+        "pkg-R2" = _NZipIP3V;
         "default" = _NZipIP3V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

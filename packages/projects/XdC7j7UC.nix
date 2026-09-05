@@ -40,6 +40,12 @@ let
         "KWtW1l8M" = _KWtW1l8M;
         "minecraft-1.21.1" = _KWtW1l8M;
         "minecraft-1.21" = _KWtW1l8M;
+        "pkg-0.0.1" = _EvqwsjDR;
+        "pkg-0.0.2" = _40atssX7;
+        "pkg-0.0.3" = _k6tuOZi8;
+        "pkg-0.0.4" = _G7sX3cKP;
+        "pkg-0.0.5" = _cD3jzTPj;
+        "pkg-0.0.6" = _KWtW1l8M;
         "default" = _KWtW1l8M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

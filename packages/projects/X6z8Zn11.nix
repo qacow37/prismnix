@@ -170,6 +170,7 @@ let
         "minecraft-26.2-snapshot-5" = _Mv6ktqNI;
         "minecraft-26.2-snapshot-6" = _Mv6ktqNI;
         "minecraft-26.2-snapshot-7" = _Mv6ktqNI;
+        "pkg-Create_Style_for_Refined_Storage" = _Mv6ktqNI;
         "default" = _Mv6ktqNI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

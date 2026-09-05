@@ -23,6 +23,7 @@ let
         "minecraft-1.20.2" = _vWMOeURd;
         "minecraft-1.20.3" = _vWMOeURd;
         "minecraft-1.20.4" = _vWMOeURd;
+        "pkg-1.0" = _vWMOeURd;
         "default" = _vWMOeURd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

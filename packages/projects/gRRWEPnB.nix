@@ -16,6 +16,7 @@ let
         "Rf5HcDvf" = _Rf5HcDvf;
         "fabric-1.20.1" = _2sV2p4tm;
         "neoforge-1.21.1" = _Rf5HcDvf;
+        "pkg-1.0.0" = _Rf5HcDvf;
         "default" = _Rf5HcDvf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

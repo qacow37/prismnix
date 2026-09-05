@@ -16,6 +16,8 @@ let
         "VdoXl5PT" = _VdoXl5PT;
         "fabric-1.19.2" = _s8n5skzQ;
         "neoforge-1.21.3" = _VdoXl5PT;
+        "pkg-1.0.7" = _s8n5skzQ;
+        "pkg-2.0.0-1.21.3-neo" = _VdoXl5PT;
         "default" = _VdoXl5PT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

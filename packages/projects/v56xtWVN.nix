@@ -15,6 +15,8 @@ let
         "cmwaSNrf" = _cmwaSNrf;
         "YbmxATTp" = _YbmxATTp;
         "minecraft-1.20.1" = _YbmxATTp;
+        "pkg-1.0" = _cmwaSNrf;
+        "pkg-1.1" = _YbmxATTp;
         "default" = _YbmxATTp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

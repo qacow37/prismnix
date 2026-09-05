@@ -21,6 +21,9 @@ let
         "x6ncEsiC" = _x6ncEsiC;
         "GT1jtqZ1" = _GT1jtqZ1;
         "minecraft-1.20.4" = _GT1jtqZ1;
+        "pkg-01.01.24" = _CSfKfa4v;
+        "pkg-02.01.24" = _x6ncEsiC;
+        "pkg-05.01.24" = _GT1jtqZ1;
         "default" = _GT1jtqZ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

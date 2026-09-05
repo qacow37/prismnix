@@ -15,6 +15,8 @@ let
         "afAI9Xii" = _afAI9Xii;
         "W4a5cclL" = _W4a5cclL;
         "minecraft-1.20.1" = _W4a5cclL;
+        "pkg-1.1" = _afAI9Xii;
+        "pkg-1.2" = _W4a5cclL;
         "default" = _W4a5cclL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -26,6 +26,7 @@ let
         "spigot-26.1" = _d6CpPdEO;
         "spigot-26.1.1" = _d6CpPdEO;
         "spigot-26.1.2" = _d6CpPdEO;
+        "pkg-VisualmodderLoader-1.21-20260324" = _d6CpPdEO;
         "default" = _d6CpPdEO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

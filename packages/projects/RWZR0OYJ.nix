@@ -22,6 +22,8 @@ let
         "ztAMdPpk" = _ztAMdPpk;
         "fabric-1.19.2" = _w2Zfp10H;
         "forge-1.19.2" = _ztAMdPpk;
+        "pkg-1.0.0" = _pCdAZOvK;
+        "pkg-1.0.1" = _ztAMdPpk;
         "default" = _ztAMdPpk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

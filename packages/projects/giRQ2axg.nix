@@ -29,6 +29,10 @@ let
         "datapack-1.20.1" = _H7KBss4q;
         "fabric-1.20.1" = _H7KBss4q;
         "forge-1.20.1" = _H7KBss4q;
+        "pkg-1.0" = _kyQORubj;
+        "pkg-1.0.1" = _XC3LWL53;
+        "pkg-1.0.2" = _49GRKlHp;
+        "pkg-1.0.3" = _H7KBss4q;
         "default" = _H7KBss4q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

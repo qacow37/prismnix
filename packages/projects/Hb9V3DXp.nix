@@ -24,6 +24,7 @@ let
         "minecraft-26.1.1" = _mpcXsVMI;
         "minecraft-26.1.2" = _mpcXsVMI;
         "minecraft-26.2" = _mpcXsVMI;
+        "pkg-1.0" = _mpcXsVMI;
         "default" = _mpcXsVMI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

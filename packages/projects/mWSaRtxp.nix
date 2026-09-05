@@ -28,6 +28,10 @@ let
         "TIGEI16S" = _TIGEI16S;
         "forge-1.20.1" = _TIGEI16S;
         "neoforge-1.20.1" = _TIGEI16S;
+        "pkg-1.0.0" = _9HH51JQ0;
+        "pkg-1.0.4" = _QtcgG99B;
+        "pkg-1.0.6" = _DhbpXdVi;
+        "pkg-1.0.8" = _TIGEI16S;
         "default" = _TIGEI16S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

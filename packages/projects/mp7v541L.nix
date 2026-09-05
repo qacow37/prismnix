@@ -46,6 +46,8 @@ let
         "purpur-26.1.1" = _t9DMztdb;
         "purpur-26.1.2" = _t9DMztdb;
         "purpur-26.2" = _t9DMztdb;
+        "pkg-1.0.0" = _oD8jpBlV;
+        "pkg-1.0.1" = _t9DMztdb;
         "default" = _t9DMztdb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

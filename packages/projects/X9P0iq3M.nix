@@ -22,6 +22,9 @@ let
         "Ows8ZRaG" = _Ows8ZRaG;
         "minecraft-1.20.1" = _Ows8ZRaG;
         "minecraft-1.20" = _Ows8ZRaG;
+        "pkg-1.0.0" = _BoJlFBPl;
+        "pkg-1.0.1" = _7FhmxHyB;
+        "pkg-1.1.0" = _Ows8ZRaG;
         "default" = _Ows8ZRaG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

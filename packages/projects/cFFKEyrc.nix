@@ -9,6 +9,7 @@ let
     in {
         "Cjdqu1X1" = _Cjdqu1X1;
         "fabric-1.19.4" = _Cjdqu1X1;
+        "pkg-1.0.0" = _Cjdqu1X1;
         "default" = _Cjdqu1X1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

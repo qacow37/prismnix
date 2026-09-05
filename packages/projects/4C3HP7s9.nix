@@ -15,6 +15,8 @@ let
         "MIsM82pD" = _MIsM82pD;
         "yFVVG90D" = _yFVVG90D;
         "forge-1.20.1" = _yFVVG90D;
+        "pkg-1.0" = _MIsM82pD;
+        "pkg-1.1" = _yFVVG90D;
         "default" = _yFVVG90D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

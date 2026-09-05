@@ -57,6 +57,15 @@ let
         "7LriaOPB" = _7LriaOPB;
         "NpOirJe3" = _NpOirJe3;
         "forge-1.19.2" = _NpOirJe3;
+        "pkg-0.1.0" = _zdtYv0mP;
+        "pkg-0.2.0" = _FJIpRa11;
+        "pkg-0.3.0" = _obW6CMN3;
+        "pkg-0.4.0" = _W1Evpxtq;
+        "pkg-0.5.0" = _v3Kch53G;
+        "pkg-0.6.7" = _9Kcha9ve;
+        "pkg-0.6.8" = _vg0ZCFrB;
+        "pkg-0.7.0" = _7LriaOPB;
+        "pkg-0.9.0" = _NpOirJe3;
         "default" = _NpOirJe3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

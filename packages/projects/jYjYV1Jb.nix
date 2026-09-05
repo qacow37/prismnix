@@ -22,6 +22,9 @@ let
         "T3B5ZVMs" = _T3B5ZVMs;
         "fabric-1.21.1" = _T3B5ZVMs;
         "neoforge-1.21.1" = _T3B5ZVMs;
+        "pkg-0.1.0" = _wCC23eYr;
+        "pkg-0.2.0" = _63zIdAEI;
+        "pkg-0.2.1" = _T3B5ZVMs;
         "default" = _T3B5ZVMs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

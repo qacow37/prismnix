@@ -10,6 +10,7 @@ let
         "TnQc0Gz5" = _TnQc0Gz5;
         "neoforge-1.21" = _TnQc0Gz5;
         "neoforge-1.21.1" = _TnQc0Gz5;
+        "pkg-2.0.0" = _TnQc0Gz5;
         "default" = _TnQc0Gz5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

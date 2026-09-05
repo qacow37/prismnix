@@ -16,6 +16,8 @@ let
         "5CMOnXRG" = _5CMOnXRG;
         "fabric-1.20" = _5CMOnXRG;
         "fabric-1.20.1" = _5CMOnXRG;
+        "pkg-1.2" = _MVpNK6oR;
+        "pkg-1.2.1" = _5CMOnXRG;
         "default" = _5CMOnXRG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

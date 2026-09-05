@@ -21,6 +21,9 @@ let
         "sGambvBZ" = _sGambvBZ;
         "2z4YGPC1" = _2z4YGPC1;
         "forge-1.20.1" = _2z4YGPC1;
+        "pkg-1.0.2" = _7zrXvZg3;
+        "pkg-1.0.3" = _sGambvBZ;
+        "pkg-1.0.4" = _2z4YGPC1;
         "default" = _2z4YGPC1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

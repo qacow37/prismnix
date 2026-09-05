@@ -604,6 +604,13 @@ let
         "iris-26.2-rc-1" = _N9BLPyT7;
         "iris-26.2-rc-2" = _N9BLPyT7;
         "iris-26.2" = _N9BLPyT7;
+        "pkg-0.0.62" = _cI25ltPE;
+        "pkg-1.0.0" = _52fvF7R2;
+        "pkg-1.1.0" = _6e7xIHuy;
+        "pkg-1.2.0" = _Ns2auzBS;
+        "pkg-1.3.0" = _R6CyjDZJ;
+        "pkg-1.4.0" = _DrGVD2tT;
+        "pkg-1.5.0" = _N9BLPyT7;
         "default" = _N9BLPyT7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -46,6 +46,12 @@ let
         "FenkJxdl" = _FenkJxdl;
         "fabric-1.20.1" = _qtrWH3Lm;
         "fabric-1.21.1" = _FenkJxdl;
+        "pkg-1.1.0" = _UGvIqn0s;
+        "pkg-1.1.1" = _A70jSU50;
+        "pkg-1.1.0-1.21.1" = _fV6SCGKo;
+        "pkg-1.1.1-1.21.1" = _IUY0MVzO;
+        "pkg-1.1.2" = _qtrWH3Lm;
+        "pkg-1.1.2-1.21.1" = _FenkJxdl;
         "default" = _FenkJxdl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

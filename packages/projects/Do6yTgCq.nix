@@ -22,6 +22,9 @@ let
         "WQPKzd90" = _WQPKzd90;
         "minecraft-1.20.1" = _WQPKzd90;
         "minecraft-1.21.1" = _WQPKzd90;
+        "pkg-V1-1.20.1" = _UkLxxQDV;
+        "pkg-V1.1-1.20.1" = _rHK87mRA;
+        "pkg-V1.2-1.20.1-1.21.1" = _WQPKzd90;
         "default" = _WQPKzd90;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

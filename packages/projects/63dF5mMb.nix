@@ -348,6 +348,7 @@ let
         "quilt-1.20.6" = _czDlvYdk;
         "quilt-1.21" = _czDlvYdk;
         "quilt-1.21.1" = _czDlvYdk;
+        "pkg-1.0.0" = _czDlvYdk;
         "default" = _czDlvYdk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -161,6 +161,9 @@ let
         "quilt-26.1.1" = _ADKqgu30;
         "quilt-26.1.2" = _ADKqgu30;
         "quilt-26.2" = _ADKqgu30;
+        "pkg-1.0" = _kQO08wpX;
+        "pkg-1.0+mod" = _ADKqgu30;
+        "pkg-1.1" = _A7djtvtj;
         "default" = _A7djtvtj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

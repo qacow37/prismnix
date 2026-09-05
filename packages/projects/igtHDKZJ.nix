@@ -21,6 +21,9 @@ let
         "cpwFop76" = _cpwFop76;
         "i1rapN33" = _i1rapN33;
         "forge-1.12.2" = _i1rapN33;
+        "pkg-1.0.0" = _VCmOz2J9;
+        "pkg-1.1.0" = _cpwFop76;
+        "pkg-1.2.0" = _i1rapN33;
         "default" = _i1rapN33;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -46,6 +46,13 @@ let
         "C4M3mTly" = _C4M3mTly;
         "forge-1.20.1" = _C4M3mTly;
         "neoforge-1.20.1" = _C4M3mTly;
+        "pkg-MadnessEntities-1.20.1-3.0" = _GNb6XLdl;
+        "pkg-MadnessEntities-1.20.1-3.1" = _Dtqhg13s;
+        "pkg-MadnessEntities-1.20.1-3.1.1" = _m7G1PyQy;
+        "pkg-MadnessEntities-1.20.1-3.2" = _hacBvHsF;
+        "pkg-MadnessEntities-1.20.1-3.2.1" = _yA3M2qXc;
+        "pkg-MadnessEntities-1.20.1-3.3" = _B5o8gLTN;
+        "pkg-MadnessEntities-1.20.1-3.3.1" = _C4M3mTly;
         "default" = _C4M3mTly;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

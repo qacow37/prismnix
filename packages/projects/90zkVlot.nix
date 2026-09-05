@@ -94,6 +94,8 @@ let
         "quilt-26.1.1" = _PCPAa2h7;
         "quilt-26.1.2" = _PCPAa2h7;
         "quilt-26.2" = _PCPAa2h7;
+        "pkg-1.0.0" = _HpLiaL0A;
+        "pkg-1.0.0+mod" = _PCPAa2h7;
         "default" = _PCPAa2h7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

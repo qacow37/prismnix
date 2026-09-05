@@ -16,6 +16,8 @@ let
         "cKODASBS" = _cKODASBS;
         "minecraft-1.20.4" = _cKODASBS;
         "minecraft-1.20.3" = _cKODASBS;
+        "pkg-0.02" = _Q0TQW4Bl;
+        "pkg-0.1" = _cKODASBS;
         "default" = _cKODASBS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

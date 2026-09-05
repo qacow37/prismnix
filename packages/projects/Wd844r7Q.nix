@@ -48,6 +48,12 @@ let
         "fabric-1.21.1" = _Cel9SXLx;
         "quilt-1.21" = _Cel9SXLx;
         "quilt-1.21.1" = _Cel9SXLx;
+        "pkg-1.18.2-01" = _N5EALI6r;
+        "pkg-1.18.2-02" = _76XMezlm;
+        "pkg-1.19-01" = _bzlVeS3g;
+        "pkg-1.19.3-01" = _TgNabxn4;
+        "pkg-1.20.1-01" = _9bAkNJm5;
+        "pkg-1.21-01" = _Cel9SXLx;
         "default" = _Cel9SXLx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -478,6 +478,9 @@ let
         "datapack-26.2-rc-1" = _J28qOfK4;
         "datapack-26.2-rc-2" = _J28qOfK4;
         "datapack-26.2" = _J28qOfK4;
+        "pkg-1.2.0" = _NqE74zmg;
+        "pkg-1.2.1" = _tKViiLMM;
+        "pkg-1.3.0" = _J28qOfK4;
         "default" = _J28qOfK4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

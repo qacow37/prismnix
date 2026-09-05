@@ -21,6 +21,9 @@ let
         "wzjvm6et" = _wzjvm6et;
         "Ha5RG6IC" = _Ha5RG6IC;
         "forge-1.12.2" = _Ha5RG6IC;
+        "pkg-1.0" = _kHAZKARV;
+        "pkg-2.0" = _wzjvm6et;
+        "pkg-3.0" = _Ha5RG6IC;
         "default" = _Ha5RG6IC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "SyTkfEl4" = _SyTkfEl4;
         "forge-1.12.2" = _SyTkfEl4;
+        "pkg-1.2.1" = _SyTkfEl4;
         "default" = _SyTkfEl4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "3kA7SApS" = _3kA7SApS;
         "forge-1.8.9" = _3kA7SApS;
         "forge-1.7.10" = _u9PQHdae;
+        "pkg-1.0.0" = _mzgFRkbi;
+        "pkg-1.0.1" = _3kA7SApS;
         "default" = _3kA7SApS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,9 @@ let
         "wxK9ZcMf" = _wxK9ZcMf;
         "datapack-1.21.1" = _pI9b1ybD;
         "fabric-1.21.1" = _wxK9ZcMf;
+        "pkg-1.0" = _B9E1VVaV;
+        "pkg-1.1" = _pI9b1ybD;
+        "pkg-1.1+mod" = _wxK9ZcMf;
         "default" = _wxK9ZcMf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

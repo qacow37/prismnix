@@ -84,6 +84,7 @@ let
         "minecraft-1.20.2-rc1" = _lNZOB1Mr;
         "minecraft-1.20.2-rc2" = _lNZOB1Mr;
         "minecraft-1.20.2" = _lNZOB1Mr;
+        "pkg-1.0.0" = _lNZOB1Mr;
         "default" = _lNZOB1Mr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

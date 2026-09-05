@@ -37,6 +37,7 @@ let
         "minecraft-1.21.9" = _Drm642RO;
         "minecraft-1.21.10" = _Drm642RO;
         "minecraft-1.21.11" = _Drm642RO;
+        "pkg-v1.0" = _Drm642RO;
         "default" = _Drm642RO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

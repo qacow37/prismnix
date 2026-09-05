@@ -102,6 +102,7 @@ let
         "minecraft-1.21.5" = _TXf9nFls;
         "minecraft-1.21.6" = _TXf9nFls;
         "minecraft-1.21.7" = _TXf9nFls;
+        "pkg-1.0" = _TXf9nFls;
         "default" = _TXf9nFls;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

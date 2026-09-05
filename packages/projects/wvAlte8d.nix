@@ -29,6 +29,8 @@ let
         "fabric-26.1" = _9vIRvKPS;
         "fabric-26.1.1" = _9vIRvKPS;
         "fabric-26.1.2" = _9vIRvKPS;
+        "pkg-1.0.0" = _MALbiBtu;
+        "pkg-1.0.1" = _9vIRvKPS;
         "default" = _9vIRvKPS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,10 @@ let
         "lmN8yk1g" = _lmN8yk1g;
         "ZeuCrViq" = _ZeuCrViq;
         "minecraft-1.7.10" = _ZeuCrViq;
+        "pkg-V1" = _g7mPFGyi;
+        "pkg-V2" = _AxXdzeHs;
+        "pkg-V3" = _lmN8yk1g;
+        "pkg-V4" = _ZeuCrViq;
         "default" = _ZeuCrViq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

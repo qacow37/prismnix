@@ -12,6 +12,7 @@ let
         "paper-1.21.10" = _mi7wG2jx;
         "purpur-1.21" = _mi7wG2jx;
         "purpur-1.21.10" = _mi7wG2jx;
+        "pkg-1.0" = _mi7wG2jx;
         "default" = _mi7wG2jx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

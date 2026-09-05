@@ -45,6 +45,13 @@ let
         "NSxDbPV2" = _NSxDbPV2;
         "LRsqtqYq" = _LRsqtqYq;
         "neoforge-1.21.1" = _LRsqtqYq;
+        "pkg-0.1.0" = _xBv5Swbn;
+        "pkg-0.2.0" = _qlbCXsTF;
+        "pkg-0.2.1" = _bqNioSRV;
+        "pkg-0.2.2" = _FCYNqG2x;
+        "pkg-0.2.3" = _4m4AqUqT;
+        "pkg-0.2.4" = _NSxDbPV2;
+        "pkg-0.2.5" = _LRsqtqYq;
         "default" = _LRsqtqYq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

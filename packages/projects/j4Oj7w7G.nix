@@ -52,6 +52,14 @@ let
         "RMELAo8B" = _RMELAo8B;
         "fabric-1.21.4" = _IWlFo78D;
         "fabric-1.21.11" = _RMELAo8B;
+        "pkg-0.1.0" = _6AVysBke;
+        "pkg-0.2.0" = _ELsgZIeS;
+        "pkg-0.3.0" = _o5LnawEy;
+        "pkg-0.3.1" = _IWlFo78D;
+        "pkg-0.3.2" = _U1yXr7L2;
+        "pkg-0.4.0" = _bWIoBjXX;
+        "pkg-0.4.1" = _6TypIHME;
+        "pkg-0.4.2" = _RMELAo8B;
         "default" = _RMELAo8B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "Bhv5IFLy" = _Bhv5IFLy;
         "AF2YedDO" = _AF2YedDO;
         "forge-1.20.1" = _AF2YedDO;
+        "pkg-1.20.1-1.0.0" = _Bhv5IFLy;
+        "pkg-1.20.1-1.0.1" = _AF2YedDO;
         "default" = _AF2YedDO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

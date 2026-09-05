@@ -15,6 +15,8 @@ let
         "BMLQy0ws" = _BMLQy0ws;
         "knjmoq9K" = _knjmoq9K;
         "neoforge-1.21.1" = _knjmoq9K;
+        "pkg-0.0.1" = _BMLQy0ws;
+        "pkg-0.0.2" = _knjmoq9K;
         "default" = _knjmoq9K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

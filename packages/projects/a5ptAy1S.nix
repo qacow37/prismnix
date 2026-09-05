@@ -9,6 +9,7 @@ let
     in {
         "y89G6IBM" = _y89G6IBM;
         "neoforge-1.21.1" = _y89G6IBM;
+        "pkg-2.1.0" = _y89G6IBM;
         "default" = _y89G6IBM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

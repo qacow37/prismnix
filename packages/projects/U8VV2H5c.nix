@@ -9,6 +9,7 @@ let
     in {
         "ZAT07L76" = _ZAT07L76;
         "minecraft-1.19.3" = _ZAT07L76;
+        "pkg-1.0" = _ZAT07L76;
         "default" = _ZAT07L76;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

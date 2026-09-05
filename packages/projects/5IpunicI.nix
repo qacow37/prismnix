@@ -194,6 +194,7 @@ let
         "quilt-1.21.3" = _GXctGYUb;
         "quilt-1.21.4" = _GXctGYUb;
         "quilt-1.21.5" = _GXctGYUb;
+        "pkg-1" = _GXctGYUb;
         "default" = _GXctGYUb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

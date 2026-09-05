@@ -9,6 +9,7 @@ let
     in {
         "abh45MpE" = _abh45MpE;
         "minecraft-1.21.4" = _abh45MpE;
+        "pkg-1" = _abh45MpE;
         "default" = _abh45MpE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

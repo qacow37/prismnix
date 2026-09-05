@@ -137,6 +137,24 @@ let
         "forge-1.18.2" = _FgNv2LcC;
         "forge-1.19.4" = _C7jIhA8o;
         "forge-1.20.1" = _PUahAcNP;
+        "pkg-1.1.0-mc1.17.1-fabric" = _pFKTGHUC;
+        "pkg-1.3.1-mc1.18.2-fabric" = _gNbAHZTh;
+        "pkg-1.3.1-mc1.19.4-fabric" = _aa2UZQQV;
+        "pkg-1.3.2.1-mc1.20.4-fabric" = _ABDEqpxL;
+        "pkg-1.3.1-mc1.20.1-fabric" = _8yUgze9P;
+        "pkg-1.3.2.1-mc1.18.2-forge" = _FgNv2LcC;
+        "pkg-1.3.2.1-mc1.19.4-forge" = _C7jIhA8o;
+        "pkg-1.3.2.1-mc1.20.1-forge" = _PUahAcNP;
+        "pkg-1.2.3" = _xIqYbHOS;
+        "pkg-1.3.2.1-mc1.21-fabric" = _fgtVCn8Z;
+        "pkg-1.3.2.1-mc1.20.6-fabric" = _JnEGGols;
+        "pkg-1.3.3-mc1.20.6-fabric" = _Kx87Cqi2;
+        "pkg-1.3.3-mc1.21-fabric" = _lj9u0lF3;
+        "pkg-1.3.4-mc1.21.2-fabric" = _HBaLY5CH;
+        "pkg-1.3.4-mc1.21.5-fabric" = _30J7YmvJ;
+        "pkg-1.3.4-mc1.21.7-fabric" = _YQcPIkmS;
+        "pkg-1.3.4-mc1.21.6-8-fabric" = _gGe7pqWo;
+        "pkg-1.3.4-mc1.21.9-11-fabric" = _ELsqTeou;
         "default" = _ELsqTeou;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

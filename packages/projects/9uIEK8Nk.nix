@@ -18,6 +18,8 @@ let
         "minecraft-1.21.7" = _BtRCJCRi;
         "minecraft-1.21.8" = _BtRCJCRi;
         "minecraft-1.21.9" = _BtRCJCRi;
+        "pkg-v0.1" = _MeruYHg4;
+        "pkg-v0.1-2" = _BtRCJCRi;
         "default" = _BtRCJCRi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

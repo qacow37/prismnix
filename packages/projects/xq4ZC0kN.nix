@@ -21,6 +21,9 @@ let
         "jgDe95Z4" = _jgDe95Z4;
         "BEDI44dw" = _BEDI44dw;
         "forge-1.12.2" = _BEDI44dw;
+        "pkg-1.25.3" = _3EVUimvx;
+        "pkg-1.25.4" = _jgDe95Z4;
+        "pkg-1.25.6" = _BEDI44dw;
         "default" = _BEDI44dw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

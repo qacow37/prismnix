@@ -27,6 +27,10 @@ let
         "y0IPuFPE" = _y0IPuFPE;
         "7WP7TEP0" = _7WP7TEP0;
         "forge-1.20.1" = _7WP7TEP0;
+        "pkg-1.0.1" = _q31RdK0G;
+        "pkg-1.0.2" = _stDly2Y5;
+        "pkg-1.0.2-important" = _y0IPuFPE;
+        "pkg-1.1" = _7WP7TEP0;
         "default" = _7WP7TEP0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

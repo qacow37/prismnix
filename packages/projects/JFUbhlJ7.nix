@@ -16,6 +16,7 @@ let
         "Zi7PVHQq" = _Zi7PVHQq;
         "fabric-1.21.1" = _Aseu770o;
         "fabric-1.21.4" = _Zi7PVHQq;
+        "pkg-1.1.0" = _Zi7PVHQq;
         "default" = _Zi7PVHQq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

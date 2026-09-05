@@ -18,6 +18,8 @@ let
         "forge-1.16.5" = _6K28Qcwx;
         "fabric-1.16.4" = _tap1OBKS;
         "fabric-1.16.5" = _tap1OBKS;
+        "pkg-1.0.0+Forge1.16.X" = _6K28Qcwx;
+        "pkg-1.0.0+Fabric1.16.X" = _tap1OBKS;
         "default" = _tap1OBKS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

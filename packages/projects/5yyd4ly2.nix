@@ -9,6 +9,7 @@ let
     in {
         "PpSPEBQM" = _PpSPEBQM;
         "forge-1.20.1" = _PpSPEBQM;
+        "pkg-1.0" = _PpSPEBQM;
         "default" = _PpSPEBQM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

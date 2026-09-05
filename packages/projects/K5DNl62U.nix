@@ -374,6 +374,7 @@ let
         "bungeecord-1.20.5" = _E3nC1v3c;
         "bungeecord-1.20.6" = _E3nC1v3c;
         "bungeecord-1.21" = _E3nC1v3c;
+        "pkg-4.1.2-ABYSS" = _E3nC1v3c;
         "default" = _E3nC1v3c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

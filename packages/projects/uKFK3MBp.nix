@@ -9,6 +9,7 @@ let
     in {
         "27nROiTP" = _27nROiTP;
         "neoforge-1.21.1" = _27nROiTP;
+        "pkg-1.0a" = _27nROiTP;
         "default" = _27nROiTP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

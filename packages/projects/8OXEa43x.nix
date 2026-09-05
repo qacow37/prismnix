@@ -27,6 +27,10 @@ let
         "BaeftiPl" = _BaeftiPl;
         "FfNRfeE8" = _FfNRfeE8;
         "forge-1.20.1" = _FfNRfeE8;
+        "pkg-1.0.1" = _lQnKUxTR;
+        "pkg-1.1.0" = _4L3aubmJ;
+        "pkg-1.2.0" = _BaeftiPl;
+        "pkg-1.2.1" = _FfNRfeE8;
         "default" = _FfNRfeE8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "lTUnYK6z" = _lTUnYK6z;
         "forge-1.19.2" = _lTUnYK6z;
         "neoforge-1.19.2" = _lTUnYK6z;
+        "pkg-1.3" = _xj3C8s2G;
+        "pkg-1.4" = _lTUnYK6z;
         "default" = _lTUnYK6z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

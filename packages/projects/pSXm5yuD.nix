@@ -35,6 +35,7 @@ let
         "fabric-1.21.9" = _jQaXRRe3;
         "fabric-1.21.10" = _jQaXRRe3;
         "fabric-1.21.11" = _jQaXRRe3;
+        "pkg-1.0.0" = _jQaXRRe3;
         "default" = _jQaXRRe3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

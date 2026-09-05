@@ -12,6 +12,7 @@ let
         "minecraft-1.18" = _B5IpCmNH;
         "minecraft-1.19" = _B5IpCmNH;
         "minecraft-1.20" = _B5IpCmNH;
+        "pkg-1" = _B5IpCmNH;
         "default" = _B5IpCmNH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

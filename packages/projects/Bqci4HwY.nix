@@ -39,6 +39,12 @@ let
         "rHES4NIB" = _rHES4NIB;
         "rfBIwZYX" = _rfBIwZYX;
         "fabric-1.20.1" = _rfBIwZYX;
+        "pkg-0.1.0" = _XcyAW47x;
+        "pkg-0.2.0" = _vf7Uoahq;
+        "pkg-0.2.1" = _xenuIOgs;
+        "pkg-0.3.0" = _FleGofHc;
+        "pkg-0.3.1" = _rHES4NIB;
+        "pkg-0.4.0" = _rfBIwZYX;
         "default" = _rfBIwZYX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

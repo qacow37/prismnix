@@ -16,6 +16,8 @@ let
         "naxmsBVd" = _naxmsBVd;
         "fabric-1.18.2" = _IyFSDlHO;
         "fabric-1.19.2" = _naxmsBVd;
+        "pkg-1.0-BETA+1.18" = _IyFSDlHO;
+        "pkg-1.0-BETA+1.19" = _naxmsBVd;
         "default" = _naxmsBVd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

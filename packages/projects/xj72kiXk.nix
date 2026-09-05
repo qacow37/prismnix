@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _om3BHIKM;
         "forge-1.20.5" = _om3BHIKM;
         "forge-1.20.6" = _om3BHIKM;
+        "pkg-1.0.0" = _om3BHIKM;
         "default" = _om3BHIKM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

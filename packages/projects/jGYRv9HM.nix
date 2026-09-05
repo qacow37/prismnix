@@ -27,6 +27,9 @@ let
         "fabric-26.3-snapshot-4" = _sGfVVU31;
         "fabric-26.3-snapshot-5" = _sGfVVU31;
         "neoforge-26.2" = _a246PsGV;
+        "pkg-Fabric-1.0.0" = _XDDUbT9w;
+        "pkg-NeoForge-1.0.0" = _a246PsGV;
+        "pkg-Fabric-1.0.1" = _sGfVVU31;
         "default" = _sGfVVU31;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

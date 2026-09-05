@@ -64,6 +64,8 @@ let
         "minecraft-26.1-snapshot-5" = _mBspPgUB;
         "minecraft-26.1-snapshot-6" = _mBspPgUB;
         "minecraft-26.1-snapshot-7" = _mBspPgUB;
+        "pkg-1" = _MGDJ7CFD;
+        "pkg-2" = _mBspPgUB;
         "default" = _mBspPgUB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

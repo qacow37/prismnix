@@ -24,6 +24,9 @@ let
         "fabric-1.19.2" = _wavEuKRg;
         "quilt-1.18.2" = _luOfQu8O;
         "quilt-1.19.2" = _wavEuKRg;
+        "pkg-1.0.0" = _luOfQu8O;
+        "pkg-1.1.0" = _Y4s1mjdb;
+        "pkg-1.1.1" = _wavEuKRg;
         "default" = _wavEuKRg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

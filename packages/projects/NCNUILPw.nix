@@ -22,6 +22,9 @@ let
         "wYyrMlrU" = _wYyrMlrU;
         "fabric-1.6.4" = _Jqp93aUJ;
         "legacy-fabric-1.6.4" = _wYyrMlrU;
+        "pkg-1.3.2" = _2sNll52B;
+        "pkg-v1.4.0" = _Jqp93aUJ;
+        "pkg-1.6.0" = _wYyrMlrU;
         "default" = _wYyrMlrU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

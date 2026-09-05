@@ -45,6 +45,13 @@ let
         "ddj4Jpt6" = _ddj4Jpt6;
         "v4BEsHIb" = _v4BEsHIb;
         "forge-1.20.1" = _v4BEsHIb;
+        "pkg-1.0.0" = _tcMsYXYX;
+        "pkg-1.1.0" = _mKqMshup;
+        "pkg-1.1.1" = _vZW6wVKi;
+        "pkg-1.1.2" = _ZAJnLJC2;
+        "pkg-1.1.3" = _6gt9serj;
+        "pkg-1.1.4" = _ddj4Jpt6;
+        "pkg-1.1.5" = _v4BEsHIb;
         "default" = _v4BEsHIb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

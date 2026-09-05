@@ -15,6 +15,8 @@ let
         "XRc27AT6" = _XRc27AT6;
         "I55ckzGe" = _I55ckzGe;
         "fabric-1.20.1" = _I55ckzGe;
+        "pkg-1.0.0" = _XRc27AT6;
+        "pkg-1.0.1" = _I55ckzGe;
         "default" = _I55ckzGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

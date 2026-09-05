@@ -64,6 +64,7 @@ let
         "optifine-1.21.8" = _VmyGTJJ1;
         "optifine-1.21.9" = _VmyGTJJ1;
         "optifine-1.21.10" = _VmyGTJJ1;
+        "pkg-1.0" = _VmyGTJJ1;
         "default" = _VmyGTJJ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

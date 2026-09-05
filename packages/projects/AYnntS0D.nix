@@ -35,6 +35,8 @@ let
         "vanilla-1.21.6" = _fVnsbt1b;
         "vanilla-1.21.7" = _fVnsbt1b;
         "vanilla-1.21.8" = _fVnsbt1b;
+        "pkg-0light1levels15" = _fVnsbt1b;
+        "pkg-0light1levels15hf" = _cX7oPQnp;
         "default" = _cX7oPQnp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

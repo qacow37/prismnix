@@ -9,6 +9,7 @@ let
     in {
         "XNofpNfs" = _XNofpNfs;
         "fabric-1.21.11" = _XNofpNfs;
+        "pkg-1.0.1" = _XNofpNfs;
         "default" = _XNofpNfs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

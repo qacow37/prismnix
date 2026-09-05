@@ -20,6 +20,8 @@ let
         "minecraft-1.21.3" = _UQPBNVv3;
         "minecraft-1.21.4" = _UQPBNVv3;
         "minecraft-1.21.5" = _UQPBNVv3;
+        "pkg-0.1" = _UQPBNVv3;
+        "pkg-0.2" = _LI3XGBnF;
         "default" = _LI3XGBnF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -40,6 +40,11 @@ let
         "QARjaa2E" = _QARjaa2E;
         "forge-1.16.5" = _OBSh0Y0X;
         "forge-1.18.2" = _QARjaa2E;
+        "pkg-1.0" = _uPi7RoBx;
+        "pkg-1.1" = _QUcg0pd2;
+        "pkg-1.2" = _Hmlc9GEc;
+        "pkg-1.3" = _1Mtm5yxQ;
+        "pkg-1.4" = _QARjaa2E;
         "default" = _QARjaa2E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

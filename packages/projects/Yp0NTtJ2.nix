@@ -22,6 +22,8 @@ let
         "yjitXgAl" = _yjitXgAl;
         "forge-1.20.1" = _NZQLvXAn;
         "forge-1.19.2" = _yjitXgAl;
+        "pkg-1.0" = _GSkmb6UC;
+        "pkg-1.1" = _yjitXgAl;
         "default" = _yjitXgAl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

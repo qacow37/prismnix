@@ -16,6 +16,8 @@ let
         "ca0lancJ" = _ca0lancJ;
         "fabric-1.20.1" = _myYF2oDb;
         "neoforge-1.21.1" = _ca0lancJ;
+        "pkg-1.0.0" = _myYF2oDb;
+        "pkg-2.0.0" = _ca0lancJ;
         "default" = _ca0lancJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

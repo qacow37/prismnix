@@ -15,6 +15,8 @@ let
         "Yjmpv3jn" = _Yjmpv3jn;
         "IA9I1fMe" = _IA9I1fMe;
         "forge-1.16.5" = _IA9I1fMe;
+        "pkg-1.0.0" = _Yjmpv3jn;
+        "pkg-1.1.0" = _IA9I1fMe;
         "default" = _IA9I1fMe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

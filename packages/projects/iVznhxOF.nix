@@ -21,6 +21,8 @@ let
         "RjkQ7pom" = _RjkQ7pom;
         "eGPAVIBg" = _eGPAVIBg;
         "forge-1.20.1" = _eGPAVIBg;
+        "pkg-1.0.0" = _RjkQ7pom;
+        "pkg-3.0.0" = _eGPAVIBg;
         "default" = _eGPAVIBg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

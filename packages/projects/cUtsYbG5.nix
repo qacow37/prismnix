@@ -57,6 +57,15 @@ let
         "ett5hobb" = _ett5hobb;
         "6Qimuf4A" = _6Qimuf4A;
         "forge-1.7.10" = _6Qimuf4A;
+        "pkg-1.0" = _SlmaYALp;
+        "pkg-2.0" = _6LfaZsbS;
+        "pkg-2.1" = _edDqIkGX;
+        "pkg-2.2" = _Ag81X0QF;
+        "pkg-2.3" = _e6MzmPcQ;
+        "pkg-2.4" = _OTjqj0T8;
+        "pkg-2.5" = _s7mIqSi2;
+        "pkg-2.6" = _ett5hobb;
+        "pkg-2.7" = _6Qimuf4A;
         "default" = _6Qimuf4A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

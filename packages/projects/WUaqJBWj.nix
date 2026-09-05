@@ -15,6 +15,8 @@ let
         "QBePaU0F" = _QBePaU0F;
         "glMCyexX" = _glMCyexX;
         "fabric-1.20.1" = _glMCyexX;
+        "pkg-1.1.1" = _QBePaU0F;
+        "pkg-1.2.0" = _glMCyexX;
         "default" = _glMCyexX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

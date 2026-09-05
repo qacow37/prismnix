@@ -16,6 +16,7 @@ let
         "quilt-1.20.2" = _s6esP76C;
         "quilt-1.20.3" = _s6esP76C;
         "quilt-1.20.4" = _s6esP76C;
+        "pkg-1.0.3" = _s6esP76C;
         "default" = _s6esP76C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

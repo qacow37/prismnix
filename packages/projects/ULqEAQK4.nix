@@ -9,6 +9,7 @@ let
     in {
         "5MPvGPuu" = _5MPvGPuu;
         "fabric-1.20.1" = _5MPvGPuu;
+        "pkg-1.0" = _5MPvGPuu;
         "default" = _5MPvGPuu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

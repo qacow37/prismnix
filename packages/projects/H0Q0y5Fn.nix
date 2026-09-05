@@ -144,6 +144,16 @@ let
         "minecraft-24w45a" = _rGNW4u8E;
         "minecraft-24w46a" = _rGNW4u8E;
         "minecraft-26.2" = _rGNW4u8E;
+        "pkg-v1.0" = _V8r5ctuT;
+        "pkg-v1.1" = _ocq0J5Ad;
+        "pkg-v1.2" = _Rw27UhTv;
+        "pkg-1.3" = _ePn7b7QZ;
+        "pkg-1.4" = _gnzM5WsY;
+        "pkg-1.5" = _Sds1OW3U;
+        "pkg-1.6" = _h1Z50nSR;
+        "pkg-1.7" = _sXzklk0i;
+        "pkg-1.8-a" = _8SGt4rIg;
+        "pkg-1.8" = _rGNW4u8E;
         "default" = _rGNW4u8E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

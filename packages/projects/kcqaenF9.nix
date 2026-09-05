@@ -254,6 +254,7 @@ let
         "modloader-a1.1.0" = _hpWUInHK;
         "modloader-a1.1.2" = _Aw7oVIH2;
         "modloader-a1.1.2_01" = _rKbuoZak;
+        "pkg-1.0" = _YQreoDbI;
         "default" = _YQreoDbI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

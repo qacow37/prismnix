@@ -16,6 +16,8 @@ let
         "wkIKWJ11" = _wkIKWJ11;
         "forge-1.18.2" = _RfmaqetH;
         "forge-1.19.2" = _wkIKWJ11;
+        "pkg-0.1.1" = _RfmaqetH;
+        "pkg-0.2.0" = _wkIKWJ11;
         "default" = _wkIKWJ11;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -274,6 +274,13 @@ let
         "neoforge-1.20.4" = _PveLA17s;
         "neoforge-1.20.5" = _PveLA17s;
         "neoforge-1.20.6" = _PveLA17s;
+        "pkg-1.0.0" = _8CLlLGnk;
+        "pkg-1.0.0+mod" = _H9Q3QjFj;
+        "pkg-1.0.1" = _s0Apa576;
+        "pkg-1.0.1+mod" = _F9YdGTJG;
+        "pkg-1.0.2" = _6UyXUOgF;
+        "pkg-1.0.2+mod" = _YLlF0TGr;
+        "pkg-1.0.0.1+mod" = _PveLA17s;
         "default" = _PveLA17s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -144,6 +144,10 @@ let
         "minecraft-26.1.1" = _gis32p36;
         "minecraft-26.1.2" = _gis32p36;
         "minecraft-26.2" = _gis32p36;
+        "pkg-1.0" = _x9y9H2fR;
+        "pkg-1.1" = _OBhIvdR7;
+        "pkg-1.2" = _KLwHWlOe;
+        "pkg-1.3" = _gis32p36;
         "default" = _gis32p36;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

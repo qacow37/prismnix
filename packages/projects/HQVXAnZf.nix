@@ -12,6 +12,7 @@ let
         "fabric-1.20.1" = _SsgmPFRu;
         "fabric-1.21" = _SsgmPFRu;
         "fabric-1.21.1" = _SsgmPFRu;
+        "pkg-1.0.0" = _SsgmPFRu;
         "default" = _SsgmPFRu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

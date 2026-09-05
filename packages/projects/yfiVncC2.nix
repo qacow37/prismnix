@@ -59,6 +59,11 @@ let
         "paper-1.21.8" = _FbpP49VM;
         "paper-1.21.9" = _FbpP49VM;
         "paper-1.21.11" = _FbpP49VM;
+        "pkg-1.0.0" = _xCW6YuPo;
+        "pkg-1.0.1" = _HQgTClOB;
+        "pkg-1.0.2" = _lPg0TiBc;
+        "pkg-1.0.3" = _b4yOpE4q;
+        "pkg-1.0.4" = _FbpP49VM;
         "default" = _FbpP49VM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

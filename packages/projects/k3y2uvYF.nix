@@ -28,6 +28,9 @@ let
         "gH50GtVz" = _gH50GtVz;
         "forge-1.20.1" = _Dzq97gN7;
         "neoforge-1.21.1" = _gH50GtVz;
+        "pkg-1.0.1" = _FqkBqzBr;
+        "pkg-1.0.2" = _Dzq97gN7;
+        "pkg-1.0.3" = _gH50GtVz;
         "default" = _gH50GtVz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

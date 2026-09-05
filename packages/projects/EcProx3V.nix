@@ -21,6 +21,9 @@ let
         "uO8w4doK" = _uO8w4doK;
         "TFEfjmgt" = _TFEfjmgt;
         "forge-1.12.2" = _TFEfjmgt;
+        "pkg-2o.6.2" = _sPMGUVx1;
+        "pkg-2o.7.7" = _uO8w4doK;
+        "pkg-2o.9.0" = _TFEfjmgt;
         "default" = _TFEfjmgt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

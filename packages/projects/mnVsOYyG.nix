@@ -19,6 +19,8 @@ let
         "forge-1.21.4" = _MXuIU8Tu;
         "neoforge-1.21.4" = _MXuIU8Tu;
         "quilt-1.21.4" = _MXuIU8Tu;
+        "pkg-1" = _ZpU3k1oO;
+        "pkg-1+mod" = _MXuIU8Tu;
         "default" = _MXuIU8Tu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

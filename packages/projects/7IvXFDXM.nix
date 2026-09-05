@@ -52,6 +52,11 @@ let
         "quilt-1.18" = _IcArP88P;
         "quilt-1.18.1" = _IcArP88P;
         "quilt-1.18.2" = _IcArP88P;
+        "pkg-3.3" = _nrNIZUbp;
+        "pkg-3.3.1" = _RwgqRprp;
+        "pkg-3.2" = _6RUHFdMu;
+        "pkg-3.3.1+mod" = _dvff2itj;
+        "pkg-3.2+mod" = _IcArP88P;
         "default" = _IcArP88P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

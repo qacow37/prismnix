@@ -16,6 +16,8 @@ let
         "EfmONEPq" = _EfmONEPq;
         "datapack-1.21.1" = _4aAN9bik;
         "neoforge-1.21.1" = _EfmONEPq;
+        "pkg-1.0.0" = _4aAN9bik;
+        "pkg-1.0.0+mod" = _EfmONEPq;
         "default" = _EfmONEPq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

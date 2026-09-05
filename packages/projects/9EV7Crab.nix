@@ -47,6 +47,7 @@ let
         "minecraft-26.1.1" = _SUOTCBMF;
         "minecraft-26.1.2" = _SUOTCBMF;
         "minecraft-26.2" = _SUOTCBMF;
+        "pkg-1.0.0" = _SUOTCBMF;
         "default" = _SUOTCBMF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

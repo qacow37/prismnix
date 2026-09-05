@@ -46,6 +46,13 @@ let
         "RS8dkXVZ" = _RS8dkXVZ;
         "fabric-26.1.2" = _2AUDu2rN;
         "fabric-26.2" = _RS8dkXVZ;
+        "pkg-v1.0.0+mc26.1.2" = _i6cWrETu;
+        "pkg-v1.1.0-build.1" = _6yi2bSZW;
+        "pkg-v2.0.0+mc26.1.2" = _tL77BxnN;
+        "pkg-v2.1.0+mc26.1.2" = _2AUDu2rN;
+        "pkg-v2.2-build.1" = _BRzc6duV;
+        "pkg-v2.3.0+mc26.2" = _nDUVEdJ3;
+        "pkg-v2.3-build.2" = _RS8dkXVZ;
         "default" = _RS8dkXVZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

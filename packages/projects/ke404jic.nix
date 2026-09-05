@@ -40,6 +40,12 @@ let
         "CuYSaKoN" = _CuYSaKoN;
         "minecraft-1.21.1" = _FZP4afKY;
         "minecraft-1.21.4" = _CuYSaKoN;
+        "pkg-1.10" = _5hFp4HAi;
+        "pkg-1.11" = _FZP4afKY;
+        "pkg-1.12" = _5YF3So6R;
+        "pkg-1.13" = _Bls9R0EG;
+        "pkg-1.14" = _Rwfgfo0V;
+        "pkg-1.15" = _CuYSaKoN;
         "default" = _CuYSaKoN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "FsLFyTSY" = _FsLFyTSY;
         "forge-1.20.1" = _upUtb3sy;
         "fabric-1.20.1" = _FsLFyTSY;
+        "pkg-1.0.0" = _FsLFyTSY;
         "default" = _FsLFyTSY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

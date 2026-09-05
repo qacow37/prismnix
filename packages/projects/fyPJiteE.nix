@@ -9,6 +9,7 @@ let
     in {
         "Lce9yAFp" = _Lce9yAFp;
         "paper-1.21.1" = _Lce9yAFp;
+        "pkg-1.0.0" = _Lce9yAFp;
         "default" = _Lce9yAFp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

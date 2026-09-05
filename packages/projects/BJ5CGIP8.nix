@@ -16,6 +16,7 @@ let
         "GAVA8dif" = _GAVA8dif;
         "fabric-1.21.4" = _FXxnF9Ie;
         "fabric-1.21.11" = _GAVA8dif;
+        "pkg-1.0.0" = _GAVA8dif;
         "default" = _GAVA8dif;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

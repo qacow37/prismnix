@@ -9,6 +9,7 @@ let
     in {
         "SpYjXLzW" = _SpYjXLzW;
         "forge-1.12.2" = _SpYjXLzW;
+        "pkg-1.0" = _SpYjXLzW;
         "default" = _SpYjXLzW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

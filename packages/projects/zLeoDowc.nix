@@ -103,6 +103,12 @@ let
         "minecraft-24w45a" = _kEPBUkPw;
         "minecraft-24w46a" = _kEPBUkPw;
         "minecraft-1.21.11" = _kEPBUkPw;
+        "pkg-1.8.0" = _zYNxWMEr;
+        "pkg-1.8.1" = _PsEQECo8;
+        "pkg-1.8.2-1.18.2" = _a1BYD030;
+        "pkg-1.8.2" = _oKfp2hXl;
+        "pkg-1.8.2-SODIUM_COMPAT" = _Hq5vE5uS;
+        "pkg-1.8.3" = _kEPBUkPw;
         "default" = _kEPBUkPw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "YKzRpYs6" = _YKzRpYs6;
         "forge-1.16.4" = _YKzRpYs6;
         "forge-1.16.5" = _YKzRpYs6;
+        "pkg-1.8.3" = _YKzRpYs6;
         "default" = _YKzRpYs6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

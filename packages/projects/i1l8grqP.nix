@@ -21,6 +21,9 @@ let
         "tY4DmXYg" = _tY4DmXYg;
         "fwIDyGLO" = _fwIDyGLO;
         "forge-1.20.1" = _fwIDyGLO;
+        "pkg-1.20-0.0.1" = _NepoPtoG;
+        "pkg-1.20-0.0.2" = _tY4DmXYg;
+        "pkg-1.20-0.0.3" = _fwIDyGLO;
         "default" = _fwIDyGLO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

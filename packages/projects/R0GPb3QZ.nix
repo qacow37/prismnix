@@ -164,6 +164,23 @@ let
         "quilt-26.1.1" = _ngmdg0lp;
         "quilt-26.1.2" = _Z8XQnFW9;
         "quilt-26.2" = _oSvD8xtn;
+        "pkg-1.20.1-1.0-fabric+forge+neo" = _61sKzomI;
+        "pkg-1.21.1-1.0-fabric+forge+neo" = _W2YC5G0x;
+        "pkg-1.21.4-1.0-fabric+forge+neo" = _3LQQNnXm;
+        "pkg-1.21.5-1.0-fabric+forge+neo" = _1nuczR5T;
+        "pkg-1.21.6-1.0-fabric+forge+neo" = _Y7XogIbx;
+        "pkg-1.21.7-1.0-fabric+forge+neo" = _4XuInww7;
+        "pkg-1.21.8-1.0-fabric+forge+neo" = _uBnizgOR;
+        "pkg-1.21.9-1.0-fabric+forge+neo" = _jXz2Qap7;
+        "pkg-1.21.10-1.0-fabric+forge+neo" = _SP5NWt6D;
+        "pkg-1.21.11-1.0-fabric+forge+neo" = _HpYpWyeu;
+        "pkg-26.1.0-1.0-fabric+forge+neo" = _3jebR5kb;
+        "pkg-26.1.1-1.0-fabric+forge+neo" = _ngmdg0lp;
+        "pkg-26.1.2-1.0-fabric+forge+neo" = _EOVqMEW5;
+        "pkg-26.2.0-1.0-fabric+forge+neo" = _PLCgFcbE;
+        "pkg-1.21.11-1.1-fabric+forge+neo" = _zHmgIbOd;
+        "pkg-26.1.2-1.1-fabric+forge+neo" = _Z8XQnFW9;
+        "pkg-26.2.0-1.1-fabric+forge+neo" = _oSvD8xtn;
         "default" = _oSvD8xtn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

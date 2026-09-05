@@ -15,6 +15,8 @@ let
         "gyHbBnX2" = _gyHbBnX2;
         "bLDAG1sL" = _bLDAG1sL;
         "forge-1.20.1" = _bLDAG1sL;
+        "pkg-1.0.0" = _gyHbBnX2;
+        "pkg-1.0.1" = _bLDAG1sL;
         "default" = _bLDAG1sL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

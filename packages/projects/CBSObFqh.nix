@@ -40,6 +40,12 @@ let
         "Wh4F9bUp" = _Wh4F9bUp;
         "fabric-b1.7.3" = _VpCxjvup;
         "modloader-b1.7.3" = _Wh4F9bUp;
+        "pkg-1.0.0" = _KOosLry2;
+        "pkg-1.1.0" = _Qw2Q3BN2;
+        "pkg-1.2.0" = _PQp5DDhg;
+        "pkg-1.3.0" = _DEcOPIG3;
+        "pkg-1.4.0-cursed" = _VpCxjvup;
+        "pkg-1.4.0-modloader" = _Wh4F9bUp;
         "default" = _Wh4F9bUp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

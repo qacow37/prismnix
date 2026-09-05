@@ -150,6 +150,8 @@ let
         "optifine-1.20.5" = _zCt57lIF;
         "optifine-1.20.6" = _zCt57lIF;
         "optifine-1.21" = _zCt57lIF;
+        "pkg-V1" = _CKNPrx58;
+        "pkg-V2" = _zCt57lIF;
         "default" = _zCt57lIF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

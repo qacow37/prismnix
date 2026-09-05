@@ -9,6 +9,7 @@ let
     in {
         "OMQc4ecz" = _OMQc4ecz;
         "fabric-1.20.1" = _OMQc4ecz;
+        "pkg-1.5.0" = _OMQc4ecz;
         "default" = _OMQc4ecz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

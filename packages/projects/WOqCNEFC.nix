@@ -28,6 +28,10 @@ let
         "LDXNdRv2" = _LDXNdRv2;
         "neoforge-1.21.1" = _KZi6Ay8s;
         "neoforge-26.1.2" = _LDXNdRv2;
+        "pkg-1.0.0+1.21.1" = _722Yvzep;
+        "pkg-1.0.1+1.21.1" = _zWKm3FWD;
+        "pkg-1.1.0+1.21.1" = _KZi6Ay8s;
+        "pkg-1.1.0+26.1.2" = _LDXNdRv2;
         "default" = _LDXNdRv2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

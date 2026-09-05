@@ -18,6 +18,8 @@ let
         "minecraft-1.21.6" = _VYSSce1s;
         "minecraft-1.21.7" = _VYSSce1s;
         "minecraft-1.21.8" = _VYSSce1s;
+        "pkg-3.5" = _K0V1vSXL;
+        "pkg-3.6" = _VYSSce1s;
         "default" = _VYSSce1s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

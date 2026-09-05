@@ -121,6 +121,7 @@ let
         "fabric-26.1" = _nPYGHm7l;
         "fabric-26.1.1" = _nPYGHm7l;
         "fabric-26.1.2" = _nPYGHm7l;
+        "pkg-1.0" = _nPYGHm7l;
         "default" = _nPYGHm7l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

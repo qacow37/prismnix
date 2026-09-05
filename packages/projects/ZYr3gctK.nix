@@ -15,6 +15,8 @@ let
         "5DXrtaoq" = _5DXrtaoq;
         "3ZOv3jle" = _3ZOv3jle;
         "minecraft-1.21.1" = _3ZOv3jle;
+        "pkg-1.0.0" = _5DXrtaoq;
+        "pkg-1.0.1" = _3ZOv3jle;
         "default" = _3ZOv3jle;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

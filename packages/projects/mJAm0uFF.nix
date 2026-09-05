@@ -658,6 +658,27 @@ let
         "quilt-26.1.1" = _sVdk6ISu;
         "quilt-26.1.2" = _sVdk6ISu;
         "quilt-26.2" = _sVdk6ISu;
+        "pkg-1" = _j5TwjWqf;
+        "pkg-2" = _pwydWHgh;
+        "pkg-2+mod" = _HEGfj4Ya;
+        "pkg-3" = _YjwtTqOI;
+        "pkg-3+mod" = _FHIBcQ2S;
+        "pkg-4" = _qMuVtLTA;
+        "pkg-4+mod" = _7eh5LzOw;
+        "pkg-5" = _9tcNH6hc;
+        "pkg-5+mod" = _RKwFC3vR;
+        "pkg-6" = _zTvZwhW8;
+        "pkg-6+mod" = _brJSSH5E;
+        "pkg-7" = _z2nmlGCd;
+        "pkg-7+mod" = _enZyCq7N;
+        "pkg-8" = _L9MSE1gM;
+        "pkg-8+mod" = _TfKa4mi5;
+        "pkg-9" = _D5QrJiCF;
+        "pkg-9+mod" = _DGPF1bex;
+        "pkg-10" = _fonPjDEi;
+        "pkg-10+mod" = _FgWErVVn;
+        "pkg-11" = _gv5TQs2Q;
+        "pkg-11+mod" = _sVdk6ISu;
         "default" = _sVdk6ISu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

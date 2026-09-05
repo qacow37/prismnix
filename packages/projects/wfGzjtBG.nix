@@ -9,6 +9,7 @@ let
     in {
         "BTD20asX" = _BTD20asX;
         "neoforge-1.21.1" = _BTD20asX;
+        "pkg-3.0.0-rc.1" = _BTD20asX;
         "default" = _BTD20asX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

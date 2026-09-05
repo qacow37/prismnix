@@ -22,6 +22,7 @@ let
         "minecraft-1.20.4" = _lShZPwrk;
         "minecraft-1.20.5" = _lShZPwrk;
         "minecraft-1.20.6" = _lShZPwrk;
+        "pkg-1" = _lShZPwrk;
         "default" = _lShZPwrk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

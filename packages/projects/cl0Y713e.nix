@@ -39,6 +39,11 @@ let
         "eOtVMtSr" = _eOtVMtSr;
         "sR9BpDwg" = _sR9BpDwg;
         "forge-1.20.1" = _sR9BpDwg;
+        "pkg-1.20.1-0.1" = _MLoXiKv2;
+        "pkg-1.20.1-0.2" = _zSsGMSu9;
+        "pkg-1.20.1-0.3" = _Wplz7QTh;
+        "pkg-1.20.1-0.4" = _eOtVMtSr;
+        "pkg-1.20.1-0.5" = _sR9BpDwg;
         "default" = _sR9BpDwg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "SajXASy3" = _SajXASy3;
         "V09NKAdE" = _V09NKAdE;
         "forge-1.20.1" = _V09NKAdE;
+        "pkg-0.0.0" = _V8jNO8fX;
+        "pkg-1.0.0" = _SajXASy3;
+        "pkg-2.0.0" = _V09NKAdE;
         "default" = _V09NKAdE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

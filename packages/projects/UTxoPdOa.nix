@@ -9,6 +9,7 @@ let
     in {
         "zTnEKyUB" = _zTnEKyUB;
         "fabric-1.21.11" = _zTnEKyUB;
+        "pkg-1.0.0" = _zTnEKyUB;
         "default" = _zTnEKyUB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

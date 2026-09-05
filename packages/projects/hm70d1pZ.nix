@@ -15,6 +15,8 @@ let
         "dzdpnNsq" = _dzdpnNsq;
         "JTjC0Khz" = _JTjC0Khz;
         "minecraft-1.19.4" = _JTjC0Khz;
+        "pkg-1.0" = _dzdpnNsq;
+        "pkg-1.1" = _JTjC0Khz;
         "default" = _JTjC0Khz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

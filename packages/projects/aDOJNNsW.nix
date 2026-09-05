@@ -15,6 +15,8 @@ let
         "JPtCjmQz" = _JPtCjmQz;
         "zy8ymgWP" = _zy8ymgWP;
         "neoforge-1.21.1" = _zy8ymgWP;
+        "pkg-1.0.0" = _JPtCjmQz;
+        "pkg-1.0.1" = _zy8ymgWP;
         "default" = _zy8ymgWP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

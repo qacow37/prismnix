@@ -10,6 +10,7 @@ let
         "emDT6Ych" = _emDT6Ych;
         "forge-1.20.1" = _emDT6Ych;
         "neoforge-1.20.1" = _emDT6Ych;
+        "pkg-1.0.0" = _emDT6Ych;
         "default" = _emDT6Ych;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

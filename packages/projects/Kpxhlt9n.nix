@@ -16,6 +16,7 @@ let
         "MgLoqkpu" = _MgLoqkpu;
         "forge-1.20.1" = _2WUzZnvi;
         "fabric-1.20.1" = _MgLoqkpu;
+        "pkg-1.0.0" = _MgLoqkpu;
         "default" = _MgLoqkpu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

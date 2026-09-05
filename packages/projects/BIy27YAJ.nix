@@ -9,6 +9,7 @@ let
     in {
         "UT1VAphr" = _UT1VAphr;
         "minecraft-1.21.4" = _UT1VAphr;
+        "pkg-1.0.0" = _UT1VAphr;
         "default" = _UT1VAphr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "VmJ0TOl9" = _VmJ0TOl9;
         "fabric-1.19.3" = _VmJ0TOl9;
+        "pkg-1.0.0" = _VmJ0TOl9;
         "default" = _VmJ0TOl9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "gB3d34iR" = _gB3d34iR;
         "fabric-1.20.1" = _gB3d34iR;
+        "pkg-1.2.0" = _gB3d34iR;
         "default" = _gB3d34iR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "mBt9794n" = _mBt9794n;
         "forge-1.16.5" = _S3Ecrx0M;
         "forge-1.12.2" = _mBt9794n;
+        "pkg-V1" = _mBt9794n;
         "default" = _mBt9794n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

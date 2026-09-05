@@ -23,6 +23,7 @@ let
         "fabric-1.20.5" = _KbjWWECN;
         "fabric-1.20.6" = _KbjWWECN;
         "quilt-1.21" = _dcCXJRMw;
+        "pkg-1.0.0" = _KbjWWECN;
         "default" = _KbjWWECN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

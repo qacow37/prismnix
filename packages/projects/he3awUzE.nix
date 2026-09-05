@@ -9,6 +9,7 @@ let
     in {
         "ZrHI45Ov" = _ZrHI45Ov;
         "forge-1.20.1" = _ZrHI45Ov;
+        "pkg-1.0.0" = _ZrHI45Ov;
         "default" = _ZrHI45Ov;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

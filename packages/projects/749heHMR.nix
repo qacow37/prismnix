@@ -20,6 +20,7 @@ let
         "minecraft-1.21.9" = _EfBilyd3;
         "minecraft-1.21.10" = _EfBilyd3;
         "minecraft-1.21.11" = _EfBilyd3;
+        "pkg-1.21x" = _EfBilyd3;
         "default" = _EfBilyd3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

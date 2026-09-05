@@ -51,6 +51,14 @@ let
         "I165G2ii" = _I165G2ii;
         "gYBb2qtQ" = _gYBb2qtQ;
         "fabric-26.1.2" = _gYBb2qtQ;
+        "pkg-1.0.0" = _sfc42VwF;
+        "pkg-1.0.1" = _EuKmUsll;
+        "pkg-1.1.0" = _mvfuEzOI;
+        "pkg-1.1.1" = _xpuh7RM4;
+        "pkg-2.0.0" = _LwfJH2Vq;
+        "pkg-2.0.1" = _d70kF84O;
+        "pkg-2.0.2" = _I165G2ii;
+        "pkg-2.0.3" = _gYBb2qtQ;
         "default" = _gYBb2qtQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

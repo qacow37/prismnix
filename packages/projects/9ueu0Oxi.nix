@@ -180,6 +180,8 @@ let
         "minecraft-1.21.11-rc1" = _KnSn4ReG;
         "minecraft-1.21.11-rc2" = _KnSn4ReG;
         "minecraft-1.21.11-rc3" = _KnSn4ReG;
+        "pkg-1" = _W6nggmNP;
+        "pkg-2.0.0" = _KnSn4ReG;
         "default" = _KnSn4ReG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

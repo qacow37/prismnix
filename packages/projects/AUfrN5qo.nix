@@ -28,6 +28,10 @@ let
         "PajdboHT" = _PajdboHT;
         "fabric-1.20.1" = _PajdboHT;
         "forge-1.20.1" = _PajdboHT;
+        "pkg-0.1" = _ReEoZXdd;
+        "pkg-0.2" = _nsprfZVy;
+        "pkg-1.0" = _mGAF1BvP;
+        "pkg-2.0" = _PajdboHT;
         "default" = _PajdboHT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

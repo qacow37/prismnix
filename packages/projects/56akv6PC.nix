@@ -15,6 +15,8 @@ let
         "qRDU1paz" = _qRDU1paz;
         "ztJD1rCc" = _ztJD1rCc;
         "minecraft-1.21.4" = _ztJD1rCc;
+        "pkg-v1.0" = _qRDU1paz;
+        "pkg-v2.0" = _ztJD1rCc;
         "default" = _ztJD1rCc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

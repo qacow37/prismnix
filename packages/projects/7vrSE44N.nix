@@ -388,6 +388,27 @@ let
         "ornithe-1.13" = _noJCVkwi;
         "ornithe-1.13.1" = _noJCVkwi;
         "ornithe-1.13.2" = _noJCVkwi;
+        "pkg-1.0.0" = _1Z6SDi1e;
+        "pkg-1.0.1" = _5rgeHNke;
+        "pkg-2025.12.1" = _GJW9sNLt;
+        "pkg-2025.12.2" = _SeFPVEvO;
+        "pkg-fabric-1.1.0+1.14" = _R23Fpzrw;
+        "pkg-fabric-1.1.0+1.15" = _uAVdxXIT;
+        "pkg-fabric-1.1.0+1.21.2" = _Rff3yLzO;
+        "pkg-fabric-1.1.0+26.1" = _8aMkv2TZ;
+        "pkg-fabric-1.2.0+1.14" = _ZHdF2u9K;
+        "pkg-fabric-1.2.0+1.15" = _465BKiDV;
+        "pkg-fabric-1.2.0+1.21.2" = _4B4csGH8;
+        "pkg-fabric-1.2.0+26.1" = _ouVAj9Gu;
+        "pkg-forge-1.2.0+26.1" = _qbE3HJez;
+        "pkg-neoforge-1.2.0+26.1" = _Mk3AARoM;
+        "pkg-fabric-1.2.0+1.7" = _2zPYpISn;
+        "pkg-fabric-1.2.0+1.8" = _iaWijJlo;
+        "pkg-fabric-1.2.0+1.9.4" = _noJCVkwi;
+        "pkg-neoforge-1.2.0+1.21.1" = _kOKGeNN4;
+        "pkg-fabric-1.2.0+26.2" = _UApkuDux;
+        "pkg-forge-1.2.0+26.2" = _9YQZYuDp;
+        "pkg-neoforge-1.2.0+26.2" = _DEpyT4Tg;
         "default" = _DEpyT4Tg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

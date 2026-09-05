@@ -10,6 +10,7 @@ let
         "wSasbQOH" = _wSasbQOH;
         "forge-1.20.1" = _wSasbQOH;
         "neoforge-1.20.1" = _wSasbQOH;
+        "pkg-1.2" = _wSasbQOH;
         "default" = _wSasbQOH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

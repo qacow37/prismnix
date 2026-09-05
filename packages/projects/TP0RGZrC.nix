@@ -11,6 +11,7 @@ let
         "minecraft-1.19" = _SV90XDBS;
         "minecraft-1.19.1" = _SV90XDBS;
         "minecraft-1.19.2" = _SV90XDBS;
+        "pkg-2.0.0" = _SV90XDBS;
         "default" = _SV90XDBS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

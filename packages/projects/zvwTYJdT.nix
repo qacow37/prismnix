@@ -25,6 +25,8 @@ let
         "forge-1.21.1" = _vVlDnF75;
         "forge-1.21.2" = _vVlDnF75;
         "forge-1.21.3" = _vVlDnF75;
+        "pkg-1.4+1.20" = _8xQA5THL;
+        "pkg-1.6+1.20.2" = _vVlDnF75;
         "default" = _vVlDnF75;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

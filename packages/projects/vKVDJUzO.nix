@@ -78,6 +78,8 @@ let
         "quilt-1.20.2" = _TaWalPim;
         "quilt-1.20.3" = _TaWalPim;
         "quilt-1.20.4" = _TaWalPim;
+        "pkg-1.0" = _uF4WPVX3;
+        "pkg-1.0+mod" = _TaWalPim;
         "default" = _TaWalPim;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

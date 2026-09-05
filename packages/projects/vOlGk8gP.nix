@@ -16,6 +16,8 @@ let
         "R5TF6SWL" = _R5TF6SWL;
         "forge-1.20.1" = _OK6wPvru;
         "neoforge-1.21.1" = _R5TF6SWL;
+        "pkg-Pre-Alpha" = _OK6wPvru;
+        "pkg-0.1.0" = _R5TF6SWL;
         "default" = _R5TF6SWL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

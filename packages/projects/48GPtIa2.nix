@@ -30,6 +30,8 @@ let
         "minecraft-1.16.2" = _mhPvpEHR;
         "minecraft-1.16.3" = _mhPvpEHR;
         "minecraft-1.16.4" = _mhPvpEHR;
+        "pkg-1.0" = _uJcyYw3w;
+        "pkg-1.1" = _mhPvpEHR;
         "default" = _mhPvpEHR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

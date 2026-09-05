@@ -14,6 +14,7 @@ let
         "minecraft-1.19.4" = _xv8msspd;
         "minecraft-1.20.1" = _xv8msspd;
         "minecraft-1.20.4" = _xv8msspd;
+        "pkg-1.0" = _xv8msspd;
         "default" = _xv8msspd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

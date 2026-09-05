@@ -27,6 +27,9 @@ let
         "Py62JMrM" = _Py62JMrM;
         "UBA0qOqp" = _UBA0qOqp;
         "forge-1.12.2" = _UBA0qOqp;
+        "pkg-0.4.3" = _HpslUv24;
+        "pkg-0.5.1" = _Py62JMrM;
+        "pkg-0.5.whatever" = _UBA0qOqp;
         "default" = _UBA0qOqp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

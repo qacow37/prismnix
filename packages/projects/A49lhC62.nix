@@ -22,6 +22,8 @@ let
         "quilt-1.17.1" = _AEfT3nRd;
         "quilt-1.18" = _AEfT3nRd;
         "quilt-1.18.1" = _AEfT3nRd;
+        "pkg-1.0.0" = _EB40mNKg;
+        "pkg-1.0.1" = _AEfT3nRd;
         "default" = _AEfT3nRd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

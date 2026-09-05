@@ -16,6 +16,7 @@ let
         "LtH4nrxg" = _LtH4nrxg;
         "forge-1.20.1" = _eduYdldS;
         "fabric-1.20.1" = _LtH4nrxg;
+        "pkg-1.0.0" = _LtH4nrxg;
         "default" = _LtH4nrxg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

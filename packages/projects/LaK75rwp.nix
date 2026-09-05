@@ -11,6 +11,7 @@ let
         "minecraft-1.19" = _byaAS1LI;
         "minecraft-1.19.1" = _byaAS1LI;
         "minecraft-1.19.2" = _byaAS1LI;
+        "pkg-0.1" = _byaAS1LI;
         "default" = _byaAS1LI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

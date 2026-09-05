@@ -244,6 +244,8 @@ let
         "quilt-1.21.9" = _PZb0brbw;
         "quilt-1.21.10" = _PZb0brbw;
         "quilt-1.21.11" = _PZb0brbw;
+        "pkg-1.0" = _Rsfctn27;
+        "pkg-1.0+mod" = _PZb0brbw;
         "default" = _PZb0brbw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

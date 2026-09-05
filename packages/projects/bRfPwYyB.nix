@@ -46,6 +46,12 @@ let
         "neoforge-1.20.4" = _Eeg264Ka;
         "neoforge-1.20.2" = _e7dgjR7D;
         "neoforge-1.20.3" = _e7dgjR7D;
+        "pkg-4.0.0.0" = _H5PB5bMv;
+        "pkg-4.0.0.1" = _ztHPPWYu;
+        "pkg-4.0.1.0" = _2SZVpCkw;
+        "pkg-5.0.0.0" = _kBKH1GEX;
+        "pkg-4.0.2.0" = _e7dgjR7D;
+        "pkg-5.0.1.0" = _Eeg264Ka;
         "default" = _Eeg264Ka;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

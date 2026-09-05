@@ -10,6 +10,7 @@ let
         "uRyHp86f" = _uRyHp86f;
         "minecraft-1.20" = _uRyHp86f;
         "minecraft-1.20.1" = _uRyHp86f;
+        "pkg-v0.1.1" = _uRyHp86f;
         "default" = _uRyHp86f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

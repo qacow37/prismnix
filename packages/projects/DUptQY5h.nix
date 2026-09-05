@@ -9,6 +9,7 @@ let
     in {
         "L4jSEbyY" = _L4jSEbyY;
         "forge-1.12.2" = _L4jSEbyY;
+        "pkg-1.0.1" = _L4jSEbyY;
         "default" = _L4jSEbyY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

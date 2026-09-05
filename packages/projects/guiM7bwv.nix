@@ -15,6 +15,8 @@ let
         "bIepssMh" = _bIepssMh;
         "Bf05wHEQ" = _Bf05wHEQ;
         "minecraft-1.21.8" = _Bf05wHEQ;
+        "pkg-1" = _bIepssMh;
+        "pkg-1.1" = _Bf05wHEQ;
         "default" = _Bf05wHEQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

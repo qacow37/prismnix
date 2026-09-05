@@ -29,6 +29,9 @@ let
         "datapack-1.21.1" = _nw3OiRfd;
         "fabric-1.21.1" = _W9RoOMDd;
         "neoforge-1.21.1" = _W9RoOMDd;
+        "pkg-1.0" = _tXz24XyO;
+        "pkg-1.0+mod" = _WuJXFyF0;
+        "pkg-1.1" = _W9RoOMDd;
         "default" = _W9RoOMDd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

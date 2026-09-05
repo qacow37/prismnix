@@ -13,6 +13,7 @@ let
         "minecraft-1.18" = _cLvPcfUt;
         "minecraft-1.20" = _cLvPcfUt;
         "minecraft-1.21" = _cLvPcfUt;
+        "pkg-1.0" = _cLvPcfUt;
         "default" = _cLvPcfUt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

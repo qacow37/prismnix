@@ -15,6 +15,8 @@ let
         "IeAN3zbt" = _IeAN3zbt;
         "xjbvFql1" = _xjbvFql1;
         "minecraft-1.20.4" = _xjbvFql1;
+        "pkg-1.0" = _IeAN3zbt;
+        "pkg-1.1" = _xjbvFql1;
         "default" = _xjbvFql1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,9 @@ let
         "forge-1.20.1" = _rbEUKGrg;
         "forge-1.18.2" = _sDXCWO2t;
         "forge-1.16.5" = _9UFEdp0z;
+        "pkg-chatcolours-1.19-1.0" = _rbEUKGrg;
+        "pkg-chatcolours-1.18-2.0" = _sDXCWO2t;
+        "pkg-chat-colours-1.16-2.0" = _9UFEdp0z;
         "default" = _9UFEdp0z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

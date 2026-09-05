@@ -186,6 +186,7 @@ let
         "optifine-26.2-rc-1" = _Vb8RExwA;
         "optifine-26.2-rc-2" = _Vb8RExwA;
         "optifine-26.2" = _Vb8RExwA;
+        "pkg-0.6" = _Vb8RExwA;
         "default" = _Vb8RExwA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

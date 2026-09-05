@@ -10,6 +10,7 @@ let
         "c5UPsoMm" = _c5UPsoMm;
         "minecraft-1.20" = _c5UPsoMm;
         "minecraft-1.20.1" = _c5UPsoMm;
+        "pkg-1.0.2" = _c5UPsoMm;
         "default" = _c5UPsoMm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

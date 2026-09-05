@@ -15,6 +15,8 @@ let
         "gmAOpXMv" = _gmAOpXMv;
         "rpcALVHS" = _rpcALVHS;
         "fabric-1.20.1" = _rpcALVHS;
+        "pkg-candidate5_1.0.0" = _gmAOpXMv;
+        "pkg-candidate6_1.0.0" = _rpcALVHS;
         "default" = _rpcALVHS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

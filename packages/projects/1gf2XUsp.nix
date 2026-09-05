@@ -12,6 +12,7 @@ let
         "minecraft-1.17.1" = _veT5btAD;
         "minecraft-1.18.2" = _veT5btAD;
         "minecraft-1.19.2" = _veT5btAD;
+        "pkg-1.0" = _veT5btAD;
         "default" = _veT5btAD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

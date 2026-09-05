@@ -22,6 +22,8 @@ let
         "neoforge-1.20.1" = _UVydAoIq;
         "neoforge-1.20.2" = _UVydAoIq;
         "neoforge-1.20.4" = _UVydAoIq;
+        "pkg-1.0" = _ChIkCAPq;
+        "pkg-1.0.1" = _UVydAoIq;
         "default" = _UVydAoIq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

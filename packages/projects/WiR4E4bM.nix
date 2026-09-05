@@ -153,6 +153,7 @@ let
         "minecraft-1.19.3-rc2" = _wzA6E5gA;
         "minecraft-1.19.3-rc3" = _wzA6E5gA;
         "minecraft-1.19.3" = _wzA6E5gA;
+        "pkg-1.2" = _wzA6E5gA;
         "default" = _wzA6E5gA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "UTqtIsHK" = _UTqtIsHK;
         "JhtPYL88" = _JhtPYL88;
         "forge-1.20.1" = _JhtPYL88;
+        "pkg-1.0.0" = _NLEKTeBB;
+        "pkg-1.0.1" = _UTqtIsHK;
+        "pkg-1.0.2" = _JhtPYL88;
         "default" = _JhtPYL88;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

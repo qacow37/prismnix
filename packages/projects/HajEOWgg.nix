@@ -16,6 +16,7 @@ let
         "M4Up2LWz" = _M4Up2LWz;
         "neoforge-1.21.1" = _aM7PHCdC;
         "forge-1.20.1" = _M4Up2LWz;
+        "pkg-1.0.0" = _M4Up2LWz;
         "default" = _M4Up2LWz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

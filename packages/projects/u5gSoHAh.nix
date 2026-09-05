@@ -30,6 +30,9 @@ let
         "datapack-1.21" = _8S495Jun;
         "datapack-1.21.1" = _8S495Jun;
         "datapack-1.21.4" = _8S495Jun;
+        "pkg-1.20.1" = _R5nEXb1B;
+        "pkg-1.21.1" = _bfw8MQMb;
+        "pkg-Datapack" = _8S495Jun;
         "default" = _8S495Jun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

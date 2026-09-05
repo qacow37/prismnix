@@ -28,6 +28,10 @@ let
         "OMABgA24" = _OMABgA24;
         "fabric-1.20.1" = _wqxY49jf;
         "fabric-1.21.1" = _OMABgA24;
+        "pkg-1.0" = _q1DOSjRv;
+        "pkg-1.1" = _Oo0sKOYX;
+        "pkg-1.2" = _wqxY49jf;
+        "pkg-2.0" = _OMABgA24;
         "default" = _OMABgA24;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

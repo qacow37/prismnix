@@ -15,6 +15,8 @@ let
         "Y3l6VCms" = _Y3l6VCms;
         "l1kbtGt6" = _l1kbtGt6;
         "forge-1.20.1" = _l1kbtGt6;
+        "pkg-0.1" = _Y3l6VCms;
+        "pkg-0.3" = _l1kbtGt6;
         "default" = _l1kbtGt6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

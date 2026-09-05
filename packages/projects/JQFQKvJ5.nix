@@ -10,6 +10,7 @@ let
         "wbgGGTPm" = _wbgGGTPm;
         "minecraft-1.12.2" = _wbgGGTPm;
         "minecraft-1.20.4" = _wbgGGTPm;
+        "pkg-2.0" = _wbgGGTPm;
         "default" = _wbgGGTPm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

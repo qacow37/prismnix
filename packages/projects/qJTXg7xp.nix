@@ -34,6 +34,11 @@ let
         "samgloyD" = _samgloyD;
         "minecraft-1.19.4" = _samgloyD;
         "minecraft-1.20.1" = _samgloyD;
+        "pkg-1" = _XEvyMK2x;
+        "pkg-2" = _uukSLV18;
+        "pkg-3" = _QUezNsS7;
+        "pkg-4" = _Sono7cHu;
+        "pkg-5" = _samgloyD;
         "default" = _samgloyD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

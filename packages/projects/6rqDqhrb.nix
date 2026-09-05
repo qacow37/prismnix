@@ -33,6 +33,11 @@ let
         "680XTl5V" = _680XTl5V;
         "2ZFDDkS1" = _2ZFDDkS1;
         "neoforge-1.21.1" = _2ZFDDkS1;
+        "pkg-0.9.5" = _pQ0Vmxhz;
+        "pkg-1.0.0" = _SFIRtmkF;
+        "pkg-1.0.1" = _wnXXkWYH;
+        "pkg-1.1.0" = _680XTl5V;
+        "pkg-1.1.1" = _2ZFDDkS1;
         "default" = _2ZFDDkS1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

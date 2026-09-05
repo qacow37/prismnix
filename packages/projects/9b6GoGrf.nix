@@ -9,6 +9,7 @@ let
     in {
         "pdMroLJm" = _pdMroLJm;
         "neoforge-1.21.4" = _pdMroLJm;
+        "pkg-1.0.1" = _pdMroLJm;
         "default" = _pdMroLJm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

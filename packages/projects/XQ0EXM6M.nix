@@ -24,6 +24,8 @@ let
         "neoforge-1.21.6" = _B0PMLTel;
         "neoforge-1.21.7" = _B0PMLTel;
         "neoforge-1.21.8" = _B0PMLTel;
+        "pkg-1.0+fabric" = _tm1sX0HM;
+        "pkg-1.0+neoforge" = _B0PMLTel;
         "default" = _B0PMLTel;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

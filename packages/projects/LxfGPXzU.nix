@@ -357,6 +357,8 @@ let
         "waterfall-1.19.2" = _MDlzHZfU;
         "waterfall-1.8.9" = _MDlzHZfU;
         "waterfall-1.19.3" = _MDlzHZfU;
+        "pkg-3.5.3" = _HEeaZVxO;
+        "pkg-3.5.4" = _MDlzHZfU;
         "default" = _MDlzHZfU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

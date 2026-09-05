@@ -9,6 +9,7 @@ let
     in {
         "Q16HzVGP" = _Q16HzVGP;
         "forge-1.20.1" = _Q16HzVGP;
+        "pkg-1.0.0" = _Q16HzVGP;
         "default" = _Q16HzVGP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

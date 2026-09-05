@@ -54,6 +54,8 @@ let
         "quilt-1.20.4" = _ZX27G7UM;
         "quilt-1.20.5" = _ZX27G7UM;
         "quilt-1.20.6" = _ZX27G7UM;
+        "pkg-2.5.0" = _8TKmzsnL;
+        "pkg-2.5.1" = _ZX27G7UM;
         "default" = _ZX27G7UM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

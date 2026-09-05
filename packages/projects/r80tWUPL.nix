@@ -36,6 +36,8 @@ let
         "iris-26.1" = _uLOUG6oa;
         "iris-26.1.1" = _uLOUG6oa;
         "iris-26.1.2" = _uLOUG6oa;
+        "pkg-2.2" = _vMvRPG5o;
+        "pkg-2.3" = _uLOUG6oa;
         "default" = _uLOUG6oa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

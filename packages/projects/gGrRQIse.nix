@@ -94,6 +94,12 @@ let
         "optifine-26.1.1" = _OzLiko32;
         "optifine-26.1.2" = _OzLiko32;
         "optifine-26.2" = _OzLiko32;
+        "pkg-1.0.0" = _i9Uw2L7h;
+        "pkg-1.0.1" = _UIe6UOFy;
+        "pkg-1.1" = _6qDlaUfx;
+        "pkg-1.2" = _avSziuZ2;
+        "pkg-1.3" = _a6kqIUJb;
+        "pkg-1.4" = _OzLiko32;
         "default" = _OzLiko32;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

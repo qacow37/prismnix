@@ -21,6 +21,9 @@ let
         "wPEqLj5W" = _wPEqLj5W;
         "MLHm74pl" = _MLHm74pl;
         "neoforge-1.21.1" = _MLHm74pl;
+        "pkg-1.0.0" = _pAVlMEcX;
+        "pkg-1.1.0" = _wPEqLj5W;
+        "pkg-1.1.1" = _MLHm74pl;
         "default" = _MLHm74pl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

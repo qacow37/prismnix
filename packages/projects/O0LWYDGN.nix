@@ -21,6 +21,9 @@ let
         "mzJoUgos" = _mzJoUgos;
         "dk4ddOcP" = _dk4ddOcP;
         "fabric-1.20.1" = _dk4ddOcP;
+        "pkg-1.3" = _tMBEJpav;
+        "pkg-1.3.1" = _mzJoUgos;
+        "pkg-1.4" = _dk4ddOcP;
         "default" = _dk4ddOcP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

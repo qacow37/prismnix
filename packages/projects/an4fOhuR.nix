@@ -10,6 +10,7 @@ let
         "Ef19VURH" = _Ef19VURH;
         "minecraft-1.17" = _Ef19VURH;
         "minecraft-1.17.1" = _Ef19VURH;
+        "pkg-23" = _Ef19VURH;
         "default" = _Ef19VURH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

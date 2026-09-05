@@ -34,6 +34,11 @@ let
         "6c1vcLsi" = _6c1vcLsi;
         "forge-1.20.1" = _Ccol3Utn;
         "neoforge-1.21.1" = _6c1vcLsi;
+        "pkg-1.1" = _yp7hMDoj;
+        "pkg-2.0" = _X1KrcOa0;
+        "pkg-2.1" = _Ccol3Utn;
+        "pkg-2.1-1.21.1" = _vc4iGddU;
+        "pkg-2.2-1.21.1" = _6c1vcLsi;
         "default" = _6c1vcLsi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

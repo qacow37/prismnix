@@ -16,6 +16,8 @@ let
         "km0A1PO4" = _km0A1PO4;
         "forge-1.20.1" = _kXHppX9P;
         "neoforge-1.21.4" = _km0A1PO4;
+        "pkg-1.0.0" = _kXHppX9P;
+        "pkg-1.2.0" = _km0A1PO4;
         "default" = _km0A1PO4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

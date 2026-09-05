@@ -15,6 +15,8 @@ let
         "m0ydJFus" = _m0ydJFus;
         "piKsJFQR" = _piKsJFQR;
         "forge-1.20.1" = _piKsJFQR;
+        "pkg-1.0.0" = _m0ydJFus;
+        "pkg-1.0.1" = _piKsJFQR;
         "default" = _piKsJFQR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

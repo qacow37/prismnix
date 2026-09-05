@@ -45,6 +45,13 @@ let
         "AE2Pgsau" = _AE2Pgsau;
         "DdwTKPte" = _DdwTKPte;
         "forge-1.7.10" = _DdwTKPte;
+        "pkg-2.2.1" = _DZpczLUG;
+        "pkg-2.2.2" = _wfSSuVzD;
+        "pkg-2.3.0" = _fOhzZY0M;
+        "pkg-2.3.1" = _ciNBIvcu;
+        "pkg-2.3.2" = _Fegmor7A;
+        "pkg-2.3.3" = _AE2Pgsau;
+        "pkg-2.4.0" = _DdwTKPte;
         "default" = _DdwTKPte;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

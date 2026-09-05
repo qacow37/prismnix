@@ -125,6 +125,8 @@ let
         "neoforge-1.21.9" = _G6p5jsff;
         "neoforge-1.21.10" = _G6p5jsff;
         "neoforge-1.21.11" = _G6p5jsff;
+        "pkg-2.0" = _G6p5jsff;
+        "pkg-2.0.1" = _ySOaoEWb;
         "default" = _ySOaoEWb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

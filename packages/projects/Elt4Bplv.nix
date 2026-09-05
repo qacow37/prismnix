@@ -16,6 +16,8 @@ let
         "tiDfOoWU" = _tiDfOoWU;
         "fabric-1.21" = _tiDfOoWU;
         "fabric-1.21.1" = _tiDfOoWU;
+        "pkg-1.0.0" = _3SXFawLA;
+        "pkg-1.1.0" = _tiDfOoWU;
         "default" = _tiDfOoWU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

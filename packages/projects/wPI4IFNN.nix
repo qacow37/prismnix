@@ -15,6 +15,8 @@ let
         "2fwjAtO2" = _2fwjAtO2;
         "noaiW0bw" = _noaiW0bw;
         "forge-1.20.1" = _noaiW0bw;
+        "pkg-1.0.0" = _2fwjAtO2;
+        "pkg-1.0.1" = _noaiW0bw;
         "default" = _noaiW0bw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

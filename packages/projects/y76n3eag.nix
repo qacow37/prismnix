@@ -13,6 +13,7 @@ let
         "fabric-1.20.2" = _zDHamVWP;
         "fabric-1.20.3" = _zDHamVWP;
         "fabric-1.20.4" = _zDHamVWP;
+        "pkg-1.0.0" = _zDHamVWP;
         "default" = _zDHamVWP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

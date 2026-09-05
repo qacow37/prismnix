@@ -16,6 +16,7 @@ let
         "vSrVM3o4" = _vSrVM3o4;
         "forge-1.19.2" = _HxFPsPge;
         "forge-1.20.1" = _vSrVM3o4;
+        "pkg-2.0.5" = _vSrVM3o4;
         "default" = _vSrVM3o4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -104,6 +104,19 @@ let
         "quilt-1.21.5" = _9I05imCM;
         "forge-1.20" = _IRb2WT75;
         "forge-1.20.1" = _IRb2WT75;
+        "pkg-1.0.0+neo.1.21.3" = _ECMosWFv;
+        "pkg-1.0.0+fabric.1.21.3" = _ZG4QeBkQ;
+        "pkg-1.0.0+forge.1.20.1" = _eMd0KoKX;
+        "pkg-1.0.0+fabric.1.20.1" = _44Q6pFnh;
+        "pkg-1.1.0+neo.1.21.3" = _4cjWDWAX;
+        "pkg-1.1.0+fabric.1.21.3" = _W2FHbzxD;
+        "pkg-1.1.0+forge.1.20.1" = _IRb2WT75;
+        "pkg-1.1.0+fabric.1.20.1" = _bqhNPdnX;
+        "pkg-1.2.0+neoforge.1.21.5" = _aI4jrbr6;
+        "pkg-1.2.0+fabric.1.21.5" = _9I05imCM;
+        "pkg-1.2.0+neoforge.1.21.4" = _jh5QZ9UN;
+        "pkg-1.2.0+fabric.1.21.4" = _lJWGX7ZD;
+        "pkg-1.2.0+neoforge.1.21.1" = _IQw1ORlz;
         "default" = _IQw1ORlz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

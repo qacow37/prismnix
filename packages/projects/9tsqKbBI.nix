@@ -87,6 +87,11 @@ let
         "quilt-1.21.6" = _BXFBtrus;
         "quilt-1.21.7" = _BXFBtrus;
         "quilt-1.21.8" = _BXFBtrus;
+        "pkg-1.0.0" = _TExGRpFS;
+        "pkg-1.1.0" = _BXFBtrus;
+        "pkg-1.2.0" = _rW3CrvJp;
+        "pkg-1.3.0" = _7ADfNWFC;
+        "pkg-1.4.0" = _NodIScTU;
         "default" = _NodIScTU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

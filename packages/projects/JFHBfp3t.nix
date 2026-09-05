@@ -16,6 +16,8 @@ let
         "VUGhfspE" = _VUGhfspE;
         "minecraft-1.20.1" = _UCQALvJ1;
         "minecraft-1.21.1" = _VUGhfspE;
+        "pkg-1.0" = _UCQALvJ1;
+        "pkg-1.1" = _VUGhfspE;
         "default" = _VUGhfspE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

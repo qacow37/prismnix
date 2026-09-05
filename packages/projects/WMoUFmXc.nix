@@ -40,6 +40,8 @@ let
         "quilt-1.20.1-rc1" = _azD5oArr;
         "quilt-1.20.1" = _azD5oArr;
         "quilt-1.20.2" = _azD5oArr;
+        "pkg-1.0.0" = _myDeAamE;
+        "pkg-better-trim-tooltips-1.0.1-1.20" = _azD5oArr;
         "default" = _azD5oArr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "UDUp0906" = _UDUp0906;
         "I1ug0v5y" = _I1ug0v5y;
         "minecraft-1.20.1" = _I1ug0v5y;
+        "pkg-v1" = _UDUp0906;
+        "pkg-v2" = _I1ug0v5y;
         "default" = _I1ug0v5y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

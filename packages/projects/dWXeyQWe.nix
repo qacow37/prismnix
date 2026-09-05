@@ -22,6 +22,9 @@ let
         "oVkXIbPO" = _oVkXIbPO;
         "forge-1.19.2" = _91QITcVo;
         "datapack-1.18.2" = _oVkXIbPO;
+        "pkg-1.0" = _91QITcVo;
+        "pkg-1.1" = _hmH66fIw;
+        "pkg-1.2" = _oVkXIbPO;
         "default" = _oVkXIbPO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

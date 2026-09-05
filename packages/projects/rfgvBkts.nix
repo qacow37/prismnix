@@ -37,6 +37,11 @@ let
         "neoforge-26.2" = _sogvLAsv;
         "neoforge-1.21.11" = _AIj1GPv2;
         "neoforge-1.21.1" = _BeVs26tb;
+        "pkg-Fabric-1.0.0-mc26.1.2" = _ScBLeBnR;
+        "pkg-NeoForge-1.0.0-mc26.1.2" = _sUhsmbFz;
+        "pkg-NeoForge-1.0.0-mc26.2" = _sogvLAsv;
+        "pkg-NeoForge-1.0.0-mc1.21.11" = _AIj1GPv2;
+        "pkg-NeoForge-1.0.0-mc1.21.1" = _BeVs26tb;
         "default" = _BeVs26tb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -52,6 +52,7 @@ let
         "quilt-1.21.6" = _ndakeuPg;
         "quilt-1.21.7" = _ndakeuPg;
         "quilt-1.21.8" = _ndakeuPg;
+        "pkg-1.0.0" = _ndakeuPg;
         "default" = _ndakeuPg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

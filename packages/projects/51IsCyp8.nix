@@ -106,6 +106,9 @@ let
         "vanilla-1.21.8" = _zK76ghpG;
         "vanilla-1.21.9" = _zK76ghpG;
         "vanilla-1.21.10" = _zK76ghpG;
+        "pkg-1.0.0" = _zK76ghpG;
+        "pkg-1.0.1" = _6LgE9IEY;
+        "pkg-1.0.2" = _tlDkL1a9;
         "default" = _tlDkL1a9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

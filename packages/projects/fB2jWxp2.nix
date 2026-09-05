@@ -37,6 +37,7 @@ let
         "minecraft-26.1" = _HxTSSOAR;
         "minecraft-26.1.1" = _HxTSSOAR;
         "minecraft-26.1.2" = _HxTSSOAR;
+        "pkg-1.0" = _HxTSSOAR;
         "default" = _HxTSSOAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "ihe0Zbu4" = _ihe0Zbu4;
         "8xSID41w" = _8xSID41w;
         "fabric-1.21.4" = _8xSID41w;
+        "pkg-v1.3+1.21.4" = _qB2REeED;
+        "pkg-v1.4+1.21.4" = _ihe0Zbu4;
+        "pkg-v1.5+1.21.4" = _8xSID41w;
         "default" = _8xSID41w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

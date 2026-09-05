@@ -22,6 +22,9 @@ let
         "G36VMpvp" = _G36VMpvp;
         "forge-1.19.2" = _7XthOVCA;
         "forge-1.20.1" = _G36VMpvp;
+        "pkg-1.5.6" = _7XthOVCA;
+        "pkg-1.6.2" = _ZYyyO9QP;
+        "pkg-1.6.3" = _G36VMpvp;
         "default" = _G36VMpvp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

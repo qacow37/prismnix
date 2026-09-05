@@ -16,6 +16,8 @@ let
         "WV89NenD" = _WV89NenD;
         "fabric-1.19.2" = _9A53qaIP;
         "fabric-1.20.1" = _WV89NenD;
+        "pkg-1.0.0" = _9A53qaIP;
+        "pkg-1.0.1+1.20.1" = _WV89NenD;
         "default" = _WV89NenD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

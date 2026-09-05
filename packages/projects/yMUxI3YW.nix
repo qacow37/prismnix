@@ -27,6 +27,10 @@ let
         "AO29RGFO" = _AO29RGFO;
         "ke6EMdS1" = _ke6EMdS1;
         "forge-1.20.1" = _ke6EMdS1;
+        "pkg-0.1" = _kigNnkih;
+        "pkg-0.2" = _2lT52RVI;
+        "pkg-0.3" = _AO29RGFO;
+        "pkg-0.4" = _ke6EMdS1;
         "default" = _ke6EMdS1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

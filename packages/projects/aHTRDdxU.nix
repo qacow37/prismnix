@@ -27,6 +27,10 @@ let
         "ICYM3FwW" = _ICYM3FwW;
         "EhfcOeZN" = _EhfcOeZN;
         "minecraft-1.21.8" = _EhfcOeZN;
+        "pkg-0.9" = _kzqXoZRt;
+        "pkg-0.91" = _7RvWlZiy;
+        "pkg-0.92" = _ICYM3FwW;
+        "pkg-0.93" = _EhfcOeZN;
         "default" = _EhfcOeZN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

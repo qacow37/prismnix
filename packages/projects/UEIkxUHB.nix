@@ -21,6 +21,8 @@ let
         "iris-1.21.2" = _ULET5Ak1;
         "iris-1.21.3" = _ULET5Ak1;
         "iris-1.21.4" = _ULET5Ak1;
+        "pkg-1.0" = _eZv85GoF;
+        "pkg-1.1" = _ULET5Ak1;
         "default" = _ULET5Ak1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

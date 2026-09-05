@@ -9,6 +9,7 @@ let
     in {
         "ZXb65SYa" = _ZXb65SYa;
         "minecraft-1.21" = _ZXb65SYa;
+        "pkg-1.21" = _ZXb65SYa;
         "default" = _ZXb65SYa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

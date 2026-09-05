@@ -9,6 +9,7 @@ let
     in {
         "IFNcLDps" = _IFNcLDps;
         "forge-1.12.2" = _IFNcLDps;
+        "pkg-v2.3.2" = _IFNcLDps;
         "default" = _IFNcLDps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

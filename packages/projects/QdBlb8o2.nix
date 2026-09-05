@@ -42,6 +42,7 @@ let
         "minecraft-1.21.2" = _AT22R4ES;
         "minecraft-1.21.3" = _AT22R4ES;
         "minecraft-1.21.4" = _AT22R4ES;
+        "pkg-1.0.1" = _AT22R4ES;
         "default" = _AT22R4ES;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

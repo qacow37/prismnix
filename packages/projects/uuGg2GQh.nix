@@ -9,6 +9,7 @@ let
     in {
         "T74Ie9eN" = _T74Ie9eN;
         "forge-1.7.10" = _T74Ie9eN;
+        "pkg-1.0.0" = _T74Ie9eN;
         "default" = _T74Ie9eN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

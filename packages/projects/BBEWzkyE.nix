@@ -46,6 +46,8 @@ let
         "minecraft-b1.7.3" = _lVIrJ15h;
         "minecraft-b1.8" = _SnmG0eyY;
         "minecraft-b1.8.1" = _SnmG0eyY;
+        "pkg-1.0" = _jKQcskbi;
+        "pkg-1.1" = _SnmG0eyY;
         "default" = _SnmG0eyY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

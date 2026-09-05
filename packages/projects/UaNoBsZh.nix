@@ -10,6 +10,7 @@ let
         "c8cQ2VGZ" = _c8cQ2VGZ;
         "minecraft-1.7.10" = _c8cQ2VGZ;
         "minecraft-1.20.1" = _c8cQ2VGZ;
+        "pkg-2" = _c8cQ2VGZ;
         "default" = _c8cQ2VGZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

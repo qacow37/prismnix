@@ -660,6 +660,7 @@ let
         "optifine-26w14a" = _sWMXKiJg;
         "optifine-26.1.2-rc-1" = _sWMXKiJg;
         "optifine-26.1.2" = _sWMXKiJg;
+        "pkg-1.0" = _sWMXKiJg;
         "default" = _sWMXKiJg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "qWHV255x" = _qWHV255x;
         "forge-1.16.5" = _qWHV255x;
+        "pkg-1.0.1" = _qWHV255x;
         "default" = _qWHV255x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

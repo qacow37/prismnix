@@ -18,6 +18,7 @@ let
         "fabric-1.20.2" = _NTM88Xj5;
         "fabric-1.20.3" = _NTM88Xj5;
         "fabric-1.20.4" = _NTM88Xj5;
+        "pkg-1.0.0" = _NTM88Xj5;
         "default" = _NTM88Xj5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

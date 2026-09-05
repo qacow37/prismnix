@@ -214,6 +214,8 @@ let
         "spigot-26.1.1" = _hmbRwywr;
         "spigot-26.1.2" = _hmbRwywr;
         "spigot-26.2" = _hmbRwywr;
+        "pkg-1.0.0" = _rKzKuaAo;
+        "pkg-1.1" = _hmbRwywr;
         "default" = _hmbRwywr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

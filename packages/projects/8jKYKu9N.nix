@@ -9,6 +9,7 @@ let
     in {
         "2KHxIBUP" = _2KHxIBUP;
         "fabric-1.21.8" = _2KHxIBUP;
+        "pkg-0.1.0+1.21.8-pre-1" = _2KHxIBUP;
         "default" = _2KHxIBUP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

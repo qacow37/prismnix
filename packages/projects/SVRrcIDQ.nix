@@ -22,6 +22,9 @@ let
         "e6ytpdmf" = _e6ytpdmf;
         "datapack-1.20.1" = _usHpMPqm;
         "forge-1.20.1" = _e6ytpdmf;
+        "pkg-1.0" = _dnN9o8N8;
+        "pkg-1.0.1" = _usHpMPqm;
+        "pkg-1.0_mod" = _e6ytpdmf;
         "default" = _e6ytpdmf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

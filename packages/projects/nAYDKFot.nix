@@ -25,6 +25,7 @@ let
         "minecraft-1.21.6" = _TCndJTmT;
         "minecraft-1.21.7" = _TCndJTmT;
         "minecraft-1.21.8" = _TCndJTmT;
+        "pkg-0.5" = _TCndJTmT;
         "default" = _TCndJTmT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "CllgDMci" = _CllgDMci;
         "minecraft-1.8.9" = _CllgDMci;
+        "pkg-0" = _CllgDMci;
         "default" = _CllgDMci;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "EMoyIDPa" = _EMoyIDPa;
         "forge-1.12.2" = _EMoyIDPa;
+        "pkg-r49" = _EMoyIDPa;
         "default" = _EMoyIDPa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

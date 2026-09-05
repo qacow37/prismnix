@@ -111,6 +111,21 @@ let
         "iris-1.21.9" = _1dD3KC4h;
         "iris-1.21.10" = _1dD3KC4h;
         "iris-1.21.11" = _1dD3KC4h;
+        "pkg-1.0-rc1" = _X1M8cvNz;
+        "pkg-1.0-rc2" = _4P8Ygo4h;
+        "pkg-1.0" = _3JRmW7Pu;
+        "pkg-1.1" = _RPj6UPrp;
+        "pkg-1.2" = _GHgPbeRP;
+        "pkg-1.3-hotfix" = _MTp3XlTp;
+        "pkg-1.3.1" = _ZXML0cxd;
+        "pkg-1.3.2" = _UubYxQ8s;
+        "pkg-1.3.3" = _Blhg1v27;
+        "pkg-1.4" = _NUnLIwa2;
+        "pkg-1.4.1" = _U7Qqc46H;
+        "pkg-1.4.2" = _HSJO6AMC;
+        "pkg-v1.5" = _2JnLwLsz;
+        "pkg-1.5.1" = _AXONvGj5;
+        "pkg-1.5.2" = _1dD3KC4h;
         "default" = _1dD3KC4h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

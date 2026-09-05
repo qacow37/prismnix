@@ -9,6 +9,7 @@ let
     in {
         "6BAxEVPr" = _6BAxEVPr;
         "forge-1.20.1" = _6BAxEVPr;
+        "pkg-1.9" = _6BAxEVPr;
         "default" = _6BAxEVPr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

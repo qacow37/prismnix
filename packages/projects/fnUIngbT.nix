@@ -60,6 +60,15 @@ let
         "fabric-1.20" = _ZKbMTalp;
         "quilt-1.20.1" = _ZKbMTalp;
         "quilt-1.20" = _ZKbMTalp;
+        "pkg-0.2" = _P9Lh4IIr;
+        "pkg-0.3" = _y5gG2HMZ;
+        "pkg-0.4" = _usPKLY1n;
+        "pkg-0.5" = _5AY80a4W;
+        "pkg-0.6" = _XkpSlJ75;
+        "pkg-0.6.1" = _rVc8IaHO;
+        "pkg-0.6.2" = _gVYlFdtX;
+        "pkg-0.6.3" = _NOP0Ng1i;
+        "pkg-0.6.3-hotfix" = _ZKbMTalp;
         "default" = _ZKbMTalp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

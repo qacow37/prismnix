@@ -9,6 +9,7 @@ let
     in {
         "cmVeODcy" = _cmVeODcy;
         "fabric-26.1.2" = _cmVeODcy;
+        "pkg-1.0.0" = _cmVeODcy;
         "default" = _cmVeODcy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

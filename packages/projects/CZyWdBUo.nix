@@ -15,6 +15,8 @@ let
         "jDFobCZf" = _jDFobCZf;
         "tlhG5poa" = _tlhG5poa;
         "forge-1.20.1" = _tlhG5poa;
+        "pkg-1.0.1" = _jDFobCZf;
+        "pkg-1.0.2" = _tlhG5poa;
         "default" = _tlhG5poa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

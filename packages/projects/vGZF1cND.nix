@@ -13,6 +13,7 @@ let
         "minecraft-1.21.2" = _Js80V2v3;
         "minecraft-1.21.3" = _Js80V2v3;
         "minecraft-1.21.4" = _Js80V2v3;
+        "pkg-1" = _Js80V2v3;
         "default" = _Js80V2v3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "Uyc88Yxa" = _Uyc88Yxa;
         "5rlGADT9" = _5rlGADT9;
         "neoforge-1.21.1" = _5rlGADT9;
+        "pkg-0.0.4a" = _Uyc88Yxa;
+        "pkg-0.0.5" = _5rlGADT9;
         "default" = _5rlGADT9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -71,6 +71,9 @@ let
         "minecraft-1.8.6" = _vE9cOMjb;
         "minecraft-1.8.7" = _vE9cOMjb;
         "minecraft-1.8.8" = _vE9cOMjb;
+        "pkg-0.1" = _B5FlJpfo;
+        "pkg-0.2" = _8MAaTS32;
+        "pkg-0.2.1" = _vE9cOMjb;
         "default" = _vE9cOMjb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

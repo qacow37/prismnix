@@ -15,6 +15,8 @@ let
         "p5l4B6Dl" = _p5l4B6Dl;
         "KICCRyre" = _KICCRyre;
         "forge-1.20.1" = _KICCRyre;
+        "pkg-1.0.0" = _p5l4B6Dl;
+        "pkg-1.1.0" = _KICCRyre;
         "default" = _KICCRyre;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

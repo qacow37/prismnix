@@ -48,6 +48,9 @@ let
         "minecraft-26.1.1" = _BgMvuEit;
         "minecraft-26.1.2" = _BgMvuEit;
         "minecraft-26.2" = _BgMvuEit;
+        "pkg-Blaze-mace-1.21x" = _sjRiAgRZ;
+        "pkg-Blaze-mace" = _7pmAgRNc;
+        "pkg-Torrezx-Blaze_mace" = _BgMvuEit;
         "default" = _BgMvuEit;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

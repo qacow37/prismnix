@@ -16,6 +16,7 @@ let
         "23IdgcPD" = _23IdgcPD;
         "minecraft-1.18.2" = _uL6Vqhkz;
         "minecraft-1.19.2" = _23IdgcPD;
+        "pkg-1.0" = _23IdgcPD;
         "default" = _23IdgcPD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

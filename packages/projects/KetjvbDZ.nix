@@ -9,6 +9,7 @@ let
     in {
         "HULpJRTe" = _HULpJRTe;
         "fabric-1.21.1" = _HULpJRTe;
+        "pkg-1.4.8" = _HULpJRTe;
         "default" = _HULpJRTe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

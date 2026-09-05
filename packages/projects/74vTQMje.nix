@@ -57,6 +57,15 @@ let
         "MVD4zoea" = _MVD4zoea;
         "QOPOrDAl" = _QOPOrDAl;
         "forge-1.16.5" = _QOPOrDAl;
+        "pkg-1.0.1" = _XTKTan7B;
+        "pkg-1.0.4" = _vd2DglMD;
+        "pkg-1.0.5" = _SzWoIyH0;
+        "pkg-1.0.6" = _1eWseJWT;
+        "pkg-1.0.7" = _WiuD4EiY;
+        "pkg-1.0.7.1" = _vUstpjLa;
+        "pkg-1.1.0" = _sKmIfvJd;
+        "pkg-1.1.1" = _MVD4zoea;
+        "pkg-1.1.2" = _QOPOrDAl;
         "default" = _QOPOrDAl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

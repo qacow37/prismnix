@@ -27,6 +27,10 @@ let
         "dA257xXP" = _dA257xXP;
         "1fRUMDUc" = _1fRUMDUc;
         "fabric-1.20.1" = _1fRUMDUc;
+        "pkg-0.1.0" = _eQ7jmCXa;
+        "pkg-0.1.1-beta" = _YfLtw1LV;
+        "pkg-0.1.2-beta" = _dA257xXP;
+        "pkg-0.1.3-beta" = _1fRUMDUc;
         "default" = _1fRUMDUc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

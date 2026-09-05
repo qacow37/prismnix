@@ -9,6 +9,7 @@ let
     in {
         "CgOd04BZ" = _CgOd04BZ;
         "minecraft-1.21.4" = _CgOd04BZ;
+        "pkg-1.21.4" = _CgOd04BZ;
         "default" = _CgOd04BZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

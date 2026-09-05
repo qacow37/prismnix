@@ -19,6 +19,8 @@ let
         "fabric-1.20.2" = _usrapXQ5;
         "fabric-1.20.3" = _usrapXQ5;
         "fabric-1.20.4" = _usrapXQ5;
+        "pkg-1.0+1.20" = _DEQOCfCw;
+        "pkg-1.1+1.20" = _usrapXQ5;
         "default" = _usrapXQ5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

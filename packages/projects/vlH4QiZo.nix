@@ -16,6 +16,8 @@ let
         "roDxPs6A" = _roDxPs6A;
         "fabric-1.20" = _roDxPs6A;
         "fabric-1.20.1" = _roDxPs6A;
+        "pkg-1.0.0+1.20.1" = _SNfqXOrp;
+        "pkg-1.0.1+1.20.1" = _roDxPs6A;
         "default" = _roDxPs6A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

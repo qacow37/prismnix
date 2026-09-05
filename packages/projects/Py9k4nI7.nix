@@ -77,6 +77,7 @@ let
         "minecraft-1.21.8" = _XZEedQHP;
         "minecraft-1.21.9" = _XZEedQHP;
         "minecraft-1.21.10" = _XZEedQHP;
+        "pkg-1.0" = _XZEedQHP;
         "default" = _XZEedQHP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "ZdCyMNHL" = _ZdCyMNHL;
         "minecraft-1.21" = _ZdCyMNHL;
         "minecraft-1.21.1" = _ZdCyMNHL;
+        "pkg-0.0.1" = _SiEeZp2Y;
+        "pkg-v2.0.0" = _ZdCyMNHL;
         "default" = _ZdCyMNHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

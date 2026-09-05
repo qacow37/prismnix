@@ -101,6 +101,8 @@ let
         "neoforge-1.20.2" = _Sw6LUjMB;
         "neoforge-1.20.3" = _Sw6LUjMB;
         "neoforge-1.20.4" = _Sw6LUjMB;
+        "pkg-Datapack" = _ywN80NWm;
+        "pkg-Mod" = _Sw6LUjMB;
         "default" = _Sw6LUjMB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

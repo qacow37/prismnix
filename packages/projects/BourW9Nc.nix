@@ -15,6 +15,8 @@ let
         "U2VsJTAy" = _U2VsJTAy;
         "sNaBWurI" = _sNaBWurI;
         "fabric-1.21.10" = _sNaBWurI;
+        "pkg-1.0.0" = _U2VsJTAy;
+        "pkg-1.0.1" = _sNaBWurI;
         "default" = _sNaBWurI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

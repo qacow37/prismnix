@@ -16,6 +16,8 @@ let
         "JvLHOABv" = _JvLHOABv;
         "fabric-26.1.2" = _Os4Ontve;
         "fabric-1.21.11" = _JvLHOABv;
+        "pkg-26.1.2" = _Os4Ontve;
+        "pkg-1.21.11" = _JvLHOABv;
         "default" = _JvLHOABv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

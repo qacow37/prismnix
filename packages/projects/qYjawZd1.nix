@@ -28,6 +28,8 @@ let
         "vCkVv2bv" = _vCkVv2bv;
         "minecraft-1.21" = _vCkVv2bv;
         "minecraft-1.21.1" = _vCkVv2bv;
+        "pkg-1.0.0" = _owpgURn2;
+        "pkg-1.1.0" = _vCkVv2bv;
         "default" = _vCkVv2bv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

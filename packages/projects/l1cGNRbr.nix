@@ -31,6 +31,8 @@ let
         "minecraft-1.21.6" = _qiFmB040;
         "minecraft-1.21.7" = _qiFmB040;
         "minecraft-1.21.8" = _qiFmB040;
+        "pkg-All-Equipment" = _i6HmjMcJ;
+        "pkg-Just-Armor" = _qiFmB040;
         "default" = _qiFmB040;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

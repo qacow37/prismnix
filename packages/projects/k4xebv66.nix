@@ -158,6 +158,8 @@ let
         "neoforge-26.1.1" = _3UEs64E7;
         "neoforge-26.1.2" = _3UEs64E7;
         "neoforge-26.2" = _3UEs64E7;
+        "pkg-1.2" = _CjAxt1s0;
+        "pkg-1.3" = _3UEs64E7;
         "default" = _3UEs64E7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

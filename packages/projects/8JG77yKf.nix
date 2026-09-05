@@ -26,6 +26,9 @@ let
         "fabric-1.20.4" = _DBdiYuSS;
         "fabric-1.20.5" = _DBdiYuSS;
         "fabric-1.20.6" = _DBdiYuSS;
+        "pkg-1.0.0" = _4Pytuv0P;
+        "pkg-1.0.1" = _lZZPg5eQ;
+        "pkg-1.0.2" = _DBdiYuSS;
         "default" = _DBdiYuSS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

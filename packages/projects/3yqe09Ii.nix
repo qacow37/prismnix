@@ -34,6 +34,8 @@ let
         "iExokWgK" = _iExokWgK;
         "fabric-26.1.2" = _Lk8PZmRe;
         "fabric-26.2" = _iExokWgK;
+        "pkg-3.0.7-createfly+mc.26.1.2" = _Lk8PZmRe;
+        "pkg-3.0.7-createfly+mc.26.2" = _iExokWgK;
         "default" = _iExokWgK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

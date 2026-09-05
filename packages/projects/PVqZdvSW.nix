@@ -9,6 +9,7 @@ let
     in {
         "LD71jqi1" = _LD71jqi1;
         "forge-1.19.4" = _LD71jqi1;
+        "pkg-0.6.4-dev-8.28.23" = _LD71jqi1;
         "default" = _LD71jqi1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

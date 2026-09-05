@@ -14,6 +14,7 @@ let
         "paper-1.21.1" = _feVpafQb;
         "spigot-1.21" = _feVpafQb;
         "spigot-1.21.1" = _feVpafQb;
+        "pkg-1.0.0" = _feVpafQb;
         "default" = _feVpafQb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "FlyUdqal" = _FlyUdqal;
         "xTFM6I3N" = _xTFM6I3N;
         "forge-1.20.1" = _xTFM6I3N;
+        "pkg-1.0.0" = _FlyUdqal;
+        "pkg-1.0.1" = _xTFM6I3N;
         "default" = _xTFM6I3N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

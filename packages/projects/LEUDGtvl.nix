@@ -16,6 +16,8 @@ let
         "hqDLiEXs" = _hqDLiEXs;
         "fabric-1.20.1" = _EQvMUea3;
         "fabric-1.21.1" = _hqDLiEXs;
+        "pkg-1.0" = _EQvMUea3;
+        "pkg-2.0" = _hqDLiEXs;
         "default" = _hqDLiEXs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

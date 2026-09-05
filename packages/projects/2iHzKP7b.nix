@@ -73,6 +73,12 @@ let
         "quilt-25w43a" = _DLRGDBeL;
         "quilt-25w44a" = _DLRGDBeL;
         "quilt-25w45a" = _DLRGDBeL;
+        "pkg-V1.0" = _Hlfy1NT8;
+        "pkg-V1.0+mod" = _wvKnfDUM;
+        "pkg-V1.1" = _COA4RTSt;
+        "pkg-V1.1+mod" = _jUJvabsO;
+        "pkg-V1.2" = _VqdMv6Ce;
+        "pkg-V1.2+mod" = _DLRGDBeL;
         "default" = _DLRGDBeL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

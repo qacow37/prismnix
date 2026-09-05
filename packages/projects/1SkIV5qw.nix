@@ -15,6 +15,8 @@ let
         "xZ5Gx9P6" = _xZ5Gx9P6;
         "BWvKmb6Q" = _BWvKmb6Q;
         "fabric-25w14craftmine" = _BWvKmb6Q;
+        "pkg-1.0.0" = _xZ5Gx9P6;
+        "pkg-1.0.1" = _BWvKmb6Q;
         "default" = _BWvKmb6Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

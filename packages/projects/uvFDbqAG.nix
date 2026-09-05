@@ -9,6 +9,7 @@ let
     in {
         "84rEJe3B" = _84rEJe3B;
         "fabric-1.21.11" = _84rEJe3B;
+        "pkg-1.0.0" = _84rEJe3B;
         "default" = _84rEJe3B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

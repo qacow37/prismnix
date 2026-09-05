@@ -33,6 +33,11 @@ let
         "EziHEwdk" = _EziHEwdk;
         "9QilYtN2" = _9QilYtN2;
         "fabric-1.21.1" = _9QilYtN2;
+        "pkg-1.0.0" = _ecJplf4j;
+        "pkg-1.0.1" = _Dv2ptHYb;
+        "pkg-1.1.0" = _FUaolHDI;
+        "pkg-1.2.0" = _EziHEwdk;
+        "pkg-1.3.0" = _9QilYtN2;
         "default" = _9QilYtN2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

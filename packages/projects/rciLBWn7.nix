@@ -64,6 +64,15 @@ let
         "NuDwgHaO" = _NuDwgHaO;
         "forge-1.20.1" = _IfHd8UEs;
         "neoforge-1.21.1" = _NuDwgHaO;
+        "pkg-1.0.0" = _nD8KaZGX;
+        "pkg-1.1.0" = _AIi86Bcm;
+        "pkg-1.2.0" = _KT8JPVOD;
+        "pkg-1.3.0" = _7JUkxupR;
+        "pkg-1.3.1" = _ewmfqblF;
+        "pkg-1.3.2" = _rGTiOAp9;
+        "pkg-1.3.3" = _phL6GBMD;
+        "pkg-1.4.0" = _DiLx8Nc8;
+        "pkg-1.4.1" = _NuDwgHaO;
         "default" = _NuDwgHaO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "rJp0BnAi" = _rJp0BnAi;
         "datapack-1.20.1" = _u5WUqqDh;
         "fabric-1.20.1" = _rJp0BnAi;
+        "pkg-1.0.0" = _u5WUqqDh;
+        "pkg-1.0.0+mod" = _rJp0BnAi;
         "default" = _rJp0BnAi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

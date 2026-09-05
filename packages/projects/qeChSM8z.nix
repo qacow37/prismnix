@@ -16,6 +16,7 @@ let
         "5IE23JrO" = _5IE23JrO;
         "fabric-1.20.1" = _UVCeAwd8;
         "forge-1.20.1" = _5IE23JrO;
+        "pkg-1.0.1" = _5IE23JrO;
         "default" = _5IE23JrO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

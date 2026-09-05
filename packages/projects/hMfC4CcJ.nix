@@ -21,6 +21,9 @@ let
         "X1rg6Kk7" = _X1rg6Kk7;
         "kPnLKyAE" = _kPnLKyAE;
         "fabric-1.20.1" = _kPnLKyAE;
+        "pkg-1.0.0-1.20.1" = _qb5Px8B4;
+        "pkg-1.0.1-1.20.1" = _X1rg6Kk7;
+        "pkg-1.0.2-1.20.1" = _kPnLKyAE;
         "default" = _kPnLKyAE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

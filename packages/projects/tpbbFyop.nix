@@ -21,6 +21,9 @@ let
         "SpWtCasa" = _SpWtCasa;
         "TDT4LvWZ" = _TDT4LvWZ;
         "neoforge-1.21.1" = _TDT4LvWZ;
+        "pkg-1.0.0" = _HZLaCs8o;
+        "pkg-1.0.1" = _SpWtCasa;
+        "pkg-1.1.0" = _TDT4LvWZ;
         "default" = _TDT4LvWZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

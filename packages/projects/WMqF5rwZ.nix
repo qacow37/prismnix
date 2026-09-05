@@ -28,6 +28,10 @@ let
         "digDMzMG" = _digDMzMG;
         "fabric-1.20" = _digDMzMG;
         "fabric-1.20.1" = _digDMzMG;
+        "pkg-1.20.1+1.0.0" = _Gm1PoRbd;
+        "pkg-1.20.1+1.0.1" = _S3JgabA4;
+        "pkg-1.20.1+1.0.2" = _ZKACVHsd;
+        "pkg-1.20.1+1.0.3" = _digDMzMG;
         "default" = _digDMzMG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

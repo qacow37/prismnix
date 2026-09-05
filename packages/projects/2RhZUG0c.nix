@@ -20,6 +20,7 @@ let
         "minecraft-1.20.2" = _TpccJgi1;
         "minecraft-1.20.3" = _TpccJgi1;
         "minecraft-1.20.4" = _TpccJgi1;
+        "pkg-1" = _TpccJgi1;
         "default" = _TpccJgi1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -50,6 +50,8 @@ let
         "fabric-1.20.1" = _3qcIqftn;
         "fabric-1.20" = _ASl0rchE;
         "fabric-1.19.4" = _hWpfReSI;
+        "pkg-1.0.0" = _X0jbFmyA;
+        "pkg-1.0.1" = _hWpfReSI;
         "default" = _hWpfReSI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

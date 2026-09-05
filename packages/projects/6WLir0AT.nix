@@ -9,6 +9,7 @@ let
     in {
         "53lbRdUE" = _53lbRdUE;
         "forge-1.20.1" = _53lbRdUE;
+        "pkg-1.0" = _53lbRdUE;
         "default" = _53lbRdUE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "seCAyLdG" = _seCAyLdG;
         "forge-1.20.1" = _seCAyLdG;
+        "pkg-1.0.0" = _seCAyLdG;
         "default" = _seCAyLdG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "ltS076bx" = _ltS076bx;
         "fabric-1.20.1" = _Ir9KKGyu;
         "fabric-1.20.2" = _ltS076bx;
+        "pkg-1.0.0+01" = _Ir9KKGyu;
+        "pkg-1.0.0+02" = _ltS076bx;
         "default" = _ltS076bx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

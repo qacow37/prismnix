@@ -90,6 +90,8 @@ let
         "spigot-1.16.5" = _KHEyvcxB;
         "spigot-1.17" = _KHEyvcxB;
         "spigot-1.17.1" = _KHEyvcxB;
+        "pkg-1.7.7" = _rN7wRS6A;
+        "pkg-1.7.8" = _KHEyvcxB;
         "default" = _KHEyvcxB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

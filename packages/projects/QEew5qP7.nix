@@ -16,6 +16,8 @@ let
         "oDS2XZHF" = _oDS2XZHF;
         "minecraft-1.20.4" = _O7KLbKFr;
         "minecraft-1.20.6" = _oDS2XZHF;
+        "pkg-1" = _O7KLbKFr;
+        "pkg-2" = _oDS2XZHF;
         "default" = _oDS2XZHF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

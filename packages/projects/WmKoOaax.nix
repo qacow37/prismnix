@@ -69,6 +69,7 @@ let
         "minecraft-1.21.9" = _GDO3h1oV;
         "minecraft-1.21.10" = _GDO3h1oV;
         "minecraft-1.21.11" = _GDO3h1oV;
+        "pkg-realse-01" = _GDO3h1oV;
         "default" = _GDO3h1oV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

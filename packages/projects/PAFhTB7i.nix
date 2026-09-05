@@ -168,6 +168,12 @@ let
         "minecraft-1.21.6" = _mLvHVchJ;
         "minecraft-1.21.7" = _mLvHVchJ;
         "minecraft-1.21.8" = _mLvHVchJ;
+        "pkg-v1.0caxton-ss2.0.1" = _UrvKZUsT;
+        "pkg-v1.0caxton-ms" = _MJ6QWS7C;
+        "pkg-v1.0caxton-cfc" = _8RbyQfhy;
+        "pkg-v1.1caxton-ss2.0.1" = _TWoTPojZ;
+        "pkg-v1.1caxton-ms" = _eTa9DF77;
+        "pkg-v1.1caxton-cfc" = _mLvHVchJ;
         "default" = _mLvHVchJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

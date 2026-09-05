@@ -15,6 +15,8 @@ let
         "qXMAq4os" = _qXMAq4os;
         "wuMxIfh1" = _wuMxIfh1;
         "fabric-1.20.1" = _wuMxIfh1;
+        "pkg-1.0.0" = _qXMAq4os;
+        "pkg-1.0.1" = _wuMxIfh1;
         "default" = _wuMxIfh1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

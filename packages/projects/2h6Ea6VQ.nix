@@ -22,6 +22,8 @@ let
         "CNAn54Nr" = _CNAn54Nr;
         "minecraft-1.21.1" = _CNAn54Nr;
         "minecraft-1.21" = _CNAn54Nr;
+        "pkg-2.0.4" = _4wyQhgTQ;
+        "pkg-2.0.5" = _CNAn54Nr;
         "default" = _CNAn54Nr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "Kw1M40lc" = _Kw1M40lc;
         "fabric-1.20.1" = _Kw1M40lc;
+        "pkg-1.0-1.20.1" = _Kw1M40lc;
         "default" = _Kw1M40lc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

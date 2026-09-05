@@ -75,6 +75,8 @@ let
         "neoforge-1.21.2" = _IdnafteN;
         "neoforge-1.21.3" = _IdnafteN;
         "neoforge-1.21.4" = _IdnafteN;
+        "pkg-1.1.0" = _eK1qn5Bh;
+        "pkg-1.1" = _IdnafteN;
         "default" = _IdnafteN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

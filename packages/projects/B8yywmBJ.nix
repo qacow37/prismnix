@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _HzK2zhdM;
         "forge-1.20.5" = _HzK2zhdM;
         "forge-1.20.6" = _HzK2zhdM;
+        "pkg-1.0.0-remaster" = _HzK2zhdM;
         "default" = _HzK2zhdM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

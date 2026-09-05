@@ -15,6 +15,8 @@ let
         "j8dxsaE8" = _j8dxsaE8;
         "OOJ9Mncs" = _OOJ9Mncs;
         "minecraft-1.20.1" = _OOJ9Mncs;
+        "pkg-1.0" = _j8dxsaE8;
+        "pkg-1.1" = _OOJ9Mncs;
         "default" = _OOJ9Mncs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

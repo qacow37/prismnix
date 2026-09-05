@@ -89,6 +89,8 @@ let
         "quilt-1.20.2" = _udgaLSp8;
         "quilt-1.20.3" = _udgaLSp8;
         "quilt-1.20.4" = _udgaLSp8;
+        "pkg-1.0.0" = _zrrMhJpz;
+        "pkg-1.0.0+mod" = _udgaLSp8;
         "default" = _udgaLSp8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

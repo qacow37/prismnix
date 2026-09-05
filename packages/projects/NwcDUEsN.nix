@@ -106,6 +106,7 @@ let
         "B0UIKYy1" = _B0UIKYy1;
         "forge-1.20.1" = _B0UIKYy1;
         "forge-1.19.2" = _XpymWBcC;
+        "pkg-0.0.0.0.0.0.0.0" = _B0UIKYy1;
         "default" = _B0UIKYy1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

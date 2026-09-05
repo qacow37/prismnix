@@ -22,6 +22,7 @@ let
         "fabric-1.20.5" = _RVNm77IA;
         "fabric-1.20.6" = _RVNm77IA;
         "fabric-1.21" = _RVNm77IA;
+        "pkg-1.0.0" = _RVNm77IA;
         "default" = _RVNm77IA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

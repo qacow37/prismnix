@@ -16,6 +16,8 @@ let
         "GAxW1pV6" = _GAxW1pV6;
         "datapack-1.20.1" = _GAxW1pV6;
         "minecraft-1.20.1" = _idV98KmD;
+        "pkg-0.3.3" = _idV98KmD;
+        "pkg-0.3.4" = _GAxW1pV6;
         "default" = _GAxW1pV6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

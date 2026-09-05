@@ -45,6 +45,7 @@ let
         "minecraft-1.21.3" = _HSWAlrFs;
         "minecraft-1.21.4" = _HSWAlrFs;
         "minecraft-1.21.5" = _HSWAlrFs;
+        "pkg-1.0" = _HSWAlrFs;
         "default" = _HSWAlrFs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

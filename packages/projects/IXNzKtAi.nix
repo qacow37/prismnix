@@ -15,6 +15,8 @@ let
         "Ba4BRqOs" = _Ba4BRqOs;
         "QC4KtaER" = _QC4KtaER;
         "neoforge-1.21.8" = _QC4KtaER;
+        "pkg-1.0.1" = _Ba4BRqOs;
+        "pkg-1.0.2" = _QC4KtaER;
         "default" = _QC4KtaER;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

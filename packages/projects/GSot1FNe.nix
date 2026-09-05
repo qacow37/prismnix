@@ -15,6 +15,7 @@ let
         "t4tRiWEK" = _t4tRiWEK;
         "EEe4Vca5" = _EEe4Vca5;
         "fabric-1.19" = _EEe4Vca5;
+        "pkg-1.0+1.19" = _EEe4Vca5;
         "default" = _EEe4Vca5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

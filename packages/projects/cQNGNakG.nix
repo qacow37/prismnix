@@ -22,6 +22,8 @@ let
         "UOSBMlLe" = _UOSBMlLe;
         "forge-1.20.1" = _UOSBMlLe;
         "neoforge-1.20.1" = _eJ0nhWkU;
+        "pkg-1.0.0" = _LMb98Kgp;
+        "pkg-1.0.1" = _UOSBMlLe;
         "default" = _UOSBMlLe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

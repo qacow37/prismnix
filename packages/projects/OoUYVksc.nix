@@ -16,6 +16,8 @@ let
         "HKheCYFa" = _HKheCYFa;
         "fabric-1.21.3" = _37dZd8WO;
         "fabric-1.21.4" = _HKheCYFa;
+        "pkg-1.0.0" = _37dZd8WO;
+        "pkg-1.0.1" = _HKheCYFa;
         "default" = _HKheCYFa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,8 @@ let
         "forge-1.20.1" = _UH6Y80SO;
         "quilt-1.20" = _UH6Y80SO;
         "quilt-1.20.1" = _UH6Y80SO;
+        "pkg-3.51" = _TOcrY3iS;
+        "pkg-3.51+mod" = _UH6Y80SO;
         "default" = _UH6Y80SO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

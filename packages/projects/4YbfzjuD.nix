@@ -45,6 +45,9 @@ let
         "datapack-1.21.7" = _RJ15tGi0;
         "datapack-1.21.8" = _RJ15tGi0;
         "datapack-1.21.9" = _RJ15tGi0;
+        "pkg-1.0.2+mod" = _eaPiiuWC;
+        "pkg-1.0.3" = _RJ15tGi0;
+        "pkg-1.0.3+neo" = _iNmLSr3q;
         "default" = _iNmLSr3q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

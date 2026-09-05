@@ -15,6 +15,8 @@ let
         "opnpLVZQ" = _opnpLVZQ;
         "a2Vhm5Su" = _a2Vhm5Su;
         "forge-1.20.1" = _a2Vhm5Su;
+        "pkg-1.0.0" = _opnpLVZQ;
+        "pkg-101.beta" = _a2Vhm5Su;
         "default" = _a2Vhm5Su;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

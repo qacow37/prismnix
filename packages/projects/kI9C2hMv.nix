@@ -16,6 +16,8 @@ let
         "1aojamxT" = _1aojamxT;
         "forge-1.6.4" = _DeTCRTPT;
         "forge-1.12.2" = _1aojamxT;
+        "pkg-2.3-141" = _DeTCRTPT;
+        "pkg-5.0.BETA1.3" = _1aojamxT;
         "default" = _1aojamxT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

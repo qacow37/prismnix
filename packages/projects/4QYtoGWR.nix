@@ -42,6 +42,9 @@ let
         "iris-26.1" = _5Y8723iT;
         "iris-26.1.1" = _5Y8723iT;
         "iris-26.1.2" = _5Y8723iT;
+        "pkg-1.0.0" = _NdQ2fBxq;
+        "pkg-1.1.0" = _PHkKqxs3;
+        "pkg-1.2.0" = _5Y8723iT;
         "default" = _5Y8723iT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

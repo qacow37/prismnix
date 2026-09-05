@@ -15,6 +15,8 @@ let
         "5g92qAzx" = _5g92qAzx;
         "KZsMObTN" = _KZsMObTN;
         "fabric-1.21.1" = _KZsMObTN;
+        "pkg-1.0.0" = _5g92qAzx;
+        "pkg-1.0.1" = _KZsMObTN;
         "default" = _KZsMObTN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

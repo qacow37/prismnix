@@ -115,6 +115,7 @@ let
         "minecraft-1.20.5" = _Xr39DOOz;
         "minecraft-1.20.6" = _Xr39DOOz;
         "minecraft-1.21" = _KeFtlnfa;
+        "pkg-1" = _KeFtlnfa;
         "default" = _KeFtlnfa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

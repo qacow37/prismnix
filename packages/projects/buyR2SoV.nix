@@ -110,6 +110,8 @@ let
         "optifine-1.16.3" = _mMBYo1df;
         "optifine-1.16.4" = _mMBYo1df;
         "optifine-1.16.5" = _mMBYo1df;
+        "pkg-1.0.0" = _DVrAnIdg;
+        "pkg-1.0.0-legacy" = _mMBYo1df;
         "default" = _mMBYo1df;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

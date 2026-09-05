@@ -15,6 +15,8 @@ let
         "EgTa5egt" = _EgTa5egt;
         "nvhYdgVW" = _nvhYdgVW;
         "forge-1.16.5" = _nvhYdgVW;
+        "pkg-1.1" = _EgTa5egt;
+        "pkg-1.2" = _nvhYdgVW;
         "default" = _nvhYdgVW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -42,6 +42,11 @@ let
         "minecraft-1.21.9" = _wCaoRZ85;
         "minecraft-1.21.10" = _wCaoRZ85;
         "minecraft-1.21.11" = _wCaoRZ85;
+        "pkg-urk-rp-v1.0.0" = _OimQWG0n;
+        "pkg-urk-rp-v1.1.0" = _W41rCgPC;
+        "pkg-urk-rp-v2.0.0" = _AgoOXaBI;
+        "pkg-urk-rp-v2.1.0-beta" = _yo9fJRPy;
+        "pkg-urk-rp-v3.0.0-beta" = _wCaoRZ85;
         "default" = _wCaoRZ85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

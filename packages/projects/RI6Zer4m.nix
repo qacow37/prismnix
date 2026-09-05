@@ -172,6 +172,7 @@ let
         "optifine-26.1.1" = _CSFWZv4g;
         "optifine-26.1.2" = _CSFWZv4g;
         "optifine-26.2" = _CSFWZv4g;
+        "pkg-1.0" = _CSFWZv4g;
         "default" = _CSFWZv4g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

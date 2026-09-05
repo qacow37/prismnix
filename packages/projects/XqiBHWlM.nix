@@ -45,6 +45,8 @@ let
         "fabric-1.21.1" = _P55LCoQW;
         "fabric-1.21.2" = _P55LCoQW;
         "fabric-1.21.3" = _P55LCoQW;
+        "pkg-1.0" = _f31mF2bN;
+        "pkg-1.0+mod" = _P55LCoQW;
         "default" = _P55LCoQW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

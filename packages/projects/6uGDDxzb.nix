@@ -15,6 +15,8 @@ let
         "iAE5rAm6" = _iAE5rAm6;
         "6WiWM3aC" = _6WiWM3aC;
         "forge-1.20.1" = _6WiWM3aC;
+        "pkg-1.0" = _iAE5rAm6;
+        "pkg-1.1" = _6WiWM3aC;
         "default" = _6WiWM3aC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

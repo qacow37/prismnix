@@ -9,6 +9,7 @@ let
     in {
         "8T0l0QkL" = _8T0l0QkL;
         "fabric-1.20.1" = _8T0l0QkL;
+        "pkg-1.0.0" = _8T0l0QkL;
         "default" = _8T0l0QkL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

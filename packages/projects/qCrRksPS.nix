@@ -15,6 +15,7 @@ let
         "minecraft-1.19.4" = _OAckj5Xv;
         "minecraft-1.20" = _OAckj5Xv;
         "minecraft-1.20.1" = _OAckj5Xv;
+        "pkg-1" = _OAckj5Xv;
         "default" = _OAckj5Xv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

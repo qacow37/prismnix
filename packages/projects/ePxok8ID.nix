@@ -166,6 +166,21 @@ let
         "aGd32hGl" = _aGd32hGl;
         "neoforge-1.21.1" = _ahaWLJuF;
         "fabric-1.21.1" = _aGd32hGl;
+        "pkg-1.0" = _kUBzpd9p;
+        "pkg-1.1" = _3mrq6wni;
+        "pkg-1.2" = _fK3ugla3;
+        "pkg-1.3" = _6cxgN7Nf;
+        "pkg-1.3.1" = _UP4Tuteh;
+        "pkg-1.4" = _HGOSEM8Y;
+        "pkg-1.5" = _wVmrUlvy;
+        "pkg-1.6" = _qwSzHY9d;
+        "pkg-1.6.1" = _cCX8Jz76;
+        "pkg-1.6.2" = _l6HtK1sk;
+        "pkg-1.7" = _D9dhFCOI;
+        "pkg-1.7.1" = _pY4gSeOn;
+        "pkg-1.7.2" = _n5aWJol6;
+        "pkg-1.7.3" = _q8iZMrXo;
+        "pkg-1.7.4" = _aGd32hGl;
         "default" = _aGd32hGl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

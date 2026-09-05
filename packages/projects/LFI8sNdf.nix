@@ -260,6 +260,12 @@ let
         "folia-26.1" = _MCWnh00w;
         "folia-26.1.1" = _MCWnh00w;
         "folia-26.1.2" = _MCWnh00w;
+        "pkg-8.7" = _kJz0tikq;
+        "pkg-8.8" = _5E4KgM2u;
+        "pkg-8.9" = _maOYxZWA;
+        "pkg-8.10" = _2DuPsLMp;
+        "pkg-8.11" = _zuTQgvK3;
+        "pkg-8.12" = _MCWnh00w;
         "default" = _MCWnh00w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

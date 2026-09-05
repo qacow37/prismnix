@@ -15,6 +15,8 @@ let
         "4EU1Hxpc" = _4EU1Hxpc;
         "8j4hDSsA" = _8j4hDSsA;
         "neoforge-1.21.1" = _8j4hDSsA;
+        "pkg-0.1.0" = _4EU1Hxpc;
+        "pkg-0.1.1" = _8j4hDSsA;
         "default" = _8j4hDSsA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

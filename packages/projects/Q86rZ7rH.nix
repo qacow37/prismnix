@@ -27,6 +27,10 @@ let
         "QUdFMmO3" = _QUdFMmO3;
         "bu405k8M" = _bu405k8M;
         "fabric-1.21.1" = _bu405k8M;
+        "pkg-1.0" = _5Kgnoh6W;
+        "pkg-1.1" = _nZP18fPb;
+        "pkg-1.2" = _QUdFMmO3;
+        "pkg-1.3" = _bu405k8M;
         "default" = _bu405k8M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

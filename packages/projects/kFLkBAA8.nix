@@ -45,6 +45,13 @@ let
         "zEDunyc0" = _zEDunyc0;
         "tSEEFIca" = _tSEEFIca;
         "forge-1.12.2" = _tSEEFIca;
+        "pkg-4.0" = _YD8HqT1O;
+        "pkg-4.01" = _DqGKktrs;
+        "pkg-4.02" = _tDDMHZpQ;
+        "pkg-4.03" = _EPSHZK4r;
+        "pkg-4.04" = _C8Pd4qtv;
+        "pkg-5.0" = _zEDunyc0;
+        "pkg-6.0" = _tSEEFIca;
         "default" = _tSEEFIca;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

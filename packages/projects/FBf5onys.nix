@@ -52,6 +52,11 @@ let
         "IECSrP6J" = _IECSrP6J;
         "forge-1.20.1" = _NZSZlHg0;
         "forge-1.19.2" = _IECSrP6J;
+        "pkg-1.0" = _31fvEoVh;
+        "pkg-1.1" = _HuCJCiEt;
+        "pkg-1.2" = _qAq71nwt;
+        "pkg-1.3" = _TsaaoTin;
+        "pkg-1.4" = _IECSrP6J;
         "default" = _IECSrP6J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

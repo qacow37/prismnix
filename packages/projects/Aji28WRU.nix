@@ -16,6 +16,8 @@ let
         "pOmLxnI2" = _pOmLxnI2;
         "datapack-1.20.1" = _pOmLxnI2;
         "minecraft-1.20.1" = _6HrvWARv;
+        "pkg-1.0" = _6HrvWARv;
+        "pkg-1.2" = _pOmLxnI2;
         "default" = _pOmLxnI2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

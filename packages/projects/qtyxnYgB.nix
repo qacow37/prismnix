@@ -28,6 +28,10 @@ let
         "HpkAuTfp" = _HpkAuTfp;
         "neoforge-1.21.1" = _7BmJOLA0;
         "neoforge-1.21.3" = _HpkAuTfp;
+        "pkg-neo-1.21.1-1.0.0" = _vZW7jN0c;
+        "pkg-neo-1.21.1-1.1.0" = _gCaYz0F3;
+        "pkg-neo-1.21.1-1.2.0" = _7BmJOLA0;
+        "pkg-neo-1.21.3-1.2.0" = _HpkAuTfp;
         "default" = _HpkAuTfp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

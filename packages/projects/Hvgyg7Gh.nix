@@ -9,6 +9,7 @@ let
     in {
         "LXeoicBI" = _LXeoicBI;
         "forge-1.16.5" = _LXeoicBI;
+        "pkg-1.0.0" = _LXeoicBI;
         "default" = _LXeoicBI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -33,6 +33,11 @@ let
         "vTTtLjTP" = _vTTtLjTP;
         "fM30vJrH" = _fM30vJrH;
         "forge-1.18.2" = _fM30vJrH;
+        "pkg-1.18.2-2.1.0" = _e8FQpWVI;
+        "pkg-infinitylib-1.18.2-2.1.1" = _DQWL8lzg;
+        "pkg-infinitylib-1.18.2-2.1.2" = _XDj0FYNO;
+        "pkg-infinitylib-1.18.2-2.1.3" = _vTTtLjTP;
+        "pkg-infinitylib-1.18.2-2.1.4" = _fM30vJrH;
         "default" = _fM30vJrH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

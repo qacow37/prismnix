@@ -15,6 +15,8 @@ let
         "ZuYk7Zi2" = _ZuYk7Zi2;
         "2JBh952I" = _2JBh952I;
         "forge-1.12.2" = _2JBh952I;
+        "pkg-1.0" = _ZuYk7Zi2;
+        "pkg-1.1" = _2JBh952I;
         "default" = _2JBh952I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

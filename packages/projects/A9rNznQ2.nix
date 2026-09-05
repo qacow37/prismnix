@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _x33Fkrwg;
         "forge-1.20.5" = _x33Fkrwg;
         "forge-1.20.6" = _x33Fkrwg;
+        "pkg-1.0.2" = _x33Fkrwg;
         "default" = _x33Fkrwg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -53,6 +53,8 @@ let
         "forge-1.21.3" = _cyrpzvbD;
         "forge-1.21.4" = _cyrpzvbD;
         "forge-1.21.5" = _J0PnGPYD;
+        "pkg-1.0" = _cyrpzvbD;
+        "pkg-2.0" = _azGfREAV;
         "default" = _azGfREAV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

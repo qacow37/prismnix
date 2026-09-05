@@ -10,6 +10,7 @@ let
         "Rn3yzjiv" = _Rn3yzjiv;
         "minecraft-1.20" = _Rn3yzjiv;
         "minecraft-1.20.1" = _Rn3yzjiv;
+        "pkg-1.0" = _Rn3yzjiv;
         "default" = _Rn3yzjiv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

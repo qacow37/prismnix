@@ -21,6 +21,9 @@ let
         "Kwdvf25i" = _Kwdvf25i;
         "a3NVzqa5" = _a3NVzqa5;
         "fabric-1.20.1" = _a3NVzqa5;
+        "pkg-1.0.4" = _zHhlbnwP;
+        "pkg-1.0.9" = _Kwdvf25i;
+        "pkg-1.1.4" = _a3NVzqa5;
         "default" = _a3NVzqa5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

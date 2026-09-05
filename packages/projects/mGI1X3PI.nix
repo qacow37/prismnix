@@ -15,6 +15,8 @@ let
         "JoXaWtEl" = _JoXaWtEl;
         "tB09pPWJ" = _tB09pPWJ;
         "forge-1.20.1" = _tB09pPWJ;
+        "pkg-1.0.0-beta+forge.1.20.1" = _JoXaWtEl;
+        "pkg-1.0.1-beta+forge.1.20.1" = _tB09pPWJ;
         "default" = _tB09pPWJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

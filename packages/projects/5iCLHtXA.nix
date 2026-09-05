@@ -83,6 +83,7 @@ let
         "minecraft-1.21.2" = _NEWfWInp;
         "minecraft-1.21.3" = _NEWfWInp;
         "minecraft-1.21.4" = _NEWfWInp;
+        "pkg-1.5" = _NEWfWInp;
         "default" = _NEWfWInp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

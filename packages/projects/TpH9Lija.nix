@@ -9,6 +9,7 @@ let
     in {
         "47FWeMxk" = _47FWeMxk;
         "forge-1.12.2" = _47FWeMxk;
+        "pkg-1.0.0" = _47FWeMxk;
         "default" = _47FWeMxk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

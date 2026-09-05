@@ -9,6 +9,7 @@ let
     in {
         "hbcKiTni" = _hbcKiTni;
         "minecraft-1.20.6" = _hbcKiTni;
+        "pkg-1.0" = _hbcKiTni;
         "default" = _hbcKiTni;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

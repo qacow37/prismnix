@@ -34,6 +34,11 @@ let
         "EI64BVLv" = _EI64BVLv;
         "forge-1.20.1" = _EI64BVLv;
         "neoforge-1.20.1" = _EI64BVLv;
+        "pkg-1.0.0" = _8GXzeXiA;
+        "pkg-1.0.1" = _7MnwTHD3;
+        "pkg-1.0.2" = _qsq9pPyG;
+        "pkg-1.0.3" = _LqQj2Dri;
+        "pkg-1.0.4" = _EI64BVLv;
         "default" = _EI64BVLv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

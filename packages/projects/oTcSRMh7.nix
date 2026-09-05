@@ -9,6 +9,7 @@ let
     in {
         "JAdFn4F2" = _JAdFn4F2;
         "forge-1.7.10" = _JAdFn4F2;
+        "pkg-1.1a" = _JAdFn4F2;
         "default" = _JAdFn4F2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

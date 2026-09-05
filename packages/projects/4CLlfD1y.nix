@@ -191,6 +191,27 @@ let
         "neoforge-1.21.6" = _502HPqHI;
         "neoforge-1.21.7" = _4TlEnfdG;
         "neoforge-1.21.8" = _4TlEnfdG;
+        "pkg-0.0.2-alpha.1" = _oJCVZVoF;
+        "pkg-0.0.2-alpha.2" = _ctjPrWCg;
+        "pkg-0.0.2-alpha.3" = _riu2nLVj;
+        "pkg-0.0.2-alpha.3-hotfix" = _xkK4f778;
+        "pkg-0.0.2-alpha.4" = _kmC2qETO;
+        "pkg-0.0.2-beta.1" = _8CDHYL4O;
+        "pkg-0.0.2-beta.2" = _M7s33afV;
+        "pkg-0.0.2-release.1" = _5DinVKWX;
+        "pkg-0.0.2-release.2" = _Y7xoQhMU;
+        "pkg-0.0.2-beta.3" = _DUu97YKH;
+        "pkg-0.0.3-beta.1+1.20.1" = _6S6tv5xY;
+        "pkg-0.0.3-beta.1+1.21.1" = _sC6NkTxY;
+        "pkg-0.0.3-beta.1+1.21.2" = _HrijwzVh;
+        "pkg-0.0.3-beta.1+1.21.4" = _xDJ02KzN;
+        "pkg-0.0.3-beta.1+1.21.5" = _LifDAk58;
+        "pkg-0.0.3-beta.2+1.21.1" = _2PXF0bWz;
+        "pkg-0.0.3-beta.3+1.20.1" = _KOF9XVma;
+        "pkg-0.0.4-alpha.1" = _502HPqHI;
+        "pkg-0.0.4-alpha.2" = _pyGO4jIz;
+        "pkg-0.0.5" = _4TlEnfdG;
+        "pkg-0.0.6" = _ywvLsF67;
         "default" = _ywvLsF67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

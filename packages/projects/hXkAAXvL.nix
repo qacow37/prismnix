@@ -10,6 +10,7 @@ let
         "DRm70FKR" = _DRm70FKR;
         "forge-1.20.1" = _DRm70FKR;
         "neoforge-1.20.1" = _DRm70FKR;
+        "pkg-1.0.0" = _DRm70FKR;
         "default" = _DRm70FKR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

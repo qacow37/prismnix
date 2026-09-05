@@ -35,6 +35,8 @@ let
         "minecraft-1.12" = _BUDCGxlB;
         "minecraft-1.12.1" = _BUDCGxlB;
         "minecraft-1.12.2" = _BUDCGxlB;
+        "pkg-1.0" = _BzLgfpfJ;
+        "pkg-1.0_1.12.2" = _BUDCGxlB;
         "default" = _BUDCGxlB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

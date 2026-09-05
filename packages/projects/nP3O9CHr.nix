@@ -39,6 +39,11 @@ let
         "UPCHmlaM" = _UPCHmlaM;
         "N8hirlYZ" = _N8hirlYZ;
         "forge-1.20.1" = _N8hirlYZ;
+        "pkg-1.0.0" = _EfgaQEF8;
+        "pkg-1.2.0" = _SRt0YESb;
+        "pkg-1.2.1" = _Te0SI3wZ;
+        "pkg-1.2.2" = _UPCHmlaM;
+        "pkg-1.2.3" = _N8hirlYZ;
         "default" = _N8hirlYZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

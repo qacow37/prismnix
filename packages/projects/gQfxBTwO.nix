@@ -20,6 +20,8 @@ let
         "forge-1.20.4" = _7620lv1V;
         "forge-1.20.5" = _7620lv1V;
         "forge-1.20.6" = _7620lv1V;
+        "pkg-1.0" = _Swk64qmQ;
+        "pkg-1.1" = _7620lv1V;
         "default" = _7620lv1V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

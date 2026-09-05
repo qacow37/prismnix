@@ -15,6 +15,8 @@ let
         "22ErJy59" = _22ErJy59;
         "NDEB8MTw" = _NDEB8MTw;
         "forge-1.12.2" = _NDEB8MTw;
+        "pkg-1.0.1" = _22ErJy59;
+        "pkg-1.0.2" = _NDEB8MTw;
         "default" = _NDEB8MTw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

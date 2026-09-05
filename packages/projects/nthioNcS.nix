@@ -13,6 +13,7 @@ let
         "minecraft-1.19.2" = _MIp5YbOD;
         "minecraft-1.19.4" = _MIp5YbOD;
         "minecraft-1.20.4" = _MIp5YbOD;
+        "pkg-1.0" = _MIp5YbOD;
         "default" = _MIp5YbOD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "nDC4glXB" = _nDC4glXB;
         "forge-1.19.2" = _nDC4glXB;
+        "pkg-0.0.1" = _nDC4glXB;
         "default" = _nDC4glXB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "LGXnGtLD" = _LGXnGtLD;
         "sEC0NYrm" = _sEC0NYrm;
         "forge-1.18.2" = _sEC0NYrm;
+        "pkg-1.0.0" = _LGXnGtLD;
+        "pkg-1.0.2" = _sEC0NYrm;
         "default" = _sEC0NYrm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

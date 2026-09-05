@@ -18,6 +18,8 @@ let
         "fabric-26.1" = _521setC5;
         "fabric-26.1.1" = _521setC5;
         "fabric-26.1.2" = _521setC5;
+        "pkg-1.0" = _AbSXwhra;
+        "pkg-1.0.1" = _521setC5;
         "default" = _521setC5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

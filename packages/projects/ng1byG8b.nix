@@ -15,6 +15,8 @@ let
         "QJCbQSPZ" = _QJCbQSPZ;
         "XNNjzaFE" = _XNNjzaFE;
         "minecraft-1.21.1" = _XNNjzaFE;
+        "pkg-1.0.0" = _QJCbQSPZ;
+        "pkg-1.0.1" = _XNNjzaFE;
         "default" = _XNNjzaFE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

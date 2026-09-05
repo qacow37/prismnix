@@ -15,6 +15,8 @@ let
         "qqmzh95S" = _qqmzh95S;
         "S73Jt1Fx" = _S73Jt1Fx;
         "neoforge-1.21.1" = _S73Jt1Fx;
+        "pkg-1.0.0" = _qqmzh95S;
+        "pkg-1.1.0" = _S73Jt1Fx;
         "default" = _S73Jt1Fx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

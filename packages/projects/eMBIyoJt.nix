@@ -76,6 +76,17 @@ let
         "fabric-23w05a" = _Mzbd8Fkh;
         "fabric-1.19.4" = _I9oguT4k;
         "fabric-1.20" = _WtHscotm;
+        "pkg-0.0.1" = _vUYNzDSQ;
+        "pkg-0.1.0" = _kcdsh0Dk;
+        "pkg-0.1.1" = _twxPud0f;
+        "pkg-0.1.3" = _NuDjSEVv;
+        "pkg-0.1.4" = _mByUPb3w;
+        "pkg-0.1.5" = _BkAegoqB;
+        "pkg-0.2.0" = _kYMmNs0g;
+        "pkg-0.2.1" = _G10qn1af;
+        "pkg-0.2.2" = _Mzbd8Fkh;
+        "pkg-0.4.0" = _I9oguT4k;
+        "pkg-1.0.0" = _WtHscotm;
         "default" = _WtHscotm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

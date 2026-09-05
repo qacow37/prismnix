@@ -9,6 +9,7 @@ let
     in {
         "CkYSUQoB" = _CkYSUQoB;
         "fabric-1.20.1" = _CkYSUQoB;
+        "pkg-1.1.0-alpha.1" = _CkYSUQoB;
         "default" = _CkYSUQoB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

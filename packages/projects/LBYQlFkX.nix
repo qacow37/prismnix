@@ -33,6 +33,11 @@ let
         "ECPnqd70" = _ECPnqd70;
         "kOW3VwPl" = _kOW3VwPl;
         "neoforge-1.21.1" = _kOW3VwPl;
+        "pkg-1.0.0+mc1.21.1" = _chCTYBr1;
+        "pkg-1.0.1+mc1.21.1" = _eudmgJlR;
+        "pkg-1.0.2+mc1.21.1" = _AM1PWEgg;
+        "pkg-1.0.3+mc1.21.1" = _ECPnqd70;
+        "pkg-1.0.4+mc1.21.1" = _kOW3VwPl;
         "default" = _kOW3VwPl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

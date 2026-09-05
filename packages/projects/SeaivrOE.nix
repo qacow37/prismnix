@@ -23,6 +23,9 @@ let
         "fabric-1.19.4" = _VR32gbW1;
         "fabric-1.20" = _4oahfQHO;
         "fabric-1.20.1" = _GAT200Vk;
+        "pkg-1.19.4-1.0.0" = _VR32gbW1;
+        "pkg-1.20-1.0.0" = _4oahfQHO;
+        "pkg-1.20.1-1.0.0" = _GAT200Vk;
         "default" = _GAT200Vk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

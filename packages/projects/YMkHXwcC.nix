@@ -131,6 +131,8 @@ let
         "minecraft-1.21.9" = _G95AUKad;
         "minecraft-1.21.10" = _G95AUKad;
         "minecraft-1.21.11" = _G95AUKad;
+        "pkg-v1.0" = _x21IoEN0;
+        "pkg-v1.0.1" = _G95AUKad;
         "default" = _G95AUKad;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

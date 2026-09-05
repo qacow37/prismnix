@@ -9,6 +9,7 @@ let
     in {
         "UMRKWl55" = _UMRKWl55;
         "fabric-1.21.11" = _UMRKWl55;
+        "pkg-1.0.0" = _UMRKWl55;
         "default" = _UMRKWl55;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

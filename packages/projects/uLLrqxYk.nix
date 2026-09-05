@@ -599,6 +599,11 @@ let
         "minecraft-1.21.11-rc3" = _egiG9kNr;
         "minecraft-1.21.11" = _egiG9kNr;
         "minecraft-26.1-snapshot-1" = _egiG9kNr;
+        "pkg-vanilla_classic" = _RWozcNZD;
+        "pkg-vanilla_new" = _gbsDtLqj;
+        "pkg-flash_cit" = _6reu5TEz;
+        "pkg-flash_classic" = _az33huhe;
+        "pkg-flash_new" = _egiG9kNr;
         "default" = _egiG9kNr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -20,6 +20,8 @@ let
         "fabric-1.20.4" = _Ipz0Boux;
         "fabric-1.20.5" = _Ipz0Boux;
         "fabric-1.20.6" = _Ipz0Boux;
+        "pkg-1.0.0-1.20.1-fabric" = _HNddDogb;
+        "pkg-1.0.1-1.20.1-fabric" = _Ipz0Boux;
         "default" = _Ipz0Boux;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

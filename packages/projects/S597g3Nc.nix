@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _VsdBECrg;
         "spigot-1.21.10" = _VsdBECrg;
         "spigot-1.21.11" = _VsdBECrg;
+        "pkg-1.0" = _VsdBECrg;
         "default" = _VsdBECrg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

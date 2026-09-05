@@ -16,6 +16,8 @@ let
         "tFSbFEb0" = _tFSbFEb0;
         "fabric-1.21.1" = _pCneexFW;
         "fabric-26.2" = _tFSbFEb0;
+        "pkg-0.3.8-fabric" = _pCneexFW;
+        "pkg-0.4.0-fabric-mc26.2" = _tFSbFEb0;
         "default" = _tFSbFEb0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

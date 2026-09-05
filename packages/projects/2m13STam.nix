@@ -13,6 +13,7 @@ let
         "minecraft-1.20.2" = _CexODRZ2;
         "minecraft-1.20.3" = _CexODRZ2;
         "minecraft-1.20.4" = _CexODRZ2;
+        "pkg-1.0" = _CexODRZ2;
         "default" = _CexODRZ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

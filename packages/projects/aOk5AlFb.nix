@@ -16,6 +16,8 @@ let
         "DvLFrvXq" = _DvLFrvXq;
         "datapack-1.21.1" = _zdgSVvoD;
         "fabric-1.21.1" = _DvLFrvXq;
+        "pkg-1.0.0" = _zdgSVvoD;
+        "pkg-1.0.0+mod" = _DvLFrvXq;
         "default" = _DvLFrvXq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

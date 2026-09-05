@@ -58,6 +58,12 @@ let
         "UBXVLbS9" = _UBXVLbS9;
         "fabric-1.21.10" = _5HFMEq09;
         "fabric-1.21.11" = _UBXVLbS9;
+        "pkg-1.0.0" = _pplmmPDr;
+        "pkg-1.0.1" = _1ZeXoIFI;
+        "pkg-1.2.0" = _EiXuaj74;
+        "pkg-1.2.1" = _xATUPq0z;
+        "pkg-1.2.2" = _tiRp1mnA;
+        "pkg-1.2.3" = _UBXVLbS9;
         "default" = _UBXVLbS9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

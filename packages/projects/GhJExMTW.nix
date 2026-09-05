@@ -306,6 +306,14 @@ let
         "quilt-26.1.1" = _tIFvNRCj;
         "quilt-26.1.2" = _tIFvNRCj;
         "quilt-26.2" = _tIFvNRCj;
+        "pkg-Woodcutting" = _EfXduWfO;
+        "pkg-Wood-Cutting" = _mWCLsVKJ;
+        "pkg-Wood_Cutting" = _7N3HGOc2;
+        "pkg-wood-cutting" = _bWjm4rjm;
+        "pkg-wood_cutting" = _BbLjRQ3W;
+        "pkg-wood_cutting+mod" = _qAI6q6gJ;
+        "pkg-1.6" = _5gv7E6oc;
+        "pkg-1.6+mod" = _tIFvNRCj;
         "default" = _tIFvNRCj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

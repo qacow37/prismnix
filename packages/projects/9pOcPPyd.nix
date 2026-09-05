@@ -20,6 +20,7 @@ let
         "minecraft-1.21.3" = _JDVEpE0I;
         "minecraft-1.21.4" = _JDVEpE0I;
         "minecraft-1.21.5" = _JDVEpE0I;
+        "pkg-5.0" = _JDVEpE0I;
         "default" = _JDVEpE0I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

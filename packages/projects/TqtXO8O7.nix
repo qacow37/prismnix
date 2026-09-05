@@ -9,6 +9,7 @@ let
     in {
         "XlyjPAtF" = _XlyjPAtF;
         "fabric-1.20.1" = _XlyjPAtF;
+        "pkg-1.0.0" = _XlyjPAtF;
         "default" = _XlyjPAtF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

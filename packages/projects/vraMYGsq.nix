@@ -9,6 +9,7 @@ let
     in {
         "KHBX4zTA" = _KHBX4zTA;
         "neoforge-1.21.1" = _KHBX4zTA;
+        "pkg-1.0.0" = _KHBX4zTA;
         "default" = _KHBX4zTA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

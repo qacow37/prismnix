@@ -17,6 +17,8 @@ let
         "datapack-1.20.1" = _OB9AIK5B;
         "fabric-1.20.1" = _BOfZgRU9;
         "quilt-1.20.1" = _BOfZgRU9;
+        "pkg-1.0" = _OB9AIK5B;
+        "pkg-1.0+mod" = _BOfZgRU9;
         "default" = _BOfZgRU9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

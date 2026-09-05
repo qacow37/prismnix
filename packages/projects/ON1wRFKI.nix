@@ -16,6 +16,8 @@ let
         "7KZYQ8NV" = _7KZYQ8NV;
         "forge-1.20.1" = _j7b2T1lZ;
         "neoforge-1.21.1" = _7KZYQ8NV;
+        "pkg-2.3.03" = _j7b2T1lZ;
+        "pkg-2.3.04" = _7KZYQ8NV;
         "default" = _7KZYQ8NV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

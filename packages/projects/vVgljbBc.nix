@@ -10,6 +10,7 @@ let
         "IPiab6tT" = _IPiab6tT;
         "minecraft-1.16.4" = _IPiab6tT;
         "minecraft-1.16.5" = _IPiab6tT;
+        "pkg-1.1" = _IPiab6tT;
         "default" = _IPiab6tT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

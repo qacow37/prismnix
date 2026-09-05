@@ -28,6 +28,8 @@ let
         "neoforge-26.1" = _GZAktxSu;
         "neoforge-26.1.1" = _GZAktxSu;
         "neoforge-26.1.2" = _GZAktxSu;
+        "pkg-1.0.0" = _djHAZSdm;
+        "pkg-1.0.1" = _GZAktxSu;
         "default" = _GZAktxSu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

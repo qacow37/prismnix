@@ -99,6 +99,8 @@ let
         "minecraft-1.20.3" = _RsPjvLAN;
         "minecraft-1.20.4" = _RsPjvLAN;
         "minecraft-1.21.1" = _J7XbjWn6;
+        "pkg-1" = _RsPjvLAN;
+        "pkg-v1" = _J7XbjWn6;
         "default" = _J7XbjWn6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

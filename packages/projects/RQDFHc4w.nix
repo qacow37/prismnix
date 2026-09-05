@@ -16,6 +16,8 @@ let
         "D9DhFlPu" = _D9DhFlPu;
         "forge-1.18.2" = _FK0CwMou;
         "forge-1.19.2" = _D9DhFlPu;
+        "pkg-1.5.1" = _FK0CwMou;
+        "pkg-1.5.2" = _D9DhFlPu;
         "default" = _D9DhFlPu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

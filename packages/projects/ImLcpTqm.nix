@@ -15,6 +15,8 @@ let
         "Bj3PUaiF" = _Bj3PUaiF;
         "ZOFAqoVc" = _ZOFAqoVc;
         "forge-1.20.1" = _ZOFAqoVc;
+        "pkg-0.0.1" = _Bj3PUaiF;
+        "pkg-0.0.2" = _ZOFAqoVc;
         "default" = _ZOFAqoVc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "AEFpGDci" = _AEFpGDci;
         "Ct5mQNCS" = _Ct5mQNCS;
         "forge-1.20.1" = _Ct5mQNCS;
+        "pkg-1.0.0" = _AEFpGDci;
+        "pkg-1.0.2" = _Ct5mQNCS;
         "default" = _Ct5mQNCS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

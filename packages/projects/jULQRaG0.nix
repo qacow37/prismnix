@@ -15,6 +15,7 @@ let
         "minecraft-1.21.4" = _eeVVlMcs;
         "minecraft-1.21.5" = _eeVVlMcs;
         "minecraft-1.21.6" = _eeVVlMcs;
+        "pkg-1.0.0" = _eeVVlMcs;
         "default" = _eeVVlMcs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

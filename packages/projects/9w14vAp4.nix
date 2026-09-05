@@ -13,6 +13,7 @@ let
         "minecraft-1.20.2" = _8DOrfvnD;
         "minecraft-1.20.3" = _8DOrfvnD;
         "minecraft-1.20.4" = _8DOrfvnD;
+        "pkg-1" = _8DOrfvnD;
         "default" = _8DOrfvnD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

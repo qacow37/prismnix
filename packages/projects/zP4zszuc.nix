@@ -16,6 +16,8 @@ let
         "I47dWsWl" = _I47dWsWl;
         "fabric-1.21.8" = _4dyGcfeL;
         "fabric-1.21.9" = _I47dWsWl;
+        "pkg-1.0.0+MC_1.21.8" = _4dyGcfeL;
+        "pkg-1.1.0+MC_1.21.9" = _I47dWsWl;
         "default" = _I47dWsWl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

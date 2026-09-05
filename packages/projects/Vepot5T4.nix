@@ -78,6 +78,7 @@ let
         "velocity-1.21.9" = _PhUwm3C7;
         "velocity-1.21.10" = _PhUwm3C7;
         "velocity-1.21.11" = _PhUwm3C7;
+        "pkg-1.9.0" = _PhUwm3C7;
         "default" = _PhUwm3C7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

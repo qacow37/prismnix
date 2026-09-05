@@ -63,6 +63,15 @@ let
         "ZiOpcDV7" = _ZiOpcDV7;
         "l6racbb8" = _l6racbb8;
         "minecraft-b1.7.3" = _l6racbb8;
+        "pkg-1.0" = _ULm2I5xw;
+        "pkg-1.1" = _ioNXteH7;
+        "pkg-1.2" = _H1JAUN0V;
+        "pkg-1.2.1" = _DHfCytPs;
+        "pkg-1.3" = _ehorHcZU;
+        "pkg-1.3.1" = _bxCm5fKL;
+        "pkg-1.3.2" = _yeM1k3z2;
+        "pkg-1.3.3" = _s7YIfRhR;
+        "pkg-1.4" = _l6racbb8;
         "default" = _l6racbb8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

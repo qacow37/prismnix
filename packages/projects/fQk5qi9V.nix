@@ -40,6 +40,12 @@ let
         "CTs63gMe" = _CTs63gMe;
         "forge-1.19.2" = _KPLy7PTb;
         "neoforge-1.21.1" = _CTs63gMe;
+        "pkg-1.0.0.0" = _IyA498Sw;
+        "pkg-1.0.0.1" = _cAD1fBWR;
+        "pkg-1.0.0.2" = _b2GAVbdC;
+        "pkg-1.0.0.3" = _HVd2Ep38;
+        "pkg-1.0.0.4" = _KPLy7PTb;
+        "pkg-2.0.0.0" = _CTs63gMe;
         "default" = _CTs63gMe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

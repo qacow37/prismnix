@@ -24,6 +24,7 @@ let
         "quilt-26.1" = _scBQU59W;
         "quilt-26.1.1" = _scBQU59W;
         "quilt-26.1.2" = _scBQU59W;
+        "pkg-1.21.11+" = _scBQU59W;
         "default" = _scBQU59W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

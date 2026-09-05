@@ -10,6 +10,7 @@ let
         "wFI4FnV3" = _wFI4FnV3;
         "minecraft-1.21" = _wFI4FnV3;
         "minecraft-1.21.1" = _wFI4FnV3;
+        "pkg-1" = _wFI4FnV3;
         "default" = _wFI4FnV3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "fOARoDHI" = _fOARoDHI;
         "neoforge-1.21.1" = _fOARoDHI;
+        "pkg-1.0.3" = _fOARoDHI;
         "default" = _fOARoDHI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

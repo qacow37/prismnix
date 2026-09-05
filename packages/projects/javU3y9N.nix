@@ -271,6 +271,8 @@ let
         "fabric-26.2" = _yhQbtqWf;
         "forge-1.21.1" = _p3TJJhu3;
         "forge-26.2" = _LN9llLMB;
+        "pkg-1.0.1" = _n3Nqratg;
+        "pkg-1.0.2" = _LN9llLMB;
         "default" = _LN9llLMB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

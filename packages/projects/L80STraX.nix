@@ -30,6 +30,9 @@ let
         "quilt-1.20.6" = _XtesgUAR;
         "quilt-1.21.1" = _XtesgUAR;
         "quilt-1.21.4" = _vvdrGQP8;
+        "pkg-1.0.0" = _EyJAmFWp;
+        "pkg-1.1.0" = _XtesgUAR;
+        "pkg-1.1.0+1.21.4" = _vvdrGQP8;
         "default" = _vvdrGQP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

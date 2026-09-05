@@ -9,6 +9,7 @@ let
     in {
         "2nvmOtCO" = _2nvmOtCO;
         "fabric-1.21.11" = _2nvmOtCO;
+        "pkg-1.0.0" = _2nvmOtCO;
         "default" = _2nvmOtCO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

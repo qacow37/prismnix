@@ -18,6 +18,8 @@ let
         "datapack-1.21.1" = _e35EKhP2;
         "minecraft-1.20.1" = _bqpDxE3E;
         "minecraft-1.21.1" = _e35EKhP2;
+        "pkg-v1.0" = _bqpDxE3E;
+        "pkg-2.0" = _e35EKhP2;
         "default" = _e35EKhP2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

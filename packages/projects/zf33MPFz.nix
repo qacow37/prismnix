@@ -16,6 +16,8 @@ let
         "U5IVEAp4" = _U5IVEAp4;
         "forge-1.19.2" = _kekrYvcb;
         "forge-1.20.1" = _U5IVEAp4;
+        "pkg-1.19.2-0.1r" = _kekrYvcb;
+        "pkg-1.20.1-0.2r" = _U5IVEAp4;
         "default" = _U5IVEAp4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

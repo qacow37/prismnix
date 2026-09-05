@@ -9,6 +9,7 @@ let
     in {
         "XMWTAfR2" = _XMWTAfR2;
         "minecraft-1.21" = _XMWTAfR2;
+        "pkg-0.01" = _XMWTAfR2;
         "default" = _XMWTAfR2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

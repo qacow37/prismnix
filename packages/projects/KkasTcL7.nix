@@ -15,6 +15,8 @@ let
         "FoWWfBIc" = _FoWWfBIc;
         "ngSmdv4a" = _ngSmdv4a;
         "minecraft-1.19.3" = _ngSmdv4a;
+        "pkg-1.0" = _FoWWfBIc;
+        "pkg-1.1" = _ngSmdv4a;
         "default" = _ngSmdv4a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

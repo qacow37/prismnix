@@ -40,6 +40,12 @@ let
         "ywTfyjQa" = _ywTfyjQa;
         "datapack-1.20.1" = _SaxezVPa;
         "forge-1.20.1" = _ywTfyjQa;
+        "pkg-1.0.1" = _T0h243Gh;
+        "pkg-1.0.1+mod" = _iTER6UBw;
+        "pkg-1.0.2" = _PYmCe0m0;
+        "pkg-1.0.2+mod" = _Uh2nxFmG;
+        "pkg-1.0.3" = _SaxezVPa;
+        "pkg-1.0.3+mod" = _ywTfyjQa;
         "default" = _ywTfyjQa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

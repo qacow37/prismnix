@@ -16,6 +16,8 @@ let
         "zzLFXra4" = _zzLFXra4;
         "minecraft-24w13a" = _7zuF3hVG;
         "minecraft-1.21" = _zzLFXra4;
+        "pkg-0.1" = _7zuF3hVG;
+        "pkg-1" = _zzLFXra4;
         "default" = _zzLFXra4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

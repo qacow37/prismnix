@@ -13,6 +13,7 @@ let
         "minecraft-1.20.6" = _7dVvOfIp;
         "minecraft-1.21" = _7dVvOfIp;
         "minecraft-1.21.1" = _7dVvOfIp;
+        "pkg-0.0.2" = _7dVvOfIp;
         "default" = _7dVvOfIp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "doPbTXfX" = _doPbTXfX;
         "forge-1.18.2" = _WT8PzGQe;
         "forge-1.19.2" = _doPbTXfX;
+        "pkg-1.3" = _doPbTXfX;
         "default" = _doPbTXfX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

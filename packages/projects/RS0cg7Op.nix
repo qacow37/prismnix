@@ -14,6 +14,7 @@ let
         "canvas-1.19" = _ofRZ74vX;
         "canvas-1.19.1" = _ofRZ74vX;
         "canvas-1.19.2" = _ofRZ74vX;
+        "pkg-v0.1.0" = _ofRZ74vX;
         "default" = _ofRZ74vX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

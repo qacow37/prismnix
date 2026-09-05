@@ -16,6 +16,8 @@ let
         "6lyiScam" = _6lyiScam;
         "forge-1.20.1" = _Rl0BNZwV;
         "neoforge-1.21" = _6lyiScam;
+        "pkg-1.20.1-0.0.2" = _Rl0BNZwV;
+        "pkg-0.0.2-1.21" = _6lyiScam;
         "default" = _6lyiScam;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

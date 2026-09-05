@@ -9,6 +9,7 @@ let
     in {
         "RXzLOKmL" = _RXzLOKmL;
         "forge-1.20.1" = _RXzLOKmL;
+        "pkg-2.0.0" = _RXzLOKmL;
         "default" = _RXzLOKmL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

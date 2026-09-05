@@ -27,6 +27,10 @@ let
         "cgS3kgtH" = _cgS3kgtH;
         "XQtDBanI" = _XQtDBanI;
         "fabric-1.20.1" = _XQtDBanI;
+        "pkg-0.1.0-fabric" = _nh9Q3RmQ;
+        "pkg-0.1.1" = _GbIQYpWh;
+        "pkg-0.1.2" = _cgS3kgtH;
+        "pkg-0.1.3" = _XQtDBanI;
         "default" = _XQtDBanI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

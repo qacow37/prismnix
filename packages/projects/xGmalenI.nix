@@ -48,6 +48,9 @@ let
         "neoforge-26.1" = _HUsi67MX;
         "neoforge-26.1.1" = _HUsi67MX;
         "neoforge-26.1.2" = _HUsi67MX;
+        "pkg-1.0" = _r2nToDgW;
+        "pkg-1.1" = _ZgP8dEP9;
+        "pkg-1.1.0" = _HUsi67MX;
         "default" = _HUsi67MX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

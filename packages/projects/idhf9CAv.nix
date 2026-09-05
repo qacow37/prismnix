@@ -9,6 +9,7 @@ let
     in {
         "BMoxNrDX" = _BMoxNrDX;
         "fabric-1.20.1" = _BMoxNrDX;
+        "pkg-1.0.0" = _BMoxNrDX;
         "default" = _BMoxNrDX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

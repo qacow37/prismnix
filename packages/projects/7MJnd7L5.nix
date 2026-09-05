@@ -10,6 +10,7 @@ let
         "fmqDcdtN" = _fmqDcdtN;
         "forge-1.4.6" = _fmqDcdtN;
         "forge-1.4.7" = _fmqDcdtN;
+        "pkg-2.0pr6" = _fmqDcdtN;
         "default" = _fmqDcdtN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

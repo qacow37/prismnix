@@ -16,6 +16,8 @@ let
         "lUHvhyOE" = _lUHvhyOE;
         "iris-1.21.10" = _lUHvhyOE;
         "iris-1.20.1" = _lUHvhyOE;
+        "pkg-0.0.0" = _ClNoyj9S;
+        "pkg-0.0.1" = _lUHvhyOE;
         "default" = _lUHvhyOE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "ZCEDAkln" = _ZCEDAkln;
         "fabric-1.20.1" = _YHrfLIma;
         "forge-1.20.1" = _ZCEDAkln;
+        "pkg-1.0.0" = _txSQwaBA;
+        "pkg-1.0.1" = _ZCEDAkln;
         "default" = _ZCEDAkln;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,8 @@ let
         "MHuB8bza" = _MHuB8bza;
         "LQLhBFy5" = _LQLhBFy5;
         "fabric-1.21.11" = _LQLhBFy5;
+        "pkg-1.0.0" = _gcLe4jRq;
+        "pkg-1.0.1" = _LQLhBFy5;
         "default" = _LQLhBFy5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "yfbPIdr4" = _yfbPIdr4;
         "forge-1.8.9" = _rQtTSS3o;
         "forge-1.12.2" = _yfbPIdr4;
+        "pkg-v1.0.0" = _rQtTSS3o;
+        "pkg-v1.0.1" = _yfbPIdr4;
         "default" = _yfbPIdr4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

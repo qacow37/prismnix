@@ -15,6 +15,8 @@ let
         "IKIRopkG" = _IKIRopkG;
         "8xjXYlde" = _8xjXYlde;
         "forge-1.16.5" = _8xjXYlde;
+        "pkg-1.0.0" = _IKIRopkG;
+        "pkg-1.0.1-1" = _8xjXYlde;
         "default" = _8xjXYlde;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

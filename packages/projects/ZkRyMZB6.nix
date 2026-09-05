@@ -78,6 +78,7 @@ let
         "minecraft-1.21.7" = _dNeFsMlc;
         "minecraft-1.21.8" = _dNeFsMlc;
         "minecraft-1.21.6" = _JEP3SQBF;
+        "pkg-1.0.0" = _JEP3SQBF;
         "default" = _JEP3SQBF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "Ko1dT6dj" = _Ko1dT6dj;
         "TYqQQdeT" = _TYqQQdeT;
         "fabric-1.21.11" = _TYqQQdeT;
+        "pkg-v1.1.1" = _Ko1dT6dj;
+        "pkg-v1.1.2" = _TYqQQdeT;
         "default" = _TYqQQdeT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

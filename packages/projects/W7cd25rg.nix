@@ -215,6 +215,12 @@ let
         "velocity-1.21.7" = _kHvxs8EO;
         "velocity-1.21.8" = _kHvxs8EO;
         "velocity-1.21.9" = _kHvxs8EO;
+        "pkg-1.1.0" = _geIJ14du;
+        "pkg-1.1.2" = _sD5Didr5;
+        "pkg-1.1.3" = _dt7Hpm2V;
+        "pkg-1.1.4" = _xpTu8uB3;
+        "pkg-1.2.0" = _sv4nUin0;
+        "pkg-1.2.1" = _kHvxs8EO;
         "default" = _kHvxs8EO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

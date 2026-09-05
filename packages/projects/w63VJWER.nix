@@ -16,6 +16,8 @@ let
         "XMRT9rQE" = _XMRT9rQE;
         "minecraft-1.19.2" = _wUInBxe8;
         "minecraft-1.19.3" = _XMRT9rQE;
+        "pkg-1.0" = _wUInBxe8;
+        "pkg-2.0" = _XMRT9rQE;
         "default" = _XMRT9rQE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

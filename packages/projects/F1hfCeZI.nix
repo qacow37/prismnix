@@ -54,6 +54,7 @@ let
         "minecraft-1.20.4" = _fuIakIYA;
         "minecraft-1.20.5" = _fuIakIYA;
         "minecraft-1.20.6" = _fuIakIYA;
+        "pkg-0.1" = _fuIakIYA;
         "default" = _fuIakIYA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

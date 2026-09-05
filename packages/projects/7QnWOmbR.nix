@@ -14,6 +14,7 @@ let
         "minecraft-1.19.2" = _dpEKP1Xi;
         "minecraft-1.19.4" = _dpEKP1Xi;
         "minecraft-1.20.1" = _dpEKP1Xi;
+        "pkg-1" = _dpEKP1Xi;
         "default" = _dpEKP1Xi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

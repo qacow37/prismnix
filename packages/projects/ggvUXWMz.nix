@@ -22,6 +22,8 @@ let
         "gILTxIly" = _gILTxIly;
         "minecraft-1.20.1" = _7ZIGuXpr;
         "minecraft-1.21.1" = _gILTxIly;
+        "pkg-1.0" = _86iu5Nye;
+        "pkg-1.1" = _gILTxIly;
         "default" = _gILTxIly;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

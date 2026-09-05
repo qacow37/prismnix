@@ -15,6 +15,8 @@ let
         "jyo57Qvb" = _jyo57Qvb;
         "mb7H3XcT" = _mb7H3XcT;
         "forge-1.20.1" = _mb7H3XcT;
+        "pkg-0.3.0" = _jyo57Qvb;
+        "pkg-0.4.0" = _mb7H3XcT;
         "default" = _mb7H3XcT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

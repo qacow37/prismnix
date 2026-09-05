@@ -15,6 +15,8 @@ let
         "fMXX1SD3" = _fMXX1SD3;
         "pJNJs1lP" = _pJNJs1lP;
         "minecraft-1.21.4" = _pJNJs1lP;
+        "pkg-1.0" = _fMXX1SD3;
+        "pkg-1.1" = _pJNJs1lP;
         "default" = _pJNJs1lP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

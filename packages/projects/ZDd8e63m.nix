@@ -9,6 +9,7 @@ let
     in {
         "h1bUW7Ku" = _h1bUW7Ku;
         "neoforge-1.21.1" = _h1bUW7Ku;
+        "pkg-1.0.0" = _h1bUW7Ku;
         "default" = _h1bUW7Ku;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

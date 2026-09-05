@@ -18,6 +18,8 @@ let
         "minecraft-1.21.1" = _Jyb9DSRw;
         "fabric-1.21.1" = _dlKStcm6;
         "neoforge-1.21.1" = _dlKStcm6;
+        "pkg-1.0" = _Jyb9DSRw;
+        "pkg-1.0+mod" = _dlKStcm6;
         "default" = _dlKStcm6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

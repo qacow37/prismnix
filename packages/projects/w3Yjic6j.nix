@@ -9,6 +9,7 @@ let
     in {
         "HzXHiavd" = _HzXHiavd;
         "fabric-1.20.1" = _HzXHiavd;
+        "pkg-1.0.0" = _HzXHiavd;
         "default" = _HzXHiavd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

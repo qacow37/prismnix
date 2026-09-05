@@ -45,6 +45,8 @@ let
         "fabric-1.21.1" = _FmOcpjci;
         "fabric-1.21.2" = _FmOcpjci;
         "fabric-1.21.3" = _FmOcpjci;
+        "pkg-1.0" = _CY74l7qc;
+        "pkg-1.0+mod" = _FmOcpjci;
         "default" = _FmOcpjci;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

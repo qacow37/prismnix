@@ -10,6 +10,7 @@ let
         "LdRjJ2F4" = _LdRjJ2F4;
         "minecraft-1.19" = _LdRjJ2F4;
         "minecraft-1.19.3" = _LdRjJ2F4;
+        "pkg-1.0.0" = _LdRjJ2F4;
         "default" = _LdRjJ2F4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

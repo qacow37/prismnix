@@ -9,6 +9,7 @@ let
     in {
         "ImokUbm9" = _ImokUbm9;
         "fabric-1.20.1" = _ImokUbm9;
+        "pkg-1.0.0" = _ImokUbm9;
         "default" = _ImokUbm9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "NLGtFbaM" = _NLGtFbaM;
         "forge-1.18.2" = _NLGtFbaM;
+        "pkg-0.1.8" = _NLGtFbaM;
         "default" = _NLGtFbaM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

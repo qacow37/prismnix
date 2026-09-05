@@ -10,6 +10,7 @@ let
         "h52Uz6je" = _h52Uz6je;
         "fabric-1.20" = _h52Uz6je;
         "fabric-1.20.1" = _h52Uz6je;
+        "pkg-1.0.0" = _h52Uz6je;
         "default" = _h52Uz6je;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -138,6 +138,27 @@ let
         "neoforge-1.21.5" = _S2of34tw;
         "neoforge-1.21.6" = _dS24OOod;
         "neoforge-1.21.7" = _oJY4hi1r;
+        "pkg-1.20.1-2.0.0.0-beta" = _a1Tk95JB;
+        "pkg-1.12.2-1.0.3.0-beta" = _bjt5GMME;
+        "pkg-1.20.1-2.0.1.0-beta" = _71QvbHLq;
+        "pkg-1.20.6-2.1.0.0-beta" = _eZ5DU2Nd;
+        "pkg-1.21-2.2.0.0-beta" = _z8Lnr3xx;
+        "pkg-1.21-2.2.1.0-beta" = _deVAPJM0;
+        "pkg-1.21-2.2.2.0-beta" = _Pdih04zV;
+        "pkg-1.21-2.2.3.0-beta" = _2KUbzbjh;
+        "pkg-1.20.1-2.0.2.0-beta" = _JDYdl7h0;
+        "pkg-1.20.6-2.1.1.0-beta" = _YxdbREWI;
+        "pkg-1.21-2.2.4.0-beta" = _7XUtra30;
+        "pkg-1.21.1-2.3.0.0-beta" = _tmRu0g7o;
+        "pkg-1.21.4-2.4.0.0-beta" = _jLknlnXK;
+        "pkg-1.21.4-2.4.1.0-beta" = _6LYpUBJm;
+        "pkg-1.21-2.2.5.0-beta" = _mokFKVqp;
+        "pkg-1.21.1-2.3.1.0-beta" = _xSuXbBZw;
+        "pkg-1.21.4-2.4.2.0-beta" = _9VCoeZVL;
+        "pkg-1.21.5-2.5.0.0-beta" = _S2of34tw;
+        "pkg-1.21.6-2.6.0.0-beta" = _dS24OOod;
+        "pkg-1.21.7-2.7.0.0-beta" = _oJY4hi1r;
+        "pkg-1.20.1-2.0.3.0-beta" = _aVvWipwA;
         "default" = _aVvWipwA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

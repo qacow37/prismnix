@@ -16,6 +16,8 @@ let
         "kwFjDXSX" = _kwFjDXSX;
         "fabric-1.21" = _atfAnxMT;
         "fabric-1.21.8" = _kwFjDXSX;
+        "pkg-1.0.0" = _atfAnxMT;
+        "pkg-1.0.1-BETA" = _kwFjDXSX;
         "default" = _kwFjDXSX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

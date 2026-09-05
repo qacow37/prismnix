@@ -9,6 +9,7 @@ let
     in {
         "WTIeeWsU" = _WTIeeWsU;
         "fabric-1.20.1" = _WTIeeWsU;
+        "pkg-1.0.0" = _WTIeeWsU;
         "default" = _WTIeeWsU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "As9ki3Vr" = _As9ki3Vr;
         "forge-1.20.1" = _NPwFiIHV;
         "fabric-1.21.1" = _As9ki3Vr;
+        "pkg-1.0.3" = _NPwFiIHV;
+        "pkg-1.0-SNAPSHOT" = _As9ki3Vr;
         "default" = _As9ki3Vr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

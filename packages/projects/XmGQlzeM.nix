@@ -10,6 +10,7 @@ let
         "17YyKroD" = _17YyKroD;
         "minecraft-1.16.5" = _17YyKroD;
         "minecraft-1.18.2" = _17YyKroD;
+        "pkg-1" = _17YyKroD;
         "default" = _17YyKroD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -39,6 +39,12 @@ let
         "6VJOKSeL" = _6VJOKSeL;
         "TLTGeAVT" = _TLTGeAVT;
         "fabric-1.21.11" = _TLTGeAVT;
+        "pkg-1.0.0" = _GAW8EDXg;
+        "pkg-1.0.1" = _kkyjiQKs;
+        "pkg-1.0.2" = _8aceOsjI;
+        "pkg-1.1.0" = _K58iDSwO;
+        "pkg-1.1.1" = _6VJOKSeL;
+        "pkg-1.1.2" = _TLTGeAVT;
         "default" = _TLTGeAVT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

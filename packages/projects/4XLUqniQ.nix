@@ -71,6 +71,11 @@ let
         "minecraft-1.21.7" = _SzZCN7BY;
         "minecraft-1.21.9" = _mpWrt70z;
         "minecraft-1.21.11" = _QowPvWCc;
+        "pkg-SpawnEgg3D-1.21.4" = _Kh78txus;
+        "pkg-SpawnEgg3D-1.22(25w05a)" = _OHpOXUgO;
+        "pkg-SpawnEgg3D-1.21.7" = _SzZCN7BY;
+        "pkg-SpawnEgg3D-1.21.9" = _mpWrt70z;
+        "pkg-SpawnEgg3D-1.21.11" = _QowPvWCc;
         "default" = _QowPvWCc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

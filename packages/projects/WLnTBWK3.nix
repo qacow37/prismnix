@@ -30,6 +30,10 @@ let
         "minecraft-rd-20090515" = _wb1hAs21;
         "minecraft-rd-160052" = _ZcC4xUxL;
         "minecraft-rd-161348" = _vB9bpJAJ;
+        "pkg-rd-132211" = _FdV1xXuT;
+        "pkg-rd-20090515" = _wb1hAs21;
+        "pkg-rd-160052" = _ZcC4xUxL;
+        "pkg-rd-161348" = _vB9bpJAJ;
         "default" = _vB9bpJAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

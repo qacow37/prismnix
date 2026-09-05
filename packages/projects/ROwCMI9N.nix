@@ -15,6 +15,8 @@ let
         "zpBqBn2U" = _zpBqBn2U;
         "3NaKstBy" = _3NaKstBy;
         "forge-1.20.1" = _3NaKstBy;
+        "pkg-1.1.4" = _zpBqBn2U;
+        "pkg-1.1.5" = _3NaKstBy;
         "default" = _3NaKstBy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

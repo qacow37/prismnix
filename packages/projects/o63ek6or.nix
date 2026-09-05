@@ -15,6 +15,8 @@ let
         "8aIGL9XN" = _8aIGL9XN;
         "ejjEVevm" = _ejjEVevm;
         "fabric-1.21.11" = _ejjEVevm;
+        "pkg-1.0.0" = _8aIGL9XN;
+        "pkg-1.0.1" = _ejjEVevm;
         "default" = _ejjEVevm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

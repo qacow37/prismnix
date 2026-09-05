@@ -9,6 +9,7 @@ let
     in {
         "tuQ3QpJN" = _tuQ3QpJN;
         "forge-1.12.2" = _tuQ3QpJN;
+        "pkg-1.0.0_0" = _tuQ3QpJN;
         "default" = _tuQ3QpJN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

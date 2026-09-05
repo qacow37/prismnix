@@ -62,6 +62,8 @@ let
         "minecraft-1.20.6" = _o5yFKl4D;
         "minecraft-1.21" = _CAifVbal;
         "minecraft-1.21.1" = _CAifVbal;
+        "pkg-1.0" = _OKPTkyZx;
+        "pkg-1.1" = _CAifVbal;
         "default" = _CAifVbal;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

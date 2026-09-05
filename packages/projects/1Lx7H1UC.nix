@@ -18,6 +18,8 @@ let
         "minecraft-1.19.4" = _ZHClcTKl;
         "minecraft-1.20.1" = _ZHClcTKl;
         "minecraft-1.20.4" = _ZHClcTKl;
+        "pkg-1.0" = _XTGQIzz6;
+        "pkg-1.1" = _ZHClcTKl;
         "default" = _ZHClcTKl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

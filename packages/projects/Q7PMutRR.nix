@@ -55,6 +55,11 @@ let
         "babric-b1.8" = _honmc4iU;
         "babric-b1.8.1" = _honmc4iU;
         "bta-babric-b1.7.3" = _225w6wxW;
+        "pkg-1.0.0" = _DZDT4HWL;
+        "pkg-1.0.1" = _z7xf2Zc0;
+        "pkg-1.0.0-b1.7.3" = _225w6wxW;
+        "pkg-1.0.1-b1.7.3" = _honmc4iU;
+        "pkg-1.0.2" = _wMthe54D;
         "default" = _225w6wxW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

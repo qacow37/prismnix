@@ -48,6 +48,9 @@ let
         "minecraft-26.1" = _5qfv0PiL;
         "minecraft-26.1.1" = _5qfv0PiL;
         "minecraft-26.1.2" = _5qfv0PiL;
+        "pkg-DarkCrimsonIsleV5" = _zEEaiSIS;
+        "pkg-DarkCrimsonIslev5" = _iYVxW6A6;
+        "pkg-DarkCrimsonIslev6" = _5qfv0PiL;
         "default" = _5qfv0PiL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

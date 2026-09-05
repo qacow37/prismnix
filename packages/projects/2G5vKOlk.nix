@@ -10,6 +10,7 @@ let
         "JLS25T10" = _JLS25T10;
         "fabric-1.20" = _JLS25T10;
         "fabric-1.20.1" = _JLS25T10;
+        "pkg-1.0.0" = _JLS25T10;
         "default" = _JLS25T10;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

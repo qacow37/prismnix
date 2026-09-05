@@ -32,6 +32,8 @@ let
         "neoforge-1.19.3" = _qHUBLudS;
         "neoforge-1.19.4" = _qHUBLudS;
         "neoforge-1.20.1" = _qHUBLudS;
+        "pkg-1.0.0" = _M0BIdr2r;
+        "pkg-1.0.0+mod" = _qHUBLudS;
         "default" = _qHUBLudS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -180,6 +180,7 @@ let
         "minecraft-1.8.7" = _qwisRCNi;
         "minecraft-1.8.8" = _qwisRCNi;
         "minecraft-1.8.9" = _qwisRCNi;
+        "pkg-1.0.0" = _qwisRCNi;
         "default" = _qwisRCNi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

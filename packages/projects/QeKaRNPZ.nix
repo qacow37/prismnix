@@ -27,6 +27,10 @@ let
         "Pj7PO6Hy" = _Pj7PO6Hy;
         "HektAbor" = _HektAbor;
         "forge-1.20.1" = _HektAbor;
+        "pkg-2.6.6" = _wTvuHup7;
+        "pkg-2.7" = _1FMnr2ed;
+        "pkg-2.7.1" = _Pj7PO6Hy;
+        "pkg-2.7.2" = _HektAbor;
         "default" = _HektAbor;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

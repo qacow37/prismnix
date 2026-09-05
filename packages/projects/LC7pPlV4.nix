@@ -16,6 +16,8 @@ let
         "R34JFdlX" = _R34JFdlX;
         "fabric-1.20.1" = _R34JFdlX;
         "forge-1.20.1" = _R34JFdlX;
+        "pkg-1.0.0" = _YCXtZdEW;
+        "pkg-1.0.1" = _R34JFdlX;
         "default" = _R34JFdlX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

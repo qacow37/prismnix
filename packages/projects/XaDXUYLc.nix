@@ -67,6 +67,8 @@ let
         "datapack-26.1.1" = _L1smiUTM;
         "datapack-26.1.2" = _L1smiUTM;
         "datapack-26.2" = _L1smiUTM;
+        "pkg-6.0" = _Jn3Hz3ZW;
+        "pkg-7.0" = _L1smiUTM;
         "default" = _L1smiUTM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

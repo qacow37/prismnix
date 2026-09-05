@@ -40,6 +40,10 @@ let
         "ENXbOllO" = _ENXbOllO;
         "forge-1.20.1" = _dmQUgWrM;
         "fabric-1.20.1" = _ENXbOllO;
+        "pkg-0.1.0" = _WO3prFOn;
+        "pkg-0.1.1" = _z2lcoB4o;
+        "pkg-0.1.2" = _dmQUgWrM;
+        "pkg-0.2.0" = _ENXbOllO;
         "default" = _ENXbOllO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "CCfPGWP7" = _CCfPGWP7;
         "forge-1.12.2" = _CCfPGWP7;
+        "pkg-1.5.1" = _CCfPGWP7;
         "default" = _CCfPGWP7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "jRWdipsM" = _jRWdipsM;
         "STAEVr4k" = _STAEVr4k;
         "neoforge-1.21.1" = _STAEVr4k;
+        "pkg-0.1.0" = _jRWdipsM;
+        "pkg-0.1.1" = _STAEVr4k;
         "default" = _STAEVr4k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

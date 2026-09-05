@@ -54,6 +54,10 @@ let
         "minecraft-26.1.1" = _Wga5ZIkZ;
         "minecraft-26.1.2" = _Wga5ZIkZ;
         "minecraft-26.2" = _Wga5ZIkZ;
+        "pkg-1.0" = _dBKCns50;
+        "pkg-1.1" = _nac1pgpV;
+        "pkg-1.2" = _bYhke9gj;
+        "pkg-1.3" = _Wga5ZIkZ;
         "default" = _Wga5ZIkZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

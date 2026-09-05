@@ -134,6 +134,14 @@ let
         "spigot-26.1.1" = _5hfMKnoW;
         "spigot-26.1.2" = _5hfMKnoW;
         "spigot-26.2" = _5hfMKnoW;
+        "pkg-v20230613-alpha" = _BUDk36dz;
+        "pkg-v20230621-alpha" = _jOxVhsP8;
+        "pkg-v20230817b-alpha" = _SjNYwctt;
+        "pkg-v20231102" = _kcVg26pz;
+        "pkg-v20240420-beta" = _yBx8gZEr;
+        "pkg-v20240824-beta" = _4LJUtNS5;
+        "pkg-20250220c" = _adbR7c5l;
+        "pkg-20260625-0111" = _5hfMKnoW;
         "default" = _5hfMKnoW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

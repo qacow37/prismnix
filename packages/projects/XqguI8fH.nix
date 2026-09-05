@@ -151,6 +151,20 @@ let
         "bukkit-1.21.8" = _3HU63FUx;
         "bukkit-1.21.9" = _3HU63FUx;
         "bukkit-1.21.10" = _3HU63FUx;
+        "pkg-1.0" = _JMSQLOKS;
+        "pkg-1.0.0.0" = _g0uUAmxY;
+        "pkg-1.1.0.0" = _SOSPsxUD;
+        "pkg-1.1.1.0" = _yAPui41t;
+        "pkg-1.1.2.0" = _gKK0Z78P;
+        "pkg-2.1.2.0" = _85JypyO2;
+        "pkg-2.1.3.0" = _Muck1J7s;
+        "pkg-2.1.3.1" = _k2TND94o;
+        "pkg-2.1.4.0" = _3HU63FUx;
+        "pkg-2.1.4.1" = _bMYaBXsH;
+        "pkg-2.1.4.2" = _f29Lt5Ds;
+        "pkg-2.1.4.3" = _ssHJh8w1;
+        "pkg-2.5.4.3" = _nfDxWA7y;
+        "pkg-2.5.5.0" = _XPVwy1DP;
         "default" = _XPVwy1DP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

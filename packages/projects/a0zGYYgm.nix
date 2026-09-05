@@ -15,6 +15,8 @@ let
         "18XtLoOU" = _18XtLoOU;
         "lf36uCMP" = _lf36uCMP;
         "forge-1.19.2" = _lf36uCMP;
+        "pkg-1.0.0-RELEASE" = _18XtLoOU;
+        "pkg-1.0.0.1" = _lf36uCMP;
         "default" = _lf36uCMP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

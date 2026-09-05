@@ -91,6 +91,8 @@ let
         "quilt-1.21.10" = _uBOVAX12;
         "quilt-1.21.11" = _uBOVAX12;
         "quilt-26.2" = _fACGIzZk;
+        "pkg-1.0" = _uBOVAX12;
+        "pkg-26.2" = _fACGIzZk;
         "default" = _fACGIzZk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

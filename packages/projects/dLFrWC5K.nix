@@ -45,6 +45,13 @@ let
         "yetg3dca" = _yetg3dca;
         "uc2uCcIW" = _uc2uCcIW;
         "fabric-1.21.1" = _uc2uCcIW;
+        "pkg-0.0.1" = _o5hxy3ec;
+        "pkg-0.1.0" = _PgBnCktF;
+        "pkg-1.0.0" = _lOTlFQJw;
+        "pkg-1.1.0" = _VfZVxoin;
+        "pkg-1.2.0" = _Z9JJrYC0;
+        "pkg-1.3.0" = _yetg3dca;
+        "pkg-1.3.1" = _uc2uCcIW;
         "default" = _uc2uCcIW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

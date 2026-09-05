@@ -70,6 +70,7 @@ let
         "fabric-1.16.3" = _zeVpJPaB;
         "fabric-1.16.4" = _zeVpJPaB;
         "fabric-1.16.5" = _zeVpJPaB;
+        "pkg-1.0.0" = _zeVpJPaB;
         "default" = _zeVpJPaB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "gwCE4NWm" = _gwCE4NWm;
         "minecraft-1.20" = _gwCE4NWm;
         "minecraft-1.20.1" = _gwCE4NWm;
+        "pkg-1" = _gwCE4NWm;
         "default" = _gwCE4NWm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

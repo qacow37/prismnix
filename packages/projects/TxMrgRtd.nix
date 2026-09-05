@@ -16,6 +16,8 @@ let
         "6hen4Hei" = _6hen4Hei;
         "neoforge-1.21.1" = _CUVrJLnw;
         "forge-1.20.1" = _6hen4Hei;
+        "pkg-1.21.1-2.1.1" = _CUVrJLnw;
+        "pkg-1.20.1-2.0.0" = _6hen4Hei;
         "default" = _6hen4Hei;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

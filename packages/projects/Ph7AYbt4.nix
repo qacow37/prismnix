@@ -9,6 +9,7 @@ let
     in {
         "HerNk61M" = _HerNk61M;
         "neoforge-1.21.1" = _HerNk61M;
+        "pkg-1.0.3" = _HerNk61M;
         "default" = _HerNk61M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

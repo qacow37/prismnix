@@ -20,6 +20,8 @@ let
         "fabric-1.18" = _UryiZZxn;
         "fabric-1.18.1" = _UryiZZxn;
         "fabric-1.18.2" = _UryiZZxn;
+        "pkg-1.0.1" = _2sp8LT3F;
+        "pkg-v3-2.0.0" = _UryiZZxn;
         "default" = _UryiZZxn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

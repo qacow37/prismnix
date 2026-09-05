@@ -40,6 +40,9 @@ let
         "Jwdpo3CR" = _Jwdpo3CR;
         "fabric-1.21.1" = _ddyadO7b;
         "neoforge-1.21.1" = _Jwdpo3CR;
+        "pkg-2.0.0" = _3hWf45Ug;
+        "pkg-2.0.1" = _6brfdRdQ;
+        "pkg-2.0.2" = _Jwdpo3CR;
         "default" = _Jwdpo3CR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

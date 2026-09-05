@@ -36,6 +36,9 @@ let
         "fabric-1.20.2" = _N550RAtr;
         "fabric-1.20.3" = _N550RAtr;
         "fabric-1.20.4" = _N550RAtr;
+        "pkg-1.0.0" = _aAuoeH0f;
+        "pkg-1.0.0+1.19.4" = _9R2BAUwu;
+        "pkg-1.0.1+1.20.2" = _N550RAtr;
         "default" = _N550RAtr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

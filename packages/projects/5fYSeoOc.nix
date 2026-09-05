@@ -88,6 +88,14 @@ let
         "neoforge-26.1.1" = _BSCNEPAv;
         "neoforge-26.1.2" = _BSCNEPAv;
         "neoforge-26.2" = _BSCNEPAv;
+        "pkg-0.0.1-1.21" = _8SUCyrd1;
+        "pkg-0.0.1-1.21.11" = _69KZW9Vw;
+        "pkg-0.0.1-26.1" = _Uf2YzTa9;
+        "pkg-0.0.2+mc26.1" = _BSCNEPAv;
+        "pkg-0.0.2+mc1.21-1.21.10" = _LbUFhJxq;
+        "pkg-0.0.2+mc1.21.11" = _b87kshIP;
+        "pkg-0.0.3+mc1.21-1.21.10" = _7paXM5n6;
+        "pkg-0.0.3+mc1.21.11" = _bWWYCSlg;
         "default" = _BSCNEPAv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

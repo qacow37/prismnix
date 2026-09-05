@@ -15,6 +15,8 @@ let
         "r2SeiygE" = _r2SeiygE;
         "6DfcmffU" = _6DfcmffU;
         "forge-1.20.1" = _6DfcmffU;
+        "pkg-3.0.0-beta.1" = _r2SeiygE;
+        "pkg-3.0.0-beta.5" = _6DfcmffU;
         "default" = _6DfcmffU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

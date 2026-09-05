@@ -81,6 +81,11 @@ let
         "minecraft-1.20.4" = _xe3Neorp;
         "minecraft-1.20.5" = _xe3Neorp;
         "minecraft-1.20.6" = _xe3Neorp;
+        "pkg-2.0.1" = _Jq3VFptc;
+        "pkg-2.1" = _x26NUZuM;
+        "pkg-2.1-B" = _v3liU3qK;
+        "pkg-2.2" = _M2Itm1Px;
+        "pkg-2.3" = _xe3Neorp;
         "default" = _xe3Neorp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

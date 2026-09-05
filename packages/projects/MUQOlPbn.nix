@@ -74,6 +74,8 @@ let
         "quilt-1.21.9" = _Ug79mAua;
         "quilt-1.21.10" = _Ug79mAua;
         "quilt-1.21.11" = _Ug79mAua;
+        "pkg-1.0" = _D1bP8WbZ;
+        "pkg-1.0+mod" = _Ug79mAua;
         "default" = _Ug79mAua;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

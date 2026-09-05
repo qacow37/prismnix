@@ -34,6 +34,11 @@ let
         "KqqspTro" = _KqqspTro;
         "quilt-1.19.2" = _KqqspTro;
         "fabric-1.19.2" = _KqqspTro;
+        "pkg-1.0.0" = _mbaNi8xx;
+        "pkg-1.0.1" = _i9IKgpr0;
+        "pkg-1.0.2" = _XLaz4m1Y;
+        "pkg-1.0.3" = _8uSmL3fh;
+        "pkg-1.0.3-fabric" = _KqqspTro;
         "default" = _KqqspTro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

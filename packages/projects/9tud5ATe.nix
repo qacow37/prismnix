@@ -34,6 +34,8 @@ let
         "quilt-1.20.2" = _GeitDAGj;
         "quilt-1.20.3" = _GeitDAGj;
         "quilt-1.20.4" = _GeitDAGj;
+        "pkg-1.0" = _AMk4X91g;
+        "pkg-1.0+mod" = _GeitDAGj;
         "default" = _GeitDAGj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

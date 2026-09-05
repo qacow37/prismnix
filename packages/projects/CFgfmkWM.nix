@@ -9,6 +9,7 @@ let
     in {
         "hzVjuNZF" = _hzVjuNZF;
         "minecraft-1.20.1" = _hzVjuNZF;
+        "pkg-rusty_0925" = _hzVjuNZF;
         "default" = _hzVjuNZF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

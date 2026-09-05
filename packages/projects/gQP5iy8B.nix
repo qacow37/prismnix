@@ -16,6 +16,8 @@ let
         "FJJTL5tW" = _FJJTL5tW;
         "forge-1.18.2" = _XKgGXdml;
         "forge-1.16.5" = _FJJTL5tW;
+        "pkg-1.0.3" = _XKgGXdml;
+        "pkg-1.0.2" = _FJJTL5tW;
         "default" = _FJJTL5tW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

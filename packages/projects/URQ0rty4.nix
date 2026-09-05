@@ -64,6 +64,11 @@ let
         "fabric-26.2" = _U2yK6JBs;
         "quilt-1.21.11" = _fjXjgW4s;
         "neoforge-1.21.11" = _IstJTCUu;
+        "pkg-1.0.0" = _Hfp5OivB;
+        "pkg-2.0" = _8CzlwRbN;
+        "pkg-2.5" = _GHUfYTKc;
+        "pkg-2.6" = _Nz1ZBwKX;
+        "pkg-2.7" = _U2yK6JBs;
         "default" = _U2yK6JBs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

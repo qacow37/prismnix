@@ -11,6 +11,7 @@ let
         "fabric-1.19" = _nvh4XPN9;
         "fabric-1.19.1" = _nvh4XPN9;
         "fabric-1.19.2" = _nvh4XPN9;
+        "pkg-1.0.0" = _nvh4XPN9;
         "default" = _nvh4XPN9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

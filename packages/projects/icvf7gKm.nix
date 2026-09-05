@@ -18,6 +18,8 @@ let
         "fabric-1.20.1" = _eMiA64Vb;
         "quilt-1.20" = _eMiA64Vb;
         "quilt-1.20.1" = _eMiA64Vb;
+        "pkg-1.0" = _vPk3y4zz;
+        "pkg-1.1" = _eMiA64Vb;
         "default" = _eMiA64Vb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

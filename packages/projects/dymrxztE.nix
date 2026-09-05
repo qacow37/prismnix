@@ -15,6 +15,8 @@ let
         "CeOrwn0K" = _CeOrwn0K;
         "8pVbwTcI" = _8pVbwTcI;
         "forge-1.20.1" = _8pVbwTcI;
+        "pkg-1.5.1" = _CeOrwn0K;
+        "pkg-1.5.2" = _8pVbwTcI;
         "default" = _8pVbwTcI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

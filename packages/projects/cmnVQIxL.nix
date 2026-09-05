@@ -27,6 +27,10 @@ let
         "BlLTatFu" = _BlLTatFu;
         "rIPEZY84" = _rIPEZY84;
         "forge-1.16.5" = _rIPEZY84;
+        "pkg-0.0.1" = _uZbgMzD0;
+        "pkg-0.0.2" = _GIrvmLGZ;
+        "pkg-0.0.3" = _BlLTatFu;
+        "pkg-0.0.4" = _rIPEZY84;
         "default" = _rIPEZY84;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

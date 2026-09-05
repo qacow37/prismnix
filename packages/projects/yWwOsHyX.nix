@@ -18,6 +18,7 @@ let
         "fabric-1.20.4" = _IvbeVBCJ;
         "forge-1.20.1" = _IvbeVBCJ;
         "forge-1.20.4" = _IvbeVBCJ;
+        "pkg-1.0" = _IvbeVBCJ;
         "default" = _IvbeVBCJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

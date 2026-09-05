@@ -10,6 +10,7 @@ let
         "DalRtapS" = _DalRtapS;
         "minecraft-1.21.4" = _DalRtapS;
         "minecraft-1.21.7" = _DalRtapS;
+        "pkg-1" = _DalRtapS;
         "default" = _DalRtapS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

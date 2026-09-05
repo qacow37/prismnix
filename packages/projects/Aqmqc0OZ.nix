@@ -16,6 +16,8 @@ let
         "Uk4eHxyM" = _Uk4eHxyM;
         "datapack-1.20.1" = _ablhSk86;
         "fabric-1.20.1" = _Uk4eHxyM;
+        "pkg-1.0.0" = _ablhSk86;
+        "pkg-1.0.0+mod" = _Uk4eHxyM;
         "default" = _Uk4eHxyM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "mrmMITUL" = _mrmMITUL;
         "H1UegNiW" = _H1UegNiW;
         "neoforge-1.21.1" = _H1UegNiW;
+        "pkg-1.0.0" = _TcLBnPl7;
+        "pkg-1.0.1" = _mrmMITUL;
+        "pkg-1.0.2" = _H1UegNiW;
         "default" = _H1UegNiW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

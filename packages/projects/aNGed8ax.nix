@@ -52,6 +52,7 @@ let
         "spigot-26.1" = _jksmKs88;
         "spigot-26.1.1" = _jksmKs88;
         "spigot-26.1.2" = _jksmKs88;
+        "pkg-1.2.5" = _jksmKs88;
         "default" = _jksmKs88;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

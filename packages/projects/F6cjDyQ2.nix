@@ -54,6 +54,7 @@ let
         "optifine-26.1.1" = _AOiBMMrz;
         "optifine-26.1.2" = _AOiBMMrz;
         "optifine-26.2" = _AOiBMMrz;
+        "pkg-1.0" = _AOiBMMrz;
         "default" = _AOiBMMrz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

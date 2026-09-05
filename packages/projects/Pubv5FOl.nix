@@ -16,6 +16,7 @@ let
         "oKpBaHUI" = _oKpBaHUI;
         "forge-1.16.5" = _lgkGTd7F;
         "forge-1.20.1" = _oKpBaHUI;
+        "pkg-1.4.0" = _oKpBaHUI;
         "default" = _oKpBaHUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

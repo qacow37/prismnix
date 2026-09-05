@@ -15,6 +15,7 @@ let
         "minecraft-1.21.4" = _hCOsS4Ip;
         "minecraft-1.21.5" = _hCOsS4Ip;
         "minecraft-1.21.6" = _hCOsS4Ip;
+        "pkg-1" = _hCOsS4Ip;
         "default" = _hCOsS4Ip;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

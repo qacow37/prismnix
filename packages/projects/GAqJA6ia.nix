@@ -73,6 +73,10 @@ let
         "legacy-fabric-1.13" = _Zh2JLFek;
         "legacy-fabric-1.13.1" = _Zh2JLFek;
         "legacy-fabric-1.13.2" = _Zh2JLFek;
+        "pkg-Ver-A" = _p0auy68N;
+        "pkg-Ver-B" = _FW5OG8MZ;
+        "pkg-Ver-C" = _oedMVMFT;
+        "pkg-Ver-D" = _Zh2JLFek;
         "default" = _Zh2JLFek;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

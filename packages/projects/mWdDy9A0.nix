@@ -84,6 +84,13 @@ let
         "forge-1.20.3" = _B9fXEIOv;
         "forge-1.20.4" = _B9fXEIOv;
         "forge-1.19.4" = _FFgX70q1;
+        "pkg-20.1.4" = _sWhP3ogE;
+        "pkg-20.1.4-test" = _o8ozyiiQ;
+        "pkg-20.3.0" = _Cdh02cwK;
+        "pkg-19.4.0" = _s1vUE6kk;
+        "pkg-19.4.1" = _FFgX70q1;
+        "pkg-20.3.1" = _B9fXEIOv;
+        "pkg-20.1.5" = _oQcz6PNL;
         "default" = _oQcz6PNL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

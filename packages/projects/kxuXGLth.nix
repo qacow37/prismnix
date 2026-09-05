@@ -9,6 +9,7 @@ let
     in {
         "ZMeBsAOT" = _ZMeBsAOT;
         "forge-1.7.10" = _ZMeBsAOT;
+        "pkg-1.1" = _ZMeBsAOT;
         "default" = _ZMeBsAOT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

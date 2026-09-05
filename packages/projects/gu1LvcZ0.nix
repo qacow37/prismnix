@@ -26,6 +26,8 @@ let
         "paper-1.16.5" = _3UysbfPV;
         "paper-1.17" = _3UysbfPV;
         "paper-1.17.1" = _3UysbfPV;
+        "pkg-2.0.0" = _MBudImMp;
+        "pkg-1.3.0" = _3UysbfPV;
         "default" = _3UysbfPV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

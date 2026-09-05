@@ -463,6 +463,7 @@ let
         "minecraft-26.3-snapshot-1" = _yvDr33GB;
         "minecraft-26.3-snapshot-2" = _yvDr33GB;
         "minecraft-26.3-snapshot-3" = _yvDr33GB;
+        "pkg-1" = _yvDr33GB;
         "default" = _yvDr33GB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

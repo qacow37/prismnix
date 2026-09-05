@@ -27,6 +27,10 @@ let
         "ercrdtAY" = _ercrdtAY;
         "I4KE9SBL" = _I4KE9SBL;
         "forge-1.20.1" = _I4KE9SBL;
+        "pkg-1.0.0" = _RlXNdcir;
+        "pkg-1.0.1" = _GfSn4b1z;
+        "pkg-1.0.2" = _ercrdtAY;
+        "pkg-1.0.3" = _I4KE9SBL;
         "default" = _I4KE9SBL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

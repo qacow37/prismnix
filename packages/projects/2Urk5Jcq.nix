@@ -43,6 +43,8 @@ let
         "minecraft-1.21.3" = _PRAoTa7t;
         "minecraft-1.21.4" = _PRAoTa7t;
         "minecraft-1.21.5" = _PRAoTa7t;
+        "pkg-1.21.1" = _gz7XyHHs;
+        "pkg-CleanerTextures" = _PRAoTa7t;
         "default" = _PRAoTa7t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

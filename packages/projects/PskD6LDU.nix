@@ -33,6 +33,11 @@ let
         "BqIgAnKV" = _BqIgAnKV;
         "MuLiB7bA" = _MuLiB7bA;
         "neoforge-1.21.1" = _MuLiB7bA;
+        "pkg-1.0.0-gamma" = _oHIXUMgV;
+        "pkg-1.1.0-gamma" = _YJkRej8n;
+        "pkg-1.1.0-gamma-hotfix" = _20SNzAds;
+        "pkg-0.5.6-delta" = _BqIgAnKV;
+        "pkg-0.5.7-delta" = _MuLiB7bA;
         "default" = _MuLiB7bA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

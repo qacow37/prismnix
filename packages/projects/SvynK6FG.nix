@@ -67,6 +67,9 @@ let
         "optifine-1.20.6" = _vmKfCvnE;
         "optifine-1.21" = _vmKfCvnE;
         "optifine-1.21.1" = _vmKfCvnE;
+        "pkg-1.0" = _ZlKUZC0x;
+        "pkg-1.1" = _vmKfCvnE;
+        "pkg-1.2" = _YpOxmaDM;
         "default" = _YpOxmaDM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

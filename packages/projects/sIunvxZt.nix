@@ -22,6 +22,7 @@ let
         "minecraft-1.20.6" = _GUqNlApy;
         "minecraft-1.21" = _GUqNlApy;
         "minecraft-1.21.1" = _GUqNlApy;
+        "pkg-100" = _GUqNlApy;
         "default" = _GUqNlApy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

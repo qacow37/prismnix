@@ -52,6 +52,13 @@ let
         "NvSOXE3L" = _NvSOXE3L;
         "forge-1.20.1" = _MvXDVfBj;
         "fabric-1.21.1" = _NvSOXE3L;
+        "pkg-1.0.0" = _NvSOXE3L;
+        "pkg-1.0.1" = _AeVPmcWQ;
+        "pkg-1.0.2" = _ZAkOwqlM;
+        "pkg-1.0.3" = _jDGiqm72;
+        "pkg-1.0.4" = _uwru67BT;
+        "pkg-1.0.5" = _wF3DcFRT;
+        "pkg-1.0.6" = _MvXDVfBj;
         "default" = _NvSOXE3L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

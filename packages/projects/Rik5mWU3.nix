@@ -16,6 +16,8 @@ let
         "iksGqeli" = _iksGqeli;
         "neoforge-1.21" = _iksGqeli;
         "neoforge-1.21.1" = _iksGqeli;
+        "pkg-1.0.0" = _fqug5IRM;
+        "pkg-1.0.1" = _iksGqeli;
         "default" = _iksGqeli;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

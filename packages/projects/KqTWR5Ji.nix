@@ -173,6 +173,17 @@ let
         "bungeecord-1.21.3" = _fouIp34g;
         "bungeecord-1.21.4" = _fouIp34g;
         "bungeecord-1.21.5" = _fouIp34g;
+        "pkg-2.0.3-stable" = _awDovKIk;
+        "pkg-2.1.0-stable" = _AQhuAjZj;
+        "pkg-2.1.1-stable" = _tZZstL4S;
+        "pkg-2.1.2-stable" = _3Lj7s58w;
+        "pkg-2.1.3-snapshot" = _ZfPCL9KW;
+        "pkg-2.1.3-stable" = _WYyijqv1;
+        "pkg-2.1.4-stable" = _nbAmzXdq;
+        "pkg-2.2.0-stable" = _RMh3OipW;
+        "pkg-2.2.0-dev" = _5Jtj8ydt;
+        "pkg-2.3.0-dev" = _NJ1YF9W2;
+        "pkg-2.3.0-dev.234" = _fouIp34g;
         "default" = _fouIp34g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

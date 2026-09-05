@@ -27,6 +27,10 @@ let
         "9OxogIFC" = _9OxogIFC;
         "UJCXAjOK" = _UJCXAjOK;
         "forge-1.7.10" = _UJCXAjOK;
+        "pkg-2.0.0" = _oiqpcXI7;
+        "pkg-2.0.1" = _MishHx1B;
+        "pkg-2.0.2" = _9OxogIFC;
+        "pkg-3.0.0" = _UJCXAjOK;
         "default" = _UJCXAjOK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

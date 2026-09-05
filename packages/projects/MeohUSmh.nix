@@ -29,6 +29,9 @@ let
         "quilt-1.19" = _H1SpMsGN;
         "quilt-1.19.1" = _H1SpMsGN;
         "quilt-1.19.2" = _H1SpMsGN;
+        "pkg-1.0.0+1.19" = _H1SpMsGN;
+        "pkg-1.0.0+1.19.3" = _mmG8pxNp;
+        "pkg-1.0.0+1.20" = _3VNKMP8G;
         "default" = _3VNKMP8G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

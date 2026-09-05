@@ -221,6 +221,11 @@ let
         "minecraft-26.1.2" = _CoQxZind;
         "minecraft-26.2-snapshot-2" = _CoQxZind;
         "minecraft-26.2-snapshot-3" = _CoQxZind;
+        "pkg-V1" = _huVoVlYy;
+        "pkg-V2" = _8jm2IB0j;
+        "pkg-V2_Beta" = _XPNTi0LK;
+        "pkg-V3" = _B6oc5MZe;
+        "pkg-Vanilla_Shader_v3_release_2026.1" = _CoQxZind;
         "default" = _CoQxZind;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "KCBRS5ML" = _KCBRS5ML;
         "QiKmSZyf" = _QiKmSZyf;
         "neoforge-1.21.1" = _QiKmSZyf;
+        "pkg-1.6.0" = _Sbj2VJFD;
+        "pkg-1.6.1" = _KCBRS5ML;
+        "pkg-1.6.2" = _QiKmSZyf;
         "default" = _QiKmSZyf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

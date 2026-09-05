@@ -49,6 +49,13 @@ let
         "fabric-1.20.2" = _J7ArGysb;
         "fabric-1.21.4" = _JluKJ3ik;
         "forge-1.12.2" = _7CAOtboe;
+        "pkg-1.0" = _Q84FTiql;
+        "pkg-1.2" = _7CAOtboe;
+        "pkg-1.1" = _LsXWbYGC;
+        "pkg-1.1.1+1.19.4" = _g7bLzU1W;
+        "pkg-1.1.3+1.20.2" = _x5QkqDTg;
+        "pkg-1.1.4+1.20.2" = _J7ArGysb;
+        "pkg-1.1.5+1.21.4" = _JluKJ3ik;
         "default" = _JluKJ3ik;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

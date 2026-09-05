@@ -30,6 +30,7 @@ let
         "fabric-1.20" = _zGemlmwK;
         "fabric-1.20.1" = _zGemlmwK;
         "fabric-1.20.2" = _zGemlmwK;
+        "pkg-1.0.0" = _zGemlmwK;
         "default" = _zGemlmwK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

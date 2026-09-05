@@ -9,6 +9,7 @@ let
     in {
         "Dhyiap4h" = _Dhyiap4h;
         "forge-1.20.1" = _Dhyiap4h;
+        "pkg-1.0-SNAPSHOT" = _Dhyiap4h;
         "default" = _Dhyiap4h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

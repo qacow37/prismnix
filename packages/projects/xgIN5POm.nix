@@ -9,6 +9,7 @@ let
     in {
         "xMVYi2CV" = _xMVYi2CV;
         "minecraft-1.20.1" = _xMVYi2CV;
+        "pkg-1" = _xMVYi2CV;
         "default" = _xMVYi2CV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -33,6 +33,11 @@ let
         "ifIMTNDz" = _ifIMTNDz;
         "ouScerv7" = _ouScerv7;
         "fabric-1.20.1" = _ouScerv7;
+        "pkg-1.0.0" = _ddbu43Lz;
+        "pkg-1.0.1" = _WfvvQSAY;
+        "pkg-1.0.2" = _NakNAUdr;
+        "pkg-1.0.3" = _ifIMTNDz;
+        "pkg-1.1" = _ouScerv7;
         "default" = _ouScerv7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

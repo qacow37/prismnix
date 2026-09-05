@@ -16,6 +16,8 @@ let
         "6qVN4yEB" = _6qVN4yEB;
         "datapack-1.20.1" = _nSDl04Gd;
         "fabric-1.20.1" = _6qVN4yEB;
+        "pkg-1.9.5" = _nSDl04Gd;
+        "pkg-1.9.5+mod" = _6qVN4yEB;
         "default" = _6qVN4yEB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

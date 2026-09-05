@@ -27,6 +27,10 @@ let
         "AiKZRAuv" = _AiKZRAuv;
         "ge2ASciU" = _ge2ASciU;
         "neoforge-1.21.1" = _ge2ASciU;
+        "pkg-1.0" = _1P9jMp5Q;
+        "pkg-1.3" = _YkrQmVuy;
+        "pkg-1.4" = _AiKZRAuv;
+        "pkg-1.5" = _ge2ASciU;
         "default" = _ge2ASciU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

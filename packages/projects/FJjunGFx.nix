@@ -88,6 +88,8 @@ let
         "quilt-1.21.4" = _FEIJbut1;
         "quilt-1.21.5" = _FEIJbut1;
         "forge-1.20.1" = _GfKxRSLK;
+        "pkg-1.0.0" = _saEZjqfF;
+        "pkg-1.2.0" = _zlKbDAGg;
         "default" = _saEZjqfF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

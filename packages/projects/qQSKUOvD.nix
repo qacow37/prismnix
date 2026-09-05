@@ -44,6 +44,7 @@ let
         "fabric-1.20.6" = _yDICLQrq;
         "fabric-1.21" = _yDICLQrq;
         "fabric-1.21.1" = _yDICLQrq;
+        "pkg-1.0.0" = _yDICLQrq;
         "default" = _yDICLQrq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

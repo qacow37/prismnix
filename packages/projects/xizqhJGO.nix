@@ -15,6 +15,8 @@ let
         "sZP2LKeK" = _sZP2LKeK;
         "vORnuc6n" = _vORnuc6n;
         "fabric-1.21.10" = _vORnuc6n;
+        "pkg-2.3" = _sZP2LKeK;
+        "pkg-2.4" = _vORnuc6n;
         "default" = _vORnuc6n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

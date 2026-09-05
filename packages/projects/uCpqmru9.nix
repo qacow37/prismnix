@@ -46,6 +46,11 @@ let
         "Vba3fggf" = _Vba3fggf;
         "fabric-1.19.2" = _pUO6pmAq;
         "forge-1.19.2" = _Vba3fggf;
+        "pkg-0.1.0" = _I5FuLbie;
+        "pkg-0.1.1" = _fFgTm1PR;
+        "pkg-0.2.0" = _2Dvybl2x;
+        "pkg-0.2.1" = _kEDdALfj;
+        "pkg-0.2.2" = _Vba3fggf;
         "default" = _Vba3fggf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

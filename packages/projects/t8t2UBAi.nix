@@ -15,6 +15,8 @@ let
         "ehlfvEEH" = _ehlfvEEH;
         "5FVrBMIE" = _5FVrBMIE;
         "fabric-1.21.1" = _5FVrBMIE;
+        "pkg-1.0.0" = _ehlfvEEH;
+        "pkg-1.0.1+1.21.1" = _5FVrBMIE;
         "default" = _5FVrBMIE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

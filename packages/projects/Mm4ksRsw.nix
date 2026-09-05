@@ -52,6 +52,10 @@ let
         "eVdagRiP" = _eVdagRiP;
         "fabric-1.21.1" = _eVdagRiP;
         "neoforge-1.21.1" = _h7WgZstl;
+        "pkg-1.1.1" = _Ksei0WKE;
+        "pkg-1.2.0" = _4TxtFiuK;
+        "pkg-1.3.0" = _8yPCDMFI;
+        "pkg-2.0.0" = _eVdagRiP;
         "default" = _eVdagRiP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

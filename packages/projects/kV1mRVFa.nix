@@ -120,6 +120,11 @@ let
         "purpur-26.1" = _uPtCAmSw;
         "purpur-26.1.1" = _uPtCAmSw;
         "purpur-26.1.2" = _uPtCAmSw;
+        "pkg-1.1.0" = _BRBW5Cbw;
+        "pkg-1.2.0" = _wMh2s8OB;
+        "pkg-1.3.0" = _7EEikivX;
+        "pkg-1.3.0-1.20.5" = _SqkeMzxZ;
+        "pkg-2.0.0" = _uPtCAmSw;
         "default" = _uPtCAmSw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

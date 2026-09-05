@@ -100,6 +100,10 @@ let
         "minecraft-1.21.9" = _iVXojUsS;
         "minecraft-1.21.10" = _iVXojUsS;
         "minecraft-1.21.11" = _iVXojUsS;
+        "pkg-1.0_neoforge" = _DE5WSbVp;
+        "pkg-1.0_forge" = _5fqawpCo;
+        "pkg-1.1_Neoforge" = _KvvESqcD;
+        "pkg-1.1_Forge" = _iVXojUsS;
         "default" = _iVXojUsS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

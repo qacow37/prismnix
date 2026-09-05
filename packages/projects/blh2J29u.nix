@@ -21,6 +21,9 @@ let
         "4Lvc2pkb" = _4Lvc2pkb;
         "j0wglzzM" = _j0wglzzM;
         "forge-1.18.2" = _j0wglzzM;
+        "pkg-1.1.2" = _Prd5WLDC;
+        "pkg-1.1.3" = _4Lvc2pkb;
+        "pkg-1.1.3a" = _j0wglzzM;
         "default" = _j0wglzzM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

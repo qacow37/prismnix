@@ -16,6 +16,7 @@ let
         "XfxI8yHD" = _XfxI8yHD;
         "neoforge-1.21.1" = _cqyc65m0;
         "forge-1.20.1" = _XfxI8yHD;
+        "pkg-1.0.0" = _XfxI8yHD;
         "default" = _XfxI8yHD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

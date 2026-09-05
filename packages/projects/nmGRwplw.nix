@@ -27,6 +27,10 @@ let
         "K8ACH7Cj" = _K8ACH7Cj;
         "o2OLt2yp" = _o2OLt2yp;
         "forge-1.20.1" = _o2OLt2yp;
+        "pkg-1.0.1" = _klOP7272;
+        "pkg-1.1.0" = _txuHR73k;
+        "pkg-1.1.3" = _K8ACH7Cj;
+        "pkg-1.2.0" = _o2OLt2yp;
         "default" = _o2OLt2yp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

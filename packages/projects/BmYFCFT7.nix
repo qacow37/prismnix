@@ -9,6 +9,7 @@ let
     in {
         "jwgBDSeR" = _jwgBDSeR;
         "forge-1.20.1" = _jwgBDSeR;
+        "pkg-1.0.0" = _jwgBDSeR;
         "default" = _jwgBDSeR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

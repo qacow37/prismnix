@@ -10,6 +10,7 @@ let
         "MF5vKRyL" = _MF5vKRyL;
         "minecraft-1.20.1" = _MF5vKRyL;
         "minecraft-1.21.1" = _MF5vKRyL;
+        "pkg-1.0" = _MF5vKRyL;
         "default" = _MF5vKRyL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

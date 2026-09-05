@@ -21,6 +21,9 @@ let
         "vg92U1iV" = _vg92U1iV;
         "WGMYjpTo" = _WGMYjpTo;
         "forge-1.20.1" = _WGMYjpTo;
+        "pkg-1.0.0" = _VEsGZepF;
+        "pkg-1.0.1" = _vg92U1iV;
+        "pkg-1.0.2" = _WGMYjpTo;
         "default" = _WGMYjpTo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

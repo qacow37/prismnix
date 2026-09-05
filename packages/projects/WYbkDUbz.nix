@@ -123,6 +123,7 @@ let
         "minecraft-1.21.9" = _ET9SPAn3;
         "minecraft-1.21.10" = _ET9SPAn3;
         "minecraft-1.21.11" = _ET9SPAn3;
+        "pkg-1" = _ET9SPAn3;
         "default" = _ET9SPAn3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

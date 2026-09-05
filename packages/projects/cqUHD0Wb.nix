@@ -54,6 +54,8 @@ let
         "quilt-1.20.2" = _t8E4HMm3;
         "quilt-1.20.3" = _t8E4HMm3;
         "quilt-1.20.4" = _t8E4HMm3;
+        "pkg-4.0" = _56DprMDW;
+        "pkg-4.0+mod" = _t8E4HMm3;
         "default" = _t8E4HMm3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

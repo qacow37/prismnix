@@ -15,6 +15,8 @@ let
         "aVTT1NZv" = _aVTT1NZv;
         "3G4A8syD" = _3G4A8syD;
         "forge-1.20.1" = _3G4A8syD;
+        "pkg-0.1.0" = _aVTT1NZv;
+        "pkg-0.1.1" = _3G4A8syD;
         "default" = _3G4A8syD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

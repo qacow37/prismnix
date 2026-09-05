@@ -15,6 +15,8 @@ let
         "JL21CEE1" = _JL21CEE1;
         "x1D1Rg8b" = _x1D1Rg8b;
         "minecraft-1.20.1" = _x1D1Rg8b;
+        "pkg-0.1" = _JL21CEE1;
+        "pkg-0.2" = _x1D1Rg8b;
         "default" = _x1D1Rg8b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

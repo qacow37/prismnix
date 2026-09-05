@@ -16,6 +16,8 @@ let
         "SZwcyyd0" = _SZwcyyd0;
         "fabric-1.20.1" = _pyglnqtx;
         "fabric-1.21.1" = _SZwcyyd0;
+        "pkg-1.0.0+1.5.0+1.5.2" = _pyglnqtx;
+        "pkg-1.0.0+1.5.0+1.6.1" = _SZwcyyd0;
         "default" = _SZwcyyd0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

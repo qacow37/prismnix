@@ -28,6 +28,10 @@ let
         "dewBuc5b" = _dewBuc5b;
         "fabric-1.20.1" = _kWUkLIgQ;
         "fabric-1.20.2" = _dewBuc5b;
+        "pkg-3.11a" = _kWUkLIgQ;
+        "pkg-4.11" = _986VlDIr;
+        "pkg-4.11.1" = _tDlTd5aS;
+        "pkg-4.12" = _dewBuc5b;
         "default" = _dewBuc5b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

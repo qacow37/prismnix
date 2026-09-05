@@ -80,6 +80,7 @@ let
         "spigot-1.21.9" = _bYtKsL7s;
         "spigot-1.21.10" = _bYtKsL7s;
         "spigot-1.21.11" = _bYtKsL7s;
+        "pkg-1.0" = _bYtKsL7s;
         "default" = _bYtKsL7s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

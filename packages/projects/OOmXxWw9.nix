@@ -9,6 +9,7 @@ let
     in {
         "Zt1IOvOy" = _Zt1IOvOy;
         "fabric-1.20.1" = _Zt1IOvOy;
+        "pkg-0.1.0-1.20.1" = _Zt1IOvOy;
         "default" = _Zt1IOvOy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "7M1jhRYn" = _7M1jhRYn;
         "paper-1.21.3" = _7M1jhRYn;
+        "pkg-1" = _7M1jhRYn;
         "default" = _7M1jhRYn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

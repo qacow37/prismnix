@@ -27,6 +27,10 @@ let
         "QKTibTtG" = _QKTibTtG;
         "sGD15rit" = _sGD15rit;
         "forge-1.12.2" = _sGD15rit;
+        "pkg-1.0.2" = _FCw9B0pm;
+        "pkg-1.0.1" = _FIAc6Bkx;
+        "pkg-1.0.0" = _QKTibTtG;
+        "pkg-1.0.3" = _sGD15rit;
         "default" = _sGD15rit;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

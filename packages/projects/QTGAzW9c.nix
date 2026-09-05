@@ -23,6 +23,7 @@ let
         "minecraft-26.1" = _TCpFxsMC;
         "minecraft-26.1.1" = _TCpFxsMC;
         "minecraft-26.1.2" = _TCpFxsMC;
+        "pkg-1.0" = _TCpFxsMC;
         "default" = _TCpFxsMC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

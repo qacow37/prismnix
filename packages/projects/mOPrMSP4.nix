@@ -99,6 +99,8 @@ let
         "quilt-1.21.6" = _sgVVadr3;
         "quilt-1.21.7" = _sgVVadr3;
         "quilt-1.21.8" = _sgVVadr3;
+        "pkg-0.2" = _OhiozSq6;
+        "pkg-0.2+mod" = _sgVVadr3;
         "default" = _sgVVadr3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

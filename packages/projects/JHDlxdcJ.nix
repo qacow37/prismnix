@@ -14,6 +14,7 @@ let
         "minecraft-1.19.4" = _IExt2LaB;
         "minecraft-1.20.1" = _IExt2LaB;
         "minecraft-1.20.4" = _IExt2LaB;
+        "pkg-1.0-mtr4" = _IExt2LaB;
         "default" = _IExt2LaB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

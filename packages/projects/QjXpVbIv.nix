@@ -15,6 +15,7 @@ let
         "minecraft-1.21.4" = _nCtTabxw;
         "minecraft-1.21.5" = _nCtTabxw;
         "minecraft-1.21.6" = _nCtTabxw;
+        "pkg-v1.0.0" = _nCtTabxw;
         "default" = _nCtTabxw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

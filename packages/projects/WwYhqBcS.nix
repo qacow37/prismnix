@@ -15,6 +15,8 @@ let
         "GjOJESEO" = _GjOJESEO;
         "reQuMZGr" = _reQuMZGr;
         "forge-1.20.1" = _reQuMZGr;
+        "pkg-0.9.5" = _GjOJESEO;
+        "pkg-0.9.9" = _reQuMZGr;
         "default" = _reQuMZGr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

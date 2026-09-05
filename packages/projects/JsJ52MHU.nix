@@ -127,6 +127,26 @@ let
         "forge-1.20.1" = _wpbXn4di;
         "forge-1.20.2" = _2ZQh2Z6l;
         "fabric-1.20.1" = _pMHwjDDc;
+        "pkg-0.1-1.19.2" = _bbWdkP6R;
+        "pkg-0.6-1.19.2" = _KxCNNaG2;
+        "pkg-0.7a-1.19.2" = _9oyQtcZA;
+        "pkg-0.7b-1.19.2" = _pMuVGE8Q;
+        "pkg-0.7a-1.20" = _1DLjHZ8n;
+        "pkg-0.7a-1.20.1" = _wtEi9yXk;
+        "pkg-0.9a-1.20.1" = _jeiMkMov;
+        "pkg-0.9a-Fabric-1.20.1" = _YZhH3H0S;
+        "pkg-1.0a-Forge-1.20.1" = _ijuWvejt;
+        "pkg-1.0b-Forge-1.20.1" = _Vff1Z79V;
+        "pkg-1.0a-Fabric-1.20.1" = _jGreHgu5;
+        "pkg-1.2a-Forge-1.20.1" = _rJsffjAI;
+        "pkg-1.2a-Fabric-1.20.1" = _2JDmNo9w;
+        "pkg-1.5a-Fabric-1.20.1" = _fx5bhH9W;
+        "pkg-1.5a-Forge-1.20.1" = _2ZQh2Z6l;
+        "pkg-1.5b-Fabric-1.20.1" = _DD03MDGc;
+        "pkg-1.7a-Forge-1.20.1" = _3rLdT8RQ;
+        "pkg-1.7a-Fabric-1.20.1" = _KxeZSXIf;
+        "pkg-1.8.0-1.20.1-fabric" = _pMHwjDDc;
+        "pkg-1.8.0-1.20.1-forge" = _wpbXn4di;
         "default" = _wpbXn4di;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

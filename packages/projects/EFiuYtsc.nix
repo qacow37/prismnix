@@ -15,6 +15,8 @@ let
         "USXa23Ov" = _USXa23Ov;
         "SaoLvDAC" = _SaoLvDAC;
         "fabric-1.20.1" = _SaoLvDAC;
+        "pkg-1.0.0" = _USXa23Ov;
+        "pkg-1.0.2" = _SaoLvDAC;
         "default" = _SaoLvDAC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

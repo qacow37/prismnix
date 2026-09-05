@@ -10,6 +10,7 @@ let
         "Y6MaYRcJ" = _Y6MaYRcJ;
         "minecraft-1.7.10" = _Y6MaYRcJ;
         "minecraft-1.8.9" = _Y6MaYRcJ;
+        "pkg-v1" = _Y6MaYRcJ;
         "default" = _Y6MaYRcJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

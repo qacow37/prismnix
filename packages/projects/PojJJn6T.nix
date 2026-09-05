@@ -22,6 +22,7 @@ let
         "neoforge-1.21.6" = _HYPzXvGH;
         "neoforge-1.21.7" = _HYPzXvGH;
         "neoforge-1.21.8" = _HYPzXvGH;
+        "pkg-1.0.0" = _HYPzXvGH;
         "default" = _HYPzXvGH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

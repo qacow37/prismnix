@@ -27,6 +27,10 @@ let
         "bk9LBxi3" = _bk9LBxi3;
         "SXynBpzy" = _SXynBpzy;
         "fabric-1.21.1" = _SXynBpzy;
+        "pkg-0.9.0-beta" = _BjiWGpKV;
+        "pkg-0.9.1-beta" = _iVNJSENt;
+        "pkg-1.7-v0.9.2-beta" = _bk9LBxi3;
+        "pkg-1.7-v0.9.3-beta" = _SXynBpzy;
         "default" = _SXynBpzy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

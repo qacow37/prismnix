@@ -254,6 +254,12 @@ let
         "legacy-fabric-26.1.1" = _XHnNklwg;
         "legacy-fabric-26.1.2" = _XHnNklwg;
         "legacy-fabric-26.2" = _XHnNklwg;
+        "pkg-1.0.0" = _HNqPPtPT;
+        "pkg-1.0.1" = _c46R3F3j;
+        "pkg-1.0.2" = _cP4a9wLQ;
+        "pkg-1.0.3" = _fXSHwqgZ;
+        "pkg-1.0.4" = _zdwc5eFZ;
+        "pkg-1.0.5" = _XHnNklwg;
         "default" = _XHnNklwg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -14,6 +14,7 @@ let
         "fabric-1.21.3" = _oCbXgPCt;
         "fabric-1.21.4" = _oCbXgPCt;
         "fabric-1.21.5" = _oCbXgPCt;
+        "pkg-0.1-BETA" = _oCbXgPCt;
         "default" = _oCbXgPCt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

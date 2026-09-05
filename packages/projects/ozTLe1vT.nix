@@ -46,6 +46,7 @@ let
         "jFpAcw0C" = _jFpAcw0C;
         "forge-1.19.2" = _cazHEDem;
         "forge-1.20.1" = _jFpAcw0C;
+        "pkg-1.0.0" = _jFpAcw0C;
         "default" = _jFpAcw0C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -32,6 +32,7 @@ let
         "fabric-1.21.2" = _Boo2EJG2;
         "fabric-1.21.3" = _Boo2EJG2;
         "fabric-1.21.4" = _Boo2EJG2;
+        "pkg-1.0.0" = _Boo2EJG2;
         "default" = _Boo2EJG2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

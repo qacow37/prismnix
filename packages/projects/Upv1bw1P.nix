@@ -61,6 +61,7 @@ let
         "fabric-26.1.1" = _MEvxB036;
         "fabric-26.1.2" = _MEvxB036;
         "fabric-26.2" = _LvIRXvLO;
+        "pkg-1.0" = _LvIRXvLO;
         "default" = _LvIRXvLO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "fWT95jjf" = _fWT95jjf;
         "minecraft-1.20.1" = _fWT95jjf;
         "minecraft-1.21.1" = _fWT95jjf;
+        "pkg-1.0.0" = _fWT95jjf;
         "default" = _fWT95jjf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

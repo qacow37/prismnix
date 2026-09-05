@@ -27,6 +27,10 @@ let
         "SPzSm0iY" = _SPzSm0iY;
         "DGpCSKoR" = _DGpCSKoR;
         "neoforge-1.21.1" = _DGpCSKoR;
+        "pkg-1.0.0" = _GpMejJob;
+        "pkg-1.0.1" = _ADANVWDY;
+        "pkg-1.0.2" = _SPzSm0iY;
+        "pkg-1.0.3" = _DGpCSKoR;
         "default" = _DGpCSKoR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

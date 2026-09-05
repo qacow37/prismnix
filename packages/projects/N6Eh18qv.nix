@@ -18,6 +18,7 @@ let
         "minecraft-1.21.2" = _OtUasmp5;
         "minecraft-1.21.3" = _OtUasmp5;
         "minecraft-1.21.4" = _OtUasmp5;
+        "pkg-1" = _OtUasmp5;
         "default" = _OtUasmp5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

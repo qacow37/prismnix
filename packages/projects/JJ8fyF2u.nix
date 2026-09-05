@@ -9,6 +9,7 @@ let
     in {
         "fx210WWd" = _fx210WWd;
         "forge-1.16.5" = _fx210WWd;
+        "pkg-1.16.5-3.0.9.1" = _fx210WWd;
         "default" = _fx210WWd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

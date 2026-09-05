@@ -10,6 +10,7 @@ let
         "XhKNzSDV" = _XhKNzSDV;
         "minecraft-1.20.1" = _XhKNzSDV;
         "minecraft-1.21.1" = _XhKNzSDV;
+        "pkg-1.0.0" = _XhKNzSDV;
         "default" = _XhKNzSDV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -76,6 +76,10 @@ let
         "minecraft-26.2-snapshot-7" = _VQaOkaga;
         "minecraft-26.2-snapshot-8" = _VQaOkaga;
         "minecraft-26.2-pre-1" = _VQaOkaga;
+        "pkg-v2" = _yzWW24Ft;
+        "pkg-v3" = _8n302aUz;
+        "pkg-v3.0.1" = _MX6ON3X1;
+        "pkg-v3.0.2" = _VQaOkaga;
         "default" = _VQaOkaga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

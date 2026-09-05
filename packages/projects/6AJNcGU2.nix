@@ -18,6 +18,7 @@ let
         "forge-1.20.1" = _ekJO4GUI;
         "neoforge-1.18.2" = _e1ws1OBE;
         "neoforge-1.20.1" = _ekJO4GUI;
+        "pkg-1.0.0" = _ekJO4GUI;
         "default" = _ekJO4GUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -13,6 +13,7 @@ let
         "minecraft-1.21.2" = _tQ5vigOS;
         "minecraft-1.21.3" = _tQ5vigOS;
         "minecraft-1.21.4" = _tQ5vigOS;
+        "pkg-1.0" = _tQ5vigOS;
         "default" = _tQ5vigOS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

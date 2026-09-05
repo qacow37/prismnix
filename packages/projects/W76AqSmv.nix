@@ -9,6 +9,7 @@ let
     in {
         "syjpt3zt" = _syjpt3zt;
         "fabric-1.20.1" = _syjpt3zt;
+        "pkg-0.1.0-mc1.20.1" = _syjpt3zt;
         "default" = _syjpt3zt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

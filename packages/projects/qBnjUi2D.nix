@@ -16,6 +16,8 @@ let
         "2c00Npvz" = _2c00Npvz;
         "minecraft-1.19.4" = _CldFMPPA;
         "minecraft-1.20.1" = _2c00Npvz;
+        "pkg-1.19.4-V1" = _CldFMPPA;
+        "pkg-1.20.1-V1" = _2c00Npvz;
         "default" = _2c00Npvz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

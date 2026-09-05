@@ -16,6 +16,8 @@ let
         "1TuPJ22k" = _1TuPJ22k;
         "forge-1.19.2" = _iP6YhSB0;
         "forge-1.18.2" = _1TuPJ22k;
+        "pkg-1.3.6d" = _iP6YhSB0;
+        "pkg-b.1.3.6a" = _1TuPJ22k;
         "default" = _1TuPJ22k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

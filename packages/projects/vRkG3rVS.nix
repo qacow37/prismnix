@@ -16,6 +16,8 @@ let
         "MQpDtjWd" = _MQpDtjWd;
         "minecraft-1.20.1" = _MQpDtjWd;
         "minecraft-1.20" = _MQpDtjWd;
+        "pkg-1.0.3" = _6MdcwEG6;
+        "pkg-1.0.4" = _MQpDtjWd;
         "default" = _MQpDtjWd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

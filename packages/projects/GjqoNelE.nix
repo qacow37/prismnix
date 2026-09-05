@@ -21,6 +21,9 @@ let
         "SSr1UttN" = _SSr1UttN;
         "8I38sNEh" = _8I38sNEh;
         "forge-1.12.2" = _8I38sNEh;
+        "pkg-1.1.0" = _4rKyIKLB;
+        "pkg-1.2.0" = _SSr1UttN;
+        "pkg-1.2.1" = _8I38sNEh;
         "default" = _8I38sNEh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

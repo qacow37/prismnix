@@ -9,6 +9,7 @@ let
     in {
         "lSlLs4ui" = _lSlLs4ui;
         "minecraft-1.20.1" = _lSlLs4ui;
+        "pkg-1.0" = _lSlLs4ui;
         "default" = _lSlLs4ui;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

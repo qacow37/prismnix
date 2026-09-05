@@ -40,6 +40,12 @@ let
         "HIM5dvFb" = _HIM5dvFb;
         "fabric-1.20.1" = _HIM5dvFb;
         "fabric-1.20" = _uI35czA6;
+        "pkg-1.0.0" = _VzgIW8eT;
+        "pkg-1.0.1" = _DjJFmC8s;
+        "pkg-1.0.2" = _hIPWDFbh;
+        "pkg-1.0.3" = _QPlSJPxL;
+        "pkg-1.0.4" = _uI35czA6;
+        "pkg-1.0.5" = _HIM5dvFb;
         "default" = _HIM5dvFb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

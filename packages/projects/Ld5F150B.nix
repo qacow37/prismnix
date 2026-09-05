@@ -11,6 +11,7 @@ let
         "fabric-1.19" = _n3Va4UAu;
         "fabric-1.19.1" = _n3Va4UAu;
         "fabric-1.19.2" = _n3Va4UAu;
+        "pkg-1.19-2.3.0-FABRIC" = _n3Va4UAu;
         "default" = _n3Va4UAu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

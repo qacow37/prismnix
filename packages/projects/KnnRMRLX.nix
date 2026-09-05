@@ -27,6 +27,10 @@ let
         "AwXNPlP7" = _AwXNPlP7;
         "aTXx38a6" = _aTXx38a6;
         "forge-1.20.1" = _aTXx38a6;
+        "pkg-1.0.0.a" = _RJr0mqmF;
+        "pkg-1.0.1" = _SgY2VwdI;
+        "pkg-1.0.2" = _AwXNPlP7;
+        "pkg-1.0.3" = _aTXx38a6;
         "default" = _aTXx38a6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

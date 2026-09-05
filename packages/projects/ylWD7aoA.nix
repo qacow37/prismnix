@@ -10,6 +10,7 @@ let
         "QIW368nh" = _QIW368nh;
         "forge-1.20" = _QIW368nh;
         "forge-1.20.1" = _QIW368nh;
+        "pkg-1.0" = _QIW368nh;
         "default" = _QIW368nh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

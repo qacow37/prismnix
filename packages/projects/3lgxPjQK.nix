@@ -72,6 +72,8 @@ let
         "neoforge-1.21.9" = _6SKO90GA;
         "neoforge-1.21.10" = _6SKO90GA;
         "neoforge-1.21.11" = _6SKO90GA;
+        "pkg-1.0" = _6yQNnZpn;
+        "pkg-1.1.0" = _6SKO90GA;
         "default" = _6SKO90GA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

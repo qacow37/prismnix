@@ -90,6 +90,20 @@ let
         "fabric-1.21.1" = _gmdODwXj;
         "neoforge-1.21.1" = _gmdODwXj;
         "minecraft-1.21.1" = _1ouSXNNx;
+        "pkg-1.0" = _qJyDoQI7;
+        "pkg-2.0.0" = _6LkfnWWL;
+        "pkg-3.0" = _xuQ1Sp60;
+        "pkg-3.1" = _LUJKRCFY;
+        "pkg-3.1.1" = _pvcqdddZ;
+        "pkg-3.1.2" = _CNZHbNeu;
+        "pkg-3.2.0" = _o0XstJVX;
+        "pkg-4.0" = _cpcElHbq;
+        "pkg-4.1" = _32b59og6;
+        "pkg-4.1+mod" = _UEUlFaNn;
+        "pkg-4.2" = _gPqnB4PS;
+        "pkg-4.2+mod" = _NAO2OZFI;
+        "pkg-5.0" = _1ouSXNNx;
+        "pkg-5.0+mod" = _gmdODwXj;
         "default" = _gmdODwXj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

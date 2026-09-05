@@ -15,6 +15,8 @@ let
         "38kvkP6p" = _38kvkP6p;
         "4tzdMt8k" = _4tzdMt8k;
         "quilt-1.19.2" = _4tzdMt8k;
+        "pkg-1.0.0+1.19.2" = _38kvkP6p;
+        "pkg-1.0.1+1.19.2" = _4tzdMt8k;
         "default" = _4tzdMt8k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

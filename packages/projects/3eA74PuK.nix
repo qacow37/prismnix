@@ -17,6 +17,8 @@ let
         "vanilla-1.21.10" = _Hj2ONZsr;
         "vanilla-1.21.11" = _UNnbt6dl;
         "vanilla-26.1-snapshot-1" = _UNnbt6dl;
+        "pkg-1.3.4" = _Hj2ONZsr;
+        "pkg-1.2.2" = _UNnbt6dl;
         "default" = _UNnbt6dl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

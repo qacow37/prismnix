@@ -34,6 +34,11 @@ let
         "QDTMz7G2" = _QDTMz7G2;
         "neoforge-1.21.4" = _98J2L7d6;
         "forge-1.20.1" = _QDTMz7G2;
+        "pkg-1.0.8" = _87vDPdEE;
+        "pkg-1.0.9" = _98J2L7d6;
+        "pkg-1.0.10" = _wYKv3tiq;
+        "pkg-1.0.11" = _ZeE6mLe9;
+        "pkg-1.0.12" = _QDTMz7G2;
         "default" = _QDTMz7G2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

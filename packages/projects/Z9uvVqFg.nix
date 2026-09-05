@@ -9,6 +9,7 @@ let
     in {
         "rAmGEplv" = _rAmGEplv;
         "forge-1.7.10" = _rAmGEplv;
+        "pkg-1.0" = _rAmGEplv;
         "default" = _rAmGEplv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

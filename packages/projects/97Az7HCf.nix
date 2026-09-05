@@ -33,6 +33,11 @@ let
         "Lbskiiat" = _Lbskiiat;
         "Lv1s8Ze6" = _Lv1s8Ze6;
         "fabric-1.21.1" = _Lv1s8Ze6;
+        "pkg-1.0.3" = _WAYsGplW;
+        "pkg-1.0.4" = _6ARlQqfQ;
+        "pkg-1.0.5" = _XRc5qMUn;
+        "pkg-1.0.6" = _Lbskiiat;
+        "pkg-1.1.0" = _Lv1s8Ze6;
         "default" = _Lv1s8Ze6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

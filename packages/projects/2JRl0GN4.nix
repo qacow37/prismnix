@@ -16,6 +16,8 @@ let
         "MIU7vgcu" = _MIU7vgcu;
         "minecraft-1.20.1" = _MIU7vgcu;
         "minecraft-1.20" = _MIU7vgcu;
+        "pkg-1.0.0" = _EvA4qzBM;
+        "pkg-1.0.1" = _MIU7vgcu;
         "default" = _MIU7vgcu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

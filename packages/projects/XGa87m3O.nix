@@ -66,6 +66,11 @@ let
         "spigot-1.20.4" = _przOmufA;
         "folia-1.20" = _F4eTOfmE;
         "folia-1.20.1" = _F4eTOfmE;
+        "pkg-1.0.0-SNAPSHOT" = _5TrvpZ6x;
+        "pkg-1.1.1-SNAPSHOT" = _xfBWdBtD;
+        "pkg-1.1.2" = _sFJ9s33b;
+        "pkg-1.1.3" = _F4eTOfmE;
+        "pkg-1.1.4" = _przOmufA;
         "default" = _przOmufA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

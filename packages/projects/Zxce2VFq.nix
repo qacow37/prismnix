@@ -15,6 +15,8 @@ let
         "gZ02ghqk" = _gZ02ghqk;
         "rwyiFTN7" = _rwyiFTN7;
         "minecraft-1.20.1" = _rwyiFTN7;
+        "pkg-1.0" = _gZ02ghqk;
+        "pkg-1.1" = _rwyiFTN7;
         "default" = _rwyiFTN7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

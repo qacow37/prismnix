@@ -33,6 +33,11 @@ let
         "NtK32FtO" = _NtK32FtO;
         "wGls5UAW" = _wGls5UAW;
         "forge-1.20.1" = _wGls5UAW;
+        "pkg-0.1" = _j3Jpd1iP;
+        "pkg-0.2" = _e7IPSkGK;
+        "pkg-0.3" = _dacZKs9Y;
+        "pkg-0.4" = _NtK32FtO;
+        "pkg-0.5" = _wGls5UAW;
         "default" = _wGls5UAW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

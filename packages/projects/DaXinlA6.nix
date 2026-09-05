@@ -28,6 +28,10 @@ let
         "qi2m1U6E" = _qi2m1U6E;
         "forge-1.7.10" = _HyDA6b5O;
         "forge-1.12.2" = _qi2m1U6E;
+        "pkg-1.7.10" = _HyDA6b5O;
+        "pkg-1.12.2" = _fhfTdr88;
+        "pkg-1.1" = _lpoacc2V;
+        "pkg-1.2" = _qi2m1U6E;
         "default" = _qi2m1U6E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

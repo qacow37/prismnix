@@ -55,6 +55,8 @@ let
         "neoforge-26.1" = _ZiMoPOfV;
         "neoforge-26.1.1" = _ZiMoPOfV;
         "neoforge-26.1.2" = _ZiMoPOfV;
+        "pkg-1.0.0" = _Z3xw3cSA;
+        "pkg-1.1.0" = _ZiMoPOfV;
         "default" = _ZiMoPOfV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

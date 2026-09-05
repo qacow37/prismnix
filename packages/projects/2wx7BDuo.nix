@@ -21,6 +21,9 @@ let
         "YU3rCMCM" = _YU3rCMCM;
         "4dXu4SOi" = _4dXu4SOi;
         "forge-1.20.1" = _4dXu4SOi;
+        "pkg-1.0" = _RxpREkiz;
+        "pkg-1.0fix" = _YU3rCMCM;
+        "pkg-1.1" = _4dXu4SOi;
         "default" = _4dXu4SOi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

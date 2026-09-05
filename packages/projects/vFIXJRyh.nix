@@ -124,6 +124,13 @@ let
         "purpur-26.1.1" = _FoxTVyW3;
         "purpur-26.1.2" = _FoxTVyW3;
         "purpur-26.2" = _FoxTVyW3;
+        "pkg-1.1.0" = _hu3DVCTf;
+        "pkg-1.2.0" = _TYdCSkhD;
+        "pkg-1.2.1" = _jDrlpfCG;
+        "pkg-1.2.2" = _ZON66UNm;
+        "pkg-1.2.3" = _EOzbWBH7;
+        "pkg-1.2.4" = _VWilRyN4;
+        "pkg-1.2.5" = _FoxTVyW3;
         "default" = _FoxTVyW3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

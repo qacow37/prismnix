@@ -44,6 +44,8 @@ let
         "minecraft-26.1" = _11wiRiFC;
         "minecraft-26.1.1" = _11wiRiFC;
         "minecraft-26.1.2" = _11wiRiFC;
+        "pkg-1.0" = _cE9845np;
+        "pkg-2.0" = _11wiRiFC;
         "default" = _11wiRiFC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

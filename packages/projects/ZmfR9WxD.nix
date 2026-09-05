@@ -15,6 +15,8 @@ let
         "Y5lE1sgl" = _Y5lE1sgl;
         "UQZiORhb" = _UQZiORhb;
         "forge-1.20.1" = _UQZiORhb;
+        "pkg-0.1.1" = _Y5lE1sgl;
+        "pkg-0.1.2" = _UQZiORhb;
         "default" = _UQZiORhb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

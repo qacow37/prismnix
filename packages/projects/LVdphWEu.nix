@@ -15,6 +15,8 @@ let
         "A5V1UO6A" = _A5V1UO6A;
         "i44Uzr4s" = _i44Uzr4s;
         "fabric-1.21.11" = _i44Uzr4s;
+        "pkg-0.1.0" = _A5V1UO6A;
+        "pkg-0.1.1+1.21.11-fabric" = _i44Uzr4s;
         "default" = _i44Uzr4s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

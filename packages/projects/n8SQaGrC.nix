@@ -23,6 +23,8 @@ let
         "minecraft-1.19.1" = _yiEj5vAT;
         "minecraft-1.19.2" = _yiEj5vAT;
         "minecraft-1.19.4" = _NTMrpPPF;
+        "pkg-1.10" = _yiEj5vAT;
+        "pkg-1.11" = _NTMrpPPF;
         "default" = _NTMrpPPF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

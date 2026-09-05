@@ -26,6 +26,8 @@ let
         "minecraft-1.21.9" = _NUxNoehd;
         "minecraft-1.21.10" = _NUxNoehd;
         "minecraft-1.21.11" = _NUxNoehd;
+        "pkg-V1" = _b2Ml4gNZ;
+        "pkg-V2" = _NUxNoehd;
         "default" = _NUxNoehd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

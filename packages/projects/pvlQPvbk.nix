@@ -79,6 +79,9 @@ let
         "minecraft-1.21.8" = _KT7IRPOm;
         "minecraft-1.21.9" = _KT7IRPOm;
         "minecraft-1.21.10" = _KT7IRPOm;
+        "pkg-1.21.4" = _jodAjlkS;
+        "pkg-1.21.5" = _v26i9OCt;
+        "pkg-1.25.5+" = _KT7IRPOm;
         "default" = _KT7IRPOm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

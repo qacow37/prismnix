@@ -64,6 +64,13 @@ let
         "uPjt3aNo" = _uPjt3aNo;
         "datapack-1.20.1" = _RtN2tDmN;
         "forge-1.20.1" = _uPjt3aNo;
+        "pkg-SMA_1.0" = _k3CDZcJP;
+        "pkg-1.0.0" = _pPue5LKm;
+        "pkg-SMA_1.0.1" = _gD8hfcR7;
+        "pkg-SMA_1.1" = _seUCyn6O;
+        "pkg-SPA_1.1" = _ReCbBkyu;
+        "pkg-MINI_1.3.0" = _W184fwDw;
+        "pkg-SMA_1.4.0" = _uPjt3aNo;
         "default" = _uPjt3aNo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

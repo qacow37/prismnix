@@ -52,6 +52,14 @@ let
         "T2RoU5TJ" = _T2RoU5TJ;
         "fabric-1.18.2" = _BTT0EYth;
         "fabric-1.19.2" = _T2RoU5TJ;
+        "pkg-1.0.0" = _O3RCVeZi;
+        "pkg-1.0.1" = _OJibNucs;
+        "pkg-1.0.2" = _wOTmLUGS;
+        "pkg-1.0.3" = _BTT0EYth;
+        "pkg-2.0.0" = _RtkwguWW;
+        "pkg-2.0.1" = _1J0KQ9Jt;
+        "pkg-2.0.2" = _3HInkaQT;
+        "pkg-2.0.3" = _T2RoU5TJ;
         "default" = _T2RoU5TJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

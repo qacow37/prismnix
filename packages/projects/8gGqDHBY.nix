@@ -15,6 +15,8 @@ let
         "zoceGSO0" = _zoceGSO0;
         "4cxHhVls" = _4cxHhVls;
         "forge-1.20.1" = _4cxHhVls;
+        "pkg-1.20.1-0.0.1" = _zoceGSO0;
+        "pkg-1.20.1-0.0.2" = _4cxHhVls;
         "default" = _4cxHhVls;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

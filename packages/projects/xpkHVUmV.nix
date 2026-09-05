@@ -45,6 +45,8 @@ let
         "forge-1.21.2" = _9CDGaLAU;
         "forge-1.21.3" = _9CDGaLAU;
         "forge-1.21.4" = _9CDGaLAU;
+        "pkg-1.0.0" = _LybTidoa;
+        "pkg-1.0.0+mod" = _9CDGaLAU;
         "default" = _9CDGaLAU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

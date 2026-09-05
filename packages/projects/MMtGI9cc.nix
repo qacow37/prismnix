@@ -34,6 +34,11 @@ let
         "iNnOMRaN" = _iNnOMRaN;
         "minecraft-1.21.1" = _iNnOMRaN;
         "minecraft-1.21" = _g65LUXGO;
+        "pkg-1.3.3" = _2VZYNJFt;
+        "pkg-1..3.4" = _nLAefxqq;
+        "pkg-1.3.7" = _g65LUXGO;
+        "pkg-1.4.3" = _GUl4h5zP;
+        "pkg-1.4.6" = _iNnOMRaN;
         "default" = _iNnOMRaN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

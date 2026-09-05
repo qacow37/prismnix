@@ -220,6 +220,8 @@ let
         "quilt-1.21.9" = _Pj1hDNGB;
         "quilt-1.21.10" = _Pj1hDNGB;
         "quilt-1.21.11" = _QGkTurp3;
+        "pkg-0.1" = _2ntyulny;
+        "pkg-0.1+mod" = _QGkTurp3;
         "default" = _QGkTurp3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

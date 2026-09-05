@@ -62,6 +62,7 @@ let
         "optifine-1.21.6" = _AJumhKPA;
         "optifine-1.21.7" = _AJumhKPA;
         "optifine-1.21.8" = _AJumhKPA;
+        "pkg-1.0" = _AJumhKPA;
         "default" = _AJumhKPA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

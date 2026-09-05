@@ -30,6 +30,8 @@ let
         "quilt-1.20.1" = _NKqY4L09;
         "datapack-1.20" = _hPatJuD4;
         "datapack-1.20.1" = _hPatJuD4;
+        "pkg-0.0.12" = _jfzxJXNJ;
+        "pkg-0.1.3" = _hPatJuD4;
         "default" = _hPatJuD4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

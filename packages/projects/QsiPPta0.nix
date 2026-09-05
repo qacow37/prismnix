@@ -15,6 +15,8 @@ let
         "uN4AKtrF" = _uN4AKtrF;
         "Rh86Cb7C" = _Rh86Cb7C;
         "fabric-1.21.1" = _Rh86Cb7C;
+        "pkg-0.0.1-alpha" = _uN4AKtrF;
+        "pkg-0.0.2-beta" = _Rh86Cb7C;
         "default" = _Rh86Cb7C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

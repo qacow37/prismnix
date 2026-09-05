@@ -17,6 +17,7 @@ let
         "minecraft-1.21.8" = _uWffOpyb;
         "minecraft-1.21.9" = _dPU5XUID;
         "minecraft-1.21.10" = _dPU5XUID;
+        "pkg-NetheriteArmor" = _dPU5XUID;
         "default" = _dPU5XUID;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

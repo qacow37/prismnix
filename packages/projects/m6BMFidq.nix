@@ -10,6 +10,7 @@ let
         "Gbs7Mljt" = _Gbs7Mljt;
         "forge-1.20.1" = _Gbs7Mljt;
         "forge-1.20.2" = _Gbs7Mljt;
+        "pkg-1.2.3" = _Gbs7Mljt;
         "default" = _Gbs7Mljt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

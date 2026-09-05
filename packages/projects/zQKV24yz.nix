@@ -27,6 +27,10 @@ let
         "ZeBSjv6k" = _ZeBSjv6k;
         "vCnLMcUS" = _vCnLMcUS;
         "forge-1.16.5" = _vCnLMcUS;
+        "pkg-BETA-1.0.9" = _MvSjtCEe;
+        "pkg-BETA-1.1.0" = _apU01cXs;
+        "pkg-BETA-1.1.0-PATCH1" = _ZeBSjv6k;
+        "pkg-BETA-1.1.1" = _vCnLMcUS;
         "default" = _vCnLMcUS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

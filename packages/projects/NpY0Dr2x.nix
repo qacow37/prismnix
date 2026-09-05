@@ -16,6 +16,8 @@ let
         "TkNZMR3j" = _TkNZMR3j;
         "fabric-1.21.1" = _50GRSvk2;
         "fabric-1.21.4" = _TkNZMR3j;
+        "pkg-1.0.1" = _50GRSvk2;
+        "pkg-1.0.2" = _TkNZMR3j;
         "default" = _TkNZMR3j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

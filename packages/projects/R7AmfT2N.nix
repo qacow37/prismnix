@@ -23,6 +23,8 @@ let
         "minecraft-1.20.6" = _cGsmIgfi;
         "minecraft-1.21" = _cGsmIgfi;
         "minecraft-1.21.1" = _cGsmIgfi;
+        "pkg-EmoteBend" = _qqrLsJ3T;
+        "pkg-EmoteBend(FreshFace)" = _cGsmIgfi;
         "default" = _cGsmIgfi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

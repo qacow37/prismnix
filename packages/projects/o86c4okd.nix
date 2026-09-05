@@ -52,6 +52,7 @@ let
         "optifine-26.1" = _xTGjvNEQ;
         "optifine-26.1.1" = _xTGjvNEQ;
         "optifine-26.1.2" = _xTGjvNEQ;
+        "pkg-1" = _xTGjvNEQ;
         "default" = _xTGjvNEQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

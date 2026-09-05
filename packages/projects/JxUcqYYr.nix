@@ -15,6 +15,8 @@ let
         "8NRq88or" = _8NRq88or;
         "QgGrYXNF" = _QgGrYXNF;
         "forge-1.20.1" = _QgGrYXNF;
+        "pkg-0.4" = _8NRq88or;
+        "pkg-0.7" = _QgGrYXNF;
         "default" = _QgGrYXNF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

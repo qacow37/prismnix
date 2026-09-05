@@ -39,6 +39,8 @@ let
         "minecraft-1.21.9" = _iMjuKp4Q;
         "minecraft-1.21.10" = _iMjuKp4Q;
         "minecraft-1.21.11" = _iMjuKp4Q;
+        "pkg-Torrezx-Hollow_knight_totem" = _lAkP89BW;
+        "pkg-Torrezx-Hollow_knight_totems" = _iMjuKp4Q;
         "default" = _iMjuKp4Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

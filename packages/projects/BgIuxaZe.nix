@@ -42,6 +42,8 @@ let
         "purpur-1.21.3" = _p2U8TnMS;
         "purpur-1.21.4" = _p2U8TnMS;
         "purpur-1.21.5" = _p2U8TnMS;
+        "pkg-1.0" = _twIPCA2s;
+        "pkg-1.01" = _p2U8TnMS;
         "default" = _p2U8TnMS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

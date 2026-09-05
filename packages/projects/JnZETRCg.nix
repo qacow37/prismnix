@@ -21,6 +21,9 @@ let
         "S6uu8T5W" = _S6uu8T5W;
         "tfD2gr3e" = _tfD2gr3e;
         "forge-1.12.2" = _tfD2gr3e;
+        "pkg-1.0.2" = _oqEvIbl5;
+        "pkg-1.0.3" = _S6uu8T5W;
+        "pkg-1.0.4" = _tfD2gr3e;
         "default" = _tfD2gr3e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

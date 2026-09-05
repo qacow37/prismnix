@@ -21,6 +21,9 @@ let
         "KxBrJtrm" = _KxBrJtrm;
         "dYSnUwyP" = _dYSnUwyP;
         "forge-1.20.1" = _dYSnUwyP;
+        "pkg-1.20.1-1" = _OtVxCOAM;
+        "pkg-1.20.1-1.1" = _KxBrJtrm;
+        "pkg-1.20.1-1.2.3" = _dYSnUwyP;
         "default" = _dYSnUwyP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

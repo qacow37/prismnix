@@ -10,6 +10,7 @@ let
         "psgb04YW" = _psgb04YW;
         "minecraft-1.21.4" = _psgb04YW;
         "minecraft-1.21.5" = _psgb04YW;
+        "pkg-V1.1" = _psgb04YW;
         "default" = _psgb04YW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

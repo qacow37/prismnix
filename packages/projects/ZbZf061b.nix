@@ -501,6 +501,8 @@ let
         "quilt-26.2-snapshot-2" = _TmSJQJHF;
         "quilt-26.2" = _M0jHbxDc;
         "quilt-26.3-snapshot-1" = _M0jHbxDc;
+        "pkg-1.0" = _DvLyyYu0;
+        "pkg-1.0+mod" = _M0jHbxDc;
         "default" = _M0jHbxDc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

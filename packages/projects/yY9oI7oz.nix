@@ -40,6 +40,7 @@ let
         "optifine-1.19.2" = _etcq6IIX;
         "optifine-1.19.3" = _etcq6IIX;
         "optifine-1.19.4" = _etcq6IIX;
+        "pkg-0.15.2" = _etcq6IIX;
         "default" = _etcq6IIX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

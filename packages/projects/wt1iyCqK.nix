@@ -15,6 +15,7 @@ let
         "minecraft-1.19.4" = _TUCRZacP;
         "minecraft-1.20.1" = _TUCRZacP;
         "minecraft-1.20.4" = _TUCRZacP;
+        "pkg-1.0" = _TUCRZacP;
         "default" = _TUCRZacP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

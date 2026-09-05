@@ -62,6 +62,7 @@ let
         "quilt-1.20.4" = _tsVk5HaK;
         "quilt-1.20.5" = _tsVk5HaK;
         "quilt-1.20.6" = _tsVk5HaK;
+        "pkg-2.0.1" = _tsVk5HaK;
         "default" = _tsVk5HaK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

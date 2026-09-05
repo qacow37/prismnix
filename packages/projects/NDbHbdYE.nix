@@ -27,6 +27,10 @@ let
         "QUel8myw" = _QUel8myw;
         "ONr68msJ" = _ONr68msJ;
         "fabric-25w14craftmine" = _ONr68msJ;
+        "pkg-1.0.0" = _DsjMXd5G;
+        "pkg-1.2.0" = _rPKPMQUa;
+        "pkg-2.0.0" = _QUel8myw;
+        "pkg-2.1.0" = _ONr68msJ;
         "default" = _ONr68msJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

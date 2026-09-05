@@ -15,6 +15,8 @@ let
         "yWVJzeyS" = _yWVJzeyS;
         "DxvfObdh" = _DxvfObdh;
         "neoforge-1.21.1" = _DxvfObdh;
+        "pkg-0.1.0" = _yWVJzeyS;
+        "pkg-0.1.1" = _DxvfObdh;
         "default" = _DxvfObdh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

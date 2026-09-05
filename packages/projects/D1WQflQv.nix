@@ -21,6 +21,9 @@ let
         "sBbXK4di" = _sBbXK4di;
         "SxFi10Ij" = _SxFi10Ij;
         "fabric-1.21.1" = _SxFi10Ij;
+        "pkg-1.0" = _P4LsVoN3;
+        "pkg-1.1" = _sBbXK4di;
+        "pkg-1.2" = _SxFi10Ij;
         "default" = _SxFi10Ij;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

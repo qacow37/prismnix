@@ -69,6 +69,17 @@ let
         "Lh32UOWa" = _Lh32UOWa;
         "PQG8Qxcs" = _PQG8Qxcs;
         "fabric-1.21.1" = _PQG8Qxcs;
+        "pkg-1.1.0" = _6VW6Iueu;
+        "pkg-1.1.1" = _8b6B8uSI;
+        "pkg-1.1.3" = _5Gt7hE8y;
+        "pkg-1.1.4" = _ouhCzBCU;
+        "pkg-1.1.5" = _DhViArwb;
+        "pkg-1.1.6" = _YFg0Jhw5;
+        "pkg-1.2.0" = _ARWD8K2c;
+        "pkg-1.2.1" = _mamNnZ9d;
+        "pkg-1.2.2" = _fiNLwrRq;
+        "pkg-1.3.0" = _Lh32UOWa;
+        "pkg-1.3.1" = _PQG8Qxcs;
         "default" = _PQG8Qxcs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

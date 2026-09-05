@@ -9,6 +9,7 @@ let
     in {
         "k1u7ECMu" = _k1u7ECMu;
         "forge-1.16.5" = _k1u7ECMu;
+        "pkg-0.2.0" = _k1u7ECMu;
         "default" = _k1u7ECMu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

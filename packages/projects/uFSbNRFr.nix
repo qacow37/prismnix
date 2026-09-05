@@ -9,6 +9,7 @@ let
     in {
         "w80z3GRl" = _w80z3GRl;
         "fabric-1.21.1" = _w80z3GRl;
+        "pkg-1.0.3" = _w80z3GRl;
         "default" = _w80z3GRl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

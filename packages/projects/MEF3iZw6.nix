@@ -16,6 +16,8 @@ let
         "evrapAu2" = _evrapAu2;
         "minecraft-1.18.2" = _evrapAu2;
         "minecraft-1.16.5" = _evrapAu2;
+        "pkg-1.3" = _h5iDuN6i;
+        "pkg-1.4" = _evrapAu2;
         "default" = _evrapAu2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

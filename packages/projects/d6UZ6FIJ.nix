@@ -9,6 +9,7 @@ let
     in {
         "mpEObTEn" = _mpEObTEn;
         "forge-1.20.1" = _mpEObTEn;
+        "pkg-1.0.0" = _mpEObTEn;
         "default" = _mpEObTEn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

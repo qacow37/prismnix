@@ -52,6 +52,13 @@ let
         "GS3KLdWM" = _GS3KLdWM;
         "forge-1.20.1" = _3fcfIjr6;
         "neoforge-1.21.1" = _GS3KLdWM;
+        "pkg-1.0.0" = _krMVqF3y;
+        "pkg-1.0.1" = _UPcZvvuj;
+        "pkg-1.0.2" = _bhPHTr32;
+        "pkg-1.0.3" = _QLGg0Kmj;
+        "pkg-1.0.4" = _UgM9rn7J;
+        "pkg-1.0.5" = _3fcfIjr6;
+        "pkg-1.0.6" = _GS3KLdWM;
         "default" = _GS3KLdWM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

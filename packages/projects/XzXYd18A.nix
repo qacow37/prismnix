@@ -15,6 +15,8 @@ let
         "GjFxortT" = _GjFxortT;
         "6jDiGvo9" = _6jDiGvo9;
         "fabric-1.20.1" = _6jDiGvo9;
+        "pkg-ae2infinite-v1.0.0-f0.16.5" = _GjFxortT;
+        "pkg-ae2infinite-v1.0.1-f0.16.9" = _6jDiGvo9;
         "default" = _6jDiGvo9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

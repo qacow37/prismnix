@@ -51,6 +51,14 @@ let
         "O0gOF7ed" = _O0gOF7ed;
         "czDAtPMa" = _czDAtPMa;
         "forge-1.20.1" = _czDAtPMa;
+        "pkg-0.6.9" = _BTnvdvrn;
+        "pkg-0.6.10" = _fbAI26gb;
+        "pkg-0.6.11" = _77a64ajM;
+        "pkg-0.6.13" = _jbQL6r3l;
+        "pkg-0.6.15" = _ICGMGYhZ;
+        "pkg-0.6.16" = _RCoXqFAh;
+        "pkg-0.6.17" = _O0gOF7ed;
+        "pkg-0.6.18" = _czDAtPMa;
         "default" = _czDAtPMa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

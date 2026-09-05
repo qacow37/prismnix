@@ -15,6 +15,8 @@ let
         "nNUrjW70" = _nNUrjW70;
         "VvftnDNF" = _VvftnDNF;
         "neoforge-1.21.1" = _VvftnDNF;
+        "pkg-1.0.1" = _nNUrjW70;
+        "pkg-1.0.2" = _VvftnDNF;
         "default" = _VvftnDNF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

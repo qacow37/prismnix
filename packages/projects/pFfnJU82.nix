@@ -20,6 +20,7 @@ let
         "optifine-1.21.9" = _hBqmLiTZ;
         "optifine-1.21.10" = _hBqmLiTZ;
         "optifine-1.21.11" = _hBqmLiTZ;
+        "pkg-0.0.1" = _hBqmLiTZ;
         "default" = _hBqmLiTZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

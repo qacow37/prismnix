@@ -9,6 +9,7 @@ let
     in {
         "d8sfHegD" = _d8sfHegD;
         "forge-1.20.1" = _d8sfHegD;
+        "pkg-1.0.0" = _d8sfHegD;
         "default" = _d8sfHegD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

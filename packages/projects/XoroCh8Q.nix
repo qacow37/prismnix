@@ -21,6 +21,9 @@ let
         "63PfloHw" = _63PfloHw;
         "dXrcER1D" = _dXrcER1D;
         "minecraft-1.21" = _dXrcER1D;
+        "pkg-1.0.0" = _XoFnUVLy;
+        "pkg-1.0.1" = _63PfloHw;
+        "pkg-1.0.2" = _dXrcER1D;
         "default" = _dXrcER1D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

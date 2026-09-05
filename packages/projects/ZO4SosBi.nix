@@ -731,6 +731,18 @@ let
         "sponge-26.1" = _atIVaVx6;
         "sponge-26.1.1" = _atIVaVx6;
         "sponge-26.1.2" = _atIVaVx6;
+        "pkg-5.2.0" = _1Np1OmO0;
+        "pkg-5.2.2" = _f3w5pRT4;
+        "pkg-5.2.3" = _aGPWDNiF;
+        "pkg-5.2.4" = _zdo3WVoe;
+        "pkg-5.2.5" = _CXAdM3s7;
+        "pkg-5.2.6" = _F4QMRcrV;
+        "pkg-5.2.7" = _xd2INdZh;
+        "pkg-5.2.9" = _YvuHHdTb;
+        "pkg-5.2.10" = _46UIqaWU;
+        "pkg-5.3.0" = _7iBQNCvb;
+        "pkg-5.4.0" = _XdVPzPfd;
+        "pkg-5.4.1" = _atIVaVx6;
         "default" = _atIVaVx6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

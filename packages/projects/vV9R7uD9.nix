@@ -16,6 +16,8 @@ let
         "cS9DwGWY" = _cS9DwGWY;
         "forge-1.20.1" = _gkagBwr9;
         "neoforge-1.21.1" = _cS9DwGWY;
+        "pkg-1.0-SNAPSHOT" = _gkagBwr9;
+        "pkg-1.0-relase" = _cS9DwGWY;
         "default" = _cS9DwGWY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

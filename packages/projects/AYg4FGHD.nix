@@ -64,6 +64,13 @@ let
         "1csto0SU" = _1csto0SU;
         "neoforge-1.21.1" = _1csto0SU;
         "forge-1.20.1" = _X2PJWc5K;
+        "pkg-1.0.0" = _kDb6bsBp;
+        "pkg-1.0.1" = _3PMyaAqH;
+        "pkg-1.0.2" = _QEEXSvpx;
+        "pkg-1.0.3" = _v4XwIGPP;
+        "pkg-1.1.0" = _uMkiHNsl;
+        "pkg-1.1.1" = _X2PJWc5K;
+        "pkg-1.2.0" = _1csto0SU;
         "default" = _1csto0SU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

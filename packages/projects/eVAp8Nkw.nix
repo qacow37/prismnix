@@ -40,6 +40,12 @@ let
         "lEmazn2j" = _lEmazn2j;
         "fabric-1.20.1" = _lEmazn2j;
         "quilt-1.20.1" = _jHaxpD7d;
+        "pkg-1.0" = _tCv7Acgv;
+        "pkg-1.0.1" = _jHaxpD7d;
+        "pkg-1.2.0" = _SUVFbTDV;
+        "pkg-1.2.1" = _w26K8uiv;
+        "pkg-1.3.0" = _NT8BCliT;
+        "pkg-1.3.1" = _lEmazn2j;
         "default" = _lEmazn2j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

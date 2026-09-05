@@ -23,6 +23,9 @@ let
         "fabric-1.21.8" = _ksbmXvoK;
         "fabric-1.21.9" = _2360VVWp;
         "fabric-1.21.10" = _2360VVWp;
+        "pkg-1.0.0+1.21.8" = _ksbmXvoK;
+        "pkg-1.0.1+1.21.9" = _Vipzadtv;
+        "pkg-1.0.2" = _2360VVWp;
         "default" = _2360VVWp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

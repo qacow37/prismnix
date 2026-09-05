@@ -22,6 +22,9 @@ let
         "6miYTmSY" = _6miYTmSY;
         "babric-b1.7.3" = _6miYTmSY;
         "fabric-b1.7.3" = _6miYTmSY;
+        "pkg-1.7.0" = _BNcC4dB1;
+        "pkg-1.8.0" = _YMdQk2PT;
+        "pkg-1.9.0" = _6miYTmSY;
         "default" = _6miYTmSY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

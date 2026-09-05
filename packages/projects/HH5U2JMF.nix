@@ -22,6 +22,8 @@ let
         "ho31hLSY" = _ho31hLSY;
         "forge-1.18.2" = _iS31Lclk;
         "neoforge-1.21.1" = _ho31hLSY;
+        "pkg-1.3.0" = _iS31Lclk;
+        "pkg-2.0.0" = _ho31hLSY;
         "default" = _ho31hLSY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

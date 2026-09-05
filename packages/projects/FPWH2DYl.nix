@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _X9K7NFbI;
         "forge-1.20.5" = _X9K7NFbI;
         "forge-1.20.6" = _X9K7NFbI;
+        "pkg-1.0-SNAPSHOT" = _X9K7NFbI;
         "default" = _X9K7NFbI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

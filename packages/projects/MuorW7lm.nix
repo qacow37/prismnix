@@ -28,6 +28,10 @@ let
         "LJxLVdmm" = _LJxLVdmm;
         "fabric-1.20.1" = _LJxLVdmm;
         "quilt-1.20.1" = _LJxLVdmm;
+        "pkg-1.0.0-mc1.20.1" = _OO7s8epq;
+        "pkg-1.1.1-mc1.20.1" = _iGGaLzel;
+        "pkg-1.1.2-mc1.20.1" = _ngHGX7Fc;
+        "pkg-1.1.3-mc1.20.1" = _LJxLVdmm;
         "default" = _LJxLVdmm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

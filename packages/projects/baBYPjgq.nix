@@ -26,6 +26,8 @@ let
         "fabric-1.21.1" = _WHmcf40h;
         "forge-1.20" = _7RWsw1e4;
         "forge-1.20.1" = _7RWsw1e4;
+        "pkg-1.3.1" = _7RWsw1e4;
+        "pkg-1.4.0" = _WHmcf40h;
         "default" = _WHmcf40h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

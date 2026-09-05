@@ -21,6 +21,7 @@ let
         "vanilla-1.21.10-rc1" = _Fvyi2quV;
         "vanilla-1.21.10" = _Fvyi2quV;
         "vanilla-1.21.11" = _Fvyi2quV;
+        "pkg-1.0" = _Fvyi2quV;
         "default" = _Fvyi2quV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

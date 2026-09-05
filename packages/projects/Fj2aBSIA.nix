@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _2nMxCh4D;
         "forge-1.20.5" = _2nMxCh4D;
         "forge-1.20.6" = _2nMxCh4D;
+        "pkg-1.20.1" = _2nMxCh4D;
         "default" = _2nMxCh4D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

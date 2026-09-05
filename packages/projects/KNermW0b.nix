@@ -34,6 +34,10 @@ let
         "minecraft-1.20" = _WUAucaRb;
         "minecraft-1.20.1" = _WUAucaRb;
         "minecraft-1.20.2" = _WUAucaRb;
+        "pkg-1.0" = _BETIrRL7;
+        "pkg-1.0.1" = _IlFLXn6i;
+        "pkg-1.1" = _uCSbe2nD;
+        "pkg-1.1.1" = _WUAucaRb;
         "default" = _WUAucaRb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

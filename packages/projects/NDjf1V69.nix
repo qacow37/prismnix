@@ -22,6 +22,8 @@ let
         "forge-1.21.1" = _ZnOKJDmv;
         "neoforge-1.20.1" = _ZnOKJDmv;
         "neoforge-1.21.1" = _ZnOKJDmv;
+        "pkg-1.0.0" = _ttENtCCL;
+        "pkg-1.0.0+mod" = _ZnOKJDmv;
         "default" = _ZnOKJDmv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

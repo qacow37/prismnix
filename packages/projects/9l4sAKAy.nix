@@ -21,6 +21,9 @@ let
         "jb95CQCx" = _jb95CQCx;
         "ZnHmi49I" = _ZnHmi49I;
         "fabric-1.18.2" = _ZnHmi49I;
+        "pkg-0.2.3" = _P47U8aqu;
+        "pkg-0.2.4" = _jb95CQCx;
+        "pkg-0.2.5" = _ZnHmi49I;
         "default" = _ZnHmi49I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

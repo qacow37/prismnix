@@ -318,6 +318,12 @@ let
         "folia-1.20.2" = _DxvSTucG;
         "folia-1.20.3" = _DxvSTucG;
         "folia-1.20.4" = _DxvSTucG;
+        "pkg-1.0" = _OX54hnQy;
+        "pkg-1.1" = _N3pfqyZU;
+        "pkg-1.2" = _TTokSPop;
+        "pkg-1.3" = _CgOjdvej;
+        "pkg-1.4" = _Osu6EVHr;
+        "pkg-1.5" = _DxvSTucG;
         "default" = _DxvSTucG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

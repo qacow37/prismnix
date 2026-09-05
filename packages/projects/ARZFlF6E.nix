@@ -15,6 +15,8 @@ let
         "fVaGxgZD" = _fVaGxgZD;
         "okChkpAt" = _okChkpAt;
         "minecraft-1.21.11" = _okChkpAt;
+        "pkg-Day" = _fVaGxgZD;
+        "pkg-Night" = _okChkpAt;
         "default" = _okChkpAt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

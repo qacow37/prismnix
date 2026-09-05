@@ -15,6 +15,8 @@ let
         "IvEwFEMx" = _IvEwFEMx;
         "VPBDpH21" = _VPBDpH21;
         "forge-1.20.1" = _VPBDpH21;
+        "pkg-1.2.2" = _IvEwFEMx;
+        "pkg-1.2.3" = _VPBDpH21;
         "default" = _VPBDpH21;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

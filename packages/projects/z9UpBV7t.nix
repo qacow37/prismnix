@@ -43,6 +43,8 @@ let
         "minecraft-1.19.4" = _QtSOiopU;
         "minecraft-1.20" = _QtSOiopU;
         "minecraft-1.20.1" = _QtSOiopU;
+        "pkg-1" = _ktH0bz5f;
+        "pkg-2" = _QtSOiopU;
         "default" = _QtSOiopU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

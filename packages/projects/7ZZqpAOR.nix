@@ -21,6 +21,7 @@ let
         "minecraft-1.21.10" = _ucGNErFE;
         "minecraft-1.21.11" = _ucGNErFE;
         "minecraft-26.1" = _ucGNErFE;
+        "pkg-1.2.2" = _ucGNErFE;
         "default" = _ucGNErFE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -18,6 +18,7 @@ let
         "fabric-1.21.9" = _ina38bsi;
         "fabric-1.21.10" = _ina38bsi;
         "fabric-1.21.11" = _ina38bsi;
+        "pkg-1.0" = _ina38bsi;
         "default" = _ina38bsi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

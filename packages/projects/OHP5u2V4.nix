@@ -21,6 +21,9 @@ let
         "XyrsDPrO" = _XyrsDPrO;
         "1UUCogV1" = _1UUCogV1;
         "forge-1.20.1" = _1UUCogV1;
+        "pkg-1.0.0" = _Mdqy5llR;
+        "pkg-1.0.1" = _XyrsDPrO;
+        "pkg-1.0.2" = _1UUCogV1;
         "default" = _1UUCogV1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

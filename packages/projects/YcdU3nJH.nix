@@ -27,6 +27,10 @@ let
         "pte2EYEV" = _pte2EYEV;
         "ZsIoKYnO" = _ZsIoKYnO;
         "forge-1.20.1" = _ZsIoKYnO;
+        "pkg-1.20.1-0.0.1" = _JuWydD6G;
+        "pkg-1.20.1-0.0.2" = _oqH8XEeA;
+        "pkg-1.20.1-0.0.3" = _pte2EYEV;
+        "pkg-1.20.1-0.0.4" = _ZsIoKYnO;
         "default" = _ZsIoKYnO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

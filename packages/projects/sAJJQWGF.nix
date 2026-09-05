@@ -68,6 +68,9 @@ let
         "purpur-1.21.9" = _cBnptMbw;
         "purpur-1.21.10" = _cBnptMbw;
         "purpur-1.21.11" = _cBnptMbw;
+        "pkg-1.0.0" = _zzCPAlTl;
+        "pkg-1.2.4" = _hkqlKAOs;
+        "pkg-1.2.5" = _cBnptMbw;
         "default" = _cBnptMbw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

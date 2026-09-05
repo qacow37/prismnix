@@ -26,6 +26,8 @@ let
         "quilt-1.20.2" = _jVVBCORO;
         "quilt-1.20.3" = _jVVBCORO;
         "quilt-1.20.4" = _jVVBCORO;
+        "pkg-1.0.0" = _dD3zMHOP;
+        "pkg-1.0.0+mod" = _jVVBCORO;
         "default" = _jVVBCORO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

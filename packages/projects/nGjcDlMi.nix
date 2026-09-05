@@ -21,6 +21,9 @@ let
         "C3H29GpW" = _C3H29GpW;
         "kK8M2YZz" = _kK8M2YZz;
         "forge-1.12.2" = _kK8M2YZz;
+        "pkg-1.0.0" = _YOogSi15;
+        "pkg-1.1.0" = _C3H29GpW;
+        "pkg-1.2.0" = _kK8M2YZz;
         "default" = _kK8M2YZz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

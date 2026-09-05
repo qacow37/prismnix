@@ -231,6 +231,9 @@ let
         "spigot-1.21.9" = _lWHtp8BH;
         "spigot-1.21.10" = _lWHtp8BH;
         "spigot-1.21.11" = _lWHtp8BH;
+        "pkg-1.0.0" = _iSateLHN;
+        "pkg-1.0.0-mod" = _7kYIhiYx;
+        "pkg-1.0.0-Plugin" = _lWHtp8BH;
         "default" = _lWHtp8BH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

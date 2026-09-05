@@ -15,6 +15,8 @@ let
         "TU1E32VI" = _TU1E32VI;
         "mGOqbT2H" = _mGOqbT2H;
         "forge-1.20.1" = _mGOqbT2H;
+        "pkg-0.4.1" = _TU1E32VI;
+        "pkg-0.6.0" = _mGOqbT2H;
         "default" = _mGOqbT2H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

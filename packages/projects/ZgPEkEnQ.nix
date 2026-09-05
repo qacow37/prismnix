@@ -9,6 +9,7 @@ let
     in {
         "IyoyxPil" = _IyoyxPil;
         "fabric-1.21.11" = _IyoyxPil;
+        "pkg-1.0.0" = _IyoyxPil;
         "default" = _IyoyxPil;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -49,6 +49,13 @@ let
         "fabric-26.1" = _QndsamCp;
         "fabric-26.1.1" = _QndsamCp;
         "fabric-26.1.2" = _QndsamCp;
+        "pkg-3.0.1+1.21" = _EuLzS4dP;
+        "pkg-3.0.2+1.21" = _Hjzz6DLF;
+        "pkg-3.0.3+1.21" = _K6f4j4fu;
+        "pkg-3.0.4+1.21" = _90jELFv9;
+        "pkg-3.0.5+1.21" = _KZsYwCGX;
+        "pkg-3.0.6+1.21" = _NA53TDsd;
+        "pkg-3.0.6+26.1" = _QndsamCp;
         "default" = _QndsamCp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

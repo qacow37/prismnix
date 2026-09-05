@@ -22,6 +22,9 @@ let
         "EMOM443a" = _EMOM443a;
         "forge-1.19.2" = _DFtBRoTR;
         "forge-1.20.1" = _EMOM443a;
+        "pkg-1.11.2" = _i5SshRfE;
+        "pkg-1.11.4" = _DFtBRoTR;
+        "pkg-1.12.1" = _EMOM443a;
         "default" = _EMOM443a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

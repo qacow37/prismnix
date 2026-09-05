@@ -16,6 +16,8 @@ let
         "JIqDIN6c" = _JIqDIN6c;
         "fabric-1.21.10" = _ygWOxMXe;
         "fabric-1.21.11" = _JIqDIN6c;
+        "pkg-1.0.0" = _ygWOxMXe;
+        "pkg-1.0.2" = _JIqDIN6c;
         "default" = _JIqDIN6c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

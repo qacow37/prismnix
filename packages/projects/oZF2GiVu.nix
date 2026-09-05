@@ -28,6 +28,7 @@ let
         "optifine-1.19" = _aiVeBuV8;
         "optifine-1.19.1" = _aiVeBuV8;
         "optifine-1.19.2" = _aiVeBuV8;
+        "pkg-1.0.0" = _aiVeBuV8;
         "default" = _aiVeBuV8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,8 @@ let
         "j4ny4OP7" = _j4ny4OP7;
         "forge-1.19.2" = _XJ6crTbQ;
         "forge-1.20.1" = _j4ny4OP7;
+        "pkg-1.0.0" = _j4ny4OP7;
+        "pkg-1.0.1" = _XJ6crTbQ;
         "default" = _j4ny4OP7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

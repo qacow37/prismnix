@@ -15,6 +15,8 @@ let
         "V2R17LOY" = _V2R17LOY;
         "gntBWs1F" = _gntBWs1F;
         "neoforge-1.21.1" = _gntBWs1F;
+        "pkg-1.0.0" = _V2R17LOY;
+        "pkg-1.1.0" = _gntBWs1F;
         "default" = _gntBWs1F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

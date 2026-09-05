@@ -9,6 +9,7 @@ let
     in {
         "TEB9Spk5" = _TEB9Spk5;
         "paper-1.21.1" = _TEB9Spk5;
+        "pkg-1.0.0" = _TEB9Spk5;
         "default" = _TEB9Spk5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

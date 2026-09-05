@@ -10,6 +10,7 @@ let
         "DfUnvBHC" = _DfUnvBHC;
         "minecraft-1.20.1" = _DfUnvBHC;
         "minecraft-1.21.1" = _DfUnvBHC;
+        "pkg-1.0.0" = _DfUnvBHC;
         "default" = _DfUnvBHC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

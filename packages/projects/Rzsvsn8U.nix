@@ -9,6 +9,7 @@ let
     in {
         "iMJISpM8" = _iMJISpM8;
         "neoforge-1.21.1" = _iMJISpM8;
+        "pkg-0.1.1" = _iMJISpM8;
         "default" = _iMJISpM8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

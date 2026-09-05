@@ -9,6 +9,7 @@ let
     in {
         "grSYXCUl" = _grSYXCUl;
         "minecraft-1.21" = _grSYXCUl;
+        "pkg-1" = _grSYXCUl;
         "default" = _grSYXCUl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

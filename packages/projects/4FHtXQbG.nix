@@ -87,6 +87,7 @@ let
         "fabric-1.16.3" = _WtmiZgKn;
         "fabric-1.16.4" = _WtmiZgKn;
         "fabric-1.16.5" = _WtmiZgKn;
+        "pkg-1.0.0" = _WtmiZgKn;
         "default" = _WtmiZgKn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

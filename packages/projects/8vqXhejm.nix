@@ -9,6 +9,7 @@ let
     in {
         "VSfsDaWU" = _VSfsDaWU;
         "minecraft-1.21.5" = _VSfsDaWU;
+        "pkg-1.0" = _VSfsDaWU;
         "default" = _VSfsDaWU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

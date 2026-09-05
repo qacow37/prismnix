@@ -21,6 +21,9 @@ let
         "UNICUmNP" = _UNICUmNP;
         "asO6oH90" = _asO6oH90;
         "minecraft-1.20.1" = _asO6oH90;
+        "pkg-0.1" = _JDEC2YPJ;
+        "pkg-0.1.1" = _UNICUmNP;
+        "pkg-0.1.2" = _asO6oH90;
         "default" = _asO6oH90;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

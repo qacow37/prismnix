@@ -65,6 +65,13 @@ let
         "fabric-26.1" = _IulicvIP;
         "fabric-26.1.1" = _IulicvIP;
         "fabric-26.1.2" = _IulicvIP;
+        "pkg-1.1.0" = _z0sGiSrw;
+        "pkg-1.2.0" = _FhakM2gt;
+        "pkg-1.2.1" = _snoDIIIT;
+        "pkg-1.2.2" = _PY3AJOlC;
+        "pkg-1.2.0.1" = _MzAkqazG;
+        "pkg-1.2.0.2" = _L5BmXqk3;
+        "pkg-26.1.0" = _IulicvIP;
         "default" = _IulicvIP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

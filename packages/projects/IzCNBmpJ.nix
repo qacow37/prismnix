@@ -9,6 +9,7 @@ let
     in {
         "mKEZ47bk" = _mKEZ47bk;
         "fabric-1.20.1" = _mKEZ47bk;
+        "pkg-1.1-1.20.1" = _mKEZ47bk;
         "default" = _mKEZ47bk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

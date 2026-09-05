@@ -33,6 +33,10 @@ let
         "JLoee2H8" = _JLoee2H8;
         "9HXCtcwo" = _9HXCtcwo;
         "forge-1.20.1" = _9HXCtcwo;
+        "pkg-1.20.1" = _fgxBTbJv;
+        "pkg-Lucky-Clover-Beta" = _WEuupTWc;
+        "pkg-Lucky-Clover-1.0.0" = _JLoee2H8;
+        "pkg-Lucky-Clover-1.1.0" = _9HXCtcwo;
         "default" = _9HXCtcwo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "uCwY65Gi" = _uCwY65Gi;
         "forge-1.19.4" = _KXMmgTaA;
         "forge-1.20.1" = _uCwY65Gi;
+        "pkg-0.10" = _uCwY65Gi;
         "default" = _uCwY65Gi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

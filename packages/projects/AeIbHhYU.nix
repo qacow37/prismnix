@@ -10,6 +10,7 @@ let
         "PPV8Ao36" = _PPV8Ao36;
         "neoforge-1.21.8" = _PPV8Ao36;
         "neoforge-1.21.9" = _PPV8Ao36;
+        "pkg-1.0.1" = _PPV8Ao36;
         "default" = _PPV8Ao36;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

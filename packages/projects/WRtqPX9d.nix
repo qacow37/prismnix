@@ -21,6 +21,9 @@ let
         "V3XXx1eD" = _V3XXx1eD;
         "7murguP2" = _7murguP2;
         "forge-1.12.2" = _7murguP2;
+        "pkg-1.0.7" = _LjvEuJEv;
+        "pkg-1.0.8" = _V3XXx1eD;
+        "pkg-1.0.9" = _7murguP2;
         "default" = _7murguP2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

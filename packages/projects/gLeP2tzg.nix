@@ -43,6 +43,10 @@ let
         "minecraft-26.1.1" = _BTU3TC4U;
         "minecraft-26.1.2" = _BTU3TC4U;
         "minecraft-26.2" = _BTU3TC4U;
+        "pkg-1" = _xMrVBNv9;
+        "pkg-2" = _awjU8vs2;
+        "pkg-3.0" = _sYHS8OA3;
+        "pkg-3.1" = _BTU3TC4U;
         "default" = _BTU3TC4U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

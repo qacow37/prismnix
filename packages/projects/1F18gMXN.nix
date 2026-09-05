@@ -38,6 +38,7 @@ let
         "neoforge-1.20.4" = _ERlEd0mv;
         "neoforge-1.20.6" = _vkKRC8tb;
         "neoforge-1.21" = _vkKRC8tb;
+        "pkg-1.1" = _vkKRC8tb;
         "default" = _vkKRC8tb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

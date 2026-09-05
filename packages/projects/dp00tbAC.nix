@@ -10,6 +10,7 @@ let
         "yAleynVt" = _yAleynVt;
         "minecraft-1.20" = _yAleynVt;
         "minecraft-1.20.1" = _yAleynVt;
+        "pkg-1.0" = _yAleynVt;
         "default" = _yAleynVt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

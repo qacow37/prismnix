@@ -10,6 +10,7 @@ let
         "UD92jsos" = _UD92jsos;
         "paper-1.19.1" = _UD92jsos;
         "paper-1.19.2" = _UD92jsos;
+        "pkg-1.0.0" = _UD92jsos;
         "default" = _UD92jsos;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

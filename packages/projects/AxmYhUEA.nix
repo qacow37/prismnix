@@ -39,6 +39,12 @@ let
         "t3rHEFTN" = _t3rHEFTN;
         "WMELNVmz" = _WMELNVmz;
         "forge-1.20.1" = _WMELNVmz;
+        "pkg-y1.4.415.jar" = _NDN4680F;
+        "pkg-ct1.0.0" = _2Kk2rYMh;
+        "pkg-y1.5.2" = _pgfoyHRp;
+        "pkg-y1.5.3" = _PPoyj5QE;
+        "pkg-y1.5.310" = _t3rHEFTN;
+        "pkg-y1.5.325" = _WMELNVmz;
         "default" = _WMELNVmz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

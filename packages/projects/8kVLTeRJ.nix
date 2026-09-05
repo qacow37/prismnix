@@ -10,6 +10,7 @@ let
         "CvFjmk5z" = _CvFjmk5z;
         "neoforge-1.21" = _CvFjmk5z;
         "neoforge-1.21.1" = _CvFjmk5z;
+        "pkg-1.21-0.7.0" = _CvFjmk5z;
         "default" = _CvFjmk5z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

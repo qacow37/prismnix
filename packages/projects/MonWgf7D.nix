@@ -16,6 +16,8 @@ let
         "YYvJAZmv" = _YYvJAZmv;
         "forge-1.20.1" = _lPRTZbfS;
         "neoforge-1.21.1" = _YYvJAZmv;
+        "pkg-1.0.1" = _lPRTZbfS;
+        "pkg-1.0.4" = _YYvJAZmv;
         "default" = _YYvJAZmv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -45,6 +45,7 @@ let
         "minecraft-1.21.9" = _wBc5Owd2;
         "minecraft-1.21.10" = _wBc5Owd2;
         "minecraft-1.21.11" = _wBc5Owd2;
+        "pkg-0.0.1" = _wBc5Owd2;
         "default" = _wBc5Owd2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

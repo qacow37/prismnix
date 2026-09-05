@@ -15,6 +15,8 @@ let
         "JrijNocN" = _JrijNocN;
         "BQRcDDiT" = _BQRcDDiT;
         "neoforge-1.21.1" = _BQRcDDiT;
+        "pkg-0.1.0+git-bc70c38" = _JrijNocN;
+        "pkg-0.1.0" = _BQRcDDiT;
         "default" = _BQRcDDiT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "Suy5mrNN" = _Suy5mrNN;
         "fabric-1.19.1" = _Suy5mrNN;
         "fabric-1.19.2" = _Suy5mrNN;
+        "pkg-1.0.0" = _TsWZmmbr;
+        "pkg-1.0.1" = _Suy5mrNN;
         "default" = _Suy5mrNN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

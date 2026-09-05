@@ -28,6 +28,10 @@ let
         "K8fBrURI" = _K8fBrURI;
         "forge-1.19.2" = _K8fBrURI;
         "forge-1.18.2" = _WkVU6TC0;
+        "pkg-0.1.0-1.19.2" = _QdpTxMUL;
+        "pkg-0.1.1-1.19.2" = _7AV5U7LX;
+        "pkg-0.1.1-1.18.2" = _WkVU6TC0;
+        "pkg-0.1.2-1.19.2" = _K8fBrURI;
         "default" = _K8fBrURI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

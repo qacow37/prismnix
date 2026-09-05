@@ -10,6 +10,7 @@ let
         "YT7374h6" = _YT7374h6;
         "fabric-1.20.1" = _YT7374h6;
         "quilt-1.20.1" = _YT7374h6;
+        "pkg-1.0.0" = _YT7374h6;
         "default" = _YT7374h6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

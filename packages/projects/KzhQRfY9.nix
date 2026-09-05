@@ -234,6 +234,14 @@ let
         "spigot-1.19.4" = _Hfew2LJn;
         "spigot-1.20" = _Hfew2LJn;
         "spigot-1.20.1" = _Hfew2LJn;
+        "pkg-1.1.0" = _olgyUI04;
+        "pkg-1.1.1" = _2vVNVvQw;
+        "pkg-1.1.2" = _N7mrmwXB;
+        "pkg-1.1.3" = _NVmpVJid;
+        "pkg-1.1.4" = _NXQEF3iL;
+        "pkg-1.1.5" = _718ZXaFr;
+        "pkg-1.1.6" = _Svei3Wcv;
+        "pkg-1.1.7" = _Hfew2LJn;
         "default" = _Hfew2LJn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

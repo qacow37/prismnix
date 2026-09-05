@@ -34,6 +34,9 @@ let
         "ptLdJOoB" = _ptLdJOoB;
         "forge-1.20.1" = _4s0Hjmyf;
         "datapack-1.20.1" = _ptLdJOoB;
+        "pkg-1.0.0" = _WGexNDWm;
+        "pkg-1.1.0" = _JW3Tbmzu;
+        "pkg-1.2.0" = _ptLdJOoB;
         "default" = _ptLdJOoB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

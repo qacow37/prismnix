@@ -100,6 +100,7 @@ let
         "spigot-26.1.1" = _S8KPgaqN;
         "spigot-26.1.2" = _S8KPgaqN;
         "spigot-26.2" = _S8KPgaqN;
+        "pkg-1.0-SNAPSHOT" = _S8KPgaqN;
         "default" = _S8KPgaqN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

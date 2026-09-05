@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _QmGVfWTD;
         "forge-1.20.5" = _QmGVfWTD;
         "forge-1.20.6" = _QmGVfWTD;
+        "pkg-1.0.0-beta" = _QmGVfWTD;
         "default" = _QmGVfWTD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

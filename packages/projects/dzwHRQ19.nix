@@ -22,6 +22,8 @@ let
         "LOqAksgz" = _LOqAksgz;
         "forge-1.20.1" = _LOqAksgz;
         "fabric-1.20.1" = _Ks7Vd70j;
+        "pkg-1.0.0" = _Ks7Vd70j;
+        "pkg-2.0.1" = _LOqAksgz;
         "default" = _LOqAksgz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -65,6 +65,10 @@ let
         "minecraft-1.21.2" = _BP2ZbXga;
         "minecraft-1.21.3" = _BP2ZbXga;
         "minecraft-1.21.4" = _BP2ZbXga;
+        "pkg-1.0.0" = _BLykAZse;
+        "pkg-1.1.0" = _JaED9bMC;
+        "pkg-1.1.1" = _ngbLpspu;
+        "pkg-1.1.2" = _BP2ZbXga;
         "default" = _BP2ZbXga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

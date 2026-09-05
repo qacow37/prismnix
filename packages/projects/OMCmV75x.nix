@@ -41,6 +41,7 @@ let
         "minecraft-1.20.6" = _PiXI2bXE;
         "minecraft-1.21" = _PiXI2bXE;
         "minecraft-1.21.1" = _PiXI2bXE;
+        "pkg-1.0.0" = _PiXI2bXE;
         "default" = _PiXI2bXE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

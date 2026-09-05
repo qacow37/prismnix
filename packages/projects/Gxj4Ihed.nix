@@ -15,6 +15,8 @@ let
         "BbTlJ0s4" = _BbTlJ0s4;
         "uDnC1TSw" = _uDnC1TSw;
         "neoforge-1.21.1" = _uDnC1TSw;
+        "pkg-0.1.0-1.21.1" = _BbTlJ0s4;
+        "pkg-0.1.1-1.21.1" = _uDnC1TSw;
         "default" = _uDnC1TSw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

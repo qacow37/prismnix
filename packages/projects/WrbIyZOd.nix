@@ -28,6 +28,10 @@ let
         "QvWI2sKD" = _QvWI2sKD;
         "datapack-1.20.1" = _QvWI2sKD;
         "fabric-1.20.1" = _QvWI2sKD;
+        "pkg-1.0" = _yig4DDm5;
+        "pkg-1.1" = _DkGf4I1x;
+        "pkg-1.2" = _avENCUHE;
+        "pkg-1.4" = _QvWI2sKD;
         "default" = _QvWI2sKD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

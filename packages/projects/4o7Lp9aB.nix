@@ -156,6 +156,7 @@ let
         "spigot-26.1" = _aqfFPEOS;
         "spigot-26.1.1" = _aqfFPEOS;
         "spigot-26.1.2" = _aqfFPEOS;
+        "pkg-3.7.2" = _aqfFPEOS;
         "default" = _aqfFPEOS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

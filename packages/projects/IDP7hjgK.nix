@@ -10,6 +10,7 @@ let
         "3EFltd49" = _3EFltd49;
         "minecraft-1.20.1" = _3EFltd49;
         "minecraft-1.21.1" = _3EFltd49;
+        "pkg-1.0" = _3EFltd49;
         "default" = _3EFltd49;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

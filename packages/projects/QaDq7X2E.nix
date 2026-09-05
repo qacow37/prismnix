@@ -9,6 +9,7 @@ let
     in {
         "fCA6xLsn" = _fCA6xLsn;
         "minecraft-1.20.1" = _fCA6xLsn;
+        "pkg-damascus_0708" = _fCA6xLsn;
         "default" = _fCA6xLsn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

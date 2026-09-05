@@ -9,6 +9,7 @@ let
     in {
         "IAUQHe04" = _IAUQHe04;
         "fabric-1.21.1" = _IAUQHe04;
+        "pkg-1.0" = _IAUQHe04;
         "default" = _IAUQHe04;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

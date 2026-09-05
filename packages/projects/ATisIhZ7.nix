@@ -16,6 +16,8 @@ let
         "msIfFGBy" = _msIfFGBy;
         "forge-1.20.1" = _d9Ekb5Ya;
         "neoforge-1.21.1" = _msIfFGBy;
+        "pkg-1.0.0" = _d9Ekb5Ya;
+        "pkg-1.2.0" = _msIfFGBy;
         "default" = _msIfFGBy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

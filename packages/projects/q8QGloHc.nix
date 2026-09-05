@@ -15,6 +15,8 @@ let
         "PjgnddQl" = _PjgnddQl;
         "KhngudWy" = _KhngudWy;
         "forge-1.20.1" = _KhngudWy;
+        "pkg-1.0.0" = _PjgnddQl;
+        "pkg-1.0.1" = _KhngudWy;
         "default" = _KhngudWy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

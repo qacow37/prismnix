@@ -27,6 +27,7 @@ let
         "prtyVnI9" = _prtyVnI9;
         "PKK21wDv" = _PKK21wDv;
         "forge-1.20.1" = _PKK21wDv;
+        "pkg-1.0.0" = _PKK21wDv;
         "default" = _PKK21wDv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

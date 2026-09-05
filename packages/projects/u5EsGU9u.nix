@@ -16,6 +16,8 @@ let
         "XPvxGMM9" = _XPvxGMM9;
         "forge-1.12.2" = _3LNZ8hy7;
         "forge-1.20.1" = _XPvxGMM9;
+        "pkg-1.1" = _3LNZ8hy7;
+        "pkg-1.0.0" = _XPvxGMM9;
         "default" = _XPvxGMM9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

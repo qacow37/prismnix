@@ -46,6 +46,13 @@ let
         "rQo56TE2" = _rQo56TE2;
         "fabric-1.20.1" = _rQo56TE2;
         "quilt-1.20.1" = _rQo56TE2;
+        "pkg-1.0" = _9qmUNsmB;
+        "pkg-1.2" = _yCIj238G;
+        "pkg-1.3" = _jqE6CN38;
+        "pkg-1.4" = _dUzqyzFC;
+        "pkg-1.5" = _2HrQpsiN;
+        "pkg-1.6" = _8S9y2is9;
+        "pkg-1.7" = _rQo56TE2;
         "default" = _rQo56TE2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -23,6 +23,9 @@ let
         "datapack-1.20.1" = _NdpERQSI;
         "fabric-1.20.1" = _qmFWt1sv;
         "forge-1.20.1" = _qmFWt1sv;
+        "pkg-1.0" = _A9SWSyEy;
+        "pkg-1.0.1" = _NdpERQSI;
+        "pkg-1.0.1+mod" = _qmFWt1sv;
         "default" = _qmFWt1sv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

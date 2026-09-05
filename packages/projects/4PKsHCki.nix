@@ -295,6 +295,9 @@ let
         "spigot-1.12.1" = _ez2oicCa;
         "spigot-1.12.2" = _ez2oicCa;
         "spigot-1.21.1" = _N5RqZp5W;
+        "pkg-1.3" = _NoZZpgrh;
+        "pkg-1.4" = _ez2oicCa;
+        "pkg-1.5" = _N5RqZp5W;
         "default" = _N5RqZp5W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

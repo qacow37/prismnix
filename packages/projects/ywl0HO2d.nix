@@ -16,6 +16,7 @@ let
         "YtntFtcT" = _YtntFtcT;
         "fabric-1.21.5" = _4FJdEyo4;
         "neoforge-1.21.5" = _YtntFtcT;
+        "pkg-1.0" = _YtntFtcT;
         "default" = _YtntFtcT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

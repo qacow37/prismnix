@@ -16,6 +16,8 @@ let
         "EQo10MIc" = _EQo10MIc;
         "fabric-1.20" = _6OpsOOkT;
         "fabric-1.20.1" = _EQo10MIc;
+        "pkg-0.1.0" = _6OpsOOkT;
+        "pkg-0.2.0" = _EQo10MIc;
         "default" = _EQo10MIc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

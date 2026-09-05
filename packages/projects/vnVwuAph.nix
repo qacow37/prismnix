@@ -15,6 +15,8 @@ let
         "6LGfmLvt" = _6LGfmLvt;
         "vdzkAWBF" = _vdzkAWBF;
         "fabric-1.21" = _vdzkAWBF;
+        "pkg-1.0.0" = _6LGfmLvt;
+        "pkg-1.0.1" = _vdzkAWBF;
         "default" = _vdzkAWBF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

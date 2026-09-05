@@ -15,6 +15,8 @@ let
         "sYmA21zL" = _sYmA21zL;
         "AP8sp7y0" = _AP8sp7y0;
         "forge-1.20.1" = _AP8sp7y0;
+        "pkg-1.1" = _sYmA21zL;
+        "pkg-1.3.1" = _AP8sp7y0;
         "default" = _AP8sp7y0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

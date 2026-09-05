@@ -75,6 +75,7 @@ let
         "minecraft-1.21.6" = _EuLbsPfZ;
         "minecraft-1.21.7" = _EuLbsPfZ;
         "minecraft-1.21.8" = _EuLbsPfZ;
+        "pkg-1" = _EuLbsPfZ;
         "default" = _EuLbsPfZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

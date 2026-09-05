@@ -10,6 +10,7 @@ let
         "qNXKP5uB" = _qNXKP5uB;
         "fabric-1.21.1" = _qNXKP5uB;
         "neoforge-1.21.1" = _qNXKP5uB;
+        "pkg-1.0.0" = _qNXKP5uB;
         "default" = _qNXKP5uB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -210,6 +210,16 @@ let
         "minecraft-26.3-snapshot-5" = _bx7bRkLo;
         "minecraft-26.3-snapshot-6" = _bx7bRkLo;
         "minecraft-26.3-snapshot-7" = _bx7bRkLo;
+        "pkg-Photon-1.0" = _rpv7uuX1;
+        "pkg-Photon-2.0-Legacy" = _etH2Bmmu;
+        "pkg-Photon-2.0-Legacy+" = _jSSp8J1F;
+        "pkg-3.0.0" = _q3l5NXgw;
+        "pkg-3.0.1" = _h63Dp91m;
+        "pkg-3.1.0" = _6VgNmetz;
+        "pkg-3.1.1-DEV1" = _IIgD7DST;
+        "pkg-3.1.1-DEV2" = _yoPVkV25;
+        "pkg-3.1.1" = _Gi1ECQXD;
+        "pkg-3.1.2-DEV1" = _bx7bRkLo;
         "default" = _bx7bRkLo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

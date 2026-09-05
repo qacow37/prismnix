@@ -46,6 +46,13 @@ let
         "aI5TlHrS" = _aI5TlHrS;
         "babric-b1.7.3" = _aI5TlHrS;
         "fabric-b1.7.3" = _aI5TlHrS;
+        "pkg-1.0.0" = _ciRQOVb1;
+        "pkg-1.1.0" = _quem11UN;
+        "pkg-1.2.0" = _aTxOT8yF;
+        "pkg-1.2.1" = _xwTZ1Y1n;
+        "pkg-1.2.2" = _sGlHRgbi;
+        "pkg-2.0.0" = _bsqLRhaM;
+        "pkg-2.0.1" = _aI5TlHrS;
         "default" = _aI5TlHrS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

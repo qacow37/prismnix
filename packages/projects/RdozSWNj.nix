@@ -113,6 +113,7 @@ let
         "forge-26.1.1" = _keTdFOFI;
         "forge-26.1.2" = _keTdFOFI;
         "forge-26.2" = _WSBhs6Rl;
+        "pkg-1.0.0" = _C7flDMoF;
         "default" = _C7flDMoF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

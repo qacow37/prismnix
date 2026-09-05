@@ -257,6 +257,23 @@ let
         "quilt-1.19.3-rc2" = _3aQb1NNM;
         "quilt-1.19.3-rc3" = _3aQb1NNM;
         "quilt-1.19.3" = _3aQb1NNM;
+        "pkg-inventorytabs-0.4.5-1.18.x" = _9Yda8AFE;
+        "pkg-inventorytabs-0.4.5-1.19.x" = _SRCPstTd;
+        "pkg-inventorytabs-0.5.0-1.18.x" = _TjlHwKxz;
+        "pkg-inventorytabs-0.6.0-1.18.x" = _2F4B8vhG;
+        "pkg-inventorytabs-0.6.0-1.19.x" = _L3HHfGEY;
+        "pkg-inventorytabs-0.6.1-1.18.x" = _7ckLZB53;
+        "pkg-inventorytabs-0.6.1-1.19.x" = _XCrBOa4I;
+        "pkg-inventorytabs-0.7.0-1.18.x" = _xtde3qBu;
+        "pkg-inventorytabs-0.7.0-1.19.x" = _j2hebwTs;
+        "pkg-inventorytabs-0.8.0-1.18.x" = _zcVGWdC9;
+        "pkg-inventorytabs-0.8.0-1.19.x" = _sAgLfZG0;
+        "pkg-inventorytabs-0.8.1-1.18.x" = _A1UpW1A1;
+        "pkg-inventorytabs-0.8.1-1.19.x" = _l8Rd5e4i;
+        "pkg-inventorytabs-0.9.beta-1.18.x" = _lcvmBn25;
+        "pkg-inventorytabs-0.9.beta-1.19.x" = _D3KVnCs9;
+        "pkg-inventorytabs-0.9.0-beta-1.19.3" = _3aQb1NNM;
+        "pkg-0.9.1-1.19.4-beta" = _3RUdPLwX;
         "default" = _3RUdPLwX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

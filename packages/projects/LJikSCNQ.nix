@@ -37,6 +37,7 @@ let
         "minecraft-1.18.2" = _SQxwWy0f;
         "minecraft-1.17" = _ButdXFUN;
         "minecraft-1.17.1" = _ButdXFUN;
+        "pkg-1.0" = _ButdXFUN;
         "default" = _ButdXFUN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

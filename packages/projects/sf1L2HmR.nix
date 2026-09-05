@@ -16,6 +16,8 @@ let
         "DnkuW3G5" = _DnkuW3G5;
         "minecraft-1.20.1" = _DnkuW3G5;
         "minecraft-1.21.1" = _DnkuW3G5;
+        "pkg-1.0" = _MfChDnhK;
+        "pkg-2.0" = _DnkuW3G5;
         "default" = _DnkuW3G5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

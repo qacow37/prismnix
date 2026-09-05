@@ -21,6 +21,9 @@ let
         "cUSA60jy" = _cUSA60jy;
         "NQqJC4AA" = _NQqJC4AA;
         "neoforge-1.21.1" = _NQqJC4AA;
+        "pkg-1.0.0" = _ncp3Fc0o;
+        "pkg-1.0.1" = _cUSA60jy;
+        "pkg-1.0.2" = _NQqJC4AA;
         "default" = _NQqJC4AA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

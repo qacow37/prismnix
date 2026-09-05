@@ -55,6 +55,11 @@ let
         "fabric-1.21.9" = _rcBF86Uc;
         "fabric-1.21.10" = _rcBF86Uc;
         "quilt-1.19.3" = _16V6vZLv;
+        "pkg-1.0" = _16V6vZLv;
+        "pkg-1.0.1" = _aBAKHuzU;
+        "pkg-1.0.2" = _lAudkf1V;
+        "pkg-1.0.3" = _tVpNlVU9;
+        "pkg-1.0.4" = _rcBF86Uc;
         "default" = _rcBF86Uc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

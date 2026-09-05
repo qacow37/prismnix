@@ -29,6 +29,10 @@ let
         "forge-1.20.1" = _grTuKxcQ;
         "neoforge-1.20.1" = _grTuKxcQ;
         "neoforge-1.21.1" = _M7GvaNlq;
+        "pkg-Lead_Apple_0.0.1" = _ZlduutZs;
+        "pkg-Lead_Apple_0.1.1" = _k07sVr5g;
+        "pkg-Lead_Apple_1.0.0" = _grTuKxcQ;
+        "pkg-Lead_Apple_1.0.1" = _M7GvaNlq;
         "default" = _M7GvaNlq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

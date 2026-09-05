@@ -16,6 +16,8 @@ let
         "wiVr9tPu" = _wiVr9tPu;
         "fabric-1.20" = _wiVr9tPu;
         "fabric-1.20.1" = _wiVr9tPu;
+        "pkg-1.0.0+1.20.1" = _6rwdOsDt;
+        "pkg-1.1.0+1.20.1" = _wiVr9tPu;
         "default" = _wiVr9tPu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

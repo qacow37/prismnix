@@ -28,6 +28,10 @@ let
         "2hRKiSPI" = _2hRKiSPI;
         "fabric-b1.7.3" = _2hRKiSPI;
         "babric-b1.7.3" = _2hRKiSPI;
+        "pkg-0.1.0" = _9TyFoNje;
+        "pkg-0.2.0" = _37U5YEFx;
+        "pkg-0.2.1" = _Av01xpNz;
+        "pkg-0.2.2" = _2hRKiSPI;
         "default" = _2hRKiSPI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,10 @@ let
         "QDt6KYrg" = _QDt6KYrg;
         "iris-1.20" = _QDt6KYrg;
         "iris-1.21" = _QDt6KYrg;
+        "pkg-v1.0" = _YR6b5MMn;
+        "pkg-v1.2" = _Y4u0QOsH;
+        "pkg-v1.3" = _a1E4dxPd;
+        "pkg-v1.4" = _QDt6KYrg;
         "default" = _QDt6KYrg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

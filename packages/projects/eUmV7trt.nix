@@ -16,6 +16,8 @@ let
         "9MUcF1SV" = _9MUcF1SV;
         "quilt-1.20.1" = _znqgJERG;
         "fabric-1.21.1" = _9MUcF1SV;
+        "pkg-1.0.0-build.10+mc1.20.1" = _znqgJERG;
+        "pkg-1.0.0+build.12-mc1.21.1" = _9MUcF1SV;
         "default" = _9MUcF1SV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

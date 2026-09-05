@@ -18,6 +18,8 @@ let
         "iris-1.21.11" = _U14b7BOg;
         "optifine-1.21.10" = _WAvdXBfa;
         "optifine-1.21.11" = _U14b7BOg;
+        "pkg-1.0" = _WAvdXBfa;
+        "pkg-1.0.1" = _U14b7BOg;
         "default" = _U14b7BOg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,7 @@ let
         "minecraft-26.1" = _SQnviEMP;
         "minecraft-26.1.1" = _SQnviEMP;
         "minecraft-26.1.2" = _SQnviEMP;
+        "pkg-1.0" = _SQnviEMP;
         "default" = _SQnviEMP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

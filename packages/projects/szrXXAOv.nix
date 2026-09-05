@@ -40,6 +40,7 @@ let
         "neoforge-1.21.6" = _jpRddDoG;
         "neoforge-1.21.7" = _jpRddDoG;
         "neoforge-1.21.8" = _jpRddDoG;
+        "pkg-1.0.0" = _jpRddDoG;
         "default" = _jpRddDoG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -34,6 +34,7 @@ let
         "minecraft-1.21.5" = _2RWGMSFR;
         "minecraft-1.21.6" = _2RWGMSFR;
         "minecraft-1.21.7" = _2RWGMSFR;
+        "pkg-Small_Crosshair" = _2RWGMSFR;
         "default" = _2RWGMSFR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

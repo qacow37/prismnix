@@ -15,6 +15,8 @@ let
         "zPqy1p8I" = _zPqy1p8I;
         "Wm16PIZb" = _Wm16PIZb;
         "neoforge-1.21.1" = _Wm16PIZb;
+        "pkg-1.0.0-beta" = _zPqy1p8I;
+        "pkg-1.0.2-beta" = _Wm16PIZb;
         "default" = _Wm16PIZb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

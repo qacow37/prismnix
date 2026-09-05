@@ -81,6 +81,10 @@ let
         "minecraft-26.3-snapshot-1" = _SrjhEyS6;
         "minecraft-26.3-snapshot-2" = _SrjhEyS6;
         "minecraft-26.3-snapshot-3" = _SrjhEyS6;
+        "pkg-EnchantedCovers" = _pazIKQ8V;
+        "pkg-1.1" = _DaQ9Wj1Z;
+        "pkg-1.2" = _huQFwKPv;
+        "pkg-1.3" = _SrjhEyS6;
         "default" = _SrjhEyS6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

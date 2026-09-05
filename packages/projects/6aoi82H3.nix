@@ -27,6 +27,10 @@ let
         "NPtktFok" = _NPtktFok;
         "2zKLWCa4" = _2zKLWCa4;
         "forge-1.20.1" = _2zKLWCa4;
+        "pkg-1.0.0" = _5Wgj39jA;
+        "pkg-1.1.0" = _WbJoyanL;
+        "pkg-1.1.1" = _NPtktFok;
+        "pkg-1.1.2" = _2zKLWCa4;
         "default" = _2zKLWCa4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

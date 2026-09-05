@@ -272,6 +272,7 @@ let
         "spigot-26.1.1" = _UDIL06v4;
         "spigot-26.1.2" = _UDIL06v4;
         "spigot-26.2" = _UDIL06v4;
+        "pkg-1.0" = _UDIL06v4;
         "default" = _UDIL06v4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

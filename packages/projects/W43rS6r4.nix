@@ -9,6 +9,7 @@ let
     in {
         "sxEBWk2V" = _sxEBWk2V;
         "neoforge-1.21.1" = _sxEBWk2V;
+        "pkg-1.0" = _sxEBWk2V;
         "default" = _sxEBWk2V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -244,6 +244,8 @@ let
         "quilt-1.21.9" = _VDrUvWSE;
         "quilt-1.21.10" = _VDrUvWSE;
         "quilt-1.21.11" = _VDrUvWSE;
+        "pkg-1.0" = _w46so2oV;
+        "pkg-1.0+mod" = _VDrUvWSE;
         "default" = _VDrUvWSE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

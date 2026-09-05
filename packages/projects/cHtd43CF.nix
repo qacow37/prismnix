@@ -125,6 +125,8 @@ let
         "legacy-fabric-1.12" = _RpXsFqZc;
         "legacy-fabric-1.12.1" = _RpXsFqZc;
         "legacy-fabric-1.12.2" = _RpXsFqZc;
+        "pkg-1.1.0" = _RQt8Giid;
+        "pkg-1.1.1" = _RpXsFqZc;
         "default" = _RpXsFqZc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

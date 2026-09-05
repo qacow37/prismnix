@@ -10,6 +10,7 @@ let
         "dlv5tIK5" = _dlv5tIK5;
         "fabric-1.20" = _dlv5tIK5;
         "fabric-1.20.1" = _dlv5tIK5;
+        "pkg-1.0.0" = _dlv5tIK5;
         "default" = _dlv5tIK5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

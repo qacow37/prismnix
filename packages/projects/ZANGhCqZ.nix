@@ -10,6 +10,7 @@ let
         "Fct5qPbD" = _Fct5qPbD;
         "paper-1.21.3" = _Fct5qPbD;
         "paper-1.21.4" = _Fct5qPbD;
+        "pkg-1.0" = _Fct5qPbD;
         "default" = _Fct5qPbD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

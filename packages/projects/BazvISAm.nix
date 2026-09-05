@@ -15,6 +15,8 @@ let
         "EdXNAjjA" = _EdXNAjjA;
         "qoNPXC72" = _qoNPXC72;
         "forge-1.12.2" = _qoNPXC72;
+        "pkg-1.1.7" = _EdXNAjjA;
+        "pkg-1.2.0" = _qoNPXC72;
         "default" = _qoNPXC72;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

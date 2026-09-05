@@ -45,6 +45,12 @@ let
         "rZrdU68T" = _rZrdU68T;
         "GgCMtS4V" = _GgCMtS4V;
         "neoforge-1.21.1" = _GgCMtS4V;
+        "pkg-1.0.0" = _aMCksPon;
+        "pkg-1.0.0-beta.2" = _BZGs7dkF;
+        "pkg-1.2.0-Beta-1" = _KhDINmb0;
+        "pkg-1.1.0-Beta-2" = _Pm5CgIP9;
+        "pkg-1.1.0-Beta-3" = _rZrdU68T;
+        "pkg-1.1.0-Beta-3.1" = _GgCMtS4V;
         "default" = _GgCMtS4V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

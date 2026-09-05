@@ -112,6 +112,9 @@ let
         "spigot-26.1.1" = _YbtW2MPi;
         "spigot-26.1.2" = _YbtW2MPi;
         "spigot-26.2" = _YbtW2MPi;
+        "pkg-0.1v" = _dbSYWpDw;
+        "pkg-0.2v" = _Q3Uwxttj;
+        "pkg-0.3v" = _YbtW2MPi;
         "default" = _YbtW2MPi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

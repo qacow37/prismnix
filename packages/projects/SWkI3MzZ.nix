@@ -33,6 +33,11 @@ let
         "RhKOR8TP" = _RhKOR8TP;
         "DPonftXi" = _DPonftXi;
         "bta-babric-b1.7.3" = _DPonftXi;
+        "pkg-2.2.0-1.7.7.0_02" = _UOnnJSUT;
+        "pkg-3.0.3-7.1" = _IkfHDRWl;
+        "pkg-3.1.0-7.1" = _6d92PEJF;
+        "pkg-3.1.1-7.1" = _RhKOR8TP;
+        "pkg-3.1.2-7.1" = _DPonftXi;
         "default" = _DPonftXi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

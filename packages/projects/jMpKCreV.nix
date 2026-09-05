@@ -15,6 +15,8 @@ let
         "t2JosxDO" = _t2JosxDO;
         "B6H2p0Hy" = _B6H2p0Hy;
         "fabric-1.21.11" = _B6H2p0Hy;
+        "pkg-1.0.0" = _t2JosxDO;
+        "pkg-2.0.0" = _B6H2p0Hy;
         "default" = _B6H2p0Hy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

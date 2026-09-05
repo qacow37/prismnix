@@ -453,6 +453,27 @@ let
         "fabric-26.1.2" = _BW4VkWuR;
         "fabric-26.2" = _cj5xRx18;
         "forge-1.20.1" = _24OmvN6x;
+        "pkg-1.0.0" = _DFqNDrtl;
+        "pkg-1.0.1" = _wj4qNvUd;
+        "pkg-1.0.2" = _maeNs4zm;
+        "pkg-1.0.3-LTS.1" = _S2LfOXsp;
+        "pkg-1.0.4-LTS.1" = _Ye84QPgK;
+        "pkg-1.0.3" = _j30JyZpi;
+        "pkg-1.0.5-LTS.1" = _q6ZU98km;
+        "pkg-1.0.4" = _JQy5ivHY;
+        "pkg-1.0.6-LTS.1" = _OvIqr5eh;
+        "pkg-1.0.5" = _OZXUyblI;
+        "pkg-1.0.5+patch.1" = _A71P4BDF;
+        "pkg-1.0.7-LTS.1" = _24OmvN6x;
+        "pkg-1.0.6" = _HKbqtpiC;
+        "pkg-1.1.1-LTS.1" = _9mptiGpf;
+        "pkg-1.1.0" = _wo0bVb2G;
+        "pkg-1.1.0-beta.1" = _AMFk8VOx;
+        "pkg-1.1.0-beta.2" = _Nus6qUzu;
+        "pkg-1.1.0+patch.1" = _BW4VkWuR;
+        "pkg-1.1.0-beta.3" = _xja6qOtr;
+        "pkg-1.1.0-beta.4" = _dC969g7a;
+        "pkg-1.1.0-beta.5" = _cj5xRx18;
         "default" = _cj5xRx18;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

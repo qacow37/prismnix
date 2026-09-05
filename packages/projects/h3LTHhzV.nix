@@ -54,6 +54,8 @@ let
         "fabric-1.21.8" = _WoxuxKml;
         "fabric-1.21.11" = _9nvswekE;
         "fabric-1.20.1" = _mssnoCpg;
+        "pkg-1.0.0" = _w1BPreHC;
+        "pkg-1.0.0-ColdFix" = _9nvswekE;
         "default" = _9nvswekE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

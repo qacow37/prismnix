@@ -10,6 +10,7 @@ let
         "3GForZHK" = _3GForZHK;
         "minecraft-1.21" = _3GForZHK;
         "minecraft-1.21.1" = _3GForZHK;
+        "pkg-v1.10.1" = _3GForZHK;
         "default" = _3GForZHK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

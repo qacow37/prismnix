@@ -22,6 +22,9 @@ let
         "ZpmSgNOB" = _ZpmSgNOB;
         "fabric-1.20.1" = _ZpmSgNOB;
         "fabric-1.20.2" = _eVEer96k;
+        "pkg-1.0.0" = _SP2OVOPf;
+        "pkg-1.0.1+1.20.1" = _eVEer96k;
+        "pkg-1.1.0+1.20.1" = _ZpmSgNOB;
         "default" = _ZpmSgNOB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

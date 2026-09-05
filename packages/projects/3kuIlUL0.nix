@@ -9,6 +9,7 @@ let
     in {
         "Bzmsu29N" = _Bzmsu29N;
         "fabric-1.21.11" = _Bzmsu29N;
+        "pkg-2.0.01" = _Bzmsu29N;
         "default" = _Bzmsu29N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

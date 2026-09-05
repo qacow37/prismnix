@@ -150,6 +150,7 @@ let
         "purpur-26.1.1" = _aiz2Av9S;
         "purpur-26.1.2" = _aiz2Av9S;
         "purpur-26.2" = _aiz2Av9S;
+        "pkg-1.0.0" = _aiz2Av9S;
         "default" = _aiz2Av9S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -280,6 +280,17 @@ let
         "geyser-1.21.9" = _k0suZm7T;
         "geyser-1.21.10" = _k0suZm7T;
         "geyser-1.21.11" = _k0suZm7T;
+        "pkg-5.3.4" = _o7yqFKuY;
+        "pkg-5.4.0" = _zZyLgWHR;
+        "pkg-5.4.1" = _8jkmnFTv;
+        "pkg-5.4.2" = _42SoYHcz;
+        "pkg-5.4.3" = _i6F7TPik;
+        "pkg-5.4.4" = _AHkaU0HK;
+        "pkg-5.4.5" = _FwFnvucR;
+        "pkg-26.1" = _k0suZm7T;
+        "pkg-26.2" = _7hxgbgua;
+        "pkg-26.3" = _Hcce48zs;
+        "pkg-26.4" = _LzyZHV6u;
         "default" = _LzyZHV6u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

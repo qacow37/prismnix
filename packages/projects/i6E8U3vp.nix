@@ -16,6 +16,8 @@ let
         "ssnvgDum" = _ssnvgDum;
         "forge-1.20.1" = _SCWd6O3X;
         "neoforge-1.21.1" = _ssnvgDum;
+        "pkg-0.2.3" = _SCWd6O3X;
+        "pkg-2.0" = _ssnvgDum;
         "default" = _ssnvgDum;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

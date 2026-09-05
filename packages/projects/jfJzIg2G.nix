@@ -28,6 +28,7 @@ let
         "minecraft-1.21.5" = _6GByDAcy;
         "minecraft-1.21.6" = _6GByDAcy;
         "minecraft-1.21.7" = _6GByDAcy;
+        "pkg-2.1" = _6GByDAcy;
         "default" = _6GByDAcy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

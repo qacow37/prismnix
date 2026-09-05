@@ -9,6 +9,7 @@ let
     in {
         "EqmBryUI" = _EqmBryUI;
         "quilt-1.20.1" = _EqmBryUI;
+        "pkg-1.0.0+1.20.1" = _EqmBryUI;
         "default" = _EqmBryUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

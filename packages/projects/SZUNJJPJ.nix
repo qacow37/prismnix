@@ -16,6 +16,7 @@ let
         "Dcq65PMy" = _Dcq65PMy;
         "forge-1.20.1" = _kSVbKPiW;
         "neoforge-1.21.1" = _Dcq65PMy;
+        "pkg-1.0" = _Dcq65PMy;
         "default" = _Dcq65PMy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

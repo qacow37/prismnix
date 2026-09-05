@@ -15,6 +15,8 @@ let
         "KM9Tg6aM" = _KM9Tg6aM;
         "nEYLRPAJ" = _nEYLRPAJ;
         "forge-1.12.2" = _nEYLRPAJ;
+        "pkg-1" = _KM9Tg6aM;
+        "pkg-1.99" = _nEYLRPAJ;
         "default" = _nEYLRPAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

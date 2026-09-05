@@ -63,6 +63,7 @@ let
         "minecraft-1.14.2" = _kvxr41v1;
         "minecraft-1.14.3" = _kvxr41v1;
         "minecraft-1.14.4" = _kvxr41v1;
+        "pkg-1.0" = _kvxr41v1;
         "default" = _kvxr41v1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

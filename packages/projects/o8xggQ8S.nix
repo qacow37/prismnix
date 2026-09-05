@@ -77,6 +77,13 @@ let
         "iris-1.21.10" = _mCmm2bxl;
         "iris-1.21.11" = _mCmm2bxl;
         "iris-26.1.2" = _mCmm2bxl;
+        "pkg-1.0.0" = _kmzLSOnV;
+        "pkg-1.0.1-26.1" = _cDcLCsos;
+        "pkg-1.0.1-26.1.1" = _99eGbxun;
+        "pkg-1.0.1-1.21.5" = _eVKEvuYr;
+        "pkg-1.1.0" = _62C3MQ89;
+        "pkg-1.1.1" = _TJ9deQLz;
+        "pkg-1.1.2" = _mCmm2bxl;
         "default" = _mCmm2bxl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

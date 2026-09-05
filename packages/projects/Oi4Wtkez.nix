@@ -28,6 +28,9 @@ let
         "minecraft-1.21.11" = _T72Xisbu;
         "minecraft-26.1" = _T72Xisbu;
         "minecraft-26.1.1" = _T72Xisbu;
+        "pkg-res-1.0" = _BiIP8Lix;
+        "pkg-res-1.1" = _ruouCYOC;
+        "pkg-res-1.2" = _T72Xisbu;
         "default" = _T72Xisbu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

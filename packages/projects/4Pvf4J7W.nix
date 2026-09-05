@@ -20,6 +20,7 @@ let
         "fabric-1.21.9" = _IW8FtaFu;
         "fabric-1.21.10" = _IW8FtaFu;
         "fabric-1.21.11" = _IW8FtaFu;
+        "pkg-1.1.0" = _IW8FtaFu;
         "default" = _IW8FtaFu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

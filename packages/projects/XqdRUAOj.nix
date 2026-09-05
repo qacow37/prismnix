@@ -53,6 +53,10 @@ let
         "quilt-1.21.4" = _CcHCLIpi;
         "quilt-1.21.5" = _CcHCLIpi;
         "quilt-1.21.6" = _CcHCLIpi;
+        "pkg-1.0" = _UvhIE1Lq;
+        "pkg-1.0.1" = _OkYyMKOt;
+        "pkg-1.0.2" = _QRukLEWa;
+        "pkg-1.0.2+mod" = _CcHCLIpi;
         "default" = _CcHCLIpi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

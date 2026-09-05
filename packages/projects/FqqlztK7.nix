@@ -21,6 +21,9 @@ let
         "2iIcHKHD" = _2iIcHKHD;
         "AZNYSImQ" = _AZNYSImQ;
         "neoforge-1.21.1" = _AZNYSImQ;
+        "pkg-1.0.0" = _kZdhoxwK;
+        "pkg-1.0.1" = _2iIcHKHD;
+        "pkg-1.0.2" = _AZNYSImQ;
         "default" = _AZNYSImQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

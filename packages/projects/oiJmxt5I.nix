@@ -9,6 +9,7 @@ let
     in {
         "ueOHerVi" = _ueOHerVi;
         "minecraft-24w33a" = _ueOHerVi;
+        "pkg-1.1" = _ueOHerVi;
         "default" = _ueOHerVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "G87TVBVo" = _G87TVBVo;
         "neoforge-1.21.1" = _G87TVBVo;
+        "pkg-0.0.1-alpha" = _G87TVBVo;
         "default" = _G87TVBVo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

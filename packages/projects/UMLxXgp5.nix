@@ -16,6 +16,8 @@ let
         "uLx61ZRs" = _uLx61ZRs;
         "fabric-1.20.1" = _uLx61ZRs;
         "forge-1.20.1" = _uLx61ZRs;
+        "pkg-1.0.0" = _mkJow9bi;
+        "pkg-1.0.1" = _uLx61ZRs;
         "default" = _uLx61ZRs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

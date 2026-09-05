@@ -16,6 +16,8 @@ let
         "LkfTejmP" = _LkfTejmP;
         "neoforge-1.21.1" = _Fo3kVf5b;
         "fabric-1.21.1" = _LkfTejmP;
+        "pkg-v4.0.0" = _Fo3kVf5b;
+        "pkg-v2.0.0" = _LkfTejmP;
         "default" = _LkfTejmP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

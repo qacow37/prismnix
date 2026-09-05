@@ -124,6 +124,7 @@ let
         "optifine-1.21.6" = _ZO60Nzwo;
         "optifine-1.21.7" = _ZO60Nzwo;
         "optifine-1.21.8" = _ZO60Nzwo;
+        "pkg-1.0.0" = _ZO60Nzwo;
         "default" = _ZO60Nzwo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

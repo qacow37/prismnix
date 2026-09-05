@@ -51,6 +51,14 @@ let
         "BPOlUFkd" = _BPOlUFkd;
         "2bNWX3nV" = _2bNWX3nV;
         "neoforge-1.21.1" = _2bNWX3nV;
+        "pkg-0.0.1" = _CIVztgEj;
+        "pkg-1.0.1" = _Zb9Qg48f;
+        "pkg-1.0.2" = _EpFiZsH9;
+        "pkg-1.0.3" = _LFpkN4qo;
+        "pkg-1.0.4" = _OfBvaqlI;
+        "pkg-1.0.5" = _PoK2hYLT;
+        "pkg-1.0.6" = _BPOlUFkd;
+        "pkg-1.1.9" = _2bNWX3nV;
         "default" = _2bNWX3nV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

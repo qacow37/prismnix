@@ -27,6 +27,10 @@ let
         "V17dHgcu" = _V17dHgcu;
         "bVIKEeR7" = _bVIKEeR7;
         "minecraft-1.20.1" = _bVIKEeR7;
+        "pkg-1" = _WemIH2d6;
+        "pkg-2" = _aPBjynij;
+        "pkg-3" = _V17dHgcu;
+        "pkg-4" = _bVIKEeR7;
         "default" = _bVIKEeR7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

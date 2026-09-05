@@ -16,6 +16,8 @@ let
         "V8543hE1" = _V8543hE1;
         "minecraft-1.21.1" = _V8543hE1;
         "minecraft-1.21" = _V8543hE1;
+        "pkg-1.0" = _za6RCA4a;
+        "pkg-1.0.1" = _V8543hE1;
         "default" = _V8543hE1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

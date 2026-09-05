@@ -16,6 +16,8 @@ let
         "bVUCnl4D" = _bVUCnl4D;
         "fabric-1.20.1" = _bVUCnl4D;
         "forge-1.20.1" = _bVUCnl4D;
+        "pkg-0.6" = _oSRvudmT;
+        "pkg-ultron-1.0" = _bVUCnl4D;
         "default" = _bVUCnl4D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

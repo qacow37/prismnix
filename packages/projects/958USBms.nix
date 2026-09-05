@@ -9,6 +9,7 @@ let
     in {
         "NMRzIpfC" = _NMRzIpfC;
         "forge-1.18.2" = _NMRzIpfC;
+        "pkg-0.1" = _NMRzIpfC;
         "default" = _NMRzIpfC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

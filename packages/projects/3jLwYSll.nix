@@ -22,6 +22,9 @@ let
         "WtKtLi67" = _WtKtLi67;
         "minecraft-1.19.2" = _AW9mqvhs;
         "minecraft-1.21.1" = _WtKtLi67;
+        "pkg-1.2" = _EygWPtLC;
+        "pkg-1.3" = _AW9mqvhs;
+        "pkg-1.6.1" = _WtKtLi67;
         "default" = _WtKtLi67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

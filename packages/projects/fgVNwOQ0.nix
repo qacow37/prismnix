@@ -15,6 +15,8 @@ let
         "CzwTlcPA" = _CzwTlcPA;
         "TfLFBx3C" = _TfLFBx3C;
         "fabric-1.20.1" = _TfLFBx3C;
+        "pkg-1.5.0" = _CzwTlcPA;
+        "pkg-1.5.1" = _TfLFBx3C;
         "default" = _TfLFBx3C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

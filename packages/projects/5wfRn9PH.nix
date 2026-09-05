@@ -35,6 +35,7 @@ let
         "spigot-1.21.6" = _ZGgyxswO;
         "spigot-1.21.7" = _ZGgyxswO;
         "spigot-1.21.8" = _ZGgyxswO;
+        "pkg-1" = _ZGgyxswO;
         "default" = _ZGgyxswO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

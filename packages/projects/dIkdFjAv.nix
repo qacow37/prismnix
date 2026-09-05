@@ -9,6 +9,7 @@ let
     in {
         "KAJAefoG" = _KAJAefoG;
         "forge-1.20.1" = _KAJAefoG;
+        "pkg-1.0.0" = _KAJAefoG;
         "default" = _KAJAefoG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

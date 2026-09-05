@@ -15,6 +15,8 @@ let
         "baR9JFN5" = _baR9JFN5;
         "TyZy6sLV" = _TyZy6sLV;
         "forge-1.12.2" = _TyZy6sLV;
+        "pkg-legacy" = _baR9JFN5;
+        "pkg-1.12.2-1.2" = _TyZy6sLV;
         "default" = _TyZy6sLV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

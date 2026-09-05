@@ -16,6 +16,7 @@ let
         "RLKJNkpk" = _RLKJNkpk;
         "fabric-1.21.1" = _zQywOEBD;
         "neoforge-1.21.1" = _RLKJNkpk;
+        "pkg-1.1.0" = _RLKJNkpk;
         "default" = _RLKJNkpk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,9 @@ let
         "3kM1QzIP" = _3kM1QzIP;
         "forge-1.20.1" = _cdjEottG;
         "forge-1.18.2" = _3kM1QzIP;
+        "pkg-1.0.0" = _3kM1QzIP;
+        "pkg-1.1.0" = _Zwj3MW1z;
+        "pkg-1.1.1" = _cdjEottG;
         "default" = _3kM1QzIP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

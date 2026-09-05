@@ -17,6 +17,8 @@ let
         "forge-1.18.2" = _NRR36uY9;
         "forge-1.20" = _DgisUYf4;
         "forge-1.20.1" = _DgisUYf4;
+        "pkg-0.5.20-beta" = _NRR36uY9;
+        "pkg-0.7.5-beta" = _DgisUYf4;
         "default" = _DgisUYf4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

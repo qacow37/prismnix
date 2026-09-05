@@ -9,6 +9,7 @@ let
     in {
         "VR4KEMny" = _VR4KEMny;
         "fabric-1.21.11" = _VR4KEMny;
+        "pkg-1.0.0" = _VR4KEMny;
         "default" = _VR4KEMny;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

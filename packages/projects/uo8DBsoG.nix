@@ -10,6 +10,7 @@ let
         "h5w09clo" = _h5w09clo;
         "forge-1.20.1" = _h5w09clo;
         "neoforge-1.20.1" = _h5w09clo;
+        "pkg-1.0.0" = _h5w09clo;
         "default" = _h5w09clo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

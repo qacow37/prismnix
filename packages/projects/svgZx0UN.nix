@@ -28,6 +28,10 @@ let
         "9UJV0MUF" = _9UJV0MUF;
         "quilt-1.18.2" = _9UJV0MUF;
         "fabric-1.18.2" = _9UJV0MUF;
+        "pkg-1.0-beta1" = _uXlWLTJu;
+        "pkg-1.0-beta2" = _dfOmOJLO;
+        "pkg-1.0-beta3" = _1ANkPf8n;
+        "pkg-1.0-beta4" = _9UJV0MUF;
         "default" = _9UJV0MUF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

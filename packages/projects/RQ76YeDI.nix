@@ -12,6 +12,7 @@ let
         "minecraft-1.16.3" = _Ct0qlBCw;
         "minecraft-1.16.4" = _Ct0qlBCw;
         "minecraft-1.16.5" = _Ct0qlBCw;
+        "pkg-0.1" = _Ct0qlBCw;
         "default" = _Ct0qlBCw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

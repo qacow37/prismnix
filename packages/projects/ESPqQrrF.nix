@@ -16,6 +16,8 @@ let
         "jloMWN6S" = _jloMWN6S;
         "neoforge-1.21" = _jloMWN6S;
         "neoforge-1.21.1" = _jloMWN6S;
+        "pkg-0.2.1" = _E5d9Ldr9;
+        "pkg-0.4.0" = _jloMWN6S;
         "default" = _jloMWN6S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

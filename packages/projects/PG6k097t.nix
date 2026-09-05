@@ -46,6 +46,13 @@ let
         "RDtV13Zf" = _RDtV13Zf;
         "fabric-1.20.1" = _RDtV13Zf;
         "quilt-1.20.1" = _RDtV13Zf;
+        "pkg-2.0.3" = _LCWDMUd8;
+        "pkg-2.0.3a-fabric" = _ikmL6mqd;
+        "pkg-2.0.3b" = _oBD2Fd2o;
+        "pkg-2.0.3c" = _MYOJ7ZQo;
+        "pkg-2.0.3d" = _qIfVwDOi;
+        "pkg-2.0.3f" = _Btc8z8N3;
+        "pkg-2.0.3g-fabric" = _RDtV13Zf;
         "default" = _RDtV13Zf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

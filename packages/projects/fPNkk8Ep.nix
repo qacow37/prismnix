@@ -9,6 +9,7 @@ let
     in {
         "7mgYPatZ" = _7mgYPatZ;
         "forge-1.20.1" = _7mgYPatZ;
+        "pkg-1.1.0" = _7mgYPatZ;
         "default" = _7mgYPatZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

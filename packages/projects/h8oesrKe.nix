@@ -90,6 +90,20 @@ let
         "fabric-1.19.2" = _DQA6YEqi;
         "fabric-1.19.3" = _v2oYgfjB;
         "fabric-1.19.4" = _2q7ogAng;
+        "pkg-statuesclassic-1.18.2-1.0.0" = _bZz7GteS;
+        "pkg-statuesclassic-1.18.2-1.0.1" = _Tee5ryE8;
+        "pkg-statuesclassic-1.18.2-1.0.2" = _68OFOnd8;
+        "pkg-statuesclassic-1.19.2-1.0.0" = _GeXbYxxA;
+        "pkg-statuesclassic-1.18.2-1.0.3" = _ZZRQ8HiE;
+        "pkg-statuesclassic-1.19.2-1.0.1" = _ffCtqt7o;
+        "pkg-statuesclassic-1.19.2-1.0.2" = _YTzF3buu;
+        "pkg-statuesclassic-1.18.2-1.0.4" = _MJJKHYbI;
+        "pkg-statuesclassic-1.18.2-1.0.5" = _5Czp3DPr;
+        "pkg-statuesclassic-1.19.2-1.0.5" = _vUaH4xgf;
+        "pkg-statuesclassic-1.18.2-1.0.6" = _cvYcf4C8;
+        "pkg-statuesclassic-1.19.2-1.0.6" = _DQA6YEqi;
+        "pkg-statuesclassic-1.19.3-1.0.6" = _v2oYgfjB;
+        "pkg-statuesclassic-1.19.4-1.0.6" = _2q7ogAng;
         "default" = _2q7ogAng;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

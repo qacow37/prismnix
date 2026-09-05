@@ -10,6 +10,7 @@ let
         "4cIXepib" = _4cIXepib;
         "neoforge-1.21" = _4cIXepib;
         "neoforge-1.21.1" = _4cIXepib;
+        "pkg-1.0.0" = _4cIXepib;
         "default" = _4cIXepib;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

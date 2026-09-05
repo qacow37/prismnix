@@ -15,6 +15,8 @@ let
         "xb1HmXwI" = _xb1HmXwI;
         "riSG59un" = _riSG59un;
         "forge-1.7.10" = _riSG59un;
+        "pkg-1.0.0" = _xb1HmXwI;
+        "pkg-1.0.1" = _riSG59un;
         "default" = _riSG59un;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

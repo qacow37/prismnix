@@ -39,6 +39,12 @@ let
         "hrfe90EL" = _hrfe90EL;
         "cPhYl1z4" = _cPhYl1z4;
         "forge-1.8.9" = _cPhYl1z4;
+        "pkg-1.3.0" = _CbZrxuCs;
+        "pkg-1.3.1.1" = _7kgvtr0x;
+        "pkg-1.3.2" = _WenQvIS6;
+        "pkg-1.3.2.2" = _Mluc751U;
+        "pkg-1.3.5.1" = _hrfe90EL;
+        "pkg-1.4.0.1" = _cPhYl1z4;
         "default" = _cPhYl1z4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

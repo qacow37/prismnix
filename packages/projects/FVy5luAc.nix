@@ -16,6 +16,8 @@ let
         "gHvFITOY" = _gHvFITOY;
         "minecraft-1.20.1" = _UmEsxz9Z;
         "minecraft-1.21.1" = _gHvFITOY;
+        "pkg-0.01" = _UmEsxz9Z;
+        "pkg-1.2.0" = _gHvFITOY;
         "default" = _gHvFITOY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

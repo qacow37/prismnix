@@ -9,6 +9,7 @@ let
     in {
         "ncqqNGHd" = _ncqqNGHd;
         "fabric-1.21.1" = _ncqqNGHd;
+        "pkg-1.1.0" = _ncqqNGHd;
         "default" = _ncqqNGHd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

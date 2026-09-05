@@ -242,6 +242,10 @@ let
         "neoforge-26.1.1" = _728FpGaz;
         "neoforge-26.1.2" = _728FpGaz;
         "neoforge-26.2" = _728FpGaz;
+        "pkg-1.0.0" = _hD1CB2EG;
+        "pkg-1.0.0+mod" = _QV3D9bbr;
+        "pkg-2.0" = _dcKSQqPK;
+        "pkg-2.0+mod" = _728FpGaz;
         "default" = _728FpGaz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

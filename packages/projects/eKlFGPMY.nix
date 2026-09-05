@@ -56,6 +56,7 @@ let
         "spigot-1.21.9" = _oia3K1F4;
         "spigot-1.21.10" = _oia3K1F4;
         "spigot-1.21.11" = _oia3K1F4;
+        "pkg-1.0.0" = _oia3K1F4;
         "default" = _oia3K1F4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -27,6 +27,10 @@ let
         "z5ZfDWaC" = _z5ZfDWaC;
         "TI25JxT2" = _TI25JxT2;
         "fabric-1.21.11" = _TI25JxT2;
+        "pkg-1.0.0" = _vXYv8WoG;
+        "pkg-2.0.0" = _cXkIGjGJ;
+        "pkg-2.1.0" = _z5ZfDWaC;
+        "pkg-2.1.1" = _TI25JxT2;
         "default" = _TI25JxT2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

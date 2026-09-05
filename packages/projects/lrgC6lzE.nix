@@ -16,6 +16,8 @@ let
         "FRUs1vUl" = _FRUs1vUl;
         "minecraft-1.20" = _FRUs1vUl;
         "minecraft-1.20.1" = _FRUs1vUl;
+        "pkg-1.0" = _xPGdGXbb;
+        "pkg-1.1" = _FRUs1vUl;
         "default" = _FRUs1vUl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

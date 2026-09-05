@@ -58,6 +58,10 @@ let
         "quilt-26.1.1" = _CSL1wWEI;
         "quilt-26.1.2" = _CSL1wWEI;
         "quilt-26.2" = _CSL1wWEI;
+        "pkg-1.0.0+mc1.21.1" = _caKq2qTj;
+        "pkg-1.0.1+mc1.21.1" = _ezRfy4v0;
+        "pkg-1.0.2+mc1.21.1" = _aEdBBOzB;
+        "pkg-1.0.3+26.1" = _CSL1wWEI;
         "default" = _CSL1wWEI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "uo1SNfrO" = _uo1SNfrO;
         "fabric-1.20.1" = _uo1SNfrO;
+        "pkg-1.3" = _uo1SNfrO;
         "default" = _uo1SNfrO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -18,6 +18,8 @@ let
         "fabric-1.20.1" = _GhAR43iu;
         "quilt-1.20" = _GhAR43iu;
         "quilt-1.20.1" = _GhAR43iu;
+        "pkg-1.0.0" = _MwhjBjzm;
+        "pkg-1.0.1" = _GhAR43iu;
         "default" = _GhAR43iu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

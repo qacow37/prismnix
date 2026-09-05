@@ -10,6 +10,7 @@ let
         "FuxVSl0k" = _FuxVSl0k;
         "neoforge-1.21" = _FuxVSl0k;
         "neoforge-1.21.1" = _FuxVSl0k;
+        "pkg-0.6.0" = _FuxVSl0k;
         "default" = _FuxVSl0k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

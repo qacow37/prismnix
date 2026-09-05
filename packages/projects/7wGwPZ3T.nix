@@ -22,6 +22,9 @@ let
         "aVYs75DA" = _aVYs75DA;
         "forge-1.20.1" = _aVYs75DA;
         "forge-1.19.2" = _trV4yEtd;
+        "pkg-1.20-7.0" = _6l7cd7DC;
+        "pkg-1.19-6.1" = _trV4yEtd;
+        "pkg-1.20-8.0" = _aVYs75DA;
         "default" = _aVYs75DA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

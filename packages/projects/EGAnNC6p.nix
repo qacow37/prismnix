@@ -15,6 +15,8 @@ let
         "C1nhArdA" = _C1nhArdA;
         "ZvanGOQH" = _ZvanGOQH;
         "fabric-1.21.11" = _ZvanGOQH;
+        "pkg-1.0.0+1.21.11" = _C1nhArdA;
+        "pkg-1.0.1+1.21.11" = _ZvanGOQH;
         "default" = _ZvanGOQH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

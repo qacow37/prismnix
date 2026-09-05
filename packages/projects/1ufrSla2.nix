@@ -49,6 +49,10 @@ let
         "fabric-1.21.9" = _T177TRA2;
         "fabric-1.21.10" = _T177TRA2;
         "fabric-1.21.11" = _T177TRA2;
+        "pkg-1.0.0" = _P4UFvo3Y;
+        "pkg-1.0.1" = _m737nOdC;
+        "pkg-1.0.2" = _SWd8Y2GI;
+        "pkg-1.0.3" = _T177TRA2;
         "default" = _T177TRA2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

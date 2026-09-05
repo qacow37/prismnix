@@ -336,6 +336,26 @@ let
         "quilt-26.1.1" = _YUn77V2O;
         "quilt-26.1.2" = _YUn77V2O;
         "quilt-26.2" = _YUn77V2O;
+        "pkg-v1(1.21.5-1.21.8)" = _Xlrv4rkT;
+        "pkg-mod_v1(1.21.5-1.21.8)" = _YSNr2p5i;
+        "pkg-v1(1.21-1.21.3)" = _NnzYXIx6;
+        "pkg-mod_v1(1.21-1.21.3)" = _hcNaa72G;
+        "pkg-v1(1.20-1.20.4)" = _tnNuYJTN;
+        "pkg-mod_v1(1.20-1.20.4)" = _WZubZpcd;
+        "pkg-v1(1.21.9+)" = _rrJMS8kO;
+        "pkg-mod_v1(1.21.9+)" = _86aqMQQ7;
+        "pkg-v1.1(datapack)" = _eG4sUxnk;
+        "pkg-v1.1(mod)" = _I6n0VHa1;
+        "pkg-v1.1.1(datapack)" = _yi2qw9vi;
+        "pkg-v1.1.1(mod)" = _fEBqWjVE;
+        "pkg-v1.2(mod)" = _t7RrkUzS;
+        "pkg-1.2(datapack)" = _ji5uJEYe;
+        "pkg-1.3(datapack)" = _Phj2keSi;
+        "pkg-v1.3(mod)" = _MkWcQW6F;
+        "pkg-1.3.1(datapack)" = _xP6rE4gx;
+        "pkg-v1.3.1(mod)" = _RtCC7fXw;
+        "pkg-1.3.3(datapack)" = _5uBxJVme;
+        "pkg-v1.3.3(mod)" = _YUn77V2O;
         "default" = _YUn77V2O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

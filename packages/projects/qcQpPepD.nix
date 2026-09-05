@@ -15,6 +15,8 @@ let
         "5Z1fAnqk" = _5Z1fAnqk;
         "NsaEOTp0" = _NsaEOTp0;
         "neoforge-1.21.1" = _NsaEOTp0;
+        "pkg-1.0.1" = _5Z1fAnqk;
+        "pkg-1.0.2" = _NsaEOTp0;
         "default" = _NsaEOTp0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

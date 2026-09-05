@@ -33,6 +33,11 @@ let
         "AlyK6re8" = _AlyK6re8;
         "na3lksTZ" = _na3lksTZ;
         "minecraft-1.12.2" = _na3lksTZ;
+        "pkg-1.0.0" = _caaQDkgL;
+        "pkg-1.0.1" = _dlQJnTIX;
+        "pkg-1.1.0" = _ZtxKkxHT;
+        "pkg-1.1.1" = _AlyK6re8;
+        "pkg-1.1.2" = _na3lksTZ;
         "default" = _na3lksTZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -62,6 +62,8 @@ let
         "minecraft-26.1-pre-3" = _cMLcO1ER;
         "minecraft-26.1-rc-1" = _cMLcO1ER;
         "minecraft-26.1-rc-2" = _cMLcO1ER;
+        "pkg-v0.01" = _Ymuo5ZKp;
+        "pkg-v.02" = _cMLcO1ER;
         "default" = _cMLcO1ER;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

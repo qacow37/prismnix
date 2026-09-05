@@ -12,6 +12,7 @@ let
         "minecraft-1.18.2" = _jUXWLeGG;
         "minecraft-1.19.4" = _jUXWLeGG;
         "minecraft-1.20.1" = _jUXWLeGG;
+        "pkg-0.7.5" = _jUXWLeGG;
         "default" = _jUXWLeGG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

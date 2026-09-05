@@ -21,6 +21,9 @@ let
         "8H54kVP0" = _8H54kVP0;
         "6A8BIjxW" = _6A8BIjxW;
         "fabric-1.21" = _6A8BIjxW;
+        "pkg-0.1.0-alpha.0" = _UVk7oEtu;
+        "pkg-0.1.0-alpha.1" = _8H54kVP0;
+        "pkg-0.1.0-alpha.2" = _6A8BIjxW;
         "default" = _6A8BIjxW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

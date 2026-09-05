@@ -9,6 +9,7 @@ let
     in {
         "zvLcTboj" = _zvLcTboj;
         "paper-1.21.1" = _zvLcTboj;
+        "pkg-1.0.0" = _zvLcTboj;
         "default" = _zvLcTboj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

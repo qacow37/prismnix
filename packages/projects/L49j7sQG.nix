@@ -28,6 +28,7 @@ let
         "fabric-1.21.9" = _fdAdmwpI;
         "fabric-1.21.10" = _fdAdmwpI;
         "fabric-1.21.11" = _fdAdmwpI;
+        "pkg-1.0.0+1.19.4" = _fdAdmwpI;
         "default" = _fdAdmwpI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

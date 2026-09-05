@@ -15,6 +15,8 @@ let
         "s3VWlEkS" = _s3VWlEkS;
         "RCLYR16W" = _RCLYR16W;
         "fabric-1.20.1" = _RCLYR16W;
+        "pkg-1.1.1+1.20.1" = _s3VWlEkS;
+        "pkg-1.2.0+1.20.1" = _RCLYR16W;
         "default" = _RCLYR16W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

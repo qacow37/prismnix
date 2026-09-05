@@ -172,6 +172,11 @@ let
         "bukkit-1.21.9" = _EN2VPfL5;
         "bukkit-1.21.10" = _EN2VPfL5;
         "bukkit-1.21.11" = _EN2VPfL5;
+        "pkg-1.1" = _ieAoKV2k;
+        "pkg-1.2" = _Z2WXNTIn;
+        "pkg-1.3" = _3YaL06dy;
+        "pkg-1.4" = _KN821nsT;
+        "pkg-1.5" = _EN2VPfL5;
         "default" = _EN2VPfL5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

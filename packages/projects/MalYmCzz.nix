@@ -42,6 +42,8 @@ let
         "minecraft-26.1.1" = _jnrpZOMV;
         "minecraft-26.1.2" = _jnrpZOMV;
         "minecraft-26.2" = _jnrpZOMV;
+        "pkg-1.0" = _N8SMM5m1;
+        "pkg-1.1" = _jnrpZOMV;
         "default" = _jnrpZOMV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

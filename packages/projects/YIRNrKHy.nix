@@ -16,6 +16,8 @@ let
         "UmrMtyLg" = _UmrMtyLg;
         "fabric-1.20" = _kWBJBEIL;
         "fabric-1.20.1" = _UmrMtyLg;
+        "pkg-2.4.0" = _kWBJBEIL;
+        "pkg-2.4.1" = _UmrMtyLg;
         "default" = _UmrMtyLg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

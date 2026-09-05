@@ -310,6 +310,7 @@ let
         "minecraft-26.2-rc-1" = _STGvKCa7;
         "minecraft-26.2-rc-2" = _STGvKCa7;
         "minecraft-26.2" = _STGvKCa7;
+        "pkg-1.0.0" = _STGvKCa7;
         "default" = _STGvKCa7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

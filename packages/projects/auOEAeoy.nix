@@ -28,6 +28,10 @@ let
         "KMI53a3K" = _KMI53a3K;
         "fabric-1.20.4" = _L7BAQu7g;
         "fabric-1.21.1" = _KMI53a3K;
+        "pkg-1.0.0" = _QUP3Ksep;
+        "pkg-1.0.1" = _FqD19Ncm;
+        "pkg-1.1.0" = _L7BAQu7g;
+        "pkg-2.0.0" = _KMI53a3K;
         "default" = _KMI53a3K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

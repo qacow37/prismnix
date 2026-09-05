@@ -16,6 +16,8 @@ let
         "kg9TpgWL" = _kg9TpgWL;
         "forge-1.20.1" = _kg9TpgWL;
         "neoforge-1.20.1" = _kg9TpgWL;
+        "pkg-4.0.0.0" = _l0KwyvSm;
+        "pkg-4.0.0.1" = _kg9TpgWL;
         "default" = _kg9TpgWL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

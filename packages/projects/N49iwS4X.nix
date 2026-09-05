@@ -22,6 +22,9 @@ let
         "ANPI0D2b" = _ANPI0D2b;
         "forge-1.16.5" = _XUSQX2lp;
         "forge-1.20.1" = _ANPI0D2b;
+        "pkg-38.2" = _XUSQX2lp;
+        "pkg-2" = _5U9Z9LW3;
+        "pkg-3" = _ANPI0D2b;
         "default" = _ANPI0D2b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

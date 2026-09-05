@@ -21,6 +21,9 @@ let
         "v19Gctew" = _v19Gctew;
         "yx3QGoJZ" = _yx3QGoJZ;
         "forge-1.8.9" = _yx3QGoJZ;
+        "pkg-1.0.0" = _G5wOrQVB;
+        "pkg-1.0.1" = _v19Gctew;
+        "pkg-1.0.2" = _yx3QGoJZ;
         "default" = _yx3QGoJZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

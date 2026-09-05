@@ -9,6 +9,7 @@ let
     in {
         "LMOUcsOQ" = _LMOUcsOQ;
         "neoforge-1.21.1" = _LMOUcsOQ;
+        "pkg-1.17" = _LMOUcsOQ;
         "default" = _LMOUcsOQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

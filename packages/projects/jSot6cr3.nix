@@ -52,6 +52,12 @@ let
         "nyIdmfn0" = _nyIdmfn0;
         "fabric-1.20.1" = _em4B4PYv;
         "forge-1.20.1" = _nyIdmfn0;
+        "pkg-1.0.0" = _pijwqeHn;
+        "pkg-1.0.1" = _ATyICg0r;
+        "pkg-1.0.2" = _kVGPLAyL;
+        "pkg-1.1.0" = _wjSOBRRI;
+        "pkg-1.2.0" = _eg4Mpx6V;
+        "pkg-1.2.1" = _nyIdmfn0;
         "default" = _nyIdmfn0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

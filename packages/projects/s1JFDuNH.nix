@@ -89,6 +89,9 @@ let
         "minecraft-1.21.8" = _baXTmvAc;
         "minecraft-1.21.9" = _baXTmvAc;
         "minecraft-1.21.10" = _baXTmvAc;
+        "pkg-1.0" = _49s9PMYV;
+        "pkg-2.0" = _51tKNeKV;
+        "pkg-3.0" = _baXTmvAc;
         "default" = _baXTmvAc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _OtIOtC9n;
         "forge-1.20.5" = _OtIOtC9n;
         "forge-1.20.6" = _OtIOtC9n;
+        "pkg-1.0.0" = _OtIOtC9n;
         "default" = _OtIOtC9n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

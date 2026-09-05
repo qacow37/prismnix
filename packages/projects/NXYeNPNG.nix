@@ -15,6 +15,8 @@ let
         "zlkU1veA" = _zlkU1veA;
         "uSfBWNuh" = _uSfBWNuh;
         "fabric-1.20.1" = _uSfBWNuh;
+        "pkg-1.0" = _zlkU1veA;
+        "pkg-1.1" = _uSfBWNuh;
         "default" = _uSfBWNuh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

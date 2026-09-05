@@ -15,6 +15,8 @@ let
         "9QFCTmWn" = _9QFCTmWn;
         "FcTcjseq" = _FcTcjseq;
         "fabric-1.20.1" = _FcTcjseq;
+        "pkg-0.1.0+1.20.1" = _9QFCTmWn;
+        "pkg-0.1.1+1.20.1" = _FcTcjseq;
         "default" = _FcTcjseq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

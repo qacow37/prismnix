@@ -16,6 +16,8 @@ let
         "ZSlQ1mMH" = _ZSlQ1mMH;
         "forge-1.7.10" = _Wiq82SnS;
         "forge-1.12.2" = _ZSlQ1mMH;
+        "pkg-1.7.10-2.9.2" = _Wiq82SnS;
+        "pkg-1.12.2-3.0.10" = _ZSlQ1mMH;
         "default" = _ZSlQ1mMH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

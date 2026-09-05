@@ -123,6 +123,26 @@ let
         "oql1ySSL" = _oql1ySSL;
         "VGwdK2U5" = _VGwdK2U5;
         "fabric-1.21.1" = _VGwdK2U5;
+        "pkg-0.1.0" = _5AfmMW9i;
+        "pkg-0.2.0" = _Od2gad67;
+        "pkg-0.3.0" = _a6zaWUCK;
+        "pkg-0.3.1" = _WGWYqZky;
+        "pkg-0.3.2" = _qLYBALmT;
+        "pkg-0.4.0" = _KGe0gb6k;
+        "pkg-0.4.1" = _eP7F0qtw;
+        "pkg-0.5.0" = _UnX9RCXp;
+        "pkg-0.5.1" = _jq7aeuz4;
+        "pkg-0.5.2" = _bKCRjkou;
+        "pkg-0.5.3" = _FQrCXHFO;
+        "pkg-0.5.4" = _r58YVF0x;
+        "pkg-0.5.5" = _nlGdcKhm;
+        "pkg-0.5.6" = _HSOWDGRR;
+        "pkg-0.5.7" = _y88z9elq;
+        "pkg-0.6.0" = _LqaNdVXU;
+        "pkg-0.6.1" = _Tv6D3nUJ;
+        "pkg-0.6.2" = _jd4Jm05P;
+        "pkg-0.7.0" = _oql1ySSL;
+        "pkg-0.7.1" = _VGwdK2U5;
         "default" = _VGwdK2U5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

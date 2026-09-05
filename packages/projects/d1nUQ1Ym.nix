@@ -109,6 +109,8 @@ let
         "spigot-1.21.11" = _KKCRloeT;
         "spigot-26.2" = _mqmvzKQT;
         "bukkit-26.2" = _mqmvzKQT;
+        "pkg-1.0-alpha-1" = _KKCRloeT;
+        "pkg-1.0" = _mqmvzKQT;
         "default" = _mqmvzKQT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

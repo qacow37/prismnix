@@ -36,6 +36,7 @@ let
         "minecraft-26.1" = _uTOUpxTI;
         "minecraft-26.1.1" = _uTOUpxTI;
         "minecraft-26.1.2" = _uTOUpxTI;
+        "pkg-1.0" = _uTOUpxTI;
         "default" = _uTOUpxTI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

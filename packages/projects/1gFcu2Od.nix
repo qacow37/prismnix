@@ -111,6 +111,14 @@ let
         "Jiz4aohN" = _Jiz4aohN;
         "Hcm8UhSf" = _Hcm8UhSf;
         "minecraft-1.8.9" = _Hcm8UhSf;
+        "pkg-1.2" = _N5gyF9pD;
+        "pkg-1.3" = _pQCWL913;
+        "pkg-1.3.1" = _6pQQreP1;
+        "pkg-1.4" = _2wtHmqjY;
+        "pkg-2.0" = _WIwmSpyA;
+        "pkg-2.0.1" = _CDCRIVtF;
+        "pkg-2.1" = _Jiz4aohN;
+        "pkg-0.6" = _Hcm8UhSf;
         "default" = _Hcm8UhSf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

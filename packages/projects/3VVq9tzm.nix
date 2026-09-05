@@ -9,6 +9,7 @@ let
     in {
         "jLOWz4Un" = _jLOWz4Un;
         "neoforge-1.21.1" = _jLOWz4Un;
+        "pkg-1.0.0" = _jLOWz4Un;
         "default" = _jLOWz4Un;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

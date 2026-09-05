@@ -39,6 +39,12 @@ let
         "s27CsmJG" = _s27CsmJG;
         "HYtD65cB" = _HYtD65cB;
         "fabric-1.20.1" = _HYtD65cB;
+        "pkg-0.0.2.0-1.20.1" = _kWIwTLcU;
+        "pkg-0.0.2.1-1.20.1" = _SBSNSKdK;
+        "pkg-0.0.2.2-1.20.1" = _JgTewMO1;
+        "pkg-0.0.2.3-1.20.1" = _1GlBbGTo;
+        "pkg-0.0.3.0-1.20.1" = _s27CsmJG;
+        "pkg-0.0.4.0-1.20.1" = _HYtD65cB;
         "default" = _HYtD65cB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

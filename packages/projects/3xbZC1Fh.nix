@@ -28,6 +28,10 @@ let
         "TED5ClEL" = _TED5ClEL;
         "fabric-1.21.4" = _TED5ClEL;
         "quilt-1.21.4" = _TED5ClEL;
+        "pkg-0.4" = _n5ivUNFI;
+        "pkg-0.4.1" = _CHkz3mot;
+        "pkg-0.5.0" = _oamq8Ro1;
+        "pkg-0.6.0" = _TED5ClEL;
         "default" = _TED5ClEL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

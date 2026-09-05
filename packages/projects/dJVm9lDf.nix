@@ -44,6 +44,9 @@ let
         "spigot-1.21.6" = _gIONHzsg;
         "spigot-1.21.7" = _gIONHzsg;
         "spigot-1.21.8" = _gIONHzsg;
+        "pkg-1.0.1" = _PyGzcvZ7;
+        "pkg-1.0.2" = _gIONHzsg;
+        "pkg-1.1.0" = _SRsfWtrv;
         "default" = _SRsfWtrv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

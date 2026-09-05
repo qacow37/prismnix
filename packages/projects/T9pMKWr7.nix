@@ -10,6 +10,7 @@ let
         "lIvpES94" = _lIvpES94;
         "fabric-1.20" = _lIvpES94;
         "fabric-1.20.1" = _lIvpES94;
+        "pkg-1.12.0" = _lIvpES94;
         "default" = _lIvpES94;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -53,6 +53,8 @@ let
         "fabric-26.1.2" = _88MNzlwt;
         "datapack-1.21.7" = _IFbf3UD6;
         "datapack-1.21.8" = _IFbf3UD6;
+        "pkg-0.1" = _6pGLFS81;
+        "pkg-0.2" = _88MNzlwt;
         "default" = _88MNzlwt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

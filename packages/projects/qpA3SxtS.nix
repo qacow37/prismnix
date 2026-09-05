@@ -88,6 +88,8 @@ let
         "iris-26.1.1" = _YXkExpwd;
         "iris-26.1.2" = _YXkExpwd;
         "iris-26.2" = _YXkExpwd;
+        "pkg-velo-v9" = _3me7jt5K;
+        "pkg-10" = _YXkExpwd;
         "default" = _YXkExpwd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

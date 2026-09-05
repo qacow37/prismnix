@@ -9,6 +9,7 @@ let
     in {
         "WAJio5wi" = _WAJio5wi;
         "fabric-1.21.1" = _WAJio5wi;
+        "pkg-1.0.0" = _WAJio5wi;
         "default" = _WAJio5wi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

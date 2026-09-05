@@ -64,6 +64,8 @@ let
         "minecraft-26.1.1" = _uWhmXZID;
         "minecraft-26.1.2" = _uWhmXZID;
         "minecraft-26.2" = _uWhmXZID;
+        "pkg-1.4+1.20" = _1kELnTZY;
+        "pkg-1.40.0" = _uWhmXZID;
         "default" = _uWhmXZID;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

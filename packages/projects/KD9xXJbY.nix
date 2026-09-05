@@ -179,6 +179,7 @@ let
         "neoforge-1.21.6" = _WPxmJivI;
         "neoforge-1.21.7" = _WPxmJivI;
         "neoforge-1.21.8" = _WPxmJivI;
+        "pkg-2.0.0" = _WPxmJivI;
         "default" = _WPxmJivI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

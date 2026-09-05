@@ -39,6 +39,12 @@ let
         "ARGWxuLB" = _ARGWxuLB;
         "CoRlbBOr" = _CoRlbBOr;
         "minecraft-1.21.11" = _CoRlbBOr;
+        "pkg-0.1-alpha" = _4WkmDRXo;
+        "pkg-0.2-alpha" = _lQYtR4Dc;
+        "pkg-0.3-alpha" = _uyT8WTgx;
+        "pkg-0.4-alpha" = _4SCWCPmS;
+        "pkg-0.5-alpha" = _ARGWxuLB;
+        "pkg-0.6-alpha" = _CoRlbBOr;
         "default" = _CoRlbBOr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

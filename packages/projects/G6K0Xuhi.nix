@@ -12,6 +12,7 @@ let
         "minecraft-1.17" = _Dfkjgsrk;
         "minecraft-1.18" = _Dfkjgsrk;
         "minecraft-1.19" = _Dfkjgsrk;
+        "pkg-16.1.1" = _Dfkjgsrk;
         "default" = _Dfkjgsrk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "narbHgh6" = _narbHgh6;
         "8QU0FZix" = _8QU0FZix;
         "forge-1.20.1" = _8QU0FZix;
+        "pkg-1.0.0" = _narbHgh6;
+        "pkg-1.0.1" = _8QU0FZix;
         "default" = _8QU0FZix;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

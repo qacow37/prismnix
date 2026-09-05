@@ -9,6 +9,7 @@ let
     in {
         "YtLXM3Wx" = _YtLXM3Wx;
         "forge-1.20.1" = _YtLXM3Wx;
+        "pkg-1.0" = _YtLXM3Wx;
         "default" = _YtLXM3Wx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

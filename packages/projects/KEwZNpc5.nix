@@ -35,6 +35,7 @@ let
         "fabric-1.21.9" = _TAjApLha;
         "fabric-1.21.10" = _TAjApLha;
         "fabric-26.2" = _HWsmHmL5;
+        "pkg-1.0.0" = _HWsmHmL5;
         "default" = _HWsmHmL5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "PNVMEuOe" = _PNVMEuOe;
         "a5gOpPKH" = _a5gOpPKH;
         "forge-1.8.9" = _a5gOpPKH;
+        "pkg-1.0" = _PNVMEuOe;
+        "pkg-1.1" = _a5gOpPKH;
         "default" = _a5gOpPKH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

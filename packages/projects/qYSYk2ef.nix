@@ -34,6 +34,9 @@ let
         "bApJTSYs" = _bApJTSYs;
         "neoforge-1.21.1" = _bApJTSYs;
         "forge-1.20.1" = _TmuLuAFp;
+        "pkg-1.0.0" = _1mMT7g3P;
+        "pkg-2.0.0" = _dSQyRy85;
+        "pkg-3.0.0" = _bApJTSYs;
         "default" = _bApJTSYs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

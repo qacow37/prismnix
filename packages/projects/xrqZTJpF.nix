@@ -16,6 +16,8 @@ let
         "hZyt64Mc" = _hZyt64Mc;
         "fabric-1.18.2" = _fN55THl6;
         "fabric-1.19" = _hZyt64Mc;
+        "pkg-1.1.8" = _fN55THl6;
+        "pkg-1.1.9" = _hZyt64Mc;
         "default" = _hZyt64Mc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

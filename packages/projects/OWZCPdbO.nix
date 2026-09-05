@@ -45,6 +45,9 @@ let
         "minecraft-1.15" = _zuZDNCbE;
         "minecraft-1.15.1" = _zuZDNCbE;
         "minecraft-1.15.2" = _zuZDNCbE;
+        "pkg-1" = _hgbcRVel;
+        "pkg-2" = _zuZDNCbE;
+        "pkg-3" = _51s4OYP7;
         "default" = _51s4OYP7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -76,6 +76,8 @@ let
         "quilt-26.1.1" = _X5XHPNlS;
         "quilt-26.1.2" = _X5XHPNlS;
         "quilt-26.2" = _X5XHPNlS;
+        "pkg-v1.0" = _3DyJgRk1;
+        "pkg-v1.0+mod" = _X5XHPNlS;
         "default" = _X5XHPNlS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

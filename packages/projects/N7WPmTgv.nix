@@ -39,6 +39,12 @@ let
         "38rrmtnC" = _38rrmtnC;
         "SNPbuKeo" = _SNPbuKeo;
         "neoforge-1.21.1" = _SNPbuKeo;
+        "pkg-0.1.0" = _fVGUTUPa;
+        "pkg-0.1.1" = _yRdg3lgF;
+        "pkg-0.2.0" = _5xaRnvA7;
+        "pkg-0.2.1" = _cz01nrdb;
+        "pkg-0.2.2" = _38rrmtnC;
+        "pkg-0.2.3" = _SNPbuKeo;
         "default" = _SNPbuKeo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

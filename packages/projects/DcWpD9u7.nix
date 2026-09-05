@@ -9,6 +9,7 @@ let
     in {
         "UdCrOo6e" = _UdCrOo6e;
         "fabric-1.21.11" = _UdCrOo6e;
+        "pkg-1.0.0" = _UdCrOo6e;
         "default" = _UdCrOo6e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

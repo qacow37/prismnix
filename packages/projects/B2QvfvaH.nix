@@ -21,6 +21,9 @@ let
         "83IaW1NV" = _83IaW1NV;
         "UchvGtkf" = _UchvGtkf;
         "forge-1.20.1" = _UchvGtkf;
+        "pkg-1.0.0" = _AYdpyzDX;
+        "pkg-1.0.1" = _83IaW1NV;
+        "pkg-1.0.2" = _UchvGtkf;
         "default" = _UchvGtkf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

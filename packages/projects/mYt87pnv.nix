@@ -9,6 +9,7 @@ let
     in {
         "XqoajaJs" = _XqoajaJs;
         "minecraft-1.21.4" = _XqoajaJs;
+        "pkg-1.0" = _XqoajaJs;
         "default" = _XqoajaJs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

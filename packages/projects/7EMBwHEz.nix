@@ -40,6 +40,8 @@ let
         "neoforge-1.21.6" = _hwQ1P6hd;
         "neoforge-1.21.7" = _hwQ1P6hd;
         "neoforge-1.21.8" = _hwQ1P6hd;
+        "pkg-1.0" = _myCELXcl;
+        "pkg-1.1" = _hwQ1P6hd;
         "default" = _hwQ1P6hd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

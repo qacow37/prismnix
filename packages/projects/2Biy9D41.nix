@@ -91,6 +91,7 @@ let
         "fabric-26.1.1" = _Yk2OSaWn;
         "fabric-26.1.2-rc-1" = _Yk2OSaWn;
         "fabric-26.1.2" = _Yk2OSaWn;
+        "pkg-1.0.0" = _Yk2OSaWn;
         "default" = _Yk2OSaWn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

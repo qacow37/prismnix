@@ -21,6 +21,9 @@ let
         "y0l1azfO" = _y0l1azfO;
         "UmtufmBK" = _UmtufmBK;
         "fabric-1.21.1" = _UmtufmBK;
+        "pkg-1.0.0-fabric" = _aqmzw8fj;
+        "pkg-1.0.2-fabric" = _y0l1azfO;
+        "pkg-1.0.4-fabric" = _UmtufmBK;
         "default" = _UmtufmBK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

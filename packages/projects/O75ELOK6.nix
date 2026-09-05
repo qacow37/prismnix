@@ -10,6 +10,7 @@ let
         "R70pDVsY" = _R70pDVsY;
         "fabric-1.21" = _R70pDVsY;
         "fabric-1.21.1" = _R70pDVsY;
+        "pkg-1.0.0" = _R70pDVsY;
         "default" = _R70pDVsY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

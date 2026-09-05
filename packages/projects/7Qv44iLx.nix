@@ -40,6 +40,7 @@ let
         "minecraft-1.20.5" = _jBDw3R7i;
         "minecraft-1.20.6" = _jBDw3R7i;
         "minecraft-1.21" = _jBDw3R7i;
+        "pkg-1" = _jBDw3R7i;
         "default" = _jBDw3R7i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

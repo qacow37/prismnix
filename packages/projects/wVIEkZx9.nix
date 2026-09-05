@@ -81,6 +81,12 @@ let
         "datapack-1.21.8" = _4hsnJGx0;
         "datapack-26.1.2" = _zRAknrtF;
         "minecraft-26.1.2" = _dVHVNWRv;
+        "pkg-1.20.4" = _FjeAPH0O;
+        "pkg-1.21.4" = _tX04NC4z;
+        "pkg-1.21.6" = _lJhyw1zr;
+        "pkg-1.21.7" = _kB2bFQmK;
+        "pkg-1.21.8" = _4hsnJGx0;
+        "pkg-26.1.2" = _zRAknrtF;
         "default" = _zRAknrtF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

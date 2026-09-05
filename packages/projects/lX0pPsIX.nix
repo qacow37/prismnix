@@ -16,6 +16,8 @@ let
         "yREinuec" = _yREinuec;
         "forge-1.16.5" = _xPHHAnrk;
         "forge-1.12.2" = _yREinuec;
+        "pkg-1.16.5-1.0.1" = _xPHHAnrk;
+        "pkg-1.12.2-1.1.3" = _yREinuec;
         "default" = _yREinuec;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -49,6 +49,12 @@ let
         "modloader-b1.3_01" = _p0LRFFHi;
         "modloader-b1.5_01" = _p0LRFFHi;
         "modloader-b1.6.6" = _p0LRFFHi;
+        "pkg-1.0" = _q7I64BF7;
+        "pkg-1.1" = _FPbAfbhd;
+        "pkg-1.2" = _2LuxJlVN;
+        "pkg-1.3" = _eV8aEhXY;
+        "pkg-1.4" = _NOQwAmbY;
+        "pkg-1.5" = _p0LRFFHi;
         "default" = _p0LRFFHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

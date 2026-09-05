@@ -52,6 +52,14 @@ let
         "myJjmuCT" = _myJjmuCT;
         "fabric-26.1.2" = _JaX7bEtg;
         "fabric-26.2" = _myJjmuCT;
+        "pkg-2.2.0" = _JaX7bEtg;
+        "pkg-2.4.0" = _qhXBXczg;
+        "pkg-2.5.0" = _iBpPMhGD;
+        "pkg-2.6.0" = _ShJmdtX2;
+        "pkg-2.7.0" = _OZwq97MT;
+        "pkg-2.8.0" = _TRaHonT9;
+        "pkg-2.9.0" = _Cd3cGZGL;
+        "pkg-2.9.1" = _myJjmuCT;
         "default" = _myJjmuCT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -295,6 +295,10 @@ let
         "spigot-1.20.2" = _iEUToF31;
         "spigot-1.20.3" = _iEUToF31;
         "spigot-1.20.4" = _iEUToF31;
+        "pkg-1.2.1" = _iEUToF31;
+        "pkg-1.2.2" = _GPC4eez3;
+        "pkg-1.2.3" = _VeK6QEZP;
+        "pkg-1.2.4" = _BbqyuuwK;
         "default" = _BbqyuuwK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

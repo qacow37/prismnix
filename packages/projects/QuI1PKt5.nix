@@ -9,6 +9,7 @@ let
     in {
         "J7VkERKs" = _J7VkERKs;
         "forge-1.16.5" = _J7VkERKs;
+        "pkg-1.7.1" = _J7VkERKs;
         "default" = _J7VkERKs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

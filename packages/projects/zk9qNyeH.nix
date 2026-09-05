@@ -48,6 +48,7 @@ let
         "forge-1.16.3" = _slegWJKA;
         "forge-1.16.4" = _slegWJKA;
         "forge-1.16.5" = _slegWJKA;
+        "pkg-1.0.2" = _slegWJKA;
         "default" = _slegWJKA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

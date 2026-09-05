@@ -9,6 +9,7 @@ let
     in {
         "CBQJoa9E" = _CBQJoa9E;
         "fabric-1.21.4" = _CBQJoa9E;
+        "pkg-1.21.4_DEMO-1" = _CBQJoa9E;
         "default" = _CBQJoa9E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

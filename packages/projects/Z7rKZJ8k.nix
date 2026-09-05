@@ -28,6 +28,10 @@ let
         "cnt6F6VI" = _cnt6F6VI;
         "neoforge-1.21" = _cnt6F6VI;
         "neoforge-1.21.1" = _cnt6F6VI;
+        "pkg-1.0.0" = _CS2PXcPY;
+        "pkg-1.0.1" = _UTPadYH1;
+        "pkg-1.0.2" = _rqZZKgvt;
+        "pkg-1.0.3" = _cnt6F6VI;
         "default" = _cnt6F6VI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

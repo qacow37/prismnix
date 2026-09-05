@@ -17,6 +17,8 @@ let
         "neoforge-1.21" = _LavmGVmU;
         "neoforge-1.21.1" = _LavmGVmU;
         "neoforge-1.21.4" = _JDoNh288;
+        "pkg-1.0.0" = _LavmGVmU;
+        "pkg-1.1.0" = _JDoNh288;
         "default" = _JDoNh288;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

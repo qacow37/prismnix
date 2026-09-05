@@ -22,6 +22,9 @@ let
         "D92ktGJa" = _D92ktGJa;
         "forge-1.20.1" = _EYW3l9U5;
         "neoforge-1.21.1" = _D92ktGJa;
+        "pkg-1.0" = _OSqLvKgn;
+        "pkg-1.1" = _EYW3l9U5;
+        "pkg-1.1-1.21.1" = _D92ktGJa;
         "default" = _D92ktGJa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

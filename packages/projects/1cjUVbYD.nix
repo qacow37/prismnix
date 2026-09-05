@@ -28,6 +28,10 @@ let
         "WucztYmg" = _WucztYmg;
         "quilt-1.19.2" = _MXvBgubp;
         "quilt-1.20.1" = _WucztYmg;
+        "pkg-v0.1.0" = _mth4vBTE;
+        "pkg-v0.2.0" = _MXvBgubp;
+        "pkg-v0.3.0+1.20.1" = _uJyhjd95;
+        "pkg-v0.3.1+1.20.1" = _WucztYmg;
         "default" = _WucztYmg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

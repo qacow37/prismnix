@@ -14,6 +14,7 @@ let
         "forge-1.20.4" = _8PiCklEN;
         "forge-1.20.5" = _8PiCklEN;
         "forge-1.20.6" = _8PiCklEN;
+        "pkg-1.0.1" = _8PiCklEN;
         "default" = _8PiCklEN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

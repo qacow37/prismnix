@@ -29,6 +29,7 @@ let
         "iris-1.21.6" = _3lt2DwGh;
         "iris-1.21.7" = _3lt2DwGh;
         "iris-1.21.8" = _3lt2DwGh;
+        "pkg-1.0" = _3lt2DwGh;
         "default" = _3lt2DwGh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

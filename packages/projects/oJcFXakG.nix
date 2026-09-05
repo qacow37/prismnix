@@ -9,6 +9,7 @@ let
     in {
         "ObLYMdMS" = _ObLYMdMS;
         "forge-1.12.2" = _ObLYMdMS;
+        "pkg-0.5.78" = _ObLYMdMS;
         "default" = _ObLYMdMS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

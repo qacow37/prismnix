@@ -147,6 +147,21 @@ let
         "babric-b1.7.3" = _PfkPYUWh;
         "bta-babric-b1.7.3" = _GdVIGVay;
         "modloader-b1.7.3" = _r6vzWduZ;
+        "pkg-ornithe-b1.0-0.1.0" = _tGtfHKgv;
+        "pkg-ornithe-b1.4-0.1.0" = _bAdhznZv;
+        "pkg-ornithe-b1.8-0.1.0" = _8nKLj5So;
+        "pkg-ornithe-1.0-0.1.0" = _qrmMPOgD;
+        "pkg-ornithe-1.3.1-0.1.0" = _3k4TNDOu;
+        "pkg-ornithe-1.5.1-0.1.0" = _BEeBtjJX;
+        "pkg-ornithe-1.6.1-0.1.0" = _8gUW7Js1;
+        "pkg-ornithe-1.7.2-0.1.0" = _DicosWJJ;
+        "pkg-ornithe-1.7.9-0.1.0" = _fj6ADG3H;
+        "pkg-ornithe-1.7.10-0.1.0" = _fk8hfom7;
+        "pkg-ornithe-1.8-0.1.0" = _gHtvyv2b;
+        "pkg-poseidon-b1.7.3-0.1.0" = _4oTwbWMo;
+        "pkg-stapi-b1.7.3-0.1.0" = _PfkPYUWh;
+        "pkg-bta-b1.7.3-0.1.0" = _GdVIGVay;
+        "pkg-modloader-b1.7.3-0.1.0" = _r6vzWduZ;
         "default" = _r6vzWduZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

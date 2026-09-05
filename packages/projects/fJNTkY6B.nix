@@ -15,6 +15,8 @@ let
         "lciAcuFj" = _lciAcuFj;
         "amM8yk4K" = _amM8yk4K;
         "forge-1.20.1" = _amM8yk4K;
+        "pkg-1.0.0" = _lciAcuFj;
+        "pkg-1.1.0" = _amM8yk4K;
         "default" = _amM8yk4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

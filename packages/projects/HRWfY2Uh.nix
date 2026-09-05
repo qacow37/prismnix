@@ -28,6 +28,8 @@ let
         "RMV1s428" = _RMV1s428;
         "fabric-1.20.1" = _1wJ0uB67;
         "forge-1.20.1" = _RMV1s428;
+        "pkg-1.0.0" = _KLCPECtz;
+        "pkg-1.0.1+1.20.1" = _RMV1s428;
         "default" = _RMV1s428;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

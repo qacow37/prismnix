@@ -9,6 +9,7 @@ let
     in {
         "oSkMrxBl" = _oSkMrxBl;
         "forge-1.18.2" = _oSkMrxBl;
+        "pkg-1.18.2-1.1.29-BETA" = _oSkMrxBl;
         "default" = _oSkMrxBl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

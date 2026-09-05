@@ -16,6 +16,8 @@ let
         "YTwdgJLf" = _YTwdgJLf;
         "fabric-1.19.2" = _1r3Gwla0;
         "fabric-1.20" = _YTwdgJLf;
+        "pkg-1.0.5" = _1r3Gwla0;
+        "pkg-1.0.6+1.20" = _YTwdgJLf;
         "default" = _YTwdgJLf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

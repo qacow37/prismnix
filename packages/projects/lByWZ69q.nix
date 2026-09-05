@@ -47,6 +47,9 @@ let
         "iris-1.21.9" = _frUlGLQU;
         "iris-1.21.10" = _frUlGLQU;
         "iris-1.21.11" = _frUlGLQU;
+        "pkg-1.0" = _nHGx1WGN;
+        "pkg-1.1" = _RvVydcx7;
+        "pkg-1.2" = _frUlGLQU;
         "default" = _frUlGLQU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

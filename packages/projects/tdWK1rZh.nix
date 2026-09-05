@@ -33,6 +33,11 @@ let
         "dv2TSism" = _dv2TSism;
         "nfTC4v35" = _nfTC4v35;
         "fabric-1.21.1" = _nfTC4v35;
+        "pkg-1.0.0+1.21.1" = _cd98xaD2;
+        "pkg-1.0.1+1.21.1" = _F3cLPPjj;
+        "pkg-1.0.2+1.21.1" = _oi94piuL;
+        "pkg-1.0.3+1.21.1" = _dv2TSism;
+        "pkg-1.1.0+1.21.1" = _nfTC4v35;
         "default" = _nfTC4v35;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

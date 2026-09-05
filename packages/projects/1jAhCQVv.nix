@@ -35,6 +35,7 @@ let
         "minecraft-1.21.3" = _Wu0LFTKe;
         "minecraft-1.21.4" = _Wu0LFTKe;
         "minecraft-1.21.5" = _Wu0LFTKe;
+        "pkg-1.0" = _Wu0LFTKe;
         "default" = _Wu0LFTKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,9 @@ let
         "uRsiSRtw" = _uRsiSRtw;
         "minecraft-1.20.1" = _drVHrYTV;
         "minecraft-1.21.1" = _uRsiSRtw;
+        "pkg-1.0.0" = _KgpBig6e;
+        "pkg-1.0.1" = _drVHrYTV;
+        "pkg-1.0.2" = _uRsiSRtw;
         "default" = _uRsiSRtw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

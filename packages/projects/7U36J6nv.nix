@@ -800,6 +800,7 @@ let
         "minecraft-26.2-rc-1" = _XYMGslMI;
         "minecraft-26.2-rc-2" = _XYMGslMI;
         "minecraft-26.2" = _XYMGslMI;
+        "pkg-1.0.0" = _XYMGslMI;
         "default" = _XYMGslMI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

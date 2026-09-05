@@ -22,6 +22,9 @@ let
         "77PtpC1X" = _77PtpC1X;
         "forge-1.20.1" = _77PtpC1X;
         "neoforge-1.20.1" = _77PtpC1X;
+        "pkg-1.0" = _iZDBMJ6m;
+        "pkg-1.0.1" = _OVN1NQgh;
+        "pkg-1.1" = _77PtpC1X;
         "default" = _77PtpC1X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

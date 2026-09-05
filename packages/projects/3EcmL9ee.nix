@@ -22,6 +22,9 @@ let
         "dlHLsnL5" = _dlHLsnL5;
         "forge-1.20.1" = _kfabzm74;
         "forge-1.18.2" = _dlHLsnL5;
+        "pkg-1.20.1-1.0.0" = _HrBBMWG9;
+        "pkg-1.20.1-1.0.1" = _kfabzm74;
+        "pkg-1.18.2-1.0.1" = _dlHLsnL5;
         "default" = _dlHLsnL5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

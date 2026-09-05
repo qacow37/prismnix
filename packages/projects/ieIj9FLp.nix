@@ -335,6 +335,12 @@ let
         "fabric-26.1" = _EaDwgrAz;
         "fabric-26.1.1" = _EaDwgrAz;
         "fabric-26.1.2" = _EaDwgrAz;
+        "pkg-carpetgui-1.0.0+1.21.4" = _1j3MdiZ5;
+        "pkg-1.3.1" = _uMyJbTvz;
+        "pkg-1.3.2" = _KUVPMKMS;
+        "pkg-1.3.3" = _7U1vJ4kM;
+        "pkg-1.3.4" = _bzuGnbqx;
+        "pkg-1.3.5-hotfix" = _EaDwgrAz;
         "default" = _EaDwgrAz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

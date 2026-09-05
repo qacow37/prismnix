@@ -16,6 +16,8 @@ let
         "sOOTvJxo" = _sOOTvJxo;
         "forge-1.20" = _sOOTvJxo;
         "forge-1.20.1" = _sOOTvJxo;
+        "pkg-1.0.3" = _ufYB0pVH;
+        "pkg-1.0.4" = _sOOTvJxo;
         "default" = _sOOTvJxo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

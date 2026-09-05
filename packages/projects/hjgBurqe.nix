@@ -22,6 +22,9 @@ let
         "jz20JOJO" = _jz20JOJO;
         "neoforge-1.21.1" = _tI0fnvPU;
         "forge-1.20.1" = _jz20JOJO;
+        "pkg-1.0.0+neoforge" = _5VZs8NP0;
+        "pkg-1.1.0+neoforge" = _tI0fnvPU;
+        "pkg-1.1.0+1.20.1" = _jz20JOJO;
         "default" = _jz20JOJO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -35,6 +35,10 @@ let
         "forge-1.20.6" = _54lv1pmG;
         "fabric-1.21.5" = _fzlYSaOK;
         "fabric-1.21.6" = _fzlYSaOK;
+        "pkg-1.0" = _54lv1pmG;
+        "pkg-1.21.6-discs-for-forge-1.20.1" = _tVcC200t;
+        "pkg-1.21.6-discs" = _O1CpnnGg;
+        "pkg-1.21.7-discs" = _fzlYSaOK;
         "default" = _fzlYSaOK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

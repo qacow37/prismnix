@@ -27,6 +27,10 @@ let
         "Qfstv0S8" = _Qfstv0S8;
         "WcnijmHv" = _WcnijmHv;
         "forge-1.7.10" = _WcnijmHv;
+        "pkg-0.82.0" = _yzNz6f4W;
+        "pkg-0.82.1" = _VE86swZH;
+        "pkg-0.82.2" = _Qfstv0S8;
+        "pkg-0.82.3" = _WcnijmHv;
         "default" = _WcnijmHv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

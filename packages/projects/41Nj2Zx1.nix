@@ -23,6 +23,7 @@ let
         "minecraft-1.20.5" = _CRezAaXr;
         "minecraft-1.20.6" = _CRezAaXr;
         "minecraft-1.21" = _CRezAaXr;
+        "pkg-0.1" = _CRezAaXr;
         "default" = _CRezAaXr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

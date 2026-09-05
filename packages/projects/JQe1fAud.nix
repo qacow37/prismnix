@@ -15,6 +15,8 @@ let
         "GEBBR6dR" = _GEBBR6dR;
         "cniY5MR2" = _cniY5MR2;
         "forge-1.20.1" = _cniY5MR2;
+        "pkg-0.3.0" = _GEBBR6dR;
+        "pkg-0.4.0" = _cniY5MR2;
         "default" = _cniY5MR2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

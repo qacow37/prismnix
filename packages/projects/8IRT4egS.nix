@@ -9,6 +9,7 @@ let
     in {
         "5EVLI16P" = _5EVLI16P;
         "forge-1.18.2" = _5EVLI16P;
+        "pkg-1.18-1.0" = _5EVLI16P;
         "default" = _5EVLI16P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

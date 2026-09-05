@@ -95,6 +95,8 @@ let
         "minecraft-1.21.8" = _ERYGUHYd;
         "minecraft-1.21.9" = _ERYGUHYd;
         "minecraft-1.21.10" = _ERYGUHYd;
+        "pkg-NoOutline" = _taGsVMDl;
+        "pkg-Outline" = _ERYGUHYd;
         "default" = _ERYGUHYd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

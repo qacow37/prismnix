@@ -15,6 +15,8 @@ let
         "55giV48i" = _55giV48i;
         "FipGJLSZ" = _FipGJLSZ;
         "forge-1.20.1" = _FipGJLSZ;
+        "pkg-1.0.1" = _55giV48i;
+        "pkg-1.0.2" = _FipGJLSZ;
         "default" = _FipGJLSZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

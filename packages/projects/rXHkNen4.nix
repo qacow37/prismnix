@@ -21,6 +21,9 @@ let
         "QR4LVnDp" = _QR4LVnDp;
         "8ZAl66oe" = _8ZAl66oe;
         "fabric-1.19.2" = _8ZAl66oe;
+        "pkg-4.16.4-1.19.2" = _ao8tCRgu;
+        "pkg-4.18.3-1.19.2" = _QR4LVnDp;
+        "pkg-4.19.1-1.19.2" = _8ZAl66oe;
         "default" = _8ZAl66oe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

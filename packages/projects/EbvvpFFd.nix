@@ -22,6 +22,9 @@ let
         "5gafTaKV" = _5gafTaKV;
         "neoforge-1.21.1" = _5gafTaKV;
         "fabric-1.21.1" = _e96fQasO;
+        "pkg-1.0" = _GJYyehCP;
+        "pkg-1.0+mod" = _e96fQasO;
+        "pkg-1.2+mod" = _5gafTaKV;
         "default" = _5gafTaKV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

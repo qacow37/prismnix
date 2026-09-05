@@ -18,6 +18,8 @@ let
         "fabric-1.19" = _sKhtovSu;
         "fabric-1.19.1" = _sKhtovSu;
         "fabric-1.19.2" = _sKhtovSu;
+        "pkg-simplechunkloader-1.0.1-1.18.2" = _ZdJEwVvv;
+        "pkg-1.0.2" = _sKhtovSu;
         "default" = _sKhtovSu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

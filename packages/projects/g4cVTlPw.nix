@@ -63,6 +63,16 @@ let
         "OrPixeSh" = _OrPixeSh;
         "HoNfZeUr" = _HoNfZeUr;
         "neoforge-1.21.1" = _HoNfZeUr;
+        "pkg-0.1.0" = _9MRZ4C51;
+        "pkg-0.1.2" = _ogIttyVF;
+        "pkg-0.1.3" = _UaHuSVOx;
+        "pkg-0.1.4" = _G8ZRKSJR;
+        "pkg-1.5" = _e6KqlNMb;
+        "pkg-1.6" = _CZOzvM6K;
+        "pkg-1.7" = _7DuaqpPY;
+        "pkg-1.7.1" = _SZsN71Y6;
+        "pkg-1.7.2" = _OrPixeSh;
+        "pkg-1.8" = _HoNfZeUr;
         "default" = _HoNfZeUr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

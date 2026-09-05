@@ -10,6 +10,7 @@ let
         "9QgVHe7t" = _9QgVHe7t;
         "iris-1.21.5" = _9QgVHe7t;
         "optifine-1.21.5" = _9QgVHe7t;
+        "pkg-1" = _9QgVHe7t;
         "default" = _9QgVHe7t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

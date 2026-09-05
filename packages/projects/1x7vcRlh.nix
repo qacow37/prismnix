@@ -21,6 +21,9 @@ let
         "DNPs4kvx" = _DNPs4kvx;
         "rcem9tts" = _rcem9tts;
         "forge-1.20.1" = _rcem9tts;
+        "pkg-1.0.0" = _Wmj6qqK4;
+        "pkg-1.4.2" = _DNPs4kvx;
+        "pkg-1.4.5" = _rcem9tts;
         "default" = _rcem9tts;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

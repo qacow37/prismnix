@@ -15,6 +15,8 @@ let
         "CEtuA4Tw" = _CEtuA4Tw;
         "WFNHohMK" = _WFNHohMK;
         "fabric-1.21" = _WFNHohMK;
+        "pkg-1.2.0" = _CEtuA4Tw;
+        "pkg-1.2.1" = _WFNHohMK;
         "default" = _WFNHohMK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

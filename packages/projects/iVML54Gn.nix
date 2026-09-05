@@ -9,6 +9,7 @@ let
     in {
         "DQlQ8nCD" = _DQlQ8nCD;
         "forge-1.20.1" = _DQlQ8nCD;
+        "pkg-1.0.0-1.20.1" = _DQlQ8nCD;
         "default" = _DQlQ8nCD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

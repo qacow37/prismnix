@@ -9,6 +9,7 @@ let
     in {
         "2Tb0zRUT" = _2Tb0zRUT;
         "forge-1.20.1" = _2Tb0zRUT;
+        "pkg-1.0.1" = _2Tb0zRUT;
         "default" = _2Tb0zRUT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

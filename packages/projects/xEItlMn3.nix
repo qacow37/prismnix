@@ -76,6 +76,9 @@ let
         "optifine-1.21.2" = _fzxeGgx7;
         "optifine-1.21.3" = _fzxeGgx7;
         "optifine-1.21.4" = _fzxeGgx7;
+        "pkg-4.0a" = _EQImPQLi;
+        "pkg-5.0" = _h5HAal4u;
+        "pkg-5.1" = _fzxeGgx7;
         "default" = _fzxeGgx7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

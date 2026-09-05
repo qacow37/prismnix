@@ -23,6 +23,7 @@ let
         "fabric-1.21.3" = _Ywscp2Zo;
         "fabric-1.21.4" = _Ywscp2Zo;
         "fabric-1.21.5" = _Ywscp2Zo;
+        "pkg-1.0.0" = _Ywscp2Zo;
         "default" = _Ywscp2Zo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -17,6 +17,7 @@ let
         "fabric-1.21.6" = _h3B17DSQ;
         "fabric-1.21.7" = _h3B17DSQ;
         "fabric-1.21.8" = _h3B17DSQ;
+        "pkg-1.0.6" = _h3B17DSQ;
         "default" = _h3B17DSQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

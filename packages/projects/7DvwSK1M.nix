@@ -27,6 +27,9 @@ let
         "fkNGx7pR" = _fkNGx7pR;
         "Ubgep9rP" = _Ubgep9rP;
         "forge-1.12.2" = _Ubgep9rP;
+        "pkg-1" = _YkAGJRkd;
+        "pkg-1.12.2" = _fkNGx7pR;
+        "pkg-2.5fixed" = _Ubgep9rP;
         "default" = _Ubgep9rP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

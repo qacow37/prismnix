@@ -9,6 +9,7 @@ let
     in {
         "vXbGNLXx" = _vXbGNLXx;
         "fabric-22w16b" = _vXbGNLXx;
+        "pkg-1.0.0" = _vXbGNLXx;
         "default" = _vXbGNLXx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

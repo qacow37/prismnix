@@ -15,6 +15,8 @@ let
         "XniWznko" = _XniWznko;
         "leXmKQMl" = _leXmKQMl;
         "forge-1.20.1" = _leXmKQMl;
+        "pkg-1.0.8" = _XniWznko;
+        "pkg-1.0.9" = _leXmKQMl;
         "default" = _leXmKQMl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

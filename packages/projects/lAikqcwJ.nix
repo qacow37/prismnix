@@ -17,6 +17,7 @@ let
         "forge-1.20.4" = _ERMTQ6XN;
         "forge-1.20.1" = _18GEoSOV;
         "neoforge-1.20.4" = _ERMTQ6XN;
+        "pkg-1.0.3" = _18GEoSOV;
         "default" = _18GEoSOV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

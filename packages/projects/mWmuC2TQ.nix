@@ -22,6 +22,7 @@ let
         "minecraft-1.12" = _CTR3graC;
         "minecraft-1.12.1" = _CTR3graC;
         "minecraft-1.12.2" = _CTR3graC;
+        "pkg-1.2" = _CTR3graC;
         "default" = _CTR3graC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

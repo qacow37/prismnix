@@ -28,6 +28,10 @@ let
         "PLcNpc9s" = _PLcNpc9s;
         "forge-1.20.1" = _4T55OM2v;
         "neoforge-1.20.4" = _PLcNpc9s;
+        "pkg-0.1.4" = _e1PDMev9;
+        "pkg-0.1.5" = _CUW3VNaJ;
+        "pkg-0.1.6" = _4T55OM2v;
+        "pkg-0.1.7" = _PLcNpc9s;
         "default" = _PLcNpc9s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "VYMMfLSC" = _VYMMfLSC;
         "neoforge-1.21.1" = _VYMMfLSC;
         "fabric-1.21.1" = _S1GhiigM;
+        "pkg-1.0.0" = _ENICkzkT;
+        "pkg-1.1.1" = _VYMMfLSC;
         "default" = _VYMMfLSC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

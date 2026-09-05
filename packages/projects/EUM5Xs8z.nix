@@ -9,6 +9,7 @@ let
     in {
         "4p63JMYu" = _4p63JMYu;
         "fabric-1.21.11" = _4p63JMYu;
+        "pkg-1.1" = _4p63JMYu;
         "default" = _4p63JMYu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

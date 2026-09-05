@@ -22,6 +22,9 @@ let
         "vswv13SZ" = _vswv13SZ;
         "datapack-1.21.1" = _vswv13SZ;
         "minecraft-1.21.1" = _vswv13SZ;
+        "pkg-1.0.0" = _EUiXmJvp;
+        "pkg-1.0.1" = _4232WrjV;
+        "pkg-1.0.2" = _vswv13SZ;
         "default" = _vswv13SZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

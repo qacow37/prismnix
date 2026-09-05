@@ -16,6 +16,7 @@ let
         "Qt6IBri6" = _Qt6IBri6;
         "neoforge-1.21.4" = _vF5er4JD;
         "neoforge-1.21.1" = _Qt6IBri6;
+        "pkg-1.1.0" = _Qt6IBri6;
         "default" = _Qt6IBri6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

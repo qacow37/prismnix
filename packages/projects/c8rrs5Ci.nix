@@ -64,6 +64,14 @@ let
         "RccQuDbc" = _RccQuDbc;
         "forge-1.20.1" = _RccQuDbc;
         "forge-1.19.4" = _CKAhrpsL;
+        "pkg-1.0.0" = _MR2VBtuI;
+        "pkg-1.2.5" = _BH1rGZAe;
+        "pkg-1.5.0" = _Dj5TftBt;
+        "pkg-1.5.5" = _oiHS7xij;
+        "pkg-1.6.0" = _mMejPjNE;
+        "pkg-1.6.5" = _YUEeNq8L;
+        "pkg-1.7.0" = _rX88DOtr;
+        "pkg-1.7.5" = _RccQuDbc;
         "default" = _RccQuDbc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "P32BM95u" = _P32BM95u;
         "neoforge-1.21.1" = _P32BM95u;
+        "pkg-0.1.0+1.21.1" = _P32BM95u;
         "default" = _P32BM95u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

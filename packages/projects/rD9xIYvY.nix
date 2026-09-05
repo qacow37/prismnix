@@ -33,6 +33,11 @@ let
         "9vhfU43g" = _9vhfU43g;
         "yMu2k9bO" = _yMu2k9bO;
         "forge-1.18.2" = _yMu2k9bO;
+        "pkg-BEQ-1.0.0-1.18.2" = _wBFl7sxd;
+        "pkg-BEQ-1.0.1-1.18.2" = _1QE6gZJ1;
+        "pkg-BEQ-2.0.1-1.18.2" = _OkZLGmXT;
+        "pkg-BEQ-4.0.0-1.18.2" = _9vhfU43g;
+        "pkg-BEQ-5.0.0-1.18.2" = _yMu2k9bO;
         "default" = _yMu2k9bO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

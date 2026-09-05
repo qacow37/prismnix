@@ -21,6 +21,9 @@ let
         "iCtoFHKa" = _iCtoFHKa;
         "DwA6a1pT" = _DwA6a1pT;
         "neoforge-1.21.1" = _DwA6a1pT;
+        "pkg-0.1.0" = _ECnar1pT;
+        "pkg-0.2.0" = _iCtoFHKa;
+        "pkg-0.3.0" = _DwA6a1pT;
         "default" = _DwA6a1pT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

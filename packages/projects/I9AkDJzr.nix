@@ -15,6 +15,8 @@ let
         "NaSIEvSy" = _NaSIEvSy;
         "BaodQBiU" = _BaodQBiU;
         "forge-1.20.1" = _BaodQBiU;
+        "pkg-0.0.8" = _NaSIEvSy;
+        "pkg-0.1.0" = _BaodQBiU;
         "default" = _BaodQBiU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

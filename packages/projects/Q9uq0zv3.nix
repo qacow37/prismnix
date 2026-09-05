@@ -10,6 +10,7 @@ let
         "4TgBR4QC" = _4TgBR4QC;
         "fabric-1.21" = _4TgBR4QC;
         "fabric-1.21.1" = _4TgBR4QC;
+        "pkg-1.0" = _4TgBR4QC;
         "default" = _4TgBR4QC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

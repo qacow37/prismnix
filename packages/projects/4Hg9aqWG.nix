@@ -25,6 +25,9 @@ let
         "forge-1.18" = _jlLFjDcB;
         "forge-1.18.1" = _jlLFjDcB;
         "forge-1.18.2" = _jlLFjDcB;
+        "pkg-potionidpacketfixer-1.17.1-v1.0.1" = _Itu4Aamh;
+        "pkg-potionidpacketfixer-1.16.5-v1.0.1" = _A7I0RVDI;
+        "pkg-potionidpacketfixer-1.18.1-v1.0.1" = _jlLFjDcB;
         "default" = _jlLFjDcB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -36,6 +36,8 @@ let
         "minecraft-1.21.2" = _GdCkTBfx;
         "minecraft-1.21.3" = _GdCkTBfx;
         "minecraft-1.21.4" = _GdCkTBfx;
+        "pkg-1.0" = _Xoxsjxy0;
+        "pkg-1.1" = _GdCkTBfx;
         "default" = _GdCkTBfx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

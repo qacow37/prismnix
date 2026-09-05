@@ -50,6 +50,9 @@ let
         "datapack-1.21.8" = _vmipRvvf;
         "forge-1.21" = _NfBL82Hl;
         "quilt-1.21" = _NfBL82Hl;
+        "pkg-1.0.0" = _ncbpY3WT;
+        "pkg-1.0.1" = _vmipRvvf;
+        "pkg-1.0.1+mod" = _NfBL82Hl;
         "default" = _NfBL82Hl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "Lbg5nSPG" = _Lbg5nSPG;
         "DsxZ42fG" = _DsxZ42fG;
         "forge-1.20.1" = _DsxZ42fG;
+        "pkg-1.0" = _Lbg5nSPG;
+        "pkg-1.0.1" = _DsxZ42fG;
         "default" = _DsxZ42fG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

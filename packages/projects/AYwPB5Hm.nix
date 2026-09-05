@@ -16,6 +16,8 @@ let
         "bM4ORVhF" = _bM4ORVhF;
         "fabric-1.21" = _bM4ORVhF;
         "fabric-1.21.1" = _bM4ORVhF;
+        "pkg-1.0+1.21" = _6b5To2UE;
+        "pkg-1.0.1+1.21" = _bM4ORVhF;
         "default" = _bM4ORVhF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

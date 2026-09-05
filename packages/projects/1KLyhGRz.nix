@@ -30,6 +30,8 @@ let
         "forge-1.20.1" = _FMUX4THT;
         "fabric-1.19.2" = _ADkZnrz3;
         "fabric-1.20.1" = _LoyNhXfF;
+        "pkg-1902.2.9-build.51" = _ADkZnrz3;
+        "pkg-2001.1.0-build.53" = _LoyNhXfF;
         "default" = _LoyNhXfF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

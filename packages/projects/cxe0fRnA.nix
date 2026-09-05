@@ -50,6 +50,9 @@ let
         "fabric-1.21.9" = _gWPlubql;
         "fabric-1.21.10" = _gWPlubql;
         "fabric-1.21.11" = _gWPlubql;
+        "pkg-1.0.0" = _dsVj72de;
+        "pkg-1.1.0" = _modD3IPN;
+        "pkg-1.1.1" = _gWPlubql;
         "default" = _gWPlubql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

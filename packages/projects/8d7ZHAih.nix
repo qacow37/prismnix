@@ -25,6 +25,8 @@ let
         "fabric-26.1" = _WLWr61db;
         "fabric-26.1.1" = _WLWr61db;
         "fabric-26.1.2" = _WLWr61db;
+        "pkg-1.0.0" = _iLHPvQNv;
+        "pkg-1.0.1" = _WLWr61db;
         "default" = _WLWr61db;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

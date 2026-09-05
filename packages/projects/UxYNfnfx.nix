@@ -28,6 +28,10 @@ let
         "nmvr3DB5" = _nmvr3DB5;
         "forge-1.20.1" = _nmvr3DB5;
         "neoforge-1.20.1" = _nmvr3DB5;
+        "pkg-4.0.0.0" = _zUM1DMaN;
+        "pkg-4.0.0.2" = _SgD00uPM;
+        "pkg-4.0.0.3" = _yuTpaHgC;
+        "pkg-4.0.0.4" = _nmvr3DB5;
         "default" = _nmvr3DB5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

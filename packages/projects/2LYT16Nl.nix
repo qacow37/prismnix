@@ -26,6 +26,7 @@ let
         "spigot-1.21.3" = _vdyhComZ;
         "spigot-1.21.4" = _vdyhComZ;
         "spigot-1.21.5" = _vdyhComZ;
+        "pkg-1.1" = _vdyhComZ;
         "default" = _vdyhComZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

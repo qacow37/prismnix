@@ -102,6 +102,8 @@ let
         "optifine-1.16.4" = _PzBMgESN;
         "optifine-1.16.5" = _PzBMgESN;
         "optifine-1.17" = _PzBMgESN;
+        "pkg-1.0" = _ts7Fhm90;
+        "pkg-1.1" = _PzBMgESN;
         "default" = _PzBMgESN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

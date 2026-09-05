@@ -15,6 +15,8 @@ let
         "DRfNMDX3" = _DRfNMDX3;
         "LJYBvVR1" = _LJYBvVR1;
         "fabric-1.19.2" = _LJYBvVR1;
+        "pkg-1.0" = _DRfNMDX3;
+        "pkg-1.1" = _LJYBvVR1;
         "default" = _LJYBvVR1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

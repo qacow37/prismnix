@@ -42,6 +42,7 @@ let
         "minecraft-1.21.8" = _x5oauDWN;
         "minecraft-1.21.9" = _x5oauDWN;
         "minecraft-1.21.10" = _x5oauDWN;
+        "pkg-v1" = _x5oauDWN;
         "default" = _x5oauDWN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

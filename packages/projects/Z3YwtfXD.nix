@@ -85,6 +85,14 @@ let
         "quilt-26.1.1" = _e3xrBEfH;
         "quilt-26.1.2" = _e3xrBEfH;
         "quilt-26.2" = _DE2qYTfy;
+        "pkg-old_pvp_swords_v1" = _BJgYtRn8;
+        "pkg-old_pvp_swords_v1+mod" = _VPGR1YXF;
+        "pkg-old-pvp-sword-1.21.11" = _pgodmSVM;
+        "pkg-old-pvp-sword-1.21.11+mod" = _aCsimw4k;
+        "pkg-26.1" = _Xk3XGYPP;
+        "pkg-26.1+mod" = _e3xrBEfH;
+        "pkg-26.2" = _RjeOxIQt;
+        "pkg-26.2+mod" = _DE2qYTfy;
         "default" = _DE2qYTfy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

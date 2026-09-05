@@ -36,6 +36,8 @@ let
         "datapack-1.20" = _CmUE2Nj3;
         "datapack-1.20.1" = _CmUE2Nj3;
         "datapack-1.20.2" = _m2a4AEmi;
+        "pkg-0.0.1-r" = _CmUE2Nj3;
+        "pkg-0.0.2-r" = _m2a4AEmi;
         "default" = _m2a4AEmi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -45,6 +45,7 @@ let
         "minecraft-1.20.2" = _D79tmnAq;
         "minecraft-1.20.3" = _D79tmnAq;
         "minecraft-1.20.4" = _D79tmnAq;
+        "pkg-1.18-1.20.4" = _D79tmnAq;
         "default" = _D79tmnAq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

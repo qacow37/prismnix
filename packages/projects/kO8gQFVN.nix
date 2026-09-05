@@ -46,6 +46,12 @@ let
         "HDclXCCm" = _HDclXCCm;
         "fabric-1.21.1" = _HDclXCCm;
         "neoforge-1.21.1" = _PRQfWTSw;
+        "pkg-1.7.0-1.0.1" = _FDbufm4k;
+        "pkg-1.0.2" = _xmfAkOhK;
+        "pkg-1.0.4" = _N6MMm1Bh;
+        "pkg-1.0.5" = _vNE71nW8;
+        "pkg-1.0.6" = _PRQfWTSw;
+        "pkg-1.0.7" = _HDclXCCm;
         "default" = _HDclXCCm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -22,6 +22,9 @@ let
         "BPT1SWET" = _BPT1SWET;
         "fabric-1.20" = _BPT1SWET;
         "fabric-1.20.1" = _BPT1SWET;
+        "pkg-0.2-1.20.1" = _6bq4GjnF;
+        "pkg-0.3-1.20.1" = _qAuMJWmD;
+        "pkg-0.4-1.20.1" = _BPT1SWET;
         "default" = _BPT1SWET;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

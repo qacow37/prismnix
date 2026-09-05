@@ -9,6 +9,7 @@ let
     in {
         "xMeorWRn" = _xMeorWRn;
         "neoforge-1.21.1" = _xMeorWRn;
+        "pkg-1.0.0" = _xMeorWRn;
         "default" = _xMeorWRn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

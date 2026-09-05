@@ -16,6 +16,7 @@ let
         "pGTyY70z" = _pGTyY70z;
         "forge-1.20.1" = _4zI0ZHcl;
         "neoforge-1.21.1" = _pGTyY70z;
+        "pkg-1.0.2" = _pGTyY70z;
         "default" = _pGTyY70z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

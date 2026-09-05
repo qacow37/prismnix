@@ -22,6 +22,9 @@ let
         "CH85A6kl" = _CH85A6kl;
         "neoforge-1.21" = _CH85A6kl;
         "neoforge-1.21.1" = _CH85A6kl;
+        "pkg-0.1.0" = _YKg6Tu1g;
+        "pkg-0.3.4" = _sQAnNQOZ;
+        "pkg-0.3.6" = _CH85A6kl;
         "default" = _CH85A6kl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

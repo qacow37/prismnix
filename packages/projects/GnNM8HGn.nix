@@ -28,6 +28,9 @@ let
         "RgiO6Xlx" = _RgiO6Xlx;
         "forge-1.20.1" = _9vT1VKik;
         "neoforge-1.21.1" = _RgiO6Xlx;
+        "pkg-1.0.0" = _RgiO6Xlx;
+        "pkg-1.0.1" = _UwCE5PaC;
+        "pkg-1.0.2" = _9vT1VKik;
         "default" = _RgiO6Xlx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

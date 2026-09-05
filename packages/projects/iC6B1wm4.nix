@@ -22,6 +22,9 @@ let
         "p2JP5hMp" = _p2JP5hMp;
         "forge-1.20.1" = _p2JP5hMp;
         "neoforge-1.20.1" = _p2JP5hMp;
+        "pkg-1.0.2" = _ACLNXoxB;
+        "pkg-1.0.3" = _Z7BaQbrh;
+        "pkg-1.0.4" = _p2JP5hMp;
         "default" = _p2JP5hMp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

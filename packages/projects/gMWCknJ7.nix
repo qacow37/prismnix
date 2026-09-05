@@ -16,6 +16,7 @@ let
         "fabric-1.21.5" = _4RoXTswe;
         "fabric-1.21.6" = _4RoXTswe;
         "fabric-1.21.7" = _4RoXTswe;
+        "pkg-1.21-1.0" = _4RoXTswe;
         "default" = _4RoXTswe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

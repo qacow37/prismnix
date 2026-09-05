@@ -63,6 +63,7 @@ let
         "fabric-26.2-rc-1" = _ghGCecRB;
         "fabric-26.2-rc-2" = _ghGCecRB;
         "fabric-26.2" = _ghGCecRB;
+        "pkg-1.0.0" = _ghGCecRB;
         "default" = _ghGCecRB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

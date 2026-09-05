@@ -35,6 +35,7 @@ let
         "spigot-1.21.6" = _VtcmHEib;
         "spigot-1.21.7" = _VtcmHEib;
         "spigot-1.21.8" = _VtcmHEib;
+        "pkg-1.0-SNAPSHOT" = _VtcmHEib;
         "default" = _VtcmHEib;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

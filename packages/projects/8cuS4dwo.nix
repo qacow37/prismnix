@@ -280,6 +280,10 @@ let
         "fabric-26.2-pre-3" = _VEwOoOSv;
         "fabric-26.2-pre-4" = _VEwOoOSv;
         "fabric-26.2-pre-5" = _VEwOoOSv;
+        "pkg-1.0.0" = _x39ZVAdz;
+        "pkg-1.0.1" = _kBYrmFOE;
+        "pkg-1.1.0" = _1lmcZukL;
+        "pkg-1.1.1" = _VEwOoOSv;
         "default" = _VEwOoOSv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

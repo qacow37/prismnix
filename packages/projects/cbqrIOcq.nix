@@ -40,6 +40,7 @@ let
         "fabric-1.21.6" = _FwxBGOT1;
         "fabric-1.21.7" = _FwxBGOT1;
         "fabric-1.21.8" = _FwxBGOT1;
+        "pkg-1.0.0" = _FwxBGOT1;
         "default" = _FwxBGOT1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

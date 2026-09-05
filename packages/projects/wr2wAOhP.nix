@@ -15,6 +15,8 @@ let
         "LNw5Jmm4" = _LNw5Jmm4;
         "2WcUtrOS" = _2WcUtrOS;
         "forge-1.7.10" = _2WcUtrOS;
+        "pkg-1.1.0" = _LNw5Jmm4;
+        "pkg-1.1.2" = _2WcUtrOS;
         "default" = _2WcUtrOS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "2XsyrIHD" = _2XsyrIHD;
         "forge-1.20.1" = _2XsyrIHD;
         "neoforge-1.20.1" = _2XsyrIHD;
+        "pkg-1.0.0" = _pgwczpJ9;
+        "pkg-1.0.1" = _2XsyrIHD;
         "default" = _2XsyrIHD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

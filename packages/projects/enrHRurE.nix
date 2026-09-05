@@ -116,6 +116,8 @@ let
         "spigot-1.20.4" = _cWtgCyD8;
         "spigot-1.20.5" = _cWtgCyD8;
         "spigot-1.12.2" = _cWtgCyD8;
+        "pkg-1.0.1" = _utHfKvHT;
+        "pkg-1.0.2" = _cWtgCyD8;
         "default" = _cWtgCyD8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

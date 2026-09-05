@@ -148,6 +148,8 @@ let
         "minecraft-1.21.11" = _vmw2vNA5;
         "minecraft-26.1" = _vmw2vNA5;
         "minecraft-26.2" = _vmw2vNA5;
+        "pkg-1" = _brAmREsa;
+        "pkg-1.1" = _vmw2vNA5;
         "default" = _vmw2vNA5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

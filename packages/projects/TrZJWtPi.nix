@@ -16,6 +16,8 @@ let
         "XODcOMRw" = _XODcOMRw;
         "minecraft-1.21.1" = _XODcOMRw;
         "minecraft-1.21" = _XODcOMRw;
+        "pkg-1.0" = _4ExaPohd;
+        "pkg-2.0" = _XODcOMRw;
         "default" = _XODcOMRw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

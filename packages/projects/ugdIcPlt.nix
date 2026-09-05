@@ -16,6 +16,8 @@ let
         "Dd3HbRCH" = _Dd3HbRCH;
         "fabric-1.18.2" = _my3AayFR;
         "fabric-1.19" = _Dd3HbRCH;
+        "pkg-1.0.0" = _my3AayFR;
+        "pkg-1.0.0+1.19" = _Dd3HbRCH;
         "default" = _Dd3HbRCH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

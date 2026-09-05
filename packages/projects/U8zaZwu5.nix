@@ -50,6 +50,7 @@ let
         "spigot-1.21.9" = _MYKB3SLI;
         "spigot-1.21.10" = _MYKB3SLI;
         "spigot-1.21.11" = _MYKB3SLI;
+        "pkg-1.0.0" = _MYKB3SLI;
         "default" = _MYKB3SLI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

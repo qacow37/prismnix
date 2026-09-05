@@ -21,6 +21,9 @@ let
         "XMPEw7Lr" = _XMPEw7Lr;
         "gswfsWHw" = _gswfsWHw;
         "forge-1.20.1" = _gswfsWHw;
+        "pkg-0.1-1.20.1" = _AhJXBcWF;
+        "pkg-0.2-1.20.1" = _XMPEw7Lr;
+        "pkg-1.0-1.20.1" = _gswfsWHw;
         "default" = _gswfsWHw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

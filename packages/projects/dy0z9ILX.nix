@@ -21,6 +21,9 @@ let
         "VPlqpVdV" = _VPlqpVdV;
         "sPJkpbB5" = _sPJkpbB5;
         "fabric-1.21.1" = _sPJkpbB5;
+        "pkg-2.2" = _G6D9tk4y;
+        "pkg-3.1" = _VPlqpVdV;
+        "pkg-3.1+Cobblemon-1.7.2" = _sPJkpbB5;
         "default" = _sPJkpbB5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

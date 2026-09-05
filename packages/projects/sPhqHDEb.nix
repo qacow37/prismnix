@@ -28,6 +28,8 @@ let
         "U51u6mx6" = _U51u6mx6;
         "forge-1.19.4" = _6fHfNib0;
         "forge-1.20.1" = _U51u6mx6;
+        "pkg-1.0.0" = _T50cxegL;
+        "pkg-1.0.3" = _U51u6mx6;
         "default" = _U51u6mx6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

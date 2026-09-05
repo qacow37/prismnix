@@ -21,6 +21,8 @@ let
         "forge-1.20.5" = _QqxgslLD;
         "forge-1.20.6" = _QqxgslLD;
         "forge-1.18.2" = _VCTMqOoR;
+        "pkg-0.0.27-Beta" = _QqxgslLD;
+        "pkg-0.0.01-Beta" = _VCTMqOoR;
         "default" = _VCTMqOoR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

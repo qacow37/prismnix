@@ -15,6 +15,7 @@ let
         "to8m0O7M" = _to8m0O7M;
         "isGBZdvS" = _isGBZdvS;
         "minecraft-1.20.1" = _isGBZdvS;
+        "pkg-1.20.1" = _isGBZdvS;
         "default" = _isGBZdvS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

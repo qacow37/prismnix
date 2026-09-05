@@ -12,6 +12,7 @@ let
         "minecraft-1.8.9" = _tDyucwem;
         "minecraft-1.12.2" = _tDyucwem;
         "minecraft-1.20" = _tDyucwem;
+        "pkg-1.0" = _tDyucwem;
         "default" = _tDyucwem;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

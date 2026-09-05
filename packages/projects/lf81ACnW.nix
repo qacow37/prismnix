@@ -10,6 +10,7 @@ let
         "2mwar2Kz" = _2mwar2Kz;
         "minecraft-1.20.1" = _2mwar2Kz;
         "minecraft-1.21.1" = _2mwar2Kz;
+        "pkg-1.0" = _2mwar2Kz;
         "default" = _2mwar2Kz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

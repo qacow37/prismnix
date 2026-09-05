@@ -36,6 +36,9 @@ let
         "vanilla-1.21.6" = _5Eb5nqcV;
         "vanilla-1.21.7" = _5Eb5nqcV;
         "vanilla-1.21.8" = _5Eb5nqcV;
+        "pkg-1.0.0" = _5Eb5nqcV;
+        "pkg-1.0.1" = _mXcU6JlI;
+        "pkg-1.0.2" = _DmGb1JXD;
         "default" = _DmGb1JXD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -100,6 +100,14 @@ let
         "f04yiMTV" = _f04yiMTV;
         "fabric-1.21.1" = _3eDLfp7l;
         "neoforge-1.21.1" = _f04yiMTV;
+        "pkg-0.2.0" = _vNTeCaaz;
+        "pkg-0.3.0" = _JDZS9wRW;
+        "pkg-0.4.0" = _CfwKr4KL;
+        "pkg-0.4.1" = _wnuzdYHm;
+        "pkg-0.4.2" = _gZiO9HMC;
+        "pkg-0.4.3" = _DRI7X33Z;
+        "pkg-0.5.3" = _T8oQsIJ1;
+        "pkg-0.5.4" = _f04yiMTV;
         "default" = _f04yiMTV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

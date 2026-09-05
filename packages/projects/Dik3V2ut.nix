@@ -28,6 +28,8 @@ let
         "Hyri3YEk" = _Hyri3YEk;
         "forge-1.20.1" = _Hyri3YEk;
         "fabric-1.20.1" = _6Kl9shaC;
+        "pkg-1.0.0" = _soGmRMww;
+        "pkg-1.0.2" = _Hyri3YEk;
         "default" = _Hyri3YEk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

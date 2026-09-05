@@ -34,6 +34,8 @@ let
         "vanilla-26.1.1" = _9pDpx7x4;
         "vanilla-26.1.2" = _9pDpx7x4;
         "vanilla-26.2" = _9pDpx7x4;
+        "pkg-1.0A" = _PNVgKHPu;
+        "pkg-1.0B" = _9pDpx7x4;
         "default" = _9pDpx7x4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

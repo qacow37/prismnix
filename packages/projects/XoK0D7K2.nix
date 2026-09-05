@@ -106,6 +106,15 @@ let
         "rgSEL8DL" = _rgSEL8DL;
         "neoforge-1.21.1" = _5CpFvcRC;
         "fabric-1.21.1" = _rgSEL8DL;
+        "pkg-1.0" = _MBPC17OD;
+        "pkg-1.1" = _Aipnqr0H;
+        "pkg-1.2" = _UvhrBVVr;
+        "pkg-1.3" = _ksmxtpcr;
+        "pkg-1.4" = _ho6KoAac;
+        "pkg-1.4.1" = _HAZWpRV7;
+        "pkg-1.4.2" = _tZvFND8E;
+        "pkg-1.5" = _cQ34T2hx;
+        "pkg-1.6" = _rgSEL8DL;
         "default" = _rgSEL8DL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

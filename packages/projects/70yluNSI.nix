@@ -30,6 +30,8 @@ let
         "quilt-1.19.1" = _dhfJy800;
         "quilt-1.19.2" = _dhfJy800;
         "quilt-1.19.3" = _dhfJy800;
+        "pkg-1.0" = _2I2UCWsu;
+        "pkg-1.0+mod" = _dhfJy800;
         "default" = _dhfJy800;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -24,6 +24,8 @@ let
         "minecraft-1.21.9" = _CEXZLAns;
         "minecraft-1.21.10" = _CEXZLAns;
         "minecraft-1.21.11" = _CEXZLAns;
+        "pkg-1.0.0" = _iv5s6DjB;
+        "pkg-1.0.1" = _CEXZLAns;
         "default" = _CEXZLAns;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

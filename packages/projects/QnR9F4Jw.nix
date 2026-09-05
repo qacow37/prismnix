@@ -14,6 +14,7 @@ let
         "fabric-1.20.4" = _RwuEXD10;
         "fabric-1.20.5" = _RwuEXD10;
         "fabric-1.20.6" = _RwuEXD10;
+        "pkg-1.0.0" = _RwuEXD10;
         "default" = _RwuEXD10;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

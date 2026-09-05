@@ -11,6 +11,7 @@ let
         "minecraft-1.18" = _Ta04QtGA;
         "minecraft-1.18.1" = _Ta04QtGA;
         "minecraft-1.18.2" = _Ta04QtGA;
+        "pkg-1.0" = _Ta04QtGA;
         "default" = _Ta04QtGA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

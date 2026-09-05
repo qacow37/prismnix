@@ -33,6 +33,7 @@ let
         "forge-1.20.4" = _uCCrPy1H;
         "forge-1.20.5" = _uCCrPy1H;
         "forge-1.20.6" = _uCCrPy1H;
+        "pkg-1.0.0" = _AtiTYECv;
         "default" = _AtiTYECv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

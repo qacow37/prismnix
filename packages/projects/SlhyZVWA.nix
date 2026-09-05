@@ -119,6 +119,8 @@ let
         "forge-26.1.1" = _oFIfL78C;
         "forge-26.1.2" = _oFIfL78C;
         "forge-26.2" = _oFIfL78C;
+        "pkg-1.0.0" = _48M8Lzkb;
+        "pkg-1.0.1" = _HR2MyIvc;
         "default" = _HR2MyIvc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

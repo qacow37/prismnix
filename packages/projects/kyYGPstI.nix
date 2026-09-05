@@ -39,6 +39,12 @@ let
         "UZnO3VYO" = _UZnO3VYO;
         "nTOWeb48" = _nTOWeb48;
         "forge-1.20.1" = _nTOWeb48;
+        "pkg-1.0.0" = _rQ1QMDvQ;
+        "pkg-1.1.0" = _mpo1w5TF;
+        "pkg-1.1.1" = _srANpWYv;
+        "pkg-1.1.2" = _xaTLHlze;
+        "pkg-1.1.3" = _UZnO3VYO;
+        "pkg-1.1.4" = _nTOWeb48;
         "default" = _nTOWeb48;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

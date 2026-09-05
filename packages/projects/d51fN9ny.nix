@@ -358,6 +358,7 @@ let
         "quilt-1.19.1-pre3" = _DxXiUerV;
         "quilt-1.19.1-pre4" = _DxXiUerV;
         "quilt-1.19.1-pre5" = _DxXiUerV;
+        "pkg-1.1.1" = _DxXiUerV;
         "default" = _DxXiUerV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

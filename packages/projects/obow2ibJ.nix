@@ -15,6 +15,8 @@ let
         "ND3Kh78q" = _ND3Kh78q;
         "yzVyyi23" = _yzVyyi23;
         "forge-1.20.1" = _yzVyyi23;
+        "pkg-1.20.1-1.0.0" = _ND3Kh78q;
+        "pkg-1.20.1-1.0.1" = _yzVyyi23;
         "default" = _yzVyyi23;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

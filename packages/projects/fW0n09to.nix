@@ -9,6 +9,7 @@ let
     in {
         "Aw9iiSOu" = _Aw9iiSOu;
         "fabric-1.19" = _Aw9iiSOu;
+        "pkg-0.1.0" = _Aw9iiSOu;
         "default" = _Aw9iiSOu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "4gkLu4P2" = _4gkLu4P2;
         "fabric-1.20.1" = _4gkLu4P2;
         "forge-1.20.1" = _4gkLu4P2;
+        "pkg-1.0.0" = _ChDIRGS0;
+        "pkg-1.0.6" = _4gkLu4P2;
         "default" = _4gkLu4P2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

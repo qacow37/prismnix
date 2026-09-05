@@ -16,6 +16,7 @@ let
         "Zt2MKZir" = _Zt2MKZir;
         "fabric-1.21.1" = _ZyeX2g9o;
         "neoforge-1.21.1" = _Zt2MKZir;
+        "pkg-1.0.0" = _Zt2MKZir;
         "default" = _Zt2MKZir;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

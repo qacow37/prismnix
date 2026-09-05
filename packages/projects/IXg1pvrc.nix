@@ -21,6 +21,8 @@ let
         "minecraft-1.19.4" = _pSAPIroO;
         "minecraft-1.20.1" = _pSAPIroO;
         "minecraft-1.20.4" = _pSAPIroO;
+        "pkg-2" = _ORXA8VGZ;
+        "pkg-3" = _pSAPIroO;
         "default" = _pSAPIroO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

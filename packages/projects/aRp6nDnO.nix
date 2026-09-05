@@ -14,6 +14,7 @@ let
         "minecraft-1.19.4" = _JX4PLwlC;
         "minecraft-1.20" = _JX4PLwlC;
         "minecraft-1.20.1" = _JX4PLwlC;
+        "pkg-3.0" = _JX4PLwlC;
         "default" = _JX4PLwlC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

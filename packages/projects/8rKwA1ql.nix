@@ -45,6 +45,13 @@ let
         "r0zvOr34" = _r0zvOr34;
         "HGL8NAi8" = _HGL8NAi8;
         "forge-1.20.1" = _HGL8NAi8;
+        "pkg-2.0" = _d19SWKaX;
+        "pkg-3.0.0" = _NSBKxxUV;
+        "pkg-4.0" = _Uzg4dXLS;
+        "pkg-5.0" = _bOVaUe0b;
+        "pkg-6.0" = _7OaNzlQz;
+        "pkg-7" = _r0zvOr34;
+        "pkg-1.0-SNAPSHOT" = _HGL8NAi8;
         "default" = _HGL8NAi8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "LXsrA45L" = _LXsrA45L;
         "fabric-20w14infinite" = _LXsrA45L;
+        "pkg-1.0.0" = _LXsrA45L;
         "default" = _LXsrA45L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

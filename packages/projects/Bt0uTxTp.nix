@@ -182,6 +182,8 @@ let
         "minecraft-1.16.4" = _OPEja3EA;
         "minecraft-1.16.5" = _OPEja3EA;
         "minecraft-1.20.3" = _SDcyVUnY;
+        "pkg-1.1" = _YVSrIFoG;
+        "pkg-2.0" = _OPEja3EA;
         "default" = _OPEja3EA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

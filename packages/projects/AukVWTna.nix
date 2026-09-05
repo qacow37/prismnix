@@ -22,6 +22,8 @@ let
         "purpur-26.1.2" = _UpFk2Nj1;
         "folia-26.1.1" = _UpFk2Nj1;
         "folia-26.1.2" = _UpFk2Nj1;
+        "pkg-1.0.0" = _joni0y59;
+        "pkg-1.0.1" = _UpFk2Nj1;
         "default" = _UpFk2Nj1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

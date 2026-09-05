@@ -100,6 +100,7 @@ let
         "fabric-26.1.1" = _vVFlFork;
         "fabric-26.1.2" = _vVFlFork;
         "fabric-26.2" = _vVFlFork;
+        "pkg-1.0" = _vVFlFork;
         "default" = _vVFlFork;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

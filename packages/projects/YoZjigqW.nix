@@ -10,6 +10,7 @@ let
         "G4bCuC17" = _G4bCuC17;
         "minecraft-1.16.5" = _G4bCuC17;
         "minecraft-1.20.2" = _G4bCuC17;
+        "pkg-1.0.1" = _G4bCuC17;
         "default" = _G4bCuC17;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

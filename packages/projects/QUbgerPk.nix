@@ -128,6 +128,26 @@ let
         "fabric-1.21.1" = _KY7ZmjVf;
         "forge-1.20" = _IYOLF4TR;
         "forge-1.20.1" = _IYOLF4TR;
+        "pkg-neoforge-1.21.1-1.0.0" = _bqWq5nTD;
+        "pkg-fabric-1.20.1-1.0.0" = _t9dCKsAH;
+        "pkg-fabric-1.21.1-1.0.0" = _zhciq7pv;
+        "pkg-forge-1.20.1-1.0.0" = _k2JtTCRa;
+        "pkg-fabric-1.20.1-1.0.1" = _U4R5YV0z;
+        "pkg-fabric-1.21.1-1.0.1" = _DyPSftmn;
+        "pkg-forge-1.20.1-1.0.1" = _r4xCbznv;
+        "pkg-neoforge-1.21.1-1.0.1" = _tQmLaD7B;
+        "pkg-neoforge-1.21.1-1.0.2" = _XQPQOhZY;
+        "pkg-forge-1.20.1-1.0.2" = _k9GIKuef;
+        "pkg-fabric-1.21.1-1.0.2" = _w5LP0aaM;
+        "pkg-fabric-1.20.1-1.0.2" = _qFC3Wfqu;
+        "pkg-forge-1.20.1-1.0.3" = _fSfC5fd8;
+        "pkg-neoforge-1.21.1-1.0.3" = _lQGxNOiC;
+        "pkg-fabric-1.20.1-1.0.3" = _8SmNJRdr;
+        "pkg-fabric-1.21.1-1.0.3" = _7jqKwDDj;
+        "pkg-fabric-1.20.1-1.0.4" = _cYWCaqSJ;
+        "pkg-neoforge-1.21.1-1.0.4" = _KT8lNw7J;
+        "pkg-forge-1.20.1-1.0.4" = _IYOLF4TR;
+        "pkg-fabric-1.21.1-1.0.4" = _KY7ZmjVf;
         "default" = _KY7ZmjVf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

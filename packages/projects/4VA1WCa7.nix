@@ -12,6 +12,7 @@ let
         "iris-1.20.1" = _KGmqj9Oi;
         "optifine-1.20" = _KGmqj9Oi;
         "optifine-1.20.1" = _KGmqj9Oi;
+        "pkg-24.02.20-DE" = _KGmqj9Oi;
         "default" = _KGmqj9Oi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

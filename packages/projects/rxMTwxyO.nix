@@ -132,6 +132,7 @@ let
         "fabric-1.19.2-rc2" = _oTJoSDPx;
         "fabric-1.19.2" = _oTJoSDPx;
         "fabric-1.19.3" = _oTJoSDPx;
+        "pkg-2.3.0" = _oTJoSDPx;
         "default" = _oTJoSDPx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

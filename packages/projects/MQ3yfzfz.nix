@@ -51,6 +51,7 @@ let
         "minecraft-1.21.6" = _AU1kvWFg;
         "minecraft-1.21.7" = _AU1kvWFg;
         "minecraft-1.21.8" = _AU1kvWFg;
+        "pkg-1.0" = _AU1kvWFg;
         "default" = _AU1kvWFg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

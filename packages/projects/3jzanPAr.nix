@@ -173,6 +173,10 @@ let
         "minecraft-24w44a" = _kqUQIeTe;
         "minecraft-24w45a" = _kqUQIeTe;
         "minecraft-24w46a" = _kqUQIeTe;
+        "pkg-v1.0.0" = _BjdWvaKZ;
+        "pkg-v1.0.1" = _btCoJ0o1;
+        "pkg-v1.0.2" = _nESQzDah;
+        "pkg-1.0.2" = _kqUQIeTe;
         "default" = _kqUQIeTe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

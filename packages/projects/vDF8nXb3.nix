@@ -15,6 +15,8 @@ let
         "zDDdIiP7" = _zDDdIiP7;
         "mD7v7XUS" = _mD7v7XUS;
         "forge-1.7.10" = _mD7v7XUS;
+        "pkg-1.0.8" = _zDDdIiP7;
+        "pkg-1.0.9" = _mD7v7XUS;
         "default" = _mD7v7XUS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

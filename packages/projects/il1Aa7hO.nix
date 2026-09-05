@@ -10,6 +10,7 @@ let
         "gbFiZIOB" = _gbFiZIOB;
         "fabric-1.20.1" = _gbFiZIOB;
         "fabric-1.21.1" = _gbFiZIOB;
+        "pkg-1.0.0" = _gbFiZIOB;
         "default" = _gbFiZIOB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

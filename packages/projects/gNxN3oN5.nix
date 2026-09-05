@@ -10,6 +10,7 @@ let
         "IrEnrlmc" = _IrEnrlmc;
         "minecraft-1.20.1" = _IrEnrlmc;
         "minecraft-1.21.1" = _IrEnrlmc;
+        "pkg-0.10" = _IrEnrlmc;
         "default" = _IrEnrlmc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

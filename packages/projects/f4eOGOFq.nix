@@ -9,6 +9,7 @@ let
     in {
         "sDRGWtIb" = _sDRGWtIb;
         "forge-1.16.5" = _sDRGWtIb;
+        "pkg-1.0.0" = _sDRGWtIb;
         "default" = _sDRGWtIb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -74,6 +74,10 @@ let
         "spigot-26.1.1" = _hKBlSslz;
         "spigot-26.1.2" = _hKBlSslz;
         "spigot-26.2" = _hKBlSslz;
+        "pkg-1.0" = _wYQSirhP;
+        "pkg-1.1" = _lucQilqI;
+        "pkg-2.0" = _oAAX4f8g;
+        "pkg-2.1" = _hKBlSslz;
         "default" = _hKBlSslz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

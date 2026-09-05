@@ -15,6 +15,8 @@ let
         "fy45bkqT" = _fy45bkqT;
         "LuvveCaI" = _LuvveCaI;
         "forge-1.12.2" = _LuvveCaI;
+        "pkg-1.3.2" = _fy45bkqT;
+        "pkg-1.4.0" = _LuvveCaI;
         "default" = _LuvveCaI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

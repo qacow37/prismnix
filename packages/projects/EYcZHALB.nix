@@ -15,6 +15,8 @@ let
         "hdH9xMT9" = _hdH9xMT9;
         "FELX2HPY" = _FELX2HPY;
         "forge-1.16.5" = _FELX2HPY;
+        "pkg-1.0.1" = _hdH9xMT9;
+        "pkg-1.0.2" = _FELX2HPY;
         "default" = _FELX2HPY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

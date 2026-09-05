@@ -9,6 +9,7 @@ let
     in {
         "DlvipCn9" = _DlvipCn9;
         "fabric-1.21.1" = _DlvipCn9;
+        "pkg-0.1.0-alpha+mc.1.21.1" = _DlvipCn9;
         "default" = _DlvipCn9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

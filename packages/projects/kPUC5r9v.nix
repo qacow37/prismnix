@@ -39,6 +39,12 @@ let
         "OBJHU4vd" = _OBJHU4vd;
         "JoPtPriv" = _JoPtPriv;
         "forge-1.20.1" = _JoPtPriv;
+        "pkg-1.0.1" = _XOWlfb6K;
+        "pkg-1.2.0" = _TlZI0DE4;
+        "pkg-1.2.1" = _fc8kHLPJ;
+        "pkg-1.3.1" = _rj9L0eYt;
+        "pkg-1.3.2" = _OBJHU4vd;
+        "pkg-1.3.3" = _JoPtPriv;
         "default" = _JoPtPriv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

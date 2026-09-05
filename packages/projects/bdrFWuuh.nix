@@ -10,6 +10,7 @@ let
         "ZUIqD3n8" = _ZUIqD3n8;
         "iris-1.19.4" = _ZUIqD3n8;
         "optifine-1.19.4" = _ZUIqD3n8;
+        "pkg-1.0.0" = _ZUIqD3n8;
         "default" = _ZUIqD3n8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

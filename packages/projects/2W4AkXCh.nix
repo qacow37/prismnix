@@ -15,6 +15,7 @@ let
         "minecraft-1.20.4" = _rAFCVssY;
         "minecraft-1.20.5" = _rAFCVssY;
         "minecraft-1.20.6" = _rAFCVssY;
+        "pkg-1.20.4a" = _rAFCVssY;
         "default" = _rAFCVssY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

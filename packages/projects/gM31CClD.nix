@@ -9,6 +9,7 @@ let
     in {
         "UeKDlCDt" = _UeKDlCDt;
         "forge-1.12.2" = _UeKDlCDt;
+        "pkg-1.0.0" = _UeKDlCDt;
         "default" = _UeKDlCDt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

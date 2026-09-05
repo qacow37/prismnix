@@ -21,6 +21,8 @@ let
         "forge-1.20.5" = _mjC3dryr;
         "forge-1.20.6" = _mjC3dryr;
         "forge-1.20" = _vxlNaKmJ;
+        "pkg-1.0-1.20.1" = _mjC3dryr;
+        "pkg-1.1-1.20.1" = _vxlNaKmJ;
         "default" = _vxlNaKmJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

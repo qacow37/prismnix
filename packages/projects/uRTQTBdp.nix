@@ -28,6 +28,9 @@ let
         "Iavuorkp" = _Iavuorkp;
         "forge-1.18.2" = _c5DRShaP;
         "forge-1.16.5" = _Iavuorkp;
+        "pkg-V1.0.3" = _m4eadQt8;
+        "pkg-V1.0.4" = _rfdzssZd;
+        "pkg-1.1.0" = _Iavuorkp;
         "default" = _Iavuorkp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

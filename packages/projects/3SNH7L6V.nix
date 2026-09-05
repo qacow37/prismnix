@@ -100,6 +100,12 @@ let
         "qOHsMap6" = _qOHsMap6;
         "fabric-1.20.1" = _qOHsMap6;
         "quilt-1.20.1" = _qOHsMap6;
+        "pkg-1.20.1-0.16.9" = _5FAZcT4Q;
+        "pkg-1.20.1-0.16.13" = _aJh9XkWC;
+        "pkg-1.0.0+1.20.1" = _Gvv2fYuD;
+        "pkg-1.0.1+1.20.1" = _cNBHic82;
+        "pkg-1.1.0+1.20.1" = _55hyEh7J;
+        "pkg-1.1.2+1.20.1-C6" = _qOHsMap6;
         "default" = _qOHsMap6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

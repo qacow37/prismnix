@@ -38,6 +38,8 @@ let
         "optifine-1.21.9" = _FENoHvT5;
         "optifine-1.21.10" = _FENoHvT5;
         "optifine-1.21.11" = _FENoHvT5;
+        "pkg-1.0.0" = _bcp06RMd;
+        "pkg-1.0.3" = _FENoHvT5;
         "default" = _FENoHvT5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

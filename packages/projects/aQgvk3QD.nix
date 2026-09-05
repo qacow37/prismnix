@@ -16,6 +16,7 @@ let
         "b1gc1CAp" = _b1gc1CAp;
         "neoforge-1.21.1" = _u2u35NA9;
         "fabric-1.21.1" = _b1gc1CAp;
+        "pkg-1.0.0" = _b1gc1CAp;
         "default" = _b1gc1CAp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

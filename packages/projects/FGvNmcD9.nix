@@ -16,6 +16,8 @@ let
         "FkjloXRC" = _FkjloXRC;
         "forge-1.20.1" = _EZRhiKIY;
         "neoforge-1.21.8" = _FkjloXRC;
+        "pkg-1.0.0" = _EZRhiKIY;
+        "pkg-2.0.0" = _FkjloXRC;
         "default" = _FkjloXRC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

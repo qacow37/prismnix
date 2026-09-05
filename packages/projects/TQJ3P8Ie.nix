@@ -22,6 +22,8 @@ let
         "neoforge-1.21.6" = _7DtaDoDK;
         "neoforge-1.21.7" = _7DtaDoDK;
         "neoforge-1.21.8" = _7DtaDoDK;
+        "pkg-1.2.1" = _8sCwLwBj;
+        "pkg-1.2.2" = _7DtaDoDK;
         "default" = _7DtaDoDK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

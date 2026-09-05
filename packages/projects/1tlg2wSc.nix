@@ -125,6 +125,21 @@ let
         "forge-1.12" = _ApNpZIx7;
         "forge-1.12.1" = _ApNpZIx7;
         "forge-1.12.2" = _sDupyTTo;
+        "pkg-1.0.0-1" = _cskbRbGZ;
+        "pkg-1.0.0-2" = _UIigfHkN;
+        "pkg-1.0.1" = _RgJIAeNq;
+        "pkg-1.0.2" = _gHTAJLE2;
+        "pkg-1.0.3" = _836G7MfO;
+        "pkg-1.0.4" = _Pk0vsURh;
+        "pkg-1.0.5" = _2QDt6vyI;
+        "pkg-1.0.6" = _frS0vo4l;
+        "pkg-1.0.7" = _un6W8otY;
+        "pkg-1.0.8" = _ApNpZIx7;
+        "pkg-1.1.0" = _kybVeDs7;
+        "pkg-1.1.1" = _z7IbhtMh;
+        "pkg-1.2.0" = _kzT2oYwI;
+        "pkg-1.2.1" = _CBuqfsUG;
+        "pkg-1.2.2" = _sDupyTTo;
         "default" = _sDupyTTo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -17,6 +17,7 @@ let
         "minecraft-1.19.3" = _CgGldYr2;
         "minecraft-1.19.4-pre3" = _CgGldYr2;
         "minecraft-1.19.4" = _CgGldYr2;
+        "pkg-1.0" = _CgGldYr2;
         "default" = _CgGldYr2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

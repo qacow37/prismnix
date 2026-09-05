@@ -16,6 +16,8 @@ let
         "6wooChAX" = _6wooChAX;
         "forge-1.16.5" = _k40ML27s;
         "forge-1.18.2" = _6wooChAX;
+        "pkg-1.0.2" = _k40ML27s;
+        "pkg-2.0.0" = _6wooChAX;
         "default" = _6wooChAX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

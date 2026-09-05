@@ -9,6 +9,7 @@ let
     in {
         "oigrT662" = _oigrT662;
         "forge-1.12.2" = _oigrT662;
+        "pkg-1.0" = _oigrT662;
         "default" = _oigrT662;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

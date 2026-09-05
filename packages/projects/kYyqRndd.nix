@@ -18,6 +18,8 @@ let
         "datapack-1.20.1" = _Hirrp4de;
         "forge-1.19.2" = _olllqwev;
         "forge-1.20.1" = _olllqwev;
+        "pkg-1.0" = _Hirrp4de;
+        "pkg-1.0+mod" = _olllqwev;
         "default" = _olllqwev;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

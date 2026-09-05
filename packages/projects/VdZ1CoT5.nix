@@ -28,6 +28,8 @@ let
         "r7I7BrEw" = _r7I7BrEw;
         "forge-1.20.1" = _AnFgA2UR;
         "fabric-1.20.1" = _r7I7BrEw;
+        "pkg-1.0.0" = _HTQCChfT;
+        "pkg-1.0.1" = _r7I7BrEw;
         "default" = _r7I7BrEw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -145,6 +145,15 @@ let
         "bukkit-1.21.4" = _sZ9wtlOy;
         "paper-1.20.1" = _sZ9wtlOy;
         "paper-1.21.4" = _sZ9wtlOy;
+        "pkg-1.0.3" = _2AihRcw9;
+        "pkg-1.0.3.1" = _zvTpyiHP;
+        "pkg-1.0.4" = _ejSj9yA8;
+        "pkg-1.0.4.1" = _bnmqTtgl;
+        "pkg-1.0.4.2" = _4G64ZrOG;
+        "pkg-1.0.4.3" = _BXpVRRPH;
+        "pkg-1.0.4.4" = _TTk8mAPF;
+        "pkg-1.0.4.5" = _4KANj518;
+        "pkg-1.0.4.6" = _sZ9wtlOy;
         "default" = _sZ9wtlOy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

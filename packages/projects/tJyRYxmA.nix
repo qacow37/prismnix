@@ -15,6 +15,8 @@ let
         "VJVA1XR4" = _VJVA1XR4;
         "hhwaYdO6" = _hhwaYdO6;
         "forge-1.7.10" = _hhwaYdO6;
+        "pkg-1.0" = _VJVA1XR4;
+        "pkg-1.0.1" = _hhwaYdO6;
         "default" = _hhwaYdO6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

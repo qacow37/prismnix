@@ -16,6 +16,8 @@ let
         "iRYeDQmw" = _iRYeDQmw;
         "datapack-1.20.1" = _rO3WmrT8;
         "fabric-1.20.1" = _iRYeDQmw;
+        "pkg-1.0" = _rO3WmrT8;
+        "pkg-1.0+mod" = _iRYeDQmw;
         "default" = _iRYeDQmw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

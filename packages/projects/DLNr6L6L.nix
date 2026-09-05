@@ -9,6 +9,7 @@ let
     in {
         "IB5xrFMP" = _IB5xrFMP;
         "forge-1.16.5" = _IB5xrFMP;
+        "pkg-1.0.2" = _IB5xrFMP;
         "default" = _IB5xrFMP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

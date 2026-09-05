@@ -15,6 +15,8 @@ let
         "QYM7DPRZ" = _QYM7DPRZ;
         "iMw5GrPY" = _iMw5GrPY;
         "forge-1.20.1" = _iMw5GrPY;
+        "pkg-1.0.0" = _QYM7DPRZ;
+        "pkg-1.0.1" = _iMw5GrPY;
         "default" = _iMw5GrPY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

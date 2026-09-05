@@ -19,6 +19,8 @@ let
         "fabric-1.19.2" = _acmaG7aW;
         "fabric-1.19.3" = _acmaG7aW;
         "fabric-1.19.4" = _acmaG7aW;
+        "pkg-1.0.0" = _k0KNSJRs;
+        "pkg-1.0.2" = _acmaG7aW;
         "default" = _acmaG7aW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

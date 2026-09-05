@@ -80,6 +80,8 @@ let
         "fabric-1.21.2" = _MNB7PyXW;
         "fabric-1.21.3" = _MNB7PyXW;
         "fabric-1.21.4" = _MNB7PyXW;
+        "pkg-1.0" = _y1Pje19f;
+        "pkg-1.0+mod" = _MNB7PyXW;
         "default" = _MNB7PyXW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "V1Btn867" = _V1Btn867;
         "spUUChp4" = _spUUChp4;
         "neoforge-1.21.1" = _spUUChp4;
+        "pkg-1.0" = _J2uiJp3W;
+        "pkg-1.1" = _V1Btn867;
+        "pkg-1.2" = _spUUChp4;
         "default" = _spUUChp4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

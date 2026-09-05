@@ -27,6 +27,10 @@ let
         "77Lw9E1k" = _77Lw9E1k;
         "DORFs2Sy" = _DORFs2Sy;
         "fabric-b1.7.3" = _DORFs2Sy;
+        "pkg-0.5.0" = _jlsWnKbH;
+        "pkg-0.5.1" = _3F9zOpOG;
+        "pkg-0.5.2" = _77Lw9E1k;
+        "pkg-0.5.3" = _DORFs2Sy;
         "default" = _DORFs2Sy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

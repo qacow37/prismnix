@@ -16,6 +16,7 @@ let
         "NXW83o3j" = _NXW83o3j;
         "fabric-1.21.11" = _Tzyuo8jf;
         "fabric-26.2" = _NXW83o3j;
+        "pkg-1.0.0" = _NXW83o3j;
         "default" = _NXW83o3j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

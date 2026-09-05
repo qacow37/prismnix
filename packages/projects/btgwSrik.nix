@@ -16,6 +16,7 @@ let
         "QF4etxi0" = _QF4etxi0;
         "forge-1.20.1" = _KUeDBipg;
         "forge-1.16.5" = _QF4etxi0;
+        "pkg-1.0.0" = _QF4etxi0;
         "default" = _QF4etxi0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

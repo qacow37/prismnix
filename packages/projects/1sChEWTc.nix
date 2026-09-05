@@ -237,6 +237,7 @@ let
         "aEZRTnO8" = _aEZRTnO8;
         "CNCx11pS" = _CNCx11pS;
         "fabric-1.21.11" = _CNCx11pS;
+        "pkg-1.21.11" = _CNCx11pS;
         "default" = _CNCx11pS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

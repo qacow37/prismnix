@@ -44,6 +44,7 @@ let
         "minecraft-26.1" = _QILpuKcT;
         "minecraft-26.1.1" = _QILpuKcT;
         "minecraft-26.1.2" = _QILpuKcT;
+        "pkg-1.0" = _QILpuKcT;
         "default" = _QILpuKcT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

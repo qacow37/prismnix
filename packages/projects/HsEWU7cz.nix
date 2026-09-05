@@ -28,6 +28,8 @@ let
         "DNPrGS3F" = _DNPrGS3F;
         "fabric-1.20.1" = _DNPrGS3F;
         "forge-1.20.1" = _BDEPSwAv;
+        "pkg-1.0.0" = _OzOsvCLW;
+        "pkg-1.0.1" = _DNPrGS3F;
         "default" = _DNPrGS3F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

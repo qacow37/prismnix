@@ -16,6 +16,8 @@ let
         "Tvk31uHS" = _Tvk31uHS;
         "fabric-1.19.2" = _4iZiMAy6;
         "fabric-1.20.1" = _Tvk31uHS;
+        "pkg-1.0.0" = _4iZiMAy6;
+        "pkg-1.0.0+1.20.1" = _Tvk31uHS;
         "default" = _Tvk31uHS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

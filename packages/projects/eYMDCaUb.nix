@@ -9,6 +9,7 @@ let
     in {
         "XEWsGTTN" = _XEWsGTTN;
         "forge-1.20.1" = _XEWsGTTN;
+        "pkg-1.0" = _XEWsGTTN;
         "default" = _XEWsGTTN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

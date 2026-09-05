@@ -10,6 +10,7 @@ let
         "EEl9M77p" = _EEl9M77p;
         "fabric-1.21.10" = _EEl9M77p;
         "fabric-1.21.11" = _EEl9M77p;
+        "pkg-1.0.0" = _EEl9M77p;
         "default" = _EEl9M77p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

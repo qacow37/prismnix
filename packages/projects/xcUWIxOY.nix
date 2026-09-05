@@ -16,6 +16,7 @@ let
         "MltUjO45" = _MltUjO45;
         "datapack-1.20.1" = _rFGyp9c7;
         "forge-1.20.1" = _MltUjO45;
+        "pkg-1.0.0" = _MltUjO45;
         "default" = _MltUjO45;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

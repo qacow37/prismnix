@@ -9,6 +9,7 @@ let
     in {
         "SPiLNsSv" = _SPiLNsSv;
         "minecraft-1.21.1" = _SPiLNsSv;
+        "pkg-Skyrim" = _SPiLNsSv;
         "default" = _SPiLNsSv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

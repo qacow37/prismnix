@@ -46,6 +46,13 @@ let
         "b6RkBpSm" = _b6RkBpSm;
         "forge-1.12.2" = _NaDTqI13;
         "legacy-fabric-1.12.2" = _b6RkBpSm;
+        "pkg-Alpha-8.1" = _8xIXnFuu;
+        "pkg-Alpha-9" = _NaDTqI13;
+        "pkg-Beta1.0" = _X6y7yxga;
+        "pkg-Beta1.1" = _4CWl9AEw;
+        "pkg-Beta1.2" = _wsjrUfWT;
+        "pkg-Beta2.0" = _24LeQZCV;
+        "pkg-Beta2.1" = _b6RkBpSm;
         "default" = _b6RkBpSm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

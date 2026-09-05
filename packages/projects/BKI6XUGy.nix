@@ -9,6 +9,7 @@ let
     in {
         "taKAI32L" = _taKAI32L;
         "forge-1.20.1" = _taKAI32L;
+        "pkg-1.0.2" = _taKAI32L;
         "default" = _taKAI32L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

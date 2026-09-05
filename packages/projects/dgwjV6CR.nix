@@ -9,6 +9,7 @@ let
     in {
         "G5AFMogZ" = _G5AFMogZ;
         "minecraft-1.8.9" = _G5AFMogZ;
+        "pkg-1.0" = _G5AFMogZ;
         "default" = _G5AFMogZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

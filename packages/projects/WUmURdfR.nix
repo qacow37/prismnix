@@ -15,6 +15,8 @@ let
         "TUNUXIBR" = _TUNUXIBR;
         "X3nkmgF4" = _X3nkmgF4;
         "forge-1.12.2" = _X3nkmgF4;
+        "pkg-1.12.0" = _TUNUXIBR;
+        "pkg-1.12.01" = _X3nkmgF4;
         "default" = _X3nkmgF4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "W11sot8j" = _W11sot8j;
         "paper-1.21.5" = _W11sot8j;
+        "pkg-1.21.5" = _W11sot8j;
         "default" = _W11sot8j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

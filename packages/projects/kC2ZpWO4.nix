@@ -42,6 +42,7 @@ let
         "minecraft-26.1.1" = _CVgFSOOK;
         "minecraft-26.1.2" = _CVgFSOOK;
         "minecraft-26.2" = _CVgFSOOK;
+        "pkg-1.0" = _CVgFSOOK;
         "default" = _CVgFSOOK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

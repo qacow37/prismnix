@@ -15,6 +15,7 @@ let
         "sST8mOtb" = _sST8mOtb;
         "rKZuTWHs" = _rKZuTWHs;
         "fabric-1.20.1" = _rKZuTWHs;
+        "pkg-1.0.0" = _rKZuTWHs;
         "default" = _rKZuTWHs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

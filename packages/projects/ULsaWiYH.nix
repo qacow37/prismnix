@@ -16,6 +16,8 @@ let
         "Shr34UwN" = _Shr34UwN;
         "forge-1.20.1" = _n3KpXNy1;
         "neoforge-1.21.1" = _Shr34UwN;
+        "pkg-1.0" = _n3KpXNy1;
+        "pkg-1.0.0" = _Shr34UwN;
         "default" = _Shr34UwN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

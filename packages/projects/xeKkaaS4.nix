@@ -21,6 +21,9 @@ let
         "rfFs4mr6" = _rfFs4mr6;
         "6P1rF2qs" = _6P1rF2qs;
         "forge-1.12.2" = _6P1rF2qs;
+        "pkg-2.0.8" = _C0NERnvt;
+        "pkg-2.2.0" = _rfFs4mr6;
+        "pkg-2.2.1" = _6P1rF2qs;
         "default" = _6P1rF2qs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

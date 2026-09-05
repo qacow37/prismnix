@@ -27,6 +27,10 @@ let
         "DGTRpys5" = _DGTRpys5;
         "zqHOULay" = _zqHOULay;
         "forge-1.8.9" = _zqHOULay;
+        "pkg-1.0" = _5DK1vzF2;
+        "pkg-1.1" = _vS3HEzfU;
+        "pkg-1.2" = _DGTRpys5;
+        "pkg-1.2.1" = _zqHOULay;
         "default" = _zqHOULay;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

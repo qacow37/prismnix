@@ -30,6 +30,7 @@ let
         "minecraft-25w05a" = _OPrbZ12D;
         "minecraft-25w04a" = _TyKJm29V;
         "minecraft-25w10a" = _TyKJm29V;
+        "pkg-1.21" = _TyKJm29V;
         "default" = _TyKJm29V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

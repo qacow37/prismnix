@@ -396,6 +396,8 @@ let
         "quilt-1.20.4" = _VRkO81Ed;
         "quilt-1.20.5" = _VRkO81Ed;
         "quilt-1.20.6" = _VRkO81Ed;
+        "pkg-0.1" = _q96lFmIo;
+        "pkg-0.1+mod" = _VRkO81Ed;
         "default" = _VRkO81Ed;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

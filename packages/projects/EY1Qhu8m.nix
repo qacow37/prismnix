@@ -16,6 +16,8 @@ let
         "HGpWsot0" = _HGpWsot0;
         "minecraft-1.20.4" = _iGskzINm;
         "minecraft-1.20.6" = _HGpWsot0;
+        "pkg-1" = _iGskzINm;
+        "pkg-2" = _HGpWsot0;
         "default" = _HGpWsot0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

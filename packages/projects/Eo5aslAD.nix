@@ -10,6 +10,7 @@ let
         "utO1A1Ej" = _utO1A1Ej;
         "fabric-1.21.4" = _utO1A1Ej;
         "fabric-1.21.5" = _utO1A1Ej;
+        "pkg-1.0.0" = _utO1A1Ej;
         "default" = _utO1A1Ej;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

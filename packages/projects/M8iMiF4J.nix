@@ -13,6 +13,7 @@ let
         "fabric-1.21.2" = _onYS5k83;
         "fabric-1.21.3" = _onYS5k83;
         "fabric-1.21.4" = _onYS5k83;
+        "pkg-1.0.0" = _onYS5k83;
         "default" = _onYS5k83;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

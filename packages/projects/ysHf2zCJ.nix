@@ -16,6 +16,8 @@ let
         "kpJRpZZ2" = _kpJRpZZ2;
         "fabric-1.20.1" = _kpJRpZZ2;
         "quilt-1.20.1" = _kpJRpZZ2;
+        "pkg-0.5.1-d-build.5+mc1.20.1" = _Z7Vvonpy;
+        "pkg-0.5.1-d-build.1161+mc1.20.1" = _kpJRpZZ2;
         "default" = _kpJRpZZ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

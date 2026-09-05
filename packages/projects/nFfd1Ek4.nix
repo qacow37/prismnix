@@ -21,6 +21,9 @@ let
         "z7yDoj8N" = _z7yDoj8N;
         "kvo7zECp" = _kvo7zECp;
         "fabric-1.21.1" = _kvo7zECp;
+        "pkg-1.0.0" = _qMAfjfvZ;
+        "pkg-1.0.3" = _z7yDoj8N;
+        "pkg-1.0.4" = _kvo7zECp;
         "default" = _kvo7zECp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

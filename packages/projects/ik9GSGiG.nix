@@ -9,6 +9,7 @@ let
     in {
         "KAUtmZri" = _KAUtmZri;
         "forge-1.8.9" = _KAUtmZri;
+        "pkg-1.0.0" = _KAUtmZri;
         "default" = _KAUtmZri;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

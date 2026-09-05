@@ -9,6 +9,7 @@ let
     in {
         "SwJSyDXz" = _SwJSyDXz;
         "forge-1.20.1" = _SwJSyDXz;
+        "pkg-Beta-0.3" = _SwJSyDXz;
         "default" = _SwJSyDXz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

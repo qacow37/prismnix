@@ -12,6 +12,7 @@ let
         "minecraft-1.21.1" = _DdeaOn3M;
         "minecraft-1.21.2" = _DdeaOn3M;
         "minecraft-1.21.3" = _DdeaOn3M;
+        "pkg-1.0" = _DdeaOn3M;
         "default" = _DdeaOn3M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

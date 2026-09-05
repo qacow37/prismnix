@@ -30,6 +30,7 @@ let
         "iris-26.1" = _FW7OGKi2;
         "iris-26.1.1" = _FW7OGKi2;
         "iris-26.1.2" = _FW7OGKi2;
+        "pkg-1.0.0" = _FW7OGKi2;
         "default" = _FW7OGKi2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "HTAl2d0c" = _HTAl2d0c;
         "forge-1.12.2" = _HTAl2d0c;
+        "pkg-2.5" = _HTAl2d0c;
         "default" = _HTAl2d0c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

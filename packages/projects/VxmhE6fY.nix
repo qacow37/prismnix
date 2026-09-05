@@ -98,6 +98,9 @@ let
         "spigot-1.21.8" = _JbST50CY;
         "spigot-1.21.9" = _JbST50CY;
         "spigot-1.21.10" = _JbST50CY;
+        "pkg-1.0" = _QJEoRcM6;
+        "pkg-1.2" = _tPzolFMA;
+        "pkg-1.3" = _JbST50CY;
         "default" = _JbST50CY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -40,6 +40,12 @@ let
         "f4RDisga" = _f4RDisga;
         "forge-1.19.2" = _MDDUw4JS;
         "neoforge-1.21.1" = _f4RDisga;
+        "pkg-1.0.2" = _yZHRhP5I;
+        "pkg-1.19.2-1.2.0-beta" = _GyVu0liE;
+        "pkg-1.19.2-1.2.0" = _z5wFTc9N;
+        "pkg-1.19.2-1.8.2" = _MDDUw4JS;
+        "pkg-1.21.1-2.0.0-beta" = _7KxQrsgp;
+        "pkg-1.21.1-2.0.0-beta2.1" = _f4RDisga;
         "default" = _f4RDisga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

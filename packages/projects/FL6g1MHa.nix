@@ -9,6 +9,7 @@ let
     in {
         "yGAvTVvS" = _yGAvTVvS;
         "fabric-1.20.1" = _yGAvTVvS;
+        "pkg-0.9" = _yGAvTVvS;
         "default" = _yGAvTVvS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "3g2Oa4fi" = _3g2Oa4fi;
         "oimfDzwE" = _oimfDzwE;
         "forge-1.20.1" = _oimfDzwE;
+        "pkg-1.0.2" = _3g2Oa4fi;
+        "pkg-1.0.7" = _oimfDzwE;
         "default" = _oimfDzwE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

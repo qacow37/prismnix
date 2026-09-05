@@ -46,6 +46,11 @@ let
         "UxL7MSLp" = _UxL7MSLp;
         "fabric-1.20.1" = _1fexiNr1;
         "forge-1.20.1" = _UxL7MSLp;
+        "pkg-1.0.0" = _HcKGCatv;
+        "pkg-1.0.1-1.20.1" = _YrAvHcIl;
+        "pkg-1.0.2-1.20.1" = _NmV8mxrw;
+        "pkg-1.0.3-1.20.1" = _2snbF1Ug;
+        "pkg-1.0.4-1.20.1" = _UxL7MSLp;
         "default" = _UxL7MSLp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

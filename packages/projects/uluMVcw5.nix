@@ -50,6 +50,10 @@ let
         "fabric-1.21.9" = _XE25lc50;
         "fabric-1.21.10" = _XE25lc50;
         "fabric-1.21.11" = _XE25lc50;
+        "pkg-mc1.20.1" = _EVVIBc6z;
+        "pkg-mc1.20.2" = _2xYq9fAu;
+        "pkg-mc1.20.3-1.20.4" = _9MbIB7Zb;
+        "pkg-mc1.20.5-1.21.11" = _XE25lc50;
         "default" = _XE25lc50;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

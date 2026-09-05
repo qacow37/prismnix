@@ -9,6 +9,7 @@ let
     in {
         "3mmSzX1A" = _3mmSzX1A;
         "forge-1.19.2" = _3mmSzX1A;
+        "pkg-1.0.0" = _3mmSzX1A;
         "default" = _3mmSzX1A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

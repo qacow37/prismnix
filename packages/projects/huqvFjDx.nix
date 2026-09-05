@@ -15,6 +15,8 @@ let
         "CgPh3iI8" = _CgPh3iI8;
         "W9nL3Fbn" = _W9nL3Fbn;
         "minecraft-1.21.11" = _W9nL3Fbn;
+        "pkg-1.0" = _CgPh3iI8;
+        "pkg-1.1" = _W9nL3Fbn;
         "default" = _W9nL3Fbn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

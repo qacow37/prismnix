@@ -34,6 +34,11 @@ let
         "ZI94Ro0T" = _ZI94Ro0T;
         "forge-1.20.1" = _QIn6wucm;
         "neoforge-1.21.1" = _ZI94Ro0T;
+        "pkg-1.0.0" = _xHaOt26X;
+        "pkg-1.1.0" = _Prfj8NKC;
+        "pkg-1.2.0-beta-6.0" = _tVmpbQhS;
+        "pkg-1.3.0-Create6.0" = _QIn6wucm;
+        "pkg-1.4.0-Create6.0-beta" = _ZI94Ro0T;
         "default" = _ZI94Ro0T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

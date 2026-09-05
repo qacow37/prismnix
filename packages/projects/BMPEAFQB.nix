@@ -28,6 +28,8 @@ let
         "52vVW37B" = _52vVW37B;
         "fabric-1.20.1" = _CVF6vF49;
         "fabric-1.20.2" = _52vVW37B;
+        "pkg-0.1.0" = _Qfa75phP;
+        "pkg-0.2.0" = _52vVW37B;
         "default" = _52vVW37B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

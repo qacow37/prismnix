@@ -15,6 +15,8 @@ let
         "wiZ9xub6" = _wiZ9xub6;
         "2WUvoFEg" = _2WUvoFEg;
         "fabric-1.21.1" = _2WUvoFEg;
+        "pkg-4.0.0" = _wiZ9xub6;
+        "pkg-4.3.0" = _2WUvoFEg;
         "default" = _2WUvoFEg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

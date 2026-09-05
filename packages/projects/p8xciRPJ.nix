@@ -15,6 +15,7 @@ let
         "minecraft-1.20.4" = _DNTrg7iF;
         "minecraft-1.20.5" = _DNTrg7iF;
         "minecraft-1.20.6" = _DNTrg7iF;
+        "pkg-1" = _DNTrg7iF;
         "default" = _DNTrg7iF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

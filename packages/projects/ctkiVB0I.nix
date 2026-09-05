@@ -10,6 +10,7 @@ let
         "aTOGO4ld" = _aTOGO4ld;
         "minecraft-1.21.9" = _aTOGO4ld;
         "minecraft-1.21.10" = _aTOGO4ld;
+        "pkg-v1.0" = _aTOGO4ld;
         "default" = _aTOGO4ld;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

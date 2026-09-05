@@ -15,6 +15,8 @@ let
         "xOOAlkV5" = _xOOAlkV5;
         "EHd3IWWw" = _EHd3IWWw;
         "forge-1.20.1" = _EHd3IWWw;
+        "pkg-1.0.0" = _xOOAlkV5;
+        "pkg-1.0.1" = _EHd3IWWw;
         "default" = _EHd3IWWw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -29,6 +29,7 @@ let
         "fabric-26.1" = _MkaskhET;
         "fabric-26.1.1" = _MkaskhET;
         "fabric-26.1.2" = _MkaskhET;
+        "pkg-1.0.0" = _MkaskhET;
         "default" = _MkaskhET;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

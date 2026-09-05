@@ -156,6 +156,21 @@ let
         "spigot-26.1.1" = _KEEQUL8i;
         "spigot-26.1.2" = _KEEQUL8i;
         "spigot-26.2" = _KEEQUL8i;
+        "pkg-Orbitalstrike-V1.0" = _OTI9kd17;
+        "pkg-Orbitalstrike-V1.1" = _6QVLUfGn;
+        "pkg-Orbitalstrike-V1.2" = _wZiLxHmT;
+        "pkg-Orbitalstrike-V1.2.5" = _9o8cwu7g;
+        "pkg-Orbitalstrike-V1.2.7" = _sKy27yiD;
+        "pkg-Orbitalstrike-V1.3.0" = _IyAimAob;
+        "pkg-Orbitalstrike-V1.3.1" = _ZRCBiXbp;
+        "pkg-Orbitalstrike-V1.4.0" = _L3eVOBcN;
+        "pkg-Orbitalstrike-V1.4.1" = _fGT9Jegt;
+        "pkg-OrbitalStrike-V1.5.0" = _EQpR9UUX;
+        "pkg-OrbitalStrike-V1.5.1" = _yVbeo5Nb;
+        "pkg-OrbitalStrike-V1.6.0" = _WwExQLFk;
+        "pkg-OrbitalStrike-V1.6.1" = _FnZxevMs;
+        "pkg-OrbitalStrike-V1.6.7" = _Jz0RG41U;
+        "pkg-OrbitalStrike-V1.6.8" = _KEEQUL8i;
         "default" = _KEEQUL8i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

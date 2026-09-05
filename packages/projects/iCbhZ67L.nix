@@ -15,6 +15,8 @@ let
         "MDFZvM24" = _MDFZvM24;
         "GmJsE1zR" = _GmJsE1zR;
         "fabric-1.21.8" = _GmJsE1zR;
+        "pkg-1.0.5" = _MDFZvM24;
+        "pkg-1.0.6" = _GmJsE1zR;
         "default" = _GmJsE1zR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

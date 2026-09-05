@@ -28,6 +28,10 @@ let
         "3C7Tisw3" = _3C7Tisw3;
         "datapack-1.18.2" = _M5q1yAKc;
         "forge-1.18.2" = _3C7Tisw3;
+        "pkg-0.01" = _JXLYmNOh;
+        "pkg-0.01+mod" = _uf2V3JQN;
+        "pkg-0.02" = _M5q1yAKc;
+        "pkg-0.02+mod" = _3C7Tisw3;
         "default" = _3C7Tisw3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "vTUNDkmA" = _vTUNDkmA;
         "fabric-1.21.1" = _vTUNDkmA;
+        "pkg-1.0.5" = _vTUNDkmA;
         "default" = _vTUNDkmA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

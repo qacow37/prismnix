@@ -28,6 +28,10 @@ let
         "V44GfuGz" = _V44GfuGz;
         "fabric-1.20.1" = _P0i1fCx3;
         "forge-1.20.1" = _V44GfuGz;
+        "pkg-1.20.1-fabric-1.3.1" = _bYx9qLmf;
+        "pkg-1.20.1-forge-1.3.1" = _Im4enHWL;
+        "pkg-1.20.1-fabric-2.0.1" = _P0i1fCx3;
+        "pkg-1.20.1-forge-2.0.1" = _V44GfuGz;
         "default" = _V44GfuGz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

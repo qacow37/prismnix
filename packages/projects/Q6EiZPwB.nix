@@ -228,6 +228,25 @@ let
         "neoforge-26.1.1" = _hi3LgrjC;
         "neoforge-26.1.2" = _hi3LgrjC;
         "neoforge-26.2" = _8IsQT3lR;
+        "pkg-0.0.1-1.21-.1" = _I6KseQXq;
+        "pkg-0.0.1-1.21.2-.3" = _sGLmvltQ;
+        "pkg-0.0.1-1.20-.1" = _Sp1NNEIF;
+        "pkg-0.0.1-1.20.3-.4" = _AAbAifWr;
+        "pkg-0.0.1-1.20.5-.6" = _lG1oUpwP;
+        "pkg-0.0.1-1.20.6" = _1IvPOKIg;
+        "pkg-0.1.0-1.21.4-.10" = _PnfKMgPp;
+        "pkg-0.1.0-1.21.2-.3" = _DRDfdPyb;
+        "pkg-0.1.0-1.21-.1" = _G9K3S3aG;
+        "pkg-0.1.0-1.20.3-.4" = _dKgfAkOk;
+        "pkg-0.1.0-1.20-.1" = _8QLCZ1Q3;
+        "pkg-0.1.0-1.20.5-.6" = _7QArjint;
+        "pkg-0.1.0-1.20.6" = _WZ2VnGyG;
+        "pkg-0.1.0-1.21.3" = _7UfgZwZy;
+        "pkg-0.1.0-1.21.4-.5" = _RFtk8DuJ;
+        "pkg-0.1.0-1.21.6-.10" = _YlBeBVz1;
+        "pkg-0.1.0-1.21.11" = _wAKjYh32;
+        "pkg-0.1.0-26.1" = _hi3LgrjC;
+        "pkg-0.1.0-26.2" = _8IsQT3lR;
         "default" = _8IsQT3lR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

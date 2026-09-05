@@ -33,6 +33,11 @@ let
         "bX9NXDs4" = _bX9NXDs4;
         "nppJ7S8K" = _nppJ7S8K;
         "fabric-1.21.1" = _nppJ7S8K;
+        "pkg-1.7.1-1.0" = _eBmu2ETB;
+        "pkg-1.7.1-1.0.1" = _KGJAad0F;
+        "pkg-1.7.1-1.1.0" = _fRgzbcwN;
+        "pkg-1.7.1-1.1.1" = _bX9NXDs4;
+        "pkg-1.7.3-1.1.1" = _nppJ7S8K;
         "default" = _nppJ7S8K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

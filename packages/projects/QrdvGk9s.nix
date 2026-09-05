@@ -39,6 +39,10 @@ let
         "VhdmFYX8" = _VhdmFYX8;
         "R7INDaKI" = _R7INDaKI;
         "forge-1.20.1" = _R7INDaKI;
+        "pkg-0.9.97" = _yJHttIOb;
+        "pkg-0.9.98" = _StxbYHU9;
+        "pkg-0.9.99" = _fhK9eCiS;
+        "pkg-1.0.0" = _R7INDaKI;
         "default" = _R7INDaKI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

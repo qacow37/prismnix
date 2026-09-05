@@ -12,6 +12,7 @@ let
         "minecraft-1.21.5-pre2" = _EYf1Rgs4;
         "minecraft-1.21.5-pre3" = _EYf1Rgs4;
         "minecraft-1.21.5" = _EYf1Rgs4;
+        "pkg-1.0.0" = _EYf1Rgs4;
         "default" = _EYf1Rgs4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

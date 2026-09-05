@@ -126,6 +126,8 @@ let
         "optifine-1.21.4" = _j9JJRIVO;
         "optifine-1.21.5" = _j9JJRIVO;
         "optifine-1.21.6" = _j9JJRIVO;
+        "pkg-1.0" = _n6roogky;
+        "pkg-1.1" = _j9JJRIVO;
         "default" = _j9JJRIVO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

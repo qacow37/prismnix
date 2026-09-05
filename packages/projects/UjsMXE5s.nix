@@ -116,6 +116,8 @@ let
         "quilt-26.1.2" = _7vaNPGPY;
         "quilt-26.2-snapshot-7" = _7vaNPGPY;
         "quilt-26.2" = _7vaNPGPY;
+        "pkg-1.0" = _QxZDuvgk;
+        "pkg-1.0+mod" = _7vaNPGPY;
         "default" = _7vaNPGPY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

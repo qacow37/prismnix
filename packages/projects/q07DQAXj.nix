@@ -9,6 +9,7 @@ let
     in {
         "CNaWnCCw" = _CNaWnCCw;
         "minecraft-24w34a" = _CNaWnCCw;
+        "pkg-1.0" = _CNaWnCCw;
         "default" = _CNaWnCCw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

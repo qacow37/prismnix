@@ -10,6 +10,7 @@ let
         "JWlV0VM7" = _JWlV0VM7;
         "minecraft-1.21" = _JWlV0VM7;
         "minecraft-1.21.1" = _JWlV0VM7;
+        "pkg-1.21" = _JWlV0VM7;
         "default" = _JWlV0VM7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

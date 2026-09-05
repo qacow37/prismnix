@@ -53,6 +53,8 @@ let
         "purpur-1.21.3" = _jfbjCUTD;
         "purpur-1.21.4" = _jfbjCUTD;
         "purpur-1.21.5" = _jfbjCUTD;
+        "pkg-v1.0.2" = _UaXm9Awq;
+        "pkg-1.0.3" = _jfbjCUTD;
         "default" = _jfbjCUTD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

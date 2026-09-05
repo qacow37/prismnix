@@ -33,6 +33,7 @@ let
         "minecraft-1.20.6" = _Azu90vRX;
         "minecraft-1.21" = _Azu90vRX;
         "minecraft-1.21.1" = _Azu90vRX;
+        "pkg-1.0" = _Azu90vRX;
         "default" = _Azu90vRX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

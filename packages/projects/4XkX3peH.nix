@@ -16,6 +16,8 @@ let
         "SSQlQPHh" = _SSQlQPHh;
         "fabric-1.21.10" = _fO590nET;
         "fabric-1.21.11" = _SSQlQPHh;
+        "pkg-1.0.0-stable+mc1.21.10" = _fO590nET;
+        "pkg-1.0.0-stable+mc1.21.11" = _SSQlQPHh;
         "default" = _SSQlQPHh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

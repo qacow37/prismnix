@@ -9,6 +9,7 @@ let
     in {
         "NLrIIKSv" = _NLrIIKSv;
         "fabric-1.21.11" = _NLrIIKSv;
+        "pkg-1.1.1" = _NLrIIKSv;
         "default" = _NLrIIKSv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

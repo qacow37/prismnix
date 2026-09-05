@@ -33,6 +33,10 @@ let
         "ErPhQo57" = _ErPhQo57;
         "sE5KVcHA" = _sE5KVcHA;
         "neoforge-1.21.1" = _sE5KVcHA;
+        "pkg-1.21.1-0.4.0" = _zgLGwiPp;
+        "pkg-1.21.1-0.5.0" = _IOUIN6ie;
+        "pkg-1.21.1-0.6.0" = _ErPhQo57;
+        "pkg-1.21.1-1.0.0" = _sE5KVcHA;
         "default" = _sE5KVcHA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

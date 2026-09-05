@@ -10,6 +10,7 @@ let
         "oCB7LMkj" = _oCB7LMkj;
         "fabric-1.20.4" = _oCB7LMkj;
         "quilt-1.20.4" = _oCB7LMkj;
+        "pkg-1.0.0" = _oCB7LMkj;
         "default" = _oCB7LMkj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

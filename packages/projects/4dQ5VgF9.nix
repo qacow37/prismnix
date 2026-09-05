@@ -28,6 +28,10 @@ let
         "u23uORgP" = _u23uORgP;
         "datapack-1.20.1" = _Y5Gv7Apl;
         "forge-1.20.1" = _u23uORgP;
+        "pkg-1.0" = _OgvHM7bm;
+        "pkg-1.0+mod" = _l04vBqFE;
+        "pkg-1.1" = _Y5Gv7Apl;
+        "pkg-1.1+mod" = _u23uORgP;
         "default" = _u23uORgP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

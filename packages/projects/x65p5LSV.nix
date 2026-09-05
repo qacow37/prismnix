@@ -16,6 +16,8 @@ let
         "enSlRz6T" = _enSlRz6T;
         "fabric-b1.7.3" = _enSlRz6T;
         "babric-b1.7.3" = _enSlRz6T;
+        "pkg-0.1.0" = _D4dWBcMH;
+        "pkg-0.1.1" = _enSlRz6T;
         "default" = _enSlRz6T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

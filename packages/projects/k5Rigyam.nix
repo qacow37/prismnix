@@ -182,6 +182,9 @@ let
         "purpur-26.1" = _rEEc548i;
         "purpur-26.1.1" = _rEEc548i;
         "purpur-26.1.2" = _rEEc548i;
+        "pkg-1.0" = _INPzhcMB;
+        "pkg-2.0" = _OpQ8iZWY;
+        "pkg-2.1" = _rEEc548i;
         "default" = _rEEc548i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

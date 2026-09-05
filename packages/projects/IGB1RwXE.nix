@@ -184,6 +184,8 @@ let
         "nzoSOmTW" = _nzoSOmTW;
         "forge-1.20.1" = _zyHro3va;
         "forge-1.19.2" = _nzoSOmTW;
+        "pkg-1.1.1.1.1.1.1.1" = _zyHro3va;
+        "pkg-0.0.0.0.0.0.0.0" = _nzoSOmTW;
         "default" = _nzoSOmTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

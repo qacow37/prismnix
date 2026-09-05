@@ -15,6 +15,8 @@ let
         "CVNdiG5b" = _CVNdiG5b;
         "8ch54E0J" = _8ch54E0J;
         "fabric-b1.7.3" = _8ch54E0J;
+        "pkg-1.0.0" = _CVNdiG5b;
+        "pkg-1.0.1" = _8ch54E0J;
         "default" = _8ch54E0J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

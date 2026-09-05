@@ -9,6 +9,7 @@ let
     in {
         "9HDdFrsw" = _9HDdFrsw;
         "neoforge-1.21.1" = _9HDdFrsw;
+        "pkg-1.0.0" = _9HDdFrsw;
         "default" = _9HDdFrsw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

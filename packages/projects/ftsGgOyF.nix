@@ -15,6 +15,8 @@ let
         "SFLdhRX2" = _SFLdhRX2;
         "dJdcykJW" = _dJdcykJW;
         "forge-1.16.5" = _dJdcykJW;
+        "pkg-1.0.0" = _SFLdhRX2;
+        "pkg-1.16.5-2.0.0" = _dJdcykJW;
         "default" = _dJdcykJW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,7 @@ let
         "39tudDVC" = _39tudDVC;
         "forge-1.16.5" = _JXp6puI2;
         "forge-1.18.2" = _39tudDVC;
+        "pkg-1.0.0" = _39tudDVC;
         "default" = _39tudDVC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

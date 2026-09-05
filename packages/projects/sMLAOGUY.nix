@@ -12,6 +12,7 @@ let
         "fabric-1.20.1" = _vhE3gbyg;
         "quilt-1.20" = _vhE3gbyg;
         "quilt-1.20.1" = _vhE3gbyg;
+        "pkg-2.1.0" = _vhE3gbyg;
         "default" = _vhE3gbyg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

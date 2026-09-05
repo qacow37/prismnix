@@ -31,6 +31,7 @@ let
         "minecraft-1.21.8" = _LiWzbcat;
         "minecraft-1.21.9" = _LiWzbcat;
         "minecraft-1.21.10" = _LiWzbcat;
+        "pkg-Torrezx-Devil_trident" = _LiWzbcat;
         "default" = _LiWzbcat;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

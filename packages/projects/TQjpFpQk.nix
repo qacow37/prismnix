@@ -51,6 +51,14 @@ let
         "38oH3mdj" = _38oH3mdj;
         "BifpDfjs" = _BifpDfjs;
         "neoforge-1.21.1" = _BifpDfjs;
+        "pkg-1.0.0" = _90OTtSqf;
+        "pkg-1.0.1" = _H8pU7dxn;
+        "pkg-1.0.2" = _Dfq8s6eu;
+        "pkg-1.0.3" = _UEudOUdw;
+        "pkg-1.0.4" = _mq66LhFk;
+        "pkg-1.0.5" = _lmcxSig7;
+        "pkg-1.0.6" = _38oH3mdj;
+        "pkg-1.0.7" = _BifpDfjs;
         "default" = _BifpDfjs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

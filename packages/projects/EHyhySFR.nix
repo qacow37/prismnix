@@ -9,6 +9,7 @@ let
     in {
         "QNggleEx" = _QNggleEx;
         "forge-1.7.10" = _QNggleEx;
+        "pkg-6.3.0" = _QNggleEx;
         "default" = _QNggleEx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

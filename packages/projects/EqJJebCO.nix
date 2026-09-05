@@ -174,6 +174,8 @@ let
         "minecraft-1.16" = _AFCuHIEw;
         "minecraft-1.16.1" = _AFCuHIEw;
         "minecraft-1.14.4" = _GCTvLYY1;
+        "pkg-v1.0.0" = _P7dVdgRL;
+        "pkg-v1.1.0" = _GCTvLYY1;
         "default" = _GCTvLYY1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

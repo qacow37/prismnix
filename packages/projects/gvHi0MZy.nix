@@ -41,6 +41,7 @@ let
         "minecraft-26.1" = _NaJPxTye;
         "minecraft-26.1.1" = _NaJPxTye;
         "minecraft-26.1.2" = _NaJPxTye;
+        "pkg-1.0.1" = _NaJPxTye;
         "default" = _NaJPxTye;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "csBI3UfO" = _csBI3UfO;
         "minecraft-1.20" = _csBI3UfO;
         "minecraft-1.20.1" = _csBI3UfO;
+        "pkg-1" = _csBI3UfO;
         "default" = _csBI3UfO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

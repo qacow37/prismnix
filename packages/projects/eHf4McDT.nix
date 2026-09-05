@@ -16,6 +16,8 @@ let
         "ctwvneM0" = _ctwvneM0;
         "neoforge-1.21.4" = _5YLv7BxZ;
         "neoforge-1.21.1" = _ctwvneM0;
+        "pkg-1.1.0" = _5YLv7BxZ;
+        "pkg-1.0.0" = _ctwvneM0;
         "default" = _ctwvneM0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

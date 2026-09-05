@@ -11,6 +11,7 @@ let
         "fabric-26.1" = _wNyOTySE;
         "fabric-26.1.1" = _wNyOTySE;
         "fabric-26.1.2" = _wNyOTySE;
+        "pkg-0.4.0" = _wNyOTySE;
         "default" = _wNyOTySE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

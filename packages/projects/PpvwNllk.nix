@@ -10,6 +10,7 @@ let
         "ocv3SPVu" = _ocv3SPVu;
         "fabric-1.20.1" = _ocv3SPVu;
         "fabric-1.20.4" = _ocv3SPVu;
+        "pkg-1.0.0" = _ocv3SPVu;
         "default" = _ocv3SPVu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

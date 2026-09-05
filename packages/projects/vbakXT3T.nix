@@ -11,6 +11,7 @@ let
         "forge-1.19.2" = _Ce2qLeXN;
         "forge-1.19.3" = _Ce2qLeXN;
         "forge-1.19.4" = _Ce2qLeXN;
+        "pkg-0.1+mc1.19.2" = _Ce2qLeXN;
         "default" = _Ce2qLeXN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

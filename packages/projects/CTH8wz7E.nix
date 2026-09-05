@@ -9,6 +9,7 @@ let
     in {
         "DBSXLeO0" = _DBSXLeO0;
         "forge-1.20.1" = _DBSXLeO0;
+        "pkg-1.0.0" = _DBSXLeO0;
         "default" = _DBSXLeO0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

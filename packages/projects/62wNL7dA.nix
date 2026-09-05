@@ -10,6 +10,7 @@ let
         "EnzvvERo" = _EnzvvERo;
         "fabric-1.20.1" = _EnzvvERo;
         "quilt-1.20.1" = _EnzvvERo;
+        "pkg-1.0.0" = _EnzvvERo;
         "default" = _EnzvvERo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

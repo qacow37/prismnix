@@ -38,6 +38,7 @@ let
         "quilt-1.20.4" = _RUbRI3w4;
         "quilt-1.20.5" = _RUbRI3w4;
         "quilt-1.20.6" = _RUbRI3w4;
+        "pkg-1.0.0" = _RUbRI3w4;
         "default" = _RUbRI3w4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

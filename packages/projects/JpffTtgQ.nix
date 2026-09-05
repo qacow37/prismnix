@@ -27,6 +27,10 @@ let
         "nkHZ8muA" = _nkHZ8muA;
         "E72Zub2p" = _E72Zub2p;
         "paper-1.21.4" = _E72Zub2p;
+        "pkg-V1" = _wWZC9jzQ;
+        "pkg-V2" = _3b6jQTFY;
+        "pkg-V3" = _nkHZ8muA;
+        "pkg-V4" = _E72Zub2p;
         "default" = _E72Zub2p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

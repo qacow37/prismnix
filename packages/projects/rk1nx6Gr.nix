@@ -18,6 +18,7 @@ let
         "minecraft-1.19" = _WqlAJuos;
         "minecraft-1.19.1" = _WqlAJuos;
         "minecraft-1.19.2" = _WqlAJuos;
+        "pkg-1.0.1" = _WqlAJuos;
         "default" = _WqlAJuos;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

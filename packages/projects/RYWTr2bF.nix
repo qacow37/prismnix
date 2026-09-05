@@ -15,6 +15,8 @@ let
         "vpwOwDFE" = _vpwOwDFE;
         "3CttdEem" = _3CttdEem;
         "forge-1.20.1" = _3CttdEem;
+        "pkg-0.4.5" = _vpwOwDFE;
+        "pkg-0.5.0" = _3CttdEem;
         "default" = _3CttdEem;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

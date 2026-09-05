@@ -146,6 +146,27 @@ let
         "fabric-1.18.2" = _lBgf2rLA;
         "fabric-1.20" = _Idqsht4M;
         "fabric-1.20.1" = _2G8EC3wn;
+        "pkg-0.6.0-pre-1.19.3" = _j5bLYGn1;
+        "pkg-0.6.0-1.19.4" = _6EAX2dW2;
+        "pkg-0.6.1-1.19.4" = _4kLjoxrd;
+        "pkg-pre-1.0.0-1.19.4" = _JoQRXub4;
+        "pkg-1.0.0-1.19.4" = _9S37EMm7;
+        "pkg-1.0.1-1.19.4" = _rSTYMter;
+        "pkg-1.0.2-1.19.4" = _1QXjXxcY;
+        "pkg-1.0.3-1.19.4" = _obqo8DpG;
+        "pkg-1.0.3-1.19.2" = _q8GSEn4l;
+        "pkg-1.0.3-1.18.2" = _lBgf2rLA;
+        "pkg-1.0.4-1.19.4" = _IIK3FeI3;
+        "pkg-1.0.5-1.19.4" = _XmJ1UN5V;
+        "pkg-1.0.6-1.19.4" = _Y4wu9ii2;
+        "pkg-1.0.7-1.19.4" = _6rUCWVwM;
+        "pkg-1.0.7-1.20" = _Idqsht4M;
+        "pkg-1.0.7-1.20.1" = _mUFrUSo4;
+        "pkg-1.0.6-1.19.2" = _3yC5DDxV;
+        "pkg-1.1.0-1.20.1" = _VG9cRFjB;
+        "pkg-1.1.1-1.20.1" = _5RnKURne;
+        "pkg-1.2.0-1.20.1" = _rmtDCoHL;
+        "pkg-1.2.1-1.20.1" = _2G8EC3wn;
         "default" = _2G8EC3wn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

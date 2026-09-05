@@ -15,6 +15,8 @@ let
         "gC1ZKDW1" = _gC1ZKDW1;
         "WMykNQF1" = _WMykNQF1;
         "forge-1.12.2" = _WMykNQF1;
+        "pkg-1.0" = _gC1ZKDW1;
+        "pkg-1.0.1" = _WMykNQF1;
         "default" = _WMykNQF1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -71,6 +71,7 @@ let
         "minecraft-26.1" = _N7HOAO7o;
         "minecraft-26.1.1" = _N7HOAO7o;
         "minecraft-26.1.2" = _N7HOAO7o;
+        "pkg-Medieval_Style_Lootr_1.4" = _N7HOAO7o;
         "default" = _N7HOAO7o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

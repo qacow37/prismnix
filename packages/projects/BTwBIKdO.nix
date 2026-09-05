@@ -36,6 +36,7 @@ let
         "minecraft-1.8.6" = _BYI353PO;
         "minecraft-1.8.7" = _BYI353PO;
         "minecraft-1.8.8" = _BYI353PO;
+        "pkg-1.0" = _BYI353PO;
         "default" = _BYI353PO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

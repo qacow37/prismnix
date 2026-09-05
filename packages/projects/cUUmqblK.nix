@@ -65,6 +65,7 @@ let
         "minecraft-1.21.6" = _E5TLCeop;
         "minecraft-1.21.7" = _E5TLCeop;
         "minecraft-1.21.8" = _E5TLCeop;
+        "pkg-1" = _E5TLCeop;
         "default" = _E5TLCeop;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "o5hRIuLv" = _o5hRIuLv;
         "sfHLSuMR" = _sfHLSuMR;
         "forge-1.12.2" = _sfHLSuMR;
+        "pkg-1.6.1" = _o5hRIuLv;
+        "pkg-1.6.2" = _sfHLSuMR;
         "default" = _sfHLSuMR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

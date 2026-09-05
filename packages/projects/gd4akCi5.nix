@@ -30,6 +30,8 @@ let
         "minecraft-1.21" = _EA9WwrfS;
         "minecraft-1.19" = _EA9WwrfS;
         "minecraft-1.20" = _EA9WwrfS;
+        "pkg-1.0.0" = _mrSmoab8;
+        "pkg-1.0.1" = _EA9WwrfS;
         "default" = _EA9WwrfS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

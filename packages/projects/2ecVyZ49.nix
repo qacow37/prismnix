@@ -602,6 +602,24 @@ let
         "ornithe-26.3-snapshot-5" = _kL32PN9Q;
         "ornithe-26.3-snapshot-6" = _kL32PN9Q;
         "ornithe-26.3-snapshot-7" = _kL32PN9Q;
+        "pkg-1.0.0+fabric" = _T0Bym3Zk;
+        "pkg-1.0.0+forge-1.14.4" = _FsjKfArq;
+        "pkg-1.0.0+forge-1.17" = _6upT4ffn;
+        "pkg-1.1.0+forge-1.14.4" = _Ww07ze0G;
+        "pkg-1.1.0+forge-1.17" = _ZR63N1i2;
+        "pkg-1.1.0+fabric" = _uEeD9JQx;
+        "pkg-1.2.0" = _H2bW83qs;
+        "pkg-1.2.1" = _zSxDAzI4;
+        "pkg-1.2.2" = _Y33CP7Sd;
+        "pkg-1.3.0" = _ZQJ73k0i;
+        "pkg-1.3.1" = _nWX5THWU;
+        "pkg-1.3.2" = _QFfBwOwT;
+        "pkg-1.3.3" = _ueN87SNs;
+        "pkg-1.3.4" = _vCQj9Ui7;
+        "pkg-1.4.0" = _6aer3LSH;
+        "pkg-1.4.1" = _k93bKbV6;
+        "pkg-1.4.2" = _QvvPS7ny;
+        "pkg-1.4.3" = _kL32PN9Q;
         "default" = _kL32PN9Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

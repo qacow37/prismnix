@@ -21,6 +21,9 @@ let
         "aM0dosZN" = _aM0dosZN;
         "NM13LmMK" = _NM13LmMK;
         "fabric-1.20.2" = _NM13LmMK;
+        "pkg-1.0.0" = _SYYPq32f;
+        "pkg-1.1.0" = _aM0dosZN;
+        "pkg-1.1.1" = _NM13LmMK;
         "default" = _NM13LmMK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

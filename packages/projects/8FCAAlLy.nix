@@ -26,6 +26,8 @@ let
         "iris-1.21.9" = _cymcnMu9;
         "iris-1.21.10" = _cymcnMu9;
         "iris-1.21.11" = _cymcnMu9;
+        "pkg-0.1" = _3AGJb1Fu;
+        "pkg-0.11" = _cymcnMu9;
         "default" = _cymcnMu9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

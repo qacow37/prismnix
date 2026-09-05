@@ -39,6 +39,12 @@ let
         "BJFylaCD" = _BJFylaCD;
         "H7naCmM4" = _H7naCmM4;
         "forge-1.20.1" = _H7naCmM4;
+        "pkg-0.1" = _UcfYvctR;
+        "pkg-0.2" = _yvkmwebP;
+        "pkg-0.2.1" = _TJilz4HQ;
+        "pkg-0.3" = _G0KwQrRQ;
+        "pkg-0.3.1" = _BJFylaCD;
+        "pkg-0.4" = _H7naCmM4;
         "default" = _H7naCmM4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

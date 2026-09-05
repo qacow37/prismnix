@@ -45,6 +45,13 @@ let
         "EGyg2CU9" = _EGyg2CU9;
         "jzvMo76J" = _jzvMo76J;
         "fabric-1.20.1" = _jzvMo76J;
+        "pkg-0.4.1" = _kr0levQN;
+        "pkg-0.4.2" = _VVQdKYQZ;
+        "pkg-0.4.3" = _wYjJfn40;
+        "pkg-0.12.1" = _KPQSJUjb;
+        "pkg-0.12.2" = _B1tZUuaG;
+        "pkg-0.14.1" = _EGyg2CU9;
+        "pkg-0.14.4" = _jzvMo76J;
         "default" = _jzvMo76J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

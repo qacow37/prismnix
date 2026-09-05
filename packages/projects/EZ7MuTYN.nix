@@ -9,6 +9,7 @@ let
     in {
         "GAwZMGly" = _GAwZMGly;
         "neoforge-1.21.1" = _GAwZMGly;
+        "pkg-1.21.1-1.0.0" = _GAwZMGly;
         "default" = _GAwZMGly;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -46,6 +46,8 @@ let
         "minecraft-1.20.4" = _uV90VTJy;
         "minecraft-1.20.5" = _uV90VTJy;
         "minecraft-1.20.6" = _uV90VTJy;
+        "pkg-1.21.x" = _AmpOWttO;
+        "pkg-retro" = _uV90VTJy;
         "default" = _uV90VTJy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

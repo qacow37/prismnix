@@ -15,6 +15,8 @@ let
         "JVP1DyRb" = _JVP1DyRb;
         "lQK1wA6N" = _lQK1wA6N;
         "quilt-1.19.2" = _lQK1wA6N;
+        "pkg-1.0.0+1.19" = _JVP1DyRb;
+        "pkg-1.0.1" = _lQK1wA6N;
         "default" = _lQK1wA6N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -10,6 +10,7 @@ let
         "sztYnoYT" = _sztYnoYT;
         "datapack-1.21.1" = _sztYnoYT;
         "minecraft-1.21.1" = _sztYnoYT;
+        "pkg-V1" = _sztYnoYT;
         "default" = _sztYnoYT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

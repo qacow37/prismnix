@@ -28,6 +28,8 @@ let
         "cnnSNPCP" = _cnnSNPCP;
         "fabric-1.21.1" = _gwCGjEUT;
         "neoforge-1.21.1" = _cnnSNPCP;
+        "pkg-1.0.0" = _7h1InSxe;
+        "pkg-1.1.0" = _cnnSNPCP;
         "default" = _cnnSNPCP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

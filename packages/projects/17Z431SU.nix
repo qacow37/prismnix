@@ -9,6 +9,7 @@ let
     in {
         "LB1WeEfv" = _LB1WeEfv;
         "minecraft-1.21.1" = _LB1WeEfv;
+        "pkg-1.0" = _LB1WeEfv;
         "default" = _LB1WeEfv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

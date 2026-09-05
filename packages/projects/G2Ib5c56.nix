@@ -9,6 +9,7 @@ let
     in {
         "TpqaM4ju" = _TpqaM4ju;
         "fabric-1.20.4" = _TpqaM4ju;
+        "pkg-1.0.0+1.20.4" = _TpqaM4ju;
         "default" = _TpqaM4ju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -138,6 +138,7 @@ let
         "optifine-26.1.1" = _RfQ5WCMO;
         "optifine-26.1.2" = _RfQ5WCMO;
         "optifine-26.2" = _RfQ5WCMO;
+        "pkg-0.0.1" = _RfQ5WCMO;
         "default" = _RfQ5WCMO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

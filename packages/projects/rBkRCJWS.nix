@@ -15,6 +15,7 @@ let
         "oEBU9MVS" = _oEBU9MVS;
         "rlfSXEKt" = _rlfSXEKt;
         "forge-1.20.1" = _rlfSXEKt;
+        "pkg-1.20.1" = _rlfSXEKt;
         "default" = _rlfSXEKt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

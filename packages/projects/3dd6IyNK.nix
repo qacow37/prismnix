@@ -31,6 +31,8 @@ let
         "forge-1.21.1" = _PBTdyKFW;
         "neoforge-1.21.1" = _PBTdyKFW;
         "quilt-1.21.1" = _PBTdyKFW;
+        "pkg-1.0" = _MABxtCTR;
+        "pkg-1.1" = _PBTdyKFW;
         "default" = _PBTdyKFW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "ImdL3BIk" = _ImdL3BIk;
         "fabric-1.20.1" = _ImdL3BIk;
+        "pkg-1.0.0" = _ImdL3BIk;
         "default" = _ImdL3BIk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

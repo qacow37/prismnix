@@ -16,6 +16,8 @@ let
         "bc1FtaLf" = _bc1FtaLf;
         "minecraft-1.8" = _bc1FtaLf;
         "minecraft-1.8.9" = _bc1FtaLf;
+        "pkg-1" = _hBbHPLop;
+        "pkg-1.5" = _bc1FtaLf;
         "default" = _bc1FtaLf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

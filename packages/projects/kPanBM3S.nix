@@ -34,6 +34,11 @@ let
         "sX2cAp7Y" = _sX2cAp7Y;
         "fabric-1.20.1" = _sX2cAp7Y;
         "quilt-1.20.1" = _sX2cAp7Y;
+        "pkg-1.0.0" = _d7W54pHU;
+        "pkg-1.20.1-1.0.1" = _EhgebnpH;
+        "pkg-1.20.1-1.0.2" = _jmvckG6B;
+        "pkg-1.20.1-1.0.4" = _89peskRz;
+        "pkg-1.20.1-1.0.5" = _sX2cAp7Y;
         "default" = _sX2cAp7Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

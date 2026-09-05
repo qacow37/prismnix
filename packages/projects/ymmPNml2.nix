@@ -21,6 +21,9 @@ let
         "LhZet46c" = _LhZet46c;
         "n5bF6dkv" = _n5bF6dkv;
         "neoforge-1.21.1" = _n5bF6dkv;
+        "pkg-1.0" = _E6oGzzSK;
+        "pkg-1.1" = _LhZet46c;
+        "pkg-1.2" = _n5bF6dkv;
         "default" = _n5bF6dkv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

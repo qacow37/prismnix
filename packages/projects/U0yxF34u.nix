@@ -10,6 +10,7 @@ let
         "eUL9mvOm" = _eUL9mvOm;
         "datapack-1.21.1" = _eUL9mvOm;
         "minecraft-1.21.1" = _eUL9mvOm;
+        "pkg-1.0.0" = _eUL9mvOm;
         "default" = _eUL9mvOm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

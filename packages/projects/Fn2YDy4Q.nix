@@ -22,6 +22,9 @@ let
         "fENE46HV" = _fENE46HV;
         "minecraft-1.20" = _fENE46HV;
         "minecraft-1.20.1" = _fENE46HV;
+        "pkg-V1.0" = _IsZeRSFC;
+        "pkg-V1.1" = _R2BIsWGN;
+        "pkg-V1.2" = _fENE46HV;
         "default" = _fENE46HV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

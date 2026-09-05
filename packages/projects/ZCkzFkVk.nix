@@ -70,6 +70,13 @@ let
         "PiPJ37UX" = _PiPJ37UX;
         "fabric-1.21.11" = _PiPJ37UX;
         "fabric-1.20.6" = _6m6vgmAk;
+        "pkg-2.4.6-b-vulkanmod" = _hqz9x6AG;
+        "pkg-2.4.6+vm.2" = _KAq0VpVc;
+        "pkg-2.4.6+vm.3" = _9fe8JKBe;
+        "pkg-2.4.0-2.4.6+vm.4" = _dBBtyco9;
+        "pkg-2.4.0-2.4.6+vm.5" = _EBhozFsZ;
+        "pkg-2.4.0-3.0.0+vm.1" = _E1oufiLp;
+        "pkg-2.4.0-3.0.0+vm.2" = _PiPJ37UX;
         "default" = _PiPJ37UX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

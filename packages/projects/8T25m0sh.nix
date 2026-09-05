@@ -40,6 +40,7 @@ let
         "minecraft-1.20.2" = _Mi7vmMch;
         "minecraft-1.20.3" = _Mi7vmMch;
         "minecraft-1.20.4" = _Mi7vmMch;
+        "pkg-1" = _Mi7vmMch;
         "default" = _Mi7vmMch;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

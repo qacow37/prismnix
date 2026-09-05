@@ -28,6 +28,10 @@ let
         "NF6sl31r" = _NF6sl31r;
         "fabric-1.21.1" = _HBZWKFur;
         "fabric-1.20.1" = _NF6sl31r;
+        "pkg-1.0.0" = _wWlkR6Zv;
+        "pkg-1.1.0-1.20.1" = _jzH6cIv7;
+        "pkg-1.1.0" = _HBZWKFur;
+        "pkg-1.1.1-1.20.1" = _NF6sl31r;
         "default" = _NF6sl31r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

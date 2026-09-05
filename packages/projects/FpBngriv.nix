@@ -16,6 +16,7 @@ let
         "luqQClWi" = _luqQClWi;
         "forge-1.20.1" = _COwo1H6k;
         "neoforge-1.20.4" = _luqQClWi;
+        "pkg-1.0" = _luqQClWi;
         "default" = _luqQClWi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

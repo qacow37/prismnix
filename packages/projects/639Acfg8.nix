@@ -45,6 +45,13 @@ let
         "DHD1nm80" = _DHD1nm80;
         "ORCoBub8" = _ORCoBub8;
         "forge-1.20.1" = _ORCoBub8;
+        "pkg-1.0.0" = _tcVV3EC6;
+        "pkg-1.0.1" = _U0rDukjy;
+        "pkg-1.0.2" = _PcWAHOrY;
+        "pkg-1.0.3" = _7U5faoP5;
+        "pkg-1.0.3-fix1" = _wHIpo03C;
+        "pkg-1.0.4" = _DHD1nm80;
+        "pkg-1.0.5" = _ORCoBub8;
         "default" = _ORCoBub8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

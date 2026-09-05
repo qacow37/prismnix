@@ -33,6 +33,7 @@ let
         "datapack-1.20" = _3jrXykSS;
         "datapack-1.20.1" = _3jrXykSS;
         "datapack-1.20.2" = _3jrXykSS;
+        "pkg-0.0.1" = _3jrXykSS;
         "default" = _3jrXykSS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

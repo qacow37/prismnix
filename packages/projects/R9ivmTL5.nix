@@ -15,6 +15,8 @@ let
         "VbSeWOPc" = _VbSeWOPc;
         "sxU5HfyV" = _sxU5HfyV;
         "fabric-1.20.1" = _sxU5HfyV;
+        "pkg-1.0.0" = _VbSeWOPc;
+        "pkg-1.0.1" = _sxU5HfyV;
         "default" = _sxU5HfyV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

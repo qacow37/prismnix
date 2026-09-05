@@ -28,6 +28,10 @@ let
         "213IPd8u" = _213IPd8u;
         "fabric-1.20.1" = _213IPd8u;
         "fabric-1.20.2" = _T5cynego;
+        "pkg-1.0.1-1.20.1" = _Xp6avKjw;
+        "pkg-1.0.1-1.20.2" = _QZeV8mtH;
+        "pkg-1.0.2-1.20.2" = _T5cynego;
+        "pkg-1.0.2-1.20.1" = _213IPd8u;
         "default" = _213IPd8u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

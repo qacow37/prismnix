@@ -21,6 +21,9 @@ let
         "Fo3W68PV" = _Fo3W68PV;
         "NTKir5UI" = _NTKir5UI;
         "fabric-1.21.11" = _NTKir5UI;
+        "pkg-1.0.0" = _FeyVV3hK;
+        "pkg-1.1.2" = _Fo3W68PV;
+        "pkg-1.1.3" = _NTKir5UI;
         "default" = _NTKir5UI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -21,6 +21,9 @@ let
         "ZyjUtxbw" = _ZyjUtxbw;
         "DOegTR2S" = _DOegTR2S;
         "fabric-b1.7.3" = _DOegTR2S;
+        "pkg-1.0.0" = _rFxClyLS;
+        "pkg-1.1" = _ZyjUtxbw;
+        "pkg-1.2" = _DOegTR2S;
         "default" = _DOegTR2S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "QvFu0yLI" = _QvFu0yLI;
         "JCVdq68A" = _JCVdq68A;
         "fabric-1.21.10" = _JCVdq68A;
+        "pkg-1.0.0" = _QvFu0yLI;
+        "pkg-1.2.0" = _JCVdq68A;
         "default" = _JCVdq68A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

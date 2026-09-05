@@ -15,6 +15,8 @@ let
         "tZjOxlsS" = _tZjOxlsS;
         "c6csw7Nl" = _c6csw7Nl;
         "forge-1.20.1" = _c6csw7Nl;
+        "pkg-1.0.0" = _tZjOxlsS;
+        "pkg-1.0.1" = _c6csw7Nl;
         "default" = _c6csw7Nl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

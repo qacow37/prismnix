@@ -9,6 +9,7 @@ let
     in {
         "xTMJYTPQ" = _xTMJYTPQ;
         "neoforge-1.21.4" = _xTMJYTPQ;
+        "pkg-1.0.0" = _xTMJYTPQ;
         "default" = _xTMJYTPQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

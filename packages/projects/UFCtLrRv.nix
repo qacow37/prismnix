@@ -57,6 +57,15 @@ let
         "Cfbd908L" = _Cfbd908L;
         "eRu4UNsh" = _eRu4UNsh;
         "neoforge-1.21.1" = _eRu4UNsh;
+        "pkg-1.0.0" = _G6k4eiM2;
+        "pkg-1.0.1" = _W9caSK7o;
+        "pkg-1.1.0" = _FzQSMMjS;
+        "pkg-1.1.1" = _uUdq4cGM;
+        "pkg-1.1.2" = _GdWLUnUz;
+        "pkg-1.1.3" = _vAgRbcmM;
+        "pkg-1.1.4" = _bPamUYgs;
+        "pkg-1.1.5" = _Cfbd908L;
+        "pkg-1.1.6" = _eRu4UNsh;
         "default" = _eRu4UNsh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

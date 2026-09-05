@@ -10,6 +10,7 @@ let
         "JJxMVbRo" = _JJxMVbRo;
         "fabric-1.21" = _JJxMVbRo;
         "fabric-1.21.1" = _JJxMVbRo;
+        "pkg-1.0.0" = _JJxMVbRo;
         "default" = _JJxMVbRo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

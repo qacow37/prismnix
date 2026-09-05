@@ -51,6 +51,14 @@ let
         "qq6grcby" = _qq6grcby;
         "Fei0XON2" = _Fei0XON2;
         "forge-1.19.4" = _Fei0XON2;
+        "pkg-1.6" = _5LcLpNMR;
+        "pkg-1.8" = _NYxCGm5W;
+        "pkg-1.9" = _jrDO4NjC;
+        "pkg-1.9.1" = _RBixKC3a;
+        "pkg-1.10" = _gUyQokjT;
+        "pkg-1.11.0" = _E4Qy2neI;
+        "pkg-1.11.11" = _qq6grcby;
+        "pkg-1.12" = _Fei0XON2;
         "default" = _Fei0XON2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

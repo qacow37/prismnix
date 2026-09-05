@@ -12,6 +12,7 @@ let
         "minecraft-1.21.1" = _cK4Uumt5;
         "vanilla-1.21" = _cK4Uumt5;
         "vanilla-1.21.1" = _cK4Uumt5;
+        "pkg-1.21" = _cK4Uumt5;
         "default" = _cK4Uumt5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

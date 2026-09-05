@@ -15,6 +15,8 @@ let
         "mYEEhZw6" = _mYEEhZw6;
         "Jzy1Orma" = _Jzy1Orma;
         "forge-1.20.1" = _Jzy1Orma;
+        "pkg-1.0" = _mYEEhZw6;
+        "pkg-1.3" = _Jzy1Orma;
         "default" = _Jzy1Orma;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -54,6 +54,7 @@ let
         "minecraft-26.1" = _cuNotgde;
         "minecraft-26.1.1" = _cuNotgde;
         "minecraft-26.1.2" = _cuNotgde;
+        "pkg-1.0" = _cuNotgde;
         "default" = _cuNotgde;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

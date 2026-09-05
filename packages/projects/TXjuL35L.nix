@@ -10,6 +10,7 @@ let
         "32huTUZk" = _32huTUZk;
         "minecraft-1.21.5" = _32huTUZk;
         "vanilla-1.21.5" = _32huTUZk;
+        "pkg-1.0.0" = _32huTUZk;
         "default" = _32huTUZk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

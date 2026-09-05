@@ -10,6 +10,7 @@ let
         "XcfMdMxC" = _XcfMdMxC;
         "neoforge-1.21" = _XcfMdMxC;
         "neoforge-1.21.1" = _XcfMdMxC;
+        "pkg-1.0.0" = _XcfMdMxC;
         "default" = _XcfMdMxC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

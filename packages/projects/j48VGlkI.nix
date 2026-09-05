@@ -21,6 +21,9 @@ let
         "76ALXZT9" = _76ALXZT9;
         "ZmV8elBO" = _ZmV8elBO;
         "quilt-1.20.4" = _ZmV8elBO;
+        "pkg-2.1.0-resodded.1.0+1.20.4" = _X8J9mdQp;
+        "pkg-2.1.1-resodded.1.0+1.20.4" = _76ALXZT9;
+        "pkg-2.1.1a-resodded.1.0+1.20.4" = _ZmV8elBO;
         "default" = _ZmV8elBO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

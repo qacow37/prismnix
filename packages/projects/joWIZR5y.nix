@@ -2454,6 +2454,8 @@ let
         "quilt-26.2-rc-1" = _YwCbIVOd;
         "quilt-26.2-rc-2" = _YwCbIVOd;
         "quilt-26.2" = _YwCbIVOd;
+        "pkg-1" = _6NTyqblm;
+        "pkg-1+mod" = _YwCbIVOd;
         "default" = _YwCbIVOd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

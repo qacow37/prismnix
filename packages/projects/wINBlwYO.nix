@@ -10,6 +10,7 @@ let
         "IuawESzw" = _IuawESzw;
         "forge-1.8.9" = _IuawESzw;
         "forge-1.12.2" = _IuawESzw;
+        "pkg-1.5" = _IuawESzw;
         "default" = _IuawESzw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

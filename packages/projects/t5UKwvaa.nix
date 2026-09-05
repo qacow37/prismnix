@@ -27,6 +27,10 @@ let
         "9NkEQ850" = _9NkEQ850;
         "v3loXTka" = _v3loXTka;
         "bta-babric-b1.7.3" = _v3loXTka;
+        "pkg-1.4.0-1.7.7.0_02" = _5xRitlBj;
+        "pkg-1.4.2-7.1" = _kDHq738t;
+        "pkg-1.4.4-7.1" = _9NkEQ850;
+        "pkg-1.4.4-7.2-pre1" = _v3loXTka;
         "default" = _v3loXTka;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

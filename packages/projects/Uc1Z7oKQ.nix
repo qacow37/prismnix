@@ -94,6 +94,8 @@ let
         "quilt-26.1.1" = _YPNVaVeX;
         "quilt-26.1.2" = _YPNVaVeX;
         "quilt-26.2" = _YPNVaVeX;
+        "pkg-V1.0" = _fHU5hYFw;
+        "pkg-V1.0+mod" = _YPNVaVeX;
         "default" = _YPNVaVeX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

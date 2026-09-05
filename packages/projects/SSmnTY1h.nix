@@ -9,6 +9,7 @@ let
     in {
         "Tx8lpCoW" = _Tx8lpCoW;
         "forge-1.20.1" = _Tx8lpCoW;
+        "pkg-0.1.0" = _Tx8lpCoW;
         "default" = _Tx8lpCoW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -29,6 +29,10 @@ let
         "fabric-1.21.9" = _ESGPscVX;
         "fabric-1.21.10" = _ESGPscVX;
         "fabric-1.21.11" = _ESGPscVX;
+        "pkg-1.0.0-alpha" = _pD8cwTc4;
+        "pkg-1.1.0-alpha" = _KrmkQroc;
+        "pkg-1.2.0-alpha" = _fRhOfSq0;
+        "pkg-1.3.0-alpha" = _ESGPscVX;
         "default" = _ESGPscVX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

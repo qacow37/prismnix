@@ -9,6 +9,7 @@ let
     in {
         "OnoAdzTY" = _OnoAdzTY;
         "iris-1.20.1" = _OnoAdzTY;
+        "pkg-0.1" = _OnoAdzTY;
         "default" = _OnoAdzTY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

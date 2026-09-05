@@ -33,6 +33,11 @@ let
         "7XSkM0oe" = _7XSkM0oe;
         "3Ro7216v" = _3Ro7216v;
         "forge-1.20.1" = _3Ro7216v;
+        "pkg-1.0.0+mc1.20.1" = _ErDMMxQv;
+        "pkg-1.0.1+mc1.20.1" = _ybcLjzgh;
+        "pkg-1.0.2+mc1.20.1" = _LZ2ZcLrG;
+        "pkg-1.0.3+mc1.20.1" = _7XSkM0oe;
+        "pkg-1.0.4+mc1.20.1" = _3Ro7216v;
         "default" = _3Ro7216v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

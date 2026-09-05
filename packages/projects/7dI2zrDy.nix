@@ -118,6 +118,8 @@ let
         "neoforge-26.1.1" = _HmseAzbt;
         "neoforge-26.1.2" = _HmseAzbt;
         "neoforge-26.2" = _HmseAzbt;
+        "pkg-1.0.0" = _4cbt9v7v;
+        "pkg-1.1.0" = _HmseAzbt;
         "default" = _HmseAzbt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

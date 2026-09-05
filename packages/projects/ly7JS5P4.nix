@@ -9,6 +9,7 @@ let
     in {
         "gDdv8ORA" = _gDdv8ORA;
         "minecraft-1.21.1" = _gDdv8ORA;
+        "pkg-1.0" = _gDdv8ORA;
         "default" = _gDdv8ORA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

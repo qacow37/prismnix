@@ -9,6 +9,7 @@ let
     in {
         "iXP2AK28" = _iXP2AK28;
         "minecraft-1.21.5" = _iXP2AK28;
+        "pkg-2025q1" = _iXP2AK28;
         "default" = _iXP2AK28;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -16,6 +16,8 @@ let
         "LG18ZrUE" = _LG18ZrUE;
         "fabric-1.20.4" = _8UuWsPBV;
         "fabric-1.21" = _LG18ZrUE;
+        "pkg-1.0.0" = _8UuWsPBV;
+        "pkg-1.0.1" = _LG18ZrUE;
         "default" = _LG18ZrUE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

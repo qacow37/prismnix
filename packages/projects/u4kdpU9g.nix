@@ -9,6 +9,7 @@ let
     in {
         "wAWSqJ48" = _wAWSqJ48;
         "quilt-1.19.2" = _wAWSqJ48;
+        "pkg-1.0.0" = _wAWSqJ48;
         "default" = _wAWSqJ48;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

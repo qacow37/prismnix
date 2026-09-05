@@ -9,6 +9,7 @@ let
     in {
         "RBExnrf4" = _RBExnrf4;
         "fabric-1.20.1" = _RBExnrf4;
+        "pkg-1.3.0" = _RBExnrf4;
         "default" = _RBExnrf4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

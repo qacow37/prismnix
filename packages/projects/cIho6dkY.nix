@@ -38,6 +38,8 @@ let
         "minecraft-26.1" = _SedALva8;
         "minecraft-26.1.1" = _SedALva8;
         "minecraft-26.1.2" = _SedALva8;
+        "pkg-1.0.0" = _YemcRI1i;
+        "pkg-1.1.0" = _SedALva8;
         "default" = _SedALva8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

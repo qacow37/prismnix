@@ -111,6 +111,9 @@ let
         "minecraft-1.21.9" = _NIeabPaR;
         "minecraft-1.21.10" = _NIeabPaR;
         "minecraft-1.21.11" = _NIeabPaR;
+        "pkg-1.0.0" = _cCOinnlk;
+        "pkg-1.1.0" = _eQBkrH8G;
+        "pkg-1.2.0" = _NIeabPaR;
         "default" = _NIeabPaR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

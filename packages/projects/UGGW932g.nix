@@ -10,6 +10,7 @@ let
         "OWswcKDk" = _OWswcKDk;
         "fabric-1.21" = _OWswcKDk;
         "fabric-1.21.1" = _OWswcKDk;
+        "pkg-1.0.0" = _OWswcKDk;
         "default" = _OWswcKDk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

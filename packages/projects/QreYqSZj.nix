@@ -21,6 +21,8 @@ let
         "uiii7H3K" = _uiii7H3K;
         "nVEPgEAR" = _nVEPgEAR;
         "forge-1.20.1" = _nVEPgEAR;
+        "pkg-1.0" = _uiii7H3K;
+        "pkg-1.2" = _nVEPgEAR;
         "default" = _nVEPgEAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

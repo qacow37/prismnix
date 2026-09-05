@@ -21,6 +21,9 @@ let
         "jXdjKzt6" = _jXdjKzt6;
         "CAoa3iMJ" = _CAoa3iMJ;
         "fabric-1.21.1" = _CAoa3iMJ;
+        "pkg-1.7.1-1.0.0" = _ppKuKrBM;
+        "pkg-1.7.3-1.0.2" = _jXdjKzt6;
+        "pkg-1.7.2-1.0.2" = _CAoa3iMJ;
         "default" = _CAoa3iMJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

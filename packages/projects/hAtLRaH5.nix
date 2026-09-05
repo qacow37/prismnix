@@ -22,6 +22,8 @@ let
         "dYNSEgro" = _dYNSEgro;
         "forge-1.16.5" = _42EBRNIR;
         "forge-1.20.1" = _dYNSEgro;
+        "pkg-1.0" = _6FEAvrQr;
+        "pkg-1.1" = _dYNSEgro;
         "default" = _dYNSEgro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

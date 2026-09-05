@@ -33,6 +33,9 @@ let
         "neoforge-1.21.2" = _E3SDGAHc;
         "neoforge-1.21.3" = _E3SDGAHc;
         "neoforge-1.21.4" = _E3SDGAHc;
+        "pkg-1.0.0" = _xXwmQCII;
+        "pkg-1.0.5" = _E3SDGAHc;
+        "pkg-1.0.6" = _wn32NgvV;
         "default" = _wn32NgvV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

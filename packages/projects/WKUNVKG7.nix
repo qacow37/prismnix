@@ -9,6 +9,7 @@ let
     in {
         "QsFbcCst" = _QsFbcCst;
         "minecraft-1.20.1" = _QsFbcCst;
+        "pkg-1.0.0" = _QsFbcCst;
         "default" = _QsFbcCst;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

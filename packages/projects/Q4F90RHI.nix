@@ -30,6 +30,10 @@ let
         "fabric-1.20.1" = _C9U99P99;
         "quilt-1.20.1" = _ByiqtTHM;
         "forge-1.20.1" = _C9U99P99;
+        "pkg-1.0.0" = _2El6eEuU;
+        "pkg-1.0.0+mod" = _ByiqtTHM;
+        "pkg-2.0.0" = _wnFY03pf;
+        "pkg-2.0.1" = _C9U99P99;
         "default" = _C9U99P99;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

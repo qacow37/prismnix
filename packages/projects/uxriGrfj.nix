@@ -9,6 +9,7 @@ let
     in {
         "BNnu2Pao" = _BNnu2Pao;
         "minecraft-1.20.1" = _BNnu2Pao;
+        "pkg-1.0" = _BNnu2Pao;
         "default" = _BNnu2Pao;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

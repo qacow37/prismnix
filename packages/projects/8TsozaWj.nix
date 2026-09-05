@@ -9,6 +9,7 @@ let
     in {
         "Cos27lLs" = _Cos27lLs;
         "forge-1.20.1" = _Cos27lLs;
+        "pkg-1.0.0" = _Cos27lLs;
         "default" = _Cos27lLs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

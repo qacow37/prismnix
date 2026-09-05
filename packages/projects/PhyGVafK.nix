@@ -69,6 +69,14 @@ let
         "paper-1.21.8" = _JCEG42U7;
         "paper-1.21.10" = _kqrpspe3;
         "paper-1.21.11" = _kqrpspe3;
+        "pkg-4.0-Beta-12" = _RF3CmnQt;
+        "pkg-4.0-Beta-13" = _z7O56QyU;
+        "pkg-4.0-Beta-13-patch-1" = _XMFcE6lG;
+        "pkg-4.0-Beta-14" = _tUEtEPgF;
+        "pkg-4.0-Beta-15" = _tRBVdfAI;
+        "pkg-4.0-Beta-16" = _MXt2iiRt;
+        "pkg-4.0-Beta-17" = _JCEG42U7;
+        "pkg-4.0-Beta-18" = _kqrpspe3;
         "default" = _kqrpspe3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

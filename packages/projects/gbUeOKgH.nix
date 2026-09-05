@@ -10,6 +10,7 @@ let
         "1YF9MVVZ" = _1YF9MVVZ;
         "minecraft-1.20.4" = _1YF9MVVZ;
         "minecraft-1.20.6" = _1YF9MVVZ;
+        "pkg-1.0" = _1YF9MVVZ;
         "default" = _1YF9MVVZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

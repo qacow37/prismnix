@@ -15,6 +15,8 @@ let
         "Rpyn9yDo" = _Rpyn9yDo;
         "mawDVynh" = _mawDVynh;
         "neoforge-1.21.1" = _mawDVynh;
+        "pkg-2.0" = _Rpyn9yDo;
+        "pkg-2.1" = _mawDVynh;
         "default" = _mawDVynh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

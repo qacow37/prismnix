@@ -195,6 +195,27 @@ let
         "neoforge-1.20.1" = _ON1QIpxu;
         "neoforge-1.21.1" = _wOCHlHK0;
         "neoforge-1.21.11" = _qj5sdEE3;
+        "pkg-2.0.0+fabric" = _fsdb6t5c;
+        "pkg-2.0.0+forge" = _lDmfa2Wh;
+        "pkg-2.0.1+fabric" = _cIRbtFo1;
+        "pkg-2.0.1+forge" = _sQicbDIE;
+        "pkg-2.1.0+fabric" = _J9pFmQfv;
+        "pkg-2.1.0+forge" = _zAuY6wWF;
+        "pkg-2.1.0-hotfix+forge" = _ON1QIpxu;
+        "pkg-2.1.0+neoforge" = _4FbXDJKC;
+        "pkg-2.2.0+fabric" = _49JVnHiL;
+        "pkg-2.2.0+neoforge" = _jPpdBQDC;
+        "pkg-2.2.0+forge" = _L0hRi4y9;
+        "pkg-2.3.0+fabric" = _oxfQpL7r;
+        "pkg-2.3.0+forge" = _rVC6iAxZ;
+        "pkg-2.3.0+neoforge" = _LU75TUDq;
+        "pkg-2.3.0-hotfix+fabric" = _qKeSs718;
+        "pkg-2.3.0-hotfix+forge" = _Dr0UMhOa;
+        "pkg-2.3.1+fabric" = _t5gGK5wc;
+        "pkg-2.3.1+neoforge" = _fkKEdcoo;
+        "pkg-2.3.5+fabric" = _Z7AWAxbq;
+        "pkg-2.3.5+neoforge" = _qj5sdEE3;
+        "pkg-2.3.5+forge" = _E56YIr3r;
         "default" = _E56YIr3r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

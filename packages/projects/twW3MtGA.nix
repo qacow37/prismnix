@@ -15,6 +15,8 @@ let
         "KBG3RQmu" = _KBG3RQmu;
         "UKZjnSlD" = _UKZjnSlD;
         "neoforge-1.21.1" = _UKZjnSlD;
+        "pkg-0.1.0" = _KBG3RQmu;
+        "pkg-0.2.0" = _UKZjnSlD;
         "default" = _UKZjnSlD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

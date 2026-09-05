@@ -15,6 +15,8 @@ let
         "t7eMbPlH" = _t7eMbPlH;
         "eNPO19FO" = _eNPO19FO;
         "forge-1.20.1" = _eNPO19FO;
+        "pkg-0.1" = _t7eMbPlH;
+        "pkg-0.2" = _eNPO19FO;
         "default" = _eNPO19FO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

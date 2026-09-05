@@ -27,6 +27,7 @@ let
         "minecraft-1.21.9" = _sIrMRKpC;
         "minecraft-1.21.10" = _sIrMRKpC;
         "minecraft-1.21.11" = _sIrMRKpC;
+        "pkg-1.0" = _sIrMRKpC;
         "default" = _sIrMRKpC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

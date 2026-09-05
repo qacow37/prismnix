@@ -23,6 +23,9 @@ let
         "forge-1.20.1" = _7BmEMRTa;
         "forge-1.20.2" = _xDVRge7W;
         "forge-1.20.4" = _3oHJK77v;
+        "pkg-1.20.1-1.0" = _7BmEMRTa;
+        "pkg-1.20.2-1.0" = _xDVRge7W;
+        "pkg-1.20.4-1.0" = _3oHJK77v;
         "default" = _3oHJK77v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

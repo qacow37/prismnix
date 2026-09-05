@@ -10,6 +10,7 @@ let
         "QtfVbXnA" = _QtfVbXnA;
         "forge-1.4.6" = _QtfVbXnA;
         "forge-1.4.7" = _QtfVbXnA;
+        "pkg-2.0pr6" = _QtfVbXnA;
         "default" = _QtfVbXnA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

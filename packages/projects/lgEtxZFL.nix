@@ -16,6 +16,8 @@ let
         "UyEIiwET" = _UyEIiwET;
         "forge-1.20.1" = _uMHYcT2B;
         "fabric-1.20.1" = _UyEIiwET;
+        "pkg-2026.1-Forge" = _uMHYcT2B;
+        "pkg-2026.1-Fabric" = _UyEIiwET;
         "default" = _UyEIiwET;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

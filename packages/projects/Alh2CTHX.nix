@@ -15,6 +15,8 @@ let
         "JmW9tGPn" = _JmW9tGPn;
         "mspV9oSS" = _mspV9oSS;
         "forge-1.19.2" = _mspV9oSS;
+        "pkg-1.19.2-1.0.0" = _JmW9tGPn;
+        "pkg-1.19.2-1.1.0" = _mspV9oSS;
         "default" = _mspV9oSS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

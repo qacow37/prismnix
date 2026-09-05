@@ -10,6 +10,7 @@ let
         "sn02wDFD" = _sn02wDFD;
         "fabric-1.21" = _sn02wDFD;
         "fabric-1.21.1" = _sn02wDFD;
+        "pkg-1.0.0" = _sn02wDFD;
         "default" = _sn02wDFD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

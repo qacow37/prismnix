@@ -32,6 +32,8 @@ let
         "neoforge-1.21.9" = _2TKhnKeD;
         "neoforge-1.21.10" = _2TKhnKeD;
         "neoforge-1.21.11" = _2TKhnKeD;
+        "pkg-1.0" = _APPwspiC;
+        "pkg-1.1" = _2TKhnKeD;
         "default" = _2TKhnKeD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

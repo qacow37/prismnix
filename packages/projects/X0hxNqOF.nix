@@ -20,6 +20,7 @@ let
         "paper-1.21.9" = _lytYngVp;
         "paper-1.21.10" = _lytYngVp;
         "paper-1.21.11" = _lytYngVp;
+        "pkg-1.2.0" = _lytYngVp;
         "default" = _lytYngVp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

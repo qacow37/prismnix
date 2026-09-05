@@ -45,6 +45,13 @@ let
         "VCYOFQS3" = _VCYOFQS3;
         "o2Hv57mH" = _o2Hv57mH;
         "forge-1.20.1" = _o2Hv57mH;
+        "pkg-1.0" = _goale5Ds;
+        "pkg-1.1" = _4qk28vuo;
+        "pkg-1.2" = _pomx9l3J;
+        "pkg-1.3" = _XIbH0ZEq;
+        "pkg-1.4" = _1SvlLR9X;
+        "pkg-1.5" = _VCYOFQS3;
+        "pkg-1.6" = _o2Hv57mH;
         "default" = _o2Hv57mH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -59,6 +59,8 @@ let
         "bukkit-26.1" = _i6BvhGWi;
         "bukkit-26.1.1" = _i6BvhGWi;
         "bukkit-26.1.2" = _i6BvhGWi;
+        "pkg-1" = _G349j0vK;
+        "pkg-1.1" = _i6BvhGWi;
         "default" = _i6BvhGWi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

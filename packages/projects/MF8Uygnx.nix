@@ -22,6 +22,8 @@ let
         "TJJ53dld" = _TJJ53dld;
         "fabric-1.20.1" = _5PIbQFlX;
         "fabric-1.21.1" = _TJJ53dld;
+        "pkg-1.0.0" = _QezEwCwT;
+        "pkg-1.0.1" = _TJJ53dld;
         "default" = _TJJ53dld;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

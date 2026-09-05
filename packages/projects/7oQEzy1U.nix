@@ -15,6 +15,8 @@ let
         "k1SYhCFa" = _k1SYhCFa;
         "GNcO4lz2" = _GNcO4lz2;
         "forge-1.12.2" = _GNcO4lz2;
+        "pkg-0.1.3" = _k1SYhCFa;
+        "pkg-0.2" = _GNcO4lz2;
         "default" = _GNcO4lz2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

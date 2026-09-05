@@ -15,6 +15,8 @@ let
         "488ogzs9" = _488ogzs9;
         "F3l0zhel" = _F3l0zhel;
         "quilt-1.18.2" = _F3l0zhel;
+        "pkg-1.0.0-beta.24+0.58.0-1.18.2+1.0.0" = _488ogzs9;
+        "pkg-1.0.0-beta.28+0.67.0-1.18.2" = _F3l0zhel;
         "default" = _F3l0zhel;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

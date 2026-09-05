@@ -11,6 +11,7 @@ let
         "minecraft-1.19" = _BaxWId1i;
         "minecraft-1.19.1" = _BaxWId1i;
         "minecraft-1.19.2" = _BaxWId1i;
+        "pkg-1.2" = _BaxWId1i;
         "default" = _BaxWId1i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

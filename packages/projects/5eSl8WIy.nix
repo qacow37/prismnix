@@ -21,6 +21,8 @@ let
         "fabric-1.16.1" = _eNzHNuxj;
         "fabric-1.16.2" = _eNzHNuxj;
         "fabric-1.16.3" = _eNzHNuxj;
+        "pkg-0.1.0" = _DpagM46l;
+        "pkg-0.1.1" = _eNzHNuxj;
         "default" = _eNzHNuxj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

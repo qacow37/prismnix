@@ -15,6 +15,8 @@ let
         "gzKbjNAA" = _gzKbjNAA;
         "VXRL8lGv" = _VXRL8lGv;
         "fabric-1.21.1" = _VXRL8lGv;
+        "pkg-1.2.0" = _gzKbjNAA;
+        "pkg-1.2.1" = _VXRL8lGv;
         "default" = _VXRL8lGv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

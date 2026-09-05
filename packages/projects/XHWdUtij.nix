@@ -15,6 +15,8 @@ let
         "7DaD9OIc" = _7DaD9OIc;
         "SbPxsjeP" = _SbPxsjeP;
         "fabric-1.20.1" = _SbPxsjeP;
+        "pkg-0.4-1.20.1" = _7DaD9OIc;
+        "pkg-0.15-1.20.1" = _SbPxsjeP;
         "default" = _SbPxsjeP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

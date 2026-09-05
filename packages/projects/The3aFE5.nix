@@ -51,6 +51,14 @@ let
         "vTK7pvtt" = _vTK7pvtt;
         "K22PXmgh" = _K22PXmgh;
         "forge-1.20.1" = _K22PXmgh;
+        "pkg-0.0.1-1.20.1" = _Ry7M8Nnn;
+        "pkg-0.0.2-1.20.1" = _jK14qSe3;
+        "pkg-0.0.3-1.20.1" = _OnWuhlQ6;
+        "pkg-0.0.4-1.20.1" = _dqtbAoXi;
+        "pkg-0.1.0-1.20.1" = _gIKVcKdE;
+        "pkg-0.2.0-1.20.1" = _ADQ56rAH;
+        "pkg-0.2.0-1.20.1-hotfix" = _vTK7pvtt;
+        "pkg-1.0.0-1.20.1" = _K22PXmgh;
         "default" = _K22PXmgh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

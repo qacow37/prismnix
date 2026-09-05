@@ -345,6 +345,9 @@ let
         "folia-1.20.2" = _lSSd2e2u;
         "folia-1.20.3" = _lSSd2e2u;
         "folia-1.20.4" = _lSSd2e2u;
+        "pkg-1.6.5" = _8lbMexi2;
+        "pkg-1.6.6" = _Rxp9mqNz;
+        "pkg-1.6.7" = _lSSd2e2u;
         "default" = _lSSd2e2u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

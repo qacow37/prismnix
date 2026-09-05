@@ -116,6 +116,9 @@ let
         "minecraft-24w44a" = _vrCk6Bag;
         "minecraft-24w45a" = _vrCk6Bag;
         "minecraft-24w46a" = _vrCk6Bag;
+        "pkg-4.5" = _29zFjDSM;
+        "pkg-5" = _okMX4EwT;
+        "pkg-5.1-beta" = _vrCk6Bag;
         "default" = _vrCk6Bag;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

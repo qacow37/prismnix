@@ -38,6 +38,11 @@ let
         "fabric-1.21.11" = _st38DijD;
         "bukkit-1.21.10" = _FNkqWOAw;
         "paper-1.21.10" = _FNkqWOAw;
+        "pkg-1.21.9" = _dZvSTYWw;
+        "pkg-1.21.8" = _k6hCkvU0;
+        "pkg-1.21.10" = _bSDq5QTv;
+        "pkg-1.21.10-bukkit" = _FNkqWOAw;
+        "pkg-1.21.11" = _st38DijD;
         "default" = _st38DijD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

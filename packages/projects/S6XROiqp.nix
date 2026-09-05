@@ -67,6 +67,10 @@ let
         "minecraft-1.21.6" = _vGhHcpBJ;
         "minecraft-1.21.7" = _vGhHcpBJ;
         "minecraft-1.21.8" = _vGhHcpBJ;
+        "pkg-RedstoneAuxiliary-1.0" = _QrgyFkNp;
+        "pkg-1.19.4" = _DFBoqzMb;
+        "pkg-1.1" = _y3SiT1ft;
+        "pkg-1.21.5-2.0" = _vGhHcpBJ;
         "default" = _vGhHcpBJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

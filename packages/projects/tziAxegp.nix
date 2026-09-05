@@ -52,6 +52,10 @@ let
         "DueJeoY9" = _DueJeoY9;
         "forge-1.20.1" = _DueJeoY9;
         "fabric-1.20.1" = _eEo4Y9fU;
+        "pkg-1.0.0" = _p9LwpUXi;
+        "pkg-1.1.0" = _z0pj1daW;
+        "pkg-1.2.0" = _kaIx5BJz;
+        "pkg-1.2.1" = _DueJeoY9;
         "default" = _DueJeoY9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

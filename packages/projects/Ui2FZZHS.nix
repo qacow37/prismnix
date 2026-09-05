@@ -9,6 +9,7 @@ let
     in {
         "pndYasHC" = _pndYasHC;
         "neoforge-1.21.1" = _pndYasHC;
+        "pkg-1.1.1" = _pndYasHC;
         "default" = _pndYasHC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

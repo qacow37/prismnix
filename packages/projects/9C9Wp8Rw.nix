@@ -15,6 +15,8 @@ let
         "UhWTIctA" = _UhWTIctA;
         "vjtbxo95" = _vjtbxo95;
         "fabric-1.21.1" = _vjtbxo95;
+        "pkg-1.0" = _UhWTIctA;
+        "pkg-1.1" = _vjtbxo95;
         "default" = _vjtbxo95;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

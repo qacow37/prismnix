@@ -45,6 +45,13 @@ let
         "YXt4uYJB" = _YXt4uYJB;
         "i7b57fOk" = _i7b57fOk;
         "minecraft-b1.7.3" = _i7b57fOk;
+        "pkg-0.1" = _8tMqkeON;
+        "pkg-0.2" = _vpwNAEVo;
+        "pkg-0.2.1" = _YlFkjAFT;
+        "pkg-0.3" = _7cOpedY7;
+        "pkg-0.3.1" = _ih7wv1iM;
+        "pkg-0.4" = _YXt4uYJB;
+        "pkg-0.5" = _i7b57fOk;
         "default" = _i7b57fOk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

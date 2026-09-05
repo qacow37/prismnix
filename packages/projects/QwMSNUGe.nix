@@ -9,6 +9,7 @@ let
     in {
         "miGHkUaQ" = _miGHkUaQ;
         "minecraft-1.20.1" = _miGHkUaQ;
+        "pkg-1.0.0" = _miGHkUaQ;
         "default" = _miGHkUaQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

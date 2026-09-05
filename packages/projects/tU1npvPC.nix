@@ -28,6 +28,7 @@ let
         "minecraft-1.21.2" = _TXZCeSwC;
         "minecraft-1.21.3" = _TXZCeSwC;
         "minecraft-1.21.4" = _TXZCeSwC;
+        "pkg-Release" = _TXZCeSwC;
         "default" = _TXZCeSwC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

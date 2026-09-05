@@ -9,6 +9,7 @@ let
     in {
         "oxPkcf4K" = _oxPkcf4K;
         "forge-1.12.2" = _oxPkcf4K;
+        "pkg-1.0.0" = _oxPkcf4K;
         "default" = _oxPkcf4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

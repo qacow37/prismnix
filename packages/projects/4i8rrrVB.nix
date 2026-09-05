@@ -97,6 +97,7 @@ let
         "minecraft-26.2" = _paSPliqj;
         "minecraft-26.3-snapshot-1" = _paSPliqj;
         "minecraft-26.3-snapshot-2" = _paSPliqj;
+        "pkg-1" = _paSPliqj;
         "default" = _paSPliqj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

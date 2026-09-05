@@ -116,6 +116,8 @@ let
         "minecraft-25w07a" = _Kvffdyxa;
         "minecraft-25w08a" = _Kvffdyxa;
         "minecraft-25w09a" = _Kvffdyxa;
+        "pkg-1.21.4" = _raovprjS;
+        "pkg-25w09a" = _Kvffdyxa;
         "default" = _Kvffdyxa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

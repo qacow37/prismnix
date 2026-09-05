@@ -49,6 +49,7 @@ let
         "quilt-1.21.2" = _VXWRgbwV;
         "quilt-1.21.3" = _VXWRgbwV;
         "quilt-1.21.4" = _VXWRgbwV;
+        "pkg-1.0.0" = _VXWRgbwV;
         "default" = _VXWRgbwV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

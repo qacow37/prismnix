@@ -21,6 +21,9 @@ let
         "WbnititN" = _WbnititN;
         "OvH7PrJR" = _OvH7PrJR;
         "fabric-1.21.1" = _OvH7PrJR;
+        "pkg-0.1-1.21.1" = _mts4q77t;
+        "pkg-0.3-1.21.1" = _WbnititN;
+        "pkg-0.4-1.21.1" = _OvH7PrJR;
         "default" = _OvH7PrJR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

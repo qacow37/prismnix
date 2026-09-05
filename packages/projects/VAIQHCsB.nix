@@ -17,6 +17,8 @@ let
         "fabric-1.20.1" = _dUWFP8GR;
         "forge-1.20.1" = _8VoBLgfp;
         "neoforge-1.20.1" = _8VoBLgfp;
+        "pkg-0.1.0-fabric" = _dUWFP8GR;
+        "pkg-0.1.0-forge" = _8VoBLgfp;
         "default" = _8VoBLgfp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

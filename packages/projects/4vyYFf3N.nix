@@ -9,6 +9,7 @@ let
     in {
         "s5DnyoMV" = _s5DnyoMV;
         "fabric-1.21.11" = _s5DnyoMV;
+        "pkg-1.0.0" = _s5DnyoMV;
         "default" = _s5DnyoMV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

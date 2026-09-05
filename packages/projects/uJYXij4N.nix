@@ -33,6 +33,7 @@ let
         "2ufCrdFC" = _2ufCrdFC;
         "BYVbQ27t" = _BYVbQ27t;
         "fabric-1.21" = _BYVbQ27t;
+        "pkg-0.1-1.21" = _BYVbQ27t;
         "default" = _BYVbQ27t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

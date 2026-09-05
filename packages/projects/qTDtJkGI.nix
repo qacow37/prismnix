@@ -10,6 +10,7 @@ let
         "XvyNZAoZ" = _XvyNZAoZ;
         "datapack-1.20.1" = _XvyNZAoZ;
         "forge-1.20.1" = _XvyNZAoZ;
+        "pkg-1" = _XvyNZAoZ;
         "default" = _XvyNZAoZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

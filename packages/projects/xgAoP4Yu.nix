@@ -10,6 +10,7 @@ let
         "pztlwsmQ" = _pztlwsmQ;
         "fabric-1.20" = _pztlwsmQ;
         "fabric-1.20.1" = _pztlwsmQ;
+        "pkg-1.0" = _pztlwsmQ;
         "default" = _pztlwsmQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

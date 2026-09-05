@@ -227,6 +227,10 @@ let
         "bungeecord-1.21.9" = _pH04fqa4;
         "bungeecord-1.21.10" = _pH04fqa4;
         "bungeecord-26.2" = _pH04fqa4;
+        "pkg-5.6.0" = _dhPh7x9S;
+        "pkg-5.7.0" = _f2TqUTfw;
+        "pkg-6.0.0-R1" = _eAxuUKKz;
+        "pkg-6.0.0" = _IPbxgBri;
         "default" = _IPbxgBri;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

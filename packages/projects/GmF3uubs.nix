@@ -28,6 +28,10 @@ let
         "2TlTV9lw" = _2TlTV9lw;
         "forge-1.20.1" = _vvMgpPkX;
         "neoforge-1.21.1" = _2TlTV9lw;
+        "pkg-1.20.1_v1.1.2_HotFix" = _vvMgpPkX;
+        "pkg-1.21.1_v1.1.2_HotFix" = _s37qxMBY;
+        "pkg-1.21.1_v2.0_HotFix" = _19KDfd5x;
+        "pkg-1.21.1_v4.0" = _2TlTV9lw;
         "default" = _2TlTV9lw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

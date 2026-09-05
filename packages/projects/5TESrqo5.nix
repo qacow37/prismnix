@@ -28,6 +28,7 @@ let
         "minecraft-1.21.5" = _XsndR5EU;
         "minecraft-1.21.6" = _XsndR5EU;
         "minecraft-1.21.7" = _XsndR5EU;
+        "pkg-1.0" = _XsndR5EU;
         "default" = _XsndR5EU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

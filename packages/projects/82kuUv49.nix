@@ -9,6 +9,7 @@ let
     in {
         "cyLPsvEf" = _cyLPsvEf;
         "neoforge-1.21.1" = _cyLPsvEf;
+        "pkg-1.0.0" = _cyLPsvEf;
         "default" = _cyLPsvEf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

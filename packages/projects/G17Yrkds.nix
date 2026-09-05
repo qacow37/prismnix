@@ -15,6 +15,8 @@ let
         "Htv1XAh7" = _Htv1XAh7;
         "CMj1RmfV" = _CMj1RmfV;
         "forge-1.20.1" = _CMj1RmfV;
+        "pkg-1.0.0" = _Htv1XAh7;
+        "pkg-1.1.0" = _CMj1RmfV;
         "default" = _CMj1RmfV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -20,6 +20,8 @@ let
         "fabric-1.16.3" = _sWcDcWMC;
         "fabric-1.16.4" = _sWcDcWMC;
         "fabric-1.16.5" = _sWcDcWMC;
+        "pkg-1.16-1.0.0" = _VdklqraV;
+        "pkg-1.16-1.0.1" = _sWcDcWMC;
         "default" = _sWcDcWMC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "KLeYooZr" = _KLeYooZr;
         "forge-1.20.1" = _KLeYooZr;
+        "pkg-1.0" = _KLeYooZr;
         "default" = _KLeYooZr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

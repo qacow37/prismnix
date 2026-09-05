@@ -9,6 +9,7 @@ let
     in {
         "Pi6Fp3w3" = _Pi6Fp3w3;
         "fabric-1.20.1" = _Pi6Fp3w3;
+        "pkg-1.0.0" = _Pi6Fp3w3;
         "default" = _Pi6Fp3w3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

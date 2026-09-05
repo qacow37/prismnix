@@ -16,6 +16,7 @@ let
         "WFp2sdE6" = _WFp2sdE6;
         "forge-1.7.10" = _X2aMYA5w;
         "forge-1.8.9" = _WFp2sdE6;
+        "pkg-0.1" = _WFp2sdE6;
         "default" = _WFp2sdE6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

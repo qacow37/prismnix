@@ -9,6 +9,7 @@ let
     in {
         "W2Tx6aRM" = _W2Tx6aRM;
         "fabric-1.20.1" = _W2Tx6aRM;
+        "pkg-1.0.0" = _W2Tx6aRM;
         "default" = _W2Tx6aRM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -19,6 +19,8 @@ let
         "fabric-1.20.3" = _Pr71G0Dk;
         "fabric-1.20.4" = _Pr71G0Dk;
         "fabric-1.21.1" = _gFeRWVKH;
+        "pkg-TheSkitter-1.0.0+mc1.20.1-1.20.4" = _Pr71G0Dk;
+        "pkg-TheSkittter-1.0.0+mc1.21.1" = _gFeRWVKH;
         "default" = _gFeRWVKH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

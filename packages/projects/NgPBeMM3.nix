@@ -15,6 +15,8 @@ let
         "yRIcbBNv" = _yRIcbBNv;
         "eWggGUcc" = _eWggGUcc;
         "neoforge-1.21.1" = _eWggGUcc;
+        "pkg-1.0.0+mc1.21.1" = _yRIcbBNv;
+        "pkg-1.0.1+mc1.21.1" = _eWggGUcc;
         "default" = _eWggGUcc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

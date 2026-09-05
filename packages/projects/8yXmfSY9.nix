@@ -53,6 +53,13 @@ let
         "canvas-1.20" = _WUWhnU1g;
         "canvas-1.20.1" = _WUWhnU1g;
         "canvas-1.20.2" = _KZHxcIvR;
+        "pkg-v0.4.1" = _KWmGZa50;
+        "pkg-v0.5.0" = _pg1rmASM;
+        "pkg-v0.6.0" = _4qBLH76R;
+        "pkg-v0.7.0" = _bnUZR31C;
+        "pkg-v0.7.1" = _VnVng3oy;
+        "pkg-v0.7.2" = _WUWhnU1g;
+        "pkg-v0.8.0" = _KZHxcIvR;
         "default" = _KZHxcIvR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

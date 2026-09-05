@@ -11,6 +11,7 @@ let
         "fabric-1.20.2" = _kdW3VeUT;
         "fabric-1.20.3" = _kdW3VeUT;
         "fabric-1.20.4" = _kdW3VeUT;
+        "pkg-1.20.2+build.1" = _kdW3VeUT;
         "default" = _kdW3VeUT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

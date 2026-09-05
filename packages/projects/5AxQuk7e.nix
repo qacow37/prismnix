@@ -24,6 +24,8 @@ let
         "forge-1.20.2" = _G3GbXFLl;
         "forge-1.20.3" = _G3GbXFLl;
         "forge-1.20.4" = _G3GbXFLl;
+        "pkg-1.0" = _68bxS3VX;
+        "pkg-1.1-1.20.x-FORGE" = _G3GbXFLl;
         "default" = _G3GbXFLl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

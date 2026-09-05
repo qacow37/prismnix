@@ -15,6 +15,8 @@ let
         "tLMEsoSd" = _tLMEsoSd;
         "JN2ndojD" = _JN2ndojD;
         "fabric-1.20.1" = _JN2ndojD;
+        "pkg-1.0.0" = _tLMEsoSd;
+        "pkg-1.0.1" = _JN2ndojD;
         "default" = _JN2ndojD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

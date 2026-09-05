@@ -16,6 +16,7 @@ let
         "u5EVuEaC" = _u5EVuEaC;
         "minecraft-1.21" = _u5EVuEaC;
         "minecraft-1.21.1" = _u5EVuEaC;
+        "pkg-1.5" = _u5EVuEaC;
         "default" = _u5EVuEaC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "g9D86ugK" = _g9D86ugK;
         "2PmTmmxB" = _2PmTmmxB;
         "forge-1.12.2" = _2PmTmmxB;
+        "pkg-1.12.2-1.0.3.1" = _g9D86ugK;
+        "pkg-1.12.2-1.0.3.2" = _2PmTmmxB;
         "default" = _2PmTmmxB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -142,6 +142,10 @@ let
         "spigot-1.21.3" = _gjp9qHWj;
         "spigot-1.21.4" = _gjp9qHWj;
         "spigot-1.21.5" = _gjp9qHWj;
+        "pkg-1.0" = _Nv51w279;
+        "pkg-1.5" = _wSC5Bdil;
+        "pkg-1.6" = _lN6C3t1a;
+        "pkg-1.6.1" = _gjp9qHWj;
         "default" = _gjp9qHWj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

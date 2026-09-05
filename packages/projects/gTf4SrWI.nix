@@ -16,6 +16,8 @@ let
         "yls4N4LQ" = _yls4N4LQ;
         "fabric-1.20.1" = _yls4N4LQ;
         "quilt-1.20.1" = _yls4N4LQ;
+        "pkg-0.1.0-SNAPSHOT" = _7UM1quA4;
+        "pkg-0.1.1-SNAPSHOT" = _yls4N4LQ;
         "default" = _yls4N4LQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

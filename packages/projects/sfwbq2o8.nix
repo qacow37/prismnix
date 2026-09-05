@@ -16,6 +16,8 @@ let
         "O40mglO6" = _O40mglO6;
         "minecraft-1.20.1" = _sgxy6QtB;
         "minecraft-1.21.1" = _O40mglO6;
+        "pkg-1.0" = _sgxy6QtB;
+        "pkg-CM-SpawnNoti-1.6+es_es" = _O40mglO6;
         "default" = _O40mglO6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

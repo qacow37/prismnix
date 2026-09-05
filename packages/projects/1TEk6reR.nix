@@ -34,6 +34,9 @@ let
         "nrf2YS8C" = _nrf2YS8C;
         "forge-1.20.1" = _nrf2YS8C;
         "forge-1.19.2" = _WQAeLgJn;
+        "pkg-1.0.5" = _y1bpNNvR;
+        "pkg-1.0.6" = _WQAeLgJn;
+        "pkg-1.0.7" = _nrf2YS8C;
         "default" = _nrf2YS8C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

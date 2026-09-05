@@ -21,6 +21,9 @@ let
         "ZOxcFOzI" = _ZOxcFOzI;
         "aqtPEcTF" = _aqtPEcTF;
         "forge-1.20.1" = _aqtPEcTF;
+        "pkg-1.0.0" = _MSpE3m8B;
+        "pkg-1.1.0" = _ZOxcFOzI;
+        "pkg-1.1.5" = _aqtPEcTF;
         "default" = _aqtPEcTF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

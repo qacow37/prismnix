@@ -44,6 +44,7 @@ let
         "spigot-1.21.9" = _LpUN2mqu;
         "spigot-1.21.10" = _LpUN2mqu;
         "spigot-1.21.11" = _LpUN2mqu;
+        "pkg-1.0" = _LpUN2mqu;
         "default" = _LpUN2mqu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

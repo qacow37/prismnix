@@ -179,6 +179,11 @@ let
         "sponge-26.1.1" = _4aEwD4nz;
         "sponge-26.1.2" = _4aEwD4nz;
         "sponge-26.2" = _4aEwD4nz;
+        "pkg-1.0.0-beta.1" = _3rFPTqoO;
+        "pkg-1.0.0" = _g3lIzAKY;
+        "pkg-1.1.0" = _b0G2sTgB;
+        "pkg-mc26.1-2.0.0" = _yNiNRDPL;
+        "pkg-mc26.2-2.0.0" = _4aEwD4nz;
         "default" = _4aEwD4nz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

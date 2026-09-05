@@ -16,6 +16,8 @@ let
         "w79xtP1X" = _w79xtP1X;
         "fabric-1.20.1" = _2zpApfIq;
         "fabric-1.20.4" = _w79xtP1X;
+        "pkg-0.3.1" = _2zpApfIq;
+        "pkg-0.3.2" = _w79xtP1X;
         "default" = _w79xtP1X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

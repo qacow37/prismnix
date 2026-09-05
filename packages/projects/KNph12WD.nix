@@ -16,6 +16,8 @@ let
         "ichGMY7E" = _ichGMY7E;
         "forge-1.20.1" = _70J59rVJ;
         "forge-1.19.2" = _ichGMY7E;
+        "pkg-1.20.1-0.0.1" = _70J59rVJ;
+        "pkg-1.19.2-0.0.1" = _ichGMY7E;
         "default" = _ichGMY7E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

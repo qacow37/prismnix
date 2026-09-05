@@ -58,6 +58,7 @@ let
         "minecraft-1.18" = _HTEgXkwQ;
         "minecraft-1.18.1" = _HTEgXkwQ;
         "minecraft-1.18.2" = _HTEgXkwQ;
+        "pkg-1.0" = _HTEgXkwQ;
         "default" = _HTEgXkwQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

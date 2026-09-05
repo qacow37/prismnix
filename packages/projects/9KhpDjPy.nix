@@ -80,6 +80,7 @@ let
         "quilt-1.21.2" = _3egsPOnO;
         "quilt-1.21.3" = _3egsPOnO;
         "quilt-1.21.4" = _3egsPOnO;
+        "pkg-1.0.0" = _3egsPOnO;
         "default" = _3egsPOnO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

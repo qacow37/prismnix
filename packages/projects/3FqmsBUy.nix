@@ -16,6 +16,8 @@ let
         "fLNkVr2A" = _fLNkVr2A;
         "fabric-1.20.1" = _fLNkVr2A;
         "forge-1.20.1" = _fLNkVr2A;
+        "pkg-1.0.0" = _KbEJ0B11;
+        "pkg-1.0.1" = _fLNkVr2A;
         "default" = _fLNkVr2A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

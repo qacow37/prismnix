@@ -40,6 +40,11 @@ let
         "quilt-1.21.1" = _ITaiugix;
         "quilt-1.20.1" = _ITaiugix;
         "quilt-1.20.4" = _ITaiugix;
+        "pkg-1.0.0" = _kBg6z8Jp;
+        "pkg-1.0.1" = _fZCzkMNK;
+        "pkg-1.0.2" = _53pfumGr;
+        "pkg-1.0.3" = _tBcnaik2;
+        "pkg-1.0.4" = _ITaiugix;
         "default" = _ITaiugix;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

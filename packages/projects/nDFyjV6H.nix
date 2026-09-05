@@ -10,6 +10,7 @@ let
         "8INrRmRe" = _8INrRmRe;
         "fabric-1.21" = _8INrRmRe;
         "fabric-1.21.1" = _8INrRmRe;
+        "pkg-1.0.0" = _8INrRmRe;
         "default" = _8INrRmRe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

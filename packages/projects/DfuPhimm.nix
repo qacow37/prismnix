@@ -33,6 +33,11 @@ let
         "odlS18ZS" = _odlS18ZS;
         "RhC0jOBn" = _RhC0jOBn;
         "forge-1.20.1" = _RhC0jOBn;
+        "pkg-1.0.0" = _9of513jR;
+        "pkg-1.1.0" = _IRQG82HE;
+        "pkg-1.1.5" = _6XARnMxp;
+        "pkg-1.1.5.5" = _odlS18ZS;
+        "pkg-1.1.6" = _RhC0jOBn;
         "default" = _RhC0jOBn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

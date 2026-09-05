@@ -9,6 +9,7 @@ let
     in {
         "tbDni2fq" = _tbDni2fq;
         "forge-1.20.1" = _tbDni2fq;
+        "pkg-1.0.0" = _tbDni2fq;
         "default" = _tbDni2fq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

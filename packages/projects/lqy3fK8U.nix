@@ -15,6 +15,8 @@ let
         "qlgdr75b" = _qlgdr75b;
         "l2Ruer8W" = _l2Ruer8W;
         "forge-1.19.2" = _l2Ruer8W;
+        "pkg-1.0.2" = _qlgdr75b;
+        "pkg-1.1.0" = _l2Ruer8W;
         "default" = _l2Ruer8W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

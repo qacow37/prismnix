@@ -21,6 +21,9 @@ let
         "bLLWCMA8" = _bLLWCMA8;
         "EwB2VmZw" = _EwB2VmZw;
         "fabric-1.20.1" = _EwB2VmZw;
+        "pkg-1.4-fabric-1.0.0" = _ZK27OOmc;
+        "pkg-1.4-fabric-1.1.0" = _bLLWCMA8;
+        "pkg-1.4-fabric-1.1.1" = _EwB2VmZw;
         "default" = _EwB2VmZw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -150,6 +150,7 @@ let
         "minecraft-26.2-rc-1" = _Zjd4pvlE;
         "minecraft-26.2-rc-2" = _Zjd4pvlE;
         "minecraft-26.2" = _Zjd4pvlE;
+        "pkg-1.0" = _Zjd4pvlE;
         "default" = _Zjd4pvlE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

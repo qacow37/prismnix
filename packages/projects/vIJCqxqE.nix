@@ -31,6 +31,7 @@ let
         "datapack-1.21.1" = _O5iYC5Lh;
         "forge-1.21.1" = _t9Dd7i5n;
         "quilt-1.21.1" = _t9Dd7i5n;
+        "pkg-1.0.0" = _t9Dd7i5n;
         "default" = _t9Dd7i5n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

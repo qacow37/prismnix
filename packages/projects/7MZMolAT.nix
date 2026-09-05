@@ -19,6 +19,7 @@ let
         "fabric-1.21.2" = _2URMA9rA;
         "fabric-1.21.3" = _2URMA9rA;
         "fabric-1.21.4" = _2URMA9rA;
+        "pkg-Release" = _2URMA9rA;
         "default" = _2URMA9rA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

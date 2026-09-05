@@ -182,6 +182,7 @@ let
         "minecraft-1.21.11-rc3" = _EaOMCR4K;
         "minecraft-1.21.11" = _EaOMCR4K;
         "minecraft-26.1-snapshot-1" = _EaOMCR4K;
+        "pkg-1" = _EaOMCR4K;
         "default" = _EaOMCR4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

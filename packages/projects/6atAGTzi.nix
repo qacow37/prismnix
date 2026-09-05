@@ -27,6 +27,10 @@ let
         "gEEECRs7" = _gEEECRs7;
         "CFo9HmNe" = _CFo9HmNe;
         "fabric-1.20.1" = _CFo9HmNe;
+        "pkg-0.1" = _OO4z2G6C;
+        "pkg-0.2" = _BV8kIXEu;
+        "pkg-0.2.1" = _gEEECRs7;
+        "pkg-0.3" = _CFo9HmNe;
         "default" = _CFo9HmNe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

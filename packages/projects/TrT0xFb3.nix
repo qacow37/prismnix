@@ -72,6 +72,7 @@ let
         "minecraft-1.21.6" = _C7eUEP11;
         "minecraft-1.21.7" = _C7eUEP11;
         "minecraft-1.21.8" = _C7eUEP11;
+        "pkg-2.1" = _C7eUEP11;
         "default" = _C7eUEP11;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

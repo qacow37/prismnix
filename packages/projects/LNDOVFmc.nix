@@ -9,6 +9,7 @@ let
     in {
         "sed4F2iL" = _sed4F2iL;
         "forge-1.19.2" = _sed4F2iL;
+        "pkg-0.1" = _sed4F2iL;
         "default" = _sed4F2iL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

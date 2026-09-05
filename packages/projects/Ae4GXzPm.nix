@@ -39,6 +39,12 @@ let
         "iu4G03Fn" = _iu4G03Fn;
         "TYFDeh4d" = _TYFDeh4d;
         "fabric-1.21.11" = _TYFDeh4d;
+        "pkg-0.1.0-beta" = _PB7n6o6V;
+        "pkg-0.2.0-beta" = _954GHqDm;
+        "pkg-0.3.0-beta" = _I4T4aDRv;
+        "pkg-0.4.0-beta" = _6esKbOnL;
+        "pkg-0.5.0-beta" = _iu4G03Fn;
+        "pkg-0.6.0-beta" = _TYFDeh4d;
         "default" = _TYFDeh4d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

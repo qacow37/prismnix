@@ -21,6 +21,9 @@ let
         "xzuHmuxv" = _xzuHmuxv;
         "SY96VZpv" = _SY96VZpv;
         "forge-1.16.5" = _SY96VZpv;
+        "pkg-1.0.1" = _hbgbFJpr;
+        "pkg-1.0.2" = _xzuHmuxv;
+        "pkg-1.0.3" = _SY96VZpv;
         "default" = _SY96VZpv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

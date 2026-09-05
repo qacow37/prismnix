@@ -9,6 +9,7 @@ let
     in {
         "hvCYikeE" = _hvCYikeE;
         "neoforge-1.21.1" = _hvCYikeE;
+        "pkg-1.0.0" = _hvCYikeE;
         "default" = _hvCYikeE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

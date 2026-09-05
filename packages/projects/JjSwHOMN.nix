@@ -9,6 +9,7 @@ let
     in {
         "OjxDdDn6" = _OjxDdDn6;
         "minecraft-1.20" = _OjxDdDn6;
+        "pkg-1" = _OjxDdDn6;
         "default" = _OjxDdDn6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

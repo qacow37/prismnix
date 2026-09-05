@@ -237,6 +237,10 @@ let
         "fabric-22w12a" = _yaYCzMwX;
         "fabric-22w13a" = _yaYCzMwX;
         "fabric-22w13oneblockatatime" = _ip9oGDcW;
+        "pkg-fabric-1.0.0-universal" = _axs57nVF;
+        "pkg-fabric-1.0.0-af2022" = _ip9oGDcW;
+        "pkg-fabric-1.0.2-universal" = _mLeIp42P;
+        "pkg-fabric-1.0.3-universal" = _yaYCzMwX;
         "default" = _yaYCzMwX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

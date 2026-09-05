@@ -15,6 +15,8 @@ let
         "GbOPKMap" = _GbOPKMap;
         "AmqKgYpq" = _AmqKgYpq;
         "fabric-1.21.11" = _AmqKgYpq;
+        "pkg-1.0.0" = _GbOPKMap;
+        "pkg-1.1.0" = _AmqKgYpq;
         "default" = _AmqKgYpq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

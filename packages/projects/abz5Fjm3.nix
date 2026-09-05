@@ -10,6 +10,7 @@ let
         "T13k8nhJ" = _T13k8nhJ;
         "minecraft-1.8.9" = _T13k8nhJ;
         "minecraft-1.9" = _T13k8nhJ;
+        "pkg-1.1" = _T13k8nhJ;
         "default" = _T13k8nhJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

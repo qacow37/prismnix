@@ -28,6 +28,8 @@ let
         "SB9XLa80" = _SB9XLa80;
         "fabric-1.21.11" = _7q5GHOso;
         "neoforge-1.21.11" = _SB9XLa80;
+        "pkg-1.0.0" = _diGeVRDL;
+        "pkg-1.0.1" = _SB9XLa80;
         "default" = _SB9XLa80;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

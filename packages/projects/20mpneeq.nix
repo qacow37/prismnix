@@ -71,6 +71,8 @@ let
         "neoforge-1.21" = _dRchvtmn;
         "neoforge-1.21.1" = _OcCdvz4F;
         "neoforge-1.21.2" = _OcCdvz4F;
+        "pkg-1.0" = _OcCdvz4F;
+        "pkg-1.1" = _Rn14kqvN;
         "default" = _OcCdvz4F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

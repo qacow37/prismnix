@@ -15,6 +15,8 @@ let
         "bii7KlND" = _bii7KlND;
         "Yar1F242" = _Yar1F242;
         "forge-1.20.1" = _Yar1F242;
+        "pkg-1.1.1" = _bii7KlND;
+        "pkg-1.1.2" = _Yar1F242;
         "default" = _Yar1F242;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

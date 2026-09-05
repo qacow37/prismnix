@@ -87,6 +87,17 @@ let
         "neoforge-1.20.1" = _TgyyhU8M;
         "neoforge-1.20.2" = _TgyyhU8M;
         "neoforge-1.21.1" = _tqtMdQcW;
+        "pkg-1.2.0" = _zozEHdgZ;
+        "pkg-1.2.1" = _5tlYo1ZC;
+        "pkg-1.2.2" = _6M1knWz1;
+        "pkg-1.2.3" = _5IObYx8k;
+        "pkg-1.2.4" = _Hhh4QfBS;
+        "pkg-1.2.5" = _BSEfq8p4;
+        "pkg-1.3.1" = _87cULqFj;
+        "pkg-1.2.7" = _qwMnEwGZ;
+        "pkg-1.4.0" = _B6kUZ7Kf;
+        "pkg-1.20.1.1" = _TgyyhU8M;
+        "pkg-1.21.1.1-beta.2" = _tqtMdQcW;
         "default" = _tqtMdQcW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

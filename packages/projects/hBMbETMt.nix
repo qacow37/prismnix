@@ -9,6 +9,7 @@ let
     in {
         "5JnCdYVc" = _5JnCdYVc;
         "neoforge-1.21.1" = _5JnCdYVc;
+        "pkg-1.0.0+slashblade2.0.3-ysm2.6.5" = _5JnCdYVc;
         "default" = _5JnCdYVc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "zHyMoWRI" = _zHyMoWRI;
         "S2f6u8aW" = _S2f6u8aW;
         "forge-1.12.2" = _S2f6u8aW;
+        "pkg-1.12-3.98" = _zHyMoWRI;
+        "pkg-1.12-3.108" = _S2f6u8aW;
         "default" = _S2f6u8aW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

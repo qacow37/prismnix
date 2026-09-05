@@ -54,6 +54,14 @@ let
         "neoforge-1.21.1" = _XrygkNx0;
         "datapack-1.21.1" = _In8NQ8dL;
         "minecraft-1.21.1" = _In8NQ8dL;
+        "pkg-v1.0-mod" = _Qnx63jMa;
+        "pkg-v1.0" = _GnRP1LCa;
+        "pkg-v1.1-mod" = _4C87w8ci;
+        "pkg-v1.1" = _SYITv8yx;
+        "pkg-v1.2-mod" = _ck5iJ3G2;
+        "pkg-v1.2" = _6pvhnOId;
+        "pkg-v1.3-mod" = _XrygkNx0;
+        "pkg-v1.3" = _In8NQ8dL;
         "default" = _In8NQ8dL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -11,6 +11,7 @@ let
         "forge-1.19.2" = _XRbiuBOJ;
         "forge-1.19.3" = _XRbiuBOJ;
         "forge-1.19.4" = _XRbiuBOJ;
+        "pkg-1.0.1" = _XRbiuBOJ;
         "default" = _XRbiuBOJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

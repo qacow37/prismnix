@@ -115,6 +115,7 @@ let
         "minecraft-1.21.7-rc1" = _5c1hddE8;
         "minecraft-1.21.7-rc2" = _5c1hddE8;
         "minecraft-1.21.7" = _5c1hddE8;
+        "pkg-1" = _5c1hddE8;
         "default" = _5c1hddE8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

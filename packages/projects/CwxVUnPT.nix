@@ -46,6 +46,8 @@ let
         "fabric-1.21.6" = _cpecBNt8;
         "fabric-1.21.7" = _cpecBNt8;
         "fabric-1.21.8" = _cpecBNt8;
+        "pkg-1.0.0" = _KVK7fcgj;
+        "pkg-1.1.0" = _cpecBNt8;
         "default" = _cpecBNt8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

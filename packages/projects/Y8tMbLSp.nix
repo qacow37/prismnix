@@ -28,6 +28,8 @@ let
         "VAAXEDbs" = _VAAXEDbs;
         "fabric-1.21.1" = _VAAXEDbs;
         "neoforge-1.21.1" = _GCMTe5w1;
+        "pkg-1.0.0" = _uOqGM7JI;
+        "pkg-1.1" = _VAAXEDbs;
         "default" = _VAAXEDbs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

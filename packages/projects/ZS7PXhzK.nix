@@ -9,6 +9,7 @@ let
     in {
         "yoamUYsA" = _yoamUYsA;
         "forge-1.20.1" = _yoamUYsA;
+        "pkg-1.3.6" = _yoamUYsA;
         "default" = _yoamUYsA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

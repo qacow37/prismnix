@@ -11,6 +11,7 @@ let
         "forge-1.16.3" = _VElYUNCW;
         "forge-1.16.4" = _VElYUNCW;
         "forge-1.16.5" = _VElYUNCW;
+        "pkg-1.16-0.4.6" = _VElYUNCW;
         "default" = _VElYUNCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

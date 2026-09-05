@@ -20,6 +20,7 @@ let
         "fabric-1.21.9" = _rK90FxmX;
         "fabric-1.21.10" = _rK90FxmX;
         "fabric-1.21.11" = _rK90FxmX;
+        "pkg-1.21.1" = _rK90FxmX;
         "default" = _rK90FxmX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

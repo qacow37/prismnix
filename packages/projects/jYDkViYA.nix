@@ -15,6 +15,8 @@ let
         "Wee0nlae" = _Wee0nlae;
         "4HyttlnY" = _4HyttlnY;
         "forge-1.19.2" = _4HyttlnY;
+        "pkg-1.19.2-1.0.0" = _Wee0nlae;
+        "pkg-1.19.2-1.0.1" = _4HyttlnY;
         "default" = _4HyttlnY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

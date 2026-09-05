@@ -16,6 +16,7 @@ let
         "fabric-1.21.9" = _HTF9gMTW;
         "fabric-1.21.10" = _HTF9gMTW;
         "fabric-1.21.11" = _HTF9gMTW;
+        "pkg-1.0.0" = _HTF9gMTW;
         "default" = _HTF9gMTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

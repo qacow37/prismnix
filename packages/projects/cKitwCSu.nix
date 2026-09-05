@@ -21,6 +21,9 @@ let
         "pscDLGeI" = _pscDLGeI;
         "uxSWLWki" = _uxSWLWki;
         "forge-1.7.10" = _uxSWLWki;
+        "pkg-1.0.0" = _68E5neIW;
+        "pkg-1.0.1" = _pscDLGeI;
+        "pkg-1.0.1-noreq" = _uxSWLWki;
         "default" = _uxSWLWki;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

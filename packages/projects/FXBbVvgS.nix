@@ -69,6 +69,16 @@ let
         "cypcAfKY" = _cypcAfKY;
         "2lapOFS4" = _2lapOFS4;
         "forge-1.20.1" = _2lapOFS4;
+        "pkg-1.0.0" = _ccnZ1BRf;
+        "pkg-1.0.1" = _USZm99Dg;
+        "pkg-1.0.2" = _L9mT8UHO;
+        "pkg-1.0.3" = _q3IFS8rk;
+        "pkg-1.0.4" = _dCHKDWne;
+        "pkg-1.0.5" = _azjcUIro;
+        "pkg-1.0.6" = _C6E2Zv84;
+        "pkg-1.0.7" = _PiT7Scu4;
+        "pkg-1.0.8" = _cypcAfKY;
+        "pkg-1.0.9" = _2lapOFS4;
         "default" = _2lapOFS4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

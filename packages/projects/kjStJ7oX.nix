@@ -33,6 +33,9 @@ let
         "forge-1.20.5" = _ATkcFMv5;
         "forge-1.20.6" = _ATkcFMv5;
         "fabric-1.20.1" = _PlRKwOgf;
+        "pkg-1.0.1" = _TEmkFkk1;
+        "pkg-1.0.2" = _PlRKwOgf;
+        "pkg-1.0.3" = _ATkcFMv5;
         "default" = _ATkcFMv5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

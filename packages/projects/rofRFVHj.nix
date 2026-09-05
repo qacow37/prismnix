@@ -10,6 +10,7 @@ let
         "m5p1XtNE" = _m5p1XtNE;
         "forge-1.20.1" = _m5p1XtNE;
         "neoforge-1.20.1" = _m5p1XtNE;
+        "pkg-2.2.1" = _m5p1XtNE;
         "default" = _m5p1XtNE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

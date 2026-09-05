@@ -28,6 +28,10 @@ let
         "jy9id5FF" = _jy9id5FF;
         "quilt-1.20.1" = _Ejzjz2CH;
         "fabric-1.21.1" = _jy9id5FF;
+        "pkg-1.0.0-build.19+mc1.20.1" = _UybfoNN4;
+        "pkg-1.1.0-build.23+mc1.20.1" = _Ejzjz2CH;
+        "pkg-1.1.0+build.29-mc1.21.1" = _h4xJgiG6;
+        "pkg-1.1.1+build.30-mc1.21.1" = _jy9id5FF;
         "default" = _jy9id5FF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

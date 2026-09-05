@@ -221,6 +221,13 @@ let
         "folia-1.20.1" = _kIxMpMMm;
         "quilt-1.20" = _7R5ZIQKK;
         "quilt-1.20.1" = _7R5ZIQKK;
+        "pkg-2.18.17" = _gypQAAD9;
+        "pkg-2.18.19" = _bgdRScdF;
+        "pkg-2.18.14" = _BfJmFUCE;
+        "pkg-2.18.20" = _A0eoKQYw;
+        "pkg-2.18.21" = _K6clWuHM;
+        "pkg-2.18.23" = _LNQMHwHY;
+        "pkg-2.18.24" = _PJrTdgmM;
         "default" = _PJrTdgmM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

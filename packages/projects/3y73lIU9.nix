@@ -84,6 +84,8 @@ let
         "neoforge-1.21.7" = _ULQVgmLo;
         "neoforge-1.21.8" = _ULQVgmLo;
         "spigot-26.1.2" = _5c4Makrp;
+        "pkg-0.4.1" = _qj6XcJiU;
+        "pkg-0.0.1" = _5c4Makrp;
         "default" = _5c4Makrp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

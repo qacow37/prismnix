@@ -34,6 +34,11 @@ let
         "SVG9MSK7" = _SVG9MSK7;
         "forge-1.20.1" = _Fdj4feOM;
         "forge-1.7.10" = _SVG9MSK7;
+        "pkg-0.0.2" = _nk9yznd1;
+        "pkg-1.2.3-BETA" = _Zdnp2zAv;
+        "pkg-0.0.5" = _k0bFbzvX;
+        "pkg-0.1.1" = _Fdj4feOM;
+        "pkg-1.3.6-BETA" = _SVG9MSK7;
         "default" = _SVG9MSK7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

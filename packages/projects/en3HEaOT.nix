@@ -16,6 +16,8 @@ let
         "3IYW39g2" = _3IYW39g2;
         "datapack-1.21.1" = _3p9hEGp8;
         "neoforge-1.21.1" = _3IYW39g2;
+        "pkg-V1.0.0" = _3p9hEGp8;
+        "pkg-V1.0.0+mod" = _3IYW39g2;
         "default" = _3IYW39g2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

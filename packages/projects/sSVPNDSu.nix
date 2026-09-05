@@ -140,6 +140,25 @@ let
         "minecraft-26.1.1" = _pMo64Uqn;
         "minecraft-26.1.2" = _pMo64Uqn;
         "minecraft-26.2" = _pMo64Uqn;
+        "pkg-V13" = _q94QGvYS;
+        "pkg-V15" = _YwqEmDOY;
+        "pkg-18" = _JXRcCopJ;
+        "pkg-32" = _a7SAxMjf;
+        "pkg-46" = _svcOVciG;
+        "pkg-MCD-Blocks-V55" = _hTMs4ovb;
+        "pkg-MCD-Weapons-V55" = _cX63OSW1;
+        "pkg-MCD-Blocks-V64" = _qFwp2j1e;
+        "pkg-MCD-Weapons-V64" = _3oza2v4q;
+        "pkg-MCD-Blocks-V69" = _x321KgvK;
+        "pkg-MCD-Weapons-V69" = _RVAyXX83;
+        "pkg-MCD-Blocks-V75" = _BhWL9hxc;
+        "pkg-MCD-Weapons-V75" = _6IncgG1Q;
+        "pkg-MCD-Blocks-84" = _HaTTyh41;
+        "pkg-MCD-Weapons-84" = _M57E44NZ;
+        "pkg-MCD-Blocks-84.1" = _Vk2MDaup;
+        "pkg-MCD-Weapons-84.1" = _8JbnHU8i;
+        "pkg-MCD-Blocks-88" = _RjaZRVX2;
+        "pkg-MCD-Weapons-88" = _pMo64Uqn;
         "default" = _pMo64Uqn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

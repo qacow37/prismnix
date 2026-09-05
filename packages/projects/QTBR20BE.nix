@@ -49,6 +49,8 @@ let
         "minecraft-1.20.2" = _Nam9WBeI;
         "minecraft-1.20.3" = _Nam9WBeI;
         "minecraft-1.20.4" = _Nam9WBeI;
+        "pkg-1.20_OLDpbr" = _S8dC5VTh;
+        "pkg-1.20_LABpbr" = _Nam9WBeI;
         "default" = _Nam9WBeI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

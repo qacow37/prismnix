@@ -23,6 +23,8 @@ let
         "forge-1.18" = _jBOCVNsa;
         "forge-1.18.1" = _jBOCVNsa;
         "forge-1.18.2" = _jBOCVNsa;
+        "pkg-1.6.5" = _jMWUJ83X;
+        "pkg-1.1" = _jBOCVNsa;
         "default" = _jBOCVNsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

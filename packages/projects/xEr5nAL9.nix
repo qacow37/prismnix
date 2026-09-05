@@ -15,6 +15,7 @@ let
         "paper-1.21.4" = _s9Cc5rkN;
         "paper-1.21.5" = _s9Cc5rkN;
         "paper-1.21.6" = _s9Cc5rkN;
+        "pkg-0.1" = _s9Cc5rkN;
         "default" = _s9Cc5rkN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

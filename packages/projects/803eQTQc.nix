@@ -10,6 +10,7 @@ let
         "r76FbBZm" = _r76FbBZm;
         "fabric-1.20.1" = _r76FbBZm;
         "quilt-1.20.1" = _r76FbBZm;
+        "pkg-1.0.0" = _r76FbBZm;
         "default" = _r76FbBZm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

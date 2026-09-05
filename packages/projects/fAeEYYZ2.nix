@@ -16,6 +16,8 @@ let
         "HPDtv9hI" = _HPDtv9hI;
         "datapack-1.20.1" = _KcPUbUCX;
         "fabric-1.20.1" = _HPDtv9hI;
+        "pkg-1.0.0" = _KcPUbUCX;
+        "pkg-1.0.0+mod" = _HPDtv9hI;
         "default" = _HPDtv9hI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

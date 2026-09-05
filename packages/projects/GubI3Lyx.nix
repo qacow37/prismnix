@@ -38,6 +38,7 @@ let
         "minecraft-1.21.9" = _UcNC5Vs3;
         "minecraft-1.21.10" = _UcNC5Vs3;
         "minecraft-1.21.11" = _UcNC5Vs3;
+        "pkg-V1" = _UcNC5Vs3;
         "default" = _UcNC5Vs3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

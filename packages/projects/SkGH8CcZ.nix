@@ -20,6 +20,7 @@ let
         "fabric-1.21.1" = _wufpfuUD;
         "quilt-1.21" = _wufpfuUD;
         "quilt-1.21.1" = _wufpfuUD;
+        "pkg-2.0.0" = _wufpfuUD;
         "default" = _wufpfuUD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

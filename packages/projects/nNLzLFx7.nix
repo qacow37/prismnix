@@ -27,6 +27,10 @@ let
         "Jcnplu35" = _Jcnplu35;
         "TmYQN78S" = _TmYQN78S;
         "fabric-1.20.1" = _TmYQN78S;
+        "pkg-0.0.1" = _p2I0d8z5;
+        "pkg-0.0.2" = _jUTD3QtT;
+        "pkg-0.0.3" = _Jcnplu35;
+        "pkg-0.0.4" = _TmYQN78S;
         "default" = _TmYQN78S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

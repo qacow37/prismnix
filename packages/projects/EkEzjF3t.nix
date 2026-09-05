@@ -9,6 +9,7 @@ let
     in {
         "zEP3KLn5" = _zEP3KLn5;
         "fabric-1.19.2" = _zEP3KLn5;
+        "pkg-1.0" = _zEP3KLn5;
         "default" = _zEP3KLn5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

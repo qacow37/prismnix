@@ -9,6 +9,7 @@ let
     in {
         "org3ER2r" = _org3ER2r;
         "minecraft-1.20.1" = _org3ER2r;
+        "pkg-1.0.0" = _org3ER2r;
         "default" = _org3ER2r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

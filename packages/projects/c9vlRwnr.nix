@@ -51,6 +51,14 @@ let
         "9JKWeESB" = _9JKWeESB;
         "W60eRaOJ" = _W60eRaOJ;
         "forge-1.7.10" = _W60eRaOJ;
+        "pkg-1.0.1" = _DBp22PGu;
+        "pkg-1.0.2" = _XdYaamnK;
+        "pkg-1.0.2(1)" = _VFJyBdyc;
+        "pkg-1.0.3" = _ne0usPYH;
+        "pkg-1.0.3(reupload)" = _feGMAuVf;
+        "pkg-1.0.4" = _kRCU2tPO;
+        "pkg-1.0.5" = _9JKWeESB;
+        "pkg-1.0.6" = _W60eRaOJ;
         "default" = _W60eRaOJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "eTMVz9Ti" = _eTMVz9Ti;
         "forge-1.20.1" = _eTMVz9Ti;
+        "pkg-1.20.1" = _eTMVz9Ti;
         "default" = _eTMVz9Ti;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

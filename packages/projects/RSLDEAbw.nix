@@ -17,6 +17,7 @@ let
         "fabric-1.21.6" = _QhIct2Qk;
         "fabric-1.21.7" = _QhIct2Qk;
         "fabric-1.21.8" = _QhIct2Qk;
+        "pkg-2.0.1-1.21-fabric" = _QhIct2Qk;
         "default" = _QhIct2Qk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

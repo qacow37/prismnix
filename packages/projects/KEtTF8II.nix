@@ -25,6 +25,7 @@ let
         "minecraft-1.19.3" = _TVWOLeiG;
         "minecraft-1.19.4" = _TVWOLeiG;
         "minecraft-23w14a" = _TVWOLeiG;
+        "pkg-1.0" = _TVWOLeiG;
         "default" = _TVWOLeiG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

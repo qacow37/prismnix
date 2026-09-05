@@ -34,6 +34,9 @@ let
         "fabric-23w13a" = _2kMwQIsa;
         "fabric-23w13a_or_b" = _2kMwQIsa;
         "fabric-23w14a" = _2kMwQIsa;
+        "pkg-1.0.0" = _Kgvmjx9k;
+        "pkg-1.0.1" = _23WLT92y;
+        "pkg-1.0.2" = _2kMwQIsa;
         "default" = _2kMwQIsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

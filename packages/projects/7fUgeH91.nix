@@ -27,6 +27,9 @@ let
         "UONBITrI" = _UONBITrI;
         "aoYTuybH" = _aoYTuybH;
         "fabric-1.21.1" = _aoYTuybH;
+        "pkg-1.0.0" = _Vg5pubYg;
+        "pkg-1.1.0" = _UONBITrI;
+        "pkg-1.3.3" = _aoYTuybH;
         "default" = _aoYTuybH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

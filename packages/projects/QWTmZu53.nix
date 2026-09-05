@@ -10,6 +10,7 @@ let
         "Tj2fhhuD" = _Tj2fhhuD;
         "forge-1.20.1" = _Tj2fhhuD;
         "forge-1.20.2" = _Tj2fhhuD;
+        "pkg-1.20.1" = _Tj2fhhuD;
         "default" = _Tj2fhhuD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

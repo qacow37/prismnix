@@ -38,6 +38,7 @@ let
         "fabric-1.21.9" = _lfBSazof;
         "fabric-1.21.10" = _lfBSazof;
         "fabric-1.21.11" = _lfBSazof;
+        "pkg-0.1-Alpha" = _lfBSazof;
         "default" = _lfBSazof;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

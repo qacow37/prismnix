@@ -33,6 +33,11 @@ let
         "NYcF2iHr" = _NYcF2iHr;
         "vnyJbqx3" = _vnyJbqx3;
         "fabric-1.20.1" = _vnyJbqx3;
+        "pkg-1.0.0+1.20.1" = _497DozCt;
+        "pkg-1.0.0m+1.20.1" = _xPks6Ekh;
+        "pkg-1.0.1+1.20.1" = _y0gaJYOj;
+        "pkg-1.0.1h+1.20.1" = _NYcF2iHr;
+        "pkg-1.0.2" = _vnyJbqx3;
         "default" = _vnyJbqx3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

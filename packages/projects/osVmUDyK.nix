@@ -9,6 +9,7 @@ let
     in {
         "Cy9cZmsk" = _Cy9cZmsk;
         "minecraft-1.19.4" = _Cy9cZmsk;
+        "pkg-1.1" = _Cy9cZmsk;
         "default" = _Cy9cZmsk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

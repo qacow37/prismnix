@@ -16,6 +16,7 @@ let
         "RAF7tsph" = _RAF7tsph;
         "forge-1.20.1" = _J4etIxuY;
         "fabric-1.20.1" = _RAF7tsph;
+        "pkg-1.1.1" = _RAF7tsph;
         "default" = _RAF7tsph;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

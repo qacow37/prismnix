@@ -11,6 +11,7 @@ let
         "fabric-1.20" = _tjet779X;
         "fabric-1.20.1" = _tjet779X;
         "fabric-1.20.2" = _tjet779X;
+        "pkg-1.0.0" = _tjet779X;
         "default" = _tjet779X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

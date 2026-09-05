@@ -59,6 +59,11 @@ let
         "iris-26.1" = _KHDU4PJM;
         "iris-26.1.1" = _KHDU4PJM;
         "iris-26.1.2" = _KHDU4PJM;
+        "pkg-0.0.6" = _O7wz267L;
+        "pkg-1.0.0" = _OwHzQGjp;
+        "pkg-1.0.1" = _xIV0ZnWo;
+        "pkg-1.0.2" = _AFtovjCb;
+        "pkg-1.0.3" = _KHDU4PJM;
         "default" = _KHDU4PJM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

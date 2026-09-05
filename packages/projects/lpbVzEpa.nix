@@ -11,6 +11,7 @@ let
         "fabric-1.18" = _SCCOiPMD;
         "fabric-1.18.1" = _SCCOiPMD;
         "fabric-1.18.2" = _SCCOiPMD;
+        "pkg-1.0.0" = _SCCOiPMD;
         "default" = _SCCOiPMD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

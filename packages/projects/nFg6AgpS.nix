@@ -80,6 +80,7 @@ let
         "spigot-1.21.9" = _SeR5Ehzn;
         "spigot-1.21.10" = _SeR5Ehzn;
         "spigot-1.21.11" = _SeR5Ehzn;
+        "pkg-1.0-SNAPSHOT" = _SeR5Ehzn;
         "default" = _SeR5Ehzn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

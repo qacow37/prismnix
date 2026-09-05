@@ -9,6 +9,7 @@ let
     in {
         "pCUpdBgp" = _pCUpdBgp;
         "fabric-1.20.1" = _pCUpdBgp;
+        "pkg-0.1" = _pCUpdBgp;
         "default" = _pCUpdBgp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

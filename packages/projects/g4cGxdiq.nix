@@ -20,6 +20,8 @@ let
         "forge-1.20.4" = _EPtWv2H8;
         "forge-1.20.5" = _EPtWv2H8;
         "forge-1.20.6" = _EPtWv2H8;
+        "pkg-0.3.8-for-create-6.0.6" = _EPtWv2H8;
+        "pkg-0.4.1-for-create-6.0.6" = _m4pNXtVl;
         "default" = _m4pNXtVl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

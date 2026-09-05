@@ -26,6 +26,7 @@ let
         "minecraft-1.21.8" = _ORSYseWX;
         "minecraft-1.21.9" = _ORSYseWX;
         "minecraft-1.21.10" = _ORSYseWX;
+        "pkg-v1.4" = _ORSYseWX;
         "default" = _ORSYseWX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

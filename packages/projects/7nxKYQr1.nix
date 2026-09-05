@@ -21,6 +21,9 @@ let
         "QEZDNan2" = _QEZDNan2;
         "RtZDxQCS" = _RtZDxQCS;
         "minecraft-1.20.1" = _RtZDxQCS;
+        "pkg-0.1" = _GQ6EramM;
+        "pkg-0.2" = _QEZDNan2;
+        "pkg-0.2.1" = _RtZDxQCS;
         "default" = _RtZDxQCS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

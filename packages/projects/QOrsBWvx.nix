@@ -46,6 +46,8 @@ let
         "spigot-1.20.4" = _KDp7leax;
         "spigot-1.20.5" = _KDp7leax;
         "spigot-1.20.6" = _KDp7leax;
+        "pkg-1.0-Regular" = _6W0cZcx1;
+        "pkg-1.0-TAB" = _KDp7leax;
         "default" = _KDp7leax;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

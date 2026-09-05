@@ -34,6 +34,7 @@ let
         "fabric-1.20.4" = _X6BmmEDD;
         "fabric-1.20.5" = _X6BmmEDD;
         "fabric-1.20.6" = _X6BmmEDD;
+        "pkg-1.0.0" = _X6BmmEDD;
         "default" = _X6BmmEDD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

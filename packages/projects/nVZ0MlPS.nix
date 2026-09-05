@@ -9,6 +9,7 @@ let
     in {
         "L1apkcuo" = _L1apkcuo;
         "minecraft-1.8.9" = _L1apkcuo;
+        "pkg-1.0" = _L1apkcuo;
         "default" = _L1apkcuo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

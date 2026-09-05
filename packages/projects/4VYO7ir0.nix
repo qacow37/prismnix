@@ -15,6 +15,7 @@ let
         "fabric-1.20.2" = _KIzyS8hk;
         "fabric-1.20.4" = _KIzyS8hk;
         "fabric-1.21.1" = _KIzyS8hk;
+        "pkg-1.0" = _KIzyS8hk;
         "default" = _KIzyS8hk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

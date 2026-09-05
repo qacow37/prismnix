@@ -28,6 +28,9 @@ let
         "RUZ0WXad" = _RUZ0WXad;
         "forge-1.20" = _RUZ0WXad;
         "forge-1.20.1" = _RUZ0WXad;
+        "pkg-1.0.0" = _8ktGJOSr;
+        "pkg-1.1.0" = _EOBFBD94;
+        "pkg-1.1.1" = _RUZ0WXad;
         "default" = _RUZ0WXad;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

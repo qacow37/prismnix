@@ -9,6 +9,7 @@ let
     in {
         "NWXrimD0" = _NWXrimD0;
         "neoforge-1.21.1" = _NWXrimD0;
+        "pkg-1.0.0" = _NWXrimD0;
         "default" = _NWXrimD0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

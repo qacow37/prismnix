@@ -15,6 +15,8 @@ let
         "H7sicF18" = _H7sicF18;
         "aErpHUas" = _aErpHUas;
         "forge-1.20.1" = _aErpHUas;
+        "pkg-1.0.0" = _H7sicF18;
+        "pkg-1.0.1" = _aErpHUas;
         "default" = _aErpHUas;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -28,6 +28,8 @@ let
         "T2dnrLLF" = _T2dnrLLF;
         "forge-1.20.1" = _T2dnrLLF;
         "neoforge-1.21.1" = _WRQUVw6x;
+        "pkg-2.0.0" = _T1ykSBHd;
+        "pkg-2.0.1" = _T2dnrLLF;
         "default" = _T2dnrLLF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

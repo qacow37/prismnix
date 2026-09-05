@@ -16,6 +16,8 @@ let
         "3DykRd7R" = _3DykRd7R;
         "forge-1.19.2" = _fJMWtZuE;
         "fabric-1.19.2" = _3DykRd7R;
+        "pkg-1-forge" = _fJMWtZuE;
+        "pkg-1-fabric" = _3DykRd7R;
         "default" = _3DykRd7R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

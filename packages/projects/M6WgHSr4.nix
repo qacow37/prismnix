@@ -21,6 +21,9 @@ let
         "fIFZbAY2" = _fIFZbAY2;
         "tKVeS05u" = _tKVeS05u;
         "forge-1.20.1" = _tKVeS05u;
+        "pkg-0.0.1-1.20.1" = _iRthPmPH;
+        "pkg-0.0.2-1.20.1" = _fIFZbAY2;
+        "pkg-0.0.3-1.20.1" = _tKVeS05u;
         "default" = _tKVeS05u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -9,6 +9,7 @@ let
     in {
         "gLxTCgiB" = _gLxTCgiB;
         "fabric-1.21.1" = _gLxTCgiB;
+        "pkg-1.0.0" = _gLxTCgiB;
         "default" = _gLxTCgiB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

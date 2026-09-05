@@ -58,6 +58,15 @@ let
         "HuAiK6KD" = _HuAiK6KD;
         "quilt-1.19.2" = _j9rf34i6;
         "quilt-1.20.1" = _HuAiK6KD;
+        "pkg-1.0.0+1.19.2" = _6oWxP4ZV;
+        "pkg-1.0.1+1.19.2" = _mMAwaXAc;
+        "pkg-1.0.2+1.19.2" = _WSzsAxLj;
+        "pkg-1.0.3+1.19.2" = _nNYBxvzt;
+        "pkg-1.0.3+1.20.1" = _Qrj0Cj63;
+        "pkg-1.0.4+1.19.2" = _jzbb060Z;
+        "pkg-1.0.4+1.20.1" = _c0Im5K08;
+        "pkg-1.0.5+1.19.2" = _j9rf34i6;
+        "pkg-1.0.5+1.20.1" = _HuAiK6KD;
         "default" = _HuAiK6KD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

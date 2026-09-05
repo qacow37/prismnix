@@ -15,6 +15,8 @@ let
         "jdpBeHOr" = _jdpBeHOr;
         "2RsYsp9m" = _2RsYsp9m;
         "minecraft-1.21.1" = _2RsYsp9m;
+        "pkg-CobbleTCG_ResourcePack5-1.0.0" = _jdpBeHOr;
+        "pkg-CobbleTCG_ResourcePack5-1.5.0" = _2RsYsp9m;
         "default" = _2RsYsp9m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

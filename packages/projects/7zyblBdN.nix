@@ -47,6 +47,8 @@ let
         "minecraft-1.18" = _tBoKsOxs;
         "minecraft-1.18.1" = _tBoKsOxs;
         "minecraft-1.18.2" = _tBoKsOxs;
+        "pkg-1.0.0" = _wzmE2nIc;
+        "pkg-1.0.1" = _tBoKsOxs;
         "default" = _tBoKsOxs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

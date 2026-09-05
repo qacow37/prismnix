@@ -323,6 +323,27 @@ let
         "waterfall-26.1.1" = _pRq7ZFNI;
         "waterfall-26.1.2" = _pRq7ZFNI;
         "waterfall-26.2" = _pRq7ZFNI;
+        "pkg-0.0.1-dev.dc9c5a0" = _n2EQB3ey;
+        "pkg-0.0.1-dev.e648090" = _huxFGnUv;
+        "pkg-0.0.1-dev.5bb9009" = _hKKdMcdg;
+        "pkg-0.0.1-dev.cfec6f8" = _qrlqz3Ow;
+        "pkg-0.0.1-dev.982b5c4" = _SUbyaFVa;
+        "pkg-0.0.1-dev.326e53b" = _uTdvcNrE;
+        "pkg-0.0.1-dev.8b9bb51" = _41BD8esa;
+        "pkg-0.0.1-dev.6abdae6" = _EBlBQmZr;
+        "pkg-0.0.1-dev.851ffd7" = _Hjc7f91G;
+        "pkg-0.0.1-dev.ae5b071" = _rlS92L3I;
+        "pkg-0.0.1-dev.b721710" = _afsdlJ9I;
+        "pkg-0.0.1-dev.05e2486" = _RsjohAcu;
+        "pkg-0.0.1-dev.e3350b4" = _rTnDGFCU;
+        "pkg-0.0.1-dev.ad58857" = _4pjHl86m;
+        "pkg-0.0.1-dev.14c2abe" = _TIl4Y3uQ;
+        "pkg-0.0.1-dev.a1c17b1" = _JdeioBvy;
+        "pkg-0.0.2-dev.dc2f0d4" = _y2U6Aio7;
+        "pkg-0.0.3-dev.3a56ecd" = _cb9ulD50;
+        "pkg-0.0.4-dev.e4afc81" = _GuGclBft;
+        "pkg-0.0.5-dev.ebd82fb" = _SQJsU3gP;
+        "pkg-0.0.6-dev.6c7f302" = _SqNLC4d6;
         "default" = _SqNLC4d6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

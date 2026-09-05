@@ -9,6 +9,7 @@ let
     in {
         "TUAblDzn" = _TUAblDzn;
         "forge-1.20.1" = _TUAblDzn;
+        "pkg-1.0.0" = _TUAblDzn;
         "default" = _TUAblDzn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

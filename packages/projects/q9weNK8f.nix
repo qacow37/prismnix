@@ -9,6 +9,7 @@ let
     in {
         "ZX8VMGGV" = _ZX8VMGGV;
         "forge-1.16.5" = _ZX8VMGGV;
+        "pkg-Pre-1.0" = _ZX8VMGGV;
         "default" = _ZX8VMGGV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

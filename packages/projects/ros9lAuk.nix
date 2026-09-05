@@ -22,6 +22,9 @@ let
         "tk9tDFz1" = _tk9tDFz1;
         "babric-b1.7.3" = _tk9tDFz1;
         "fabric-b1.7.3" = _tk9tDFz1;
+        "pkg-1.0.0" = _YbxZpz1M;
+        "pkg-1.1.0" = _BLqPql7c;
+        "pkg-1.1.1" = _tk9tDFz1;
         "default" = _tk9tDFz1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

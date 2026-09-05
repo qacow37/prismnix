@@ -11,6 +11,7 @@ let
         "fabric-1.21.9" = _5GNpaXQI;
         "fabric-1.21.10" = _5GNpaXQI;
         "fabric-1.21.11" = _5GNpaXQI;
+        "pkg-v0.5.0-beta" = _5GNpaXQI;
         "default" = _5GNpaXQI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

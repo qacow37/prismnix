@@ -24,6 +24,7 @@ let
         "minecraft-1.19.2" = _PpW7dQ4g;
         "minecraft-1.19.3" = _PpW7dQ4g;
         "minecraft-1.19.4" = _PpW7dQ4g;
+        "pkg-1.8" = _PpW7dQ4g;
         "default" = _PpW7dQ4g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

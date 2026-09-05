@@ -27,6 +27,10 @@ let
         "qrulEn2n" = _qrulEn2n;
         "RbcIOOvK" = _RbcIOOvK;
         "minecraft-1.20.1" = _RbcIOOvK;
+        "pkg-1.1" = _r08PaRlE;
+        "pkg-1.2" = _uKREFarv;
+        "pkg-1.8" = _qrulEn2n;
+        "pkg-2.0" = _RbcIOOvK;
         "default" = _RbcIOOvK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

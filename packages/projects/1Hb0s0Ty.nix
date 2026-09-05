@@ -9,6 +9,7 @@ let
     in {
         "FJMcrwyd" = _FJMcrwyd;
         "fabric-1.19.3" = _FJMcrwyd;
+        "pkg-1.0.0" = _FJMcrwyd;
         "default" = _FJMcrwyd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

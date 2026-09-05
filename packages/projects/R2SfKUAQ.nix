@@ -27,6 +27,9 @@ let
         "FWAFm2sJ" = _FWAFm2sJ;
         "Dn70GGDG" = _Dn70GGDG;
         "forge-1.16.5" = _Dn70GGDG;
+        "pkg-3.9" = _yCyGAo7E;
+        "pkg-2.5.0" = _FWAFm2sJ;
+        "pkg-2.7.0" = _Dn70GGDG;
         "default" = _Dn70GGDG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

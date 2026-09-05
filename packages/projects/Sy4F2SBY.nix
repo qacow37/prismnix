@@ -15,6 +15,8 @@ let
         "oO5dio7v" = _oO5dio7v;
         "FnmfscLR" = _FnmfscLR;
         "forge-1.20.1" = _FnmfscLR;
+        "pkg-1.0.1" = _oO5dio7v;
+        "pkg-2.0.0" = _FnmfscLR;
         "default" = _FnmfscLR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

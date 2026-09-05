@@ -29,6 +29,7 @@ let
         "quilt-26.1.1" = _BXE5PvpK;
         "quilt-26.1.2" = _BXE5PvpK;
         "quilt-26.2" = _BXE5PvpK;
+        "pkg-2.0.0" = _BXE5PvpK;
         "default" = _BXE5PvpK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -15,6 +15,8 @@ let
         "P7S0hCSh" = _P7S0hCSh;
         "UP38Reiy" = _UP38Reiy;
         "forge-1.20.1" = _UP38Reiy;
+        "pkg-1.0.0" = _P7S0hCSh;
+        "pkg-1.0.1" = _UP38Reiy;
         "default" = _UP38Reiy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

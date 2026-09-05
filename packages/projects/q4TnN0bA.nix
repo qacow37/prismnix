@@ -9,6 +9,7 @@ let
     in {
         "XLc2VUcW" = _XLc2VUcW;
         "fabric-1.20.4" = _XLc2VUcW;
+        "pkg-1.1.3+1.20.4" = _XLc2VUcW;
         "default" = _XLc2VUcW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

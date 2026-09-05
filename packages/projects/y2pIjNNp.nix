@@ -70,6 +70,15 @@ let
         "paper-26.2" = _SEuWUii2;
         "spigot-1.21.3" = _zEUeCCDc;
         "spigot-1.21.4" = _jU3fIRVu;
+        "pkg-1.0.3-1.21.3" = _zEUeCCDc;
+        "pkg-1.0.3-1.21.4" = _5LXO1ELn;
+        "pkg-1.1.0-1.21.4" = _jU3fIRVu;
+        "pkg-1.1.0-1.21.5" = _biHyi5Wm;
+        "pkg-1.1.0-1.21.7" = _5v4efBN3;
+        "pkg-1.1.0-1.21.9" = _zr5J0wOG;
+        "pkg-1.1.0-1.21.11" = _vqnvf4i4;
+        "pkg-1.1.0-26.1.2" = _qVDscBEy;
+        "pkg-1.1.0-26.2" = _SEuWUii2;
         "default" = _SEuWUii2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

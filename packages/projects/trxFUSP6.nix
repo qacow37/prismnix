@@ -15,6 +15,8 @@ let
         "m3GhVFIn" = _m3GhVFIn;
         "dznoCa5Q" = _dznoCa5Q;
         "fabric-1.19.2" = _dznoCa5Q;
+        "pkg-1.9.4-1.19.2" = _m3GhVFIn;
+        "pkg-1.9.5-1.19.2" = _dznoCa5Q;
         "default" = _dznoCa5Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

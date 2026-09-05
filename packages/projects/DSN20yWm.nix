@@ -25,6 +25,9 @@ let
         "datapack-1.21.1" = _DZqBGDnp;
         "minecraft-1.20.1" = _82nxqtTh;
         "minecraft-1.21" = _82nxqtTh;
+        "pkg-CobbleDian_0.1" = _82nxqtTh;
+        "pkg-CobbleDian_1.0" = _TLUHy078;
+        "pkg-CobbleDian_1.3" = _DZqBGDnp;
         "default" = _DZqBGDnp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -37,6 +37,8 @@ let
         "minecraft-1.21.2" = _BnSCiCbt;
         "minecraft-1.21.3" = _BnSCiCbt;
         "minecraft-1.21.4" = _BnSCiCbt;
+        "pkg-1.0.0" = _dJljHgUn;
+        "pkg-1.0.1" = _BnSCiCbt;
         "default" = _BnSCiCbt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

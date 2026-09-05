@@ -143,6 +143,27 @@ let
         "minecraft-1.20.1" = _ndEEosd0;
         "minecraft-1.21" = _Vd2D3sXN;
         "minecraft-1.21.1" = _Vd2D3sXN;
+        "pkg-mjolnir_128" = _CjlKT8VV;
+        "pkg-stormbreaker_128" = _1BE6pbCt;
+        "pkg-mjolnir_128_b" = _ZuXjozLT;
+        "pkg-cap_512" = _wZqLOuv6;
+        "pkg-mjolnir_512_a" = _2m1pXqMg;
+        "pkg-stormbreaker_512_a" = _qfpHMNZw;
+        "pkg-stormbreaker_512_b" = _X5B0fjVU;
+        "pkg-thunderbolt_512" = _Q4NbLypk;
+        "pkg-thor_odinson" = _6FiCoAKJ;
+        "pkg-mighty_thor_reactive" = _ndEEosd0;
+        "pkg-CapShield512_1_21_1" = _O6WdPfib;
+        "pkg-MCU_Mjolnir512_Reimagined_1_21_1" = _mPORCley;
+        "pkg-OUTDATED_MCU_Mjolnir_128x" = _6Y4Hq1B3;
+        "pkg-MCU_Mjolnir512_Cracked_1_21_1" = _nSUIcYiT;
+        "pkg-MCU_Mjolnir512_Intact_1_21_1" = _ctHdp4lE;
+        "pkg-OUTDATED_Stormbreaker128x" = _b2YqgJvm;
+        "pkg-MCU_Stormbreaker512_H_1_21_1" = _1Fx1utZ7;
+        "pkg-MCU_Stormbreaker512_V_1_21_1" = _uSeKPpHK;
+        "pkg-MCU_Thunderbolt512_1_21_1" = _ZJXaPnGD;
+        "pkg-MCU_Mjolnir_128x_1_21_1_v2" = _zkvSDsJ8;
+        "pkg-MCU_Stormbreaker_128x_v2_1_21_1" = _Vd2D3sXN;
         "default" = _Vd2D3sXN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

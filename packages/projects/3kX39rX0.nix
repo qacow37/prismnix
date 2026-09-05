@@ -15,6 +15,8 @@ let
         "zi5oxnLh" = _zi5oxnLh;
         "qLUonIb7" = _qLUonIb7;
         "neoforge-1.21.1" = _qLUonIb7;
+        "pkg-0.0.1" = _zi5oxnLh;
+        "pkg-1.0.0" = _qLUonIb7;
         "default" = _qLUonIb7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

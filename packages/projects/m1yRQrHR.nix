@@ -9,6 +9,7 @@ let
     in {
         "YyziniG3" = _YyziniG3;
         "forge-1.12.2" = _YyziniG3;
+        "pkg-1.12.2-1.0.4" = _YyziniG3;
         "default" = _YyziniG3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

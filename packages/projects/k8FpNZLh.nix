@@ -18,6 +18,7 @@ let
         "forge-1.20.1" = _6LyXj13O;
         "datapack-1.20" = _vFupR3gz;
         "datapack-1.20.1" = _vFupR3gz;
+        "pkg-1.0.0" = _vFupR3gz;
         "default" = _vFupR3gz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

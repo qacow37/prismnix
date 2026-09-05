@@ -65,6 +65,7 @@ let
         "minecraft-1.20" = _MukEOxHi;
         "minecraft-1.20.1" = _MukEOxHi;
         "minecraft-1.20.2" = _MukEOxHi;
+        "pkg-1.0" = _MukEOxHi;
         "default" = _MukEOxHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

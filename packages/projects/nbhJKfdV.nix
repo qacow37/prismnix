@@ -40,6 +40,12 @@ let
         "JPdddesI" = _JPdddesI;
         "forge-1.20.1" = _JPdddesI;
         "neoforge-1.20.1" = _JPdddesI;
+        "pkg-0.0.1" = _QVbAmqCV;
+        "pkg-1.0.0-SNAPSHOT+2" = _GahI5GRy;
+        "pkg-1.0.0-SNAPSHOT+3" = _CPBZOHCd;
+        "pkg-1.0.0-SNAPSHOT+4" = _94WjrP0c;
+        "pkg-1.0.0-SNAPSHOT+5" = _uylB44a3;
+        "pkg-1.0.0-SNAPSHOT+6" = _JPdddesI;
         "default" = _JPdddesI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

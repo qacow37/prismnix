@@ -23,6 +23,7 @@ let
         "fabric-1.20.2" = _xg3ArXdz;
         "fabric-1.20.3" = _xg3ArXdz;
         "fabric-1.20.4" = _xg3ArXdz;
+        "pkg-1.0.0" = _xg3ArXdz;
         "default" = _xg3ArXdz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

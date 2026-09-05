@@ -52,6 +52,10 @@ let
         "AnsIGsWP" = _AnsIGsWP;
         "neoforge-1.21.1" = _fGFCcolu;
         "fabric-1.21.1" = _AnsIGsWP;
+        "pkg-1.0.0" = _dhi45Zlc;
+        "pkg-1.1.0" = _OtJYQjHD;
+        "pkg-1.2.1" = _PJzXFmO1;
+        "pkg-1.2.2" = _AnsIGsWP;
         "default" = _AnsIGsWP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

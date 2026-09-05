@@ -16,6 +16,8 @@ let
         "cVO0AIIv" = _cVO0AIIv;
         "fabric-1.16.5" = _dtM63MEn;
         "fabric-1.19.3" = _cVO0AIIv;
+        "pkg-v0.0.2" = _dtM63MEn;
+        "pkg-0.1.0" = _cVO0AIIv;
         "default" = _cVO0AIIv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

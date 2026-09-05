@@ -21,6 +21,9 @@ let
         "Fc8v4WyZ" = _Fc8v4WyZ;
         "AsyHEMv1" = _AsyHEMv1;
         "forge-1.20.1" = _AsyHEMv1;
+        "pkg-0.0.30.7" = _XxbtWnFh;
+        "pkg-0.0.45.2" = _Fc8v4WyZ;
+        "pkg-0.0.46.11" = _AsyHEMv1;
         "default" = _AsyHEMv1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

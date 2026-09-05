@@ -39,6 +39,12 @@ let
         "STMjzYU1" = _STMjzYU1;
         "OzTYPVTD" = _OzTYPVTD;
         "forge-1.20.1" = _OzTYPVTD;
+        "pkg-0.0.1" = _AlYCzKFm;
+        "pkg-0.0.2" = _9NKZxWhX;
+        "pkg-0.0.3" = _VCVxGNCm;
+        "pkg-0.0.4" = _77apHDT6;
+        "pkg-0.0.5" = _STMjzYU1;
+        "pkg-0.0.6" = _OzTYPVTD;
         "default" = _OzTYPVTD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

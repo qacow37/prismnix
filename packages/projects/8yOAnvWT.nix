@@ -12,6 +12,7 @@ let
         "fabric-1.21.1" = _gh4SdOcz;
         "quilt-1.21" = _gh4SdOcz;
         "quilt-1.21.1" = _gh4SdOcz;
+        "pkg-1.0" = _gh4SdOcz;
         "default" = _gh4SdOcz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

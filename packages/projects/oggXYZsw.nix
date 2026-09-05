@@ -286,6 +286,9 @@ let
         "spigot-26.1.1" = _DRWd5Ai3;
         "spigot-26.1.2" = _DRWd5Ai3;
         "spigot-26.2" = _DRWd5Ai3;
+        "pkg-1.0.0.0" = _DRWd5Ai3;
+        "pkg-1.0.0.1" = _fLAviSZJ;
+        "pkg-1.0.0.1+mod" = _9aw3aLez;
         "default" = _DRWd5Ai3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

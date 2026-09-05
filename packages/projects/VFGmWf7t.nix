@@ -15,6 +15,8 @@ let
         "NQbPGtNp" = _NQbPGtNp;
         "rVYNBGf8" = _rVYNBGf8;
         "forge-1.20.1" = _rVYNBGf8;
+        "pkg-1.0.0" = _NQbPGtNp;
+        "pkg-1.1.0" = _rVYNBGf8;
         "default" = _rVYNBGf8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

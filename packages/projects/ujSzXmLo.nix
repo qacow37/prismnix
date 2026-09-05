@@ -15,6 +15,8 @@ let
         "AYBEIT1E" = _AYBEIT1E;
         "jiw2BlSW" = _jiw2BlSW;
         "fabric-1.20.1" = _jiw2BlSW;
+        "pkg-1.0.0" = _AYBEIT1E;
+        "pkg-1.1.0" = _jiw2BlSW;
         "default" = _jiw2BlSW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

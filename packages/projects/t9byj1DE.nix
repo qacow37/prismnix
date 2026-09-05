@@ -21,6 +21,9 @@ let
         "NusERmy2" = _NusERmy2;
         "zB7lMIyZ" = _zB7lMIyZ;
         "fabric-1.20.1" = _zB7lMIyZ;
+        "pkg-0.1-1.20.1" = _Qp4jq4uA;
+        "pkg-0.2-1.20.1" = _NusERmy2;
+        "pkg-0.3-1.20.1" = _zB7lMIyZ;
         "default" = _zB7lMIyZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

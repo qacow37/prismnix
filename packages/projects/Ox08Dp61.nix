@@ -14,6 +14,7 @@ let
         "fabric-1.16.3" = _ZWsMxgDL;
         "fabric-1.16.4" = _ZWsMxgDL;
         "fabric-1.16.5" = _ZWsMxgDL;
+        "pkg-1.1.0+1.16" = _ZWsMxgDL;
         "default" = _ZWsMxgDL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

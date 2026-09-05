@@ -16,6 +16,8 @@ let
         "vr7WMAhi" = _vr7WMAhi;
         "fabric-1.20.1" = _vSRdZ23t;
         "fabric-1.21.1" = _vr7WMAhi;
+        "pkg-1.0" = _vSRdZ23t;
+        "pkg-1.21.1-1.0" = _vr7WMAhi;
         "default" = _vr7WMAhi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

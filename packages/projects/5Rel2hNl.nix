@@ -20,6 +20,7 @@ let
         "neoforge-1.20.1" = _L60LNn5J;
         "neoforge-1.21" = _L60LNn5J;
         "neoforge-1.21.1" = _L60LNn5J;
+        "pkg-1.0.0" = _L60LNn5J;
         "default" = _L60LNn5J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
