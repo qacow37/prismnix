@@ -14,5 +14,6 @@
 ## Adding New Examples
 Adding new examples is welcome because it helps newer
 contributors to contribute. If you think your module for a mod
-can server as an example, please make sure it is commented and
-note it in your PR.
+can serve as an example, please make sure it is clearly commented
+and note in your PR that you would like it to be featured
+as an example.
