@@ -116,6 +116,22 @@
                             "volume" = v;
                         }
                     ) config.sound-controller.settings.sounds;
+
+                    #
+                    # Version field exists in config.
+                    # Must be set to a valid version like `4`,
+                    # otherwise sound-controller will ignore
+                    # the config file.
+                    #
+                    # For all minecraft versions, a sound-controller
+                    # version is available which uses
+                    # version `4` of the mod
+                    # so we can always set it to `4`.
+                    #
+                    # The `rawConfig` option exists if
+                    # the config is invalid for a specific version.
+                    #
+                    "version" = 4;
                 };
             };
     };

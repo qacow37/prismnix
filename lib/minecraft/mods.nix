@@ -36,6 +36,11 @@
                 example = true;
                 description = "Whether to disable generating the config file";
             };
+            rawConfig = lib.mkOption {
+                type = lib.types.nullOr lib.types.lines;
+                default = null;
+                description = "Raw plain-text content of the config file, gets ignord if null";
+            };
         }
     );
 
@@ -104,10 +109,13 @@
         lib.mkIf (cfg.disable == false) {
             file = {
                 "mods.config.${filename}" = {
-                    text = (mkConfigContent
-                        format
-                        content
-                    );
+                    text = if cfg.rawConfig == null
+                        then (mkConfigContent
+                            format
+                            content
+                        )
+                        else cfg.rawConfig;
+
                     copy = copy;
                     target = path;
                 };
