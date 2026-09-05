@@ -84,6 +84,17 @@ the version to a specific version:
 programs.prismnix.instances."My Instance" = {
     minecraft = {
         packages = [
+            (pkgs.sound-controller.override {
+                # Pin it to a specific version name.
+                # The version name is a human readable
+                # alternative to the version ID and
+                # can be easily found on Modrinth.
+                #
+                # Uses the "pkg" prefix so "pkg-{version-name}".
+                #
+                version = "pkg-1.2.2";
+            })
+
             (pkgs.sodium.override {
                 # Pin it to a specific version
                 # by using the version ID.

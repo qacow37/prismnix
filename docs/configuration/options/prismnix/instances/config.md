@@ -8,7 +8,7 @@ Whether to ignore the java compatibility
 boolean
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -24,7 +24,7 @@ Whether to enable overriding the java installation
 boolean
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -40,7 +40,7 @@ Path to the java binary
 absolute path
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -56,7 +56,7 @@ The maximum memory in MiB
 signed integer
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -72,7 +72,7 @@ The minimum memory in MiB
 signed integer
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -88,7 +88,7 @@ Whether to enable overriding memory
 boolean
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -104,7 +104,7 @@ The PermGen in MiB
 signed integer
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -128,7 +128,7 @@ string
 ```
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -144,7 +144,7 @@ Height of the game window
 signed integer
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -160,7 +160,7 @@ Hide the launcher when opening the games window
 boolean
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -176,7 +176,7 @@ Whether to launch the game maximized
 boolean
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -192,7 +192,7 @@ Whether to enable overriding the game window
 boolean
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -208,7 +208,7 @@ Quit the launcher when closing the games window
 boolean
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
 
@@ -224,6 +224,6 @@ Width of the game window
 signed integer
 
 *Declared by:*
- - [/nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config\.nix](file:///nix/store/fgffxhbmh8aky4jyf7fv2bm63r8zhr4j-source/options/config.nix)
+ - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config\.nix](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/config.nix)
 
 
