@@ -58,8 +58,13 @@
                 in
                 ''
                     $RUN mkdir -p "$(dirname ${dst})"
+                    ${lib.optionalString
+                        (!file.force)
+                        "if [[ ! -e ${dst} ]]; then"
+                    }
                     $RUN cp -rfL ${src} ${dst}
                     $RUN chmod -R u+w ${dst}
+                    ${lib.optionalString (!file.force) "fi"}
                 ''
             ) copyfiles}
         '';

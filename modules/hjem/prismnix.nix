@@ -82,7 +82,7 @@
                     {
                         "prismnix-copyfile/${k}/${rel}" = {
                             enable = true;
-                            clobber = v.force;
+                            clobber = file.force;
                             source = p;
                             target = "${v.path}/${rel}";
                             type = "copy";

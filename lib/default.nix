@@ -12,7 +12,7 @@
         minecraft  = import ./minecraft    args;
         modules    = import ./modules      args;
         path       = import ./path.nix     args;
-        pkgs       = import ./pkgs.nix     args;
+        pkgs       = import ./pkgs         args;
         toml       = import ./toml         args;
         mc = minecraft;
 

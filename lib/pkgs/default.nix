@@ -1,34 +1,66 @@
-{lib, ...}: rec
+{lib, ...}@args: rec
 {
-    mkPackage = {stdenv, name, type, src, filename?"", meta?{}, ...}:
-    let
-        dsts = {
-            "mod" = "mods";
-            "resourcepack" = "resourcepacks";
-            "shader" = "shaderpacks";
-            "plugin" = "plugins";
+    mkFilePackage = import ./mkFilePackage.nix args;
+    mkModPackage = import ./mkModPackage.nix args;
+    mkPluginPackage = import ./mkPluginPackage.nix args;
+    mkResourcePackPackage = import ./mkResourcePackPackage.nix args;
+    mkShaderPackage = import ./mkShaderPackage.nix args;
+
+    mkMRPackPackage = import ./mrpack/mkMRPackPackage.nix args;
+    mkMRIndex1 = import ./mrpack/mkMRIndex1.nix args;
+
+    mkPackage = {
+        stdenv,
+        name,
+        unzip,
+        type,
+        src,
+        filename ? "",
+        meta ? {},
+    }: let
+        types = {
+            "mod" = mkModPackage {
+                stdenv = stdenv;
+                name = name;
+                src = src;
+                filename = filename;
+                meta = meta;
+            };
+            "resourcepack" = mkResourcePackPackage {
+                stdenv = stdenv;
+                name = name;
+                src = src;
+                filename = filename;
+                meta = meta;
+            };
+            "shader" = mkShaderPackage {
+                stdenv = stdenv;
+                name = name;
+                src = src;
+                filename = filename;
+                meta = meta;
+            };
+            "plugin" = mkPluginPackage {
+                stdenv = stdenv;
+                name = name;
+                src = src;
+                filename = filename;
+                meta = meta;
+            };
+            "mrpack" = mkMRPackPackage {
+                stdenv = stdenv;
+                name = name;
+                src = src;
+                unzip = unzip;
+            };
         };
-        dst = dsts.${type};
-    in stdenv.mkDerivation {
-        name = name;
-        src = src;
-
-        dontConfigure = true;
-        dontBuild = true;
-        dontUnpack = true;
-        meta = meta;
-
-        installPhase = let o = "$out/minecraft/"; in
-        ''
-            mkdir -p "${o}/${dst}/"
-            cp $src "${o}/${dst}/${filename}"
-        '';
-    };
+    in types.${type};
 
     mkVersionedModrinthPkg = {
         stdenv,
         fetchurl,
         name,
+        unzip,
         id,
         type,
         version,
@@ -42,7 +74,11 @@
                 else throw "version `${version}` not found for project `${name}` with id `${id}`. URL: https://modrinth.com/project/${id}/versions"
         );
     in mkPackage {
-        inherit stdenv name type;
+        inherit
+            stdenv
+            unzip
+            name
+            type;
         meta = meta // {
             project = {
                 id = id;
@@ -63,17 +99,18 @@
     mkModrinthPkg = {
         stdenv,
         fetchurl,
+        unzip,
         name,
         id,
         type,
         version,
         mkurl ? mkModrinthUrl,
         meta ? {},
-        ...
     }: mkVersionedModrinthPkg {
         inherit
             stdenv
             fetchurl
+            unzip
             name
             id
             type
@@ -85,12 +122,13 @@
     mkModrinthUrl = {project, version, file}: "https://cdn.modrinth.com/data/${project}/versions/${version}/${lib.escapeURL file}";
 
     mkVersionedModrinthPkgFn = args:
-        {stdenv, fetchurl, version?"default"}:
+        {stdenv, fetchurl, unzip, version?"default"}:
             mkVersionedModrinthPkg (
                 args // {
                     inherit
                         stdenv
                         fetchurl
+                        unzip
                         version;
                 }
             );
