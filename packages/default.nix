@@ -4,4 +4,9 @@ let
         lib = lib;
         callPackage = pkgs.callPackage;
     };
-in proj
+in proj // {
+    prismgen = (pkgs.callPackage
+        ../prismgen/package.nix
+        {}
+    );
+}

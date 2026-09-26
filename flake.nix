@@ -58,6 +58,20 @@
             pkgs = nixpkgs.legacyPackages.${system};
         in
         {
+            devShells = {
+                prismgen = pkgs.mkShellNoCC {
+                    packages = with pkgs; [
+                        pyright
+                        python3
+                        python3Packages.requests
+                        python3Packages.requests-ratelimiter
+                        python3Packages.packaging
+                        python3Packages.typer
+                        python3Packages.jinja2
+                    ];
+                };
+            };
+
             docs = import ./docs {
                 lib = lib;
                 inputs = inputs;
