@@ -1,0 +1,17 @@
+{
+    "facets": [
+        [
+            "project_type:mod",
+            "project_type:resourcepack",
+            "project_type:shader",
+            "project_type:plugin"
+        ],
+        ["downloads>=2500"]
+    ],
+    "limit": 100,
+    "offset": 0,
+
+    "additional": [
+        "HcmkRU4q"
+    ]
+}
