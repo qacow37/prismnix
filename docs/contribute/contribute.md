@@ -14,6 +14,7 @@ your help is appreciated.
   - [Suggesting Enhancements](#suggesting-enhancements)
   - [Areas of Contribution](#areas-of-contribution)
 - [Technical Guidelines](#technical-guidelines)
+  - [Basic Information](#basic-information)
   - [Adding New Mod Options](#adding-new-mod-options)
   - [Adding New PrismLauncher Instance Options](#adding-new-prismlauncher-instance-options)
   - [Adding New Instance Options](#adding-new-instance-options)
@@ -59,6 +60,14 @@ However, the following areas have currently the highest priority:
 ---
 
 ## Technical Guidelines
+
+### Basic Information
+Before cloning this repository or a fork of it,
+it is recommended to deactivate the automatic download
+of lfs files if `git-lfs` is installed.
+
+The repository contains a flairly large database
+which you may not want to download.
 
 ### Adding New Mod Options
 Please refer to the documentation for mod-specific options.
