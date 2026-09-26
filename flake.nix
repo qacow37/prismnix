@@ -59,6 +59,12 @@
         in
         {
             devShells = {
+                default = pkgs.mkShellNoCC {
+                    packages = with pkgs; [
+                        git
+                        git-lfs
+                    ];
+                };
                 prismgen = pkgs.mkShellNoCC {
                     packages = with pkgs; [
                         pyright
