@@ -71,6 +71,11 @@ let
             "file" = "bedrockbreaker-1.1.5.jar";
             "hash" = "sha512-RzB8DwnTY2kJcxQIwVy3LpOkCRlOdqBQw6qL52C4bCGOJVrWg6kQiyuQ0iMs9lyR/tnUryp2OFKNE3/BS0tAww==";
         };
+        _ihhRS58Y = {
+            "id" = "ihhRS58Y";
+            "file" = "BedrockBreaker-1.1.6.zip";
+            "hash" = "sha512-JP865u0g4ExZqh3gbKfjBhUBrmZopS2VJQVDwvixxVzkYY9XY25CmMjG91GJsBu07prC5sGHf3KChRKw9u1s9Q==";
+        };
     in {
         "QhyySUWH" = _QhyySUWH;
         "UB6dYLLr" = _UB6dYLLr;
@@ -86,6 +91,7 @@ let
         "IFUxxciS" = _IFUxxciS;
         "qchH7M72" = _qchH7M72;
         "ZxIF5lK4" = _ZxIF5lK4;
+        "ihhRS58Y" = _ihhRS58Y;
         "datapack-1.19" = _QhyySUWH;
         "datapack-1.19.1" = _QhyySUWH;
         "datapack-1.19.2" = _QhyySUWH;
@@ -110,9 +116,11 @@ let
         "datapack-1.21.9" = _7pkcgtjT;
         "datapack-1.21.10" = _7pkcgtjT;
         "datapack-1.21.11" = _7pkcgtjT;
-        "datapack-26.1" = _qchH7M72;
-        "datapack-26.1.1" = _qchH7M72;
-        "datapack-26.1.2" = _qchH7M72;
+        "datapack-26.1" = _ihhRS58Y;
+        "datapack-26.1.1" = _ihhRS58Y;
+        "datapack-26.1.2" = _ihhRS58Y;
+        "datapack-26.2" = _ihhRS58Y;
+        "datapack-26.3" = _ihhRS58Y;
         "fabric-1.19" = _Ys7t1PcC;
         "fabric-1.19.1" = _Ys7t1PcC;
         "fabric-1.19.2" = _Ys7t1PcC;
@@ -235,7 +243,8 @@ let
         "pkg-1.1.4+mod" = _IFUxxciS;
         "pkg-1.1.5" = _qchH7M72;
         "pkg-1.1.5+mod" = _ZxIF5lK4;
-        "default" = _ZxIF5lK4;
+        "pkg-1.1.6" = _ihhRS58Y;
+        "default" = _ihhRS58Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrockbreaker";

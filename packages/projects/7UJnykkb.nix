@@ -21,11 +21,17 @@ let
             "file" = "3D-animated-totem-of-undying-26.1.1.zip";
             "hash" = "sha512-1WuuWxfx97Dtj3j3cV/1cG5KbAdO0XUFyf/JeMeqlT5algBEK6driNFApI+DZfdI3a4tAtWy3pcdQFCOvxlDGA==";
         };
+        _IQiwWWm3 = {
+            "id" = "IQiwWWm3";
+            "file" = "3D-animated-totem-of-undying-26.1.1.zip";
+            "hash" = "sha512-LqzPjE0TKtlspTHSey89kema/2MLzscNAf9YgwXpiyE905J9HsRYIctOvVmkUrOE+Fb9Qjz260yVORZfVqTqFA==";
+        };
     in {
         "DYrJTvN6" = _DYrJTvN6;
         "nQooWz5K" = _nQooWz5K;
         "CF8GvKSf" = _CF8GvKSf;
         "MzFtLJsi" = _MzFtLJsi;
+        "IQiwWWm3" = _IQiwWWm3;
         "minecraft-1.20" = _CF8GvKSf;
         "minecraft-1.20.1" = _CF8GvKSf;
         "minecraft-1.20.2" = _CF8GvKSf;
@@ -45,13 +51,17 @@ let
         "minecraft-1.21.9" = _CF8GvKSf;
         "minecraft-1.21.10" = _CF8GvKSf;
         "minecraft-1.21.11" = _CF8GvKSf;
-        "minecraft-26.1" = _MzFtLJsi;
-        "minecraft-26.1.1" = _MzFtLJsi;
+        "minecraft-26.1" = _IQiwWWm3;
+        "minecraft-26.1.1" = _IQiwWWm3;
+        "minecraft-26.1.2" = _IQiwWWm3;
+        "minecraft-26.2" = _IQiwWWm3;
+        "minecraft-26.3" = _IQiwWWm3;
         "pkg-1.0.0" = _DYrJTvN6;
         "pkg-1.0.1" = _nQooWz5K;
         "pkg-1.0.2" = _CF8GvKSf;
         "pkg-1.0.3" = _MzFtLJsi;
-        "default" = _MzFtLJsi;
+        "pkg-1.0.4" = _IQiwWWm3;
+        "default" = _IQiwWWm3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-animated-totem-of-undying";

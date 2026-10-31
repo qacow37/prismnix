@@ -41,6 +41,11 @@ let
             "file" = "Demon Eye Phantoms v4.1.zip";
             "hash" = "sha512-uL6ny+bPD8Ra3H3BhRyyMGBB2ONsVZTfUR989RzUbkQ5xCPhjyBez2vqdaWb16XL287E1fyOXxSIfTkLhKaeeg==";
         };
+        _4Be770X0 = {
+            "id" = "4Be770X0";
+            "file" = "Demon Eye Phantoms v4.2.zip";
+            "hash" = "sha512-55U1LvkOTX8lqOP0Ngq5H5wHGeox4/P5IK5Wg4vywx5ay0SPQ9cpnO13GO6tiXjqpSfb22uUcDbyiZKNPXFX9A==";
+        };
     in {
         "2dhFqa03" = _2dhFqa03;
         "2XFQDp1Y" = _2XFQDp1Y;
@@ -50,6 +55,7 @@ let
         "fiCS71PO" = _fiCS71PO;
         "bILR5BRB" = _bILR5BRB;
         "fFoU5eQ4" = _fFoU5eQ4;
+        "4Be770X0" = _4Be770X0;
         "minecraft-1.18" = _fFoU5eQ4;
         "minecraft-1.18.1" = _fFoU5eQ4;
         "minecraft-1.18.2" = _fFoU5eQ4;
@@ -122,6 +128,11 @@ let
         "minecraft-24w44a" = _fFoU5eQ4;
         "minecraft-24w45a" = _fFoU5eQ4;
         "minecraft-24w46a" = _fFoU5eQ4;
+        "minecraft-26.1" = _4Be770X0;
+        "minecraft-26.1.1" = _4Be770X0;
+        "minecraft-26.1.2" = _4Be770X0;
+        "minecraft-26.2" = _4Be770X0;
+        "minecraft-26.3" = _4Be770X0;
         "pkg-1" = _2dhFqa03;
         "pkg-2" = _2XFQDp1Y;
         "pkg-3" = _8JB5ZQBu;
@@ -130,7 +141,8 @@ let
         "pkg-3.3" = _fiCS71PO;
         "pkg-4.0" = _bILR5BRB;
         "pkg-4.1" = _fFoU5eQ4;
-        "default" = _fFoU5eQ4;
+        "pkg-v4.2" = _4Be770X0;
+        "default" = _4Be770X0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "demon-eye-phantoms";

@@ -136,6 +136,11 @@ let
             "file" = "Enchantment Outlines.zip";
             "hash" = "sha512-wd36p+wn1ywe5hFmeYjKLfsm1axJuJv7uDfXR234FrRX4kSIJAp17ZKfnUS/XAk7Ar0qVstJkxaiR9NpA/zeRw==";
         };
+        _RZESSQH8 = {
+            "id" = "RZESSQH8";
+            "file" = "Enchantment Outlines.zip";
+            "hash" = "sha512-n4mDWZ50CLE32WEHIXaMIal+aEi0aEHfwyRjG1Hdl2GpxeMQKTfPRaGEwF1kqaE28dP5SdSjVlllrK4eS6//UA==";
+        };
     in {
         "DtaFEqXs" = _DtaFEqXs;
         "m2NmWflj" = _m2NmWflj;
@@ -164,10 +169,11 @@ let
         "qX4zagvp" = _qX4zagvp;
         "JtnHjGTs" = _JtnHjGTs;
         "2OjKyOYN" = _2OjKyOYN;
-        "minecraft-1.21.5" = _2OjKyOYN;
-        "minecraft-1.21.4" = _2OjKyOYN;
+        "RZESSQH8" = _RZESSQH8;
+        "minecraft-1.21.5" = _RZESSQH8;
+        "minecraft-1.21.4" = _RZESSQH8;
         "minecraft-1.21" = _2ldNvURF;
-        "minecraft-1.21.1" = _2OjKyOYN;
+        "minecraft-1.21.1" = _RZESSQH8;
         "minecraft-1.20.5" = _2ldNvURF;
         "minecraft-1.20.6" = _2ldNvURF;
         "minecraft-1.21.2" = _2ldNvURF;
@@ -175,21 +181,21 @@ let
         "minecraft-1.19.3" = _xJMCwaMw;
         "minecraft-1.19.4" = _xJMCwaMw;
         "minecraft-1.20" = _xJMCwaMw;
-        "minecraft-1.20.1" = _2OjKyOYN;
+        "minecraft-1.20.1" = _RZESSQH8;
         "minecraft-1.20.2" = _xJMCwaMw;
         "minecraft-1.20.4" = _xJMCwaMw;
         "minecraft-1.20.3" = _xJMCwaMw;
-        "minecraft-1.21.6" = _2OjKyOYN;
-        "minecraft-1.21.7" = _2OjKyOYN;
-        "minecraft-1.21.8" = _2OjKyOYN;
-        "minecraft-1.21.9" = _2OjKyOYN;
-        "minecraft-1.21.10" = _2OjKyOYN;
-        "minecraft-1.21.11" = _2OjKyOYN;
-        "minecraft-26.1" = _2OjKyOYN;
-        "minecraft-26.1.1" = _2OjKyOYN;
-        "minecraft-26.1.2" = _2OjKyOYN;
-        "minecraft-26.2" = _2OjKyOYN;
-        "minecraft-26.3" = _2OjKyOYN;
+        "minecraft-1.21.6" = _RZESSQH8;
+        "minecraft-1.21.7" = _RZESSQH8;
+        "minecraft-1.21.8" = _RZESSQH8;
+        "minecraft-1.21.9" = _RZESSQH8;
+        "minecraft-1.21.10" = _RZESSQH8;
+        "minecraft-1.21.11" = _RZESSQH8;
+        "minecraft-26.1" = _RZESSQH8;
+        "minecraft-26.1.1" = _RZESSQH8;
+        "minecraft-26.1.2" = _RZESSQH8;
+        "minecraft-26.2" = _RZESSQH8;
+        "minecraft-26.3" = _RZESSQH8;
         "pkg-1.0" = _DtaFEqXs;
         "pkg-1.1-1.21.4" = _m2NmWflj;
         "pkg-1.1-1.21.5" = _1aAHKCj2;
@@ -215,7 +221,8 @@ let
         "pkg-1.10.7" = _qX4zagvp;
         "pkg-1.10.8" = _JtnHjGTs;
         "pkg-1.10.9" = _2OjKyOYN;
-        "default" = _2OjKyOYN;
+        "pkg-2.0" = _RZESSQH8;
+        "default" = _RZESSQH8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-glints";

@@ -226,6 +226,16 @@ let
             "file" = "nerb-fabric-0.4.3+26.3.jar";
             "hash" = "sha512-7LwEu/H+V/ga1PYZ2ykfPVm5i1MNRw9ipGTXdjmQIOXwqdheUjufLqgmwTdDf/Q6VycCW4tBscExuOiEG8OayQ==";
         };
+        _HUqOXJBn = {
+            "id" = "HUqOXJBn";
+            "file" = "nerb-fabric-0.5+26.3.jar";
+            "hash" = "sha512-SYNyfhgVm5LphUwnfI3kMgNM69vutT/1K2PL05u7bpCy81qa2dqdYRQPnCSr+44NZ6cWyo+MzgzsAeZKF1mcPA==";
+        };
+        _DaV9FJyL = {
+            "id" = "DaV9FJyL";
+            "file" = "nerb-neoforge-0.5+26.3.jar";
+            "hash" = "sha512-URyQdeinOSjs7fUO1qAvwXxKPbpKnf/LULUSKnDRlDQZ8Vg+R4OhXee7PULwIzCra7j3gqyOXQ2/wyivS4hPHA==";
+        };
     in {
         "TXL5AFHt" = _TXL5AFHt;
         "hRhjlsGv" = _hRhjlsGv;
@@ -272,6 +282,8 @@ let
         "yziDsCIm" = _yziDsCIm;
         "PJpxjdTX" = _PJpxjdTX;
         "OR32qzkD" = _OR32qzkD;
+        "HUqOXJBn" = _HUqOXJBn;
+        "DaV9FJyL" = _DaV9FJyL;
         "fabric-1.20" = _TXL5AFHt;
         "fabric-1.20.1" = _hiLb6QFe;
         "fabric-1.19.4" = _21LpGT5f;
@@ -287,7 +299,7 @@ let
         "fabric-1.21.4" = _xXZC30LF;
         "fabric-1.21.11" = _tO5tW5BW;
         "fabric-26.1.2" = _tUGovhzl;
-        "fabric-26.3" = _OR32qzkD;
+        "fabric-26.3" = _HUqOXJBn;
         "forge-1.20" = _hRhjlsGv;
         "forge-1.20.1" = _xXV9YBzF;
         "forge-1.19.4" = _pS6CtSMa;
@@ -321,7 +333,7 @@ let
         "neoforge-1.21.4" = _XcMsdfOD;
         "neoforge-1.21.11" = _vkdV8sM5;
         "neoforge-26.1.2" = _yziDsCIm;
-        "neoforge-26.3" = _PJpxjdTX;
+        "neoforge-26.3" = _DaV9FJyL;
         "pkg-0.3" = _hygTWrEc;
         "pkg-0.3.1" = _TF263yIt;
         "pkg-0.4" = _LcOyiz2j;
@@ -331,7 +343,8 @@ let
         "pkg-0.4.3" = _tO5tW5BW;
         "pkg-0.4.3+26.1.2" = _yziDsCIm;
         "pkg-0.4.3+26.3" = _OR32qzkD;
-        "default" = _OR32qzkD;
+        "pkg-0.5+26.3" = _DaV9FJyL;
+        "default" = _DaV9FJyL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notenoughrecipebook";

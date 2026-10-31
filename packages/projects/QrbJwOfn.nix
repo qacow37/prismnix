@@ -46,6 +46,21 @@ let
             "file" = "ae2ltpp-1.2.2-beta3.jar";
             "hash" = "sha512-ixWcyjKvQkyci3cWRswxQhhFdFydsIYCRr6uu5M1u2XnHX7bkNVbcgRCuR1nTgGCQbjQjZR8cF6fml/scGTXdQ==";
         };
+        _EuDTVbOQ = {
+            "id" = "EuDTVbOQ";
+            "file" = "ae2ltpp-1.2.2.jar";
+            "hash" = "sha512-bBGoVqmmIvKRcLOnJMJDJ8kCtRKmlcOCZwAgPKilGUQfv4wFC67Bp6OGWHvMmbp8NXlPbG06UnsuZC26wu4M3A==";
+        };
+        _P6TncGXV = {
+            "id" = "P6TncGXV";
+            "file" = "ae2ltpp-forge-1.20.1-1.2.2-beta2.jar";
+            "hash" = "sha512-Bb06c4ow7QQfGk9xfVqMROxopdrBlsYWqn4OJOFVCdLtKEMSJvmdSPaMR+Zj7mjlpK49YWLxWMF1BssjfIIPWA==";
+        };
+        _YeSj4awV = {
+            "id" = "YeSj4awV";
+            "file" = "ae2ltpp-1.2.3.jar";
+            "hash" = "sha512-sY6PGzvvkRW417VeDJ08HDkfoE8MNGA42Pmk2Eaj+QsBIdeW790XttOf8zPC51QjIv8htOu3YGcH1toKYKolbg==";
+        };
     in {
         "sHCYUdOr" = _sHCYUdOr;
         "iTehfd8X" = _iTehfd8X;
@@ -56,7 +71,11 @@ let
         "gpNiszro" = _gpNiszro;
         "aWws6IeK" = _aWws6IeK;
         "pH04p8KN" = _pH04p8KN;
-        "neoforge-1.21.1" = _pH04p8KN;
+        "EuDTVbOQ" = _EuDTVbOQ;
+        "P6TncGXV" = _P6TncGXV;
+        "YeSj4awV" = _YeSj4awV;
+        "neoforge-1.21.1" = _YeSj4awV;
+        "forge-1.20.1" = _P6TncGXV;
         "pkg-1.0.0" = _sHCYUdOr;
         "pkg-1.0.1" = _iTehfd8X;
         "pkg-1.1.1" = _lwX4Hpyv;
@@ -66,7 +85,10 @@ let
         "pkg-1.2.2-beta" = _gpNiszro;
         "pkg-1.2.2-beta2" = _aWws6IeK;
         "pkg-1.2.2-beta3" = _pH04p8KN;
-        "default" = _pH04p8KN;
+        "pkg-1.2.2" = _EuDTVbOQ;
+        "pkg-1.2.2-beta2-forge.1.20.1" = _P6TncGXV;
+        "pkg-1.2.3" = _YeSj4awV;
+        "default" = _YeSj4awV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2lt-packaged-pattern-provider";

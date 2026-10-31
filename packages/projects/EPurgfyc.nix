@@ -86,6 +86,31 @@ let
             "file" = "Glint-and-Glamour-1.8.0-26.1.2.jar";
             "hash" = "sha512-O5KxXYSdpL1vt9swIkvtqgYkPszYnDMC9QKK+jlTV567j+i9iVxvDGQl0S5iDlv5/n8JNR26lFWMzksMU3CZxA==";
         };
+        _X6p7lSQb = {
+            "id" = "X6p7lSQb";
+            "file" = "Glint-and-Glamour-1.9.0-1.20.1.jar";
+            "hash" = "sha512-muqEzjQxWU0TccYB8sVYBSDKi4RGda8duW+lMVLDFAWrFQbMYT568w9I98lqM9+tI6ijtfx+6KIUEU7oS/cYeQ==";
+        };
+        _8XrpubD2 = {
+            "id" = "8XrpubD2";
+            "file" = "Glint-and-Glamour-1.9.0-1.21.1.jar";
+            "hash" = "sha512-VPr9ckd2a/fc+cn7Qg8MrIwh+C4e8mQol42TLjdUvA4fR+uYaYyUWClDFR3yh+Xm0MRIF5MwLN7iQUF1eRrEDg==";
+        };
+        _FN8klggJ = {
+            "id" = "FN8klggJ";
+            "file" = "Glint-and-Glamour-1.9.0-26.1.2.jar";
+            "hash" = "sha512-7e/dbYS0q0Ii3j+PhlgUpkVhiBSCCi28Q70tuqCD7Xn2hpDTZiSv12pPI/x/67ezxo1sGBdp2Puzyb2BoVhg9Q==";
+        };
+        _lKkPPxZI = {
+            "id" = "lKkPPxZI";
+            "file" = "Glint-and-Glamour-1.9.0-26.2.jar";
+            "hash" = "sha512-zHWAeNtBvX0z7CGK104aXZR096529HovDjcq8aZqUXakmTeGqguL3S1gJFrTygWJZ2ureFox8J+AaYOlaKgl7A==";
+        };
+        _6jQ18PWF = {
+            "id" = "6jQ18PWF";
+            "file" = "Glint-and-Glamour-1.9.0-26.3.jar";
+            "hash" = "sha512-85il09tC9UU1SMC5+zE1+QN/G1+eoFshEmWRUhtBqa7xR/77NXrU2eLSVFB4q2tTKTnCVnb5+Cmx84ou31ogWA==";
+        };
     in {
         "qZeH9lK1" = _qZeH9lK1;
         "IpGplJWS" = _IpGplJWS;
@@ -104,9 +129,16 @@ let
         "ex7CV5WJ" = _ex7CV5WJ;
         "KeOUoe88" = _KeOUoe88;
         "HBaDiVr9" = _HBaDiVr9;
-        "forge-1.20.1" = _ex7CV5WJ;
-        "neoforge-1.21.1" = _KeOUoe88;
-        "neoforge-26.1.2" = _HBaDiVr9;
+        "X6p7lSQb" = _X6p7lSQb;
+        "8XrpubD2" = _8XrpubD2;
+        "FN8klggJ" = _FN8klggJ;
+        "lKkPPxZI" = _lKkPPxZI;
+        "6jQ18PWF" = _6jQ18PWF;
+        "forge-1.20.1" = _X6p7lSQb;
+        "neoforge-1.21.1" = _8XrpubD2;
+        "neoforge-26.1.2" = _FN8klggJ;
+        "neoforge-26.2" = _lKkPPxZI;
+        "neoforge-26.3" = _6jQ18PWF;
         "pkg-1.0.0" = _qZeH9lK1;
         "pkg-1.1.0" = _IpGplJWS;
         "pkg-1.1.1" = _jIKBK1Jm;
@@ -124,7 +156,12 @@ let
         "pkg-1.8.0-Forge-1.20.1" = _ex7CV5WJ;
         "pkg-1.8.0-NeoForge-1.21.1" = _KeOUoe88;
         "pkg-1.8.0-NeoForge-26.1.2" = _HBaDiVr9;
-        "default" = _HBaDiVr9;
+        "pkg-1.9.0-Forge-1.20.1" = _X6p7lSQb;
+        "pkg-1.9.0-NeoForge-1.21.1" = _8XrpubD2;
+        "pkg-1.9.0-NeoForge-26.1.2" = _FN8klggJ;
+        "pkg-1.9.0-NeoForge-26.2" = _lKkPPxZI;
+        "pkg-1.9.0-NeoForge-26.3" = _6jQ18PWF;
+        "default" = _6jQ18PWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glint-and-glamour";

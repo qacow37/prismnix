@@ -41,6 +41,11 @@ let
             "file" = "glintcolorizer-3.0.1+1.8.9.jar";
             "hash" = "sha512-NNMtWm0zqDOWZVCMgWLyMCp1tLMtQDGu5IHcZ8MswcBamUyrZf2xdqLQLSHGi7V/T8Kv+8UHLwqH38G61zlA/Q==";
         };
+        _xR6O9ZuX = {
+            "id" = "xR6O9ZuX";
+            "file" = "glintcolorizer-3.0.2+1.8.9.jar";
+            "hash" = "sha512-LhSr3HoSZKZMsALuzzvy8z3GxFM1R3AN+y1GdNMCwgsS4uMZML1IU2c71Q0mXHhDl339slI/rm2Stnsmb4EuLQ==";
+        };
     in {
         "Vhepxcqj" = _Vhepxcqj;
         "DnXdUxSe" = _DnXdUxSe;
@@ -50,16 +55,18 @@ let
         "i2vyXyRv" = _i2vyXyRv;
         "zr9pqvBL" = _zr9pqvBL;
         "HPOAvgJ5" = _HPOAvgJ5;
+        "xR6O9ZuX" = _xR6O9ZuX;
         "forge-1.8.9" = _i2vyXyRv;
         "forge-1.12.2" = _h6we3nZT;
-        "ornithe-1.8.9" = _HPOAvgJ5;
+        "ornithe-1.8.9" = _xR6O9ZuX;
         "pkg-v1.0.1" = _DnXdUxSe;
         "pkg-v1.0.2" = _h6we3nZT;
         "pkg-v2.0.0" = _UkWDIZMQ;
         "pkg-v2.0.1" = _i2vyXyRv;
         "pkg-v3.0.0" = _zr9pqvBL;
         "pkg-v3.0.1" = _HPOAvgJ5;
-        "default" = _HPOAvgJ5;
+        "pkg-v3.0.2" = _xR6O9ZuX;
+        "default" = _xR6O9ZuX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glintcolorizer";

@@ -46,6 +46,11 @@ let
             "file" = "firework-trades-1.0.0.jar";
             "hash" = "sha512-NAozrspcFhxcrASZNh68OB2URztsqsBi67nxzDUkfmFrk4NOFJ80ZvHDH517XZUfXmW6dSOaO86cvF5o0cgCaw==";
         };
+        _bSXRIVAj = {
+            "id" = "bSXRIVAj";
+            "file" = "fireworkvillagers-26.3-Recode.jar";
+            "hash" = "sha512-aQJs+jtIEc5xnEPU5XMHPvaFe1k1LoVrKKEXUcM1fQGx9vifnL5o+g2JPtTclJkl1D7nsC+YDmv9cJwCJ4H7Kg==";
+        };
     in {
         "GmQH08aW" = _GmQH08aW;
         "1Az2tZRn" = _1Az2tZRn;
@@ -56,6 +61,7 @@ let
         "Q7MLrYJi" = _Q7MLrYJi;
         "CRBSwExv" = _CRBSwExv;
         "yvahVWYc" = _yvahVWYc;
+        "bSXRIVAj" = _bSXRIVAj;
         "fabric-1.21.5" = _1Az2tZRn;
         "fabric-1.21.4" = _1Az2tZRn;
         "fabric-1.21.10" = _3IEWvIpx;
@@ -72,6 +78,7 @@ let
         "fabric-1.21.1" = _Q7MLrYJi;
         "fabric-1.21.2" = _CRBSwExv;
         "fabric-1.21.3" = _CRBSwExv;
+        "fabric-26.3" = _bSXRIVAj;
         "forge-26.2" = _yvahVWYc;
         "pkg-1.0.0" = _4BZim6r1;
         "pkg-1.0.0-1.21.10" = _3IEWvIpx;
@@ -80,7 +87,8 @@ let
         "pkg-1.0.0-1.21.1" = _Q7MLrYJi;
         "pkg-1.0.0-1.21.3" = _CRBSwExv;
         "pkg-26.2-Forge" = _yvahVWYc;
-        "default" = _yvahVWYc;
+        "pkg-26.3" = _bSXRIVAj;
+        "default" = _bSXRIVAj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firework-villager";

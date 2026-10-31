@@ -541,6 +541,16 @@ let
             "file" = "bank-vault-1.5.0+26.3-neoforge.jar";
             "hash" = "sha512-RCdogXm39jngoL7uqcXI2X+QAcQfqNcUTiJ5K4sm8Iy1v05USSe7IZf75fXUALYx8qv5jO2TUdJ5FOqNAFxkEg==";
         };
+        _zNTvLP3f = {
+            "id" = "zNTvLP3f";
+            "file" = "bank-vault-1.5.5+26.3-fabric.jar";
+            "hash" = "sha512-bV3J9o2sEBe9TEPndGVknG1uM7JVCqwUXaJNkcBoXhPYU8GXlTLnVvDzKJEIcJvvfytDNhkoj2ggPCBloBmBSw==";
+        };
+        _vdYNk2gc = {
+            "id" = "vdYNk2gc";
+            "file" = "bank-vault-1.5.5+26.3-neoforge.jar";
+            "hash" = "sha512-bfdgfCRiFIex2WRkI0P6Ch+g3MORicNilmq4gRxEpcYQ3HpsYLSkuf5wqiNK7mZdHQjNAtVvxRIw/M1z4pR9cw==";
+        };
     in {
         "8ZE5cVic" = _8ZE5cVic;
         "JVmTRIwH" = _JVmTRIwH;
@@ -650,6 +660,8 @@ let
         "LuMbwTjB" = _LuMbwTjB;
         "HyYBy1gk" = _HyYBy1gk;
         "bJrPhkHd" = _bJrPhkHd;
+        "zNTvLP3f" = _zNTvLP3f;
+        "vdYNk2gc" = _vdYNk2gc;
         "fabric-1.20" = _oPFTTjqY;
         "fabric-1.20.1" = _oPFTTjqY;
         "fabric-1.20.2" = _oPFTTjqY;
@@ -688,7 +700,7 @@ let
         "fabric-26.3-snapshot-6" = _lm9ao7tU;
         "fabric-26.3-snapshot-7" = _FvRk3nnY;
         "fabric-26.3-rc-1" = _LuMbwTjB;
-        "fabric-26.3" = _HyYBy1gk;
+        "fabric-26.3" = _zNTvLP3f;
         "forge-1.20" = _8ZE5cVic;
         "forge-1.20.1" = _3u0YLTTB;
         "forge-1.20.2" = _8ZE5cVic;
@@ -739,7 +751,7 @@ let
         "neoforge-1.21.9" = _yumg5U77;
         "neoforge-1.21.10" = _yumg5U77;
         "neoforge-26.2" = _9oIFFQ0X;
-        "neoforge-26.3" = _bJrPhkHd;
+        "neoforge-26.3" = _vdYNk2gc;
         "quilt-1.20" = _oPFTTjqY;
         "quilt-1.20.1" = _oPFTTjqY;
         "quilt-1.20.2" = _oPFTTjqY;
@@ -867,7 +879,9 @@ let
         "pkg-1.4.13+26.3" = _LuMbwTjB;
         "pkg-1.5.0+26.3" = _HyYBy1gk;
         "pkg-1.5.0+26.3-neoforge" = _bJrPhkHd;
-        "default" = _bJrPhkHd;
+        "pkg-1.5.5+26.3" = _zNTvLP3f;
+        "pkg-1.5.5+26.3-neoforge" = _vdYNk2gc;
+        "default" = _vdYNk2gc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bank-vault";

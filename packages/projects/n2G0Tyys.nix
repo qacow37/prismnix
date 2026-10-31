@@ -16,16 +16,30 @@ let
             "file" = "royal-variations-[NeoForge]_1.21.1_2.0.4.jar";
             "hash" = "sha512-pZpbifAW6Ud9vapBS0LY2X1wF7n2/wN3GxvlmehXSva6kt7PI5HiBugrxtkLLetjWBsJhcBbsGdFnJbL7X3vBA==";
         };
+        _9aN06D7S = {
+            "id" = "9aN06D7S";
+            "file" = "royal-variations-[Forge]_1.20.1_2.0.5.jar";
+            "hash" = "sha512-0Y6qowsg2WQt8cI8FdOVeBkDZq1vo0aaA5z84tjx7gOYYOBZtSvC/MrIG49mJXF1zrCuAYdd4xVjtiSL2kBdGA==";
+        };
+        _yjrFoucm = {
+            "id" = "yjrFoucm";
+            "file" = "royal-variations-[NeoForge]_1.21.1_2.0.6.jar";
+            "hash" = "sha512-wQ2Ndf/OjQ+A0OJpR3T9rSTt6LnsUNeG/8EqRZ5IZ5/e4EwjDSenR2pD+PakpUpaxLgQfVUaSxA4dHhl8Er7NQ==";
+        };
     in {
         "JGznh0cz" = _JGznh0cz;
         "Oa6gXTPF" = _Oa6gXTPF;
         "uIrA446U" = _uIrA446U;
-        "forge-1.20.1" = _JGznh0cz;
-        "neoforge-1.21.1" = _uIrA446U;
+        "9aN06D7S" = _9aN06D7S;
+        "yjrFoucm" = _yjrFoucm;
+        "forge-1.20.1" = _9aN06D7S;
+        "neoforge-1.21.1" = _yjrFoucm;
         "pkg-2.0.2" = _JGznh0cz;
         "pkg-2.0.3" = _Oa6gXTPF;
         "pkg-2.0.4" = _uIrA446U;
-        "default" = _uIrA446U;
+        "pkg-2.0.5" = _9aN06D7S;
+        "pkg-2.0.6" = _yjrFoucm;
+        "default" = _yjrFoucm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "royalvariations";

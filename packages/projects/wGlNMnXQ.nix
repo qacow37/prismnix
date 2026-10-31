@@ -61,6 +61,11 @@ let
             "file" = "exposer-3.0-1.21.1.jar";
             "hash" = "sha512-v+6xFUZvYURj1fJ1vMDxu4o9qw1+LF21KmSEa6WoYEwP2dhUFlzGXBjd/E5wztJToDlUjM0KgeMpdCZ7o7R2HQ==";
         };
+        _Dz3mZ0fe = {
+            "id" = "Dz3mZ0fe";
+            "file" = "exposer-3.0.1-1.21.1-hotfix.jar";
+            "hash" = "sha512-iCqJqsGp+A5W+HXshM9aw1rleqz3FXZtijikf1meuR+oxYKKAv5RmEMiGCMwVMur5ETsCBdMibpxEJHUCekCHg==";
+        };
     in {
         "vQr68DNk" = _vQr68DNk;
         "OYyRrmi4" = _OYyRrmi4;
@@ -74,11 +79,12 @@ let
         "4YZdiwXp" = _4YZdiwXp;
         "j6ISBm9o" = _j6ISBm9o;
         "uO6yWUMd" = _uO6yWUMd;
+        "Dz3mZ0fe" = _Dz3mZ0fe;
         "forge-1.12.2" = _vQr68DNk;
         "forge-1.16.5" = _OYyRrmi4;
         "forge-1.18.2" = _DdfO9ohw;
         "forge-1.20.1" = _j6ISBm9o;
-        "neoforge-1.21.1" = _uO6yWUMd;
+        "neoforge-1.21.1" = _Dz3mZ0fe;
         "pkg-1.2.7" = _vQr68DNk;
         "pkg-2.3.2" = _kA0CsQYn;
         "pkg-2.3.3" = _GgLQCTFX;
@@ -87,7 +93,8 @@ let
         "pkg-2.3.6" = _4YZdiwXp;
         "pkg-2.4" = _j6ISBm9o;
         "pkg-3.0" = _uO6yWUMd;
-        "default" = _uO6yWUMd;
+        "pkg-3.0.1" = _Dz3mZ0fe;
+        "default" = _Dz3mZ0fe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-exposer";

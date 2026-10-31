@@ -16,18 +16,25 @@ let
             "file" = "BetterHurtCam-1.15.1+mc1.8.9-ornithe.jar";
             "hash" = "sha512-DxF7njr7JojYF5RtfMBQs6e+BT+LlNEW/8lSD86HpMc8NymE0xgaIsPCktqWObIqf/h07BhyIGF+DcSdpg9/Tg==";
         };
+        _LkOyvGps = {
+            "id" = "LkOyvGps";
+            "file" = "BetterHurtCam-1.15.3+mc1.8.9-ornithe.jar";
+            "hash" = "sha512-lJSxM0eshPgp5WcVT+st/vJd0qs630BMR8c9OdOpKQey08/CsIBK8qEKTpHAyYjUGjKqgyrtIODKZzl29HcfXQ==";
+        };
     in {
         "g4aoBppG" = _g4aoBppG;
         "fLqilvkF" = _fLqilvkF;
         "FjmrNepK" = _FjmrNepK;
+        "LkOyvGps" = _LkOyvGps;
         "forge-1.8.9" = _g4aoBppG;
         "forge-1.12.2" = _g4aoBppG;
         "legacy-fabric-1.8.9" = _fLqilvkF;
-        "ornithe-1.8.9" = _FjmrNepK;
+        "ornithe-1.8.9" = _LkOyvGps;
         "pkg-2.2.0" = _g4aoBppG;
         "pkg-1.14.0" = _fLqilvkF;
         "pkg-1.15.1+mc1.8.9-ornithe" = _FjmrNepK;
-        "default" = _FjmrNepK;
+        "pkg-1.15.3+mc1.8.9-ornithe" = _LkOyvGps;
+        "default" = _LkOyvGps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forge-betterhurtcam";

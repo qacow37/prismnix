@@ -2841,6 +2841,466 @@ let
             "file" = "JustQuests-plugin-26.1-0.4.2.jar";
             "hash" = "sha512-VDLtPL5us/fvxXBdp6ZtOQnxZuKEecDpcVgwvpPsPpzfmUz34wYsx5bPzsUS2arMLmzLEqO1CgkxsQ3HmDrd+Q==";
         };
+        _ytJhIr4Q = {
+            "id" = "ytJhIr4Q";
+            "file" = "JustQuests-fabric-1.18.2-0.4.3.jar";
+            "hash" = "sha512-FIxaNJwH1r7aw5IXYlxD3S6DyyUEmmJkTmX0RZv3Ol2SaM32CGDCtxeyBLTn3+uu9x3tUh/BY4SfF+gZJmlLmQ==";
+        };
+        _ZrTLAK2b = {
+            "id" = "ZrTLAK2b";
+            "file" = "JustQuests-fabric-1.19.2-0.4.3.jar";
+            "hash" = "sha512-BOC30ArllBBZvmzt2Ssw16oZDsYwyew6PaYk7c9QYZz2lIOH5G2DD29i1kqUtoYICBtQovpfPG4pLu1xVMPByQ==";
+        };
+        _bapSZk4V = {
+            "id" = "bapSZk4V";
+            "file" = "JustQuests-fabric-1.19.4-0.4.3.jar";
+            "hash" = "sha512-cVaORJt7JITFD78ufaany+69BMDi3Thonj8fDnxNLryuhYx5kLNWKWm/0mjKykHKh7Q1ok+lc857cCcIkw45fQ==";
+        };
+        _JW24YmHj = {
+            "id" = "JW24YmHj";
+            "file" = "JustQuests-fabric-1.20.1-0.4.3.jar";
+            "hash" = "sha512-tXNYpb5/f//oj1AlaUcIUwCcTFRlpF+igqs6mV0AJLQ4CF0rTTYFtL1Kh5K2Y4EiPZ6OLqcFHy/RHJlQNS7VIg==";
+        };
+        _9aV1BOiM = {
+            "id" = "9aV1BOiM";
+            "file" = "JustQuests-fabric-1.20.4-0.4.3.jar";
+            "hash" = "sha512-X+QOx/vd3SedMKzpoOQIBNFoDxvk6BuQSxVw2tgG+687qxPsfc6kNtUXFqLuBXdlt6zT5MW5YfuuCxJ5J3LqUQ==";
+        };
+        _JX5Vspyl = {
+            "id" = "JX5Vspyl";
+            "file" = "JustQuests-fabric-1.20.6-0.4.3.jar";
+            "hash" = "sha512-GKuLmkDNNJgCd1F+Sc2bvoDsQ1yH7gGKVcYfT0SV98/s2/SVFqCz4vqXUWVlKRqS4Hu7CRQ6rmV8IzOsffV1Ww==";
+        };
+        _gaDUMViR = {
+            "id" = "gaDUMViR";
+            "file" = "JustQuests-fabric-1.21.1-0.4.3.jar";
+            "hash" = "sha512-y8SvGoQg5dxrZlbi9Zz/q8MqfRHY5QqCkHdesbJc90TqS+UEAhNd9dseKxVwOVIsEicrehjerp6hKspVFhC+Yg==";
+        };
+        _suNpJuQ7 = {
+            "id" = "suNpJuQ7";
+            "file" = "JustQuests-fabric-1.21.10-0.4.3.jar";
+            "hash" = "sha512-XqSqEZdjQXSylwEWr5IwEaDAacM/gwWySBJ+Eiy0xvnxG31OBgP7Zze7+SItwPsPrPLKp6lp1S/qzD9Me+qhqA==";
+        };
+        _dvTKyzUi = {
+            "id" = "dvTKyzUi";
+            "file" = "JustQuests-fabric-1.21.11-0.4.3.jar";
+            "hash" = "sha512-kR3D45SLWO/CN7Qh1TeS/j/W3ccrzKqcluRJNjaGlwllk0e++CObfFICR3D2Aqi+jsz2OnudyEoqQ3+VYD2S6Q==";
+        };
+        _XTeAV4dr = {
+            "id" = "XTeAV4dr";
+            "file" = "JustQuests-fabric-1.21.2-0.4.3.jar";
+            "hash" = "sha512-EfCnLjizFI5cnUJqULQzFPgEMz1irLoCt28McArPTsAU1u/k6z9xbY3H6B2ZGxkPnrUNSO2HlLMI95LESC/pHA==";
+        };
+        _HbS0fgW8 = {
+            "id" = "HbS0fgW8";
+            "file" = "JustQuests-fabric-1.21.3-0.4.3.jar";
+            "hash" = "sha512-Eax5qvOxy2fOJm+0q7h3vuIAPcJBhCCYXbXhLhFJqXBIoxb42RlQ3L2AAqWmSvU77EMlq74nN/j5O78bqF+Gpw==";
+        };
+        _ssAMvgoS = {
+            "id" = "ssAMvgoS";
+            "file" = "JustQuests-fabric-1.21.4-0.4.3.jar";
+            "hash" = "sha512-X/1F8yu4u3Tpy8h130oiM/VYlqYkhfMrTwE6xlk4hdiLR0PRtS8TfMZNVDKAuv8ORfW47nuXADTOLRJ/oUFZwg==";
+        };
+        _OXp0qYzB = {
+            "id" = "OXp0qYzB";
+            "file" = "JustQuests-fabric-1.21.5-0.4.3.jar";
+            "hash" = "sha512-PW2eRq5F/8tE95s+CXKJCtiEvr0wqFmCb2rCikKzrzfGsge3bcV54ZAkavpE7SzS/dsuSU1E5ZehzUSgYTS7Bg==";
+        };
+        _zHk42K8c = {
+            "id" = "zHk42K8c";
+            "file" = "JustQuests-fabric-1.21.6-0.4.3.jar";
+            "hash" = "sha512-YDUxW5N1Xpm5Gl+H06ZyvfuZrzFbFvng/cvnKxYwlvk5jBTWyvfDqjtflm0G9HTM+mmKVrxIM7PwUqVNsUtDbA==";
+        };
+        _5quj962G = {
+            "id" = "5quj962G";
+            "file" = "JustQuests-fabric-1.21.7-0.4.3.jar";
+            "hash" = "sha512-vp8KmcFJ772tbPnbVBOXHswslKGZlSeDYbOAHylr87fDDAO7DwaMxjbXST5Qm2ekNFhzixEVzfZyLCsk6buQwg==";
+        };
+        _XcqhmnA2 = {
+            "id" = "XcqhmnA2";
+            "file" = "JustQuests-fabric-1.21.8-0.4.3.jar";
+            "hash" = "sha512-guk2EXQ+B5bnKXJcK8IHQXhXfDo9SyKxyiFEoyUNeAIAIHsPG6PuPreNArxgZsBYCYYcVO5nWyFiNCozUdkYBQ==";
+        };
+        _mjTYpe1v = {
+            "id" = "mjTYpe1v";
+            "file" = "JustQuests-fabric-1.21.9-0.4.3.jar";
+            "hash" = "sha512-n1qE+/7KWuSQL3ZFT1oGhn/fl27xr6vNYrkUp/30D96xZeueuV0Q5sBbFHCg4+BLTtfDVCFzCwwb/JLJUhaZSw==";
+        };
+        _lUoWaApu = {
+            "id" = "lUoWaApu";
+            "file" = "JustQuests-fabric-1.21-0.4.3.jar";
+            "hash" = "sha512-YLLTc9BhxyrSCSnV65Nf/U+WvQK+DA9+nAIulQQ8eJteMjCPjKOFjk6IM0YXFGj4JVBnefBqGzE3+rGlUqgaMg==";
+        };
+        _yDZymrSN = {
+            "id" = "yDZymrSN";
+            "file" = "JustQuests-fabric-26.1.1-0.4.3.jar";
+            "hash" = "sha512-xatA3v4x1MmneCuqUBverMOGNk2hJMsfpCnC0YkNPmf6fnTxvvP/qEuf7S1Xkgr1DNTJ3vmqM5UhLOM1Auwt4g==";
+        };
+        _EoPVMOZZ = {
+            "id" = "EoPVMOZZ";
+            "file" = "JustQuests-fabric-26.1.2-0.4.3.jar";
+            "hash" = "sha512-pzCDevqXN0bX+8t1z3BU+PRCf+uAQPEbx7qbmvWgEhPScR3V/I0S0fdPp9VH+5D5LzFHIX6oksZdXQoBCqkkeA==";
+        };
+        _FKBRrV4u = {
+            "id" = "FKBRrV4u";
+            "file" = "JustQuests-fabric-26.1-0.4.3.jar";
+            "hash" = "sha512-2jUEGFoxaOhDlBXgHSATdNLMt11hVwLDUL+/orhLTM/5Ocj7m+tujI4MxGL4MhFNzJytM0VTZgGUMClAWH6FSg==";
+        };
+        _oGgOyoGp = {
+            "id" = "oGgOyoGp";
+            "file" = "JustQuests-fabric-26.2-0.4.3.jar";
+            "hash" = "sha512-Ba9u/7nqIyNe6UWRLGzpJZOFqjIBwqkUGU6RiX4z5H3s2kUsqVjEt4WRjNAMkW16prNaGVJ6ClZOUYAM61V3uw==";
+        };
+        _CNo6hDqv = {
+            "id" = "CNo6hDqv";
+            "file" = "JustQuests-fabric-26.3-0.4.3.jar";
+            "hash" = "sha512-PfMxfRDcjqUb2xqnJsSQ+s+GGDrEflc2AD3Bqh7GT+O4esqsioiHJFXqE+1Q4rR1aX/YuG17FaJhZjMvvSSzOA==";
+        };
+        _5kLmzQsO = {
+            "id" = "5kLmzQsO";
+            "file" = "JustQuests-forge-1.18.2-0.4.3.jar";
+            "hash" = "sha512-n5sK1zVFsrIGjVYNvYlcxP9rJs3ekD8acNslJKSzjWHmvGCHxREqFPG0g3HzcmX2mR3WT2Z/BDdMYjem/qxB5A==";
+        };
+        _XU8oHptQ = {
+            "id" = "XU8oHptQ";
+            "file" = "JustQuests-forge-1.19.2-0.4.3.jar";
+            "hash" = "sha512-TduFXxCLW5207IvZ3H3CJrU7qGMX2WCdgXTHoU7nl5Vh5BcEB+QbBnBKdK6S6oXV9rYTrcOcwg/gPUXOOIV+DQ==";
+        };
+        _8TCjLJV8 = {
+            "id" = "8TCjLJV8";
+            "file" = "JustQuests-forge-1.19.4-0.4.3.jar";
+            "hash" = "sha512-UMF/B4a7FnBBJgHYOgQNZa5sU69Ih83CpfqRfIgvYX8ZYgTf9+Z4cEFjQWkzdG7qt68BOX+v5BQNUQbXCVDZjQ==";
+        };
+        _ZxJAMSBw = {
+            "id" = "ZxJAMSBw";
+            "file" = "JustQuests-forge-1.20.1-0.4.3.jar";
+            "hash" = "sha512-c08ZRJpiHsgz9ThO8zfbvotOfL9UnzB2P+FXIueDKPbjvJo+rR8qNKg5mkyu/be9l4RKxhTVM9KNmPaLP7IR/g==";
+        };
+        _ncHJgHYT = {
+            "id" = "ncHJgHYT";
+            "file" = "JustQuests-neoforge-1.20.4-0.4.3.jar";
+            "hash" = "sha512-UzcSYFJ7AwDUo1pBO9rXhOALvu/3in4s9vODZo5azEDcUC+U8fkryotTSWoAQ+5HqEWN48Vr6R+h/NY6e7nk+w==";
+        };
+        _N5iCK2NA = {
+            "id" = "N5iCK2NA";
+            "file" = "JustQuests-neoforge-1.20.6-0.4.3.jar";
+            "hash" = "sha512-UYZKt4JViCZYPD8RxbXEKiejS0iWJgi9zJwKEfxldoSee/rAiHlQGZV+02vHEaLo6XFT68Mkss0LovvS8vbGoQ==";
+        };
+        _IAqKdrSC = {
+            "id" = "IAqKdrSC";
+            "file" = "JustQuests-neoforge-1.21.1-0.4.3.jar";
+            "hash" = "sha512-TXQ5nfE92ZjECRzbs+V9Bgi4uvwwB8oyI9sgj8/RPBg+2ZtwpOePlS7rhArb5iWr+hFp+zF7lJEPMo1OZGxuCw==";
+        };
+        _vCOLh5fq = {
+            "id" = "vCOLh5fq";
+            "file" = "JustQuests-neoforge-1.21.10-0.4.3.jar";
+            "hash" = "sha512-w0iTNUZRSopRBEFEeLyIqJyi3qUfveZRWRAzOruAmf5LrgNfWfSzR88TtQwDcpeThr8yK7fVt663cLFklYM8nQ==";
+        };
+        _uKAdmWVW = {
+            "id" = "uKAdmWVW";
+            "file" = "JustQuests-neoforge-1.21.11-0.4.3.jar";
+            "hash" = "sha512-3oGIt+CSq7RsAqs9hk9UPWkZFsrMAYWklSp6kPsYPxNIFZMmiclfLxHAIBwpvg/UGHfbYVCKIrmqJ2aprN3FxA==";
+        };
+        _jntTCrVO = {
+            "id" = "jntTCrVO";
+            "file" = "JustQuests-neoforge-1.21.2-0.4.3.jar";
+            "hash" = "sha512-xS3LR2qRY1CYStEmKygYvCxvAGlq5162s6VtpEwbHelGZKxLkaDGIQCB6uqqGn43GxSmZ+hgTVSZ8r4ZcsAzzQ==";
+        };
+        _4Nmip63k = {
+            "id" = "4Nmip63k";
+            "file" = "JustQuests-neoforge-1.21.3-0.4.3.jar";
+            "hash" = "sha512-KezEoMyst0Zj8jug7hoYKPKzghVSW4Hz8prtjxvGGtaHuhvGxIAjZzAq8WP+dvfVqAm6qoTpg+/f9Oyo9iq7/Q==";
+        };
+        _XE2KnIW8 = {
+            "id" = "XE2KnIW8";
+            "file" = "JustQuests-neoforge-1.21.4-0.4.3.jar";
+            "hash" = "sha512-fvIoocAL6yYi0f9E2tix71X6GWCZev2oLgybCjSPjX9zrbmxep8JtvQBJXmCdIkISWuOZolcu2pJ4OI6rh3Zmw==";
+        };
+        _KsrTLoei = {
+            "id" = "KsrTLoei";
+            "file" = "JustQuests-neoforge-1.21.5-0.4.3.jar";
+            "hash" = "sha512-wg1b8GP6eGSdmPjO3t07X8g+H8E/SCyKmMImx7/IoS3GeCWaD8a9X6/GzFHERN2REc0EJa9eWJogHEOrsyt7lw==";
+        };
+        _kZu4ikk6 = {
+            "id" = "kZu4ikk6";
+            "file" = "JustQuests-neoforge-1.21.6-0.4.3.jar";
+            "hash" = "sha512-5dLl5NVmp0VlFmjk1rQ54WD85+2rLzZv4atrFrSEz/7mp1qi/jJbFuTI7MYJAVWPxsztpgoWCqX5105ghkYdwQ==";
+        };
+        _2Z1W1JLK = {
+            "id" = "2Z1W1JLK";
+            "file" = "JustQuests-neoforge-1.21.7-0.4.3.jar";
+            "hash" = "sha512-xPPRJNwXXdZj9fXyrjHYVB5/LGEmfSdYDEr56lWt9XOqwuBDzNgmKy+jC8oHqohD4Liub8p8YrKt5jXUnAMETQ==";
+        };
+        _rDvEtjzK = {
+            "id" = "rDvEtjzK";
+            "file" = "JustQuests-neoforge-1.21.8-0.4.3.jar";
+            "hash" = "sha512-/m1TgunNw+jLoCHMeJbgAjoavLsb0TQMCAL0IS5GigpY0FgsxRA1MUnp+fGq+wGx960sd/e3QXfzpDVcMbeAdg==";
+        };
+        _R9vIVo1H = {
+            "id" = "R9vIVo1H";
+            "file" = "JustQuests-neoforge-1.21.9-0.4.3.jar";
+            "hash" = "sha512-+530FZmkwUkCNHIlvukONKqJE0Oy0EvxTpWEkKvKLhonBUYr+nIhr+hnK5r0BssY9pJxgEyA9VB75kvf0Kd/rA==";
+        };
+        _bmt3tq5F = {
+            "id" = "bmt3tq5F";
+            "file" = "JustQuests-neoforge-1.21-0.4.3.jar";
+            "hash" = "sha512-gVqE1TbXMfuitJJkwwWRy71nuqBQCjO2MAC+BFU+baEe5GVb/mGjZgBpu5uIPRKJktC1GUbVWZG9m9wUmVhlXA==";
+        };
+        _yQ3HBJkY = {
+            "id" = "yQ3HBJkY";
+            "file" = "JustQuests-neoforge-26.1.2-0.4.3.jar";
+            "hash" = "sha512-lT6KIXvsGxvSUCuxOgKGwJrIM4v0zPiv+b9bVAMazlCFK1gTmma/SmAxa2N4mMkDLpK7nY+kpXb6vah38u1/uQ==";
+        };
+        _ihwTKoJu = {
+            "id" = "ihwTKoJu";
+            "file" = "JustQuests-neoforge-26.2-0.4.3.jar";
+            "hash" = "sha512-cdcrPrTs8Z6g1CKC6umGGKDH8aRRrv1qmX3GXtvOnYODXhIkL9eJtJ8TVVfnyliVyt47biUwg+F74Ap4nuZXDw==";
+        };
+        _n0IHjtJo = {
+            "id" = "n0IHjtJo";
+            "file" = "JustQuests-plugin-1.19-0.4.3.jar";
+            "hash" = "sha512-lcVhzdRQiZ74hPr5d59i6fkLjT5UWZ8LMWAqXLkvH6Aay1uP4mGC92uNErDBdWU9y199YKrJM8/I9x+uDcLbBA==";
+        };
+        _ZEe5t99d = {
+            "id" = "ZEe5t99d";
+            "file" = "JustQuests-plugin-1.21-0.4.3.jar";
+            "hash" = "sha512-4ZzvL/tcsfUARE9PZlzvnJ8XHEbNJFONuSGTyu9Vx7OHYq1agnJIlvenSwn7/VqFw+eonwkc7E+iGQsNVzon0g==";
+        };
+        _LsV1IKZb = {
+            "id" = "LsV1IKZb";
+            "file" = "JustQuests-plugin-26.1-0.4.3.jar";
+            "hash" = "sha512-ejbh3XEFxieQneNzsqDaQLKYqRsapOgzVC5FG8ZSWTa9LArAfutk+OC8Abo7ZnP8azdEbaGbJIyCGzsVD4iv4A==";
+        };
+        _94LtNFhM = {
+            "id" = "94LtNFhM";
+            "file" = "JustQuests-fabric-1.18.2-0.4.4.jar";
+            "hash" = "sha512-J3V6Tuc2eKEWePfDdmpbnI+qpcVV3nuDJtqKBmS1xLBz87ugjnVzmNhT0YXnYCCz3ou7V5O84eehGeOzFHZU0A==";
+        };
+        _ntqHl93i = {
+            "id" = "ntqHl93i";
+            "file" = "JustQuests-fabric-1.19.2-0.4.4.jar";
+            "hash" = "sha512-sXr6BgduiRGxqEAyZ7G3es36GWM0mU1WKY1HfO3wCFpH2kr4wtG3FgBxieGBS414WyBBO8BdzdAz1tq128rFnQ==";
+        };
+        _FsVMsKUC = {
+            "id" = "FsVMsKUC";
+            "file" = "JustQuests-fabric-1.19.4-0.4.4.jar";
+            "hash" = "sha512-Ppes43NZiK5YV/TCIzZuMFqgxfONi6f9xlHizi6OLTsw2yTjbN/bgOx5E+KRIbEE7ckB9JLTL2NZqL5X3DyyOQ==";
+        };
+        _8tsPqrqB = {
+            "id" = "8tsPqrqB";
+            "file" = "JustQuests-fabric-1.20.1-0.4.4.jar";
+            "hash" = "sha512-TeGgfFPW358dDOJam3Akc8X0HXjdis6T5613w50Mz+I6asuVgYnMzGk9br0MeZ8i+2qe+u2P6vZ914nIq6SmyQ==";
+        };
+        _FvYJCD0e = {
+            "id" = "FvYJCD0e";
+            "file" = "JustQuests-fabric-1.20.4-0.4.4.jar";
+            "hash" = "sha512-roXQ4g5Cxkc1Gb89IiUNCRE6FNTe9OQPcfla4XxX/fXxJhQjDnFYry1SeYpqFfF0B3EBd+/MSUhcHwsgaapaTg==";
+        };
+        _1iEzE5vS = {
+            "id" = "1iEzE5vS";
+            "file" = "JustQuests-fabric-1.20.6-0.4.4.jar";
+            "hash" = "sha512-MJwcu/ndACzRAQw5LnZoSpGkfBnPNqvl6hl9yN1FGUtov78nsRsqMP2/LY+ptRKjTxI3L4ugjcpyGSr4rqo/WA==";
+        };
+        _iyVnoMYj = {
+            "id" = "iyVnoMYj";
+            "file" = "JustQuests-fabric-1.21.1-0.4.4.jar";
+            "hash" = "sha512-jhPNnhP9IeHxp2SRTWvVe3SNSC/9kjsS2F48sO8pg6mZtMRtz/nZstPV4z+S2EfKeAI6bXgBc0eIDWcBdBweFg==";
+        };
+        _pJm8xDKf = {
+            "id" = "pJm8xDKf";
+            "file" = "JustQuests-fabric-1.21.10-0.4.4.jar";
+            "hash" = "sha512-vlhiYtApAC0Qf1ys8O5vJyqtwnzV/QbbVYB4zGe2O7sHQFHTIAkBN9qOQJWsMkAnc4kDvyJMUUmszYio5+q5hg==";
+        };
+        _pTgBA9Jb = {
+            "id" = "pTgBA9Jb";
+            "file" = "JustQuests-fabric-1.21.11-0.4.4.jar";
+            "hash" = "sha512-tbHqTsEZWST3ENv1v4UBhZZQxDD7KMPL3x6ZMbdch80zT0CViKe321GwBnb4SfANf4o0hadQm71OZhh5QmvbtQ==";
+        };
+        _41TZJPCm = {
+            "id" = "41TZJPCm";
+            "file" = "JustQuests-fabric-1.21.2-0.4.4.jar";
+            "hash" = "sha512-PRiNfrfN6HkXE8miHwndP+9znhLa1/1T2uGoEtHcAGr52RmHpPI+VcL4drTSxFOzN1yUPcfgVNbbgzW9dE70hw==";
+        };
+        _dIc641mb = {
+            "id" = "dIc641mb";
+            "file" = "JustQuests-fabric-1.21.3-0.4.4.jar";
+            "hash" = "sha512-tfchsMZxnHH1O7Penp8CaDpB4vtQvONG2kNjzpEbYFnqHQWngAEkbRl4Z0FmOhqJCBc5IGJ+8QDeRmmOxpVjWA==";
+        };
+        _5oHvdeas = {
+            "id" = "5oHvdeas";
+            "file" = "JustQuests-fabric-1.21.4-0.4.4.jar";
+            "hash" = "sha512-S/cO+l7Q2EceDw4FlyREqvWYQYByFyW1jVgfytyHXVEO/2eKIuLo642aRjcadxgyKuokr3JjwLeePWvdZybDeA==";
+        };
+        _5VIeQKUj = {
+            "id" = "5VIeQKUj";
+            "file" = "JustQuests-fabric-1.21.5-0.4.4.jar";
+            "hash" = "sha512-PxsB78oGl9eOxc0lQK7nQDkASr83eBxbq6ZGBdKsHyrRQuppzs4TzwtLeKCM7AXsSLU4LAcylR5T0hRdniJzKA==";
+        };
+        _AWHCRIXw = {
+            "id" = "AWHCRIXw";
+            "file" = "JustQuests-fabric-1.21.6-0.4.4.jar";
+            "hash" = "sha512-UYCePO5l30Nffna0K+g1DrwUsBpqMjlKS9dmlJWe+XeL6/RHPxNnSMV9GuUdi0Rrqg4CIMM3VQ12VtmAzyt/Gg==";
+        };
+        _I1HqAwMc = {
+            "id" = "I1HqAwMc";
+            "file" = "JustQuests-fabric-1.21.7-0.4.4.jar";
+            "hash" = "sha512-YXKS/x5nYBCh9cb78UEi8iPhDyVNAN+81OjS4WHevw3YQ1c+yFHlY6MEsKG2KVludewbxn03cDD9nZ4/+tC1xA==";
+        };
+        _4cMqtLXa = {
+            "id" = "4cMqtLXa";
+            "file" = "JustQuests-fabric-1.21.8-0.4.4.jar";
+            "hash" = "sha512-JhseqDnOF3L5zyu4AXa7nANvgr8gtlRl2o6w6PXkbmfTRgxE6EK23aoeFH8LZ4IYWN0yX0K4h1YpEZyWyEJI+w==";
+        };
+        _iuytXDxL = {
+            "id" = "iuytXDxL";
+            "file" = "JustQuests-fabric-1.21.9-0.4.4.jar";
+            "hash" = "sha512-BQIfScXJRr/o0oS33AdMWDHFrMpfvs4n7svkmtwZ1h5foRtHO/xwjxwnyh02Gty02C/t9ge+cqDQ8fQzBWe4SQ==";
+        };
+        _oeMPSAva = {
+            "id" = "oeMPSAva";
+            "file" = "JustQuests-fabric-1.21-0.4.4.jar";
+            "hash" = "sha512-Oe0Qix0kkpnXZgdsQQiswEoNp1/AOBda+drf1FTbddAmdEm4iizoAt21jh9QK8rxlvR+Bn7Q8+zNLNChnPF3rA==";
+        };
+        _Rz4ZuBBd = {
+            "id" = "Rz4ZuBBd";
+            "file" = "JustQuests-fabric-26.1.1-0.4.4.jar";
+            "hash" = "sha512-He/hZ2YfLZEM5IWu3tcUgQxAwKGX+gDsQsPqi1k6BlExdRoqNz3XPPjy7Tt8G8r+9YXOtzpiSNDrxrb0fYvz1Q==";
+        };
+        _MPQw9qjU = {
+            "id" = "MPQw9qjU";
+            "file" = "JustQuests-fabric-26.1.2-0.4.4.jar";
+            "hash" = "sha512-uEuzhNAU2mqqU2WNRUQE7BEI6wOPieAVPA+gN/+R/xiIfDzsHz7UOmiF8glCnG2WSWFylFP34Ype8O+S5X/0ag==";
+        };
+        _E4HtMPrA = {
+            "id" = "E4HtMPrA";
+            "file" = "JustQuests-fabric-26.1-0.4.4.jar";
+            "hash" = "sha512-l0ZBn+SZzsJG4cLvO93S2Ilafv2vHOsvudBhjPFoC0VyIPEOXK3OhslTk0I+fEQkWp3weQmKTm/iEzhd52w8rQ==";
+        };
+        _DdTovqKq = {
+            "id" = "DdTovqKq";
+            "file" = "JustQuests-fabric-26.2-0.4.4.jar";
+            "hash" = "sha512-jL3gGQDNHcdd2RLiUzTo6W23B4RriVTOZ2WxHs/M/hZLeZ7BvvfIGBfkbO0FJds6hxlWKV93DTpTDaWhlJRFSw==";
+        };
+        _xAc44JFF = {
+            "id" = "xAc44JFF";
+            "file" = "JustQuests-fabric-26.3-0.4.4.jar";
+            "hash" = "sha512-u3OJjBcFrSAeDNQvmiewSpMoRQHCuDfaymoNTnYZZTx3x7QRoUy9H+7lI1Ga/8S58y1eUG8Yq7UMhJIwR5HwjQ==";
+        };
+        _vMjoufQq = {
+            "id" = "vMjoufQq";
+            "file" = "JustQuests-forge-1.18.2-0.4.4.jar";
+            "hash" = "sha512-ptFCQ4F6dgTj34FWj+eYM+kobkVBQaM3OCE5wcl+hy1MbLLJhhYBF9gz7uJGzECVq/LMJlvuer1qPhOdjIOaFA==";
+        };
+        _v8h6Hvfq = {
+            "id" = "v8h6Hvfq";
+            "file" = "JustQuests-forge-1.19.2-0.4.4.jar";
+            "hash" = "sha512-vIHImJQ2AeIuededmSOASMs8dX2m21rDwZ9Y+l9UIYgh9Mjq8lULX3h1lexGhwasXZbyU5xbdtogZwurISMjNg==";
+        };
+        _YoJJq1Hj = {
+            "id" = "YoJJq1Hj";
+            "file" = "JustQuests-forge-1.19.4-0.4.4.jar";
+            "hash" = "sha512-n23CI+rYVpJO/CETijYMjXVd2LPwXr6ens2LOijgZFWzRMX3ioB7dKLlF3XbIhoRgCug+Um4LFdzHmZcgRpcBQ==";
+        };
+        _dKm6CONl = {
+            "id" = "dKm6CONl";
+            "file" = "JustQuests-forge-1.20.1-0.4.4.jar";
+            "hash" = "sha512-ysCbLJowJ+l6t3v6onO6Ll7Kn3sFXVkTruTykO6ghrk3tub91crb32lJoWOT4KLVZ2jwFFJ6O1e21KCf1/tg5g==";
+        };
+        _vbmk5wGx = {
+            "id" = "vbmk5wGx";
+            "file" = "JustQuests-neoforge-1.20.4-0.4.4.jar";
+            "hash" = "sha512-POkBBlGdF9ERNMuWwthuHij1hSafZeDAu3JniXCk6DmdTOdOYkTIjhQob+Y61/tEv2FvOqxu8Ck/aoE8KyQHPg==";
+        };
+        _ZSEHjk56 = {
+            "id" = "ZSEHjk56";
+            "file" = "JustQuests-neoforge-1.20.6-0.4.4.jar";
+            "hash" = "sha512-9fByXIncG0j8DiXLtyIMXPQ7O9BAmaXH8eWfCE5vyGrLmM4u8ubmMxjH9OBuWreQTSaTAZDR4Of/Rk8c9/M7Zg==";
+        };
+        _GkgiOtBg = {
+            "id" = "GkgiOtBg";
+            "file" = "JustQuests-neoforge-1.21.1-0.4.4.jar";
+            "hash" = "sha512-flXXCvbjg16YlYNflUduqhaFh5bIIm3V808SMBH6WcW2TNKtALpFcLyyA84JBrD+83kgYYT/pz0ginTqSE/5aw==";
+        };
+        _rJcQ43zY = {
+            "id" = "rJcQ43zY";
+            "file" = "JustQuests-neoforge-1.21.10-0.4.4.jar";
+            "hash" = "sha512-oug3w6q5kkGY2ES9GSW3QwYNJRwyEpiOOuf6u0hz8d0YTx3UGZtMk5TsfQP0/w81gweNy0ToMkhqbNGHKkGwSA==";
+        };
+        _H55sjzxg = {
+            "id" = "H55sjzxg";
+            "file" = "JustQuests-neoforge-1.21.11-0.4.4.jar";
+            "hash" = "sha512-7zSVmqePi6gBMLgQ6R6BowoKRyq7M8FwHZll3cwTztktXpPLyjCWbGSAH1aI03SK0YoCUrAVErslPWwYis3tkQ==";
+        };
+        _Hl4eT2eo = {
+            "id" = "Hl4eT2eo";
+            "file" = "JustQuests-neoforge-1.21.2-0.4.4.jar";
+            "hash" = "sha512-HaVEnyu4Hp1UvvcF6Xr5yCZhdTA2upIDEZbstgQLyqlnRCr0NuFUTUwzFBp3kfmjUVQN6d5G/Ouqi04ozPIXRg==";
+        };
+        _iMrPlhvN = {
+            "id" = "iMrPlhvN";
+            "file" = "JustQuests-neoforge-1.21.3-0.4.4.jar";
+            "hash" = "sha512-7dy4XB/RvIPDCv0VqVSuWVoE3dCUFJypTZtqHIGDbfvY4oIe4SZkLqH4gAjMhZYh7HBCrvfVB+7OcBTc0QbCzQ==";
+        };
+        _EXmyZVA4 = {
+            "id" = "EXmyZVA4";
+            "file" = "JustQuests-neoforge-1.21.4-0.4.4.jar";
+            "hash" = "sha512-cFpdm47EovkWFpgiloD48dpYt4rWVsOhRSo8yEU9gxx+458L40ACq4BoXk78Zi2oNkrYfuNEamFGX6NnVcolfw==";
+        };
+        _bi7qca9T = {
+            "id" = "bi7qca9T";
+            "file" = "JustQuests-neoforge-1.21.5-0.4.4.jar";
+            "hash" = "sha512-Qr2RCBLBvnndi8WmQ/SVSsrsmzJYgV323P5gq8Lt+3UlTfHTfQ/HqTNgthiLMNRWz81+ukEa8Q9c4rK9/cvCMw==";
+        };
+        _3Y7bRKG0 = {
+            "id" = "3Y7bRKG0";
+            "file" = "JustQuests-neoforge-1.21.6-0.4.4.jar";
+            "hash" = "sha512-ZFg06nXMB56EOTGIVuVoiDgzRVP7xE1ryv7EVGnlC8vb1PWJWCmPuBNTDA12Wy1ZMDm6xanlZp+P4lThO/xqtg==";
+        };
+        _48E9ClWm = {
+            "id" = "48E9ClWm";
+            "file" = "JustQuests-neoforge-1.21.7-0.4.4.jar";
+            "hash" = "sha512-X22ldbpZxAaporTXuCwohp7fcoO0sEVo5SMNuFnAOfhRnptO0Qi5av/1IOsUeqrqUDtAbUwASZhYvH/2dRiofw==";
+        };
+        _1JJOHneK = {
+            "id" = "1JJOHneK";
+            "file" = "JustQuests-neoforge-1.21.8-0.4.4.jar";
+            "hash" = "sha512-4SmUVoqzfiNZB5QS/AAg54nAFcssopfxoYldQOFzZEhulRrSNCO6l0J4dW7MXgYY3hvkxA3RCsz5qqag++FQJQ==";
+        };
+        _GWis5xpt = {
+            "id" = "GWis5xpt";
+            "file" = "JustQuests-neoforge-1.21.9-0.4.4.jar";
+            "hash" = "sha512-8IMWONpP8fdi57NElWL/v0gdY1rYMqbknsRnUTreleKfNBQlA+wgwnZWAbxcRmGK98boz/psnSheqEV/r9tzVQ==";
+        };
+        _bsvZRNAE = {
+            "id" = "bsvZRNAE";
+            "file" = "JustQuests-neoforge-1.21-0.4.4.jar";
+            "hash" = "sha512-l+FRH92vru/H228y75H8idToip0HnnTEeU5tkaLpKWCk1JZr6B04gAlfUfZakPeghMQCSDPJIeJwVFlc/tgcuw==";
+        };
+        _6ZLrKONn = {
+            "id" = "6ZLrKONn";
+            "file" = "JustQuests-neoforge-26.1.2-0.4.4.jar";
+            "hash" = "sha512-7OhmZGrRHeC8Z1lRdQDGaf9EznLxYFI/8MVDZP5ij5sBiXcSFWfwgW73dOb5V0r4GHzeI3/evXTfEPY6HpO+lw==";
+        };
+        _k0DWeg4V = {
+            "id" = "k0DWeg4V";
+            "file" = "JustQuests-neoforge-26.2-0.4.4.jar";
+            "hash" = "sha512-u5M/hYcpql5rULL9ysoiOAUTfYvHoYHHyvQh1RXSN1fkbYw1oh3XyjmAVfgXEvcJOKTfFQ7g5NkX9Ij8yLEg3Q==";
+        };
+        _DaazULe9 = {
+            "id" = "DaazULe9";
+            "file" = "JustQuests-plugin-1.19-0.4.4.jar";
+            "hash" = "sha512-2o8HLZ0ZizyWPfweifG6q31RHg6bhwbyAKK5eT1r6oO6/q1VPTzQnGsjdHLjYBZ+YZQpFc0nI6xaV2M3T7Qmzw==";
+        };
+        _oHhTQ5aX = {
+            "id" = "oHhTQ5aX";
+            "file" = "JustQuests-plugin-1.21-0.4.4.jar";
+            "hash" = "sha512-Banw70QHQ5uS2OBLK7ueWozq5k++Kwrkgs94QpXa4J8uNJUPF7DPOAOunz21+60CIYw5IHmxNQokcmBp+FCWmg==";
+        };
+        _yhlFnolI = {
+            "id" = "yhlFnolI";
+            "file" = "JustQuests-plugin-26.1-0.4.4.jar";
+            "hash" = "sha512-TW/5ZclbGHHHKVlX55M85QKb08N0ccLZnVTV7v1/1TWNjGl9zZwbneYimngoFd6qyxqflYR8p7GtqC9cyABabQ==";
+        };
     in {
         "fxlYFjf5" = _fxlYFjf5;
         "yWSiBWAK" = _yWSiBWAK;
@@ -3410,136 +3870,228 @@ let
         "trzJAFmy" = _trzJAFmy;
         "xsXcINWG" = _xsXcINWG;
         "Jrgx9H1E" = _Jrgx9H1E;
-        "neoforge-1.21.1" = _qrU49gBJ;
-        "neoforge-1.21" = _oNNGeVKS;
-        "neoforge-1.21.2" = _PGtVmNFY;
-        "neoforge-1.21.3" = _QhgVdnH4;
-        "neoforge-1.21.4" = _k6ANFyAn;
-        "neoforge-1.21.5" = _9opmmFHz;
-        "neoforge-1.21.10" = _STcn0yT0;
-        "neoforge-1.21.6" = _VVcTkmlQ;
-        "neoforge-1.21.7" = _vffHCWLt;
-        "neoforge-1.21.8" = _tDgNXvjo;
-        "neoforge-1.21.9" = _mpEDX1Ki;
-        "neoforge-1.20.4" = _GnWJPMRg;
-        "neoforge-1.20.6" = _iGfBFliR;
-        "neoforge-1.21.11" = _FdzUsDUw;
-        "neoforge-26.1.2" = _3kY0RbuO;
-        "neoforge-26.2" = _nluOfzAn;
-        "fabric-1.18.2" = _GGg7Ez57;
-        "fabric-1.19.2" = _nVBvkTvi;
-        "fabric-1.19.4" = _wPfBXM5j;
-        "fabric-1.20.1" = _g9NQ7x1w;
-        "fabric-1.20.4" = _hXWWRJaf;
-        "fabric-1.20.6" = _XuFchd7h;
-        "fabric-1.21.1" = _wJJMdGdl;
-        "fabric-1.21.10" = _EPY9fw2z;
-        "fabric-1.21.2" = _RhBdJ1a2;
-        "fabric-1.21.3" = _vWF20Y4q;
-        "fabric-1.21.4" = _zOa6gf3j;
-        "fabric-1.21.5" = _yzT0hJhe;
-        "fabric-1.21.6" = _KdMhhq2j;
-        "fabric-1.21.7" = _yGWdXezu;
-        "fabric-1.21.8" = _7ZrYO5pj;
-        "fabric-1.21.9" = _tB9bkaPu;
-        "fabric-1.21" = _Y2HVIulz;
-        "fabric-1.21.11" = _EMNiXmSI;
-        "fabric-26.1.1" = _IIZfN2z0;
-        "fabric-26.1.2" = _29MjBVbB;
-        "fabric-26.1" = _8dvg8mZx;
-        "fabric-26.2" = _WAOI0iFO;
-        "fabric-26.3" = _9qP1AQBv;
-        "forge-1.18.2" = _eUSrjV61;
-        "forge-1.19.2" = _qzPrEmBC;
-        "forge-1.19.4" = _wqF3bSUQ;
-        "forge-1.20.1" = _fy6eowyF;
-        "paper-1.19" = _trzJAFmy;
-        "paper-1.19.1" = _trzJAFmy;
-        "paper-1.19.2" = _trzJAFmy;
-        "paper-1.19.3" = _trzJAFmy;
-        "paper-1.19.4" = _trzJAFmy;
-        "paper-1.20" = _trzJAFmy;
-        "paper-1.20.1" = _trzJAFmy;
-        "paper-1.20.2" = _trzJAFmy;
-        "paper-1.20.3" = _trzJAFmy;
-        "paper-1.20.4" = _trzJAFmy;
-        "paper-1.20.5" = _trzJAFmy;
-        "paper-1.20.6" = _trzJAFmy;
-        "paper-1.21" = _xsXcINWG;
-        "paper-1.21.1" = _xsXcINWG;
-        "paper-1.21.2" = _xsXcINWG;
-        "paper-1.21.3" = _xsXcINWG;
-        "paper-1.21.4" = _xsXcINWG;
-        "paper-1.21.5" = _xsXcINWG;
-        "paper-1.21.6" = _xsXcINWG;
-        "paper-1.21.7" = _xsXcINWG;
-        "paper-1.21.8" = _xsXcINWG;
-        "paper-1.21.9" = _xsXcINWG;
-        "paper-1.21.10" = _xsXcINWG;
-        "paper-1.21.11" = _xsXcINWG;
-        "paper-26.1" = _Jrgx9H1E;
-        "paper-26.1.1" = _Jrgx9H1E;
-        "paper-26.1.2" = _Jrgx9H1E;
-        "paper-26.2" = _Jrgx9H1E;
-        "paper-26.3" = _Jrgx9H1E;
-        "purpur-1.19" = _trzJAFmy;
-        "purpur-1.19.1" = _trzJAFmy;
-        "purpur-1.19.2" = _trzJAFmy;
-        "purpur-1.19.3" = _trzJAFmy;
-        "purpur-1.19.4" = _trzJAFmy;
-        "purpur-1.20" = _trzJAFmy;
-        "purpur-1.20.1" = _trzJAFmy;
-        "purpur-1.20.2" = _trzJAFmy;
-        "purpur-1.20.3" = _trzJAFmy;
-        "purpur-1.20.4" = _trzJAFmy;
-        "purpur-1.20.5" = _trzJAFmy;
-        "purpur-1.20.6" = _trzJAFmy;
-        "purpur-1.21" = _xsXcINWG;
-        "purpur-1.21.1" = _xsXcINWG;
-        "purpur-1.21.2" = _xsXcINWG;
-        "purpur-1.21.3" = _xsXcINWG;
-        "purpur-1.21.4" = _xsXcINWG;
-        "purpur-1.21.5" = _xsXcINWG;
-        "purpur-1.21.6" = _xsXcINWG;
-        "purpur-1.21.7" = _xsXcINWG;
-        "purpur-1.21.8" = _xsXcINWG;
-        "purpur-1.21.9" = _xsXcINWG;
-        "purpur-1.21.10" = _xsXcINWG;
-        "purpur-1.21.11" = _xsXcINWG;
-        "purpur-26.1" = _Jrgx9H1E;
-        "purpur-26.1.1" = _Jrgx9H1E;
-        "purpur-26.1.2" = _Jrgx9H1E;
-        "purpur-26.2" = _Jrgx9H1E;
-        "purpur-26.3" = _Jrgx9H1E;
-        "spigot-1.19" = _trzJAFmy;
-        "spigot-1.19.1" = _trzJAFmy;
-        "spigot-1.19.2" = _trzJAFmy;
-        "spigot-1.19.3" = _trzJAFmy;
-        "spigot-1.19.4" = _trzJAFmy;
-        "spigot-1.20" = _trzJAFmy;
-        "spigot-1.20.1" = _trzJAFmy;
-        "spigot-1.20.2" = _trzJAFmy;
-        "spigot-1.20.3" = _trzJAFmy;
-        "spigot-1.20.4" = _trzJAFmy;
-        "spigot-1.20.5" = _trzJAFmy;
-        "spigot-1.20.6" = _trzJAFmy;
-        "spigot-1.21" = _xsXcINWG;
-        "spigot-1.21.1" = _xsXcINWG;
-        "spigot-1.21.2" = _xsXcINWG;
-        "spigot-1.21.3" = _xsXcINWG;
-        "spigot-1.21.4" = _xsXcINWG;
-        "spigot-1.21.5" = _xsXcINWG;
-        "spigot-1.21.6" = _xsXcINWG;
-        "spigot-1.21.7" = _xsXcINWG;
-        "spigot-1.21.8" = _xsXcINWG;
-        "spigot-1.21.9" = _xsXcINWG;
-        "spigot-1.21.10" = _xsXcINWG;
-        "spigot-1.21.11" = _xsXcINWG;
-        "spigot-26.1" = _Jrgx9H1E;
-        "spigot-26.1.1" = _Jrgx9H1E;
-        "spigot-26.1.2" = _Jrgx9H1E;
-        "spigot-26.2" = _Jrgx9H1E;
-        "spigot-26.3" = _Jrgx9H1E;
+        "ytJhIr4Q" = _ytJhIr4Q;
+        "ZrTLAK2b" = _ZrTLAK2b;
+        "bapSZk4V" = _bapSZk4V;
+        "JW24YmHj" = _JW24YmHj;
+        "9aV1BOiM" = _9aV1BOiM;
+        "JX5Vspyl" = _JX5Vspyl;
+        "gaDUMViR" = _gaDUMViR;
+        "suNpJuQ7" = _suNpJuQ7;
+        "dvTKyzUi" = _dvTKyzUi;
+        "XTeAV4dr" = _XTeAV4dr;
+        "HbS0fgW8" = _HbS0fgW8;
+        "ssAMvgoS" = _ssAMvgoS;
+        "OXp0qYzB" = _OXp0qYzB;
+        "zHk42K8c" = _zHk42K8c;
+        "5quj962G" = _5quj962G;
+        "XcqhmnA2" = _XcqhmnA2;
+        "mjTYpe1v" = _mjTYpe1v;
+        "lUoWaApu" = _lUoWaApu;
+        "yDZymrSN" = _yDZymrSN;
+        "EoPVMOZZ" = _EoPVMOZZ;
+        "FKBRrV4u" = _FKBRrV4u;
+        "oGgOyoGp" = _oGgOyoGp;
+        "CNo6hDqv" = _CNo6hDqv;
+        "5kLmzQsO" = _5kLmzQsO;
+        "XU8oHptQ" = _XU8oHptQ;
+        "8TCjLJV8" = _8TCjLJV8;
+        "ZxJAMSBw" = _ZxJAMSBw;
+        "ncHJgHYT" = _ncHJgHYT;
+        "N5iCK2NA" = _N5iCK2NA;
+        "IAqKdrSC" = _IAqKdrSC;
+        "vCOLh5fq" = _vCOLh5fq;
+        "uKAdmWVW" = _uKAdmWVW;
+        "jntTCrVO" = _jntTCrVO;
+        "4Nmip63k" = _4Nmip63k;
+        "XE2KnIW8" = _XE2KnIW8;
+        "KsrTLoei" = _KsrTLoei;
+        "kZu4ikk6" = _kZu4ikk6;
+        "2Z1W1JLK" = _2Z1W1JLK;
+        "rDvEtjzK" = _rDvEtjzK;
+        "R9vIVo1H" = _R9vIVo1H;
+        "bmt3tq5F" = _bmt3tq5F;
+        "yQ3HBJkY" = _yQ3HBJkY;
+        "ihwTKoJu" = _ihwTKoJu;
+        "n0IHjtJo" = _n0IHjtJo;
+        "ZEe5t99d" = _ZEe5t99d;
+        "LsV1IKZb" = _LsV1IKZb;
+        "94LtNFhM" = _94LtNFhM;
+        "ntqHl93i" = _ntqHl93i;
+        "FsVMsKUC" = _FsVMsKUC;
+        "8tsPqrqB" = _8tsPqrqB;
+        "FvYJCD0e" = _FvYJCD0e;
+        "1iEzE5vS" = _1iEzE5vS;
+        "iyVnoMYj" = _iyVnoMYj;
+        "pJm8xDKf" = _pJm8xDKf;
+        "pTgBA9Jb" = _pTgBA9Jb;
+        "41TZJPCm" = _41TZJPCm;
+        "dIc641mb" = _dIc641mb;
+        "5oHvdeas" = _5oHvdeas;
+        "5VIeQKUj" = _5VIeQKUj;
+        "AWHCRIXw" = _AWHCRIXw;
+        "I1HqAwMc" = _I1HqAwMc;
+        "4cMqtLXa" = _4cMqtLXa;
+        "iuytXDxL" = _iuytXDxL;
+        "oeMPSAva" = _oeMPSAva;
+        "Rz4ZuBBd" = _Rz4ZuBBd;
+        "MPQw9qjU" = _MPQw9qjU;
+        "E4HtMPrA" = _E4HtMPrA;
+        "DdTovqKq" = _DdTovqKq;
+        "xAc44JFF" = _xAc44JFF;
+        "vMjoufQq" = _vMjoufQq;
+        "v8h6Hvfq" = _v8h6Hvfq;
+        "YoJJq1Hj" = _YoJJq1Hj;
+        "dKm6CONl" = _dKm6CONl;
+        "vbmk5wGx" = _vbmk5wGx;
+        "ZSEHjk56" = _ZSEHjk56;
+        "GkgiOtBg" = _GkgiOtBg;
+        "rJcQ43zY" = _rJcQ43zY;
+        "H55sjzxg" = _H55sjzxg;
+        "Hl4eT2eo" = _Hl4eT2eo;
+        "iMrPlhvN" = _iMrPlhvN;
+        "EXmyZVA4" = _EXmyZVA4;
+        "bi7qca9T" = _bi7qca9T;
+        "3Y7bRKG0" = _3Y7bRKG0;
+        "48E9ClWm" = _48E9ClWm;
+        "1JJOHneK" = _1JJOHneK;
+        "GWis5xpt" = _GWis5xpt;
+        "bsvZRNAE" = _bsvZRNAE;
+        "6ZLrKONn" = _6ZLrKONn;
+        "k0DWeg4V" = _k0DWeg4V;
+        "DaazULe9" = _DaazULe9;
+        "oHhTQ5aX" = _oHhTQ5aX;
+        "yhlFnolI" = _yhlFnolI;
+        "neoforge-1.21.1" = _GkgiOtBg;
+        "neoforge-1.21" = _bsvZRNAE;
+        "neoforge-1.21.2" = _Hl4eT2eo;
+        "neoforge-1.21.3" = _iMrPlhvN;
+        "neoforge-1.21.4" = _EXmyZVA4;
+        "neoforge-1.21.5" = _bi7qca9T;
+        "neoforge-1.21.10" = _rJcQ43zY;
+        "neoforge-1.21.6" = _3Y7bRKG0;
+        "neoforge-1.21.7" = _48E9ClWm;
+        "neoforge-1.21.8" = _1JJOHneK;
+        "neoforge-1.21.9" = _GWis5xpt;
+        "neoforge-1.20.4" = _vbmk5wGx;
+        "neoforge-1.20.6" = _ZSEHjk56;
+        "neoforge-1.21.11" = _H55sjzxg;
+        "neoforge-26.1.2" = _6ZLrKONn;
+        "neoforge-26.2" = _k0DWeg4V;
+        "fabric-1.18.2" = _94LtNFhM;
+        "fabric-1.19.2" = _ntqHl93i;
+        "fabric-1.19.4" = _FsVMsKUC;
+        "fabric-1.20.1" = _8tsPqrqB;
+        "fabric-1.20.4" = _FvYJCD0e;
+        "fabric-1.20.6" = _1iEzE5vS;
+        "fabric-1.21.1" = _iyVnoMYj;
+        "fabric-1.21.10" = _pJm8xDKf;
+        "fabric-1.21.2" = _41TZJPCm;
+        "fabric-1.21.3" = _dIc641mb;
+        "fabric-1.21.4" = _5oHvdeas;
+        "fabric-1.21.5" = _5VIeQKUj;
+        "fabric-1.21.6" = _AWHCRIXw;
+        "fabric-1.21.7" = _I1HqAwMc;
+        "fabric-1.21.8" = _4cMqtLXa;
+        "fabric-1.21.9" = _iuytXDxL;
+        "fabric-1.21" = _oeMPSAva;
+        "fabric-1.21.11" = _pTgBA9Jb;
+        "fabric-26.1.1" = _Rz4ZuBBd;
+        "fabric-26.1.2" = _MPQw9qjU;
+        "fabric-26.1" = _E4HtMPrA;
+        "fabric-26.2" = _DdTovqKq;
+        "fabric-26.3" = _xAc44JFF;
+        "forge-1.18.2" = _vMjoufQq;
+        "forge-1.19.2" = _v8h6Hvfq;
+        "forge-1.19.4" = _YoJJq1Hj;
+        "forge-1.20.1" = _dKm6CONl;
+        "paper-1.19" = _DaazULe9;
+        "paper-1.19.1" = _DaazULe9;
+        "paper-1.19.2" = _DaazULe9;
+        "paper-1.19.3" = _DaazULe9;
+        "paper-1.19.4" = _DaazULe9;
+        "paper-1.20" = _DaazULe9;
+        "paper-1.20.1" = _DaazULe9;
+        "paper-1.20.2" = _DaazULe9;
+        "paper-1.20.3" = _DaazULe9;
+        "paper-1.20.4" = _DaazULe9;
+        "paper-1.20.5" = _DaazULe9;
+        "paper-1.20.6" = _DaazULe9;
+        "paper-1.21" = _oHhTQ5aX;
+        "paper-1.21.1" = _oHhTQ5aX;
+        "paper-1.21.2" = _oHhTQ5aX;
+        "paper-1.21.3" = _oHhTQ5aX;
+        "paper-1.21.4" = _oHhTQ5aX;
+        "paper-1.21.5" = _oHhTQ5aX;
+        "paper-1.21.6" = _oHhTQ5aX;
+        "paper-1.21.7" = _oHhTQ5aX;
+        "paper-1.21.8" = _oHhTQ5aX;
+        "paper-1.21.9" = _oHhTQ5aX;
+        "paper-1.21.10" = _oHhTQ5aX;
+        "paper-1.21.11" = _oHhTQ5aX;
+        "paper-26.1" = _yhlFnolI;
+        "paper-26.1.1" = _yhlFnolI;
+        "paper-26.1.2" = _yhlFnolI;
+        "paper-26.2" = _yhlFnolI;
+        "paper-26.3" = _yhlFnolI;
+        "purpur-1.19" = _DaazULe9;
+        "purpur-1.19.1" = _DaazULe9;
+        "purpur-1.19.2" = _DaazULe9;
+        "purpur-1.19.3" = _DaazULe9;
+        "purpur-1.19.4" = _DaazULe9;
+        "purpur-1.20" = _DaazULe9;
+        "purpur-1.20.1" = _DaazULe9;
+        "purpur-1.20.2" = _DaazULe9;
+        "purpur-1.20.3" = _DaazULe9;
+        "purpur-1.20.4" = _DaazULe9;
+        "purpur-1.20.5" = _DaazULe9;
+        "purpur-1.20.6" = _DaazULe9;
+        "purpur-1.21" = _oHhTQ5aX;
+        "purpur-1.21.1" = _oHhTQ5aX;
+        "purpur-1.21.2" = _oHhTQ5aX;
+        "purpur-1.21.3" = _oHhTQ5aX;
+        "purpur-1.21.4" = _oHhTQ5aX;
+        "purpur-1.21.5" = _oHhTQ5aX;
+        "purpur-1.21.6" = _oHhTQ5aX;
+        "purpur-1.21.7" = _oHhTQ5aX;
+        "purpur-1.21.8" = _oHhTQ5aX;
+        "purpur-1.21.9" = _oHhTQ5aX;
+        "purpur-1.21.10" = _oHhTQ5aX;
+        "purpur-1.21.11" = _oHhTQ5aX;
+        "purpur-26.1" = _yhlFnolI;
+        "purpur-26.1.1" = _yhlFnolI;
+        "purpur-26.1.2" = _yhlFnolI;
+        "purpur-26.2" = _yhlFnolI;
+        "purpur-26.3" = _yhlFnolI;
+        "spigot-1.19" = _DaazULe9;
+        "spigot-1.19.1" = _DaazULe9;
+        "spigot-1.19.2" = _DaazULe9;
+        "spigot-1.19.3" = _DaazULe9;
+        "spigot-1.19.4" = _DaazULe9;
+        "spigot-1.20" = _DaazULe9;
+        "spigot-1.20.1" = _DaazULe9;
+        "spigot-1.20.2" = _DaazULe9;
+        "spigot-1.20.3" = _DaazULe9;
+        "spigot-1.20.4" = _DaazULe9;
+        "spigot-1.20.5" = _DaazULe9;
+        "spigot-1.20.6" = _DaazULe9;
+        "spigot-1.21" = _oHhTQ5aX;
+        "spigot-1.21.1" = _oHhTQ5aX;
+        "spigot-1.21.2" = _oHhTQ5aX;
+        "spigot-1.21.3" = _oHhTQ5aX;
+        "spigot-1.21.4" = _oHhTQ5aX;
+        "spigot-1.21.5" = _oHhTQ5aX;
+        "spigot-1.21.6" = _oHhTQ5aX;
+        "spigot-1.21.7" = _oHhTQ5aX;
+        "spigot-1.21.8" = _oHhTQ5aX;
+        "spigot-1.21.9" = _oHhTQ5aX;
+        "spigot-1.21.10" = _oHhTQ5aX;
+        "spigot-1.21.11" = _oHhTQ5aX;
+        "spigot-26.1" = _yhlFnolI;
+        "spigot-26.1.1" = _yhlFnolI;
+        "spigot-26.1.2" = _yhlFnolI;
+        "spigot-26.2" = _yhlFnolI;
+        "spigot-26.3" = _yhlFnolI;
         "pkg-0.1.0" = _fxlYFjf5;
         "pkg-0.1.1" = _yWSiBWAK;
         "pkg-0.1.2" = _N78hkQa7;
@@ -4108,7 +4660,99 @@ let
         "pkg-plugin-1.19-0.4.2" = _trzJAFmy;
         "pkg-plugin-1.21-0.4.2" = _xsXcINWG;
         "pkg-plugin-26.1-0.4.2" = _Jrgx9H1E;
-        "default" = _Jrgx9H1E;
+        "pkg-fabric-1.18.2-0.4.3" = _ytJhIr4Q;
+        "pkg-fabric-1.19.2-0.4.3" = _ZrTLAK2b;
+        "pkg-fabric-1.19.4-0.4.3" = _bapSZk4V;
+        "pkg-fabric-1.20.1-0.4.3" = _JW24YmHj;
+        "pkg-fabric-1.20.4-0.4.3" = _9aV1BOiM;
+        "pkg-fabric-1.20.6-0.4.3" = _JX5Vspyl;
+        "pkg-fabric-1.21.1-0.4.3" = _gaDUMViR;
+        "pkg-fabric-1.21.10-0.4.3" = _suNpJuQ7;
+        "pkg-fabric-1.21.11-0.4.3" = _dvTKyzUi;
+        "pkg-fabric-1.21.2-0.4.3" = _XTeAV4dr;
+        "pkg-fabric-1.21.3-0.4.3" = _HbS0fgW8;
+        "pkg-fabric-1.21.4-0.4.3" = _ssAMvgoS;
+        "pkg-fabric-1.21.5-0.4.3" = _OXp0qYzB;
+        "pkg-fabric-1.21.6-0.4.3" = _zHk42K8c;
+        "pkg-fabric-1.21.7-0.4.3" = _5quj962G;
+        "pkg-fabric-1.21.8-0.4.3" = _XcqhmnA2;
+        "pkg-fabric-1.21.9-0.4.3" = _mjTYpe1v;
+        "pkg-fabric-1.21-0.4.3" = _lUoWaApu;
+        "pkg-fabric-26.1.1-0.4.3" = _yDZymrSN;
+        "pkg-fabric-26.1.2-0.4.3" = _EoPVMOZZ;
+        "pkg-fabric-26.1-0.4.3" = _FKBRrV4u;
+        "pkg-fabric-26.2-0.4.3" = _oGgOyoGp;
+        "pkg-fabric-26.3-0.4.3" = _CNo6hDqv;
+        "pkg-forge-1.18.2-0.4.3" = _5kLmzQsO;
+        "pkg-forge-1.19.2-0.4.3" = _XU8oHptQ;
+        "pkg-forge-1.19.4-0.4.3" = _8TCjLJV8;
+        "pkg-forge-1.20.1-0.4.3" = _ZxJAMSBw;
+        "pkg-neoforge-1.20.4-0.4.3" = _ncHJgHYT;
+        "pkg-neoforge-1.20.6-0.4.3" = _N5iCK2NA;
+        "pkg-neoforge-1.21.1-0.4.3" = _IAqKdrSC;
+        "pkg-neoforge-1.21.10-0.4.3" = _vCOLh5fq;
+        "pkg-neoforge-1.21.11-0.4.3" = _uKAdmWVW;
+        "pkg-neoforge-1.21.2-0.4.3" = _jntTCrVO;
+        "pkg-neoforge-1.21.3-0.4.3" = _4Nmip63k;
+        "pkg-neoforge-1.21.4-0.4.3" = _XE2KnIW8;
+        "pkg-neoforge-1.21.5-0.4.3" = _KsrTLoei;
+        "pkg-neoforge-1.21.6-0.4.3" = _kZu4ikk6;
+        "pkg-neoforge-1.21.7-0.4.3" = _2Z1W1JLK;
+        "pkg-neoforge-1.21.8-0.4.3" = _rDvEtjzK;
+        "pkg-neoforge-1.21.9-0.4.3" = _R9vIVo1H;
+        "pkg-neoforge-1.21-0.4.3" = _bmt3tq5F;
+        "pkg-neoforge-26.1.2-0.4.3" = _yQ3HBJkY;
+        "pkg-neoforge-26.2-0.4.3" = _ihwTKoJu;
+        "pkg-plugin-1.19-0.4.3" = _n0IHjtJo;
+        "pkg-plugin-1.21-0.4.3" = _ZEe5t99d;
+        "pkg-plugin-26.1-0.4.3" = _LsV1IKZb;
+        "pkg-fabric-1.18.2-0.4.4" = _94LtNFhM;
+        "pkg-fabric-1.19.2-0.4.4" = _ntqHl93i;
+        "pkg-fabric-1.19.4-0.4.4" = _FsVMsKUC;
+        "pkg-fabric-1.20.1-0.4.4" = _8tsPqrqB;
+        "pkg-fabric-1.20.4-0.4.4" = _FvYJCD0e;
+        "pkg-fabric-1.20.6-0.4.4" = _1iEzE5vS;
+        "pkg-fabric-1.21.1-0.4.4" = _iyVnoMYj;
+        "pkg-fabric-1.21.10-0.4.4" = _pJm8xDKf;
+        "pkg-fabric-1.21.11-0.4.4" = _pTgBA9Jb;
+        "pkg-fabric-1.21.2-0.4.4" = _41TZJPCm;
+        "pkg-fabric-1.21.3-0.4.4" = _dIc641mb;
+        "pkg-fabric-1.21.4-0.4.4" = _5oHvdeas;
+        "pkg-fabric-1.21.5-0.4.4" = _5VIeQKUj;
+        "pkg-fabric-1.21.6-0.4.4" = _AWHCRIXw;
+        "pkg-fabric-1.21.7-0.4.4" = _I1HqAwMc;
+        "pkg-fabric-1.21.8-0.4.4" = _4cMqtLXa;
+        "pkg-fabric-1.21.9-0.4.4" = _iuytXDxL;
+        "pkg-fabric-1.21-0.4.4" = _oeMPSAva;
+        "pkg-fabric-26.1.1-0.4.4" = _Rz4ZuBBd;
+        "pkg-fabric-26.1.2-0.4.4" = _MPQw9qjU;
+        "pkg-fabric-26.1-0.4.4" = _E4HtMPrA;
+        "pkg-fabric-26.2-0.4.4" = _DdTovqKq;
+        "pkg-fabric-26.3-0.4.4" = _xAc44JFF;
+        "pkg-forge-1.18.2-0.4.4" = _vMjoufQq;
+        "pkg-forge-1.19.2-0.4.4" = _v8h6Hvfq;
+        "pkg-forge-1.19.4-0.4.4" = _YoJJq1Hj;
+        "pkg-forge-1.20.1-0.4.4" = _dKm6CONl;
+        "pkg-neoforge-1.20.4-0.4.4" = _vbmk5wGx;
+        "pkg-neoforge-1.20.6-0.4.4" = _ZSEHjk56;
+        "pkg-neoforge-1.21.1-0.4.4" = _GkgiOtBg;
+        "pkg-neoforge-1.21.10-0.4.4" = _rJcQ43zY;
+        "pkg-neoforge-1.21.11-0.4.4" = _H55sjzxg;
+        "pkg-neoforge-1.21.2-0.4.4" = _Hl4eT2eo;
+        "pkg-neoforge-1.21.3-0.4.4" = _iMrPlhvN;
+        "pkg-neoforge-1.21.4-0.4.4" = _EXmyZVA4;
+        "pkg-neoforge-1.21.5-0.4.4" = _bi7qca9T;
+        "pkg-neoforge-1.21.6-0.4.4" = _3Y7bRKG0;
+        "pkg-neoforge-1.21.7-0.4.4" = _48E9ClWm;
+        "pkg-neoforge-1.21.8-0.4.4" = _1JJOHneK;
+        "pkg-neoforge-1.21.9-0.4.4" = _GWis5xpt;
+        "pkg-neoforge-1.21-0.4.4" = _bsvZRNAE;
+        "pkg-neoforge-26.1.2-0.4.4" = _6ZLrKONn;
+        "pkg-neoforge-26.2-0.4.4" = _k0DWeg4V;
+        "pkg-plugin-1.19-0.4.4" = _DaazULe9;
+        "pkg-plugin-1.21-0.4.4" = _oHhTQ5aX;
+        "pkg-plugin-26.1-0.4.4" = _yhlFnolI;
+        "default" = _yhlFnolI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justquests";

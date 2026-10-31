@@ -96,6 +96,21 @@ let
             "file" = "Cobblemon Cities & Structures-1.0.13.jar";
             "hash" = "sha512-DJXrUzMivWQqEW5mCd2HW4oho43QKB+V4n1sFkbBeJAWQ9xJCnNhlGuwZ9U5Ef+JHvCD8l5IQRDk4P7Zgw3H0Q==";
         };
+        _FR0UDkVs = {
+            "id" = "FR0UDkVs";
+            "file" = "Cobblemon Cities & Structures-1.0.14.jar";
+            "hash" = "sha512-e022YcFYPgu/zQffXY6IQgYnioi6lQTF1a1zZQzbxTBIcZQf91TD6NjoAohjT+uO0SWVhiJ+a2hBvQh1iPb/lw==";
+        };
+        _xL8hpxfp = {
+            "id" = "xL8hpxfp";
+            "file" = "Cobblemon Cities & Structures - Shop and Loot Example.zip";
+            "hash" = "sha512-plL2cYr+YpayiO0yoKVKOx91p5Y6VFDcxuQ6IAtjn+HAz8FFuKMfKF43l2C2FLZCj8cwW9EYKRKkoDw1cfkQRQ==";
+        };
+        _QFkxDH1m = {
+            "id" = "QFkxDH1m";
+            "file" = "Cobblemon Cities & Structures-1.0.15.jar";
+            "hash" = "sha512-5L9ECu4BnkfoeEEiLQK3NemFONL93M4HBNB8BUEX2hqML9N9Mm3Oz+n8V5fY8/dl5Zuniw8843U6r3ua6qlQ9Q==";
+        };
     in {
         "nxoyXWAx" = _nxoyXWAx;
         "PiGETHWh" = _PiGETHWh;
@@ -116,12 +131,15 @@ let
         "vvmOAzZr" = _vvmOAzZr;
         "fgoLYhxe" = _fgoLYhxe;
         "XjoMOfth" = _XjoMOfth;
+        "FR0UDkVs" = _FR0UDkVs;
+        "xL8hpxfp" = _xL8hpxfp;
+        "QFkxDH1m" = _QFkxDH1m;
         "minecraft-1.21" = _BlzWIIC0;
         "minecraft-1.21.1" = _BlzWIIC0;
-        "datapack-1.21" = _AXM0wD5F;
-        "datapack-1.21.1" = _AXM0wD5F;
-        "fabric-1.21.1" = _XjoMOfth;
-        "neoforge-1.21.1" = _XjoMOfth;
+        "datapack-1.21" = _xL8hpxfp;
+        "datapack-1.21.1" = _xL8hpxfp;
+        "fabric-1.21.1" = _QFkxDH1m;
+        "neoforge-1.21.1" = _QFkxDH1m;
         "pkg-1.0.0" = _5kG4N9gK;
         "pkg-1.0.01" = _j2v7B0LD;
         "pkg-1.0.02" = _CoBKpqqb;
@@ -135,7 +153,10 @@ let
         "pkg-1.0.11" = _vvmOAzZr;
         "pkg-1.0.12" = _fgoLYhxe;
         "pkg-1.0.13" = _XjoMOfth;
-        "default" = _XjoMOfth;
+        "pkg-1.0.14" = _FR0UDkVs;
+        "pkg-Shop-and-Loot-Example" = _xL8hpxfp;
+        "pkg-1.0.15" = _QFkxDH1m;
+        "default" = _QFkxDH1m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-cities-structures";

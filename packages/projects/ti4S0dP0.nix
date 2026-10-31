@@ -106,6 +106,11 @@ let
             "file" = "BlockPixel Texture Pack.zip";
             "hash" = "sha512-YL5tyI1WgRCRTtNM1PTDvTTwWP5y0CqeqH9IPrHWBpPYqsM/c0wnhtNiwbG2HyxWOgMRG839UIiWGCq0Xvr7gQ==";
         };
+        _j24DQkkC = {
+            "id" = "j24DQkkC";
+            "file" = "BlockPixel Texture Pack.zip";
+            "hash" = "sha512-t1JH3QgISjk1rrKi5Rbr1v3J6IuwQ0CjXhnruQuv+rrzXljKRP4wHl3v9rVlouwpgIj5jKso841sep5kDCS/yw==";
+        };
     in {
         "O8ieWREi" = _O8ieWREi;
         "bNu32rOC" = _bNu32rOC;
@@ -128,6 +133,7 @@ let
         "nY3194Kg" = _nY3194Kg;
         "l8FyEVB2" = _l8FyEVB2;
         "KDUSxdKe" = _KDUSxdKe;
+        "j24DQkkC" = _j24DQkkC;
         "minecraft-1.20.1" = _O8ieWREi;
         "minecraft-1.20.6" = _bNu32rOC;
         "minecraft-1.21" = _F3vfGh3p;
@@ -138,7 +144,7 @@ let
         "minecraft-1.21.8" = _Ixd6R3l1;
         "minecraft-1.21.11" = _QczlQ61d;
         "minecraft-26.2" = _nY3194Kg;
-        "minecraft-26.3" = _KDUSxdKe;
+        "minecraft-26.3" = _j24DQkkC;
         "pkg-1.20.1.26" = _O8ieWREi;
         "pkg-1.20.6.30" = _bNu32rOC;
         "pkg-1.21.0.31" = _4ykaswFh;
@@ -159,7 +165,8 @@ let
         "pkg-26.2.06" = _nY3194Kg;
         "pkg-26.3.01" = _l8FyEVB2;
         "pkg-26.3.02" = _KDUSxdKe;
-        "default" = _KDUSxdKe;
+        "pkg-26.3_03" = _j24DQkkC;
+        "default" = _j24DQkkC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockpixel";

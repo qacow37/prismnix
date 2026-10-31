@@ -911,6 +911,26 @@ let
             "file" = "natural-temperature-1.2-FABRIC-MC-1.21.6.jar";
             "hash" = "sha512-lqLtPr+V89Upnw6UsEAm6/+8rkMvW47Kzw8ylh168pDi6P6+O4mllI98VWgt8WEyPVU1k8TiD5bnalVm7Luh8g==";
         };
+        _wszI15hE = {
+            "id" = "wszI15hE";
+            "file" = "natural-temperature-1.2-FABRIC-MC-26.1.X.jar";
+            "hash" = "sha512-AEsUIeOGS/Wpx525zuYWfpXl/GQWKkEo5ikGz6rUr2t22looo9ikguHjDjZ68fVOZvtHlhEAkqaaIf9B/4+feA==";
+        };
+        _LLIEwQdq = {
+            "id" = "LLIEwQdq";
+            "file" = "natural-temperature-1.2-FABRIC-MC-26.3.jar";
+            "hash" = "sha512-IC6vIUKHL60bRRL2cjqr5nV4rdLpNv2+zxIEfr3RbZDj7002kp01KP/lo08WhZ8tfd6xqiewNdI+6TOPuU2pKg==";
+        };
+        _lhV7mJ1r = {
+            "id" = "lhV7mJ1r";
+            "file" = "natural-temperature-1.2-FABRIC-MC-1.21.1-5.jar";
+            "hash" = "sha512-6ADzXRwGMTjPHlorIrQK6RcNvbctVqf0Y3jeUQ6hRAoiH0dInwfMQGAb/abD4cZzeTtRxuB0LTtJtgc9r4ZegA==";
+        };
+        _x9MwlK1U = {
+            "id" = "x9MwlK1U";
+            "file" = "natural-temperature-1.2-FABRIC-MC-1.20.1.jar";
+            "hash" = "sha512-RGNmtyAMIVr1+29TIfQWCdjLfB9JKRglNO3p1C/p7qg0D/c5iMCRX+lSYxzIAOi4q+gcXOmXrvoOD3L/hNdgMQ==";
+        };
     in {
         "tydxrdhC" = _tydxrdhC;
         "NojYw1ze" = _NojYw1ze;
@@ -1094,28 +1114,32 @@ let
         "zMyREpgW" = _zMyREpgW;
         "kQteHRBR" = _kQteHRBR;
         "yWNAsFX9" = _yWNAsFX9;
-        "fabric-1.21.4" = _FRFxovyZ;
-        "fabric-1.21.5" = _FRFxovyZ;
-        "fabric-1.20.1" = _GdrGPj9v;
-        "fabric-1.21.1" = _FRFxovyZ;
+        "wszI15hE" = _wszI15hE;
+        "LLIEwQdq" = _LLIEwQdq;
+        "lhV7mJ1r" = _lhV7mJ1r;
+        "x9MwlK1U" = _x9MwlK1U;
+        "fabric-1.21.4" = _lhV7mJ1r;
+        "fabric-1.21.5" = _lhV7mJ1r;
+        "fabric-1.20.1" = _x9MwlK1U;
+        "fabric-1.21.1" = _lhV7mJ1r;
         "fabric-1.21.6" = _yWNAsFX9;
         "fabric-1.21.7" = _yWNAsFX9;
         "fabric-1.21.8" = _yWNAsFX9;
         "fabric-1.21.9" = _yWNAsFX9;
         "fabric-1.21.10" = _yWNAsFX9;
-        "fabric-1.21.2" = _FRFxovyZ;
-        "fabric-1.21.3" = _FRFxovyZ;
+        "fabric-1.21.2" = _lhV7mJ1r;
+        "fabric-1.21.3" = _lhV7mJ1r;
         "fabric-1.20.2" = _ayOaAP61;
         "fabric-1.20.3" = _ayOaAP61;
         "fabric-1.20.4" = _ayOaAP61;
         "fabric-1.20.5" = _ayOaAP61;
         "fabric-1.20.6" = _ayOaAP61;
         "fabric-1.21.11" = _yWNAsFX9;
-        "fabric-26.1" = _PPlLp46X;
-        "fabric-26.1.1" = _PPlLp46X;
-        "fabric-26.1.2" = _PPlLp46X;
-        "fabric-26.2" = _YxkQTe0m;
-        "fabric-26.3" = _kQteHRBR;
+        "fabric-26.1" = _wszI15hE;
+        "fabric-26.1.1" = _wszI15hE;
+        "fabric-26.1.2" = _wszI15hE;
+        "fabric-26.2" = _wszI15hE;
+        "fabric-26.3" = _LLIEwQdq;
         "neoforge-1.21.4" = _DqAmCBa6;
         "neoforge-1.21.5" = _IDSyG1Is;
         "neoforge-1.20.1" = _zX2j8apm;
@@ -1168,8 +1192,8 @@ let
         "pkg-1.1.9" = _ivTtRcz7;
         "pkg-1.1.10" = _zMyREpgW;
         "pkg-1.1.11" = _kQteHRBR;
-        "pkg-1.2" = _yWNAsFX9;
-        "default" = _yWNAsFX9;
+        "pkg-1.2" = _x9MwlK1U;
+        "default" = _x9MwlK1U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-temperature";

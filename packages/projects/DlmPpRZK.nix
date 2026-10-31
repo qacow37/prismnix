@@ -26,12 +26,18 @@ let
             "file" = "no-pumpkin-overlay-1.0.0-1.20.1.jar";
             "hash" = "sha512-83m6yWLDglz7/uk785EGQGsu2nsCELvOVXGlfT18tsbjIlEDBQigfDBVpAxWvWXzXtRp9RvwvvLGxRMz75hkkw==";
         };
+        _aYOJtlh4 = {
+            "id" = "aYOJtlh4";
+            "file" = "no-pumpkin-overlay-1.0.0-26.3.jar";
+            "hash" = "sha512-d6aIhlUUMuG+dPf4AOa9xepdeNeMEA2OJkhz7jt5uy2qMfPnnKJ9PlJYEX3PK9MvJt9w+FQH/xWWhrM6qreA5g==";
+        };
     in {
         "ZuQ7V57W" = _ZuQ7V57W;
         "xkgw1BN3" = _xkgw1BN3;
         "qZQUVWAU" = _qZQUVWAU;
         "D4VbOWNV" = _D4VbOWNV;
         "EUStBQzE" = _EUStBQzE;
+        "aYOJtlh4" = _aYOJtlh4;
         "fabric-26.2" = _ZuQ7V57W;
         "fabric-26.1.2" = _xkgw1BN3;
         "fabric-1.21.11" = _D4VbOWNV;
@@ -51,8 +57,9 @@ let
         "fabric-1.20.4" = _EUStBQzE;
         "fabric-1.20.5" = _EUStBQzE;
         "fabric-1.20.6" = _EUStBQzE;
-        "pkg-1.0.0" = _EUStBQzE;
-        "default" = _EUStBQzE;
+        "fabric-26.3" = _aYOJtlh4;
+        "pkg-1.0.0" = _aYOJtlh4;
+        "default" = _aYOJtlh4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-pumpkin-overlay-mod";

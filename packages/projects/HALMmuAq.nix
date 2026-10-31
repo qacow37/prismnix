@@ -26,12 +26,18 @@ let
             "file" = "Better-attack-sweep-26.1.1.zip";
             "hash" = "sha512-+kQw9PK93Jt/XUPgJlOhkeSY+zt/OrIyE5lQBzqU3bHNGL2bfipI0qJo31HtDBvH3Sq+Q0l07pMwDTwR4t6KwA==";
         };
+        _xCuQw8tc = {
+            "id" = "xCuQw8tc";
+            "file" = "Better-attack-sweep-26.x.zip";
+            "hash" = "sha512-Mn9oANQQIXk+EsuLiwiaTjAZPmt+0zPpFZ0GZar917LOEvXXVieTMz8hHkp2E1bTI7bEe8LYBdie5ID70iOJ5Q==";
+        };
     in {
         "f1QXkumm" = _f1QXkumm;
         "J3pSKNoI" = _J3pSKNoI;
         "qMlIe3T4" = _qMlIe3T4;
         "iEOnGWnP" = _iEOnGWnP;
         "fxhUnHyT" = _fxhUnHyT;
+        "xCuQw8tc" = _xCuQw8tc;
         "minecraft-1.20" = _qMlIe3T4;
         "minecraft-1.20.1" = _qMlIe3T4;
         "minecraft-1.20.2" = _qMlIe3T4;
@@ -57,13 +63,17 @@ let
         "minecraft-1.12" = _iEOnGWnP;
         "minecraft-1.12.1" = _iEOnGWnP;
         "minecraft-1.12.2" = _iEOnGWnP;
-        "minecraft-26.1" = _fxhUnHyT;
-        "minecraft-26.1.1" = _fxhUnHyT;
+        "minecraft-26.1" = _xCuQw8tc;
+        "minecraft-26.1.1" = _xCuQw8tc;
+        "minecraft-26.1.2" = _xCuQw8tc;
+        "minecraft-26.2" = _xCuQw8tc;
+        "minecraft-26.3" = _xCuQw8tc;
         "pkg-1.0.0" = _f1QXkumm;
         "pkg-1.0.1" = _J3pSKNoI;
         "pkg-1.0.2" = _iEOnGWnP;
         "pkg-1.0.3" = _fxhUnHyT;
-        "default" = _fxhUnHyT;
+        "pkg-1.0.4" = _xCuQw8tc;
+        "default" = _xCuQw8tc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-sweep-attack";

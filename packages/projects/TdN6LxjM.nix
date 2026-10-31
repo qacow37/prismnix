@@ -886,6 +886,16 @@ let
             "file" = "Lychee-mc26.1-NeoForge-26.0.10.jar";
             "hash" = "sha512-ZVyHSneNJhV0hkXjgCsTPJa0nooSWFYqcPJyeJNDgV9Sg4Pe8PqJp+uaNpczHlsQYFsEVVbCdBcpN//sySDHkw==";
         };
+        _Kd81I866 = {
+            "id" = "Kd81I866";
+            "file" = "Lychee-1.21.1-NeoForge-6.7.2.jar";
+            "hash" = "sha512-fERcQhLWLBZhvy6/73lCMaKvBGxi7l0yXfAVjvmPDX4BXxj9JANCPspPVxg+6no5QGotv5R6CzReuuzjTKF2Hg==";
+        };
+        _qThqnKpg = {
+            "id" = "qThqnKpg";
+            "file" = "Lychee-1.21.1-Fabric-6.7.2.jar";
+            "hash" = "sha512-8bva7B8Ordo9q03zcH0mzNsQECEF+MGBwl5Sp67uJ0g8LGDKnaWe0gwiDPouQ9eRDNm4G0HELULTctm1e9O4jA==";
+        };
     in {
         "W4g3Ljfn" = _W4g3Ljfn;
         "B59sSFlS" = _B59sSFlS;
@@ -1064,12 +1074,14 @@ let
         "8boK3p4C" = _8boK3p4C;
         "ZrxhhL2p" = _ZrxhhL2p;
         "VrWbZecQ" = _VrWbZecQ;
+        "Kd81I866" = _Kd81I866;
+        "qThqnKpg" = _qThqnKpg;
         "fabric-1.19.2" = _MsPPEFnx;
         "fabric-1.18.2" = _FDZTK6rq;
         "fabric-1.20" = _P0KM7CeN;
         "fabric-1.20.1" = _P0KM7CeN;
         "fabric-1.21" = _rTwXmgpl;
-        "fabric-1.21.1" = _xKPyi2DF;
+        "fabric-1.21.1" = _qThqnKpg;
         "fabric-26.1" = _ZrxhhL2p;
         "fabric-26.1.1" = _ZrxhhL2p;
         "fabric-26.1.2" = _ZrxhhL2p;
@@ -1081,13 +1093,13 @@ let
         "quilt-1.20" = _P0KM7CeN;
         "quilt-1.20.1" = _P0KM7CeN;
         "quilt-1.21" = _rTwXmgpl;
-        "quilt-1.21.1" = _xKPyi2DF;
+        "quilt-1.21.1" = _qThqnKpg;
         "quilt-26.1" = _ZrxhhL2p;
         "quilt-26.1.1" = _ZrxhhL2p;
         "quilt-26.1.2" = _ZrxhhL2p;
         "neoforge-1.20" = _xRmDtY9h;
         "neoforge-1.20.1" = _xRmDtY9h;
-        "neoforge-1.21.1" = _8boK3p4C;
+        "neoforge-1.21.1" = _Kd81I866;
         "neoforge-26.1" = _VrWbZecQ;
         "neoforge-26.1.1" = _VrWbZecQ;
         "neoforge-26.1.2" = _VrWbZecQ;
@@ -1237,7 +1249,9 @@ let
         "pkg-6.7.1+neoforge" = _8boK3p4C;
         "pkg-26.0.9+fabric" = _ZrxhhL2p;
         "pkg-26.0.10+neoforge" = _VrWbZecQ;
-        "default" = _VrWbZecQ;
+        "pkg-6.7.2+neoforge" = _Kd81I866;
+        "pkg-6.7.2+fabric" = _qThqnKpg;
+        "default" = _qThqnKpg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lychee";

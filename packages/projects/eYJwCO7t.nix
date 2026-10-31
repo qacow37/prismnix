@@ -301,6 +301,16 @@ let
             "file" = "end-reborn-26.1-r1.7-fabric.jar";
             "hash" = "sha512-qgj+ukSsw7Zn3+PamytEFMgTVDtkuXzymuhMv0ZFPlffca9aJHR9/vU5IeGV4YTcvsf8/p368/XV6vnPzGKjTA==";
         };
+        _Oo4s3pzn = {
+            "id" = "Oo4s3pzn";
+            "file" = "end-reborn-26.1-r1.8-neoforge.jar";
+            "hash" = "sha512-aaft0wXnqbfeEKSOhBUqyA1LJCXe/6VElEhLz0wpl9Bz2yGl9v80yooUpgqOEt4e8GNHvFu76ZarCY8FLw8OcA==";
+        };
+        _AFfW7QbN = {
+            "id" = "AFfW7QbN";
+            "file" = "end-reborn-26.1-r1.8-fabric.jar";
+            "hash" = "sha512-OnnoUKQU2M4VPeU7IyRVU5jlapjrCOKYzosXtKBrnl9mxncoTLC5Ymj72Pgf/bIl/g+lfQMDlrrpLLhgHcatww==";
+        };
     in {
         "qtGAacAN" = _qtGAacAN;
         "rKsPcngq" = _rKsPcngq;
@@ -362,6 +372,8 @@ let
         "Nl7ASICb" = _Nl7ASICb;
         "5CZJb4jK" = _5CZJb4jK;
         "KfWHrn6o" = _KfWHrn6o;
+        "Oo4s3pzn" = _Oo4s3pzn;
+        "AFfW7QbN" = _AFfW7QbN;
         "fabric-1.20" = _b9HUcPdW;
         "fabric-1.20.1" = _b9HUcPdW;
         "fabric-1.20.2" = _b9HUcPdW;
@@ -370,12 +382,12 @@ let
         "fabric-1.21.4" = _nuMxXVsF;
         "fabric-1.21.5" = _o2qDnwCQ;
         "fabric-1.21.11" = _5e6Wd9AY;
-        "fabric-26.1" = _KfWHrn6o;
-        "fabric-26.1.1" = _KfWHrn6o;
-        "fabric-26.1.2" = _KfWHrn6o;
-        "neoforge-26.1" = _5CZJb4jK;
-        "neoforge-26.1.1" = _5CZJb4jK;
-        "neoforge-26.1.2" = _5CZJb4jK;
+        "fabric-26.1" = _AFfW7QbN;
+        "fabric-26.1.1" = _AFfW7QbN;
+        "fabric-26.1.2" = _AFfW7QbN;
+        "neoforge-26.1" = _Oo4s3pzn;
+        "neoforge-26.1.1" = _Oo4s3pzn;
+        "neoforge-26.1.2" = _Oo4s3pzn;
         "pkg-1.0.2" = _qtGAacAN;
         "pkg-1.0.3" = _rKsPcngq;
         "pkg-1.0.4" = _ipao8xSk;
@@ -433,7 +445,9 @@ let
         "pkg-26.1-r1.6-fabric" = _Nl7ASICb;
         "pkg-26.1-r1.7-neoforge" = _5CZJb4jK;
         "pkg-26.1-r1.7-fabric" = _KfWHrn6o;
-        "default" = _KfWHrn6o;
+        "pkg-26.1-r1.8-neoforge" = _Oo4s3pzn;
+        "pkg-26.1-r1.8-fabric" = _AFfW7QbN;
+        "default" = _AFfW7QbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "end-reborn";

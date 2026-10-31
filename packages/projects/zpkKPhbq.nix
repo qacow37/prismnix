@@ -61,6 +61,16 @@ let
             "file" = "MESpawner-1.7.2.jar";
             "hash" = "sha512-Frn6ju0If6OXDmkA4wtXGyWUSTg5wOoIyszrUsLiX/6uZHUWizwbL9zHtEQM0P0E+VxPnMFjsAg7A4ho8WimjA==";
         };
+        _C86Gl2mS = {
+            "id" = "C86Gl2mS";
+            "file" = "MESpawner-1.8.1.jar";
+            "hash" = "sha512-OL4etpPoWMo87Buvg1xdG/7HdUW2q+VkXhM6WSUMpFODb+Y0OmJgcWBssKwgoBXJaJg5FT1S2IX6vfXK94kU8g==";
+        };
+        _ulfyTvf5 = {
+            "id" = "ulfyTvf5";
+            "file" = "mespawner-3.0.jar";
+            "hash" = "sha512-1ZyvOc9vgBsp60cHmQsveZ0ThTotiyMUVwbI1eZcvMexrQB0Ro6NvUfPS4eFAR/nC9lkguw3Hs19XfVcwykiSg==";
+        };
     in {
         "TrYKx4Qm" = _TrYKx4Qm;
         "uNo8DG06" = _uNo8DG06;
@@ -74,8 +84,10 @@ let
         "CBLYa1GT" = _CBLYa1GT;
         "zc3rk8YD" = _zc3rk8YD;
         "rmyhPRoA" = _rmyhPRoA;
-        "neoforge-1.21.1" = _rmyhPRoA;
-        "forge-1.20.1" = _zc3rk8YD;
+        "C86Gl2mS" = _C86Gl2mS;
+        "ulfyTvf5" = _ulfyTvf5;
+        "neoforge-1.21.1" = _C86Gl2mS;
+        "forge-1.20.1" = _ulfyTvf5;
         "pkg-0.1.0" = _TrYKx4Qm;
         "pkg-0.2.0" = _uNo8DG06;
         "pkg-1.3.0" = _2vP7TEw4;
@@ -88,7 +100,9 @@ let
         "pkg-1.7.1" = _CBLYa1GT;
         "pkg-2.0" = _zc3rk8YD;
         "pkg-1.7.2" = _rmyhPRoA;
-        "default" = _rmyhPRoA;
+        "pkg-1.8.1" = _C86Gl2mS;
+        "pkg-3.0" = _ulfyTvf5;
+        "default" = _ulfyTvf5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "me-spawner";

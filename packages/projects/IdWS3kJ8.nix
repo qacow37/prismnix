@@ -71,6 +71,11 @@ let
             "file" = "particleanimationlib-0.1.3+1.21.10.jar";
             "hash" = "sha512-ACpkZ0pLFVi6gv7+zq1FkNKwGDdRSFNI+LAmMlf++4EFm/BERp6aYIayZThghtJdeNjDGeAWYDnB9IjZeS8S+Q==";
         };
+        _49oDGvw4 = {
+            "id" = "49oDGvw4";
+            "file" = "particleanimationlib-0.1.3+26.3.jar";
+            "hash" = "sha512-EhlzogCLKI9BK4ktV/ZvUzisQ/ZONrc5YgAbuKvYmro78/CbXfxQE5xHP3rvZGF9MnoDR3roqAznNsVlpk5s0g==";
+        };
     in {
         "9fWGB6e5" = _9fWGB6e5;
         "aK41CIc1" = _aK41CIc1;
@@ -86,6 +91,7 @@ let
         "jyS1n5ed" = _jyS1n5ed;
         "F20zf26X" = _F20zf26X;
         "x6tSsCSM" = _x6tSsCSM;
+        "49oDGvw4" = _49oDGvw4;
         "fabric-1.17" = _F20zf26X;
         "fabric-1.17.1" = _F20zf26X;
         "fabric-1.18" = _F20zf26X;
@@ -114,10 +120,12 @@ let
         "fabric-1.21.9" = _x6tSsCSM;
         "fabric-1.21.10" = _x6tSsCSM;
         "fabric-1.21.11" = _x6tSsCSM;
-        "fabric-26.1" = _jyS1n5ed;
-        "fabric-26.1.1" = _jyS1n5ed;
-        "fabric-26.1.2" = _jyS1n5ed;
+        "fabric-26.1" = _49oDGvw4;
+        "fabric-26.1.1" = _49oDGvw4;
+        "fabric-26.1.2" = _49oDGvw4;
         "fabric-1.21.8" = _x6tSsCSM;
+        "fabric-26.2" = _49oDGvw4;
+        "fabric-26.3" = _49oDGvw4;
         "quilt-1.17" = _F20zf26X;
         "quilt-1.17.1" = _F20zf26X;
         "quilt-1.18" = _F20zf26X;
@@ -146,10 +154,12 @@ let
         "quilt-1.21.9" = _x6tSsCSM;
         "quilt-1.21.10" = _x6tSsCSM;
         "quilt-1.21.11" = _x6tSsCSM;
-        "quilt-26.1" = _jyS1n5ed;
-        "quilt-26.1.1" = _jyS1n5ed;
-        "quilt-26.1.2" = _jyS1n5ed;
+        "quilt-26.1" = _49oDGvw4;
+        "quilt-26.1.1" = _49oDGvw4;
+        "quilt-26.1.2" = _49oDGvw4;
         "quilt-1.21.8" = _x6tSsCSM;
+        "quilt-26.2" = _49oDGvw4;
+        "quilt-26.3" = _49oDGvw4;
         "neoforge-1.20" = _bx2fi4nD;
         "neoforge-1.20.1" = _bx2fi4nD;
         "neoforge-1.20.2" = _bx2fi4nD;
@@ -188,7 +198,8 @@ let
         "pkg-0.1.2+26.1" = _jyS1n5ed;
         "pkg-0.1.3" = _F20zf26X;
         "pkg-0.1.3+1.21.10" = _x6tSsCSM;
-        "default" = _x6tSsCSM;
+        "pkg-0.1.3+26.3" = _49oDGvw4;
+        "default" = _49oDGvw4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particleanimationlib";

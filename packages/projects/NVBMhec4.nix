@@ -41,6 +41,11 @@ let
             "file" = "HyperPunchy-v2.5+.zip";
             "hash" = "sha512-KxWVaReHZxVE3Boy66bGcAt5aKSd40Qd3kRRIrB48Oiv0wrU27T0r7tx9IyhUvK+yerM7v99Kni7XpjjuB2+vg==";
         };
+        _kZtBCHN5 = {
+            "id" = "kZtBCHN5";
+            "file" = "HyperPunchy-v2.8.zip";
+            "hash" = "sha512-t+IL1qBGuNt7VkMVwzAVglyZCSC3VkDa3f6YH87uoKLY7lPIzpajZ2v1C/ZXqZsi2obxtjTJG6UdsxGGYZ7pcg==";
+        };
     in {
         "ru0mOuqV" = _ru0mOuqV;
         "GH1d0HHQ" = _GH1d0HHQ;
@@ -50,10 +55,11 @@ let
         "qq4ZWWj8" = _qq4ZWWj8;
         "O4cXbjxj" = _O4cXbjxj;
         "nJiwz3lJ" = _nJiwz3lJ;
-        "minecraft-1.20.1" = _nJiwz3lJ;
-        "minecraft-1.21.1" = _nJiwz3lJ;
-        "minecraft-1.21.5" = _nJiwz3lJ;
-        "minecraft-1.21.11" = _nJiwz3lJ;
+        "kZtBCHN5" = _kZtBCHN5;
+        "minecraft-1.20.1" = _kZtBCHN5;
+        "minecraft-1.21.1" = _kZtBCHN5;
+        "minecraft-1.21.5" = _kZtBCHN5;
+        "minecraft-1.21.11" = _kZtBCHN5;
         "minecraft-23w31a" = _qq4ZWWj8;
         "minecraft-23w32a" = _qq4ZWWj8;
         "minecraft-23w33a" = _qq4ZWWj8;
@@ -99,11 +105,12 @@ let
         "minecraft-24w44a" = _qq4ZWWj8;
         "minecraft-24w45a" = _qq4ZWWj8;
         "minecraft-24w46a" = _qq4ZWWj8;
-        "minecraft-26.1" = _nJiwz3lJ;
+        "minecraft-26.1" = _kZtBCHN5;
         "minecraft-1.21" = _O4cXbjxj;
-        "minecraft-26.1.1" = _nJiwz3lJ;
-        "minecraft-26.1.2" = _nJiwz3lJ;
-        "minecraft-26.2" = _nJiwz3lJ;
+        "minecraft-26.1.1" = _kZtBCHN5;
+        "minecraft-26.1.2" = _kZtBCHN5;
+        "minecraft-26.2" = _kZtBCHN5;
+        "minecraft-26.3" = _kZtBCHN5;
         "pkg-1.0.0" = _ru0mOuqV;
         "pkg-1.1.0" = _GH1d0HHQ;
         "pkg-1.2.0" = _h7dEBoCJ;
@@ -112,7 +119,8 @@ let
         "pkg-2.4" = _qq4ZWWj8;
         "pkg-2.4-HOTFIX" = _O4cXbjxj;
         "pkg-2.5" = _nJiwz3lJ;
-        "default" = _nJiwz3lJ;
+        "pkg-2.8" = _kZtBCHN5;
+        "default" = _kZtBCHN5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hyper-punchy";

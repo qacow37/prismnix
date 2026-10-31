@@ -111,6 +111,16 @@ let
             "file" = "vibrantparrots-v26.1.3-mc26.1.x+neoforge.jar";
             "hash" = "sha512-XaabT+6iA6jzYe1aIdRat0pOLGEZrYfQdCH3EMXxVXKZ6siDnjr9kKBecg/fYc/ojjzfPnnJLmKTPLQVGDuudw==";
         };
+        _ORhIbvR5 = {
+            "id" = "ORhIbvR5";
+            "file" = "vibrantparrots-v21.1.1-mc1.21.1+fabric.jar";
+            "hash" = "sha512-DmE0+j3xOtWfpHNtDUeICJsSog9Vp752DAwLJnQq5eaDPzaOPdsKU3yOvxi1raTypPi5vl+lguMx6muFwUYnjA==";
+        };
+        _SrTr5vdt = {
+            "id" = "SrTr5vdt";
+            "file" = "vibrantparrots-v21.1.1-mc1.21.1+neoforge.jar";
+            "hash" = "sha512-/xPm0VN3vDHpdHcclRH+UNoaoOtHsTY/GlMEQiqjk3V6d7ddKCGtqtHyIzGCxTflvfj0UHdNMNCQItwjbK5EvQ==";
+        };
     in {
         "XeKTVFJn" = _XeKTVFJn;
         "AgRHOIKM" = _AgRHOIKM;
@@ -134,19 +144,21 @@ let
         "fhIxIvqC" = _fhIxIvqC;
         "hOtL8P7F" = _hOtL8P7F;
         "srD1C4LA" = _srD1C4LA;
+        "ORhIbvR5" = _ORhIbvR5;
+        "SrTr5vdt" = _SrTr5vdt;
         "fabric-26.1" = _hOtL8P7F;
         "fabric-26.1.1" = _hOtL8P7F;
         "fabric-26.1.2" = _hOtL8P7F;
         "fabric-1.21.11" = _I5XfvLqJ;
         "fabric-26.2" = _PmKdLc7N;
-        "fabric-1.21.1" = _zpnFtTEk;
+        "fabric-1.21.1" = _ORhIbvR5;
         "fabric-26.3" = _GPo1TXia;
         "neoforge-26.1" = _srD1C4LA;
         "neoforge-26.1.1" = _srD1C4LA;
         "neoforge-26.1.2" = _srD1C4LA;
         "neoforge-1.21.11" = _CQTS9nDt;
         "neoforge-26.2" = _CTL4KBBf;
-        "neoforge-1.21.1" = _aBt2aY81;
+        "neoforge-1.21.1" = _SrTr5vdt;
         "neoforge-26.3" = _fhIxIvqC;
         "pkg-26.1.0" = _AgRHOIKM;
         "pkg-21.11.0" = _I5XfvLqJ;
@@ -159,7 +171,8 @@ let
         "pkg-26.3.0" = _tUJ07NqJ;
         "pkg-26.3.1" = _fhIxIvqC;
         "pkg-26.1.3" = _srD1C4LA;
-        "default" = _srD1C4LA;
+        "pkg-21.1.1" = _SrTr5vdt;
+        "default" = _SrTr5vdt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vibrant-parrots";

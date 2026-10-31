@@ -131,6 +131,11 @@ let
             "file" = "oppai-neoforge-26.2-1.0.15.jar";
             "hash" = "sha512-2vC4/4hdAGrLb3kb4o7ZFS3R1HZ8/N/0NNiRaXylOab7kQrINwviqq/FL0mvIOBNRggd2IgE1Y0wvs+BlsPm8A==";
         };
+        _xxDLCh6i = {
+            "id" = "xxDLCh6i";
+            "file" = "recode-1.21.1-neoforge-0.10.7.jar";
+            "hash" = "sha512-Ribjhec5cnogvyH8Cp+neNszB/a1G+Bb3roXRosuo0B4+83awbafK95Y0fyAvpAIGcW947XtsIxZSf8aN4YNVg==";
+        };
     in {
         "e8xQIXy7" = _e8xQIXy7;
         "fh1WlroC" = _fh1WlroC;
@@ -158,12 +163,13 @@ let
         "WcmH4VGh" = _WcmH4VGh;
         "S1zyyhrI" = _S1zyyhrI;
         "Up44EWxX" = _Up44EWxX;
+        "xxDLCh6i" = _xxDLCh6i;
         "forge-1.21" = _e8xQIXy7;
         "forge-1.20.1" = _Id3LKi07;
         "forge-1.21.1" = _Od3ZfESu;
         "forge-1.21.5" = _3WrvXaAh;
         "forge-26.2" = _WcmH4VGh;
-        "neoforge-1.21.1" = _UltwDycw;
+        "neoforge-1.21.1" = _xxDLCh6i;
         "neoforge-1.20.1" = _YkSrc9Qs;
         "neoforge-1.21.4" = _GRX4yV4I;
         "neoforge-1.21.5" = _UlkbfHou;
@@ -189,7 +195,8 @@ let
         "pkg-1.0.13-1.20.1Forge" = _PnZUYmXj;
         "pkg-1.0.14Fix" = _UltwDycw;
         "pkg-1.0.15" = _Up44EWxX;
-        "default" = _Up44EWxX;
+        "pkg-0.10.7Recode" = _xxDLCh6i;
+        "default" = _xxDLCh6i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oppai";

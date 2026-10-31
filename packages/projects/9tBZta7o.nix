@@ -136,6 +136,86 @@ let
             "file" = "deathcompass-neoforge-26.3-1.1.0.jar";
             "hash" = "sha512-EEBe3efGKCvIhwJ369pjddye1FAqwSragRRIHVER+pNW1yw9ADuO9YrNrpzGkP8P0pgG2Xi1mLFkcLgO8Xbcsg==";
         };
+        _X58ScXAb = {
+            "id" = "X58ScXAb";
+            "file" = "deathcompass-fabric-1.19.2-1.1.1.jar";
+            "hash" = "sha512-Z5J6CkznBezsckXyNUJseeLhD+uA1/YdAH2pcoV9gYYjlUbgfPI9W6nwkHx44JENfmQNom6TB0kNp1hrj0GNiQ==";
+        };
+        _ItbPQfmS = {
+            "id" = "ItbPQfmS";
+            "file" = "deathcompass-fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-tkjXXR7j0OLHjHm8G+lDO92YFF+ZjhxMqxhu9bex/K6uLGR97Bw3Qf6mYVVjMkKGHuEmeOQ4fIvBJPc6RDcsGQ==";
+        };
+        _GbravZ0L = {
+            "id" = "GbravZ0L";
+            "file" = "deathcompass-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-ibRr5Sc6W6ktMTdQxaREigZLYGE976EERsqqWcXKUAbz2bvxSKEnUv3ELqZUOER9OMk61pCez6aYE9QT8p7G8g==";
+        };
+        _68jqW8HL = {
+            "id" = "68jqW8HL";
+            "file" = "deathcompass-fabric-1.21.11-1.1.1.jar";
+            "hash" = "sha512-RGY/6J0G5GBzJ9OoK2aw9b+jZRx/Be3oa9Ig2Mq6krMlWUhvKaEYJpx3GTZ+X1BKJjNO33dgEiqljl7l0InTOQ==";
+        };
+        _tXhsEPHZ = {
+            "id" = "tXhsEPHZ";
+            "file" = "deathcompass-fabric-26.1.2-1.1.1.jar";
+            "hash" = "sha512-xTaTdfvIiil14oKhH5TqJ74LjZzT0rkHGY52sHHIVHzECzVPTjRKlTI3V/ua5HIBK1qzObmPJNYgNqnkoayAvQ==";
+        };
+        _rO4pUyi4 = {
+            "id" = "rO4pUyi4";
+            "file" = "deathcompass-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-RAVdzPqZD8Hhspu4UGN07qqxOmxEW/W+QcbsdxLtK4fE0/sQ6u+D3bscmOPrdYEdvd3inn1aaUenFlyJvbCfRA==";
+        };
+        _NP795zO3 = {
+            "id" = "NP795zO3";
+            "file" = "deathcompass-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-VfGsSFwwDmIuyVCpGVGqc8c69gUaXWeclB4jDy4L3LH29m4IaSXeYa+jF78vmPxzzsLqesOwnAcz+F98+HgiNA==";
+        };
+        _ypHBpL4T = {
+            "id" = "ypHBpL4T";
+            "file" = "deathcompass-forge-1.19.2-1.1.1.jar";
+            "hash" = "sha512-YBHmOz2el8RiCsz79UVDnRGqzlPcdW3N4WJPxPPIJEQl4EaQ4TvyMSoQcwRILQw6+b2XXhPkVhkOsdyGIWli8Q==";
+        };
+        _FvLUsgJA = {
+            "id" = "FvLUsgJA";
+            "file" = "deathcompass-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-PQ0Hau2xvptScgIP4rkCJ+bif9UNzeAFjSIHSjZDAQnwoa/3C1QfQ5A0SSTfEU8hLC8f7PzYzN1bhIkEZZ7BVQ==";
+        };
+        _fzhdSpmS = {
+            "id" = "fzhdSpmS";
+            "file" = "deathcompass-forge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-V0JRBL4PLsKl5jMbvb3tDZnktS0cLLsRH1v/H++Iqonp6fWLHLWyO6V9YtalJMV/JfVxTRMUNeb0PZvDnlBnQA==";
+        };
+        _H8KhY1Vu = {
+            "id" = "H8KhY1Vu";
+            "file" = "deathcompass-forge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-/OCSm3pf8rJzWtGvodhpFUysLi9rLzCIzJ20oXpCkDmGgOA3kq1/irkJJeLhfNhA6pT8Gbg95YFe6tSws+THaw==";
+        };
+        _oN9jfp2H = {
+            "id" = "oN9jfp2H";
+            "file" = "deathcompass-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-gY4V7/fS+GtWNiXhORCOmzHkNEkvPr+tzv4UmNcpLuTKd2LtwHmQmfdKia7T6i/JfMRrr0RlLKYFPBW+8Rx2eg==";
+        };
+        _526EV9f5 = {
+            "id" = "526EV9f5";
+            "file" = "deathcompass-neoforge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-SpOcT9yLpJOERetNZHJh4UajULO3IMUoqTiQ/ztQtUYOv2de86BFQ14Jo0H0nB+4/hM7HT9dywY6t6xi4HNNwg==";
+        };
+        _nJSoQfOU = {
+            "id" = "nJSoQfOU";
+            "file" = "deathcompass-neoforge-26.1.2-1.1.1.jar";
+            "hash" = "sha512-ihsoLmOAwDHpLikprxPuIFufOO56/j8WuUjJwDZYB8gLPr6gVC20O0/L6wkwelVDB7CTNSCYbrb3UEyRO91eCg==";
+        };
+        _wWHf8y56 = {
+            "id" = "wWHf8y56";
+            "file" = "deathcompass-neoforge-26.2-1.1.1.jar";
+            "hash" = "sha512-biTgYKHRgoDsWxos4ayV7XKimlo6CICEmzWipVIDqg9ocQ4sIfnDrymwvFgHsZizQbMaou0hDtIXEbcdZo46GQ==";
+        };
+        _Dc1dpkfL = {
+            "id" = "Dc1dpkfL";
+            "file" = "deathcompass-neoforge-26.3-1.1.1.jar";
+            "hash" = "sha512-d2Jyc2OMWeUsBxPXB4mtE+jjhjCb0aZhjzPZXjHGIr5KdJbUj92MebanBozcNpqBOU7SccJhn97mYPROfGl2Ew==";
+        };
     in {
         "efZEa2CZ" = _efZEa2CZ;
         "N7xINZfo" = _N7xINZfo;
@@ -164,26 +244,43 @@ let
         "QuKpjOpB" = _QuKpjOpB;
         "A9GcNgjb" = _A9GcNgjb;
         "B5pgtT7V" = _B5pgtT7V;
-        "fabric-1.20.1" = _4HjBEVY9;
-        "fabric-1.21.1" = _WpoYPnf3;
-        "fabric-1.21.11" = _PmtsarRz;
-        "fabric-26.1.2" = _wlOkazeC;
-        "fabric-1.19.2" = _14oMiSu4;
-        "fabric-26.2" = _B4AAip78;
-        "fabric-26.3" = _TSx4WDRn;
-        "forge-1.20.1" = _4yeKynsK;
-        "forge-1.19.2" = _cVsk85Gd;
-        "forge-1.21.1" = _NiEVSZ4K;
-        "forge-1.21.11" = _TRPzEHFx;
-        "neoforge-1.21.1" = _cdIS9q1k;
-        "neoforge-1.21.11" = _QNkR5jk6;
+        "X58ScXAb" = _X58ScXAb;
+        "ItbPQfmS" = _ItbPQfmS;
+        "GbravZ0L" = _GbravZ0L;
+        "68jqW8HL" = _68jqW8HL;
+        "tXhsEPHZ" = _tXhsEPHZ;
+        "rO4pUyi4" = _rO4pUyi4;
+        "NP795zO3" = _NP795zO3;
+        "ypHBpL4T" = _ypHBpL4T;
+        "FvLUsgJA" = _FvLUsgJA;
+        "fzhdSpmS" = _fzhdSpmS;
+        "H8KhY1Vu" = _H8KhY1Vu;
+        "oN9jfp2H" = _oN9jfp2H;
+        "526EV9f5" = _526EV9f5;
+        "nJSoQfOU" = _nJSoQfOU;
+        "wWHf8y56" = _wWHf8y56;
+        "Dc1dpkfL" = _Dc1dpkfL;
+        "fabric-1.20.1" = _ItbPQfmS;
+        "fabric-1.21.1" = _GbravZ0L;
+        "fabric-1.21.11" = _68jqW8HL;
+        "fabric-26.1.2" = _tXhsEPHZ;
+        "fabric-1.19.2" = _X58ScXAb;
+        "fabric-26.2" = _rO4pUyi4;
+        "fabric-26.3" = _NP795zO3;
+        "forge-1.20.1" = _FvLUsgJA;
+        "forge-1.19.2" = _ypHBpL4T;
+        "forge-1.21.1" = _fzhdSpmS;
+        "forge-1.21.11" = _H8KhY1Vu;
+        "neoforge-1.21.1" = _oN9jfp2H;
+        "neoforge-1.21.11" = _526EV9f5;
         "neoforge-26.1" = _eqyckexn;
-        "neoforge-26.1.2" = _QuKpjOpB;
-        "neoforge-26.2" = _A9GcNgjb;
-        "neoforge-26.3" = _B5pgtT7V;
+        "neoforge-26.1.2" = _nJSoQfOU;
+        "neoforge-26.2" = _wWHf8y56;
+        "neoforge-26.3" = _Dc1dpkfL;
         "pkg-1.0.0" = _55U42YYR;
         "pkg-1.1.0" = _B5pgtT7V;
-        "default" = _B5pgtT7V;
+        "pkg-1.1.1" = _Dc1dpkfL;
+        "default" = _Dc1dpkfL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deathcompass";

@@ -46,6 +46,16 @@ let
             "file" = "BetterTab-neoforge-26.3-1.0.0+build.25.jar";
             "hash" = "sha512-1brIVjylHwbp8Uui7aEXjvm6gEKeFoc/QAR+0vxmn3juHla/Fddi0R6wXh0nS22a6PodGwkbsXyUSS1JJ4tJIQ==";
         };
+        _YanucAUe = {
+            "id" = "YanucAUe";
+            "file" = "bettertab-1.0.0+build.26-mc1.21.10.jar";
+            "hash" = "sha512-qOqCoobu76XCcsqAkw2AjGgoaXad8+E8RwlAaqL//zeNy48E7Q0h4nRzVO8ClPc5SFxIuw8ouP/XLrqJEFa3vA==";
+        };
+        _KNyVHGSy = {
+            "id" = "KNyVHGSy";
+            "file" = "bettertab-1.0.0+build.27-mc1.21.11.jar";
+            "hash" = "sha512-45vVgZIZdu95smsz7cLxREMqzA+RSc3YsYS74y1QrNyE4P3t/hwzxf/mzy+Wne6vwmlyTHKTvufawGch6h/AbA==";
+        };
     in {
         "Uds3fNLE" = _Uds3fNLE;
         "Oqi7zXS9" = _Oqi7zXS9;
@@ -56,12 +66,15 @@ let
         "9YloZxQu" = _9YloZxQu;
         "k6hgQ6oJ" = _k6hgQ6oJ;
         "YdQIJWsk" = _YdQIJWsk;
+        "YanucAUe" = _YanucAUe;
+        "KNyVHGSy" = _KNyVHGSy;
         "neoforge-1.21.1" = _VVw4TROM;
         "neoforge-1.21.8" = _lGzem3Vy;
-        "neoforge-1.21.10" = _gPIKSQs1;
+        "neoforge-1.21.10" = _YanucAUe;
         "neoforge-26.1.2" = _9YloZxQu;
         "neoforge-26.2" = _k6hgQ6oJ;
         "neoforge-26.3" = _YdQIJWsk;
+        "neoforge-1.21.11" = _KNyVHGSy;
         "pkg-1.0.0+build.2" = _Uds3fNLE;
         "pkg-1.0.0+build.10" = _Oqi7zXS9;
         "pkg-1.0.0+build.11" = _VVw4TROM;
@@ -71,7 +84,9 @@ let
         "pkg-1.0.0+build.20" = _9YloZxQu;
         "pkg-1.0.0+build.21" = _k6hgQ6oJ;
         "pkg-1.0.0+build.25" = _YdQIJWsk;
-        "default" = _YdQIJWsk;
+        "pkg-1.0.0+build.26" = _YanucAUe;
+        "pkg-1.0.0+build.27" = _KNyVHGSy;
+        "default" = _KNyVHGSy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-tab";

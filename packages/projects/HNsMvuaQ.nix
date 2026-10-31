@@ -486,6 +486,31 @@ let
             "file" = "bbs-2.3.3-1.12.2.jar";
             "hash" = "sha512-rYceMcE8jJcI6TBBaU1I/uMja9xk9I6i/6Mhd3sPw6OPJdUjHO9U6UVR/X+WA6nZHOpANsquBUP7Q47tfNappg==";
         };
+        _VjHM5R6t = {
+            "id" = "VjHM5R6t";
+            "file" = "bbs-2.4-1.20.4.jar";
+            "hash" = "sha512-kZqKX0OhiEzXbAVdFFGAzd0cbtvOelkvbspYlgzYiIdlLyUjTgQcUiYfpNeBp1VrGzjpzisI4GD5Zo4bRYuoJQ==";
+        };
+        _jJGcCS9b = {
+            "id" = "jJGcCS9b";
+            "file" = "bbs-2.4-1.20.1.jar";
+            "hash" = "sha512-H4BL/XU+hrlT+Tai8UICY+GDHLF8gVvgZAOw4cEIgXxKSv+b5ALGNtCMHC/h5Y27aE5fM5gkJtlGDuyuCbUVuQ==";
+        };
+        _GKRCswnb = {
+            "id" = "GKRCswnb";
+            "file" = "bbs-2.4-1.21.1.jar";
+            "hash" = "sha512-099qcolrndIwtNke9mzr7nTGTjqLR1GLdFkeIVH7IBBRRSwA+qktS4SxCfBHqeMIqPuL+0s8+mOsozd8KJAMag==";
+        };
+        _vJADRAnt = {
+            "id" = "vJADRAnt";
+            "file" = "bbs-2.4-26.3.jar";
+            "hash" = "sha512-Q11Pn25ztl3bminfBonuVSaE71t6JrGFw+4Dfge5tuf5LtKVba5zNoMsAHuwjGZwuquJaJ/VG+JlWPHngd6mOQ==";
+        };
+        _8YCPVxGu = {
+            "id" = "8YCPVxGu";
+            "file" = "bbs-2.4-1.12.2.jar";
+            "hash" = "sha512-fpZGCe8a1nBlVeoEorfRNBBOfp+JUQ0Ob/hzRb6kPFFT8TPjrAeHp5rHLZwla1A8kgYb3if4n8wY7YdGj5Uvwg==";
+        };
     in {
         "v8ZSVW7v" = _v8ZSVW7v;
         "MlhWwCQF" = _MlhWwCQF;
@@ -584,13 +609,18 @@ let
         "OXLA4IUx" = _OXLA4IUx;
         "cXV6QTfR" = _cXV6QTfR;
         "EcrS0P5G" = _EcrS0P5G;
-        "fabric-1.20.4" = _2s30QvG9;
-        "fabric-1.20.1" = _LeMYb2KB;
-        "fabric-1.21.1" = _OXLA4IUx;
-        "fabric-26.3" = _cXV6QTfR;
-        "forge-1.20.1" = _LeMYb2KB;
-        "forge-1.12.2" = _EcrS0P5G;
-        "neoforge-1.21.1" = _OXLA4IUx;
+        "VjHM5R6t" = _VjHM5R6t;
+        "jJGcCS9b" = _jJGcCS9b;
+        "GKRCswnb" = _GKRCswnb;
+        "vJADRAnt" = _vJADRAnt;
+        "8YCPVxGu" = _8YCPVxGu;
+        "fabric-1.20.4" = _VjHM5R6t;
+        "fabric-1.20.1" = _jJGcCS9b;
+        "fabric-1.21.1" = _GKRCswnb;
+        "fabric-26.3" = _vJADRAnt;
+        "forge-1.20.1" = _jJGcCS9b;
+        "forge-1.12.2" = _8YCPVxGu;
+        "neoforge-1.21.1" = _GKRCswnb;
         "pkg-1.0-1.20.4" = _v8ZSVW7v;
         "pkg-1.0-1.20.1" = _MlhWwCQF;
         "pkg-1.0.1-1.20.4" = _1a4bDIp3;
@@ -688,7 +718,12 @@ let
         "pkg-2.3.3-1.21.1" = _OXLA4IUx;
         "pkg-2.3.3-26.3" = _cXV6QTfR;
         "pkg-2.3.3-1.12.2" = _EcrS0P5G;
-        "default" = _EcrS0P5G;
+        "pkg-2.4-1.20.4" = _VjHM5R6t;
+        "pkg-2.4-1.20.1" = _jJGcCS9b;
+        "pkg-2.4-1.21.1" = _GKRCswnb;
+        "pkg-2.4-26.3" = _vJADRAnt;
+        "pkg-2.4-1.12.2" = _8YCPVxGu;
+        "default" = _8YCPVxGu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbs-mod";

@@ -106,6 +106,11 @@ let
             "file" = "boh-0.0.11-forge-1.20.1.jar";
             "hash" = "sha512-zalOfZFR2tfpo5AA0dgerQmVMU21bn/7kU+gHQgJXfGAF1+MlzuL3nyfZTsRdGGLsHTwwY+vm9Bi+ThqrzMgyg==";
         };
+        _Q8rtR86s = {
+            "id" = "Q8rtR86s";
+            "file" = "boh-0.0.11.1-forge-1.20.1.jar";
+            "hash" = "sha512-bkrPXCryBpM5SWN2BsAAD5QyT1wc2+g1W+bdm9+1822gZ8GYsRTk7FGJJRXogfawQFwujbAxXDqWzcGU0irtRg==";
+        };
     in {
         "efeCFglx" = _efeCFglx;
         "LSHFAMFm" = _LSHFAMFm;
@@ -128,9 +133,10 @@ let
         "2pC7hGuX" = _2pC7hGuX;
         "quJAzXgC" = _quJAzXgC;
         "NB6Kaj75" = _NB6Kaj75;
+        "Q8rtR86s" = _Q8rtR86s;
         "forge-1.19.2" = _efeCFglx;
         "forge-1.19.4" = _LSHFAMFm;
-        "forge-1.20.1" = _NB6Kaj75;
+        "forge-1.20.1" = _Q8rtR86s;
         "pkg-0.0.2" = _efeCFglx;
         "pkg-0.0.3" = _LSHFAMFm;
         "pkg-0.0.4" = _tYAoky9k;
@@ -148,7 +154,8 @@ let
         "pkg-0.0.9" = _2pC7hGuX;
         "pkg-0.0.10" = _quJAzXgC;
         "pkg-0.0.11" = _NB6Kaj75;
-        "default" = _NB6Kaj75;
+        "pkg-0.0.11.1" = _Q8rtR86s;
+        "default" = _Q8rtR86s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-box-of-horrors";

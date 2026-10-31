@@ -56,6 +56,46 @@ let
             "file" = "elotiers-fabric-26.3-1.0.0.jar";
             "hash" = "sha512-uLjJznGVflVo8GCYm+qLbTnzvg1u4VwOu7iN6TBZSc9CCPAGNaoRh39NOwf2bitpz2IKdmNErQRjSdROlIQGvg==";
         };
+        _HnIhXBYZ = {
+            "id" = "HnIhXBYZ";
+            "file" = "elotiers-fabric-1.21.11-1.0.0.jar";
+            "hash" = "sha512-b6BzfYQFPd2tDIxyFiZIQJo6Q3+1wb6P9/iUqc5ehnjwx4skwfDKr9vjs4dWn9S/0GYlTfddR6aK8w7L1jIJhA==";
+        };
+        _jDo1oCJQ = {
+            "id" = "jDo1oCJQ";
+            "file" = "elotiers-fabric-26.1.2-1.0.0.jar";
+            "hash" = "sha512-AHwHRJfOwsoSSftNvr+A6HgBzrNGlV6flcy8uPcnHgiIVrZJMr60Igfsx6d9MWYV6UWQpCPqpaAdYLF5IPf6Jw==";
+        };
+        _lvi8jHiL = {
+            "id" = "lvi8jHiL";
+            "file" = "elotiers-fabric-26.2-1.0.0.jar";
+            "hash" = "sha512-WubyR/RPaPpDlIx9cRDAtKSY/ce2SqCaeA75ErxMFlrVcXNLibRQX5D6BqvOPGILlJjAVu91XtnQtj0JHurQJg==";
+        };
+        _1nZ4N4oM = {
+            "id" = "1nZ4N4oM";
+            "file" = "elotiers-fabric-26.3-1.0.0.jar";
+            "hash" = "sha512-Mpio7JWIQPgmC6S9G4kdzz5DbPxAQxS0sjTuWKbTkRLTs+7dPuvSFRVjhyYKt1SVOIMmCMtmblxqMGB2kmzsnQ==";
+        };
+        _94tP7XLZ = {
+            "id" = "94tP7XLZ";
+            "file" = "elotiers-fabric-1.21.11-1.1.1.jar";
+            "hash" = "sha512-LxSTNRlWpBh0MuLZ79zuCKZz6WujWYxgR7CH3C1QXhhqKZ3IUamWkYpZPb3cUPrwzTObuJLPJqMxzJHxPW9GSg==";
+        };
+        _PtE18jWM = {
+            "id" = "PtE18jWM";
+            "file" = "elotiers-fabric-26.1.2-1.1.1.jar";
+            "hash" = "sha512-rvg7MfgyxK40nNCO3Sdh+Tu3CbxAczH9DJc0TKLu3VubcyKqxQVnOzAL3RZyH/m1MkkJ9AYdtB0nNlhoxrMftg==";
+        };
+        _Gw7pIjrP = {
+            "id" = "Gw7pIjrP";
+            "file" = "elotiers-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-PzpqRYGvgKRR0WISrX1p78ywty6u+dCgngSSTJz99TbWosq/IihFL7TSKhdZSbNkadnsP0SbL7LfioG6YwKkew==";
+        };
+        _qUGBUmg5 = {
+            "id" = "qUGBUmg5";
+            "file" = "elotiers-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-nlkXtqNsTrvA0PQCPoW/Cf5lYYYYSv51IGheOKH4G0Mt7n+4x4u0gK4FQlCH1I9nBYjH3jJdUP53+7OMhCn8gA==";
+        };
     in {
         "djwDAk91" = _djwDAk91;
         "VJDBeyFF" = _VJDBeyFF;
@@ -68,10 +108,18 @@ let
         "RbHbKETu" = _RbHbKETu;
         "9zBtRzqr" = _9zBtRzqr;
         "c91vkNTn" = _c91vkNTn;
-        "fabric-1.21.11" = _RbHbKETu;
-        "fabric-26.1.2" = _BGVZGtZQ;
-        "fabric-26.2" = _9zBtRzqr;
-        "fabric-26.3" = _c91vkNTn;
+        "HnIhXBYZ" = _HnIhXBYZ;
+        "jDo1oCJQ" = _jDo1oCJQ;
+        "lvi8jHiL" = _lvi8jHiL;
+        "1nZ4N4oM" = _1nZ4N4oM;
+        "94tP7XLZ" = _94tP7XLZ;
+        "PtE18jWM" = _PtE18jWM;
+        "Gw7pIjrP" = _Gw7pIjrP;
+        "qUGBUmg5" = _qUGBUmg5;
+        "fabric-1.21.11" = _94tP7XLZ;
+        "fabric-26.1.2" = _PtE18jWM;
+        "fabric-26.2" = _Gw7pIjrP;
+        "fabric-26.3" = _qUGBUmg5;
         "pkg-1.0.0" = _djwDAk91;
         "pkg-1.0.1" = _MSsmGi9D;
         "pkg-1.0.2" = _Lr4TuwkX;
@@ -79,7 +127,9 @@ let
         "pkg-1.0.4" = _RbHbKETu;
         "pkg-1.0.5" = _9zBtRzqr;
         "pkg-1.0.6" = _c91vkNTn;
-        "default" = _c91vkNTn;
+        "pkg-1.1.0" = _1nZ4N4oM;
+        "pkg-1.1.1" = _qUGBUmg5;
+        "default" = _qUGBUmg5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elotiers";

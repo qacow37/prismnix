@@ -541,6 +541,41 @@ let
             "file" = "revive_me-26.1-7.3.0.jar";
             "hash" = "sha512-rAAOoFYtVZXl/bnwn5HJAIFOVz7zvUS0aEQ71jZS3zgYVxcW2AUwuzQnHC1gpjZSATXNvfW4D7dYPaS6EZbpJA==";
         };
+        _Lw3UZNQs = {
+            "id" = "Lw3UZNQs";
+            "file" = "reviveme-1.16.5-1.18.2.jar";
+            "hash" = "sha512-RFNqyG9di7toB99A0R7qIf6qgLDdqW9Rp8/rJacQKntK52fyXQG4FUX5+q4k+ZaZ1obMJXlfcynzhKqwpEh6RQ==";
+        };
+        _mcZ8ioeg = {
+            "id" = "mcZ8ioeg";
+            "file" = "reviveme-1.18.2-2.15.2.jar";
+            "hash" = "sha512-CO3lv7i+EgHnPxCxRQdzOhiGKskhJprpPK0kkFYbFe/qbs0rDmGBJ3cIXQqVgzBIsGYlMKOp14YghuZzjvMQTQ==";
+        };
+        _ydE5RbBX = {
+            "id" = "ydE5RbBX";
+            "file" = "reviveme-1.19.2-3.15.2.jar";
+            "hash" = "sha512-cQgG3jI/SDBw0sL0miSvXPhzPYN4388i0QRUZxNMKIAXbFu5lS5n0hhe4CBHpVfUM3OdxUMBxHn5rIjuN6XMpg==";
+        };
+        _gDyyhW4B = {
+            "id" = "gDyyhW4B";
+            "file" = "revive_me-1.20.1-4.9.1.jar";
+            "hash" = "sha512-LaB5P1LVxY1ELXDhu3wLSI/KuyY49uME+gPoqNcVaZu9f/xSpmplf2V+mHFQtKN0cgXVLvBB4IC9QSk4e7fXLA==";
+        };
+        _Ud8wooHw = {
+            "id" = "Ud8wooHw";
+            "file" = "revive_me-1.21.1-5.10.1.jar";
+            "hash" = "sha512-gvKvRKao5PDXmleyu+t37Kiemv/TBiwb4nd8Ir4/jo5uqsbfn4dEbCM9jnm+AO6FQLpIsB8ukHxlVJn+UflCdw==";
+        };
+        _MSKDH1yv = {
+            "id" = "MSKDH1yv";
+            "file" = "revive_me-1.21.11-6.3.1.jar";
+            "hash" = "sha512-POixYR3tt4rvZloXmoYj3wNDgHK3FzFzLHOmOsd3P4PhxDxfox45iEmufEeek7fXxw1LJA0XreNv8mcAvLm4uA==";
+        };
+        _OCfyC6YZ = {
+            "id" = "OCfyC6YZ";
+            "file" = "revive_me-26.1-7.3.1.jar";
+            "hash" = "sha512-Ryzl2I6dcD48Y1RVE4qwQ081IRqD6OOVWdmqCnF5Y8UDejsKqL11NBuLfHhsfeXShRIwnDtraekbvJDR6wCcfA==";
+        };
     in {
         "bh9mJsed" = _bh9mJsed;
         "Q5rAeE0N" = _Q5rAeE0N;
@@ -650,15 +685,22 @@ let
         "BmCyXaSe" = _BmCyXaSe;
         "zXpsou8F" = _zXpsou8F;
         "oGbtNUrd" = _oGbtNUrd;
-        "forge-1.16.5" = _vSMarYZR;
-        "forge-1.18.2" = _fdLTPhku;
-        "forge-1.19.2" = _LOUmU1Xr;
-        "forge-1.20.1" = _KHNtUwh9;
-        "neoforge-1.21.1" = _zXpsou8F;
-        "neoforge-1.21.11" = _BmCyXaSe;
-        "neoforge-26.1" = _oGbtNUrd;
-        "neoforge-26.1.1" = _oGbtNUrd;
-        "neoforge-26.1.2" = _oGbtNUrd;
+        "Lw3UZNQs" = _Lw3UZNQs;
+        "mcZ8ioeg" = _mcZ8ioeg;
+        "ydE5RbBX" = _ydE5RbBX;
+        "gDyyhW4B" = _gDyyhW4B;
+        "Ud8wooHw" = _Ud8wooHw;
+        "MSKDH1yv" = _MSKDH1yv;
+        "OCfyC6YZ" = _OCfyC6YZ;
+        "forge-1.16.5" = _Lw3UZNQs;
+        "forge-1.18.2" = _mcZ8ioeg;
+        "forge-1.19.2" = _ydE5RbBX;
+        "forge-1.20.1" = _gDyyhW4B;
+        "neoforge-1.21.1" = _Ud8wooHw;
+        "neoforge-1.21.11" = _MSKDH1yv;
+        "neoforge-26.1" = _OCfyC6YZ;
+        "neoforge-26.1.1" = _OCfyC6YZ;
+        "neoforge-26.1.2" = _OCfyC6YZ;
         "pkg-1.10.17" = _bh9mJsed;
         "pkg-2.7.4" = _Q5rAeE0N;
         "pkg-3.7.4" = _Jxw984qT;
@@ -767,7 +809,14 @@ let
         "pkg-6.3.0" = _BmCyXaSe;
         "pkg-5.10.0" = _zXpsou8F;
         "pkg-7.3.0" = _oGbtNUrd;
-        "default" = _oGbtNUrd;
+        "pkg-1.18.2" = _Lw3UZNQs;
+        "pkg-2.15.2" = _mcZ8ioeg;
+        "pkg-3.15.2" = _ydE5RbBX;
+        "pkg-4.9.1" = _gDyyhW4B;
+        "pkg-5.10.1" = _Ud8wooHw;
+        "pkg-6.3.1" = _MSKDH1yv;
+        "pkg-7.3.1" = _OCfyC6YZ;
+        "default" = _OCfyC6YZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revive-me";

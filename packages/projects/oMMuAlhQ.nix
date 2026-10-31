@@ -126,6 +126,21 @@ let
             "file" = "soulverse-0.1.0-beta.jar";
             "hash" = "sha512-yUSnkqZb4LOT9H3G/aPTCLD8f5EviqdEC4is2wO4VFCtje2Kq0zndGTXhj6JmiIMHvAkRO7AHKcVVKWrxCC86Q==";
         };
+        _vkuNVNAU = {
+            "id" = "vkuNVNAU";
+            "file" = "soulverse-0.1.1-beta+mc26.1.2.jar";
+            "hash" = "sha512-ekFWy3xcwrRISCv+z4qlxhtrIYzGky/sGDYZKz/ZfnppKYZzkq38gHUU8ROvtTlA1GmGHH0nb8b/uwEcpPOSUQ==";
+        };
+        _8zqkYgGS = {
+            "id" = "8zqkYgGS";
+            "file" = "soulverse-0.1.1-beta+mc26.2.jar";
+            "hash" = "sha512-ILU9JQ3Z2fIEo0UgJCaFPWnf+1AvQ3I3VZ0RlcwykdpY2aF+S4qS5NrM68KIXkDpWTQpGmjFbyIgPAvKEHMXzw==";
+        };
+        _C0qX93im = {
+            "id" = "C0qX93im";
+            "file" = "soulverse-0.1.1-beta.jar";
+            "hash" = "sha512-xSfpy134fv7GuLaV4AS7mZg1B18T/61A1J006kATO1e+lhKiZ0NqE1caFcyoHabMtTvIsi9mE8Lm4cBLhrmbtA==";
+        };
     in {
         "BYUN8Yds" = _BYUN8Yds;
         "ZFH3TvJb" = _ZFH3TvJb;
@@ -152,11 +167,15 @@ let
         "YkAX6xQD" = _YkAX6xQD;
         "qM4pt8aM" = _qM4pt8aM;
         "JGxqEO4S" = _JGxqEO4S;
+        "vkuNVNAU" = _vkuNVNAU;
+        "8zqkYgGS" = _8zqkYgGS;
+        "C0qX93im" = _C0qX93im;
         "fabric-1.21.1" = _TCJpEptT;
         "fabric-26.1" = _qM4pt8aM;
         "fabric-26.1.1" = _qM4pt8aM;
-        "fabric-26.1.2" = _qM4pt8aM;
-        "fabric-26.3" = _JGxqEO4S;
+        "fabric-26.1.2" = _vkuNVNAU;
+        "fabric-26.3" = _C0qX93im;
+        "fabric-26.2" = _8zqkYgGS;
         "pkg-0.9.0" = _BYUN8Yds;
         "pkg-1.0.0" = _ZFH3TvJb;
         "pkg-1.1.0" = _wuJLzC5u;
@@ -181,7 +200,10 @@ let
         "pkg-1.5.3" = _YkAX6xQD;
         "pkg-1.5.4" = _qM4pt8aM;
         "pkg-0.1.0-beta" = _JGxqEO4S;
-        "default" = _JGxqEO4S;
+        "pkg-0.1.1-beta+mc26.1.2" = _vkuNVNAU;
+        "pkg-0.1.1-beta+mc26.2" = _8zqkYgGS;
+        "pkg-0.1.1-beta+mc26.3" = _C0qX93im;
+        "default" = _C0qX93im;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "souls-mod";

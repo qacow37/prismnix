@@ -81,6 +81,11 @@ let
             "file" = "dmzsuper-1.8.3.jar";
             "hash" = "sha512-3KNOrXmOMctlkbfQUknz97kVzC9kcKXnTGpz/mbVLkYqYQZ/gFEQxiq2uP0Bla2anL96O89qmzLNq9b66O8wXA==";
         };
+        _IUD8kUVO = {
+            "id" = "IUD8kUVO";
+            "file" = "dmzsuper-1.9.0.jar";
+            "hash" = "sha512-JVTpcAoycngDMi4+GS5kZopye6vjcVyXHkyj4Yn5Q+wUFEJQ6flIF1dufcnPKEShiobL5+915l3/QrG7drV3+w==";
+        };
     in {
         "R9NLnVyR" = _R9NLnVyR;
         "IvTTBn2z" = _IvTTBn2z;
@@ -98,7 +103,8 @@ let
         "8VlVxHh4" = _8VlVxHh4;
         "YSlFPpAx" = _YSlFPpAx;
         "ZYMofQ1F" = _ZYMofQ1F;
-        "forge-1.20.1" = _ZYMofQ1F;
+        "IUD8kUVO" = _IUD8kUVO;
+        "forge-1.20.1" = _IUD8kUVO;
         "pkg-1.0.0" = _R9NLnVyR;
         "pkg-1.5.0" = _IvTTBn2z;
         "pkg-1.5.1" = _r0MY8gU3;
@@ -115,7 +121,8 @@ let
         "pkg-1.8.1" = _8VlVxHh4;
         "pkg-1.8.2" = _YSlFPpAx;
         "pkg-1.8.3" = _ZYMofQ1F;
-        "default" = _ZYMofQ1F;
+        "pkg-1.9.0" = _IUD8kUVO;
+        "default" = _IUD8kUVO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonmine-z-super";

@@ -61,6 +61,26 @@ let
             "file" = "yagm-1.21.1-0.1.5-NEOFORGE.jar";
             "hash" = "sha512-FUM6f17NsB/KJ9TxWKPUsJVY9sf2amum+TQDxjqAvjYcLmyJ/oUtja25VK5FApwqY3JZkciR/4RfNri0dTTrKA==";
         };
+        _hHkgnQXX = {
+            "id" = "hHkgnQXX";
+            "file" = "yagm-1.21.1-0.1.6-FABRIC.jar";
+            "hash" = "sha512-VBZ/e7r6akyidYLG9l8XDmsaeUI8TUi818idd5a17VK/hjm6Q47VUme0V3vqIDvaaMpSKX0P67qT42UwI7Sh3A==";
+        };
+        _IByvohqP = {
+            "id" = "IByvohqP";
+            "file" = "yagm-1.21.1-0.1.6-NEOFORGE.jar";
+            "hash" = "sha512-HtxYZrHkJ/3JvA5VIf2H3y7627Ncw0EKVxKNhJWpV5cNZQBjBiw1ZABtPTg1OhTPUSnEAFtm9lgZ9+RVYjVH9A==";
+        };
+        _M3JmdRCo = {
+            "id" = "M3JmdRCo";
+            "file" = "yagm-1.21.1-0.2-FABRIC.jar";
+            "hash" = "sha512-DAiqv3EJbDZelXPCI2a39ZtI8TUSniwuY/Yw5EaDAbXx80yznE1qFzQvSJrrTUsZjeZTSU5SoTJHdC81uTmMgA==";
+        };
+        _j9VJyTfy = {
+            "id" = "j9VJyTfy";
+            "file" = "yagm-1.21.1-0.2-NEOFORGE.jar";
+            "hash" = "sha512-223fPAzSFUwL0KpaDw/wmKHnkY9oNFFtZTfd3/tIomBPxbZt1/RSmm0r2Hy3HCaPQlyw0gWhZSlWs3NZ6NgVyg==";
+        };
     in {
         "S2D8vYgM" = _S2D8vYgM;
         "M1O0aK68" = _M1O0aK68;
@@ -74,15 +94,21 @@ let
         "CDxuAuks" = _CDxuAuks;
         "YY7fmZ28" = _YY7fmZ28;
         "l3oKyWhb" = _l3oKyWhb;
-        "neoforge-1.21.1" = _l3oKyWhb;
-        "fabric-1.21.1" = _YY7fmZ28;
+        "hHkgnQXX" = _hHkgnQXX;
+        "IByvohqP" = _IByvohqP;
+        "M3JmdRCo" = _M3JmdRCo;
+        "j9VJyTfy" = _j9VJyTfy;
+        "neoforge-1.21.1" = _j9VJyTfy;
+        "fabric-1.21.1" = _M3JmdRCo;
         "pkg-0.1" = _M1O0aK68;
         "pkg-0.1.1" = _jVSGkikO;
         "pkg-0.1.2" = _fw4slQNW;
         "pkg-0.1.3" = _ccUKNr5f;
         "pkg-0.1.4" = _CDxuAuks;
         "pkg-0.1.5" = _l3oKyWhb;
-        "default" = _l3oKyWhb;
+        "pkg-0.1.6" = _IByvohqP;
+        "pkg-0.2" = _j9VJyTfy;
+        "default" = _j9VJyTfy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yagm";

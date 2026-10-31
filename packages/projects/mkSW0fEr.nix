@@ -171,6 +171,11 @@ let
             "file" = "village_recruits-1.0.7.93TC-209.jar";
             "hash" = "sha512-PsCN2NnBDlS2MBcWeo8z99WqIrNGazeOrR1LIHRpSMvwCS36sprj2sCgDR+qeO0VgyY3SSFYu2+fDvQlliwuyA==";
         };
+        _G6TcWgG7 = {
+            "id" = "G6TcWgG7";
+            "file" = "village_recruits-1.0.7.93TC-210.jar";
+            "hash" = "sha512-jS5Qnadtyv7/0niv/d/UjA3fsHjnLeM9lOtwDiM3w9ZOVEJctrWVUx4OOD+M7TZXnCWlu523GSE8bm2hdoum8A==";
+        };
     in {
         "jjTsLAkn" = _jjTsLAkn;
         "KgMOlhvr" = _KgMOlhvr;
@@ -206,7 +211,8 @@ let
         "fRpr6IPf" = _fRpr6IPf;
         "DkZTsNdv" = _DkZTsNdv;
         "8PIclgr3" = _8PIclgr3;
-        "forge-1.20.1" = _8PIclgr3;
+        "G6TcWgG7" = _G6TcWgG7;
+        "forge-1.20.1" = _G6TcWgG7;
         "pkg-1.0.addons" = _jjTsLAkn;
         "pkg-1.0.fixihope" = _KgMOlhvr;
         "pkg-1.0.5" = _4O1wyGKw;
@@ -241,7 +247,8 @@ let
         "pkg-1.0.7.20" = _fRpr6IPf;
         "pkg-1.0.7.21" = _DkZTsNdv;
         "pkg-1.0.7.22" = _8PIclgr3;
-        "default" = _8PIclgr3;
+        "pkg-1.0.7.23" = _G6TcWgG7;
+        "default" = _G6TcWgG7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-recruits-village-expansion";

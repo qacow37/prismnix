@@ -556,6 +556,56 @@ let
             "file" = "CrashPatch-2.2.2+26.3.jar";
             "hash" = "sha512-5H0NKOTo2wTR664e/S7fKzpEZ11R5drcFTNyFYEEb0YQ7fyT/nA5i+3NtR15TIJb0rLHjpG176AyNY8vQ77lcw==";
         };
+        _mbtAPeGL = {
+            "id" = "mbtAPeGL";
+            "file" = "CrashPatch-2.2.3+1.8.9.jar";
+            "hash" = "sha512-BDjJsNTxBnFoMsJWFSsAQFD6okoAR+EohUvjqbGTFv+bYCAxfRT+JAbrP1oBNVoUtqBPWfynyVhkWZLztUahDA==";
+        };
+        _mscEtvRc = {
+            "id" = "mscEtvRc";
+            "file" = "CrashPatch-2.2.3+1.21.1.jar";
+            "hash" = "sha512-07c9kuNwL0JNaJu8E0TvfGTbLAUwXl/kxqKr2hJfjVMG/xk2v1Uy62HefujMwMKF7vKlAkD2G8MLGcrjKxIs2A==";
+        };
+        _rMVu6e0C = {
+            "id" = "rMVu6e0C";
+            "file" = "CrashPatch-2.2.3+1.21.4.jar";
+            "hash" = "sha512-ohZBvv5mAceJ0e13HqvUFsBm/ieiaCvJSNxguFAHHMNLce1fgjxT2mdjrYZyPuZBwO3BC/XM7oIJ3nyQq8tx9w==";
+        };
+        _aBsPM94G = {
+            "id" = "aBsPM94G";
+            "file" = "CrashPatch-2.2.3+1.21.5.jar";
+            "hash" = "sha512-b3ch+G8NI63TtoAWqz9LNeCpLzZfSL92F9Fv6/FAtcNzulUQE1ib9lJkGsyJd5GQP70DOhj7tD7XmXpQT56nTw==";
+        };
+        _kemRL1wP = {
+            "id" = "kemRL1wP";
+            "file" = "CrashPatch-2.2.3+1.21.8.jar";
+            "hash" = "sha512-pH2I5yIgTMDyxcww+oWa4D3twiuj5+TVq3hsc/RNssjQU3NAKtEOwmw9nuNzvYMAgDBj38r9iiJl4mvnsYbaag==";
+        };
+        _K7IpVXyG = {
+            "id" = "K7IpVXyG";
+            "file" = "CrashPatch-2.2.3+1.21.10.jar";
+            "hash" = "sha512-5XqhNvO+x94v/P6TCJ0PDNW+g7XQ8j8nMiImtVKNii9vZROv5IZ9+0hSHvwin8ssxcZIyyNFLRddX9fdWgzWcw==";
+        };
+        _wTnPNwW5 = {
+            "id" = "wTnPNwW5";
+            "file" = "CrashPatch-2.2.3+1.21.11.jar";
+            "hash" = "sha512-0cP2Bm/mbiy4k1d5AWsVRqvS1bTX3wUVsxaYwSDje6uCykZ/lf/TsbIb0Hz5m0uTxJZczQR5aG6xZOOPYOpRxw==";
+        };
+        _IcvqkE83 = {
+            "id" = "IcvqkE83";
+            "file" = "CrashPatch-2.2.3+26.1.2.jar";
+            "hash" = "sha512-u7GZCBWMqMS37f60rCHiul+KUEJWoG/Dd5CUUkvlaNNTRlLeUoF9nYd+ovJ1ZML4E9tmmZghsMatuK1e8JSF6w==";
+        };
+        _Fk0ENelK = {
+            "id" = "Fk0ENelK";
+            "file" = "CrashPatch-2.2.3+26.2.jar";
+            "hash" = "sha512-ia+z4hi9QuPo+4Vj1hDKYiJsVY2zV5CxwWK7mbxb8/A7oqaqyXkg/OMqYLU6qDLAFGEOmgNPaPuWgCae/lwGFQ==";
+        };
+        _fSADcZQN = {
+            "id" = "fSADcZQN";
+            "file" = "CrashPatch-2.2.3+26.3.jar";
+            "hash" = "sha512-+E9Ja/ND/9reTNnWr2sllbU2rp7ZWQBCC8l0d/Mw1E25NnDMRPBb08xXT2Gup1MsrCWXzaEb3sZm4Uw0joHcrA==";
+        };
     in {
         "5zsfIeMF" = _5zsfIeMF;
         "waoORuvp" = _waoORuvp;
@@ -668,19 +718,29 @@ let
         "ZqCeuiEc" = _ZqCeuiEc;
         "x0jNo3Oa" = _x0jNo3Oa;
         "x6rUxMhr" = _x6rUxMhr;
+        "mbtAPeGL" = _mbtAPeGL;
+        "mscEtvRc" = _mscEtvRc;
+        "rMVu6e0C" = _rMVu6e0C;
+        "aBsPM94G" = _aBsPM94G;
+        "kemRL1wP" = _kemRL1wP;
+        "K7IpVXyG" = _K7IpVXyG;
+        "wTnPNwW5" = _wTnPNwW5;
+        "IcvqkE83" = _IcvqkE83;
+        "Fk0ENelK" = _Fk0ENelK;
+        "fSADcZQN" = _fSADcZQN;
         "forge-1.8.9" = _qDhse9AS;
-        "fabric-26.1" = _ZqCeuiEc;
-        "fabric-26.1.1" = _ZqCeuiEc;
-        "fabric-26.1.2" = _ZqCeuiEc;
-        "fabric-1.21.1" = _3mUpgyS8;
-        "fabric-1.21.4" = _hDp1GmJi;
-        "fabric-1.21.5" = _9njXLzje;
-        "fabric-1.21.8" = _iTaEqZwz;
-        "fabric-1.21.10" = _wg57fLfG;
-        "fabric-1.21.11" = _FaNe8ivX;
-        "fabric-26.2" = _x0jNo3Oa;
-        "fabric-26.3" = _x6rUxMhr;
-        "ornithe-1.8.9" = _YpLzPAB2;
+        "fabric-26.1" = _IcvqkE83;
+        "fabric-26.1.1" = _IcvqkE83;
+        "fabric-26.1.2" = _IcvqkE83;
+        "fabric-1.21.1" = _mscEtvRc;
+        "fabric-1.21.4" = _rMVu6e0C;
+        "fabric-1.21.5" = _aBsPM94G;
+        "fabric-1.21.8" = _kemRL1wP;
+        "fabric-1.21.10" = _K7IpVXyG;
+        "fabric-1.21.11" = _wTnPNwW5;
+        "fabric-26.2" = _Fk0ENelK;
+        "fabric-26.3" = _fSADcZQN;
+        "ornithe-1.8.9" = _mbtAPeGL;
         "pkg-v2.0.0" = _5zsfIeMF;
         "pkg-v2.0.1" = _waoORuvp;
         "pkg-v2.0.2" = _qDhse9AS;
@@ -697,7 +757,8 @@ let
         "pkg-v2.2.0" = _tD0pt5Br;
         "pkg-v2.2.1" = _zRIVXBPn;
         "pkg-v2.2.2" = _x6rUxMhr;
-        "default" = _x6rUxMhr;
+        "pkg-v2.2.3" = _fSADcZQN;
+        "default" = _fSADcZQN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crashpatch";

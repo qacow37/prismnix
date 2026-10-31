@@ -156,6 +156,26 @@ let
             "file" = "plushie_buddies-1.0.1-neofroge-1.21.1.jar";
             "hash" = "sha512-xwPDetORYYZSh1U5KnMWwqqap/vZekI98Gq6cKMAwzfuQETeVtoHXLPQndQdd0C56N1Qc+u3HsnGu5kpUjkThA==";
         };
+        _6l4tO1Ak = {
+            "id" = "6l4tO1Ak";
+            "file" = "plushie_buddies-1.0.2-1.20.1.jar";
+            "hash" = "sha512-DtNwta+sTWPe0RyshBeQBCOP4PdDtmyi59xGX2UFimpNPJ8ALlX8LYnzVAxtqneERA/kqeB2cQgbvvoAWzying==";
+        };
+        _Q4klVI3F = {
+            "id" = "Q4klVI3F";
+            "file" = "plushie_buddies-1.0.2-1.20.1.jar";
+            "hash" = "sha512-hW+ZPz4z4Yv7I9+J9wsQGXOwXl4OMqTh9oqq2CM5Md2+s1XZQ0P5Nly0AwQ76RT+Vyxc3SVJEXfhVffgJravdg==";
+        };
+        _8jWRzitb = {
+            "id" = "8jWRzitb";
+            "file" = "plushie_buddies-0.1.2-1.21.1.jar";
+            "hash" = "sha512-t6cxMGztfSIGrdnqTbhb3Yt930+3Nq7R7Jl5i98L9SrSZbS8DqHK7vESyGOr/ok2FxiLTQ0iCvNguLotQBz9oQ==";
+        };
+        _wVISmlgE = {
+            "id" = "wVISmlgE";
+            "file" = "plushie_buddies-0.1.8-1.21.1.jar";
+            "hash" = "sha512-xtvsa5L0Aa7WSpoXF3eCrAZGTkVI6qgi1CG5FEYuSMSLMRnNg598cw3k5iYom2G/yINHcoMnhwyNX+zkOBfFQQ==";
+        };
     in {
         "8FpiEbzc" = _8FpiEbzc;
         "FTt3T4Zw" = _FTt3T4Zw;
@@ -188,9 +208,13 @@ let
         "PNH1avdn" = _PNH1avdn;
         "bToxQySN" = _bToxQySN;
         "79cJi8lU" = _79cJi8lU;
-        "forge-1.20.1" = _bToxQySN;
-        "fabric-1.20.1" = _PNH1avdn;
-        "fabric-1.21.1" = _52abzT9l;
+        "6l4tO1Ak" = _6l4tO1Ak;
+        "Q4klVI3F" = _Q4klVI3F;
+        "8jWRzitb" = _8jWRzitb;
+        "wVISmlgE" = _wVISmlgE;
+        "forge-1.20.1" = _Q4klVI3F;
+        "fabric-1.20.1" = _6l4tO1Ak;
+        "fabric-1.21.1" = _wVISmlgE;
         "neoforge-1.21.1" = _79cJi8lU;
         "pkg-0.0.1-1.20.1" = _8FpiEbzc;
         "pkg-0.0.2-1.20.1" = _FTt3T4Zw;
@@ -218,7 +242,10 @@ let
         "pkg-1.0.0-neofroge-1.21.1" = _K2D8ew4i;
         "pkg-1.0.1-1.20.1" = _bToxQySN;
         "pkg-1.0.1-neofroge-1.21.1" = _79cJi8lU;
-        "default" = _79cJi8lU;
+        "pkg-1.0.2-1.20.1" = _Q4klVI3F;
+        "pkg-0.1.2-1.21.1" = _8jWRzitb;
+        "pkg-0.1.8-1.21.1" = _wVISmlgE;
+        "default" = _wVISmlgE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plushie-buddies";

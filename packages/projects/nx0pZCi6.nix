@@ -36,6 +36,11 @@ let
             "file" = "bits_n_dyes-1.1.2.jar";
             "hash" = "sha512-Lb8OPXz9v+xqyFqsQoeiO0zk+LVenyaMGxsaWl/33GHLbX+EGaSRuFwpTHAckUlepoLR6vDpeUjTHzdPJoZ2yQ==";
         };
+        _2Hqnweri = {
+            "id" = "2Hqnweri";
+            "file" = "bits_n_dyes-1.1.3.jar";
+            "hash" = "sha512-zAY0VT0Er561XTv4qzRklksIsqEcbH0gv66/RGEYjwSYRhssTQTLNutGLXfZdVUnyZveVkJDe1jLkSVQ0hh3og==";
+        };
     in {
         "xiBJ37i5" = _xiBJ37i5;
         "9O03tFmm" = _9O03tFmm;
@@ -44,7 +49,8 @@ let
         "j81iJUto" = _j81iJUto;
         "CI4JT0jZ" = _CI4JT0jZ;
         "3zsDT52a" = _3zsDT52a;
-        "neoforge-1.21.1" = _3zsDT52a;
+        "2Hqnweri" = _2Hqnweri;
+        "neoforge-1.21.1" = _2Hqnweri;
         "pkg-1.0.0" = _xiBJ37i5;
         "pkg-1.0.2" = _9O03tFmm;
         "pkg-1.0.3" = _pgMwvVaS;
@@ -52,7 +58,8 @@ let
         "pkg-1.1.0" = _j81iJUto;
         "pkg-1.1.1" = _CI4JT0jZ;
         "pkg-1.1.2" = _3zsDT52a;
-        "default" = _3zsDT52a;
+        "pkg-1.1.3" = _2Hqnweri;
+        "default" = _2Hqnweri;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-bits-n-dyes";

@@ -146,6 +146,16 @@ let
             "file" = "journey-to-the-north-east-3.4.jar";
             "hash" = "sha512-DJVxowXtBz5bxw0Q30auogNnskJRsbF6bK2SJnYFDCA7HJ8Wbh7TDcwy/9p1wmes764ToR8DM0o+6OrCpwvw/w==";
         };
+        _zotxKFIK = {
+            "id" = "zotxKFIK";
+            "file" = "journey_to_the_north_east.zip";
+            "hash" = "sha512-Zz3D+TzTKAMS/ZXMaArRjxvArdITt8HOqC1/eu7aLSukwvt8EqoyvI1+NpVAwrMXd2jOmYW6nZLMoDhzjDrqag==";
+        };
+        _rC65fKjV = {
+            "id" = "rC65fKjV";
+            "file" = "journey-to-the-north-east-3.5.jar";
+            "hash" = "sha512-iYEX14hJfoQcZbHkyMCeTwY3rnZab+LVOUWdPBkMCU7fYDPhZd+u5MbrIJ0o5gbeeGdcSLbakWqbFrS76jQ18w==";
+        };
     in {
         "zpXxtQzX" = _zpXxtQzX;
         "VXZOau0v" = _VXZOau0v;
@@ -176,36 +186,38 @@ let
         "vKH0CQHV" = _vKH0CQHV;
         "EWIu0ecH" = _EWIu0ecH;
         "qnZGw1Ht" = _qnZGw1Ht;
+        "zotxKFIK" = _zotxKFIK;
+        "rC65fKjV" = _rC65fKjV;
         "datapack-1.21.11" = _FslobDlR;
         "datapack-26.1" = _CMnhiaEu;
         "datapack-26.1.1" = _CMnhiaEu;
         "datapack-26.1.2" = _CMnhiaEu;
         "datapack-26.2" = _BmAsvCxT;
-        "datapack-26.3" = _EWIu0ecH;
+        "datapack-26.3" = _zotxKFIK;
         "fabric-1.21.11" = _CqfnGWUb;
         "fabric-26.1" = _G2gQVP9p;
         "fabric-26.1.1" = _G2gQVP9p;
         "fabric-26.1.2" = _G2gQVP9p;
         "fabric-26.2" = _2f73q5Gx;
-        "fabric-26.3" = _qnZGw1Ht;
+        "fabric-26.3" = _rC65fKjV;
         "forge-1.21.11" = _CqfnGWUb;
         "forge-26.1" = _G2gQVP9p;
         "forge-26.1.1" = _G2gQVP9p;
         "forge-26.1.2" = _G2gQVP9p;
         "forge-26.2" = _2f73q5Gx;
-        "forge-26.3" = _qnZGw1Ht;
+        "forge-26.3" = _rC65fKjV;
         "neoforge-1.21.11" = _CqfnGWUb;
         "neoforge-26.1" = _G2gQVP9p;
         "neoforge-26.1.1" = _G2gQVP9p;
         "neoforge-26.1.2" = _G2gQVP9p;
         "neoforge-26.2" = _2f73q5Gx;
-        "neoforge-26.3" = _qnZGw1Ht;
+        "neoforge-26.3" = _rC65fKjV;
         "quilt-1.21.11" = _CqfnGWUb;
         "quilt-26.1" = _G2gQVP9p;
         "quilt-26.1.1" = _G2gQVP9p;
         "quilt-26.1.2" = _G2gQVP9p;
         "quilt-26.2" = _2f73q5Gx;
-        "quilt-26.3" = _qnZGw1Ht;
+        "quilt-26.3" = _rC65fKjV;
         "pkg-1" = _zpXxtQzX;
         "pkg-1+mod" = _VXZOau0v;
         "pkg-1.1" = _5oE6j7X8;
@@ -234,7 +246,9 @@ let
         "pkg-3.3+mod" = _vKH0CQHV;
         "pkg-3.4" = _EWIu0ecH;
         "pkg-3.4+mod" = _qnZGw1Ht;
-        "default" = _qnZGw1Ht;
+        "pkg-3.5" = _zotxKFIK;
+        "pkg-3.5+mod" = _rC65fKjV;
+        "default" = _rC65fKjV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "journey-to-the-north-east";

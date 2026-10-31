@@ -91,6 +91,16 @@ let
             "file" = "SculkRadio-1.0.0+26.3.jar";
             "hash" = "sha512-VGDghGLudASWOzQidYeJ7lJE7YZWnvm3fK4+40zYRVFnuD9hlOlIKJFaptmgw3i4d6vZgkHMlBD5TrxbdpnXPA==";
         };
+        _43wYlPwI = {
+            "id" = "43wYlPwI";
+            "file" = "SculkRadio-1.0.1+26.2.jar";
+            "hash" = "sha512-mJtDbIqy7Xr0AiNZUeTJGoO/R8Htic4ysaqdY/yVU7MDKdxO+SAU+aVGqI3mjoFEnfTNkELcEIY9Qpahvl2KKg==";
+        };
+        _RG7cd85V = {
+            "id" = "RG7cd85V";
+            "file" = "SculkRadio-1.0.1+26.3.jar";
+            "hash" = "sha512-EIk6gPLgAd1wypprr5d8rReqJlUknr+clLA3FnW+vtvF8/DSf5oWzotX8VEFGlHL4FihVwYD2rK6atFyvx5O6w==";
+        };
     in {
         "sOhYiC6i" = _sOhYiC6i;
         "x6xCD3oC" = _x6xCD3oC;
@@ -110,13 +120,15 @@ let
         "N2ObVYEo" = _N2ObVYEo;
         "dgi6nRHK" = _dgi6nRHK;
         "QvRrQhHR" = _QvRrQhHR;
+        "43wYlPwI" = _43wYlPwI;
+        "RG7cd85V" = _RG7cd85V;
         "fabric-1.21.9" = _bWhZjbX9;
         "fabric-1.21.10" = _bWhZjbX9;
         "fabric-1.21.11" = _1A2Pn0R5;
         "fabric-26.1.1" = _gqriuvUA;
         "fabric-26.1.2" = _GLgzyofH;
-        "fabric-26.2" = _dgi6nRHK;
-        "fabric-26.3" = _QvRrQhHR;
+        "fabric-26.2" = _43wYlPwI;
+        "fabric-26.3" = _RG7cd85V;
         "pkg-0.3.1+1.21.9" = _sOhYiC6i;
         "pkg-0.3.2+1.21.9" = _x6xCD3oC;
         "pkg-0.3.3+1.21.9" = _yHAlUEgf;
@@ -135,7 +147,9 @@ let
         "pkg-1.0.0-rc-1+26.2" = _N2ObVYEo;
         "pkg-1.0.0+26.2" = _dgi6nRHK;
         "pkg-1.0.0+26.3" = _QvRrQhHR;
-        "default" = _QvRrQhHR;
+        "pkg-1.0.1+26.2" = _43wYlPwI;
+        "pkg-1.0.1+26.3" = _RG7cd85V;
+        "default" = _RG7cd85V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sculk-radio";

@@ -211,6 +211,26 @@ let
             "file" = "alltheheads-v26.3.3-mc26.3.x+fabric.jar";
             "hash" = "sha512-+N9VVuJK7V3MMGZxDmGN2+2LZLBIkXA8Am9jFkX/8AwAoPpk+nFK2JYZi1qTYHGQjuv6J7uruUce/CvxwuXcsQ==";
         };
+        _baejTIES = {
+            "id" = "baejTIES";
+            "file" = "alltheheads-v26.1.5-mc26.1.x+fabric.jar";
+            "hash" = "sha512-Lq1Ik9W2O9yww2MbYYTqxEj7NPYU+l16VBqPpMWZnLjgRZ5rUpw3hDuIFY3D+cKFEPhs2KLySopNHGiR/2A3HA==";
+        };
+        _ALZdSEul = {
+            "id" = "ALZdSEul";
+            "file" = "alltheheads-v26.1.5-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-+evZGgmnkaRHfRhzg18rUlh+flG7U6ReDv661BAhqi+oUPON9nTwrJEFPSNnN5pFG0BzTEMx0rfqKoFZHOyRVQ==";
+        };
+        _hBi2O3pL = {
+            "id" = "hBi2O3pL";
+            "file" = "alltheheads-v26.1.6-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-wLH0rRhyWYH542eL/olmcwhg2yoXuJ4ZpQECBviPeAHz4V61+5hN/IoYERBy/q5rGQCv1aUIiRccWif3qonYnQ==";
+        };
+        _1NNVtTi2 = {
+            "id" = "1NNVtTi2";
+            "file" = "alltheheads-v26.1.6-mc26.1.x+fabric.jar";
+            "hash" = "sha512-cEU9O8B2jkgbHnXbq9U7Ggs1jV9+aaCH0GIL0qz93BLy9g+g7J4LF2pSzYQ1dilc3b8qOsu6WcVQPNeEaBcL/w==";
+        };
     in {
         "Z1NV2UN1" = _Z1NV2UN1;
         "7I4UUtgv" = _7I4UUtgv;
@@ -254,21 +274,25 @@ let
         "wEvm9Abo" = _wEvm9Abo;
         "RWKYCTQt" = _RWKYCTQt;
         "81S4Qaqp" = _81S4Qaqp;
+        "baejTIES" = _baejTIES;
+        "ALZdSEul" = _ALZdSEul;
+        "hBi2O3pL" = _hBi2O3pL;
+        "1NNVtTi2" = _1NNVtTi2;
         "fabric-1.21.8" = _j7UdEgjo;
         "fabric-1.21.10" = _A2GEggd3;
         "fabric-1.21.11" = _IdBKfdz4;
-        "fabric-26.1" = _GJU8vmnF;
-        "fabric-26.1.1" = _GJU8vmnF;
-        "fabric-26.1.2" = _GJU8vmnF;
+        "fabric-26.1" = _1NNVtTi2;
+        "fabric-26.1.1" = _1NNVtTi2;
+        "fabric-26.1.2" = _1NNVtTi2;
         "fabric-1.21.1" = _wEvm9Abo;
         "fabric-26.2" = _bsIRZnLd;
         "fabric-26.3" = _81S4Qaqp;
         "neoforge-1.21.8" = _3NzWZfLG;
         "neoforge-1.21.10" = _DzDlJ25S;
         "neoforge-1.21.11" = _Q2QNAudZ;
-        "neoforge-26.1" = _tKWWSsUt;
-        "neoforge-26.1.1" = _tKWWSsUt;
-        "neoforge-26.1.2" = _tKWWSsUt;
+        "neoforge-26.1" = _hBi2O3pL;
+        "neoforge-26.1.1" = _hBi2O3pL;
+        "neoforge-26.1.2" = _hBi2O3pL;
         "neoforge-1.21.1" = _sqescOYO;
         "neoforge-26.2" = _ZuEvOW4M;
         "neoforge-26.3" = _RWKYCTQt;
@@ -295,7 +319,9 @@ let
         "pkg-26.1.4" = _tKWWSsUt;
         "pkg-21.1.2" = _wEvm9Abo;
         "pkg-26.3.3" = _81S4Qaqp;
-        "default" = _81S4Qaqp;
+        "pkg-26.1.5" = _ALZdSEul;
+        "pkg-26.1.6" = _1NNVtTi2;
+        "default" = _1NNVtTi2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-the-heads";

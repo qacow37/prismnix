@@ -821,6 +821,26 @@ let
             "file" = "dungeons-and-taverns-6.0.2.jar";
             "hash" = "sha512-Z/LOVviLOlwTQ8MoM/dJ5yiIAMrea01TxlrhHbMwz7VASkDKlVI50MmC5+dUIdF5SpQAd9Fku8W2HcSpjLLzog==";
         };
+        _B1bgkN74 = {
+            "id" = "B1bgkN74";
+            "file" = "Dungeons and Taverns v6.1.0.zip";
+            "hash" = "sha512-BM6WLVQK7BPyXB+1bcMF1MqlFbkkWwuAHSNarw/p4dHbxrTFdkxeZMJYf6v/bfvWcICVUy4tvxh9DScHmpxjeg==";
+        };
+        _hn5CugpP = {
+            "id" = "hn5CugpP";
+            "file" = "dungeons-and-taverns-6.1.0.jar";
+            "hash" = "sha512-sUOheA2O2itUgwf2y9Irnot6izTn9l3mMXnJQzHOh11yor3A4BuIXP3rCcE/IV37gBbQD0URJwup3TwHRPz/ng==";
+        };
+        _fLxOWiQ5 = {
+            "id" = "fLxOWiQ5";
+            "file" = "dungeons-and-taverns-6.1.0.jar";
+            "hash" = "sha512-7p8ifTlvvplQTQWKK2dP7NhNmdLOxYaV3ohkdqU/0+frUefN6JUe0n/GjFTh4UEgMbfk+k6UX777lzItVr9ofA==";
+        };
+        _A97537Vz = {
+            "id" = "A97537Vz";
+            "file" = "dungeons-and-taverns-6.1.0.jar";
+            "hash" = "sha512-27tyP5V08U9SbIWqgKNwrQRrvRAOtzyDro5stxsxgLUbb14AQXk+B3K2ukfsqmD/RnJaO3PRap/7owEV0pBS5w==";
+        };
     in {
         "Bu5yOV7W" = _Bu5yOV7W;
         "Xxd8P6Zd" = _Xxd8P6Zd;
@@ -986,6 +1006,10 @@ let
         "WilF7nqU" = _WilF7nqU;
         "GgiqvM0c" = _GgiqvM0c;
         "2AjppPPt" = _2AjppPPt;
+        "B1bgkN74" = _B1bgkN74;
+        "hn5CugpP" = _hn5CugpP;
+        "fLxOWiQ5" = _fLxOWiQ5;
+        "A97537Vz" = _A97537Vz;
         "datapack-1.19.3" = _dLO6I3Nl;
         "datapack-1.19.4" = _dLO6I3Nl;
         "datapack-1.19" = _dLO6I3Nl;
@@ -1016,7 +1040,7 @@ let
         "datapack-26.1.1" = _ohqJT0pv;
         "datapack-26.1.2" = _ohqJT0pv;
         "datapack-26.2" = _CS77UwHE;
-        "datapack-26.3" = _iqFWpMVO;
+        "datapack-26.3" = _B1bgkN74;
         "fabric-1.19.4" = _Q6eAdyTS;
         "fabric-1.19" = _Q6eAdyTS;
         "fabric-1.19.1" = _Q6eAdyTS;
@@ -1046,7 +1070,7 @@ let
         "fabric-26.1.1" = _Su1qplQ7;
         "fabric-26.1.2" = _Su1qplQ7;
         "fabric-26.2" = _y9AUViOD;
-        "fabric-26.3" = _WilF7nqU;
+        "fabric-26.3" = _hn5CugpP;
         "forge-1.19.4" = _WfuA1Ai8;
         "forge-1.19" = _WfuA1Ai8;
         "forge-1.19.1" = _WfuA1Ai8;
@@ -1076,7 +1100,7 @@ let
         "forge-26.1.1" = _nwBBc4Lf;
         "forge-26.1.2" = _nwBBc4Lf;
         "forge-26.2" = _AXS4pp9z;
-        "forge-26.3" = _GgiqvM0c;
+        "forge-26.3" = _fLxOWiQ5;
         "neoforge-1.21" = _BYUUUeZA;
         "neoforge-1.21.1" = _BYUUUeZA;
         "neoforge-1.21.2" = _Xz3UcF3i;
@@ -1094,7 +1118,7 @@ let
         "neoforge-26.1.1" = _aNzOBwdJ;
         "neoforge-26.1.2" = _aNzOBwdJ;
         "neoforge-26.2" = _9wgjmpuF;
-        "neoforge-26.3" = _2AjppPPt;
+        "neoforge-26.3" = _A97537Vz;
         "pkg-1.3.1" = _Bu5yOV7W;
         "pkg-2.0" = _Xxd8P6Zd;
         "pkg-2.0+mod" = _3xZCKnNP;
@@ -1187,7 +1211,9 @@ let
         "pkg-6.0.1+mod" = _Xmpurv3X;
         "pkg-6.0.2" = _iqFWpMVO;
         "pkg-6.0.2+mod" = _2AjppPPt;
-        "default" = _2AjppPPt;
+        "pkg-6.1.0" = _B1bgkN74;
+        "pkg-6.1.0+mod" = _A97537Vz;
+        "default" = _A97537Vz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns";

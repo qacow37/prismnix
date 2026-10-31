@@ -91,6 +91,21 @@ let
             "file" = "EclipseUI-fabric-1.0.5-fabric-26.4-snapshot-3.jar";
             "hash" = "sha512-FH8ugReVTpkopThZsKGgCd4UOrhYHVG8ahn1rZeHOBZDsEn7/h55KVXaca40nKmpFuxtIHfzrMr9mf1/bNuYTQ==";
         };
+        _7KqCR55g = {
+            "id" = "7KqCR55g";
+            "file" = "EclipseUI-fabric-1.0.5-fabric-26.4-snapshot-6.jar";
+            "hash" = "sha512-QZXS4Ntr0PiY8/qGtWEMnn5QwMegvmNaE1RslWVaadeqtVXZd4OEShVx+FFJx/LVniFHNTQ+Kbr24XwWxF3ung==";
+        };
+        _wrfda0YI = {
+            "id" = "wrfda0YI";
+            "file" = "EclipseUI-fabric-1.0.5-fabric-1.21.1.jar";
+            "hash" = "sha512-4qh/h11+w6SUNe+3Jvg2BOzUehWxovr7YWPdXmkvRUJLRJiDZ7s7h4XUSPOFuSUHRh+bdm1M6HmCmSsOYMyPdA==";
+        };
+        _z73ovNwy = {
+            "id" = "z73ovNwy";
+            "file" = "EclipseUI-neoforge-1.0.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-2FT7jbTXIyZzqo1+F19cOr0HE5L76QqbSKKaAroZmZTEIk9/Zx0E/ln3OZYu/57WHMhyNk35fCz2izwT4sJvsA==";
+        };
     in {
         "KUUodpwz" = _KUUodpwz;
         "TxmPArZV" = _TxmPArZV;
@@ -110,6 +125,9 @@ let
         "RtDdeIM5" = _RtDdeIM5;
         "WGC34ZtC" = _WGC34ZtC;
         "G2DdNUiJ" = _G2DdNUiJ;
+        "7KqCR55g" = _7KqCR55g;
+        "wrfda0YI" = _wrfda0YI;
+        "z73ovNwy" = _z73ovNwy;
         "fabric-1.21.11" = _KUUodpwz;
         "fabric-26.1" = _gh05XE4Y;
         "fabric-26.1.1" = _gh05XE4Y;
@@ -129,6 +147,8 @@ let
         "fabric-26.4-snapshot-1" = _WGC34ZtC;
         "fabric-26.4-snapshot-2" = _WGC34ZtC;
         "fabric-26.4-snapshot-3" = _G2DdNUiJ;
+        "fabric-26.4-snapshot-6" = _7KqCR55g;
+        "fabric-1.21.1" = _wrfda0YI;
         "neoforge-1.21.11" = _TxmPArZV;
         "neoforge-26.1" = _BnyvBfTX;
         "neoforge-26.1.1" = _BnyvBfTX;
@@ -136,6 +156,7 @@ let
         "neoforge-26.2-rc-2" = _qXA4HN0X;
         "neoforge-26.2" = _qXA4HN0X;
         "neoforge-26.3" = _RtDdeIM5;
+        "neoforge-1.21.1" = _z73ovNwy;
         "pkg-1.0.0+mc1.21.11" = _TxmPArZV;
         "pkg-1.0.2+mc26.1" = _bkG3agjr;
         "pkg-1.0.3+mc26.1" = _70DOl5Fa;
@@ -149,7 +170,10 @@ let
         "pkg-1.0.5+mc26.3-neoforge" = _RtDdeIM5;
         "pkg-1.0.5+mc26.4-snapshot-1-fabric" = _WGC34ZtC;
         "pkg-1.0.5+mc26.4-snapshot-3-fabric" = _G2DdNUiJ;
-        "default" = _G2DdNUiJ;
+        "pkg-1.0.5+mc26.4-snapshot-6-fabric" = _7KqCR55g;
+        "pkg-1.0.5+mc1.21.1-fabric" = _wrfda0YI;
+        "pkg-1.0.5+mc1.21.1-neoforge" = _z73ovNwy;
+        "default" = _z73ovNwy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eclipseui";

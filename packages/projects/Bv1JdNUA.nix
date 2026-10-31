@@ -91,6 +91,31 @@ let
             "file" = "presence-fabric-2.4.3.jar";
             "hash" = "sha512-rkNVIU4zuXIf4AzCXOPKbI4dBLWteNjyCQy9efRGPBltIylqFMg7HAHXAEgs1VaO71kHcMSI5NXqDiJ8GsEoJA==";
         };
+        _QEU50Ihx = {
+            "id" = "QEU50Ihx";
+            "file" = "presence-2.4.4.jar";
+            "hash" = "sha512-9JEkDfK1ElbmGB+6N6XSZT+qKaIZpvWqHcpADfgraiCBIkfBmvgP9mqVbemqd7ObGInU6JJjYruy2fP1k6oNrQ==";
+        };
+        _PTv8wmSh = {
+            "id" = "PTv8wmSh";
+            "file" = "presence-2.4.4.jar";
+            "hash" = "sha512-T45tuNWvUpndqY/cZTerBAUW4v9XYtYuMbTkWxoNWGPJQV0ClPNIubgQviXxU9DhlUbbPd+kzRXMhY4HZsUsNg==";
+        };
+        _Hn4yJPoK = {
+            "id" = "Hn4yJPoK";
+            "file" = "presence-2.4.4.jar";
+            "hash" = "sha512-lM1w8rBuw9gnmzH/0Q15CWOaR2HYPdWlhIv3Kh1AmKaCN58yStOZbyg4LRwjMoAZByyeOkTPHAJ6AoqeTVDXWQ==";
+        };
+        _k08CZpoF = {
+            "id" = "k08CZpoF";
+            "file" = "presence-fabric-2.4.4.jar";
+            "hash" = "sha512-L0tAbTcyepkb5ENtxthpp94kE+sK9/QEBo6X1bi6iG9m/gHXw/aexN1Ld1Zm5BEg9lnmqZhRFXNHHIR0Epz9Sw==";
+        };
+        _jhjMowt1 = {
+            "id" = "jhjMowt1";
+            "file" = "presence-fabric-2.4.4.jar";
+            "hash" = "sha512-+MNjfG6R/9Lf6Y/53F1X6dLaDzal7v8fJaZy+4dl03MM/lXt1lWh25h9t6LV+ZSZsFaStTa+UWXooPq/xHQfoA==";
+        };
     in {
         "8LLgHQrV" = _8LLgHQrV;
         "y5OrmG1j" = _y5OrmG1j;
@@ -110,7 +135,12 @@ let
         "fXEgKjsG" = _fXEgKjsG;
         "navOCCsD" = _navOCCsD;
         "QDIjCTcu" = _QDIjCTcu;
-        "forge-1.21.1" = _fXEgKjsG;
+        "QEU50Ihx" = _QEU50Ihx;
+        "PTv8wmSh" = _PTv8wmSh;
+        "Hn4yJPoK" = _Hn4yJPoK;
+        "k08CZpoF" = _k08CZpoF;
+        "jhjMowt1" = _jhjMowt1;
+        "forge-1.21.1" = _Hn4yJPoK;
         "forge-1.21.2" = _8LLgHQrV;
         "forge-1.21.3" = _8LLgHQrV;
         "forge-1.21.4" = _8LLgHQrV;
@@ -121,22 +151,23 @@ let
         "forge-1.21.9" = _8LLgHQrV;
         "forge-1.21.10" = _8LLgHQrV;
         "forge-1.21.11" = _8LLgHQrV;
-        "forge-1.20.1" = _R6YyCmTa;
+        "forge-1.20.1" = _PTv8wmSh;
         "forge-1.20.2" = _y5OrmG1j;
         "forge-1.20.3" = _y5OrmG1j;
         "forge-1.20.4" = _y5OrmG1j;
         "forge-1.20.5" = _y5OrmG1j;
         "forge-1.20.6" = _y5OrmG1j;
-        "forge-1.19.2" = _emgSmRX8;
+        "forge-1.19.2" = _QEU50Ihx;
         "forge-1.19.3" = _hZQZv6ZZ;
         "forge-1.19.4" = _hZQZv6ZZ;
-        "fabric-1.20.1" = _navOCCsD;
-        "fabric-1.21.1" = _QDIjCTcu;
+        "fabric-1.20.1" = _k08CZpoF;
+        "fabric-1.21.1" = _jhjMowt1;
         "pkg-2.3.0" = _hZQZv6ZZ;
         "pkg-2.4.0" = _SrvZq2Ut;
         "pkg-2.4.1" = _Z6pevrIy;
         "pkg-2.4.3" = _QDIjCTcu;
-        "default" = _QDIjCTcu;
+        "pkg-2.4.4" = _jhjMowt1;
+        "default" = _jhjMowt1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "presence-an-ambient-horror-mod";

@@ -31,6 +31,11 @@ let
             "file" = "Refined Buckets 2.4.1.zip";
             "hash" = "sha512-kFywM8Q51AeN/03nag6be0b7mhDUNgezKmJNbLQYnAA6F+3caQ5UCKXPWv2EBSuZuUump4DgOHx8Q4M7J/OC+A==";
         };
+        _3xfWCDi5 = {
+            "id" = "3xfWCDi5";
+            "file" = "Refined Buckets 3.0.zip";
+            "hash" = "sha512-O5x/LraZJny7MRVju2hkMxrr7Jiftr6BrNIAD5aIOEnSnZbVhMJv/E/y/SnEH3F12e+N15SyhXhElZbsfHFzqw==";
+        };
     in {
         "1upmIgAK" = _1upmIgAK;
         "Dv6GQGEm" = _Dv6GQGEm;
@@ -38,26 +43,30 @@ let
         "dXYPFrvB" = _dXYPFrvB;
         "5xfKnZrG" = _5xfKnZrG;
         "IDRASEyH" = _IDRASEyH;
+        "3xfWCDi5" = _3xfWCDi5;
         "minecraft-1.21.9" = _IDRASEyH;
         "minecraft-1.21.10" = _IDRASEyH;
-        "minecraft-1.21.11" = _IDRASEyH;
-        "minecraft-1.20.1" = _IDRASEyH;
-        "minecraft-1.21.1" = _IDRASEyH;
+        "minecraft-1.21.11" = _3xfWCDi5;
+        "minecraft-1.20.1" = _3xfWCDi5;
+        "minecraft-1.21.1" = _3xfWCDi5;
         "minecraft-1.21.4" = _IDRASEyH;
-        "minecraft-1.21.5" = _IDRASEyH;
+        "minecraft-1.21.5" = _3xfWCDi5;
         "minecraft-1.21.6" = _IDRASEyH;
         "minecraft-1.21.7" = _IDRASEyH;
         "minecraft-1.21.8" = _IDRASEyH;
         "minecraft-26.1" = _IDRASEyH;
         "minecraft-26.1.1" = _IDRASEyH;
-        "minecraft-26.1.2" = _IDRASEyH;
+        "minecraft-26.1.2" = _3xfWCDi5;
+        "minecraft-26.2" = _3xfWCDi5;
+        "minecraft-26.3" = _3xfWCDi5;
         "pkg-1.1" = _1upmIgAK;
         "pkg-2.2" = _Dv6GQGEm;
         "pkg-2.2.1" = _aZzQR8ID;
         "pkg-2.3" = _dXYPFrvB;
         "pkg-2.4" = _5xfKnZrG;
         "pkg-2.4.1" = _IDRASEyH;
-        "default" = _IDRASEyH;
+        "pkg-3.0" = _3xfWCDi5;
+        "default" = _3xfWCDi5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "refined-buckets";

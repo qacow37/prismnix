@@ -11,14 +11,21 @@ let
             "file" = "moremobvariants-1.4.0.jar";
             "hash" = "sha512-RJrL8XfMr+fsCCubTv4thxHIiq2/eQNCGKTN5XUtdzav7TmOW4khiDJm8t8WeZIvpsjOLbcwasYcZ7AQy2WEGw==";
         };
+        _9mFUBvuq = {
+            "id" = "9mFUBvuq";
+            "file" = "moremobvariants-1.4.1.jar";
+            "hash" = "sha512-jpIvyMFImYA9wVvoapJIrJQ4lUHoMdCGVZG1bNiVy+diYNJXa8Yg9x61DwhSkyAypSLtpIzZbS1odXgIuTwPtg==";
+        };
     in {
         "Z9n3zmYe" = _Z9n3zmYe;
         "Kyw022gr" = _Kyw022gr;
+        "9mFUBvuq" = _9mFUBvuq;
         "fabric-1.21.11" = _Z9n3zmYe;
-        "fabric-26.3" = _Kyw022gr;
+        "fabric-26.3" = _9mFUBvuq;
         "pkg-1.3.1.1" = _Z9n3zmYe;
         "pkg-1.4.0" = _Kyw022gr;
-        "default" = _Kyw022gr;
+        "pkg-1.4.1" = _9mFUBvuq;
+        "default" = _9mFUBvuq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extra-mobs";

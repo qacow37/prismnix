@@ -61,6 +61,11 @@ let
             "file" = "plasmid-0.7.2+26.2.jar";
             "hash" = "sha512-juZCDsSz7ifJ2qAfMoJD4432fPCiux86KhGF9QWsEEkYNA5xaUdkroRmxgFjh0W6TRnuzdy8mLTuXPiatEHmSg==";
         };
+        _DITHxKIV = {
+            "id" = "DITHxKIV";
+            "file" = "plasmid-0.7.3+26.3.jar";
+            "hash" = "sha512-ZEEVc2I3QYosrk9R4URONPIguZ6jqVkAq11oMYpz5ALrgqcHrcA9y7kyf9/gvaXG/Q6mribO8n/k4kTfk3pQgA==";
+        };
     in {
         "J7TPM2RZ" = _J7TPM2RZ;
         "4pL4azyr" = _4pL4azyr;
@@ -74,6 +79,7 @@ let
         "XoxfiIMZ" = _XoxfiIMZ;
         "NDGZOjJd" = _NDGZOjJd;
         "lyM4C54E" = _lyM4C54E;
+        "DITHxKIV" = _DITHxKIV;
         "fabric-1.20.1" = _4pL4azyr;
         "fabric-1.21.3" = _WV9Un1ZZ;
         "fabric-1.21.4" = _suDXapQa;
@@ -82,6 +88,7 @@ let
         "fabric-1.21.8" = _TdaCC6e6;
         "fabric-26.1.2" = _NDGZOjJd;
         "fabric-26.2" = _lyM4C54E;
+        "fabric-26.3" = _DITHxKIV;
         "quilt-1.20.1" = _4pL4azyr;
         "quilt-1.21.3" = _WV9Un1ZZ;
         "quilt-1.21.4" = _suDXapQa;
@@ -100,7 +107,8 @@ let
         "pkg-0.7.0+26.1.2" = _XoxfiIMZ;
         "pkg-0.7.1+26.1.2" = _NDGZOjJd;
         "pkg-0.7.2+26.2" = _lyM4C54E;
-        "default" = _lyM4C54E;
+        "pkg-0.7.3+26.3" = _DITHxKIV;
+        "default" = _DITHxKIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plasmid";

@@ -581,6 +581,11 @@ let
             "file" = "builds_n_barrens-23.17-neoforge-26.1.2.jar";
             "hash" = "sha512-JBJs1SQGg3Vxk28wg+YRhQ09XiiZnI1kGrhhD7l8L7xjHOrTnPSHtwemplrGCE20AGQckLlpHVlyg+jPLWI4Fw==";
         };
+        _o4QsMhmt = {
+            "id" = "o4QsMhmt";
+            "file" = "builds_n_barrens-23.18-neoforge-26.1.2.jar";
+            "hash" = "sha512-AtI5R95KtGuDxsASmoPbWo0zliDPuRzFU9Dm9ktMzsrCJYljBUUL07cibYbNS4dSmB4uD4JCX6MpXkGmEQOQ3w==";
+        };
     in {
         "o5Kn0bRg" = _o5Kn0bRg;
         "ya68VEcS" = _ya68VEcS;
@@ -698,9 +703,10 @@ let
         "Z3TGrt2c" = _Z3TGrt2c;
         "fnHSYPad" = _fnHSYPad;
         "7q1YBxzu" = _7q1YBxzu;
+        "o4QsMhmt" = _o4QsMhmt;
         "neoforge-1.21.8" = _jsk5Dknf;
         "neoforge-1.21.1" = _xTUYM66l;
-        "neoforge-26.1.2" = _7q1YBxzu;
+        "neoforge-26.1.2" = _o4QsMhmt;
         "pkg-1.b" = _o5Kn0bRg;
         "pkg-1.1.b" = _ya68VEcS;
         "pkg-1.2.b" = _k26xZF7D;
@@ -817,7 +823,8 @@ let
         "pkg-23.15" = _Z3TGrt2c;
         "pkg-23.16" = _fnHSYPad;
         "pkg-23.17" = _7q1YBxzu;
-        "default" = _7q1YBxzu;
+        "pkg-23.18" = _o4QsMhmt;
+        "default" = _o4QsMhmt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildsnbarrens";

@@ -26,15 +26,21 @@ let
             "file" = "drop-stacker-1.2.1+1.21.1.jar";
             "hash" = "sha512-ZDsJugNNs8pYBWvBjtFhcdt+YjKpXrDQl/9G/+eZWFZFD99uO9AuxHBWGAb0mn6sxMXSNEkZf9LFK5D6/JZieA==";
         };
+        _SDebPNKc = {
+            "id" = "SDebPNKc";
+            "file" = "drop-stacker-1.3.0.jar";
+            "hash" = "sha512-64SZZN6nJTTo6d4LIkbTtqNkQbH7zO/fRJf2BOf2cZWVZOXlj6GUMzNpNGVgvSupUdeg1eRgTkPbfSyJ+k3Rdg==";
+        };
     in {
         "a2WaVPmD" = _a2WaVPmD;
         "dtIofTJO" = _dtIofTJO;
         "8FeUVekV" = _8FeUVekV;
         "ldDnlY9Q" = _ldDnlY9Q;
         "5h2IcwQa" = _5h2IcwQa;
+        "SDebPNKc" = _SDebPNKc;
         "fabric-26.1.2" = _dtIofTJO;
         "fabric-26.2" = _8FeUVekV;
-        "fabric-26.3" = _ldDnlY9Q;
+        "fabric-26.3" = _SDebPNKc;
         "fabric-1.21.1" = _5h2IcwQa;
         "fabric-1.21.2" = _5h2IcwQa;
         "fabric-1.21.3" = _5h2IcwQa;
@@ -51,7 +57,8 @@ let
         "pkg-1.1.0" = _8FeUVekV;
         "pkg-1.2.1" = _ldDnlY9Q;
         "pkg-1.2.1+1.21.1" = _5h2IcwQa;
-        "default" = _5h2IcwQa;
+        "pkg-1.3.0" = _SDebPNKc;
+        "default" = _SDebPNKc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drop-stacker";

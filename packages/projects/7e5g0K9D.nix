@@ -51,6 +51,11 @@ let
             "file" = "rangedwirelessredstone-26.3-8.0.0.jar";
             "hash" = "sha512-49wi0NtIYBDxmNoWchPlRzdQddRAeMYiBNT4sS55dPrHTJ98pyeNihZzWAZF4uL/Et5BOZIhBK0h3wOvcBp7Hg==";
         };
+        _XkNDrpQi = {
+            "id" = "XkNDrpQi";
+            "file" = "rangedwirelessredstone-26.3-8.0.1.jar";
+            "hash" = "sha512-W5OoD+ExubaRIqkbypagG4TrbipQPMTlZhN0byXNM1dDCIMG7wbJroCKZIZM6bSxSeeSQeEwnuPESuQsu8ckMg==";
+        };
     in {
         "EvQuuOS2" = _EvQuuOS2;
         "7L11HIAu" = _7L11HIAu;
@@ -62,12 +67,13 @@ let
         "GtPaUNHD" = _GtPaUNHD;
         "V6YCFXB6" = _V6YCFXB6;
         "YZd5Qzkb" = _YZd5Qzkb;
+        "XkNDrpQi" = _XkNDrpQi;
         "neoforge-1.21.1" = _H66d5NDi;
         "neoforge-26.1" = _GtPaUNHD;
         "neoforge-26.1.1" = _GtPaUNHD;
         "neoforge-26.1.2" = _GtPaUNHD;
         "neoforge-26.2" = _V6YCFXB6;
-        "neoforge-26.3" = _YZd5Qzkb;
+        "neoforge-26.3" = _XkNDrpQi;
         "forge-1.20" = _7L11HIAu;
         "forge-1.20.1" = _7L11HIAu;
         "pkg-1.21.1-5.0.1" = _EvQuuOS2;
@@ -80,7 +86,8 @@ let
         "pkg-26.1-6.0.4" = _GtPaUNHD;
         "pkg-26.2-7.0.0" = _V6YCFXB6;
         "pkg-26.3-8.0.0" = _YZd5Qzkb;
-        "default" = _YZd5Qzkb;
+        "pkg-26.3-8.0.1" = _XkNDrpQi;
+        "default" = _XkNDrpQi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ranged-wireless-redstone";

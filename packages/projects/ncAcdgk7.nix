@@ -476,6 +476,11 @@ let
             "file" = "pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar";
             "hash" = "sha512-GGMkPE527N72DFQeMygI30j1DgHX919bG9UuOPCGklqnFaGZd1z4hXRuOGnPx47lrEY/0zoaxVzMq1OU0Z4r+g==";
         };
+        _C6xCLJPt = {
+            "id" = "C6xCLJPt";
+            "file" = "pneumaticcraft-repressurized-8.2.24+mc1.21.1.jar";
+            "hash" = "sha512-5WEPupZ43pSGbKfZNNdIxKe9yh8Znkzda5g5RwFKnK3qqDfbFkkeVJaEQEGwssrb9o9Iw35c8l0J9iYgFDKPRQ==";
+        };
     in {
         "fLhxikOm" = _fLhxikOm;
         "mEkZT3Kn" = _mEkZT3Kn;
@@ -572,6 +577,7 @@ let
         "JKqGh7uZ" = _JKqGh7uZ;
         "Dd6V8eOF" = _Dd6V8eOF;
         "TNzeuLH3" = _TNzeuLH3;
+        "C6xCLJPt" = _C6xCLJPt;
         "forge-1.18.2" = _MKLPzhtU;
         "forge-1.19" = _LdlEM7bZ;
         "forge-1.19.2" = _yl0p1Hfn;
@@ -581,7 +587,7 @@ let
         "neoforge-1.20.1" = _ohRZqkHb;
         "neoforge-1.20.4" = _QK8s3Tm6;
         "neoforge-1.21" = _Rx21nfz4;
-        "neoforge-1.21.1" = _TNzeuLH3;
+        "neoforge-1.21.1" = _C6xCLJPt;
         "pkg-3.2.3" = _fLhxikOm;
         "pkg-3.3.1" = _mEkZT3Kn;
         "pkg-4.0.0" = _LdlEM7bZ;
@@ -676,7 +682,8 @@ let
         "pkg-8.2.21" = _JKqGh7uZ;
         "pkg-8.2.22" = _Dd6V8eOF;
         "pkg-8.2.23" = _TNzeuLH3;
-        "default" = _TNzeuLH3;
+        "pkg-8.2.24" = _C6xCLJPt;
+        "default" = _C6xCLJPt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pneumaticcraft-repressurized";

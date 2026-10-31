@@ -221,6 +221,11 @@ let
             "file" = "eft-mod-1.21.11.jar";
             "hash" = "sha512-OifPy/NcBab2RfbF+en7on8Oeb4NjmizngeGWxyCPUT0kk8FyEHbRy5SadwT4N0ULCzloJmVyJH0gleJUn7siQ==";
         };
+        _6ApbjV3d = {
+            "id" = "6ApbjV3d";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-Exk5tu3ZlRVkSjop9KWx/zkHcD2hKlaRJflx07pgBmKapm+gZxWTA9X7gp7fSR+BsJczUkGcx3CBSK45kSgibw==";
+        };
     in {
         "ZMRnSDDg" = _ZMRnSDDg;
         "hAINNYA8" = _hAINNYA8;
@@ -266,9 +271,10 @@ let
         "1fXKxXva" = _1fXKxXva;
         "AyOn9lIE" = _AyOn9lIE;
         "G1snU09f" = _G1snU09f;
-        "fabric-1.21.11" = _G1snU09f;
-        "pkg-1.21.11" = _G1snU09f;
-        "default" = _G1snU09f;
+        "6ApbjV3d" = _6ApbjV3d;
+        "fabric-1.21.11" = _6ApbjV3d;
+        "pkg-1.21.11" = _6ApbjV3d;
+        "default" = _6ApbjV3d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "escape-from-tarkraft-mod";

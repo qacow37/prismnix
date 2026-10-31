@@ -121,6 +121,11 @@ let
             "file" = "anti-grief-creepers-1.1.4.jar";
             "hash" = "sha512-HefTxDa9GVOt1TqdpJflFjI78FvXRR5AwLh3cp5dSCn/yl+GPa7C4Sb7Hj1US9H4C9fu8LbHYjYQJmm3lKQtNA==";
         };
+        _J0KMrJqp = {
+            "id" = "J0KMrJqp";
+            "file" = "anti-grief-creepers-1.1.5.jar";
+            "hash" = "sha512-2BgyEhIgcJoNmC9MDE79H/Cu7aieRGdHprbHlpkHiKz/C2GpvtI1jwNEPEO0DtzQNB6p4NDs2cqjermWHNzVnA==";
+        };
     in {
         "GB66vkAi" = _GB66vkAi;
         "6HpskWmK" = _6HpskWmK;
@@ -146,6 +151,7 @@ let
         "EOmikMtK" = _EOmikMtK;
         "sUKLtt9R" = _sUKLtt9R;
         "1bXgmg7u" = _1bXgmg7u;
+        "J0KMrJqp" = _J0KMrJqp;
         "fabric-1.20" = _GB66vkAi;
         "fabric-1.20.1" = _GB66vkAi;
         "fabric-1.20.2" = _6HpskWmK;
@@ -166,6 +172,7 @@ let
         "fabric-26.4-snapshot-3" = _XLYBwTfm;
         "fabric-26.4-snapshot-4" = _5iDr1piV;
         "fabric-26.4-snapshot-5" = _1bXgmg7u;
+        "fabric-26.4-snapshot-6" = _J0KMrJqp;
         "forge-1.20" = _g5Mavfm6;
         "forge-1.20.1" = _g5Mavfm6;
         "forge-1.20.2" = _g5Mavfm6;
@@ -206,7 +213,8 @@ let
         "pkg-1.0.9.3-fc" = _EOmikMtK;
         "pkg-1.0.9.4-fc" = _sUKLtt9R;
         "pkg-1.1.4-fc" = _1bXgmg7u;
-        "default" = _1bXgmg7u;
+        "pkg-1.1.5-fc" = _J0KMrJqp;
+        "default" = _J0KMrJqp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-grief-creepers";

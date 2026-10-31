@@ -61,6 +61,11 @@ let
             "file" = "salisarcana-v2.7.0.jar";
             "hash" = "sha512-bwxOOrAps3TRyxWNBuRC+tfmWuoLeni4loWUr9Q5l+puwrQ0E3ftvKAjQYCmJ7u+pEdYNcOhEQBMDJSDAU+kFQ==";
         };
+        _d6Krc7Gl = {
+            "id" = "d6Krc7Gl";
+            "file" = "salisarcana-v2.9.0.jar";
+            "hash" = "sha512-OiMVSe2kuTqNKF6+bg22x1GbJ+VipbzB5wF3o8ue7mCvzAzN2Er270zIOwfG51zIUSWRbGZoVqk63rQaqkDfZw==";
+        };
     in {
         "iQpPHQYs" = _iQpPHQYs;
         "1NQMKQUn" = _1NQMKQUn;
@@ -74,7 +79,8 @@ let
         "Paw1qIGf" = _Paw1qIGf;
         "NW98spfJ" = _NW98spfJ;
         "WoBYpp3m" = _WoBYpp3m;
-        "forge-1.7.10" = _WoBYpp3m;
+        "d6Krc7Gl" = _d6Krc7Gl;
+        "forge-1.7.10" = _d6Krc7Gl;
         "pkg-v1.0.0" = _iQpPHQYs;
         "pkg-v1.0.1" = _1NQMKQUn;
         "pkg-v1.1.0" = _v643Al05;
@@ -87,7 +93,8 @@ let
         "pkg-v2.5.0" = _Paw1qIGf;
         "pkg-v2.6.0" = _NW98spfJ;
         "pkg-v2.7.0" = _WoBYpp3m;
-        "default" = _WoBYpp3m;
+        "pkg-2.9.0" = _d6Krc7Gl;
+        "default" = _d6Krc7Gl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "salis-arcana";

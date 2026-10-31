@@ -96,6 +96,16 @@ let
             "file" = "tornado7mod-6.3.2.jar";
             "hash" = "sha512-/jHhNOflbKuGIYmppWTHKJnNadJNpIGLZa3oIt0kWTnT9yolu8l0fhRlsALAFoIFRYOozEkNggPoJsvERekKDw==";
         };
+        _aomvshF5 = {
+            "id" = "aomvshF5";
+            "file" = "tornado7mod-6.3.3.jar";
+            "hash" = "sha512-wtQDCrBKYwiwgP9g3Aoq9n5SxcVIYM+GZYcR/X8Axwac7xIe6y6HiIVYbT6sOfk9cgRI/5GQxeg2fdrPQ7LdPw==";
+        };
+        _2NbsYqFW = {
+            "id" = "2NbsYqFW";
+            "file" = "tornado7mod-6.3.4.jar";
+            "hash" = "sha512-Nf0dGPVGxDWyeSbNw8jt+cz6HOCrjAUp5+Uxv0tYI+glq45ItYJdh9pKuiqoB72fRcL66TQdFIU36yWugif8rg==";
+        };
     in {
         "i6cgYEGs" = _i6cgYEGs;
         "9mDKpljM" = _9mDKpljM;
@@ -116,8 +126,10 @@ let
         "AykMHfQz" = _AykMHfQz;
         "AZYHIJU6" = _AZYHIJU6;
         "4EJPOyYn" = _4EJPOyYn;
+        "aomvshF5" = _aomvshF5;
+        "2NbsYqFW" = _2NbsYqFW;
         "forge-1.20.1" = _qF00seQS;
-        "neoforge-1.21.1" = _4EJPOyYn;
+        "neoforge-1.21.1" = _2NbsYqFW;
         "pkg-1.0.0" = _i6cgYEGs;
         "pkg-2.0.0" = _9mDKpljM;
         "pkg-3.0.0" = _QICnUA9I;
@@ -136,7 +148,9 @@ let
         "pkg-6.3.0" = _AykMHfQz;
         "pkg-6.3.1" = _AZYHIJU6;
         "pkg-6.3.2" = _4EJPOyYn;
-        "default" = _4EJPOyYn;
+        "pkg-6.3.3" = _aomvshF5;
+        "pkg-6.3.4" = _2NbsYqFW;
+        "default" = _2NbsYqFW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tornado7";

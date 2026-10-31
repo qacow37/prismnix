@@ -506,6 +506,16 @@ let
             "file" = "moonlightcore-neoforge-26.1.2.12-beta.jar";
             "hash" = "sha512-/D/2E1QYmOZvx3Mo0Tuv0GvQh2QXnzOlLJyTp7F6W3k8ZMliUMAP7dWnxudf2P3LatYuIcZ/enzjgQCe1ZxYZg==";
         };
+        _bjSEleNC = {
+            "id" = "bjSEleNC";
+            "file" = "moonlightcore-neoforge-26.1.2.13-beta.jar";
+            "hash" = "sha512-eFkRD2QmLFcRBW7Tk7rQorlnXakLpRvF+KZnecz+4Pzz7BRUIya1R/n9QRxwkdFMSTk1BKYUMGIPfmpJ62qSHQ==";
+        };
+        _lASq8cq5 = {
+            "id" = "lASq8cq5";
+            "file" = "moonlightcore-fabric-26.1.2.13-beta.jar";
+            "hash" = "sha512-/3fDXh5eIwaS0kcYmnm8eF7EukY2BCFl2y/j38+zbt0F0Y53SXFHCR2m+2eYple6jydIGv+xbNqpnxiUugg9HA==";
+        };
     in {
         "s35TdV2r" = _s35TdV2r;
         "vd5m6gMD" = _vd5m6gMD;
@@ -608,15 +618,17 @@ let
         "VtZ8KdW8" = _VtZ8KdW8;
         "dChN6OhP" = _dChN6OhP;
         "cdHlpcOJ" = _cdHlpcOJ;
+        "bjSEleNC" = _bjSEleNC;
+        "lASq8cq5" = _lASq8cq5;
         "fabric-1.21.1" = _zaMiHPWG;
         "fabric-1.20.1" = _vFtxy6fp;
-        "fabric-26.1" = _dChN6OhP;
-        "fabric-26.1.1" = _dChN6OhP;
-        "fabric-26.1.2" = _dChN6OhP;
+        "fabric-26.1" = _lASq8cq5;
+        "fabric-26.1.1" = _lASq8cq5;
+        "fabric-26.1.2" = _lASq8cq5;
         "neoforge-1.21.1" = _GHGyBrj9;
-        "neoforge-26.1" = _cdHlpcOJ;
-        "neoforge-26.1.1" = _cdHlpcOJ;
-        "neoforge-26.1.2" = _cdHlpcOJ;
+        "neoforge-26.1" = _bjSEleNC;
+        "neoforge-26.1.1" = _bjSEleNC;
+        "neoforge-26.1.2" = _bjSEleNC;
         "forge-1.20.1" = _uNpshtH1;
         "pkg-1.21.1-2.1.0" = _vd5m6gMD;
         "pkg-1.21.1-2.1.6" = _iCmHqm3c;
@@ -671,7 +683,8 @@ let
         "pkg-26.1.2.10-beta" = _BBxcrEYp;
         "pkg-26.1.2.11-beta" = _VtZ8KdW8;
         "pkg-26.1.2.12-beta" = _cdHlpcOJ;
-        "default" = _cdHlpcOJ;
+        "pkg-26.1.2.13-beta" = _lASq8cq5;
+        "default" = _lASq8cq5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wgc-moonlight-core";

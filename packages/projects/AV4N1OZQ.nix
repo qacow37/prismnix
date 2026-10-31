@@ -186,6 +186,21 @@ let
             "file" = "revampedwolf-26.2.0-26.0.0.jar";
             "hash" = "sha512-brc64h69MLxNqRqS96ZHI5gNgUbtwk0Sv7qI/196JoDdcvLvSjDKm3Ez4QrX/uuX45U1wB+4Vvg/xy+ZnZdbXA==";
         };
+        _LanDXTu9 = {
+            "id" = "LanDXTu9";
+            "file" = "revampedwolf-26.3.0-27.0.0.jar";
+            "hash" = "sha512-M06+DIDvVPB+RyLtzuNDcUrevmSDq0ZP1932hoZFbiLariyBEImFk1AdMVrB/T2oRXn/5XfMGoKJBBUkAShfCw==";
+        };
+        _qG74p9Bc = {
+            "id" = "qG74p9Bc";
+            "file" = "revampedwolf-26.3.0-27.1.0.jar";
+            "hash" = "sha512-WNMEtpPR49x0Bb5d1OLjdt745HACORNZkAg1CiQQj30f7UWfu6bIJkj/OkSh8QoT6adr8TAojMmR4G9hy7S7Kg==";
+        };
+        _fHWp34BM = {
+            "id" = "fHWp34BM";
+            "file" = "revampedwolf-26.3.0-27.2.0.jar";
+            "hash" = "sha512-/kHfx/vYZcoe/e3f8t/7GHwdrY+ZqqQk6yl37Z/g2PC5v2lm7yrBaJLFl1Flh2yS/P/g7hsDrTlEvYlo2nGosg==";
+        };
     in {
         "nmUwbQq4" = _nmUwbQq4;
         "z0FLTyga" = _z0FLTyga;
@@ -224,6 +239,9 @@ let
         "1iKqWGxT" = _1iKqWGxT;
         "RLDoUqEL" = _RLDoUqEL;
         "KKixjJBv" = _KKixjJBv;
+        "LanDXTu9" = _LanDXTu9;
+        "qG74p9Bc" = _qG74p9Bc;
+        "fHWp34BM" = _fHWp34BM;
         "neoforge-1.20.2" = _oT6cOPMf;
         "neoforge-1.20.4" = _pyyXLf9T;
         "neoforge-1.20.5" = _xzdBkEs7;
@@ -248,6 +266,7 @@ let
         "neoforge-26.1.1" = _Ty9Mkx6P;
         "neoforge-26.1.2" = _1iKqWGxT;
         "neoforge-26.2" = _KKixjJBv;
+        "neoforge-26.3" = _fHWp34BM;
         "forge-1.20.1" = _pY7zBjxD;
         "pkg-1.20.2-7.0.0" = _nmUwbQq4;
         "pkg-1.20.2-8.0.0" = _z0FLTyga;
@@ -286,7 +305,10 @@ let
         "pkg-26.1.2-25.1.0" = _1iKqWGxT;
         "pkg-1.21.1-13.1.0" = _RLDoUqEL;
         "pkg-26.2.0-26.0.0" = _KKixjJBv;
-        "default" = _KKixjJBv;
+        "pkg-26.3.0-27.0.0" = _LanDXTu9;
+        "pkg-26.3.0-27.1.0" = _qG74p9Bc;
+        "pkg-26.3.0-27.2.0" = _fHWp34BM;
+        "default" = _fHWp34BM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revampedwolf";

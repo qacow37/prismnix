@@ -31,6 +31,11 @@ let
             "file" = "rediscovered-26.1.2-2.2.0.jar";
             "hash" = "sha512-1CDSkaMsvY9isHiseghJItsK1IsXjhv3znnGjI0OEZF4TpFIgIsiEjhosPchzpcKj0OH38FXkZetY+9FeOnNNg==";
         };
+        _VEaIdkN6 = {
+            "id" = "VEaIdkN6";
+            "file" = "rediscovered-26.1.2-2.2.1.jar";
+            "hash" = "sha512-3IvwBg9Th2lgF55hcsjlHOUg5nwixBipqWtAx2mHaPkM/gyVnZf9alU3HUaJvk8n1j8r/C6BzbK8vCWmnN1JGA==";
+        };
     in {
         "6J743Lej" = _6J743Lej;
         "dOghkyj0" = _dOghkyj0;
@@ -38,16 +43,18 @@ let
         "qPEXzDLr" = _qPEXzDLr;
         "dv6hVeSF" = _dv6hVeSF;
         "Umk2mr4T" = _Umk2mr4T;
+        "VEaIdkN6" = _VEaIdkN6;
         "forge-1.16.4" = _6J743Lej;
         "forge-1.16.5" = _6J743Lej;
         "forge-1.20.1" = _qPEXzDLr;
         "neoforge-1.20.4" = _dv6hVeSF;
-        "neoforge-26.1.2" = _Umk2mr4T;
+        "neoforge-26.1.2" = _VEaIdkN6;
         "pkg-1.3.7" = _6J743Lej;
         "pkg-2.0.0" = _CPoKo3Af;
         "pkg-2.1.0" = _dv6hVeSF;
         "pkg-2.2.0" = _Umk2mr4T;
-        "default" = _Umk2mr4T;
+        "pkg-2.2.1" = _VEaIdkN6;
+        "default" = _VEaIdkN6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rediscovered";
