@@ -196,6 +196,51 @@ let
             "file" = "cryptocraft-1.3.2-neoforge-26.1.2.jar";
             "hash" = "sha512-r6oQ6/x0iNwsr9fbncRSmFztpjE04T2EApUB/M3XW6xS/aN+9XNV8ESQVajY8qsXktrRfPfLUsNyoxTi+3I9Uw==";
         };
+        _knIx21bg = {
+            "id" = "knIx21bg";
+            "file" = "cryptocraft-1.4.0-forge-1.20.1.jar";
+            "hash" = "sha512-4qWKPEyLK8Nn99impktbehxf5Umq/RAY8+f/TXWQZXwtZRJabmmcfV3IUx8PnACjtIT8SNoYBunKb61Uxk/j6Q==";
+        };
+        _Mtnb2UWr = {
+            "id" = "Mtnb2UWr";
+            "file" = "cryptocraft-1.4.0-neoforge-1.20.6.jar";
+            "hash" = "sha512-Ke23/F1XKFjm+1ELFbF/0MxbvUCis+l5Nvt/6RfUsdj6GSciwjTBMOK3b+2P8kTlVn/geuA7wUjGqt2/mkjnmA==";
+        };
+        _IFYn8Mqf = {
+            "id" = "IFYn8Mqf";
+            "file" = "cryptocraft-1.4.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-oZ6ACEpowjaeF85EYFiJRRcXI9NfGykpN190vn2shHVP7oVdeL1jz/DoIxWKqIH1hyKj8naSSIVDbeE54MdNbA==";
+        };
+        _B5bmJBzT = {
+            "id" = "B5bmJBzT";
+            "file" = "cryptocraft-1.4.0-neoforge-1.21.4.jar";
+            "hash" = "sha512-+WOm5uqpT0Xw4PThhUYTprSrrOO7RqRwYjZTf8/QsIypCK2I9/tnP87shMH41S/D8b+ePH/0wjUXR23JKn5HLA==";
+        };
+        _vpAtUF2v = {
+            "id" = "vpAtUF2v";
+            "file" = "cryptocraft-1.4.0-neoforge-1.21.5.jar";
+            "hash" = "sha512-yjTYTw0FHIA7H7T7fuGq4b2Xs73PMOpueN0LiB0CmA/h43xuw1yOHx+BzW4MfNGMSqeKm8XMMjbX3peorw0A5Q==";
+        };
+        _nmwtV5Iq = {
+            "id" = "nmwtV5Iq";
+            "file" = "cryptocraft-1.4.0-neoforge-1.21.8.jar";
+            "hash" = "sha512-lvmQPwmMf9ZfpMIj/y2E6HItJEZQk65lcDbnP+mr16lVF0uMNK1vjV4byngJO3HdZJsK72EA/h3g3hm/Tk6itA==";
+        };
+        _n309bqXr = {
+            "id" = "n309bqXr";
+            "file" = "cryptocraft-1.4.0-neoforge-26.1.2.jar";
+            "hash" = "sha512-FaOfzwZ8TaCE30lknbX9Muhxkull4B0vTtU3c7SWsurP3+7OBVMYKv9HMMFHSmzJgzuPSjyMlDXMIJK3d95t9A==";
+        };
+        _nZslAZqC = {
+            "id" = "nZslAZqC";
+            "file" = "cryptocraft-1.4.0-neoforge-26.2.jar";
+            "hash" = "sha512-Tun+7y2kxD6R7tanO1hvAGZYtOoQdKcyRPD90clE2m+5ka+7LxJSZ0R39hHQG9YKtyp9fF5mdtULqoPhvVXaJQ==";
+        };
+        _NQYbOeqM = {
+            "id" = "NQYbOeqM";
+            "file" = "cryptocraft-1.4.0-neoforge-26.3.jar";
+            "hash" = "sha512-TlZkwiVw5FZY7x8Fw4glFeVxLSPWFiLr3KlzZV+CUUnYbVvzZNpKNxlaDY00+M7OSAlY0aMl61y3fO6Io/nADQ==";
+        };
     in {
         "dI6Iseta" = _dI6Iseta;
         "GOB0CEip" = _GOB0CEip;
@@ -236,19 +281,30 @@ let
         "ozF8M4gk" = _ozF8M4gk;
         "TvSiwl81" = _TvSiwl81;
         "z0LnSMQN" = _z0LnSMQN;
-        "forge-1.20.1" = _nQvGhLAu;
+        "knIx21bg" = _knIx21bg;
+        "Mtnb2UWr" = _Mtnb2UWr;
+        "IFYn8Mqf" = _IFYn8Mqf;
+        "B5bmJBzT" = _B5bmJBzT;
+        "vpAtUF2v" = _vpAtUF2v;
+        "nmwtV5Iq" = _nmwtV5Iq;
+        "n309bqXr" = _n309bqXr;
+        "nZslAZqC" = _nZslAZqC;
+        "NQYbOeqM" = _NQYbOeqM;
+        "forge-1.20.1" = _knIx21bg;
         "forge-1.19.4" = _DynryCm0;
         "forge-1.19.2" = _uncGM1JN;
         "forge-1.18.2" = _h2K2aHdI;
         "forge-1.16.5" = _KHY5beOm;
         "forge-1.15.2" = _InrzfdHQ;
         "forge-1.14.4" = _XhsSUjxB;
-        "neoforge-1.20.6" = _pGSxunfE;
-        "neoforge-1.21.1" = _jdjvQajt;
-        "neoforge-1.21.4" = _IVCbrzhz;
-        "neoforge-1.21.5" = _ozF8M4gk;
-        "neoforge-1.21.8" = _TvSiwl81;
-        "neoforge-26.1.2" = _z0LnSMQN;
+        "neoforge-1.20.6" = _Mtnb2UWr;
+        "neoforge-1.21.1" = _IFYn8Mqf;
+        "neoforge-1.21.4" = _B5bmJBzT;
+        "neoforge-1.21.5" = _vpAtUF2v;
+        "neoforge-1.21.8" = _nmwtV5Iq;
+        "neoforge-26.1.2" = _n309bqXr;
+        "neoforge-26.2" = _nZslAZqC;
+        "neoforge-26.3" = _NQYbOeqM;
         "pkg-1.0.0" = _dI6Iseta;
         "pkg-1.0.1" = _GOB0CEip;
         "pkg-1.1.0" = _SfojJMLa;
@@ -259,7 +315,8 @@ let
         "pkg-1.3.0" = _r0tsiGJe;
         "pkg-1.3.1" = _DlMfdI4n;
         "pkg-1.3.2" = _z0LnSMQN;
-        "default" = _z0LnSMQN;
+        "pkg-1.4.0" = _NQYbOeqM;
+        "default" = _NQYbOeqM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cryptocraft";

@@ -231,6 +231,16 @@ let
             "file" = "axis-0.6.1.jar";
             "hash" = "sha512-3N9BD5im7D/OHyR67M+5+bu+yV6ehK7ISmUDoBdaHAOIKFWBV1l/jkfOKUYF1StuG/DG00OkowDcJNMCeZyJCw==";
         };
+        _p18Vlre6 = {
+            "id" = "p18Vlre6";
+            "file" = "Axis Datapack.zip";
+            "hash" = "sha512-p/Cwwusptry7w9Nm8kaw2+0eOMXKkTcLGWUVcu/gOChc95/5Di0p4WzB5iM+Zn3H+60m+CWfBQgDpbWDzVZ84g==";
+        };
+        _niu14UlB = {
+            "id" = "niu14UlB";
+            "file" = "axis-0.7.0.jar";
+            "hash" = "sha512-ihF8GvHCQDKNsw+qaXJuJtwPp9L60UpBydJgjPxZUV574CMDbn35c83LeOm0WL8wnrLzrEgJ4SqxS/+mk2i09w==";
+        };
     in {
         "Ox3RW18C" = _Ox3RW18C;
         "uxv2ip6w" = _uxv2ip6w;
@@ -278,6 +288,8 @@ let
         "4RlTCBf3" = _4RlTCBf3;
         "ErKRoL72" = _ErKRoL72;
         "ivySWGmE" = _ivySWGmE;
+        "p18Vlre6" = _p18Vlre6;
+        "niu14UlB" = _niu14UlB;
         "datapack-1.21.3" = _W8P4bU6C;
         "datapack-1.21.4" = _7D5w5YRg;
         "datapack-1.21.5" = _OOKCJBHf;
@@ -312,10 +324,13 @@ let
         "datapack-26.3-rc-1" = _ErKRoL72;
         "datapack-26.3-rc-2" = _ErKRoL72;
         "datapack-26.3-rc-3" = _ErKRoL72;
-        "datapack-26.3" = _ErKRoL72;
-        "datapack-26.4-snapshot-1" = _ErKRoL72;
-        "datapack-26.4-snapshot-2" = _ErKRoL72;
-        "datapack-26.4-snapshot-3" = _ErKRoL72;
+        "datapack-26.3" = _p18Vlre6;
+        "datapack-26.4-snapshot-1" = _p18Vlre6;
+        "datapack-26.4-snapshot-2" = _p18Vlre6;
+        "datapack-26.4-snapshot-3" = _p18Vlre6;
+        "datapack-26.4-snapshot-4" = _p18Vlre6;
+        "datapack-26.4-snapshot-5" = _p18Vlre6;
+        "datapack-26.4-snapshot-6" = _p18Vlre6;
         "fabric-1.21.5" = _azXX2zny;
         "fabric-1.21.6" = _iyCqgeyu;
         "fabric-1.21.7" = _iyCqgeyu;
@@ -348,10 +363,13 @@ let
         "fabric-26.3-rc-1" = _ivySWGmE;
         "fabric-26.3-rc-2" = _ivySWGmE;
         "fabric-26.3-rc-3" = _ivySWGmE;
-        "fabric-26.3" = _ivySWGmE;
-        "fabric-26.4-snapshot-1" = _ivySWGmE;
-        "fabric-26.4-snapshot-2" = _ivySWGmE;
-        "fabric-26.4-snapshot-3" = _ivySWGmE;
+        "fabric-26.3" = _niu14UlB;
+        "fabric-26.4-snapshot-1" = _niu14UlB;
+        "fabric-26.4-snapshot-2" = _niu14UlB;
+        "fabric-26.4-snapshot-3" = _niu14UlB;
+        "fabric-26.4-snapshot-4" = _niu14UlB;
+        "fabric-26.4-snapshot-5" = _niu14UlB;
+        "fabric-26.4-snapshot-6" = _niu14UlB;
         "forge-1.21.5" = _azXX2zny;
         "forge-1.21.6" = _iyCqgeyu;
         "forge-1.21.7" = _iyCqgeyu;
@@ -384,10 +402,13 @@ let
         "forge-26.3-rc-1" = _ivySWGmE;
         "forge-26.3-rc-2" = _ivySWGmE;
         "forge-26.3-rc-3" = _ivySWGmE;
-        "forge-26.3" = _ivySWGmE;
-        "forge-26.4-snapshot-1" = _ivySWGmE;
-        "forge-26.4-snapshot-2" = _ivySWGmE;
-        "forge-26.4-snapshot-3" = _ivySWGmE;
+        "forge-26.3" = _niu14UlB;
+        "forge-26.4-snapshot-1" = _niu14UlB;
+        "forge-26.4-snapshot-2" = _niu14UlB;
+        "forge-26.4-snapshot-3" = _niu14UlB;
+        "forge-26.4-snapshot-4" = _niu14UlB;
+        "forge-26.4-snapshot-5" = _niu14UlB;
+        "forge-26.4-snapshot-6" = _niu14UlB;
         "neoforge-1.21.5" = _azXX2zny;
         "neoforge-1.21.6" = _iyCqgeyu;
         "neoforge-1.21.7" = _iyCqgeyu;
@@ -420,10 +441,13 @@ let
         "neoforge-26.3-rc-1" = _ivySWGmE;
         "neoforge-26.3-rc-2" = _ivySWGmE;
         "neoforge-26.3-rc-3" = _ivySWGmE;
-        "neoforge-26.3" = _ivySWGmE;
-        "neoforge-26.4-snapshot-1" = _ivySWGmE;
-        "neoforge-26.4-snapshot-2" = _ivySWGmE;
-        "neoforge-26.4-snapshot-3" = _ivySWGmE;
+        "neoforge-26.3" = _niu14UlB;
+        "neoforge-26.4-snapshot-1" = _niu14UlB;
+        "neoforge-26.4-snapshot-2" = _niu14UlB;
+        "neoforge-26.4-snapshot-3" = _niu14UlB;
+        "neoforge-26.4-snapshot-4" = _niu14UlB;
+        "neoforge-26.4-snapshot-5" = _niu14UlB;
+        "neoforge-26.4-snapshot-6" = _niu14UlB;
         "quilt-1.21.5" = _azXX2zny;
         "quilt-1.21.6" = _iyCqgeyu;
         "quilt-1.21.7" = _iyCqgeyu;
@@ -456,10 +480,13 @@ let
         "quilt-26.3-rc-1" = _ivySWGmE;
         "quilt-26.3-rc-2" = _ivySWGmE;
         "quilt-26.3-rc-3" = _ivySWGmE;
-        "quilt-26.3" = _ivySWGmE;
-        "quilt-26.4-snapshot-1" = _ivySWGmE;
-        "quilt-26.4-snapshot-2" = _ivySWGmE;
-        "quilt-26.4-snapshot-3" = _ivySWGmE;
+        "quilt-26.3" = _niu14UlB;
+        "quilt-26.4-snapshot-1" = _niu14UlB;
+        "quilt-26.4-snapshot-2" = _niu14UlB;
+        "quilt-26.4-snapshot-3" = _niu14UlB;
+        "quilt-26.4-snapshot-4" = _niu14UlB;
+        "quilt-26.4-snapshot-5" = _niu14UlB;
+        "quilt-26.4-snapshot-6" = _niu14UlB;
         "pkg-0.0.1-datapack" = _Ox3RW18C;
         "pkg-0.0.2-datapack" = _uxv2ip6w;
         "pkg-0.0.3-datapack" = _W8P4bU6C;
@@ -506,7 +533,9 @@ let
         "pkg-0.6.0-mod" = _4RlTCBf3;
         "pkg-0.6.1-datapack" = _ErKRoL72;
         "pkg-0.6.1-mod" = _ivySWGmE;
-        "default" = _ivySWGmE;
+        "pkg-0.7.0-datapack" = _p18Vlre6;
+        "pkg-0.7.0-mod" = _niu14UlB;
+        "default" = _niu14UlB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axis";

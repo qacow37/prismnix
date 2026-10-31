@@ -121,6 +121,11 @@ let
             "file" = "Amend-1.9.0--V.26.1.2.jar";
             "hash" = "sha512-76EPqmPlTQcVgciYk4zmBt6Zt+bYqOMcYMIaro/Q6ujxdF6apPS4tBdJOmBEllMvFnPpU671LrFjppgwd2cgAQ==";
         };
+        _96ThSC0t = {
+            "id" = "96ThSC0t";
+            "file" = "Amend-1.9.1--V.26.3.jar";
+            "hash" = "sha512-e4gm61+aUKmofQ4psLxxOsrL3iUEWJEbPJSjOjsbxMZMmll6SaqCeDKOSD/LlkLJfn1+ed66bmImNoUyVIW3UQ==";
+        };
     in {
         "vnZ5CBUg" = _vnZ5CBUg;
         "WVvAndiI" = _WVvAndiI;
@@ -146,6 +151,7 @@ let
         "dYzNwvC3" = _dYzNwvC3;
         "R1GrOhxK" = _R1GrOhxK;
         "tsxsim29" = _tsxsim29;
+        "96ThSC0t" = _96ThSC0t;
         "paper-1.19.2" = _AmSMRlar;
         "paper-1.19.3" = _5P43DDdy;
         "paper-1.19.4" = _MSura7u4;
@@ -164,6 +170,7 @@ let
         "paper-1.21.10" = _dYzNwvC3;
         "paper-1.21.11" = _R1GrOhxK;
         "paper-26.1.2" = _tsxsim29;
+        "paper-26.3" = _96ThSC0t;
         "purpur-1.19.2" = _AmSMRlar;
         "purpur-1.19.3" = _5P43DDdy;
         "purpur-1.19.4" = _MSura7u4;
@@ -182,6 +189,7 @@ let
         "purpur-1.21.10" = _dYzNwvC3;
         "purpur-1.21.11" = _R1GrOhxK;
         "purpur-26.1.2" = _tsxsim29;
+        "purpur-26.3" = _96ThSC0t;
         "pkg-1.4--V.1.19.2" = _vnZ5CBUg;
         "pkg-1.4.1--V.1.19.2" = _WVvAndiI;
         "pkg-1.4.2--V.1.19.2" = _AmSMRlar;
@@ -206,7 +214,8 @@ let
         "pkg-1.8.5--V.1.21.10" = _dYzNwvC3;
         "pkg-1.8.6--V.1.21.11" = _R1GrOhxK;
         "pkg-1.9.0--V.26.1.2" = _tsxsim29;
-        "default" = _tsxsim29;
+        "pkg-1.9.1--V.26.3" = _96ThSC0t;
+        "default" = _96ThSC0t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amend";

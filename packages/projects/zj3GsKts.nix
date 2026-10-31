@@ -186,6 +186,16 @@ let
             "file" = "cobblesafari-neoforge-1.21.1-0.3.5fix.jar";
             "hash" = "sha512-kxtc3C715SvktJNPF5BlZZo/mw+xxvjPIFhiRcRIqXCLe4EB7bvYWfiN6Tc0gRoxnjEwRLAvP0YicV4kYY+UTQ==";
         };
+        _RnYwnbKw = {
+            "id" = "RnYwnbKw";
+            "file" = "cobblesafari-fabric-1.21.1-0.4.0.jar";
+            "hash" = "sha512-ygURouPGPSvW57yvinBxSTJzIGj2+Ykd2L1QbG/j+Nmpmt8kPIALmCghdzB5EQjp+JMpsUvCZ/9ib5vpsvQAIA==";
+        };
+        _hWmVKMee = {
+            "id" = "hWmVKMee";
+            "file" = "cobblesafari-neoforge-1.21.1-0.4.0.jar";
+            "hash" = "sha512-tlFVDLlPxNCOqpv+1Te0o1B8AqkdjHd06LNWWSyUMQihwK/jvU4ztSpowQGZEAOPnLmV511iY085WBWHsaX5mQ==";
+        };
     in {
         "PcVQUCjL" = _PcVQUCjL;
         "okv21NBN" = _okv21NBN;
@@ -224,8 +234,10 @@ let
         "FImyhFQC" = _FImyhFQC;
         "vh8hNKTv" = _vh8hNKTv;
         "WpFuTDSO" = _WpFuTDSO;
-        "fabric-1.21.1" = _FImyhFQC;
-        "neoforge-1.21.1" = _WpFuTDSO;
+        "RnYwnbKw" = _RnYwnbKw;
+        "hWmVKMee" = _hWmVKMee;
+        "fabric-1.21.1" = _RnYwnbKw;
+        "neoforge-1.21.1" = _hWmVKMee;
         "pkg-0.0.2-beta" = _PcVQUCjL;
         "pkg-0.0.2" = _okv21NBN;
         "pkg-0.1.0-beta" = _J87393Sn;
@@ -246,7 +258,8 @@ let
         "pkg-0.3.4" = _OAkZzmYS;
         "pkg-0.3.5" = _vh8hNKTv;
         "pkg-0.3.5-fix" = _WpFuTDSO;
-        "default" = _WpFuTDSO;
+        "pkg-0.4.0" = _hWmVKMee;
+        "default" = _hWmVKMee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblesafari";

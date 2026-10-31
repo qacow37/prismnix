@@ -16,15 +16,29 @@ let
             "file" = "kaleidoscope_sauce-0.1.0.jar";
             "hash" = "sha512-Ky4JCYJOvPPZ1ei1/FK2eU/wCPqxyFzZKjIna3OdQgEuc+5fmUENvCttvLtVcvSs9EnIEYLBr3blkewnMRePIA==";
         };
+        _s61RyoSp = {
+            "id" = "s61RyoSp";
+            "file" = "kaleidoscope_sauce-0.1.1.jar";
+            "hash" = "sha512-BTRlKVVllOhBunrMHeBtRRlFmhTaXdvldQYzM9anJYr7y7VJkQKC7qpN0o30QyPcSOVBlwAAa8Vlyb6fgQr1iw==";
+        };
+        _Q6HNKvkL = {
+            "id" = "Q6HNKvkL";
+            "file" = "kaleidoscope_sauce-0.1.2.jar";
+            "hash" = "sha512-9vR8UX8Vt6AY3M08idnJQgb11sKgwHRi51yoJQiA7nXSD7Ovt0lc0UY0pm2pNMuZoX/abM9znEP5DUJjNM0SGA==";
+        };
     in {
         "9SYGx8xO" = _9SYGx8xO;
         "ElD7HBJ4" = _ElD7HBJ4;
         "VHYQdaQD" = _VHYQdaQD;
-        "forge-1.20.1" = _VHYQdaQD;
+        "s61RyoSp" = _s61RyoSp;
+        "Q6HNKvkL" = _Q6HNKvkL;
+        "forge-1.20.1" = _Q6HNKvkL;
         "pkg-0.0.5" = _9SYGx8xO;
         "pkg-0.0.6" = _ElD7HBJ4;
         "pkg-0.1.0" = _VHYQdaQD;
-        "default" = _VHYQdaQD;
+        "pkg-0.1.1" = _s61RyoSp;
+        "pkg-0.1.2" = _Q6HNKvkL;
+        "default" = _Q6HNKvkL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-sauce";

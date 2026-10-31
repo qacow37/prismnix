@@ -56,6 +56,11 @@ let
             "file" = "water_vision-1.6.0.jar";
             "hash" = "sha512-5q0FIqoH0sFYwEoiF9PMDImLpCdA720C1XzCfH/aqE5Qmo1NWOyvY5KrQ3bYNNocVhPRZgTXtEqHoSvBXFlcIQ==";
         };
+        _sa0nyQGm = {
+            "id" = "sa0nyQGm";
+            "file" = "water_vision-1.7.0+26.x.jar";
+            "hash" = "sha512-u+x36QJEx3HHbNDw7SUvLOUzvfuLrqHqf520bkB1NkOKpbEjAOOIsLJV1aiQyml4Q6/ogTgRfc6WNz07t6D29g==";
+        };
     in {
         "RTcPgy9B" = _RTcPgy9B;
         "YeokNaAc" = _YeokNaAc;
@@ -68,6 +73,7 @@ let
         "692DI4qc" = _692DI4qc;
         "xqA1AFJh" = _xqA1AFJh;
         "E3NX1IW8" = _E3NX1IW8;
+        "sa0nyQGm" = _sa0nyQGm;
         "fabric-1.20" = _YeokNaAc;
         "fabric-1.20.1" = _YeokNaAc;
         "fabric-1.20.2" = _YeokNaAc;
@@ -87,7 +93,9 @@ let
         "fabric-1.21.11" = _xqA1AFJh;
         "fabric-26.1" = _E3NX1IW8;
         "fabric-26.1.1" = _E3NX1IW8;
-        "fabric-26.1.2" = _E3NX1IW8;
+        "fabric-26.1.2" = _sa0nyQGm;
+        "fabric-26.2" = _sa0nyQGm;
+        "fabric-26.3" = _sa0nyQGm;
         "pkg-1.0.0" = _RTcPgy9B;
         "pkg-1.1.0+1.20.x" = _YeokNaAc;
         "pkg-1.1.0+1.20.6" = _LbgQvvDD;
@@ -99,7 +107,8 @@ let
         "pkg-1.5.0+1.21.6" = _692DI4qc;
         "pkg-1.5.0+1.21.11" = _xqA1AFJh;
         "pkg-1.6.0" = _E3NX1IW8;
-        "default" = _E3NX1IW8;
+        "pkg-1.7.0+26.x" = _sa0nyQGm;
+        "default" = _sa0nyQGm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "water-vision";

@@ -366,6 +366,26 @@ let
             "file" = "better-nether-26.302.0.jar";
             "hash" = "sha512-JZbnqqLRQ3el3qpxF5KRrTA2B8fZt69+06MnjQOXyAu2+4qZM5Yd0EZsk12hr89g7jHORsU3eUxXJL+v5bppbg==";
         };
+        _7CEc5wqL = {
+            "id" = "7CEc5wqL";
+            "file" = "better-nether-26.101.5.jar";
+            "hash" = "sha512-VrunHO9kUJZ+/ZbFgJrGHFMy+r9arhgAIFOPX1mayRoXesEFF8UZ5Gt6zTWVM4TBBfJjbn1UVCZDaRc2mLVQAA==";
+        };
+        _Ixe5naOF = {
+            "id" = "Ixe5naOF";
+            "file" = "better-nether-26.201.5.jar";
+            "hash" = "sha512-1gGKiVqT6jEtvb9fxv2Y45vDtllJQaebQMbggyH7DB6VLyBw9creW1H5ilGtWCS16M99Ea0Rsq91fkHhGFUO1g==";
+        };
+        _cNXChPvb = {
+            "id" = "cNXChPvb";
+            "file" = "better-nether-21.800.4.jar";
+            "hash" = "sha512-wPNcTfOkZSHhD5i8DlZHCnNktTnz+Ojs4h0fKb5W/kLuqnR+C9lZ4WLlFk0nr9Hrc0nYUoTTaglzMd818ne84A==";
+        };
+        _zV3Bxy94 = {
+            "id" = "zV3Bxy94";
+            "file" = "better-nether-9.0.12.jar";
+            "hash" = "sha512-QSNCIjdI+orcbmn8/IWem0M5KlWL5F/TZHbmiw+nnsw41P6q/a/+ycQu8NEH4Gb1Z+tEgaPMI9qZA65402bg1w==";
+        };
     in {
         "sPFMoqd5" = _sPFMoqd5;
         "MaTuYgp1" = _MaTuYgp1;
@@ -440,26 +460,30 @@ let
         "MUV7eOIE" = _MUV7eOIE;
         "U02K7CUI" = _U02K7CUI;
         "t1mgEH0G" = _t1mgEH0G;
+        "7CEc5wqL" = _7CEc5wqL;
+        "Ixe5naOF" = _Ixe5naOF;
+        "cNXChPvb" = _cNXChPvb;
+        "zV3Bxy94" = _zV3Bxy94;
         "fabric-1.19" = _aVzW3Afg;
         "fabric-1.19.1" = _aVzW3Afg;
         "fabric-1.19.2" = _aVzW3Afg;
         "fabric-1.19.3-rc3" = _jjV0S0fX;
         "fabric-1.19.3" = _yTtY9wjE;
         "fabric-1.19.4" = _DTRhf6P8;
-        "fabric-1.20" = _GybmolmI;
-        "fabric-1.20.1" = _GybmolmI;
+        "fabric-1.20" = _zV3Bxy94;
+        "fabric-1.20.1" = _zV3Bxy94;
         "fabric-1.20.3" = _GcAIYp4g;
         "fabric-1.20.4" = _GcAIYp4g;
         "fabric-1.21" = _M1o6hR2m;
         "fabric-1.21.1" = _M1o6hR2m;
-        "fabric-1.21.6" = _U02K7CUI;
-        "fabric-1.21.7" = _U02K7CUI;
-        "fabric-1.21.8" = _U02K7CUI;
-        "fabric-26.1" = _MUV7eOIE;
-        "fabric-26.1.1" = _MUV7eOIE;
-        "fabric-26.1.2" = _MUV7eOIE;
+        "fabric-1.21.6" = _cNXChPvb;
+        "fabric-1.21.7" = _cNXChPvb;
+        "fabric-1.21.8" = _cNXChPvb;
+        "fabric-26.1" = _7CEc5wqL;
+        "fabric-26.1.1" = _7CEc5wqL;
+        "fabric-26.1.2" = _7CEc5wqL;
         "fabric-26.3-snapshot-6" = _htDJeQkj;
-        "fabric-26.2" = _YPOCUl1I;
+        "fabric-26.2" = _Ixe5naOF;
         "fabric-26.3" = _t1mgEH0G;
         "pkg-7.1.1" = _sPFMoqd5;
         "pkg-7.1.2" = _MaTuYgp1;
@@ -534,7 +558,11 @@ let
         "pkg-26.101.4" = _MUV7eOIE;
         "pkg-21.800.3" = _U02K7CUI;
         "pkg-26.302.0" = _t1mgEH0G;
-        "default" = _t1mgEH0G;
+        "pkg-26.101.5" = _7CEc5wqL;
+        "pkg-26.201.5" = _Ixe5naOF;
+        "pkg-21.800.4" = _cNXChPvb;
+        "pkg-9.0.12" = _zV3Bxy94;
+        "default" = _zV3Bxy94;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternether";

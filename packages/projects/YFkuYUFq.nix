@@ -91,6 +91,11 @@ let
             "file" = "world_alive-1.2.2+26.2-fabric.jar";
             "hash" = "sha512-pWlhR05ph7VnSBAKLGJ2gVWTlxFLC2YF8da55x5tL7N6fRS/JXJWClMFwHmMWSWWiOaUQbMYNsB1h4uoqh13kQ==";
         };
+        _gBkVJgEG = {
+            "id" = "gBkVJgEG";
+            "file" = "world_alive-1.3.0+26.3-fabric.jar";
+            "hash" = "sha512-tVv3IGVLLakgEgy4VFMSyp9Lla6nqs9IFgDj3v5RWH3wvuUXbXmWF0YgHsZZSo1XxBs74c/dm6cbXJUEJ9xydg==";
+        };
     in {
         "SFpZbgyL" = _SFpZbgyL;
         "Jy2D3Gph" = _Jy2D3Gph;
@@ -110,16 +115,19 @@ let
         "daC6uTKW" = _daC6uTKW;
         "OF0ZKZ3d" = _OF0ZKZ3d;
         "Aq0IiGv3" = _Aq0IiGv3;
+        "gBkVJgEG" = _gBkVJgEG;
         "fabric-1.21.11" = _daC6uTKW;
         "fabric-26.1.2" = _OF0ZKZ3d;
         "fabric-26.2" = _Aq0IiGv3;
         "fabric-1.20.1" = _WMQlSDyH;
         "fabric-1.21.1" = _IagG2wqe;
+        "fabric-26.3" = _gBkVJgEG;
         "pkg-1.0.0" = _my6JeF5U;
         "pkg-1.1.0" = _C5PWbpKr;
         "pkg-1.2.0" = _5UDCbMuI;
         "pkg-1.2.1" = _Aq0IiGv3;
-        "default" = _Aq0IiGv3;
+        "pkg-1.3.0" = _gBkVJgEG;
+        "default" = _gBkVJgEG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-alive";

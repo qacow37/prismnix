@@ -66,6 +66,11 @@ let
             "file" = "frequency-1.21.1-neoforge-0.2.0.jar";
             "hash" = "sha512-NODhmOIuhfwZ1uPNQSboKpBEl+c3a0u6rLy+3KmMvMfdPWrf53L+C0n7GxsuH6CSCU+9IOFXG4zmQu/lC2eB9g==";
         };
+        _EliWlXoD = {
+            "id" = "EliWlXoD";
+            "file" = "frequency-1.21.1-neoforge-0.2.1.jar";
+            "hash" = "sha512-AChjMHoWrNaFyL63n5lTGgO81eHLv4NMgYs/fkr1rcNONLy549wJ43En2m0ni4XsensXGlgPkY9576e/qpxFPw==";
+        };
     in {
         "C7FKxaY5" = _C7FKxaY5;
         "Z3RIoTyF" = _Z3RIoTyF;
@@ -80,7 +85,8 @@ let
         "rQpaAuS9" = _rQpaAuS9;
         "FWxnsssR" = _FWxnsssR;
         "kgyQ1pbG" = _kgyQ1pbG;
-        "neoforge-1.21.1" = _kgyQ1pbG;
+        "EliWlXoD" = _EliWlXoD;
+        "neoforge-1.21.1" = _EliWlXoD;
         "neoforge-1.20.1" = _csEWYuNW;
         "fabric-1.20.1" = _NAimDoOa;
         "forge-1.20.1" = _csEWYuNW;
@@ -93,7 +99,8 @@ let
         "pkg-0.1.6" = _rQpaAuS9;
         "pkg-0.1.6-a" = _FWxnsssR;
         "pkg-0.2.0" = _kgyQ1pbG;
-        "default" = _kgyQ1pbG;
+        "pkg-0.2.1" = _EliWlXoD;
+        "default" = _EliWlXoD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frequency-create";

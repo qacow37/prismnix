@@ -31,6 +31,16 @@ let
             "file" = "civilis_technology-1.0.2-universal-1.21.1.jar";
             "hash" = "sha512-kgBGHMpNg/XM6UGtt6ZbMaAPIYfM3Ceg7ZQguUlgJAo6eRbo1R0YSBvyIRoc/YVgBKibmWI9mqS3wJM3ncVcnw==";
         };
+        _zjG2G1bm = {
+            "id" = "zjG2G1bm";
+            "file" = "civilis_technology-1.0.3-universal-1.20.1.jar";
+            "hash" = "sha512-A6goNQE4QgAO9XMcRL+0C+EMWizetGQ7d9QVwHI6HlTdXgGy3LDMBw7U+lewZKLaEhEXaZD1OEgP1MkjXNrebg==";
+        };
+        _lToFxBqQ = {
+            "id" = "lToFxBqQ";
+            "file" = "civilis_technology-1.0.3-universal-1.21.1.jar";
+            "hash" = "sha512-Wgx20zZjxGtNi1NWqBpwpZVUUQlLAU6a1hUPtK7BFuIx68A5r4aVBAgZ11GNzDGpL3jmYvBAbVVlAy6+GuBFFA==";
+        };
     in {
         "opBht9y2" = _opBht9y2;
         "Zq5d7DFv" = _Zq5d7DFv;
@@ -38,17 +48,21 @@ let
         "wsyzWZMs" = _wsyzWZMs;
         "5HgRR2oU" = _5HgRR2oU;
         "xSVDFBVn" = _xSVDFBVn;
-        "fabric-1.20.1" = _5HgRR2oU;
-        "fabric-1.21.1" = _xSVDFBVn;
-        "forge-1.20.1" = _5HgRR2oU;
-        "neoforge-1.21.1" = _xSVDFBVn;
+        "zjG2G1bm" = _zjG2G1bm;
+        "lToFxBqQ" = _lToFxBqQ;
+        "fabric-1.20.1" = _zjG2G1bm;
+        "fabric-1.21.1" = _lToFxBqQ;
+        "forge-1.20.1" = _zjG2G1bm;
+        "neoforge-1.21.1" = _lToFxBqQ;
         "pkg-1.20.1-1.0.0-Universal" = _opBht9y2;
         "pkg-1.21.1-1.0.0-Universal" = _Zq5d7DFv;
         "pkg-1.20.1-1.0.1-Universal" = _8ZG3YrHg;
         "pkg-1.21.1-1.0.1-Universal" = _wsyzWZMs;
         "pkg-1.20.1-1.0.2-Universal" = _5HgRR2oU;
         "pkg-1.21.1-1.0.2-Universal" = _xSVDFBVn;
-        "default" = _xSVDFBVn;
+        "pkg-1.20.1-1.0.3-Universal" = _zjG2G1bm;
+        "pkg-1.21.1-1.0.3-Universal" = _lToFxBqQ;
+        "default" = _lToFxBqQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "civillis-technology-compatibility";

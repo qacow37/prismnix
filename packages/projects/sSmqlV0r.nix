@@ -71,6 +71,21 @@ let
             "file" = "katamariio-fabric-1.20.1-1.2.0.jar";
             "hash" = "sha512-XjK9LOSS2tDtvQ2S2tSnN1Yxl/RHoT0JIciSCh91uSvMb5LpREJIjh0/oMkdpWcyBBkReQZZRNbpVpDLdx+b0Q==";
         };
+        _7bB18oDb = {
+            "id" = "7bB18oDb";
+            "file" = "katamariio-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-AhBNQGmVYtErP5FLXMZEG0F/j70SAr2Pi7Sb1yTX84t1gyc+8tAlW/t2WYbQEzRcrTUFjrJyPEBNbn+o7RF/Ug==";
+        };
+        _XJE8cfOK = {
+            "id" = "XJE8cfOK";
+            "file" = "katamariio-forge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-ow+FhXiWo0vr9lOM7m/nTEREOJYzyVdAzHJqxnCxdy8r69P8YenlqMM+eOqFkLaHB5TqHScRe/E8XU+qs68HtQ==";
+        };
+        _UKLMkcoS = {
+            "id" = "UKLMkcoS";
+            "file" = "katamariio-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-8QA59MY783bLyA/m9cjnNhhelRFakJl5jnESecZwIABBk8nkcgsjbk9VqXNOS3/BdzI5dRulJ5OdZEbh9xkWLA==";
+        };
     in {
         "XkdKAejI" = _XkdKAejI;
         "xrWgSGtC" = _xrWgSGtC;
@@ -86,15 +101,18 @@ let
         "ITgEFBV1" = _ITgEFBV1;
         "6Qy86IiX" = _6Qy86IiX;
         "rSiHYWRO" = _rSiHYWRO;
+        "7bB18oDb" = _7bB18oDb;
+        "XJE8cfOK" = _XJE8cfOK;
+        "UKLMkcoS" = _UKLMkcoS;
         "fabric-1.20.1" = _rSiHYWRO;
-        "fabric-1.21.1" = _RJf84oVa;
+        "fabric-1.21.1" = _7bB18oDb;
         "fabric-1.21.11" = _HsWka43D;
         "fabric-26.1.2" = _U5GG4a9I;
         "fabric-26.2" = _rl6CUiMN;
         "forge-1.20.1" = _6Qy86IiX;
-        "forge-1.21.1" = _e0ij8aZN;
+        "forge-1.21.1" = _XJE8cfOK;
         "forge-1.21.11" = _kGZhlUqX;
-        "neoforge-1.21.1" = _6g0pAivs;
+        "neoforge-1.21.1" = _UKLMkcoS;
         "neoforge-1.21.11" = _bTyg0ow4;
         "neoforge-26.1.2" = _mQX5Cv6A;
         "neoforge-26.2" = _ITgEFBV1;
@@ -112,7 +130,10 @@ let
         "pkg-NeoForge26.2-1.0.1" = _ITgEFBV1;
         "pkg-Forge1.20.1-1.2.0" = _6Qy86IiX;
         "pkg-Fabric1.20.1-1.2.0" = _rSiHYWRO;
-        "default" = _rSiHYWRO;
+        "pkg-Fabric1.21.1-1.2.0" = _7bB18oDb;
+        "pkg-Forge1.21.1-1.2.0" = _XJE8cfOK;
+        "pkg-NeoForge1.21.1-1.2.0" = _UKLMkcoS;
+        "default" = _UKLMkcoS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "katamari";

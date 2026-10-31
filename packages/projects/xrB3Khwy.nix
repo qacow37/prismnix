@@ -41,6 +41,26 @@ let
             "file" = "jvs-neoforge-1.21.1-0.2.0.jar";
             "hash" = "sha512-K9a1QcrnCvhlQLV+YLoWgTK2/nkNkWgaG7R3zpb/6olyQxPm1uGD/P5vq1y9C6jwSCbHT9e6Fh+4g2ecN69uYQ==";
         };
+        _OQ7QW9HV = {
+            "id" = "OQ7QW9HV";
+            "file" = "jvs-forge-1.20.1-0.1.6.jar";
+            "hash" = "sha512-R9W/hSIFsyvXhrdFXv0pbuvVmH7yy+0TpriBNZAjgJc+tgXPimsmwtuM3tNeWgtwRGfVVWyozMHwsRfHVAoZ+g==";
+        };
+        _Ge91QsuU = {
+            "id" = "Ge91QsuU";
+            "file" = "jvs-fabric-1.20.1-0.1.6.jar";
+            "hash" = "sha512-5rKBAM0BLMmcRbPBRjC1eGkF/e5v76Un4GFOdG3HExwFP35f1ECKa9q319V8VKAIiKJ500k3ZDRw1riHJd1HJw==";
+        };
+        _8uLbeYO8 = {
+            "id" = "8uLbeYO8";
+            "file" = "jvs-neoforge-1.21.1-0.2.2.jar";
+            "hash" = "sha512-5wAH09MMIfJLZ5gbad7N55heRoQci0xIxzcMYSMX5dTLfrjPfykobLKhjIs/IPb6EkhamZZG5KjTDhDMrbF2/w==";
+        };
+        _LjqlV7SI = {
+            "id" = "LjqlV7SI";
+            "file" = "jvs-fabric-1.21.1-0.2.2.jar";
+            "hash" = "sha512-sIPDIALq+gf9pjPqj5AEZeP1rEeXGT38Llw6TLd86dele38z3xjDy2YFBnIojc3LNusLRUWHiT9AJ94ceWN4gA==";
+        };
     in {
         "rMpGRJIo" = _rMpGRJIo;
         "t6zBLW0T" = _t6zBLW0T;
@@ -50,15 +70,21 @@ let
         "y26BpOj9" = _y26BpOj9;
         "t5aAFPgP" = _t5aAFPgP;
         "NqrkqzJG" = _NqrkqzJG;
-        "forge-1.20.1" = _AVFOWBUM;
-        "fabric-1.20.1" = _y26BpOj9;
-        "fabric-1.21.1" = _t5aAFPgP;
-        "neoforge-1.21.1" = _NqrkqzJG;
+        "OQ7QW9HV" = _OQ7QW9HV;
+        "Ge91QsuU" = _Ge91QsuU;
+        "8uLbeYO8" = _8uLbeYO8;
+        "LjqlV7SI" = _LjqlV7SI;
+        "forge-1.20.1" = _OQ7QW9HV;
+        "fabric-1.20.1" = _Ge91QsuU;
+        "fabric-1.21.1" = _LjqlV7SI;
+        "neoforge-1.21.1" = _8uLbeYO8;
         "pkg-0.1.2" = _t6zBLW0T;
         "pkg-0.1.3" = _UGSbkudn;
         "pkg-0.1.4" = _y26BpOj9;
         "pkg-0.2.0" = _NqrkqzJG;
-        "default" = _NqrkqzJG;
+        "pkg-0.1.6" = _Ge91QsuU;
+        "pkg-0.2.2" = _LjqlV7SI;
+        "default" = _LjqlV7SI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jaki-versatile-structures";

@@ -136,6 +136,11 @@ let
             "file" = "goety_cataclysm-1.20-1.9.2.jar";
             "hash" = "sha512-NLXzEUUgjWiswrhN9FXghoOCZYI8GS3rmwGQPtUgmdMiybJ5lQU2XV67CFY6dw7NL3YQ0+rfPOuGY5oD/Ik5Xw==";
         };
+        _zZceS24H = {
+            "id" = "zZceS24H";
+            "file" = "goety_cataclysm-1.20-1.9.3.jar";
+            "hash" = "sha512-tdy7PFskqxXX5o5msIj58rQ6iUSRexj8dnmMVLLDAS2qhk/mTGvS0hdeebUPTFw3xth7x5Nvqfa6Bj2rGfcQ3w==";
+        };
     in {
         "NO2qTFYZ" = _NO2qTFYZ;
         "YR2AMAdQ" = _YR2AMAdQ;
@@ -164,14 +169,15 @@ let
         "l7fgj0uL" = _l7fgj0uL;
         "gv1JY0TU" = _gv1JY0TU;
         "4nCuHl2s" = _4nCuHl2s;
-        "forge-1.20.1" = _4nCuHl2s;
+        "zZceS24H" = _zZceS24H;
+        "forge-1.20.1" = _zZceS24H;
         "forge-1.20" = _c9aQvEX9;
         "forge-1.20.2" = _c9aQvEX9;
         "forge-1.20.3" = _c9aQvEX9;
         "forge-1.20.4" = _c9aQvEX9;
         "forge-1.20.5" = _c9aQvEX9;
         "forge-1.20.6" = _c9aQvEX9;
-        "neoforge-1.20.1" = _4nCuHl2s;
+        "neoforge-1.20.1" = _zZceS24H;
         "neoforge-1.20" = _c9aQvEX9;
         "neoforge-1.20.2" = _c9aQvEX9;
         "neoforge-1.20.3" = _c9aQvEX9;
@@ -206,7 +212,8 @@ let
         "pkg-1.20-1.9.1" = _l7fgj0uL;
         "pkg-1.21.1-1.9.0" = _gv1JY0TU;
         "pkg-1.20-1.9.2" = _4nCuHl2s;
-        "default" = _4nCuHl2s;
+        "pkg-1.20-1.9.3" = _zZceS24H;
+        "default" = _zZceS24H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-cataclysm";

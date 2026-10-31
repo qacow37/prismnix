@@ -186,6 +186,21 @@ let
             "file" = "antos-forge-1.20.1-1.6.0.jar";
             "hash" = "sha512-d8ZHbnodnWfFA3f5CVFCTxQePNtyEARETUR0WtOnA+ueGwU8yuGm3GWXzJxd4OpKyZRnIovTXTkCY3PaOTvsLA==";
         };
+        _Z5EyKCfc = {
+            "id" = "Z5EyKCfc";
+            "file" = "antos-forge-1.20.1-1.6.1.jar";
+            "hash" = "sha512-uRYDFiAF0TgkAmt2GMMCbzmS7GgNXUUoHxQq/xaan8XF8D4tilTOH/pA2uL65mSSj77bEzDGX0aXiK2dGxTrMQ==";
+        };
+        _2pobCNre = {
+            "id" = "2pobCNre";
+            "file" = "antos-fabric-1.21.1-1.6.1.jar";
+            "hash" = "sha512-J6WqGhmbDh9s8yY/zjuNDRrUtT/YFrejCwSCzeUzHwUVfRsNIHL/ydKHr+f965DqL97+DqoQXxml1zslcysaFw==";
+        };
+        _AxS4HNeS = {
+            "id" = "AxS4HNeS";
+            "file" = "antos-neoforge-1.21.1-1.6.1.jar";
+            "hash" = "sha512-GfeBsHq3e+sCU9jY3PM+Dw+bXQqOH2evIOIpWDZmI6I8QG3VdcnuuAmjZ8Yk8F+JzV6KHkAHOKfFmf//Ia8X9w==";
+        };
     in {
         "wXA8Z4N3" = _wXA8Z4N3;
         "wh77H1tX" = _wh77H1tX;
@@ -224,9 +239,12 @@ let
         "YGsBBGp4" = _YGsBBGp4;
         "Dq3amxKD" = _Dq3amxKD;
         "iFf4N5eq" = _iFf4N5eq;
-        "neoforge-1.21.1" = _YGsBBGp4;
-        "fabric-1.21.1" = _Dq3amxKD;
-        "forge-1.20.1" = _iFf4N5eq;
+        "Z5EyKCfc" = _Z5EyKCfc;
+        "2pobCNre" = _2pobCNre;
+        "AxS4HNeS" = _AxS4HNeS;
+        "neoforge-1.21.1" = _AxS4HNeS;
+        "fabric-1.21.1" = _2pobCNre;
+        "forge-1.20.1" = _Z5EyKCfc;
         "pkg-1.1.0" = _wh77H1tX;
         "pkg-1.1.1" = _aOZ2En8v;
         "pkg-1.2.1" = _KWQdVXd4;
@@ -242,7 +260,8 @@ let
         "pkg-1.4.6" = _xN7LDHQ5;
         "pkg-1.5.0" = _GQOwoXGZ;
         "pkg-1.6.0" = _iFf4N5eq;
-        "default" = _iFf4N5eq;
+        "pkg-1.6.1" = _AxS4HNeS;
+        "default" = _AxS4HNeS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antos";

@@ -86,6 +86,16 @@ let
             "file" = "BetterVannilaFishes-1.21.1-1.1.2.jar";
             "hash" = "sha512-38I+qyp3e/XvmI30iAkmZsGcBkW+Ql6QQcR2uTvr573+28VtnaMXD2a2l/IrL9vIjiZ+cA+2yBsa4w88jAExvQ==";
         };
+        _G9G05ZMP = {
+            "id" = "G9G05ZMP";
+            "file" = "BetterVannilaFishes-1.20.1-1.1.3.jar";
+            "hash" = "sha512-EiMnfY1QnIhDjjgtC9LhhqKrco6TS/c7Y3km96DJpmC0uXxrIwO+k0rrl3ZbranXQdEc62C5EQgdEaZhkV1CRw==";
+        };
+        _L3GMDTSK = {
+            "id" = "L3GMDTSK";
+            "file" = "BetterVannilaFishes-1.21.1-1.1.3.jar";
+            "hash" = "sha512-ejUlBrofpI2PempZbM+uWSXGrqPqlL/hOSKsR7xI5oslPTY6vKHBsppSy+0m5A0D6vJBcZAhzoWeC/RAlLQ70A==";
+        };
     in {
         "msezmzhz" = _msezmzhz;
         "IQ17BIfX" = _IQ17BIfX;
@@ -104,8 +114,10 @@ let
         "4IIBYDFp" = _4IIBYDFp;
         "CmhgonPy" = _CmhgonPy;
         "jR9gBcj9" = _jR9gBcj9;
-        "neoforge-1.21.1" = _jR9gBcj9;
-        "forge-1.20.1" = _CmhgonPy;
+        "G9G05ZMP" = _G9G05ZMP;
+        "L3GMDTSK" = _L3GMDTSK;
+        "neoforge-1.21.1" = _L3GMDTSK;
+        "forge-1.20.1" = _G9G05ZMP;
         "pkg-1.21.1-1.0.4" = _msezmzhz;
         "pkg-1.20.1-1.0.4" = _IQ17BIfX;
         "pkg-1.20.1-1.0.5" = _ARCe1sz7;
@@ -123,7 +135,9 @@ let
         "pkg-1.21.1-1.1.1" = _4IIBYDFp;
         "pkg-1.20.1-1.1.2" = _CmhgonPy;
         "pkg-1.21.1-1.1.2" = _jR9gBcj9;
-        "default" = _jR9gBcj9;
+        "pkg-1.20.1-1.1.3" = _G9G05ZMP;
+        "pkg-1.21.1-1.1.3" = _L3GMDTSK;
+        "default" = _L3GMDTSK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettervannilafishes";

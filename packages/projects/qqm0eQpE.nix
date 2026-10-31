@@ -11,9 +11,15 @@ let
             "file" = "INVISIBLE LAVA.zip";
             "hash" = "sha512-RA4Gj4L0lgugY7Ev28AbHclkEJs6LFcWHzc4NeHQjQTfV+wVmAK26N3zdytAqVPWZsJW9BFalsjpSQ31zLV+Pw==";
         };
+        _ODkmLn3m = {
+            "id" = "ODkmLn3m";
+            "file" = "Better Invisible Lava 26.3.zip";
+            "hash" = "sha512-hxqznJ/HxUsc/6Esi5M+xsMLXBcwhh3IITKyz4heZWvyX+RmwFdyRzBEv0Yt8Q7a8kWI//3p3PAblbTD5RvRlA==";
+        };
     in {
         "VGrUa2mQ" = _VGrUa2mQ;
         "aaJtqFmZ" = _aaJtqFmZ;
+        "ODkmLn3m" = _ODkmLn3m;
         "minecraft-26.2" = _VGrUa2mQ;
         "minecraft-1.20" = _aaJtqFmZ;
         "minecraft-1.20.1" = _aaJtqFmZ;
@@ -79,9 +85,11 @@ let
         "minecraft-1.21.9" = _aaJtqFmZ;
         "minecraft-1.21.10" = _aaJtqFmZ;
         "minecraft-1.21.11" = _aaJtqFmZ;
+        "minecraft-26.3" = _ODkmLn3m;
         "pkg-1.0" = _VGrUa2mQ;
         "pkg-1.1" = _aaJtqFmZ;
-        "default" = _aaJtqFmZ;
+        "pkg-26.3" = _ODkmLn3m;
+        "default" = _ODkmLn3m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisible-lava";

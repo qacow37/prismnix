@@ -651,6 +651,41 @@ let
             "file" = "JustEnoughResources-Fabric-1.21.1-1.6.0.57.jar";
             "hash" = "sha512-d60BQidig8+trMbktDge0CQ0mEIbcoAkWitp6XPnRNNRastg7I2hNt19vtddG/AgxUaijgWRFzfcKvgqktFkNQ==";
         };
+        _PzFwlILj = {
+            "id" = "PzFwlILj";
+            "file" = "JustEnoughResources-NeoForge-26.1.2-1.10.1.59.jar";
+            "hash" = "sha512-O8p3+FDl4guUfh4dglFw3gHwZSOjTiZNq7vrdegGlyY6IBGL/WrNPlkIFkIXByZsYTF5Q4W9L2gXdzIJdOkEyw==";
+        };
+        _tiNWUQIO = {
+            "id" = "tiNWUQIO";
+            "file" = "JustEnoughResources-Fabric-26.1.2-1.10.1.59.jar";
+            "hash" = "sha512-v5H6UmdZSOZeS/+zcri1lYXrmDOk3/l+/r2agKJ/mcQ4t/OOgEKaAPjned9048IF30TkQZ8mq3sUbY2Y8K0a+Q==";
+        };
+        _GUQxyt6P = {
+            "id" = "GUQxyt6P";
+            "file" = "JustEnoughResources-Fabric-1.21.1-1.6.0.60.jar";
+            "hash" = "sha512-howX3y/USfyEMplhQo8zTKihc6mZD71RxbBDz/cWGc/o7grnAlaRRMBq+JiGeeoOjA/je00o/nx0C4HurkZaaA==";
+        };
+        _fnSdzeog = {
+            "id" = "fnSdzeog";
+            "file" = "JustEnoughResources-Forge-1.21.1-1.6.0.60.jar";
+            "hash" = "sha512-yjnlvku0kBcy7Ls7sdP57Dd5qPsWOoMxw2ls+hqNg/jm1PPAcvsk/pDPJQwppOTHHUv4Pel28ZXl/kW9LOlwng==";
+        };
+        _T9VecgxP = {
+            "id" = "T9VecgxP";
+            "file" = "JustEnoughResources-NeoForge-1.21.1-1.6.0.60.jar";
+            "hash" = "sha512-Uh6ciTrFp5juFwu/ZYP4yfHgJzjQ0WlBnLFha694ThaWYnmtoi+hlbWEAy/34RJrK48XxGMiQszuZouFfF33qw==";
+        };
+        _43xEAf7S = {
+            "id" = "43xEAf7S";
+            "file" = "JustEnoughResources-NeoForge-26.3-1.11.0.58.jar";
+            "hash" = "sha512-F2Azal6bERAKAoGvIznGtfo9LcYu2AHzomO9j8IdUrnIHL5bJCxobACa5K08NGHA9ZUy1YfsOI9esY1k8Qd6Vw==";
+        };
+        _QbBTuobs = {
+            "id" = "QbBTuobs";
+            "file" = "JustEnoughResources-Fabric-26.3-1.11.0.58.jar";
+            "hash" = "sha512-BNVMeGFn5u18Zbto8BfXEg8ZcOgIO+Aqlcmb2NN5+yCYLiDFEBk6ZtqSDmIlRSSJKaQzW+0DQ4FMLxju3M3lhQ==";
+        };
     in {
         "1oiTtRvR" = _1oiTtRvR;
         "YpCqI9J2" = _YpCqI9J2;
@@ -782,6 +817,13 @@ let
         "A2G7NFcD" = _A2G7NFcD;
         "JBRqVK94" = _JBRqVK94;
         "FSKuTESg" = _FSKuTESg;
+        "PzFwlILj" = _PzFwlILj;
+        "tiNWUQIO" = _tiNWUQIO;
+        "GUQxyt6P" = _GUQxyt6P;
+        "fnSdzeog" = _fnSdzeog;
+        "T9VecgxP" = _T9VecgxP;
+        "43xEAf7S" = _43xEAf7S;
+        "QbBTuobs" = _QbBTuobs;
         "forge-1.18.2" = _1oiTtRvR;
         "forge-1.19.2" = _gYpN3Xsx;
         "forge-1.19.3" = _NEXlKGKc;
@@ -790,7 +832,7 @@ let
         "forge-1.20.2" = _7vp8KGxy;
         "forge-1.20.4" = _UsgZHcrv;
         "forge-1.20.6" = _tky9bfqZ;
-        "forge-1.21.1" = _JBRqVK94;
+        "forge-1.21.1" = _fnSdzeog;
         "fabric-1.19.2" = _aaOvWcSb;
         "fabric-1.19.3" = _UPJ66js9;
         "fabric-1.19.4" = _FrNSFWs1;
@@ -799,15 +841,15 @@ let
         "fabric-1.20.4" = _30LsAp6u;
         "fabric-1.20.6" = _Sut5WUJq;
         "fabric-1.21" = _ZS5fdj6i;
-        "fabric-1.21.1" = _FSKuTESg;
+        "fabric-1.21.1" = _GUQxyt6P;
         "fabric-1.21.10" = _Fh338zyF;
         "fabric-1.21.11" = _wtZJoBTD;
-        "fabric-26.1.2" = _9aefQZtA;
+        "fabric-26.1.2" = _tiNWUQIO;
         "fabric-26.2" = _ll8IqkDa;
-        "fabric-26.3" = _jzYv1Xr9;
+        "fabric-26.3" = _QbBTuobs;
         "neoforge-1.20.4" = _obTYX94A;
         "neoforge-1.20.6" = _Q6NTJRvk;
-        "neoforge-1.21.1" = _A2G7NFcD;
+        "neoforge-1.21.1" = _T9VecgxP;
         "neoforge-1.21.4" = _U4ITLvrh;
         "neoforge-1.21.5" = _7isqdbV6;
         "neoforge-1.21.7" = _fH4GgWlj;
@@ -815,9 +857,9 @@ let
         "neoforge-1.21.9" = _iNk5Mti6;
         "neoforge-1.21.10" = _R3HL5C5x;
         "neoforge-1.21.11" = _xZmaYads;
-        "neoforge-26.1.2" = _1BWbdFFW;
+        "neoforge-26.1.2" = _PzFwlILj;
         "neoforge-26.2" = _EgouA3DZ;
-        "neoforge-26.3" = _dureYd3O;
+        "neoforge-26.3" = _43xEAf7S;
         "pkg-0.14.2.206" = _1oiTtRvR;
         "pkg-1.2.2.200" = _hCg1eHjd;
         "pkg-1.3.2.209" = _DTEumDkl;
@@ -880,7 +922,10 @@ let
         "pkg-1.11.0.55" = _jzYv1Xr9;
         "pkg-1.10.1.56" = _9aefQZtA;
         "pkg-1.6.0.57" = _FSKuTESg;
-        "default" = _FSKuTESg;
+        "pkg-1.10.1.59" = _tiNWUQIO;
+        "pkg-1.6.0.60" = _T9VecgxP;
+        "pkg-1.11.0.58" = _QbBTuobs;
+        "default" = _QbBTuobs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-resources-jer";

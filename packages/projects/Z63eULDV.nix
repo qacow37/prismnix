@@ -91,6 +91,11 @@ let
             "file" = "fabricmail-2.2.0+26.3.jar";
             "hash" = "sha512-VeJjeoHDngWa8HnwAyDVdLtLcPezN9mjdJS4HL0c5PF+/ZiEirAOZjdM+27qCu/gJrILVsjwo4k25euhJce80g==";
         };
+        _MAVq0aWF = {
+            "id" = "MAVq0aWF";
+            "file" = "fabricmail-2.2.1+26.3.jar";
+            "hash" = "sha512-74cepmdw/0sDpIY7Lp/DCK+llv5FdTCOQfNgfAHSWXkshgo+oNKEgnPsrdt1+UpIuZxxhl5j480APkJYo3HUyw==";
+        };
     in {
         "4zO8X1s6" = _4zO8X1s6;
         "sUM4QiBS" = _sUM4QiBS;
@@ -110,6 +115,7 @@ let
         "UkJOnL06" = _UkJOnL06;
         "PsXM4Lqe" = _PsXM4Lqe;
         "yJ36bulu" = _yJ36bulu;
+        "MAVq0aWF" = _MAVq0aWF;
         "fabric-1.21" = _jkVaxZx5;
         "fabric-1.21.1" = _jkVaxZx5;
         "fabric-1.21.4" = _bPoYWw4P;
@@ -119,7 +125,7 @@ let
         "fabric-1.21.11" = _qylp4nHB;
         "fabric-26.1" = _UkJOnL06;
         "fabric-26.2" = _PsXM4Lqe;
-        "fabric-26.3" = _yJ36bulu;
+        "fabric-26.3" = _MAVq0aWF;
         "pkg-1.3+1.21" = _4zO8X1s6;
         "pkg-1.4+1.21" = _sUM4QiBS;
         "pkg-1.5+1.21.1" = _iFjqUAWl;
@@ -137,7 +143,8 @@ let
         "pkg-2.2.0+26.1" = _UkJOnL06;
         "pkg-2.2.0+26.2" = _PsXM4Lqe;
         "pkg-2.2.0+26.3" = _yJ36bulu;
-        "default" = _yJ36bulu;
+        "pkg-2.2.1+26.3" = _MAVq0aWF;
+        "default" = _MAVq0aWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabric-mail";

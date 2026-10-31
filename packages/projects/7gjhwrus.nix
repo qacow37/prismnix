@@ -26,12 +26,24 @@ let
             "file" = "networkproxy-1.2.0-26.x.jar";
             "hash" = "sha512-rjfAex2qg7NyHozHncVxBZb9uRTUd3IiZp9nMKMVIdZJaKTqXmS76UfQluarOfBeZHQwWWDIUCyUDILUlF7lmQ==";
         };
+        _Elzp9Y1K = {
+            "id" = "Elzp9Y1K";
+            "file" = "networkproxy-neoforge-26.3-1.2.1.jar";
+            "hash" = "sha512-jOV/PSjTSq0ODLbkqrq4RU0SkTzVVYSdlSIVdqMvZdkCz4vbmnl23vgk0PpTDLpvss7DjlAEDlPvcnuao3rK7g==";
+        };
+        _cUnqfNWL = {
+            "id" = "cUnqfNWL";
+            "file" = "networkproxy-fabric-26.3-1.2.1.jar";
+            "hash" = "sha512-mNd747tMIyUlfWYoPPsj635Uc7sm+O6rCgIXUiPwjNh5YoSAOXdIvPMHuo5TOuOM/4I3j9uZzNo+YpLnkrOAiA==";
+        };
     in {
         "HUApXf1m" = _HUApXf1m;
         "eh8787Lb" = _eh8787Lb;
         "tQD7ZDYo" = _tQD7ZDYo;
         "2aqYcRtT" = _2aqYcRtT;
         "2bmO0b1Q" = _2bmO0b1Q;
+        "Elzp9Y1K" = _Elzp9Y1K;
+        "cUnqfNWL" = _cUnqfNWL;
         "fabric-1.21.11" = _eh8787Lb;
         "fabric-1.21" = _eh8787Lb;
         "fabric-1.21.1" = _eh8787Lb;
@@ -48,12 +60,16 @@ let
         "fabric-26.1.1" = _2bmO0b1Q;
         "fabric-26.1.2" = _2bmO0b1Q;
         "fabric-26.2" = _2bmO0b1Q;
+        "fabric-26.3" = _cUnqfNWL;
+        "neoforge-26.3" = _Elzp9Y1K;
         "pkg-1.0.0" = _HUApXf1m;
         "pkg-1.1.0" = _eh8787Lb;
         "pkg-1.1.0-26.1" = _tQD7ZDYo;
         "pkg-1.2.0-26.1" = _2aqYcRtT;
         "pkg-1.2.0-26.x" = _2bmO0b1Q;
-        "default" = _2bmO0b1Q;
+        "pkg-1.2.1-26.3-26.4-neoforge" = _Elzp9Y1K;
+        "pkg-1.2.1-26.3-26.4-fabric" = _cUnqfNWL;
+        "default" = _cUnqfNWL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "network-proxy";

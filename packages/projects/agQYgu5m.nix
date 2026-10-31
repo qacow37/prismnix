@@ -181,6 +181,21 @@ let
             "file" = "detexturify-0.1.3+26.3.jar";
             "hash" = "sha512-smMOPV74l6IBBp4ikSKnrgsOBTz1kSKMkvEUvhhlshvj8SkrBMh5+oILdAXFZpQK1cvPxSrMbTkugQLK+FNObg==";
         };
+        _FMkA2Upy = {
+            "id" = "FMkA2Upy";
+            "file" = "detexturify-0.1.4+26.1.jar";
+            "hash" = "sha512-YSeVW6R6dAfKnktuNAu5jVO7A8K6yvexVnrefZWirD3LE9n2kiwd6ihhxxFxS0aDwF6o0wbKKpyvZIarAB9vGA==";
+        };
+        _MLzUYlu9 = {
+            "id" = "MLzUYlu9";
+            "file" = "detexturify-0.1.4+26.2.jar";
+            "hash" = "sha512-OAHN1CLa8lDe63EiaJOym5W+u4DGHCsuoyez9BUB7ewKhIh4irGDp6isTidn6UrKrN4znDZpZ9S+slFExT32sw==";
+        };
+        _h1r0vfrJ = {
+            "id" = "h1r0vfrJ";
+            "file" = "detexturify-0.1.4+26.3.jar";
+            "hash" = "sha512-Y7uGB1UBtJZ6ndnjVLGO/UCY9/BZzN/ayZSDu6O1CEg9rApHrV1/xZnSUN+nVgAn7BLhmlSNt9V0w80gH6P+oA==";
+        };
     in {
         "eTnMbiNN" = _eTnMbiNN;
         "viENxcP8" = _viENxcP8;
@@ -218,12 +233,15 @@ let
         "bjKUzrGb" = _bjKUzrGb;
         "j0PJEPcD" = _j0PJEPcD;
         "Mw1w4r0k" = _Mw1w4r0k;
+        "FMkA2Upy" = _FMkA2Upy;
+        "MLzUYlu9" = _MLzUYlu9;
+        "h1r0vfrJ" = _h1r0vfrJ;
         "fabric-1.21.11" = _3ssSBP0n;
-        "fabric-26.1" = _bjKUzrGb;
-        "fabric-26.1.1" = _bjKUzrGb;
-        "fabric-26.1.2" = _bjKUzrGb;
-        "fabric-26.2" = _j0PJEPcD;
-        "fabric-26.3" = _Mw1w4r0k;
+        "fabric-26.1" = _FMkA2Upy;
+        "fabric-26.1.1" = _FMkA2Upy;
+        "fabric-26.1.2" = _FMkA2Upy;
+        "fabric-26.2" = _MLzUYlu9;
+        "fabric-26.3" = _h1r0vfrJ;
         "pkg-0.0.1" = _nMJ0fcny;
         "pkg-0.0.2" = _VveoO8jC;
         "pkg-0.0.3" = _XGNx1lGw;
@@ -237,7 +255,8 @@ let
         "pkg-0.1.1" = _DcDGmPQB;
         "pkg-0.1.2" = _pyCMmWcp;
         "pkg-0.1.3" = _Mw1w4r0k;
-        "default" = _Mw1w4r0k;
+        "pkg-0.1.4" = _h1r0vfrJ;
+        "default" = _h1r0vfrJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "detexturify";

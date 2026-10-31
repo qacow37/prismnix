@@ -81,6 +81,11 @@ let
             "file" = "yafda-neoforge-1.21.1-0.20.jar";
             "hash" = "sha512-RF/X6w6qY0X+3Z8zPWxFbo8JfUCb+3gHCZn95visx7q4rUbaYI7lBZbd2FZ+HkbRwGbQ0hZtKgZfd+7iu0C5Iw==";
         };
+        _PI89x8di = {
+            "id" = "PI89x8di";
+            "file" = "yafda-neoforge-1.21.1-0.21.jar";
+            "hash" = "sha512-XERoOYZnDxKK+7YkbEIFRfaAPj/pBjLzMpjhICJ4nriD8dmlMAa0TvY7O/5pvNGUKzL6q+0zEnApoyui81IjLA==";
+        };
     in {
         "VgHYb0ME" = _VgHYb0ME;
         "Xw4zciUA" = _Xw4zciUA;
@@ -98,7 +103,8 @@ let
         "EkJNJQpf" = _EkJNJQpf;
         "k6zipdXH" = _k6zipdXH;
         "YcjeHgSr" = _YcjeHgSr;
-        "neoforge-1.21.1" = _YcjeHgSr;
+        "PI89x8di" = _PI89x8di;
+        "neoforge-1.21.1" = _PI89x8di;
         "pkg-0.1.0" = _VgHYb0ME;
         "pkg-0.9.0" = _Xw4zciUA;
         "pkg-0.9.1" = _a68Sm8Xa;
@@ -115,7 +121,8 @@ let
         "pkg-0.17" = _EkJNJQpf;
         "pkg-0.18" = _k6zipdXH;
         "pkg-0.20" = _YcjeHgSr;
-        "default" = _YcjeHgSr;
+        "pkg-0.21" = _PI89x8di;
+        "default" = _PI89x8di;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yafda";

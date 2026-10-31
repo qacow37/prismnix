@@ -1761,6 +1761,21 @@ let
             "file" = "everlastingabilities-26.3-neoforge-2.5.10-413.jar";
             "hash" = "sha512-2PWqrJjP64X1mVOeHM6EcreSN1+/u4Qln6DcNC7j4UHo/894ggiuYFB3GiYUgKP5NR7h7xmrlVAREpy5WxieAw==";
         };
+        _ucFhYwZl = {
+            "id" = "ucFhYwZl";
+            "file" = "everlastingabilities-1.21.1-forge-2.5.6-418.jar";
+            "hash" = "sha512-IwAa6RsE1kU1DYeDpt+GNRRQZUD+IGVgMpm3PniB2+ktnIA8y3YFBpe0V7xNH14OWcmUA/8PuwDs68qBV0Yluw==";
+        };
+        _GJo3oAWY = {
+            "id" = "GJo3oAWY";
+            "file" = "everlastingabilities-1.21.1-fabric-2.5.6-418.jar";
+            "hash" = "sha512-dzl/zkgn0D5mIsnbnRd3gRpKz9xcxHZiHceAab/Ad92q3BmW9Hf71l0M70X4njE57gqFOC30ahC1I16XeaEC2w==";
+        };
+        _2g7vkodL = {
+            "id" = "2g7vkodL";
+            "file" = "everlastingabilities-1.21.1-neoforge-2.5.6-418.jar";
+            "hash" = "sha512-0FWMipG4iZNc5jX2iCgOwnU7X0wGlM1vJ2jvamnhloaN8uHvq/BgAVQ95dx7cckSkErDoGWt0fOG40Yg34DoYw==";
+        };
     in {
         "Gg4quYcm" = _Gg4quYcm;
         "PXVn7SKf" = _PXVn7SKf;
@@ -2114,13 +2129,16 @@ let
         "V08ERCYt" = _V08ERCYt;
         "mWBZH9fj" = _mWBZH9fj;
         "TmqShhzI" = _TmqShhzI;
+        "ucFhYwZl" = _ucFhYwZl;
+        "GJo3oAWY" = _GJo3oAWY;
+        "2g7vkodL" = _2g7vkodL;
         "forge-1.18.2" = _y46Acobe;
         "forge-1.19" = _sorylYtT;
         "forge-1.19.2" = _CxFeKC12;
         "forge-1.19.3" = _IhlgWKfa;
         "forge-1.19.4" = _JkHmo5LI;
         "forge-1.20.1" = _ErUalKqL;
-        "forge-1.21.1" = _hB1vDMNB;
+        "forge-1.21.1" = _ucFhYwZl;
         "forge-1.21.4" = _cIEvpZhj;
         "forge-1.21.6" = _Lh0mHccQ;
         "forge-1.21.7" = _LWno6FPX;
@@ -2133,7 +2151,7 @@ let
         "forge-26.3" = _mWBZH9fj;
         "neoforge-1.20.4" = _ZVXrOOhy;
         "neoforge-1.21" = _NVAUYVe4;
-        "neoforge-1.21.1" = _6b8bpVVU;
+        "neoforge-1.21.1" = _2g7vkodL;
         "neoforge-1.21.4" = _IeK36vDh;
         "neoforge-1.21.6" = _P7YtLghy;
         "neoforge-1.21.7" = _ppcDBJG9;
@@ -2144,7 +2162,7 @@ let
         "neoforge-26.1.2" = _DMNPf0wN;
         "neoforge-26.2" = _gOxXPDr3;
         "neoforge-26.3" = _TmqShhzI;
-        "fabric-1.21.1" = _FufkqHfr;
+        "fabric-1.21.1" = _GJo3oAWY;
         "fabric-1.21.4" = _GPQglEqW;
         "fabric-1.21.6" = _prdaljn1;
         "fabric-1.21.7" = _G7pSRUdE;
@@ -2155,7 +2173,7 @@ let
         "fabric-26.1.2" = _oIOrckPo;
         "fabric-26.2" = _r4Aq8ezI;
         "fabric-26.3" = _V08ERCYt;
-        "quilt-1.21.1" = _FufkqHfr;
+        "quilt-1.21.1" = _GJo3oAWY;
         "quilt-1.21.4" = _GPQglEqW;
         "quilt-1.21.6" = _prdaljn1;
         "quilt-1.21.7" = _G7pSRUdE;
@@ -2318,7 +2336,8 @@ let
         "pkg-26.3-2.5.10-409" = _MHan5xRU;
         "pkg-26.3-2.5.10-410" = _D83gyD8l;
         "pkg-26.3-2.5.10-413" = _TmqShhzI;
-        "default" = _TmqShhzI;
+        "pkg-1.21.1-2.5.6-418" = _2g7vkodL;
+        "default" = _2g7vkodL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "everlasting-abilities";

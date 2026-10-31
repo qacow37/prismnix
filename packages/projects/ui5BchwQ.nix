@@ -261,6 +261,41 @@ let
             "file" = "BetterTitleScreen-neoforge-26.1-1.15.1.jar";
             "hash" = "sha512-rccVbPqXi6PT5MtboUFbeT5UG9SZ/ntytornDmPdtRgd99lb9B+AmTDF+NZkNuBme31dZgQWCUlL85aDRk+raQ==";
         };
+        _BebmTkuz = {
+            "id" = "BebmTkuz";
+            "file" = "BetterTitleScreen-neoforge-1.21.x-1.14.4.jar";
+            "hash" = "sha512-ro4U/Vz0WHtEk6c4ZQoEVR1ptr7bgFhKQmGJSiG7wYe0U9Q+l6h5Ixx9cz7NQ2L9hl7TV3AqctaWHesadPsX2g==";
+        };
+        _uIeL1YPA = {
+            "id" = "uIeL1YPA";
+            "file" = "BetterTitleScreen-fabric-26.2-1.16.0.jar";
+            "hash" = "sha512-iVgIrpcKFZhZu2Afs2larmT5UoZkx01fPJoOLG31D4vzLCz0uTKzck+qd07wl/oqUidUgZV2hIhFf8zrqU/nNA==";
+        };
+        _It1tnotN = {
+            "id" = "It1tnotN";
+            "file" = "BetterTitleScreen-neoforge-26.2-1.16.0.jar";
+            "hash" = "sha512-clz7tAAjQHNkQNpvu/EyJsRTHbHa5owF+6PSrmTmQO9QsttxKwQ8UAIZhW23YZdGdFba31LbcQX4h8sPiATraA==";
+        };
+        _VfSCJZPA = {
+            "id" = "VfSCJZPA";
+            "file" = "BetterTitleScreen-fabric-26.2-1.16.0.jar";
+            "hash" = "sha512-iVgIrpcKFZhZu2Afs2larmT5UoZkx01fPJoOLG31D4vzLCz0uTKzck+qd07wl/oqUidUgZV2hIhFf8zrqU/nNA==";
+        };
+        _6IuefF4Y = {
+            "id" = "6IuefF4Y";
+            "file" = "BetterTitleScreen-neoforge-26.2-1.16.0.jar";
+            "hash" = "sha512-clz7tAAjQHNkQNpvu/EyJsRTHbHa5owF+6PSrmTmQO9QsttxKwQ8UAIZhW23YZdGdFba31LbcQX4h8sPiATraA==";
+        };
+        _azEwViro = {
+            "id" = "azEwViro";
+            "file" = "BetterTitleScreen-fabric-26.2-1.16.1.jar";
+            "hash" = "sha512-LQZkYXM2svgUYsvmokMR8BhxTXQLrWMBuRfNIhvW2Mwoi3GfH9vY0nP7ZiJqAsCdOv4hffAuk4f8aOTjInS/uQ==";
+        };
+        _OSAed8lh = {
+            "id" = "OSAed8lh";
+            "file" = "BetterTitleScreen-neoforge-26.2-1.16.1.jar";
+            "hash" = "sha512-Sqjmr/zMVB4pXlTRAZvvOLHpQJOt6R/idn9qaAY74VMHzbmuHRRDtNZe59OOZANV/w/79W0sVNcNulkfAwdbGQ==";
+        };
     in {
         "hEte9pKt" = _hEte9pKt;
         "W4YnVE15" = _W4YnVE15;
@@ -314,6 +349,13 @@ let
         "ctV40VSa" = _ctV40VSa;
         "AXyLUu9A" = _AXyLUu9A;
         "fe0MQAsD" = _fe0MQAsD;
+        "BebmTkuz" = _BebmTkuz;
+        "uIeL1YPA" = _uIeL1YPA;
+        "It1tnotN" = _It1tnotN;
+        "VfSCJZPA" = _VfSCJZPA;
+        "6IuefF4Y" = _6IuefF4Y;
+        "azEwViro" = _azEwViro;
+        "OSAed8lh" = _OSAed8lh;
         "forge-1.7.2" = _hEte9pKt;
         "forge-1.7.10" = _hEte9pKt;
         "forge-1.8" = _W4YnVE15;
@@ -357,19 +399,22 @@ let
         "neoforge-1.20.2" = _6Cll8jrY;
         "neoforge-1.20.4" = _kNEANTR1;
         "neoforge-1.21" = _pSKZXBh3;
-        "neoforge-1.21.1" = _pSKZXBh3;
-        "neoforge-1.21.3" = _5V7IhwHo;
-        "neoforge-1.21.4" = _5V7IhwHo;
-        "neoforge-1.21.5" = _BjILB0id;
-        "neoforge-1.21.6" = _BjILB0id;
-        "neoforge-1.21.7" = _BjILB0id;
-        "neoforge-1.21.8" = _BjILB0id;
-        "neoforge-1.21.9" = _BjILB0id;
-        "neoforge-1.21.10" = _BjILB0id;
-        "neoforge-1.21.11" = _Hg6mR2te;
+        "neoforge-1.21.1" = _BebmTkuz;
+        "neoforge-1.21.3" = _BebmTkuz;
+        "neoforge-1.21.4" = _BebmTkuz;
+        "neoforge-1.21.5" = _BebmTkuz;
+        "neoforge-1.21.6" = _BebmTkuz;
+        "neoforge-1.21.7" = _BebmTkuz;
+        "neoforge-1.21.8" = _BebmTkuz;
+        "neoforge-1.21.9" = _BebmTkuz;
+        "neoforge-1.21.10" = _BebmTkuz;
+        "neoforge-1.21.11" = _BebmTkuz;
         "neoforge-26.1" = _fe0MQAsD;
         "neoforge-26.1.1" = _fe0MQAsD;
         "neoforge-26.1.2" = _fe0MQAsD;
+        "neoforge-1.21.2" = _BebmTkuz;
+        "neoforge-26.2" = _OSAed8lh;
+        "neoforge-26.3" = _OSAed8lh;
         "fabric-1.20.2" = _zaMHf5S7;
         "fabric-1.20.4" = _lj2c9BTd;
         "fabric-1.21" = _jABPTu1s;
@@ -386,6 +431,8 @@ let
         "fabric-26.1" = _AXyLUu9A;
         "fabric-26.1.1" = _AXyLUu9A;
         "fabric-26.1.2" = _AXyLUu9A;
+        "fabric-26.2" = _azEwViro;
+        "fabric-26.3" = _azEwViro;
         "pkg-1.1" = _hEte9pKt;
         "pkg-1.1a" = _W4YnVE15;
         "pkg-1.1c" = _Q2tM9zH0;
@@ -425,7 +472,10 @@ let
         "pkg-1.14.3" = _VD6Yegwg;
         "pkg-1.15.0" = _ctV40VSa;
         "pkg-1.15.1" = _fe0MQAsD;
-        "default" = _fe0MQAsD;
+        "pkg-1.14.4" = _BebmTkuz;
+        "pkg-1.16.0" = _6IuefF4Y;
+        "pkg-1.16.1" = _OSAed8lh;
+        "default" = _OSAed8lh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettertitlescreen";

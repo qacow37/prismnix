@@ -36,6 +36,16 @@ let
             "file" = "netmusiccanneedqq-0.2.1-neoforge-mc1.21.1-beta.jar";
             "hash" = "sha512-EYkHCQP4uSK3IGng5SPLDHx+jsbd5IN4VRbGb20vIrsbJpdfsZ72Lpvw9c1Yj9gDjSTezVXc6TilKKwnm2VvOQ==";
         };
+        _xIBdSD8M = {
+            "id" = "xIBdSD8M";
+            "file" = "netmusiccanneedqq-0.3.0-forge-mc1.20.1-beta.jar";
+            "hash" = "sha512-XrL7nxYXWKQ48Nd84uL8LId0Kta9l5h2Miygu59oeIphVMHlVfqbArPEK2LOGPCUWpM/eQIwUoC1bBmNANw1eA==";
+        };
+        _ggum40jU = {
+            "id" = "ggum40jU";
+            "file" = "netmusiccanneedqq-0.3.0-neoforge-mc1.21.1-beta.jar";
+            "hash" = "sha512-9a/9rPm/jKwgZQxG03zSuScc+USzMBvfZZihL9vYFJgUhp0wr+uCgeI+ske9BD9ioeUnS1XhLqMFuOpDZqCeuQ==";
+        };
     in {
         "MDp2sajy" = _MDp2sajy;
         "8iVhzdHa" = _8iVhzdHa;
@@ -44,8 +54,10 @@ let
         "waCnkjeW" = _waCnkjeW;
         "njBubcEG" = _njBubcEG;
         "8P0qtPpO" = _8P0qtPpO;
-        "forge-1.20.1" = _njBubcEG;
-        "neoforge-1.21.1" = _8P0qtPpO;
+        "xIBdSD8M" = _xIBdSD8M;
+        "ggum40jU" = _ggum40jU;
+        "forge-1.20.1" = _xIBdSD8M;
+        "neoforge-1.21.1" = _ggum40jU;
         "pkg-0.1.0" = _MDp2sajy;
         "pkg-0.1.2-neoforge-mc1.21.1-beta" = _8iVhzdHa;
         "pkg-0.1.2-forge-mc1.20.1-beta" = _L9Mh1Wuc;
@@ -53,7 +65,9 @@ let
         "pkg-0.2.0-neoforge-mc1.21.1-beta" = _waCnkjeW;
         "pkg-0.2.1-forge-mc1.20.1-beta" = _njBubcEG;
         "pkg-0.2.1-neoforge-mc1.21.1-beta" = _8P0qtPpO;
-        "default" = _8P0qtPpO;
+        "pkg-0.3.0-forge-mc1.20.1-beta" = _xIBdSD8M;
+        "pkg-0.3.0-neoforge-mc1.21.1-beta" = _ggum40jU;
+        "default" = _ggum40jU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netmusiccanneedqq";

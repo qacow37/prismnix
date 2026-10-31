@@ -81,6 +81,16 @@ let
             "file" = "a-breach-happened-0.3.2.jar";
             "hash" = "sha512-ABYKN2jOERcJ8LjVb0mvnsArwQCvkz4Vmiu0EwRzcrNpqg3IomehoPkCHqVFGjcXFEY+4KhO1QVp+5cipcqYYA==";
         };
+        _KhrIOgeS = {
+            "id" = "KhrIOgeS";
+            "file" = "a-breach-happened-1.0.0-beta.zip";
+            "hash" = "sha512-EsX+F8mMe6wS3K+Ldn3asRXdfvbBxInq/qByWKDabCK9RlOa254xDcVc8Uxbw0ZF+3yxZeeFymg5y0ZFL8jotg==";
+        };
+        _ByMG579F = {
+            "id" = "ByMG579F";
+            "file" = "a-breach-happened-1.0.0.jar";
+            "hash" = "sha512-JrJa0Lof+bAcZJU9u7iscvJIGNlKvIINkKzwp6603o4eKdxiBx/H4OFyHCh572xL3EZMBxpcK2TgfwItrtoGqA==";
+        };
     in {
         "4qQfuJm5" = _4qQfuJm5;
         "WQBBfzoi" = _WQBBfzoi;
@@ -98,36 +108,43 @@ let
         "NBk343qa" = _NBk343qa;
         "RoEvY6oM" = _RoEvY6oM;
         "Lgn9kD0T" = _Lgn9kD0T;
+        "KhrIOgeS" = _KhrIOgeS;
+        "ByMG579F" = _ByMG579F;
         "datapack-1.21.10" = _z85snBxs;
         "datapack-1.21.11" = _kAJUfDDa;
         "datapack-26.1" = _15E1YJqM;
         "datapack-26.1.1" = _15E1YJqM;
         "datapack-26.1.2" = _15E1YJqM;
         "datapack-26.2" = _RoEvY6oM;
+        "datapack-26.3" = _KhrIOgeS;
         "fabric-1.21.10" = _u9SFJ0CZ;
         "fabric-1.21.11" = _jfRmUSdA;
         "fabric-26.1" = _NBk343qa;
         "fabric-26.1.1" = _NBk343qa;
         "fabric-26.1.2" = _NBk343qa;
         "fabric-26.2" = _Lgn9kD0T;
+        "fabric-26.3" = _ByMG579F;
         "forge-1.21.10" = _u9SFJ0CZ;
         "forge-1.21.11" = _jfRmUSdA;
         "forge-26.1" = _NBk343qa;
         "forge-26.1.1" = _NBk343qa;
         "forge-26.1.2" = _NBk343qa;
         "forge-26.2" = _Lgn9kD0T;
+        "forge-26.3" = _ByMG579F;
         "neoforge-1.21.10" = _u9SFJ0CZ;
         "neoforge-1.21.11" = _jfRmUSdA;
         "neoforge-26.1" = _NBk343qa;
         "neoforge-26.1.1" = _NBk343qa;
         "neoforge-26.1.2" = _NBk343qa;
         "neoforge-26.2" = _Lgn9kD0T;
+        "neoforge-26.3" = _ByMG579F;
         "quilt-1.21.10" = _u9SFJ0CZ;
         "quilt-1.21.11" = _jfRmUSdA;
         "quilt-26.1" = _NBk343qa;
         "quilt-26.1.1" = _NBk343qa;
         "quilt-26.1.2" = _NBk343qa;
         "quilt-26.2" = _Lgn9kD0T;
+        "quilt-26.3" = _ByMG579F;
         "pkg-0.1" = _WQBBfzoi;
         "pkg-0.11" = _nPsRIyLF;
         "pkg-0.12" = _FN58uwDY;
@@ -139,7 +156,9 @@ let
         "pkg-0.3.1+mod" = _NBk343qa;
         "pkg-0.3.2" = _RoEvY6oM;
         "pkg-0.3.2+mod" = _Lgn9kD0T;
-        "default" = _Lgn9kD0T;
+        "pkg-1.0.0" = _KhrIOgeS;
+        "pkg-1.0.0+mod" = _ByMG579F;
+        "default" = _ByMG579F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "a-breach-happened";

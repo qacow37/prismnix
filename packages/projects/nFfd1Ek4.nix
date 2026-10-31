@@ -16,15 +16,22 @@ let
             "file" = "CobblemonRadar-1.0.4+1.21.1.jar";
             "hash" = "sha512-JKVYXy46llz6/1Y7Z/3uHLRR0Peq5Yp0Di4pJH1rm51+yU3Zd2rF25e9k0no/fV7xj+v9i8+Z7110GHAsINQdw==";
         };
+        _jLKrP2S3 = {
+            "id" = "jLKrP2S3";
+            "file" = "CobblemonRadar-1.0.5+1.21.1.jar";
+            "hash" = "sha512-R/cs85H7t/OeT97BaEuBybfUpM9mc/wZJ1zLIkbIKJerCWH9dIUqTPkjN4aeIeY7lcKFUpGlXLoVnbH6KU52wA==";
+        };
     in {
         "qMAfjfvZ" = _qMAfjfvZ;
         "z7yDoj8N" = _z7yDoj8N;
         "kvo7zECp" = _kvo7zECp;
-        "fabric-1.21.1" = _kvo7zECp;
+        "jLKrP2S3" = _jLKrP2S3;
+        "fabric-1.21.1" = _jLKrP2S3;
         "pkg-1.0.0" = _qMAfjfvZ;
         "pkg-1.0.3" = _z7yDoj8N;
         "pkg-1.0.4" = _kvo7zECp;
-        "default" = _kvo7zECp;
+        "pkg-1.0.5" = _jLKrP2S3;
+        "default" = _jLKrP2S3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-radar";

@@ -186,6 +186,16 @@ let
             "file" = "teyvatdelight-1.1.13-forge-1.20.1.jar";
             "hash" = "sha512-tH6RX8RftMWR2osOfvrPf2BcgARpIO1SvJaW5rwMS2mp0/gCIgyh/6LZ2YM6wZmiezKpR1We9xXrTxOpoNe6Ew==";
         };
+        _fAfWpzji = {
+            "id" = "fAfWpzji";
+            "file" = "teyvatdelight-1.1.12.jar";
+            "hash" = "sha512-JHcCgnUbZL3exwotd1xVgBmcM1rwQJZv6l22UQcRiM9Ub2BLHA1Hdy/pPOjjrCLgypHCojdiFGrFFBjpX7Ws4Q==";
+        };
+        _W3gM2zDW = {
+            "id" = "W3gM2zDW";
+            "file" = "teyvatdelight-1.1.13-forge-1.20.1.jar";
+            "hash" = "sha512-73e2cIiK5fOrFoEOhnf1MMsdtiQiuKaUKxCTG90NTXFGy5ViD23KD267MwS+ByWO4Bqiz2mqihlwrKAnGqEgDQ==";
+        };
     in {
         "tUazDlBr" = _tUazDlBr;
         "cqjyEGw6" = _cqjyEGw6;
@@ -224,13 +234,15 @@ let
         "EydrH8Yh" = _EydrH8Yh;
         "YCjIAnxZ" = _YCjIAnxZ;
         "zPIewTSj" = _zPIewTSj;
-        "neoforge-1.21.1" = _YCjIAnxZ;
-        "forge-1.20.1" = _zPIewTSj;
-        "forge-1.20.2" = _zPIewTSj;
-        "forge-1.20.3" = _zPIewTSj;
-        "forge-1.20.4" = _zPIewTSj;
-        "forge-1.20.5" = _zPIewTSj;
-        "forge-1.20.6" = _zPIewTSj;
+        "fAfWpzji" = _fAfWpzji;
+        "W3gM2zDW" = _W3gM2zDW;
+        "neoforge-1.21.1" = _fAfWpzji;
+        "forge-1.20.1" = _W3gM2zDW;
+        "forge-1.20.2" = _W3gM2zDW;
+        "forge-1.20.3" = _W3gM2zDW;
+        "forge-1.20.4" = _W3gM2zDW;
+        "forge-1.20.5" = _W3gM2zDW;
+        "forge-1.20.6" = _W3gM2zDW;
         "pkg-0.1.0" = _tUazDlBr;
         "pkg-0.2.0" = _cqjyEGw6;
         "pkg-0.2.1-forge" = _1tmy1hBh;
@@ -266,9 +278,9 @@ let
         "pkg-1.1.10-forge-1.20.1" = _FYT759VE;
         "pkg-1.1.10" = _6V1vLz5o;
         "pkg-1.1.11-forge-1.20.1" = _EydrH8Yh;
-        "pkg-1.1.12" = _YCjIAnxZ;
-        "pkg-1.1.13-forge-1.20.1" = _zPIewTSj;
-        "default" = _zPIewTSj;
+        "pkg-1.1.12" = _fAfWpzji;
+        "pkg-1.1.13-forge-1.20.1" = _W3gM2zDW;
+        "default" = _W3gM2zDW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teyvats-delight";

@@ -151,6 +151,11 @@ let
             "file" = "groovyscript-1.4.3.jar";
             "hash" = "sha512-YcbWBhqaTd7MqiS9r7G/oW/4mC2q4wQ2yxnoirHnlgjjR+/e6uTva/HUux1vdQCO+EaSyNxi1xjkJ3hrwp7CJg==";
         };
+        _Ea8L4MCd = {
+            "id" = "Ea8L4MCd";
+            "file" = "groovyscript-1.5.0.jar";
+            "hash" = "sha512-g2BIlSmi2oEoNCCw6qnmDqkCi0T1gzUqEuVcbgKp9EnrRF6DgjFXQutkQlPfl15/ID4U+O6lWcCvRuvHYp7G1A==";
+        };
     in {
         "7knAPwWH" = _7knAPwWH;
         "44bdi5HS" = _44bdi5HS;
@@ -182,7 +187,8 @@ let
         "5IjyGBX3" = _5IjyGBX3;
         "18wolpbg" = _18wolpbg;
         "mkViescX" = _mkViescX;
-        "forge-1.12.2" = _mkViescX;
+        "Ea8L4MCd" = _Ea8L4MCd;
+        "forge-1.12.2" = _Ea8L4MCd;
         "pkg-0.6.4" = _7knAPwWH;
         "pkg-0.7.1" = _44bdi5HS;
         "pkg-0.7.2" = _mix8sgMx;
@@ -211,7 +217,8 @@ let
         "pkg-1.4.1" = _5IjyGBX3;
         "pkg-1.4.2" = _18wolpbg;
         "pkg-1.4.3" = _mkViescX;
-        "default" = _mkViescX;
+        "pkg-1.5.0" = _Ea8L4MCd;
+        "default" = _Ea8L4MCd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "groovyscript";

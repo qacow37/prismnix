@@ -1626,6 +1626,11 @@ let
             "file" = "CreativeCore_FABRIC_v2.14.24_mc26.3.jar";
             "hash" = "sha512-0Fu6sZLq/55mSWvAunsrzmfB0j2ZEy7HJB3SxMB8UZmYO9YK2DJGsK14YJonJDWFEPoYlTDBmwWQ9d5JS70Z5Q==";
         };
+        _JS0K93bG = {
+            "id" = "JS0K93bG";
+            "file" = "CreativeCore_NEOFORGE_v2.13.52_mc1.21.1.jar";
+            "hash" = "sha512-TE5roVSHWtW5RKfMv5oLKYxDOCw18Au95hh21NAxFbQ2eKRjuQzBNOu3ZmFeFEIXWI9KEPq46wpIWtvge10QLA==";
+        };
     in {
         "KQPGT13V" = _KQPGT13V;
         "fV0nS6Hk" = _fV0nS6Hk;
@@ -1952,6 +1957,7 @@ let
         "FogHwRAz" = _FogHwRAz;
         "Jyax6gDi" = _Jyax6gDi;
         "7YUEsxpw" = _7YUEsxpw;
+        "JS0K93bG" = _JS0K93bG;
         "forge-1.12.2" = _KQPGT13V;
         "forge-1.16.5" = _fV0nS6Hk;
         "forge-1.17.1" = _L9bEkcLq;
@@ -1993,7 +1999,7 @@ let
         "neoforge-1.20.6" = _k7nEB7oU;
         "neoforge-1.21" = _XhbN7Hjf;
         "neoforge-1.19.2" = _FHuLs5LQ;
-        "neoforge-1.21.1" = _vRMtFt35;
+        "neoforge-1.21.1" = _JS0K93bG;
         "neoforge-1.21.3" = _9NJsNwZi;
         "neoforge-1.21.4" = _TBspwP11;
         "neoforge-1.21.5" = _WGyC3FK5;
@@ -2196,7 +2202,8 @@ let
         "pkg-2.14.22" = _mzuUQoPB;
         "pkg-2.14.23" = _FogHwRAz;
         "pkg-2.14.24" = _7YUEsxpw;
-        "default" = _7YUEsxpw;
+        "pkg-2.13.52" = _JS0K93bG;
+        "default" = _JS0K93bG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creativecore";

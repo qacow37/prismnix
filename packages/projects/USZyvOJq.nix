@@ -681,6 +681,26 @@ let
             "file" = "insanelib-2.5.0.1-alpha.jar";
             "hash" = "sha512-TKgAljQ4GimVbCenrzPFDLg9wBFuCdo7J9jbGYLl1CxTtP+D1G0WwbUT2nEzn9bmMIujUVEuNJ9dUYjTuNORQg==";
         };
+        _hS5I3YYg = {
+            "id" = "hS5I3YYg";
+            "file" = "insanelib-2.5.0.2-alpha.jar";
+            "hash" = "sha512-ak8WA1i2aiM+AWRdOkUxo/dB1H6RLZcPOv/eIfUecC2MH1GXj+pDMmEqneXFLihxjsxKgsPdRKI3oP6RoztznQ==";
+        };
+        _gqlJzLBZ = {
+            "id" = "gqlJzLBZ";
+            "file" = "insanelib-2.5.0.3-alpha.jar";
+            "hash" = "sha512-I+4wNk4dV6aiO7b7u3mUEbnDgSAe9Cm9TqUW4OCrv9gz4g1CqxgBnTctcCsjPQ1qiEb88CUzHM+CD8PkOWHoaA==";
+        };
+        _MzNU8bl1 = {
+            "id" = "MzNU8bl1";
+            "file" = "insanelib-2.5.0.4-alpha.jar";
+            "hash" = "sha512-JHHzFK8P7mU4dJzhvdODajreIazEPlbkAgH2GZ9hSyfZs0VDtIWJZK1VyvqY4kVpGjQn0wPQKOIrkq7gmhOS1Q==";
+        };
+        _CqA80atA = {
+            "id" = "CqA80atA";
+            "file" = "insanelib-2.5.0.5-beta.jar";
+            "hash" = "sha512-vfKJ2OAhrB+bAjmThUw41lgUpXz2OhXXzVKNGWvL/1Y9OICa6DGH8AYPhsHuan7YLgyxAagzOwSCaL5pZWt+mw==";
+        };
     in {
         "24MVTO59" = _24MVTO59;
         "UZWZIc1c" = _UZWZIc1c;
@@ -818,12 +838,16 @@ let
         "GF4CgHq4" = _GF4CgHq4;
         "hRnL6ayY" = _hRnL6ayY;
         "nXTK44qi" = _nXTK44qi;
+        "hS5I3YYg" = _hS5I3YYg;
+        "gqlJzLBZ" = _gqlJzLBZ;
+        "MzNU8bl1" = _MzNU8bl1;
+        "CqA80atA" = _CqA80atA;
         "forge-1.18.2" = _24MVTO59;
         "forge-1.19.2" = _UZWZIc1c;
         "forge-1.19.4" = _i1Z3Iifr;
         "forge-1.20.1" = _azl3fnxF;
         "neoforge-1.20.1" = _5oermGyM;
-        "neoforge-1.21.1" = _nXTK44qi;
+        "neoforge-1.21.1" = _CqA80atA;
         "neoforge-26.1.2" = _Amzuav8X;
         "pkg-1.5.1" = _24MVTO59;
         "pkg-1.7.5" = _UZWZIc1c;
@@ -960,7 +984,11 @@ let
         "pkg-2.4.37.0" = _GF4CgHq4;
         "pkg-2.5.0.0-alpha" = _hRnL6ayY;
         "pkg-2.5.0.1-alpha" = _nXTK44qi;
-        "default" = _nXTK44qi;
+        "pkg-2.5.0.2-alpha" = _hS5I3YYg;
+        "pkg-2.5.0.3-alpha" = _gqlJzLBZ;
+        "pkg-2.5.0.4-alpha" = _MzNU8bl1;
+        "pkg-2.5.0.5-beta" = _CqA80atA;
+        "default" = _CqA80atA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "insanelib";

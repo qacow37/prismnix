@@ -256,6 +256,31 @@ let
             "file" = "colorlight-1.21.1-0.2.6.jar";
             "hash" = "sha512-ZbAIvsK+5tRIJla3rJf/0osqN0KGygrN/15DJAtlLY/7zvr5aZoXhZVYt4YdzrcRs1WfkDCAKcbBC/OpNek4Dw==";
         };
+        _IBuV0bwb = {
+            "id" = "IBuV0bwb";
+            "file" = "colorlight-1.21.1-0.2.7.jar";
+            "hash" = "sha512-wLBG/DjomXRLOIvaZu1OCGkQmzzMYVmPWfgC8eULtOF7+IV05fENbi3CghWrHOWs/V6XBbJWHV2/2/XEZ4+wqQ==";
+        };
+        _KjmtbNO0 = {
+            "id" = "KjmtbNO0";
+            "file" = "colorlight-1.21.11-0.2.7.jar";
+            "hash" = "sha512-bjnGtY5Cct7cMCWbBLL4qhEbsNwIWKeeK7DU3l7FsL2UvUcJaqRk7iVbgFseLCly43nPq0+gQO7L3hNwOjagOg==";
+        };
+        _Jlj6GD7C = {
+            "id" = "Jlj6GD7C";
+            "file" = "colorlight-26.1.2-0.2.7.jar";
+            "hash" = "sha512-orS31kSGlqojWGBK79STo82CRDcFdNwvOGpBlO515SI4hglooKOSqeakBYGgIjgUVwovj9y7xv/7vgyZUUroxw==";
+        };
+        _ARuf4c6D = {
+            "id" = "ARuf4c6D";
+            "file" = "colorlight-26.2-0.2.7.jar";
+            "hash" = "sha512-r/ReRWksooK1qEEovtp+l1PtnmMPzO2SAP1IhUpbRloziu6Q2BgnCwcp1T13qCEy/6Yf4UVbHHgs2vuuo1+eOw==";
+        };
+        _exXtA8OX = {
+            "id" = "exXtA8OX";
+            "file" = "colorlight-26.3-0.2.7.jar";
+            "hash" = "sha512-qOuYe6Xj98SFZf2DT5Oq2+Eb3A8y1oyuA9sySk383r+O2CihV4Xt3wNKugJPK5mSiAUaw80e1dWMpma7j98cPQ==";
+        };
     in {
         "xxH0Rw9n" = _xxH0Rw9n;
         "nQlysvms" = _nQlysvms;
@@ -308,13 +333,18 @@ let
         "1oqxGxQS" = _1oqxGxQS;
         "9a4YB2cP" = _9a4YB2cP;
         "fNPbvxUY" = _fNPbvxUY;
-        "fabric-1.21.1" = _fNPbvxUY;
-        "fabric-1.21.11" = _79kAgjOK;
-        "fabric-26.1" = _rWNmb0y7;
-        "fabric-26.1.1" = _rWNmb0y7;
-        "fabric-26.1.2" = _IXTUKOPR;
-        "fabric-26.2" = _hmX8Onun;
-        "fabric-26.3" = _1oqxGxQS;
+        "IBuV0bwb" = _IBuV0bwb;
+        "KjmtbNO0" = _KjmtbNO0;
+        "Jlj6GD7C" = _Jlj6GD7C;
+        "ARuf4c6D" = _ARuf4c6D;
+        "exXtA8OX" = _exXtA8OX;
+        "fabric-1.21.1" = _IBuV0bwb;
+        "fabric-1.21.11" = _KjmtbNO0;
+        "fabric-26.1" = _Jlj6GD7C;
+        "fabric-26.1.1" = _Jlj6GD7C;
+        "fabric-26.1.2" = _Jlj6GD7C;
+        "fabric-26.2" = _ARuf4c6D;
+        "fabric-26.3" = _exXtA8OX;
         "pkg-ColorLight-0.0.1-log" = _xxH0Rw9n;
         "pkg-ColorLight-0.0.2-log" = _nQlysvms;
         "pkg-ColorLight-0.0.3" = _psgxbsSE;
@@ -365,7 +395,12 @@ let
         "pkg-ColorLight-26.3-0.2.5" = _1oqxGxQS;
         "pkg-ColorLight-1.21.1-0.2.5" = _9a4YB2cP;
         "pkg-ColorLight-1.21.1-0.2.6" = _fNPbvxUY;
-        "default" = _fNPbvxUY;
+        "pkg-ColorLight-1.21.1-0.2.7-beta.1" = _IBuV0bwb;
+        "pkg-ColorLight-1.21.11-0.2.7-beta.1" = _KjmtbNO0;
+        "pkg-ColorLight-26.1.x-0.2.7-beta.1" = _Jlj6GD7C;
+        "pkg-ColorLight-26.2-0.2.7-beta.1" = _ARuf4c6D;
+        "pkg-ColorLight-26.3-0.2.7-beta.1" = _exXtA8OX;
+        "default" = _exXtA8OX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorlight";

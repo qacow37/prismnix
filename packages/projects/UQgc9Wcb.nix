@@ -141,6 +141,21 @@ let
             "file" = "upgrader-neoforge-1.3.0+26.2.jar";
             "hash" = "sha512-9OJN7pWFFiLNGGugMMwPeRciniMGmz+vanXk0miNmUAY88zzLIEpKujDL6tUXqJyeBRYFMrEAve3AhKYkB4dCQ==";
         };
+        _WD8vPRBP = {
+            "id" = "WD8vPRBP";
+            "file" = "upgrader-neoforge-1.3.0+26.1.2.jar";
+            "hash" = "sha512-DEq9TJYvTawH9px9yEYzCtwtM0z1CE+gn4zQqmlNFlLTi007aFsw0PtnbW9mduDC7aoSy/+g/Auim5jr0CjllQ==";
+        };
+        _j0woVt1n = {
+            "id" = "j0woVt1n";
+            "file" = "upgrader-forge-1.3.0+26.1.2.jar";
+            "hash" = "sha512-h0TCFHtUGgsz21cddLUqQhaIvyRpVLRnZcyO831ybLYbB1sec/2v1L4ZZ7cshpV5qohsGD1mtiU4Ouzri5jBKA==";
+        };
+        _cHYcOltW = {
+            "id" = "cHYcOltW";
+            "file" = "upgrader-fabric-1.3.0+26.1.2.jar";
+            "hash" = "sha512-nnsYvHWjm5+dbP/3FPXKY52khpJhBH8llhfuicQvLsdbLt1kJ2Ts3SqZKnaqVuVij5jE1UItUyRKnVuoegGQDw==";
+        };
     in {
         "VJ8t83ja" = _VJ8t83ja;
         "iGt0fGOA" = _iGt0fGOA;
@@ -170,13 +185,18 @@ let
         "xd90tYN8" = _xd90tYN8;
         "q4gD7HN3" = _q4gD7HN3;
         "MW7UfV4x" = _MW7UfV4x;
+        "WD8vPRBP" = _WD8vPRBP;
+        "j0woVt1n" = _j0woVt1n;
+        "cHYcOltW" = _cHYcOltW;
         "forge-1.20.1" = _nIG81STn;
         "forge-1.21.1" = _vGERlJD8;
         "forge-1.21.11" = _b7KSVmTN;
         "forge-26.2" = _q4gD7HN3;
+        "forge-26.1.2" = _j0woVt1n;
         "neoforge-1.21.1" = _n86zXbJ7;
         "neoforge-1.21.11" = _Ba7yf6oD;
         "neoforge-26.2" = _MW7UfV4x;
+        "neoforge-26.1.2" = _WD8vPRBP;
         "fabric-1.20" = _HsqzVJaf;
         "fabric-1.20.1" = _HdAb5DmM;
         "fabric-1.21" = _TSHz3weS;
@@ -184,13 +204,14 @@ let
         "fabric-1.21.11" = _SeU8qUBA;
         "fabric-26.2" = _xd90tYN8;
         "fabric-26.3" = _PltRiSrG;
+        "fabric-26.1.2" = _cHYcOltW;
         "pkg-1.0" = _emrOVUhE;
         "pkg-1.0.1" = _1GBWF8UR;
         "pkg-1.1.0" = _wJqpSmL9;
         "pkg-1.2.0" = _dQuszdA0;
         "pkg-1.2.1" = _wBDnmjGP;
-        "pkg-1.3.0" = _MW7UfV4x;
-        "default" = _MW7UfV4x;
+        "pkg-1.3.0" = _cHYcOltW;
+        "default" = _cHYcOltW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "upgrade-items";

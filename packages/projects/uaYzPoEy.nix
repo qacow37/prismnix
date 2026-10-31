@@ -141,6 +141,11 @@ let
             "file" = "count-easy-1.7.2.jar";
             "hash" = "sha512-JOsnzB+mU6dOLO2lrRuEdQX73xlO/G1hzDB78ltNKr73tEIZlTBusnEx3vyTpkxnsH0yA3VE4qYJUp2AxNu1kw==";
         };
+        _Bsp8RuV9 = {
+            "id" = "Bsp8RuV9";
+            "file" = "count-easy-1.7.3(1).jar";
+            "hash" = "sha512-e0K0coJ/Ld1r+sjm45HRhseV/kJfdqJRr8RXG39hSpYnJVZfCqFlzgn7eqh4TxYL4su7HrRLhTaxg4/5vTuc9w==";
+        };
     in {
         "DKJB2yg2" = _DKJB2yg2;
         "hI3V0GpL" = _hI3V0GpL;
@@ -170,7 +175,8 @@ let
         "BWphdsAf" = _BWphdsAf;
         "CmTZKIYH" = _CmTZKIYH;
         "C2tHye3U" = _C2tHye3U;
-        "fabric-1.21.4" = _C2tHye3U;
+        "Bsp8RuV9" = _Bsp8RuV9;
+        "fabric-1.21.4" = _Bsp8RuV9;
         "pkg-1.0.0" = _DKJB2yg2;
         "pkg-1.1.0" = _hI3V0GpL;
         "pkg-1.1.1" = _Xywolm2B;
@@ -199,7 +205,8 @@ let
         "pkg-1.7.0" = _BWphdsAf;
         "pkg-1.7.1" = _CmTZKIYH;
         "pkg-1.7.2" = _C2tHye3U;
-        "default" = _C2tHye3U;
+        "pkg-1.7.3" = _Bsp8RuV9;
+        "default" = _Bsp8RuV9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "count-easy";

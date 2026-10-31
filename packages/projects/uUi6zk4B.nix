@@ -411,6 +411,21 @@ let
             "file" = "combatradar-1.7.11-mc26.2-fabric.jar";
             "hash" = "sha512-EfjiqLeeYXZ5te8Fza12fIpY4okKHslIDwAUaBmLtu8mwqYIt+qZZUqvSf5rjTVwZOd9ODSjOco2E7ZoVbSbog==";
         };
+        _yqYL4hUS = {
+            "id" = "yqYL4hUS";
+            "file" = "combatradar-1.7.11-mc26.3-fabric.jar";
+            "hash" = "sha512-XsgGgzMus+1EwL/mP7JHgmeIEUr2K9wCsZe1kCnKoG6d/abUMAvx6onGe4SX9bUPT/4+yslfjgYTXCpUgvlJiA==";
+        };
+        _Bfme6EOB = {
+            "id" = "Bfme6EOB";
+            "file" = "combatradar-1.7.11-mc26.3-forge.jar";
+            "hash" = "sha512-/hoz87m0LkqxXf4biVcxurHcBuaPStgGe+6VAlpp9YQ0AC3ur8yXrxsGGhDWPIzH3hETbBBXKDeohxpV/p8UUw==";
+        };
+        _jW5Mzre7 = {
+            "id" = "jW5Mzre7";
+            "file" = "combatradar-1.7.11-mc26.3-neoforge.jar";
+            "hash" = "sha512-78QvIJwnZpgJHJnKVi8y+Y2pQPe/H7EM+lsuPmHXP981LTOgT3NqBZF9QFzuL2zO5gj6XghPGd5bQU+cxsTa/Q==";
+        };
     in {
         "YU1ghZnq" = _YU1ghZnq;
         "owBePY1b" = _owBePY1b;
@@ -494,6 +509,9 @@ let
         "ZXXGfxhf" = _ZXXGfxhf;
         "KO4MZcqL" = _KO4MZcqL;
         "rprXdzKp" = _rprXdzKp;
+        "yqYL4hUS" = _yqYL4hUS;
+        "Bfme6EOB" = _Bfme6EOB;
+        "jW5Mzre7" = _jW5Mzre7;
         "forge-1.20.4" = _owBePY1b;
         "forge-1.21.1" = _4fQ7xObo;
         "forge-1.21.3" = _scQpTm0D;
@@ -505,6 +523,7 @@ let
         "forge-1.21.9" = _6tmjmkMX;
         "forge-1.21.10" = _atX0XtfS;
         "forge-1.21.11" = _qXlrJalx;
+        "forge-26.3" = _Bfme6EOB;
         "neoforge-1.20.6" = _KxAb778Z;
         "neoforge-1.21.1" = _KiusT1eU;
         "neoforge-1.21.3" = _OoSZlZTg;
@@ -520,6 +539,7 @@ let
         "neoforge-26.1.1" = _zdJcPxKJ;
         "neoforge-26.1.2" = _FSTBZyHw;
         "neoforge-26.2" = _KO4MZcqL;
+        "neoforge-26.3" = _jW5Mzre7;
         "fabric-1.21.1" = _CNLsy9TZ;
         "fabric-1.20.4" = _NmFcyxSs;
         "fabric-1.20.6" = _9DmRNGHT;
@@ -536,6 +556,7 @@ let
         "fabric-26.1.1" = _bnqkg15T;
         "fabric-26.1.2" = _ZXXGfxhf;
         "fabric-26.2" = _rprXdzKp;
+        "fabric-26.3" = _yqYL4hUS;
         "pkg-1.7" = _YU1ghZnq;
         "pkg-1.7.1" = _NmFcyxSs;
         "pkg-1.7.2" = _FgEGQcyT;
@@ -566,7 +587,8 @@ let
         "pkg-1.7.10-1.21.11" = _oeJGWRwM;
         "pkg-1.7.11-mc26.1.2" = _ZXXGfxhf;
         "pkg-1.7.11-mc26.2" = _rprXdzKp;
-        "default" = _rprXdzKp;
+        "pkg-1.7.11-mc26.3" = _jW5Mzre7;
+        "default" = _jW5Mzre7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combatradar";

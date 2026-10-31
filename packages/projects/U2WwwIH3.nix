@@ -86,6 +86,11 @@ let
             "file" = "dodospyglass-2.0.0-neoforge+1.21.3.jar";
             "hash" = "sha512-GpbIn4YhVydP9NapMHJkxSkKInCVijmBl2A7HpSkGMAhNiYowqBsxwgq0prNVimQyckSe5eYrmNnd0W+M7ieVw==";
         };
+        _PB3R5edS = {
+            "id" = "PB3R5edS";
+            "file" = "dodospyglass-2.1.0-forge+1.20.1.jar";
+            "hash" = "sha512-9TCwDRHZs7/5ZWTviFwwnl7jT0K6KagcCZYZSjT/iboBmiINz6Sp8hWBuvfWVThg+d/cVcVEMmewAsAPaFavrA==";
+        };
     in {
         "RgR4RxDS" = _RgR4RxDS;
         "Dt9j19ar" = _Dt9j19ar;
@@ -104,6 +109,7 @@ let
         "PphAVtK3" = _PphAVtK3;
         "YviuiSVC" = _YviuiSVC;
         "2alw9x6c" = _2alw9x6c;
+        "PB3R5edS" = _PB3R5edS;
         "neoforge-1.21.1" = _vfmS9atF;
         "neoforge-26.1.2" = _1aEjCG6f;
         "neoforge-1.21.11" = _2FNAzR07;
@@ -112,7 +118,7 @@ let
         "neoforge-26.2" = _HuEQ9LgP;
         "neoforge-1.21.3" = _2alw9x6c;
         "forge-1.19.2" = _Dt9j19ar;
-        "forge-1.20.1" = _PphAVtK3;
+        "forge-1.20.1" = _PB3R5edS;
         "forge-1.18.2" = _JKM5CJTJ;
         "fabric-1.21.1" = _CXNiZggB;
         "fabric-1.21.4" = _tpl8cgVx;
@@ -123,7 +129,8 @@ let
         "quilt-1.21.3" = _YviuiSVC;
         "pkg-1.0.0" = _HuEQ9LgP;
         "pkg-2.0.0" = _2alw9x6c;
-        "default" = _2alw9x6c;
+        "pkg-2.1.0" = _PB3R5edS;
+        "default" = _PB3R5edS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dodospyglass-spyglass-curios-compat";

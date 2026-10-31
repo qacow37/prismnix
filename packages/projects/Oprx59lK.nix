@@ -651,6 +651,51 @@ let
             "file" = "Floral Enchantment-fabric-1.20.1-1.1.4.jar";
             "hash" = "sha512-KPbt9426PGomxfq0cvMteTmTLMeEUZcpxJfMx+ouVnx2sm/tb+QTC87xwWYCuUaUtfJcBVfcPTmVaV2X9aXdBw==";
         };
+        _jPW0kHOx = {
+            "id" = "jPW0kHOx";
+            "file" = "Floral Enchantment-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-2EF6gUPDrDIgdE/WLP2rew5zxPGLmZToXPRUsi7s4JZwD2RxoQIJ1eO+wNEaYcl7HHkRhzjwJW3PxtQSPNNjOw==";
+        };
+        _FSH9rV4t = {
+            "id" = "FSH9rV4t";
+            "file" = "Floral Enchantment-forge-26.1.2-1.7.0.jar";
+            "hash" = "sha512-k81TaQWwS/GZo/5pUPX/h4qWGLCoC7rA7tbWA45TYP+vfJLew2ZU2okle3K2tXUvIL0wmDtoT+5HxAAbqXt2Sw==";
+        };
+        _s88YirHG = {
+            "id" = "s88YirHG";
+            "file" = "Floral Enchantment-neoforge-26.1.2-1.3.0.jar";
+            "hash" = "sha512-fuGJ7998sIbXsxhJoFK8mljKJo238EGUNq/KBKR32U4XS9kPw0Ko6Sri0tfhKYiDNGMl4+ESesOkV+TooMBfQw==";
+        };
+        _HNVjqqcy = {
+            "id" = "HNVjqqcy";
+            "file" = "Floral Enchantment-neoforge-26.2-1.3.0.jar";
+            "hash" = "sha512-P9rJPA2M0sDBD8oeLFyVOqG50vxu0eFSVUChe0+W3aIe5G1wIdmNgKEiWhxx7UR01jPfOpbdmy8Egu1fqaf/3Q==";
+        };
+        _vyITqM9M = {
+            "id" = "vyITqM9M";
+            "file" = "Floral Enchantment-forge-26.2-1.7.0.jar";
+            "hash" = "sha512-SyUG9fqR5GepkIzNJuZCZewbNLc8y4J0XzbWHx7YaEQOVFkkxvvCayRQw2KT2aE9vvS4nu+x49oq81zQLZitbQ==";
+        };
+        _3BnKyRT4 = {
+            "id" = "3BnKyRT4";
+            "file" = "Floral Enchantment-fabric-26.2-1.4.0.jar";
+            "hash" = "sha512-IbPPnjfSN21djAvMFqQBw1xnvQEA0L9sX8kgmMJnZ6T///8l1sDWLRi+8LBLpe2E8r3gh1eJPuO4ZmXyvoWBTA==";
+        };
+        _iAV4wMMx = {
+            "id" = "iAV4wMMx";
+            "file" = "Floral Enchantment-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-4WezJU9tzHpHF6POz1R6V3aEzBz2OG39y/jYNUeoaCgykWy3gqUT8NdaJEhKEHOTnJOqbcf1ATQN42DSck1ykA==";
+        };
+        _alZGWpxH = {
+            "id" = "alZGWpxH";
+            "file" = "Floral Enchantment-neoforge-26.3-1.3.0.jar";
+            "hash" = "sha512-HN6e8tO/VEfjW1++zkZg9322FTN6qobzCOWhv334IV1qeMvV7LXEQB0rlnMZw4lcfEW+PQi/IadL5mUKiQRiFQ==";
+        };
+        _ddZO0AqE = {
+            "id" = "ddZO0AqE";
+            "file" = "Floral Enchantment-forge-26.3-1.7.0.jar";
+            "hash" = "sha512-qO5alr6EKjThy9IQ1ffezb9oqfNL5HoYo85ukyXZuySBISfOPngxJ4RvGMsoESEMnxRTxMZyFQsE8WJlx3AKsQ==";
+        };
     in {
         "de0eNSNt" = _de0eNSNt;
         "18EzMA6o" = _18EzMA6o;
@@ -782,6 +827,15 @@ let
         "dH5rdpiB" = _dH5rdpiB;
         "VybtvqbE" = _VybtvqbE;
         "lOxq8Vkx" = _lOxq8Vkx;
+        "jPW0kHOx" = _jPW0kHOx;
+        "FSH9rV4t" = _FSH9rV4t;
+        "s88YirHG" = _s88YirHG;
+        "HNVjqqcy" = _HNVjqqcy;
+        "vyITqM9M" = _vyITqM9M;
+        "3BnKyRT4" = _3BnKyRT4;
+        "iAV4wMMx" = _iAV4wMMx;
+        "alZGWpxH" = _alZGWpxH;
+        "ddZO0AqE" = _ddZO0AqE;
         "forge-1.18.2" = _de0eNSNt;
         "forge-1.19.2" = _18EzMA6o;
         "forge-1.19.3" = _Batxzn9u;
@@ -800,8 +854,9 @@ let
         "forge-1.21.9" = _MGFirMY7;
         "forge-1.21.10" = _ndQfhvnQ;
         "forge-1.21.11" = _tyYoJooQ;
-        "forge-26.1.2" = _kxJiNMDi;
-        "forge-26.2" = _dH5rdpiB;
+        "forge-26.1.2" = _FSH9rV4t;
+        "forge-26.2" = _vyITqM9M;
+        "forge-26.3" = _ddZO0AqE;
         "fabric-1.18.2" = _gEuo896R;
         "fabric-1.19.2" = _Tpty0dTs;
         "fabric-1.19.3" = _CyujhZtE;
@@ -823,8 +878,9 @@ let
         "fabric-1.21.9" = _zkZyJTC5;
         "fabric-1.21.10" = _mmL8E2ng;
         "fabric-1.21.11" = _JH8vSv0b;
-        "fabric-26.1.2" = _diATUnsD;
-        "fabric-26.2" = _sLyuHhXK;
+        "fabric-26.1.2" = _jPW0kHOx;
+        "fabric-26.2" = _3BnKyRT4;
+        "fabric-26.3" = _iAV4wMMx;
         "neoforge-1.20.2" = _7sfiPKU2;
         "neoforge-1.20.3" = _Tv8IerQ7;
         "neoforge-1.20.4" = _GFsfN3AY;
@@ -840,9 +896,10 @@ let
         "neoforge-1.21.9" = _cWNTsshv;
         "neoforge-1.21.10" = _cSW2bWq0;
         "neoforge-1.21.11" = _5Rgy8aXl;
-        "neoforge-26.1.2" = _7hOYkFBM;
-        "neoforge-26.2" = _VybtvqbE;
-        "pkg-1.4.0" = _de0eNSNt;
+        "neoforge-26.1.2" = _s88YirHG;
+        "neoforge-26.2" = _HNVjqqcy;
+        "neoforge-26.3" = _alZGWpxH;
+        "pkg-1.4.0" = _iAV4wMMx;
         "pkg-1.4.2" = _18EzMA6o;
         "pkg-1.1.1" = _S6ofCXT6;
         "pkg-1.1.2" = _5yFJw2ZS;
@@ -863,9 +920,10 @@ let
         "pkg-1.2.2" = _LbndZ0fW;
         "pkg-1.5.3" = _G3P35q6Q;
         "pkg-1.2.3" = _dIDOWUVY;
-        "pkg-1.3.0" = _sLyuHhXK;
+        "pkg-1.3.0" = _alZGWpxH;
         "pkg-1.6.0" = _dH5rdpiB;
-        "default" = _lOxq8Vkx;
+        "pkg-1.7.0" = _ddZO0AqE;
+        "default" = _ddZO0AqE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "floral-enchantment";

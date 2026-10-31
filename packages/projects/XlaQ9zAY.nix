@@ -166,6 +166,11 @@ let
             "file" = "Aesthetic Visuals - 26.1.zip";
             "hash" = "sha512-sQoSAtiA+zgTfNYxjl1nb1u7RHS5u6muF1gW2yUZB4QSylxDMjjUQF2cUEv562oqnuxfANOrsmUgXY65BJTW/w==";
         };
+        _TBhQlzUm = {
+            "id" = "TBhQlzUm";
+            "file" = "AestheticVisuals-26.3-v1.9.zip";
+            "hash" = "sha512-YDEzEoG15mGzc83V1FGy0xjzhgMwYurSB+ybkEK3+tKg4PqsfALmHvjEXYR1t4yzEHe5r3LEKEJ+zOCYR4mIDg==";
+        };
     in {
         "lv8clyjh" = _lv8clyjh;
         "PsTsrk6T" = _PsTsrk6T;
@@ -200,6 +205,7 @@ let
         "OR0B9evs" = _OR0B9evs;
         "oyAKbaQr" = _oyAKbaQr;
         "42laRhoE" = _42laRhoE;
+        "TBhQlzUm" = _TBhQlzUm;
         "minecraft-1.21" = _ADkVKgKB;
         "minecraft-1.21.1" = _FmbqlnXe;
         "minecraft-1.21.2" = _FmbqlnXe;
@@ -215,6 +221,8 @@ let
         "minecraft-26.1" = _42laRhoE;
         "minecraft-26.1.1" = _42laRhoE;
         "minecraft-26.1.2" = _42laRhoE;
+        "minecraft-26.2" = _TBhQlzUm;
+        "minecraft-26.3" = _TBhQlzUm;
         "pkg-0" = _lv8clyjh;
         "pkg-0.1" = _PsTsrk6T;
         "pkg-0.1.1" = _GsfGVUkw;
@@ -247,7 +255,8 @@ let
         "pkg-1.7.0" = _OR0B9evs;
         "pkg-1.21.11" = _oyAKbaQr;
         "pkg-1.8.1" = _42laRhoE;
-        "default" = _42laRhoE;
+        "pkg-1.9" = _TBhQlzUm;
+        "default" = _TBhQlzUm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aesthetic-visuals";

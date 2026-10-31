@@ -71,6 +71,36 @@ let
             "file" = "zombiehunter-3.3.0.jar";
             "hash" = "sha512-KiQ01DSC5zVortzdjOZVcurSCs8GzzHJEJQozaA3kZaJxD9kpnw5Id5/O9gPM9S4kLHgqCh7w4fTt7osoulT/w==";
         };
+        _DCh2n94U = {
+            "id" = "DCh2n94U";
+            "file" = "apocalypse360-4.0.0.jar";
+            "hash" = "sha512-vMe19WksEUG9GL0Dh7v4buwcIEwO4mIwfPVcX7XUrAANu9EIEXK4mmxuwmjc0bMzCwJljzIUluQU5zT3J0Jwnw==";
+        };
+        _VPv0t0RA = {
+            "id" = "VPv0t0RA";
+            "file" = "apocalypse360-3.4.0.jar";
+            "hash" = "sha512-vlaRL+/n6jggBTdLPLsVRZFgnSSanQ8SyIQ8R1DdAthZKSlp3uV+hkNc4nrIFwISNmIgPCmDovPFa5KzmkcMhg==";
+        };
+        _K79xjiy3 = {
+            "id" = "K79xjiy3";
+            "file" = "apocalypse360-4.0.1.jar";
+            "hash" = "sha512-jIaxIuPX8SDtPFrIk7zhmEp9zYEdtyQc9qe/ccOhpja5Lz9l9rBKsjz5019x92ZJfASPDTcP53qjqCKvvq4xKQ==";
+        };
+        _hhG8uPRH = {
+            "id" = "hhG8uPRH";
+            "file" = "apocalypse360-3.4.1.jar";
+            "hash" = "sha512-HrPHxkdHgextVs2qwePMFsmLLxNx0np5nNEmo7LqCd4cQ1TEb3kjUg6TdaUGdAAeZnKapCg5BbxxOwRxNZtQJQ==";
+        };
+        _cUnphcJR = {
+            "id" = "cUnphcJR";
+            "file" = "apocalypse360-4.0.2.jar";
+            "hash" = "sha512-U7oJS2HRC83BmqLj8ZI/zsJpmTcdDEvZ/HO8Pqt0USWhCB+RomgUu+sj6xFqRjOuVRkqSc3uJSeZwbuOI/Fe3w==";
+        };
+        _hdgkM7TR = {
+            "id" = "hdgkM7TR";
+            "file" = "apocalypse360-3.4.2.jar";
+            "hash" = "sha512-DL0jfPJmrHZj21VDC4TCDQ7F2cygHYYu1x9Sxqtn4guOIaHW6IjIXLv+rCbLTR0HOnkX70bTR38hzxYBkGi3sg==";
+        };
     in {
         "UTRvcaAa" = _UTRvcaAa;
         "XYRhRwYo" = _XYRhRwYo;
@@ -86,11 +116,18 @@ let
         "AbNMfhuF" = _AbNMfhuF;
         "R6FDchIF" = _R6FDchIF;
         "lho6qNO4" = _lho6qNO4;
+        "DCh2n94U" = _DCh2n94U;
+        "VPv0t0RA" = _VPv0t0RA;
+        "K79xjiy3" = _K79xjiy3;
+        "hhG8uPRH" = _hhG8uPRH;
+        "cUnphcJR" = _cUnphcJR;
+        "hdgkM7TR" = _hdgkM7TR;
         "forge-1.18.2" = _5fnzji89;
         "forge-1.19.2" = _XYRhRwYo;
         "forge-1.19.4" = _34tZxE53;
         "forge-1.16.5" = _F7STIuh3;
-        "forge-1.20.1" = _lho6qNO4;
+        "forge-1.20.1" = _hdgkM7TR;
+        "neoforge-1.21.1" = _cUnphcJR;
         "pkg-3.2.1" = _UTRvcaAa;
         "pkg-3.2.0" = _34tZxE53;
         "pkg-2.2.6" = _F7STIuh3;
@@ -103,7 +140,13 @@ let
         "pkg-3.2.8" = _AbNMfhuF;
         "pkg-3.2.9" = _R6FDchIF;
         "pkg-3.3.0" = _lho6qNO4;
-        "default" = _lho6qNO4;
+        "pkg-4.0.0" = _DCh2n94U;
+        "pkg-3.4.0" = _VPv0t0RA;
+        "pkg-4.0.1" = _K79xjiy3;
+        "pkg-3.4.1" = _hhG8uPRH;
+        "pkg-4.0.2" = _cUnphcJR;
+        "pkg-3.4.2" = _hdgkM7TR;
+        "default" = _hdgkM7TR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apocalypse360";

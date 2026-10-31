@@ -96,6 +96,11 @@ let
             "file" = "Origin Realms - Emissive [v1.20.0].zip";
             "hash" = "sha512-UeQsf3AVTzusTCAGmaNn3tBwKGpnFYfVIJUtJZ12/ftRAesq+tKwzuRlE34LL4XJZ6qlahw5rHmxkiR2pElzOQ==";
         };
+        _DqAQaFjh = {
+            "id" = "DqAQaFjh";
+            "file" = "Origin Realms - Emissive [v1.22.0].zip";
+            "hash" = "sha512-QBXTH99976OaNqATSjE92iIblNycUPFj3MFyZsil/OpdxRUfgGHn7AbJ9wgGAiLA5fqdG7vsMY2b2mf+MJi9Ow==";
+        };
     in {
         "IhOdqTy0" = _IhOdqTy0;
         "dt7KU4I5" = _dt7KU4I5;
@@ -116,6 +121,7 @@ let
         "9nZyoaTC" = _9nZyoaTC;
         "SKEzyJMs" = _SKEzyJMs;
         "mk7LpC24" = _mk7LpC24;
+        "DqAQaFjh" = _DqAQaFjh;
         "minecraft-1.18" = _dt7KU4I5;
         "minecraft-1.18.1" = _dt7KU4I5;
         "minecraft-1.18.2" = _dt7KU4I5;
@@ -129,6 +135,12 @@ let
         "minecraft-1.20.3" = _mk7LpC24;
         "minecraft-1.20.4" = _mk7LpC24;
         "minecraft-1.20.5" = _mk7LpC24;
+        "minecraft-1.21.11" = _DqAQaFjh;
+        "minecraft-26.1" = _DqAQaFjh;
+        "minecraft-26.1.1" = _DqAQaFjh;
+        "minecraft-26.1.2" = _DqAQaFjh;
+        "minecraft-26.2" = _DqAQaFjh;
+        "minecraft-26.3" = _DqAQaFjh;
         "pkg-1" = _IhOdqTy0;
         "pkg-1.1" = _dt7KU4I5;
         "pkg-1.1.0" = _eb3Ox0oo;
@@ -148,7 +160,8 @@ let
         "pkg-v1.17.0" = _9nZyoaTC;
         "pkg-v1.20.0" = _SKEzyJMs;
         "pkg-v1.20.1" = _mk7LpC24;
-        "default" = _mk7LpC24;
+        "pkg-1.22.0" = _DqAQaFjh;
+        "default" = _DqAQaFjh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origin-realms-emissive";

@@ -271,6 +271,16 @@ let
             "file" = "Endless Inventory-fabric-26.3-1.1.4.1.jar";
             "hash" = "sha512-fK5fIWg1iq/0BhveWM5Ll/L7nIWm9EdWfh62q/FpZwF8yRTa5eiIvEml8y6pPfcu2AZmcsDfYNxLjXTEN5UnHQ==";
         };
+        _duxVkpOk = {
+            "id" = "duxVkpOk";
+            "file" = "Endless Inventory-neoforge-26.3-1.1.4.2.jar";
+            "hash" = "sha512-vEF2WQLHLr9RiaYyOfyd1LUdvOx78+fhvLCqvjlz3Kd+N0rT6DxZjf/kP6iZFXjr8McjXCqyYPcx7gWHlWRW8A==";
+        };
+        _JL3rlVho = {
+            "id" = "JL3rlVho";
+            "file" = "Endless Inventory-fabric-26.3-1.1.4.2.jar";
+            "hash" = "sha512-+S0bjcD79ldz8Ehu91uHlqr9e/LoZeps/dc0cPjGxhVb5hS+vlaDMygFEnyO6ikuKmXrrmkehLeJYD05P1HHEg==";
+        };
     in {
         "YJJtcddQ" = _YJJtcddQ;
         "HN11XFRk" = _HN11XFRk;
@@ -326,6 +336,8 @@ let
         "1XoocgnW" = _1XoocgnW;
         "XCPIvvs9" = _XCPIvvs9;
         "V2wqB9iZ" = _V2wqB9iZ;
+        "duxVkpOk" = _duxVkpOk;
+        "JL3rlVho" = _JL3rlVho;
         "neoforge-1.21.1" = _FKTrUh5F;
         "neoforge-1.21.2" = _YJJtcddQ;
         "neoforge-1.21" = _FKTrUh5F;
@@ -336,7 +348,7 @@ let
         "neoforge-26.1.1" = _M7fOSMxG;
         "neoforge-26.1.2" = _M7fOSMxG;
         "neoforge-26.2" = _1XoocgnW;
-        "neoforge-26.3" = _XCPIvvs9;
+        "neoforge-26.3" = _duxVkpOk;
         "forge-1.20.1" = _gH8oK7TL;
         "forge-1.20" = _gH8oK7TL;
         "forge-1.21.1" = _8XbxxDHA;
@@ -359,7 +371,7 @@ let
         "fabric-26.2-snapshot-4" = _ccHd109Z;
         "fabric-1.20.2" = _6BfpIfgi;
         "fabric-26.2" = _8WbwfJHG;
-        "fabric-26.3" = _V2wqB9iZ;
+        "fabric-26.3" = _JL3rlVho;
         "pkg-1.0.1" = _YJJtcddQ;
         "pkg-1.21-1.0.2-neoforge" = _HN11XFRk;
         "pkg-1.0.10" = _g4giYsmu;
@@ -390,7 +402,8 @@ let
         "pkg-1.1.3.5" = _ccHd109Z;
         "pkg-1.1.4" = _pJ55oefZ;
         "pkg-1.1.4.1" = _V2wqB9iZ;
-        "default" = _V2wqB9iZ;
+        "pkg-1.1.4.2" = _JL3rlVho;
+        "default" = _JL3rlVho;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endless-inventory";

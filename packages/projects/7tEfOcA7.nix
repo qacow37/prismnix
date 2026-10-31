@@ -836,6 +836,81 @@ let
             "file" = "mezz_config-26.3-fabric-0.6.9.jar";
             "hash" = "sha512-hXKzhpaBijtGZizY/u7QfobUWHmB7ptj0yhMe7ss1n56Vzu9PDp/1+/hT0ZvhVSxQ+oRyssUmZFz+8CMCK9wBA==";
         };
+        _jnVlGaK0 = {
+            "id" = "jnVlGaK0";
+            "file" = "mezz_config-1.19.2-forge-0.6.10.jar";
+            "hash" = "sha512-BvSS4TYg1NFMz4FHe4kQ6x9/4N5/mZdC3Px+G4vLDIsDKiI1VwC2wc7PhjhkHJ85bySJltnWriquK0nviW23Tg==";
+        };
+        _Qdrg1MwO = {
+            "id" = "Qdrg1MwO";
+            "file" = "mezz_config-1.19.2-fabric-0.6.10.jar";
+            "hash" = "sha512-Lj3CH/CqarjCRby99jGkCh1tPSxK+TYwvevpltJBURpK8C0OYfrIDiGM/HNd46Sus5TtDnqiEsiZjIIXJnrFvQ==";
+        };
+        _toOvLp8Y = {
+            "id" = "toOvLp8Y";
+            "file" = "mezz_config-1.20.1-forge-0.6.10.jar";
+            "hash" = "sha512-cTb3Vpg9paBn+U5Ieaeyp8v6ZgSVYaITljKApZV6EZNy+PYUkIpqZ6r/CWb1ZouzHCcnR5xx3D7meISRLRmx/A==";
+        };
+        _f1hgxQ9M = {
+            "id" = "f1hgxQ9M";
+            "file" = "mezz_config-1.20.1-fabric-0.6.10.jar";
+            "hash" = "sha512-a8m9sOCX/5XxJKCe0zhx+rVUSjewrJBdaxLMMHr0HyDygXY9pgWWgZouXfmLyNtrkIEJZ+lYazkddgWOhbQBBA==";
+        };
+        _sL7Ghaz1 = {
+            "id" = "sL7Ghaz1";
+            "file" = "mezz_config-1.21.1-neoforge-0.6.10-standalone.jar";
+            "hash" = "sha512-+YSFkDEa4fLJog78/XSFhGoBHezPhcLu4Xy+0UG42I8+YuNzO78M1rBxT1neylRw9QeAdQNY064rH9ZZeyCcyw==";
+        };
+        _e6OYdupj = {
+            "id" = "e6OYdupj";
+            "file" = "mezz_config-1.21.1-forge-0.6.10.jar";
+            "hash" = "sha512-hLUaBueJwivKiVDY7DZ6WrrnIQhR4NFIF7zaX57MrV5BsPLHPNAaF8K5z66KaQneMRrx/QPHUe7lA02hRNcQ2w==";
+        };
+        _VudGGZKL = {
+            "id" = "VudGGZKL";
+            "file" = "mezz_config-1.21.1-fabric-0.6.10.jar";
+            "hash" = "sha512-4bl0x4PnoofkzAmAXK+ZR7+Zy9CYAvKYMuizKYfscpbi1ttFKWkyLTsTh2y6AEDOsehhbzSJS9p4FDagOkSl/Q==";
+        };
+        _PBqd6SbE = {
+            "id" = "PBqd6SbE";
+            "file" = "mezz_config-1.21.11-fabric-0.6.10.jar";
+            "hash" = "sha512-Tmrf14akhhFYOjRl5nAYgJ2flArQH+D7mcXHfAPMO0Sr6YM0vmrUpCQTSYOLUjE+5CLYigiPWVPfltwa5vnlZA==";
+        };
+        _tZy0RHzB = {
+            "id" = "tZy0RHzB";
+            "file" = "mezz_config-1.21.11-neoforge-0.6.10-standalone.jar";
+            "hash" = "sha512-gQR7nwyFPfxtB7tY/byRMVM5nSBOxok9e0MqXwPsxjVqLIrU8vfDEjajdMevI29hVzdHxs7d7JXleMu2cOO1ag==";
+        };
+        _5mEMrzgT = {
+            "id" = "5mEMrzgT";
+            "file" = "mezz_config-26.1.2-neoforge-0.6.10-standalone.jar";
+            "hash" = "sha512-cc8c6PdTs6sqVGpReoxHz0t3qj6L2IS8673mLsS5HBGcy16UsFaZxFtabht07JUsK8m/WCW/6s2x3hhaHMZ10A==";
+        };
+        _JpwQcdyO = {
+            "id" = "JpwQcdyO";
+            "file" = "mezz_config-26.1.2-fabric-0.6.10.jar";
+            "hash" = "sha512-inGKjHO5kXqVc2okxD3JY2M8JmpcUIm4a3/AFFKp7ZdJuLYew5HpqiPMeq2aHxmACgF7s8ktsfUSm83Qmrtirw==";
+        };
+        _YhSCy5W4 = {
+            "id" = "YhSCy5W4";
+            "file" = "mezz_config-26.2-fabric-0.6.10.jar";
+            "hash" = "sha512-cQevD7uIrKOoOZvQO4Li/NWygbV+s6+IPlhTpGmlabIm79Rg/xqkxeh9svxTHcq04SRP4g7JEC0vdr5rbKHPzA==";
+        };
+        _HsTng6Uj = {
+            "id" = "HsTng6Uj";
+            "file" = "mezz_config-26.2-neoforge-0.6.10-standalone.jar";
+            "hash" = "sha512-EC/AKGzRd0mlYvAwrpZbetOdo8sdE3hoKwdIBQmglYexyRrD8hxugmc0yWJIRzT8geGhzD8a3GQdUYggMNNxwA==";
+        };
+        _VxRkkU1f = {
+            "id" = "VxRkkU1f";
+            "file" = "mezz_config-26.3-neoforge-0.6.10-standalone.jar";
+            "hash" = "sha512-597sE3QrdAlMbujLaxoCXsdNJQWi9aXoHORXozQu6jLaY7AisxxNChQbbEbBCguKC0DsHCXvFTbg5avmcPfQqg==";
+        };
+        _kWsxPwbN = {
+            "id" = "kWsxPwbN";
+            "file" = "mezz_config-26.3-fabric-0.6.10.jar";
+            "hash" = "sha512-IHdxE3XhXXKkQtbE+2yhmNYZf8EN9Xf9z7vpVgaGLOTzU5RPY5NnRKdeNsP6yEEJ/NcKxEz+fMzGaFOI7xNVKw==";
+        };
     in {
         "xWrHX3gi" = _xWrHX3gi;
         "wUEMCw94" = _wUEMCw94;
@@ -1004,21 +1079,36 @@ let
         "MflJexJm" = _MflJexJm;
         "AXXHYYaK" = _AXXHYYaK;
         "7KlSXRjC" = _7KlSXRjC;
-        "forge-1.21.1" = _KL79GNCB;
-        "forge-1.19.2" = _9XS2P1lg;
-        "forge-1.20.1" = _quLojYTA;
-        "fabric-1.21.1" = _YDOPBdPJ;
-        "fabric-1.19.2" = _L6qBtWOI;
-        "fabric-1.20.1" = _U079rhyK;
-        "fabric-1.21.11" = _YKawaVYm;
-        "fabric-26.1.2" = _yfBlgV6q;
-        "fabric-26.2" = _MflJexJm;
-        "fabric-26.3" = _7KlSXRjC;
-        "neoforge-1.21.1" = _RdGonQpr;
-        "neoforge-1.21.11" = _HlSPUinH;
-        "neoforge-26.1.2" = _gpcHFixw;
-        "neoforge-26.2" = _1IGR1SIu;
-        "neoforge-26.3" = _AXXHYYaK;
+        "jnVlGaK0" = _jnVlGaK0;
+        "Qdrg1MwO" = _Qdrg1MwO;
+        "toOvLp8Y" = _toOvLp8Y;
+        "f1hgxQ9M" = _f1hgxQ9M;
+        "sL7Ghaz1" = _sL7Ghaz1;
+        "e6OYdupj" = _e6OYdupj;
+        "VudGGZKL" = _VudGGZKL;
+        "PBqd6SbE" = _PBqd6SbE;
+        "tZy0RHzB" = _tZy0RHzB;
+        "5mEMrzgT" = _5mEMrzgT;
+        "JpwQcdyO" = _JpwQcdyO;
+        "YhSCy5W4" = _YhSCy5W4;
+        "HsTng6Uj" = _HsTng6Uj;
+        "VxRkkU1f" = _VxRkkU1f;
+        "kWsxPwbN" = _kWsxPwbN;
+        "forge-1.21.1" = _e6OYdupj;
+        "forge-1.19.2" = _jnVlGaK0;
+        "forge-1.20.1" = _toOvLp8Y;
+        "fabric-1.21.1" = _VudGGZKL;
+        "fabric-1.19.2" = _Qdrg1MwO;
+        "fabric-1.20.1" = _f1hgxQ9M;
+        "fabric-1.21.11" = _PBqd6SbE;
+        "fabric-26.1.2" = _JpwQcdyO;
+        "fabric-26.2" = _YhSCy5W4;
+        "fabric-26.3" = _kWsxPwbN;
+        "neoforge-1.21.1" = _sL7Ghaz1;
+        "neoforge-1.21.11" = _tZy0RHzB;
+        "neoforge-26.1.2" = _5mEMrzgT;
+        "neoforge-26.2" = _HsTng6Uj;
+        "neoforge-26.3" = _VxRkkU1f;
         "pkg-0.5.3" = _DonElvhI;
         "pkg-0.5.4" = _ZGgf7pkD;
         "pkg-0.5.6" = _NxXL2zAg;
@@ -1035,7 +1125,8 @@ let
         "pkg-0.6.7" = _wgtEGyj9;
         "pkg-0.6.8" = _WFeT02Wv;
         "pkg-0.6.9" = _7KlSXRjC;
-        "default" = _7KlSXRjC;
+        "pkg-0.6.10" = _kWsxPwbN;
+        "default" = _kWsxPwbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mezzconfig";

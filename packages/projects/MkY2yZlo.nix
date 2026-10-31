@@ -111,6 +111,16 @@ let
             "file" = "lasers-fakemon-pack-1.6.2.jar";
             "hash" = "sha512-zTTL7ac08k1AX0EQSgUQ4mfVdZBSlm3QdkQ6OZCNKrjo2Z4fTb9a2dPyYyA4MQ9i0bHRYv4bxkL38QDn4FwVUQ==";
         };
+        _TUopJRDj = {
+            "id" = "TUopJRDj";
+            "file" = "v1.7 Laser's Fakemon Pack.zip";
+            "hash" = "sha512-7EAP2tOzRhAy28hq5Mal9ndd8TfyN7bAzT20A8IDsiELnydSWKljgbZa+NyJmFh2yhhTgTRlKqvK3cw7vUbUFg==";
+        };
+        _lr4qld8U = {
+            "id" = "lr4qld8U";
+            "file" = "lasers-fakemon-pack-1.7.jar";
+            "hash" = "sha512-9M9ZY31HuUY4K7w5UTHsmLXlLj/Yb7GW9P6in51bzMQ/YyY/FNvlCqz3LGRlCSd+HRDFKUOXY5YNg/wGeZegng==";
+        };
     in {
         "lmrQhjhj" = _lmrQhjhj;
         "P6brVz7y" = _P6brVz7y;
@@ -134,10 +144,12 @@ let
         "JoFboymh" = _JoFboymh;
         "nnb5553z" = _nnb5553z;
         "4uiMdNnG" = _4uiMdNnG;
-        "datapack-1.21.1" = _nnb5553z;
-        "fabric-1.21.1" = _4uiMdNnG;
-        "neoforge-1.21.1" = _4uiMdNnG;
-        "minecraft-1.21.1" = _nnb5553z;
+        "TUopJRDj" = _TUopJRDj;
+        "lr4qld8U" = _lr4qld8U;
+        "datapack-1.21.1" = _TUopJRDj;
+        "fabric-1.21.1" = _lr4qld8U;
+        "neoforge-1.21.1" = _lr4qld8U;
+        "minecraft-1.21.1" = _TUopJRDj;
         "pkg-1.0" = _lmrQhjhj;
         "pkg-1.1" = _P6brVz7y;
         "pkg-1.2" = _Wwe7tiME;
@@ -159,7 +171,9 @@ let
         "pkg-1.6.1+mod" = _JoFboymh;
         "pkg-1.6.2" = _nnb5553z;
         "pkg-1.6.2+mod" = _4uiMdNnG;
-        "default" = _4uiMdNnG;
+        "pkg-1.7" = _TUopJRDj;
+        "pkg-1.7+mod" = _lr4qld8U;
+        "default" = _lr4qld8U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lasers-fakemon-pack";

@@ -161,6 +161,16 @@ let
             "file" = "RollingGate-neoforge-26.3-1.1.0+build.72.jar";
             "hash" = "sha512-+R4cN9z7pYSkpv5WjmUBKxE+YqDgma3gr6tTaUhhAJJfW1liKQlBijsolfXX8NQHu9vWo9zHjislFGjojeAjCw==";
         };
+        _CxKzOe2b = {
+            "id" = "CxKzOe2b";
+            "file" = "rolling_gate-1.1.0+build.73-mc1.21.11.jar";
+            "hash" = "sha512-cPSAr7/d1auFPrjZ2FWJlUMSycDy0Pm4TiPS1qdzbxc8ExWX9wdJ7Mt2SnLPjoFb5CfyeeVkQrGk2vtNuXv7Bg==";
+        };
+        _hdBCukKV = {
+            "id" = "hdBCukKV";
+            "file" = "rolling_gate-1.1.0+build.74-mc1.21.10.jar";
+            "hash" = "sha512-DAAS6yUTxETVmsaJYu1P9KA6PGYyEF9lkPOTMAbj5+mYGsDW/CRFjTwh8DhqFilrsmA4oBlbOVtwwalzEKG7yQ==";
+        };
     in {
         "8Ll65Jvp" = _8Ll65Jvp;
         "czZATQpv" = _czZATQpv;
@@ -194,12 +204,15 @@ let
         "DzHYexPP" = _DzHYexPP;
         "Yx3dpmoS" = _Yx3dpmoS;
         "giycESlu" = _giycESlu;
+        "CxKzOe2b" = _CxKzOe2b;
+        "hdBCukKV" = _hdBCukKV;
         "neoforge-1.21.1" = _LTcqijHi;
         "neoforge-1.21.8" = _5aYC4Nbl;
-        "neoforge-1.21.10" = _lBAxYP0Z;
+        "neoforge-1.21.10" = _hdBCukKV;
         "neoforge-26.1.2" = _DzHYexPP;
         "neoforge-26.2" = _Yx3dpmoS;
         "neoforge-26.3" = _giycESlu;
+        "neoforge-1.21.11" = _CxKzOe2b;
         "pkg-1.0.0+build.30" = _8Ll65Jvp;
         "pkg-1.0.0+build.40" = _czZATQpv;
         "pkg-1.0.0+build.41" = _58aihfK6;
@@ -232,7 +245,9 @@ let
         "pkg-1.1.0+build.69" = _DzHYexPP;
         "pkg-1.1.0+build.70" = _Yx3dpmoS;
         "pkg-1.1.0+build.72" = _giycESlu;
-        "default" = _giycESlu;
+        "pkg-1.1.0+build.73" = _CxKzOe2b;
+        "pkg-1.1.0+build.74" = _hdBCukKV;
+        "default" = _hdBCukKV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rolling-gate";

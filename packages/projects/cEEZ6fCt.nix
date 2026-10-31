@@ -46,6 +46,11 @@ let
             "file" = "dmzrevamp-2.2.3.jar";
             "hash" = "sha512-W8DBFva//XqNUzmchwT3gN3MxIhSFcNukOQ1H6VA1FmFmrP97bfDRGCoY7mtqFw9YVr59lHUtNeIkNDGWf3ciA==";
         };
+        _WizWdHgM = {
+            "id" = "WizWdHgM";
+            "file" = "dmzrevamp-2.2.4.jar";
+            "hash" = "sha512-xIK/Iog21ln/YEI0dLZKfC5MPeZAgxmUP9L3F3hWgoaoZdx03w5t7fru+1Qx88lmDYXMbJnfhAW6O5e1JMiPfg==";
+        };
     in {
         "skAKD2e8" = _skAKD2e8;
         "yUKfvMNc" = _yUKfvMNc;
@@ -56,7 +61,8 @@ let
         "7GbpWxCI" = _7GbpWxCI;
         "CrA8ptd5" = _CrA8ptd5;
         "VYtUY3kK" = _VYtUY3kK;
-        "forge-1.20.1" = _VYtUY3kK;
+        "WizWdHgM" = _WizWdHgM;
+        "forge-1.20.1" = _WizWdHgM;
         "pkg-2.0.5" = _skAKD2e8;
         "pkg-2.0.6" = _yUKfvMNc;
         "pkg-2.0.9" = _A0uUr51K;
@@ -66,7 +72,8 @@ let
         "pkg-2.2-HOTFIX2" = _7GbpWxCI;
         "pkg-2.2.2" = _CrA8ptd5;
         "pkg-2.2.3" = _VYtUY3kK;
-        "default" = _VYtUY3kK;
+        "pkg-2.2.4" = _WizWdHgM;
+        "default" = _WizWdHgM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-mine-z-overhaul";

@@ -201,6 +201,21 @@ let
             "file" = "HealthBar-1.1-mc26.2-neoforge.jar";
             "hash" = "sha512-OnfO86e3ugTSrKa7e/6hHkUHGvlagBdvefhBeN8MS+mg6XWvH7LhMqgqUm/2aPFX6NhbXgDH7zSFX8+iey7VTg==";
         };
+        _xoVGVp9p = {
+            "id" = "xoVGVp9p";
+            "file" = "HealthBar-1.1-mc26.3-fabric.jar";
+            "hash" = "sha512-sxxzj8Xm+q8UARB0zytG8AQ9GZRFLfW9oRNOcjDbm9Fp0nw+316fI3z1LN29AyJ4Ny+trIhbmAkORUQqpDqtxA==";
+        };
+        _VXXAoO0Z = {
+            "id" = "VXXAoO0Z";
+            "file" = "HealthBar-1.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-JvtnYpliY+h4HkE2gZgo0ZEPOcXdSbWQj6SPTlF89cMIG6K4B2bpXYX59oAsQOLg9MgyRzjJtzcXvfBtXfr3Sg==";
+        };
+        _Ct7rff16 = {
+            "id" = "Ct7rff16";
+            "file" = "HealthBar-1.1-mc26.3-forge.jar";
+            "hash" = "sha512-6KaZ/RJvhFbVeQE2kkKdgX6MEYY7/T+K2M5cH3mAFGRrhqTPynWZaYWYVDjTN8rXZgu4FtKwN9ufD6GEFxhPFg==";
+        };
     in {
         "qxCnzS5X" = _qxCnzS5X;
         "oBqFo59N" = _oBqFo59N;
@@ -242,6 +257,9 @@ let
         "IlqRm9CM" = _IlqRm9CM;
         "zVNmkjZs" = _zVNmkjZs;
         "hMhEOvM4" = _hMhEOvM4;
+        "xoVGVp9p" = _xoVGVp9p;
+        "VXXAoO0Z" = _VXXAoO0Z;
+        "Ct7rff16" = _Ct7rff16;
         "fabric-1.20.4" = _qxCnzS5X;
         "fabric-1.20.6" = _xYP9JybR;
         "fabric-1.21.1" = _maN3Fzi1;
@@ -258,6 +276,7 @@ let
         "fabric-26.1.1" = _P1m5GA50;
         "fabric-26.1.2" = _IlqRm9CM;
         "fabric-26.2" = _zVNmkjZs;
+        "fabric-26.3" = _xoVGVp9p;
         "forge-1.20.4" = _oBqFo59N;
         "forge-1.21.1" = _L1jMuNfW;
         "forge-1.21.3" = _cE45OcAP;
@@ -267,6 +286,7 @@ let
         "forge-1.21.7" = _bLvbfgvv;
         "forge-1.21.8" = _rEGj1R1W;
         "forge-1.21.9" = _nyL0TmLN;
+        "forge-26.3" = _Ct7rff16;
         "neoforge-1.20.6" = _QSCtbbpH;
         "neoforge-1.21.1" = _pPhXGDEL;
         "neoforge-1.21.3" = _bhcEfMRd;
@@ -282,6 +302,7 @@ let
         "neoforge-26.1.1" = _UsvdTflL;
         "neoforge-26.1.2" = _aRgDDpwW;
         "neoforge-26.2" = _hMhEOvM4;
+        "neoforge-26.3" = _VXXAoO0Z;
         "pkg-1.0-SNAPSHOT" = _oBqFo59N;
         "pkg-1.1" = _bhcEfMRd;
         "pkg-1.1-1.21.4" = _P8YwAq7R;
@@ -296,7 +317,8 @@ let
         "pkg-1.1-mc26.1.1" = _P1m5GA50;
         "pkg-1.1-mc26.1.2" = _IlqRm9CM;
         "pkg-1.1-mc26.2" = _hMhEOvM4;
-        "default" = _hMhEOvM4;
+        "pkg-1.1-mc26.3" = _Ct7rff16;
+        "default" = _Ct7rff16;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "healthbar2";

@@ -51,6 +51,16 @@ let
             "file" = "deltapack-2.1.jar";
             "hash" = "sha512-VfSNNDlHcHRXaPuK2GqwpyPHc35Inyjr0AimLSBa+9kpu+jYEX+9NjjBI/dsYGyuxgJi/VmMbHy8cnIKLbDhjw==";
         };
+        _88Iau8uc = {
+            "id" = "88Iau8uc";
+            "file" = "deltapack.zip";
+            "hash" = "sha512-OzW9Jj1ujz6Zgp2owx7yq2+66+W8n+nrFFjIemqV7XG1NiHzYi9gq7LphSKMxvI1N9H2xVk33RXcWrKEGqUFEw==";
+        };
+        _6aJZAUFB = {
+            "id" = "6aJZAUFB";
+            "file" = "deltapack-2.2.jar";
+            "hash" = "sha512-yspzi9CUAecoKJjhTBKay/wmg41PNtFaiPJJPWLo3BMYuTwakymwY/wVABcSvxueExUxk5QiXSMR61PJk8TsXA==";
+        };
     in {
         "mde0XAWS" = _mde0XAWS;
         "ggtF1vas" = _ggtF1vas;
@@ -62,6 +72,8 @@ let
         "RO8b0zXn" = _RO8b0zXn;
         "99wMvuMd" = _99wMvuMd;
         "2zGWMli1" = _2zGWMli1;
+        "88Iau8uc" = _88Iau8uc;
+        "6aJZAUFB" = _6aJZAUFB;
         "datapack-25w41a" = _mde0XAWS;
         "datapack-25w42a" = _mde0XAWS;
         "datapack-25w43a" = _mde0XAWS;
@@ -72,6 +84,7 @@ let
         "datapack-26.1.1" = _99wMvuMd;
         "datapack-26.1.2" = _99wMvuMd;
         "datapack-26.2" = _99wMvuMd;
+        "datapack-26.3" = _88Iau8uc;
         "fabric-1.21.9" = _4eRDyDnh;
         "fabric-1.21.10" = _4eRDyDnh;
         "fabric-1.21.11" = _2zGWMli1;
@@ -82,6 +95,7 @@ let
         "fabric-26.1.1" = _2zGWMli1;
         "fabric-26.1.2" = _2zGWMli1;
         "fabric-26.2" = _2zGWMli1;
+        "fabric-26.3" = _6aJZAUFB;
         "forge-1.21.9" = _4eRDyDnh;
         "forge-1.21.10" = _4eRDyDnh;
         "forge-1.21.11" = _2zGWMli1;
@@ -92,6 +106,7 @@ let
         "forge-26.1.1" = _2zGWMli1;
         "forge-26.1.2" = _2zGWMli1;
         "forge-26.2" = _2zGWMli1;
+        "forge-26.3" = _6aJZAUFB;
         "neoforge-1.21.9" = _4eRDyDnh;
         "neoforge-1.21.10" = _4eRDyDnh;
         "neoforge-1.21.11" = _2zGWMli1;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _2zGWMli1;
         "neoforge-26.1.2" = _2zGWMli1;
         "neoforge-26.2" = _2zGWMli1;
+        "neoforge-26.3" = _6aJZAUFB;
         "quilt-1.21.9" = _4eRDyDnh;
         "quilt-1.21.10" = _4eRDyDnh;
         "quilt-1.21.11" = _2zGWMli1;
@@ -112,6 +128,7 @@ let
         "quilt-26.1.1" = _2zGWMli1;
         "quilt-26.1.2" = _2zGWMli1;
         "quilt-26.2" = _2zGWMli1;
+        "quilt-26.3" = _6aJZAUFB;
         "pkg-66" = _mde0XAWS;
         "pkg-13" = _ggtF1vas;
         "pkg-13+mod" = _4eRDyDnh;
@@ -121,7 +138,9 @@ let
         "pkg-2" = _RO8b0zXn;
         "pkg-2.1" = _99wMvuMd;
         "pkg-2.1+mod" = _2zGWMli1;
-        "default" = _2zGWMli1;
+        "pkg-2.2" = _88Iau8uc;
+        "pkg-2.2+mod" = _6aJZAUFB;
+        "default" = _6aJZAUFB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deltapack";

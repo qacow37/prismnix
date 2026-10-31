@@ -106,6 +106,16 @@ let
             "file" = "cobbledollars-villagers-overhaul-rca-neoforge-0.4.2.jar";
             "hash" = "sha512-noD9KvIJx+n/9IAhXTra59/PnLlGdFO8UWRdaf4hIEoWTcm/Z617MTHCIi9SZwOMkh1NnsxHqzaNtBbfmH+qWg==";
         };
+        _RI0ycdwk = {
+            "id" = "RI0ycdwk";
+            "file" = "cobbledollars-villagers-overhaul-rca-fabric-0.5.0.jar";
+            "hash" = "sha512-byG0p/jRTZc6p+Ry57sHu5rIyegwczmMTVEAnxmPDUbt0w+gQbmdxuz1irsTClD/OVBJmcrLldIzxyjNe0QtMw==";
+        };
+        _YwfhX9k3 = {
+            "id" = "YwfhX9k3";
+            "file" = "cobbledollars-villagers-overhaul-rca-neoforge-0.5.0.jar";
+            "hash" = "sha512-v4/IeqjkLa0GJMdxIxM0OGatik0K0UJmolOJU/OU/YEMpRCIblICM5SeAw8ZRxtax7tx/ngBTvEwkkc/ibT/Dg==";
+        };
     in {
         "AFxpEbfD" = _AFxpEbfD;
         "xjfgds32" = _xjfgds32;
@@ -128,8 +138,10 @@ let
         "BeknBZaY" = _BeknBZaY;
         "JAq8JfF3" = _JAq8JfF3;
         "s9cWkVAL" = _s9cWkVAL;
-        "neoforge-1.21.1" = _s9cWkVAL;
-        "fabric-1.21.1" = _JAq8JfF3;
+        "RI0ycdwk" = _RI0ycdwk;
+        "YwfhX9k3" = _YwfhX9k3;
+        "neoforge-1.21.1" = _YwfhX9k3;
+        "fabric-1.21.1" = _RI0ycdwk;
         "fabric-1.21.2" = _JAq8JfF3;
         "fabric-1.21.3" = _JAq8JfF3;
         "fabric-1.21.4" = _JAq8JfF3;
@@ -152,7 +164,8 @@ let
         "pkg-0.3.0" = _WIjDv4ti;
         "pkg-0.4.1" = _BeknBZaY;
         "pkg-0.4.2" = _s9cWkVAL;
-        "default" = _s9cWkVAL;
+        "pkg-0.5.0" = _YwfhX9k3;
+        "default" = _YwfhX9k3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-villager-overhaul";

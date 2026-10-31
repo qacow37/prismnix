@@ -396,6 +396,21 @@ let
             "file" = "travelers-1.0-forge-1.20.1.jar";
             "hash" = "sha512-g4wOXmzBW+ARN3pSa50Q3d8QJ0vd1vx8+0RA1vmPYDr71uBgo4CtWLDgeG49zivITYDRb58PdqPDaxi2gy9mig==";
         };
+        _SiOOLqEn = {
+            "id" = "SiOOLqEn";
+            "file" = "travelers-1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-t6+FzNeUJlDaXXp5KtIYOybUdu300vyQkZgZ8qXhbfbspkdUtRdooxejdDwr8Sl8kJ6AIaw0L0gBkwJDnwOPYQ==";
+        };
+        _931JVFHb = {
+            "id" = "931JVFHb";
+            "file" = "travelers-1.1-neoforge-26.2.jar";
+            "hash" = "sha512-7SWdFFrC+BZlcUpoEQrZ8pk/HMHHvBM/MxZ3YtKoEVmOlmnFR3LIXTrlWhWc3CIRW/Sr8OhaANInDnOfwMVdGg==";
+        };
+        _h9VLIIPp = {
+            "id" = "h9VLIIPp";
+            "file" = "travelers-1.1-forge-1.20.1.jar";
+            "hash" = "sha512-0pEX3pW9xhQgEsofOWoYq15UcuIcXpWuLzp552YUlnK3QAjFcKMFIQpLqeQmb75HL99PB8xWXPHnKFGytrP1BQ==";
+        };
     in {
         "tWqfKK2J" = _tWqfKK2J;
         "awP8xmug" = _awP8xmug;
@@ -476,12 +491,15 @@ let
         "I9ua8Njp" = _I9ua8Njp;
         "VIhnmyhS" = _VIhnmyhS;
         "mHYn2lxU" = _mHYn2lxU;
-        "neoforge-1.21.1" = _I9ua8Njp;
+        "SiOOLqEn" = _SiOOLqEn;
+        "931JVFHb" = _931JVFHb;
+        "h9VLIIPp" = _h9VLIIPp;
+        "neoforge-1.21.1" = _SiOOLqEn;
         "neoforge-1.20.1" = _QqXWmdc1;
-        "neoforge-26.2" = _VIhnmyhS;
+        "neoforge-26.2" = _931JVFHb;
         "fabric-1.21.1" = _SKMCaTQf;
         "fabric-1.20.1" = _PTaaW9nN;
-        "forge-1.20.1" = _mHYn2lxU;
+        "forge-1.20.1" = _h9VLIIPp;
         "pkg-0.0.1" = _awP8xmug;
         "pkg-0.0.2" = _fltyuAOr;
         "pkg-0.0.3" = _L62d4xX5;
@@ -516,7 +534,8 @@ let
         "pkg-0.8.2.1" = _UAil686T;
         "pkg-0.8.2.2" = _vX3PrKuD;
         "pkg-1.0" = _mHYn2lxU;
-        "default" = _mHYn2lxU;
+        "pkg-1.1" = _h9VLIIPp;
+        "default" = _h9VLIIPp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelers-lib";

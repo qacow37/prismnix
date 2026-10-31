@@ -36,6 +36,16 @@ let
             "file" = "FlamefragsSmpOverlay.zip";
             "hash" = "sha512-UXNs8c1gJyUciZLpX9HgsJghrh/ORh59akJWSksaHpOvGJGEtwXe+lje7EUezTt1MrYwqm/K+mvsKcUGzG40Sw==";
         };
+        _yugs1Clv = {
+            "id" = "yugs1Clv";
+            "file" = "FlameFragsSMP1.21.x.zip";
+            "hash" = "sha512-JXnig3YqUuRogrfy1kX7YXM0FB16ooQyYkU7EZM1A4W+cmXayn6ysMHf6ySfwBdWo24f+3xvJmlnvJhqxOiKfA==";
+        };
+        _ClEWQSf9 = {
+            "id" = "ClEWQSf9";
+            "file" = "FlamefragsSMP.zip";
+            "hash" = "sha512-tbOluH4fb3LTJPe9JDV+N0+LggxpjsKH63I0FsHOqx8kbGj0HYAlzNCRGF/CwgJ9cLZGZP/KEwst4k9TZmkZkg==";
+        };
     in {
         "HZlIbRqJ" = _HZlIbRqJ;
         "JrggP5vs" = _JrggP5vs;
@@ -44,7 +54,9 @@ let
         "O3zBLuhn" = _O3zBLuhn;
         "B9xIhlAV" = _B9xIhlAV;
         "3nzac4J8" = _3nzac4J8;
-        "minecraft-1.21.11" = _B9xIhlAV;
+        "yugs1Clv" = _yugs1Clv;
+        "ClEWQSf9" = _ClEWQSf9;
+        "minecraft-1.21.11" = _yugs1Clv;
         "minecraft-1.21" = _JrggP5vs;
         "minecraft-1.21.1" = _JrggP5vs;
         "minecraft-24w33a" = _JrggP5vs;
@@ -63,21 +75,24 @@ let
         "minecraft-24w45a" = _JrggP5vs;
         "minecraft-24w46a" = _JrggP5vs;
         "minecraft-1.21.4" = _JrggP5vs;
-        "minecraft-1.21.5" = _B9xIhlAV;
-        "minecraft-1.21.6" = _B9xIhlAV;
-        "minecraft-1.21.7" = _B9xIhlAV;
-        "minecraft-1.21.8" = _B9xIhlAV;
-        "minecraft-1.21.9" = _B9xIhlAV;
-        "minecraft-1.21.10" = _B9xIhlAV;
-        "minecraft-26.1" = _3nzac4J8;
-        "minecraft-26.1.1" = _3nzac4J8;
-        "minecraft-26.1.2" = _3nzac4J8;
+        "minecraft-1.21.5" = _yugs1Clv;
+        "minecraft-1.21.6" = _yugs1Clv;
+        "minecraft-1.21.7" = _yugs1Clv;
+        "minecraft-1.21.8" = _yugs1Clv;
+        "minecraft-1.21.9" = _yugs1Clv;
+        "minecraft-1.21.10" = _yugs1Clv;
+        "minecraft-26.1" = _ClEWQSf9;
+        "minecraft-26.1.1" = _ClEWQSf9;
+        "minecraft-26.1.2" = _ClEWQSf9;
+        "minecraft-26.2" = _ClEWQSf9;
+        "minecraft-26.3" = _ClEWQSf9;
         "pkg-v.1.0" = _HZlIbRqJ;
         "pkg-v1.1" = _aZYq5fms;
         "pkg-v2.0" = _O3zBLuhn;
         "pkg-v2.1" = _B9xIhlAV;
         "pkg-V2.1" = _3nzac4J8;
-        "default" = _3nzac4J8;
+        "pkg-v2.2" = _ClEWQSf9;
+        "default" = _ClEWQSf9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flamefrags-smp-overlay";

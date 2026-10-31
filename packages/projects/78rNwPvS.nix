@@ -131,6 +131,11 @@ let
             "file" = "MoreUpgradeTemplate-1.21.1-neoforge-0.5.0-release.jar";
             "hash" = "sha512-8YKFyX4B4ancIVEbaDpePzMvIwal6PfWMEKXCbWBS+P5ZrAfAf9ivyr0A3ikKkFG51E/gQ6ElMwzVq3UJWZlPQ==";
         };
+        _lexadMM2 = {
+            "id" = "lexadMM2";
+            "file" = "MoreUpgrade-forge-1.20.1-1.2.9.jar";
+            "hash" = "sha512-7vLTBwHNeVHE9mr9yRT0pVeJBv5zQ6CnK9lyMagP+3YMGWYgKUpFYp8JQ0hV9zQvOpN+X0UEwwY+ikl5/j+RTg==";
+        };
     in {
         "50OyDevj" = _50OyDevj;
         "J5gb7VtM" = _J5gb7VtM;
@@ -158,7 +163,8 @@ let
         "hQKNxSku" = _hQKNxSku;
         "ZbnePEhg" = _ZbnePEhg;
         "5tIHYamt" = _5tIHYamt;
-        "forge-1.20.1" = _Us8rAglJ;
+        "lexadMM2" = _lexadMM2;
+        "forge-1.20.1" = _lexadMM2;
         "neoforge-1.21.1" = _5tIHYamt;
         "pkg-1.2.6" = _50OyDevj;
         "pkg-0.1.0a" = _J5gb7VtM;
@@ -185,7 +191,8 @@ let
         "pkg-0.5.0-beta2" = _hQKNxSku;
         "pkg-0.5.0-beta3" = _ZbnePEhg;
         "pkg-0.5.0" = _5tIHYamt;
-        "default" = _5tIHYamt;
+        "pkg-1.2.9" = _lexadMM2;
+        "default" = _lexadMM2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moreupgradetemplate";

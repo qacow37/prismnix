@@ -891,6 +891,11 @@ let
             "file" = "scarecrowsterritory-1.1.12-neoforge-mc26.3.jar";
             "hash" = "sha512-QUG+Av4dg8zUUv/IFYvZfETEYaTtOOqtm7Psh/NyhpH3DRPg5tHFu3cfcSbBv52KYzP4wlMJVIC0MOy9D08jlg==";
         };
+        _CzH8r8X8 = {
+            "id" = "CzH8r8X8";
+            "file" = "scarecrowsterritory-1.1.12a-forge-mc1.12.jar";
+            "hash" = "sha512-Lmrk21AlMC0nNNnOlzu9iTmYTORB5/het9awiC0Q0/qDiuRkUGABGNCCdz/fK7lRKCFqyNYhkuArDkBp92CANg==";
+        };
     in {
         "Z5DNRkzf" = _Z5DNRkzf;
         "IcYFC1FW" = _IcYFC1FW;
@@ -1070,9 +1075,10 @@ let
         "my6y1EUF" = _my6y1EUF;
         "7EsRj4ot" = _7EsRj4ot;
         "JAzQ9516" = _JAzQ9516;
-        "forge-1.12" = _Qfrk3lCQ;
-        "forge-1.12.1" = _Qfrk3lCQ;
-        "forge-1.12.2" = _Qfrk3lCQ;
+        "CzH8r8X8" = _CzH8r8X8;
+        "forge-1.12" = _CzH8r8X8;
+        "forge-1.12.1" = _CzH8r8X8;
+        "forge-1.12.2" = _CzH8r8X8;
         "forge-1.14" = _EaRZJfRI;
         "forge-1.14.1" = _EaRZJfRI;
         "forge-1.14.2" = _EaRZJfRI;
@@ -1406,7 +1412,8 @@ let
         "pkg-1.1.12-neoforge-mc26.1" = _my6y1EUF;
         "pkg-1.1.12-neoforge-mc26.2" = _7EsRj4ot;
         "pkg-1.1.12-neoforge-mc26.3" = _JAzQ9516;
-        "default" = _JAzQ9516;
+        "pkg-1.1.12a-forge-mc1.12" = _CzH8r8X8;
+        "default" = _CzH8r8X8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scarecrows-territory";

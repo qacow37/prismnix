@@ -411,6 +411,21 @@ let
             "file" = "rfu-1.20.0+26.2.jar";
             "hash" = "sha512-UG17f5tR0ZszDuTbZHAMO0a4RqkjCU1MC7RnAcWbWFyVxSalLyDzLcFaSSmAlwqrDPgUmrpub0yo3D2nmwZv7g==";
         };
+        _mXfMSCTI = {
+            "id" = "mXfMSCTI";
+            "file" = "rfu-1.20.1+26.2.jar";
+            "hash" = "sha512-gHQYUe+ZVZqPats1UZUmLTMgm/SiBKUdoxv/hE7TZfSuCtqhCqebgqz5pbMpzmUBzsZ16H9gxLBZ1PmClE2hKw==";
+        };
+        _ymly3Bj8 = {
+            "id" = "ymly3Bj8";
+            "file" = "rfu-1.20.1+26.1.jar";
+            "hash" = "sha512-+Iz3YGhqyr4+GChWavVaO7n3iPszmbjK2ZSxGDSGran6npnUtdS0Na6ISBqop1KoDq9NIY6BkSVFrSCngLipMw==";
+        };
+        _cPpLR6Tl = {
+            "id" = "cPpLR6Tl";
+            "file" = "rfu-1.20.1+26.3.jar";
+            "hash" = "sha512-87uFbMhJlxjqRzEk7ks7j7Q4Omqs+uVylKp0mffOFeAx+hVAs899n9wC4VjKIzQyQQpItiTA3pSNuoOLWEOWVw==";
+        };
     in {
         "pU5tdl36" = _pU5tdl36;
         "6tq6uQUx" = _6tq6uQUx;
@@ -494,13 +509,16 @@ let
         "YjCSqiBA" = _YjCSqiBA;
         "SA4BmVyH" = _SA4BmVyH;
         "pQwrzGES" = _pQwrzGES;
+        "mXfMSCTI" = _mXfMSCTI;
+        "ymly3Bj8" = _ymly3Bj8;
+        "cPpLR6Tl" = _cPpLR6Tl;
         "fabric-1.21.10" = _W3ekuZAe;
         "fabric-1.21.11" = _sz8cWSsA;
-        "fabric-26.1" = _SA4BmVyH;
-        "fabric-26.1.1" = _SA4BmVyH;
-        "fabric-26.1.2" = _SA4BmVyH;
-        "fabric-26.2" = _pQwrzGES;
-        "fabric-26.3" = _YjCSqiBA;
+        "fabric-26.1" = _ymly3Bj8;
+        "fabric-26.1.1" = _ymly3Bj8;
+        "fabric-26.1.2" = _ymly3Bj8;
+        "fabric-26.2" = _mXfMSCTI;
+        "fabric-26.3" = _cPpLR6Tl;
         "pkg-1.0.0+1.21.10" = _pU5tdl36;
         "pkg-1.0.0+1.21.11" = _6tq6uQUx;
         "pkg-1.1.0+1.21.10" = _i9gzjSss;
@@ -583,7 +601,10 @@ let
         "pkg-1.20.0+26.3" = _YjCSqiBA;
         "pkg-1.20.0+26.1" = _SA4BmVyH;
         "pkg-1.20.0+26.2" = _pQwrzGES;
-        "default" = _pQwrzGES;
+        "pkg-1.20.1+26.2" = _mXfMSCTI;
+        "pkg-1.20.1+26.1" = _ymly3Bj8;
+        "pkg-1.20.1+26.3" = _cPpLR6Tl;
+        "default" = _cPpLR6Tl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rfu";

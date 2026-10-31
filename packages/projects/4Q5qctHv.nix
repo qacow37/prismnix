@@ -66,6 +66,26 @@ let
             "file" = "reanimal-neoforge-0.6.1+26.3.jar";
             "hash" = "sha512-5ubNKaidGUVpfgZ93hJ4aNyCq87/XlFD2sl3d1c7s2441U3EPtkte0h7fTHsC1jj7TuXSnP32Vat6qoh3Bo9cg==";
         };
+        _md5njQnj = {
+            "id" = "md5njQnj";
+            "file" = "reanimal-neoforge-0.6.2+26.3.jar";
+            "hash" = "sha512-YMHl2LS56/asuVi+HrEBlqoj6/ZM6odzvjZPfQ4wHNnIg2l0r7NNRSbMLYWBsk0sSDj8KVt3TNcbfajdbom23w==";
+        };
+        _Q0Uoro4O = {
+            "id" = "Q0Uoro4O";
+            "file" = "reanimal-fabric-0.6.2+26.3.jar";
+            "hash" = "sha512-MBWvJyImDLnysB6W8sgY5eYgYTbQjWJtBqp2EYiWEa48zn/cVQK8ms8AFbUv6i3/nGD9iajL9cJvs+DSyl7weg==";
+        };
+        _xMmdj5ed = {
+            "id" = "xMmdj5ed";
+            "file" = "reanimal-fabric-0.6.3+26.3.jar";
+            "hash" = "sha512-nckpDA+B7lGQvRqd2/Wfq1Z0DX+l/EWJqyEx77LqWxVm8sNeGwB3a3ZxEK2dxsLl11/D2DxefsUkEO4gorjKKA==";
+        };
+        _pIMrMT4Z = {
+            "id" = "pIMrMT4Z";
+            "file" = "reanimal-neoforge-0.6.3+26.3.jar";
+            "hash" = "sha512-1RVIvGfKzJxUBpW31RGmifiWqB5Hw4oFj/OlaWbfG+bnOIYkhjNrLqm31Tfw2uMFHgE9FRoL8exZTK+1NXqCgg==";
+        };
     in {
         "dKygY4fF" = _dKygY4fF;
         "5M9w4zgt" = _5M9w4zgt;
@@ -80,9 +100,13 @@ let
         "I9osbJ04" = _I9osbJ04;
         "rm99SkTI" = _rm99SkTI;
         "G36mpNQP" = _G36mpNQP;
+        "md5njQnj" = _md5njQnj;
+        "Q0Uoro4O" = _Q0Uoro4O;
+        "xMmdj5ed" = _xMmdj5ed;
+        "pIMrMT4Z" = _pIMrMT4Z;
         "neoforge-1.21.1" = _yOEHRyHw;
-        "neoforge-26.3" = _G36mpNQP;
-        "fabric-26.3" = _rm99SkTI;
+        "neoforge-26.3" = _pIMrMT4Z;
+        "fabric-26.3" = _xMmdj5ed;
         "pkg-0.2" = _dKygY4fF;
         "pkg-0.2.1" = _5M9w4zgt;
         "pkg-0.2.2" = _d6KmbWDe;
@@ -94,7 +118,9 @@ let
         "pkg-0.6.0" = _yOEHRyHw;
         "pkg-0.6.0+26.3" = _I9osbJ04;
         "pkg-0.6.1+26.3" = _G36mpNQP;
-        "default" = _G36mpNQP;
+        "pkg-0.6.2+26.3" = _Q0Uoro4O;
+        "pkg-0.6.3+26.3" = _pIMrMT4Z;
+        "default" = _pIMrMT4Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-animal";
