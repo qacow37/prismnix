@@ -326,6 +326,16 @@ let
             "file" = "Milkman Datapack V4.2 1.21.11.zip";
             "hash" = "sha512-nEc2LqxpJ1CO5xszDwVDUGFpo6ZDT5u2FZUKob3CnYD1SbMGTdrwRUMHZ8n85FuRHx7jzTwDzTyG7j2jJz+LNg==";
         };
+        _qpBEaMsX = {
+            "id" = "qpBEaMsX";
+            "file" = "Milkman Datapack V4.3 1.21.11.zip";
+            "hash" = "sha512-r6lBA5Wcls4QCVLulO9Rafnze35AItIMUElzGfsOZImlIPnRa3qcngMLP17fNw56nutFrd3IWWRRdvlgGn8Nnw==";
+        };
+        _J4LRi0lW = {
+            "id" = "J4LRi0lW";
+            "file" = "Milkman Datapack V4.3 26.3.zip";
+            "hash" = "sha512-7qU72CLEdlGyqmopxZZlJ9IeggiifFXKk5UQckj/GuhvmbmElmn05mDGyKs3bJSDCV3j9St2HwJAi4gnqSHyTA==";
+        };
     in {
         "ehRzD6DN" = _ehRzD6DN;
         "BhtXdAct" = _BhtXdAct;
@@ -392,6 +402,8 @@ let
         "b1BBbfsl" = _b1BBbfsl;
         "YNE42n3V" = _YNE42n3V;
         "a0GpmDgk" = _a0GpmDgk;
+        "qpBEaMsX" = _qpBEaMsX;
+        "J4LRi0lW" = _J4LRi0lW;
         "fabric-1.21" = _lSJ723yS;
         "fabric-1.21.1" = _lSJ723yS;
         "fabric-1.21.2" = _jyyqLCQh;
@@ -423,7 +435,8 @@ let
         "datapack-1.21.4" = _RdBqqiGR;
         "datapack-1.21.5" = _FeBvbFCX;
         "datapack-1.21.8" = _PYgc8Ffg;
-        "datapack-1.21.11" = _a0GpmDgk;
+        "datapack-1.21.11" = _qpBEaMsX;
+        "datapack-26.3" = _J4LRi0lW;
         "pkg-1.0" = _BhtXdAct;
         "pkg-1.1" = _hOm1dWoX;
         "pkg-1.2" = _rmxU4lvO;
@@ -443,7 +456,8 @@ let
         "pkg-4.0" = _b1BBbfsl;
         "pkg-4.1" = _YNE42n3V;
         "pkg-4.2" = _a0GpmDgk;
-        "default" = _a0GpmDgk;
+        "pkg-4.3" = _J4LRi0lW;
+        "default" = _J4LRi0lW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wandering-murder";

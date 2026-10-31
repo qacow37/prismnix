@@ -41,6 +41,26 @@ let
             "file" = "stellara-fabric-1.21.1-0.1.3.jar";
             "hash" = "sha512-/lOw+GFn3TXIKkpAJ7XpJ2vwIq0xT0eMIGAwVMIEeCCGipc8aLxpVaLwVr/4vQPVUvVWTsYxSzR5UkX25b9Y/g==";
         };
+        _GhNQxekS = {
+            "id" = "GhNQxekS";
+            "file" = "stellara-fabric-1.21.1-0.1.4.jar";
+            "hash" = "sha512-sZLUfFRvX9ulQ7sdEPCZDs084gjpEQAPb1eKZTQPYWlLRQi0g4/tqszdxGQnn3qUGv2gu0RMa4VW9lTr68XAHw==";
+        };
+        _YVFpMCGS = {
+            "id" = "YVFpMCGS";
+            "file" = "stellara-neoforge-1.21.1-0.1.4.jar";
+            "hash" = "sha512-TEWkQ5YIRcHwCk0oUCmpovVBkmj3v+v5GcxihDLef1ykn4OARDwKvQmgz5NJBLgYPBMa3KtxZSOA40Qo0Sid3g==";
+        };
+        _jOWa2CcU = {
+            "id" = "jOWa2CcU";
+            "file" = "stellara-fabric-1.20.1-0.1.4.jar";
+            "hash" = "sha512-1X93LaQ7iZR87dC+BhYQayp5Qbee8kAaigkC7BZNxq2rjIyT3yQ3sZdeF/X7RksgTh0TvHuYzpGbyrZn5UBD+g==";
+        };
+        _xOKN9qM9 = {
+            "id" = "xOKN9qM9";
+            "file" = "stellara-forge-1.20.1-0.1.4.jar";
+            "hash" = "sha512-Ol6ZAUB2gzBBUhheKj9jkQzVaR9nuSCxsjf02uDkMKdPMTYYrh3rmUb0ZGhA3+HB/mUN2kv4PvzQHHjDXSmKPA==";
+        };
     in {
         "1S0r5p1I" = _1S0r5p1I;
         "ELr0zc5s" = _ELr0zc5s;
@@ -50,15 +70,20 @@ let
         "Jrwgu7Au" = _Jrwgu7Au;
         "ufpzeEj3" = _ufpzeEj3;
         "rFaTGIeQ" = _rFaTGIeQ;
-        "fabric-1.20.1" = _1S0r5p1I;
-        "fabric-1.21.1" = _rFaTGIeQ;
-        "forge-1.20.1" = _ELr0zc5s;
-        "neoforge-1.21.1" = _ufpzeEj3;
+        "GhNQxekS" = _GhNQxekS;
+        "YVFpMCGS" = _YVFpMCGS;
+        "jOWa2CcU" = _jOWa2CcU;
+        "xOKN9qM9" = _xOKN9qM9;
+        "fabric-1.20.1" = _jOWa2CcU;
+        "fabric-1.21.1" = _GhNQxekS;
+        "forge-1.20.1" = _xOKN9qM9;
+        "neoforge-1.21.1" = _YVFpMCGS;
         "pkg-0.1" = _ELr0zc5s;
         "pkg-0.1.1" = _wjYslHtx;
         "pkg-0.1.2" = _Jrwgu7Au;
         "pkg-0.1.3" = _rFaTGIeQ;
-        "default" = _rFaTGIeQ;
+        "pkg-0.1.4" = _xOKN9qM9;
+        "default" = _xOKN9qM9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellara";

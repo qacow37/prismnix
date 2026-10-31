@@ -36,6 +36,11 @@ let
             "file" = "MCCBBMod_3.1.1._1.0.2.jar";
             "hash" = "sha512-WNPzcMvlQrCIKmXhwr9rx9EAglloMWH8peG2jgOwlRXtKMSnzQ32tm+wGZ4z4y0WZJ/O2CTm3mwPvHQaSoUpMw==";
         };
+        _PgKwSUBT = {
+            "id" = "PgKwSUBT";
+            "file" = "MCCBBMod_3.1.1_1.0.0.3.jar";
+            "hash" = "sha512-pdFCiyi+Q3s4QUOF9NQp4UQEF5c/DEzNiIhq4IjTgfj8ubykF0RYBzuMtA7EI5cNd53j0DqmN8BImUrYbCW5uw==";
+        };
     in {
         "aWCqq3jG" = _aWCqq3jG;
         "FbUpYHOi" = _FbUpYHOi;
@@ -44,7 +49,8 @@ let
         "O9edsNMa" = _O9edsNMa;
         "ihAs8ZSy" = _ihAs8ZSy;
         "ClP066wE" = _ClP066wE;
-        "forge-1.20.1" = _ClP066wE;
+        "PgKwSUBT" = _PgKwSUBT;
+        "forge-1.20.1" = _PgKwSUBT;
         "forge-1.19.2" = _hFdOntqI;
         "neoforge-1.20.4" = _FbUpYHOi;
         "neoforge-1.21.1" = _ihAs8ZSy;
@@ -53,7 +59,8 @@ let
         "pkg-1.0.0.1" = _b60gkjy3;
         "pkg-1.0.1_3.1.1" = _ihAs8ZSy;
         "pkg-1.0.2_3.1.1" = _ClP066wE;
-        "default" = _ClP066wE;
+        "pkg-1.0.0.3-3.1.1" = _PgKwSUBT;
+        "default" = _PgKwSUBT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ccbb";

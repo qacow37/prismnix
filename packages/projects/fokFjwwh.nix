@@ -126,6 +126,56 @@ let
             "file" = "KeybindAtlas-v2.1.0-mc26.2-neoforge.jar";
             "hash" = "sha512-wzZoU/27gfwcqA+Et4jFCQZX1cKyHaQ/wuw5m2Td9W+QLUzpHi/rYuNx4I3fJbM2XqSGgNPeEJs6U1DDySoAOA==";
         };
+        _6pLMaiWT = {
+            "id" = "6pLMaiWT";
+            "file" = "KeybindAtlas-v2.1.1-mc1.20.1-forge.jar";
+            "hash" = "sha512-v3xOrg9gd0Kk5UgwpxunInKi8A2N5G09U1agEN9+jPM5Xx5IMyRqQeqEUghTT7u9aqJv8qDuOEdaa9f08MWQnA==";
+        };
+        _6yDnIY1q = {
+            "id" = "6yDnIY1q";
+            "file" = "KeybindAtlas-v2.1.1-mc1.20.4-neoforge.jar";
+            "hash" = "sha512-cw2IMj5sunPgsJvYmb5Q3FfYTaQ6IBhcAIEv4VN6+RPF7qTC9IfC3EV/dM9Nmjup48NtWYRCg6tFczdFttDwvA==";
+        };
+        _vtXhe5V9 = {
+            "id" = "vtXhe5V9";
+            "file" = "KeybindAtlas-v2.1.1-mc1.20.4-forge.jar";
+            "hash" = "sha512-T2epfCh9LibVCPOKKxwi8Lbz/JK5KKoiqbs04X6hYfJvo8i6S5fRpkC78sGt/0W/VuHH2ld1tzpEE5pbbjdTXQ==";
+        };
+        _EVcbkSpX = {
+            "id" = "EVcbkSpX";
+            "file" = "KeybindAtlas-v2.1.1-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-Qa/2RSEogZKvOfoIuPonb3/ODHj6qSTdCpsTDF0M58i+hMIWObilfR5XMKXgYyIkfEvF3CK1zgt/x+Yv+FanZA==";
+        };
+        _9HZUkQkS = {
+            "id" = "9HZUkQkS";
+            "file" = "KeybindAtlas-v2.1.1-mc26.1.2-fabric.jar";
+            "hash" = "sha512-7xOW/usWcXFB1UVyDbTLxZUroUVH0NxIoiyLwRAhBUZdkJQ3rSDoiZXGYf+z51Xn+49odM/h7NJfPH1VfiBlSw==";
+        };
+        _d6pDxrpB = {
+            "id" = "d6pDxrpB";
+            "file" = "KeybindAtlas-v2.1.1-mc26.1.2-neoforge.jar";
+            "hash" = "sha512-e2A5Dbb5ZDHXgs7NVJqgL03VAmDxZNio681mYSLzk1ghftuqcD55n7fUstc6qVG/nPcyub01IBMH1tf1Ht86/A==";
+        };
+        _VgAW6Luu = {
+            "id" = "VgAW6Luu";
+            "file" = "KeybindAtlas-v2.1.1-mc26.2-fabric.jar";
+            "hash" = "sha512-IctqLFLaQPOdZuu73YL7jQXu/vZwAsVIw89by0tdGV6wO5rLXS42rV8E4YlJdbVB0L6aKkDg1pIEoNp9ALu59w==";
+        };
+        _Fjltkaka = {
+            "id" = "Fjltkaka";
+            "file" = "KeybindAtlas-v2.1.1-mc26.2-neoforge.jar";
+            "hash" = "sha512-Dy5IuX4BqBVzxYuNupPWnEmxPXZMmF1ndwFKhXKAGPJf6gpjwdcs9c0ypI8VtgQMbmQP1EUMEey6I8GZCy7Wag==";
+        };
+        _HMMqP0X7 = {
+            "id" = "HMMqP0X7";
+            "file" = "KeybindAtlas-v2.1.1-mc26.3-fabric.jar";
+            "hash" = "sha512-bgyaKV/dIewi04wISGOd/fL29k5kGX2qURbimrgBqauoyza0TaJmXh8BtAM2LlGGtqvVuH7E54RlI4LUA1LIHQ==";
+        };
+        _GXeFR9V9 = {
+            "id" = "GXeFR9V9";
+            "file" = "KeybindAtlas-v2.1.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-J0SBbI9jIty6TiYldA9bm8zBlf9W0RC02a6IKgH7LPb8M7X+qw2w+ZZKRrnvAWAxLAQNehhd98Ow2drxitPH5A==";
+        };
     in {
         "m9vhAuEP" = _m9vhAuEP;
         "SdqAGJHB" = _SdqAGJHB;
@@ -152,17 +202,29 @@ let
         "KOEQpN1l" = _KOEQpN1l;
         "BVZQhNJf" = _BVZQhNJf;
         "m0FIFQBO" = _m0FIFQBO;
-        "forge-1.20.1" = _uCEUuxIh;
-        "forge-1.20.4" = _AVbnK6yp;
+        "6pLMaiWT" = _6pLMaiWT;
+        "6yDnIY1q" = _6yDnIY1q;
+        "vtXhe5V9" = _vtXhe5V9;
+        "EVcbkSpX" = _EVcbkSpX;
+        "9HZUkQkS" = _9HZUkQkS;
+        "d6pDxrpB" = _d6pDxrpB;
+        "VgAW6Luu" = _VgAW6Luu;
+        "Fjltkaka" = _Fjltkaka;
+        "HMMqP0X7" = _HMMqP0X7;
+        "GXeFR9V9" = _GXeFR9V9;
+        "forge-1.20.1" = _6pLMaiWT;
+        "forge-1.20.4" = _vtXhe5V9;
         "neoforge-1.20.1" = _HGCzXJmT;
-        "neoforge-1.21.1" = _zZC4FCdx;
-        "neoforge-26.2" = _m0FIFQBO;
-        "neoforge-1.20.4" = _vbxXN6T6;
-        "neoforge-26.1.2" = _q86cQbkj;
+        "neoforge-1.21.1" = _EVcbkSpX;
+        "neoforge-26.2" = _Fjltkaka;
+        "neoforge-1.20.4" = _6yDnIY1q;
+        "neoforge-26.1.2" = _d6pDxrpB;
+        "neoforge-26.3" = _GXeFR9V9;
         "fabric-1.21.1" = _KOEQpN1l;
         "fabric-1.20.1" = _UoLJmYps;
-        "fabric-26.2" = _BVZQhNJf;
-        "fabric-26.1.2" = _WeuikUrL;
+        "fabric-26.2" = _VgAW6Luu;
+        "fabric-26.1.2" = _9HZUkQkS;
+        "fabric-26.3" = _HMMqP0X7;
         "pkg-1.0.0" = _m9vhAuEP;
         "pkg-1.1.0" = _SdqAGJHB;
         "pkg-1.2.0" = _JuF0Qzei;
@@ -171,7 +233,8 @@ let
         "pkg-1.4.0" = _MrzMcDXs;
         "pkg-2.0.0" = _Q8NUYD0R;
         "pkg-2.1.0" = _m0FIFQBO;
-        "default" = _m0FIFQBO;
+        "pkg-2.1.1" = _GXeFR9V9;
+        "default" = _GXeFR9V9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybind-atlas";

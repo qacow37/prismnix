@@ -26,20 +26,34 @@ let
             "file" = "scgunsww1-1.0.1-r.jar";
             "hash" = "sha512-4qdiUuoLMq4g1XxpJ6yUSKPj5Z4kDxRD2kxjPv31RmWwk8lNmJG5FbndaQ1ZCroKMi5cFl8zw0DzTM5fbuJcew==";
         };
+        _nLL6KJ3c = {
+            "id" = "nLL6KJ3c";
+            "file" = "scgunsww1-1.1.1-r.jar";
+            "hash" = "sha512-4/QblvEVW04xRlg4A0ciQo/c5kMJpWKdtOv43+CDAufgmkznSo2O+QkEGobkeIe0/wjGBdrnrPiYFyGDdHfdRw==";
+        };
+        _g1uhH0Ar = {
+            "id" = "g1uhH0Ar";
+            "file" = "scgunsww1-1.20.1-1.1.2-r.jar";
+            "hash" = "sha512-KVcrJ5jXSzkC2ID5glIoR2roFe3ZyoRYS5RGdkR97v2INjPh10l/j011P5vYhGvVEzmFWReSSD5mCqPjUaBAxw==";
+        };
     in {
         "oQiA0dlf" = _oQiA0dlf;
         "e7mYnVZP" = _e7mYnVZP;
         "JcLSFTcK" = _JcLSFTcK;
         "Z7fv7ZXU" = _Z7fv7ZXU;
         "Iuh3ZvjE" = _Iuh3ZvjE;
-        "neoforge-1.21.1" = _Iuh3ZvjE;
-        "forge-1.20.1" = _Z7fv7ZXU;
+        "nLL6KJ3c" = _nLL6KJ3c;
+        "g1uhH0Ar" = _g1uhH0Ar;
+        "neoforge-1.21.1" = _nLL6KJ3c;
+        "forge-1.20.1" = _g1uhH0Ar;
         "pkg-29.06.2026.5" = _oQiA0dlf;
         "pkg-1.0.0-r" = _e7mYnVZP;
         "pkg-1.20.1-1.0.0-r" = _JcLSFTcK;
         "pkg-1.20.1-1.0.1-r" = _Z7fv7ZXU;
         "pkg-1.0.1-r-sad" = _Iuh3ZvjE;
-        "default" = _Iuh3ZvjE;
+        "pkg-1.1.1-r" = _nLL6KJ3c;
+        "pkg-1.20.1-1.1.2-r" = _g1uhH0Ar;
+        "default" = _g1uhH0Ar;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scorched-guns-2-asyasyas-ww1-weaponry";

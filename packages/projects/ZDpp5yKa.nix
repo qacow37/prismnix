@@ -91,6 +91,11 @@ let
             "file" = "just_in_nether-1.2.2-neoforge-1.21.1.jar";
             "hash" = "sha512-6frrI+IV9KvWAEefPXNbXQrufjiH53yls6EJT+S+2iM5LBYb67JZsV1tNTqzqgJo0JnY2LhtIs0ySLwi9riGYg==";
         };
+        _k0qXRgmL = {
+            "id" = "k0qXRgmL";
+            "file" = "just_in_nether-1.2.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-MmXIxuey8Yd4yZAWJV1K+sHe2Hl4maP/vxms8pkKjn0A+vgO7J0YCZqfLua4c0i/leYp5+8Y2nJnuumPVnf0Zw==";
+        };
     in {
         "uQeAJD9K" = _uQeAJD9K;
         "HCfuPBCu" = _HCfuPBCu;
@@ -110,8 +115,9 @@ let
         "s7Q7ThjP" = _s7Q7ThjP;
         "IiyXcCdy" = _IiyXcCdy;
         "5bE2AU00" = _5bE2AU00;
+        "k0qXRgmL" = _k0qXRgmL;
         "forge-1.20.1" = _iEKgcHPv;
-        "neoforge-1.21.1" = _5bE2AU00;
+        "neoforge-1.21.1" = _k0qXRgmL;
         "neoforge-1.21.2" = _aopxXya7;
         "neoforge-1.21.3" = _aopxXya7;
         "neoforge-1.21.4" = _aopxXya7;
@@ -126,8 +132,8 @@ let
         "pkg-1.1.9" = _dtDjYreb;
         "pkg-1.2.0" = _KoXuPxhk;
         "pkg-1.2.1" = _IiyXcCdy;
-        "pkg-1.2.2" = _5bE2AU00;
-        "default" = _5bE2AU00;
+        "pkg-1.2.2" = _k0qXRgmL;
+        "default" = _k0qXRgmL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-in-nether";

@@ -356,6 +356,21 @@ let
             "file" = "athen-0.4.1+26.3.jar";
             "hash" = "sha512-HP07wyPbFaxnlxKetuDJkaTkVHI+mk645SYvaZBz2SmARrfzr3VjBN8Hogkndvg+RebUbrhWoDmBLjA2Y4xmOQ==";
         };
+        _CsfzQ18i = {
+            "id" = "CsfzQ18i";
+            "file" = "athen-0.4.2+26.1.jar";
+            "hash" = "sha512-m8H7pvq3JgZtRwV7k7mtuH2OWRtQHqQOCdX1ZpzCcrrge8FacDSFqo1dCMEvYSeELs7IQZa0zipiRzWmsJiByw==";
+        };
+        _auo7dZkA = {
+            "id" = "auo7dZkA";
+            "file" = "athen-0.4.2+26.2.jar";
+            "hash" = "sha512-Ug4BqJ0vSQxKSVWQ2DR3aRf2Ffi8NUNkSF7VL0Aq4NtEfhk86IFV+XGw01JNwQQdtWOiBFbZonZNa8ek1i3VPA==";
+        };
+        _zuUkhNUo = {
+            "id" = "zuUkhNUo";
+            "file" = "athen-0.4.2+26.3.jar";
+            "hash" = "sha512-mD4m3dRvHc7i7m1w01xGBemHsvw5Bg+DytE3VOSM9ebqMxy4F4LFFKcM6oFsVhW66XXlKTZoPkq1w2JP6seq/Q==";
+        };
     in {
         "QLTdoTzb" = _QLTdoTzb;
         "5vguU7Nv" = _5vguU7Nv;
@@ -428,14 +443,17 @@ let
         "xIIxRzGl" = _xIIxRzGl;
         "RZJOPA4X" = _RZJOPA4X;
         "eWaOMtq6" = _eWaOMtq6;
+        "CsfzQ18i" = _CsfzQ18i;
+        "auo7dZkA" = _auo7dZkA;
+        "zuUkhNUo" = _zuUkhNUo;
         "fabric-1.21.9" = _jmaoMXwW;
         "fabric-1.21.10" = _jmaoMXwW;
         "fabric-1.21.11" = _NlVvtoTz;
-        "fabric-26.1" = _xIIxRzGl;
-        "fabric-26.1.1" = _xIIxRzGl;
-        "fabric-26.1.2" = _xIIxRzGl;
-        "fabric-26.2" = _RZJOPA4X;
-        "fabric-26.3" = _eWaOMtq6;
+        "fabric-26.1" = _CsfzQ18i;
+        "fabric-26.1.1" = _CsfzQ18i;
+        "fabric-26.1.2" = _CsfzQ18i;
+        "fabric-26.2" = _auo7dZkA;
+        "fabric-26.3" = _zuUkhNUo;
         "pkg-0.0.1" = _5vguU7Nv;
         "pkg-0.0.2" = _fSxFOAzH;
         "pkg-0.0.3" = _ahqpVM0m;
@@ -467,7 +485,8 @@ let
         "pkg-0.3.7" = _nWtOj3wI;
         "pkg-0.4.0" = _WMjAQecP;
         "pkg-0.4.1" = _eWaOMtq6;
-        "default" = _eWaOMtq6;
+        "pkg-0.4.2" = _zuUkhNUo;
+        "default" = _zuUkhNUo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "athen";

@@ -336,6 +336,11 @@ let
             "file" = "shadows_complexity_swords-3.5.3-forge-1.20.1.jar";
             "hash" = "sha512-jvaTSZReOUTygc35G2Ub1GqrTjuyY70uNLqNLNL6Bnod8jwSVX/vvfYsdVSaxSCDEVhLdI5T6ZwclyYxF2O8CQ==";
         };
+        _Nb8UF4bB = {
+            "id" = "Nb8UF4bB";
+            "file" = "shadows_complexity_swords-3.6.0-forge-1.20.1.jar";
+            "hash" = "sha512-A+pJ/sxkFkEs9O7eMBZq/dnf3lGJh++2M8XoNw5GG8J1b6jnbXEQMfZozJ8SrwOwtp9oMHSMjxzdYVPqU14VTQ==";
+        };
     in {
         "e15kwKja" = _e15kwKja;
         "6rcscNIc" = _6rcscNIc;
@@ -404,8 +409,9 @@ let
         "wRGdyHTr" = _wRGdyHTr;
         "tX5DouVM" = _tX5DouVM;
         "Ua1XVKUO" = _Ua1XVKUO;
-        "forge-1.20.1" = _Ua1XVKUO;
-        "neoforge-1.20.1" = _Ua1XVKUO;
+        "Nb8UF4bB" = _Nb8UF4bB;
+        "forge-1.20.1" = _Nb8UF4bB;
+        "neoforge-1.20.1" = _Nb8UF4bB;
         "pkg-1.0.0" = _e15kwKja;
         "pkg-1.0.1" = _6rcscNIc;
         "pkg-1.1.0" = _m68aGVU6;
@@ -473,7 +479,8 @@ let
         "pkg-3.5.1" = _wRGdyHTr;
         "pkg-3.5.2" = _tX5DouVM;
         "pkg-3.5.3" = _Ua1XVKUO;
-        "default" = _Ua1XVKUO;
+        "pkg-3.6.0" = _Nb8UF4bB;
+        "default" = _Nb8UF4bB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadows-complexity-swords";

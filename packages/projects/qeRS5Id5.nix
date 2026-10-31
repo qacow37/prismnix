@@ -121,6 +121,16 @@ let
             "file" = "RPG_Adventurer-fabric-26.3-0.1.0-beta.jar";
             "hash" = "sha512-d0iUup9viWA7HoNZTwzLKoc3E+sPKe8IEdJ4OyFE1tCvv0K0e6zLwrOBnzlDjYcI3lU92lkNnvGE1/Xy1I94PQ==";
         };
+        _jSP1rgQw = {
+            "id" = "jSP1rgQw";
+            "file" = "RPG_Adventurer-fabric-26.3-0.2.0-beta.jar";
+            "hash" = "sha512-eS8VbiW6bszgg75XPgm7CTAP8pqBwpVR1z7p/88LkhvRYo4w5b/NxCVGMdTnCWrYjmDgI2gM713K8YKwbkvOlA==";
+        };
+        _7vKD502r = {
+            "id" = "7vKD502r";
+            "file" = "RPG_Adventurer-fabric-26.3-0.2.1-beta.jar";
+            "hash" = "sha512-RfrlFkklQHoKVTx3mwZaUHIorDnkVJA/f96noMSgsvLvYVwtD1fZ7piKAzGJZ5SRH6qAzRxIQWgYUC/Iw+QDyw==";
+        };
     in {
         "ANcTJjsS" = _ANcTJjsS;
         "VwFtgRyo" = _VwFtgRyo;
@@ -146,8 +156,10 @@ let
         "QH02oZZK" = _QH02oZZK;
         "h8ES4G3x" = _h8ES4G3x;
         "bPVh1czj" = _bPVh1czj;
+        "jSP1rgQw" = _jSP1rgQw;
+        "7vKD502r" = _7vKD502r;
         "fabric-26.2" = _L3UgMSFm;
-        "fabric-26.3" = _bPVh1czj;
+        "fabric-26.3" = _7vKD502r;
         "pkg-0.0.7.0" = _ANcTJjsS;
         "pkg-0.0.7.5" = _VwFtgRyo;
         "pkg-0.0.7.6" = _LDvOJFbN;
@@ -171,7 +183,9 @@ let
         "pkg-0.0.8.1.7" = _QH02oZZK;
         "pkg-0.0.8.1.8" = _h8ES4G3x;
         "pkg-0.1.0" = _bPVh1czj;
-        "default" = _bPVh1czj;
+        "pkg-0.2.0" = _jSP1rgQw;
+        "pkg-0.2.1" = _7vKD502r;
+        "default" = _7vKD502r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-adventurer";

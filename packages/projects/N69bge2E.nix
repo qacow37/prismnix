@@ -26,22 +26,30 @@ let
             "file" = "FastPackLoad-fabric-26.2-1.2.0.jar";
             "hash" = "sha512-glqIF9f/Q9vXCFpryW+YABfF6rIQZgdCBvUMwf9V8a/yT6GOiLEahUtTwGbeugCQ07NGiJ8OL+hm5pBAJrd93A==";
         };
+        _xzx9If5E = {
+            "id" = "xzx9If5E";
+            "file" = "FastPackLoad-fabric-26.2-26.3-1.2.1.jar";
+            "hash" = "sha512-jXT4mEiDFoE51ah/De4lEDqu9CFmkTMa9IOHDRKRcSyxhpTfBnOZblm2tLA7Wwc8qAJ5S/G3i05/JNXBHWEDpg==";
+        };
     in {
         "7pE1cTmE" = _7pE1cTmE;
         "f7Sln3Sj" = _f7Sln3Sj;
         "JmyS4oIC" = _JmyS4oIC;
         "ATf2BrRB" = _ATf2BrRB;
         "r7IqVBqL" = _r7IqVBqL;
+        "xzx9If5E" = _xzx9If5E;
         "fabric-1.21.10" = _JmyS4oIC;
         "fabric-1.21.11" = _JmyS4oIC;
         "fabric-26.1" = _ATf2BrRB;
         "fabric-26.1.1" = _ATf2BrRB;
         "fabric-26.1.2" = _ATf2BrRB;
-        "fabric-26.2" = _r7IqVBqL;
+        "fabric-26.2" = _xzx9If5E;
+        "fabric-26.3" = _xzx9If5E;
         "pkg-1.0.0" = _7pE1cTmE;
         "pkg-1.1.0" = _f7Sln3Sj;
         "pkg-1.2.0" = _r7IqVBqL;
-        "default" = _r7IqVBqL;
+        "pkg-1.2.1" = _xzx9If5E;
+        "default" = _xzx9If5E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fastpackload";

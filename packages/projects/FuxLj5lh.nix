@@ -156,6 +156,11 @@ let
             "file" = "houseki-v5.2.1+26.2.jar";
             "hash" = "sha512-wYPOk6UbwUNY7qwcdnV1hDRe8/WhItA7RxSzfRTnJ6uEAdWa0UXN/UhPtsBj+JK5UMaP3uzMhh8KWQhHwxf4xA==";
         };
+        _5ZMylmSq = {
+            "id" = "5ZMylmSq";
+            "file" = "houseki-v5.3.1+26.3.jar";
+            "hash" = "sha512-jg0qIrBvxgIf2VBVf9srkngnu7PraawDDZxXF/8VpcbU0ebeyHpT5qbCz2+ytWupFpkiEVz8QM+BVHrICMZQrg==";
+        };
     in {
         "VqQ8pNEz" = _VqQ8pNEz;
         "lbqTOxb3" = _lbqTOxb3;
@@ -188,6 +193,7 @@ let
         "WKKW1QHZ" = _WKKW1QHZ;
         "hxYDZdTM" = _hxYDZdTM;
         "OlEMLkDf" = _OlEMLkDf;
+        "5ZMylmSq" = _5ZMylmSq;
         "fabric-1.21.1" = _NqZzQOEP;
         "fabric-1.21.3" = _RcNcUMcN;
         "fabric-1.21.4" = _8vaE4GgY;
@@ -201,6 +207,7 @@ let
         "fabric-26.1.1" = _hxYDZdTM;
         "fabric-26.1.2" = _hxYDZdTM;
         "fabric-26.2" = _OlEMLkDf;
+        "fabric-26.3" = _5ZMylmSq;
         "pkg-v1.0.0-1.21.1" = _VqQ8pNEz;
         "pkg-v1.0.1-1.21.3" = _lbqTOxb3;
         "pkg-v1.0.2-1.21.4" = _jD5m9Fyv;
@@ -232,7 +239,8 @@ let
         "pkg-v5.2.3+26.2" = _WKKW1QHZ;
         "pkg-v5.2.1+26.1.X" = _hxYDZdTM;
         "pkg-v5.2.1+26.2" = _OlEMLkDf;
-        "default" = _OlEMLkDf;
+        "pkg-v5.3.1+26.3" = _5ZMylmSq;
+        "default" = _5ZMylmSq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "houseki";

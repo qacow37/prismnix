@@ -551,6 +551,11 @@ let
             "file" = "ServerReplay-3.6.0-beta.5+26.3.jar";
             "hash" = "sha512-/oV1hP9Xld0Ii3rK6OjJNOhWld9ToJXcgCm+GPh7H+wAW1vdUywq4gsL5Rucui0Gvy5bFKvlijZNW3EYv92MmA==";
         };
+        _ly1yAeRN = {
+            "id" = "ly1yAeRN";
+            "file" = "ServerReplay-3.6.0+26.3.jar";
+            "hash" = "sha512-F+LojRJ31B/mtEfCMGPu5z2TmxSHnDihKkRPvObEGAQFZgqxiyXRVYwEkM2gPen91aFB1Fm334Uf/eDyKPETuw==";
+        };
     in {
         "npITsdZf" = _npITsdZf;
         "sft86ANm" = _sft86ANm;
@@ -662,6 +667,7 @@ let
         "4gMHwqkR" = _4gMHwqkR;
         "TGUAJcTJ" = _TGUAJcTJ;
         "rCmC09FF" = _rCmC09FF;
+        "ly1yAeRN" = _ly1yAeRN;
         "fabric-1.20.4" = _HQ3ygzoF;
         "fabric-1.20.2" = _VNDE8KPI;
         "fabric-1.20.1" = _vlJUpYqQ;
@@ -688,7 +694,7 @@ let
         "fabric-26.1.1" = _FHOXeRDk;
         "fabric-26.1.2" = _FHOXeRDk;
         "fabric-26.2" = _czoujDEC;
-        "fabric-26.3" = _rCmC09FF;
+        "fabric-26.3" = _ly1yAeRN;
         "pkg-1.0.3+mc1.20.4" = _npITsdZf;
         "pkg-1.0.3+mc1.20.2" = _sft86ANm;
         "pkg-1.0.3+mc1.20.1" = _CefR8OH6;
@@ -799,7 +805,8 @@ let
         "pkg-3.6.0-beta.1+26.3" = _4gMHwqkR;
         "pkg-3.6.0-beta.2+26.3" = _TGUAJcTJ;
         "pkg-3.6.0-beta.5+26.3" = _rCmC09FF;
-        "default" = _rCmC09FF;
+        "pkg-3.6.0+26.3" = _ly1yAeRN;
+        "default" = _ly1yAeRN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "server-replay";

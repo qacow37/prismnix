@@ -181,6 +181,26 @@ let
             "file" = "ascendant_arcana-fabric-0.13.2.jar";
             "hash" = "sha512-2YZisl0xwjT0LJrHqsjMgCX+3p0J4ytWPC2T7Xl8tWIjxsHt9cbp9kPG9/itBdVD7UKEs7R4c2tQywIQ4XEpww==";
         };
+        _IKlNWVTj = {
+            "id" = "IKlNWVTj";
+            "file" = "ascendant_arcana-fabric-0.13.3.jar";
+            "hash" = "sha512-xCeDUj4e3/GeQolL2S03O6kwWTz2nXv41NtxW9tw4je5BTYTUyHNL1cg4UGGtF68YEAWjV8W9jT2hJAZ6YHIuw==";
+        };
+        _bbGuFmSy = {
+            "id" = "bbGuFmSy";
+            "file" = "ascendant_arcana-forge-0.13.3.jar";
+            "hash" = "sha512-szh41Ys7Ozu0Dx58iM7QyLFOb+dV8cuf0LDsMgDAL4ex6FXmhmZsQgXeWhwWKJEoTZSBVCp/fQ7c/Zw1Pmnegw==";
+        };
+        _fBgYU6Ww = {
+            "id" = "fBgYU6Ww";
+            "file" = "ascendant_arcana-forge-0.13.4.jar";
+            "hash" = "sha512-B6x5zJpqPXAuwREOO6YKJ4AQ9+EOcrx4Fc3hb9Pmtx+SaU1KZCNJ+n0fIaeO0JmPH++Ixx+w08/y+omOIngp/g==";
+        };
+        _rJis3fmi = {
+            "id" = "rJis3fmi";
+            "file" = "ascendant_arcana-fabric-0.13.4.jar";
+            "hash" = "sha512-At/scXX6NGRN0JHi/v+XEalo2IYXIIN+zt2Iyj5vvbKMggHrnZIAZyjP+tqf+O3Tj9vdyOxYM7hcIZ/FaeCi0A==";
+        };
     in {
         "5QvRrcDo" = _5QvRrcDo;
         "kLJooZuN" = _kLJooZuN;
@@ -218,8 +238,12 @@ let
         "57czcwRJ" = _57czcwRJ;
         "dOHJgDGH" = _dOHJgDGH;
         "QL0qAqKX" = _QL0qAqKX;
-        "fabric-1.20.1" = _QL0qAqKX;
-        "forge-1.20.1" = _dOHJgDGH;
+        "IKlNWVTj" = _IKlNWVTj;
+        "bbGuFmSy" = _bbGuFmSy;
+        "fBgYU6Ww" = _fBgYU6Ww;
+        "rJis3fmi" = _rJis3fmi;
+        "fabric-1.20.1" = _rJis3fmi;
+        "forge-1.20.1" = _fBgYU6Ww;
         "pkg-0.8" = _5QvRrcDo;
         "pkg-0.8.1" = _kLJooZuN;
         "pkg-0.8.2" = _zBh9QXIx;
@@ -242,7 +266,9 @@ let
         "pkg-0.13" = _EsXPemxm;
         "pkg-0.13.1" = _57czcwRJ;
         "pkg-0.13.2" = _QL0qAqKX;
-        "default" = _QL0qAqKX;
+        "pkg-0.13.3" = _bbGuFmSy;
+        "pkg-0.13.4" = _rJis3fmi;
+        "default" = _rJis3fmi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ascendant-arcana";

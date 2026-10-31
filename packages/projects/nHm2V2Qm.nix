@@ -201,6 +201,11 @@ let
             "file" = "Cyberpunk_2077_Guns_Pack_1.20.2.zip";
             "hash" = "sha512-DPN3uW69RedpKNZRhFrOeFRmB4xT/cyfcqYuABoGkYRXQIwuIN8OcWekAay9F9rKVrA83FndEYTtAx0YwhAwyA==";
         };
+        _HTjPj48x = {
+            "id" = "HTjPj48x";
+            "file" = "Cyberpunk_2077_Guns_Pack_1.20.5.zip";
+            "hash" = "sha512-6fXZjCzNdvzFmN0mUuhMba34svaH7Am8sqRbBeM4BP74goj4Qrla5GXfOS+WagjgtSq/M1837JnVnFBepYgO7A==";
+        };
     in {
         "pJnD8IJY" = _pJnD8IJY;
         "6FXCJFny" = _6FXCJFny;
@@ -242,12 +247,13 @@ let
         "SUUsaujW" = _SUUsaujW;
         "FvJHLbRC" = _FvJHLbRC;
         "FWpKPor0" = _FWpKPor0;
-        "datapack-1.20.1" = _FWpKPor0;
-        "datapack-1.21" = _FWpKPor0;
-        "datapack-1.21.1" = _FWpKPor0;
+        "HTjPj48x" = _HTjPj48x;
+        "datapack-1.20.1" = _HTjPj48x;
+        "datapack-1.21" = _HTjPj48x;
+        "datapack-1.21.1" = _HTjPj48x;
         "datapack-1.20" = _oOjdQKy1;
         "datapack-1.21.11" = _FvJHLbRC;
-        "datapack-26.1.2" = _FWpKPor0;
+        "datapack-26.1.2" = _HTjPj48x;
         "fabric-1.21" = _FWpKPor0;
         "fabric-1.21.1" = _FWpKPor0;
         "fabric-1.20.1" = _FWpKPor0;
@@ -296,7 +302,8 @@ let
         "pkg-1.20" = _SUUsaujW;
         "pkg-1.20.1" = _FvJHLbRC;
         "pkg-1.20.2" = _FWpKPor0;
-        "default" = _FWpKPor0;
+        "pkg-1.20.5" = _HTjPj48x;
+        "default" = _HTjPj48x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyberpunk-2077-guns-for-vics-point-blank";

@@ -596,6 +596,11 @@ let
             "file" = "customrecipe-1.4.7+1.16.5.jar";
             "hash" = "sha512-z1a40OgBmDVFI9n0Ac2k2FHLbyBqtsZ08KMeESEtzJ4NDY+F475zTHmO3UNtTZ5nYYsgzH/nry98E2eVuJ0Elg==";
         };
+        _7ObGM3ld = {
+            "id" = "7ObGM3ld";
+            "file" = "customrecipe-1.4.8+1.21.1.jar";
+            "hash" = "sha512-Gp/InVy3HJc7i2TDOe5aGrlAA6aoxwY6BkYOwk3YII1PAzZw0joZ9YrItiR0xKnRl5JBVImhQ0VK7hgVgRZsBw==";
+        };
     in {
         "HhpxWPBJ" = _HhpxWPBJ;
         "Wxiz6GOU" = _Wxiz6GOU;
@@ -716,8 +721,9 @@ let
         "af2NqoQS" = _af2NqoQS;
         "eYf9UlpL" = _eYf9UlpL;
         "VcEHK3wU" = _VcEHK3wU;
+        "7ObGM3ld" = _7ObGM3ld;
         "fabric-1.21.11" = _WemewfLE;
-        "fabric-1.21.1" = _ySXoNlyj;
+        "fabric-1.21.1" = _7ObGM3ld;
         "fabric-1.20.1" = _zjCBfc9y;
         "fabric-26.2" = _3nzB8VWO;
         "fabric-1.21.8" = _ZqN1WGns;
@@ -854,7 +860,8 @@ let
         "pkg-1.4.7-1.19.2-(Forge)" = _af2NqoQS;
         "pkg-1.4.7-1.18.2-(Forge)" = _eYf9UlpL;
         "pkg-1.4.7-1.16.5-(Forge)" = _VcEHK3wU;
-        "default" = _VcEHK3wU;
+        "pkg-1.4.8-1.21.1-(Fabric)" = _7ObGM3ld;
+        "default" = _7ObGM3ld;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipescreator";

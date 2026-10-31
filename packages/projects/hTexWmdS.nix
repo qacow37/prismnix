@@ -971,6 +971,21 @@ let
             "file" = "BlockFront-1.21.1-0.9.0.61b-RELEASE.jar";
             "hash" = "sha512-tIgUG/Zw2fRFuaVkNF1TFGkJ0imv90uSB9d2DJGAgp9xHnV2bVRJ17Bthmw2iVCUHsZ5fu1TXkkVFfINw9OX0A==";
         };
+        _EsQMnpKL = {
+            "id" = "EsQMnpKL";
+            "file" = "BlockFront-1.21.1-0.9.0.62b-RELEASE.jar";
+            "hash" = "sha512-QqHLr4/sEEAlYqkblqYIYYSHKHT+W/IXcFAiQXmb0k417UD07unyldE64imljcjWLhy1D+mR3u5/d0cPU/jKlQ==";
+        };
+        _xapqGVS6 = {
+            "id" = "xapqGVS6";
+            "file" = "BlockFront-1.21.1-0.9.0.63b-RELEASE.jar";
+            "hash" = "sha512-nPpkGJEMfaBkLNnFwHM0Jve2XFJ56mDDOZAoN+6R7bdhycmjUgzSm2wnbp+eDqHl8aOibpEyjRPB0BkfjigtmA==";
+        };
+        _eolC5NYE = {
+            "id" = "eolC5NYE";
+            "file" = "BlockFront-1.21.1-0.9.0.64b-RELEASE.jar";
+            "hash" = "sha512-3Wx6XRwtZ+t1dxMbmk9YHZd1CHmbY5sodNjO2YDwVyHG7eGJ9pW4gwenxD9KEBJ18xxbBLtCVCA9QXarEHBg8Q==";
+        };
     in {
         "8Sq6D8yG" = _8Sq6D8yG;
         "iog9ZURL" = _iog9ZURL;
@@ -1166,13 +1181,16 @@ let
         "ElRzb3gu" = _ElRzb3gu;
         "lWV9uPAs" = _lWV9uPAs;
         "spUFnBHG" = _spUFnBHG;
+        "EsQMnpKL" = _EsQMnpKL;
+        "xapqGVS6" = _xapqGVS6;
+        "eolC5NYE" = _eolC5NYE;
         "forge-1.19.4" = _ubapOU0W;
         "forge-1.20.1" = _Iamz39kt;
         "forge-1.20" = _Iamz39kt;
         "neoforge-1.20.4" = _YdagCrng;
         "neoforge-1.20.6" = _G6F8bicn;
         "neoforge-1.21" = _iF1BMp4J;
-        "neoforge-1.21.1" = _spUFnBHG;
+        "neoforge-1.21.1" = _eolC5NYE;
         "pkg-0.1.8.6a" = _8Sq6D8yG;
         "pkg-0.1.8.7a" = _iog9ZURL;
         "pkg-0.1.8.8a" = _HKV8OeUo;
@@ -1360,7 +1378,10 @@ let
         "pkg-0.9.0.59b" = _ElRzb3gu;
         "pkg-0.9.0.60b" = _lWV9uPAs;
         "pkg-0.9.0.61b" = _spUFnBHG;
-        "default" = _spUFnBHG;
+        "pkg-0.9.0.62b" = _EsQMnpKL;
+        "pkg-0.9.0.63b" = _xapqGVS6;
+        "pkg-0.9.0.64b" = _eolC5NYE;
+        "default" = _eolC5NYE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockfront";

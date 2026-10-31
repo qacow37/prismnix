@@ -716,6 +716,11 @@ let
             "file" = "invsearch-storage-indexer-1.3.4-dev.2+26.3-fabric.jar";
             "hash" = "sha512-KWKMV6d9pvMhEm5mJOviADdW7Kfm1Leb5bg3sVoQi6u0O+MGhvSxWOZ6c2cbZ3jM2NPV+wP0wF8tWcNWmTjG7Q==";
         };
+        _letws5E1 = {
+            "id" = "letws5E1";
+            "file" = "invsearch-storage-indexer-1.3.4-dev.2+1.20.1-forge.jar";
+            "hash" = "sha512-IfnAvdf9WGYrhi98nnacG9S3HQ62k3jgBWu3b5f2oJzUbnr6+KsTM/ebGFyWYPSseoFzW6QZ3p58K2RjWth3Zg==";
+        };
     in {
         "VxZuQFkh" = _VxZuQFkh;
         "rEYIYQYi" = _rEYIYQYi;
@@ -860,6 +865,7 @@ let
         "EwVDL6xS" = _EwVDL6xS;
         "UGo9bzoz" = _UGo9bzoz;
         "vcbcjoz0" = _vcbcjoz0;
+        "letws5E1" = _letws5E1;
         "fabric-26.1.2" = _5q5ujZRe;
         "fabric-26.2" = _JolC0gbw;
         "fabric-26.3" = _vcbcjoz0;
@@ -883,7 +889,7 @@ let
         "forge-26.2" = _lvMvTc8H;
         "forge-26.3" = _uFxfANVC;
         "forge-1.19.2" = _KWTOIZUU;
-        "forge-1.20.1" = _JSKKA70p;
+        "forge-1.20.1" = _letws5E1;
         "forge-26.1.1" = _jRX1ROUX;
         "forge-1.21.1" = _J1C2Whns;
         "forge-1.21.10" = _TropOIhf;
@@ -1001,7 +1007,8 @@ let
         "pkg-1.3.3+26.1.2-quilt" = _EwVDL6xS;
         "pkg-1.3.3+26.2-quilt" = _UGo9bzoz;
         "pkg-1.3.4-dev.2+26.3-fabric" = _vcbcjoz0;
-        "default" = _vcbcjoz0;
+        "pkg-1.3.4-dev.2+1.20.1-forge" = _letws5E1;
+        "default" = _letws5E1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invsearch";

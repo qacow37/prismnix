@@ -71,6 +71,16 @@ let
             "file" = "immortal_cultivation_mod-1.5.3-1.20.1.jar";
             "hash" = "sha512-aDfnrYvidqWkZVeKOLahB31Nyh43HlQltIAQ6iMV0IxD9aMSCluBlikTKfcGiHzWRYM6NkzlfCjBI1ICt3yY1g==";
         };
+        _Vaq2TPl0 = {
+            "id" = "Vaq2TPl0";
+            "file" = "immortal_cultivation_mod-1.5.4-1.20.1.jar";
+            "hash" = "sha512-F1Sm04hvzIpeNvpEmxgSyj5p/fAnbvS/fjej3vwKGAHqvXnspU4+gL+k8DPgVWKDVL/pbG5UZnbYmFwx05GrwQ==";
+        };
+        _hhgyqaa6 = {
+            "id" = "hhgyqaa6";
+            "file" = "immortal_cultivation_mod-1.5.4.jar";
+            "hash" = "sha512-vRCmu95ELKnv7tru/R99g5PebXk2idDLGhi/5ucWOrrcJf8JymG7VTSSki8R1cjXMYSlQ9ilv6hWnsBFLtn/Wg==";
+        };
     in {
         "vLKn3SHW" = _vLKn3SHW;
         "x9tBFMAJ" = _x9tBFMAJ;
@@ -86,8 +96,10 @@ let
         "m9bxl49S" = _m9bxl49S;
         "xyqlsfGk" = _xyqlsfGk;
         "eLGatXNB" = _eLGatXNB;
-        "neoforge-1.21.1" = _xyqlsfGk;
-        "forge-1.20.1" = _eLGatXNB;
+        "Vaq2TPl0" = _Vaq2TPl0;
+        "hhgyqaa6" = _hhgyqaa6;
+        "neoforge-1.21.1" = _hhgyqaa6;
+        "forge-1.20.1" = _Vaq2TPl0;
         "pkg-1.0.0" = _vLKn3SHW;
         "pkg-1.1.0" = _x9tBFMAJ;
         "pkg-1.2.0" = _YTwj71wZ;
@@ -97,7 +109,8 @@ let
         "pkg-1.5.1" = _l8xNc6Go;
         "pkg-1.5.2" = _m9bxl49S;
         "pkg-1.5.3" = _eLGatXNB;
-        "default" = _eLGatXNB;
+        "pkg-1.5.4" = _hhgyqaa6;
+        "default" = _hhgyqaa6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immortal-cultivation-mod";

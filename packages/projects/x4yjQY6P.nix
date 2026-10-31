@@ -46,6 +46,16 @@ let
             "file" = "Clangor Custom Soundpack.zip";
             "hash" = "sha512-XorqXTWSvS5KzJvByaToaysc4D47j7FkIRE5CRpooklyrle+ZR4boZXlSS326GpjHiu0wpyTrdvszf3AmQLI/w==";
         };
+        _itvdcUww = {
+            "id" = "itvdcUww";
+            "file" = "Clangor Custom Soundpack.zip";
+            "hash" = "sha512-6WLxyq6jHCyN5JqbaoXKlZvgpMJ4atZ5jreVvpY8uhy6XBaO5MK42f2JNdpXqLyRV5aTi8j9Wnis4WBhcoGRLg==";
+        };
+        _rkp2Zls8 = {
+            "id" = "rkp2Zls8";
+            "file" = "Clangor Custom Soundpack.zip";
+            "hash" = "sha512-Sv0/LWI0Fm2xXMrPwrzOcasLcQ2EdOL5k+FUkwcIBRoIM7bnyZIPA3j1zsG7z914zNY6PNK/btI9EAohsmuxWQ==";
+        };
     in {
         "AY05UDwq" = _AY05UDwq;
         "hKcbs0dB" = _hKcbs0dB;
@@ -56,10 +66,12 @@ let
         "NJ3AWS7t" = _NJ3AWS7t;
         "Kd2dJXcu" = _Kd2dJXcu;
         "6tfGMzBW" = _6tfGMzBW;
-        "minecraft-26.1.2" = _6tfGMzBW;
-        "minecraft-26.2" = _6tfGMzBW;
-        "minecraft-26.3" = _6tfGMzBW;
-        "minecraft-1.21.11" = _6tfGMzBW;
+        "itvdcUww" = _itvdcUww;
+        "rkp2Zls8" = _rkp2Zls8;
+        "minecraft-26.1.2" = _rkp2Zls8;
+        "minecraft-26.2" = _rkp2Zls8;
+        "minecraft-26.3" = _rkp2Zls8;
+        "minecraft-1.21.11" = _rkp2Zls8;
         "pkg-0.1" = _AY05UDwq;
         "pkg-0.2" = _hKcbs0dB;
         "pkg-0.3" = _88sENFsa;
@@ -68,7 +80,9 @@ let
         "pkg-0.6" = _So6b93Vn;
         "pkg-0.6-beta2" = _Kd2dJXcu;
         "pkg-0.7" = _6tfGMzBW;
-        "default" = _6tfGMzBW;
+        "pkg-0.7-beta2" = _itvdcUww;
+        "pkg-0.8" = _rkp2Zls8;
+        "default" = _rkp2Zls8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clangor-custom-soundpack";

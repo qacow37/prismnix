@@ -131,6 +131,86 @@ let
             "file" = "cropgrowthhud-neoforge-26.1.2-1.1.0.jar";
             "hash" = "sha512-GO8GmaZXCoprJwHWE/Mm000oZgKiHKWRaPdSHhrQVvFl3GjZm+3H8VKy9MPYWkm9QK3qvzpJKbgdoun09rz4JA==";
         };
+        _MkWetJ8f = {
+            "id" = "MkWetJ8f";
+            "file" = "cropgrowthhud-fabric-1.19.2-1.1.1.jar";
+            "hash" = "sha512-qVdz7r8wG6/73mkEDRLnthK62YqmWtHOkX88oESXh9nLM3lFVsbtLF8wfl9eryH1PzYF9OVT/H0cX6OF/fG9gw==";
+        };
+        _nhv3zPub = {
+            "id" = "nhv3zPub";
+            "file" = "cropgrowthhud-fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-dOW70JUKjCYxt49tUp5L+60WgiUx9L/9ZXZ2JLkRGGf0ckFNsY0aYjjKjtH0WdkA7/AGZeE5kY/B+noHpkt0Kg==";
+        };
+        _AIs4rkeg = {
+            "id" = "AIs4rkeg";
+            "file" = "cropgrowthhud-fabric-1.21.11-1.1.1.jar";
+            "hash" = "sha512-+8rZZleF84OQMQUHWsESCD2ITHly6W3y80j/u+EJGdxyF4CC6R2OviQG6K0T7xANYleqjgT4lXYoiYF5fKYfbA==";
+        };
+        _rtWRgi07 = {
+            "id" = "rtWRgi07";
+            "file" = "cropgrowthhud-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-EF99UjQQZQ0qiRn1Rsvfn9sb9DY+Y5dkrTGh58kXdu3tvIXx06W1To0c139uCDIMuvHaLdEpU1G96iODH9Ndug==";
+        };
+        _mYTbFBug = {
+            "id" = "mYTbFBug";
+            "file" = "cropgrowthhud-fabric-26.1.2-1.1.1.jar";
+            "hash" = "sha512-OW1PTrxLY4/hZhrUoFkISTVlvOIyROpPaYiPzIWADISy/1KzQ6nVTvzIzx7kKkKeXnJ6ud3IGmLgbNw1wLgbKA==";
+        };
+        _KMKq8inA = {
+            "id" = "KMKq8inA";
+            "file" = "cropgrowthhud-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-ii5CXkJvNDoGDjoFqtzAj+MrY/pRsSWuorDx6eiSjRojs+xGx2i9ln6po2vAtIRL5ASXLzvRwl3s5NE53/bTRg==";
+        };
+        _OwgQhYUn = {
+            "id" = "OwgQhYUn";
+            "file" = "cropgrowthhud-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-UbpwJYeZM4piMOe8sGLJL2szDdyMfINMhFIVCeG5EZPTak7fFQZZXFia4gBMjzZ0D5t/6pimAlyCpt0271awTw==";
+        };
+        _9MZIaDOR = {
+            "id" = "9MZIaDOR";
+            "file" = "cropgrowthhud-forge-1.19.2-1.1.1.jar";
+            "hash" = "sha512-zkuMK5EPez6Ss76lgNRcHZHPSfDKLECmSGWSBewx7ZB6DOe02IuiBQ3a6X/nCC8RUB9rx1FR5CyokmXnsIiH0Q==";
+        };
+        _4zpA11lr = {
+            "id" = "4zpA11lr";
+            "file" = "cropgrowthhud-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-zF9FimriFO0UaTy3Ti/SKkA3SgmsPhIkeVPSWYEHQHcRHTP2JZcI4R91LHu31CcRA6XsrUbJa7NRFVtOgo2rzg==";
+        };
+        _YhXl4tJ9 = {
+            "id" = "YhXl4tJ9";
+            "file" = "cropgrowthhud-forge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-Idb06Ex7cuRhRXySvwIyCMuXlKgSOInSrxVun+/Hpg5USr3k1TOo9epyOwv69FNpTXoktsmBWurDSH1n+D8DMg==";
+        };
+        _d3hCsgPw = {
+            "id" = "d3hCsgPw";
+            "file" = "cropgrowthhud-forge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-fO9JhH4v0lMIC+WP9yHhLgs/L3oXoR1FuUJiAcX7B2AF+xsODI2kDQF7fiaEMZ3y89A9bFYR4RBj7InbSxSa+A==";
+        };
+        _NLygKJmM = {
+            "id" = "NLygKJmM";
+            "file" = "cropgrowthhud-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-gO8DVyOZ4h23XrAeMEVhB6I8ESKLuoX+qDYlOP49Mu4S0r4WZ/XIbCTHjtRTFfsy4I/rUphqWwo7IsEXFSh5vw==";
+        };
+        _aY46sKFR = {
+            "id" = "aY46sKFR";
+            "file" = "cropgrowthhud-neoforge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-iiES2uD/SA7TrLARUN+nyKE6jprfB1UTSGHqXhhUoWUN5nOSFHg7xvP4K35nxOdpx2zySSAwvkLMIX9+p7NEeg==";
+        };
+        _ZkfiYPvg = {
+            "id" = "ZkfiYPvg";
+            "file" = "cropgrowthhud-neoforge-26.1.2-1.1.1.jar";
+            "hash" = "sha512-7ZJPQ8f0lfA+UZCk3j3DpGki7KU5V2vTUl/fqM0k7cE83flNlvpEpTEK4mBmdhAZhmbAM7Z4mjFA4cE2kzcwHA==";
+        };
+        _iM2yHFST = {
+            "id" = "iM2yHFST";
+            "file" = "cropgrowthhud-neoforge-26.2-1.1.1.jar";
+            "hash" = "sha512-QMamhfw70QIQqDKZZP+ckJshfevSedW5oFAEuRbfmMC6KL6omeBixHn6S+UfnwcAtwC8TrS8b4vcECpvWc1EGw==";
+        };
+        _FPSOmhY5 = {
+            "id" = "FPSOmhY5";
+            "file" = "cropgrowthhud-neoforge-26.3-1.1.1.jar";
+            "hash" = "sha512-iQ25K8gsToX/bJJS11Mk7U8IwZytc9ANgoKwOOY6MZh7aaNEyuHxjo3t0LnN6S7/FJY/Lau+pzt0VnTpvde1bQ==";
+        };
     in {
         "U6XVj4Hy" = _U6XVj4Hy;
         "Zqs67PUp" = _Zqs67PUp;
@@ -158,27 +238,44 @@ let
         "pH6DClhc" = _pH6DClhc;
         "vx1p2juE" = _vx1p2juE;
         "teVJWjEx" = _teVJWjEx;
-        "fabric-1.20.1" = _2XE1M7ma;
-        "fabric-1.21.1" = _UdgDVZpN;
-        "fabric-1.21.11" = _LLuOaTIN;
+        "MkWetJ8f" = _MkWetJ8f;
+        "nhv3zPub" = _nhv3zPub;
+        "AIs4rkeg" = _AIs4rkeg;
+        "rtWRgi07" = _rtWRgi07;
+        "mYTbFBug" = _mYTbFBug;
+        "KMKq8inA" = _KMKq8inA;
+        "OwgQhYUn" = _OwgQhYUn;
+        "9MZIaDOR" = _9MZIaDOR;
+        "4zpA11lr" = _4zpA11lr;
+        "YhXl4tJ9" = _YhXl4tJ9;
+        "d3hCsgPw" = _d3hCsgPw;
+        "NLygKJmM" = _NLygKJmM;
+        "aY46sKFR" = _aY46sKFR;
+        "ZkfiYPvg" = _ZkfiYPvg;
+        "iM2yHFST" = _iM2yHFST;
+        "FPSOmhY5" = _FPSOmhY5;
+        "fabric-1.20.1" = _nhv3zPub;
+        "fabric-1.21.1" = _rtWRgi07;
+        "fabric-1.21.11" = _AIs4rkeg;
         "fabric-26.1" = _fRKG6kaf;
-        "fabric-26.1.2" = _vx1p2juE;
-        "fabric-1.19.2" = _CMUuuJy1;
-        "fabric-26.2" = _5WeN559h;
-        "fabric-26.3" = _uvltSAgP;
-        "forge-1.20.1" = _tzHnoDDW;
-        "forge-1.19.2" = _sEHzqrE2;
-        "forge-1.21.1" = _sg3g1MEL;
-        "forge-1.21.11" = _bZFGBvlm;
-        "neoforge-1.21.1" = _HS8UiblL;
-        "neoforge-1.21.11" = _YNlj1IQY;
+        "fabric-26.1.2" = _mYTbFBug;
+        "fabric-1.19.2" = _MkWetJ8f;
+        "fabric-26.2" = _KMKq8inA;
+        "fabric-26.3" = _OwgQhYUn;
+        "forge-1.20.1" = _4zpA11lr;
+        "forge-1.19.2" = _9MZIaDOR;
+        "forge-1.21.1" = _YhXl4tJ9;
+        "forge-1.21.11" = _d3hCsgPw;
+        "neoforge-1.21.1" = _NLygKJmM;
+        "neoforge-1.21.11" = _aY46sKFR;
         "neoforge-26.1" = _RPRMV1s1;
-        "neoforge-26.1.2" = _teVJWjEx;
-        "neoforge-26.2" = _SeKfuXv2;
-        "neoforge-26.3" = _pH6DClhc;
+        "neoforge-26.1.2" = _ZkfiYPvg;
+        "neoforge-26.2" = _iM2yHFST;
+        "neoforge-26.3" = _FPSOmhY5;
         "pkg-1.0.0" = _hywWT8EL;
         "pkg-1.1.0" = _teVJWjEx;
-        "default" = _teVJWjEx;
+        "pkg-1.1.1" = _FPSOmhY5;
+        "default" = _FPSOmhY5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cropgrowthhud";

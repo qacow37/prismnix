@@ -216,6 +216,21 @@ let
             "file" = "disx-0.3.0-quilt-1.20.1.jar";
             "hash" = "sha512-w8J8gFRhJ8LnYL1sG+pQ/QE4obSgrPdT/1j/obbLQzE0xiU6uYKMoTEC7aUo7S/JTrKi5wWb1p9NYFTI0aHamQ==";
         };
+        _feFBnKvF = {
+            "id" = "feFBnKvF";
+            "file" = "disx-0.4.0-fabric.jar";
+            "hash" = "sha512-WCIT02GSILlLxcQFm/Lqv0FNTJ5VaztQ4Ux5Fp8EXSwvC9Iiuq9wSt1XPQl5lhamub/1PajOmASnymTiE3XmyA==";
+        };
+        _QDyW3RJo = {
+            "id" = "QDyW3RJo";
+            "file" = "disx-0.4.0-forge.jar";
+            "hash" = "sha512-4exaD+B9TJkuFogeywkyqnqpQRw7eVAgoZ/MHJg00Ljz3cCQMG2o9YwsvX1cj7+1A45+FcgH74pzvgVUiSIyNg==";
+        };
+        _lPFQGaUi = {
+            "id" = "lPFQGaUi";
+            "file" = "disx-0.4.0-quilt.jar";
+            "hash" = "sha512-qk9cuo92Xh8S15zLZgb4CBoJEalVcf9u9WzWPa5Z6eplqDVEDa/zalCH1Ri/Ka6jEdw/yeE+J4Vvbir1nRqsGw==";
+        };
     in {
         "AbWa4wGy" = _AbWa4wGy;
         "G8TBwlr7" = _G8TBwlr7;
@@ -260,9 +275,12 @@ let
         "eUEkOTyU" = _eUEkOTyU;
         "znI6Arwe" = _znI6Arwe;
         "eyxhCgfs" = _eyxhCgfs;
-        "fabric-1.20.1" = _eUEkOTyU;
-        "forge-1.20.1" = _znI6Arwe;
-        "quilt-1.20.1" = _eyxhCgfs;
+        "feFBnKvF" = _feFBnKvF;
+        "QDyW3RJo" = _QDyW3RJo;
+        "lPFQGaUi" = _lPFQGaUi;
+        "fabric-1.20.1" = _feFBnKvF;
+        "forge-1.20.1" = _QDyW3RJo;
+        "quilt-1.20.1" = _lPFQGaUi;
         "pkg-0.0.2" = _G8TBwlr7;
         "pkg-b0.0.1" = _gT04x0zM;
         "pkg-b0.0.2" = _gIiUz0hE;
@@ -278,7 +296,8 @@ let
         "pkg-0.2.0" = _sbg0NfWY;
         "pkg-0.2.1" = _kBBdowoo;
         "pkg-0.3.0" = _eyxhCgfs;
-        "default" = _eyxhCgfs;
+        "pkg-0.4.0" = _lPFQGaUi;
+        "default" = _lPFQGaUi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disx";

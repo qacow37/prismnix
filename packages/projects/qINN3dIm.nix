@@ -11,13 +11,20 @@ let
             "file" = "miningz-1.0.1.jar";
             "hash" = "sha512-yDSommHre5JVIlkYnkV3Se87sox/75pOywPZjRiir603bu+gXdbkzqb3JBn/rROCEstZs4JarBnFtPkDPYGEug==";
         };
+        _W9rwEITN = {
+            "id" = "W9rwEITN";
+            "file" = "miningz-1.0.2.jar";
+            "hash" = "sha512-PgmSZ57gThQKEYzYk/SNPqQX09UAwca8ItPSORhbYWemNYfHJWL/Jdn9TfvaM71p895lV/hAcP01bpt2NHdLVw==";
+        };
     in {
         "Fn4wfhUz" = _Fn4wfhUz;
         "3YT9ol8q" = _3YT9ol8q;
-        "fabric-1.21.1" = _3YT9ol8q;
+        "W9rwEITN" = _W9rwEITN;
+        "fabric-1.21.1" = _W9rwEITN;
         "pkg-1.0.0" = _Fn4wfhUz;
         "pkg-1.0.1" = _3YT9ol8q;
-        "default" = _3YT9ol8q;
+        "pkg-1.0.2+1.21.1" = _W9rwEITN;
+        "default" = _W9rwEITN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "miningz";

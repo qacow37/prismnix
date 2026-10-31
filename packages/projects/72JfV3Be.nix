@@ -926,6 +926,11 @@ let
             "file" = "insanesurvivaloverhaul-5.13.2.0.jar";
             "hash" = "sha512-DI7X1cM1eg19f5+4UYtizG0pWzgfy4f0JuvmMzM300/FSGaiTpydbEd9iUVHiwPOFKwBir89sict/ZLFZVmG6g==";
         };
+        _VaQhshdr = {
+            "id" = "VaQhshdr";
+            "file" = "insanesurvivaloverhaul-5.14.0.0-beta.jar";
+            "hash" = "sha512-/rRPMG1N27q7p6d/25SfkmALeq6YR4+8+nVs2ea9zYOnq/FZK3GYhkFXoP+fr0jSicFd1004KpiAOKlAXWC/CA==";
+        };
     in {
         "SzffhwC1" = _SzffhwC1;
         "pfzWiFvb" = _pfzWiFvb;
@@ -1112,13 +1117,14 @@ let
         "yeSm7ugl" = _yeSm7ugl;
         "n7PHCfgN" = _n7PHCfgN;
         "kVdCFOtE" = _kVdCFOtE;
+        "VaQhshdr" = _VaQhshdr;
         "forge-1.18.2" = _SzffhwC1;
         "forge-1.19.4" = _pfzWiFvb;
         "forge-1.20.1" = _VbQyyeJv;
         "forge-1.19.2" = _kpc80kKK;
         "forge-1.12.2" = _MCHmu8jt;
         "neoforge-1.20.1" = _WelTMcOS;
-        "neoforge-1.21.1" = _kVdCFOtE;
+        "neoforge-1.21.1" = _VaQhshdr;
         "pkg-2.12.12" = _SzffhwC1;
         "pkg-2.15.0" = _pfzWiFvb;
         "pkg-3.7.1" = _PPvtsUVs;
@@ -1298,7 +1304,8 @@ let
         "pkg-5.13.0.1" = _yeSm7ugl;
         "pkg-5.13.1.0" = _n7PHCfgN;
         "pkg-5.13.2.0" = _kVdCFOtE;
-        "default" = _kVdCFOtE;
+        "pkg-5.14.0.0-beta" = _VaQhshdr;
+        "default" = _VaQhshdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iguanatweaks-reborn";

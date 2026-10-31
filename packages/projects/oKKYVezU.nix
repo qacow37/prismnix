@@ -121,6 +121,16 @@ let
             "file" = "asr-neoforge-3.2.0-1.21-1.21.1.jar";
             "hash" = "sha512-RVMFnmjaFYkD6HmduY79fg8kro1s4aJdjhvBwCTpNIdZcKnh7c+31UNCJy2U8k51EYz2sgtCH7musLlF6qgFpA==";
         };
+        _gJPQxJ2q = {
+            "id" = "gJPQxJ2q";
+            "file" = "asr-fabric-3.2.0-26.2.jar";
+            "hash" = "sha512-X/SHMFEQnRdIL5HyoQu4Ossd+dMUrufqpmA+kz/qyeku4tppYFn6NCnwcevylrc7DmwKUHd7oVlW6iHag7FXKg==";
+        };
+        _KDxkhLtV = {
+            "id" = "KDxkhLtV";
+            "file" = "asr-neoforge-3.2.0-26.2.jar";
+            "hash" = "sha512-y1fBulB6/8zCTVG4fds4TG9B/lWrEoidA/rokJbn1fIb9/XoiOVSGDw/KtO+P6DZSayVLBlYKlNRiicC8E3nEg==";
+        };
     in {
         "g9kP0PXn" = _g9kP0PXn;
         "KB7AxBAe" = _KB7AxBAe;
@@ -146,6 +156,8 @@ let
         "5FQzNC8y" = _5FQzNC8y;
         "5419zTsC" = _5419zTsC;
         "aBKuWuRH" = _aBKuWuRH;
+        "gJPQxJ2q" = _gJPQxJ2q;
+        "KDxkhLtV" = _KDxkhLtV;
         "forge-1.12.2" = _QEcRGp0d;
         "forge-1.14.4" = _KB7AxBAe;
         "forge-1.19.2" = _wkZJ4vm5;
@@ -156,14 +168,14 @@ let
         "neoforge-1.21.9" = _NTCZv6bA;
         "neoforge-1.21.10" = _NTCZv6bA;
         "neoforge-1.21.11" = _A0s4nAtr;
-        "neoforge-26.2" = _wTx4899V;
+        "neoforge-26.2" = _KDxkhLtV;
         "neoforge-26.1.2" = _5FQzNC8y;
         "neoforge-1.21" = _aBKuWuRH;
         "neoforge-1.21.1" = _aBKuWuRH;
         "fabric-1.21.9" = _sYBPoYNz;
         "fabric-1.21.10" = _sYBPoYNz;
         "fabric-1.21.11" = _RiLJ0Run;
-        "fabric-26.2" = _Cdp7eUdm;
+        "fabric-26.2" = _gJPQxJ2q;
         "fabric-26.1.2" = _B00PmPMv;
         "fabric-1.21" = _5419zTsC;
         "fabric-1.21.1" = _5419zTsC;
@@ -181,8 +193,8 @@ let
         "pkg-3.0.0" = _sYBPoYNz;
         "pkg-3.0.1" = _RiLJ0Run;
         "pkg-3.1.0" = _5FQzNC8y;
-        "pkg-3.2.0" = _aBKuWuRH;
-        "default" = _aBKuWuRH;
+        "pkg-3.2.0" = _KDxkhLtV;
+        "default" = _KDxkhLtV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asgard-shield-reloaded";

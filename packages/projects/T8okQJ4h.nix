@@ -296,6 +296,66 @@ let
             "file" = "animated_totem_fullsize_emissive_totem_outline_26.1.x.zip";
             "hash" = "sha512-UWMJwi3XYBcien38fuXDcfHwtw2Vtv7dFPOOd54iG7O+hVVoyiaoegkjjGF2r/IEpv8/iJX1vwUlH2SGTEiHUA==";
         };
+        _NaUCWa40 = {
+            "id" = "NaUCWa40";
+            "file" = "animated-totem-mini-version-26.1.x.zip";
+            "hash" = "sha512-e/Vz5K6ZtfM4C0MsVCONwdT50ou/MP43Uj8y7vVLPnv5Ra4qfh0fJd6Zc55fIY8jP8H5FKT/afPNfMLtqcJHdg==";
+        };
+        _hXrESgHr = {
+            "id" = "hXrESgHr";
+            "file" = "animated-totem-mini-version-emissive eyes-26.1.x.zip";
+            "hash" = "sha512-1dTeI902R4ZCX0eZIhnreIRWKjTePl0YzD6jJp1dV/f1eZZcv58PFu2dO9Ehgq4XzzZDAxwKIK+z6NqVAwZcGQ==";
+        };
+        _qWoYLjIQ = {
+            "id" = "qWoYLjIQ";
+            "file" = "animated-totem-mini-version-emissive totem-26.1.x.zip";
+            "hash" = "sha512-3bVnl4fEMmjX76oXHauOJ3Q+t+PtI6nJ22cf3inN/1wvow6nza3HTFH7gWdg8N02MVdpj5bP7HlTyD/mwwcPtA==";
+        };
+        _o78CKzWa = {
+            "id" = "o78CKzWa";
+            "file" = "animated-totem-fullsize-26.1.x.zip";
+            "hash" = "sha512-3bXqVGt7B1pK/7YKRX00tEshgWFYlJEoRJ1+b5Uipx13MrZYEQnuL116nBLn2384cnyi55WeRZGL+tV7MC0KqA==";
+        };
+        _IGIjHceU = {
+            "id" = "IGIjHceU";
+            "file" = "animated-totem-fullsize-emissive-eyes-26.1.x.zip";
+            "hash" = "sha512-uHnhFmowXFPsZgyeubsYeCbNlfK7JQs49wRcTVIbTeIA6DgKbZi03xE1O2H4hmG0ArROUDhadgbQbOg5HoYUwQ==";
+        };
+        _ow4IKx8r = {
+            "id" = "ow4IKx8r";
+            "file" = "animated-totem-fullsize-emissive-totem-26.1.x.zip";
+            "hash" = "sha512-+Opd4QWy+aqvSxBjY4dvIkIiG770YjPww5rqXqKe2d/9QvPW6tjLMq3Asbx1msbGqwxDiwmiI+iMTMV+jiRZTw==";
+        };
+        _pksQ2hN0 = {
+            "id" = "pksQ2hN0";
+            "file" = "animated_totem_mini_version_outline_26.1.x.zip";
+            "hash" = "sha512-b4qkjOXqSMNISa+tGtPToKCT6Nn+fPCTXIoQz0Oi44rVObAzIAOpDJkTRItF5MPzDJvGaHtmwE4rgkIxGXdYoQ==";
+        };
+        _4J4DqG1y = {
+            "id" = "4J4DqG1y";
+            "file" = "animated_totem_mini_version_emissive_eyes_outline_26.1.x.zip";
+            "hash" = "sha512-SqnsadR1TxrLNIx3Af84JbNX84vyHMMWk6D55PEJjTa/P0VdzbQvQ+v7sIpyk80QkkX/+X7uSVbGkZ5P4yF2xQ==";
+        };
+        _czv2bTz4 = {
+            "id" = "czv2bTz4";
+            "file" = "animated_totem_mini_version_emissive_totem_outline_26.1.x.zip";
+            "hash" = "sha512-x2LeQk57uw8sTH4GA2McPYaGR/JxUypoMaXygS1WkWzGOucLi+yAQKEY1UmvrxGhCaESCDqHyEJBdlBYJ/+j1g==";
+        };
+        _DrKDc8a2 = {
+            "id" = "DrKDc8a2";
+            "file" = "animated_totem_fullsize_outline_26.1.x.zip";
+            "hash" = "sha512-72OrHVcofyf8+cto2Ewjppmt/0LCJq6QxviKEy1HDvfprstNT2s5TGb/EW4fBb7EZN/NFcKdRRUYiJqGdKUfZg==";
+        };
+        _Z5KVASMN = {
+            "id" = "Z5KVASMN";
+            "file" = "animated_totem_fullsize_emissive_eyes_outline_26.1.x.zip";
+            "hash" = "sha512-9t4jsVxpdT3s+HuReiQyXlysm5xGvBlQtIPbR6YSYpVE9fX5eVjzDdUXupmBMVoDCL1teSlCBLHhtUdiWJpjPQ==";
+        };
+        _kqfSvM7n = {
+            "id" = "kqfSvM7n";
+            "file" = "animated_totem_fullsize_emissive_totem_outline_26.1.x.zip";
+            "hash" = "sha512-JvG+jR+Qgn6zdWIljicXrna6Fism/4dX0Tnu6RZHbjzj8i0U29gUH61tbg8zWY/qpN4DvGYhtudi12aM6F08XA==";
+        };
     in {
         "w5ICyoTG" = _w5ICyoTG;
         "DRPS7R7d" = _DRPS7R7d;
@@ -356,6 +416,18 @@ let
         "NYAEiCO4" = _NYAEiCO4;
         "rVcQT2oL" = _rVcQT2oL;
         "4HauO6Ys" = _4HauO6Ys;
+        "NaUCWa40" = _NaUCWa40;
+        "hXrESgHr" = _hXrESgHr;
+        "qWoYLjIQ" = _qWoYLjIQ;
+        "o78CKzWa" = _o78CKzWa;
+        "IGIjHceU" = _IGIjHceU;
+        "ow4IKx8r" = _ow4IKx8r;
+        "pksQ2hN0" = _pksQ2hN0;
+        "4J4DqG1y" = _4J4DqG1y;
+        "czv2bTz4" = _czv2bTz4;
+        "DrKDc8a2" = _DrKDc8a2;
+        "Z5KVASMN" = _Z5KVASMN;
+        "kqfSvM7n" = _kqfSvM7n;
         "minecraft-1.20.1" = _R8VMEXt4;
         "minecraft-1.20.2" = _R8VMEXt4;
         "minecraft-1.20.3" = _R8VMEXt4;
@@ -375,9 +447,11 @@ let
         "minecraft-1.21.9" = _R8VMEXt4;
         "minecraft-1.21.10" = _R8VMEXt4;
         "minecraft-1.21.11" = _R8VMEXt4;
-        "minecraft-26.1" = _4HauO6Ys;
-        "minecraft-26.1.1" = _4HauO6Ys;
-        "minecraft-26.1.2" = _4HauO6Ys;
+        "minecraft-26.1" = _kqfSvM7n;
+        "minecraft-26.1.1" = _kqfSvM7n;
+        "minecraft-26.1.2" = _kqfSvM7n;
+        "minecraft-26.2" = _kqfSvM7n;
+        "minecraft-26.3" = _kqfSvM7n;
         "pkg-1.0" = _II6MQ3FZ;
         "pkg-1.0.0" = _ymSDcmH1;
         "pkg-1.0.1" = _85szBlvd;
@@ -393,7 +467,8 @@ let
         "pkg-1.1.1" = _brkFA3CM;
         "pkg-1.1.2" = _R8VMEXt4;
         "pkg-1.1.3" = _4HauO6Ys;
-        "default" = _4HauO6Ys;
+        "pkg-1.1.4" = _kqfSvM7n;
+        "default" = _kqfSvM7n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-totem-of-undying";

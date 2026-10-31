@@ -56,6 +56,11 @@ let
             "file" = "womplus-20.14.1.3.2.jar";
             "hash" = "sha512-qyNkaChP7Q0NNOaBHQ55qpyF+GUXxXfqbGPFb8qDUyX46PywREPfLl6kUVIkI8ju8EeqCo/DQW4HibzOjxka7A==";
         };
+        _Kgb306rs = {
+            "id" = "Kgb306rs";
+            "file" = "womplus-21.17-1.0.1.jar";
+            "hash" = "sha512-aFoRNB6okZUI2jI26HNkN6SnNos14iuXldgO+ESWCY+ADkQsskGLfeBoMpszZg9jrZ0MI+m5rzz4wO7kYTgTDg==";
+        };
     in {
         "OezzDwRE" = _OezzDwRE;
         "y6XzXZpO" = _y6XzXZpO;
@@ -68,13 +73,14 @@ let
         "KjVS4Zx0" = _KjVS4Zx0;
         "VT8NwUh8" = _VT8NwUh8;
         "A1gPbg9D" = _A1gPbg9D;
+        "Kgb306rs" = _Kgb306rs;
         "forge-1.20.1" = _A1gPbg9D;
         "forge-1.20.2" = _A1gPbg9D;
         "forge-1.20.3" = _A1gPbg9D;
         "forge-1.20.4" = _A1gPbg9D;
         "forge-1.20.5" = _A1gPbg9D;
         "forge-1.20.6" = _A1gPbg9D;
-        "neoforge-1.21.1" = _VT8NwUh8;
+        "neoforge-1.21.1" = _Kgb306rs;
         "pkg-20.14.1.1.0" = _OezzDwRE;
         "pkg-20.14.1.1.2" = _y6XzXZpO;
         "pkg-20.14.1.1.4" = _i9bnm9NU;
@@ -86,7 +92,8 @@ let
         "pkg-20.14.1.2.2" = _KjVS4Zx0;
         "pkg-21.17-1.0.0" = _VT8NwUh8;
         "pkg-20.14.1.3.2" = _A1gPbg9D;
-        "default" = _A1gPbg9D;
+        "pkg-21.17-1.0.1" = _Kgb306rs;
+        "default" = _Kgb306rs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weapons-of-miracles-expansion-wom-plus";

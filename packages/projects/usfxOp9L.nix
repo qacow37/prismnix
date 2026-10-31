@@ -161,6 +161,11 @@ let
             "file" = "aaron-1.20.1-1.20.1-build.17.jar";
             "hash" = "sha512-i2CI6ryM4csebU9BorFSYxzwhxAOYFHvd7qjhqPI/vYM/Gx/d5BeCZqntvtEq/y8tK/USpFY+bzJdgf0et7Ybg==";
         };
+        _VsaBbH9Z = {
+            "id" = "VsaBbH9Z";
+            "file" = "aaron-1.21.1-1.22.0-build.44.jar";
+            "hash" = "sha512-dXlHPkbDpGgDjE3DPcvzTgYPZZSOEihrOC0HZBK0JyEOQmeQ898tF6NBeqq3+bKXe5QunN7MrXG38w9+pcBRGg==";
+        };
     in {
         "6iNDEEJo" = _6iNDEEJo;
         "e9xUXL5C" = _e9xUXL5C;
@@ -194,7 +199,8 @@ let
         "9OGHCJcW" = _9OGHCJcW;
         "dQt2M9ua" = _dQt2M9ua;
         "SvGP7sfZ" = _SvGP7sfZ;
-        "neoforge-1.21.1" = _9OGHCJcW;
+        "VsaBbH9Z" = _VsaBbH9Z;
+        "neoforge-1.21.1" = _VsaBbH9Z;
         "neoforge-26.1" = _Md3iAL0H;
         "forge-1.20.1" = _SvGP7sfZ;
         "pkg-1.0.0" = _6iNDEEJo;
@@ -229,7 +235,8 @@ let
         "pkg-1.21.0-build.39" = _9OGHCJcW;
         "pkg-1.20.0-build.14" = _dQt2M9ua;
         "pkg-1.20.1-build.17" = _SvGP7sfZ;
-        "default" = _SvGP7sfZ;
+        "pkg-1.22.0-build.44" = _VsaBbH9Z;
+        "default" = _VsaBbH9Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aaron";

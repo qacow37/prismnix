@@ -116,6 +116,26 @@ let
             "file" = "acrowield-1.9.0-MC1.21.1.jar";
             "hash" = "sha512-yR77K8Z43pMdCKvGJVyQ1y2vhKlttqF8ivubLvCzVxgF7iQoYEuWoWWioe5ixxuBOgMa82zT8EGJIRBx1rNlIQ==";
         };
+        _Afcf9Kct = {
+            "id" = "Afcf9Kct";
+            "file" = "AcroWield-2.1.1-MC26.2.jar";
+            "hash" = "sha512-KvPumIPvXgRetfal8XBhiuL/EKoUKtc6HJxVOoInJ1HLH1gydx3uJFRqp0Ro8JRoOyoTORY1+morRLHwyijT+A==";
+        };
+        _3W6oa9Tn = {
+            "id" = "3W6oa9Tn";
+            "file" = "AcroWield-2.1.1-MC26.3.jar";
+            "hash" = "sha512-hxP3Dm8z8ahSaCDU3ktU77gXCOyir1olSVnpIcsOtwFH9F++4v7UZjbNyua9c0s7CWEoYkc/TJivkQIlb1McBw==";
+        };
+        _ZApNLser = {
+            "id" = "ZApNLser";
+            "file" = "AcroWield-2.1.1-MC26.1.x.jar";
+            "hash" = "sha512-iwuJejoaHk3Ar8GNGyOK18NJ4BvLKvDMZsCFbg6HzalS5gQpHYd0i29HNH0Ke4hb5LVyxLzuQeVwDf+JhA7LjA==";
+        };
+        _imErLzMq = {
+            "id" = "imErLzMq";
+            "file" = "AcroWield-2.1.1-MC1.21.1.jar";
+            "hash" = "sha512-bGgl7xrb1th8HiErRhy2r0ulpjaOjMJ3LNWrozHc9wWIJ5vrAH0sKIRAy6Wj/H27knCzGXyfg6hDxkEROtafKg==";
+        };
     in {
         "WSvVGw8H" = _WSvVGw8H;
         "tJhh9diE" = _tJhh9diE;
@@ -140,12 +160,16 @@ let
         "olOrAEPN" = _olOrAEPN;
         "dSkBHw2q" = _dSkBHw2q;
         "ahNVyd1B" = _ahNVyd1B;
-        "fabric-26.1" = _TIXfxj9N;
-        "fabric-26.1.1" = _TIXfxj9N;
-        "fabric-26.1.2" = _TIXfxj9N;
-        "fabric-26.2" = _dSkBHw2q;
-        "fabric-26.3" = _olOrAEPN;
-        "fabric-1.21.1" = _ahNVyd1B;
+        "Afcf9Kct" = _Afcf9Kct;
+        "3W6oa9Tn" = _3W6oa9Tn;
+        "ZApNLser" = _ZApNLser;
+        "imErLzMq" = _imErLzMq;
+        "fabric-26.1" = _ZApNLser;
+        "fabric-26.1.1" = _ZApNLser;
+        "fabric-26.1.2" = _ZApNLser;
+        "fabric-26.2" = _Afcf9Kct;
+        "fabric-26.3" = _3W6oa9Tn;
+        "fabric-1.21.1" = _imErLzMq;
         "pkg-1.0.0" = _WSvVGw8H;
         "pkg-1.0.2" = _tJhh9diE;
         "pkg-1.1.0" = _zL7ZFhyg;
@@ -169,7 +193,11 @@ let
         "pkg-1.9.0-MC26.3" = _olOrAEPN;
         "pkg-1.9.0-MC26.2" = _dSkBHw2q;
         "pkg-1.9.0-MC1.21.1" = _ahNVyd1B;
-        "default" = _ahNVyd1B;
+        "pkg-2.1.1-MC26.2" = _Afcf9Kct;
+        "pkg-2.1.1-MC26.3" = _3W6oa9Tn;
+        "pkg-2.1.1-MC26.1.x" = _ZApNLser;
+        "pkg-2.1.1-MC1.21.1" = _imErLzMq;
+        "default" = _imErLzMq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "acrowield";

@@ -276,6 +276,11 @@ let
             "file" = "mebahelrpgrquest-3.5.2-fabric-1.20.1.jar";
             "hash" = "sha512-M8kkAixi5bYReNHD3WklthlVlWrWR6ZL1zwt9sxkBeE7ILMqsMew8dECgHYM7m9t9b6f9I0DQvPZCPvyGu4y3w==";
         };
+        _qkCI2yhF = {
+            "id" = "qkCI2yhF";
+            "file" = "mebahelrpgrquest-3.5.3-fabric-1.20.1.jar";
+            "hash" = "sha512-nJZ8d0ueip0gJrJW0YlaV8IShcB2FbJP+PxDu1qT6eiTuuLnZa0jxztSSttHNVJ61p+h6iKP+88eGrx07YDRIg==";
+        };
     in {
         "SYPRhHjr" = _SYPRhHjr;
         "5LOmY4Gy" = _5LOmY4Gy;
@@ -332,20 +337,21 @@ let
         "tVDXsK1Z" = _tVDXsK1Z;
         "Zcng1RFg" = _Zcng1RFg;
         "B6OLUV94" = _B6OLUV94;
-        "fabric-1.20" = _B6OLUV94;
-        "fabric-1.20.1" = _B6OLUV94;
+        "qkCI2yhF" = _qkCI2yhF;
+        "fabric-1.20" = _qkCI2yhF;
+        "fabric-1.20.1" = _qkCI2yhF;
         "fabric-1.21" = _Zcng1RFg;
         "fabric-1.21.1" = _Zcng1RFg;
-        "forge-1.20" = _B6OLUV94;
-        "forge-1.20.1" = _B6OLUV94;
+        "forge-1.20" = _qkCI2yhF;
+        "forge-1.20.1" = _qkCI2yhF;
         "forge-1.21" = _tVDXsK1Z;
         "forge-1.21.1" = _tVDXsK1Z;
-        "neoforge-1.20" = _B6OLUV94;
-        "neoforge-1.20.1" = _B6OLUV94;
+        "neoforge-1.20" = _qkCI2yhF;
+        "neoforge-1.20.1" = _qkCI2yhF;
         "neoforge-1.21" = _Zcng1RFg;
         "neoforge-1.21.1" = _Zcng1RFg;
-        "quilt-1.20" = _B6OLUV94;
-        "quilt-1.20.1" = _B6OLUV94;
+        "quilt-1.20" = _qkCI2yhF;
+        "quilt-1.20.1" = _qkCI2yhF;
         "quilt-1.21" = _Zcng1RFg;
         "quilt-1.21.1" = _Zcng1RFg;
         "pkg-1.0.3-fabric-1.20.1" = _SYPRhHjr;
@@ -403,7 +409,8 @@ let
         "pkg-3.5.1-fabric-1.21.1" = _tVDXsK1Z;
         "pkg-3.5.2-fabric-1.21.1" = _Zcng1RFg;
         "pkg-3.5.2-fabric-1.20.1" = _B6OLUV94;
-        "default" = _B6OLUV94;
+        "pkg-3.5.3-fabric-1.20.1" = _qkCI2yhF;
+        "default" = _qkCI2yhF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-rpg-villager-quests-and-companions";

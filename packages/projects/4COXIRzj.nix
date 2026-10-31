@@ -266,6 +266,11 @@ let
             "file" = "borislib-4.0.0+26.3.jar";
             "hash" = "sha512-AVByS+4r4CUC3toXctw/3SPnZJ+ncleSun/KgdLSxLfWWUeB12iz35cGXFqivHbmFy3zZdcWu2McpwQxvmt6Fw==";
         };
+        _cnc17q3j = {
+            "id" = "cnc17q3j";
+            "file" = "borislib-4.0.1+26.3.jar";
+            "hash" = "sha512-zTL38yBCa+5WaHB0kQFfIArMUe7vkLwe8WRSSkmgmeOeePL1e3P5qI8XzJsz6ZbNB+NsR07LLrbi9rA4GfNL3A==";
+        };
     in {
         "B0nC9CWe" = _B0nC9CWe;
         "214QtHNW" = _214QtHNW;
@@ -320,6 +325,7 @@ let
         "SXrj28Hk" = _SXrj28Hk;
         "tJJuuorP" = _tJJuuorP;
         "e8QPzyzD" = _e8QPzyzD;
+        "cnc17q3j" = _cnc17q3j;
         "fabric-1.21.8" = _214QtHNW;
         "fabric-1.21.9" = _GFzoONwj;
         "fabric-1.21.10" = _TXiSNHyC;
@@ -329,7 +335,7 @@ let
         "fabric-26.1.2" = _liC5NUah;
         "fabric-26.2-rc-1" = _x5QT2PgA;
         "fabric-26.2" = _e67uylhC;
-        "fabric-26.3" = _e8QPzyzD;
+        "fabric-26.3" = _cnc17q3j;
         "pkg-1.0.1+1.21.8" = _B0nC9CWe;
         "pkg-1.0.2+1.21.8" = _214QtHNW;
         "pkg-1.0.2+1.21.9-ALPHA" = _GFzoONwj;
@@ -383,7 +389,8 @@ let
         "pkg-4.0.0+26.3-ALPHA.1" = _SXrj28Hk;
         "pkg-4.0.0+26.3-ALPHA.2" = _tJJuuorP;
         "pkg-4.0.0+26.3" = _e8QPzyzD;
-        "default" = _e8QPzyzD;
+        "pkg-4.0.1+26.3" = _cnc17q3j;
+        "default" = _cnc17q3j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boris-lib";

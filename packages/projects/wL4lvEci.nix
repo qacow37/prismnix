@@ -81,6 +81,11 @@ let
             "file" = "dynamicwaters-12.0.0.jar";
             "hash" = "sha512-yqUHI5NcYpwlmLrnyQJkXdlm2XHY/hcWSJ/r50P35m9bNlHD4DE3bdSsLjZkM/1I70JKgkTHjwnBzYsJ7WPEoA==";
         };
+        _WlwnEgwg = {
+            "id" = "WlwnEgwg";
+            "file" = "dynamicwaters-13.0.0.jar";
+            "hash" = "sha512-d7nXr7GT2o5pwrTM4JM9R7oc+lbS1+q26t01AhC5bm8ykxHtNBlkB1W502BgYq4YsFrflvFh2g9hHBwbrEOoPA==";
+        };
     in {
         "nJyFMhuX" = _nJyFMhuX;
         "H2g5ig6M" = _H2g5ig6M;
@@ -98,8 +103,9 @@ let
         "Z1lO8GeM" = _Z1lO8GeM;
         "gtwEPs3V" = _gtwEPs3V;
         "vX02uOIB" = _vX02uOIB;
+        "WlwnEgwg" = _WlwnEgwg;
         "forge-1.20.1" = _KF4xNYaZ;
-        "neoforge-1.21.1" = _vX02uOIB;
+        "neoforge-1.21.1" = _WlwnEgwg;
         "pkg-8.0.0" = _nJyFMhuX;
         "pkg-9.0.1" = _H2g5ig6M;
         "pkg-9.1.0" = _Tc6KoKAv;
@@ -116,7 +122,8 @@ let
         "pkg-12.0.testver" = _Z1lO8GeM;
         "pkg-dynamicwaters-12.0.testver.jar" = _gtwEPs3V;
         "pkg-dynamicwaters-12.0.thirdtestvers" = _vX02uOIB;
-        "default" = _vX02uOIB;
+        "pkg-13.0.0" = _WlwnEgwg;
+        "default" = _WlwnEgwg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-waters-realistic-flowing-rivers";

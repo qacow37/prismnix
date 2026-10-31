@@ -6,14 +6,22 @@ let
             "file" = "§6§lPunchy - Shubba Totem §7.zip";
             "hash" = "sha512-m1aq5e+K+Cx7Io4mUX9ACyGZ9YWATUrifYXCyuzgI78soqfk3+jiO1+m/RSMnIsOseMgthAYzwLw9meGW9E+Rw==";
         };
+        _pgNFuAUO = {
+            "id" = "pgNFuAUO";
+            "file" = "§6§lPunchy - Shubba Totem §7.zip";
+            "hash" = "sha512-Dc+rFehs2GtUAkbgX2e7IvDZDbItiADcVfHEjKj/X82DzwLtX7eJDFofn4nt2qynIJdmBacbzzZWDpTrX3DLYA==";
+        };
     in {
         "1Ez3HSbn" = _1Ez3HSbn;
-        "minecraft-1.20.1" = _1Ez3HSbn;
-        "minecraft-1.21.1" = _1Ez3HSbn;
-        "minecraft-1.21.5" = _1Ez3HSbn;
-        "minecraft-1.21.11" = _1Ez3HSbn;
+        "pgNFuAUO" = _pgNFuAUO;
+        "minecraft-1.20.1" = _pgNFuAUO;
+        "minecraft-1.21.1" = _pgNFuAUO;
+        "minecraft-1.21.5" = _pgNFuAUO;
+        "minecraft-1.21.11" = _pgNFuAUO;
+        "minecraft-26.3" = _pgNFuAUO;
         "pkg-1.0" = _1Ez3HSbn;
-        "default" = _1Ez3HSbn;
+        "pkg-1.1" = _pgNFuAUO;
+        "default" = _pgNFuAUO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "punchy-shuba-totem";

@@ -186,6 +186,36 @@ let
             "file" = "better-shulker-boxes-quilt-1.6.3.jar";
             "hash" = "sha512-MUm21BEpGvid0eBFM3lDEzmIIZY/9ZyfsQhW0U5bYTmQAmqidBSQyL3KrA/hlJKWpsgLt8StHIH2HSG7nTREfg==";
         };
+        _qJhJpEwN = {
+            "id" = "qJhJpEwN";
+            "file" = "better-shulker-boxes-fabric-1.6.4.jar";
+            "hash" = "sha512-zIapE0Nzs2QLBTAukwbaek4yz+V8I1KYbGAAgrMEy702OI7stwjblYjgLBSqaJs1m9pDkvix5m7je/eROpzUJw==";
+        };
+        _uYwlvvxL = {
+            "id" = "uYwlvvxL";
+            "file" = "better-shulker-boxes-neoforge-1.6.4.jar";
+            "hash" = "sha512-oSIn1M2P3tnx+dgriQrjjYOqtHi6c2tWzOj46PHEZ/BGLzHna3H64Z/XLTcvTcWqU2xmQosWh//rpezp5wYFVA==";
+        };
+        _ZLyP5HsD = {
+            "id" = "ZLyP5HsD";
+            "file" = "better-shulker-boxes-quilt-1.6.4.jar";
+            "hash" = "sha512-5Jv4A5mmL7NA95dzk3y5/PqM4tpSoVwxMXCHu/0I/vl9QyPgNMxDekP5T3AnEUPN0nF16l00MXSUD0gJqwIEfQ==";
+        };
+        _MKSuHFKl = {
+            "id" = "MKSuHFKl";
+            "file" = "better-shulker-boxes-fabric-1.6.5.jar";
+            "hash" = "sha512-CmXav2hAOB3fuH//WIojGj8Z0jQZXYq+IIjgo8uW7Gsn49EsdtEhpoZouEK2W044CrwYTC+hVibaAVJaKmtLPQ==";
+        };
+        _eIUjNltz = {
+            "id" = "eIUjNltz";
+            "file" = "better-shulker-boxes-neoforge-1.6.5.jar";
+            "hash" = "sha512-kikqh2wseHhX7XEENO4MU7eft16VLZnGOhO6xCPttlQ9KKFVZTYoPNhYCyCjCSITdsNtRKE/g3oLC4wGGVB0Xw==";
+        };
+        _8TDY3xdX = {
+            "id" = "8TDY3xdX";
+            "file" = "better-shulker-boxes-quilt-1.6.5.jar";
+            "hash" = "sha512-MHsbjR8dnr/l8QqhMD0es1yb0fouBfTpVcmSm11A8EoGKuHi3FIZS8kRqDcRUo1blmw/+IyFdsCYLX9NIWBRTg==";
+        };
     in {
         "AwyqInSq" = _AwyqInSq;
         "al4kOKNp" = _al4kOKNp;
@@ -224,15 +254,21 @@ let
         "iSCAzouq" = _iSCAzouq;
         "wf8Wpbu5" = _wf8Wpbu5;
         "hncMSlzu" = _hncMSlzu;
+        "qJhJpEwN" = _qJhJpEwN;
+        "uYwlvvxL" = _uYwlvvxL;
+        "ZLyP5HsD" = _ZLyP5HsD;
+        "MKSuHFKl" = _MKSuHFKl;
+        "eIUjNltz" = _eIUjNltz;
+        "8TDY3xdX" = _8TDY3xdX;
         "fabric-26.1" = _AwyqInSq;
         "fabric-26.1.1" = _AwyqInSq;
         "fabric-26.1.2" = _AwyqInSq;
         "fabric-26.2" = _pJ71I2I1;
-        "fabric-26.3" = _iSCAzouq;
+        "fabric-26.3" = _MKSuHFKl;
         "neoforge-26.2" = _ymaJKaIf;
-        "neoforge-26.3" = _wf8Wpbu5;
+        "neoforge-26.3" = _eIUjNltz;
         "quilt-26.2" = _Uqm244un;
-        "quilt-26.3" = _hncMSlzu;
+        "quilt-26.3" = _8TDY3xdX;
         "pkg-1.0.0" = _AwyqInSq;
         "pkg-1.1.0" = _al4kOKNp;
         "pkg-1.1.1" = _Y3o6ZLaC;
@@ -249,7 +285,9 @@ let
         "pkg-1.6.1" = _p733SGz5;
         "pkg-1.6.2" = _VdKpr3el;
         "pkg-1.6.3" = _hncMSlzu;
-        "default" = _hncMSlzu;
+        "pkg-1.6.4" = _ZLyP5HsD;
+        "pkg-1.6.5" = _8TDY3xdX;
+        "default" = _8TDY3xdX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-shulker-boxes";

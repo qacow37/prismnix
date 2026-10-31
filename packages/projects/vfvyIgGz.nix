@@ -56,6 +56,21 @@ let
             "file" = "dark-sky-2.3.0.jar";
             "hash" = "sha512-5yMVZ6MgGCA50qq7NX8rA353jK8UoFHpr7ORx43Xoy1Mbl1vsWFw42MLjvWnte7mrO5vPSnP3ywSCxM+Oehsvw==";
         };
+        _BTGkVMSt = {
+            "id" = "BTGkVMSt";
+            "file" = "dark-sky-2.4.0-bp26.1.jar";
+            "hash" = "sha512-7jacjnt+KZOB/376uvm1yp4lYOZ4kOBkxqr4N0bzdq1hh6xJynZdykmrVz3MrFsEP5kXJH7R0eQ+drAL3gUieg==";
+        };
+        _wyM7kYZk = {
+            "id" = "wyM7kYZk";
+            "file" = "dark-sky-2.4.0-bp26.2.jar";
+            "hash" = "sha512-YXZfJh3/Dc6moIf9jUim+kxl2uMFvd0qBAZvnZc3+nTTb3DkVB5sTtpEaYZOLweuKECSixOddAylk+PEBoF78w==";
+        };
+        _PkpmWYrx = {
+            "id" = "PkpmWYrx";
+            "file" = "dark-sky-2.4.0.jar";
+            "hash" = "sha512-1KxaGstGX2CkKIJnFsu7E5XUWQCzUgPPOFv0afh0l/c2AbINatYGgoqmXH3MGhz7mhQge/j67dG8na7CqdViWw==";
+        };
     in {
         "GYKprym4" = _GYKprym4;
         "YCn4FgqR" = _YCn4FgqR;
@@ -68,6 +83,9 @@ let
         "Nc3ZKbef" = _Nc3ZKbef;
         "341HS2QQ" = _341HS2QQ;
         "yynY378X" = _yynY378X;
+        "BTGkVMSt" = _BTGkVMSt;
+        "wyM7kYZk" = _wyM7kYZk;
+        "PkpmWYrx" = _PkpmWYrx;
         "fabric-1.19.3" = _YCn4FgqR;
         "fabric-1.19.4" = _YCn4FgqR;
         "fabric-1.20" = _Q7AKspNT;
@@ -83,6 +101,11 @@ let
         "fabric-1.21.5" = _Nc3ZKbef;
         "fabric-1.21.6" = _341HS2QQ;
         "fabric-1.21.11" = _yynY378X;
+        "fabric-26.1" = _BTGkVMSt;
+        "fabric-26.1.1" = _BTGkVMSt;
+        "fabric-26.1.2" = _BTGkVMSt;
+        "fabric-26.2" = _wyM7kYZk;
+        "fabric-26.3" = _PkpmWYrx;
         "pkg-1.0" = _GYKprym4;
         "pkg-1.0.1" = _YCn4FgqR;
         "pkg-1.1.0" = _vJvXOpWw;
@@ -94,7 +117,10 @@ let
         "pkg-2.1.1" = _Nc3ZKbef;
         "pkg-2.2.0" = _341HS2QQ;
         "pkg-2.3.0" = _yynY378X;
-        "default" = _yynY378X;
+        "pkg-2.4.0-bp26.1" = _BTGkVMSt;
+        "pkg-2.4.0-bp26.2" = _wyM7kYZk;
+        "pkg-2.4.0" = _PkpmWYrx;
+        "default" = _PkpmWYrx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-sky";

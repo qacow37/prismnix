@@ -71,6 +71,21 @@ let
             "file" = "HardcoreLite-1.0.1-Fabric-mc26.1.jar";
             "hash" = "sha512-o+QJOGoe7zb+naYueG08TRh53wg4s99EC5DOVDHze5MK23kWlqY3C2TjP76N3NTAJj6JygSqHmEi+P3XQg+/Zw==";
         };
+        _IvQRNauI = {
+            "id" = "IvQRNauI";
+            "file" = "HardcoreLite-1.1.0-Forge-mc1.19.2.jar";
+            "hash" = "sha512-2mqGQLjzZF8ke3tyAnA+g5LBwIXy4gJuoztv8FWnNqUxkKbqzdhm2Njcft0+pldQLyBKkWNT/dzR9IK8q2rlsQ==";
+        };
+        _2BRb9mfk = {
+            "id" = "2BRb9mfk";
+            "file" = "HardcoreLite-1.1.0-Fabric-mc1.20.1.jar";
+            "hash" = "sha512-4imzR7YLldZG+gD8RWQRv4ONLrQR+pVYcwvwprtT7x1N5yWZYJ9bIJw00cfB0SgvO1Y/MJaYor3oh5I9smsWsw==";
+        };
+        _UtEtr5Zl = {
+            "id" = "UtEtr5Zl";
+            "file" = "HardcoreLite-1.1.0-Forge-mc1.20.1.jar";
+            "hash" = "sha512-dhhoVHS/Taz7M1aZ2DpDOOGEjNY83VpKn+wj5baDYMqDOzacFYSyeSUCG/fPCVm3IPQ3l9a1xUXCqSGXdAsdrg==";
+        };
     in {
         "PFFyTfA4" = _PFFyTfA4;
         "7LJBlEjy" = _7LJBlEjy;
@@ -86,12 +101,15 @@ let
         "RaV9gCAn" = _RaV9gCAn;
         "jipvNs9f" = _jipvNs9f;
         "rHRIXAcU" = _rHRIXAcU;
-        "forge-1.20.1" = _PFFyTfA4;
-        "forge-1.19.2" = _7LJBlEjy;
+        "IvQRNauI" = _IvQRNauI;
+        "2BRb9mfk" = _2BRb9mfk;
+        "UtEtr5Zl" = _UtEtr5Zl;
+        "forge-1.20.1" = _UtEtr5Zl;
+        "forge-1.19.2" = _IvQRNauI;
         "forge-1.21" = _n06MEuJJ;
         "forge-1.21.1" = _n06MEuJJ;
         "fabric-1.20" = _FGfSjSV6;
-        "fabric-1.20.1" = _FGfSjSV6;
+        "fabric-1.20.1" = _2BRb9mfk;
         "fabric-1.21" = _yqsyx5jn;
         "fabric-1.21.1" = _yqsyx5jn;
         "fabric-1.21.6" = _7TkuxVIq;
@@ -130,7 +148,10 @@ let
         "pkg-1.0.0-Fabric-mc26.1" = _RaV9gCAn;
         "pkg-1.0.1-NeoForge-mc26.1" = _jipvNs9f;
         "pkg-1.0.1-Fabric-mc26.1" = _rHRIXAcU;
-        "default" = _rHRIXAcU;
+        "pkg-1.1.0-Forge-mc1.19.2" = _IvQRNauI;
+        "pkg-1.1.0-Fabric-mc1.20.1" = _2BRb9mfk;
+        "pkg-1.1.0-Forge-mc1.20.1" = _UtEtr5Zl;
+        "default" = _UtEtr5Zl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hardcore-lite";

@@ -76,6 +76,26 @@ let
             "file" = "flashcards-2.1.0-26.3.jar";
             "hash" = "sha512-4S2fzHMFyxFF8HBiK6YaLx6g+DZnUfFnuP7eG2d/bHkGXavB62IfVMkn89ZS7QiCdzi2GOxkMQgTRoVPDmFHMw==";
         };
+        _t48IsoI4 = {
+            "id" = "t48IsoI4";
+            "file" = "flashcards-2.0.1.jar";
+            "hash" = "sha512-nbxolW4tkmLTzOISlgOsqMKf5cRhvsHjcGuH6KTvMT60IXfg2fG6g5dMILlaVemMnwozN4Q1gruJGlo6woZTqg==";
+        };
+        _FFDYPbCc = {
+            "id" = "FFDYPbCc";
+            "file" = "flashcards-1.9.1.jar";
+            "hash" = "sha512-RXSic887mqMnqbBL4BfDNfky/VedosNvCp9KuMGS3L5hGVVfAHtqjSGNICtsABiLfc8pMuV5gzsbnCU8lt/Jhw==";
+        };
+        _WBtl5pMC = {
+            "id" = "WBtl5pMC";
+            "file" = "flashcards-1.8.1.jar";
+            "hash" = "sha512-3/Ekij1iivETrGqAHiLCMg5OOYmU5/PhuSxeOb2pP/l2yBcrn+Qeq8NYnbD8U9THSMyGLJIbJODz+Wu4UdEQTQ==";
+        };
+        _hQOgJxjr = {
+            "id" = "hQOgJxjr";
+            "file" = "flashcards-1.3.1.jar";
+            "hash" = "sha512-OWr/iQiYEQGCildumzmwBSOrowFWhoELIR6UsEnWIzeh9+UDFZgd5M/PF6rBJiXyMkMnXfuKYNJX9kVLjyw+sg==";
+        };
     in {
         "YUlMtofP" = _YUlMtofP;
         "qewUfZN3" = _qewUfZN3;
@@ -92,8 +112,12 @@ let
         "wBoYlnlc" = _wBoYlnlc;
         "DYwwfrJ4" = _DYwwfrJ4;
         "MaOCSnry" = _MaOCSnry;
-        "fabric-1.21" = _ZXBNTxPW;
-        "fabric-1.21.1" = _ZXBNTxPW;
+        "t48IsoI4" = _t48IsoI4;
+        "FFDYPbCc" = _FFDYPbCc;
+        "WBtl5pMC" = _WBtl5pMC;
+        "hQOgJxjr" = _hQOgJxjr;
+        "fabric-1.21" = _hQOgJxjr;
+        "fabric-1.21.1" = _hQOgJxjr;
         "fabric-1.21.2" = _sBEQ66gO;
         "fabric-1.21.3" = _sBEQ66gO;
         "fabric-1.21.4" = _A72cqZ3o;
@@ -103,11 +127,11 @@ let
         "fabric-1.21.8" = _GzSO6eMO;
         "fabric-1.21.9" = _3qsoGEys;
         "fabric-1.21.10" = _3qsoGEys;
-        "fabric-1.21.11" = _ZAtwTuJG;
-        "fabric-26.1" = _BsZ98GCJ;
-        "fabric-26.1.1" = _BsZ98GCJ;
-        "fabric-26.1.2" = _BsZ98GCJ;
-        "fabric-26.2" = _wBoYlnlc;
+        "fabric-1.21.11" = _WBtl5pMC;
+        "fabric-26.1" = _FFDYPbCc;
+        "fabric-26.1.1" = _FFDYPbCc;
+        "fabric-26.1.2" = _FFDYPbCc;
+        "fabric-26.2" = _t48IsoI4;
         "fabric-26.3" = _MaOCSnry;
         "pkg-1.0.0" = _YUlMtofP;
         "pkg-1.0.1" = _qewUfZN3;
@@ -124,7 +148,11 @@ let
         "pkg-2.0.0" = _wBoYlnlc;
         "pkg-2.0.0-26.3" = _DYwwfrJ4;
         "pkg-2.1.0-26.3" = _MaOCSnry;
-        "default" = _MaOCSnry;
+        "pkg-2.0.1" = _t48IsoI4;
+        "pkg-1.9.1" = _FFDYPbCc;
+        "pkg-1.8.1" = _WBtl5pMC;
+        "pkg-1.3.1" = _hQOgJxjr;
+        "default" = _hQOgJxjr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashcards";

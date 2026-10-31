@@ -676,6 +676,16 @@ let
             "file" = "[26.3]witherswrath-1.16.1.zip";
             "hash" = "sha512-dEA0DvT56E83WLV3ox3mBY7T+yxo3LyILL3Dc525H3NgzgAdyy5dlqIgIunvhRQkSzhuaF04GOdJ0vUwUymw0Q==";
         };
+        _Kq7U1qHf = {
+            "id" = "Kq7U1qHf";
+            "file" = "[26.3]witherswrath-1.17.zip";
+            "hash" = "sha512-4iuLYGgPOqQlxxGxBxEcoukYxhe0rhOnV4tjKElsVWxGj28vDUYnxYwViI56DxGGYsvXo8oFeM4vxs0VzbalPg==";
+        };
+        _qmOws0Ax = {
+            "id" = "qmOws0Ax";
+            "file" = "[26.3]witherswrath-1.17.jar";
+            "hash" = "sha512-kPCP7SfgGCJX7aWjWHbjlY1aXWy11C47fVJ7SF7EF3QTKOMEf1fZIut76q7aZg84G7DAmZEX+bYUXMhtklJRLw==";
+        };
     in {
         "w0cnC5pI" = _w0cnC5pI;
         "tZLEfQ6Y" = _tZLEfQ6Y;
@@ -812,6 +822,8 @@ let
         "Dzo69Lep" = _Dzo69Lep;
         "ZvhrpnLk" = _ZvhrpnLk;
         "cen5zcIJ" = _cen5zcIJ;
+        "Kq7U1qHf" = _Kq7U1qHf;
+        "qmOws0Ax" = _qmOws0Ax;
         "datapack-1.19" = _w0cnC5pI;
         "datapack-1.19.1" = _w0cnC5pI;
         "datapack-1.19.2" = _w0cnC5pI;
@@ -881,7 +893,7 @@ let
         "datapack-26.1.1" = _M4faoB3i;
         "datapack-26.1.2" = _M4faoB3i;
         "datapack-26.2" = _Dzo69Lep;
-        "datapack-26.3" = _cen5zcIJ;
+        "datapack-26.3" = _Kq7U1qHf;
         "fabric-1.21" = _Nu4WeT4f;
         "fabric-1.21.1" = _Nu4WeT4f;
         "fabric-1.21.2" = _z7HagmSx;
@@ -910,7 +922,7 @@ let
         "fabric-26.1.1" = _7HkKZL3a;
         "fabric-26.1.2" = _7HkKZL3a;
         "fabric-26.2" = _IDLFxzQl;
-        "fabric-26.3" = _ZvhrpnLk;
+        "fabric-26.3" = _qmOws0Ax;
         "forge-1.21" = _Nu4WeT4f;
         "forge-1.21.1" = _Nu4WeT4f;
         "forge-1.21.2" = _z7HagmSx;
@@ -939,7 +951,7 @@ let
         "forge-26.1.1" = _7HkKZL3a;
         "forge-26.1.2" = _7HkKZL3a;
         "forge-26.2" = _IDLFxzQl;
-        "forge-26.3" = _ZvhrpnLk;
+        "forge-26.3" = _qmOws0Ax;
         "quilt-1.21" = _Nu4WeT4f;
         "quilt-1.21.1" = _Nu4WeT4f;
         "quilt-1.21.2" = _z7HagmSx;
@@ -968,7 +980,7 @@ let
         "quilt-26.1.1" = _7HkKZL3a;
         "quilt-26.1.2" = _7HkKZL3a;
         "quilt-26.2" = _IDLFxzQl;
-        "quilt-26.3" = _ZvhrpnLk;
+        "quilt-26.3" = _qmOws0Ax;
         "neoforge-1.21" = _Nu4WeT4f;
         "neoforge-1.21.1" = _Nu4WeT4f;
         "neoforge-1.21.2" = _z7HagmSx;
@@ -997,7 +1009,7 @@ let
         "neoforge-26.1.1" = _7HkKZL3a;
         "neoforge-26.1.2" = _7HkKZL3a;
         "neoforge-26.2" = _IDLFxzQl;
-        "neoforge-26.3" = _ZvhrpnLk;
+        "neoforge-26.3" = _qmOws0Ax;
         "pkg-1.6.1" = _w0cnC5pI;
         "pkg-1.7" = _tZLEfQ6Y;
         "pkg-1.7.1" = _N5RQyB1G;
@@ -1043,7 +1055,8 @@ let
         "pkg-1.16" = _Dzo69Lep;
         "pkg-1.16.1+mod" = _ZvhrpnLk;
         "pkg-1.16.1" = _cen5zcIJ;
-        "default" = _cen5zcIJ;
+        "pkg-1.17" = _qmOws0Ax;
+        "default" = _qmOws0Ax;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "witherswrath";

@@ -191,6 +191,16 @@ let
             "file" = "survival_plus_plus-neoforge-26.3-0.0.1+build.49.jar";
             "hash" = "sha512-r/m19saCiT0+8JtLbeTT+I8kROQXVdAD2RZVXh9qlwSPI/Z0ratgSU5gX1T7jI8sScfZcYlaTPmtcnwfa0W6iA==";
         };
+        _36DJkZxT = {
+            "id" = "36DJkZxT";
+            "file" = "survival_plus_plus-0.0.1+build.50-mc1.21.11.jar";
+            "hash" = "sha512-Hffv8fiQPFhOJ9J9pTtF+Zoa7dSImkIjmhUVVyn4YiZ9SuH0gMwkDqOcGjypKbdEtgncR0pMkPHKWrC5Rl9lBw==";
+        };
+        _V0dNINg1 = {
+            "id" = "V0dNINg1";
+            "file" = "survival_plus_plus-0.0.1+build.51-mc1.21.10.jar";
+            "hash" = "sha512-qBqWtR6aRSK6UofUOjnnLcFT40hyMmSxTLVupaNnJiTx93e7Mew+Q9rGDsPlPn3cpB1IOEb9Jw6kbTNeBvjFyg==";
+        };
     in {
         "eGG99m2t" = _eGG99m2t;
         "38NtJCKn" = _38NtJCKn;
@@ -230,12 +240,15 @@ let
         "CewNhlcl" = _CewNhlcl;
         "BZlJUh8o" = _BZlJUh8o;
         "SrYacQKd" = _SrYacQKd;
+        "36DJkZxT" = _36DJkZxT;
+        "V0dNINg1" = _V0dNINg1;
         "neoforge-1.21.1" = _wnFdDb0P;
         "neoforge-1.21.8" = _tD1DS0CY;
-        "neoforge-1.21.10" = _bkfnrPIo;
+        "neoforge-1.21.10" = _V0dNINg1;
         "neoforge-26.1.2" = _CewNhlcl;
         "neoforge-26.2" = _BZlJUh8o;
         "neoforge-26.3" = _SrYacQKd;
+        "neoforge-1.21.11" = _36DJkZxT;
         "pkg-0.0.1+build.2" = _eGG99m2t;
         "pkg-0.0.1+build.3" = _38NtJCKn;
         "pkg-0.0.1+build.5" = _Rctz9yzv;
@@ -274,7 +287,9 @@ let
         "pkg-0.0.1+build.42" = _CewNhlcl;
         "pkg-0.0.1+build.46" = _BZlJUh8o;
         "pkg-0.0.1+build.49" = _SrYacQKd;
-        "default" = _SrYacQKd;
+        "pkg-0.0.1+build.50" = _36DJkZxT;
+        "pkg-0.0.1+build.51" = _V0dNINg1;
+        "default" = _V0dNINg1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-plus-plus";

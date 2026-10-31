@@ -66,6 +66,26 @@ let
             "file" = "mobends-1.21.1-5.6.3-neoforge.jar";
             "hash" = "sha512-Xx85QvDG6EvtK1Vv6zzqZohca28+d1XcSvqnpdw4jiOlSba/Gu7MkLfz5hmY4V3ySR6ww7zCwXmSsZxV2yAA+w==";
         };
+        _AFCnTElo = {
+            "id" = "AFCnTElo";
+            "file" = "mobends-1.20.1-6.0-forge.jar";
+            "hash" = "sha512-N/V66kqdKePdy+lQ0frI5P3rz5CcUj1KKlwmursNK89k2DFb7xUD6rXb+BaCbUT0S5EL9DGAPXHJ5kn2c/vZNw==";
+        };
+        _hDAvCsbh = {
+            "id" = "hDAvCsbh";
+            "file" = "mobends-1.21.1-6.0-neoforge.jar";
+            "hash" = "sha512-m8r0YczCUthrT6xzfE9bjzQbDEqCR48bpIk/+lk/yYHeFI70Z8g9vWtTiZNM8muDYpKHVkI6n4CuwfZ7/jI3nw==";
+        };
+        _wuamJ7d9 = {
+            "id" = "wuamJ7d9";
+            "file" = "mobends-1.20.1-6.0.1-forge.jar";
+            "hash" = "sha512-XVk0L2ifgO2J0bl42zMoaQqJM7w67vAVPgtIMmO+L95dFO0Nx8Oqd93VCr10XzyLt3tKyvSMFEEMcZjA/u4i2Q==";
+        };
+        _275danmz = {
+            "id" = "275danmz";
+            "file" = "mobends-1.21.1-6.0.1-neoforge.jar";
+            "hash" = "sha512-wQ3uje5PuaQKKGASx51EYYwlyZI0ZiXSibcJ3lopl79xVBh1Yk6jxTHst0NDZMijthfjKsMf66lgK/ectu9HHg==";
+        };
     in {
         "kLZJgQo4" = _kLZJgQo4;
         "c6ukT3i0" = _c6ukT3i0;
@@ -80,8 +100,12 @@ let
         "clbIZyVw" = _clbIZyVw;
         "8aZQ9fxw" = _8aZQ9fxw;
         "gkZMPuSh" = _gkZMPuSh;
-        "forge-1.20.1" = _8aZQ9fxw;
-        "neoforge-1.21.1" = _gkZMPuSh;
+        "AFCnTElo" = _AFCnTElo;
+        "hDAvCsbh" = _hDAvCsbh;
+        "wuamJ7d9" = _wuamJ7d9;
+        "275danmz" = _275danmz;
+        "forge-1.20.1" = _wuamJ7d9;
+        "neoforge-1.21.1" = _275danmz;
         "pkg-3.0.1" = _kLZJgQo4;
         "pkg-3.0.0" = _c6ukT3i0;
         "pkg-4.0.0" = _B9Z2m8HK;
@@ -91,7 +115,9 @@ let
         "pkg-5.6.1" = _ILtpSmzu;
         "pkg-5.6.2" = _clbIZyVw;
         "pkg-5.6.3" = _gkZMPuSh;
-        "default" = _gkZMPuSh;
+        "pkg-6.0" = _hDAvCsbh;
+        "pkg-6.0.1" = _275danmz;
+        "default" = _275danmz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-bends-unofficial-modern-port";

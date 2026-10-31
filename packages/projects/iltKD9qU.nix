@@ -656,6 +656,41 @@ let
             "file" = "underlay-1.0.5-neoforge-mc26.3.jar";
             "hash" = "sha512-bG39mkSk1NhwxYUGryKYCRp26TZu1nMagElAiS56HAM6IO26spMdgLfyZBNybfn02h5JCI7VIPPfqCCios0p2w==";
         };
+        _uUqt44bu = {
+            "id" = "uUqt44bu";
+            "file" = "underlay-1.0.5-hotfix.1-fabric-mc26.1.jar";
+            "hash" = "sha512-8lHYqytoIOXcYGJPYk1S/4KNzOYX0fQdvzCqsrV7unI4Zmr/gndqBW7mhKqsBFg0E/xiKLCYwN+isU1kMp1kbA==";
+        };
+        _rjFHmh7O = {
+            "id" = "rjFHmh7O";
+            "file" = "underlay-1.0.5-hotfix.1-neoforge-mc26.3.jar";
+            "hash" = "sha512-9fDVAdArBmq4W1rijhsMsCPssA9S17mkFEbP96ox/PeArrhFBgv4zB5936c6dFQWX60sW1MDeXwi/7r8M9Hl2w==";
+        };
+        _RqWE0FP4 = {
+            "id" = "RqWE0FP4";
+            "file" = "underlay-1.0.5-hotfix.1-neoforge-mc26.1.2.jar";
+            "hash" = "sha512-p2QGhrxx+4sEJ4RBkuipIyV6RakTua+LQGphNzByXL4q0G0KgqCbFaZ0YAa9lc1dMe4CP21n9IxIpHQoEy2zZA==";
+        };
+        _x4fdNhUx = {
+            "id" = "x4fdNhUx";
+            "file" = "underlay-1.0.5-hotfix.1-fabric-mc26.2.jar";
+            "hash" = "sha512-/dGc/cR/76MV3MhyKy+uXFOgw5hh0/Z5TDGyHfK42oeTTYOVQsTQTrX1hXdYvuJHIqVKi/FzTRtDo3Eftkl2uw==";
+        };
+        _YiRorHy9 = {
+            "id" = "YiRorHy9";
+            "file" = "underlay-1.0.5-hotfix.1-fabric-mc1.21.11.jar";
+            "hash" = "sha512-grHBySDLJM/C1pe02JgxFiWU+0L1m4vfuVxZOUN9w38yxbdRLqhRu2xwuZ4kKCP9S24I1lyzNg8PJiDrM9MkIA==";
+        };
+        _toUU7RCg = {
+            "id" = "toUU7RCg";
+            "file" = "underlay-1.0.5-hotfix.1-fabric-mc1.21.jar";
+            "hash" = "sha512-MCYpVKm83PVtFRonLGJ/0EyZ5x8M/ffy2GiharqQP5DwrXEHkIrkNV7QIPIpPUfjyHZKe1Mchi5vTLJ+RTielA==";
+        };
+        _cgd6spwv = {
+            "id" = "cgd6spwv";
+            "file" = "underlay-1.0.5-hotfix.1-fabric-mc26.3.jar";
+            "hash" = "sha512-VY4XkdMbM72s2wJ1sJQgNlSlLuUtRSu5sieBvOJnTROHyf+jztzy0UWHb3MBBmQYGHshbbBIBHUiME6DBgm3iw==";
+        };
     in {
         "MBNww9qT" = _MBNww9qT;
         "1Xi3CyAC" = _1Xi3CyAC;
@@ -788,8 +823,15 @@ let
         "wEYYod1v" = _wEYYod1v;
         "xKeXWwuC" = _xKeXWwuC;
         "A0pHFywN" = _A0pHFywN;
-        "fabric-1.21" = _MIt7oA6M;
-        "fabric-1.21.1" = _MIt7oA6M;
+        "uUqt44bu" = _uUqt44bu;
+        "rjFHmh7O" = _rjFHmh7O;
+        "RqWE0FP4" = _RqWE0FP4;
+        "x4fdNhUx" = _x4fdNhUx;
+        "YiRorHy9" = _YiRorHy9;
+        "toUU7RCg" = _toUU7RCg;
+        "cgd6spwv" = _cgd6spwv;
+        "fabric-1.21" = _toUU7RCg;
+        "fabric-1.21.1" = _toUU7RCg;
         "fabric-1.20" = _Ofr72iJR;
         "fabric-1.20.1" = _9eqzwvGP;
         "fabric-1.21.2" = _A9TgcHLW;
@@ -801,20 +843,20 @@ let
         "fabric-1.21.8" = _xqqn3H8d;
         "fabric-1.21.9" = _pM2owaTZ;
         "fabric-1.21.10" = _pM2owaTZ;
-        "fabric-1.21.11" = _xmH4aKux;
-        "fabric-26.1" = _WdAx1Vqt;
-        "fabric-26.1.1" = _WdAx1Vqt;
-        "fabric-26.1.2" = _WdAx1Vqt;
+        "fabric-1.21.11" = _YiRorHy9;
+        "fabric-26.1" = _uUqt44bu;
+        "fabric-26.1.1" = _uUqt44bu;
+        "fabric-26.1.2" = _uUqt44bu;
         "fabric-26.2-snapshot-5" = _PGc3nZiW;
-        "fabric-26.2" = _rzHSe9Op;
-        "fabric-26.3" = _wEYYod1v;
+        "fabric-26.2" = _x4fdNhUx;
+        "fabric-26.3" = _cgd6spwv;
         "forge-1.20.1" = _YmDPYesM;
         "forge-1.12.2" = _Bw5rpMTy;
         "neoforge-1.20.1" = _YmDPYesM;
         "neoforge-1.21" = _BhWyWk80;
         "neoforge-1.21.1" = _uLJe8eW6;
-        "neoforge-26.1.2" = _xKeXWwuC;
-        "neoforge-26.3" = _A0pHFywN;
+        "neoforge-26.1.2" = _RqWE0FP4;
+        "neoforge-26.3" = _rjFHmh7O;
         "pkg-0.9.0" = _MBNww9qT;
         "pkg-0.9.1" = _5rJelMym;
         "pkg-0.9.2" = _Pp8Z8l8G;
@@ -833,7 +875,8 @@ let
         "pkg-1.0.4" = _58QpJopo;
         "pkg-1.0.4-hotfix.1" = _eeBnfFu6;
         "pkg-1.0.5" = _A0pHFywN;
-        "default" = _A0pHFywN;
+        "pkg-1.0.5-hotfix.1" = _cgd6spwv;
+        "default" = _cgd6spwv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underlay";

@@ -61,6 +61,21 @@ let
             "file" = "giant-tree-1.1.0-26.1.2.jar";
             "hash" = "sha512-OIVFXXhsKCyG4qL1Ps01UZbD1cqD07vCJfSyNwmiEIV3lCHJg+9V1bjON9W01+5fbuXBkk0Q0nSLiaUQeCWnSw==";
         };
+        _C1K7lDnG = {
+            "id" = "C1K7lDnG";
+            "file" = "giant-tree-1.2.0-26.1.2.jar";
+            "hash" = "sha512-bM+m9eDPUcAZ6i15+BuRf+s8TnBVFgMqigHpwZDnq8oITrUrzGaDB4SZBx9WEJrhybVlwxycKrslF9K2r8My+Q==";
+        };
+        _C8wsLwOO = {
+            "id" = "C8wsLwOO";
+            "file" = "giant-tree-1.2.0-26.2.jar";
+            "hash" = "sha512-Sz1QXp1rfUJBKu2+yuVkP3gflEwL2Sxa2mKXrOVVZmt7El3vHepLfRyl6lVwKqAoS8ryWLdK0BAY0O9/5jfi+Q==";
+        };
+        _KVDTRJcZ = {
+            "id" = "KVDTRJcZ";
+            "file" = "giant-tree-fabric-1.2.0+26.3.jar";
+            "hash" = "sha512-b8dm5mM5ekUUZtVJ2CTXOXfHLatghDKGs6uHvY3l0a3q1rFb7YMvkNVmr9IQV+9VPxCPQjpIrl0e31oOIuxFuQ==";
+        };
     in {
         "osSKlDgU" = _osSKlDgU;
         "px6QVQnG" = _px6QVQnG;
@@ -74,10 +89,13 @@ let
         "gQS09BlY" = _gQS09BlY;
         "ATeEB9Vp" = _ATeEB9Vp;
         "lsKsKnW7" = _lsKsKnW7;
-        "fabric-26.1.2" = _lsKsKnW7;
-        "fabric-26.2" = _ATeEB9Vp;
+        "C1K7lDnG" = _C1K7lDnG;
+        "C8wsLwOO" = _C8wsLwOO;
+        "KVDTRJcZ" = _KVDTRJcZ;
+        "fabric-26.1.2" = _C1K7lDnG;
+        "fabric-26.2" = _C8wsLwOO;
         "fabric-1.20.1" = _45jraW7i;
-        "fabric-26.3" = _gQS09BlY;
+        "fabric-26.3" = _KVDTRJcZ;
         "neoforge-1.21.1" = _TSasMzGr;
         "neoforge-26.1.2" = _HMdvP5Jg;
         "neoforge-26.2" = _fd3T9Adq;
@@ -94,7 +112,10 @@ let
         "pkg-fabric-1.1.0+26.3" = _gQS09BlY;
         "pkg-fabric-1.1.0+26.2" = _ATeEB9Vp;
         "pkg-fabric-1.1.0+26.1.2" = _lsKsKnW7;
-        "default" = _lsKsKnW7;
+        "pkg-fabric-1.2.0+26.1.2" = _C1K7lDnG;
+        "pkg-fabric-1.2.0+26.2" = _C8wsLwOO;
+        "pkg-fabric-1.2.0+26.3" = _KVDTRJcZ;
+        "default" = _KVDTRJcZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "giant-tree";

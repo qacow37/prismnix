@@ -316,6 +316,16 @@ let
             "file" = "remnantminimaps-neoforge-1.21.1-2.0.0.jar";
             "hash" = "sha512-raMxr5Ddw9nLyQFLIQuAUYCSgMQFrE+E3ZIwyfEDNnH8CiABYtgM1SiACvaDNCaJiX5TrMjkpFJ+5TJkPMRIEg==";
         };
+        _EfBLqS86 = {
+            "id" = "EfBLqS86";
+            "file" = "remnantminimaps-fabric-26.3-2.0.0.jar";
+            "hash" = "sha512-nKzKIWDMkCbeg5wC7dBicrwMLr41WbrW0vriEd8px4ZqteRZe4PicDhC9SLY9lHyrH8Qfdtz+H3GjnKRnQ/Pew==";
+        };
+        _Ev3N6VOz = {
+            "id" = "Ev3N6VOz";
+            "file" = "remnantminimaps-neoforge-26.3-2.0.0.jar";
+            "hash" = "sha512-31gPcVrRRzQFYElsqnTqaUEh0FvWAyjr6xy9Ko2K6i15AF4jaZNt3LnVS4ItJB2lUQcw5RsfGjQH0K5eyyLkkQ==";
+        };
     in {
         "NZh3Kcle" = _NZh3Kcle;
         "MiJfrLhV" = _MiJfrLhV;
@@ -380,15 +390,19 @@ let
         "2xhHgTNM" = _2xhHgTNM;
         "P4lz6eV0" = _P4lz6eV0;
         "QCxt1U64" = _QCxt1U64;
+        "EfBLqS86" = _EfBLqS86;
+        "Ev3N6VOz" = _Ev3N6VOz;
         "forge-1.20.1" = _P4lz6eV0;
         "neoforge-1.20.1" = _U6CayTIt;
         "neoforge-1.21.1" = _QCxt1U64;
         "neoforge-26.1.2" = _6e8fZ3Ks;
         "neoforge-26.2" = _i8NTE3IC;
+        "neoforge-26.3" = _Ev3N6VOz;
         "fabric-1.20.1" = _TGYcCAjx;
         "fabric-1.21.1" = _2xhHgTNM;
         "fabric-26.1.2" = _kCLIEOm4;
         "fabric-26.2" = _HpQSiz0D;
+        "fabric-26.3" = _EfBLqS86;
         "pkg-1.0.0" = _2zRxrHTY;
         "pkg-1.1.0" = _ABK07U7C;
         "pkg-1.2.0" = _7Phx2kVC;
@@ -425,7 +439,9 @@ let
         "pkg-2.0.0+fabric-1.21.1" = _2xhHgTNM;
         "pkg-2.0.0+forge-1.20.1" = _P4lz6eV0;
         "pkg-2.0.0+neoforge-1.21.1" = _QCxt1U64;
-        "default" = _QCxt1U64;
+        "pkg-2.0.0+fabric-26.3" = _EfBLqS86;
+        "pkg-2.0.0+neoforge-26.3" = _Ev3N6VOz;
+        "default" = _Ev3N6VOz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remnants-minimap";

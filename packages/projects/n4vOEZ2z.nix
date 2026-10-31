@@ -36,6 +36,11 @@ let
             "file" = "thermal_vision_v5.jar";
             "hash" = "sha512-qWyDoEhUrfOkKD+Mg1ryzqRP0ZWTDREvGzNZLgyJhxG2CwidmjpjVqhAdiJvDYFqUgF3Itvd/O+do8d4Pm8+gQ==";
         };
+        _KM6c3v10 = {
+            "id" = "KM6c3v10";
+            "file" = "thermal_vision_v5.1.jar";
+            "hash" = "sha512-vwL6FbcxAqkMi9HfsD2FRa0o1Jl/8UO3E/hg7/g1dk2RB49kmfPqwdNBg0rUoYdVer7yh+kOFjbR15h6jfTIHQ==";
+        };
     in {
         "mY2Le4h7" = _mY2Le4h7;
         "UCLSzfoQ" = _UCLSzfoQ;
@@ -44,7 +49,8 @@ let
         "UCi7ioNZ" = _UCi7ioNZ;
         "vVcMFK2i" = _vVcMFK2i;
         "f9c1Admb" = _f9c1Admb;
-        "forge-1.20.1" = _f9c1Admb;
+        "KM6c3v10" = _KM6c3v10;
+        "forge-1.20.1" = _KM6c3v10;
         "forge-1.21.1" = _vVcMFK2i;
         "pkg-1.0" = _mY2Le4h7;
         "pkg-2.0" = _UCLSzfoQ;
@@ -53,7 +59,8 @@ let
         "pkg-4.0" = _UCi7ioNZ;
         "pkg-4.0.0-1.21.1" = _vVcMFK2i;
         "pkg-5.0" = _f9c1Admb;
-        "default" = _f9c1Admb;
+        "pkg-5.1" = _KM6c3v10;
+        "default" = _KM6c3v10;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thermal-vision-goggles";

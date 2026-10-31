@@ -321,6 +321,11 @@ let
             "file" = "cards-1.5.7-neoforge-1.21.8.jar";
             "hash" = "sha512-zHuNRNqnDgivNjqb0UuIaNRIYb6Zlf7j7klp7EAsnByzN0xx34bum9FBNm4ZIPsJCV4mPEnV9pnohZ7Kfg1flQ==";
         };
+        _wh79Myc1 = {
+            "id" = "wh79Myc1";
+            "file" = "cards-1.5.8-neoforge-1.21.8.jar";
+            "hash" = "sha512-HXOE1PWiHYUbyACSBZ9V6TiigD89MYRSoATNlEVpySeiCKfyZ8F8qTRude9f0jVpZgL9PpmOjF5Oav4aTVSUDg==";
+        };
     in {
         "U32FXKCa" = _U32FXKCa;
         "xnk7x0eU" = _xnk7x0eU;
@@ -386,8 +391,9 @@ let
         "kSNXW8xf" = _kSNXW8xf;
         "1j0DFf1S" = _1j0DFf1S;
         "QcD8XQ1V" = _QcD8XQ1V;
+        "wh79Myc1" = _wh79Myc1;
         "forge-1.20.1" = _gX45K9MY;
-        "neoforge-1.21.8" = _QcD8XQ1V;
+        "neoforge-1.21.8" = _wh79Myc1;
         "pkg-1.0.0" = _U32FXKCa;
         "pkg-1.0.1" = _xnk7x0eU;
         "pkg-1.0.2" = _WTS7ayku;
@@ -451,7 +457,8 @@ let
         "pkg-1.5.5" = _kSNXW8xf;
         "pkg-1.5.6" = _1j0DFf1S;
         "pkg-1.5.7" = _QcD8XQ1V;
-        "default" = _QcD8XQ1V;
+        "pkg-1.5.8" = _wh79Myc1;
+        "default" = _wh79Myc1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-cards";

@@ -96,6 +96,16 @@ let
             "file" = "cfp-fabric-1.20.1-0.5.9.jar";
             "hash" = "sha512-epWmULMNk9BA4u6aX7eK6proE4khhVR7B4LqLNOfBqiNVfPE+syPE2VlRWKj7O7cKaTsdo4+RoJQfSHeWqxxyg==";
         };
+        _wCmNA5PH = {
+            "id" = "wCmNA5PH";
+            "file" = "cfp-fabric-1.20.1-0.5.9.1.jar";
+            "hash" = "sha512-V+l1gW788JRORTD89cGZyAhD1UHc6jEFHYG8k3B0SzD2gpasz+RCxqlGqfuXNZPy3gRubUEpLzR3FmkDzQsNxg==";
+        };
+        _9PNQYfeo = {
+            "id" = "9PNQYfeo";
+            "file" = "cfp-forge-1.20.1-0.5.9.1.jar";
+            "hash" = "sha512-K22MuGgvTQg6USeCe9thgID6spOLLkcfpdp6VBnIBmv5NUmNDOmmWvQAfKtkVPRtRObnrjhYXeacYSlw9PjJrA==";
+        };
     in {
         "HB9q0QEk" = _HB9q0QEk;
         "cPK94ImO" = _cPK94ImO;
@@ -116,8 +126,10 @@ let
         "XwJ3Qyvm" = _XwJ3Qyvm;
         "wh2ksjVt" = _wh2ksjVt;
         "EydGQaMt" = _EydGQaMt;
-        "forge-1.20.1" = _wh2ksjVt;
-        "fabric-1.20.1" = _EydGQaMt;
+        "wCmNA5PH" = _wCmNA5PH;
+        "9PNQYfeo" = _9PNQYfeo;
+        "forge-1.20.1" = _9PNQYfeo;
+        "fabric-1.20.1" = _wCmNA5PH;
         "pkg-0.4.0" = _HB9q0QEk;
         "pkg-0.4.2" = _cPK94ImO;
         "pkg-0.5.1" = _BKQL2g5m;
@@ -129,7 +141,8 @@ let
         "pkg-0.5.7" = _sxL6DDXm;
         "pkg-0.5.8.1" = _XwJ3Qyvm;
         "pkg-0.5.9" = _EydGQaMt;
-        "default" = _EydGQaMt;
+        "pkg-0.5.9.1" = _9PNQYfeo;
+        "default" = _9PNQYfeo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftformers-prime";

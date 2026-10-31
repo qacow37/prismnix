@@ -286,6 +286,46 @@ let
             "file" = "lootbeamsup-neoforge-1.21.11-5.0.0.jar";
             "hash" = "sha512-uoegRc+UdJ8zJSu0H62cjg9cDHn1kd6fPzcY0+1Tj33cTxei/VxKXZlxRYEv5BiHVi+A9Km9AxVtRYRLSgZPCQ==";
         };
+        _kRm0KU5L = {
+            "id" = "kRm0KU5L";
+            "file" = "LootBeamsUp-forge-1.21.11-5.1.1.jar";
+            "hash" = "sha512-W9aSQ+nSfe+d2JRg9z5PsgmOjMVhmlRS2Zz8uyCKEahHCIptG7J2WMzjJeRbU1H0IzxJwepadlHpKWUsjDdhUQ==";
+        };
+        _UMDd22ep = {
+            "id" = "UMDd22ep";
+            "file" = "lootbeamsup-neoforge-1.21.11-5.1.1.jar";
+            "hash" = "sha512-l4PzJcDJ2EyCkW3ZIsB0vcp3fUtvOb0+4Lorblz55r5FjYpaaktmY3bBRtrxG+8xlEWlQhZJpk/qaKQj/4iqug==";
+        };
+        _s5WpC4GE = {
+            "id" = "s5WpC4GE";
+            "file" = "lootbeamsup-fabric-1.21.11-5.1.1.jar";
+            "hash" = "sha512-Z8pCB+9QrWo8LYi+VNELVw3r4z1laSU1nfovIdvotoL0RNZkyMXMea2wkBavNLQ3PDcarq8PATkuohVkFecTLA==";
+        };
+        _Yg8Grao3 = {
+            "id" = "Yg8Grao3";
+            "file" = "lootbeamsup-neoforge-5.1.2+1.21.11.jar";
+            "hash" = "sha512-6jqvIRIEF0+3j133gs9aKubG13s2XIUFApUlgDGtljFjrKkrsoNuxDE83w3E97CV0mfgzjkDW70/dviNxdPplg==";
+        };
+        _wKUamGIs = {
+            "id" = "wKUamGIs";
+            "file" = "lootbeamsup-forge-5.1.2+1.21.11.jar";
+            "hash" = "sha512-w5Pvy1of7OI8Euicf7pKglLeBe0oVkSeaPGZptrX50U4+9ymmnzXsuiFr0YLfqM/EACBGeLkUPGFivks7KQuRA==";
+        };
+        _bo7B9r7u = {
+            "id" = "bo7B9r7u";
+            "file" = "lootbeamsup-fabric-5.1.2+1.21.11.jar";
+            "hash" = "sha512-M/QfpCVW8+2NQ1UMWAcGHWZoffuwvNNefVwy/oUHG2zdytHwIrLMU7Ecb4LT71drCV4sa4qGGZzLCXapR+jMLQ==";
+        };
+        _alj4JWMB = {
+            "id" = "alj4JWMB";
+            "file" = "lootbeamsup-neoforge-5.1.2+26.1.2.jar";
+            "hash" = "sha512-PPK9j4pvpObY/0dYngCtXC/7ifpX+UJop3XeLFuxDvhv4vN9BKr6iPYq4WCjolmCNzKIpPhNVo1yyZWckX2XXw==";
+        };
+        _sUzFZMLB = {
+            "id" = "sUzFZMLB";
+            "file" = "lootbeamsup-fabric-5.1.2+26.1.2.jar";
+            "hash" = "sha512-FgIz+D4JMrDusnrE9a4uOKgcgdIOvOpoScImJpAPeu43kfg3ilqhAHPkC2j4uX7rCId8xQzjoyC9WzYXFF4Ldg==";
+        };
     in {
         "XYekESsc" = _XYekESsc;
         "5ZGxgmif" = _5ZGxgmif;
@@ -344,6 +384,14 @@ let
         "NPRGLZ5l" = _NPRGLZ5l;
         "NslZYMrL" = _NslZYMrL;
         "mTwtzEDz" = _mTwtzEDz;
+        "kRm0KU5L" = _kRm0KU5L;
+        "UMDd22ep" = _UMDd22ep;
+        "s5WpC4GE" = _s5WpC4GE;
+        "Yg8Grao3" = _Yg8Grao3;
+        "wKUamGIs" = _wKUamGIs;
+        "bo7B9r7u" = _bo7B9r7u;
+        "alj4JWMB" = _alj4JWMB;
+        "sUzFZMLB" = _sUzFZMLB;
         "fabric-1.21" = _snceiTqn;
         "fabric-1.21.1" = _snceiTqn;
         "fabric-1.20.1" = _U8r5ln92;
@@ -356,7 +404,8 @@ let
         "fabric-1.21.3" = _d9zulVux;
         "fabric-1.20" = _U8r5ln92;
         "fabric-1.21.4" = _9mm8BRwo;
-        "fabric-1.21.11" = _NPRGLZ5l;
+        "fabric-1.21.11" = _bo7B9r7u;
+        "fabric-26.1.2" = _sUzFZMLB;
         "quilt-1.21" = _snceiTqn;
         "quilt-1.21.1" = _snceiTqn;
         "quilt-1.20.1" = _U8r5ln92;
@@ -369,9 +418,11 @@ let
         "quilt-1.21.3" = _d9zulVux;
         "quilt-1.20" = _U8r5ln92;
         "quilt-1.21.4" = _9mm8BRwo;
-        "quilt-1.21.11" = _NPRGLZ5l;
-        "forge-1.21.11" = _NslZYMrL;
-        "neoforge-1.21.11" = _mTwtzEDz;
+        "quilt-1.21.11" = _bo7B9r7u;
+        "quilt-26.1.2" = _sUzFZMLB;
+        "forge-1.21.11" = _wKUamGIs;
+        "neoforge-1.21.11" = _Yg8Grao3;
+        "neoforge-26.1.2" = _alj4JWMB;
         "pkg-2.3.2" = _XYekESsc;
         "pkg-2.4.1" = _5ZGxgmif;
         "pkg-2.5.4" = _uOEfugo0;
@@ -423,7 +474,10 @@ let
         "pkg-3.6.1-mc1.21.2-.3" = _d9zulVux;
         "pkg-3.6.1-mc1.21.4" = _9mm8BRwo;
         "pkg-5.0.0" = _mTwtzEDz;
-        "default" = _mTwtzEDz;
+        "pkg-5.1.1" = _s5WpC4GE;
+        "pkg-5.1.2+1.21.11" = _bo7B9r7u;
+        "pkg-5.1.2+26.1.2" = _sUzFZMLB;
+        "default" = _sUzFZMLB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-beams-up";
