@@ -36,6 +36,11 @@ let
             "file" = "CamHeads-fabric-1.0.0-alpha.5+mc26.2.jar";
             "hash" = "sha512-AxwKVUwoFi4XS0p8lHV3BTSzvvkk3rjpQJ+qoWgoCZeXpXiArl8gFOS+TuLlnMpU3VPa8V8vVItwXVu8qcZTOg==";
         };
+        _cV2SDiAU = {
+            "id" = "cV2SDiAU";
+            "file" = "CamHeads-fabric-1.0.0-alpha.6+mc26.3.jar";
+            "hash" = "sha512-8tQOjYACFa6oHmyCekBhJuFB7NUUm6inmgKr1vIRjNnBjxPYzmHNo/V1T5m7f7mTrYOgrQJAcOCBsslJlxrWNA==";
+        };
     in {
         "7vYiBoQ6" = _7vYiBoQ6;
         "2RP2NtdM" = _2RP2NtdM;
@@ -44,6 +49,7 @@ let
         "LIsP9Z0N" = _LIsP9Z0N;
         "NrSW7h7s" = _NrSW7h7s;
         "D5ASrMMu" = _D5ASrMMu;
+        "cV2SDiAU" = _cV2SDiAU;
         "fabric-1.21.6" = _2RP2NtdM;
         "fabric-1.21.7" = _2RP2NtdM;
         "fabric-1.21.8" = _2RP2NtdM;
@@ -51,6 +57,7 @@ let
         "fabric-1.21.9" = _KRdTsJrI;
         "fabric-1.21.10" = _KRdTsJrI;
         "fabric-26.2" = _D5ASrMMu;
+        "fabric-26.3" = _cV2SDiAU;
         "quilt-1.21.6" = _2RP2NtdM;
         "quilt-1.21.7" = _2RP2NtdM;
         "quilt-1.21.8" = _2RP2NtdM;
@@ -63,7 +70,8 @@ let
         "pkg-1.0.0-alpha.3" = _LIsP9Z0N;
         "pkg-1.0.0-alpha.4" = _NrSW7h7s;
         "pkg-1.0.0-alpha.5" = _D5ASrMMu;
-        "default" = _D5ASrMMu;
+        "pkg-1.0.0-alpha.6" = _cV2SDiAU;
+        "default" = _cV2SDiAU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camera-head";

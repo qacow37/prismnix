@@ -51,6 +51,11 @@ let
             "file" = "create_aeronautics_transmission_linkage-0.2.8.jar";
             "hash" = "sha512-r2N/x5NEiSg1TLRT95TOCPoUaUJQo3euZ9Si1A23xKAK3Ln5gDh5R8Jk50xXWTnp9SXvHxRDuEccEL9yxSAApQ==";
         };
+        _WoUjC6d4 = {
+            "id" = "WoUjC6d4";
+            "file" = "create_aeronautics_transmission_linkage-0.2.9.jar";
+            "hash" = "sha512-2lk9dGLxAKvmtc4t22YSKEM4kN2hxm2Hy/Dv9Pl2N8ECzZ8Svh2eQOln4Xs1oo0QpB/f6lccLcZL6NKOstWs5Q==";
+        };
     in {
         "xBv5Swbn" = _xBv5Swbn;
         "qlbCXsTF" = _qlbCXsTF;
@@ -62,7 +67,8 @@ let
         "i5cG7iGg" = _i5cG7iGg;
         "VtjOWtYD" = _VtjOWtYD;
         "FCZZ3ED4" = _FCZZ3ED4;
-        "neoforge-1.21.1" = _FCZZ3ED4;
+        "WoUjC6d4" = _WoUjC6d4;
+        "neoforge-1.21.1" = _WoUjC6d4;
         "pkg-0.1.0" = _xBv5Swbn;
         "pkg-0.2.0" = _qlbCXsTF;
         "pkg-0.2.1" = _bqNioSRV;
@@ -73,7 +79,8 @@ let
         "pkg-0.2.6" = _i5cG7iGg;
         "pkg-0.2.7" = _VtjOWtYD;
         "pkg-0.2.8" = _FCZZ3ED4;
-        "default" = _FCZZ3ED4;
+        "pkg-0.2.9" = _WoUjC6d4;
+        "default" = _WoUjC6d4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-transmission-linkage";

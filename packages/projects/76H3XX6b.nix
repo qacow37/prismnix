@@ -76,6 +76,11 @@ let
             "file" = "constructionwand-kots-1.21.1-2.16.12.jar";
             "hash" = "sha512-N6IaOrhmJAClCOIxmiGjRJdtf2aYuG6sn2pkhhn2BWJtPjrKPmWCDjXtiqc4lKRjss0i1rlKUc2ns3fcRDdSLg==";
         };
+        _eXcxXIMi = {
+            "id" = "eXcxXIMi";
+            "file" = "constructionwand-kots-1.21.1-2.16.13.jar";
+            "hash" = "sha512-LB/bgIolPfNm+BrtUIlBGZeNQ8uLvTPyjhMHQEpz3FvVZXLJNbxgE+GKqg94xju7mBfif7/suZv8Ls471RIaDw==";
+        };
     in {
         "L7DX5u92" = _L7DX5u92;
         "dEcmQhxr" = _dEcmQhxr;
@@ -92,6 +97,7 @@ let
         "KET3x29E" = _KET3x29E;
         "L6LNiyno" = _L6LNiyno;
         "cFpoCw3t" = _cFpoCw3t;
+        "eXcxXIMi" = _eXcxXIMi;
         "forge-1.20.1" = _L6LNiyno;
         "forge-1.20" = _sHpXsH5S;
         "forge-1.20.2" = _sHpXsH5S;
@@ -99,7 +105,7 @@ let
         "forge-1.20.4" = _sHpXsH5S;
         "forge-1.20.5" = _sHpXsH5S;
         "forge-1.20.6" = _sHpXsH5S;
-        "neoforge-1.21.1" = _cFpoCw3t;
+        "neoforge-1.21.1" = _eXcxXIMi;
         "neoforge-26.1" = _KET3x29E;
         "neoforge-26.1.1" = _KET3x29E;
         "neoforge-26.1.2" = _KET3x29E;
@@ -116,7 +122,8 @@ let
         "pkg-1.20.1-2.15.6" = _L6LNiyno;
         "pkg-2.16.9" = _x58bnANF;
         "pkg-2.16.12" = _cFpoCw3t;
-        "default" = _cFpoCw3t;
+        "pkg-2.16.13" = _eXcxXIMi;
+        "default" = _eXcxXIMi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "construction-wand-kots";

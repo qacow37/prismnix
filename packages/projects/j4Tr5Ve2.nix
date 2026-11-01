@@ -306,6 +306,16 @@ let
             "file" = "devonian-1.35.9.jar";
             "hash" = "sha512-cdXWU8e0dkHSpN5zESwCYR7hqWy/3jGsOpqqZRJN3vBw5SlDvHFp9PImMT977q9mb9aFOS01g+lk5N41cNWmbA==";
         };
+        _FZ0flyJG = {
+            "id" = "FZ0flyJG";
+            "file" = "devonian-1.36.9.jar";
+            "hash" = "sha512-2eOagjDMB1s5o6XZZ5RbBq57gucMUTxz/3D0S8MdU0gmGH97EE3hMeiGinFW+NOenWDVQBLk+xNF08Mkhj7GOA==";
+        };
+        _9EZ9aUPz = {
+            "id" = "9EZ9aUPz";
+            "file" = "devonian-1.36.9.jar";
+            "hash" = "sha512-+Zy4SUUGlu9ZtIM55uveKWBxFk23iJzZaBvrw5FTbfK9JaRDs5GZxetI0uA4IoHtbqs1wJTchWy/UWyLFHYHYw==";
+        };
     in {
         "BEa9XNXt" = _BEa9XNXt;
         "xrXIOz2a" = _xrXIOz2a;
@@ -368,6 +378,8 @@ let
         "EQT06WHl" = _EQT06WHl;
         "kdvdwTj9" = _kdvdwTj9;
         "6hMmvzJX" = _6hMmvzJX;
+        "FZ0flyJG" = _FZ0flyJG;
+        "9EZ9aUPz" = _9EZ9aUPz;
         "fabric-1.21.5" = _mfxW8kpD;
         "fabric-1.21.8" = _lg3YRoRG;
         "fabric-1.21.6" = _lg3YRoRG;
@@ -378,8 +390,8 @@ let
         "fabric-26.1" = _EQT06WHl;
         "fabric-26.1.1" = _EQT06WHl;
         "fabric-26.1.2" = _EQT06WHl;
-        "fabric-26.2" = _6hMmvzJX;
-        "fabric-26.3" = _kdvdwTj9;
+        "fabric-26.2" = _9EZ9aUPz;
+        "fabric-26.3" = _FZ0flyJG;
         "pkg-1.0.0-b.1" = _BEa9XNXt;
         "pkg-1.0.1-1.21.5" = _xrXIOz2a;
         "pkg-1.0.1-1.21.8" = _6WG2hJSu;
@@ -441,7 +453,9 @@ let
         "pkg-1.34.9-26.1" = _EQT06WHl;
         "pkg-1.35.9-26.3" = _kdvdwTj9;
         "pkg-1.35.9-26.2" = _6hMmvzJX;
-        "default" = _6hMmvzJX;
+        "pkg-1.36.9-26.3" = _FZ0flyJG;
+        "pkg-1.36.9-26.2" = _9EZ9aUPz;
+        "default" = _9EZ9aUPz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "devonian";

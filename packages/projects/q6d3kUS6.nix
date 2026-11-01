@@ -26,19 +26,25 @@ let
             "file" = "forge frogi_lib 1.20.1.jar";
             "hash" = "sha512-vO9dbfMuSNuXZuxiIeXVFVA4H/x769I8yo0KlraZExEILyHLEikMZZV58VwqvdCDA3W22ftS16YAYdRe0hlMDA==";
         };
+        _mNHwW0GH = {
+            "id" = "mNHwW0GH";
+            "file" = "frogilib-1.2.0.jar";
+            "hash" = "sha512-I1ZzJOlRrCulj6PHounYroH5oEo8BqvnihXtLbccs1Zb4IsV80kksuSZR2JAhAoJLy0XP9IKcNRShdwKa6I/Nw==";
+        };
     in {
         "4WJwbhx6" = _4WJwbhx6;
         "ootjlNTi" = _ootjlNTi;
         "EMOOeU4z" = _EMOOeU4z;
         "Jz43VGqC" = _Jz43VGqC;
         "L7IBbLrD" = _L7IBbLrD;
+        "mNHwW0GH" = _mNHwW0GH;
         "fabric-1.20.1" = _EMOOeU4z;
         "fabric-1.21.1" = _ootjlNTi;
-        "forge-1.20.1" = _L7IBbLrD;
+        "forge-1.20.1" = _mNHwW0GH;
         "pkg-1.0.0" = _ootjlNTi;
         "pkg-1.1.0" = _Jz43VGqC;
-        "pkg-1.2.0" = _L7IBbLrD;
-        "default" = _L7IBbLrD;
+        "pkg-1.2.0" = _mNHwW0GH;
+        "default" = _mNHwW0GH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frogilib";

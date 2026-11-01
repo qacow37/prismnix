@@ -2551,6 +2551,16 @@ let
             "file" = "skinrestorer-2.11.0+26.3-forge.jar";
             "hash" = "sha512-qTu3E62mswOuZL8MDTJnN3zTkbl9hx5/3gbG6kd/+qa79pGJVOIWYPW7sqRvQ5Rl6OYKnZivind5tf6+hcWW6A==";
         };
+        _GgxAsh2C = {
+            "id" = "GgxAsh2C";
+            "file" = "skinrestorer-2.11.0+1.18.2-forge.jar";
+            "hash" = "sha512-wbQbY+9WTepXPl8+X5yYEblPY2eactX7u04pHSr9lSVRaCfd8K586Lwy2aQ54KiZ9IAXntzeKg6rZHyQzmg2jQ==";
+        };
+        _CKLvmxNn = {
+            "id" = "CKLvmxNn";
+            "file" = "skinrestorer-2.11.0+1.18.2-fabric.jar";
+            "hash" = "sha512-1Z9nHpFjykIj6yVBugoNw0hsP7BduTtyhq/R80iZ/5EZBBC7nOaPGvV7mYA8jxLIv5q5WknvWyMO7wux4emlkg==";
+        };
     in {
         "kpyeSFpl" = _kpyeSFpl;
         "ZWHRrrBx" = _ZWHRrrBx;
@@ -3062,6 +3072,8 @@ let
         "K7BFrFJD" = _K7BFrFJD;
         "X8KfS7En" = _X8KfS7En;
         "YfaOAVyp" = _YfaOAVyp;
+        "GgxAsh2C" = _GgxAsh2C;
+        "CKLvmxNn" = _CKLvmxNn;
         "fabric-1.20" = _uCDr3lnP;
         "fabric-1.20.1" = _uCDr3lnP;
         "fabric-1.19.4" = _jtDM8We4;
@@ -3091,6 +3103,7 @@ let
         "fabric-26.1.2" = _rPmMM0mv;
         "fabric-26.2" = _rPmMM0mv;
         "fabric-26.3" = _K7BFrFJD;
+        "fabric-1.18.2" = _CKLvmxNn;
         "neoforge-1.20.3" = _mmSsPrmg;
         "neoforge-1.20.4" = _mmSsPrmg;
         "neoforge-1.20.5" = _U5lrKNr4;
@@ -3142,6 +3155,7 @@ let
         "quilt-26.1.2" = _rPmMM0mv;
         "quilt-26.2" = _rPmMM0mv;
         "quilt-26.3" = _K7BFrFJD;
+        "quilt-1.18.2" = _CKLvmxNn;
         "forge-1.20" = _WwS30jjd;
         "forge-1.20.1" = _WwS30jjd;
         "forge-1.20.2" = _hVMzMRoD;
@@ -3170,6 +3184,7 @@ let
         "forge-26.1.2" = _ZSx0mxGT;
         "forge-26.2" = _ZSx0mxGT;
         "forge-26.3" = _YfaOAVyp;
+        "forge-1.18.2" = _GgxAsh2C;
         "pkg-1.2.3" = _kpyeSFpl;
         "pkg-1.2.2" = _ZWHRrrBx;
         "pkg-1.2.4+1.20.2" = _SMwzLRyJ;
@@ -3662,7 +3677,9 @@ let
         "pkg-2.11.0+26.3-fabric" = _K7BFrFJD;
         "pkg-2.11.0+26.3-neoforge" = _X8KfS7En;
         "pkg-2.11.0+26.3-forge" = _YfaOAVyp;
-        "default" = _YfaOAVyp;
+        "pkg-2.11.0+1.18.2-forge" = _GgxAsh2C;
+        "pkg-2.11.0+1.18.2-fabric" = _CKLvmxNn;
+        "default" = _CKLvmxNn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skinrestorer";

@@ -31,6 +31,11 @@ let
             "file" = "vulkanflow-0.1.20-alpha.jar";
             "hash" = "sha512-4/9iLAtdE+tCtuJDcmOUAlBpp0Ur3e286787OI5jeR++bigGfhRKnwrHVtjEqnJ3EilavoUcbJDVzvQsHdnE1g==";
         };
+        _S9Tn5po7 = {
+            "id" = "S9Tn5po7";
+            "file" = "vulkanflow-0.1.27-alpha.jar";
+            "hash" = "sha512-nlSocPPaeEQ0kIsodBXoYqAQnm7UiuNaR5VrpL5XcFKezEJORdmG/m47T5BLarRbPBP03ASZ8+rkTUz85efVvg==";
+        };
     in {
         "qyLiKlzg" = _qyLiKlzg;
         "aaqg4pDN" = _aaqg4pDN;
@@ -38,15 +43,17 @@ let
         "sE4aocXx" = _sE4aocXx;
         "PEyxuF0c" = _PEyxuF0c;
         "8p96mB40" = _8p96mB40;
+        "S9Tn5po7" = _S9Tn5po7;
         "fabric-26.2" = _61rw3ElR;
-        "fabric-26.3" = _8p96mB40;
+        "fabric-26.3" = _S9Tn5po7;
         "pkg-0.1.0-alpha" = _qyLiKlzg;
         "pkg-0.1.1-alpha" = _aaqg4pDN;
         "pkg-0.1.11-alpha" = _61rw3ElR;
         "pkg-0.1.12-alpha" = _sE4aocXx;
         "pkg-0.1.13-alpha" = _PEyxuF0c;
         "pkg-0.1.20-alpha" = _8p96mB40;
-        "default" = _8p96mB40;
+        "pkg-0.1.27-alpha" = _S9Tn5po7;
+        "default" = _S9Tn5po7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vulkanflow";

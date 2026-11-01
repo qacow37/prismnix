@@ -4026,6 +4026,16 @@ let
             "file" = "dungeontrain-0.1601.0.jar";
             "hash" = "sha512-cMT4K0fMRaebiN9SXgKnSpuySClwLCsip9OhI+4IgrG6H4wIP+sRu7izy951Kvpjj8+gsEL8S/taC+bisUI2UA==";
         };
+        _uGxKD8GF = {
+            "id" = "uGxKD8GF";
+            "file" = "dungeontrain-0.1608.0.jar";
+            "hash" = "sha512-mVs5/RB+f3miTf88n09EeqBblxcz//kxxRfUR9VsHxss9koMa5hSJnNkIHaS6TG6+BuUGIxg4ZmSkLhR23TX8Q==";
+        };
+        _TYdKGRfD = {
+            "id" = "TYdKGRfD";
+            "file" = "dungeontrain-0.1610.0.jar";
+            "hash" = "sha512-MHvpFPkqUq/XftOgmlI4X/GVToCQ0PjuAuv7/v+R99X4hS3IIXK2IV8DnzWeCo+bTT86hTcnlz8aRN7oJABfzw==";
+        };
     in {
         "aayJdrv5" = _aayJdrv5;
         "bnexSrS2" = _bnexSrS2;
@@ -4832,13 +4842,15 @@ let
         "6MKDrwZP" = _6MKDrwZP;
         "ooVIRFPQ" = _ooVIRFPQ;
         "qWzYi69O" = _qWzYi69O;
+        "uGxKD8GF" = _uGxKD8GF;
+        "TYdKGRfD" = _TYdKGRfD;
         "forge-1.20.1" = _gf1Z1Nna;
         "forge-1.20.2" = _aayJdrv5;
         "forge-1.20.3" = _aayJdrv5;
         "forge-1.20.4" = _aayJdrv5;
         "forge-1.20.5" = _aayJdrv5;
         "forge-1.20.6" = _aayJdrv5;
-        "neoforge-1.21.1" = _qWzYi69O;
+        "neoforge-1.21.1" = _TYdKGRfD;
         "pkg-0.72.0" = _aayJdrv5;
         "pkg-v0.72.1" = _bnexSrS2;
         "pkg-v0.73.2" = _dr45kFNn;
@@ -5638,7 +5650,9 @@ let
         "pkg-v0.1594.0" = _6MKDrwZP;
         "pkg-v0.1598.0" = _ooVIRFPQ;
         "pkg-v0.1601.0" = _qWzYi69O;
-        "default" = _qWzYi69O;
+        "pkg-v0.1608.0" = _uGxKD8GF;
+        "pkg-v0.1610.0" = _TYdKGRfD;
+        "default" = _TYdKGRfD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeon-train";

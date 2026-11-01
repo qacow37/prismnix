@@ -906,6 +906,11 @@ let
             "file" = "Ore Creeper-neoforge-26.3-2.0.3.jar";
             "hash" = "sha512-qkitkKVEBNgCveKiYUMB8OPe6E1bq266M2+KzlelGigywfwA2QZ+c6EstGq0iE+QBM5giSxgOh6VndZXHKvH/Q==";
         };
+        _iKv5s7LE = {
+            "id" = "iKv5s7LE";
+            "file" = "Ore Creeper-fabric-26.3-2.0.3.jar";
+            "hash" = "sha512-IeCzgzBtIQy5vMf4pY62EUEeedSEfLjifxjooRBJohgeHc8zRVhpUWSLviHnhhOhgBhR05OWZ3b4zt/XTdZsRg==";
+        };
     in {
         "HhBCSWp4" = _HhBCSWp4;
         "vJG6jPFJ" = _vJG6jPFJ;
@@ -1088,6 +1093,7 @@ let
         "p3nbAjez" = _p3nbAjez;
         "MHQkb9Lp" = _MHQkb9Lp;
         "N26zIPHR" = _N26zIPHR;
+        "iKv5s7LE" = _iKv5s7LE;
         "forge-1.19.2" = _wPDKA6Nz;
         "forge-1.19.4" = _hpbscf5D;
         "forge-1.20" = _u5GBJTLk;
@@ -1125,6 +1131,7 @@ let
         "fabric-1.21.11" = _lUEFHudk;
         "fabric-26.1.2" = _YvZlbBZa;
         "fabric-26.2" = _HwYCsOw0;
+        "fabric-26.3" = _iKv5s7LE;
         "neoforge-1.20.2" = _VkW4X8hM;
         "neoforge-1.20.4" = _vNOSLXdk;
         "neoforge-1.20.6" = _1U1yBfEm;
@@ -1171,8 +1178,8 @@ let
         "pkg-2.0.0" = _lcf2xLv0;
         "pkg-2.0.1" = _gJed6sMk;
         "pkg-2.0.2" = _uvVbmwqT;
-        "pkg-2.0.3" = _N26zIPHR;
-        "default" = _N26zIPHR;
+        "pkg-2.0.3" = _iKv5s7LE;
+        "default" = _iKv5s7LE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-creeper";

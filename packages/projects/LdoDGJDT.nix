@@ -21,18 +21,25 @@ let
             "file" = "Tobu_70000_Series_V1.0.3.zip";
             "hash" = "sha512-pdqblB/4PNynQa67KzEuwmnp4jc3BPpP9QXzRkBLudTOhyUW12AEPz3KXueqD6u6jyau2ZXnjh6J5fU3/20a9w==";
         };
+        _aFt9BdpX = {
+            "id" = "aFt9BdpX";
+            "file" = "Tobu_70000_Series_V1.1.zip";
+            "hash" = "sha512-FsAYOkfftCvI1t118QK9Xq03dx2DjP1lb0IDfZClLsUJ+dBltRGDl3WDaKL5k6sS+xlB0KsUGgEen7IBseNcNg==";
+        };
     in {
         "1zrmmCgA" = _1zrmmCgA;
         "15hiL77u" = _15hiL77u;
         "QoG62pGg" = _QoG62pGg;
         "3YVAPViH" = _3YVAPViH;
-        "minecraft-1.20" = _3YVAPViH;
-        "minecraft-1.20.1" = _3YVAPViH;
+        "aFt9BdpX" = _aFt9BdpX;
+        "minecraft-1.20" = _aFt9BdpX;
+        "minecraft-1.20.1" = _aFt9BdpX;
         "pkg-1.0" = _1zrmmCgA;
         "pkg-1.0.1" = _15hiL77u;
         "pkg-1.0.2" = _QoG62pGg;
         "pkg-1.0.3" = _3YVAPViH;
-        "default" = _3YVAPViH;
+        "pkg-1.1" = _aFt9BdpX;
+        "default" = _aFt9BdpX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-tobu-70000-series-70000";

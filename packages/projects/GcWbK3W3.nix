@@ -81,6 +81,11 @@ let
             "file" = "SkNMS-1.7.0-26.2.jar";
             "hash" = "sha512-zmvE4WYcgQKsMAO+Y5kNiyN55hH1u5TqipzdDRe7mtmBXu9FCHt+OV3BMxfqDkv3UJqbP+LwNV7FZejFDwQpBg==";
         };
+        _zQpsNy8f = {
+            "id" = "zQpsNy8f";
+            "file" = "SkNMS-1.7.0-26.3.jar";
+            "hash" = "sha512-NtxUhH1xa1RqUJ5YR0y8tJrmHF7dmRJFlXD0L+F6MAejRpnZflXnZj2p+KM98Qssk4rPpBGodkWytQWMN+lLOw==";
+        };
     in {
         "VITyHbDk" = _VITyHbDk;
         "9wgedtUK" = _9wgedtUK;
@@ -98,6 +103,7 @@ let
         "7wmYbkfV" = _7wmYbkfV;
         "cnalaVjj" = _cnalaVjj;
         "DK3A7HRh" = _DK3A7HRh;
+        "zQpsNy8f" = _zQpsNy8f;
         "paper-1.21.4" = _9wgedtUK;
         "paper-1.21.5" = _SXlWVKrl;
         "paper-1.21.6" = _q3AfWDeg;
@@ -109,6 +115,7 @@ let
         "paper-26.1.1" = _cnalaVjj;
         "paper-26.1.2" = _cnalaVjj;
         "paper-26.2" = _DK3A7HRh;
+        "paper-26.3" = _zQpsNy8f;
         "pkg-1.1.0-1.21.4" = _VITyHbDk;
         "pkg-1.2.0-1.21.4" = _9wgedtUK;
         "pkg-1.2.0-1.21.5" = _yLzRFTHf;
@@ -125,7 +132,8 @@ let
         "pkg-1.6.0-26.1.1" = _7wmYbkfV;
         "pkg-1.7.0-26.1.1" = _cnalaVjj;
         "pkg-1.7.0-26.2" = _DK3A7HRh;
-        "default" = _DK3A7HRh;
+        "pkg-1.7.0-26.3" = _zQpsNy8f;
+        "default" = _zQpsNy8f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sknms";

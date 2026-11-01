@@ -41,6 +41,11 @@ let
             "file" = "evenmoretnt-1.3.3.jar";
             "hash" = "sha512-VHGg+/1oO2/x7CP6u6uSNWZtuXikUH0WJPLH2306z3krUFDiIDuMclV9Xco6MPN66lYcuRPVwY90u0dHW2n4aA==";
         };
+        _Ou8JGBsn = {
+            "id" = "Ou8JGBsn";
+            "file" = "evenmoretnt-1.3.4.jar.jar";
+            "hash" = "sha512-PCh1WCh74YIt6mqRFJSVSCCX09SLztwWmjl3OJ1kIwGrJclMZTTcx7ARyJDJmHOrwwyfSYyQDaz0EopbGWHssQ==";
+        };
     in {
         "zlq8ZuQO" = _zlq8ZuQO;
         "DQtYRMS4" = _DQtYRMS4;
@@ -50,10 +55,12 @@ let
         "9jHH10uP" = _9jHH10uP;
         "FV1B1SDO" = _FV1B1SDO;
         "gTa5y5oY" = _gTa5y5oY;
+        "Ou8JGBsn" = _Ou8JGBsn;
         "forge-1.12" = _DhIJw6w1;
         "forge-1.12.1" = _DhIJw6w1;
         "forge-1.12.2" = _DhIJw6w1;
         "forge-1.16.5" = _gTa5y5oY;
+        "forge-1.20.1" = _Ou8JGBsn;
         "pkg-1.0.1" = _zlq8ZuQO;
         "pkg-1.2" = _DQtYRMS4;
         "pkg-1.2b" = _wGbE5r1f;
@@ -62,7 +69,8 @@ let
         "pkg-1.3.1" = _9jHH10uP;
         "pkg-1.3.2" = _FV1B1SDO;
         "pkg-1.3.3" = _gTa5y5oY;
-        "default" = _gTa5y5oY;
+        "pkg-1.3.4" = _Ou8JGBsn;
+        "default" = _Ou8JGBsn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "even-more-tnt";

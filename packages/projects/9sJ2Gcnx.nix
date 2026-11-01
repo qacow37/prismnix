@@ -11,23 +11,30 @@ let
             "file" = "ambush-1.1.6.jar";
             "hash" = "sha512-c2xjIKxt5Owmoma2KmG1AAslUqUhNo0ON/IDRs5xXNkMoNMjFYECSE5r1v3FfJ+p98pLA+eeDwsP8MLrg9b7nw==";
         };
+        _hv4rvwF3 = {
+            "id" = "hv4rvwF3";
+            "file" = "ambush-1.1.7.jar";
+            "hash" = "sha512-Y3inSItshHOIHHfqioBYWum8F5c1KtFWDT3+rEo6NnEEc5OakhxIHX9u7jIocGhZJFp5WiDlXI0+hftfMy+PIQ==";
+        };
     in {
         "pYtYWYuR" = _pYtYWYuR;
         "ZMxf96AX" = _ZMxf96AX;
-        "neoforge-1.21.1" = _ZMxf96AX;
-        "neoforge-1.21.2" = _ZMxf96AX;
-        "neoforge-1.21.3" = _ZMxf96AX;
-        "neoforge-1.21.4" = _ZMxf96AX;
-        "neoforge-1.21.5" = _ZMxf96AX;
-        "neoforge-1.21.6" = _ZMxf96AX;
-        "neoforge-1.21.7" = _ZMxf96AX;
-        "neoforge-1.21.8" = _ZMxf96AX;
-        "neoforge-1.21.9" = _ZMxf96AX;
-        "neoforge-1.21.10" = _ZMxf96AX;
-        "neoforge-1.21.11" = _ZMxf96AX;
+        "hv4rvwF3" = _hv4rvwF3;
+        "neoforge-1.21.1" = _hv4rvwF3;
+        "neoforge-1.21.2" = _hv4rvwF3;
+        "neoforge-1.21.3" = _hv4rvwF3;
+        "neoforge-1.21.4" = _hv4rvwF3;
+        "neoforge-1.21.5" = _hv4rvwF3;
+        "neoforge-1.21.6" = _hv4rvwF3;
+        "neoforge-1.21.7" = _hv4rvwF3;
+        "neoforge-1.21.8" = _hv4rvwF3;
+        "neoforge-1.21.9" = _hv4rvwF3;
+        "neoforge-1.21.10" = _hv4rvwF3;
+        "neoforge-1.21.11" = _hv4rvwF3;
         "pkg-1.1.3" = _pYtYWYuR;
         "pkg-1.1.6" = _ZMxf96AX;
-        "default" = _ZMxf96AX;
+        "pkg-1.1.7" = _hv4rvwF3;
+        "default" = _hv4rvwF3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ambush";

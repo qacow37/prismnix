@@ -196,6 +196,16 @@ let
             "file" = "allstacksinfinite-16.0.3.1.jar";
             "hash" = "sha512-uxytNqrKq2mhU6twVaYZKGnhe/14wmC8yeFB1Fnasgb049bvws0peQx4bnlA5t5enUfE0xgA/tlpWbaDjZG2mQ==";
         };
+        _4eDOfwwo = {
+            "id" = "4eDOfwwo";
+            "file" = "allstacksinfinite-16.0.3.2.jar";
+            "hash" = "sha512-PItyoTE2i4aMacbdUlvwN7W66T3+kK//UoEIb0RN0it6kCFxlgVr+EoLkPCV3PtjKbuKNVIbL6NVx6FAj0+fuw==";
+        };
+        _MAPNBPUd = {
+            "id" = "MAPNBPUd";
+            "file" = "allstacksinfinite-16.3.1.2.jar";
+            "hash" = "sha512-pmTy61FLkSCJLBsGS/NjvluQ6INcM863m0EJQBKdXJapXpjJm6EgcXIStreoHlCKfsTH14QEYsOaODHVSqDcVg==";
+        };
     in {
         "icQYNBu4" = _icQYNBu4;
         "PkKu4D5X" = _PkKu4D5X;
@@ -236,12 +246,14 @@ let
         "KDg7Ook3" = _KDg7Ook3;
         "FhhCr2kZ" = _FhhCr2kZ;
         "qyL9KpEx" = _qyL9KpEx;
+        "4eDOfwwo" = _4eDOfwwo;
+        "MAPNBPUd" = _MAPNBPUd;
         "forge-1.20.1" = _aRXNh6gO;
         "forge-26.1" = _fqPcSPce;
         "forge-26.1.1" = _fqPcSPce;
-        "forge-26.1.2" = _KDg7Ook3;
-        "forge-26.2" = _KDg7Ook3;
-        "forge-26.3" = _KDg7Ook3;
+        "forge-26.1.2" = _MAPNBPUd;
+        "forge-26.2" = _MAPNBPUd;
+        "forge-26.3" = _MAPNBPUd;
         "neoforge-26.1" = _aKpPQXFW;
         "neoforge-26.1.1" = _aKpPQXFW;
         "neoforge-26.1.2" = _FhhCr2kZ;
@@ -251,9 +263,9 @@ let
         "neoforge-1.21.11" = _LUPzBvfs;
         "fabric-26.1" = _W9kiclxX;
         "fabric-26.1.1" = _W9kiclxX;
-        "fabric-26.1.2" = _qyL9KpEx;
-        "fabric-26.2" = _qyL9KpEx;
-        "fabric-26.3" = _qyL9KpEx;
+        "fabric-26.1.2" = _4eDOfwwo;
+        "fabric-26.2" = _4eDOfwwo;
+        "fabric-26.3" = _4eDOfwwo;
         "fabric-1.21.11" = _BcJ3sBVP;
         "fabric-1.21.1" = _2DAmIWrm;
         "fabric-1.20.1" = _Cu1biA3j;
@@ -298,7 +310,9 @@ let
         "pkg-16.3.1.1" = _KDg7Ook3;
         "pkg-16.1.2.4" = _FhhCr2kZ;
         "pkg-16.0.3.1" = _qyL9KpEx;
-        "default" = _qyL9KpEx;
+        "pkg-16.0.3.2" = _4eDOfwwo;
+        "pkg-16.3.1.2" = _MAPNBPUd;
+        "default" = _MAPNBPUd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-stacks-infinite";

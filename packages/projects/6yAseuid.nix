@@ -86,6 +86,16 @@ let
             "file" = "Crazy Hunters - beta-3.0.0 Fabric 1.21.1.jar";
             "hash" = "sha512-ohIriW7GNLhEl0rnuOtwFHG6f0+BxboJB41rCSTv20ZkJWno2FS7mFfHhOAnmaDBPU6xPiYnJ/2vMEjCDkQdjg==";
         };
+        _oTQ3KMAe = {
+            "id" = "oTQ3KMAe";
+            "file" = "Crazy Hunters - 3.0.0 Neoforge 1.21.1.jar";
+            "hash" = "sha512-srMOqZicjzGrjhDH+Xn98JjSOpL41tyazWzEYaDMP8H7pFXdgtVMENnq9D8ci6oxCoooLgdyN9XINZo8kqeknA==";
+        };
+        _W4rNp4HM = {
+            "id" = "W4rNp4HM";
+            "file" = "Crazy Hunters - 3.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-PeuxrrpRHtfMEa3Xt0KAl0Q99YqmAk4SRkT04TyK4kQbnjEaqcYxuR5Vz69391bTOQw/2d6154mIM2sWchNgtQ==";
+        };
     in {
         "fBKfwb3z" = _fBKfwb3z;
         "2SFTxfIW" = _2SFTxfIW;
@@ -104,9 +114,11 @@ let
         "cNFsdSSx" = _cNFsdSSx;
         "eaniQwKy" = _eaniQwKy;
         "TDIi34g9" = _TDIi34g9;
+        "oTQ3KMAe" = _oTQ3KMAe;
+        "W4rNp4HM" = _W4rNp4HM;
         "forge-1.20.1" = _cNFsdSSx;
-        "neoforge-1.21.1" = _eaniQwKy;
-        "fabric-1.21.1" = _TDIi34g9;
+        "neoforge-1.21.1" = _oTQ3KMAe;
+        "fabric-1.21.1" = _W4rNp4HM;
         "pkg-1.0.0" = _fBKfwb3z;
         "pkg-1.1.0" = _2SFTxfIW;
         "pkg-1.2.0" = _2oYkcpcs;
@@ -123,7 +135,8 @@ let
         "pkg-1.9" = _P2xbKMlQ;
         "pkg-2.0" = _cNFsdSSx;
         "pkg-3.0.0-beta" = _TDIi34g9;
-        "default" = _TDIi34g9;
+        "pkg-3.0.0" = _W4rNp4HM;
+        "default" = _W4rNp4HM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazy-hunters-manhunt-ai";

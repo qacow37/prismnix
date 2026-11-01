@@ -16,16 +16,23 @@ let
             "file" = "PotatoLite_Shader_Low_Performance_v5_0.zip";
             "hash" = "sha512-KLquPZb1JlFAwhbnoqLwYpVTLY5faCLJn5zF4LB3gM+lFltDX9dw2LHkgwoEzTyKC43J0KSKtI4y9p60TEu/jg==";
         };
+        _OBQ5CNO2 = {
+            "id" = "OBQ5CNO2";
+            "file" = "PotatoLite_Shader_Low_Performance_v5_1.zip";
+            "hash" = "sha512-RK9qYVJ8TWtJyXkybkRD2U5MElajx0QHJhcjLz2NpcDRw2F0dVl1Y1kcCiIlIhSEjLzX4GDfBrz6f9MNPxPR7Q==";
+        };
     in {
         "kDhClktj" = _kDhClktj;
         "JG1CGKmt" = _JG1CGKmt;
         "CwG6pmoA" = _CwG6pmoA;
-        "iris-26.3" = _CwG6pmoA;
-        "optifine-26.3" = _CwG6pmoA;
+        "OBQ5CNO2" = _OBQ5CNO2;
+        "iris-26.3" = _OBQ5CNO2;
+        "optifine-26.3" = _OBQ5CNO2;
         "pkg-1.0" = _kDhClktj;
         "pkg-4.1" = _JG1CGKmt;
         "pkg-5.0" = _CwG6pmoA;
-        "default" = _CwG6pmoA;
+        "pkg-5.1" = _OBQ5CNO2;
+        "default" = _OBQ5CNO2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potato-lite-shader";

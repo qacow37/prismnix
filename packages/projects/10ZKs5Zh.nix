@@ -71,6 +71,11 @@ let
             "file" = "Grove 1.1.3.zip";
             "hash" = "sha512-Bq2HTeON4d7m0mPBii6gvbB9caIxrmUF7RfVo1O3JbKBuOvnCc07uEb7ObtWc488zk2gbE3knZZPnHOb7hRyfg==";
         };
+        _1v0J88aH = {
+            "id" = "1v0J88aH";
+            "file" = "Grove b1.7.3_v2.zip";
+            "hash" = "sha512-A6HKnZZNCPuIlpTMJpAQ7RU3WN+6kNp8YR3jlDJVKgY9XOySbAr9GrFJJE51B0i29pthiENIc9YHbibAEWGxmQ==";
+        };
     in {
         "SbzUsa4m" = _SbzUsa4m;
         "PjCZmNsf" = _PjCZmNsf;
@@ -86,10 +91,11 @@ let
         "1gAIGQom" = _1gAIGQom;
         "bxcWiDz7" = _bxcWiDz7;
         "AClcpRt7" = _AClcpRt7;
+        "1v0J88aH" = _1v0J88aH;
         "minecraft-1.19.4" = _SbzUsa4m;
-        "minecraft-b1.7.3" = _PVknnVL1;
-        "minecraft-b1.7" = _PVknnVL1;
-        "minecraft-b1.7.2" = _PVknnVL1;
+        "minecraft-b1.7.3" = _1v0J88aH;
+        "minecraft-b1.7" = _1v0J88aH;
+        "minecraft-b1.7.2" = _1v0J88aH;
         "minecraft-1.20" = _AClcpRt7;
         "minecraft-1.20.1" = _AClcpRt7;
         "minecraft-1.20.2" = _AClcpRt7;
@@ -159,6 +165,27 @@ let
         "minecraft-26.1.2" = _AClcpRt7;
         "minecraft-26.2" = _AClcpRt7;
         "minecraft-26.3" = _AClcpRt7;
+        "minecraft-1.0" = _1v0J88aH;
+        "minecraft-1.1" = _1v0J88aH;
+        "minecraft-1.2.1" = _1v0J88aH;
+        "minecraft-1.2.2" = _1v0J88aH;
+        "minecraft-1.2.3" = _1v0J88aH;
+        "minecraft-1.2.4" = _1v0J88aH;
+        "minecraft-1.2.5" = _1v0J88aH;
+        "minecraft-1.3" = _1v0J88aH;
+        "minecraft-1.3.1" = _1v0J88aH;
+        "minecraft-1.3.2" = _1v0J88aH;
+        "minecraft-1.4" = _1v0J88aH;
+        "minecraft-1.4.1" = _1v0J88aH;
+        "minecraft-1.4.2" = _1v0J88aH;
+        "minecraft-1.4.3" = _1v0J88aH;
+        "minecraft-1.4.4" = _1v0J88aH;
+        "minecraft-1.4.5" = _1v0J88aH;
+        "minecraft-1.4.6" = _1v0J88aH;
+        "minecraft-1.4.7" = _1v0J88aH;
+        "minecraft-1.5" = _1v0J88aH;
+        "minecraft-1.5.1" = _1v0J88aH;
+        "minecraft-1.5.2" = _1v0J88aH;
         "pkg-1.0.1" = _SbzUsa4m;
         "pkg-0.1.7.3" = _PjCZmNsf;
         "pkg-0.1.7.3.1" = _PVknnVL1;
@@ -173,7 +200,8 @@ let
         "pkg-1.1.1" = _1gAIGQom;
         "pkg-1.1.2" = _bxcWiDz7;
         "pkg-1.1.3" = _AClcpRt7;
-        "default" = _AClcpRt7;
+        "pkg-0.1.7.3_v2" = _1v0J88aH;
+        "default" = _1v0J88aH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soartex-grove";

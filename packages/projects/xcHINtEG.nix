@@ -696,6 +696,16 @@ let
             "file" = "awakened-1.23.1+1.21.11.jar";
             "hash" = "sha512-UWvSXPbiTiX01CaDEKIwTuqxazJR0t3/QIrJC4hvxeL8rfNidA+I+g1JUvijEERktdsu0iJDjwOyX3TP2fYTEQ==";
         };
+        _VYHsqvQ4 = {
+            "id" = "VYHsqvQ4";
+            "file" = "awakened-1.23.2+1.21.11.jar";
+            "hash" = "sha512-agituNmvKnnMu1LWbM0EpBtDMPV+0u0UPvatGNt1+fgpBfnzgtvqkPM7QL6Ia0wrXR4Ay9Qz0cxOTiEouEii1Q==";
+        };
+        _iFofqMQ7 = {
+            "id" = "iFofqMQ7";
+            "file" = "awakened-1.23.2+1.21.1.jar";
+            "hash" = "sha512-muk/gu8VTE4FX7oON9dUXLhqGrBc5gMMXsnOu0jlsiJ5EX4oi/faTaQqKty/Z4nBSjO2bwRql1z8xeslr8aRLw==";
+        };
     in {
         "w05CXVeZ" = _w05CXVeZ;
         "HdiEHc6q" = _HdiEHc6q;
@@ -836,8 +846,10 @@ let
         "99tLUgxv" = _99tLUgxv;
         "Dw7I6MVE" = _Dw7I6MVE;
         "6PGOJeFP" = _6PGOJeFP;
-        "neoforge-1.21.11" = _6PGOJeFP;
-        "neoforge-1.21.1" = _Dw7I6MVE;
+        "VYHsqvQ4" = _VYHsqvQ4;
+        "iFofqMQ7" = _iFofqMQ7;
+        "neoforge-1.21.11" = _VYHsqvQ4;
+        "neoforge-1.21.1" = _iFofqMQ7;
         "pkg-0.2.0" = _w05CXVeZ;
         "pkg-0.3.0" = _HdiEHc6q;
         "pkg-0.4.0" = _IT26pW79;
@@ -910,7 +922,8 @@ let
         "pkg-1.22.1" = _5ASJ4AmM;
         "pkg-1.23.0" = _99tLUgxv;
         "pkg-1.23.1" = _6PGOJeFP;
-        "default" = _6PGOJeFP;
+        "pkg-1.23.2" = _iFofqMQ7;
+        "default" = _iFofqMQ7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-awakening";

@@ -26,19 +26,26 @@ let
             "file" = "witherstormcontrol-1.0.5+1.20.1.jar";
             "hash" = "sha512-yXwmhtFM1baceqzUcEK7l4F3hJXS0aCi24jfRXEf7u8jpKXFlRalM+MHB8PS7ltt+1R+j0uKNrJrF9PXzeCiWw==";
         };
+        _oMzAaXKi = {
+            "id" = "oMzAaXKi";
+            "file" = "witherstormcontrol-1.1.0+1.20.1.jar";
+            "hash" = "sha512-GAgFXZ9+VNNrn8TFgkwd6SGiMpvis9LTRHwGQSoC9y76JYeTptvlGEhRPxxAdvFxGlgpEPo6mMeqyjPPq7xXqA==";
+        };
     in {
         "VmlPEHjy" = _VmlPEHjy;
         "wznxq61V" = _wznxq61V;
         "j3dg6ihc" = _j3dg6ihc;
         "yIcKMQCv" = _yIcKMQCv;
         "JpMZILkN" = _JpMZILkN;
-        "forge-1.20.1" = _JpMZILkN;
+        "oMzAaXKi" = _oMzAaXKi;
+        "forge-1.20.1" = _oMzAaXKi;
         "pkg-1.0.1+1.20.1" = _VmlPEHjy;
         "pkg-1.0.2+1.20.1" = _wznxq61V;
         "pkg-1.0.3+1.20.1" = _j3dg6ihc;
         "pkg-1.0.4+1.20.1" = _yIcKMQCv;
         "pkg-1.0.5+1.20.1" = _JpMZILkN;
-        "default" = _JpMZILkN;
+        "pkg-1.1.0+1.20.1" = _oMzAaXKi;
+        "default" = _oMzAaXKi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wither-storm-control";

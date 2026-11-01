@@ -51,6 +51,11 @@ let
             "file" = "Visual Effects+.zip";
             "hash" = "sha512-25xT8C17+RQFTPH1T4/t0126j5TizHRi7LkUBLE15hNTYIrwOrKEzkraxIx7CpFCw7bWV4pGbnaE5KcFLLtfDg==";
         };
+        _gWRRuDUY = {
+            "id" = "gWRRuDUY";
+            "file" = "Visual Effects+.zip";
+            "hash" = "sha512-mnswSQlZbNpz1hk3pv2DnpqOQjZudH+O1dco15rUVnyFTxkrYuKaom+p8qflc2HvK8UUcN4XWawfC/vHGfBgPw==";
+        };
     in {
         "iYhHlpl6" = _iYhHlpl6;
         "83OdrLck" = _83OdrLck;
@@ -62,17 +67,20 @@ let
         "o3vIu0Sc" = _o3vIu0Sc;
         "MgC4Oa2v" = _MgC4Oa2v;
         "KI0SZLnJ" = _KI0SZLnJ;
+        "gWRRuDUY" = _gWRRuDUY;
         "minecraft-1.21.11" = _o3vIu0Sc;
         "minecraft-1.21.1" = _MgC4Oa2v;
         "minecraft-1.21.5" = _83OdrLck;
         "minecraft-26.2" = _KI0SZLnJ;
+        "minecraft-26.3" = _gWRRuDUY;
         "pkg-1.1.5" = _iYhHlpl6;
         "pkg-1.0.1" = _83OdrLck;
         "pkg-1.2.0" = _YoTwkLcY;
         "pkg-1.3.0" = _hVECtgir;
         "pkg-1.3.1" = _MgC4Oa2v;
         "pkg-1.3.2" = _KI0SZLnJ;
-        "default" = _KI0SZLnJ;
+        "pkg-1.4.0" = _gWRRuDUY;
+        "default" = _gWRRuDUY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-effects-plus";

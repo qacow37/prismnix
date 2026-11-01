@@ -36,6 +36,11 @@ let
             "file" = "silly_oddities-1.20.1-0.1.6.jar";
             "hash" = "sha512-jIyhwahL7iQ98Gqu76PP4Se/u6N+AAbi2qeC0762uWueth8n7OP8sghInIzzYD/+sJO7FyWUXDd5zmAfWH7/uw==";
         };
+        _WV4V9lO6 = {
+            "id" = "WV4V9lO6";
+            "file" = "silly_oddities-1.20.1-0.1.7.jar";
+            "hash" = "sha512-ta43+UNR3f3r0cSlUHr36+K/AiiInhbtlSumYV35zpDYAQOjdOXveSeFhDQ7tSebw97iWhQDIxTfjI0gvtYnbQ==";
+        };
     in {
         "XCDI27rz" = _XCDI27rz;
         "vR85e378" = _vR85e378;
@@ -44,7 +49,8 @@ let
         "VEYiWzOS" = _VEYiWzOS;
         "cU0nNXXx" = _cU0nNXXx;
         "w8gUsDiN" = _w8gUsDiN;
-        "forge-1.20.1" = _w8gUsDiN;
+        "WV4V9lO6" = _WV4V9lO6;
+        "forge-1.20.1" = _WV4V9lO6;
         "pkg-1.20.1-0.1" = _XCDI27rz;
         "pkg-1.20.1-0.1.1" = _vR85e378;
         "pkg-1.20.1-0.1.2" = _YEHxijGv;
@@ -52,7 +58,8 @@ let
         "pkg-1.20.1-0.1.4" = _VEYiWzOS;
         "pkg-1.20.1-0.1.5" = _cU0nNXXx;
         "pkg-1.20.1-0.1.6" = _w8gUsDiN;
-        "default" = _w8gUsDiN;
+        "pkg-1.20.1-0.1.7" = _WV4V9lO6;
+        "default" = _WV4V9lO6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "very-silly-oddities";

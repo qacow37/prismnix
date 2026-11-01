@@ -21,18 +21,25 @@ let
             "file" = "JR_East_E233_Series_V1.3.zip";
             "hash" = "sha512-6viP7vfgLt0lnT38u6XWUFfWni7fP/Md9P1R8XyUXDPxCzmjPS6C8nEfIbV25ZIv+a6wAj0Opc6N5bDC03uQ5g==";
         };
+        _9T9GXrBm = {
+            "id" = "9T9GXrBm";
+            "file" = "JR_East_E233_Series_V1.4.zip";
+            "hash" = "sha512-9MWmchaiZB4Aqh/8rh9kNYvmg8D7acSKbRtOowlI4e1h0IZ4SGHHN7pf0WcqHIFgVlMjwUkcFCR+AadOblPsqQ==";
+        };
     in {
         "Z4YVk0y9" = _Z4YVk0y9;
         "Q12H3vSb" = _Q12H3vSb;
         "aRTAIWqN" = _aRTAIWqN;
         "AEIkE1Gg" = _AEIkE1Gg;
-        "minecraft-1.20" = _AEIkE1Gg;
-        "minecraft-1.20.1" = _AEIkE1Gg;
+        "9T9GXrBm" = _9T9GXrBm;
+        "minecraft-1.20" = _9T9GXrBm;
+        "minecraft-1.20.1" = _9T9GXrBm;
         "pkg-1.0" = _Z4YVk0y9;
         "pkg-1.1" = _Q12H3vSb;
         "pkg-1.2" = _aRTAIWqN;
         "pkg-1.3" = _AEIkE1Gg;
-        "default" = _AEIkE1Gg;
+        "pkg-1.4" = _9T9GXrBm;
+        "default" = _9T9GXrBm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-jr-east-e233-series-jre233";

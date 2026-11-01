@@ -76,6 +76,11 @@ let
             "file" = "MCCinema-2.5.1-all.jar";
             "hash" = "sha512-hBBsiMhQInnOkFpZeIK30RygXSfbiDWLSJ+vXQUiUsP61WBWbfL0atnqO6zWcsrp73xzH7WWPBwfKEjjO4M1Zg==";
         };
+        _VTwKJd9W = {
+            "id" = "VTwKJd9W";
+            "file" = "MCCinema-2.5.2-all.jar";
+            "hash" = "sha512-brb5OqMgjLaXoy8R4+PnbiKKT7j12yc4rxv1Lk2uhdtehIOXhyG4nL56KzZHGE0M1XCagTiFxPyGntR6HiAw8w==";
+        };
     in {
         "BUHtUZyk" = _BUHtUZyk;
         "EX44DrO0" = _EX44DrO0;
@@ -92,6 +97,7 @@ let
         "Ik9kEgA1" = _Ik9kEgA1;
         "LwKMNlIp" = _LwKMNlIp;
         "YRx0qzG8" = _YRx0qzG8;
+        "VTwKJd9W" = _VTwKJd9W;
         "paper-1.21" = _LwdPxhG2;
         "paper-1.21.1" = _LwdPxhG2;
         "paper-1.21.2" = _LwdPxhG2;
@@ -107,8 +113,8 @@ let
         "paper-26.1" = _ZcoAi4WT;
         "paper-26.1.1" = _ZcoAi4WT;
         "paper-26.1.2" = _ZcoAi4WT;
-        "paper-26.2" = _YRx0qzG8;
-        "paper-26.3" = _YRx0qzG8;
+        "paper-26.2" = _VTwKJd9W;
+        "paper-26.3" = _VTwKJd9W;
         "pkg-2.0.0" = _BUHtUZyk;
         "pkg-2.0.1" = _EX44DrO0;
         "pkg-2.1.0" = _rXIpPLQT;
@@ -124,7 +130,8 @@ let
         "pkg-2.4.1" = _Ik9kEgA1;
         "pkg-2.5.0" = _LwKMNlIp;
         "pkg-2.5.1" = _YRx0qzG8;
-        "default" = _YRx0qzG8;
+        "pkg-2.5.2" = _VTwKJd9W;
+        "default" = _VTwKJd9W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mccinema";

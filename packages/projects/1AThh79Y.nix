@@ -136,6 +136,11 @@ let
             "file" = "Ice Cream.zip";
             "hash" = "sha512-btiPtG7kiWenEdyMF9BgIHC1mhn75dWASv2ajpHLa2Q8/Eps/ZjwOnaPtzF6KsdVEsEWJnwhdVQUPjNs+f8AZA==";
         };
+        _Z3KIpgwL = {
+            "id" = "Z3KIpgwL";
+            "file" = "Ice Cream.zip";
+            "hash" = "sha512-VA99wVQkGporLnxbje3bQuOEJjqR2QvlCDXjM5lIXBDieeVrBHfNSASUAOFUmZx2QAuIeg4eK9mC887nFMBAWg==";
+        };
     in {
         "cbRINOsA" = _cbRINOsA;
         "lHo95d0V" = _lHo95d0V;
@@ -164,6 +169,7 @@ let
         "TDu4dB5U" = _TDu4dB5U;
         "XcLP1KZz" = _XcLP1KZz;
         "FDGelRf4" = _FDGelRf4;
+        "Z3KIpgwL" = _Z3KIpgwL;
         "minecraft-1.20.1" = _wzma9fkY;
         "minecraft-1.20.2" = _wzma9fkY;
         "minecraft-1.20.3" = _wzma9fkY;
@@ -196,12 +202,12 @@ let
         "minecraft-1.21.9-pre3" = _9NVayAfH;
         "minecraft-1.21.9-pre4" = _9NVayAfH;
         "minecraft-1.21.9-rc1" = _9NVayAfH;
-        "minecraft-1.21.9" = _FDGelRf4;
-        "minecraft-1.21.10" = _FDGelRf4;
-        "minecraft-1.21.11" = _FDGelRf4;
-        "minecraft-26.1" = _FDGelRf4;
-        "minecraft-26.1.1" = _FDGelRf4;
-        "minecraft-26.1.2" = _FDGelRf4;
+        "minecraft-1.21.9" = _Z3KIpgwL;
+        "minecraft-1.21.10" = _Z3KIpgwL;
+        "minecraft-1.21.11" = _Z3KIpgwL;
+        "minecraft-26.1" = _Z3KIpgwL;
+        "minecraft-26.1.1" = _Z3KIpgwL;
+        "minecraft-26.1.2" = _Z3KIpgwL;
         "minecraft-26.2-snapshot-2" = _9IjS4qE3;
         "minecraft-26.2-snapshot-3" = _9IjS4qE3;
         "minecraft-26.2-snapshot-4" = _9IjS4qE3;
@@ -209,8 +215,14 @@ let
         "minecraft-26.2-snapshot-6" = _9IjS4qE3;
         "minecraft-26.2-snapshot-7" = _9IjS4qE3;
         "minecraft-26.2-snapshot-8" = _9IjS4qE3;
-        "minecraft-26.2" = _FDGelRf4;
-        "minecraft-26.3" = _FDGelRf4;
+        "minecraft-26.2" = _Z3KIpgwL;
+        "minecraft-26.3" = _Z3KIpgwL;
+        "minecraft-26.4-snapshot-1" = _Z3KIpgwL;
+        "minecraft-26.4-snapshot-2" = _Z3KIpgwL;
+        "minecraft-26.4-snapshot-3" = _Z3KIpgwL;
+        "minecraft-26.4-snapshot-4" = _Z3KIpgwL;
+        "minecraft-26.4-snapshot-5" = _Z3KIpgwL;
+        "minecraft-26.4-snapshot-6" = _Z3KIpgwL;
         "pkg-0.1" = _cbRINOsA;
         "pkg-0.2" = _lHo95d0V;
         "pkg-0.3" = _POuHVxW2;
@@ -234,7 +246,8 @@ let
         "pkg-1.0-beta-4" = _TDu4dB5U;
         "pkg-1.0" = _XcLP1KZz;
         "pkg-1.1" = _FDGelRf4;
-        "default" = _FDGelRf4;
+        "pkg-1.2" = _Z3KIpgwL;
+        "default" = _Z3KIpgwL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ice-cream";

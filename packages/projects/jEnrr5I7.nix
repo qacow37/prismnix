@@ -286,6 +286,11 @@ let
             "file" = "SpiderOverhaul-0.1.0-NeoForge-v26.2.jar";
             "hash" = "sha512-QveUy+bAULcE/wuSbBiU+s6IfepmpJKJoPHhyOsNlNUdLMWXPQ1x0uFgxiA4Zn/NbsQYuZj2MqLm3AuL5qaIig==";
         };
+        _RL3JeIyA = {
+            "id" = "RL3JeIyA";
+            "file" = "SpiderOverhaul-0.1.0-NeoForge-v26.3.jar";
+            "hash" = "sha512-NLf7CJ3Rx8NBRsTyTf/HFSfyBBg73d6mxYZd1vhwoUfa5XaZc1SFhiOXM2qy8Dg40VJRe8F5FKLtGcefrbWDxQ==";
+        };
     in {
         "ZyNJnQX4" = _ZyNJnQX4;
         "UPDhG8cd" = _UPDhG8cd;
@@ -344,6 +349,7 @@ let
         "EjlpAlgq" = _EjlpAlgq;
         "e0zKUb23" = _e0zKUb23;
         "tSvkUuHp" = _tSvkUuHp;
+        "RL3JeIyA" = _RL3JeIyA;
         "fabric-1.19.2" = _p6rOMYZ4;
         "fabric-1.20" = _iqODCP5z;
         "fabric-1.20.1" = _iqODCP5z;
@@ -359,6 +365,7 @@ let
         "neoforge-26.1.1" = _e0zKUb23;
         "neoforge-26.1.2" = _e0zKUb23;
         "neoforge-26.2" = _tSvkUuHp;
+        "neoforge-26.3" = _RL3JeIyA;
         "forge-1.20" = _fkCHaiuJ;
         "forge-1.20.1" = _fkCHaiuJ;
         "pkg-0.0.1-Fabric-v1.19.2" = _ZyNJnQX4;
@@ -418,7 +425,8 @@ let
         "pkg-0.1.0-NeoForge-v1.21" = _EjlpAlgq;
         "pkg-0.1.0-NeoForge-v26.1" = _e0zKUb23;
         "pkg-0.1.0-NeoForge-v26.2" = _tSvkUuHp;
-        "default" = _tSvkUuHp;
+        "pkg-0.1.0-NeoForge-v26.3" = _RL3JeIyA;
+        "default" = _RL3JeIyA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spider-overhaul";

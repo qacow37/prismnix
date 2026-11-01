@@ -56,6 +56,11 @@ let
             "file" = "sky_archipelago-1.3.6.jar";
             "hash" = "sha512-Ssqo+ymm65StQODW787sLbVh+jjh2uG/SAO3izoMSwPKxo67yXvtSH48IXBKDUgkPhJJdKxrMJ9pPQIskCEWfA==";
         };
+        _XPc17YJD = {
+            "id" = "XPc17YJD";
+            "file" = "sky_archipelago-1.4.jar";
+            "hash" = "sha512-9boX7uIc1UV3s7MG/3RWDVdCD8B1dXewRO+dUVz8PSY1bgruF8RRCzrUbptHC3JD8gEbLvwQCmAgieMG1IVrTw==";
+        };
     in {
         "5lVemVlC" = _5lVemVlC;
         "TMDMIhbi" = _TMDMIhbi;
@@ -68,7 +73,8 @@ let
         "wmsgGqpS" = _wmsgGqpS;
         "wVcN5lO2" = _wVcN5lO2;
         "RwLz4CJb" = _RwLz4CJb;
-        "neoforge-1.21.1" = _RwLz4CJb;
+        "XPc17YJD" = _XPc17YJD;
+        "neoforge-1.21.1" = _XPc17YJD;
         "pkg-1.0.0" = _5lVemVlC;
         "pkg-1.2.0" = _TMDMIhbi;
         "pkg-1.2.1" = _LV8rvYnw;
@@ -80,7 +86,8 @@ let
         "pkg-1.3.4" = _wmsgGqpS;
         "pkg-1.3.5" = _wVcN5lO2;
         "pkg-1.3.6" = _RwLz4CJb;
-        "default" = _RwLz4CJb;
+        "pkg-1.4" = _XPc17YJD;
+        "default" = _XPc17YJD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sky-archipelago";

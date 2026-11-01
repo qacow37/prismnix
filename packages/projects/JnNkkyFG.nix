@@ -61,6 +61,26 @@ let
             "file" = "paladin_spells-1.21.1-1.1.2.jar";
             "hash" = "sha512-wg/kGHWPzPpmN8yJ/FIXf395oX+lP6d6QepK4GsxJmaFFalp3Zd4buoJAydzLKgdCBPt5QrHolaPppSIdnw0HQ==";
         };
+        _wAnMrBte = {
+            "id" = "wAnMrBte";
+            "file" = "paladin_spells-1.21.1-1.1.3.jar";
+            "hash" = "sha512-nq0AuNuXCXPfxuPQVtCvmxzNn2YJF6Kc0hd95pv9XHmigufjKFZkT9qhkBSkWjzumTV+zVYSqxn16rMxs8orEw==";
+        };
+        _Jhw4BaCq = {
+            "id" = "Jhw4BaCq";
+            "file" = "paladin_spells-1.20.1-1.1.3.jar";
+            "hash" = "sha512-qUE12YoObtRUngU2WNX6XcVZeMwCLGpvwkm00RA02zE7vun7UoiDC1U1zwqBNNHNZWVmp4rDXbUjkmu6m1qAUQ==";
+        };
+        _QnpXkWUJ = {
+            "id" = "QnpXkWUJ";
+            "file" = "paladin_spells-1.21.1-1.1.4.jar";
+            "hash" = "sha512-P0/5DCEPXNsZuU8q+A4BtjxbwQ7TUAZA6NRciwHFAgDmu0G4KVA37Y1d97Qdi8NiksBAzxdMVOcxEdIMpuKOIw==";
+        };
+        _NrkAw2bn = {
+            "id" = "NrkAw2bn";
+            "file" = "paladin_spells-1.20.1-1.1.4.jar";
+            "hash" = "sha512-Nxm9mRertzRiSQCvsAhCLTxN0bh2t26fooo3AXC1/g7Q8DAEt2XIXzxs6ZRbRzgJoL1QOWDho2UROJyjH6vBUw==";
+        };
     in {
         "SuQvfjoY" = _SuQvfjoY;
         "SNBIYEK7" = _SNBIYEK7;
@@ -74,14 +94,18 @@ let
         "ivCoB0PK" = _ivCoB0PK;
         "F3EOzJt5" = _F3EOzJt5;
         "x1Inquh3" = _x1Inquh3;
-        "forge-1.20" = _F3EOzJt5;
-        "forge-1.20.1" = _F3EOzJt5;
-        "forge-1.20.2" = _F3EOzJt5;
-        "forge-1.20.3" = _F3EOzJt5;
-        "forge-1.20.4" = _F3EOzJt5;
-        "forge-1.20.5" = _F3EOzJt5;
-        "forge-1.20.6" = _F3EOzJt5;
-        "neoforge-1.21.1" = _x1Inquh3;
+        "wAnMrBte" = _wAnMrBte;
+        "Jhw4BaCq" = _Jhw4BaCq;
+        "QnpXkWUJ" = _QnpXkWUJ;
+        "NrkAw2bn" = _NrkAw2bn;
+        "forge-1.20" = _NrkAw2bn;
+        "forge-1.20.1" = _NrkAw2bn;
+        "forge-1.20.2" = _NrkAw2bn;
+        "forge-1.20.3" = _NrkAw2bn;
+        "forge-1.20.4" = _NrkAw2bn;
+        "forge-1.20.5" = _NrkAw2bn;
+        "forge-1.20.6" = _NrkAw2bn;
+        "neoforge-1.21.1" = _QnpXkWUJ;
         "pkg-1.20.1-0.34" = _SuQvfjoY;
         "pkg-1.20.1-0.342" = _SNBIYEK7;
         "pkg-1.20.1-0.4" = _2iBEhmzH;
@@ -94,7 +118,11 @@ let
         "pkg-1.20.1-1.1.1" = _ivCoB0PK;
         "pkg-1.20.1-1.1.2" = _F3EOzJt5;
         "pkg-1.21.1-1.1.2" = _x1Inquh3;
-        "default" = _x1Inquh3;
+        "pkg-1.21.1-1.1.3" = _wAnMrBte;
+        "pkg-1.20.1-1.1.3" = _Jhw4BaCq;
+        "pkg-1.21.1-1.1.4" = _QnpXkWUJ;
+        "pkg-1.20.1-1.1.4" = _NrkAw2bn;
+        "default" = _NrkAw2bn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paladin-spells-irons-spells-addon";

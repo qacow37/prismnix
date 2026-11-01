@@ -61,6 +61,16 @@ let
             "file" = "sirencraft-1.4.3-forge-1.20.1.jar";
             "hash" = "sha512-Q4iHa5x2PWIXRSK8SrHXvkSrvXFLck5lg1szVpY5Ji0x4c8POL3zYO/Ex0jXG2p5KCVJNMCO1edLFibL2OdGMw==";
         };
+        _Hap071c6 = {
+            "id" = "Hap071c6";
+            "file" = "sirencraft-1.4.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-p/aKKw16IanEq3FYK1OE/RzdIRrUKobPpVBrF/9OX4EzaoE/nHaDiEDcHgw20qbA0YBELL56cuYa3ZymI3EnFQ==";
+        };
+        _gAJgaXJl = {
+            "id" = "gAJgaXJl";
+            "file" = "sirencraft-1.4.4-forge-1.20.1.jar";
+            "hash" = "sha512-JmOWqI0rmmawRMUFItH6l9XmwdQclS0H5ibTuiVgxTwqKWIe+B4oTuYJaqyI3oi4eivHbX85b3nVuY+TOefg/g==";
+        };
     in {
         "RorqnG4y" = _RorqnG4y;
         "lzrhkNdB" = _lzrhkNdB;
@@ -74,8 +84,10 @@ let
         "nSWo9LvD" = _nSWo9LvD;
         "UoVScufU" = _UoVScufU;
         "aOLp3Bz5" = _aOLp3Bz5;
-        "neoforge-1.21.1" = _UoVScufU;
-        "forge-1.20.1" = _aOLp3Bz5;
+        "Hap071c6" = _Hap071c6;
+        "gAJgaXJl" = _gAJgaXJl;
+        "neoforge-1.21.1" = _Hap071c6;
+        "forge-1.20.1" = _gAJgaXJl;
         "pkg-1.2.1" = _RorqnG4y;
         "pkg-1.3.0" = _lzrhkNdB;
         "pkg-1.3.1" = _BMHnjSa2;
@@ -84,7 +96,8 @@ let
         "pkg-1.4.1" = _5L3JjJlb;
         "pkg-1.4.2" = _nSWo9LvD;
         "pkg-1.4.3" = _aOLp3Bz5;
-        "default" = _aOLp3Bz5;
+        "pkg-1.4.4" = _gAJgaXJl;
+        "default" = _gAJgaXJl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sirencraft";

@@ -156,6 +156,26 @@ let
             "file" = "SimpleLogin-Fabric-1.19.2-1.16.7.jar";
             "hash" = "sha512-4dwltSE0Q4LPlJ8tLT+zU3wZgZan/zH1pmcofu3XVQRwisV2Sz3g3vs93de7ZmRJhFl9BP12TPGYYTqEOHKMcw==";
         };
+        _zTRp2dAT = {
+            "id" = "zTRp2dAT";
+            "file" = "SimpleLogin-Fabric-1.20.1-1.16.7.jar";
+            "hash" = "sha512-RgqoBsU0GeIafCffbmet4LRmkEM5HHVZWQIfwtu5awpEhPf6GQB9/pGh6+JrlnaQh6qtIARqyGCEnaD1mdyfCg==";
+        };
+        _dFqrOQgL = {
+            "id" = "dFqrOQgL";
+            "file" = "SimpleLogin-Fabric-1.21.1-1.16.7.jar";
+            "hash" = "sha512-OyTPJ5oU+28XVwwIyOWg9zKbhUQaSThjsMWx+cUDWqu5+5nIkwCWw+BiVm3/YRqA6OS225bSzzpR7QgF0LEavg==";
+        };
+        _nNYw24L7 = {
+            "id" = "nNYw24L7";
+            "file" = "SimpleLogin-Fabric-26.2-1.16.7.jar";
+            "hash" = "sha512-B4JX6h6jWgCwQ5GLdl/axI9J0TQ4/z0Yz2ATDTk5eRcclcVGZIAmJCZ70WWc8AudYet19BDQLe7TDFPNPYB78A==";
+        };
+        _EqZtcyxR = {
+            "id" = "EqZtcyxR";
+            "file" = "SimpleLogin-1.16.7.jar";
+            "hash" = "sha512-Q1xH/qctu6FD8p/FpwV3fJpRIWgPA/tW79Sut8sQiFLAyox2COG2b8afBaZTT1Fx2050uHn6i3ETx2RSnp19IQ==";
+        };
     in {
         "s7M3epXk" = _s7M3epXk;
         "c6kTLbHk" = _c6kTLbHk;
@@ -188,6 +208,10 @@ let
         "k7Q09v7a" = _k7Q09v7a;
         "nbQc3MKE" = _nbQc3MKE;
         "t55CjeAg" = _t55CjeAg;
+        "zTRp2dAT" = _zTRp2dAT;
+        "dFqrOQgL" = _dFqrOQgL;
+        "nNYw24L7" = _nNYw24L7;
+        "EqZtcyxR" = _EqZtcyxR;
         "bukkit-1.17" = _DUS5DLxv;
         "bukkit-1.17.1" = _DUS5DLxv;
         "bukkit-1.18" = _DUS5DLxv;
@@ -221,6 +245,7 @@ let
         "bukkit-26.1.1" = _3aJBBN8r;
         "bukkit-26.1.2" = _3aJBBN8r;
         "bukkit-26.2" = _DoOZcGGi;
+        "bukkit-26.3" = _EqZtcyxR;
         "paper-1.17" = _DUS5DLxv;
         "paper-1.17.1" = _DUS5DLxv;
         "paper-1.18" = _DUS5DLxv;
@@ -254,6 +279,7 @@ let
         "paper-26.1.1" = _3aJBBN8r;
         "paper-26.1.2" = _3aJBBN8r;
         "paper-26.2" = _DoOZcGGi;
+        "paper-26.3" = _EqZtcyxR;
         "purpur-1.17" = _DUS5DLxv;
         "purpur-1.17.1" = _DUS5DLxv;
         "purpur-1.18" = _DUS5DLxv;
@@ -287,6 +313,7 @@ let
         "purpur-26.1.1" = _3aJBBN8r;
         "purpur-26.1.2" = _3aJBBN8r;
         "purpur-26.2" = _DoOZcGGi;
+        "purpur-26.3" = _EqZtcyxR;
         "spigot-1.17" = _DUS5DLxv;
         "spigot-1.17.1" = _DUS5DLxv;
         "spigot-1.18" = _DUS5DLxv;
@@ -320,11 +347,15 @@ let
         "spigot-26.1.1" = _3aJBBN8r;
         "spigot-26.1.2" = _3aJBBN8r;
         "spigot-26.2" = _DoOZcGGi;
+        "spigot-26.3" = _EqZtcyxR;
         "fabric-1.21.8" = _QxHWAr06;
         "fabric-1.21.11" = _kKlXDvGX;
         "fabric-1.17.1" = _k7Q09v7a;
         "fabric-1.18.2" = _nbQc3MKE;
         "fabric-1.19.2" = _t55CjeAg;
+        "fabric-1.20.1" = _zTRp2dAT;
+        "fabric-1.21.1" = _dFqrOQgL;
+        "fabric-26.2" = _nNYw24L7;
         "folia-1.19" = _x1GGLvHJ;
         "folia-1.19.1" = _x1GGLvHJ;
         "folia-1.19.2" = _x1GGLvHJ;
@@ -369,8 +400,8 @@ let
         "pkg-1.16.4" = _j5YLH5fz;
         "pkg-1.16.5" = _Q1bEKURZ;
         "pkg-1.16.6" = _5fcBY2K0;
-        "pkg-1.16.7" = _t55CjeAg;
-        "default" = _t55CjeAg;
+        "pkg-1.16.7" = _EqZtcyxR;
+        "default" = _EqZtcyxR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-login";

@@ -76,6 +76,26 @@ let
             "file" = "thematic-fabric-1.20.1-1.6.8.jar";
             "hash" = "sha512-f3O8d4KouzCWUh7JaXeYBU03o5T+P1+CgKtIQuEBDl6M0d9Ct60zYDa/MD8alK/cgxhQvklzdhHjChhl9p5Rag==";
         };
+        _49H4WlS7 = {
+            "id" = "49H4WlS7";
+            "file" = "thematic-fabric-1.20.1-1.7.0.jar";
+            "hash" = "sha512-rKaQCWEN/qpDV4EVXbIK8hHMjXURrvsk7hfHT1M2kL71I/W6svuV5zT115TOgb7L5ceDnN9YxHMM3IArN8lFhA==";
+        };
+        _Hu4vNxkQ = {
+            "id" = "Hu4vNxkQ";
+            "file" = "thematic-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-ah0i/SUFdKnkQmT6ByWeUf2CedBDyS7PF/lpC+XOhoeTghVu9YtPxUVZqTUTRTgogZWbrG4HMej408nhIfSQ+g==";
+        };
+        _o45QIHjE = {
+            "id" = "o45QIHjE";
+            "file" = "thematic-fabric-1.21.1-1.7.0.jar";
+            "hash" = "sha512-NtJAAU4Y1JOsXPFZjnWQphSU0mjIuJTmdfhMqFYCqslWM1LNK5YUNDWFxTmnCndq1vtkiySd3ET/RZan0m+1Ew==";
+        };
+        _d0UxK0GR = {
+            "id" = "d0UxK0GR";
+            "file" = "thematic-neoforge-1.21.1-1.7.0.jar";
+            "hash" = "sha512-RrYD0SMrHJa1QH9ycAgd7/2YWW6UiJNosWPNN86RjE6p3byVkkuofiWvgXxcAISTj+aXx0USXRQ7gpVlkDoK/A==";
+        };
     in {
         "5EfO5Vv6" = _5EfO5Vv6;
         "o859vzlR" = _o859vzlR;
@@ -92,8 +112,18 @@ let
         "qpGEUmLO" = _qpGEUmLO;
         "Y9GvWHok" = _Y9GvWHok;
         "fLaJsnBq" = _fLaJsnBq;
-        "fabric-1.20.1" = _fLaJsnBq;
-        "fabric-1.20" = _fLaJsnBq;
+        "49H4WlS7" = _49H4WlS7;
+        "Hu4vNxkQ" = _Hu4vNxkQ;
+        "o45QIHjE" = _o45QIHjE;
+        "d0UxK0GR" = _d0UxK0GR;
+        "fabric-1.20.1" = _49H4WlS7;
+        "fabric-1.20" = _49H4WlS7;
+        "fabric-1.21" = _o45QIHjE;
+        "fabric-1.21.1" = _o45QIHjE;
+        "forge-1.20" = _Hu4vNxkQ;
+        "forge-1.20.1" = _Hu4vNxkQ;
+        "neoforge-1.21" = _d0UxK0GR;
+        "neoforge-1.21.1" = _d0UxK0GR;
         "pkg-1.5.4" = _5EfO5Vv6;
         "pkg-1.5.5" = _o859vzlR;
         "pkg-1.5.7" = _gF2AlGoM;
@@ -109,7 +139,11 @@ let
         "pkg-1.6.6" = _qpGEUmLO;
         "pkg-1.6.7" = _Y9GvWHok;
         "pkg-1.6.8" = _fLaJsnBq;
-        "default" = _fLaJsnBq;
+        "pkg-1.7.0+1.20.1-fabric" = _49H4WlS7;
+        "pkg-1.7.0+1.20.1-forge" = _Hu4vNxkQ;
+        "pkg-1.7.0+1.21.1-fabric" = _o45QIHjE;
+        "pkg-1.7.0+1.21.1-neoforge" = _d0UxK0GR;
+        "default" = _d0UxK0GR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thematic-api";

@@ -251,6 +251,16 @@ let
             "file" = "simplecoords-2.4.1+mc1.21.jar";
             "hash" = "sha512-KFETTdLNpvQnwGF/Bav0sNaNJl1z85fffXC6KbricSDVTBRJjDCP7f4J2nBItgebS0rs8hedi8jW7Yqqkfgr5Q==";
         };
+        _HP9pOcfi = {
+            "id" = "HP9pOcfi";
+            "file" = "simplecoords-2.5.0+mc1.21.jar";
+            "hash" = "sha512-zJ1XXZBznTsEReq0FuyCETTGArcolv0c/6CorP32wixgkVWRZo1DInx6uzDbdV21YkgA2o4IusLkoeQHylRmhA==";
+        };
+        _rxpnVR6Q = {
+            "id" = "rxpnVR6Q";
+            "file" = "simplecoords-2.5.0+mc1.21.4.jar";
+            "hash" = "sha512-9DS0hHFGViSpnZ71wW97XE0mavvM6CEhzu50rN4DHQqEcWpTXOPBk3Fi7OJSM3EkUPHD/XoqpEEdyg8rh1CL7Q==";
+        };
     in {
         "EfNvBaAd" = _EfNvBaAd;
         "xI7EprC9" = _xI7EprC9;
@@ -302,7 +312,9 @@ let
         "4lGS96k8" = _4lGS96k8;
         "vH631HOP" = _vH631HOP;
         "JOj5PeDL" = _JOj5PeDL;
-        "fabric-1.21.1" = _JOj5PeDL;
+        "HP9pOcfi" = _HP9pOcfi;
+        "rxpnVR6Q" = _rxpnVR6Q;
+        "fabric-1.21.1" = _HP9pOcfi;
         "fabric-1.21.2" = _BecBdE8T;
         "fabric-1.21.3" = _BecBdE8T;
         "fabric-1.20.5" = _4oUx8vI5;
@@ -311,11 +323,11 @@ let
         "fabric-1.20.2" = _U4qkNyKP;
         "fabric-1.20.3" = _f67BS3TY;
         "fabric-1.20.4" = _f67BS3TY;
-        "fabric-1.21" = _JOj5PeDL;
+        "fabric-1.21" = _HP9pOcfi;
         "fabric-1.20" = _4lGS96k8;
         "fabric-1.19.4" = _r5y4QnZt;
         "fabric-1.19.2" = _8ajWl6zZ;
-        "fabric-1.21.4" = _vH631HOP;
+        "fabric-1.21.4" = _rxpnVR6Q;
         "fabric-1.21.5" = _9YjZOQAc;
         "fabric-1.21.6" = _6TsrBI1W;
         "fabric-1.21.7" = _6TsrBI1W;
@@ -375,7 +387,9 @@ let
         "pkg-2.4.1+mc1.20" = _4lGS96k8;
         "pkg-2.4.1+mc1.21.4" = _vH631HOP;
         "pkg-2.4.1+mc1.21" = _JOj5PeDL;
-        "default" = _JOj5PeDL;
+        "pkg-2.5.0+mc1.21" = _HP9pOcfi;
+        "pkg-2.5.0+mc1.21.4" = _rxpnVR6Q;
+        "default" = _rxpnVR6Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplecoords";

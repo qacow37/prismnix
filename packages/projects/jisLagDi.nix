@@ -386,6 +386,56 @@ let
             "file" = "stasis-1.3.5-1.21.11.jar";
             "hash" = "sha512-iLlrTWBCbo0iAMJl64dqlBvBITcgki27yjsQTlhpfsdS0iea76onsG4qsCp2iGW2xoDAjC8JIUBBgnzn+NtmwA==";
         };
+        _EjNwMTzp = {
+            "id" = "EjNwMTzp";
+            "file" = "stasis-1.3.6-26.2.jar";
+            "hash" = "sha512-L6g5GOTlv/qWjgCyyqAp0trM8F1JDvP+WB5we8h0qKOP+1OaoWzVZrqX7HdqLCuOFAjuPhWLFLcpz/xyTgY15Q==";
+        };
+        _wrCXAuSw = {
+            "id" = "wrCXAuSw";
+            "file" = "stasis-1.3.6-26.3.jar";
+            "hash" = "sha512-dWhz2DFZXhVIWxU8mZf+W3AE15zAxLrDSdar/WpY1h3roHfqZgQONQsJGFPV+FivmBS65vQO0kvPiZYUTKLsJA==";
+        };
+        _U9Yk1TJ8 = {
+            "id" = "U9Yk1TJ8";
+            "file" = "stasis-1.3.6-1.20.1.jar";
+            "hash" = "sha512-UZPJpeqZ8xSLUZ9wsPqjImoGzwhyOELimhWOsK1N5eZmTJ2zL8v849oU7WMqQvUULKpCfhIY+/yBkdQYuapbrQ==";
+        };
+        _GQhdK6im = {
+            "id" = "GQhdK6im";
+            "file" = "stasis-1.3.6-1.21.11.jar";
+            "hash" = "sha512-5irTg6EKhBuylzia/lNyYWxk3qCEL6mpkqD8OeRvdJO0JRuYYEdVAR1gVuQ5Cpxn2pSUArt8J5Wvif98Pc3GGg==";
+        };
+        _sp7XDAIV = {
+            "id" = "sp7XDAIV";
+            "file" = "stasis-1.3.6-1.21.1.jar";
+            "hash" = "sha512-KscaDb2YdldrTrNjRMPZLirVQHn1ZE1Yye4o+lmuCLY9arZHEDmwe9dvVLZjF87W6NmmgAwkI6Z1o8XM+2VYWQ==";
+        };
+        _MvPUGEcy = {
+            "id" = "MvPUGEcy";
+            "file" = "stasis-1.3.7-26.2.jar";
+            "hash" = "sha512-ss+QkS8xYC3RoISkloab62pfzTOhBsgqAsV1FfHSsX1X4nmhMaEGtds/kUBZ8ONJ5ElpxaECQhwlGhsARCCmlw==";
+        };
+        _kQ8lGCug = {
+            "id" = "kQ8lGCug";
+            "file" = "stasis-1.3.7-26.3.jar";
+            "hash" = "sha512-c1SBiuDiZdPVjU7usHbmg0SwgdeOy/N3pT2mdmGFw16apDuYW825Za/gmW8ezskXjhpfoJtUY1LEgTNpM43cng==";
+        };
+        _US6X5Tqk = {
+            "id" = "US6X5Tqk";
+            "file" = "stasis-1.3.7-1.20.1.jar";
+            "hash" = "sha512-elrVYrG3YlnVsowNPLTcI7VOhuUyXz6ap4w53Q/6QbmCyBn2cFXxJ8UeukPivgkE67R//vjQZy2Q4kAmWqfetA==";
+        };
+        _Z9lyJsJM = {
+            "id" = "Z9lyJsJM";
+            "file" = "stasis-1.3.7-1.21.1.jar";
+            "hash" = "sha512-MjZeYLFxRM4nDrU1w5suRk5h0idTyWS+lh7H8zm8I8FSo+d93HIRqHWooJit5RjMNg+8dbx7tA5QupwDzjf+aQ==";
+        };
+        _GDzU7K4L = {
+            "id" = "GDzU7K4L";
+            "file" = "stasis-1.3.7-1.21.11.jar";
+            "hash" = "sha512-pvqVe4/OWQ4KyGsoPXY06K+/zbOv3dlrm8UfAaduQlAC65/ZUZeO1JITPAlO40hbASx8VpB0BnaAouNAV20aLQ==";
+        };
     in {
         "vMQtDBZx" = _vMQtDBZx;
         "ZbrRz25T" = _ZbrRz25T;
@@ -464,11 +514,21 @@ let
         "9yABmhaR" = _9yABmhaR;
         "ABStCjgV" = _ABStCjgV;
         "xlElHR7q" = _xlElHR7q;
-        "fabric-1.21.1" = _ABStCjgV;
-        "fabric-1.20.1" = _jhcmEeiL;
-        "fabric-1.21.11" = _xlElHR7q;
-        "fabric-26.2" = _9yABmhaR;
-        "fabric-26.3" = _aKngbxFp;
+        "EjNwMTzp" = _EjNwMTzp;
+        "wrCXAuSw" = _wrCXAuSw;
+        "U9Yk1TJ8" = _U9Yk1TJ8;
+        "GQhdK6im" = _GQhdK6im;
+        "sp7XDAIV" = _sp7XDAIV;
+        "MvPUGEcy" = _MvPUGEcy;
+        "kQ8lGCug" = _kQ8lGCug;
+        "US6X5Tqk" = _US6X5Tqk;
+        "Z9lyJsJM" = _Z9lyJsJM;
+        "GDzU7K4L" = _GDzU7K4L;
+        "fabric-1.21.1" = _Z9lyJsJM;
+        "fabric-1.20.1" = _US6X5Tqk;
+        "fabric-1.21.11" = _GDzU7K4L;
+        "fabric-26.2" = _MvPUGEcy;
+        "fabric-26.3" = _kQ8lGCug;
         "pkg-1.0.0" = _vMQtDBZx;
         "pkg-1.0.1" = _ZbrRz25T;
         "pkg-1.0.2" = _MHhCEOFW;
@@ -492,7 +552,9 @@ let
         "pkg-1.3.3" = _Ob0oateY;
         "pkg-1.3.4" = _KObtc5gT;
         "pkg-1.3.5" = _xlElHR7q;
-        "default" = _xlElHR7q;
+        "pkg-1.3.6" = _sp7XDAIV;
+        "pkg-1.3.7" = _GDzU7K4L;
+        "default" = _GDzU7K4L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stasis-paradox";

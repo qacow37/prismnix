@@ -51,6 +51,36 @@ let
             "file" = "glowing_trims-1.0.26.3.x.jar";
             "hash" = "sha512-0Xpia77DshBtgDU0OwMZCDCNyOdK76RT1H5TNaj896S4dnFqidlHOPzQ7FfOyRxyMq5NNZr0bQNzKTdfoOUSMQ==";
         };
+        _Vg7gL2OC = {
+            "id" = "Vg7gL2OC";
+            "file" = "glowing_trims-1.1.26.3.x.jar";
+            "hash" = "sha512-XUP/MoQFADI1nZbMinC4xKIJebLOIqiXirTu2kDOnkgVffXkPfq2gIsxz2GSUxbty7LIw83hsiRmBEaa0bFpWA==";
+        };
+        _xxVGEYQi = {
+            "id" = "xxVGEYQi";
+            "file" = "glowing_trims-1.1.26.2.x.jar";
+            "hash" = "sha512-ChAmKBP03dkqeyx8AHwkqWP+2gBI4VUgrlSFN8RcLe2+UmNvF31fF4ni9vfn4wzHoSn0KDOobJuZISJp/zAZNA==";
+        };
+        _LnuitC8n = {
+            "id" = "LnuitC8n";
+            "file" = "glowing_trims-1.1.26.1.x.jar";
+            "hash" = "sha512-eiebmgSN85x9jO7hpU6br9FS4bZDFxYAxSZUAPr1SGp7srbyPoUF0IIGaYSXFgZq+vQSw471zYawR3uYVTKUCg==";
+        };
+        _MDf8OZn9 = {
+            "id" = "MDf8OZn9";
+            "file" = "glowing_trims-1.1.9-11.jar";
+            "hash" = "sha512-WVxCKX8XpOhCJsedIIJziK84NoyR74rLDI/SlyT/ah1ZjsTY+WMTpeHDoIk1CD5AkmXc648nepWWP/TDLN2RaA==";
+        };
+        _tPFBCTdc = {
+            "id" = "tPFBCTdc";
+            "file" = "glowing_trims-1.1.6-8.jar";
+            "hash" = "sha512-Is5xW1iHELM8NId9a8OcljrryctHy+pRAEx6WerEw0xbq+Zfx8ElxUwuGh3ucfZ372J4Qd7iP98JKzEypJb1Qg==";
+        };
+        _7ubXHbhg = {
+            "id" = "7ubXHbhg";
+            "file" = "glowing_trims-1.1.1.jar";
+            "hash" = "sha512-BYt4/4RNqreaQJiQ3hBFueVzDtulFE+VGrvSma7KhX3Fgk1UnH4riCioAMsf3kf9tpWFujDFRAfH4NnRqEnZww==";
+        };
     in {
         "I6zrjzFg" = _I6zrjzFg;
         "gf1xNIN2" = _gf1xNIN2;
@@ -62,18 +92,24 @@ let
         "dtXZiKZx" = _dtXZiKZx;
         "K7puuWAQ" = _K7puuWAQ;
         "TSDuWsfM" = _TSDuWsfM;
-        "fabric-1.21.6" = _9OT96BQl;
-        "fabric-1.21.7" = _9OT96BQl;
-        "fabric-1.21.8" = _9OT96BQl;
-        "fabric-1.21.1" = _deTDITCP;
-        "fabric-1.21.9" = _SXemHQ5d;
-        "fabric-1.21.10" = _SXemHQ5d;
-        "fabric-1.21.11" = _SXemHQ5d;
-        "fabric-26.1" = _dtXZiKZx;
-        "fabric-26.1.1" = _dtXZiKZx;
-        "fabric-26.1.2" = _dtXZiKZx;
-        "fabric-26.2" = _K7puuWAQ;
-        "fabric-26.3" = _TSDuWsfM;
+        "Vg7gL2OC" = _Vg7gL2OC;
+        "xxVGEYQi" = _xxVGEYQi;
+        "LnuitC8n" = _LnuitC8n;
+        "MDf8OZn9" = _MDf8OZn9;
+        "tPFBCTdc" = _tPFBCTdc;
+        "7ubXHbhg" = _7ubXHbhg;
+        "fabric-1.21.6" = _tPFBCTdc;
+        "fabric-1.21.7" = _tPFBCTdc;
+        "fabric-1.21.8" = _tPFBCTdc;
+        "fabric-1.21.1" = _7ubXHbhg;
+        "fabric-1.21.9" = _MDf8OZn9;
+        "fabric-1.21.10" = _MDf8OZn9;
+        "fabric-1.21.11" = _MDf8OZn9;
+        "fabric-26.1" = _LnuitC8n;
+        "fabric-26.1.1" = _LnuitC8n;
+        "fabric-26.1.2" = _LnuitC8n;
+        "fabric-26.2" = _xxVGEYQi;
+        "fabric-26.3" = _Vg7gL2OC;
         "pkg-1.0" = _4TSupoXM;
         "pkg-1.1" = _KK8bAdUR;
         "pkg-fabric-1.0.1" = _deTDITCP;
@@ -82,7 +118,13 @@ let
         "pkg-fabric-1.0.26.1.x" = _dtXZiKZx;
         "pkg-fabric-1.0.26.2.x" = _K7puuWAQ;
         "pkg-fabric-1.0.26.3.x" = _TSDuWsfM;
-        "default" = _TSDuWsfM;
+        "pkg-fabric-1.1.26.3.x" = _Vg7gL2OC;
+        "pkg-fabric-1.1.26.2.x" = _xxVGEYQi;
+        "pkg-fabric-1.1.26.1.x" = _LnuitC8n;
+        "pkg-fabric-1.1.9-11" = _MDf8OZn9;
+        "pkg-fabric-1.1.6-8" = _tPFBCTdc;
+        "pkg-fabric-1.1.1" = _7ubXHbhg;
+        "default" = _7ubXHbhg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-trims-mod";

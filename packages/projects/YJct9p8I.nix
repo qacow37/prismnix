@@ -311,6 +311,56 @@ let
             "file" = "mtrfranceaddon-forge-2.0.0+1.20.4.jar";
             "hash" = "sha512-hVvqZCLtxEOriLZRLHrquM/4MqWmb+9lTvgW3AFjxC6p+HD1eLGReQL3+LQDvzL9Tr5ovCVU027W7C8dMdHIxg==";
         };
+        _z77QKB2r = {
+            "id" = "z77QKB2r";
+            "file" = "mtrfranceaddon-fabric-2.0.1+1.20.4.jar";
+            "hash" = "sha512-KxIQlp5+nMqea0UhKVHPiZAqq3lSwDDMOn62TbYWh1gJ4k++AMiO0K4bFiBt31oHb1wdCzSFRVWxnM+yFeFKjg==";
+        };
+        _gGyIQqLI = {
+            "id" = "gGyIQqLI";
+            "file" = "mtrfranceaddon-fabric-2.0.1+1.18.2.jar";
+            "hash" = "sha512-LtamDuj8AdGtG2bzPzk13OmkizOKQL1Rnkg9sJo8cp5QZqx7mAthmxo8XkbWt4+ALBk9in1XxeWXE4iSqlp0FQ==";
+        };
+        _IzGC30qU = {
+            "id" = "IzGC30qU";
+            "file" = "mtrfranceaddon-fabric-2.0.1+1.19.2.jar";
+            "hash" = "sha512-ZtviJ9RrFx8oRKWLzLUCawj9m2zEuYd+eqbOyttXAbH74sr4awaMH0L6acXKcXEv7nX35s8epl+qtJu9PrTgiQ==";
+        };
+        _Yl1YrnKL = {
+            "id" = "Yl1YrnKL";
+            "file" = "mtrfranceaddon-fabric-2.0.1+1.20.1.jar";
+            "hash" = "sha512-aboprWAWSGwu6x2ZTQEp4vMFdQ/X5+/5ou3KwT/I1mUIxs6eToteT45b6aJLl0rFpY6pCBXBZJKewXWbxbc99A==";
+        };
+        _UgGGmoB0 = {
+            "id" = "UgGGmoB0";
+            "file" = "mtrfranceaddon-fabric-2.0.1+1.19.4.jar";
+            "hash" = "sha512-dj6vM2SkCJCMXEB6ZF98z9bWMFKgGALc35ve6cjXFQlPwuwF+1/oi91YFQhPHhmdIjIcJCGLHpuXKb8qvrPFIg==";
+        };
+        _Hq9YQw0f = {
+            "id" = "Hq9YQw0f";
+            "file" = "mtrfranceaddon-forge-2.0.1+1.19.4.jar";
+            "hash" = "sha512-3kfBWABi2SlRwZ6yhOcYWXlwQqGjmoPkMAheaEOko3CL0PD1UcCcAUAeOlxRgtSMiy1x379cR1Gk9nTRjtPJRw==";
+        };
+        _XG3ziXAg = {
+            "id" = "XG3ziXAg";
+            "file" = "mtrfranceaddon-forge-2.0.1+1.18.2.jar";
+            "hash" = "sha512-V6awtP3WraaFpVg27hrSBWa6dziNBRpctlm5cXi3w9Cb9J7hnqiT4Sd+7Y+mcaSBbCbOlnYyOhH5HMp82EA/eA==";
+        };
+        _rL8CALtl = {
+            "id" = "rL8CALtl";
+            "file" = "mtrfranceaddon-forge-2.0.1+1.20.4.jar";
+            "hash" = "sha512-a/D/uPRRk2JSIqvIvhmDIo3QR8gnhNZGY1JC2DsOgl0lT35NlyVmIVPWvkCVcTIiTyK76M+KwBgUrZPgJMPb1A==";
+        };
+        _3r3eEopb = {
+            "id" = "3r3eEopb";
+            "file" = "mtrfranceaddon-forge-2.0.1+1.20.1.jar";
+            "hash" = "sha512-VD3vb0f70hmgxPPIxUGa3ZQba9mePF+uS3R2qspKrC96yBv1btEGbqdbTig/CoUmTEctrPlU0IvSoGDxHNa5wA==";
+        };
+        _JXD9Zc03 = {
+            "id" = "JXD9Zc03";
+            "file" = "mtrfranceaddon-forge-2.0.1+1.19.4.jar";
+            "hash" = "sha512-3kfBWABi2SlRwZ6yhOcYWXlwQqGjmoPkMAheaEOko3CL0PD1UcCcAUAeOlxRgtSMiy1x379cR1Gk9nTRjtPJRw==";
+        };
     in {
         "jIqACveH" = _jIqACveH;
         "cUiZGI1N" = _cUiZGI1N;
@@ -374,18 +424,28 @@ let
         "g7FmpgaN" = _g7FmpgaN;
         "eeQ1UZox" = _eeQ1UZox;
         "VhPemKTI" = _VhPemKTI;
-        "fabric-1.18.2" = _VVExqiI7;
-        "fabric-1.19.2" = _e4A2tNN5;
-        "fabric-1.20.1" = _8U8ZRsED;
-        "fabric-1.20.4" = _CiIrh1PN;
+        "z77QKB2r" = _z77QKB2r;
+        "gGyIQqLI" = _gGyIQqLI;
+        "IzGC30qU" = _IzGC30qU;
+        "Yl1YrnKL" = _Yl1YrnKL;
+        "UgGGmoB0" = _UgGGmoB0;
+        "Hq9YQw0f" = _Hq9YQw0f;
+        "XG3ziXAg" = _XG3ziXAg;
+        "rL8CALtl" = _rL8CALtl;
+        "3r3eEopb" = _3r3eEopb;
+        "JXD9Zc03" = _JXD9Zc03;
+        "fabric-1.18.2" = _gGyIQqLI;
+        "fabric-1.19.2" = _IzGC30qU;
+        "fabric-1.20.1" = _Yl1YrnKL;
+        "fabric-1.20.4" = _z77QKB2r;
         "fabric-1.16.5" = _abZoDVUg;
         "fabric-1.17.1" = _KUEjcsc2;
-        "fabric-1.19.4" = _I3QRo444;
-        "forge-1.19.4" = _g7FmpgaN;
-        "forge-1.20.1" = _eeQ1UZox;
+        "fabric-1.19.4" = _UgGGmoB0;
+        "forge-1.19.4" = _JXD9Zc03;
+        "forge-1.20.1" = _3r3eEopb;
         "forge-1.16.5" = _Oa9epfsC;
-        "forge-1.20.4" = _VhPemKTI;
-        "forge-1.18.2" = _g06mOZTg;
+        "forge-1.20.4" = _rL8CALtl;
+        "forge-1.18.2" = _XG3ziXAg;
         "forge-1.17.1" = _12G7vpxs;
         "forge-1.19.2" = _5hJTk1lW;
         "pkg-1.0.0+1.18.2" = _jIqACveH;
@@ -427,7 +487,16 @@ let
         "pkg-2.0.0+1.19.4-forge" = _g7FmpgaN;
         "pkg-2.0.0+1.20.1-forge" = _eeQ1UZox;
         "pkg-2.0.0+1.20.4-forge" = _VhPemKTI;
-        "default" = _VhPemKTI;
+        "pkg-fabric-2.0.1+1.20.4" = _z77QKB2r;
+        "pkg-fabric-2.0.1+1.18.2" = _gGyIQqLI;
+        "pkg-fabric-2.0.1+1.19.2" = _IzGC30qU;
+        "pkg-fabric-2.0.1+1.20.1" = _Yl1YrnKL;
+        "pkg-fabric-2.0.1+1.19.4" = _UgGGmoB0;
+        "pkg-forge-2.0.1+1.19.4" = _JXD9Zc03;
+        "pkg-forge-2.0.1+1.18.2" = _XG3ziXAg;
+        "pkg-forge-2.0.1+1.20.4" = _rL8CALtl;
+        "pkg-forge-2.0.1+1.20.1" = _3r3eEopb;
+        "default" = _JXD9Zc03;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-france-addon";

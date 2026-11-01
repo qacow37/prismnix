@@ -131,6 +131,16 @@ let
             "file" = "bettercampfirepot-fabric-1.21.1-1.8.0.jar";
             "hash" = "sha512-XblZKLgk5g2fhuDMx1mnxNf58TwlJAKVIXFleWgon/UchSyfq5w9ENJuIetoBfIxK9v+OGN8PdSuiQ4z0K3KfA==";
         };
+        _OdrlQV0c = {
+            "id" = "OdrlQV0c";
+            "file" = "bettercampfirepot-neoforge-1.21.1-1.8.1.jar";
+            "hash" = "sha512-zx+T568MM2t631xAXL9PZJ9mcPiqNyKDRUs8jfhy6ORzY6I0pg9zR6aDK39sV3rjW/JOfWHrf1CiRTPnIZrb3A==";
+        };
+        _Eb5Ngs0P = {
+            "id" = "Eb5Ngs0P";
+            "file" = "bettercampfirepot-fabric-1.21.1-1.8.1.jar";
+            "hash" = "sha512-FXpbfc7eRZ0QsCsC86f5SHK1yXjQGK9KqCO9qXCmNz6XKbuyD8mFGeEzw5AX34P5MKblL0aTU5IhDym5ttZomg==";
+        };
     in {
         "zNxffg6z" = _zNxffg6z;
         "SNmSWe68" = _SNmSWe68;
@@ -158,8 +168,10 @@ let
         "paqSUxYb" = _paqSUxYb;
         "GBsGiuXH" = _GBsGiuXH;
         "aiPCRicD" = _aiPCRicD;
-        "neoforge-1.21.1" = _GBsGiuXH;
-        "fabric-1.21.1" = _aiPCRicD;
+        "OdrlQV0c" = _OdrlQV0c;
+        "Eb5Ngs0P" = _Eb5Ngs0P;
+        "neoforge-1.21.1" = _OdrlQV0c;
+        "fabric-1.21.1" = _Eb5Ngs0P;
         "pkg-1.0.0+1.21.1-neoforge" = _zNxffg6z;
         "pkg-1.1.0+1.21.1-neoforge" = _SNmSWe68;
         "pkg-1.1.0+1.21.1-fabric" = _taWjmW8d;
@@ -185,7 +197,8 @@ let
         "pkg-1.7.3+1.21.1-neoforge" = _NpGa1ka9;
         "pkg-1.7.3+1.21.1-fabric" = _paqSUxYb;
         "pkg-1.8.0" = _aiPCRicD;
-        "default" = _aiPCRicD;
+        "pkg-1.8.1" = _Eb5Ngs0P;
+        "default" = _Eb5Ngs0P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-better-campfire-pot";

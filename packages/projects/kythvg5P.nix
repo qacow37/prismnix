@@ -106,6 +106,26 @@ let
             "file" = "mtr-traffic-addon-26.10.3.jar";
             "hash" = "sha512-LTksRwkEB2HEGABvlfz545YbuJw/2BeHabg49XQmzxVYeyaqkyyTxki7/MS3SU9bAqsbLVkR7/E6yw84jgv+jA==";
         };
+        _Ig9ipDjK = {
+            "id" = "Ig9ipDjK";
+            "file" = "mtr-traffic-addon-2.1.4.jar";
+            "hash" = "sha512-YRcXxuMEoEfxEAKKjNr7iZms4EvXz6gJQGxg+Ktria9J/Z+gtqGCD50CHUt4uwXlRsM4InsMCkRBT9PcddYpMA==";
+        };
+        _Yt9vwDtG = {
+            "id" = "Yt9vwDtG";
+            "file" = "mtr-traffic-addon-2.1.4.jar";
+            "hash" = "sha512-Ov7uBsP3HCZPdaQTzQ+ko8D+uJpSO2JH2DA4vnfdEwgAKDEIijDvTivFkUaauAKymMMvpSQkfqYR+w/APl8t9Q==";
+        };
+        _Ultokzi0 = {
+            "id" = "Ultokzi0";
+            "file" = "mtr-traffic-addon-2.1.4.jar";
+            "hash" = "sha512-Cf0AFioakhJOuECcOB0iGzq5yPZv8N8HEqhjwwdh1BmuETEYawZ3lKLNZI5iv+ThiCbpBgcMGnubroad+2Y4jA==";
+        };
+        _puVcrILv = {
+            "id" = "puVcrILv";
+            "file" = "mtr-traffic-addon-2.1.4.jar";
+            "hash" = "sha512-1o+dGwXGh/bRCzAJTuOLyapwOoB4a0wxFXYhF9YVt+lqk4aY5f8U4b8ZE8PXNpkF/k9ndxtS5Lz9ClsC17vjfQ==";
+        };
     in {
         "5iPvAMrp" = _5iPvAMrp;
         "EDUNtZT7" = _EDUNtZT7;
@@ -128,10 +148,14 @@ let
         "AjsxIQrR" = _AjsxIQrR;
         "vmZbG1Gj" = _vmZbG1Gj;
         "vFz0GETK" = _vFz0GETK;
-        "fabric-1.20.1" = _eDiSY6Bl;
-        "fabric-1.20.4" = _vmZbG1Gj;
-        "fabric-1.21.1" = _vFz0GETK;
-        "forge-1.20.1" = _AjsxIQrR;
+        "Ig9ipDjK" = _Ig9ipDjK;
+        "Yt9vwDtG" = _Yt9vwDtG;
+        "Ultokzi0" = _Ultokzi0;
+        "puVcrILv" = _puVcrILv;
+        "fabric-1.20.1" = _Ig9ipDjK;
+        "fabric-1.20.4" = _Ultokzi0;
+        "fabric-1.21.1" = _puVcrILv;
+        "forge-1.20.1" = _Yt9vwDtG;
         "pkg-26.8" = _DHX5LXDE;
         "pkg-26.8.1" = _L5xr2hid;
         "pkg-26.9" = _bs5gyaQX;
@@ -139,7 +163,8 @@ let
         "pkg-26.10.1" = _RWuGbAsf;
         "pkg-26.10.2" = _MRJ5bHpl;
         "pkg-26.10.3" = _vFz0GETK;
-        "default" = _vFz0GETK;
+        "pkg-2.1.4" = _puVcrILv;
+        "default" = _puVcrILv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-traffic-addon";

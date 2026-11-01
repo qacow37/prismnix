@@ -86,6 +86,11 @@ let
             "file" = "scguns_cnc-1.6a.jar";
             "hash" = "sha512-YzR9DwJTDiCM2j0dOveyh9T1DAu1xBhDN1tgL0PLcyaUSewKo5BDfisnlvzQuRRBWlGvldTX09qUWB0pv9xXpg==";
         };
+        _zDIOBsrc = {
+            "id" = "zDIOBsrc";
+            "file" = "scguns_cnc-1.6.1.jar";
+            "hash" = "sha512-R/KfoTlihp5WjkLcqGcxpMB50VYeoDLRhPrNHvz+9ByKFujVGuhJsml2ON088g7fGxKY4ygUmQIjq+iwVTu/ew==";
+        };
     in {
         "weqDGWLl" = _weqDGWLl;
         "fy5NPQNS" = _fy5NPQNS;
@@ -104,7 +109,8 @@ let
         "2TOX1DHd" = _2TOX1DHd;
         "fyBXXIqa" = _fyBXXIqa;
         "ZnThHEga" = _ZnThHEga;
-        "forge-1.20.1" = _ZnThHEga;
+        "zDIOBsrc" = _zDIOBsrc;
+        "forge-1.20.1" = _zDIOBsrc;
         "pkg-1.0.0" = _weqDGWLl;
         "pkg-1.1.0" = _fy5NPQNS;
         "pkg-1.2.0" = _D68DxmFD;
@@ -122,7 +128,8 @@ let
         "pkg-1.5" = _2TOX1DHd;
         "pkg-1.6" = _fyBXXIqa;
         "pkg-1.6a" = _ZnThHEga;
-        "default" = _ZnThHEga;
+        "pkg-1.6.1" = _zDIOBsrc;
+        "default" = _zDIOBsrc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scorched-guns-caverns-chasms-compat";

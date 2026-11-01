@@ -581,6 +581,16 @@ let
             "file" = "okcore-26.10.10.0.jar";
             "hash" = "sha512-CoV9Iltif29A62eb+P9HMM8JxlfDNf7p/09DBl8WCoVv49ywMmQcxKGHR/ZB8w/exuohuqrKR+JzJqigkDCoug==";
         };
+        _L6a1lhl1 = {
+            "id" = "L6a1lhl1";
+            "file" = "okcore-26.10.31.0.jar";
+            "hash" = "sha512-4BQM7o2aIJsQPIWZHu6gDtLefBhRuXyuaCkltxfuzsnKCa1gcVuQ3muVsNrqo2knloe55tiqe1+yseZf5PrU2A==";
+        };
+        _hrIakbzh = {
+            "id" = "hrIakbzh";
+            "file" = "okcore-26.10.31.1.jar";
+            "hash" = "sha512-5ksqGaZgi7Syq07RgZz51jL1kMDuF54RhxO8zUpu9+HxQiee3SMq4x/4NbuVzvtTgOLvY4ohQdEOHrFLcTy8Xg==";
+        };
     in {
         "8a8doypa" = _8a8doypa;
         "n0PTagCb" = _n0PTagCb;
@@ -698,7 +708,9 @@ let
         "p1nv3fGD" = _p1nv3fGD;
         "h1WwFiaS" = _h1WwFiaS;
         "ftCS1u1z" = _ftCS1u1z;
-        "forge-1.7.10" = _ftCS1u1z;
+        "L6a1lhl1" = _L6a1lhl1;
+        "hrIakbzh" = _hrIakbzh;
+        "forge-1.7.10" = _hrIakbzh;
         "pkg-1.2.4" = _8a8doypa;
         "pkg-1.2.5" = _n0PTagCb;
         "pkg-1.2.6" = _NS623V7Z;
@@ -815,7 +827,9 @@ let
         "pkg-26.10.06.1" = _p1nv3fGD;
         "pkg-26.10.09.0" = _h1WwFiaS;
         "pkg-26.10.10.0" = _ftCS1u1z;
-        "default" = _ftCS1u1z;
+        "pkg-26.10.31.0" = _L6a1lhl1;
+        "pkg-26.10.31.1" = _hrIakbzh;
+        "default" = _hrIakbzh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ok-core";

@@ -26,12 +26,18 @@ let
             "file" = "LockedChestsPlugin-1.4.jar";
             "hash" = "sha512-cYPuoUZb+oEs07a5ya4y6jttFIhJ7xT8nBmSGlAZ4e07U6iZd6/0F+oNezjWlJ4Ha/rEHuB0AXspFxp7N3W+dg==";
         };
+        _N09baKew = {
+            "id" = "N09baKew";
+            "file" = "LockedChestsPlugin-1.5.jar";
+            "hash" = "sha512-ZLLp5UcSKr4j8aZzQBPIhmA+oqjkj61EBcuaklN66reTE/g/syh0jyuMnPWv9zxi4ieGNQujCmGZy8VRSpqYRg==";
+        };
     in {
         "HIMl6isS" = _HIMl6isS;
         "wRZXnomB" = _wRZXnomB;
         "qR3B4KPS" = _qR3B4KPS;
         "2vIWZ3W7" = _2vIWZ3W7;
         "X065gY4w" = _X065gY4w;
+        "N09baKew" = _N09baKew;
         "bukkit-1.21" = _X065gY4w;
         "bukkit-1.21.1" = _X065gY4w;
         "bukkit-1.21.2" = _X065gY4w;
@@ -48,6 +54,7 @@ let
         "bukkit-26.1.1" = _X065gY4w;
         "bukkit-26.1.2" = _X065gY4w;
         "bukkit-26.2" = _X065gY4w;
+        "bukkit-26.3" = _N09baKew;
         "paper-1.21" = _X065gY4w;
         "paper-1.21.1" = _X065gY4w;
         "paper-1.21.2" = _X065gY4w;
@@ -64,6 +71,7 @@ let
         "paper-26.1.1" = _X065gY4w;
         "paper-26.1.2" = _X065gY4w;
         "paper-26.2" = _X065gY4w;
+        "paper-26.3" = _N09baKew;
         "spigot-1.21" = _X065gY4w;
         "spigot-1.21.1" = _X065gY4w;
         "spigot-1.21.2" = _X065gY4w;
@@ -80,12 +88,14 @@ let
         "spigot-26.1.1" = _X065gY4w;
         "spigot-26.1.2" = _X065gY4w;
         "spigot-26.2" = _X065gY4w;
+        "spigot-26.3" = _N09baKew;
         "pkg-1.0" = _HIMl6isS;
         "pkg-1.1" = _wRZXnomB;
         "pkg-1.2" = _qR3B4KPS;
         "pkg-1.3" = _2vIWZ3W7;
         "pkg-1.4" = _X065gY4w;
-        "default" = _X065gY4w;
+        "pkg-1.5" = _N09baKew;
+        "default" = _N09baKew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locked-chests-plugin";

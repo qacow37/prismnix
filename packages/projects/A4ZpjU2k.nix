@@ -11,14 +11,26 @@ let
             "file" = "townstead-0.7.6+1.20.1.jar";
             "hash" = "sha512-BLTqSM4U3hWPSeepJRbZ+k3bkOz0k7D6RyrEXivT3a60L54PQtD2FkgQfZZ4U+lOPoeMj3zXdLYAgWOlvC/V+g==";
         };
+        _b8VnGFDu = {
+            "id" = "b8VnGFDu";
+            "file" = "townstead-0.8.0-1.20.1.jar";
+            "hash" = "sha512-gjWLXi7nRk6jH498ApYzkLHXprjeUNl3+PmGQKl79Mu2toVjfhDZsBTYk+7rTeB+UQLUjflsVECFKto5cfOl4w==";
+        };
     in {
         "UeECuHLT" = _UeECuHLT;
         "kchNaBnq" = _kchNaBnq;
+        "b8VnGFDu" = _b8VnGFDu;
         "neoforge-1.21.1" = _UeECuHLT;
-        "forge-1.20.1" = _kchNaBnq;
+        "forge-1.20.1" = _b8VnGFDu;
+        "forge-1.20.2" = _b8VnGFDu;
+        "forge-1.20.3" = _b8VnGFDu;
+        "forge-1.20.4" = _b8VnGFDu;
+        "forge-1.20.5" = _b8VnGFDu;
+        "forge-1.20.6" = _b8VnGFDu;
         "pkg-0.7.6+1.21.1" = _UeECuHLT;
         "pkg-0.7.6+1.20.1" = _kchNaBnq;
-        "default" = _kchNaBnq;
+        "pkg-0.8.0+1.20.1" = _b8VnGFDu;
+        "default" = _b8VnGFDu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "townstead";

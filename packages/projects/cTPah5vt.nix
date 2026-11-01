@@ -71,6 +71,11 @@ let
             "file" = "SSC_Xu_Addon-SSC-1.9.2-1.6.2.jar";
             "hash" = "sha512-sxRBXtgw4rkv+a0nMLXOijiNzxdclPFG1LWkWOWKdXcXz2HzdYzsAEQQH/rOm5uK+pPc1rQBWN1xBpjOiLFhtQ==";
         };
+        _haHLhg44 = {
+            "id" = "haHLhg44";
+            "file" = "SSC_Xu_Addon-SSC-1.10.0-beta-1.6.3.jar";
+            "hash" = "sha512-W4TWttxKeYePUO/V4+5Q+uHBFIynHU90kbnG8spW35TioVdqlTdXPiPyIbGPyV0lIPq4N6VkGIUUlZF6oeIdpA==";
+        };
     in {
         "1Q8RssCd" = _1Q8RssCd;
         "IS4846jw" = _IS4846jw;
@@ -86,7 +91,8 @@ let
         "Th3mQ4F7" = _Th3mQ4F7;
         "uiwrkghz" = _uiwrkghz;
         "mnJm8SBH" = _mnJm8SBH;
-        "fabric-1.20.1" = _mnJm8SBH;
+        "haHLhg44" = _haHLhg44;
+        "fabric-1.20.1" = _haHLhg44;
         "pkg-1.0.0" = _1Q8RssCd;
         "pkg-1.1.0" = _IS4846jw;
         "pkg-1.2.0" = _WdR6oQs7;
@@ -101,7 +107,8 @@ let
         "pkg-1.6.0" = _Th3mQ4F7;
         "pkg-1.6.1" = _uiwrkghz;
         "pkg-1.6.2" = _mnJm8SBH;
-        "default" = _mnJm8SBH;
+        "pkg-1.6.3" = _haHLhg44;
+        "default" = _haHLhg44;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ssc-xu-addon";

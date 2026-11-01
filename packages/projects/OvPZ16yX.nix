@@ -1041,6 +1041,11 @@ let
             "file" = "entityjs-1.5.2.jar";
             "hash" = "sha512-nII5LNIB2oomEQfw/P4tWKF595FxXVAVdd+OwB1yJP7TGLrXyc/tZdrmScmHhZAVKyPb6A29/6uwKcThJcLM3g==";
         };
+        _mnkHFyt5 = {
+            "id" = "mnkHFyt5";
+            "file" = "entityjs-neoforge-26.1.2-2.4.6.jar";
+            "hash" = "sha512-hBeZ/a4FO0z3T0dmd6uVGWTdezolApzTN3cSCygU8Qm+RCskTkIHfcILEUrzCvz/K6l+Sx5WJStoV9pkDuOFgw==";
+        };
     in {
         "RGM2ygID" = _RGM2ygID;
         "oaYm3hsm" = _oaYm3hsm;
@@ -1250,12 +1255,14 @@ let
         "cqIphBa1" = _cqIphBa1;
         "MukABB2q" = _MukABB2q;
         "RGmpSVAm" = _RGmpSVAm;
+        "mnkHFyt5" = _mnkHFyt5;
         "forge-1.19.2" = _hyVQJWrE;
         "forge-1.20.1" = _MukABB2q;
         "neoforge-1.20.1" = _MukABB2q;
         "neoforge-1.19.2" = _rJ03Dwyb;
         "neoforge-1.21" = _RGmpSVAm;
         "neoforge-1.21.1" = _RGmpSVAm;
+        "neoforge-26.1.2" = _mnkHFyt5;
         "fabric-1.19.2" = _CoGNkXQF;
         "fabric-1.20.1" = _cqIphBa1;
         "pkg-0.0.2-1.19.2" = _RGM2ygID;
@@ -1462,7 +1469,8 @@ let
         "pkg-1.5.1" = _cFjoHwGx;
         "pkg-0.7.5" = _MukABB2q;
         "pkg-1.5.2" = _RGmpSVAm;
-        "default" = _RGmpSVAm;
+        "pkg-2.4.6" = _mnkHFyt5;
+        "default" = _mnkHFyt5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "entityjs";
