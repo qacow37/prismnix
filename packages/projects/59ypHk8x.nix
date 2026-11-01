@@ -561,6 +561,21 @@ let
             "file" = "clifftree-3.3-neoforge-1.21.1-backport.jar";
             "hash" = "sha512-CxXEHAdboVioYcpf0vJE/i4wtnr+hJfHtRfFr0zy3MbxHDy0lto9vbnuz78yyLQYmEdKDuSWME2XoF74SJL3Tw==";
         };
+        _T1fWnMd6 = {
+            "id" = "T1fWnMd6";
+            "file" = "clifftree-4.0.0-datapack-26.3.zip";
+            "hash" = "sha512-RyvrIj/IJypZARbRGHgYJRPyf5cYqXAJ17T1+scXd83zAmrJ/vGLWXrTZ8zGoPPuTPtnqjFbQgT/IF/+RXJmOw==";
+        };
+        _xX4ruHT3 = {
+            "id" = "xX4ruHT3";
+            "file" = "clifftree-4.0.0-fabric-26.3.jar";
+            "hash" = "sha512-5lE/u6Qq91X7M1TZKd9CETpWiScUuJ/DDKysGD0Vm/sE/j1gSXktn8iBj+9Dc4Vq714jvLGZTFptSzgNQWphtQ==";
+        };
+        _XySvQaPf = {
+            "id" = "XySvQaPf";
+            "file" = "clifftree-4.0.0-neoforge-26.3.jar";
+            "hash" = "sha512-uGNKvPtxlMU1OZXIskxbZWWX8VZy5eL2I6Wd1tfSuo34ShSQ7YBiQitPe1Ux7EZPUX0887LB6dx7RZWpHw74vA==";
+        };
     in {
         "1BnsKjXx" = _1BnsKjXx;
         "5QJa1kbV" = _5QJa1kbV;
@@ -674,6 +689,9 @@ let
         "98ZAHkEw" = _98ZAHkEw;
         "GQBWQdu4" = _GQBWQdu4;
         "ihoJ0oCq" = _ihoJ0oCq;
+        "T1fWnMd6" = _T1fWnMd6;
+        "xX4ruHT3" = _xX4ruHT3;
+        "XySvQaPf" = _XySvQaPf;
         "datapack-1.20.6" = _tunM4khR;
         "datapack-1.21" = _98ZAHkEw;
         "datapack-1.20" = _Md8He7V7;
@@ -697,6 +715,7 @@ let
         "datapack-26.1.1" = _XsHNvuCq;
         "datapack-26.1.2" = _XsHNvuCq;
         "datapack-26.2" = _7dJz6Ueu;
+        "datapack-26.3" = _T1fWnMd6;
         "forge-1.20.6" = _W0iHVUXr;
         "forge-1.21" = _tKrr4oPS;
         "forge-1.20" = _lbI2bxcb;
@@ -739,6 +758,7 @@ let
         "fabric-26.1.1" = _ccmOs0V8;
         "fabric-26.1.2" = _ccmOs0V8;
         "fabric-26.2" = _IjSX8Uet;
+        "fabric-26.3" = _xX4ruHT3;
         "quilt-1.20.6" = _3qqFq49T;
         "quilt-1.21" = _tKrr4oPS;
         "quilt-1.20" = _gXCqCFu7;
@@ -780,6 +800,7 @@ let
         "neoforge-26.1.1" = _ccmOs0V8;
         "neoforge-26.1.2" = _ccmOs0V8;
         "neoforge-26.2" = _fANniPNt;
+        "neoforge-26.3" = _XySvQaPf;
         "pkg-1.0" = _1BnsKjXx;
         "pkg-1.0+mod" = _yTPFuAqm;
         "pkg-1.1" = _Xcd6n37V;
@@ -848,7 +869,10 @@ let
         "pkg-3.3-datapack-1.21.1-backport" = _98ZAHkEw;
         "pkg-3.3-fabric-1.21.1-backport" = _GQBWQdu4;
         "pkg-3.3-neoforge-1.21.1-backport" = _ihoJ0oCq;
-        "default" = _ihoJ0oCq;
+        "pkg-4.0.0-datapack-26.3" = _T1fWnMd6;
+        "pkg-4.0.0-fabric-26.3" = _xX4ruHT3;
+        "pkg-4.0.0-neoforge-26.3" = _XySvQaPf;
+        "default" = _XySvQaPf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clifftree";

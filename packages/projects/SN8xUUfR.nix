@@ -146,6 +146,21 @@ let
             "file" = "AdPother-1.21.1-9.1.13.0-NeoForge-build.1236.jar";
             "hash" = "sha512-SDm899sqsLoruaDCGQSI8N7LKhGfjAuYlpljtlqcXj/5YSiUtQpKB39dNiUFerRHPSd2gKA0IfHu7IboonuqDg==";
         };
+        _bzioWbum = {
+            "id" = "bzioWbum";
+            "file" = "adpother-26.3.0.2-fabric-build.0152.jar";
+            "hash" = "sha512-Ny0dDAOUxE6ZG2Wn4stvYzjTOMoVwEtyTQgXEBRMZYhl0jYJ/tlfEeTNjtn8889eKDxxAjgDmKO/3TSEo1xmEA==";
+        };
+        _INyAnCyF = {
+            "id" = "INyAnCyF";
+            "file" = "adpother-26.3.0.2-forge-build.0152.jar";
+            "hash" = "sha512-Bsm5gU45MNebPgTDyf6lLigiuQwVwAOFITda/rD5nAXtJKCDHER0WBahdMzQ1EeYBlhSYwcHe7+Tk1qIZj7g0w==";
+        };
+        _mogBTwaI = {
+            "id" = "mogBTwaI";
+            "file" = "adpother-26.3.0.2-neoforge-build.0152.jar";
+            "hash" = "sha512-jaqvabJsxQJOxpQ/+L2lShpdLgnTeqB2I/SJD7YpVQTDsnedWMTFlTQEtWCkfqFpDVgiTUxtpIaK29mgyjwmhA==";
+        };
     in {
         "OhXpN84v" = _OhXpN84v;
         "D2L4WQIM" = _D2L4WQIM;
@@ -176,14 +191,17 @@ let
         "W63usPto" = _W63usPto;
         "ttqiapvd" = _ttqiapvd;
         "t9xaRLuT" = _t9xaRLuT;
+        "bzioWbum" = _bzioWbum;
+        "INyAnCyF" = _INyAnCyF;
+        "mogBTwaI" = _mogBTwaI;
         "fabric-26.2" = _s7kB7wTY;
-        "fabric-26.3" = _TP26wIXJ;
+        "fabric-26.3" = _bzioWbum;
         "forge-26.2" = _CNQgjjJV;
         "forge-1.20.1" = _ttqiapvd;
-        "forge-26.3" = _npWpR5Mb;
+        "forge-26.3" = _INyAnCyF;
         "neoforge-26.2" = _WfD0R3Lx;
         "neoforge-1.21.1" = _t9xaRLuT;
-        "neoforge-26.3" = _W63usPto;
+        "neoforge-26.3" = _mogBTwaI;
         "pkg-26.2.0.0" = _TcTYIqsW;
         "pkg-9.1.8.0" = _tDUTQWaM;
         "pkg-8.1.47.0" = _VxrvUfvB;
@@ -202,7 +220,8 @@ let
         "pkg-26.3.0.1" = _W63usPto;
         "pkg-8.1.52.0" = _ttqiapvd;
         "pkg-9.1.13.0" = _t9xaRLuT;
-        "default" = _t9xaRLuT;
+        "pkg-26.3.0.2" = _mogBTwaI;
+        "default" = _mogBTwaI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pollution-of-the-realms";

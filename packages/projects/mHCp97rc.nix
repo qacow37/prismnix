@@ -31,6 +31,16 @@ let
             "file" = "gahtmod-1.2-mc1.21.4.jar";
             "hash" = "sha512-v5yx/XHwoFd7fvh7KXIJIu9pWoA6qjquxwffIbd40PGOoQmz6B9uGmmMljsgL3oe5ok2zfCLG7+2aJV077AsLQ==";
         };
+        _i8gzS8xT = {
+            "id" = "i8gzS8xT";
+            "file" = "gahtmod-1.2-mc-26.3.jar";
+            "hash" = "sha512-Cv13mP0Tx5hHCV/NqxyLD296S9ek+aVNajYrJkmVfvNnlNkD+cl2qtlkdAfeZU9b7TOUWW1L5rZHLyQlyj9P9g==";
+        };
+        _xGdLAPTl = {
+            "id" = "xGdLAPTl";
+            "file" = "gahtmod-1.2.0.1-mc-26.3.jar";
+            "hash" = "sha512-V/xXKOyPxOhQB25ldLSwIQRVOgDviNAa2DNMsDRk1DUpK5h44u62JXPt09lEtAuG59ip4OBJYqcTaUXuKOrbGQ==";
+        };
     in {
         "aGxfhjdm" = _aGxfhjdm;
         "m3gLmM7c" = _m3gLmM7c;
@@ -38,11 +48,14 @@ let
         "Xe2ysi2W" = _Xe2ysi2W;
         "q6GP4XxT" = _q6GP4XxT;
         "D2Hvl4pH" = _D2Hvl4pH;
+        "i8gzS8xT" = _i8gzS8xT;
+        "xGdLAPTl" = _xGdLAPTl;
         "fabric-1.20.4" = _aGxfhjdm;
         "fabric-1.20.6" = _PO9Xzf6b;
         "fabric-1.21" = _Xe2ysi2W;
         "fabric-1.21.1" = _q6GP4XxT;
         "fabric-1.21.4" = _D2Hvl4pH;
+        "fabric-26.3" = _xGdLAPTl;
         "quilt-1.20.4" = _aGxfhjdm;
         "quilt-1.20.6" = _PO9Xzf6b;
         "quilt-1.21" = _Xe2ysi2W;
@@ -54,7 +67,9 @@ let
         "pkg-1.1.2-mc1.21" = _Xe2ysi2W;
         "pkg-1.1.2-mc1.21.1" = _q6GP4XxT;
         "pkg-1.2-mc1.21.4" = _D2Hvl4pH;
-        "default" = _D2Hvl4pH;
+        "pkg-1.2-mc26.3" = _i8gzS8xT;
+        "pkg-1.2.0.1-mc26.3" = _xGdLAPTl;
+        "default" = _xGdLAPTl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gaht-mod";

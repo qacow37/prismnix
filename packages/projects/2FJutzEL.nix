@@ -196,6 +196,21 @@ let
             "file" = "Oreganized 1.21.1-5.3.0+mc1.21.1.jar";
             "hash" = "sha512-AsaYl4uT6+rO2ojG4cwlN+XjfGtukBFtV6G1bJnF8GqDa51c7ssROSyYttUqvqLRO7oEa7crUmlu1hP9ThXHpg==";
         };
+        _aqluSmaB = {
+            "id" = "aqluSmaB";
+            "file" = "Oreganized 1.21.1-5.4.0+mc1.21.1.jar";
+            "hash" = "sha512-c+Vgc25z8PKB9SSAMyEidF4Z8+NK45nlFFXXKyaxIwgC0jfgjt19EvP1HYwVIDivH6PISLHe0XshrI8qNTIviA==";
+        };
+        _7WjDpRsn = {
+            "id" = "7WjDpRsn";
+            "file" = "Oreganized 5.4.1+mc1.21.1.jar";
+            "hash" = "sha512-ruE3di4vk8rcuvUwo4i6ctrZ6/7J1WZTVO/FjnEw/tpyYyfNRGZsuIpOm7PpxsQYqwsSi3iCVTEvmedw7KS4eg==";
+        };
+        _I8UNzKd1 = {
+            "id" = "I8UNzKd1";
+            "file" = "Oreganized 5.4.2+mc1.21.1.jar";
+            "hash" = "sha512-d+2Q0rOuWGijdvOC9mDjB+xeyWStlgQPyTQE7Jsut9QJdm4mE4b+kd29aPjdDjdCM1Tb5UFJDcuni0CnjVfFYg==";
+        };
     in {
         "Vmi2uxmr" = _Vmi2uxmr;
         "bdCZi0ca" = _bdCZi0ca;
@@ -236,6 +251,9 @@ let
         "cbWojTbw" = _cbWojTbw;
         "wmlOifL1" = _wmlOifL1;
         "4LJyawKL" = _4LJyawKL;
+        "aqluSmaB" = _aqluSmaB;
+        "7WjDpRsn" = _7WjDpRsn;
+        "I8UNzKd1" = _I8UNzKd1;
         "forge-1.18.2" = _xgburf97;
         "forge-1.19.2" = _8mxk6Cye;
         "forge-1.20" = _lkBhpYKn;
@@ -247,7 +265,7 @@ let
         "forge-1.20.6" = _lkBhpYKn;
         "fabric-1.20.1" = _9KLOnNlG;
         "quilt-1.20.1" = _9KLOnNlG;
-        "neoforge-1.21.1" = _4LJyawKL;
+        "neoforge-1.21.1" = _I8UNzKd1;
         "pkg-2.0.0-1.18.2" = _Vmi2uxmr;
         "pkg-2.0.0" = _bdCZi0ca;
         "pkg-2.0.1-1.19.2" = _xQV5lcRV;
@@ -286,7 +304,10 @@ let
         "pkg-5.2.0" = _cbWojTbw;
         "pkg-5.2.1" = _wmlOifL1;
         "pkg-5.3.0" = _4LJyawKL;
-        "default" = _4LJyawKL;
+        "pkg-5.4.0" = _aqluSmaB;
+        "pkg-5.4.1" = _7WjDpRsn;
+        "pkg-5.4.2" = _I8UNzKd1;
+        "default" = _I8UNzKd1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oreganized";

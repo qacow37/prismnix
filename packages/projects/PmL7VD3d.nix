@@ -61,6 +61,11 @@ let
             "file" = "ashes-0.4.7-1.20.1.jar";
             "hash" = "sha512-YEMGDdBypuJMQm1ddjjk4v8YE10qzCqeJug/T9T8d5qyhSepYDb4Dx+5eO7N56Tlhxxb0xlX0tXD5evApRXHHQ==";
         };
+        _WQUT7AjS = {
+            "id" = "WQUT7AjS";
+            "file" = "ashes-0.4.7fix-1.20.1.jar";
+            "hash" = "sha512-6nkp0ECkP9NGyX+EQ8WfmKVF1/h2NBVMpoQsltMDcceOwJ8/7ovPiyFQA1XYIICRY5Ic9b+IuH9+VPxkgmCgmQ==";
+        };
     in {
         "9iHNM1Ty" = _9iHNM1Ty;
         "KCClMn0U" = _KCClMn0U;
@@ -74,7 +79,8 @@ let
         "L0fdUfQ1" = _L0fdUfQ1;
         "sEnwVRmm" = _sEnwVRmm;
         "cWCzkoJk" = _cWCzkoJk;
-        "forge-1.20.1" = _cWCzkoJk;
+        "WQUT7AjS" = _WQUT7AjS;
+        "forge-1.20.1" = _WQUT7AjS;
         "pkg-0.1.1-1.20.1" = _9iHNM1Ty;
         "pkg-0.1.2-1.20.1" = _KCClMn0U;
         "pkg-0.1.3-1.20.1" = _3O6RVIeW;
@@ -87,7 +93,8 @@ let
         "pkg-0.3.6-1.20.1" = _L0fdUfQ1;
         "pkg-0.3.7-1.20.1" = _sEnwVRmm;
         "pkg-0.4.7-1.20.1" = _cWCzkoJk;
-        "default" = _cWCzkoJk;
+        "pkg-0.4.7fix-1.20.1" = _WQUT7AjS;
+        "default" = _WQUT7AjS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coylocker123-ashes-mod";

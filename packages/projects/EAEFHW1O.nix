@@ -721,6 +721,11 @@ let
             "file" = "chest_item-26.3-1.1.9.0.jar";
             "hash" = "sha512-8FPAhpWIjeF888Yt3y7FLf5VH9lR4/KC2I5mH0EdXEQXUb9Yr6tr9eHeR55Wz1qbAiGf+drpjX1Q4AoJCPwjKg==";
         };
+        _V6VgpqNT = {
+            "id" = "V6VgpqNT";
+            "file" = "chest_item-1.21.1-1.3.2.1.jar";
+            "hash" = "sha512-xNXxU6kpbEwoOHLDxoSaol0T4O+kBL5rF6jihLz3KzwrgWgew6K1zbvYgYtHVHfLY7UEX1F/5rt4AL4eblCh4A==";
+        };
     in {
         "LIsW1Mc1" = _LIsW1Mc1;
         "urkySUfB" = _urkySUfB;
@@ -866,10 +871,11 @@ let
         "tvpkoqUt" = _tvpkoqUt;
         "uIjA6UD8" = _uIjA6UD8;
         "jbVrsiIg" = _jbVrsiIg;
+        "V6VgpqNT" = _V6VgpqNT;
         "neoforge-1.21.8" = _3zhHkAg7;
         "neoforge-1.21.9" = _FBzlt86P;
         "neoforge-1.21.10" = _FBzlt86P;
-        "neoforge-1.21.1" = _uIjA6UD8;
+        "neoforge-1.21.1" = _V6VgpqNT;
         "neoforge-1.21.2" = _m4PakVSs;
         "neoforge-1.21.11" = _Jknxa840;
         "neoforge-26.1-snapshot-11" = _yvv04AIc;
@@ -1020,7 +1026,8 @@ let
         "pkg-1.21.1-1.3.1.3" = _tvpkoqUt;
         "pkg-1.21.1-1.3.1.7" = _uIjA6UD8;
         "pkg-26.3-1.1.9.0" = _jbVrsiIg;
-        "default" = _jbVrsiIg;
+        "pkg-1.21.1-1.3.2.1" = _V6VgpqNT;
+        "default" = _V6VgpqNT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chest-curio-items";

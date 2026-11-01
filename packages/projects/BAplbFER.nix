@@ -161,6 +161,11 @@ let
             "file" = "trydeas_meleez-1.5.1.jar";
             "hash" = "sha512-tXSjOv+gpmdsAp0QlBsdTAVr1/8AzHAao6mJ52095XyLvXoiNf15mDKQ0J8ZhudESqa2tgS0e1bfAcDonjGhhA==";
         };
+        _IKroaUkb = {
+            "id" = "IKroaUkb";
+            "file" = "trydeas_meleez-1.5.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-MUsktCDoSb7D1F3YO4OOgD/7pMmSC4aLuiBe/hUbvwfEFJhaTDXaSHBcfBd53lTfNQm0hm47fnHwI0kV6YGwDQ==";
+        };
     in {
         "DHDEPtE9" = _DHDEPtE9;
         "nEKLqghK" = _nEKLqghK;
@@ -194,9 +199,10 @@ let
         "UaSenlxP" = _UaSenlxP;
         "SoFCPqLm" = _SoFCPqLm;
         "X1GOYVO6" = _X1GOYVO6;
+        "IKroaUkb" = _IKroaUkb;
         "forge-1.19.2" = _hSOchMT9;
         "forge-1.20.1" = _UaSenlxP;
-        "neoforge-1.21.1" = _SoFCPqLm;
+        "neoforge-1.21.1" = _IKroaUkb;
         "fabric-1.20.1" = _X1GOYVO6;
         "pkg-1.0.0" = _1HAyW4lq;
         "pkg-1.1.0" = _BvwCxxgM;
@@ -220,8 +226,8 @@ let
         "pkg-1.4.6" = _ycOD2hPT;
         "pkg-1.4.7" = _JryEprAb;
         "pkg-1.5.0" = _SoFCPqLm;
-        "pkg-1.5.1" = _X1GOYVO6;
-        "default" = _X1GOYVO6;
+        "pkg-1.5.1" = _IKroaUkb;
+        "default" = _IKroaUkb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trydeas-meleez";

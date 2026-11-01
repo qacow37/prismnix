@@ -61,6 +61,16 @@ let
             "file" = "SafeZone-Paper-1.5.0+26.2.jar";
             "hash" = "sha512-wc5nNqrh5AwEgX+J4C/Y7xm/QpssRM2D6GA3T93KBWsKKYvZyssr3bjE7b1cKo6igfhTqy6htsXqlIL1E/+g4w==";
         };
+        _tnYeklHF = {
+            "id" = "tnYeklHF";
+            "file" = "SafeZone-Paper-1.6.0+26.3.jar";
+            "hash" = "sha512-6HzL/W2tL8O0DTI4ToW8NnRDramLkERtNvBrKuLDAm4M5ZoItLYF9IKKSIfDz5FGVLnc3P755Mc+EtCaCCy7Fw==";
+        };
+        _NkzwU88s = {
+            "id" = "NkzwU88s";
+            "file" = "SafeZone-Fabric-1.6.0+26.3.jar";
+            "hash" = "sha512-Y9yMdbnvmQDv0VR0+K3JEaZSevNOuihVCWST6F0AsUuHKfSHRhetv8/YKVlnAnZ5a6dxWWgbtdGUW0dmxjemeQ==";
+        };
     in {
         "XHbEwUYq" = _XHbEwUYq;
         "LJomkfnO" = _LJomkfnO;
@@ -74,11 +84,14 @@ let
         "efRW2xzx" = _efRW2xzx;
         "JcSo8Buw" = _JcSo8Buw;
         "VP6vrQy2" = _VP6vrQy2;
+        "tnYeklHF" = _tnYeklHF;
+        "NkzwU88s" = _NkzwU88s;
         "fabric-1.21.11" = _eM4jiNJq;
         "fabric-26.1" = _VVSK5NUx;
         "fabric-26.1.1" = _VVSK5NUx;
         "fabric-26.1.2" = _VVSK5NUx;
         "fabric-26.2" = _ssWwvMjS;
+        "fabric-26.3" = _NkzwU88s;
         "paper-1.21" = _efRW2xzx;
         "paper-1.21.1" = _efRW2xzx;
         "paper-1.21.2" = _efRW2xzx;
@@ -95,13 +108,15 @@ let
         "paper-26.1.1" = _JcSo8Buw;
         "paper-26.1.2" = _JcSo8Buw;
         "paper-26.2" = _VP6vrQy2;
+        "paper-26.3" = _tnYeklHF;
         "pkg-1.0.0" = _LJomkfnO;
         "pkg-1.3.0" = _irNWSQKt;
         "pkg-1.4.0" = _lAfoRcm4;
         "pkg-1.5.0+1.21.11" = _efRW2xzx;
         "pkg-1.5.0+26.1.2" = _JcSo8Buw;
         "pkg-1.5.0+26.2" = _VP6vrQy2;
-        "default" = _VP6vrQy2;
+        "pkg-1.6.0+26.3" = _NkzwU88s;
+        "default" = _NkzwU88s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "safe-zone-claims";

@@ -186,6 +186,11 @@ let
             "file" = "New Faithful Overlays - 26.1.zip";
             "hash" = "sha512-1fhF++gALf6xuXx0gtZpbTWiyNaY4w/EHlaBF6wG6Df931/PJsNmRcV84BSmXpdL62B/bpf86IJNbEhw4xvcsA==";
         };
+        _piiLrha6 = {
+            "id" = "piiLrha6";
+            "file" = "New Faithful Overlays - 26.3.zip";
+            "hash" = "sha512-Qq1CaET9lhOD5b9JcDFI5xqvygpeakgajW4iBKAOhkKuyH9d4bq9ZmSH/6qzEEjneZeoz+LebIEpoSnw5lH9mQ==";
+        };
     in {
         "OXIEf5hf" = _OXIEf5hf;
         "RszVoHWt" = _RszVoHWt;
@@ -224,6 +229,7 @@ let
         "u53y7WTT" = _u53y7WTT;
         "eSWOOhh6" = _eSWOOhh6;
         "uymzDGCd" = _uymzDGCd;
+        "piiLrha6" = _piiLrha6;
         "minecraft-1.21.1" = _29UpjwuM;
         "minecraft-1.21.2" = _dbLrgmhk;
         "minecraft-1.21.3" = _q5S5sKHi;
@@ -296,6 +302,7 @@ let
         "minecraft-1.21.11" = _eSWOOhh6;
         "minecraft-26.1" = _uymzDGCd;
         "minecraft-26.1.1" = _uymzDGCd;
+        "minecraft-26.3" = _piiLrha6;
         "pkg-0.1" = _OXIEf5hf;
         "pkg-0.2" = _RszVoHWt;
         "pkg-0.3" = _6heoz57p;
@@ -330,7 +337,8 @@ let
         "pkg-1.21.10" = _u53y7WTT;
         "pkg-1.21.11" = _eSWOOhh6;
         "pkg-26.1" = _uymzDGCd;
-        "default" = _uymzDGCd;
+        "pkg-26.3" = _piiLrha6;
+        "default" = _piiLrha6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-faithful-overlays";

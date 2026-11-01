@@ -1311,6 +1311,16 @@ let
             "file" = "sophisticatedstorageinmotion-1.21.1-0.10.37.390.jar";
             "hash" = "sha512-1amgAknUITRCvXZZGn4fSA8SRCrOB0gPt9ZlQthmw5sPF8eqOY3gZ/Sv5xLGgTDKvwa+OChDjBRH7IRS4c0ePQ==";
         };
+        _Tbo7b2UB = {
+            "id" = "Tbo7b2UB";
+            "file" = "sophisticatedstorageinmotion-1.20.1-0.10.43.394.jar";
+            "hash" = "sha512-zVvxfc4UmcjY88vy7a0B7WdNQhcugUWI6Lxb50V3L0sYfM7Uq6/txfDv68td+wqiLzAv3puhXo4iD89T9+uY8A==";
+        };
+        _rI1VsVeC = {
+            "id" = "rI1VsVeC";
+            "file" = "sophisticatedstorageinmotion-1.21.1-0.10.38.395.jar";
+            "hash" = "sha512-hjcdIxLwuhBay3+FG1Tko6TJxVbLC1taRBeK27zAPEb0EyeGzdNj1F7/qsZl88oZAwxV1QnWHmikqMef0bJ8hw==";
+        };
     in {
         "P0I3VGxC" = _P0I3VGxC;
         "hS4O3rb0" = _hS4O3rb0;
@@ -1574,8 +1584,10 @@ let
         "8881RMpW" = _8881RMpW;
         "GywEavxn" = _GywEavxn;
         "4jzMvbSf" = _4jzMvbSf;
-        "neoforge-1.21.1" = _4jzMvbSf;
-        "neoforge-1.20.1" = _GywEavxn;
+        "Tbo7b2UB" = _Tbo7b2UB;
+        "rI1VsVeC" = _rI1VsVeC;
+        "neoforge-1.21.1" = _rI1VsVeC;
+        "neoforge-1.20.1" = _Tbo7b2UB;
         "neoforge-1.21.4" = _euhLyZRU;
         "neoforge-1.21.5" = _cIoKhzcY;
         "neoforge-1.21.8" = _JR5dXv90;
@@ -1586,7 +1598,7 @@ let
         "neoforge-26.1.2" = _prtHHo8f;
         "neoforge-26.2" = _phGXtBne;
         "neoforge-26.3" = _8881RMpW;
-        "forge-1.20.1" = _GywEavxn;
+        "forge-1.20.1" = _Tbo7b2UB;
         "pkg-1.21.1-0.0.1.4" = _P0I3VGxC;
         "pkg-1.21.1-0.0.2.5" = _hS4O3rb0;
         "pkg-1.21.1-0.0.2.6" = _vvf6UFdT;
@@ -1849,7 +1861,9 @@ let
         "pkg-26.3-0.10.40.387" = _8881RMpW;
         "pkg-1.20.1-0.10.42.389" = _GywEavxn;
         "pkg-1.21.1-0.10.37.390" = _4jzMvbSf;
-        "default" = _4jzMvbSf;
+        "pkg-1.20.1-0.10.43.394" = _Tbo7b2UB;
+        "pkg-1.21.1-0.10.38.395" = _rI1VsVeC;
+        "default" = _rI1VsVeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-storage-in-motion";

@@ -11,13 +11,20 @@ let
             "file" = "cobbleverse-rct-soft-level-cap-0.1.8.jar";
             "hash" = "sha512-5iALrQ9BLWZEKnBRT/o8nuq0GCN6Ye08Bge+eyvvNl9u4YD/FNyb88JlbLZs+sKM8tkeZxLWM3yjH6zGBVqJtg==";
         };
+        _fOXyxwcO = {
+            "id" = "fOXyxwcO";
+            "file" = "cobbleverse-rct-soft-level-cap-cobblemon-1.8.4-0.2.0.jar";
+            "hash" = "sha512-hYfL8vE/q5KseensfLu61II743r/XrRWP4N/on2kpfv0lomu4Qpf/IK1CSx0/PoV0f0pbp4eUAUlhAnTgA9NIA==";
+        };
     in {
         "yMmRhu4p" = _yMmRhu4p;
         "NBwPbT0q" = _NBwPbT0q;
-        "fabric-1.21.1" = _NBwPbT0q;
+        "fOXyxwcO" = _fOXyxwcO;
+        "fabric-1.21.1" = _fOXyxwcO;
         "pkg-0.1.1" = _yMmRhu4p;
         "pkg-0.1.8" = _NBwPbT0q;
-        "default" = _NBwPbT0q;
+        "pkg-0.2.0" = _fOXyxwcO;
+        "default" = _fOXyxwcO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rct-soft-level-cap-mod";

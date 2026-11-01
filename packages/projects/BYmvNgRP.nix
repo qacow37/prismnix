@@ -151,6 +151,16 @@ let
             "file" = "kitchenprojectiles-1.0.14+mc26.3.jar";
             "hash" = "sha512-73K00mTbqWjFoGAdodDYDCKsC8huGAqqW6GEaL39sFfpKIsmWuUClxH+LwkRU+QjsdmaCi6XO+V97Wg3++18bw==";
         };
+        _5x2pZhcB = {
+            "id" = "5x2pZhcB";
+            "file" = "kitchenprojectiles-1.1.0+mc26.3.jar";
+            "hash" = "sha512-i3RjHzqFbJzIlKzUOleRMEBN/eK3JtbSvOqPmu3Y3R4/Zobg5z5Hoddti2UqHNzs6PaDnMEJSHspIajT8WjSnA==";
+        };
+        _c7NJIaAM = {
+            "id" = "c7NJIaAM";
+            "file" = "kitchenprojectiles-1.1.0+mc26.1.2.jar";
+            "hash" = "sha512-V+2OhiHkCEwHPuwi7IKUWgktzjpISRfGPKBLADdpZCB2NgeTfmk0EaP3lCV3Yy8oEoah8aAuhzDf00wJfp8ufg==";
+        };
     in {
         "9JDLu24z" = _9JDLu24z;
         "wjxwdBQJ" = _wjxwdBQJ;
@@ -182,6 +192,8 @@ let
         "MnBFsRpq" = _MnBFsRpq;
         "IyM5ebUS" = _IyM5ebUS;
         "CKgNVWdr" = _CKgNVWdr;
+        "5x2pZhcB" = _5x2pZhcB;
+        "c7NJIaAM" = _c7NJIaAM;
         "fabric-1.20.1" = _REPh5GDu;
         "fabric-1.21" = _iCwAfZDt;
         "fabric-1.21.1" = _iCwAfZDt;
@@ -191,11 +203,11 @@ let
         "fabric-1.21.9" = _Wav0hYXd;
         "fabric-1.21.10" = _Wav0hYXd;
         "fabric-1.21.11" = _JCEmM7PN;
-        "fabric-26.1" = _MnBFsRpq;
-        "fabric-26.1.1" = _MnBFsRpq;
-        "fabric-26.1.2" = _MnBFsRpq;
+        "fabric-26.1" = _c7NJIaAM;
+        "fabric-26.1.1" = _c7NJIaAM;
+        "fabric-26.1.2" = _c7NJIaAM;
         "fabric-26.2" = _3YuekkKQ;
-        "fabric-26.3" = _CKgNVWdr;
+        "fabric-26.3" = _5x2pZhcB;
         "neoforge-1.21" = _aimG9ALl;
         "neoforge-1.21.1" = _O3Lf8MHF;
         "pkg-0.1.0+1.20.1" = _9JDLu24z;
@@ -228,7 +240,9 @@ let
         "pkg-1.0.13+mc26.1.2" = _MnBFsRpq;
         "pkg-1.0.13+mc26.3" = _IyM5ebUS;
         "pkg-1.0.14+mc26.3" = _CKgNVWdr;
-        "default" = _CKgNVWdr;
+        "pkg-1.1.0+mc26.3" = _5x2pZhcB;
+        "pkg-1.1.0+mc26.1.2" = _c7NJIaAM;
+        "default" = _c7NJIaAM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kitchen-projectiles";

@@ -51,6 +51,11 @@ let
             "file" = "tetraextras-0.1.4-1.20.1.jar";
             "hash" = "sha512-j0oRKuiKEluAt0nhjk0O8KnaXlaQlBx2faBjcu45wwIWxYwi47SYuVNoJ2J1Z+/vhs3G4amDCBlubr+BEz0q+g==";
         };
+        _Y5tZ1bvU = {
+            "id" = "Y5tZ1bvU";
+            "file" = "tetraex-0.2.1.jar";
+            "hash" = "sha512-WateRUclG+z/k9rfcCVMGjKw5e5EOFMP4qMFUSl0Ok9m0SGsdVXwh59jvZEhgqedBJoVypDRr4TFqyMzZsUPUg==";
+        };
     in {
         "ndboviIn" = _ndboviIn;
         "G5vIT0ZS" = _G5vIT0ZS;
@@ -62,10 +67,11 @@ let
         "Crlv3xcb" = _Crlv3xcb;
         "AtUSLKRR" = _AtUSLKRR;
         "UV4t9tjE" = _UV4t9tjE;
+        "Y5tZ1bvU" = _Y5tZ1bvU;
         "forge-1.19" = _AtUSLKRR;
         "forge-1.19.1" = _AtUSLKRR;
         "forge-1.19.2" = _AtUSLKRR;
-        "forge-1.20.1" = _UV4t9tjE;
+        "forge-1.20.1" = _Y5tZ1bvU;
         "forge-1.18.2" = _Crlv3xcb;
         "pkg-0.1.0-1.19" = _ndboviIn;
         "pkg-0.1.2-1.19" = _G5vIT0ZS;
@@ -76,7 +82,8 @@ let
         "pkg-0.1.3-1.18.2" = _r6nznKQD;
         "pkg-0.1.4-1.18.2" = _Crlv3xcb;
         "pkg-0.1.4-1.19" = _AtUSLKRR;
-        "default" = _UV4t9tjE;
+        "pkg-0.2.1" = _Y5tZ1bvU;
+        "default" = _Y5tZ1bvU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tetra-extras";

@@ -1201,6 +1201,26 @@ let
             "file" = "neoorigins-2.2.32+1.21.1.jar";
             "hash" = "sha512-qMMO8D7RZsEE/kkxQHK7DjvU4YCBTKcdoHf4eHZXxJ2vzlG//6rsJ1t5jYaUKSndIU+KQMJRnQyVZ0on+7A4QQ==";
         };
+        _TLdLeB6g = {
+            "id" = "TLdLeB6g";
+            "file" = "neoorigins-2.2.33+26.1.jar";
+            "hash" = "sha512-JL0jQ20KCkqHkGsx3038YjNZcZB4XHS5czDw/YdIPj9lSPwysNYk9LNUetmGr/BnVs9pXdPmNJ0Y8ARaCCbeKw==";
+        };
+        _zTQQbm43 = {
+            "id" = "zTQQbm43";
+            "file" = "neoorigins-2.2.33+26.2.jar";
+            "hash" = "sha512-BpSkt43OgSfeZUQ8kUjEYbLHk6/9Z3O4M5gaAF6CFWENaSOZujlM384yuQhe8fCGsJMvuTyzHuT3BdnoB7thzg==";
+        };
+        _2MdFCf4Y = {
+            "id" = "2MdFCf4Y";
+            "file" = "neoorigins-2.2.33+26.3.jar";
+            "hash" = "sha512-jscXFF0YOj7Gve0TJVk+Jkw5hPVzOvLuDAV1C4rxZDxXCpDPEB7hI+4Sr0bA4soyeIr2vFzk6LV9Qxx5VGDalg==";
+        };
+        _PeImMXdG = {
+            "id" = "PeImMXdG";
+            "file" = "neoorigins-2.2.33+1.21.1.jar";
+            "hash" = "sha512-OodNuLY8jlRW72v2p0mdxQrz7I26XawqU88jG9Q7fy9OHdo1KasBXn/ASWSTAMIHqdS7/5UcgxmVEByVSKMx0g==";
+        };
     in {
         "kc9fbVPt" = _kc9fbVPt;
         "C2PAziRU" = _C2PAziRU;
@@ -1442,12 +1462,16 @@ let
         "Vmkx1lTO" = _Vmkx1lTO;
         "cxbtQj1E" = _cxbtQj1E;
         "RIUMdHk8" = _RIUMdHk8;
-        "neoforge-26.1" = _aLbj1Wgq;
-        "neoforge-26.1.1" = _aLbj1Wgq;
-        "neoforge-1.21.1" = _RIUMdHk8;
-        "neoforge-26.1.2" = _aLbj1Wgq;
-        "neoforge-26.2" = _Vmkx1lTO;
-        "neoforge-26.3" = _cxbtQj1E;
+        "TLdLeB6g" = _TLdLeB6g;
+        "zTQQbm43" = _zTQQbm43;
+        "2MdFCf4Y" = _2MdFCf4Y;
+        "PeImMXdG" = _PeImMXdG;
+        "neoforge-26.1" = _TLdLeB6g;
+        "neoforge-26.1.1" = _TLdLeB6g;
+        "neoforge-1.21.1" = _PeImMXdG;
+        "neoforge-26.1.2" = _TLdLeB6g;
+        "neoforge-26.2" = _zTQQbm43;
+        "neoforge-26.3" = _2MdFCf4Y;
         "pkg-1.0.0" = _kc9fbVPt;
         "pkg-v1.1.0" = _C2PAziRU;
         "pkg-v1.2.0+26.1" = _rD7fIk7L;
@@ -1680,7 +1704,11 @@ let
         "pkg-v2.2.32+26.2" = _Vmkx1lTO;
         "pkg-v2.2.32+26.3" = _cxbtQj1E;
         "pkg-v2.2.32+1.21.1" = _RIUMdHk8;
-        "default" = _RIUMdHk8;
+        "pkg-v2.2.33+26.1" = _TLdLeB6g;
+        "pkg-v2.2.33+26.2" = _zTQQbm43;
+        "pkg-v2.2.33+26.3" = _2MdFCf4Y;
+        "pkg-v2.2.33+1.21.1" = _PeImMXdG;
+        "default" = _PeImMXdG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neo-origins";

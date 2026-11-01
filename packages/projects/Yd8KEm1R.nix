@@ -56,6 +56,11 @@ let
             "file" = "Bare Bones 3D Tools (v 1.4.2).zip";
             "hash" = "sha512-lIF8xElk7+iINsyhnYDsUVWF2elhfBo9Ck+ddpe5Pir1ofQyUgM8Jb85bbDwX/d3UbF38QY/YXUpilRG7l3/1w==";
         };
+        _yyiLWxwW = {
+            "id" = "yyiLWxwW";
+            "file" = "Bare Bones 3D Tools (v 1.5.1).zip";
+            "hash" = "sha512-NhwRsHW50ZeQg6MoArwd5l5AyIw03NUJqjtdlKMmvThc9KR+QNyvxGTlLm69Is0e1s0RgKucDUOxGfAuKiebdA==";
+        };
     in {
         "12EbY84y" = _12EbY84y;
         "bPF72q0y" = _bPF72q0y;
@@ -68,18 +73,19 @@ let
         "gNMODD61" = _gNMODD61;
         "FPs9AGtq" = _FPs9AGtq;
         "VukAfewG" = _VukAfewG;
-        "minecraft-1.21.6" = _VukAfewG;
-        "minecraft-1.21.7" = _VukAfewG;
-        "minecraft-1.21.8" = _VukAfewG;
-        "minecraft-1.21.9" = _VukAfewG;
-        "minecraft-1.21.10" = _VukAfewG;
-        "minecraft-1.21.11" = _VukAfewG;
-        "minecraft-26.1" = _VukAfewG;
-        "minecraft-26.1.1" = _VukAfewG;
-        "minecraft-26.1.2" = _VukAfewG;
-        "minecraft-26.2" = _VukAfewG;
-        "minecraft-1.21.5" = _VukAfewG;
-        "minecraft-26.3" = _VukAfewG;
+        "yyiLWxwW" = _yyiLWxwW;
+        "minecraft-1.21.6" = _yyiLWxwW;
+        "minecraft-1.21.7" = _yyiLWxwW;
+        "minecraft-1.21.8" = _yyiLWxwW;
+        "minecraft-1.21.9" = _yyiLWxwW;
+        "minecraft-1.21.10" = _yyiLWxwW;
+        "minecraft-1.21.11" = _yyiLWxwW;
+        "minecraft-26.1" = _yyiLWxwW;
+        "minecraft-26.1.1" = _yyiLWxwW;
+        "minecraft-26.1.2" = _yyiLWxwW;
+        "minecraft-26.2" = _yyiLWxwW;
+        "minecraft-1.21.5" = _yyiLWxwW;
+        "minecraft-26.3" = _yyiLWxwW;
         "pkg-1.0" = _12EbY84y;
         "pkg-1.1.1" = _bPF72q0y;
         "pkg-1.1.2" = _FBS0NvyT;
@@ -91,7 +97,8 @@ let
         "pkg-1.4" = _gNMODD61;
         "pkg-1.4.1" = _FPs9AGtq;
         "pkg-1.4.2" = _VukAfewG;
-        "default" = _VukAfewG;
+        "pkg-1.5.1" = _yyiLWxwW;
+        "default" = _yyiLWxwW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bare-bones-3d-tools";

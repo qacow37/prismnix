@@ -556,6 +556,16 @@ let
             "file" = "extshape_blockus-fabric-3.2.0+mc1.20.1.jar";
             "hash" = "sha512-fcX8ygu+q+vwcKIMh6+VN0LJIRuiEqIQxoBn2/xvibz6xpWpUHA33ozxLc8NKNwjXIFsE1acHWZpPXKJQOR46g==";
         };
+        _2u58OquP = {
+            "id" = "2u58OquP";
+            "file" = "extshape_blockus-fabric-3.2.1+mc26.1.2.jar";
+            "hash" = "sha512-2R0G3gIWtbS7+xwcrc1sHBrnRSDEYwi1XjXKpPg2OJqE0OcKtR/E6HbdNEdCYk+Jb3+wbCgikDmONAaEBfnfoQ==";
+        };
+        _2FNHKKYP = {
+            "id" = "2FNHKKYP";
+            "file" = "extshape_blockus-fabric-3.2.1+mc26.2.jar";
+            "hash" = "sha512-xEdDZ98vyyuUSPMRVk7zi3IEEEWNzyD3PAOvhp7nbG+4aHMGc/R/H4Gd1P9mtiUd4FGATpKriGFL+MBG1tj3zA==";
+        };
     in {
         "vhstp9vF" = _vhstp9vF;
         "3E45KKSi" = _3E45KKSi;
@@ -668,6 +678,8 @@ let
         "5L1tXVwL" = _5L1tXVwL;
         "nZMdPg32" = _nZMdPg32;
         "eQxJxtz1" = _eQxJxtz1;
+        "2u58OquP" = _2u58OquP;
+        "2FNHKKYP" = _2FNHKKYP;
         "fabric-1.19.4" = _zz8QgUqO;
         "fabric-1.18.2" = _cSeJEqP2;
         "fabric-1.19.2" = _OR9LyPKc;
@@ -693,10 +705,10 @@ let
         "fabric-1.21.9" = _aF6JMsQ2;
         "fabric-1.21.10" = _aF6JMsQ2;
         "fabric-1.21.11" = _GykWGqe0;
-        "fabric-26.1" = _jndOAIrX;
-        "fabric-26.1.1" = _jndOAIrX;
-        "fabric-26.2" = _izn5D4FS;
-        "fabric-26.1.2" = _jndOAIrX;
+        "fabric-26.1" = _2u58OquP;
+        "fabric-26.1.1" = _2u58OquP;
+        "fabric-26.2" = _2FNHKKYP;
+        "fabric-26.1.2" = _2u58OquP;
         "pkg-1.9.0-beta.1-fabric-1.19.4" = _vhstp9vF;
         "pkg-1.9.0-fabric-1.19.4" = _3E45KKSi;
         "pkg-2.0.0" = _cdYcc6SJ;
@@ -801,7 +813,9 @@ let
         "pkg-3.2.0+mc1.21.3" = _5L1tXVwL;
         "pkg-3.2.0+mc1.21.1" = _nZMdPg32;
         "pkg-3.2.0+mc1.20.1" = _eQxJxtz1;
-        "default" = _eQxJxtz1;
+        "pkg-3.2.1+mc26.1.2" = _2u58OquP;
+        "pkg-3.2.1+mc26.2" = _2FNHKKYP;
+        "default" = _2FNHKKYP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extshape_blockus";

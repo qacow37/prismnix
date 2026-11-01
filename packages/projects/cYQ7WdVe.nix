@@ -41,6 +41,16 @@ let
             "file" = "retrofactorymanager-1.21.1-1.0.4.jar";
             "hash" = "sha512-GGqGL7yKmcNFbx+Ll9lww7igwO8FAS1E0tCoftUWBXcJjzmICqouW/hbzST/kXMaCl1nIADVw0A180Fkr4FT4w==";
         };
+        _gw2QBwrz = {
+            "id" = "gw2QBwrz";
+            "file" = "retrofactorymanager-1.21.1-1.0.5.jar";
+            "hash" = "sha512-bxX59oDYqHh7SimT415OqY6c2xeRQDliPEzT9pshRdBL8SctpdnG0cW2wSUu0sPPf+G6N2NmSTUxTtzQNF/OwA==";
+        };
+        _uOSnGuwX = {
+            "id" = "uOSnGuwX";
+            "file" = "retrofactorymanager-26.1.2-1.0.5.jar";
+            "hash" = "sha512-01c3tFUX7tyKnoVXCf2jnnueyjjILu4NM5q8aeZ5MXHzep9wG+SfHA6/yCByI1+jkUkBbcoHwVxuz8i+fP0KXw==";
+        };
     in {
         "MNDcg9DZ" = _MNDcg9DZ;
         "aiK0YSJN" = _aiK0YSJN;
@@ -50,10 +60,12 @@ let
         "zu22tDwi" = _zu22tDwi;
         "BACqgATR" = _BACqgATR;
         "nSUy12NS" = _nSUy12NS;
+        "gw2QBwrz" = _gw2QBwrz;
+        "uOSnGuwX" = _uOSnGuwX;
         "neoforge-26.1" = _MNDcg9DZ;
         "neoforge-26.1.1" = _MNDcg9DZ;
-        "neoforge-26.1.2" = _BACqgATR;
-        "neoforge-1.21.1" = _nSUy12NS;
+        "neoforge-26.1.2" = _uOSnGuwX;
+        "neoforge-1.21.1" = _gw2QBwrz;
         "pkg-1.0.0" = _MNDcg9DZ;
         "pkg-26.1.2-1.0.1" = _aiK0YSJN;
         "pkg-1.21.1-1.0.1" = _bWNEPPAi;
@@ -62,7 +74,9 @@ let
         "pkg-1.21.1-1.0.3" = _zu22tDwi;
         "pkg-26.1.2-1.0.3" = _BACqgATR;
         "pkg-1.21.1-1.0.4" = _nSUy12NS;
-        "default" = _nSUy12NS;
+        "pkg-1.21.1-1.0.5" = _gw2QBwrz;
+        "pkg-26.1.2-1.0.5" = _uOSnGuwX;
+        "default" = _uOSnGuwX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "super-factory-manager-retro";

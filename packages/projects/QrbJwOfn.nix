@@ -61,6 +61,11 @@ let
             "file" = "ae2ltpp-1.2.3.jar";
             "hash" = "sha512-sY6PGzvvkRW417VeDJ08HDkfoE8MNGA42Pmk2Eaj+QsBIdeW790XttOf8zPC51QjIv8htOu3YGcH1toKYKolbg==";
         };
+        _vpinaRV8 = {
+            "id" = "vpinaRV8";
+            "file" = "ae2ltpp-1.2.4.jar";
+            "hash" = "sha512-jnP6K1OdfDjfBAlSQkCxl/mwx/IImys4Hlnbh7WUa2TYlXwLTj9r2Yacdk4w+yGNtwwTgK9Sq+W9es7pc02sMg==";
+        };
     in {
         "sHCYUdOr" = _sHCYUdOr;
         "iTehfd8X" = _iTehfd8X;
@@ -74,7 +79,8 @@ let
         "EuDTVbOQ" = _EuDTVbOQ;
         "P6TncGXV" = _P6TncGXV;
         "YeSj4awV" = _YeSj4awV;
-        "neoforge-1.21.1" = _YeSj4awV;
+        "vpinaRV8" = _vpinaRV8;
+        "neoforge-1.21.1" = _vpinaRV8;
         "forge-1.20.1" = _P6TncGXV;
         "pkg-1.0.0" = _sHCYUdOr;
         "pkg-1.0.1" = _iTehfd8X;
@@ -88,7 +94,8 @@ let
         "pkg-1.2.2" = _EuDTVbOQ;
         "pkg-1.2.2-beta2-forge.1.20.1" = _P6TncGXV;
         "pkg-1.2.3" = _YeSj4awV;
-        "default" = _YeSj4awV;
+        "pkg-1.2.4" = _vpinaRV8;
+        "default" = _vpinaRV8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2lt-packaged-pattern-provider";

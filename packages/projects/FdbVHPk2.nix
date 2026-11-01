@@ -631,6 +631,11 @@ let
             "file" = "reignofnether-1.5.1.jar";
             "hash" = "sha512-q/sUpkmELevcO6YF1a9nl5GnpZvnZuSn4IokB11pyQOD57xS+f6awMGOVuqzooVMrjnVp1zuECvUqwOnK96Q4A==";
         };
+        _FSSwRRes = {
+            "id" = "FSSwRRes";
+            "file" = "reignofnether-1.5.1a.jar";
+            "hash" = "sha512-IgJtg8+WxbLfTZjFXITATbOcZhlXjTe8L/nrBKgTzZAhR0lKWa4YLPCmv3Y1W11KGTSNGQBJTTKrqTAcnK0pvw==";
+        };
     in {
         "B5466OCK" = _B5466OCK;
         "14SL9xZ8" = _14SL9xZ8;
@@ -758,9 +763,10 @@ let
         "zKURHMzt" = _zKURHMzt;
         "BpeAy6l2" = _BpeAy6l2;
         "b7UOpy8L" = _b7UOpy8L;
+        "FSSwRRes" = _FSSwRRes;
         "forge-1.19.2" = _p0YYsOrc;
         "forge-1.19.1" = _p0YYsOrc;
-        "forge-1.20.1" = _b7UOpy8L;
+        "forge-1.20.1" = _FSSwRRes;
         "pkg-1.0.1" = _B5466OCK;
         "pkg-1.0.2" = _14SL9xZ8;
         "pkg-1.0.3" = _5I4zAcYu;
@@ -886,7 +892,8 @@ let
         "pkg-1.5.0a" = _zKURHMzt;
         "pkg-1.5.0b" = _BpeAy6l2;
         "pkg-1.5.1" = _b7UOpy8L;
-        "default" = _b7UOpy8L;
+        "pkg-1.5.1a" = _FSSwRRes;
+        "default" = _FSSwRRes;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reign-of-nether-rts";

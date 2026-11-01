@@ -141,6 +141,46 @@ let
             "file" = "offlineskins-reloaded-26.3-fabric-1.2.1.jar";
             "hash" = "sha512-RUyYHkuozDkwPA5LeibK4uvfEkXNvX8CdeaKdW2LRbItzbAi7h9Wr8sfEA4G2yFXAOAxQI3mbDZU734qBIu52A==";
         };
+        _zn1Oo3gY = {
+            "id" = "zn1Oo3gY";
+            "file" = "offlineskins-reloaded-1.21.6-1.21.8-Fabric-1.2.2.jar";
+            "hash" = "sha512-y3FaGT7sx4jneUfdYO336Do3yKTcTFOtxJcZW4NmuKtNoiIaMFXxdCNzzwrKRnexdaZEsWvO+cJrHxstDjh2bA==";
+        };
+        _2rPtZmJB = {
+            "id" = "2rPtZmJB";
+            "file" = "offlineskins-reloaded-1.21.10-Fabric-1.2.2.jar";
+            "hash" = "sha512-8Y+eCqhVbLGlYb98taulGEuL0JaXcEnh1GLV6abmlm0VOo/rRgrlaPy3pbjViLoMbNgbrYN/nP6y0URcBMLBlg==";
+        };
+        _lwXA1RRy = {
+            "id" = "lwXA1RRy";
+            "file" = "offlineskins-reloaded-1.21.11-Fabric-1.2.2.jar";
+            "hash" = "sha512-BJZS2X+eFSGyaSGNIG9CLKiz1ax/N22v+CTPbLYOv+IZZvfawIYN2OOgQouohPvq+0yVOFMGXh1K19Kk3RbrLA==";
+        };
+        _XtOoMEBn = {
+            "id" = "XtOoMEBn";
+            "file" = "offlineskins-reloaded-26.1-26.1.2-Fabric-1.2.2.jar";
+            "hash" = "sha512-sMPQvUl1IeJy7y0ox5XjbER+zf1xtOQUm1ErxtHdO5FnEKX5cmQ7jiSd3RhBfeMIphocLcWu50auG4WvJAN0vw==";
+        };
+        _AQKYCDpv = {
+            "id" = "AQKYCDpv";
+            "file" = "offlineskins-reloaded-26.2-Fabric-1.2.2.jar";
+            "hash" = "sha512-oQBSmPUcbZgp1TGeERfnJZSVEUwIUg1TaAOAWJIwON3QaWURJtZdHc/ugZMSR1iGsV3V2sgiTipdzorWZdKFcQ==";
+        };
+        _CceUbvcJ = {
+            "id" = "CceUbvcJ";
+            "file" = "offlineskins-reloaded-26.3-Fabric-1.2.2.jar";
+            "hash" = "sha512-RZY5DSW1yCFxHwwPEO8k4WLeHHwXgtgfy2D4aIWCpZfYBJk9ICERSt+VzRS+ZkKOXMhKZooTj3OzW3GI+EgJQA==";
+        };
+        _TRHnBtkw = {
+            "id" = "TRHnBtkw";
+            "file" = "offlineskins-reloaded-1.20.1-Forge-1.2.2.jar";
+            "hash" = "sha512-6HQ52e2lbKf6fuXi41TOHBR694zRaSAW0iaz70kobwWxPMOCDT+83+TTFUPE3ljgrstGpKI3KSyH3NVm+MnWEQ==";
+        };
+        _xYUsRAQn = {
+            "id" = "xYUsRAQn";
+            "file" = "offlineskins-reloaded-1.21.1-NeoForge-1.2.2.jar";
+            "hash" = "sha512-L8+zO8z6nlNYZVzyEEsGlV/QLANTHo/MbeRSlDqgtcsedHqeDVlGRUakvAyv/lbnO7/FbaJIk+gQ7MgBuTXY3g==";
+        };
     in {
         "AWR4KP7i" = _AWR4KP7i;
         "gR36C0HR" = _gR36C0HR;
@@ -170,17 +210,27 @@ let
         "XnekFQGj" = _XnekFQGj;
         "yOODNyiM" = _yOODNyiM;
         "sdAjqcp2" = _sdAjqcp2;
-        "fabric-1.21.11" = _OB70I8Kl;
+        "zn1Oo3gY" = _zn1Oo3gY;
+        "2rPtZmJB" = _2rPtZmJB;
+        "lwXA1RRy" = _lwXA1RRy;
+        "XtOoMEBn" = _XtOoMEBn;
+        "AQKYCDpv" = _AQKYCDpv;
+        "CceUbvcJ" = _CceUbvcJ;
+        "TRHnBtkw" = _TRHnBtkw;
+        "xYUsRAQn" = _xYUsRAQn;
+        "fabric-1.21.11" = _lwXA1RRy;
         "fabric-1.21.9" = _er1Gai5G;
-        "fabric-1.21.10" = _OjRw8MpI;
-        "fabric-1.21.6" = _MfixxXTG;
-        "fabric-1.21.7" = _MfixxXTG;
-        "fabric-1.21.8" = _MfixxXTG;
-        "fabric-26.1" = _XnekFQGj;
-        "fabric-26.1.1" = _XnekFQGj;
-        "fabric-26.1.2" = _XnekFQGj;
-        "fabric-26.2" = _yOODNyiM;
-        "fabric-26.3" = _sdAjqcp2;
+        "fabric-1.21.10" = _2rPtZmJB;
+        "fabric-1.21.6" = _zn1Oo3gY;
+        "fabric-1.21.7" = _zn1Oo3gY;
+        "fabric-1.21.8" = _zn1Oo3gY;
+        "fabric-26.1" = _XtOoMEBn;
+        "fabric-26.1.1" = _XtOoMEBn;
+        "fabric-26.1.2" = _XtOoMEBn;
+        "fabric-26.2" = _AQKYCDpv;
+        "fabric-26.3" = _CceUbvcJ;
+        "forge-1.20.1" = _TRHnBtkw;
+        "neoforge-1.21.1" = _xYUsRAQn;
         "pkg-1.21.11-fabric" = _AWR4KP7i;
         "pkg-1.1.0" = _NCFeU8N9;
         "pkg-1.1.1" = _er1Gai5G;
@@ -188,7 +238,10 @@ let
         "pkg-1.2.0-pre2" = _Mo1A8dzu;
         "pkg-1.2.0" = _WzcZoV4j;
         "pkg-1.2.1" = _sdAjqcp2;
-        "default" = _sdAjqcp2;
+        "pkg-1.2.2-Fabric" = _CceUbvcJ;
+        "pkg-1.2.2-Forge" = _TRHnBtkw;
+        "pkg-1.2.2-NeoForge" = _xYUsRAQn;
+        "default" = _xYUsRAQn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "offlineskins-reloaded";

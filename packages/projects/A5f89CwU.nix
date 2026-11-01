@@ -96,6 +96,26 @@ let
             "file" = "elotiers-fabric-26.3-1.1.1.jar";
             "hash" = "sha512-nlkXtqNsTrvA0PQCPoW/Cf5lYYYYSv51IGheOKH4G0Mt7n+4x4u0gK4FQlCH1I9nBYjH3jJdUP53+7OMhCn8gA==";
         };
+        _UCSQ17ha = {
+            "id" = "UCSQ17ha";
+            "file" = "elotiers-fabric-1.21.11-1.1.2.jar";
+            "hash" = "sha512-QRipik0NgWIQEnSjN443ZMCWzqCmEWr37D0Qb5L9I6q8hB+wYFFPrSWVbtVqqpriObo1wDVW/ndrmcFYNLORcg==";
+        };
+        _Fpca97XB = {
+            "id" = "Fpca97XB";
+            "file" = "elotiers-fabric-26.1.2-1.1.2.jar";
+            "hash" = "sha512-xsyuAzbuUh9oQhdAHTQ6Rk0NX48jITHzCUDh3POVNFJr+WO6/nSlr9gMMauE0GAP/zgAhcxZ1TbbeGrGe1aPfQ==";
+        };
+        _zKOoR0cm = {
+            "id" = "zKOoR0cm";
+            "file" = "elotiers-fabric-26.2-1.1.2.jar";
+            "hash" = "sha512-i+CCX6HPNltZcokE4C0hPl6HAMYJ/FA0sw1pTVF7Y6D1hUivtenly4mZAggulTGsBzJXnNnnhYpNgXgb5S3ehg==";
+        };
+        _KvViw2D1 = {
+            "id" = "KvViw2D1";
+            "file" = "elotiers-fabric-26.3-1.1.2.jar";
+            "hash" = "sha512-B39nx9FHbIWqzBma8wLNWYDdtOuxOuWuMkU4cBgaWQ9j+N0vanILMxbwqDpPh7r9URHIgIwb88KDhyEpKKeRDw==";
+        };
     in {
         "djwDAk91" = _djwDAk91;
         "VJDBeyFF" = _VJDBeyFF;
@@ -116,10 +136,14 @@ let
         "PtE18jWM" = _PtE18jWM;
         "Gw7pIjrP" = _Gw7pIjrP;
         "qUGBUmg5" = _qUGBUmg5;
-        "fabric-1.21.11" = _94tP7XLZ;
-        "fabric-26.1.2" = _PtE18jWM;
-        "fabric-26.2" = _Gw7pIjrP;
-        "fabric-26.3" = _qUGBUmg5;
+        "UCSQ17ha" = _UCSQ17ha;
+        "Fpca97XB" = _Fpca97XB;
+        "zKOoR0cm" = _zKOoR0cm;
+        "KvViw2D1" = _KvViw2D1;
+        "fabric-1.21.11" = _UCSQ17ha;
+        "fabric-26.1.2" = _Fpca97XB;
+        "fabric-26.2" = _zKOoR0cm;
+        "fabric-26.3" = _KvViw2D1;
         "pkg-1.0.0" = _djwDAk91;
         "pkg-1.0.1" = _MSsmGi9D;
         "pkg-1.0.2" = _Lr4TuwkX;
@@ -129,7 +153,8 @@ let
         "pkg-1.0.6" = _c91vkNTn;
         "pkg-1.1.0" = _1nZ4N4oM;
         "pkg-1.1.1" = _qUGBUmg5;
-        "default" = _qUGBUmg5;
+        "pkg-1.1.2" = _KvViw2D1;
+        "default" = _KvViw2D1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elotiers";

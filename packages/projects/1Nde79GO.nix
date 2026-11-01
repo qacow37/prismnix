@@ -171,6 +171,16 @@ let
             "file" = "floralis-31.1.0.jar";
             "hash" = "sha512-OWWC7E2CSTXkfVftOGhlj+eBkgXgmehANsjAH1evTqh27ZrlGJAoLSCzE3gkFDvXcPze3mn4UKWqBwTMzrePAA==";
         };
+        _h0Lex4Gb = {
+            "id" = "h0Lex4Gb";
+            "file" = "floralis-16.2.0.jar";
+            "hash" = "sha512-rqFYg3OI2bicHiVKAyF6s/9wd7y4nKjl6YmQ8MnWcAPBDowyBhQq6ph4w2Dlr7PTnm55r0np52yF6Cd87MNtJQ==";
+        };
+        _Qztyol3s = {
+            "id" = "Qztyol3s";
+            "file" = "floralis-17.1.0.jar";
+            "hash" = "sha512-FY2WBzzjDCLcJYHqmI4GAJYCCQhYuSkLIzsh8SOXAxfXq2nFvwTt+acOy0L3E3BqE2539Pd7SY9fAC4gJV2F/w==";
+        };
     in {
         "fwhEGsoa" = _fwhEGsoa;
         "ImL9PHoB" = _ImL9PHoB;
@@ -206,6 +216,8 @@ let
         "GYodVCEe" = _GYodVCEe;
         "pWDFR3si" = _pWDFR3si;
         "Ia3dhPEz" = _Ia3dhPEz;
+        "h0Lex4Gb" = _h0Lex4Gb;
+        "Qztyol3s" = _Qztyol3s;
         "forge-1.20.1" = _wS9vTU6m;
         "forge-1.20" = _ImL9PHoB;
         "neoforge-1.20.1" = _wS9vTU6m;
@@ -215,8 +227,8 @@ let
         "neoforge-1.20.4" = _Aj3dT2JD;
         "neoforge-1.20.5" = _xAHMTMjJ;
         "neoforge-1.20.6" = _RKTR2rAp;
-        "neoforge-1.21" = _GAFZuaQY;
-        "neoforge-1.21.1" = _Yx82UhBz;
+        "neoforge-1.21" = _h0Lex4Gb;
+        "neoforge-1.21.1" = _Qztyol3s;
         "neoforge-1.21.2" = _eHk8dVhg;
         "neoforge-1.21.3" = _TAbAOkL3;
         "neoforge-1.21.4" = _xH63rVSx;
@@ -265,7 +277,9 @@ let
         "pkg-29.1.0" = _GYodVCEe;
         "pkg-30.1.0" = _pWDFR3si;
         "pkg-31.1.0" = _Ia3dhPEz;
-        "default" = _Ia3dhPEz;
+        "pkg-16.2.0" = _h0Lex4Gb;
+        "pkg-17.1.0" = _Qztyol3s;
+        "default" = _Qztyol3s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "floralis";

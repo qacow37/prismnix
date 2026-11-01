@@ -176,6 +176,71 @@ let
             "file" = "fantasy-weapons-1.0-26.3-fabric.jar";
             "hash" = "sha512-y0tT2fjezNdwIGDS2eU7cvcu0BfOXqDmZyK8qQRPB7N7iqbXZ9NnZ0ryaM2ecephR2Zo5xptCFoXbupKaPYtPQ==";
         };
+        _cR7l6DqA = {
+            "id" = "cR7l6DqA";
+            "file" = "fantasy-weapons-1.0-1.14.4-fabric.jar";
+            "hash" = "sha512-XDmJ8PbDTGu2Ac0emrg7dFA2ezDRB/SK8pZ/22PUmWaJ6pBvOw/Zv7FqnboDps/aE2SDz4tPxHK2/iiTz7woCQ==";
+        };
+        _J7iJhxXT = {
+            "id" = "J7iJhxXT";
+            "file" = "fantasy-weapons-1.0-1.15.2-fabric.jar";
+            "hash" = "sha512-ea5+2IgeXb8S0z8fjghRb1oKB5PVtjq8fIqB4/1xIQyhB93ELFurCSKLkHZli4AfY25h8uhSOpP2v2ZnmlAWcg==";
+        };
+        _oWGXjKNs = {
+            "id" = "oWGXjKNs";
+            "file" = "fantasy-weapons-1.0-1.16.5-fabric.jar";
+            "hash" = "sha512-Fc68IS/1nYUogJKL4KCujxNlzTcR8N2qejv8QNt1atMtrLSNpg1UmLYNNKpkWF2EfYyI4oZ3CZSG5hFIQgWPSg==";
+        };
+        _wGR0BnxI = {
+            "id" = "wGR0BnxI";
+            "file" = "fantasy-weapons-1.0-1.18.2-fabric.jar";
+            "hash" = "sha512-BH5y2lvT0YBufh+E73KbzTP/K6X0ikqUUboasQXX1+a+6fN6SvqdjEF5HLVsXktsqv9ADUtExbsLMwPm+Io42w==";
+        };
+        _gmGnFnUv = {
+            "id" = "gmGnFnUv";
+            "file" = "fantasy-weapons-1.0-1.19.2-fabric.jar";
+            "hash" = "sha512-0lDtoCCckR15A40dxDxmaRYAED0QYEEOt5Xf6O2vZzQmE19b6qzGOKrkLZLnYk+TfI4qlNewxCTqqrsiAkraBA==";
+        };
+        _RckwgGkz = {
+            "id" = "RckwgGkz";
+            "file" = "fantasy-weapons-1.0-1.19.3-fabric.jar";
+            "hash" = "sha512-xdohd788db4MpKyi1xL3BHt63tjvNX57ikpGU/5vO9U6ZgN5CptQ7zrXMs7Y+Uh9XgmmFC3GbKNah5LIGGNjEg==";
+        };
+        _YZHwLUPS = {
+            "id" = "YZHwLUPS";
+            "file" = "fantasy-weapons-1.0-1.12.2-forge.jar";
+            "hash" = "sha512-QU9rJKqOOpwHteFcVrqUsXqNu3LlTUAwTacuEK9LAv7HX1IyCqASA565b6doM3WnXgilSdD/ojRe6445jojW1Q==";
+        };
+        _J1GAP5Zy = {
+            "id" = "J1GAP5Zy";
+            "file" = "fantasy-weapons-1.0-1.14.4-forge.jar";
+            "hash" = "sha512-gfW/JDvXQQHTONFwjcbq22Eige4pgUibnDCrhwaDwLBDAez7aWQ7ZQYSYmSR0MfDIMYqitq1kHeYo6Hc4+lbQg==";
+        };
+        _pFKpj3L6 = {
+            "id" = "pFKpj3L6";
+            "file" = "fantasy-weapons-1.0-1.15.2-forge.jar";
+            "hash" = "sha512-2yx3bX644nBR4N8A41RiCMOzzGwJi395xrb/Qa4znqkvs25FemZNZSbgIIWJmieIQACO6tz9lYI10A0Rrc3NhQ==";
+        };
+        _izpAaalF = {
+            "id" = "izpAaalF";
+            "file" = "fantasy-weapons-1.0-1.16.5-forge.jar";
+            "hash" = "sha512-OZa+eObR37XEHo62PBBFh7kEtOG9/jctTg6wHqqL0mtXkIBxA9q+kqkwDVDA8CbREDu/OraWS9109dvhoAhllA==";
+        };
+        _Q2esQ5PP = {
+            "id" = "Q2esQ5PP";
+            "file" = "fantasy-weapons-1.0-1.18.2-forge.jar";
+            "hash" = "sha512-qVJy/en4AhJKNfNI7QSP/UuMnjtAyTv9/SQUYQfG40k7d9+qIK3eMcSwheI0ftLVmdtEFoOCqd9Y6etfgf828w==";
+        };
+        _CK1sN0zN = {
+            "id" = "CK1sN0zN";
+            "file" = "fantasy-weapons-1.0-1.19.2-forge.jar";
+            "hash" = "sha512-n/iQUd6U+ifRWOlX5fb3qGG3amHVyCdHnDVWhlJ27+6/fIYBtSxF50yxGNP/RYPU8kVFiEkolKBjVw20nR4w4w==";
+        };
+        _qUkmsoJx = {
+            "id" = "qUkmsoJx";
+            "file" = "fantasy-weapons-1.0-1.19.3-forge.jar";
+            "hash" = "sha512-eT3Q9r4E0QKNUvY2VtaZk5+t1G6d5u9TM3Uk1cPFHkxS9qBw77u6Xp7K96ca676nDiNQ6krrDrNvGKeMslBoTg==";
+        };
     in {
         "yGK02t6B" = _yGK02t6B;
         "qzPZUl49" = _qzPZUl49;
@@ -212,6 +277,19 @@ let
         "yT6EOQr9" = _yT6EOQr9;
         "xZ5qzG6c" = _xZ5qzG6c;
         "2CF9PhPx" = _2CF9PhPx;
+        "cR7l6DqA" = _cR7l6DqA;
+        "J7iJhxXT" = _J7iJhxXT;
+        "oWGXjKNs" = _oWGXjKNs;
+        "wGR0BnxI" = _wGR0BnxI;
+        "gmGnFnUv" = _gmGnFnUv;
+        "RckwgGkz" = _RckwgGkz;
+        "YZHwLUPS" = _YZHwLUPS;
+        "J1GAP5Zy" = _J1GAP5Zy;
+        "pFKpj3L6" = _pFKpj3L6;
+        "izpAaalF" = _izpAaalF;
+        "Q2esQ5PP" = _Q2esQ5PP;
+        "CK1sN0zN" = _CK1sN0zN;
+        "qUkmsoJx" = _qUkmsoJx;
         "forge-1.20.1" = _dTou3aLk;
         "forge-1.20.2" = _dTou3aLk;
         "forge-1.20.3" = _dTou3aLk;
@@ -223,6 +301,13 @@ let
         "forge-26.1.2" = _Vk1hss0s;
         "forge-26.2" = _D2UXdh3b;
         "forge-26.3" = _EfZV1Uie;
+        "forge-1.12.2" = _YZHwLUPS;
+        "forge-1.14.4" = _J1GAP5Zy;
+        "forge-1.15.2" = _pFKpj3L6;
+        "forge-1.16.5" = _izpAaalF;
+        "forge-1.18.2" = _Q2esQ5PP;
+        "forge-1.19.2" = _CK1sN0zN;
+        "forge-1.19.3" = _qUkmsoJx;
         "fabric-1.20.1" = _dg2h3enZ;
         "fabric-1.20.2" = _TVb9nM4P;
         "fabric-1.20.3" = _TVb9nM4P;
@@ -233,6 +318,12 @@ let
         "fabric-26.1.2" = _yT6EOQr9;
         "fabric-26.2" = _xZ5qzG6c;
         "fabric-26.3" = _2CF9PhPx;
+        "fabric-1.14.4" = _cR7l6DqA;
+        "fabric-1.15.2" = _J7iJhxXT;
+        "fabric-1.16.5" = _oWGXjKNs;
+        "fabric-1.18.2" = _wGR0BnxI;
+        "fabric-1.19.2" = _gmGnFnUv;
+        "fabric-1.19.3" = _RckwgGkz;
         "neoforge-1.21.1" = _KTq0GVPl;
         "neoforge-1.21.10" = _Hv0fZcD2;
         "neoforge-1.21.11" = _GPa96T1a;
@@ -252,7 +343,14 @@ let
         "pkg-1.0-26.1.2" = _yT6EOQr9;
         "pkg-1.0-26.2" = _xZ5qzG6c;
         "pkg-1.0-26.3" = _2CF9PhPx;
-        "default" = _2CF9PhPx;
+        "pkg-1.0-1.14.4" = _J1GAP5Zy;
+        "pkg-1.0-1.15.2" = _pFKpj3L6;
+        "pkg-1.0-1.16.5" = _izpAaalF;
+        "pkg-1.0-1.18.2" = _Q2esQ5PP;
+        "pkg-1.0-1.19.2" = _CK1sN0zN;
+        "pkg-1.0-1.19.3" = _qUkmsoJx;
+        "pkg-1.0-1.12.2" = _YZHwLUPS;
+        "default" = _qUkmsoJx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasy_weapons";

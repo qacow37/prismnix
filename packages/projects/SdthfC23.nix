@@ -26,12 +26,18 @@ let
             "file" = "zoomsensitivityfix-fabric-1.0.4.jar";
             "hash" = "sha512-gxXOD4A62632yoKOeFRbYC4XpoYFffIKnO8ozrT8rUOmLGHqqRqwAHvURMzfwP7upRJGp10DEQb20Lu++8SWCQ==";
         };
+        _DvzTu0TO = {
+            "id" = "DvzTu0TO";
+            "file" = "zoomsensitivityfix-fabric-1.0.5.jar";
+            "hash" = "sha512-F/3GLK1IhevRcFWef8Y0anku00KM5GB6gSiGu3rNEVvykqc1agSxcrz8x+AFwL74fg9MQBgfVJdzfCn7STsoOA==";
+        };
     in {
         "BmVjPAEz" = _BmVjPAEz;
         "RVxNUzM5" = _RVxNUzM5;
         "IwLIzA9D" = _IwLIzA9D;
         "yrXN2os2" = _yrXN2os2;
         "6XuLvwWk" = _6XuLvwWk;
+        "DvzTu0TO" = _DvzTu0TO;
         "fabric-1.21.4" = _BmVjPAEz;
         "fabric-1.21.7" = _RVxNUzM5;
         "fabric-1.21.8" = _RVxNUzM5;
@@ -40,12 +46,14 @@ let
         "fabric-26.1.1" = _yrXN2os2;
         "fabric-26.1.2" = _yrXN2os2;
         "fabric-26.2" = _6XuLvwWk;
+        "fabric-26.3" = _DvzTu0TO;
         "pkg-1.0.0" = _BmVjPAEz;
         "pkg-1.0.1" = _RVxNUzM5;
         "pkg-1.0.2" = _IwLIzA9D;
         "pkg-1.0.3" = _yrXN2os2;
         "pkg-1.0.4" = _6XuLvwWk;
-        "default" = _6XuLvwWk;
+        "pkg-1.0.5" = _DvzTu0TO;
+        "default" = _DvzTu0TO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zoomsensitivityfix";

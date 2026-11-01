@@ -201,6 +201,16 @@ let
             "file" = "ascendant_arcana-fabric-0.13.4.jar";
             "hash" = "sha512-At/scXX6NGRN0JHi/v+XEalo2IYXIIN+zt2Iyj5vvbKMggHrnZIAZyjP+tqf+O3Tj9vdyOxYM7hcIZ/FaeCi0A==";
         };
+        _cFejM17O = {
+            "id" = "cFejM17O";
+            "file" = "ascendant_arcana-forge-0.13.5.jar";
+            "hash" = "sha512-pEbOJHEp9Xn8OVARJXB5XuvK32kA5ENZgqc0V+zPNGtyz3IYUPiS669TJ9QmXYetvBGNISJ8zegX/QN0mfLl0Q==";
+        };
+        _bgbRteiz = {
+            "id" = "bgbRteiz";
+            "file" = "ascendant_arcana-fabric-0.13.5.jar";
+            "hash" = "sha512-dnrrx0FucGwg+7AuUqXTvHBSIAz8soRJW8EV/zlU5ryZCmAtXomGr7BU4I7yDqc7aIoEopxpP4N48/Qeza7OXA==";
+        };
     in {
         "5QvRrcDo" = _5QvRrcDo;
         "kLJooZuN" = _kLJooZuN;
@@ -242,8 +252,10 @@ let
         "bbGuFmSy" = _bbGuFmSy;
         "fBgYU6Ww" = _fBgYU6Ww;
         "rJis3fmi" = _rJis3fmi;
-        "fabric-1.20.1" = _rJis3fmi;
-        "forge-1.20.1" = _fBgYU6Ww;
+        "cFejM17O" = _cFejM17O;
+        "bgbRteiz" = _bgbRteiz;
+        "fabric-1.20.1" = _bgbRteiz;
+        "forge-1.20.1" = _cFejM17O;
         "pkg-0.8" = _5QvRrcDo;
         "pkg-0.8.1" = _kLJooZuN;
         "pkg-0.8.2" = _zBh9QXIx;
@@ -268,7 +280,8 @@ let
         "pkg-0.13.2" = _QL0qAqKX;
         "pkg-0.13.3" = _bbGuFmSy;
         "pkg-0.13.4" = _rJis3fmi;
-        "default" = _rJis3fmi;
+        "pkg-0.13.5" = _bgbRteiz;
+        "default" = _bgbRteiz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ascendant-arcana";

@@ -51,6 +51,11 @@ let
             "file" = "better_with_time-2.0.3.jar";
             "hash" = "sha512-PEYRHNLbcHnZKR/M1GObBlfiqE7YfV9cF+rssTtrTKn3AiMsuEw4MmIe7xC0ijXjlayr3nRxRJGXHG8OWR9Qgw==";
         };
+        _pdDg6usf = {
+            "id" = "pdDg6usf";
+            "file" = "better_with_time-2.0.4.jar";
+            "hash" = "sha512-cz41yfgghy+g0kaiHTFv6JlKSt09rZ9qpx1slmLSyxRH59T6EcG4AgDZoFHe1BYZfe6Pap3khGpKINgwByYNTQ==";
+        };
     in {
         "GwQ2gxn4" = _GwQ2gxn4;
         "97PtzY7X" = _97PtzY7X;
@@ -62,7 +67,9 @@ let
         "s15n1Mqs" = _s15n1Mqs;
         "UUDPX3oO" = _UUDPX3oO;
         "eau0ZLz4" = _eau0ZLz4;
+        "pdDg6usf" = _pdDg6usf;
         "fabric-1.21.1" = _eau0ZLz4;
+        "fabric-1.21.11" = _pdDg6usf;
         "pkg-1.8" = _GwQ2gxn4;
         "pkg-1.9" = _97PtzY7X;
         "pkg-1.9.1" = _vnwuJkYd;
@@ -73,7 +80,8 @@ let
         "pkg-2.0.1" = _s15n1Mqs;
         "pkg-2.0.2" = _UUDPX3oO;
         "pkg-2.0.3" = _eau0ZLz4;
-        "default" = _eau0ZLz4;
+        "pkg-2.0.4" = _pdDg6usf;
+        "default" = _pdDg6usf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-with-time";

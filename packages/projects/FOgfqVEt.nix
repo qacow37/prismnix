@@ -11,9 +11,15 @@ let
             "file" = "Supplementaries_Ultra_1.0.zip";
             "hash" = "sha512-Bzy4QaAZ88Jy03ZWyVl3t+AREep2atau3aFBl5rgSlEr2EeMyLiDXMNvoPlvLtU6okHMyPlPeGRsfCf/daVg2w==";
         };
+        _u9RZCMAM = {
+            "id" = "u9RZCMAM";
+            "file" = "Supplementaries_Ultra_1.1.zip";
+            "hash" = "sha512-Q10W5XLOsx8a7XW5DQkZT66CaHpJ7cOtWtjnW4h/6GeOSHKMdObA3MYqxeqVcg3bYw0z+8h0eb/YoLci1oN3dw==";
+        };
     in {
         "2qNjbigh" = _2qNjbigh;
         "n5JVsBHZ" = _n5JVsBHZ;
+        "u9RZCMAM" = _u9RZCMAM;
         "minecraft-1.12" = _2qNjbigh;
         "minecraft-1.12.1" = _2qNjbigh;
         "minecraft-1.12.2" = _2qNjbigh;
@@ -45,13 +51,14 @@ let
         "minecraft-1.19.3" = _2qNjbigh;
         "minecraft-1.19.4" = _2qNjbigh;
         "minecraft-1.20" = _2qNjbigh;
-        "minecraft-1.20.1" = _n5JVsBHZ;
+        "minecraft-1.20.1" = _u9RZCMAM;
         "minecraft-1.20.2" = _2qNjbigh;
         "minecraft-1.20.3" = _2qNjbigh;
         "minecraft-1.20.4" = _2qNjbigh;
-        "minecraft-1.21.1" = _n5JVsBHZ;
+        "minecraft-1.21.1" = _u9RZCMAM;
         "pkg-1.0" = _n5JVsBHZ;
-        "default" = _n5JVsBHZ;
+        "pkg-1.1" = _u9RZCMAM;
+        "default" = _u9RZCMAM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iron-bars-fix";

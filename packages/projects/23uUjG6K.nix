@@ -1,0 +1,100 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _ttVFrAfE = {
+            "id" = "ttVFrAfE";
+            "file" = "ChromaLite-Realism-LowEnd.zip";
+            "hash" = "sha512-yTWC4fm4N5fR0ls9QIpUWVuuUZ1rt+FelpcGpoiyWEcfKPzWMprvp0hhYxxxdLQX5FYmGUPm+JmF396r2ZGtNw==";
+        };
+    in {
+        "ttVFrAfE" = _ttVFrAfE;
+        "iris-1.16" = _ttVFrAfE;
+        "iris-1.16.1" = _ttVFrAfE;
+        "iris-1.16.2" = _ttVFrAfE;
+        "iris-1.16.3" = _ttVFrAfE;
+        "iris-1.16.4" = _ttVFrAfE;
+        "iris-1.16.5" = _ttVFrAfE;
+        "iris-1.17" = _ttVFrAfE;
+        "iris-1.17.1" = _ttVFrAfE;
+        "iris-1.18" = _ttVFrAfE;
+        "iris-1.18.1" = _ttVFrAfE;
+        "iris-1.18.2" = _ttVFrAfE;
+        "iris-1.19" = _ttVFrAfE;
+        "iris-1.19.1" = _ttVFrAfE;
+        "iris-1.19.2" = _ttVFrAfE;
+        "iris-1.19.3" = _ttVFrAfE;
+        "iris-1.19.4" = _ttVFrAfE;
+        "iris-1.20" = _ttVFrAfE;
+        "iris-1.20.1" = _ttVFrAfE;
+        "iris-1.20.2" = _ttVFrAfE;
+        "iris-1.20.3" = _ttVFrAfE;
+        "iris-1.20.4" = _ttVFrAfE;
+        "iris-1.20.5" = _ttVFrAfE;
+        "iris-1.20.6" = _ttVFrAfE;
+        "iris-1.21" = _ttVFrAfE;
+        "iris-1.21.1" = _ttVFrAfE;
+        "iris-1.21.2" = _ttVFrAfE;
+        "iris-1.21.3" = _ttVFrAfE;
+        "iris-1.21.4" = _ttVFrAfE;
+        "iris-1.21.5" = _ttVFrAfE;
+        "iris-1.21.6" = _ttVFrAfE;
+        "iris-1.21.7" = _ttVFrAfE;
+        "iris-1.21.8" = _ttVFrAfE;
+        "iris-1.21.9" = _ttVFrAfE;
+        "iris-1.21.10" = _ttVFrAfE;
+        "iris-1.21.11" = _ttVFrAfE;
+        "optifine-1.16" = _ttVFrAfE;
+        "optifine-1.16.1" = _ttVFrAfE;
+        "optifine-1.16.2" = _ttVFrAfE;
+        "optifine-1.16.3" = _ttVFrAfE;
+        "optifine-1.16.4" = _ttVFrAfE;
+        "optifine-1.16.5" = _ttVFrAfE;
+        "optifine-1.17" = _ttVFrAfE;
+        "optifine-1.17.1" = _ttVFrAfE;
+        "optifine-1.18" = _ttVFrAfE;
+        "optifine-1.18.1" = _ttVFrAfE;
+        "optifine-1.18.2" = _ttVFrAfE;
+        "optifine-1.19" = _ttVFrAfE;
+        "optifine-1.19.1" = _ttVFrAfE;
+        "optifine-1.19.2" = _ttVFrAfE;
+        "optifine-1.19.3" = _ttVFrAfE;
+        "optifine-1.19.4" = _ttVFrAfE;
+        "optifine-1.20" = _ttVFrAfE;
+        "optifine-1.20.1" = _ttVFrAfE;
+        "optifine-1.20.2" = _ttVFrAfE;
+        "optifine-1.20.3" = _ttVFrAfE;
+        "optifine-1.20.4" = _ttVFrAfE;
+        "optifine-1.20.5" = _ttVFrAfE;
+        "optifine-1.20.6" = _ttVFrAfE;
+        "optifine-1.21" = _ttVFrAfE;
+        "optifine-1.21.1" = _ttVFrAfE;
+        "optifine-1.21.2" = _ttVFrAfE;
+        "optifine-1.21.3" = _ttVFrAfE;
+        "optifine-1.21.4" = _ttVFrAfE;
+        "optifine-1.21.5" = _ttVFrAfE;
+        "optifine-1.21.6" = _ttVFrAfE;
+        "optifine-1.21.7" = _ttVFrAfE;
+        "optifine-1.21.8" = _ttVFrAfE;
+        "optifine-1.21.9" = _ttVFrAfE;
+        "optifine-1.21.10" = _ttVFrAfE;
+        "optifine-1.21.11" = _ttVFrAfE;
+        "pkg-1.0" = _ttVFrAfE;
+        "default" = _ttVFrAfE;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "chroma-lite";
+        id = "23uUjG6K";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

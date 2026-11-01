@@ -66,6 +66,11 @@ let
             "file" = "shape-shifter-curse-fabric-1.9.2.jar";
             "hash" = "sha512-QCc0dr+izv2YkurOzp0Wvrl7aExVO4fnNKl1nYkoa+hV8m/ObuRupUOmxnOp4nyD1phX9sgdGQ+sMOSEbTCxlQ==";
         };
+        _dc9lFGMr = {
+            "id" = "dc9lFGMr";
+            "file" = "shape-shifter-curse-fabric-1.10.0_beta.jar";
+            "hash" = "sha512-ydBn+q74VA62w/T3rfLOfn0OaXUxL5hPssXdh5Z5KkuI/O6dE9NlUHH7yW7SxKxX6gmKNejekr1BYEhvCWiwrA==";
+        };
     in {
         "hGto2V9q" = _hGto2V9q;
         "tkkkfg03" = _tkkkfg03;
@@ -80,7 +85,8 @@ let
         "vlsiN4f6" = _vlsiN4f6;
         "qlN2WGr0" = _qlN2WGr0;
         "52YrQBKA" = _52YrQBKA;
-        "fabric-1.20.1" = _52YrQBKA;
+        "dc9lFGMr" = _dc9lFGMr;
+        "fabric-1.20.1" = _dc9lFGMr;
         "pkg-1.0.7" = _hGto2V9q;
         "pkg-1.0.71" = _tkkkfg03;
         "pkg-1.0.72" = _cWDpZasG;
@@ -94,7 +100,8 @@ let
         "pkg-1.9.0" = _vlsiN4f6;
         "pkg-1.9.1" = _qlN2WGr0;
         "pkg-1.9.2" = _52YrQBKA;
-        "default" = _52YrQBKA;
+        "pkg-1.10.0-beta" = _dc9lFGMr;
+        "default" = _dc9lFGMr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shape-shifter-curse";

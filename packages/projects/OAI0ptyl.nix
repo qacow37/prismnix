@@ -151,6 +151,16 @@ let
             "file" = "moon-client-1.0.0.jar";
             "hash" = "sha512-iW/lIj2S/auiL5UrzUkRyevoXNv6NJJDRW3+i5JxHBFGYJKPR9iMDhoLnCfdPerVea/P011JvZNEvLFUkdejsA==";
         };
+        _NxZxYLeE = {
+            "id" = "NxZxYLeE";
+            "file" = "moonclient-3.2-1.21.4.jar";
+            "hash" = "sha512-jNaxilzs4x924ZyHjwA10MMcud3BqqrUxGsakyct53mH6hy86nqbEnDlbR4hXQYUSej8qwkOCGXmj+GrEufnxQ==";
+        };
+        _xjvo28vg = {
+            "id" = "xjvo28vg";
+            "file" = "moonclient-3.2-1.21.11.jar";
+            "hash" = "sha512-OrZ3wow+KvSXynr2dgGb/u5RTumFJYt/tJXUPgk9ztww5bt7RzVmyU+uiZIbxmsvPZE48mpmvruowEqNEL24UA==";
+        };
     in {
         "vEzZGVZl" = _vEzZGVZl;
         "q9v92bsA" = _q9v92bsA;
@@ -182,9 +192,11 @@ let
         "4NZ6PB8U" = _4NZ6PB8U;
         "CEEXRCZB" = _CEEXRCZB;
         "wFKdHrlZ" = _wFKdHrlZ;
-        "fabric-1.21.11" = _HClENim7;
+        "NxZxYLeE" = _NxZxYLeE;
+        "xjvo28vg" = _xjvo28vg;
+        "fabric-1.21.11" = _xjvo28vg;
         "fabric-1.20.1" = _k3KZZtpE;
-        "fabric-1.21.4" = _4NZ6PB8U;
+        "fabric-1.21.4" = _NxZxYLeE;
         "fabric-1.21.1" = _HelnxsA5;
         "fabric-1.21.8" = _CEEXRCZB;
         "legacy-fabric-1.8.9" = _wFKdHrlZ;
@@ -199,7 +211,9 @@ let
         "pkg-4.1.0" = _97Tbur0x;
         "pkg-5.0.0" = _iF8ZUd2T;
         "pkg-5.1.0" = _CEEXRCZB;
-        "default" = _wFKdHrlZ;
+        "pkg-3.2-1.21.4" = _NxZxYLeE;
+        "pkg-3.2-1.21.11" = _xjvo28vg;
+        "default" = _xjvo28vg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moon-client-official";

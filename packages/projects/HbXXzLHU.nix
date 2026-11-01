@@ -316,6 +316,16 @@ let
             "file" = "xtoxray-neoforge-1.20.x-2026.29+neoforge-1.20.x.jar";
             "hash" = "sha512-xi9QgLibF0+b4X24j7HDXulZJj2mZJiO/Kzm/NjzW0vT3RHM8U6eygj/hgd8nfFMzrXcXwBUAJ8eQQFQnUj+AA==";
         };
+        _uOXCXjoL = {
+            "id" = "uOXCXjoL";
+            "file" = "xtoxray-2026.30.jar";
+            "hash" = "sha512-0WiQXDhNMt20ONy2Q+PtSL6djphit9+eYr7JCXTjLdO/bXPqb6UFPGuapHHLxTjh+1xxCgtjapvenNor1xHKKg==";
+        };
+        _MYoOiCx2 = {
+            "id" = "MYoOiCx2";
+            "file" = "xtoxray-2026.30.jar";
+            "hash" = "sha512-0WiQXDhNMt20ONy2Q+PtSL6djphit9+eYr7JCXTjLdO/bXPqb6UFPGuapHHLxTjh+1xxCgtjapvenNor1xHKKg==";
+        };
     in {
         "oP5DctBQ" = _oP5DctBQ;
         "bMcrXwai" = _bMcrXwai;
@@ -380,6 +390,8 @@ let
         "W0dQvI62" = _W0dQvI62;
         "sfzEPaBQ" = _sfzEPaBQ;
         "ppyQxh1d" = _ppyQxh1d;
+        "uOXCXjoL" = _uOXCXjoL;
+        "MYoOiCx2" = _MYoOiCx2;
         "fabric-26.1" = _DhhuVCFl;
         "fabric-26.1.1" = _DhhuVCFl;
         "fabric-26.1.2" = _DhhuVCFl;
@@ -412,7 +424,7 @@ let
         "fabric-26.3-snapshot-7" = _l9lkvzwA;
         "fabric-26.3-snapshot-8" = _l9lkvzwA;
         "fabric-26.3-snapshot-9" = _l9lkvzwA;
-        "fabric-26.3" = _DhhuVCFl;
+        "fabric-26.3" = _MYoOiCx2;
         "fabric-26.4-snapshot-1" = _TI548KQP;
         "fabric-26.4-snapshot-2" = _TI548KQP;
         "fabric-1.19" = _BFMngOPh;
@@ -492,7 +504,8 @@ let
         "pkg-2026.29" = _Jq0Q7Dql;
         "pkg-2026.29-Snapshots" = _W0dQvI62;
         "pkg-2026.29-Legacy" = _ppyQxh1d;
-        "default" = _ppyQxh1d;
+        "pkg-2026.30" = _MYoOiCx2;
+        "default" = _MYoOiCx2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "x-to-xray";

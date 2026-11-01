@@ -66,6 +66,11 @@ let
             "file" = "management_wanted-1.3.3-forge-1.20.1.jar";
             "hash" = "sha512-0s9fgbqE7xItA0tscq1DTpK9bcsS7pxTbMWsR4N7+NRyknN3WoLW5gIu4rOH1cgJnfusgFa7qd4qwiWj7pdq5w==";
         };
+        _UPSYv4qi = {
+            "id" = "UPSYv4qi";
+            "file" = "fnafmw-alpha-1.0.0-snapshot-1.jar";
+            "hash" = "sha512-jzOTUUxfIrpj4XizwTSUOJUjl8Gogyn1qb+C+vj4ejtOnXnmsmnNaD1g36NTDqWGB9K8XJEoRgOZ5Ag2w6M2Mw==";
+        };
     in {
         "pFiFnCzB" = _pFiFnCzB;
         "zF7ylmjX" = _zF7ylmjX;
@@ -80,7 +85,9 @@ let
         "ggSlNUPJ" = _ggSlNUPJ;
         "WD4orBj1" = _WD4orBj1;
         "7btuCB5I" = _7btuCB5I;
+        "UPSYv4qi" = _UPSYv4qi;
         "neoforge-1.20.4" = _VrHfPm8Y;
+        "neoforge-1.21.1" = _UPSYv4qi;
         "forge-1.20.1" = _7btuCB5I;
         "pkg-0.0.1" = _zF7ylmjX;
         "pkg-0.1.1" = _thR6g78s;
@@ -91,7 +98,8 @@ let
         "pkg-0.3.1" = _ggSlNUPJ;
         "pkg-0.3.2" = _WD4orBj1;
         "pkg-0.3.3" = _7btuCB5I;
-        "default" = _7btuCB5I;
+        "pkg-1.0.0-snapshot-1" = _UPSYv4qi;
+        "default" = _UPSYv4qi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "management-wanted";

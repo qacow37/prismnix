@@ -346,6 +346,26 @@ let
             "file" = "chatbox-neoforge-1.21.1-1.1.6.1beta.jar";
             "hash" = "sha512-8PprOuLrYGFZ/g9wPqAAqAReOwkJltmOw8ymNevLW7e599ZFS7/NpULdJvi9DqF6a7pLI6dLpmb/+1grXwCn1A==";
         };
+        _2h2O32Ci = {
+            "id" = "2h2O32Ci";
+            "file" = "chatbox-neoforge-1.21.1-1.1.6.1beta.jar";
+            "hash" = "sha512-Xr72aWmU7qIfEL95YuYT8+EGIQTkIH4P/ifWLQarJbzadRFtBgFjV7rqHFt9qeV0yH+Ib2T8D+lRUk+48MZQ2g==";
+        };
+        _5LtKhdml = {
+            "id" = "5LtKhdml";
+            "file" = "chatbox-1.1.6.1beta+1.20.1-fabric.jar";
+            "hash" = "sha512-MCyoErNkQjT2EYoEpvmgBislL4E97oMngYz7ZTiIUjibbLZG6l471GrctMT8X+w1mmu+f0JOvbgmjPIPG1qHMA==";
+        };
+        _khSCUvOd = {
+            "id" = "khSCUvOd";
+            "file" = "chatbox-1.1.6.1beta+1.20.1-forge.jar";
+            "hash" = "sha512-h+ci4F9pwB/T+NU/Qx1X8oRnbGS/NnOddNztV4qfyOhSGQAvpoCQ7uJnBpngtZymuSwg+gLml0lanuk5YORr+A==";
+        };
+        _8hMzQVK2 = {
+            "id" = "8hMzQVK2";
+            "file" = "chatbox-1.1.6.1beta+1.21-fabric.jar";
+            "hash" = "sha512-ZPW9cIheCBgTU7nOY4SQCzM8mrSE6RWskDC6AIk1crPV5oK08tfVvTZyKl652XcjRS05s4eDQ+YW3ulAqZzjlw==";
+        };
     in {
         "h3TmChmM" = _h3TmChmM;
         "rkmzAshI" = _rkmzAshI;
@@ -416,19 +436,23 @@ let
         "YfsmB1Xa" = _YfsmB1Xa;
         "wfjHxQok" = _wfjHxQok;
         "SrMLcfNy" = _SrMLcfNy;
+        "2h2O32Ci" = _2h2O32Ci;
+        "5LtKhdml" = _5LtKhdml;
+        "khSCUvOd" = _khSCUvOd;
+        "8hMzQVK2" = _8hMzQVK2;
         "neoforge-1.21" = _SlRkkPkk;
-        "neoforge-1.21.1" = _SrMLcfNy;
+        "neoforge-1.21.1" = _2h2O32Ci;
         "neoforge-1.21.11" = _G5NzfR95;
         "neoforge-26.1.2" = _Yq9FO2dP;
         "neoforge-26.3" = _fmOEfBpD;
-        "fabric-1.21" = _wfjHxQok;
+        "fabric-1.21" = _8hMzQVK2;
         "fabric-1.21.1" = _PLusNlz1;
         "fabric-1.21.8" = _VaFVk85c;
-        "fabric-1.20.1" = _AFCwtg0S;
+        "fabric-1.20.1" = _5LtKhdml;
         "fabric-1.21.11" = _glUuGban;
         "fabric-26.1.2" = _Yq9FO2dP;
         "fabric-26.3" = _fmOEfBpD;
-        "forge-1.20.1" = _YfsmB1Xa;
+        "forge-1.20.1" = _khSCUvOd;
         "pkg-1.0.0" = _h3TmChmM;
         "pkg-1.0.1" = _rkmzAshI;
         "pkg-1.0.2" = _yyAMsZeH;
@@ -486,7 +510,11 @@ let
         "pkg-1.1.6.1beta-forge-1.20.1" = _YfsmB1Xa;
         "pkg-1.1.6.1beta-fabric-1.21" = _wfjHxQok;
         "pkg-1.1.6.1beta-neoforge-1.21.1" = _SrMLcfNy;
-        "default" = _SrMLcfNy;
+        "pkg-1.1.6.2beta-neoforge-1.21.1" = _2h2O32Ci;
+        "pkg-1.1.6.2beta-fabric-1.20.1" = _5LtKhdml;
+        "pkg-1.1.6.2beta-forge-1.20.1" = _khSCUvOd;
+        "pkg-1.1.6.2beta-fabric-1.21" = _8hMzQVK2;
+        "default" = _8hMzQVK2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatbox";

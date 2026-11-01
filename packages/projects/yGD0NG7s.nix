@@ -66,6 +66,36 @@ let
             "file" = "health_indicator_plus-forge-3.3.1+26.3.jar";
             "hash" = "sha512-0Wq2lmkifi3+radMZawUD6TBKWOYIqnAzlJylaYctIfON3kbqKcV0LvHrsLWljM/0Gcq89UtYRPfDDg4YLzL+Q==";
         };
+        _CtkoMr9v = {
+            "id" = "CtkoMr9v";
+            "file" = "health_indicator_plus-neoforge-3.3.1+1.21.11.jar";
+            "hash" = "sha512-g7bTd3OQ98hTlQ6b2hgU2E8VO6mEV+I2Md4weI1fPNVRD3Z4QhMI2eWIPgFQAxZc3tlqubFMx1f5kAtpiHJ6WQ==";
+        };
+        _dxSRpK2x = {
+            "id" = "dxSRpK2x";
+            "file" = "health_indicator_plus-neoforge-3.3.1+26.1.1.jar";
+            "hash" = "sha512-/9sTjspR4FMmRTdewMGT85GF3v+Y1erXjMLejcpg9akeSftEqTQfbzXfb5Q7OtxvP5d4B+yW+QdbftNaVe8byw==";
+        };
+        _M9fq4KX7 = {
+            "id" = "M9fq4KX7";
+            "file" = "health_indicator_plus-neoforge-3.3.1+26.1.2.jar";
+            "hash" = "sha512-VWRDr1fXBkCB6ARUtsomOLsmsxnojtR0TceggM0AALaAknYx45cehcQGim/5umSWK+dFBJN9o1eABOsSV6IRzQ==";
+        };
+        _TCB5Tuax = {
+            "id" = "TCB5Tuax";
+            "file" = "health_indicator_plus-neoforge-3.3.1+26.1.jar";
+            "hash" = "sha512-7zbiMnXgH0/y0UEcDq9l8pYUYdrdH+Jos7GA2sNfEB6LvCvHEoaAzzS63v70KgWBkxFNFT2UTLgutsll1dyIIw==";
+        };
+        _GVzh27Mz = {
+            "id" = "GVzh27Mz";
+            "file" = "health_indicator_plus-neoforge-3.3.1+26.2.jar";
+            "hash" = "sha512-EWJltUTPty5cvwiDmfY4vxuKBW8HoHUncQMjTm9PNuM3WodPUXdawniWIkp544X5KHgzPjABmt0VpZgTdKCG+A==";
+        };
+        _JFAiwSiM = {
+            "id" = "JFAiwSiM";
+            "file" = "health_indicator_plus-neoforge-3.3.1+26.3.jar";
+            "hash" = "sha512-tVe0RSh0BOzTDfxCA9nztuNg8jZ1cGzc0Wpj4TQA8cBVRsdjtibuTR9ogl3sc/pLCWRwIV223wOHkzAsobKe4A==";
+        };
     in {
         "EhUQKbAQ" = _EhUQKbAQ;
         "Z6m17tSt" = _Z6m17tSt;
@@ -80,6 +110,12 @@ let
         "u4xZQFpn" = _u4xZQFpn;
         "NnqPfrpO" = _NnqPfrpO;
         "DNhNpwfD" = _DNhNpwfD;
+        "CtkoMr9v" = _CtkoMr9v;
+        "dxSRpK2x" = _dxSRpK2x;
+        "M9fq4KX7" = _M9fq4KX7;
+        "TCB5Tuax" = _TCB5Tuax;
+        "GVzh27Mz" = _GVzh27Mz;
+        "JFAiwSiM" = _JFAiwSiM;
         "fabric-1.21.1" = _EhUQKbAQ;
         "fabric-1.21.6" = _Z6m17tSt;
         "fabric-1.21.11" = _Ky3sutfi;
@@ -93,8 +129,14 @@ let
         "forge-26.1" = _u4xZQFpn;
         "forge-26.2" = _NnqPfrpO;
         "forge-26.3" = _DNhNpwfD;
-        "pkg-3.3.1" = _DNhNpwfD;
-        "default" = _DNhNpwfD;
+        "neoforge-1.21.11" = _CtkoMr9v;
+        "neoforge-26.1.1" = _dxSRpK2x;
+        "neoforge-26.1.2" = _M9fq4KX7;
+        "neoforge-26.1" = _TCB5Tuax;
+        "neoforge-26.2" = _GVzh27Mz;
+        "neoforge-26.3" = _JFAiwSiM;
+        "pkg-3.3.1" = _JFAiwSiM;
+        "default" = _JFAiwSiM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "health-indicator-ygd0ng7s";

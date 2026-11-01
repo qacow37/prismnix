@@ -11,16 +11,24 @@ let
             "file" = "villager_reroll-1.0.1.jar";
             "hash" = "sha512-lsalCLR0mq34XRzh+tcYAy4ilh76zvPnkdmHoU44RrhHzcntxdplpVKX2VNu/K2kKTDf0JlESWs7ElBuqUii6Q==";
         };
+        _Kkn1IWZX = {
+            "id" = "Kkn1IWZX";
+            "file" = "villager_reroll-1.0.2.jar";
+            "hash" = "sha512-cQMSyCcIfCc49QRUmZjgwFQSRVGvsDb/gCS2zuj8hwJCJAdjcgh9fCrwqNaUdvMtMGXgD/T9kHYqt7JRxTYa8A==";
+        };
     in {
         "um3AGewg" = _um3AGewg;
         "JQzOHHJP" = _JQzOHHJP;
+        "Kkn1IWZX" = _Kkn1IWZX;
         "fabric-26.1" = _um3AGewg;
         "fabric-26.1.1" = _um3AGewg;
         "fabric-26.1.2" = _um3AGewg;
         "fabric-26.2" = _JQzOHHJP;
+        "fabric-26.3" = _Kkn1IWZX;
         "pkg-1.0.0" = _um3AGewg;
         "pkg-1.0.1" = _JQzOHHJP;
-        "default" = _JQzOHHJP;
+        "pkg-1.0.2" = _Kkn1IWZX;
+        "default" = _Kkn1IWZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-villager-(librarian)-reroll";

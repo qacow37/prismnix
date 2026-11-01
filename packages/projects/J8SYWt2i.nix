@@ -286,6 +286,11 @@ let
             "file" = "RecurrentComplexVolts-1.12.2-2.0.1.3.jar";
             "hash" = "sha512-t8/xx0myxzRlmU7QwDMKwdHXmfNfc4LvcahRFXeqCRC0hgxzpynDkBdEHs5hkHltd49YcTinc86RZow/4pGPQg==";
         };
+        _aSofBD0H = {
+            "id" = "aSofBD0H";
+            "file" = "RecurrentComplexVolts-1.12.2-2.0.1.4.jar";
+            "hash" = "sha512-yQNKqcGxoICigNWU9rauVW6rstDMw3Hh2SVQ8OLZvPX6/uhPEp0CzL31UQ8FQpZrMduI+oz6v5BozcsiEKuKDg==";
+        };
     in {
         "ryrMcxGi" = _ryrMcxGi;
         "UK1dTNXH" = _UK1dTNXH;
@@ -344,15 +349,16 @@ let
         "QFaWHH4P" = _QFaWHH4P;
         "kLG17IkE" = _kLG17IkE;
         "UL08lI7p" = _UL08lI7p;
+        "aSofBD0H" = _aSofBD0H;
         "forge-1.20.1" = _FLJMn3oy;
         "forge-1.20.2" = _FLJMn3oy;
         "forge-1.20.3" = _FLJMn3oy;
         "forge-1.20.4" = _FLJMn3oy;
         "forge-1.20.5" = _FLJMn3oy;
         "forge-1.20.6" = _FLJMn3oy;
-        "forge-1.12" = _UL08lI7p;
-        "forge-1.12.1" = _UL08lI7p;
-        "forge-1.12.2" = _UL08lI7p;
+        "forge-1.12" = _aSofBD0H;
+        "forge-1.12.1" = _aSofBD0H;
+        "forge-1.12.2" = _aSofBD0H;
         "forge-1.20" = _FLJMn3oy;
         "neoforge-1.21.1" = _wuQ1vWhy;
         "neoforge-26.1" = _ClgmrKqD;
@@ -399,7 +405,8 @@ let
         "pkg-0.7.3.1" = _FLJMn3oy;
         "pkg-2.0.1.2" = _kLG17IkE;
         "pkg-2.0.1.3" = _UL08lI7p;
-        "default" = _UL08lI7p;
+        "pkg-2.0.1.4" = _aSofBD0H;
+        "default" = _aSofBD0H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recurrent-complex-volts";

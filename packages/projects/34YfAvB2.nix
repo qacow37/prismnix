@@ -31,6 +31,11 @@ let
             "file" = "dmzlayers-2.2.0.jar";
             "hash" = "sha512-RRybmBmXPc7qwz47UB+6ZLsqRnRywBuiEOboCmM0Pt4ejDe/XLt2Ih1KILRQJ38cMWH1q2WnS9Fbj/KQM9rC2Q==";
         };
+        _AdGha8L5 = {
+            "id" = "AdGha8L5";
+            "file" = "dmzlayers-2.2.1.jar";
+            "hash" = "sha512-aqxnZ+QybeQX5i9wRJ7uAMX9IeWpBMQ4ROvwP02TrrHdvOZTwihbbY1r7YGn2MF/mZUufgnqCa1EeKUr2bVVKQ==";
+        };
     in {
         "5HP2vd4e" = _5HP2vd4e;
         "j2vNSsji" = _j2vNSsji;
@@ -38,14 +43,16 @@ let
         "Iv0OTJBa" = _Iv0OTJBa;
         "cSgQ94kK" = _cSgQ94kK;
         "7E5n49Ne" = _7E5n49Ne;
-        "forge-1.20.1" = _7E5n49Ne;
+        "AdGha8L5" = _AdGha8L5;
+        "forge-1.20.1" = _AdGha8L5;
         "pkg-1.0" = _5HP2vd4e;
         "pkg-1.0.2" = _j2vNSsji;
         "pkg-1.0.3" = _2KK66BOT;
         "pkg-2.0.0" = _Iv0OTJBa;
         "pkg-2.0.1" = _cSgQ94kK;
         "pkg-2.2.0" = _7E5n49Ne;
-        "default" = _7E5n49Ne;
+        "pkg-2.2.1" = _AdGha8L5;
+        "default" = _AdGha8L5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dmzlayers+";

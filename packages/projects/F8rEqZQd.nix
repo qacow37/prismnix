@@ -21,18 +21,25 @@ let
             "file" = "TWR_71-000_Series_V1.3.zip";
             "hash" = "sha512-bZGGmahaghtKc0Y+JBcoiGdYVGYhBvJDldxR6y5SMI7GO3mftl4bpRIklbsjl8fzQnkH1bfGJSzF/JhVFDp+jg==";
         };
+        _UY0ITJO3 = {
+            "id" = "UY0ITJO3";
+            "file" = "TWR_71-000_Series_V1.4.zip";
+            "hash" = "sha512-bbU9IoK4IWpWc2Zbemc8iWyc1WIogvB0gHboRket2oFKyF+8I/LczeG8g32NqpIDsypJjoe38Is256YPbPMxxg==";
+        };
     in {
         "S0hDbbNi" = _S0hDbbNi;
         "kpx3pH8p" = _kpx3pH8p;
         "ZX8xQzSZ" = _ZX8xQzSZ;
         "yNSiP60V" = _yNSiP60V;
-        "minecraft-1.20" = _yNSiP60V;
-        "minecraft-1.20.1" = _yNSiP60V;
+        "UY0ITJO3" = _UY0ITJO3;
+        "minecraft-1.20" = _UY0ITJO3;
+        "minecraft-1.20.1" = _UY0ITJO3;
         "pkg-1.0" = _S0hDbbNi;
         "pkg-1.1" = _kpx3pH8p;
         "pkg-1.2" = _ZX8xQzSZ;
         "pkg-1.3" = _yNSiP60V;
-        "default" = _yNSiP60V;
+        "pkg-1.4" = _UY0ITJO3;
+        "default" = _UY0ITJO3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-twr-71-000-series-71-000";

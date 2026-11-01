@@ -116,6 +116,11 @@ let
             "file" = "Pinku's Pink GUI Pack 26.2.zip";
             "hash" = "sha512-UaTPoTEJ9FPvgdcM3ttOJWq6fGAbwS09tp3zUgVDvFZCe7//3XOY7My6hfNfw+Hn9qlbny89cGIlZzGdaJqdig==";
         };
+        _yaEimE1r = {
+            "id" = "yaEimE1r";
+            "file" = "Pinku's Pink GUI Pack 26.3.zip";
+            "hash" = "sha512-4PWnODephTs8tCeq8JmhM6J5aJdpsJzYk0oCPY0N2Gd10N8As3+7D2ZYy7LdvrNJqLD+b5L2D6l+pcapnGircg==";
+        };
     in {
         "EZP9S9Kk" = _EZP9S9Kk;
         "VYt4gezk" = _VYt4gezk;
@@ -140,6 +145,7 @@ let
         "gzjcfydT" = _gzjcfydT;
         "gGsfI5Ra" = _gGsfI5Ra;
         "Z69UF96a" = _Z69UF96a;
+        "yaEimE1r" = _yaEimE1r;
         "minecraft-1.19.3" = _EZP9S9Kk;
         "minecraft-1.19.4" = _tibblO18;
         "minecraft-1.20" = _BVKhtIgs;
@@ -181,19 +187,20 @@ let
         "minecraft-1.20.3" = _TWWYMnAf;
         "minecraft-1.21.1" = _98szlKV1;
         "minecraft-1.21.5" = _F0LebpfM;
-        "minecraft-1.21.7" = _gzjcfydT;
-        "minecraft-1.21.8" = _gzjcfydT;
+        "minecraft-1.21.7" = _yaEimE1r;
+        "minecraft-1.21.8" = _yaEimE1r;
         "minecraft-1.16.2" = _ZLLrwknD;
         "minecraft-1.16.3" = _ZLLrwknD;
         "minecraft-1.16.4" = _ZLLrwknD;
         "minecraft-1.16.5" = _ZLLrwknD;
-        "minecraft-1.21.9" = _gzjcfydT;
-        "minecraft-1.21.10" = _gzjcfydT;
-        "minecraft-1.21.11" = _gzjcfydT;
-        "minecraft-26.1" = _gGsfI5Ra;
-        "minecraft-26.1.1" = _gGsfI5Ra;
-        "minecraft-26.1.2" = _gGsfI5Ra;
-        "minecraft-26.2" = _Z69UF96a;
+        "minecraft-1.21.9" = _yaEimE1r;
+        "minecraft-1.21.10" = _yaEimE1r;
+        "minecraft-1.21.11" = _yaEimE1r;
+        "minecraft-26.1" = _yaEimE1r;
+        "minecraft-26.1.1" = _yaEimE1r;
+        "minecraft-26.1.2" = _yaEimE1r;
+        "minecraft-26.2" = _yaEimE1r;
+        "minecraft-26.3" = _yaEimE1r;
         "pkg-1.19.3-1.19.4_V1" = _EZP9S9Kk;
         "pkg-1.20_V1" = _VYt4gezk;
         "pkg-1.6.1-1.8_V1" = _9CFDrZr9;
@@ -217,7 +224,8 @@ let
         "pkg-1.21.11_V.1" = _gzjcfydT;
         "pkg-26.1_V.1" = _gGsfI5Ra;
         "pkg-26.2_V.1" = _Z69UF96a;
-        "default" = _Z69UF96a;
+        "pkg-26.3_V.1" = _yaEimE1r;
+        "default" = _yaEimE1r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pinkus-pink-gui-pack";

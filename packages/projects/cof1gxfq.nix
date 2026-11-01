@@ -211,6 +211,11 @@ let
             "file" = "TPAtools-fabric-1.2.2+mc26.3.jar";
             "hash" = "sha512-v+NO3/lMqGtepTe5U/2MIemh8dfkUPSvDnMzWTw49pQ8pvxHCQZC8ifJoZBBrCl/gbAINUGTuc3JewI/VUBu0Q==";
         };
+        _MYqh0gPk = {
+            "id" = "MYqh0gPk";
+            "file" = "tpatools-1.2.2+mc1.20.jar";
+            "hash" = "sha512-Sng2ZJ4Wr7/OMzqv1H4vIYMUwRVS+Y0hUqstTEHbHDo4EcDfcb1s0YtOIr5ZshygbLu4gVdkPD4qzQmpJ1JWHQ==";
+        };
     in {
         "7QZP2e1x" = _7QZP2e1x;
         "nw7Kff4q" = _nw7Kff4q;
@@ -254,19 +259,20 @@ let
         "7g2IGWQJ" = _7g2IGWQJ;
         "AmFfzUwY" = _AmFfzUwY;
         "jdaWr9hn" = _jdaWr9hn;
-        "forge-1.20.1" = _24tf3EYx;
-        "forge-1.20.2" = _24tf3EYx;
-        "forge-1.20.3" = _24tf3EYx;
-        "forge-1.20.4" = _24tf3EYx;
-        "forge-1.20.5" = _24tf3EYx;
-        "forge-1.20.6" = _24tf3EYx;
+        "MYqh0gPk" = _MYqh0gPk;
+        "forge-1.20.1" = _MYqh0gPk;
+        "forge-1.20.2" = _MYqh0gPk;
+        "forge-1.20.3" = _MYqh0gPk;
+        "forge-1.20.4" = _MYqh0gPk;
+        "forge-1.20.5" = _MYqh0gPk;
+        "forge-1.20.6" = _MYqh0gPk;
         "forge-1.21" = _yxV5wmOl;
         "forge-1.21.1" = _yxV5wmOl;
         "forge-1.21.2" = _yxV5wmOl;
         "forge-1.21.3" = _yxV5wmOl;
         "forge-1.21.4" = _yxV5wmOl;
         "forge-1.21.5" = _yxV5wmOl;
-        "forge-1.20" = _24tf3EYx;
+        "forge-1.20" = _MYqh0gPk;
         "fabric-1.20" = _lKXZw7Eg;
         "fabric-1.20.1" = _lKXZw7Eg;
         "fabric-1.20.2" = _lKXZw7Eg;
@@ -339,7 +345,8 @@ let
         "pkg-1.2.1+1.21.2-1.21.4" = _7g2IGWQJ;
         "pkg-1.2.1+26.3" = _AmFfzUwY;
         "pkg-1.2.2+mc26.3" = _jdaWr9hn;
-        "default" = _jdaWr9hn;
+        "pkg-1.2.2+mc1.20" = _MYqh0gPk;
+        "default" = _MYqh0gPk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tpatools";

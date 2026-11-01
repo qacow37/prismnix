@@ -66,6 +66,31 @@ let
             "file" = "wh_npcs-fabric-1.21.1-1.0.0.jar";
             "hash" = "sha512-v3klyOF60P3htDCyF/bx6jGvOo+tYhMfXW6S8dLsM/HmbLCWB7JpC/SYq+ibTKXFWjQpywClhGBmVB/ypDFWiA==";
         };
+        _Z2hwTm3l = {
+            "id" = "Z2hwTm3l";
+            "file" = "wh_npcs-forge-1.20.1-1.0.1.jar";
+            "hash" = "sha512-pCipeXX0vkglatVFVmIQahfplQVeun2SvVqymU+flwsKsMhRJQCrYx5up1YXPhZWxjI/6+6lrtR1Il+fOn3egg==";
+        };
+        _ar3ModY1 = {
+            "id" = "ar3ModY1";
+            "file" = "wh_npcs-neoforge-1.21.1-1.0.1.jar";
+            "hash" = "sha512-5Pp0jP92WIgSJCzskrJPOWuZyNXwkLzOZczlfq9z3EKZBUO0NCJo2SURRhm9YFptD/92PHsr6Qx1Ec4jynFkHw==";
+        };
+        _HwUAyjh5 = {
+            "id" = "HwUAyjh5";
+            "file" = "wh_npcs-fabric-1.21.1-1.0.1.jar";
+            "hash" = "sha512-BrN0eCDWJ/ObepJW8s8i9ah6Zo2SbEfeIcqIbppzHRJM/otaJhwHGnpxUs3gMzfTMidrfE6hKXfCL5QHdmc06w==";
+        };
+        _yCvmFJcN = {
+            "id" = "yCvmFJcN";
+            "file" = "wh_npcs-neoforge-1.21.1-1.0.1.1.jar";
+            "hash" = "sha512-JAnyZOcJYrU4TYGiD6+SJt4Nm1LkytztT8TI+VDOBtR+VlZE/0SL80Umw6W0QRFlABZE4GcesA9XlSA1EnC6ug==";
+        };
+        _BFiNkHcL = {
+            "id" = "BFiNkHcL";
+            "file" = "wh_npcs-fabric-1.21.1-1.0.1.1.jar";
+            "hash" = "sha512-HXq61XCd/BlWusv1tA4/QvPuEcK3tz7W6RR1BnGr2x22BRjD21z5nH+/QiTMtwTTdyJ8HUyIr7PQkXkvWunY/Q==";
+        };
     in {
         "4fnOvMEK" = _4fnOvMEK;
         "Q9Nx07TL" = _Q9Nx07TL;
@@ -80,9 +105,14 @@ let
         "xAjDxOio" = _xAjDxOio;
         "dMYpVi7W" = _dMYpVi7W;
         "9SQY4Vtc" = _9SQY4Vtc;
-        "forge-1.20.1" = _xAjDxOio;
-        "neoforge-1.21.1" = _dMYpVi7W;
-        "fabric-1.21.1" = _9SQY4Vtc;
+        "Z2hwTm3l" = _Z2hwTm3l;
+        "ar3ModY1" = _ar3ModY1;
+        "HwUAyjh5" = _HwUAyjh5;
+        "yCvmFJcN" = _yCvmFJcN;
+        "BFiNkHcL" = _BFiNkHcL;
+        "forge-1.20.1" = _Z2hwTm3l;
+        "neoforge-1.21.1" = _yCvmFJcN;
+        "fabric-1.21.1" = _BFiNkHcL;
         "pkg-0.9.0" = _4fnOvMEK;
         "pkg-0.9.1" = _Q9Nx07TL;
         "pkg-0.9.2" = _wiyu5Fc2;
@@ -94,7 +124,9 @@ let
         "pkg-0.9.8" = _4dN0ou3t;
         "pkg-0.9.9" = _KevcSqC9;
         "pkg-1.0.0" = _9SQY4Vtc;
-        "default" = _9SQY4Vtc;
+        "pkg-1.0.1" = _HwUAyjh5;
+        "pkg-1.0.1.1" = _BFiNkHcL;
+        "default" = _BFiNkHcL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "without-honor-npcs";

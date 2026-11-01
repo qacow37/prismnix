@@ -86,6 +86,56 @@ let
             "file" = "potionrestock-fabric-1.21.11-1.0.6.jar";
             "hash" = "sha512-7b0+eA63v+7tZYzFCIRlWNQyQs8FoonGlUYr4bHPGJN8j//pOf1sg6rDVTZySpGFSgigiN9f+zN6N0JIRe83Gw==";
         };
+        _iIOeHT3q = {
+            "id" = "iIOeHT3q";
+            "file" = "potionrestock-fabric-1.21-1.21.1-1.1.0.jar";
+            "hash" = "sha512-i4wKzx9LHBpa6jSbUWHenH4wJM75ztO6i8a3IVWqhpnuaC0JutcMYBDBD7ndsVWGgbVYLFvRjhgge9TzneYgNA==";
+        };
+        _bclyCd7f = {
+            "id" = "bclyCd7f";
+            "file" = "potionrestock-fabric-1.21.10-1.1.0.jar";
+            "hash" = "sha512-vTPVkZI5YmBfiemfVhdYtRZ9IFVuAk2DtD5G95le6cNLDwyAtyYaFI+B17ymQj7TFsqwfAmbH7Z2y+Yac9BsUQ==";
+        };
+        _JGkadTFL = {
+            "id" = "JGkadTFL";
+            "file" = "potionrestock-fabric-1.21.11-1.1.0.jar";
+            "hash" = "sha512-5S82VJYmNIq0n6rNJkO3z+KgwVs7ZSSoBjg1Gp32okkId9PcYKA3Dvgn70urnz8HDgxfUxUwoliOc2Vy0h4Pdg==";
+        };
+        _PKKRGL66 = {
+            "id" = "PKKRGL66";
+            "file" = "potionrestock-fabric-1.21.2-1.21.4-1.1.0.jar";
+            "hash" = "sha512-CcDyNwNCFjdYP35dPWV5I/81sNN0pVE3Jdom4F2f4VObLodh8Kuwvu6rn8GSK0TJdRpW2CW3uMtqyyUatZzrqA==";
+        };
+        _EbLqH8Hx = {
+            "id" = "EbLqH8Hx";
+            "file" = "potionrestock-fabric-1.21.5-1.1.0.jar";
+            "hash" = "sha512-/pvHFB/FO75fpkFhttX9Nrzy0Isx44Yh2ivNZXlqLJFvwRUXFHyANnosQoNjxlIAy9QB0Rgot+FxJ7GEuDbuYQ==";
+        };
+        _NW9dLaSM = {
+            "id" = "NW9dLaSM";
+            "file" = "potionrestock-fabric-1.21.6-1.21.8-1.1.0.jar";
+            "hash" = "sha512-87rHimruHw3Y8o12ePi/xd/5vbT4oUeaLJb/PP8gfEBTticXyaflDS+azlJbQkFe3IlprGAFxKQJz929+k+9Xg==";
+        };
+        _eVEyDJep = {
+            "id" = "eVEyDJep";
+            "file" = "potionrestock-fabric-1.21.9-1.1.0.jar";
+            "hash" = "sha512-mPUXjPI5G4qsCZp6zdNotOwzmpphTBtx6C48QUoLNZNtqBVa6j7M/4QHB8AiJR5cIC4Wtr8vpIeh+GZxz3TryQ==";
+        };
+        _Fgjjo4Vg = {
+            "id" = "Fgjjo4Vg";
+            "file" = "potionrestock-fabric-26.1-26.1.2-1.1.0.jar";
+            "hash" = "sha512-qIUSKuEgHTK98DMSkH2AZVrr5h46IuQvc7hb/ZvnTxQbL6tpz5SNe7pmEg0e2c5Jjqd7BwNu4KSsCd8azfWIGg==";
+        };
+        _hsIWdtus = {
+            "id" = "hsIWdtus";
+            "file" = "potionrestock-fabric-26.2-1.1.0.jar";
+            "hash" = "sha512-nTPzfdk5GC2kJFkxnc/OCjTYrW33uV0ZEdqbGLg6wmby87ZGAcfCEKHapVGr+rTnNXQ4nlCHiLBll9ow1TqmpQ==";
+        };
+        _DHqGw0aA = {
+            "id" = "DHqGw0aA";
+            "file" = "potionrestock-fabric-26.3-1.1.0.jar";
+            "hash" = "sha512-AP4umvGTJS99ctz8Rmf9MxmDSkmFOwX9bbxQf40C+DWqscZdoeTllm3HvTeULh1JBWNROAMbTHSICy5iwCTGiQ==";
+        };
     in {
         "M7VU1FnY" = _M7VU1FnY;
         "IjrofDRU" = _IjrofDRU;
@@ -104,24 +154,40 @@ let
         "iOHcXr3k" = _iOHcXr3k;
         "qRfVCP7e" = _qRfVCP7e;
         "nlRlyJde" = _nlRlyJde;
-        "fabric-1.21.10" = _6ZYUVUtF;
-        "fabric-1.21" = _mRODgsBW;
-        "fabric-1.21.1" = _mRODgsBW;
-        "fabric-1.21.2" = _qRfVCP7e;
-        "fabric-1.21.3" = _qRfVCP7e;
-        "fabric-1.21.4" = _qRfVCP7e;
-        "fabric-1.21.5" = _iOHcXr3k;
-        "fabric-1.21.6" = _zPzfhk53;
-        "fabric-1.21.7" = _zPzfhk53;
-        "fabric-1.21.8" = _zPzfhk53;
-        "fabric-1.21.9" = _mzXdA5bU;
-        "fabric-1.21.11" = _nlRlyJde;
+        "iIOeHT3q" = _iIOeHT3q;
+        "bclyCd7f" = _bclyCd7f;
+        "JGkadTFL" = _JGkadTFL;
+        "PKKRGL66" = _PKKRGL66;
+        "EbLqH8Hx" = _EbLqH8Hx;
+        "NW9dLaSM" = _NW9dLaSM;
+        "eVEyDJep" = _eVEyDJep;
+        "Fgjjo4Vg" = _Fgjjo4Vg;
+        "hsIWdtus" = _hsIWdtus;
+        "DHqGw0aA" = _DHqGw0aA;
+        "fabric-1.21.10" = _bclyCd7f;
+        "fabric-1.21" = _iIOeHT3q;
+        "fabric-1.21.1" = _iIOeHT3q;
+        "fabric-1.21.2" = _PKKRGL66;
+        "fabric-1.21.3" = _PKKRGL66;
+        "fabric-1.21.4" = _PKKRGL66;
+        "fabric-1.21.5" = _EbLqH8Hx;
+        "fabric-1.21.6" = _NW9dLaSM;
+        "fabric-1.21.7" = _NW9dLaSM;
+        "fabric-1.21.8" = _NW9dLaSM;
+        "fabric-1.21.9" = _eVEyDJep;
+        "fabric-1.21.11" = _JGkadTFL;
+        "fabric-26.1" = _Fgjjo4Vg;
+        "fabric-26.1.1" = _Fgjjo4Vg;
+        "fabric-26.1.2" = _Fgjjo4Vg;
+        "fabric-26.2" = _hsIWdtus;
+        "fabric-26.3" = _DHqGw0aA;
         "pkg-1.0.1" = _M7VU1FnY;
         "pkg-1.0.2" = _IjrofDRU;
         "pkg-1.0.4" = _5qlC2qCU;
         "pkg-1.0.5" = _SP8Uwhrn;
         "pkg-1.0.6" = _nlRlyJde;
-        "default" = _nlRlyJde;
+        "pkg-1.1.0" = _DHqGw0aA;
+        "default" = _DHqGw0aA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automatic-potion-restocker";

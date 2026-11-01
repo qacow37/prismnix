@@ -56,6 +56,11 @@ let
             "file" = "LOTMC 2.4.6.jar";
             "hash" = "sha512-6cdUZbOUbXlu0r2pOeENNDWxUjCc84HVw4XscF9V9Un9w/whCRZ01xgZR2ge+SQ1DK6gYdl7E/wisrijYYKcZg==";
         };
+        _Kf8uQNvk = {
+            "id" = "Kf8uQNvk";
+            "file" = "LOTMC 3.0.0.jar";
+            "hash" = "sha512-o7AlDSV0+w0jtqBFefgtyi+5mz+5qzOIz9aVfrMWpwj7fu97827tX9Dbz5josbSc6VGpzMASOSz258V6a7+2dw==";
+        };
     in {
         "fidpvjDw" = _fidpvjDw;
         "25Nvt2L2" = _25Nvt2L2;
@@ -68,12 +73,14 @@ let
         "AHJI9L2h" = _AHJI9L2h;
         "7NP8BKq0" = _7NP8BKq0;
         "5iP4Vm38" = _5iP4Vm38;
+        "Kf8uQNvk" = _Kf8uQNvk;
         "forge-1.20.1" = _5iP4Vm38;
         "forge-1.20.2" = _39Tzf6Yn;
         "forge-1.20.3" = _39Tzf6Yn;
         "forge-1.20.4" = _39Tzf6Yn;
         "forge-1.20.5" = _39Tzf6Yn;
         "forge-1.20.6" = _39Tzf6Yn;
+        "neoforge-1.21.1" = _Kf8uQNvk;
         "pkg-1.0.0-1.20.1" = _fidpvjDw;
         "pkg-0.1-1.20.1" = _39Tzf6Yn;
         "pkg-2.2.1" = _YQzxlKaD;
@@ -83,7 +90,8 @@ let
         "pkg-2.3.2" = _AHJI9L2h;
         "pkg-2.4.0" = _7NP8BKq0;
         "pkg-2.4.6" = _5iP4Vm38;
-        "default" = _5iP4Vm38;
+        "pkg-3.0.0" = _Kf8uQNvk;
+        "default" = _Kf8uQNvk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lotmc";

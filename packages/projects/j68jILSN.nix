@@ -86,6 +86,11 @@ let
             "file" = "realistic-torches-6.0.1+26.3.jar";
             "hash" = "sha512-eS7GpIWhVksAvrL39czQUoysVZTZ79S1TO+3SQPlVMVGJZuCGJEoLE20xo1ChkY8chddiFWTCBCSmg2C4GVkqg==";
         };
+        _mB7v2YOQ = {
+            "id" = "mB7v2YOQ";
+            "file" = "realistic-torches-4.0.3+26.1.jar";
+            "hash" = "sha512-Ocz2OxMUrbUylviHfwqvL8IEn6eVVy1WZy5TMC8zW2iatCcBMy1BvoWTyg7kXV3MELuSMY+/eaX5qADm7dRG3w==";
+        };
     in {
         "tXnn36mE" = _tXnn36mE;
         "b2Lkym8T" = _b2Lkym8T;
@@ -104,12 +109,13 @@ let
         "3Rkmvq9L" = _3Rkmvq9L;
         "gHmPymVr" = _gHmPymVr;
         "KqBrpNHi" = _KqBrpNHi;
+        "mB7v2YOQ" = _mB7v2YOQ;
         "fabric-1.20.1" = _fFOruCuJ;
         "fabric-1.21.1" = _uyecwyVf;
         "fabric-1.21.11" = _g1sc6u8k;
-        "fabric-26.1" = _3Rkmvq9L;
-        "fabric-26.1.1" = _3Rkmvq9L;
-        "fabric-26.1.2" = _3Rkmvq9L;
+        "fabric-26.1" = _mB7v2YOQ;
+        "fabric-26.1.1" = _mB7v2YOQ;
+        "fabric-26.1.2" = _mB7v2YOQ;
         "fabric-26.2" = _gHmPymVr;
         "fabric-26.3" = _KqBrpNHi;
         "pkg-0.1.0-beta+1.20.1" = _tXnn36mE;
@@ -129,7 +135,8 @@ let
         "pkg-4.0.2+26.1" = _3Rkmvq9L;
         "pkg-5.0.3+26.2" = _gHmPymVr;
         "pkg-6.0.1+26.3" = _KqBrpNHi;
-        "default" = _KqBrpNHi;
+        "pkg-4.0.3+26.1" = _mB7v2YOQ;
+        "default" = _mB7v2YOQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realistic-torches-fabric";

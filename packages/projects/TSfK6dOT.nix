@@ -11,9 +11,15 @@ let
             "file" = "OrangesCrowns_1.21.3.zip";
             "hash" = "sha512-xOyLEKQ7DEkQ2ZV8We9LmiUDhZUjkXR6euuSO7AndRnvOW3JqYtMgkJaioHZWs005OymdA9OUFVbm8zLRx7zSQ==";
         };
+        _qC0eg0vx = {
+            "id" = "qC0eg0vx";
+            "file" = "OrangesCrowns_26.3.zip";
+            "hash" = "sha512-WSnrPeMsTJh88/fEfJ9hpAkYtUDgwrDELh5A9OOMZsogWl9Px3bhQSld23gtb0Tn8KdiPD4f3Lt1/47j2tDseQ==";
+        };
     in {
         "NXdUK8V5" = _NXdUK8V5;
         "Qv9ZMwcu" = _Qv9ZMwcu;
+        "qC0eg0vx" = _qC0eg0vx;
         "minecraft-1.14" = _NXdUK8V5;
         "minecraft-1.14.1" = _NXdUK8V5;
         "minecraft-1.14.2" = _NXdUK8V5;
@@ -61,9 +67,11 @@ let
         "minecraft-26.1.1" = _Qv9ZMwcu;
         "minecraft-26.1.2" = _Qv9ZMwcu;
         "minecraft-26.2" = _Qv9ZMwcu;
+        "minecraft-26.3" = _qC0eg0vx;
         "pkg-1.0.0" = _NXdUK8V5;
         "pkg-1.0.1" = _Qv9ZMwcu;
-        "default" = _Qv9ZMwcu;
+        "pkg-1.0.2" = _qC0eg0vx;
+        "default" = _qC0eg0vx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oranges-crowns";

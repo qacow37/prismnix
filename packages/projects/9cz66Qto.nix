@@ -2311,6 +2311,46 @@ let
             "file" = "uncrafteverything-fabric-26.1.2-26.1.2.13.jar";
             "hash" = "sha512-fYeUI3K59Inwp4KZ1y9Ui92Gkh33DQjX1Rm7Tf4S24rq835CvUoLLJFlafEa2JkqgSgfXpdhPulX3SKU6WrcwA==";
         };
+        _jKgNXEWV = {
+            "id" = "jKgNXEWV";
+            "file" = "uncrafteverything-fabric-1.20.1-20.1.0.jar";
+            "hash" = "sha512-cd625ae3XiUfaNDbujjpr09l8cyK85EMhd6K0QyAvN/t2fNLnAwEPOcixNPlTidF4hD7m/ssLeRr1uFcXlXdCQ==";
+        };
+        _bd42jJVl = {
+            "id" = "bd42jJVl";
+            "file" = "uncrafteverything-forge-1.20.1-20.1.0.jar";
+            "hash" = "sha512-mS4PKy/mvkadqBjdwjmk5tO3MMZAg3C4KV/dSld9a8rB/3wHdycBEgfTaZ5IkHkzhCNgf1IjR0Vgx/uOZdDaXQ==";
+        };
+        _nDqb03MW = {
+            "id" = "nDqb03MW";
+            "file" = "uncrafteverything-neoforge-26.1.2-26.1.2.14.jar";
+            "hash" = "sha512-Dftw8qkqkbM6XA2vHg/9XevpcmVtgqGEE58uXJAqJixkLeRI/8DtAqqpFO7GrEfjwV+AUR4W6x9xf5IdtImVNg==";
+        };
+        _SdCrhlab = {
+            "id" = "SdCrhlab";
+            "file" = "uncrafteverything-fabric-26.1.2-26.1.2.14.jar";
+            "hash" = "sha512-x1jWu8h6cASS7LEIBSofwvu6o13mQBLe8rZCWuci6HBLbR3fQWxVEJGp19ULX9REx9qTttGnkKIS7Yc2Dn5pAg==";
+        };
+        _h65Ng0Lm = {
+            "id" = "h65Ng0Lm";
+            "file" = "uncrafteverything-neoforge-26.2-26.2.0.5.jar";
+            "hash" = "sha512-Q9S8kLvatX+Q2jPnTrQxOUN2j983R4l6OHCe/S/x40lwrbJYl0JqCkzw+PoQJSGkPnAUvbsyhpL1+kinhjWXfA==";
+        };
+        _El40iI3y = {
+            "id" = "El40iI3y";
+            "file" = "uncrafteverything-fabric-26.2-26.2.0.5.jar";
+            "hash" = "sha512-iAQWHD5tBefhKZ+KxPKJ/tTO5D2t8NmKJoQIfgY31Bv0W8a3qmkunc+gytvJ8euj69Z6kTfoSGWVE3en003neQ==";
+        };
+        _A0dmDU9S = {
+            "id" = "A0dmDU9S";
+            "file" = "uncrafteverything-neoforge-26.3-26.3.0.4.jar";
+            "hash" = "sha512-TAQ0akbcIrkuuSIL7p1EsYPda83HrmSbyLi8l88axr3fvaAk+Sk/prvxvIRN/jr7AbZrLtrefzAxVEtCdQ4OpA==";
+        };
+        _6ijBmqk4 = {
+            "id" = "6ijBmqk4";
+            "file" = "uncrafteverything-fabric-26.3-26.3.0.4.jar";
+            "hash" = "sha512-KHxFXseQDy5aUBO0oNK0AP4v9ZkQ+2DBUuV3qVKGtY6ryYfl1Qbh39l2vHsW60e73BzyJXFAJFx/8+Qp0O2gsQ==";
+        };
     in {
         "tkRHfMw9" = _tkRHfMw9;
         "pZZaAZvN" = _pZZaAZvN;
@@ -2774,10 +2814,18 @@ let
         "82vNIUtu" = _82vNIUtu;
         "BpZrLLRd" = _BpZrLLRd;
         "I2FqsUD4" = _I2FqsUD4;
+        "jKgNXEWV" = _jKgNXEWV;
+        "bd42jJVl" = _bd42jJVl;
+        "nDqb03MW" = _nDqb03MW;
+        "SdCrhlab" = _SdCrhlab;
+        "h65Ng0Lm" = _h65Ng0Lm;
+        "El40iI3y" = _El40iI3y;
+        "A0dmDU9S" = _A0dmDU9S;
+        "6ijBmqk4" = _6ijBmqk4;
         "fabric-1.21.4" = _AXOoe5KZ;
         "fabric-1.21.5" = _YmecWLIu;
         "fabric-1.21.1" = _nqWuHabu;
-        "fabric-1.20.1" = _LLoRc6Bv;
+        "fabric-1.20.1" = _jKgNXEWV;
         "fabric-1.16.5" = _P3WWtzMo;
         "fabric-1.20.6" = _oEkn0aS2;
         "fabric-25w19a" = _dNZuBWf3;
@@ -2795,15 +2843,15 @@ let
         "fabric-26.1-snapshot-6" = _GzIFNbQg;
         "fabric-26.1" = _azup9Q2o;
         "fabric-26.1.1" = _azup9Q2o;
-        "fabric-26.1.2" = _I2FqsUD4;
+        "fabric-26.1.2" = _SdCrhlab;
         "fabric-26.2-snapshot-1" = _ZV3NG54G;
         "fabric-26.2-snapshot-2" = _ZV3NG54G;
         "fabric-26.2-snapshot-3" = _ZV3NG54G;
         "fabric-26.2-snapshot-5" = _aOORKR0j;
         "fabric-26.2-snapshot-6" = _aOORKR0j;
         "fabric-26.2-snapshot-7" = _aOORKR0j;
-        "fabric-26.2" = _82vNIUtu;
-        "fabric-26.3" = _lpA2qfhT;
+        "fabric-26.2" = _El40iI3y;
+        "fabric-26.3" = _6ijBmqk4;
         "neoforge-1.21.4" = _oQbMelyc;
         "neoforge-1.21.5" = _oKp2yZlr;
         "neoforge-1.21.1" = _Pz63RaMs;
@@ -2820,10 +2868,10 @@ let
         "neoforge-26.1-snapshot-7" = _WDIN02zX;
         "neoforge-26.1" = _qEORArCh;
         "neoforge-26.1.1" = _qEORArCh;
-        "neoforge-26.1.2" = _BpZrLLRd;
-        "neoforge-26.2" = _Ee0Cyy62;
-        "neoforge-26.3" = _hQThmn9A;
-        "forge-1.20.1" = _91Cm6squ;
+        "neoforge-26.1.2" = _nDqb03MW;
+        "neoforge-26.2" = _h65Ng0Lm;
+        "neoforge-26.3" = _A0dmDU9S;
+        "forge-1.20.1" = _bd42jJVl;
         "forge-1.21.5" = _1xEBXjwC;
         "forge-1.16.5" = _XrVgTMPC;
         "forge-1.21.1" = _KeFh0FdZ;
@@ -3273,7 +3321,11 @@ let
         "pkg-26.3.0.3" = _lpA2qfhT;
         "pkg-26.2.0.4" = _82vNIUtu;
         "pkg-26.1.2.13" = _I2FqsUD4;
-        "default" = _I2FqsUD4;
+        "pkg-20.1.0" = _bd42jJVl;
+        "pkg-26.1.2.14" = _SdCrhlab;
+        "pkg-26.2.0.5" = _El40iI3y;
+        "pkg-26.3.0.4" = _6ijBmqk4;
+        "default" = _6ijBmqk4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uncraft-everything";

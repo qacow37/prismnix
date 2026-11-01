@@ -251,6 +251,36 @@ let
             "file" = "BCunofficial-2026.2.1-hf1+mc26.3.jar";
             "hash" = "sha512-V/2uM6/o/Nf9EziAlZYUsykR8C2qgIa5aOP2VDfJo40OxzuROuGBf+jmTjacFIDwiR8Y7WRE0fQIaCaN3IH80g==";
         };
+        _ATSGEBQU = {
+            "id" = "ATSGEBQU";
+            "file" = "BuildCraftRedux-2026.3.0+mc26.3.jar";
+            "hash" = "sha512-IIhVJGjxPrpzUUAYW3nv1ko/NSL3hBFhVABw0xC+VmcLfj3KBcXnP/CDn6f7Y1+RVDFWbUSyBQsq5Qiru6T4vQ==";
+        };
+        _LwWUx5oG = {
+            "id" = "LwWUx5oG";
+            "file" = "BuildCraftRedux-2026.3.0+mc1.21.1.jar";
+            "hash" = "sha512-klIcJwPUo45JXuTDrt0hp4p2NB/aGJRywyot9ZCMZnKGcF6t88cn4glcA5j8kuY0JC2f5pI2DFtYjFgDGAZQDg==";
+        };
+        _NNNKaIdm = {
+            "id" = "NNNKaIdm";
+            "file" = "BuildCraftRedux-2026.3.0+mc1.21.10.jar";
+            "hash" = "sha512-6VE429Agys0sjSuUtbgmSea6ysyVn/JKjiXvI5twsRVJe0XSz9hRKCJ2ZsqqlhB+Nw+W5ndBdrlsf/kvIaFXsw==";
+        };
+        _6Hw2Soiz = {
+            "id" = "6Hw2Soiz";
+            "file" = "BuildCraftRedux-2026.3.0+mc1.21.11.jar";
+            "hash" = "sha512-lUernGKdX2rfswrQdPeXZK4MhYKvL4WMymu1V1kKOuaIuh7DoMjn5lUlxc40GOxTxUQ+d/BptJSHz43cGD6PKA==";
+        };
+        _m6bquFxs = {
+            "id" = "m6bquFxs";
+            "file" = "BuildCraftRedux-2026.3.0+mc26.1.2.jar";
+            "hash" = "sha512-jVvRn5lNoRSLFirXX22fCI+7r4zeicflDWNao7OQL1s7aVOCJ1BLit2G0CIIUhF/1nRQ7IK8mCdealJAzU33Cg==";
+        };
+        _fzD4bkSE = {
+            "id" = "fzD4bkSE";
+            "file" = "BuildCraftRedux-2026.3.0+mc26.2.jar";
+            "hash" = "sha512-mOnanZ2npJbJ3hA2NzwXDPdGkFbfLuBz7mRMXtaIqzXDx9kKDyXjvWTE/TSaU9nKNxu2WqnFDEXS8HpOAZqFAg==";
+        };
     in {
         "5CkTYrGd" = _5CkTYrGd;
         "f88TyvZ3" = _f88TyvZ3;
@@ -302,14 +332,20 @@ let
         "AELYdQGt" = _AELYdQGt;
         "PQRVd92Q" = _PQRVd92Q;
         "PIYBugxq" = _PIYBugxq;
-        "neoforge-1.21.11" = _l9IYkgIC;
+        "ATSGEBQU" = _ATSGEBQU;
+        "LwWUx5oG" = _LwWUx5oG;
+        "NNNKaIdm" = _NNNKaIdm;
+        "6Hw2Soiz" = _6Hw2Soiz;
+        "m6bquFxs" = _m6bquFxs;
+        "fzD4bkSE" = _fzD4bkSE;
+        "neoforge-1.21.11" = _6Hw2Soiz;
         "neoforge-26.1" = _eXypQlq0;
         "neoforge-26.1.1" = _eXypQlq0;
-        "neoforge-26.1.2" = _AELYdQGt;
-        "neoforge-1.21.1" = _lwrR6tLk;
-        "neoforge-1.21.10" = _u6r1FNpF;
-        "neoforge-26.2" = _PQRVd92Q;
-        "neoforge-26.3" = _PIYBugxq;
+        "neoforge-26.1.2" = _m6bquFxs;
+        "neoforge-1.21.1" = _LwWUx5oG;
+        "neoforge-1.21.10" = _NNNKaIdm;
+        "neoforge-26.2" = _fzD4bkSE;
+        "neoforge-26.3" = _ATSGEBQU;
         "pkg-1.21.11-8.0.0-ar1" = _5CkTYrGd;
         "pkg-1.21.11_8.0.0-FINAL" = _f88TyvZ3;
         "pkg-26.1_8.0.0-br1" = _Q839ADRU;
@@ -360,7 +396,13 @@ let
         "pkg-2026.2.1+mc26.1.2" = _AELYdQGt;
         "pkg-2026.2.1+mc26.2" = _PQRVd92Q;
         "pkg-2026.2.1-hf1+mc26.3" = _PIYBugxq;
-        "default" = _PIYBugxq;
+        "pkg-2026.3.0+mc26.3" = _ATSGEBQU;
+        "pkg-2026.3.0+mc1.21.1" = _LwWUx5oG;
+        "pkg-2026.3.0+mc1.21.10" = _NNNKaIdm;
+        "pkg-2026.3.0+mc1.21.11" = _6Hw2Soiz;
+        "pkg-2026.3.0+mc26.1.2" = _m6bquFxs;
+        "pkg-2026.3.0+mc26.2" = _fzD4bkSE;
+        "default" = _fzD4bkSE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildcraft-unofficial";

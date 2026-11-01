@@ -381,6 +381,31 @@ let
             "file" = "Nether-Descent-NeoForge-1.0.12-mc1.21.4.jar";
             "hash" = "sha512-D51U9yERSRzgYItHNDXBOmDuzzUXHlag8vjmLH6lBKeO4Om3ua99OnSJ8yylEu8U5soSZUeholRvhnpA/I2KaQ==";
         };
+        _3r5Dh8W4 = {
+            "id" = "3r5Dh8W4";
+            "file" = "Nether-Descent-Fabric-1.0.12-mc1.21.1.jar";
+            "hash" = "sha512-OB7+98UMlbA8h6afvQJKZ5v4JSyWSMjFc3rbX+tm8uM8MrrVtzNBUMXauXdPnQAhLnPeKy9U6AjN4U3EqLm0IA==";
+        };
+        _2Fe3lukC = {
+            "id" = "2Fe3lukC";
+            "file" = "Nether-Descent-Forge-1.0.12-mc1.21.1.jar";
+            "hash" = "sha512-7VK93/QETsKIVeakkFoEpAQtkMVwTYZzf6FlfNi5EmTCsSBJk+MkJyeO/YxoJyMdURt0L/8FYbXaL3r3UlfEew==";
+        };
+        _CLAlukLf = {
+            "id" = "CLAlukLf";
+            "file" = "Nether-Descent-NeoForge-1.0.12-mc1.21.1.jar";
+            "hash" = "sha512-qEO+dxE8y+JJTxkYX0DjlO6/kF65CqzUqZMM6lThKr1V58v7SzZFqZuHzztrJY1XkLQ8WArleUwjM/kK/EWGLw==";
+        };
+        _mL8bXrew = {
+            "id" = "mL8bXrew";
+            "file" = "Nether-Descent-Fabric-1.0.12-mc1.20.1.jar";
+            "hash" = "sha512-1LLzJbo6EXoL2sGqikaoyvgh7A/ZUZaFwBXksMvapNOmr05FrnzP0O1kg2nRjEZ+fk2wqH9PPTYR9bNO5k2IKg==";
+        };
+        _HJKq5KzE = {
+            "id" = "HJKq5KzE";
+            "file" = "Nether-Descent-Forge-1.0.12-mc1.20.1.jar";
+            "hash" = "sha512-tqXzygHyRvHQtUTcDdUUnkYU7AHHa2Ao5LgeDUxXK8SkLFlpDkLLbLJGKXTDaQ5C+6DHpV/2m3Qvs5+4VPWyiQ==";
+        };
     in {
         "Tf5o8U5i" = _Tf5o8U5i;
         "Q89sbHlo" = _Q89sbHlo;
@@ -458,25 +483,30 @@ let
         "ridhsArw" = _ridhsArw;
         "ALF3dL2P" = _ALF3dL2P;
         "IRpC4dGS" = _IRpC4dGS;
-        "fabric-1.21.1" = _FOfon0in;
-        "fabric-1.20.1" = _UhSLDLvO;
+        "3r5Dh8W4" = _3r5Dh8W4;
+        "2Fe3lukC" = _2Fe3lukC;
+        "CLAlukLf" = _CLAlukLf;
+        "mL8bXrew" = _mL8bXrew;
+        "HJKq5KzE" = _HJKq5KzE;
+        "fabric-1.21.1" = _3r5Dh8W4;
+        "fabric-1.20.1" = _mL8bXrew;
         "fabric-1.21.4" = _ridhsArw;
         "fabric-1.21.11" = _MwAYatYN;
         "fabric-26.1.2" = _9mwyCzus;
         "fabric-26.2" = _YJtxUMpS;
-        "quilt-1.21.1" = _FOfon0in;
-        "quilt-1.20.1" = _UhSLDLvO;
+        "quilt-1.21.1" = _3r5Dh8W4;
+        "quilt-1.20.1" = _mL8bXrew;
         "quilt-1.21.4" = _ridhsArw;
         "quilt-1.21.11" = _MwAYatYN;
         "quilt-26.1.2" = _9mwyCzus;
         "quilt-26.2" = _YJtxUMpS;
-        "forge-1.21.1" = _u5la0MRG;
-        "forge-1.20.1" = _QtapHgzR;
+        "forge-1.21.1" = _2Fe3lukC;
+        "forge-1.20.1" = _HJKq5KzE;
         "forge-1.21.4" = _ALF3dL2P;
         "forge-1.21.11" = _foFXCYmS;
         "forge-26.1.2" = _4nPL6XlA;
         "forge-26.2" = _wMbDSlaF;
-        "neoforge-1.21.1" = _2rWyEQRw;
+        "neoforge-1.21.1" = _CLAlukLf;
         "neoforge-1.21.4" = _IRpC4dGS;
         "neoforge-1.21.11" = _Hjk2ztFJ;
         "neoforge-26.1.2" = _sGrA91Dg;
@@ -557,7 +587,12 @@ let
         "pkg-1.0.12-Fabric-mc1.21.4" = _ridhsArw;
         "pkg-1.0.12-Forge-mc1.21.4" = _ALF3dL2P;
         "pkg-1.0.12-NeoForge-mc1.21.4" = _IRpC4dGS;
-        "default" = _IRpC4dGS;
+        "pkg-1.0.12-Fabric-mc1.21.1" = _3r5Dh8W4;
+        "pkg-1.0.12-Forge-mc1.21.1" = _2Fe3lukC;
+        "pkg-1.0.12-NeoForge-mc1.21.1" = _CLAlukLf;
+        "pkg-1.0.12-Fabric-mc1.20.1" = _mL8bXrew;
+        "pkg-1.0.12-Forge-mc1.20.1" = _HJKq5KzE;
+        "default" = _HJKq5KzE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-descent";

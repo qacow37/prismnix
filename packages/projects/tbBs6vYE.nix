@@ -101,6 +101,16 @@ let
             "file" = "cobblemon_paleontologist-0.7.3-Beta-Neo.jar";
             "hash" = "sha512-BtNkDlevtj/aOJmI8ypgMmkefcI/EH7/8/WA0rmTjL7J3bhNWsYAUJmR2gIbDTJMfVZcrZYn3FyeADAJGYc1xw==";
         };
+        _PqpzuIVb = {
+            "id" = "PqpzuIVb";
+            "file" = "cobblemon-paleontologist-0.7.3-Beta.jar";
+            "hash" = "sha512-JiY/UHdR9g7DLdHB6NP8A+JzqjpU/GycEhzexipZonHap8hFVr99Pb4bf/+VnmxGFhoXBzNDmNQJ+85VR8nNxQ==";
+        };
+        _e0Gl1uQm = {
+            "id" = "e0Gl1uQm";
+            "file" = "cobblemon_paleontologist-0.7.31-Beta-Neo.jar";
+            "hash" = "sha512-09eQOoJyRBgaKNQDxsQmLUCdBypYiZH3tW3+G1OtWtTubPp/kK/l64cmG/FW39K6sf9cazgW7Xpq/GBROpFkIw==";
+        };
     in {
         "nJuVlJQV" = _nJuVlJQV;
         "2ESu00oO" = _2ESu00oO;
@@ -122,8 +132,10 @@ let
         "zQec1EcM" = _zQec1EcM;
         "GsCN7xC1" = _GsCN7xC1;
         "hYYH7U7f" = _hYYH7U7f;
-        "fabric-1.21.1" = _zQec1EcM;
-        "neoforge-1.21.1" = _hYYH7U7f;
+        "PqpzuIVb" = _PqpzuIVb;
+        "e0Gl1uQm" = _e0Gl1uQm;
+        "fabric-1.21.1" = _PqpzuIVb;
+        "neoforge-1.21.1" = _e0Gl1uQm;
         "pkg-1.6.1+0.0.1-Beta" = _nJuVlJQV;
         "pkg-1.6.1+0.1.0-Beta" = _2ESu00oO;
         "pkg-1.6.1+0.0.3-Beta" = _eI5bpnkt;
@@ -144,7 +156,9 @@ let
         "pkg-1.8.2+0.7.2-Beta" = _zQec1EcM;
         "pkg-1.8.2+0.7.2-Beta-Neo" = _GsCN7xC1;
         "pkg-1.8.3+0.7.3-Beta-Neo" = _hYYH7U7f;
-        "default" = _hYYH7U7f;
+        "pkg-1.8.4+0.7.3-Beta" = _PqpzuIVb;
+        "pkg-1.8.4+0.7.31-Beta-Neo" = _e0Gl1uQm;
+        "default" = _e0Gl1uQm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-paleontology";

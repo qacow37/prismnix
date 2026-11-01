@@ -391,6 +391,11 @@ let
             "file" = "lazy-ai-1.7.1.jar";
             "hash" = "sha512-1IZ/QJF8OhP1vf1BWz8oma77EbeG16y75NLM8FHZ28//UPw3ojTrVkBfj6o8xm71+TBwRm3vXZ+s/q+d2NLhBg==";
         };
+        _NCzZVFZO = {
+            "id" = "NCzZVFZO";
+            "file" = "lazy-ai-1.7.1.jar";
+            "hash" = "sha512-l4L7FUo/remZhr0WN0yCGVd4zx15rbIW5Tu854R7mGgI6mdOaCXrKfYQnTmzhc+N4Qs034bG0TKVj9OEhrmqmQ==";
+        };
     in {
         "Avkn2FKb" = _Avkn2FKb;
         "m9o5746u" = _m9o5746u;
@@ -470,6 +475,7 @@ let
         "2d1u7MgF" = _2d1u7MgF;
         "Tv63F0Ek" = _Tv63F0Ek;
         "fHw2j3YF" = _fHw2j3YF;
+        "NCzZVFZO" = _NCzZVFZO;
         "fabric-1.21.6" = _hONdhTof;
         "fabric-1.21.7" = _hONdhTof;
         "fabric-1.21.8" = _hONdhTof;
@@ -499,6 +505,7 @@ let
         "fabric-26.1.2" = _fHw2j3YF;
         "fabric-26.2" = _Tv63F0Ek;
         "fabric-26.3" = _2d1u7MgF;
+        "fabric-26.4-snapshot-6" = _NCzZVFZO;
         "pkg-1.0.0" = _Avkn2FKb;
         "pkg-1.1.0" = _m9o5746u;
         "pkg-1.1.1" = _AoBZzCZ9;
@@ -518,8 +525,8 @@ let
         "pkg-1.6.1" = _oZpkGdk6;
         "pkg-1.6.2" = _Trs7zmPQ;
         "pkg-1.7.0" = _3oSiZQ1C;
-        "pkg-1.7.1" = _fHw2j3YF;
-        "default" = _fHw2j3YF;
+        "pkg-1.7.1" = _NCzZVFZO;
+        "default" = _NCzZVFZO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lazyai";

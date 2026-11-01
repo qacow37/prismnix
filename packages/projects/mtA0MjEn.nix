@@ -21,12 +21,18 @@ let
             "file" = "CreateRadiologistics-1.1.3.jar";
             "hash" = "sha512-ggWvqJEijiaC9YngK6KNR4eCpoD/mi1S8MESaF/juTrra3saiOgrKcLFJ/By+4UYKDgbONlaFLFIp5GyUUgUBg==";
         };
+        _37BIu8fc = {
+            "id" = "37BIu8fc";
+            "file" = "CreateRadiologistics-1.1.4.jar";
+            "hash" = "sha512-Jr1R67C339RWKkZC2Ny5Ar47qbMyoNF/8hxuCk2AAFjDu69D3nmVDG9DdWf3re5NQ6GZAKwKL3wtOiLzMM1yPQ==";
+        };
     in {
         "RARmhHr3" = _RARmhHr3;
         "nu9mL1zt" = _nu9mL1zt;
         "nLR7F2FF" = _nLR7F2FF;
         "itGbK3IZ" = _itGbK3IZ;
-        "neoforge-1.21.1" = _itGbK3IZ;
+        "37BIu8fc" = _37BIu8fc;
+        "neoforge-1.21.1" = _37BIu8fc;
         "neoforge-1.21.2" = _nLR7F2FF;
         "neoforge-1.21.3" = _nLR7F2FF;
         "neoforge-1.21.4" = _nLR7F2FF;
@@ -41,7 +47,8 @@ let
         "pkg-1.1.1" = _nu9mL1zt;
         "pkg-1.1.2" = _nLR7F2FF;
         "pkg-1.1.3" = _itGbK3IZ;
-        "default" = _itGbK3IZ;
+        "pkg-1.1.4" = _37BIu8fc;
+        "default" = _37BIu8fc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-radiologistics";

@@ -46,6 +46,11 @@ let
             "file" = "GriefPrevention.jar";
             "hash" = "sha512-ybxpIlO6OGAyflw4dnzj3GbHmCZP5lCgi0roiDN/91vBbpvR23s5pRSidb8swqPx+M2VzwgLia5CoPaE/Cv8Zg==";
         };
+        _MtwPHMAS = {
+            "id" = "MtwPHMAS";
+            "file" = "GriefPrevention.jar";
+            "hash" = "sha512-JI7caB6U/jM6pCYrTohY6ej3nn5IcqdjSP9t8hPMVuYGnuqZFsXE5kdrFRNXXw1F23bJFSb13AMuAriAY0G56Q==";
+        };
     in {
         "gNbluNbG" = _gNbluNbG;
         "QYObZ1PL" = _QYObZ1PL;
@@ -56,6 +61,7 @@ let
         "iaJtn30B" = _iaJtn30B;
         "4RqY8Kfl" = _4RqY8Kfl;
         "dGfCZHqk" = _dGfCZHqk;
+        "MtwPHMAS" = _MtwPHMAS;
         "bukkit-1.17" = _QYObZ1PL;
         "bukkit-1.17.1" = _QYObZ1PL;
         "bukkit-1.18" = _QYObZ1PL;
@@ -79,6 +85,7 @@ let
         "bukkit-26.1.1" = _dGfCZHqk;
         "bukkit-26.1.2" = _dGfCZHqk;
         "bukkit-26.2" = _dGfCZHqk;
+        "bukkit-26.3" = _MtwPHMAS;
         "paper-1.17" = _QYObZ1PL;
         "paper-1.17.1" = _QYObZ1PL;
         "paper-1.18" = _QYObZ1PL;
@@ -112,6 +119,7 @@ let
         "paper-26.1.1" = _dGfCZHqk;
         "paper-26.1.2" = _dGfCZHqk;
         "paper-26.2" = _dGfCZHqk;
+        "paper-26.3" = _MtwPHMAS;
         "purpur-1.17" = _QYObZ1PL;
         "purpur-1.17.1" = _QYObZ1PL;
         "purpur-1.18" = _QYObZ1PL;
@@ -145,6 +153,7 @@ let
         "purpur-26.1.1" = _dGfCZHqk;
         "purpur-26.1.2" = _dGfCZHqk;
         "purpur-26.2" = _dGfCZHqk;
+        "purpur-26.3" = _MtwPHMAS;
         "spigot-1.17" = _QYObZ1PL;
         "spigot-1.17.1" = _QYObZ1PL;
         "spigot-1.18" = _QYObZ1PL;
@@ -178,6 +187,7 @@ let
         "spigot-26.1.1" = _dGfCZHqk;
         "spigot-26.1.2" = _dGfCZHqk;
         "spigot-26.2" = _dGfCZHqk;
+        "spigot-26.3" = _MtwPHMAS;
         "pkg-16.18.2" = _DulfD6iE;
         "pkg-16.18.2-beta2" = _QYObZ1PL;
         "pkg-16.18.3-beta1" = _S9WY4Kev;
@@ -186,7 +196,8 @@ let
         "pkg-16.18.5" = _iaJtn30B;
         "pkg-16.18.6" = _4RqY8Kfl;
         "pkg-16.18.7" = _dGfCZHqk;
-        "default" = _dGfCZHqk;
+        "pkg-16.18.8" = _MtwPHMAS;
+        "default" = _MtwPHMAS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "griefprevention";

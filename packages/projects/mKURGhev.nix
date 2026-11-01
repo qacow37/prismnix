@@ -46,6 +46,11 @@ let
             "file" = "Faithful Serif Fonts.zip";
             "hash" = "sha512-ybrpjxxWpt2u5PQX5s029JTPUogF+0H3O/i2t9qluYuoh51Mse/eWJptYbHPmmRRyT4P/eA12en8dfpA7irPow==";
         };
+        _tAuWww9J = {
+            "id" = "tAuWww9J";
+            "file" = "Faithful Serif Fonts.zip";
+            "hash" = "sha512-hOpk3r/L0SyQ/bdDkox/HpBppoUTGeLEK1cFx9PkHoRgPaRaBMP9nnQmHwWZHijpedQGr2tZmveOLlQIYFfBVw==";
+        };
     in {
         "D8xjAphn" = _D8xjAphn;
         "alibn2vF" = _alibn2vF;
@@ -56,6 +61,7 @@ let
         "XPMo3SZ8" = _XPMo3SZ8;
         "ak34kM4M" = _ak34kM4M;
         "9yfFWorI" = _9yfFWorI;
+        "tAuWww9J" = _tAuWww9J;
         "minecraft-1.21.1" = _D8xjAphn;
         "minecraft-1.21.2" = _D8xjAphn;
         "minecraft-1.21.3" = _D8xjAphn;
@@ -69,6 +75,7 @@ let
         "minecraft-1.21.11" = _ak34kM4M;
         "minecraft-26.1" = _9yfFWorI;
         "minecraft-26.1.1" = _9yfFWorI;
+        "minecraft-26.3" = _tAuWww9J;
         "pkg-v1.0" = _D8xjAphn;
         "pkg-1.1" = _alibn2vF;
         "pkg-1.2" = _4esGtEPg;
@@ -78,7 +85,8 @@ let
         "pkg-1.6" = _XPMo3SZ8;
         "pkg-1.7" = _ak34kM4M;
         "pkg-1.8" = _9yfFWorI;
-        "default" = _9yfFWorI;
+        "pkg-1.9" = _tAuWww9J;
+        "default" = _tAuWww9J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faithful-serif";

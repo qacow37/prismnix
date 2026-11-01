@@ -1186,6 +1186,11 @@ let
             "file" = "customgun-26.10.34-neoforge-26.3.jar";
             "hash" = "sha512-zJ18ifi9zBCMsrrQiP39pFcZ54Dj95Z2zCtYMA+bQdA6cXkz3vwSM3XuCMsdG1Tbt2dIbUJflrnSLY+CIDhglw==";
         };
+        _zrYjvyFL = {
+            "id" = "zrYjvyFL";
+            "file" = "customgun-26.10.34.1-neoforge-26.3.jar";
+            "hash" = "sha512-ns+O9xZ9wgktNsiUoOIhkNr5Lhi6gq+p1do15x0NZFTKE5HIES8Lug6tGprXZdH5w1zX7cMiARdtL3keprK5xQ==";
+        };
     in {
         "ldsXtOG2" = _ldsXtOG2;
         "624d8wIx" = _624d8wIx;
@@ -1424,6 +1429,7 @@ let
         "RfaZdSUi" = _RfaZdSUi;
         "hI5m4fhD" = _hI5m4fhD;
         "EdoUtq9X" = _EdoUtq9X;
+        "zrYjvyFL" = _zrYjvyFL;
         "forge-1.20.1" = _7yjJkLrj;
         "forge-1.20.2" = _oqgXyg4p;
         "forge-1.20.4" = _CWDyuT5A;
@@ -1439,7 +1445,7 @@ let
         "neoforge-26.1.1" = _LwnNVK02;
         "neoforge-26.1.2" = _IvJ7gSRE;
         "neoforge-26.2" = _hI5m4fhD;
-        "neoforge-26.3" = _EdoUtq9X;
+        "neoforge-26.3" = _zrYjvyFL;
         "pkg-0.0.5" = _FhFLef3n;
         "pkg-0.0.6" = _VtrrNUCe;
         "pkg-0.0.7" = _yXuaUFCV;
@@ -1474,7 +1480,8 @@ let
         "pkg-26.10.32" = _s0M58byL;
         "pkg-26.10.33" = _ksoiDnEo;
         "pkg-26.10.34" = _EdoUtq9X;
-        "default" = _EdoUtq9X;
+        "pkg-26.10.34.1" = _zrYjvyFL;
+        "default" = _zrYjvyFL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-gun-continued";

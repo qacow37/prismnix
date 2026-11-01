@@ -51,6 +51,11 @@ let
             "file" = "bakeries-1.21.1-NeoForge-1.0.5.jar";
             "hash" = "sha512-XlYN5RLd7Z4TUv2ns8Tri6BPqgp+m0dHmBrLZ1Xi8pT7E2IEpwnJuE5BNySUeNqLEiGTje7Sdh8xLpWkz1ClaA==";
         };
+        _cjpIi18s = {
+            "id" = "cjpIi18s";
+            "file" = "bakeries-1.20.1-forge-1.3.4.jar";
+            "hash" = "sha512-ThAQ+tnj1b6/FZkCUdwD562e9MxCDq9OKvr3YAy4ntrvCS81p/krJDEIGZAjh3H3dyR81gw85CGgvs2CVmWPog==";
+        };
     in {
         "GZ75wK3b" = _GZ75wK3b;
         "O93gPRNV" = _O93gPRNV;
@@ -62,7 +67,8 @@ let
         "xubEs3BQ" = _xubEs3BQ;
         "V9ibrqI4" = _V9ibrqI4;
         "5nomzI3M" = _5nomzI3M;
-        "forge-1.20.1" = _V9ibrqI4;
+        "cjpIi18s" = _cjpIi18s;
+        "forge-1.20.1" = _cjpIi18s;
         "neoforge-1.21.1" = _5nomzI3M;
         "neoforge-26.1.2" = _zbUjzh1Y;
         "pkg-1.20.1-forge-1.2.9" = _GZ75wK3b;
@@ -74,7 +80,8 @@ let
         "pkg-1.21.1-NeoForge-1.0.4" = _xubEs3BQ;
         "pkg-1.20.1-forge-1.3.3" = _V9ibrqI4;
         "pkg-1.21.1-NeoForge-1.0.5" = _5nomzI3M;
-        "default" = _5nomzI3M;
+        "pkg-1.20.1-forge-1.3.4" = _cjpIi18s;
+        "default" = _cjpIi18s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bakeries-renyigesai";

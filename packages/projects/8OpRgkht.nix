@@ -21,11 +21,23 @@ let
             "file" = "chatmove-1.3.0-26.2.jar";
             "hash" = "sha512-ydW3gdrDbcqpY8T9XQkc9meP9VwqNN6DIXZiUaJGUKoqWCr215JNVx+Ex1ovXujULAXe7Ytn+uHhxhgSu5pvOw==";
         };
+        _2DHqDFTw = {
+            "id" = "2DHqDFTw";
+            "file" = "chatmove-1.3.0-26.1.jar";
+            "hash" = "sha512-Hz/wrd0chWl5NgTUdBJjX8FVyJR9YZ1HO1dnqeaFyz4VoMQnDnfmn/sIsMpfds0Von4ZQMC/T/10wP8jGsktwg==";
+        };
+        _gVVDuYUd = {
+            "id" = "gVVDuYUd";
+            "file" = "chatmove-1.3.0-1.21.(0-5).jar";
+            "hash" = "sha512-sMt0IF388zMv+hhX7RMPvLtlLl3xqtkHa1De3UFbbSULWC6oOu5D6KqtbWD2MvmC8yKTb7urU8AAJyMPsFSQRA==";
+        };
     in {
         "n7MKHzvd" = _n7MKHzvd;
         "oxbJ2OSw" = _oxbJ2OSw;
         "VKkC5xb2" = _VKkC5xb2;
         "Xi1c1WwD" = _Xi1c1WwD;
+        "2DHqDFTw" = _2DHqDFTw;
+        "gVVDuYUd" = _gVVDuYUd;
         "fabric-1.19.3" = _n7MKHzvd;
         "fabric-1.20.1" = _oxbJ2OSw;
         "fabric-1.20.2" = _oxbJ2OSw;
@@ -33,17 +45,37 @@ let
         "fabric-1.20.4" = _oxbJ2OSw;
         "fabric-26.3" = _VKkC5xb2;
         "fabric-26.2" = _Xi1c1WwD;
+        "fabric-26.1" = _2DHqDFTw;
+        "fabric-26.1.1" = _2DHqDFTw;
+        "fabric-26.1.2" = _2DHqDFTw;
+        "fabric-1.21" = _gVVDuYUd;
+        "fabric-1.21.1" = _gVVDuYUd;
+        "fabric-1.21.2" = _gVVDuYUd;
+        "fabric-1.21.3" = _gVVDuYUd;
+        "fabric-1.21.4" = _gVVDuYUd;
+        "fabric-1.21.5" = _gVVDuYUd;
         "quilt-1.20.1" = _oxbJ2OSw;
         "quilt-1.20.2" = _oxbJ2OSw;
         "quilt-1.20.3" = _oxbJ2OSw;
         "quilt-1.20.4" = _oxbJ2OSw;
         "quilt-26.3" = _VKkC5xb2;
         "quilt-26.2" = _Xi1c1WwD;
+        "quilt-26.1" = _2DHqDFTw;
+        "quilt-26.1.1" = _2DHqDFTw;
+        "quilt-26.1.2" = _2DHqDFTw;
+        "quilt-1.21" = _gVVDuYUd;
+        "quilt-1.21.1" = _gVVDuYUd;
+        "quilt-1.21.2" = _gVVDuYUd;
+        "quilt-1.21.3" = _gVVDuYUd;
+        "quilt-1.21.4" = _gVVDuYUd;
+        "quilt-1.21.5" = _gVVDuYUd;
         "pkg-1.1" = _n7MKHzvd;
         "pkg-1.2" = _oxbJ2OSw;
         "pkg-1.3.0-26.3" = _VKkC5xb2;
         "pkg-1.3.0-26.2" = _Xi1c1WwD;
-        "default" = _Xi1c1WwD;
+        "pkg-1.3.0-26.1" = _2DHqDFTw;
+        "pkg-1.3.0-1.21.(0-5)" = _gVVDuYUd;
+        "default" = _gVVDuYUd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatmove";
