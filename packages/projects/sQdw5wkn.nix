@@ -31,6 +31,16 @@ let
             "file" = "paranormal-activity-0.6.2.jar";
             "hash" = "sha512-Y/RtbdZa11YzPJIa53BuUurytrpGuEMGhXGpRrkeD29LTvk/n3jTOanbyc+aOEaGNPWkOqQv9rHgksHn5G1D0w==";
         };
+        _vXLC4ght = {
+            "id" = "vXLC4ght";
+            "file" = "Paranormal-activity-v0.6.3.zip";
+            "hash" = "sha512-gEte5A72KsREycyXBWCyNvrx8wJiK9DSZZF0XgSXtKhuTJPjvNtJP0SnyaYXJAxT7zIkQw0DbchKSE4wWHTIXA==";
+        };
+        _u79qIM5R = {
+            "id" = "u79qIM5R";
+            "file" = "paranormal-activity-0.6.3.jar";
+            "hash" = "sha512-wpK+bS3/lqYiz/wrrSsU0h8CEUtQOT1I4LJRPqW2AA1mpCuYcZdvOPCGK5yl0GZUstjq1MRzTN9lQ/YEUs4D2w==";
+        };
     in {
         "Oj4W4ePE" = _Oj4W4ePE;
         "wvbu6gEW" = _wvbu6gEW;
@@ -38,18 +48,22 @@ let
         "KxzUv2ER" = _KxzUv2ER;
         "ykQRzVnB" = _ykQRzVnB;
         "ec6Iv5NS" = _ec6Iv5NS;
-        "datapack-1.21.11" = _ykQRzVnB;
-        "fabric-1.21.11" = _ec6Iv5NS;
-        "forge-1.21.11" = _ec6Iv5NS;
-        "neoforge-1.21.11" = _ec6Iv5NS;
-        "quilt-1.21.11" = _ec6Iv5NS;
+        "vXLC4ght" = _vXLC4ght;
+        "u79qIM5R" = _u79qIM5R;
+        "datapack-1.21.11" = _vXLC4ght;
+        "fabric-1.21.11" = _u79qIM5R;
+        "forge-1.21.11" = _u79qIM5R;
+        "neoforge-1.21.11" = _u79qIM5R;
+        "quilt-1.21.11" = _u79qIM5R;
         "pkg-0.6.0" = _Oj4W4ePE;
         "pkg-0.6.0+mod" = _wvbu6gEW;
         "pkg-0.6.1" = _U4LOCyZx;
         "pkg-0.6.1+mod" = _KxzUv2ER;
         "pkg-0.6.2" = _ykQRzVnB;
         "pkg-0.6.2+mod" = _ec6Iv5NS;
-        "default" = _ec6Iv5NS;
+        "pkg-0.6.3" = _vXLC4ght;
+        "pkg-0.6.3+mod" = _u79qIM5R;
+        "default" = _u79qIM5R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paranormal-activity";

@@ -111,6 +111,11 @@ let
             "file" = "inventory-plus-3.3.1+26.3.jar";
             "hash" = "sha512-/0B8vwSaQ61un2mltLqna8fCbMiUyjzNadwaOKEC1/HKtmMh9lCP6IW64O2RNd1aQwiDys4417+mXkK887ZEdA==";
         };
+        _357qrDBo = {
+            "id" = "357qrDBo";
+            "file" = "inventory-plus-3.3.2+26.3.jar";
+            "hash" = "sha512-wU7idmfbhtewXLIIZqzQcNosDyxymo6lfASDI6QAZ80H8d1orZMxjn7Jog2ZY6ZQeh+o/kILdSprevlK2d/5Gg==";
+        };
     in {
         "LPXTIzfI" = _LPXTIzfI;
         "ICzg4DMQ" = _ICzg4DMQ;
@@ -134,9 +139,10 @@ let
         "jr64CR4Y" = _jr64CR4Y;
         "kvBLR1Er" = _kvBLR1Er;
         "dBPcledO" = _dBPcledO;
+        "357qrDBo" = _357qrDBo;
         "fabric-1.21.11" = _NBLThQmj;
         "fabric-26.2" = _fGEzfrWI;
-        "fabric-26.3" = _dBPcledO;
+        "fabric-26.3" = _357qrDBo;
         "pkg-1.0.0" = _LPXTIzfI;
         "pkg-1.0.1" = _ICzg4DMQ;
         "pkg-1.1.0" = _5WrFAxFA;
@@ -159,7 +165,8 @@ let
         "pkg-3.2.0+26.3" = _jr64CR4Y;
         "pkg-3.3.0+26.3" = _kvBLR1Er;
         "pkg-3.3.1+26.3" = _dBPcledO;
-        "default" = _dBPcledO;
+        "pkg-3.3.2+26.3" = _357qrDBo;
+        "default" = _357qrDBo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-plus-trevlar";

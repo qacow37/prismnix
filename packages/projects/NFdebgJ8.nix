@@ -101,6 +101,11 @@ let
             "file" = "savs-common-economy-1.7.1-26.3.jar";
             "hash" = "sha512-xCfJJk7Dye2ViGDYq53VoLOrroiz7mj3P8Y4KUJ+CE13urjnCZlSLiMPNU7ZssLmpdiMkOpBqqyFBteyHleHSQ==";
         };
+        _ZMg2wC8I = {
+            "id" = "ZMg2wC8I";
+            "file" = "savs-common-economy-1.7.2-26.3.jar";
+            "hash" = "sha512-4NW0DJzBYLGQPXCw+fu7jxa5A5Tgmv8ll87kAOC6r9Izdg5PLhuw+GU/mJFuTnO2pq4KQ0CwrTptDtWGbY2qpA==";
+        };
     in {
         "YysYMcQC" = _YysYMcQC;
         "5NdBSZOX" = _5NdBSZOX;
@@ -122,13 +127,14 @@ let
         "OypMvr9L" = _OypMvr9L;
         "VK2nMsOt" = _VK2nMsOt;
         "klaL6P6D" = _klaL6P6D;
+        "ZMg2wC8I" = _ZMg2wC8I;
         "fabric-1.21.10" = _epKIC4Pu;
         "fabric-1.21.11" = _4VzWg9eL;
         "fabric-26.1" = _bEkryCU0;
         "fabric-26.1.1" = _bEkryCU0;
         "fabric-26.1.2" = _bEkryCU0;
         "fabric-26.2" = _VK2nMsOt;
-        "fabric-26.3" = _klaL6P6D;
+        "fabric-26.3" = _ZMg2wC8I;
         "pkg-1.1.0" = _YysYMcQC;
         "pkg-1.2.0" = _5NdBSZOX;
         "pkg-1.3.2" = _oPjywLdr;
@@ -149,7 +155,8 @@ let
         "pkg-1.7.0-26.2" = _OypMvr9L;
         "pkg-v1.7.1-26.2" = _VK2nMsOt;
         "pkg-v1.7.1-26.3" = _klaL6P6D;
-        "default" = _klaL6P6D;
+        "pkg-v1.7.2-26.3" = _ZMg2wC8I;
+        "default" = _ZMg2wC8I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "savs-common-economy";

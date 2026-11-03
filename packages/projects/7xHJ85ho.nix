@@ -41,6 +41,26 @@ let
             "file" = "lower-shields - 1.21.9-1.21.10 - 1.0.1.zip";
             "hash" = "sha512-LEge02CHLYvbOOZS+5bi7HvHw2niwAfy0doQZQFKDycwikqB8mvQnLCY/kzwyVdQsnsiskqEgbcquNecCKTHsQ==";
         };
+        _RcbcKKPS = {
+            "id" = "RcbcKKPS";
+            "file" = "lower-shields - 1.21.7-1.21.8 - 1.0.1.zip";
+            "hash" = "sha512-oCyGcyHujysK2UBkqbBEs7zD0GVMLQkuGot60Lf1XAprgIEtO7JEzFQ26VIjRRtWU29H8PRrfXZ6yKvRRKwYGw==";
+        };
+        _pQzR17eJ = {
+            "id" = "pQzR17eJ";
+            "file" = "lower-shields - 1.21.6 - 1.0.1.zip";
+            "hash" = "sha512-/pffhdXai4dI6qY/4IliLV8j/vXb/07XGNU1njRs8JysluZG4g60DgbJU0z7uxvp6eFYsLeS4RUDBYnlmszEZg==";
+        };
+        _Xc2SU4O8 = {
+            "id" = "Xc2SU4O8";
+            "file" = "lower-shields - 1.21.5 - 1.0.1.zip";
+            "hash" = "sha512-Tmd1jJjcXJFhHB2B5zM+AXWnEBmlNgTXAA+zXYHP6IdJWFX7jA1RPAXmiJm6SIcTbqHnAUG1JCJV2dxhtxXqVA==";
+        };
+        _qrH2l6te = {
+            "id" = "qrH2l6te";
+            "file" = "lower-shields - 1.21.4 - 1.0.1.zip";
+            "hash" = "sha512-fQSF0/pbSjnqgUqmIW0hkPr/wIpnrLp0SZxZXqTeYREEtlwTwjuaNWsEOAvZdIMpSTeychuZ/mtzu/re8tPwKw==";
+        };
     in {
         "hWAV4Pn5" = _hWAV4Pn5;
         "QdbxTGq5" = _QdbxTGq5;
@@ -50,6 +70,10 @@ let
         "p2R3ZoV5" = _p2R3ZoV5;
         "Cs7ncYQt" = _Cs7ncYQt;
         "4wXdWsBE" = _4wXdWsBE;
+        "RcbcKKPS" = _RcbcKKPS;
+        "pQzR17eJ" = _pQzR17eJ;
+        "Xc2SU4O8" = _Xc2SU4O8;
+        "qrH2l6te" = _qrH2l6te;
         "minecraft-1.21.11" = _68sXueqS;
         "minecraft-26.1" = _QdbxTGq5;
         "minecraft-26.1.1" = _COeNjGxA;
@@ -58,9 +82,14 @@ let
         "minecraft-26.3" = _Cs7ncYQt;
         "minecraft-1.21.9" = _4wXdWsBE;
         "minecraft-1.21.10" = _4wXdWsBE;
+        "minecraft-1.21.7" = _RcbcKKPS;
+        "minecraft-1.21.8" = _RcbcKKPS;
+        "minecraft-1.21.6" = _pQzR17eJ;
+        "minecraft-1.21.5" = _Xc2SU4O8;
+        "minecraft-1.21.4" = _qrH2l6te;
         "pkg-1.0.0" = _hWAV4Pn5;
-        "pkg-1.0.1" = _4wXdWsBE;
-        "default" = _4wXdWsBE;
+        "pkg-1.0.1" = _qrH2l6te;
+        "default" = _qrH2l6te;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lower-shields";

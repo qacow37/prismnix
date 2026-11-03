@@ -86,6 +86,11 @@ let
             "file" = "Roguecraft 1.3.9 - Resource Pack.zip";
             "hash" = "sha512-XlH1nVVp7swgFVuBpelkqJZC3HJ0pzwbcivTDn583vdXm7EOfv/ws8qEt7zx44rxTRKrluiaOM2U4o2i7yvkLw==";
         };
+        _HagixAzy = {
+            "id" = "HagixAzy";
+            "file" = "Roguecraft 1.3.10 - Resource Pack.zip";
+            "hash" = "sha512-QFriadVyLXG49YaxP/btBGim/NDsBULU1U8cydmlcem7nvksvFXGAlB9mv8s7kodPkrQCzqHwT07pEiV2MDtzg==";
+        };
     in {
         "6Lf4vEJp" = _6Lf4vEJp;
         "e1bsxgeL" = _e1bsxgeL;
@@ -104,6 +109,7 @@ let
         "vLgjSvFv" = _vLgjSvFv;
         "4ahXs0FL" = _4ahXs0FL;
         "gNcfacJT" = _gNcfacJT;
+        "HagixAzy" = _HagixAzy;
         "minecraft-1.21" = _K3Gsaeo4;
         "minecraft-1.21.1" = _K3Gsaeo4;
         "minecraft-1.21.2" = _wv5VKaDd;
@@ -116,6 +122,7 @@ let
         "minecraft-1.21.9" = _4ahXs0FL;
         "minecraft-1.21.10" = _4ahXs0FL;
         "minecraft-1.21.11" = _gNcfacJT;
+        "minecraft-26.3" = _HagixAzy;
         "pkg-1.3.0" = _6Lf4vEJp;
         "pkg-1.3.0.1" = _e1bsxgeL;
         "pkg-1.3.0.3" = _IjeMA5II;
@@ -133,7 +140,8 @@ let
         "pkg-1.3.7" = _vLgjSvFv;
         "pkg-1.3.8" = _4ahXs0FL;
         "pkg-1.3.9" = _gNcfacJT;
-        "default" = _gNcfacJT;
+        "pkg-1.3.10" = _HagixAzy;
+        "default" = _HagixAzy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roguecraft-resource-pack";

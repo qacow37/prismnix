@@ -756,6 +756,16 @@ let
             "file" = "gouge-1.7.1-mc26.2-neoforge.jar";
             "hash" = "sha512-7CVypVp3/6RKpBVlN98Fi0Yzox2fjbEBxkWAO63c6qG5OMqZjGb0PefTqk5+XfZtKNXb5THAIZfAeTXRklOD0w==";
         };
+        _3THFHziK = {
+            "id" = "3THFHziK";
+            "file" = "gouge-1.7.1f-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-ltyzEo5KZgoTMroA+TcMxJp69ahcHJl49kHvyC708m2BexVQ5jfSPyPks8ma5Ie1spV81j5Hjinox9SDkmkAWA==";
+        };
+        _1JrWmvWV = {
+            "id" = "1JrWmvWV";
+            "file" = "gouge-1.7.1f-mc1.20.1-forge.jar";
+            "hash" = "sha512-bgIiv+D4tYYWqpI+YcyjENUcd/JeKhtAmjGjOKIWP0gi4QDDwwO2SqMq/5uuY4C13RpWKFtuTIUg8VCwNmQhKw==";
+        };
     in {
         "hLCiIekw" = _hLCiIekw;
         "NkbkzHyI" = _NkbkzHyI;
@@ -908,6 +918,8 @@ let
         "j6WoTD7o" = _j6WoTD7o;
         "gGlnJm52" = _gGlnJm52;
         "1TZyIRjO" = _1TZyIRjO;
+        "3THFHziK" = _3THFHziK;
+        "1JrWmvWV" = _1JrWmvWV;
         "fabric-1.20.1" = _VqmrkRJO;
         "fabric-1.20.4" = _1O1JWTDn;
         "fabric-1.21.1" = _sIkFjzXt;
@@ -915,7 +927,7 @@ let
         "fabric-26.1.2" = _d4r3wBiR;
         "fabric-26.2" = _j6WoTD7o;
         "fabric-1.21.11" = _Tiu1nEJT;
-        "forge-1.20.1" = _3TLFvOaZ;
+        "forge-1.20.1" = _1JrWmvWV;
         "forge-1.20.4" = _fGNPrSeV;
         "forge-1.21.1" = _NKGzbSNU;
         "forge-1.21.4" = _ewvemvFj;
@@ -924,7 +936,7 @@ let
         "forge-1.21.11" = _URKOa0jh;
         "neoforge-1.20.1" = _O4rGFsD0;
         "neoforge-1.20.4" = _nw7VtY6e;
-        "neoforge-1.21.1" = _VBxs9vQT;
+        "neoforge-1.21.1" = _3THFHziK;
         "neoforge-1.21.4" = _tqbhZ6Yc;
         "neoforge-26.1.2" = _2it5H6OT;
         "neoforge-26.2" = _1TZyIRjO;
@@ -939,7 +951,8 @@ let
         "pkg-1.6" = _ENvi9i0Z;
         "pkg-1.7" = _j7Xg36L0;
         "pkg-1.7.1" = _1TZyIRjO;
-        "default" = _1TZyIRjO;
+        "pkg-1.7.1f" = _1JrWmvWV;
+        "default" = _1JrWmvWV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gouge";

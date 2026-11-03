@@ -181,6 +181,26 @@ let
             "file" = "mobhealthbar-fabric-26.2-2.3.3.jar";
             "hash" = "sha512-BMvajw5uxTqSe8/ypSJJRxRb7+TYJfzdhWxvQ6XWKO95Ic9jRXiJWfS/ixcQiH10oiQvkwR++bRf+90xoKaSFg==";
         };
+        _HLu8ntHK = {
+            "id" = "HLu8ntHK";
+            "file" = "mobhealthbar-forge-26.3-2.3.4.jar";
+            "hash" = "sha512-jC2y0pc1cSJzf72M3nTpTwVeZN0/y26bYbntwiJkcKpUq8foIqwx+K+CbG+R7PJWnT+bPWwSO99F+xa8Duw8ag==";
+        };
+        _qjrwUJLW = {
+            "id" = "qjrwUJLW";
+            "file" = "mobhealthbar-neoforge-26.3-2.3.4.jar";
+            "hash" = "sha512-tqTVVVk7nmyQ5TfqOoqveV6IM2bB8JklcIfH4Gc+EVJBIwzBvZL2XnMz0TUrmWU/ZjYCnrAWrMVX9qU+6gmZcA==";
+        };
+        _Uxef9xUz = {
+            "id" = "Uxef9xUz";
+            "file" = "mobhealthbar-fabric-26.3-2.3.4.jar";
+            "hash" = "sha512-kDqxMlbohrEzfsJ/3DEGErgpe6SSshDdCSFNnKPk8BhVYN7Gvewl6GvHHqrFzKbhQRy9q+KJ1lbhk3JL0hRXfw==";
+        };
+        _CGQsIaXp = {
+            "id" = "CGQsIaXp";
+            "file" = "mobhealthbar-fabric-26.4-2.3.4.jar";
+            "hash" = "sha512-9gBTx1QYBYs+OyrWL9QmePa4l5ttwgNY4rzgYuxtrt+bZ07JBrRlF6hZK0BejJxNqYkdZyBWirOW+dmfpdKQtw==";
+        };
     in {
         "tsIbjijo" = _tsIbjijo;
         "dDDSyNN7" = _dDDSyNN7;
@@ -218,6 +238,10 @@ let
         "cTZDmIsc" = _cTZDmIsc;
         "gjHiJz0O" = _gjHiJz0O;
         "MDDMVQGh" = _MDDMVQGh;
+        "HLu8ntHK" = _HLu8ntHK;
+        "qjrwUJLW" = _qjrwUJLW;
+        "Uxef9xUz" = _Uxef9xUz;
+        "CGQsIaXp" = _CGQsIaXp;
         "forge-1.16.5" = _tsIbjijo;
         "forge-1.18" = _dDDSyNN7;
         "forge-1.18.1" = _dDDSyNN7;
@@ -242,6 +266,7 @@ let
         "forge-26.1.1" = _n7qqr8Zx;
         "forge-26.1.2" = _n7qqr8Zx;
         "forge-26.2" = _cTZDmIsc;
+        "forge-26.3" = _HLu8ntHK;
         "fabric-1.20" = _35nrO9rq;
         "fabric-1.20.1" = _x38ZMwb1;
         "fabric-1.19" = _7mKgyyfC;
@@ -263,6 +288,8 @@ let
         "fabric-26.1.1" = _J8jxbgRH;
         "fabric-26.1.2" = _J8jxbgRH;
         "fabric-26.2" = _MDDMVQGh;
+        "fabric-26.3" = _Uxef9xUz;
+        "fabric-26.4-snapshot-6" = _CGQsIaXp;
         "neoforge-1.21.7" = _vUGKbadg;
         "neoforge-1.21.8" = _vUGKbadg;
         "neoforge-1.21.9" = _3H5WOnl9;
@@ -272,6 +299,7 @@ let
         "neoforge-26.1.1" = _Zn49rm0v;
         "neoforge-26.1.2" = _Zn49rm0v;
         "neoforge-26.2" = _gjHiJz0O;
+        "neoforge-26.3" = _qjrwUJLW;
         "pkg-2.2.0+1.16.5+forge" = _tsIbjijo;
         "pkg-2.2.0+1.18.x+forge" = _dDDSyNN7;
         "pkg-2.2.0+1.19.3+forge" = _AvDCdXgW;
@@ -308,7 +336,11 @@ let
         "pkg-forge-26.2-2.3.3" = _cTZDmIsc;
         "pkg-neoforge-26.2-2.3.3" = _gjHiJz0O;
         "pkg-fabric-26.2-2.3.3" = _MDDMVQGh;
-        "default" = _MDDMVQGh;
+        "pkg-forge-26.3-2.3.4" = _HLu8ntHK;
+        "pkg-neoforge-26.3-2.3.4" = _qjrwUJLW;
+        "pkg-fabric-26.3-2.3.4" = _Uxef9xUz;
+        "pkg-fabric-26.4-2.3.4-snapshot-6" = _CGQsIaXp;
+        "default" = _CGQsIaXp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ydms-mobhealthbar";

@@ -191,6 +191,11 @@ let
             "file" = "databank-1.3.2.jar";
             "hash" = "sha512-6qA7D8ootjNbnodfSiUy+YSL0ubN1c5fHhiTbKRVXpUwiVP75/xeep9uQkLQTdN17slkNQMAtdgbq5ZKLfCd3A==";
         };
+        _C3xfiT2L = {
+            "id" = "C3xfiT2L";
+            "file" = "databank-1.3.2.1.jar";
+            "hash" = "sha512-KXRnsaKTzB/5iVjTfXRq0fBNY9tE22SRpTPb2cR85sa/9SBeRCwNxMmi5eO6ZPh0jezGrhbpCBqGHopOnGqAhQ==";
+        };
     in {
         "G2EciO5C" = _G2EciO5C;
         "NtbduCHK" = _NtbduCHK;
@@ -230,8 +235,9 @@ let
         "62xo9p1M" = _62xo9p1M;
         "btze5IVe" = _btze5IVe;
         "d6LhhbRE" = _d6LhhbRE;
+        "C3xfiT2L" = _C3xfiT2L;
         "neoforge-1.21" = _hfcOs39b;
-        "neoforge-1.21.1" = _d6LhhbRE;
+        "neoforge-1.21.1" = _C3xfiT2L;
         "pkg-1.0.0" = _G2EciO5C;
         "pkg-1.0.1" = _NtbduCHK;
         "pkg-1.0.2" = _tbVrXdww;
@@ -270,7 +276,8 @@ let
         "pkg-1.3.0" = _62xo9p1M;
         "pkg-1.3.1" = _btze5IVe;
         "pkg-1.3.2" = _d6LhhbRE;
-        "default" = _d6LhhbRE;
+        "pkg-1.3.2.1" = _C3xfiT2L;
+        "default" = _C3xfiT2L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "databank";

@@ -56,6 +56,11 @@ let
             "file" = "Beneath-NeoForge-1.21.1-2.0.4.jar";
             "hash" = "sha512-Tc/Qq6AAo7WkzsTQJOewps8wmdmAdKhEybXNnAbYJOxpqxEIniSIO/qYSN+3NxWG8Ma2ZABFpQYKxoJLJh2JhA==";
         };
+        _oZpTimLy = {
+            "id" = "oZpTimLy";
+            "file" = "Beneath-NeoForge-1.21.1-2.0.5.jar";
+            "hash" = "sha512-GFiAyekerWVdOyUm64WNpduWvvrPUf4e2OMBmo+xZ6zJ4UP75YCvhGpuxJmOXYRey6SNxRWFjtgX3PerXxGdPg==";
+        };
     in {
         "czUd6Tqp" = _czUd6Tqp;
         "tiXlCBch" = _tiXlCBch;
@@ -68,9 +73,10 @@ let
         "4iwthfdg" = _4iwthfdg;
         "w0F9N1oZ" = _w0F9N1oZ;
         "Ed3UcDqa" = _Ed3UcDqa;
+        "oZpTimLy" = _oZpTimLy;
         "forge-1.20.1" = _vJG1yevl;
         "neoforge-1.20.1" = _vJG1yevl;
-        "neoforge-1.21.1" = _Ed3UcDqa;
+        "neoforge-1.21.1" = _oZpTimLy;
         "pkg-1.0" = _czUd6Tqp;
         "pkg-1.0.1" = _tiXlCBch;
         "pkg-1.0.2" = _4Fswcq4f;
@@ -82,7 +88,8 @@ let
         "pkg-2.0.1" = _4iwthfdg;
         "pkg-2.0.2" = _w0F9N1oZ;
         "pkg-2.0.4" = _Ed3UcDqa;
-        "default" = _Ed3UcDqa;
+        "pkg-2.0.5" = _oZpTimLy;
+        "default" = _oZpTimLy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beneath";

@@ -146,6 +146,11 @@ let
             "file" = "playerprogress-1.2.1.jar";
             "hash" = "sha512-NkLfDRi6qVw+Dgjfo2Rf+R2VnmkouumZd8rWtwnbGt/mhMJwR4TK7ru6BiD+suw9Twq3CKof5D2Nv8kR1hZQog==";
         };
+        _uwKvJaEm = {
+            "id" = "uwKvJaEm";
+            "file" = "playerprogress1_3_0.zip";
+            "hash" = "sha512-nKEQzigacr6rWXWhfu0M1pAj3BPdipg3yLSvQ80vV1FfOmp4PJif1kPN8dx7xSYf9LxyuNNV0l7+hCz23p1U6A==";
+        };
     in {
         "ZDZx4xR8" = _ZDZx4xR8;
         "MUk5JbyF" = _MUk5JbyF;
@@ -176,6 +181,7 @@ let
         "1yV7h7wR" = _1yV7h7wR;
         "yKqHI1NW" = _yKqHI1NW;
         "TdH9ej3N" = _TdH9ej3N;
+        "uwKvJaEm" = _uwKvJaEm;
         "datapack-1.15" = _c2URMM0c;
         "datapack-1.16.1" = _yKqHI1NW;
         "datapack-1.16.2" = _yKqHI1NW;
@@ -205,15 +211,18 @@ let
         "datapack-1.16" = _yKqHI1NW;
         "datapack-1.16.3" = _yKqHI1NW;
         "datapack-1.16.4" = _yKqHI1NW;
-        "datapack-1.21" = _yKqHI1NW;
-        "datapack-1.21.1" = _yKqHI1NW;
-        "datapack-1.21.2" = _yKqHI1NW;
-        "datapack-1.21.3" = _yKqHI1NW;
-        "datapack-1.21.4" = _yKqHI1NW;
-        "datapack-1.21.5" = _yKqHI1NW;
-        "datapack-1.21.6" = _yKqHI1NW;
-        "datapack-1.21.7" = _yKqHI1NW;
-        "datapack-1.21.8" = _yKqHI1NW;
+        "datapack-1.21" = _uwKvJaEm;
+        "datapack-1.21.1" = _uwKvJaEm;
+        "datapack-1.21.2" = _uwKvJaEm;
+        "datapack-1.21.3" = _uwKvJaEm;
+        "datapack-1.21.4" = _uwKvJaEm;
+        "datapack-1.21.5" = _uwKvJaEm;
+        "datapack-1.21.6" = _uwKvJaEm;
+        "datapack-1.21.7" = _uwKvJaEm;
+        "datapack-1.21.8" = _uwKvJaEm;
+        "datapack-1.21.9" = _uwKvJaEm;
+        "datapack-1.21.10" = _uwKvJaEm;
+        "datapack-1.21.11" = _uwKvJaEm;
         "fabric-1.15" = _s9HwdSQD;
         "fabric-1.15.1" = _s9HwdSQD;
         "fabric-1.15.2" = _s9HwdSQD;
@@ -366,7 +375,8 @@ let
         "pkg-1.2.0+mod" = _1yV7h7wR;
         "pkg-1.2.1" = _yKqHI1NW;
         "pkg-1.2.1+mod" = _TdH9ej3N;
-        "default" = _TdH9ej3N;
+        "pkg-1.3.0" = _uwKvJaEm;
+        "default" = _uwKvJaEm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "playerprogress";

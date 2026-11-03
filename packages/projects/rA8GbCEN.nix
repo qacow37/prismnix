@@ -36,6 +36,11 @@ let
             "file" = "infinitepotion-fabric-1.21.1-1.2.jar";
             "hash" = "sha512-l1fu/gpjzRkYuosXG8PICmnZYmyANutsrxeoQ0q9kRxaiFy3Lf7sx4BYp/BMQr/3BA/F3XOv7PDlvDgDpPiFDg==";
         };
+        _DLkMlBvj = {
+            "id" = "DLkMlBvj";
+            "file" = "infinitepotion-fabric-26.3-1.0.jar";
+            "hash" = "sha512-0RVBfZUU8pKV0ZQwqSFh2/hT+N8uK7UN85kpkDzM9P+5lNHk8RKdXVWwpQbkV/J0USirMeZqjYmVHBMOKoJLtg==";
+        };
     in {
         "a7paIwpa" = _a7paIwpa;
         "oyUJSQV0" = _oyUJSQV0;
@@ -44,9 +49,11 @@ let
         "xinIroGI" = _xinIroGI;
         "XQOPWKV0" = _XQOPWKV0;
         "4ZqhiU7j" = _4ZqhiU7j;
+        "DLkMlBvj" = _DLkMlBvj;
         "neoforge-1.21.1" = _a7paIwpa;
         "fabric-1.21.1" = _4ZqhiU7j;
         "fabric-1.20.1" = _XQOPWKV0;
+        "fabric-26.3" = _DLkMlBvj;
         "forge-1.20.1" = _xinIroGI;
         "pkg-neo-1.21.1-1.1" = _a7paIwpa;
         "pkg-fabric-1.21.1-1.0" = _oyUJSQV0;
@@ -55,7 +62,8 @@ let
         "pkg-forge-1.20.1-1.1" = _xinIroGI;
         "pkg-fabric-1.20.1-1.2" = _XQOPWKV0;
         "pkg-fabric-1.21.1-1.2" = _4ZqhiU7j;
-        "default" = _4ZqhiU7j;
+        "pkg-fabric-26.3-1.0" = _DLkMlBvj;
+        "default" = _DLkMlBvj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinitepotiondrinking";

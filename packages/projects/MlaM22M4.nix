@@ -186,6 +186,11 @@ let
             "file" = "netherite-plus-mod-3.0.0.jar";
             "hash" = "sha512-FkYJxUDDXDAB5hQW3+gZRTZUqO0+41UcRII8jxpY0tg+kPlDfWjg/kv81ZpiqwbRladypbAV0cVw0e5oGyV7VA==";
         };
+        _r1ZUtciL = {
+            "id" = "r1ZUtciL";
+            "file" = "netherite-plus-mod-3.0.1.jar";
+            "hash" = "sha512-2sdbR5AqAKmyg7C4Dy0UpCXjfz6LteTqtWlwlZ5vJQi6s3p3n3MKUmfsM5UGoiY3Kt1EEeH4spDa3hbLuGN+FQ==";
+        };
     in {
         "YVrw0jvx" = _YVrw0jvx;
         "vHeYW3aw" = _vHeYW3aw;
@@ -224,18 +229,19 @@ let
         "8x3c2cPT" = _8x3c2cPT;
         "QJfnaPfC" = _QJfnaPfC;
         "kfCfbHKy" = _kfCfbHKy;
+        "r1ZUtciL" = _r1ZUtciL;
         "fabric-1.16.2" = _YVrw0jvx;
         "fabric-1.16.3" = _vHeYW3aw;
         "fabric-1.16.4" = _yMiCdBX2;
         "fabric-1.16.5" = _yMiCdBX2;
-        "fabric-26.3" = _kfCfbHKy;
+        "fabric-26.3" = _r1ZUtciL;
         "forge-1.16.4" = _sc16TqKx;
         "forge-1.16.5" = _sc16TqKx;
         "quilt-1.19" = _nkuM1QhC;
         "quilt-1.19.1" = _nkuM1QhC;
         "quilt-1.19.4" = _hUIxw06H;
         "quilt-1.20.1" = _8x3c2cPT;
-        "quilt-26.3" = _kfCfbHKy;
+        "quilt-26.3" = _r1ZUtciL;
         "pkg-v1.0.0" = _YVrw0jvx;
         "pkg-1.1.0" = _vHeYW3aw;
         "pkg-1.3.8-1.16.5 - Fabric" = _8asMSQY5;
@@ -273,7 +279,8 @@ let
         "pkg-2.2.0" = _8x3c2cPT;
         "pkg-3.0.0-beta.1" = _QJfnaPfC;
         "pkg-3.0.0" = _kfCfbHKy;
-        "default" = _kfCfbHKy;
+        "pkg-3.0.1" = _r1ZUtciL;
+        "default" = _r1ZUtciL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netherite-plus-mod";

@@ -131,6 +131,86 @@ let
             "file" = "shieldhider-neoforge-26.3-1.1.0.jar";
             "hash" = "sha512-8pyaZjju/umYfPUWsRA6r5C+GMefWHB9PVSmvVHbTP5KETMDAiQqC1SE0reRGJ4IvcdXl83AdK7vlDms8JV91A==";
         };
+        _8C2ddCIP = {
+            "id" = "8C2ddCIP";
+            "file" = "shieldhider-fabric-1.19.2-1.2.0.jar";
+            "hash" = "sha512-UMs9BTS+vtbroUF0sLB18CcYQGpCaMorq1tXZX+Wg0CY5qtzd6kmsiZiCTdXcttrJha1+68lke+D1vljRPfQTw==";
+        };
+        _DkRAI3gx = {
+            "id" = "DkRAI3gx";
+            "file" = "shieldhider-fabric-1.20.1-1.2.0.jar";
+            "hash" = "sha512-JbszmN8DMbcyFFONbCPeOV0Rx7CJM07khijt3qWHc4ov2/cvEYRV9ICuDwchf1Dglz341aFNxRLEgzK1GgM/5A==";
+        };
+        _QPlRa42X = {
+            "id" = "QPlRa42X";
+            "file" = "shieldhider-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-pwYSut52xC64DQXyE32MERiVAZblmW17gZGwiqGwp6ni37F7cma1xZZ84A3nSxip9N7tynvAby7Y+ZxW5Hg4kg==";
+        };
+        _AS9PWQ3v = {
+            "id" = "AS9PWQ3v";
+            "file" = "shieldhider-fabric-1.21.11-1.2.0.jar";
+            "hash" = "sha512-cVOoBRzcTXEyIAHFw5tdjMc+/SNQPrto1cQkRwsZc0ujE5gtL54a4BOouMYBPzYUxh84WT24k0+6/sbzbJ1NHg==";
+        };
+        _eh8074QP = {
+            "id" = "eh8074QP";
+            "file" = "shieldhider-fabric-26.1.2-1.2.0.jar";
+            "hash" = "sha512-1R41W8G0HYaMvzDWOGs/rhLHqxwYDEQR5x1c7pvc4vGiaLpxWp1wGmZj4nAd9I3ikAKG4Qo3xMtq2s8uPn4ndA==";
+        };
+        _Uy1ts4yw = {
+            "id" = "Uy1ts4yw";
+            "file" = "shieldhider-fabric-26.2-1.2.0.jar";
+            "hash" = "sha512-CSGjsbiQ+wjI8vHah5uA0NIycgoS9PmIh3RjjixmKlXcJAlLKTYpYbPZtC5Xn3xuJpopsMdtczURrGW5kqBCGg==";
+        };
+        _fg89dCo6 = {
+            "id" = "fg89dCo6";
+            "file" = "shieldhider-fabric-26.3-1.2.0.jar";
+            "hash" = "sha512-J+0meyJIGvNLkJZiyIjPCYFIT63iGiBYtWmTyYv0OJffenAoXXEGICUhfqzi2hA98/kXaTZY85TJBgxEvs5+GQ==";
+        };
+        _N4gpSbNJ = {
+            "id" = "N4gpSbNJ";
+            "file" = "shieldhider-forge-1.19.2-1.2.0.jar";
+            "hash" = "sha512-SciopOhsgaPjvBc3Iitg21CnQ2dHd9lyyS5vQZyhQRfcJp4+7MtNFyADE3ofkZQSBVdNcoInJmhbCdcaKpP7Ig==";
+        };
+        _LhSHdPtc = {
+            "id" = "LhSHdPtc";
+            "file" = "shieldhider-forge-1.20.1-1.2.0.jar";
+            "hash" = "sha512-KwtShTaWLM4HW1ZECxxov36X1qbd6CdlcFTASuKCw7fXTKBT8YuuVBBZ9xsU9dO7jsGsWgZhYbqwN/8gmT+nuA==";
+        };
+        _907SSfz3 = {
+            "id" = "907SSfz3";
+            "file" = "shieldhider-forge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-PBWTWiaIRUnL9qGUblHcKdRLkEp65BlBmA7yd0gwzsViiUEQQbfcKbrUk6X4EMPxv84LrIjZ7O8N3femJC+xnw==";
+        };
+        _MMgT4bQw = {
+            "id" = "MMgT4bQw";
+            "file" = "shieldhider-forge-1.21.11-1.2.0.jar";
+            "hash" = "sha512-T0dijZ+ENfhAQpWSMThugT1FK1p42M80nH5lKQRexHnQRqreZ76YJPa3UJ01PYvOwtjLf9UVNWIndch3diZLIQ==";
+        };
+        _nrgd2HWf = {
+            "id" = "nrgd2HWf";
+            "file" = "shieldhider-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-uuPynYazDDkUBo95OkOPfJuF4Pmh91z2wkHIFoUbe/gTdg5fgj6B0rExRpCPccpomzJ+H4LsKJhQAlgLFXqu8w==";
+        };
+        _I8JlEh1l = {
+            "id" = "I8JlEh1l";
+            "file" = "shieldhider-neoforge-1.21.11-1.2.0.jar";
+            "hash" = "sha512-fzrAwvHgv84caNB5UoBAVX/AzG66+Ift/h28EZpGHrPVvF1mLSUetk2OTZTIROmGcB00jiBZgQQfQuda5DKlQA==";
+        };
+        _4Vov4xNI = {
+            "id" = "4Vov4xNI";
+            "file" = "shieldhider-neoforge-26.1.2-1.2.0.jar";
+            "hash" = "sha512-CllfXm7mAzyQV3vDTIDF2vnUW4jsIrDo4QwuO7zs09ps0yuoYYMfKfTemDogzzrTvm5o3TlKZAtn6mDyG/OenQ==";
+        };
+        _mlN942tG = {
+            "id" = "mlN942tG";
+            "file" = "shieldhider-neoforge-26.2-1.2.0.jar";
+            "hash" = "sha512-rBDccsdEQrR8SB1ls8yfHGbVGnNT6Va9jrVLP3q7wJ28/LlSgj68obmLQL3ChAl9yRveoD2y7BOZQaSy6stQcA==";
+        };
+        _Je04pnJH = {
+            "id" = "Je04pnJH";
+            "file" = "shieldhider-neoforge-26.3-1.2.0.jar";
+            "hash" = "sha512-oJMr0kn1tla93y81Qxdxw9B2BYfdinwF+SqGg18d6PqEL0kkrrg47Xk+oSUfCoiqi0udGDnSWEZz60Y6PlHtEQ==";
+        };
     in {
         "XsBHs3nl" = _XsBHs3nl;
         "8nFmf3J9" = _8nFmf3J9;
@@ -158,23 +238,44 @@ let
         "NkaYHdpa" = _NkaYHdpa;
         "i3Rcpk5g" = _i3Rcpk5g;
         "2eURZaws" = _2eURZaws;
-        "fabric-1.20.1" = _858KuQ2x;
-        "fabric-1.21.1" = _5VhHsHRU;
-        "fabric-1.21.11" = _suSUTjWp;
+        "8C2ddCIP" = _8C2ddCIP;
+        "DkRAI3gx" = _DkRAI3gx;
+        "QPlRa42X" = _QPlRa42X;
+        "AS9PWQ3v" = _AS9PWQ3v;
+        "eh8074QP" = _eh8074QP;
+        "Uy1ts4yw" = _Uy1ts4yw;
+        "fg89dCo6" = _fg89dCo6;
+        "N4gpSbNJ" = _N4gpSbNJ;
+        "LhSHdPtc" = _LhSHdPtc;
+        "907SSfz3" = _907SSfz3;
+        "MMgT4bQw" = _MMgT4bQw;
+        "nrgd2HWf" = _nrgd2HWf;
+        "I8JlEh1l" = _I8JlEh1l;
+        "4Vov4xNI" = _4Vov4xNI;
+        "mlN942tG" = _mlN942tG;
+        "Je04pnJH" = _Je04pnJH;
+        "fabric-1.20.1" = _DkRAI3gx;
+        "fabric-1.21.1" = _QPlRa42X;
+        "fabric-1.21.11" = _AS9PWQ3v;
         "fabric-26.1" = _hdMNau00;
-        "fabric-26.1.2" = _vT9mmh6T;
-        "fabric-26.3" = _AeINe4Dx;
-        "fabric-26.2" = _NkR3qWiU;
-        "forge-1.20.1" = _rEZKYiix;
-        "neoforge-1.21.1" = _5hJNzxci;
-        "neoforge-1.21.11" = _B0zWKDxD;
+        "fabric-26.1.2" = _eh8074QP;
+        "fabric-26.3" = _fg89dCo6;
+        "fabric-26.2" = _Uy1ts4yw;
+        "fabric-1.19.2" = _8C2ddCIP;
+        "forge-1.20.1" = _LhSHdPtc;
+        "forge-1.19.2" = _N4gpSbNJ;
+        "forge-1.21.1" = _907SSfz3;
+        "forge-1.21.11" = _MMgT4bQw;
+        "neoforge-1.21.1" = _nrgd2HWf;
+        "neoforge-1.21.11" = _I8JlEh1l;
         "neoforge-26.1" = _jv9XXS3N;
-        "neoforge-26.1.2" = _NkaYHdpa;
-        "neoforge-26.3" = _2eURZaws;
-        "neoforge-26.2" = _i3Rcpk5g;
+        "neoforge-26.1.2" = _4Vov4xNI;
+        "neoforge-26.3" = _Je04pnJH;
+        "neoforge-26.2" = _mlN942tG;
         "pkg-1.0.0" = _Qe9lEpCT;
         "pkg-1.1.0" = _2eURZaws;
-        "default" = _2eURZaws;
+        "pkg-1.2.0" = _Je04pnJH;
+        "default" = _Je04pnJH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shieldhider";

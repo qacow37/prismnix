@@ -111,6 +111,11 @@ let
             "file" = "create_fantasizing-1.21.1-1.2.0-b3.jar";
             "hash" = "sha512-CNxIdSIcZlhu4W9Zj2uOW6TLhddn3tFKnWHZuJsL6786dOTDvv9E7lsTqZwZMKwCiAc936mmwRgE0IEiLDFJAw==";
         };
+        _K7O1CgV2 = {
+            "id" = "K7O1CgV2";
+            "file" = "create_fantasizing-1.21.1-1.2.1.jar";
+            "hash" = "sha512-SNtnrQCWDggt+ThHtT6lmiS7rpRGq2Np6ntOhZ/33yPP/GUAfCJnZPWsSH06ZYY30CjChcbGt5sL3MJElxGc3A==";
+        };
     in {
         "ZVG2rSXm" = _ZVG2rSXm;
         "nllx8KCD" = _nllx8KCD;
@@ -134,7 +139,8 @@ let
         "sCMw0zCc" = _sCMw0zCc;
         "S0sTkapb" = _S0sTkapb;
         "xaayBxRe" = _xaayBxRe;
-        "neoforge-1.21.1" = _xaayBxRe;
+        "K7O1CgV2" = _K7O1CgV2;
+        "neoforge-1.21.1" = _K7O1CgV2;
         "forge-1.20.1" = _BesuB5Pw;
         "pkg-1.0.0-1.21.1" = _ZVG2rSXm;
         "pkg-1.0.0-1.20.1" = _nllx8KCD;
@@ -157,7 +163,8 @@ let
         "pkg-1.2.0-beta1-1.21.1" = _sCMw0zCc;
         "pkg-1.2.0-beta2-1.21.1" = _S0sTkapb;
         "pkg-1.2.0-beta3-1.21.1" = _xaayBxRe;
-        "default" = _xaayBxRe;
+        "pkg-1.2.1-1.21.1" = _K7O1CgV2;
+        "default" = _K7O1CgV2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fantasizing-again";

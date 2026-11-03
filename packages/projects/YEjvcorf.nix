@@ -241,6 +241,26 @@ let
             "file" = "amyshield-2.7.0.jar";
             "hash" = "sha512-yoe8J3Tnal8lWpMKQQU4qeMJG16+9pi72DCNjVB0OsjRPlk24sNnhhl6+Xx/Ty1Bzohz7vLO0ttMK1OWOLHBcg==";
         };
+        _8xBkJEcA = {
+            "id" = "8xBkJEcA";
+            "file" = "amethyst-shield-2.8.0+1.21.1.jar";
+            "hash" = "sha512-sbIgk+BYY3O/Uvj8crommEcW7H6Q6XF/em5xk2cGIfsak8QPOyeUsK9DLuBloMJjsmaDuvkcPZSkkKHtrGNssA==";
+        };
+        _gnXQLubn = {
+            "id" = "gnXQLubn";
+            "file" = "amethyst-shield-2.8.0+1.21.11.jar";
+            "hash" = "sha512-ZCsAOAEaQDuM9+bPI/sWBvC4Jc8CCUzekvjEnhtgp50CcwAHhrvYFDS7MZr4DI47pB9LCi+Q0+SY7KeGl1G1yg==";
+        };
+        _TM76RyQG = {
+            "id" = "TM76RyQG";
+            "file" = "amethyst-shield-2.8.0+26.1.jar";
+            "hash" = "sha512-NE5quJGnBRy3F9JJQWXR0Pfd/4P6oyCpLz28r00/ezG7VBaCE+L0sRRk5I6YVEerbjF6HAkYXO3ymGQWgKiLHA==";
+        };
+        _rqI3pZYu = {
+            "id" = "rqI3pZYu";
+            "file" = "amethyst-shield-2.8.0+26.3.jar";
+            "hash" = "sha512-ZeDKZ2UnccNWJsniV2Xn2imvKagWszNPhBJoKKkEaPcJRA9iSPqMasq8RvtnTK44fEmT57nUyyh7O9m1N5ucYw==";
+        };
     in {
         "3I5uqwtX" = _3I5uqwtX;
         "kWFGiHSa" = _kWFGiHSa;
@@ -290,18 +310,22 @@ let
         "Q7649JFj" = _Q7649JFj;
         "K4JIp7dp" = _K4JIp7dp;
         "hrr4S1TG" = _hrr4S1TG;
+        "8xBkJEcA" = _8xBkJEcA;
+        "gnXQLubn" = _gnXQLubn;
+        "TM76RyQG" = _TM76RyQG;
+        "rqI3pZYu" = _rqI3pZYu;
         "fabric-1.20.1" = _qrwT05cD;
         "fabric-1.20.2" = _qrwT05cD;
         "fabric-1.21" = _vmOipmXl;
-        "fabric-1.21.1" = _4IHnwxe1;
+        "fabric-1.21.1" = _8xBkJEcA;
         "fabric-1.21.4" = _CTv8rFiE;
         "fabric-1.21.8" = _BFRvYfjW;
         "fabric-1.21.10" = _L7avrXl9;
-        "fabric-1.21.11" = _eT7G0QVL;
-        "fabric-26.1" = _Q7649JFj;
-        "fabric-26.1.1" = _Q7649JFj;
-        "fabric-26.1.2" = _K4JIp7dp;
-        "fabric-26.3" = _hrr4S1TG;
+        "fabric-1.21.11" = _gnXQLubn;
+        "fabric-26.1" = _TM76RyQG;
+        "fabric-26.1.1" = _TM76RyQG;
+        "fabric-26.1.2" = _TM76RyQG;
+        "fabric-26.3" = _rqI3pZYu;
         "quilt-1.20.1" = _qrwT05cD;
         "quilt-1.20.2" = _qrwT05cD;
         "quilt-1.21" = _vmOipmXl;
@@ -352,7 +376,11 @@ let
         "pkg-2.6.0" = _Q7649JFj;
         "pkg-2.6.1" = _K4JIp7dp;
         "pkg-2.7.0" = _hrr4S1TG;
-        "default" = _hrr4S1TG;
+        "pkg-2.8.0+1.21.1" = _8xBkJEcA;
+        "pkg-2.8.0+1.21.11" = _gnXQLubn;
+        "pkg-2.8.0+26.1" = _TM76RyQG;
+        "pkg-2.8.0+26.3" = _rqI3pZYu;
+        "default" = _rqI3pZYu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amethyst-shield";

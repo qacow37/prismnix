@@ -71,6 +71,11 @@ let
             "file" = "SVC-Radio-2.2.1+26.1.fabric.jar";
             "hash" = "sha512-CsiYuUAAKauykxqGwzhkv63OrgzH7ZEbzk3H7gh+NaJKBxOiHLDUiEYM7TZ9NzwGvuUnJRfcAsO7cHHviW29kw==";
         };
+        _piV3mg6K = {
+            "id" = "piV3mg6K";
+            "file" = "SVC-Radio-2.2.2+26.3.fabric.jar";
+            "hash" = "sha512-nlEa3HmyKyMhqH5coUxlWcFh6GMxD+ATarqMIOEA4AlDXrTdakRbv+P8hii5/P03pBsp1krJPghK8ZIczKwwLg==";
+        };
     in {
         "8laViGRS" = _8laViGRS;
         "ywwU68Um" = _ywwU68Um;
@@ -86,6 +91,7 @@ let
         "AiimzGkL" = _AiimzGkL;
         "3VTcWxHu" = _3VTcWxHu;
         "SjmcseRA" = _SjmcseRA;
+        "piV3mg6K" = _piV3mg6K;
         "fabric-1.20.1" = _XuO1bkpC;
         "fabric-1.20.2" = _ywwU68Um;
         "fabric-1.20.4" = _9NfkfXTr;
@@ -102,6 +108,7 @@ let
         "fabric-26.1" = _SjmcseRA;
         "fabric-26.1.1" = _SjmcseRA;
         "fabric-26.1.2" = _SjmcseRA;
+        "fabric-26.3" = _piV3mg6K;
         "quilt-1.20.6" = _TrVAb9cR;
         "quilt-1.21" = _TrVAb9cR;
         "quilt-1.21.1" = _TrVAb9cR;
@@ -116,6 +123,7 @@ let
         "quilt-26.1" = _SjmcseRA;
         "quilt-26.1.1" = _SjmcseRA;
         "quilt-26.1.2" = _SjmcseRA;
+        "quilt-26.3" = _piV3mg6K;
         "pkg-fabric-1.20.1-1.0.0" = _8laViGRS;
         "pkg-fabric-1.20.2-1.0.0" = _ywwU68Um;
         "pkg-fabric-1.20.4-1.0.0" = _etD6H0XC;
@@ -130,7 +138,8 @@ let
         "pkg-2.1+1.21.11.fabric" = _AiimzGkL;
         "pkg-2.2+26.1.fabric" = _3VTcWxHu;
         "pkg-2.2.1+26.1.fabric" = _SjmcseRA;
-        "default" = _SjmcseRA;
+        "pkg-2.2.2+26.3.fabric" = _piV3mg6K;
+        "default" = _piV3mg6K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-voice-chat-radio";

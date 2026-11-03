@@ -116,6 +116,21 @@ let
             "file" = "presence-fabric-2.4.4.jar";
             "hash" = "sha512-+MNjfG6R/9Lf6Y/53F1X6dLaDzal7v8fJaZy+4dl03MM/lXt1lWh25h9t6LV+ZSZsFaStTa+UWXooPq/xHQfoA==";
         };
+        _OidcQR9D = {
+            "id" = "OidcQR9D";
+            "file" = "presence-neoforge-2.4.5.jar";
+            "hash" = "sha512-vUeo/TrWttgpKslZHLJh0M0jK80FKflZ8rk+mxWCq+lyC6qrdrOJ7149JaTI3LShxX5wb+ccBGd5ShRPuOzuiA==";
+        };
+        _WmkcqD6i = {
+            "id" = "WmkcqD6i";
+            "file" = "presence-neoforge-2.4.5.jar";
+            "hash" = "sha512-K1sUug0aNm5ZuPneexnHuGj3M4R+3RxNTB4GCODQBuMwD8bD1XMSyDGu9UFh5Kz+rtcIZdPpVqBT3Z6OwaHG3A==";
+        };
+        _uzjWYNZf = {
+            "id" = "uzjWYNZf";
+            "file" = "presence-neoforge-2.4.5.jar";
+            "hash" = "sha512-RF23rby6Qr4kC9CKSRj70nKk37Tb3Nr41EwCPOkJjFa4TTD6kismIUJMu7kB6SYRh79JG6shfIK7xkFddXtLtg==";
+        };
     in {
         "8LLgHQrV" = _8LLgHQrV;
         "y5OrmG1j" = _y5OrmG1j;
@@ -140,6 +155,9 @@ let
         "Hn4yJPoK" = _Hn4yJPoK;
         "k08CZpoF" = _k08CZpoF;
         "jhjMowt1" = _jhjMowt1;
+        "OidcQR9D" = _OidcQR9D;
+        "WmkcqD6i" = _WmkcqD6i;
+        "uzjWYNZf" = _uzjWYNZf;
         "forge-1.21.1" = _Hn4yJPoK;
         "forge-1.21.2" = _8LLgHQrV;
         "forge-1.21.3" = _8LLgHQrV;
@@ -162,12 +180,16 @@ let
         "forge-1.19.4" = _hZQZv6ZZ;
         "fabric-1.20.1" = _k08CZpoF;
         "fabric-1.21.1" = _jhjMowt1;
+        "neoforge-1.21.11" = _OidcQR9D;
+        "neoforge-26.1.2" = _WmkcqD6i;
+        "neoforge-26.3" = _uzjWYNZf;
         "pkg-2.3.0" = _hZQZv6ZZ;
         "pkg-2.4.0" = _SrvZq2Ut;
         "pkg-2.4.1" = _Z6pevrIy;
         "pkg-2.4.3" = _QDIjCTcu;
         "pkg-2.4.4" = _jhjMowt1;
-        "default" = _jhjMowt1;
+        "pkg-2.4.5" = _uzjWYNZf;
+        "default" = _uzjWYNZf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "presence-an-ambient-horror-mod";

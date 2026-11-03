@@ -46,6 +46,31 @@ let
             "file" = "CarianStyle-forge-1.20.1-2.3.0.jar";
             "hash" = "sha512-6UsCIB8o21hsIEQ3nwbg0197Zn/PQy54+GQtyKHG2CQjm/oRXgh1l+Plm972p1rSd1prcAzzh+0R3KQg17/sgw==";
         };
+        _kMXwy2zN = {
+            "id" = "kMXwy2zN";
+            "file" = "CarianStyle-forge-1.20.1-2.3.1.jar";
+            "hash" = "sha512-ryv+GFsaYDLQfya1aeKZ/S9g88gEwVNcdk5jijFiTNLcZ3VQKc7vFArlYOvYQ4A1fHPHvwpEDEac4jK6/iFFzA==";
+        };
+        _le8Z5syW = {
+            "id" = "le8Z5syW";
+            "file" = "CarianStyle-1.12.2-2.3.0.jar";
+            "hash" = "sha512-nkZJGoscmx9jKtlFyPxWmfhN6b1RzRk6nH6R/O8sLxIzrni8h01/eR14BUrP9MSaofems9xl5ag4Z7XZgC6/UQ==";
+        };
+        _Xudernbk = {
+            "id" = "Xudernbk";
+            "file" = "CarianStyle-1.12.2-2.3.2.jar";
+            "hash" = "sha512-z0455/CTSP7uZLXe7g5jpxHxJgXYMShxUgDQamvYQJ8Q2HfF39SktSoeNhHLJxEFQ5YxxMguXaXSOMcG9iwgEg==";
+        };
+        _wCac6TyC = {
+            "id" = "wCac6TyC";
+            "file" = "CarianStyle-forge-1.20.1-2.3.2.jar";
+            "hash" = "sha512-aubvRbXFsaR1LRREc5ShfqgkX2klY/2h7uhlLGD/HCy13xSzP0CU7rMQNWxHtDf+jSYLwAhupLDeCNFVX9UhOw==";
+        };
+        _GYvLrnmg = {
+            "id" = "GYvLrnmg";
+            "file" = "CarianStyle-neoforge-1.21.1-2.3.2.jar";
+            "hash" = "sha512-OGdw69btHIBDKWjZz2/nyniue9p7q7Vhq2LokZLvzR7PROicAwcZksQLKOh8XE/T8WioWJey7bSiiCa2LwaNJA==";
+        };
     in {
         "itsGeFaW" = _itsGeFaW;
         "5stYyRxN" = _5stYyRxN;
@@ -56,16 +81,24 @@ let
         "CHoOxAMX" = _CHoOxAMX;
         "wMSqXSWl" = _wMSqXSWl;
         "DWzzfcX7" = _DWzzfcX7;
-        "forge-1.12.2" = _WDljLqg3;
-        "forge-1.20.1" = _DWzzfcX7;
+        "kMXwy2zN" = _kMXwy2zN;
+        "le8Z5syW" = _le8Z5syW;
+        "Xudernbk" = _Xudernbk;
+        "wCac6TyC" = _wCac6TyC;
+        "GYvLrnmg" = _GYvLrnmg;
+        "forge-1.12.2" = _Xudernbk;
+        "forge-1.20.1" = _wCac6TyC;
+        "neoforge-1.21.1" = _GYvLrnmg;
         "pkg-2.0.0" = _5stYyRxN;
         "pkg-2.0.1" = _ofyUShud;
         "pkg-2.0.2" = _WDljLqg3;
         "pkg-2.0.4" = _W5cLAISC;
         "pkg-2.1.0" = _CHoOxAMX;
         "pkg-2.2.0" = _wMSqXSWl;
-        "pkg-2.3.0" = _DWzzfcX7;
-        "default" = _DWzzfcX7;
+        "pkg-2.3.0" = _le8Z5syW;
+        "pkg-2.3.1" = _kMXwy2zN;
+        "pkg-2.3.2" = _GYvLrnmg;
+        "default" = _GYvLrnmg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carianstyle";

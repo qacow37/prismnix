@@ -61,6 +61,21 @@ let
             "file" = "fantasyfurniture_decorations-26.3.3.jar";
             "hash" = "sha512-YGYT99OE45bkgcg2bR9KEfk/XkBTeGoI2X1stdC7QkyrutYRMNMlt9gLUYeGpMMkJ6Gg9pIOT2BK5JTfVoR/Bg==";
         };
+        _fbmUxfYU = {
+            "id" = "fbmUxfYU";
+            "file" = "fantasyfurniture_decorations-26.2.7.jar";
+            "hash" = "sha512-Gl7FrTUhHUoEb9YFCPYizQ5kqawQvJ6OAW2WuJN47biV2+BlZDQjnHQ16HBK1/62aUhYr3FbbOGP7R3Kf3h4Gg==";
+        };
+        _PE6SiF9k = {
+            "id" = "PE6SiF9k";
+            "file" = "fantasyfurniture_decorations-26.1.9.jar";
+            "hash" = "sha512-bjt7bZy7kEkDJ/w52prqg7TGe7f/S2JHllrb2dNuqa8h7w8O7X5kd1/NRCuoCRlb/cpAXj4AdQi0yrI156+2vw==";
+        };
+        _IUyeevfT = {
+            "id" = "IUyeevfT";
+            "file" = "fantasyfurniture_decorations-26.3.4.jar";
+            "hash" = "sha512-Gf4ZrnjdfUF+Imfr9hjraZbeMMcZsYqx/d3fw1s5ZF0zGXAEALNPwqtB2BXXWgoJEk1N9+WEHR/OL34IK7TojQ==";
+        };
     in {
         "1lllxw1k" = _1lllxw1k;
         "S9MB1USa" = _S9MB1USa;
@@ -74,13 +89,16 @@ let
         "5MnILhvQ" = _5MnILhvQ;
         "aUoZFQU7" = _aUoZFQU7;
         "y712yetA" = _y712yetA;
+        "fbmUxfYU" = _fbmUxfYU;
+        "PE6SiF9k" = _PE6SiF9k;
+        "IUyeevfT" = _IUyeevfT;
         "neoforge-1.21.10" = _9ZcDZt8r;
         "neoforge-1.21.11" = _pAnLkQSG;
-        "neoforge-26.1" = _h9OcpJnX;
-        "neoforge-26.1.1" = _h9OcpJnX;
-        "neoforge-26.1.2" = _h9OcpJnX;
-        "neoforge-26.2" = _9OIddZ0s;
-        "neoforge-26.3" = _y712yetA;
+        "neoforge-26.1" = _PE6SiF9k;
+        "neoforge-26.1.1" = _PE6SiF9k;
+        "neoforge-26.1.2" = _PE6SiF9k;
+        "neoforge-26.2" = _fbmUxfYU;
+        "neoforge-26.3" = _IUyeevfT;
         "pkg-21.10.5" = _1lllxw1k;
         "pkg-21.11.1" = _S9MB1USa;
         "pkg-21.10.6" = _9ZcDZt8r;
@@ -93,7 +111,10 @@ let
         "pkg-26.3.0" = _5MnILhvQ;
         "pkg-26.3.1" = _aUoZFQU7;
         "pkg-26.3.3" = _y712yetA;
-        "default" = _y712yetA;
+        "pkg-26.2.7" = _fbmUxfYU;
+        "pkg-26.1.9" = _PE6SiF9k;
+        "pkg-26.3.4" = _IUyeevfT;
+        "default" = _IUyeevfT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasys-furniture-decorations";

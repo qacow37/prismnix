@@ -291,6 +291,31 @@ let
             "file" = "antarchy-forge-1.20.1-2.2.9.jar";
             "hash" = "sha512-wQ+EaKhcjIyZGDk0GIGmnwFhLgCLQ0hrnGRItPpncMEosAkTUnpeHhcNEkueD+JfIFKn7zfUP3MO9XzCPC3R0w==";
         };
+        _azsXD9Zf = {
+            "id" = "azsXD9Zf";
+            "file" = "antarchy-2.3.0+1.21.1-fabric.jar";
+            "hash" = "sha512-95PcCxjwSohj6G0R7kktZFoHD3IpqjnA0qfRx6DvLoCuwvuK9SGIULpEzCusBlgZNq1cvLm+cMxQujx2nppqKg==";
+        };
+        _wyar4I04 = {
+            "id" = "wyar4I04";
+            "file" = "antarchy-2.3.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-hyHynx+UeQXhp079N475ssGV+1vRFyo8EU+0SfxE9MaMVQNhMH7PmzdP57unm80w7ZZQWUQrIuoOjIRZOZ6sMA==";
+        };
+        _NchpqiNJ = {
+            "id" = "NchpqiNJ";
+            "file" = "antarchy-2.3.1+1.21.1-fabric.jar";
+            "hash" = "sha512-wAiAmC0B5zzBcbbX+hPkV/Pk6cSVrCXSmvw5F/JmoSfKPonQ8NjcIRgTVY0pJANrZ37zFVoNnM2mZUXrOB5pvg==";
+        };
+        _A2n021mG = {
+            "id" = "A2n021mG";
+            "file" = "antarchy-2.3.1+1.21.1-neoforge.jar";
+            "hash" = "sha512-NX+IXbh1DPgw5FZBjxpQW/qfMWfb7UphzmyIiH5/hZzlAIPpK+I1Mvxq48Q5NvzwNg+9UilaMzOkXezu12lJGQ==";
+        };
+        _cIHkOytx = {
+            "id" = "cIHkOytx";
+            "file" = "antarchy-forge-1.20.1-2.3.1.jar";
+            "hash" = "sha512-0ca5X1sE5XnQQII5FoDvs0gvmwF7KwPnSP+92HEAGBBrsN4M1XlVvwWXoBnd1YdoqEV3OSjsenvY/hkSGQ0xbQ==";
+        };
     in {
         "qgH4iMrS" = _qgH4iMrS;
         "NcwigKSp" = _NcwigKSp;
@@ -350,9 +375,14 @@ let
         "bKVrwrB4" = _bKVrwrB4;
         "t3jQO1j3" = _t3jQO1j3;
         "L1fUNxt6" = _L1fUNxt6;
-        "fabric-1.21.1" = _bKVrwrB4;
-        "neoforge-1.21.1" = _t3jQO1j3;
-        "forge-1.20.1" = _L1fUNxt6;
+        "azsXD9Zf" = _azsXD9Zf;
+        "wyar4I04" = _wyar4I04;
+        "NchpqiNJ" = _NchpqiNJ;
+        "A2n021mG" = _A2n021mG;
+        "cIHkOytx" = _cIHkOytx;
+        "fabric-1.21.1" = _NchpqiNJ;
+        "neoforge-1.21.1" = _A2n021mG;
+        "forge-1.20.1" = _cIHkOytx;
         "pkg-beta-V1+1.21.1-fabric" = _qgH4iMrS;
         "pkg-beta-V5+1.21.1-neoforge" = _NcwigKSp;
         "pkg-beta-V6+1.21.1-fabric" = _5OV2ytTI;
@@ -411,7 +441,12 @@ let
         "pkg-2.2.9+1.21.1-fabric" = _bKVrwrB4;
         "pkg-2.2.9+1.21.1-neoforge" = _t3jQO1j3;
         "pkg-2.2.9" = _L1fUNxt6;
-        "default" = _L1fUNxt6;
+        "pkg-2.3.0+1.21.1-fabric" = _azsXD9Zf;
+        "pkg-2.3.0+1.21.1-neoforge" = _wyar4I04;
+        "pkg-2.3.1+1.21.1-fabric" = _NchpqiNJ;
+        "pkg-2.3.1+1.21.1-neoforge" = _A2n021mG;
+        "pkg-2.3.1" = _cIHkOytx;
+        "default" = _cIHkOytx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antarchy";

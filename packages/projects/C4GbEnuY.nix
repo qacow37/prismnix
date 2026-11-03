@@ -551,6 +551,11 @@ let
             "file" = "seedmapper-2.37.0.jar";
             "hash" = "sha512-xPrK5V9vIPO6n/lj8OtB9YqhkfcUyh6bkwUerLlrY5ComzgBLjRoAPoDtvAVVk/uuEkp/tPPCw97lc68IS6ogg==";
         };
+        _bI7Evokm = {
+            "id" = "bI7Evokm";
+            "file" = "seedmapper-2.38.0.jar";
+            "hash" = "sha512-D9LE5GVgg7j0u4eFQIzHVSUMaTZmqVB+O8d+073HMmkU8S7dr8jzf3ONfOTR27fNEcvaDuDf1VtCyOue5ZS20w==";
+        };
     in {
         "GsumSdui" = _GsumSdui;
         "L6ZiHxuc" = _L6ZiHxuc;
@@ -662,6 +667,7 @@ let
         "dxWsGoLw" = _dxWsGoLw;
         "Y2wCUO28" = _Y2wCUO28;
         "O3iXRMwT" = _O3iXRMwT;
+        "bI7Evokm" = _bI7Evokm;
         "fabric-1.16.5" = _L6ZiHxuc;
         "fabric-1.17" = _twWBrkHB;
         "fabric-1.17.1" = _WImYLpxQ;
@@ -697,7 +703,7 @@ let
         "fabric-26.1.1" = _yWldA3a6;
         "fabric-26.1.2" = _yWldA3a6;
         "fabric-26.2" = _qpvA34lm;
-        "fabric-26.3" = _O3iXRMwT;
+        "fabric-26.3" = _bI7Evokm;
         "pkg-b1.0" = _GsumSdui;
         "pkg-b1.1" = _L6ZiHxuc;
         "pkg-b1.2" = _q0SjkGlJ;
@@ -808,7 +814,8 @@ let
         "pkg-2.36.0" = _dxWsGoLw;
         "pkg-2.36.1" = _Y2wCUO28;
         "pkg-2.37.0" = _O3iXRMwT;
-        "default" = _O3iXRMwT;
+        "pkg-2.38.0" = _bI7Evokm;
+        "default" = _bI7Evokm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seedmapper";

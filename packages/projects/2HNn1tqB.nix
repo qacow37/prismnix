@@ -136,6 +136,16 @@ let
             "file" = "AcroWield-2.1.1-MC1.21.1.jar";
             "hash" = "sha512-bGgl7xrb1th8HiErRhy2r0ulpjaOjMJ3LNWrozHc9wWIJ5vrAH0sKIRAy6Wj/H27knCzGXyfg6hDxkEROtafKg==";
         };
+        _P8vJgkKZ = {
+            "id" = "P8vJgkKZ";
+            "file" = "AcroWield-2.2.0-MC26.3.jar";
+            "hash" = "sha512-wmQkbltsEQOSA5I4XjwAgslKaT8Eyfan0A6q+6pFV+OB/21Rd2kPoURsguuRqaQw8l504Gzs4lQrkZzNflOrJg==";
+        };
+        _kKNPTNBW = {
+            "id" = "kKNPTNBW";
+            "file" = "AcroWield-2.2.0-MC26.2.jar";
+            "hash" = "sha512-ziQgDK07OQ4Ah1o53Bh5+PucPZ/2lSvfuovn+AJW9EGCtTeRyqvx2ixwnV9WYl1FyxANnU/VonY9c3IJ4YKZvw==";
+        };
     in {
         "WSvVGw8H" = _WSvVGw8H;
         "tJhh9diE" = _tJhh9diE;
@@ -164,11 +174,13 @@ let
         "3W6oa9Tn" = _3W6oa9Tn;
         "ZApNLser" = _ZApNLser;
         "imErLzMq" = _imErLzMq;
+        "P8vJgkKZ" = _P8vJgkKZ;
+        "kKNPTNBW" = _kKNPTNBW;
         "fabric-26.1" = _ZApNLser;
         "fabric-26.1.1" = _ZApNLser;
         "fabric-26.1.2" = _ZApNLser;
-        "fabric-26.2" = _Afcf9Kct;
-        "fabric-26.3" = _3W6oa9Tn;
+        "fabric-26.2" = _kKNPTNBW;
+        "fabric-26.3" = _P8vJgkKZ;
         "fabric-1.21.1" = _imErLzMq;
         "pkg-1.0.0" = _WSvVGw8H;
         "pkg-1.0.2" = _tJhh9diE;
@@ -197,7 +209,9 @@ let
         "pkg-2.1.1-MC26.3" = _3W6oa9Tn;
         "pkg-2.1.1-MC26.1.x" = _ZApNLser;
         "pkg-2.1.1-MC1.21.1" = _imErLzMq;
-        "default" = _imErLzMq;
+        "pkg-2.2.0-MC26.3" = _P8vJgkKZ;
+        "pkg-2.2.0-MC26.2" = _kKNPTNBW;
+        "default" = _kKNPTNBW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "acrowield";

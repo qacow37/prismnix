@@ -201,6 +201,11 @@ let
             "file" = "cape-provider-5.6.2.jar";
             "hash" = "sha512-Mdht8Mh8ts69PRC0FBXIq3uo7TFjRtM4PaN+P0qABNqvE1cqeKDpV/xqKsHHJ6kBuCp4mGuYyHjjt7fV27Xn3Q==";
         };
+        _Mp6ANLyn = {
+            "id" = "Mp6ANLyn";
+            "file" = "cape-provider-6.0.0-SNAPSHOT.jar";
+            "hash" = "sha512-YuS1hmO27gDwmEdbc62Z/GGiyvkhE9SZ+FKgmOOdjoJMDwp2JEfwfHw54c6shjebHD4D8BPpM2pWPDfcyiXWWg==";
+        };
     in {
         "FSilBdn4" = _FSilBdn4;
         "IqOa44ps" = _IqOa44ps;
@@ -242,6 +247,7 @@ let
         "qIWQyEta" = _qIWQyEta;
         "ehiQHMI3" = _ehiQHMI3;
         "8uj3EpQc" = _8uj3EpQc;
+        "Mp6ANLyn" = _Mp6ANLyn;
         "fabric-1.21.4" = _KlgBF6TO;
         "fabric-1.21.5" = _Es9UfZEs;
         "fabric-1.21.6-rc1" = _E0ip1wN2;
@@ -260,7 +266,7 @@ let
         "fabric-26.3-snapshot-9" = _R327kvDp;
         "fabric-26.3-rc-2" = _qIWQyEta;
         "fabric-26.3-rc-3" = _qIWQyEta;
-        "fabric-26.3" = _8uj3EpQc;
+        "fabric-26.3" = _Mp6ANLyn;
         "pkg-1.0.0" = _FSilBdn4;
         "pkg-1.0.1" = _IqOa44ps;
         "pkg-1.0.2" = _KlgBF6TO;
@@ -301,7 +307,8 @@ let
         "pkg-5.6.0" = _qIWQyEta;
         "pkg-5.6.1" = _ehiQHMI3;
         "pkg-5.6.2" = _8uj3EpQc;
-        "default" = _8uj3EpQc;
+        "pkg-6.0.0-SNAPSHOT" = _Mp6ANLyn;
+        "default" = _Mp6ANLyn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cape-provider";

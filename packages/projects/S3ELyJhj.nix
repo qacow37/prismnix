@@ -1136,6 +1136,26 @@ let
             "file" = "biology-dictionary-1.4.1-mc1.20.1-fabric.jar";
             "hash" = "sha512-P3qp0AMIZLce1HYRGAPwTi28jYey7Ye8pj0HuFpn6I/qY8RsUUEfrKi69khIS7LNn7HBWZOaKajVNoa/F6JReQ==";
         };
+        _cF5odPGo = {
+            "id" = "cF5odPGo";
+            "file" = "biology-dictionary-1.4.2-mc26.3-neoforge.jar";
+            "hash" = "sha512-v1zXyNHp4n184hAtQvfK7K0f5Qfy91G5Z3k/gdn0p8fyHR5Nl2QYtGVRcl/Fs13by91wj6+HjqwzKhoP/tDTMQ==";
+        };
+        _AGxjrgF7 = {
+            "id" = "AGxjrgF7";
+            "file" = "biology-dictionary-1.4.2-mc26.3-fabric.jar";
+            "hash" = "sha512-+XtJ7G4wxoMzQ/Wji9DmMO9LZVCnBraahEI86fQGfKpDUPFazDFsoUnfBUmUvM58XAktpFP2aZ8MkcDAgQc6Mg==";
+        };
+        _4D1dRRyS = {
+            "id" = "4D1dRRyS";
+            "file" = "biology-dictionary-1.4.2-mc26.2-neoforge.jar";
+            "hash" = "sha512-8Zu2tHbG2DLYDg5e3gy+ZlE/F7QcgieCPPFyduDVn2BHzBTTfP2ao9DL2LcVke56EjqYXHwz8TbXmbwbla8CUA==";
+        };
+        _IGo2xmO8 = {
+            "id" = "IGo2xmO8";
+            "file" = "biology-dictionary-1.4.2-mc26.2-fabric.jar";
+            "hash" = "sha512-L5UiDH3RiL4mVTFrUzCduWAqiMxq8FCSX11h9Fjt80503nc1y6t2/Q2UQgiwIRI511bc6Y/yegVDmBXdn8TUbQ==";
+        };
     in {
         "rmNEHubR" = _rmNEHubR;
         "jV70aY6h" = _jV70aY6h;
@@ -1364,17 +1384,21 @@ let
         "KFu6hxOv" = _KFu6hxOv;
         "ioQeyUTc" = _ioQeyUTc;
         "9UWural1" = _9UWural1;
+        "cF5odPGo" = _cF5odPGo;
+        "AGxjrgF7" = _AGxjrgF7;
+        "4D1dRRyS" = _4D1dRRyS;
+        "IGo2xmO8" = _IGo2xmO8;
         "fabric-1.21.11" = _axSxtzbO;
         "fabric-1.21.1" = _KFu6hxOv;
         "fabric-1.20.1" = _9UWural1;
         "fabric-26.1.2" = _Rn0hCwaM;
-        "fabric-26.2" = _lhTGSxXM;
-        "fabric-26.3" = _iVmvWfNz;
+        "fabric-26.2" = _IGo2xmO8;
+        "fabric-26.3" = _AGxjrgF7;
         "neoforge-1.21.11" = _vVUc5TQM;
         "neoforge-1.21.1" = _1HpBBj3a;
         "neoforge-26.1.2" = _qBn2BQeA;
-        "neoforge-26.2" = _soQ9Fklf;
-        "neoforge-26.3" = _sftiHmjt;
+        "neoforge-26.2" = _4D1dRRyS;
+        "neoforge-26.3" = _cF5odPGo;
         "forge-1.20.1" = _ioQeyUTc;
         "pkg-0.5.0" = _rmNEHubR;
         "pkg-0.5.1" = _jV70aY6h;
@@ -1603,7 +1627,11 @@ let
         "pkg-v1.4.1-mc1.21.1-fabric" = _KFu6hxOv;
         "pkg-v1.4.1-mc1.20.1-forge" = _ioQeyUTc;
         "pkg-v1.4.1-mc1.20.1-fabric" = _9UWural1;
-        "default" = _9UWural1;
+        "pkg-v1.4.2-mc26.3-neoforge" = _cF5odPGo;
+        "pkg-v1.4.2-mc26.3-fabric" = _AGxjrgF7;
+        "pkg-v1.4.2-mc26.2-neoforge" = _4D1dRRyS;
+        "pkg-v1.4.2-mc26.2-fabric" = _IGo2xmO8;
+        "default" = _IGo2xmO8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biology-dictionary";

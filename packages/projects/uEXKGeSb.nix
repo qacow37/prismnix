@@ -381,6 +381,171 @@ let
             "file" = "i-want-a-better-font-1.4.0-mc26.3-neoforge.jar";
             "hash" = "sha512-hpbHFUPkYTQIeghf2U+1ewA5ICb8FtOI9XaWQUKUkVLgD48csNdPrYl14PNJMOwtFB1yU/53Nn+oiKHfg9TX6w==";
         };
+        _kbdSMUpZ = {
+            "id" = "kbdSMUpZ";
+            "file" = "i-want-a-better-font-1.4.1-mc26.2-fabric.jar";
+            "hash" = "sha512-zW5KHHDVapyTLGt4JZWuKWOVH6YGa/Jq+Z6Js+WnXX6TWhRHWT+CiwHGyOvfcvvO5jGzovMZZodKxhZrX1YM8A==";
+        };
+        _NCNQr4UH = {
+            "id" = "NCNQr4UH";
+            "file" = "i-want-a-better-font-1.4.1-mc1.20.1-fabric.jar";
+            "hash" = "sha512-0AOgIPIJ/lrYX9j4zwkgO1n0EI+IwNchdUFLVyM9SNup5g6Q8ubOgBXaZtUMO1ajr3hirOcvN0mRaKlsDFA58A==";
+        };
+        _uYdu3Q4A = {
+            "id" = "uYdu3Q4A";
+            "file" = "i-want-a-better-font-1.4.1-mc1.20.1-neoforge.jar";
+            "hash" = "sha512-G3IxFsWPVP3yWi7Gb/tNm7f8//HsicRmwd9+M2C8+n1jtK9/SiqcIDVLiLrsgTtUWXkdo+PT/eB6SeGVNsgziA==";
+        };
+        _rNqvxKef = {
+            "id" = "rNqvxKef";
+            "file" = "i-want-a-better-font-1.4.1-mc1.20.1-forge.jar";
+            "hash" = "sha512-nRKrBwXtbaFUdqSCUorx/ygJYxhmtDNHPn/oibrxvG6k5cbkXbg70GY3+1f4XA9OppvyMo0o2ouXs7HOtsXBkw==";
+        };
+        _aqPvwby7 = {
+            "id" = "aqPvwby7";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.1-fabric.jar";
+            "hash" = "sha512-BFOyPQ5U6Gp4z7/4kbYIa2m534/VdSi7X4QSJH6zhW4NTIePFcf3lXVX9ij2hoO40VlbJJeEqFvSb1X6jFr2Lw==";
+        };
+        _NKHVnyxJ = {
+            "id" = "NKHVnyxJ";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-KoTs6gYMxeUL6ZhuWKyXP2rnfm8RUi9ggPT9sy597YwsOxULnBeHQSiShpqwMle3KP8XZga9QW4o9sxn+xagxw==";
+        };
+        _V1kHkRH8 = {
+            "id" = "V1kHkRH8";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.2-fabric.jar";
+            "hash" = "sha512-sbuetuu8nVJDkgOOMlqy1eLBif33LBYnOgnaWGvQ0Pqw3FeoJGfPOwR4HYRYfPkoEuPAhU76vl55deUAQP7W3Q==";
+        };
+        _WIDEJrfh = {
+            "id" = "WIDEJrfh";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.2-neoforge.jar";
+            "hash" = "sha512-vOUuagkNEdhQ76RvHHHZD2Tz86D6sUqcBJSNwWJD4/N+Bar8LG4/kiFukYCafqmIuW9Dy2tf0x5QqK41abYuQA==";
+        };
+        _HGlxyGCh = {
+            "id" = "HGlxyGCh";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.3-fabric.jar";
+            "hash" = "sha512-YTSMfqEUvVnH7ZAAxbBHTxDFFzatAi5mLU5nfXq++dZnslkhmVgnf4WVMiysNLsYDXcWDeJ6AcuwiD8eIxyJrw==";
+        };
+        _55Ka4V5H = {
+            "id" = "55Ka4V5H";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.3-neoforge.jar";
+            "hash" = "sha512-50slhqWdLTw5cs6wCHpE351vbobs4hMij2j6shxoxyvguRrxK+A5xAPyTCq4/yvAjrnAokfJxPYUsxGct5ibFQ==";
+        };
+        _wT1C4KBF = {
+            "id" = "wT1C4KBF";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.4-fabric.jar";
+            "hash" = "sha512-xqprqq/jJ3wJJW3/hplVXI4jV82TWHHo3xj9A2FVzL45zP2Apen9xAofoegeR0SxykrgbU0fvjk9Yv42cnASeg==";
+        };
+        _4PY5sKk6 = {
+            "id" = "4PY5sKk6";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.4-neoforge.jar";
+            "hash" = "sha512-YNp39JhBCL9BIKF/6Hp+uFNVYSmc5XyK3+hovuwpUVkH0QF9OarH6XGRG30tDZvFhMcMKB/9fAM1AmVIkWmkng==";
+        };
+        _Y0WwdRB9 = {
+            "id" = "Y0WwdRB9";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.5-fabric.jar";
+            "hash" = "sha512-Kn/WqKOKA3lGblULPrk4ihp8GQpZvMVf/JW3dXkJ+ZHQEBvf1/DV1os3hSkDfioEhOE6baXkFAKiWsCrFRlYZQ==";
+        };
+        _u2syF019 = {
+            "id" = "u2syF019";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.5-neoforge.jar";
+            "hash" = "sha512-7jI00KjyHg5woX1KGJ2C0UWwCVSR/wmoAz816leoDrPP5WKmz1f0QiJrb7WTgKFSpJtj0rkd/o2mWnslk/ngWg==";
+        };
+        _BB6Ynwgb = {
+            "id" = "BB6Ynwgb";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.6-fabric.jar";
+            "hash" = "sha512-n6GSWCae4wRolobyH5BLS0Zu2o8ImiGCP8DKxZIEgLW5XJyhImzbPMA0a/E02iD/sAQxL65OrxXmqD8YZmYiJQ==";
+        };
+        _FGUL0akY = {
+            "id" = "FGUL0akY";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.6-neoforge.jar";
+            "hash" = "sha512-VxcL6eRS3Btj+K072qInP8geU17WS2BlnjgvRroLHl6nNm0HihEojOuu3gxJKa5P02Jk/tm0hyIxI+oh0XkF6Q==";
+        };
+        _BgCK8FDg = {
+            "id" = "BgCK8FDg";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.7-fabric.jar";
+            "hash" = "sha512-jy0RZUoatYxm1ym6PbVU3LnICz2XbzkgAYfHncPsvBloY3lw8fvqClYX2zrULlIO87kQRZ6w0Fl5Lli2HXuxTg==";
+        };
+        _MowPH7OB = {
+            "id" = "MowPH7OB";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.7-neoforge.jar";
+            "hash" = "sha512-lg4xNjFwypZJGVSxvw4LD1I8yFjr6njPa+9AO/smR1bQ20AqNoya22uyW708U0NViURqoHCp0kEP2o9DmvCgJQ==";
+        };
+        _XSS07bzp = {
+            "id" = "XSS07bzp";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.8-fabric.jar";
+            "hash" = "sha512-kHATGIzDTNYGAHXm1M0G+FQOjgoEGCOC4KrxmH9XOCbgLW0ISyDO7uZQpDJQuQz6RchHwL90+OIfB2DUr4Ck+w==";
+        };
+        _xFSHGJBu = {
+            "id" = "xFSHGJBu";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.8-neoforge.jar";
+            "hash" = "sha512-w9s265jlDfNf8V7A7xneceHfSPL66tWmvQ3iWn46MO698LslFcG5iv7D8aLRYAnVPt8MkAiL0ymUpONmJCVpVA==";
+        };
+        _wFF7b6F9 = {
+            "id" = "wFF7b6F9";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.9-fabric.jar";
+            "hash" = "sha512-iqj7x6tOe0wzt+iQShNrPtvQwwpY0TyolX+IyqkszJTGcqQjjoeQ8pCFHjeVtVMxkNfDl/ANfuFhFV0ZmDVN0w==";
+        };
+        _2DtmfISO = {
+            "id" = "2DtmfISO";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.9-neoforge.jar";
+            "hash" = "sha512-sZ6TfuDWVEYX+qCpeBla/2wWsOli9wRx2dnsy0c5vLDIncCp1UyA1iaCEXsBAxlor1HqVVBp7H+ZVqYRA9uf9Q==";
+        };
+        _cOM4lOg1 = {
+            "id" = "cOM4lOg1";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.10-fabric.jar";
+            "hash" = "sha512-oc1z04d+VvXfEaJxsgoSXhaL/EzsVSAqrOXjKlaFy+daRCz5GEAd6zVluqwZ5vXxN4XrHpNUB4LQBBiOJbx8Wg==";
+        };
+        _5fObhFKZ = {
+            "id" = "5fObhFKZ";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.10-neoforge.jar";
+            "hash" = "sha512-MmhHbXgVrD00resUOPTI/fsumfKYcY4luu3bK7EVyQxp5y3we7ZE4OJ8/nzjHDv2ksTlo66dQgS7Cgqi+Gk3Nw==";
+        };
+        _IwzZ5jpO = {
+            "id" = "IwzZ5jpO";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.11-fabric.jar";
+            "hash" = "sha512-uwIUMcMSaWOOqg5xKUD9eNpuIzbngdv95vZr/E2i7kezArw15wapPrhubkhsBc4meI++XoBzB+hLGzlCIaOgRA==";
+        };
+        _5JqFz7iI = {
+            "id" = "5JqFz7iI";
+            "file" = "i-want-a-better-font-1.4.1-mc1.21.11-neoforge.jar";
+            "hash" = "sha512-zZLxBwLKL1QH5PwOG8oL7DXn4dldOPjTpMRN/ihs4KvLsaAx//xSu/Rvof96erR1gwXMyh2J17pAlo5seedRAw==";
+        };
+        _1YuGPBVX = {
+            "id" = "1YuGPBVX";
+            "file" = "i-want-a-better-font-1.4.1-mc26.1-fabric.jar";
+            "hash" = "sha512-C2TjkWB10MBEcaR7hiBawdkJfB03Ge2K6xY5V+0gZ8YowZDiZ+2vCAnx4pPshe4m2Q/PQNRD4QdR7jzFaL7Etg==";
+        };
+        _27uW73AP = {
+            "id" = "27uW73AP";
+            "file" = "i-want-a-better-font-1.4.1-mc26.1-neoforge.jar";
+            "hash" = "sha512-Sfk7w3iev/KlNAEMJOhrrOtYtlPDc5TFDDUksBKeU9BXWnP/w46Nevnk+xSPGMsxHZ9niV9+R650pPlRm7FsMQ==";
+        };
+        _ME9hkvoP = {
+            "id" = "ME9hkvoP";
+            "file" = "i-want-a-better-font-1.4.1-mc26.1.2-fabric.jar";
+            "hash" = "sha512-rvCeBUYbAkIUzOiLmnMMMsJ6TWfXji8KDcHJGfbuyG2MIw1hLDbPHopIoXQFZ8kiLUdyTWlF+DE4Iv5juHxSWA==";
+        };
+        _97xZu2Cx = {
+            "id" = "97xZu2Cx";
+            "file" = "i-want-a-better-font-1.4.1-mc26.1.2-neoforge.jar";
+            "hash" = "sha512-wx2EvxJPdEPjs5oU8gLRtS+AOAGWWYkKQGhBLD2gSPWoG9KgZ7Nul26qOqSDOJE5Z4UR9YQZe8sy8vp0NHUluQ==";
+        };
+        _NMhHE3H6 = {
+            "id" = "NMhHE3H6";
+            "file" = "i-want-a-better-font-1.4.1-mc26.2-neoforge.jar";
+            "hash" = "sha512-wW3CkZjJxr7QGtqMdI0o+3DvY7Nh/sber71tow/vF2yewhu0U9XvP72O5B4rTx7f9f3ico2MTAZiOCX96/Edqw==";
+        };
+        _5wp3XPh0 = {
+            "id" = "5wp3XPh0";
+            "file" = "i-want-a-better-font-1.4.1-mc26.3-fabric.jar";
+            "hash" = "sha512-fz80Fxx20Yk7/16Fpe6y+1e0gEo/pws1tSSITMld0uxxortCwUr89pZ+G5jTG6lSK+QYJgJRqSi04gH2GZ28Wg==";
+        };
+        _cEVGrkFB = {
+            "id" = "cEVGrkFB";
+            "file" = "i-want-a-better-font-1.4.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-H+qiYiHviCrzLQOerlcQybIHHr/z9fqVuox1PW++yGdBLhOPYjGJyhkISN62cenbeAD3if52vFq1C7LKWhwNbg==";
+        };
     in {
         "TJh39Ke7" = _TJh39Ke7;
         "NoowWGmC" = _NoowWGmC;
@@ -458,47 +623,81 @@ let
         "SkKfIrQe" = _SkKfIrQe;
         "XEuHT6to" = _XEuHT6to;
         "Uw2Fa5WH" = _Uw2Fa5WH;
-        "fabric-1.21.1" = _aBD1dytQ;
-        "fabric-1.21.2" = _2gS2VkTz;
-        "fabric-1.21.3" = _fAEs0DB1;
-        "fabric-1.21.4" = _Selgq61w;
-        "fabric-1.21.5" = _ZibaxaCd;
-        "fabric-1.21.6" = _WVC55UuB;
-        "fabric-1.21.7" = _ff3K3P5s;
-        "fabric-1.21.8" = _eHrxD3AF;
-        "fabric-1.21.9" = _ZsN6chiV;
-        "fabric-1.21.10" = _4Vb3sFaA;
-        "fabric-1.21.11" = _cyWi7LAQ;
-        "fabric-26.1" = _Oy5FHlG7;
-        "fabric-26.1.1" = _Oy5FHlG7;
-        "fabric-26.1.2" = _k61jXEwe;
-        "fabric-26.2" = _eSNe0UQH;
-        "fabric-1.20.1" = _XS28wBzc;
-        "fabric-26.3" = _XEuHT6to;
-        "neoforge-1.21.1" = _Url5ERXi;
-        "neoforge-1.21.2" = _mH9CPa1H;
-        "neoforge-1.21.3" = _iU3NlXOE;
-        "neoforge-1.21.4" = _zPqLcw1x;
-        "neoforge-1.21.5" = _1ZBNzgJg;
-        "neoforge-1.21.6" = _PMjkkVFa;
-        "neoforge-1.21.7" = _Ypg38V6G;
-        "neoforge-1.21.8" = _K1l0WFsR;
-        "neoforge-1.21.9" = _cmOyHh84;
-        "neoforge-1.21.10" = _pqlWzZ6N;
-        "neoforge-1.21.11" = _g7G67T2Z;
-        "neoforge-26.1" = _63jwS2Tz;
-        "neoforge-26.1.1" = _63jwS2Tz;
-        "neoforge-26.1.2" = _8PUnOhIR;
-        "neoforge-26.2" = _SkKfIrQe;
-        "neoforge-1.20.1" = _I7WoIUFt;
-        "neoforge-26.3" = _Uw2Fa5WH;
-        "forge-1.20.1" = _hy4TmWRT;
+        "kbdSMUpZ" = _kbdSMUpZ;
+        "NCNQr4UH" = _NCNQr4UH;
+        "uYdu3Q4A" = _uYdu3Q4A;
+        "rNqvxKef" = _rNqvxKef;
+        "aqPvwby7" = _aqPvwby7;
+        "NKHVnyxJ" = _NKHVnyxJ;
+        "V1kHkRH8" = _V1kHkRH8;
+        "WIDEJrfh" = _WIDEJrfh;
+        "HGlxyGCh" = _HGlxyGCh;
+        "55Ka4V5H" = _55Ka4V5H;
+        "wT1C4KBF" = _wT1C4KBF;
+        "4PY5sKk6" = _4PY5sKk6;
+        "Y0WwdRB9" = _Y0WwdRB9;
+        "u2syF019" = _u2syF019;
+        "BB6Ynwgb" = _BB6Ynwgb;
+        "FGUL0akY" = _FGUL0akY;
+        "BgCK8FDg" = _BgCK8FDg;
+        "MowPH7OB" = _MowPH7OB;
+        "XSS07bzp" = _XSS07bzp;
+        "xFSHGJBu" = _xFSHGJBu;
+        "wFF7b6F9" = _wFF7b6F9;
+        "2DtmfISO" = _2DtmfISO;
+        "cOM4lOg1" = _cOM4lOg1;
+        "5fObhFKZ" = _5fObhFKZ;
+        "IwzZ5jpO" = _IwzZ5jpO;
+        "5JqFz7iI" = _5JqFz7iI;
+        "1YuGPBVX" = _1YuGPBVX;
+        "27uW73AP" = _27uW73AP;
+        "ME9hkvoP" = _ME9hkvoP;
+        "97xZu2Cx" = _97xZu2Cx;
+        "NMhHE3H6" = _NMhHE3H6;
+        "5wp3XPh0" = _5wp3XPh0;
+        "cEVGrkFB" = _cEVGrkFB;
+        "fabric-1.21.1" = _aqPvwby7;
+        "fabric-1.21.2" = _V1kHkRH8;
+        "fabric-1.21.3" = _HGlxyGCh;
+        "fabric-1.21.4" = _wT1C4KBF;
+        "fabric-1.21.5" = _Y0WwdRB9;
+        "fabric-1.21.6" = _BB6Ynwgb;
+        "fabric-1.21.7" = _BgCK8FDg;
+        "fabric-1.21.8" = _XSS07bzp;
+        "fabric-1.21.9" = _wFF7b6F9;
+        "fabric-1.21.10" = _cOM4lOg1;
+        "fabric-1.21.11" = _IwzZ5jpO;
+        "fabric-26.1" = _1YuGPBVX;
+        "fabric-26.1.1" = _1YuGPBVX;
+        "fabric-26.1.2" = _ME9hkvoP;
+        "fabric-26.2" = _kbdSMUpZ;
+        "fabric-1.20.1" = _NCNQr4UH;
+        "fabric-26.3" = _5wp3XPh0;
+        "neoforge-1.21.1" = _NKHVnyxJ;
+        "neoforge-1.21.2" = _WIDEJrfh;
+        "neoforge-1.21.3" = _55Ka4V5H;
+        "neoforge-1.21.4" = _4PY5sKk6;
+        "neoforge-1.21.5" = _u2syF019;
+        "neoforge-1.21.6" = _FGUL0akY;
+        "neoforge-1.21.7" = _MowPH7OB;
+        "neoforge-1.21.8" = _xFSHGJBu;
+        "neoforge-1.21.9" = _2DtmfISO;
+        "neoforge-1.21.10" = _5fObhFKZ;
+        "neoforge-1.21.11" = _5JqFz7iI;
+        "neoforge-26.1" = _27uW73AP;
+        "neoforge-26.1.1" = _27uW73AP;
+        "neoforge-26.1.2" = _97xZu2Cx;
+        "neoforge-26.2" = _NMhHE3H6;
+        "neoforge-1.20.1" = _uYdu3Q4A;
+        "neoforge-26.3" = _cEVGrkFB;
+        "forge-1.20.1" = _rNqvxKef;
         "pkg-1.0.0" = _NoowWGmC;
         "pkg-1.2.0" = _GekNKUKT;
         "pkg-1.3.0" = _wXSP2KzS;
         "pkg-1.3.1" = _onWrT0uB;
         "pkg-1.4.0" = _Uw2Fa5WH;
-        "default" = _Uw2Fa5WH;
+        "pkg-1.4.1" = _cEVGrkFB;
+        "default" = _cEVGrkFB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-google-font";

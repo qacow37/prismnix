@@ -16,17 +16,24 @@ let
             "file" = "simplegens-1.16.5-3.0.9.2.jar";
             "hash" = "sha512-Gu/YEv9U5QcmUpuIJhG3e3G7d1YSNbwaNWsxooSm316D9/AGEvowTV8Ph6vK4yNVhTlJvmqn3YnAuzPnL4V1yA==";
         };
+        _TWbqouqd = {
+            "id" = "TWbqouqd";
+            "file" = "simplegenerators-1.12.2-2.1.0.0.jar";
+            "hash" = "sha512-3bZ3In0ZHkUSKtFKIFR6IjjWWOhneDIrp+lXka7zwaQpmsrsJYaMy7ozDX225a23gwRQkM8WUHWLihh2wrerEw==";
+        };
     in {
         "Ze1Loa2O" = _Ze1Loa2O;
         "vrmjyq43" = _vrmjyq43;
         "ACo0XDZv" = _ACo0XDZv;
+        "TWbqouqd" = _TWbqouqd;
         "forge-1.9.4" = _Ze1Loa2O;
-        "forge-1.12.2" = _vrmjyq43;
+        "forge-1.12.2" = _TWbqouqd;
         "forge-1.16.5" = _ACo0XDZv;
         "pkg-1.9.4-0.6.2a" = _Ze1Loa2O;
         "pkg-1.12.2-2.0.20.2" = _vrmjyq43;
         "pkg-1.16.5-3.0.9.2" = _ACo0XDZv;
-        "default" = _ACo0XDZv;
+        "pkg-1.12.2-2.1.0.0" = _TWbqouqd;
+        "default" = _TWbqouqd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-generators";

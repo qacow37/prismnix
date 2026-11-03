@@ -41,6 +41,11 @@ let
             "file" = "VTP-26.3-fabric-1.3.0.jar";
             "hash" = "sha512-4LmiM3U7cBuF4bf4qlPMzfv12mF7Cj+VkM3N9LGnvf0e3Js2Fv1f2B5FSzS6yGUQJFsdOj3A+800daZJ4xVJlg==";
         };
+        _3Jpqtumj = {
+            "id" = "3Jpqtumj";
+            "file" = "VTP-2.0.0-mc26-universal.jar";
+            "hash" = "sha512-gDzKLt51Fbd3sKWAVnN+gj37pCIVmLTxhQDL9PNRng7bsuPkuNuNd2bcZ6hMTZGAlXxvD7vP33iMUr8QNTfVgg==";
+        };
     in {
         "5aWWWxIY" = _5aWWWxIY;
         "8dtqU9PS" = _8dtqU9PS;
@@ -50,11 +55,12 @@ let
         "mciJwRb4" = _mciJwRb4;
         "j0JMhF7P" = _j0JMhF7P;
         "oImrcIyV" = _oImrcIyV;
-        "fabric-26.1.2" = _BOi8Z2qt;
-        "fabric-26.1" = _BOi8Z2qt;
-        "fabric-26.1.1" = _BOi8Z2qt;
-        "fabric-26.2" = _j0JMhF7P;
-        "fabric-26.3" = _oImrcIyV;
+        "3Jpqtumj" = _3Jpqtumj;
+        "fabric-26.1.2" = _3Jpqtumj;
+        "fabric-26.1" = _3Jpqtumj;
+        "fabric-26.1.1" = _3Jpqtumj;
+        "fabric-26.2" = _3Jpqtumj;
+        "fabric-26.3" = _3Jpqtumj;
         "pkg-1.0.0" = _5aWWWxIY;
         "pkg-1.1.0" = _8dtqU9PS;
         "pkg-1.1.1" = _R4rT4Bjk;
@@ -63,7 +69,8 @@ let
         "pkg-1.1.4" = _mciJwRb4;
         "pkg-1.2.0" = _j0JMhF7P;
         "pkg-1.3.0" = _oImrcIyV;
-        "default" = _oImrcIyV;
+        "pkg-2.0.0" = _3Jpqtumj;
+        "default" = _3Jpqtumj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-trading-predictor";

@@ -511,6 +511,11 @@ let
             "file" = "guideme-21.1.22.jar";
             "hash" = "sha512-KnspFDwb7xg3XyIcM3xudE0Et5vDzBDK2sRrfWuyF614xRo8M82AKyIcx7OP8Eo/cGS9Y9KS5Tv58+CQR+7aJA==";
         };
+        _fDhc3PEw = {
+            "id" = "fDhc3PEw";
+            "file" = "guideme-26.3.7-alpha.jar";
+            "hash" = "sha512-i68PORaLWfrtI5aJoiD+BBxJDAnXEIbsWYbms0Rj8MViMMwLpIx1/oqrqeMHFkFhGNFdJ+qTi+6BbU+RVXRm9A==";
+        };
     in {
         "bk0EGcWt" = _bk0EGcWt;
         "xp5Eb3cc" = _xp5Eb3cc;
@@ -614,6 +619,7 @@ let
         "KCZu3q1I" = _KCZu3q1I;
         "OTeLaTlN" = _OTeLaTlN;
         "QeYKsstN" = _QeYKsstN;
+        "fDhc3PEw" = _fDhc3PEw;
         "neoforge-1.21.1" = _QeYKsstN;
         "neoforge-1.20.4" = _ReOCRQ9T;
         "neoforge-1.21.5" = _o5fVAod4;
@@ -642,13 +648,13 @@ let
         "neoforge-26.3-rc-1" = _kCCUXhEU;
         "neoforge-26.3-rc-2" = _kCCUXhEU;
         "neoforge-26.3-rc-3" = _kCCUXhEU;
-        "neoforge-26.3" = _KCZu3q1I;
-        "neoforge-26.4-snapshot-1" = _KCZu3q1I;
-        "neoforge-26.4-snapshot-2" = _KCZu3q1I;
-        "neoforge-26.4-snapshot-3" = _KCZu3q1I;
-        "neoforge-26.4-snapshot-4" = _KCZu3q1I;
-        "neoforge-26.4-snapshot-5" = _KCZu3q1I;
-        "neoforge-26.4-snapshot-6" = _KCZu3q1I;
+        "neoforge-26.3" = _fDhc3PEw;
+        "neoforge-26.4-snapshot-1" = _fDhc3PEw;
+        "neoforge-26.4-snapshot-2" = _fDhc3PEw;
+        "neoforge-26.4-snapshot-3" = _fDhc3PEw;
+        "neoforge-26.4-snapshot-4" = _fDhc3PEw;
+        "neoforge-26.4-snapshot-5" = _fDhc3PEw;
+        "neoforge-26.4-snapshot-6" = _fDhc3PEw;
         "forge-1.20.1" = _i7Tp1AHw;
         "pkg-1.0.0" = _xp5Eb3cc;
         "pkg-1.0.1" = _MFsx32k5;
@@ -751,7 +757,8 @@ let
         "pkg-26.3.6-alpha" = _KCZu3q1I;
         "pkg-26.1.17-beta" = _OTeLaTlN;
         "pkg-21.1.22" = _QeYKsstN;
-        "default" = _QeYKsstN;
+        "pkg-26.3.7-alpha" = _fDhc3PEw;
+        "default" = _fDhc3PEw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guideme";

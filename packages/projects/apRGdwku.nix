@@ -31,6 +31,11 @@ let
             "file" = "monocle-0.2.2.ms.jar";
             "hash" = "sha512-Iz1l9yIynH29PHeZL11ADf5udniCB9qNDUZpUm5mKFLQ8IMtw68jzGNzV3RixfshU+KVJn5z1gI+ElFkrZTY6w==";
         };
+        _UVdNs1u9 = {
+            "id" = "UVdNs1u9";
+            "file" = "monocle-0.2.4.ms.jar";
+            "hash" = "sha512-hJDmpEhc+5WIy1ueMj2y1LRievoj4n+2ncsMep9YNBdcwAK0/bJop0fKMMTSXnPKCOg5jCa8Gir4AM/G0DQdfg==";
+        };
     in {
         "wz7UpNZz" = _wz7UpNZz;
         "kqmjs4hp" = _kqmjs4hp;
@@ -38,14 +43,17 @@ let
         "NzfbqoTa" = _NzfbqoTa;
         "2FIfVjBX" = _2FIfVjBX;
         "klSc1ush" = _klSc1ush;
-        "neoforge-1.21.1" = _klSc1ush;
+        "UVdNs1u9" = _UVdNs1u9;
+        "neoforge-1.21.1" = _UVdNs1u9;
+        "neoforge-1.21" = _UVdNs1u9;
         "pkg-0.1.7-alpha.6" = _wz7UpNZz;
         "pkg-0.1.7" = _kqmjs4hp;
         "pkg-0.1.8" = _McCxFKNu;
         "pkg-0.2.0.ms" = _NzfbqoTa;
         "pkg-0.2.1.ms" = _2FIfVjBX;
         "pkg-0.2.2.ms" = _klSc1ush;
-        "default" = _klSc1ush;
+        "pkg-0.2.4.ms" = _UVdNs1u9;
+        "default" = _UVdNs1u9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monocle-iris";

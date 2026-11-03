@@ -106,6 +106,31 @@ let
             "file" = "CosmeticWeapons - 1.2.0.0 - 26.1.2 - NeoForge.jar";
             "hash" = "sha512-3rGBq5AS1qFDuw+S5yW5qVVd18KZ0W7n6FxbBLyv7CSfyCEmQev3yw/xg842omGlfg8PMeeU7No8t9oRqGoOwg==";
         };
+        _iekIEZE2 = {
+            "id" = "iekIEZE2";
+            "file" = "CosmeticWeapons - 1.2.0.1 - 1.20.1 - Forge.jar";
+            "hash" = "sha512-047ypuxpgYFcFeihRI5VD7rYq6URJj4lbofLUj3RjaZCKB/kQdKZZs4NokJdggalAO604kh1hmlEzJd5c2tivA==";
+        };
+        _Fct04Dre = {
+            "id" = "Fct04Dre";
+            "file" = "CosmeticWeapons - 1.2.0.1 - 1.20.4 - NeoForge.jar";
+            "hash" = "sha512-emiGzBhjEJ2Ygp1MFKoJtoVo1sdWCNy71Vk16VMHc4I+lRqWrzfJDljw2ybjlf91mQMEnlW5YuDcTOfuE24rjQ==";
+        };
+        _ueddCdrI = {
+            "id" = "ueddCdrI";
+            "file" = "CosmeticWeapons - 1.2.0.1 - 1.20.6 - NeoForge.jar";
+            "hash" = "sha512-4DXtyQDF2zTvAhtKmb6D5Oy9foi336+SgBWq6UVWTsTfpje5PrcQdYzfvngpspxCckp42mfhi5qRZp943UudhA==";
+        };
+        _qpCEXt00 = {
+            "id" = "qpCEXt00";
+            "file" = "CosmeticWeapons - 1.2.0.1 - 1.21.1 - NeoForge.jar";
+            "hash" = "sha512-YFUhe1j680B+m+LltGEBBGMRJESWnic/rMcyXvlhclWH222QgtUZ3obta8lG1c/9Tab4lt5/2mA1ujWmI/DEmg==";
+        };
+        _CvBkpsCY = {
+            "id" = "CvBkpsCY";
+            "file" = "CosmeticWeapons - 1.2.0.1 - 26.1.2 - NeoForge.jar";
+            "hash" = "sha512-blIdzKOugz7ikmBtVnvybvus1GAEzKgIQML5VtkfBpzXIbhtVV3KQIhOySKdi73rkQPXLXyjvQYmIfE++MlyUw==";
+        };
     in {
         "oD3F5NW6" = _oD3F5NW6;
         "f0XfxZ5K" = _f0XfxZ5K;
@@ -128,17 +153,23 @@ let
         "60zcK8By" = _60zcK8By;
         "ldEizUS2" = _ldEizUS2;
         "scqRAbmQ" = _scqRAbmQ;
-        "forge-1.20.1" = _cbu6QluQ;
-        "neoforge-1.20.4" = _9iUw7eQS;
-        "neoforge-1.20.6" = _60zcK8By;
-        "neoforge-1.21.1" = _ldEizUS2;
-        "neoforge-26.1.2" = _scqRAbmQ;
+        "iekIEZE2" = _iekIEZE2;
+        "Fct04Dre" = _Fct04Dre;
+        "ueddCdrI" = _ueddCdrI;
+        "qpCEXt00" = _qpCEXt00;
+        "CvBkpsCY" = _CvBkpsCY;
+        "forge-1.20.1" = _iekIEZE2;
+        "neoforge-1.20.4" = _Fct04Dre;
+        "neoforge-1.20.6" = _ueddCdrI;
+        "neoforge-1.21.1" = _qpCEXt00;
+        "neoforge-26.1.2" = _CvBkpsCY;
         "pkg-1.0.0.0" = _R1SZNfHO;
         "pkg-1.0.0.1" = _foKBhyNT;
         "pkg-1.1.0.0" = _j5DVL573;
         "pkg-1.1.0.1" = _yBaqfqkV;
         "pkg-1.2.0.0" = _scqRAbmQ;
-        "default" = _scqRAbmQ;
+        "pkg-1.2.0.1" = _CvBkpsCY;
+        "default" = _CvBkpsCY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cosmeticweapons";

@@ -31,6 +31,11 @@ let
             "file" = "coldsweat_altitude-0.8.1.jar";
             "hash" = "sha512-mEPZTbcG+PwHYYXsVgwqSR6SmQG5GsmOt+AWjPjHBRw8VJNEi4m2zWedqIVmeZjQ0ZWKx3RvWa6TMpXdRglu9Q==";
         };
+        _qJf3fTXH = {
+            "id" = "qJf3fTXH";
+            "file" = "coldsweat_altitude-0.8.2.jar";
+            "hash" = "sha512-AqLYEhp1wnEequWWt4rXkn/RVCUFV3I97E12OhkFQVnBWKMaz6AyuDOFSe/TEHzo602ysnuNu+f+uYgtdMQJqQ==";
+        };
     in {
         "NEcxRPRP" = _NEcxRPRP;
         "7yPBs5jy" = _7yPBs5jy;
@@ -38,14 +43,16 @@ let
         "caz4v737" = _caz4v737;
         "1XcXvmfR" = _1XcXvmfR;
         "fLWjJt6n" = _fLWjJt6n;
-        "neoforge-1.21.1" = _fLWjJt6n;
+        "qJf3fTXH" = _qJf3fTXH;
+        "neoforge-1.21.1" = _qJf3fTXH;
         "pkg-0.6.1" = _NEcxRPRP;
         "pkg-0.6.2" = _7yPBs5jy;
         "pkg-0.6.3" = _G9Z54AV9;
         "pkg-0.7.0" = _caz4v737;
         "pkg-0.8.0" = _1XcXvmfR;
         "pkg-0.8.1" = _fLWjJt6n;
-        "default" = _fLWjJt6n;
+        "pkg-0.8.2" = _qJf3fTXH;
+        "default" = _qJf3fTXH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cold-sweat-altitude";

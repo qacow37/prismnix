@@ -181,6 +181,56 @@ let
             "file" = "Tellus-fabric-1.21.11-0.8.3.jar";
             "hash" = "sha512-sCKeSQaCROATITUjEffDelJNqtjqF1WHyNqKLzdnQaL+D4qMdSFCQLId7h+x44JG2lGQaSOg3nXwut+yXOaz9Q==";
         };
+        _ZmlCCB5E = {
+            "id" = "ZmlCCB5E";
+            "file" = "Tellus-fabric-26.3-0.8.4.jar";
+            "hash" = "sha512-1HW3tRvjMUQWwYjVVyr+/g72d60uthCrNybUd0bk0qCGLkj3iA9ZG87Q37PiqLVYBMtyHsXhnSG3tcwg3LbXvA==";
+        };
+        _6pmjo7n5 = {
+            "id" = "6pmjo7n5";
+            "file" = "Tellus-neoforge-26.3-0.8.4.jar";
+            "hash" = "sha512-e1iuURhiED0BNJadcFMMuDzo5ffk7r+5VkLE5P8zIA8H+KTHJvZWNMQJtvhj5/beDJiFWrJj9E/xNzSCx8yeUA==";
+        };
+        _UithmYnx = {
+            "id" = "UithmYnx";
+            "file" = "Tellus-neoforge-26.2-0.8.4.jar";
+            "hash" = "sha512-lUIif4LQEdDqc9404cPZFzn+4D+Lo/k/5LxCJFonwgst8mrHrbgkerYH74ylB6sY5Q8r9+WBTB8kN0Enub0QCw==";
+        };
+        _4jRcuvwc = {
+            "id" = "4jRcuvwc";
+            "file" = "Tellus-neoforge-1.21.11-0.8.4.jar";
+            "hash" = "sha512-rGXvqEw+mojEP9A9Nu1joL/tQvXMrjm1g7j9jrZO+9VsN+tX+NWszAJOdYrgCbfp9wbZiuMl2WEJFrDphlo9Bg==";
+        };
+        _RW0TPkvS = {
+            "id" = "RW0TPkvS";
+            "file" = "Tellus-neoforge-1.21.1-0.8.4.jar";
+            "hash" = "sha512-GotLBnaDGOsVndgoVC7JBOJpMIgmK1p49lELeaIZf/VuinjA00kERrp2HIeIOc0f7Je8MV8udviCkItu7GyAmA==";
+        };
+        _CRipHLLY = {
+            "id" = "CRipHLLY";
+            "file" = "Tellus-forge-1.20.1-0.8.4.jar";
+            "hash" = "sha512-NmoaP7uESBRhPn3Ue+vIh5b4YXWyaWz6AWaFj4FkVyZCh5u2oe2O9ASBISQydGCrXUQeuMidXJSqSNZ4ofMWPg==";
+        };
+        _xdJ1GBNM = {
+            "id" = "xdJ1GBNM";
+            "file" = "Tellus-fabric-26.2-0.8.4.jar";
+            "hash" = "sha512-LJfuaj2YN8nQbJhJMTphvr+aBoeO57v3CsrDzXFeGX2ppISZceAmXHPr1QT1b65GCfZUOu/cgJaC4W6Np1J8HA==";
+        };
+        _y4BVzGb3 = {
+            "id" = "y4BVzGb3";
+            "file" = "Tellus-fabric-1.21.11-0.8.4.jar";
+            "hash" = "sha512-xCjS5ItJrpbHFImzUUvcD+nJEFgWn8ACY2oxXJUfbhxRbRu3SU32+qbEHKJUjOlxjOYaWFBQL7zXI+VGonLY+Q==";
+        };
+        _NiwhXIzR = {
+            "id" = "NiwhXIzR";
+            "file" = "Tellus-fabric-1.21.1-0.8.4.jar";
+            "hash" = "sha512-oKacveG3xcHtFprxB9bXAD4iHW1zqIS3GvTEG7kVJwLjpPIgP4SCIQUT1ThNZb7Rx01a08LnAyZqULL0H+zl1w==";
+        };
+        _kHcWK8cH = {
+            "id" = "kHcWK8cH";
+            "file" = "Tellus-fabric-1.20.1-0.8.4.jar";
+            "hash" = "sha512-H1b1FkPq8W8U7/Z1iHfj3Comom93ANoiANwDB+0wUzI9cG6Gyaxke84tw9b+SUNmOO1vGV/KckP+0T129QOz3w==";
+        };
     in {
         "bDcEQ3N0" = _bDcEQ3N0;
         "Rc9iOUvV" = _Rc9iOUvV;
@@ -218,15 +268,27 @@ let
         "wV6WHWlM" = _wV6WHWlM;
         "974M4KCp" = _974M4KCp;
         "TOjEVu5a" = _TOjEVu5a;
-        "fabric-1.21.11" = _TOjEVu5a;
+        "ZmlCCB5E" = _ZmlCCB5E;
+        "6pmjo7n5" = _6pmjo7n5;
+        "UithmYnx" = _UithmYnx;
+        "4jRcuvwc" = _4jRcuvwc;
+        "RW0TPkvS" = _RW0TPkvS;
+        "CRipHLLY" = _CRipHLLY;
+        "xdJ1GBNM" = _xdJ1GBNM;
+        "y4BVzGb3" = _y4BVzGb3;
+        "NiwhXIzR" = _NiwhXIzR;
+        "kHcWK8cH" = _kHcWK8cH;
+        "fabric-1.21.11" = _y4BVzGb3;
         "fabric-26.1.2" = _UhEhQy5G;
-        "fabric-1.21.1" = _wV6WHWlM;
-        "fabric-1.20.1" = _974M4KCp;
-        "fabric-26.2" = _kTGKCyrl;
-        "neoforge-26.2" = _tNI1P3TJ;
-        "neoforge-1.21.1" = _ktBVq1PY;
-        "neoforge-1.21.11" = _TmnO0t4d;
-        "forge-1.20.1" = _R1NzMkMw;
+        "fabric-1.21.1" = _NiwhXIzR;
+        "fabric-1.20.1" = _kHcWK8cH;
+        "fabric-26.2" = _xdJ1GBNM;
+        "fabric-26.3" = _ZmlCCB5E;
+        "neoforge-26.2" = _UithmYnx;
+        "neoforge-1.21.1" = _RW0TPkvS;
+        "neoforge-1.21.11" = _4jRcuvwc;
+        "neoforge-26.3" = _6pmjo7n5;
+        "forge-1.20.1" = _CRipHLLY;
         "pkg-0.4.0" = _bDcEQ3N0;
         "pkg-0.5.0" = _Rc9iOUvV;
         "pkg-0.6.0" = _jHcRkwpW;
@@ -237,7 +299,8 @@ let
         "pkg-0.8.1" = _wvFSB8oA;
         "pkg-0.8.2" = _rvjB99RI;
         "pkg-0.8.3" = _TOjEVu5a;
-        "default" = _TOjEVu5a;
+        "pkg-0.8.4" = _kHcWK8cH;
+        "default" = _kHcWK8cH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tellus";

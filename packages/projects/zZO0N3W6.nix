@@ -146,6 +146,11 @@ let
             "file" = "kilagraph-neoforge-26.3-26.3.1.0.jar";
             "hash" = "sha512-3kE/wCXrtM82kmP06ZPrwiWw3Q3ZlLIV5CyQMwllefdJ2EFpMimE+E1dbnYcTTYzHZHW57Nos59lXIQMTLTbYA==";
         };
+        _Mvv0yKkw = {
+            "id" = "Mvv0yKkw";
+            "file" = "kilagraph-neoforge-26.3-26.3.1.0.1.jar";
+            "hash" = "sha512-VDYGdh/4Jgm6u53AyqTW5nxTJplqKvMO04+gxXLiXt2uQXFFOFD3EDGVkO2TTf7YDi7ywWozjstZudb0QRg3nw==";
+        };
     in {
         "TqCArvs6" = _TqCArvs6;
         "Qz2QKlnk" = _Qz2QKlnk;
@@ -176,12 +181,13 @@ let
         "9VASTARQ" = _9VASTARQ;
         "OcrugalA" = _OcrugalA;
         "61wUtycW" = _61wUtycW;
+        "Mvv0yKkw" = _Mvv0yKkw;
         "neoforge-26.1" = _TqCArvs6;
         "neoforge-26.1.1" = _9VASTARQ;
         "neoforge-26.1.2" = _9VASTARQ;
         "neoforge-1.21.1" = _KwiKbOzM;
         "neoforge-26.2" = _OcrugalA;
-        "neoforge-26.3" = _61wUtycW;
+        "neoforge-26.3" = _Mvv0yKkw;
         "pkg-26.1.0.2" = _TqCArvs6;
         "pkg-mc26.1.x-26.1.0.3-neoforge" = _Qz2QKlnk;
         "pkg-mc26.1.x-26.1.0.4-neoforge" = _AgNBESNB;
@@ -210,7 +216,8 @@ let
         "pkg-mc26.1.x-26.1.0.16.a-neoforge" = _9VASTARQ;
         "pkg-mc26.2-26.2.0.16.a-neoforge" = _OcrugalA;
         "pkg-mc26.3-26.3.1.0-neoforge" = _61wUtycW;
-        "default" = _61wUtycW;
+        "pkg-mc26.3-26.3.1.0.1-neoforge" = _Mvv0yKkw;
+        "default" = _Mvv0yKkw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kilagraph";

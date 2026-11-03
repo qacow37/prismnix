@@ -246,6 +246,51 @@ let
             "file" = "McDonald's Mod v1.4.1 NeoForge (1.21-1.21.1).jar";
             "hash" = "sha512-yYbYLtG6X01g60Nd4s+o5oGOAMhxOs5Th0wtE/pGPQC4/93f7n6aPwZ/Usa+hc+t1Zdfv9FlEDVQB10JvoyVhg==";
         };
+        _qxmAYLDJ = {
+            "id" = "qxmAYLDJ";
+            "file" = "McDonald's Mod v1.4.2 (1.12.2).jar";
+            "hash" = "sha512-Py2009Djm1E5AK3lM1FgZVokz1MYewhU3JjNMy1Cj61CxLxebDD/5lttPHpQ5ffTW7ZMljZVaa2kCYXBeRRHMw==";
+        };
+        _1oRg3Rgr = {
+            "id" = "1oRg3Rgr";
+            "file" = "McDonald's Mod v1.4.2 (1.16.5).jar";
+            "hash" = "sha512-GFWfuOaO8SOCMA5vE3eZQLNHoxiOQ3n82bg94EWI1DQAJ7UZ0uwoyoXKsPijsnXxnyQGyLbBXBRghxC7SXLPxg==";
+        };
+        _A0Ksq2dn = {
+            "id" = "A0Ksq2dn";
+            "file" = "McDonald's Mod v1.4.2 (1.18.2).jar";
+            "hash" = "sha512-aFLHgtR0QP8c9Yu+SguCBJ9SZPv52jpkFKPal51q14lusrPRZRQKtIescHlCNgGuN5F594zeC2O1dS+SQKF9xg==";
+        };
+        _VZzpPM5l = {
+            "id" = "VZzpPM5l";
+            "file" = "McDonald's Mod v1.4.2 (1.19.2).jar";
+            "hash" = "sha512-C67aTawi0CscZUXnxJjR7bH2lP3Cj6+bRFvrtHzNr1YXBFcV8tZKHzTf2nA92HGcsN1m/5XORxeXMQsI27CRpQ==";
+        };
+        _joSw0h1q = {
+            "id" = "joSw0h1q";
+            "file" = "McDonald's Mod v1.4.2 (1.20-1.20.1).jar";
+            "hash" = "sha512-Nuh11i4SO6hmAuLGbYGhuT0T9+JD4jLP0S9H1vsgLn+2LzuQBeMT+WhpP4miuBQikLnuvZr8Z/2MHgsvZLIjpQ==";
+        };
+        _hi3w8HP6 = {
+            "id" = "hi3w8HP6";
+            "file" = "McDonald's Mod v1.4.2 (1.21-1.21.1).jar";
+            "hash" = "sha512-hl25xyKHKfWuaKNlwRkvym/G4FQ++sWySftE8mIOSzpSEfQbzpJDX/eyBlIQtyrkcYFNwBQmTQqt7XO4ScjDcw==";
+        };
+        _lQBpcYw6 = {
+            "id" = "lQBpcYw6";
+            "file" = "McDonald's Mod v1.4.2 Fabric (1.20.1).jar";
+            "hash" = "sha512-N6bjOtULitFPkcbSFY4oMgyM+EiTkxXbGDU5YcZr+bnjUoFxycPJ4eSkHR3MnTO6txq8grVPNboRCRxd1V3tzw==";
+        };
+        _ZyRyIWee = {
+            "id" = "ZyRyIWee";
+            "file" = "McDonald's Mod v1.4.2 Fabric (1.21.1).jar";
+            "hash" = "sha512-6uetbhPjdJqKCd6IKDtDbdjgmGsGVCeOgsjWUk3/9cL1fi9+COOpbjdHRQ9BslbMmiBy1joPeyE37FJCIuo81g==";
+        };
+        _qQqh3hmR = {
+            "id" = "qQqh3hmR";
+            "file" = "McDonald's Mod v1.4.2 NeoForge (1.21-1.21.1).jar";
+            "hash" = "sha512-P3k9pGpQp/ryq1C2ImKoo6TDyZFTOa5O+hBpRAAJ+6NApbkJ24cpR/0pESVUBsuXFqqkNUZmC2vL9OLrJDQvmg==";
+        };
     in {
         "WJhg0oax" = _WJhg0oax;
         "IBshguVO" = _IBshguVO;
@@ -296,26 +341,36 @@ let
         "OcKEWsMX" = _OcKEWsMX;
         "2wVs6ejR" = _2wVs6ejR;
         "FRDDbcmr" = _FRDDbcmr;
-        "forge-1.16.5" = _3RN5i8LC;
-        "forge-1.18.2" = _wFgDOBfX;
-        "forge-1.19.2" = _tUAgCh49;
-        "forge-1.20" = _1UJsE4SV;
-        "forge-1.20.1" = _1UJsE4SV;
-        "forge-1.21" = _kxouWFm5;
-        "forge-1.21.1" = _kxouWFm5;
-        "forge-1.12.2" = _T9kdVr4j;
-        "neoforge-1.21" = _FRDDbcmr;
-        "neoforge-1.21.1" = _FRDDbcmr;
+        "qxmAYLDJ" = _qxmAYLDJ;
+        "1oRg3Rgr" = _1oRg3Rgr;
+        "A0Ksq2dn" = _A0Ksq2dn;
+        "VZzpPM5l" = _VZzpPM5l;
+        "joSw0h1q" = _joSw0h1q;
+        "hi3w8HP6" = _hi3w8HP6;
+        "lQBpcYw6" = _lQBpcYw6;
+        "ZyRyIWee" = _ZyRyIWee;
+        "qQqh3hmR" = _qQqh3hmR;
+        "forge-1.16.5" = _1oRg3Rgr;
+        "forge-1.18.2" = _A0Ksq2dn;
+        "forge-1.19.2" = _VZzpPM5l;
+        "forge-1.20" = _joSw0h1q;
+        "forge-1.20.1" = _joSw0h1q;
+        "forge-1.21" = _hi3w8HP6;
+        "forge-1.21.1" = _hi3w8HP6;
+        "forge-1.12.2" = _qxmAYLDJ;
+        "neoforge-1.21" = _qQqh3hmR;
+        "neoforge-1.21.1" = _qQqh3hmR;
         "fabric-1.21" = _fdmSFPUC;
-        "fabric-1.21.1" = _2wVs6ejR;
-        "fabric-1.20.1" = _OcKEWsMX;
+        "fabric-1.21.1" = _ZyRyIWee;
+        "fabric-1.20.1" = _lQBpcYw6;
         "pkg-1.3.6" = _vuPoZPXt;
         "pkg-1.3.7" = _6qRN2XYu;
         "pkg-1.3.8" = _6f618U70;
         "pkg-1.3.9" = _8Heg9Oib;
         "pkg-1.4.0" = _aXsbcvdZ;
         "pkg-1.4.1" = _FRDDbcmr;
-        "default" = _FRDDbcmr;
+        "pkg-1.4.2" = _qQqh3hmR;
+        "default" = _qQqh3hmR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcdonalds-mod-by-zappyq";

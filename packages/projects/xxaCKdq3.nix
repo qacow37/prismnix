@@ -41,6 +41,11 @@ let
             "file" = "cbc_going_ballistic-0.3.1.jar";
             "hash" = "sha512-SBGoF5uVQ+kBWpT8JueAdXSS2v4gLh5pDtb2nEX6AOA4H1HlWKX1p+QgQov4OXhKFG1m5CYNHRFAooRi2un/TQ==";
         };
+        _D0eUHVAH = {
+            "id" = "D0eUHVAH";
+            "file" = "cbc_going_ballistic-0.3.2.jar";
+            "hash" = "sha512-LJU5n3AcaE2E8Ql8C2DTS0yHngb8/l5Kh8+DzCLQsKW3PN+V7DQcyruAtmGpengMomV+UuLbdWy8i1vN7DJBcQ==";
+        };
     in {
         "lgOPKcn0" = _lgOPKcn0;
         "UOSyKzPr" = _UOSyKzPr;
@@ -50,7 +55,8 @@ let
         "ZXXjIf3z" = _ZXXjIf3z;
         "3KHer3VE" = _3KHer3VE;
         "KPczpdLq" = _KPczpdLq;
-        "neoforge-1.21.1" = _KPczpdLq;
+        "D0eUHVAH" = _D0eUHVAH;
+        "neoforge-1.21.1" = _D0eUHVAH;
         "pkg-0.1.0" = _lgOPKcn0;
         "pkg-0.1.1" = _UOSyKzPr;
         "pkg-0.1.2" = _fG3zu8F0;
@@ -59,7 +65,8 @@ let
         "pkg-0.2.1" = _ZXXjIf3z;
         "pkg-0.3.0" = _3KHer3VE;
         "pkg-0.3.1" = _KPczpdLq;
-        "default" = _KPczpdLq;
+        "pkg-0.3.2" = _D0eUHVAH;
+        "default" = _D0eUHVAH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-big-cannons-going-ballistic";

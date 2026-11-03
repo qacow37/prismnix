@@ -216,6 +216,16 @@ let
             "file" = "cr-compass-ribbon-fabric-2.9.0+26.1.jar";
             "hash" = "sha512-e4a4nJqxJZvlCy1ahy6/vBStt+y71cG1Hvz2Zrud6Ud6ORXvAF+tTHrbsS9GNVEvmf5BH/D0atCAQwXmp0Tl7g==";
         };
+        _OQjTwPUb = {
+            "id" = "OQjTwPUb";
+            "file" = "cr-compass-ribbon-fabric-2.9.0+26.2.jar";
+            "hash" = "sha512-mnecQZqnRH03NyRZr/jqc+SSswfS4S1fEsG+vvpDV8pr0pPsxteqEVcbwNJd8tl3c5u0bYVRK2XBwbKcujiDzw==";
+        };
+        _w41kR1HQ = {
+            "id" = "w41kR1HQ";
+            "file" = "cr-compass-ribbon-fabric-2.9.0+26.3.jar";
+            "hash" = "sha512-qDt1H5PzcFb23bFdHPaqEF1WqFeWbPXD0Y6wWcfBJU0EE7V5GJ9K59/WXwM11hsenTyyb8bQ3mPSaG7e7lZcVg==";
+        };
     in {
         "nSHKtZGa" = _nSHKtZGa;
         "dR3f0VFc" = _dR3f0VFc;
@@ -260,6 +270,8 @@ let
         "ISgthgZp" = _ISgthgZp;
         "SDXQT0GM" = _SDXQT0GM;
         "ijnkcdTu" = _ijnkcdTu;
+        "OQjTwPUb" = _OQjTwPUb;
+        "w41kR1HQ" = _w41kR1HQ;
         "fabric-1.16.5" = _nUeGeWnf;
         "fabric-1.17" = _zvXX0kZy;
         "fabric-1.17.1" = _zvXX0kZy;
@@ -293,6 +305,8 @@ let
         "fabric-26.1" = _ijnkcdTu;
         "fabric-26.1.1" = _ijnkcdTu;
         "fabric-26.1.2" = _ijnkcdTu;
+        "fabric-26.2" = _OQjTwPUb;
+        "fabric-26.3" = _w41kR1HQ;
         "pkg-2.7.2" = _nSHKtZGa;
         "pkg-2.7.3+1.16.5" = _dR3f0VFc;
         "pkg-2.7.3+1.17" = _TWNEuuTr;
@@ -336,7 +350,9 @@ let
         "pkg-2.8.8+1.21.11" = _ISgthgZp;
         "pkg-2.8.8+26.1" = _SDXQT0GM;
         "pkg-2.9.0+26.1" = _ijnkcdTu;
-        "default" = _ijnkcdTu;
+        "pkg-2.9.0+26.2" = _OQjTwPUb;
+        "pkg-2.9.0+26.3" = _w41kR1HQ;
+        "default" = _w41kR1HQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-ribbon";

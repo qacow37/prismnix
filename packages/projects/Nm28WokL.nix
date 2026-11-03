@@ -36,6 +36,11 @@ let
             "file" = "eternal_hunts-0.3.1.jar";
             "hash" = "sha512-rohvIR3rO7vzudw7lzBFw0GNvq/x0FfsDJfbcTIdqjOZtjZiuZEfFF+gSPmb7SuSFRKFbItQJ5YKAI4MWNmL3A==";
         };
+        _9GfUyRGd = {
+            "id" = "9GfUyRGd";
+            "file" = "eternal_hunts-0.3.2.jar";
+            "hash" = "sha512-P4w1PAuZ4Z9z0o2/aEc/egvPj5orXQdvMyeATIZwAgKAWjC/UFEnIzwcqCh9PWGAcwMmB8VJu6NMFLVZhAHnIA==";
+        };
     in {
         "qrRmyUiD" = _qrRmyUiD;
         "8q9ph76B" = _8q9ph76B;
@@ -44,8 +49,9 @@ let
         "fg2FWlmu" = _fg2FWlmu;
         "80VUvT4a" = _80VUvT4a;
         "3LK3iioL" = _3LK3iioL;
+        "9GfUyRGd" = _9GfUyRGd;
         "forge-1.20.1" = _qrRmyUiD;
-        "neoforge-1.21.1" = _3LK3iioL;
+        "neoforge-1.21.1" = _9GfUyRGd;
         "pkg-0.1.0" = _qrRmyUiD;
         "pkg-0.2.1-1.21.1" = _8q9ph76B;
         "pkg-0.2.2-1.21.1" = _9myfvsc9;
@@ -53,7 +59,8 @@ let
         "pkg-0.2.4-1.21.1" = _fg2FWlmu;
         "pkg-0.3.0-1.21.1" = _80VUvT4a;
         "pkg-0.3.1-1.21.1" = _3LK3iioL;
-        "default" = _3LK3iioL;
+        "pkg-0.3.2-1.21.1" = _9GfUyRGd;
+        "default" = _9GfUyRGd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-hunts";

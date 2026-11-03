@@ -131,6 +131,26 @@ let
             "file" = "cheds_realism_mod-1.8-forge-1.20.1-patched-noarg.jar";
             "hash" = "sha512-uFu6SXz514KkBzNbiwV1XFZDEA9KHFfQDcpbHB5CM+zZqvoqVcXm3OuPOfW/Kfi/vaWQ2xQ3NxHv5GFK55SOzA==";
         };
+        _JAh6Rnfk = {
+            "id" = "JAh6Rnfk";
+            "file" = "cheds_realism_mod-1.9-forge-1.20.1.jar";
+            "hash" = "sha512-QWVxmQ3SeQR7lZSk1szhBivtAK6xaHrcOaCdjAiNEpkwL4pHfP8BVmA2eBYCLdcYQV8jB4u+HUn33t0AGS3pUA==";
+        };
+        _Bv7pxc9W = {
+            "id" = "Bv7pxc9W";
+            "file" = "cheds_realism_mod-1.9-neoforge-1.21.1.jar";
+            "hash" = "sha512-CR1Iq8gDYxiVkr+F/DrJZ+ofq/6QzASbzsE8Nwtn0yojb0McvRwWV78IQYgckgG2YBObvhOY1A+65VL38okvKA==";
+        };
+        _y3nHTVt7 = {
+            "id" = "y3nHTVt7";
+            "file" = "cheds_realism_mod-1.9-neoforge-26.1.2.jar";
+            "hash" = "sha512-fUnbhlvJ/eWIp15qWZE4Wd7f53BbrpKhgc1j2o+JDBjh8N3VUNTqwVeg01qPOeVEmmQMfZYIop0Y19vuR6Mwsg==";
+        };
+        _5vzS6DuL = {
+            "id" = "5vzS6DuL";
+            "file" = "cheds_realism_mod-1.9-fabric-26.1.2.jar";
+            "hash" = "sha512-M7dps+drqc3pU9Ipx69/bxi61wNyDecd/1MXooKOxBoz9quCk/NO7XHKDG7YgpaxFfnrykeAPAJHbTgpbnt3Mw==";
+        };
     in {
         "1K3DBcnk" = _1K3DBcnk;
         "nEUtpLYZ" = _nEUtpLYZ;
@@ -158,14 +178,20 @@ let
         "fYuLG7XQ" = _fYuLG7XQ;
         "fcJiPwQS" = _fcJiPwQS;
         "jHbV81TB" = _jHbV81TB;
+        "JAh6Rnfk" = _JAh6Rnfk;
+        "Bv7pxc9W" = _Bv7pxc9W;
+        "y3nHTVt7" = _y3nHTVt7;
+        "5vzS6DuL" = _5vzS6DuL;
         "fabric-1.20.1" = _1K3DBcnk;
         "fabric-1.21.8" = _5cAc0vlh;
         "fabric-1.21.9" = _5cAc0vlh;
         "fabric-1.21.10" = _5cAc0vlh;
         "fabric-1.21.11" = _5cAc0vlh;
-        "neoforge-1.21.1" = _fYuLG7XQ;
+        "fabric-26.1.2" = _5vzS6DuL;
+        "neoforge-1.21.1" = _Bv7pxc9W;
         "neoforge-1.21.8" = _fcJiPwQS;
-        "forge-1.20.1" = _jHbV81TB;
+        "neoforge-26.1.2" = _y3nHTVt7;
+        "forge-1.20.1" = _JAh6Rnfk;
         "pkg-1.0.0" = _UhYc7Av2;
         "pkg-1.1.0" = _CU9wbQnY;
         "pkg-1.1.1" = _sGlAjyw4;
@@ -177,7 +203,8 @@ let
         "pkg-1.7" = _qcDFB4o6;
         "pkg-1.8" = _fcJiPwQS;
         "pkg-1.8.0.1" = _jHbV81TB;
-        "default" = _jHbV81TB;
+        "pkg-1.9" = _5vzS6DuL;
+        "default" = _5vzS6DuL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cheds-realism-mod";

@@ -111,6 +111,41 @@ let
             "file" = "minecart-chain-1.1.3.jar";
             "hash" = "sha512-KjfhCd17hY5ih0t6tfzVSF4JulHVxZmKBt7dmxRkRs9KwKkBG0BPBU6raLt+PupLnBk3ZTZk/dQt0AJktaYdjw==";
         };
+        _i8UJyXF7 = {
+            "id" = "i8UJyXF7";
+            "file" = "minecart-chain-neoforge-1.1.3.jar";
+            "hash" = "sha512-ak14AhCNbB+BbIMQ9ELCIJ9eCIGzse64TMl8Cl9BSXmS18Iooot2TeCcGbSyG1JfpNGQ78bGpIQjKPe9L3ddcg==";
+        };
+        _G9zwTVBw = {
+            "id" = "G9zwTVBw";
+            "file" = "minecart-chain-1.1.3+26.2.jar";
+            "hash" = "sha512-QK/jPqHzZAThcuGoee4OcLa0i/J2MjlHskgX1PP1HkLbRXlGAFDFc+ePMWix0/7MK+7dwNS0Ys3zN1lhsEb5Sw==";
+        };
+        _ubrQUXE7 = {
+            "id" = "ubrQUXE7";
+            "file" = "minecart-chain-neoforge-1.1.3.jar";
+            "hash" = "sha512-k4fibddYV6NWw+nkDcU/7sE29aiBbkkLCPttcaZlBNQAYNAVCA9BGsR9c5YhqW/wlXwyedEIyGXe0czh9Tg4aw==";
+        };
+        _RbmhREHB = {
+            "id" = "RbmhREHB";
+            "file" = "minecart-chain-1.1.3+1.21.11.jar";
+            "hash" = "sha512-NRo4dS47qZj5xCQc2+Pnmu8Ve4OfHA5Z+Fw5CPfrQfxcilrq8LrFRjUyyLavC5wYSySZZXq4/ntxiNLqY93oHQ==";
+        };
+        _juCCskQk = {
+            "id" = "juCCskQk";
+            "file" = "minecart-chain-neoforge-1.1.3.jar";
+            "hash" = "sha512-fXo/jo+/PT/heTFoqDhz/YHMzVUOp3MrjD0/cQe6yXAaBrshyc82MZK9hrByRW+RRtYX9AoaexBN9tnjPEoIpg==";
+        };
+        _85uq7PQT = {
+            "id" = "85uq7PQT";
+            "file" = "minecart-chain-1.1.3+1.21.1.jar";
+            "hash" = "sha512-/WODgKt9IbEknu4x1R7qc8ecYK0ri5nnn8QiZw+I8Sz+8irhXGBLCzakf8Vlu7FK591IVXMk5zUpe8X7vGQKaA==";
+        };
+        _GirA81dC = {
+            "id" = "GirA81dC";
+            "file" = "minecart-chain-neoforge-1.1.3.jar";
+            "hash" = "sha512-6dFPffAU5I6nZnIgPgqRZZw61pLH1u0S084jh0oX2KTyoG7WIcgaRDat8IDN9OG5F0ybOgPjEVqso7/aoSbqhw==";
+        };
     in {
         "lwEy2kdE" = _lwEy2kdE;
         "bZ88HTAS" = _bZ88HTAS;
@@ -134,13 +169,23 @@ let
         "eBcFIMEp" = _eBcFIMEp;
         "VqiTQ5sY" = _VqiTQ5sY;
         "bK51uhZZ" = _bK51uhZZ;
+        "i8UJyXF7" = _i8UJyXF7;
+        "G9zwTVBw" = _G9zwTVBw;
+        "ubrQUXE7" = _ubrQUXE7;
+        "RbmhREHB" = _RbmhREHB;
+        "juCCskQk" = _juCCskQk;
+        "85uq7PQT" = _85uq7PQT;
+        "GirA81dC" = _GirA81dC;
         "fabric-26.1.2" = _k6OHTiNH;
-        "fabric-26.2" = _P9aEXLm9;
-        "fabric-1.21.11" = _vP4QwokP;
+        "fabric-26.2" = _G9zwTVBw;
+        "fabric-1.21.11" = _RbmhREHB;
         "fabric-26.3" = _bK51uhZZ;
+        "fabric-1.21.1" = _85uq7PQT;
         "neoforge-26.1.2" = _HEhtsBYA;
-        "neoforge-26.2" = _eBcFIMEp;
-        "neoforge-1.21.11" = _VqiTQ5sY;
+        "neoforge-26.2" = _ubrQUXE7;
+        "neoforge-1.21.11" = _juCCskQk;
+        "neoforge-26.3" = _i8UJyXF7;
+        "neoforge-1.21.1" = _GirA81dC;
         "pkg-1.0.0" = _lwEy2kdE;
         "pkg-1.0.1" = _bZ88HTAS;
         "pkg-1.0.2" = _dLK23gIo;
@@ -158,8 +203,11 @@ let
         "pkg-1.1.2" = _VqiTQ5sY;
         "pkg-1.1.2+26.2" = _P9aEXLm9;
         "pkg-1.1.2+1.21.11" = _vP4QwokP;
-        "pkg-1.1.3" = _bK51uhZZ;
-        "default" = _bK51uhZZ;
+        "pkg-1.1.3" = _GirA81dC;
+        "pkg-1.1.3+26.2" = _G9zwTVBw;
+        "pkg-1.1.3+1.21.11" = _RbmhREHB;
+        "pkg-1.1.3+1.21.1" = _85uq7PQT;
+        "default" = _GirA81dC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecart-chain";

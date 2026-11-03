@@ -26,24 +26,34 @@ let
             "file" = "simple_durability_tooltip-2.0.0-build1.jar";
             "hash" = "sha512-f4ldjkzxTe0CYUHW6HyRB/b303LkBzUbdzPPFmtVB/MDDLyzF0ggjVcPwhcQnwbXBHr+Nfktaeewhr0CugPIYQ==";
         };
+        _LzWx6F0G = {
+            "id" = "LzWx6F0G";
+            "file" = "simple_durability_tooltip-3.0.0-universal.jar";
+            "hash" = "sha512-7k0zIZrSjMCx37v4baucGSHZ2H4PrgPe88vy0dn4tQyGQ35LiSSRpxnNqwNKnzqN/NgYaAWVSFxeTh7G1wFTpQ==";
+        };
     in {
         "l421yiTU" = _l421yiTU;
         "uo5aGMV2" = _uo5aGMV2;
         "ptRFa8E4" = _ptRFa8E4;
         "uq6P4zhV" = _uq6P4zhV;
         "yYFqL2ux" = _yYFqL2ux;
+        "LzWx6F0G" = _LzWx6F0G;
         "fabric-26.1.1" = _l421yiTU;
         "fabric-26.1.2" = _l421yiTU;
         "fabric-26.2-snapshot-2" = _l421yiTU;
         "fabric-26.2-snapshot-3" = _l421yiTU;
         "fabric-26.2" = _uo5aGMV2;
-        "fabric-26.3" = _yYFqL2ux;
+        "fabric-26.3" = _LzWx6F0G;
+        "forge-26.3" = _LzWx6F0G;
+        "neoforge-26.3" = _LzWx6F0G;
+        "quilt-26.3" = _LzWx6F0G;
         "pkg-1.0.0" = _l421yiTU;
         "pkg-26.2-1.0.0" = _uo5aGMV2;
         "pkg-1.0.0-build1" = _ptRFa8E4;
         "pkg-1.0.1-build1" = _uq6P4zhV;
         "pkg-2.0.0-build1" = _yYFqL2ux;
-        "default" = _yYFqL2ux;
+        "pkg-3.0.0" = _LzWx6F0G;
+        "default" = _LzWx6F0G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yet_another_durability_tooltip";

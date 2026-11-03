@@ -61,6 +61,21 @@ let
             "file" = "testosterone-2.0.4.jar";
             "hash" = "sha512-XS4u1XdCSx8FsaezxVnXYqP0Vnazbfb768f7iae0uk93FgjV7rrB1oBXrocc26PIQ5KuOqi1v6Et+y+uXAwLsw==";
         };
+        _qUoydIyj = {
+            "id" = "qUoydIyj";
+            "file" = "testosterone-2.0.2.jar";
+            "hash" = "sha512-Wpxh4td5Ffw9nzeo1/QFVw4gZhqShPDVbxRPue0nAmnaT080K9MG8xui6FFOokZJ9/gXoO/LO8xm3UCYNE3e2g==";
+        };
+        _FgV2O5sW = {
+            "id" = "FgV2O5sW";
+            "file" = "testosterone-2.0.5.jar";
+            "hash" = "sha512-QdN1p4OVp3t3j2ku4xTJ5CKsQUf2LxU5LkGtlumMlapiCxallq3Xsmp5n5bfroMpajtIuhbfRaWcTgF8iVPjlA==";
+        };
+        _Kyv8FZGs = {
+            "id" = "Kyv8FZGs";
+            "file" = "testosterone-2.1.2.jar";
+            "hash" = "sha512-R96iT2/Hnuo4s0e7JMjvrO+TP5abQVPDOnpIfJLDecsmusQaC+SR082HuDzmiGGOW9ITkBSoLJhLZWcgh2/9Ug==";
+        };
     in {
         "YJrZq9tZ" = _YJrZq9tZ;
         "lK8du9TF" = _lK8du9TF;
@@ -74,9 +89,12 @@ let
         "TzklReJc" = _TzklReJc;
         "rxacUPqq" = _rxacUPqq;
         "Oi03R8jv" = _Oi03R8jv;
-        "forge-1.20.1" = _SV2wPb17;
-        "neoforge-1.21.1" = _rxacUPqq;
-        "fabric-1.20.1" = _Oi03R8jv;
+        "qUoydIyj" = _qUoydIyj;
+        "FgV2O5sW" = _FgV2O5sW;
+        "Kyv8FZGs" = _Kyv8FZGs;
+        "forge-1.20.1" = _qUoydIyj;
+        "neoforge-1.21.1" = _Kyv8FZGs;
+        "fabric-1.20.1" = _FgV2O5sW;
         "pkg-1.0.0" = _YJrZq9tZ;
         "pkg-1.0.1" = _lK8du9TF;
         "pkg-1.0.2" = _5U8oKkGp;
@@ -89,7 +107,10 @@ let
         "pkg-2.0.3-fabric" = _TzklReJc;
         "pkg-2.1.1" = _rxacUPqq;
         "pkg-2.0.4-fabric" = _Oi03R8jv;
-        "default" = _Oi03R8jv;
+        "pkg-Forge-2.0.2-1.20.1" = _qUoydIyj;
+        "pkg-Fabric-2.0.5-1.20.1" = _FgV2O5sW;
+        "pkg-Neoforge-2.1.2-1.21.1" = _Kyv8FZGs;
+        "default" = _Kyv8FZGs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "testosterone";

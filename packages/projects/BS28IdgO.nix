@@ -76,6 +76,11 @@ let
             "file" = "fabric-elytra-autopilot-26.2-3.6.0.jar";
             "hash" = "sha512-NvLwuEAYC9BsYnN8vpwD6FPZIvahlFg8fED2uTQZJE3oSuRLeiy6Coagvdcdx5JkyLqFWdS0G28MtF2uxqCXqw==";
         };
+        _PUE2wpDm = {
+            "id" = "PUE2wpDm";
+            "file" = "fabric-elytra-autopilot-26.3-3.7.0.jar";
+            "hash" = "sha512-v/kqr9FJGHQyG/s3giB3YKAzKYsb/HJpWe8BpadfL2prnV702OS+WIhN7bCiX8iRm0Ru5Lbc/oxkiIr/vHjymA==";
+        };
     in {
         "HY4WwwwD" = _HY4WwwwD;
         "1IpQ5F6M" = _1IpQ5F6M;
@@ -92,6 +97,7 @@ let
         "SJgaoiIq" = _SJgaoiIq;
         "DOEds9WJ" = _DOEds9WJ;
         "3Sv7n7N0" = _3Sv7n7N0;
+        "PUE2wpDm" = _PUE2wpDm;
         "fabric-1.21" = _1IpQ5F6M;
         "fabric-1.21.1" = _1IpQ5F6M;
         "fabric-1.21.4" = _DdmlpN19;
@@ -106,6 +112,7 @@ let
         "fabric-26.1.1" = _SJgaoiIq;
         "fabric-26.1.2" = _SJgaoiIq;
         "fabric-26.2" = _3Sv7n7N0;
+        "fabric-26.3" = _PUE2wpDm;
         "pkg-3.0.0" = _HY4WwwwD;
         "pkg-3.0.1" = _1IpQ5F6M;
         "pkg-3.1.0" = _fBzK2Jr9;
@@ -120,7 +127,8 @@ let
         "pkg-3.5.0" = _SJgaoiIq;
         "pkg-3.5.1" = _DOEds9WJ;
         "pkg-3.6.0" = _3Sv7n7N0;
-        "default" = _3Sv7n7N0;
+        "pkg-3.7.0" = _PUE2wpDm;
+        "default" = _PUE2wpDm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-autopilot";

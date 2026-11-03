@@ -26,19 +26,26 @@ let
             "file" = "verticalchainconveyors-1.21.1-1.3.0.jar";
             "hash" = "sha512-BSaAGwgk+fSduPHV0A1a9aUmhRgzLrMgfsMKtfKFcD0/ibXmQpwDKm6b2ToEU5QOvTCZLFt+S71xSZaHb0Q4ig==";
         };
+        _3eciYPMy = {
+            "id" = "3eciYPMy";
+            "file" = "verticalchainconveyors-1.21.1-1.3.1.jar";
+            "hash" = "sha512-EHeUx1NaWAj9E9OxrtjSOuMJY2vwD3LHf5nAyfN+5gpAeFKpZEpUFrrf9Jx8ilqEW4pzJcmvtxEkQhG292o8DQ==";
+        };
     in {
         "6g6v4f08" = _6g6v4f08;
         "2EjoI9Ba" = _2EjoI9Ba;
         "4oFU7fLg" = _4oFU7fLg;
         "l79E3HZF" = _l79E3HZF;
         "gHYRNYEg" = _gHYRNYEg;
-        "neoforge-1.21.1" = _gHYRNYEg;
+        "3eciYPMy" = _3eciYPMy;
+        "neoforge-1.21.1" = _3eciYPMy;
         "pkg-1.0.0" = _6g6v4f08;
         "pkg-1.1.0" = _2EjoI9Ba;
         "pkg-1.2.0" = _4oFU7fLg;
         "pkg-1.2.1" = _l79E3HZF;
         "pkg-1.3.0" = _gHYRNYEg;
-        "default" = _gHYRNYEg;
+        "pkg-1.3.1" = _3eciYPMy;
+        "default" = _3eciYPMy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-vertical-chain-conveyors";

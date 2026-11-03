@@ -31,6 +31,11 @@ let
             "file" = "flashLight-2.0.1.jar";
             "hash" = "sha512-OO6zMa0OGg+2TfkqmNGGJBRtoAiq1Vjo4rTyHsXHpTZSL78r2dU7B/FQ/A9ram7nH86vKPWGMz3uSr03phpO9Q==";
         };
+        _DpN6mpE7 = {
+            "id" = "DpN6mpE7";
+            "file" = "simpleFlashlight-3.2.7.jar";
+            "hash" = "sha512-JhhwDxkB3u1LmoKxrP52+1zoQYDGqf3Ljtj1YB8kyXLBB1GW70Mr37V3Vxo4IP4u3wIaFtG3hW3t6q8PkcI0+Q==";
+        };
     in {
         "zFn1gavP" = _zFn1gavP;
         "cD6B33gO" = _cD6B33gO;
@@ -38,7 +43,8 @@ let
         "XqFCe9zp" = _XqFCe9zp;
         "snBldBZY" = _snBldBZY;
         "rTZ2uJFs" = _rTZ2uJFs;
-        "forge-1.12.2" = _zFn1gavP;
+        "DpN6mpE7" = _DpN6mpE7;
+        "forge-1.12.2" = _DpN6mpE7;
         "forge-1.16.5" = _cD6B33gO;
         "forge-1.18.2" = _E0MrfvK1;
         "forge-1.19" = _snBldBZY;
@@ -46,7 +52,8 @@ let
         "pkg-2.0.0" = _zFn1gavP;
         "pkg-2.0.1" = _rTZ2uJFs;
         "pkg-2.0.2" = _snBldBZY;
-        "default" = _rTZ2uJFs;
+        "pkg-3.2.7" = _DpN6mpE7;
+        "default" = _DpN6mpE7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashlight";

@@ -656,6 +656,61 @@ let
             "file" = "spookydoors-neoforge-1.21.1-21.1.14.jar";
             "hash" = "sha512-QsIkJFVnOf4prSr2LZrFZLEUy5H/wvS+CJaRZda3cfykXa+elI536ISQZn6qrURRM89ANFzBE1qTsPK05kxMkw==";
         };
+        _5tk8zLOZ = {
+            "id" = "5tk8zLOZ";
+            "file" = "spookydoors-fabric-26.2-26.2.0.8.jar";
+            "hash" = "sha512-7FlJHLI3lvOfcfjqmcDf5KHBJg2Y7iuvCLqJVi7R4VktSFH9KLA5FmosXJ/UhDbeEv/okoDRlOic3xtBr/W3qg==";
+        };
+        _zrCYg6xF = {
+            "id" = "zrCYg6xF";
+            "file" = "spookydoors-fabric-1.20.1-20.1.14.jar";
+            "hash" = "sha512-cDLq1TlaaxuDpXJqko76r2nhu39Y5ICt9LpkJFUW8NYQ/naqCY3zHz+E+CTeX36gI3z+oSDmmAN28QdfYchfwA==";
+        };
+        _xQsVvBKj = {
+            "id" = "xQsVvBKj";
+            "file" = "spookydoors-neoforge-26.2-26.2.0.8.jar";
+            "hash" = "sha512-Qj+yHyJlcELCuBIp793D83tgSa7XyCdcVPZXVWEwYq8MbsGi9TImwj2wsKHAStAQ9rL8TEfUXp08THps2N7lvQ==";
+        };
+        _cZIvRa9G = {
+            "id" = "cZIvRa9G";
+            "file" = "spookydoors-neoforge-26.1.2-26.1.0.8.jar";
+            "hash" = "sha512-SkOboxNGs2GKrcAA8sA425GMs1WLAboNgoYXhuqMdMZ9iQFHrQJz9mNB3b6VZNakQas3y9jeAgq+majqvWgIBQ==";
+        };
+        _3IXMghyx = {
+            "id" = "3IXMghyx";
+            "file" = "spookydoors-fabric-26.1.2-26.1.0.8.jar";
+            "hash" = "sha512-0oWQ60lRstJLpx0PJVy5qaSinKrPXIFx+gyxP+dyreZJ9lsktCA6pLLhEZc7Bg453J+Pco0nsxEyD9nKh37Lag==";
+        };
+        _eUgdsrPK = {
+            "id" = "eUgdsrPK";
+            "file" = "spookydoors-forge-1.20.1-20.1.14.jar";
+            "hash" = "sha512-QvqXxLDF8eqRdBZTUJnkL+Bz5J6E3NTXYT9T3IP834/DfpsjCpauRE4tpMtGj/1w9W2JZLrKSlbRpYvVckPdvA==";
+        };
+        _TE6M2Q8O = {
+            "id" = "TE6M2Q8O";
+            "file" = "spookydoors-fabric-26.3-26.3.0.2.jar";
+            "hash" = "sha512-FZGTkK47tusyp5hbvuTSWegqiIzNa1C0uvaqIwojub/E76jSI55XJogAfpev6hptWZ4p/Zu8kaKLEiDPupE3OA==";
+        };
+        _E2Fa2tzK = {
+            "id" = "E2Fa2tzK";
+            "file" = "spookydoors-neoforge-26.3-26.3.0.2.jar";
+            "hash" = "sha512-TuvXOXE7ga6iqqGhuD+NQ2xGFGvurDhWh5K+lo54s4OhTeLUMqljVidzDTh48mBjd3z547Xnz6loQYIZ5ay1Tw==";
+        };
+        _C5yqOgcp = {
+            "id" = "C5yqOgcp";
+            "file" = "spookydoors-fabric-1.21.1-21.1.15.jar";
+            "hash" = "sha512-cospTtg9kbX9mLRD+wLPIPeAeXustlXQEmnFv6/wMz6o5GgjhDe6DhscQwdkeHWEJdEaIOaSWwVwvk8gmQykFQ==";
+        };
+        _5D0R1tMH = {
+            "id" = "5D0R1tMH";
+            "file" = "spookydoors-neoforge-1.21.1-21.1.15.jar";
+            "hash" = "sha512-DENLUutsbTOlWRrtMaM0XwHs6XARoOXVUO/77N1DuHvtqx2gggk2HNiMt+asKqLubNkRvCxLIBYK54iZx21lVA==";
+        };
+        _pQHCEKtk = {
+            "id" = "pQHCEKtk";
+            "file" = "spookydoors-forge-1.21.1-21.1.15.jar";
+            "hash" = "sha512-tT3U1jZdSHnpi5PD5afNchXj5oLYjotykfTrXJbdYClykRRNn4p6PrLdRnaIUDvOLViuEv9+C0gwBmw+XhhQwQ==";
+        };
     in {
         "1KqXVPWm" = _1KqXVPWm;
         "LNFFJ32V" = _LNFFJ32V;
@@ -788,10 +843,21 @@ let
         "k4HJJaUE" = _k4HJJaUE;
         "FoOXZcbK" = _FoOXZcbK;
         "wn7ONwoH" = _wn7ONwoH;
-        "fabric-1.20" = _UiUFSxVA;
-        "fabric-1.20.1" = _UiUFSxVA;
+        "5tk8zLOZ" = _5tk8zLOZ;
+        "zrCYg6xF" = _zrCYg6xF;
+        "xQsVvBKj" = _xQsVvBKj;
+        "cZIvRa9G" = _cZIvRa9G;
+        "3IXMghyx" = _3IXMghyx;
+        "eUgdsrPK" = _eUgdsrPK;
+        "TE6M2Q8O" = _TE6M2Q8O;
+        "E2Fa2tzK" = _E2Fa2tzK;
+        "C5yqOgcp" = _C5yqOgcp;
+        "5D0R1tMH" = _5D0R1tMH;
+        "pQHCEKtk" = _pQHCEKtk;
+        "fabric-1.20" = _zrCYg6xF;
+        "fabric-1.20.1" = _zrCYg6xF;
         "fabric-1.21" = _6Z32Hule;
-        "fabric-1.21.1" = _k4HJJaUE;
+        "fabric-1.21.1" = _C5yqOgcp;
         "fabric-1.21.4" = _VTohVjIW;
         "fabric-1.21.5" = _Qc87eE2z;
         "fabric-1.21.6" = _XAPh5j1C;
@@ -799,13 +865,13 @@ let
         "fabric-1.21.8" = _oy2YK1Gp;
         "fabric-1.21.9" = _IrV5d6Y8;
         "fabric-1.21.10" = _fqNc4kX3;
-        "fabric-26.1.2" = _oovcOxl7;
-        "fabric-26.2" = _sy7y8BXW;
-        "fabric-26.3" = _N9s3eJVk;
-        "forge-1.20" = _fbJTcL2O;
-        "forge-1.20.1" = _fbJTcL2O;
+        "fabric-26.1.2" = _3IXMghyx;
+        "fabric-26.2" = _5tk8zLOZ;
+        "fabric-26.3" = _TE6M2Q8O;
+        "forge-1.20" = _eUgdsrPK;
+        "forge-1.20.1" = _eUgdsrPK;
         "forge-1.21" = _EtoGcnV6;
-        "forge-1.21.1" = _FoOXZcbK;
+        "forge-1.21.1" = _pQHCEKtk;
         "forge-1.21.4" = _h2Q9m6f8;
         "forge-1.21.5" = _TNftvEv0;
         "forge-1.21.6" = _iEccNHb1;
@@ -813,7 +879,7 @@ let
         "forge-1.21.8" = _7xdZ6y1J;
         "forge-1.21.10" = _xc8iWcmM;
         "neoforge-1.21" = _eyzkfDxm;
-        "neoforge-1.21.1" = _wn7ONwoH;
+        "neoforge-1.21.1" = _5D0R1tMH;
         "neoforge-1.21.4" = _b31oJxmD;
         "neoforge-1.21.5" = _aeLED1Sa;
         "neoforge-1.21.6" = _U4KASrTX;
@@ -821,9 +887,9 @@ let
         "neoforge-1.21.8" = _R2R5qsMs;
         "neoforge-1.21.9" = _30HkN6k1;
         "neoforge-1.21.10" = _xYOoVVll;
-        "neoforge-26.1.2" = _dvwFFHpw;
-        "neoforge-26.2" = _vIu3sEZ8;
-        "neoforge-26.3" = _rIzvyRKf;
+        "neoforge-26.1.2" = _cZIvRa9G;
+        "neoforge-26.2" = _xQsVvBKj;
+        "neoforge-26.3" = _E2Fa2tzK;
         "pkg-20.1.1+fabric-1.20.1" = _1KqXVPWm;
         "pkg-20.1.1+forge-1.20.1" = _LNFFJ32V;
         "pkg-21.1.1+fabric-1.21.1" = _ClwJnuXe;
@@ -955,7 +1021,18 @@ let
         "pkg-21.1.14+fabric-1.21.1" = _k4HJJaUE;
         "pkg-21.1.14+forge-1.21.1" = _FoOXZcbK;
         "pkg-21.1.14+neoforge-1.21.1" = _wn7ONwoH;
-        "default" = _wn7ONwoH;
+        "pkg-26.2.0.8+fabric-26.2" = _5tk8zLOZ;
+        "pkg-20.1.14+fabric-1.20.1" = _zrCYg6xF;
+        "pkg-26.2.0.8+neoforge-26.2" = _xQsVvBKj;
+        "pkg-26.1.0.8+neoforge-26.1.2" = _cZIvRa9G;
+        "pkg-26.1.0.8+fabric-26.1.2" = _3IXMghyx;
+        "pkg-20.1.14+forge-1.20.1" = _eUgdsrPK;
+        "pkg-26.3.0.2+fabric-26.3" = _TE6M2Q8O;
+        "pkg-26.3.0.2+neoforge-26.3" = _E2Fa2tzK;
+        "pkg-21.1.15+fabric-1.21.1" = _C5yqOgcp;
+        "pkg-21.1.15+neoforge-1.21.1" = _5D0R1tMH;
+        "pkg-21.1.15+forge-1.21.1" = _pQHCEKtk;
+        "default" = _pQHCEKtk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spooky-doors";

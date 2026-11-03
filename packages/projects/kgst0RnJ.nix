@@ -51,6 +51,26 @@ let
             "file" = "pokebelt-0.1.3.jar";
             "hash" = "sha512-ISU1syid89EK/GYPTX30fFW9WK3GE7jEyINCqn7BsTgb1o/8GK1joJlpHp6xzjgVaojYU6haqRWExSuH4E8jbA==";
         };
+        _n5PH7alx = {
+            "id" = "n5PH7alx";
+            "file" = "pokebelt-0.1.4.jar";
+            "hash" = "sha512-UrZ0f3oH+Ms28HYgowT94Zp5r4U+56dv2XZPY18bmKcqFjuqEW89tTKAtrgODEhhTwkBuTitPvZPd28IQPiAfA==";
+        };
+        _6kQqJjq0 = {
+            "id" = "6kQqJjq0";
+            "file" = "pokebelt-0.1.4.jar";
+            "hash" = "sha512-UrZ0f3oH+Ms28HYgowT94Zp5r4U+56dv2XZPY18bmKcqFjuqEW89tTKAtrgODEhhTwkBuTitPvZPd28IQPiAfA==";
+        };
+        _zfkFSw53 = {
+            "id" = "zfkFSw53";
+            "file" = "pokebelt-0.1.5.jar";
+            "hash" = "sha512-zuYtDN7nbyAB+dU7efjtq7qBEeOCWwRRSTWRMaeQ1bBTz1SNFouAtMpFQqLSjaebG0N22DhyrhUDdXBUQCYXAQ==";
+        };
+        _vsMq1Xas = {
+            "id" = "vsMq1Xas";
+            "file" = "pokebelt-0.1.5.jar";
+            "hash" = "sha512-zuYtDN7nbyAB+dU7efjtq7qBEeOCWwRRSTWRMaeQ1bBTz1SNFouAtMpFQqLSjaebG0N22DhyrhUDdXBUQCYXAQ==";
+        };
     in {
         "CEKBgeEn" = _CEKBgeEn;
         "lFUzP91v" = _lFUzP91v;
@@ -62,8 +82,12 @@ let
         "BMZo4p01" = _BMZo4p01;
         "9Fj2wUSx" = _9Fj2wUSx;
         "b2h1pqrc" = _b2h1pqrc;
-        "fabric-1.21.1" = _9Fj2wUSx;
-        "neoforge-1.21.1" = _b2h1pqrc;
+        "n5PH7alx" = _n5PH7alx;
+        "6kQqJjq0" = _6kQqJjq0;
+        "zfkFSw53" = _zfkFSw53;
+        "vsMq1Xas" = _vsMq1Xas;
+        "fabric-1.21.1" = _zfkFSw53;
+        "neoforge-1.21.1" = _vsMq1Xas;
         "pkg-Pokebelt-0.0.1" = _CEKBgeEn;
         "pkg-0.0.7" = _lFUzP91v;
         "pkg-0.0.8" = _boTKs3Ma;
@@ -72,7 +96,9 @@ let
         "pkg-0.1.0" = _6BCT9c6x;
         "pkg-0.1.2" = _BMZo4p01;
         "pkg-0.1.3" = _b2h1pqrc;
-        "default" = _b2h1pqrc;
+        "pkg-0.1.4" = _6kQqJjq0;
+        "pkg-0.1.5" = _vsMq1Xas;
+        "default" = _vsMq1Xas;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokebelt-cobblemon";

@@ -16,18 +16,26 @@ let
             "file" = "Aquaculture2LavaFishingAddon-26.1.1-1.0.0.jar";
             "hash" = "sha512-xNKKyZS/q5OIUz9WeRyw+sEEnljpCpiO13B0MHQr86NWNcf67+ssotKe95/LNWlv3TPxIc+4ST00yFzJOKr18Q==";
         };
+        _rCdHysyU = {
+            "id" = "rCdHysyU";
+            "file" = "Aquaculture2LavaFishingAddon-26.2-1.0.0.jar";
+            "hash" = "sha512-28kF6ZuECR0jqfS+KhS6aBZXhSsLF/L3WBiPeXQxxEMpA5XD7eyiIwFPBiJf1vBOEMZnJ4s46QiYlw5X2wEzIw==";
+        };
     in {
         "8BJZsbEo" = _8BJZsbEo;
         "TczTBPN4" = _TczTBPN4;
         "R9EUM5vi" = _R9EUM5vi;
+        "rCdHysyU" = _rCdHysyU;
         "neoforge-1.21.1" = _8BJZsbEo;
         "neoforge-1.21.10" = _TczTBPN4;
         "neoforge-1.21.11" = _TczTBPN4;
         "neoforge-26.1" = _R9EUM5vi;
         "neoforge-26.1.1" = _R9EUM5vi;
         "neoforge-26.1.2" = _R9EUM5vi;
-        "pkg-1.0.0" = _R9EUM5vi;
-        "default" = _R9EUM5vi;
+        "neoforge-26.2" = _rCdHysyU;
+        "neoforge-26.3" = _rCdHysyU;
+        "pkg-1.0.0" = _rCdHysyU;
+        "default" = _rCdHysyU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquaculture-2-lava-fishing-addon";

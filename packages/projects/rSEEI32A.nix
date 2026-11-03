@@ -66,6 +66,11 @@ let
             "file" = "lock-end-3.0.2.jar";
             "hash" = "sha512-91QsIbnen4/6Mn6gM8E+4ID2nwltmzbFDeGAgtMqUM64T7e+fcyXzNlEnx4K74Y1yEKOXPTARsrulosjVkbhPg==";
         };
+        _EvRoxK4g = {
+            "id" = "EvRoxK4g";
+            "file" = "lock-end-3.1.0.jar";
+            "hash" = "sha512-sp5QkMGMlaSzm7EljVFudNbl2g8HHbOpXTFgZljQzOyQSDmKNKX0DrqYPgkaFTZZBTJMvzAJF3zpaxeutZUEGg==";
+        };
     in {
         "icsb9Zlf" = _icsb9Zlf;
         "WyE5swss" = _WyE5swss;
@@ -80,6 +85,7 @@ let
         "n5jk2JE9" = _n5jk2JE9;
         "I1lKqnYU" = _I1lKqnYU;
         "kOFXaeN2" = _kOFXaeN2;
+        "EvRoxK4g" = _EvRoxK4g;
         "bukkit-1.20" = _icsb9Zlf;
         "bukkit-1.20.1" = _icsb9Zlf;
         "bukkit-1.20.2" = _icsb9Zlf;
@@ -126,7 +132,7 @@ let
         "paper-26.1.2" = _2epWi8bB;
         "paper-26.2-rc-2" = _WyE5swss;
         "paper-26.2" = _J132mAO8;
-        "paper-26.3" = _kOFXaeN2;
+        "paper-26.3" = _EvRoxK4g;
         "purpur-1.20" = _icsb9Zlf;
         "purpur-1.20.1" = _icsb9Zlf;
         "purpur-1.20.2" = _icsb9Zlf;
@@ -150,7 +156,7 @@ let
         "purpur-26.1.2" = _2epWi8bB;
         "purpur-26.2-rc-2" = _WyE5swss;
         "purpur-26.2" = _J132mAO8;
-        "purpur-26.3" = _kOFXaeN2;
+        "purpur-26.3" = _EvRoxK4g;
         "spigot-1.20" = _icsb9Zlf;
         "spigot-1.20.1" = _icsb9Zlf;
         "spigot-1.20.2" = _icsb9Zlf;
@@ -178,7 +184,7 @@ let
         "folia-26.1.2" = _2epWi8bB;
         "folia-26.2-rc-2" = _WyE5swss;
         "folia-26.2" = _yA1aDxEp;
-        "folia-26.3" = _kOFXaeN2;
+        "folia-26.3" = _EvRoxK4g;
         "pkg-1.0.0" = _icsb9Zlf;
         "pkg-1.1.0" = _WyE5swss;
         "pkg-1.2" = _kHKBs3qa;
@@ -192,7 +198,8 @@ let
         "pkg-2.1.0" = _n5jk2JE9;
         "pkg-3.0.0" = _I1lKqnYU;
         "pkg-3.0.2" = _kOFXaeN2;
-        "default" = _kOFXaeN2;
+        "pkg-3.1.0" = _EvRoxK4g;
+        "default" = _EvRoxK4g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lock-end";

@@ -1486,6 +1486,31 @@ let
             "file" = "AdditionalEnchantedMiner-1.21.1-neoforge-21.1.165.jar";
             "hash" = "sha512-7bttNLVITxo9QcsRsKZ9/adEnMvMukt17xirx+iSNnksNcx7LL1XD8CLRdBCRSX6U/Q3lO2TCeHo51N+wtt8XA==";
         };
+        _AfkSutAi = {
+            "id" = "AfkSutAi";
+            "file" = "AdditionalEnchantedMiner-26.3-fabric-26.30.166.jar";
+            "hash" = "sha512-swXHa469tTj63fxSz75cNEwejC3hCp26aVxGBTeaevpWrCi4mertvDMv+f7/6c8HKhXkxKNbu11fx9OKvSh0Ww==";
+        };
+        _gBftHCK9 = {
+            "id" = "gBftHCK9";
+            "file" = "AdditionalEnchantedMiner-26.3-forge-26.30.166.jar";
+            "hash" = "sha512-zFNK/PO1tX69XEN+KV+shNRxuEvJEe2syYqWvLTMeEGCoz9pCOC1JTtNs9Rwp+Fu8AzoSjlFo8CSgQ48xupBeQ==";
+        };
+        _XKcYYKXY = {
+            "id" = "XKcYYKXY";
+            "file" = "AdditionalEnchantedMiner-26.3-neoforge-26.30.166.jar";
+            "hash" = "sha512-qHfEx1A5+1pYQrlkU1E0bkl6dYctegTkzxXq8wXNVogikSJH4wG5tf5Xn6DUAss/cP1ZESIkk68PVLMUFstkiQ==";
+        };
+        _zzvT2I3V = {
+            "id" = "zzvT2I3V";
+            "file" = "AdditionalEnchantedMiner-1.19.2-1192.4.168.jar";
+            "hash" = "sha512-GpfnEIW0TvopKi95Fnqx8lJjb6rZ0a59/QRT+ql+hU7Mf3G55dOP/lnKM3/uIZ/ExleG0uHt+jlTzaOnGHblpg==";
+        };
+        _S2QmMWrS = {
+            "id" = "S2QmMWrS";
+            "file" = "AdditionalEnchantedMiner-1.19.2-1192.4.169.jar";
+            "hash" = "sha512-oJeRyoHLZEqBAtt9909+TIetHeG+jvlMa2IoT3K+7OH9EYSHZ9LAbbGUceayISX0egSxNMI/SlnAGbGSexQDIQ==";
+        };
     in {
         "WAlScL50" = _WAlScL50;
         "l6GZuMkU" = _l6GZuMkU;
@@ -1784,6 +1809,11 @@ let
         "iugcECVf" = _iugcECVf;
         "PT3N5mEw" = _PT3N5mEw;
         "zmHh2LIQ" = _zmHh2LIQ;
+        "AfkSutAi" = _AfkSutAi;
+        "gBftHCK9" = _gBftHCK9;
+        "XKcYYKXY" = _XKcYYKXY;
+        "zzvT2I3V" = _zzvT2I3V;
+        "S2QmMWrS" = _S2QmMWrS;
         "fabric-1.19.4" = _WAlScL50;
         "fabric-1.20.1" = _usnMi65u;
         "fabric-1.19.2" = _gQGtSz8O;
@@ -1800,7 +1830,8 @@ let
         "fabric-1.21.11" = _mAb8ic6J;
         "fabric-26.1.2" = _5P0gjusE;
         "fabric-26.2" = _6WNWO4BC;
-        "forge-1.19.2" = _Ovr404PH;
+        "fabric-26.3" = _AfkSutAi;
+        "forge-1.19.2" = _S2QmMWrS;
         "forge-1.19.4" = _I0LlfiaA;
         "forge-1.12.2" = _kp5ymDWS;
         "forge-1.20" = _BNBPNQWg;
@@ -1820,6 +1851,7 @@ let
         "forge-1.21.11" = _r2Y9HFA0;
         "forge-26.1.2" = _v4alykUs;
         "forge-26.2" = _ZBIFSLpw;
+        "forge-26.3" = _gBftHCK9;
         "neoforge-1.20.2" = _iBlwTBbg;
         "neoforge-1.20.4" = _MKF4yhEE;
         "neoforge-1.21" = _1EkjSNDg;
@@ -1833,6 +1865,7 @@ let
         "neoforge-1.21.11" = _3yEVXmRT;
         "neoforge-26.1.2" = _mK5rX5za;
         "neoforge-26.2" = _J1DY336I;
+        "neoforge-26.3" = _XKcYYKXY;
         "pkg-19.4.0" = _WAlScL50;
         "pkg-1192.1.0" = _l6GZuMkU;
         "pkg-1194.1.0" = _evJRhKCb;
@@ -1982,7 +2015,10 @@ let
         "pkg-21.11.163" = _3yEVXmRT;
         "pkg-21.1.164" = _p0XlQYuL;
         "pkg-21.1.165" = _zmHh2LIQ;
-        "default" = _zmHh2LIQ;
+        "pkg-26.30.166" = _XKcYYKXY;
+        "pkg-1192.4.168" = _zzvT2I3V;
+        "pkg-1192.4.169" = _S2QmMWrS;
+        "default" = _S2QmMWrS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "additional-enchanted-miner";

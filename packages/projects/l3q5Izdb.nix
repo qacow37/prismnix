@@ -46,6 +46,11 @@ let
             "file" = "challenge-1.2.0.jar";
             "hash" = "sha512-bdmHH0wx7NFaqKkyAJOgxVe3MOOiAneRfVgUixswyNn2vxCp/sV+a3fmVQvfvpetn7hbGsHyVSeNbt/p5lHBgQ==";
         };
+        _nveVtGsJ = {
+            "id" = "nveVtGsJ";
+            "file" = "challenge-1.3.0.jar";
+            "hash" = "sha512-ZPPJMOgoepqZGfl5f/iOdyI+SeDp9u6bfZhvtHe9UKs/gadA5CPSDqXL9FhuIe3KTFkd48F7+S90tIjco5s9fg==";
+        };
     in {
         "EYhV55MS" = _EYhV55MS;
         "brr6pCwZ" = _brr6pCwZ;
@@ -56,6 +61,7 @@ let
         "9EakNY2j" = _9EakNY2j;
         "2ShAkhk2" = _2ShAkhk2;
         "ZnzEvATK" = _ZnzEvATK;
+        "nveVtGsJ" = _nveVtGsJ;
         "fabric-1.21.1" = _9EakNY2j;
         "fabric-1.21.2" = _9EakNY2j;
         "fabric-1.21.3" = _9EakNY2j;
@@ -71,6 +77,7 @@ let
         "fabric-26.1.1" = _2ShAkhk2;
         "fabric-26.1.2" = _2ShAkhk2;
         "fabric-26.2" = _ZnzEvATK;
+        "fabric-26.3" = _nveVtGsJ;
         "pkg-1.0.0" = _EYhV55MS;
         "pkg-1.1.0" = _brr6pCwZ;
         "pkg-1.1.1" = _7Rf7goRb;
@@ -78,7 +85,8 @@ let
         "pkg-1.1.3" = _9EakNY2j;
         "pkg-1.1.4" = _2ShAkhk2;
         "pkg-1.2.0" = _ZnzEvATK;
-        "default" = _ZnzEvATK;
+        "pkg-1.3.0" = _nveVtGsJ;
+        "default" = _nveVtGsJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-challenges-mod";

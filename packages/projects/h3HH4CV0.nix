@@ -61,6 +61,11 @@ let
             "file" = "Excalibur Vanilla Backport 2.2.zip";
             "hash" = "sha512-RfJNW5Eb9V+6w7JW0m3zQF8BxGyd+qjwXoxBqfdISnk4h0zldqZ/xaWVnnElCN/iuwspAJ1UFO8WpBap3AScUg==";
         };
+        _hKPrjBU6 = {
+            "id" = "hKPrjBU6";
+            "file" = "Excalibur Vanilla Backport 2.3.zip";
+            "hash" = "sha512-q+vMt8UDQo8Z/yYmgQOl4CiSrlUbffkRmTmYTVwk2MmR31q+EHhqr3/dFEo7wpkLzNzJd7qKYlGFeHd6H/0xUw==";
+        };
     in {
         "Ajwh8pAP" = _Ajwh8pAP;
         "5xLdIhCT" = _5xLdIhCT;
@@ -74,9 +79,10 @@ let
         "1cYlxYB1" = _1cYlxYB1;
         "M8L8v7tK" = _M8L8v7tK;
         "zf0DtVrH" = _zf0DtVrH;
-        "minecraft-1.20.1" = _zf0DtVrH;
-        "minecraft-1.21.1" = _zf0DtVrH;
-        "minecraft-1.21" = _zf0DtVrH;
+        "hKPrjBU6" = _hKPrjBU6;
+        "minecraft-1.20.1" = _hKPrjBU6;
+        "minecraft-1.21.1" = _hKPrjBU6;
+        "minecraft-1.21" = _hKPrjBU6;
         "pkg-1.0" = _Ajwh8pAP;
         "pkg-1.2" = _5xLdIhCT;
         "pkg-1.3" = _zkfakpWL;
@@ -89,7 +95,8 @@ let
         "pkg-2.0" = _1cYlxYB1;
         "pkg-2.1" = _M8L8v7tK;
         "pkg-2.2" = _zf0DtVrH;
-        "default" = _zf0DtVrH;
+        "pkg-2.3" = _hKPrjBU6;
+        "default" = _hKPrjBU6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excal-vanilla-backport-support";

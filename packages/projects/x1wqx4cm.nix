@@ -256,6 +256,11 @@ let
             "file" = "InfuseSMP-2.4.5-beta20.jar";
             "hash" = "sha512-NVi2kwMsts0TQnEuYicJc24gMBP8NroAfvqutOEkITAOn74eKlXfv+NNEEllS6LiyJz3oDQCyakS067rtD+sGw==";
         };
+        _oeXpOwSY = {
+            "id" = "oeXpOwSY";
+            "file" = "InfuseSMP-2.4.5-beta21.jar";
+            "hash" = "sha512-wbVZGj2a7zq+qCroDEsasyGb/RnB7oHziT82tGmMNANLiMqAWmYPm+pMa3FPnGlc+hgu2/cDxKhS65gNXFh6oA==";
+        };
     in {
         "IgJYgW0r" = _IgJYgW0r;
         "qXu3cY8x" = _qXu3cY8x;
@@ -308,6 +313,7 @@ let
         "yHba8WuW" = _yHba8WuW;
         "EoBu9ziF" = _EoBu9ziF;
         "r17BqQmQ" = _r17BqQmQ;
+        "oeXpOwSY" = _oeXpOwSY;
         "paper-1.21" = _DbWHs7O2;
         "paper-1.21.1" = _DbWHs7O2;
         "paper-1.21.2" = _DbWHs7O2;
@@ -319,11 +325,11 @@ let
         "paper-1.21.8" = _1TOlA44I;
         "paper-1.21.9" = _1TOlA44I;
         "paper-1.21.10" = _1TOlA44I;
-        "paper-1.21.11" = _r17BqQmQ;
-        "paper-26.1" = _r17BqQmQ;
-        "paper-26.1.1" = _r17BqQmQ;
-        "paper-26.1.2" = _r17BqQmQ;
-        "paper-26.2" = _r17BqQmQ;
+        "paper-1.21.11" = _oeXpOwSY;
+        "paper-26.1" = _oeXpOwSY;
+        "paper-26.1.1" = _oeXpOwSY;
+        "paper-26.1.2" = _oeXpOwSY;
+        "paper-26.2" = _oeXpOwSY;
         "purpur-1.21" = _DbWHs7O2;
         "purpur-1.21.1" = _DbWHs7O2;
         "purpur-1.21.2" = _DbWHs7O2;
@@ -335,11 +341,11 @@ let
         "purpur-1.21.8" = _1TOlA44I;
         "purpur-1.21.9" = _1TOlA44I;
         "purpur-1.21.10" = _1TOlA44I;
-        "purpur-1.21.11" = _r17BqQmQ;
-        "purpur-26.1" = _r17BqQmQ;
-        "purpur-26.1.1" = _r17BqQmQ;
-        "purpur-26.1.2" = _r17BqQmQ;
-        "purpur-26.2" = _r17BqQmQ;
+        "purpur-1.21.11" = _oeXpOwSY;
+        "purpur-26.1" = _oeXpOwSY;
+        "purpur-26.1.1" = _oeXpOwSY;
+        "purpur-26.1.2" = _oeXpOwSY;
+        "purpur-26.2" = _oeXpOwSY;
         "pkg-1.2.6" = _IgJYgW0r;
         "pkg-1.3.0" = _qXu3cY8x;
         "pkg-1.4.0" = _oGpuR3b7;
@@ -384,7 +390,8 @@ let
         "pkg-2.4.5-beta18" = _yHba8WuW;
         "pkg-2.4.5-beta19" = _EoBu9ziF;
         "pkg-2.4.5-beta20" = _r17BqQmQ;
-        "default" = _r17BqQmQ;
+        "pkg-2.4.5-beta21" = _oeXpOwSY;
+        "default" = _oeXpOwSY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infusesmp";

@@ -16,16 +16,23 @@ let
             "file" = "ascendant_compatibility-1.1.1-universal-1.20.1.jar";
             "hash" = "sha512-eAyRhToZPeAXoM/tzTXVSfi4GUzhgknPlRp5b7Op00zmFR951E6dEh/TcWbS558lpJkeyjtVE0ag/gRIyCYmaQ==";
         };
+        _X95KqfhZ = {
+            "id" = "X95KqfhZ";
+            "file" = "ascendant_compatibility-1.2.0-universal-1.20.1.jar";
+            "hash" = "sha512-68px4JXl0dXLeGNxclXgDwZv+j7RuEY8rxVOo6w+QoiziEiFibU5glSm93l2aB1DqRCLr9oPyoiJD7tFfQW6lg==";
+        };
     in {
         "1LCes3sJ" = _1LCes3sJ;
         "v89fi9Bp" = _v89fi9Bp;
         "tsIdIHBd" = _tsIdIHBd;
-        "fabric-1.20.1" = _tsIdIHBd;
-        "forge-1.20.1" = _tsIdIHBd;
+        "X95KqfhZ" = _X95KqfhZ;
+        "fabric-1.20.1" = _X95KqfhZ;
+        "forge-1.20.1" = _X95KqfhZ;
         "pkg-1.20.1-1.0.0-Universal" = _1LCes3sJ;
         "pkg-1.20.1-1.1.0-Universal" = _v89fi9Bp;
         "pkg-1.20.1-1.1.1-Universal" = _tsIdIHBd;
-        "default" = _tsIdIHBd;
+        "pkg-1.20.1-1.2.0-Universal" = _X95KqfhZ;
+        "default" = _X95KqfhZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ascendant-compatibility";

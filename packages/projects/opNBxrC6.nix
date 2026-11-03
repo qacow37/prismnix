@@ -136,6 +136,26 @@ let
             "file" = "Extended-Storage-1.20.1-fabric-1.3.3.jar";
             "hash" = "sha512-c040Dsr2fu10Es6cvlJFeFPIgUvkAWPvrrnI2bjo0PJuB6MPGroI55vdZs+qOUgAsUcrI7/VyhGnDQQ4Eosv5A==";
         };
+        _OSOGhf2d = {
+            "id" = "OSOGhf2d";
+            "file" = "Extended-Storage-1.20.1-fabric-1.3.4.jar";
+            "hash" = "sha512-CEHy9JfhZdLIh28WsdiZjdCQxTHkqaYCN6E8YNHTnYMthSfPSc5qaMsW1IVZxjYDLIRrNUHJMBxJGkXiI/EC3g==";
+        };
+        _kumjhGuu = {
+            "id" = "kumjhGuu";
+            "file" = "Extended-Storage-1.20.1-1.3.4.jar";
+            "hash" = "sha512-HBioBrY+u3XaWOymuzYCb9iKF2P6lR1+oIuPOiJdj84K2UHyQAOulzj1zz+LL8SeYD+MzyEhIpWVi9Z5FpLiqA==";
+        };
+        _RxjPP2Hy = {
+            "id" = "RxjPP2Hy";
+            "file" = "Extended-Storage-1.21.1-1.3.4.jar";
+            "hash" = "sha512-jMYba5hmT3kfYVlfosRCeaxgka6BFM2HHxuz1U1N1YewY2e9dr4PI+CAvzXH7StGz7IuIncgek7xYJnWYa8yhQ==";
+        };
+        _uwL5etof = {
+            "id" = "uwL5etof";
+            "file" = "Extended-Storage-26.1.2-1.3.4.jar";
+            "hash" = "sha512-xKSeKtnE1UiG71RghDwpp8DOurdOkbsa5v4debQgZgzRI3ngTpCeO+IvUkcXTGvlfZGB6qtNEuYrWEsAuBa8Ww==";
+        };
     in {
         "Xj9Bo4Vu" = _Xj9Bo4Vu;
         "sWh3lqFi" = _sWh3lqFi;
@@ -164,13 +184,17 @@ let
         "RsiKLmPG" = _RsiKLmPG;
         "1Clw9TGY" = _1Clw9TGY;
         "qMCsr247" = _qMCsr247;
-        "forge-1.20.1" = _RsiKLmPG;
-        "neoforge-1.21.1" = _ffOEj5Ox;
-        "neoforge-26.1" = _1Clw9TGY;
-        "neoforge-26.1.1" = _1Clw9TGY;
-        "neoforge-26.1.2" = _1Clw9TGY;
-        "neoforge-26.2" = _1Clw9TGY;
-        "fabric-1.20.1" = _qMCsr247;
+        "OSOGhf2d" = _OSOGhf2d;
+        "kumjhGuu" = _kumjhGuu;
+        "RxjPP2Hy" = _RxjPP2Hy;
+        "uwL5etof" = _uwL5etof;
+        "forge-1.20.1" = _kumjhGuu;
+        "neoforge-1.21.1" = _RxjPP2Hy;
+        "neoforge-26.1" = _uwL5etof;
+        "neoforge-26.1.1" = _uwL5etof;
+        "neoforge-26.1.2" = _uwL5etof;
+        "neoforge-26.2" = _uwL5etof;
+        "fabric-1.20.1" = _OSOGhf2d;
         "pkg-1.1.0" = _Xj9Bo4Vu;
         "pkg-1.1.1" = _sWh3lqFi;
         "pkg-1.2.0" = _bqnGoLJq;
@@ -183,7 +207,8 @@ let
         "pkg-1.3.1" = _7ahemhl8;
         "pkg-1.3.2" = _lvYeBsci;
         "pkg-1.3.3" = _qMCsr247;
-        "default" = _qMCsr247;
+        "pkg-1.3.4" = _uwL5etof;
+        "default" = _uwL5etof;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-storage";

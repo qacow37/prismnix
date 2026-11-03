@@ -511,6 +511,26 @@ let
             "file" = "AbyssalLib-2.5.0-mc.26.3-alpha.8.jar";
             "hash" = "sha512-NmKS5A8WYGRNWpBE7LQC0m9GA4AAbHhRzZ4bjGm0pNyVpj52NIKuFO2I2yUCmFxotcrYIwcDLdKr9MAVZa8Xow==";
         };
+        _6pVrIj1E = {
+            "id" = "6pVrIj1E";
+            "file" = "AbyssalLib-2.5.0-mc.1.21.11-alpha.9.jar";
+            "hash" = "sha512-1eCFsl6bp2du0IsJArCI+JLh5n/+Sf6nb73LH0A7v+izVkrUFuwiOIrsamYvAfFSt+cgvo9lSoA6fDcNVYcyNw==";
+        };
+        _jGwVoh42 = {
+            "id" = "jGwVoh42";
+            "file" = "AbyssalLib-2.5.0-mc.26.1.2-alpha.9.jar";
+            "hash" = "sha512-APdEWL/USzC+oku2CTh4waiPPZGTyFuBuCdl+TlYikNHxmLb52etr3CFMDQJnuegmt2tqDBrQh6sr30TbHaBaA==";
+        };
+        _56VGMM4b = {
+            "id" = "56VGMM4b";
+            "file" = "AbyssalLib-2.5.0-mc.26.2-alpha.9.jar";
+            "hash" = "sha512-dLOIqrhEKxBf/wj7Mgbe8H5NCUv3E+woSj88ljQ2VDGhFlk6WGsb37ulp7I/ouzE9yJiPfOy+Oa0ONbtsjBKfw==";
+        };
+        _yYm7VOnp = {
+            "id" = "yYm7VOnp";
+            "file" = "AbyssalLib-2.5.0-mc.26.3-alpha.9.jar";
+            "hash" = "sha512-flhV4Uu/qSrTN7XQSvUmiE8QBu5mCMdunAMp5pXvG66Yt3DIlur6Bzh5tSLqQ05VL74ZbPFTMe3/OtZIQUwm3g==";
+        };
     in {
         "ztJL1Gdr" = _ztJL1Gdr;
         "D1ueJMMT" = _D1ueJMMT;
@@ -614,20 +634,24 @@ let
         "DvE1LNa3" = _DvE1LNa3;
         "8Owf3j9V" = _8Owf3j9V;
         "rqthM2eI" = _rqthM2eI;
+        "6pVrIj1E" = _6pVrIj1E;
+        "jGwVoh42" = _jGwVoh42;
+        "56VGMM4b" = _56VGMM4b;
+        "yYm7VOnp" = _yYm7VOnp;
         "paper-1.21.5" = _LQ6uuPyl;
         "paper-1.21.6" = _k7k9TwKA;
         "paper-1.21.7" = _k7k9TwKA;
         "paper-1.21.8" = _k7k9TwKA;
         "paper-1.21.9" = _A77rpRok;
         "paper-1.21.10" = _ej2D71sI;
-        "paper-1.21.11" = _UPQL01QB;
-        "paper-26.1.2" = _DvE1LNa3;
-        "paper-26.2" = _8Owf3j9V;
-        "paper-26.3" = _rqthM2eI;
-        "folia-26.1.2" = _DvE1LNa3;
-        "folia-1.21.11" = _UPQL01QB;
-        "folia-26.2" = _8Owf3j9V;
-        "folia-26.3" = _rqthM2eI;
+        "paper-1.21.11" = _6pVrIj1E;
+        "paper-26.1.2" = _jGwVoh42;
+        "paper-26.2" = _56VGMM4b;
+        "paper-26.3" = _yYm7VOnp;
+        "folia-26.1.2" = _jGwVoh42;
+        "folia-1.21.11" = _6pVrIj1E;
+        "folia-26.2" = _56VGMM4b;
+        "folia-26.3" = _yYm7VOnp;
         "pkg-1.1.0-mc1.21.5" = _ztJL1Gdr;
         "pkg-1.1.1-mc1.21.5" = _D1ueJMMT;
         "pkg-1.2.1-mc1.21.5" = _w6hKoVCo;
@@ -729,7 +753,11 @@ let
         "pkg-2.5.0-mc.26.1.2-alpha.8" = _DvE1LNa3;
         "pkg-2.5.0-mc.26.2-alpha.8" = _8Owf3j9V;
         "pkg-2.5.0-mc.26.3-alpha.8" = _rqthM2eI;
-        "default" = _rqthM2eI;
+        "pkg-2.5.0-mc.1.21.11-alpha.9" = _6pVrIj1E;
+        "pkg-2.5.0-mc.26.1.2-alpha.9" = _jGwVoh42;
+        "pkg-2.5.0-mc.26.2-alpha.9" = _56VGMM4b;
+        "pkg-2.5.0-mc.26.3-alpha.9" = _yYm7VOnp;
+        "default" = _yYm7VOnp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "abyssallib";

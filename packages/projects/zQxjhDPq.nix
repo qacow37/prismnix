@@ -286,6 +286,11 @@ let
             "file" = "ChunkDebug-2.9.0+26.3.jar";
             "hash" = "sha512-kd/8Ihg/2NMaEx6DBJ230Kp8ncbqRoiLcdGnHVTSXtF8iHpcMtZEfPHwfuZ2FJsH0X1zwhFp5z+zIbkQMcWwMQ==";
         };
+        _IFuvPrIy = {
+            "id" = "IFuvPrIy";
+            "file" = "ChunkDebug-2.9.1+26.3.jar";
+            "hash" = "sha512-NRDMtaRN33Bww4SUMwUyfsVdEBc9nM4diTGnwYpTcyhpI23B924eTwqfw9RR8bK7/jSrcKRJi+e8pCk9nCxYpw==";
+        };
     in {
         "Zc4CSaiN" = _Zc4CSaiN;
         "vBCYfrbi" = _vBCYfrbi;
@@ -344,6 +349,7 @@ let
         "FlVffAdC" = _FlVffAdC;
         "g0KW5J9N" = _g0KW5J9N;
         "7VvIfDve" = _7VvIfDve;
+        "IFuvPrIy" = _IFuvPrIy;
         "fabric-1.16.5" = _QXFaBF3j;
         "fabric-1.17.1" = _NnNROXfN;
         "fabric-1.18.2" = _qqJd9qYA;
@@ -373,7 +379,7 @@ let
         "fabric-26.1.1" = _vN1zxc3Y;
         "fabric-26.1.2" = _vN1zxc3Y;
         "fabric-26.2" = _g0KW5J9N;
-        "fabric-26.3" = _7VvIfDve;
+        "fabric-26.3" = _IFuvPrIy;
         "pkg-mc1.16.5-v1.0.3" = _Zc4CSaiN;
         "pkg-mc1.17.1-v1.0.3" = _vBCYfrbi;
         "pkg-mc1.18.2-v1.0.3" = _qFLa0V0L;
@@ -415,7 +421,8 @@ let
         "pkg-2.6.5+1.21.11" = _FlVffAdC;
         "pkg-2.8.0+26.2" = _g0KW5J9N;
         "pkg-2.9.0+26.3" = _7VvIfDve;
-        "default" = _7VvIfDve;
+        "pkg-2.9.1+26.3" = _IFuvPrIy;
+        "default" = _IFuvPrIy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chunk-debug";

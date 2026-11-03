@@ -91,6 +91,26 @@ let
             "file" = "PerDimensionGameRules-1.20.1-Forge-3.1.2.jar";
             "hash" = "sha512-bWp6AlRF4QA/689CuqXjHkXVIhs2L3KBkRPmI9vbEVvqxI+PafxcLihMeIiCtKWb23eYBAyX/Ohs1uedu2KP7A==";
         };
+        _QDdLuqyB = {
+            "id" = "QDdLuqyB";
+            "file" = "PerDimensionGameRules-1.21.1-NeoForge-4.1.0.jar";
+            "hash" = "sha512-rU/j5LZ/Ss/c3iFOjJjHw4b/YERzmwrbryRJ/07IHJqWudJlrKH1ERgX9T5FMvEgx1hHqb2XtJZrKhhqRBQseA==";
+        };
+        _IWljeaDR = {
+            "id" = "IWljeaDR";
+            "file" = "PerDimensionGameRules-1.21.1-Fabric-4.1.0.jar";
+            "hash" = "sha512-ASME6rfI7ySoRvwCGeHhHmVGluWqbIdI4nATBQO0SLDlpy1UlkWN0GTLXcEa/xC6UgjTIr7vnw69PmFUpGHgIw==";
+        };
+        _cUo5sZe2 = {
+            "id" = "cUo5sZe2";
+            "file" = "PerDimensionGameRules-26.1.2-Fabric-5.0.0.jar";
+            "hash" = "sha512-jGcez7fzL2fhXYQChofrP5WD0iEnnRXo0XPqOLkKI5Tx4txZd0YFtE9WakIRa/WBSfN9WGh1ZTwbd0QqdFx3vg==";
+        };
+        _Zb44bqf3 = {
+            "id" = "Zb44bqf3";
+            "file" = "PerDimensionGameRules-26.1.2-NeoForge-5.0.0.jar";
+            "hash" = "sha512-P4RGPHHspQVv9asrU+W4rf4O2agIuyyIkYoRH+k7MLhCmpcykXzoJSdnvlxTctkw6wvSCZYIg12XV2NB9d3zww==";
+        };
     in {
         "XdTBDeoc" = _XdTBDeoc;
         "ySaWJn2d" = _ySaWJn2d;
@@ -110,19 +130,32 @@ let
         "knZUToop" = _knZUToop;
         "dkMnL5uy" = _dkMnL5uy;
         "7IkAlaLT" = _7IkAlaLT;
+        "QDdLuqyB" = _QDdLuqyB;
+        "IWljeaDR" = _IWljeaDR;
+        "cUo5sZe2" = _cUo5sZe2;
+        "Zb44bqf3" = _Zb44bqf3;
         "fabric-1.19.2" = _S35nNlLT;
         "fabric-1.20" = _dkMnL5uy;
         "fabric-1.20.1" = _dkMnL5uy;
-        "fabric-1.21.1" = _Fsugkosv;
+        "fabric-1.21.1" = _IWljeaDR;
+        "fabric-26.1" = _cUo5sZe2;
+        "fabric-26.1.1" = _cUo5sZe2;
+        "fabric-26.1.2" = _cUo5sZe2;
         "forge-1.19.2" = _a3Pp3D1o;
         "forge-1.20" = _7IkAlaLT;
         "forge-1.20.1" = _7IkAlaLT;
         "neoforge-1.20" = _7IkAlaLT;
         "neoforge-1.20.1" = _7IkAlaLT;
-        "neoforge-1.21.1" = _knZUToop;
+        "neoforge-1.21.1" = _QDdLuqyB;
+        "neoforge-26.1" = _Zb44bqf3;
+        "neoforge-26.1.1" = _Zb44bqf3;
+        "neoforge-26.1.2" = _Zb44bqf3;
         "quilt-1.20" = _dkMnL5uy;
         "quilt-1.20.1" = _dkMnL5uy;
-        "quilt-1.21.1" = _Fsugkosv;
+        "quilt-1.21.1" = _IWljeaDR;
+        "quilt-26.1" = _cUo5sZe2;
+        "quilt-26.1.1" = _cUo5sZe2;
+        "quilt-26.1.2" = _cUo5sZe2;
         "pkg-1.0.0" = _XdTBDeoc;
         "pkg-1.1.0" = _ySaWJn2d;
         "pkg-1.2.0" = _S35nNlLT;
@@ -136,7 +169,11 @@ let
         "pkg-4.0.1" = _knZUToop;
         "pkg-3.1.2+fabric" = _dkMnL5uy;
         "pkg-3.1.2+forge" = _7IkAlaLT;
-        "default" = _7IkAlaLT;
+        "pkg-4.1.0" = _QDdLuqyB;
+        "pkg-4.1.0+fabric" = _IWljeaDR;
+        "pkg-5.0.0+fabric" = _cUo5sZe2;
+        "pkg-5.0.0+neoforge" = _Zb44bqf3;
+        "default" = _Zb44bqf3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "per-world-game-rules";

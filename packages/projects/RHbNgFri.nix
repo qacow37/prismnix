@@ -71,6 +71,11 @@ let
             "file" = "compoundv-3.1.3.jar";
             "hash" = "sha512-UBY1DextP7xdaSz6H0Ih4ug6dqCq+YRnm0A2VEcpaAuScuL/Y5dFoJswAWLdu4fnQ05lryoHdvGJhOOe8XF7Ug==";
         };
+        _OWmvmoUu = {
+            "id" = "OWmvmoUu";
+            "file" = "compoundv-3.2.0.jar";
+            "hash" = "sha512-BJZhCt4bwDuOfbCwmOCw17DmxoPiyIs7Qd7q4VOwCvG8vBOJc1WbBKsyi9xV8thHZdd0Aznrx99P9CnIOuDdpg==";
+        };
     in {
         "lRc2ELOJ" = _lRc2ELOJ;
         "45NRaPtU" = _45NRaPtU;
@@ -86,7 +91,8 @@ let
         "zj1F01MW" = _zj1F01MW;
         "ZYY7KiAo" = _ZYY7KiAo;
         "k1JqGSwh" = _k1JqGSwh;
-        "fabric-1.20.1" = _k1JqGSwh;
+        "OWmvmoUu" = _OWmvmoUu;
+        "fabric-1.20.1" = _OWmvmoUu;
         "pkg-1.0.0" = _lRc2ELOJ;
         "pkg-2.0.0" = _45NRaPtU;
         "pkg-2.1.0" = _PPZF2wGK;
@@ -101,7 +107,8 @@ let
         "pkg-3.1.1" = _zj1F01MW;
         "pkg-3.1.2" = _ZYY7KiAo;
         "pkg-3.1.3" = _k1JqGSwh;
-        "default" = _k1JqGSwh;
+        "pkg-3.2.0" = _OWmvmoUu;
+        "default" = _OWmvmoUu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-boys-unbalanced";

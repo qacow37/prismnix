@@ -191,6 +191,11 @@ let
             "file" = "Tinkers-Thinking-0.2.3.jar";
             "hash" = "sha512-VVDi/AF7Saut7DmiZUgKNhFqyIGQfLGSrBtnWNJJ2GEsVdfcMFYYQNsOZhoDXfKNl+WYI1iB3t2W9zFbAD3CKA==";
         };
+        _e69ugdV9 = {
+            "id" = "e69ugdV9";
+            "file" = "Tinkers-Thinking-0.2.4.jar";
+            "hash" = "sha512-wdBmZ0PNAQj8t9d7++jcK0dk9jfGYO4yt+rBX/ctntuluqQMi7OqErsHXcfm3LEniX2pQxlOhXgF4YsQ7Ir6fg==";
+        };
     in {
         "GFQmdVm3" = _GFQmdVm3;
         "tMi35AeU" = _tMi35AeU;
@@ -230,10 +235,11 @@ let
         "y2fLKWcA" = _y2fLKWcA;
         "4IeGPuoJ" = _4IeGPuoJ;
         "XpqHA94B" = _XpqHA94B;
+        "e69ugdV9" = _e69ugdV9;
         "forge-1.18.2" = _dEAzmRyD;
         "forge-1.19.2" = _HjEOmfUu;
-        "forge-1.20.1" = _XpqHA94B;
-        "neoforge-1.20.1" = _XpqHA94B;
+        "forge-1.20.1" = _e69ugdV9;
+        "neoforge-1.20.1" = _e69ugdV9;
         "pkg-0.0.2.2" = _GFQmdVm3;
         "pkg-0.0.2.3" = _tMi35AeU;
         "pkg-0.0.2.4" = _p2VSNcwp;
@@ -272,7 +278,8 @@ let
         "pkg-0.2.0" = _y2fLKWcA;
         "pkg-0.2.1" = _4IeGPuoJ;
         "pkg-0.2.3" = _XpqHA94B;
-        "default" = _XpqHA94B;
+        "pkg-0.2.4" = _e69ugdV9;
+        "default" = _e69ugdV9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-thinking";

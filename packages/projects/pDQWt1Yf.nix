@@ -76,6 +76,46 @@ let
             "file" = "advanced_memory_card-1.2.1-1.21.1.jar";
             "hash" = "sha512-6jZKz1vLhvxaRiKzxfV4C3oZooPc+/CSuMmd6tOcm8JmQ/xIYKsEQ6FzQdkyXwiufU44iTV30xQ4zVf8aZzVBg==";
         };
+        _KrDQLDHx = {
+            "id" = "KrDQLDHx";
+            "file" = "advanced_memory_card-1.3.0-1.20.1.jar";
+            "hash" = "sha512-+eUS8RwooXlRVZPMEczfhBpMzkVu8Fn9flgBrpJb2YLasLzHr0DBPunbSgDN+vdFezlnctSOdZ1YKQM988oeSg==";
+        };
+        _U35mOqOP = {
+            "id" = "U35mOqOP";
+            "file" = "advanced_memory_card-1.2.2-1.21.1.jar";
+            "hash" = "sha512-HLuHel+9bNo/gnm4IZt36aCqTferA3+K1GLBJ8uVU/bbvUpXZWmyqU2Hzgj5koiajJ3ywF2dBlahsIK9emAvUA==";
+        };
+        _Yah5es05 = {
+            "id" = "Yah5es05";
+            "file" = "advanced_memory_card-1.2.0-1.7.10-GTNH.jar";
+            "hash" = "sha512-fGBP+p1SDGMuFfZ43ZVJjiiora+vglLoyczRePYqmdWPzFQnhaizQgIm8CacD70IZVLRO5NEcu/TMRJRUK4cNg==";
+        };
+        _IcsNXgje = {
+            "id" = "IcsNXgje";
+            "file" = "advanced_memory_card-1.2.0-1.12.2.jar";
+            "hash" = "sha512-vkeKU4uykijiyQQ1qQBi5sJkvVFvvoPffYFN0WUWk0tt0HqUMJXM4vMQqAfijZb8FfoWEcWBnv1OiPruaQMr4A==";
+        };
+        _ZCtjbu4i = {
+            "id" = "ZCtjbu4i";
+            "file" = "advanced_memory_card-1.2.1-1.7.10-GTNH.jar";
+            "hash" = "sha512-C1rHQj/TWtVex0K7yFLAQv+Jflii8zFnSwnouZS1OkdqcWmORgeSXqlNQ9gbbg09/vga5Y/PpBdDumrjjUFTYg==";
+        };
+        _n9L5Z0V4 = {
+            "id" = "n9L5Z0V4";
+            "file" = "advanced_memory_card-1.2.2-1.7.10-GTNH.jar";
+            "hash" = "sha512-EJBqHu7PJwSaCWb1nFuuSePqRwPSQknadhzsnIQDqqIqKDYeq1Qs4ZTB7wk2Mdxt6ZxsE7FFT1aV/zqh4hK4CA==";
+        };
+        _PBIj39IE = {
+            "id" = "PBIj39IE";
+            "file" = "advanced_memory_card-1.2.0-1.7.10-GTNH.jar";
+            "hash" = "sha512-t5jjgwA4PNMlNVXQsbRn1pHYjmmh1bYxkC2KYs0UbgK6rmcN8DaG9FlewWPkeX5lT0RYJKSDufIVcCGDevBEKA==";
+        };
+        _B89gSeOT = {
+            "id" = "B89gSeOT";
+            "file" = "advanced_memory_card-1.2.0-1.12.2.jar";
+            "hash" = "sha512-tLPjstqsHwIa+uukeIn7WIKcxxHcDO70B8a6vH2SdvIa8TYlqBfcsZUHc0zXjf+EGDJCoiJLky2ofARbtktJqw==";
+        };
     in {
         "212NCnYE" = _212NCnYE;
         "kzx4XmdF" = _kzx4XmdF;
@@ -92,10 +132,18 @@ let
         "j9UwEypH" = _j9UwEypH;
         "No0zUg6b" = _No0zUg6b;
         "Db5MvZix" = _Db5MvZix;
-        "forge-1.20.1" = _ULaexrdl;
-        "forge-1.12.2" = _nASHyi19;
-        "forge-1.7.10" = _No0zUg6b;
-        "neoforge-1.21.1" = _Db5MvZix;
+        "KrDQLDHx" = _KrDQLDHx;
+        "U35mOqOP" = _U35mOqOP;
+        "Yah5es05" = _Yah5es05;
+        "IcsNXgje" = _IcsNXgje;
+        "ZCtjbu4i" = _ZCtjbu4i;
+        "n9L5Z0V4" = _n9L5Z0V4;
+        "PBIj39IE" = _PBIj39IE;
+        "B89gSeOT" = _B89gSeOT;
+        "forge-1.20.1" = _KrDQLDHx;
+        "forge-1.12.2" = _B89gSeOT;
+        "forge-1.7.10" = _PBIj39IE;
+        "neoforge-1.21.1" = _U35mOqOP;
         "pkg-1.1.1" = _212NCnYE;
         "pkg-1.0.0-1.21.1" = _kzx4XmdF;
         "pkg-1.0.0-1.12.2" = _fmQrbftE;
@@ -110,7 +158,13 @@ let
         "pkg-1.2.0-1.21.1" = _j9UwEypH;
         "pkg-1.1.0-1.7.10-GTNH" = _No0zUg6b;
         "pkg-1.2.1-1.21.1" = _Db5MvZix;
-        "default" = _Db5MvZix;
+        "pkg-1.3.0-1.20.1" = _KrDQLDHx;
+        "pkg-1.2.2-1.21.1" = _U35mOqOP;
+        "pkg-1.2.0-1.7.10-GTNH" = _PBIj39IE;
+        "pkg-1.2.0-1.12.2" = _B89gSeOT;
+        "pkg-1.2.1-1.7.10-GTNH" = _ZCtjbu4i;
+        "pkg-1.2.2-1.7.10-GTNH" = _n9L5Z0V4;
+        "default" = _B89gSeOT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-memory-card";

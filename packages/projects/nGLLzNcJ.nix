@@ -681,6 +681,11 @@ let
             "file" = "customrecipe-1.4.8+26.3.jar";
             "hash" = "sha512-G+BxQ61It0lon3w/q1m7sSULHitQBbg3Gcath7ETpn4r6zlE2qog7u2byEMXk+0GPaapgbj+NsOI88omH0NRIw==";
         };
+        _84lmOFXH = {
+            "id" = "84lmOFXH";
+            "file" = "customrecipe-1.4.9+1.21.1.jar";
+            "hash" = "sha512-NHPhTlAMLm+fPj5rFB7bucG/AKu2vy453DRjjitzz/XexB6Z2+knXSIDpNr4n7ZfpBBF0rQSx7RVi8WEqZ2B3A==";
+        };
     in {
         "HhpxWPBJ" = _HhpxWPBJ;
         "Wxiz6GOU" = _Wxiz6GOU;
@@ -818,8 +823,9 @@ let
         "IAGdYHDn" = _IAGdYHDn;
         "a1pK47Jn" = _a1pK47Jn;
         "rtTnNbuL" = _rtTnNbuL;
+        "84lmOFXH" = _84lmOFXH;
         "fabric-1.21.11" = _tRwP90hT;
-        "fabric-1.21.1" = _7ObGM3ld;
+        "fabric-1.21.1" = _84lmOFXH;
         "fabric-1.20.1" = _PQiKaNTQ;
         "fabric-26.2" = _qdwVNpEC;
         "fabric-1.21.8" = _zEfdBh0a;
@@ -973,7 +979,8 @@ let
         "pkg-1.4.8-26.1.2-(NeoForge)" = _IAGdYHDn;
         "pkg-1.4.8-26.2-(NeoForge)" = _a1pK47Jn;
         "pkg-1.4.8-26.3-(NeoForge)" = _rtTnNbuL;
-        "default" = _rtTnNbuL;
+        "pkg-1.4.9-1.21.1-(Fabric)" = _84lmOFXH;
+        "default" = _84lmOFXH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipescreator";

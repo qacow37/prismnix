@@ -26,14 +26,20 @@ let
             "file" = "sweeper_maid-1.1.2.jar";
             "hash" = "sha512-3B/YPkKdjtDcyEDJJxnIWxUM/CIAcEUzcLivSlP1+98Xv0E8S9MduBjv3n8x3yrEhcCgWnLM+XezCVd5+Cn0rQ==";
         };
+        _VtCoRA06 = {
+            "id" = "VtCoRA06";
+            "file" = "sweeper_maid-1.1.3.jar";
+            "hash" = "sha512-rJrkm2dCbCUps09jUiHJy5OQuemxSt25/qe28o6iCutT7U6OYgcgCugxukcVk0aMmdIzwCQQbSwHJts4WVzz1g==";
+        };
     in {
         "EjjBdKGx" = _EjjBdKGx;
         "ZptEa3Xa" = _ZptEa3Xa;
         "ejQbL5ki" = _ejQbL5ki;
         "9an6YdAf" = _9an6YdAf;
         "4Fx97QFQ" = _4Fx97QFQ;
-        "forge-1.20" = _4Fx97QFQ;
-        "forge-1.20.1" = _4Fx97QFQ;
+        "VtCoRA06" = _VtCoRA06;
+        "forge-1.20" = _VtCoRA06;
+        "forge-1.20.1" = _VtCoRA06;
         "forge-1.20.2" = _ZptEa3Xa;
         "forge-1.20.3" = _ZptEa3Xa;
         "forge-1.20.4" = _ZptEa3Xa;
@@ -47,7 +53,8 @@ let
         "pkg-1.2.0" = _ejQbL5ki;
         "pkg-1.6.0" = _9an6YdAf;
         "pkg-1.1.2" = _4Fx97QFQ;
-        "default" = _4Fx97QFQ;
+        "pkg-1.1.3" = _VtCoRA06;
+        "default" = _VtCoRA06;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sweeper-maid";

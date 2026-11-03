@@ -31,6 +31,11 @@ let
             "file" = "couplesmod-1.0.4.1.jar";
             "hash" = "sha512-QVD6mtOYlp1XOm3tAqTLnLQkpgMvO9WU3mqlnrXr+6OYBqh6pwn0GUUkaaG0GTk5xVJDfdOXwFPJ/E2fE+OmGg==";
         };
+        _ynh4eGS7 = {
+            "id" = "ynh4eGS7";
+            "file" = "couplesmod-1.0.4.2.jar";
+            "hash" = "sha512-NZgzUp1t58jGpX4MKmXvR3bvfQiBOVeL5M7jB6CvZ8R6vHK1ZM2r1d/jV5/RwwkVbzxN42Z3qlhB9u6EZE+XpA==";
+        };
     in {
         "t1SHA73p" = _t1SHA73p;
         "hFXMkUtv" = _hFXMkUtv;
@@ -38,15 +43,17 @@ let
         "oryBYJAL" = _oryBYJAL;
         "TOYGGMAr" = _TOYGGMAr;
         "FrAPqU3m" = _FrAPqU3m;
+        "ynh4eGS7" = _ynh4eGS7;
         "fabric-1.21.1" = _oryBYJAL;
         "neoforge-1.21.1" = _o6nyqdS5;
-        "forge-1.20.1" = _FrAPqU3m;
+        "forge-1.20.1" = _ynh4eGS7;
         "pkg-1.0.1" = _t1SHA73p;
         "pkg-1.0.2" = _hFXMkUtv;
         "pkg-1.0.3" = _oryBYJAL;
         "pkg-1.0.4" = _TOYGGMAr;
         "pkg-1.0.4.1" = _FrAPqU3m;
-        "default" = _FrAPqU3m;
+        "pkg-1.0.4.2" = _ynh4eGS7;
+        "default" = _ynh4eGS7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "couples-mod";

@@ -136,6 +136,11 @@ let
             "file" = "coroutil-fabric-1.21.4-1.3.8.jar";
             "hash" = "sha512-rWzEaYrE2LzgMvRzFukSx2nrV6411L/2MEQeW7gP6v409pqytTCufhNth1gfSH02IZlWoJac2YPWA90UbX0Cpg==";
         };
+        _t7mMAOEr = {
+            "id" = "t7mMAOEr";
+            "file" = "coroutil-neoforge-26.2-1.3.8.jar";
+            "hash" = "sha512-49QUUaH+4Jf1CEioyOCJ9uKdttxveGbFDN/oR8pyL2Ex0OABoh4aq6WicX5tfCG4GmMr57JoIIEpO1h94JjBZQ==";
+        };
     in {
         "CxbyayZI" = _CxbyayZI;
         "7x0L4nrz" = _7x0L4nrz;
@@ -164,6 +169,7 @@ let
         "DTOHF27u" = _DTOHF27u;
         "Z8sJH8Jq" = _Z8sJH8Jq;
         "kGU8LxQf" = _kGU8LxQf;
+        "t7mMAOEr" = _t7mMAOEr;
         "forge-1.20.1" = _6rPDKAT8;
         "forge-1.16.5" = _fkwnscwP;
         "forge-1.18.2" = _a9atUH6r;
@@ -178,6 +184,7 @@ let
         "neoforge-1.21.1" = _H2YXCYUY;
         "neoforge-1.21.3" = _Eh2E3Aeb;
         "neoforge-1.21.4" = _Z8sJH8Jq;
+        "neoforge-26.2" = _t7mMAOEr;
         "fabric-1.20.1" = _7tRnsYkP;
         "fabric-1.16.5" = _lJq1RQnC;
         "fabric-1.18.2" = _YhdmNhJm;
@@ -206,7 +213,8 @@ let
         "pkg-1.21.1-1.3.8" = _U0NUocji;
         "pkg-1.21.3-1.3.8" = _DTOHF27u;
         "pkg-1.21.4-1.3.8" = _kGU8LxQf;
-        "default" = _kGU8LxQf;
+        "pkg-26.2-1.3.8" = _t7mMAOEr;
+        "default" = _t7mMAOEr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coroutil";

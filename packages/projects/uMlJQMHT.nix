@@ -791,6 +791,16 @@ let
             "file" = "largefluidtank-fabric-26.30.3.jar";
             "hash" = "sha512-2eXKUE9sndwBt/VAnq7ZqQapbEwIpvkv1VL5f74MueJEgLV+QlKEgugWky/xRF5DasDOFXQRzR38HsjuIkWjRQ==";
         };
+        _8ou1GhAz = {
+            "id" = "8ou1GhAz";
+            "file" = "largefluidtank-neoforge-26.30.4.jar";
+            "hash" = "sha512-6MML7RHIkr5tpFj97N4mFu7gkDJZvzduOsVXfDEoIROlDHoJdCpBKrtpgt1wztENvGDLUV8SCdh2y3ArHGghhQ==";
+        };
+        _Yo3VeKNg = {
+            "id" = "Yo3VeKNg";
+            "file" = "largefluidtank-fabric-26.30.4.jar";
+            "hash" = "sha512-cs+ZkM3OVMnYOygEJjQNb6iuHsWxN24/sj4yux0vfa2ExjCdrP9YuDpfIU1MCpIOP8xn80jNYnSEwPq7Gre2ew==";
+        };
     in {
         "jn4tQYL1" = _jn4tQYL1;
         "GYXkC4Kg" = _GYXkC4Kg;
@@ -950,6 +960,8 @@ let
         "TCcLZXNZ" = _TCcLZXNZ;
         "LBOhtm15" = _LBOhtm15;
         "z1JQG0eH" = _z1JQG0eH;
+        "8ou1GhAz" = _8ou1GhAz;
+        "Yo3VeKNg" = _Yo3VeKNg;
         "fabric-1.19.4" = _kF9zphxS;
         "fabric-1.20.1" = _ovwod0Uq;
         "fabric-1.20.2" = _Py47UbdF;
@@ -968,7 +980,7 @@ let
         "fabric-1.21.11" = _EQrVf2L8;
         "fabric-26.1.2" = _1QamGc2g;
         "fabric-26.2" = _Hu4rTHHF;
-        "fabric-26.3" = _z1JQG0eH;
+        "fabric-26.3" = _Yo3VeKNg;
         "forge-1.19.4" = _G9KwkQPB;
         "forge-1.20.1" = _RXUKseli;
         "forge-1.20.2" = _EPWczJbw;
@@ -995,7 +1007,7 @@ let
         "neoforge-1.21.11" = _G24aA8N0;
         "neoforge-26.1.2" = _U1siSPCo;
         "neoforge-26.2" = _CJObir9h;
-        "neoforge-26.3" = _LBOhtm15;
+        "neoforge-26.3" = _8ou1GhAz;
         "pkg-1.0.0" = _GYXkC4Kg;
         "pkg-1.0.1" = _G9KwkQPB;
         "pkg-20.1.0" = _MIObWun4;
@@ -1067,7 +1079,9 @@ let
         "pkg-26.30.0-SNAPSHOT-fabric" = _TCcLZXNZ;
         "pkg-26.30.3-neoforge" = _LBOhtm15;
         "pkg-26.30.3-fabric" = _z1JQG0eH;
-        "default" = _z1JQG0eH;
+        "pkg-26.30.4-neoforge" = _8ou1GhAz;
+        "pkg-26.30.4-fabric" = _Yo3VeKNg;
+        "default" = _Yo3VeKNg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "large-fluid-tank";

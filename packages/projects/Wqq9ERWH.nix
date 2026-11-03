@@ -326,6 +326,56 @@ let
             "file" = "MinigamesMod-1.3.0+mc-26.3.jar";
             "hash" = "sha512-1IL3P5oK1OkB//7c1i3isuw6XHFX711K2nsailhA/h7rJSwfjN45tfTIjmImLeV5+oH4dkm+UZgZpI825XWkdQ==";
         };
+        _mFgdsN0P = {
+            "id" = "mFgdsN0P";
+            "file" = "MinigamesMod-1.3.1+mc-1.21.jar";
+            "hash" = "sha512-h1AcR6D52sE6BthPWFEYAZdGJ9amSnZ2gQ75UBqT80GT1ifHVQcO7PakZzaeA1D/G/WH3U/8q1tAolNpxY78Dg==";
+        };
+        _HUScnA1G = {
+            "id" = "HUScnA1G";
+            "file" = "MinigamesMod-1.3.1+mc-1.21.2.jar";
+            "hash" = "sha512-MBUAURLbeTPdesn9PVPWzC6WIJq7Oelo4CE3f52Zpwwcp/REfvlGIWXYduyMZw/4f8N2lQjD34MaQlqj7r7xcA==";
+        };
+        _42XQTikG = {
+            "id" = "42XQTikG";
+            "file" = "MinigamesMod-1.3.1+mc-1.21.5.jar";
+            "hash" = "sha512-wsCL9gKhFvb063Wv3JXchMI71REH9YcFotEn43H+z6Gc3OStzx+u0AxDfAPXOS0M0W3S55/MF72/nBppc2J6QQ==";
+        };
+        _C7buiQ73 = {
+            "id" = "C7buiQ73";
+            "file" = "MinigamesMod-1.3.1+mc-1.21.6.jar";
+            "hash" = "sha512-7VED4vgFmiI9MXCAJ1lWbQfaSW0KrsJv2gpaExGMpV/Utj+8qnCwPAs6Wqis1aBmln8LCyFbanwvJqjbI8ftSg==";
+        };
+        _yRnLA7wS = {
+            "id" = "yRnLA7wS";
+            "file" = "MinigamesMod-1.3.1+mc-1.21.9.jar";
+            "hash" = "sha512-jGaTGGc3/R4CeU3nvmHgxz2VHLCN9zkETepJYRhzKKcnGbn38qtc4LkdXrgzJGbL5mqJMQVBMl2Lf0SkEVUf0g==";
+        };
+        _l7EZtfju = {
+            "id" = "l7EZtfju";
+            "file" = "MinigamesMod-1.3.1+mc-1.21.11.jar";
+            "hash" = "sha512-bAuHqk9bFKSskWnAT1ZHL5eRW8Zu+pLAesKP3gaKMzdZBmAhBpVynXjNDdBhXINF2ilIJWkxBpZQsEblASJmag==";
+        };
+        _pfedzoXH = {
+            "id" = "pfedzoXH";
+            "file" = "MinigamesMod-1.3.1+mc-26.1.jar";
+            "hash" = "sha512-RoJuLKgTPRNp2FRwS7q3bz/pLAjnglS0MhmBPEREKOW+9yrQQlTrnOrDd82NzCwg2bhF1lX3SUHBUUVMHNVaxg==";
+        };
+        _OfYl8uu9 = {
+            "id" = "OfYl8uu9";
+            "file" = "MinigamesMod-1.3.1+mc-26.2.jar";
+            "hash" = "sha512-kkj/XyO3YPSTmQwlq/mwlsXWjx68jBru7iIcC2B1KwotkJ4rQm2tzTIAOeY8Qw2DuRw30ZtsFyfrcgKS8YEUbQ==";
+        };
+        _JQMbA9QK = {
+            "id" = "JQMbA9QK";
+            "file" = "MinigamesMod-1.3.1+mc-26.3.jar";
+            "hash" = "sha512-w8XFURfvcTG9ZVbqkBxMOKCvPWu6FLLzxzUd2JCZGwfP6gOJYBOMt1md9WFAHcswm5uaYAGnhwTstCov4dJs/g==";
+        };
+        _KmyfVpyt = {
+            "id" = "KmyfVpyt";
+            "file" = "MinigamesMod-1.3.2+mc-26.3.jar";
+            "hash" = "sha512-8KSy2kvgJbXsCAk90wN1d0SnvGrLLnnkzpK0noNfYRhlMwjPde5eUpL0peOoY950iuFawWBAR8CSu/Ud/ouvxA==";
+        };
     in {
         "2xtZCqNC" = _2xtZCqNC;
         "kSVwHLzw" = _kSVwHLzw;
@@ -392,23 +442,33 @@ let
         "GwxmmqSq" = _GwxmmqSq;
         "GenE311j" = _GenE311j;
         "d02zt4pH" = _d02zt4pH;
-        "fabric-1.21" = _ovehWMPH;
-        "fabric-1.21.1" = _ovehWMPH;
-        "fabric-1.21.2" = _4z66fA1j;
-        "fabric-1.21.3" = _4z66fA1j;
-        "fabric-1.21.4" = _4z66fA1j;
-        "fabric-1.21.5" = _Hs0nT4vM;
-        "fabric-1.21.6" = _HjaNspEu;
-        "fabric-1.21.7" = _HjaNspEu;
-        "fabric-1.21.8" = _HjaNspEu;
-        "fabric-1.21.9" = _xgZuAt1u;
-        "fabric-1.21.10" = _xgZuAt1u;
-        "fabric-1.21.11" = _Fkw2SdH2;
-        "fabric-26.1" = _GwxmmqSq;
-        "fabric-26.1.1" = _GwxmmqSq;
-        "fabric-26.1.2" = _GwxmmqSq;
-        "fabric-26.2" = _GenE311j;
-        "fabric-26.3" = _d02zt4pH;
+        "mFgdsN0P" = _mFgdsN0P;
+        "HUScnA1G" = _HUScnA1G;
+        "42XQTikG" = _42XQTikG;
+        "C7buiQ73" = _C7buiQ73;
+        "yRnLA7wS" = _yRnLA7wS;
+        "l7EZtfju" = _l7EZtfju;
+        "pfedzoXH" = _pfedzoXH;
+        "OfYl8uu9" = _OfYl8uu9;
+        "JQMbA9QK" = _JQMbA9QK;
+        "KmyfVpyt" = _KmyfVpyt;
+        "fabric-1.21" = _mFgdsN0P;
+        "fabric-1.21.1" = _mFgdsN0P;
+        "fabric-1.21.2" = _HUScnA1G;
+        "fabric-1.21.3" = _HUScnA1G;
+        "fabric-1.21.4" = _HUScnA1G;
+        "fabric-1.21.5" = _42XQTikG;
+        "fabric-1.21.6" = _C7buiQ73;
+        "fabric-1.21.7" = _C7buiQ73;
+        "fabric-1.21.8" = _C7buiQ73;
+        "fabric-1.21.9" = _yRnLA7wS;
+        "fabric-1.21.10" = _yRnLA7wS;
+        "fabric-1.21.11" = _l7EZtfju;
+        "fabric-26.1" = _pfedzoXH;
+        "fabric-26.1.1" = _pfedzoXH;
+        "fabric-26.1.2" = _pfedzoXH;
+        "fabric-26.2" = _OfYl8uu9;
+        "fabric-26.3" = _KmyfVpyt;
         "pkg-1.0.0+mc-1.21" = _2xtZCqNC;
         "pkg-1.0.0+mc-1.21.2" = _kSVwHLzw;
         "pkg-1.0.0+mc-1.21.5" = _G1q8Coa6;
@@ -473,7 +533,17 @@ let
         "pkg-1.3.0+mc-26.1" = _GwxmmqSq;
         "pkg-1.3.0+mc-26.2" = _GenE311j;
         "pkg-1.3.0+mc-26.3" = _d02zt4pH;
-        "default" = _d02zt4pH;
+        "pkg-1.3.1+mc-1.21" = _mFgdsN0P;
+        "pkg-1.3.1+mc-1.21.2" = _HUScnA1G;
+        "pkg-1.3.1+mc-1.21.5" = _42XQTikG;
+        "pkg-1.3.1+mc-1.21.6" = _C7buiQ73;
+        "pkg-1.3.1+mc-1.21.9" = _yRnLA7wS;
+        "pkg-1.3.1+mc-1.21.11" = _l7EZtfju;
+        "pkg-1.3.1+mc-26.1" = _pfedzoXH;
+        "pkg-1.3.1+mc-26.2" = _OfYl8uu9;
+        "pkg-1.3.1+mc-26.3" = _JQMbA9QK;
+        "pkg-1.3.2+mc-26.3" = _KmyfVpyt;
+        "default" = _KmyfVpyt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minigamesmod";

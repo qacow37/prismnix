@@ -106,6 +106,11 @@ let
             "file" = "fuck-sable-1.7.25.jar";
             "hash" = "sha512-Doxd22ql21Mx9dFWDMWJvroadNtUsqGO1yP9zNgB/vJY1r0k/7FStOHZ/urkYNwqOVOMa+KE8VracKvDTaoETA==";
         };
+        _7yXD09Rw = {
+            "id" = "7yXD09Rw";
+            "file" = "fuck-sable-1.8.0.jar";
+            "hash" = "sha512-fQSCgtskFP84lVDC8XOSbszjWEMr8OZUgMNA9w0Olr7dQZEVCuMu3Ka6xRgOLDAQrwPWrUOZb2cka8fWBd+fvQ==";
+        };
     in {
         "iF83k8Y0" = _iF83k8Y0;
         "bDboSUxh" = _bDboSUxh;
@@ -128,7 +133,8 @@ let
         "oXO9pYOb" = _oXO9pYOb;
         "C72hyy0M" = _C72hyy0M;
         "zKcLs4Eb" = _zKcLs4Eb;
-        "neoforge-1.21.1" = _zKcLs4Eb;
+        "7yXD09Rw" = _7yXD09Rw;
+        "neoforge-1.21.1" = _7yXD09Rw;
         "pkg-1.6.1" = _iF83k8Y0;
         "pkg-1.6.3" = _bDboSUxh;
         "pkg-1.6.4" = _oHppToeu;
@@ -150,7 +156,8 @@ let
         "pkg-1.7.23" = _oXO9pYOb;
         "pkg-1.7.24" = _C72hyy0M;
         "pkg-1.7.25" = _zKcLs4Eb;
-        "default" = _zKcLs4Eb;
+        "pkg-1.8.0" = _7yXD09Rw;
+        "default" = _7yXD09Rw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cacb";

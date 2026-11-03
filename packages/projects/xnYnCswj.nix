@@ -46,6 +46,16 @@ let
             "file" = "jujutsu-craftsen-4.jar";
             "hash" = "sha512-PDNGcEHMuktSu+iLDEqLAx4AKXnQk+SbKN/pO1K0lR6MpdDjAOd+ZJzZ6oMEYZtbxF8RYNIzkbcUD4sD72rn3A==";
         };
+        _dHeIkoHm = {
+            "id" = "dHeIkoHm";
+            "file" = "jujutsu_craftsen.zip";
+            "hash" = "sha512-Pfke/w3VI9fEkqMfBYTXJV1JxX7Hk6Anm+PDR4UqLazPTQRHCI1X8V45asjulXxtSvO9c43zlXKoQ5LI3XhqyA==";
+        };
+        _6AvnjOsR = {
+            "id" = "6AvnjOsR";
+            "file" = "jujutsu-craftsen-5.jar";
+            "hash" = "sha512-vSSbxAPizfaKQIHWEhVK9acc9UIdG2tYiRULmSpxK+Na8pdFpKK+akJpPUuFHf0iZv0qvvyBRngs+ETzMPhEUg==";
+        };
     in {
         "TMouFjKP" = _TMouFjKP;
         "EDCd0E9X" = _EDCd0E9X;
@@ -56,36 +66,43 @@ let
         "QIVZBZqg" = _QIVZBZqg;
         "SeJ2wxJe" = _SeJ2wxJe;
         "8YMCo6NG" = _8YMCo6NG;
+        "dHeIkoHm" = _dHeIkoHm;
+        "6AvnjOsR" = _6AvnjOsR;
         "datapack-1.21.9" = _BI7xpZuC;
         "datapack-1.21.10" = _BI7xpZuC;
         "datapack-1.21.11" = _SeJ2wxJe;
         "datapack-26.1" = _SeJ2wxJe;
         "datapack-26.1.1" = _SeJ2wxJe;
         "datapack-26.1.2" = _SeJ2wxJe;
+        "datapack-26.2" = _dHeIkoHm;
         "fabric-1.21.9" = _RGjgFtyo;
         "fabric-1.21.10" = _RGjgFtyo;
         "fabric-1.21.11" = _8YMCo6NG;
         "fabric-26.1" = _8YMCo6NG;
         "fabric-26.1.1" = _8YMCo6NG;
         "fabric-26.1.2" = _8YMCo6NG;
+        "fabric-26.2" = _6AvnjOsR;
         "forge-1.21.9" = _RGjgFtyo;
         "forge-1.21.10" = _RGjgFtyo;
         "forge-1.21.11" = _8YMCo6NG;
         "forge-26.1" = _8YMCo6NG;
         "forge-26.1.1" = _8YMCo6NG;
         "forge-26.1.2" = _8YMCo6NG;
+        "forge-26.2" = _6AvnjOsR;
         "neoforge-1.21.9" = _RGjgFtyo;
         "neoforge-1.21.10" = _RGjgFtyo;
         "neoforge-1.21.11" = _8YMCo6NG;
         "neoforge-26.1" = _8YMCo6NG;
         "neoforge-26.1.1" = _8YMCo6NG;
         "neoforge-26.1.2" = _8YMCo6NG;
+        "neoforge-26.2" = _6AvnjOsR;
         "quilt-1.21.9" = _RGjgFtyo;
         "quilt-1.21.10" = _RGjgFtyo;
         "quilt-1.21.11" = _8YMCo6NG;
         "quilt-26.1" = _8YMCo6NG;
         "quilt-26.1.1" = _8YMCo6NG;
         "quilt-26.1.2" = _8YMCo6NG;
+        "quilt-26.2" = _6AvnjOsR;
         "pkg-1" = _TMouFjKP;
         "pkg-1+mod" = _EDCd0E9X;
         "pkg-2" = _BI7xpZuC;
@@ -94,7 +111,9 @@ let
         "pkg-3+mod" = _QIVZBZqg;
         "pkg-4" = _SeJ2wxJe;
         "pkg-4+mod" = _8YMCo6NG;
-        "default" = _8YMCo6NG;
+        "pkg-5" = _dHeIkoHm;
+        "pkg-5+mod" = _6AvnjOsR;
+        "default" = _6AvnjOsR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jujutsu-craftsen";

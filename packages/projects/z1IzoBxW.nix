@@ -61,6 +61,11 @@ let
             "file" = "DisableBurningAnimation-26.1-fabric-1.1.jar";
             "hash" = "sha512-Ayob5jywTH74nLSdt+KczKVoFmAWdPW7ujAjOghvgXLuExPO6nv5AmTgCUvdkOiUE4jJXSWH9LNp3Vp3j3rp9w==";
         };
+        _neqesEFb = {
+            "id" = "neqesEFb";
+            "file" = "DisableBurningAnimation-26.3-fabric-1.1.jar";
+            "hash" = "sha512-HEE8GCPmWn1EewOfhTyIDRMUCKsM4W+LDmxA8i73Fl//EQcYlqqkttqIq09DTzUXH1arlCvseNPpim5QC6MQlw==";
+        };
     in {
         "PNR8KXvE" = _PNR8KXvE;
         "1luE6Moz" = _1luE6Moz;
@@ -74,6 +79,7 @@ let
         "9F18tDAL" = _9F18tDAL;
         "z7VluVmm" = _z7VluVmm;
         "YPcWALFz" = _YPcWALFz;
+        "neqesEFb" = _neqesEFb;
         "forge-1.8.9" = _PNR8KXvE;
         "fabric-1.20.4" = _1luE6Moz;
         "fabric-1.21.3" = _qFVdEsY7;
@@ -86,8 +92,9 @@ let
         "fabric-1.21.10" = _9F18tDAL;
         "fabric-26.2" = _z7VluVmm;
         "fabric-26.1" = _YPcWALFz;
-        "pkg-1.1" = _YPcWALFz;
-        "default" = _YPcWALFz;
+        "fabric-26.3" = _neqesEFb;
+        "pkg-1.1" = _neqesEFb;
+        "default" = _neqesEFb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disableburninganimation";

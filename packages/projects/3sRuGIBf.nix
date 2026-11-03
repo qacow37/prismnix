@@ -231,6 +231,11 @@ let
             "file" = "ks-enchantments-26.3-4.jar";
             "hash" = "sha512-xuKvVRwTGqVfFvmUpAQdgjEgj1v5bajRX0M8gp2GAWgsL40bZ6pqhFWeBG4zj+INCun+01HdzWohVGozHIHuZQ==";
         };
+        _TzMHQ0oX = {
+            "id" = "TzMHQ0oX";
+            "file" = "ks_enchantments_26.3-5_smithed.zip";
+            "hash" = "sha512-p4Hj8w2ciX+NCqoSy80ozd0oRDGdB9xfdObxaD5GqThljQFDsvwNm8m2NlcZwijyXJobXNmHe28jc5Q4ynLp5w==";
+        };
     in {
         "Gj0AsBNR" = _Gj0AsBNR;
         "eV1mzO6n" = _eV1mzO6n;
@@ -278,6 +283,7 @@ let
         "YOEJEG2s" = _YOEJEG2s;
         "ojGXxjrb" = _ojGXxjrb;
         "vVheznNy" = _vVheznNy;
+        "TzMHQ0oX" = _TzMHQ0oX;
         "datapack-1.21.4" = _Gj0AsBNR;
         "datapack-1.21.5" = _eV1mzO6n;
         "datapack-1.21.6" = _w0lY9tI2;
@@ -290,7 +296,7 @@ let
         "datapack-26.1.1" = _GSxlRQ4l;
         "datapack-26.1.2" = _GSxlRQ4l;
         "datapack-26.2" = _SfoJCLXf;
-        "datapack-26.3" = _ojGXxjrb;
+        "datapack-26.3" = _TzMHQ0oX;
         "fabric-1.21.6" = _y0jQa89H;
         "fabric-1.21.7" = _y0jQa89H;
         "fabric-1.21.8" = _y0jQa89H;
@@ -381,7 +387,8 @@ let
         "pkg-26.3-3+mod" = _YOEJEG2s;
         "pkg-26.3-4" = _ojGXxjrb;
         "pkg-26.3-4+mod" = _vVheznNy;
-        "default" = _vVheznNy;
+        "pkg-26.3-5-smithed" = _TzMHQ0oX;
+        "default" = _TzMHQ0oX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ks-enchantments";

@@ -81,6 +81,11 @@ let
             "file" = "valkyrielib-fabric-1.20.1-4.0.4.0.jar";
             "hash" = "sha512-eAbn8s57z4fwwLg1Bg30WCZ6qMe73VkYWWrcinMreoYQies4xTrYDcab46R8IfHQYV2rrefQMmcgmNhAITGyyg==";
         };
+        _vnPMC2SV = {
+            "id" = "vnPMC2SV";
+            "file" = "valkyrielib-1.12.2-2.1.0.0.jar";
+            "hash" = "sha512-AS1WZY30WaZ2QmWiPa/lICZpKaNLY+7QUO1tYY55vg+wOApmVKjhclRKlp8kWT+6dj6ZoDB+nZRlaXNVlP3Aqg==";
+        };
     in {
         "iIDMzzVW" = _iIDMzzVW;
         "Y5f51jEI" = _Y5f51jEI;
@@ -98,13 +103,14 @@ let
         "nw3ZIbTC" = _nw3ZIbTC;
         "UoMihgnb" = _UoMihgnb;
         "DeN9TEO5" = _DeN9TEO5;
+        "vnPMC2SV" = _vnPMC2SV;
         "forge-1.19" = _iIDMzzVW;
         "forge-1.19.2" = _GGwN5EB3;
         "forge-1.19.3" = _FSvNBhLg;
         "forge-1.19.4" = _Q06fS5Io;
         "forge-1.9.4" = _D9YpIhVs;
         "forge-1.10.2" = _5R7kr3j9;
-        "forge-1.12.2" = _FeARGLGL;
+        "forge-1.12.2" = _vnPMC2SV;
         "forge-1.14.4" = _Bi41vH7n;
         "forge-1.15.2" = _hbsTDIau;
         "forge-1.16.5" = _nw3ZIbTC;
@@ -135,7 +141,8 @@ let
         "pkg-1.15.2-3.0.2.1" = _hbsTDIau;
         "pkg-1.16.5-3.0.9.5" = _nw3ZIbTC;
         "pkg-1.20.1-4.0.4.0" = _DeN9TEO5;
-        "default" = _DeN9TEO5;
+        "pkg-1.12.2-2.1.0.0" = _vnPMC2SV;
+        "default" = _vnPMC2SV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valkyrielib";

@@ -421,6 +421,26 @@ let
             "file" = "ForceCraft-26.1.2-7.0.0.beta.5.jar";
             "hash" = "sha512-I4W6KoPaVwzM9rYmBzXumy3oob5fl7Aj3fz83GuRXZee4vnhw26hwYCV4GeK2L82Czg0pLTbmMrdZLZZXK3qKA==";
         };
+        _vV89EWcI = {
+            "id" = "vV89EWcI";
+            "file" = "ForceCraft-26.1.2-7.0.0.beta.6.jar";
+            "hash" = "sha512-WZblue9g/qMLa5LuFhXP4zvLP0oEXk0bLzOB+lBymMIz1H6OlLNajrg0E8pjmXab8bpIRF6NCG+hVmNyC0FSrA==";
+        };
+        _9KOwmFAD = {
+            "id" = "9KOwmFAD";
+            "file" = "ForceCraft-26.1.2-7.0.0.beta.7.jar";
+            "hash" = "sha512-q/r9kRHmlefgbdkMCyZJOeGAqe35Q9Od/o3Md61fUNjrjvuBFa/IdI52nVOlcGVzNSeLZiQg/DYVhT3Qnajg4Q==";
+        };
+        _7znYoGXG = {
+            "id" = "7znYoGXG";
+            "file" = "ForceCraft-26.1.2-7.0.0.beta.8.jar";
+            "hash" = "sha512-Wd60CttzUHGYF7bfDD/nyhNKL8nNV6ZvO2BHzDs8n8pbMl1hY385mSkFGGM9/DZsqJ0z/pqqJ95mzF7mTX9Jrw==";
+        };
+        _L1SWF4N2 = {
+            "id" = "L1SWF4N2";
+            "file" = "ForceCraft-26.1.2-7.0.0.beta.9.jar";
+            "hash" = "sha512-BadVRVA2LUqK37/l/wnB0jsmH/h1OvUPpW/R83bzrKM82rpJD0CnYnB7gg4mb8yVUh6UqO5VztXYPZPSGc0y4g==";
+        };
     in {
         "lCPw4gpe" = _lCPw4gpe;
         "OgKrbWBJ" = _OgKrbWBJ;
@@ -506,6 +526,10 @@ let
         "7q0k1Asm" = _7q0k1Asm;
         "WOG8rBce" = _WOG8rBce;
         "nt47IrQG" = _nt47IrQG;
+        "vV89EWcI" = _vV89EWcI;
+        "9KOwmFAD" = _9KOwmFAD;
+        "7znYoGXG" = _7znYoGXG;
+        "L1SWF4N2" = _L1SWF4N2;
         "forge-1.16.5" = _7pfQIMtA;
         "forge-1.18.1" = _OgKrbWBJ;
         "forge-1.18.2" = _jmZvatVf;
@@ -518,7 +542,7 @@ let
         "neoforge-1.20.1" = _C2RFaAC9;
         "neoforge-1.20.4" = _LTvXlApO;
         "neoforge-1.21.1" = _roWfi5Si;
-        "neoforge-26.1.2" = _nt47IrQG;
+        "neoforge-26.1.2" = _L1SWF4N2;
         "pkg-1.0.8.4" = _lCPw4gpe;
         "pkg-2.1.2" = _OgKrbWBJ;
         "pkg-2.2.0" = _behK4YhZ;
@@ -600,7 +624,11 @@ let
         "pkg-7.0.0.beta.3" = _7q0k1Asm;
         "pkg-7.0.0.beta.4" = _WOG8rBce;
         "pkg-7.0.0.beta.5" = _nt47IrQG;
-        "default" = _nt47IrQG;
+        "pkg-7.0.0.beta.6" = _vV89EWcI;
+        "pkg-7.0.0.beta.7" = _9KOwmFAD;
+        "pkg-7.0.0.beta.8" = _7znYoGXG;
+        "pkg-7.0.0.beta.9" = _L1SWF4N2;
+        "default" = _L1SWF4N2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forcecraft";

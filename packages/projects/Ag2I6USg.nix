@@ -231,6 +231,11 @@ let
             "file" = "TownsAndNations-1.0.5.jar";
             "hash" = "sha512-maGsx6gQEykryrRMyfNRmbq3Dk4XMcWuxgqoPXp1FeE+0In4L6zC039Rk5/mON6LnIvLvastTNDwYCX7z2etqQ==";
         };
+        _VJQsgkUQ = {
+            "id" = "VJQsgkUQ";
+            "file" = "TownsAndNations-1.0.6.jar";
+            "hash" = "sha512-kUP/ZFFM9uYqdXdU4ZxtutwbSunIBkrAKNqkXKR4bapIJXW1FdwrX4790yZsUA3IRAiTobeB53nqDhPjO+pahA==";
+        };
     in {
         "s55g7vZO" = _s55g7vZO;
         "KAwapCLr" = _KAwapCLr;
@@ -278,6 +283,7 @@ let
         "fLpUzGLF" = _fLpUzGLF;
         "o6gXuIRu" = _o6gXuIRu;
         "WD5Lah0h" = _WD5Lah0h;
+        "VJQsgkUQ" = _VJQsgkUQ;
         "paper-1.19" = _RL4vZ7Gk;
         "paper-1.19.1" = _RL4vZ7Gk;
         "paper-1.19.2" = _RL4vZ7Gk;
@@ -305,8 +311,8 @@ let
         "paper-26.1" = _o6gXuIRu;
         "paper-26.1.1" = _o6gXuIRu;
         "paper-26.1.2" = _o6gXuIRu;
-        "paper-26.2" = _WD5Lah0h;
-        "paper-26.3" = _WD5Lah0h;
+        "paper-26.2" = _VJQsgkUQ;
+        "paper-26.3" = _VJQsgkUQ;
         "spigot-1.19" = _gj5wUNf4;
         "spigot-1.19.1" = _gj5wUNf4;
         "spigot-1.19.2" = _gj5wUNf4;
@@ -332,7 +338,7 @@ let
         "purpur-26.1" = _o6gXuIRu;
         "purpur-26.1.1" = _o6gXuIRu;
         "purpur-26.1.2" = _o6gXuIRu;
-        "purpur-26.2" = _WD5Lah0h;
+        "purpur-26.2" = _VJQsgkUQ;
         "purpur-1.20" = _FuViXb9A;
         "purpur-1.20.1" = _FuViXb9A;
         "purpur-1.20.2" = _FuViXb9A;
@@ -351,7 +357,7 @@ let
         "purpur-1.21.8" = _o6gXuIRu;
         "purpur-1.21.9" = _o6gXuIRu;
         "purpur-1.21.10" = _o6gXuIRu;
-        "purpur-26.3" = _WD5Lah0h;
+        "purpur-26.3" = _VJQsgkUQ;
         "pkg-0.1.10" = _s55g7vZO;
         "pkg-0.13.2" = _KAwapCLr;
         "pkg-0.13.3" = _RmoE8Xu6;
@@ -398,7 +404,8 @@ let
         "pkg-1.0.4" = _fLpUzGLF;
         "pkg-1.0.5" = _o6gXuIRu;
         "pkg-1.0.5-26.2" = _WD5Lah0h;
-        "default" = _WD5Lah0h;
+        "pkg-1.0.6" = _VJQsgkUQ;
+        "default" = _VJQsgkUQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "towns-nations";

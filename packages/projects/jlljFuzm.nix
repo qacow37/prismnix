@@ -226,6 +226,21 @@ let
             "file" = "extendedbeaconrange-neoforge-26.3-2.0.0.jar";
             "hash" = "sha512-F+48odPie7x7hV3N9g38Bc19VuP2+WjZaTb5Jx8SrVGOuHAgeAB6NRkIN1Vv7Ijqko0wUudTSvdf5b3DJBJfwQ==";
         };
+        _LepVVYpg = {
+            "id" = "LepVVYpg";
+            "file" = "extendedbeaconrange-fabric-26.3-2.1.0.jar";
+            "hash" = "sha512-yKISDNPdbickLdg7VgmRf1siQuvZ4PIipjtLQw2afn4lQWjLmlkabHB6p9BtprbytT3a2zhwiWxmUuO/oQM6lg==";
+        };
+        _eu6zjlLg = {
+            "id" = "eu6zjlLg";
+            "file" = "extendedbeaconrange-forge-26.3-2.1.0.jar";
+            "hash" = "sha512-0/nPuA819e979xVWSpbOWnlOS2pbpjMdSCY3fBXQ/xgomGFTbN1DvOufw8CxdC41yYbKRCowmwaQqk9oJcZxRQ==";
+        };
+        _rtFF2b79 = {
+            "id" = "rtFF2b79";
+            "file" = "extendedbeaconrange-neoforge-26.3-2.1.0.jar";
+            "hash" = "sha512-kACuWTr2HVTHuF8t1DR62hzULXFd5OJONmtORWX2vudhsLdf0AuTlEEHmjaQYu781D2lOJ/UeJUy428tkis3gA==";
+        };
     in {
         "rqb5q7Cz" = _rqb5q7Cz;
         "GUN8EGxp" = _GUN8EGxp;
@@ -272,6 +287,9 @@ let
         "kT8pAMRT" = _kT8pAMRT;
         "zTueUYar" = _zTueUYar;
         "x5ikQgDl" = _x5ikQgDl;
+        "LepVVYpg" = _LepVVYpg;
+        "eu6zjlLg" = _eu6zjlLg;
+        "rtFF2b79" = _rtFF2b79;
         "neoforge-1.21.1" = _rqb5q7Cz;
         "neoforge-1.21.3" = _Fy8EIUPY;
         "neoforge-1.21.4" = _LUb0ivVE;
@@ -286,7 +304,7 @@ let
         "neoforge-26.1.1" = _9learEDr;
         "neoforge-26.1.2" = _Zr15WcAE;
         "neoforge-26.2" = _b68tMzaY;
-        "neoforge-26.3" = _x5ikQgDl;
+        "neoforge-26.3" = _rtFF2b79;
         "forge-1.21.1" = _GUN8EGxp;
         "forge-1.21.3" = _TKFFzih8;
         "forge-1.21.4" = _UuAJBPUc;
@@ -301,7 +319,7 @@ let
         "forge-26.1.1" = _XsbYpC8a;
         "forge-26.1.2" = _mz93LPm5;
         "forge-26.2" = _CCXSDTqY;
-        "forge-26.3" = _zTueUYar;
+        "forge-26.3" = _eu6zjlLg;
         "fabric-1.21.1" = _izTrb1uf;
         "fabric-1.21.3" = _HLhoKWEu;
         "fabric-1.21.4" = _VpaAuimU;
@@ -316,7 +334,7 @@ let
         "fabric-26.1.1" = _tG3WHyaz;
         "fabric-26.1.2" = _fkABIzyq;
         "fabric-26.2" = _tRvZ4cxX;
-        "fabric-26.3" = _kT8pAMRT;
+        "fabric-26.3" = _LepVVYpg;
         "pkg-2.0.0-mc1.21.1" = _izTrb1uf;
         "pkg-2.0.0-mc1.21.3" = _Fy8EIUPY;
         "pkg-2.0.0-mc1.21.4" = _LUb0ivVE;
@@ -332,7 +350,8 @@ let
         "pkg-2.0.0-mc26.1.2" = _Zr15WcAE;
         "pkg-2.0.0-mc26.2" = _b68tMzaY;
         "pkg-2.0.0-mc26.3" = _x5ikQgDl;
-        "default" = _x5ikQgDl;
+        "pkg-2.1.0-mc26.3" = _rtFF2b79;
+        "default" = _rtFF2b79;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-beacon-range";

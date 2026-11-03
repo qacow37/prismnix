@@ -106,6 +106,11 @@ let
             "file" = "Vanilla+ 3D Ladders.zip";
             "hash" = "sha512-h8Rj/nHLPY3TG6MYqaM82kHKe4mhpXcu8sCSi+j8GlbH4QSad6AcdxNw1Mv5VScHRQwnVTEMrPDdutRMxQO9KA==";
         };
+        _HHhO1Vj8 = {
+            "id" = "HHhO1Vj8";
+            "file" = "Smooth 3D Ladder 26.3.zip";
+            "hash" = "sha512-5y6hp393A/WKnHWISODoePZ5Co3sXaYv1DLUcYH2+o9VzHqw80rBDV5A4O19ZVoRHeLuDLf3gQhjhavb/PMPfQ==";
+        };
     in {
         "N0gVJCur" = _N0gVJCur;
         "F5KfzmPd" = _F5KfzmPd;
@@ -128,6 +133,7 @@ let
         "EbqnD9ju" = _EbqnD9ju;
         "JPRUdO2E" = _JPRUdO2E;
         "Y2LYUWoc" = _Y2LYUWoc;
+        "HHhO1Vj8" = _HHhO1Vj8;
         "minecraft-1.19" = _N0gVJCur;
         "minecraft-1.19.1" = _F5KfzmPd;
         "minecraft-1.19.2" = _F5KfzmPd;
@@ -156,6 +162,7 @@ let
         "minecraft-26.1.1" = _JPRUdO2E;
         "minecraft-26.1.2" = _JPRUdO2E;
         "minecraft-26.2" = _Y2LYUWoc;
+        "minecraft-26.3" = _HHhO1Vj8;
         "pkg-1.19" = _N0gVJCur;
         "pkg-1.19.1-1.19.2" = _F5KfzmPd;
         "pkg-1.19.3-1.19.4" = _o4GoGRdM;
@@ -176,7 +183,8 @@ let
         "pkg-26.2" = _Y2LYUWoc;
         "pkg-1.21-1.21.11" = _EbqnD9ju;
         "pkg-26.1-26.1.2" = _JPRUdO2E;
-        "default" = _Y2LYUWoc;
+        "pkg-26.3" = _HHhO1Vj8;
+        "default" = _HHhO1Vj8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-plus-3d-ladders";

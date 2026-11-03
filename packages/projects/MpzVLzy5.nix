@@ -386,6 +386,11 @@ let
             "file" = "better-nether-9.0.12.jar";
             "hash" = "sha512-QSNCIjdI+orcbmn8/IWem0M5KlWL5F/TZHbmiw+nnsw41P6q/a/+ycQu8NEH4Gb1Z+tEgaPMI9qZA65402bg1w==";
         };
+        _py6mlNTk = {
+            "id" = "py6mlNTk";
+            "file" = "better-nether-26.302.1.jar";
+            "hash" = "sha512-azkigyv3RVg73II6XJoU64l0DvnsagCIv8l/2zQBrlaiueeBOGUw+SwjxyMZL+o45iNXU/0MWwpUmZLwnz7HTA==";
+        };
     in {
         "sPFMoqd5" = _sPFMoqd5;
         "MaTuYgp1" = _MaTuYgp1;
@@ -464,6 +469,7 @@ let
         "Ixe5naOF" = _Ixe5naOF;
         "cNXChPvb" = _cNXChPvb;
         "zV3Bxy94" = _zV3Bxy94;
+        "py6mlNTk" = _py6mlNTk;
         "fabric-1.19" = _aVzW3Afg;
         "fabric-1.19.1" = _aVzW3Afg;
         "fabric-1.19.2" = _aVzW3Afg;
@@ -484,7 +490,7 @@ let
         "fabric-26.1.2" = _7CEc5wqL;
         "fabric-26.3-snapshot-6" = _htDJeQkj;
         "fabric-26.2" = _Ixe5naOF;
-        "fabric-26.3" = _t1mgEH0G;
+        "fabric-26.3" = _py6mlNTk;
         "pkg-7.1.1" = _sPFMoqd5;
         "pkg-7.1.2" = _MaTuYgp1;
         "pkg-8.1.0-pre1" = _jjV0S0fX;
@@ -562,7 +568,8 @@ let
         "pkg-26.201.5" = _Ixe5naOF;
         "pkg-21.800.4" = _cNXChPvb;
         "pkg-9.0.12" = _zV3Bxy94;
-        "default" = _zV3Bxy94;
+        "pkg-26.302.1" = _py6mlNTk;
+        "default" = _py6mlNTk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternether";

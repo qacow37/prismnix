@@ -131,6 +131,11 @@ let
             "file" = "brightness-plus-26.3.jar";
             "hash" = "sha512-vqhPzyPZfoBBhRZTECixMQMRLS/rF25rCUPOWLcvvyfG+6GjW92oQ+8V5L6ELjGXXqzxUpxgq/ZXIZWAfv3ZqQ==";
         };
+        _d1GRv68g = {
+            "id" = "d1GRv68g";
+            "file" = "brightness-plus-1.11.26+mc1.21.11.jar";
+            "hash" = "sha512-8gwQ682+OUeI9xoPZPwUinY/z4S91DF4ERIuBvFROV6OePa+s/dv65zQkowXSBbXFuZD3haWc9dXhtUzSwgPFA==";
+        };
     in {
         "EvFYoeMw" = _EvFYoeMw;
         "Y6DCSenJ" = _Y6DCSenJ;
@@ -158,6 +163,7 @@ let
         "nMLOeDOj" = _nMLOeDOj;
         "GsnGnMe8" = _GsnGnMe8;
         "V3ICTRGo" = _V3ICTRGo;
+        "d1GRv68g" = _d1GRv68g;
         "fabric-1.21" = _EvFYoeMw;
         "fabric-1.21.1" = _Y6DCSenJ;
         "fabric-1.21.2" = _AbEHtTeC;
@@ -175,7 +181,7 @@ let
         "fabric-1.20.6" = _lXejwTjT;
         "fabric-1.21.9" = _hHvXOwHa;
         "fabric-1.21.10" = _RLtOG7cQ;
-        "fabric-1.21.11" = _OcN1U0lP;
+        "fabric-1.21.11" = _d1GRv68g;
         "fabric-26.1" = _KXJ00UTj;
         "fabric-26.1.1" = _BbNSoSYL;
         "fabric-26.1.2" = _cqVOcY1o;
@@ -206,7 +212,8 @@ let
         "pkg-26.3-beta" = _cTGKsIiW;
         "pkg-26.3-alpha" = _GsnGnMe8;
         "pkg-26.3" = _V3ICTRGo;
-        "default" = _V3ICTRGo;
+        "pkg-1.11.26+mc1.21.11" = _d1GRv68g;
+        "default" = _d1GRv68g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brightness-plus";

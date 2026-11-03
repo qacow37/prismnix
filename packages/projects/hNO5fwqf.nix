@@ -321,6 +321,16 @@ let
             "file" = "enderio_evolution-4.0.3-NeoForge-26.1.2.jar";
             "hash" = "sha512-Pn+EI49b1wEhAWgfF1JMK50Pw/G50jWY1CyzFqP27l05hvDDafacpz462J6DlG45AX+NG1+wZ3ZHZ4dW0RyNGw==";
         };
+        _NCzR23nW = {
+            "id" = "NCzR23nW";
+            "file" = "enderio_evolution-4.0.4-NeoForge-26.1.2.jar";
+            "hash" = "sha512-kvOvqm+q0gHZEhO/Pfl0y8WsRi4SRUiaSHy7jNCHARySwWjNAl+gRYzTiTcGMO0+xXrhno2nV6uSVbrGhciXmw==";
+        };
+        _azqIlL0Y = {
+            "id" = "azqIlL0Y";
+            "file" = "enderio_evolution-1.2.3-Forge-1.20.1.jar";
+            "hash" = "sha512-bs+w65ACx7w2XR77Vb5yXnKoN8XAsIJpYKTdz7R/9wpAumD/qi8GJnfI+kvmK+4DVq8yUfFvhhzvSc5bzGyYjA==";
+        };
     in {
         "BcX2EEeH" = _BcX2EEeH;
         "dYuGhtsw" = _dYuGhtsw;
@@ -386,9 +396,11 @@ let
         "Yizq3hyc" = _Yizq3hyc;
         "wvw9vZeD" = _wvw9vZeD;
         "GxMK110w" = _GxMK110w;
+        "NCzR23nW" = _NCzR23nW;
+        "azqIlL0Y" = _azqIlL0Y;
         "neoforge-1.21.1" = _nnShL6rj;
-        "neoforge-26.1.2" = _GxMK110w;
-        "forge-1.20.1" = _wvw9vZeD;
+        "neoforge-26.1.2" = _NCzR23nW;
+        "forge-1.20.1" = _azqIlL0Y;
         "pkg-1.0.0-1.21.1" = _BcX2EEeH;
         "pkg-1.0.0-1.20.1" = _dYuGhtsw;
         "pkg-1.0.1-1.21.1" = _xZP42HDJ;
@@ -453,7 +465,9 @@ let
         "pkg-1.2.1-Forge-1.20.1" = _Yizq3hyc;
         "pkg-1.2.2-Forge-1.20.1" = _wvw9vZeD;
         "pkg-4.0.3-NeoForge-26.1.2" = _GxMK110w;
-        "default" = _GxMK110w;
+        "pkg-4.0.4-NeoForge-26.1.2" = _NCzR23nW;
+        "pkg-1.2.3-Forge-1.20.1" = _azqIlL0Y;
+        "default" = _azqIlL0Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderio_evolution";

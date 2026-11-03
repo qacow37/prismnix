@@ -41,6 +41,11 @@ let
             "file" = "hurl-1.0.4-26.2.jar";
             "hash" = "sha512-wNkn/9eSGqaVDRqJZO12WIC31JMEvIGxz3OmU8ZFli2/Mck7Aeji+LQySoyVv5Y7xxy7XbB+ui9jk5qeli5cjg==";
         };
+        _x7ktVNYK = {
+            "id" = "x7ktVNYK";
+            "file" = "hurl-1.0.4-26.3.jar";
+            "hash" = "sha512-AxLMsq8UxPpNoe/pWEA6qWuaESR2DVcaNKnJNbxOF1Bq9YyNkDNBvFfvCNh4hJOJ/6rySxvNO546KWUMqO0Z9Q==";
+        };
     in {
         "xCd3Dnai" = _xCd3Dnai;
         "umCWzvth" = _umCWzvth;
@@ -50,6 +55,7 @@ let
         "P9iXLZtQ" = _P9iXLZtQ;
         "d9tklCwm" = _d9tklCwm;
         "lV7qhFPQ" = _lV7qhFPQ;
+        "x7ktVNYK" = _x7ktVNYK;
         "fabric-1.21.8" = _SQbwB2Dm;
         "fabric-1.21.9" = _zmx5kzHx;
         "fabric-1.21.10" = _KmNqE6jj;
@@ -58,12 +64,14 @@ let
         "fabric-26.1.1" = _d9tklCwm;
         "fabric-26.1.2" = _d9tklCwm;
         "fabric-26.2" = _lV7qhFPQ;
+        "fabric-26.3" = _x7ktVNYK;
         "pkg-1.0.0" = _xCd3Dnai;
         "pkg-1.0.1" = _umCWzvth;
         "pkg-1.0.2" = _SQbwB2Dm;
         "pkg-1.0.3" = _zmx5kzHx;
         "pkg-1.0.4" = _lV7qhFPQ;
-        "default" = _lV7qhFPQ;
+        "pkg-1.0.4-26.3" = _x7ktVNYK;
+        "default" = _x7ktVNYK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hurl";

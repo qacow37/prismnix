@@ -136,6 +136,21 @@ let
             "file" = "SecretRoutes-1.1.0+26.3.jar";
             "hash" = "sha512-npjjJbP6yPxf5BFEX4vDMgKqNyUo+FDqxwbM0QOh6Jbf1GJwo60PrM/D0ONLETvCinuLsHB/2k5x5kTpzLGx1g==";
         };
+        _RHDJMpQD = {
+            "id" = "RHDJMpQD";
+            "file" = "SecretRoutes-1.1.1+26.1.2.jar";
+            "hash" = "sha512-6uGYc/S4TtxaLBzfKa9k3zAwWazQ7ItSu/0XZeOmHJy4z5PekqY/RiqQcEePbw0HT9jHiRF/Jz3GU3HruRU+Gw==";
+        };
+        _nEM107KV = {
+            "id" = "nEM107KV";
+            "file" = "SecretRoutes-1.1.1+26.2.jar";
+            "hash" = "sha512-cMsWLW9xDlk7uCE8uiTMUh/MYSkEVMPDg+fIEWi3FOZMyi5+ECQctcs3w1IMRClQWAxd5WUseER0oyBTGBielA==";
+        };
+        _oPhMHqhL = {
+            "id" = "oPhMHqhL";
+            "file" = "SecretRoutes-1.1.1+26.3.jar";
+            "hash" = "sha512-W2lMLyRvf9M0z5yzXbuvgWb8Wj3JYss/CzUKoW9M6cF+8+afrMawVToCNQZXNOpGBuKCoPRuRqqaW5wUOpumhg==";
+        };
     in {
         "UpsUbiIv" = _UpsUbiIv;
         "eXyn3XdW" = _eXyn3XdW;
@@ -164,14 +179,17 @@ let
         "NB4LAvlC" = _NB4LAvlC;
         "VyaSfxjJ" = _VyaSfxjJ;
         "qyAAv6IJ" = _qyAAv6IJ;
+        "RHDJMpQD" = _RHDJMpQD;
+        "nEM107KV" = _nEM107KV;
+        "oPhMHqhL" = _oPhMHqhL;
         "forge-1.8.9" = _lLIGFeUd;
         "fabric-1.21.10" = _QqQATUjO;
         "fabric-1.21.11" = _hCjidLfs;
         "fabric-26.1" = _aYCJTjte;
         "fabric-26.1.1" = _aYCJTjte;
-        "fabric-26.1.2" = _NB4LAvlC;
-        "fabric-26.2" = _VyaSfxjJ;
-        "fabric-26.3" = _qyAAv6IJ;
+        "fabric-26.1.2" = _RHDJMpQD;
+        "fabric-26.2" = _nEM107KV;
+        "fabric-26.3" = _oPhMHqhL;
         "pkg-0.4.3" = _UpsUbiIv;
         "pkg-0.4.4" = _eXyn3XdW;
         "pkg-0.4.5" = _QinfsbC3;
@@ -197,7 +215,10 @@ let
         "pkg-1.1.0-26.1.2" = _NB4LAvlC;
         "pkg-1.1.0-26.2" = _VyaSfxjJ;
         "pkg-1.1.0-26.3" = _qyAAv6IJ;
-        "default" = _qyAAv6IJ;
+        "pkg-1.1.1-26.1.2" = _RHDJMpQD;
+        "pkg-1.1.1-26.2" = _nEM107KV;
+        "pkg-1.1.1-26.3" = _oPhMHqhL;
+        "default" = _oPhMHqhL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "secret-routes-mod";

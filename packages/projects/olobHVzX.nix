@@ -46,6 +46,11 @@ let
             "file" = "Appa Ghasts1.3.1.zip";
             "hash" = "sha512-N7gW/1A5U5FSrmrek6NeLM6G7aEGI3qLL8YNzu2X9RA37tGN8aed+z5l+9lors8fQXd9NluXxii7nIu/fMWrzA==";
         };
+        _tAVRdMet = {
+            "id" = "tAVRdMet";
+            "file" = "Appa Ghasts 1.4.0.zip";
+            "hash" = "sha512-JdcTjadyhulMmK0CD6LhtBQAZNv19H1w+ZeSN7KnB97BZFaitoYUwjPbgGrDt+AYNT+sOXoaZrG42titVDQiHg==";
+        };
     in {
         "OmmXx4XE" = _OmmXx4XE;
         "Sjs6DW0p" = _Sjs6DW0p;
@@ -56,6 +61,7 @@ let
         "gk2UMrF1" = _gk2UMrF1;
         "OjBzJ3cu" = _OjBzJ3cu;
         "IuXZ6azF" = _IuXZ6azF;
+        "tAVRdMet" = _tAVRdMet;
         "minecraft-1.21.6" = _gk2UMrF1;
         "minecraft-1.21.7" = _gk2UMrF1;
         "minecraft-1.21.8" = _gk2UMrF1;
@@ -67,6 +73,7 @@ let
         "minecraft-26.1.1" = _IuXZ6azF;
         "minecraft-26.1.2" = _IuXZ6azF;
         "minecraft-26.2" = _IuXZ6azF;
+        "minecraft-26.3" = _tAVRdMet;
         "pkg-1.0.0" = _OmmXx4XE;
         "pkg-1.1.0" = _Sjs6DW0p;
         "pkg-1.1.1" = _sEy75gC1;
@@ -75,7 +82,8 @@ let
         "pkg-1.2.2" = _gk2UMrF1;
         "pkg-1.3.0" = _OjBzJ3cu;
         "pkg-1.3.1" = _IuXZ6azF;
-        "default" = _IuXZ6azF;
+        "pkg-1.4.0" = _tAVRdMet;
+        "default" = _tAVRdMet;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "appa-ghasts";

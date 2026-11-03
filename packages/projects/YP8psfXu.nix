@@ -161,6 +161,46 @@ let
             "file" = "carpet-rof-addition-26.3-1.6.1.jar";
             "hash" = "sha512-qkWPmmpbYZYxyiZEoo0GzSvkka8bqYAMRmme+m+WodppTApbE0PRn8+sVMKqJKPHnJjgLknz2buJmJJYgKbn8g==";
         };
+        _6SC9Tsnd = {
+            "id" = "6SC9Tsnd";
+            "file" = "carpet-rof-addition-1.21.5-1.6.3.jar";
+            "hash" = "sha512-r3ax+iNfJA6jSYp+7lPLXc1LSBARUR1g7Q3orf1VElsmJWHIu/NxLVd6xrCQAHvzLELAupmvnB2OqvjJtWfU9g==";
+        };
+        _IrkXvtyx = {
+            "id" = "IrkXvtyx";
+            "file" = "carpet-rof-addition-1.21.6-1.6.3.jar";
+            "hash" = "sha512-ozmR0cK2M4HL0T9zzLeuSRtHf9hdFMV+r03k+Z5eI3lYH0vcR8O2v70a1M7piPYITr/O3kykaSD7Y+8kDkjJQg==";
+        };
+        _KUxN92nq = {
+            "id" = "KUxN92nq";
+            "file" = "carpet-rof-addition-1.21.8-1.6.3.jar";
+            "hash" = "sha512-ic/T29XnFG4AjLQjMV8A0VFnILfM23kTkUwvDoaZ5wRt0K42PtOAyD1mcjEMWa9dh7PyfG8bS+VJbgT4PP9stw==";
+        };
+        _oyI5qpwP = {
+            "id" = "oyI5qpwP";
+            "file" = "carpet-rof-addition-1.21.9-1.6.3.jar";
+            "hash" = "sha512-2K4kuEW+A7kCd2raeyWJa9QDfzUTKr0+0eAJq+qpYdq7+ig7hiG82i/ysX1QlZTm9LPE70aI1v6vzTSM9EjNeA==";
+        };
+        _gE2DbbW5 = {
+            "id" = "gE2DbbW5";
+            "file" = "carpet-rof-addition-1.21.11-1.6.3.jar";
+            "hash" = "sha512-Fm7M2e5MIAykZ8Nl4z9p0yX67vn+yR4zMxO9hD1QLxXVBZhpp/e5CgB0/2CpCVeInYSsxd2o13Qmp3Lwk7mFLA==";
+        };
+        _FZnOxpeN = {
+            "id" = "FZnOxpeN";
+            "file" = "carpet-rof-addition-26.1-1.6.3.jar";
+            "hash" = "sha512-cdAGGvGIVw+6sC63fzE8AhSC9NEWX7mo094+5/x/Ti40NaTkIA+gqLdKxlW7O5GNiDlm5+jmNSFcNYI5aYCIFA==";
+        };
+        _URNwVKLy = {
+            "id" = "URNwVKLy";
+            "file" = "carpet-rof-addition-26.2-1.6.3.jar";
+            "hash" = "sha512-Il1mkEPbjZU51AvlbNyyoTxvv931aLHQ9q84UaAPLd0EG2YWbddSeH0dXSAXuv6mwsbxF19BlRVbeUtRl/ONrQ==";
+        };
+        _xbkjJID0 = {
+            "id" = "xbkjJID0";
+            "file" = "carpet-rof-addition-26.3-1.6.3.jar";
+            "hash" = "sha512-ORV70w4S59KhFGU3nQmEe6qV0m5ykW0nx/PtIRDUa19dSRa7Zl8oeMseLhkAT9/u7rM+HR+S8zwlDUfcNOyvEA==";
+        };
     in {
         "JXuQlYZM" = _JXuQlYZM;
         "ybK53BaJ" = _ybK53BaJ;
@@ -194,23 +234,31 @@ let
         "KflIEUn7" = _KflIEUn7;
         "Mw8bF7hX" = _Mw8bF7hX;
         "wnrrb1A0" = _wnrrb1A0;
-        "fabric-1.21.10" = _HNa1nHuh;
-        "fabric-26.1" = _ueCYmB4n;
-        "fabric-26.1.1" = _ueCYmB4n;
-        "fabric-26.1.2" = _ueCYmB4n;
-        "fabric-1.21.11" = _LwcLeq8k;
-        "fabric-1.21.9" = _HNa1nHuh;
-        "fabric-1.21.8" = _KflIEUn7;
-        "fabric-1.21.6" = _KflIEUn7;
-        "fabric-1.21.7" = _KflIEUn7;
-        "fabric-1.21.5" = _Mw8bF7hX;
+        "6SC9Tsnd" = _6SC9Tsnd;
+        "IrkXvtyx" = _IrkXvtyx;
+        "KUxN92nq" = _KUxN92nq;
+        "oyI5qpwP" = _oyI5qpwP;
+        "gE2DbbW5" = _gE2DbbW5;
+        "FZnOxpeN" = _FZnOxpeN;
+        "URNwVKLy" = _URNwVKLy;
+        "xbkjJID0" = _xbkjJID0;
+        "fabric-1.21.10" = _oyI5qpwP;
+        "fabric-26.1" = _FZnOxpeN;
+        "fabric-26.1.1" = _FZnOxpeN;
+        "fabric-26.1.2" = _FZnOxpeN;
+        "fabric-1.21.11" = _gE2DbbW5;
+        "fabric-1.21.9" = _oyI5qpwP;
+        "fabric-1.21.8" = _KUxN92nq;
+        "fabric-1.21.6" = _IrkXvtyx;
+        "fabric-1.21.7" = _IrkXvtyx;
+        "fabric-1.21.5" = _6SC9Tsnd;
         "fabric-1.21.4" = _rwNIcG3p;
         "fabric-1.21.3" = _7LF9ORN5;
         "fabric-1.21.2" = _qjcTEeUr;
         "fabric-1.21.1" = _2vV2ePMM;
         "fabric-1.21" = _HqfNViM0;
-        "fabric-26.2" = _IcFowqoA;
-        "fabric-26.3" = _wnrrb1A0;
+        "fabric-26.2" = _URNwVKLy;
+        "fabric-26.3" = _xbkjJID0;
         "pkg-1.3.0-beta.1" = _HqfNViM0;
         "pkg-1.5.0" = _ekIKmRkX;
         "pkg-1.5.2" = _ks4UhNOB;
@@ -218,7 +266,8 @@ let
         "pkg-1.5.6" = _NslBA0mR;
         "pkg-1.6.0" = _Mw8bF7hX;
         "pkg-1.6.1" = _wnrrb1A0;
-        "default" = _wnrrb1A0;
+        "pkg-1.6.3" = _xbkjJID0;
+        "default" = _xbkjJID0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-rof-addition";

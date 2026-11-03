@@ -921,6 +921,31 @@ let
             "file" = "kaleidoscope_cookery-1.6.0.6-fabric+mc26.3.jar";
             "hash" = "sha512-eRBkG6dELlbPo05LHWLa16aayXQ2ydwi/SX6ZTe0zrC8qiwDVPVEqrdLlBF2sMt7AqA96nB9KuazUPGS77p0uw==";
         };
+        _eY332oBj = {
+            "id" = "eY332oBj";
+            "file" = "kaleidoscope_cookery-1.6.0.7-fabric+mc1.20.1.jar";
+            "hash" = "sha512-BeB1WwXSNinLfbGy9hbfPGcqFcqFgg0pZ8VkOkc23Y0V44JtQR41TqNqvxK5ybUXD5n4C1SAVRElENmuGKYNcw==";
+        };
+        _uX05gQkC = {
+            "id" = "uX05gQkC";
+            "file" = "kaleidoscope_cookery-1.6.0.7-fabric+mc1.21.1.jar";
+            "hash" = "sha512-bJM0PuCOJVJrbL30fcq+cdkHKBW/uQC5O5nNlRHTcqDgLld+hJeHU4tTOxCmGVHVAv+UKoAiQ+49f/QfB4rS/A==";
+        };
+        _4jaTjBVV = {
+            "id" = "4jaTjBVV";
+            "file" = "kaleidoscope_cookery-1.6.0.7-fabric+mc26.1.2.jar";
+            "hash" = "sha512-zX2B3frghgtNDJDAiFRt5tca1fHTzkS/MT8IjPfObBEfmyOjsTrQglazMlfBhDZhPqeX1W2gr1SPt9xSCthZLg==";
+        };
+        _sflwXftd = {
+            "id" = "sflwXftd";
+            "file" = "kaleidoscope_cookery-1.6.0.7-fabric+mc26.2.jar";
+            "hash" = "sha512-Ij97hARZBrfY0aOW3v054/tT0cTsH+yOdBsTUqDFVt3hwdR4IwrYFdjzYcEo4Nw2Shve1SBnKJwPIdkuRng1pw==";
+        };
+        _Ou0n4j1X = {
+            "id" = "Ou0n4j1X";
+            "file" = "kaleidoscope_cookery-1.6.0.7-fabric+mc26.3.jar";
+            "hash" = "sha512-SbEbeOzYM0giVuLGSZ9TCYkC/1w7FK3XlpncaHG3yqX9VXF5zKnMRtIiGti7q4OoblFyUd+y11ZnIKiJ4NXT4Q==";
+        };
     in {
         "Q9RlHo9S" = _Q9RlHo9S;
         "4J1qbJCm" = _4J1qbJCm;
@@ -1106,14 +1131,19 @@ let
         "8pmEOLME" = _8pmEOLME;
         "h1c8EHRt" = _h1c8EHRt;
         "7cocw8Co" = _7cocw8Co;
-        "fabric-1.21.1" = _QwvfHVMm;
-        "fabric-1.20.1" = _pgMmnpfW;
+        "eY332oBj" = _eY332oBj;
+        "uX05gQkC" = _uX05gQkC;
+        "4jaTjBVV" = _4jaTjBVV;
+        "sflwXftd" = _sflwXftd;
+        "Ou0n4j1X" = _Ou0n4j1X;
+        "fabric-1.21.1" = _uX05gQkC;
+        "fabric-1.20.1" = _eY332oBj;
         "fabric-1.21.11" = _T5QYqq9P;
-        "fabric-26.1" = _8BX1GmjK;
-        "fabric-26.1.1" = _8BX1GmjK;
-        "fabric-26.1.2" = _8BX1GmjK;
-        "fabric-26.2" = _8pmEOLME;
-        "fabric-26.3" = _7cocw8Co;
+        "fabric-26.1" = _4jaTjBVV;
+        "fabric-26.1.1" = _4jaTjBVV;
+        "fabric-26.1.2" = _4jaTjBVV;
+        "fabric-26.2" = _sflwXftd;
+        "fabric-26.3" = _Ou0n4j1X;
         "pkg-1.1.1-fabric+mc1.21.1" = _Q9RlHo9S;
         "pkg-1.1.1-fabric+mc1.20.1" = _4J1qbJCm;
         "pkg-1.1.1a-fabric+mc1.21.1" = _YR85Iz5R;
@@ -1298,7 +1328,12 @@ let
         "pkg-1.6.0.5-fabric+mc26.2" = _8pmEOLME;
         "pkg-1.6.0.5-fabric+mc26.3" = _h1c8EHRt;
         "pkg-1.6.0.6-fabric+mc26.3" = _7cocw8Co;
-        "default" = _7cocw8Co;
+        "pkg-1.6.0.7-fabric+mc1.20.1" = _eY332oBj;
+        "pkg-1.6.0.7-fabric+mc1.21.1" = _uX05gQkC;
+        "pkg-1.6.0.7-fabric+mc26.1.2" = _4jaTjBVV;
+        "pkg-1.6.0.7-fabric+mc26.2" = _sflwXftd;
+        "pkg-1.6.0.7-fabric+mc26.3" = _Ou0n4j1X;
+        "default" = _Ou0n4j1X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-cookery-refabricated";

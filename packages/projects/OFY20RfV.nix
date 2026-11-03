@@ -126,6 +126,16 @@ let
             "file" = "strayskins-26.3-fabric-1.2.1.jar";
             "hash" = "sha512-V0uIYl37aSFfHZqhmO+hOTYsyUJonFYjwFH4FyQ4iIJ64u4q4X95j91D1p82rX8PHBK7OuAgufca0l44ko+kQg==";
         };
+        _UcDAIkNH = {
+            "id" = "UcDAIkNH";
+            "file" = "strayskins-26.2-fabric-1.2.2.jar";
+            "hash" = "sha512-HS4KbQzkhFd3XjdTSC7vsmk2MPhIdeeYndecwLhPYLgrUK53vEaVcmZe+jA+oW+K4OaLKRkO0+5ePVy8I5RbgA==";
+        };
+        _9IW6wSGg = {
+            "id" = "9IW6wSGg";
+            "file" = "strayskins-26.3-fabric-1.2.2.jar";
+            "hash" = "sha512-fmEBe1l8MtEb/X4VJqysGhFcHfjMN+MsG0VcX2ZcRuetsZlmTEdn4gqnYNsy/sq+nmXlsishmLw62hdPbspkVg==";
+        };
     in {
         "NHpLxyND" = _NHpLxyND;
         "DLXvLmJm" = _DLXvLmJm;
@@ -152,11 +162,13 @@ let
         "TTUyfqnZ" = _TTUyfqnZ;
         "J4iBKANJ" = _J4iBKANJ;
         "ls3Fulrf" = _ls3Fulrf;
+        "UcDAIkNH" = _UcDAIkNH;
+        "9IW6wSGg" = _9IW6wSGg;
         "fabric-1.21.11" = _TTUyfqnZ;
         "fabric-1.21.1" = _cCqTEDDA;
-        "fabric-26.2" = _J4iBKANJ;
+        "fabric-26.2" = _UcDAIkNH;
         "fabric-1.20.1" = _ZR7oWhPd;
-        "fabric-26.3" = _ls3Fulrf;
+        "fabric-26.3" = _9IW6wSGg;
         "pkg-1.21.11-fabric-1.0.5" = _NHpLxyND;
         "pkg-1.21.1-fabric-1.0.5" = _DLXvLmJm;
         "pkg-26.2-fabric-1.0.5" = _FUL1xHEa;
@@ -182,7 +194,9 @@ let
         "pkg-1.21.11-fabric-1.2.1" = _TTUyfqnZ;
         "pkg-26.2-fabric-1.2.1" = _J4iBKANJ;
         "pkg-26.3-fabric-1.2.1" = _ls3Fulrf;
-        "default" = _ls3Fulrf;
+        "pkg-26.2-fabric-1.2.2" = _UcDAIkNH;
+        "pkg-26.3-fabric-1.2.2" = _9IW6wSGg;
+        "default" = _9IW6wSGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strayskins";

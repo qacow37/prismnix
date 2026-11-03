@@ -106,6 +106,11 @@ let
             "file" = "deathlogger-fabric-26.3-1.1.0.jar";
             "hash" = "sha512-c9/RlM0v4vNRSJ2umiqRZYaZ6dmP6uXSlVu0TK4d+rKabic8lUy8TuU4H1V5zttAy5zUiZx7AnDhgWF0brND4Q==";
         };
+        _leYfp3Dz = {
+            "id" = "leYfp3Dz";
+            "file" = "deathlogger-neoforge-1.21.1-1.1.0.jar";
+            "hash" = "sha512-ifX42tFahgaycvU5A+5AX7ez9UHHpB2RGzD2XWXIegqwIbmwhzUmXFVNQo8SFLm0tT4GMqR1XlUFI5bUI6b2mQ==";
+        };
     in {
         "EeVnbxtc" = _EeVnbxtc;
         "wUaDnRo0" = _wUaDnRo0;
@@ -128,6 +133,7 @@ let
         "EGli0tcb" = _EGli0tcb;
         "eZ1BxQ6k" = _eZ1BxQ6k;
         "zsXrlThN" = _zsXrlThN;
+        "leYfp3Dz" = _leYfp3Dz;
         "fabric-1.21.3" = _EeVnbxtc;
         "fabric-1.21.4" = _wUaDnRo0;
         "fabric-1.21.5" = _lsv8KqF3;
@@ -147,6 +153,7 @@ let
         "neoforge-26.1.2" = _AA2KtkoU;
         "neoforge-26.2" = _fJTYLDwz;
         "neoforge-26.3" = _eZ1BxQ6k;
+        "neoforge-1.21.1" = _leYfp3Dz;
         "forge-26.1.2" = _1AM8spjd;
         "forge-26.3" = _EGli0tcb;
         "pkg-0.4.2+1.21.3" = _EeVnbxtc;
@@ -170,7 +177,8 @@ let
         "pkg-1.1.0+26.3-forge" = _EGli0tcb;
         "pkg-1.1.0+26.3-neoforge" = _eZ1BxQ6k;
         "pkg-1.1.0+26.3-fabric" = _zsXrlThN;
-        "default" = _zsXrlThN;
+        "pkg-1.1.0+neoforge-1.21.1" = _leYfp3Dz;
+        "default" = _leYfp3Dz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "death-logger";

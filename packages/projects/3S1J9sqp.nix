@@ -71,6 +71,11 @@ let
             "file" = "modern_window_patches-1.7.3-forge-1.20.1.jar";
             "hash" = "sha512-rkEAH6QwJhAkd5uZjfk9nvSAtn8YrU9v8Q3yJUGLsBH+N8fvVhktx8sRYHUIQyikrJQFhm6aQWTtHkpFGADtLQ==";
         };
+        _8CenjYFs = {
+            "id" = "8CenjYFs";
+            "file" = "modern_window_patches-1.7.9-forge-1.20.1.jar";
+            "hash" = "sha512-7WkHrD4v8ejznde6cl9y6rBAj2wlsuc39Lzix1EUDhNwjmU7GlOz4J73bpuaADqpzamzn++k3S6uWOL7zDmzGA==";
+        };
     in {
         "c805ShPL" = _c805ShPL;
         "ddw6LvO7" = _ddw6LvO7;
@@ -86,10 +91,11 @@ let
         "GZoSOIdD" = _GZoSOIdD;
         "Juc0uDv6" = _Juc0uDv6;
         "UxxFjtrL" = _UxxFjtrL;
-        "forge-1.20.1" = _UxxFjtrL;
-        "forge-1.20" = _UxxFjtrL;
-        "neoforge-1.20.1" = _UxxFjtrL;
-        "neoforge-1.20" = _UxxFjtrL;
+        "8CenjYFs" = _8CenjYFs;
+        "forge-1.20.1" = _8CenjYFs;
+        "forge-1.20" = _8CenjYFs;
+        "neoforge-1.20.1" = _8CenjYFs;
+        "neoforge-1.20" = _8CenjYFs;
         "pkg-1.0.0" = _tZ8Fb7QH;
         "pkg-1.1.0" = _ddw6LvO7;
         "pkg-1.3.0" = _PAJ9PFii;
@@ -101,7 +107,8 @@ let
         "pkg-1.6.3" = _SIPOUUJq;
         "pkg-1.7.0" = _GZoSOIdD;
         "pkg-1.7.3" = _UxxFjtrL;
-        "default" = _UxxFjtrL;
+        "pkg-1.7.9" = _8CenjYFs;
+        "default" = _8CenjYFs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-windowsunofficial-version";

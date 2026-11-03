@@ -121,6 +121,26 @@ let
             "file" = "francetiers_tagger-3.1.0.jar";
             "hash" = "sha512-1BynWCKj626KwPDowgXtKN3YVnibg+iK++3AX/vGvL/yHA3o3lrFG1ikesDem1qy8O7znU6/KJ5LlLBI6lAo1Q==";
         };
+        _DqghW3Cw = {
+            "id" = "DqghW3Cw";
+            "file" = "francetiers_tagger-3.1.1.jar";
+            "hash" = "sha512-8NowqBM73zkEVFXOXjLT9lUAn+iagsKew4FuWmDy/U9hZ0XgM8NHqJklE/Sq51CfM75z8+IOJWp1hozHnnMErg==";
+        };
+        _BYdvRrZo = {
+            "id" = "BYdvRrZo";
+            "file" = "francetiers_tagger-3.1.0.jar";
+            "hash" = "sha512-MNAkeEM2xcXcKTZbUY7rtPRzBXz3BLATU5F5muwp02QaCZa49uFKl28Hh4nv3Ztn2t2LzypzWY5DRWLeobHPsg==";
+        };
+        _S9BnJN3F = {
+            "id" = "S9BnJN3F";
+            "file" = "francetiers_tagger-3.1.0.jar";
+            "hash" = "sha512-2DAeJQDiqJZj/GOP/KGFgzxY0hSkIwGV4SxNjhuWoq49Uds92nWvtPHKG4KqUu2v40uy89KejUTQLTBxHrRyUQ==";
+        };
+        _2XHxv2X5 = {
+            "id" = "2XHxv2X5";
+            "file" = "francetiers_tagger-3.1.0.jar";
+            "hash" = "sha512-TFSzQzR9M28+CB/VsN3legZbm3y8dqYDc8vHg9928hh2RMJq2x42r+4epnt8qd60fkLjkhCU525KTJUWYXTnrA==";
+        };
     in {
         "SZuxA0Z6" = _SZuxA0Z6;
         "UjsdF3mS" = _UjsdF3mS;
@@ -146,6 +166,10 @@ let
         "JseMnw0s" = _JseMnw0s;
         "MUfhoIFt" = _MUfhoIFt;
         "p3IqP3DW" = _p3IqP3DW;
+        "DqghW3Cw" = _DqghW3Cw;
+        "BYdvRrZo" = _BYdvRrZo;
+        "S9BnJN3F" = _S9BnJN3F;
+        "2XHxv2X5" = _2XHxv2X5;
         "fabric-1.21.4" = _8DDGkYgL;
         "fabric-1.21.5" = _8DDGkYgL;
         "fabric-1.21" = _JseMnw0s;
@@ -153,7 +177,12 @@ let
         "fabric-1.21.8" = _qi9lK2Dj;
         "fabric-1.21.9" = _qi9lK2Dj;
         "fabric-1.21.10" = _MUfhoIFt;
-        "fabric-1.21.11" = _p3IqP3DW;
+        "fabric-1.21.11" = _DqghW3Cw;
+        "fabric-26.1" = _BYdvRrZo;
+        "fabric-26.1.1" = _BYdvRrZo;
+        "fabric-26.1.2" = _BYdvRrZo;
+        "fabric-26.2" = _S9BnJN3F;
+        "fabric-26.3" = _2XHxv2X5;
         "pkg-1.0.0" = _UjsdF3mS;
         "pkg-2.0.0" = _wtvmWB6B;
         "pkg-2.2.0" = _38JOFtBX;
@@ -164,8 +193,9 @@ let
         "pkg-2.5.3" = _MLuWMjIi;
         "pkg-2.5.4" = _JseMnw0s;
         "pkg-3.0.1" = _MUfhoIFt;
-        "pkg-3.1.0" = _p3IqP3DW;
-        "default" = _p3IqP3DW;
+        "pkg-3.1.0" = _2XHxv2X5;
+        "pkg-3.1.1" = _DqghW3Cw;
+        "default" = _2XHxv2X5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "francetierstagger";

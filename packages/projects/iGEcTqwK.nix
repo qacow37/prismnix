@@ -221,6 +221,16 @@ let
             "file" = "fantasticwings-v20.1.2-mc1.20.1+forge.jar";
             "hash" = "sha512-Bf01zYCFo2Gb/Kf45/fotsXvT0lLLKhC8LFFBHrnny9ciieMGRrUKQs0pTDPPwTlFMGF5oX570rzC7GoOWUZJg==";
         };
+        _yGyRAGa3 = {
+            "id" = "yGyRAGa3";
+            "file" = "fantasticwings-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-rycfyAmt8IRqLoiCOresDEXcHfOH+BIW8/wcoNn8TmGPs+2gpxqcx9zjOHQ9npXNkcJj4cYUyqQwnSqq3EVfWA==";
+        };
+        _N97Ch5Lv = {
+            "id" = "N97Ch5Lv";
+            "file" = "fantasticwings-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-qtjR+CgoUQ9g/sPuReC6IMgjCuB8cwK0vkcvsPWtO5DAZ0NaOf2Gu+uUxmjowInULmZ82J1fDZY6GfIhw2aT+A==";
+        };
     in {
         "Z6Vfcp4d" = _Z6Vfcp4d;
         "gyaMjMVZ" = _gyaMjMVZ;
@@ -266,6 +276,8 @@ let
         "Ho6D30pC" = _Ho6D30pC;
         "aVaN92u8" = _aVaN92u8;
         "Qgx2TOmF" = _Qgx2TOmF;
+        "yGyRAGa3" = _yGyRAGa3;
+        "N97Ch5Lv" = _N97Ch5Lv;
         "fabric-1.21.10" = _Z6Vfcp4d;
         "fabric-1.20.4" = _u9lufKqf;
         "fabric-1.21.1" = _edLa7tJj;
@@ -279,7 +291,7 @@ let
         "fabric-26.1.2" = _pA8wcdq0;
         "fabric-1.20.1" = _aVaN92u8;
         "fabric-26.2" = _xNHD3I9W;
-        "fabric-26.3" = _Ho6D30pC;
+        "fabric-26.3" = _yGyRAGa3;
         "neoforge-1.21.10" = _gyaMjMVZ;
         "neoforge-1.20.4" = _zxkx0fxU;
         "neoforge-1.21.1" = _hX5hYT5c;
@@ -292,7 +304,7 @@ let
         "neoforge-26.1.1" = _8bWRlYKq;
         "neoforge-26.1.2" = _8bWRlYKq;
         "neoforge-26.2" = _4z1zNjqN;
-        "neoforge-26.3" = _C7xkW4zc;
+        "neoforge-26.3" = _N97Ch5Lv;
         "forge-1.20.4" = _tUq1oX7a;
         "forge-1.20.1" = _Qgx2TOmF;
         "pkg-21.10.0" = _gyaMjMVZ;
@@ -330,7 +342,8 @@ let
         "pkg-26.1.2" = _8bWRlYKq;
         "pkg-26.3.0" = _Ho6D30pC;
         "pkg-20.1.2" = _Qgx2TOmF;
-        "default" = _Qgx2TOmF;
+        "pkg-26.3.1" = _N97Ch5Lv;
+        "default" = _N97Ch5Lv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantastic-wings";

@@ -41,6 +41,16 @@ let
             "file" = "apokinetics-1.20.1-1.0.6-forge.jar";
             "hash" = "sha512-b9lLn5F7Ol+o3Hg05ZXTqCoV3xc6HZOrgX7u1LSo6Z6D343RZxL/ml6jXRkujwyhSfCxwGzx4JFNit3IUDSVdQ==";
         };
+        _1W7DvoMk = {
+            "id" = "1W7DvoMk";
+            "file" = "apokinetics-1.0.12.jar";
+            "hash" = "sha512-cp/lWV+hlbB29go9GBkzMOlKITloV7S2D0m47hg6thCtDi2zTXNDRz3we/RYRD86316a+DjUKsX9c2tfSu1jJw==";
+        };
+        _amm1U5S0 = {
+            "id" = "amm1U5S0";
+            "file" = "apokinetics-1.20.1-1.0.12-forge.jar";
+            "hash" = "sha512-id2EmKqUQp2di4OkpcLwRx3CC1mPZE+WV7JRbbv+X26TCQ8pCKjHESz7tJxGLcglVP3lIa1Vji558juBEbNzcQ==";
+        };
     in {
         "uc0Y9huQ" = _uc0Y9huQ;
         "r7BN4Ozk" = _r7BN4Ozk;
@@ -50,8 +60,10 @@ let
         "ufyKLWS0" = _ufyKLWS0;
         "En6Zf987" = _En6Zf987;
         "s1S1I9PP" = _s1S1I9PP;
-        "neoforge-1.21.1" = _En6Zf987;
-        "forge-1.20.1" = _s1S1I9PP;
+        "1W7DvoMk" = _1W7DvoMk;
+        "amm1U5S0" = _amm1U5S0;
+        "neoforge-1.21.1" = _1W7DvoMk;
+        "forge-1.20.1" = _amm1U5S0;
         "pkg-1.0.0" = _uc0Y9huQ;
         "pkg-1.0.1" = _r7BN4Ozk;
         "pkg-1.0.1-forge-1.20.1" = _s4KqFPFo;
@@ -60,7 +72,9 @@ let
         "pkg-1.0.5" = _ufyKLWS0;
         "pkg-1.0.6" = _En6Zf987;
         "pkg-1.0.6-forge-1.20.1" = _s1S1I9PP;
-        "default" = _s1S1I9PP;
+        "pkg-1.0.12" = _1W7DvoMk;
+        "pkg-1.0.12-forge-1.20.1" = _amm1U5S0;
+        "default" = _amm1U5S0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apokinetics";

@@ -306,6 +306,16 @@ let
             "file" = "pmweather-1.21.1-0.17.17-alpha.jar";
             "hash" = "sha512-GMSdTI6svO5lzOiiGN2csQfUBGmyvaXP5PoWdLP7EtWG+H1bTNUVjKi5y/TE4lB0zmYbiDKJeVZdS6yJeA82NA==";
         };
+        _a4Z72qmO = {
+            "id" = "a4Z72qmO";
+            "file" = "pmweather-1.21.1-0.17.18-alpha.jar";
+            "hash" = "sha512-UY5/F417s6BftXGNS80XCx7c5S2t1rE2ahpyl73ik+h1kVr+vj/bnSZNfegWXfbX+Q9kGWOVHnTgZzAyiVcP2g==";
+        };
+        _4xqckdEV = {
+            "id" = "4xqckdEV";
+            "file" = "pmweather-1.21.1-0.17.19-alpha.jar";
+            "hash" = "sha512-U6vZy3ivBHsuPQ1z7vbmEgrSy7KrlDh2W/r9FAa5sZRmSBE/4AK/WMPA09YIhe9WMRwGLwK1TvDL/pM6AVWWOw==";
+        };
     in {
         "7Mo5Hsit" = _7Mo5Hsit;
         "4zPcuWtj" = _4zPcuWtj;
@@ -368,7 +378,9 @@ let
         "F0nGu4Rk" = _F0nGu4Rk;
         "Qp0DIGJk" = _Qp0DIGJk;
         "5ch0Ee7w" = _5ch0Ee7w;
-        "neoforge-1.21.1" = _5ch0Ee7w;
+        "a4Z72qmO" = _a4Z72qmO;
+        "4xqckdEV" = _4xqckdEV;
+        "neoforge-1.21.1" = _4xqckdEV;
         "pkg-0.12.0-alpha" = _7Mo5Hsit;
         "pkg-0.12.1-alpha" = _4zPcuWtj;
         "pkg-0.12.2-alpha" = _GbrMalwx;
@@ -430,7 +442,9 @@ let
         "pkg-0.17.15-alpha" = _F0nGu4Rk;
         "pkg-0.17.16-alpha" = _Qp0DIGJk;
         "pkg-0.17.17-alpha" = _5ch0Ee7w;
-        "default" = _5ch0Ee7w;
+        "pkg-0.17.18-alpha" = _a4Z72qmO;
+        "pkg-0.17.19-alpha" = _4xqckdEV;
+        "default" = _4xqckdEV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "protomanlys-weather";

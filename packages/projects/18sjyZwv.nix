@@ -86,6 +86,11 @@ let
             "file" = "BlockShips-0.0.17.jar";
             "hash" = "sha512-+8qRZKmL+QRg9NEVWLRziB9DOdrBTv6+PTAooBZeDOOMr6n/4xxsyxrkgUTEAlK9b8mj3UbDKxUHbex763oJrQ==";
         };
+        _ir87Naea = {
+            "id" = "ir87Naea";
+            "file" = "BlockShips-0.0.18.jar";
+            "hash" = "sha512-GhYOZFgiVTTw7KtVkTNsO30wYVcTQTMJoCZfzxhdu4kP1Kj7DqfbPtxGuOyKs4CVUT2ovPytfSam5H/kOCB1Mw==";
+        };
     in {
         "p5mPpKLX" = _p5mPpKLX;
         "jhPKIAYC" = _jhPKIAYC;
@@ -104,6 +109,7 @@ let
         "2xzjroUd" = _2xzjroUd;
         "MqVdveTd" = _MqVdveTd;
         "9WfIAt7w" = _9WfIAt7w;
+        "ir87Naea" = _ir87Naea;
         "paper-1.21.10" = _9WfIAt7w;
         "paper-1.21" = _9WfIAt7w;
         "paper-1.21.1" = _9WfIAt7w;
@@ -115,11 +121,12 @@ let
         "paper-1.21.7" = _9WfIAt7w;
         "paper-1.21.8" = _9WfIAt7w;
         "paper-1.21.9" = _9WfIAt7w;
-        "paper-1.21.11" = _9WfIAt7w;
-        "paper-26.1.2" = _9WfIAt7w;
-        "paper-26.1" = _9WfIAt7w;
-        "paper-26.1.1" = _9WfIAt7w;
-        "paper-26.2" = _9WfIAt7w;
+        "paper-1.21.11" = _ir87Naea;
+        "paper-26.1.2" = _ir87Naea;
+        "paper-26.1" = _ir87Naea;
+        "paper-26.1.1" = _ir87Naea;
+        "paper-26.2" = _ir87Naea;
+        "paper-26.3" = _ir87Naea;
         "purpur-1.21" = _9WfIAt7w;
         "purpur-1.21.1" = _9WfIAt7w;
         "purpur-1.21.2" = _9WfIAt7w;
@@ -131,11 +138,12 @@ let
         "purpur-1.21.8" = _9WfIAt7w;
         "purpur-1.21.9" = _9WfIAt7w;
         "purpur-1.21.10" = _9WfIAt7w;
-        "purpur-1.21.11" = _9WfIAt7w;
-        "purpur-26.1.2" = _9WfIAt7w;
-        "purpur-26.1" = _9WfIAt7w;
-        "purpur-26.1.1" = _9WfIAt7w;
-        "purpur-26.2" = _9WfIAt7w;
+        "purpur-1.21.11" = _ir87Naea;
+        "purpur-26.1.2" = _ir87Naea;
+        "purpur-26.1" = _ir87Naea;
+        "purpur-26.1.1" = _ir87Naea;
+        "purpur-26.2" = _ir87Naea;
+        "purpur-26.3" = _ir87Naea;
         "pkg-0.0.1" = _p5mPpKLX;
         "pkg-0.0.2" = _jhPKIAYC;
         "pkg-0.0.3" = _aJJXXMgT;
@@ -153,7 +161,8 @@ let
         "pkg-0.0.15" = _2xzjroUd;
         "pkg-0.0.16" = _MqVdveTd;
         "pkg-0.0.17" = _9WfIAt7w;
-        "default" = _9WfIAt7w;
+        "pkg-0.0.18" = _ir87Naea;
+        "default" = _ir87Naea;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockships";

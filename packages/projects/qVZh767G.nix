@@ -211,6 +211,11 @@ let
             "file" = "vintage-1.21.1-1.6.4.jar";
             "hash" = "sha512-W4+lsuoMxPVP7OX1duS1Ml6tsk3Xbgo9VQG7g2kLakZVJlWufBz0ksnc4TxvGLyvV494IU5aemHrNsHg1sIWzQ==";
         };
+        _8Xn8084G = {
+            "id" = "8Xn8084G";
+            "file" = "vintage-1.21.1-1.6.5.jar";
+            "hash" = "sha512-tJIRDHwYlZjCzUxUKhnJvG+4mpsLkciOfPMyh2qpC2Rq/c4C/S2CkhJmet2GDvGNvd3noO2g8FiiNMmCMEz8FA==";
+        };
     in {
         "GazXaDyq" = _GazXaDyq;
         "4BoYaeG3" = _4BoYaeG3;
@@ -254,8 +259,9 @@ let
         "jxbnjFb3" = _jxbnjFb3;
         "p4zDPwzI" = _p4zDPwzI;
         "1U05zPuF" = _1U05zPuF;
+        "8Xn8084G" = _8Xn8084G;
         "forge-1.20.1" = _p4zDPwzI;
-        "neoforge-1.21.1" = _1U05zPuF;
+        "neoforge-1.21.1" = _8Xn8084G;
         "pkg-1.20.1-1.1.0" = _GazXaDyq;
         "pkg-1.20.1-1.2.0" = _4BoYaeG3;
         "pkg-1.20.1-1.2.5" = _RPrxh1Kk;
@@ -298,7 +304,8 @@ let
         "pkg-1.21.1-1.6.3" = _jxbnjFb3;
         "pkg-1.20.1-1.6.4" = _p4zDPwzI;
         "pkg-1.21.1-1.6.4" = _1U05zPuF;
-        "default" = _1U05zPuF;
+        "pkg-1.21.1-1.6.5" = _8Xn8084G;
+        "default" = _8Xn8084G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-vintage-(unofficial-port)";

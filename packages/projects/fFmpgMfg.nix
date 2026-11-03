@@ -161,6 +161,16 @@ let
             "file" = "PinTooltips-mc26.1.2-NeoForge-26.0.2.jar";
             "hash" = "sha512-0iFPG73aAmwV0uB7Yka36VwuDiLYsUWwtUEBnrDIq+vOsJt1sJKc0AmFbGs1G5ppZZ2t6+go0NXK+R/gbdzr0g==";
         };
+        _3VwfjBqm = {
+            "id" = "3VwfjBqm";
+            "file" = "PinTooltips-mc26.1-Fabric-26.0.3.jar";
+            "hash" = "sha512-3A0q/zEmsz2bRbWl+B8jslifXB4rtBvJY7lazLv77oxS5XajpiphuNn87/piubMeTlPJ083b+ky025fOFdEn1A==";
+        };
+        _ETEfRHFM = {
+            "id" = "ETEfRHFM";
+            "file" = "PinTooltips-1.21.1-Fabric-2.3.1.jar";
+            "hash" = "sha512-PewmZEbPvS2TxxKJ2NDNLtKWPf/QNT1zRgHvTCj7Nr5lL3kF/xo4Ru1KYI83tV1PusdzetPYAm0bQGAGHgBfXA==";
+        };
     in {
         "RH8eLE50" = _RH8eLE50;
         "7TJGqQwW" = _7TJGqQwW;
@@ -194,16 +204,18 @@ let
         "ed36T5LD" = _ed36T5LD;
         "Wh30vArM" = _Wh30vArM;
         "tDJ85V3a" = _tDJ85V3a;
+        "3VwfjBqm" = _3VwfjBqm;
+        "ETEfRHFM" = _ETEfRHFM;
         "fabric-1.20.1" = _K8t5Rhle;
-        "fabric-1.21.1" = _ZPHvNgQA;
-        "fabric-26.1" = _Wh30vArM;
-        "fabric-26.1.1" = _Wh30vArM;
-        "fabric-26.1.2" = _Wh30vArM;
+        "fabric-1.21.1" = _ETEfRHFM;
+        "fabric-26.1" = _3VwfjBqm;
+        "fabric-26.1.1" = _3VwfjBqm;
+        "fabric-26.1.2" = _3VwfjBqm;
         "quilt-1.20.1" = _K8t5Rhle;
-        "quilt-1.21.1" = _ZPHvNgQA;
-        "quilt-26.1" = _Wh30vArM;
-        "quilt-26.1.1" = _Wh30vArM;
-        "quilt-26.1.2" = _Wh30vArM;
+        "quilt-1.21.1" = _ETEfRHFM;
+        "quilt-26.1" = _3VwfjBqm;
+        "quilt-26.1.1" = _3VwfjBqm;
+        "quilt-26.1.2" = _3VwfjBqm;
         "forge-1.20.1" = _q31LJmbe;
         "neoforge-1.20.1" = _q31LJmbe;
         "neoforge-1.21.1" = _aaaBtx8Z;
@@ -242,7 +254,9 @@ let
         "pkg-26.0.1+fabric" = _ed36T5LD;
         "pkg-26.0.2+fabric" = _Wh30vArM;
         "pkg-26.0.2+neoforge" = _tDJ85V3a;
-        "default" = _tDJ85V3a;
+        "pkg-26.0.3+fabric" = _3VwfjBqm;
+        "pkg-2.3.1+fabric" = _ETEfRHFM;
+        "default" = _ETEfRHFM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pin-tooltips";

@@ -71,6 +71,21 @@ let
             "file" = "betterspawn-1.0.0-26.1-neo.jar";
             "hash" = "sha512-0GIViB+dLIlbp1UEhpEP3eGMBFpz+ua4ToOtQFhLJEWPlQ7sOK6TVJHxknKZx/RXf/B9VbAF8cBaJlwbkPfa6Q==";
         };
+        _TP6s2S1C = {
+            "id" = "TP6s2S1C";
+            "file" = "betterspawn-1.0.8-1.21.1-neo.jar";
+            "hash" = "sha512-h1kWGsezHcUZoT2AsK+r5baSn9QVEjnv/ySvx9XY5FelccBGPHu9YPy69w3g6f9N2YxNhTObS1GJD1kApYlquw==";
+        };
+        _3kZJRYdu = {
+            "id" = "3kZJRYdu";
+            "file" = "betterspawn-1.0.8-1.21.1.jar";
+            "hash" = "sha512-Lx1oB2T+2pDtbk/9c+eBfAiaWT7gvoDa1PqmHci9fpnYRsPFBYOQP2k6ci0dMeYtgTY0oxkOUb5rNGZ7CbWa0A==";
+        };
+        _68gHwjMc = {
+            "id" = "68gHwjMc";
+            "file" = "betterspawn-1.0.9-1.21.1-neo.jar";
+            "hash" = "sha512-NiKBQX9nMccczhY+2jyg0ChBPttae7jJudSdrxA6Dx+FzntypL0E+CFrrkfcQyK8NgvX/XwLvXdxOymgZyUhHA==";
+        };
     in {
         "a3KjUlrJ" = _a3KjUlrJ;
         "I0Kiorjk" = _I0Kiorjk;
@@ -86,13 +101,16 @@ let
         "QkWaBgXK" = _QkWaBgXK;
         "ngv6VZiW" = _ngv6VZiW;
         "XZoOGSDz" = _XZoOGSDz;
+        "TP6s2S1C" = _TP6s2S1C;
+        "3kZJRYdu" = _3kZJRYdu;
+        "68gHwjMc" = _68gHwjMc;
         "fabric-1.21.11" = _SQ3PzDpX;
-        "fabric-1.21.1" = _I0Kiorjk;
+        "fabric-1.21.1" = _3kZJRYdu;
         "fabric-1.20.1" = _QRsvOwbP;
         "fabric-26.1.1" = _ngv6VZiW;
         "fabric-26.1" = _ngv6VZiW;
         "fabric-26.1.2" = _ngv6VZiW;
-        "neoforge-1.21.1" = _6JD0M5fd;
+        "neoforge-1.21.1" = _68gHwjMc;
         "neoforge-1.21.11" = _8w5KviQe;
         "neoforge-26.1.1" = _XZoOGSDz;
         "neoforge-26.1" = _XZoOGSDz;
@@ -109,7 +127,10 @@ let
         "pkg-1.0.0-26.1-neo" = _XZoOGSDz;
         "pkg-1.0.0-26" = _kXpi5PaD;
         "pkg-1.0.0-26.1" = _ngv6VZiW;
-        "default" = _XZoOGSDz;
+        "pkg-1.0.8-1.21.1-neo" = _TP6s2S1C;
+        "pkg-1.0.8-1.21.1" = _3kZJRYdu;
+        "pkg-1.0.9-1.21.1-neo" = _68gHwjMc;
+        "default" = _68gHwjMc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterspawn";

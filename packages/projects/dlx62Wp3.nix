@@ -51,6 +51,11 @@ let
             "file" = "cobblecuisine-2.0.1-1.7-rc1.jar";
             "hash" = "sha512-f+admpCk8fGeOhIbDEmfJroMqSRcpAm0+IiMQuqBDEmv65N15z+oQKDyOsFOIqQyM+3/tlOEOJOI9su++O6vlA==";
         };
+        _TrpdaPfQ = {
+            "id" = "TrpdaPfQ";
+            "file" = "cobblecuisine-2.2.0-1.8.4-alpha1.jar";
+            "hash" = "sha512-jLquSEIJt8Tq7ThZvXy1DFHKT+lkxG+cEz+mp4JnAGyWX3Qal80T1LslwopKqsUqBmldyLBhKsBiLTDTj75T5w==";
+        };
     in {
         "vfdU9KWG" = _vfdU9KWG;
         "dPNRG1tq" = _dPNRG1tq;
@@ -62,7 +67,8 @@ let
         "XURDFSEi" = _XURDFSEi;
         "N7KH0MhX" = _N7KH0MhX;
         "KQwSroDP" = _KQwSroDP;
-        "fabric-1.21.1" = _KQwSroDP;
+        "TrpdaPfQ" = _TrpdaPfQ;
+        "fabric-1.21.1" = _TrpdaPfQ;
         "pkg-1.0.4" = _vfdU9KWG;
         "pkg-1.1" = _dPNRG1tq;
         "pkg-1.1.2" = _Krwpwbmh;
@@ -73,7 +79,8 @@ let
         "pkg-1.2.1" = _XURDFSEi;
         "pkg-2.0.0-rc1" = _N7KH0MhX;
         "pkg-2.0.1-1.7-rc1" = _KQwSroDP;
-        "default" = _KQwSroDP;
+        "pkg-2.2.0-alpha1" = _TrpdaPfQ;
+        "default" = _TrpdaPfQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblecuisine";

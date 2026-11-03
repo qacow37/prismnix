@@ -1641,6 +1641,16 @@ let
             "file" = "kubejs-neoforge-26.1.2-8.0.7.jar";
             "hash" = "sha512-hTXWjL/DHTjZvPpLlxx5wnDEXGqRQ3aNF9DTPW4gPAgl7Ia+gqL6mxZBbwBTnRiRha97zdEEiHB7DlMTQPlNUQ==";
         };
+        _5yNEdyfc = {
+            "id" = "5yNEdyfc";
+            "file" = "kubejs-neoforge-26.1.2-8.0.8.jar";
+            "hash" = "sha512-kbhjPD4Wkw99JFQR/v13Qz4qRuzDAkr7A6x7HQFS8e+TZ7YFtrJ8IbJyLogT6A+KbpkX1OfDXxxcdzkMlTUzgw==";
+        };
+        _GDXCpKlp = {
+            "id" = "GDXCpKlp";
+            "file" = "kubejs-neoforge-2101.7.2-build.381.jar";
+            "hash" = "sha512-+ChvnzcdDB+ys35WsduzWdz8WpBkpzhMv2ciRQ9bWnfwX1VojXozi1AKb0lZDVHj01QWZN/AKW5Q/lc6NOWlKQ==";
+        };
     in {
         "OcFX4nHs" = _OcFX4nHs;
         "Ow98nGVX" = _Ow98nGVX;
@@ -1970,6 +1980,8 @@ let
         "THIGFPwf" = _THIGFPwf;
         "FzLyIIBB" = _FzLyIIBB;
         "7Vil8vwK" = _7Vil8vwK;
+        "5yNEdyfc" = _5yNEdyfc;
+        "GDXCpKlp" = _GDXCpKlp;
         "fabric-1.18.2" = _TSy6UYgH;
         "fabric-1.19" = _dFL3FSdz;
         "fabric-1.19.2" = _e3sfelca;
@@ -1984,9 +1996,9 @@ let
         "forge-1.20.1" = _hVR2xUSr;
         "neoforge-1.20.4" = _XFk8J9v0;
         "neoforge-1.20.1" = _AhYGbfUn;
-        "neoforge-1.21" = _THIGFPwf;
-        "neoforge-1.21.1" = _THIGFPwf;
-        "neoforge-26.1.2" = _7Vil8vwK;
+        "neoforge-1.21" = _GDXCpKlp;
+        "neoforge-1.21.1" = _GDXCpKlp;
+        "neoforge-26.1.2" = _5yNEdyfc;
         "pkg-1802.5.3-build.444+fabric" = _OcFX4nHs;
         "pkg-1802.5.3-build.444+forge" = _Ow98nGVX;
         "pkg-1802.5.3-build.454+fabric" = _FF8NfrgL;
@@ -2315,7 +2327,9 @@ let
         "pkg-2101.7.2-build.377" = _THIGFPwf;
         "pkg-26.1.2-8.0.6+neoforge" = _FzLyIIBB;
         "pkg-26.1.2-8.0.7+neoforge" = _7Vil8vwK;
-        "default" = _7Vil8vwK;
+        "pkg-26.1.2-8.0.8+neoforge" = _5yNEdyfc;
+        "pkg-2101.7.2-build.381" = _GDXCpKlp;
+        "default" = _GDXCpKlp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubejs";

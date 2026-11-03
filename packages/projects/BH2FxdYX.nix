@@ -291,6 +291,11 @@ let
             "file" = "orb_of_dominance-1.5.5-forge-1.20.1.jar";
             "hash" = "sha512-gN/PJEAHLsaLpTKhRol3i9gBWkunyMR645J1bupzmUz5MguCxLDm/61PESO8/NtKc42ZMT34nXHOyhcD0UXVnw==";
         };
+        _UPng0lLM = {
+            "id" = "UPng0lLM";
+            "file" = "orb_of_dominance-1.5.6-forge-1.20.1.jar";
+            "hash" = "sha512-EL+1e6wyXOUSqXAFBV9jjZBpq5XIAXuDqvY+DQIK7GFaytRIW4qrPfVPRJUfHmA6utdM+z5MIPjxZMCAogsqkw==";
+        };
     in {
         "ZONJEQwg" = _ZONJEQwg;
         "JzlWeOgg" = _JzlWeOgg;
@@ -350,7 +355,8 @@ let
         "TRR4a6QN" = _TRR4a6QN;
         "n4riAIOS" = _n4riAIOS;
         "S27fo0p0" = _S27fo0p0;
-        "forge-1.20.1" = _S27fo0p0;
+        "UPng0lLM" = _UPng0lLM;
+        "forge-1.20.1" = _UPng0lLM;
         "neoforge-1.21.1" = _Seu7byWF;
         "neoforge-1.21.4" = _mmncCnJn;
         "pkg-1.0.0" = _ZONJEQwg;
@@ -385,7 +391,8 @@ let
         "pkg-1.4.7" = _TRR4a6QN;
         "pkg-1.5.0" = _n4riAIOS;
         "pkg-1.5.5" = _S27fo0p0;
-        "default" = _S27fo0p0;
+        "pkg-1.5.6" = _UPng0lLM;
+        "default" = _UPng0lLM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-orb-of-dominance-mod";

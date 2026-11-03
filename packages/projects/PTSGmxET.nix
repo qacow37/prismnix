@@ -181,6 +181,11 @@ let
             "file" = "Prime's HD Textures [32x].zip";
             "hash" = "sha512-utzg2Dh5Vc46Ys8rrgzGdrYQ8SwQOqO+U0Puxr1Hj5RVpLVm6i73toHuDZ6s+hxFQNXb+weBPx5Xly2NaaZrYg==";
         };
+        _3iVASGJL = {
+            "id" = "3iVASGJL";
+            "file" = "Prime's HD Textures [32x].zip";
+            "hash" = "sha512-cAUjZeuT6wWypogh6Qp1dsuk4n+xrJKN6aNe66bczAk/2H4zuVfRzRPl2lAUljVfaqoIfm8YP7KHKnPLJmDPyw==";
+        };
     in {
         "uKnl7TVp" = _uKnl7TVp;
         "u9LHEBqe" = _u9LHEBqe;
@@ -218,6 +223,7 @@ let
         "wYEiMpLi" = _wYEiMpLi;
         "iYo8i1vv" = _iYo8i1vv;
         "LQnBLD4p" = _LQnBLD4p;
+        "3iVASGJL" = _3iVASGJL;
         "minecraft-1.19.4" = _uKnl7TVp;
         "minecraft-1.20" = _HuWc2fPZ;
         "minecraft-1.20.1" = _HuWc2fPZ;
@@ -236,7 +242,7 @@ let
         "minecraft-26.1.1" = _EsWA4V43;
         "minecraft-26.1.2" = _EsWA4V43;
         "minecraft-26.2" = _iYo8i1vv;
-        "minecraft-26.3" = _LQnBLD4p;
+        "minecraft-26.3" = _3iVASGJL;
         "pkg-0.28" = _uKnl7TVp;
         "pkg-0.29" = _u9LHEBqe;
         "pkg-0.30" = _ytnc8aMZ;
@@ -273,7 +279,8 @@ let
         "pkg-56.1" = _wYEiMpLi;
         "pkg-56.2" = _iYo8i1vv;
         "pkg-57" = _LQnBLD4p;
-        "default" = _LQnBLD4p;
+        "pkg-58" = _3iVASGJL;
+        "default" = _3iVASGJL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "primes-hd-textures";

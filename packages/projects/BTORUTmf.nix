@@ -301,6 +301,11 @@ let
             "file" = "Penchant-0.6.0+mc26.1.2.jar";
             "hash" = "sha512-0rJU7K7GdxIIT2jjrRnYeIzLlzmT0UY3ZujYnLtGHVZvX7BOg8R6nnL+FkvopROZN53SAvthoi/v1DHiLBWcuQ==";
         };
+        _bmHb0OwY = {
+            "id" = "bmHb0OwY";
+            "file" = "penchant-0.7.0-alpha1+mc26.3.jar";
+            "hash" = "sha512-s3Kk6axxlMzsK8bGbnzFrHPja3KZeE20HLO2h+pdU2XK50+W738MV4rbQwwxo7IKGFVrAw0iQJKtYpezhkdohw==";
+        };
     in {
         "KBDiyDPO" = _KBDiyDPO;
         "eHzGQRnH" = _eHzGQRnH;
@@ -362,6 +367,7 @@ let
         "312Ydbdm" = _312Ydbdm;
         "YZNxaEya" = _YZNxaEya;
         "JoJtNqD5" = _JoJtNqD5;
+        "bmHb0OwY" = _bmHb0OwY;
         "fabric-1.21.11" = _EWQrwnb8;
         "fabric-1.21" = _Cobf3z2b;
         "fabric-1.21.1" = _Cobf3z2b;
@@ -372,7 +378,7 @@ let
         "fabric-26.2" = _D6rZa0UE;
         "fabric-26.3-pre-3" = _ND4fXBxd;
         "fabric-26.3-rc-1" = _ND4fXBxd;
-        "fabric-26.3" = _YZNxaEya;
+        "fabric-26.3" = _bmHb0OwY;
         "neoforge-1.21" = _wcsDwzvg;
         "neoforge-1.21.1" = _wcsDwzvg;
         "neoforge-26.1" = _JoJtNqD5;
@@ -438,7 +444,8 @@ let
         "pkg-0.5.9+mc26.3" = _312Ydbdm;
         "pkg-0.6.0+mc26.3" = _YZNxaEya;
         "pkg-0.6.0+mc26.1.2" = _JoJtNqD5;
-        "default" = _JoJtNqD5;
+        "pkg-0.7.0-alpha1+mc26.3" = _bmHb0OwY;
+        "default" = _bmHb0OwY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "penchant";

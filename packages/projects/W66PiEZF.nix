@@ -341,6 +341,11 @@ let
             "file" = "MTR-London-Underground-Trains-fabric-1.0.4-hotfix+1.16.5.jar";
             "hash" = "sha512-10IQymVzfv3JcbGRudpEiCgmMky/bswIts1U6XN4Nbr98cGrRAQvllPzn7ecJDuGLmURALDSGUQvYFgs8u5RvQ==";
         };
+        _qRcskJzm = {
+            "id" = "qRcskJzm";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta+1.20.4.jar";
+            "hash" = "sha512-Hy4FSHFJ0nMCkDOzdSeEITmJp7dw/HA+d3sLxYmJoBKjcRXh6q24dsRyFWLMgb6OHyQQx4MHLCSAYD6j5ROH5w==";
+        };
     in {
         "aO3Sk5O9" = _aO3Sk5O9;
         "KC9FFb4G" = _KC9FFb4G;
@@ -410,7 +415,8 @@ let
         "Hseefwtk" = _Hseefwtk;
         "XYn7w4lH" = _XYn7w4lH;
         "vkgTf0hM" = _vkgTf0hM;
-        "fabric-1.20.4" = _KRW9DdL1;
+        "qRcskJzm" = _qRcskJzm;
+        "fabric-1.20.4" = _qRcskJzm;
         "fabric-1.20.1" = _5RK74521;
         "fabric-1.19.4" = _Jxvosedz;
         "fabric-1.19.2" = _XkF4QSmt;
@@ -429,7 +435,8 @@ let
         "pkg-1.0.3" = _xSZEDm9I;
         "pkg-1.0.4" = _mjh4W7gu;
         "pkg-1.0.4-hotfix" = _vkgTf0hM;
-        "default" = _vkgTf0hM;
+        "pkg-1.0.5-beta" = _qRcskJzm;
+        "default" = _qRcskJzm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-london-underground-trains";

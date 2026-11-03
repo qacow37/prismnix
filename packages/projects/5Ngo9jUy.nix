@@ -81,6 +81,16 @@ let
             "file" = "choppersdelight-fabric-1.21.1-1.2.1.jar";
             "hash" = "sha512-+hdbcO9eT6SXA94zYCEeHNICa20PrEUhPUEpxFj6bozq0sG4SA8RO5XprrwIqPFr+jI848/z0b9OLHmNiSKQKA==";
         };
+        _oulg9zE4 = {
+            "id" = "oulg9zE4";
+            "file" = "choppersdelight-neoforge-1.21.1-1.2.2.jar";
+            "hash" = "sha512-LWOj6EquF/mQevKVCCi3nA++uxnIqQXOs4ZhGu6p/KO4G+KJ7h9oONGi37UI7E4vduAwws2NXUXSDVWM1kiHPQ==";
+        };
+        _J6o5P18u = {
+            "id" = "J6o5P18u";
+            "file" = "choppersdelight-fabric-1.21.1-1.2.2.jar";
+            "hash" = "sha512-ku76LwPAcfytHk21KMlmjIsntqMsP4kgi96ao9RUQUdGJq4AzXYkpB9B4QPH1Y7YIHNAJRX8Br4tCN5uD+NDZg==";
+        };
     in {
         "7WP4w0WN" = _7WP4w0WN;
         "wzs0CLu6" = _wzs0CLu6;
@@ -98,11 +108,13 @@ let
         "qaSEHh3r" = _qaSEHh3r;
         "qqtEV5J3" = _qqtEV5J3;
         "1lF4QatS" = _1lF4QatS;
+        "oulg9zE4" = _oulg9zE4;
+        "J6o5P18u" = _J6o5P18u;
         "neoforge-1.21" = _qqtEV5J3;
-        "neoforge-1.21.1" = _qqtEV5J3;
+        "neoforge-1.21.1" = _oulg9zE4;
         "neoforge-1.20.1" = _qaSEHh3r;
-        "fabric-1.21" = _1lF4QatS;
-        "fabric-1.21.1" = _1lF4QatS;
+        "fabric-1.21" = _J6o5P18u;
+        "fabric-1.21.1" = _J6o5P18u;
         "forge-1.20.1" = _qaSEHh3r;
         "pkg-1.0.0" = _shAZtfdJ;
         "pkg-1.0.1" = _naOd6ck1;
@@ -111,7 +123,8 @@ let
         "pkg-1.1.2" = _thB4dgEM;
         "pkg-1.2.0" = _nwXBy4bo;
         "pkg-1.2.1" = _1lF4QatS;
-        "default" = _1lF4QatS;
+        "pkg-1.2.2" = _J6o5P18u;
+        "default" = _J6o5P18u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "choppers-delight";

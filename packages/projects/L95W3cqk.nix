@@ -121,6 +121,11 @@ let
             "file" = "libtooltips-2.3.2-NEOFORGE-26.3.jar";
             "hash" = "sha512-UTr+Yb7ALIp9AhbSvWFJzo+ARhYEpSTEK1sMAtMtnve6aRFjHfNAjS5+zRyQOHvQe53D6FRQ1Yrm4ZkkatUruA==";
         };
+        _iWg5mSSM = {
+            "id" = "iWg5mSSM";
+            "file" = "libtooltips-3.0-NEOFORGE-1.21.1.jar";
+            "hash" = "sha512-WtX16lYV7plZa4eZxqfPswaaIwnPCoEx3hhhn0bdNuTx8zOkMReHVOHBuhhIUw/ihkPi0N7mKGzzFnnkXBLFwg==";
+        };
     in {
         "f87aTHF4" = _f87aTHF4;
         "9K6qaLUx" = _9K6qaLUx;
@@ -146,7 +151,8 @@ let
         "Qir0qV8h" = _Qir0qV8h;
         "Dogd9zdi" = _Dogd9zdi;
         "WwmyAU4Q" = _WwmyAU4Q;
-        "neoforge-1.21.1" = _8WjWgsz8;
+        "iWg5mSSM" = _iWg5mSSM;
+        "neoforge-1.21.1" = _iWg5mSSM;
         "neoforge-26.1.2" = _Qir0qV8h;
         "neoforge-26.1" = _BSeDJmVn;
         "neoforge-26.1.1" = _BSeDJmVn;
@@ -182,7 +188,8 @@ let
         "pkg-2.3.2-NEOFORGE-26.1.2" = _Qir0qV8h;
         "pkg-2.3.2-NEOFORGE-26.2" = _Dogd9zdi;
         "pkg-2.3.2-NEOFORGE-26.3" = _WwmyAU4Q;
-        "default" = _WwmyAU4Q;
+        "pkg-3.0-NEOFORGE-1.21.1" = _iWg5mSSM;
+        "default" = _iWg5mSSM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "libtooltips";
