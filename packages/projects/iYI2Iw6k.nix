@@ -326,6 +326,21 @@ let
             "file" = "SkyblockCollectionTracker-2.7.3+mc26.2.jar";
             "hash" = "sha512-zUssStkHksAp68sD48MBeeuuPO8Gd7QGyx4GZj0DyDEATK8N7gOawAS19Sdn9hW6gdZi4eaDzl6/TfhI0MkjfA==";
         };
+        _lEOFuVrQ = {
+            "id" = "lEOFuVrQ";
+            "file" = "SkyblockCollectionTracker-2.8.0+mc26.3.jar";
+            "hash" = "sha512-ynIbmI28FnAkPR5PuP94NAcZxJsFnAh+H8UsvwRk5zp1rNWjkGL0Hf9El/CuMJ7sV3JoCtd9hIA1D8KGOBe+UA==";
+        };
+        _y2uS5Vjq = {
+            "id" = "y2uS5Vjq";
+            "file" = "SkyblockCollectionTracker-2.8.0+mc26.2.jar";
+            "hash" = "sha512-tvXRE+J0GGLlBaAQvDSIrM5pcfFWG/S9D6nDeC3UjwoGtbXTLSCdHFBXzvUlgsye0rAVqpBAeBNG9P2P66qz6g==";
+        };
+        _z4wnoCNO = {
+            "id" = "z4wnoCNO";
+            "file" = "SkyblockCollectionTracker-2.8.0+mc26.1.jar";
+            "hash" = "sha512-uE8gSS0Ve6JX5NFBi0Ahb9k5wOryOPqjrC0FJpJ+S9VPNrn+MdZIlM8t60Mh4FGeFbC/xz8DaD33MD7YhQfNBw==";
+        };
     in {
         "Hdn5U850" = _Hdn5U850;
         "7rP3gi5j" = _7rP3gi5j;
@@ -392,14 +407,18 @@ let
         "NRftT1ly" = _NRftT1ly;
         "3EXfEedw" = _3EXfEedw;
         "R8NCyECR" = _R8NCyECR;
+        "lEOFuVrQ" = _lEOFuVrQ;
+        "y2uS5Vjq" = _y2uS5Vjq;
+        "z4wnoCNO" = _z4wnoCNO;
         "forge-1.8.9" = _sJRn2Yfl;
         "fabric-1.21.8" = _ZVq27Ebe;
         "fabric-1.21.10" = _VWwfGiiw;
         "fabric-1.21.11" = _k1Ql0JHW;
-        "fabric-26.1" = _3EXfEedw;
-        "fabric-26.1.1" = _3EXfEedw;
-        "fabric-26.1.2" = _3EXfEedw;
-        "fabric-26.2" = _R8NCyECR;
+        "fabric-26.1" = _z4wnoCNO;
+        "fabric-26.1.1" = _z4wnoCNO;
+        "fabric-26.1.2" = _z4wnoCNO;
+        "fabric-26.2" = _y2uS5Vjq;
+        "fabric-26.3" = _lEOFuVrQ;
         "pkg-v1.0.4" = _Hdn5U850;
         "pkg-v1.0.5" = _7rP3gi5j;
         "pkg-v1.0.6-beta1" = _mowilOv4;
@@ -435,7 +454,8 @@ let
         "pkg-2.7.1" = _fNwg3woR;
         "pkg-2.7.2" = _NRftT1ly;
         "pkg-2.7.3" = _R8NCyECR;
-        "default" = _R8NCyECR;
+        "pkg-2.8.0" = _z4wnoCNO;
+        "default" = _z4wnoCNO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sct";

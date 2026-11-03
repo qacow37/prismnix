@@ -181,6 +181,36 @@ let
             "file" = "particle-snow-1.4.0-26.1.jar";
             "hash" = "sha512-MqD5sPqJFlP+K2C+AgyErwGvje0eS+dfjBgVUJu4XGWHm11fkUK9v5iN3CJ2tngE4xPTpKNT6bPA/ubiIG0ecA==";
         };
+        _csjQva66 = {
+            "id" = "csjQva66";
+            "file" = "Particle-Snow-1.4.1-26.1.jar";
+            "hash" = "sha512-vOt3YXL19m9wKZ7as8iXdez9MdChEqkAJTjnWdI/PNDlf29iLaUbl/NNSZQeaC31x+KgYJIWKEsgHWMAnOsApA==";
+        };
+        _ERZQZfyT = {
+            "id" = "ERZQZfyT";
+            "file" = "Particle-Snow-1.4.1-26.2.jar";
+            "hash" = "sha512-G6ZDkwFrhfbQ/dxUvf7jbAYSqGVknLYfx1hI4SZCagi/W+pj2xxeY8yBQRllNBPuZGp+mFMVjXfL5Ti6r+nTcQ==";
+        };
+        _dvcRz8dz = {
+            "id" = "dvcRz8dz";
+            "file" = "Particle-Snow-1.4.1-26.3.jar";
+            "hash" = "sha512-N8dhGZsZAC4WWGNrzf3qQJO0RY9FLFZnIjDcwcWbEixyH3vgvy806nrrnuxq3SF/ZjBkbeGimxexpQh91r/rGQ==";
+        };
+        _lEPS0Dtu = {
+            "id" = "lEPS0Dtu";
+            "file" = "Particle-Snow-1.4.4-26.1.jar";
+            "hash" = "sha512-9q1xblh4/kO/xwpXsgAu4bVnAYesv04KJcsH/AWgcPfw1oI9SMm4GZi+mD+c86SoJsOCeJyMmXkxIXR/ZosD6w==";
+        };
+        _lCvy1QQK = {
+            "id" = "lCvy1QQK";
+            "file" = "Particle-Snow-1.4.4-26.2.jar";
+            "hash" = "sha512-qAeza/6UYCJLk6nEnYcqfh44abfryiseCa+AuwrxhNEnJdJa8GGND2Eheq6fxn46l8rJUG9Ok8mlLqY05OX8kg==";
+        };
+        _NAhzUsDX = {
+            "id" = "NAhzUsDX";
+            "file" = "Particle-Snow-1.4.4-26.3.jar";
+            "hash" = "sha512-A/xMLtZ390l0BkQ7hhyr8TZ0v1a18wU5+PdWuikTxDVd3GCFKem1FNRdyBFcfhjMSWYPsMoX6Vhgd9438ijW0w==";
+        };
     in {
         "PFEwkRqB" = _PFEwkRqB;
         "rKcf0Qor" = _rKcf0Qor;
@@ -218,6 +248,12 @@ let
         "Lg4vSArH" = _Lg4vSArH;
         "IWsEyXt7" = _IWsEyXt7;
         "doDXcMo9" = _doDXcMo9;
+        "csjQva66" = _csjQva66;
+        "ERZQZfyT" = _ERZQZfyT;
+        "dvcRz8dz" = _dvcRz8dz;
+        "lEPS0Dtu" = _lEPS0Dtu;
+        "lCvy1QQK" = _lCvy1QQK;
+        "NAhzUsDX" = _NAhzUsDX;
         "fabric-1.20.1" = _juMFJjHH;
         "fabric-1.20.2" = _BdR5ZjtS;
         "fabric-1.20.3" = _zcXhb3vT;
@@ -235,11 +271,11 @@ let
         "fabric-1.21.8" = _eA5pC2YK;
         "fabric-1.21.9" = _zyaiQheL;
         "fabric-1.21.10" = _zyaiQheL;
-        "fabric-26.1" = _doDXcMo9;
-        "fabric-26.2" = _Lg4vSArH;
-        "fabric-26.3" = _IWsEyXt7;
-        "fabric-26.1.1" = _doDXcMo9;
-        "fabric-26.1.2" = _doDXcMo9;
+        "fabric-26.1" = _lEPS0Dtu;
+        "fabric-26.2" = _lCvy1QQK;
+        "fabric-26.3" = _NAhzUsDX;
+        "fabric-26.1.1" = _lEPS0Dtu;
+        "fabric-26.1.2" = _lEPS0Dtu;
         "pkg-1.0.0" = _uT8HncGI;
         "pkg-1.1.0" = _JoijLsrG;
         "pkg-1.2.0" = _4XYqSz3D;
@@ -249,7 +285,9 @@ let
         "pkg-1.3.1" = _A4yNMD0Q;
         "pkg-1.3.2" = _IWsEyXt7;
         "pkg-1.4.0" = _doDXcMo9;
-        "default" = _doDXcMo9;
+        "pkg-1.4.1" = _dvcRz8dz;
+        "pkg-1.4.4" = _NAhzUsDX;
+        "default" = _NAhzUsDX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-snow";

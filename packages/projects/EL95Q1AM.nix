@@ -121,6 +121,11 @@ let
             "file" = "villagerpickup-neoforge-26.2-1.4.jar";
             "hash" = "sha512-QvK8NwTq/7RfdZtUJbXof7aGPiL92vBQvq2a5PA97i4SitzIKNkwCDPyuL4WQeUX8Dqgoft9aXSnT2NAXDg0Nw==";
         };
+        _Tc8YD7oV = {
+            "id" = "Tc8YD7oV";
+            "file" = "Villager-Pickup-Mod-1.4-26.3.jar";
+            "hash" = "sha512-eEFDcjqgw4kp+Bt/G0fFm/dKKEZFFyW7bsA1o8eRn2IaP92qBaSVaZuSGPrAQoh2gxVz3Fo5zSV5RYnDq060Zw==";
+        };
     in {
         "nhRyr3Tx" = _nhRyr3Tx;
         "NKc7MlRL" = _NKc7MlRL;
@@ -146,6 +151,7 @@ let
         "Z54HnFKr" = _Z54HnFKr;
         "ASA0P3XJ" = _ASA0P3XJ;
         "YXTPpvJy" = _YXTPpvJy;
+        "Tc8YD7oV" = _Tc8YD7oV;
         "fabric-1.19" = _E1u8fsek;
         "fabric-1.19.1" = _E1u8fsek;
         "fabric-1.19.2" = _E1u8fsek;
@@ -166,6 +172,7 @@ let
         "fabric-26.1.1" = _tnjJLqRL;
         "fabric-26.1.2" = _tnjJLqRL;
         "fabric-26.2" = _ASA0P3XJ;
+        "fabric-26.3" = _Tc8YD7oV;
         "quilt-1.19" = _E1u8fsek;
         "quilt-1.19.1" = _E1u8fsek;
         "quilt-1.19.2" = _E1u8fsek;
@@ -186,12 +193,14 @@ let
         "quilt-26.1.1" = _tnjJLqRL;
         "quilt-26.1.2" = _tnjJLqRL;
         "quilt-26.2" = _ASA0P3XJ;
+        "quilt-26.3" = _Tc8YD7oV;
         "neoforge-1.21.10" = _oI87ixjk;
         "neoforge-1.21.11" = _CyCiFYru;
         "neoforge-26.1" = _Z54HnFKr;
         "neoforge-26.1.1" = _Z54HnFKr;
         "neoforge-26.1.2" = _Z54HnFKr;
         "neoforge-26.2" = _YXTPpvJy;
+        "neoforge-26.3" = _Tc8YD7oV;
         "pkg-1.0.0" = _NKc7MlRL;
         "pkg-1.1.0" = _6ssmYiH7;
         "pkg-1.1.2" = _Qwxzbp3Y;
@@ -204,7 +213,8 @@ let
         "pkg-1.3" = _8MoHnjGE;
         "pkg-1.3.1" = _CyCiFYru;
         "pkg-1.4" = _YXTPpvJy;
-        "default" = _YXTPpvJy;
+        "pkg-1.4-26.3" = _Tc8YD7oV;
+        "default" = _Tc8YD7oV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-pickup";

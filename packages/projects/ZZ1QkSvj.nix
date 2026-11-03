@@ -186,6 +186,26 @@ let
             "file" = "MineRooms-Level-0-Enhanced-1.21.2-3.zip";
             "hash" = "sha512-ontf90yjbfp24424y3x4Oeh/J6tJKKnKqEUJRGMaeM7NuPdyzKeqJMS8S2g4Pt7etGSk4F8ATLYsa6DvneTFVQ==";
         };
+        _fxz2s8sT = {
+            "id" = "fxz2s8sT";
+            "file" = "MineRooms-Level-0-Enhanced-1.21.11.zip";
+            "hash" = "sha512-SQIL2xPolLYmYXx5eycn66hD1PTSzpKqbqMtG1Ndc/umrH806v9Jncr/A+HlOy9ka148PO85ayCzCivWZL0NLg==";
+        };
+        _A4ff3M8G = {
+            "id" = "A4ff3M8G";
+            "file" = "MineRooms-Level-0-Enhanced-26.1.zip";
+            "hash" = "sha512-WaNaMoEy8W7KT6+u7Clg7sboEFOX76QJVVpYHvM0iqh7HqHKKaTHnWEYXc+cc8EJ3pfngsGONjE2wNs5Mmpqnw==";
+        };
+        _8WP0tyrs = {
+            "id" = "8WP0tyrs";
+            "file" = "MineRooms-Level-0-Enhanced-26.2.zip";
+            "hash" = "sha512-gcJytnggF2weAD2PZqFqJpCzRazFiIT9tNt2oY5L1LyezT0ko0+p5RQQ9BOcwV2NM9BZO8icYeKKbRBzKUu40A==";
+        };
+        _S7aIkQtx = {
+            "id" = "S7aIkQtx";
+            "file" = "MineRooms-Level-0-Enhanced-26.3.zip";
+            "hash" = "sha512-ZS9a9iytbaEMR1dMMmsjvhVm5cOHDmGRz+E1B08x2V5/xNDyriFAqBVR49d9TsXUWUn1v8PHTAqSvnzOVyaneg==";
+        };
     in {
         "NjsJsBiM" = _NjsJsBiM;
         "znvGbaSW" = _znvGbaSW;
@@ -224,6 +244,10 @@ let
         "DD3GjktQ" = _DD3GjktQ;
         "AeczD5uc" = _AeczD5uc;
         "9VjFmPu6" = _9VjFmPu6;
+        "fxz2s8sT" = _fxz2s8sT;
+        "A4ff3M8G" = _A4ff3M8G;
+        "8WP0tyrs" = _8WP0tyrs;
+        "S7aIkQtx" = _S7aIkQtx;
         "minecraft-1.19" = _NjsJsBiM;
         "minecraft-1.19.1" = _NjsJsBiM;
         "minecraft-1.19.2" = _NjsJsBiM;
@@ -247,7 +271,7 @@ let
         "minecraft-1.21.8" = _N8sHmkxy;
         "minecraft-1.21.9" = _W2pRen5F;
         "minecraft-1.21.10" = _W2pRen5F;
-        "minecraft-1.21.11" = _wBGiy2rx;
+        "minecraft-1.21.11" = _fxz2s8sT;
         "minecraft-26.1-snapshot-1" = _luwIeoGJ;
         "minecraft-26.1-snapshot-2" = _np35QAuP;
         "minecraft-26.2-snapshot-3" = _ToPvKCjI;
@@ -258,7 +282,7 @@ let
         "minecraft-26.1-snapshot-9" = _eWRRDLXz;
         "minecraft-26.1-snapshot-10" = _DfcZD8Qb;
         "minecraft-26.1-snapshot-11" = _BMXNNLB3;
-        "minecraft-26.1" = _BGPYJvfx;
+        "minecraft-26.1" = _A4ff3M8G;
         "minecraft-26.1.1" = _BGPYJvfx;
         "minecraft-26.1.2" = _BGPYJvfx;
         "minecraft-26w14a" = _DuCiwKq7;
@@ -275,7 +299,8 @@ let
         "minecraft-26.2-pre-6" = _BjSwqKH4;
         "minecraft-26.2-rc-1" = _BjSwqKH4;
         "minecraft-26.2-rc-2" = _BjSwqKH4;
-        "minecraft-26.2" = _BjSwqKH4;
+        "minecraft-26.2" = _8WP0tyrs;
+        "minecraft-26.3" = _S7aIkQtx;
         "pkg-9-level-0" = _NjsJsBiM;
         "pkg-12-level-0" = _znvGbaSW;
         "pkg-13-level-0" = _Eilek3Js;
@@ -313,7 +338,11 @@ let
         "pkg-test-3-level-0-enhanced" = _DD3GjktQ;
         "pkg-34-level-0-enhanced" = _AeczD5uc;
         "pkg-42-level-0-enhanced" = _9VjFmPu6;
-        "default" = _9VjFmPu6;
+        "pkg-75-level-0-enhanced" = _fxz2s8sT;
+        "pkg-84-level-0-enhanced" = _A4ff3M8G;
+        "pkg-88-level-0-enhanced" = _8WP0tyrs;
+        "pkg-97.1-level-0-enhanced" = _S7aIkQtx;
+        "default" = _S7aIkQtx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minerooms";

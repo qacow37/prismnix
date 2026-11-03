@@ -2101,6 +2101,11 @@ let
             "file" = "[AFTP] 25w14craftmine.zip";
             "hash" = "sha512-7pkC03O3KVeuSOdUL3hBMrcHDRO9V2i8Qc3Hx6QQ/huU1HItuni+Srag0VPaaOdM8shUG5xm3xzgLc3KHOPYEA==";
         };
+        _xsAmOYps = {
+            "id" = "xsAmOYps";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-/7he6dIK3yowAMvC+A9muK+g1Jgilx7zaG0u8V8VMiooEIDDkI8KZDSzsN1IUCx0o1udEi1DaY2CtE93nybb6w==";
+        };
     in {
         "FZkw2bhG" = _FZkw2bhG;
         "wH1jwt1B" = _wH1jwt1B;
@@ -2522,9 +2527,10 @@ let
         "GqIWAe4m" = _GqIWAe4m;
         "vhbHSMPu" = _vhbHSMPu;
         "Vk2HwQpz" = _Vk2HwQpz;
+        "xsAmOYps" = _xsAmOYps;
         "minecraft-25w14craftmine" = _Vk2HwQpz;
         "minecraft-1.RV-Pre1" = _RgOj0vKy;
-        "minecraft-23w13a_or_b" = _GqIWAe4m;
+        "minecraft-23w13a_or_b" = _xsAmOYps;
         "minecraft-24w14potato" = _vhbHSMPu;
         "minecraft-22w13oneblockatatime" = _Iavz24OD;
         "minecraft-15w14a" = _WHysCHNR;
@@ -2951,7 +2957,8 @@ let
         "pkg-261025+23w13a_or_b" = _GqIWAe4m;
         "pkg-261025+24w14potato" = _vhbHSMPu;
         "pkg-261025+25w14craftmine" = _Vk2HwQpz;
-        "default" = _Vk2HwQpz;
+        "pkg-261101+23w13a_or_b" = _xsAmOYps;
+        "default" = _xsAmOYps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "april-fools-translation";

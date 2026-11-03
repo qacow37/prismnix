@@ -411,6 +411,21 @@ let
             "file" = "scamscreener-2.6.1+26.2.jar";
             "hash" = "sha512-PNVpfMO3iVMmLbSvZHAr0mfh1Csk1xbJv5G92iKlMxH+oKGPb6ZAruOK37/dT6l54hsY/3MT9T/Up+A1Ogv1zw==";
         };
+        _ekh4jhqQ = {
+            "id" = "ekh4jhqQ";
+            "file" = "scamscreener-2.7.0+26.1.2.jar";
+            "hash" = "sha512-ooxbFv1LG8RQxZOiiqtx7UZHOZS14ijwGWVPXRef7ZtU1LjUJuoneCbHrOT9zAVBhHgxdBSxX9HpD/RsjtJfpA==";
+        };
+        _tMrvjw8J = {
+            "id" = "tMrvjw8J";
+            "file" = "scamscreener-2.7.0+26.2.jar";
+            "hash" = "sha512-Re/57BZLEtmHTJbECU8eHHmZF9mfBgb2v2cZi4stZQRibli43KCzA033p/NetywhnuY6JJeu5Ts90VrLeigq4A==";
+        };
+        _DFyl6Gvh = {
+            "id" = "DFyl6Gvh";
+            "file" = "scamscreener-2.7.0+26.3.jar";
+            "hash" = "sha512-rVUb/vcdOYkFre5tLkXR0TyaUulvzD905EgV06rVSYnCWaAGm8lVzyvUBW7iKVwOjCRuc38D/oAn4ns2qejNHA==";
+        };
     in {
         "Jaj29z3Q" = _Jaj29z3Q;
         "aJhjlDsD" = _aJhjlDsD;
@@ -494,13 +509,17 @@ let
         "jokIFkeo" = _jokIFkeo;
         "UrY1RIfb" = _UrY1RIfb;
         "2NDs04GD" = _2NDs04GD;
+        "ekh4jhqQ" = _ekh4jhqQ;
+        "tMrvjw8J" = _tMrvjw8J;
+        "DFyl6Gvh" = _DFyl6Gvh;
         "fabric-1.21.10" = _dSKeTMsA;
         "fabric-1.21.11" = _iTUn2dud;
         "fabric-1.21.9" = _9Hk5cCSH;
-        "fabric-26.1" = _UrY1RIfb;
-        "fabric-26.1.1" = _UrY1RIfb;
-        "fabric-26.1.2" = _UrY1RIfb;
-        "fabric-26.2" = _2NDs04GD;
+        "fabric-26.1" = _ekh4jhqQ;
+        "fabric-26.1.1" = _ekh4jhqQ;
+        "fabric-26.1.2" = _ekh4jhqQ;
+        "fabric-26.2" = _tMrvjw8J;
+        "fabric-26.3" = _DFyl6Gvh;
         "pkg-0.13.4" = _Jaj29z3Q;
         "pkg-0.14.7" = _aJhjlDsD;
         "pkg-0.15.3" = _cpHaWRQo;
@@ -566,7 +585,10 @@ let
         "pkg-2.6.0+26.2" = _Vc2pAKd7;
         "pkg-2.6.1+26.1.2" = _UrY1RIfb;
         "pkg-2.6.1+26.2" = _2NDs04GD;
-        "default" = _2NDs04GD;
+        "pkg-2.7.0+26.1.2" = _ekh4jhqQ;
+        "pkg-2.7.0+26.2" = _tMrvjw8J;
+        "pkg-2.7.0+26.3" = _DFyl6Gvh;
+        "default" = _DFyl6Gvh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scamscreener";

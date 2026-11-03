@@ -331,6 +331,11 @@ let
             "file" = "generatorcraft-1.5.9-forge-1.20.1.jar";
             "hash" = "sha512-pIkp9uZWsRHlPLyxHM6GIzplIVe8jxSSqeyIAEPSIdqQYmj5A+V9ff4OBIUUF5rwPJCyw4iYX5ExFbNrrmgx0A==";
         };
+        _o9IYH99W = {
+            "id" = "o9IYH99W";
+            "file" = "generatorcraft-1.6.0-forge-1.20.1.jar";
+            "hash" = "sha512-GBThxOAo2pzGPPYhTjqC3mWlt1bgq9gXg4DIito1ARzL3nEAWKV/LbN72YURLXsM7NAivS/XCIvR/e8kpW1jkw==";
+        };
     in {
         "DEYbOuaa" = _DEYbOuaa;
         "Vl5mOLLr" = _Vl5mOLLr;
@@ -398,7 +403,8 @@ let
         "ocHdTeQH" = _ocHdTeQH;
         "jTX6o4yT" = _jTX6o4yT;
         "zYeyRdvT" = _zYeyRdvT;
-        "forge-1.20.1" = _zYeyRdvT;
+        "o9IYH99W" = _o9IYH99W;
+        "forge-1.20.1" = _o9IYH99W;
         "neoforge-1.21.1" = _2b9x2zK7;
         "pkg-1.0.0" = _DEYbOuaa;
         "pkg-1.0.1" = _Vl5mOLLr;
@@ -459,7 +465,8 @@ let
         "pkg-1.5.7" = _ocHdTeQH;
         "pkg-1.5.8" = _jTX6o4yT;
         "pkg-1.5.9" = _zYeyRdvT;
-        "default" = _zYeyRdvT;
+        "pkg-1.6.0" = _o9IYH99W;
+        "default" = _o9IYH99W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "generatorcraft";

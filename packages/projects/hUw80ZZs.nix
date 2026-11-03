@@ -1681,6 +1681,26 @@ let
             "file" = "butterflies-7.10.11.jar";
             "hash" = "sha512-JJ9KEq/VwjIcqKaoqD/AHU6IqBTG8xrACZ6CK30/ifOQl8mduboEVOrNvRNxqBIg9SkJGfAto11X07ttkZcB8A==";
         };
+        _dRBMEuoP = {
+            "id" = "dRBMEuoP";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-5QvEIHbH5ThATUc1DIfRfggRaA0wRDqctw25uItib/+I1oYpyPqVEsH58c4/BlCe/Dfn5909EQbGiudKZCDowA==";
+        };
+        _MRQNsuJV = {
+            "id" = "MRQNsuJV";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-bVhsX68r2pp9AcspBgD3l69oiaMDZTtG/EIcw1BbKP16rbBIaIXuvbhZjHbTgbQC/SyBNtZezaf5MiOkfeeFmg==";
+        };
+        _CUBcUcOg = {
+            "id" = "CUBcUcOg";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-wn29ZYCX5OAYiMjGVd3RnDUCfMfUnPyM6WcYE7FIlm3bo7N2zG++E3ud5aROTESaUvAKJAnph7E9X6g7NNYP+Q==";
+        };
+        _GmdWmrOL = {
+            "id" = "GmdWmrOL";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-xrjlCbaosPuDnwLVQ39ZlPhJmODQApgq2aGTB3K39m4qiMbxW8to1LWvKbgJbdEU+qDlK03r8yruDRXoRc8P0w==";
+        };
     in {
         "oFx4P6V0" = _oFx4P6V0;
         "eDMr0C7M" = _eDMr0C7M;
@@ -2018,9 +2038,13 @@ let
         "11RNbbGP" = _11RNbbGP;
         "TcBqY1wL" = _TcBqY1wL;
         "JqMjo3EC" = _JqMjo3EC;
-        "forge-1.20.1" = _JqMjo3EC;
-        "forge-1.20.2" = _CioJyoHn;
-        "forge-1.19.2" = _vo8QNCqZ;
+        "dRBMEuoP" = _dRBMEuoP;
+        "MRQNsuJV" = _MRQNsuJV;
+        "CUBcUcOg" = _CUBcUcOg;
+        "GmdWmrOL" = _GmdWmrOL;
+        "forge-1.20.1" = _CUBcUcOg;
+        "forge-1.20.2" = _MRQNsuJV;
+        "forge-1.19.2" = _GmdWmrOL;
         "forge-1.20.4" = _HrYqIHrj;
         "forge-1.18.2" = _ZWn1Tta4;
         "neoforge-1.20.4" = _i8upzTkr;
@@ -2108,7 +2132,8 @@ let
         "pkg-7.10.5" = _SSXiEjPl;
         "pkg-7.10.9" = _TcBqY1wL;
         "pkg-7.10.11" = _JqMjo3EC;
-        "default" = _JqMjo3EC;
+        "pkg-7.10.12" = _GmdWmrOL;
+        "default" = _GmdWmrOL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boks-butterflies";

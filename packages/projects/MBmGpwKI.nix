@@ -66,6 +66,21 @@ let
             "file" = "unseen_world-3.5.3.jar";
             "hash" = "sha512-OZWWkJVDS9IYx3TgbavbsDKdnjr1TOmAnHZp5NQZdHYX+JsIZ5AntH2WA1lim4KTN93X+cfBfmmRcyB2kQQ9zQ==";
         };
+        _EcpIA1We = {
+            "id" = "EcpIA1We";
+            "file" = "unseen_world-1.0.jar";
+            "hash" = "sha512-JDhHut5nZB5AN66QIijHqN0Td4n6kFqDgfy+Avyo5j2Yo5hO8kMIqoev+k71CD8uIZ76Kv+GDlFB2DaqGrwL0Q==";
+        };
+        _IRWMMYPG = {
+            "id" = "IRWMMYPG";
+            "file" = "unseen_world-1.0-fabric.jar";
+            "hash" = "sha512-T98Y70CYw0Ce8VC7ZUjWooUL3W+ZRUo/7Pukbm0umpipTgxMHuGPnclOJAsklHJmCmZb7SI2Osyrwi/lU/fbcQ==";
+        };
+        _ExxYiHxK = {
+            "id" = "ExxYiHxK";
+            "file" = "unseen_world-1.0-neoforge.jar";
+            "hash" = "sha512-dJm1eEuqpY9crkKZe13ZmJYF2rzdgROMjNVyQ1zzx1uiXEwSZP8qEnsEpHbFpg/5zLONDNALSs8YN3fFoCdC9A==";
+        };
     in {
         "3QrmXNDk" = _3QrmXNDk;
         "1gt96KSW" = _1gt96KSW;
@@ -80,12 +95,16 @@ let
         "HAdmjLVn" = _HAdmjLVn;
         "1tudav0n" = _1tudav0n;
         "xELqrzD2" = _xELqrzD2;
-        "forge-1.20.1" = _xELqrzD2;
+        "EcpIA1We" = _EcpIA1We;
+        "IRWMMYPG" = _IRWMMYPG;
+        "ExxYiHxK" = _ExxYiHxK;
+        "forge-1.20.1" = _EcpIA1We;
         "forge-1.19.2" = _cvnzhzuh;
-        "fabric-1.20.1" = _HAdmjLVn;
-        "fabric-1.21.1" = _1tudav0n;
+        "fabric-1.20.1" = _EcpIA1We;
+        "fabric-1.21.1" = _IRWMMYPG;
         "quilt-1.20.1" = _pkpM2h7V;
         "quilt-1.21.1" = _iotJUeAB;
+        "neoforge-1.21.1" = _ExxYiHxK;
         "pkg-3.5.1" = _3QrmXNDk;
         "pkg-0.1.0" = _1gt96KSW;
         "pkg-0.2.0" = _cLcNtTiJ;
@@ -98,7 +117,10 @@ let
         "pkg-0.4.1" = _HAdmjLVn;
         "pkg-0.4.1-1.21.1" = _1tudav0n;
         "pkg-3.5.3" = _xELqrzD2;
-        "default" = _xELqrzD2;
+        "pkg-1.0" = _EcpIA1We;
+        "pkg-1.0-1.21.1-fabric" = _IRWMMYPG;
+        "pkg-1.0-1.21.1-neoforge" = _ExxYiHxK;
+        "default" = _ExxYiHxK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unseen-world";

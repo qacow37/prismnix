@@ -31,6 +31,11 @@ let
             "file" = "deathlog-0.4.3.jar";
             "hash" = "sha512-Yx9dZ5MiKUUxlIzUU7fEZgh4ELStgOu2uj8j16cTd0eN/Fdfa1pQqIjjTqVJv0eC2MjMgWMVJ/iGAnh6z2raPA==";
         };
+        _76MunZIV = {
+            "id" = "76MunZIV";
+            "file" = "deathlog-0.4.4.jar";
+            "hash" = "sha512-rAgtHfkVziljOYtqAAeCvwlBlgqtcxamPFfRUdrcYPF90ZvBlUwZPd4yPNHnmSkSHke1ifiO77VRriIiHZT2Yw==";
+        };
     in {
         "P1c3qgh4" = _P1c3qgh4;
         "qW2P9dMD" = _qW2P9dMD;
@@ -38,6 +43,7 @@ let
         "N8HSpJUO" = _N8HSpJUO;
         "FTSREt4X" = _FTSREt4X;
         "HHLwAgM7" = _HHLwAgM7;
+        "76MunZIV" = _76MunZIV;
         "fabric-1.21.5" = _P1c3qgh4;
         "fabric-1.21.6" = _P1c3qgh4;
         "fabric-1.21.7" = _P1c3qgh4;
@@ -49,12 +55,14 @@ let
         "fabric-26.1.1" = _FTSREt4X;
         "fabric-26.1.2" = _FTSREt4X;
         "fabric-26.2" = _HHLwAgM7;
+        "fabric-26.3" = _76MunZIV;
         "pkg-0.4.1+1.21.5" = _P1c3qgh4;
         "pkg-0.4.1+1.21.9" = _qW2P9dMD;
         "pkg-0.4.2+1.21.11" = _iqvvkESn;
         "pkg-0.4.2" = _N8HSpJUO;
         "pkg-0.4.3" = _HHLwAgM7;
-        "default" = _HHLwAgM7;
+        "pkg-0.4.4" = _76MunZIV;
+        "default" = _76MunZIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deathlog-fork";

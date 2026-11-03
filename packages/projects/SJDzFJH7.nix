@@ -166,6 +166,41 @@ let
             "file" = "cirrus-fabric-26.3-1.4.1.jar";
             "hash" = "sha512-3ZOokEpNwYixE5Th9xeLcKq0UkTv+Dk3FQuV24WNrxPZEAfV5J76yJiAkaZc0uVn6kM9iByonu1172vEfVRWAA==";
         };
+        _FQhpJCRL = {
+            "id" = "FQhpJCRL";
+            "file" = "cirrus-fabric-1.21.1-1.4.2.jar";
+            "hash" = "sha512-MSh7ta/jHCuUVrJe0Z+Wfggf8TJ+MshKA25kRReTXp6SsWgWGG/6kIB8HGkdf8YTqQIoXD6ldDBDw2UJS3Rk5g==";
+        };
+        _Ess6vFlm = {
+            "id" = "Ess6vFlm";
+            "file" = "cirrus-fabric-1.21.10-1.4.2.jar";
+            "hash" = "sha512-ZCuYKtrMRZM7hhSJdSmJqTKCLftGVbquLIp34ZvosMc+tbyc8+M7CJ1+8iFg//DJsckkD/X3ruwTMbmbnQiJnQ==";
+        };
+        _aBq02wPt = {
+            "id" = "aBq02wPt";
+            "file" = "cirrus-fabric-1.21.11-1.4.2.jar";
+            "hash" = "sha512-f6wjg23k8FdjyJgmk8htYZBy1N/936e/nHLa7mnJsvjGp0LjaqUT+wyRNWpynSx6NDJvoUUcGeZoawFeWPQyzw==";
+        };
+        _X4TlH0CD = {
+            "id" = "X4TlH0CD";
+            "file" = "cirrus-fabric-26.1.x-1.4.2.jar";
+            "hash" = "sha512-Zxhqh3/kSWTxg7vaRYMZ1bnQYFlRnb56RiZLPKzVlu9f6gAfnerCeLKLTv28By46XvHRvs3Z2cJ3pF6tETNHqw==";
+        };
+        _4SowfnsC = {
+            "id" = "4SowfnsC";
+            "file" = "cirrus-fabric-26.2-1.4.2.jar";
+            "hash" = "sha512-4FWMtRxHxq3mr8ODLyE6UU51GV+59VF9LI0fkkR7h/wObaTkNXAqgXF9W+d4g168qGXeYj9QoKd/95utqJjiIQ==";
+        };
+        _eYWl8ES1 = {
+            "id" = "eYWl8ES1";
+            "file" = "cirrus-fabric-26.3-1.4.2.jar";
+            "hash" = "sha512-G7g+aCxCoQr5UQPVWXyKLx8/yzNXSiV81u51E0gX/y2Vp6YbxXrtVphctwPW5Gxn3a3Jm4slQAAMGIiMxPti/Q==";
+        };
+        _VHN0gvNp = {
+            "id" = "VHN0gvNp";
+            "file" = "cirrus-neoforge-1.21.1-1.4.2.jar";
+            "hash" = "sha512-NpFRgM106U8ieZWdxxHV72HYkoZTmtrAbItfq/g7wORo8+9KUbvdg5M2Z2P7mtafrtWiF+ZWtM4DW8B7CHxyvQ==";
+        };
     in {
         "zbPbjzoE" = _zbPbjzoE;
         "pNEv7TEv" = _pNEv7TEv;
@@ -200,15 +235,22 @@ let
         "N1IDOP05" = _N1IDOP05;
         "TqS1SR1Y" = _TqS1SR1Y;
         "2erYeKg1" = _2erYeKg1;
-        "neoforge-1.21.1" = _gQSzD7br;
-        "fabric-1.21.11" = _Be40VqOz;
-        "fabric-1.21.1" = _lxmciEpD;
-        "fabric-26.1" = _N1IDOP05;
-        "fabric-26.1.1" = _N1IDOP05;
-        "fabric-26.1.2" = _N1IDOP05;
-        "fabric-26.2" = _TqS1SR1Y;
-        "fabric-1.21.10" = _awlspya5;
-        "fabric-26.3" = _2erYeKg1;
+        "FQhpJCRL" = _FQhpJCRL;
+        "Ess6vFlm" = _Ess6vFlm;
+        "aBq02wPt" = _aBq02wPt;
+        "X4TlH0CD" = _X4TlH0CD;
+        "4SowfnsC" = _4SowfnsC;
+        "eYWl8ES1" = _eYWl8ES1;
+        "VHN0gvNp" = _VHN0gvNp;
+        "neoforge-1.21.1" = _VHN0gvNp;
+        "fabric-1.21.11" = _aBq02wPt;
+        "fabric-1.21.1" = _FQhpJCRL;
+        "fabric-26.1" = _X4TlH0CD;
+        "fabric-26.1.1" = _X4TlH0CD;
+        "fabric-26.1.2" = _X4TlH0CD;
+        "fabric-26.2" = _4SowfnsC;
+        "fabric-1.21.10" = _Ess6vFlm;
+        "fabric-26.3" = _eYWl8ES1;
         "pkg-1.0.0" = _zbPbjzoE;
         "pkg-1.0.1" = _pNEv7TEv;
         "pkg-1.0.2" = _nzIl1pTW;
@@ -219,7 +261,8 @@ let
         "pkg-1.3.0" = _wqg9yMPm;
         "pkg-1.4.0" = _W965YVe0;
         "pkg-1.4.1" = _2erYeKg1;
-        "default" = _2erYeKg1;
+        "pkg-1.4.2" = _VHN0gvNp;
+        "default" = _VHN0gvNp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cirrus";

@@ -196,6 +196,16 @@ let
             "file" = "taa-1.4.3+1.20.1.jar";
             "hash" = "sha512-HLPZWB2B19gQuKNApK1r606hfSaarhqGciwYY2jr3YC7pHv8LYXz82BdqyN+PD+Hbk9NTEFv8vp+6U3WR7ekYQ==";
         };
+        _5WZFo3qe = {
+            "id" = "5WZFo3qe";
+            "file" = "taa-1.4.4+1.20.1.jar";
+            "hash" = "sha512-PDoAjKNkeMcj7Eo6zCElpt4lg2W02HUlcwYPf6bDCJPlUs8gB8jjznl2bhFrH6H+aRJIw98UZKT4TELtMCQm7g==";
+        };
+        _9Cif2pyZ = {
+            "id" = "9Cif2pyZ";
+            "file" = "taa-1.4.4+1.21.1.jar";
+            "hash" = "sha512-+3ndVbqa6CaYXshea82wZ/OAXzORIatg4e4SylQHwQemICLCpShiJVBzcNj+t0gjbw0B48Rs9CcGLydKJk2m8w==";
+        };
     in {
         "iMbd6mvh" = _iMbd6mvh;
         "oT2hkhNu" = _oT2hkhNu;
@@ -236,8 +246,10 @@ let
         "Yu6I6cuY" = _Yu6I6cuY;
         "P72XqgV1" = _P72XqgV1;
         "TmZesPjW" = _TmZesPjW;
-        "forge-1.20.1" = _TmZesPjW;
-        "neoforge-1.21.1" = _P72XqgV1;
+        "5WZFo3qe" = _5WZFo3qe;
+        "9Cif2pyZ" = _9Cif2pyZ;
+        "forge-1.20.1" = _5WZFo3qe;
+        "neoforge-1.21.1" = _9Cif2pyZ;
         "pkg-1.0.7" = _iMbd6mvh;
         "pkg-1.0.8" = _oT2hkhNu;
         "pkg-1.0.9" = _VCThjO0N;
@@ -276,7 +288,9 @@ let
         "pkg-1.4.3+1.21.1" = _Yu6I6cuY;
         "pkg-1.4.3-hotfix+1.21.1" = _P72XqgV1;
         "pkg-1.4.3+1.20.1" = _TmZesPjW;
-        "default" = _TmZesPjW;
+        "pkg-1.4.4+1.20.1" = _5WZFo3qe;
+        "pkg-1.4.4+1.21.1" = _9Cif2pyZ;
+        "default" = _9Cif2pyZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczattributeadd";

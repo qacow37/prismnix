@@ -246,6 +246,21 @@ let
             "file" = "antos-neoforge-26.3-1.6.2.jar";
             "hash" = "sha512-afeq89pF6rCCo+cVIzCTGTZJorpaiz3LT4FkGyzj13fam1IOnGb/xa0WK/fohTmIDcD4sn/DUBvUMagBPYchBg==";
         };
+        _exdSMPs5 = {
+            "id" = "exdSMPs5";
+            "file" = "antos-forge-1.20.1-1.6.3.jar";
+            "hash" = "sha512-vgh/t63sQ9M2FKeYn9l4LmcfhCqctjVo43F7cErtJHNwZ7MtUGRw5GX3HLaB42DYnm3wE4HQbrJpPg46KEvaNg==";
+        };
+        _9OzODhpY = {
+            "id" = "9OzODhpY";
+            "file" = "antos-neoforge-1.21.1-1.6.3.jar";
+            "hash" = "sha512-euTqXA5Fn4XT8KCCn770yHmq4/7cruKBUZN0QyUJmAwioMkMmn4D9sGYupuXYhbX0aQITGVeB70+VtXKckTOhw==";
+        };
+        _1HwSq9Xn = {
+            "id" = "1HwSq9Xn";
+            "file" = "antos-fabric-1.21.1-1.6.3.jar";
+            "hash" = "sha512-XXBEfU9n3JPirICXU30sQsMW2aj4wQEx09L8CZzOo60uc4yJj36i07MZzyuQshk/DbnEZVUMlEMgpIrxkf7QfQ==";
+        };
     in {
         "wXA8Z4N3" = _wXA8Z4N3;
         "wh77H1tX" = _wh77H1tX;
@@ -296,17 +311,20 @@ let
         "cRjQ1H5y" = _cRjQ1H5y;
         "IQyHBRqR" = _IQyHBRqR;
         "hOiKs6Bo" = _hOiKs6Bo;
-        "neoforge-1.21.1" = _vcX9yPCp;
+        "exdSMPs5" = _exdSMPs5;
+        "9OzODhpY" = _9OzODhpY;
+        "1HwSq9Xn" = _1HwSq9Xn;
+        "neoforge-1.21.1" = _9OzODhpY;
         "neoforge-26.1" = _cRjQ1H5y;
         "neoforge-26.1.1" = _cRjQ1H5y;
         "neoforge-26.1.2" = _cRjQ1H5y;
         "neoforge-26.2" = _IQyHBRqR;
         "neoforge-26.3" = _hOiKs6Bo;
-        "fabric-1.21.1" = _SdwCj7dd;
+        "fabric-1.21.1" = _1HwSq9Xn;
         "fabric-26.2" = _WG6P0Xj0;
         "fabric-26.1.2" = _po54uL8Q;
         "fabric-26.3" = _MG2iTxZv;
-        "forge-1.20.1" = _697pr5R5;
+        "forge-1.20.1" = _exdSMPs5;
         "pkg-1.1.0" = _wh77H1tX;
         "pkg-1.1.1" = _aOZ2En8v;
         "pkg-1.2.1" = _KWQdVXd4;
@@ -324,7 +342,8 @@ let
         "pkg-1.6.0" = _iFf4N5eq;
         "pkg-1.6.1" = _AxS4HNeS;
         "pkg-1.6.2" = _hOiKs6Bo;
-        "default" = _hOiKs6Bo;
+        "pkg-1.6.3" = _1HwSq9Xn;
+        "default" = _1HwSq9Xn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antos";

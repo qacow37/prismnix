@@ -506,6 +506,21 @@ let
             "file" = "fantasyfurniture-26.3.3.jar";
             "hash" = "sha512-0L4G7C9jAVZUhHLuL7OlfZUV+x8WBRe3xQzKlaQOm7y16SQd3rfWHWTqGNSgZTb1RgLanNfJZXNqbkAN0qLbKg==";
         };
+        _7TSsJynE = {
+            "id" = "7TSsJynE";
+            "file" = "fantasyfurniture-26.2.7.jar";
+            "hash" = "sha512-p2vAhWz+GN/QBfl8+Zg8H7ZdKcVPEmJJyEW027xeiS48EgvJXgDuKWyHUsmaiTHKQPGidioUcVc+YnL6cHWB6A==";
+        };
+        _XhujAH33 = {
+            "id" = "XhujAH33";
+            "file" = "fantasyfurniture-26.1.9.jar";
+            "hash" = "sha512-db1iitqhD0w6Tw9OvaeQRRtmqAkIR52N902Q8WbwpZkiRlsCwqfzOQrDA3QbnLnNrlMLhiaUNX5OsAaPrFM0AQ==";
+        };
+        _fZnGGK9p = {
+            "id" = "fZnGGK9p";
+            "file" = "fantasyfurniture-26.3.4.jar";
+            "hash" = "sha512-B562aEKQZaPvMNIoeqUn3FdoqmvI1PAkTAuIySIlmaTNo3dqGg3EoHRV/s807ASA1qF0dg2KQzbrZxZA525z/g==";
+        };
     in {
         "7Ukdr07T" = _7Ukdr07T;
         "mZjsljRE" = _mZjsljRE;
@@ -608,6 +623,9 @@ let
         "M6Tf30Yr" = _M6Tf30Yr;
         "8GlFBXMP" = _8GlFBXMP;
         "ved9uKGn" = _ved9uKGn;
+        "7TSsJynE" = _7TSsJynE;
+        "XhujAH33" = _XhujAH33;
+        "fZnGGK9p" = _fZnGGK9p;
         "forge-1.16.5" = _89GuwlQz;
         "forge-1.18.2" = _57Lg2mdm;
         "forge-1.19" = _j4wOX6ez;
@@ -625,11 +643,11 @@ let
         "neoforge-1.21.7" = _fFT8Ko7k;
         "neoforge-1.21.10" = _fsG9wh3i;
         "neoforge-1.21.11" = _pokYns4q;
-        "neoforge-26.1" = _pbz8ZJ9z;
-        "neoforge-26.1.1" = _pbz8ZJ9z;
-        "neoforge-26.1.2" = _pbz8ZJ9z;
-        "neoforge-26.2" = _wlMsmOwI;
-        "neoforge-26.3" = _ved9uKGn;
+        "neoforge-26.1" = _XhujAH33;
+        "neoforge-26.1.1" = _XhujAH33;
+        "neoforge-26.1.2" = _XhujAH33;
+        "neoforge-26.2" = _7TSsJynE;
+        "neoforge-26.3" = _fZnGGK9p;
         "pkg-0.1.0-ALPHA" = _7Ukdr07T;
         "pkg-0.1.2-ALPHA" = _mZjsljRE;
         "pkg-0.2.0-BETA" = _rJQLngpN;
@@ -731,7 +749,10 @@ let
         "pkg-26.3.0" = _M6Tf30Yr;
         "pkg-26.3.1" = _8GlFBXMP;
         "pkg-26.3.3" = _ved9uKGn;
-        "default" = _ved9uKGn;
+        "pkg-26.2.7" = _7TSsJynE;
+        "pkg-26.1.9" = _XhujAH33;
+        "pkg-26.3.4" = _fZnGGK9p;
+        "default" = _fZnGGK9p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasy-furniture";

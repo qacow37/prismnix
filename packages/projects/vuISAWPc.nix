@@ -6336,6 +6336,26 @@ let
             "file" = "anvilcraft-neoforge-1.21.1-1.6.0+snapshot.2747.jar";
             "hash" = "sha512-Eu9P732ke+AiaO5gIMaBo4s2FByL13X0B5mCpKnhyWZ+7H+JWaXnkStOSRPsqfjpusOaPxVIM9Z2XhVJiYuCCA==";
         };
+        _nFzVB5s2 = {
+            "id" = "nFzVB5s2";
+            "file" = "anvilcraft-neoforge-1.21.1-1.6.0+snapshot.2748.jar";
+            "hash" = "sha512-tOkhdhEHSXyOTZwy3piPYVUs/yNmQWRgGBKKfyLG6y9oGX4AJN5S3WT6wR+CCtFTf4LhBwhctXwz0XPqd6oAEg==";
+        };
+        _x0HDjPpy = {
+            "id" = "x0HDjPpy";
+            "file" = "anvilcraft-neoforge-26.1.2-1.6.0+snapshot.2749.jar";
+            "hash" = "sha512-DzckuX6/Ph0xzrZPgYUmdyhQ5G49cBDQYFCLCthjbONuUxBxf2x+//GkfKWftMBqaRcgYoWFQncxjGKH1y3mYA==";
+        };
+        _gdZCwyfb = {
+            "id" = "gdZCwyfb";
+            "file" = "anvilcraft-neoforge-26.1.2-1.6.0+snapshot.2750.jar";
+            "hash" = "sha512-opuNdrm9WT0ZEhbQcX2hNZcHO49uHrZbgojeNR89leMiJx1h3Dsq4Rft9wK8i0a+0PtNtHbtnmELmLFbrgopCA==";
+        };
+        _vCAm00ZX = {
+            "id" = "vCAm00ZX";
+            "file" = "anvilcraft-neoforge-1.21.1-1.6.0+snapshot.2751.jar";
+            "hash" = "sha512-PxsFe0yZwpEt1AgRxjBr0UQyT/LmunC/NK19/IczPkNaCPd5DqrbGSGiPArPzY7QOD5MQbWIcL7VZvJzKvVf7Q==";
+        };
     in {
         "pzH7UjHZ" = _pzH7UjHZ;
         "xOoiHkin" = _xOoiHkin;
@@ -7604,11 +7624,15 @@ let
         "1wqqD5ft" = _1wqqD5ft;
         "3vVsaYVR" = _3vVsaYVR;
         "kKtolF78" = _kKtolF78;
+        "nFzVB5s2" = _nFzVB5s2;
+        "x0HDjPpy" = _x0HDjPpy;
+        "gdZCwyfb" = _gdZCwyfb;
+        "vCAm00ZX" = _vCAm00ZX;
         "fabric-1.20.1" = _mm8DL8rN;
         "quilt-1.20.1" = _mm8DL8rN;
         "forge-1.20.1" = _lef9bUVg;
-        "neoforge-1.21.1" = _kKtolF78;
-        "neoforge-26.1.2" = _3vVsaYVR;
+        "neoforge-1.21.1" = _vCAm00ZX;
+        "neoforge-26.1.2" = _gdZCwyfb;
         "pkg-0.0.1+build.75" = _pzH7UjHZ;
         "pkg-1.0.0+build.107" = _xOoiHkin;
         "pkg-1.1.0+build.236" = _lqz9i7Ir;
@@ -8854,7 +8878,11 @@ let
         "pkg-26.1.2-1.6.0+snapshot.2745" = _1wqqD5ft;
         "pkg-26.1.2-1.6.0+snapshot.2746" = _3vVsaYVR;
         "pkg-1.21.1-1.6.0+snapshot.2747" = _kKtolF78;
-        "default" = _kKtolF78;
+        "pkg-1.21.1-1.6.0+snapshot.2748" = _nFzVB5s2;
+        "pkg-26.1.2-1.6.0+snapshot.2749" = _x0HDjPpy;
+        "pkg-26.1.2-1.6.0+snapshot.2750" = _gdZCwyfb;
+        "pkg-1.21.1-1.6.0+snapshot.2751" = _vCAm00ZX;
+        "default" = _vCAm00ZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraft";

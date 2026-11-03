@@ -76,6 +76,11 @@ let
             "file" = "verity_dweller-3.0.0.jar";
             "hash" = "sha512-9m/oRdykt6bu2oYg3/CazX/VGi8CechHbYF7R4cHoAvME0MSCPexAa6bk9G7pQkM/kCLGyhvKnCz2i1YeQumcw==";
         };
+        _bRX8klpN = {
+            "id" = "bRX8klpN";
+            "file" = "verity_dweller-4.0.0.jar";
+            "hash" = "sha512-oAB34PXZs25rz0zWGnCcwxEveC7kQ3voE4lVeyTs9tKnLnAxBf6DT8VlcsY8FBtv4YOQhopu8Jtc0YA/XE1N2w==";
+        };
     in {
         "A4Nnr4iy" = _A4Nnr4iy;
         "ejRh2eId" = _ejRh2eId;
@@ -92,10 +97,11 @@ let
         "OzNtmFMI" = _OzNtmFMI;
         "kWCRkCsd" = _kWCRkCsd;
         "kTV3aJBt" = _kTV3aJBt;
+        "bRX8klpN" = _bRX8klpN;
         "neoforge-1.21.8" = _ejRh2eId;
         "neoforge-1.21.1" = _ukQgd5p7;
         "fabric-26.1.2" = _kTV3aJBt;
-        "fabric-26.2" = _Hnvnb6pN;
+        "fabric-26.2" = _bRX8klpN;
         "fabric-1.21.1" = _R5eRw1Fa;
         "fabric-1.21.4" = _KpS6SosS;
         "fabric-1.21.5" = _KpS6SosS;
@@ -115,7 +121,8 @@ let
         "pkg-1.0.1" = _zk0ZbIlk;
         "pkg-2.0.0" = _qESXjn92;
         "pkg-3.0.0" = _kTV3aJBt;
-        "default" = _kTV3aJBt;
+        "pkg-4.0.0" = _bRX8klpN;
+        "default" = _bRX8klpN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "verity-dweller";

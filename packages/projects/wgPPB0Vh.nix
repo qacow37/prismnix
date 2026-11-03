@@ -326,6 +326,11 @@ let
             "file" = "DonutSMP Streamer Utility's 26.3 V7.jar";
             "hash" = "sha512-bCEtPfy+ZZ3UD5EbdspmaWZSjXhexzMX0Cqa6tC9qenTopSRkNOVhMNFM9ThDZeH47cKQZuQo5E+zoYrHMD3nQ==";
         };
+        _I4RZGbOB = {
+            "id" = "I4RZGbOB";
+            "file" = "DonutSMP Streamer Utility's 26.3 V7.jar";
+            "hash" = "sha512-VnHwfakfPkqbPcblyneP92qeoY70kv/VAVzMqMaw3H1fZMZgVL/gzxGcGhiiYYr7aPk8Gm1traaVycfvKF5T7w==";
+        };
     in {
         "RRGVjeoU" = _RRGVjeoU;
         "jygcL0rY" = _jygcL0rY;
@@ -392,6 +397,7 @@ let
         "GOqA7uUw" = _GOqA7uUw;
         "sfWvPsdR" = _sfWvPsdR;
         "PFsudd8h" = _PFsudd8h;
+        "I4RZGbOB" = _I4RZGbOB;
         "fabric-1.21.4" = _CkmUtM2F;
         "fabric-1.21.5" = _N4H8bwFT;
         "fabric-1.21.6" = _1qC8IMuR;
@@ -403,7 +409,7 @@ let
         "fabric-26.1" = _xwo5yGEJ;
         "fabric-26.1.1" = _AnW1sBjx;
         "fabric-26.2" = _sfWvPsdR;
-        "fabric-26.3" = _PFsudd8h;
+        "fabric-26.3" = _I4RZGbOB;
         "fabric-26.1.2" = _GOqA7uUw;
         "pkg-3.0" = _hXdsibeJ;
         "pkg-1.21.4" = _2vY6t23f;
@@ -421,10 +427,10 @@ let
         "pkg-1.21.11" = _tQ2BdBLE;
         "pkg-5.0" = _jWJEXW2o;
         "pkg-V6" = _H7YvO5Sg;
-        "pkg-V7" = _PFsudd8h;
+        "pkg-V7" = _I4RZGbOB;
         "pkg-v7" = _N4H8bwFT;
         "pkg-1.9.21" = _DrMSUqJv;
-        "default" = _PFsudd8h;
+        "default" = _I4RZGbOB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "donutsmp-streamer-utilitys";

@@ -281,6 +281,11 @@ let
             "file" = "MoreChiseledBookshelfVariants-1.8.1+26.3-Fabric.jar";
             "hash" = "sha512-MIbrvhEXwEQ9fhfDBEIKBvWlxdj2WCYY4+lHz/i4Os0c/6RXI0hqpT6sIfN9BfnuaKmhcrwCCGj/GKjaoQnCeA==";
         };
+        _qhUp5KRa = {
+            "id" = "qhUp5KRa";
+            "file" = "MoreChiseledBookshelfVariants-1.8.2+26.3-Fabric.jar";
+            "hash" = "sha512-W5tH12Y5oMS7DSbKrSGV4HC5E5I9hyothhiTIYr1cvgVkLlhquYMrP7PwuyanCAznqm4s7pWYyJfEJuV2O/UIw==";
+        };
     in {
         "GGecVY7m" = _GGecVY7m;
         "esCEmw08" = _esCEmw08;
@@ -338,6 +343,7 @@ let
         "GsJirB1v" = _GsJirB1v;
         "IQtQPiON" = _IQtQPiON;
         "Wk8JJ9fU" = _Wk8JJ9fU;
+        "qhUp5KRa" = _qhUp5KRa;
         "fabric-1.20.1" = _7aOEG6NK;
         "fabric-1.20.4" = _vmRC2eBm;
         "fabric-1.20.6" = _x36NpgHP;
@@ -421,6 +427,7 @@ let
         "fabric-26.2" = _IQtQPiON;
         "fabric-26.3-snapshot-5" = _IuU32M4k;
         "fabric-26.3-snapshot-8" = _Wk8JJ9fU;
+        "fabric-26.3" = _qhUp5KRa;
         "pkg-1.5.3" = _m7y9jGfs;
         "pkg-1.5.4" = _xWhWq8dl;
         "pkg-1.5.5" = _nIUb3omS;
@@ -438,7 +445,8 @@ let
         "pkg-1.7.6" = _cAxohR3D;
         "pkg-1.8.0" = _IuU32M4k;
         "pkg-1.8.1" = _Wk8JJ9fU;
-        "default" = _Wk8JJ9fU;
+        "pkg-1.8.2" = _qhUp5KRa;
+        "default" = _qhUp5KRa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-chiseled-bookshelf-variants";

@@ -196,6 +196,16 @@ let
             "file" = "teyvatdelight-1.1.13-forge-1.20.1.jar";
             "hash" = "sha512-73e2cIiK5fOrFoEOhnf1MMsdtiQiuKaUKxCTG90NTXFGy5ViD23KD267MwS+ByWO4Bqiz2mqihlwrKAnGqEgDQ==";
         };
+        _LCBxEVeJ = {
+            "id" = "LCBxEVeJ";
+            "file" = "teyvatdelight-1.1.15-forge-1.20.1.jar";
+            "hash" = "sha512-5oWumwjGYo8dBiVIvRslyh99WtEq01fGxrOaQPaeVvPlV3dfnX1NrRGOKfbaImHq8+O3pwbCmm8KIXDBdO8zEQ==";
+        };
+        _8jaexlQy = {
+            "id" = "8jaexlQy";
+            "file" = "teyvatdelight-1.1.14.jar";
+            "hash" = "sha512-Nw9uVita9WpSPPriEF9SmW44V7lgi0VIQoIY5w0hogsl2mnYHgvRF+7nHFnWhSjnwxxNVDJoM8qt5tGw3EjGew==";
+        };
     in {
         "tUazDlBr" = _tUazDlBr;
         "cqjyEGw6" = _cqjyEGw6;
@@ -236,13 +246,15 @@ let
         "zPIewTSj" = _zPIewTSj;
         "fAfWpzji" = _fAfWpzji;
         "W3gM2zDW" = _W3gM2zDW;
-        "neoforge-1.21.1" = _fAfWpzji;
-        "forge-1.20.1" = _W3gM2zDW;
-        "forge-1.20.2" = _W3gM2zDW;
-        "forge-1.20.3" = _W3gM2zDW;
-        "forge-1.20.4" = _W3gM2zDW;
-        "forge-1.20.5" = _W3gM2zDW;
-        "forge-1.20.6" = _W3gM2zDW;
+        "LCBxEVeJ" = _LCBxEVeJ;
+        "8jaexlQy" = _8jaexlQy;
+        "neoforge-1.21.1" = _8jaexlQy;
+        "forge-1.20.1" = _LCBxEVeJ;
+        "forge-1.20.2" = _LCBxEVeJ;
+        "forge-1.20.3" = _LCBxEVeJ;
+        "forge-1.20.4" = _LCBxEVeJ;
+        "forge-1.20.5" = _LCBxEVeJ;
+        "forge-1.20.6" = _LCBxEVeJ;
         "pkg-0.1.0" = _tUazDlBr;
         "pkg-0.2.0" = _cqjyEGw6;
         "pkg-0.2.1-forge" = _1tmy1hBh;
@@ -280,7 +292,9 @@ let
         "pkg-1.1.11-forge-1.20.1" = _EydrH8Yh;
         "pkg-1.1.12" = _fAfWpzji;
         "pkg-1.1.13-forge-1.20.1" = _W3gM2zDW;
-        "default" = _W3gM2zDW;
+        "pkg-1.1.15-forge-1.20.1" = _LCBxEVeJ;
+        "pkg-1.1.14" = _8jaexlQy;
+        "default" = _8jaexlQy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teyvats-delight";

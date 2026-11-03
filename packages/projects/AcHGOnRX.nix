@@ -331,6 +331,41 @@ let
             "file" = "seelescraft-1.3.4-neoforge-26.3.jar";
             "hash" = "sha512-VR66GSW6EUZHsOBPD9cjbwiEbffFGT8RVLMEDgXzm1M9LoRDnN5+oLilfq4r4bo8hp08zWUe1WNonADRjgk/IA==";
         };
+        _ziHgyKGD = {
+            "id" = "ziHgyKGD";
+            "file" = "seelescraft-1.4.0-forge-1.20.1.jar";
+            "hash" = "sha512-8BKYvcSu4rg9XisXlSVLuy1N9TQqkvfJoUtK8hk95+cSe1U345AFTFIze9cmIHnDjppz9Ktp/jfxi93Gv5HeiQ==";
+        };
+        _Qk9wKjs9 = {
+            "id" = "Qk9wKjs9";
+            "file" = "seelescraft-1.4.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-4KxLb8fyxhyZb4+oj084pSfCKiZl7raoXKfBM6aSfe2lPEKOp1in9gZo9un1Gj8avrKh7gF3abiHRACXXTEXkg==";
+        };
+        _t0ZiDcTM = {
+            "id" = "t0ZiDcTM";
+            "file" = "seelescraft-1.4.0-neoforge-26.3.jar";
+            "hash" = "sha512-7fp8WWUBOt1UhW9TcKGaQe0qenmAP/EAB5w0chYJv4P8bihGoT6vCXzS/x48Qq4p1LZSZpkFgBIzw0XdgDR8Cw==";
+        };
+        _eHBV9r3T = {
+            "id" = "eHBV9r3T";
+            "file" = "seelescraft-1.4.0-fabric-1.20.1.jar";
+            "hash" = "sha512-MLY81qfGmzEGV35kdyscUpykPuehiMPBGNINroH/LexiwvGF+zJ8g14KNh52DI/UdMM41u10sB6kLCMRen4Ymw==";
+        };
+        _AyzBFpu9 = {
+            "id" = "AyzBFpu9";
+            "file" = "seelescraft-1.4.0-fabric-1.21.1.jar";
+            "hash" = "sha512-guAW038uCBaORUIGStIen5x2qsAgXX2EEnTx71VuAVPgn6qE8OapBaJmGR5HDhTkjpvbBmF31E6YjPUnaVD5Xg==";
+        };
+        _qMe0J712 = {
+            "id" = "qMe0J712";
+            "file" = "seelescraft-1.4.0-fabric-26.3.jar";
+            "hash" = "sha512-IG9aBeYB3Yhsuu0ljCRQ08E6SHwT+ku1pNcq0uhf4xWsrXHxg59uMQgckTky96NRS3HslgiJXWlXKdH0vqkX/w==";
+        };
+        _MK8vWUmN = {
+            "id" = "MK8vWUmN";
+            "file" = "seelescraft-1.4.0-fabric-26.4-snapshot.jar";
+            "hash" = "sha512-sqdOzRdBRyGdIqkmif3W/nJjboiHCIBwE+ojhMQo94FS80JBDRxs8iEr1fpapGdZZkIPFGIXvebq1cpSQ0M2Sw==";
+        };
     in {
         "RfrywNCP" = _RfrywNCP;
         "Ntird7Mz" = _Ntird7Mz;
@@ -398,15 +433,31 @@ let
         "bRCvLVdR" = _bRCvLVdR;
         "3IGdH7FM" = _3IGdH7FM;
         "z6j2RnIG" = _z6j2RnIG;
-        "neoforge-1.21.1" = _TwYtlAIQ;
+        "ziHgyKGD" = _ziHgyKGD;
+        "Qk9wKjs9" = _Qk9wKjs9;
+        "t0ZiDcTM" = _t0ZiDcTM;
+        "eHBV9r3T" = _eHBV9r3T;
+        "AyzBFpu9" = _AyzBFpu9;
+        "qMe0J712" = _qMe0J712;
+        "MK8vWUmN" = _MK8vWUmN;
+        "neoforge-1.21.1" = _Qk9wKjs9;
         "neoforge-1.21.4" = _EXGxdien;
         "neoforge-1.21.11" = _sMwyq4mF;
         "neoforge-26.1" = _BXas0d90;
         "neoforge-26.1.1" = _Ev4KtqPb;
         "neoforge-26.1.2" = _bRCvLVdR;
         "neoforge-26.2" = _3IGdH7FM;
-        "neoforge-26.3" = _z6j2RnIG;
-        "forge-1.20.1" = _7DUICWY2;
+        "neoforge-26.3" = _t0ZiDcTM;
+        "forge-1.20.1" = _ziHgyKGD;
+        "fabric-1.20.1" = _eHBV9r3T;
+        "fabric-1.21.1" = _AyzBFpu9;
+        "fabric-26.3" = _qMe0J712;
+        "fabric-26.4-snapshot-1" = _MK8vWUmN;
+        "fabric-26.4-snapshot-2" = _MK8vWUmN;
+        "fabric-26.4-snapshot-3" = _MK8vWUmN;
+        "fabric-26.4-snapshot-4" = _MK8vWUmN;
+        "fabric-26.4-snapshot-5" = _MK8vWUmN;
+        "fabric-26.4-snapshot-6" = _MK8vWUmN;
         "pkg-1.0.0" = _RfrywNCP;
         "pkg-1.0.1" = _Ntird7Mz;
         "pkg-1.0.2" = _wd2aJqAy;
@@ -428,7 +479,8 @@ let
         "pkg-1.3.2" = _GOF0DnxR;
         "pkg-1.3.3" = _BRpUJvNy;
         "pkg-1.3.4" = _z6j2RnIG;
-        "default" = _z6j2RnIG;
+        "pkg-1.4.0" = _MK8vWUmN;
+        "default" = _MK8vWUmN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seelescraft";

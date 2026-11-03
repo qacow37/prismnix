@@ -21,20 +21,27 @@ let
             "file" = "envirotech-1.16.5-3.0.9.4.jar";
             "hash" = "sha512-grFxA2anvUhHFiINwSeUDm3uvOz/sGQ9mOWIN5ZmBMWniWCN7MXqKFpihZStUoYhSxxIoVcWgHc/YyM1zrYXlg==";
         };
+        _enmbNs8f = {
+            "id" = "enmbNs8f";
+            "file" = "environmentaltech-1.12.2-2.1.0.0.jar";
+            "hash" = "sha512-OJoB7Rf0uqeVRZIEb4W/5WTwy6tjqlIQxmo4DNYWIAXHSozob+yoEY4bMNdtfa+2MEh1+OHtxSBx9ia+eqS65Q==";
+        };
     in {
         "AgX53HQ2" = _AgX53HQ2;
         "3MzeFOcO" = _3MzeFOcO;
         "k48mmbV0" = _k48mmbV0;
         "EvTjM2Ca" = _EvTjM2Ca;
+        "enmbNs8f" = _enmbNs8f;
         "forge-1.9.4" = _AgX53HQ2;
         "forge-1.10.2" = _3MzeFOcO;
-        "forge-1.12.2" = _k48mmbV0;
+        "forge-1.12.2" = _enmbNs8f;
         "forge-1.16.5" = _EvTjM2Ca;
         "pkg-1.9.4-0.9.6d" = _AgX53HQ2;
         "pkg-1.10.2-0.10.6b" = _3MzeFOcO;
         "pkg-1.12.2-2.0.20.1" = _k48mmbV0;
         "pkg-1.16.5-3.0.9.4" = _EvTjM2Ca;
-        "default" = _EvTjM2Ca;
+        "pkg-1.12.2-2.1.0.0" = _enmbNs8f;
+        "default" = _enmbNs8f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmental-tech";

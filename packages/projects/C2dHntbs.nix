@@ -186,6 +186,11 @@ let
             "file" = "ViScriptShop-neoforge-1.21.1-1.2.4.jar";
             "hash" = "sha512-r/y2LIowhpR0llcppFbcL8GD8E+khAb750vYX349xQGnRafueJZaYivni7T00SG1+kLKM8us/kvTPDp1BRETaA==";
         };
+        _bNvtjLJs = {
+            "id" = "bNvtjLJs";
+            "file" = "ViScriptShop-neoforge-1.21.1-1.2.5.jar";
+            "hash" = "sha512-Iv2zDfRrmh04JsK9CKd26Znq8+daQJe3ld2lPzuhRraPEUBU+D6CGE3P8tmamo2TvX+yWTIui07eotj/1yDCnA==";
+        };
     in {
         "xCUexekg" = _xCUexekg;
         "Xnv6zEl8" = _Xnv6zEl8;
@@ -224,7 +229,8 @@ let
         "pZ7Ru3yN" = _pZ7Ru3yN;
         "907qiUIn" = _907qiUIn;
         "nlvwEg8R" = _nlvwEg8R;
-        "neoforge-1.21.1" = _nlvwEg8R;
+        "bNvtjLJs" = _bNvtjLJs;
+        "neoforge-1.21.1" = _bNvtjLJs;
         "neoforge-1.21" = _RMKmv1m0;
         "pkg-1.0.0" = _xCUexekg;
         "pkg-1.0.1" = _Xnv6zEl8;
@@ -263,7 +269,8 @@ let
         "pkg-1.2.2.4" = _pZ7Ru3yN;
         "pkg-1.2.3" = _907qiUIn;
         "pkg-1.2.4" = _nlvwEg8R;
-        "default" = _nlvwEg8R;
+        "pkg-1.2.5" = _bNvtjLJs;
+        "default" = _bNvtjLJs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viscriptshop";

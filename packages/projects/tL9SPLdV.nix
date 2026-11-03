@@ -326,6 +326,16 @@ let
             "file" = "animusnv-1.21.1-5.2.24.jar";
             "hash" = "sha512-nYf5TAUsAaRN87Sg5BASUXMI4jsq2BWvBzVhAUdfolomLM9vqIIdbO9XNq/w28q8iD2M4XMq2jrNxRDu59YVWg==";
         };
+        _eFv0F900 = {
+            "id" = "eFv0F900";
+            "file" = "animusnv-1.21.1-5.2.25.jar";
+            "hash" = "sha512-ryKp96xvuWkuiWx9fi2ebHiMY53NVa1PKhofhjU03eyGo/jNhG+fv7GlpGo2hHyUpthn2WzoVsTLABcqPQ9J2Q==";
+        };
+        _YZjE7Co6 = {
+            "id" = "YZjE7Co6";
+            "file" = "animusnv-26.1.2-5.2.21.jar";
+            "hash" = "sha512-G8nVwkZcgSs/hnuBFLHANr3xP/1sKzS0uPRn6Adq+XSY8F/hFrNeaYdIFeFNtUTQaKjl/yi06ZwbLIsKqBMz5g==";
+        };
     in {
         "3q9kBo5j" = _3q9kBo5j;
         "FDGO9z5Z" = _FDGO9z5Z;
@@ -392,9 +402,11 @@ let
         "rNHh7EHY" = _rNHh7EHY;
         "Khs2Zod4" = _Khs2Zod4;
         "frRZacfn" = _frRZacfn;
+        "eFv0F900" = _eFv0F900;
+        "YZjE7Co6" = _YZjE7Co6;
         "forge-1.20.1" = _ga9mWei4;
-        "neoforge-26.1.2" = _Khs2Zod4;
-        "neoforge-1.21.1" = _frRZacfn;
+        "neoforge-26.1.2" = _YZjE7Co6;
+        "neoforge-1.21.1" = _eFv0F900;
         "pkg-3.0.8" = _3q9kBo5j;
         "pkg-3.0.9" = _FDGO9z5Z;
         "pkg-3.0.10" = _PZABnCbY;
@@ -458,7 +470,9 @@ let
         "pkg-26.1.2-5.2.19" = _rNHh7EHY;
         "pkg-26.1.2-5.2.20" = _Khs2Zod4;
         "pkg-1.21.1-5.2.24" = _frRZacfn;
-        "default" = _frRZacfn;
+        "pkg-1.21.1-5.2.25" = _eFv0F900;
+        "pkg-26.1.2-5.2.21" = _YZjE7Co6;
+        "default" = _YZjE7Co6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animus";

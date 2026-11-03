@@ -356,6 +356,11 @@ let
             "file" = "randomloot-neoforge-26.3-1.5.34.jar";
             "hash" = "sha512-mD9Od6h20eAVOLSVWqkKQeI9EdFUGJcLYCCshX91rwsW9ZF1LCcRyFtvrgVsZxGuuT28a0Vp+/xEi3nnq79Fdw==";
         };
+        _yuoTaIQM = {
+            "id" = "yuoTaIQM";
+            "file" = "randomloot-neoforge-26.3-1.5.35.jar";
+            "hash" = "sha512-EKlJCm9by2EvMWqskuOqvAXRZeJYum4+znn+HVrlK4Cy856F6DHto6ApbjFX2zssoyhy59zAbUfShpr9kU6IwA==";
+        };
     in {
         "SbQmlGSA" = _SbQmlGSA;
         "Dc56k0g9" = _Dc56k0g9;
@@ -428,6 +433,7 @@ let
         "CYH91TrX" = _CYH91TrX;
         "eStZqsD5" = _eStZqsD5;
         "WcSVgYxz" = _WcSVgYxz;
+        "yuoTaIQM" = _yuoTaIQM;
         "forge-1.16.5" = _SbQmlGSA;
         "forge-1.20.2" = _Dc56k0g9;
         "forge-1.20.3" = _Dc56k0g9;
@@ -437,7 +443,7 @@ let
         "neoforge-26.1.2" = _kBMSdxjt;
         "neoforge-26.2" = _6211abi6;
         "neoforge-1.21.1" = _pcKA38kl;
-        "neoforge-26.3" = _WcSVgYxz;
+        "neoforge-26.3" = _yuoTaIQM;
         "fabric-26.2" = _BUP4INTL;
         "fabric-1.21.1" = _DmiqZYW4;
         "fabric-26.3" = _eStZqsD5;
@@ -512,7 +518,8 @@ let
         "pkg-1.5.32+mc26.3-fabric" = _CYH91TrX;
         "pkg-1.5.33+mc26.3-fabric" = _eStZqsD5;
         "pkg-1.5.34+mc26.3-neoforge" = _WcSVgYxz;
-        "default" = _WcSVgYxz;
+        "pkg-1.5.35+mc26.3-neoforge" = _yuoTaIQM;
+        "default" = _yuoTaIQM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "randomloot";

@@ -131,6 +131,11 @@ let
             "file" = "DynamicSkins+mc1.20.1-1.3.8.jar";
             "hash" = "sha512-68zVM+aLA84J5JCTO/u31zZJmYS+xeHYC6t8puL6z98J4x9nAggNf86amnBl1saeVK4ZIuW4yg8amdoWiAhnQQ==";
         };
+        _HMKWagyc = {
+            "id" = "HMKWagyc";
+            "file" = "DynamicSkins+mc1.20.1-2.1.1-api.jar";
+            "hash" = "sha512-KXeHNXCrBKL/dQVZ9XB++w7XonHUBd713S9ZNk3EeKl5ya/lkYrL4eBtivnOMnLbCNh8tdMnzI7EKRf6csYr6Q==";
+        };
     in {
         "VlJlqSNi" = _VlJlqSNi;
         "qvHoRWfn" = _qvHoRWfn;
@@ -158,10 +163,11 @@ let
         "QFrQpdhq" = _QFrQpdhq;
         "qojMT1jX" = _qojMT1jX;
         "EbL1pDMZ" = _EbL1pDMZ;
+        "HMKWagyc" = _HMKWagyc;
         "fabric-1.20.1" = _ZINa1g06;
         "fabric-1.21" = _vY6I1G0c;
         "fabric-1.21.1" = _vY6I1G0c;
-        "forge-1.20.1" = _EbL1pDMZ;
+        "forge-1.20.1" = _HMKWagyc;
         "neoforge-1.21.1" = _guqsKdyU;
         "neoforge-1.21" = _guqsKdyU;
         "pkg-1.0.6" = _VlJlqSNi;
@@ -187,7 +193,8 @@ let
         "pkg-1.3.4-1024px" = _QFrQpdhq;
         "pkg-1.3.7-1024px" = _qojMT1jX;
         "pkg-1.3.8-1024px" = _EbL1pDMZ;
-        "default" = _EbL1pDMZ;
+        "pkg-v2.1.1+API" = _HMKWagyc;
+        "default" = _HMKWagyc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamicskins";

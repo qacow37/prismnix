@@ -816,6 +816,16 @@ let
             "file" = "littlejoys-fabric-26.3-26.3.0.1.jar";
             "hash" = "sha512-PrHi1TqlMn4TyQgHJeqVWxHzbByHF4yTY9qkuQ4QOiJuqqynhDx3vIq/oivikkNNwfdDXDyG+A+pZIrog8VXhA==";
         };
+        _kZV0Vhyl = {
+            "id" = "kZV0Vhyl";
+            "file" = "littlejoys-fabric-26.3-26.3.0.2.jar";
+            "hash" = "sha512-2ZWAhCbgQkp2mh8s/ucT5PmrLsKie12Q1JPcFyYarAuAWJBk1io+gh32TDfLcFt0qkNx8N68LQIUe9gcsdRF8Q==";
+        };
+        _5GmXMHRn = {
+            "id" = "5GmXMHRn";
+            "file" = "littlejoys-neoforge-26.3-26.3.0.2.jar";
+            "hash" = "sha512-omRAMu2BK5lqflWmb+YrHvimK8Osdbh/K7kMuris7fuUWRAAwixsSY/hZDqYkvzU+OlCUbfjz3OIwXPKAdo33w==";
+        };
     in {
         "p64zpRJN" = _p64zpRJN;
         "KCeFxPd9" = _KCeFxPd9;
@@ -980,6 +990,8 @@ let
         "gyEMtcYr" = _gyEMtcYr;
         "Qj9XDzC9" = _Qj9XDzC9;
         "EvD5GVlW" = _EvD5GVlW;
+        "kZV0Vhyl" = _kZV0Vhyl;
+        "5GmXMHRn" = _5GmXMHRn;
         "fabric-1.20" = _q2n9UBVO;
         "fabric-1.20.1" = _q2n9UBVO;
         "fabric-1.21" = _SYVrQJq4;
@@ -996,7 +1008,7 @@ let
         "fabric-26.1.1" = _NjqbsPSE;
         "fabric-26.1.2" = _hs2J1UEc;
         "fabric-26.2" = _mkP3nKyx;
-        "fabric-26.3" = _EvD5GVlW;
+        "fabric-26.3" = _kZV0Vhyl;
         "forge-1.20" = _YpTMdFrD;
         "forge-1.20.1" = _YpTMdFrD;
         "forge-1.21" = _w5wpRmyS;
@@ -1022,7 +1034,7 @@ let
         "neoforge-26.1.1" = _fty4NIgT;
         "neoforge-26.1.2" = _gyEMtcYr;
         "neoforge-26.2" = _cTQiG6lt;
-        "neoforge-26.3" = _Qj9XDzC9;
+        "neoforge-26.3" = _5GmXMHRn;
         "pkg-20.1.1+fabric-1.20.1" = _p64zpRJN;
         "pkg-20.1.1+forge-1.20.1" = _KCeFxPd9;
         "pkg-20.1.2+fabric-1.20.1" = _Ee15q9nz;
@@ -1186,7 +1198,9 @@ let
         "pkg-26.1.2.5+neoforge-26.1.2" = _gyEMtcYr;
         "pkg-26.3.0.1+neoforge-26.3" = _Qj9XDzC9;
         "pkg-26.3.0.1+fabric-26.3" = _EvD5GVlW;
-        "default" = _EvD5GVlW;
+        "pkg-26.3.0.2+fabric-26.3" = _kZV0Vhyl;
+        "pkg-26.3.0.2+neoforge-26.3" = _5GmXMHRn;
+        "default" = _5GmXMHRn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "little-joys";

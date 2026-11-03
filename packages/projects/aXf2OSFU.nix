@@ -681,6 +681,11 @@ let
             "file" = "ok_zoomer-18.0.0-beta.4.jar";
             "hash" = "sha512-g7TN9ik0aL3BPYmYxKPA6Safl8h1R5EBjsaMk5HDqXA63Gur1h1GNoSF4m/Bx9tJvCmxOE11dICSY1+g5Et/2A==";
         };
+        _2LEV4zNa = {
+            "id" = "2LEV4zNa";
+            "file" = "ok_zoomer-17.0.0-beta.7.jar";
+            "hash" = "sha512-nihay4ZN8/tngvpbMuAZd4GF1L9UQizpgd9t9+B6JE1s/tkqQjHx7gh7Q/6PtEYcQD9kw1N6MeZLkeeoF++qtw==";
+        };
     in {
         "KK5vv9Ca" = _KK5vv9Ca;
         "78Hjm4bd" = _78Hjm4bd;
@@ -818,6 +823,7 @@ let
         "ycdBK0pX" = _ycdBK0pX;
         "g9ICu3fu" = _g9ICu3fu;
         "BeDXLh3L" = _BeDXLh3L;
+        "2LEV4zNa" = _2LEV4zNa;
         "fabric-1.16.2" = _L7TmfftT;
         "fabric-1.15" = _78Hjm4bd;
         "fabric-1.15.1" = _78Hjm4bd;
@@ -883,9 +889,9 @@ let
         "fabric-26.1-rc-1" = _Qct44PL0;
         "fabric-26.1-rc-2" = _Qct44PL0;
         "fabric-26.1-rc-3" = _Qct44PL0;
-        "fabric-26.1" = _ycdBK0pX;
-        "fabric-26.1.1" = _ycdBK0pX;
-        "fabric-26.1.2" = _ycdBK0pX;
+        "fabric-26.1" = _2LEV4zNa;
+        "fabric-26.1.1" = _2LEV4zNa;
+        "fabric-26.1.2" = _2LEV4zNa;
         "fabric-26.2-rc-1" = _l7k6gYj8;
         "fabric-26.2-rc-2" = _l7k6gYj8;
         "fabric-26.2" = _BeDXLh3L;
@@ -966,9 +972,9 @@ let
         "neoforge-26.1-rc-1" = _Qct44PL0;
         "neoforge-26.1-rc-2" = _Qct44PL0;
         "neoforge-26.1-rc-3" = _Qct44PL0;
-        "neoforge-26.1" = _ycdBK0pX;
-        "neoforge-26.1.1" = _ycdBK0pX;
-        "neoforge-26.1.2" = _ycdBK0pX;
+        "neoforge-26.1" = _2LEV4zNa;
+        "neoforge-26.1.1" = _2LEV4zNa;
+        "neoforge-26.1.2" = _2LEV4zNa;
         "neoforge-26.2-rc-1" = _l7k6gYj8;
         "neoforge-26.2-rc-2" = _l7k6gYj8;
         "neoforge-26.2" = _BeDXLh3L;
@@ -1113,7 +1119,8 @@ let
         "pkg-17.0.0-beta.6" = _ycdBK0pX;
         "pkg-19.0.0-beta.3" = _g9ICu3fu;
         "pkg-18.0.0-beta.4" = _BeDXLh3L;
-        "default" = _BeDXLh3L;
+        "pkg-17.0.0-beta.7" = _2LEV4zNa;
+        "default" = _2LEV4zNa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ok-zoomer";

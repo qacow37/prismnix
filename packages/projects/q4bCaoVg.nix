@@ -46,6 +46,11 @@ let
             "file" = "iwantmysugarcane-26.2.jar";
             "hash" = "sha512-04Rh+2LCBhYJz/erQDa/a0LLNlz2XnnEY6e0Ggx3Pbo+w/y8rVWTkNjwVcjnbrbT+yJE7K2SPgyTg/ySmKUo4Q==";
         };
+        _XC1Cf2ot = {
+            "id" = "XC1Cf2ot";
+            "file" = "iwantmysugarcane-26.3.jar";
+            "hash" = "sha512-RzYTAAvBNw6Xr93qw3PfC+nO4zfmDJ5v7d9Jc3pPgmZ3h59dCkdfOwkMp5ki/aO3j8/rVmIBSZiS3TG4shSobg==";
+        };
     in {
         "jYV6UguS" = _jYV6UguS;
         "9f7EL2tT" = _9f7EL2tT;
@@ -56,6 +61,7 @@ let
         "UoECZosP" = _UoECZosP;
         "sGyptEq1" = _sGyptEq1;
         "6CdHvoFF" = _6CdHvoFF;
+        "XC1Cf2ot" = _XC1Cf2ot;
         "fabric-1.21.10" = _9f7EL2tT;
         "fabric-1.21.1" = _9f7EL2tT;
         "fabric-1.21.2" = _9f7EL2tT;
@@ -71,6 +77,7 @@ let
         "fabric-26.1.1" = _NRF754Sg;
         "fabric-26.1.2" = _NRF754Sg;
         "fabric-26.2" = _6CdHvoFF;
+        "fabric-26.3" = _XC1Cf2ot;
         "forge-1.21.1" = _qA9XtEb4;
         "forge-1.21.10" = _UoECZosP;
         "forge-1.21.11" = _UoECZosP;
@@ -86,7 +93,8 @@ let
         "pkg-1.21.10+11_forge" = _UoECZosP;
         "pkg-1.21.10_neoforge" = _sGyptEq1;
         "pkg-26.2_fabric" = _6CdHvoFF;
-        "default" = _6CdHvoFF;
+        "pkg-1.0.0+mc26.3-fabric" = _XC1Cf2ot;
+        "default" = _XC1Cf2ot;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "i-want-my-sugarcane!";

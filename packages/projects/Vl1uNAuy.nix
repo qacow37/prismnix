@@ -121,6 +121,21 @@ let
             "file" = "Aquaculture-26.2-2.10.0.jar";
             "hash" = "sha512-IDQCoqQN9l4iAEizcbe9G0uCp6gnuZfOGD8mDQuk3YFW2tw/p7O3SYGfU5vRPKA80lqhvhVp/me5DP4Q8TShBg==";
         };
+        _Wvvt3j0U = {
+            "id" = "Wvvt3j0U";
+            "file" = "Aquaculture-26.3-2.11.0.jar";
+            "hash" = "sha512-/x9ymuXUSe+JBg1VLfQy1JTQGjxx9+DUkU1QgP8aZT36KV9feznR46viQG64r7+XEPI64MkbMlGCZegqcSPmow==";
+        };
+        _u6jAlXY4 = {
+            "id" = "u6jAlXY4";
+            "file" = "Aquaculture-26.2-2.10.1.jar";
+            "hash" = "sha512-bDgsCmwqZE9yslHnXwIrLwX42sOlyQo0/pKnucjjhi3yHd3QDwhgE9kbaRPy9rfT4HFtQZx5AL5NdtHuwmJT5g==";
+        };
+        _yt6Yo7BZ = {
+            "id" = "yt6Yo7BZ";
+            "file" = "Aquaculture-26.3-2.11.1.jar";
+            "hash" = "sha512-ukpxXdq8GIqBC4R1lMfibCcOAO2/BKQYFX9udJDfw8sf80t4SXJNzIuXmTm0+373MVHmp6rJuf3F5jyDqM/siA==";
+        };
     in {
         "u59UKITA" = _u59UKITA;
         "3FMksfjB" = _3FMksfjB;
@@ -146,6 +161,9 @@ let
         "I2FfOQUM" = _I2FfOQUM;
         "N507Pi9c" = _N507Pi9c;
         "xEOsZMky" = _xEOsZMky;
+        "Wvvt3j0U" = _Wvvt3j0U;
+        "u6jAlXY4" = _u6jAlXY4;
+        "yt6Yo7BZ" = _yt6Yo7BZ;
         "neoforge-1.20.4" = _u59UKITA;
         "neoforge-1.21.5" = _Y5Qzr3S2;
         "neoforge-1.20.1" = _wNiFoROs;
@@ -158,7 +176,8 @@ let
         "neoforge-26.1" = _N507Pi9c;
         "neoforge-26.1.1" = _N507Pi9c;
         "neoforge-26.1.2" = _N507Pi9c;
-        "neoforge-26.2" = _xEOsZMky;
+        "neoforge-26.2" = _u6jAlXY4;
+        "neoforge-26.3" = _yt6Yo7BZ;
         "forge-1.20.1" = _wNiFoROs;
         "pkg-2.6.0" = _u59UKITA;
         "pkg-2.8.2" = _3FMksfjB;
@@ -181,7 +200,10 @@ let
         "pkg-2.9.2" = _I2FfOQUM;
         "pkg-2.9.3" = _N507Pi9c;
         "pkg-2.10.0" = _xEOsZMky;
-        "default" = _xEOsZMky;
+        "pkg-2.11.0" = _Wvvt3j0U;
+        "pkg-2.10.1" = _u6jAlXY4;
+        "pkg-2.11.1" = _yt6Yo7BZ;
+        "default" = _yt6Yo7BZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquaculture";

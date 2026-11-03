@@ -31,6 +31,26 @@ let
             "file" = "FHG-Forge-1.20.1-1.0.0.jar";
             "hash" = "sha512-VK6v3jX4EWUEWuDYoKFvOIimaApamJO10WjaZ8x5dOjpw2agRhPP5gt329ZTjVHMnHtMmCtfECWIR2Ht7/1ing==";
         };
+        _FlMv5RLu = {
+            "id" = "FlMv5RLu";
+            "file" = "FHG-Fabric-1.20.1-1.0.1.jar";
+            "hash" = "sha512-ahZct0bz/7vbds7HDpTmTWqLlg5YzQoMQMA65kWBKe/t2qm16R6VK8z1Qne5Jpj+3x15AKF1q8t1eK7RIIFTqw==";
+        };
+        _DGYdnWbX = {
+            "id" = "DGYdnWbX";
+            "file" = "FHG-Forge-1.20.1-1.0.1.jar";
+            "hash" = "sha512-63BINM7Pzel00GPP6lHFZHE/o69896agEsTAwDuKll1IeoJNSUhkQp1eJmzN/c3lwkCeysyJErZwuIsZZrssyg==";
+        };
+        _WBtrygG3 = {
+            "id" = "WBtrygG3";
+            "file" = "FHG-Fabric-1.21.1-1.0.1.jar";
+            "hash" = "sha512-IcEsoNuBK1MVf+U8xhjaWMPEFR4Ylv49JNM5hV33jqyKOXwr8nYcbtuJNJEJ1495H0SY6Dq4pR+YE6svshO7ig==";
+        };
+        _F3u2nEQf = {
+            "id" = "F3u2nEQf";
+            "file" = "FHG-NeoForge-1.21.1-1.0.1.jar";
+            "hash" = "sha512-ZwPkvMHBKzyk6ObuOTNI2XvzAEgoMJogaI7u1otg2Veyo+0fHxB7EcpTlFF3UzIIFJ6PHjM+zwjpcGysaPXs8Q==";
+        };
     in {
         "UZKIzfx1" = _UZKIzfx1;
         "H9J1EZgs" = _H9J1EZgs;
@@ -38,20 +58,25 @@ let
         "JhOhv9Ug" = _JhOhv9Ug;
         "WKIcBGfP" = _WKIcBGfP;
         "HmlGSJrZ" = _HmlGSJrZ;
+        "FlMv5RLu" = _FlMv5RLu;
+        "DGYdnWbX" = _DGYdnWbX;
+        "WBtrygG3" = _WBtrygG3;
+        "F3u2nEQf" = _F3u2nEQf;
         "fabric-1.21.6" = _UZKIzfx1;
         "fabric-1.21.7" = _UZKIzfx1;
         "fabric-1.21.8" = _UZKIzfx1;
-        "fabric-1.21" = _gFjfuDa1;
-        "fabric-1.21.1" = _gFjfuDa1;
-        "fabric-1.20.1" = _WKIcBGfP;
+        "fabric-1.21" = _WBtrygG3;
+        "fabric-1.21.1" = _WBtrygG3;
+        "fabric-1.20.1" = _FlMv5RLu;
         "neoforge-1.21.6" = _H9J1EZgs;
         "neoforge-1.21.7" = _H9J1EZgs;
         "neoforge-1.21.8" = _H9J1EZgs;
-        "neoforge-1.21" = _JhOhv9Ug;
-        "neoforge-1.21.1" = _JhOhv9Ug;
-        "forge-1.20.1" = _HmlGSJrZ;
+        "neoforge-1.21" = _F3u2nEQf;
+        "neoforge-1.21.1" = _F3u2nEQf;
+        "forge-1.20.1" = _DGYdnWbX;
         "pkg-1.0.0" = _HmlGSJrZ;
-        "default" = _HmlGSJrZ;
+        "pkg-1.0.1" = _F3u2nEQf;
+        "default" = _F3u2nEQf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freeze-the-happy-ghasts";

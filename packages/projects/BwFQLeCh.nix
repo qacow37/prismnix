@@ -41,6 +41,16 @@ let
             "file" = "customsplashscreen-2.3.0.jar";
             "hash" = "sha512-Uyc/uGdqS/8q8yJvjWVJhKin8RnHRgPgiCUt3V5pZrmylJOkOb9HYZ2QG2Pi6xSPVkm03RUty8NxtvtNILFGVQ==";
         };
+        _PCjdPX8x = {
+            "id" = "PCjdPX8x";
+            "file" = "customsplashscreen-2.2.1.jar";
+            "hash" = "sha512-aqTzgxc1Dgudg+MvIqlWihaVGPyHXYO5Z4lkD19Ojw2BVfPIrr95Ga2nVZpbxmGPadtKoZL+eRvkoMHh7ni6Vg==";
+        };
+        _LspxE3dn = {
+            "id" = "LspxE3dn";
+            "file" = "customsplashscreen-2.2.2.jar";
+            "hash" = "sha512-DO6fzRsK/B66DmQyCHFievlEzbSUceKptGir7fhxu14s7oV6aT05ZiFT5JG0aHPpIzY4ApHEdpEFxIo8DpdcDA==";
+        };
     in {
         "kfNYDL43" = _kfNYDL43;
         "3Cv3vvUj" = _3Cv3vvUj;
@@ -50,6 +60,8 @@ let
         "olYha9Cw" = _olYha9Cw;
         "OIFSv9om" = _OIFSv9om;
         "Q4D1JrG4" = _Q4D1JrG4;
+        "PCjdPX8x" = _PCjdPX8x;
+        "LspxE3dn" = _LspxE3dn;
         "fabric-1.16" = _kfNYDL43;
         "fabric-1.16.1" = _kfNYDL43;
         "fabric-1.16.2" = _kfNYDL43;
@@ -82,7 +94,7 @@ let
         "fabric-1.20" = _olYha9Cw;
         "fabric-1.20.1" = _olYha9Cw;
         "fabric-1.21" = _OIFSv9om;
-        "fabric-1.21.1" = _OIFSv9om;
+        "fabric-1.21.1" = _LspxE3dn;
         "fabric-1.21.3" = _Q4D1JrG4;
         "quilt-1.18" = _XZW5p8M0;
         "quilt-1.18.1" = _XZW5p8M0;
@@ -96,7 +108,7 @@ let
         "quilt-1.20" = _olYha9Cw;
         "quilt-1.20.1" = _olYha9Cw;
         "quilt-1.21" = _OIFSv9om;
-        "quilt-1.21.1" = _OIFSv9om;
+        "quilt-1.21.1" = _LspxE3dn;
         "quilt-1.21.3" = _Q4D1JrG4;
         "pkg-1.0.0" = _kfNYDL43;
         "pkg-1.1.0" = _3Cv3vvUj;
@@ -106,7 +118,9 @@ let
         "pkg-2.1.1" = _olYha9Cw;
         "pkg-2.2.0" = _OIFSv9om;
         "pkg-2.3.0" = _Q4D1JrG4;
-        "default" = _Q4D1JrG4;
+        "pkg-2.2.1" = _PCjdPX8x;
+        "pkg-2.2.2" = _LspxE3dn;
+        "default" = _LspxE3dn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-splash-screen";

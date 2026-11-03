@@ -761,6 +761,16 @@ let
             "file" = "snowyspirit-1.21.1-3.1.16-fabric.jar";
             "hash" = "sha512-gIMS/7lhYRpLNEk0jx22y/SzsoFAeRGpKHHouPOXqUPRgd2go8LGG2iZ4+RVE9A8172wgo76DBkHEX6YKgKAYQ==";
         };
+        _JKCG9jfo = {
+            "id" = "JKCG9jfo";
+            "file" = "snowyspirit-1.21.1-3.1.17-fabric.jar";
+            "hash" = "sha512-waeB5zTrY4Zr697H72N12sHv17nGMufyqjXgjXBwikjyWSJsZXRt2MWmX7bZNvWESFUiamsd0+QHd5u1MALzjg==";
+        };
+        _JHlWzPe0 = {
+            "id" = "JHlWzPe0";
+            "file" = "snowyspirit-1.21.1-3.1.17-neoforge.jar";
+            "hash" = "sha512-e8ygWfn8+YIhPt5Ca5UU3REG7nOGx6ZlKjsv9SheTwBirblMvYyyazNy1t4BL0D8k1Md+HiitoSipseVaiRoPQ==";
+        };
     in {
         "DvuLtHIF" = _DvuLtHIF;
         "Ylwzu9Gx" = _Ylwzu9Gx;
@@ -914,6 +924,8 @@ let
         "V4SJf4b2" = _V4SJf4b2;
         "1CS9nsZS" = _1CS9nsZS;
         "8Owks8Ev" = _8Owks8Ev;
+        "JKCG9jfo" = _JKCG9jfo;
+        "JHlWzPe0" = _JHlWzPe0;
         "forge-1.18" = _SntgLYbR;
         "forge-1.18.1" = _SntgLYbR;
         "forge-1.18.2" = _xVGHuOSz;
@@ -931,10 +943,10 @@ let
         "fabric-1.20.1" = _yGrKC4Ka;
         "fabric-1.20.4" = _7ceNjqvF;
         "fabric-1.21" = _VOsIx7Sx;
-        "fabric-1.21.1" = _8Owks8Ev;
+        "fabric-1.21.1" = _JKCG9jfo;
         "neoforge-1.20.4" = _oFLSOtKt;
         "neoforge-1.21" = _Dfz6xp7W;
-        "neoforge-1.21.1" = _1CS9nsZS;
+        "neoforge-1.21.1" = _JHlWzPe0;
         "pkg-0" = _DvuLtHIF;
         "pkg-1" = _Ylwzu9Gx;
         "pkg-2" = _pTWPDpCD;
@@ -1053,7 +1065,8 @@ let
         "pkg-1.21.1-3.1.13" = _zhkD32y9;
         "pkg-1.21.1-3.1.15" = _V4SJf4b2;
         "pkg-1.21.1-3.1.16" = _8Owks8Ev;
-        "default" = _8Owks8Ev;
+        "pkg-1.21.1-3.1.17" = _JHlWzPe0;
+        "default" = _JHlWzPe0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowy-spirit";

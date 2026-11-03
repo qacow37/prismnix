@@ -41,6 +41,11 @@ let
             "file" = "itemfinder-fabric-1.21.11-1.4.0.jar";
             "hash" = "sha512-MmB9VTSKveYf0130y5+ayFAv/sHm3YMtpradEjZlNXnzKKUuMw/mlcS/xgEUk4iQ8VkKGFWoEy78t+fUDoR+ig==";
         };
+        _RBCM3SVn = {
+            "id" = "RBCM3SVn";
+            "file" = "itemfinder-26.3-1.4.1.jar";
+            "hash" = "sha512-wklVcX7AY60VmgZUl+5OB6ZSzmTjjXr2Ikp9fWaF19PW5ydYcjuBYvBXEnV5s4TXbPEVE0yiAVRcdFrN8oB97w==";
+        };
     in {
         "KpyH6tAt" = _KpyH6tAt;
         "pnXMJOtv" = _pnXMJOtv;
@@ -50,19 +55,22 @@ let
         "TxW9pOMD" = _TxW9pOMD;
         "ylb7Wcrn" = _ylb7Wcrn;
         "NiqbitVq" = _NiqbitVq;
+        "RBCM3SVn" = _RBCM3SVn;
         "fabric-1.20.1" = _KpyH6tAt;
         "fabric-1.21.1" = _pnXMJOtv;
         "fabric-1.21.4" = _PxCbD15q;
         "fabric-1.21.6" = _h3Dd1ZBW;
         "fabric-1.21.10" = _TxW9pOMD;
         "fabric-1.21.11" = _NiqbitVq;
+        "fabric-26.3" = _RBCM3SVn;
         "pkg-1.3.0" = _FIp6q8Hu;
         "pkg-1.3.1" = _PxCbD15q;
         "pkg-1.3.2" = _h3Dd1ZBW;
         "pkg-1.3.3" = _TxW9pOMD;
         "pkg-1.3.4" = _ylb7Wcrn;
         "pkg-1.4.0" = _NiqbitVq;
-        "default" = _NiqbitVq;
+        "pkg-1.4.1" = _RBCM3SVn;
+        "default" = _RBCM3SVn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "item_finder";

@@ -86,6 +86,11 @@ let
             "file" = "ae2_auto_pattern_upload-2.0.0.jar";
             "hash" = "sha512-uoQoqyTW/qieqy/JaReuil8WarNvwZldr4ZBuCfr0fu4hnO/jQVwK5JRbZDoNGUybOATjNW+TKVKoOLHj/QZeg==";
         };
+        _JelNldCv = {
+            "id" = "JelNldCv";
+            "file" = "ae2_auto_pattern_upload-2.0.0-GTNH_290.jar";
+            "hash" = "sha512-PGxmVOvIFUCJooTTX5oSBPz6XqXVdTFmbHKmFSv5VUQQXPWxr0v7kBxVEPDcfHk7imsAVlfwlJpiD67jzXiEpg==";
+        };
     in {
         "FU6kHfWS" = _FU6kHfWS;
         "AgvRX1KO" = _AgvRX1KO;
@@ -104,8 +109,9 @@ let
         "DPS6aMLH" = _DPS6aMLH;
         "wwMp2YMn" = _wwMp2YMn;
         "xhWuKaTc" = _xhWuKaTc;
+        "JelNldCv" = _JelNldCv;
         "forge-1.12.2" = _O9BgbXss;
-        "forge-1.7.10" = _aziG37se;
+        "forge-1.7.10" = _JelNldCv;
         "forge-1.20.1" = _DPS6aMLH;
         "neoforge-1.21.1" = _wwMp2YMn;
         "neoforge-26.1.2" = _xhWuKaTc;
@@ -123,7 +129,8 @@ let
         "pkg-2.8.1" = _aziG37se;
         "pkg-1.1.3" = _O9BgbXss;
         "pkg-2.0.0" = _xhWuKaTc;
-        "default" = _xhWuKaTc;
+        "pkg-2.0.0-GTNH-2.9.0" = _JelNldCv;
+        "default" = _JelNldCv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-auto-pattern-upload";

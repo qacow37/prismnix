@@ -141,6 +141,16 @@ let
             "file" = "Mod(V.41)Enderite_Overhaul.jar";
             "hash" = "sha512-zeF0AqQ6A4z2plvuGkAVdEPFSrYbop1MGS6/vyeelz/A71Pw9N63mOfAMR+alMdOG2WFpg42kn1izhZYIvkAYQ==";
         };
+        _g36lxqq8 = {
+            "id" = "g36lxqq8";
+            "file" = "Enderite_Overhaul_V49_26_3_DATAPACK.zip";
+            "hash" = "sha512-5lmBtWyd1tX6Lg1rey1HjqYaibRy2MbDE4AxLBVHtt6aNh2ZVr6m4LmDX37X256UxQ9PUZ8LxYxgDDV4N3bLfQ==";
+        };
+        _xdZ7LlIu = {
+            "id" = "xdZ7LlIu";
+            "file" = "Enderite_Overhaul_V49_26_3_MOD.jar";
+            "hash" = "sha512-sGfhwvMfJ+VXadl4odA/tWoaT1+9PAHueFHivR/sjmlCbkxPEg1mGL43WS2qE/wePiPVbRM1p6S291ELmCDltA==";
+        };
     in {
         "lxgQt5JG" = _lxgQt5JG;
         "mNlodmFT" = _mNlodmFT;
@@ -170,6 +180,8 @@ let
         "sxqkFGkX" = _sxqkFGkX;
         "6h6NSBlu" = _6h6NSBlu;
         "8RZSfm1E" = _8RZSfm1E;
+        "g36lxqq8" = _g36lxqq8;
+        "xdZ7LlIu" = _xdZ7LlIu;
         "datapack-1.21" = _M12fknqR;
         "datapack-1.21.1" = _M12fknqR;
         "datapack-1.21.2" = _M12fknqR;
@@ -182,6 +194,7 @@ let
         "datapack-1.21.9" = _6h6NSBlu;
         "datapack-1.21.10" = _6h6NSBlu;
         "datapack-1.21.11" = _6h6NSBlu;
+        "datapack-26.3" = _g36lxqq8;
         "fabric-1.21" = _IGy91tEA;
         "fabric-1.21.1" = _IGy91tEA;
         "fabric-1.21.2" = _IGy91tEA;
@@ -194,6 +207,7 @@ let
         "fabric-1.21.9" = _8RZSfm1E;
         "fabric-1.21.10" = _8RZSfm1E;
         "fabric-1.21.11" = _8RZSfm1E;
+        "fabric-26.3" = _xdZ7LlIu;
         "forge-1.21" = _IGy91tEA;
         "forge-1.21.1" = _IGy91tEA;
         "forge-1.21.2" = _IGy91tEA;
@@ -206,6 +220,7 @@ let
         "forge-1.21.9" = _8RZSfm1E;
         "forge-1.21.10" = _8RZSfm1E;
         "forge-1.21.11" = _8RZSfm1E;
+        "forge-26.3" = _xdZ7LlIu;
         "neoforge-1.21" = _IGy91tEA;
         "neoforge-1.21.1" = _IGy91tEA;
         "neoforge-1.21.2" = _IGy91tEA;
@@ -218,6 +233,7 @@ let
         "neoforge-1.21.9" = _8RZSfm1E;
         "neoforge-1.21.10" = _8RZSfm1E;
         "neoforge-1.21.11" = _8RZSfm1E;
+        "neoforge-26.3" = _xdZ7LlIu;
         "quilt-1.21" = _IGy91tEA;
         "quilt-1.21.1" = _IGy91tEA;
         "quilt-1.21.2" = _IGy91tEA;
@@ -230,6 +246,7 @@ let
         "quilt-1.21.9" = _8RZSfm1E;
         "quilt-1.21.10" = _8RZSfm1E;
         "quilt-1.21.11" = _8RZSfm1E;
+        "quilt-26.3" = _xdZ7LlIu;
         "pkg-2.0" = _lxgQt5JG;
         "pkg-2.2" = _mNlodmFT;
         "pkg-2.25" = _utFCDSqy;
@@ -246,7 +263,8 @@ let
         "pkg-37" = _r11VTU9M;
         "pkg-40" = _sxqkFGkX;
         "pkg-41" = _8RZSfm1E;
-        "default" = _8RZSfm1E;
+        "pkg-49" = _xdZ7LlIu;
+        "default" = _xdZ7LlIu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderite-overhaul";

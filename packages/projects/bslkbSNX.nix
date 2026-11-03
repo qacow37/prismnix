@@ -26,22 +26,29 @@ let
             "file" = "Sora's Digimobs Skins V1.9.zip";
             "hash" = "sha512-/QfI8UY5HI3LMRsyLkkzyl4jZ/+5uAmjEgb0xT2uXTs8Ct8xHupGrWZMOokOYVn88W4nMHb4F08WsIcw5q9RUQ==";
         };
+        _YhQLMJQf = {
+            "id" = "YhQLMJQf";
+            "file" = "Sora's Digimon Datapack V1.10.zip";
+            "hash" = "sha512-rx8TPKmFbF2ygrpmWVqbTKeb57ReSJ3OWZiXGxZv24CEepygC1Dl4xdgTdTfYq/0Ub8e6wqCJOYu8N6B1JywOQ==";
+        };
     in {
         "8YrQZC2K" = _8YrQZC2K;
         "hUpJZfGP" = _hUpJZfGP;
         "frVZUU0C" = _frVZUU0C;
         "zWfWIsTi" = _zWfWIsTi;
         "9PjjyxF8" = _9PjjyxF8;
-        "datapack-1.20" = _9PjjyxF8;
-        "datapack-1.20.1" = _9PjjyxF8;
-        "minecraft-1.20" = _9PjjyxF8;
-        "minecraft-1.20.1" = _9PjjyxF8;
+        "YhQLMJQf" = _YhQLMJQf;
+        "datapack-1.20" = _YhQLMJQf;
+        "datapack-1.20.1" = _YhQLMJQf;
+        "minecraft-1.20" = _YhQLMJQf;
+        "minecraft-1.20.1" = _YhQLMJQf;
         "pkg-1.5" = _8YrQZC2K;
         "pkg-1.6" = _hUpJZfGP;
         "pkg-1.7" = _frVZUU0C;
         "pkg-1.8" = _zWfWIsTi;
         "pkg-1.9" = _9PjjyxF8;
-        "default" = _9PjjyxF8;
+        "pkg-1.10" = _YhQLMJQf;
+        "default" = _YhQLMJQf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soradigimobsdatapack";

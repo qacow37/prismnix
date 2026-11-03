@@ -56,6 +56,11 @@ let
             "file" = "voidlessframework-1.4-neoforge-1.21.8.jar";
             "hash" = "sha512-6RmE0TVEZ4eZz2Or1X3f8+6zxbWKimH/AdUE2ZcsgxyTDnWG9hpBAzBPpdE+0fnZljZFdeSwlkAjd1Dkz9YpJA==";
         };
+        _Kb0SGBN7 = {
+            "id" = "Kb0SGBN7";
+            "file" = "voidlessframework-1.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-srqLiljEhxwhs1Bco2n+XegWVA2m9DovBMq8b8izP1KSFpLGwS/p1j6QvSHclcM+K7dfC+Oz8iJoxE9tVVirIQ==";
+        };
     in {
         "PAJnUFBd" = _PAJnUFBd;
         "8DhSBdL0" = _8DhSBdL0;
@@ -68,8 +73,9 @@ let
         "nRas60P8" = _nRas60P8;
         "MI1KVNV6" = _MI1KVNV6;
         "Gjuefh1J" = _Gjuefh1J;
+        "Kb0SGBN7" = _Kb0SGBN7;
         "forge-1.20.1" = _isKRbo76;
-        "neoforge-1.21.1" = _keEQiyu7;
+        "neoforge-1.21.1" = _Kb0SGBN7;
         "neoforge-1.21.4" = _3VCr7lrB;
         "neoforge-1.21.8" = _Gjuefh1J;
         "fabric-1.21.8" = _MI1KVNV6;
@@ -79,8 +85,8 @@ let
         "pkg-1.3.2" = _NAHcZI3N;
         "pkg-1.3.3" = _wr6KL4k2;
         "pkg-1.3.4" = _MI1KVNV6;
-        "pkg-1.4" = _Gjuefh1J;
-        "default" = _Gjuefh1J;
+        "pkg-1.4" = _Kb0SGBN7;
+        "default" = _Kb0SGBN7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voidless-framework";

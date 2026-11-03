@@ -241,6 +241,11 @@ let
             "file" = "bookpaste-fabric-2.2+26.2.jar";
             "hash" = "sha512-druimz44KGA/wLOOAXkklsutsUZr5berPzfpacXLEO6c8IXd9o/NmE0r+z+hexPEiid5e10LZ+bB0+64C6c35w==";
         };
+        _aM7OYW4I = {
+            "id" = "aM7OYW4I";
+            "file" = "bookpaste-neo-2.2+1.21-1.21.1.jar";
+            "hash" = "sha512-qLpHFGz07I054lH+tZGGrAsRSX5AGhWvUXCNsfQP7/NpZSo4wUtI3lfOSjwW49fzUfNwfYQwyDH93fQphdvERw==";
+        };
     in {
         "JBuQx8Im" = _JBuQx8Im;
         "PoFfXiJT" = _PoFfXiJT;
@@ -290,6 +295,7 @@ let
         "Bhu3pE7a" = _Bhu3pE7a;
         "gauqsXmP" = _gauqsXmP;
         "LhaplI2G" = _LhaplI2G;
+        "aM7OYW4I" = _aM7OYW4I;
         "fabric-1.21" = _PKBn6dkk;
         "fabric-1.21.1" = _PKBn6dkk;
         "fabric-1.21.2" = _PKBn6dkk;
@@ -339,6 +345,8 @@ let
         "forge-1.20.6" = _qbFvfIOW;
         "neoforge-1.20" = _OCGvOUDF;
         "neoforge-1.20.1" = _OCGvOUDF;
+        "neoforge-1.21" = _aM7OYW4I;
+        "neoforge-1.21.1" = _aM7OYW4I;
         "pkg-1.0+1.21-1.21.4" = _JBuQx8Im;
         "pkg-1.0+1.21.5-1.21.8" = _PoFfXiJT;
         "pkg-1.0+1.21.9-1.21.10" = _rNgasjVC;
@@ -387,7 +395,8 @@ let
         "pkg-2.2+1.21.5-1.21.8" = _Bhu3pE7a;
         "pkg-2.2+26.1-26.1.2" = _gauqsXmP;
         "pkg-2.2+26.2" = _LhaplI2G;
-        "default" = _LhaplI2G;
+        "pkg-2.2-neo+1.21-1.21.1" = _aM7OYW4I;
+        "default" = _aM7OYW4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bookpaste";

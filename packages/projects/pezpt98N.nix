@@ -1291,6 +1291,21 @@ let
             "file" = "SkniroFurniture-1.6.3-26.3-Forge.jar";
             "hash" = "sha512-61GOwb28NOtRisLwnqrq0oSyNxnZPEyGS+PJvZCO9xBZmBkvqrAPiFROIFS2r8I8VSe55Cw1agpOmAWOCwthlw==";
         };
+        _NPvMcCHL = {
+            "id" = "NPvMcCHL";
+            "file" = "SkniroFurniture-1.6.4-26.3-NeoForge.jar";
+            "hash" = "sha512-jD8aSH970eaBvQKHgb9whwdIHIR9aLDeK03e66GLAvKLax+63Orr5TaQOPfwFj9rHNxAF4/MOwAssRE/8+iNwQ==";
+        };
+        _aYLGFaxG = {
+            "id" = "aYLGFaxG";
+            "file" = "SkniroFurniture-1.6.4-26.3-Forge.jar";
+            "hash" = "sha512-lirPpvd2sPvdP5dnkcNMS1ZjcPmnV+CFkyj8zBx6xaUm+Opo+RXfhG5g6dx19g2w02+INvFnBoqA8OVi8MOlQQ==";
+        };
+        _PIZFZ1Un = {
+            "id" = "PIZFZ1Un";
+            "file" = "SkniroFurniture-1.6.4-26.3-Fabric.jar";
+            "hash" = "sha512-YhYA+4NyAfBH6wJBQQUCg/Et7Z0zovvxQaxZLArbXpBXIYAkPeq5sD+gSuZga3j1YaOTi1Bs3gIYlBa3KCATkA==";
+        };
     in {
         "KuGXdfY8" = _KuGXdfY8;
         "EtCef9oQ" = _EtCef9oQ;
@@ -1550,6 +1565,9 @@ let
         "Br6Lkd8R" = _Br6Lkd8R;
         "STSIC8RK" = _STSIC8RK;
         "99hfqT0D" = _99hfqT0D;
+        "NPvMcCHL" = _NPvMcCHL;
+        "aYLGFaxG" = _aYLGFaxG;
+        "PIZFZ1Un" = _PIZFZ1Un;
         "forge-1.21.6" = _XsFFMhyb;
         "forge-1.21.7" = _XsFFMhyb;
         "forge-1.21.8" = _XsFFMhyb;
@@ -1565,7 +1583,7 @@ let
         "forge-26.1.1" = _HE0pq6Bh;
         "forge-26.1.2" = _HE0pq6Bh;
         "forge-26.2" = _uEU2Dpkq;
-        "forge-26.3" = _99hfqT0D;
+        "forge-26.3" = _aYLGFaxG;
         "neoforge-1.21.6" = _bXZP3eVU;
         "neoforge-1.21.7" = _bXZP3eVU;
         "neoforge-1.21" = _QH6zm8gg;
@@ -1579,7 +1597,7 @@ let
         "neoforge-26.1.1" = _EQn0wv5b;
         "neoforge-26.1.2" = _EQn0wv5b;
         "neoforge-26.2" = _ZcQdAlE3;
-        "neoforge-26.3" = _STSIC8RK;
+        "neoforge-26.3" = _NPvMcCHL;
         "fabric-1.21.6" = _7MGuEOmy;
         "fabric-1.21.7" = _7MGuEOmy;
         "fabric-1.21" = _vhLM4guM;
@@ -1595,7 +1613,7 @@ let
         "fabric-26.1.1" = _iCpThSUs;
         "fabric-26.1.2" = _iCpThSUs;
         "fabric-26.2" = _n6uG34xf;
-        "fabric-26.3" = _oTircVlb;
+        "fabric-26.3" = _PIZFZ1Un;
         "pkg-1.0.0-1.21.7-Forge" = _KuGXdfY8;
         "pkg-1.0.1-1.21.7-NeoForge" = _EtCef9oQ;
         "pkg-1.0.1-1.21.7-Fabric" = _yntSkQQN;
@@ -1854,7 +1872,10 @@ let
         "pkg-1.6.2-26.3-Forge" = _Br6Lkd8R;
         "pkg-1.6.3-26.3-NeoForge" = _STSIC8RK;
         "pkg-1.6.3-26.3-Forge" = _99hfqT0D;
-        "default" = _99hfqT0D;
+        "pkg-1.6.4-26.3-NeoForge" = _NPvMcCHL;
+        "pkg-1.6.4-26.3-Forge" = _aYLGFaxG;
+        "pkg-1.6.4-26.3-Fabric" = _PIZFZ1Un;
+        "default" = _PIZFZ1Un;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skniros-furniture";

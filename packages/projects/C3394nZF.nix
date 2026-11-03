@@ -61,6 +61,11 @@ let
             "file" = "monsters_level_up-1.4-forge-1.20.1.jar";
             "hash" = "sha512-xOSlBDLDY3IgsECB4u/Quom07zRxsSwcBDcXB9qjQvkdQWxGwjfw+my2c8rFSHpEnWYQ/S9GcuwOmJXF+4Fj8A==";
         };
+        _P2XGmUIx = {
+            "id" = "P2XGmUIx";
+            "file" = "monsters_level_up-1.5-forge-1.20.1.jar";
+            "hash" = "sha512-1ric2oj3mdv6wplS4GsrN6wasxlTQjlTt7WxWAmQgqCRyOVuWbbw3P8nTT3xHKjRQi8b526885UW4yBUjDTXYg==";
+        };
     in {
         "qmmPuKV0" = _qmmPuKV0;
         "8NaZHaHW" = _8NaZHaHW;
@@ -74,9 +79,10 @@ let
         "swnBVR4n" = _swnBVR4n;
         "JhME3BCI" = _JhME3BCI;
         "VCqshxru" = _VCqshxru;
+        "P2XGmUIx" = _P2XGmUIx;
         "neoforge-1.20.4" = _qmmPuKV0;
         "neoforge-1.20.6" = _swnBVR4n;
-        "forge-1.20.1" = _VCqshxru;
+        "forge-1.20.1" = _P2XGmUIx;
         "forge-1.19.4" = _XiexCnth;
         "forge-1.19.2" = _rqZYkLeo;
         "pkg-1.0" = _ZrfhQ6Ig;
@@ -84,7 +90,8 @@ let
         "pkg-1.2" = _OkprO0Ul;
         "pkg-1.3" = _JhME3BCI;
         "pkg-1.4" = _VCqshxru;
-        "default" = _VCqshxru;
+        "pkg-1.5" = _P2XGmUIx;
+        "default" = _P2XGmUIx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monsters-level-up";

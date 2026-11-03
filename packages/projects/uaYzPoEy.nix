@@ -146,6 +146,11 @@ let
             "file" = "count-easy-1.7.3(1).jar";
             "hash" = "sha512-e0K0coJ/Ld1r+sjm45HRhseV/kJfdqJRr8RXG39hSpYnJVZfCqFlzgn7eqh4TxYL4su7HrRLhTaxg4/5vTuc9w==";
         };
+        _55Z3xUOA = {
+            "id" = "55Z3xUOA";
+            "file" = "count-easy-1.7.4-mc1.21.4.jar";
+            "hash" = "sha512-8LQqZD1b8QRMWTF0UA4vIuoUYUjMu9Jp/vsHSY8LIE34lOLFHzrM9R8MYBsjJs91zVYQRSUhpNanygx/LkFVKA==";
+        };
     in {
         "DKJB2yg2" = _DKJB2yg2;
         "hI3V0GpL" = _hI3V0GpL;
@@ -176,7 +181,8 @@ let
         "CmTZKIYH" = _CmTZKIYH;
         "C2tHye3U" = _C2tHye3U;
         "Bsp8RuV9" = _Bsp8RuV9;
-        "fabric-1.21.4" = _Bsp8RuV9;
+        "55Z3xUOA" = _55Z3xUOA;
+        "fabric-1.21.4" = _55Z3xUOA;
         "pkg-1.0.0" = _DKJB2yg2;
         "pkg-1.1.0" = _hI3V0GpL;
         "pkg-1.1.1" = _Xywolm2B;
@@ -206,7 +212,8 @@ let
         "pkg-1.7.1" = _CmTZKIYH;
         "pkg-1.7.2" = _C2tHye3U;
         "pkg-1.7.3" = _Bsp8RuV9;
-        "default" = _Bsp8RuV9;
+        "pkg-1.7.4" = _55Z3xUOA;
+        "default" = _55Z3xUOA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "count-easy";

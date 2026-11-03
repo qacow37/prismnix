@@ -201,6 +201,36 @@ let
             "file" = "cynosure-1.0.3-fabric-1.21.1.jar";
             "hash" = "sha512-EdV4dYUdhr1bqHenthPxW3xLkCxfkGtbQ6sK5UM7gOoZeO3VBSt+4iaXL8AtsFtgmpWI7MRJuiF0jK1nTgeepA==";
         };
+        _cR25j2SQ = {
+            "id" = "cR25j2SQ";
+            "file" = "cynosure-1.0.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-1uxF91vSln1sGEEIz8QwHFK2V0NKlfKyWx0aThBIJ3ofgOAS0I5KD/OVhxPqvswlAB4TOYf/eODuu0CDRmyXog==";
+        };
+        _efBxjXHn = {
+            "id" = "efBxjXHn";
+            "file" = "cynosure-1.0.4-fabric-1.21.1.jar";
+            "hash" = "sha512-21+Hd42m4PFxnFTgjqad9W9wCvEBor9XPPcvGPoaarpMz47Hr2inXLvuLDQ4SlnZ9hrn1JpbCnWF4dNrmdFnyw==";
+        };
+        _tHU59pyI = {
+            "id" = "tHU59pyI";
+            "file" = "cynosure-1.0.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-OOAf1iNJQBSgg0myz3eEuW6UwQ3Odc3v95WXKjj71lGWvs5T4kTmj9Vk4q0r9oHXDs8xPq0Cn802y3/OtpdKGA==";
+        };
+        _ZXiD81yw = {
+            "id" = "ZXiD81yw";
+            "file" = "cynosure-1.0.5-fabric-1.21.1.jar";
+            "hash" = "sha512-sGs6M7QbkyYqpyGX5vQJTdOfL2mRu9R3nQ0hFiW0SMJRIPH8cj7/tBm/aVs9I/fZu9JIbR1jkDek3MLg3GUBFQ==";
+        };
+        _goyDZcJC = {
+            "id" = "goyDZcJC";
+            "file" = "cynosure-1.0.6-neoforge-1.21.1.jar";
+            "hash" = "sha512-22GIYo1S5W9a52uVHnO0JRDIVnK4CpGatL9OTdRUDtfXymWc/LwUCtDMbdIkRCDDcpjrP2QihDZf1JAlW6Px1g==";
+        };
+        _BXumKLHE = {
+            "id" = "BXumKLHE";
+            "file" = "cynosure-1.0.6-fabric-1.21.1.jar";
+            "hash" = "sha512-hDUNbaL5t6IXwsuxDDz+VtBwrLDkGQRQp75GivpbsJKAf/4PurYI+g+AfESVl6PcDvvkr50q182v7KIsLc1+Zg==";
+        };
     in {
         "Va6PO3WU" = _Va6PO3WU;
         "Lash8sW2" = _Lash8sW2;
@@ -242,12 +272,18 @@ let
         "52JMhvFG" = _52JMhvFG;
         "lpFSq579" = _lpFSq579;
         "iR6GHqMr" = _iR6GHqMr;
+        "cR25j2SQ" = _cR25j2SQ;
+        "efBxjXHn" = _efBxjXHn;
+        "tHU59pyI" = _tHU59pyI;
+        "ZXiD81yw" = _ZXiD81yw;
+        "goyDZcJC" = _goyDZcJC;
+        "BXumKLHE" = _BXumKLHE;
         "forge-1.20.1" = _GLfjiN1q;
         "fabric-1.20.1" = _ERJwLCKb;
-        "fabric-1.21.1" = _iR6GHqMr;
+        "fabric-1.21.1" = _BXumKLHE;
         "quilt-1.20.1" = _ERJwLCKb;
-        "quilt-1.21.1" = _iR6GHqMr;
-        "neoforge-1.21.1" = _lpFSq579;
+        "quilt-1.21.1" = _BXumKLHE;
+        "neoforge-1.21.1" = _goyDZcJC;
         "pkg-0.1.0-forge" = _Va6PO3WU;
         "pkg-0.1.0-fabric" = _Lash8sW2;
         "pkg-0.1.1-forge" = _cHGW7DGA;
@@ -288,7 +324,13 @@ let
         "pkg-1.0.2-fabric" = _52JMhvFG;
         "pkg-1.0.3-neoforge" = _lpFSq579;
         "pkg-1.0.3-fabric" = _iR6GHqMr;
-        "default" = _iR6GHqMr;
+        "pkg-1.0.4-neoforge" = _cR25j2SQ;
+        "pkg-1.0.4-fabric" = _efBxjXHn;
+        "pkg-1.0.5-neoforge" = _tHU59pyI;
+        "pkg-1.0.5-fabric" = _ZXiD81yw;
+        "pkg-1.0.6-neoforge" = _goyDZcJC;
+        "pkg-1.0.6-fabric" = _BXumKLHE;
+        "default" = _BXumKLHE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cynosure";

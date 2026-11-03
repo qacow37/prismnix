@@ -81,6 +81,61 @@ let
             "file" = "GoldenDandelionBackport-1.12.2-1.0.6.3.jar";
             "hash" = "sha512-v+PkhQd5fRAS+ctzxgpBO8/u8XmrcM7Acaji7eEHKEg83IRff/CEfYPR6S6/Idznfmd+3+6QwoXJsAOtRUSvKw==";
         };
+        _agF2f9Nm = {
+            "id" = "agF2f9Nm";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.15.2-fabric.jar";
+            "hash" = "sha512-AlJbWy2u8Sxj+HpoZXbGvKvQNjf2qr/x5BDhZiIcqUvt1A4r64wRtRA+5OJKFYbmhisjtlsAmy4owl1dMpoFbA==";
+        };
+        _pWSWN0vI = {
+            "id" = "pWSWN0vI";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.16.5-fabric.jar";
+            "hash" = "sha512-UckK69wVvaZuURD94CeEM79DluKX+se0nBMqpH78DxFQlQVY+DklGy6Yo3QR7UOwbaC4MBWf9zCK1v11In+lDQ==";
+        };
+        _ub0nN8Vt = {
+            "id" = "ub0nN8Vt";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.17.1-fabric.jar";
+            "hash" = "sha512-5qURIdIEcX+rJPj4LiAlky1jvfMvBHhs8tBlmuShqupQxrA7nUyXOgfMNwQQiUyla4XSmG646Y3GNV44JNeNsQ==";
+        };
+        _1PWwW8IA = {
+            "id" = "1PWwW8IA";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.18.2-fabric.jar";
+            "hash" = "sha512-uT52XkW2QIxbBpnniZYtujeEUuw17wYRUHSdYUjfLWB7tZIuEQMqJwxL/a/kS39L9y2vY1qqC8vSOJB8nITMIQ==";
+        };
+        _HaNAlMha = {
+            "id" = "HaNAlMha";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.19.2-fabric.jar";
+            "hash" = "sha512-tsrl9DboxGieyYx4Tux5T4Y1CaCkx413gWxXWIkaEXNmKwG7HOFR5WaMVKyBvmDGl+5jahBNMv15wNWvOzJe3g==";
+        };
+        _7RFgkoKJ = {
+            "id" = "7RFgkoKJ";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.20.1-fabric.jar";
+            "hash" = "sha512-N6vkeokUV7az4HgIjD0iUfQcKNrTEXO6+muyndl+wsQyQq9HFxENLvgfYUZloWZF2DC/U61d7i2yGKcTH4FDZQ==";
+        };
+        _pYX6Levb = {
+            "id" = "pYX6Levb";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.20.4-fabric.jar";
+            "hash" = "sha512-RD4ND4ZD72QAVlt+ytPau6h0JmegWj+LjGkc7Hp+Prrtvk1Ck/1eDNH/GjQswZtN2ElcYqxpKQujYtTMaJXYHw==";
+        };
+        _D5AZeUwL = {
+            "id" = "D5AZeUwL";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.21-fabric.jar";
+            "hash" = "sha512-J+RoWTku1fR2mmswjEqdhtDMBIUh1Yn6Ir5HJcZbFapASY8BMeIfMDnSUT++zP7la+axb2X05ESmpImQWxJSTA==";
+        };
+        _v60ozzJp = {
+            "id" = "v60ozzJp";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.21.1-fabric.jar";
+            "hash" = "sha512-LWsZIgJGoAIkzNlEyTdOa3VFc4L4238MWqKy6xqkoyYQEPSmWjk9CsY6LeQPBLjYZih+NwUCY4P+rX/BKnmNvg==";
+        };
+        _BVpsi5nB = {
+            "id" = "BVpsi5nB";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.21.4-fabric.jar";
+            "hash" = "sha512-JvFnsOLm8+jWA5rBV9+rRYPVkwwyU/4yzRmMrJ8CLySoT93qp6MKaPdJfFdg9aUZRzBKxzmt0FtC7hXxmi7T2w==";
+        };
+        _8jzq8HSh = {
+            "id" = "8jzq8HSh";
+            "file" = "Golden-Dandelion-Backport-1.0.6.4-1.21.11-fabric.jar";
+            "hash" = "sha512-EeH1lE1ThsvVZSLufFqscxeEPdZ/z5qmM0e8Ptfyi4Tw+fMbS11Is7oEqFvf3DH1UP+YWH7BuT7LQu28RyEcPA==";
+        };
     in {
         "IDYjMSkS" = _IDYjMSkS;
         "wsoCnKtb" = _wsoCnKtb;
@@ -98,6 +153,17 @@ let
         "AcTdcxYc" = _AcTdcxYc;
         "MJb8ABfl" = _MJb8ABfl;
         "5I5Py1BT" = _5I5Py1BT;
+        "agF2f9Nm" = _agF2f9Nm;
+        "pWSWN0vI" = _pWSWN0vI;
+        "ub0nN8Vt" = _ub0nN8Vt;
+        "1PWwW8IA" = _1PWwW8IA;
+        "HaNAlMha" = _HaNAlMha;
+        "7RFgkoKJ" = _7RFgkoKJ;
+        "pYX6Levb" = _pYX6Levb;
+        "D5AZeUwL" = _D5AZeUwL;
+        "v60ozzJp" = _v60ozzJp;
+        "BVpsi5nB" = _BVpsi5nB;
+        "8jzq8HSh" = _8jzq8HSh;
         "forge-1.14" = _IDYjMSkS;
         "forge-1.14.1" = _IDYjMSkS;
         "forge-1.14.2" = _IDYjMSkS;
@@ -124,11 +190,20 @@ let
         "neoforge-1.21.5" = _hW7DdOgV;
         "neoforge-1.21.6" = _hW7DdOgV;
         "neoforge-1.21.7" = _hW7DdOgV;
-        "fabric-1.18.2" = _OtwQuWEz;
+        "fabric-1.18.2" = _1PWwW8IA;
         "fabric-1.21.8" = _OtwQuWEz;
         "fabric-1.21.9" = _OtwQuWEz;
         "fabric-1.21.10" = _OtwQuWEz;
-        "fabric-1.21.11" = _OtwQuWEz;
+        "fabric-1.21.11" = _8jzq8HSh;
+        "fabric-1.15.2" = _agF2f9Nm;
+        "fabric-1.16.5" = _pWSWN0vI;
+        "fabric-1.17.1" = _ub0nN8Vt;
+        "fabric-1.19.2" = _HaNAlMha;
+        "fabric-1.20.1" = _7RFgkoKJ;
+        "fabric-1.20.4" = _pYX6Levb;
+        "fabric-1.21" = _D5AZeUwL;
+        "fabric-1.21.1" = _v60ozzJp;
+        "fabric-1.21.4" = _BVpsi5nB;
         "quilt-1.18.2" = _OtwQuWEz;
         "quilt-1.21.8" = _OtwQuWEz;
         "quilt-1.21.9" = _OtwQuWEz;
@@ -150,7 +225,8 @@ let
         "pkg-1.12.2-1.0.6.1" = _AcTdcxYc;
         "pkg-1.12.2-1.0.6.2" = _MJb8ABfl;
         "pkg-1.0.6.3" = _5I5Py1BT;
-        "default" = _5I5Py1BT;
+        "pkg-1.0.6.4" = _8jzq8HSh;
+        "default" = _8jzq8HSh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golden-dandelion-port";

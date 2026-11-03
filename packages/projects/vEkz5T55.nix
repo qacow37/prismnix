@@ -26,21 +26,29 @@ let
             "file" = "PKGBadges-7.1.jar";
             "hash" = "sha512-9UUI/bYOnkHV57Sk3w/HgfBA3JmIXRFMpa1v5jQoxstDD0b3RCha/jkFg/LYrfI89qiZuwc3NxHKF4d5Mw7Cjw==";
         };
+        _8JxSIV9l = {
+            "id" = "8JxSIV9l";
+            "file" = "PKGBadges-Fabric-1.0.0.jar";
+            "hash" = "sha512-4iFTSwQ4suwM3BfAu/mgvHa8k+RLDIx/erVL5KA8oYM4PybXcx1LfZc4km+1oTxyZ/C36YqBKX8el65J85oD6A==";
+        };
     in {
         "KAzHvc1S" = _KAzHvc1S;
         "g9Ywn42D" = _g9Ywn42D;
         "mIe06LCy" = _mIe06LCy;
         "IaK3nZM4" = _IaK3nZM4;
         "8YlLoIrp" = _8YlLoIrp;
+        "8JxSIV9l" = _8JxSIV9l;
         "forge-1.20.1" = _IaK3nZM4;
         "fabric-1.20.1" = _g9Ywn42D;
+        "fabric-1.21.1" = _8JxSIV9l;
         "neoforge-1.21.1" = _8YlLoIrp;
         "pkg-5.0" = _KAzHvc1S;
         "pkg-1.0" = _g9Ywn42D;
         "pkg-7.0" = _mIe06LCy;
         "pkg-6.0" = _IaK3nZM4;
         "pkg-7.1" = _8YlLoIrp;
-        "default" = _8YlLoIrp;
+        "pkg-1.0.0" = _8JxSIV9l;
+        "default" = _8JxSIV9l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pkgbadges";

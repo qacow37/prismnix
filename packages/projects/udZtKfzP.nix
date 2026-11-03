@@ -231,6 +231,26 @@ let
             "file" = "neoecoae-20.5.4.jar";
             "hash" = "sha512-TnoDyX1tkccoi1EtvxXkL6hZ1jHMqb6B4LfgJjCJd5ZDLsG0o9nptU8Iy9nnJtY6GX0KUkw4rOQ7udSPoe0Ppw==";
         };
+        _e2JAs9jv = {
+            "id" = "e2JAs9jv";
+            "file" = "neoecoae-7.3.6.jar";
+            "hash" = "sha512-wASVC8zGC6dlPHRUkxSAnvvmW+8saKqQpz89ktvrYOCxptiB89PqU9S44NBU7U8u/f489ca2Fn9fyYwXU1F95Q==";
+        };
+        _r3hDncoP = {
+            "id" = "r3hDncoP";
+            "file" = "neoecoae-26.2.15-beta.jar";
+            "hash" = "sha512-5U6O9ipQqX3YYfSzgHr1SOwth3IftqVFIMENkikNxQB38Ic/HEHPxJXdGnDeW38LgvkbSNe4OXh3Rp9wG0jEiA==";
+        };
+        _f4adOUx2 = {
+            "id" = "f4adOUx2";
+            "file" = "neoecoae-20.5.5-beta.jar";
+            "hash" = "sha512-T7ozJ6+2N0JekJL/aaLkRWC5N1rKEC6j4FcaacgbAIsMnLi7xpIg8HV5QEEVfHOqNvl1XywfIZoiRcqlX+lxoA==";
+        };
+        _39imG2uW = {
+            "id" = "39imG2uW";
+            "file" = "neoecoae-21.2.15-beta.jar";
+            "hash" = "sha512-QgDtL/cdvdohZJl0jQN+TFlNIQDJ4KPPSrM3vjbmscs+QhQuEdgGLxRcO4QX0a/ZbME4AxCwYVDmX8xj5KakrQ==";
+        };
     in {
         "fk6J0mSI" = _fk6J0mSI;
         "Fgo9rAPU" = _Fgo9rAPU;
@@ -278,9 +298,14 @@ let
         "SNhRg1G7" = _SNhRg1G7;
         "8ERD5TB2" = _8ERD5TB2;
         "Yf1pqYH7" = _Yf1pqYH7;
-        "neoforge-1.21.1" = _8ERD5TB2;
-        "forge-1.20.1" = _Yf1pqYH7;
-        "forge-1.7.10" = _9FiI27l5;
+        "e2JAs9jv" = _e2JAs9jv;
+        "r3hDncoP" = _r3hDncoP;
+        "f4adOUx2" = _f4adOUx2;
+        "39imG2uW" = _39imG2uW;
+        "neoforge-1.21.1" = _39imG2uW;
+        "neoforge-26.1.2" = _r3hDncoP;
+        "forge-1.20.1" = _f4adOUx2;
+        "forge-1.7.10" = _e2JAs9jv;
         "pkg-1.0.0" = _fk6J0mSI;
         "pkg-1.1.0" = _Fgo9rAPU;
         "pkg-1.1.1" = _YOuQBQrj;
@@ -326,7 +351,11 @@ let
         "pkg-20.5.3" = _SNhRg1G7;
         "pkg-21.2.14" = _8ERD5TB2;
         "pkg-20.5.4" = _Yf1pqYH7;
-        "default" = _Yf1pqYH7;
+        "pkg-7.3.6" = _e2JAs9jv;
+        "pkg-26.2.15-beta" = _r3hDncoP;
+        "pkg-20.5.5-beta" = _f4adOUx2;
+        "pkg-21.2.15-beta" = _39imG2uW;
+        "default" = _39imG2uW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neoecoae";

@@ -61,6 +61,11 @@ let
             "file" = "Black pvp.zip";
             "hash" = "sha512-e14bGKO5lzG1KEi3m9p9hibLDyLpct/Xig/P6JbIE3Kk6DXaLU8+LhmcqecmHGw8w0SzXY0bHRZSndWz9v2ynQ==";
         };
+        _g1qucTnj = {
+            "id" = "g1qucTnj";
+            "file" = "Black pvp.zip";
+            "hash" = "sha512-AtIKRyncWl/bM6zx73rtIxwFQAw4XOErLi3youu1TaGaRSjXmyash90fE5hyUw6NaxkddgdYbl8r86NcZUWfAQ==";
+        };
     in {
         "vHzyE1wS" = _vHzyE1wS;
         "1oXn9vSq" = _1oXn9vSq;
@@ -74,8 +79,9 @@ let
         "p29r4t66" = _p29r4t66;
         "n9f8Xujx" = _n9f8Xujx;
         "G5ufA0XK" = _G5ufA0XK;
-        "minecraft-1.21.4" = _G5ufA0XK;
-        "minecraft-1.21.10" = _G5ufA0XK;
+        "g1qucTnj" = _g1qucTnj;
+        "minecraft-1.21.4" = _g1qucTnj;
+        "minecraft-1.21.10" = _g1qucTnj;
         "minecraft-1.21" = _G5ufA0XK;
         "minecraft-1.21.1" = _G5ufA0XK;
         "minecraft-1.21.2" = _G5ufA0XK;
@@ -85,9 +91,9 @@ let
         "minecraft-1.21.7" = _G5ufA0XK;
         "minecraft-1.21.8" = _G5ufA0XK;
         "minecraft-1.21.9" = _G5ufA0XK;
-        "minecraft-1.21.11" = _G5ufA0XK;
-        "minecraft-1.20" = _G5ufA0XK;
-        "minecraft-1.20.1" = _G5ufA0XK;
+        "minecraft-1.21.11" = _g1qucTnj;
+        "minecraft-1.20" = _g1qucTnj;
+        "minecraft-1.20.1" = _g1qucTnj;
         "minecraft-1.20.2" = _eVtLapNL;
         "minecraft-1.20.3" = _eVtLapNL;
         "minecraft-1.20.4" = _eVtLapNL;
@@ -127,7 +133,8 @@ let
         "pkg-0.9.1" = _p29r4t66;
         "pkg-0.9.2" = _n9f8Xujx;
         "pkg-0.9.3" = _G5ufA0XK;
-        "default" = _G5ufA0XK;
+        "pkg-0.9.4" = _g1qucTnj;
+        "default" = _g1qucTnj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "black-pvp-z_xp";

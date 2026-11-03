@@ -2366,6 +2366,76 @@ let
             "file" = "playermob-neoforge-0.117.0+26.2.jar";
             "hash" = "sha512-hf7IC8Y0Vzy0JwgaW4pdm4Z8wenqi/erM6lNtZ8kb1ooNxtf1pKrpsPMIrZsStSOgRn/VVDPNiWNvRpZYV7tBA==";
         };
+        _aAA2Bjeq = {
+            "id" = "aAA2Bjeq";
+            "file" = "playermob-fabric-0.118.0+1.21.1.jar";
+            "hash" = "sha512-d+z7Lv2bXwfXKHgUmIxJUdyj4h5yKz+C5iTH0oHLImOrwwzLNcJFHM/TdHUC8Cps1GFq2n0Fj9ydBmUKPW4rjg==";
+        };
+        _zI3jg0Dc = {
+            "id" = "zI3jg0Dc";
+            "file" = "playermob-fabric-0.118.0+1.20.1.jar";
+            "hash" = "sha512-j6oVqJ86gQynKaX/RE/XIu4ICV/yKEu5w6TM103wtw39bwLO2cprbMIM0DJc17YVABHiDbv+MyvmqklAwfoHmQ==";
+        };
+        _ziRGobD4 = {
+            "id" = "ziRGobD4";
+            "file" = "playermob-forge-0.118.0+1.21.1.jar";
+            "hash" = "sha512-KD1qcz54G2vTA7Zll4VjTYihMXHUvIGFzyxLZVOtPIa8HI6jKHeeAQfoDHT1QrKeLuXUPRLmIlgbIIW4g2ZIoA==";
+        };
+        _8pWowlOM = {
+            "id" = "8pWowlOM";
+            "file" = "playermob-forge-0.118.0+1.20.1.jar";
+            "hash" = "sha512-DSgN3DAxEhLmXo7ftYy+Xk6XGZj/t/MsUvCUAXIi9kBht9X3FrcxRRLjieYvdYYwJoJfgy5ueaoRUXCKMZ2VBg==";
+        };
+        _WbBh7FtQ = {
+            "id" = "WbBh7FtQ";
+            "file" = "playermob-neoforge-0.118.0+1.21.1.jar";
+            "hash" = "sha512-NmzsLUGfnNyOpEm++ynvGID9EaLCBwVPSWzGi1pi1g5l884iwTDTcXJ1FQjRklm5md+jfevmniVb+TIakLXlMA==";
+        };
+        _xcjPYwea = {
+            "id" = "xcjPYwea";
+            "file" = "playermob-fabric-0.118.0+26.2.jar";
+            "hash" = "sha512-9XeDkJm6KMU+Yzawrm4k/d7F/zAZbIYT1khacPDDi3L3imQ3ZFp9ByCthttAg/eNNGU8sRODA09Bv0A4AWrfPQ==";
+        };
+        _VxwTXzgR = {
+            "id" = "VxwTXzgR";
+            "file" = "playermob-neoforge-0.118.0+26.2.jar";
+            "hash" = "sha512-5Xd5lvyRDwjDCNO53BCYEX670SdXMlAxZ0ZBsC3KCTptLEAfUdSO0s5MEtuoXZPcCxSm04WGXhHJpHcQQZJa7A==";
+        };
+        _crI0aT9D = {
+            "id" = "crI0aT9D";
+            "file" = "playermob-fabric-0.119.0+1.21.1.jar";
+            "hash" = "sha512-5tFq7Q/depQKtuSlu3rK9w9sGTez9fb8BPPipGh6q35aRb7SwCg7uUrv/7obnjMlNr5jzKpZ4UtC3AWWc4BMGg==";
+        };
+        _G6VGtXPz = {
+            "id" = "G6VGtXPz";
+            "file" = "playermob-fabric-0.119.0+1.20.1.jar";
+            "hash" = "sha512-Jf8xDDqnkWpkN5d4VOWygiQ9A2phTrFnVpAoVvkBkermnhmF9BwrniHeO3K6smN3Bn/d3nQ89NFdETl3t7bgUw==";
+        };
+        _22IVwyhM = {
+            "id" = "22IVwyhM";
+            "file" = "playermob-forge-0.119.0+1.21.1.jar";
+            "hash" = "sha512-tRSk9wfzxD8PqIbH6UYPbc3l531UxKH2BS/N7/5tdEX5tbf2TRvMHJ1fTpJIY2akkNBhhAs5aM52UEZ66VPR2w==";
+        };
+        _IDKGOXb0 = {
+            "id" = "IDKGOXb0";
+            "file" = "playermob-forge-0.119.0+1.20.1.jar";
+            "hash" = "sha512-pWnmt9/vc/ofW8CeTpOIeh0UuriDJoqfJqTnzkv7SVFVNWN+CR4AlKi0jOFPrGzB2LTRj5H4v+/19P17dwfZNQ==";
+        };
+        _Bo4sN5qX = {
+            "id" = "Bo4sN5qX";
+            "file" = "playermob-neoforge-0.119.0+1.21.1.jar";
+            "hash" = "sha512-GnkmVT5AN8U042g7HIIEFDDffNcr+t7UX19unqH4vL5j/Wz7eNS3SOW6imlCbAjnuna1zkOX2vNrsMAoOACR7A==";
+        };
+        _EwVjNk35 = {
+            "id" = "EwVjNk35";
+            "file" = "playermob-fabric-0.119.0+26.2.jar";
+            "hash" = "sha512-OMeKt5bYwyB8q6hTg6uxtzV3DNASeZf7Lu5bFm+ssXvzAW/XAPyZjDrOoaCEiPnZ+ui0yXJWSO28AWb3hmioXQ==";
+        };
+        _7UJWN7AE = {
+            "id" = "7UJWN7AE";
+            "file" = "playermob-neoforge-0.119.0+26.2.jar";
+            "hash" = "sha512-ak13bChdCshKyhvUghtKXE/aw9AbWXYwb0rO/ewHadn8AWb21li9NYJ3yeDj3BCypquXJVWaGBhsKV1ZYacDjg==";
+        };
     in {
         "QrEsmAzo" = _QrEsmAzo;
         "YwnqK7j7" = _YwnqK7j7;
@@ -2840,7 +2910,21 @@ let
         "MsaHmki0" = _MsaHmki0;
         "yIUIgdJ7" = _yIUIgdJ7;
         "O6UBDFma" = _O6UBDFma;
-        "fabric-1.21.1" = _d58bw9oL;
+        "aAA2Bjeq" = _aAA2Bjeq;
+        "zI3jg0Dc" = _zI3jg0Dc;
+        "ziRGobD4" = _ziRGobD4;
+        "8pWowlOM" = _8pWowlOM;
+        "WbBh7FtQ" = _WbBh7FtQ;
+        "xcjPYwea" = _xcjPYwea;
+        "VxwTXzgR" = _VxwTXzgR;
+        "crI0aT9D" = _crI0aT9D;
+        "G6VGtXPz" = _G6VGtXPz;
+        "22IVwyhM" = _22IVwyhM;
+        "IDKGOXb0" = _IDKGOXb0;
+        "Bo4sN5qX" = _Bo4sN5qX;
+        "EwVjNk35" = _EwVjNk35;
+        "7UJWN7AE" = _7UJWN7AE;
+        "fabric-1.21.1" = _crI0aT9D;
         "fabric-1.21.2" = _QrEsmAzo;
         "fabric-1.21.3" = _QrEsmAzo;
         "fabric-1.21.4" = _QrEsmAzo;
@@ -2851,12 +2935,12 @@ let
         "fabric-1.21.9" = _QrEsmAzo;
         "fabric-1.21.10" = _QrEsmAzo;
         "fabric-1.21.11" = _QrEsmAzo;
-        "fabric-1.20.1" = _El2mJix9;
-        "fabric-26.2" = _yIUIgdJ7;
-        "forge-1.21.1" = _rbk4aLpL;
-        "forge-1.20.1" = _qJVu0oWX;
-        "neoforge-1.21.1" = _MsaHmki0;
-        "neoforge-26.2" = _O6UBDFma;
+        "fabric-1.20.1" = _G6VGtXPz;
+        "fabric-26.2" = _EwVjNk35;
+        "forge-1.21.1" = _22IVwyhM;
+        "forge-1.20.1" = _IDKGOXb0;
+        "neoforge-1.21.1" = _Bo4sN5qX;
+        "neoforge-26.2" = _7UJWN7AE;
         "pkg-0.2.0" = _QrEsmAzo;
         "pkg-v0.8.0+fabric" = _5PKUmoD0;
         "pkg-v0.8.0+forge" = _wAWX7TwO;
@@ -3324,7 +3408,21 @@ let
         "pkg-v0.117.0+neoforge-1.21.1" = _MsaHmki0;
         "pkg-v0.117.0+fabric-26.2" = _yIUIgdJ7;
         "pkg-v0.117.0+neoforge-26.2" = _O6UBDFma;
-        "default" = _O6UBDFma;
+        "pkg-v0.118.0+fabric-1.21.1" = _aAA2Bjeq;
+        "pkg-v0.118.0+fabric-1.20.1" = _zI3jg0Dc;
+        "pkg-v0.118.0+forge-1.21.1" = _ziRGobD4;
+        "pkg-v0.118.0+forge-1.20.1" = _8pWowlOM;
+        "pkg-v0.118.0+neoforge-1.21.1" = _WbBh7FtQ;
+        "pkg-v0.118.0+fabric-26.2" = _xcjPYwea;
+        "pkg-v0.118.0+neoforge-26.2" = _VxwTXzgR;
+        "pkg-v0.119.0+fabric-1.21.1" = _crI0aT9D;
+        "pkg-v0.119.0+fabric-1.20.1" = _G6VGtXPz;
+        "pkg-v0.119.0+forge-1.21.1" = _22IVwyhM;
+        "pkg-v0.119.0+forge-1.20.1" = _IDKGOXb0;
+        "pkg-v0.119.0+neoforge-1.21.1" = _Bo4sN5qX;
+        "pkg-v0.119.0+fabric-26.2" = _EwVjNk35;
+        "pkg-v0.119.0+neoforge-26.2" = _7UJWN7AE;
+        "default" = _7UJWN7AE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "interactive-player-mobs";

@@ -211,6 +211,11 @@ let
             "file" = "Visible Traders-2.5.1-universal.jar";
             "hash" = "sha512-bEqxN2IFVjqIjfprF/TemjfabiDWwCTEG/sW78G3nk2ryB/d66IvsQxLZBpxcPBCFN+ctgepwNaqVmcJa/CVjg==";
         };
+        _xcjwcHHL = {
+            "id" = "xcjwcHHL";
+            "file" = "Visible Traders-2.5.2-universal.jar";
+            "hash" = "sha512-vgarl8V+FoYvoIGKrGmv2qC1Xw3dWS94LPJnwN6uoIRBMQ/WBXG75YUymLOB39XD0FHJ0kGO05V0DJfD9+WrZg==";
+        };
     in {
         "Eqvh7qQb" = _Eqvh7qQb;
         "cDB6sG0B" = _cDB6sG0B;
@@ -254,6 +259,7 @@ let
         "FJtHZc7C" = _FJtHZc7C;
         "FgAW3GoO" = _FgAW3GoO;
         "TojbcxPs" = _TojbcxPs;
+        "xcjwcHHL" = _xcjwcHHL;
         "fabric-1.20" = _9CopIc96;
         "fabric-1.20.1" = _9CopIc96;
         "fabric-1.20.2" = _9CopIc96;
@@ -276,7 +282,8 @@ let
         "fabric-26.1" = _FJtHZc7C;
         "fabric-26.1.1" = _FJtHZc7C;
         "fabric-26.1.2" = _FJtHZc7C;
-        "fabric-26.2" = _TojbcxPs;
+        "fabric-26.2" = _xcjwcHHL;
+        "fabric-26.3" = _xcjwcHHL;
         "neoforge-1.21" = _OXoi6R1p;
         "neoforge-1.21.1" = _OXoi6R1p;
         "neoforge-1.20.5" = _unWA25fI;
@@ -291,7 +298,8 @@ let
         "neoforge-26.1" = _FJtHZc7C;
         "neoforge-26.1.1" = _FJtHZc7C;
         "neoforge-26.1.2" = _FJtHZc7C;
-        "neoforge-26.2" = _TojbcxPs;
+        "neoforge-26.2" = _xcjwcHHL;
+        "neoforge-26.3" = _xcjwcHHL;
         "pkg-0.0.2" = _Eqvh7qQb;
         "pkg-0.0.3" = _cDB6sG0B;
         "pkg-0.0.4" = _9CopIc96;
@@ -320,7 +328,8 @@ let
         "pkg-2.4.0" = _FJtHZc7C;
         "pkg-2.5.0" = _FgAW3GoO;
         "pkg-2.5.1" = _TojbcxPs;
-        "default" = _TojbcxPs;
+        "pkg-2.5.2" = _xcjwcHHL;
+        "default" = _xcjwcHHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visible-traders";

@@ -186,6 +186,11 @@ let
             "file" = "redbits-2.5.4.jar";
             "hash" = "sha512-4XsxlesScNJ9ADLqIVRvoNWTCLHKfrTFaYBmg91igqNeHgRht+MC8l4nX7gcvbRH/txRLitdSqjE7KeH06xcDg==";
         };
+        _wyZ9jTKH = {
+            "id" = "wyZ9jTKH";
+            "file" = "redbits-2.5.5.jar";
+            "hash" = "sha512-VfkYkv1AiwjF73qZDoc80oL0ccp/7E+r1bM2IWRmswC6Vp9M58/OgCJTlIU0+N7L7Hy7L0nIfiJw09JfsFHXTA==";
+        };
     in {
         "jf3HKcva" = _jf3HKcva;
         "HQ7KywZk" = _HQ7KywZk;
@@ -224,6 +229,7 @@ let
         "YV2G4XHY" = _YV2G4XHY;
         "m4FVFAKY" = _m4FVFAKY;
         "DZE6iace" = _DZE6iace;
+        "wyZ9jTKH" = _wyZ9jTKH;
         "fabric-1.16" = _HQ7KywZk;
         "fabric-1.16.1" = _HQ7KywZk;
         "fabric-1.16.2" = _HQ7KywZk;
@@ -270,8 +276,8 @@ let
         "fabric-26.3-rc-1" = _YV2G4XHY;
         "fabric-26.3-rc-2" = _YV2G4XHY;
         "fabric-26.3-rc-3" = _YV2G4XHY;
-        "fabric-26.3" = _DZE6iace;
-        "fabric-26.4-snapshot-1" = _DZE6iace;
+        "fabric-26.3" = _wyZ9jTKH;
+        "fabric-26.4-snapshot-1" = _wyZ9jTKH;
         "pkg-1.7.0" = _jf3HKcva;
         "pkg-1.8.0" = _HQ7KywZk;
         "pkg-1.9.0" = _TMRFoKcJ;
@@ -309,7 +315,8 @@ let
         "pkg-2.5.2" = _YV2G4XHY;
         "pkg-2.5.3" = _m4FVFAKY;
         "pkg-2.5.4" = _DZE6iace;
-        "default" = _DZE6iace;
+        "pkg-2.5.5" = _wyZ9jTKH;
+        "default" = _wyZ9jTKH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "red-bits";

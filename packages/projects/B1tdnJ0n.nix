@@ -36,6 +36,11 @@ let
             "file" = "ccccc-neoforge-1.1.0.jar";
             "hash" = "sha512-Of2K6kKpoTNpN8dtFElg5VgCPCBzLJ8iNtyYEHTC29u81ASb5QBtJim9XeK43xKlAThXM5KIxFNHLl/0zRyJXg==";
         };
+        _9XknrNN7 = {
+            "id" = "9XknrNN7";
+            "file" = "ccccc-forge-1.0.4.jar";
+            "hash" = "sha512-xRQnfZ2hu9Ju8A/cgXt1IbAlJX/Dh17Y72u+5WTCMHp+Lch2PY7BS+Tg7rQSNwNw4DCytwh2Fse99Pxl02dxXw==";
+        };
     in {
         "YxvPrYbV" = _YxvPrYbV;
         "B5xcnH71" = _B5xcnH71;
@@ -44,15 +49,17 @@ let
         "ChVfdPxi" = _ChVfdPxi;
         "AeKi2lV3" = _AeKi2lV3;
         "lUK2iSBD" = _lUK2iSBD;
+        "9XknrNN7" = _9XknrNN7;
         "fabric-1.20.1" = _ChVfdPxi;
-        "forge-1.20.1" = _AeKi2lV3;
+        "forge-1.20.1" = _9XknrNN7;
         "neoforge-1.21.1" = _lUK2iSBD;
         "pkg-1.0.0" = _YxvPrYbV;
         "pkg-1.0.1" = _B5xcnH71;
         "pkg-1.0.2" = _2pR2Jduj;
         "pkg-1.0.3" = _AeKi2lV3;
         "pkg-1.1.0" = _lUK2iSBD;
-        "default" = _lUK2iSBD;
+        "pkg-1.0.4" = _9XknrNN7;
+        "default" = _9XknrNN7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ccccc_";

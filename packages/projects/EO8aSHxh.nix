@@ -426,6 +426,16 @@ let
             "file" = "eureka-1201-1.6.3.jar";
             "hash" = "sha512-eraw86qB5XLvu48LEJwKiFLE8UX0Z845A+IzbXgtgfyf5c8sihTttQj5KmE9715HaA43DNrvgJVtQ2kgNDuJ1A==";
         };
+        _Vim9JR4p = {
+            "id" = "Vim9JR4p";
+            "file" = "eureka-1201-1.6.4.jar";
+            "hash" = "sha512-tuZvbxESQr81OBBXV0JBnZ7iTQJcfr4Tb/9SdBbITQ+uOGI411zEFDn4k6V4rS/RTYl9cP/eLs6F+sxfAqzh8g==";
+        };
+        _J1B6BA08 = {
+            "id" = "J1B6BA08";
+            "file" = "eureka-1201-1.6.4.jar";
+            "hash" = "sha512-bgdJ5IZzqwIFJ6BMGSktKM5cpIM7sduGCsQixYlO/2OVQCP3fSOhuofoPN/KkX1HBE1WdBhvkNnvLFv9jjc0xA==";
+        };
     in {
         "4iigJLOg" = _4iigJLOg;
         "GrKPsmh4" = _GrKPsmh4;
@@ -512,14 +522,16 @@ let
         "QPGzLtos" = _QPGzLtos;
         "aJWa3eWO" = _aJWa3eWO;
         "w2tkVjFR" = _w2tkVjFR;
+        "Vim9JR4p" = _Vim9JR4p;
+        "J1B6BA08" = _J1B6BA08;
         "fabric-1.16.5" = _nqpsFEww;
         "fabric-1.18.2" = _Z78UhkVg;
         "fabric-1.19.2" = _63yF415H;
-        "fabric-1.20.1" = _aJWa3eWO;
+        "fabric-1.20.1" = _Vim9JR4p;
         "forge-1.16.5" = _btYrFzgl;
         "forge-1.18.2" = _t74lDHyg;
         "forge-1.19.2" = _afuKYGOT;
-        "forge-1.20.1" = _w2tkVjFR;
+        "forge-1.20.1" = _J1B6BA08;
         "pkg-fabric-1.16.5-eureka-v1.0-alpha0" = _4iigJLOg;
         "pkg-1.16.5-fabric-1.0.0-alpha1" = _GrKPsmh4;
         "pkg-1.16.5-forge-1.0.0-alpha1" = _VbuY8zfn;
@@ -605,7 +617,9 @@ let
         "pkg-1.20.1-forge-1.6.2" = _QPGzLtos;
         "pkg-1.20.1-fabric-1.6.3" = _aJWa3eWO;
         "pkg-1.20.1-forge-1.6.3" = _w2tkVjFR;
-        "default" = _w2tkVjFR;
+        "pkg-1.20.1-fabric-1.6.4" = _Vim9JR4p;
+        "pkg-1.20.1-forge-1.6.4" = _J1B6BA08;
+        "default" = _J1B6BA08;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eureka";

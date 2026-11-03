@@ -61,6 +61,26 @@ let
             "file" = "pokelucky-12.15.12-reforged-9.3.16(1.21.1).jar";
             "hash" = "sha512-/RJdUiEdI59/h0EdTv/S+wH1l4MiPDQMURenUqvoiS5O6CjlZEoOI330i/P6Yft/xUDayA4LWOqfUsutadLBdg==";
         };
+        _tpObMacJ = {
+            "id" = "tpObMacJ";
+            "file" = "pokelucky-RG-6.16.13(1.12.2).jar";
+            "hash" = "sha512-hzHnnWihd5RvTHPjzRhzsgFC8QHnA4LPHBVhcVOovYhI18o75f7jFMxPVnZ8yF+ZZQOfFcv/KO48rvStO2fncQ==";
+        };
+        _nZyZVSCJ = {
+            "id" = "nZyZVSCJ";
+            "file" = "pokelucky-7.16.13-reforged-9.1.13(1.16.5).jar";
+            "hash" = "sha512-qcrhUn7smLQiIJwV4YTWHSrRevg6DyUTEe4RAHxLtW/2XnDPS6hART8gpX1woYvi1zFMes5RxG/Ra8t7MIwjPQ==";
+        };
+        _WWhsyg1U = {
+            "id" = "WWhsyg1U";
+            "file" = "pokelucky-11.16.13-reforged-9.2.10(1.20.2).jar";
+            "hash" = "sha512-BxKEcGBf9Asze15dWK9HrxdBrqS23QyrvUFIRy39PG0VMse69SQGpPTCTfNP8TXRv4sxCzlFKq6TTpYwGZuoRQ==";
+        };
+        _7dQheeSE = {
+            "id" = "7dQheeSE";
+            "file" = "pokelucky-12.16.13-reforged-9.4.2(1.21.1).jar";
+            "hash" = "sha512-3ytFB1qh6l512Sq1qLKKTs8DaKsl9g2aejjx5Td7UTYdPRN/kmTI2xMDli+nrhIpRj6QxAv+2E4DUFrS8axHww==";
+        };
     in {
         "OppGfCsb" = _OppGfCsb;
         "iMGlPRRP" = _iMGlPRRP;
@@ -74,10 +94,14 @@ let
         "KwCcGk3f" = _KwCcGk3f;
         "5YVBtTvh" = _5YVBtTvh;
         "VZ7m03VA" = _VZ7m03VA;
-        "forge-1.12.2" = _KcK2CYbP;
-        "forge-1.16.5" = _KwCcGk3f;
-        "forge-1.20.2" = _5YVBtTvh;
-        "neoforge-1.21.1" = _VZ7m03VA;
+        "tpObMacJ" = _tpObMacJ;
+        "nZyZVSCJ" = _nZyZVSCJ;
+        "WWhsyg1U" = _WWhsyg1U;
+        "7dQheeSE" = _7dQheeSE;
+        "forge-1.12.2" = _tpObMacJ;
+        "forge-1.16.5" = _nZyZVSCJ;
+        "forge-1.20.2" = _WWhsyg1U;
+        "neoforge-1.21.1" = _7dQheeSE;
         "pkg-6.14.10" = _OppGfCsb;
         "pkg-7.14.6" = _iMGlPRRP;
         "pkg-11.14.10" = _5UVk9i23;
@@ -90,7 +114,11 @@ let
         "pkg-7.15.12" = _KwCcGk3f;
         "pkg-11.15.12" = _5YVBtTvh;
         "pkg-12.15.12" = _VZ7m03VA;
-        "default" = _VZ7m03VA;
+        "pkg-6.16.13" = _tpObMacJ;
+        "pkg-7.16.13" = _nZyZVSCJ;
+        "pkg-11.16.13" = _WWhsyg1U;
+        "pkg-12.16.13" = _7dQheeSE;
+        "default" = _7dQheeSE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokelucky";

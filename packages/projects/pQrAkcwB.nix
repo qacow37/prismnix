@@ -96,6 +96,11 @@ let
             "file" = "Angel's Weather 1.9.3b.zip";
             "hash" = "sha512-aIHN3QkZ/aHdU4lhM5wyagl8lagS3gqta4j+uH67cEgnDiOFlGBipYApwTW+ZY8OL7uAQIatC67Ntq7C/edapg==";
         };
+        _E7IaVaEf = {
+            "id" = "E7IaVaEf";
+            "file" = "Angel's Weather 1.9.3c.zip";
+            "hash" = "sha512-JFkeRjgMiKHgSEgEfLJGgmgJTN5ClAFzrjx4IY1eJJqEx3ADRvLZcHvwtNklK/iKmxC/TovlOnhpdYcA9vh8hQ==";
+        };
     in {
         "ntphSzuy" = _ntphSzuy;
         "y9xRvzUq" = _y9xRvzUq;
@@ -116,6 +121,7 @@ let
         "QE4oK9fN" = _QE4oK9fN;
         "qMQ44jsD" = _qMQ44jsD;
         "ucucsh9C" = _ucucsh9C;
+        "E7IaVaEf" = _E7IaVaEf;
         "minecraft-1.20.2" = _qMQ44jsD;
         "minecraft-1.14" = _b8Z6OB0W;
         "minecraft-1.14.1" = _b8Z6OB0W;
@@ -148,21 +154,21 @@ let
         "minecraft-1.20.5" = _qMQ44jsD;
         "minecraft-1.20.6" = _qMQ44jsD;
         "minecraft-1.21" = _qMQ44jsD;
-        "minecraft-1.21.1" = _ucucsh9C;
-        "minecraft-1.21.2" = _ucucsh9C;
-        "minecraft-1.21.3" = _ucucsh9C;
-        "minecraft-1.21.4" = _ucucsh9C;
+        "minecraft-1.21.1" = _E7IaVaEf;
+        "minecraft-1.21.2" = _E7IaVaEf;
+        "minecraft-1.21.3" = _E7IaVaEf;
+        "minecraft-1.21.4" = _E7IaVaEf;
         "minecraft-25w02a" = _Spxkj55U;
         "minecraft-25w03a" = _Spxkj55U;
         "minecraft-25w04a" = _Spxkj55U;
         "minecraft-25w05a" = _Spxkj55U;
-        "minecraft-1.21.5" = _ucucsh9C;
-        "minecraft-1.21.6" = _ucucsh9C;
-        "minecraft-1.21.7" = _ucucsh9C;
-        "minecraft-1.21.8" = _ucucsh9C;
-        "minecraft-1.21.9" = _ucucsh9C;
-        "minecraft-1.21.10" = _ucucsh9C;
-        "minecraft-1.21.11" = _ucucsh9C;
+        "minecraft-1.21.5" = _E7IaVaEf;
+        "minecraft-1.21.6" = _E7IaVaEf;
+        "minecraft-1.21.7" = _E7IaVaEf;
+        "minecraft-1.21.8" = _E7IaVaEf;
+        "minecraft-1.21.9" = _E7IaVaEf;
+        "minecraft-1.21.10" = _E7IaVaEf;
+        "minecraft-1.21.11" = _E7IaVaEf;
         "minecraft-24w33a" = _PaNyMebK;
         "minecraft-24w34a" = _PaNyMebK;
         "minecraft-24w35a" = _PaNyMebK;
@@ -176,11 +182,11 @@ let
         "minecraft-24w44a" = _PaNyMebK;
         "minecraft-24w45a" = _PaNyMebK;
         "minecraft-24w46a" = _PaNyMebK;
-        "minecraft-26.1" = _ucucsh9C;
-        "minecraft-26.1.1" = _ucucsh9C;
-        "minecraft-26.1.2" = _ucucsh9C;
-        "minecraft-26.2" = _ucucsh9C;
-        "minecraft-26.3" = _ucucsh9C;
+        "minecraft-26.1" = _E7IaVaEf;
+        "minecraft-26.1.1" = _E7IaVaEf;
+        "minecraft-26.1.2" = _E7IaVaEf;
+        "minecraft-26.2" = _E7IaVaEf;
+        "minecraft-26.3" = _E7IaVaEf;
         "pkg-1.0" = _ntphSzuy;
         "pkg-1.1" = _y9xRvzUq;
         "pkg-1.2" = _1VR7h2Mj;
@@ -200,7 +206,8 @@ let
         "pkg-1.9.3" = _QE4oK9fN;
         "pkg-1.9.3a" = _qMQ44jsD;
         "pkg-1.9.3b" = _ucucsh9C;
-        "default" = _ucucsh9C;
+        "pkg-1.9.3c" = _E7IaVaEf;
+        "default" = _E7IaVaEf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angels-weather";

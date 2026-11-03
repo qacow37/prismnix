@@ -26,20 +26,27 @@ let
             "file" = "discerning_the_eldritch-1.4.4-1.21.jar";
             "hash" = "sha512-pShfGuBqTqaUk8lpkYQkXmsTDT/Llrmp/F3hRJq2I5vCBYDYEqz3bFO5wrVQF7dRClwNgyD4ynxWwMir4Xue4A==";
         };
+        _A5kNeH0o = {
+            "id" = "A5kNeH0o";
+            "file" = "discerning_the_eldritch-1.4.5-1.21.jar";
+            "hash" = "sha512-Vyj7Zs/RBjrBU2BpR3eLQ1PV+Mq4t6ORtpENycTa2Y8ko8RKWuFMEpRpysmiR7TgbPhS0HM9XLK/EOlCNwVjvQ==";
+        };
     in {
         "6cMVIBIG" = _6cMVIBIG;
         "MGFAvXjE" = _MGFAvXjE;
         "X6xsF9IW" = _X6xsF9IW;
         "DZOuNCHD" = _DZOuNCHD;
         "Rui55E0B" = _Rui55E0B;
-        "neoforge-1.21.1" = _Rui55E0B;
-        "neoforge-1.21" = _Rui55E0B;
+        "A5kNeH0o" = _A5kNeH0o;
+        "neoforge-1.21.1" = _A5kNeH0o;
+        "neoforge-1.21" = _A5kNeH0o;
         "pkg-1.4.0-1.21" = _6cMVIBIG;
         "pkg-1.4.1-1.21" = _MGFAvXjE;
         "pkg-1.4.2-1.21" = _X6xsF9IW;
         "pkg-1.4.3-1.21" = _DZOuNCHD;
         "pkg-1.4.4-1.21" = _Rui55E0B;
-        "default" = _Rui55E0B;
+        "pkg-1.4.5-1.21" = _A5kNeH0o;
+        "default" = _A5kNeH0o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discerning-the-eldritch";

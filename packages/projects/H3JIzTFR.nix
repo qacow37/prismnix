@@ -306,6 +306,31 @@ let
             "file" = "CosmeticArmours - 1.6.0.0 - 26.1.2 - NeoForge.jar";
             "hash" = "sha512-3WmRgnko8xyP5qoBaAdfdKRQpxoW5nGOIJRiZZDRBmE3FPc8bKlomnbKtrC9Kk8lOo38ItushgKwdkCrQpocEw==";
         };
+        _DwUqZ10i = {
+            "id" = "DwUqZ10i";
+            "file" = "CosmeticArmours - 1.6.0.1 - 1.20.1 - Forge.jar";
+            "hash" = "sha512-es+nXMw+C6O4h9Ii010ZH9rGqOrm7mNWNE4eT8xy8j4ooAvnhdWmtvKMk0FGDC2i3prG4cEwyMYy+lW0zwjO1A==";
+        };
+        _foEcPXra = {
+            "id" = "foEcPXra";
+            "file" = "CosmeticArmours - 1.6.0.1 - 1.20.4 - NeoForge.jar";
+            "hash" = "sha512-+CsTQRnefGJkXdtdDMGIGQXCfjR2gkCZReD1Eoy9QrKlZZfRu6peA10C0PITb5sA77KEqjvUajlODXDXc3JagA==";
+        };
+        _lJOvTDAL = {
+            "id" = "lJOvTDAL";
+            "file" = "CosmeticArmours - 1.6.0.1 - 1.20.6 - NeoForge.jar";
+            "hash" = "sha512-2YcCcJddXiEodYfEAb/HZ4FgwTJQ2ZPFkmbROiE02+ysnzoS5MoK76THUGNm4C3zsctlvQSWp+rnyCYU4k5R8w==";
+        };
+        _h65hzPFD = {
+            "id" = "h65hzPFD";
+            "file" = "CosmeticArmours - 1.6.0.1 - 1.21.1 - NeoForge.jar";
+            "hash" = "sha512-xg/TqrrQIWVDYTMxe/r7A0q1xWwgLrrC1Gd099xpp1Qsdl7HOOebfKCRAvDo/d2bCv6dLqoNKOWEpBLAa4i/Vw==";
+        };
+        _MgeCBNPh = {
+            "id" = "MgeCBNPh";
+            "file" = "CosmeticArmours - 1.6.0.1 - 26.1.2 - NeoForge.jar";
+            "hash" = "sha512-0gOzzEA7aOkM9GAHlhCi1xtggsaPaZYfHcV0Qmbaith+pD94SOvxC4QTJM183mPPcxpV7QmdKjBjR2tcydKkKA==";
+        };
     in {
         "U2aFC7jF" = _U2aFC7jF;
         "AumOrTqs" = _AumOrTqs;
@@ -368,12 +393,17 @@ let
         "4qTAkPVq" = _4qTAkPVq;
         "1eWI94eZ" = _1eWI94eZ;
         "xkx6jJ0b" = _xkx6jJ0b;
+        "DwUqZ10i" = _DwUqZ10i;
+        "foEcPXra" = _foEcPXra;
+        "lJOvTDAL" = _lJOvTDAL;
+        "h65hzPFD" = _h65hzPFD;
+        "MgeCBNPh" = _MgeCBNPh;
         "forge-1.20" = _U2aFC7jF;
-        "forge-1.20.1" = _dbCm9zx9;
-        "neoforge-1.20.4" = _Pm8v7BGw;
-        "neoforge-1.20.6" = _4qTAkPVq;
-        "neoforge-1.21.1" = _1eWI94eZ;
-        "neoforge-26.1.2" = _xkx6jJ0b;
+        "forge-1.20.1" = _DwUqZ10i;
+        "neoforge-1.20.4" = _foEcPXra;
+        "neoforge-1.20.6" = _lJOvTDAL;
+        "neoforge-1.21.1" = _h65hzPFD;
+        "neoforge-26.1.2" = _MgeCBNPh;
         "pkg-1.4.0.1" = _HmSga96D;
         "pkg-1.4.1.0" = _fLK9VJbt;
         "pkg-1.4.2.0" = _9bX5sQJE;
@@ -389,7 +419,8 @@ let
         "pkg-1.5.3.0" = _XYO6uw9o;
         "pkg-1.5.3.1" = _u30xtl3a;
         "pkg-1.6.0.0" = _xkx6jJ0b;
-        "default" = _xkx6jJ0b;
+        "pkg-1.6.0.1" = _MgeCBNPh;
+        "default" = _MgeCBNPh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cosmeticarmours";

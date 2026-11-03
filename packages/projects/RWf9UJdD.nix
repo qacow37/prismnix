@@ -491,6 +491,16 @@ let
             "file" = "recipes-plus-1.8.8.jar";
             "hash" = "sha512-1vk/UrVmH5Lm5GCxpAYU5o3y1U7l0eItFg3iN+02ru074wS6KAcCDsDScS1k71Lxyjbwa0YTqLrdr1stKcbB9A==";
         };
+        _VRq4El3Q = {
+            "id" = "VRq4El3Q";
+            "file" = "recipes_plus.zip";
+            "hash" = "sha512-L8ChLxd/JIeun91UPyZQgoX9dxnyceDd581APld0iwjrhQAwmpLQD3NebBN5RCz2Sybg9/LtWr5XFUQDeajutA==";
+        };
+        _PGfITyyD = {
+            "id" = "PGfITyyD";
+            "file" = "recipes-plus-1.8.9.jar";
+            "hash" = "sha512-qhN0WuxppH7bk5ilu/wsyDTnG1IISnx5vis6HV5CeNYNhh2uI0QHxa59AsAce77KzsN0VkfhR30PlJH5GW+GhQ==";
+        };
     in {
         "MnekBwlC" = _MnekBwlC;
         "cWv1yVzi" = _cWv1yVzi;
@@ -590,6 +600,8 @@ let
         "otedEDPB" = _otedEDPB;
         "qEQtfC5Z" = _qEQtfC5Z;
         "qvOq1VQF" = _qvOq1VQF;
+        "VRq4El3Q" = _VRq4El3Q;
+        "PGfITyyD" = _PGfITyyD;
         "datapack-1.15" = _Mh9Jbuwo;
         "datapack-1.15.1" = _Mh9Jbuwo;
         "datapack-1.15.2" = _Mh9Jbuwo;
@@ -669,7 +681,7 @@ let
         "datapack-1.20.3-pre2" = _i5fglCti;
         "datapack-1.20.3-pre3" = _i5fglCti;
         "datapack-1.20.3-pre4" = _i5fglCti;
-        "datapack-26.3" = _qEQtfC5Z;
+        "datapack-26.3" = _VRq4El3Q;
         "datapack-26.4-snapshot-1" = _qEQtfC5Z;
         "datapack-26.4-snapshot-2" = _qEQtfC5Z;
         "datapack-26.4-snapshot-3" = _qEQtfC5Z;
@@ -754,7 +766,7 @@ let
         "fabric-1.20.3-pre2" = _otedEDPB;
         "fabric-1.20.3-pre3" = _otedEDPB;
         "fabric-1.20.3-pre4" = _otedEDPB;
-        "fabric-26.3" = _qvOq1VQF;
+        "fabric-26.3" = _PGfITyyD;
         "fabric-26.4-snapshot-1" = _qvOq1VQF;
         "fabric-26.4-snapshot-2" = _qvOq1VQF;
         "fabric-26.4-snapshot-3" = _qvOq1VQF;
@@ -839,7 +851,7 @@ let
         "forge-1.20.3-pre2" = _otedEDPB;
         "forge-1.20.3-pre3" = _otedEDPB;
         "forge-1.20.3-pre4" = _otedEDPB;
-        "forge-26.3" = _qvOq1VQF;
+        "forge-26.3" = _PGfITyyD;
         "forge-26.4-snapshot-1" = _qvOq1VQF;
         "forge-26.4-snapshot-2" = _qvOq1VQF;
         "forge-26.4-snapshot-3" = _qvOq1VQF;
@@ -924,7 +936,7 @@ let
         "quilt-1.20.3-pre2" = _otedEDPB;
         "quilt-1.20.3-pre3" = _otedEDPB;
         "quilt-1.20.3-pre4" = _otedEDPB;
-        "quilt-26.3" = _qvOq1VQF;
+        "quilt-26.3" = _PGfITyyD;
         "quilt-26.4-snapshot-1" = _qvOq1VQF;
         "quilt-26.4-snapshot-2" = _qvOq1VQF;
         "quilt-26.4-snapshot-3" = _qvOq1VQF;
@@ -1009,7 +1021,7 @@ let
         "neoforge-1.20.3-pre2" = _otedEDPB;
         "neoforge-1.20.3-pre3" = _otedEDPB;
         "neoforge-1.20.3-pre4" = _otedEDPB;
-        "neoforge-26.3" = _qvOq1VQF;
+        "neoforge-26.3" = _PGfITyyD;
         "neoforge-26.4-snapshot-1" = _qvOq1VQF;
         "neoforge-26.4-snapshot-2" = _qvOq1VQF;
         "neoforge-26.4-snapshot-3" = _qvOq1VQF;
@@ -1113,7 +1125,9 @@ let
         "pkg-1.8.7+backport+mod_(!incomplete)" = _otedEDPB;
         "pkg-1.8.8" = _qEQtfC5Z;
         "pkg-1.8.8+mod" = _qvOq1VQF;
-        "default" = _qvOq1VQF;
+        "pkg-1.8.9" = _VRq4El3Q;
+        "pkg-1.8.9+mod" = _PGfITyyD;
+        "default" = _PGfITyyD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipes-plus";

@@ -71,6 +71,26 @@ let
             "file" = "unusual_furniture-2.0.2+1.21.1-neoforge.jar";
             "hash" = "sha512-KKIcG0Gw0z9tpVAdvbHeTlQZlxFmMbGGEHQRtLpw58t3BtjbjWVLWbFTxv0pL943EG6fztKnNnKLQGLBeHjsnw==";
         };
+        _y6frTEHI = {
+            "id" = "y6frTEHI";
+            "file" = "unusual_furniture-2.0.3+1.21.1-fabric.jar";
+            "hash" = "sha512-RjLrSL3ujaZLT3mXf9zaYgiTEMv+Y/0Be4F87VqxgjbFbyMQ9ZBpk0VgGPZnZt0hA3j0OQnwf4AIk69/uaOGxw==";
+        };
+        _xLa1xeMb = {
+            "id" = "xLa1xeMb";
+            "file" = "unusual_furniture-2.0.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-tFxIjEE0+L87tIYwfAB5hKODSX5ptI3fHIeWPQewpDHp4yWKnuN++HZUqZ2ZTdNEu9hkcRSpKt3CdWVFMz+H0Q==";
+        };
+        _TftV6DXP = {
+            "id" = "TftV6DXP";
+            "file" = "unusual_furniture-2.0.4+1.21.1-fabric.jar";
+            "hash" = "sha512-dPKmssB6tQQW5KBYGlI+yNto0ThIcKuwUrFrkuZdJ1+6+GAucG8VBtckysoQP/iy/nHr03epAIKRUnaK0/dk/Q==";
+        };
+        _9gb0MgtV = {
+            "id" = "9gb0MgtV";
+            "file" = "unusual_furniture-2.0.4+1.21.1-neoforge.jar";
+            "hash" = "sha512-G+GCx8voF6A3OVu53gMrCbuGPMTZGXz9fwrgAPiHQqqpwWBuIQgJCDjcj5l4agYq8jvG3oeuM+R7uWEnLkTJqg==";
+        };
     in {
         "hmz9vTdS" = _hmz9vTdS;
         "p5gHwlqn" = _p5gHwlqn;
@@ -86,10 +106,14 @@ let
         "QFWdKSDv" = _QFWdKSDv;
         "bDuF2wiH" = _bDuF2wiH;
         "Q7OG97Am" = _Q7OG97Am;
+        "y6frTEHI" = _y6frTEHI;
+        "xLa1xeMb" = _xLa1xeMb;
+        "TftV6DXP" = _TftV6DXP;
+        "9gb0MgtV" = _9gb0MgtV;
         "forge-1.20.1" = _i4vKolbx;
-        "neoforge-1.21.1" = _Q7OG97Am;
-        "fabric-1.21.1" = _bDuF2wiH;
-        "quilt-1.21.1" = _bDuF2wiH;
+        "neoforge-1.21.1" = _9gb0MgtV;
+        "fabric-1.21.1" = _TftV6DXP;
+        "quilt-1.21.1" = _TftV6DXP;
         "pkg-1.0.0" = _hmz9vTdS;
         "pkg-1.0.1" = _p5gHwlqn;
         "pkg-1.1.0" = _qfPsJG35;
@@ -103,7 +127,11 @@ let
         "pkg-2.0.1+1.21.1-neoforge" = _QFWdKSDv;
         "pkg-2.0.2+1.21.1-fabric" = _bDuF2wiH;
         "pkg-2.0.2+1.21.1-neoforge" = _Q7OG97Am;
-        "default" = _Q7OG97Am;
+        "pkg-2.0.3+1.21.1-fabric" = _y6frTEHI;
+        "pkg-2.0.3+1.21.1-neoforge" = _xLa1xeMb;
+        "pkg-2.0.4+1.21.1-fabric" = _TftV6DXP;
+        "pkg-2.0.4+1.21.1-neoforge" = _9gb0MgtV;
+        "default" = _9gb0MgtV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unusual-furniture";

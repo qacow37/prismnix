@@ -111,6 +111,26 @@ let
             "file" = "quickmenu-2.3.0+26.3.jar";
             "hash" = "sha512-0FxzN9iY6KbdkVpGVTEB3TCXjKoF5viFaZddtCAIYlShxsMbMUY+ryyIyCg8+JVgUYInPgcEnmdgpcPT2mRp7g==";
         };
+        _2VCgzgxR = {
+            "id" = "2VCgzgxR";
+            "file" = "quickmenu-2.4.0+1.21.11.jar";
+            "hash" = "sha512-NLWLhUmT1z47PXi+NZoQSxAhNmPr+k3Yeo5bQ2VbLZJzTmWXlxgI2x5msxLnJZPYAz2YyVxO1hOg1pOyH+1eSA==";
+        };
+        _K5QF4Cuy = {
+            "id" = "K5QF4Cuy";
+            "file" = "quickmenu-2.4.0+26.1.jar";
+            "hash" = "sha512-a0vrIxL9tlzc1PfOxC7ZNGCCkjxxtexljLuEdHNr2rDzdnbMiWHOyqAtpDIj5Zu1E56XZ4vsW0ARwZOPW80/nw==";
+        };
+        _CiVUkom5 = {
+            "id" = "CiVUkom5";
+            "file" = "quickmenu-2.4.0+26.2.jar";
+            "hash" = "sha512-4xOzk7Ww7Clz5gqInBeYQItSef9yN+2l0KirW9rc0xYIwHgaG8Moi2Vcfj7vXGtQ5qiNK6P64XELyFhlShxjjw==";
+        };
+        _zSPS7LTe = {
+            "id" = "zSPS7LTe";
+            "file" = "quickmenu-2.4.0+26.3.jar";
+            "hash" = "sha512-ug036p6Qcaaw00Exwjj0tMAOsJj1z5HFykCKRoQcdg94Fn0Lywhv0VuiDSxooYkDdBXWAMu1/oDFLbJ7FnpIKg==";
+        };
     in {
         "deFWC09i" = _deFWC09i;
         "Y5RHoDob" = _Y5RHoDob;
@@ -134,12 +154,16 @@ let
         "fVGpQCbH" = _fVGpQCbH;
         "XnZqLGFx" = _XnZqLGFx;
         "WOAMDkc0" = _WOAMDkc0;
-        "fabric-1.21.11" = _Vu0NAjNO;
-        "fabric-26.1" = _fVGpQCbH;
-        "fabric-26.1.1" = _fVGpQCbH;
-        "fabric-26.1.2" = _fVGpQCbH;
-        "fabric-26.2" = _XnZqLGFx;
-        "fabric-26.3" = _WOAMDkc0;
+        "2VCgzgxR" = _2VCgzgxR;
+        "K5QF4Cuy" = _K5QF4Cuy;
+        "CiVUkom5" = _CiVUkom5;
+        "zSPS7LTe" = _zSPS7LTe;
+        "fabric-1.21.11" = _2VCgzgxR;
+        "fabric-26.1" = _K5QF4Cuy;
+        "fabric-26.1.1" = _K5QF4Cuy;
+        "fabric-26.1.2" = _K5QF4Cuy;
+        "fabric-26.2" = _CiVUkom5;
+        "fabric-26.3" = _zSPS7LTe;
         "pkg-1.3.1" = _deFWC09i;
         "pkg-1.3.2" = _Y5RHoDob;
         "pkg-1.3.3" = _M7WSNOLk;
@@ -151,7 +175,8 @@ let
         "pkg-2.2.3" = _iYTcN81q;
         "pkg-2.2.3.1" = _gHUePePO;
         "pkg-2.3.0" = _WOAMDkc0;
-        "default" = _WOAMDkc0;
+        "pkg-2.4.0" = _zSPS7LTe;
+        "default" = _zSPS7LTe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-menu-renewed";

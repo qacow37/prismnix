@@ -151,6 +151,11 @@ let
             "file" = "MCEndgame-1.8.0+26.2.jar";
             "hash" = "sha512-m6nsIt96xN9FKRwT8l/I04ia9JScNSU2Xca+O5xYbIypaO7SYg5oYYE67CNvU+FzD0mWsbyKmPIGzwbJLsRJdA==";
         };
+        _P2ueEmT8 = {
+            "id" = "P2ueEmT8";
+            "file" = "MCEndgame-1.8.1+26.3.jar";
+            "hash" = "sha512-OQPR+8e9ADVgtK9ysB5VBc5tdmIEHcgmpdnQfEL3Tyc5svt3chWKWmRUtsgAyCIO25GvwGjDdZxc7TQT+Zj4xw==";
+        };
     in {
         "4WEpdj3o" = _4WEpdj3o;
         "bM4dFO4b" = _bM4dFO4b;
@@ -182,10 +187,11 @@ let
         "2W4LsOus" = _2W4LsOus;
         "RkvOjIe3" = _RkvOjIe3;
         "qQD6FGPE" = _qQD6FGPE;
+        "P2ueEmT8" = _P2ueEmT8;
         "fabric-1.21.11" = _n9FplqH9;
         "fabric-26.1.2" = _b2ZfopJP;
         "fabric-26.2" = _qQD6FGPE;
-        "fabric-26.3" = _RkvOjIe3;
+        "fabric-26.3" = _P2ueEmT8;
         "pkg-1.0.0+1.21.11" = _4WEpdj3o;
         "pkg-1.1.0+1.21.11" = _bM4dFO4b;
         "pkg-1.2.0+1.21.11" = _zCVwWQlV;
@@ -216,7 +222,8 @@ let
         "pkg-1.7.1+26.3" = _2W4LsOus;
         "pkg-1.8.0+26.3" = _RkvOjIe3;
         "pkg-1.8.0+26.2" = _qQD6FGPE;
-        "default" = _qQD6FGPE;
+        "pkg-1.8.1+26.3" = _P2ueEmT8;
+        "default" = _P2ueEmT8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcendgame";

@@ -161,6 +161,11 @@ let
             "file" = "essence-1.13.0.jar";
             "hash" = "sha512-ki0hjjhBsq8uzdiB/yjgYVC+laADYokJGll6q7REljLRO5bD1KLB9042AGVKAwcOwgzaZgRlHLjursFTHqNRnw==";
         };
+        _RpNsa38U = {
+            "id" = "RpNsa38U";
+            "file" = "essence-1.13.1.jar";
+            "hash" = "sha512-AVyeVhOFr+eowIFmFf5ZYg1/ppC/srWZ2zq9xdNtxSU/vCBTVbDcVFMF9vjW79XN7WVK15f/fW5HU4RxxS1YLw==";
+        };
     in {
         "n8qD2VGI" = _n8qD2VGI;
         "ti2PkRpm" = _ti2PkRpm;
@@ -194,6 +199,7 @@ let
         "eqXvBGKd" = _eqXvBGKd;
         "LJLsCWrV" = _LJLsCWrV;
         "Dr2ILBso" = _Dr2ILBso;
+        "RpNsa38U" = _RpNsa38U;
         "bukkit-1.20" = _ggZc4Zca;
         "bukkit-1.20.1" = _ggZc4Zca;
         "bukkit-1.20.2" = _ggZc4Zca;
@@ -242,11 +248,11 @@ let
         "paper-1.21.9" = _LJLsCWrV;
         "paper-1.21.10" = _LJLsCWrV;
         "paper-1.21.11" = _LJLsCWrV;
-        "paper-26.1" = _Dr2ILBso;
-        "paper-26.1.1" = _Dr2ILBso;
-        "paper-26.1.2" = _Dr2ILBso;
-        "paper-26.2" = _Dr2ILBso;
-        "paper-26.3" = _Dr2ILBso;
+        "paper-26.1" = _RpNsa38U;
+        "paper-26.1.1" = _RpNsa38U;
+        "paper-26.1.2" = _RpNsa38U;
+        "paper-26.2" = _RpNsa38U;
+        "paper-26.3" = _RpNsa38U;
         "spigot-1.20" = _ggZc4Zca;
         "spigot-1.20.1" = _ggZc4Zca;
         "spigot-1.20.2" = _ggZc4Zca;
@@ -290,11 +296,11 @@ let
         "folia-1.21.9" = _LJLsCWrV;
         "folia-1.21.10" = _LJLsCWrV;
         "folia-1.21.11" = _LJLsCWrV;
-        "folia-26.1" = _Dr2ILBso;
-        "folia-26.1.1" = _Dr2ILBso;
-        "folia-26.1.2" = _Dr2ILBso;
-        "folia-26.2" = _Dr2ILBso;
-        "folia-26.3" = _Dr2ILBso;
+        "folia-26.1" = _RpNsa38U;
+        "folia-26.1.1" = _RpNsa38U;
+        "folia-26.1.2" = _RpNsa38U;
+        "folia-26.2" = _RpNsa38U;
+        "folia-26.3" = _RpNsa38U;
         "purpur-1.20.4" = _ggZc4Zca;
         "purpur-1.20.5" = _ggZc4Zca;
         "purpur-1.20.6" = _ggZc4Zca;
@@ -314,11 +320,11 @@ let
         "purpur-1.21.9" = _LJLsCWrV;
         "purpur-1.21.10" = _LJLsCWrV;
         "purpur-1.21.11" = _LJLsCWrV;
-        "purpur-26.1" = _Dr2ILBso;
-        "purpur-26.1.1" = _Dr2ILBso;
-        "purpur-26.1.2" = _Dr2ILBso;
-        "purpur-26.2" = _Dr2ILBso;
-        "purpur-26.3" = _Dr2ILBso;
+        "purpur-26.1" = _RpNsa38U;
+        "purpur-26.1.1" = _RpNsa38U;
+        "purpur-26.1.2" = _RpNsa38U;
+        "purpur-26.2" = _RpNsa38U;
+        "purpur-26.3" = _RpNsa38U;
         "pkg-1.0" = _n8qD2VGI;
         "pkg-1.1.0" = _ti2PkRpm;
         "pkg-1.2.0" = _tHUzDc8s;
@@ -351,7 +357,8 @@ let
         "pkg-1.12.0-SNAPSHOT" = _eqXvBGKd;
         "pkg-1.12.0" = _LJLsCWrV;
         "pkg-1.13.0" = _Dr2ILBso;
-        "default" = _Dr2ILBso;
+        "pkg-1.13.1" = _RpNsa38U;
+        "default" = _RpNsa38U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essence-plugin";

@@ -331,6 +331,11 @@ let
             "file" = "sequoia-1.11.2.jar";
             "hash" = "sha512-UlKC98BnbFYA08JTcwblgwZcuaZ5NzFd5PXTy+kDr+Xuz9RGZ7Eh4hg1jiaAkAamsaLLYFDJKqsYFxkFT5VJNw==";
         };
+        _3zFGOThs = {
+            "id" = "3zFGOThs";
+            "file" = "sequoia-1.11.3.jar";
+            "hash" = "sha512-dbVbol2kyCsa0TYvD+ArJGF6Xq+8v9p5nhwdGGKAhbi3iuNnOQGGHI/0mIoDo3wSZqGu3ZVWlyunU+Y1Ps9+3g==";
+        };
     in {
         "piwEClYd" = _piwEClYd;
         "hdxNBgjC" = _hdxNBgjC;
@@ -398,7 +403,8 @@ let
         "yUCIvKNp" = _yUCIvKNp;
         "q5ITSQ5l" = _q5ITSQ5l;
         "g6qg2o8y" = _g6qg2o8y;
-        "fabric-1.21.11" = _g6qg2o8y;
+        "3zFGOThs" = _3zFGOThs;
+        "fabric-1.21.11" = _3zFGOThs;
         "pkg-0.1.0" = _piwEClYd;
         "pkg-0.6.0" = _hdxNBgjC;
         "pkg-0.6.1" = _AlnnsjSF;
@@ -465,7 +471,8 @@ let
         "pkg-1.10.17" = _yUCIvKNp;
         "pkg-1.11.1" = _q5ITSQ5l;
         "pkg-1.11.2" = _g6qg2o8y;
-        "default" = _g6qg2o8y;
+        "pkg-1.11.3" = _3zFGOThs;
+        "default" = _3zFGOThs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sequoia";
