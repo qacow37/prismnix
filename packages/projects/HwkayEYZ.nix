@@ -71,6 +71,11 @@ let
             "file" = "FancyEconomy-1.0.3+13.jar";
             "hash" = "sha512-y8pNl6aH3Z/Cy1u1EJwet/Z8kkST0dCq6YmQ7fPgn00YlWA2GiLZxtxBJsAxG8CI8fZHVo0gJRhqEMkK5M9uNg==";
         };
+        _XC21WY2U = {
+            "id" = "XC21WY2U";
+            "file" = "FancyEconomy-1.0.3+14.jar";
+            "hash" = "sha512-YtfQsq2hmGqYV/lFwFcCf43xejqL82u9sPlJkqzaSN8t3tax5s45rZaRbDgkCtYM9sa4RFwt+iqTjjvkWGnHZQ==";
+        };
     in {
         "YhkveRpz" = _YhkveRpz;
         "waP041rM" = _waP041rM;
@@ -86,18 +91,19 @@ let
         "hBQ0HRlX" = _hBQ0HRlX;
         "Vz6IFB4O" = _Vz6IFB4O;
         "W0YmfFQr" = _W0YmfFQr;
+        "XC21WY2U" = _XC21WY2U;
         "paper-1.19.4" = _YhkveRpz;
         "paper-1.20" = _waP041rM;
         "paper-1.20.1" = _gtryAvBc;
         "paper-1.21.11" = _19zWjZHZ;
         "paper-26.1.2" = _dIdzPk9l;
         "paper-26.2" = _bZrEebNz;
-        "paper-26.3" = _W0YmfFQr;
+        "paper-26.3" = _XC21WY2U;
         "folia-1.20.1" = _gtryAvBc;
         "folia-1.21.11" = _19zWjZHZ;
         "folia-26.1.2" = _dIdzPk9l;
         "folia-26.2" = _bZrEebNz;
-        "folia-26.3" = _W0YmfFQr;
+        "folia-26.3" = _XC21WY2U;
         "pkg-1.0.0" = _YhkveRpz;
         "pkg-1.0.1" = _waP041rM;
         "pkg-1.0.2" = _bziIw7rp;
@@ -112,7 +118,8 @@ let
         "pkg-1.0.3+11" = _hBQ0HRlX;
         "pkg-1.0.3+12" = _Vz6IFB4O;
         "pkg-1.0.3+13" = _W0YmfFQr;
-        "default" = _W0YmfFQr;
+        "pkg-1.0.3+14" = _XC21WY2U;
+        "default" = _XC21WY2U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancyeconomy";

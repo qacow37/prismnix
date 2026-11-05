@@ -641,6 +641,11 @@ let
             "file" = "sleep-v4.4.0.0.jar";
             "hash" = "sha512-RW0/RehKDse0uOKWBYj/NKP7g10C0+cC1Lbz//2yOCOV93hgrCmYPH3ZJD2cQtEXJWOdSnw7ahOOJc0MHsy7zA==";
         };
+        _V4pmMwhG = {
+            "id" = "V4pmMwhG";
+            "file" = "sleep-v4.4.0.0-paper.jar";
+            "hash" = "sha512-tGYAsTEvWCQp7w3M2es2jMnvQW2c55T9eacL/55ttiCHtx8lxra9v51iEjQ9CgXKroOPEzmO5eMkTjdzbvNVlw==";
+        };
     in {
         "xi1FgoXm" = _xi1FgoXm;
         "tc6sy4jH" = _tc6sy4jH;
@@ -770,6 +775,7 @@ let
         "FydWjivT" = _FydWjivT;
         "2c5gcyVi" = _2c5gcyVi;
         "qWXoHji5" = _qWXoHji5;
+        "V4pmMwhG" = _V4pmMwhG;
         "datapack-1.20.4" = _IiKEZZJ3;
         "datapack-1.20.5" = _vSIIAq02;
         "datapack-1.20.6" = _vSIIAq02;
@@ -892,6 +898,8 @@ let
         "neoforge-26.1.2" = _epDz3qzS;
         "neoforge-26.2" = _epDz3qzS;
         "neoforge-26.3" = _qWXoHji5;
+        "paper-26.3" = _V4pmMwhG;
+        "purpur-26.3" = _V4pmMwhG;
         "pkg-v.0.1.0" = _xi1FgoXm;
         "pkg-v.0.1.0+mod" = _tc6sy4jH;
         "pkg-v.0.2.0" = _AxJiFOLe;
@@ -1007,7 +1015,8 @@ let
         "pkg-v4.4.0+mod" = _FydWjivT;
         "pkg-v4.4.0.0" = _2c5gcyVi;
         "pkg-v4.4.0.0+mod" = _qWXoHji5;
-        "default" = _qWXoHji5;
+        "pkg-v4.4.0.0+plugin" = _V4pmMwhG;
+        "default" = _V4pmMwhG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep";

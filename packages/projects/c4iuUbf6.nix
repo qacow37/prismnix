@@ -131,6 +131,11 @@ let
             "file" = "call-your-cat-v2.2.0.0.jar";
             "hash" = "sha512-aqxF9DQRDke9ZvuRrZ6+mo2gJduvCL4+tMfC7lonhST6z460algRvXoiriOx8HKMilFTzWrtYqvWIaC1MkVBVQ==";
         };
+        _kWL7yXxO = {
+            "id" = "kWL7yXxO";
+            "file" = "call-your-cat-v2.2.0.0-paper.jar";
+            "hash" = "sha512-QMIn+NAcDEM3UyttW8hOQIepHT7u6aFpUw0SNBm1Bvr5EwcJRYsmpzR7Hxicjox0uphYm/byJLWnOITyzzTfdg==";
+        };
     in {
         "s3KIaQfZ" = _s3KIaQfZ;
         "to7fQKZY" = _to7fQKZY;
@@ -158,6 +163,7 @@ let
         "7Y7JJ1yQ" = _7Y7JJ1yQ;
         "gzjogJcb" = _gzjogJcb;
         "Q9pGvEOi" = _Q9pGvEOi;
+        "kWL7yXxO" = _kWL7yXxO;
         "datapack-1.21" = _OVnmVmYU;
         "datapack-1.21.1" = _OVnmVmYU;
         "datapack-1.21.2" = _OVnmVmYU;
@@ -243,6 +249,8 @@ let
         "quilt-26.1.2" = _DblLZrfh;
         "quilt-26.2" = _DblLZrfh;
         "quilt-26.3" = _Q9pGvEOi;
+        "paper-26.3" = _kWL7yXxO;
+        "purpur-26.3" = _kWL7yXxO;
         "pkg-v.1.0.0" = _s3KIaQfZ;
         "pkg-v.1.0.0+mod" = _to7fQKZY;
         "pkg-1.1.0" = _Ey1KyDeS;
@@ -265,7 +273,8 @@ let
         "pkg-v2.2.0+mod" = _7Y7JJ1yQ;
         "pkg-v2.2.0.0" = _gzjogJcb;
         "pkg-v2.2.0.0+mod" = _Q9pGvEOi;
-        "default" = _Q9pGvEOi;
+        "pkg-v2.2.0.0+plugin" = _kWL7yXxO;
+        "default" = _kWL7yXxO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "call-your-cat";

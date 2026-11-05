@@ -186,6 +186,11 @@ let
             "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7445-release.jar";
             "hash" = "sha512-/hZ60Q4NzW26dZ74/d8t+3IprFxGi/7SdJnwhsYNcc/lPt7h+RqXBaA5hNHqaT85Dah55PdkTy2xmfTNZxA2JA==";
         };
+        _SpTllUg0 = {
+            "id" = "SpTllUg0";
+            "file" = "MCT-ImmersiveTechnology-1.12.2-1.11.216-release.jar";
+            "hash" = "sha512-PqRiKvEnFkLPgIbawPl8wd1WMQ7qMBKDsmh71RM8vwjMai4N1eWV0ugR3V8eMADFw8WAaLBCXZERJaHJD/efUQ==";
+        };
     in {
         "tXe5H98I" = _tXe5H98I;
         "kgarTyrA" = _kgarTyrA;
@@ -224,7 +229,8 @@ let
         "9C302Zrd" = _9C302Zrd;
         "9jSbsdEx" = _9jSbsdEx;
         "2CVtjdpS" = _2CVtjdpS;
-        "forge-1.12.2" = _9C302Zrd;
+        "SpTllUg0" = _SpTllUg0;
+        "forge-1.12.2" = _SpTllUg0;
         "forge-1.20.1" = _2CVtjdpS;
         "pkg-1.8.94-release" = _tXe5H98I;
         "pkg-1.9.102-release" = _kgarTyrA;
@@ -263,7 +269,8 @@ let
         "pkg-1.11.215-release" = _9C302Zrd;
         "pkg-2.1.0-b7444-release" = _9jSbsdEx;
         "pkg-2.1.0-b7445-release" = _2CVtjdpS;
-        "default" = _2CVtjdpS;
+        "pkg-1.11.216-release" = _SpTllUg0;
+        "default" = _SpTllUg0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mct-immersive-technology";

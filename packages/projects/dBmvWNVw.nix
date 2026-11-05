@@ -71,6 +71,11 @@ let
             "file" = "locator-bar-removed-v1.1.0.0.jar";
             "hash" = "sha512-xa6fSXit9jqkk6LEXiZsQGfHtCbkC56oUTHZuABq/05v2InXHYBsJZazLZtfqEYHb21GABqNyfb3alEUOVkZuw==";
         };
+        _G6Styziq = {
+            "id" = "G6Styziq";
+            "file" = "locator-bar-removed-v1.1.0.0-paper.jar";
+            "hash" = "sha512-YI6HX6UXRpiAdIAF7kIhtvvy+9NN3ZwIdGbtbmRBY1R9qYpxO6/LLWpgJFNxikf4vJqEe1hFpaeUBPvXrFWurA==";
+        };
     in {
         "na7FiVQP" = _na7FiVQP;
         "rBFNYhKR" = _rBFNYhKR;
@@ -86,6 +91,7 @@ let
         "etPQArHk" = _etPQArHk;
         "qVDWfoJm" = _qVDWfoJm;
         "Y6yVG4wC" = _Y6yVG4wC;
+        "G6Styziq" = _G6Styziq;
         "datapack-1.21.6" = _5HiJxInj;
         "datapack-1.21.7" = _5HiJxInj;
         "datapack-1.21.8" = _5HiJxInj;
@@ -141,6 +147,8 @@ let
         "quilt-26.1.2" = _FfzSj54H;
         "quilt-26.2" = _FfzSj54H;
         "quilt-26.3" = _Y6yVG4wC;
+        "paper-26.3" = _G6Styziq;
+        "purpur-26.3" = _G6Styziq;
         "pkg-v1.0.0" = _na7FiVQP;
         "pkg-v1.0.0+mod" = _rBFNYhKR;
         "pkg-v1.0.1" = _jru8gVkd;
@@ -153,7 +161,8 @@ let
         "pkg-v1.1.0+mod" = _etPQArHk;
         "pkg-v1.1.0.0" = _qVDWfoJm;
         "pkg-v1.1.0.0+mod" = _Y6yVG4wC;
-        "default" = _Y6yVG4wC;
+        "pkg-v1.1.0.0+plugin" = _G6Styziq;
+        "default" = _G6Styziq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locator-bar-removed";

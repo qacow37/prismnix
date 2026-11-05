@@ -101,6 +101,11 @@ let
             "file" = "sleep-anytime-you-want-v1.1.1.jar";
             "hash" = "sha512-B7IZ5dYrjqGtLp4huSGuO4IRJZjpMlhB9v/dbVVTYJeNdE+f4kRSIRpStbp7nuA226hoEYn7HZ6FHvlUFxeKNw==";
         };
+        _jrhEnr7J = {
+            "id" = "jrhEnr7J";
+            "file" = "sleep-anytime-you-want-v1.1.1-paper.jar";
+            "hash" = "sha512-w1YzAtB5cR0htl/xBCvfwKBSIULHYiqYL8Dg2+GgF7El2smyVeW+q43UVVBNkJfsrehhtQlM1ihBvNgKVtWaBg==";
+        };
     in {
         "XvLU8W52" = _XvLU8W52;
         "Ils3VxfF" = _Ils3VxfF;
@@ -122,6 +127,7 @@ let
         "tmpIkunw" = _tmpIkunw;
         "IiJeA4IR" = _IiJeA4IR;
         "UFH04thC" = _UFH04thC;
+        "jrhEnr7J" = _jrhEnr7J;
         "datapack-1.21.11" = _bt6qoqAj;
         "datapack-26.1" = _bt6qoqAj;
         "datapack-1.21.6" = _bt6qoqAj;
@@ -177,6 +183,8 @@ let
         "quilt-26.1.2" = _FeE8fATU;
         "quilt-26.2" = _FeE8fATU;
         "quilt-26.3" = _UFH04thC;
+        "paper-26.3" = _jrhEnr7J;
+        "purpur-26.3" = _jrhEnr7J;
         "pkg-v1.0.0" = _HSEnq2eS;
         "pkg-v1.0.0+mod" = _GJRTjyu8;
         "pkg-v1.0.1" = _eUKeu2SE;
@@ -193,7 +201,8 @@ let
         "pkg-v1.1.0+mod" = _tmpIkunw;
         "pkg-v1.1.1" = _IiJeA4IR;
         "pkg-v1.1.1+mod" = _UFH04thC;
-        "default" = _UFH04thC;
+        "pkg-v1.1.1+plugin" = _jrhEnr7J;
+        "default" = _jrhEnr7J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-anytime-you-want";

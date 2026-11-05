@@ -31,6 +31,11 @@ let
             "file" = "sss-0.0.8.jar";
             "hash" = "sha512-0a8vgABgkhE54my29jR0Qkr1fYfGFHojvqXliCG/C5zbh14cnSl6uvyuBJziBeIioivCflyELW0lqWYi9yEZ/A==";
         };
+        _664YK0Lz = {
+            "id" = "664YK0Lz";
+            "file" = "sss-0.0.10.jar";
+            "hash" = "sha512-qsISc+Thr3czRjboNLracpc/AU+/0TOk+Yq25mZdJlmZ51lrScyvidF5ZA5T8OU4bldXAxuJkWtiUpjY6udvRQ==";
+        };
     in {
         "yWZ3K53p" = _yWZ3K53p;
         "20zXSYCS" = _20zXSYCS;
@@ -38,17 +43,20 @@ let
         "n7XuRRN2" = _n7XuRRN2;
         "XReEguIX" = _XReEguIX;
         "tnlAshmM" = _tnlAshmM;
+        "664YK0Lz" = _664YK0Lz;
         "fabric-1.21.10" = _PmKcmW2y;
         "fabric-1.21.11" = _n7XuRRN2;
         "fabric-26.1.2" = _XReEguIX;
         "fabric-26.2" = _tnlAshmM;
+        "fabric-26.3" = _664YK0Lz;
         "pkg-0.0.1" = _yWZ3K53p;
         "pkg-0.0.2" = _20zXSYCS;
         "pkg-0.0.3" = _PmKcmW2y;
         "pkg-0.0.5" = _n7XuRRN2;
         "pkg-0.0.6" = _XReEguIX;
         "pkg-0.0.8" = _tnlAshmM;
-        "default" = _tnlAshmM;
+        "pkg-0.0.10" = _664YK0Lz;
+        "default" = _664YK0Lz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadeandsaturation";

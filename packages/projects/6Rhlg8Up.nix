@@ -31,6 +31,11 @@ let
             "file" = "PMRCE-BETA RP 1.55.zip";
             "hash" = "sha512-ef2chEOdB/ClV1fFUvJmkIlVU/yaKZFTsgahQMVxWh0hPjaxGBEbP9f72IuTaFrIUrVxhSEAU3570GzSfLdjAg==";
         };
+        _yXYyouHr = {
+            "id" = "yXYyouHr";
+            "file" = "weather2-1.0.jar";
+            "hash" = "sha512-KPpbujtERzpr3nxJ9DS9UpcYeEuh6JXIKP6Gm32Fp7UO3UkSN+h8w6LcPb19RwtxC668bUg1QSZBXnqEVS8o7A==";
+        };
     in {
         "6BUe8Cjr" = _6BUe8Cjr;
         "Rw8A8hRU" = _Rw8A8hRU;
@@ -38,14 +43,16 @@ let
         "ZADmDwyo" = _ZADmDwyo;
         "qdLqSxoo" = _qdLqSxoo;
         "4ToIRK1i" = _4ToIRK1i;
+        "yXYyouHr" = _yXYyouHr;
         "minecraft-1.21.1" = _4ToIRK1i;
+        "neoforge-1.21.1" = _yXYyouHr;
         "pkg-0.1" = _6BUe8Cjr;
         "pkg-0.4" = _Rw8A8hRU;
         "pkg-0.8" = _vXFb3BeR;
-        "pkg-1.0" = _ZADmDwyo;
+        "pkg-1.0" = _yXYyouHr;
         "pkg-1.1" = _qdLqSxoo;
         "pkg-1.55" = _4ToIRK1i;
-        "default" = _4ToIRK1i;
+        "default" = _yXYyouHr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pm-extras";

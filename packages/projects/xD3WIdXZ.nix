@@ -66,6 +66,11 @@ let
             "file" = "neoforge_pctsmuk_1_21_1_1079_13062026_rr.jar";
             "hash" = "sha512-ux8PiTpU3tO/Dnq5ynLodwzMKxpEkv85WlRAQMYWeax5ppqf6K0gBXXXUxIMQdyE2xEBbM67JqLQKXyvNKls2w==";
         };
+        _7NC5N7Hp = {
+            "id" = "7NC5N7Hp";
+            "file" = "neoforge_pctsmuk_26_1_2_1079_28102026_rr.jar";
+            "hash" = "sha512-P/6/Wk0+Y3WqE6lkytfoIKysJEcSFpxllnueQJDDNJ1pryxOH/ntmsXbHsfdJaBkSI8E4CZA9DrPPYbfPkmpkg==";
+        };
     in {
         "RJ4n3txl" = _RJ4n3txl;
         "KasdeQCM" = _KasdeQCM;
@@ -80,6 +85,7 @@ let
         "zzjFtNtC" = _zzjFtNtC;
         "J0m4Nhgg" = _J0m4Nhgg;
         "POtEEhXf" = _POtEEhXf;
+        "7NC5N7Hp" = _7NC5N7Hp;
         "forge-1.19.2" = _RJ4n3txl;
         "forge-1.18.2" = _KasdeQCM;
         "forge-1.19.4" = _CjxzTHFL;
@@ -88,14 +94,15 @@ let
         "neoforge-1.21.1" = _POtEEhXf;
         "neoforge-1.21.4" = _zzjFtNtC;
         "neoforge-1.21.8" = _J0m4Nhgg;
+        "neoforge-26.1.2" = _7NC5N7Hp;
         "pkg-1.0.7.1" = _SPmiD1dV;
         "pkg-1.0.7.2.5" = _pPETuOrd;
         "pkg-1.0.7.5" = _UUPwb7N1;
         "pkg-1.0.7.6" = _xzfa52nH;
         "pkg-1.0.7.7" = _JapDipUE;
         "pkg-1.0.7.8" = _CINxqmHy;
-        "pkg-1.0.7.9" = _POtEEhXf;
-        "default" = _POtEEhXf;
+        "pkg-1.0.7.9" = _7NC5N7Hp;
+        "default" = _7NC5N7Hp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pacicraft";

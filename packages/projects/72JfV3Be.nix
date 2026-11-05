@@ -936,6 +936,21 @@ let
             "file" = "insanesurvivaloverhaul-5.14.1.0.jar";
             "hash" = "sha512-0b77PbdEenAL8hDGo5JVfgOCn5MLGCnx0xqNuz0VThl0/3/af9oSlScCd6jrvSrfw43Rj53sO5kLSQFyO5g9HQ==";
         };
+        _88RfLGYI = {
+            "id" = "88RfLGYI";
+            "file" = "insanesurvivaloverhaul-5.14.2.0.jar";
+            "hash" = "sha512-fXjgxMgySNzR4FWF/L6KYN8Ff/wrF919tLE3FyyFdJIpB3qO3W6RR+wPlkU56nV6alaxbsZSqVagic/TCh/9HQ==";
+        };
+        _ZAiQOq6J = {
+            "id" = "ZAiQOq6J";
+            "file" = "insanesurvivaloverhaul-5.14.2.1.jar";
+            "hash" = "sha512-u/HyhlYGJfQEsLJ1/8xfcthKn2RYRDxU8n+ZuI1AgIso1ifqTbXpGY51/bJXa7mdsZjkYN/hRJxgHO7sGFNgLg==";
+        };
+        _s3fiPVvT = {
+            "id" = "s3fiPVvT";
+            "file" = "insanesurvivaloverhaul-5.14.2.2.jar";
+            "hash" = "sha512-+5839poXKRd/bG6ev3qKb0k6f/gueqpgQgAaZOqHVYCFLEfupsx1h61gSPGpYTWPH7K9+6ihZkXWi5OYRXahOg==";
+        };
     in {
         "SzffhwC1" = _SzffhwC1;
         "pfzWiFvb" = _pfzWiFvb;
@@ -1124,13 +1139,16 @@ let
         "kVdCFOtE" = _kVdCFOtE;
         "VaQhshdr" = _VaQhshdr;
         "cgzq5x2R" = _cgzq5x2R;
+        "88RfLGYI" = _88RfLGYI;
+        "ZAiQOq6J" = _ZAiQOq6J;
+        "s3fiPVvT" = _s3fiPVvT;
         "forge-1.18.2" = _SzffhwC1;
         "forge-1.19.4" = _pfzWiFvb;
         "forge-1.20.1" = _VbQyyeJv;
         "forge-1.19.2" = _kpc80kKK;
         "forge-1.12.2" = _MCHmu8jt;
         "neoforge-1.20.1" = _WelTMcOS;
-        "neoforge-1.21.1" = _cgzq5x2R;
+        "neoforge-1.21.1" = _s3fiPVvT;
         "pkg-2.12.12" = _SzffhwC1;
         "pkg-2.15.0" = _pfzWiFvb;
         "pkg-3.7.1" = _PPvtsUVs;
@@ -1312,7 +1330,10 @@ let
         "pkg-5.13.2.0" = _kVdCFOtE;
         "pkg-5.14.0.0-beta" = _VaQhshdr;
         "pkg-5.14.1.0" = _cgzq5x2R;
-        "default" = _cgzq5x2R;
+        "pkg-5.14.2.0" = _88RfLGYI;
+        "pkg-5.14.2.1" = _ZAiQOq6J;
+        "pkg-5.14.2.2" = _s3fiPVvT;
+        "default" = _s3fiPVvT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iguanatweaks-reborn";

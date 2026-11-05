@@ -326,6 +326,56 @@ let
             "file" = "remnantminimaps-neoforge-26.3-2.0.0.jar";
             "hash" = "sha512-31gPcVrRRzQFYElsqnTqaUEh0FvWAyjr6xy9Ko2K6i15AF4jaZNt3LnVS4ItJB2lUQcw5RsfGjQH0K5eyyLkkQ==";
         };
+        _Ex9r7fqU = {
+            "id" = "Ex9r7fqU";
+            "file" = "remnantminimaps-fabric-1.20.1-2.0.1.jar";
+            "hash" = "sha512-Ma8tHyrXk/LnM9GpPrksaNCKdtJEsdMx/1nCzN5695jDqWpj2aJ2FHDdmco0aVbLSxZlSYwr0X5P+o4ip17bOw==";
+        };
+        _ygurG4u1 = {
+            "id" = "ygurG4u1";
+            "file" = "remnantminimaps-fabric-1.21.1-2.0.1.jar";
+            "hash" = "sha512-lD+1PyCY69Fku7KzJcAyNmHhVnE07g5eVjjFW3Cm7Ot9hPY2xJrXbC9WM5OgnJK6vlj5A6TK2D7kvXz/7//M0Q==";
+        };
+        _5iE7Le1z = {
+            "id" = "5iE7Le1z";
+            "file" = "remnantminimaps-fabric-26.1.2-2.0.1.jar";
+            "hash" = "sha512-ss3vV5O4eHwCK1U6YSa7qStHPTdP1rUtSW4rXpaKZmZjtICUQJiUJGvOrcGI4D8L99LqMe90INM9jLZL+PbCHQ==";
+        };
+        _wqbo7iVG = {
+            "id" = "wqbo7iVG";
+            "file" = "remnantminimaps-fabric-26.2-2.0.1.jar";
+            "hash" = "sha512-J9/OvXJQLyG2clb8I1mIRMR5Odw3zm+/xdaBdKQ8yjMiGq8KVtiO44pCAUbmygjzkQuFZa2M5WrPv1+0o6i3Fw==";
+        };
+        _K4PqkJxj = {
+            "id" = "K4PqkJxj";
+            "file" = "remnantminimaps-fabric-26.3-2.0.1.jar";
+            "hash" = "sha512-k16LGXb1DqErGH+5HhzsFo9ZWnIZGmSf6hbdQIHHP4EGUYUGoEv3zsW3k07+RcAHDbyirNmLQnnZvIMDcRVRrw==";
+        };
+        _3r1eojat = {
+            "id" = "3r1eojat";
+            "file" = "remnantminimaps-forge-1.20.1-2.0.1.jar";
+            "hash" = "sha512-DiKSbvGw7cX2uKOseF7ECdJVf4OduoiCxTzrWjs+Oi6CQduaNPlw996xAsjbiOVIZD47nKtS2uFP8nseTseW6g==";
+        };
+        _EQ1C0fV7 = {
+            "id" = "EQ1C0fV7";
+            "file" = "remnantminimaps-neoforge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-WsQ72MirmcpyYmF2CTTd1Azj5Y2k1OpczqhFjn5VmSf4gTF3pAmTYMukSwsdRg1iDILyVK1ZLDwKhQuj4CxRCQ==";
+        };
+        _qZftsGkh = {
+            "id" = "qZftsGkh";
+            "file" = "remnantminimaps-neoforge-26.1.2-2.0.1.jar";
+            "hash" = "sha512-FPaMnZ0c7AGKVDz4ao5rkrghzwOpGAXGK8GLViji2ZHtfEc0XTFgwtS6e94udcFG0KLUwATfG8cL4wtAdqwPeA==";
+        };
+        _NEXNPx70 = {
+            "id" = "NEXNPx70";
+            "file" = "remnantminimaps-neoforge-26.2-2.0.1.jar";
+            "hash" = "sha512-4a5XdKj+pxlN0fbgqSrEAIYeTlptFA0YAp7REphU6SYs8U5IamkVq7qJ/2wSMNRabPt32LndrFkLSm6GvcylAQ==";
+        };
+        _RgK36Xz0 = {
+            "id" = "RgK36Xz0";
+            "file" = "remnantminimaps-neoforge-26.3-2.0.1.jar";
+            "hash" = "sha512-1Af6QFvpe1cDrOQlIfHqlB/V4S25OOcNfnXe6p54N7y33vlWWjhYG4DtH6cIU3aUMPBEKSE72wYN+w+d1ayljQ==";
+        };
     in {
         "NZh3Kcle" = _NZh3Kcle;
         "MiJfrLhV" = _MiJfrLhV;
@@ -392,17 +442,27 @@ let
         "QCxt1U64" = _QCxt1U64;
         "EfBLqS86" = _EfBLqS86;
         "Ev3N6VOz" = _Ev3N6VOz;
-        "forge-1.20.1" = _P4lz6eV0;
+        "Ex9r7fqU" = _Ex9r7fqU;
+        "ygurG4u1" = _ygurG4u1;
+        "5iE7Le1z" = _5iE7Le1z;
+        "wqbo7iVG" = _wqbo7iVG;
+        "K4PqkJxj" = _K4PqkJxj;
+        "3r1eojat" = _3r1eojat;
+        "EQ1C0fV7" = _EQ1C0fV7;
+        "qZftsGkh" = _qZftsGkh;
+        "NEXNPx70" = _NEXNPx70;
+        "RgK36Xz0" = _RgK36Xz0;
+        "forge-1.20.1" = _3r1eojat;
         "neoforge-1.20.1" = _U6CayTIt;
-        "neoforge-1.21.1" = _QCxt1U64;
-        "neoforge-26.1.2" = _6e8fZ3Ks;
-        "neoforge-26.2" = _i8NTE3IC;
-        "neoforge-26.3" = _Ev3N6VOz;
-        "fabric-1.20.1" = _TGYcCAjx;
-        "fabric-1.21.1" = _2xhHgTNM;
-        "fabric-26.1.2" = _kCLIEOm4;
-        "fabric-26.2" = _HpQSiz0D;
-        "fabric-26.3" = _EfBLqS86;
+        "neoforge-1.21.1" = _EQ1C0fV7;
+        "neoforge-26.1.2" = _qZftsGkh;
+        "neoforge-26.2" = _NEXNPx70;
+        "neoforge-26.3" = _RgK36Xz0;
+        "fabric-1.20.1" = _Ex9r7fqU;
+        "fabric-1.21.1" = _ygurG4u1;
+        "fabric-26.1.2" = _5iE7Le1z;
+        "fabric-26.2" = _wqbo7iVG;
+        "fabric-26.3" = _K4PqkJxj;
         "pkg-1.0.0" = _2zRxrHTY;
         "pkg-1.1.0" = _ABK07U7C;
         "pkg-1.2.0" = _7Phx2kVC;
@@ -441,7 +501,17 @@ let
         "pkg-2.0.0+neoforge-1.21.1" = _QCxt1U64;
         "pkg-2.0.0+fabric-26.3" = _EfBLqS86;
         "pkg-2.0.0+neoforge-26.3" = _Ev3N6VOz;
-        "default" = _Ev3N6VOz;
+        "pkg-2.0.1+fabric-1.20.1" = _Ex9r7fqU;
+        "pkg-2.0.1+fabric-1.21.1" = _ygurG4u1;
+        "pkg-2.0.1+fabric-26.1.2" = _5iE7Le1z;
+        "pkg-2.0.1+fabric-26.2" = _wqbo7iVG;
+        "pkg-2.0.1+fabric-26.3" = _K4PqkJxj;
+        "pkg-2.0.1+forge-1.20.1" = _3r1eojat;
+        "pkg-2.0.1+neoforge-1.21.1" = _EQ1C0fV7;
+        "pkg-2.0.1+neoforge-26.1.2" = _qZftsGkh;
+        "pkg-2.0.1+neoforge-26.2" = _NEXNPx70;
+        "pkg-2.0.1+neoforge-26.3" = _RgK36Xz0;
+        "default" = _RgK36Xz0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remnants-minimap";

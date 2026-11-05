@@ -306,6 +306,11 @@ let
             "file" = "routers-1.21.1-1.2.0.jar";
             "hash" = "sha512-BcExR5NTwcJznk8HegIsYMpo+3YS/VzLC/2pxmFCf7RaRZvZhKAyUj+iBZgQ6uuMJd5q8QY/CjdqqwO/3HgeGg==";
         };
+        _EvHuXGUQ = {
+            "id" = "EvHuXGUQ";
+            "file" = "routers-26.1.2-2.14.4.jar";
+            "hash" = "sha512-D4u6GnzIKNhZ/MIH820uJM/OpoLprG31g3HMEvJ0fCZkNpQjPbyFO3vXVB4PJqzSzFxUQshzK2633iGWN0vG+g==";
+        };
     in {
         "jyfpJPdI" = _jyfpJPdI;
         "E2PWz4aV" = _E2PWz4aV;
@@ -368,6 +373,7 @@ let
         "AMENGW9u" = _AMENGW9u;
         "c7sAnPg8" = _c7sAnPg8;
         "WYEaS83k" = _WYEaS83k;
+        "EvHuXGUQ" = _EvHuXGUQ;
         "neoforge-1.21.1" = _WYEaS83k;
         "neoforge-1.21.2" = _jyfpJPdI;
         "neoforge-1.21.3" = _jyfpJPdI;
@@ -379,7 +385,7 @@ let
         "neoforge-1.21.11" = _viFzm5Zf;
         "neoforge-26.1" = _2Zt1IPZn;
         "neoforge-26.1.1" = _2Zt1IPZn;
-        "neoforge-26.1.2" = _c7sAnPg8;
+        "neoforge-26.1.2" = _EvHuXGUQ;
         "pkg-1.0.4" = _jyfpJPdI;
         "pkg-1.21.1-1.0.5" = _E2PWz4aV;
         "pkg-1.21.1-1.0.7" = _QaT8ZG3R;
@@ -432,7 +438,8 @@ let
         "pkg-26.1.2-2.14.1" = _AMENGW9u;
         "pkg-26.1.2-2.14.2" = _c7sAnPg8;
         "pkg-1.21.1-1.2.0" = _WYEaS83k;
-        "default" = _WYEaS83k;
+        "pkg-26.1.2-2.14.4" = _EvHuXGUQ;
+        "default" = _EvHuXGUQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-routers";

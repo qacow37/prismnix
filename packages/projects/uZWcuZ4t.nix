@@ -201,6 +201,21 @@ let
             "file" = "pyrellium-0.4.1-1.21.1-neo.jar";
             "hash" = "sha512-rvmECSJHIMg/cwRQkofZ4C5VCHO6G5R5WomHyrHp007isxXBG21kLI52+A84Y292eO3GcehnE0waLHK8S9wbWQ==";
         };
+        _cYrFzsU3 = {
+            "id" = "cYrFzsU3";
+            "file" = "pyrellium-0.4.2-1.20.1.jar";
+            "hash" = "sha512-9LB91N6LyIw1K7/cr2MG/wPAhU3eKtewv+EiAD/yqeXRL0RcBhZN6zsYkc3wSQgQBmF/MAQIBxwQTmblSyk7Nw==";
+        };
+        _Ozjvmz1k = {
+            "id" = "Ozjvmz1k";
+            "file" = "pyrellium-0.4.2-1.21.1.jar";
+            "hash" = "sha512-slEzNHMBssCRXdpK8pbbFYkVcekMVMx6Gz+vt/F8ayYzqp/t0LMCeHAxxe41yeWUPbMisS78ChXWSNvmAbfycg==";
+        };
+        _mJeHfXGd = {
+            "id" = "mJeHfXGd";
+            "file" = "pyrellium-0.4.2-1.21.11.jar";
+            "hash" = "sha512-Mp96Hagze9U6WCX+f/TE9ZzaYNLxyuetctkYK3SkjdpryYFH/PaG3NZQSVzyptgxlbaA7rBPJ/k/nQy7JlBdtQ==";
+        };
     in {
         "O80cldRU" = _O80cldRU;
         "mGZ2bZKj" = _mGZ2bZKj;
@@ -242,11 +257,14 @@ let
         "RvxgIuCr" = _RvxgIuCr;
         "tTzk7qb7" = _tTzk7qb7;
         "2HWSo38m" = _2HWSo38m;
-        "fabric-1.20.1" = _ECMGYgrW;
+        "cYrFzsU3" = _cYrFzsU3;
+        "Ozjvmz1k" = _Ozjvmz1k;
+        "mJeHfXGd" = _mJeHfXGd;
+        "fabric-1.20.1" = _cYrFzsU3;
         "fabric-1.20.2" = _nIElh6Nq;
         "fabric-1.20" = _KFELddCC;
-        "fabric-1.21.1" = _RvxgIuCr;
-        "fabric-1.21.11" = _tTzk7qb7;
+        "fabric-1.21.1" = _Ozjvmz1k;
+        "fabric-1.21.11" = _mJeHfXGd;
         "neoforge-1.21.1" = _2HWSo38m;
         "pkg-0.1.0" = _O80cldRU;
         "pkg-0.1.1" = _mGZ2bZKj;
@@ -288,7 +306,10 @@ let
         "pkg-0.4.1-1.21.1" = _RvxgIuCr;
         "pkg-0.4.1-1.21.11" = _tTzk7qb7;
         "pkg-0.4.1-1.21.1-neo" = _2HWSo38m;
-        "default" = _2HWSo38m;
+        "pkg-0.4.2-1.20.1" = _cYrFzsU3;
+        "pkg-0.4.2-1.21.1" = _Ozjvmz1k;
+        "pkg-0.4.2-1.21.11" = _mJeHfXGd;
+        "default" = _mJeHfXGd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pyrellium";

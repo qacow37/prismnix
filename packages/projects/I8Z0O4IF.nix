@@ -761,6 +761,41 @@ let
             "file" = "psycho_villagers-0.6.5.jar";
             "hash" = "sha512-wVJC8Ez8IkB4pn4ue+Kco0qv5Af2ovK7K5P8yxIOvH14fZjfEcVq27BA5iuTPKnk1h7w7nYwFMgQCAtBX/xPfg==";
         };
+        _YUTSSFwV = {
+            "id" = "YUTSSFwV";
+            "file" = "psycho_villagers-0.6.6.jar";
+            "hash" = "sha512-aGs1KUx2l27ewan9c6Wdx2oGes9iYQXlmob644Li86rROUHlBS9ni/H+oPYPqPZ80uE7AAAyEXj+WKZbR6yjbA==";
+        };
+        _nMzkF42B = {
+            "id" = "nMzkF42B";
+            "file" = "psycho_villagers-0.6.6.jar";
+            "hash" = "sha512-VgVFGC8yYgmsmOn6TljjdHvyuykYtL4o0w1vWYcb5THTOi1b4aCZzukis5iOauF9HUkuw6qa2y3yyIzBLG2CpQ==";
+        };
+        _Hnv3cRBR = {
+            "id" = "Hnv3cRBR";
+            "file" = "psycho_villagers-0.6.6.jar";
+            "hash" = "sha512-pOLpXIvYmsXdnMOrI519jW/7j7a86gkOtulKXboefFImVm0hhkKRmfUS+tWrG9/8Q+6U4rQ/y2NylU/b5WWYww==";
+        };
+        _y4BDRF84 = {
+            "id" = "y4BDRF84";
+            "file" = "psycho_villagers-0.6.6.jar";
+            "hash" = "sha512-EGF9DgOP+O4BHcu/3rbr1SKJO/e3k5t29I+rm2MxAR3puoB8Sv4h2yfkCjnGv0PoUiq8WZ37mw0C642b0xs19g==";
+        };
+        _xBk8yBOX = {
+            "id" = "xBk8yBOX";
+            "file" = "psycho_villagers-0.6.6.jar";
+            "hash" = "sha512-G3XNuxaBrt/Rd+G6LJA9pz3IsB/nQMXZMULuYGJxBs39p5iappINGx8QMLduam6HaGLqqpH2cpxc9iAIcIpieQ==";
+        };
+        _2JK04mzE = {
+            "id" = "2JK04mzE";
+            "file" = "psycho_villagers-0.6.6.jar";
+            "hash" = "sha512-e0MpLrETJBzAyv0wWAxB6vSotH6vlqeqEqylp5dyuyhXmzdNPAe9Wy1EnQC7w8DuJIYk7HPIoZ/3Hsf3M2kKhg==";
+        };
+        _p9ddjE5C = {
+            "id" = "p9ddjE5C";
+            "file" = "psycho_villagers-0.6.6.jar";
+            "hash" = "sha512-zxXj8mOPCcOKnhegGA3tfPC7n6BMIgwRQzcjM1QIBqVEOQU8aL3a8QhG23vofcWgS+1AATHIOxmSEucNSSZP6w==";
+        };
     in {
         "Dv0AFIVH" = _Dv0AFIVH;
         "Vvgklsx0" = _Vvgklsx0;
@@ -914,21 +949,28 @@ let
         "JlIOWpu0" = _JlIOWpu0;
         "cTwYek57" = _cTwYek57;
         "u2h82ylk" = _u2h82ylk;
-        "forge-1.20.1" = _KdfrkUms;
+        "YUTSSFwV" = _YUTSSFwV;
+        "nMzkF42B" = _nMzkF42B;
+        "Hnv3cRBR" = _Hnv3cRBR;
+        "y4BDRF84" = _y4BDRF84;
+        "xBk8yBOX" = _xBk8yBOX;
+        "2JK04mzE" = _2JK04mzE;
+        "p9ddjE5C" = _p9ddjE5C;
+        "forge-1.20.1" = _nMzkF42B;
         "forge-1.20.2" = _Vvgklsx0;
         "forge-1.20.3" = _Vvgklsx0;
         "forge-1.20.4" = _Vvgklsx0;
         "forge-1.20.5" = _Vvgklsx0;
         "forge-1.20.6" = _Vvgklsx0;
-        "forge-1.19.2" = _BPNhxCN9;
-        "neoforge-1.21.1" = _NIuAkzCT;
-        "neoforge-26.3" = _u2h82ylk;
-        "neoforge-26.1" = _JlIOWpu0;
-        "neoforge-26.1.1" = _JlIOWpu0;
-        "neoforge-26.1.2" = _JlIOWpu0;
-        "neoforge-26.2" = _cTwYek57;
-        "neoforge-1.21.11" = _pui7ZQTy;
-        "neoforge-1.20.1" = _BPHrKeZh;
+        "forge-1.19.2" = _YUTSSFwV;
+        "neoforge-1.21.1" = _Hnv3cRBR;
+        "neoforge-26.3" = _p9ddjE5C;
+        "neoforge-26.1" = _xBk8yBOX;
+        "neoforge-26.1.1" = _xBk8yBOX;
+        "neoforge-26.1.2" = _xBk8yBOX;
+        "neoforge-26.2" = _2JK04mzE;
+        "neoforge-1.21.11" = _y4BDRF84;
+        "neoforge-1.20.1" = _nMzkF42B;
         "pkg-0.1.5-fix" = _Dv0AFIVH;
         "pkg-0.1.6" = _oDsg0dID;
         "pkg-0.1.7" = _nEn7bJ4U;
@@ -984,7 +1026,8 @@ let
         "pkg-0.6.3" = _mnIJdsgo;
         "pkg-0.6.4" = _aUTIOsZz;
         "pkg-0.6.5" = _u2h82ylk;
-        "default" = _u2h82ylk;
+        "pkg-0.6.6" = _p9ddjE5C;
+        "default" = _p9ddjE5C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "psycho-villagers";

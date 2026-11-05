@@ -111,6 +111,11 @@ let
             "file" = "modernmarkings-0.3.13-1.7.10.jar";
             "hash" = "sha512-pQLJay5acnNdiHVz6OZKoYhZ2p4eG2D/YriBP18Ei/tCFM0Jr0cExs3OhFrbMei/0Bvnu3UjNiuvP2Ycfp1nYQ==";
         };
+        _lUTddM8Q = {
+            "id" = "lUTddM8Q";
+            "file" = "modernmarkings-0.4.0-1.7.10.jar";
+            "hash" = "sha512-kE2BawCUwCQPkAEt8KjdrKD9I0skkOWQp6aTx8HmIOVf9pQZw0VRVznEAMev4qa6MbLFRO4gD9/ogQVQqZ+GEA==";
+        };
     in {
         "OUS5ySfn" = _OUS5ySfn;
         "hvxvMVs1" = _hvxvMVs1;
@@ -134,9 +139,10 @@ let
         "9litZedm" = _9litZedm;
         "XA2b4xp4" = _XA2b4xp4;
         "ZtLBefGf" = _ZtLBefGf;
+        "lUTddM8Q" = _lUTddM8Q;
         "forge-1.20.1" = _XA2b4xp4;
         "forge-1.12.2" = _L5V22fjP;
-        "forge-1.7.10" = _ZtLBefGf;
+        "forge-1.7.10" = _lUTddM8Q;
         "pkg-0.1-1.20.1" = _OUS5ySfn;
         "pkg-0.2-1.20.1" = _hvxvMVs1;
         "pkg-0.3-1.20.1" = _ISsDW11u;
@@ -159,7 +165,8 @@ let
         "pkg-0.4.3-1.20.1" = _9litZedm;
         "pkg-0.4.4-1.20.1" = _XA2b4xp4;
         "pkg-0.3.13-1.7.10" = _ZtLBefGf;
-        "default" = _ZtLBefGf;
+        "pkg-0.4.0-1.7.10" = _lUTddM8Q;
+        "default" = _lUTddM8Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modernmarkings";

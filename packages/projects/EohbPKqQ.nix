@@ -491,6 +491,56 @@ let
             "file" = "BTA-fabric-1.0.0-beta.1+1.20.1.jar";
             "hash" = "sha512-jtR7uMqTMjRI9DQzixme6DiqFlwF1sAr5gCdJRqIISqfCI6QfA/OdlSMPHbn6+y22gG+wbDGu78FT9pYnNSCjw==";
         };
+        _3reoKtf1 = {
+            "id" = "3reoKtf1";
+            "file" = "BTA-fabric-1.0.0-beta.2+1.18.2.jar";
+            "hash" = "sha512-mF4ImARHcmOvCp0SEWKLwWG6BScx7ANf0cNflv4OEht7Rsw1/FEh6AsK9R6td0YA+Tiq0PE5pxzHLMyP1Y6wAg==";
+        };
+        _bTg0tQZE = {
+            "id" = "bTg0tQZE";
+            "file" = "BTA-fabric-1.0.0-beta.2+1.19.2.jar";
+            "hash" = "sha512-y0deLZctfpcQO3/D9BUVmDXbr6FIm0M9U4ECSRtV8anueGvWpQ9YbxG8AF8ljuIdRyWacjJW2sKyUMAMKVrvdQ==";
+        };
+        _DcHBsFel = {
+            "id" = "DcHBsFel";
+            "file" = "BTA-fabric-1.0.0-beta.2+1.19.4.jar";
+            "hash" = "sha512-NCYSjggi4/S9kSxnKHUMCbkkyqLPQawILcav2nqfKwhQ29/FpjJbE5uw9Z4ha0kEGmcJz9OaIIu17L1Ddfxd3g==";
+        };
+        _HqWPwQXP = {
+            "id" = "HqWPwQXP";
+            "file" = "BTA-fabric-1.0.0-beta.2+1.20.1.jar";
+            "hash" = "sha512-axjIaZn6y6Zx+o/yyJrmG3s7QC0Is95i089iPhbDIFfgXkI5Iy3szbxAfVQIr+s15rb21JOVRC+/P+JgMEEjxg==";
+        };
+        _nPPZz0Yr = {
+            "id" = "nPPZz0Yr";
+            "file" = "BTA-fabric-1.0.0-beta.2+1.20.4.jar";
+            "hash" = "sha512-84BjjtY2YlZEl5h+79FO6tPBeQDSlcE8e8SsvjX0RLbgrIERwd66lsznDU2VHtgVFf75wkvfHORiCruv2JMgOw==";
+        };
+        _JLJ8zJ53 = {
+            "id" = "JLJ8zJ53";
+            "file" = "BTA-forge-1.0.0-beta.2+1.18.2.jar";
+            "hash" = "sha512-4AY6qvUtRx89VCd+t3R+RFmJSMQZhAgzB9j41GCQU6ebEs0YAlHA3zfa0YQlP5hqEZs3FpsDf0hb7J5vIBdr3Q==";
+        };
+        _nxCQOYhW = {
+            "id" = "nxCQOYhW";
+            "file" = "BTA-forge-1.0.0-beta.2+1.19.2.jar";
+            "hash" = "sha512-HiWysGoxczFokHzc0DcmaTsHMKMf+BJsV5lykIt53jxoMWcbgc8sFTyNoLjxoih5xbOGZXptfZFZqCFbtlzusA==";
+        };
+        _Q1qK4nnR = {
+            "id" = "Q1qK4nnR";
+            "file" = "BTA-forge-1.0.0-beta.2+1.19.4.jar";
+            "hash" = "sha512-K/EZjko+f9bAzc7j+U6JnMj4hsS/+JxSx7bz6Nf5Zb6n9A+I5YiZQD0VXMmty6VcbBJcv0G3pi5sB3k9kfT5+g==";
+        };
+        _VVwk1hD0 = {
+            "id" = "VVwk1hD0";
+            "file" = "BTA-forge-1.0.0-beta.2+1.20.1.jar";
+            "hash" = "sha512-LnPx3ihykaZxa+lm0ofW5b25eHTsLzqUUTqJKr2cM+c3hmTvp8Ln+L4gDD+ZOsVzXHyGSBScu19zjOn05ziZsg==";
+        };
+        _uFYnydGx = {
+            "id" = "uFYnydGx";
+            "file" = "BTA-forge-1.0.0-beta.2+1.20.4.jar";
+            "hash" = "sha512-KecYO6hb01teGO8Gow4Np+lbiS9PMPfy1wFSPj8BkR174ypzAqdex7UGKvjvg81MjJx6wnnnKr7JmBSzGEp0Vg==";
+        };
     in {
         "va619q1G" = _va619q1G;
         "o1jvxEG6" = _o1jvxEG6;
@@ -590,20 +640,30 @@ let
         "kxpvB1a2" = _kxpvB1a2;
         "EXGYgoBl" = _EXGYgoBl;
         "6rFEDMKg" = _6rFEDMKg;
+        "3reoKtf1" = _3reoKtf1;
+        "bTg0tQZE" = _bTg0tQZE;
+        "DcHBsFel" = _DcHBsFel;
+        "HqWPwQXP" = _HqWPwQXP;
+        "nPPZz0Yr" = _nPPZz0Yr;
+        "JLJ8zJ53" = _JLJ8zJ53;
+        "nxCQOYhW" = _nxCQOYhW;
+        "Q1qK4nnR" = _Q1qK4nnR;
+        "VVwk1hD0" = _VVwk1hD0;
+        "uFYnydGx" = _uFYnydGx;
         "fabric-1.16.5" = _eft1BsVg;
         "fabric-1.17.1" = _UeI7wOaY;
-        "fabric-1.18.2" = _50lpcudv;
-        "fabric-1.19.2" = _EXGYgoBl;
-        "fabric-1.19.4" = _21s0EMXE;
-        "fabric-1.20.1" = _6rFEDMKg;
-        "fabric-1.20.4" = _oVfllgrL;
+        "fabric-1.18.2" = _3reoKtf1;
+        "fabric-1.19.2" = _bTg0tQZE;
+        "fabric-1.19.4" = _DcHBsFel;
+        "fabric-1.20.1" = _HqWPwQXP;
+        "fabric-1.20.4" = _nPPZz0Yr;
         "forge-1.16.5" = _n3BG8ry6;
         "forge-1.17.1" = _LGcuU3LC;
-        "forge-1.18.2" = _2Cf9ry5P;
-        "forge-1.19.2" = _gbgWnl7o;
-        "forge-1.19.4" = _V31i8CAz;
-        "forge-1.20.1" = _kxpvB1a2;
-        "forge-1.20.4" = _EtRybDKM;
+        "forge-1.18.2" = _JLJ8zJ53;
+        "forge-1.19.2" = _nxCQOYhW;
+        "forge-1.19.4" = _Q1qK4nnR;
+        "forge-1.20.1" = _VVwk1hD0;
+        "forge-1.20.4" = _uFYnydGx;
         "pkg-1.0.0-alpha.1" = _SifK6AY4;
         "pkg-1.0.0-alpha.2" = _tA58E4lS;
         "pkg-1.0.0-alpha.3" = _rr9Mxg0i;
@@ -613,7 +673,8 @@ let
         "pkg-1.0.0-alpha.7-h3" = _E3BpbQO9;
         "pkg-1.0.0-alpha.9" = _QBaLLzvZ;
         "pkg-1.0.0-beta.1" = _6rFEDMKg;
-        "default" = _6rFEDMKg;
+        "pkg-1.0.0-beta.2" = _uFYnydGx;
+        "default" = _uFYnydGx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bta";

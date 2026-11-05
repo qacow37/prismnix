@@ -291,6 +291,31 @@ let
             "file" = "ChunkyBorder-Fabric-1.2.69.jar";
             "hash" = "sha512-HZSzFgbyYd3XezvHqmxflW2En2pqgRURhvu6obNrF1ji3A+xXr/yBUvhYApoO/4OUFbr1FGns15Q90iUJSS/7Q==";
         };
+        _sDz2iIOx = {
+            "id" = "sDz2iIOx";
+            "file" = "ChunkyBorder-Bukkit-1.2.75.jar";
+            "hash" = "sha512-KpbQnHP2qyQii9CmMaRhNh9OhKmOzMR2HNFt4iC+hlULEmNpJ+w+e7e+0xvDf/6LcbsYXRqP+jdOuT/8qlQdjQ==";
+        };
+        _tLk074dt = {
+            "id" = "tLk074dt";
+            "file" = "ChunkyBorder-Paper-1.2.75.jar";
+            "hash" = "sha512-WQQGPPvM3bBYvLEV3KaxcTgHtLQJ3w3S0bJLyR2+kx0SbW7qH6kEOV4aTkXJBK5/SW+C+L3390XmUfP9Ueuulg==";
+        };
+        _A4fzWQRS = {
+            "id" = "A4fzWQRS";
+            "file" = "ChunkyBorder-Forge-1.2.75.jar";
+            "hash" = "sha512-MYedRnUucgVPyeU+oTVYymNgP14KJYCeNQTUopu8QjWzesPp8iYwUBCpXqo8pjUkB8w83E6EBElk74fCNTwkeQ==";
+        };
+        _RIJLlR3U = {
+            "id" = "RIJLlR3U";
+            "file" = "ChunkyBorder-NeoForge-1.2.75.jar";
+            "hash" = "sha512-0ikwBOGnNa6uMjle/9LVWkXWP0JF8v2JhzzBXliJbZFBtwF8QaLyhyNQFzdWCRJnK2Vp+1fKhVFwYfAYmmqBMw==";
+        };
+        _IUB4hZvg = {
+            "id" = "IUB4hZvg";
+            "file" = "ChunkyBorder-Fabric-1.2.75.jar";
+            "hash" = "sha512-calc656X1IUM7J4fFDvaOFX5R7A8fowzk/mNMmdZlu2nfbFO2zbFWdW6TEELoawnCK+D62M5knEIYdzwhMgShA==";
+        };
     in {
         "tF8jqzhj" = _tF8jqzhj;
         "uSDiDaN1" = _uSDiDaN1;
@@ -350,6 +375,11 @@ let
         "k1i5UoIG" = _k1i5UoIG;
         "n6IY0Hew" = _n6IY0Hew;
         "6tL1a1Os" = _6tL1a1Os;
+        "sDz2iIOx" = _sDz2iIOx;
+        "tLk074dt" = _tLk074dt;
+        "A4fzWQRS" = _A4fzWQRS;
+        "RIJLlR3U" = _RIJLlR3U;
+        "IUB4hZvg" = _IUB4hZvg;
         "fabric-1.18.2" = _tF8jqzhj;
         "fabric-1.19" = _99NnnI0G;
         "fabric-1.19.1" = _99NnnI0G;
@@ -379,6 +409,7 @@ let
         "fabric-26.1.1" = _eBLQwCdq;
         "fabric-26.1.2" = _eBLQwCdq;
         "fabric-26.2" = _6tL1a1Os;
+        "fabric-26.3" = _IUB4hZvg;
         "bukkit-1.14.4" = _uSDiDaN1;
         "bukkit-1.15" = _uSDiDaN1;
         "bukkit-1.15.1" = _uSDiDaN1;
@@ -418,10 +449,11 @@ let
         "bukkit-1.21.9" = _asaBBItO;
         "bukkit-1.21.10" = _asaBBItO;
         "bukkit-1.21.11" = _asaBBItO;
-        "bukkit-26.1" = _asaBBItO;
-        "bukkit-26.1.1" = _asaBBItO;
-        "bukkit-26.1.2" = _asaBBItO;
-        "bukkit-26.2" = _asaBBItO;
+        "bukkit-26.1" = _sDz2iIOx;
+        "bukkit-26.1.1" = _sDz2iIOx;
+        "bukkit-26.1.2" = _sDz2iIOx;
+        "bukkit-26.2" = _sDz2iIOx;
+        "bukkit-26.3" = _sDz2iIOx;
         "paper-1.14.4" = _uSDiDaN1;
         "paper-1.15" = _uSDiDaN1;
         "paper-1.15.1" = _uSDiDaN1;
@@ -461,10 +493,11 @@ let
         "paper-1.21.9" = _asaBBItO;
         "paper-1.21.10" = _asaBBItO;
         "paper-1.21.11" = _asaBBItO;
-        "paper-26.1" = _asaBBItO;
-        "paper-26.1.1" = _asaBBItO;
-        "paper-26.1.2" = _asaBBItO;
-        "paper-26.2" = _asaBBItO;
+        "paper-26.1" = _tLk074dt;
+        "paper-26.1.1" = _tLk074dt;
+        "paper-26.1.2" = _tLk074dt;
+        "paper-26.2" = _tLk074dt;
+        "paper-26.3" = _tLk074dt;
         "spigot-1.14.4" = _uSDiDaN1;
         "spigot-1.15" = _uSDiDaN1;
         "spigot-1.15.1" = _uSDiDaN1;
@@ -504,10 +537,11 @@ let
         "spigot-1.21.9" = _asaBBItO;
         "spigot-1.21.10" = _asaBBItO;
         "spigot-1.21.11" = _asaBBItO;
-        "spigot-26.1" = _asaBBItO;
-        "spigot-26.1.1" = _asaBBItO;
-        "spigot-26.1.2" = _asaBBItO;
-        "spigot-26.2" = _asaBBItO;
+        "spigot-26.1" = _sDz2iIOx;
+        "spigot-26.1.1" = _sDz2iIOx;
+        "spigot-26.1.2" = _sDz2iIOx;
+        "spigot-26.2" = _sDz2iIOx;
+        "spigot-26.3" = _sDz2iIOx;
         "folia-1.18" = _HZqViDYP;
         "folia-1.18.1" = _HZqViDYP;
         "folia-1.18.2" = _HZqViDYP;
@@ -535,10 +569,11 @@ let
         "folia-1.21.9" = _asaBBItO;
         "folia-1.21.10" = _asaBBItO;
         "folia-1.21.11" = _asaBBItO;
-        "folia-26.1" = _asaBBItO;
-        "folia-26.1.1" = _asaBBItO;
-        "folia-26.1.2" = _asaBBItO;
-        "folia-26.2" = _asaBBItO;
+        "folia-26.1" = _tLk074dt;
+        "folia-26.1.1" = _tLk074dt;
+        "folia-26.1.2" = _tLk074dt;
+        "folia-26.2" = _tLk074dt;
+        "folia-26.3" = _tLk074dt;
         "forge-1.20.2" = _MMxvps0n;
         "forge-1.20.3" = _MMxvps0n;
         "forge-1.20.4" = _MMxvps0n;
@@ -560,6 +595,7 @@ let
         "forge-26.1.1" = _lDXRSqjp;
         "forge-26.1.2" = _lDXRSqjp;
         "forge-26.2" = _k1i5UoIG;
+        "forge-26.3" = _A4fzWQRS;
         "neoforge-1.20.2" = _fJeD6cS2;
         "neoforge-1.20.3" = _fJeD6cS2;
         "neoforge-1.20.4" = _fJeD6cS2;
@@ -581,6 +617,7 @@ let
         "neoforge-26.1.1" = _VHcnQ3yx;
         "neoforge-26.1.2" = _DvakLQku;
         "neoforge-26.2" = _n6IY0Hew;
+        "neoforge-26.3" = _RIJLlR3U;
         "pkg-1.0.70" = _uSDiDaN1;
         "pkg-1.1.34" = _99NnnI0G;
         "pkg-1.1.42" = _t0j6tDfI;
@@ -605,7 +642,8 @@ let
         "pkg-1.2.67" = _eBLQwCdq;
         "pkg-1.2.68" = _DvakLQku;
         "pkg-1.2.69" = _6tL1a1Os;
-        "default" = _6tL1a1Os;
+        "pkg-1.2.75" = _IUB4hZvg;
+        "default" = _IUB4hZvg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chunkyborder";

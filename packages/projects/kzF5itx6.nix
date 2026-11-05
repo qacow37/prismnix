@@ -371,6 +371,11 @@ let
             "file" = "voltaic-1.21.1-1.2.2.jar";
             "hash" = "sha512-xLLQMNfWd9eLu3xhH01VCaFF5j3GFGKbxlLdmCHR46VoLUNE6FiXkb40BfZoiRf4TNinW/n8UJ55it9+zktpeg==";
         };
+        _WYa7j7wZ = {
+            "id" = "WYa7j7wZ";
+            "file" = "Voltaic-1.20.1-1.2.2.jar";
+            "hash" = "sha512-fdlnVnJApWhPFq0kSzvUZ3qAQMGjIfXkS2QxfLWpJdyEmpossp++zmfA2ILhV/Lr7LhVGIA6mHWWmAQTpDib3Q==";
+        };
     in {
         "sIxdMAU1" = _sIxdMAU1;
         "35ZFz57S" = _35ZFz57S;
@@ -446,9 +451,10 @@ let
         "ZqPGf1oJ" = _ZqPGf1oJ;
         "kSwYyVAn" = _kSwYyVAn;
         "WLEjmMuR" = _WLEjmMuR;
+        "WYa7j7wZ" = _WYa7j7wZ;
         "neoforge-1.21.1" = _WLEjmMuR;
-        "neoforge-1.20.1" = _gYoxJKWw;
-        "forge-1.20.1" = _gYoxJKWw;
+        "neoforge-1.20.1" = _WYa7j7wZ;
+        "forge-1.20.1" = _WYa7j7wZ;
         "forge-1.19.2" = _hcmjHpaC;
         "forge-1.18.2" = _EZ7BD2AL;
         "forge-1.16.5" = _TpUMhn0f;
@@ -524,7 +530,8 @@ let
         "pkg-1.21.1-1.2.0" = _ZqPGf1oJ;
         "pkg-1.21.1-1.2.1" = _kSwYyVAn;
         "pkg-1.21.1-1.2.2" = _WLEjmMuR;
-        "default" = _WLEjmMuR;
+        "pkg-1.20.1-1.2.2" = _WYa7j7wZ;
+        "default" = _WYa7j7wZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voltaic";

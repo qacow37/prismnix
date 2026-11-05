@@ -41,6 +41,41 @@ let
             "file" = "[ItemPhysic]3D Items-Vanillaism-26.3.zip";
             "hash" = "sha512-4bosyQNZg+YyefF4WoocFORJDStuJtm0cI82Rd67qgT7hxooFi71YvxKCp64+0UCwvmH9oMhKVvA87SVOZfRXA==";
         };
+        _6bXnj4Xe = {
+            "id" = "6bXnj4Xe";
+            "file" = "[ItemPhysic]3D Items-Vanillaism-1.16.5.zip";
+            "hash" = "sha512-1pULwGkiDWX/dFY/PgTI6zH9JspuhsmiBWFqld3MXHxisj5I8elj0xSZl/h+z42mTQ3Rp8q0IdwEs78A6eFRDA==";
+        };
+        _Hdjd7Rnu = {
+            "id" = "Hdjd7Rnu";
+            "file" = "[ItemPhysic]3D Items-Vanillaism-1.18.2.zip";
+            "hash" = "sha512-Hdnw0ss+iUOHhV5XabBMCQFMgO0pbVsfL3yx1xgURg6q08HU2YvMe2T7WOR+ld8n0VMaslTPwHN6aucTnp57+Q==";
+        };
+        _si6uwpOH = {
+            "id" = "si6uwpOH";
+            "file" = "[ItemPhysic]3D Items-Vanillaism-1.20.1.zip";
+            "hash" = "sha512-YKi7dJUrKhmmo757cP/wbE3NJW8no7fe7i7vHC0dByqvqlSo0hUaeDF8rUtv03zzRGKR68XZXjAp6HGeNwsVnw==";
+        };
+        _jTOszSVt = {
+            "id" = "jTOszSVt";
+            "file" = "[ItemPhysic]3D Items-Vanillaism-1.21.1.zip";
+            "hash" = "sha512-OW17GuUrsZO6KqH1kme+3w5vYMI/+aeq0Du9pe0iQoTq9+NwAiWNhxtIsxFw2UqMoORwSoVBwE9GJJgSjCkbCw==";
+        };
+        _CeJyKQz2 = {
+            "id" = "CeJyKQz2";
+            "file" = "[ItemPhysic]3D Items-Vanillaism-26.1.2.zip";
+            "hash" = "sha512-rEsLt8G8Ze+sUXFlG/yAh49tP8UFFJSdwRd566cgau/CAoeD+AaT4oqFjxmwJDxcVS0wtKqOVwUAXGa4IV7yHw==";
+        };
+        _9GX5xajJ = {
+            "id" = "9GX5xajJ";
+            "file" = "[ItemPhysic]3D Items-Vanillaism-26.2.zip";
+            "hash" = "sha512-LifKfxKcfmxD88EILl/j15MNvLj1rs0bexsbu269JR+Hq6IMN95jq2i1S4u9KG+v387nYCEgnKJIhY3BSakfMA==";
+        };
+        _6mL1QV2p = {
+            "id" = "6mL1QV2p";
+            "file" = "[ItemPhysic]3D Items-Vanillaism-26.3.zip";
+            "hash" = "sha512-F/hSQx0Ugxx6sw2K4Sn+U/HsUY+rnIQ3LzUhyeIjA1UxkuqQCOaShgzmJtBkbI2VExwMfW/bR1B49KnqVAmzHQ==";
+        };
     in {
         "JDvsTTBj" = _JDvsTTBj;
         "48iWfGA1" = _48iWfGA1;
@@ -50,21 +85,28 @@ let
         "C9Z0vM2w" = _C9Z0vM2w;
         "kLdYZ8cq" = _kLdYZ8cq;
         "lRzbu3pA" = _lRzbu3pA;
-        "minecraft-1.16.5" = _JDvsTTBj;
-        "minecraft-1.18.2" = _48iWfGA1;
-        "minecraft-1.20.1" = _m2KDDjnV;
-        "minecraft-1.21.1" = _oR7cSYyE;
-        "minecraft-26.1.2" = _hCWFbLIY;
-        "minecraft-26.2" = _C9Z0vM2w;
-        "minecraft-26.3" = _lRzbu3pA;
-        "pkg-1.16.5" = _JDvsTTBj;
-        "pkg-1.18.2" = _48iWfGA1;
-        "pkg-1.20.1" = _m2KDDjnV;
-        "pkg-1.21.1" = _oR7cSYyE;
-        "pkg-26.1.2" = _hCWFbLIY;
-        "pkg-26.2" = _C9Z0vM2w;
-        "pkg-26.3" = _lRzbu3pA;
-        "default" = _lRzbu3pA;
+        "6bXnj4Xe" = _6bXnj4Xe;
+        "Hdjd7Rnu" = _Hdjd7Rnu;
+        "si6uwpOH" = _si6uwpOH;
+        "jTOszSVt" = _jTOszSVt;
+        "CeJyKQz2" = _CeJyKQz2;
+        "9GX5xajJ" = _9GX5xajJ;
+        "6mL1QV2p" = _6mL1QV2p;
+        "minecraft-1.16.5" = _6bXnj4Xe;
+        "minecraft-1.18.2" = _Hdjd7Rnu;
+        "minecraft-1.20.1" = _si6uwpOH;
+        "minecraft-1.21.1" = _jTOszSVt;
+        "minecraft-26.1.2" = _CeJyKQz2;
+        "minecraft-26.2" = _9GX5xajJ;
+        "minecraft-26.3" = _6mL1QV2p;
+        "pkg-1.16.5" = _6bXnj4Xe;
+        "pkg-1.18.2" = _Hdjd7Rnu;
+        "pkg-1.20.1" = _si6uwpOH;
+        "pkg-1.21.1" = _jTOszSVt;
+        "pkg-26.1.2" = _CeJyKQz2;
+        "pkg-26.2" = _9GX5xajJ;
+        "pkg-26.3" = _6mL1QV2p;
+        "default" = _6mL1QV2p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemphysic3d-items-vanillaism";

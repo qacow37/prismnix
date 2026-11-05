@@ -41,6 +41,21 @@ let
             "file" = "jujutsurebalanced-1.0.4.99995.jar";
             "hash" = "sha512-XREeJ4/r8gKrR1TCqZBA7w7PgWaVUYCG4SzZ/yNfZXQparF6jgOB/Q5SHJB8xP5X9fwKwt6820NAIMwuYRy2rw==";
         };
+        _vaW61fo8 = {
+            "id" = "vaW61fo8";
+            "file" = "jujutsurebalanced-1.0.8.jar";
+            "hash" = "sha512-KCxCRs0LAvn640OhQUvplfQJlk3orvVvTxnZFHgwmHbuIuuk0In5nmARaUbYmBy1Y1lJfXEP03B36kKA3H3t4g==";
+        };
+        _91SOFDeo = {
+            "id" = "91SOFDeo";
+            "file" = "jujutsurebalanced-1.0.9.jar";
+            "hash" = "sha512-sv6RlJ7tMbjpVWEMX9T2AKe5ky6lgNbd4B0gt4x42d+ojeEGr42lTI1byBsQGytc48qNrjPOtlkiwE2JGn1DhQ==";
+        };
+        _EQGuIJfV = {
+            "id" = "EQGuIJfV";
+            "file" = "jujutsurebalanced-1.0.9.jar";
+            "hash" = "sha512-0XtabxtmunWNbJSkpuQIsDQvUg1kwJadSFX7M7jy4Uw7fM349LqvGS5QQm990mYFhzaqxhj7UUiqlyNdGGM71w==";
+        };
     in {
         "7g6JmOLy" = _7g6JmOLy;
         "lssm9AVo" = _lssm9AVo;
@@ -50,7 +65,10 @@ let
         "MjTO5Y7t" = _MjTO5Y7t;
         "y50hx1BB" = _y50hx1BB;
         "awyJ6G0h" = _awyJ6G0h;
-        "forge-1.20.1" = _awyJ6G0h;
+        "vaW61fo8" = _vaW61fo8;
+        "91SOFDeo" = _91SOFDeo;
+        "EQGuIJfV" = _EQGuIJfV;
+        "forge-1.20.1" = _EQGuIJfV;
         "forge-1.20.2" = _lssm9AVo;
         "forge-1.20.3" = _lssm9AVo;
         "forge-1.20.4" = _lssm9AVo;
@@ -64,7 +82,9 @@ let
         "pkg-1.0.4.999" = _MjTO5Y7t;
         "pkg-1.0.4.9999" = _y50hx1BB;
         "pkg-1.0.4.99995" = _awyJ6G0h;
-        "default" = _awyJ6G0h;
+        "pkg-1.0.8" = _vaW61fo8;
+        "pkg-1.0.9" = _EQGuIJfV;
+        "default" = _EQGuIJfV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jujutsu-rebalanced";

@@ -41,6 +41,16 @@ let
             "file" = "notsoshrimple-neoforge-1.21.1-2.3.2.jar";
             "hash" = "sha512-EbJ2vAQkXkIB8+Pp4NU3Vu7G06/cry0jegUf+6jtrGwfbn8X6xXGHb8L9AUO2OyIOy7uvXenueQ9qVJfBMBQNA==";
         };
+        _TxNkHWoZ = {
+            "id" = "TxNkHWoZ";
+            "file" = "notsoshrimple-neoforge-1.21.1-2.3.3.jar";
+            "hash" = "sha512-9LWcq7CEO+K7qsOXF4AZXcQfyvVod09VSq++oB9SKuGlfipWH2HqgToEvG8W2Xe+xKy8aQ/u5X9J0hkvVrnYyA==";
+        };
+        _nxFtyeIs = {
+            "id" = "nxFtyeIs";
+            "file" = "notsoshrimple-forge-1.20.1-2.3.3.jar";
+            "hash" = "sha512-EEbVEuKRpB09QHHlmS+SsV/Sh8bxAIhtnANPgFQz3Uj7lV/QJ+DXIvXNtZ6fSXnlKsRxS1OQDtbtwUkFFg93Dg==";
+        };
     in {
         "vw0jibzL" = _vw0jibzL;
         "gVh0sW64" = _gVh0sW64;
@@ -50,15 +60,18 @@ let
         "glbYRRKk" = _glbYRRKk;
         "7hLtozBJ" = _7hLtozBJ;
         "uqOCrGCk" = _uqOCrGCk;
-        "forge-1.20.1" = _7hLtozBJ;
-        "neoforge-1.21.1" = _uqOCrGCk;
+        "TxNkHWoZ" = _TxNkHWoZ;
+        "nxFtyeIs" = _nxFtyeIs;
+        "forge-1.20.1" = _nxFtyeIs;
+        "neoforge-1.21.1" = _TxNkHWoZ;
         "pkg-2.0.2" = _vw0jibzL;
         "pkg-2.1.0" = _gVh0sW64;
         "pkg-2.1.1" = _jGRDAPlu;
         "pkg-2.3.0" = _eQyTEhoJ;
         "pkg-2.3.1" = _glbYRRKk;
         "pkg-2.3.2" = _uqOCrGCk;
-        "default" = _uqOCrGCk;
+        "pkg-2.3.3" = _nxFtyeIs;
+        "default" = _nxFtyeIs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "not-so-shrimple-reshrimpled";

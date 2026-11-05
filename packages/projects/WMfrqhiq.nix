@@ -41,6 +41,11 @@ let
             "file" = "player-death-count-v1.0.1+1.16-1.20.1.jar";
             "hash" = "sha512-qjLFuqAMStINjK4KuJRW3NhUqCp5p0zW8ydJxbbU0QMz/5hfJh+WzZ/Y8cwiPTMZndHgHS3uHCCjfUJaSyGBMg==";
         };
+        _vbrV165z = {
+            "id" = "vbrV165z";
+            "file" = "player-death-count-v1.0.1-paper.jar";
+            "hash" = "sha512-a/qHEazdQb8uxj61PdIBb2Z94f17DrAroxs8kkmxU7Tr/VFIW7dNRN9egup2P42QogtmQdaTmEJuPgC7BFScjQ==";
+        };
     in {
         "jPaW0S2j" = _jPaW0S2j;
         "rvy0VDtQ" = _rvy0VDtQ;
@@ -50,6 +55,7 @@ let
         "lPakYUJI" = _lPakYUJI;
         "LElsF6pa" = _LElsF6pa;
         "5QuXNLKR" = _5QuXNLKR;
+        "vbrV165z" = _vbrV165z;
         "datapack-1.21.9" = _Z76KuxA2;
         "datapack-1.21.10" = _Z76KuxA2;
         "datapack-1.21.11" = _Z76KuxA2;
@@ -250,6 +256,22 @@ let
         "quilt-1.20" = _5QuXNLKR;
         "quilt-1.20.1" = _5QuXNLKR;
         "quilt-1.20.2" = _5QuXNLKR;
+        "paper-26.3" = _vbrV165z;
+        "paper-26.2" = _vbrV165z;
+        "paper-26.1.2" = _vbrV165z;
+        "paper-26.1.1" = _vbrV165z;
+        "paper-26.1" = _vbrV165z;
+        "paper-1.21.11" = _vbrV165z;
+        "paper-1.21.10" = _vbrV165z;
+        "paper-1.21.9" = _vbrV165z;
+        "purpur-26.3" = _vbrV165z;
+        "purpur-26.2" = _vbrV165z;
+        "purpur-26.1.2" = _vbrV165z;
+        "purpur-26.1.1" = _vbrV165z;
+        "purpur-26.1" = _vbrV165z;
+        "purpur-1.21.11" = _vbrV165z;
+        "purpur-1.21.10" = _vbrV165z;
+        "purpur-1.21.9" = _vbrV165z;
         "pkg-1.0.0" = _jPaW0S2j;
         "pkg-1.0.0+mod" = _rvy0VDtQ;
         "pkg-v1.0.1" = _Z76KuxA2;
@@ -258,7 +280,8 @@ let
         "pkg-v1.0.1+1.20.3-1.21.8+mod" = _lPakYUJI;
         "pkg-v1.0.1+1.16-1.20.1" = _LElsF6pa;
         "pkg-v1.0.1+1.16-1.20.1+mod" = _5QuXNLKR;
-        "default" = _5QuXNLKR;
+        "pkg-v1.0.1+plugin" = _vbrV165z;
+        "default" = _vbrV165z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-death-count";

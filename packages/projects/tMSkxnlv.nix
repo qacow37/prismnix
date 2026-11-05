@@ -26,21 +26,28 @@ let
             "file" = "ectolum-1.2.0+1.21.11.jar";
             "hash" = "sha512-JA/QHBmkw1dUWFR0l1kyUJDnWw/4XdprRlkyk/rMxho0K664b6PKuK95Br0bN+etde1rLeDtsku07/EuHn7Gxg==";
         };
+        _QDp8aUQF = {
+            "id" = "QDp8aUQF";
+            "file" = "ectolum-1.2.1+1.21.11.jar";
+            "hash" = "sha512-TA1H4aMdqsyt+8XgD3V100ee5tw1I4gq9LuZWZE77DZK0GoWyHeWP1VXWTBT6LEXhG6d/RkfEL2kRnmq0Gp25w==";
+        };
     in {
         "A2XuYfrZ" = _A2XuYfrZ;
         "lxRf1rTf" = _lxRf1rTf;
         "LdCvyibi" = _LdCvyibi;
         "NQtyNMXo" = _NQtyNMXo;
         "GMTuYK8e" = _GMTuYK8e;
+        "QDp8aUQF" = _QDp8aUQF;
         "fabric-1.20.1" = _lxRf1rTf;
         "fabric-1.21.1" = _LdCvyibi;
-        "fabric-1.21.11" = _GMTuYK8e;
+        "fabric-1.21.11" = _QDp8aUQF;
         "pkg-1.0.0" = _A2XuYfrZ;
         "pkg-1.1.0" = _lxRf1rTf;
         "pkg-1.1.0+1.21.1" = _LdCvyibi;
         "pkg-1.1.0+1.21.11" = _NQtyNMXo;
         "pkg-1.2.0+1.21.11" = _GMTuYK8e;
-        "default" = _GMTuYK8e;
+        "pkg-1.2.1+1.21.11" = _QDp8aUQF;
+        "default" = _QDp8aUQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ectoluminescence";

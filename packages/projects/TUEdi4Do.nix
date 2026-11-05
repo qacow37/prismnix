@@ -91,6 +91,11 @@ let
             "file" = "craft-music-discs-v2.1.0.0.jar";
             "hash" = "sha512-mGyil8HBhB4pnZIhaFXozmix1Cy2VqRRLWbtzBrGO4aYfL6wTHc+s6smKVDqc2PFkNAZNe1BbfXjDHkPKFB23A==";
         };
+        _nOCMNS6A = {
+            "id" = "nOCMNS6A";
+            "file" = "craft-music-discs-v2.1.0.0-paper.jar";
+            "hash" = "sha512-4HUDn4wU0dzlR99DvsT5KixVCFbUca+ICX675nV22CGhjZVwe+ejLCBkOmZ3S6JC2WPwAg6RwAMDm5MzLS+ZZA==";
+        };
     in {
         "dP2fNIca" = _dP2fNIca;
         "n7mOsq4j" = _n7mOsq4j;
@@ -110,6 +115,7 @@ let
         "a2cMQAAv" = _a2cMQAAv;
         "FSoftczB" = _FSoftczB;
         "rcIqmdDt" = _rcIqmdDt;
+        "nOCMNS6A" = _nOCMNS6A;
         "datapack-1.21" = _SVB41Fof;
         "datapack-1.21.1" = _SVB41Fof;
         "datapack-1.21.2" = _SVB41Fof;
@@ -186,6 +192,8 @@ let
         "neoforge-26.1.2" = _a2cMQAAv;
         "neoforge-26.2" = _a2cMQAAv;
         "neoforge-26.3" = _rcIqmdDt;
+        "paper-26.3" = _nOCMNS6A;
+        "purpur-26.3" = _nOCMNS6A;
         "pkg-v.1.0.0" = _ImjAUrk8;
         "pkg-v.1.0.0+mod" = _jAxzNEQJ;
         "pkg-v.1.1.0" = _SVB41Fof;
@@ -200,7 +208,8 @@ let
         "pkg-v2.0.2+mod" = _a2cMQAAv;
         "pkg-v2.1.0.0" = _FSoftczB;
         "pkg-v2.1.0.0+mod" = _rcIqmdDt;
-        "default" = _rcIqmdDt;
+        "pkg-v2.1.0.0+plugin" = _nOCMNS6A;
+        "default" = _nOCMNS6A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-music-discs";

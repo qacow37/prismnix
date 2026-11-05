@@ -16,26 +16,33 @@ let
             "file" = "stabilized-1.0.3.jar";
             "hash" = "sha512-vsI4mL5LSU/ub1LxqC+LEkkKZweumYf9X3PWYN7d+YEOuOee4dTolC4OT/5IWXCKHDdMlLrk5epXiVAvQEGL2g==";
         };
+        _QG4l5Fcw = {
+            "id" = "QG4l5Fcw";
+            "file" = "stabilized-1.0.3b.jar";
+            "hash" = "sha512-gPnZPcIZ+DT4uUTV9/9wlsxFL9SsBkErtxYUvFJZZrlhyz2EPA4EVhEQ31DnE76ZLYT1tlhWCutcnGtqGSArbA==";
+        };
     in {
         "jXmad72z" = _jXmad72z;
         "TioAC4ED" = _TioAC4ED;
         "hR5XqKOf" = _hR5XqKOf;
+        "QG4l5Fcw" = _QG4l5Fcw;
         "neoforge-1.21" = _jXmad72z;
-        "neoforge-1.21.1" = _hR5XqKOf;
-        "neoforge-1.21.2" = _hR5XqKOf;
-        "neoforge-1.21.3" = _hR5XqKOf;
-        "neoforge-1.21.4" = _hR5XqKOf;
-        "neoforge-1.21.5" = _hR5XqKOf;
-        "neoforge-1.21.6" = _hR5XqKOf;
-        "neoforge-1.21.7" = _hR5XqKOf;
-        "neoforge-1.21.8" = _hR5XqKOf;
-        "neoforge-1.21.9" = _hR5XqKOf;
-        "neoforge-1.21.10" = _hR5XqKOf;
-        "neoforge-1.21.11" = _hR5XqKOf;
+        "neoforge-1.21.1" = _QG4l5Fcw;
+        "neoforge-1.21.2" = _QG4l5Fcw;
+        "neoforge-1.21.3" = _QG4l5Fcw;
+        "neoforge-1.21.4" = _QG4l5Fcw;
+        "neoforge-1.21.5" = _QG4l5Fcw;
+        "neoforge-1.21.6" = _QG4l5Fcw;
+        "neoforge-1.21.7" = _QG4l5Fcw;
+        "neoforge-1.21.8" = _QG4l5Fcw;
+        "neoforge-1.21.9" = _QG4l5Fcw;
+        "neoforge-1.21.10" = _QG4l5Fcw;
+        "neoforge-1.21.11" = _QG4l5Fcw;
         "pkg-1.0.0" = _jXmad72z;
         "pkg-1.0.2" = _TioAC4ED;
         "pkg-1.0.3" = _hR5XqKOf;
-        "default" = _hR5XqKOf;
+        "pkg-1.0.3b" = _QG4l5Fcw;
+        "default" = _QG4l5Fcw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-stabilized";

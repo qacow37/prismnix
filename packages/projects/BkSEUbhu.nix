@@ -101,6 +101,21 @@ let
             "file" = "chikas_plants_mod-v1.0.3-1.21.1.jar";
             "hash" = "sha512-EUbsyPmuhqv5wffKiCBP2cnZPml8g243qWVbgKN5er2JJw+jQYKdcSRi2j84pV57G+0XDNuhc2TDCYU+HAT/yw==";
         };
+        _7nd6Tqu8 = {
+            "id" = "7nd6Tqu8";
+            "file" = "chikas_plants_mod-v1.2.0-1.19.2.jar";
+            "hash" = "sha512-wGWRTKxDQ/0zD+zGDOCRPxexcSWX4XtgExNjIvdEqvL8qkvXZIuSS5CS3iev1ZrrgOJKz2E3AHM4tOsTwuxCtA==";
+        };
+        _RcMy0M5T = {
+            "id" = "RcMy0M5T";
+            "file" = "chikas_plants_mod-v1.2.0-Forge-1.20.1.jar";
+            "hash" = "sha512-0has5MS9TUDWDlf51xf3hwv1g00BDGAXe+0tVfyJtAg2j3Ec60UIeSTnvmYg0iUu8ugQibYzfPxU4TqYGU4T2A==";
+        };
+        _HOuuVT9j = {
+            "id" = "HOuuVT9j";
+            "file" = "chikas_plants_mod-v1.2.0-1.21.1.jar";
+            "hash" = "sha512-raEyqqWzXll8Di33inqOnlB/1TuCHFUeaQtLuQTSlpE+1fgtHxP3KTkWAz8YztqvnROTbcIQB/zXP/Zhz3k3GA==";
+        };
     in {
         "VVdJmZNZ" = _VVdJmZNZ;
         "RkcJogJV" = _RkcJogJV;
@@ -122,9 +137,12 @@ let
         "v0UZig3u" = _v0UZig3u;
         "THbVpfqd" = _THbVpfqd;
         "HK2pNkHT" = _HK2pNkHT;
-        "forge-1.19.2" = _v0UZig3u;
-        "forge-1.20.1" = _THbVpfqd;
-        "neoforge-1.21.1" = _HK2pNkHT;
+        "7nd6Tqu8" = _7nd6Tqu8;
+        "RcMy0M5T" = _RcMy0M5T;
+        "HOuuVT9j" = _HOuuVT9j;
+        "forge-1.19.2" = _7nd6Tqu8;
+        "forge-1.20.1" = _RcMy0M5T;
+        "neoforge-1.21.1" = _HOuuVT9j;
         "pkg-v0.9.0-1.19.2" = _VVdJmZNZ;
         "pkg-v0.9.1-1.19.2" = _RkcJogJV;
         "pkg-v0.9.2-1.19.2" = _XMrDuQLl;
@@ -145,7 +163,10 @@ let
         "pkg-v1.0.2-1.19.2" = _v0UZig3u;
         "pkg-v1.1.4-1.20.1" = _THbVpfqd;
         "pkg-v1.0.3-1.21.1" = _HK2pNkHT;
-        "default" = _HK2pNkHT;
+        "pkg-v1.2.0-1.19.2" = _7nd6Tqu8;
+        "pkg-v1.2.0-1.20.1" = _RcMy0M5T;
+        "pkg-v1.2.0-1.21.1" = _HOuuVT9j;
+        "default" = _HOuuVT9j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chikas-plants-mod";

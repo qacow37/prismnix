@@ -26,20 +26,35 @@ let
             "file" = "shaderapi-2025.3.8-1.21.4.jar";
             "hash" = "sha512-ssHwFrJazjMuQ2FdAfSNl1aWRrIO14tS00UjZIcVLzGUcc2JyLY+zgdTS8o1EpeGOJnP/A1l9Laqz1PplLJXfA==";
         };
+        _wnXHxY9E = {
+            "id" = "wnXHxY9E";
+            "file" = "shaderapi-2026.11.4-26.3.jar";
+            "hash" = "sha512-SwY7sqjhNG34OWDQYYx920BSblLbpr7LvX2edz+mFM4Gx9JtggK/pcjPhqpNRhykhKrk5ajCazkhJVpRetmG1w==";
+        };
+        _re5vzc56 = {
+            "id" = "re5vzc56";
+            "file" = "shaderapi-2026.11.4.1-26.3.jar";
+            "hash" = "sha512-fP8pCZEQCGjsgPbII7mwh8Ea1mMivasphE0rvaTi9x08Hbzd5ElEG0W+cIuJ75aUhJRyWmwPgfrhM12d/AiUfg==";
+        };
     in {
         "4jRkbyMb" = _4jRkbyMb;
         "NtF6j1TU" = _NtF6j1TU;
         "RbBw7PGU" = _RbBw7PGU;
         "BtHKJwXz" = _BtHKJwXz;
         "W2i0IGHC" = _W2i0IGHC;
+        "wnXHxY9E" = _wnXHxY9E;
+        "re5vzc56" = _re5vzc56;
         "fabric-1.21" = _RbBw7PGU;
         "fabric-1.21.1" = _BtHKJwXz;
         "fabric-1.21.4" = _W2i0IGHC;
+        "fabric-26.3" = _re5vzc56;
         "pkg-1.21" = _4jRkbyMb;
         "pkg-1.21.1" = _NtF6j1TU;
         "pkg-2024.9.5" = _BtHKJwXz;
         "pkg-2025.3.8-1.21.4" = _W2i0IGHC;
-        "default" = _W2i0IGHC;
+        "pkg-2026.11.4-26.3" = _wnXHxY9E;
+        "pkg-2026.11.4.1-26.3" = _re5vzc56;
+        "default" = _re5vzc56;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shaderapi";

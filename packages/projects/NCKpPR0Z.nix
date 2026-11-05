@@ -756,6 +756,31 @@ let
             "file" = "Ecologics-NeoForge-1.21.1-2.3.9.jar";
             "hash" = "sha512-eYXjP0smHsZpPO6+8YIj7JX8iNyEp/g73VO4PdsWdeCAKr87QgjIikNxi4xAJG3vtoKETCafh6waifS8ddT7hw==";
         };
+        _y7mKIry5 = {
+            "id" = "y7mKIry5";
+            "file" = "Ecologics-Fabric-1.21.1-2.3.10.jar";
+            "hash" = "sha512-c3tO+lGXaFESgtOiRsHyKi3RxwWOVwRPNd4d0e5q9jN3AJpcsQB9uWNcD9LBnbirMewCENWNLi/nmig8T1F/jg==";
+        };
+        _mcsL5PBc = {
+            "id" = "mcsL5PBc";
+            "file" = "Ecologics-NeoForge-1.21.1-2.3.10.jar";
+            "hash" = "sha512-nbyQ101qlOAZp9eBh6q2biGuBu6LjxEtYVTL+qqWFcuzYGO85Z9Wc8rPqKsD4p8mS8LebyF7dNMjQebep7cYeg==";
+        };
+        _LncskfQo = {
+            "id" = "LncskfQo";
+            "file" = "Ecologics-Fabric-1.21.11-2.4.8.jar";
+            "hash" = "sha512-Zk023MnKhRRFAu5i3+Y3jWS96tC9NKHDmyZoXQ4+RR68Pkj/XHcW16zboFOVUpD1yub6pCp9MBUnGcqYqO58HQ==";
+        };
+        _mFzOTs8D = {
+            "id" = "mFzOTs8D";
+            "file" = "Ecologics-NeoForge-1.21.11-2.4.8.jar";
+            "hash" = "sha512-7WgUvX08sJhJKzFztnTWbiw5xFN5KvVGPLOo83TM0f1JW+L8ItBkmTXqhw7S2nWAYEWud+v1mpygGjz0CuQu8g==";
+        };
+        _NFmPPUo2 = {
+            "id" = "NFmPPUo2";
+            "file" = "Ecologics-NeoForge-1.21.1-2.3.10_1.jar";
+            "hash" = "sha512-DhYkRmyyaOWOaIlvY5jvgKiIHUz4VNL0UKZtY3LWhb108i2VVlbrLNfPS0oE1fthMOhE5jqc7XXJnDERvZYP9g==";
+        };
     in {
         "YX5CyxAZ" = _YX5CyxAZ;
         "3Zsi9mGq" = _3Zsi9mGq;
@@ -908,6 +933,11 @@ let
         "7t3hinz9" = _7t3hinz9;
         "NH16GI0P" = _NH16GI0P;
         "SJySxVHt" = _SJySxVHt;
+        "y7mKIry5" = _y7mKIry5;
+        "mcsL5PBc" = _mcsL5PBc;
+        "LncskfQo" = _LncskfQo;
+        "mFzOTs8D" = _mFzOTs8D;
+        "NFmPPUo2" = _NFmPPUo2;
         "forge-1.18.1" = _kC3xFh5w;
         "forge-1.18.2" = _soCWwgLU;
         "forge-1.19" = _n8IIJXsz;
@@ -922,15 +952,15 @@ let
         "fabric-1.19.2" = _U3ujHIrY;
         "fabric-1.19.3" = _6NHTZf2I;
         "fabric-1.20.1" = _BjQqWBo8;
-        "fabric-1.21.1" = _NH16GI0P;
-        "fabric-1.21.11" = _hsRvGp2m;
+        "fabric-1.21.1" = _y7mKIry5;
+        "fabric-1.21.11" = _LncskfQo;
         "fabric-26.1" = _wMAgOvu9;
         "fabric-26.1.1" = _wMAgOvu9;
         "fabric-26.1.2" = _wMAgOvu9;
         "fabric-26.2" = _he5EbsWb;
         "fabric-26.3" = _7t3hinz9;
-        "neoforge-1.21.1" = _SJySxVHt;
-        "neoforge-1.21.11" = _3JYBHW1y;
+        "neoforge-1.21.1" = _NFmPPUo2;
+        "neoforge-1.21.11" = _mFzOTs8D;
         "neoforge-26.1" = _wMAgOvu9;
         "neoforge-26.1.1" = _wMAgOvu9;
         "neoforge-26.1.2" = _wMAgOvu9;
@@ -1051,7 +1081,12 @@ let
         "pkg-2.7.2-NeoFab" = _7t3hinz9;
         "pkg-2.3.9-Fabric" = _NH16GI0P;
         "pkg-2.3.9-NeoForge" = _SJySxVHt;
-        "default" = _SJySxVHt;
+        "pkg-2.3.10-Fabric" = _y7mKIry5;
+        "pkg-2.3.10-NeoForge" = _mcsL5PBc;
+        "pkg-2.4.8-Fabric" = _LncskfQo;
+        "pkg-2.4.8-NeoForge" = _mFzOTs8D;
+        "pkg-2.3.10_1-NeoForge" = _NFmPPUo2;
+        "default" = _NFmPPUo2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecologics";

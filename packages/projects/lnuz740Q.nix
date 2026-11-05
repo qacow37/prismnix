@@ -26,13 +26,19 @@ let
             "file" = "create-optimized-trains-1.3.2.jar";
             "hash" = "sha512-UhIt4iRQ/blF7jBzpUjSlW/RrsaSs/U9p4L0MxyNZWEb0HAmHcnre+Lzk5XhUdQj3wdYmq6pgcL5IkntSux4hA==";
         };
+        _66myGMCC = {
+            "id" = "66myGMCC";
+            "file" = "create-optimized-trains-1.4.0.jar";
+            "hash" = "sha512-UiBc/qShY3pm8KDlui6/+O7+SEEmRUVGytIgGwOQPvKNumKcGFvEdYWOJDVcKzHt2FPPwNCVBpmNW0gkCaS85g==";
+        };
     in {
         "zVXRVxsd" = _zVXRVxsd;
         "zjxUX45a" = _zjxUX45a;
         "iSXQIF3R" = _iSXQIF3R;
         "B0JyMyQf" = _B0JyMyQf;
         "qpTbANDv" = _qpTbANDv;
-        "forge-1.20.1" = _qpTbANDv;
+        "66myGMCC" = _66myGMCC;
+        "forge-1.20.1" = _66myGMCC;
         "forge-1.20.2" = _qpTbANDv;
         "forge-1.20.3" = _qpTbANDv;
         "forge-1.20.4" = _qpTbANDv;
@@ -43,7 +49,8 @@ let
         "pkg-1.3.0" = _iSXQIF3R;
         "pkg-1.3.1" = _B0JyMyQf;
         "pkg-1.3.2" = _qpTbANDv;
-        "default" = _qpTbANDv;
+        "pkg-1.4.0_(1.20.1-C6.0.8)" = _66myGMCC;
+        "default" = _66myGMCC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-optimized-trains";

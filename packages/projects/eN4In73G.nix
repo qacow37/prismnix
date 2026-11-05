@@ -51,6 +51,11 @@ let
             "file" = "vss_market-1.0.7.jar";
             "hash" = "sha512-HgqoyQigNh2tEVd8n6PKIeLRSdJ3cals7lce5BUnL5iGviNYx/DhHzqDDFsZLOiz8hRMUshCkqKzo8pcH3l9DA==";
         };
+        _8G8uHCAN = {
+            "id" = "8G8uHCAN";
+            "file" = "ViScriptShop Market-forge-1.20.1-1.0.7.1.jar";
+            "hash" = "sha512-luaDCSrCcplUi290AkPIyDFVuTugGVdfNIkdKVxPh0OoO2YHc5kAxLuBALHMX1qre90SIY0ZoA3MQCKAsTpQXg==";
+        };
     in {
         "mWbTPqcI" = _mWbTPqcI;
         "lcfJ8AIq" = _lcfJ8AIq;
@@ -62,7 +67,9 @@ let
         "tGmajaLU" = _tGmajaLU;
         "iOT00JGu" = _iOT00JGu;
         "avQZl5d4" = _avQZl5d4;
+        "8G8uHCAN" = _8G8uHCAN;
         "neoforge-1.21.1" = _avQZl5d4;
+        "forge-1.20.1" = _8G8uHCAN;
         "pkg-1.0.0" = _mWbTPqcI;
         "pkg-1.0.1" = _lcfJ8AIq;
         "pkg-1.0.2" = _X7kflhpB;
@@ -73,7 +80,8 @@ let
         "pkg-1.0.6" = _tGmajaLU;
         "pkg-1.0.6fix" = _iOT00JGu;
         "pkg-1.0.7" = _avQZl5d4;
-        "default" = _avQZl5d4;
+        "pkg-forge-1.0.7.1" = _8G8uHCAN;
+        "default" = _8G8uHCAN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viscriptshop-market";

@@ -16,15 +16,29 @@ let
             "file" = "miningz-1.0.2.jar";
             "hash" = "sha512-PgmSZ57gThQKEYzYk/SNPqQX09UAwca8ItPSORhbYWemNYfHJWL/Jdn9TfvaM71p895lV/hAcP01bpt2NHdLVw==";
         };
+        _kg7xQi7e = {
+            "id" = "kg7xQi7e";
+            "file" = "miningz-1.0.3.jar";
+            "hash" = "sha512-eBV5oFMcD3KZ+W1Wae3dI+VGyS6hGVCQpXiR3HaXdTH4xnThMRQ0qPd+DyXcJQy0YCVkYChJTCfgMVkB6koSkQ==";
+        };
+        _6WJEK8ln = {
+            "id" = "6WJEK8ln";
+            "file" = "miningz-1.0.4.jar";
+            "hash" = "sha512-epamk1Kw1+18vlavEONnjaCJ2W/mhOrse9uKui1Ra19SmVcQsoWwUrtBfefR6m6u4l1l26VV3TXrUnUshK4t1Q==";
+        };
     in {
         "Fn4wfhUz" = _Fn4wfhUz;
         "3YT9ol8q" = _3YT9ol8q;
         "W9rwEITN" = _W9rwEITN;
-        "fabric-1.21.1" = _W9rwEITN;
+        "kg7xQi7e" = _kg7xQi7e;
+        "6WJEK8ln" = _6WJEK8ln;
+        "fabric-1.21.1" = _6WJEK8ln;
         "pkg-1.0.0" = _Fn4wfhUz;
         "pkg-1.0.1" = _3YT9ol8q;
         "pkg-1.0.2+1.21.1" = _W9rwEITN;
-        "default" = _W9rwEITN;
+        "pkg-1.0.3+1.21.1" = _kg7xQi7e;
+        "pkg-1.0.4+1.21.1" = _6WJEK8ln;
+        "default" = _6WJEK8ln;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "miningz";

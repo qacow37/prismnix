@@ -71,6 +71,11 @@ let
             "file" = "ClovSkins-fabric-1.0.0-alpha.7+mc26.2.jar";
             "hash" = "sha512-9WqH5USVy4hJJbkbRwT6bWbOtL2GKVnaogF3LXGEzzLxxTlO9x1fH5To+vIMBagUHr0HitYnSv3qjk04TXzLoA==";
         };
+        _aHLRDfTk = {
+            "id" = "aHLRDfTk";
+            "file" = "ClovSkins-fabric-1.0.0-alpha.8+mc26.3.jar";
+            "hash" = "sha512-tgkUz7O0dHqRtedWQWcWhaO3wy8YOQjLp5adFsz5kzYzxYhAtG50mWsUat0lKB0nsLkKfZGSQRjXm5yfKi0a5A==";
+        };
     in {
         "B9Kvzh74" = _B9Kvzh74;
         "NcZmk48j" = _NcZmk48j;
@@ -86,6 +91,7 @@ let
         "ChJJDCtH" = _ChJJDCtH;
         "sCci3Qbn" = _sCci3Qbn;
         "eRm0VjFF" = _eRm0VjFF;
+        "aHLRDfTk" = _aHLRDfTk;
         "fabric-1.21.3" = _4eSHtFAu;
         "fabric-1.21.4" = _MkqaajYv;
         "fabric-1.21.5" = _MkqaajYv;
@@ -95,10 +101,12 @@ let
         "fabric-1.21.9" = _sCci3Qbn;
         "fabric-1.21.10" = _sCci3Qbn;
         "fabric-26.2" = _eRm0VjFF;
+        "fabric-26.3" = _aHLRDfTk;
         "quilt-1.21.8" = _ChJJDCtH;
         "quilt-1.21.9" = _sCci3Qbn;
         "quilt-1.21.10" = _sCci3Qbn;
         "quilt-26.2" = _eRm0VjFF;
+        "quilt-26.3" = _aHLRDfTk;
         "pkg-1.0.0-alpha.2+mc1.21.3" = _B9Kvzh74;
         "pkg-1.0.0-alpha.2+mc1.21.5" = _NcZmk48j;
         "pkg-1.0.0-alpha.3" = _NMUojqpA;
@@ -107,7 +115,8 @@ let
         "pkg-1.0.0-alpha.5.1" = _8GwkhCrj;
         "pkg-1.0.0-alpha.6" = _sCci3Qbn;
         "pkg-1.0.0-alpha.7" = _eRm0VjFF;
-        "default" = _eRm0VjFF;
+        "pkg-1.0.0-alpha.8" = _aHLRDfTk;
+        "default" = _aHLRDfTk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clovskins";

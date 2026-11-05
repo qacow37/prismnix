@@ -156,6 +156,11 @@ let
             "file" = "Boosted-Brightness-Remastered-Forge-26.3-1.3.jar";
             "hash" = "sha512-p2GO2PNjv4YlyrSOhaFMPk6f8flmmvwf5v+63qwz1mZOMFKNzkujd5OqIRqF1bCv5SR2csfGD44SczR+zrECKA==";
         };
+        _yyOiB04O = {
+            "id" = "yyOiB04O";
+            "file" = "Boosted-Brightness-Remastered-Fabric-26.3-1.0.4.jar";
+            "hash" = "sha512-SYb5YwckRL+IZsGffJg+0+cm1zO2o3FX5gcwuOgSo3m9hRT+Wpoa1DRrrX2hni3f5Q2qZyeN/lGrr+v8DGVlwQ==";
+        };
     in {
         "IUNTm67v" = _IUNTm67v;
         "vYDMEsV3" = _vYDMEsV3;
@@ -188,6 +193,7 @@ let
         "A1j4lUrT" = _A1j4lUrT;
         "d4scSwA5" = _d4scSwA5;
         "m8qkYj7g" = _m8qkYj7g;
+        "yyOiB04O" = _yyOiB04O;
         "fabric-1.21" = _IUNTm67v;
         "fabric-1.21.1" = _IUNTm67v;
         "fabric-1.21.2" = _IUNTm67v;
@@ -198,7 +204,7 @@ let
         "fabric-26.1.1" = _onF6zUwB;
         "fabric-26.1.2" = _vwHwx707;
         "fabric-26.2" = _stH2Yok6;
-        "fabric-26.3" = _A1j4lUrT;
+        "fabric-26.3" = _yyOiB04O;
         "forge-1.21.1" = _RXJv8x2Z;
         "forge-1.20.1" = _8piHVj2e;
         "forge-1.21.10" = _kWrgux0M;
@@ -226,7 +232,8 @@ let
         "pkg-1.0.3" = _A1j4lUrT;
         "pkg-1.2" = _d4scSwA5;
         "pkg-1.3-forge-26.3" = _m8qkYj7g;
-        "default" = _m8qkYj7g;
+        "pkg-1.0.4" = _yyOiB04O;
+        "default" = _yyOiB04O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boosted-brightness-remastered";

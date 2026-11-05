@@ -31,6 +31,11 @@ let
             "file" = "core-companion-2.3.jar";
             "hash" = "sha512-qnfIzQEUhrqpWT+I5oKopDruMWKP7V4sBq0v80lC4pUqqAtcoeIXf5fAq4bbygx/2eM5B7IfDx++k3tMALoKtA==";
         };
+        _fGEE7xHz = {
+            "id" = "fGEE7xHz";
+            "file" = "core-companion-2.4.5-dev.26.3.jar";
+            "hash" = "sha512-lJMyhgKxQeyb0XItc+usembWMiRBYSgvdezBxcV8MM/eorZfLPHRZ9HIZMBroJqefD3O79RdLcyyg904Hx6exg==";
+        };
     in {
         "GNtJIoAM" = _GNtJIoAM;
         "JntwpCFB" = _JntwpCFB;
@@ -38,14 +43,17 @@ let
         "ROxbOmg2" = _ROxbOmg2;
         "QnF4TiiA" = _QnF4TiiA;
         "lS0ZQb4c" = _lS0ZQb4c;
+        "fGEE7xHz" = _fGEE7xHz;
         "fabric-1.21.8" = _QnF4TiiA;
         "fabric-1.21.11" = _lS0ZQb4c;
+        "fabric-26.3" = _fGEE7xHz;
         "pkg-1.0" = _GNtJIoAM;
         "pkg-2.0" = _JntwpCFB;
         "pkg-2.1.0" = _ROxbOmg2;
         "pkg-2.2.0" = _QnF4TiiA;
         "pkg-2.3" = _lS0ZQb4c;
-        "default" = _lS0ZQb4c;
+        "pkg-2.4.5" = _fGEE7xHz;
+        "default" = _fGEE7xHz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "core-companion";

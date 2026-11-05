@@ -1136,6 +1136,11 @@ let
             "file" = "UndeadNights-2.3.1-NeoForge-mc1.21.jar";
             "hash" = "sha512-Gc2nS2kRNyfqUZ0AGtr+2o8sL5bNaC4ubyT4K7/F6ShwSNam8H1iP4wfYMqc/1Gjj0tB8DAw19iN+KvDNN8jHA==";
         };
+        _7so8Uwzl = {
+            "id" = "7so8Uwzl";
+            "file" = "UndeadNights-2.2.7-NeoForge-mc26.3.jar";
+            "hash" = "sha512-GBLOIPB4PV5kLSEt22ed8sxs7YmvcUqs6A48Q49kc7yLC39Z326pktDBLgrf48BqQJWQD1vai0uIViUz/wJJeg==";
+        };
     in {
         "fXLCelOm" = _fXLCelOm;
         "PC41HyAB" = _PC41HyAB;
@@ -1364,6 +1369,7 @@ let
         "hXnSFPmW" = _hXnSFPmW;
         "DI7YGpJE" = _DI7YGpJE;
         "3HitqfUv" = _3HitqfUv;
+        "7so8Uwzl" = _7so8Uwzl;
         "fabric-1.20.1" = _2x9biGmj;
         "fabric-1.20" = _2x9biGmj;
         "fabric-1.21" = _I0RTmgRq;
@@ -1419,7 +1425,7 @@ let
         "neoforge-26.1.1" = _a0Lh4LC0;
         "neoforge-26.1.2" = _a0Lh4LC0;
         "neoforge-26.2" = _dUVxg7wz;
-        "neoforge-26.3" = _hXnSFPmW;
+        "neoforge-26.3" = _7so8Uwzl;
         "pkg-0.8.0-Fabric-mc1.20.1" = _fXLCelOm;
         "pkg-0.8.2-Fabric-mc1.20.1" = _PC41HyAB;
         "pkg-0.8.2-Fabric-mc1.21" = _ME2esolk;
@@ -1647,7 +1653,8 @@ let
         "pkg-2.2.6-NeoForge-mc26.3" = _hXnSFPmW;
         "pkg-2.2.6-Forge-mc26.3" = _DI7YGpJE;
         "pkg-2.3.1-NeoForge-mc1.21" = _3HitqfUv;
-        "default" = _3HitqfUv;
+        "pkg-2.2.7-NeoForge-mc26.3" = _7so8Uwzl;
+        "default" = _7so8Uwzl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "undead-nights";

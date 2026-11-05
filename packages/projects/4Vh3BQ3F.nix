@@ -186,6 +186,11 @@ let
             "file" = "l2library-3.0.9.jar";
             "hash" = "sha512-4TqqIgO0uSfqlG7z0PXT/bAGF5/UHoy2wb0eBkIViKq4r29glhUKo/AdMuMKPcPFRs63HZf91v/HtHa1S7tudA==";
         };
+        _tmLrL542 = {
+            "id" = "tmLrL542";
+            "file" = "l2library-3.0.10.jar";
+            "hash" = "sha512-jPbdUd4DFkQYLpRfYFluFLZOuBWM90s0FaywGzAX8cOldKl6MwbdY+yhwHON+gEaxTD319uhjY0ptdpfQsOW8g==";
+        };
     in {
         "bdPg3d8F" = _bdPg3d8F;
         "Fg8fOD7y" = _Fg8fOD7y;
@@ -224,11 +229,12 @@ let
         "CE92Otiu" = _CE92Otiu;
         "PyLePDWI" = _PyLePDWI;
         "7GS7JBkX" = _7GS7JBkX;
+        "tmLrL542" = _tmLrL542;
         "forge-1.19.2" = _tCOk76vP;
         "forge-1.20.1" = _PyLePDWI;
         "neoforge-1.20.1" = _PyLePDWI;
         "neoforge-1.21" = _iTh5chQW;
-        "neoforge-1.21.1" = _7GS7JBkX;
+        "neoforge-1.21.1" = _tmLrL542;
         "neoforge-26.1.2" = _CE92Otiu;
         "pkg-1.8.5" = _bdPg3d8F;
         "pkg-1.9.2" = _Fg8fOD7y;
@@ -267,7 +273,8 @@ let
         "pkg-26.1.2.1+2" = _CE92Otiu;
         "pkg-2.5.5" = _PyLePDWI;
         "pkg-3.0.9" = _7GS7JBkX;
-        "default" = _7GS7JBkX;
+        "pkg-3.0.10" = _tmLrL542;
+        "default" = _tmLrL542;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "l2library";

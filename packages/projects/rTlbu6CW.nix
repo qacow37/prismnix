@@ -291,6 +291,151 @@ let
             "file" = "resourcepacksettings-1.2.35+26.3.jar";
             "hash" = "sha512-Qio3P59LtNl9p+R0D/PMa9S4M3M6QzkSCw9wQ5eIYHxZ2m/D/dfYBR7U684EDRzWNG6vIKKM0s4j08xo0W+49w==";
         };
+        _En0TJC3f = {
+            "id" = "En0TJC3f";
+            "file" = "resourcepacksettings-1.2.38+1.19.jar";
+            "hash" = "sha512-hk/RYzY6zYTh3gD+WlvLnb9Jyy12ghfjoD2i3N2ZuJKF61h5BJeaoMM6hqk67qdxzdXnwFnRoqyRHlBIQ6GtUw==";
+        };
+        _oVsZDuzt = {
+            "id" = "oVsZDuzt";
+            "file" = "resourcepacksettings-1.2.38+1.19.1.jar";
+            "hash" = "sha512-THbW2YLUIXNfbZ3aSbWkzNoDmCmAE1ZnrM/2elcNbmIazN69dBgvdc6p9F8BLqfxoRusB5nvknhzMipf6GNDTg==";
+        };
+        _Mtl6VVmq = {
+            "id" = "Mtl6VVmq";
+            "file" = "resourcepacksettings-1.2.38+1.19.2.jar";
+            "hash" = "sha512-MKaHesm1XsVUiWKXvs4YAx6WBR/R6WaDc6t6DKOZ6/nEmfaAsJOmqIR0t2352dI0fHfT9DcZHYbw8SPEl+yI8w==";
+        };
+        _KpLHB5ok = {
+            "id" = "KpLHB5ok";
+            "file" = "resourcepacksettings-1.2.38+1.19.3.jar";
+            "hash" = "sha512-oJyCDyY+zRmI7NQjVZQn1zz4hy57YN49c68SvTH8r1mzydNsWaIXorO15cE13LuLI0IrxznC13ff5C72DGwsbw==";
+        };
+        _VCKnk9rN = {
+            "id" = "VCKnk9rN";
+            "file" = "resourcepacksettings-1.2.38+1.19.4.jar";
+            "hash" = "sha512-Z+Qexb42eo+02naawhQFqrv6kfi3bezUMAFgSquZ6X8+SclsmNnwnVfGDVeNDla5daLq5/cFcPKR8tLUynBIww==";
+        };
+        _8H9jNmzz = {
+            "id" = "8H9jNmzz";
+            "file" = "resourcepacksettings-1.2.38+1.20.jar";
+            "hash" = "sha512-tiuEZQKN49i2ozoG4kURGZvaxoWYnGtV7KHn1Wd4bfJPgtm6nPIx3G67VK1ZLVfWngMwrdDFd6q7bMjwQyIX/Q==";
+        };
+        _oCWynr1S = {
+            "id" = "oCWynr1S";
+            "file" = "resourcepacksettings-1.2.38+1.20.1.jar";
+            "hash" = "sha512-mOQBgeIGKtR1VxWnYEsnyP+RqfIhK/RjPDQIbGN/GTW3q/S92hk/wZ1dzXjkgQhFMc2feWiclCdEWx53cdiMWQ==";
+        };
+        _o1yOvDbj = {
+            "id" = "o1yOvDbj";
+            "file" = "resourcepacksettings-1.2.38+1.20.2.jar";
+            "hash" = "sha512-hJHoiiPRimv/hvzh6Pb9vG0+/4+p6SVID0gA6713YPkTG8sQNcSImN5dkDNBqi/slOTCzKnpyKnJMGyJRbwslA==";
+        };
+        _ShD8Fkzk = {
+            "id" = "ShD8Fkzk";
+            "file" = "resourcepacksettings-1.2.38+1.20.3.jar";
+            "hash" = "sha512-8xsaZVQIGRZfzrMOyFHv1UgHtkCOFulcsn+nWhoBmRQhutDCO8Dv3Z1735pTygcQnM0ABqQ0dcyTAzOeHK7onA==";
+        };
+        _K3nQWmtL = {
+            "id" = "K3nQWmtL";
+            "file" = "resourcepacksettings-1.2.38+1.20.4.jar";
+            "hash" = "sha512-Yfg7xhx6+plLbuoKoOaLRgq8CPTHqV4WH1160q3tJmZt98xUhy/GlsgbOPetGOv9O90IBq2t6M0VAaTATLDJNw==";
+        };
+        _AErPP14Q = {
+            "id" = "AErPP14Q";
+            "file" = "resourcepacksettings-1.2.38+1.20.5.jar";
+            "hash" = "sha512-1C7wrb8EVamJLm4+3B/f8W7kXh+87l5A23naapsvjbDXK5tGhRzUdFo8cXJdKXZcQX71eaYwrxvmd7uVsY9wrg==";
+        };
+        _lfvbMMMA = {
+            "id" = "lfvbMMMA";
+            "file" = "resourcepacksettings-1.2.38+1.20.6.jar";
+            "hash" = "sha512-Kx7dos7HqN6owyRbAlpYmxaN5TGJlWqQo2/56pf1hwcv8swbbRtANMMI0wqae3lpFqvXyTVJbhmBxCgYO9wwUw==";
+        };
+        _JZ1cVyRh = {
+            "id" = "JZ1cVyRh";
+            "file" = "resourcepacksettings-1.2.38+1.21.jar";
+            "hash" = "sha512-OIrpEkVaH6Fg/RL+JCtQF9htV08pmS3Maqk62X1dJ5+zkQZ2wnvXY2iiQkImTUiHZhBoogTLnM+wFiZJPbUeuw==";
+        };
+        _BLhghvUD = {
+            "id" = "BLhghvUD";
+            "file" = "resourcepacksettings-1.2.38+1.21.1.jar";
+            "hash" = "sha512-4YeolTmjVs0Tvs0b5nWFx5wbMaLOiIkgYjEW5pIRj9KYgxafuc2dGfU0Q0zj+pBZnDe005grkBFPsyNejSaQKQ==";
+        };
+        _rGfJZzdw = {
+            "id" = "rGfJZzdw";
+            "file" = "resourcepacksettings-1.2.38+1.21.2.jar";
+            "hash" = "sha512-sTxWb4sG4g3HpOQ12UYwckwDJI+Fa2mbF5Zui39siK/vtDqVOaUN+SgkwC6p2dzWKYrH0fuCphPutK1blj+PdQ==";
+        };
+        _BhsmLKnP = {
+            "id" = "BhsmLKnP";
+            "file" = "resourcepacksettings-1.2.38+1.21.3.jar";
+            "hash" = "sha512-0C9p21r/aNeG96aR/Xo+yZPZp+LjGuU+J+vIk6gwn+/CnmGa8sig3gD9qFNPrB3/zsJsCRLAY0b7SIqzWH8Hdg==";
+        };
+        _vGaraOjZ = {
+            "id" = "vGaraOjZ";
+            "file" = "resourcepacksettings-1.2.38+1.21.4.jar";
+            "hash" = "sha512-6VfMOaevcy665veWDVCrcLTLvmdYGt0fP2jvoPWxMvOVitUa8KOxZS21l2FrBq/rQMOLypXQC+/WLLtBf4cdQA==";
+        };
+        _xufcmDOu = {
+            "id" = "xufcmDOu";
+            "file" = "resourcepacksettings-1.2.38+1.21.5.jar";
+            "hash" = "sha512-iYQplFK/l7PoIZRvTau8OqbOspY6LEr82F5/rlKJmwesd+qchGz+EJZuyF/sFnBqBZjvT8o3Y6nOaLxcQ06vJA==";
+        };
+        _eex7FRev = {
+            "id" = "eex7FRev";
+            "file" = "resourcepacksettings-1.2.38+1.21.6.jar";
+            "hash" = "sha512-6X/zmkFE8GOPNhjrdB6RuXghEnbsm6OhjQYZVeGm9Lne4r1eAJ1YWQnLpeacYKgwQNVOfCJKhcYbXopWY09JbA==";
+        };
+        _LkKtLE0S = {
+            "id" = "LkKtLE0S";
+            "file" = "resourcepacksettings-1.2.38+1.21.7.jar";
+            "hash" = "sha512-DcK9BgYbCNdXUybl6nXRgY29qHCJ0Z5TqQL+WozyNI6Nf2JzG60at/WyLiPuDTvkoGTBpaUJxaZKC2VQ4osRJg==";
+        };
+        _NIqMESF8 = {
+            "id" = "NIqMESF8";
+            "file" = "resourcepacksettings-1.2.38+1.21.8.jar";
+            "hash" = "sha512-Bnrpdpkr+bAM0OqZpdZDccOztwBaQOU6rnqaa79IwFmxk7BmQYt/MWqYEXlZlg+hi5beXHojKyrKnVgbOmMEUg==";
+        };
+        _3YyGG5Zd = {
+            "id" = "3YyGG5Zd";
+            "file" = "resourcepacksettings-1.2.38+1.21.9.jar";
+            "hash" = "sha512-kEkCMb8zi+vWqAxTjtflw9QTGTHIcjEROyh2zpoek3JVNmhk3C0DjFt2anxLszO8A9ev3vPMHqcgxTidWUaUtg==";
+        };
+        _sO2e7r4j = {
+            "id" = "sO2e7r4j";
+            "file" = "resourcepacksettings-1.2.38+1.21.10.jar";
+            "hash" = "sha512-B02BWOKRujGoUNcLk/b9X/Xn8m/tzOuQOcpMgq2qAKQz9e1aBinjKgWhlK8AEo3Xa3SafwzLuS6DMsW7uqqFOA==";
+        };
+        _uxRz3CG7 = {
+            "id" = "uxRz3CG7";
+            "file" = "resourcepacksettings-1.2.38+1.21.11.jar";
+            "hash" = "sha512-jhhhp4hknvBUIohcM8H2LrVWMliYLUX3BCeTrI48FX9usnjMcZCzW6WArxOb1KLEPTaql18b3G9lkTvmma9IXg==";
+        };
+        _28Xusy8s = {
+            "id" = "28Xusy8s";
+            "file" = "resourcepacksettings-1.2.38+26.1.jar";
+            "hash" = "sha512-lMjTbdIooOEwVS0NotIZN2BnFdHvTsmIlxTR8YKm+6/ZSLICNpdiJqs0eL0dJK8YWb3TwFLMDBYVSDANxOmtTQ==";
+        };
+        _6wX76HxV = {
+            "id" = "6wX76HxV";
+            "file" = "resourcepacksettings-1.2.38+26.1.1.jar";
+            "hash" = "sha512-0nsrExvT0xzhOtrGksut4A5fvdvN+/sFXg3G4baWeidT5F6h9dLdGADDBrMCJ3JrY7JpLfXwakSo4n/X2s2rOg==";
+        };
+        _LAl2qjDA = {
+            "id" = "LAl2qjDA";
+            "file" = "resourcepacksettings-1.2.38+26.1.2.jar";
+            "hash" = "sha512-5oE8XX2/fRtUqyTKRrqJJvjnw88RXRHqEITgVn42AfF8YtH9OuwR4FVy10SPgz/aV2N6lqvuxUlL9SPGC35zrw==";
+        };
+        _6hnNZDYC = {
+            "id" = "6hnNZDYC";
+            "file" = "resourcepacksettings-1.2.38+26.2.jar";
+            "hash" = "sha512-9sfDWqhwcOVJKTbyg8HNQ+Cc9xeQtk+MsoYecGsWHi71cvo/Pl7c5oSqXJIsoMM/4kBGCbhpUHuCeSrFjxDzcA==";
+        };
+        _SgXaJQxa = {
+            "id" = "SgXaJQxa";
+            "file" = "resourcepacksettings-1.2.38+26.3.jar";
+            "hash" = "sha512-aR9raqdL2Vwzdjx8xpskXVWsCu7mhuNupIUvaJid8h9fizyS3r6ITKCsOSKEcMvl+ylre3wDMF/wIjDEsTbgKg==";
+        };
     in {
         "sKecd69T" = _sKecd69T;
         "J35ovo8s" = _J35ovo8s;
@@ -350,30 +495,64 @@ let
         "HBGMDWWe" = _HBGMDWWe;
         "JQll7MRd" = _JQll7MRd;
         "itAPh9IX" = _itAPh9IX;
-        "fabric-26.2" = _JQll7MRd;
-        "fabric-26.1.2" = _HBGMDWWe;
-        "fabric-26.1.1" = _Hgs97zsI;
-        "fabric-26.1" = _871aZAQD;
-        "fabric-1.21.11" = _co3ZJNyx;
-        "fabric-1.21.10" = _mVMZ8iqF;
-        "fabric-1.21.9" = _eff1oODo;
-        "fabric-1.21.8" = _cXngYncJ;
-        "fabric-1.21.6" = _6PEi7sdT;
-        "fabric-1.21.5" = _WZJBYqcz;
-        "fabric-1.21.4" = _nyX9MoFs;
-        "fabric-1.21.3" = _DIcnLbCj;
-        "fabric-1.21.2" = _4os9nL5U;
-        "fabric-1.21.1" = _hCdRxMco;
-        "fabric-1.20.1" = _pRVXfTYX;
-        "fabric-1.21" = _HK40joeJ;
-        "fabric-1.21.7" = _ndebv34T;
-        "fabric-26.3" = _itAPh9IX;
-        "fabric-1.20" = _ztBDEhze;
-        "fabric-1.20.2" = _axqKs9hM;
-        "fabric-1.20.3" = _pf5BX945;
-        "fabric-1.20.4" = _gnBkyFTR;
-        "fabric-1.20.5" = _L8cLw6yR;
-        "fabric-1.20.6" = _nW3ntq0A;
+        "En0TJC3f" = _En0TJC3f;
+        "oVsZDuzt" = _oVsZDuzt;
+        "Mtl6VVmq" = _Mtl6VVmq;
+        "KpLHB5ok" = _KpLHB5ok;
+        "VCKnk9rN" = _VCKnk9rN;
+        "8H9jNmzz" = _8H9jNmzz;
+        "oCWynr1S" = _oCWynr1S;
+        "o1yOvDbj" = _o1yOvDbj;
+        "ShD8Fkzk" = _ShD8Fkzk;
+        "K3nQWmtL" = _K3nQWmtL;
+        "AErPP14Q" = _AErPP14Q;
+        "lfvbMMMA" = _lfvbMMMA;
+        "JZ1cVyRh" = _JZ1cVyRh;
+        "BLhghvUD" = _BLhghvUD;
+        "rGfJZzdw" = _rGfJZzdw;
+        "BhsmLKnP" = _BhsmLKnP;
+        "vGaraOjZ" = _vGaraOjZ;
+        "xufcmDOu" = _xufcmDOu;
+        "eex7FRev" = _eex7FRev;
+        "LkKtLE0S" = _LkKtLE0S;
+        "NIqMESF8" = _NIqMESF8;
+        "3YyGG5Zd" = _3YyGG5Zd;
+        "sO2e7r4j" = _sO2e7r4j;
+        "uxRz3CG7" = _uxRz3CG7;
+        "28Xusy8s" = _28Xusy8s;
+        "6wX76HxV" = _6wX76HxV;
+        "LAl2qjDA" = _LAl2qjDA;
+        "6hnNZDYC" = _6hnNZDYC;
+        "SgXaJQxa" = _SgXaJQxa;
+        "fabric-26.2" = _6hnNZDYC;
+        "fabric-26.1.2" = _LAl2qjDA;
+        "fabric-26.1.1" = _6wX76HxV;
+        "fabric-26.1" = _28Xusy8s;
+        "fabric-1.21.11" = _uxRz3CG7;
+        "fabric-1.21.10" = _sO2e7r4j;
+        "fabric-1.21.9" = _3YyGG5Zd;
+        "fabric-1.21.8" = _NIqMESF8;
+        "fabric-1.21.6" = _eex7FRev;
+        "fabric-1.21.5" = _xufcmDOu;
+        "fabric-1.21.4" = _vGaraOjZ;
+        "fabric-1.21.3" = _BhsmLKnP;
+        "fabric-1.21.2" = _rGfJZzdw;
+        "fabric-1.21.1" = _BLhghvUD;
+        "fabric-1.20.1" = _oCWynr1S;
+        "fabric-1.21" = _JZ1cVyRh;
+        "fabric-1.21.7" = _LkKtLE0S;
+        "fabric-26.3" = _SgXaJQxa;
+        "fabric-1.20" = _8H9jNmzz;
+        "fabric-1.20.2" = _o1yOvDbj;
+        "fabric-1.20.3" = _ShD8Fkzk;
+        "fabric-1.20.4" = _K3nQWmtL;
+        "fabric-1.20.5" = _AErPP14Q;
+        "fabric-1.20.6" = _lfvbMMMA;
+        "fabric-1.19" = _En0TJC3f;
+        "fabric-1.19.1" = _oVsZDuzt;
+        "fabric-1.19.2" = _Mtl6VVmq;
+        "fabric-1.19.3" = _KpLHB5ok;
+        "fabric-1.19.4" = _VCKnk9rN;
         "pkg-1.0.3+26.2" = _sKecd69T;
         "pkg-1.0.3+26.1.2" = _J35ovo8s;
         "pkg-1.0.3+26.1.1" = _JXO2F6D1;
@@ -432,7 +611,36 @@ let
         "pkg-1.2.35+26.1.2" = _HBGMDWWe;
         "pkg-1.2.35+26.2" = _JQll7MRd;
         "pkg-1.2.35+26.3" = _itAPh9IX;
-        "default" = _itAPh9IX;
+        "pkg-1.2.38+1.19" = _En0TJC3f;
+        "pkg-1.2.38+1.19.1" = _oVsZDuzt;
+        "pkg-1.2.38+1.19.2" = _Mtl6VVmq;
+        "pkg-1.2.38+1.19.3" = _KpLHB5ok;
+        "pkg-1.2.38+1.19.4" = _VCKnk9rN;
+        "pkg-1.2.38+1.20" = _8H9jNmzz;
+        "pkg-1.2.38+1.20.1" = _oCWynr1S;
+        "pkg-1.2.38+1.20.2" = _o1yOvDbj;
+        "pkg-1.2.38+1.20.3" = _ShD8Fkzk;
+        "pkg-1.2.38+1.20.4" = _K3nQWmtL;
+        "pkg-1.2.38+1.20.5" = _AErPP14Q;
+        "pkg-1.2.38+1.20.6" = _lfvbMMMA;
+        "pkg-1.2.38+1.21" = _JZ1cVyRh;
+        "pkg-1.2.38+1.21.1" = _BLhghvUD;
+        "pkg-1.2.38+1.21.2" = _rGfJZzdw;
+        "pkg-1.2.38+1.21.3" = _BhsmLKnP;
+        "pkg-1.2.38+1.21.4" = _vGaraOjZ;
+        "pkg-1.2.38+1.21.5" = _xufcmDOu;
+        "pkg-1.2.38+1.21.6" = _eex7FRev;
+        "pkg-1.2.38+1.21.7" = _LkKtLE0S;
+        "pkg-1.2.38+1.21.8" = _NIqMESF8;
+        "pkg-1.2.38+1.21.9" = _3YyGG5Zd;
+        "pkg-1.2.38+1.21.10" = _sO2e7r4j;
+        "pkg-1.2.38+1.21.11" = _uxRz3CG7;
+        "pkg-1.2.38+26.1" = _28Xusy8s;
+        "pkg-1.2.38+26.1.1" = _6wX76HxV;
+        "pkg-1.2.38+26.1.2" = _LAl2qjDA;
+        "pkg-1.2.38+26.2" = _6hnNZDYC;
+        "pkg-1.2.38+26.3" = _SgXaJQxa;
+        "default" = _SgXaJQxa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourcepacksettings";

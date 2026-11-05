@@ -131,6 +131,11 @@ let
             "file" = "blastcraft-1.21.1-0.8.0.jar";
             "hash" = "sha512-B1xrNJQue0usT7VqEfxYa4F6QrqVDfnsTg+3j0MyzQOY/l4pPHmS7uOXSBv7QjKXsiQqR7rhRHsVgn06xr7r8w==";
         };
+        _YK74moRY = {
+            "id" = "YK74moRY";
+            "file" = "Blastcraft-1.20.1-0.8.0.jar";
+            "hash" = "sha512-jC1c/hCRND+IyA5wZ4lEmDIIN0IRyw5HGyGIvj7zqZNsQFhsWQdNmPmLvcO2oswRMrZ6WgUnAFC3X1bgDV7nxA==";
+        };
     in {
         "Eb37SyB9" = _Eb37SyB9;
         "sSE1ZwxS" = _sSE1ZwxS;
@@ -158,12 +163,13 @@ let
         "HGM2nv4M" = _HGM2nv4M;
         "i1MFAE4T" = _i1MFAE4T;
         "80eFBw5o" = _80eFBw5o;
+        "YK74moRY" = _YK74moRY;
         "forge-1.16.5" = _9k9uSmNC;
         "forge-1.17.1" = _sSE1ZwxS;
         "forge-1.18.2" = _8ZGPrA0L;
         "forge-1.19.2" = _HGM2nv4M;
-        "forge-1.20.1" = _GPx1sTl5;
-        "neoforge-1.20.1" = _GPx1sTl5;
+        "forge-1.20.1" = _YK74moRY;
+        "neoforge-1.20.1" = _YK74moRY;
         "neoforge-1.21.1" = _80eFBw5o;
         "pkg-1.16.5-0.2.0-0" = _Eb37SyB9;
         "pkg-1.17.1-0.2.1-0" = _sSE1ZwxS;
@@ -191,7 +197,8 @@ let
         "pkg-1.19.2-0.6.2" = _HGM2nv4M;
         "pkg-1.21.1-0.7.0" = _i1MFAE4T;
         "pkg-1.21.1-0.8.0" = _80eFBw5o;
-        "default" = _80eFBw5o;
+        "pkg-1.20.1-0.8.0" = _YK74moRY;
+        "default" = _YK74moRY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blastcraft";

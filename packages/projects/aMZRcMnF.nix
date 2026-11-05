@@ -206,6 +206,11 @@ let
             "file" = "e2s2-2.3.1-neoforge-1.21.1.jar";
             "hash" = "sha512-yVfYRgDecC6ESDi6eEhZw22aZlL6zfwIp/nGuSlWD5NUoRhoMGOx7rGGe4uU86BsA5jLQv2yoiOwC76+aedBUw==";
         };
+        _PyZ6PEgU = {
+            "id" = "PyZ6PEgU";
+            "file" = "e2s2-2.3.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-blJvI/tGtk2qdwo1kNVTL0jMtTCPknoqkOKwAN8I4aStHR39E2wXkSrpuJsRMOKubbeXQploFOU/XTG9MX5+bQ==";
+        };
     in {
         "xlep1l4I" = _xlep1l4I;
         "6DFHFUzt" = _6DFHFUzt;
@@ -248,8 +253,9 @@ let
         "2Ht7osMM" = _2Ht7osMM;
         "WkIwdE1f" = _WkIwdE1f;
         "Tzjpi7Hr" = _Tzjpi7Hr;
+        "PyZ6PEgU" = _PyZ6PEgU;
         "forge-1.20.1" = _YFZObN69;
-        "neoforge-1.21.1" = _Tzjpi7Hr;
+        "neoforge-1.21.1" = _PyZ6PEgU;
         "pkg-1.0.0" = _xlep1l4I;
         "pkg-1.1.0" = _6DFHFUzt;
         "pkg-1.1.1" = _pQmy1DsZ;
@@ -285,7 +291,8 @@ let
         "pkg-2.2.14" = _2Ht7osMM;
         "pkg-2.3.0" = _WkIwdE1f;
         "pkg-2.3.1" = _Tzjpi7Hr;
-        "default" = _Tzjpi7Hr;
+        "pkg-2.3.2" = _PyZ6PEgU;
+        "default" = _PyZ6PEgU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e2s2";

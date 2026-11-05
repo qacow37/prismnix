@@ -196,6 +196,16 @@ let
             "file" = "neoforge-dungeonsdelight-1.21.1-1.5.1.jar";
             "hash" = "sha512-UXDlfSGh4kfCSlPmezkc/mJ46EHfQ9q/WNajvSwCqxj/hMpE8FJg3V1OSYXEV3GUadFsv7AWBo92A+WEswunJg==";
         };
+        _FZuE5UIY = {
+            "id" = "FZuE5UIY";
+            "file" = "forge-dungeonsdelight-1.20.1-1.3.2.jar";
+            "hash" = "sha512-CpybZs0YwzbKcCsF8KL5RHBfPNWzgAWAvV0s1nEEskTKCZ8sc0916r00K1o7F+0XKpPD+X+gJ2y9BkashF6l3g==";
+        };
+        _ObzSBT2S = {
+            "id" = "ObzSBT2S";
+            "file" = "neoforge-dungeonsdelight-1.21.1-1.5.2.jar";
+            "hash" = "sha512-Ja1QzGICVkFF63Ktb374bdKJuPWyS/A0hWZktGpITnFCpKN69wWwrdfl347foivkTazM4do7ZIizmuigNEYssw==";
+        };
     in {
         "kXhzGOwH" = _kXhzGOwH;
         "z6uHOC2w" = _z6uHOC2w;
@@ -236,8 +246,10 @@ let
         "4aMGBBJy" = _4aMGBBJy;
         "tSrj7iQd" = _tSrj7iQd;
         "mAuzCOhP" = _mAuzCOhP;
-        "forge-1.20.1" = _tSrj7iQd;
-        "neoforge-1.21.1" = _mAuzCOhP;
+        "FZuE5UIY" = _FZuE5UIY;
+        "ObzSBT2S" = _ObzSBT2S;
+        "forge-1.20.1" = _FZuE5UIY;
+        "neoforge-1.21.1" = _ObzSBT2S;
         "neoforge-1.21" = _aFluEQDH;
         "babric-b1.7.3" = _4aMGBBJy;
         "pkg-1.0.0" = _4aMGBBJy;
@@ -260,7 +272,7 @@ let
         "pkg-1.2.10" = _rDboPrwk;
         "pkg-1.3.0" = _Ick1jUCc;
         "pkg-1.3.1" = _tSrj7iQd;
-        "pkg-1.3.2" = _dsHrbIeL;
+        "pkg-1.3.2" = _FZuE5UIY;
         "pkg-1.3.3" = _nPYoFZyf;
         "pkg-1.3.4" = _pfshLrAf;
         "pkg-1.3.5" = _uQBosH9a;
@@ -274,9 +286,9 @@ let
         "pkg-1.4.4" = _PslWEclw;
         "pkg-1.4.5" = _uAoQcOVb;
         "pkg-1.4.6" = _IoK6mX4K;
-        "pkg-1.5.0" = _aFluEQDH;
+        "pkg-1.5.0" = _ObzSBT2S;
         "pkg-1.5.1" = _mAuzCOhP;
-        "default" = _mAuzCOhP;
+        "default" = _ObzSBT2S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons_delight";

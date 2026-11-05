@@ -1711,6 +1711,21 @@ let
             "file" = "moonstone-1.21.1-refactoring-1.4.1.8.jar";
             "hash" = "sha512-cQBjxRrET+EE/NpSlpxNsvGVvlkGH7pni6w0ED7+Q4xufBI3qWTNZI8a8YobWboYVPGO4RfiUrLo8WSlZPMAwg==";
         };
+        _iiGjvhMC = {
+            "id" = "iiGjvhMC";
+            "file" = "moonstone-26.3-1.0.5.2.jar";
+            "hash" = "sha512-F/9j0DTrV6JvX4YuYUwXOlgVLRwgs9cB4uwmF1NOacpoSLFQSQvzPTcBsMaP5ktb3UpTwG95h1N6Pv43Al7Yrw==";
+        };
+        _fUvGNB4g = {
+            "id" = "fUvGNB4g";
+            "file" = "moonstone-1.21.1-refactoring-1.4.2.0.jar";
+            "hash" = "sha512-UB6+Fe0nwjpiytTeLNRlpTNSTJP5yOZLxZSqlE3TkFW/fcFQFRM8S5kUvpyYTWV8Ev+8nRiCQtScouU6Qz8bhg==";
+        };
+        _aGD8Dbpz = {
+            "id" = "aGD8Dbpz";
+            "file" = "moonstone-1.21.1-refactoring-1.4.2.5.jar";
+            "hash" = "sha512-Uo/ftUhwAX/96YfuNJRpPWCyk3CQGsDPIud02br4AL6L88cKL9Sxx3a6QZLj3wNwYvv9IPiyb6Q3/Rq5uPZ8hw==";
+        };
     in {
         "YQKROC9r" = _YQKROC9r;
         "NEHyL5Po" = _NEHyL5Po;
@@ -2054,6 +2069,9 @@ let
         "Xaodr6OY" = _Xaodr6OY;
         "7II333y7" = _7II333y7;
         "ljOiZkti" = _ljOiZkti;
+        "iiGjvhMC" = _iiGjvhMC;
+        "fUvGNB4g" = _fUvGNB4g;
+        "aGD8Dbpz" = _aGD8Dbpz;
         "forge-1.19.2" = _vqpDBRtS;
         "forge-1.20.1" = _3akjlG25;
         "forge-1.19.3" = _J4rcnIqq;
@@ -2062,9 +2080,10 @@ let
         "forge-1.18.2" = _f1ZXiX0T;
         "neoforge-1.20.4" = _iRjoqZA0;
         "neoforge-1.21" = _cTjIwRGn;
-        "neoforge-1.21.1" = _ljOiZkti;
+        "neoforge-1.21.1" = _aGD8Dbpz;
         "neoforge-26.1.2" = _kfv1Jli5;
         "neoforge-26.2" = _bgP4qDrp;
+        "neoforge-26.3" = _iiGjvhMC;
         "pkg-1.19.2-6.8.5" = _YQKROC9r;
         "pkg-1.0.0" = _OW89KJmu;
         "pkg-1.0.3" = _mDvbhild;
@@ -2397,7 +2416,10 @@ let
         "pkg-1.21.1-refactoring-1.4.0.8" = _Xaodr6OY;
         "pkg-1.21.1-refactoring-1.4.1.5" = _7II333y7;
         "pkg-1.21.1-refactoring-1.4.1.8" = _ljOiZkti;
-        "default" = _ljOiZkti;
+        "pkg-26.3-1.0.5.2" = _iiGjvhMC;
+        "pkg-1.21.1-refactoring-1.4.2.0" = _fUvGNB4g;
+        "pkg-1.21.1-refactoring-1.4.2.5" = _aGD8Dbpz;
+        "default" = _aGD8Dbpz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moonstone";

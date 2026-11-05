@@ -1776,6 +1776,11 @@ let
             "file" = "Saros-Road-Blocks-Forge-26.3-5.16.jar";
             "hash" = "sha512-sErMwyszJNVHN9W/zQCbIY3g21ruf142sxshGhW3UUDvci78/6tTceodB7usNWKUe+8p7SCpHoF5lzpfMFwWaQ==";
         };
+        _3iYnfJbH = {
+            "id" = "3iYnfJbH";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.16.jar";
+            "hash" = "sha512-yX2eDkjQZU/FizhQIFWgOzrtpGbj4d7KfAVgEHsTthzOIWYhPOTI5a79j6WVsCYpm8GcunqR8TYyqFRMVMsfZA==";
+        };
     in {
         "l75yLEmE" = _l75yLEmE;
         "mnrtlD5N" = _mnrtlD5N;
@@ -2132,11 +2137,12 @@ let
         "NzMFwVGA" = _NzMFwVGA;
         "o3XQIBLJ" = _o3XQIBLJ;
         "vf6QgDrt" = _vf6QgDrt;
+        "3iYnfJbH" = _3iYnfJbH;
         "forge-1.16.5" = _p68yKDZj;
         "forge-1.18.2" = _mnrtlD5N;
         "forge-1.19.2" = _eOkKveWN;
         "forge-1.19.4" = _eKTawVd7;
-        "forge-1.20.1" = _LmC1hV2D;
+        "forge-1.20.1" = _3iYnfJbH;
         "forge-1.20.4" = _MOA7Ei8o;
         "forge-1.20.6" = _LEift6nt;
         "forge-1.21" = _X48wCWrL;
@@ -2168,7 +2174,7 @@ let
         "fabric-26.3" = _NzMFwVGA;
         "quilt-1.19.2" = _slushDBy;
         "quilt-1.20.1" = _7nFQaAkN;
-        "neoforge-1.20.1" = _LmC1hV2D;
+        "neoforge-1.20.1" = _3iYnfJbH;
         "neoforge-1.21.1" = _mcsn7RJp;
         "neoforge-26.1" = _p13pvxpZ;
         "neoforge-26.1.1" = _teI5aBjE;
@@ -2285,7 +2291,8 @@ let
         "pkg-5.0.11" = _Cpcx91uW;
         "pkg-5.1.10" = _9QIIMqCk;
         "pkg-5.16-forge-26.3" = _vf6QgDrt;
-        "default" = _vf6QgDrt;
+        "pkg-5.16" = _3iYnfJbH;
+        "default" = _3iYnfJbH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-road-blocks";

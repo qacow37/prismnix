@@ -86,6 +86,16 @@ let
             "file" = "cozycafe-2.3-1.21.1.jar";
             "hash" = "sha512-ZpLLoAs+dPJ1cOxXonLvz+R4reKpKVbuVgnhXYAmNBFK6iy8mvRo61wdfF1uITbNuE6Xozc1bpZZIXLX48t3nw==";
         };
+        _emCh6OZw = {
+            "id" = "emCh6OZw";
+            "file" = "cozycafe-2.4-1.21.1.jar";
+            "hash" = "sha512-+l4jFF7yvTrJmGOyZ8SHYfXMXOUzdHgmDBry1PxsEhtJ9vJrKyxG7sYLGiXOWExuONH7W9isu8WDzE2FTPCsbA==";
+        };
+        _Sr4NIzEr = {
+            "id" = "Sr4NIzEr";
+            "file" = "cozycafe-1.11-all.jar";
+            "hash" = "sha512-dY27T2HgR3Ms4HsB9sszFCuJIOTYRA+h1I+HRqYzht9hr9JTsuHc9vs/IijO5HCjSzsaYd5pnGNaaXeB1GaSlA==";
+        };
     in {
         "jze2fePg" = _jze2fePg;
         "3Vkooecv" = _3Vkooecv;
@@ -104,8 +114,10 @@ let
         "2id0P8k1" = _2id0P8k1;
         "OPpd1dLJ" = _OPpd1dLJ;
         "MgX9doBX" = _MgX9doBX;
-        "forge-1.20.1" = _oEsLEEDL;
-        "neoforge-1.21.1" = _MgX9doBX;
+        "emCh6OZw" = _emCh6OZw;
+        "Sr4NIzEr" = _Sr4NIzEr;
+        "forge-1.20.1" = _Sr4NIzEr;
+        "neoforge-1.21.1" = _emCh6OZw;
         "pkg-1.0" = _jze2fePg;
         "pkg-1.1" = _3Vkooecv;
         "pkg-1.2" = _yeBKU2Ti;
@@ -123,7 +135,9 @@ let
         "pkg-2.1-1.21.1" = _2id0P8k1;
         "pkg-2.2-1.21.1" = _OPpd1dLJ;
         "pkg-2.3-1.21.1" = _MgX9doBX;
-        "default" = _MgX9doBX;
+        "pkg-2.4-1.21.1" = _emCh6OZw;
+        "pkg-1.11" = _Sr4NIzEr;
+        "default" = _Sr4NIzEr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cozycafe";

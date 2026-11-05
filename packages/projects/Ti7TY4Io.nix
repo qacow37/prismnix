@@ -71,6 +71,16 @@ let
             "file" = "BetterPV-1.2.0+26.2.jar";
             "hash" = "sha512-sMaPDvIbydRwCl1HT63dHBxMRiSEUKx9b0RTY6lDYbGwLRyugozKtqYi8jE1dYVDSl2ThQTIWWySPyHoUOYB+Q==";
         };
+        _iPthU1Z8 = {
+            "id" = "iPthU1Z8";
+            "file" = "BetterPV-1.2.1+26.3.jar";
+            "hash" = "sha512-R3TL9yInsoJB2ez4CFrgNSCDD542S8tksaeiodLUAdvZ5yBuYh390j7HLEBDG58IhZtv9J4BL4CxP4SLqRz/Zw==";
+        };
+        _LZTrQMQe = {
+            "id" = "LZTrQMQe";
+            "file" = "BetterPV-1.2.1+26.2.jar";
+            "hash" = "sha512-+pZRQJ1oWZzzoq1kAA6wF2HBrOqE7AhTDZdpeY6+TerPy780+5pSF9W4/cK940eeaAOBrEEX8+oloCgXGW2IbA==";
+        };
     in {
         "Tt0DNGft" = _Tt0DNGft;
         "V2rBeWKO" = _V2rBeWKO;
@@ -86,8 +96,11 @@ let
         "4A0RbKhx" = _4A0RbKhx;
         "mtKYfTgD" = _mtKYfTgD;
         "HDBh2Kmn" = _HDBh2Kmn;
+        "iPthU1Z8" = _iPthU1Z8;
+        "LZTrQMQe" = _LZTrQMQe;
         "fabric-26.1.2" = _mtKYfTgD;
-        "fabric-26.2" = _HDBh2Kmn;
+        "fabric-26.2" = _LZTrQMQe;
+        "fabric-26.3" = _iPthU1Z8;
         "pkg-1.0.0+26.1.2" = _Tt0DNGft;
         "pkg-1.0.0+26.2" = _V2rBeWKO;
         "pkg-1.0.1+26.1.2" = _CUA4ytyV;
@@ -102,7 +115,9 @@ let
         "pkg-1.1.2+26.1.2" = _4A0RbKhx;
         "pkg-1.2.0+26.1.2" = _mtKYfTgD;
         "pkg-1.2.0+26.2" = _HDBh2Kmn;
-        "default" = _HDBh2Kmn;
+        "pkg-1.2.1+26.3" = _iPthU1Z8;
+        "pkg-1.2.1+26.2" = _LZTrQMQe;
+        "default" = _LZTrQMQe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterpv";

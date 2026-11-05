@@ -801,6 +801,11 @@ let
             "file" = "mob-heads-v5.3.1.jar";
             "hash" = "sha512-t5+Kuj+A+5ex/uBxqnJ1K7O+W3h7ie7U9jYNQibPW0FflClaAl5M0NQbmc02lGAfcETViHvaTpm97BtPhzY+IQ==";
         };
+        _vVAfKZYO = {
+            "id" = "vVAfKZYO";
+            "file" = "mob-heads-v5.3.1-paper.jar";
+            "hash" = "sha512-lAJLxFa8fWqXozAT2H5WEXntOduFgEe3ozejupCes34fxr6cyFQaF3+f63cafnYeRk2WQka0mkS+HYTPnqyQ3g==";
+        };
     in {
         "bvft5C2x" = _bvft5C2x;
         "7W8iTWbG" = _7W8iTWbG;
@@ -962,6 +967,7 @@ let
         "VUMvLJMZ" = _VUMvLJMZ;
         "apSNiIWm" = _apSNiIWm;
         "XjvhaBUq" = _XjvhaBUq;
+        "vVAfKZYO" = _vVAfKZYO;
         "datapack-1.20.4" = _fksYjGQm;
         "datapack-1.20.5" = _FaYlhEzh;
         "datapack-1.20.6" = _FaYlhEzh;
@@ -1064,6 +1070,8 @@ let
         "neoforge-26.1.2" = _Gg0IftfV;
         "neoforge-26.2" = _ZNdQAiy7;
         "neoforge-26.3" = _XjvhaBUq;
+        "paper-26.3" = _vVAfKZYO;
+        "purpur-26.3" = _vVAfKZYO;
         "pkg-v.1.0.0" = _BQVbAZpq;
         "pkg-v.1.0.0+mod" = _5N2ILvrK;
         "pkg-v1.1.0" = _Iy8nqjRg;
@@ -1214,7 +1222,8 @@ let
         "pkg-v5.3.0.1+mod" = _VUMvLJMZ;
         "pkg-v5.3.1" = _apSNiIWm;
         "pkg-v5.3.1+mod" = _XjvhaBUq;
-        "default" = _XjvhaBUq;
+        "pkg-v5.3.1+plugin" = _vVAfKZYO;
+        "default" = _vVAfKZYO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-heads";

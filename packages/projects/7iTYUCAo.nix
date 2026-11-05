@@ -116,6 +116,11 @@ let
             "file" = "transfer-pet-owner-v2.2.0.0.jar";
             "hash" = "sha512-8bU5Z3cNGni6w8vIt/Y7+GhQocRINAK1RKHGoOxJU6wEvuPOdJaD2QjOmh9j29hDMn3kCsX+NkQBlKUiUoekAw==";
         };
+        _wzCrasHg = {
+            "id" = "wzCrasHg";
+            "file" = "transfer-pet-owner-v2.2.0.0-paper.jar";
+            "hash" = "sha512-htLYra7DyTlAH+A/89QyhKOlRzM6s8ddtpe9AVl+pTYDEtJzayH6BXb5AW5G44gebL6p/t1CcVIi0MGuvGbQyQ==";
+        };
     in {
         "zlqFyWtQ" = _zlqFyWtQ;
         "Fz4Q9To0" = _Fz4Q9To0;
@@ -140,6 +145,7 @@ let
         "Av2owVfA" = _Av2owVfA;
         "a7kPG4ot" = _a7kPG4ot;
         "7gtXdRTx" = _7gtXdRTx;
+        "wzCrasHg" = _wzCrasHg;
         "datapack-1.21" = _zlqFyWtQ;
         "datapack-1.21.1" = _zlqFyWtQ;
         "datapack-1.21.2" = _zlqFyWtQ;
@@ -225,6 +231,8 @@ let
         "quilt-26.1.2" = _EoRDtcNH;
         "quilt-26.2" = _EoRDtcNH;
         "quilt-26.3" = _7gtXdRTx;
+        "paper-26.3" = _wzCrasHg;
+        "purpur-26.3" = _wzCrasHg;
         "pkg-v.1.0.0" = _zlqFyWtQ;
         "pkg-v.1.0.0+mod" = _Fz4Q9To0;
         "pkg-v2.0.0" = _h6VIcorQ;
@@ -243,7 +251,8 @@ let
         "pkg-v2.2.0+mod" = _Av2owVfA;
         "pkg-v2.2.0.0" = _a7kPG4ot;
         "pkg-v2.2.0.0+mod" = _7gtXdRTx;
-        "default" = _7gtXdRTx;
+        "pkg-v2.2.0.0+plugin" = _wzCrasHg;
+        "default" = _wzCrasHg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "transfer-pet-owner";

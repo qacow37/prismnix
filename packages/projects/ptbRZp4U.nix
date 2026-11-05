@@ -11,9 +11,15 @@ let
             "file" = "G-Anti-Xray.zip";
             "hash" = "sha512-rKllIblhQcHbJLgYHlIunSRwv/+D3K+AfaJYJw6YdT9yOfSDCfWZ706WKgsrH/aFss7tv6s9RjBHmu4NDSIVRg==";
         };
+        _A43MGBrn = {
+            "id" = "A43MGBrn";
+            "file" = "G-AntiXray.zip";
+            "hash" = "sha512-0IKVk4LcW05JA5BbBxwc6oZZheul7Z+MDhfUwbJeq4YWLH6/0W/iELJF0e2Js/JtF5vrEqpbLsw1CBbVz7cMVQ==";
+        };
     in {
         "hZH7xtQR" = _hZH7xtQR;
         "M9KeQKnq" = _M9KeQKnq;
+        "A43MGBrn" = _A43MGBrn;
         "minecraft-1.21.10" = _M9KeQKnq;
         "minecraft-1.16" = _M9KeQKnq;
         "minecraft-1.16.1" = _M9KeQKnq;
@@ -52,9 +58,11 @@ let
         "minecraft-26.1" = _M9KeQKnq;
         "minecraft-26.1.1" = _M9KeQKnq;
         "minecraft-26.1.2" = _M9KeQKnq;
+        "minecraft-26.3" = _A43MGBrn;
         "pkg-1.0" = _hZH7xtQR;
         "pkg-1.1" = _M9KeQKnq;
-        "default" = _M9KeQKnq;
+        "pkg-26.3" = _A43MGBrn;
+        "default" = _A43MGBrn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "g-antixray";

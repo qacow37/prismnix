@@ -226,6 +226,26 @@ let
             "file" = "E19 Cobblemon Minimap Icons.zip";
             "hash" = "sha512-HapjyPQeWAvxTT1oX8Fs5WWgwdDeEjfSs+FH5qDMD1yNJhq2Fufvkwlo0nC+rqAJHjGBVpnUwbeSWGDEWKGeDw==";
         };
+        _wMFCWcS4 = {
+            "id" = "wMFCWcS4";
+            "file" = "E19 Big Icon Version.zip";
+            "hash" = "sha512-sJNIvmn0w6Oe3dAsRv7eF4JR9WT+z4pTd+0t7TG3IvM8BOArYxom+vhkg8a18wDPr6neXK8ZVxcDxGXVdz52hg==";
+        };
+        _OIUdbwZU = {
+            "id" = "OIUdbwZU";
+            "file" = "E19 Cobblemon Minimap Icons.zip";
+            "hash" = "sha512-Wr49IXMZ1XL5jlz+RXXdYbF02DALWkisyfbn+VWhCCsWSqmGrxbcraA6Msv+QWXY+e2zSIo2DkCXbIb3osWSYg==";
+        };
+        _3lNqKfyX = {
+            "id" = "3lNqKfyX";
+            "file" = "E19 Big Icon Version.zip";
+            "hash" = "sha512-3hnXL8brRyAdmb3l/fmtwU9WSJi2FVvcUk26yCfns2G8JglbheZQ0o+QceDEicN40Wvtc4QGXlXVCKwdcy4vrQ==";
+        };
+        _Mih6Fxns = {
+            "id" = "Mih6Fxns";
+            "file" = "E19 Cobblemon Minimap Icons.zip";
+            "hash" = "sha512-yFKKs7qDzC6Ji8bVwGJg0i4Mt3crQKkCX4+NzCcqV0LTdbKF7EzvWNsmY6T6/ckTP0vYeqA5iVlGrU6Zjs0hoQ==";
+        };
     in {
         "50M8yPQp" = _50M8yPQp;
         "CPfFNkjI" = _CPfFNkjI;
@@ -272,10 +292,14 @@ let
         "3jx6cvRq" = _3jx6cvRq;
         "T1n956ys" = _T1n956ys;
         "bG73ljU7" = _bG73ljU7;
+        "wMFCWcS4" = _wMFCWcS4;
+        "OIUdbwZU" = _OIUdbwZU;
+        "3lNqKfyX" = _3lNqKfyX;
+        "Mih6Fxns" = _Mih6Fxns;
         "minecraft-1.20.1" = _BS06iQwN;
-        "minecraft-1.21.1" = _bG73ljU7;
+        "minecraft-1.21.1" = _Mih6Fxns;
         "minecraft-1.20" = _BS06iQwN;
-        "minecraft-1.21" = _bG73ljU7;
+        "minecraft-1.21" = _Mih6Fxns;
         "pkg-1.0.1" = _50M8yPQp;
         "pkg-1.0.2" = _CPfFNkjI;
         "pkg-1.0.3" = _8JjogEof;
@@ -321,7 +345,11 @@ let
         "pkg-1.5.4a" = _3jx6cvRq;
         "pkg-1.5.4b" = _T1n956ys;
         "pkg-1.5.4" = _bG73ljU7;
-        "default" = _bG73ljU7;
+        "pkg-1.5.5b" = _wMFCWcS4;
+        "pkg-1.5.5" = _OIUdbwZU;
+        "pkg-1.5.6b" = _3lNqKfyX;
+        "pkg-1.5.6" = _Mih6Fxns;
+        "default" = _Mih6Fxns;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e19_cobblemon_minimap_icons";

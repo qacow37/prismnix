@@ -386,6 +386,36 @@ let
             "file" = "cleanertooltips-fabric-26.3-1.3.2.1.jar";
             "hash" = "sha512-VUPSnH+t4vUzbbi8mRomWTGmy91jH4pwuvu3mNg5IB9CN0pHKuljhRl8LH0nNF3RQpHk95cTQUTK49maLsslFA==";
         };
+        _JWOeyZ2J = {
+            "id" = "JWOeyZ2J";
+            "file" = "cleanertooltips-neoforge-1.21.1-1.3.3.jar";
+            "hash" = "sha512-4EKuy5w48+wde3mOCYFrZMO9XEKBb2kzB+aEpnxh8j2kwD9SHQOhKnNy1nmOk+PvF3Gg/yGqMqKgVvYsVHOyiw==";
+        };
+        _XE2EWuIr = {
+            "id" = "XE2EWuIr";
+            "file" = "cleanertooltips-fabric-1.21.1-1.3.3.jar";
+            "hash" = "sha512-neFHba9k6wnV+n+JDKObjSJDSeGsRVAamc3wjZEoTc6BOWHb+EiE15vAJ5NbL4hbb+sUx0knZxyEEAswUY+I1g==";
+        };
+        _xoJ0GSOs = {
+            "id" = "xoJ0GSOs";
+            "file" = "cleanertooltips-neoforge-26.2-1.3.3.jar";
+            "hash" = "sha512-N2UPKEzBvobHYATOMGEAs4lipA2lJPbbzmTcOaxBqYDNkVDjqpAvfD+t/EjeVKpuFbgkOmYvGFiveC7kNE7HCA==";
+        };
+        _Ty1OqFwY = {
+            "id" = "Ty1OqFwY";
+            "file" = "cleanertooltips-fabric-26.2-1.3.3.jar";
+            "hash" = "sha512-+wFr6MolcZPUxS9u2O+/DFOlFPhKY794Hhh/QdXnwyGqink6KKhUMO83hp1CMwNFfO7C9iUlNqYRcfAAreYZdQ==";
+        };
+        _UtyaX4AY = {
+            "id" = "UtyaX4AY";
+            "file" = "cleanertooltips-neoforge-26.3-1.3.3.jar";
+            "hash" = "sha512-swkv1WaJcc2fQzDo5V3GpuPGCgtbjzN1jACkYpQlJ0U4mIbJ7kiOHnHl39ldHoaUWaQMdwKXAJ3qX9UuWmLUOQ==";
+        };
+        _X25Fenwl = {
+            "id" = "X25Fenwl";
+            "file" = "cleanertooltips-fabric-26.3-1.3.3.jar";
+            "hash" = "sha512-jpPBcRWjco1nFee+/rVVeSJ3wVrWz+lGa98pbUEt101YxCXe8BqA/WKqqYVbEiCrXnb28XXnVY0gsbVzgg7uQg==";
+        };
     in {
         "smhquRSR" = _smhquRSR;
         "S0A0uBar" = _S0A0uBar;
@@ -464,8 +494,14 @@ let
         "wCIvvYC9" = _wCIvvYC9;
         "DGLOIPs6" = _DGLOIPs6;
         "FOLvQh4A" = _FOLvQh4A;
-        "neoforge-1.21" = _Hy7fznjz;
-        "neoforge-1.21.1" = _Hy7fznjz;
+        "JWOeyZ2J" = _JWOeyZ2J;
+        "XE2EWuIr" = _XE2EWuIr;
+        "xoJ0GSOs" = _xoJ0GSOs;
+        "Ty1OqFwY" = _Ty1OqFwY;
+        "UtyaX4AY" = _UtyaX4AY;
+        "X25Fenwl" = _X25Fenwl;
+        "neoforge-1.21" = _JWOeyZ2J;
+        "neoforge-1.21.1" = _JWOeyZ2J;
         "neoforge-1.21.3" = _8XGqFS1h;
         "neoforge-1.21.4" = _CI0W86Xn;
         "neoforge-1.21.5" = _vcYXqqeh;
@@ -475,13 +511,13 @@ let
         "neoforge-1.21.9" = _4IVfyJCV;
         "neoforge-1.21.10" = _4IVfyJCV;
         "neoforge-1.21.11" = _FVb8GeAW;
-        "neoforge-26.1" = _yyWQLasZ;
-        "neoforge-26.1.1" = _yyWQLasZ;
-        "neoforge-26.1.2" = _yyWQLasZ;
-        "neoforge-26.2" = _yyWQLasZ;
-        "neoforge-26.3" = _DGLOIPs6;
-        "fabric-1.21" = _tYkajUrj;
-        "fabric-1.21.1" = _tYkajUrj;
+        "neoforge-26.1" = _xoJ0GSOs;
+        "neoforge-26.1.1" = _xoJ0GSOs;
+        "neoforge-26.1.2" = _xoJ0GSOs;
+        "neoforge-26.2" = _xoJ0GSOs;
+        "neoforge-26.3" = _UtyaX4AY;
+        "fabric-1.21" = _XE2EWuIr;
+        "fabric-1.21.1" = _XE2EWuIr;
         "fabric-1.21.2" = _okPtwEaG;
         "fabric-1.21.3" = _okPtwEaG;
         "fabric-1.21.4" = _okPtwEaG;
@@ -492,11 +528,11 @@ let
         "fabric-1.21.9" = _1gDZv2Mz;
         "fabric-1.21.10" = _1gDZv2Mz;
         "fabric-1.21.11" = _PMO2KNAJ;
-        "fabric-26.1" = _wCIvvYC9;
-        "fabric-26.1.1" = _wCIvvYC9;
-        "fabric-26.1.2" = _wCIvvYC9;
-        "fabric-26.2" = _wCIvvYC9;
-        "fabric-26.3" = _FOLvQh4A;
+        "fabric-26.1" = _Ty1OqFwY;
+        "fabric-26.1.1" = _Ty1OqFwY;
+        "fabric-26.1.2" = _Ty1OqFwY;
+        "fabric-26.2" = _Ty1OqFwY;
+        "fabric-26.3" = _X25Fenwl;
         "pkg-1.0.1" = _smhquRSR;
         "pkg-1.0.2" = _S0A0uBar;
         "pkg-1.1.0" = _PjcJXqip;
@@ -511,7 +547,8 @@ let
         "pkg-1.3.1" = _w4FAOyOF;
         "pkg-1.3.2" = _nSlK3khp;
         "pkg-1.3.2.1" = _FOLvQh4A;
-        "default" = _FOLvQh4A;
+        "pkg-1.3.3" = _X25Fenwl;
+        "default" = _X25Fenwl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleaner-tooltips";

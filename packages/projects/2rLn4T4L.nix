@@ -206,6 +206,21 @@ let
             "file" = "allstacksinfinite-16.3.1.2.jar";
             "hash" = "sha512-pmTy61FLkSCJLBsGS/NjvluQ6INcM863m0EJQBKdXJapXpjJm6EgcXIStreoHlCKfsTH14QEYsOaODHVSqDcVg==";
         };
+        _vurJ1Gz6 = {
+            "id" = "vurJ1Gz6";
+            "file" = "allstacksinfinite-17.3.1.2.jar";
+            "hash" = "sha512-SrVO5qEfZtzB/tH/qqBnQXFnYv0dWuPzdiz7H4JJRfuQ1oRUVRZNWpYnhjFdyBV69Mr071ZOGOIGIqMULlyNcQ==";
+        };
+        _LxC3OB6E = {
+            "id" = "LxC3OB6E";
+            "file" = "allstacksinfinite-17.1.2.2.jar";
+            "hash" = "sha512-izutnhQvg42msMPfWxR5ossCCNfBnILknxXzf99Sy5IshDKDW/AZ79rBZnOUHD8FNRsZmjad/UvCFqwBJt0Kfw==";
+        };
+        _rmFjk2Oh = {
+            "id" = "rmFjk2Oh";
+            "file" = "allstacksinfinite-17.0.3.2.jar";
+            "hash" = "sha512-usf5ow/GpJ0+6VqQ/dCcRNNDFZgqix/eMXL4I2yKneDpb/e9u2OlxfpdQmQSHrF8BE9O0bvrrtd7yun6Xx4mvg==";
+        };
     in {
         "icQYNBu4" = _icQYNBu4;
         "PkKu4D5X" = _PkKu4D5X;
@@ -248,24 +263,27 @@ let
         "qyL9KpEx" = _qyL9KpEx;
         "4eDOfwwo" = _4eDOfwwo;
         "MAPNBPUd" = _MAPNBPUd;
+        "vurJ1Gz6" = _vurJ1Gz6;
+        "LxC3OB6E" = _LxC3OB6E;
+        "rmFjk2Oh" = _rmFjk2Oh;
         "forge-1.20.1" = _aRXNh6gO;
         "forge-26.1" = _fqPcSPce;
         "forge-26.1.1" = _fqPcSPce;
-        "forge-26.1.2" = _MAPNBPUd;
-        "forge-26.2" = _MAPNBPUd;
-        "forge-26.3" = _MAPNBPUd;
+        "forge-26.1.2" = _vurJ1Gz6;
+        "forge-26.2" = _vurJ1Gz6;
+        "forge-26.3" = _vurJ1Gz6;
         "neoforge-26.1" = _aKpPQXFW;
         "neoforge-26.1.1" = _aKpPQXFW;
-        "neoforge-26.1.2" = _FhhCr2kZ;
-        "neoforge-26.2" = _FhhCr2kZ;
-        "neoforge-26.3" = _FhhCr2kZ;
+        "neoforge-26.1.2" = _LxC3OB6E;
+        "neoforge-26.2" = _LxC3OB6E;
+        "neoforge-26.3" = _LxC3OB6E;
         "neoforge-1.21.1" = _uJsg6NLy;
         "neoforge-1.21.11" = _LUPzBvfs;
         "fabric-26.1" = _W9kiclxX;
         "fabric-26.1.1" = _W9kiclxX;
-        "fabric-26.1.2" = _4eDOfwwo;
-        "fabric-26.2" = _4eDOfwwo;
-        "fabric-26.3" = _4eDOfwwo;
+        "fabric-26.1.2" = _rmFjk2Oh;
+        "fabric-26.2" = _rmFjk2Oh;
+        "fabric-26.3" = _rmFjk2Oh;
         "fabric-1.21.11" = _BcJ3sBVP;
         "fabric-1.21.1" = _2DAmIWrm;
         "fabric-1.20.1" = _Cu1biA3j;
@@ -312,7 +330,10 @@ let
         "pkg-16.0.3.1" = _qyL9KpEx;
         "pkg-16.0.3.2" = _4eDOfwwo;
         "pkg-16.3.1.2" = _MAPNBPUd;
-        "default" = _MAPNBPUd;
+        "pkg-17.3.1.2" = _vurJ1Gz6;
+        "pkg-17.1.2.2" = _LxC3OB6E;
+        "pkg-17.0.3.2" = _rmFjk2Oh;
+        "default" = _rmFjk2Oh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-stacks-infinite";

@@ -101,6 +101,11 @@ let
             "file" = "armour-durability-26.3.jar";
             "hash" = "sha512-rlgvminVfVWEoW2F0nxvogC8DoaWTQqpC9+zObomNoHZuZrYFev/DQ00oLK7KIA1V5KGbhQTS83tHC7HziQqRA==";
         };
+        _YKvN9wzJ = {
+            "id" = "YKvN9wzJ";
+            "file" = "armour-durability-1.11.26+mc26.3.jar";
+            "hash" = "sha512-+F8shaCjOMPKKVdfFFVkX7tGUHfe7gBBVMh0hwNm0Qp0vh+JGKNhqpqWhwvQzDV13m4VAsRScRqbWiMPfnAEdg==";
+        };
     in {
         "TlQXxf7l" = _TlQXxf7l;
         "jvSG0aXW" = _jvSG0aXW;
@@ -122,6 +127,7 @@ let
         "gNT5lNLd" = _gNT5lNLd;
         "bDJkVwjA" = _bDJkVwjA;
         "C1LMndiD" = _C1LMndiD;
+        "YKvN9wzJ" = _YKvN9wzJ;
         "fabric-1.21" = _TlQXxf7l;
         "fabric-1.21.1" = _jvSG0aXW;
         "fabric-1.21.2" = _iviA2iLR;
@@ -138,7 +144,7 @@ let
         "fabric-26.1.1" = _q7tJvgZ7;
         "fabric-26.1.2" = _gNT5lNLd;
         "fabric-26.2" = _bDJkVwjA;
-        "fabric-26.3" = _C1LMndiD;
+        "fabric-26.3" = _YKvN9wzJ;
         "pkg-1.21" = _TlQXxf7l;
         "pkg-1.21.1" = _jvSG0aXW;
         "pkg-1.21.2" = _iviA2iLR;
@@ -156,7 +162,8 @@ let
         "pkg-26.1.2" = _gNT5lNLd;
         "pkg-26.2" = _bDJkVwjA;
         "pkg-26.3" = _C1LMndiD;
-        "default" = _C1LMndiD;
+        "pkg-1.11.26+mc26.3" = _YKvN9wzJ;
+        "default" = _YKvN9wzJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armour-durablity-hud";

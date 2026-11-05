@@ -101,6 +101,66 @@ let
             "file" = "emotecraft-borrow-their-emote-1.0.1+26.2+fabric.jar";
             "hash" = "sha512-YyAHqJLObElDVT4eL16EX02H2zstmBDcAStJA7bU2U/8HWcqW/eKpOw2fvtigRFCyQxgVB4eHzBytMjfGlaccA==";
         };
+        _z2p0tGA4 = {
+            "id" = "z2p0tGA4";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+1.20.1+forge.jar";
+            "hash" = "sha512-bjscfJvgLRKFt5d+XcJq4M8leUEU+2sILr7mUuezGDAjH4mUzRvLoKFFtKYJZcLTmmFH6FUdnw4L/xwKJkAzng==";
+        };
+        _iciUVg9D = {
+            "id" = "iciUVg9D";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+1.21.1+neoforge.jar";
+            "hash" = "sha512-1gi9I57VU+oq5qZIMrUZ+ixyhFc5qMWDkQWpa5ujhB5j+NgSihhWjhMVcDZVGw5LeoOjMp4m5Pqg6xICpoa2NA==";
+        };
+        _yEMP1kv7 = {
+            "id" = "yEMP1kv7";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+1.21.11+neoforge.jar";
+            "hash" = "sha512-1lXPfIDO9EMxNJZEYFPIb/3RTBN+F5KX0Y51OkZPFph/eUYQl5igb1fVNL6/buib3SiYGFgxsp05F2l9d6BDTA==";
+        };
+        _WjXURBOg = {
+            "id" = "WjXURBOg";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+26.1+neoforge.jar";
+            "hash" = "sha512-E/dLIQ1U8hQEak7SuZM6LeptzP9kUi8xMh2QmZsS8UItgtQhGKCAa6Ba88+3ZaAqbh56VkMPqWOQJCpTDWLmzg==";
+        };
+        _zNU4GJKi = {
+            "id" = "zNU4GJKi";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+26.2+neoforge.jar";
+            "hash" = "sha512-DKP5/WqQ+Jkd+JGb7qonegUy1Zx2IT6WrirX4aLBc6zfsUB14plY5JJaVKz8lUQ6xrwIPx2uK9KCrxXqDsZ75A==";
+        };
+        _XUQ42yHR = {
+            "id" = "XUQ42yHR";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+26.3+neoforge.jar";
+            "hash" = "sha512-GX2YpB/XkjwFYC2u5ctqONpDWVwvBMGPqAGxypjHDmaqTeiBmbXNlAZhT+/GZ1UAIrAX4sXLf5g3Ud6M5cbT3Q==";
+        };
+        _CZWdMHao = {
+            "id" = "CZWdMHao";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+1.20.1+fabric.jar";
+            "hash" = "sha512-eH9Kn5tRjwYNpJx725lvVxy3Ga/VdprdUc+ll1nLmThTgPxu0NPTWpFlGNA0PMfyU/rCdHdnFR1gMbpIk9Xp/Q==";
+        };
+        _aHbeXEc6 = {
+            "id" = "aHbeXEc6";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+1.21.1+fabric.jar";
+            "hash" = "sha512-RejxqoqpzELtbjiF0MWWNgbPTCrvAXdi1SM6BVyS98QjjlvvpTBloX6v2b4q4IF0FixBFRmhCe688u8hos54mQ==";
+        };
+        _WTMXrWlU = {
+            "id" = "WTMXrWlU";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+1.21.11+fabric.jar";
+            "hash" = "sha512-WtMxgT9US2pJg5WyuiqhkmjUyGk4vND0+M0fQnaEVqIKQJJq0/KHfTb2Cwo9Y6J1fH1/FLQH95Irl3vWlFtaIg==";
+        };
+        _Ck66z146 = {
+            "id" = "Ck66z146";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+26.1+fabric.jar";
+            "hash" = "sha512-W6ZO80XCb1FGdpu/SWLp7LdGzsCoskRQcMKApeHXYc2tZKzh0KEGitQlr3paYdBCvlDR1NEquO+unZUygzCitA==";
+        };
+        _kE5vRCUj = {
+            "id" = "kE5vRCUj";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+26.2+fabric.jar";
+            "hash" = "sha512-ECcb+aNpDQECFqT7Fux92bHaLq0nIQnIjs3g7WZu9l63kRN6WJs0foj5fJVN1CvN3jYiqbONLvzziW58O2NvKA==";
+        };
+        _i2ByavOQ = {
+            "id" = "i2ByavOQ";
+            "file" = "emotecraft-borrow-their-emote-1.0.2+26.3+fabric.jar";
+            "hash" = "sha512-xQInxGq8pOGnawwV6ItOW5rWM/C2Yu+8Q8cJYaHE9anEQ6Zc56iAnOpUhcjMl2+XH1A49B3SKktTosq6hQ+ZyQ==";
+        };
     in {
         "uE1ZAAud" = _uE1ZAAud;
         "9PZsakay" = _9PZsakay;
@@ -122,20 +182,34 @@ let
         "ZZvPmVtw" = _ZZvPmVtw;
         "KikVpnUP" = _KikVpnUP;
         "E6MP7xld" = _E6MP7xld;
-        "forge-1.20.1" = _yQq3KXrY;
-        "neoforge-1.21.1" = _uP1IVrPC;
-        "neoforge-1.21.11" = _8GPUlesc;
-        "neoforge-26.1" = _Bc98FZ8T;
-        "neoforge-26.1.1" = _Bc98FZ8T;
-        "neoforge-26.1.2" = _Bc98FZ8T;
-        "neoforge-26.2" = _QvSUAUVU;
-        "fabric-1.20.1" = _fUW55ueE;
-        "fabric-1.21.1" = _RqOPAC7v;
-        "fabric-1.21.11" = _ZZvPmVtw;
-        "fabric-26.1" = _KikVpnUP;
-        "fabric-26.1.1" = _KikVpnUP;
-        "fabric-26.1.2" = _KikVpnUP;
-        "fabric-26.2" = _E6MP7xld;
+        "z2p0tGA4" = _z2p0tGA4;
+        "iciUVg9D" = _iciUVg9D;
+        "yEMP1kv7" = _yEMP1kv7;
+        "WjXURBOg" = _WjXURBOg;
+        "zNU4GJKi" = _zNU4GJKi;
+        "XUQ42yHR" = _XUQ42yHR;
+        "CZWdMHao" = _CZWdMHao;
+        "aHbeXEc6" = _aHbeXEc6;
+        "WTMXrWlU" = _WTMXrWlU;
+        "Ck66z146" = _Ck66z146;
+        "kE5vRCUj" = _kE5vRCUj;
+        "i2ByavOQ" = _i2ByavOQ;
+        "forge-1.20.1" = _z2p0tGA4;
+        "neoforge-1.21.1" = _iciUVg9D;
+        "neoforge-1.21.11" = _yEMP1kv7;
+        "neoforge-26.1" = _WjXURBOg;
+        "neoforge-26.1.1" = _WjXURBOg;
+        "neoforge-26.1.2" = _WjXURBOg;
+        "neoforge-26.2" = _zNU4GJKi;
+        "neoforge-26.3" = _XUQ42yHR;
+        "fabric-1.20.1" = _CZWdMHao;
+        "fabric-1.21.1" = _aHbeXEc6;
+        "fabric-1.21.11" = _WTMXrWlU;
+        "fabric-26.1" = _Ck66z146;
+        "fabric-26.1.1" = _Ck66z146;
+        "fabric-26.1.2" = _Ck66z146;
+        "fabric-26.2" = _kE5vRCUj;
+        "fabric-26.3" = _i2ByavOQ;
         "pkg-1.0.0+1.20.1+forge" = _uE1ZAAud;
         "pkg-1.0.0+1.21.1+neoforge" = _9PZsakay;
         "pkg-1.0.0+1.21.11+neoforge" = _6QsUZ6KJ;
@@ -156,7 +230,19 @@ let
         "pkg-1.0.1+1.21.11+fabric" = _ZZvPmVtw;
         "pkg-1.0.1+26.1+fabric" = _KikVpnUP;
         "pkg-1.0.1+26.2+fabric" = _E6MP7xld;
-        "default" = _E6MP7xld;
+        "pkg-1.0.2+1.20.1+forge" = _z2p0tGA4;
+        "pkg-1.0.2+1.21.1+neoforge" = _iciUVg9D;
+        "pkg-1.0.2+1.21.11+neoforge" = _yEMP1kv7;
+        "pkg-1.0.2+26.1+neoforge" = _WjXURBOg;
+        "pkg-1.0.2+26.2+neoforge" = _zNU4GJKi;
+        "pkg-1.0.2+26.3+neoforge" = _XUQ42yHR;
+        "pkg-1.0.2+1.20.1+fabric" = _CZWdMHao;
+        "pkg-1.0.2+1.21.1+fabric" = _aHbeXEc6;
+        "pkg-1.0.2+1.21.11+fabric" = _WTMXrWlU;
+        "pkg-1.0.2+26.1+fabric" = _Ck66z146;
+        "pkg-1.0.2+26.2+fabric" = _kE5vRCUj;
+        "pkg-1.0.2+26.3+fabric" = _i2ByavOQ;
+        "default" = _i2ByavOQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emotecraft-borrow-their-emote";

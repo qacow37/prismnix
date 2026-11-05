@@ -96,6 +96,11 @@ let
             "file" = "industrialization_overdrive-1.14.0+1.21.1.jar";
             "hash" = "sha512-WTc0WQBsI7Y9MN7kl5yTInqhzB+YHVV3Km7PCrL8fMGORjiZMq5bHF+ho0yHZ5pBKeYxAj64tjG8H0U96wxgfA==";
         };
+        _3htT68Cs = {
+            "id" = "3htT68Cs";
+            "file" = "industrialization_overdrive-1.15.0+1.21.1.jar";
+            "hash" = "sha512-qKh2grBw/3l3Q8cMYCKSlZjPMZmYGW418vr2ctIstZce4VMOwAGEfsMLT9s5Zs6zEzHeecAP7U4mKHv0ggEaqw==";
+        };
     in {
         "paz3WkE8" = _paz3WkE8;
         "LiQ4kAO5" = _LiQ4kAO5;
@@ -116,8 +121,9 @@ let
         "VqD5XyMY" = _VqD5XyMY;
         "wo4hYOPK" = _wo4hYOPK;
         "6cbTrnqZ" = _6cbTrnqZ;
+        "3htT68Cs" = _3htT68Cs;
         "neoforge-1.21" = _LiQ4kAO5;
-        "neoforge-1.21.1" = _6cbTrnqZ;
+        "neoforge-1.21.1" = _3htT68Cs;
         "pkg-1.0.0+1.21" = _paz3WkE8;
         "pkg-1.1.0+1.21" = _LiQ4kAO5;
         "pkg-1.2.0+1.21.1" = _yPILOn1C;
@@ -137,7 +143,8 @@ let
         "pkg-1.10.5+1.21.1" = _VqD5XyMY;
         "pkg-1.10.7+1.21.1" = _wo4hYOPK;
         "pkg-1.14.0+1.21.1" = _6cbTrnqZ;
-        "default" = _6cbTrnqZ;
+        "pkg-1.15.0+1.21.1" = _3htT68Cs;
+        "default" = _3htT68Cs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "industrialization-overdrive";

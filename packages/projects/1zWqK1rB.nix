@@ -116,6 +116,26 @@ let
             "file" = "fast_furnaces-26.3-NEO-1.0.0.jar";
             "hash" = "sha512-6M8qeobOaoQLz0ezum3k6VTFTQeTGCn04pOHNsdQrAIdImZzDNW7/D0fSd12uSLCkAA+vc/3raUV3kBikmfnhg==";
         };
+        _GPEuZIrB = {
+            "id" = "GPEuZIrB";
+            "file" = "fast-furnaces-1.18.2-FORGE-1.0.0.jar";
+            "hash" = "sha512-ROBKJYLJCYB8ZFsI1P8g25+oKMNZfWOpg8fchHeNnCBFS9ZBzpIOdlrKT5YqbuIW/eh7FvEyQxzIdeZ0YGvhFw==";
+        };
+        _qSVsIFQc = {
+            "id" = "qSVsIFQc";
+            "file" = "fast-furnaces-26.1.2-NEO-1.0.1.jar";
+            "hash" = "sha512-9OMG2/bjN7IqtlJsuhk25Wf8r97NLMc27Hzz/3o1aD1cw453l/b3rIuMG2KvU+MRaHqp3jdDVHQQCAIB+DTA+w==";
+        };
+        _YQdInKy8 = {
+            "id" = "YQdInKy8";
+            "file" = "fast-furnaces-1.16.5-FORGE-1.0.0.jar";
+            "hash" = "sha512-ILbcF+iJhuHRs2nV6cRuLxCVZUx893CvGhwNJauAswwEmuEo+oHPOXNEihhQ4W8bPfbQ2eyh0PzeIV8Inezt3g==";
+        };
+        _qHxfbKi5 = {
+            "id" = "qHxfbKi5";
+            "file" = "fast-furnaces-1.20.4-neoforge-1.0.0.jar";
+            "hash" = "sha512-NKWsm11uhdzY/30wzsVpL7pNtGJn5EYflM/pjeWqeMYnKYBb9gOJcn2X8ElZek+lGh6uUFTZLbkAr+rLnAGdlg==";
+        };
     in {
         "7qPcEJ0D" = _7qPcEJ0D;
         "Wbs6VZ4q" = _Wbs6VZ4q;
@@ -140,6 +160,10 @@ let
         "JyZYNFdo" = _JyZYNFdo;
         "yKMAMzrs" = _yKMAMzrs;
         "2czBcHn6" = _2czBcHn6;
+        "GPEuZIrB" = _GPEuZIrB;
+        "qSVsIFQc" = _qSVsIFQc;
+        "YQdInKy8" = _YQdInKy8;
+        "qHxfbKi5" = _qHxfbKi5;
         "datapack-1.21" = _UKk844YS;
         "datapack-1.21.1" = _UKk844YS;
         "datapack-1.21.2" = _UKk844YS;
@@ -167,9 +191,12 @@ let
         "datapack-1.19.2" = _WXIqmOAx;
         "forge-1.19.2" = _G6hNRYil;
         "forge-1.20.1" = _uVyeh6FS;
+        "forge-1.18.2" = _GPEuZIrB;
+        "forge-1.16.5" = _YQdInKy8;
         "neoforge-1.21.1" = _JyZYNFdo;
-        "neoforge-26.1.2" = _yKMAMzrs;
+        "neoforge-26.1.2" = _qSVsIFQc;
         "neoforge-26.3" = _2czBcHn6;
+        "neoforge-1.20.4" = _qHxfbKi5;
         "pkg-Multi_1.0.0" = _7qPcEJ0D;
         "pkg-Multi_1.1.0" = _Wbs6VZ4q;
         "pkg-Multi_1.1.0b" = _skGXL40U;
@@ -192,7 +219,11 @@ let
         "pkg-1.20.1-FORGE-1.0.0" = _uVyeh6FS;
         "pkg-26.1.2-NEOFORGE-1.0.0" = _yKMAMzrs;
         "pkg-26.3-NEOFORGE-1.0.0" = _2czBcHn6;
-        "default" = _2czBcHn6;
+        "pkg-1.18.2-FORGE-1.0.0" = _GPEuZIrB;
+        "pkg-26.1.2-NEOFORGE-1.0.1" = _qSVsIFQc;
+        "pkg-1.16.5-FORGE-1.0.0" = _YQdInKy8;
+        "pkg-1.20.4-NEOFORGE-1.0.0" = _qHxfbKi5;
+        "default" = _qHxfbKi5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-furnaces";

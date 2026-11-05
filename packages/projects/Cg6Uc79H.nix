@@ -121,6 +121,16 @@ let
             "file" = "Mantle-1.20.1-1.11.117.jar";
             "hash" = "sha512-mFGng0L0vA5E3iycSrkK0W5fsRztlP92IK64w/3p7GjvEfF+U9mNfNtk75tsbUqKfQZdYPX33wYs8oNtQOcJNA==";
         };
+        _WWRIIbP8 = {
+            "id" = "WWRIIbP8";
+            "file" = "Mantle-1.20.1-1.11.128.jar";
+            "hash" = "sha512-zyjnZPeGtK5a1XngaYSKXvRl8n1rqwE+qBy2Y7GPLYtvf4DlxmPDYxtVE7gaStJOOQrsjLUuuJ37JjD2JZsKbQ==";
+        };
+        _KmCa1VWK = {
+            "id" = "KmCa1VWK";
+            "file" = "Mantle-1.21.1-1.12.35.jar";
+            "hash" = "sha512-wfdBDlrXX/IVygjex9YjwChXW9k/Rp0lshAcUROC7YZ5KiRhz2CtpcC3+DdtRSpAn9+aykL6/161Hql6qV/8kQ==";
+        };
     in {
         "zVYAkvYQ" = _zVYAkvYQ;
         "OyiVX48M" = _OyiVX48M;
@@ -146,13 +156,16 @@ let
         "E5Nuh0oh" = _E5Nuh0oh;
         "SOJzuYxC" = _SOJzuYxC;
         "37ccXi7G" = _37ccXi7G;
+        "WWRIIbP8" = _WWRIIbP8;
+        "KmCa1VWK" = _KmCa1VWK;
         "forge-1.18.2" = _qNlX7voE;
         "forge-1.16.5" = _OyiVX48M;
         "forge-1.12.2" = _XPQUzjYi;
         "forge-1.7.10" = _QIPKIINd;
         "forge-1.19.2" = _FKBjYrjk;
-        "forge-1.20.1" = _37ccXi7G;
-        "neoforge-1.20.1" = _37ccXi7G;
+        "forge-1.20.1" = _WWRIIbP8;
+        "neoforge-1.20.1" = _WWRIIbP8;
+        "neoforge-1.21.1" = _KmCa1VWK;
         "pkg-1.9.31" = _zVYAkvYQ;
         "pkg-1.6.157" = _OyiVX48M;
         "pkg-1.3.3.55" = _XPQUzjYi;
@@ -177,7 +190,9 @@ let
         "pkg-1.11.97" = _E5Nuh0oh;
         "pkg-1.11.104" = _SOJzuYxC;
         "pkg-1.11.117" = _37ccXi7G;
-        "default" = _37ccXi7G;
+        "pkg-1.11.128" = _WWRIIbP8;
+        "pkg-1.12.35" = _KmCa1VWK;
+        "default" = _KmCa1VWK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mantle";

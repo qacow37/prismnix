@@ -341,6 +341,11 @@ let
             "file" = "PepeLand Helper-fabric-2.0.0-beta.3.1+mc26.2.jar";
             "hash" = "sha512-DDCjD4mO7nANwbKpzBxNnrsQ/AyMPsSAPoJonXnR2iIaK/qH8VrG+Hsyb6byGN5I1WSoSkyDKBcD13ERZT/u0Q==";
         };
+        _PfNNoZLF = {
+            "id" = "PfNNoZLF";
+            "file" = "PepeLand Helper-fabric-2.0.0-beta.4+mc26.3.jar";
+            "hash" = "sha512-QVSZno/lgd7s7nHfxdPyBgd/CedSQhdG5rK2jxvPdzMZtjQUl9vg6sInzs7NPpzc75XXXzMGMiqaXBuhygMX6A==";
+        };
     in {
         "TCfUj1SF" = _TCfUj1SF;
         "YnRHGO7t" = _YnRHGO7t;
@@ -410,6 +415,7 @@ let
         "CwFVW550" = _CwFVW550;
         "Pv5S6lYt" = _Pv5S6lYt;
         "hdrHSgxe" = _hdrHSgxe;
+        "PfNNoZLF" = _PfNNoZLF;
         "fabric-1.21.3" = _Rm8f6ZWG;
         "fabric-1.21.4" = _Rm8f6ZWG;
         "fabric-1.21.5" = _9oNXeANd;
@@ -418,6 +424,7 @@ let
         "fabric-1.21.8" = _CwFVW550;
         "fabric-25w31a" = _qaOmebF8;
         "fabric-26.2" = _hdrHSgxe;
+        "fabric-26.3" = _PfNNoZLF;
         "quilt-1.21.3" = _Rm8f6ZWG;
         "quilt-1.21.4" = _Rm8f6ZWG;
         "quilt-1.21.5" = _9oNXeANd;
@@ -426,6 +433,7 @@ let
         "quilt-1.21.8" = _CwFVW550;
         "quilt-25w31a" = _qaOmebF8;
         "quilt-26.2" = _hdrHSgxe;
+        "quilt-26.3" = _PfNNoZLF;
         "pkg-1.0.0-beta.1" = _TCfUj1SF;
         "pkg-1.0.0-beta.2" = _YnRHGO7t;
         "pkg-1.0.0-beta.3" = _mgvzMLUB;
@@ -482,7 +490,8 @@ let
         "pkg-2.0.0-beta.2" = _CwFVW550;
         "pkg-2.0.0-beta.3" = _Pv5S6lYt;
         "pkg-2.0.0-beta.3.1" = _hdrHSgxe;
-        "default" = _hdrHSgxe;
+        "pkg-2.0.0-beta.4" = _PfNNoZLF;
+        "default" = _PfNNoZLF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ppl-helper";

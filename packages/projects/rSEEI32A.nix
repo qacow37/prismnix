@@ -71,6 +71,16 @@ let
             "file" = "lock-end-3.1.0.jar";
             "hash" = "sha512-sp5QkMGMlaSzm7EljVFudNbl2g8HHbOpXTFgZljQzOyQSDmKNKX0DrqYPgkaFTZZBTJMvzAJF3zpaxeutZUEGg==";
         };
+        _CYb3DZyh = {
+            "id" = "CYb3DZyh";
+            "file" = "lock-end-fabric-4.0.0.jar";
+            "hash" = "sha512-XCsdWZ/uK+66htqZf43jm2YyUPAig42eh3hEwwGY1jdcxzq48jDEbKPJfktQrh04MUZqHjPVSDZyDDfewtpGnA==";
+        };
+        _B6uzVoBZ = {
+            "id" = "B6uzVoBZ";
+            "file" = "lock-end-datapack-4.0.0.zip";
+            "hash" = "sha512-PDT1qURbrSI71tiqmSKDKiYCY3c+o78kcrcPg1tZ6LVqo2skhjNp8LF/GhODLYYbU+8B2h+Zh8u+0fK6cUGoEQ==";
+        };
     in {
         "icsb9Zlf" = _icsb9Zlf;
         "WyE5swss" = _WyE5swss;
@@ -86,6 +96,8 @@ let
         "I1lKqnYU" = _I1lKqnYU;
         "kOFXaeN2" = _kOFXaeN2;
         "EvRoxK4g" = _EvRoxK4g;
+        "CYb3DZyh" = _CYb3DZyh;
+        "B6uzVoBZ" = _B6uzVoBZ;
         "bukkit-1.20" = _icsb9Zlf;
         "bukkit-1.20.1" = _icsb9Zlf;
         "bukkit-1.20.2" = _icsb9Zlf;
@@ -185,6 +197,8 @@ let
         "folia-26.2-rc-2" = _WyE5swss;
         "folia-26.2" = _yA1aDxEp;
         "folia-26.3" = _EvRoxK4g;
+        "fabric-26.3" = _CYb3DZyh;
+        "datapack-26.3" = _B6uzVoBZ;
         "pkg-1.0.0" = _icsb9Zlf;
         "pkg-1.1.0" = _WyE5swss;
         "pkg-1.2" = _kHKBs3qa;
@@ -199,7 +213,8 @@ let
         "pkg-3.0.0" = _I1lKqnYU;
         "pkg-3.0.2" = _kOFXaeN2;
         "pkg-3.1.0" = _EvRoxK4g;
-        "default" = _EvRoxK4g;
+        "pkg-4.0.0" = _B6uzVoBZ;
+        "default" = _B6uzVoBZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lock-end";

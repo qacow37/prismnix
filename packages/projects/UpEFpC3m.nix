@@ -186,6 +186,11 @@ let
             "file" = "more_lights-1.4-neoforge-26.2.jar";
             "hash" = "sha512-A0CiZUQTzmdyYIhYApfLwVhK7E+7zba2cHuNL771T13VV35jYo3p8sJOvB0u7DMKduU1Pi78c09UA1hdHOw9CQ==";
         };
+        _3QrWKiv8 = {
+            "id" = "3QrWKiv8";
+            "file" = "more_lights-1.4-neoforge-26.3.jar";
+            "hash" = "sha512-tWIo0IXDKoKTNgBtyN0I2fn2yli+/+k1/kKnoJ9cRrx6Tr6Wp3Rk5p80r/w4AIx4lj70iHyvpeH8xpvlIIOw0g==";
+        };
     in {
         "vhh6uCS6" = _vhh6uCS6;
         "Nj33yiOL" = _Nj33yiOL;
@@ -224,6 +229,7 @@ let
         "sVUyQ9Bp" = _sVUyQ9Bp;
         "SwKwx6UB" = _SwKwx6UB;
         "ieE4RX0f" = _ieE4RX0f;
+        "3QrWKiv8" = _3QrWKiv8;
         "neoforge-1.21.1" = _HU2TMzK1;
         "neoforge-1.21.3" = _GfDpGxP7;
         "neoforge-1.21.4" = _aVDlbaij;
@@ -237,6 +243,7 @@ let
         "neoforge-26.2" = _ieE4RX0f;
         "neoforge-26.1" = _ieE4RX0f;
         "neoforge-26.1.1" = _ieE4RX0f;
+        "neoforge-26.3" = _3QrWKiv8;
         "fabric-1.21" = _1OLeHhQM;
         "fabric-1.21.1" = _1OLeHhQM;
         "fabric-1.21.2" = _NtQTd1Io;
@@ -265,8 +272,8 @@ let
         "pkg-1.1" = _eOTqfoq7;
         "pkg-1.2" = _BHDfS2Ew;
         "pkg-1.3" = _OU6Ljw5v;
-        "pkg-1.4" = _ieE4RX0f;
-        "default" = _ieE4RX0f;
+        "pkg-1.4" = _3QrWKiv8;
+        "default" = _3QrWKiv8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-lights";

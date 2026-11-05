@@ -91,6 +91,11 @@ let
             "file" = "Legends-1.20.1-ss1.0.23.jar";
             "hash" = "sha512-yadj2mlVDUe+ldI68mEO1/USbVQsEYWpavpf1zOmBiCwXPx4v83PynruBYgEvysAJYyOjF9nhNfxt0wqooKxRg==";
         };
+        _VTOdVc1H = {
+            "id" = "VTOdVc1H";
+            "file" = "Legends-1.20.1-ss1.0.24.jar";
+            "hash" = "sha512-Fm4yD27ZVzxl1EI2M5xgcVQLhF1ESQ8UG1CUe7zlSAdjmi8C9PynDwwFf/qLE6ALfcrbbolAaBL3YjKWtaz/jw==";
+        };
     in {
         "b1XiXohJ" = _b1XiXohJ;
         "ygSdXPsl" = _ygSdXPsl;
@@ -110,9 +115,10 @@ let
         "kZUa6R4y" = _kZUa6R4y;
         "nCsrAjfS" = _nCsrAjfS;
         "o6F1BPR4" = _o6F1BPR4;
+        "VTOdVc1H" = _VTOdVc1H;
         "forge-1.18.2" = _b1XiXohJ;
         "forge-1.7.10" = _ygSdXPsl;
-        "forge-1.20.1" = _o6F1BPR4;
+        "forge-1.20.1" = _VTOdVc1H;
         "pkg-1.18.2-ss0.9.4" = _b1XiXohJ;
         "pkg-1.7.10-8.6.2" = _ygSdXPsl;
         "pkg-1.20.1-ss1.0.3" = _EwlgJgYt;
@@ -131,7 +137,8 @@ let
         "pkg-1.20.1-ss1.0.21" = _kZUa6R4y;
         "pkg-1.20.1-ss1.0.22" = _nCsrAjfS;
         "pkg-1.20.1-ss1.0.23" = _o6F1BPR4;
-        "default" = _o6F1BPR4;
+        "pkg-1.20.1-ss1.0.24" = _VTOdVc1H;
+        "default" = _VTOdVc1H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legends-mod-core";

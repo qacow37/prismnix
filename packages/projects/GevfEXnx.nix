@@ -176,6 +176,151 @@ let
             "file" = "peterwolfs-realistic-tree-felling-1.1.7+1.21.1.jar";
             "hash" = "sha512-myHXry0N0Php9gZHTTqJUQpeSHnykSceEV2wP12QVTS5SV9hme+lJP+8PtDR0apVOonTfVGkgJTBBqxaV+lGXA==";
         };
+        _SM0xjKpI = {
+            "id" = "SM0xjKpI";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8.jar";
+            "hash" = "sha512-r6xAoVPXiXvTMFYoqxssFcbzWFZ3xXB7f6GEIxW14JefJdO68550X6f1y0bvyS08pIsVCJYTuv4WmIEjMChucA==";
+        };
+        _QW6cdNEj = {
+            "id" = "QW6cdNEj";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8.jar";
+            "hash" = "sha512-+FXPLv5SEYVknaOo3mA6/pVu5S/BS3M4DUcZ8AmNDE9kumfDRY2GKd80FkuhAWjDtgwwKIULlXUAnY91hk/LFQ==";
+        };
+        _q0saoa7w = {
+            "id" = "q0saoa7w";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+26.2.jar";
+            "hash" = "sha512-S7EJyYksomVcLxccLcbgXOPuML6wO0IGSkTCjHr5IT2VmuyYd31g4WWXzo6rHLBu7VQLL12xP0K2tzUoU9oc3A==";
+        };
+        _Re1K4Viq = {
+            "id" = "Re1K4Viq";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8+26.2.jar";
+            "hash" = "sha512-EXq3nsesAmdy6TmtmSPPro6fj3j7uSqsutsN/X/FI27WCjR26Fzu7xK+auVmhno3J4NPOxv5mengjEaHiBvlfQ==";
+        };
+        _TU3VCC6b = {
+            "id" = "TU3VCC6b";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.21.11.jar";
+            "hash" = "sha512-hw5Oa6fhFjeVRKm1bLynWFaGGsETevlMb4j99zW0N/XUonwXXXaWMwoX2/ru1TU3NpmWjroGyoU2P19+KLFZmg==";
+        };
+        _bbsBVVbV = {
+            "id" = "bbsBVVbV";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8+1.21.11.jar";
+            "hash" = "sha512-14pB+s5ZHqgIKjjnotsY93F2MUL/gwUAjUykpKH7pLmzrrg+5HgtT9wGBhq8uTVKooeUXtLyrlNgbwWNZ2/0tg==";
+        };
+        _AibrT0on = {
+            "id" = "AibrT0on";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.21.1.jar";
+            "hash" = "sha512-pRYhsNSqvsURCvVeT9wQs88m2idsgCp1rAvW+2RVrs49Cjiq58DrQim5F/0zWsl/UuszRxqZjulBuu/FM6nKdw==";
+        };
+        _EVaCzkrP = {
+            "id" = "EVaCzkrP";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8+1.21.1.jar";
+            "hash" = "sha512-wUxXgSsWg0lTB9nwNrg6ardnrp864B4fV4EqJdnAV3ynPdZzxhpERGmRA03kwF1+0sFaBOnWfYsrYTNyTK4GqA==";
+        };
+        _nbksr6iu = {
+            "id" = "nbksr6iu";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.20.1.jar";
+            "hash" = "sha512-9nBYBwRnAmmjtkvMzOYMmOzUuh3uDeeU3AGAubYZ3qIGhW570gE+vP9s1AU/C+qdGYtrE4Gm2XGgu1gjP8cPuw==";
+        };
+        _3sXpx1iJ = {
+            "id" = "3sXpx1iJ";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.20.1.jar";
+            "hash" = "sha512-0UZOPF8MGnpELLqUIcIYAkZNC42iWu2L8NpobRVF0wZlXT5dlMToQGaDPI/XDBBIMO1SjdDwDd9pTGO3WYswRA==";
+        };
+        _KOlbox6S = {
+            "id" = "KOlbox6S";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8.jar";
+            "hash" = "sha512-r6xAoVPXiXvTMFYoqxssFcbzWFZ3xXB7f6GEIxW14JefJdO68550X6f1y0bvyS08pIsVCJYTuv4WmIEjMChucA==";
+        };
+        _MDVitQE2 = {
+            "id" = "MDVitQE2";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8.jar";
+            "hash" = "sha512-+FXPLv5SEYVknaOo3mA6/pVu5S/BS3M4DUcZ8AmNDE9kumfDRY2GKd80FkuhAWjDtgwwKIULlXUAnY91hk/LFQ==";
+        };
+        _EEmDl9io = {
+            "id" = "EEmDl9io";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+26.2.jar";
+            "hash" = "sha512-S7EJyYksomVcLxccLcbgXOPuML6wO0IGSkTCjHr5IT2VmuyYd31g4WWXzo6rHLBu7VQLL12xP0K2tzUoU9oc3A==";
+        };
+        _4mBjOWWm = {
+            "id" = "4mBjOWWm";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8+26.2.jar";
+            "hash" = "sha512-EXq3nsesAmdy6TmtmSPPro6fj3j7uSqsutsN/X/FI27WCjR26Fzu7xK+auVmhno3J4NPOxv5mengjEaHiBvlfQ==";
+        };
+        _aZ1UziY2 = {
+            "id" = "aZ1UziY2";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.21.11.jar";
+            "hash" = "sha512-hw5Oa6fhFjeVRKm1bLynWFaGGsETevlMb4j99zW0N/XUonwXXXaWMwoX2/ru1TU3NpmWjroGyoU2P19+KLFZmg==";
+        };
+        _B6y16Hgy = {
+            "id" = "B6y16Hgy";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8+1.21.11.jar";
+            "hash" = "sha512-14pB+s5ZHqgIKjjnotsY93F2MUL/gwUAjUykpKH7pLmzrrg+5HgtT9wGBhq8uTVKooeUXtLyrlNgbwWNZ2/0tg==";
+        };
+        _mTh83sdY = {
+            "id" = "mTh83sdY";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.21.1.jar";
+            "hash" = "sha512-pRYhsNSqvsURCvVeT9wQs88m2idsgCp1rAvW+2RVrs49Cjiq58DrQim5F/0zWsl/UuszRxqZjulBuu/FM6nKdw==";
+        };
+        _1nyGPsEs = {
+            "id" = "1nyGPsEs";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.8+1.21.1.jar";
+            "hash" = "sha512-wUxXgSsWg0lTB9nwNrg6ardnrp864B4fV4EqJdnAV3ynPdZzxhpERGmRA03kwF1+0sFaBOnWfYsrYTNyTK4GqA==";
+        };
+        _mBi6wCJs = {
+            "id" = "mBi6wCJs";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.20.1.jar";
+            "hash" = "sha512-9nBYBwRnAmmjtkvMzOYMmOzUuh3uDeeU3AGAubYZ3qIGhW570gE+vP9s1AU/C+qdGYtrE4Gm2XGgu1gjP8cPuw==";
+        };
+        _Vh4sTAlW = {
+            "id" = "Vh4sTAlW";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.8+1.20.1.jar";
+            "hash" = "sha512-0UZOPF8MGnpELLqUIcIYAkZNC42iWu2L8NpobRVF0wZlXT5dlMToQGaDPI/XDBBIMO1SjdDwDd9pTGO3WYswRA==";
+        };
+        _r7okF0gd = {
+            "id" = "r7okF0gd";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.9+26.2.jar";
+            "hash" = "sha512-6sTbATntCDDsqaDmTvS37BcGMhEY2XXBwDp2HLjK9NyYIUdDAN550A5JZ/TdI0BKU8+5KqGlgnATts3xNobHcA==";
+        };
+        _QYeztcX5 = {
+            "id" = "QYeztcX5";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.9.jar";
+            "hash" = "sha512-f3nueiFcv9ffoj0wfM7u82P0eFM1t6WBKO0aeOP8t4mXJCh9X/3CQ9xrBQ2ZPjr455o2OOd+vux0gD8IMHGoBg==";
+        };
+        _C1TA8uWs = {
+            "id" = "C1TA8uWs";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.9.jar";
+            "hash" = "sha512-FuYOd8WFz5Z1J/TksjF0BaBNuPRDEJrMbqoHlJkvYaID5Aqn2o2NiHhxXc05/3gP6kttAIoRVXLniE+CJ5QhxA==";
+        };
+        _3y0pY2ji = {
+            "id" = "3y0pY2ji";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.9+1.21.11.jar";
+            "hash" = "sha512-6Xcku0j6AV6PhdCs9kiEWOsLV39Kuo7MBW1YYrUjfUzVlcM6TVGAg28kL6Q6v+23h1IlkbqFNyCEtC/uY+I02g==";
+        };
+        _YTJCi27A = {
+            "id" = "YTJCi27A";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.9+1.21.11.jar";
+            "hash" = "sha512-hiFqKhUqvIU8W49NyS4t4aC8bJhdZCO0V3KsdLerbIm40d35NqowVdjULM1S4PC0iprQtuG3f47x0C+qBV6Vvg==";
+        };
+        _zh6gmVUg = {
+            "id" = "zh6gmVUg";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.9+1.21.1.jar";
+            "hash" = "sha512-qblAGgxe0t7iAS0dtHN9e8QeVRu2WYx9H4/3yT/a+cWSeXJ6JDXUWwWcFYejuDFskju0rgKW6ONv6pDIpXqksQ==";
+        };
+        _6j5O8mtw = {
+            "id" = "6j5O8mtw";
+            "file" = "peterwolfs-realistic-tree-felling-neoforge-1.1.9+1.21.1.jar";
+            "hash" = "sha512-QIY94xF8mxzYo2bY7dHs94by9hY/09LchqKX3IhgCT96fi4y6macTgyloWUuM3DCabePWZNhI8BGzcyRLhRbXQ==";
+        };
+        _Eo1PLvQJ = {
+            "id" = "Eo1PLvQJ";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.9+1.20.1.jar";
+            "hash" = "sha512-yyfcHtYP7z3Airk8H7mWxEPxp9R+SKyXpMIPYoo85bmk0th390nWrvZQ2EZgWqBZyPO1bg+nGRCBf6vd0gTCqA==";
+        };
+        _qGPsrXvi = {
+            "id" = "qGPsrXvi";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.9+1.20.1.jar";
+            "hash" = "sha512-cQXz2xhAQvk1ZGHAiee8gel16iE1viQLL887iNm0vTpR7MSxcoEjpwdiGcWGFMpsyF5Tt2lJCZxEckOEtO8R2g==";
+        };
     in {
         "YJymsIqe" = _YJymsIqe;
         "b8UlCU1h" = _b8UlCU1h;
@@ -212,16 +357,45 @@ let
         "umkLmNoa" = _umkLmNoa;
         "EFqfYBAK" = _EFqfYBAK;
         "c9O4LZfH" = _c9O4LZfH;
-        "fabric-26.2" = _293YZq3d;
-        "fabric-1.21.11" = _n2oX82Iw;
-        "fabric-26.3" = _NnHMSvPQ;
-        "fabric-1.21.1" = _c9O4LZfH;
-        "fabric-1.20.1" = _umkLmNoa;
-        "neoforge-26.2" = _Rl3cnKe7;
-        "neoforge-26.3" = _CwMfTp2w;
-        "neoforge-1.21.11" = _H7Tvuifn;
-        "neoforge-1.21.1" = _q7Kt91kE;
-        "forge-1.20.1" = _EFqfYBAK;
+        "SM0xjKpI" = _SM0xjKpI;
+        "QW6cdNEj" = _QW6cdNEj;
+        "q0saoa7w" = _q0saoa7w;
+        "Re1K4Viq" = _Re1K4Viq;
+        "TU3VCC6b" = _TU3VCC6b;
+        "bbsBVVbV" = _bbsBVVbV;
+        "AibrT0on" = _AibrT0on;
+        "EVaCzkrP" = _EVaCzkrP;
+        "nbksr6iu" = _nbksr6iu;
+        "3sXpx1iJ" = _3sXpx1iJ;
+        "KOlbox6S" = _KOlbox6S;
+        "MDVitQE2" = _MDVitQE2;
+        "EEmDl9io" = _EEmDl9io;
+        "4mBjOWWm" = _4mBjOWWm;
+        "aZ1UziY2" = _aZ1UziY2;
+        "B6y16Hgy" = _B6y16Hgy;
+        "mTh83sdY" = _mTh83sdY;
+        "1nyGPsEs" = _1nyGPsEs;
+        "mBi6wCJs" = _mBi6wCJs;
+        "Vh4sTAlW" = _Vh4sTAlW;
+        "r7okF0gd" = _r7okF0gd;
+        "QYeztcX5" = _QYeztcX5;
+        "C1TA8uWs" = _C1TA8uWs;
+        "3y0pY2ji" = _3y0pY2ji;
+        "YTJCi27A" = _YTJCi27A;
+        "zh6gmVUg" = _zh6gmVUg;
+        "6j5O8mtw" = _6j5O8mtw;
+        "Eo1PLvQJ" = _Eo1PLvQJ;
+        "qGPsrXvi" = _qGPsrXvi;
+        "fabric-26.2" = _EEmDl9io;
+        "fabric-1.21.11" = _3y0pY2ji;
+        "fabric-26.3" = _C1TA8uWs;
+        "fabric-1.21.1" = _zh6gmVUg;
+        "fabric-1.20.1" = _Eo1PLvQJ;
+        "neoforge-26.2" = _r7okF0gd;
+        "neoforge-26.3" = _QYeztcX5;
+        "neoforge-1.21.11" = _YTJCi27A;
+        "neoforge-1.21.1" = _6j5O8mtw;
+        "forge-1.20.1" = _qGPsrXvi;
         "pkg-1.0.0" = _YJymsIqe;
         "pkg-1.0.5" = _b8UlCU1h;
         "pkg-1.0.6" = _dk2BOAcV;
@@ -240,7 +414,17 @@ let
         "pkg-1.1.7+1.21.11" = _H7Tvuifn;
         "pkg-1.1.7+1.21.1" = _c9O4LZfH;
         "pkg-1.1.7+1.20.1" = _EFqfYBAK;
-        "default" = _c9O4LZfH;
+        "pkg-1.1.8" = _MDVitQE2;
+        "pkg-1.1.8+26.2" = _4mBjOWWm;
+        "pkg-1.1.8+1.21.11" = _B6y16Hgy;
+        "pkg-1.1.8+1.21.1" = _1nyGPsEs;
+        "pkg-1.1.8+1.20.1" = _Vh4sTAlW;
+        "pkg-1.1.9+26.2" = _r7okF0gd;
+        "pkg-1.1.9" = _C1TA8uWs;
+        "pkg-1.1.9+1.21.11" = _YTJCi27A;
+        "pkg-1.1.9+1.21.1" = _6j5O8mtw;
+        "pkg-1.1.9+1.20.1" = _qGPsrXvi;
+        "default" = _qGPsrXvi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "peterwolfs-realistic-tree-felling";

@@ -31,6 +31,16 @@ let
             "file" = "skyfall-2.4.0+mc26.3.jar";
             "hash" = "sha512-roean8abJAgiJaYM5/CD0HdS8MN8zCpXVApXxwAZJXfZTGg4mso474oeiFCRBbOGkMV0fjln4pGYcpZJVcGCzA==";
         };
+        _97I53aon = {
+            "id" = "97I53aon";
+            "file" = "skyfall-2.5.0+mc26.2.jar";
+            "hash" = "sha512-eO65g4y74tFUI3c2PO8NK5p6kxw9Ksp2aGeIU66CdemzlYhOw0JretsEy9fNuiZdRCPpkrz/J/Vs0gvd7IPPxg==";
+        };
+        _r7sQUOeE = {
+            "id" = "r7sQUOeE";
+            "file" = "skyfall-2.5.0+mc26.3.jar";
+            "hash" = "sha512-EGQXiuFNEk9adLGJoomgCD7aogffC0m1MRs+nwMy//VfBP2BAvND8xFQBXShqorGnfdYtBh6QL8s82tAUNNUsg==";
+        };
     in {
         "fztK0gp7" = _fztK0gp7;
         "WEisx0Eu" = _WEisx0Eu;
@@ -38,14 +48,17 @@ let
         "JdqHVguV" = _JdqHVguV;
         "rybkPCGA" = _rybkPCGA;
         "YFg0R4eJ" = _YFg0R4eJ;
-        "fabric-26.2" = _rybkPCGA;
-        "fabric-26.3" = _YFg0R4eJ;
+        "97I53aon" = _97I53aon;
+        "r7sQUOeE" = _r7sQUOeE;
+        "fabric-26.2" = _97I53aon;
+        "fabric-26.3" = _r7sQUOeE;
         "pkg-2.0.0" = _fztK0gp7;
         "pkg-2.1.0" = _WEisx0Eu;
         "pkg-2.2.0" = _K9yG2kL5;
         "pkg-2.3.0" = _JdqHVguV;
         "pkg-2.4.0" = _YFg0R4eJ;
-        "default" = _YFg0R4eJ;
+        "pkg-2.5.0" = _r7sQUOeE;
+        "default" = _r7sQUOeE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyfall";

@@ -31,6 +31,11 @@ let
             "file" = "Railway infrastructure v2.5.zip";
             "hash" = "sha512-nPCN9VnKN6JHuU7ZlLz7oKlw5sHUvh/sMPd5s7Xp3OM/7txzvvCKufJYAAbc7NISmOTMTyW2EXJCkDpiam0XIA==";
         };
+        _9z1Bz0kU = {
+            "id" = "9z1Bz0kU";
+            "file" = "Railway infrastructure v2.5.zip";
+            "hash" = "sha512-nPCN9VnKN6JHuU7ZlLz7oKlw5sHUvh/sMPd5s7Xp3OM/7txzvvCKufJYAAbc7NISmOTMTyW2EXJCkDpiam0XIA==";
+        };
     in {
         "JCdOSGvu" = _JCdOSGvu;
         "b5dOHCrK" = _b5dOHCrK;
@@ -38,23 +43,25 @@ let
         "mWhE9Viy" = _mWhE9Viy;
         "hlWjeuOx" = _hlWjeuOx;
         "C6DTOuO4" = _C6DTOuO4;
+        "9z1Bz0kU" = _9z1Bz0kU;
         "minecraft-1.17.1" = _C6DTOuO4;
-        "minecraft-1.18.2" = _C6DTOuO4;
-        "minecraft-1.19.2" = _C6DTOuO4;
-        "minecraft-1.20.1" = _C6DTOuO4;
-        "minecraft-1.17" = _hlWjeuOx;
-        "minecraft-1.18" = _C6DTOuO4;
-        "minecraft-1.18.1" = _C6DTOuO4;
-        "minecraft-1.19.4" = _C6DTOuO4;
+        "minecraft-1.18.2" = _9z1Bz0kU;
+        "minecraft-1.19.2" = _9z1Bz0kU;
+        "minecraft-1.20.1" = _9z1Bz0kU;
+        "minecraft-1.17" = _9z1Bz0kU;
+        "minecraft-1.18" = _9z1Bz0kU;
+        "minecraft-1.18.1" = _9z1Bz0kU;
+        "minecraft-1.19.4" = _9z1Bz0kU;
         "minecraft-1.20" = _hlWjeuOx;
-        "minecraft-1.21.1" = _hlWjeuOx;
+        "minecraft-1.21.1" = _9z1Bz0kU;
         "pkg-2.0" = _JCdOSGvu;
         "pkg-2.0H" = _b5dOHCrK;
         "pkg-2.1" = _UGymIHBY;
         "pkg-2.2" = _mWhE9Viy;
         "pkg-4.0.1" = _hlWjeuOx;
         "pkg-2.3" = _C6DTOuO4;
-        "default" = _C6DTOuO4;
+        "pkg-2.3.1" = _9z1Bz0kU;
+        "default" = _9z1Bz0kU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "international-trainpack";

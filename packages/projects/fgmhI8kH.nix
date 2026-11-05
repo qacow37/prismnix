@@ -606,6 +606,36 @@ let
             "file" = "[Neoforge]ctov-26-2-4.1.0.jar";
             "hash" = "sha512-VmyTCPhxN1rtfLrmIA+OLnH5SqrDm/1O8gjy0q+Zx2G9Tsj/u1uuKZ4E4BVOIFTI0zFvPtokcUKt8N40wipuqg==";
         };
+        _hye0jOsQ = {
+            "id" = "hye0jOsQ";
+            "file" = "[fabric]ctov-1.21.1-3.6.4.jar";
+            "hash" = "sha512-B45miyT2S5eIH37HkW4XyrQ0y/Man20bkvujmMysnCCy8kaAkfPTEFz17iErSl3nhe7mOC65LSgBxG9I1BsqBA==";
+        };
+        _hJfyJvWt = {
+            "id" = "hJfyJvWt";
+            "file" = "[neoforge]ctov-1.21.1-3.6.4.jar";
+            "hash" = "sha512-XoZm4l4oDWGaGox001kY/P6WQkFr98TVRihEZ9a6CAvQJok+nkdhzpih+4OVstz9vcUUEiY9Bp9tsaPsdrv6qA==";
+        };
+        _dgey9qZs = {
+            "id" = "dgey9qZs";
+            "file" = "[Neoforge]ctov-26-1-4.0.1.jar";
+            "hash" = "sha512-/h+y0typJ6gUUcEdLAT0IF9TVRrVhjJ8rYlLl95xt4sNvhU2Tl+9r8WhH4na0W/LbnyN76yZbXLbkazYgvLieA==";
+        };
+        _fCld3sEH = {
+            "id" = "fCld3sEH";
+            "file" = "[fabric]ctov-26-4.0.1.jar";
+            "hash" = "sha512-2pY5K3pzUlJc/WhCpXMq3NBPytDWWLYLX9aOQdw9G5GK3pTNn3RTbHkpfSsDfcJsu3BGAMVXo4CQeo27gFajLQ==";
+        };
+        _DpxVZVuT = {
+            "id" = "DpxVZVuT";
+            "file" = "[Fabric]CTOV-26-2-4.1.1.jar";
+            "hash" = "sha512-LqUwGqz1K9HWCQJpm14pg6gkZvGWQC3FuCwIvYs+b1ZoT9Yv/l4KV+V0SU2ZT7M4VuYJNfmvLot5+vb+wpcASg==";
+        };
+        _VBJgbI8C = {
+            "id" = "VBJgbI8C";
+            "file" = "[neoforge]ctov-26-2-4.1.1-dev-shadow.jar";
+            "hash" = "sha512-nOp1RWWZCl/NcfKmN3u6A+yFUg+kNopIKVLSnWs2eb7sBtyN5yf/oWwkLbg/uV/ITFSZUxkDRfdHTtzEUa5HEg==";
+        };
     in {
         "sd27RBEO" = _sd27RBEO;
         "N9bzxzVo" = _N9bzxzVo;
@@ -728,6 +758,12 @@ let
         "THd1WMTj" = _THd1WMTj;
         "Vb09nbge" = _Vb09nbge;
         "eoBqqKWT" = _eoBqqKWT;
+        "hye0jOsQ" = _hye0jOsQ;
+        "hJfyJvWt" = _hJfyJvWt;
+        "dgey9qZs" = _dgey9qZs;
+        "fCld3sEH" = _fCld3sEH;
+        "DpxVZVuT" = _DpxVZVuT;
+        "VBJgbI8C" = _VBJgbI8C;
         "fabric-1.18.2-rc1" = _sd27RBEO;
         "fabric-1.18.2" = _mL9oaPkZ;
         "fabric-1.19" = _CXja9TJq;
@@ -743,7 +779,7 @@ let
         "fabric-1.20.5" = _tpKHcPzx;
         "fabric-1.20.6" = _tpKHcPzx;
         "fabric-1.21" = _fyIUePne;
-        "fabric-1.21.1" = _dqaObRbU;
+        "fabric-1.21.1" = _hye0jOsQ;
         "fabric-1.21.2" = _IS8JSyqE;
         "fabric-1.21.3" = _IS8JSyqE;
         "fabric-1.21.4" = _ZElsnCT3;
@@ -754,10 +790,10 @@ let
         "fabric-1.21.9" = _GkrjwPMq;
         "fabric-1.21.10" = _mhf5POmn;
         "fabric-1.21.11" = _K2dNRnIZ;
-        "fabric-26.1" = _7vbDDSTx;
-        "fabric-26.1.1" = _7vbDDSTx;
-        "fabric-26.1.2" = _7vbDDSTx;
-        "fabric-26.2" = _Vb09nbge;
+        "fabric-26.1" = _fCld3sEH;
+        "fabric-26.1.1" = _fCld3sEH;
+        "fabric-26.1.2" = _fCld3sEH;
+        "fabric-26.2" = _DpxVZVuT;
         "forge-1.18.2-rc1" = _sd27RBEO;
         "forge-1.18.2" = _mL9oaPkZ;
         "forge-1.19" = _CXja9TJq;
@@ -796,7 +832,7 @@ let
         "neoforge-1.20.5" = _4wLK3Q9R;
         "neoforge-1.20.6" = _4wLK3Q9R;
         "neoforge-1.21" = _idaHfyIG;
-        "neoforge-1.21.1" = _ztzRUnQ7;
+        "neoforge-1.21.1" = _hJfyJvWt;
         "neoforge-1.21.2" = _idaHfyIG;
         "neoforge-1.21.3" = _idaHfyIG;
         "neoforge-1.21.4" = _idaHfyIG;
@@ -807,10 +843,10 @@ let
         "neoforge-1.21.9" = _idaHfyIG;
         "neoforge-1.21.10" = _idaHfyIG;
         "neoforge-1.21.11" = _bItEO2nE;
-        "neoforge-26.1" = _THd1WMTj;
-        "neoforge-26.1.1" = _THd1WMTj;
-        "neoforge-26.1.2" = _THd1WMTj;
-        "neoforge-26.2" = _eoBqqKWT;
+        "neoforge-26.1" = _dgey9qZs;
+        "neoforge-26.1.1" = _dgey9qZs;
+        "neoforge-26.1.2" = _dgey9qZs;
+        "neoforge-26.2" = _VBJgbI8C;
         "pkg-1-18-2-2" = _sd27RBEO;
         "pkg-2.8" = _N9bzxzVo;
         "pkg-2.9" = _qvvu7W5e;
@@ -884,7 +920,10 @@ let
         "pkg-3.6.3" = _dqaObRbU;
         "pkg-4.0.0" = _THd1WMTj;
         "pkg-4.1.0" = _eoBqqKWT;
-        "default" = _eoBqqKWT;
+        "pkg-3.6.4" = _hJfyJvWt;
+        "pkg-4.0.1" = _fCld3sEH;
+        "pkg-4.1.1" = _VBJgbI8C;
+        "default" = _VBJgbI8C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ct-overhaul-village";

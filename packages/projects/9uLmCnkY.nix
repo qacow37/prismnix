@@ -41,6 +41,11 @@ let
             "file" = "Jellies-1.20.1-0.1.7.jar";
             "hash" = "sha512-MEkVsVcqgHp5O674ZSyDBeZ9ApspPrp0U+EZZFa4nftZeUr9ngnb1XbuU3Gxv9fSZ+BNcvv98PiHFuxiBvS1gw==";
         };
+        _BdfoVBSc = {
+            "id" = "BdfoVBSc";
+            "file" = "Jellies-1.20.1-0.1.8.jar";
+            "hash" = "sha512-hBpZJH2YXyBocF9C78GZcocBhtSw2MzuhlZzVVE4dgrvtD7lijJvtYZFFXzz/hj7Ef1P0Op3gnLJJpnLwwqPBA==";
+        };
     in {
         "pjGw5MNu" = _pjGw5MNu;
         "iWtGVJP3" = _iWtGVJP3;
@@ -50,7 +55,8 @@ let
         "RdUBycdm" = _RdUBycdm;
         "VeEpZE6E" = _VeEpZE6E;
         "MFekLHp6" = _MFekLHp6;
-        "forge-1.20.1" = _MFekLHp6;
+        "BdfoVBSc" = _BdfoVBSc;
+        "forge-1.20.1" = _BdfoVBSc;
         "pkg-0.1.0" = _pjGw5MNu;
         "pkg-0.1.1" = _iWtGVJP3;
         "pkg-0.1.2" = _YnOI4Kaz;
@@ -59,7 +65,8 @@ let
         "pkg-0.1.5" = _RdUBycdm;
         "pkg-0.1.6" = _VeEpZE6E;
         "pkg-0.1.7" = _MFekLHp6;
-        "default" = _MFekLHp6;
+        "pkg-0.1.8" = _BdfoVBSc;
+        "default" = _BdfoVBSc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jellies";

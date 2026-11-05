@@ -181,6 +181,16 @@ let
             "file" = "skyblock-hardcore-2.0.12.jar";
             "hash" = "sha512-zSqbP26z/2ggDAXUKJUwCBAqdkkP0UOMHz7/GoFaaeLhf2vT+sVQh3ubcEOozYAEgR+0NMHWIhWzQqOWAY8Uwg==";
         };
+        _Tk0VAsRx = {
+            "id" = "Tk0VAsRx";
+            "file" = "skyvoid_skyblock_dirt_v2_0_13-MC_26_2.zip";
+            "hash" = "sha512-sxvO+cZ71xp2hCBoZ7bK3jen2WOr5S03B1K4gFkg3RSIeOeypl4uxBhokbuVlb8O+um5Z2AvSd1UrJKmYYcdiw==";
+        };
+        _b9eVIwZv = {
+            "id" = "b9eVIwZv";
+            "file" = "skyblock-hardcore-2.0.13.jar";
+            "hash" = "sha512-ZXemB9pePjFDCEyEek8ZYQMJXe70TcBIUD7lZZQYgkpTc+jH0aXzmBbmwubQSB5VYWaQaENYd3AlK91Ul9NNbA==";
+        };
     in {
         "v2COG35B" = _v2COG35B;
         "GSkJ2yLo" = _GSkJ2yLo;
@@ -218,6 +228,8 @@ let
         "qKI1nCPv" = _qKI1nCPv;
         "YnbsfIjk" = _YnbsfIjk;
         "A6j5pvq2" = _A6j5pvq2;
+        "Tk0VAsRx" = _Tk0VAsRx;
+        "b9eVIwZv" = _b9eVIwZv;
         "datapack-1.19.4" = _B7NgYK40;
         "datapack-1.20" = _B7NgYK40;
         "datapack-1.20.1" = _B7NgYK40;
@@ -241,7 +253,7 @@ let
         "datapack-26.1" = _QWfcHgBw;
         "datapack-26.1.1" = _QWfcHgBw;
         "datapack-26.1.2" = _QWfcHgBw;
-        "datapack-26.2" = _YnbsfIjk;
+        "datapack-26.2" = _Tk0VAsRx;
         "fabric-1.19.4" = _kLlIPelS;
         "fabric-1.20" = _kLlIPelS;
         "fabric-1.20.1" = _kLlIPelS;
@@ -265,7 +277,7 @@ let
         "fabric-26.1" = _qKI1nCPv;
         "fabric-26.1.1" = _qKI1nCPv;
         "fabric-26.1.2" = _qKI1nCPv;
-        "fabric-26.2" = _A6j5pvq2;
+        "fabric-26.2" = _b9eVIwZv;
         "forge-1.19.4" = _kLlIPelS;
         "forge-1.20" = _kLlIPelS;
         "forge-1.20.1" = _kLlIPelS;
@@ -289,7 +301,7 @@ let
         "forge-26.1" = _qKI1nCPv;
         "forge-26.1.1" = _qKI1nCPv;
         "forge-26.1.2" = _qKI1nCPv;
-        "forge-26.2" = _A6j5pvq2;
+        "forge-26.2" = _b9eVIwZv;
         "quilt-1.19.4" = _kLlIPelS;
         "quilt-1.20" = _kLlIPelS;
         "quilt-1.20.1" = _kLlIPelS;
@@ -313,7 +325,7 @@ let
         "quilt-26.1" = _qKI1nCPv;
         "quilt-26.1.1" = _qKI1nCPv;
         "quilt-26.1.2" = _qKI1nCPv;
-        "quilt-26.2" = _A6j5pvq2;
+        "quilt-26.2" = _b9eVIwZv;
         "neoforge-1.21" = _F7BL1KR4;
         "neoforge-1.21.1" = _F7BL1KR4;
         "neoforge-1.21.2" = _F7BL1KR4;
@@ -329,7 +341,7 @@ let
         "neoforge-26.1" = _qKI1nCPv;
         "neoforge-26.1.1" = _qKI1nCPv;
         "neoforge-26.1.2" = _qKI1nCPv;
-        "neoforge-26.2" = _A6j5pvq2;
+        "neoforge-26.2" = _b9eVIwZv;
         "pkg-1.0.0" = _v2COG35B;
         "pkg-1.0.0+mod" = _GSkJ2yLo;
         "pkg-1.0.1" = _cWoR8as6;
@@ -366,7 +378,9 @@ let
         "pkg-2.0.11+mod" = _qKI1nCPv;
         "pkg-2.0.12" = _YnbsfIjk;
         "pkg-2.0.12+mod" = _A6j5pvq2;
-        "default" = _A6j5pvq2;
+        "pkg-2.0.13" = _Tk0VAsRx;
+        "pkg-2.0.13+mod" = _b9eVIwZv;
+        "default" = _b9eVIwZv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-hardcore";

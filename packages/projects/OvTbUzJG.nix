@@ -76,6 +76,16 @@ let
             "file" = "environmentalmaterials-1.12.2-1.1.0.0.jar";
             "hash" = "sha512-RCwhPZkZ9nRqLSfFhWjt0fufRGtLqMMqOdC5gOfcfXlpceTBcLDoN1/IAF60fdYXrkehh+pcX/wYJvT+eh/UeQ==";
         };
+        _IxUFb6j7 = {
+            "id" = "IxUFb6j7";
+            "file" = "enviromats-forge-1.14.4-2.1.0.0.jar";
+            "hash" = "sha512-PHf6ywKh/doppWY86KIjyPvLs4Yb5iWXeff3WV8i3o3wngd+cZ8yCNKJl+VQgumIDltr7BhAg9R7rHxNBJ6Lwg==";
+        };
+        _DXUxASCe = {
+            "id" = "DXUxASCe";
+            "file" = "enviromats-forge-1.15.2-2.1.0.0.jar";
+            "hash" = "sha512-km+qIa4ZpQvwawSz/2GhKcwHHJVMRXBH88MQ/QivyrATd1yK1bNJf51bLz4Gq/uYziemqXjqPfmh+KyghCar8Q==";
+        };
     in {
         "znTccB4l" = _znTccB4l;
         "b9ERyhxx" = _b9ERyhxx;
@@ -92,13 +102,15 @@ let
         "e6HJhzgq" = _e6HJhzgq;
         "ZsA8XL1W" = _ZsA8XL1W;
         "P0h6WZVU" = _P0h6WZVU;
+        "IxUFb6j7" = _IxUFb6j7;
+        "DXUxASCe" = _DXUxASCe;
         "forge-1.19" = _znTccB4l;
         "forge-1.19.2" = _9JjYdSs1;
         "forge-1.19.3" = _gfRBCaD4;
         "forge-1.19.4" = _8vfeegea;
         "forge-1.12.2" = _P0h6WZVU;
-        "forge-1.14.4" = _ydl0coRH;
-        "forge-1.15.2" = _bdLgBtnF;
+        "forge-1.14.4" = _IxUFb6j7;
+        "forge-1.15.2" = _DXUxASCe;
         "forge-1.16.5" = _pVDyIugN;
         "forge-1.20" = _ZsA8XL1W;
         "forge-1.20.1" = _ZsA8XL1W;
@@ -124,7 +136,9 @@ let
         "pkg-1.19.4-2.1.4.1" = _e6HJhzgq;
         "pkg-1.20.1-2.1.4.0" = _ZsA8XL1W;
         "pkg-1.12.2-1.1.0.0" = _P0h6WZVU;
-        "default" = _P0h6WZVU;
+        "pkg-1.14.4-2.1.0.0" = _IxUFb6j7;
+        "pkg-1.15.2-2.1.0.0" = _DXUxASCe;
+        "default" = _DXUxASCe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmental-materials";

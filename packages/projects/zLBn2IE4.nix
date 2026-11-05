@@ -641,6 +641,71 @@ let
             "file" = "spatial-gui-1.10.0+26.3-fabric.jar";
             "hash" = "sha512-azynV0LH1U5ojZDr32vFOZ7tyx4bBcpKmA/W/Tib6Mc4WiXc/ZoluLLsowZAH7+TW8QEmyRkDMwsdzobcpdCJg==";
         };
+        _ogE3psCS = {
+            "id" = "ogE3psCS";
+            "file" = "spatial-gui-1.10.1+26.2-neoforge.jar";
+            "hash" = "sha512-mfWKlv5IlAjMwGJQAXbpEmM2VdVwh80eMYRUM7zKBrJiIitf3yBu58LGGkmOu666xZf3l4hR1iO8UqFq0XOgkQ==";
+        };
+        _lg7tCYFL = {
+            "id" = "lg7tCYFL";
+            "file" = "spatial-gui-1.10.1+1.20.1-fabric.jar";
+            "hash" = "sha512-aFtYx9wHmA/b3peO1iPFRc2dfB9mvrP+fSXz3aXSSuU9tkM/N91wOqSbXAclLfvZ6h8U3rlzxB4IwgNsCZJocA==";
+        };
+        _AhKh60tY = {
+            "id" = "AhKh60tY";
+            "file" = "spatial-gui-1.10.1+1.21.1-neoforge.jar";
+            "hash" = "sha512-hQPcy2BrESaNfQcsJDiXB++/DF1JsDF58PuNOf5p3gDzFA0MjKLI4s3AYegPUqIjUFXgP7GFgQVlkrYvaSuEdA==";
+        };
+        _OtlyYmjV = {
+            "id" = "OtlyYmjV";
+            "file" = "spatial-gui-1.10.1+1.20.1-forge.jar";
+            "hash" = "sha512-lgfw2XPeeY8I88efdt7Dxg5hRbOgnMbt8dlJOfT9Qk2xtRe28sr+nn/IDWyNjFnm5ceL3ZvEzIExjoPAv35KYQ==";
+        };
+        _3QxXYBW4 = {
+            "id" = "3QxXYBW4";
+            "file" = "spatial-gui-1.10.1+1.21.11-neoforge.jar";
+            "hash" = "sha512-KO5QjsnzvNrd1+tYSMv0uYU2ugXzddBhCdSC8OfOVN9EGuvPQYgnpf/ruQl2gyxjNYzct0o9QFR0tF3E8Ht6Fg==";
+        };
+        _wGoO5zxO = {
+            "id" = "wGoO5zxO";
+            "file" = "spatial-gui-1.10.1+26.1.2-neoforge.jar";
+            "hash" = "sha512-gm17uvcSpvzehj3kBtZjCqdOh7FTP298/IyiElgQGEg2gInqEJHHgUaVdBKOemBjqypsZMPxNJj1wFop1ktsSA==";
+        };
+        _yAVqFvQA = {
+            "id" = "yAVqFvQA";
+            "file" = "spatial-gui-1.10.1+1.21.11-fabric.jar";
+            "hash" = "sha512-EqqDe2Eh8ILanK+x2EPMsJmiNoZZgtmzJuRJQT4F0LMYL1ZzG2Q9oTkEW2zig085v7E7LGCqltmLdENYzVAnAg==";
+        };
+        _F88hLB6X = {
+            "id" = "F88hLB6X";
+            "file" = "spatial-gui-1.10.1+26.3-neoforge.jar";
+            "hash" = "sha512-7EUTTBA9NxXRcxy0tPimBiIHYcSpnIAAVDAC/QWAQlKtGvKM2Qmd/xH8K6l6oDZpTpgkMdSJoESrkn6+gWOBng==";
+        };
+        _BHRhXSau = {
+            "id" = "BHRhXSau";
+            "file" = "spatial-gui-1.10.1+26.3-fabric.jar";
+            "hash" = "sha512-rV3wN/+uRW13TlL2JJtjfvDk7bD5MFpmFdrteNmUpQhDTzhJqi0sV33I8Kr9csZ8KSUkj1J3EuuD4ZowKxwKwQ==";
+        };
+        _MF4iKnLw = {
+            "id" = "MF4iKnLw";
+            "file" = "spatial-gui-1.10.1+26.1.2-fabric.jar";
+            "hash" = "sha512-u0NvZP9rE9d1i612lBkyZBQ0fqy2tebDSsNX3Ef1xOuDpns5oqEXfnz/eogeqcG/vbwwlw3nXLpwMBoC0xrHvQ==";
+        };
+        _VVROSNiU = {
+            "id" = "VVROSNiU";
+            "file" = "spatial-gui-1.10.1+1.21.1-fabric.jar";
+            "hash" = "sha512-3tdefrCLXYGK0Xbvy2ZqGDgqNK1s4XA9rxt79MAttDVqHb1xIer23k8kBV4ikf+1oRpMTC2/0wOSm2qVBiXYCA==";
+        };
+        _qsVv4N7Q = {
+            "id" = "qsVv4N7Q";
+            "file" = "spatial-gui-1.10.1+26.2-fabric.jar";
+            "hash" = "sha512-0OiyXP7qP3ng3FmOXkBz2o2x2CxCnTdfFb0fOwsmu+S2Q6lxCTxsYEv8iaTZTcVfzaF/pai6aS4OeDlqLSk+/w==";
+        };
+        _rpVD0d8n = {
+            "id" = "rpVD0d8n";
+            "file" = "spatial-gui-1.11.0-alpha+26.3-fabric.jar";
+            "hash" = "sha512-tJ9XpJ2ngN8xPkW6g9mrTugrJcWopDy5ScdC4FVp4vDpuJe+Mjv4bifejBscN07qSLpjU/yxnq8Oy06O+lveOQ==";
+        };
     in {
         "hF7deDTk" = _hF7deDTk;
         "6youUZul" = _6youUZul;
@@ -770,22 +835,35 @@ let
         "EiBCXGRp" = _EiBCXGRp;
         "IBBiJNyQ" = _IBBiJNyQ;
         "SewQI1uV" = _SewQI1uV;
-        "fabric-26.2" = _EiBCXGRp;
-        "fabric-26.3" = _SewQI1uV;
-        "fabric-1.21.1" = _RVfp9ne5;
-        "fabric-1.21.11" = _KdxyvaOP;
-        "fabric-26.1" = _IBBiJNyQ;
-        "fabric-26.1.1" = _IBBiJNyQ;
-        "fabric-26.1.2" = _IBBiJNyQ;
-        "fabric-1.20.1" = _24DvELYY;
-        "neoforge-26.2" = _JX1a9iAc;
-        "neoforge-26.3" = _LkrIkGME;
-        "neoforge-1.21.1" = _CqSxvyBv;
-        "neoforge-1.21.11" = _F9hjwJkd;
-        "neoforge-26.1" = _5DjE1mxb;
-        "neoforge-26.1.1" = _5DjE1mxb;
-        "neoforge-26.1.2" = _5DjE1mxb;
-        "forge-1.20.1" = _jZQAWbm0;
+        "ogE3psCS" = _ogE3psCS;
+        "lg7tCYFL" = _lg7tCYFL;
+        "AhKh60tY" = _AhKh60tY;
+        "OtlyYmjV" = _OtlyYmjV;
+        "3QxXYBW4" = _3QxXYBW4;
+        "wGoO5zxO" = _wGoO5zxO;
+        "yAVqFvQA" = _yAVqFvQA;
+        "F88hLB6X" = _F88hLB6X;
+        "BHRhXSau" = _BHRhXSau;
+        "MF4iKnLw" = _MF4iKnLw;
+        "VVROSNiU" = _VVROSNiU;
+        "qsVv4N7Q" = _qsVv4N7Q;
+        "rpVD0d8n" = _rpVD0d8n;
+        "fabric-26.2" = _qsVv4N7Q;
+        "fabric-26.3" = _rpVD0d8n;
+        "fabric-1.21.1" = _VVROSNiU;
+        "fabric-1.21.11" = _yAVqFvQA;
+        "fabric-26.1" = _MF4iKnLw;
+        "fabric-26.1.1" = _MF4iKnLw;
+        "fabric-26.1.2" = _MF4iKnLw;
+        "fabric-1.20.1" = _lg7tCYFL;
+        "neoforge-26.2" = _ogE3psCS;
+        "neoforge-26.3" = _F88hLB6X;
+        "neoforge-1.21.1" = _AhKh60tY;
+        "neoforge-1.21.11" = _3QxXYBW4;
+        "neoforge-26.1" = _wGoO5zxO;
+        "neoforge-26.1.1" = _wGoO5zxO;
+        "neoforge-26.1.2" = _wGoO5zxO;
+        "forge-1.20.1" = _OtlyYmjV;
         "pkg-0.1" = _hF7deDTk;
         "pkg-1.1-26.2" = _6youUZul;
         "pkg-1.1-26.3" = _RzfMv7Hn;
@@ -913,7 +991,20 @@ let
         "pkg-1.10.0-fabric+26.2" = _EiBCXGRp;
         "pkg-1.10.0-fabric+26.1.x" = _IBBiJNyQ;
         "pkg-1.10.0-fabric+26.3" = _SewQI1uV;
-        "default" = _SewQI1uV;
+        "pkg-1.10.1-neoforge+26.2" = _ogE3psCS;
+        "pkg-1.10.1-fabric+1.20.1" = _lg7tCYFL;
+        "pkg-1.10.1-neoforge+1.21.1" = _AhKh60tY;
+        "pkg-1.10.1-forge+1.20.1" = _OtlyYmjV;
+        "pkg-1.10.1-neoforge+1.21.11" = _3QxXYBW4;
+        "pkg-1.10.1-neoforge+26.1.x" = _wGoO5zxO;
+        "pkg-1.10.1-fabric+1.21.11" = _yAVqFvQA;
+        "pkg-1.10.1-neoforge+26.3" = _F88hLB6X;
+        "pkg-1.10.1-fabric+26.3" = _BHRhXSau;
+        "pkg-1.10.1-fabric+26.1.x" = _MF4iKnLw;
+        "pkg-1.10.1-fabric+1.21.1" = _VVROSNiU;
+        "pkg-1.10.1-fabric+26.2" = _qsVv4N7Q;
+        "pkg-1.11.0-alpha-fabric+26.3" = _rpVD0d8n;
+        "default" = _rpVD0d8n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spatial-gui";

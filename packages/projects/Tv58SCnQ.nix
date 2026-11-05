@@ -341,6 +341,16 @@ let
             "file" = "touhoulittlemaid-fabric-0.8.2-neo1.5.3+mc1.21.1.jar";
             "hash" = "sha512-dmC55TgO1E+bjyd4nabqF/vbldcLFmTm/lhb2e2Xtcwt73kt9rqAqAag2rcbuEmWVV2RNkTs+8wtFOxfVPxgzA==";
         };
+        _Hctz4WYm = {
+            "id" = "Hctz4WYm";
+            "file" = "touhoulittlemaid-fabric-0.8.3-forge1.5.3+mc1.20.1.jar";
+            "hash" = "sha512-TphmRxdXm0qCfkiKRVH3wH6mGGlLeYpeY5Sb3dgA7QQn2v/JTy6tSxophhvb1p3/kWdbmu8KITvUJovzbDBxDQ==";
+        };
+        _knotsSs1 = {
+            "id" = "knotsSs1";
+            "file" = "touhoulittlemaid-fabric-0.8.3-neo1.5.3+mc1.21.1.jar";
+            "hash" = "sha512-1AOWCUnWRNnPc6jhkbFhiPcwiJkDqsEhU5RGKpc6cF1bvOaOEmwKyb61meshem0qRylEG0zrSO8FjYBTbJ+S2g==";
+        };
     in {
         "kEWUaIpf" = _kEWUaIpf;
         "HqPFA45R" = _HqPFA45R;
@@ -410,10 +420,12 @@ let
         "r1ScaIsB" = _r1ScaIsB;
         "DmTkaW7J" = _DmTkaW7J;
         "xBOWZa8l" = _xBOWZa8l;
+        "Hctz4WYm" = _Hctz4WYm;
+        "knotsSs1" = _knotsSs1;
         "fabric-1.21" = _M9J36fu2;
-        "fabric-1.21.1" = _xBOWZa8l;
+        "fabric-1.21.1" = _knotsSs1;
         "fabric-1.20" = _6pDh0U4Z;
-        "fabric-1.20.1" = _DmTkaW7J;
+        "fabric-1.20.1" = _Hctz4WYm;
         "pkg-0.0.1-neo1.2.2" = _kEWUaIpf;
         "pkg-0.0.2-neo1.2.2" = _HqPFA45R;
         "pkg-0.0.3-neo1.3.6" = _I9GCBVCd;
@@ -482,7 +494,9 @@ let
         "pkg-0.8.1-neo1.5.3+mc1.21.1" = _r1ScaIsB;
         "pkg-0.8.2-forge1.5.3+mc1.20.1" = _DmTkaW7J;
         "pkg-0.8.2-neo1.5.3+mc1.21.1" = _xBOWZa8l;
-        "default" = _xBOWZa8l;
+        "pkg-0.8.3-forge1.5.3+mc1.20.1" = _Hctz4WYm;
+        "pkg-0.8.3-neo1.5.3+mc1.21.1" = _knotsSs1;
+        "default" = _knotsSs1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touhoulittlemaid-orihime";

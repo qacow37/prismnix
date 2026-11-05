@@ -691,6 +691,11 @@ let
             "file" = "furnitury-4.0.0-neoforge-26.3.jar";
             "hash" = "sha512-D+I7zvU+invsJ+hW+p6EDz3q2xkvqw7WO0tn0mdUBGJxJAioOdNDMGig4clCGOgdKKS088VxtOV0jqrA6bgawQ==";
         };
+        _YF1ajTu4 = {
+            "id" = "YF1ajTu4";
+            "file" = "furnitury-4.0.1.jar";
+            "hash" = "sha512-ngOuT/GhFoBnkT7zWoelp4e1//jTzSfCeufGb2HQDjeeMafPH58WkEaqUIgVBYIj85wDu0WjbgKIflvsFIJY0Q==";
+        };
     in {
         "eoNxkDeQ" = _eoNxkDeQ;
         "8d71cqMB" = _8d71cqMB;
@@ -830,7 +835,8 @@ let
         "ZXLcnksV" = _ZXLcnksV;
         "7O7UKmVY" = _7O7UKmVY;
         "ugkNf6Tc" = _ugkNf6Tc;
-        "forge-1.20.1" = _YpTzdk9a;
+        "YF1ajTu4" = _YF1ajTu4;
+        "forge-1.20.1" = _YF1ajTu4;
         "forge-1.19.2" = _WL624TBr;
         "forge-1.19.4" = _rHNtQzBC;
         "forge-1.18.2" = _7PZH9mYk;
@@ -960,7 +966,8 @@ let
         "pkg-3.1110" = _tGFATzAK;
         "pkg-4.0.0.1" = _7O7UKmVY;
         "pkg-4.0.0-neoforge-26.3" = _ugkNf6Tc;
-        "default" = _ugkNf6Tc;
+        "pkg-4.0.1" = _YF1ajTu4;
+        "default" = _YF1ajTu4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "furnitury";

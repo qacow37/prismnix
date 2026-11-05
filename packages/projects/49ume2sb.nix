@@ -161,6 +161,11 @@ let
             "file" = "mine-glass-without-silk-touch-v1.2.2+1.16-1.20.1.jar";
             "hash" = "sha512-8CAgy9RQbbFqe7lnm05ecYDQabf6d9cLJEivLc9KVL5irXVV6igSVystdBpdXTLWjQB61XcBED/g8pcrjO9u0Q==";
         };
+        _nUplflxv = {
+            "id" = "nUplflxv";
+            "file" = "mine-glass-without-silk-touch-v1.2.2-paper.jar";
+            "hash" = "sha512-mP1doI6CIm6Pzo7Sulc2MkhQW/q+7YwrSSl68/09z3+72fhPz/U/Uos2P/g1WTeKpvaXKbDLoVAlCocSM0CaUQ==";
+        };
     in {
         "ORkuyPfX" = _ORkuyPfX;
         "PPUgIi5a" = _PPUgIi5a;
@@ -194,6 +199,7 @@ let
         "xrLAmHW6" = _xrLAmHW6;
         "7XyB8sdr" = _7XyB8sdr;
         "Dx6lKNXU" = _Dx6lKNXU;
+        "nUplflxv" = _nUplflxv;
         "datapack-1.20.5" = _Jq7mrwuz;
         "datapack-1.20.6" = _Jq7mrwuz;
         "datapack-1.21" = _Jq7mrwuz;
@@ -394,6 +400,22 @@ let
         "neoforge-1.19.4" = _Dx6lKNXU;
         "neoforge-1.20" = _Dx6lKNXU;
         "neoforge-1.20.1" = _Dx6lKNXU;
+        "paper-26.3" = _nUplflxv;
+        "paper-26.2" = _nUplflxv;
+        "paper-26.1.2" = _nUplflxv;
+        "paper-26.1.1" = _nUplflxv;
+        "paper-26.1" = _nUplflxv;
+        "paper-1.21.11" = _nUplflxv;
+        "paper-1.21.10" = _nUplflxv;
+        "paper-1.21.9" = _nUplflxv;
+        "purpur-26.3" = _nUplflxv;
+        "purpur-26.2" = _nUplflxv;
+        "purpur-26.1.2" = _nUplflxv;
+        "purpur-26.1.1" = _nUplflxv;
+        "purpur-26.1" = _nUplflxv;
+        "purpur-1.21.11" = _nUplflxv;
+        "purpur-1.21.10" = _nUplflxv;
+        "purpur-1.21.9" = _nUplflxv;
         "pkg-v.1.0.0" = _8SkOZ8w7;
         "pkg-v.1.0.0+mod" = _qliWTAq9;
         "pkg-v.1.1.0" = _RxcSyxb7;
@@ -420,7 +442,8 @@ let
         "pkg-v1.2.2+1.20.2-1.21.8+mod" = _xrLAmHW6;
         "pkg-v1.2.2+1.16-1.20.1" = _7XyB8sdr;
         "pkg-v1.2.2+1.16-1.20.1+mod" = _Dx6lKNXU;
-        "default" = _Dx6lKNXU;
+        "pkg-v1.2.2+plugin" = _nUplflxv;
+        "default" = _nUplflxv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-glass-without-silk-touch";

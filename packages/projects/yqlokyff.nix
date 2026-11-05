@@ -101,6 +101,16 @@ let
             "file" = "securelib-1.7.5.jar";
             "hash" = "sha512-mPXYfmIZJk9UA3M1AN6G0TZDjqON/46np2GgnRh6tybjH8XtMaHntsDdYkEX6r7gdxjl751/0LH8jslRVWvJmA==";
         };
+        _VvJcVmWj = {
+            "id" = "VvJcVmWj";
+            "file" = "securelib-2.0.0.jar";
+            "hash" = "sha512-lDT6k4pkeepyAXBontG2MD1/iAB44XqJLB31ay/VwwxLuqNTxoWTPyTDQoerTQtELWtmAW+QEE53BcSiLQjMnA==";
+        };
+        _oKdLZdGp = {
+            "id" = "oKdLZdGp";
+            "file" = "securelib-2.0.1.jar";
+            "hash" = "sha512-3F9jVrPj0eYDFEBGdUbmjQt339SVxurkGRwzCu4BotSwwt2fLYjutooXax/iWi/HXKgT1u1zzG1obok3jIsNmA==";
+        };
     in {
         "1CvkzCOV" = _1CvkzCOV;
         "akwkvHyu" = _akwkvHyu;
@@ -122,7 +132,9 @@ let
         "gWPtp9py" = _gWPtp9py;
         "hHxXViVH" = _hHxXViVH;
         "BK9h9nrL" = _BK9h9nrL;
-        "neoforge-1.21.1" = _BK9h9nrL;
+        "VvJcVmWj" = _VvJcVmWj;
+        "oKdLZdGp" = _oKdLZdGp;
+        "neoforge-1.21.1" = _oKdLZdGp;
         "pkg-1.4.0" = _1CvkzCOV;
         "pkg-1.4.2" = _akwkvHyu;
         "pkg-1.4.3" = _9TuA5HxP;
@@ -143,7 +155,9 @@ let
         "pkg-1.7.3.1" = _gWPtp9py;
         "pkg-1.7.4" = _hHxXViVH;
         "pkg-1.7.5" = _BK9h9nrL;
-        "default" = _BK9h9nrL;
+        "pkg-2.0.0" = _VvJcVmWj;
+        "pkg-2.0.1" = _oKdLZdGp;
+        "default" = _oKdLZdGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "securelib";

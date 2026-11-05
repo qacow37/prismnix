@@ -176,6 +176,16 @@ let
             "file" = "witchery_forbidden_magic-0.5.28+mc26.1.2.jar";
             "hash" = "sha512-M6YC9OnW5PiAzz9qk5OtOnoIeNyXkjDq2xEsKZGcCScjeHgJ1XXSRwCO4puRjdL6A3YEO8CKacZf26IkvNkmWQ==";
         };
+        _YgPMe2M7 = {
+            "id" = "YgPMe2M7";
+            "file" = "witchery_forbidden_magic-0.5.37+mc1.21.1.jar";
+            "hash" = "sha512-9mBKzMS7fGUTGj90qAqjwNGuTapjmfG7sEoAGsmKjEfojFUED8/s0+iDKq9KieHR7ady8WQHq1HIFOo6qAzurQ==";
+        };
+        _xxb6QggR = {
+            "id" = "xxb6QggR";
+            "file" = "witchery_forbidden_magic-0.5.37+mc26.1.2.jar";
+            "hash" = "sha512-p0mRmltaRWcxyHJfQK37/Wj9hcidLf2Eptpe3X1kmwx6j50+eUQ4/hFh6fGG/+MLBF6qLpNYxvnMlROzxMLwTQ==";
+        };
     in {
         "cJV54FtM" = _cJV54FtM;
         "IoXINb3N" = _IoXINb3N;
@@ -212,10 +222,12 @@ let
         "RX6QVEcB" = _RX6QVEcB;
         "YMxqhK7j" = _YMxqhK7j;
         "9Bf5iqWd" = _9Bf5iqWd;
-        "neoforge-1.21.1" = _YMxqhK7j;
+        "YgPMe2M7" = _YgPMe2M7;
+        "xxb6QggR" = _xxb6QggR;
+        "neoforge-1.21.1" = _YgPMe2M7;
         "neoforge-26.1" = _IoXINb3N;
         "neoforge-26.1.1" = _IoXINb3N;
-        "neoforge-26.1.2" = _9Bf5iqWd;
+        "neoforge-26.1.2" = _xxb6QggR;
         "pkg-0.5.0" = _IoXINb3N;
         "pkg-0.5.2" = _x2bhYvj5;
         "pkg-0.5.4" = _XDPxmy3q;
@@ -234,7 +246,8 @@ let
         "pkg-0.5.22" = _EdnX7KTl;
         "pkg-0.5.27" = _RX6QVEcB;
         "pkg-0.5.28" = _9Bf5iqWd;
-        "default" = _9Bf5iqWd;
+        "pkg-0.5.37" = _xxb6QggR;
+        "default" = _xxb6QggR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jawr-forbidden-magic";

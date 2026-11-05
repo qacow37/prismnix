@@ -26,20 +26,27 @@ let
             "file" = "immersivecooking-1.21.1-0.2.0-beta-1.jar";
             "hash" = "sha512-liGKb7uBrNaMf8OJYl61Iu8Yixtv+zXTWX+H+dtSIVcpSK6L24lZxM+njbmrhu3TjW7ceH6hra42PKfjqHprQQ==";
         };
+        _kH5BeQFu = {
+            "id" = "kH5BeQFu";
+            "file" = "immersivecooking-1.21.1-0.2.0-beta-10.jar";
+            "hash" = "sha512-ftDzmkNNSvwJAtqwWAGzlE5Avnhz1Psft9fK2XvWC8wcNJCcUgKTckytw+cM9UkY6hymuXOrihic7CKF3hXGFw==";
+        };
     in {
         "MCBtGnvL" = _MCBtGnvL;
         "kbSHnk9c" = _kbSHnk9c;
         "4Mx6ds8O" = _4Mx6ds8O;
         "WgOuz7Ib" = _WgOuz7Ib;
         "FmMuj0xg" = _FmMuj0xg;
+        "kH5BeQFu" = _kH5BeQFu;
         "forge-1.20.1" = _WgOuz7Ib;
-        "neoforge-1.21.1" = _FmMuj0xg;
+        "neoforge-1.21.1" = _kH5BeQFu;
         "pkg-0.1.1-SNAPSHOT" = _MCBtGnvL;
         "pkg-0.1.2-SNAPSHOT" = _kbSHnk9c;
         "pkg-0.1.2-SNAPSHOT-1" = _4Mx6ds8O;
         "pkg-0.1.3-SNAPSHOT" = _WgOuz7Ib;
         "pkg-0.2.0-beta-1" = _FmMuj0xg;
-        "default" = _FmMuj0xg;
+        "pkg-0.2.0-beta-10" = _kH5BeQFu;
+        "default" = _kH5BeQFu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-cooking-adoon";

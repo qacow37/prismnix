@@ -51,6 +51,11 @@ let
             "file" = "eidolon_edoni-1.2.1.jar";
             "hash" = "sha512-dG70YQvPBh7usOVxadQe4S/564vwPIuOTCPI9YJpv/EXOhc42IEiL1WDiTLF9JBGTOTUavO1ginSCej3yL87eg==";
         };
+        _uxRS6tho = {
+            "id" = "uxRS6tho";
+            "file" = "eidolon_edoni-1.2.2.jar";
+            "hash" = "sha512-z0TV7Ir3TZdUiXViWpk7o0LImdSKql3vy/SLMyQUEO5bds8dWt9Z7xs6rlVVj46kis5Zv51N5HiRW0ET9DScIQ==";
+        };
     in {
         "4TdemnK1" = _4TdemnK1;
         "zRb36hND" = _zRb36hND;
@@ -62,7 +67,8 @@ let
         "KEIS4GGY" = _KEIS4GGY;
         "CmAdy6PR" = _CmAdy6PR;
         "eHUlC0ox" = _eHUlC0ox;
-        "neoforge-1.21.1" = _eHUlC0ox;
+        "uxRS6tho" = _uxRS6tho;
+        "neoforge-1.21.1" = _uxRS6tho;
         "pkg-1.0.0" = _4TdemnK1;
         "pkg-1.0.1" = _zRb36hND;
         "pkg-1.0.2" = _BLaRJ6TN;
@@ -73,7 +79,8 @@ let
         "pkg-1.1.2" = _KEIS4GGY;
         "pkg-1.1.3" = _CmAdy6PR;
         "pkg-1.2.1" = _eHUlC0ox;
-        "default" = _eHUlC0ox;
+        "pkg-1.2.2" = _uxRS6tho;
+        "default" = _uxRS6tho;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eidolon-edoni";

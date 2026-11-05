@@ -91,6 +91,16 @@ let
             "file" = "tacz_turrets-neoforge-4.1.1-1.21.1.jar";
             "hash" = "sha512-/8pswDMwZihirrLWK97XQs+9MoeG43RVJBV27scHPHx3DVOO4p9CHTW5CyTiVIi0YMuOZNLEYIjdtwDv+eNupw==";
         };
+        _cuAeP8QX = {
+            "id" = "cuAeP8QX";
+            "file" = "tacz_turrets-forge-4.2.0-1.20.1.jar";
+            "hash" = "sha512-e5LgPWbwYI4Vzp99OmSIAZqC2u2so+e22QMA5AJLb7STp6DR0VRuhL3MMILkx56NUzBAHDSiJDDIswAuyReu9A==";
+        };
+        _PWFfJBkj = {
+            "id" = "PWFfJBkj";
+            "file" = "tacz_turrets-neoforge-4.2.0-1.21.1.jar";
+            "hash" = "sha512-3QYSEDp19/EpVHUM5NeHU9QztLrKIMt6bVoNDGPz1hNLgXQxqvGCv6F0YppQH5gxID+tQOCryXhFPN/k8gNpHA==";
+        };
     in {
         "Jr7OcD41" = _Jr7OcD41;
         "IyYOU04x" = _IyYOU04x;
@@ -110,13 +120,15 @@ let
         "GSVPNqvC" = _GSVPNqvC;
         "36JJyFGY" = _36JJyFGY;
         "qh11kPD4" = _qh11kPD4;
-        "forge-1.20.1" = _36JJyFGY;
+        "cuAeP8QX" = _cuAeP8QX;
+        "PWFfJBkj" = _PWFfJBkj;
+        "forge-1.20.1" = _cuAeP8QX;
         "forge-1.20.2" = _tFuhu3A1;
         "forge-1.20.3" = _tFuhu3A1;
         "forge-1.20.4" = _tFuhu3A1;
         "forge-1.20.5" = _tFuhu3A1;
         "forge-1.20.6" = _tFuhu3A1;
-        "neoforge-1.21.1" = _qh11kPD4;
+        "neoforge-1.21.1" = _PWFfJBkj;
         "pkg-1.0.0" = _Jr7OcD41;
         "pkg-1.0.1" = _IyYOU04x;
         "pkg-1.0.2" = _Dov1O8kL;
@@ -129,7 +141,8 @@ let
         "pkg-4.0.0" = _lHmoXYFH;
         "pkg-4.1.0" = _GSVPNqvC;
         "pkg-4.1.1" = _qh11kPD4;
-        "default" = _qh11kPD4;
+        "pkg-4.2.0" = _PWFfJBkj;
+        "default" = _PWFfJBkj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-turrets";

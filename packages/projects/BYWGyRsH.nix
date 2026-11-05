@@ -116,6 +116,11 @@ let
             "file" = "fabric-betterthanwolves-3.0.1.jar";
             "hash" = "sha512-hZqGKiWjj98zUqi9ArEtga1TN/XjiQOEudLBkbm116+3Wc3IEeqctsshmfbFqa0bppc9lE1ba47GXOIncnOOsw==";
         };
+        _BgcH58Ix = {
+            "id" = "BgcH58Ix";
+            "file" = "fabric-betterthanwolves-3.0.2.jar";
+            "hash" = "sha512-fwwZ3j5L/XyL+kYMnlCL4cfbxikf3Fbc8CiLHio5Lb3BwPF1RFGoUZmwaxISwPk6PnO0HD1Uf8/0vsBerabWeg==";
+        };
     in {
         "IAp8am6M" = _IAp8am6M;
         "AqhDEGHc" = _AqhDEGHc;
@@ -140,7 +145,8 @@ let
         "mlQs07RC" = _mlQs07RC;
         "9a9gFNQM" = _9a9gFNQM;
         "XVdMmTQW" = _XVdMmTQW;
-        "babric-b1.7.3" = _XVdMmTQW;
+        "BgcH58Ix" = _BgcH58Ix;
+        "babric-b1.7.3" = _BgcH58Ix;
         "fabric-b1.7.3" = _mlQs07RC;
         "pkg-1.0.4" = _IAp8am6M;
         "pkg-1.1.0" = _AqhDEGHc;
@@ -165,7 +171,8 @@ let
         "pkg-2.0.5" = _mlQs07RC;
         "pkg-3.0.0" = _9a9gFNQM;
         "pkg-3.0.1" = _XVdMmTQW;
-        "default" = _XVdMmTQW;
+        "pkg-3.0.2" = _BgcH58Ix;
+        "default" = _BgcH58Ix;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-than-wolves-legacy-unofficial";

@@ -451,6 +451,11 @@ let
             "file" = "Unbound Visual + v10.3.zip";
             "hash" = "sha512-utYOJ+6qc+t4glvtQugoAWapxCcmmVdj+Pm0PoInpaPORsxsexWZ5YDWAKbrq3vMeMu5M0ijE2t9176sAm8Jiw==";
         };
+        _DZ8XCQpz = {
+            "id" = "DZ8XCQpz";
+            "file" = "Unbound Visual + PT 10.4 Beta.zip";
+            "hash" = "sha512-tvKQ+fYGraJovhUw66pBf2nr3jLiJA7FHcP1PPbMvATTH0m/uc8eUjyusuVY/Sb0+/ina32O3gbGFlQFzjA3MQ==";
+        };
     in {
         "tDW59yVc" = _tDW59yVc;
         "TAyK1NwS" = _TAyK1NwS;
@@ -542,23 +547,24 @@ let
         "9we0R8Dq" = _9we0R8Dq;
         "RrDoPMb6" = _RrDoPMb6;
         "I0Mc6Mib" = _I0Mc6Mib;
+        "DZ8XCQpz" = _DZ8XCQpz;
         "iris-1.21" = _TwDbtWcI;
         "iris-1.21.1" = _rBTt9cfd;
         "iris-1.21.2" = _TwDbtWcI;
         "iris-1.21.3" = _OiQvOXmF;
         "iris-1.21.4" = _I0Mc6Mib;
-        "iris-1.21.5" = _I0Mc6Mib;
-        "iris-1.21.6" = _I0Mc6Mib;
-        "iris-1.21.7" = _I0Mc6Mib;
-        "iris-1.21.8" = _I0Mc6Mib;
-        "iris-1.21.9" = _I0Mc6Mib;
-        "iris-1.21.10" = _I0Mc6Mib;
-        "iris-1.21.11" = _I0Mc6Mib;
-        "iris-26.1" = _I0Mc6Mib;
-        "iris-26.1.1" = _I0Mc6Mib;
-        "iris-26.1.2" = _I0Mc6Mib;
-        "iris-26.2" = _I0Mc6Mib;
-        "iris-26.3" = _I0Mc6Mib;
+        "iris-1.21.5" = _DZ8XCQpz;
+        "iris-1.21.6" = _DZ8XCQpz;
+        "iris-1.21.7" = _DZ8XCQpz;
+        "iris-1.21.8" = _DZ8XCQpz;
+        "iris-1.21.9" = _DZ8XCQpz;
+        "iris-1.21.10" = _DZ8XCQpz;
+        "iris-1.21.11" = _DZ8XCQpz;
+        "iris-26.1" = _DZ8XCQpz;
+        "iris-26.1.1" = _DZ8XCQpz;
+        "iris-26.1.2" = _DZ8XCQpz;
+        "iris-26.2" = _DZ8XCQpz;
+        "iris-26.3" = _DZ8XCQpz;
         "pkg-Unbound-Visual-+" = _9SVzdgwh;
         "pkg-1.5" = _IqRrH1ly;
         "pkg-1.6" = _VjJH8HoR;
@@ -643,7 +649,8 @@ let
         "pkg-PT-v10.1" = _9we0R8Dq;
         "pkg-unbound-visual+-v10.2" = _RrDoPMb6;
         "pkg-10.3" = _I0Mc6Mib;
-        "default" = _I0Mc6Mib;
+        "pkg-10.4(Beta)" = _DZ8XCQpz;
+        "default" = _DZ8XCQpz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unbound-visual-+";

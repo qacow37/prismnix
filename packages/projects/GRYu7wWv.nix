@@ -271,6 +271,11 @@ let
             "file" = "MCE_neoforge_26.3.jar";
             "hash" = "sha512-hyklw9jRAYcFrSssfWqCCyq+c5ClQbs7yqfvjjRoZxp83xGXIf31h6ArlDGkA+D0AlHgpeWoks3bVx6V+JAFNg==";
         };
+        _Y0aM8vsg = {
+            "id" = "Y0aM8vsg";
+            "file" = "modpack-core-essentials-2.0.0.jar";
+            "hash" = "sha512-uKHYoLQcj0WDQ6egUGLjHv6eLhncP5inF3id1uAyPY/IiJ3vfIGpTlTZKIjFBuFZakJhEoi00VijPejvgPUHpQ==";
+        };
     in {
         "Pii0Neyv" = _Pii0Neyv;
         "SHJDzm92" = _SHJDzm92;
@@ -326,6 +331,7 @@ let
         "2QutncUH" = _2QutncUH;
         "TDx7PRoi" = _TDx7PRoi;
         "hLg9sciK" = _hLg9sciK;
+        "Y0aM8vsg" = _Y0aM8vsg;
         "fabric-26.1.2" = _19AG048f;
         "fabric-26.2" = _54KMhOb9;
         "fabric-26.1.1" = _ACa1jPO9;
@@ -342,7 +348,7 @@ let
         "fabric-1.21.10" = _OW0hTRXV;
         "fabric-1.21.11" = _gSLGCFDA;
         "fabric-1.21" = _Lwe30NCn;
-        "fabric-26.3" = _Z1QIzbIE;
+        "fabric-26.3" = _Y0aM8vsg;
         "neoforge-1.21.1" = _WDE820P5;
         "neoforge-26.1.2" = _2QutncUH;
         "neoforge-1.20.1" = _48pHW7c0;
@@ -383,7 +389,8 @@ let
         "pkg-1.3.0-26.1.1" = _ACa1jPO9;
         "pkg-1.3.0-26.1" = _xD5vZxL3;
         "pkg-1.2.0" = _hLg9sciK;
-        "default" = _hLg9sciK;
+        "pkg-2.0.0" = _Y0aM8vsg;
+        "default" = _Y0aM8vsg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modpack-core-essentials";

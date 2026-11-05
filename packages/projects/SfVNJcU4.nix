@@ -66,6 +66,11 @@ let
             "file" = "Legends-Anime-1.20.1-ss1.0.14.jar";
             "hash" = "sha512-4WYSUAtMGp8dvIHGuXRZBsKzRjBcgEjgYcQTVLZDuUSjpAMmiG5bQoeLK338J3apd7+A/pYS2KfFO/Ad5Z/ZtA==";
         };
+        _usuG1DIJ = {
+            "id" = "usuG1DIJ";
+            "file" = "Legends-Anime-1.20.1-ss1.0.15.jar";
+            "hash" = "sha512-CEyRwnMYeWWZ+wcQeM+NUBRvjOCcksdH/O5YdMX5Q7fTlxFDHmPxajgkKPj7/thQ533YBi+gdQ5jp9mZooLPQg==";
+        };
     in {
         "9mbCmyPL" = _9mbCmyPL;
         "avrvNdIW" = _avrvNdIW;
@@ -80,8 +85,9 @@ let
         "VwSP9TRA" = _VwSP9TRA;
         "IMDaWbGV" = _IMDaWbGV;
         "dHZC7T7n" = _dHZC7T7n;
+        "usuG1DIJ" = _usuG1DIJ;
         "forge-1.18.2" = _WGGkpXyP;
-        "forge-1.20.1" = _dHZC7T7n;
+        "forge-1.20.1" = _usuG1DIJ;
         "pkg-0.1-SNAPSHOT" = _9mbCmyPL;
         "pkg-0.1.2-SNAPSHOT" = _avrvNdIW;
         "pkg-1.18.2-ss0.4.2" = _WGGkpXyP;
@@ -95,7 +101,8 @@ let
         "pkg-1.20.1-ss1.0.12" = _VwSP9TRA;
         "pkg-1.20.1-ss1.0.13" = _IMDaWbGV;
         "pkg-1.20.1-ss1.0.14" = _dHZC7T7n;
-        "default" = _dHZC7T7n;
+        "pkg-1.20.1-ss1.0.15" = _usuG1DIJ;
+        "default" = _usuG1DIJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legends-anime";

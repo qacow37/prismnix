@@ -81,6 +81,11 @@ let
             "file" = "no-build-limit-v3.1.1.jar";
             "hash" = "sha512-7cz8BfTy3OEvNWOleMKEIWFnwYNyJ11vZKRcOT5gwQrlI3qO+H5r9Bmyj7sTV21yoUSxRxM28WDLTkxsxW9RvA==";
         };
+        _iJmkR1vL = {
+            "id" = "iJmkR1vL";
+            "file" = "no-build-limit-v3.1.1-paper.jar";
+            "hash" = "sha512-/85QdpcTDxA+9f8wLbtjd9qDSBMWj9LhwaghGYdgbiXvhSVYI8WaV2y7e/k/TUZ88qr1RWWEw2Ckg9TzcCTrqQ==";
+        };
     in {
         "WRrapffk" = _WRrapffk;
         "Nz5Q0G3J" = _Nz5Q0G3J;
@@ -98,6 +103,7 @@ let
         "BovxcXIn" = _BovxcXIn;
         "CojwPga2" = _CojwPga2;
         "Lo4CBUQj" = _Lo4CBUQj;
+        "iJmkR1vL" = _iJmkR1vL;
         "datapack-1.20.5" = _WRrapffk;
         "datapack-1.20.6" = _WRrapffk;
         "datapack-1.21.6" = _ozljigPi;
@@ -161,6 +167,8 @@ let
         "neoforge-26.1.2" = _gt6comAh;
         "neoforge-26.2" = _gt6comAh;
         "neoforge-26.3" = _Lo4CBUQj;
+        "paper-26.3" = _iJmkR1vL;
+        "purpur-26.3" = _iJmkR1vL;
         "pkg-v.1.0.0" = _WRrapffk;
         "pkg-v.1.0.0+mod" = _Nz5Q0G3J;
         "pkg-v2.0.0" = _sFpFucso;
@@ -177,7 +185,8 @@ let
         "pkg-v3.1.0+mod" = _BovxcXIn;
         "pkg-v3.1.1" = _CojwPga2;
         "pkg-v3.1.1+mod" = _Lo4CBUQj;
-        "default" = _Lo4CBUQj;
+        "pkg-v3.1.1+plugin" = _iJmkR1vL;
+        "default" = _iJmkR1vL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-build-limit";

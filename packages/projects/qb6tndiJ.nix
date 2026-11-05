@@ -116,6 +116,11 @@ let
             "file" = "ImmersiveConvergence-1.21.1-2.0.0-b118-release.jar";
             "hash" = "sha512-VREaJJv4ft2JhU5OXIdRgEQsnWVi2U7D0cKfbv7Puhr2orBuxpI58GRxlKRVvRhDk9uUorzVpxxsKWQ/2g03OQ==";
         };
+        _8H6HWivx = {
+            "id" = "8H6HWivx";
+            "file" = "ImmersiveConvergence-1.12.2-1.0.184-release.jar";
+            "hash" = "sha512-MKntluF1j8yrk9a92YOwiuY8aWiLl0B0+A8///3pHKHzS4paXa+qIiyyXfUnYhTNTYpvPTQjQYiUPcrDsz2dTg==";
+        };
     in {
         "tB08ui56" = _tB08ui56;
         "GKcrOQRy" = _GKcrOQRy;
@@ -140,8 +145,9 @@ let
         "yB0lgRKE" = _yB0lgRKE;
         "cYo2xHsc" = _cYo2xHsc;
         "SW5VkCMy" = _SW5VkCMy;
+        "8H6HWivx" = _8H6HWivx;
         "forge-1.20.1" = _cYo2xHsc;
-        "forge-1.12.2" = _yB0lgRKE;
+        "forge-1.12.2" = _8H6HWivx;
         "neoforge-1.21.1" = _SW5VkCMy;
         "pkg-1.0.0-b31-beta" = _tB08ui56;
         "pkg-2.0.0-b29-beta" = _GKcrOQRy;
@@ -166,7 +172,8 @@ let
         "pkg-1.0.182-release" = _yB0lgRKE;
         "pkg-1.0.0-b96-release" = _cYo2xHsc;
         "pkg-2.0.0-b118-release" = _SW5VkCMy;
-        "default" = _SW5VkCMy;
+        "pkg-1.0.184-release" = _8H6HWivx;
+        "default" = _8H6HWivx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-convergence";

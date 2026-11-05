@@ -21,17 +21,24 @@ let
             "file" = "shield-status-fixes-1.5.6-1.21.11.jar";
             "hash" = "sha512-YfETvMH9wM2DI1H3pWXOJ1MSsAvlKMx/odT+nMvhtsVN07Teuy+UXpekwTcoeo3KXyFhWZK6oLgCd/JmbUWY0Q==";
         };
+        _mDjO6vvM = {
+            "id" = "mDjO6vvM";
+            "file" = "ShieldStatusCorrections-1.5.7+1.21.11.jar";
+            "hash" = "sha512-h9UdP10HD2fi5FnpTAbxKi+KHSWSbNA/W+Fi875UNbdCzZplZfNpXURufPLWMZqjrT4jLUnmycxbcxM/HaHD4Q==";
+        };
     in {
         "qL45jGwx" = _qL45jGwx;
         "J6CWW1va" = _J6CWW1va;
         "fNNonRtr" = _fNNonRtr;
         "jM4Avfej" = _jM4Avfej;
-        "fabric-1.21.11" = _jM4Avfej;
+        "mDjO6vvM" = _mDjO6vvM;
+        "fabric-1.21.11" = _mDjO6vvM;
         "pkg-1.5.3" = _qL45jGwx;
         "pkg-1.5.4-1.21.11" = _J6CWW1va;
         "pkg-1.5.5-1.21.11" = _fNNonRtr;
         "pkg-1.5.6-1.21.11" = _jM4Avfej;
-        "default" = _jM4Avfej;
+        "pkg-1.5.7+1.21.11" = _mDjO6vvM;
+        "default" = _mDjO6vvM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-statuses-fixes";

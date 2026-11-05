@@ -441,6 +441,11 @@ let
             "file" = "bewisclient-3.3.1-26.1.jar";
             "hash" = "sha512-mgDlWKpR0H6VDWJ+i5XZvMeZUxtC0uRSr5MJloX2ApXKHeSzZlGcO65bahxAwEswcNo2ua4dVRMnAs6jdaQDYA==";
         };
+        _j6jkvjHJ = {
+            "id" = "j6jkvjHJ";
+            "file" = "bewisclient-3.3.2-1.20.1.jar";
+            "hash" = "sha512-cvFKwdSchFD3Q5Zo1cmF0MrgXbBhYnn6TrbQrYR4xW4FOm8UDstujQsGyRoN3Ldx+pfKrd+2nS0KqVtmOXCclQ==";
+        };
     in {
         "YrSoxUFR" = _YrSoxUFR;
         "nJNBoghR" = _nJNBoghR;
@@ -530,10 +535,11 @@ let
         "MqY2JKUn" = _MqY2JKUn;
         "MZgmgshH" = _MZgmgshH;
         "DCiCiS6E" = _DCiCiS6E;
+        "j6jkvjHJ" = _j6jkvjHJ;
         "fabric-1.19.4" = _qkdH27yh;
         "fabric-1.20-pre1" = _MaL7IGWa;
         "fabric-1.20" = _T8EvRBPB;
-        "fabric-1.20.1" = _EzoqizLH;
+        "fabric-1.20.1" = _j6jkvjHJ;
         "fabric-1.20.4" = _Wbxs56Ot;
         "fabric-1.20.6" = _FPpBiqnA;
         "fabric-1.21" = _tGLcvU5P;
@@ -647,7 +653,8 @@ let
         "pkg-3.3-26.3" = _MqY2JKUn;
         "pkg-3.3.1-26.2" = _MZgmgshH;
         "pkg-3.3.1-26.1" = _DCiCiS6E;
-        "default" = _DCiCiS6E;
+        "pkg-3.3.2-1.20.1" = _j6jkvjHJ;
+        "default" = _j6jkvjHJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bewisclient";

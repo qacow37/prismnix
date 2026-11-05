@@ -26,20 +26,34 @@ let
             "file" = "ArcaneVortex [Alpha]-0.6.8-1.20.1-Forge.jar";
             "hash" = "sha512-DSYVvASHEGW8yoJ+7r54kbM0iE0m/tdiiIUiPjjR7uXSsh7Koh9P1uz10+LbXYtKV6PcRrb6MeXhK+krGoe6DA==";
         };
+        _AwXjFCHv = {
+            "id" = "AwXjFCHv";
+            "file" = "ArcaneVortex [Alpha]-0.7.9-1.20.1-Forge.jar";
+            "hash" = "sha512-uEnJX5DMDpymbBC4o1C7O82fpiaLOlhEkBpCbBPYZKv+lBNCNVEXZQ4m48cYNxDFDKDwYYI6S0kWNdgcW7eQLw==";
+        };
+        _KLzjawMu = {
+            "id" = "KLzjawMu";
+            "file" = "ArcaneVortex [Alpha]-0.7.10-1.20.1-Forge.jar";
+            "hash" = "sha512-vZyaNn0Ib4A7Bli43KHEDfLR1P9dDEljt+lJmZjjZ6nMoavAc/RKvXpven0hobyLYF1htPVzgNJOov+Nwd5U/A==";
+        };
     in {
         "sgrMj5t3" = _sgrMj5t3;
         "zRu87k0o" = _zRu87k0o;
         "9Si26knP" = _9Si26knP;
         "3gwB1L3j" = _3gwB1L3j;
         "jggEib2x" = _jggEib2x;
-        "forge-1.20.1" = _jggEib2x;
-        "neoforge-1.20.1" = _jggEib2x;
+        "AwXjFCHv" = _AwXjFCHv;
+        "KLzjawMu" = _KLzjawMu;
+        "forge-1.20.1" = _KLzjawMu;
+        "neoforge-1.20.1" = _KLzjawMu;
         "pkg-0.5.4" = _sgrMj5t3;
         "pkg-0.5.5" = _zRu87k0o;
         "pkg-0.6.6" = _9Si26knP;
         "pkg-0.6.7" = _3gwB1L3j;
         "pkg-0.6.8" = _jggEib2x;
-        "default" = _jggEib2x;
+        "pkg-0.7.9" = _AwXjFCHv;
+        "pkg-0.7.10" = _KLzjawMu;
+        "default" = _KLzjawMu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arcane-vortex";

@@ -4736,6 +4736,11 @@ let
             "file" = "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar";
             "hash" = "sha512-/vafXyrcYJUg4KA+0tGniAMtK0fjqrxaxnT3lUJ/JarezslEJSlKeYhXWhvCy/n/DpYw2NBFD9HdwiSG3qhnPQ==";
         };
+        _DY0e8WVr = {
+            "id" = "DY0e8WVr";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.20.2244.jar";
+            "hash" = "sha512-tUoq/UCR3cxdAQRQKTbdD5Ekpmv2AFOlPIZ11+dfhEJXtCfj7rTltT/RoOyRGt0ellBvJ502v1B0Qg/VhsgA6w==";
+        };
     in {
         "HNx6YaQC" = _HNx6YaQC;
         "suz8ANPn" = _suz8ANPn;
@@ -5684,8 +5689,9 @@ let
         "kZoqNNRj" = _kZoqNNRj;
         "VjliRs3R" = _VjliRs3R;
         "4JH1U61x" = _4JH1U61x;
+        "DY0e8WVr" = _DY0e8WVr;
         "neoforge-1.21" = _q4YzYKAb;
-        "neoforge-1.21.1" = _4JH1U61x;
+        "neoforge-1.21.1" = _DY0e8WVr;
         "neoforge-1.20.1" = _VjliRs3R;
         "neoforge-1.21.4" = _dqO5nftG;
         "neoforge-1.21.5" = _5RzMBbVq;
@@ -6646,7 +6652,8 @@ let
         "pkg-1.20.1-3.26.18.2237" = _kZoqNNRj;
         "pkg-1.20.1-3.26.19.2239" = _VjliRs3R;
         "pkg-1.21.1-3.26.19.2243" = _4JH1U61x;
-        "default" = _4JH1U61x;
+        "pkg-1.21.1-3.26.20.2244" = _DY0e8WVr;
+        "default" = _DY0e8WVr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks";

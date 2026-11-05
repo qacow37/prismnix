@@ -161,6 +161,96 @@ let
             "file" = "wintery-atmosphere-2.0.0-neoforge-26.3.jar";
             "hash" = "sha512-WlrkoEKlUX8kd6KCjjWEUM0RIyxIPhMKAiG9b/uumKsTDLJqKZIrj3qiwbLHSPoj3AFT0cGYeZH4o1WkOxN8xw==";
         };
+        _e7E2WanT = {
+            "id" = "e7E2WanT";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.18.2.jar";
+            "hash" = "sha512-jgXsTkzf2S+tkSWGgw8YZJu1sD482+l/72QtAMho+AkPD5lXiqNqZ0+Vo9T/rZPoJW5sChzqYCRtcr0hPb7/VA==";
+        };
+        _oJyYuEfF = {
+            "id" = "oJyYuEfF";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.19.2.jar";
+            "hash" = "sha512-aK3A1KzoBAn8A0rhq7rWERBpsdHwoLSC07wXYPQU+Bkp1AdyCdOQdYPlLjlUX7w2K/XdPzSnVxZr4YTrQ6EN7w==";
+        };
+        _TBkCoxbn = {
+            "id" = "TBkCoxbn";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.19.4.jar";
+            "hash" = "sha512-XwaiDnJGQ7fHlxk5KW6aioXKfEK0ANpPLZsq56xIkwO/uWPGpO2tbBa2Q38qsx471KhsEcDLifaHLWNV/dcjLw==";
+        };
+        _ipZt1aep = {
+            "id" = "ipZt1aep";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-tPKzH1iO0ogfbsSHUUZawmpgJNd45Cmx6Nl2eKZWbraSIWAMAJLY+vRTxomlXv0VdxmrgEqUw+xIpKM+RuUdfw==";
+        };
+        _7rGmlm1q = {
+            "id" = "7rGmlm1q";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.20.6.jar";
+            "hash" = "sha512-lKMpvNJUDACUdLutbD+l/pdzaQR0ZnscQt5YNvUFt9Epa+U4waMYwXeUkIULktL4Y3xjI1rfHan18nuHBZJvTQ==";
+        };
+        _MM6wKous = {
+            "id" = "MM6wKous";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.1.jar";
+            "hash" = "sha512-oiZfknLP/bvDlYaI9O0L2iWOIXTlauvYtQFh0zkCcHOOGmEAw7mv0UpeMrkt+9uxZPPLDoJSifrqwi7j6ZIrCw==";
+        };
+        _pZ0FA0uA = {
+            "id" = "pZ0FA0uA";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.3.jar";
+            "hash" = "sha512-ELjvlauKUUj4vXpu8S9llNOW0tpyjggTwdSrfgWHr/YGovx8t7Y9wW2IsdVmbYMTEaNb9CZ76aujH254q51pfQ==";
+        };
+        _VPUcac3l = {
+            "id" = "VPUcac3l";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.4.jar";
+            "hash" = "sha512-58z5aYkHYDmTKX9oYWVAIzFhkksc+xmjQaPMTwIS8AUJL6uHdkKdStp0nXcnlMNw/tHTPQXHpLNCQX8jZACN8A==";
+        };
+        _CCd5fjHy = {
+            "id" = "CCd5fjHy";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.5.jar";
+            "hash" = "sha512-vtPv4VPhnrgpmb0wtw0yBIj9IKsRpwoMyj+fc2oHbHFJwGpALfKH0Q+uY5Vcsd0C6JpfJizUFgxDWKJ+AetY2w==";
+        };
+        _Rh8XDiHQ = {
+            "id" = "Rh8XDiHQ";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.6.jar";
+            "hash" = "sha512-jfqIhBK/WxeGh0Bg361QpZd3YMIzBzgCVib5ZHs1ks3Sr1IRjc6mcbskXNtvzaoO/CAWLJoINwHWguIBMrLCvw==";
+        };
+        _HD4i9xVW = {
+            "id" = "HD4i9xVW";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.7.jar";
+            "hash" = "sha512-Nec1IzhiKwBXjo5iZHhVN3YzqpLvCxzBijKWoEA/3BLoJRtSFHfyh+a2A0sK6s9vn/PwA6Xo9oHxZMQ3nTRAVA==";
+        };
+        _ADGsjpWe = {
+            "id" = "ADGsjpWe";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.8.jar";
+            "hash" = "sha512-8NdHc58Cm4BYWs/kbYouDnq+/8SKmd56wO38CYZ0maFUvn4OFlAYnJ4QuW6NkFAQTN6pyHod7CE8Xalie3BZWQ==";
+        };
+        _zSPkhsvw = {
+            "id" = "zSPkhsvw";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.9.jar";
+            "hash" = "sha512-OPnDkN2Hn69otc02aKkpi2aCppYzrQTA/hJUqQOL8/aOT1UgBEknGdkP7S6OgeWcVhlwYLulni2KQ6dresPEqg==";
+        };
+        _2kxLpsyz = {
+            "id" = "2kxLpsyz";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.10.jar";
+            "hash" = "sha512-hTVb+Bz8Hsq7zoUx4fSchxpgb1jrZXCampr1Y8vOOULMLsz7fJtKt8ZnPbbH6J63lCDkeahXVWqn0UU2gynYMg==";
+        };
+        _O8MxyvfF = {
+            "id" = "O8MxyvfF";
+            "file" = "wintery-atmosphere-2.0.0-forge-1.21.11.jar";
+            "hash" = "sha512-0APnAGCCY/0+9QoeB7Zk11xf6fiPP9lJWiCvQ2TUYihUFbUJdLHI7O0LGMr6Xo7QQltmDtYigOxvIFjYGUL0Mw==";
+        };
+        _LqPxsCaA = {
+            "id" = "LqPxsCaA";
+            "file" = "wintery-atmosphere-2.0.0-forge-26.1.2.jar";
+            "hash" = "sha512-F19hzXNHicchHV7ZSqDUAo/PYvcI19k8qfGkhio2jZXClById+lsdbjqbxyjZ3pyoNQ6tN9b8qhOVRZPuB+nbg==";
+        };
+        _GAJIyLDU = {
+            "id" = "GAJIyLDU";
+            "file" = "wintery-atmosphere-2.0.0-forge-26.2.jar";
+            "hash" = "sha512-zIhbAn95bjGxCY4jVkif8ZyH7baNDeGX1CfAfjfZQhyL8bIbCcF53i6ZvM0otl9hSSyA2OcsnM+XLR2FPIzT3g==";
+        };
+        _G8IR05bZ = {
+            "id" = "G8IR05bZ";
+            "file" = "wintery-atmosphere-2.0.0-mc26.3.jar";
+            "hash" = "sha512-BxxsEcMvM36yofM9Xxr0Lu4UFhh3fUf8jZQNZZmP6VlUYJJKw3KZoOUQeqFmHx9MrzFvsSvLyw6dq7FXOr5YQw==";
+        };
     in {
         "9HSMi4pA" = _9HSMi4pA;
         "1IVQYx7X" = _1IVQYx7X;
@@ -194,6 +284,24 @@ let
         "kyIkMHqB" = _kyIkMHqB;
         "ARjCEAO4" = _ARjCEAO4;
         "mC33M6CH" = _mC33M6CH;
+        "e7E2WanT" = _e7E2WanT;
+        "oJyYuEfF" = _oJyYuEfF;
+        "TBkCoxbn" = _TBkCoxbn;
+        "ipZt1aep" = _ipZt1aep;
+        "7rGmlm1q" = _7rGmlm1q;
+        "MM6wKous" = _MM6wKous;
+        "pZ0FA0uA" = _pZ0FA0uA;
+        "VPUcac3l" = _VPUcac3l;
+        "CCd5fjHy" = _CCd5fjHy;
+        "Rh8XDiHQ" = _Rh8XDiHQ;
+        "HD4i9xVW" = _HD4i9xVW;
+        "ADGsjpWe" = _ADGsjpWe;
+        "zSPkhsvw" = _zSPkhsvw;
+        "2kxLpsyz" = _2kxLpsyz;
+        "O8MxyvfF" = _O8MxyvfF;
+        "LqPxsCaA" = _LqPxsCaA;
+        "GAJIyLDU" = _GAJIyLDU;
+        "G8IR05bZ" = _G8IR05bZ;
         "fabric-1.21" = _b9IT3m3v;
         "fabric-1.21.1" = _b9IT3m3v;
         "fabric-1.21.2" = _b9IT3m3v;
@@ -251,10 +359,34 @@ let
         "neoforge-26.1.2" = _kyIkMHqB;
         "neoforge-26.2" = _ARjCEAO4;
         "neoforge-26.3" = _mC33M6CH;
+        "forge-1.18.2" = _e7E2WanT;
+        "forge-1.19" = _oJyYuEfF;
+        "forge-1.19.1" = _oJyYuEfF;
+        "forge-1.19.2" = _oJyYuEfF;
+        "forge-1.19.4" = _TBkCoxbn;
+        "forge-1.20" = _ipZt1aep;
+        "forge-1.20.1" = _ipZt1aep;
+        "forge-1.20.6" = _7rGmlm1q;
+        "forge-1.21" = _MM6wKous;
+        "forge-1.21.1" = _MM6wKous;
+        "forge-1.21.3" = _pZ0FA0uA;
+        "forge-1.21.4" = _VPUcac3l;
+        "forge-1.21.5" = _CCd5fjHy;
+        "forge-1.21.6" = _Rh8XDiHQ;
+        "forge-1.21.7" = _HD4i9xVW;
+        "forge-1.21.8" = _ADGsjpWe;
+        "forge-1.21.9" = _zSPkhsvw;
+        "forge-1.21.10" = _2kxLpsyz;
+        "forge-1.21.11" = _O8MxyvfF;
+        "forge-26.1" = _LqPxsCaA;
+        "forge-26.1.1" = _LqPxsCaA;
+        "forge-26.1.2" = _LqPxsCaA;
+        "forge-26.2" = _GAJIyLDU;
+        "forge-26.3" = _G8IR05bZ;
         "pkg-1.0.0" = _9HSMi4pA;
         "pkg-1.0.1" = _1IVQYx7X;
-        "pkg-2.0" = _mC33M6CH;
-        "default" = _mC33M6CH;
+        "pkg-2.0" = _G8IR05bZ;
+        "default" = _G8IR05bZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wintery-atmosphere";

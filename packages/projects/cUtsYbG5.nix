@@ -46,6 +46,11 @@ let
             "file" = "mcinstanceloader-2.7.jar";
             "hash" = "sha512-AjQt1PFK/sO8MJAq5yXYulroSl9JUsoKty6IgJ1DehKkbGsSg/DhJSL9SHtWoF8q+AEUENWpdiyDAhHQHTLCKA==";
         };
+        _x4KuTri1 = {
+            "id" = "x4KuTri1";
+            "file" = "mcinstanceloader-2.8.jar";
+            "hash" = "sha512-5C/+nn0xRyJvgg0fJgB5IOJ1g0vp0Z9aBjDDnSejfd/cgQxYmQwafe44AmdPZL4vjkxzvXbk5aNWETURJsq6nA==";
+        };
     in {
         "SlmaYALp" = _SlmaYALp;
         "6LfaZsbS" = _6LfaZsbS;
@@ -56,7 +61,8 @@ let
         "s7mIqSi2" = _s7mIqSi2;
         "ett5hobb" = _ett5hobb;
         "6Qimuf4A" = _6Qimuf4A;
-        "forge-1.7.10" = _6Qimuf4A;
+        "x4KuTri1" = _x4KuTri1;
+        "forge-1.7.10" = _x4KuTri1;
         "pkg-1.0" = _SlmaYALp;
         "pkg-2.0" = _6LfaZsbS;
         "pkg-2.1" = _edDqIkGX;
@@ -66,7 +72,8 @@ let
         "pkg-2.5" = _s7mIqSi2;
         "pkg-2.6" = _ett5hobb;
         "pkg-2.7" = _6Qimuf4A;
-        "default" = _6Qimuf4A;
+        "pkg-2.8" = _x4KuTri1;
+        "default" = _x4KuTri1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcinstance-loader";

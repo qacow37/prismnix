@@ -461,6 +461,11 @@ let
             "file" = "bigger-stack-size-v.2.5.2.jar";
             "hash" = "sha512-6AklXwxgyPcavDi+IzhwF0+aotzW1f0GYe1dUkoaICNfR529cozbQLxIhmenYWmxNoeE+Sy5Fa7NH/DVfzmikQ==";
         };
+        _EcTRnKA0 = {
+            "id" = "EcTRnKA0";
+            "file" = "bigger-stack-size-v.2.5.2-paper.jar";
+            "hash" = "sha512-IYamanaXszsftMXs1szecGdVkwykXclYgKlWTPua1H42B1KzDMG4an96sVW6JsW2E+4W1L+PhCxdq48TUHsg8g==";
+        };
     in {
         "frw4rxa7" = _frw4rxa7;
         "qGyDFeuh" = _qGyDFeuh;
@@ -554,6 +559,7 @@ let
         "7ruyU6Tr" = _7ruyU6Tr;
         "a9rSKW8Z" = _a9rSKW8Z;
         "y4eImctz" = _y4eImctz;
+        "EcTRnKA0" = _EcTRnKA0;
         "datapack-1.20.5" = _frw4rxa7;
         "datapack-1.20.6" = _frw4rxa7;
         "datapack-1.21" = _hnghQp9d;
@@ -652,6 +658,8 @@ let
         "neoforge-26.1.2" = _55BuhFT5;
         "neoforge-26.2" = _55BuhFT5;
         "neoforge-26.3" = _y4eImctz;
+        "paper-26.3" = _EcTRnKA0;
+        "purpur-26.3" = _EcTRnKA0;
         "pkg-v.1.0.0" = _ymQ8XZ4A;
         "pkg-v.1.0.0+mod" = _K36caau5;
         "pkg-v.1.1.0" = _82oja3am;
@@ -730,7 +738,8 @@ let
         "pkg-v2.5.1.0+mod" = _7ruyU6Tr;
         "pkg-v.2.5.2" = _a9rSKW8Z;
         "pkg-v.2.5.2+mod" = _y4eImctz;
-        "default" = _y4eImctz;
+        "pkg-v.2.5.2+plugin" = _EcTRnKA0;
+        "default" = _EcTRnKA0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-stack-size";

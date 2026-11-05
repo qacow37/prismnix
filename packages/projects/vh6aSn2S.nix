@@ -31,6 +31,11 @@ let
             "file" = "aeronauticswinds-1.3.2.jar";
             "hash" = "sha512-QGl4lyPajvXymj+gpmO7bYwzEUFPuLYCr5G+5/W2Si556JcEcWKdxOQDLa6ApNJTqAX0ya+R8g/5/eE7hmkaRA==";
         };
+        _69W6RqG8 = {
+            "id" = "69W6RqG8";
+            "file" = "create_atmospherics-2.0.0-oceans-e638ce3.jar";
+            "hash" = "sha512-2OBAL2plWutjfGEwCGGdGq5quZ/Oi6BPQvb7B5VgBmXmz1x1PY7KSeRb91Ir/DQhIgyK+i0TI2gtYSVXc28e4Q==";
+        };
     in {
         "BWNHQRKY" = _BWNHQRKY;
         "NOghX9aq" = _NOghX9aq;
@@ -38,14 +43,16 @@ let
         "X7RfI9IA" = _X7RfI9IA;
         "2yQyIsH2" = _2yQyIsH2;
         "jgqBRfBi" = _jgqBRfBi;
-        "neoforge-1.21.1" = _jgqBRfBi;
+        "69W6RqG8" = _69W6RqG8;
+        "neoforge-1.21.1" = _69W6RqG8;
         "pkg-1.0.0" = _BWNHQRKY;
         "pkg-1.1.0" = _NOghX9aq;
         "pkg-1.2" = _aO1Iz4Km;
         "pkg-1.3" = _X7RfI9IA;
         "pkg-1.3.1" = _2yQyIsH2;
         "pkg-1.3.2" = _jgqBRfBi;
-        "default" = _jgqBRfBi;
+        "pkg-2.0.0" = _69W6RqG8;
+        "default" = _69W6RqG8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aeronautics-winds-and-weather";

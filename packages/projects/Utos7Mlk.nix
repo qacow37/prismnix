@@ -291,6 +291,26 @@ let
             "file" = "spiceoflife_classic-fabric-2.13.jar";
             "hash" = "sha512-o9QdRHBAy09jxzAiRfI+yv93CWOy2Th1MZ9rRUEUo2CmmqntF7pX6mQ4QCkgxf/u+OkwCl6MEQSWAfiUHrvaDw==";
         };
+        _Bla01Cw1 = {
+            "id" = "Bla01Cw1";
+            "file" = "spiceoflife_classic-neoforge-2.16+1.21.1.jar";
+            "hash" = "sha512-atDT5Jj0jAsRQ5u5q+DMBltkHg+PR4S+7B4nMFG8FQi5XZLfOWoKgB0cHyMJw3iM7nLqYeBF/F0BY1urKPK5eQ==";
+        };
+        _e6VnFeu7 = {
+            "id" = "e6VnFeu7";
+            "file" = "spiceoflife_classic-fabric-2.16+1.21.1.jar";
+            "hash" = "sha512-AfOHAJhkr01zsALqS9VCyjejlZAJlY0s7urrgxmUNqvigOtuhrNSZxyHxKehrsezK18NVDID/UfpTEJaHm6hDQ==";
+        };
+        _7e9Q3JdX = {
+            "id" = "7e9Q3JdX";
+            "file" = "spiceoflife_classic-forge-2.16.jar";
+            "hash" = "sha512-f+H0eczyDuXP1xu6fMwEefgeCKU7XskcS2J8scV7veybZpwoGrw6tIZdycyxEDEggS5y0kDevNI0SE8au2ofCA==";
+        };
+        _UtrOxcny = {
+            "id" = "UtrOxcny";
+            "file" = "spiceoflife_classic-fabric-2.16.jar";
+            "hash" = "sha512-kUgnyTFvIRsOiDYMp+b7JBQyDC2hZyyke2Sjezg+hi8pr8PeX86h8iWXP6ftV++N9I1xomIft1S1gFdI07wfKg==";
+        };
     in {
         "cgrXrS2c" = _cgrXrS2c;
         "JXHGnb5z" = _JXHGnb5z;
@@ -350,16 +370,20 @@ let
         "KluhSyxl" = _KluhSyxl;
         "b3ujNB9U" = _b3ujNB9U;
         "BfExf0lW" = _BfExf0lW;
-        "forge-1.20.1" = _b3ujNB9U;
+        "Bla01Cw1" = _Bla01Cw1;
+        "e6VnFeu7" = _e6VnFeu7;
+        "7e9Q3JdX" = _7e9Q3JdX;
+        "UtrOxcny" = _UtrOxcny;
+        "forge-1.20.1" = _7e9Q3JdX;
         "forge-1.20.2" = _8OlF4l3f;
         "forge-1.20.3" = _8OlF4l3f;
         "forge-1.20.4" = _8OlF4l3f;
         "forge-1.20.5" = _8OlF4l3f;
         "forge-1.20.6" = _8OlF4l3f;
-        "neoforge-1.20.1" = _b3ujNB9U;
-        "neoforge-1.21.1" = _5ZKzdQKr;
-        "fabric-1.20.1" = _BfExf0lW;
-        "fabric-1.21.1" = _KluhSyxl;
+        "neoforge-1.20.1" = _7e9Q3JdX;
+        "neoforge-1.21.1" = _Bla01Cw1;
+        "fabric-1.20.1" = _UtrOxcny;
+        "fabric-1.21.1" = _e6VnFeu7;
         "pkg-1.02" = _cgrXrS2c;
         "pkg-1.04" = _JXHGnb5z;
         "pkg-1.06" = _3E565F8R;
@@ -393,7 +417,9 @@ let
         "pkg-2.12+1.21.1" = _Zc1b8B7P;
         "pkg-2.15+1.21.1" = _KluhSyxl;
         "pkg-2.13" = _BfExf0lW;
-        "default" = _BfExf0lW;
+        "pkg-2.16+1.21.1" = _e6VnFeu7;
+        "pkg-2.16" = _UtrOxcny;
+        "default" = _UtrOxcny;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foodvariations";

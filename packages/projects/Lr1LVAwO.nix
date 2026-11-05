@@ -296,6 +296,11 @@ let
             "file" = "lib-5555ff-v1.3.3.0.jar";
             "hash" = "sha512-Bsli+JVRF28bY+ME6+aGDX2n43PbQQJ4tE8qu/yePxt030c0iNvgqNfprZFNDSVKyFPUQAJ5/eYyQo8KWFO21g==";
         };
+        _FzS57oRd = {
+            "id" = "FzS57oRd";
+            "file" = "lib-5555ff-v1.3.3.0-paper.jar";
+            "hash" = "sha512-dsqWgztEKKy83XbYpO8K3OhZVr3J6pqFsxEJl5amOTrO62LG9yTDuxXDA523BiVVNMh021v/JKEWIQudi9Ftug==";
+        };
     in {
         "g2AxJKoK" = _g2AxJKoK;
         "Q7Y4IkAq" = _Q7Y4IkAq;
@@ -356,6 +361,7 @@ let
         "swXKVVC6" = _swXKVVC6;
         "7EYVSeoA" = _7EYVSeoA;
         "Q5zXonDs" = _Q5zXonDs;
+        "FzS57oRd" = _FzS57oRd;
         "datapack-1.21.6" = _3FTwgY4W;
         "datapack-1.21.7" = _3FTwgY4W;
         "datapack-1.21.8" = _3FTwgY4W;
@@ -411,6 +417,8 @@ let
         "quilt-26.1.2" = _iZN9XNXQ;
         "quilt-26.2" = _iZN9XNXQ;
         "quilt-26.3" = _Q5zXonDs;
+        "paper-26.3" = _FzS57oRd;
+        "purpur-26.3" = _FzS57oRd;
         "pkg-1.0.0" = _g2AxJKoK;
         "pkg-v1.0.0" = _Q7Y4IkAq;
         "pkg-v1.0.0+mod" = _8R8v7DWC;
@@ -464,7 +472,8 @@ let
         "pkg-v1.3.2+mod" = _swXKVVC6;
         "pkg-v1.3.3.0" = _7EYVSeoA;
         "pkg-v1.3.3.0+mod" = _Q5zXonDs;
-        "default" = _Q5zXonDs;
+        "pkg-v1.3.3.0+plugin" = _FzS57oRd;
+        "default" = _FzS57oRd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lib-5555ff";

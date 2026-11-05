@@ -836,6 +836,26 @@ let
             "file" = "sleep_tight-1.21-1.6.3-neoforge.jar";
             "hash" = "sha512-PaAJu6IoGnM9DPtNcYSWoc7ESO7bm21vsdp9tBOGWoPFbSrldFDt1wKnneuqpuUckdSYXqqs7mLTQr+F4o8AOw==";
         };
+        _NYkiLTMl = {
+            "id" = "NYkiLTMl";
+            "file" = "sleep_tight-1.21-1.6.4-neoforge.jar";
+            "hash" = "sha512-FXyWwyotfyAFRPe+IguRkCyj51wiv0FZa/IzteAQM11ztIE34cPvw0E0FKSnn3LHJNKIUXIBPnSOfR6VC/VzwQ==";
+        };
+        _b7t2yube = {
+            "id" = "b7t2yube";
+            "file" = "sleep_tight-1.21-1.6.4-fabric.jar";
+            "hash" = "sha512-iolDd6w5JFhgcDHxGumhJ9s+ubDw2Nb+WAcacevFAuQ0igvX5KI3IgIivSZxrragh2/a3raIJ+fiXTLC0hWjIw==";
+        };
+        _HitV7kLz = {
+            "id" = "HitV7kLz";
+            "file" = "sleep_tight-26.1.2-2.0.2-neoforge.jar";
+            "hash" = "sha512-HBWRPIv+W6Vfl6ai4AUBlZHYQsrMqtBawS/0P7vQsd3spslS05PwAyattX3/ghAfc2LqgLPsntQBP/PWj+o8Xw==";
+        };
+        _Ymgmzfrr = {
+            "id" = "Ymgmzfrr";
+            "file" = "sleep_tight-26.1.2-2.0.2-fabric.jar";
+            "hash" = "sha512-CMCtth7sbHMptmJM7BTRtjR+SliKyLO6E5sC1EOmhaCEHuCQeXKngqc+EkEuD1uahzDT1xURfMjQqiIUedTCOQ==";
+        };
     in {
         "M8OoOeiD" = _M8OoOeiD;
         "srZ20WkM" = _srZ20WkM;
@@ -1004,6 +1024,10 @@ let
         "Q9WR1rTy" = _Q9WR1rTy;
         "WUcz5HDQ" = _WUcz5HDQ;
         "wZf65KFu" = _wZf65KFu;
+        "NYkiLTMl" = _NYkiLTMl;
+        "b7t2yube" = _b7t2yube;
+        "HitV7kLz" = _HitV7kLz;
+        "Ymgmzfrr" = _Ymgmzfrr;
         "forge-1.19.2" = _nnXUHGWk;
         "forge-1.19.4" = _FEu4tcML;
         "forge-1.20" = _iBTTQBfH;
@@ -1015,13 +1039,13 @@ let
         "fabric-1.20.1" = _uYAVb9Nu;
         "fabric-1.20.4" = _jZyEv2vX;
         "fabric-1.21" = _hvJv2JwH;
-        "fabric-1.21.1" = _WUcz5HDQ;
-        "fabric-26.1.2" = _dltVL2Sr;
+        "fabric-1.21.1" = _b7t2yube;
+        "fabric-26.1.2" = _Ymgmzfrr;
         "neoforge-1.20.4" = _omDqfmVB;
         "neoforge-1.20.1" = _LhYJ43ll;
         "neoforge-1.21" = _P5nUbXht;
-        "neoforge-1.21.1" = _wZf65KFu;
-        "neoforge-26.1.2" = _Q9WR1rTy;
+        "neoforge-1.21.1" = _NYkiLTMl;
+        "neoforge-26.1.2" = _HitV7kLz;
         "pkg-0" = _M8OoOeiD;
         "pkg-1" = _srZ20WkM;
         "pkg-2" = _CeFXWpWV;
@@ -1123,7 +1147,9 @@ let
         "pkg-1.21-1.6.2" = _rz21kNjU;
         "pkg-26.1.2-2.0.1" = _Q9WR1rTy;
         "pkg-1.21-1.6.3" = _wZf65KFu;
-        "default" = _wZf65KFu;
+        "pkg-1.21-1.6.4" = _b7t2yube;
+        "pkg-26.1.2-2.0.2" = _Ymgmzfrr;
+        "default" = _Ymgmzfrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-tight";

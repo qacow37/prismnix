@@ -1016,6 +1016,11 @@ let
             "file" = "pets-mod-SNAPSHOT-26.4b6-fabric.jar";
             "hash" = "sha512-hTiuF8vmKxWf7Zp2CAOdOYLm9yLsV4AQBkf2g/zk/QE4tmKEnaFao4dVL+YTDViebZy9/LcM0K2MbvIjnU4hSA==";
         };
+        _Cj5fSQq2 = {
+            "id" = "Cj5fSQq2";
+            "file" = "pets-mod-SNAPSHOT-26.4b7-fabric.jar";
+            "hash" = "sha512-Ccafr+qjsl1okSDRblsoYvj9x2QaqlT0yLBiYetFKsaUP0GJSaMMmn3VFqeZQj6H3D4aai1ak3l0Cgf6izyvCA==";
+        };
     in {
         "QXwNiseV" = _QXwNiseV;
         "fNYBq9w9" = _fNYBq9w9;
@@ -1220,6 +1225,7 @@ let
         "G3Ki0rGb" = _G3Ki0rGb;
         "Xir02s26" = _Xir02s26;
         "RlnIQ4fw" = _RlnIQ4fw;
+        "Cj5fSQq2" = _Cj5fSQq2;
         "fabric-1.21.11" = _CPwFdYy0;
         "fabric-26.1" = _O9ZcoNMs;
         "fabric-26.1.1" = _O9ZcoNMs;
@@ -1273,6 +1279,7 @@ let
         "fabric-26.4-snapshot-3" = _7ddI3zOg;
         "fabric-26.4-snapshot-4" = _2zJ2Mmkk;
         "fabric-26.4-snapshot-6" = _RlnIQ4fw;
+        "fabric-26.4-snapshot-7" = _Cj5fSQq2;
         "quilt-26.1" = _O9ZcoNMs;
         "quilt-26.1.1" = _O9ZcoNMs;
         "quilt-26.1.2" = _O9ZcoNMs;
@@ -1326,6 +1333,7 @@ let
         "quilt-26.4-snapshot-3" = _7ddI3zOg;
         "quilt-26.4-snapshot-4" = _2zJ2Mmkk;
         "quilt-26.4-snapshot-6" = _RlnIQ4fw;
+        "quilt-26.4-snapshot-7" = _Cj5fSQq2;
         "neoforge-26.1" = _PkS7qc25;
         "neoforge-26.1.1" = _PkS7qc25;
         "neoforge-26.1.2" = _PkS7qc25;
@@ -1688,7 +1696,8 @@ let
         "pkg-0.8.6-26.3-Fabric" = _IgYebx3Y;
         "pkg-0.8.6-26.3-Neo" = _G3Ki0rGb;
         "pkg-0.8.6-26.3-Java-Agent" = _Xir02s26;
-        "default" = _RlnIQ4fw;
+        "pkg-SHAPSHOT" = _Cj5fSQq2;
+        "default" = _Cj5fSQq2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pets-mod";

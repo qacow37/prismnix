@@ -11,13 +11,20 @@ let
             "file" = "create_strict_links-neoforge-1.21.1-1.1.0.jar";
             "hash" = "sha512-CCPTx9S6BbyYZz3qMKrw9FVl+anwhV9S2NNEm/WtEy+4QkcuScL6R3mmH/fj/qIjOecGdeiy3QcqGj8jz7NreA==";
         };
+        _GlDdwbBL = {
+            "id" = "GlDdwbBL";
+            "file" = "create_strict_links-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-wzZ9KxpwQEEJULTvZ9satiuMdnbdQuu4BAs+cC9P6fy56RKHO+7fqLba/W0ClCrEPt69b+ZJPRgKYUrzzWCcOA==";
+        };
     in {
         "AHm5jvla" = _AHm5jvla;
         "wyxPZLfK" = _wyxPZLfK;
-        "neoforge-1.21.1" = _wyxPZLfK;
+        "GlDdwbBL" = _GlDdwbBL;
+        "neoforge-1.21.1" = _GlDdwbBL;
         "pkg-1.0.0" = _AHm5jvla;
         "pkg-1.1.0" = _wyxPZLfK;
-        "default" = _wyxPZLfK;
+        "pkg-1.1.1" = _GlDdwbBL;
+        "default" = _GlDdwbBL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-strict-links";

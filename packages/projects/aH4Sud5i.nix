@@ -431,6 +431,11 @@ let
             "file" = "nuclearscience-1.21.1-0.9.4.jar";
             "hash" = "sha512-ymJOrmk052v6IM0T1vVuoM1Lv2EbLLoT8lP0/+biEr64UoZQw+5Udd6rJfYigrKGyto79dPYlWd2GVEdGarOPg==";
         };
+        _FXcE5M7t = {
+            "id" = "FXcE5M7t";
+            "file" = "Nuclear Science-1.20.1-0.9.4.jar";
+            "hash" = "sha512-ScX9G28BuE6+sA/10AddIxJ/JJlOQS5aYguM+zWu74fOC3ASc3tAEW4+PIE4cu0RlI2wtwXxEfz6lBOHaWlP3w==";
+        };
     in {
         "cTfbjnVf" = _cTfbjnVf;
         "SZwXx2ZB" = _SZwXx2ZB;
@@ -518,12 +523,13 @@ let
         "gEU5H7EY" = _gEU5H7EY;
         "uA7yvGmg" = _uA7yvGmg;
         "OJAzHhmo" = _OJAzHhmo;
+        "FXcE5M7t" = _FXcE5M7t;
         "forge-1.16.5" = _AEStwqcW;
         "forge-1.17.1" = _SZwXx2ZB;
         "forge-1.18.2" = _tBaYQC0t;
         "forge-1.19.2" = _mhhraQT5;
-        "forge-1.20.1" = _oBr7hHLs;
-        "neoforge-1.20.1" = _oBr7hHLs;
+        "forge-1.20.1" = _FXcE5M7t;
+        "neoforge-1.20.1" = _FXcE5M7t;
         "neoforge-1.21.1" = _OJAzHhmo;
         "pkg-1.16.5-0.4.0-1" = _cTfbjnVf;
         "pkg-1.17.1-0.4.1-1" = _SZwXx2ZB;
@@ -611,7 +617,8 @@ let
         "pkg-1.21.1-0.9.1" = _gEU5H7EY;
         "pkg-1.21.1-0.9.3" = _uA7yvGmg;
         "pkg-1.21.1-0.9.4" = _OJAzHhmo;
-        "default" = _OJAzHhmo;
+        "pkg-1.20.1-0.9.4" = _FXcE5M7t;
+        "default" = _FXcE5M7t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nuclear-science";

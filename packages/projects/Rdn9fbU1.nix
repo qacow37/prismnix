@@ -26,17 +26,23 @@ let
             "file" = "Bog's Fall UI.zip";
             "hash" = "sha512-5ar8h6fIVfFZ0QnGbzoACwZUzlgWMPcMRsg28a1Kf1g/Xl1CKRfHlJw8zKhQ5PtY5p2MlcQbabaGxNHTOB4eiQ==";
         };
+        _sd5rU5a0 = {
+            "id" = "sd5rU5a0";
+            "file" = "Bog's Fall UI.zip";
+            "hash" = "sha512-DZQ+M0FqbBc835nILHLYujOBOUquEsj2nDZ7ty04qRNNmNPVBryHzPYpwtCq1oyV9IdflMt6T4xnLhsvECbHhA==";
+        };
     in {
         "TpzaXC7C" = _TpzaXC7C;
         "vD0mGYHY" = _vD0mGYHY;
         "DO9S1U01" = _DO9S1U01;
         "BcFz6kX7" = _BcFz6kX7;
         "apv4z78s" = _apv4z78s;
-        "minecraft-26.1" = _apv4z78s;
-        "minecraft-26.1.1" = _apv4z78s;
-        "minecraft-26.1.2" = _apv4z78s;
-        "minecraft-26.2" = _apv4z78s;
-        "minecraft-26.3" = _apv4z78s;
+        "sd5rU5a0" = _sd5rU5a0;
+        "minecraft-26.1" = _sd5rU5a0;
+        "minecraft-26.1.1" = _sd5rU5a0;
+        "minecraft-26.1.2" = _sd5rU5a0;
+        "minecraft-26.2" = _sd5rU5a0;
+        "minecraft-26.3" = _sd5rU5a0;
         "minecraft-1.20" = _BcFz6kX7;
         "minecraft-1.20.1" = _BcFz6kX7;
         "minecraft-1.21" = _DO9S1U01;
@@ -44,7 +50,8 @@ let
         "pkg-1.0" = _DO9S1U01;
         "pkg-1.1" = _BcFz6kX7;
         "pkg-1.2" = _apv4z78s;
-        "default" = _apv4z78s;
+        "pkg-1.2.1" = _sd5rU5a0;
+        "default" = _sd5rU5a0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bogs-fall-ui";

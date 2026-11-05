@@ -216,6 +216,11 @@ let
             "file" = "craft-enchanted-golden-apple-v1.1.1+1.16-1.20.4.jar";
             "hash" = "sha512-nUWFlsrqZNzq8Rf0uhzaZEzD3wC0L9KU5IqoI8hMrWWztDqbSrcoo2T/yqd+TlDYIbLmZYTN7rI6mbsFPqc7Dw==";
         };
+        _b8Gkrvr0 = {
+            "id" = "b8Gkrvr0";
+            "file" = "craft-enchanted-golden-apple-v1.1.1-paper.jar";
+            "hash" = "sha512-jdP+T942dfK3VmRY3Q/7xvE7mr/XViM0Oa2JJ1iDVm1GNg3TFuJRwuvmDM2oYJ/AOTbs7ZyJe5EHEwjpWmUx9g==";
+        };
     in {
         "cKbEYb8D" = _cKbEYb8D;
         "3hTxUQ5a" = _3hTxUQ5a;
@@ -260,6 +265,7 @@ let
         "rTLWaFzY" = _rTLWaFzY;
         "OrPe7bzV" = _OrPe7bzV;
         "qWcq4MR4" = _qWcq4MR4;
+        "b8Gkrvr0" = _b8Gkrvr0;
         "datapack-1.20.4" = _OrPe7bzV;
         "datapack-1.20.5" = _QxBoQSCy;
         "datapack-1.20.6" = _QxBoQSCy;
@@ -460,6 +466,22 @@ let
         "neoforge-1.20.2" = _qWcq4MR4;
         "neoforge-1.20.3" = _qWcq4MR4;
         "neoforge-1.20.4" = _qWcq4MR4;
+        "paper-26.3" = _b8Gkrvr0;
+        "paper-26.2" = _b8Gkrvr0;
+        "paper-26.1.2" = _b8Gkrvr0;
+        "paper-26.1.1" = _b8Gkrvr0;
+        "paper-26.1" = _b8Gkrvr0;
+        "paper-1.21.11" = _b8Gkrvr0;
+        "paper-1.21.10" = _b8Gkrvr0;
+        "paper-1.21.9" = _b8Gkrvr0;
+        "purpur-26.3" = _b8Gkrvr0;
+        "purpur-26.2" = _b8Gkrvr0;
+        "purpur-26.1.2" = _b8Gkrvr0;
+        "purpur-26.1.1" = _b8Gkrvr0;
+        "purpur-26.1" = _b8Gkrvr0;
+        "purpur-1.21.11" = _b8Gkrvr0;
+        "purpur-1.21.10" = _b8Gkrvr0;
+        "purpur-1.21.9" = _b8Gkrvr0;
         "pkg-v.1.0.0" = _C9Qn8IH8;
         "pkg-v.1.0.0+mod" = _PRue5Q9W;
         "pkg-v.2.0.0" = _KNz2AgdT;
@@ -490,7 +512,8 @@ let
         "pkg-v1.1.1+1.20.5-1.21.8+mod" = _rTLWaFzY;
         "pkg-v1.1.1+1.16-1.20.4" = _OrPe7bzV;
         "pkg-v1.1.1+1.16-1.20.4+mod" = _qWcq4MR4;
-        "default" = _qWcq4MR4;
+        "pkg-v1.1.1+plugin" = _b8Gkrvr0;
+        "default" = _b8Gkrvr0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-enchanted-golden-apple";

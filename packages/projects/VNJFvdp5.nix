@@ -81,6 +81,11 @@ let
             "file" = "IronChest-6.1.13.jar";
             "hash" = "sha512-g/xJrfM94JyV0UG+uE/Vy9bvUZ6SbLTR1C1ym0dQjI+onDNiK9Z+Tq48l3hXeYcvILaHi0mtl/bT6m3DvXdZVA==";
         };
+        _k4ghtMzk = {
+            "id" = "k4ghtMzk";
+            "file" = "IronChest-6.2.0.jar";
+            "hash" = "sha512-6w1Xgz33JPaJURD6ojx/zaLMTDZh80fr6I7dSel96mvRoH/g5ZEp+R6lf6e8pMhxV2pf3rGNAaxiBtLgm4AmBw==";
+        };
     in {
         "GGBOOQz9" = _GGBOOQz9;
         "GIGBQvWl" = _GIGBQvWl;
@@ -98,7 +103,8 @@ let
         "Gwb4v2tI" = _Gwb4v2tI;
         "kkMPPLiM" = _kkMPPLiM;
         "qAEPpBnu" = _qAEPpBnu;
-        "forge-1.7.10" = _qAEPpBnu;
+        "k4ghtMzk" = _k4ghtMzk;
+        "forge-1.7.10" = _k4ghtMzk;
         "pkg-6.0.85" = _GGBOOQz9;
         "pkg-6.0.86" = _GIGBQvWl;
         "pkg-6.0.87" = _REYy1PgG;
@@ -115,7 +121,8 @@ let
         "pkg-6.1.11" = _Gwb4v2tI;
         "pkg-6.1.12" = _kkMPPLiM;
         "pkg-6.1.13" = _qAEPpBnu;
-        "default" = _qAEPpBnu;
+        "pkg-6.2.0" = _k4ghtMzk;
+        "default" = _k4ghtMzk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iron-chest-unofficial";

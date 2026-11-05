@@ -46,6 +46,11 @@ let
             "file" = "instantfeedback-4.1.1+1.20.1-VanillaBackport+1.20.1.jar";
             "hash" = "sha512-UC0PLYB2apSTjLa8WPuXUm2afJ8tmINthmuhyLriT1/k4hwrMz3QnFjAi0fQUKcSqfE+LGhenmtXTHvLOeHMhA==";
         };
+        _qYcxhQ90 = {
+            "id" = "qYcxhQ90";
+            "file" = "instantfeedback-4.2.0+1.20.1-VanillaBackport+1.20.1.jar";
+            "hash" = "sha512-m8r3uH2nntXzEL05JAAqG2TlTIOYcvDxhPKGwNl9K/shcv3LWWwAS472MwQFvLCDvaxpj+lVQn/ewiSuAeRrrQ==";
+        };
     in {
         "UwUc7Fnm" = _UwUc7Fnm;
         "LhSSBkr1" = _LhSSBkr1;
@@ -56,8 +61,9 @@ let
         "HjBe05Jm" = _HjBe05Jm;
         "mCPzlCN7" = _mCPzlCN7;
         "jXpZX3zH" = _jXpZX3zH;
+        "qYcxhQ90" = _qYcxhQ90;
         "fabric-1.21.1" = _FM7PsuGq;
-        "fabric-1.20.1" = _jXpZX3zH;
+        "fabric-1.20.1" = _qYcxhQ90;
         "pkg-3.0.1+backport+1.21.1" = _UwUc7Fnm;
         "pkg-3.1.0+backport+1.21.1" = _LhSSBkr1;
         "pkg-3.1.0.1+backport+1.21.1" = _XYJ3ZCmg;
@@ -67,7 +73,8 @@ let
         "pkg-3.1.2+backport+1.20.1" = _HjBe05Jm;
         "pkg-4.0.0+backport+1.20.1" = _mCPzlCN7;
         "pkg-4.1.1+backport+1.20.1" = _jXpZX3zH;
-        "default" = _jXpZX3zH;
+        "pkg-4.2.0+backport+1.20.1" = _qYcxhQ90;
+        "default" = _qYcxhQ90;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "instant-feedback-backport";
