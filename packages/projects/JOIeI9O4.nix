@@ -26,19 +26,26 @@ let
             "file" = "darkerer-1.1.0.jar";
             "hash" = "sha512-AHQYPuGimLys8/0u/B1iLcfDlvc+KeA8/9twHJllkJ2VYHiCejBe0r76bs3YcXDKGP9CtBFr9isONIdkIWrweg==";
         };
+        _6QeT7LkY = {
+            "id" = "6QeT7LkY";
+            "file" = "darkerer-1.2.0.jar";
+            "hash" = "sha512-ICskmPOn0CBR1KxNAzp0qMqeIlO+IheLB9rJpnmcgucv3HTVco1esUIiYOrVOOgGkBecmKDJBJPbaZDmiNnXow==";
+        };
     in {
         "Wkc9b0Fi" = _Wkc9b0Fi;
         "fxOwJKvn" = _fxOwJKvn;
         "VbrP2Ccu" = _VbrP2Ccu;
         "CEoDhg7f" = _CEoDhg7f;
         "EOifXTXr" = _EOifXTXr;
-        "forge-1.7.10" = _EOifXTXr;
+        "6QeT7LkY" = _6QeT7LkY;
+        "forge-1.7.10" = _6QeT7LkY;
         "pkg-1.0.2" = _Wkc9b0Fi;
         "pkg-1.0.4" = _fxOwJKvn;
         "pkg-1.0.5" = _VbrP2Ccu;
         "pkg-1.0.6" = _CEoDhg7f;
         "pkg-1.1.0" = _EOifXTXr;
-        "default" = _EOifXTXr;
+        "pkg-1.2.0" = _6QeT7LkY;
+        "default" = _6QeT7LkY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darkerer";

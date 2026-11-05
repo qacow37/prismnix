@@ -46,6 +46,26 @@ let
             "file" = "rawmats-fabric-1.21.11-0.4.1.jar";
             "hash" = "sha512-4im9xbUwAv1m6HuBQUsdaOtjPO1yW3HZeX8+LC91AIMHhbvjTj8krM/VNmc92nyIq++hglKBqPt/uz1yIi7r0Q==";
         };
+        _bi4j2aDV = {
+            "id" = "bi4j2aDV";
+            "file" = "rawmats-fabric-1.21.11-0.5.0.jar";
+            "hash" = "sha512-MJ2FsGiogDtaUARt6tBtLq0f7xaGXukeygHP+UJhXOJdBC9EkUg1BRHUw7i1KFNtN2g6L0ZLFGa3aZCmfjCZ8A==";
+        };
+        _szCBY5Xq = {
+            "id" = "szCBY5Xq";
+            "file" = "rawmats-fabric-26.1.2-0.5.0.jar";
+            "hash" = "sha512-cYizm2hFl4jpt+U+kZdi9rQthXj0tCi/3kyUhZ4dRBQdTcfgpWtRfZ05PSnQsOdcUvmZT1lHy70cgain3GyTWw==";
+        };
+        _AWTODQHx = {
+            "id" = "AWTODQHx";
+            "file" = "rawmats-fabric-26.3-0.5.0.jar";
+            "hash" = "sha512-OdxNmM+yXDrSDGq4FHtBLfjR6JzKIMFQPiaLXUE3CxNfPTuqfZhDqklF2NYvf3cdSUCHXiMxMibC0HKOjagYQg==";
+        };
+        _1wlCk4F3 = {
+            "id" = "1wlCk4F3";
+            "file" = "rawmats-fabric-26.2-0.5.0.jar";
+            "hash" = "sha512-Ad5Na1BcSM+52WmYIgVUuwVqhbWITJeS/qFRI4tPKtMY8gXahESXl86e/sG+LDCL1TUJDV27+n+dWuH+69x95Q==";
+        };
     in {
         "zTJqbTG1" = _zTJqbTG1;
         "I4GnKndc" = _I4GnKndc;
@@ -56,11 +76,16 @@ let
         "EMRnrQMg" = _EMRnrQMg;
         "xP2QKQZH" = _xP2QKQZH;
         "ao1SsA3s" = _ao1SsA3s;
-        "fabric-26.2" = _xP2QKQZH;
-        "fabric-1.21.11" = _ao1SsA3s;
-        "fabric-26.1" = _EMRnrQMg;
-        "fabric-26.1.1" = _EMRnrQMg;
-        "fabric-26.1.2" = _EMRnrQMg;
+        "bi4j2aDV" = _bi4j2aDV;
+        "szCBY5Xq" = _szCBY5Xq;
+        "AWTODQHx" = _AWTODQHx;
+        "1wlCk4F3" = _1wlCk4F3;
+        "fabric-26.2" = _1wlCk4F3;
+        "fabric-1.21.11" = _bi4j2aDV;
+        "fabric-26.1" = _szCBY5Xq;
+        "fabric-26.1.1" = _szCBY5Xq;
+        "fabric-26.1.2" = _szCBY5Xq;
+        "fabric-26.3" = _AWTODQHx;
         "pkg-0.1.0" = _zTJqbTG1;
         "pkg-0.2.0" = _I4GnKndc;
         "pkg-0.3.0" = _NHf3pQVh;
@@ -70,7 +95,11 @@ let
         "pkg-0.4.1+26.1.x" = _EMRnrQMg;
         "pkg-0.4.1+26.2.x" = _xP2QKQZH;
         "pkg-0.4.1+1.21.11" = _ao1SsA3s;
-        "default" = _ao1SsA3s;
+        "pkg-0.5.0+1.21.11" = _bi4j2aDV;
+        "pkg-0.5.0+26.1.x" = _szCBY5Xq;
+        "pkg-0.5.0+26.3.x" = _AWTODQHx;
+        "pkg-0.5.0+26.2.x" = _1wlCk4F3;
+        "default" = _1wlCk4F3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-rawmaterials";

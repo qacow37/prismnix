@@ -41,6 +41,21 @@ let
             "file" = "thedragonlib-26.3-1.0.0-neo.jar";
             "hash" = "sha512-oAfHBKpoTy4OjIeOdgRjlqS72em3ARMWw0a71o7uTMH4OqFL4lvJuIEObGP3D7+AE9ZEyAkpmZ6jBkERoymmCQ==";
         };
+        _WHS5wfvO = {
+            "id" = "WHS5wfvO";
+            "file" = "thedragonlib-1.21.1-1.1.0-neo.jar";
+            "hash" = "sha512-L8MMtBKJle91d9eDLv4hp4AIEKaEjL/L8lemlBRM7mL4riG/uJO4fLi7QPX4rLcZxrI1jg9g1L7ueDUT90+Msg==";
+        };
+        _hdNQADIh = {
+            "id" = "hdNQADIh";
+            "file" = "thedragonlib-26.1.2-1.3.0-neo.jar";
+            "hash" = "sha512-QU84IsloXlxSpE5O5vLC9XS9+POd0IUy8pzqbdw9108L3mqWv/gdRZjKgXCc3fc1LFxRjVDQYsrQnOVIA0sSdg==";
+        };
+        _FNNp8uxL = {
+            "id" = "FNNp8uxL";
+            "file" = "thedragonlib-26.1.2-1.3.1-neo.jar";
+            "hash" = "sha512-7Jf42nwv8nxwByGXk/9Rz8xcDMXs3HmsUe6+gbGQjEKHza6nKvfBVyNlvIKwqo4+ONkKQipWwVXvesvzItndEw==";
+        };
     in {
         "PVqRbt60" = _PVqRbt60;
         "9osEM7Hp" = _9osEM7Hp;
@@ -50,6 +65,9 @@ let
         "1dcF1jzr" = _1dcF1jzr;
         "hoCf2uEP" = _hoCf2uEP;
         "XwUHzSkZ" = _XwUHzSkZ;
+        "WHS5wfvO" = _WHS5wfvO;
+        "hdNQADIh" = _hdNQADIh;
+        "FNNp8uxL" = _FNNp8uxL;
         "forge-1.16.3" = _PVqRbt60;
         "forge-1.16.4" = _PVqRbt60;
         "forge-1.16.5" = _PVqRbt60;
@@ -59,17 +77,20 @@ let
         "forge-1.19.1" = _iaDirWlJ;
         "forge-1.19.2" = _iaDirWlJ;
         "forge-26.1.2" = _1dcF1jzr;
-        "neoforge-26.1.2" = _sg4I9lYt;
+        "neoforge-26.1.2" = _FNNp8uxL;
         "neoforge-26.2" = _hoCf2uEP;
         "neoforge-26.3" = _XwUHzSkZ;
+        "neoforge-1.21.1" = _WHS5wfvO;
         "pkg-1.16.3-1.1.0" = _PVqRbt60;
         "pkg-1.18.1-1.0.0" = _9osEM7Hp;
         "pkg-1.19-1.0.0" = _iaDirWlJ;
         "pkg-1.2.1" = _sg4I9lYt;
-        "pkg-1.1.0" = _iQKj8QQq;
+        "pkg-1.1.0" = _WHS5wfvO;
         "pkg-1.1.1" = _1dcF1jzr;
         "pkg-1.0.0" = _XwUHzSkZ;
-        "default" = _XwUHzSkZ;
+        "pkg-1.3.0" = _hdNQADIh;
+        "pkg-1.3.1" = _FNNp8uxL;
+        "default" = _FNNp8uxL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thedragonlib";

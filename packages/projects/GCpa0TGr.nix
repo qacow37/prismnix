@@ -31,6 +31,11 @@ let
             "file" = "Legends-PowerRangers-1.20.1-ss1.0.7.jar";
             "hash" = "sha512-LZz3sFuRWU9c2A40ouXKOUmK3eujB//+fq+cH+Y+3fv73kOJ/TzYFIHV/37mXLmZjFAcGymub151MnqLdSpwCg==";
         };
+        _rSSpcpkS = {
+            "id" = "rSSpcpkS";
+            "file" = "Legends-PowerRangers-1.20.1-ss1.0.8.jar";
+            "hash" = "sha512-c2es7RquBuXjZ1la/TejFV4lH/l87+qxBvaEywGacOFhPP1ZWNPQArqNz+4q8LFDMAZzi6pRXQGJOj3wLugsfg==";
+        };
     in {
         "GBxB0nii" = _GBxB0nii;
         "DPRU2rzq" = _DPRU2rzq;
@@ -38,15 +43,17 @@ let
         "YMogHf58" = _YMogHf58;
         "5wQjXQnQ" = _5wQjXQnQ;
         "PHmUTBhv" = _PHmUTBhv;
+        "rSSpcpkS" = _rSSpcpkS;
         "forge-1.18.2" = _GBxB0nii;
-        "forge-1.20.1" = _PHmUTBhv;
+        "forge-1.20.1" = _rSSpcpkS;
         "pkg-1.18.2-ss0.3.4" = _GBxB0nii;
         "pkg-1.20.1-ss1.0.3" = _DPRU2rzq;
         "pkg-1.20.1-ss1.0.4" = _pP2A6LnB;
         "pkg-1.20.1-ss1.0.5" = _YMogHf58;
         "pkg-1.20.1-ss1.0.6" = _5wQjXQnQ;
         "pkg-1.20.1-ss1.0.7" = _PHmUTBhv;
-        "default" = _PHmUTBhv;
+        "pkg-1.20.1-ss1.0.8" = _rSSpcpkS;
+        "default" = _rSSpcpkS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legends-power-rangers";

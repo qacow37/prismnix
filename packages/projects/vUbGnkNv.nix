@@ -16,10 +16,16 @@ let
             "file" = "AL's Boss Rush 2.0.zip";
             "hash" = "sha512-lwyxW3COAiUCLXRQwsKjvt9FlXqS7dX27n3aFkHmxWJeELTmcLOsb/9VD/yXDM00AX53KDiB9qup5RdMRGR7RA==";
         };
+        _aLZFelst = {
+            "id" = "aLZFelst";
+            "file" = "AL's Boss Rush 3.0.zip";
+            "hash" = "sha512-WG1ibnN4mTEqeLA0XCuTPgWtHskoIlWGBrhWzkEwT0WsOi1XGZzIaLrLGPCuUOQBd2h/uCWBq+G3UXENMmGucA==";
+        };
     in {
         "X5XWcasT" = _X5XWcasT;
         "XugdpKhp" = _XugdpKhp;
         "kHDvzAk6" = _kHDvzAk6;
+        "aLZFelst" = _aLZFelst;
         "minecraft-1.20" = _X5XWcasT;
         "minecraft-1.20.1" = _X5XWcasT;
         "minecraft-1.20.2" = _X5XWcasT;
@@ -36,14 +42,16 @@ let
         "minecraft-1.21.9" = _kHDvzAk6;
         "minecraft-1.21.10" = _kHDvzAk6;
         "minecraft-1.21.11" = _kHDvzAk6;
-        "minecraft-26.1" = _kHDvzAk6;
-        "minecraft-26.1.1" = _kHDvzAk6;
-        "minecraft-26.1.2" = _kHDvzAk6;
-        "minecraft-26.2" = _kHDvzAk6;
+        "minecraft-26.1" = _aLZFelst;
+        "minecraft-26.1.1" = _aLZFelst;
+        "minecraft-26.1.2" = _aLZFelst;
+        "minecraft-26.2" = _aLZFelst;
+        "minecraft-26.3" = _aLZFelst;
         "pkg-1.1" = _X5XWcasT;
         "pkg-1.2" = _XugdpKhp;
         "pkg-2.0" = _kHDvzAk6;
-        "default" = _kHDvzAk6;
+        "pkg-3.0" = _aLZFelst;
+        "default" = _aLZFelst;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "als-boss-rush";

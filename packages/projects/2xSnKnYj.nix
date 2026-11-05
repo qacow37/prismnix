@@ -136,6 +136,11 @@ let
             "file" = "invisible-player-name-v3.1.0.jar";
             "hash" = "sha512-UaYYB7Jbuy88+Th7o59SP95WSA8patNmTH9XtHWEFxyZd8MkrmJF7hij6QDJ6XPscMHzWuFuXg0/H487YUaLcA==";
         };
+        _fapzyj6u = {
+            "id" = "fapzyj6u";
+            "file" = "invisible-player-name-v3.1.0-paper.jar";
+            "hash" = "sha512-iQMEuwXzbJpgefV0O4Pc0bBOD+Mmmd7BMljo7YSv69UaMHitQQuaVS7fHOkyGg0+3Gug2ZFAzmGSnlO7Ic3fsA==";
+        };
     in {
         "2I866NCN" = _2I866NCN;
         "vOJkzGAz" = _vOJkzGAz;
@@ -164,6 +169,7 @@ let
         "iEOPav3M" = _iEOPav3M;
         "c4c6F0ry" = _c4c6F0ry;
         "V1DHryqL" = _V1DHryqL;
+        "fapzyj6u" = _fapzyj6u;
         "datapack-1.20.5" = _2I866NCN;
         "datapack-1.20.6" = _2I866NCN;
         "datapack-1.21" = _yQtnkLS7;
@@ -257,6 +263,8 @@ let
         "neoforge-26.1.2" = _iEOPav3M;
         "neoforge-26.2" = _iEOPav3M;
         "neoforge-26.3" = _V1DHryqL;
+        "paper-26.3" = _fapzyj6u;
+        "purpur-26.3" = _fapzyj6u;
         "pkg-v.2.0.0" = _CoSkypn1;
         "pkg-v.2.0.0+mod" = _RxkczT5D;
         "pkg-v.2.1.0" = _fHL4xH4v;
@@ -277,7 +285,8 @@ let
         "pkg-v3.0.4+mod" = _iEOPav3M;
         "pkg-v3.1.0" = _c4c6F0ry;
         "pkg-v3.1.0+mod" = _V1DHryqL;
-        "default" = _V1DHryqL;
+        "pkg-v3.1.0+plugin" = _fapzyj6u;
+        "default" = _fapzyj6u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisible-player-name";

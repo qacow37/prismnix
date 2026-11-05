@@ -256,6 +256,11 @@ let
             "file" = "bat-membrane-v3.2.0.0.jar";
             "hash" = "sha512-kgi0StM8lCTF4IqsFFfijy2Agfhkre+PeW7VtlyJrrAM3xGtpHononvnHLWoOkNbBwhdISObNbFbartfF1HRBQ==";
         };
+        _GETZyKcI = {
+            "id" = "GETZyKcI";
+            "file" = "bat-membrane-v3.2.0.0-paper.jar";
+            "hash" = "sha512-og69eWopwVGTvQS8kWNnl6UWarK3U8BDZ+171lep/BxMcG2wvmCGljXwoPNv7BW1BCZ9KaB4yCp1hQ+Knxq5MQ==";
+        };
     in {
         "esOKNDq1" = _esOKNDq1;
         "etyDdZoA" = _etyDdZoA;
@@ -308,6 +313,7 @@ let
         "e1jrODgl" = _e1jrODgl;
         "IqpLi70w" = _IqpLi70w;
         "FFc0Vxsf" = _FFc0Vxsf;
+        "GETZyKcI" = _GETZyKcI;
         "datapack-1.20.4" = _Xa95cFYT;
         "datapack-1.20.5" = _b6aXZGgp;
         "datapack-1.20.6" = _b6aXZGgp;
@@ -413,6 +419,8 @@ let
         "neoforge-26.1.2" = _YlbJtQa5;
         "neoforge-26.2" = _YlbJtQa5;
         "neoforge-26.3" = _FFc0Vxsf;
+        "paper-26.3" = _GETZyKcI;
+        "purpur-26.3" = _GETZyKcI;
         "pkg-v.1.0.0" = _esOKNDq1;
         "pkg-v.1.0.0+mod" = _etyDdZoA;
         "pkg-v.2.0.0" = _Ix8M6TSP;
@@ -451,7 +459,8 @@ let
         "pkg-v3.2.0+mod" = _e1jrODgl;
         "pkg-v3.2.0.0" = _IqpLi70w;
         "pkg-v3.2.0.0+mod" = _FFc0Vxsf;
-        "default" = _FFc0Vxsf;
+        "pkg-v3.2.0.0+plugin" = _GETZyKcI;
+        "default" = _GETZyKcI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bat-membrane";

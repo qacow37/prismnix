@@ -281,6 +281,36 @@ let
             "file" = "holo_damage_indicator-1.3.2+1.20.1-forge.jar";
             "hash" = "sha512-PvckJgAZBvMvWepRhR7i6Vy1vhKDqwYCQ37mx53JLpDFPUKJCpvJWutloXQ4FH6W6qwhTpuPpqo2qY90WEeqAw==";
         };
+        _yHrUE5sg = {
+            "id" = "yHrUE5sg";
+            "file" = "holo_damage_indicator-1.3.3+26.1-fabric.jar";
+            "hash" = "sha512-NdHKgzU9id1GlHx6XcYFZ9Eq0q+/ZfK+7pyEhXiEkExCZ/aaMwV4o+lsHqcZlZuW9bk1StCa19cmksHVgbCNPg==";
+        };
+        _sRRfW7b2 = {
+            "id" = "sRRfW7b2";
+            "file" = "holo_damage_indicator-1.3.3+1.20.1-fabric.jar";
+            "hash" = "sha512-WnMN9RI7ea1Qn3ioP5ugxP9eFoDhWWl47jDyObW8i8NeI9YUU0GUxdjtcPyMoZBfxTkzoXrN6QqveHJkPMmcUA==";
+        };
+        _AulCe2NM = {
+            "id" = "AulCe2NM";
+            "file" = "holo_damage_indicator-1.3.3+1.21.1-fabric.jar";
+            "hash" = "sha512-saexFn8x0LWApwJeZdGUR6J+bsmjQTcxtcTILHBniEvLZuUAqcO1SkgN/KrR5rLYnz37LvSSYAMtS/hoNOAU+g==";
+        };
+        _EEgSLIjU = {
+            "id" = "EEgSLIjU";
+            "file" = "holo_damage_indicator-1.3.3+1.21.11-fabric.jar";
+            "hash" = "sha512-rkhXpfjwE4NJsz4orc7SxZysGZer95ou5NOguLouPOAs/yZVbagQnB9rUM6eZo3J2vIf1U1XM+5jN+gBQCTFdw==";
+        };
+        _jNbNBCc7 = {
+            "id" = "jNbNBCc7";
+            "file" = "holo_damage_indicator-1.3.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-olvc/IRFvohlwgG26ozBazwZRYvY2UwWbuxJYSyDtWjtedFm0mGXFC5fCSuEntpSJuNpmxUyRG9KIh7aaUC0EQ==";
+        };
+        _DYcD98Qm = {
+            "id" = "DYcD98Qm";
+            "file" = "holo_damage_indicator-1.3.3+1.20.1-forge.jar";
+            "hash" = "sha512-hLLlKFsy26a0kME4lmFkAIB3OfFkPAeQcWbA/leK9Wmb5BVuspIXqqILKczw/eQq2IoG3l2rIoRdxI24x/lisw==";
+        };
     in {
         "eLECzFax" = _eLECzFax;
         "bhJlXSFR" = _bhJlXSFR;
@@ -338,29 +368,37 @@ let
         "avZ3lmMi" = _avZ3lmMi;
         "4FNCpfpX" = _4FNCpfpX;
         "EvXuJawr" = _EvXuJawr;
-        "fabric-1.21.1" = _3L5HkySG;
-        "fabric-1.21.2" = _3L5HkySG;
-        "fabric-1.21.3" = _3L5HkySG;
-        "fabric-1.21.4" = _3L5HkySG;
-        "fabric-1.21.5" = _3L5HkySG;
-        "fabric-1.21.6" = _3L5HkySG;
-        "fabric-1.21.7" = _3L5HkySG;
-        "fabric-1.21.8" = _3L5HkySG;
-        "fabric-1.21.10" = _3L5HkySG;
-        "fabric-1.21.11" = _3L5HkySG;
-        "fabric-1.20.1" = _4FNCpfpX;
+        "yHrUE5sg" = _yHrUE5sg;
+        "sRRfW7b2" = _sRRfW7b2;
+        "AulCe2NM" = _AulCe2NM;
+        "EEgSLIjU" = _EEgSLIjU;
+        "jNbNBCc7" = _jNbNBCc7;
+        "DYcD98Qm" = _DYcD98Qm;
+        "fabric-1.21.1" = _AulCe2NM;
+        "fabric-1.21.2" = _AulCe2NM;
+        "fabric-1.21.3" = _AulCe2NM;
+        "fabric-1.21.4" = _AulCe2NM;
+        "fabric-1.21.5" = _AulCe2NM;
+        "fabric-1.21.6" = _AulCe2NM;
+        "fabric-1.21.7" = _AulCe2NM;
+        "fabric-1.21.8" = _AulCe2NM;
+        "fabric-1.21.10" = _AulCe2NM;
+        "fabric-1.21.11" = _EEgSLIjU;
+        "fabric-1.20.1" = _sRRfW7b2;
         "fabric-1.20.2" = _OBgG4GZY;
         "fabric-1.20.3" = _OBgG4GZY;
         "fabric-1.20.4" = _OBgG4GZY;
         "fabric-1.20.5" = _OBgG4GZY;
         "fabric-1.20.6" = _OBgG4GZY;
         "fabric-1.21" = _OBgG4GZY;
-        "fabric-26.1" = _avZ3lmMi;
-        "fabric-26.1.1" = _avZ3lmMi;
-        "fabric-26.1.2" = _avZ3lmMi;
-        "neoforge-1.21.1" = _ZjtVJmCD;
-        "neoforge-1.21.11" = _ZjtVJmCD;
-        "forge-1.20.1" = _EvXuJawr;
+        "fabric-26.1" = _yHrUE5sg;
+        "fabric-26.1.1" = _yHrUE5sg;
+        "fabric-26.1.2" = _yHrUE5sg;
+        "fabric-26.2" = _yHrUE5sg;
+        "fabric-26.3" = _yHrUE5sg;
+        "neoforge-1.21.1" = _jNbNBCc7;
+        "neoforge-1.21.11" = _jNbNBCc7;
+        "forge-1.20.1" = _DYcD98Qm;
         "pkg-1.0.0" = _WQ0eGswl;
         "pkg-1.0.1" = _hkl17elL;
         "pkg-1.0.2" = _Vl15AmcV;
@@ -385,7 +423,13 @@ let
         "pkg-1.3.2+1.21.1-fabric" = _3L5HkySG;
         "pkg-1.3.2+1.20.1-fabric" = _4FNCpfpX;
         "pkg-1.3.2+1.20.1-forge" = _EvXuJawr;
-        "default" = _EvXuJawr;
+        "pkg-1.3.3+26.1-fabric" = _yHrUE5sg;
+        "pkg-1.3.3+1.20.1-fabric" = _sRRfW7b2;
+        "pkg-1.3.3+1.21.1-fabric" = _AulCe2NM;
+        "pkg-1.3.3+1.21.11-fabric" = _EEgSLIjU;
+        "pkg-1.3.3+1.21.1-neoforge" = _jNbNBCc7;
+        "pkg-1.3.3+1.20.1-forge" = _DYcD98Qm;
+        "default" = _DYcD98Qm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "holo-damage-indicator";

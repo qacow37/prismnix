@@ -106,6 +106,11 @@ let
             "file" = "fashionable-copper-golems-v1.1.0.0.jar";
             "hash" = "sha512-A8I5AafTFO1hFYQHtxnwvo41H8oqjXaL4Kp9gQ0GPpDhHmZjzQ88Htd7Z9OT/URKfmgx/S18cZBllfVt5UvFnA==";
         };
+        _yfuzb9xu = {
+            "id" = "yfuzb9xu";
+            "file" = "fashionable-copper-golems-v1.1.0.0-paper.jar";
+            "hash" = "sha512-MUoSOez34M1IeZ+g0eFhjxaP1pW2mqDSghlpPiuPFWJPNqHKA01OYtt87sGAhg97qCT6Ag7MQP8olkts7dYS3Q==";
+        };
     in {
         "v0RlcM2O" = _v0RlcM2O;
         "FqQBODhP" = _FqQBODhP;
@@ -128,6 +133,7 @@ let
         "9pCU4DpE" = _9pCU4DpE;
         "NjLjGk6o" = _NjLjGk6o;
         "zRrGHjmg" = _zRrGHjmg;
+        "yfuzb9xu" = _yfuzb9xu;
         "datapack-1.21.9" = _YaA0qumr;
         "datapack-1.21.10" = _YaA0qumr;
         "datapack-1.21.11" = _YaA0qumr;
@@ -183,6 +189,8 @@ let
         "quilt-26.1.2" = _JK67x2Ax;
         "quilt-26.2" = _JK67x2Ax;
         "quilt-26.3" = _zRrGHjmg;
+        "paper-26.3" = _yfuzb9xu;
+        "purpur-26.3" = _yfuzb9xu;
         "pkg-v1.0.0" = _v0RlcM2O;
         "pkg-v1.0.0+mod" = _FqQBODhP;
         "pkg-v1.0.1" = _FefUj1SO;
@@ -200,7 +208,8 @@ let
         "pkg-v1.1.0+mod" = _9pCU4DpE;
         "pkg-v1.1.0.0" = _NjLjGk6o;
         "pkg-v1.1.0.0+mod" = _zRrGHjmg;
-        "default" = _zRrGHjmg;
+        "pkg-v1.1.0.0+plugin" = _yfuzb9xu;
+        "default" = _yfuzb9xu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fashionable-copper-golems";

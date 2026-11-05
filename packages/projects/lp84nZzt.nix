@@ -151,6 +151,11 @@ let
             "file" = "custom-breed-cooldown-v2.7.0.jar";
             "hash" = "sha512-QccNBDAZpQ0eJ76d1+XDystYz07gqbTKLMr7xVCCrDvHNY0zIf/4eY7ZQ1C1T7GmULQV2XE7kVx/+b4UtpioNw==";
         };
+        _jGUX6pNk = {
+            "id" = "jGUX6pNk";
+            "file" = "custom-breed-cooldown-v2.7.0-paper.jar";
+            "hash" = "sha512-qNpku2b5NmYLYim+OQUHvrZvqn9DNoWQxnxMSg3P62p+kP5E7oQ93Pd73p5xTgZAta1zkGdTwBj13Me24rePpQ==";
+        };
     in {
         "zhCKOpb4" = _zhCKOpb4;
         "BufEQrga" = _BufEQrga;
@@ -182,6 +187,7 @@ let
         "Im3HVCNt" = _Im3HVCNt;
         "HVEMsw53" = _HVEMsw53;
         "UKqfZLE2" = _UKqfZLE2;
+        "jGUX6pNk" = _jGUX6pNk;
         "datapack-1.20.4" = _zhCKOpb4;
         "datapack-1.20.5" = _xfWbjUzC;
         "datapack-1.21" = _Qgs7wPjW;
@@ -278,6 +284,8 @@ let
         "neoforge-26.1.2" = _Im3HVCNt;
         "neoforge-26.2" = _Im3HVCNt;
         "neoforge-26.3" = _UKqfZLE2;
+        "paper-26.3" = _jGUX6pNk;
+        "purpur-26.3" = _jGUX6pNk;
         "pkg-v.1.0.0" = _zhCKOpb4;
         "pkg-v.1.0.0+mod" = _BufEQrga;
         "pkg-v.2.0.0" = _xFEVH077;
@@ -304,7 +312,8 @@ let
         "pkg-v2.6.3+mod" = _Im3HVCNt;
         "pkg-v2.7.0" = _HVEMsw53;
         "pkg-v2.7.0+mod" = _UKqfZLE2;
-        "default" = _UKqfZLE2;
+        "pkg-v2.7.0+plugin" = _jGUX6pNk;
+        "default" = _jGUX6pNk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-breed-cooldown";

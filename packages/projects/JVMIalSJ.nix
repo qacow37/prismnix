@@ -411,6 +411,16 @@ let
             "file" = "dasik-library-1.4.1+1.21.1-neoforge.jar";
             "hash" = "sha512-BmEdWo1CtfgY4EUcWWoDuJOyUdqSmwzvz5deWnfjI9Mur7lSScYeQ8ZBUUlZGJqSItu1JbOjjvSTJNHnYz4OUw==";
         };
+        _7JvLYliO = {
+            "id" = "7JvLYliO";
+            "file" = "dasik-library-1.4.1+1.21.11-fabric.jar";
+            "hash" = "sha512-6fhKD2UCgE5axddBjz4B9yCZXmfCG5i6w7F2ZnMRC1hzWRLz1V0oaj7mErseI9KNwWt5ejFOYlFRjCDKjB+LZg==";
+        };
+        _2uvpO829 = {
+            "id" = "2uvpO829";
+            "file" = "dasik-library-1.4.1+1.21.11-neoforge.jar";
+            "hash" = "sha512-rJ8bcxMQV3oHodBDsS/yNmmeGnOC5hLRASKPPYrLG4b+1Iza5+50bDu+wL/rs6eQhcGHhr/fUHWXR8dRlt1bow==";
+        };
     in {
         "E8fuH6Ts" = _E8fuH6Ts;
         "1Heke9Wm" = _1Heke9Wm;
@@ -494,6 +504,8 @@ let
         "nKO97YkW" = _nKO97YkW;
         "8sGVj3mO" = _8sGVj3mO;
         "cyXaCCWx" = _cyXaCCWx;
+        "7JvLYliO" = _7JvLYliO;
+        "2uvpO829" = _2uvpO829;
         "fabric-26.1-snapshot-1" = _B7EoCGaX;
         "fabric-26.1-snapshot-2" = _B7EoCGaX;
         "fabric-26.1-snapshot-3" = _B7EoCGaX;
@@ -533,7 +545,7 @@ let
         "fabric-26.2-rc-1" = _B7EoCGaX;
         "fabric-26.2-rc-2" = _B7EoCGaX;
         "fabric-26.2" = _omSebYZt;
-        "fabric-1.21.11" = _ne45JF5Q;
+        "fabric-1.21.11" = _7JvLYliO;
         "fabric-26.3-snapshot-1" = _2t6bKfI4;
         "fabric-26.3-snapshot-2" = _2t6bKfI4;
         "fabric-26.3-snapshot-3" = _2t6bKfI4;
@@ -552,6 +564,7 @@ let
         "forge-1.20.1" = _nKO97YkW;
         "neoforge-1.20.1" = _nKO97YkW;
         "neoforge-1.21.1" = _cyXaCCWx;
+        "neoforge-1.21.11" = _2uvpO829;
         "pkg-1.2.3" = _E8fuH6Ts;
         "pkg-1.6.9" = _1Heke9Wm;
         "pkg-1.6.9+build.9" = _IwLMBj5r;
@@ -615,7 +628,8 @@ let
         "pkg-1.4.0+1.21.1" = _YTutpVOc;
         "pkg-1.4.1+1.20.1" = _nKO97YkW;
         "pkg-1.4.1+1.21.1" = _cyXaCCWx;
-        "default" = _cyXaCCWx;
+        "pkg-1.4.1+1.21.11" = _2uvpO829;
+        "default" = _2uvpO829;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dasik-library";

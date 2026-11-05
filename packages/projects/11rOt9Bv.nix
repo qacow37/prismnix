@@ -21,18 +21,25 @@ let
             "file" = "ars_polymorphia-1.0.3.jar";
             "hash" = "sha512-W0nDY0A+/bJ1na7YvAAOM+XFarvn7TSsylwzJ1BOKGKDFP1M1bBL7mzsaBGkT/rHSMaXYgaMWnbjnzEmce0t5A==";
         };
+        _6do8wFXz = {
+            "id" = "6do8wFXz";
+            "file" = "ars_polymorphia-1.0.4.jar";
+            "hash" = "sha512-4U68FH9OLdQoIrA8JX717qaSqhwicB/ZA8pMnGrynQ3/YDELnUgel6SE97fn+3T6o+OZ8jCaZEFEPbPIjICEBw==";
+        };
     in {
         "LirqfcFR" = _LirqfcFR;
         "AAfi9aCg" = _AAfi9aCg;
         "hKb6Bm7W" = _hKb6Bm7W;
         "k4Ud6Gzk" = _k4Ud6Gzk;
-        "neoforge-1.21" = _k4Ud6Gzk;
-        "neoforge-1.21.1" = _k4Ud6Gzk;
+        "6do8wFXz" = _6do8wFXz;
+        "neoforge-1.21" = _6do8wFXz;
+        "neoforge-1.21.1" = _6do8wFXz;
         "pkg-1.0.0" = _LirqfcFR;
         "pkg-1.0.1" = _AAfi9aCg;
         "pkg-1.0.2" = _hKb6Bm7W;
         "pkg-1.0.3" = _k4Ud6Gzk;
-        "default" = _k4Ud6Gzk;
+        "pkg-1.0.4" = _6do8wFXz;
+        "default" = _6do8wFXz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-polymorphia";

@@ -91,6 +91,11 @@ let
             "file" = "farmers-spell-n-spellbook-1.0.7.0-1.21.1.jar";
             "hash" = "sha512-tewoFgVFlxj2oXrdm8S8YbUmyJDH5k5/DtTf7GTXIsp4Q5oC8ux5ENnXY2iZtOk9PQTQN/FejPMbEfZUvbhHJw==";
         };
+        _4F8DZu21 = {
+            "id" = "4F8DZu21";
+            "file" = "farmers-spell-n-spellbook-1.0.7.1-1.21.1.jar";
+            "hash" = "sha512-mRB7OyocjxoSDrvkJ+86foOgsZ0lSLY4h9K5w4/5FYqL+stYff6388zwguuHxr/4BL9bsFlwrV8qIKMtQjTYvw==";
+        };
     in {
         "Hk7wI38B" = _Hk7wI38B;
         "VFQQMFnH" = _VFQQMFnH;
@@ -110,8 +115,9 @@ let
         "O6ZK8XcV" = _O6ZK8XcV;
         "MTuhbf8h" = _MTuhbf8h;
         "qNEKVQY9" = _qNEKVQY9;
+        "4F8DZu21" = _4F8DZu21;
         "forge-1.20.1" = _MTuhbf8h;
-        "neoforge-1.21.1" = _qNEKVQY9;
+        "neoforge-1.21.1" = _4F8DZu21;
         "neoforge-1.21.2" = _NDixh5Ak;
         "neoforge-1.21.3" = _NDixh5Ak;
         "neoforge-1.21.4" = _NDixh5Ak;
@@ -140,7 +146,8 @@ let
         "pkg-1.0.6_2-1.20.1" = _O6ZK8XcV;
         "pkg-1.0.7-1.20.1" = _MTuhbf8h;
         "pkg-1.0.7.0-1.21.1" = _qNEKVQY9;
-        "default" = _qNEKVQY9;
+        "pkg-1.0.7.1-1.21.1" = _4F8DZu21;
+        "default" = _4F8DZu21;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-spell";

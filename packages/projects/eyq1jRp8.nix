@@ -86,6 +86,11 @@ let
             "file" = "upgradeable-spawners-v1.1.0.0.jar";
             "hash" = "sha512-8rBVZLvRHNhcMOkEPP2zCSz86YZBCwuG2lHIMsI8HLQj1Qm26F/QgKfyTsOOUcoOsxZjC05mcUXLYYSxA8hMkA==";
         };
+        _ujZVO3JV = {
+            "id" = "ujZVO3JV";
+            "file" = "upgradeable-spawners-v1.1.0.0-paper.jar";
+            "hash" = "sha512-aUUiYmYg421CBYVEJQMfboHoe9pwXXArEBN9S5n46eoAmAT6DHi3+fX5vwBvJlKXVWOUyuFsq5Yi6gNn0Il/NA==";
+        };
     in {
         "etRsq81Y" = _etRsq81Y;
         "RFCMWIjv" = _RFCMWIjv;
@@ -104,6 +109,7 @@ let
         "HcZFmHZK" = _HcZFmHZK;
         "FLnubfSI" = _FLnubfSI;
         "LsHJCExz" = _LsHJCExz;
+        "ujZVO3JV" = _ujZVO3JV;
         "datapack-1.21.6" = _7LVgEJx4;
         "datapack-1.21.7" = _7LVgEJx4;
         "datapack-1.21.8" = _7LVgEJx4;
@@ -159,6 +165,8 @@ let
         "quilt-26.1.2" = _A2lupJ3D;
         "quilt-26.2" = _A2lupJ3D;
         "quilt-26.3" = _LsHJCExz;
+        "paper-26.3" = _ujZVO3JV;
+        "purpur-26.3" = _ujZVO3JV;
         "pkg-v1.0.0" = _8QhXM2IK;
         "pkg-v1.0.0+mod" = _3t7d4nJO;
         "pkg-v1.0.1" = _qnzSrNZC;
@@ -171,7 +179,8 @@ let
         "pkg-v1.1.0+mod" = _HcZFmHZK;
         "pkg-v1.1.0.0" = _FLnubfSI;
         "pkg-v1.1.0.0+mod" = _LsHJCExz;
-        "default" = _LsHJCExz;
+        "pkg-v1.1.0.0+plugin" = _ujZVO3JV;
+        "default" = _ujZVO3JV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "upgradeable-spawners";

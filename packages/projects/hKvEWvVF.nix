@@ -131,6 +131,11 @@ let
             "file" = "call-your-dog-v2.2.0.0.jar";
             "hash" = "sha512-QIKQNrDSzkVHYq9J5PgP+0t9Z/vtFWlFlQW4/sBamvlccABVtMpV4baq0PADcu819XmQqMDdWD4VRyeVwDjYvQ==";
         };
+        _X2AHKY0R = {
+            "id" = "X2AHKY0R";
+            "file" = "call-your-dog-v2.2.0.0-paper.jar";
+            "hash" = "sha512-a2vrii4MFPQ7gczN8ZdigreGQyuuLkSk1v6Na+rN2Y4p+4jHkmXfngHBh29ZdcauKf1V6Ol5tfkESW+bZM5bnQ==";
+        };
     in {
         "r8FOGf5d" = _r8FOGf5d;
         "4iQxCPNi" = _4iQxCPNi;
@@ -158,6 +163,7 @@ let
         "iRxLqSSr" = _iRxLqSSr;
         "KyMWqYAE" = _KyMWqYAE;
         "QiPknpMv" = _QiPknpMv;
+        "X2AHKY0R" = _X2AHKY0R;
         "datapack-1.21" = _n2emqnsC;
         "datapack-1.21.1" = _n2emqnsC;
         "datapack-1.21.2" = _n2emqnsC;
@@ -243,6 +249,8 @@ let
         "quilt-26.1.2" = _n4s4PUBj;
         "quilt-26.2" = _n4s4PUBj;
         "quilt-26.3" = _QiPknpMv;
+        "paper-26.3" = _X2AHKY0R;
+        "purpur-26.3" = _X2AHKY0R;
         "pkg-v.1.0.0" = _r8FOGf5d;
         "pkg-v.1.0.0+mod" = _4iQxCPNi;
         "pkg-v.1.1.1" = _rSKUrXLr;
@@ -263,7 +271,8 @@ let
         "pkg-v2.2.0+mod" = _iRxLqSSr;
         "pkg-v2.2.0.0" = _KyMWqYAE;
         "pkg-v2.2.0.0+mod" = _QiPknpMv;
-        "default" = _QiPknpMv;
+        "pkg-v2.2.0.0+plugin" = _X2AHKY0R;
+        "default" = _X2AHKY0R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "call-your-dog";

@@ -26,20 +26,28 @@ let
             "file" = "fallen-1.2.0+mc26.2.jar";
             "hash" = "sha512-dR4CtmhJXt4Ny/TlEFaKNQHhI6vOV1QdL47N4xRTXKvzMQLnfmgijjalqlD6oDC/NG1B4gtQSTSlQm6Ti+m9mg==";
         };
+        _1ywoVuXW = {
+            "id" = "1ywoVuXW";
+            "file" = "fallen-1.5.1.jar";
+            "hash" = "sha512-4FT52AYG0psYEem5p7KKfN/qqHM0QaW1nXJs0ZdJdTLN0EtWFVu7CRvuDtQcQvess9NQzaE00/cWWb1rKW2bFg==";
+        };
     in {
         "HN3B19M5" = _HN3B19M5;
         "AadKJqJg" = _AadKJqJg;
         "3LxKHr4q" = _3LxKHr4q;
         "Vh7KwQre" = _Vh7KwQre;
         "cGFuVeV7" = _cGFuVeV7;
-        "fabric-26.2" = _cGFuVeV7;
-        "fabric-26.1.2" = _Vh7KwQre;
+        "1ywoVuXW" = _1ywoVuXW;
+        "fabric-26.2" = _1ywoVuXW;
+        "fabric-26.1.2" = _1ywoVuXW;
+        "fabric-26.3" = _1ywoVuXW;
         "pkg-0.1.0+mc26.2" = _HN3B19M5;
         "pkg-1.1.0+mc26.2" = _AadKJqJg;
         "pkg-1.1.0+mc26.1.2" = _3LxKHr4q;
         "pkg-1.2.0+mc26.1.2" = _Vh7KwQre;
         "pkg-1.2.0+mc26.2" = _cGFuVeV7;
-        "default" = _cGFuVeV7;
+        "pkg-1.5.1" = _1ywoVuXW;
+        "default" = _1ywoVuXW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallencorpse";

@@ -31,6 +31,16 @@ let
             "file" = "bbs-photon-addon-1.2.jar";
             "hash" = "sha512-5HoprIaWOzET+yZdxGIxFbVXIDJ2W1XLsGGkWE6ksbt2NltX/d4Rel1oBCmPEUMNRjAmptKTEFGml19vEIKC4g==";
         };
+        _WQbUY7HW = {
+            "id" = "WQbUY7HW";
+            "file" = "bbs-photon-addon-2.0-1.21.1.jar";
+            "hash" = "sha512-+n89bB7p3obdxgK94hp7T/OBu1Gn1hZxgpRWoo+kgDp5dswWwhUwCK4RVO80uMYNhFvaaZ9CWPKJJL+AqHcGOA==";
+        };
+        _t96z2y5u = {
+            "id" = "t96z2y5u";
+            "file" = "bbs-photon-addon-2.0-26.1.2.jar";
+            "hash" = "sha512-pFgZWmibIBwTeR62Ioo2gIZYzuVxaVspITHeFVbGvhkFgxlacOXgU9o5Ycd5YyyDKS9+4VSiukLtvo6zbkDi6w==";
+        };
     in {
         "5xrzkAaa" = _5xrzkAaa;
         "HURbCSyT" = _HURbCSyT;
@@ -38,14 +48,19 @@ let
         "RlXG4PhG" = _RlXG4PhG;
         "E2XMzY3E" = _E2XMzY3E;
         "Ox3eAMX9" = _Ox3eAMX9;
-        "neoforge-1.21.1" = _Ox3eAMX9;
+        "WQbUY7HW" = _WQbUY7HW;
+        "t96z2y5u" = _t96z2y5u;
+        "neoforge-1.21.1" = _WQbUY7HW;
+        "neoforge-26.1.2" = _t96z2y5u;
         "pkg-1.0.0" = _5xrzkAaa;
         "pkg-1.0.1" = _HURbCSyT;
         "pkg-1.0.2" = _BNsR79mp;
         "pkg-1.1.0" = _RlXG4PhG;
         "pkg-1.1.1" = _E2XMzY3E;
         "pkg-1.2" = _Ox3eAMX9;
-        "default" = _Ox3eAMX9;
+        "pkg-2.0-1.21.1" = _WQbUY7HW;
+        "pkg-2.0-26.1.2" = _t96z2y5u;
+        "default" = _t96z2y5u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbs-photon-addon";

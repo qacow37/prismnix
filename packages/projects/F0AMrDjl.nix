@@ -401,6 +401,16 @@ let
             "file" = "classicperipherals-neoforge-1.21.1-0.6.5.jar";
             "hash" = "sha512-WeH8PkIiOVATQwkdghzmm9EYEz7Oqts5P4OkwIRu0UVwJrzJkcCBHR+1rUxpp0TGSQVj1f4z7zXQHbgG/IILqw==";
         };
+        _1adHxieV = {
+            "id" = "1adHxieV";
+            "file" = "classicperipherals-fabric-1.21.1-0.6.6.jar";
+            "hash" = "sha512-xGjQuR14ik5rfvPicBjIa/ZU3I8hdAuCeoHD+SGHO9gnZzVa56FKa414sjvg64rcsa0RoIfdmYxp1qywsWAN0g==";
+        };
+        _DBZz28vf = {
+            "id" = "DBZz28vf";
+            "file" = "classicperipherals-neoforge-1.21.1-0.6.6.jar";
+            "hash" = "sha512-edaxmcBxXuleX6PpxACoHCCi+DddzP9mSaOut/isjSu9ss3upnjTWcCqpmIgnMlZ1DNOtN/OAydRwoJbJoh83A==";
+        };
     in {
         "WyQhbyX5" = _WyQhbyX5;
         "rODQkmkB" = _rODQkmkB;
@@ -482,9 +492,11 @@ let
         "Jo9NtC5X" = _Jo9NtC5X;
         "ca4KlgPr" = _ca4KlgPr;
         "gh1FbBVy" = _gh1FbBVy;
+        "1adHxieV" = _1adHxieV;
+        "DBZz28vf" = _DBZz28vf;
         "fabric-1.20.1" = _EThgIMBg;
-        "fabric-1.21.1" = _ca4KlgPr;
-        "neoforge-1.21.1" = _gh1FbBVy;
+        "fabric-1.21.1" = _1adHxieV;
+        "neoforge-1.21.1" = _DBZz28vf;
         "forge-1.20.1" = _1F83I46I;
         "pkg-0.1.0" = _jxJnfrsK;
         "pkg-0.2.0" = _DbXIrtaD;
@@ -516,7 +528,8 @@ let
         "pkg-0.6.3" = _MCYePQRG;
         "pkg-0.6.4" = _Jo9NtC5X;
         "pkg-0.6.5" = _gh1FbBVy;
-        "default" = _gh1FbBVy;
+        "pkg-0.6.6" = _DBZz28vf;
+        "default" = _DBZz28vf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classicperipherals";

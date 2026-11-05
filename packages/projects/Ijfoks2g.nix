@@ -116,6 +116,11 @@ let
             "file" = "killer-bunny-name-tag-v1.1.0.0.jar";
             "hash" = "sha512-2q9K0btB+CzUkEz1LBErImOUiRDBuRgiLdMwgvYZpe3BkhNz+JZKdmdJW0DALOW2LBqfGAbHCn6La2gALQ37Eg==";
         };
+        _G11dXEQS = {
+            "id" = "G11dXEQS";
+            "file" = "killer-bunny-name-tag-v1.1.0.0-paper.jar";
+            "hash" = "sha512-9IrtlLqiOGnqmk1pqgMv5ACHqekdMSysR1pnXnFuljTnxBZ7Ugi79b4fSJ7xoiu+eLIHs7rmpd0cPKW3XCj8zg==";
+        };
     in {
         "Qka20HXb" = _Qka20HXb;
         "2RYwVdDR" = _2RYwVdDR;
@@ -140,6 +145,7 @@ let
         "J9ZFeGjb" = _J9ZFeGjb;
         "R4quMAsm" = _R4quMAsm;
         "Ajofog4d" = _Ajofog4d;
+        "G11dXEQS" = _G11dXEQS;
         "datapack-1.21.5" = _Qka20HXb;
         "datapack-1.21.6" = _88bvSE5e;
         "datapack-1.21.7" = _88bvSE5e;
@@ -200,6 +206,8 @@ let
         "quilt-26.1.2" = _nAmihQpW;
         "quilt-26.2" = _nAmihQpW;
         "quilt-26.3" = _Ajofog4d;
+        "paper-26.3" = _G11dXEQS;
+        "purpur-26.3" = _G11dXEQS;
         "pkg-v.1.0.0" = _Qka20HXb;
         "pkg-v.1.0.0+mod" = _2RYwVdDR;
         "pkg-v1.0.1" = _jS0V9muK;
@@ -214,7 +222,8 @@ let
         "pkg-v1.1.0" = _J9ZFeGjb;
         "pkg-v1.1.0.0" = _R4quMAsm;
         "pkg-v1.1.0.0+mod" = _Ajofog4d;
-        "default" = _Ajofog4d;
+        "pkg-v1.1.0.0+plugin" = _G11dXEQS;
+        "default" = _G11dXEQS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "killer-bunny-name-tag";

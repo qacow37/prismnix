@@ -76,6 +76,11 @@ let
             "file" = "rationcraft-1.3.7-neoforge-1.21.8.jar";
             "hash" = "sha512-cvuqWb4ZxDu62R8UETdnCtEOvFnyyluOIR8jxdexqVrJylWxa7U8vbwlSXWAEJ3XPc0QzOaBs+oVR7Cnd9lIAQ==";
         };
+        _e233cJlx = {
+            "id" = "e233cJlx";
+            "file" = "rationcraft-1.3.7-neoforge-1.21.1.jar";
+            "hash" = "sha512-skv70xkAFpyo6uxnNtY7a+bRh26GozEd5+IY/aMGNVbtL9TxZoEZeeIg9xZKly84SWH4JYrOI2CRAEsyJCry/w==";
+        };
     in {
         "TFmArPu8" = _TFmArPu8;
         "5Z3WKu8w" = _5Z3WKu8w;
@@ -92,8 +97,9 @@ let
         "F3IA5wyr" = _F3IA5wyr;
         "NC0nQf5G" = _NC0nQf5G;
         "XVsKyN1l" = _XVsKyN1l;
+        "e233cJlx" = _e233cJlx;
         "forge-1.20.1" = _F3IA5wyr;
-        "neoforge-1.21.1" = _cCnwTKxM;
+        "neoforge-1.21.1" = _e233cJlx;
         "neoforge-1.21.4" = _NC0nQf5G;
         "neoforge-1.21.8" = _XVsKyN1l;
         "pkg-1.3.1" = _TFmArPu8;
@@ -106,8 +112,8 @@ let
         "pkg-1.3.6.1" = _Bgo55hnu;
         "pkg-1.3.6.2" = _CYlngFtz;
         "pkg-1.3.6.3" = _cCnwTKxM;
-        "pkg-1.3.7" = _XVsKyN1l;
-        "default" = _XVsKyN1l;
+        "pkg-1.3.7" = _e233cJlx;
+        "default" = _e233cJlx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rationcraft";

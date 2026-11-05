@@ -221,6 +221,11 @@ let
             "file" = "show-dimension-in-name-v2.7.0.jar";
             "hash" = "sha512-guhPde3LZPzJbHpiDXkGluP15IGCLW0Lg+luaoyVqFg8iKwhPwXL5ux+EDTZsfF+d5S+62Tq2cA9HJ0MmBGKNg==";
         };
+        _DglOAYg9 = {
+            "id" = "DglOAYg9";
+            "file" = "show-dimension-in-name-v2.7.0-paper.jar";
+            "hash" = "sha512-op+Np01Gtx7Gs67o/ev6GVEWd1aRVpJEyQURysPfDphE9042Si82GM6UfQIMG9c+zHmhOkUXdZJtIhwGy7zFtw==";
+        };
     in {
         "NSPVkDbs" = _NSPVkDbs;
         "5MCeseZw" = _5MCeseZw;
@@ -266,6 +271,7 @@ let
         "2mpOJI35" = _2mpOJI35;
         "DCpXtUPl" = _DCpXtUPl;
         "R2DXYBE5" = _R2DXYBE5;
+        "DglOAYg9" = _DglOAYg9;
         "datapack-1.20.4" = _NSPVkDbs;
         "datapack-1.20.5" = _lWSoMHD7;
         "datapack-1.20.6" = _lWSoMHD7;
@@ -371,6 +377,8 @@ let
         "neoforge-26.1.2" = _2mpOJI35;
         "neoforge-26.2" = _2mpOJI35;
         "neoforge-26.3" = _R2DXYBE5;
+        "paper-26.3" = _DglOAYg9;
+        "purpur-26.3" = _DglOAYg9;
         "pkg-v.1.0.0" = _NSPVkDbs;
         "pkg-v.1.0.0+mod" = _5MCeseZw;
         "pkg-v.2.0.0" = _tptXA6bU;
@@ -403,7 +411,8 @@ let
         "pkg-v2.5.5+mod" = _2mpOJI35;
         "pkg-v2.7.0" = _DCpXtUPl;
         "pkg-v2.7.0+mod" = _R2DXYBE5;
-        "default" = _R2DXYBE5;
+        "pkg-v2.7.0+plugin" = _DglOAYg9;
+        "default" = _DglOAYg9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "show-dimension-in-name";

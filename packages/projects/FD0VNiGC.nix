@@ -81,6 +81,11 @@ let
             "file" = "dragonslayer-1.3.5-neoforge-1.21.8.jar";
             "hash" = "sha512-exvb1bFbzllGoCfIlrMYZoTTOaJjFSaYOMyejqmkVEURWEjWnSnNuD4UYfW8TDVJDocJfQ7pK/fpR5Zbf+wX3g==";
         };
+        _8NDJdvGN = {
+            "id" = "8NDJdvGN";
+            "file" = "dragonslayer-1.3.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-l05BW91MWVnYMJOVI5vLn/2o8SgEi0ONDIjEGqYPxS41dU68juappUt2NCjvORSa+s5j6gjqi3cUgUcIVLDJ/w==";
+        };
     in {
         "4yHA8TSU" = _4yHA8TSU;
         "syU79WHP" = _syU79WHP;
@@ -98,9 +103,10 @@ let
         "r2CH9BEg" = _r2CH9BEg;
         "ogbBurCZ" = _ogbBurCZ;
         "9oeL177x" = _9oeL177x;
+        "8NDJdvGN" = _8NDJdvGN;
         "forge-1.19.2" = _4yHA8TSU;
         "forge-1.20.1" = _r2CH9BEg;
-        "neoforge-1.21.1" = _ogbBurCZ;
+        "neoforge-1.21.1" = _8NDJdvGN;
         "neoforge-1.21.4" = _bQdjRmnE;
         "neoforge-1.21.8" = _9oeL177x;
         "pkg-1.0" = _4yHA8TSU;
@@ -114,9 +120,9 @@ let
         "pkg-1.3.1" = _3X2pgZGy;
         "pkg-1.3.2" = _YUijlm9v;
         "pkg-1.3.3" = _LRx2wCZ8;
-        "pkg-1.3.4" = _r2CH9BEg;
+        "pkg-1.3.4" = _8NDJdvGN;
         "pkg-1.3.5" = _9oeL177x;
-        "default" = _9oeL177x;
+        "default" = _8NDJdvGN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonslayer-sword";

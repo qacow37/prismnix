@@ -66,6 +66,16 @@ let
             "file" = "monsters_level_up-1.5-forge-1.20.1.jar";
             "hash" = "sha512-1ric2oj3mdv6wplS4GsrN6wasxlTQjlTt7WxWAmQgqCRyOVuWbbw3P8nTT3xHKjRQi8b526885UW4yBUjDTXYg==";
         };
+        _Al2Zz4lj = {
+            "id" = "Al2Zz4lj";
+            "file" = "monsters_level_up-1.6-forge-1.20.1.jar";
+            "hash" = "sha512-WsuFQDQk8End7vI17MxBjdTYt+KUwVz6mp64qR1s1frJnZPJA3ySPEfCxlgTMMZGr3WWCOJSGiy3dqs8fSBZWA==";
+        };
+        _mn7H71RW = {
+            "id" = "mn7H71RW";
+            "file" = "monsters_level_up-1.6-neoforge-1.21.1.jar";
+            "hash" = "sha512-MvjqJfWO/ATQ3u9PS+7Ox6LjKb5I/npzUuCAcc9Qk1TvU/1u804V5GwQYylQfyPjxUpYsg3moiv9pzRep464gQ==";
+        };
     in {
         "qmmPuKV0" = _qmmPuKV0;
         "8NaZHaHW" = _8NaZHaHW;
@@ -80,9 +90,12 @@ let
         "JhME3BCI" = _JhME3BCI;
         "VCqshxru" = _VCqshxru;
         "P2XGmUIx" = _P2XGmUIx;
+        "Al2Zz4lj" = _Al2Zz4lj;
+        "mn7H71RW" = _mn7H71RW;
         "neoforge-1.20.4" = _qmmPuKV0;
         "neoforge-1.20.6" = _swnBVR4n;
-        "forge-1.20.1" = _P2XGmUIx;
+        "neoforge-1.21.1" = _mn7H71RW;
+        "forge-1.20.1" = _Al2Zz4lj;
         "forge-1.19.4" = _XiexCnth;
         "forge-1.19.2" = _rqZYkLeo;
         "pkg-1.0" = _ZrfhQ6Ig;
@@ -91,7 +104,8 @@ let
         "pkg-1.3" = _JhME3BCI;
         "pkg-1.4" = _VCqshxru;
         "pkg-1.5" = _P2XGmUIx;
-        "default" = _P2XGmUIx;
+        "pkg-1.6" = _mn7H71RW;
+        "default" = _mn7H71RW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monsters-level-up";

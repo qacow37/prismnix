@@ -76,6 +76,11 @@ let
             "file" = "blessingofpandora-1.7.3.jar";
             "hash" = "sha512-9wqMQ35W4p9cEsBKG6NrY+o+psI750bMfRYrDphll0tKiAgAvagIQXaNNRfVfP55kfjJ0oApaOQICsLe2htT7Q==";
         };
+        _y8lU0xp0 = {
+            "id" = "y8lU0xp0";
+            "file" = "blessingofpandora-1.7.3fix.jar";
+            "hash" = "sha512-tEzY2lqmbHoIulo5dVgEpVeRbdyaF1Zj672q8IhDnHjCP4rBacYE62vQ/TO9thFiiZOfu1u4WOOQXKt4VUgHxQ==";
+        };
     in {
         "iEEvJ8nD" = _iEEvJ8nD;
         "1X9PgEse" = _1X9PgEse;
@@ -92,7 +97,8 @@ let
         "V0vFBe5X" = _V0vFBe5X;
         "frH2sBea" = _frH2sBea;
         "7qC3lJrB" = _7qC3lJrB;
-        "forge-1.20.1" = _7qC3lJrB;
+        "y8lU0xp0" = _y8lU0xp0;
+        "forge-1.20.1" = _y8lU0xp0;
         "pkg-0.1.0" = _iEEvJ8nD;
         "pkg-0.1.1" = _1X9PgEse;
         "pkg-0.1.2" = _Hkpz3DLf;
@@ -108,7 +114,8 @@ let
         "pkg-1.7.0" = _V0vFBe5X;
         "pkg-1.7.1" = _frH2sBea;
         "pkg-1.7.3" = _7qC3lJrB;
-        "default" = _7qC3lJrB;
+        "pkg-1.7.3fix" = _y8lU0xp0;
+        "default" = _y8lU0xp0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blessingofpandora";

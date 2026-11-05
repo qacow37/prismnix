@@ -66,6 +66,11 @@ let
             "file" = "blast-protection-hud-2.0.0+1.21.11.jar";
             "hash" = "sha512-iKdl0o1P2frmbkWsEsc/IN6YaXRFfBa1tK6iMU+4MRdopxFAclSdnrxNQBiqPheNRSRx8iFGT/R7190ji8irfw==";
         };
+        _tZL2tqbp = {
+            "id" = "tZL2tqbp";
+            "file" = "blast-protection-hud-2.0.0+26.3.jar";
+            "hash" = "sha512-b/ZwgXC/1PvR4ErAMBnzLLF1DSxwrjg5my22r2iuncEf8w29SAuuRzeK1RFE72RxvUTUrkEIwQf9Qr0h7j1CUg==";
+        };
     in {
         "atRB5cvd" = _atRB5cvd;
         "ANIl06ap" = _ANIl06ap;
@@ -80,6 +85,7 @@ let
         "CwAdvOWP" = _CwAdvOWP;
         "9nlLseJS" = _9nlLseJS;
         "BV7rUBPa" = _BV7rUBPa;
+        "tZL2tqbp" = _tZL2tqbp;
         "fabric-1.21.4" = _5GHpkx9q;
         "fabric-1.21.11" = _BV7rUBPa;
         "fabric-1.21.8" = _RBDZDRTC;
@@ -88,6 +94,7 @@ let
         "fabric-1.21.7" = _puyB4Syt;
         "fabric-1.21.9" = _CwAdvOWP;
         "fabric-1.21.10" = _9nlLseJS;
+        "fabric-26.3" = _tZL2tqbp;
         "pkg-1.0.1" = _atRB5cvd;
         "pkg-1.0" = _ANIl06ap;
         "pkg-1.1" = _XjzjaKoY;
@@ -99,7 +106,8 @@ let
         "pkg-2.0.0+1.21.9" = _CwAdvOWP;
         "pkg-2.0.0+1.21.10" = _9nlLseJS;
         "pkg-2.0.0+1.21.11" = _BV7rUBPa;
-        "default" = _BV7rUBPa;
+        "pkg-2.0.0+26.3" = _tZL2tqbp;
+        "default" = _tZL2tqbp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blast-protection-indicator";

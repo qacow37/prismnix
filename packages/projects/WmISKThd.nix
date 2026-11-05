@@ -111,6 +111,11 @@ let
             "file" = "easy-sit-v2.1.1.jar";
             "hash" = "sha512-rPboJms6USQiCBnm56zPotOJuaUHCbZU/7H2f7mCyZ20oG3UD4IWAgVQvhCtyZuULm1Vo+8nK3QA6ZmKRxDx5Q==";
         };
+        _ABZjAV8Y = {
+            "id" = "ABZjAV8Y";
+            "file" = "easy-sit-v2.1.1-paper.jar";
+            "hash" = "sha512-JfhGSkxHXgZ1Ksj+pF1djgFd7hjOSGryFbJJh+zR1P6fyBuefhDE5Y1f1AGHKQmdwmo298VpuegF2UQqZ4m+fg==";
+        };
     in {
         "2qAKriSg" = _2qAKriSg;
         "BN53PRFL" = _BN53PRFL;
@@ -134,6 +139,7 @@ let
         "kNfyAkm7" = _kNfyAkm7;
         "QJUlhXmx" = _QJUlhXmx;
         "QEfMhidv" = _QEfMhidv;
+        "ABZjAV8Y" = _ABZjAV8Y;
         "datapack-1.21" = _R386pftn;
         "datapack-1.21.1" = _R386pftn;
         "datapack-1.21.2" = _R386pftn;
@@ -214,6 +220,8 @@ let
         "quilt-26.1.2" = _ucjncDQB;
         "quilt-26.2" = _ucjncDQB;
         "quilt-26.3" = _QEfMhidv;
+        "paper-26.3" = _ABZjAV8Y;
+        "purpur-26.3" = _ABZjAV8Y;
         "pkg-v.1.0.0" = _2qAKriSg;
         "pkg-v.1.0.0+mod" = _BN53PRFL;
         "pkg-v.1.1.0" = _R386pftn;
@@ -232,7 +240,8 @@ let
         "pkg-v2.1.0+mod" = _kNfyAkm7;
         "pkg-v2.1.1" = _QJUlhXmx;
         "pkg-v2.1.1+mod" = _QEfMhidv;
-        "default" = _QEfMhidv;
+        "pkg-v2.1.1+plugin" = _ABZjAV8Y;
+        "default" = _ABZjAV8Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-sit";

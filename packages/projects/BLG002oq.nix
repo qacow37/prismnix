@@ -1126,6 +1126,11 @@ let
             "file" = "BetterCraftables_v8.1.0-beta.4_mc26.3-26.4snap5.zip";
             "hash" = "sha512-4T+xxpUS37/IM3GVIxZ0dGjGsp086x1dIUV04/e0LHuEIe3OpjCsOJlSWlmIztOHJU44JlcAsxM0jRSY+M16jA==";
         };
+        _JQv1gvzc = {
+            "id" = "JQv1gvzc";
+            "file" = "BetterCraftables_v8.1.0-beta.5_mc26.3-26.4snap7.zip";
+            "hash" = "sha512-UOpFVERIu0GsgarlQpcjBXCTdjr3/j3zReXCWJWMVY1JnvlEImKC6+jpvEN+L0OgLJvfegzf2BH+S9fXfTkPWw==";
+        };
     in {
         "8dyWXSld" = _8dyWXSld;
         "zp2cl57n" = _zp2cl57n;
@@ -1352,6 +1357,7 @@ let
         "QZKbqvmr" = _QZKbqvmr;
         "wDSOUgIP" = _wDSOUgIP;
         "F8RnXmMX" = _F8RnXmMX;
+        "JQv1gvzc" = _JQv1gvzc;
         "datapack-1.19" = _8dyWXSld;
         "datapack-1.19.1" = _8dyWXSld;
         "datapack-1.19.2" = _8dyWXSld;
@@ -1583,12 +1589,14 @@ let
         "datapack-26.3-rc-1" = _ENalpFwf;
         "datapack-26.3-rc-2" = _ENalpFwf;
         "datapack-26.3-rc-3" = _ENalpFwf;
-        "datapack-26.3" = _F8RnXmMX;
-        "datapack-26.4-snapshot-1" = _F8RnXmMX;
-        "datapack-26.4-snapshot-2" = _F8RnXmMX;
-        "datapack-26.4-snapshot-3" = _F8RnXmMX;
-        "datapack-26.4-snapshot-4" = _F8RnXmMX;
-        "datapack-26.4-snapshot-5" = _F8RnXmMX;
+        "datapack-26.3" = _JQv1gvzc;
+        "datapack-26.4-snapshot-1" = _JQv1gvzc;
+        "datapack-26.4-snapshot-2" = _JQv1gvzc;
+        "datapack-26.4-snapshot-3" = _JQv1gvzc;
+        "datapack-26.4-snapshot-4" = _JQv1gvzc;
+        "datapack-26.4-snapshot-5" = _JQv1gvzc;
+        "datapack-26.4-snapshot-6" = _JQv1gvzc;
+        "datapack-26.4-snapshot-7" = _JQv1gvzc;
         "fabric-1.20" = _gzNwrXUg;
         "fabric-1.20.1" = _gzNwrXUg;
         "fabric-1.20.2" = _52SzIfTy;
@@ -1888,7 +1896,8 @@ let
         "pkg-v8.1.0-beta.2" = _QZKbqvmr;
         "pkg-v8.1.0-beta.3" = _wDSOUgIP;
         "pkg-v8.1.0-beta.4" = _F8RnXmMX;
-        "default" = _F8RnXmMX;
+        "pkg-v8.1.0-beta.5" = _JQv1gvzc;
+        "default" = _JQv1gvzc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-craftables";

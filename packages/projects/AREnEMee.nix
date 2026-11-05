@@ -66,6 +66,11 @@ let
             "file" = "Legends-Misc-1.20.1-ss1.0.8.jar";
             "hash" = "sha512-qkXSgmTsJsob4b7XNBfFzGp65cup26aRmlc/YTnQ0tjjSQ42//WrTYNF9jCPwrvAzs3EaN0gbJ7SE9fGtFZ1Pw==";
         };
+        _LMEiE7xF = {
+            "id" = "LMEiE7xF";
+            "file" = "Legends-Misc-1.20.1-ss1.0.9.jar";
+            "hash" = "sha512-pRRQU/MR/1dyXiPM6Csy0qs85mi7tG+KU15w9YcINEECpCPe1S28fjbAaGzkVmmmt8bq8Q73Y6G66+AphROg6w==";
+        };
     in {
         "tsCbk1O3" = _tsCbk1O3;
         "Rf98r2Eb" = _Rf98r2Eb;
@@ -80,8 +85,9 @@ let
         "JEWU8yxz" = _JEWU8yxz;
         "nkiKhhgl" = _nkiKhhgl;
         "wdCd2brt" = _wdCd2brt;
+        "LMEiE7xF" = _LMEiE7xF;
         "forge-1.18.2" = _cwVXo0KJ;
-        "forge-1.20.1" = _wdCd2brt;
+        "forge-1.20.1" = _LMEiE7xF;
         "pkg-1.0-SNAPSHOT" = _Rf98r2Eb;
         "pkg-0.1.8-SNAPSHOT" = _e4qsiuGu;
         "pkg-0.1.9-SNAPSHOT" = _sKFVvlL5;
@@ -94,7 +100,8 @@ let
         "pkg-1.20.1-ss1.0.6" = _JEWU8yxz;
         "pkg-1.20.1-ss1.0.7" = _nkiKhhgl;
         "pkg-1.20.1-ss1.0.8" = _wdCd2brt;
-        "default" = _wdCd2brt;
+        "pkg-1.20.1-ss1.0.9" = _LMEiE7xF;
+        "default" = _LMEiE7xF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legends-revenants-miscellaneous";

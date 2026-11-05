@@ -421,6 +421,11 @@ let
             "file" = "recruits-1.20.1-1.15.2.jar";
             "hash" = "sha512-TpaWbsoXXMNi1bZ1w8CKcK2K4VsFi0Rdk7Hblf+H4srI/6N+fpIY1G31KtcEOJZC172h1M+pWBrC1iVT1wj2Hw==";
         };
+        _IYZdzeH9 = {
+            "id" = "IYZdzeH9";
+            "file" = "recruits-1.21.1-1.15.2.jar";
+            "hash" = "sha512-ULWqsA/0zFT9V4lvTGjNht4zD92bF+QPVnAS31drxNDe/NyFNxBSmjaMQ0NtcmgwppNGA4eaCOg3rB210JwzPA==";
+        };
     in {
         "ohINil8K" = _ohINil8K;
         "ZIFydKC9" = _ZIFydKC9;
@@ -506,10 +511,12 @@ let
         "2lCoSzFD" = _2lCoSzFD;
         "6iraCzuN" = _6iraCzuN;
         "2zXpVxK4" = _2zXpVxK4;
+        "IYZdzeH9" = _IYZdzeH9;
         "forge-1.19.2" = _czQQilBT;
         "forge-1.18.2" = _ZDBp3day;
         "forge-1.19.4" = _VPbvkSwz;
         "forge-1.20.1" = _2zXpVxK4;
+        "neoforge-1.21.1" = _IYZdzeH9;
         "pkg-1.9.3.9" = _ZIFydKC9;
         "pkg-1.10.3" = _6ALf1eP8;
         "pkg-1.10.4" = _18TziSIh;
@@ -550,8 +557,8 @@ let
         "pkg-1.14.2.3" = _6VfALbSe;
         "pkg-1.15.0" = _2lCoSzFD;
         "pkg-1.15.1" = _6iraCzuN;
-        "pkg-1.15.2" = _2zXpVxK4;
-        "default" = _2zXpVxK4;
+        "pkg-1.15.2" = _IYZdzeH9;
+        "default" = _IYZdzeH9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-recruits";

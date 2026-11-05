@@ -121,6 +121,11 @@ let
             "file" = "call-your-parrot-v2.2.0.0.jar";
             "hash" = "sha512-5m/gG+D3gp4UapJ28TfMXv8nIpQ/v5kCbOcJ2FqAwr2pblnbtfnHnBXTwDmOCoMczpRXBGUfCeJuS+HUt+P1xA==";
         };
+        _MRrTptd9 = {
+            "id" = "MRrTptd9";
+            "file" = "call-your-parrot-v2.2.0.0-paper.jar";
+            "hash" = "sha512-t4FGjfA+hti5rZtc0YHZ0qk/2a7lO2vuAraR3YT6M+TSR1WiO+c34ZfLt99OhfLxFgn7NcOn994IsVaANzQw3w==";
+        };
     in {
         "KCtMojdC" = _KCtMojdC;
         "UcQP5Ukj" = _UcQP5Ukj;
@@ -146,6 +151,7 @@ let
         "eHjP7qIv" = _eHjP7qIv;
         "DwGafq3k" = _DwGafq3k;
         "rdFFEWka" = _rdFFEWka;
+        "MRrTptd9" = _MRrTptd9;
         "datapack-1.21" = _sPtkdGfk;
         "datapack-1.21.1" = _sPtkdGfk;
         "datapack-1.21.2" = _sPtkdGfk;
@@ -231,6 +237,8 @@ let
         "quilt-26.1.2" = _V7dR0psK;
         "quilt-26.2" = _V7dR0psK;
         "quilt-26.3" = _rdFFEWka;
+        "paper-26.3" = _MRrTptd9;
+        "purpur-26.3" = _MRrTptd9;
         "pkg-v.1.0.0" = _KCtMojdC;
         "pkg-v.1.0.0+mod" = _UcQP5Ukj;
         "pkg-v.1.1.0" = _UwmQ3dLB;
@@ -253,7 +261,8 @@ let
         "pkg-v2.2.0+mod" = _eHjP7qIv;
         "pkg-v2.2.0.0" = _DwGafq3k;
         "pkg-v2.2.0.0+mod" = _rdFFEWka;
-        "default" = _rdFFEWka;
+        "pkg-v2.2.0.0+plugin" = _MRrTptd9;
+        "default" = _MRrTptd9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "call-your-parrot";

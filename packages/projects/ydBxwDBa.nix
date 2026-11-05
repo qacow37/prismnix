@@ -256,6 +256,56 @@ let
             "file" = "muchmoredungeons-neoforge-26.3-2.0.0.jar";
             "hash" = "sha512-DLU2I3YBqwzLiI+bSvUTxTMPDTmDAx8yO2ORyRhtiNjWAfN5zrs4v7Ne4i4mtZknu2B7goQgGdF9WLGly8fOZw==";
         };
+        _ZcTjASzG = {
+            "id" = "ZcTjASzG";
+            "file" = "muchmoredungeons-fabric-1.20.1-2.0.1.jar";
+            "hash" = "sha512-N/kfRMyhic8mDSOOL+FG7qTf0IaLfF8r1Mkkyvsul/7va82r1FwY8lXV7wPZmPlDOSJH3YiUECX/EmbHKoVyKg==";
+        };
+        _wBsnqGPk = {
+            "id" = "wBsnqGPk";
+            "file" = "muchmoredungeons-forge-1.20.1-2.0.1.jar";
+            "hash" = "sha512-CYlhLPInNc+9dw1Oj+JgPSJgbYOc+J6p8uBlyki6khZoeCe7WQEMwiLxJSA3AMC/nsjjH8O4ID5mG25qDMuOlg==";
+        };
+        _fYRCgbrX = {
+            "id" = "fYRCgbrX";
+            "file" = "muchmoredungeons-fabric-1.21.1-2.0.1.jar";
+            "hash" = "sha512-lzoNu3mPoFcyfMHSDbwuHxmKmfmEacxMIjZwZA1K2CsFR5mB20mJpXws1DFQLbkH2rrLNLkGwu84tfECP7yTRw==";
+        };
+        _UVY2JEM6 = {
+            "id" = "UVY2JEM6";
+            "file" = "muchmoredungeons-neoforge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-4mSxmWQSlj0u72inS0J6WYOH26MbVquWCyLYMetrEoCvURgyRO/Nn3rCFEo6wmxMIotNrd/5S/qTTpgk66DF8g==";
+        };
+        _kFDhXK9W = {
+            "id" = "kFDhXK9W";
+            "file" = "muchmoredungeons-fabric-26.1.2-2.0.1.jar";
+            "hash" = "sha512-iDBPPbtb8tyBHsur4gregmYkfrVW//OHodVQGsS/z+fl4d42HhRhtl4AtjwlnJLQZ5kdt0lOHdo2UHE733lCOQ==";
+        };
+        _1qwvDAY2 = {
+            "id" = "1qwvDAY2";
+            "file" = "muchmoredungeons-neoforge-26.1.2-2.0.1.jar";
+            "hash" = "sha512-RT7Jswy8E/u5h3w02rBfu0uMMG+DT8OFwQAiJ7NougmxZI59hfqmcpzPlMtQ5ssAeX8QjtoFa7m/OiIRZoFgwA==";
+        };
+        _PlnUOjLA = {
+            "id" = "PlnUOjLA";
+            "file" = "muchmoredungeons-fabric-26.2-2.0.1.jar";
+            "hash" = "sha512-Awq4AgkgyPH+lFjWcnu146bXTacVl0Zg0QXKrjKzP4UFsyTcOF3dGoSWG73n1YQA9wHcC6XZ97gWmMbDTWL+7g==";
+        };
+        _Lm8Ov0TO = {
+            "id" = "Lm8Ov0TO";
+            "file" = "muchmoredungeons-neoforge-26.2-2.0.1.jar";
+            "hash" = "sha512-d2JH9q0swQx+KqxhuTX/ucHCTrJC3ahQKK+cO5gGWhl4JzzTLN2CZ6mQHerzcv1vJpCdfIvx2CzvfG/wXfLB+Q==";
+        };
+        _9csVSC8M = {
+            "id" = "9csVSC8M";
+            "file" = "muchmoredungeons-fabric-26.3-2.0.1.jar";
+            "hash" = "sha512-m4WVCazRI5oRcHcHKvadpwG5+I1QKYvu/i6u1m5y+iIqf/8fZsU+fi6tDrPEXgGdd/t9gbg/O8PaK0I2OG2ldg==";
+        };
+        _fzvBrYhm = {
+            "id" = "fzvBrYhm";
+            "file" = "muchmoredungeons-neoforge-26.3-2.0.1.jar";
+            "hash" = "sha512-0fIr1Kmi5eVSpZa8FmgbZFmVvg1KZ5Vyr2UHRXCWlMy8o61mAF12DliYww1289XN4csnFAu10xHDCugeK4AwDQ==";
+        };
     in {
         "POFAoR0t" = _POFAoR0t;
         "fRzuIby9" = _fRzuIby9;
@@ -308,25 +358,35 @@ let
         "38WZ2UWJ" = _38WZ2UWJ;
         "sLk7Hfvf" = _sLk7Hfvf;
         "xUeYtO6i" = _xUeYtO6i;
-        "fabric-1.20.1" = _ZVckHbIQ;
-        "fabric-1.21.1" = _YzClQUob;
+        "ZcTjASzG" = _ZcTjASzG;
+        "wBsnqGPk" = _wBsnqGPk;
+        "fYRCgbrX" = _fYRCgbrX;
+        "UVY2JEM6" = _UVY2JEM6;
+        "kFDhXK9W" = _kFDhXK9W;
+        "1qwvDAY2" = _1qwvDAY2;
+        "PlnUOjLA" = _PlnUOjLA;
+        "Lm8Ov0TO" = _Lm8Ov0TO;
+        "9csVSC8M" = _9csVSC8M;
+        "fzvBrYhm" = _fzvBrYhm;
+        "fabric-1.20.1" = _ZcTjASzG;
+        "fabric-1.21.1" = _fYRCgbrX;
         "fabric-1.21.5" = _vCNETeuq;
         "fabric-1.21.8" = _uQLZgOaA;
         "fabric-1.21.11" = _KplXJSHB;
         "fabric-26.1.1" = _5B00TDzW;
-        "fabric-26.1.2" = _xI0la9ZD;
-        "fabric-26.2" = _7JUTXRuG;
-        "fabric-26.3" = _DAPeyiZY;
-        "forge-1.20.1" = _khfqYDDf;
+        "fabric-26.1.2" = _kFDhXK9W;
+        "fabric-26.2" = _PlnUOjLA;
+        "fabric-26.3" = _9csVSC8M;
+        "forge-1.20.1" = _wBsnqGPk;
         "neoforge-1.20.1" = _bCfl3D02;
-        "neoforge-1.21.1" = _iywfJnLP;
+        "neoforge-1.21.1" = _UVY2JEM6;
         "neoforge-1.21.5" = _HoIM9DQT;
         "neoforge-1.21.8" = _G1nZAvTs;
         "neoforge-1.21.11" = _a2hxI4zv;
         "neoforge-26.1.1" = _6cmTyCft;
-        "neoforge-26.1.2" = _38WZ2UWJ;
-        "neoforge-26.2" = _sLk7Hfvf;
-        "neoforge-26.3" = _xUeYtO6i;
+        "neoforge-26.1.2" = _1qwvDAY2;
+        "neoforge-26.2" = _Lm8Ov0TO;
+        "neoforge-26.3" = _fzvBrYhm;
         "pkg-1.0.0" = _POFAoR0t;
         "pkg-1.1.1" = _HSsb9vQv;
         "pkg-1.1.2" = _6cmTyCft;
@@ -356,7 +416,17 @@ let
         "pkg-2.0.0+neoforge-26.1.2" = _38WZ2UWJ;
         "pkg-2.0.0+neoforge-26.2" = _sLk7Hfvf;
         "pkg-2.0.0+neoforge-26.3" = _xUeYtO6i;
-        "default" = _xUeYtO6i;
+        "pkg-2.0.1+fabric-1.20.1" = _ZcTjASzG;
+        "pkg-2.0.1+forge-1.20.1" = _wBsnqGPk;
+        "pkg-2.0.1+fabric-1.21.1" = _fYRCgbrX;
+        "pkg-2.0.1+neoforge-1.21.1" = _UVY2JEM6;
+        "pkg-2.0.1+fabric-26.1.2" = _kFDhXK9W;
+        "pkg-2.0.1+neoforge-26.1.2" = _1qwvDAY2;
+        "pkg-2.0.1+fabric-26.2" = _PlnUOjLA;
+        "pkg-2.0.1+neoforge-26.2" = _Lm8Ov0TO;
+        "pkg-2.0.1+fabric-26.3" = _9csVSC8M;
+        "pkg-2.0.1+neoforge-26.3" = _fzvBrYhm;
+        "default" = _fzvBrYhm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "much-more-dungeons";

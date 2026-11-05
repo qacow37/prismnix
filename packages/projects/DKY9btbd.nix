@@ -216,6 +216,11 @@ let
             "file" = "worldguard-bukkit-7.0.20.jar";
             "hash" = "sha512-160/ixTFfezrQJ3ImX/j1/CpjdQVjFJkgRG/vmk0ypvlP6Quzk1g2cLZ2jP31uz1lxF5kb07jnr78wjNkl5AnA==";
         };
+        _fiHLM6oY = {
+            "id" = "fiHLM6oY";
+            "file" = "worldguard-bukkit-7.0.21.jar";
+            "hash" = "sha512-QlO5dif5PqAH2R6XfBX19KMhmGVYkIP6O1I9ixWiz+JtcQdsjrmMASLn/eYYrT/ETLmG29QKIi8JZ4uRqYJFwg==";
+        };
     in {
         "YAt6Q0n9" = _YAt6Q0n9;
         "lNm8eI6K" = _lNm8eI6K;
@@ -260,6 +265,7 @@ let
         "btHBavWa" = _btHBavWa;
         "TtfwTyi6" = _TtfwTyi6;
         "9YdeGXiK" = _9YdeGXiK;
+        "fiHLM6oY" = _fiHLM6oY;
         "bukkit-1.2.4" = _YAt6Q0n9;
         "bukkit-1.2.5" = _DBv9KmuE;
         "bukkit-1.3.2" = _DBv9KmuE;
@@ -312,7 +318,7 @@ let
         "bukkit-26.1.1" = _btHBavWa;
         "bukkit-26.1.2" = _btHBavWa;
         "bukkit-26.2" = _TtfwTyi6;
-        "bukkit-26.3" = _9YdeGXiK;
+        "bukkit-26.3" = _fiHLM6oY;
         "spigot-1.4.6" = _nEP1p4tH;
         "spigot-1.4.7" = _nEP1p4tH;
         "spigot-1.5" = _9D11ymTu;
@@ -361,7 +367,7 @@ let
         "spigot-26.1.1" = _btHBavWa;
         "spigot-26.1.2" = _btHBavWa;
         "spigot-26.2" = _TtfwTyi6;
-        "spigot-26.3" = _9YdeGXiK;
+        "spigot-26.3" = _fiHLM6oY;
         "paper-1.9" = _edZOJWth;
         "paper-1.10" = _edZOJWth;
         "paper-1.8" = _edZOJWth;
@@ -398,13 +404,13 @@ let
         "paper-26.1.1" = _btHBavWa;
         "paper-26.1.2" = _btHBavWa;
         "paper-26.2" = _TtfwTyi6;
-        "paper-26.3" = _9YdeGXiK;
+        "paper-26.3" = _fiHLM6oY;
         "folia-1.21.11" = _pI4UHLJL;
         "folia-26.1" = _btHBavWa;
         "folia-26.1.1" = _btHBavWa;
         "folia-26.1.2" = _btHBavWa;
         "folia-26.2" = _TtfwTyi6;
-        "folia-26.3" = _9YdeGXiK;
+        "folia-26.3" = _fiHLM6oY;
         "pkg-5.5.2" = _YAt6Q0n9;
         "pkg-5.6" = _lNm8eI6K;
         "pkg-5.6.2" = _9EQ4qivR;
@@ -448,7 +454,8 @@ let
         "pkg-7.0.18" = _btHBavWa;
         "pkg-7.0.19" = _TtfwTyi6;
         "pkg-7.0.20" = _9YdeGXiK;
-        "default" = _9YdeGXiK;
+        "pkg-7.0.21" = _fiHLM6oY;
+        "default" = _fiHLM6oY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldguard";

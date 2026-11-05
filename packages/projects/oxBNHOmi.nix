@@ -391,6 +391,26 @@ let
             "file" = "shippy-ships-1.0.28-FABRIC-MC-1.21.11.jar";
             "hash" = "sha512-rRWQGYe34h4hHYOmE/P2soIAqfv437jJkdWf+RwG/zz5ajRnCX7iv7v3h0NYDej8O635OxbPmiksF5VgSZwcLA==";
         };
+        _rttJtvbn = {
+            "id" = "rttJtvbn";
+            "file" = "shippy-ships-1.0.28-FABRIC-MC-26.1.X.jar";
+            "hash" = "sha512-sm+lBYAsz0DWtAciBuhCTTy1rgtDofbCP0CiKn8G/ueEFa6/dTEgj84A6xu3H07WwGQ35z5JGXwtSYH8OZzEkQ==";
+        };
+        _Ro7ylCLI = {
+            "id" = "Ro7ylCLI";
+            "file" = "shippy-ships-1.0.28.1-FABRIC-MC-26.2.jar";
+            "hash" = "sha512-oU/CVL2McJ3A5vdKkPGvyJm6J8z5Q6TsYG+YmhMOQ+kIjUU+ZCikt6W6XrZZ1mGUnz6saPTkQJbHh3GTvYMDhQ==";
+        };
+        _8DHRenhL = {
+            "id" = "8DHRenhL";
+            "file" = "shippy-ships-1.0.28.2-FABRIC-MC-26.1.X.jar";
+            "hash" = "sha512-GxnlB++o+kJdejoNrBhqDvJcoUv6gxMDFxniqQdybmnx7qZFxIzZHZKj1bT97ccm5uZ+BBOc25Itvuqub/yjHw==";
+        };
+        _3ArVRD99 = {
+            "id" = "3ArVRD99";
+            "file" = "shippy-ships-1.0.28.2-FABRIC-MC-26.2.jar";
+            "hash" = "sha512-SM6wfe99auJaZ4rVLjS8F8h2hRICKzDdPJOFYLRaUPkQ0UoAODybisIEQy+OIoWvbankAoo9m4pFajUJOzVyCw==";
+        };
     in {
         "GU9bK0ll" = _GU9bK0ll;
         "ELGpyPLo" = _ELGpyPLo;
@@ -470,11 +490,15 @@ let
         "vrK02nxe" = _vrK02nxe;
         "VT7AfL7e" = _VT7AfL7e;
         "7j511A1m" = _7j511A1m;
+        "rttJtvbn" = _rttJtvbn;
+        "Ro7ylCLI" = _Ro7ylCLI;
+        "8DHRenhL" = _8DHRenhL;
+        "3ArVRD99" = _3ArVRD99;
         "fabric-1.20.1" = _J3GaDBjE;
-        "fabric-26.1" = _bpiMNvvj;
-        "fabric-26.1.1" = _bpiMNvvj;
-        "fabric-26.1.2" = _bpiMNvvj;
-        "fabric-26.2" = _8TXwapdl;
+        "fabric-26.1" = _8DHRenhL;
+        "fabric-26.1.1" = _8DHRenhL;
+        "fabric-26.1.2" = _8DHRenhL;
+        "fabric-26.2" = _3ArVRD99;
         "fabric-1.21.1" = _wgMKtIcJ;
         "fabric-1.21.11" = _7j511A1m;
         "fabric-1.21.10" = _AQCZgZyL;
@@ -523,8 +547,10 @@ let
         "pkg-201.25.1" = _diWNTHFc;
         "pkg-211.25.1" = _BD6nH3bv;
         "pkg-1.0.27" = _VT7AfL7e;
-        "pkg-1.0.28" = _7j511A1m;
-        "default" = _7j511A1m;
+        "pkg-1.0.28" = _rttJtvbn;
+        "pkg-1.0.28.1" = _Ro7ylCLI;
+        "pkg-1.0.28.2" = _3ArVRD99;
+        "default" = _3ArVRD99;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shippy-ships";

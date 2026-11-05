@@ -91,6 +91,11 @@ let
             "file" = "mineable-trial-spawner-v1.2.0.jar";
             "hash" = "sha512-8chemXNdCWtDCf+YFG3O6B0esm/u6OaJuAOnG2PRubJ+bm2CsHGXAy66zMMGUANA6wHXg2JdmLEfbLneuM7Hlw==";
         };
+        _81g5NuzZ = {
+            "id" = "81g5NuzZ";
+            "file" = "mineable-trial-spawner-v1.2.0-paper.jar";
+            "hash" = "sha512-WX8fZCz80Bu2IAsp293hXwalk9tJ7/UE+vhsdcLl9r2MJDCX54fVXwSoSHXcuDd5+ZcPfJAdsRyevtCcGVqL5A==";
+        };
     in {
         "ep191NN8" = _ep191NN8;
         "UaiOP1F6" = _UaiOP1F6;
@@ -110,6 +115,7 @@ let
         "DnNhHjs8" = _DnNhHjs8;
         "gzvGMCer" = _gzvGMCer;
         "SATeGXOo" = _SATeGXOo;
+        "81g5NuzZ" = _81g5NuzZ;
         "datapack-1.21.5" = _ep191NN8;
         "datapack-1.21.6" = _7mE7GXZu;
         "datapack-1.21.7" = _7mE7GXZu;
@@ -170,6 +176,8 @@ let
         "quilt-26.1.2" = _DnNhHjs8;
         "quilt-26.2" = _DnNhHjs8;
         "quilt-26.3" = _SATeGXOo;
+        "paper-26.3" = _81g5NuzZ;
+        "purpur-26.3" = _81g5NuzZ;
         "pkg-v.1.0.0" = _ep191NN8;
         "pkg-v.1.0.0+mod" = _UaiOP1F6;
         "pkg-v1.1.0" = _RVk92y4J;
@@ -184,7 +192,8 @@ let
         "pkg-v1.1.3+mod" = _DnNhHjs8;
         "pkg-v1.2.0" = _gzvGMCer;
         "pkg-v1.2.0+mod" = _SATeGXOo;
-        "default" = _SATeGXOo;
+        "pkg-v1.2.0+plugin" = _81g5NuzZ;
+        "default" = _81g5NuzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mineable-trial-spawner";

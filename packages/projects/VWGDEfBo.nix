@@ -111,6 +111,16 @@ let
             "file" = "Fractal Lightning-1.1.1-MC26.1.jar";
             "hash" = "sha512-SHgAKvz41taN24us64TtvVGd8cl0OvvRMvVF/l+IfG33uMIcWcmLYFVmRuIz93jqa5U87m+xiwRuhYS34Nt2tA==";
         };
+        _SAwMOHdM = {
+            "id" = "SAwMOHdM";
+            "file" = "Fractal Lightning-1.1.2-MC26.2.jar";
+            "hash" = "sha512-pDSXorMJCpmt+idBrEC56xMpYYop7jsolvUkOgCe2TGvOTUsCrGQezkGnbv2jj7JBTc3ggxoQDoPpRhHcCvYhQ==";
+        };
+        _zKLBpNZT = {
+            "id" = "zKLBpNZT";
+            "file" = "Fractal Lightning-1.1.2-MC26.3.jar";
+            "hash" = "sha512-oKWEXPvmko4sxWI6BYMGpgl/iggauIUeKNMkYLVzkNLSWLKf/S02HypQsQwg5h+EAUSsW7S6+fZjwTvL+KVBDA==";
+        };
     in {
         "9G4q0Nxq" = _9G4q0Nxq;
         "23zh7cmL" = _23zh7cmL;
@@ -134,6 +144,8 @@ let
         "Ws35PjbH" = _Ws35PjbH;
         "vxyaYUv0" = _vxyaYUv0;
         "J9rZ71Hv" = _J9rZ71Hv;
+        "SAwMOHdM" = _SAwMOHdM;
+        "zKLBpNZT" = _zKLBpNZT;
         "fabric-1.20" = _CGa0MxaO;
         "fabric-1.20.1" = _CGa0MxaO;
         "fabric-1.20.2" = _AC9jVGCu;
@@ -156,11 +168,14 @@ let
         "fabric-26.1" = _J9rZ71Hv;
         "fabric-26.1.1" = _J9rZ71Hv;
         "fabric-26.1.2" = _J9rZ71Hv;
+        "fabric-26.2" = _SAwMOHdM;
+        "fabric-26.3" = _zKLBpNZT;
         "pkg-1.0.0" = _LqXhZ6tG;
         "pkg-1.0.1" = _Ws35PjbH;
         "pkg-1.1.0" = _vxyaYUv0;
         "pkg-1.1.1" = _J9rZ71Hv;
-        "default" = _J9rZ71Hv;
+        "pkg-1.1.2" = _zKLBpNZT;
+        "default" = _zKLBpNZT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fractal-lightning";

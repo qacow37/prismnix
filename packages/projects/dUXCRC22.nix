@@ -86,6 +86,11 @@ let
             "file" = "Auction-House-Cobb-1.8.3.jar";
             "hash" = "sha512-bzSvKSKIChAqByKQ1/tI23MMg9vFp6CfZuQ8SIU8fbBjB8J1TOZRe3Rb8zMGKLsstJYWq1LQ2J6JRvhBENp36A==";
         };
+        _Ok4yNsco = {
+            "id" = "Ok4yNsco";
+            "file" = "Auction-House-Cobb-1.8.4.jar";
+            "hash" = "sha512-EQk7IZvFxmwOUnOsgmgmWmGMSNbDzEGFmVkQZff57cH1jl08zCy+d44XMbAmfdIrha42yMICCTHNap8+RA+DNg==";
+        };
     in {
         "RBTxjsPD" = _RBTxjsPD;
         "J7rBBxrc" = _J7rBBxrc;
@@ -104,7 +109,8 @@ let
         "F7MZEzdz" = _F7MZEzdz;
         "DaYchXaq" = _DaYchXaq;
         "xaByju5T" = _xaByju5T;
-        "fabric-1.21.1" = _xaByju5T;
+        "Ok4yNsco" = _Ok4yNsco;
+        "fabric-1.21.1" = _Ok4yNsco;
         "pkg-1.0" = _RBTxjsPD;
         "pkg-1.1" = _J7rBBxrc;
         "pkg-1.2" = _wUMdc4PY;
@@ -122,7 +128,8 @@ let
         "pkg-1.8.1" = _F7MZEzdz;
         "pkg-1.8.2" = _DaYchXaq;
         "pkg-1.8.3" = _xaByju5T;
-        "default" = _xaByju5T;
+        "pkg-1.8.4" = _Ok4yNsco;
+        "default" = _Ok4yNsco;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auction-house-cobb";

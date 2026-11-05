@@ -581,6 +581,11 @@ let
             "file" = "smooththirdpersoncamera-mc26.4-snapshot-6-fabric-2.0.0.jar";
             "hash" = "sha512-MpF0yuCrzXbtseeYUgCSJG6TUjUdoQneozKIpTocnidis7Z8cc1moXEFrVZAn1lmojCYoAva6aUIe2SRvbyZQQ==";
         };
+        _MyFaFb7n = {
+            "id" = "MyFaFb7n";
+            "file" = "smooththirdpersoncamera-mc26.4-snapshot-7-fabric-2.0.0.jar";
+            "hash" = "sha512-M+ur2LOITHRB58McXnr7nN0zuA1Q5Zatqyv+T1aaQacllMnqFd06VluDh9FqKvuuk7FK6TlEuoaNvuTHWQxasA==";
+        };
     in {
         "k3714PG1" = _k3714PG1;
         "opDiu7JB" = _opDiu7JB;
@@ -698,6 +703,7 @@ let
         "CdDfCD6Y" = _CdDfCD6Y;
         "o178YnO3" = _o178YnO3;
         "Tx5i2LCk" = _Tx5i2LCk;
+        "MyFaFb7n" = _MyFaFb7n;
         "fabric-1.19.4" = _max4Sp0A;
         "fabric-1.20" = _Y71D0hug;
         "fabric-1.20.1" = _Y71D0hug;
@@ -756,6 +762,7 @@ let
         "fabric-26.4-snapshot-4" = _CdDfCD6Y;
         "fabric-26.4-snapshot-5" = _o178YnO3;
         "fabric-26.4-snapshot-6" = _Tx5i2LCk;
+        "fabric-26.4-snapshot-7" = _MyFaFb7n;
         "forge-1.21.1" = _TWbaDZqq;
         "forge-1.21.3" = _opDiu7JB;
         "forge-1.21.4" = _opDiu7JB;
@@ -888,7 +895,8 @@ let
         "pkg-26.10.14-mc26.4-snapshot-4" = _CdDfCD6Y;
         "pkg-26.10.21-mc26.4-snapshot-5" = _o178YnO3;
         "pkg-26.10.28-mc26.4-snapshot-6" = _Tx5i2LCk;
-        "default" = _Tx5i2LCk;
+        "pkg-26.11.04-mc26.4-snapshot-7" = _MyFaFb7n;
+        "default" = _MyFaFb7n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-third-person-camera";

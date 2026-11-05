@@ -4296,6 +4296,21 @@ let
             "file" = "vivecraft-26.3-1.3.17-neoforge.jar";
             "hash" = "sha512-I6ozWHn0EpLGjqKNYJR+VnysDSrRm5Cx3uS7angFFpS02MAFQDg+K2B6pyLqSpqb/x9Qxysmx3gwSJaBYDn+3g==";
         };
+        _eV5kQTVM = {
+            "id" = "eV5kQTVM";
+            "file" = "vivecraft-26.3-1.3.18-fabric.jar";
+            "hash" = "sha512-+VLJkdKjobY8J0ZAjmoFaz2xCObyzeM+JGbWIoISu5+8Znq67c4xlD3MC38E0f6OBg/I8yuS40M3p8H+M+jnYQ==";
+        };
+        _B7ZK31Zr = {
+            "id" = "B7ZK31Zr";
+            "file" = "vivecraft-26.3-1.3.18-forge.jar";
+            "hash" = "sha512-RqqfvILTwT96rTpzx13ppJak97gcbFYYjE6CNxxA30taXT92wgWU5LytYB2EAmSyBP4/cpkG0Qwu/RAdG+4oUA==";
+        };
+        _qasNKxLi = {
+            "id" = "qasNKxLi";
+            "file" = "vivecraft-26.3-1.3.18-neoforge.jar";
+            "hash" = "sha512-lZY2TjdBANksWVVB6r9TSaVT98K8tbr9qCUYBGYMBzpA9bk5aF9HcN1a0YU2VFz7Q1IGJeyn6sLpRfMCGfunEQ==";
+        };
     in {
         "rPsuSvmr" = _rPsuSvmr;
         "OpkjsSWH" = _OpkjsSWH;
@@ -5156,6 +5171,9 @@ let
         "ralsIVj7" = _ralsIVj7;
         "pwRmPoLD" = _pwRmPoLD;
         "ZbSLm6QN" = _ZbSLm6QN;
+        "eV5kQTVM" = _eV5kQTVM;
+        "B7ZK31Zr" = _B7ZK31Zr;
+        "qasNKxLi" = _qasNKxLi;
         "fabric-1.18.2" = _qHmAGG1c;
         "fabric-1.19.2" = _FCadPyCz;
         "fabric-1.19.3" = _yIC9FXco;
@@ -5193,7 +5211,7 @@ let
         "fabric-26w14a" = _XLohD72q;
         "fabric-26.1.2" = _ezb2m3KA;
         "fabric-26.2" = _VrqKDtZn;
-        "fabric-26.3" = _ralsIVj7;
+        "fabric-26.3" = _eV5kQTVM;
         "quilt-1.18.2" = _qHmAGG1c;
         "quilt-1.19.2" = _FCadPyCz;
         "quilt-1.19.3" = _yIC9FXco;
@@ -5224,7 +5242,7 @@ let
         "quilt-26.1.1" = _ezb2m3KA;
         "quilt-26.1.2" = _ezb2m3KA;
         "quilt-26.2" = _VrqKDtZn;
-        "quilt-26.3" = _ralsIVj7;
+        "quilt-26.3" = _eV5kQTVM;
         "forge-1.18.2" = _IcRN00TZ;
         "forge-1.19.2" = _mGggGInp;
         "forge-1.19.3" = _9Fx0n3wx;
@@ -5252,7 +5270,7 @@ let
         "forge-26.1.1" = _GURk7nBx;
         "forge-26.1.2" = _GURk7nBx;
         "forge-26.2" = _P5txEcrX;
-        "forge-26.3" = _pwRmPoLD;
+        "forge-26.3" = _B7ZK31Zr;
         "neoforge-1.20.2" = _qJNY8qzv;
         "neoforge-1.20.3" = _gcyRQl5v;
         "neoforge-1.20.4" = _UmRsJiQ4;
@@ -5274,7 +5292,7 @@ let
         "neoforge-26.1.1" = _3mpcf0OO;
         "neoforge-26.1.2" = _3mpcf0OO;
         "neoforge-26.2" = _mnE1hl2d;
-        "neoforge-26.3" = _ZbSLm6QN;
+        "neoforge-26.3" = _qasNKxLi;
         "pkg-1.18.2-0.0.8-fabric" = _rPsuSvmr;
         "pkg-1.18.2-0.0.9-fabric" = _OpkjsSWH;
         "pkg-1.18.2-0.0.10-fabric" = _aB0rF95L;
@@ -6134,7 +6152,10 @@ let
         "pkg-26.3-1.3.17-fabric" = _ralsIVj7;
         "pkg-26.3-1.3.17-forge" = _pwRmPoLD;
         "pkg-26.3-1.3.17-neoforge" = _ZbSLm6QN;
-        "default" = _ZbSLm6QN;
+        "pkg-26.3-1.3.18-fabric" = _eV5kQTVM;
+        "pkg-26.3-1.3.18-forge" = _B7ZK31Zr;
+        "pkg-26.3-1.3.18-neoforge" = _qasNKxLi;
+        "default" = _qasNKxLi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vivecraft";

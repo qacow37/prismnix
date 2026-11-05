@@ -196,6 +196,11 @@ let
             "file" = "Enchanting Table Magic Circle v.2.5 (1.21.9 - 1.21.11).zip";
             "hash" = "sha512-ZpryAFR9B6l/guzzijaCMy7utDdsTRFr3lCzsRrrWYxrDmxt2oz8inkVmQYE249MlRt1cjPGhcWCRlmlZLnh2g==";
         };
+        _aGjQ0zbh = {
+            "id" = "aGjQ0zbh";
+            "file" = "Enchanting Table Magic Circle v.2.6b (26.2 -26.3).zip";
+            "hash" = "sha512-NCuKpUwBmRKoXbswygBkoyBtA4kAm2lCbzzeFdEcXIr0lOOczQoD0UlKQ4HwjE3vMzq89EKnexR537QxBnVhww==";
+        };
     in {
         "hGZ3P9oX" = _hGZ3P9oX;
         "OI4FxDyi" = _OI4FxDyi;
@@ -236,6 +241,7 @@ let
         "kfbhPvBG" = _kfbhPvBG;
         "91XQoqCV" = _91XQoqCV;
         "XJgXFYLQ" = _XJgXFYLQ;
+        "aGjQ0zbh" = _aGjQ0zbh;
         "minecraft-1.20" = _kfbhPvBG;
         "minecraft-1.20.1" = _kfbhPvBG;
         "minecraft-1.20.2" = _kfbhPvBG;
@@ -278,6 +284,8 @@ let
         "minecraft-1.21.9" = _XJgXFYLQ;
         "minecraft-1.21.10" = _XJgXFYLQ;
         "minecraft-1.21.11" = _XJgXFYLQ;
+        "minecraft-26.3" = _aGjQ0zbh;
+        "minecraft-26.2" = _aGjQ0zbh;
         "pkg-0.1" = _hGZ3P9oX;
         "pkg-0.2" = _OI4FxDyi;
         "pkg-0.3" = _IQkEj8sM;
@@ -305,7 +313,8 @@ let
         "pkg-2.3" = _Dh835hLC;
         "pkg-2.4" = _1JvJBmlg;
         "pkg-2.5" = _XJgXFYLQ;
-        "default" = _XJgXFYLQ;
+        "pkg-2.6b" = _aGjQ0zbh;
+        "default" = _aGjQ0zbh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanting-table-magic-circle";

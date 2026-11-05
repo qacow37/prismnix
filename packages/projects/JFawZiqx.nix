@@ -266,6 +266,11 @@ let
             "file" = "Bedrock Stuff V1.12.2 Update 19.jar";
             "hash" = "sha512-AN7sOXF5zSQnDCH2tZF8vlTb6Waihi0a2//6Qe3xzzWdBxAKHbTORvsVTDmo9cZSpNuFl7s8DoYPwMcEqoNNoQ==";
         };
+        _uEkwSu2y = {
+            "id" = "uEkwSu2y";
+            "file" = "Bedrock Stuff V1.12.2 Update 19.1.jar";
+            "hash" = "sha512-e2uM8KPBs/fyca9Cx+ZBzrh7zArTNscvgi2RixHKCNF2w3ozympzQUjJ0KA33rYsnDXPRkvPnkG1MdfsGxfBRg==";
+        };
     in {
         "u1GUaUup" = _u1GUaUup;
         "MIi3ogov" = _MIi3ogov;
@@ -320,7 +325,8 @@ let
         "Bu8KidmT" = _Bu8KidmT;
         "M6X1yuLn" = _M6X1yuLn;
         "EDCYuxWt" = _EDCYuxWt;
-        "forge-1.12.2" = _EDCYuxWt;
+        "uEkwSu2y" = _uEkwSu2y;
+        "forge-1.12.2" = _uEkwSu2y;
         "forge-1.16.5" = _MIi3ogov;
         "forge-1.17.1" = _nXrFxZFU;
         "forge-1.18.2" = _L51JftEq;
@@ -356,7 +362,8 @@ let
         "pkg-18.1_Lite" = _l0dSDWR0;
         "pkg-19.0" = _M6X1yuLn;
         "pkg-19.0_22" = _EDCYuxWt;
-        "default" = _EDCYuxWt;
+        "pkg-19.1_25" = _uEkwSu2y;
+        "default" = _uEkwSu2y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-stuff";

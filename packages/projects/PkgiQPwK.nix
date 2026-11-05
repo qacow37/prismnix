@@ -166,6 +166,11 @@ let
             "file" = "VerseCraft-7.0.1-mc26.3.jar";
             "hash" = "sha512-lXq0GSsPYLM8nYHvcTrRz91oVkwv931a+TeEw6h+e8HfpHn+2YM/V1Te6APqpP7tiURiwUdC1CuJaZEiqfw9Sw==";
         };
+        _W8uV1irF = {
+            "id" = "W8uV1irF";
+            "file" = "VerseCraft-7.1.0-mc26.3.jar";
+            "hash" = "sha512-K4c3FM+Tc/xJsUz4Bh5Xyzv70RBhZ5pHa1LNP4SEUSwFVfSgET5pmFhMnVnprdUZ5+eaf7WOyWXBF3Pj9fr0Ag==";
+        };
     in {
         "JEip4Um6" = _JEip4Um6;
         "ei7aN6Tc" = _ei7aN6Tc;
@@ -200,6 +205,7 @@ let
         "BAnvgRdf" = _BAnvgRdf;
         "evZscAX4" = _evZscAX4;
         "tPZLUnbo" = _tPZLUnbo;
+        "W8uV1irF" = _W8uV1irF;
         "fabric-1.20.6" = _ErQHAIYa;
         "fabric-1.21" = _AEklUQZZ;
         "fabric-1.21.1" = _LPMFcRDn;
@@ -217,7 +223,7 @@ let
         "fabric-26.1.1" = _ThpGMkkk;
         "fabric-26.1.2" = _ThpGMkkk;
         "fabric-26.2" = _BAnvgRdf;
-        "fabric-26.3" = _tPZLUnbo;
+        "fabric-26.3" = _W8uV1irF;
         "pkg-1.0.1-Fabric+1.20.6" = _JEip4Um6;
         "pkg-1.0.2-Fabric+1.21" = _ei7aN6Tc;
         "pkg-2.0.0-Fabric+1.21" = _7J8GKa4V;
@@ -251,7 +257,8 @@ let
         "pkg-6.0.4-mc26.2" = _BAnvgRdf;
         "pkg-7.0.0-mc26.3" = _evZscAX4;
         "pkg-7.0.1-mc26.3" = _tPZLUnbo;
-        "default" = _tPZLUnbo;
+        "pkg-7.1.0-mc26.3" = _W8uV1irF;
+        "default" = _W8uV1irF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "versecraft";

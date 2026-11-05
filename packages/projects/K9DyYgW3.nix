@@ -111,6 +111,11 @@ let
             "file" = "call-your-nautilus-v1.4.0.0.jar";
             "hash" = "sha512-HyBKECEeHEvpqkK0ClldOSTydoZEjPR81AJtNqZxOxKuTlX6i0xKNjr+GuUHfTItY/Y8zE/mX6gomYSNbwMPRg==";
         };
+        _jSZyHvU4 = {
+            "id" = "jSZyHvU4";
+            "file" = "call-your-nautilus-v1.4.0.0-paper.jar";
+            "hash" = "sha512-kehIuIUR2e87iv5gFxSCiBGANWmBlU+YL4kua40/TvXc/nlmCCgyN0evvfWWaWUdhL2G6aEvy/Q8iW3NzJHQpA==";
+        };
     in {
         "J2dQQuVF" = _J2dQQuVF;
         "U04lXYWz" = _U04lXYWz;
@@ -134,6 +139,7 @@ let
         "CZriRXFL" = _CZriRXFL;
         "q6kEvb26" = _q6kEvb26;
         "MD3IG05e" = _MD3IG05e;
+        "jSZyHvU4" = _jSZyHvU4;
         "datapack-1.21.11" = _Qjv7Xkx6;
         "datapack-26.1" = _Qjv7Xkx6;
         "datapack-26.1.1" = _Qjv7Xkx6;
@@ -164,6 +170,8 @@ let
         "quilt-26.1.2" = _2R22XT8w;
         "quilt-26.2" = _2R22XT8w;
         "quilt-26.3" = _MD3IG05e;
+        "paper-26.3" = _jSZyHvU4;
+        "purpur-26.3" = _jSZyHvU4;
         "pkg-v1.0.0" = _J2dQQuVF;
         "pkg-v1.0.0+mod" = _U04lXYWz;
         "pkg-v1.0.1" = _tINhHSZx;
@@ -184,7 +192,8 @@ let
         "pkg-v1.4.0+mod" = _CZriRXFL;
         "pkg-v1.4.0.0" = _q6kEvb26;
         "pkg-v1.4.0.0+mod" = _MD3IG05e;
-        "default" = _MD3IG05e;
+        "pkg-v1.4.0.0+plugin" = _jSZyHvU4;
+        "default" = _jSZyHvU4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "call-your-nautilus";

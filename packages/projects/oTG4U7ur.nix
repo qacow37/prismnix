@@ -11,13 +11,20 @@ let
             "file" = "assetmover-3.0.0.jar";
             "hash" = "sha512-taAFUOeDpZx6JaGsDo3AmNYA5DNrXuCfjBTJM/WhqgYUeCi1IJoxkQ8XDAcqK6ogzw50g0gsuUMNISQBkKE2Xg==";
         };
+        _nO4I1Pw7 = {
+            "id" = "nO4I1Pw7";
+            "file" = "assetmover-3.0.1.jar";
+            "hash" = "sha512-hoBfdy30nIegxJMeUsr9anfV6NmilMuZs2x3BbCQGZ0AWwxtCgIR5IBSASarpcf2ooqHA6oWcgBM7ie9DY+kFA==";
+        };
     in {
         "HTAl2d0c" = _HTAl2d0c;
         "9gK6QmbL" = _9gK6QmbL;
-        "forge-1.12.2" = _9gK6QmbL;
+        "nO4I1Pw7" = _nO4I1Pw7;
+        "forge-1.12.2" = _nO4I1Pw7;
         "pkg-2.5" = _HTAl2d0c;
         "pkg-3.0.0" = _9gK6QmbL;
-        "default" = _9gK6QmbL;
+        "pkg-3.0.1" = _nO4I1Pw7;
+        "default" = _nO4I1Pw7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assetmover";

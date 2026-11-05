@@ -91,6 +91,11 @@ let
             "file" = "workers-1.20.1-2.0.3.jar";
             "hash" = "sha512-Zji1gjK6j2Cuy+T8rniE+R7Cgabh8lTWqbl7lbAMbopvZsNo5lOchK/li1X02v7ivtylcscM1mVfWIUKnUZw/Q==";
         };
+        _fs1nPpTf = {
+            "id" = "fs1nPpTf";
+            "file" = "workers-1.20.1-2.1.0.jar";
+            "hash" = "sha512-1CpOMSTetQiYF+STZBX3QartHSbQZ7mdRok6pUJAWzPNACor5MVrcgeVGsOL4i2UNCZ7oK9vPE0UwAfDqgVRYw==";
+        };
     in {
         "8pC9Ud6l" = _8pC9Ud6l;
         "wD1fVxjT" = _wD1fVxjT;
@@ -110,7 +115,8 @@ let
         "kZGtFFkE" = _kZGtFFkE;
         "nzhE2x3F" = _nzhE2x3F;
         "49csRXJc" = _49csRXJc;
-        "forge-1.20.1" = _49csRXJc;
+        "fs1nPpTf" = _fs1nPpTf;
+        "forge-1.20.1" = _fs1nPpTf;
         "forge-1.19.2" = _CRO7WmCZ;
         "forge-1.18.2" = _K4S74TWa;
         "pkg-1.7.5" = _wD1fVxjT;
@@ -123,7 +129,8 @@ let
         "pkg-2.0.1" = _kZGtFFkE;
         "pkg-2.0.2" = _nzhE2x3F;
         "pkg-2.0.3" = _49csRXJc;
-        "default" = _49csRXJc;
+        "pkg-2.1.0" = _fs1nPpTf;
+        "default" = _fs1nPpTf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-workers";

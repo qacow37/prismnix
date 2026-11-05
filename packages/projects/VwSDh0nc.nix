@@ -21,16 +21,29 @@ let
             "file" = "ddjade-fabric-1.1.0.jar";
             "hash" = "sha512-g5k0xCiNbhSHrnhKHo2QXN2hOKuQYuBaedYOTuGsMxLRTCakOpOKsistA8YlZcnb0zLTTdlMExAbakG0jOB5oA==";
         };
+        _mfumlgOs = {
+            "id" = "mfumlgOs";
+            "file" = "ddjade-fabric-1.1.1.jar";
+            "hash" = "sha512-/UBDFE+HC2LZWXOVG4aPMoXtuxxHnS618bKJ0EZqBfjtQRBewKB1i39lb1aS6DrBrpzEKtlnesSyA7KcOHU6vg==";
+        };
+        _4e3PeM39 = {
+            "id" = "4e3PeM39";
+            "file" = "ddjade-neoforge-1.1.1.jar";
+            "hash" = "sha512-IY1xREPGqJgRZAgU1QaZW7uZp2FjGitbGAHVRpw6rPI9lYjcARAfBSWdrL6jvsMwyQy7o/BMpcNFP6G2r9GagA==";
+        };
     in {
         "s4MDeyo0" = _s4MDeyo0;
         "RmNoOEHb" = _RmNoOEHb;
         "lF244qXW" = _lF244qXW;
         "wAuMlClU" = _wAuMlClU;
-        "fabric-1.21.1" = _wAuMlClU;
-        "neoforge-1.21.1" = _lF244qXW;
+        "mfumlgOs" = _mfumlgOs;
+        "4e3PeM39" = _4e3PeM39;
+        "fabric-1.21.1" = _mfumlgOs;
+        "neoforge-1.21.1" = _4e3PeM39;
         "pkg-1.0.0" = _RmNoOEHb;
         "pkg-1.1.0" = _wAuMlClU;
-        "default" = _wAuMlClU;
+        "pkg-1.1.1" = _4e3PeM39;
+        "default" = _4e3PeM39;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ddjade";

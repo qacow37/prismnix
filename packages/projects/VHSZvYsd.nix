@@ -106,6 +106,11 @@ let
             "file" = "bosses-addition-1.3.6.jar";
             "hash" = "sha512-F97E42QKqNqrUaCWZBBr5aQx50KTW+l6W4HQLO9ciOlysLA5oMqHfTN93wVB/s1T7Z8mBOPvOM3Es6jscWB5gg==";
         };
+        _4r5SLmcG = {
+            "id" = "4r5SLmcG";
+            "file" = "bosses_addition 1.4.0.zip";
+            "hash" = "sha512-+dmjmPGrZnVSvVWVRrz8zYtcQ5++4UkczEymE5dfLChSxSVi243G2h0MSZJWiCkcMbK5OOLIJfA2EJmQHAulHw==";
+        };
     in {
         "ZQ1u0D0Z" = _ZQ1u0D0Z;
         "dJEQkX6A" = _dJEQkX6A;
@@ -128,6 +133,7 @@ let
         "wAjgbLPi" = _wAjgbLPi;
         "WiLuYWqk" = _WiLuYWqk;
         "bq5UEji2" = _bq5UEji2;
+        "4r5SLmcG" = _4r5SLmcG;
         "datapack-1.21" = _WiLuYWqk;
         "datapack-1.21.1" = _WiLuYWqk;
         "datapack-1.21.2" = _WiLuYWqk;
@@ -135,6 +141,8 @@ let
         "datapack-1.21.4" = _WiLuYWqk;
         "datapack-1.21.5" = _WiLuYWqk;
         "datapack-1.21.6" = _WiLuYWqk;
+        "datapack-1.21.10" = _4r5SLmcG;
+        "datapack-1.21.11" = _4r5SLmcG;
         "fabric-1.21" = _bq5UEji2;
         "fabric-1.21.1" = _bq5UEji2;
         "fabric-1.21.2" = _bq5UEji2;
@@ -181,7 +189,8 @@ let
         "pkg-1.3.5+mod" = _wAjgbLPi;
         "pkg-1.3.6" = _WiLuYWqk;
         "pkg-1.3.6+mod" = _bq5UEji2;
-        "default" = _bq5UEji2;
+        "pkg-1.4.0" = _4r5SLmcG;
+        "default" = _4r5SLmcG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bosses-addition";

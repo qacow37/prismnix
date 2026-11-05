@@ -231,6 +231,16 @@ let
             "file" = "vanilla-one-block-2.0.13.jar";
             "hash" = "sha512-FsSnceRqIHczzyJkmibDWvXsSsvL9aN7CdcrOLw3zP4BdvT7QXrbgSIMWTxA0hiaCAGpoWKsyrh8Al1H9U23wQ==";
         };
+        _Nq1cTKoG = {
+            "id" = "Nq1cTKoG";
+            "file" = "skyvoid_vanilla_oneblock_v2_0_14-MC_26_2.zip";
+            "hash" = "sha512-6hSR2iiZarnaJ5Zo82X0ld8s7AYGAf8SQamU/UEnF/1Nfq1Ii9sNTSQDdnspE6ba29FMSmEF+7sbHBxAxoX3AQ==";
+        };
+        _fxWOd8jR = {
+            "id" = "fxWOd8jR";
+            "file" = "vanilla-one-block-2.0.14.jar";
+            "hash" = "sha512-Hjtt9CMiuCuMx0Or3LiVxFyzjt2ur99+t6O7qS/LCYccHgGkaNbSFvm3+WiQ2PDmVGzDoUrdpMQyNJOroJysug==";
+        };
     in {
         "jOj5fNoD" = _jOj5fNoD;
         "MICtRDXC" = _MICtRDXC;
@@ -278,6 +288,8 @@ let
         "V8BelOCR" = _V8BelOCR;
         "IBJZZbXS" = _IBJZZbXS;
         "3Jy5mels" = _3Jy5mels;
+        "Nq1cTKoG" = _Nq1cTKoG;
+        "fxWOd8jR" = _fxWOd8jR;
         "datapack-1.20" = _SFhFG3kc;
         "datapack-1.20.1" = _SFhFG3kc;
         "datapack-1.20.2" = _SFhFG3kc;
@@ -301,7 +313,7 @@ let
         "datapack-26.1" = _4SZwYAoh;
         "datapack-26.1.1" = _4SZwYAoh;
         "datapack-26.1.2" = _4SZwYAoh;
-        "datapack-26.2" = _IBJZZbXS;
+        "datapack-26.2" = _Nq1cTKoG;
         "fabric-1.19.4" = _Ea1YPYOE;
         "fabric-1.20" = _Ea1YPYOE;
         "fabric-1.20.1" = _Ea1YPYOE;
@@ -325,7 +337,7 @@ let
         "fabric-26.1" = _V8BelOCR;
         "fabric-26.1.1" = _V8BelOCR;
         "fabric-26.1.2" = _V8BelOCR;
-        "fabric-26.2" = _3Jy5mels;
+        "fabric-26.2" = _fxWOd8jR;
         "forge-1.19.4" = _Ea1YPYOE;
         "forge-1.20" = _Ea1YPYOE;
         "forge-1.20.1" = _Ea1YPYOE;
@@ -349,7 +361,7 @@ let
         "forge-26.1" = _V8BelOCR;
         "forge-26.1.1" = _V8BelOCR;
         "forge-26.1.2" = _V8BelOCR;
-        "forge-26.2" = _3Jy5mels;
+        "forge-26.2" = _fxWOd8jR;
         "quilt-1.19.4" = _Ea1YPYOE;
         "quilt-1.20" = _Ea1YPYOE;
         "quilt-1.20.1" = _Ea1YPYOE;
@@ -373,7 +385,7 @@ let
         "quilt-26.1" = _V8BelOCR;
         "quilt-26.1.1" = _V8BelOCR;
         "quilt-26.1.2" = _V8BelOCR;
-        "quilt-26.2" = _3Jy5mels;
+        "quilt-26.2" = _fxWOd8jR;
         "neoforge-1.21" = _7pb7AyJi;
         "neoforge-1.21.1" = _7pb7AyJi;
         "neoforge-1.21.2" = _7pb7AyJi;
@@ -389,7 +401,7 @@ let
         "neoforge-26.1" = _V8BelOCR;
         "neoforge-26.1.1" = _V8BelOCR;
         "neoforge-26.1.2" = _V8BelOCR;
-        "neoforge-26.2" = _3Jy5mels;
+        "neoforge-26.2" = _fxWOd8jR;
         "pkg-1.0.5" = _jOj5fNoD;
         "pkg-1.1.0" = _MICtRDXC;
         "pkg-1.1.1" = _deJqrDQQ;
@@ -436,7 +448,9 @@ let
         "pkg-2.0.12+mod" = _V8BelOCR;
         "pkg-2.0.13" = _IBJZZbXS;
         "pkg-2.0.13+mod" = _3Jy5mels;
-        "default" = _3Jy5mels;
+        "pkg-2.0.14" = _Nq1cTKoG;
+        "pkg-2.0.14+mod" = _fxWOd8jR;
+        "default" = _fxWOd8jR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-one-block";

@@ -91,6 +91,16 @@ let
             "file" = "cbbees-1.5.1.jar";
             "hash" = "sha512-kR6t6xB6upX7/zSHIDZqtViqcTg/eFtOhs4OlxBvAJFwy3Bl+hz/WQlY2d6ZtdjDbXoYDvr8TG6YPVIiufZwtQ==";
         };
+        _uZYTXUTQ = {
+            "id" = "uZYTXUTQ";
+            "file" = "cbbees-1.6.0.jar";
+            "hash" = "sha512-g6DWGXvAweqblGNge1Cg1bqI+Otq4HPTBEwHGW3ZGZRJzHc4QhNZaCk76MxqxVsDasgWHCNd9Ncb9kci2Llq2w==";
+        };
+        _dsdYD4ZC = {
+            "id" = "dsdYD4ZC";
+            "file" = "cbbees-1.6.1.jar";
+            "hash" = "sha512-Y+wpXFM9yqjfBvc9j56b+Nb9gh42Y+LL0Pg3zW9654OSoAEifQptisLqSFy4DCkZnV+Z71eE+xbd76P4YO501g==";
+        };
     in {
         "H8XYA827" = _H8XYA827;
         "CqQAUFMD" = _CqQAUFMD;
@@ -110,7 +120,9 @@ let
         "Gvc3nxds" = _Gvc3nxds;
         "ANgxf5PY" = _ANgxf5PY;
         "NY4W52IA" = _NY4W52IA;
-        "neoforge-1.21.1" = _NY4W52IA;
+        "uZYTXUTQ" = _uZYTXUTQ;
+        "dsdYD4ZC" = _dsdYD4ZC;
+        "neoforge-1.21.1" = _dsdYD4ZC;
         "forge-1.20.1" = _TsTwMdea;
         "pkg-1.0.1" = _H8XYA827;
         "pkg-1.1.0" = _CqQAUFMD;
@@ -128,7 +140,9 @@ let
         "pkg-1.4.2" = _Gvc3nxds;
         "pkg-1.5.0" = _ANgxf5PY;
         "pkg-1.5.1" = _NY4W52IA;
-        "default" = _NY4W52IA;
+        "pkg-1.6.0" = _uZYTXUTQ;
+        "pkg-1.6.1" = _dsdYD4ZC;
+        "default" = _dsdYD4ZC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-buzzy-bees";

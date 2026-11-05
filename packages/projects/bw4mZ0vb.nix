@@ -191,6 +191,11 @@ let
             "file" = "avalight-26.3-neoforge-2.4.1.jar";
             "hash" = "sha512-GCHWV53Kh0rmwlmVFI4LGa0Ij92+jURMxkf1C7kNrEuNmslP6qB4vr4YgB12Cmt/0tldZeAcSW/rpXx9VoZ7hg==";
         };
+        _xClVTeOV = {
+            "id" = "xClVTeOV";
+            "file" = "avalight-26.3-neoforge-2.4.1.1.jar";
+            "hash" = "sha512-zSVIbchs+7tFKxv/f14LMjW40o0CqhRstWCv4U1OHmVtG3oCUfTKkfuWjLvhQzwYWEIHTqUszbtob/oxxONbhw==";
+        };
     in {
         "vJt2vjRJ" = _vJt2vjRJ;
         "mz6S1HPt" = _mz6S1HPt;
@@ -230,6 +235,7 @@ let
         "ur3jGc81" = _ur3jGc81;
         "CdE4VSPQ" = _CdE4VSPQ;
         "h2y9IXcu" = _h2y9IXcu;
+        "xClVTeOV" = _xClVTeOV;
         "forge-1.19.4" = _syYy0eIm;
         "forge-1.20" = _5myvyTd7;
         "forge-1.20.2" = _Yn1ppmjx;
@@ -243,7 +249,7 @@ let
         "neoforge-26.1.1" = _3Xlg77pY;
         "neoforge-26.1.2" = _3Xlg77pY;
         "neoforge-26.2" = _AUOOBrmX;
-        "neoforge-26.3" = _h2y9IXcu;
+        "neoforge-26.3" = _xClVTeOV;
         "fabric-1.21.1" = _Tyw40Lvj;
         "fabric-1.21.11" = _QPiYq6uo;
         "fabric-26.1" = _cVSTbfVC;
@@ -262,7 +268,8 @@ let
         "pkg-2.3" = _7Aptdnna;
         "pkg-2.4" = _ur3jGc81;
         "pkg-2.4.1" = _h2y9IXcu;
-        "default" = _h2y9IXcu;
+        "pkg-2.4.1.1" = _xClVTeOV;
+        "default" = _xClVTeOV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "a.v.a-alliance-of-valiant-arms-guns-light";

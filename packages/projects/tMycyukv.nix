@@ -181,6 +181,11 @@ let
             "file" = "EndingLibrary-1.20.1-2.2.2-all.jar";
             "hash" = "sha512-Y6QgVOLSwjKjzZsu+Vpw6a8FA2k17QSPaBfyLCtYmI5kbVAihyvQPMPLGNuQjLi53kMCt3ecQlEaDR47Bdl03Q==";
         };
+        _c92g58AC = {
+            "id" = "c92g58AC";
+            "file" = "EndingLibrary-1.20.1-2.2.3-all.jar";
+            "hash" = "sha512-j/SHNIeDHSMO1sRfsVtzqpDdtDSWuFSxWb9zEGpeD9LhZSY9aybac7vr5tofAKYTnBcq8bGOfFaQQScqyy7bPA==";
+        };
     in {
         "PmfyuBoH" = _PmfyuBoH;
         "YPWHCsCR" = _YPWHCsCR;
@@ -218,7 +223,8 @@ let
         "tmZdWeyG" = _tmZdWeyG;
         "MHYrjSc5" = _MHYrjSc5;
         "KwxldfZc" = _KwxldfZc;
-        "forge-1.20.1" = _KwxldfZc;
+        "c92g58AC" = _c92g58AC;
+        "forge-1.20.1" = _c92g58AC;
         "pkg-2.0" = _PmfyuBoH;
         "pkg-2.0.1" = _YPWHCsCR;
         "pkg-2.0.2" = _zPBIGqx4;
@@ -255,7 +261,8 @@ let
         "pkg-2.2.1" = _tmZdWeyG;
         "pkg-2.2.1fix" = _MHYrjSc5;
         "pkg-2.2.2" = _KwxldfZc;
-        "default" = _KwxldfZc;
+        "pkg-2.2.3" = _c92g58AC;
+        "default" = _c92g58AC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endinglibrary";

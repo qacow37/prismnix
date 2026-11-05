@@ -91,6 +91,21 @@ let
             "file" = "[26.3] rsgauges ported v1.2.3.jar";
             "hash" = "sha512-dMSD950bDBxUlIS7NpDlbdm/935T1q0mXuduzu3EZpoR0DyfQTc7R9IMV+bAWtv73nBZj1f+rzxPOipQvYX/bA==";
         };
+        _K4okIYjk = {
+            "id" = "K4okIYjk";
+            "file" = "[26.1-26.1.2] rsgauges ported v1.2.3.1.jar";
+            "hash" = "sha512-rdC1CBu0lSbtjCCSOKwBfPNx/sA/i44yRb/YgK4LZm99QpaxcKHMAM0SRxI7dKVwBHSCEmrjLvRp7gu8runc/Q==";
+        };
+        _EL43VmaF = {
+            "id" = "EL43VmaF";
+            "file" = "[26.2] rsgauges ported v1.2.3.1.jar";
+            "hash" = "sha512-nEBHDK+/WqFWV7lHXORUEze3BQ2DaPnipWMjjKbEgFJajDJdTELX0bF1BfK6QXyk0QdOxjw/ppOJHYuimkIQCA==";
+        };
+        _Hchen8f4 = {
+            "id" = "Hchen8f4";
+            "file" = "[26.3] rsgauges ported v1.2.3.1.jar";
+            "hash" = "sha512-dQ/el8GDcmK7MJ5zOiBIAWmnfpXGf5KgsD5+TDEo1AivCJMC1QCmmLmN0/3f9pOGG+2CjTEHkCk7a4fH+OjeAg==";
+        };
     in {
         "dEh2066O" = _dEh2066O;
         "9tmUsgiM" = _9tmUsgiM;
@@ -110,6 +125,9 @@ let
         "1e4C3F3d" = _1e4C3F3d;
         "rQxysf01" = _rQxysf01;
         "jN5wAS4U" = _jN5wAS4U;
+        "K4okIYjk" = _K4okIYjk;
+        "EL43VmaF" = _EL43VmaF;
+        "Hchen8f4" = _Hchen8f4;
         "neoforge-1.21.1" = _FlQv340E;
         "neoforge-1.21" = _FlQv340E;
         "neoforge-1.21.2" = _Wu85NncR;
@@ -122,11 +140,11 @@ let
         "neoforge-1.21.9" = _FY4Vmoxp;
         "neoforge-1.21.10" = _FY4Vmoxp;
         "neoforge-1.21.11" = _o29LeIJo;
-        "neoforge-26.1" = _1e4C3F3d;
-        "neoforge-26.1.1" = _1e4C3F3d;
-        "neoforge-26.1.2" = _1e4C3F3d;
-        "neoforge-26.2" = _rQxysf01;
-        "neoforge-26.3" = _jN5wAS4U;
+        "neoforge-26.1" = _K4okIYjk;
+        "neoforge-26.1.1" = _K4okIYjk;
+        "neoforge-26.1.2" = _K4okIYjk;
+        "neoforge-26.2" = _EL43VmaF;
+        "neoforge-26.3" = _Hchen8f4;
         "fabric-1.21" = _q7PhrOTO;
         "fabric-1.21.1" = _q7PhrOTO;
         "pkg-1.0.0" = _dEh2066O;
@@ -137,7 +155,8 @@ let
         "pkg-1.2.1-Fabric" = _q7PhrOTO;
         "pkg-1.2.2" = _pNhqmpAF;
         "pkg-1.2.3" = _jN5wAS4U;
-        "default" = _jN5wAS4U;
+        "pkg-1.2.3.1" = _Hchen8f4;
+        "default" = _Hchen8f4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rsgauges";

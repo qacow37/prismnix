@@ -106,6 +106,16 @@ let
             "file" = "mc-paint-1.9.0.jar";
             "hash" = "sha512-khnLEcllKSCCMrwlsIIkgNxOxCReiBUu39meQTLznxdX6kXa4fclhqm5KrBKdSCTSd32Dw3HeM+G1IC1QSIAXw==";
         };
+        _rwMgPtFU = {
+            "id" = "rwMgPtFU";
+            "file" = "mc_paint_v1.10.0_data_pack.zip";
+            "hash" = "sha512-X4LgQyVVj9TQ/IYXRTBYQJwDHCOgUuy+WbqjSQdH1a0mNJa5lM6iRYnoBOq3nlOHdBly9Ej79O8qImqESgeLWQ==";
+        };
+        _IViAs2f7 = {
+            "id" = "IViAs2f7";
+            "file" = "mc-paint-1.10.0.jar";
+            "hash" = "sha512-ZM9IPyKUAG5rikAnluTmO+gST1bB1sLESVDY/lSzHjUxnUOVWeuBixAPP9iXeRsjtQUSJXwjPRlVP7fhYhoQhA==";
+        };
     in {
         "kC3Fe5JC" = _kC3Fe5JC;
         "fGnWYx6N" = _fGnWYx6N;
@@ -128,6 +138,8 @@ let
         "fy0DZdVj" = _fy0DZdVj;
         "bKMPxyfC" = _bKMPxyfC;
         "CqzGqsyU" = _CqzGqsyU;
+        "rwMgPtFU" = _rwMgPtFU;
+        "IViAs2f7" = _IViAs2f7;
         "datapack-1.19.4" = _kC3Fe5JC;
         "datapack-1.20" = _YTHiGrfD;
         "datapack-1.20.1" = _YTHiGrfD;
@@ -148,6 +160,7 @@ let
         "datapack-1.21.10" = _iQKDFzS2;
         "datapack-1.21.11" = _VcFPeEGV;
         "datapack-26.2" = _bKMPxyfC;
+        "datapack-26.3" = _rwMgPtFU;
         "fabric-1.21" = _IEuHagxr;
         "fabric-1.21.1" = _IEuHagxr;
         "fabric-1.21.2" = _SvMMxBXe;
@@ -160,6 +173,7 @@ let
         "fabric-1.21.10" = _4JZdQBXN;
         "fabric-1.21.11" = _fy0DZdVj;
         "fabric-26.2" = _CqzGqsyU;
+        "fabric-26.3" = _IViAs2f7;
         "forge-1.21" = _IEuHagxr;
         "forge-1.21.1" = _IEuHagxr;
         "forge-1.21.2" = _SvMMxBXe;
@@ -172,6 +186,7 @@ let
         "forge-1.21.10" = _4JZdQBXN;
         "forge-1.21.11" = _fy0DZdVj;
         "forge-26.2" = _CqzGqsyU;
+        "forge-26.3" = _IViAs2f7;
         "quilt-1.21" = _IEuHagxr;
         "quilt-1.21.1" = _IEuHagxr;
         "quilt-1.21.2" = _SvMMxBXe;
@@ -184,6 +199,7 @@ let
         "quilt-1.21.10" = _4JZdQBXN;
         "quilt-1.21.11" = _fy0DZdVj;
         "quilt-26.2" = _CqzGqsyU;
+        "quilt-26.3" = _IViAs2f7;
         "neoforge-1.21.2" = _SvMMxBXe;
         "neoforge-1.21.3" = _SvMMxBXe;
         "neoforge-1.21.4" = _k4n4cZOx;
@@ -194,6 +210,8 @@ let
         "neoforge-1.21.10" = _4JZdQBXN;
         "neoforge-1.21.11" = _fy0DZdVj;
         "neoforge-26.2" = _CqzGqsyU;
+        "neoforge-26.3" = _IViAs2f7;
+        "minecraft-26.3" = _rwMgPtFU;
         "pkg-0.6" = _kC3Fe5JC;
         "pkg-0.8" = _fGnWYx6N;
         "pkg-0.8.1" = _YTHiGrfD;
@@ -215,7 +233,9 @@ let
         "pkg-1.7.0+mod" = _fy0DZdVj;
         "pkg-1.9.0" = _bKMPxyfC;
         "pkg-1.9.0+mod" = _CqzGqsyU;
-        "default" = _CqzGqsyU;
+        "pkg-1.10.0" = _rwMgPtFU;
+        "pkg-1.10.0+mod" = _IViAs2f7;
+        "default" = _IViAs2f7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-paint";

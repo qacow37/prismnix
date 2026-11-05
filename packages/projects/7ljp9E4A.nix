@@ -31,6 +31,11 @@ let
             "file" = "AlinPerspective-1.0.0-alpha.6.jar";
             "hash" = "sha512-0zauTu6bNrklGxfGDIEuJqWKe5ZJzKu+ABwA6XGF+zms+DbQ2II6c4btA6y50nCT2Fzey4aPnsKaSzjr4yKtZw==";
         };
+        _Tyn5DQWc = {
+            "id" = "Tyn5DQWc";
+            "file" = "AlinPerspective-1.0.0-alpha.7.jar";
+            "hash" = "sha512-YD2CkP94LTKrDVKCvrYLF5RmdYRU6V8FIRK16B64w4BVwUBrQxMs3yD0rDICW7BTniL8Bsf7mEyK0RfIMAU/tg==";
+        };
     in {
         "gDSa8zqc" = _gDSa8zqc;
         "spzkoUbu" = _spzkoUbu;
@@ -38,6 +43,7 @@ let
         "Z7dnlEro" = _Z7dnlEro;
         "NbflNY7A" = _NbflNY7A;
         "I1V6BKxV" = _I1V6BKxV;
+        "Tyn5DQWc" = _Tyn5DQWc;
         "fabric-1.21" = _T6ge9FX2;
         "fabric-1.21.1" = _T6ge9FX2;
         "fabric-1.21.2" = _Z7dnlEro;
@@ -48,7 +54,8 @@ let
         "fabric-1.21.7" = _Z7dnlEro;
         "fabric-1.21.8" = _Z7dnlEro;
         "fabric-1.21.11" = _NbflNY7A;
-        "fabric-26.2" = _I1V6BKxV;
+        "fabric-26.2" = _Tyn5DQWc;
+        "fabric-26.3" = _Tyn5DQWc;
         "quilt-1.21" = _T6ge9FX2;
         "quilt-1.21.1" = _T6ge9FX2;
         "quilt-1.21.2" = _Z7dnlEro;
@@ -64,7 +71,8 @@ let
         "pkg-1.0.0-alpha.4" = _Z7dnlEro;
         "pkg-1.0.0-alpha.5" = _NbflNY7A;
         "pkg-1.0.0-alpha.6" = _I1V6BKxV;
-        "default" = _I1V6BKxV;
+        "pkg-1.0.0-alpha.7" = _Tyn5DQWc;
+        "default" = _Tyn5DQWc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alinperspective";

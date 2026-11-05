@@ -321,6 +321,11 @@ let
             "file" = "MutantsZombies-1.3.4-NeoForge-mc26.3.jar";
             "hash" = "sha512-AJ2vJa3jKY2trmjK1YbxImLVpghHO38KDdIZnsgP+7SajgH7HuUCkkvHFyyoFzdT4+9zRF4NAjbZgmHl+RG4jQ==";
         };
+        _4d5L3gqf = {
+            "id" = "4d5L3gqf";
+            "file" = "MutantsZombies-1.3.5-NeoForge-mc26.3.jar";
+            "hash" = "sha512-XmInH5bm0EdPxBTmqa/iexckO7H5YohZA4p0jFncagrpgJnBum41G77ehHh4Wn18j2XUK66tdhaGHg9rRkdt7Q==";
+        };
     in {
         "4b2dtCAO" = _4b2dtCAO;
         "11tNy3x7" = _11tNy3x7;
@@ -386,6 +391,7 @@ let
         "gJQFZRsr" = _gJQFZRsr;
         "uhy2z5Mb" = _uhy2z5Mb;
         "D7YHmFxr" = _D7YHmFxr;
+        "4d5L3gqf" = _4d5L3gqf;
         "forge-1.19.2" = _LSLW2eUV;
         "forge-1.20.1" = _uhy2z5Mb;
         "forge-1.12.2" = _tyb4sG0T;
@@ -416,7 +422,7 @@ let
         "neoforge-26.1.1" = _gJQFZRsr;
         "neoforge-26.1.2" = _gJQFZRsr;
         "neoforge-26.2" = _gJQFZRsr;
-        "neoforge-26.3" = _D7YHmFxr;
+        "neoforge-26.3" = _4d5L3gqf;
         "pkg-0.9.0-Forge-mc1.19.2" = _4b2dtCAO;
         "pkg-0.9.1-Forge-mc1.20.1" = _11tNy3x7;
         "pkg-0.9.2-Fabric-mc1.20.1" = _pevm2R3S;
@@ -481,7 +487,8 @@ let
         "pkg-1.3.3-NeoForge-mc26.1" = _gJQFZRsr;
         "pkg-1.4.0-Forge-mc1.20.1" = _uhy2z5Mb;
         "pkg-1.3.4-NeoForge-mc26.3" = _D7YHmFxr;
-        "default" = _D7YHmFxr;
+        "pkg-1.3.5-NeoForge-mc26.3" = _4d5L3gqf;
+        "default" = _4d5L3gqf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mutants-and-zombies";

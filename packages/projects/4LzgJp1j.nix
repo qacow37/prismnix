@@ -591,6 +591,76 @@ let
             "file" = "Vertigo-1.2.6-MC26.1.2.jar";
             "hash" = "sha512-uVSV162hp1MnzWjOP9AwTzVDbdrVg6SnfWXpCEowcNdceLmM5ybFEyfNdDVmspbDXBQXjGmQCq7HeudLBdI96Q==";
         };
+        _gSTpg8s8 = {
+            "id" = "gSTpg8s8";
+            "file" = "Vertigo-1.2.7-MC1.20.1.jar";
+            "hash" = "sha512-P609kCQgVZVhu78yVfdRgT3OJWI6HR4rabEsNV6ryecg7f2D2ItP8hgTl7/3Zzbgolo0l700Whr9EXeU7zH6Yg==";
+        };
+        _CoT7IrCu = {
+            "id" = "CoT7IrCu";
+            "file" = "Vertigo-1.2.7-MC1.20.2.jar";
+            "hash" = "sha512-jst349Rofyc+K/fNWjYrOBlza57bbC60DOrtxUMCtKgVAic0cCB6Y+1hufIrOWuQ6Itsgko7lprtewzTem1fjg==";
+        };
+        _A19WRPzg = {
+            "id" = "A19WRPzg";
+            "file" = "Vertigo-1.2.7-MC1.20.4.jar";
+            "hash" = "sha512-TSAjlpR0OtnoIrjDZAv2kwulZJCSQ5FhgBNAi4nqBR6mvqN/R8RsLVj+JMwPhNpHk6smMg7AMnq/TzdXv1UNlA==";
+        };
+        _e04entLo = {
+            "id" = "e04entLo";
+            "file" = "Vertigo-1.2.7-MC1.20.6.jar";
+            "hash" = "sha512-A7uFDiZ7AhjKIns6F3/u++00MkV14G3scI900ozSwtTploIWBZBOBTvrfW379l39uocS1Mkk6tdcJ4XdZ1e3jQ==";
+        };
+        _68EqYOqy = {
+            "id" = "68EqYOqy";
+            "file" = "Vertigo-1.2.7-MC1.21.1.jar";
+            "hash" = "sha512-VSHfAoDUlqBTxGPw83wBt58L/gXXKL5Tm1r/OzkGgfdhK/yPI6pPbZj1pUM15m2r2MCK4h88AYidK2RrwJq43g==";
+        };
+        _6F4iYykD = {
+            "id" = "6F4iYykD";
+            "file" = "Vertigo-1.2.7-MC1.21.3.jar";
+            "hash" = "sha512-axMTHBEbhujxJMFFWyKTjjoY4S3A4OzeHaiy64ymY+rCESrm2MjyBZNibp4s+P4Box9t/JjmiWW1wqJl/NA20g==";
+        };
+        _jgl3tjrK = {
+            "id" = "jgl3tjrK";
+            "file" = "Vertigo-1.2.7-MC1.21.4.jar";
+            "hash" = "sha512-JQaGS+r2X+Zypg9OXG02pWG/slmjZEtEcV/NCDQ/luSqbywkkJKtK3WttI0erdM8Y2h7EOCfFWws9CfoNBMFmw==";
+        };
+        _2pIn65EP = {
+            "id" = "2pIn65EP";
+            "file" = "Vertigo-1.2.7-MC1.21.5.jar";
+            "hash" = "sha512-1nS2YupygU7sZ+EWrf230T19VF45gUf20PNqHNuqheyrNBf855PHSb+9jVukZFDmKbgEcgjFLRSxb7etEIQyyg==";
+        };
+        _DuUVQcfi = {
+            "id" = "DuUVQcfi";
+            "file" = "Vertigo-1.2.7-MC1.21.8.jar";
+            "hash" = "sha512-gORWFuMuIRDY4fCqVfyhej4iUArW6geiONEUerMNqf82yGgnTIw0HmJz1O+G1rYvPur6GbK2g4mhCJITNCudAA==";
+        };
+        _SsRJos7D = {
+            "id" = "SsRJos7D";
+            "file" = "Vertigo-1.2.7-MC1.21.10.jar";
+            "hash" = "sha512-Q9UsObhz7niQdnmqTG2z/7yntl1J9dVXYxOpjx3GKdogr4gNKOGYT2IaN64l5SS3FiPDMVVcvrYrgUUGmvhkhw==";
+        };
+        _OTzYmjSB = {
+            "id" = "OTzYmjSB";
+            "file" = "Vertigo-1.2.7-MC1.21.11.jar";
+            "hash" = "sha512-bWi/XHpVEmfj1lXcg9nZcwNHXbG47iTTi6Z1kLLNTYtwpqduwUjvHJRTmrapHUai6dCnsfseZmSIuPNJg0zvpw==";
+        };
+        _jM0fPyRh = {
+            "id" = "jM0fPyRh";
+            "file" = "Vertigo-1.2.7-MC26.1.2.jar";
+            "hash" = "sha512-ZtsJJy51pC0EUbVjDlPbdkXA0rwnWXfLEQF/arLCRSbYwQMw3hZFxPzUJL0Tb6I/ixju4LrduyIo/Y0lzc4OXA==";
+        };
+        _b91i5WyZ = {
+            "id" = "b91i5WyZ";
+            "file" = "Vertigo-1.2.7-MC26.2.jar";
+            "hash" = "sha512-c94IdKux0IxU9QIxAnoxQ8uxAg8ePfsAuMk7ie4TxWuVtMNdohVOHwMW7goLqSpcOb1sq6QtPM2OVUWYhdr0Ag==";
+        };
+        _6ef5dSon = {
+            "id" = "6ef5dSon";
+            "file" = "Vertigo-1.2.7-MC26.3.jar";
+            "hash" = "sha512-r10Dxe0+IQXpE6LotxXIjbjF46A/cMFPp2U16rPmjKRzHC7NwDnCEKD1t+A5nvFshkRAJ82DG6p8FG7ubjQVPg==";
+        };
     in {
         "NSg9MxJD" = _NSg9MxJD;
         "F60bsEzM" = _F60bsEzM;
@@ -710,28 +780,44 @@ let
         "514jDSqH" = _514jDSqH;
         "sPJs9e6g" = _sPJs9e6g;
         "2wxkrNPl" = _2wxkrNPl;
-        "fabric-1.20.1" = _KVbFAiTG;
-        "fabric-1.20.2" = _qMyOMLou;
-        "fabric-1.20.4" = _mLXNjs4i;
-        "fabric-1.20.6" = _7HjslaRG;
-        "fabric-1.21.1" = _oQ1TZmXq;
-        "fabric-1.21.3" = _bTrcmgYo;
-        "fabric-1.21.4" = _OL10pVro;
-        "fabric-1.20.3" = _mLXNjs4i;
-        "fabric-1.20.5" = _7HjslaRG;
-        "fabric-1.21" = _oQ1TZmXq;
-        "fabric-1.21.2" = _bTrcmgYo;
-        "fabric-1.20" = _KVbFAiTG;
-        "fabric-1.21.5" = _l0yFpbP0;
-        "fabric-1.21.6" = _W055KWwU;
-        "fabric-1.21.7" = _W055KWwU;
-        "fabric-1.21.8" = _W055KWwU;
-        "fabric-1.21.9" = _5F2RHdRc;
-        "fabric-1.21.10" = _5F2RHdRc;
-        "fabric-1.21.11" = _514jDSqH;
-        "fabric-26.1" = _2wxkrNPl;
-        "fabric-26.1.1" = _2wxkrNPl;
-        "fabric-26.1.2" = _2wxkrNPl;
+        "gSTpg8s8" = _gSTpg8s8;
+        "CoT7IrCu" = _CoT7IrCu;
+        "A19WRPzg" = _A19WRPzg;
+        "e04entLo" = _e04entLo;
+        "68EqYOqy" = _68EqYOqy;
+        "6F4iYykD" = _6F4iYykD;
+        "jgl3tjrK" = _jgl3tjrK;
+        "2pIn65EP" = _2pIn65EP;
+        "DuUVQcfi" = _DuUVQcfi;
+        "SsRJos7D" = _SsRJos7D;
+        "OTzYmjSB" = _OTzYmjSB;
+        "jM0fPyRh" = _jM0fPyRh;
+        "b91i5WyZ" = _b91i5WyZ;
+        "6ef5dSon" = _6ef5dSon;
+        "fabric-1.20.1" = _gSTpg8s8;
+        "fabric-1.20.2" = _CoT7IrCu;
+        "fabric-1.20.4" = _A19WRPzg;
+        "fabric-1.20.6" = _e04entLo;
+        "fabric-1.21.1" = _68EqYOqy;
+        "fabric-1.21.3" = _6F4iYykD;
+        "fabric-1.21.4" = _jgl3tjrK;
+        "fabric-1.20.3" = _A19WRPzg;
+        "fabric-1.20.5" = _e04entLo;
+        "fabric-1.21" = _68EqYOqy;
+        "fabric-1.21.2" = _6F4iYykD;
+        "fabric-1.20" = _gSTpg8s8;
+        "fabric-1.21.5" = _2pIn65EP;
+        "fabric-1.21.6" = _DuUVQcfi;
+        "fabric-1.21.7" = _DuUVQcfi;
+        "fabric-1.21.8" = _DuUVQcfi;
+        "fabric-1.21.9" = _SsRJos7D;
+        "fabric-1.21.10" = _SsRJos7D;
+        "fabric-1.21.11" = _OTzYmjSB;
+        "fabric-26.1" = _jM0fPyRh;
+        "fabric-26.1.1" = _jM0fPyRh;
+        "fabric-26.1.2" = _jM0fPyRh;
+        "fabric-26.2" = _b91i5WyZ;
+        "fabric-26.3" = _6ef5dSon;
         "pkg-1.0.0" = _R7J4qkKr;
         "pkg-1.1.0" = _WgCrthBe;
         "pkg-1.1.1" = _q8BgRx6d;
@@ -748,7 +834,8 @@ let
         "pkg-1.2.4" = _514jDSqH;
         "pkg-1.2.5" = _sPJs9e6g;
         "pkg-1.2.6" = _2wxkrNPl;
-        "default" = _2wxkrNPl;
+        "pkg-1.2.7" = _6ef5dSon;
+        "default" = _6ef5dSon;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vertigo";

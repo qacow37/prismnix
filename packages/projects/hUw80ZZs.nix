@@ -1701,6 +1701,26 @@ let
             "file" = "butterflies-7.10.12.jar";
             "hash" = "sha512-xrjlCbaosPuDnwLVQ39ZlPhJmODQApgq2aGTB3K39m4qiMbxW8to1LWvKbgJbdEU+qDlK03r8yruDRXoRc8P0w==";
         };
+        _SB4sTkoB = {
+            "id" = "SB4sTkoB";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-Aw0EFyjkV8VGOcAyhskanFbR8uAAwFN3qwtVYO4moI5h79OKEZF0YuO7Bw1nz+uRlHI1cRgtP0fhvDyYuJCCZg==";
+        };
+        _ICemXVZy = {
+            "id" = "ICemXVZy";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-U6aoHAamgoCiNM6cWGI/57w23SOzdonYsQOcZFeCo3h0u3OOOdPmBog9QQzzPqn8S2i1ouSEBFIBdjZ9MQ9Q0Q==";
+        };
+        _sSFyEg7R = {
+            "id" = "sSFyEg7R";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-DnT45x0PgN1dl+a5gjkF+DFymjO5V7jLkDWUCQB0eLe34U3BgNXC4ly44GAWWpxFsGsuuBdu1HrEMn98gsxa6A==";
+        };
+        _xOxShDQy = {
+            "id" = "xOxShDQy";
+            "file" = "butterflies-7.10.12.jar";
+            "hash" = "sha512-chRsoBvWB0E7sPVLuNqC6vHcW6d+FXIIfYX0RY1S3H/j7tt2TBZjzzgpP4RJJd0Qrocn2Y3YwqBu8DxORV2w6w==";
+        };
     in {
         "oFx4P6V0" = _oFx4P6V0;
         "eDMr0C7M" = _eDMr0C7M;
@@ -2042,14 +2062,18 @@ let
         "MRQNsuJV" = _MRQNsuJV;
         "CUBcUcOg" = _CUBcUcOg;
         "GmdWmrOL" = _GmdWmrOL;
+        "SB4sTkoB" = _SB4sTkoB;
+        "ICemXVZy" = _ICemXVZy;
+        "sSFyEg7R" = _sSFyEg7R;
+        "xOxShDQy" = _xOxShDQy;
         "forge-1.20.1" = _CUBcUcOg;
         "forge-1.20.2" = _MRQNsuJV;
         "forge-1.19.2" = _GmdWmrOL;
         "forge-1.20.4" = _HrYqIHrj;
-        "forge-1.18.2" = _ZWn1Tta4;
-        "neoforge-1.20.4" = _i8upzTkr;
-        "neoforge-1.21.1" = _11RNbbGP;
-        "neoforge-1.21.4" = _TcBqY1wL;
+        "forge-1.18.2" = _SB4sTkoB;
+        "neoforge-1.20.4" = _ICemXVZy;
+        "neoforge-1.21.1" = _sSFyEg7R;
+        "neoforge-1.21.4" = _xOxShDQy;
         "pkg-1.0.1" = _oFx4P6V0;
         "pkg-1.0.2" = _eDMr0C7M;
         "pkg-1.0.3" = _WMGOZmf6;
@@ -2132,8 +2156,8 @@ let
         "pkg-7.10.5" = _SSXiEjPl;
         "pkg-7.10.9" = _TcBqY1wL;
         "pkg-7.10.11" = _JqMjo3EC;
-        "pkg-7.10.12" = _GmdWmrOL;
-        "default" = _GmdWmrOL;
+        "pkg-7.10.12" = _xOxShDQy;
+        "default" = _xOxShDQy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boks-butterflies";

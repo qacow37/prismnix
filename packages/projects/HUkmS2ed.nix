@@ -106,6 +106,11 @@ let
             "file" = "swift-flight-v1.2.0.jar";
             "hash" = "sha512-MZMNbzkfp5RNuQ4A6V+q3nPYBlOyP84Dh9tMxHMeMjt94EhO9a6Vy88sdQ7dRbMIXXjkqjABqYpb8RpIL1bAsg==";
         };
+        _dTj5ibRz = {
+            "id" = "dTj5ibRz";
+            "file" = "swift-flight-v1.2.0-paper.jar";
+            "hash" = "sha512-MWU6iQbBjvyi0dDjtxjxDBj0E+0PsxAfUBPFLcThCjMQxpHBZwxaKUki6EFokZyntTvgRowUWHIFQb8lxJa84w==";
+        };
     in {
         "2QLxIxM3" = _2QLxIxM3;
         "1dMAgaSg" = _1dMAgaSg;
@@ -128,6 +133,7 @@ let
         "yiZ3hM3D" = _yiZ3hM3D;
         "lJ17PHg5" = _lJ17PHg5;
         "5akYp1JZ" = _5akYp1JZ;
+        "dTj5ibRz" = _dTj5ibRz;
         "datapack-1.21.6" = _3BovgAw5;
         "datapack-1.21.7" = _3BovgAw5;
         "datapack-1.21.8" = _3BovgAw5;
@@ -183,6 +189,8 @@ let
         "quilt-26.1.2" = _M8eMPIaR;
         "quilt-26.2" = _M8eMPIaR;
         "quilt-26.3" = _5akYp1JZ;
+        "paper-26.3" = _dTj5ibRz;
+        "purpur-26.3" = _dTj5ibRz;
         "pkg-v1.0.0" = _QkQ9dHjA;
         "pkg-v1.0.0+mod" = _JwmEcGIi;
         "pkg-v1.0.1" = _YNMYTxQ8;
@@ -199,7 +207,8 @@ let
         "pkg-v1.1.0.0+mod" = _yiZ3hM3D;
         "pkg-v1.2.0" = _lJ17PHg5;
         "pkg-v1.2.0+mod" = _5akYp1JZ;
-        "default" = _5akYp1JZ;
+        "pkg-v1.2.0+plugin" = _dTj5ibRz;
+        "default" = _dTj5ibRz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swift-flight";

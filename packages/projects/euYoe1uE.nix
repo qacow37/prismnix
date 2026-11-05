@@ -256,6 +256,21 @@ let
             "file" = "pet_home-1.2.0-beta.1-fabric-26.3.jar";
             "hash" = "sha512-cjZFJbKf1U1sf9EK344azOjiXP2m4RrLXl223TEH7ZffMYnOiDn6rZiAl5zpsGeHGWc+LGXfOr7WDZ6Zkr7jNg==";
         };
+        _zGOTiKzv = {
+            "id" = "zGOTiKzv";
+            "file" = "pet_home-1.2.0-beta.1-fabric-26.1.2.jar";
+            "hash" = "sha512-rAn+A2bnOQiZOHbknZH7iLirEHTOjbfkf80tRUh9Vd0ZmyDywk65KS6oQ+8dYTjPEcqu5uAXRw5oWtBKLa4qzg==";
+        };
+        _Sfn7kgAo = {
+            "id" = "Sfn7kgAo";
+            "file" = "pet_home-1.2.0-beta.1-fabric-1.21.1.jar";
+            "hash" = "sha512-o7hf42VkSsVkTWQ/CBIhpwVeX9Nc10G+R46sMhZrd1dBHj+pgdLYPztTERWB0GjTcZvxFyvGxVr0vVrVr8qTfg==";
+        };
+        _2bFmvh5u = {
+            "id" = "2bFmvh5u";
+            "file" = "pet_home-1.2.0-beta.1-fabric-1.20.1.jar";
+            "hash" = "sha512-2Wja0fVW3By5ryPVLqfLM0jDIuOsfSdiy5ZyfMtqptZ8KEkLC85endZ6cgW/IN25FaoctguSSX49uy4xFhrWOg==";
+        };
     in {
         "JijE6fSA" = _JijE6fSA;
         "7HTXqtth" = _7HTXqtth;
@@ -308,13 +323,16 @@ let
         "ttLSpzX2" = _ttLSpzX2;
         "Vl1qafM8" = _Vl1qafM8;
         "NfEqJC9n" = _NfEqJC9n;
+        "zGOTiKzv" = _zGOTiKzv;
+        "Sfn7kgAo" = _Sfn7kgAo;
+        "2bFmvh5u" = _2bFmvh5u;
         "neoforge-1.21.1" = _1KfZyHVs;
         "neoforge-26.1.2" = _GRFDrNYu;
         "neoforge-26.3" = _iiEcmEdF;
         "forge-1.20.1" = _ttLSpzX2;
-        "fabric-1.20.1" = _nKY7sihU;
-        "fabric-1.21.1" = _pzwcR6LY;
-        "fabric-26.1.2" = _gcZjR3El;
+        "fabric-1.20.1" = _2bFmvh5u;
+        "fabric-1.21.1" = _Sfn7kgAo;
+        "fabric-26.1.2" = _zGOTiKzv;
         "fabric-26.3" = _NfEqJC9n;
         "pkg-1.0.7" = _JijE6fSA;
         "pkg-1.0.8" = _7HTXqtth;
@@ -366,7 +384,10 @@ let
         "pkg-1.2.0-beta.1-neoforge-1.21.1" = _1KfZyHVs;
         "pkg-1.2.0-beta.1-forge-1.20.1" = _ttLSpzX2;
         "pkg-1.2.0-beta.1-fabric-26.3" = _NfEqJC9n;
-        "default" = _NfEqJC9n;
+        "pkg-1.2.0-beta.1-fabric-26.1.2" = _zGOTiKzv;
+        "pkg-1.2.0-beta.1-fabric-1.21.1" = _Sfn7kgAo;
+        "pkg-1.2.0-beta.1-fabric-1.20.1" = _2bFmvh5u;
+        "default" = _2bFmvh5u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pet_home";

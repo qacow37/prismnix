@@ -746,6 +746,46 @@ let
             "file" = "enchantmentdisabler-fabric-3.4.9+26.3.jar";
             "hash" = "sha512-ie7WwTOQ35o6UrT1rjYI6QBv3cQjmudqlSpohS/zY+4fqkR/pgYEdZU90k/GCNy0rOLBA7IPI2nS7MOGeXRaog==";
         };
+        _146WEkHu = {
+            "id" = "146WEkHu";
+            "file" = "enchantmentdisabler-neoforge-3.4.10+26.3.jar";
+            "hash" = "sha512-bzr/QiLrAIhkEPXwLlJ9h0xucg56ZCASGKpH+ZZims8K5a2FRsu8GnzFYKL6sKFGivZqHax197Ss6xMz/kCMjw==";
+        };
+        _H0vDvQtt = {
+            "id" = "H0vDvQtt";
+            "file" = "enchantmentdisabler-fabric-3.4.10+1.21.1.jar";
+            "hash" = "sha512-w6W1dIVqZhruVt9R8PvGPctzlXQz+3s+Fg6XYUesBJO6oRtHEhZM4Ayw8PNKTU1AY3fKPlylHkZGhtErYvUWuA==";
+        };
+        _HmktwzUR = {
+            "id" = "HmktwzUR";
+            "file" = "enchantmentdisabler-fabric-3.4.10+26.2.jar";
+            "hash" = "sha512-gjPJsef77HvuV45mNH+CSgScCwXUWpG54f8L3gPVx0s0WuWpwryaumW7qWFnw6C5mbpXyxp+x9Lg6++T/Ow0Hg==";
+        };
+        _lS9KyQ5n = {
+            "id" = "lS9KyQ5n";
+            "file" = "enchantmentdisabler-fabric-3.4.10+26.3.jar";
+            "hash" = "sha512-ItsNGITk99frsbWYKIhU9XXDNLqBnCMfauio8VSFJA/dxWf80z0xQaqCJkZnCa6pGjaMsSMpscttuJW7Gnktog==";
+        };
+        _ws7BTt37 = {
+            "id" = "ws7BTt37";
+            "file" = "enchantmentdisabler-fabric-3.4.10+26.1.2.jar";
+            "hash" = "sha512-PXMWeZf+VqRlGP/gJrZrC4Iab7w/bk1jtZKhp9AtDbohWYANyJNGevPYukBfamWjD61sLlEsjTs+ldjX9auHZA==";
+        };
+        _OeBjec3P = {
+            "id" = "OeBjec3P";
+            "file" = "enchantmentdisabler-neoforge-3.4.10+1.21.1.jar";
+            "hash" = "sha512-yDV97TG0wFMNDxF10wXaCahPDi8xooogWvrJPha4SlF21cZ03i/gw7csbPd68zgACmjRKveu8P2wBciRc52Omg==";
+        };
+        _85r4LpzN = {
+            "id" = "85r4LpzN";
+            "file" = "enchantmentdisabler-neoforge-3.4.10+26.2.jar";
+            "hash" = "sha512-BYQL4vTOAfEqvvcyi1hLa6N3QPQbH3eEkSQCj14UTlHYdwwqVSLNKOa4ZCAayxYxeYzjLssTyPaYYAs/pj5ghg==";
+        };
+        _4QcaIncf = {
+            "id" = "4QcaIncf";
+            "file" = "enchantmentdisabler-neoforge-3.4.10+26.1.2.jar";
+            "hash" = "sha512-ryZ77D4hfNYNK0T/YNc/ImyQDp61GpRwFYnfDkXjJpHwlenECJvZfUp6SS9KvV/40IXuWHPoWAvef8323a39rA==";
+        };
     in {
         "yxcYoDi3" = _yxcYoDi3;
         "mODLjtuE" = _mODLjtuE;
@@ -896,6 +936,14 @@ let
         "UbzgfxNT" = _UbzgfxNT;
         "yQEKMupT" = _yQEKMupT;
         "V3NIVkpR" = _V3NIVkpR;
+        "146WEkHu" = _146WEkHu;
+        "H0vDvQtt" = _H0vDvQtt;
+        "HmktwzUR" = _HmktwzUR;
+        "lS9KyQ5n" = _lS9KyQ5n;
+        "ws7BTt37" = _ws7BTt37;
+        "OeBjec3P" = _OeBjec3P;
+        "85r4LpzN" = _85r4LpzN;
+        "4QcaIncf" = _4QcaIncf;
         "fabric-1.20.1" = _pJ60xb1I;
         "fabric-1.19.4" = _pJ60xb1I;
         "fabric-1.19.2" = _dcGYBM2V;
@@ -910,8 +958,8 @@ let
         "fabric-1.20" = _pJ60xb1I;
         "fabric-1.20.3" = _Fw5gGp2Y;
         "fabric-1.20.6" = _xz0KbjDn;
-        "fabric-1.21" = _yQEKMupT;
-        "fabric-1.21.1" = _yQEKMupT;
+        "fabric-1.21" = _H0vDvQtt;
+        "fabric-1.21.1" = _H0vDvQtt;
         "fabric-1.21.2" = _djivoBOu;
         "fabric-1.21.3" = _djivoBOu;
         "fabric-1.21.4" = _qKTekFZh;
@@ -920,13 +968,13 @@ let
         "fabric-1.21.8" = _nSyLAUWP;
         "fabric-1.21.10" = _NzmVtaFG;
         "fabric-1.21.11" = _ig5kGUhr;
-        "fabric-26.1" = _UbzgfxNT;
-        "fabric-26.1.1" = _UbzgfxNT;
-        "fabric-26.1.2" = _UbzgfxNT;
-        "fabric-26.2" = _arLcmNjp;
-        "fabric-26.3" = _V3NIVkpR;
-        "neoforge-1.21" = _IJlGWodG;
-        "neoforge-1.21.1" = _IJlGWodG;
+        "fabric-26.1" = _ws7BTt37;
+        "fabric-26.1.1" = _ws7BTt37;
+        "fabric-26.1.2" = _ws7BTt37;
+        "fabric-26.2" = _HmktwzUR;
+        "fabric-26.3" = _lS9KyQ5n;
+        "neoforge-1.21" = _OeBjec3P;
+        "neoforge-1.21.1" = _OeBjec3P;
         "neoforge-1.21.2" = _nqZq27sT;
         "neoforge-1.21.3" = _nqZq27sT;
         "neoforge-1.21.4" = _GVNot4Dk;
@@ -935,10 +983,11 @@ let
         "neoforge-1.21.8" = _9KG8TnG6;
         "neoforge-1.21.11" = _UoLhLezm;
         "neoforge-1.21.10" = _5AAosb9P;
-        "neoforge-26.1" = _V19y4lZF;
-        "neoforge-26.1.1" = _V19y4lZF;
-        "neoforge-26.1.2" = _V19y4lZF;
-        "neoforge-26.2" = _jZhP4oVk;
+        "neoforge-26.1" = _4QcaIncf;
+        "neoforge-26.1.1" = _4QcaIncf;
+        "neoforge-26.1.2" = _4QcaIncf;
+        "neoforge-26.2" = _85r4LpzN;
+        "neoforge-26.3" = _146WEkHu;
         "pkg-0.1.0" = _yxcYoDi3;
         "pkg-0.1.1" = _mODLjtuE;
         "pkg-0.1.2" = _gl4IqzJX;
@@ -1040,7 +1089,11 @@ let
         "pkg-3.4.9+26.2" = _arLcmNjp;
         "pkg-3.4.9+1.21.1" = _yQEKMupT;
         "pkg-3.4.9+26.3" = _V3NIVkpR;
-        "default" = _V3NIVkpR;
+        "pkg-3.4.10+26.3" = _lS9KyQ5n;
+        "pkg-3.4.10+1.21.1" = _OeBjec3P;
+        "pkg-3.4.10+26.2" = _85r4LpzN;
+        "pkg-3.4.10+26.1.2" = _4QcaIncf;
+        "default" = _4QcaIncf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-disabler";

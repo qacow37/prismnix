@@ -136,6 +136,31 @@ let
             "file" = "Aquaculture-26.3-2.11.1.jar";
             "hash" = "sha512-ukpxXdq8GIqBC4R1lMfibCcOAO2/BKQYFX9udJDfw8sf80t4SXJNzIuXmTm0+373MVHmp6rJuf3F5jyDqM/siA==";
         };
+        _FWv4aPCV = {
+            "id" = "FWv4aPCV";
+            "file" = "Aquaculture-26.1.2-2.9.4.jar";
+            "hash" = "sha512-tNflnttEF7nRNJ40AMGedY+7kfqA9oMVMPowe78r6YlUmV2VLeFak0lpZ5Mn/V5gV/J2aQKQ2J5FOFC9+M28fA==";
+        };
+        _67SfZfwF = {
+            "id" = "67SfZfwF";
+            "file" = "Aquaculture-26.2-2.10.2.jar";
+            "hash" = "sha512-tQ2RJgZ+R6+0GfNk38CGWWosjA22JR491zDKbyqdXiyeWh6vhwQvM0afvNKJiLBmU3BX6TMbttdK3AU+oVozqg==";
+        };
+        _EVDXfAI9 = {
+            "id" = "EVDXfAI9";
+            "file" = "Aquaculture-1.21.1-2.7.22.jar";
+            "hash" = "sha512-9ZWpTLXK9oPO68AdxSZd+TTssObg4BrsiTS8eRkxUOsZjeVvnlY4VhJSy8mo85rj/P/f4mzvcoWMMMbpTdJNLA==";
+        };
+        _76GvMJGa = {
+            "id" = "76GvMJGa";
+            "file" = "Aquaculture-26.3-2.11.2.jar";
+            "hash" = "sha512-z1mJSSVmJOcLEc+eARBe2sAP+UfVN0r+5hH0KZ/DSi7I0M2AdwJN07Z/VEOMcnWwAsPNprn8nWrwqU02XdyNcQ==";
+        };
+        _NPiAO3SA = {
+            "id" = "NPiAO3SA";
+            "file" = "Aquaculture-1.21.11-2.8.10.jar";
+            "hash" = "sha512-25pB8a2rzDjAIHueE43m3xPgQ/A5K6mEHTUr5MduivIOfbjyAvZK84wOMss5ZlzM6Cf34uXxeIYOkPVRZJrLKA==";
+        };
     in {
         "u59UKITA" = _u59UKITA;
         "3FMksfjB" = _3FMksfjB;
@@ -164,20 +189,25 @@ let
         "Wvvt3j0U" = _Wvvt3j0U;
         "u6jAlXY4" = _u6jAlXY4;
         "yt6Yo7BZ" = _yt6Yo7BZ;
+        "FWv4aPCV" = _FWv4aPCV;
+        "67SfZfwF" = _67SfZfwF;
+        "EVDXfAI9" = _EVDXfAI9;
+        "76GvMJGa" = _76GvMJGa;
+        "NPiAO3SA" = _NPiAO3SA;
         "neoforge-1.20.4" = _u59UKITA;
         "neoforge-1.21.5" = _Y5Qzr3S2;
         "neoforge-1.20.1" = _wNiFoROs;
-        "neoforge-1.21.1" = _5pbz0ETj;
+        "neoforge-1.21.1" = _EVDXfAI9;
         "neoforge-1.21.6" = _6G1eBclJ;
         "neoforge-1.21.7" = _OFMhFb42;
         "neoforge-1.21.8" = _OFMhFb42;
         "neoforge-1.21.10" = _oopftzgd;
-        "neoforge-1.21.11" = _9J0kMyFs;
-        "neoforge-26.1" = _N507Pi9c;
-        "neoforge-26.1.1" = _N507Pi9c;
-        "neoforge-26.1.2" = _N507Pi9c;
-        "neoforge-26.2" = _u6jAlXY4;
-        "neoforge-26.3" = _yt6Yo7BZ;
+        "neoforge-1.21.11" = _NPiAO3SA;
+        "neoforge-26.1" = _FWv4aPCV;
+        "neoforge-26.1.1" = _FWv4aPCV;
+        "neoforge-26.1.2" = _FWv4aPCV;
+        "neoforge-26.2" = _67SfZfwF;
+        "neoforge-26.3" = _76GvMJGa;
         "forge-1.20.1" = _wNiFoROs;
         "pkg-2.6.0" = _u59UKITA;
         "pkg-2.8.2" = _3FMksfjB;
@@ -203,7 +233,12 @@ let
         "pkg-2.11.0" = _Wvvt3j0U;
         "pkg-2.10.1" = _u6jAlXY4;
         "pkg-2.11.1" = _yt6Yo7BZ;
-        "default" = _yt6Yo7BZ;
+        "pkg-2.9.4" = _FWv4aPCV;
+        "pkg-2.10.2" = _67SfZfwF;
+        "pkg-2.7.22" = _EVDXfAI9;
+        "pkg-2.11.2" = _76GvMJGa;
+        "pkg-2.8.10" = _NPiAO3SA;
+        "default" = _NPiAO3SA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquaculture";

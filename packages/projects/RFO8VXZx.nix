@@ -171,6 +171,46 @@ let
             "file" = "remnants-skills-and-powers-neoforge-26.3-2.0.1.jar";
             "hash" = "sha512-++I9NsEUTVCp2XTrlm6kluHDBE2g+GCHLo40swxAhhtkqvvDpS7sMBQkGaANBiRqdQVNwLgIU+yAyavFiEX3Vw==";
         };
+        _r4Jx96Ah = {
+            "id" = "r4Jx96Ah";
+            "file" = "remnants-skills-and-powers-fabric-1.20.1-2.0.2.jar";
+            "hash" = "sha512-VrOePf92vZezRyLUFNb28vGdY0ERSIV2fb8W0PjkHnzwCDEyAeJzb3DsgN763hbUpxeJn/RPRbANkWJ8+YF3VA==";
+        };
+        _Q69TGXcK = {
+            "id" = "Q69TGXcK";
+            "file" = "remnants-skills-and-powers-fabric-1.21.1-2.0.2.jar";
+            "hash" = "sha512-4CwbUvtRFbpaGvvKJYHgI7LBnSmKRnPY165WNLnlIz4IEMdHlVgfH28h940QWg9B6U2I/pmqmkRHgjC4l9jYTg==";
+        };
+        _Ap2nZKIg = {
+            "id" = "Ap2nZKIg";
+            "file" = "remnants-skills-and-powers-fabric-26.2-2.0.2.jar";
+            "hash" = "sha512-I3Hc9qEA9cV1QyPeGjjxb8GaltCr42oYpmWRoC9jPrpuu6cMcrz+G2UTokdLMEF7Z6Fjt+ImQEX6zj23eBCung==";
+        };
+        _Pgnj3vWo = {
+            "id" = "Pgnj3vWo";
+            "file" = "remnants-skills-and-powers-fabric-26.3-2.0.2.jar";
+            "hash" = "sha512-9Z2C+zkqZwH6sEwEziLfC8qJSvvcSZZCFWSBsHB8JayBhQVB7jQEDvkxIWYJnv4GXdWIEgo9MQyhZmqkQYr+JQ==";
+        };
+        _fkSJG3J0 = {
+            "id" = "fkSJG3J0";
+            "file" = "remnants-skills-and-powers-forge-1.20.1-2.0.2.jar";
+            "hash" = "sha512-2KZVKg9xj9XeTzA50cEC0WHL4ket3TWm7Wg8CYUetC6BMt/Ht/oFokVF5Jm3VAhEEK2zXDv/rBnkGqNmRostyA==";
+        };
+        _Ronett7j = {
+            "id" = "Ronett7j";
+            "file" = "remnants-skills-and-powers-neoforge-1.21.1-2.0.2.jar";
+            "hash" = "sha512-1Llwkvt/lksQ7GWlQQe1f2BLocPplumkDANG8RKnKoztp/2P3MbEFwIMwX1CMksL6qav9aqboPCEsHB27/27tg==";
+        };
+        _zduqyLgN = {
+            "id" = "zduqyLgN";
+            "file" = "remnants-skills-and-powers-neoforge-26.2-2.0.2.jar";
+            "hash" = "sha512-Gozv6z5nk7zXR7xGAmqOAiag8asB2grZYqzLS95uLKqYYk/xcRwUP08ZbWJCBpHxluhHZENz6jI0yMcw0+Tc0A==";
+        };
+        _fPYKqO5G = {
+            "id" = "fPYKqO5G";
+            "file" = "remnants-skills-and-powers-neoforge-26.3-2.0.2.jar";
+            "hash" = "sha512-qITPYYtYg58PcRusTZN02HqlSFhQMvz+k7p6QkN4jyeGbfOwIGAfWR0nmPDzjrONflUu46qyJeNlzpczxoVgXg==";
+        };
     in {
         "Cp2WEkib" = _Cp2WEkib;
         "KC8t6FNO" = _KC8t6FNO;
@@ -206,15 +246,23 @@ let
         "QochbfYu" = _QochbfYu;
         "1zBZIARS" = _1zBZIARS;
         "VIUSY1zq" = _VIUSY1zq;
-        "forge-1.20.1" = _mGH4I5Yc;
-        "neoforge-1.21.1" = _QochbfYu;
+        "r4Jx96Ah" = _r4Jx96Ah;
+        "Q69TGXcK" = _Q69TGXcK;
+        "Ap2nZKIg" = _Ap2nZKIg;
+        "Pgnj3vWo" = _Pgnj3vWo;
+        "fkSJG3J0" = _fkSJG3J0;
+        "Ronett7j" = _Ronett7j;
+        "zduqyLgN" = _zduqyLgN;
+        "fPYKqO5G" = _fPYKqO5G;
+        "forge-1.20.1" = _fkSJG3J0;
+        "neoforge-1.21.1" = _Ronett7j;
         "neoforge-1.20.1" = _VMeaPvAu;
-        "neoforge-26.2" = _1zBZIARS;
-        "neoforge-26.3" = _VIUSY1zq;
-        "fabric-1.20.1" = _sXWKhpiz;
-        "fabric-1.21.1" = _BdjJl6Gl;
-        "fabric-26.2" = _ax8sWpWt;
-        "fabric-26.3" = _IMweA3OO;
+        "neoforge-26.2" = _zduqyLgN;
+        "neoforge-26.3" = _fPYKqO5G;
+        "fabric-1.20.1" = _r4Jx96Ah;
+        "fabric-1.21.1" = _Q69TGXcK;
+        "fabric-26.2" = _Ap2nZKIg;
+        "fabric-26.3" = _Pgnj3vWo;
         "pkg-1.0.1" = _Cp2WEkib;
         "pkg-1.0.2" = _nFY2QdVN;
         "pkg-1.0.3" = _zQ58TZFG;
@@ -244,7 +292,15 @@ let
         "pkg-2.0.1+neoforge-1.21.1" = _QochbfYu;
         "pkg-2.0.1+neoforge-26.2" = _1zBZIARS;
         "pkg-2.0.1+neoforge-26.3" = _VIUSY1zq;
-        "default" = _VIUSY1zq;
+        "pkg-2.0.2+fabric-1.20.1" = _r4Jx96Ah;
+        "pkg-2.0.2+fabric-1.21.1" = _Q69TGXcK;
+        "pkg-2.0.2+fabric-26.2" = _Ap2nZKIg;
+        "pkg-2.0.2+fabric-26.3" = _Pgnj3vWo;
+        "pkg-2.0.2+forge-1.20.1" = _fkSJG3J0;
+        "pkg-2.0.2+neoforge-1.21.1" = _Ronett7j;
+        "pkg-2.0.2+neoforge-26.2" = _zduqyLgN;
+        "pkg-2.0.2+neoforge-26.3" = _fPYKqO5G;
+        "default" = _fPYKqO5G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-elementals";

@@ -91,6 +91,11 @@ let
             "file" = "mace-protection-v1.1.0.0.jar";
             "hash" = "sha512-F1N6EY6udSjCPFl86lJcJ5K6SRxQdoJ5poo++rpoifoeNdTVKI2PSg+BsMDDkCMqR9fhDosR8zGq5OQarlPPUw==";
         };
+        _bDoXEGtk = {
+            "id" = "bDoXEGtk";
+            "file" = "mace-protection-v1.1.0.0-paper.jar";
+            "hash" = "sha512-CaK1RuI9ZTrXSDZGXJJvJ99R6XpWoWj9IXsiC+eBjMno5llNvyXEf3qsLgiIZntyWErts4SoObH4EaBNk8zwzQ==";
+        };
     in {
         "SpcwvqMb" = _SpcwvqMb;
         "S1TdW48T" = _S1TdW48T;
@@ -110,6 +115,7 @@ let
         "a1WSIriC" = _a1WSIriC;
         "7PdCvJyZ" = _7PdCvJyZ;
         "YFSvB05v" = _YFSvB05v;
+        "bDoXEGtk" = _bDoXEGtk;
         "datapack-1.21.6" = _gwVPOvRu;
         "datapack-1.21.7" = _gwVPOvRu;
         "datapack-1.21.8" = _gwVPOvRu;
@@ -165,6 +171,8 @@ let
         "quilt-26.1.2" = _4dwhpFQu;
         "quilt-26.2" = _4dwhpFQu;
         "quilt-26.3" = _YFSvB05v;
+        "paper-26.3" = _bDoXEGtk;
+        "purpur-26.3" = _bDoXEGtk;
         "pkg-v1.0.0" = _SpcwvqMb;
         "pkg-v1.0.0+mod" = _S1TdW48T;
         "pkg-v1.0.1" = _1snHpooS;
@@ -181,7 +189,8 @@ let
         "pkg-v1.1.0+mod" = _a1WSIriC;
         "pkg-v1.1.0.0" = _7PdCvJyZ;
         "pkg-v1.1.0.0+mod" = _YFSvB05v;
-        "default" = _YFSvB05v;
+        "pkg-v1.1.0.0+plugin" = _bDoXEGtk;
+        "default" = _bDoXEGtk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mace-protection";

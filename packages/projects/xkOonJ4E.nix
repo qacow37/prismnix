@@ -131,6 +131,16 @@ let
             "file" = "oc2-MC1.21.1-fabric-0.10.1+6e94a86.jar";
             "hash" = "sha512-FtnmdatBr4vthHOC7azGtdWHILiE5KcYd26p6jHqD4MgppsFD9TDQQPsHdnYkwqW/hqMzLCBmsEkmIi2oJC8Sw==";
         };
+        _4XZSSb75 = {
+            "id" = "4XZSSb75";
+            "file" = "oc2-MC1.21.1-fabric-0.11.0+40a717f.jar";
+            "hash" = "sha512-UFyxiLPSrtNJJ+lns92n6KkudqRORHu9yn1bDEL+UhMw3P7cRhMNdwzKzsoXkjs5Oj2Vtd04kx1IYJ/iOxzdjA==";
+        };
+        _wBtZMNmR = {
+            "id" = "wBtZMNmR";
+            "file" = "oc2-MC1.21.1-neoforge-0.11.0+40a717f.jar";
+            "hash" = "sha512-MFichxBOc9YL1sq+uk6l6bwV27rMGDL0qauqtsLaYgHq8dgiBRfw26+ppRS1Q/M8xIR1z+i7Tv46trnMB+26Fg==";
+        };
     in {
         "rGTLC0x4" = _rGTLC0x4;
         "H79EdQcV" = _H79EdQcV;
@@ -158,8 +168,10 @@ let
         "OzyLeiVE" = _OzyLeiVE;
         "IfMezzGa" = _IfMezzGa;
         "6f4ZhX4O" = _6f4ZhX4O;
-        "neoforge-1.21.1" = _IfMezzGa;
-        "fabric-1.21.1" = _6f4ZhX4O;
+        "4XZSSb75" = _4XZSSb75;
+        "wBtZMNmR" = _wBtZMNmR;
+        "neoforge-1.21.1" = _wBtZMNmR;
+        "fabric-1.21.1" = _4XZSSb75;
         "pkg-MC1.21.1-neoforge-0.3.0" = _rGTLC0x4;
         "pkg-MC1.21.1-fabric-0.3.0" = _H79EdQcV;
         "pkg-MC1.21.1-fabric-0.4.0" = _wancfAtj;
@@ -186,7 +198,9 @@ let
         "pkg-MC1.21.1-neoforge-0.10.0" = _OzyLeiVE;
         "pkg-MC1.21.1-neoforge-0.10.1" = _IfMezzGa;
         "pkg-MC1.21.1-fabric-0.10.1" = _6f4ZhX4O;
-        "default" = _6f4ZhX4O;
+        "pkg-MC1.21.1-fabric-0.11.0" = _4XZSSb75;
+        "pkg-MC1.21.1-neoforge-0.11.0" = _wBtZMNmR;
+        "default" = _wBtZMNmR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opencomputers-ii";

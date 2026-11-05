@@ -311,6 +311,11 @@ let
             "file" = "craft-spawn-eggs-v2.4.0.0.jar";
             "hash" = "sha512-69Xr/+gVToNeUwng/Ayg6/KAFftxcgMal1aUh3iVis4UrcZ98kUr0tM2X5togrnch/0bPxy4T6mT5eafuho/4g==";
         };
+        _UMmAJtRQ = {
+            "id" = "UMmAJtRQ";
+            "file" = "craft-spawn-eggs-v2.4.0.0-paper.jar";
+            "hash" = "sha512-tIS3H7KhbfqjuILsLCFK9Z1VN58PVnsMGJQE3L5TUZAjq3AT3ESzZ4RyTKUgferwglN4kbLvIKVmo4Gin4uQPg==";
+        };
     in {
         "d7sVz4GM" = _d7sVz4GM;
         "2H59o7JP" = _2H59o7JP;
@@ -374,6 +379,7 @@ let
         "wz2fvPzz" = _wz2fvPzz;
         "beOUrRHn" = _beOUrRHn;
         "ptELUh04" = _ptELUh04;
+        "UMmAJtRQ" = _UMmAJtRQ;
         "datapack-1.20.4" = _YjE7bi7B;
         "datapack-1.20.5" = _iweK11G2;
         "datapack-1.20.6" = _iweK11G2;
@@ -471,6 +477,8 @@ let
         "neoforge-26.1.2" = _la5KIudK;
         "neoforge-26.2" = _la5KIudK;
         "neoforge-26.3" = _ptELUh04;
+        "paper-26.3" = _UMmAJtRQ;
+        "purpur-26.3" = _UMmAJtRQ;
         "pkg-v.1.0.0" = _BNGI2oYT;
         "pkg-v.1.0.0+mod" = _zwinTFsG;
         "pkg-v.2.0.0" = _L4WAdzmM;
@@ -519,7 +527,8 @@ let
         "pkg-v2.4.0+mod" = _wz2fvPzz;
         "pkg-v2.4.0.0" = _beOUrRHn;
         "pkg-v2.4.0.0+mod" = _ptELUh04;
-        "default" = _ptELUh04;
+        "pkg-v2.4.0.0+plugin" = _UMmAJtRQ;
+        "default" = _UMmAJtRQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-spawn-eggs";

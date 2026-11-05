@@ -436,6 +436,11 @@ let
             "file" = "armor-stand-arms-v2.7.1+.jar";
             "hash" = "sha512-ArY1/aLCN6W1JoA9h9UhDkV2t/GcsdK4G4Ib2uOI2o9iyJIhQhnneJ0L7WOvGmJ/2ximTBbH3qPCQ0yPBlzrHA==";
         };
+        _jufs6Yet = {
+            "id" = "jufs6Yet";
+            "file" = "armor-stand-arms-v2.7.1-paper.jar";
+            "hash" = "sha512-8g0v6BwgaocHJAEbNU9wLlUERujrNveq5kpSYIP30WDNjhsL66FeOsIkB0jHYGg/MJHueOBF9pBh8NE+T3Wusg==";
+        };
     in {
         "mkNIouDI" = _mkNIouDI;
         "KnC4PR2P" = _KnC4PR2P;
@@ -524,6 +529,7 @@ let
         "UanLrler" = _UanLrler;
         "bJtOd1T7" = _bJtOd1T7;
         "svRjLouN" = _svRjLouN;
+        "jufs6Yet" = _jufs6Yet;
         "datapack-1.20.4" = _bJtOd1T7;
         "datapack-1.20.5" = _bJtOd1T7;
         "datapack-1.20.6" = _bJtOd1T7;
@@ -724,6 +730,22 @@ let
         "neoforge-1.20.2" = _svRjLouN;
         "neoforge-1.20.3" = _svRjLouN;
         "neoforge-1.20.4" = _svRjLouN;
+        "paper-26.3" = _jufs6Yet;
+        "paper-26.2" = _jufs6Yet;
+        "paper-26.1.2" = _jufs6Yet;
+        "paper-26.1.1" = _jufs6Yet;
+        "paper-26.1" = _jufs6Yet;
+        "paper-1.21.11" = _jufs6Yet;
+        "paper-1.21.10" = _jufs6Yet;
+        "paper-1.21.9" = _jufs6Yet;
+        "purpur-26.3" = _jufs6Yet;
+        "purpur-26.2" = _jufs6Yet;
+        "purpur-26.1.2" = _jufs6Yet;
+        "purpur-26.1.1" = _jufs6Yet;
+        "purpur-26.1" = _jufs6Yet;
+        "purpur-1.21.11" = _jufs6Yet;
+        "purpur-1.21.10" = _jufs6Yet;
+        "purpur-1.21.9" = _jufs6Yet;
         "pkg-v.1.0.0" = _w4mSMG73;
         "pkg-v.1.0.0+mod" = _IJLN7I7w;
         "pkg-v.2.0.0" = _xfkd9vtL;
@@ -784,7 +806,8 @@ let
         "pkg-v2.7.1+1.21-1.21.8+mod" = _UanLrler;
         "pkg-v2.7.1+1.16-1.20.6" = _bJtOd1T7;
         "pkg-v2.7.1+1.16-1.20.6+mod" = _svRjLouN;
-        "default" = _svRjLouN;
+        "pkg-v2.7.1+plugin" = _jufs6Yet;
+        "default" = _jufs6Yet;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-stand-arms";

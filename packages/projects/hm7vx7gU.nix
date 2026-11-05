@@ -101,6 +101,11 @@ let
             "file" = "craft-trial-spawner-v1.1.0.0.jar";
             "hash" = "sha512-5oNN6QzS1Ml8rl+/xCzfXifhIbr0rFSYv8InhhOGGbOFpUj/B5pHrWIYa4sYQziO41eGvX6Ba5yD6X/Ko2I50w==";
         };
+        _UByXV3h4 = {
+            "id" = "UByXV3h4";
+            "file" = "craft-trial-spawner-v1.1.0.0-paper.jar";
+            "hash" = "sha512-FYFXyrHFS2DmyU4H/BHDoqjr7LDp70obHRqLHzduWml6iffn6cf61FuibY+hlCwk7/SvuemgQ7q4tF3xlJOqBQ==";
+        };
     in {
         "IwN9RmZm" = _IwN9RmZm;
         "t71Mnk9l" = _t71Mnk9l;
@@ -122,6 +127,7 @@ let
         "2O7jrino" = _2O7jrino;
         "fTFT3Ntt" = _fTFT3Ntt;
         "qGeV5tRP" = _qGeV5tRP;
+        "UByXV3h4" = _UByXV3h4;
         "datapack-1.21.5" = _IwN9RmZm;
         "datapack-1.21" = _D4XiyHqP;
         "datapack-1.21.1" = _IphUcWLA;
@@ -207,6 +213,8 @@ let
         "quilt-26.1.2" = _DEXjQASi;
         "quilt-26.2" = _DEXjQASi;
         "quilt-26.3" = _qGeV5tRP;
+        "paper-26.3" = _UByXV3h4;
+        "purpur-26.3" = _UByXV3h4;
         "pkg-v.1.0.0" = _IphUcWLA;
         "pkg-v.1.0.0+mod" = _RTuA4W3J;
         "pkg-v1.0.0" = _D4XiyHqP;
@@ -225,7 +233,8 @@ let
         "pkg-v1.1.0+mod" = _2O7jrino;
         "pkg-v1.1.0.0" = _fTFT3Ntt;
         "pkg-v1.1.0.0+mod" = _qGeV5tRP;
-        "default" = _qGeV5tRP;
+        "pkg-v1.1.0.0+plugin" = _UByXV3h4;
+        "default" = _UByXV3h4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-trial-spawner";

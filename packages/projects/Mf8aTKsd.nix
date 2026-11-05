@@ -101,6 +101,16 @@ let
             "file" = "automationera-0.1.8b-1.21.11.jar";
             "hash" = "sha512-7krwG09VP395g/zdwovU7H0ZSzz2pvbFMJ8uHmZMu87MtLp1LBgIznkyhw/UjzBHqJKqsTSsgLI8oXvIMSLb6Q==";
         };
+        _wsBKBlOy = {
+            "id" = "wsBKBlOy";
+            "file" = "automationera-0.2.0-1.21.11.jar";
+            "hash" = "sha512-a+i+Axma0v9LYBsddeoykspHmhvxwlfJdHL2+psJ7QRT+eJQ548qeP6ynx98vXgoGU9Iv2pKArd/m8CXK0gMDw==";
+        };
+        _AhmH00dW = {
+            "id" = "AhmH00dW";
+            "file" = "automationera-0.2.0-26.3.jar";
+            "hash" = "sha512-Hv5j7OuTX4+IujODyCPynF4sdRSvrmJEDRz9Q9UswJUpYWrkisYn41+tDBzvj3JIS3+nNtquvKrsV8Cs5viv0A==";
+        };
     in {
         "56MB9cS7" = _56MB9cS7;
         "ZFWsOPYP" = _ZFWsOPYP;
@@ -122,6 +132,8 @@ let
         "hhz0GDZk" = _hhz0GDZk;
         "hcJ8n830" = _hcJ8n830;
         "uc86BqUy" = _uc86BqUy;
+        "wsBKBlOy" = _wsBKBlOy;
+        "AhmH00dW" = _AhmH00dW;
         "fabric-1.20.1" = _deVsMjvw;
         "fabric-1.21" = _hcJ8n830;
         "fabric-1.21.1" = _hcJ8n830;
@@ -130,7 +142,8 @@ let
         "fabric-1.21.6" = _U7D0Zwwj;
         "fabric-1.21.7" = _U7D0Zwwj;
         "fabric-1.21.8" = _N4NnKQDY;
-        "fabric-1.21.11" = _uc86BqUy;
+        "fabric-1.21.11" = _wsBKBlOy;
+        "fabric-26.3" = _AhmH00dW;
         "pkg-pre0.1.1-1.20.1" = _56MB9cS7;
         "pkg-pre0.1.2-1.20.1" = _ZFWsOPYP;
         "pkg-0.1.3-1.20.1" = _HVOjZUV0;
@@ -151,7 +164,9 @@ let
         "pkg-0.1.9-1.21.5" = _hhz0GDZk;
         "pkg-0.1.9-1.21" = _hcJ8n830;
         "pkg-0.1.8b-1.21.11" = _uc86BqUy;
-        "default" = _uc86BqUy;
+        "pkg-0.2.0-1.21.11" = _wsBKBlOy;
+        "pkg-0.2.0-26.3" = _AhmH00dW;
+        "default" = _AhmH00dW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automationera";

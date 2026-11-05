@@ -41,6 +41,21 @@ let
             "file" = "bbs-aaaddon-1.1.1-1.21.1.jar";
             "hash" = "sha512-I15cjziuMujc/Od7VuQcw1MwJuRCC10xLHicREz42mZ2ds6cG/jSfrgxaAFNKnvkzCzQsrhEnLRRdZ+Po+iLGA==";
         };
+        _VAllFRh1 = {
+            "id" = "VAllFRh1";
+            "file" = "bbs-aaaddon-2.0-1.20.1.jar";
+            "hash" = "sha512-5lXDzaLz6jOF/SYQ8LxmNBANOXfYW3A9uZwgOmu586UYUEdtD8gbK1y1EvR35L9Jxu3I/uh6m5GZGrgK8jWR6g==";
+        };
+        _nKmRGIZ3 = {
+            "id" = "nKmRGIZ3";
+            "file" = "bbs-aaaddon-2.0-1.21.1.jar";
+            "hash" = "sha512-SbeW/2xIT/Mt3dWX2nDK9BrKmHIAgxlCBNrLLZiHzour2EY7VzdmGJvsf3+EhM09VKDV53rThQGs1IQGEN5mfQ==";
+        };
+        _NNUdjo7E = {
+            "id" = "NNUdjo7E";
+            "file" = "bbs-aaaddon-2.0-26.1.2.jar";
+            "hash" = "sha512-wO44JjykX0FJ3pys0Lh6+pfd29XhFd35Vj9G3IAbiJjxHvlUhlLVrIqewAuvp19zESUT1HTCk6fv0O6B4vXErw==";
+        };
     in {
         "wfGBRstG" = _wfGBRstG;
         "pnx9Fk7U" = _pnx9Fk7U;
@@ -50,10 +65,15 @@ let
         "vN9PDuto" = _vN9PDuto;
         "50mLCKUV" = _50mLCKUV;
         "BXgnfiP8" = _BXgnfiP8;
-        "fabric-1.20.1" = _50mLCKUV;
-        "fabric-1.21.1" = _BXgnfiP8;
-        "neoforge-1.21.1" = _BXgnfiP8;
-        "forge-1.20.1" = _50mLCKUV;
+        "VAllFRh1" = _VAllFRh1;
+        "nKmRGIZ3" = _nKmRGIZ3;
+        "NNUdjo7E" = _NNUdjo7E;
+        "fabric-1.20.1" = _VAllFRh1;
+        "fabric-1.21.1" = _nKmRGIZ3;
+        "fabric-26.1.2" = _NNUdjo7E;
+        "neoforge-1.21.1" = _nKmRGIZ3;
+        "neoforge-26.1.2" = _NNUdjo7E;
+        "forge-1.20.1" = _VAllFRh1;
         "pkg-1.0.0-1.20.1" = _wfGBRstG;
         "pkg-1.0.0-1.21.1" = _pnx9Fk7U;
         "pkg-1.0.1-1.20.1" = _dOlEVvyc;
@@ -62,7 +82,10 @@ let
         "pkg-1.1.0-1.21.1" = _vN9PDuto;
         "pkg-1.1.1-1.20.1" = _50mLCKUV;
         "pkg-1.1.1-1.21.1" = _BXgnfiP8;
-        "default" = _BXgnfiP8;
+        "pkg-2.0-1.20.1" = _VAllFRh1;
+        "pkg-2.0-1.21.1" = _nKmRGIZ3;
+        "pkg-2.0-26.1.2" = _NNUdjo7E;
+        "default" = _NNUdjo7E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbs-aaaddon";

@@ -121,6 +121,16 @@ let
             "file" = "superior-smelting-v1.3.jar";
             "hash" = "sha512-h1fT2TTPxstDUfor372FcHBnr/zFRimnKCRqKVH4hqc9zFYrhW7kdm/oMnp/TPylRveT+R7F5nm4ZLMDryQufQ==";
         };
+        _Cd9Ct2l6 = {
+            "id" = "Cd9Ct2l6";
+            "file" = "superiorsmelting-v1.3.1.zip";
+            "hash" = "sha512-X4bFer8aMLOrj85AgKK97ueDUWZi7zIs1h1NR2npTeXaIY7Q7MWebiWbfKGcsyAHoBEUT8MSuLT3mX55aZVc5Q==";
+        };
+        _ArE6eU85 = {
+            "id" = "ArE6eU85";
+            "file" = "superior-smelting-v1.3.1.jar";
+            "hash" = "sha512-Qdf4wACyqlyOwtpuIHuYSsUm/EivsEPbTicQ6ab1BJE5SVXg9nljZ5wEUyNU3VPzct3PKyyCrKFe9H/3Fg8C8w==";
+        };
     in {
         "18R2juVA" = _18R2juVA;
         "27iSPSwu" = _27iSPSwu;
@@ -146,6 +156,8 @@ let
         "IKVrfPF0" = _IKVrfPF0;
         "DZnrwzgP" = _DZnrwzgP;
         "S3NyPt3B" = _S3NyPt3B;
+        "Cd9Ct2l6" = _Cd9Ct2l6;
+        "ArE6eU85" = _ArE6eU85;
         "datapack-1.21" = _OYc2z2vR;
         "datapack-1.21.1" = _OYc2z2vR;
         "datapack-1.21.2" = _OYc2z2vR;
@@ -175,7 +187,7 @@ let
         "datapack-26.1.1" = _OYc2z2vR;
         "datapack-26.1.2" = _OYc2z2vR;
         "datapack-26.2" = _OYc2z2vR;
-        "datapack-26.3" = _DZnrwzgP;
+        "datapack-26.3" = _Cd9Ct2l6;
         "fabric-1.21" = _IKVrfPF0;
         "fabric-1.21.1" = _IKVrfPF0;
         "fabric-1.21.2" = _IKVrfPF0;
@@ -205,7 +217,7 @@ let
         "fabric-26.1.1" = _IKVrfPF0;
         "fabric-26.1.2" = _IKVrfPF0;
         "fabric-26.2" = _IKVrfPF0;
-        "fabric-26.3" = _S3NyPt3B;
+        "fabric-26.3" = _ArE6eU85;
         "forge-1.21" = _IKVrfPF0;
         "forge-1.21.1" = _IKVrfPF0;
         "forge-1.21.2" = _IKVrfPF0;
@@ -235,7 +247,7 @@ let
         "forge-26.1.1" = _IKVrfPF0;
         "forge-26.1.2" = _IKVrfPF0;
         "forge-26.2" = _IKVrfPF0;
-        "forge-26.3" = _S3NyPt3B;
+        "forge-26.3" = _ArE6eU85;
         "neoforge-1.21" = _IKVrfPF0;
         "neoforge-1.21.1" = _IKVrfPF0;
         "neoforge-1.21.2" = _IKVrfPF0;
@@ -265,7 +277,7 @@ let
         "neoforge-26.1.1" = _IKVrfPF0;
         "neoforge-26.1.2" = _IKVrfPF0;
         "neoforge-26.2" = _IKVrfPF0;
-        "neoforge-26.3" = _S3NyPt3B;
+        "neoforge-26.3" = _ArE6eU85;
         "quilt-1.21" = _IKVrfPF0;
         "quilt-1.21.1" = _IKVrfPF0;
         "quilt-1.21.2" = _IKVrfPF0;
@@ -295,7 +307,7 @@ let
         "quilt-26.1.1" = _IKVrfPF0;
         "quilt-26.1.2" = _IKVrfPF0;
         "quilt-26.2" = _IKVrfPF0;
-        "quilt-26.3" = _S3NyPt3B;
+        "quilt-26.3" = _ArE6eU85;
         "pkg-1.0.0" = _18R2juVA;
         "pkg-1.0.0+mod" = _27iSPSwu;
         "pkg-1.1.0" = _ENCzk9pS;
@@ -320,7 +332,9 @@ let
         "pkg-v1.2.3+mod" = _IKVrfPF0;
         "pkg-v1.3" = _DZnrwzgP;
         "pkg-v1.3+mod" = _S3NyPt3B;
-        "default" = _S3NyPt3B;
+        "pkg-v1.3.1" = _Cd9Ct2l6;
+        "pkg-v1.3.1+mod" = _ArE6eU85;
+        "default" = _ArE6eU85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superior-smelting";

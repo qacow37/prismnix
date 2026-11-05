@@ -16,22 +16,28 @@ let
             "file" = "AltarSMP-1.0.0 (1).jar";
             "hash" = "sha512-e4e5tuB2Q3i5y9UYYRPxM47qcgf0LUtEaQrFUwlqym+r9/O3wWb+pBH530Wl3TcAd7HqwANybdls58/A57Crrg==";
         };
+        _fHm3kna7 = {
+            "id" = "fHm3kna7";
+            "file" = "AltarSMP-Remake 0.1.4.jar";
+            "hash" = "sha512-WNDi0M7aHtUd0HAeyyRVRiGi1JL8aQU/Ud3TS3Lsc0z+tvwjJmUHHM/2eCP6uYg3VTSx2IG2ssxtWtXojm4AFw==";
+        };
     in {
         "Y6bkoseN" = _Y6bkoseN;
         "MvgHd6rc" = _MvgHd6rc;
         "pjJFX1DX" = _pjJFX1DX;
-        "paper-1.21" = _pjJFX1DX;
-        "paper-1.21.1" = _pjJFX1DX;
-        "paper-1.21.2" = _pjJFX1DX;
-        "paper-1.21.3" = _pjJFX1DX;
-        "paper-1.21.4" = _pjJFX1DX;
-        "paper-1.21.5" = _pjJFX1DX;
-        "paper-1.21.6" = _pjJFX1DX;
-        "paper-1.21.7" = _pjJFX1DX;
-        "paper-1.21.8" = _pjJFX1DX;
-        "paper-1.21.9" = _pjJFX1DX;
-        "paper-1.21.10" = _pjJFX1DX;
-        "paper-1.21.11" = _pjJFX1DX;
+        "fHm3kna7" = _fHm3kna7;
+        "paper-1.21" = _fHm3kna7;
+        "paper-1.21.1" = _fHm3kna7;
+        "paper-1.21.2" = _fHm3kna7;
+        "paper-1.21.3" = _fHm3kna7;
+        "paper-1.21.4" = _fHm3kna7;
+        "paper-1.21.5" = _fHm3kna7;
+        "paper-1.21.6" = _fHm3kna7;
+        "paper-1.21.7" = _fHm3kna7;
+        "paper-1.21.8" = _fHm3kna7;
+        "paper-1.21.9" = _fHm3kna7;
+        "paper-1.21.10" = _fHm3kna7;
+        "paper-1.21.11" = _fHm3kna7;
         "purpur-1.21" = _MvgHd6rc;
         "purpur-1.21.1" = _MvgHd6rc;
         "purpur-1.21.2" = _MvgHd6rc;
@@ -59,7 +65,8 @@ let
         "pkg-1.0.0" = _Y6bkoseN;
         "pkg-1.1" = _MvgHd6rc;
         "pkg-1.0.0-s3-dev" = _pjJFX1DX;
-        "default" = _pjJFX1DX;
+        "pkg-0.1.4" = _fHm3kna7;
+        "default" = _fHm3kna7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "altar-smp-there-is-no-arc-version";

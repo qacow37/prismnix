@@ -81,6 +81,11 @@ let
             "file" = "dragon-egg-respawns-v1.1.0.0.jar";
             "hash" = "sha512-/c6SQtI/da0iv5MeV1iVZ1zKVrckdt4S/RDtnHfweOE5gpnghseSj95bo/k6ND2/6bbRX/ClEpntgNERsNLwjA==";
         };
+        _7QN8d49x = {
+            "id" = "7QN8d49x";
+            "file" = "dragon-egg-respawns-v1.1.0.0-paper.jar";
+            "hash" = "sha512-a4vwjymiigvVi5HaHtsHPhXd3pqRHgnOAd/1AQHYQJMor0X31eSGroKzyBAWWZrjVN3RoMxXcNmCIbyfFBwScA==";
+        };
     in {
         "ilXntib0" = _ilXntib0;
         "mnINHA1m" = _mnINHA1m;
@@ -98,6 +103,7 @@ let
         "7b3ioE5U" = _7b3ioE5U;
         "EJKs6LeV" = _EJKs6LeV;
         "gbX6RkiC" = _gbX6RkiC;
+        "7QN8d49x" = _7QN8d49x;
         "datapack-1.21.6" = _btguBVLv;
         "datapack-1.21.7" = _btguBVLv;
         "datapack-1.21.8" = _btguBVLv;
@@ -153,6 +159,8 @@ let
         "quilt-26.1.2" = _uYW2F0RB;
         "quilt-26.2" = _uYW2F0RB;
         "quilt-26.3" = _gbX6RkiC;
+        "paper-26.3" = _7QN8d49x;
+        "purpur-26.3" = _7QN8d49x;
         "pkg-v1.0.0" = _ilXntib0;
         "pkg-v1.0.0+mod" = _mnINHA1m;
         "pkg-v1.0.1" = _KTYOVNI3;
@@ -167,7 +175,8 @@ let
         "pkg-v1.1.0+mod" = _7b3ioE5U;
         "pkg-v1.1.0.0" = _EJKs6LeV;
         "pkg-v1.1.0.0+mod" = _gbX6RkiC;
-        "default" = _gbX6RkiC;
+        "pkg-v1.1.0.0+plugin" = _7QN8d49x;
+        "default" = _7QN8d49x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-egg-respawns";

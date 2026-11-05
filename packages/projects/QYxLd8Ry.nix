@@ -206,6 +206,56 @@ let
             "file" = "conditionalvideos-neoforge-26.2-1.5.1.jar";
             "hash" = "sha512-Mz9zv46IEd3aKlEiBRSplcoLQ4WapOOFADj0ogDxfxnSflFI4x845PbnbIqsqzmi11r0ZYHLR1HdGjlkeBvYSg==";
         };
+        _rEDTDFa3 = {
+            "id" = "rEDTDFa3";
+            "file" = "conditionalvideos-forge-1.20.1-1.6.0.jar";
+            "hash" = "sha512-vDWRjwoXtGguVKgM3sjQAc5OIZTGsnbsRr4DrUUlqCR2vaaYwYa3W4RBVzTv8MapwxcY1wpfU/bnCRp8R83WsQ==";
+        };
+        _l0a0LzWn = {
+            "id" = "l0a0LzWn";
+            "file" = "conditionalvideos-fabric-1.20.1-1.6.0.jar";
+            "hash" = "sha512-EWekmyOVqwByvk46e1OqZWZRg94kGlNbsbPa3GeLqRwWCTsm96n4rBQsX1Gnt0iODAW6MAdEBYxJNRlCnuDkSg==";
+        };
+        _7yVpU4Y8 = {
+            "id" = "7yVpU4Y8";
+            "file" = "conditionalvideos-neoforge-1.21.1-1.6.0.jar";
+            "hash" = "sha512-jrt+VHJGNOuqWRKno824CDT7gts0ZY3SC3XP671T99YDYtRt19jbdnJFF//iYAUxIoRMxtW0wuekfaaKuBwHtQ==";
+        };
+        _YSgWBVd4 = {
+            "id" = "YSgWBVd4";
+            "file" = "conditionalvideos-fabric-1.21.1-1.6.0.jar";
+            "hash" = "sha512-uzvgfJEltpRHx3GEmdQFtXs5PzipnWhoGS7GEUVq1hGCnWD7/6LgNs1AjBH0BUneCKqa+LYPpgNFoorgLH2XYA==";
+        };
+        _HzYLfY97 = {
+            "id" = "HzYLfY97";
+            "file" = "conditionalvideos-neoforge-1.21.11-1.6.0.jar";
+            "hash" = "sha512-nXAKrKLCvcfzlBu6Fn/gmTAwm5JfTiUrGPsn7mrOIu4a+j0rg86Oe8fIczeBQyugFjtm3iwXjJsjONA48O/SXw==";
+        };
+        _FeVoIeNI = {
+            "id" = "FeVoIeNI";
+            "file" = "conditionalvideos-fabric-1.21.11-1.6.0.jar";
+            "hash" = "sha512-XVkRKLdcWbiPdN4Z9J5DEYCU/6j/Sy6ehOfKf+B5scHgBUxH5cCb/rnqkicaD/bXjAhNT2AEklzI6fsUwtQxTA==";
+        };
+        _CgM0STBL = {
+            "id" = "CgM0STBL";
+            "file" = "conditionalvideos-neoforge-26.1.2-1.6.0.jar";
+            "hash" = "sha512-9cLDyPI9nHGS7iP9OrAMgP/fYW4tx9H8F4CFLAXyxMVs0KC7dejYJmsCF76b2GT621Jkd/DHxoHkTaj1/4t+cg==";
+        };
+        _2lGQmOxe = {
+            "id" = "2lGQmOxe";
+            "file" = "conditionalvideos-fabric-26.1.2-1.6.0.jar";
+            "hash" = "sha512-F6slLQEPmFsvkjF2EazWovAMUkyMaG6sDFLfLHyI5mr2PTnJnA5yO4oF3YTkIDQHiNR492V8AXNRvswKmRpAMA==";
+        };
+        _Krg5VMH4 = {
+            "id" = "Krg5VMH4";
+            "file" = "conditionalvideos-neoforge-26.2-1.6.0.jar";
+            "hash" = "sha512-5WnOGRpC72/tfNV4pePHpabIjv7flMUmW8XIGRjB+8fIfFUe4oNGRjopPIVuJFAKlrhVu3UJ2H645si1zr/+Vw==";
+        };
+        _odyD4jzt = {
+            "id" = "odyD4jzt";
+            "file" = "conditionalvideos-fabric-26.2-1.6.0.jar";
+            "hash" = "sha512-SuvjTcjtVNH6IR9xQtxLUCODiHcO9pj9kEGA6pc47vRhsfbdWM/QEbZKSxMZi1yI5OA6FlbjzCeNXDB9Bp4RNQ==";
+        };
     in {
         "DBFVK6j2" = _DBFVK6j2;
         "8ghhPgcg" = _8ghhPgcg;
@@ -248,16 +298,26 @@ let
         "PW6ES8je" = _PW6ES8je;
         "xlHCBKyC" = _xlHCBKyC;
         "gqQG2l1N" = _gqQG2l1N;
-        "fabric-1.20.1" = _WXNOlWti;
-        "fabric-1.21.1" = _NznxKYKb;
-        "fabric-1.21.11" = _LocHRxw5;
-        "fabric-26.1.2" = _6zpPF0e2;
-        "fabric-26.2" = _xlHCBKyC;
-        "forge-1.20.1" = _edEAmp3T;
-        "neoforge-1.21.1" = _kBjArYYD;
-        "neoforge-1.21.11" = _6F3PAUfx;
-        "neoforge-26.1.2" = _PW6ES8je;
-        "neoforge-26.2" = _gqQG2l1N;
+        "rEDTDFa3" = _rEDTDFa3;
+        "l0a0LzWn" = _l0a0LzWn;
+        "7yVpU4Y8" = _7yVpU4Y8;
+        "YSgWBVd4" = _YSgWBVd4;
+        "HzYLfY97" = _HzYLfY97;
+        "FeVoIeNI" = _FeVoIeNI;
+        "CgM0STBL" = _CgM0STBL;
+        "2lGQmOxe" = _2lGQmOxe;
+        "Krg5VMH4" = _Krg5VMH4;
+        "odyD4jzt" = _odyD4jzt;
+        "fabric-1.20.1" = _l0a0LzWn;
+        "fabric-1.21.1" = _YSgWBVd4;
+        "fabric-1.21.11" = _FeVoIeNI;
+        "fabric-26.1.2" = _2lGQmOxe;
+        "fabric-26.2" = _odyD4jzt;
+        "forge-1.20.1" = _rEDTDFa3;
+        "neoforge-1.21.1" = _7yVpU4Y8;
+        "neoforge-1.21.11" = _HzYLfY97;
+        "neoforge-26.1.2" = _CgM0STBL;
+        "neoforge-26.2" = _Krg5VMH4;
         "pkg-1.0.0" = _8ghhPgcg;
         "pkg-1.0.1" = _KVwr45ql;
         "pkg-1.1.0" = _3wUixYxs;
@@ -266,7 +326,8 @@ let
         "pkg-1.4.0" = _q11CXe1J;
         "pkg-1.5.0" = _9KblSCDQ;
         "pkg-1.5.1" = _gqQG2l1N;
-        "default" = _gqQG2l1N;
+        "pkg-1.6.0" = _odyD4jzt;
+        "default" = _odyD4jzt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "conditionalvideos";

@@ -541,6 +541,11 @@ let
             "file" = "ExpView-26.4-snapshot-6-beta.jar";
             "hash" = "sha512-LpOayzQIMN+Yds6zjHTkbaZLUih+zIUD9DKKWJGnf7NNmr/g6X3e5/gSiQ8uOysAG1SeIwLUVmF/fJMjCscfQg==";
         };
+        _jpX0aPCm = {
+            "id" = "jpX0aPCm";
+            "file" = "ExpView-26.4-snapshot-7-beta.jar";
+            "hash" = "sha512-5lqBWNsLRC8znyFdfO3FW2M3TrZal6D6GclHV3W7C4gn/OvXWdmwjonKSt8Cw8q/MqglxaO9/zd2NOwr8pFmvQ==";
+        };
     in {
         "o043zksS" = _o043zksS;
         "vO59QzDC" = _vO59QzDC;
@@ -650,6 +655,7 @@ let
         "y3uuhHm0" = _y3uuhHm0;
         "lnx9BFUy" = _lnx9BFUy;
         "k3cZqFpZ" = _k3cZqFpZ;
+        "jpX0aPCm" = _jpX0aPCm;
         "fabric-1.21.11" = _fkda6bfw;
         "fabric-1.21.10" = _iXmyUdV7;
         "fabric-1.21.9" = _WBss2M2r;
@@ -680,6 +686,7 @@ let
         "fabric-26.4-snapshot-4" = _FbsQRiKP;
         "fabric-26.4-snapshot-5" = _za2LTct8;
         "fabric-26.4-snapshot-6" = _k3cZqFpZ;
+        "fabric-26.4-snapshot-7" = _jpX0aPCm;
         "pkg-1.21.11" = _o043zksS;
         "pkg-1.21.10-v1" = _vO59QzDC;
         "pkg-1.21.11-v1" = _wg7zbbkr;
@@ -788,7 +795,8 @@ let
         "pkg-26.2-v1.3.1" = _y3uuhHm0;
         "pkg-26.3-v1.0.1" = _lnx9BFUy;
         "pkg-26.4-snapshot-6-beta" = _k3cZqFpZ;
-        "default" = _k3cZqFpZ;
+        "pkg-26.4-snapshot-7-beta" = _jpX0aPCm;
+        "default" = _jpX0aPCm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expview";

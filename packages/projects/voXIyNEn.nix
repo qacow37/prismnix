@@ -46,6 +46,11 @@ let
             "file" = "liubai-neoforge-1.21.1-1.0.3.jar";
             "hash" = "sha512-rfeBqinJmEDubC/e/veN4QHwd2ECW0j5W0owYxsVCNFhjR6I7nqB9022jDqoMD/Y49pnkAk0cNzZrZFnYyyenA==";
         };
+        _7oyUgxwD = {
+            "id" = "7oyUgxwD";
+            "file" = "liubai-neoforge-26.1.2-1.0.0.jar";
+            "hash" = "sha512-bMzi4hVOi+2HXQsuBLkT4ycLCHxXnYvAqkBNKGDnKKKOpt2vRccgNlr1mRr/FcBA4MEdeCua3PVtQeE2IBghkw==";
+        };
     in {
         "59sKmdNA" = _59sKmdNA;
         "w9ofTwc1" = _w9ofTwc1;
@@ -56,7 +61,9 @@ let
         "8iCvfVSs" = _8iCvfVSs;
         "FDG4sX6v" = _FDG4sX6v;
         "iLALqMLc" = _iLALqMLc;
+        "7oyUgxwD" = _7oyUgxwD;
         "neoforge-1.21.1" = _iLALqMLc;
+        "neoforge-26.1.2" = _7oyUgxwD;
         "forge-1.20.1" = _bnvINXor;
         "fabric-1.21.1" = _INRgbJwP;
         "fabric-1.21.11" = _8iCvfVSs;
@@ -69,7 +76,8 @@ let
         "pkg-1.0.0-1.21.1" = _INRgbJwP;
         "pkg-1.0.0-1.21.11" = _8iCvfVSs;
         "pkg-1.0.3-1.21.1" = _iLALqMLc;
-        "default" = _iLALqMLc;
+        "pkg-1.0.0-26.1.2" = _7oyUgxwD;
+        "default" = _7oyUgxwD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "liubai";

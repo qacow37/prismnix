@@ -16,15 +16,22 @@ let
             "file" = "assorted_armaments-0.1.2.jar";
             "hash" = "sha512-WuC6fwEJJzFEG/jgH1ZG3a5Abs1Y2E4PEA1ZAltY4nw9LxwpuWwPg3cjRle/8YvP8JAFrzQFN0a5MO/GGhGepQ==";
         };
+        _FkuToPmI = {
+            "id" = "FkuToPmI";
+            "file" = "assorted_armaments-1.0.1.jar";
+            "hash" = "sha512-678sIwRjwF0iatTbLVLgEq9UjlokA1uAaI0RZUV6CQREImHIoBKSj8jF6hawbrFuZomqI7Cfe9cyryOVWrFfBg==";
+        };
     in {
         "DQTId9OL" = _DQTId9OL;
         "oruNGXRV" = _oruNGXRV;
         "Qej4Tcrh" = _Qej4Tcrh;
-        "neoforge-1.21.1" = _Qej4Tcrh;
+        "FkuToPmI" = _FkuToPmI;
+        "neoforge-1.21.1" = _FkuToPmI;
         "pkg-0.1.0" = _DQTId9OL;
         "pkg-0.1.1" = _oruNGXRV;
         "pkg-0.1.2" = _Qej4Tcrh;
-        "default" = _Qej4Tcrh;
+        "pkg-1.0.1" = _FkuToPmI;
+        "default" = _FkuToPmI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assorted-armaments";

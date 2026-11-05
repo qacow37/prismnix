@@ -81,6 +81,51 @@ let
             "file" = "infestationbackport-neoforge-1.20.6-1.0.0.jar";
             "hash" = "sha512-B4rCFt5qj9GTAKECaIHhKZLPIOlfR9w1roWK6i29fPWpd2PZJ5Vfz5YHg0gekHLhIaItUpoQ/eYC1mx84xJTxQ==";
         };
+        _XMfPxEDu = {
+            "id" = "XMfPxEDu";
+            "file" = "infestationbackport-forge-1.20-1.0.1.jar";
+            "hash" = "sha512-YT5AwTd0bkQLa5j391GT+aA4fZWVBQEUOJBhc3tD0SZ4EmXcIxo3hgagiQEUKQ8Tk3sDog2u2y16d4qejA0/VA==";
+        };
+        _hWIBhwAG = {
+            "id" = "hWIBhwAG";
+            "file" = "infestationbackport-forge-1.20.1-1.0.1.jar";
+            "hash" = "sha512-8cNngnzzbQf7FR9njNcGaCHf/Mz9Tv46zVp0WfYWPYUUovOBYJWmk5+lqgSQ7J98ohiyI9VEVqHZFGEolEUfuQ==";
+        };
+        _6WwkCDgc = {
+            "id" = "6WwkCDgc";
+            "file" = "infestationbackport-forge-1.20.2-1.0.1.jar";
+            "hash" = "sha512-U/eG/kacjY7yx8yVHr93MA98OKDN1HSC36PgHGjWBIiEr0TMhOixyNDTzzGZySxaQJcSkH5haabhyYyOBTjhew==";
+        };
+        _lF0FxOWI = {
+            "id" = "lF0FxOWI";
+            "file" = "infestationbackport-forge-1.20.3-1.0.1.jar";
+            "hash" = "sha512-4AgdIcUi8hLigwVtBB4V0p4slspeFAKVjt4EBtoLdks8/d2758V0iX7C6kqnyiykOoVZktODe1BPDWY/rhKbmg==";
+        };
+        _V35cqozW = {
+            "id" = "V35cqozW";
+            "file" = "infestationbackport-forge-1.20.4-1.0.1.jar";
+            "hash" = "sha512-Pwaib3/Ilx0ye/FVIaoDKCrC1PPy+Yt5GnEJqLodlnjrUKW7GSx25J/OiVrQ97pyplIJU4P4tgHVxEWzY0LTuw==";
+        };
+        _qdbINzGH = {
+            "id" = "qdbINzGH";
+            "file" = "infestationbackport-forge-1.20.6-1.0.1.jar";
+            "hash" = "sha512-U7x3GfnmQNDSMDTxiRVZoYWV/dqfJKuOUY5wATqFC8+wCQ2jrQsc3ytBppLdw3g8sjMkKvR7yxPQDXFzhbu3yw==";
+        };
+        _G9hLnnjj = {
+            "id" = "G9hLnnjj";
+            "file" = "infestationbackport-neoforge-1.20.4-1.0.1.jar";
+            "hash" = "sha512-/hWG0Q/mvNtPPkGjv8oMlD9FLLk1PIHo4GNu5YjxoxiepK+uNh90DbGKpIwlfBVPGqCb9y57b9kGTpBIV5QVSA==";
+        };
+        _4juW7nx2 = {
+            "id" = "4juW7nx2";
+            "file" = "infestationbackport-neoforge-1.20.5-1.0.1.jar";
+            "hash" = "sha512-1BpojidFLuDsOKCT1EkMRdkugK6NpY5r9Rvw+DOjcM+vjIh6tZlkF+/fLNmXOpsw7+jYFu2abhnz7OjxN+5RRg==";
+        };
+        _FWfyWJVI = {
+            "id" = "FWfyWJVI";
+            "file" = "infestationbackport-neoforge-1.20.6-1.0.1.jar";
+            "hash" = "sha512-7y5VGX0pdXdTpkzEPMBKm3PrLuQvsyJSbfHHQft3opp618tBsf9NvkYntrl2BcweX16NiP8DUytpZxQ20xY6gw==";
+        };
     in {
         "AX51Kzc5" = _AX51Kzc5;
         "8RUYu8Qa" = _8RUYu8Qa;
@@ -98,6 +143,15 @@ let
         "X4E7nyDt" = _X4E7nyDt;
         "2c3kw31H" = _2c3kw31H;
         "zOjveBiG" = _zOjveBiG;
+        "XMfPxEDu" = _XMfPxEDu;
+        "hWIBhwAG" = _hWIBhwAG;
+        "6WwkCDgc" = _6WwkCDgc;
+        "lF0FxOWI" = _lF0FxOWI;
+        "V35cqozW" = _V35cqozW;
+        "qdbINzGH" = _qdbINzGH;
+        "G9hLnnjj" = _G9hLnnjj;
+        "4juW7nx2" = _4juW7nx2;
+        "FWfyWJVI" = _FWfyWJVI;
         "fabric-1.20" = _AX51Kzc5;
         "fabric-1.20.1" = _8RUYu8Qa;
         "fabric-1.20.2" = _f2ls2JHf;
@@ -105,17 +159,18 @@ let
         "fabric-1.20.4" = _ynT3nVCE;
         "fabric-1.20.5" = _UzZAua58;
         "fabric-1.20.6" = _Xzwp32ds;
-        "forge-1.20" = _oZrfVHxI;
-        "forge-1.20.1" = _OO4UofJd;
-        "forge-1.20.2" = _VLk665Pj;
-        "forge-1.20.3" = _OTUfRpMQ;
-        "forge-1.20.4" = _emkkgAmg;
-        "forge-1.20.6" = _FaKYFqoY;
-        "neoforge-1.20.4" = _X4E7nyDt;
-        "neoforge-1.20.5" = _2c3kw31H;
-        "neoforge-1.20.6" = _zOjveBiG;
+        "forge-1.20" = _XMfPxEDu;
+        "forge-1.20.1" = _hWIBhwAG;
+        "forge-1.20.2" = _6WwkCDgc;
+        "forge-1.20.3" = _lF0FxOWI;
+        "forge-1.20.4" = _V35cqozW;
+        "forge-1.20.6" = _qdbINzGH;
+        "neoforge-1.20.4" = _G9hLnnjj;
+        "neoforge-1.20.5" = _4juW7nx2;
+        "neoforge-1.20.6" = _FWfyWJVI;
         "pkg-v1.0.0" = _zOjveBiG;
-        "default" = _zOjveBiG;
+        "pkg-v1.0.1" = _FWfyWJVI;
+        "default" = _FWfyWJVI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-of-infestation-backport";

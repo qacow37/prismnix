@@ -96,6 +96,31 @@ let
             "file" = "itempeek-mc26.3-1.2.0.jar";
             "hash" = "sha512-EJFPZm+WfkidrCYvJ7cVC4X1s9c0fzcbtNkv8leXV39kmo96tcxKp9v3mVEv43VEvRLVfd1mhvXlA4algISbWg==";
         };
+        _nyl7wrF7 = {
+            "id" = "nyl7wrF7";
+            "file" = "itempeek-mc1.21.1-1.2.1.jar";
+            "hash" = "sha512-9frkKWD1KeSBGRxiVfT/GPHJAZb9hIjyeCfGrsA1wr6zCWgv0MycWAtSlySfG8VIbClj2sCp49/iAKlgwrUjgw==";
+        };
+        _MxjVd6ct = {
+            "id" = "MxjVd6ct";
+            "file" = "itempeek-mc1.20.1-1.2.1.jar";
+            "hash" = "sha512-9DB9jeq+SoMe1rrcL4jvisXr5qQNdh54KhP4aDWRuqNnScpTH6yTydU0BKMrDeJFOBJN0jLVnccg30VlRsBJZg==";
+        };
+        _n1TMdddt = {
+            "id" = "n1TMdddt";
+            "file" = "itempeek-mc26.1.2-1.2.1.jar";
+            "hash" = "sha512-/6Z53LnwAmM4/j/IEcpE+Ama7s4MnuUoOBF4XU3flik2xS60PLrnoCk5+wczTnr/1hvzVJGcZ3DwlXZSL/bDng==";
+        };
+        _dsrVw4u1 = {
+            "id" = "dsrVw4u1";
+            "file" = "itempeek-mc26.2-1.2.1.jar";
+            "hash" = "sha512-t2QWHw5RcgOqa7g1tp2kGK52ZowvojGu0zO4VBCLGyQ+sNAY4wOwu6EwT1Dc2Ugyfw2R3N7GT/fiN8gjSy18TQ==";
+        };
+        _lWtyrvoP = {
+            "id" = "lWtyrvoP";
+            "file" = "itempeek-mc26.3-1.2.1.jar";
+            "hash" = "sha512-1kIlyrBt1P82nXvny5ngsY3jCivyebnXV0SA908MGa1kWPmcwc4eerU5GMz4UAGBnM3Hm/ZfPYQI7VVuN3KTsQ==";
+        };
     in {
         "osXkhXNL" = _osXkhXNL;
         "XgUD5MBN" = _XgUD5MBN;
@@ -116,20 +141,26 @@ let
         "1OWCDitI" = _1OWCDitI;
         "7nxsyrsX" = _7nxsyrsX;
         "aQNvNjxC" = _aQNvNjxC;
-        "neoforge-1.21.1" = _661CpDr9;
+        "nyl7wrF7" = _nyl7wrF7;
+        "MxjVd6ct" = _MxjVd6ct;
+        "n1TMdddt" = _n1TMdddt;
+        "dsrVw4u1" = _dsrVw4u1;
+        "lWtyrvoP" = _lWtyrvoP;
+        "neoforge-1.21.1" = _nyl7wrF7;
         "neoforge-1.21.5" = _fl3ZlBeR;
         "neoforge-1.21.11" = _T4LKKSB8;
-        "neoforge-26.1.2" = _aH3MuGFc;
-        "neoforge-26.2" = _1OWCDitI;
-        "neoforge-26.3" = _aQNvNjxC;
-        "forge-1.20.1" = _7nxsyrsX;
+        "neoforge-26.1.2" = _n1TMdddt;
+        "neoforge-26.2" = _dsrVw4u1;
+        "neoforge-26.3" = _lWtyrvoP;
+        "forge-1.20.1" = _MxjVd6ct;
         "pkg-1.0.0" = _XgUD5MBN;
         "pkg-1.0.1" = _mwzfszIa;
         "pkg-1.1.1" = _qVEDasF0;
         "pkg-1.1.2" = _rPFlLVe5;
         "pkg-1.1.3" = _rV4rPeGd;
         "pkg-1.2.0" = _aQNvNjxC;
-        "default" = _aQNvNjxC;
+        "pkg-1.2.1" = _lWtyrvoP;
+        "default" = _lWtyrvoP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itempeek";

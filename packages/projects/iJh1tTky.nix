@@ -31,6 +31,11 @@ let
             "file" = "itemglintrelight-fabric-26.3-0.3.0+26.3.jar";
             "hash" = "sha512-KJeMhMkWF1UnmM/XBoHG/FPxyVcHaYYRa9PBRDO6RMSDm4YTDQGwxWeP5KEUs1fzqRktRSxbgsu5bA+Lv3OxZQ==";
         };
+        _edqCxzsU = {
+            "id" = "edqCxzsU";
+            "file" = "itemglintrelight-fabric-1.21.1-0.3.0+1.21.1.jar";
+            "hash" = "sha512-JeoAhLd7JVXxK3aCgdJsQmaEBiq5Y9AOhBjO+x4Cdw0PAREa0vPPZpqp5cJUgzOMAL4t9ASEM0gRK96LgAfeRw==";
+        };
     in {
         "M0lWKwIG" = _M0lWKwIG;
         "EFOdAtUp" = _EFOdAtUp;
@@ -38,17 +43,20 @@ let
         "2Mpe3xo8" = _2Mpe3xo8;
         "NVBKxdii" = _NVBKxdii;
         "mZqA2pYH" = _mZqA2pYH;
+        "edqCxzsU" = _edqCxzsU;
         "fabric-1.21.11" = _2Mpe3xo8;
         "fabric-26.2" = _sml2zkqS;
         "fabric-26.1.2" = _NVBKxdii;
         "fabric-26.3" = _mZqA2pYH;
+        "fabric-1.21.1" = _edqCxzsU;
         "pkg-0.1.0+1.21.11" = _M0lWKwIG;
         "pkg-0.2.0+1.21.11" = _EFOdAtUp;
         "pkg-0.3.0+26.2" = _sml2zkqS;
         "pkg-0.3.0+1.21.11" = _2Mpe3xo8;
         "pkg-0.3.0+26.1.2" = _NVBKxdii;
         "pkg-0.3.0+26.3" = _mZqA2pYH;
-        "default" = _mZqA2pYH;
+        "pkg-0.3.0+1.21.1" = _edqCxzsU;
+        "default" = _edqCxzsU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemglintrelight";

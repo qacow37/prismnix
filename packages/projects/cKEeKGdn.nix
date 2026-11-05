@@ -171,6 +171,11 @@ let
             "file" = "ACRP 1.2.9-Fabric.zip";
             "hash" = "sha512-pQe4rce44ixna8byJAod6jzYPEQ+qSZea+6paTsayr91QL5DQlLz6FyydvEuqf1cZXCAdVXUesXFu5KysvGqvg==";
         };
+        _qmNERhQm = {
+            "id" = "qmNERhQm";
+            "file" = "ACRP 1.2.10-Fabric.zip";
+            "hash" = "sha512-W8IZZkDzPEz9nbptXf7j9ggYEI2o7u1oTob7iafz2rdQ41tU1MeVrT4nCfU7rhAacQX6nKxuGL+C0KGG2jsPIw==";
+        };
     in {
         "zgDw2qIh" = _zgDw2qIh;
         "TFhZ1MRn" = _TFhZ1MRn;
@@ -206,10 +211,11 @@ let
         "hoWWAudd" = _hoWWAudd;
         "dcogk0TP" = _dcogk0TP;
         "vc3OisEF" = _vc3OisEF;
+        "qmNERhQm" = _qmNERhQm;
         "minecraft-1.19.2" = _ujCcvUPi;
         "minecraft-1.19" = _ujCcvUPi;
         "minecraft-1.19.1" = _ujCcvUPi;
-        "minecraft-1.20.1" = _vc3OisEF;
+        "minecraft-1.20.1" = _qmNERhQm;
         "pkg-3.0" = _zgDw2qIh;
         "pkg-3.1" = _TFhZ1MRn;
         "pkg-3.2" = _lYjqsnBT;
@@ -244,7 +250,8 @@ let
         "pkg-1.2.7" = _hoWWAudd;
         "pkg-1.2.8" = _dcogk0TP;
         "pkg-1.2.9" = _vc3OisEF;
-        "default" = _vc3OisEF;
+        "pkg-1.2.10" = _qmNERhQm;
+        "default" = _qmNERhQm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardacraft-overlay";

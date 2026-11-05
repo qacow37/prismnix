@@ -106,6 +106,16 @@ let
             "file" = "Cobblepastas-v2.0.1-FABRIC.jar";
             "hash" = "sha512-2MjGNkm08gmB3nTBSVUvIalUYQ85FZzYDd7tRZ3x67UtWAkwOKwNHzFAERTdE38F68PkVQzBijH8Gey3gynK0A==";
         };
+        _scOCirq1 = {
+            "id" = "scOCirq1";
+            "file" = "Cobblepastas-1.0.2-Fabric.jar";
+            "hash" = "sha512-qKsjUyd3ok7wMjZMxNP92SESRYlJJWa11RbHByz/MfZI862xpEFh+oFoy8tO3hSLgiD6EjwR4/7xhg3M6lhLKw==";
+        };
+        _woTfYqgJ = {
+            "id" = "woTfYqgJ";
+            "file" = "Cobblepastas-1.0.2-NeoForge.jar";
+            "hash" = "sha512-3hHBbsVTP9AiOP+eiu8Yh6j00SFby47TnmetCsCcxsnTC75zFJLD8dCAO8wTV8z8neTBfBdI3emPWaRNCwnSqg==";
+        };
     in {
         "CdvG4SBA" = _CdvG4SBA;
         "GajfVe2B" = _GajfVe2B;
@@ -128,11 +138,13 @@ let
         "cPZOjzYC" = _cPZOjzYC;
         "L8lRBZmo" = _L8lRBZmo;
         "uEjieGP0" = _uEjieGP0;
+        "scOCirq1" = _scOCirq1;
+        "woTfYqgJ" = _woTfYqgJ;
         "datapack-1.19.2" = _CdvG4SBA;
         "datapack-1.20.1" = _Eeh5h44t;
         "datapack-1.21.1" = _fsH6AgYQ;
-        "fabric-1.21.1" = _uEjieGP0;
-        "neoforge-1.21.1" = _L8lRBZmo;
+        "fabric-1.21.1" = _scOCirq1;
+        "neoforge-1.21.1" = _woTfYqgJ;
         "pkg-1.0" = _CdvG4SBA;
         "pkg-1.1" = _GajfVe2B;
         "pkg-1.2" = _6gOBg7Oa;
@@ -148,7 +160,8 @@ let
         "pkg-1.6.3" = _fsH6AgYQ;
         "pkg-1.0.0" = _cPZOjzYC;
         "pkg-1.0.1" = _uEjieGP0;
-        "default" = _uEjieGP0;
+        "pkg-1.0.2" = _woTfYqgJ;
+        "default" = _woTfYqgJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblepastas-cobblemon";

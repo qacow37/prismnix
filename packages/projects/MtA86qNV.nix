@@ -31,6 +31,16 @@ let
             "file" = "Ceramics-1.20.1-1.8.0.jar";
             "hash" = "sha512-Gvh5NKF8nlD2TDuj+XZqZYLaTGokAo/ybSdWDDL2R36SL2ggOtJ2B3kuSTsRf/53nk/RZwisY/Hor0yZrHpLDw==";
         };
+        _z4xb8UV2 = {
+            "id" = "z4xb8UV2";
+            "file" = "Ceramics-1.20.1-1.8.1.jar";
+            "hash" = "sha512-b3DiMdpXUNHdiSUK4U24bwcgQfagnGJ+U5f2agjDkNXCGxr4BDGAsoj1Oh9Ujsh/YjWA9wmOY8UvwenbGxbgYA==";
+        };
+        _t6JCRegx = {
+            "id" = "t6JCRegx";
+            "file" = "Ceramics-1.21.1-1.9.0.jar";
+            "hash" = "sha512-YBIAaplCOOvjfS1wkQ68xMOo4X+s0d2rwU9RwbPLFCY0F0CrgXvjyqMWJVxqMauNSWmJifjTT0Z1RPStwgQezA==";
+        };
     in {
         "J53uUPXQ" = _J53uUPXQ;
         "EHvYLtQW" = _EHvYLtQW;
@@ -38,20 +48,25 @@ let
         "M2mh1rPq" = _M2mh1rPq;
         "e5Bjhbf9" = _e5Bjhbf9;
         "LI5YJqEb" = _LI5YJqEb;
+        "z4xb8UV2" = _z4xb8UV2;
+        "t6JCRegx" = _t6JCRegx;
         "forge-1.10.2" = _J53uUPXQ;
         "forge-1.11.2" = _EHvYLtQW;
         "forge-1.12.2" = _CtfiCumZ;
         "forge-1.16.5" = _M2mh1rPq;
         "forge-1.18.2" = _e5Bjhbf9;
-        "forge-1.20.1" = _LI5YJqEb;
-        "neoforge-1.20.1" = _LI5YJqEb;
+        "forge-1.20.1" = _z4xb8UV2;
+        "neoforge-1.20.1" = _z4xb8UV2;
+        "neoforge-1.21.1" = _t6JCRegx;
         "pkg-1.1.6b" = _J53uUPXQ;
         "pkg-1.2.3b" = _EHvYLtQW;
         "pkg-1.3.7b" = _CtfiCumZ;
         "pkg-1.6.3" = _M2mh1rPq;
         "pkg-1.7.1" = _e5Bjhbf9;
         "pkg-1.8.0" = _LI5YJqEb;
-        "default" = _LI5YJqEb;
+        "pkg-1.8.1" = _z4xb8UV2;
+        "pkg-1.9.0" = _t6JCRegx;
+        "default" = _t6JCRegx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ceramics";

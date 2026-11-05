@@ -31,6 +31,11 @@ let
             "file" = "Netherite with Diamond - NwD v4.1.zip";
             "hash" = "sha512-zjSmd9hd6m7jnIHUI+2zY5mMlLGlk/hgahPeVeVtmJnalrHaV3yHy/2JkfBWUOA/EuFVbeh0VulESQoII+DEqA==";
         };
+        _6eoaibeC = {
+            "id" = "6eoaibeC";
+            "file" = "Netherite with Diamond v4.2.zip";
+            "hash" = "sha512-okRwmPAKtg/tZ7zZCghHhLi9kL4W0OYuN3NSJTB0iJo1N+RHq2LveXulzjqLE6pwzZYFBm6vlpLNzmuZhISsBQ==";
+        };
     in {
         "xHBkXv9J" = _xHBkXv9J;
         "acn4PsWV" = _acn4PsWV;
@@ -38,21 +43,23 @@ let
         "XS2tX2Qt" = _XS2tX2Qt;
         "UcHDy8Hk" = _UcHDy8Hk;
         "klY03AZr" = _klY03AZr;
+        "6eoaibeC" = _6eoaibeC;
         "minecraft-1.21.9" = _XS2tX2Qt;
         "minecraft-1.21.10" = _XS2tX2Qt;
         "minecraft-1.21.11" = _UcHDy8Hk;
-        "minecraft-26.1" = _klY03AZr;
-        "minecraft-26.1.1" = _klY03AZr;
-        "minecraft-26.1.2" = _klY03AZr;
-        "minecraft-26.2" = _klY03AZr;
-        "minecraft-26.3" = _klY03AZr;
+        "minecraft-26.1" = _6eoaibeC;
+        "minecraft-26.1.1" = _6eoaibeC;
+        "minecraft-26.1.2" = _6eoaibeC;
+        "minecraft-26.2" = _6eoaibeC;
+        "minecraft-26.3" = _6eoaibeC;
         "pkg-NwD-v1" = _xHBkXv9J;
         "pkg-NwD-v2" = _acn4PsWV;
         "pkg-NwD-v3" = _jvtS665q;
         "pkg-NwD-v3.1" = _XS2tX2Qt;
         "pkg-NwD-v4" = _UcHDy8Hk;
         "pkg-NwD-v4.1" = _klY03AZr;
-        "default" = _klY03AZr;
+        "pkg-NwD-4.2" = _6eoaibeC;
+        "default" = _6eoaibeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netherite-with-diamond";

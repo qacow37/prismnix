@@ -281,6 +281,11 @@ let
             "file" = "bobbyshare-1.4.0+mc26.2.jar";
             "hash" = "sha512-y5A3/hDgzwVV0nn+GKrOQBHIcPCZBZRwD/+FYqDxGw5VkLBDHYf5k5LrPSl5oWx5VASkXjjaQSpFsKhi5hSVBg==";
         };
+        _EbQ2XBw4 = {
+            "id" = "EbQ2XBw4";
+            "file" = "bobbyshare-1.4.0+mc26.3.jar";
+            "hash" = "sha512-B7VjsL4xYnmHOoH8Hoy9TNNIoiRbtvnWnUTrpivlv0JSOx41gNLl241Kcd0N4mO+gqZpBQkoNoN6WUkdhmhvQw==";
+        };
     in {
         "tS4e6tWi" = _tS4e6tWi;
         "2kB2vXMd" = _2kB2vXMd;
@@ -338,6 +343,7 @@ let
         "aUh6OOS1" = _aUh6OOS1;
         "V90RAkJo" = _V90RAkJo;
         "jfZdogMS" = _jfZdogMS;
+        "EbQ2XBw4" = _EbQ2XBw4;
         "fabric-1.20.5" = _zmBUluHe;
         "fabric-1.20.6" = _zmBUluHe;
         "fabric-1.21" = _Cw4NHqb4;
@@ -360,6 +366,7 @@ let
         "fabric-1.20.2" = _EcpVXyjc;
         "fabric-1.20.3" = _AxE4fcNf;
         "fabric-1.20.4" = _AxE4fcNf;
+        "fabric-26.3" = _EbQ2XBw4;
         "pkg-1.0.0" = _tS4e6tWi;
         "pkg-1.1.0" = _2kB2vXMd;
         "pkg-1.1.1" = _4EyrraeK;
@@ -416,7 +423,8 @@ let
         "pkg-1.4.0+mc1.21.11" = _aUh6OOS1;
         "pkg-1.4.0+mc26.1-26.1.2" = _V90RAkJo;
         "pkg-1.4.0+mc26.2" = _jfZdogMS;
-        "default" = _jfZdogMS;
+        "pkg-1.4.0+mc26.3" = _EbQ2XBw4;
+        "default" = _EbQ2XBw4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bobby-share";

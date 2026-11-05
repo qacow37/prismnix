@@ -126,6 +126,11 @@ let
             "file" = "trident-all-weather-channeling-v2.2.1.jar";
             "hash" = "sha512-VY1eSozEO+aPIZhfI+q8ZQh1y3pm0yj89pBgzzyMPob0elbQwJQLSE7K5V+ECmrkHeR53y6vIR21D0jQf+LLag==";
         };
+        _Nzle9TXy = {
+            "id" = "Nzle9TXy";
+            "file" = "trident-all-weather-channeling-v2.2.1-paper.jar";
+            "hash" = "sha512-uPwQ+ywksbjDBiac8tiEtY1jJdS8yPtL0fjU6xxie0GZ1M6rAhbqWJLNg+9ExFGUetnWPKey2HaSiIMWSPpYHA==";
+        };
     in {
         "FMUat1TI" = _FMUat1TI;
         "ZcGXDE3h" = _ZcGXDE3h;
@@ -152,6 +157,7 @@ let
         "4ICgU0eJ" = _4ICgU0eJ;
         "GyLDKXYE" = _GyLDKXYE;
         "9FwRnAPJ" = _9FwRnAPJ;
+        "Nzle9TXy" = _Nzle9TXy;
         "datapack-1.20.4" = _EWvo5kYP;
         "datapack-1.21.6" = _3Ot0yTZ4;
         "datapack-1.21.7" = _3Ot0yTZ4;
@@ -211,6 +217,8 @@ let
         "neoforge-26.1.2" = _CUJyrzZU;
         "neoforge-26.2" = _CUJyrzZU;
         "neoforge-26.3" = _9FwRnAPJ;
+        "paper-26.3" = _Nzle9TXy;
+        "purpur-26.3" = _Nzle9TXy;
         "pkg-v.1.0.0" = _FMUat1TI;
         "pkg-v.1.0.0+mod" = _ZcGXDE3h;
         "pkg-v.1.0.1" = _gaq8WqII;
@@ -233,7 +241,8 @@ let
         "pkg-v2.2.0+mod" = _4ICgU0eJ;
         "pkg-v2.2.1" = _GyLDKXYE;
         "pkg-v2.2.1+mod" = _9FwRnAPJ;
-        "default" = _9FwRnAPJ;
+        "pkg-v2.2.1+plugin" = _Nzle9TXy;
+        "default" = _Nzle9TXy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trident-all-weather-channeling";

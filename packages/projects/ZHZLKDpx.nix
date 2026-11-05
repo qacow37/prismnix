@@ -171,6 +171,11 @@ let
             "file" = "two-shulker-shells-drop-v2.4.0.0.jar";
             "hash" = "sha512-EJZqna0YqdY9IFdxXKF69q9zH8xJrqus9ozqAE3jmYG86Rozcn8nV8vEEgPoPEjI9sf670rKETAkgUXuxLgjIw==";
         };
+        _u6jIS5vt = {
+            "id" = "u6jIS5vt";
+            "file" = "two-shulker-shells-drop-v2.4.0.0-paper.jar";
+            "hash" = "sha512-EgdSnjkbOAbv4FoU2tSD/ve28210VjeoLr9zlJ8XuOZH9OMI3AUEq7pc3RjK7GRTxsk3voT4o9ykUL3/WoaxQQ==";
+        };
     in {
         "lEjEntsg" = _lEjEntsg;
         "ciCNRNV0" = _ciCNRNV0;
@@ -206,6 +211,7 @@ let
         "Nyopfenl" = _Nyopfenl;
         "ZPmWCAJn" = _ZPmWCAJn;
         "Qwc4Ru6r" = _Qwc4Ru6r;
+        "u6jIS5vt" = _u6jIS5vt;
         "datapack-1.20.4" = _lEjEntsg;
         "datapack-1.20.5" = _AaAxByh0;
         "datapack-1.20.6" = _AaAxByh0;
@@ -302,6 +308,8 @@ let
         "neoforge-26.1.2" = _h4fLlZnC;
         "neoforge-26.2" = _h4fLlZnC;
         "neoforge-26.3" = _Qwc4Ru6r;
+        "paper-26.3" = _u6jIS5vt;
+        "purpur-26.3" = _u6jIS5vt;
         "pkg-v.1.0.0" = _mJgy42VQ;
         "pkg-v.1.0.0+mod" = _qWvnrCcn;
         "pkg-v.2.0.0" = _f6d6Q07A;
@@ -330,7 +338,8 @@ let
         "pkg-v2.4.0+mod" = _Nyopfenl;
         "pkg-v2.4.0.0" = _ZPmWCAJn;
         "pkg-v2.4.0.0+mod" = _Qwc4Ru6r;
-        "default" = _Qwc4Ru6r;
+        "pkg-v2.4.0.0+plugin" = _u6jIS5vt;
+        "default" = _u6jIS5vt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "two-shulker-shells-drop";

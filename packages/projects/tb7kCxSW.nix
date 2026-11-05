@@ -1431,6 +1431,11 @@ let
             "file" = "extshape-fabric-3.2.1+mc26.3.jar";
             "hash" = "sha512-6BrwiMurYzcbyd9Tysry4WEhj+NWrMPi3gH3aH6f1YQRhzLA2auJvL37NT9dszhpvuUzW4fegEuvPuEWxX5LPw==";
         };
+        _XRB3PmAB = {
+            "id" = "XRB3PmAB";
+            "file" = "extshape-fabric-3.2.2-alpha.2+mc26.4-snapshot-7.jar";
+            "hash" = "sha512-x/fXaix4tAS2bnHGz1x14ZO+xcjlTvQ5PrGLfnrxpJ40CJhqMV5oGuWQCXTpoYwpzcdIyZ3dZMLPif/XJUM+Xw==";
+        };
     in {
         "EpuERo2m" = _EpuERo2m;
         "sE30Gn3G" = _sE30Gn3G;
@@ -1718,6 +1723,7 @@ let
         "5fbejCRR" = _5fbejCRR;
         "LKHkdu3Y" = _LKHkdu3Y;
         "lbg1u0zo" = _lbg1u0zo;
+        "XRB3PmAB" = _XRB3PmAB;
         "fabric-1.17" = _9z8n93vL;
         "fabric-1.17.1" = _mcZD6Kjh;
         "fabric-1.16.4" = _2uvSQYAc;
@@ -1806,6 +1812,7 @@ let
         "fabric-26.3-rc-2" = _imqIAjp7;
         "fabric-26.3" = _lbg1u0zo;
         "fabric-26.4-snapshot-6" = _jE6o9iOq;
+        "fabric-26.4-snapshot-7" = _XRB3PmAB;
         "forge-1.16.4" = _qHarRyUx;
         "forge-1.16.5" = _tQapphHA;
         "forge-1.17.1" = _cOuOnKVY;
@@ -2098,7 +2105,8 @@ let
         "pkg-3.2.1+mc26.1.2" = _5fbejCRR;
         "pkg-3.2.1+mc26.2" = _LKHkdu3Y;
         "pkg-3.2.1+mc26.3" = _lbg1u0zo;
-        "default" = _lbg1u0zo;
+        "pkg-3.2.2-alpha.2+mc26.4-snapshot-7" = _XRB3PmAB;
+        "default" = _XRB3PmAB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extshape";

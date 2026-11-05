@@ -181,6 +181,11 @@ let
             "file" = "modularforcefields-1.21.1-0.6.1.jar";
             "hash" = "sha512-Nho773i0QZcJo7Qe3uWgfYqYheLXjVIZd4KfNqht+fVM8ZYJAPlsAtNxsWFO9yFsD11t9OqlC8ZGYi1JTYsmQQ==";
         };
+        _w0mlEwtY = {
+            "id" = "w0mlEwtY";
+            "file" = "Modular Forcefields-1.20.1-0.6.1.jar";
+            "hash" = "sha512-6lof+zZl1OFQYpszwo/0Olu5HmQbUgwhlax2gdBbtMSPtQLdbJmFndOaET4jh5l4nQKM9v1jf6xeLawkNrJ6CA==";
+        };
     in {
         "B5e85MbN" = _B5e85MbN;
         "wxxGUJhb" = _wxxGUJhb;
@@ -218,10 +223,11 @@ let
         "bz85UHEl" = _bz85UHEl;
         "ZCq3V0Ew" = _ZCq3V0Ew;
         "GgVHkwAY" = _GgVHkwAY;
+        "w0mlEwtY" = _w0mlEwtY;
         "forge-1.19.2" = _bz85UHEl;
         "forge-1.18.2" = _7dvmfaHe;
-        "forge-1.20.1" = _7iJiTzVR;
-        "neoforge-1.20.1" = _7iJiTzVR;
+        "forge-1.20.1" = _w0mlEwtY;
+        "neoforge-1.20.1" = _w0mlEwtY;
         "neoforge-1.21.1" = _GgVHkwAY;
         "pkg-1.19.2-0.1.2-1" = _B5e85MbN;
         "pkg-1.18.2-0.0.1-3" = _wxxGUJhb;
@@ -259,7 +265,8 @@ let
         "pkg-1.19.2-0.5.2" = _bz85UHEl;
         "pkg-1.21.1-0.6.0" = _ZCq3V0Ew;
         "pkg-1.21.1-0.6.1" = _GgVHkwAY;
-        "default" = _GgVHkwAY;
+        "pkg-1.20.1-0.6.1" = _w0mlEwtY;
+        "default" = _w0mlEwtY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modular-force-field-systems";

@@ -371,6 +371,11 @@ let
             "file" = "afk-announcer-v4.2.2.jar";
             "hash" = "sha512-bHSVjWQpU6fL82/cgRryhX0+sov5Nq7iT9iHlNozEYZUN+86/EekQCGjVQA+VRrXmosCpHZewhIvJVERAjs3FQ==";
         };
+        _scdOBoIY = {
+            "id" = "scdOBoIY";
+            "file" = "afk-announcer-v4.2.2-paper.jar";
+            "hash" = "sha512-nV4uMcBUm9HYz6BZk5SlheAg1PVA0DpEYHDK2REtXo0xI+qzMdY2n7X+bbyue6nM0vFCgg4SHrihVI+f+R4/qQ==";
+        };
     in {
         "dchAJb61" = _dchAJb61;
         "gsMFipmy" = _gsMFipmy;
@@ -446,6 +451,7 @@ let
         "F73I9iRf" = _F73I9iRf;
         "5Dou3F4w" = _5Dou3F4w;
         "fP8yEzZZ" = _fP8yEzZZ;
+        "scdOBoIY" = _scdOBoIY;
         "datapack-1.20.4" = _TuBxsr6M;
         "datapack-1.20.5" = _P9jGJ9EO;
         "datapack-1.20.6" = _P9jGJ9EO;
@@ -546,6 +552,8 @@ let
         "neoforge-26.1.2" = _l0bqmVuj;
         "neoforge-26.2" = _l0bqmVuj;
         "neoforge-26.3" = _fP8yEzZZ;
+        "paper-26.3" = _scdOBoIY;
+        "purpur-26.3" = _scdOBoIY;
         "pkg-v.1.0.0" = _dchAJb61;
         "pkg-v.1.0.0+mod" = _gsMFipmy;
         "pkg-v.1.0.1" = _4RFJPATo;
@@ -608,7 +616,8 @@ let
         "pkg-v4.2.1+mod" = _F73I9iRf;
         "pkg-v4.2.2" = _5Dou3F4w;
         "pkg-v4.2.2+mod" = _fP8yEzZZ;
-        "default" = _fP8yEzZZ;
+        "pkg-v4.2.2+plugin" = _scdOBoIY;
+        "default" = _scdOBoIY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afk-announcer";

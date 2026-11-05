@@ -311,6 +311,46 @@ let
             "file" = "hologram_api-2.0.2+1.21.6-fabric.jar";
             "hash" = "sha512-g5zZgjAplQXTMf3XwifT+N0Py36wLJqP1dQRM3T9RjdefgXVrUZLAckv6opMMZFQVa7/w/M6dK3PijyjzBrruQ==";
         };
+        _wdcKZF6C = {
+            "id" = "wdcKZF6C";
+            "file" = "hologram_api-2.0.2+26.2-fabric.jar";
+            "hash" = "sha512-+PoRnoxwj9gR8te0hdq6ijr+ZoaFkKptP/pDUL6rQd0wMyInuf1hUYP8ahIdyiJWHRhWFBR4B+QKiGusD4q3lw==";
+        };
+        _3atacMlo = {
+            "id" = "3atacMlo";
+            "file" = "hologram_api-2.0.2+26.3-fabric.jar";
+            "hash" = "sha512-G2t4RI1taB8cFPKnMCX4gOwPLYZHlqqB7hIo6P5QHNrbZYZYqIKVihnrYJROWD5/fCI9u+/Bs8l7x2z4wQItyQ==";
+        };
+        _3eBUjNsS = {
+            "id" = "3eBUjNsS";
+            "file" = "hologram_api-2.0.2+26.3-fabric.jar";
+            "hash" = "sha512-kulICyDFkqAA/1TSPSB2/6ZPivgod2iHeEom7C2M+/YQkVc0vExQF6QdFuHRpUtVFsa3tGxE8iClQtjhoRYANQ==";
+        };
+        _5U0hUugk = {
+            "id" = "5U0hUugk";
+            "file" = "hologram_api-2.0.2+26.2-fabric.jar";
+            "hash" = "sha512-EwF1s/QiIt6jaXMMlNEdPkbzGmBjDKtOVQCa7SO5SMKFkbRhk3EwSINw965X+IqTTieyJA3CwWQiId3PdD0BjQ==";
+        };
+        _bSLWB2XA = {
+            "id" = "bSLWB2XA";
+            "file" = "hologram_api-2.0.2+1.21.1-fabric.jar";
+            "hash" = "sha512-cZ8IwPP+BX8hrBhU1GAPL/KNsmcC7BM022+Ae7vGjJ+R6LgMsR+EcJZC9L3g2i7hK0TG5HhvW9x+YVSXNWg3SA==";
+        };
+        _DcpRsyoa = {
+            "id" = "DcpRsyoa";
+            "file" = "hologram_api-2.0.2+1.20.1-fabric.jar";
+            "hash" = "sha512-hfMuR+vETlUOm6mirYlrwG1gxypCx6ZROW0tSgBYQEiTC/Kwc7khOPI191SJG+DICCIS+6vP34Fn7O6FFwVepg==";
+        };
+        _OK2IFLaT = {
+            "id" = "OK2IFLaT";
+            "file" = "hologram_api-2.0.2+1.21.1-neoforge.jar";
+            "hash" = "sha512-2g/p4epdEgI6CzK2cLsLIBD4mw81q1xNUgguE2KdkZuQWWOVRSljGtEEfBJJZmSPYO+diF8RXdFXnQNhm/yZbQ==";
+        };
+        _mZJns6sV = {
+            "id" = "mZJns6sV";
+            "file" = "hologram_api-2.0.2+1.20.1-forge.jar";
+            "hash" = "sha512-MAvo7IZzRgKMw/3y1+ZKwARdG7ifpwXVZ1akD8RjPIYDtK4One3wOr8xAO7HO5mZenRMSotsNbY+5U1sFpLtgg==";
+        };
     in {
         "KH2XlHys" = _KH2XlHys;
         "Sa4Q6JML" = _Sa4Q6JML;
@@ -374,8 +414,16 @@ let
         "bxUVlzqf" = _bxUVlzqf;
         "QqI8zJnF" = _QqI8zJnF;
         "q0i5wNym" = _q0i5wNym;
-        "fabric-1.21.1" = _SGB0D7EW;
-        "fabric-1.20.1" = _mp0Zrm1I;
+        "wdcKZF6C" = _wdcKZF6C;
+        "3atacMlo" = _3atacMlo;
+        "3eBUjNsS" = _3eBUjNsS;
+        "5U0hUugk" = _5U0hUugk;
+        "bSLWB2XA" = _bSLWB2XA;
+        "DcpRsyoa" = _DcpRsyoa;
+        "OK2IFLaT" = _OK2IFLaT;
+        "mZJns6sV" = _mZJns6sV;
+        "fabric-1.21.1" = _bSLWB2XA;
+        "fabric-1.20.1" = _DcpRsyoa;
         "fabric-1.21.2" = _bxUVlzqf;
         "fabric-1.21.3" = _bxUVlzqf;
         "fabric-1.21.4" = _bxUVlzqf;
@@ -388,9 +436,11 @@ let
         "fabric-26.1" = _Br94VMA3;
         "fabric-26.1.1" = _Br94VMA3;
         "fabric-26.1.2" = _6XsR2618;
-        "neoforge-1.21.1" = _npbt3kIV;
+        "fabric-26.2" = _5U0hUugk;
+        "fabric-26.3" = _3eBUjNsS;
+        "neoforge-1.21.1" = _OK2IFLaT;
         "neoforge-1.21.11" = _9U4KJxpZ;
-        "forge-1.20.1" = _Z1vEPfQf;
+        "forge-1.20.1" = _mZJns6sV;
         "pkg-1.0.0" = _6L4JYX5o;
         "pkg-1.1.0" = _CO8Z4RZW;
         "pkg-2.0.0" = _9U4KJxpZ;
@@ -414,17 +464,19 @@ let
         "pkg-2.0.1+1.21.5-fabric" = _gCbJnL7O;
         "pkg-2.0.1+1.21.6-fabric" = _3xzv3Q00;
         "pkg-2.0.1+26.1-fabric" = _6XsR2618;
-        "pkg-2.0.2+1.20.1-forge" = _Z1vEPfQf;
-        "pkg-2.0.2+1.21.1-neoforge" = _npbt3kIV;
+        "pkg-2.0.2+1.20.1-forge" = _mZJns6sV;
+        "pkg-2.0.2+1.21.1-neoforge" = _OK2IFLaT;
         "pkg-2.0.2+26.1-fabric" = _Br94VMA3;
         "pkg-2.0.2+1.21.10-fabric" = _wFXWV7GV;
         "pkg-2.0.2+1.21.11-fabric" = _nuN5upVb;
-        "pkg-2.0.2+1.20.1-fabric" = _mp0Zrm1I;
-        "pkg-2.0.2+1.21.1-fabric" = _SGB0D7EW;
+        "pkg-2.0.2+1.20.1-fabric" = _DcpRsyoa;
+        "pkg-2.0.2+1.21.1-fabric" = _bSLWB2XA;
         "pkg-2.0.2+1.21.2-fabric" = _bxUVlzqf;
         "pkg-2.0.2+1.21.5-fabric" = _QqI8zJnF;
         "pkg-2.0.2+1.21.6-fabric" = _q0i5wNym;
-        "default" = _q0i5wNym;
+        "pkg-2.0.2+26.2-fabric" = _5U0hUugk;
+        "pkg-2.0.2+26.3-fabric" = _3eBUjNsS;
+        "default" = _mZJns6sV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hologram-api";

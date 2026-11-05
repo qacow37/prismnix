@@ -296,6 +296,26 @@ let
             "file" = "MineMenu-neoforge-26.1.2-1.16.1.jar";
             "hash" = "sha512-mOa+Xvfqa90YQMimrIzVmi+cqZ14odkRy8WKUzrJ4Qm8oCc/IjdY8kgJ/1YvjYWYFCWFcP8R0PdjVnubVxsPiw==";
         };
+        _USASeupZ = {
+            "id" = "USASeupZ";
+            "file" = "MineMenu-fabric-26.2-1.17.0.jar";
+            "hash" = "sha512-psjD2wb7OtSTGk7F2phIVLM0atCoGbaGLjGPrvhwUu6wDqnFI+3VlGsQYahntgQY3jz0fQKEDiwUThR6A+DDgA==";
+        };
+        _NpdNOlMS = {
+            "id" = "NpdNOlMS";
+            "file" = "MineMenu-neoforge-26.2-1.17.0.jar";
+            "hash" = "sha512-s6G5ELQGz6NjxgBxyPlKO882I+kqylR4SULxsy26uWfy99i1MzPXZAaksXAi/zgb3H2ZA3idRXUxPbC68GVLWQ==";
+        };
+        _m2TmKtbX = {
+            "id" = "m2TmKtbX";
+            "file" = "MineMenu-fabric-26.3-1.18.0.jar";
+            "hash" = "sha512-h7m2+1OnR+O8Z7v+P159hEK6ZNikPTmofLPEy58ffCcP2k4POcgRB8f5A3DB9E/VGKPqX19BaOsgwqjkqeWBPA==";
+        };
+        _3P8sL4za = {
+            "id" = "3P8sL4za";
+            "file" = "MineMenu-neoforge-26.3-1.18.0.jar";
+            "hash" = "sha512-FqassLUdT55Vq/QqHCeJ5we2nwFDVNXDm9FlJ1+dVO6esbDop7t414Z3+DeSMJswkPb/oPg6B3MNmysWKqwsQQ==";
+        };
     in {
         "gMZDMcsi" = _gMZDMcsi;
         "HNivj4HD" = _HNivj4HD;
@@ -356,6 +376,10 @@ let
         "l2ZP4Zgf" = _l2ZP4Zgf;
         "tVg5ekGj" = _tVg5ekGj;
         "DnUmJXSq" = _DnUmJXSq;
+        "USASeupZ" = _USASeupZ;
+        "NpdNOlMS" = _NpdNOlMS;
+        "m2TmKtbX" = _m2TmKtbX;
+        "3P8sL4za" = _3P8sL4za;
         "forge-1.7.2" = _gMZDMcsi;
         "forge-1.7.10" = _HNivj4HD;
         "forge-1.8.8" = _3YOuzggl;
@@ -399,6 +423,8 @@ let
         "neoforge-26.1" = _DnUmJXSq;
         "neoforge-26.1.1" = _DnUmJXSq;
         "neoforge-26.1.2" = _DnUmJXSq;
+        "neoforge-26.2" = _NpdNOlMS;
+        "neoforge-26.3" = _3P8sL4za;
         "fabric-1.20.2" = _wVlduVoB;
         "fabric-1.20.4" = _ICX9O8QV;
         "fabric-1.21" = _9y2FszxT;
@@ -414,6 +440,8 @@ let
         "fabric-26.1" = _tVg5ekGj;
         "fabric-26.1.1" = _tVg5ekGj;
         "fabric-26.1.2" = _tVg5ekGj;
+        "fabric-26.2" = _USASeupZ;
+        "fabric-26.3" = _m2TmKtbX;
         "pkg-1.1.7.B38" = _gMZDMcsi;
         "pkg-1.2.0.B44" = _HNivj4HD;
         "pkg-1.3.0.B45" = _3YOuzggl;
@@ -451,7 +479,9 @@ let
         "pkg-1.14.3" = _Bcc6dev6;
         "pkg-1.15.9" = _l2ZP4Zgf;
         "pkg-1.16.1" = _DnUmJXSq;
-        "default" = _DnUmJXSq;
+        "pkg-1.17.0" = _NpdNOlMS;
+        "pkg-1.18.0" = _3P8sL4za;
+        "default" = _3P8sL4za;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-menu";

@@ -16,10 +16,16 @@ let
             "file" = "The Xray Ultimate.zip";
             "hash" = "sha512-mc/2XiVqzPonCwnc8KkpxWpDYcRl/Nrx/s+3RixgdaFyjcemKGXHUYSVfWBv2FDtj0Q/xTObarH15OO+V5DQQg==";
         };
+        _7LGnzTur = {
+            "id" = "7LGnzTur";
+            "file" = "The Xray Ultimate.zip";
+            "hash" = "sha512-PcLDqYVpX5PgTcuE9Q28Fighy64ZLMc8Hc9IghoQzq7QBbE1CzevwSOTj1/LBmZKizCLwj5SrhxFYFmB1uMCdg==";
+        };
     in {
         "knPxjKp4" = _knPxjKp4;
         "qumOgfgl" = _qumOgfgl;
         "M2KMApuw" = _M2KMApuw;
+        "7LGnzTur" = _7LGnzTur;
         "minecraft-1.21" = _qumOgfgl;
         "minecraft-1.21.1" = _qumOgfgl;
         "minecraft-1.21.2" = _knPxjKp4;
@@ -36,7 +42,7 @@ let
         "minecraft-26.1.1" = _knPxjKp4;
         "minecraft-26.1.2" = _knPxjKp4;
         "minecraft-26.2" = _knPxjKp4;
-        "minecraft-26.3" = _M2KMApuw;
+        "minecraft-26.3" = _7LGnzTur;
         "minecraft-1.15" = _qumOgfgl;
         "minecraft-1.15.1" = _qumOgfgl;
         "minecraft-1.15.2" = _qumOgfgl;
@@ -100,15 +106,16 @@ let
         "minecraft-24w19a" = _qumOgfgl;
         "minecraft-24w19b" = _qumOgfgl;
         "minecraft-24w20a" = _qumOgfgl;
-        "minecraft-26.4-snapshot-1" = _M2KMApuw;
-        "minecraft-26.4-snapshot-2" = _M2KMApuw;
-        "minecraft-26.4-snapshot-3" = _M2KMApuw;
-        "minecraft-26.4-snapshot-4" = _M2KMApuw;
-        "minecraft-26.4-snapshot-5" = _M2KMApuw;
-        "minecraft-26.4-snapshot-6" = _M2KMApuw;
-        "pkg-1.0" = _M2KMApuw;
+        "minecraft-26.4-snapshot-1" = _7LGnzTur;
+        "minecraft-26.4-snapshot-2" = _7LGnzTur;
+        "minecraft-26.4-snapshot-3" = _7LGnzTur;
+        "minecraft-26.4-snapshot-4" = _7LGnzTur;
+        "minecraft-26.4-snapshot-5" = _7LGnzTur;
+        "minecraft-26.4-snapshot-6" = _7LGnzTur;
+        "minecraft-26.4-snapshot-7" = _7LGnzTur;
+        "pkg-1.0" = _7LGnzTur;
         "pkg-1.0.1" = _qumOgfgl;
-        "default" = _M2KMApuw;
+        "default" = _7LGnzTur;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fake-xray-ultimate";

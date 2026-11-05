@@ -411,6 +411,26 @@ let
             "file" = "earthmc-map-addon-26.3-1.4.10.jar";
             "hash" = "sha512-kmY1KZUmn6vRKAlLWZUNaORLT8Lx48/Lvfhf8KwfeHURRmPFrL/30MwoS9e7qq62Gi1yMyjciKbPHBEcUVcVFQ==";
         };
+        _9owgSk4B = {
+            "id" = "9owgSk4B";
+            "file" = "earthmc-map-addon-1.21.11-1.4.11.jar";
+            "hash" = "sha512-TSrNCL0B0oSrfV43FBfoLrXzwMKuhEnaotx/yGIQxN3OVDRkZ/azcFPhjBdhbCRUfmSxQv9eR879jro3GNAifA==";
+        };
+        _AoeJxeKw = {
+            "id" = "AoeJxeKw";
+            "file" = "earthmc-map-addon-26.1.2-1.4.11.jar";
+            "hash" = "sha512-/qKw+VvhDi4Uvz0z0VOUejhJJGUcEeUboDnY+gi8D5t4ToYLAjPyqQGFlubCAZs73MWtKxuSvwSpssL3UdMrwg==";
+        };
+        _RjyWdvWf = {
+            "id" = "RjyWdvWf";
+            "file" = "earthmc-map-addon-26.2-1.4.11.jar";
+            "hash" = "sha512-dfNP6EsXm5b6nCCb/JSF3mkMEV2qOeOc3j/ijXSs7FJg9TKNcvDm5DoJ2eqTB5HBCtYlN2ys18h/7D3l7yd06Q==";
+        };
+        _DqcqoNyW = {
+            "id" = "DqcqoNyW";
+            "file" = "earthmc-map-addon-26.3-1.4.11.jar";
+            "hash" = "sha512-WhF2xLq6LPIYmFwXQG69r7uLc6c+jzz2a74ZoE+rx9r6O+gcFRg2Q3OTRKGd940biV03xuL40tQ/USvybHyIxw==";
+        };
     in {
         "VDurqxBr" = _VDurqxBr;
         "RrH6gn7t" = _RrH6gn7t;
@@ -494,12 +514,16 @@ let
         "HzrKcsBy" = _HzrKcsBy;
         "flH9bUPv" = _flH9bUPv;
         "8hnzCkec" = _8hnzCkec;
-        "fabric-1.21.11" = _R8DNUnsc;
+        "9owgSk4B" = _9owgSk4B;
+        "AoeJxeKw" = _AoeJxeKw;
+        "RjyWdvWf" = _RjyWdvWf;
+        "DqcqoNyW" = _DqcqoNyW;
+        "fabric-1.21.11" = _9owgSk4B;
         "fabric-26.1" = _o2b3CcCr;
-        "fabric-26.1.1" = _HzrKcsBy;
-        "fabric-26.1.2" = _HzrKcsBy;
-        "fabric-26.2" = _flH9bUPv;
-        "fabric-26.3" = _8hnzCkec;
+        "fabric-26.1.1" = _AoeJxeKw;
+        "fabric-26.1.2" = _AoeJxeKw;
+        "fabric-26.2" = _RjyWdvWf;
+        "fabric-26.3" = _DqcqoNyW;
         "pkg-1.0.0-1.21.11" = _VDurqxBr;
         "pkg-1.0.1-1.21.11" = _RrH6gn7t;
         "pkg-1.1.0-1.21.11" = _TbgLrAVe;
@@ -582,7 +606,11 @@ let
         "pkg-1.4.10-26.1.x" = _HzrKcsBy;
         "pkg-1.4.10-26.2" = _flH9bUPv;
         "pkg-1.4.10-26.3" = _8hnzCkec;
-        "default" = _8hnzCkec;
+        "pkg-1.4.11" = _9owgSk4B;
+        "pkg-1.4.11-26.1.x" = _AoeJxeKw;
+        "pkg-1.4.11-26.2" = _RjyWdvWf;
+        "pkg-1.4.11-26.3" = _DqcqoNyW;
+        "default" = _DqcqoNyW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emcmap-addon";

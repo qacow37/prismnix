@@ -171,6 +171,11 @@ let
             "file" = "QuirksUnchainedV22.jar";
             "hash" = "sha512-lEne1gKr/l/aaJTj4WilTbpxpOJ7E6iCqoNN9sRU5oLRSpVrQeU8SNpNorkdqweItt60U1HoaCpDfDBNvrHErg==";
         };
+        _v8hwHkX5 = {
+            "id" = "v8hwHkX5";
+            "file" = "QuirksUnchainedV22.1.jar";
+            "hash" = "sha512-zq28J4Zj2maz/4cVRYN6iei8LAL1nT5GpeVUHl2osaRQceYogMgplXIz50NqYD9h85IHjlVUHH1BBUh7uDSaNQ==";
+        };
     in {
         "XOG4Flf6" = _XOG4Flf6;
         "U5GcSVju" = _U5GcSVju;
@@ -206,7 +211,8 @@ let
         "kZXeoRxe" = _kZXeoRxe;
         "EBtUYsxU" = _EBtUYsxU;
         "yWRj1ZsF" = _yWRj1ZsF;
-        "forge-1.20.1" = _yWRj1ZsF;
+        "v8hwHkX5" = _v8hwHkX5;
+        "forge-1.20.1" = _v8hwHkX5;
         "pkg-V1" = _XOG4Flf6;
         "pkg-V2" = _U5GcSVju;
         "pkg-V3" = _mrQ8CBAp;
@@ -241,7 +247,8 @@ let
         "pkg-V20.1" = _kZXeoRxe;
         "pkg-V21" = _EBtUYsxU;
         "pkg-V22" = _yWRj1ZsF;
-        "default" = _yWRj1ZsF;
+        "pkg-V22.1" = _v8hwHkX5;
+        "default" = _v8hwHkX5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quirks-unchained";

@@ -21,11 +21,17 @@ let
             "file" = "fovu-1.0.0-[26.2].jar";
             "hash" = "sha512-9t2Q0/x2KNoIn2zpQp0/xByoN00MGdtLEWomu7YQoPXW+EijL2Efl4fhh3P8mt+KZePdCSc/JbbcZR01m5NCzw==";
         };
+        _TuKTgH42 = {
+            "id" = "TuKTgH42";
+            "file" = "fovu-1.0.0-[26.2-26.3].jar";
+            "hash" = "sha512-Q1Uk6x0GbsuGQ3jAeWCTWzJ4KN5Ck+uitID9+foLHaYoVAtL3c49VDACPaIxiEwrvgYn4a1h8zv3O52L6aUQag==";
+        };
     in {
         "LiIJSTSd" = _LiIJSTSd;
         "s794iRt8" = _s794iRt8;
         "tUEwJ2JG" = _tUEwJ2JG;
         "V4I4P8mQ" = _V4I4P8mQ;
+        "TuKTgH42" = _TuKTgH42;
         "fabric-1.21.6" = _s794iRt8;
         "fabric-1.21.7" = _s794iRt8;
         "fabric-1.21.8" = _s794iRt8;
@@ -35,9 +41,10 @@ let
         "fabric-26.1" = _tUEwJ2JG;
         "fabric-26.1.1" = _tUEwJ2JG;
         "fabric-26.1.2" = _tUEwJ2JG;
-        "fabric-26.2" = _V4I4P8mQ;
-        "pkg-1.0.0" = _V4I4P8mQ;
-        "default" = _V4I4P8mQ;
+        "fabric-26.2" = _TuKTgH42;
+        "fabric-26.3" = _TuKTgH42;
+        "pkg-1.0.0" = _TuKTgH42;
+        "default" = _TuKTgH42;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fovu";

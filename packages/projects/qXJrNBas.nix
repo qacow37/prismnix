@@ -96,6 +96,11 @@ let
             "file" = "neoforge_1_21_8_howwesleep_1010_25052026_rr.jar";
             "hash" = "sha512-BWZHOubUvrIyoYJCJOaNHGx5Y4IjUtziASwBzYJIBbxhNuxzjzWMZu/yJ+ZMBcSaOhWYE3UWhV9mq1M12vewbw==";
         };
+        _h2zLOm3j = {
+            "id" = "h2zLOm3j";
+            "file" = "neoforge_26_1_2_howwesleep_1010_26102026_rr.jar";
+            "hash" = "sha512-z8w0nq3XionBtZfCEkKxryfeFj6ZC4nrD72WRJzDdYS/0lGT5WGa8dkA2gXrJi4lYUjsv8zKUGxdCheFmgYL9Q==";
+        };
     in {
         "YkFVjp3E" = _YkFVjp3E;
         "DOVfvFxv" = _DOVfvFxv;
@@ -116,6 +121,7 @@ let
         "6JYnvOEr" = _6JYnvOEr;
         "QfBGGhxE" = _QfBGGhxE;
         "XZrbnwsw" = _XZrbnwsw;
+        "h2zLOm3j" = _h2zLOm3j;
         "forge-1.18.2" = _YkFVjp3E;
         "forge-1.19.2" = _DOVfvFxv;
         "forge-1.19.4" = _dUAN3rWU;
@@ -123,6 +129,7 @@ let
         "neoforge-1.21.1" = _6JYnvOEr;
         "neoforge-1.21.4" = _QfBGGhxE;
         "neoforge-1.21.8" = _XZrbnwsw;
+        "neoforge-26.1.2" = _h2zLOm3j;
         "pkg-1.0.0.0" = _slzRjW75;
         "pkg-1.0.0.1" = _QCLayCTH;
         "pkg-1.0.0.2" = _HWnCdrtD;
@@ -130,8 +137,8 @@ let
         "pkg-1.0.0.7" = _VTobMPtX;
         "pkg-1.0.0.8" = _Kx8KJDCO;
         "pkg-1.0.0.9" = _wCVWDU4U;
-        "pkg-1.0.1.0" = _XZrbnwsw;
-        "default" = _XZrbnwsw;
+        "pkg-1.0.1.0" = _h2zLOm3j;
+        "default" = _h2zLOm3j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "how-we-sleep";

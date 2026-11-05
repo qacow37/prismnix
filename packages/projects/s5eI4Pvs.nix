@@ -131,6 +131,11 @@ let
             "file" = "freefbible-FORGE-1.6.4-1.0.0.jar";
             "hash" = "sha512-PtFlkCgYvrLYrGScmoaEXto6SsSrL4S809MBcYuD+bJT3v8pPovbYAuCDEKgXfj2p5tyMju2TsL3+HYf3k+dUQ==";
         };
+        _K0fin8fh = {
+            "id" = "K0fin8fh";
+            "file" = "freefbible-NEOFORGE-26.3-1.0.0.jar";
+            "hash" = "sha512-K/xVsvbao+eoadNdUS9juaCdemceaCre3q1BM/6npOa0lpET3WKMDZkxIGALXE9NZrrgtHGD7jbb2xB2QBkzYw==";
+        };
     in {
         "xTjbKAwC" = _xTjbKAwC;
         "V2P2lL4e" = _V2P2lL4e;
@@ -158,6 +163,7 @@ let
         "avQ1RpCI" = _avQ1RpCI;
         "N3vYw9WF" = _N3vYw9WF;
         "2GwXT85F" = _2GwXT85F;
+        "K0fin8fh" = _K0fin8fh;
         "fabric-1.20.1" = _xTjbKAwC;
         "fabric-1.21.5" = _2FlCaEZs;
         "fabric-1.21.1" = _43LBQj5U;
@@ -187,6 +193,7 @@ let
         "neoforge-1.21.8" = _feUbqUVm;
         "neoforge-26.1.2" = _osnu1DsF;
         "neoforge-26.2" = _zLTGk40D;
+        "neoforge-26.3" = _K0fin8fh;
         "pkg-FABRIC-1.20.1-1.0.0" = _xTjbKAwC;
         "pkg-FORGE-1.12.2-1.0.0" = _V2P2lL4e;
         "pkg-FORGE-1.16.5-1.0.0" = _iHuchGby;
@@ -212,7 +219,8 @@ let
         "pkg-NEOFORGE-26.2-1.0.0" = _zLTGk40D;
         "pkg-FABRIC-26.2-1.0.0" = _avQ1RpCI;
         "pkg-FABRIC-1.19.2-1.0.0" = _N3vYw9WF;
-        "default" = _2GwXT85F;
+        "pkg-NEOFORGE-26.3-1.0.0" = _K0fin8fh;
+        "default" = _K0fin8fh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bible";

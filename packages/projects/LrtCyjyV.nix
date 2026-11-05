@@ -196,6 +196,11 @@ let
             "file" = "too-expensive-removed-v1.3.0.0.jar";
             "hash" = "sha512-WMZE1RUrve64urQrFlPNcdwpaJFoCmIWyka4kS1/xPNmTF/b91pH93WRbhgsEOvcl/alGuADVUlL56Gn7e1BUw==";
         };
+        _93NHE7xq = {
+            "id" = "93NHE7xq";
+            "file" = "too-expensive-removed-v1.3.0.0-paper.jar";
+            "hash" = "sha512-V+yp0kAcNZVgeCczkKfpdIByLa+j0t4ekM0twH2uQbWfoHjfxJVTQgyKPKS3+RrCBSX5CKOgdjf1RWaLC5RFLA==";
+        };
     in {
         "2oloRBcc" = _2oloRBcc;
         "zKBSULBK" = _zKBSULBK;
@@ -236,6 +241,7 @@ let
         "PCn3Edvy" = _PCn3Edvy;
         "BsFFlrjN" = _BsFFlrjN;
         "mmSEHFxo" = _mmSEHFxo;
+        "93NHE7xq" = _93NHE7xq;
         "datapack-1.21" = _bl3ALagd;
         "datapack-1.21.1" = _bl3ALagd;
         "datapack-1.21.2" = _bl3ALagd;
@@ -321,6 +327,8 @@ let
         "quilt-26.1.2" = _eXbPJfUB;
         "quilt-26.2" = _eXbPJfUB;
         "quilt-26.3" = _mmSEHFxo;
+        "paper-26.3" = _93NHE7xq;
+        "purpur-26.3" = _93NHE7xq;
         "pkg-v.1.0.0" = _2oloRBcc;
         "pkg-v.1.0.0+mod" = _zKBSULBK;
         "pkg-v.1.1.0" = _VFDhYv6u;
@@ -347,7 +355,8 @@ let
         "pkg-v1.3.0+mod" = _PCn3Edvy;
         "pkg-v1.3.0.0" = _BsFFlrjN;
         "pkg-v1.3.0.0+mod" = _mmSEHFxo;
-        "default" = _mmSEHFxo;
+        "pkg-v1.3.0.0+plugin" = _93NHE7xq;
+        "default" = _93NHE7xq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "too-expensive-removed";

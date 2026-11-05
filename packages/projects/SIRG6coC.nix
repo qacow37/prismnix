@@ -521,6 +521,56 @@ let
             "file" = "vignettetweaks-2.1.3+1.21.10.jar";
             "hash" = "sha512-Tg2W5OoyTAOb4+eQwlWS1J+tNIneIFx2EdSK31PqAAAIpORkgJylZb5iN7tQLbgD8aru/K9Gg86V0VRgLYNzPA==";
         };
+        _iU1epPDr = {
+            "id" = "iU1epPDr";
+            "file" = "vignettetweaks-2.1.4+26.1.jar";
+            "hash" = "sha512-g5aXd9UQrSTZzp2sXa4l1R7VAgtUL+L+q6YloF9IfSlC9MfDViPqRz7PjAPCKZ0Sp5nvF++G1y/Ayhn2iu5XRA==";
+        };
+        _hSGky0pj = {
+            "id" = "hSGky0pj";
+            "file" = "vignettetweaks-2.1.4+26.3.jar";
+            "hash" = "sha512-CfsBOPXITIJXfZuasbyCoj9TyT/NKGnjjChnetpQfpOwRFUxQ6eOMuDa9yIkI8qVYu4AWNlDWLeAr5qdIvN7ww==";
+        };
+        _hzAjFP5d = {
+            "id" = "hzAjFP5d";
+            "file" = "vignettetweaks-2.1.4+26.2.jar";
+            "hash" = "sha512-npLnLE7qc7u0fyM7ecVASqP5hKVg2IVnSokUZlf8ZVx4nfTbRfY4WHPiYKACP+kn4495qnlbImzsZoosLg6Wrg==";
+        };
+        _OUiStn7a = {
+            "id" = "OUiStn7a";
+            "file" = "vignettetweaks-2.1.4+1.8.9.jar";
+            "hash" = "sha512-1HgWvu0HtG/J09fxtYg/tHg6am6dZJW9JAfCBMIeadQ4XfJ1ba+IgpB8jSBSdYJ38rvBntglz91ci6S6OsCdDw==";
+        };
+        _JEmJ30Tq = {
+            "id" = "JEmJ30Tq";
+            "file" = "vignettetweaks-2.1.4+1.21.1.jar";
+            "hash" = "sha512-F2/MPxmk7X2cNM7GxDTR787FEKkcpTlTE9x8OzKhA8Hk5CjAM6SnSzhIh3/z+6/0V68pU847Y1PYmKnQY4MQLg==";
+        };
+        _rMiGFzA3 = {
+            "id" = "rMiGFzA3";
+            "file" = "vignettetweaks-2.1.4+1.21.5.jar";
+            "hash" = "sha512-+yLy1juRgo1dY+M2ZeEjzHYp4K42JbAW3P9bJL/2p2+Hk8ouXn80yFByurjP2fXJXJFtP4YDmphA0DnJ0nEdGQ==";
+        };
+        _6ARq6Tag = {
+            "id" = "6ARq6Tag";
+            "file" = "vignettetweaks-2.1.4+1.21.10.jar";
+            "hash" = "sha512-QAPWqPEV0IrL3TG4Lqt1ebPBOn+De8yPma+hUQIFcbozh/86lZ3eNjEpTJFhVhzPoZIU9R+8JsIM2sCepEq77g==";
+        };
+        _QCVzY2q6 = {
+            "id" = "QCVzY2q6";
+            "file" = "vignettetweaks-2.1.4+1.21.4.jar";
+            "hash" = "sha512-v2WBGCa4D5NxUCN6T6Zbh7TPaJBJnYEotrXs3nQZIm1gVgGgprykTAcPV8Mn60jLQjMoW974BiXVjbENgYTP3g==";
+        };
+        _vjEnWC6C = {
+            "id" = "vjEnWC6C";
+            "file" = "vignettetweaks-2.1.4+1.21.11.jar";
+            "hash" = "sha512-G7CfpgeZT1HgzfyN4D9uNV9lv8FCccH9me8jdOq4jr0obqYF1yduU5NAECZkNOMq63xpGxhkRbfJUxKwjCyMRw==";
+        };
+        _EOFMH1wE = {
+            "id" = "EOFMH1wE";
+            "file" = "vignettetweaks-2.1.4+1.21.8.jar";
+            "hash" = "sha512-DjI5xk69FVO4G3uFe18DDQOLTYGuu/YJRRsdzYLeKnG/3MvLCJYw1pDCOof3pTsOBAF+80u9fDYj4XyxwI/eyw==";
+        };
     in {
         "TITzNkdg" = _TITzNkdg;
         "RAq0MTvJ" = _RAq0MTvJ;
@@ -626,19 +676,29 @@ let
         "GED8MgjA" = _GED8MgjA;
         "qqkZRpZr" = _qqkZRpZr;
         "qdneir6b" = _qdneir6b;
+        "iU1epPDr" = _iU1epPDr;
+        "hSGky0pj" = _hSGky0pj;
+        "hzAjFP5d" = _hzAjFP5d;
+        "OUiStn7a" = _OUiStn7a;
+        "JEmJ30Tq" = _JEmJ30Tq;
+        "rMiGFzA3" = _rMiGFzA3;
+        "6ARq6Tag" = _6ARq6Tag;
+        "QCVzY2q6" = _QCVzY2q6;
+        "vjEnWC6C" = _vjEnWC6C;
+        "EOFMH1wE" = _EOFMH1wE;
         "forge-1.8.9" = _TITzNkdg;
-        "fabric-1.21.1" = _yCGV1RJD;
-        "fabric-1.21.4" = _UtUXno2i;
-        "fabric-1.21.5" = _qqkZRpZr;
-        "fabric-1.21.8" = _plv7jQFJ;
-        "fabric-1.21.10" = _qdneir6b;
-        "fabric-1.21.11" = _GED8MgjA;
-        "fabric-26.1" = _NFof1qPU;
-        "fabric-26.1.1" = _NFof1qPU;
-        "fabric-26.1.2" = _NFof1qPU;
-        "fabric-26.2" = _UKMvhgfa;
-        "fabric-26.3" = _cxN2GU2a;
-        "ornithe-1.8.9" = _zAce7kYm;
+        "fabric-1.21.1" = _JEmJ30Tq;
+        "fabric-1.21.4" = _QCVzY2q6;
+        "fabric-1.21.5" = _rMiGFzA3;
+        "fabric-1.21.8" = _EOFMH1wE;
+        "fabric-1.21.10" = _6ARq6Tag;
+        "fabric-1.21.11" = _vjEnWC6C;
+        "fabric-26.1" = _iU1epPDr;
+        "fabric-26.1.1" = _iU1epPDr;
+        "fabric-26.1.2" = _iU1epPDr;
+        "fabric-26.2" = _hzAjFP5d;
+        "fabric-26.3" = _hSGky0pj;
+        "ornithe-1.8.9" = _OUiStn7a;
         "pkg-0.1.0" = _TITzNkdg;
         "pkg-2.0.0-alpha.1+mc1.21.1" = _RAq0MTvJ;
         "pkg-2.0.0-alpha.1+mc1.21.4" = _wxLrFjpd;
@@ -733,7 +793,17 @@ let
         "pkg-2.1.3+1.21.5" = _qqkZRpZr;
         "pkg-2.1.3+1.21.10" = _qdneir6b;
         "pkg-2.1.3+1.21.11" = _GED8MgjA;
-        "default" = _qdneir6b;
+        "pkg-2.1.4+26.1" = _iU1epPDr;
+        "pkg-2.1.4+26.3" = _hSGky0pj;
+        "pkg-2.1.4+26.2" = _hzAjFP5d;
+        "pkg-2.1.4+1.8.9" = _OUiStn7a;
+        "pkg-2.1.4+1.21.1" = _JEmJ30Tq;
+        "pkg-2.1.4+1.21.5" = _rMiGFzA3;
+        "pkg-2.1.4+1.21.10" = _6ARq6Tag;
+        "pkg-2.1.4+1.21.4" = _QCVzY2q6;
+        "pkg-2.1.4+1.21.11" = _vjEnWC6C;
+        "pkg-2.1.4+1.21.8" = _EOFMH1wE;
+        "default" = _EOFMH1wE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vignettetweaks";

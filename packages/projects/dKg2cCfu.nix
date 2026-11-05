@@ -66,6 +66,11 @@ let
             "file" = "darkworld-1.0.0-neoforge-1.21.8.jar";
             "hash" = "sha512-dgssjiTiazebptYy/v1x75mFMHWGa+wWQzw/HoDG+6QhxZ4j7V87P4ZJ99UKm2wSQwjTk205vAoZbbrKRHF7mw==";
         };
+        _7sHiPT55 = {
+            "id" = "7sHiPT55";
+            "file" = "darkworld-1.0.0-neoforge-1.21.8.jar";
+            "hash" = "sha512-WFt/+CSLiEJzsyLhxMnu2oLlZijHKxbcmD8d/fzNDPPxMJrRtx3gBjbCgU+ksrKUNT2UMeuwh23aY6cKHsiS9Q==";
+        };
     in {
         "hhGfP149" = _hhGfP149;
         "KTPTll8A" = _KTPTll8A;
@@ -80,8 +85,9 @@ let
         "1fBzxueN" = _1fBzxueN;
         "e94T4j7S" = _e94T4j7S;
         "TPW6crAr" = _TPW6crAr;
+        "7sHiPT55" = _7sHiPT55;
         "forge-1.20.1" = _hhGfP149;
-        "neoforge-1.21.8" = _TPW6crAr;
+        "neoforge-1.21.8" = _7sHiPT55;
         "neoforge-1.21.9" = _QVoOCkpa;
         "neoforge-1.21.10" = _QVoOCkpa;
         "neoforge-1.21.11" = _QVoOCkpa;
@@ -97,7 +103,8 @@ let
         "pkg-1.4.7" = _1fBzxueN;
         "pkg-1.4.7.5" = _e94T4j7S;
         "pkg-1.4.8" = _TPW6crAr;
-        "default" = _TPW6crAr;
+        "pkg-1.4.9" = _7sHiPT55;
+        "default" = _7sHiPT55;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-deltarune";

@@ -141,6 +141,16 @@ let
             "file" = "create-26w19b.jar";
             "hash" = "sha512-2pCi7WMg4ros4rYEt35fXDPL+2IjTRqciSlmenaFTV/stwwRAIwYPN0RjGUEqNrMM66n3JEn3unH+zC6WQLLMA==";
         };
+        _7IU5KAe7 = {
+            "id" = "7IU5KAe7";
+            "file" = "create-26w45a.jar";
+            "hash" = "sha512-YEsu0zHemXJp1x19+EHYCuxYCusNeF1apgCoUi+1uRog/bmudlm/SGlj6RBIShOWLhqOOjejjxncgT6fLoFH6w==";
+        };
+        _f6dzKVSV = {
+            "id" = "f6dzKVSV";
+            "file" = "create-26w45b.jar";
+            "hash" = "sha512-bvwXYCOrZVcx6NjZyZnTbwyp3FCk/JVks4C7rmLP3sPv4cz+rlGCE0896kfp6K6FPyy+4QB/CobGIOmXtRj1Ug==";
+        };
     in {
         "4jNOKQVa" = _4jNOKQVa;
         "cyyw5SUe" = _cyyw5SUe;
@@ -170,7 +180,9 @@ let
         "PPhVYXBE" = _PPhVYXBE;
         "HoyMUuEY" = _HoyMUuEY;
         "QoYWtaOh" = _QoYWtaOh;
-        "forge-1.12.2" = _QoYWtaOh;
+        "7IU5KAe7" = _7IU5KAe7;
+        "f6dzKVSV" = _f6dzKVSV;
+        "forge-1.12.2" = _f6dzKVSV;
         "pkg-24w28a" = _4jNOKQVa;
         "pkg-24w29a" = _cyyw5SUe;
         "pkg-24w29b" = _eh4R1Lgw;
@@ -199,7 +211,9 @@ let
         "pkg-1.12.2-26w08a" = _PPhVYXBE;
         "pkg-1.12.2-26w19a" = _HoyMUuEY;
         "pkg-1.12.2-26w19b" = _QoYWtaOh;
-        "default" = _QoYWtaOh;
+        "pkg-1.12.2-26w45a" = _7IU5KAe7;
+        "pkg-1.12.2-26w45b" = _f6dzKVSV;
+        "default" = _f6dzKVSV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-legacy";

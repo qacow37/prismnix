@@ -46,6 +46,16 @@ let
             "file" = "lucky-block-cobblemon-neoforge-1.21.1-0.2.0.jar";
             "hash" = "sha512-Q47yrZC4EUWrNqjHLpnFO7AONcmklqx4Y+q7KS1O7PEE2EdiEbXETA5B4x6+Xye7MqGMEAD5WOsHkj/C1Nh+mw==";
         };
+        _gf9ofwEX = {
+            "id" = "gf9ofwEX";
+            "file" = "lucky-block-cobblemon-neoforge-1.21.1-0.2.1.jar";
+            "hash" = "sha512-1mXLKR6r4DXUHHZBoKfhxNMH3XPCgRv2gK7dHQKOtOb/J0c8Vl8VhkGqFCJvnzfT7n3AUWYCmeJwJJNJR0Tyaw==";
+        };
+        _BZYgPj2D = {
+            "id" = "BZYgPj2D";
+            "file" = "lucky-block-cobblemon-fabric-1.21.1-0.2.1.jar";
+            "hash" = "sha512-lEhSCZg6ok+VbBGgm5hxnPNkWlFPXDHZsg8WQefGwSBLVfLRq8EH+6cTe2BpRV/DZPpHpSSAqJUWwRThv8TbXA==";
+        };
     in {
         "X4F8V54Y" = _X4F8V54Y;
         "dYBhp7i8" = _dYBhp7i8;
@@ -56,18 +66,20 @@ let
         "1rHu13ZB" = _1rHu13ZB;
         "u3vRNUMb" = _u3vRNUMb;
         "QBzeKIxZ" = _QBzeKIxZ;
-        "fabric-1.21.1" = _u3vRNUMb;
-        "fabric-1.21.2" = _u3vRNUMb;
-        "fabric-1.21.3" = _u3vRNUMb;
-        "fabric-1.21.4" = _u3vRNUMb;
-        "fabric-1.21.5" = _u3vRNUMb;
-        "fabric-1.21.6" = _u3vRNUMb;
-        "fabric-1.21.7" = _u3vRNUMb;
-        "fabric-1.21.8" = _u3vRNUMb;
-        "fabric-1.21.9" = _u3vRNUMb;
-        "fabric-1.21.10" = _u3vRNUMb;
-        "fabric-1.21.11" = _u3vRNUMb;
-        "neoforge-1.21.1" = _QBzeKIxZ;
+        "gf9ofwEX" = _gf9ofwEX;
+        "BZYgPj2D" = _BZYgPj2D;
+        "fabric-1.21.1" = _BZYgPj2D;
+        "fabric-1.21.2" = _BZYgPj2D;
+        "fabric-1.21.3" = _BZYgPj2D;
+        "fabric-1.21.4" = _BZYgPj2D;
+        "fabric-1.21.5" = _BZYgPj2D;
+        "fabric-1.21.6" = _BZYgPj2D;
+        "fabric-1.21.7" = _BZYgPj2D;
+        "fabric-1.21.8" = _BZYgPj2D;
+        "fabric-1.21.9" = _BZYgPj2D;
+        "fabric-1.21.10" = _BZYgPj2D;
+        "fabric-1.21.11" = _BZYgPj2D;
+        "neoforge-1.21.1" = _gf9ofwEX;
         "pkg-0.1.21" = _X4F8V54Y;
         "pkg-0.1.3" = _dYBhp7i8;
         "pkg-0.1.4" = _Lvc8XNAe;
@@ -76,7 +88,9 @@ let
         "pkg-0.1.7" = _IfWBh0Dk;
         "pkg-0.1.8" = _1rHu13ZB;
         "pkg-0.2.0" = _QBzeKIxZ;
-        "default" = _QBzeKIxZ;
+        "pkg-0.2.1NF" = _gf9ofwEX;
+        "pkg-0.2.1F" = _BZYgPj2D;
+        "default" = _BZYgPj2D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lucky-block-cobblemon";

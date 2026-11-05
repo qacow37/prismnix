@@ -46,6 +46,11 @@ let
             "file" = "CustomEntity-Free-2.2.100.jar";
             "hash" = "sha512-mYcV3B3pWoqepTiZkin7zHNZ2aqS7EgCO1dCpS8iRPjYVvQQWGKTtQEwLg7ufJplSRlMJAF9Z/wEE49sqoSvxA==";
         };
+        _TARUYqNd = {
+            "id" = "TARUYqNd";
+            "file" = "ce-3.0.3.jar";
+            "hash" = "sha512-aIajaV9ZPjwPn273400NN8GQKapDu2MeLO6EHcyyx1A3Y4C7g/7DsTnaANeAl/8UudC86bSrtyiVipUf9wR0Eg==";
+        };
     in {
         "LSzEZe5L" = _LSzEZe5L;
         "pTIlqZKJ" = _pTIlqZKJ;
@@ -56,6 +61,7 @@ let
         "wNy1KXJ6" = _wNy1KXJ6;
         "6n4a9d9f" = _6n4a9d9f;
         "FGvc7Tq4" = _FGvc7Tq4;
+        "TARUYqNd" = _TARUYqNd;
         "paper-1.21" = _pTIlqZKJ;
         "paper-1.21.1" = _pTIlqZKJ;
         "paper-1.21.2" = _pTIlqZKJ;
@@ -74,7 +80,7 @@ let
         "paper-26.2" = _FGvc7Tq4;
         "paper-26.3" = _FGvc7Tq4;
         "fabric-26.2" = _4IYLIGNh;
-        "fabric-26.3" = _wNy1KXJ6;
+        "fabric-26.3" = _TARUYqNd;
         "forge-26.3" = _6n4a9d9f;
         "pkg-1.6" = _LSzEZe5L;
         "pkg-1.8" = _pTIlqZKJ;
@@ -85,7 +91,8 @@ let
         "pkg-3.0.2" = _wNy1KXJ6;
         "pkg-8.0.0" = _6n4a9d9f;
         "pkg-2.2.100" = _FGvc7Tq4;
-        "default" = _FGvc7Tq4;
+        "pkg-3.0.3" = _TARUYqNd;
+        "default" = _TARUYqNd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-entity-the-stalker";

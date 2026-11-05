@@ -31,6 +31,11 @@ let
             "file" = "[2.0.1] Glow 3D Relic.zip";
             "hash" = "sha512-BhSQNz7KzWSKhGiDoIdogz0UPMZ419ZKSesBIz9w3buN1QM+D5MU1YK/jx9eVOMbkBZIHbW3GosQQAcn2rqDNg==";
         };
+        _6zymG08h = {
+            "id" = "6zymG08h";
+            "file" = "[2.1] Glow 3D Relic.zip";
+            "hash" = "sha512-2EgCnjybsJkjqwikhocKBK/NG6ulUzZubCLYLGjbg7re1rOL0nFsdlJ9VXnTeZKkPqFzIEbXzps3PitoTtm8iw==";
+        };
     in {
         "Rf4VcOOw" = _Rf4VcOOw;
         "qkhFvhff" = _qkhFvhff;
@@ -38,20 +43,23 @@ let
         "2t9tXHnn" = _2t9tXHnn;
         "UL5jG7Cd" = _UL5jG7Cd;
         "VV2UITht" = _VV2UITht;
+        "6zymG08h" = _6zymG08h;
         "minecraft-1.21.9" = _Rf4VcOOw;
         "minecraft-1.21.10" = _Rf4VcOOw;
         "minecraft-1.21.11" = _UL5jG7Cd;
-        "minecraft-26.1" = _VV2UITht;
-        "minecraft-26.1.1" = _VV2UITht;
-        "minecraft-26.1.2" = _VV2UITht;
-        "minecraft-26.2" = _VV2UITht;
+        "minecraft-26.1" = _6zymG08h;
+        "minecraft-26.1.1" = _6zymG08h;
+        "minecraft-26.1.2" = _6zymG08h;
+        "minecraft-26.2" = _6zymG08h;
+        "minecraft-26.3" = _6zymG08h;
         "pkg-1.0.0" = _Rf4VcOOw;
         "pkg-1.0.1" = _qkhFvhff;
         "pkg-1.0.2" = _fC6jRcNp;
         "pkg-1.0.3" = _2t9tXHnn;
         "pkg-2.0" = _UL5jG7Cd;
         "pkg-2.0.1" = _VV2UITht;
-        "default" = _VV2UITht;
+        "pkg-2.1" = _6zymG08h;
+        "default" = _6zymG08h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glow-3d-relic";

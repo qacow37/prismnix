@@ -471,6 +471,11 @@ let
             "file" = "call-your-horse-v2.2.0.0.jar";
             "hash" = "sha512-thDNktBkFlyCX7SSC43h4mVgbFoq5Xvq+5nrqI+91SM2raodkuYyucyeg9Gv07reXB7RRzxX2PBsIWNdKriF9w==";
         };
+        _Npnek4Ik = {
+            "id" = "Npnek4Ik";
+            "file" = "call-your-horse-v2.2.0.0-paper.jar";
+            "hash" = "sha512-u+dDv3KJbMPNpSVWpPigVaHuesAkbgpKlHlsTCaLjIO+iraWzXj6NlmgmBniFUJZH3MSJKr3qzWLRWYNvOH/Ng==";
+        };
     in {
         "GSmATwMj" = _GSmATwMj;
         "LVIw5I2Z" = _LVIw5I2Z;
@@ -566,6 +571,7 @@ let
         "VeFE44pz" = _VeFE44pz;
         "MzLYjTEG" = _MzLYjTEG;
         "NWWkf2cY" = _NWWkf2cY;
+        "Npnek4Ik" = _Npnek4Ik;
         "datapack-1.21" = _7WkvBNJq;
         "datapack-1.21.1" = _7WkvBNJq;
         "datapack-1.21.2" = _7WkvBNJq;
@@ -651,6 +657,8 @@ let
         "quilt-26.1.2" = _nP1o6kVd;
         "quilt-26.2" = _nP1o6kVd;
         "quilt-26.3" = _NWWkf2cY;
+        "paper-26.3" = _Npnek4Ik;
+        "purpur-26.3" = _Npnek4Ik;
         "pkg-v.1.0.0" = _6qbbED2A;
         "pkg-v.1.0.0+mod" = _mno8pk7Q;
         "pkg-v.1.1.1" = _rGDalebz;
@@ -733,7 +741,8 @@ let
         "pkg-v2.2.0+mod" = _VeFE44pz;
         "pkg-v2.2.0.0" = _MzLYjTEG;
         "pkg-v2.2.0.0+mod" = _NWWkf2cY;
-        "default" = _NWWkf2cY;
+        "pkg-v2.2.0.0+plugin" = _Npnek4Ik;
+        "default" = _Npnek4Ik;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "call-your-horse";

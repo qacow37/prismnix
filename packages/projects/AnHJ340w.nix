@@ -71,6 +71,16 @@ let
             "file" = "(FABRIC) 26.3 AutoTool Switcher.jar";
             "hash" = "sha512-E7DCk/p/6/Vv2/ILUHs0WD9vHxosYY2DDU4eMSAOBMmMWeOH0n9bSn24h3mbW/ZErcHaIVKAL8nd9p9nAMDgug==";
         };
+        _B7sZOIBY = {
+            "id" = "B7sZOIBY";
+            "file" = "(FORGE) 26.3 AutoTool Switcher FIX.jar";
+            "hash" = "sha512-/m9VI6UN+xZAGPD0628ANw/3xZw8HY3TBmpBhvZ3bGTvo8Dk7sGVYA+q4PlSw74W3puoFH2S227tn5wBE7atgg==";
+        };
+        _BbxHLadx = {
+            "id" = "BbxHLadx";
+            "file" = "(FABRIC) 26.3 AutoTool Switcher FIX.jar";
+            "hash" = "sha512-Rzykj8FEsfBIaEg1JX2bFoBOzinSI6fOtAhDJKUOVt8TZ9hN2s3T4YUl5+NWvkEdPM35LeZQb7PT7Zlwj7RALw==";
+        };
     in {
         "pf6pKR6Z" = _pf6pKR6Z;
         "UjgQQdyA" = _UjgQQdyA;
@@ -86,25 +96,27 @@ let
         "yGZ3vtWN" = _yGZ3vtWN;
         "1zeOwb1r" = _1zeOwb1r;
         "clHsZFcX" = _clHsZFcX;
+        "B7sZOIBY" = _B7sZOIBY;
+        "BbxHLadx" = _BbxHLadx;
         "forge-1.21.11" = _pf6pKR6Z;
         "forge-26.1" = _rcBdQGpc;
         "forge-26.1.1" = _4sKnWUuL;
         "forge-26.1.2" = _uLZ5jb1n;
         "forge-26.2" = _yGZ3vtWN;
-        "forge-26.3" = _1zeOwb1r;
+        "forge-26.3" = _B7sZOIBY;
         "fabric-1.21.11" = _UjgQQdyA;
         "fabric-26.1" = _Fu2ZPsHc;
         "fabric-26.1.1" = _Fu2ZPsHc;
         "fabric-26.1.2" = _Fu2ZPsHc;
         "fabric-26.2" = _mu114RSt;
-        "fabric-26.3" = _clHsZFcX;
+        "fabric-26.3" = _BbxHLadx;
         "pkg-1.21.11" = _UjgQQdyA;
         "pkg-26.1" = _rcBdQGpc;
         "pkg-26.1.1" = _4sKnWUuL;
         "pkg-26.1.2" = _uLZ5jb1n;
         "pkg-26.2" = _yGZ3vtWN;
-        "pkg-26.3" = _clHsZFcX;
-        "default" = _clHsZFcX;
+        "pkg-26.3" = _BbxHLadx;
+        "default" = _BbxHLadx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autotool-switcher";

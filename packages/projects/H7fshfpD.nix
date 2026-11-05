@@ -196,6 +196,26 @@ let
             "file" = "dynamicsurroundings-neoforge-1.21.1-0.4.8.jar";
             "hash" = "sha512-n/GLdsKVn6SMXTgNhpYUx0UAkbPQuyzeajOsXlDp5MsxD8N8vR8LkzTu8lnB6p+mgQtspZCK8/dM1E74EcfgYQ==";
         };
+        _tC1BRduh = {
+            "id" = "tC1BRduh";
+            "file" = "dynamicsurroundings-fabric-1.21.1-0.4.9.jar";
+            "hash" = "sha512-lUzshpGJ2iZenHz29VFUTGFEYs+JopJDku2V7VxdKNyecANujzXmW3ibGViX5mRi4eTj88m/2X7p0KCXTSTpIQ==";
+        };
+        _zNd5ltFs = {
+            "id" = "zNd5ltFs";
+            "file" = "dynamicsurroundings-neoforge-1.21.1-0.4.9.jar";
+            "hash" = "sha512-mlk1gGRPSjmAn1QQicsgsUXu8E8PKQptv0ZsOf99yjELuL4PMydbUaQydRJzNR1/rZmmOmuCOPf3oJCLIerciw==";
+        };
+        _6luYJwlf = {
+            "id" = "6luYJwlf";
+            "file" = "dynamicsurroundings-fabric-1.21.11-5.0.0.jar";
+            "hash" = "sha512-uu5guZVCcp1X4G0G/e+WuuVteXLkrPT8Kb/CBy1fL3vrnZncznlDMpE3QpUTaRTitq/V0u5svJjyIiEtei7RHw==";
+        };
+        _A547rObq = {
+            "id" = "A547rObq";
+            "file" = "dynamicsurroundings-neoforge-1.21.11-5.0.0.jar";
+            "hash" = "sha512-Tgnfih1z7Gq8LSDVP5kuuQaBgUhiGgisVE0KpkQaSIOYSti7UKI6W3yu+K45DyQ+/Ufxka1FsNHoDpv92PTACg==";
+        };
     in {
         "bSyRkMQe" = _bSyRkMQe;
         "30Qm2f12" = _30Qm2f12;
@@ -236,11 +256,17 @@ let
         "edSHt6PD" = _edSHt6PD;
         "d3ngLkMp" = _d3ngLkMp;
         "bh9AC9Ca" = _bh9AC9Ca;
+        "tC1BRduh" = _tC1BRduh;
+        "zNd5ltFs" = _zNd5ltFs;
+        "6luYJwlf" = _6luYJwlf;
+        "A547rObq" = _A547rObq;
         "fabric-1.17.1" = _nNjFR1QZ;
         "fabric-1.20.4" = _okj4KmWE;
         "fabric-1.20.1" = _SQuUb0Fo;
-        "fabric-1.21.1" = _d3ngLkMp;
-        "neoforge-1.21.1" = _bh9AC9Ca;
+        "fabric-1.21.1" = _tC1BRduh;
+        "fabric-1.21.11" = _6luYJwlf;
+        "neoforge-1.21.1" = _zNd5ltFs;
+        "neoforge-1.21.11" = _A547rObq;
         "pkg-1.17.1-0.0.1" = _bSyRkMQe;
         "pkg-1.17.1-0.0.2" = _30Qm2f12;
         "pkg-1.17.1-0.0.3" = _nXPVphDe;
@@ -266,7 +292,9 @@ let
         "pkg-0.4.6" = _WodENMX3;
         "pkg-0.4.7" = _edSHt6PD;
         "pkg-0.4.8" = _bh9AC9Ca;
-        "default" = _bh9AC9Ca;
+        "pkg-0.4.9" = _zNd5ltFs;
+        "pkg-5.0.0" = _A547rObq;
+        "default" = _A547rObq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamicsurroundingsfabric";

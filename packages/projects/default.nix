@@ -40620,4 +40620,6 @@ args:{
   "sable-maidragdoll" = import ./r5FiA2D0.nix args;
   "tools-drago-celestial" = import ./ToTYVWpb.nix args;
   "graves-mod" = import ./YPhu4Fxr.nix args;
+  "zanders-reinforced-tools" = import ./uFphqi3R.nix args;
+  "productive-slimes" = import ./2G12HGTt.nix args;
 }

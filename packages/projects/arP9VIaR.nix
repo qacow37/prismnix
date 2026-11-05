@@ -321,6 +321,16 @@ let
             "file" = "potionenchant-1.20.1-forge-1.8.9-e.jar";
             "hash" = "sha512-cPWDkgOM4ouB2i4bBEz1nUjSIRU96DYlWJ4518CuzNOjEHAt9WcC94n6A+33uC5KcWLn7yXpGcOaKdar1TFmdQ==";
         };
+        _JSm5MzFj = {
+            "id" = "JSm5MzFj";
+            "file" = "potionenchant-1.21.1-neoforge-1.8.9.jar";
+            "hash" = "sha512-ebrB6N6UCUOZGHnWF3wym6jlTA4bR5etpLrFt4LjHtvY3nqi7Due+DPjcSvE9uNf6KggSVu1XMHBjCbWQhIBDg==";
+        };
+        _TWErLAYv = {
+            "id" = "TWErLAYv";
+            "file" = "potionenchant-1.21.1-neoforge-1.8.9-f.jar";
+            "hash" = "sha512-vB7AbFp8LpECOsJ5/SUHtRTzYtCybBdsMMiECcECUtnHNyRwJg96qqpb/vCCe+d7vRSpYEaQ2YOqT9vQugqB8w==";
+        };
     in {
         "DdaNpQNu" = _DdaNpQNu;
         "4UUPBCZa" = _4UUPBCZa;
@@ -386,21 +396,23 @@ let
         "N4XOmiIx" = _N4XOmiIx;
         "8JcnwEkn" = _8JcnwEkn;
         "Re0sVKie" = _Re0sVKie;
+        "JSm5MzFj" = _JSm5MzFj;
+        "TWErLAYv" = _TWErLAYv;
         "forge-1.20.1" = _Re0sVKie;
         "forge-1.19.2" = _T23uG5YO;
         "forge-1.18.2" = _u6Ufs3Wp;
         "neoforge-1.21" = _cWMN8yHM;
-        "neoforge-1.21.1" = _Pm7PFNAB;
-        "neoforge-1.21.2" = _Pm7PFNAB;
-        "neoforge-1.21.3" = _Pm7PFNAB;
-        "neoforge-1.21.4" = _Pm7PFNAB;
-        "neoforge-1.21.5" = _Pm7PFNAB;
-        "neoforge-1.21.6" = _Pm7PFNAB;
-        "neoforge-1.21.7" = _Pm7PFNAB;
-        "neoforge-1.21.8" = _Pm7PFNAB;
-        "neoforge-1.21.9" = _Pm7PFNAB;
-        "neoforge-1.21.10" = _Pm7PFNAB;
-        "neoforge-1.21.11" = _Pm7PFNAB;
+        "neoforge-1.21.1" = _TWErLAYv;
+        "neoforge-1.21.2" = _TWErLAYv;
+        "neoforge-1.21.3" = _TWErLAYv;
+        "neoforge-1.21.4" = _TWErLAYv;
+        "neoforge-1.21.5" = _TWErLAYv;
+        "neoforge-1.21.6" = _TWErLAYv;
+        "neoforge-1.21.7" = _TWErLAYv;
+        "neoforge-1.21.8" = _TWErLAYv;
+        "neoforge-1.21.9" = _TWErLAYv;
+        "neoforge-1.21.10" = _TWErLAYv;
+        "neoforge-1.21.11" = _TWErLAYv;
         "pkg-1.0" = _DdaNpQNu;
         "pkg-1.1" = _4UUPBCZa;
         "pkg-1.2" = _SUB0Nli1;
@@ -465,7 +477,9 @@ let
         "pkg-1.20.1-forge-1.8.9-c" = _N4XOmiIx;
         "pkg-1.20.1-forge-1.8.9-d" = _8JcnwEkn;
         "pkg-1.20.1-forge-1.8.9-e" = _Re0sVKie;
-        "default" = _Re0sVKie;
+        "pkg-1.21.1-neoforge-1.8.9" = _JSm5MzFj;
+        "pkg-1.21.1-neoforge-1.8.9-f" = _TWErLAYv;
+        "default" = _TWErLAYv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potionenchant";

@@ -246,6 +246,26 @@ let
             "file" = "mobflowutilities-3.4.0.3-mc-26.3.jar";
             "hash" = "sha512-ge31iO+UXCnVnlN0ETaUE2KOLTj3Awd5p3aAB7/cNCzNVB8MXTXlh6Om97F69iJuLrK2o63oFk4alqb4se0M1A==";
         };
+        _JAUngGQO = {
+            "id" = "JAUngGQO";
+            "file" = "mobflowutilities-3.1.10.11-mc-1.21.1.jar";
+            "hash" = "sha512-j3PZQRm+1pz+wQsNVhwl6e6YFY3zZPbrVsZGZxth3Ua0exqIFuPEmb0cWa3c3gkhqpwkXD7VpS+7Qj0N8Kqstg==";
+        };
+        _sVX8W9Wb = {
+            "id" = "sVX8W9Wb";
+            "file" = "mobflowutilities-3.2.1.11-mc-26.1.2.jar";
+            "hash" = "sha512-xe/QCFPKm3BGVw6RQPIYYIWH2rmmRmvhv21zt8EEU9SolLghUDccfgSEt1Bl1Gb+akS4b+5UaWYHW86mseZMww==";
+        };
+        _UKp5OAJ0 = {
+            "id" = "UKp5OAJ0";
+            "file" = "mobflowutilities-3.3.0.7-mc-26.2.jar";
+            "hash" = "sha512-N9XCfVMb8W4bniF7R8dzRLKyGj8TIHgzZvCrHIXOqcc0FaEK6qob1YS5aNSkL6XlRxRq+XcFY/uDY0fJHVRoZw==";
+        };
+        _wwvnfhtT = {
+            "id" = "wwvnfhtT";
+            "file" = "mobflowutilities-3.4.0.4-mc-26.3.jar";
+            "hash" = "sha512-XA2xcAcBl3MNNHjMHrFkfWGy/ycirA8mITpQNaeeWtaZZ5hf60I/FUjWyfPOx0jpCsl+oyU14AaWaaezL4zjDw==";
+        };
     in {
         "gIByql8f" = _gIByql8f;
         "jlESWTHY" = _jlESWTHY;
@@ -296,10 +316,14 @@ let
         "M40RFTcI" = _M40RFTcI;
         "bMPUP8Eu" = _bMPUP8Eu;
         "UFFszfPy" = _UFFszfPy;
-        "neoforge-1.21.1" = _6KKs53Dp;
-        "neoforge-26.1.2" = _M40RFTcI;
-        "neoforge-26.2" = _bMPUP8Eu;
-        "neoforge-26.3" = _UFFszfPy;
+        "JAUngGQO" = _JAUngGQO;
+        "sVX8W9Wb" = _sVX8W9Wb;
+        "UKp5OAJ0" = _UKp5OAJ0;
+        "wwvnfhtT" = _wwvnfhtT;
+        "neoforge-1.21.1" = _JAUngGQO;
+        "neoforge-26.1.2" = _sVX8W9Wb;
+        "neoforge-26.2" = _UKp5OAJ0;
+        "neoforge-26.3" = _wwvnfhtT;
         "pkg-1.0.0" = _gIByql8f;
         "pkg-1.0.1" = _jlESWTHY;
         "pkg-1.0.2" = _8bpkRd27;
@@ -349,7 +373,11 @@ let
         "pkg-3.2.1.10-mc-26.1.2" = _M40RFTcI;
         "pkg-3.3.0.6-mc-26.2" = _bMPUP8Eu;
         "pkg-3.4.0.3-mc-26.3" = _UFFszfPy;
-        "default" = _UFFszfPy;
+        "pkg-3.1.10.11-mc-1.21.1" = _JAUngGQO;
+        "pkg-3.2.1.11-mc-26.1.2" = _sVX8W9Wb;
+        "pkg-3.3.0.7-mc-26.2" = _UKp5OAJ0;
+        "pkg-3.4.0.4-mc-26.3" = _wwvnfhtT;
+        "default" = _wwvnfhtT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-flow-utilities";

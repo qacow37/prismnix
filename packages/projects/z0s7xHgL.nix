@@ -91,6 +91,11 @@ let
             "file" = "leash-fences-v1.2.0.0.jar";
             "hash" = "sha512-7uDtYI1TYg7c+ycAVJTnnXPH72PuQBbz88V+kYal4liTmepRoukxIy2IoZnOXMN1EkJrO6aPykKUxrsV+hVzhw==";
         };
+        _TRDk49jN = {
+            "id" = "TRDk49jN";
+            "file" = "leash-fences-v1.2.0.0-paper.jar";
+            "hash" = "sha512-MAJQuXQ0pKRP68cTXAk6bduH214qTmDJqITr49qVq/jYsnjdbmXqslnYzbgznandCsY6Y9hTsHTzT0BgdStPIg==";
+        };
     in {
         "apJO4uhS" = _apJO4uhS;
         "U7e27dwA" = _U7e27dwA;
@@ -110,6 +115,7 @@ let
         "drA5ILNb" = _drA5ILNb;
         "EBayZI6C" = _EBayZI6C;
         "3Bje8UY5" = _3Bje8UY5;
+        "TRDk49jN" = _TRDk49jN;
         "datapack-1.21.8" = _TDvggLZT;
         "datapack-1.21.9" = _TDvggLZT;
         "datapack-1.21.10" = _TDvggLZT;
@@ -165,6 +171,8 @@ let
         "quilt-26.1.2" = _J8iDnp95;
         "quilt-26.2" = _J8iDnp95;
         "quilt-26.3" = _3Bje8UY5;
+        "paper-26.3" = _TRDk49jN;
+        "purpur-26.3" = _TRDk49jN;
         "pkg-v1.0.0" = _N9HA8tMl;
         "pkg-v1.0.0+mod" = _UP2USxEj;
         "pkg-v1.1.0-mc1.21.6+" = _mL5lOFzK;
@@ -179,7 +187,8 @@ let
         "pkg-v1.2.0+mod" = _drA5ILNb;
         "pkg-v1.2.0.0" = _EBayZI6C;
         "pkg-v1.2.0.0+mod" = _3Bje8UY5;
-        "default" = _3Bje8UY5;
+        "pkg-v1.2.0.0+plugin" = _TRDk49jN;
+        "default" = _TRDk49jN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leash-fences";

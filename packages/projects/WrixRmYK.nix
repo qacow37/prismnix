@@ -46,6 +46,11 @@ let
             "file" = "CobblemonTools-1.4.0+1.21.1.jar";
             "hash" = "sha512-FlhigK0GUvgN25Jbhlx5nFEuZwj0vnN5/Bm0ndaAev8snlrB5CKJfdajDgc9eALO0xzsUXQbtk3eEQW8UtSgDQ==";
         };
+        _HsIgIfep = {
+            "id" = "HsIgIfep";
+            "file" = "CobblemonTools-1.4.1+1.21.1.jar";
+            "hash" = "sha512-/U22XdGdhJ9vlPtTh17ddM9APQJLQ0HU5HnyOxZb49ritVkLzDg0/57MLx/6tW4+8UBNKzf7Dk+u3HE1f702Gw==";
+        };
     in {
         "SSPdzTyK" = _SSPdzTyK;
         "Fd72zb3J" = _Fd72zb3J;
@@ -56,13 +61,14 @@ let
         "GeEpfEtI" = _GeEpfEtI;
         "cvHY7gmJ" = _cvHY7gmJ;
         "df4TpRU6" = _df4TpRU6;
+        "HsIgIfep" = _HsIgIfep;
         "fabric-1.20.1" = _Fd72zb3J;
         "fabric-1.20.2" = _Fd72zb3J;
         "fabric-1.20.3" = _Fd72zb3J;
         "fabric-1.20.4" = _Fd72zb3J;
         "fabric-1.20.5" = _Fd72zb3J;
         "fabric-1.20.6" = _Fd72zb3J;
-        "fabric-1.21.1" = _df4TpRU6;
+        "fabric-1.21.1" = _HsIgIfep;
         "pkg-1.0.0" = _SSPdzTyK;
         "pkg-1.0.2" = _Fd72zb3J;
         "pkg-1.0.3+1.21.1" = _HiNpwBtt;
@@ -72,7 +78,8 @@ let
         "pkg-1.2.2+1.21.1" = _GeEpfEtI;
         "pkg-1.3.0+1.21.1" = _cvHY7gmJ;
         "pkg-1.4.0+1.21.1" = _df4TpRU6;
-        "default" = _df4TpRU6;
+        "pkg-1.4.1+1.21.1" = _HsIgIfep;
+        "default" = _HsIgIfep;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemontools";

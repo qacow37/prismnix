@@ -126,6 +126,16 @@ let
             "file" = "anti-grief-creepers-1.1.5.jar";
             "hash" = "sha512-2BgyEhIgcJoNmC9MDE79H/Cu7aieRGdHprbHlpkHiKz/C2GpvtI1jwNEPEO0DtzQNB6p4NDs2cqjermWHNzVnA==";
         };
+        _uQbgpLm5 = {
+            "id" = "uQbgpLm5";
+            "file" = "anti-grief-creepers-1.0.9.5-fc.jar";
+            "hash" = "sha512-S6IWwJVSIRpQO5bZd8XeBI9R4UgQflfvlm1aBYE9w/glLeFv0H5pnPYxq5m/EBg9VTvkqTZ//OSQ8zqMgVIfMw==";
+        };
+        _guxhKNvh = {
+            "id" = "guxhKNvh";
+            "file" = "anti-grief-creepers-1.1.6-sources.jar";
+            "hash" = "sha512-JXQjK2C63pay5luvLXaDzPZPNBf44jYtxf8jIcnDDsu6jlAuj9/mFTS3uPEMtaBZEin/TXF+jCmT3S3XLD+0Eg==";
+        };
     in {
         "GB66vkAi" = _GB66vkAi;
         "6HpskWmK" = _6HpskWmK;
@@ -152,6 +162,8 @@ let
         "sUKLtt9R" = _sUKLtt9R;
         "1bXgmg7u" = _1bXgmg7u;
         "J0KMrJqp" = _J0KMrJqp;
+        "uQbgpLm5" = _uQbgpLm5;
+        "guxhKNvh" = _guxhKNvh;
         "fabric-1.20" = _GB66vkAi;
         "fabric-1.20.1" = _GB66vkAi;
         "fabric-1.20.2" = _6HpskWmK;
@@ -166,13 +178,14 @@ let
         "fabric-26.1.1" = _6q5cAg9Q;
         "fabric-26.1.2" = _6q5cAg9Q;
         "fabric-26.2" = _faw0OQC9;
-        "fabric-26.3" = _sUKLtt9R;
+        "fabric-26.3" = _uQbgpLm5;
         "fabric-26.4-snapshot-1" = _anuapDXR;
         "fabric-26.4-snapshot-2" = _jvf4Hi7G;
         "fabric-26.4-snapshot-3" = _XLYBwTfm;
         "fabric-26.4-snapshot-4" = _5iDr1piV;
         "fabric-26.4-snapshot-5" = _1bXgmg7u;
         "fabric-26.4-snapshot-6" = _J0KMrJqp;
+        "fabric-26.4-snapshot-7" = _guxhKNvh;
         "forge-1.20" = _g5Mavfm6;
         "forge-1.20.1" = _g5Mavfm6;
         "forge-1.20.2" = _g5Mavfm6;
@@ -214,7 +227,9 @@ let
         "pkg-1.0.9.4-fc" = _sUKLtt9R;
         "pkg-1.1.4-fc" = _1bXgmg7u;
         "pkg-1.1.5-fc" = _J0KMrJqp;
-        "default" = _J0KMrJqp;
+        "pkg-1.0.9.5-fc" = _uQbgpLm5;
+        "pkg-1.1.6-fc" = _guxhKNvh;
+        "default" = _guxhKNvh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-grief-creepers";

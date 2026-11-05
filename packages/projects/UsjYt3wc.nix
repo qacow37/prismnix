@@ -161,6 +161,11 @@ let
             "file" = "call-your-happy-ghast-v2.2.0.0.jar";
             "hash" = "sha512-eCE9Ig40v0DEIykr+b2hxgYsL0bBC0t3VTe8y5BaUgbXDDv1qzXb1W3pxOJUmEx6b6wOdv0lxEUTYhYDL9ZU2w==";
         };
+        _vcGqhr3Y = {
+            "id" = "vcGqhr3Y";
+            "file" = "call-your-happy-ghast-v2.2.0.0-paper.jar";
+            "hash" = "sha512-+/IbZO9QHS0qVuAekZxANppq6OeSgJCjcPvv2BlwqzIu/LIp7SnwLn56fT4wGzULiRY+cItJcY0aq41hZB5YBQ==";
+        };
     in {
         "4m6Pfkal" = _4m6Pfkal;
         "SKtIok9X" = _SKtIok9X;
@@ -194,6 +199,7 @@ let
         "rHptSy48" = _rHptSy48;
         "q4CwgcpW" = _q4CwgcpW;
         "RQiYvYQP" = _RQiYvYQP;
+        "vcGqhr3Y" = _vcGqhr3Y;
         "datapack-1.21.6" = _Khh0Q39l;
         "datapack-1.21.7" = _Khh0Q39l;
         "datapack-1.21.8" = _Khh0Q39l;
@@ -249,6 +255,8 @@ let
         "quilt-26.1.2" = _LHPvBzhr;
         "quilt-26.2" = _LHPvBzhr;
         "quilt-26.3" = _RQiYvYQP;
+        "paper-26.3" = _vcGqhr3Y;
+        "purpur-26.3" = _vcGqhr3Y;
         "pkg-v1.0.0" = _4m6Pfkal;
         "pkg-v1.0.0+mod" = _SKtIok9X;
         "pkg-v1.0.1" = _Rxzbwc27;
@@ -275,7 +283,8 @@ let
         "pkg-v2.2.0+mod" = _rHptSy48;
         "pkg-v2.2.0.0" = _q4CwgcpW;
         "pkg-v2.2.0.0+mod" = _RQiYvYQP;
-        "default" = _RQiYvYQP;
+        "pkg-v2.2.0.0+plugin" = _vcGqhr3Y;
+        "default" = _vcGqhr3Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "call-your-happy-ghast";

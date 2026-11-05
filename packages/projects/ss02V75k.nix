@@ -356,6 +356,11 @@ let
             "file" = "no-enderman-grief-v3.1.1.jar";
             "hash" = "sha512-f4ZrG4FOqmusSpbvmaCfW2FFLN2g8wTg1yCrMt6eLiq0H2TGxCtSFFank71X58izAisDxi2zDw8APLEVYIX+Lg==";
         };
+        _mij2NHyC = {
+            "id" = "mij2NHyC";
+            "file" = "no-enderman-grief-v3.1.1-paper.jar";
+            "hash" = "sha512-7GjJFKjC83b6r//KlvrFFsxIqnzXJ/W8aqBPFyb1JB3p+fbDEOm2+TNYHJRr7C/jTLj1DILS2gaFR8mjPtnhrg==";
+        };
     in {
         "OPVRlXCE" = _OPVRlXCE;
         "cxCjLxnt" = _cxCjLxnt;
@@ -428,6 +433,7 @@ let
         "HA3aa25N" = _HA3aa25N;
         "LxKi1mEO" = _LxKi1mEO;
         "AAobEAsF" = _AAobEAsF;
+        "mij2NHyC" = _mij2NHyC;
         "datapack-1.20.4" = _57BBoJDi;
         "datapack-1.20.5" = _57BBoJDi;
         "datapack-1.20.6" = _57BBoJDi;
@@ -618,6 +624,22 @@ let
         "neoforge-1.20.4" = _z8aEFN4L;
         "neoforge-1.20.5" = _z8aEFN4L;
         "neoforge-1.20.6" = _z8aEFN4L;
+        "paper-26.3" = _mij2NHyC;
+        "paper-26.2" = _mij2NHyC;
+        "paper-26.1.2" = _mij2NHyC;
+        "paper-26.1.1" = _mij2NHyC;
+        "paper-26.1" = _mij2NHyC;
+        "paper-1.21.11" = _mij2NHyC;
+        "paper-1.21.10" = _mij2NHyC;
+        "paper-1.21.9" = _mij2NHyC;
+        "purpur-26.3" = _mij2NHyC;
+        "purpur-26.2" = _mij2NHyC;
+        "purpur-26.1.2" = _mij2NHyC;
+        "purpur-26.1.1" = _mij2NHyC;
+        "purpur-26.1" = _mij2NHyC;
+        "purpur-1.21.11" = _mij2NHyC;
+        "purpur-1.21.10" = _mij2NHyC;
+        "purpur-1.21.9" = _mij2NHyC;
         "pkg-v.1.0.0" = _OVeHmbRf;
         "pkg-v.1.0.0+mod" = _NuFHlbZ8;
         "pkg-v.1.0.1" = _N9yLWsVm;
@@ -670,7 +692,8 @@ let
         "pkg-v3.1.0.0+mc1.21.9-26.2+mod" = _HA3aa25N;
         "pkg-v3.1.1" = _LxKi1mEO;
         "pkg-v3.1.1+mod" = _AAobEAsF;
-        "default" = _AAobEAsF;
+        "pkg-v3.1.1+plugin" = _mij2NHyC;
+        "default" = _mij2NHyC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-enderman-grief";

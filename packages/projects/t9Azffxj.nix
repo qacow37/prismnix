@@ -56,6 +56,11 @@ let
             "file" = "Transparent GUI-v2.0-26.x.x.zip";
             "hash" = "sha512-2XGyuW483LKc0b9TyRtONJS1I1bc6n4fqvtY3njeuA4qlEM20+HmqZgy3n4ujbcUfu3AE5Fo54Xk5hBmJEJvlQ==";
         };
+        _cKj7f6c3 = {
+            "id" = "cKj7f6c3";
+            "file" = "Transparent GUI-v2.0-26.x.x.zip";
+            "hash" = "sha512-66NN/7WZIqOzEELHYWRoArHmsCqlaDF9VXP4PqyWPuoh43D6D8cRP2rSV9SV9Hi6ga8jQDsv5OEnzDFm0iuAfw==";
+        };
     in {
         "pyr2uuPm" = _pyr2uuPm;
         "O2SToJg2" = _O2SToJg2;
@@ -68,6 +73,7 @@ let
         "TAp2itqm" = _TAp2itqm;
         "wfLAZRWO" = _wfLAZRWO;
         "roBjJICf" = _roBjJICf;
+        "cKj7f6c3" = _cKj7f6c3;
         "minecraft-1.7.2" = _pyr2uuPm;
         "minecraft-1.7.3" = _pyr2uuPm;
         "minecraft-1.7.4" = _pyr2uuPm;
@@ -147,14 +153,15 @@ let
         "minecraft-1.21.9" = _wfLAZRWO;
         "minecraft-1.21.10" = _wfLAZRWO;
         "minecraft-1.21.11" = _wfLAZRWO;
-        "minecraft-26.1" = _roBjJICf;
-        "minecraft-26.1.1" = _roBjJICf;
-        "minecraft-26.1.2" = _roBjJICf;
-        "minecraft-26.2" = _roBjJICf;
+        "minecraft-26.1" = _cKj7f6c3;
+        "minecraft-26.1.1" = _cKj7f6c3;
+        "minecraft-26.1.2" = _cKj7f6c3;
+        "minecraft-26.2" = _cKj7f6c3;
+        "minecraft-26.3" = _cKj7f6c3;
         "pkg-1.1" = _9OpdTP90;
         "pkg-1.5" = _f2kRbqMQ;
-        "pkg-2.0" = _roBjJICf;
-        "default" = _roBjJICf;
+        "pkg-2.0" = _cKj7f6c3;
+        "default" = _cKj7f6c3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ziy-transparent-gui";

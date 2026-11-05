@@ -171,6 +171,11 @@ let
             "file" = "craft-spawner-v1.1.1+1.16-1.20.4.jar";
             "hash" = "sha512-M9D8Q+zR9g9B073DVs+JpfhVfj97lO167xs8rHKn7if31Shb1w6XVG82xsZvGFC4xiuxemcTY0b+8nobxbb0+w==";
         };
+        _r9NMZNro = {
+            "id" = "r9NMZNro";
+            "file" = "craft-spawner-v1.1.1-paper.jar";
+            "hash" = "sha512-Md0vbDguvilESJCvU6dJLTprZSa8CeqAnZHPK8dn3+jdBWXSpNrcKaZHPhs2r7tymUwFDaksvovSanxxsSS5wg==";
+        };
     in {
         "LlDimwHH" = _LlDimwHH;
         "WdUfhugA" = _WdUfhugA;
@@ -206,6 +211,7 @@ let
         "ujoL206c" = _ujoL206c;
         "nhj71I8z" = _nhj71I8z;
         "e0OsofiD" = _e0OsofiD;
+        "r9NMZNro" = _r9NMZNro;
         "datapack-1.20.4" = _nhj71I8z;
         "datapack-1.20.5" = _zrUDH0jb;
         "datapack-1.20.6" = _zrUDH0jb;
@@ -406,6 +412,22 @@ let
         "neoforge-1.20.2" = _e0OsofiD;
         "neoforge-1.20.3" = _e0OsofiD;
         "neoforge-1.20.4" = _e0OsofiD;
+        "paper-26.3" = _r9NMZNro;
+        "paper-26.2" = _r9NMZNro;
+        "paper-26.1.2" = _r9NMZNro;
+        "paper-26.1.1" = _r9NMZNro;
+        "paper-26.1" = _r9NMZNro;
+        "paper-1.21.11" = _r9NMZNro;
+        "paper-1.21.10" = _r9NMZNro;
+        "paper-1.21.9" = _r9NMZNro;
+        "purpur-26.3" = _r9NMZNro;
+        "purpur-26.2" = _r9NMZNro;
+        "purpur-26.1.2" = _r9NMZNro;
+        "purpur-26.1.1" = _r9NMZNro;
+        "purpur-26.1" = _r9NMZNro;
+        "purpur-1.21.11" = _r9NMZNro;
+        "purpur-1.21.10" = _r9NMZNro;
+        "purpur-1.21.9" = _r9NMZNro;
         "pkg-v.1.0.0" = _BFwiXc3F;
         "pkg-v.1.0.0+mod" = _da8jIqfv;
         "pkg-v.2.0.0" = _jqsVsBYL;
@@ -432,7 +454,8 @@ let
         "pkg-v1.1.1+1.20.5-1.21.8+mod" = _ujoL206c;
         "pkg-v1.1.1+1.16-1.20.4" = _nhj71I8z;
         "pkg-v1.1.1+1.16-1.20.4+mod" = _e0OsofiD;
-        "default" = _e0OsofiD;
+        "pkg-v1.1.1+plugin" = _r9NMZNro;
+        "default" = _r9NMZNro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-spawner";

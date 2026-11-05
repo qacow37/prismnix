@@ -21,19 +21,35 @@ let
             "file" = "simplegenerators-1.12.2-2.1.0.0.jar";
             "hash" = "sha512-3bZ3In0ZHkUSKtFKIFR6IjjWWOhneDIrp+lXka7zwaQpmsrsJYaMy7ozDX225a23gwRQkM8WUHWLihh2wrerEw==";
         };
+        _dNFmwSCr = {
+            "id" = "dNFmwSCr";
+            "file" = "simplegenerators-forge-1.14.4-2.1.0.0.jar";
+            "hash" = "sha512-u9wiY3BgJ6zLmjOn+OMU15ksJORMGnISxHKA5cRx6zfPCju1C1RjceCOWhtHcaMEs2H4EBmFDocIB3xqHdMO+Q==";
+        };
+        _VkaRe1hU = {
+            "id" = "VkaRe1hU";
+            "file" = "simplegenerators-forge-1.15.2-2.1.0.0.jar";
+            "hash" = "sha512-f09vlZGLqubJ6PCi/5jMVODc+kQhIxtciSQlCVM0nJHCq6kJVGtjhiTJ3HB4Tda03Pb7+FbM+kwPGb6/WQi5NQ==";
+        };
     in {
         "Ze1Loa2O" = _Ze1Loa2O;
         "vrmjyq43" = _vrmjyq43;
         "ACo0XDZv" = _ACo0XDZv;
         "TWbqouqd" = _TWbqouqd;
+        "dNFmwSCr" = _dNFmwSCr;
+        "VkaRe1hU" = _VkaRe1hU;
         "forge-1.9.4" = _Ze1Loa2O;
         "forge-1.12.2" = _TWbqouqd;
         "forge-1.16.5" = _ACo0XDZv;
+        "forge-1.14.4" = _dNFmwSCr;
+        "forge-1.15.2" = _VkaRe1hU;
         "pkg-1.9.4-0.6.2a" = _Ze1Loa2O;
         "pkg-1.12.2-2.0.20.2" = _vrmjyq43;
         "pkg-1.16.5-3.0.9.2" = _ACo0XDZv;
         "pkg-1.12.2-2.1.0.0" = _TWbqouqd;
-        "default" = _TWbqouqd;
+        "pkg-1.14.4-2.1.0.0" = _dNFmwSCr;
+        "pkg-1.15.2-2.1.0.0" = _VkaRe1hU;
+        "default" = _VkaRe1hU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-generators";

@@ -46,6 +46,11 @@ let
             "file" = "aquamirae_delight-2.2-forge-1.20.1.jar";
             "hash" = "sha512-A3Eoc3dX8DpOJ5fEZYBupa6/Rn/bJAlrvl7A40aljivOCSpXVUUDgfdSGCR/PISp6nmdBny0kyxaR3ZNqBlHOg==";
         };
+        _RF8zoo2D = {
+            "id" = "RF8zoo2D";
+            "file" = "aquamirae_delight-3.0-forge-1.20.1.jar";
+            "hash" = "sha512-9yYY5ulMSCMSA6QtUzpVzDjid/OWsnJsAfSN3rXw6XYioCpye3AyzMhCEsVb8drcueGh/PghTegPKh0DvbI8kQ==";
+        };
     in {
         "AmaRpb1P" = _AmaRpb1P;
         "R9fPDneV" = _R9fPDneV;
@@ -56,7 +61,8 @@ let
         "jCdshfDB" = _jCdshfDB;
         "5gJUscHq" = _5gJUscHq;
         "RUWIJ4MD" = _RUWIJ4MD;
-        "forge-1.20.1" = _RUWIJ4MD;
+        "RF8zoo2D" = _RF8zoo2D;
+        "forge-1.20.1" = _RF8zoo2D;
         "forge-1.19.2" = _jCdshfDB;
         "pkg-1.4.5" = _AmaRpb1P;
         "pkg-1.4.6" = _R9fPDneV;
@@ -66,7 +72,8 @@ let
         "pkg-2.0.0" = _CyiVW1w1;
         "pkg-2.1" = _5gJUscHq;
         "pkg-2.2" = _RUWIJ4MD;
-        "default" = _RUWIJ4MD;
+        "pkg-3.0" = _RF8zoo2D;
+        "default" = _RF8zoo2D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquamirae-delight";

@@ -111,6 +111,11 @@ let
             "file" = "villagers-buy-enderpearls-v2.2.0.0.jar";
             "hash" = "sha512-X4taV4tGD2cbtKchK7xcb9sOK5J1CHSr1G54gbrr/dXIoajE7+R9lVk30KcFTH1P4T+r9rAopmQC+EoZNobrtw==";
         };
+        _ARa5vyeK = {
+            "id" = "ARa5vyeK";
+            "file" = "villagers-buy-enderpearls-v2.2.0.0-paper.jar";
+            "hash" = "sha512-EfUk84LTXdGPi5n6sMETNmvfCLzQ1FtDWiLjylnUk7gT+Ek55ueitduk8DkufCNboiIWb73u/sk7RNyDzgG81g==";
+        };
     in {
         "i4rVJyqN" = _i4rVJyqN;
         "EVPFV4zw" = _EVPFV4zw;
@@ -134,6 +139,7 @@ let
         "FWhphQtV" = _FWhphQtV;
         "yo3aMRBL" = _yo3aMRBL;
         "DCBs1n9U" = _DCBs1n9U;
+        "ARa5vyeK" = _ARa5vyeK;
         "datapack-1.21" = _OnzeyQaw;
         "datapack-1.21.1" = _OnzeyQaw;
         "datapack-1.21.2" = _OnzeyQaw;
@@ -214,6 +220,8 @@ let
         "neoforge-26.1.2" = _opdaYsL1;
         "neoforge-26.2" = _opdaYsL1;
         "neoforge-26.3" = _DCBs1n9U;
+        "paper-26.3" = _ARa5vyeK;
+        "purpur-26.3" = _ARa5vyeK;
         "pkg-v.1.0.0" = _i4rVJyqN;
         "pkg-v.1.0.0+mod" = _EVPFV4zw;
         "pkg-v.1.0.1" = _OnzeyQaw;
@@ -232,7 +240,8 @@ let
         "pkg-v2.2.0+mod" = _FWhphQtV;
         "pkg-v2.2.0.0" = _yo3aMRBL;
         "pkg-v2.2.0.0+mod" = _DCBs1n9U;
-        "default" = _DCBs1n9U;
+        "pkg-v2.2.0.0+plugin" = _ARa5vyeK;
+        "default" = _ARa5vyeK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagers-buy-enderpearls";

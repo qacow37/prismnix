@@ -211,6 +211,11 @@ let
             "file" = "StorageDrawers-2.2.31-GTNH.jar";
             "hash" = "sha512-RhBnYxfIsTKMumb2+x5sA8MKeKi3W9tjN37EJH6ORau8ifJnydLJbsUynDLfpjqEn9n7Jdvv52uvBNFB+EHbxQ==";
         };
+        _oYH4cjA9 = {
+            "id" = "oYH4cjA9";
+            "file" = "StorageDrawers-2.3.0-GTNH.jar";
+            "hash" = "sha512-BDD1LJKXjyZ7YdOPj7vI9m2Dhc8CnCrVyjNcYkxm78KIK+QWjMdUVZY35W8NXqVX3jtKWhYWSyFkbct/eePLLA==";
+        };
     in {
         "jnerWvAH" = _jnerWvAH;
         "d00sAzNE" = _d00sAzNE;
@@ -254,7 +259,8 @@ let
         "yXcX4Rgj" = _yXcX4Rgj;
         "3xsbKdhr" = _3xsbKdhr;
         "mz4qUfU9" = _mz4qUfU9;
-        "forge-1.7.10" = _mz4qUfU9;
+        "oYH4cjA9" = _oYH4cjA9;
+        "forge-1.7.10" = _oYH4cjA9;
         "pkg-2.0.0-GTNH" = _jnerWvAH;
         "pkg-2.0.1-GTNH" = _d00sAzNE;
         "pkg-2.0.2-GTNH" = _tyunqXUR;
@@ -297,7 +303,8 @@ let
         "pkg-2.2.29-GTNH" = _yXcX4Rgj;
         "pkg-2.2.30-GTNH" = _3xsbKdhr;
         "pkg-2.2.31-GTNH" = _mz4qUfU9;
-        "default" = _mz4qUfU9;
+        "pkg-2.3.0-GTNH" = _oYH4cjA9;
+        "default" = _oYH4cjA9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "storage-drawers-unofficial";

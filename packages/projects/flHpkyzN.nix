@@ -146,6 +146,11 @@ let
             "file" = "no-creeper-grief-v1.3.0.0.jar";
             "hash" = "sha512-UZqKunu6Y4fPlBG3rNPynO32j1cPr5Yjo1Al85N34zHOEh5J/RYhaE775ngrCAsyiv5TMqlOdDXAWjeyiehYZA==";
         };
+        _jOelJPB7 = {
+            "id" = "jOelJPB7";
+            "file" = "no-creeper-grief-v1.3.0.0-paper.jar";
+            "hash" = "sha512-DCPbRXPz+9AcrcsV2Yqc0FEMCZmy/7BYo9xRICINDZpDIa0tIk4lPSiJssIyqUIz7WYV2kTSADqJrVYngZj7ZQ==";
+        };
     in {
         "MMGYXJ8i" = _MMGYXJ8i;
         "xyh5v6Si" = _xyh5v6Si;
@@ -176,6 +181,7 @@ let
         "QxHQTr5R" = _QxHQTr5R;
         "moOIJjQf" = _moOIJjQf;
         "R3KcoyYM" = _R3KcoyYM;
+        "jOelJPB7" = _jOelJPB7;
         "datapack-1.20.4" = _xyh5v6Si;
         "datapack-1.20.5" = _Rf7EpiLM;
         "datapack-1.20.6" = _Rf7EpiLM;
@@ -273,6 +279,8 @@ let
         "neoforge-26.1.2" = _ERyLafHK;
         "neoforge-26.2" = _ERyLafHK;
         "neoforge-26.3" = _R3KcoyYM;
+        "paper-26.3" = _jOelJPB7;
+        "purpur-26.3" = _jOelJPB7;
         "pkg-v.1.0.0" = _fWXrYQ5g;
         "pkg-v.1.0.1" = _xyh5v6Si;
         "pkg-v.0.3.0" = _Rf7EpiLM;
@@ -297,7 +305,8 @@ let
         "pkg-v1.3.0+mod" = _QxHQTr5R;
         "pkg-v1.3.0.0" = _moOIJjQf;
         "pkg-v1.3.0.0+mod" = _R3KcoyYM;
-        "default" = _R3KcoyYM;
+        "pkg-v1.3.0.0+plugin" = _jOelJPB7;
+        "default" = _jOelJPB7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-creeper-grief";

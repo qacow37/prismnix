@@ -51,6 +51,11 @@ let
             "file" = "BedrockPatternFinder_v26.1.2.jar";
             "hash" = "sha512-umJ7A9NHYBgJNug5Gii4jlFXOpcJKJnnECExmS/V9bq1F9Ve8MHbcDwZbSfEZG/TNxELocK5BPGguyukoBUI9A==";
         };
+        _7aMsUfh9 = {
+            "id" = "7aMsUfh9";
+            "file" = "BedrockPatternFinder_v26.3.jar";
+            "hash" = "sha512-bBCgE88Xlm7A4xy2pLDlQu468/jpcLnFAl9MqeqPeBc0amaHkJhIYziCsoB2s9JWeJsIEZ7cW9ull6QsF8Ft1w==";
+        };
     in {
         "hWaqW8JS" = _hWaqW8JS;
         "hIuGNXgX" = _hIuGNXgX;
@@ -62,6 +67,7 @@ let
         "zmNJ3f47" = _zmNJ3f47;
         "kf6KUSF5" = _kf6KUSF5;
         "jDuBSJWc" = _jDuBSJWc;
+        "7aMsUfh9" = _7aMsUfh9;
         "fabric-1.21" = _hIuGNXgX;
         "fabric-1.21.1" = _hIuGNXgX;
         "fabric-1.21.2" = _hIuGNXgX;
@@ -78,6 +84,7 @@ let
         "fabric-26.1" = _zmNJ3f47;
         "fabric-26.1.1" = _kf6KUSF5;
         "fabric-26.1.2" = _jDuBSJWc;
+        "fabric-26.3" = _7aMsUfh9;
         "pkg-1.0" = _hWaqW8JS;
         "pkg-1.1" = _hIuGNXgX;
         "pkg-1.2" = _SFsdmhU8;
@@ -88,7 +95,8 @@ let
         "pkg-1.3.1" = _zmNJ3f47;
         "pkg-1.3.2" = _kf6KUSF5;
         "pkg-1.3.3" = _jDuBSJWc;
-        "default" = _jDuBSJWc;
+        "pkg-1.0.0+26.3" = _7aMsUfh9;
+        "default" = _7aMsUfh9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-pattern-finder";
