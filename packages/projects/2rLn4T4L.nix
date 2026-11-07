@@ -221,6 +221,46 @@ let
             "file" = "allstacksinfinite-17.0.3.2.jar";
             "hash" = "sha512-usf5ow/GpJ0+6VqQ/dCcRNNDFZgqix/eMXL4I2yKneDpb/e9u2OlxfpdQmQSHrF8BE9O0bvrrtd7yun6Xx4mvg==";
         };
+        _35UOoaB3 = {
+            "id" = "35UOoaB3";
+            "file" = "allstacksinfinite-17.3.1.3.jar";
+            "hash" = "sha512-9mwkOnaVjgptfGolOLTl465oq+9Xh+ZCl8rEdCncc6zHKxAaUbJCZwF3F0gWriRdgoOL1wFh5jz/ijk7s+kCsQ==";
+        };
+        _VEvr505C = {
+            "id" = "VEvr505C";
+            "file" = "allstacksinfinite-17.1.2.3.jar";
+            "hash" = "sha512-Nvdl7e6jsWwdqx+/FYECdEV2q9RZ1GMixBMLDn94JKSLv/auiBizUYkE82oUCuQcYmQNKtbPsv93yMc6EE9RQw==";
+        };
+        _HZgGoXum = {
+            "id" = "HZgGoXum";
+            "file" = "allstacksinfinite-17.0.3.3.jar";
+            "hash" = "sha512-pEhyXBQPOkuZ9rti3jqyagpPv3GWs08fPQr+Sk5JJV5Wf6hHlbPG3IIYQXkGKdOuL0Eh5n1IpXHevZXXnpKcww==";
+        };
+        _yJnhY1EQ = {
+            "id" = "yJnhY1EQ";
+            "file" = "allstacksinfinite-fabric-1.21.11-14.0.2.11.jar";
+            "hash" = "sha512-05tuGs9YGhPSV5PHLa9bs64GJR4AU7SZhCdX/cKOdqPOfEvS/aCbDJN2yhy/JyVcUTJr6CUx5WizlO2zX8KLZA==";
+        };
+        _ma1GdTwL = {
+            "id" = "ma1GdTwL";
+            "file" = "allstacksinfinite-fabric-1.21.1-14.0.1.11.jar";
+            "hash" = "sha512-S5iFB0jPntv+4R+m0GLxmmlQm/ijZPlMUoZ22I11x5HvIlJa8B5ymjY4w/zeYr8xP+a993uExVT5BdEAQOaHmg==";
+        };
+        _ZylDduje = {
+            "id" = "ZylDduje";
+            "file" = "allstacksinfinite-14.1.0.11.jar";
+            "hash" = "sha512-AmCkK90Qi0g77spuYF0q3K9HvgAPOWfXjsmTKfp/El31ggOwCUQ7CTfJ/n80SnS3Mu4mtmdJJssjdYVHdrjE8g==";
+        };
+        _t9tvcm9E = {
+            "id" = "t9tvcm9E";
+            "file" = "allstacksinfinite-fabric-1.20.1-14.0.0.11.jar";
+            "hash" = "sha512-i1xJdWTbc1I+OOcLaijPuDOjUF/7CIoq+03nGdaNlfY9QkYyVHj7nBV25dHYPfqbQxZAy+qig4X0gOZVHr457g==";
+        };
+        _GRTbF5AV = {
+            "id" = "GRTbF5AV";
+            "file" = "allstacksinfinite-14.3.0.11.jar";
+            "hash" = "sha512-pLM08Pz/5lwMoUxI3lCuW3rux+ab95Dwv2iqqp4jdLo/+VXQ9Hdw+BVfZHoJtH8tDY6yErCWotmgMmoEfkldJA==";
+        };
     in {
         "icQYNBu4" = _icQYNBu4;
         "PkKu4D5X" = _PkKu4D5X;
@@ -266,27 +306,35 @@ let
         "vurJ1Gz6" = _vurJ1Gz6;
         "LxC3OB6E" = _LxC3OB6E;
         "rmFjk2Oh" = _rmFjk2Oh;
-        "forge-1.20.1" = _aRXNh6gO;
+        "35UOoaB3" = _35UOoaB3;
+        "VEvr505C" = _VEvr505C;
+        "HZgGoXum" = _HZgGoXum;
+        "yJnhY1EQ" = _yJnhY1EQ;
+        "ma1GdTwL" = _ma1GdTwL;
+        "ZylDduje" = _ZylDduje;
+        "t9tvcm9E" = _t9tvcm9E;
+        "GRTbF5AV" = _GRTbF5AV;
+        "forge-1.20.1" = _GRTbF5AV;
         "forge-26.1" = _fqPcSPce;
         "forge-26.1.1" = _fqPcSPce;
-        "forge-26.1.2" = _vurJ1Gz6;
-        "forge-26.2" = _vurJ1Gz6;
-        "forge-26.3" = _vurJ1Gz6;
+        "forge-26.1.2" = _35UOoaB3;
+        "forge-26.2" = _35UOoaB3;
+        "forge-26.3" = _35UOoaB3;
         "neoforge-26.1" = _aKpPQXFW;
         "neoforge-26.1.1" = _aKpPQXFW;
-        "neoforge-26.1.2" = _LxC3OB6E;
-        "neoforge-26.2" = _LxC3OB6E;
-        "neoforge-26.3" = _LxC3OB6E;
-        "neoforge-1.21.1" = _uJsg6NLy;
+        "neoforge-26.1.2" = _VEvr505C;
+        "neoforge-26.2" = _VEvr505C;
+        "neoforge-26.3" = _VEvr505C;
+        "neoforge-1.21.1" = _ZylDduje;
         "neoforge-1.21.11" = _LUPzBvfs;
         "fabric-26.1" = _W9kiclxX;
         "fabric-26.1.1" = _W9kiclxX;
-        "fabric-26.1.2" = _rmFjk2Oh;
-        "fabric-26.2" = _rmFjk2Oh;
-        "fabric-26.3" = _rmFjk2Oh;
-        "fabric-1.21.11" = _BcJ3sBVP;
-        "fabric-1.21.1" = _2DAmIWrm;
-        "fabric-1.20.1" = _Cu1biA3j;
+        "fabric-26.1.2" = _HZgGoXum;
+        "fabric-26.2" = _HZgGoXum;
+        "fabric-26.3" = _HZgGoXum;
+        "fabric-1.21.11" = _yJnhY1EQ;
+        "fabric-1.21.1" = _ma1GdTwL;
+        "fabric-1.20.1" = _t9tvcm9E;
         "quilt-26.1" = _yBAF4OpK;
         "quilt-26.1.1" = _yBAF4OpK;
         "quilt-26.1.2" = _yBAF4OpK;
@@ -333,7 +381,15 @@ let
         "pkg-17.3.1.2" = _vurJ1Gz6;
         "pkg-17.1.2.2" = _LxC3OB6E;
         "pkg-17.0.3.2" = _rmFjk2Oh;
-        "default" = _rmFjk2Oh;
+        "pkg-17.3.1.3" = _35UOoaB3;
+        "pkg-17.1.2.3" = _VEvr505C;
+        "pkg-17.0.3.3" = _HZgGoXum;
+        "pkg-14.0.2.11" = _yJnhY1EQ;
+        "pkg-14.0.1.11" = _ma1GdTwL;
+        "pkg-14.1.0.11" = _ZylDduje;
+        "pkg-14.0.0.11" = _t9tvcm9E;
+        "pkg-14.3.0.11" = _GRTbF5AV;
+        "default" = _GRTbF5AV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-stacks-infinite";

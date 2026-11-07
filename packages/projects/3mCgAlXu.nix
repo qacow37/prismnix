@@ -61,6 +61,11 @@ let
             "file" = "weatherflux-2.0.0-alpha-1.jar";
             "hash" = "sha512-RMoRt1AlzivLFkQUTwZylr8Lud02MkFFK7y3X2B4yBcdp6OZP1sqHVtmvB+FUZqGoOXexBv2I/NlUKnNupib7g==";
         };
+        _ZDglVVZX = {
+            "id" = "ZDglVVZX";
+            "file" = "weatherflux-2.0.0-alpha-2.jar";
+            "hash" = "sha512-pwfXrjQWQZ4juX7Or68s26EvBwGYQTKdil+nHHPz2Rp9otvPmBdK31EKUSjkQvj9LPvmdPHmY9EKvXoBz8OG+g==";
+        };
     in {
         "NHsTl6FA" = _NHsTl6FA;
         "WAUD0PEN" = _WAUD0PEN;
@@ -74,8 +79,9 @@ let
         "Iouysi3z" = _Iouysi3z;
         "CsluAmOf" = _CsluAmOf;
         "miU1F7Bt" = _miU1F7Bt;
+        "ZDglVVZX" = _ZDglVVZX;
         "neoforge-1.21.1" = _CsluAmOf;
-        "fabric-1.21.11" = _miU1F7Bt;
+        "fabric-1.21.11" = _ZDglVVZX;
         "pkg-v1.0.0" = _NHsTl6FA;
         "pkg-v1.1.0" = _WAUD0PEN;
         "pkg-v1.1.1" = _tUdKLfCE;
@@ -88,7 +94,8 @@ let
         "pkg-v1.2.3" = _Iouysi3z;
         "pkg-v1.3.0" = _CsluAmOf;
         "pkg-v2.0.0a1" = _miU1F7Bt;
-        "default" = _miU1F7Bt;
+        "pkg-v2.0.0a2" = _ZDglVVZX;
+        "default" = _ZDglVVZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weather-flux";

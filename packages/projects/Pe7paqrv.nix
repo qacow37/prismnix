@@ -181,6 +181,46 @@ let
             "file" = "boundless-1.20.1-forge-11.2.jar";
             "hash" = "sha512-H3oxR+WrV4QL4adPgTGoV14OIUQDpH4xBqPpJRQ6wuRf4PnpKMQ/XgM75SvjIhPF4xDL8GMewk9PObpUgUG95g==";
         };
+        _hDhjbkur = {
+            "id" = "hDhjbkur";
+            "file" = "boundless-1.21.4-neo-12.jar";
+            "hash" = "sha512-GRoRUoMiVqGIJGUCR3T9R0uELSlxJCUEK/F70VPt2tdjs5SNFC1CPsJVDeNiqfsmkiT5YyMyHT60Y40e8ki6xA==";
+        };
+        _CPRhwG4w = {
+            "id" = "CPRhwG4w";
+            "file" = "boundless-1.21.8-neo-12.jar";
+            "hash" = "sha512-o6PK4v1Pxw8SiDiMXKJQhAspIExkNC1dp987F4qx0EFebnfqmcwJIrXzx8DnoBLec+PaoK3cLOSzYDUAgRcXvw==";
+        };
+        _L9LUv60X = {
+            "id" = "L9LUv60X";
+            "file" = "boundless-1.21.10-neo-12.jar";
+            "hash" = "sha512-D9Z6d9FU/t6oWOEE3Llx1DB069I6Ea/ToVnw2g3ELKZxWNteIgIX3dmmVT1oFdiZBMw+W0nlDoUcCPQwx0NC0g==";
+        };
+        _sumctYsN = {
+            "id" = "sumctYsN";
+            "file" = "boundless-1.21.11-neo-12.jar";
+            "hash" = "sha512-bL58U6VHi5UKYAkuAykrFb1LpzMfzFiQCX58HDIy2sDe9I5fy3JTERoBRe8ra1NELV4UyRTlupjI4qtBxf6QRw==";
+        };
+        _SEwdRlBT = {
+            "id" = "SEwdRlBT";
+            "file" = "boundless-26.1.2-neo-12.jar";
+            "hash" = "sha512-OwD5lOF071Ov+ACtPzbpv/0arbWAqFY2JG3Mw+xP+QWuvMRUNR+Ur9wgvVnbC3KWFAzsJKVxnOzRC/bY4/2SOw==";
+        };
+        _ntMza9wf = {
+            "id" = "ntMza9wf";
+            "file" = "boundless-26.2-neo-12.jar";
+            "hash" = "sha512-UMumwdhytqBGDrMcjwHWaV8dMOC7i6HRmbRnF+HnY2L6ID++tvtNoRa6dJ8wfQpR6usMEIitU/efy25K4WZuWw==";
+        };
+        _zElQCb6e = {
+            "id" = "zElQCb6e";
+            "file" = "boundless-1.21.1-neo-12.jar";
+            "hash" = "sha512-T9LVUTyDRTCmRlwZmpUkPQXi/cfMEFA48gTugPtQRdyGNfJ9wrUM9QokPg8il/lhTkKFp8OmHJqmJ8hFfqvAjA==";
+        };
+        _J6gIl0ZU = {
+            "id" = "J6gIl0ZU";
+            "file" = "boundless-26.3-neo-12.jar";
+            "hash" = "sha512-3YcHjs7PLf8bD7CZOlfhJAR2jOcTGceimqz8AdtjChPyjIc7NxMHjcuRuaCJBFufvtIE31u+CUr8u0010LPp3w==";
+        };
     in {
         "yxjpkGDF" = _yxjpkGDF;
         "1yl1pWAX" = _1yl1pWAX;
@@ -218,9 +258,24 @@ let
         "yTPhP5ag" = _yTPhP5ag;
         "ZRXwfET8" = _ZRXwfET8;
         "67azp5Kv" = _67azp5Kv;
-        "neoforge-1.21.1" = _ZRXwfET8;
+        "hDhjbkur" = _hDhjbkur;
+        "CPRhwG4w" = _CPRhwG4w;
+        "L9LUv60X" = _L9LUv60X;
+        "sumctYsN" = _sumctYsN;
+        "SEwdRlBT" = _SEwdRlBT;
+        "ntMza9wf" = _ntMza9wf;
+        "zElQCb6e" = _zElQCb6e;
+        "J6gIl0ZU" = _J6gIl0ZU;
+        "neoforge-1.21.1" = _zElQCb6e;
         "neoforge-1.21.2" = _v9QEcQk9;
         "neoforge-1.20.1" = _ys2XZqv9;
+        "neoforge-1.21.4" = _hDhjbkur;
+        "neoforge-1.21.8" = _CPRhwG4w;
+        "neoforge-1.21.10" = _L9LUv60X;
+        "neoforge-1.21.11" = _sumctYsN;
+        "neoforge-26.1.2" = _SEwdRlBT;
+        "neoforge-26.2" = _ntMza9wf;
+        "neoforge-26.3" = _J6gIl0ZU;
         "forge-1.20.1" = _67azp5Kv;
         "fabric-1.21.1" = _Tnw5tr2I;
         "fabric-1.20.1" = _yTPhP5ag;
@@ -257,7 +312,15 @@ let
         "pkg-1.20.1-fabric-11.1" = _yTPhP5ag;
         "pkg-1.21.1-neo-11.2" = _ZRXwfET8;
         "pkg-1.20.1-forge-11.2" = _67azp5Kv;
-        "default" = _67azp5Kv;
+        "pkg-1.21.4-neo-12" = _hDhjbkur;
+        "pkg-1.21.8-neo-12" = _CPRhwG4w;
+        "pkg-1.21.10-neo-12" = _L9LUv60X;
+        "pkg-1.21.11-neo-12" = _sumctYsN;
+        "pkg-26.1.2-neo-12" = _SEwdRlBT;
+        "pkg-26.2-neo-12" = _ntMza9wf;
+        "pkg-1.21.1-neo-12" = _zElQCb6e;
+        "pkg-26.3-neo-12" = _J6gIl0ZU;
+        "default" = _J6gIl0ZU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boundless-quests";

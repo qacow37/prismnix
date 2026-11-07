@@ -46,6 +46,11 @@ let
             "file" = "Cocktails-Delight-1.21.1-NeoForge-1.1.10.jar";
             "hash" = "sha512-g+K43+vghwt7drSkjmoX8nBtvpP6QkPIbjr8/5DhC7hOZRJ6yY/8ksc+cHDuHLHWX1oGTIc1ewk93KYv+zfVHQ==";
         };
+        _u5R5x47E = {
+            "id" = "u5R5x47E";
+            "file" = "Cocktails-Delight-1.21.1-NeoForge-1.1.12.jar";
+            "hash" = "sha512-2hDFiTow0LmcyKoApNsZLYf/4nHgZW4pV2b5VjIXRpTDJFbjqlb1FzIY9x5AgUm1/xzKGOuWl1wGUuQHtQ+teg==";
+        };
     in {
         "loPZn1Jj" = _loPZn1Jj;
         "p47IcsML" = _p47IcsML;
@@ -56,14 +61,16 @@ let
         "HX9wHN0y" = _HX9wHN0y;
         "EBBb1PG0" = _EBBb1PG0;
         "bQXU23Fh" = _bQXU23Fh;
+        "u5R5x47E" = _u5R5x47E;
         "forge-1.20.1" = _82Tlb7QJ;
-        "neoforge-1.21.1" = _bQXU23Fh;
+        "neoforge-1.21.1" = _u5R5x47E;
         "pkg-1.0.3" = _82Tlb7QJ;
         "pkg-1.0.4" = _p47IcsML;
         "pkg-1.0.7" = _EBBb1PG0;
         "pkg-1.0.8" = _as3fDWel;
         "pkg-1.1.10" = _bQXU23Fh;
-        "default" = _bQXU23Fh;
+        "pkg-1.1.12" = _u5R5x47E;
+        "default" = _u5R5x47E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cocktails-delight";

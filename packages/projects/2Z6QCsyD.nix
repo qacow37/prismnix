@@ -121,6 +121,16 @@ let
             "file" = "Mellow-1.8.9-ornithe-7.0.5.jar";
             "hash" = "sha512-7xdbhKxdgwKSVZcDA7/T6jA1zPSbtGMaGyuhU+KHvah0fKKpef7hHGBBPVuW6y9LmaN/9+HW/+J36Y7cQmTfsg==";
         };
+        _Wn7fOuGJ = {
+            "id" = "Wn7fOuGJ";
+            "file" = "Mellow-1.8.9-forge-7.1.0.jar";
+            "hash" = "sha512-Y6SaWChBJyndCaI7+hqKbT714pZ3bNlbgvObQwboVnhUzDs0SQovSSmppKaCNttfchEIiHwbR+11uESEQmnpuQ==";
+        };
+        _IsUVhSkG = {
+            "id" = "IsUVhSkG";
+            "file" = "Mellow-1.8.9-ornithe-7.1.0.jar";
+            "hash" = "sha512-FoD9KNdVmVAc3OErfHRybjU6AIc5uTZ61X01f9JRsTRiaTL1exnib9EweeeMbGdefaJ/Jx2kAG1cA1O/01zlYQ==";
+        };
     in {
         "sTpsNuaX" = _sTpsNuaX;
         "MUJkHNPV" = _MUJkHNPV;
@@ -146,8 +156,10 @@ let
         "hAeYCiSp" = _hAeYCiSp;
         "HEcvHWMP" = _HEcvHWMP;
         "DfOvynNT" = _DfOvynNT;
-        "forge-1.8.9" = _HEcvHWMP;
-        "ornithe-1.8.9" = _DfOvynNT;
+        "Wn7fOuGJ" = _Wn7fOuGJ;
+        "IsUVhSkG" = _IsUVhSkG;
+        "forge-1.8.9" = _Wn7fOuGJ;
+        "ornithe-1.8.9" = _IsUVhSkG;
         "pkg-4.0.0" = _sTpsNuaX;
         "pkg-4.1.0" = _MUJkHNPV;
         "pkg-4.1.1" = _k8Exmw64;
@@ -168,7 +180,8 @@ let
         "pkg-7.0.3" = _tsUcLSKS;
         "pkg-7.0.4" = _hAeYCiSp;
         "pkg-7.0.5" = _DfOvynNT;
-        "default" = _DfOvynNT;
+        "pkg-7.1.0" = _IsUVhSkG;
+        "default" = _IsUVhSkG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statsify";

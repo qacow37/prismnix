@@ -66,6 +66,11 @@ let
             "file" = "fpsdisplay-1.5.6.jar";
             "hash" = "sha512-xEUQP/ZWs3lumKZTdNRHfGberfrSKb0NtTCxpR/6TTwN1fbQDZIMbHlxbPsaqasnEcMj6zrPfJcec9TkNlFBTg==";
         };
+        _QBIDC83G = {
+            "id" = "QBIDC83G";
+            "file" = "fpsdisplay-1.6.0.jar";
+            "hash" = "sha512-kmdEK3eOyDIgceCk2MMcVPr9s8GH/Xh20DZdxs4IW3ft7ba6fDMbnq+gD80Eg+g1HJM/7yVtVBXo9QWYs7GJ4Q==";
+        };
     in {
         "5zN58cYZ" = _5zN58cYZ;
         "vgVU9uAI" = _vgVU9uAI;
@@ -80,10 +85,11 @@ let
         "iglON8q2" = _iglON8q2;
         "LMToRjiD" = _LMToRjiD;
         "ZQJjHUsu" = _ZQJjHUsu;
+        "QBIDC83G" = _QBIDC83G;
         "fabric-1.21.11" = _KaNPtK4r;
         "fabric-26.1.2" = _nfUntTKz;
         "fabric-26.2" = _LMToRjiD;
-        "fabric-26.3" = _ZQJjHUsu;
+        "fabric-26.3" = _QBIDC83G;
         "pkg-1.0.0" = _5zN58cYZ;
         "pkg-1.1.0" = _vgVU9uAI;
         "pkg-1.2.0" = _7zxvxben;
@@ -96,7 +102,8 @@ let
         "pkg-1.5.4" = _iglON8q2;
         "pkg-1.5.5" = _LMToRjiD;
         "pkg-1.5.6" = _ZQJjHUsu;
-        "default" = _ZQJjHUsu;
+        "pkg-1.6.0" = _QBIDC83G;
+        "default" = _QBIDC83G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fps-display+";

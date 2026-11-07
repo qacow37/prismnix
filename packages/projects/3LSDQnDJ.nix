@@ -41,6 +41,11 @@ let
             "file" = "inputoptimizer-1.2.0.jar";
             "hash" = "sha512-SZCPXz3lBRO7iUTJLnUVy3iHQ1ekX4/OsgZdAS2H0nRlpa9NfbDTcBcFoRp32H6yA8mrIs0rlE+KXKjMiB6sHQ==";
         };
+        _x6Pk4wui = {
+            "id" = "x6Pk4wui";
+            "file" = "inputoptimizer-1.2.0.jar";
+            "hash" = "sha512-rfm7+vY+6F8c5Blb2Iuf5+1zX6y8Z1vhumpIJKafVh+8IdvfBG2PIVRtepWdq5/J5S5kF1QZYfa1A1iUYkAmCQ==";
+        };
     in {
         "9ZYbV5BA" = _9ZYbV5BA;
         "I3naDsyZ" = _I3naDsyZ;
@@ -50,11 +55,13 @@ let
         "c2i0JWci" = _c2i0JWci;
         "JDfvmhLn" = _JDfvmhLn;
         "9gRnS6UN" = _9gRnS6UN;
+        "x6Pk4wui" = _x6Pk4wui;
         "fabric-26.1.2" = _9ZYbV5BA;
         "fabric-1.21.11" = _JDfvmhLn;
         "fabric-26.1" = _w4e4mCfe;
         "fabric-26.1.1" = _Q2mlo7m6;
         "fabric-26.2" = _9gRnS6UN;
+        "fabric-26.3" = _x6Pk4wui;
         "pkg-1.0.0-mc26.1.2" = _9ZYbV5BA;
         "pkg-1.0.0-mc1.21.11" = _I3naDsyZ;
         "pkg-1.0.0-mc26.1" = _w4e4mCfe;
@@ -63,7 +70,8 @@ let
         "pkg-1.1.0-mc26.2" = _c2i0JWci;
         "pkg-1.1.0-mc1.21.11" = _JDfvmhLn;
         "pkg-1.2.0-mc26.2" = _9gRnS6UN;
-        "default" = _9gRnS6UN;
+        "pkg-1.2.0-mc26.3" = _x6Pk4wui;
+        "default" = _x6Pk4wui;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inputoptimizer";

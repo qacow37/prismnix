@@ -351,6 +351,61 @@ let
             "file" = "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-26.3-5.0.0.0.jar";
             "hash" = "sha512-yfYlGMg5Cu9KKoODxG5YROktHjtrK83GD26U16ogiZqpAO6HMu67wr857lyZeCSeYaxRsz3Cr959DUahaBeFMw==";
         };
+        _ETxcPIDO = {
+            "id" = "ETxcPIDO";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Fabric-1.21.1-2.0.1.4.jar";
+            "hash" = "sha512-g+O0oYOc1epMWzUAAlhnYaeKRkVS8dmvQZcGzOFIYsda0og/dhQ1yvUnRsEcgjEqvtyPJFktxiu/sSB6aAvelw==";
+        };
+        _wrUfd0ut = {
+            "id" = "wrUfd0ut";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.21.1-2.0.1.4.jar";
+            "hash" = "sha512-gTtt+xFZnG4e/YsQYF2UyRdOJE1tgeQjG368km4JZnRrPOtjSZkjFC4XHDGxdbBaZAHj8ODMIlFXsi9cnOBmyg==";
+        };
+        _oqNjcnKK = {
+            "id" = "oqNjcnKK";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-1.21.1-2.0.1.4.jar";
+            "hash" = "sha512-QdB5sSfaIjQCZbT5lGlJDNsvVPeUUQqVStEtK8O7Ysw4dun5Ve+PH0fR5WkJJhXqbRnjyq1/Jy2JwunzY65/4w==";
+        };
+        _DuBbQFxf = {
+            "id" = "DuBbQFxf";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Fabric-1.20.1-1.0.0.7.jar";
+            "hash" = "sha512-DQuXkDOd6whFBNvT7ks7QfIqCdMDZ1U9YGVf5fsbNoJ5FecLi09EPAcc3A0kYJP4ERqKAR68VvKbf2pfBsIxGg==";
+        };
+        _NiEFEDOe = {
+            "id" = "NiEFEDOe";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Forge-1.20.1-1.0.0.7.jar";
+            "hash" = "sha512-/DmUeTue3q+VUtx20rsowhE8dnfNBRq4MijeJ7T43XU0Yc8YXL7fm/yRs2Pjrk4vCOBbB8mwaT/NfFoO5f6QUw==";
+        };
+        _5nAGsOgQ = {
+            "id" = "5nAGsOgQ";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Fabric-26.1.2-3.0.0.7.jar";
+            "hash" = "sha512-FLT31GkJvGLVE9CQwahBz5JphEfbSI4Un4agV1UPihYdOd80BiREk0UQfrbq5cs3zcW1rHGcmgXx//h8O4Jq6A==";
+        };
+        _QIIfJDhx = {
+            "id" = "QIIfJDhx";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-26.1.2-3.0.0.7.jar";
+            "hash" = "sha512-pc9/bauTSWMEy3CAT7BN97PLTgnfZqsoWrslo7RrLbP2OdpLjw8sqEh9GR2FtfvO6rD2SVado5RGZtiGObBu+Q==";
+        };
+        _fAJvYwrB = {
+            "id" = "fAJvYwrB";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Fabric-26.2-4.0.0.7.jar";
+            "hash" = "sha512-9bO4BhWZHOET3ahAgRx3woqENNJcoGlMJfDlmwbg9gcPlkLgSQJabvJOjnz0VdeOMrY16ZF4F7eaZJIpGg9c4g==";
+        };
+        _FN46siC6 = {
+            "id" = "FN46siC6";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-26.2-4.0.0.7.jar";
+            "hash" = "sha512-dHaAG6P8Thxq2qsmFg5XA89vXSJGYg414vAy76de2UvZWZ0lg07H/1MHvVuXp19ZvyqiPU4cMIoycrF6QUVN2w==";
+        };
+        _yubv1rmD = {
+            "id" = "yubv1rmD";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-Fabric-26.3-5.0.0.1.jar";
+            "hash" = "sha512-GJabFxs6k1DdH0yIETxDAxC8/fOENkKYm1Kh3RoFsrGTbgpjuF3pUS72jghsJmD3k0xURGF3ANhnrCljC6f/Dg==";
+        };
+        _92yHwLbF = {
+            "id" = "92yHwLbF";
+            "file" = "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-26.3-5.0.0.1.jar";
+            "hash" = "sha512-obyLJKgLTQQ3whvQZAAJxV5LW8zWbJs+hkpybC4gW2CkpQo0CW73+YoCos3NFj9IQcBtwp0PF1ylGQCQBNnTkw==";
+        };
     in {
         "9c7vHezq" = _9c7vHezq;
         "HO8l3XvO" = _HO8l3XvO;
@@ -422,23 +477,34 @@ let
         "KDnQDQjQ" = _KDnQDQjQ;
         "JnJI3qdc" = _JnJI3qdc;
         "Cj5O9uJ7" = _Cj5O9uJ7;
-        "fabric-1.21.1" = _nVgbZdUF;
-        "fabric-1.20.1" = _2GDHrcQX;
-        "fabric-26.1.2" = _qSrRwpip;
-        "fabric-26.2" = _KDnQDQjQ;
-        "fabric-26.3" = _JnJI3qdc;
-        "quilt-1.21.1" = _nVgbZdUF;
-        "quilt-1.20.1" = _2GDHrcQX;
-        "quilt-26.1.2" = _qSrRwpip;
-        "quilt-26.2" = _KDnQDQjQ;
-        "quilt-26.3" = _JnJI3qdc;
-        "forge-1.21.1" = _ni75xm3u;
-        "forge-1.20.1" = _PGxD6JWg;
-        "neoforge-1.21.1" = _N8kvtLDo;
-        "neoforge-1.20.1" = _PGxD6JWg;
-        "neoforge-26.1.2" = _Iu3pdFWS;
-        "neoforge-26.2" = _qg5qqNDQ;
-        "neoforge-26.3" = _Cj5O9uJ7;
+        "ETxcPIDO" = _ETxcPIDO;
+        "wrUfd0ut" = _wrUfd0ut;
+        "oqNjcnKK" = _oqNjcnKK;
+        "DuBbQFxf" = _DuBbQFxf;
+        "NiEFEDOe" = _NiEFEDOe;
+        "5nAGsOgQ" = _5nAGsOgQ;
+        "QIIfJDhx" = _QIIfJDhx;
+        "fAJvYwrB" = _fAJvYwrB;
+        "FN46siC6" = _FN46siC6;
+        "yubv1rmD" = _yubv1rmD;
+        "92yHwLbF" = _92yHwLbF;
+        "fabric-1.21.1" = _ETxcPIDO;
+        "fabric-1.20.1" = _DuBbQFxf;
+        "fabric-26.1.2" = _5nAGsOgQ;
+        "fabric-26.2" = _fAJvYwrB;
+        "fabric-26.3" = _yubv1rmD;
+        "quilt-1.21.1" = _ETxcPIDO;
+        "quilt-1.20.1" = _DuBbQFxf;
+        "quilt-26.1.2" = _5nAGsOgQ;
+        "quilt-26.2" = _fAJvYwrB;
+        "quilt-26.3" = _yubv1rmD;
+        "forge-1.21.1" = _wrUfd0ut;
+        "forge-1.20.1" = _NiEFEDOe;
+        "neoforge-1.21.1" = _oqNjcnKK;
+        "neoforge-1.20.1" = _NiEFEDOe;
+        "neoforge-26.1.2" = _QIIfJDhx;
+        "neoforge-26.2" = _FN46siC6;
+        "neoforge-26.3" = _92yHwLbF;
         "pkg-1.0.0.0-fabric" = _ohxkg6fo;
         "pkg-1.0.0.0-forge" = _yVx4jM2Y;
         "pkg-1.0.0.0-neoforge" = _YnZl1yT0;
@@ -501,7 +567,18 @@ let
         "pkg-4.0.0.6-fabric" = _KDnQDQjQ;
         "pkg-5.0.0.0-fabric" = _JnJI3qdc;
         "pkg-5.0.0.0-neoforge" = _Cj5O9uJ7;
-        "default" = _Cj5O9uJ7;
+        "pkg-2.0.1.4-fabric" = _ETxcPIDO;
+        "pkg-2.0.1.4-forge" = _wrUfd0ut;
+        "pkg-2.0.1.4-neoforge" = _oqNjcnKK;
+        "pkg-1.0.0.7-fabric" = _DuBbQFxf;
+        "pkg-1.0.0.7-forge" = _NiEFEDOe;
+        "pkg-3.0.0.7-fabric" = _5nAGsOgQ;
+        "pkg-3.0.0.7-neoforge" = _QIIfJDhx;
+        "pkg-4.0.0.7-fabric" = _fAJvYwrB;
+        "pkg-4.0.0.7-neoforge" = _FN46siC6;
+        "pkg-5.0.0.1-fabric" = _yubv1rmD;
+        "pkg-5.0.0.1-neoforge" = _92yHwLbF;
+        "default" = _92yHwLbF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-celestials-2-default-lunar-events";

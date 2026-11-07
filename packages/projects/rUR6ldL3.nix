@@ -186,6 +186,11 @@ let
             "file" = "marioverse-1.21.1-1.11.2-neoforge-all.jar";
             "hash" = "sha512-JC0WIlZAipP0jKtXKeCnKcsx8ooNgIZWOzS3CxZfauuhbDGRoZNU+r2t3uC2vsK/kWjTI1/omUhbjXIh6Ri6bg==";
         };
+        _yapJwEtZ = {
+            "id" = "yapJwEtZ";
+            "file" = "marioverse-1.21.1-1.12.0-neoforge-all.jar";
+            "hash" = "sha512-F7E2qiXFWFBiCS/77fnp9TBGj60/5j2yOxG+U8cWszGj+zklJjAftJBKOtBbR6sTXIOpldwGNJLQv90k8CJI6Q==";
+        };
     in {
         "Gu2hzgeN" = _Gu2hzgeN;
         "5SwwExox" = _5SwwExox;
@@ -224,7 +229,8 @@ let
         "4i9zHIdT" = _4i9zHIdT;
         "BdPV3vjY" = _BdPV3vjY;
         "pfccQ3U1" = _pfccQ3U1;
-        "neoforge-1.21.1" = _pfccQ3U1;
+        "yapJwEtZ" = _yapJwEtZ;
+        "neoforge-1.21.1" = _yapJwEtZ;
         "pkg-1.0.0" = _Gu2hzgeN;
         "pkg-1.0.1" = _5SwwExox;
         "pkg-1.0.2" = _WAzK6POl;
@@ -262,7 +268,8 @@ let
         "pkg-1.11.0" = _4i9zHIdT;
         "pkg-1.11.1" = _BdPV3vjY;
         "pkg-1.11.2" = _pfccQ3U1;
-        "default" = _pfccQ3U1;
+        "pkg-1.12.0" = _yapJwEtZ;
+        "default" = _yapJwEtZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "marioverse";

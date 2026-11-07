@@ -56,6 +56,16 @@ let
             "file" = "thedragonlib-26.1.2-1.3.1-neo.jar";
             "hash" = "sha512-7Jf42nwv8nxwByGXk/9Rz8xcDMXs3HmsUe6+gbGQjEKHza6nKvfBVyNlvIKwqo4+ONkKQipWwVXvesvzItndEw==";
         };
+        _cIkgl9IZ = {
+            "id" = "cIkgl9IZ";
+            "file" = "thedragonlib-26.1.2-1.4.0-neo.jar";
+            "hash" = "sha512-cqjy/c270TcIoSHR8C95swizL4UvMfN/eiyb1DnZpYXkWd1UzP7dOCm+Bf7RVTZeQA4OGfG4B7rI6d51jdz1PA==";
+        };
+        _lgqFZYhy = {
+            "id" = "lgqFZYhy";
+            "file" = "thedragonlib-26.1.2-1.4.1-neo.jar";
+            "hash" = "sha512-BvboJiBr8ivxK2dJmKFLCrlOJh63fY3pk9eqdswbnG2Vfb1mK56Dt3ZP1GJoZAt77wugWHf/pwjD5l05p2immw==";
+        };
     in {
         "PVqRbt60" = _PVqRbt60;
         "9osEM7Hp" = _9osEM7Hp;
@@ -68,6 +78,8 @@ let
         "WHS5wfvO" = _WHS5wfvO;
         "hdNQADIh" = _hdNQADIh;
         "FNNp8uxL" = _FNNp8uxL;
+        "cIkgl9IZ" = _cIkgl9IZ;
+        "lgqFZYhy" = _lgqFZYhy;
         "forge-1.16.3" = _PVqRbt60;
         "forge-1.16.4" = _PVqRbt60;
         "forge-1.16.5" = _PVqRbt60;
@@ -77,7 +89,7 @@ let
         "forge-1.19.1" = _iaDirWlJ;
         "forge-1.19.2" = _iaDirWlJ;
         "forge-26.1.2" = _1dcF1jzr;
-        "neoforge-26.1.2" = _FNNp8uxL;
+        "neoforge-26.1.2" = _lgqFZYhy;
         "neoforge-26.2" = _hoCf2uEP;
         "neoforge-26.3" = _XwUHzSkZ;
         "neoforge-1.21.1" = _WHS5wfvO;
@@ -90,7 +102,9 @@ let
         "pkg-1.0.0" = _XwUHzSkZ;
         "pkg-1.3.0" = _hdNQADIh;
         "pkg-1.3.1" = _FNNp8uxL;
-        "default" = _FNNp8uxL;
+        "pkg-1.4.0" = _cIkgl9IZ;
+        "pkg-1.4.1" = _lgqFZYhy;
+        "default" = _lgqFZYhy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thedragonlib";

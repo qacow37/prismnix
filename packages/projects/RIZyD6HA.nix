@@ -31,6 +31,11 @@ let
             "file" = "autoclutch-1.0.5.jar";
             "hash" = "sha512-g3w9X0XMHGm2ekK3jEMyqMYxKOVxb1cRhyi2ZYFOO6tISc/lJcLmI7PeztB0e901vLgoD9uFunUemDwT9AAJOQ==";
         };
+        _RZWhhnFX = {
+            "id" = "RZWhhnFX";
+            "file" = "autoclutch-1.1.0.jar";
+            "hash" = "sha512-5ojA3XvlDU0RXQzfpiIEeWnDCKPtwqu873SrEwbgUNuW7/pnr+aWR7vpVoxIKwf5rs7pliUqTvS3m+DL92eKbA==";
+        };
     in {
         "7m1AKniq" = _7m1AKniq;
         "cgzy2ZyO" = _cgzy2ZyO;
@@ -38,16 +43,18 @@ let
         "QdLPeig2" = _QdLPeig2;
         "f5lLR2XK" = _f5lLR2XK;
         "5PRl7538" = _5PRl7538;
+        "RZWhhnFX" = _RZWhhnFX;
         "fabric-1.21.11" = _7m1AKniq;
         "fabric-26.1.2" = _sEQj1HPD;
         "fabric-26.2" = _f5lLR2XK;
-        "fabric-26.3" = _5PRl7538;
+        "fabric-26.3" = _RZWhhnFX;
         "pkg-1.0.0" = _cgzy2ZyO;
         "pkg-1.0.2" = _sEQj1HPD;
         "pkg-1.0.3" = _QdLPeig2;
         "pkg-1.0.4" = _f5lLR2XK;
         "pkg-1.0.5" = _5PRl7538;
-        "default" = _5PRl7538;
+        "pkg-1.1.0" = _RZWhhnFX;
+        "default" = _RZWhhnFX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automatic-clutch";

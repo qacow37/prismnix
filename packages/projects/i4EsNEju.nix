@@ -46,6 +46,11 @@ let
             "file" = "bygonefortress-1.0.1+26.2-fabric.jar";
             "hash" = "sha512-RtVURKF6I6ZEunUylrxUJ9ElKe90dPbc50L4nPF86b8PWs9a0AoQylg+9bo2RirVXQr5qxqUylOxY/XVKmGjgA==";
         };
+        _cmrUgZtw = {
+            "id" = "cmrUgZtw";
+            "file" = "bygonefortress-1.0.1+26.3-fabric.jar";
+            "hash" = "sha512-M+HmLmdrWeuUJdOr8VFVp6kN5mRNzAWINWTEwyZ0lnFKVhIaNS0UjWA1goCusoqcRR5ZZyTwVITptwqMT8/Beg==";
+        };
     in {
         "VXhQShCT" = _VXhQShCT;
         "EYVpt7Kh" = _EYVpt7Kh;
@@ -56,6 +61,7 @@ let
         "ccOL8ghK" = _ccOL8ghK;
         "93PLYvWK" = _93PLYvWK;
         "uERcs4Au" = _uERcs4Au;
+        "cmrUgZtw" = _cmrUgZtw;
         "fabric-1.21.1" = _VXhQShCT;
         "fabric-1.20.1" = _EYVpt7Kh;
         "fabric-1.21.11" = _nFPtzMLH;
@@ -63,6 +69,7 @@ let
         "fabric-26.1.1" = _93PLYvWK;
         "fabric-26.1.2" = _93PLYvWK;
         "fabric-26.2" = _uERcs4Au;
+        "fabric-26.3" = _cmrUgZtw;
         "neoforge-1.21.1" = _FV3CYkhr;
         "forge-1.20.1" = _jxXBMadY;
         "pkg-1.0.0+1.21.1-fabric" = _VXhQShCT;
@@ -74,7 +81,8 @@ let
         "pkg-1.0.0+26.2-fabric" = _ccOL8ghK;
         "pkg-1.0.1+26.1.2-fabric" = _93PLYvWK;
         "pkg-1.0.1+26.2-fabric" = _uERcs4Au;
-        "default" = _uERcs4Au;
+        "pkg-1.0.1+26.3-fabric" = _cmrUgZtw;
+        "default" = _cmrUgZtw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bygone-fortress";

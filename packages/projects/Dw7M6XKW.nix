@@ -811,6 +811,16 @@ let
             "file" = "Icarus-Fabric-4.8.0.jar";
             "hash" = "sha512-+oEqEeN5qynABC34vIyvxjPLouDjsg9OO76TyhskgcbXimBru1YsNmiEhYwb6M6IR2tRmR+Z7CAdMlyZ0UPHCw==";
         };
+        _WYDi2tl4 = {
+            "id" = "WYDi2tl4";
+            "file" = "Icarus-NeoForge-4.8.1.jar";
+            "hash" = "sha512-YCJmdDq/C2FB+wP4yROHvwjfbqdMDXjNztM7K84MexZtszIGGqPe0Vph0LVlEC9f+7POWMFwweCncsSXb6GhVQ==";
+        };
+        _X6b0raef = {
+            "id" = "X6b0raef";
+            "file" = "Icarus-Fabric-4.8.1.jar";
+            "hash" = "sha512-Jr3BlfZupwy0P84g8WzbZHB5RCxCNXQxKLGahZBpxJp1uyFnGzVOMZyz0UA/B7h2qBgsJuub/Z9prAClvf+K3w==";
+        };
     in {
         "EkZF8V2T" = _EkZF8V2T;
         "6OHKkFZc" = _6OHKkFZc;
@@ -974,6 +984,8 @@ let
         "ElbEWnGp" = _ElbEWnGp;
         "Sz4XcD6x" = _Sz4XcD6x;
         "2o243QHf" = _2o243QHf;
+        "WYDi2tl4" = _WYDi2tl4;
+        "X6b0raef" = _X6b0raef;
         "fabric-1.16.4" = _6OHKkFZc;
         "fabric-1.16.5" = _6OHKkFZc;
         "fabric-1.17" = _hrBwid8D;
@@ -988,7 +1000,7 @@ let
         "fabric-1.19.4" = _XbEouy06;
         "fabric-1.20.4" = _hTbXOknd;
         "fabric-1.21" = _i4GD491i;
-        "fabric-1.21.1" = _2o243QHf;
+        "fabric-1.21.1" = _X6b0raef;
         "quilt-1.19" = _KxlmlvoT;
         "quilt-1.19.1" = _KxlmlvoT;
         "quilt-1.19.2" = _KxlmlvoT;
@@ -997,11 +1009,11 @@ let
         "quilt-1.19.4" = _sdzoH4WU;
         "quilt-1.20.4" = _XTLhQMel;
         "quilt-1.21" = _WEtSOxxz;
-        "quilt-1.21.1" = _2o243QHf;
+        "quilt-1.21.1" = _X6b0raef;
         "forge-1.20.1" = _RXhgOzWN;
         "neoforge-1.20.1" = _RXhgOzWN;
         "neoforge-1.20.4" = _uIbKpIM4;
-        "neoforge-1.21.1" = _Sz4XcD6x;
+        "neoforge-1.21.1" = _WYDi2tl4;
         "pkg-1.1" = _EkZF8V2T;
         "pkg-1.2" = _6OHKkFZc;
         "pkg-1.3" = _Qlrznp2k;
@@ -1162,7 +1174,9 @@ let
         "pkg-4.7.9+Fabric" = _ElbEWnGp;
         "pkg-4.8.0+NeoForge" = _Sz4XcD6x;
         "pkg-4.8.0+Fabric" = _2o243QHf;
-        "default" = _2o243QHf;
+        "pkg-4.8.1+NeoForge" = _WYDi2tl4;
+        "pkg-4.8.1+Fabric" = _X6b0raef;
+        "default" = _X6b0raef;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "icarus";

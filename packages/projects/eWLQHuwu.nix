@@ -101,6 +101,11 @@ let
             "file" = "thermal_shock-Beta 07.9-forge-1.20.1.jar";
             "hash" = "sha512-fFS/PFH7CG8MFqamNBqnd/aL8cVU4YDstZzYAKgbvqYH9PyaLpZ4W8bd3nQ8n4CoL3Uv5BypxHe+/h6HviCTdw==";
         };
+        _tU8RPFIM = {
+            "id" = "tU8RPFIM";
+            "file" = "thermal_shock-Beta 08-forge-1.20.1.jar";
+            "hash" = "sha512-rTaAJYQWYua5f+ZLtbB8ijdM2XOfUqFtetVjnuvHfdI/9hC9oU3pnaWRkyhFVXCd0Ug0HnYNFwpJ5VlAfyAYuQ==";
+        };
     in {
         "IX0U18Tr" = _IX0U18Tr;
         "scF1nwxO" = _scF1nwxO;
@@ -122,7 +127,8 @@ let
         "ae1Ot0t7" = _ae1Ot0t7;
         "2Z6uXWAV" = _2Z6uXWAV;
         "ZhwoDmNv" = _ZhwoDmNv;
-        "forge-1.20.1" = _ZhwoDmNv;
+        "tU8RPFIM" = _tU8RPFIM;
+        "forge-1.20.1" = _tU8RPFIM;
         "neoforge-1.20.1" = _pqjqeuRJ;
         "pkg-0.1" = _IX0U18Tr;
         "pkg-0.11" = _scF1nwxO;
@@ -144,7 +150,8 @@ let
         "pkg-07.7" = _ae1Ot0t7;
         "pkg-07.8" = _2Z6uXWAV;
         "pkg-07.9" = _ZhwoDmNv;
-        "default" = _ZhwoDmNv;
+        "pkg-08" = _tU8RPFIM;
+        "default" = _tU8RPFIM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thermal-shock";

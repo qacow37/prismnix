@@ -31,6 +31,11 @@ let
             "file" = "lrtactical_tweak-1.20.1-1.3.6-all.jar";
             "hash" = "sha512-T8bEFBFMohQ1ARpDWTvCQjPxPxr9ZOMaisokj/3QxZKwmnmPRmaKgvVY0maoFosBogGIHCx9BBjV4t35O1M53Q==";
         };
+        _sByYatZc = {
+            "id" = "sByYatZc";
+            "file" = "lrtactical_tweak-1.20.1-1.7.0-all.jar";
+            "hash" = "sha512-RXCk0bbdjuxbzuXMGjX89cnI0yMUAF1VevBCxnTUS1Estya2WdN7JgH1DlyENc/QB+O4EMWNSm3PLezDW0mCnA==";
+        };
     in {
         "AHrkkPJZ" = _AHrkkPJZ;
         "UwApkSlu" = _UwApkSlu;
@@ -38,14 +43,16 @@ let
         "ZBx4ah1R" = _ZBx4ah1R;
         "70du6E57" = _70du6E57;
         "9xuQE2Sw" = _9xuQE2Sw;
-        "forge-1.20.1" = _9xuQE2Sw;
+        "sByYatZc" = _sByYatZc;
+        "forge-1.20.1" = _sByYatZc;
         "pkg-1.0.0" = _AHrkkPJZ;
         "pkg-1.0.6" = _UwApkSlu;
         "pkg-1.3.3" = _bagTWHn1;
         "pkg-1.3.4" = _ZBx4ah1R;
         "pkg-1.3.5" = _70du6E57;
         "pkg-1.3.6" = _9xuQE2Sw;
-        "default" = _9xuQE2Sw;
+        "pkg-1.7.0" = _sByYatZc;
+        "default" = _sByYatZc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lr-tactical-tweak";

@@ -26,20 +26,33 @@ let
             "file" = "Excalibur Bosses'Rise 1.5 (Neoforge).zip";
             "hash" = "sha512-rH5lBcediUqYOeA44E6nXA8XmsfBcX0ljbKgfJUVluI9Iw+EgCnBm7BZdGYsh5x7qThVhoP3wa661jD4x5fiug==";
         };
+        _Azf4WhdB = {
+            "id" = "Azf4WhdB";
+            "file" = "Excalibur Bosses'Rise 1.6 (Forge).zip";
+            "hash" = "sha512-tLRhd//yGdTa/O99u0zR9n9nPs3nOoR4W++262ZjY1j7Ek1LoJQryJ1Hyf/G0DgQKoGEW2UytfgOh/h4vz9tIA==";
+        };
+        _pdWisqHN = {
+            "id" = "pdWisqHN";
+            "file" = "Excalibur Bosses'Rise 1.6 (Neoforge).zip";
+            "hash" = "sha512-2Q2a9Y6aVxvaHXi2vkO0by/Z5A1RNTfGldJKClTUAvW8yPPRrja3QOGKUaux48G6qWX+tUUTdZBYuoHzP08KKA==";
+        };
     in {
         "yBAuXcHV" = _yBAuXcHV;
         "tclUsVy9" = _tclUsVy9;
         "xrWDPa3j" = _xrWDPa3j;
         "VzkCBC4C" = _VzkCBC4C;
         "r789ZxMK" = _r789ZxMK;
-        "minecraft-1.20.1" = _VzkCBC4C;
-        "minecraft-1.21.1" = _r789ZxMK;
-        "minecraft-1.21" = _r789ZxMK;
+        "Azf4WhdB" = _Azf4WhdB;
+        "pdWisqHN" = _pdWisqHN;
+        "minecraft-1.20.1" = _Azf4WhdB;
+        "minecraft-1.21.1" = _pdWisqHN;
+        "minecraft-1.21" = _pdWisqHN;
         "pkg-1.1" = _yBAuXcHV;
         "pkg-1.2" = _tclUsVy9;
         "pkg-1.4" = _xrWDPa3j;
         "pkg-1.5" = _r789ZxMK;
-        "default" = _r789ZxMK;
+        "pkg-1.6" = _pdWisqHN;
+        "default" = _pdWisqHN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excal-bossesrise";

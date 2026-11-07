@@ -216,6 +216,26 @@ let
             "file" = "enchanteds_sodium_options-1.3.2+0.9.2-mc26.3-neoforge.jar";
             "hash" = "sha512-zpWGu2ybh77qizbjiBbo4SIo3IbZtsN/R6V++e4KCw2LVFmY9PmO0JN33Al3em8Jl2ObY23rjN/dfYxlVRA4tA==";
         };
+        _fv9WreX7 = {
+            "id" = "fv9WreX7";
+            "file" = "enchanteds_sodium_options-1.4.0+0.9.2-mc26.3-fabric.jar";
+            "hash" = "sha512-nZhwNJQTUPOUkAzJZzO+w1zP9BdgvTXe8Cde5jfWzp601tvwbqIPpgR3wkIRG6G+EoqMin7AbSNIvPbakR7OWA==";
+        };
+        _2GOfFHH4 = {
+            "id" = "2GOfFHH4";
+            "file" = "enchanteds_sodium_options-1.4.0+0.9.2-mc26.3-neoforge.jar";
+            "hash" = "sha512-fe4kneQIdwnFkkvvWQV05PTFyNu7s/51gQtatcFUxqEhl5YQW9K84nT2yxpvoe2JUJdO8Djp69i6XykVMa2X/Q==";
+        };
+        _KZ5UQDJP = {
+            "id" = "KZ5UQDJP";
+            "file" = "enchanteds_sodium_options-1.4.1+0.9.2-mc26.3-fabric.jar";
+            "hash" = "sha512-a1aT9f5hdBhBp40o+zCFkbYsXo/UhdtrAHS+fKDkXDUqTpiD+5dgJBqEknGNM1pFHhWaNdMQePjy8CLJ54VxhA==";
+        };
+        _eTLfn2bf = {
+            "id" = "eTLfn2bf";
+            "file" = "enchanteds_sodium_options-1.4.1+0.9.2-mc26.3-neoforge.jar";
+            "hash" = "sha512-hWapuiTwK5PInubsi4ZD2muaVe7NNCgufixg36udwl48cfB/wiJTVvFhhvZeb0KyiFQeG3Xo23LWHlp+9Ei10A==";
+        };
     in {
         "bKzuaJ5J" = _bKzuaJ5J;
         "xEOX2vjc" = _xEOX2vjc;
@@ -260,17 +280,21 @@ let
         "B5WCbaQ7" = _B5WCbaQ7;
         "7QWAlCkv" = _7QWAlCkv;
         "X4xDEIy6" = _X4xDEIy6;
+        "fv9WreX7" = _fv9WreX7;
+        "2GOfFHH4" = _2GOfFHH4;
+        "KZ5UQDJP" = _KZ5UQDJP;
+        "eTLfn2bf" = _eTLfn2bf;
         "fabric-1.21.11" = _HYeHw7Mp;
         "fabric-26.1" = _ZbVIBVly;
         "fabric-26.1.1" = _ekqQU9By;
         "fabric-26.1.2" = _hmDGflt3;
         "fabric-26.2" = _9TLLcOm2;
-        "fabric-26.3" = _7QWAlCkv;
+        "fabric-26.3" = _KZ5UQDJP;
         "neoforge-1.21.11" = _yzDr7Q4v;
         "neoforge-26.1.1" = _ss1z3dAC;
         "neoforge-26.1.2" = _P658agD2;
         "neoforge-26.2" = _B5WCbaQ7;
-        "neoforge-26.3" = _X4xDEIy6;
+        "neoforge-26.3" = _eTLfn2bf;
         "pkg-1.0+1.21.11" = _xEOX2vjc;
         "pkg-1.0.1+1.21.11-fabric" = _fq38A04Z;
         "pkg-1.0.1+1.21.11-neoforge" = _Lkk0xGpi;
@@ -313,7 +337,11 @@ let
         "pkg-1.3.2+0.9.2-mc26.2-neoforge" = _B5WCbaQ7;
         "pkg-1.3.2+0.9.2-mc26.3-fabric" = _7QWAlCkv;
         "pkg-1.3.2+0.9.2-mc26.3-neoforge" = _X4xDEIy6;
-        "default" = _X4xDEIy6;
+        "pkg-1.4.0+0.9.2-mc26.3-fabric" = _fv9WreX7;
+        "pkg-1.4.0+0.9.2-mc26.3-neoforge" = _2GOfFHH4;
+        "pkg-1.4.1+0.9.2-mc26.3-fabric" = _KZ5UQDJP;
+        "pkg-1.4.1+0.9.2-mc26.3-neoforge" = _eTLfn2bf;
+        "default" = _eTLfn2bf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanteds-sodium-options";

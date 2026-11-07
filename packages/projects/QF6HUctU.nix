@@ -51,6 +51,11 @@ let
             "file" = "melodix-3.0.0.jar";
             "hash" = "sha512-weAeMI3BQFlV92+XA34blVa54Hu9l7TRPkoSnshq69F7+FFVTu6EsjZH2wdb0W4tEQOgKpRRkuHgj06rTuhvpQ==";
         };
+        _TxWkAZRj = {
+            "id" = "TxWkAZRj";
+            "file" = "melodix-3.1.0.jar";
+            "hash" = "sha512-MPU3dKQK69fiHcuL2URMm13m5sMs8jHZA0Ai06BB4ngUoseZMpJBKErqN96Oc06D4jgh3c/JYItLkWuXa7HtLg==";
+        };
     in {
         "BSPzIgqC" = _BSPzIgqC;
         "3PuQTbJ4" = _3PuQTbJ4;
@@ -62,12 +67,13 @@ let
         "2cawjyw9" = _2cawjyw9;
         "nIikvXOe" = _nIikvXOe;
         "BPJOm3O0" = _BPJOm3O0;
+        "TxWkAZRj" = _TxWkAZRj;
         "fabric-26.1" = _z9LaJD5w;
         "fabric-26.1.1" = _z9LaJD5w;
         "fabric-26.1.2" = _tv03qDdN;
         "fabric-1.21.11" = _I1N7ogIO;
         "fabric-26.2" = _nIikvXOe;
-        "fabric-26.3" = _BPJOm3O0;
+        "fabric-26.3" = _TxWkAZRj;
         "pkg-0.9.1" = _BSPzIgqC;
         "pkg-0.9.2" = _3PuQTbJ4;
         "pkg-1.0.0" = _lLgih7aU;
@@ -75,7 +81,8 @@ let
         "pkg-2.0.0" = _2cawjyw9;
         "pkg-2.1.0" = _nIikvXOe;
         "pkg-3.0.0" = _BPJOm3O0;
-        "default" = _BPJOm3O0;
+        "pkg-3.1.0" = _TxWkAZRj;
+        "default" = _TxWkAZRj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "imac2007-music-player";

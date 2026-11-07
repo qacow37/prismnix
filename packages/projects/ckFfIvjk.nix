@@ -121,6 +121,86 @@ let
             "file" = "XaeroHeadTracker-2.1.2-fabric-26.3.jar";
             "hash" = "sha512-yq+MrxruHwm5JhNVY+INFKtfjv9COkPi8X+Ct6skJGBmrCwhuAmnzAepz0R1qukvuaIcrSu7OMYXAui8Ki9znQ==";
         };
+        _gmnbqsNM = {
+            "id" = "gmnbqsNM";
+            "file" = "XaeroHeadTracker-2.2.0-fabric-26.3.jar";
+            "hash" = "sha512-d5UDaIk735hBNDvWOJlvYeDbT+WvUvtRbEr/cN58Id4E7tsdfJVlOxmGBey/XLGjxN5oLkkGUrWG1t2u1p9X8w==";
+        };
+        _l6sA9H8d = {
+            "id" = "l6sA9H8d";
+            "file" = "XaeroHeadTracker-2.2.0-fabric-26.2.jar";
+            "hash" = "sha512-+fnrsOLdvwElUw2sztA5gNR5HiyGBDToenRD5iK8e0adY2zMrpHYofcxRT34w+ZrnJX8pOCfBRJYu6dZbe9e2w==";
+        };
+        _XXo5jl20 = {
+            "id" = "XXo5jl20";
+            "file" = "XaeroHeadTracker-2.2.0-fabric-1.21.11.jar";
+            "hash" = "sha512-taHJRINh7b3BnJYCOiExJhgr6Jk/a9uJTfCMrEMtSlZT3AUwSLyaUUJHFx/yJSVcJUVnwRXzonsY0UUmgiLMcw==";
+        };
+        _BciGAEVB = {
+            "id" = "BciGAEVB";
+            "file" = "XaeroHeadTracker-2.2.0-fabric-1.21.1.jar";
+            "hash" = "sha512-OAB7sNjon+vDC6ZRVCc4gPao7eM0isZshQozJOf+TwlIwrVSo79UikhJWKKL5lBSz+QFyzOx/RE04D0CYYW4Qw==";
+        };
+        _W98vviHg = {
+            "id" = "W98vviHg";
+            "file" = "XaeroHeadTracker-2.2.0-neoforge-26.3.jar";
+            "hash" = "sha512-JLAYl10HI8qAsr/qurqviQ4IqxM9roCh/O6Z72z/6iaMYa29FxuF7CzED9E4ExZNH/WFj/BEm2dv6lcag7cpxw==";
+        };
+        _PwJ25dx4 = {
+            "id" = "PwJ25dx4";
+            "file" = "XaeroHeadTracker-2.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-DJ/KtwKJI/sB+/uE5XJBvWCn9tohUcXC9ZqKNkBHvDvFGvsXe9ocRpp/7rgbUz3yrBQKQOgQUSDnC0JIlAqUdQ==";
+        };
+        _cLvvipxQ = {
+            "id" = "cLvvipxQ";
+            "file" = "XaeroHeadTracker-2.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-YZeYjHOKVwe5dhljU4TjBG+V811G6CJHbPN0Iibn2TwHdwUYKImwQ84Rj19bhqOlkdnqy5y/BVeI7VWYQ89jPw==";
+        };
+        _8T0uN2Hy = {
+            "id" = "8T0uN2Hy";
+            "file" = "XaeroHeadTracker-2.2.1-fabric-1.21.11.jar";
+            "hash" = "sha512-aU5DH51zVS3OcJQAelrBC03pRW0AVOTi/gnXbJfLjxTVGOUBRzksgMN+hnuCkWEvhKRRgdEHiek3q8A762SpfA==";
+        };
+        _Eci0Aeq9 = {
+            "id" = "Eci0Aeq9";
+            "file" = "XaeroHeadTracker-2.2.1-fabric-1.21.1.jar";
+            "hash" = "sha512-qO2BS4DfQl4FAp4kq2xl3FV0o6f3gqGhF2YJ3UerfQt9gpL9yomfAjmRY8Tu0+eerEd4C/UBcF9Sn5x/irzlTw==";
+        };
+        _QGpQhGCb = {
+            "id" = "QGpQhGCb";
+            "file" = "XaeroHeadTracker-2.3.0-fabric-26.3.jar";
+            "hash" = "sha512-d4ZmIKwLkW2TzFQo6ukzrdJeTENj6duniXhm2NX9lGglv3G2ErcpNbHtxz098VakwoDyxtIYInicjW/4bcNUXA==";
+        };
+        _AUlF7Rnv = {
+            "id" = "AUlF7Rnv";
+            "file" = "XaeroHeadTracker-2.3.0-fabric-26.2.jar";
+            "hash" = "sha512-8UNfCO+Juxu8ro/FyP+drxIIX0JBBJ/hxQhkyYKxazYFOFML7tamddwxdbGiciGtwL3rCckCJQ8nA/Epipd9Rg==";
+        };
+        _tQ0af9lP = {
+            "id" = "tQ0af9lP";
+            "file" = "XaeroHeadTracker-2.3.0-fabric-1.21.11.jar";
+            "hash" = "sha512-CJxRcDcuVtA0guQbivu5qI31LRsXO87CvX6ZGnU62y9jQ0vVXjapEcEs3FPiFwt1Zgm52QuBqti5YQc0P92XIA==";
+        };
+        _YNWOL0MA = {
+            "id" = "YNWOL0MA";
+            "file" = "XaeroHeadTracker-2.3.0-fabric-1.21.1.jar";
+            "hash" = "sha512-3nY5+O/3wEIy+lSIUReUZmjwbZ3qAKYw32NxLRhH38kvGNrPG8++iiPYjlg03ps4uzDUPsBmE5YAqwaQWpS9Tw==";
+        };
+        _gIRtOAOg = {
+            "id" = "gIRtOAOg";
+            "file" = "XaeroHeadTracker-2.3.0-neoforge-26.3.jar";
+            "hash" = "sha512-K7EM49k0GeBLNVAEf1SJvHosznqzOYI65Kj3oFd/3U9iJxkGeyH4LDpFa0lMs9BG0vOR4DmG4cp3YFqD7NGf0Q==";
+        };
+        _rIkCojmo = {
+            "id" = "rIkCojmo";
+            "file" = "XaeroHeadTracker-2.3.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-Yfx2r9KnIdUBLMk2+V4b7wdtPsA4ApQ94t5FX2L6Db2oEHxzRNUX02IyvU9Q63es704D15Phfk080hrq7hwxLg==";
+        };
+        _Zl5KeRHE = {
+            "id" = "Zl5KeRHE";
+            "file" = "XaeroHeadTracker-2.3.0-forge-1.20.1.jar";
+            "hash" = "sha512-abpKeA3e49yt43fS6YM1rVaF5LKiRO8Bth6QGmqJIcArz4t8Fr4v/B5/WRxpBEIgZlxxlp4p+K7SFKkP4nnocw==";
+        };
     in {
         "tTj6xisy" = _tTj6xisy;
         "3atAwocp" = _3atAwocp;
@@ -146,18 +226,34 @@ let
         "Xtb8f5YQ" = _Xtb8f5YQ;
         "cKKy8RkC" = _cKKy8RkC;
         "bAfTRRtS" = _bAfTRRtS;
-        "fabric-26.2" = _NqoKZa2I;
-        "fabric-1.21.1" = _cKKy8RkC;
+        "gmnbqsNM" = _gmnbqsNM;
+        "l6sA9H8d" = _l6sA9H8d;
+        "XXo5jl20" = _XXo5jl20;
+        "BciGAEVB" = _BciGAEVB;
+        "W98vviHg" = _W98vviHg;
+        "PwJ25dx4" = _PwJ25dx4;
+        "cLvvipxQ" = _cLvvipxQ;
+        "8T0uN2Hy" = _8T0uN2Hy;
+        "Eci0Aeq9" = _Eci0Aeq9;
+        "QGpQhGCb" = _QGpQhGCb;
+        "AUlF7Rnv" = _AUlF7Rnv;
+        "tQ0af9lP" = _tQ0af9lP;
+        "YNWOL0MA" = _YNWOL0MA;
+        "gIRtOAOg" = _gIRtOAOg;
+        "rIkCojmo" = _rIkCojmo;
+        "Zl5KeRHE" = _Zl5KeRHE;
+        "fabric-26.2" = _AUlF7Rnv;
+        "fabric-1.21.1" = _YNWOL0MA;
         "fabric-26.1.2" = _TSMuZAEv;
         "fabric-1.20.1" = _z9VzviZ9;
         "fabric-26.1" = _TSMuZAEv;
         "fabric-26.1.1" = _TSMuZAEv;
-        "fabric-1.21.11" = _x6oeWBIa;
-        "fabric-26.3" = _bAfTRRtS;
+        "fabric-1.21.11" = _tQ0af9lP;
+        "fabric-26.3" = _QGpQhGCb;
         "neoforge-26.2" = _dKt09RAP;
-        "neoforge-1.21.1" = _o3PZ2v4K;
-        "neoforge-26.3" = _JT1GZVPY;
-        "forge-1.20.1" = _Xtb8f5YQ;
+        "neoforge-1.21.1" = _rIkCojmo;
+        "neoforge-26.3" = _gIRtOAOg;
+        "forge-1.20.1" = _Zl5KeRHE;
         "pkg-1.0.0" = _CurMuJAN;
         "pkg-2.0.0+fabric-26.3" = _Q12OM3Rg;
         "pkg-2.0.0+neoforge-26.3" = _5odd9qkv;
@@ -173,7 +269,23 @@ let
         "pkg-2.1.1+forge-1.20.1" = _Xtb8f5YQ;
         "pkg-2.1.1+fabric-1.21.1" = _cKKy8RkC;
         "pkg-2.1.2+fabric-26.3" = _bAfTRRtS;
-        "default" = _bAfTRRtS;
+        "pkg-2.2.0+fabric-26.3" = _gmnbqsNM;
+        "pkg-2.2.0+fabric-26.2" = _l6sA9H8d;
+        "pkg-2.2.0+fabric-1.21.11" = _XXo5jl20;
+        "pkg-2.2.0+fabric-1.21.1" = _BciGAEVB;
+        "pkg-2.2.0+neoforge-26.3" = _W98vviHg;
+        "pkg-2.2.0+neoforge-1.21.1" = _PwJ25dx4;
+        "pkg-2.2.0+forge-1.20.1" = _cLvvipxQ;
+        "pkg-2.2.1+fabric-1.21.11" = _8T0uN2Hy;
+        "pkg-2.2.1+fabric-1.21.1" = _Eci0Aeq9;
+        "pkg-2.3.0+fabric-26.3" = _QGpQhGCb;
+        "pkg-2.3.0+fabric-26.2" = _AUlF7Rnv;
+        "pkg-2.3.0+fabric-1.21.11" = _tQ0af9lP;
+        "pkg-2.3.0+fabric-1.21.1" = _YNWOL0MA;
+        "pkg-2.3.0+neoforge-26.3" = _gIRtOAOg;
+        "pkg-2.3.0+neoforge-1.21.1" = _rIkCojmo;
+        "pkg-2.3.0+forge-1.20.1" = _Zl5KeRHE;
+        "default" = _Zl5KeRHE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaero-head-tracker";

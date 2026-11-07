@@ -46,6 +46,11 @@ let
             "file" = "tfmg-1.21.1-1.3.3-community.jar";
             "hash" = "sha512-Aul0HUqFlrV65ehT2IXfD2+75SUww/RTg0v+BfbkNPqXmPi795aJ+05PBYK9Y8U6P7WBmGnc+mK1EDMccBguBw==";
         };
+        _o8aSx7yp = {
+            "id" = "o8aSx7yp";
+            "file" = "tfmg-1.21.1-1.3.3a-community.jar";
+            "hash" = "sha512-/lnkWm2oO60q++w7D0NLh5HzF+3v5rUyE+jcP3X0yMDzeCP0DOmvRjFllSuYO5CK0ZdNS4cE4IaHVxklyVhNZg==";
+        };
     in {
         "b2OPLItG" = _b2OPLItG;
         "lowbBYLH" = _lowbBYLH;
@@ -56,7 +61,8 @@ let
         "Kw93Pv7B" = _Kw93Pv7B;
         "L0pdVzc7" = _L0pdVzc7;
         "IyTTw6bJ" = _IyTTw6bJ;
-        "neoforge-1.21.1" = _IyTTw6bJ;
+        "o8aSx7yp" = _o8aSx7yp;
+        "neoforge-1.21.1" = _o8aSx7yp;
         "pkg-1.2.3a" = _b2OPLItG;
         "pkg-1.2.4" = _lowbBYLH;
         "pkg-1.2.4a" = _PlmL0g2B;
@@ -66,7 +72,8 @@ let
         "pkg-1.3.2" = _Kw93Pv7B;
         "pkg-1.3.2a" = _L0pdVzc7;
         "pkg-1.3.3" = _IyTTw6bJ;
-        "default" = _IyTTw6bJ;
+        "pkg-1.3.3a" = _o8aSx7yp;
+        "default" = _o8aSx7yp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfmg-community-edition";

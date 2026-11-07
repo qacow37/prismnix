@@ -96,6 +96,11 @@ let
             "file" = "TFD V1.5 Alpha1 MC1.20.1 Forge.jar";
             "hash" = "sha512-uGXHSwd+4KIp9oxuZMFTCaSbi1RFAejRDvcxud9dpIg+RIoBwAD7c4CX/Td8dU/7736YjdoKX6KWh08ENbxuGg==";
         };
+        _g00aDTKj = {
+            "id" = "g00aDTKj";
+            "file" = "TFD V1.5 Alpha2 MC1.20.1 Forge.jar";
+            "hash" = "sha512-hvivrUnn2cE4wdMRCuUaiQtojIkOtZQd/czLnqKt2SiNGJfUPIegEpGOzIdG28KVAjNJzlOcZDCUwSiby9yLAA==";
+        };
     in {
         "PuQkxP0I" = _PuQkxP0I;
         "836Mj8no" = _836Mj8no;
@@ -116,8 +121,9 @@ let
         "SzTgQ4Kc" = _SzTgQ4Kc;
         "pFgQWOVL" = _pFgQWOVL;
         "GuDQAnfX" = _GuDQAnfX;
+        "g00aDTKj" = _g00aDTKj;
         "forge-1.19.2" = _PuQkxP0I;
-        "forge-1.20.1" = _GuDQAnfX;
+        "forge-1.20.1" = _g00aDTKj;
         "pkg-1.3" = _PuQkxP0I;
         "pkg-1.4" = _LtdLIvyY;
         "pkg-1.41" = _cox7wkqh;
@@ -128,7 +134,8 @@ let
         "pkg-1.44" = _SzTgQ4Kc;
         "pkg-1.441" = _pFgQWOVL;
         "pkg-1.5" = _GuDQAnfX;
-        "default" = _GuDQAnfX;
+        "pkg-1.5-Alpha2" = _g00aDTKj;
+        "default" = _g00aDTKj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-forgotten-dimensions";

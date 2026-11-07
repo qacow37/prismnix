@@ -126,6 +126,11 @@ let
             "file" = "pvpoptimizer-1.4+mc26.3.jar";
             "hash" = "sha512-i/JGzmpNeqUPTUxc+Xx0ku27do+R2rV0342AC3lqOp76rokNZvEvP51VvBTUqdoaDnDbqhz8r/D1TM7pMkV+xg==";
         };
+        _WwgKwAGJ = {
+            "id" = "WwgKwAGJ";
+            "file" = "pvpoptimizer.1.5-1.21.11.jar";
+            "hash" = "sha512-038E9GNpfA8BioEIrhnk4/ITb6M/xL6IjRW8hFsVdvRyWuTnAUtRjHMq819clsOMyDLgDPLxF0tGlGK6aPg40w==";
+        };
     in {
         "KAfVVVxF" = _KAfVVVxF;
         "xGOWKSDe" = _xGOWKSDe;
@@ -152,9 +157,10 @@ let
         "zOwUNDKY" = _zOwUNDKY;
         "e6JlbsW2" = _e6JlbsW2;
         "HhuTXxbk" = _HhuTXxbk;
+        "WwgKwAGJ" = _WwgKwAGJ;
         "fabric-1.21.10" = _iQxNofbU;
         "fabric-1.21.9" = _iQxNofbU;
-        "fabric-1.21.11" = _iQxNofbU;
+        "fabric-1.21.11" = _WwgKwAGJ;
         "fabric-1.21.8" = _H1DItS5V;
         "fabric-1.21.1" = _e6JlbsW2;
         "fabric-26.2" = _4lGwTXcS;
@@ -179,7 +185,8 @@ let
         "pkg-1.4+mc26.1-26.1.2" = _zOwUNDKY;
         "pkg-1.4+mc1.21-1.21.1" = _e6JlbsW2;
         "pkg-1.4+mc26.3" = _HhuTXxbk;
-        "default" = _HhuTXxbk;
+        "pkg-1.5+mc1.21.11" = _WwgKwAGJ;
+        "default" = _WwgKwAGJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-optmizer";

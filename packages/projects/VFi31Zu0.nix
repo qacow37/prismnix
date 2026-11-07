@@ -41,6 +41,11 @@ let
             "file" = "cobblemon-ball-satchel-fabric-1.21.1-v1.10.3.jar";
             "hash" = "sha512-A6ouECqLUTePTKHGkLg8VpW9/QiLTAiYUC7WwotuZ/azbI4csgV55CJFGv+2jGyqFGRUheFdYfFfBJXY0wGFyw==";
         };
+        _Wfg14r6Q = {
+            "id" = "Wfg14r6Q";
+            "file" = "cobblemon-ball-satchel-fabric-1.21.1-v1.11.1.jar";
+            "hash" = "sha512-Xr612VsPa0fZd3VSGUw74rvzOsicR3JZnc9wdeBkSEKmhb5NFunnqPg5IxHPh2ZSOE+MtCmZuZ5q7HEyZl3i5A==";
+        };
     in {
         "Y6oVM5jo" = _Y6oVM5jo;
         "gE86VVcX" = _gE86VVcX;
@@ -50,7 +55,8 @@ let
         "ckTvCVbt" = _ckTvCVbt;
         "uEzgJJIO" = _uEzgJJIO;
         "mRGzGjHh" = _mRGzGjHh;
-        "fabric-1.21.1" = _mRGzGjHh;
+        "Wfg14r6Q" = _Wfg14r6Q;
+        "fabric-1.21.1" = _Wfg14r6Q;
         "pkg-1.4.0" = _Y6oVM5jo;
         "pkg-1.6.2" = _gE86VVcX;
         "pkg-1.6.3" = _Bnr5YWkN;
@@ -59,7 +65,8 @@ let
         "pkg-1.9.3" = _ckTvCVbt;
         "pkg-1.10.2" = _uEzgJJIO;
         "pkg-1.10.3" = _mRGzGjHh;
-        "default" = _mRGzGjHh;
+        "pkg-1.11.1" = _Wfg14r6Q;
+        "default" = _Wfg14r6Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-ball-satchel";

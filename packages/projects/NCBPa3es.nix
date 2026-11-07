@@ -196,6 +196,51 @@ let
             "file" = "tilted+26.3-1.4.3.jar";
             "hash" = "sha512-UfpPMPZjupDrvtcnrSqXR505LY0KrQMmtjybY/C/v4y/FiME0QNZm/s1GMP61koFe5GT6dXOunV2RA3jiFIEkA==";
         };
+        _v4JD63UN = {
+            "id" = "v4JD63UN";
+            "file" = "tilted+1.21.1-1.5.jar";
+            "hash" = "sha512-7Ie3gEBPvAu2UqDwH21qPnug+/5/2/UuAbz1+QsLvgQ7t99qxXDdKHiuLj3u5H93atdn0fLX+iy9FbahVnFf4g==";
+        };
+        _jb7wLSB3 = {
+            "id" = "jb7wLSB3";
+            "file" = "tilted+1.21.8-1.5.jar";
+            "hash" = "sha512-C5C60tFm3BsARpIVDFhEigXKbpsb9aKu2vsSlQPBmJaRQRoVyT6is06OduYpYC2/2vPJjeMGUod6iXq9OAxfDA==";
+        };
+        _WFJgkXFT = {
+            "id" = "WFJgkXFT";
+            "file" = "tilted+1.21.9-1.5.jar";
+            "hash" = "sha512-LbvQQwTNP0eZS96uN6EAKkZZ3iatbwlIzLWJw6Ofv83Bk3sinruprTGJxZB0d6lfZsLBcII/UnXipMGE6SVQJw==";
+        };
+        _ePBPKxRO = {
+            "id" = "ePBPKxRO";
+            "file" = "tilted+1.21.10-1.5.jar";
+            "hash" = "sha512-0WJ9UE9+NPljCEUPuw0bouIaf8P/BKmfF1shZFJJFd3FpLuePkcLbPc3yLDMYnx3uMouu1Bkcxwhsmvpc5XjzQ==";
+        };
+        _haQ6iSK9 = {
+            "id" = "haQ6iSK9";
+            "file" = "tilted+1.21.11-1.5.jar";
+            "hash" = "sha512-n7ElAebefEvvlq5A0mwboueIRcZBIAG063IK+u8u83/5CoccdBp+kmieEyUi53JH57hraoMBMzq0ku0aIgZ9Fg==";
+        };
+        _KtqLagDD = {
+            "id" = "KtqLagDD";
+            "file" = "tilted+26.1.2-1.5.jar";
+            "hash" = "sha512-mU2qsCHYBT/4TN/P47QpcAXJUZx9CjQ9rbp+w828i1/AgwenMk4W78vvATz5MKkgQ0BjBi8ZwObrFhHIhr51RA==";
+        };
+        _3vPG8SGn = {
+            "id" = "3vPG8SGn";
+            "file" = "tilted+26.2-1.5.jar";
+            "hash" = "sha512-BztR1YDJIMrfBBgDuAap76DiAeA5EtLHeuHVzBTDqoTELc1tv2CMg9Idc1NTybjPMEDZIhDj6vBljkN5ycgE5w==";
+        };
+        _UldJrcE5 = {
+            "id" = "UldJrcE5";
+            "file" = "tilted+26.3-1.5.jar";
+            "hash" = "sha512-AZBvqt8mLYxiNeaH+/Tf4KzvnYH9fot01MFzcNZspMoMXoTn+uHXEQhdvOOxDxsuGB7/YvgBG/7lnlgD/9dIgQ==";
+        };
+        _IHBJWIQR = {
+            "id" = "IHBJWIQR";
+            "file" = "tilted+26.4-snapshot-7-1.5.jar";
+            "hash" = "sha512-3V9CS+k1ogoCxpxFpTTEFgFl+LZRASNu6lkEFRIYvxyEa2iVoaCuC8N0KEcDdHH/QM3FZ7z0kblnj+DFyB4dIQ==";
+        };
     in {
         "loda0mhM" = _loda0mhM;
         "Hqwlk0R7" = _Hqwlk0R7;
@@ -236,17 +281,28 @@ let
         "iq5TLZaT" = _iq5TLZaT;
         "gIm8q2Cb" = _gIm8q2Cb;
         "xVjfp1gC" = _xVjfp1gC;
-        "fabric-26.1" = _274e8vS8;
-        "fabric-26.1.1" = _274e8vS8;
-        "fabric-26.1.2" = _274e8vS8;
-        "fabric-26.2" = _1BeeR4Nx;
+        "v4JD63UN" = _v4JD63UN;
+        "jb7wLSB3" = _jb7wLSB3;
+        "WFJgkXFT" = _WFJgkXFT;
+        "ePBPKxRO" = _ePBPKxRO;
+        "haQ6iSK9" = _haQ6iSK9;
+        "KtqLagDD" = _KtqLagDD;
+        "3vPG8SGn" = _3vPG8SGn;
+        "UldJrcE5" = _UldJrcE5;
+        "IHBJWIQR" = _IHBJWIQR;
+        "fabric-26.1" = _KtqLagDD;
+        "fabric-26.1.1" = _KtqLagDD;
+        "fabric-26.1.2" = _KtqLagDD;
+        "fabric-26.2" = _3vPG8SGn;
         "fabric-26.3-snapshot-3" = _Kmj4Bk79;
-        "fabric-1.21.8" = _iq5TLZaT;
-        "fabric-1.21.9" = _trwaaiVZ;
-        "fabric-1.21.10" = _trwaaiVZ;
-        "fabric-1.21.11" = _mBV0sGMD;
+        "fabric-1.21.8" = _jb7wLSB3;
+        "fabric-1.21.9" = _WFJgkXFT;
+        "fabric-1.21.10" = _ePBPKxRO;
+        "fabric-1.21.11" = _haQ6iSK9;
         "fabric-26.3-snapshot-7" = _gIm8q2Cb;
-        "fabric-26.3" = _xVjfp1gC;
+        "fabric-26.3" = _UldJrcE5;
+        "fabric-1.21.1" = _v4JD63UN;
+        "fabric-26.4-snapshot-7" = _IHBJWIQR;
         "pkg-1.0.0" = _loda0mhM;
         "pkg-1.1.0" = _AwE5jyLq;
         "pkg-1.1.1+26.1" = _Qz586z3u;
@@ -258,7 +314,8 @@ let
         "pkg-1.4.0" = _hsmmpSnn;
         "pkg-1.4.1" = _Kmj4Bk79;
         "pkg-1.4.3" = _xVjfp1gC;
-        "default" = _xVjfp1gC;
+        "pkg-1.5" = _IHBJWIQR;
+        "default" = _IHBJWIQR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tilted";

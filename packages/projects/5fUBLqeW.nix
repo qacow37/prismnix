@@ -116,6 +116,11 @@ let
             "file" = "create_aeronautics_toolgun-0.3.8.jar";
             "hash" = "sha512-n/h2ROZ3xzyqjSPHdSAN9VBPsQEt+M6TdvLtISc95pV3fTR4davAMklTDyKDZGQHHtqPguXweeoRvIkljsON+A==";
         };
+        _dZDerJVc = {
+            "id" = "dZDerJVc";
+            "file" = "create_aeronautics_toolgun-0.3.9.jar";
+            "hash" = "sha512-/gxo3rkP4AfBYgx/ToeR1tGNX/tEarL+e+WEFDfjjup+qcjGmS0p3TuS6rtTJj1FMuai+z/v7IUXJVl5FZ134g==";
+        };
     in {
         "kIICNx1L" = _kIICNx1L;
         "3nsP0FS3" = _3nsP0FS3;
@@ -140,7 +145,8 @@ let
         "pcD0Yutw" = _pcD0Yutw;
         "LOmp6ckQ" = _LOmp6ckQ;
         "Cpnq2cXd" = _Cpnq2cXd;
-        "neoforge-1.21.1" = _Cpnq2cXd;
+        "dZDerJVc" = _dZDerJVc;
+        "neoforge-1.21.1" = _dZDerJVc;
         "pkg-0.0.1-beta" = _kIICNx1L;
         "pkg-0.0.2-beta" = _3nsP0FS3;
         "pkg-0.0.3-beta" = _YOftzIcI;
@@ -164,7 +170,8 @@ let
         "pkg-0.3.6" = _pcD0Yutw;
         "pkg-0.3.7" = _LOmp6ckQ;
         "pkg-0.3.8" = _Cpnq2cXd;
-        "default" = _Cpnq2cXd;
+        "pkg-0.3.9" = _dZDerJVc;
+        "default" = _dZDerJVc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-toolgun";

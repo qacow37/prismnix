@@ -66,6 +66,21 @@ let
             "file" = "adventureitemstats-neoforge-0.7.0.jar";
             "hash" = "sha512-9Hrgl4g2aVe7jnLTf/0e4Jafa4zYGDG+4eW0GHX7qwgo13fsBM6sbNzwQL1S71BFYbDaPos1jOhqgSR41dZ5YQ==";
         };
+        _KzwCn0Wa = {
+            "id" = "KzwCn0Wa";
+            "file" = "adventureitemstats-fabric-0.8.0.jar";
+            "hash" = "sha512-d45B3BizG9aIaf4Bri76T2ieDV2xZJTpjMbvCNPPQclfjZR2PSLjlIrUWiH24dgMeHyLLEOzjpkVSI6oqY4mHw==";
+        };
+        _7n3vm3en = {
+            "id" = "7n3vm3en";
+            "file" = "adventureitemstats-forge-0.8.0.jar";
+            "hash" = "sha512-q+vxlci3yd46Ud/QR2vqiXHux42wtudyUJ/m/sQ0tHLjGij8EZDTB3prxd8n5I2zz6A7SwDPmNXXWsNaCjRbuQ==";
+        };
+        _6UtblTX7 = {
+            "id" = "6UtblTX7";
+            "file" = "adventureitemstats-neoforge-0.8.0.jar";
+            "hash" = "sha512-DWEyZLCCDWQF0xQWsmo2VeHnWJCpzrJ+bB46CPa8vgdTKVNBzlUqw4Tj0wK83FFcTrJr3GBORKkQyDh2Q0qYdQ==";
+        };
     in {
         "rhQ1iNC2" = _rhQ1iNC2;
         "ZpcBQ6Ba" = _ZpcBQ6Ba;
@@ -80,9 +95,12 @@ let
         "ZHG88wJk" = _ZHG88wJk;
         "6oYhbYj5" = _6oYhbYj5;
         "kZyMXeU3" = _kZyMXeU3;
-        "forge-1.21.1" = _6oYhbYj5;
-        "fabric-1.21.1" = _ZHG88wJk;
-        "neoforge-1.21.1" = _kZyMXeU3;
+        "KzwCn0Wa" = _KzwCn0Wa;
+        "7n3vm3en" = _7n3vm3en;
+        "6UtblTX7" = _6UtblTX7;
+        "forge-1.21.1" = _7n3vm3en;
+        "fabric-1.21.1" = _KzwCn0Wa;
+        "neoforge-1.21.1" = _6UtblTX7;
         "pkg-0.1.0" = _rhQ1iNC2;
         "pkg-v0.2.0+fabric" = _ZpcBQ6Ba;
         "pkg-v0.2.0+forge" = _PBnWzMS8;
@@ -96,7 +114,10 @@ let
         "pkg-v0.7.0+fabric" = _ZHG88wJk;
         "pkg-v0.7.0+forge" = _6oYhbYj5;
         "pkg-v0.7.0+neoforge" = _kZyMXeU3;
-        "default" = _kZyMXeU3;
+        "pkg-v0.8.0+fabric" = _KzwCn0Wa;
+        "pkg-v0.8.0+forge" = _7n3vm3en;
+        "pkg-v0.8.0+neoforge" = _6UtblTX7;
+        "default" = _6UtblTX7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventure-items-stats";

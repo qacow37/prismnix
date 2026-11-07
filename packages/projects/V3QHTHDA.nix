@@ -81,6 +81,26 @@ let
             "file" = "DAP ur Homie!-3.0.1.jar";
             "hash" = "sha512-ZjF8NqVlA1KgTND1tOXuIVvpFnF6i1o/TbSeitfj4qKbijndhKtV/mj45YJXAEX9xD0UfCqkSkIzMfvGBaK1Dg==";
         };
+        _7I1nbhUQ = {
+            "id" = "7I1nbhUQ";
+            "file" = "DAP ur Homie!-neoforge-3.1.0.jar";
+            "hash" = "sha512-sQ6KP3Ka+SNCXoDNVckUl2gQ66hr/+r2y0KNokmdN4L0FHwdj59i8tdV+Mg2U298/IbRrq2oiCTlHydsFQF91g==";
+        };
+        _vkFpeIGm = {
+            "id" = "vkFpeIGm";
+            "file" = "DAP ur Homie!-3.1.0.jar";
+            "hash" = "sha512-A28Q7mj/Zf1ueYrJdyPhjvPBYBB1zijp0fIcxihpjUcw6NqbpqBklsxW0IHoHa7P9xv80pYXjgm6Hen5d/M/nw==";
+        };
+        _N8lsvTdi = {
+            "id" = "N8lsvTdi";
+            "file" = "DAP ur Homie! 1.21.1-3.1.0.jar";
+            "hash" = "sha512-pHA5JZBYPrYY8Hc99k6/EkuyUA1X7q3109W12lFL1F5f7l7KsmuaoBsL68Ug2WCJbR1RxBWfOQNKz486Xfmggg==";
+        };
+        _2lJ9hXUx = {
+            "id" = "2lJ9hXUx";
+            "file" = "dap-ur-homie-1.21.1-neoforge-3.1.1.jar";
+            "hash" = "sha512-DASdLPP4qF35Yozuxd8aeDmL9/Yfc5vycSb5+NWY0ZaHuUcXW7vWIz+B5Ii6Q/6Oqscn+MAq7o3G5dg0RtGL3w==";
+        };
     in {
         "2hfdVsuD" = _2hfdVsuD;
         "fAVDiGrc" = _fAVDiGrc;
@@ -98,9 +118,13 @@ let
         "vgW4ls0k" = _vgW4ls0k;
         "P5UHSuWO" = _P5UHSuWO;
         "4bVLQOj9" = _4bVLQOj9;
-        "fabric-1.21.1" = _P5UHSuWO;
-        "fabric-1.21.11" = _pJ8vP6eE;
-        "neoforge-1.21.1" = _4bVLQOj9;
+        "7I1nbhUQ" = _7I1nbhUQ;
+        "vkFpeIGm" = _vkFpeIGm;
+        "N8lsvTdi" = _N8lsvTdi;
+        "2lJ9hXUx" = _2lJ9hXUx;
+        "fabric-1.21.1" = _N8lsvTdi;
+        "fabric-1.21.11" = _vkFpeIGm;
+        "neoforge-1.21.1" = _2lJ9hXUx;
         "neoforge-1.21.11" = _Mz3BBWxA;
         "pkg-1.0.0" = _fAVDiGrc;
         "pkg-1.2.0" = _zKsiim7d;
@@ -111,7 +135,9 @@ let
         "pkg-2.0.0+mc-1.21.11-beta-2" = _Mz3BBWxA;
         "pkg-3.0.0+mc-1.21.11-alpha-2" = _u7JXat1B;
         "pkg-3.0.1" = _4bVLQOj9;
-        "default" = _4bVLQOj9;
+        "pkg-3.1.0" = _N8lsvTdi;
+        "pkg-3.1.1" = _2lJ9hXUx;
+        "default" = _2lJ9hXUx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dap-ur-homies";

@@ -216,6 +216,11 @@ let
             "file" = "pyrellium-0.4.2-1.21.11.jar";
             "hash" = "sha512-Mp96Hagze9U6WCX+f/TE9ZzaYNLxyuetctkYK3SkjdpryYFH/PaG3NZQSVzyptgxlbaA7rBPJ/k/nQy7JlBdtQ==";
         };
+        _T5isI6Bn = {
+            "id" = "T5isI6Bn";
+            "file" = "pyrellium-0.4.2-1.21.1-neo.jar";
+            "hash" = "sha512-yNgEsGSuLOkkiW1LV1v1WAU909p3L4dXkFy2RpO/1P46N8TPDFWAc7DX6YeGMIS7vjDieORTxtrXH3Q1Ir8Waw==";
+        };
     in {
         "O80cldRU" = _O80cldRU;
         "mGZ2bZKj" = _mGZ2bZKj;
@@ -260,12 +265,13 @@ let
         "cYrFzsU3" = _cYrFzsU3;
         "Ozjvmz1k" = _Ozjvmz1k;
         "mJeHfXGd" = _mJeHfXGd;
+        "T5isI6Bn" = _T5isI6Bn;
         "fabric-1.20.1" = _cYrFzsU3;
         "fabric-1.20.2" = _nIElh6Nq;
         "fabric-1.20" = _KFELddCC;
         "fabric-1.21.1" = _Ozjvmz1k;
         "fabric-1.21.11" = _mJeHfXGd;
-        "neoforge-1.21.1" = _2HWSo38m;
+        "neoforge-1.21.1" = _T5isI6Bn;
         "pkg-0.1.0" = _O80cldRU;
         "pkg-0.1.1" = _mGZ2bZKj;
         "pkg-0.1.2" = _KFELddCC;
@@ -309,7 +315,8 @@ let
         "pkg-0.4.2-1.20.1" = _cYrFzsU3;
         "pkg-0.4.2-1.21.1" = _Ozjvmz1k;
         "pkg-0.4.2-1.21.11" = _mJeHfXGd;
-        "default" = _mJeHfXGd;
+        "pkg-0.4.2-1.21.1-neo" = _T5isI6Bn;
+        "default" = _T5isI6Bn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pyrellium";

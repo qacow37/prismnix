@@ -61,6 +61,21 @@ let
             "file" = "arcadia-ah-neoforge-26.1.2-2.0.0.jar";
             "hash" = "sha512-l602dM0jhUVUcmdAd/q5AVwBnxGguRyJmc2fB9io6EV4fHs3nTIT8kvwB8a9XZWDkqQp4Pt1j0c78O452w69tw==";
         };
+        _yHJw8PmM = {
+            "id" = "yHJw8PmM";
+            "file" = "arcadia-ah-neoforge-26.1.2-2.0.1.jar";
+            "hash" = "sha512-5NeHlb7jh4YayAqBwnysdO6WiD3nKVFyGyL2b3xEUrfPzZv2lFY7sV+ZdVLkxponnXVR7ZGETw+ujka591NRRg==";
+        };
+        _wzUUjrCA = {
+            "id" = "wzUUjrCA";
+            "file" = "arcadia-ah-neoforge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-r75ROmpZllcNZwvCjmo6CvrBJzJq1h8bQVdwGa5Js3L6JnO9z9KppUzLDv8C0gBGTqu6r0JVkbRJ46c/XXk3+Q==";
+        };
+        _AdEQAiu3 = {
+            "id" = "AdEQAiu3";
+            "file" = "arcadia-ah-forge-1.20.1-2.0.1.jar";
+            "hash" = "sha512-grCNhNtOtLTa3VrGjoffbgxwuidhctxHNjU0KjVjSuapJ2sA1Hqwz4Tpw/FbzQEjfWNeci036GK+weNf5Bz1Vg==";
+        };
     in {
         "fhzZRGfa" = _fhzZRGfa;
         "rZIimL2t" = _rZIimL2t;
@@ -74,9 +89,12 @@ let
         "jjPCW91M" = _jjPCW91M;
         "yjo9tcdK" = _yjo9tcdK;
         "iDaDDtOa" = _iDaDDtOa;
-        "neoforge-1.21.1" = _yjo9tcdK;
-        "neoforge-26.1.2" = _iDaDDtOa;
-        "forge-1.20.1" = _jjPCW91M;
+        "yHJw8PmM" = _yHJw8PmM;
+        "wzUUjrCA" = _wzUUjrCA;
+        "AdEQAiu3" = _AdEQAiu3;
+        "neoforge-1.21.1" = _wzUUjrCA;
+        "neoforge-26.1.2" = _yHJw8PmM;
+        "forge-1.20.1" = _AdEQAiu3;
         "forge-1.20.2" = _heqsI3al;
         "forge-1.20.3" = _heqsI3al;
         "forge-1.20.4" = _heqsI3al;
@@ -91,7 +109,10 @@ let
         "pkg-2.0.0+forge-1.20.1" = _jjPCW91M;
         "pkg-2.0.0+neoforge-1.21.1" = _yjo9tcdK;
         "pkg-2.0.0+neoforge-26.1.2" = _iDaDDtOa;
-        "default" = _iDaDDtOa;
+        "pkg-2.0.1+neoforge-26.1.2" = _yHJw8PmM;
+        "pkg-2.0.1+neoforge-1.21.1" = _wzUUjrCA;
+        "pkg-2.0.1+forge-1.20.1" = _AdEQAiu3;
+        "default" = _AdEQAiu3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arcadia-ah";

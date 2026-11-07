@@ -20026,6 +20026,16 @@ let
             "file" = "jei_1.12.2-4.24.0.1042.jar";
             "hash" = "sha512-Qt1dlqitGnIXJuThL/EWqTLn4vMyCBtMEdGfIerBn5nurcf452kpA5joIPPwY5z1jknI7EChziFbBbcVzhD0aA==";
         };
+        _hif1VmML = {
+            "id" = "hif1VmML";
+            "file" = "jei-26.3-fabric-31.17.0.109.jar";
+            "hash" = "sha512-JuFLNc2KxqJg50t5Msb0gWcUYF2VPgoYlDdh7Z8uL/LGKQ5T9aWBgRgJ5stdzoHI2Jt8oq9B+sDNeAB2hAN7sw==";
+        };
+        _TAqAED7H = {
+            "id" = "TAqAED7H";
+            "file" = "jei-26.3-neoforge-31.17.0.109.jar";
+            "hash" = "sha512-PrineiVdWqoUKZqLkJg41kalJHdifPOyqEyesoX620zOD0bW2fvKrycp30YG/5cAxeaq0H1+oysTnLT3x2tNfQ==";
+        };
     in {
         "6QsZu0uX" = _6QsZu0uX;
         "vddb9IRK" = _vddb9IRK;
@@ -24032,6 +24042,8 @@ let
         "Dg8WjCzI" = _Dg8WjCzI;
         "88yPJJHC" = _88yPJJHC;
         "8tsUhdvL" = _8tsUhdvL;
+        "hif1VmML" = _hif1VmML;
+        "TAqAED7H" = _TAqAED7H;
         "forge-1.8" = _hc5FfeJi;
         "forge-1.8.8" = _a38nfrYD;
         "forge-1.8.9" = _oay6x5p0;
@@ -24090,7 +24102,7 @@ let
         "fabric-26.1.1" = _j5HrJ8M2;
         "fabric-26.1.2" = _j5HrJ8M2;
         "fabric-26.2" = _j62WSkzi;
-        "fabric-26.3" = _1Uzmw8Mr;
+        "fabric-26.3" = _hif1VmML;
         "neoforge-1.20.4" = _ae5o0o24;
         "neoforge-1.20.6" = _bjuWVc7q;
         "neoforge-1.21" = _1vC6z8wV;
@@ -24106,7 +24118,7 @@ let
         "neoforge-26.1.1" = _60HrmNPh;
         "neoforge-26.1.2" = _60HrmNPh;
         "neoforge-26.2" = _lU7Sz0zI;
-        "neoforge-26.3" = _hGAWEBN8;
+        "neoforge-26.3" = _TAqAED7H;
         "pkg-1.0.1" = _6QsZu0uX;
         "pkg-2.0.0" = _vddb9IRK;
         "pkg-2.0.1" = _OVe9dyBJ;
@@ -26491,7 +26503,8 @@ let
         "pkg-11.80.0.1094" = _Dg8WjCzI;
         "pkg-4.24.0.1041" = _88yPJJHC;
         "pkg-4.24.0.1042" = _8tsUhdvL;
-        "default" = _8tsUhdvL;
+        "pkg-31.17.0.109" = _TAqAED7H;
+        "default" = _TAqAED7H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jei";

@@ -106,6 +106,21 @@ let
             "file" = "VoidCommands-1.5.1+1.21.11.jar";
             "hash" = "sha512-swJifm/lNKY7ZfUlXowhzKOIXFzJDVUpQNhRZshXKW8w6POsPVNlsNGYOuKUFu6UE1C+CcygxuPpVRvnXAgvHg==";
         };
+        _XqozZh1i = {
+            "id" = "XqozZh1i";
+            "file" = "VoidCommands-1.5.2+26.1.2.jar";
+            "hash" = "sha512-kUduH+H/DwjKOwcWIYzW833GDMkkPN6NfPL1EITxmUEtasRBdlZXH7abZ0l7IGI1wAqJwy4S0MWFVRWDtOESQA==";
+        };
+        _ss0CmsFa = {
+            "id" = "ss0CmsFa";
+            "file" = "VoidCommands-1.5.2+26.2.jar";
+            "hash" = "sha512-14eJX/nYX8k3wnVJGrNMuRkRQnvbvbn7ukEE5DGSGxSjEl1CzyUcDybhkmZ7hKeI8XEqXtDPTUBUsYxZdzoGOQ==";
+        };
+        _w6FpcQBh = {
+            "id" = "w6FpcQBh";
+            "file" = "VoidCommands-1.5.2+26.3.jar";
+            "hash" = "sha512-9U9SWpTPV3YOmFwB9zfLFk6qq4sVmwkgH0gOvIAelDD1/pggLi46UW0i9ylS50f65VdanAorg6LpFLZq4Balaw==";
+        };
     in {
         "anrKOuDn" = _anrKOuDn;
         "Od6VDadc" = _Od6VDadc;
@@ -128,6 +143,9 @@ let
         "6S4uDp8K" = _6S4uDp8K;
         "MCE0T6Cp" = _MCE0T6Cp;
         "tjVsRpra" = _tjVsRpra;
+        "XqozZh1i" = _XqozZh1i;
+        "ss0CmsFa" = _ss0CmsFa;
+        "w6FpcQBh" = _w6FpcQBh;
         "fabric-1.21" = _hRn8U2vZ;
         "fabric-1.20.4" = _5Fj19F4U;
         "fabric-1.20.6" = _tzv3LdZG;
@@ -140,6 +158,9 @@ let
         "fabric-1.21.9" = _6S4uDp8K;
         "fabric-1.21.10" = _MCE0T6Cp;
         "fabric-1.21.11" = _tjVsRpra;
+        "fabric-26.1.2" = _XqozZh1i;
+        "fabric-26.2" = _ss0CmsFa;
+        "fabric-26.3" = _w6FpcQBh;
         "pkg-1.0+1.21" = _anrKOuDn;
         "pkg-1.1+1.21" = _Od6VDadc;
         "pkg-1.2+1.21" = _wIvsA1Ju;
@@ -161,7 +182,10 @@ let
         "pkg-1.5.1+1.21.9" = _6S4uDp8K;
         "pkg-1.5.1+1.21.10" = _MCE0T6Cp;
         "pkg-1.5.1+1.21.11" = _tjVsRpra;
-        "default" = _tjVsRpra;
+        "pkg-1.5.2+26.1.2" = _XqozZh1i;
+        "pkg-1.5.2+26.2" = _ss0CmsFa;
+        "pkg-1.5.2+26.3" = _w6FpcQBh;
+        "default" = _w6FpcQBh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voidcommands";

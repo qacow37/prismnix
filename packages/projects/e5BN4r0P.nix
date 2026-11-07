@@ -326,6 +326,16 @@ let
             "file" = "what-spyglass-0.149.0+26.1.2-1.0.5.jar";
             "hash" = "sha512-rckiji5M4PEV0e4X/tWBJgQHntZ7XnWXwDA6dOPF3iW7GxqK2Q+xfTx4YWT6oOQJRJC0dcZyKATEeWp9IlwLRQ==";
         };
+        _kleW1EDo = {
+            "id" = "kleW1EDo";
+            "file" = "what-spyglass-0.161.0+26.2-1.0.5.jar";
+            "hash" = "sha512-RM4JCDsGx4hFnpTPqSD//KrCwB3qRnE28wOwgjOVDi8KTSpiDq7THRe89an958DaMhT+/lWQ4Qze/33qY6p6cw==";
+        };
+        _K3LMIgA2 = {
+            "id" = "K3LMIgA2";
+            "file" = "what-spyglass-0.165.2+26.3-1.0.5.jar";
+            "hash" = "sha512-tmb8lsMYVIdiuDkOLjlHM5yfxf7n2baxWX5AHfubw9fTS7FgyGsgv7InQzbebfO+ViZNTGDVXHXfiNebQgM9hg==";
+        };
     in {
         "kDZTErG9" = _kDZTErG9;
         "Aem96RhS" = _Aem96RhS;
@@ -392,6 +402,8 @@ let
         "DPSQsTgP" = _DPSQsTgP;
         "CYyKOVSS" = _CYyKOVSS;
         "xM4xAAAZ" = _xM4xAAAZ;
+        "kleW1EDo" = _kleW1EDo;
+        "K3LMIgA2" = _K3LMIgA2;
         "fabric-1.19" = _herYxrus;
         "fabric-1.19.1" = _XRkqlLDE;
         "fabric-1.19.2" = _XYDeDUcC;
@@ -419,11 +431,13 @@ let
         "fabric-26.1" = _DPSQsTgP;
         "fabric-26.1.1" = _CYyKOVSS;
         "fabric-26.1.2" = _xM4xAAAZ;
+        "fabric-26.2" = _kleW1EDo;
+        "fabric-26.3" = _K3LMIgA2;
         "pkg-1.0.2" = _hUHljM6B;
         "pkg-1.0.3" = _M11vMEAz;
         "pkg-1.0.4" = _KcaFFRoL;
-        "pkg-1.0.5" = _xM4xAAAZ;
-        "default" = _xM4xAAAZ;
+        "pkg-1.0.5" = _K3LMIgA2;
+        "default" = _K3LMIgA2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "what-spyglass-mod";

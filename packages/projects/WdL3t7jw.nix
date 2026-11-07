@@ -101,6 +101,16 @@ let
             "file" = "ModSync-3.1.jar";
             "hash" = "sha512-+FIHMYEkyKETN77N19OZDJeA1VwnsZ2Su/M7a5xpLuYJqEcTzq0w0IV8R6MYYdqXuql3MrWQC/MmD9P2cRJKeQ==";
         };
+        _KceOcJFj = {
+            "id" = "KceOcJFj";
+            "file" = "ModSync-3.1.jar";
+            "hash" = "sha512-1yVme5lCY24jwZuk6Q4EI0TsxbmunY0BGuPh6lwCgGC5n1HLtoH/Buiz16nV2ia345BDpg2eYuOTTyTcD8QBJg==";
+        };
+        _cyDscGbe = {
+            "id" = "cyDscGbe";
+            "file" = "Modsync-3.1.jar";
+            "hash" = "sha512-FnfgW1swD5v47XZoriXpyaTKYLFtGWRjaaxq4XhTDCjCOO7Yd6X06vHOVHnyxPWXAP/92EB/esBK6/WHEZbTlw==";
+        };
     in {
         "vhOLx4O8" = _vhOLx4O8;
         "IFxuRRbP" = _IFxuRRbP;
@@ -122,6 +132,8 @@ let
         "KjhvltzG" = _KjhvltzG;
         "xF4QfIzz" = _xF4QfIzz;
         "mEf1HpH5" = _mEf1HpH5;
+        "KceOcJFj" = _KceOcJFj;
+        "cyDscGbe" = _cyDscGbe;
         "fabric-1.21" = _FQ5ErUrr;
         "fabric-1.21.1" = _FQ5ErUrr;
         "fabric-1.21.2" = _FQ5ErUrr;
@@ -134,10 +146,11 @@ let
         "fabric-1.21.9" = _FQ5ErUrr;
         "fabric-1.21.10" = _FQ5ErUrr;
         "fabric-1.21.11" = _FQ5ErUrr;
-        "fabric-26.1" = _xF4QfIzz;
-        "fabric-26.1.1" = _xF4QfIzz;
-        "fabric-26.1.2" = _xF4QfIzz;
-        "fabric-26.2" = _xF4QfIzz;
+        "fabric-26.1" = _cyDscGbe;
+        "fabric-26.1.1" = _cyDscGbe;
+        "fabric-26.1.2" = _cyDscGbe;
+        "fabric-26.2" = _cyDscGbe;
+        "fabric-26.3" = _cyDscGbe;
         "bukkit-1.21" = _KjhvltzG;
         "bukkit-1.21.1" = _KjhvltzG;
         "bukkit-1.21.2" = _KjhvltzG;
@@ -154,6 +167,7 @@ let
         "bukkit-26.1.1" = _mEf1HpH5;
         "bukkit-26.1.2" = _mEf1HpH5;
         "bukkit-26.2" = _mEf1HpH5;
+        "bukkit-26.3" = _KceOcJFj;
         "paper-1.21" = _KjhvltzG;
         "paper-1.21.1" = _KjhvltzG;
         "paper-1.21.2" = _KjhvltzG;
@@ -170,6 +184,7 @@ let
         "paper-26.1.1" = _mEf1HpH5;
         "paper-26.1.2" = _mEf1HpH5;
         "paper-26.2" = _mEf1HpH5;
+        "paper-26.3" = _KceOcJFj;
         "spigot-1.21" = _KjhvltzG;
         "spigot-1.21.1" = _KjhvltzG;
         "spigot-1.21.2" = _KjhvltzG;
@@ -186,6 +201,7 @@ let
         "spigot-26.1.1" = _mEf1HpH5;
         "spigot-26.1.2" = _mEf1HpH5;
         "spigot-26.2" = _mEf1HpH5;
+        "spigot-26.3" = _KceOcJFj;
         "pkg-fabric-1.0" = _vhOLx4O8;
         "pkg-paper-1.0" = _IFxuRRbP;
         "pkg-paper-1.1" = _uG1jjukP;
@@ -204,7 +220,9 @@ let
         "pkg-bukkit-3.1+1.21.x" = _KjhvltzG;
         "pkg-fabric-3.1+26.x" = _xF4QfIzz;
         "pkg-bukkit-3.1+26.x" = _mEf1HpH5;
-        "default" = _mEf1HpH5;
+        "pkg-bukkit-3.1+26.3" = _KceOcJFj;
+        "pkg-fabric-3.1+26.3" = _cyDscGbe;
+        "default" = _cyDscGbe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mod-sync";

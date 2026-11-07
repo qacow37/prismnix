@@ -36,6 +36,11 @@ let
             "file" = "skywhales-0.1.8.jar";
             "hash" = "sha512-cmp0i7E6y5/SfqCIk9FJ03hO+dDHSEbiI+46TOOD/fJjhXRAUNHNtxhTHBCuDzICMK12RgTtduhAX/TtBIKUBQ==";
         };
+        _bDTUgqZ5 = {
+            "id" = "bDTUgqZ5";
+            "file" = "skywhales-0.1.9.jar";
+            "hash" = "sha512-6+yrwd25eszmdC6mJzDlnc2Hj7aJlwhsdm33tQy6eQIWsi+sS2da5+ElGvQJL96fG8yzArMCSJw+xRWEwJ6TQg==";
+        };
     in {
         "tXJKjnWC" = _tXJKjnWC;
         "2jpdNAEb" = _2jpdNAEb;
@@ -44,7 +49,8 @@ let
         "W1NKmlYT" = _W1NKmlYT;
         "CG7IbDiP" = _CG7IbDiP;
         "CcjnSrPq" = _CcjnSrPq;
-        "neoforge-1.21.1" = _CcjnSrPq;
+        "bDTUgqZ5" = _bDTUgqZ5;
+        "neoforge-1.21.1" = _bDTUgqZ5;
         "pkg-0.1.0" = _tXJKjnWC;
         "pkg-0.1.2" = _2jpdNAEb;
         "pkg-0.1.3" = _FWrb3WYJ;
@@ -52,7 +58,8 @@ let
         "pkg-0.1.5" = _W1NKmlYT;
         "pkg-0.1.6" = _CG7IbDiP;
         "pkg-0.1.8" = _CcjnSrPq;
-        "default" = _CcjnSrPq;
+        "pkg-0.1.9" = _bDTUgqZ5;
+        "default" = _bDTUgqZ5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sky-whales";

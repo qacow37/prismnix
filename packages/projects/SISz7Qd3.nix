@@ -1361,6 +1361,51 @@ let
             "file" = "paladin-furniture-mod-1.5.1-forge-mc1.16.5.jar";
             "hash" = "sha512-eJwCLyA1WXt8CzDOn9LQ+5U3Q+KlGiuPIhvA0iGLwPsN0UETPZa7LnPIBNfW6xFJ+P8LC1+mhpX8JqFvCKzgpQ==";
         };
+        _VsELLDV6 = {
+            "id" = "VsELLDV6";
+            "file" = "paladin-furniture-mod-1.5.1-minecraftforge-mc26.1.2.jar";
+            "hash" = "sha512-YcGK55KCAxg4PN/GcIvcmiCallu4eeu413PrCmotYCsVUgtgZbfywW78f1h+EEe5rmSFXcUzfj8xEHXdge23Wg==";
+        };
+        _CAHynIWJ = {
+            "id" = "CAHynIWJ";
+            "file" = "paladin-furniture-mod-1.5.1-fabric-mc26.1.2.jar";
+            "hash" = "sha512-73JIeYMWXN6KiyUAWCHcZd3FkUBMBqRbBJjye9wcKNr6fMEVvFzsgB95rMQNVia4aQywwxb119AueXVSQwY02g==";
+        };
+        _M5Zxna4f = {
+            "id" = "M5Zxna4f";
+            "file" = "paladin-furniture-mod-1.5.1-neoforge-mc26.1.2.jar";
+            "hash" = "sha512-+q1+isvW/1OeFEagIfy798S/hp04JL89YDM7qD4m5XYn8biRkPMkpMjESMqH1b7aM65LoG1kJY0j/JwRMl4Dkw==";
+        };
+        _ocn6ZH3M = {
+            "id" = "ocn6ZH3M";
+            "file" = "paladin-furniture-mod-1.5.1-minecraftforge-mc26.2.jar";
+            "hash" = "sha512-87UXNZMj3NaiwZloHBb8pLIqhiTZvXvkVtKc+U3C1QQhSEWMU8wUw6VtuVJ5bzlePMkzN/gU1BxMfsFTikDsqQ==";
+        };
+        _8PSAMxze = {
+            "id" = "8PSAMxze";
+            "file" = "paladin-furniture-mod-1.5.1-fabric-mc26.2.jar";
+            "hash" = "sha512-h2zC3wvstwXuyjIMeSYOVxtOvKc0u5pTIfhaaob0nH+Zv796Bmcds5K9xlpoaBF+EsgFrZYFQ8NijOTvoMIM7g==";
+        };
+        _SBbPUTt3 = {
+            "id" = "SBbPUTt3";
+            "file" = "paladin-furniture-mod-1.5.1-neoforge-mc26.2.jar";
+            "hash" = "sha512-rAxYl1Ik4/Cw6mLjzym99Wp2yGumMaCCFhgDA0704OMs7aix52B7E3I+DgRq6QuxqORsq1AXam4JTYqDVViBlA==";
+        };
+        _2KFuR2Vi = {
+            "id" = "2KFuR2Vi";
+            "file" = "paladin-furniture-mod-1.5.1-minecraftforge-mc26.3.jar";
+            "hash" = "sha512-zU4ws5VcFe2yNJ3RMqt4pND+e/nwLgfRM7kESwBVlr+F5LCntoCMau8uKNxbrYdZ45ZWKkh1YfRgPPeaM4LL6A==";
+        };
+        _k8TeTGpa = {
+            "id" = "k8TeTGpa";
+            "file" = "paladin-furniture-mod-1.5.1-fabric-mc26.3.jar";
+            "hash" = "sha512-daOG5Eq1pnUfeJ7s3MASXSFrMDKNPCc/eX8Jo+V3l+fmZS3YBxuRsoLI1WnR3cpfRUsoliYOxfLrGNt9PKkt3A==";
+        };
+        _PxRJGSK5 = {
+            "id" = "PxRJGSK5";
+            "file" = "paladin-furniture-mod-1.5.1-neoforge-mc26.3.jar";
+            "hash" = "sha512-xFanzRrCH1sQwhd1iEr7/EfAWdctCmoL0XvxkpUzIIiPtxNz4R93q+VDhks/PmmYJY4FN6tfXKXVYxla+VfJvA==";
+        };
     in {
         "cgBNKYqw" = _cgBNKYqw;
         "FEi1T0DG" = _FEi1T0DG;
@@ -1634,6 +1679,15 @@ let
         "6bUZDcW2" = _6bUZDcW2;
         "Z2mCTt0Z" = _Z2mCTt0Z;
         "Oa88rqYO" = _Oa88rqYO;
+        "VsELLDV6" = _VsELLDV6;
+        "CAHynIWJ" = _CAHynIWJ;
+        "M5Zxna4f" = _M5Zxna4f;
+        "ocn6ZH3M" = _ocn6ZH3M;
+        "8PSAMxze" = _8PSAMxze;
+        "SBbPUTt3" = _SBbPUTt3;
+        "2KFuR2Vi" = _2KFuR2Vi;
+        "k8TeTGpa" = _k8TeTGpa;
+        "PxRJGSK5" = _PxRJGSK5;
         "fabric-1.17.1" = _QZfKsyxk;
         "fabric-1.18" = _noPTfHpW;
         "fabric-1.18.1" = _x19m7eI9;
@@ -1669,6 +1723,11 @@ let
         "fabric-1.21.11" = _Z2mCTt0Z;
         "fabric-1.21.9" = _6bUZDcW2;
         "fabric-1.21.10" = _6bUZDcW2;
+        "fabric-26.1.2" = _CAHynIWJ;
+        "fabric-26.1.1" = _CAHynIWJ;
+        "fabric-26.1" = _CAHynIWJ;
+        "fabric-26.2" = _8PSAMxze;
+        "fabric-26.3" = _k8TeTGpa;
         "quilt-1.17.1" = _cgBNKYqw;
         "quilt-1.18" = _FEi1T0DG;
         "quilt-1.18.1" = _FEi1T0DG;
@@ -1715,6 +1774,11 @@ let
         "forge-1.21.11" = _GAFJUFvb;
         "forge-1.21.9" = _OetQEk6I;
         "forge-1.21.10" = _OetQEk6I;
+        "forge-26.1.2" = _VsELLDV6;
+        "forge-26.1.1" = _VsELLDV6;
+        "forge-26.1" = _VsELLDV6;
+        "forge-26.2" = _ocn6ZH3M;
+        "forge-26.3" = _2KFuR2Vi;
         "neoforge-1.20.1" = _xVZBZ4ol;
         "neoforge-1.20" = _xVZBZ4ol;
         "neoforge-1.20.2" = _87OcwDn9;
@@ -1734,6 +1798,11 @@ let
         "neoforge-1.21.11" = _iLhSkdNh;
         "neoforge-1.21.9" = _xrNhVHUt;
         "neoforge-1.21.10" = _xrNhVHUt;
+        "neoforge-26.1.2" = _M5Zxna4f;
+        "neoforge-26.1.1" = _M5Zxna4f;
+        "neoforge-26.1" = _M5Zxna4f;
+        "neoforge-26.2" = _SBbPUTt3;
+        "neoforge-26.3" = _PxRJGSK5;
         "pkg-1.17.1-v1.0" = _cgBNKYqw;
         "pkg-1.18.1-v1.0" = _FEi1T0DG;
         "pkg-1.18.2-v1.0" = _yxszcA8N;
@@ -2005,7 +2074,16 @@ let
         "pkg-1.21.10-v1.5.1-fabric" = _6bUZDcW2;
         "pkg-1.21.11-v1.5.1-fabric" = _Z2mCTt0Z;
         "pkg-1.16.5-v1.5.1-forge" = _Oa88rqYO;
-        "default" = _Oa88rqYO;
+        "pkg-26.1.2-v1.5.1-minecraftforge" = _VsELLDV6;
+        "pkg-26.1.2-v1.5.1-fabric" = _CAHynIWJ;
+        "pkg-26.1.2-v1.5.1-neoforge" = _M5Zxna4f;
+        "pkg-26.2-v1.5.1-minecraftforge" = _ocn6ZH3M;
+        "pkg-26.2-v1.5.1-fabric" = _8PSAMxze;
+        "pkg-26.2-v1.5.1-neoforge" = _SBbPUTt3;
+        "pkg-26.3-v1.5.1-minecraftforge" = _2KFuR2Vi;
+        "pkg-26.3-v1.5.1-fabric" = _k8TeTGpa;
+        "pkg-26.3-v1.5.1-neoforge" = _PxRJGSK5;
+        "default" = _PxRJGSK5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paladins-furniture";

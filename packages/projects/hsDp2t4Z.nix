@@ -256,6 +256,21 @@ let
             "file" = "enderdragondestroysendisland-2.5.1+mc1.20.1-forge.jar";
             "hash" = "sha512-DZG/m7jpBhDoKIll17nhnLhYQ3GOTlVp9o/zM9mtgHgmK9wNav4r3Eh6fbfqOc3502qw+XRKxN14Ek82z+oDqQ==";
         };
+        _Eksc2kgj = {
+            "id" = "Eksc2kgj";
+            "file" = "enderdragondestroysendisland-2.2.3+mc1.21-neoforge.jar";
+            "hash" = "sha512-i5kONFRn/Rjb/WFunofkf7V/loAwRgrEJJEWds2D/88A4GANW+Wi9Mr+SgOvjqiD5Jydy9+ffsGZVudZ3x0yoA==";
+        };
+        _QAdBvhUx = {
+            "id" = "QAdBvhUx";
+            "file" = "enderdragondestroysendisland-2.2.3+mc1.21-fabric.jar";
+            "hash" = "sha512-PCPerBMiM7Ng4hxR7jfsCV3K5narhDRqYBc/G85QPEG6t0VLsc0Akls1hFDIoPEvMnM7mHpmffnlwUVeOzX3Wg==";
+        };
+        _AAKH2aYk = {
+            "id" = "AAKH2aYk";
+            "file" = "enderdragondestroysendisland-2.5.2+mc1.20.1-forge.jar";
+            "hash" = "sha512-CETNZ0rK42AXaxILcTie0SKFcVDKXUSwWmemJLxIB8/KG4sbQk5wikguW5PjkgkqpYV9B+kQ2bJZVJeWfFas9Q==";
+        };
     in {
         "rS2ly3d0" = _rS2ly3d0;
         "pRPoqdSQ" = _pRPoqdSQ;
@@ -308,12 +323,15 @@ let
         "XqDAixo8" = _XqDAixo8;
         "KXSdRH0u" = _KXSdRH0u;
         "L3gt750c" = _L3gt750c;
-        "neoforge-1.21" = _wikjLUBG;
-        "neoforge-1.21.1" = _wikjLUBG;
+        "Eksc2kgj" = _Eksc2kgj;
+        "QAdBvhUx" = _QAdBvhUx;
+        "AAKH2aYk" = _AAKH2aYk;
+        "neoforge-1.21" = _Eksc2kgj;
+        "neoforge-1.21.1" = _Eksc2kgj;
         "neoforge-26.1" = _oL0MAA21;
         "neoforge-26.1.1" = _oL0MAA21;
         "neoforge-26.1.2" = _oL0MAA21;
-        "neoforge-1.20.1" = _L3gt750c;
+        "neoforge-1.20.1" = _AAKH2aYk;
         "neoforge-26.2" = _fNSN3pmB;
         "neoforge-1.21.2" = _fasd9Qvi;
         "neoforge-1.21.3" = _fasd9Qvi;
@@ -330,8 +348,8 @@ let
         "fabric-26.1.1" = _hVyOjmDj;
         "fabric-26.1.2" = _hVyOjmDj;
         "fabric-26.2" = _OkzXhesL;
-        "fabric-1.21" = _19ntjDUW;
-        "fabric-1.21.1" = _19ntjDUW;
+        "fabric-1.21" = _QAdBvhUx;
+        "fabric-1.21.1" = _QAdBvhUx;
         "fabric-1.20.1" = _VH0Mhw6K;
         "fabric-1.21.2" = _aQKmZbap;
         "fabric-1.21.3" = _aQKmZbap;
@@ -344,7 +362,7 @@ let
         "fabric-1.21.10" = _ITdbCT5Q;
         "fabric-1.21.11" = _XrQIohLF;
         "fabric-26.3" = _dDfhDdli;
-        "forge-1.20.1" = _L3gt750c;
+        "forge-1.20.1" = _AAKH2aYk;
         "pkg-1.0.0" = _rS2ly3d0;
         "pkg-1.1.0" = _pRPoqdSQ;
         "pkg-1.1.1" = _vARzhTgg;
@@ -396,7 +414,10 @@ let
         "pkg-2.2.2+mc26.3-neoforge" = _XqDAixo8;
         "pkg-2.5.0+mc1.20.1-forge" = _KXSdRH0u;
         "pkg-2.5.1+mc1.20.1-forge" = _L3gt750c;
-        "default" = _L3gt750c;
+        "pkg-2.2.3+mc1.21-neoforge" = _Eksc2kgj;
+        "pkg-2.2.3+mc1.21-fabric" = _QAdBvhUx;
+        "pkg-2.5.2+mc1.20.1-forge" = _AAKH2aYk;
+        "default" = _AAKH2aYk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-dragon-destroys-end-island";

@@ -96,6 +96,11 @@ let
             "file" = "valkyrielib-forge-1.15.2-3.1.0.0.jar";
             "hash" = "sha512-FCDfYgEO9AxU7E3NL7uHw2CuTRo7Z+YG3tkPSdp6UJ3vrQy91gPKHMJfQCMIQYOCa25x3wemOwz5U3i5QgFiaA==";
         };
+        _caGXqVJY = {
+            "id" = "caGXqVJY";
+            "file" = "valkyrielib-forge-1.16.5-3.1.0.0.jar";
+            "hash" = "sha512-yROb+dRocQjchKoKFSem/WqyOlJZodZD8MGSx6W5WMPQ3lIaZNvu4KvoIr9YRppktqAO/0w6lWcED9gLVcXJTg==";
+        };
     in {
         "iIDMzzVW" = _iIDMzzVW;
         "Y5f51jEI" = _Y5f51jEI;
@@ -116,6 +121,7 @@ let
         "vnPMC2SV" = _vnPMC2SV;
         "weCqabc5" = _weCqabc5;
         "e8gNDeo3" = _e8gNDeo3;
+        "caGXqVJY" = _caGXqVJY;
         "forge-1.19" = _iIDMzzVW;
         "forge-1.19.2" = _GGwN5EB3;
         "forge-1.19.3" = _FSvNBhLg;
@@ -125,7 +131,7 @@ let
         "forge-1.12.2" = _vnPMC2SV;
         "forge-1.14.4" = _weCqabc5;
         "forge-1.15.2" = _e8gNDeo3;
-        "forge-1.16.5" = _nw3ZIbTC;
+        "forge-1.16.5" = _caGXqVJY;
         "forge-1.20" = _UoMihgnb;
         "forge-1.20.1" = _UoMihgnb;
         "forge-1.20.2" = _UoMihgnb;
@@ -156,7 +162,8 @@ let
         "pkg-1.12.2-2.1.0.0" = _vnPMC2SV;
         "pkg-1.14.4-3.1.0.0" = _weCqabc5;
         "pkg-1.15.2-3.1.0.0" = _e8gNDeo3;
-        "default" = _e8gNDeo3;
+        "pkg-1.16.5-3.1.0.0" = _caGXqVJY;
+        "default" = _caGXqVJY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valkyrielib";

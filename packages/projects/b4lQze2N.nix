@@ -596,6 +596,11 @@ let
             "file" = "Gerudoku Faithful.zip";
             "hash" = "sha512-vAGqEQPgLlOOqctVC8gvgCdHG/i5WxEIQOSeIF6iq+ubHQgzdgZZPf0XVQQ2hJLz7C4in1hViT6vqndHWKNG7w==";
         };
+        _myX7FgXt = {
+            "id" = "myX7FgXt";
+            "file" = "Gerudoku Faithful.zip";
+            "hash" = "sha512-+y/3nHcMkuPJettqpiVqDHEXOM2FJSF5rtAf7DaF9od17lHwjWqmNvwipP2wdvSZZMXYyJinJRbcz5o38Gbh3g==";
+        };
     in {
         "ih9CxZT9" = _ih9CxZT9;
         "7fXPfuhb" = _7fXPfuhb;
@@ -716,6 +721,7 @@ let
         "IcCkKZDj" = _IcCkKZDj;
         "yaYWFR2L" = _yaYWFR2L;
         "I0N82s2e" = _I0N82s2e;
+        "myX7FgXt" = _myX7FgXt;
         "minecraft-1.20" = _tX9pAHRb;
         "minecraft-1.20.1" = _tX9pAHRb;
         "minecraft-1.17" = _GHcvtK0R;
@@ -983,13 +989,14 @@ let
         "minecraft-1.6.3" = _cSwQBGA4;
         "minecraft-1.7" = _cSwQBGA4;
         "minecraft-1.7.1" = _cSwQBGA4;
-        "minecraft-26.3" = _I0N82s2e;
+        "minecraft-26.3" = _myX7FgXt;
         "minecraft-26.4-snapshot-1" = _I0N82s2e;
         "minecraft-26.4-snapshot-2" = _I0N82s2e;
         "minecraft-26.4-snapshot-3" = _I0N82s2e;
         "minecraft-26.4-snapshot-4" = _I0N82s2e;
         "minecraft-26.4-snapshot-5" = _I0N82s2e;
         "minecraft-26.4-snapshot-6" = _I0N82s2e;
+        "minecraft-26.4-snapshot-7" = _myX7FgXt;
         "pkg-1.0" = _PbPvseW1;
         "pkg-1.1" = _LFv1TuEI;
         "pkg-1.2" = _Qlu30aL6;
@@ -1054,7 +1061,8 @@ let
         "pkg-7.0" = _9yjKoxXO;
         "pkg-7.1" = _QgD0P15x;
         "pkg-7.2" = _I0N82s2e;
-        "default" = _I0N82s2e;
+        "pkg-7.3" = _myX7FgXt;
+        "default" = _myX7FgXt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gerudoku-faithful";

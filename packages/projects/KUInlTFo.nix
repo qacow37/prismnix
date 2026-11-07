@@ -276,6 +276,11 @@ let
             "file" = "alloyed-3.0.12+26.3-fabric.jar";
             "hash" = "sha512-KQVTMRObci3TALwBYSFb9iCAKfHyJP2j23FXXJAzY5RhCixyBqoSemqyjWvpb+LXFUVWvMepHFQSjEAzba/rnw==";
         };
+        _ImjVL7fd = {
+            "id" = "ImjVL7fd";
+            "file" = "alloyed-3.0.13+26.3-fabric.jar";
+            "hash" = "sha512-zt+SSNXPojCvYC/SNfkdei1D5uybgfGEbESq4XPQE++iSmbv5WMMQXrpPmR3kY0O5KBIDqITz5o394tIjoYSQA==";
+        };
     in {
         "HYYsZkYL" = _HYYsZkYL;
         "7z00Vc3k" = _7z00Vc3k;
@@ -332,6 +337,7 @@ let
         "XkFxWRqw" = _XkFxWRqw;
         "h9Fgdp9f" = _h9Fgdp9f;
         "312gtOYI" = _312gtOYI;
+        "ImjVL7fd" = _ImjVL7fd;
         "forge-1.20.1" = _9QsU50Zh;
         "forge-1.19.2" = _SFWaKYwq;
         "neoforge-1.21.1" = _VtGEohEU;
@@ -344,7 +350,7 @@ let
         "fabric-26.1.1" = _xhkBG1pk;
         "fabric-26.1.2" = _xhkBG1pk;
         "fabric-26.2" = _h9Fgdp9f;
-        "fabric-26.3" = _312gtOYI;
+        "fabric-26.3" = _ImjVL7fd;
         "pkg-2.0+1.20.1-forge" = _HYYsZkYL;
         "pkg-2.0.1+1.20.1-forge" = _7z00Vc3k;
         "pkg-2.0.2+1.20.1-forge" = _1ff2mcQP;
@@ -400,7 +406,8 @@ let
         "pkg-3.0.12+26.1.2-neoforge" = _XkFxWRqw;
         "pkg-3.0.12+26.2-fabric" = _h9Fgdp9f;
         "pkg-3.0.12+26.3-fabric" = _312gtOYI;
-        "default" = _312gtOYI;
+        "pkg-3.0.13+26.3-fabric" = _ImjVL7fd;
+        "default" = _ImjVL7fd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-alloyed";

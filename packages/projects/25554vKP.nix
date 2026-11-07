@@ -246,6 +246,11 @@ let
             "file" = "PaperBPM-1.0.3.jar";
             "hash" = "sha512-RuDxipc6Hm0GdRZOGqSkJ9JphmoMgm5G9htII204Ga8lB69pUT0coxllU3/ZB8U4B04ThH59bpp0ij+a3BXqvg==";
         };
+        _YCP2yuh9 = {
+            "id" = "YCP2yuh9";
+            "file" = "better-player-model-1.1.5-26.2-reconnect-fix.jar";
+            "hash" = "sha512-LviVal60Bc5xCHRcVNDMOQJ6+DleHbYlu5kPp/NZcq0qHrnZ6UQYBhIgpdyogSkyjwKSQo5kLFAUce6DSLGNww==";
+        };
     in {
         "TMW6gHdN" = _TMW6gHdN;
         "OfVYLGKI" = _OfVYLGKI;
@@ -296,10 +301,11 @@ let
         "rCHBLP92" = _rCHBLP92;
         "NCnGLGxA" = _NCnGLGxA;
         "4R4gvboA" = _4R4gvboA;
+        "YCP2yuh9" = _YCP2yuh9;
         "fabric-1.20.1" = _SxJxGnPo;
         "fabric-1.21.1" = _E9TxtWza;
         "fabric-1.21.11" = _pFea8M88;
-        "fabric-26.2" = _rCHBLP92;
+        "fabric-26.2" = _YCP2yuh9;
         "fabric-26.1.2" = _r0W4MKYr;
         "fabric-26.3" = _NCnGLGxA;
         "paper-1.20.1" = _4R4gvboA;
@@ -345,7 +351,8 @@ let
         "pkg-paper-1.0.2a" = _f1ClzNnd;
         "pkg-1.1.5" = _NCnGLGxA;
         "pkg-1.0.3" = _4R4gvboA;
-        "default" = _4R4gvboA;
+        "pkg-1.1.5-26.2-hotfix" = _YCP2yuh9;
+        "default" = _YCP2yuh9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterplayermodel";

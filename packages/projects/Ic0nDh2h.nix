@@ -146,6 +146,16 @@ let
             "file" = "places-0.5.2-neoforge-1.21.1.jar";
             "hash" = "sha512-ZCWkrrxC4UHWvV2Lkwo7QzuxwApA16Nk+WAkS38d4ybSGJ9Fk7jCKfbz7D/8ydAr7UH8pCFcJwfmLBu9VZt80w==";
         };
+        _koDmyiCS = {
+            "id" = "koDmyiCS";
+            "file" = "places-0.5.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-2YKt1zGVs2Q8PhMVkKARCOH0BxIBSd5kzTY0cBAAXKKrXJR3IhZUHy36KH0S1oA/Ol3yFYz5h+S4qS/ZBJSQ0A==";
+        };
+        _QScrePLR = {
+            "id" = "QScrePLR";
+            "file" = "places-0.5.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-VTuntNTaHUMYBtA7BvzcWAsSr/Yit2Fbqf/rryrtVG9nG1EMNpTswDLkfi932+O4V3EmtLGDPvQvLlakgCoHNw==";
+        };
     in {
         "aj5SFzAJ" = _aj5SFzAJ;
         "szX5Q8XT" = _szX5Q8XT;
@@ -176,8 +186,10 @@ let
         "5HA4N7zd" = _5HA4N7zd;
         "Jt29c1cN" = _Jt29c1cN;
         "9pJMs7Qf" = _9pJMs7Qf;
+        "koDmyiCS" = _koDmyiCS;
+        "QScrePLR" = _QScrePLR;
         "forge-1.20.1" = _EqSPx4YH;
-        "neoforge-1.21.1" = _9pJMs7Qf;
+        "neoforge-1.21.1" = _QScrePLR;
         "pkg-0.1.0" = _aj5SFzAJ;
         "pkg-0.1.1" = _szX5Q8XT;
         "pkg-0.1.2" = _5nrIxOmC;
@@ -206,7 +218,9 @@ let
         "pkg-0.5.0" = _5HA4N7zd;
         "pkg-0.5.1" = _Jt29c1cN;
         "pkg-0.5.2" = _9pJMs7Qf;
-        "default" = _9pJMs7Qf;
+        "pkg-0.5.3" = _koDmyiCS;
+        "pkg-0.5.4" = _QScrePLR;
+        "default" = _QScrePLR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "places";

@@ -546,6 +546,11 @@ let
             "file" = "Doku's RPG.zip";
             "hash" = "sha512-z81LqtQd6aGAIxPUJ1TjW9LT3gizJ8jTNAcfVsG7+dl/EYtiw5jPs8qy1Vaoq9FHm+5H5GRuLOfR1PMP4gpl/g==";
         };
+        _jssKgMuV = {
+            "id" = "jssKgMuV";
+            "file" = "Doku's RPG.zip";
+            "hash" = "sha512-HbjUxY3iyUrnEL2LLvjIlQOxp2A5C630laaGqFzjs6IoJlaHr/jB8quLbH2SlSj1suERhThJgAXSU/gcBVxoDA==";
+        };
     in {
         "2iXLUq8j" = _2iXLUq8j;
         "eRA0HyEr" = _eRA0HyEr;
@@ -656,6 +661,7 @@ let
         "KwxX0NSt" = _KwxX0NSt;
         "wZxsrqcT" = _wZxsrqcT;
         "oRyZzitg" = _oRyZzitg;
+        "jssKgMuV" = _jssKgMuV;
         "minecraft-b1.4" = _sVYnAAhf;
         "minecraft-b1.4_01" = _sVYnAAhf;
         "minecraft-b1.5" = _sVYnAAhf;
@@ -907,13 +913,14 @@ let
         "minecraft-b1.3_01" = _sVYnAAhf;
         "minecraft-1.7" = _BwpGBb0f;
         "minecraft-1.7.1" = _BwpGBb0f;
-        "minecraft-26.3" = _oRyZzitg;
+        "minecraft-26.3" = _jssKgMuV;
         "minecraft-26.4-snapshot-1" = _oRyZzitg;
         "minecraft-26.4-snapshot-2" = _oRyZzitg;
         "minecraft-26.4-snapshot-3" = _oRyZzitg;
         "minecraft-26.4-snapshot-4" = _oRyZzitg;
         "minecraft-26.4-snapshot-5" = _oRyZzitg;
         "minecraft-26.4-snapshot-6" = _oRyZzitg;
+        "minecraft-26.4-snapshot-7" = _jssKgMuV;
         "pkg-1.0" = _oxe4vqc1;
         "pkg-1.1" = _YyvGe1uD;
         "pkg-1.2" = _O8lpQ79U;
@@ -959,7 +966,8 @@ let
         "pkg-5.1" = _yZnsAczt;
         "pkg-5.2" = _uPaOOygS;
         "pkg-5.3" = _oRyZzitg;
-        "default" = _oRyZzitg;
+        "pkg-5.4" = _jssKgMuV;
+        "default" = _jssKgMuV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dokus-rpg";

@@ -66,6 +66,16 @@ let
             "file" = "naruto_new_shinobi_era_1.20.1-1.6.0.jar";
             "hash" = "sha512-5UMm1xrG0Z6cNiy3eT++IWlsVKaWsgoGHGK3VYKDGaixqK7ud1fllWiHJt9SBEyARZur/nm/4Gl+0JJN8JMl9w==";
         };
+        _XjVrwLWC = {
+            "id" = "XjVrwLWC";
+            "file" = "nse-0.1.0.jar";
+            "hash" = "sha512-5QG/16WgToUDaM/4njA/waJ5Y5wFcdc0bmgNEP2tw1g/xuCs3jWAGzfeUxO1CfE/uFcwL08tUUmYxfLB/aV1DA==";
+        };
+        _zZTvOaQE = {
+            "id" = "zZTvOaQE";
+            "file" = "nse-0.1.1.jar";
+            "hash" = "sha512-VJU4/NwQ7XuMwWW73DgJZZl8qsbbMKKCtdr27IK9zJgGgJWXsxiwwQpZ6sxPLAD5tYfjOUfS46hT008VbhXjWQ==";
+        };
     in {
         "yiGvu07J" = _yiGvu07J;
         "zTN7bQeQ" = _zTN7bQeQ;
@@ -80,7 +90,10 @@ let
         "d8074pNO" = _d8074pNO;
         "Sc8v1yYQ" = _Sc8v1yYQ;
         "7emMk5Pf" = _7emMk5Pf;
+        "XjVrwLWC" = _XjVrwLWC;
+        "zZTvOaQE" = _zZTvOaQE;
         "forge-1.20.1" = _7emMk5Pf;
+        "neoforge-1.21.1" = _zZTvOaQE;
         "pkg-0.5.6" = _yiGvu07J;
         "pkg-1.20.1-0.6.0" = _zTN7bQeQ;
         "pkg-0.6.0.5" = _d3V0UThu;
@@ -93,7 +106,9 @@ let
         "pkg-1.20.1-1.4.0" = _d8074pNO;
         "pkg-1.20.1-1.5.0" = _Sc8v1yYQ;
         "pkg-1.20.1-1.6.0" = _7emMk5Pf;
-        "default" = _7emMk5Pf;
+        "pkg-1.21.1-0.1.0-BETA" = _XjVrwLWC;
+        "pkg-1.21.1-0.1.1-BETA" = _zZTvOaQE;
+        "default" = _zZTvOaQE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naruto_new_shinobi_era";

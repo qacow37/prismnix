@@ -81,6 +81,26 @@ let
             "file" = "v_slab_compat-1.21.1-3.0-fabric.jar";
             "hash" = "sha512-Al7KBeUeesG7K5QTONCD6sMUCgTYGxs8ETH9iaWgbLpSEGGLFvC0hYjoOfXK+PC4ckBtsOI/X3ZK5K5gMxBk4g==";
         };
+        _AXcNYTyD = {
+            "id" = "AXcNYTyD";
+            "file" = "v_slab_compat-1.21.1-4.0-fabric.jar";
+            "hash" = "sha512-jfq1dJtbclh7iORfw1YvxeX33kg5Fz36gpBH60s6/qd/+Kc5keW49zpNSJqz1VcVHimSCxlHH5HT9ia5ljtAlQ==";
+        };
+        _lH4fO8vB = {
+            "id" = "lH4fO8vB";
+            "file" = "v_slab_compat-1.21.1-4.0-neoforge.jar";
+            "hash" = "sha512-q0olAe6lVaTZKCN3KBCPwsCkrnxkmxqT2bxOlQS4RNguR3xjlJTD2NJ16ajabWLF7JRt1Sooo3o7hhhEKfW4YA==";
+        };
+        _eugLVxML = {
+            "id" = "eugLVxML";
+            "file" = "v_slab_compat-26.1.2-4.0-fabric.jar";
+            "hash" = "sha512-n57zfvSvqcDiXuIGajLEGoJvMLzQN7DVh3b3K79r5LoiyFE+dAzJJcvc8rydeuVTnxbMNw2O8YPM3BriS6bv1Q==";
+        };
+        _DtsJjbO0 = {
+            "id" = "DtsJjbO0";
+            "file" = "v_slab_compat-26.1.2-4.0-neoforge.jar";
+            "hash" = "sha512-8BhCCqAolh6etFevaLwTfcu6hT1jGW7FRoW46K6EMM8PCcXliHqb6xI4bfDoLvpi6eI/jNDS+u7GaRoo+sY9gQ==";
+        };
     in {
         "kIy9hG6e" = _kIy9hG6e;
         "lBSRCPhG" = _lBSRCPhG;
@@ -98,14 +118,20 @@ let
         "LBgTXjWr" = _LBgTXjWr;
         "QXnQz98E" = _QXnQz98E;
         "XWPsKS65" = _XWPsKS65;
+        "AXcNYTyD" = _AXcNYTyD;
+        "lH4fO8vB" = _lH4fO8vB;
+        "eugLVxML" = _eugLVxML;
+        "DtsJjbO0" = _DtsJjbO0;
         "forge-1.19.1" = _ziQiAm0z;
         "forge-1.19.2" = _ziQiAm0z;
         "forge-1.20.1" = _LBgTXjWr;
         "fabric-1.19.1" = _vyUrexws;
         "fabric-1.19.2" = _I3aC6j8n;
         "fabric-1.20.1" = _3nZUZaa3;
-        "fabric-1.21.1" = _XWPsKS65;
-        "neoforge-1.21.1" = _QXnQz98E;
+        "fabric-1.21.1" = _AXcNYTyD;
+        "fabric-26.1.2" = _eugLVxML;
+        "neoforge-1.21.1" = _lH4fO8vB;
+        "neoforge-26.1.2" = _DtsJjbO0;
         "pkg-0" = _kIy9hG6e;
         "pkg-1" = _lBSRCPhG;
         "pkg-2" = _ZQpxBfEs;
@@ -119,7 +145,9 @@ let
         "pkg-1.20-2.4" = _cJpsbZej;
         "pkg-1.20-2.5" = _LBgTXjWr;
         "pkg-1.21.1-3.0" = _XWPsKS65;
-        "default" = _XWPsKS65;
+        "pkg-1.21.1-4.0" = _lH4fO8vB;
+        "pkg-26.1.2-4.0" = _DtsJjbO0;
+        "default" = _DtsJjbO0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vertical-slabs-compat";

@@ -146,6 +146,16 @@ let
             "file" = "WhitePumpkins-neoforge-1.21.11-1.3.0.jar";
             "hash" = "sha512-C8QqkoULOIiVy7Xee3CxSBiS+RGbrfa5L+Hhid3H8iFr4yk5faIHJw9/xcUAYJpjbeTip8ysRsDsl4enkSIrNA==";
         };
+        _jhTLhmZE = {
+            "id" = "jhTLhmZE";
+            "file" = "WhitePumpkins-fabric-1.21.11-1.4.0.jar";
+            "hash" = "sha512-WFrIogz8MzKfuZRdz4SugqVD9/f0M1Fo6B7sRsGe/5rl8Zbc63vkLpnRmi4WjsqOy68SHcTgYM8skYN6kM5KoQ==";
+        };
+        _Ls3VhMoS = {
+            "id" = "Ls3VhMoS";
+            "file" = "WhitePumpkins-neoforge-1.21.11-1.4.0.jar";
+            "hash" = "sha512-Wjqhei/TuEABpNRvvFEBnJwpIBxdzTOU06+ULcsDNxiSiTmrslTorWuR78XMbmKnWp4FMWYnCu/0nCL0Suik8g==";
+        };
     in {
         "BBHMZUNx" = _BBHMZUNx;
         "pUSCxSLl" = _pUSCxSLl;
@@ -176,6 +186,8 @@ let
         "odOO8UbV" = _odOO8UbV;
         "oSPNzD9I" = _oSPNzD9I;
         "3tI5kMVy" = _3tI5kMVy;
+        "jhTLhmZE" = _jhTLhmZE;
+        "Ls3VhMoS" = _Ls3VhMoS;
         "neoforge-1.21.1" = _toPBQWWp;
         "neoforge-1.21.3" = _v4qxcDRC;
         "neoforge-1.21.4" = _dhYbiQY5;
@@ -183,7 +195,7 @@ let
         "neoforge-1.21.6" = _odOO8UbV;
         "neoforge-1.21.7" = _odOO8UbV;
         "neoforge-1.21.8" = _odOO8UbV;
-        "neoforge-1.21.11" = _3tI5kMVy;
+        "neoforge-1.21.11" = _Ls3VhMoS;
         "fabric-1.21.1" = _aAabTuRk;
         "fabric-1.21.3" = _cyFRUzk9;
         "fabric-1.21.4" = _aVe75Oj6;
@@ -191,7 +203,7 @@ let
         "fabric-1.21.6" = _9DeydLOq;
         "fabric-1.21.7" = _9DeydLOq;
         "fabric-1.21.8" = _9DeydLOq;
-        "fabric-1.21.11" = _oSPNzD9I;
+        "fabric-1.21.11" = _jhTLhmZE;
         "pkg-1.0.0" = _pUSCxSLl;
         "pkg-1.0.1" = _cy931gCU;
         "pkg-1.1.0" = _3IY8zZ7N;
@@ -200,7 +212,8 @@ let
         "pkg-1.2.2" = _AMTIJ4H0;
         "pkg-1.2.3" = _VJfduBEZ;
         "pkg-1.3.0" = _3tI5kMVy;
-        "default" = _3tI5kMVy;
+        "pkg-1.4.0" = _Ls3VhMoS;
+        "default" = _Ls3VhMoS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "white-pumpkins";

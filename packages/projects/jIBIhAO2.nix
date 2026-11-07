@@ -66,6 +66,16 @@ let
             "file" = "gregtechterminals-6.8.5-fix.jar";
             "hash" = "sha512-WFwDVcpThRYWZw/UBHRjehPvRpl/XDzku0xJeVjtEHvkiISPu6dgQGK3SlHtO6rPZqjr1ZhWUjaDArphRvCjFw==";
         };
+        _GPmrhPIH = {
+            "id" = "GPmrhPIH";
+            "file" = "gregtechterminals-6.9.6.jar";
+            "hash" = "sha512-ytR/ULFoMLRr/Vg4Atw7wAldvWvns9iY7TxbANF+xJLoQOSRxxlx5Pd5EYhN4xmBDTWLJsyfPqCvpV0jwlJirA==";
+        };
+        _OGI3OqA1 = {
+            "id" = "OGI3OqA1";
+            "file" = "gregtechterminals-6.9.6.jar";
+            "hash" = "sha512-aaZOnEmQ7ZljpbY0Xc1ckC1zBCszxh9qvDFRt/EbXEhzFx/dnMjnLxwtjsTrafqNqMcSeWy4cZ+4YkpMx4VzWQ==";
+        };
     in {
         "1zkRonRN" = _1zkRonRN;
         "ku73S0LK" = _ku73S0LK;
@@ -80,7 +90,9 @@ let
         "r7GSYOtj" = _r7GSYOtj;
         "aAmpfao8" = _aAmpfao8;
         "9p3g1V5R" = _9p3g1V5R;
-        "forge-1.20.1" = _9p3g1V5R;
+        "GPmrhPIH" = _GPmrhPIH;
+        "OGI3OqA1" = _OGI3OqA1;
+        "forge-1.20.1" = _OGI3OqA1;
         "pkg-1.0.2" = _1zkRonRN;
         "pkg-1.1.3" = _ku73S0LK;
         "pkg-1.2.4" = _ZvDQvrue;
@@ -94,7 +106,8 @@ let
         "pkg-5.6.2" = _r7GSYOtj;
         "pkg-6.8.5" = _aAmpfao8;
         "pkg-6.8.5-fix" = _9p3g1V5R;
-        "default" = _9p3g1V5R;
+        "pkg-6.9.6" = _OGI3OqA1;
+        "default" = _OGI3OqA1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gtceu-terminals";

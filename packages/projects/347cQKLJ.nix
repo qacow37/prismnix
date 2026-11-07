@@ -216,6 +216,16 @@ let
             "file" = "TFC-Real-World-NeoForge-1.21.1-4.2.1.jar";
             "hash" = "sha512-LvRcrLNWqIIVnSfOI3MBq06YJtbqf7k+WAHiMBiJJhGFcB5YuPRlpfv5sae3uWUX71XdB5ew0h0UIhbnxpYOhw==";
         };
+        _V1cYiu2g = {
+            "id" = "V1cYiu2g";
+            "file" = "TFC-Real-World-Forge-1.20.1-3.2.2.jar";
+            "hash" = "sha512-C7kR2KR+xcN5SOqtGPtj2f2bQ4I8j8KyFofuGexabrJoFSLo9S8d5D+t9giXHhT2QREjT9g8wSFgnhPk9dNjKA==";
+        };
+        _OS6rgAOv = {
+            "id" = "OS6rgAOv";
+            "file" = "TFC-Real-World-NeoForge-1.21.1-4.2.2.jar";
+            "hash" = "sha512-yV0OqU+Z4gZnzCkzkM8OZXmLzuVOfplR0AVVipZbGMc8wTquO0J8tvfOfuExx6aMiTmE84yYVKksj4jN/U52nw==";
+        };
     in {
         "KVwoQgtP" = _KVwoQgtP;
         "ZLtL3lDw" = _ZLtL3lDw;
@@ -260,8 +270,10 @@ let
         "vr8z30sG" = _vr8z30sG;
         "1O6H9dYJ" = _1O6H9dYJ;
         "UyCqO9Wt" = _UyCqO9Wt;
-        "neoforge-1.21.1" = _UyCqO9Wt;
-        "forge-1.20.1" = _1O6H9dYJ;
+        "V1cYiu2g" = _V1cYiu2g;
+        "OS6rgAOv" = _OS6rgAOv;
+        "neoforge-1.21.1" = _OS6rgAOv;
+        "forge-1.20.1" = _V1cYiu2g;
         "forge-1.18.2" = _vr8z30sG;
         "pkg-1.0.0-beta" = _KVwoQgtP;
         "pkg-1.0.1-beta" = _ZLtL3lDw;
@@ -306,7 +318,9 @@ let
         "pkg-2.2.1" = _vr8z30sG;
         "pkg-3.2.1" = _1O6H9dYJ;
         "pkg-4.2.1" = _UyCqO9Wt;
-        "default" = _UyCqO9Wt;
+        "pkg-3.2.2" = _V1cYiu2g;
+        "pkg-4.2.2" = _OS6rgAOv;
+        "default" = _OS6rgAOv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfc-real-world";

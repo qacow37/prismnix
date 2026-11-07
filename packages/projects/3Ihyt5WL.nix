@@ -156,6 +156,16 @@ let
             "file" = "taczaddon-1.1.8.3-neoforge-1.21.1.jar";
             "hash" = "sha512-nEYe1v7qG0FdlrrSJ0cxuAkDcDFTTUewstPM1nov9UPbzvwoI4X4Rr+g0rjSXWmzMlyKLTg3v20/WsaPLQWxUQ==";
         };
+        _ObdwJQ6q = {
+            "id" = "ObdwJQ6q";
+            "file" = "taczaddon-1.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-DRbxewVvmlOeJZMnRNtMAueTYQGJv6/ji7rCs0F/EMjYYJDOBMHpu/QJoOfETkbqojl+u5jhtPPvLRECBjgbZA==";
+        };
+        _NCqxgoYa = {
+            "id" = "NCqxgoYa";
+            "file" = "taczaddon-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-aSoMK7+vhXmLSf1GGzi9FE79LeAAQhSENfXmst7VGEjt1ZfflcRat/ItOfEX7mcSDZdReEFRAsiKg4/K+lk8QQ==";
+        };
     in {
         "3NIbKy25" = _3NIbKy25;
         "pM1iMYkx" = _pM1iMYkx;
@@ -188,14 +198,16 @@ let
         "u3luODNG" = _u3luODNG;
         "A361uNth" = _A361uNth;
         "QK3Z3Gsy" = _QK3Z3Gsy;
-        "forge-1.20.1" = _A361uNth;
+        "ObdwJQ6q" = _ObdwJQ6q;
+        "NCqxgoYa" = _NCqxgoYa;
+        "forge-1.20.1" = _ObdwJQ6q;
         "forge-1.20" = _iHOljyTA;
         "forge-1.20.2" = _iHOljyTA;
         "forge-1.20.3" = _iHOljyTA;
         "forge-1.20.4" = _iHOljyTA;
         "forge-1.20.5" = _iHOljyTA;
         "forge-1.20.6" = _iHOljyTA;
-        "neoforge-1.21.1" = _QK3Z3Gsy;
+        "neoforge-1.21.1" = _NCqxgoYa;
         "pkg-1.0.0" = _pM1iMYkx;
         "pkg-1.0.1" = _LMAN5lBr;
         "pkg-1.0.2" = _ADGf1qIb;
@@ -212,7 +224,8 @@ let
         "pkg-1.1.8.1" = _KRI9qZLg;
         "pkg-1.1.8.2" = _u3luODNG;
         "pkg-1.1.8.3" = _QK3Z3Gsy;
-        "default" = _QK3Z3Gsy;
+        "pkg-1.2.0" = _NCqxgoYa;
+        "default" = _NCqxgoYa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczaddon";

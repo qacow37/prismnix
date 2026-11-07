@@ -16,15 +16,22 @@ let
             "file" = "wynnhidepet-1.1.3+1.21.11.jar";
             "hash" = "sha512-4AfU3MiBZgH8dnXDhaFlERGuvelLlNHE2DbkJR5WHxfnnSTwGmheddtsF4r8d5eY9t1VaSY5Z58DBxkL8XhUog==";
         };
+        _XkzgqcYo = {
+            "id" = "XkzgqcYo";
+            "file" = "wynnhidepet-1.2.0+1.21.11.jar";
+            "hash" = "sha512-rMazVuFX15Mo3i3+KLtXCou4Ene+m0yktXba2PGX6iQ4j6zhvP3kt9YeZfkOpI0FPD3gV66yTjNFBL2VXm5zuw==";
+        };
     in {
         "FeyVV3hK" = _FeyVV3hK;
         "Fo3W68PV" = _Fo3W68PV;
         "NTKir5UI" = _NTKir5UI;
-        "fabric-1.21.11" = _NTKir5UI;
+        "XkzgqcYo" = _XkzgqcYo;
+        "fabric-1.21.11" = _XkzgqcYo;
         "pkg-1.0.0" = _FeyVV3hK;
         "pkg-1.1.2" = _Fo3W68PV;
         "pkg-1.1.3" = _NTKir5UI;
-        "default" = _NTKir5UI;
+        "pkg-1.2.0" = _XkzgqcYo;
+        "default" = _XkzgqcYo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynncraft-hide-pets";

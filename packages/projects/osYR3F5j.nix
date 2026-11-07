@@ -126,6 +126,16 @@ let
             "file" = "Fractal-2.1.2+26.2-neoforge.jar";
             "hash" = "sha512-9PckbIeBz4JQSVphaQEmrFKftYHdngQFvzDrsIQL+cjzp/B2R+MpvtZ8I+ngqQO3k/WB4Tu3mCVDRyjwN7qqCQ==";
         };
+        _P3AkArEp = {
+            "id" = "P3AkArEp";
+            "file" = "fractal-1.7.0+26.3.jar";
+            "hash" = "sha512-kOw2Q0hRoxctikXV8L0EPWHfPW/piTVKVc2jn6SoGefvwhE8jJoz6C+xaQ6PdwYGAj+KMg7Z74xHZyHdXyZW7A==";
+        };
+        _4BEqITsW = {
+            "id" = "4BEqITsW";
+            "file" = "Fractal-2.2.0+26.3-neoforge.jar";
+            "hash" = "sha512-9ryBwN04kJKLkuPrgIYiIxJL86umpMiZECS6lJ6ifxrJumTQy85iPv4pJQMS0WTE0D5COot2XH2Jv8JNB0H+mw==";
+        };
     in {
         "Rnc69G84" = _Rnc69G84;
         "8I3R187M" = _8I3R187M;
@@ -152,6 +162,8 @@ let
         "XCvkJRf4" = _XCvkJRf4;
         "gJzJeMec" = _gJzJeMec;
         "B4MtPRsf" = _B4MtPRsf;
+        "P3AkArEp" = _P3AkArEp;
+        "4BEqITsW" = _4BEqITsW;
         "fabric-1.19.4" = _Rnc69G84;
         "fabric-1.19.2" = _8I3R187M;
         "fabric-1.20.1" = _rBFEjAiy;
@@ -172,6 +184,7 @@ let
         "fabric-26.1.1" = _XCvkJRf4;
         "fabric-26.1.2" = _XCvkJRf4;
         "fabric-26.2" = _gJzJeMec;
+        "fabric-26.3" = _P3AkArEp;
         "quilt-1.19.4" = _Rnc69G84;
         "quilt-1.19.2" = _8I3R187M;
         "quilt-1.20.1" = _8FJtBA9a;
@@ -181,6 +194,7 @@ let
         "neoforge-26.1" = _XXlIaMFB;
         "neoforge-26.1.1" = _XXlIaMFB;
         "neoforge-26.2" = _B4MtPRsf;
+        "neoforge-26.3" = _4BEqITsW;
         "pkg-1.0.0" = _gp5tFoVz;
         "pkg-1.1.0" = _ebzJnrWP;
         "pkg-1.2.0" = _rBFEjAiy;
@@ -201,7 +215,9 @@ let
         "pkg-1.6.1+26.1" = _XCvkJRf4;
         "pkg-1.6.1+26.2" = _gJzJeMec;
         "pkg-2.1.2+26.2-neoforge" = _B4MtPRsf;
-        "default" = _B4MtPRsf;
+        "pkg-1.7.0+26.3" = _P3AkArEp;
+        "pkg-2.2.0+26.3-neoforge" = _4BEqITsW;
+        "default" = _4BEqITsW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fractal-lib";

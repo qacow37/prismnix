@@ -21,17 +21,24 @@ let
             "file" = "Create: Remedy (GOLD).zip";
             "hash" = "sha512-kgBEUQMWBL914Rs7EdbrxIjSnUrwyVlWG7YyrDt8/nEmM1vcDi5VasHfpU//1GHVRsKCSmgPkYVTinT+879KcQ==";
         };
+        _r1yxjVwI = {
+            "id" = "r1yxjVwI";
+            "file" = "Create-Remedy.zip";
+            "hash" = "sha512-wit1MFHEZZ4pKkXhkbSDtqEuiRn1cAJ+yeNRTMq/HF+Dt3OWlXhCLW3g2jfhfHrbzYn9nyKmzc1YfnvjhWnoZg==";
+        };
     in {
         "MklZQHB3" = _MklZQHB3;
         "730T0myq" = _730T0myq;
         "kI0go69Y" = _kI0go69Y;
         "vliu1yBO" = _vliu1yBO;
-        "minecraft-1.21.1" = _vliu1yBO;
-        "minecraft-1.21" = _vliu1yBO;
+        "r1yxjVwI" = _r1yxjVwI;
+        "minecraft-1.21.1" = _r1yxjVwI;
+        "minecraft-1.21" = _r1yxjVwI;
         "pkg-0.1" = _MklZQHB3;
         "pkg-0.3" = _730T0myq;
         "pkg-0.4" = _vliu1yBO;
-        "default" = _vliu1yBO;
+        "pkg-0.5" = _r1yxjVwI;
+        "default" = _r1yxjVwI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create_remedy";

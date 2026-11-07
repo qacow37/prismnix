@@ -161,6 +161,11 @@ let
             "file" = "TotemUtils-26.2-1.0.0-alpha3.jar";
             "hash" = "sha512-VprBBzKX3KJdNBskPZZV9mLdfc/mhjj6GPJ1d4QvFDd4QQVIJVcK0606zdCp28e9IlEET5oB/Xn2xwCIVi+ECA==";
         };
+        _nSbWdZNt = {
+            "id" = "nSbWdZNt";
+            "file" = "TotemUtils-26.3-1.0.1-alpha1.jar";
+            "hash" = "sha512-zmAw3KSSKPPTPQLimY+Quu8Dxg6Q9luG9tcMfd1mzZ99SPrD2yLAjOk2Qe8ZpY1ANkqkhygzRI1YcbOFhWTOBg==";
+        };
     in {
         "s2GCC3DC" = _s2GCC3DC;
         "josw5Cyk" = _josw5Cyk;
@@ -194,6 +199,7 @@ let
         "ieu31xlz" = _ieu31xlz;
         "rBPRuZNA" = _rBPRuZNA;
         "cLFcgDyi" = _cLFcgDyi;
+        "nSbWdZNt" = _nSbWdZNt;
         "fabric-1.21.4" = _SZs2Te5P;
         "fabric-1.21.1" = _SZs2Te5P;
         "fabric-1.21.2" = _SZs2Te5P;
@@ -207,6 +213,7 @@ let
         "fabric-26.1.1" = _ieu31xlz;
         "fabric-26.1.2" = _ieu31xlz;
         "fabric-26.2" = _cLFcgDyi;
+        "fabric-26.3" = _nSbWdZNt;
         "pkg-0.0.2-SNAPSHOT" = _s2GCC3DC;
         "pkg-0.0.2-SNAPSHOT-1.21.1" = _josw5Cyk;
         "pkg-0.0.3-SNAPSHOT-1.21.4" = _VPyVsGVT;
@@ -239,7 +246,8 @@ let
         "pkg-26.1-1.0.0-alpha3" = _ieu31xlz;
         "pkg-26.2-1.0.0-alpha2" = _rBPRuZNA;
         "pkg-26.2-1.0.0-alpha3" = _cLFcgDyi;
-        "default" = _cLFcgDyi;
+        "pkg-26.3-1.0.1-alpha1" = _nSbWdZNt;
+        "default" = _nSbWdZNt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totemutils";

@@ -521,6 +521,16 @@ let
             "file" = "palladium-4.5.9+1.20.1-fabric.jar";
             "hash" = "sha512-RPqePReIYv9AvDT0om7D/5ySe0G3yO9ge71eHsPZ/3uU4vqe0WZ3PuyQdHBZUlYh4tMSwQcLoEF4/tin0Dt9ZQ==";
         };
+        _aqNx175c = {
+            "id" = "aqNx175c";
+            "file" = "palladium-4.5.10+1.20.1-forge.jar";
+            "hash" = "sha512-6zazv42KFwNOs6IontdzRBCRoeZMgfpKVP6QpAJGstAHeXLhWNBaG0Aabeca6YHinbJzr5Hi1WXrJxMHLO0bLQ==";
+        };
+        _naFdzsle = {
+            "id" = "naFdzsle";
+            "file" = "palladium-4.5.10+1.20.1-fabric.jar";
+            "hash" = "sha512-zpR+qx21nJrlP0yfNymUFbzIFGuVeOv6iFoEGkP6gGEBHEdKkTYe5PSIRPV7NiZKFW+IhkL8uLSAZzMVL1WNgQ==";
+        };
     in {
         "YXaR7QC4" = _YXaR7QC4;
         "8omqvqHs" = _8omqvqHs;
@@ -626,10 +636,12 @@ let
         "Gqr5gqff" = _Gqr5gqff;
         "cR8uBzEl" = _cR8uBzEl;
         "pGhbfuMO" = _pGhbfuMO;
-        "forge-1.20.1" = _cR8uBzEl;
-        "neoforge-1.20.1" = _cR8uBzEl;
-        "fabric-1.20.1" = _pGhbfuMO;
-        "quilt-1.20.1" = _pGhbfuMO;
+        "aqNx175c" = _aqNx175c;
+        "naFdzsle" = _naFdzsle;
+        "forge-1.20.1" = _aqNx175c;
+        "neoforge-1.20.1" = _aqNx175c;
+        "fabric-1.20.1" = _naFdzsle;
+        "quilt-1.20.1" = _naFdzsle;
         "pkg-4.0.0+1.20.1-forge" = _YXaR7QC4;
         "pkg-4.0.0+1.20.1-fabric" = _8omqvqHs;
         "pkg-4.0.1+1.20.1-forge" = _tELNhDXv;
@@ -734,7 +746,9 @@ let
         "pkg-4.5.8+1.20.1-fabric" = _Gqr5gqff;
         "pkg-4.5.9+1.20.1-forge" = _cR8uBzEl;
         "pkg-4.5.9+1.20.1-fabric" = _pGhbfuMO;
-        "default" = _pGhbfuMO;
+        "pkg-4.5.10+1.20.1-forge" = _aqNx175c;
+        "pkg-4.5.10+1.20.1-fabric" = _naFdzsle;
+        "default" = _naFdzsle;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "threetag-palladium";

@@ -1021,6 +1021,41 @@ let
             "file" = "pets-mod-SNAPSHOT-26.4b7-fabric.jar";
             "hash" = "sha512-Ccafr+qjsl1okSDRblsoYvj9x2QaqlT0yLBiYetFKsaUP0GJSaMMmn3VFqeZQj6H3D4aai1ak3l0Cgf6izyvCA==";
         };
+        _gpGLSbuL = {
+            "id" = "gpGLSbuL";
+            "file" = "pets-mod-0.8.7-26.2-fabric.jar";
+            "hash" = "sha512-bH6xxN6k6/ud2qvns9uXljKxV2vd3taUHKzUX18J6T8zg6U3v/BDupFmiJkapFMcZ0tLNd2bT2f9EEKADpiLQQ==";
+        };
+        _WWT0zmH3 = {
+            "id" = "WWT0zmH3";
+            "file" = "pets-mod-0.8.7-26.2-neo.jar";
+            "hash" = "sha512-gfVQvq/0VKYYW0J4MP9IGsScZd2CLs99E+AnNIHQarD5A+C2Mg95lmNgiNlOFXsvGM/H9eJ3emdppAjMEFUg3w==";
+        };
+        _g7Jlyylw = {
+            "id" = "g7Jlyylw";
+            "file" = "pets-mod-0.8.7-26.2-java-agent.jar";
+            "hash" = "sha512-7pzXmstLwtel6FBVB2U9SyOjAKq8VZJ6y/0ToMEq38lb2rF7/h31jptPPbuz6KyIp0W9Gl0wQhekdAkerl5CeA==";
+        };
+        _HCYBamXZ = {
+            "id" = "HCYBamXZ";
+            "file" = "pets-mod-0.8.7-26.3-fabric.jar";
+            "hash" = "sha512-DQaQ/LuUzIhBWgUzjjT9ET85JfWN6Q61S19jUoFxGIsSLwQYEHvQ6VeVBlj+u3oiFBisds2v0NFOtEdz5CPC5A==";
+        };
+        _WjUyHixT = {
+            "id" = "WjUyHixT";
+            "file" = "pets-mod-0.8.7-26.3-neo.jar";
+            "hash" = "sha512-y9QDhIA2uJMq5Byon1Rr05RvZ3zwM9on2gS2MSSfLlc27pkzwe/YdyXKo4NLagsa1WDTzkw8JCzShoRkPOSEVw==";
+        };
+        _4VTyDtja = {
+            "id" = "4VTyDtja";
+            "file" = "pets-mod-0.8.7-26.3-java-agent.jar";
+            "hash" = "sha512-FE8DiXTpiuoinXEv9Vp5fFONitv8A9O+SFWQwdX5sNDjeh4JEW4DYB9gRdFOMnH3kedbyY3msRZWEhMDqF/Xiw==";
+        };
+        _LJimnBa9 = {
+            "id" = "LJimnBa9";
+            "file" = "pets-mod-0.8.4-1.8.9-ornithe.jar";
+            "hash" = "sha512-TsAETF2hLPjK2Xyz+tdVz0pqTdeUshcBU/s2ao6SLFPcwfyteOq3UGrCTiqBhSXu4JwFNmJEAvHQOmD2eUcD5g==";
+        };
     in {
         "QXwNiseV" = _QXwNiseV;
         "fNYBq9w9" = _fNYBq9w9;
@@ -1226,13 +1261,20 @@ let
         "Xir02s26" = _Xir02s26;
         "RlnIQ4fw" = _RlnIQ4fw;
         "Cj5fSQq2" = _Cj5fSQq2;
+        "gpGLSbuL" = _gpGLSbuL;
+        "WWT0zmH3" = _WWT0zmH3;
+        "g7Jlyylw" = _g7Jlyylw;
+        "HCYBamXZ" = _HCYBamXZ;
+        "WjUyHixT" = _WjUyHixT;
+        "4VTyDtja" = _4VTyDtja;
+        "LJimnBa9" = _LJimnBa9;
         "fabric-1.21.11" = _CPwFdYy0;
         "fabric-26.1" = _O9ZcoNMs;
         "fabric-26.1.1" = _O9ZcoNMs;
         "fabric-26.1.2" = _O9ZcoNMs;
         "fabric-1.21.9" = _YEUF5Bl3;
         "fabric-1.21.10" = _YEUF5Bl3;
-        "fabric-26.2" = _EeeLZ8zp;
+        "fabric-26.2" = _gpGLSbuL;
         "fabric-1.21.6" = _6H7qfVsg;
         "fabric-1.21.7" = _6H7qfVsg;
         "fabric-1.21.8" = _6H7qfVsg;
@@ -1273,7 +1315,7 @@ let
         "fabric-1.14.2" = _puWHcJXE;
         "fabric-1.14.3" = _puWHcJXE;
         "fabric-1.14.4" = _puWHcJXE;
-        "fabric-26.3" = _IgYebx3Y;
+        "fabric-26.3" = _HCYBamXZ;
         "fabric-26.4-snapshot-1" = _HZJCtqPx;
         "fabric-26.4-snapshot-2" = _FQGU2gZY;
         "fabric-26.4-snapshot-3" = _7ddI3zOg;
@@ -1286,7 +1328,7 @@ let
         "quilt-1.21.11" = _CPwFdYy0;
         "quilt-1.21.9" = _YEUF5Bl3;
         "quilt-1.21.10" = _YEUF5Bl3;
-        "quilt-26.2" = _EeeLZ8zp;
+        "quilt-26.2" = _gpGLSbuL;
         "quilt-1.21.6" = _6H7qfVsg;
         "quilt-1.21.7" = _6H7qfVsg;
         "quilt-1.21.8" = _6H7qfVsg;
@@ -1327,7 +1369,7 @@ let
         "quilt-1.14.2" = _puWHcJXE;
         "quilt-1.14.3" = _puWHcJXE;
         "quilt-1.14.4" = _puWHcJXE;
-        "quilt-26.3" = _IgYebx3Y;
+        "quilt-26.3" = _HCYBamXZ;
         "quilt-26.4-snapshot-1" = _HZJCtqPx;
         "quilt-26.4-snapshot-2" = _FQGU2gZY;
         "quilt-26.4-snapshot-3" = _7ddI3zOg;
@@ -1340,7 +1382,7 @@ let
         "neoforge-1.21.11" = _GY5O35aI;
         "neoforge-1.21.9" = _gBBeR4ty;
         "neoforge-1.21.10" = _gBBeR4ty;
-        "neoforge-26.2" = _jICCL42t;
+        "neoforge-26.2" = _WWT0zmH3;
         "neoforge-1.21.6" = _qBZ03P8c;
         "neoforge-1.21.7" = _qBZ03P8c;
         "neoforge-1.21.8" = _qBZ03P8c;
@@ -1354,7 +1396,7 @@ let
         "neoforge-1.20.6" = _qImvF7QS;
         "neoforge-1.20.3" = _vYFuVPmI;
         "neoforge-1.20.4" = _vYFuVPmI;
-        "neoforge-26.3" = _G3Ki0rGb;
+        "neoforge-26.3" = _WjUyHixT;
         "forge-1.21.2" = _U5ZhRFn2;
         "forge-1.21.3" = _U5ZhRFn2;
         "forge-1.21" = _GrbniITA;
@@ -1423,16 +1465,16 @@ let
         "ornithe-1.9.2" = _l763xzwa;
         "ornithe-1.9.3" = _l763xzwa;
         "ornithe-1.9.4" = _l763xzwa;
-        "ornithe-1.8" = _y0iSoc70;
-        "ornithe-1.8.1" = _y0iSoc70;
-        "ornithe-1.8.2" = _y0iSoc70;
-        "ornithe-1.8.3" = _y0iSoc70;
-        "ornithe-1.8.4" = _y0iSoc70;
-        "ornithe-1.8.5" = _y0iSoc70;
-        "ornithe-1.8.6" = _y0iSoc70;
-        "ornithe-1.8.7" = _y0iSoc70;
-        "ornithe-1.8.8" = _y0iSoc70;
-        "ornithe-1.8.9" = _y0iSoc70;
+        "ornithe-1.8" = _LJimnBa9;
+        "ornithe-1.8.1" = _LJimnBa9;
+        "ornithe-1.8.2" = _LJimnBa9;
+        "ornithe-1.8.3" = _LJimnBa9;
+        "ornithe-1.8.4" = _LJimnBa9;
+        "ornithe-1.8.5" = _LJimnBa9;
+        "ornithe-1.8.6" = _LJimnBa9;
+        "ornithe-1.8.7" = _LJimnBa9;
+        "ornithe-1.8.8" = _LJimnBa9;
+        "ornithe-1.8.9" = _LJimnBa9;
         "ornithe-1.7.8" = _5lJo1S31;
         "ornithe-1.7.9" = _5lJo1S31;
         "ornithe-1.7.10" = _5lJo1S31;
@@ -1450,8 +1492,8 @@ let
         "java-agent-26.1" = _b3HHKYmt;
         "java-agent-26.1.1" = _b3HHKYmt;
         "java-agent-26.1.2" = _b3HHKYmt;
-        "java-agent-26.2" = _3Y3geK4v;
-        "java-agent-26.3" = _Xir02s26;
+        "java-agent-26.2" = _g7Jlyylw;
+        "java-agent-26.3" = _4VTyDtja;
         "rift-1.13" = _C2br3Y07;
         "liteloader-1.12.2" = _x3lSPArF;
         "liteloader-1.12.1" = _VeVLxdQE;
@@ -1492,8 +1534,8 @@ let
         "legacy-fabric-1.6.1" = _Jz3rbV0c;
         "legacy-fabric-1.6.2" = _Jz3rbV0c;
         "legacy-fabric-1.6.4" = _Jz3rbV0c;
-        "nilloader-26.3" = _Xir02s26;
-        "nilloader-26.2" = _3Y3geK4v;
+        "nilloader-26.3" = _4VTyDtja;
+        "nilloader-26.2" = _g7Jlyylw;
         "nilloader-26.1" = _b3HHKYmt;
         "nilloader-26.1.1" = _b3HHKYmt;
         "nilloader-26.1.2" = _b3HHKYmt;
@@ -1697,7 +1739,14 @@ let
         "pkg-0.8.6-26.3-Neo" = _G3Ki0rGb;
         "pkg-0.8.6-26.3-Java-Agent" = _Xir02s26;
         "pkg-SHAPSHOT" = _Cj5fSQq2;
-        "default" = _Cj5fSQq2;
+        "pkg-0.8.7-26.2-Fabric" = _gpGLSbuL;
+        "pkg-0.8.7-26.2-Neo" = _WWT0zmH3;
+        "pkg-0.8.7-26.2-Java-Agent" = _g7Jlyylw;
+        "pkg-0.8.7-26.3-Fabric" = _HCYBamXZ;
+        "pkg-0.8.7-26.3-Neo" = _WjUyHixT;
+        "pkg-0.8.7-26.3-Java-Agent" = _4VTyDtja;
+        "pkg-0.8.4-1.8.9-Ornithe" = _LJimnBa9;
+        "default" = _LJimnBa9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pets-mod";

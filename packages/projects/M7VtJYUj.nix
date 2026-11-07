@@ -16,15 +16,22 @@ let
             "file" = "crystal-optimizer-1.0.0.jar";
             "hash" = "sha512-UG9I+GzvCb/zzFtGH3vs2qwCNZb6zdhCA/Q5mR0wrV4S/9zjoZH1WBd4R/KRLL+ZKpIGeJ+rzWPFsDfMQbMtMQ==";
         };
+        _pZWqWu5K = {
+            "id" = "pZWqWu5K";
+            "file" = "crystal-optimizer-1.0.0.jar";
+            "hash" = "sha512-NkXQUSIxg78yZ3XKpq8/BiF/ri19VFlW2dO70p7EMqzYQh5JhGp05oj3sNL+B4SPPVvSe6He/iqtGXJvAUl/nw==";
+        };
     in {
         "VqNC9WI4" = _VqNC9WI4;
         "7Pk8Ovi0" = _7Pk8Ovi0;
         "WjXGaZQw" = _WjXGaZQw;
+        "pZWqWu5K" = _pZWqWu5K;
         "fabric-1.21.11" = _WjXGaZQw;
         "fabric-26.2" = _7Pk8Ovi0;
-        "pkg-1.0.0" = _7Pk8Ovi0;
+        "fabric-26.3" = _pZWqWu5K;
+        "pkg-1.0.0" = _pZWqWu5K;
         "pkg-1.0.1" = _WjXGaZQw;
-        "default" = _WjXGaZQw;
+        "default" = _pZWqWu5K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shikarus-crystal-optimizer";

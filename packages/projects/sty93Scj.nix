@@ -176,6 +176,21 @@ let
             "file" = "swirling_smoke-26.2-1.0.0.jar";
             "hash" = "sha512-3ZrPL1P1BWKdIqEt2LmzkD/sYdhntfM8MnWMHCK3QMKThr5b6LXMWYXYmifS4iyrTg8p0Cxf2NQGM89e71FRcQ==";
         };
+        _SNhVWp9j = {
+            "id" = "SNhVWp9j";
+            "file" = "swirling_smoke-1.1.0.jar";
+            "hash" = "sha512-Rb5dwQzqacunN5ICQLcIAQA7if47zDrWS7DPECPt6frGCkl1Jk1JQA9eJqMG5YI+RSQgkn9+PTXgbRqIoXyEvw==";
+        };
+        _1ClsTl2v = {
+            "id" = "1ClsTl2v";
+            "file" = "swirling_smoke-26.3-1.1.0.jar";
+            "hash" = "sha512-ZmGmTffrAku7P0D+C1h8SLkxF77DeY6XCE94Z6IT6q2TXacam8Fw0J1Gi/146Pjp529axA53bSqU/aAC2oPZhg==";
+        };
+        _3cJRq8Ei = {
+            "id" = "3cJRq8Ei";
+            "file" = "swirling_smoke-fabric-26.3-1.1.0.jar";
+            "hash" = "sha512-M7ivamIGH9EA833pLoYCurmG9mOqxbZVIyit0S1n8kJ2UcQsGLWt328VsJPbcxMQHwG+5yOBlumz1lZ8WDr9lA==";
+        };
     in {
         "NsbkLHfC" = _NsbkLHfC;
         "R2Df0blt" = _R2Df0blt;
@@ -212,7 +227,10 @@ let
         "V4GVR06T" = _V4GVR06T;
         "QEbyvPsM" = _QEbyvPsM;
         "KejihPzT" = _KejihPzT;
-        "neoforge-1.21.1" = _lV6PnvDf;
+        "SNhVWp9j" = _SNhVWp9j;
+        "1ClsTl2v" = _1ClsTl2v;
+        "3cJRq8Ei" = _3cJRq8Ei;
+        "neoforge-1.21.1" = _SNhVWp9j;
         "neoforge-1.21.2" = _NtxjAxH2;
         "neoforge-1.21.3" = _hLRmn9fm;
         "neoforge-1.21.4" = _dK5iryS4;
@@ -227,6 +245,7 @@ let
         "neoforge-26.1.1" = _V4GVR06T;
         "neoforge-26.1.2" = _QEbyvPsM;
         "neoforge-26.2" = _KejihPzT;
+        "neoforge-26.3" = _1ClsTl2v;
         "forge-1.20.1" = _BMydFWrN;
         "forge-1.20.6" = _LilHQXCd;
         "forge-1.20.4" = _28XJ4T8h;
@@ -247,10 +266,12 @@ let
         "fabric-26.1.2" = _Sbx6I8K1;
         "fabric-26.2" = _VcQuTKkN;
         "fabric-1.20.1" = _VE53YV5w;
+        "fabric-26.3" = _3cJRq8Ei;
         "pkg-1.0.0" = _KejihPzT;
         "pkg-1.0.1" = _R2Df0blt;
         "pkg-1.0.3" = _lV6PnvDf;
-        "default" = _KejihPzT;
+        "pkg-1.1.0" = _3cJRq8Ei;
+        "default" = _3cJRq8Ei;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swirling-smoke";

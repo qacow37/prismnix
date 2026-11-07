@@ -36,6 +36,16 @@ let
             "file" = "unks_unifies-1.2.2-forge-1.20.1.jar";
             "hash" = "sha512-K3XR8EQvJ+u29iz2pnEMd8/QbJqdbzA97IcDS68EpI58O/CntqWBwCbNEAb28NpI+S50/E4w74JY0054d6NcDA==";
         };
+        _ohxfoZ5a = {
+            "id" = "ohxfoZ5a";
+            "file" = "unks_unifies-1.3-forge-1.20.1.jar";
+            "hash" = "sha512-WdNVOqTSz8ZlmTSfQW9zlB6VTR8buDLEQGXaIHMav6VF3p1VDeTUb1siCT8ZUM9G5X2UkLn3vkUaqufn7NC7JA==";
+        };
+        _fBJD8rLO = {
+            "id" = "fBJD8rLO";
+            "file" = "unks_unifies-1.3.0.1-HOTFIX-forge-1.20.1.jar";
+            "hash" = "sha512-u+4T8+y8IUsNq32pgzYvfkNTrns4FOdLAkiXMQc4JUK7fABMa+Oj3Z0Cicx92SyzbTBZu218eCyXgCSXrGkPgA==";
+        };
     in {
         "ARBZ1Gd4" = _ARBZ1Gd4;
         "YXm5XYZ7" = _YXm5XYZ7;
@@ -44,7 +54,9 @@ let
         "jlAILJBc" = _jlAILJBc;
         "lOh2jDdw" = _lOh2jDdw;
         "SOVe0jyN" = _SOVe0jyN;
-        "forge-1.20.1" = _SOVe0jyN;
+        "ohxfoZ5a" = _ohxfoZ5a;
+        "fBJD8rLO" = _fBJD8rLO;
+        "forge-1.20.1" = _fBJD8rLO;
         "pkg-1.0.0" = _ARBZ1Gd4;
         "pkg-1.1.0" = _YXm5XYZ7;
         "pkg-1.1.1" = _DlDW3PVx;
@@ -52,7 +64,9 @@ let
         "pkg-1.2" = _jlAILJBc;
         "pkg-1.2.1" = _lOh2jDdw;
         "pkg-1.2.2" = _SOVe0jyN;
-        "default" = _SOVe0jyN;
+        "pkg-1.3" = _ohxfoZ5a;
+        "pkg-1.3.0.1" = _fBJD8rLO;
+        "default" = _fBJD8rLO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unks-unifies";

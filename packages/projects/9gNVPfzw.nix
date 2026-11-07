@@ -1211,6 +1211,11 @@ let
             "file" = "MinecraftCapes Ornithe b1.7.3-1.1.0.jar";
             "hash" = "sha512-89NGSQBKpvVb69kSlizgZM+56QOIsygS5Z08SSnsnnxsLWwS0I5LADUARVoqtX0sVFm8WX+svsHdAQdyfJyMjA==";
         };
+        _HjmiwbG2 = {
+            "id" = "HjmiwbG2";
+            "file" = "MinecraftCapes Babric b1.7.3-1.1.0.jar";
+            "hash" = "sha512-78qm3IfiepznHB9MK4aDYxLEN+k01vTzri4uSrsAoU5UtlaSta/khnGYap0088Ejqj/5sB171u1A5sYMcvxlMA==";
+        };
     in {
         "N0wfcmUF" = _N0wfcmUF;
         "h0YmF5PM" = _h0YmF5PM;
@@ -1454,6 +1459,7 @@ let
         "jDJZwMYr" = _jDJZwMYr;
         "AzN73qv6" = _AzN73qv6;
         "l59bX65V" = _l59bX65V;
+        "HjmiwbG2" = _HjmiwbG2;
         "fabric-1.14.4" = _R6ecaqGz;
         "fabric-1.15.2" = _jz17VPNg;
         "fabric-1.16.5" = _6Xtf77gh;
@@ -1550,6 +1556,7 @@ let
         "neoforge-26.3" = _EiwoEWr3;
         "ornithe-b1.7.3" = _l59bX65V;
         "ornithe-1.8.9" = _AzN73qv6;
+        "babric-b1.7.3" = _HjmiwbG2;
         "pkg-fabric-1.14.4-1.0.0" = _N0wfcmUF;
         "pkg-fabric-1.15.2-1.0.0" = _h0YmF5PM;
         "pkg-fabric-1.16.5-1.0.0" = _kbLcV84f;
@@ -1759,7 +1766,8 @@ let
         "pkg-forge-1.20.4-1.1.0" = _jDJZwMYr;
         "pkg-ornithe-1.8.9-1.1.0" = _AzN73qv6;
         "pkg-ornithe-b1.7.3-1.1.0" = _l59bX65V;
-        "default" = _l59bX65V;
+        "pkg-babric-b1.7.3-1.1.0" = _HjmiwbG2;
+        "default" = _HjmiwbG2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraftcapes";

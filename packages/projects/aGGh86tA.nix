@@ -426,6 +426,11 @@ let
             "file" = "naturalsizes-1.2.2-forge-1.16.5.jar";
             "hash" = "sha512-13R+HwkTdaGuts6buXHLIIWuZhC9g+X9QS/6UDS/G/yMEcLN1nJ9urhVCiHzvc9PvcOyc4DD1qoZs+KMRp1mDA==";
         };
+        _qrvLtsCQ = {
+            "id" = "qrvLtsCQ";
+            "file" = "naturalsizes-1.2.2-fabric-1.16.5.jar";
+            "hash" = "sha512-0AVjDuNxY2FP9/UKAP3Gaw8M/Hg4dG9OSztwlKdSzJkcdc2ojrQMYNmmh9X3vqCV+RAhta1IfSXSRGF2E0z51Q==";
+        };
     in {
         "gIgMDNzS" = _gIgMDNzS;
         "RXLSIUf6" = _RXLSIUf6;
@@ -512,6 +517,7 @@ let
         "ewmsMnJm" = _ewmsMnJm;
         "ToZ8RlMx" = _ToZ8RlMx;
         "Jl3xem8N" = _Jl3xem8N;
+        "qrvLtsCQ" = _qrvLtsCQ;
         "neoforge-1.21.1" = _wLfKAQM6;
         "neoforge-1.21.3" = _C9Nr2cFq;
         "neoforge-1.21.4" = _Ft0PIgw5;
@@ -546,6 +552,7 @@ let
         "fabric-1.19.4" = _VBNFjfT2;
         "fabric-26.3" = _s8mx5uuU;
         "fabric-1.18.2" = _ToZ8RlMx;
+        "fabric-1.16.5" = _qrvLtsCQ;
         "forge-1.21.1" = _iJidyzFW;
         "forge-1.20.1" = _rXK4NSDm;
         "forge-1.19.2" = _emJDFPyh;
@@ -556,8 +563,8 @@ let
         "pkg-1.1" = _jOGmXpuE;
         "pkg-1.2" = _1kmsK6jI;
         "pkg-1.2.1" = _1LAl0RWm;
-        "pkg-1.2.2" = _Jl3xem8N;
-        "default" = _Jl3xem8N;
+        "pkg-1.2.2" = _qrvLtsCQ;
+        "default" = _qrvLtsCQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-sizes";

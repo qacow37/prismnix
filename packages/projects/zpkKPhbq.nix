@@ -76,6 +76,11 @@ let
             "file" = "MESpawner-1.8.2.jar";
             "hash" = "sha512-e4JPBlBJdw1+lBcBFGgVpDixGGyb+l0RREZUzs6QAR+bg0lp5eicgjsfL7Orrwvt7+PB2tBLSljO2jzbhvp9Yg==";
         };
+        _dY2XptMU = {
+            "id" = "dY2XptMU";
+            "file" = "MESpawner-1.8.3.jar";
+            "hash" = "sha512-y6724678gYAuzYK/LFBheYTZFlvKvRiM4lfPmn7T54N1liRaZEhF5QHSvW6VHH2DV280zwYOX8BokO1KyLvuBQ==";
+        };
     in {
         "TrYKx4Qm" = _TrYKx4Qm;
         "uNo8DG06" = _uNo8DG06;
@@ -92,7 +97,8 @@ let
         "C86Gl2mS" = _C86Gl2mS;
         "ulfyTvf5" = _ulfyTvf5;
         "XBIRtUzv" = _XBIRtUzv;
-        "neoforge-1.21.1" = _XBIRtUzv;
+        "dY2XptMU" = _dY2XptMU;
+        "neoforge-1.21.1" = _dY2XptMU;
         "forge-1.20.1" = _ulfyTvf5;
         "pkg-0.1.0" = _TrYKx4Qm;
         "pkg-0.2.0" = _uNo8DG06;
@@ -109,7 +115,8 @@ let
         "pkg-1.8.1" = _C86Gl2mS;
         "pkg-3.0" = _ulfyTvf5;
         "pkg-1.8.2" = _XBIRtUzv;
-        "default" = _XBIRtUzv;
+        "pkg-1.8.3" = _dY2XptMU;
+        "default" = _dY2XptMU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "me-spawner";

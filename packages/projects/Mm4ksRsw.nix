@@ -71,6 +71,16 @@ let
             "file" = "cobblemon-perfect-partners-neoforge-1.4.0+1.8.jar";
             "hash" = "sha512-BCc4RVHN7hLV6r5nSU/FfoqdvBBuCOgx8Lpk1qpgZeqzqlgTB+KY8RtTRuSLoEAdWkrIQr7dr/fxN8g01Lewvg==";
         };
+        _IBAAV6V8 = {
+            "id" = "IBAAV6V8";
+            "file" = "cobblemon-perfect-partners-fabric-3.1.jar";
+            "hash" = "sha512-Q2wYnXNvFJw59jE9NP9JjkJhMIvLM1fDJVi3G7ulIfjQXHwQOKSMdZbwZuhpOvBiCALumdBGMRDGEGv2R/+mRA==";
+        };
+        _Hf6sYtoD = {
+            "id" = "Hf6sYtoD";
+            "file" = "cobblemon-perfect-partners-neoforge-3.1.jar";
+            "hash" = "sha512-8sqQfHoRFSCGP2PRwK8/uj0whLlLpuBNH3+UJtdPIZ4HJHwU79aiwzhjWGDr9DTNuhDg5cDVo07wMSxyAEOxSA==";
+        };
     in {
         "C0hJAk8p" = _C0hJAk8p;
         "Ksei0WKE" = _Ksei0WKE;
@@ -86,18 +96,20 @@ let
         "5rXHQLu7" = _5rXHQLu7;
         "OXgenzvR" = _OXgenzvR;
         "qk6QcpKT" = _qk6QcpKT;
-        "fabric-1.21.1" = _OXgenzvR;
-        "neoforge-1.21.1" = _qk6QcpKT;
-        "neoforge-1.21.2" = _qk6QcpKT;
-        "neoforge-1.21.3" = _qk6QcpKT;
-        "neoforge-1.21.4" = _qk6QcpKT;
-        "neoforge-1.21.5" = _qk6QcpKT;
-        "neoforge-1.21.6" = _qk6QcpKT;
-        "neoforge-1.21.7" = _qk6QcpKT;
-        "neoforge-1.21.8" = _qk6QcpKT;
-        "neoforge-1.21.9" = _qk6QcpKT;
-        "neoforge-1.21.10" = _qk6QcpKT;
-        "neoforge-1.21.11" = _qk6QcpKT;
+        "IBAAV6V8" = _IBAAV6V8;
+        "Hf6sYtoD" = _Hf6sYtoD;
+        "fabric-1.21.1" = _IBAAV6V8;
+        "neoforge-1.21.1" = _Hf6sYtoD;
+        "neoforge-1.21.2" = _Hf6sYtoD;
+        "neoforge-1.21.3" = _Hf6sYtoD;
+        "neoforge-1.21.4" = _Hf6sYtoD;
+        "neoforge-1.21.5" = _Hf6sYtoD;
+        "neoforge-1.21.6" = _Hf6sYtoD;
+        "neoforge-1.21.7" = _Hf6sYtoD;
+        "neoforge-1.21.8" = _Hf6sYtoD;
+        "neoforge-1.21.9" = _Hf6sYtoD;
+        "neoforge-1.21.10" = _Hf6sYtoD;
+        "neoforge-1.21.11" = _Hf6sYtoD;
         "pkg-1.1.1" = _Ksei0WKE;
         "pkg-1.2.0" = _4TxtFiuK;
         "pkg-1.3.0" = _8yPCDMFI;
@@ -105,7 +117,8 @@ let
         "pkg-2.0.1" = _yZdj4hKT;
         "pkg-2.0.2" = _5rXHQLu7;
         "pkg-3" = _qk6QcpKT;
-        "default" = _qk6QcpKT;
+        "pkg-3.1" = _Hf6sYtoD;
+        "default" = _Hf6sYtoD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perfectpartners";

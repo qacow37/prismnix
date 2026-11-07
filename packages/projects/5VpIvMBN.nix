@@ -26,18 +26,25 @@ let
             "file" = "cart-optimizer-1.0.0.jar";
             "hash" = "sha512-xHLMwrYbBgy08S6FmU8FJlAiWVJwJkporxG9rkh2ILMrSOcKl0ZolqGbnrnTKg5QPxrRveibvX8fVdCRj59sTw==";
         };
+        _knZ1FOKp = {
+            "id" = "knZ1FOKp";
+            "file" = "tnt-cart-optimizer-1.0.0.jar";
+            "hash" = "sha512-ryP/ARReLA6//V8XSovxY/iOZqLpc6VoA/MnNrpRayhTHhBd8vIocTxtR6mCvoIwy0CtZSWW+hyNvxrTSkoYCg==";
+        };
     in {
         "cPwmSLYe" = _cPwmSLYe;
         "sFhH74uD" = _sFhH74uD;
         "ppLuqvxC" = _ppLuqvxC;
         "evGKfy0y" = _evGKfy0y;
         "NoDE5IEL" = _NoDE5IEL;
+        "knZ1FOKp" = _knZ1FOKp;
         "fabric-1.21.4" = _cPwmSLYe;
         "fabric-1.21.11" = _NoDE5IEL;
         "fabric-1.21.1" = _ppLuqvxC;
-        "pkg-1.0.0" = _evGKfy0y;
+        "fabric-26.3" = _knZ1FOKp;
+        "pkg-1.0.0" = _knZ1FOKp;
         "pkg-1.0.1" = _NoDE5IEL;
-        "default" = _NoDE5IEL;
+        "default" = _knZ1FOKp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tnt-minecart-optimizer";

@@ -236,6 +236,16 @@ let
             "file" = "tpatools-1.2.1+mc1.21.5-1.21.10.jar";
             "hash" = "sha512-t8Eef5kW9fJTIr2IBuNQjO7U5jbKiMFr4BYk0nme6iEc+NPByTSX5Va241zYu+5ff95HdeCpJ56P6G1hbj3rLA==";
         };
+        _6VAElrLY = {
+            "id" = "6VAElrLY";
+            "file" = "tpatools-1.2.2+mc1.21-1.21.1.jar";
+            "hash" = "sha512-bPxTw4o4JWhdE/orbkx+YD0l/nzDOQOL09WY+nyQZ6IegQRN4be51crQzCKF4SLVy48muinhmAoHREHdwGjIpA==";
+        };
+        _gmK9lxvx = {
+            "id" = "gmK9lxvx";
+            "file" = "tpatools-1.2.2+mc1.21.2-1.21.4.jar";
+            "hash" = "sha512-c6MU1++XSQkJ/Uz49bQRlVxq0AaGThShJl0KZLo4ftcwn2lGHYDbvdPzpHaDkb9C4WqSMtsvNahZUzx6cU1BUQ==";
+        };
     in {
         "7QZP2e1x" = _7QZP2e1x;
         "nw7Kff4q" = _nw7Kff4q;
@@ -284,6 +294,8 @@ let
         "BJqkq6Ey" = _BJqkq6Ey;
         "6Hm2Q74u" = _6Hm2Q74u;
         "tLjJZryF" = _tLjJZryF;
+        "6VAElrLY" = _6VAElrLY;
+        "gmK9lxvx" = _gmK9lxvx;
         "forge-1.20.1" = _MYqh0gPk;
         "forge-1.20.2" = _MYqh0gPk;
         "forge-1.20.3" = _MYqh0gPk;
@@ -304,11 +316,11 @@ let
         "fabric-1.20.4" = _lKXZw7Eg;
         "fabric-1.20.5" = _lKXZw7Eg;
         "fabric-1.20.6" = _lKXZw7Eg;
-        "fabric-1.21" = _GSe2iXe1;
-        "fabric-1.21.1" = _GSe2iXe1;
-        "fabric-1.21.2" = _7g2IGWQJ;
-        "fabric-1.21.3" = _7g2IGWQJ;
-        "fabric-1.21.4" = _7g2IGWQJ;
+        "fabric-1.21" = _6VAElrLY;
+        "fabric-1.21.1" = _6VAElrLY;
+        "fabric-1.21.2" = _gmK9lxvx;
+        "fabric-1.21.3" = _gmK9lxvx;
+        "fabric-1.21.4" = _gmK9lxvx;
         "fabric-1.21.5" = _tLjJZryF;
         "fabric-1.21.6" = _tLjJZryF;
         "fabric-1.21.7" = _tLjJZryF;
@@ -374,7 +386,9 @@ let
         "pkg-1.2.2+mc26.2" = _BJqkq6Ey;
         "pkg-1.2.2+mc1.21.11" = _6Hm2Q74u;
         "pkg-1.2.2+mc1.21.5-1.21.10" = _tLjJZryF;
-        "default" = _tLjJZryF;
+        "pkg-1.2.2+mc1.21-1.21.1" = _6VAElrLY;
+        "pkg-1.2.2+mc1.21.2-1.21.4" = _gmK9lxvx;
+        "default" = _gmK9lxvx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tpatools";

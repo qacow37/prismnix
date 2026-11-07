@@ -81,6 +81,11 @@ let
             "file" = "Scannable_Unofficial-Neo26.1.2-1.0.0.jar";
             "hash" = "sha512-PBbUMacg8yEqglTG9tdGMRQ+AaEw5KGP3uc7p7kSl0Smyq6XDF/WReREnWw7uWQORkd/o3VG4orrEazgjxm/Sw==";
         };
+        _6kLcrQV4 = {
+            "id" = "6kLcrQV4";
+            "file" = "Scannable_Unofficial-Neo26.3-1.3.1.jar";
+            "hash" = "sha512-HTDQQIumTbpE5WTzQMPnuFgN9XZuYqVJINiNgzBMG20UrjoCDSR8+LCwxfYZLJTCLnuva0PlqkwDI4VUGT0rXw==";
+        };
     in {
         "OtTNBHTA" = _OtTNBHTA;
         "wEaXMI8g" = _wEaXMI8g;
@@ -98,18 +103,20 @@ let
         "NKbaK0lr" = _NKbaK0lr;
         "Gn6M8rKs" = _Gn6M8rKs;
         "BXBkG6kx" = _BXBkG6kx;
+        "6kLcrQV4" = _6kLcrQV4;
         "neoforge-1.21.1" = _Gn6M8rKs;
         "neoforge-1.21.2" = _qHoOnYTd;
         "neoforge-1.21.3" = _jpgjBsxP;
         "neoforge-1.21.4" = _uAXnVvtp;
         "neoforge-26.1.2" = _BXBkG6kx;
+        "neoforge-26.3" = _6kLcrQV4;
         "pkg-1.0.0" = _BXBkG6kx;
         "pkg-1.1.0" = _nYThUUax;
         "pkg-1.1.1" = _JhnNB0bW;
         "pkg-1.2.0" = _uAXnVvtp;
         "pkg-1.3.0" = _NKbaK0lr;
-        "pkg-1.3.1" = _Gn6M8rKs;
-        "default" = _BXBkG6kx;
+        "pkg-1.3.1" = _6kLcrQV4;
+        "default" = _6kLcrQV4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scannable-unofficial";

@@ -31,6 +31,11 @@ let
             "file" = "embers-1.26.3.jar";
             "hash" = "sha512-qPXYaluXVubeOTL8VpMcFLY4yfSFwKLhlP+PjMwZ6VRF/Teajz1jCYaLUozttoc2CbGJaWLQKuwiBVVel6dXbQ==";
         };
+        _NncMvUjl = {
+            "id" = "NncMvUjl";
+            "file" = "embers-1.27.0.jar";
+            "hash" = "sha512-8Ou1LX5AJ4Q2S5UL2Xhv8brbiBtT9/zzb376cRtQGno03UoboEu7lWcYTdRs9BbfKcgYe9gvSPL3SzNFVkbysA==";
+        };
     in {
         "3EVUimvx" = _3EVUimvx;
         "jgDe95Z4" = _jgDe95Z4;
@@ -38,14 +43,16 @@ let
         "kiacbJ16" = _kiacbJ16;
         "NnFZ1lvJ" = _NnFZ1lvJ;
         "xYH4Ub58" = _xYH4Ub58;
-        "forge-1.12.2" = _xYH4Ub58;
+        "NncMvUjl" = _NncMvUjl;
+        "forge-1.12.2" = _NncMvUjl;
         "pkg-1.25.3" = _3EVUimvx;
         "pkg-1.25.4" = _jgDe95Z4;
         "pkg-1.25.6" = _BEDI44dw;
         "pkg-1.26.0" = _kiacbJ16;
         "pkg-1.26.1" = _NnFZ1lvJ;
         "pkg-1.26.3" = _xYH4Ub58;
-        "default" = _xYH4Ub58;
+        "pkg-1.27.0" = _NncMvUjl;
+        "default" = _NncMvUjl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embers-unofficial-extended-life";

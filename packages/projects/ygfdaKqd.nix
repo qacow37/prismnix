@@ -91,6 +91,16 @@ let
             "file" = "cobblemon-escape-rope-fabric-1.6.1.jar";
             "hash" = "sha512-K/3fjIPAck4eAszSpRhrQz0dX/hLvk+6bWO9cwIv7eHaSUpXYeGuuGWg4VOOkRMEIzo9YOlzffUHfBE/z+LULg==";
         };
+        _elMymGdE = {
+            "id" = "elMymGdE";
+            "file" = "cobblemon-escape-rope-fabric-1.7.0.jar";
+            "hash" = "sha512-J8/JwA8Qt0Cw9gITc1THIYUIq+X+6EF2hIJosUJS8JSiF4R/7XW0Ldv2sqGzwXGZbs2Tc4r/6nrmQmbPXqOHDQ==";
+        };
+        _vTBrNzMC = {
+            "id" = "vTBrNzMC";
+            "file" = "cobblemon-escape-rope-neoforge-1.7.0.jar";
+            "hash" = "sha512-xkfGaHldhpm21BYSkvanFJVKYsgj1O9SGleL9Ic0fWdDhTkeUuUALicqwXZoOHQNaIJxOxOjRFmadNju/UmW6w==";
+        };
     in {
         "yb83R4cw" = _yb83R4cw;
         "bDT8GOk1" = _bDT8GOk1;
@@ -110,8 +120,10 @@ let
         "jNlcwt9S" = _jNlcwt9S;
         "F6NWAz7k" = _F6NWAz7k;
         "2KwDywzw" = _2KwDywzw;
-        "fabric-1.21.1" = _2KwDywzw;
-        "neoforge-1.21.1" = _F6NWAz7k;
+        "elMymGdE" = _elMymGdE;
+        "vTBrNzMC" = _vTBrNzMC;
+        "fabric-1.21.1" = _elMymGdE;
+        "neoforge-1.21.1" = _vTBrNzMC;
         "pkg-1.0.0" = _bDT8GOk1;
         "pkg-1.1.0" = _jiLWARO4;
         "pkg-1.2.0" = _5fAlRDdP;
@@ -121,7 +133,8 @@ let
         "pkg-1.5.0" = _HOQcY6Jw;
         "pkg-1.6.0" = _jNlcwt9S;
         "pkg-1.6.1" = _2KwDywzw;
-        "default" = _2KwDywzw;
+        "pkg-1.7.0" = _vTBrNzMC;
+        "default" = _vTBrNzMC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-escape-rope";

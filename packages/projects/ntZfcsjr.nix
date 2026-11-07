@@ -176,6 +176,16 @@ let
             "file" = "PeakStamina Forge 2.2.2.jar";
             "hash" = "sha512-HzdYpwxj7JAHwiu1DepjJKc78UhVIOuS4Cos3xVc600CT1SXxCHJeABoB6Ag1lA2WkJ1lyPo2m7aPz8Yx/Uj6w==";
         };
+        _8h5nHzcj = {
+            "id" = "8h5nHzcj";
+            "file" = "PeakStamina NeoForge 2.3.2.jar";
+            "hash" = "sha512-0POypTIm+YZoEpFaDjv/RDP9y58PI0X0Xh0CuD+NupMUixnqm+QnGSgQ7c6WsTI+w7AiakZBiMg9Ps8xezHH4g==";
+        };
+        _ZtnMx2TJ = {
+            "id" = "ZtnMx2TJ";
+            "file" = "PeakStamina Forge 2.3.2.jar";
+            "hash" = "sha512-ZU8+LMfgUIgCnVgCj8ibeYdoDcuOgCSXvq/9MdNhaldiv7sAdcYCcN35veqqUzhViCjNu0VHh6mMFRkQQqlCMg==";
+        };
     in {
         "32n9bd2t" = _32n9bd2t;
         "DnhIbZXf" = _DnhIbZXf;
@@ -212,8 +222,10 @@ let
         "sZXsZ8xJ" = _sZXsZ8xJ;
         "n0QKCfll" = _n0QKCfll;
         "GLjCbWAz" = _GLjCbWAz;
-        "forge-1.20.1" = _GLjCbWAz;
-        "neoforge-1.21.1" = _n0QKCfll;
+        "8h5nHzcj" = _8h5nHzcj;
+        "ZtnMx2TJ" = _ZtnMx2TJ;
+        "forge-1.20.1" = _ZtnMx2TJ;
+        "neoforge-1.21.1" = _8h5nHzcj;
         "pkg-1.0.0" = _32n9bd2t;
         "pkg-1.0.1" = _DnhIbZXf;
         "pkg-1.1.2" = _wBI5E7WN;
@@ -244,7 +256,8 @@ let
         "pkg-2.2.0+hotfix2" = _lEgjAquy;
         "pkg-2.2.1" = _sZXsZ8xJ;
         "pkg-2.2.2" = _GLjCbWAz;
-        "default" = _GLjCbWAz;
+        "pkg-2.3.2" = _ZtnMx2TJ;
+        "default" = _ZtnMx2TJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "peak-stamina";

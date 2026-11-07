@@ -206,6 +206,16 @@ let
             "file" = "StarrySkies-5.1.0+26.2-neoforge.jar";
             "hash" = "sha512-yJJwAoRilkNVoViCGOI8U6V6fUFmBArnrv8PWQ8CTGwll6/zNgE5DZyN9Je6MuTH17peDAUJfokJ3Np717WBEQ==";
         };
+        _terasadz = {
+            "id" = "terasadz";
+            "file" = "StarrySkies-5.1.0+26.3.jar";
+            "hash" = "sha512-pFl8WT58iO5Yh/kMQm+uEBmdHyiZgzUttrl7hp4Do9xMwAymtEHNeBUscItGA226uO2oTkgdpdHCI83HqYO5OQ==";
+        };
+        _2yNGVGkx = {
+            "id" = "2yNGVGkx";
+            "file" = "StarrySkies-5.1.0+26.3-neoforge.jar";
+            "hash" = "sha512-5KJ/g9tKk92kyW5luTj2EKkZoV7NOT8zuEmM3+cH7n0odhVTJ63nQPOxLGTUa+aDZ3t/mAq4vMXAXy6uRax6hw==";
+        };
     in {
         "FWYnChqK" = _FWYnChqK;
         "Lu6isOBr" = _Lu6isOBr;
@@ -248,6 +258,8 @@ let
         "3uSUbahR" = _3uSUbahR;
         "9eiRzbWj" = _9eiRzbWj;
         "KLIgVUSA" = _KLIgVUSA;
+        "terasadz" = _terasadz;
+        "2yNGVGkx" = _2yNGVGkx;
         "fabric-1.16.4" = _f1hEtrwG;
         "fabric-1.16.5-rc1" = _PjzFljhh;
         "fabric-1.16.5" = _f1hEtrwG;
@@ -268,6 +280,7 @@ let
         "fabric-26.1.1" = _sI3LH6Uu;
         "fabric-26.1.2" = _sI3LH6Uu;
         "fabric-26.2" = _9eiRzbWj;
+        "fabric-26.3" = _terasadz;
         "quilt-1.20" = _qlDt4clF;
         "quilt-1.20.1" = _qlDt4clF;
         "quilt-1.20.2" = _lmpgqbgI;
@@ -276,6 +289,7 @@ let
         "neoforge-26.1.1" = _3uSUbahR;
         "neoforge-26.1.2" = _3uSUbahR;
         "neoforge-26.2" = _KLIgVUSA;
+        "neoforge-26.3" = _2yNGVGkx;
         "pkg-1" = _FWYnChqK;
         "pkg-1.0.1" = _Lu6isOBr;
         "pkg-1.0.2" = _FJEbtb5Y;
@@ -313,7 +327,9 @@ let
         "pkg-5.0.0+26.1-neoforge" = _3uSUbahR;
         "pkg-5.1.0+26.2" = _9eiRzbWj;
         "pkg-5.1.0+26.2-neoforge" = _KLIgVUSA;
-        "default" = _KLIgVUSA;
+        "pkg-5.1.0+26.3" = _terasadz;
+        "pkg-5.1.0+26.3-neoforge" = _2yNGVGkx;
+        "default" = _2yNGVGkx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starryskies";

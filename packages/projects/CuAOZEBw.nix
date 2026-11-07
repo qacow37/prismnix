@@ -126,6 +126,11 @@ let
             "file" = "WariumVS 1.1.7.jar";
             "hash" = "sha512-p7IP8CpYA+wJwkmk1pX7B6eGW0ddPt4Og5chTIVBUvjCdBY3iMJ7dN2z9ZKXH28Q30+yoySp+5dI+H1dWL+47w==";
         };
+        _oJKi3KMr = {
+            "id" = "oJKi3KMr";
+            "file" = "WariumVS 1.2.0.X.jar";
+            "hash" = "sha512-+4F7kL2XvsFjZ4LM1sY815B+sjtHPl/SRhZvwwtS8DSCiZ1rIR0/cW1XkkNwOOtHHy1pYsH+vZQJmBmHC6xICg==";
+        };
     in {
         "bDNw5pzq" = _bDNw5pzq;
         "HGMUjo4K" = _HGMUjo4K;
@@ -152,7 +157,8 @@ let
         "oOBC4QHz" = _oOBC4QHz;
         "4B7fqVqy" = _4B7fqVqy;
         "SnOnbRmv" = _SnOnbRmv;
-        "forge-1.20.1" = _SnOnbRmv;
+        "oJKi3KMr" = _oJKi3KMr;
+        "forge-1.20.1" = _oJKi3KMr;
         "pkg-0.0.3" = _bDNw5pzq;
         "pkg-0.0.4" = _HGMUjo4K;
         "pkg-0.0.5" = _yt1COXKD;
@@ -178,7 +184,8 @@ let
         "pkg-1.1.5" = _oOBC4QHz;
         "pkg-1.1.6" = _4B7fqVqy;
         "pkg-1.1.7" = _SnOnbRmv;
-        "default" = _SnOnbRmv;
+        "pkg-1.1.9.1" = _oJKi3KMr;
+        "default" = _oJKi3KMr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valkyrien-warium";

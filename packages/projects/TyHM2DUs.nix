@@ -116,6 +116,11 @@ let
             "file" = "hide-coordinates-1.0.13-beta+26.2.jar";
             "hash" = "sha512-fbbiV+hYfJunw/Ts2nvI5D3gGoOBYES1L3ZynuPxUgQLhj0/WRPSEtAS0C1gMviS/pcdn/WuZ5HJvg3aE4jH5g==";
         };
+        _X0k1AvwR = {
+            "id" = "X0k1AvwR";
+            "file" = "hide-coordinates-1.0.13-beta+26.3.jar";
+            "hash" = "sha512-Bi8j6C+1t/Lv/JFw0zGdWmP7eijPHt4nfPiAuCftUA1aH5Qt5NkbPjlMPU+Sk1jJZ56gcbK7mXx3AiIucWLF6g==";
+        };
     in {
         "k5GXMnGR" = _k5GXMnGR;
         "leD6oO6M" = _leD6oO6M;
@@ -140,6 +145,7 @@ let
         "9WWOlkP6" = _9WWOlkP6;
         "28xMu8lP" = _28xMu8lP;
         "XwO3io8I" = _XwO3io8I;
+        "X0k1AvwR" = _X0k1AvwR;
         "fabric-1.21.1" = _ZEaOLnj0;
         "fabric-1.21.3" = _leD6oO6M;
         "fabric-1.21.4" = _bzUeD488;
@@ -150,6 +156,7 @@ let
         "fabric-1.21.11" = _Cnkz873K;
         "fabric-26.1.2" = _9WWOlkP6;
         "fabric-26.2" = _XwO3io8I;
+        "fabric-26.3" = _X0k1AvwR;
         "pkg-1.0-beta+1.21.1" = _k5GXMnGR;
         "pkg-1.0-beta+1.21.2" = _leD6oO6M;
         "pkg-1.0.1-beta+1.21.4" = _ejyHB1Il;
@@ -173,7 +180,8 @@ let
         "pkg-1.0.12-beta+26.1.2" = _9WWOlkP6;
         "pkg-1.0.12-beta+26.2" = _28xMu8lP;
         "pkg-1.0.13-beta+26.2" = _XwO3io8I;
-        "default" = _XwO3io8I;
+        "pkg-1.0.13-beta+26.3" = _X0k1AvwR;
+        "default" = _X0k1AvwR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hide-coordinates";

@@ -71,6 +71,26 @@ let
             "file" = "smallshipsheraldry-0.4.0+mc.1.21.1-fabric.jar";
             "hash" = "sha512-k50wa3ZU8KgIBd22i6ywjJkItfyqogpVESEmnbzTDV3Y7Gr88Tw4W38ShvYgS2tpDOXyKWp2g1I5xFEsKmOnLw==";
         };
+        _y4RUJGl8 = {
+            "id" = "y4RUJGl8";
+            "file" = "smallshipsheraldry-0.4.1+mc.1.20.1-forge.jar";
+            "hash" = "sha512-/ZmGa24ueOeBhK+bQt3Y5pPIABCO6/NZbCk95FqTNVK528dI1+YveXW9Vqc0nfFxujx8Vz/hNksLXU17I/zNGQ==";
+        };
+        _8peBaZHZ = {
+            "id" = "8peBaZHZ";
+            "file" = "smallshipsheraldry-0.4.1+mc.1.20.1-fabric.jar";
+            "hash" = "sha512-kTiWyl2D/DXeghWGpBZuV2w/5y8Yme55qukegvDd7rWnlGv4OSd9y41aAVEdm/IKip38GFyky0ZVOa8yArdKwg==";
+        };
+        _D0xVwbQZ = {
+            "id" = "D0xVwbQZ";
+            "file" = "smallshipsheraldry-0.4.1+mc.1.21.1-neoforge.jar";
+            "hash" = "sha512-fufl6edvSX7KTg710KmBMjjVVZjo0jcHLAoVIQrANYiPkxnYv3b6XKjSQuYIQKKz10Z2PKl2beHQBNLakTBvsg==";
+        };
+        _J4x1yhTu = {
+            "id" = "J4x1yhTu";
+            "file" = "smallshipsheraldry-0.4.1+mc.1.21.1-fabric.jar";
+            "hash" = "sha512-xhKDlQzLUx25RqMgFFOgejknC8s1+sVhE3aTe1+UYX+zlAgKY4khLzzC1dMTg69E8L2qDYDwhNiBofwfvy2CxQ==";
+        };
     in {
         "Snk1GWzu" = _Snk1GWzu;
         "ricXQ6zw" = _ricXQ6zw;
@@ -86,10 +106,14 @@ let
         "YpWKW2YN" = _YpWKW2YN;
         "blZnf7Pt" = _blZnf7Pt;
         "vGeBgXX9" = _vGeBgXX9;
-        "forge-1.20.1" = _fwxkAMn8;
-        "fabric-1.20.1" = _YpWKW2YN;
-        "fabric-1.21.1" = _vGeBgXX9;
-        "neoforge-1.21.1" = _blZnf7Pt;
+        "y4RUJGl8" = _y4RUJGl8;
+        "8peBaZHZ" = _8peBaZHZ;
+        "D0xVwbQZ" = _D0xVwbQZ;
+        "J4x1yhTu" = _J4x1yhTu;
+        "forge-1.20.1" = _y4RUJGl8;
+        "fabric-1.20.1" = _8peBaZHZ;
+        "fabric-1.21.1" = _J4x1yhTu;
+        "neoforge-1.21.1" = _D0xVwbQZ;
         "pkg-0.1.0-b.1+mc.1.20.1-forge" = _Snk1GWzu;
         "pkg-0.1.0-b.1+mc.1.20.1-fabric" = _ricXQ6zw;
         "pkg-0.2.0-b.1+mc.1.20.1-forge" = _Tzj0X9zV;
@@ -104,7 +128,11 @@ let
         "pkg-0.4.0+mc.1.20.1-fabric" = _YpWKW2YN;
         "pkg-0.4.0+mc.1.21.1-neoforge" = _blZnf7Pt;
         "pkg-0.4.0+mc.1.21.1-fabric" = _vGeBgXX9;
-        "default" = _vGeBgXX9;
+        "pkg-0.4.1+mc.1.20.1-forge" = _y4RUJGl8;
+        "pkg-0.4.1+mc.1.20.1-fabric" = _8peBaZHZ;
+        "pkg-0.4.1+mc.1.21.1-neoforge" = _D0xVwbQZ;
+        "pkg-0.4.1+mc.1.21.1-fabric" = _J4x1yhTu;
+        "default" = _J4x1yhTu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-ships-heraldry";

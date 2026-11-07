@@ -261,6 +261,26 @@ let
             "file" = "exotic_worlds-1.2.5+mc1.21.1.jar";
             "hash" = "sha512-DlWCC4sj7hMw83XsF+3K/E9nKaOAgGOvU6gh6YGFxlKEFQLF3v3hSDjcvHUZuD99jqO9E6p9688UbMEtrWfUPg==";
         };
+        _2fLCY4Ef = {
+            "id" = "2fLCY4Ef";
+            "file" = "exotic_worlds-1.3.3+mc26.3.jar";
+            "hash" = "sha512-mNIQhoreSQdQBUZx6YwxqceCtJKCapLDvVnBXimfqmp3OU5bkxmKN91je6FGEUJHqBuoGN243ge+rP1qIV9mXQ==";
+        };
+        _JWjIMVCi = {
+            "id" = "JWjIMVCi";
+            "file" = "exotic_worlds-1.3.3+mc26.2.jar";
+            "hash" = "sha512-zHH2kKh+3LfX7c3JQYOSHDgJjaC9oG/1IW5I7i12ZhCi8BPx6SHFBOrFOUGO9NwT0Ok29WY3/GKYsXsSlnopNw==";
+        };
+        _7bfvxw9L = {
+            "id" = "7bfvxw9L";
+            "file" = "exotic_worlds-1.3.3+mc26.1.2.jar";
+            "hash" = "sha512-HL4Kd9zJ8znbdK3zUx2b6SefqrB18gb63tHx4tZ0+pVPCssGDyL25d9E3hufSHSnw+/mAHRzNcMwMbZePu8bOw==";
+        };
+        _IfPpBJgZ = {
+            "id" = "IfPpBJgZ";
+            "file" = "exotic_worlds-1.3.3+mc1.21.1.jar";
+            "hash" = "sha512-LSOmSuIZjm7p/m1x+Hd3wVskSSfwqeqDeuR127OSkweV7QiK/IgNgoNradEL7tvKMr5ix/oinon9m3vB+BzUPw==";
+        };
     in {
         "KaolJ7QC" = _KaolJ7QC;
         "zpV8L06G" = _zpV8L06G;
@@ -314,14 +334,18 @@ let
         "VgxEz0bk" = _VgxEz0bk;
         "q8yxhwYj" = _q8yxhwYj;
         "2ymxLdl7" = _2ymxLdl7;
-        "neoforge-26.2" = _VgxEz0bk;
-        "neoforge-26.1.2" = _q8yxhwYj;
-        "neoforge-1.21.1" = _2ymxLdl7;
-        "neoforge-26.3" = _yvi0Ms7o;
-        "fabric-26.2" = _VgxEz0bk;
-        "fabric-26.1.2" = _q8yxhwYj;
-        "fabric-1.21.1" = _2ymxLdl7;
-        "fabric-26.3" = _yvi0Ms7o;
+        "2fLCY4Ef" = _2fLCY4Ef;
+        "JWjIMVCi" = _JWjIMVCi;
+        "7bfvxw9L" = _7bfvxw9L;
+        "IfPpBJgZ" = _IfPpBJgZ;
+        "neoforge-26.2" = _JWjIMVCi;
+        "neoforge-26.1.2" = _7bfvxw9L;
+        "neoforge-1.21.1" = _IfPpBJgZ;
+        "neoforge-26.3" = _2fLCY4Ef;
+        "fabric-26.2" = _JWjIMVCi;
+        "fabric-26.1.2" = _7bfvxw9L;
+        "fabric-1.21.1" = _IfPpBJgZ;
+        "fabric-26.3" = _2fLCY4Ef;
         "pkg-neoforge-0.13.0+mc26.2" = _KaolJ7QC;
         "pkg-fabric-0.13.0+mc26.2" = _zpV8L06G;
         "pkg-neoforge-0.13.0+mc26.1.2" = _CmGx3Ns4;
@@ -374,7 +398,11 @@ let
         "pkg-1.2.5+mc26.2" = _VgxEz0bk;
         "pkg-1.2.5+mc26.1.2" = _q8yxhwYj;
         "pkg-1.2.5+mc1.21.1" = _2ymxLdl7;
-        "default" = _2ymxLdl7;
+        "pkg-1.3.3+mc26.3" = _2fLCY4Ef;
+        "pkg-1.3.3+mc26.2" = _JWjIMVCi;
+        "pkg-1.3.3+mc26.1.2" = _7bfvxw9L;
+        "pkg-1.3.3+mc1.21.1" = _IfPpBJgZ;
+        "default" = _IfPpBJgZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exotic-worlds";

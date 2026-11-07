@@ -86,6 +86,11 @@ let
             "file" = "removehud-1.4.0.jar";
             "hash" = "sha512-pFsgKfHqw5ebi5eC+GWVsYdK/Q5Vv1aXh3XPcKN/XVq87wbGzjWgbPIa/HyJmD9O8gH8w6kBXCXr5w5vfnswxg==";
         };
+        _ga1EX5Ce = {
+            "id" = "ga1EX5Ce";
+            "file" = "removehud-1.5.0.jar";
+            "hash" = "sha512-ekANRMy8wc+EWgdfKHRbRSAZzwKoZEhUyyN9GN7BQjKgTKW7MpHDmwZcBN08YGzpBDHib+D8B4UngsNAJyaFFA==";
+        };
     in {
         "FkMsmF7r" = _FkMsmF7r;
         "ZVKiCNBU" = _ZVKiCNBU;
@@ -104,6 +109,7 @@ let
         "HVUqRJLG" = _HVUqRJLG;
         "bZuyQ930" = _bZuyQ930;
         "23xdv25p" = _23xdv25p;
+        "ga1EX5Ce" = _ga1EX5Ce;
         "fabric-1.16.5" = _YMTKhSPn;
         "fabric-1.17.1" = _uVVZ4b9l;
         "fabric-1.18.1" = _9Wphf0Nz;
@@ -118,6 +124,7 @@ let
         "fabric-1.21.1" = _xa9MjFsj;
         "fabric-1.21.4" = _HVUqRJLG;
         "fabric-26.2" = _23xdv25p;
+        "fabric-26.3" = _ga1EX5Ce;
         "pkg-v1.2.0+1.16.5" = _FkMsmF7r;
         "pkg-v1.2.0+1.17.1" = _ZVKiCNBU;
         "pkg-v1.2.0+1.18.1" = _fXhn8pi5;
@@ -134,7 +141,8 @@ let
         "pkg-1.3b6" = _HVUqRJLG;
         "pkg-v1.4.0+26.2" = _bZuyQ930;
         "pkg-v1.4.0-alpha.2+26.2" = _23xdv25p;
-        "default" = _23xdv25p;
+        "pkg-v1.5.0+26.3" = _ga1EX5Ce;
+        "default" = _ga1EX5Ce;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "removehud";

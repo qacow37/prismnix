@@ -136,6 +136,26 @@ let
             "file" = "CobblemonTrialsEdition-fabric-2.2.1.jar";
             "hash" = "sha512-z+Gm1x18n3KGUCBV79mrsITnKbFfkjaKJwpHxyrp4SS0XX9Um5o75OYHiVQF14pAfJ8RMVzXXVEDk5mDgZZoGg==";
         };
+        _Hz4sOaAu = {
+            "id" = "Hz4sOaAu";
+            "file" = "CobblemonTrialsEdition-neoforge-3.0.0.jar";
+            "hash" = "sha512-8puVnR6N9RfMwLNbIoLpAfhqKp65/oOxaOFyDg1PN0PDavvRwHPGbG0W4kH4QyHnR2bzjwT0cTFjlcPeYmTDFQ==";
+        };
+        _ZsaJ45js = {
+            "id" = "ZsaJ45js";
+            "file" = "CobblemonTrialsEdition-fabric-3.0.0.jar";
+            "hash" = "sha512-qqfAkfNFd0KTWc/XSWGPrGB9RpmV4+1LqjTRjhUqihybvATiuTKakCzAtMhVd9k6WAqPK0SYhhZlrf522P1kYA==";
+        };
+        _icqCyZMs = {
+            "id" = "icqCyZMs";
+            "file" = "CobblemonTrialsEdition-neoforge-3.0.1.jar";
+            "hash" = "sha512-88gDytPeB60rH/g6X4orWpnBQqSVFGJMKbGwusjJvtLh7pfJlDiU7egzqKYgHvyNyRmLQvHDb/pVTeiG/XSKgA==";
+        };
+        _o7YyYSqI = {
+            "id" = "o7YyYSqI";
+            "file" = "CobblemonTrialsEdition-fabric-3.0.1.jar";
+            "hash" = "sha512-rMSAZ2B22YDEEXkjO/YbYtCpBR8nlDlmRC1bMd8DE7jxgQWYxn5USoE6QrIj8OlMtdltprLgwSteRPwpJOi8+Q==";
+        };
     in {
         "heWeqYpc" = _heWeqYpc;
         "h2Pd0dU8" = _h2Pd0dU8;
@@ -164,8 +184,12 @@ let
         "EsAZEZe5" = _EsAZEZe5;
         "PFyuNfMf" = _PFyuNfMf;
         "M6sZrr1X" = _M6sZrr1X;
-        "neoforge-1.21.1" = _PFyuNfMf;
-        "fabric-1.21.1" = _M6sZrr1X;
+        "Hz4sOaAu" = _Hz4sOaAu;
+        "ZsaJ45js" = _ZsaJ45js;
+        "icqCyZMs" = _icqCyZMs;
+        "o7YyYSqI" = _o7YyYSqI;
+        "neoforge-1.21.1" = _icqCyZMs;
+        "fabric-1.21.1" = _o7YyYSqI;
         "pkg-1.0.0" = _heWeqYpc;
         "pkg-1.1.0" = _4H5Rf0u5;
         "pkg-1.2.0" = _aV7LKPfL;
@@ -180,7 +204,9 @@ let
         "pkg-2.2.0" = _zNPsCorN;
         "pkg-2.1.3" = _EsAZEZe5;
         "pkg-2.2.1" = _M6sZrr1X;
-        "default" = _M6sZrr1X;
+        "pkg-3.0.0" = _ZsaJ45js;
+        "pkg-3.0.1" = _o7YyYSqI;
+        "default" = _o7YyYSqI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-trials-edition";

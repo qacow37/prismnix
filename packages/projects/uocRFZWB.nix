@@ -66,6 +66,16 @@ let
             "file" = "ArdaMaps-1.1.3+mc.1.20.1.jar";
             "hash" = "sha512-ZGMqu1t7tQATe5JOJobCShjyx3Cc0cErT++D6lX9+8GG6lDQ91Bs1NrY80dxyfrelYx1DbAxAeXdvuXTqUJCxg==";
         };
+        _jN1dihkD = {
+            "id" = "jN1dihkD";
+            "file" = "ArdaMaps-1.1.4+mc.1.20.1.jar";
+            "hash" = "sha512-StnrWZ9+NohG2Ws+AOphP1my5hxm30+mhs8Gt+q54VfTDpaWYkiEaJB8Kth5UQOi1mKRwfhp0vVikmVA6yVmoA==";
+        };
+        _B2MuIJ1j = {
+            "id" = "B2MuIJ1j";
+            "file" = "ArdaMaps-1.2.2+mc.26.1.2.jar";
+            "hash" = "sha512-JNXdmY7+qYYTM+pueAsowJg+P62GkabJb7E/fRml0MiO/FB1ezngimVU5eK2MyhH7rldlOJf6GRnOyX3H1lBhg==";
+        };
     in {
         "bOJXJ8hA" = _bOJXJ8hA;
         "In0544Xh" = _In0544Xh;
@@ -80,8 +90,12 @@ let
         "q3Iyo7Or" = _q3Iyo7Or;
         "wgYzuB06" = _wgYzuB06;
         "2ZEqXkYz" = _2ZEqXkYz;
-        "fabric-1.20.1" = _2ZEqXkYz;
-        "fabric-26.1.2" = _q3Iyo7Or;
+        "jN1dihkD" = _jN1dihkD;
+        "B2MuIJ1j" = _B2MuIJ1j;
+        "fabric-1.20.1" = _jN1dihkD;
+        "fabric-26.1.2" = _B2MuIJ1j;
+        "fabric-26.3" = _B2MuIJ1j;
+        "fabric-26.2" = _B2MuIJ1j;
         "pkg-0.8.2" = _bOJXJ8hA;
         "pkg-0.8.3" = _In0544Xh;
         "pkg-0.9.3" = _VcWOt6dC;
@@ -95,7 +109,9 @@ let
         "pkg-1.2.0+mc.26.1.2" = _q3Iyo7Or;
         "pkg-1.1.2+mc.1.20.1" = _wgYzuB06;
         "pkg-1.1.3+mc.1.20.1" = _2ZEqXkYz;
-        "default" = _2ZEqXkYz;
+        "pkg-1.1.4+mc.1.20.1" = _jN1dihkD;
+        "pkg-1.2.2+mc.26.1.2" = _B2MuIJ1j;
+        "default" = _B2MuIJ1j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardamaps";

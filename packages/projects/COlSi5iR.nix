@@ -581,6 +581,11 @@ let
             "file" = "c2me-neoforge-mc26.3-0.4.2-alpha.0.109.jar";
             "hash" = "sha512-iB32U/0kYh4mgIrjuS1JqmzwpXEI3PwyghWawNwC49gzT3aRAH11yuncSAyZ3nVeSmCMubBBQ79z+qo5dad/Cg==";
         };
+        _tsjMpKNj = {
+            "id" = "tsjMpKNj";
+            "file" = "c2me-neoforge-mc26.3-0.4.2-alpha.0.110.jar";
+            "hash" = "sha512-Dn1B/fbylajFcaVyS7OEIrUHA6B04nmQPPWGobMPUz0HjrjoZMGT7BxUPJQ2xM9ug8SW9osgYNxIUVDsLRYXGQ==";
+        };
     in {
         "S2taMPLe" = _S2taMPLe;
         "W7hQe9cD" = _W7hQe9cD;
@@ -698,6 +703,7 @@ let
         "Y11FDzxb" = _Y11FDzxb;
         "VACgDPOc" = _VACgDPOc;
         "OW5kFWVU" = _OW5kFWVU;
+        "tsjMpKNj" = _tsjMpKNj;
         "neoforge-1.21.1" = _VACgDPOc;
         "neoforge-1.21.5" = _zaZMwdfX;
         "neoforge-1.21.6-pre4" = _kWnX1Ffh;
@@ -715,7 +721,7 @@ let
         "neoforge-26.1.2" = _LEHKpyxE;
         "neoforge-26.2-rc-2" = _JxM8JHjp;
         "neoforge-26.2" = _XpuI7aLS;
-        "neoforge-26.3" = _OW5kFWVU;
+        "neoforge-26.3" = _tsjMpKNj;
         "pkg-0.3.0+alpha.0.19+1.21.1" = _S2taMPLe;
         "pkg-0.3.0+alpha.0.21+1.21.1" = _W7hQe9cD;
         "pkg-0.3.0+alpha.0.22+1.21.1" = _DANm1TXY;
@@ -832,7 +838,8 @@ let
         "pkg-0.4.2-alpha.0.105+26.3" = _Y11FDzxb;
         "pkg-0.4.0-alpha.0.124+1.21.1" = _VACgDPOc;
         "pkg-0.4.2-alpha.0.109+26.3" = _OW5kFWVU;
-        "default" = _OW5kFWVU;
+        "pkg-0.4.2-alpha.0.110+26.3" = _tsjMpKNj;
+        "default" = _tsjMpKNj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "c2me-neoforge";

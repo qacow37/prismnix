@@ -51,6 +51,21 @@ let
             "file" = "betterzoom-neoforge-1.21.1-2.9.0.jar";
             "hash" = "sha512-ff7gIObxYH7CH9UGxbNGmA4tPy1cbVN55WC3byUOm+xeXUlUAAdzchpDQe7h5BasTFJ/gYfMJm3m3acHQ65WtA==";
         };
+        _MnMc0W55 = {
+            "id" = "MnMc0W55";
+            "file" = "betterzoom-forge-1.18.2-3.1.1.jar";
+            "hash" = "sha512-nahE7I+UxFputMguUqZRUnGw1+ZcvLyvKIHcWmnLHvFiMOI/4BWYQp7bmNREfB6v/ShFqy/4jHc/AFnEFt+AqQ==";
+        };
+        _fZ9eDToF = {
+            "id" = "fZ9eDToF";
+            "file" = "betterzoom-forge-1.20.1-3.1.1.jar";
+            "hash" = "sha512-tCZPtERQuLYff4eg2pXsAzXM71FM77VYcuixDtvx74G0icH3k98C+6+9nhIrO6tTzikoc4yn/Gqq6ES5/fFIAw==";
+        };
+        _NwwnadOr = {
+            "id" = "NwwnadOr";
+            "file" = "betterzoom-neoforge-1.21.1-3.1.1.jar";
+            "hash" = "sha512-U4Fs6jIXJUj58el8S6iGTWbSXi3wjlR+QXewRXj8LcHBybxe135Khy2jyfNTiPCN9kgM5fVYc1KMTXExWttDwQ==";
+        };
     in {
         "4RI2JfAq" = _4RI2JfAq;
         "1HDrnOoI" = _1HDrnOoI;
@@ -62,12 +77,16 @@ let
         "P1tY9nD4" = _P1tY9nD4;
         "TUOWHtJQ" = _TUOWHtJQ;
         "20L3hiMA" = _20L3hiMA;
-        "forge-1.20.1" = _TUOWHtJQ;
+        "MnMc0W55" = _MnMc0W55;
+        "fZ9eDToF" = _fZ9eDToF;
+        "NwwnadOr" = _NwwnadOr;
+        "forge-1.20.1" = _fZ9eDToF;
         "forge-1.20.2" = _TUOWHtJQ;
         "forge-1.20.3" = _TUOWHtJQ;
         "forge-1.20.4" = _TUOWHtJQ;
         "forge-1.20.5" = _RbeSfNiz;
-        "neoforge-1.21.1" = _20L3hiMA;
+        "forge-1.18.2" = _MnMc0W55;
+        "neoforge-1.21.1" = _NwwnadOr;
         "pkg-2.2.0" = _4RI2JfAq;
         "pkg-2.3.0" = _1HDrnOoI;
         "pkg-2.4.0" = _4iALk8Iz;
@@ -76,7 +95,8 @@ let
         "pkg-2.6.0" = _iG0jpEH9;
         "pkg-2.7.0" = _P1tY9nD4;
         "pkg-2.9.0" = _20L3hiMA;
-        "default" = _20L3hiMA;
+        "pkg-3.1.1" = _NwwnadOr;
+        "default" = _NwwnadOr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-zoom";
