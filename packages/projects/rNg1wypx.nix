@@ -141,6 +141,11 @@ let
             "file" = "pantrywork-0.9.0-neoforge-mc26.jar";
             "hash" = "sha512-dEN6w+G7DrmmB+TG9H7kHjqz3ZIYXHLxG95KOhJyvTKCmisp7qG07FNWK1lvRpS9Ttii5k34EVQ0MvztBUO1fQ==";
         };
+        _BU8lJA8o = {
+            "id" = "BU8lJA8o";
+            "file" = "pantrywork-0.10.0-forge-mc1201.jar";
+            "hash" = "sha512-Owabicg+PY11zwdcMajLFEhQ21A8L7be0hKx5PGuRh4FWL9vyLynb2Wk6M8Emdlkt3GnlFQfxyNLcCE9R32qWA==";
+        };
     in {
         "F9FSp4Rj" = _F9FSp4Rj;
         "sCFEz6LL" = _sCFEz6LL;
@@ -170,6 +175,7 @@ let
         "yS4bX59x" = _yS4bX59x;
         "LVhcHiPH" = _LVhcHiPH;
         "xDLpNRz8" = _xDLpNRz8;
+        "BU8lJA8o" = _BU8lJA8o;
         "neoforge-1.21.1" = _GAQzsjU3;
         "neoforge-26.1.2" = _xDLpNRz8;
         "neoforge-26.2" = _xDLpNRz8;
@@ -186,6 +192,7 @@ let
         "fabric-1.21.4" = _yS4bX59x;
         "fabric-26.1.2" = _LVhcHiPH;
         "fabric-26.2" = _LVhcHiPH;
+        "forge-1.20.1" = _BU8lJA8o;
         "pkg-0.1.0" = _sCFEz6LL;
         "pkg-0.2.0+mc1.21.1" = _4yygEyyu;
         "pkg-0.2.0+mc1.21.x-fabric" = _sUEuUMNj;
@@ -213,7 +220,8 @@ let
         "pkg-0.9.0+mc1.21.x-fabric" = _yS4bX59x;
         "pkg-0.9.0+mc26-fabric" = _LVhcHiPH;
         "pkg-0.9.0+mc26" = _xDLpNRz8;
-        "default" = _xDLpNRz8;
+        "pkg-0.10.0+mc1.20.1-forge" = _BU8lJA8o;
+        "default" = _BU8lJA8o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pantrywork";

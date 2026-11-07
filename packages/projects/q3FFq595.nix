@@ -106,6 +106,41 @@ let
             "file" = "village_bounties-1.2_26.2-fabric.jar";
             "hash" = "sha512-MtXOEQvbREEThG142Ih8JCA3IblGzABBFk116x96ufuisp7mDOmsp8uC3uefbokVVq81zHRnnMIBB+h4zNeZ5A==";
         };
+        _EbVilyb4 = {
+            "id" = "EbVilyb4";
+            "file" = "village_bounties-1.3_1.21.1.jar";
+            "hash" = "sha512-LPZAvm1iHIiO7B/MlxtGCyhqpWX02iZ0PqsWstsMIje6CH5gxL/lsppJjnJIqwUlxPedkyg8vXzm1tnc+nBLpA==";
+        };
+        _RYOI20zf = {
+            "id" = "RYOI20zf";
+            "file" = "village_bounties-1.3_1.21.8.jar";
+            "hash" = "sha512-N0HSrCmTMoeKiKzzY51nm26/6mj/mJpECFbOfKEa+MunfdHLxuru9CvTeaSZEGvqViXjiJLBpR/M0Bt+/LRd5w==";
+        };
+        _XbdQEysK = {
+            "id" = "XbdQEysK";
+            "file" = "village_bounties-1.3_1.21.11.jar";
+            "hash" = "sha512-36yleNk8RtkbFQfNobrwMNVI/7SzLiZuZ0bzlr/nz07Df6UTQtO+LSskxvorcE+6FhZfAwVvO7uiBYPhX+jbZA==";
+        };
+        _prBevUmJ = {
+            "id" = "prBevUmJ";
+            "file" = "village_bounties-1.3_26.2.jar";
+            "hash" = "sha512-P51moF4zwddiyM2XZ4m5JUZpd4RAX57YaRfPw+Y5R6zBPEDzzyXOTA2dYiOhxPB94a+YjLjU03oXizU8X8zJKQ==";
+        };
+        _uysDYc8k = {
+            "id" = "uysDYc8k";
+            "file" = "village_bounties-1.3_1.21.1-fabric.jar";
+            "hash" = "sha512-TpO4DCsmlfxGnRTB3B46jnC7yGy8sacAU9AMF0ukjegu3PaU9pPCVrfOc6LuFJUGigZJDHH1ITQo9ExoLOeNAg==";
+        };
+        _WMCLG0KF = {
+            "id" = "WMCLG0KF";
+            "file" = "village_bounties-1.3_26.2-fabric.jar";
+            "hash" = "sha512-RDi6q0HMstM+iGgEWe8+02nVZq83eKO0VU+XZIZnEYCPzpCeZJJWeiUzqVPqs95aM3qbcSFiW3eCFIqSE837Hw==";
+        };
+        _3VApgv7w = {
+            "id" = "3VApgv7w";
+            "file" = "village_bounties-1.3_26.3.jar";
+            "hash" = "sha512-zPQ65wdEMV6SUf+wUbmAQCYG89Gnukvqrvsm8Q6H8YUqZBg3V0wC4GDyRFRkJ5dwY6xnaeIup6lFi9g2/vRo/A==";
+        };
     in {
         "qPCSt8Cr" = _qPCSt8Cr;
         "go9TCxY0" = _go9TCxY0;
@@ -128,13 +163,21 @@ let
         "LsJnjJCo" = _LsJnjJCo;
         "71YEGeIJ" = _71YEGeIJ;
         "wjKaoY8B" = _wjKaoY8B;
-        "neoforge-1.21.1" = _Sn8bVqCZ;
+        "EbVilyb4" = _EbVilyb4;
+        "RYOI20zf" = _RYOI20zf;
+        "XbdQEysK" = _XbdQEysK;
+        "prBevUmJ" = _prBevUmJ;
+        "uysDYc8k" = _uysDYc8k;
+        "WMCLG0KF" = _WMCLG0KF;
+        "3VApgv7w" = _3VApgv7w;
+        "neoforge-1.21.1" = _EbVilyb4;
         "neoforge-1.21.4" = _ODNMvpLk;
-        "neoforge-1.21.8" = _UrRm1m8k;
-        "neoforge-26.2" = _LsJnjJCo;
-        "neoforge-1.21.11" = _61TMtYdh;
-        "fabric-1.21.1" = _71YEGeIJ;
-        "fabric-26.2" = _wjKaoY8B;
+        "neoforge-1.21.8" = _RYOI20zf;
+        "neoforge-26.2" = _prBevUmJ;
+        "neoforge-1.21.11" = _XbdQEysK;
+        "neoforge-26.3" = _3VApgv7w;
+        "fabric-1.21.1" = _uysDYc8k;
+        "fabric-26.2" = _WMCLG0KF;
         "pkg-0.9.8_1.21.1" = _qPCSt8Cr;
         "pkg-0.9.8_1.21.4" = _go9TCxY0;
         "pkg-0.9.8_1.21.8" = _SQsoiK9b;
@@ -156,7 +199,14 @@ let
         "pkg-1.2_26.2" = _LsJnjJCo;
         "pkg-1.2_1.21.1_FABRIC" = _71YEGeIJ;
         "pkg-1.2_26.2_FABRIC" = _wjKaoY8B;
-        "default" = _wjKaoY8B;
+        "pkg-1.3_1.21.1" = _EbVilyb4;
+        "pkg-1.3_1.21.8" = _RYOI20zf;
+        "pkg-1.3_1.21.11" = _XbdQEysK;
+        "pkg-1.3_26.2" = _prBevUmJ;
+        "pkg-1.3_1.21.1_FABRIC" = _uysDYc8k;
+        "pkg-1.3_26.2_FABRIC" = _WMCLG0KF;
+        "pkg-1.3_26.3" = _3VApgv7w;
+        "default" = _3VApgv7w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-bounties";

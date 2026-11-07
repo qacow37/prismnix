@@ -361,6 +361,11 @@ let
             "file" = "mekanism_extras-1.21.1-1.4.1.jar";
             "hash" = "sha512-A6u3m8ea2rJP1nSrTV/ISu3N6UojBNGZ67pZxs70yKYoOln9jQKy7AqFyDKQPGcdt7H5FXGLRibSvZ7WgVV3YQ==";
         };
+        _pAhRkKkn = {
+            "id" = "pAhRkKkn";
+            "file" = "mekanism_extras-1.21.1-1.4.2.jar";
+            "hash" = "sha512-WivcvxY+z0xV5esCpS/sWS1c8mO8YoIcEdSekfnKcUpd9LMaaneNVTC9LiQE6AfOETdUkOsORf4kngbWfuqzYA==";
+        };
     in {
         "S6z9EL4R" = _S6z9EL4R;
         "nqxM6L9R" = _nqxM6L9R;
@@ -434,10 +439,11 @@ let
         "DsGsees0" = _DsGsees0;
         "9T6CetkG" = _9T6CetkG;
         "fqPYikeY" = _fqPYikeY;
+        "pAhRkKkn" = _pAhRkKkn;
         "forge-1.20.1" = _9T6CetkG;
         "neoforge-1.20.4" = _dcCkI1ff;
         "neoforge-1.21" = _arMLcmey;
-        "neoforge-1.21.1" = _fqPYikeY;
+        "neoforge-1.21.1" = _pAhRkKkn;
         "pkg-0.1.0" = _S6z9EL4R;
         "pkg-1.0.0" = _nqxM6L9R;
         "pkg-1.0.1" = _58O4uhkX;
@@ -510,7 +516,8 @@ let
         "pkg-1.21.1-1.4.0" = _DsGsees0;
         "pkg-1.20.1-1.5.0" = _9T6CetkG;
         "pkg-1.21.1-1.4.1" = _fqPYikeY;
-        "default" = _fqPYikeY;
+        "pkg-1.21.1-1.4.2" = _pAhRkKkn;
+        "default" = _pAhRkKkn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism_extra";

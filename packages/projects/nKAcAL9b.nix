@@ -1741,6 +1741,51 @@ let
             "file" = "anvillib-neoforge-1.21.11-2.0.0+snapshot.637.jar";
             "hash" = "sha512-rzA7kO5oZGAfK70XEMqkIsptE4zT4MnmpwdDvFyyl/iIgI1AXSrJA9nU4QOWkd5BcxvSz/d9PFxQBXBpLOIfKg==";
         };
+        _ueeeUmAp = {
+            "id" = "ueeeUmAp";
+            "file" = "anvillib-neoforge-1.21.4-2.0.0+snapshot.638.jar";
+            "hash" = "sha512-Yvq9yVL+3ekvwKoKhuAmbo49to5A1CQu7+HkGWUbyEN1QWsqPffekGVZagclkBoVMBCa9+e5B6M09i6hryMbxg==";
+        };
+        _sd5rsC5o = {
+            "id" = "sd5rsC5o";
+            "file" = "anvillib-neoforge-1.21.1-2.0.0+snapshot.639.jar";
+            "hash" = "sha512-gQ+4XukNZh6JinPwjI3z3e1FvzHqDbSU11UWp4zoPWQ3lnPh+JGvcx7PFGgkSnSPPumjPKxvVe4YINxE8ooi1g==";
+        };
+        _Petp4hYi = {
+            "id" = "Petp4hYi";
+            "file" = "anvillib-neoforge-1.21.1-2.0.0+snapshot.640.jar";
+            "hash" = "sha512-iPNlulrbdzYnTY0cn8mHvk84+3RYp+sB6tdEH/KT6nQGAfbEJvUczn8ZqM2uaYvd4QjufWsZesfKpZc0yhsOaA==";
+        };
+        _lAyXLiHO = {
+            "id" = "lAyXLiHO";
+            "file" = "anvillib-neoforge-26.1.2-2.0.0+snapshot.644.jar";
+            "hash" = "sha512-c7KXCdRto3prNz2ovBxrjaUAuQscSl2c0yhHIJAI/LH/0zCBhunZs+LUjfl3JThyet52IdQP+Cw5ibxeU081cQ==";
+        };
+        _Ql7OiTMW = {
+            "id" = "Ql7OiTMW";
+            "file" = "anvillib-neoforge-1.21.4-2.0.0+snapshot.641.jar";
+            "hash" = "sha512-Rn4pYiVgltmP0iJm9kDqV7he2yb4d5rc1NravSkCpbG630Vp+ARyajCO/wLpIcRuqyVpxyR+kFU4QKxhztAjVg==";
+        };
+        _TsRmHJu3 = {
+            "id" = "TsRmHJu3";
+            "file" = "anvillib-neoforge-26.2-2.0.0+snapshot.645.jar";
+            "hash" = "sha512-nbzwnf/9rT8WonhV9WjyxhsgWsQ8pZ6aU0U0olCpt/ie2ZBTm+RFKUjs49ybmZPFjRhB4EoEPXsSBbOxBffNLA==";
+        };
+        _NbCVcDVJ = {
+            "id" = "NbCVcDVJ";
+            "file" = "anvillib-neoforge-1.21.11-2.0.0+snapshot.643.jar";
+            "hash" = "sha512-RT8ZSV7htq1R8r1IPIpVUCZfcVfwcSoXmzjTi9vpv4ZVY99SW4gs13Z3t7SeqsLlr0HLNBlVYsq+Vn3MMAMj8Q==";
+        };
+        _IZPYEXFa = {
+            "id" = "IZPYEXFa";
+            "file" = "anvillib-neoforge-26.3-2.0.0+snapshot.646.jar";
+            "hash" = "sha512-pRmL4z6KTkrPnZAa+mll8/TU4uU7J9Pn0Wz71M8ysaCINOtLJoJrU9Rgx+eS1wR/Ye4R5xgyrUvaVWJH4hPoDA==";
+        };
+        _NSYgZXAY = {
+            "id" = "NSYgZXAY";
+            "file" = "anvillib-neoforge-1.21.8-2.0.0+snapshot.642.jar";
+            "hash" = "sha512-qTDu0C2pKyRynaqbUdZJVBL3h5PfBsYfvWKkSNXUdWMJ+EdSf5p16qcKFuWk1fge0PJIGQbtMkzpxYmcn6rbSg==";
+        };
     in {
         "W8NIk2gL" = _W8NIk2gL;
         "HK6tLnLt" = _HK6tLnLt;
@@ -2090,21 +2135,30 @@ let
         "1IQGwKbo" = _1IQGwKbo;
         "XywRv9ty" = _XywRv9ty;
         "AdHF7pyL" = _AdHF7pyL;
-        "neoforge-1.21.1" = _atQbQlXI;
+        "ueeeUmAp" = _ueeeUmAp;
+        "sd5rsC5o" = _sd5rsC5o;
+        "Petp4hYi" = _Petp4hYi;
+        "lAyXLiHO" = _lAyXLiHO;
+        "Ql7OiTMW" = _Ql7OiTMW;
+        "TsRmHJu3" = _TsRmHJu3;
+        "NbCVcDVJ" = _NbCVcDVJ;
+        "IZPYEXFa" = _IZPYEXFa;
+        "NSYgZXAY" = _NSYgZXAY;
+        "neoforge-1.21.1" = _Petp4hYi;
         "neoforge-1.21.2" = _c7h1FcRq;
         "neoforge-1.21.3" = _AIHsqUym;
-        "neoforge-1.21.4" = _71pwXRGD;
+        "neoforge-1.21.4" = _Ql7OiTMW;
         "neoforge-1.21.5" = _nFIRkguX;
         "neoforge-1.21.6" = _G23gupdA;
         "neoforge-1.21.7" = _JcpjjfgN;
-        "neoforge-1.21.8" = _1IQGwKbo;
+        "neoforge-1.21.8" = _NSYgZXAY;
         "neoforge-1.21.9" = _MvhKjCCB;
         "neoforge-1.21.10" = _N2m1jtb5;
-        "neoforge-1.21.11" = _AdHF7pyL;
+        "neoforge-1.21.11" = _NbCVcDVJ;
         "neoforge-26.1" = _pNlwiTsz;
-        "neoforge-26.1.2" = _pU9FbLC4;
-        "neoforge-26.2" = _4UqcDfFC;
-        "neoforge-26.3" = _XywRv9ty;
+        "neoforge-26.1.2" = _lAyXLiHO;
+        "neoforge-26.2" = _TsRmHJu3;
+        "neoforge-26.3" = _IZPYEXFa;
         "pkg-2.0.0+snapshot.213" = _W8NIk2gL;
         "pkg-2.0.0+snapshot.214" = _HK6tLnLt;
         "pkg-2.0.0+snapshot.216" = _QKUlY1ZM;
@@ -2451,7 +2505,16 @@ let
         "pkg-2.0.0+snapshot.634" = _1IQGwKbo;
         "pkg-2.0.0+snapshot.636" = _XywRv9ty;
         "pkg-2.0.0+snapshot.637" = _AdHF7pyL;
-        "default" = _AdHF7pyL;
+        "pkg-2.0.0+snapshot.638" = _ueeeUmAp;
+        "pkg-2.0.0+snapshot.639" = _sd5rsC5o;
+        "pkg-2.0.0+snapshot.640" = _Petp4hYi;
+        "pkg-2.0.0+snapshot.644" = _lAyXLiHO;
+        "pkg-2.0.0+snapshot.641" = _Ql7OiTMW;
+        "pkg-2.0.0+snapshot.645" = _TsRmHJu3;
+        "pkg-2.0.0+snapshot.643" = _NbCVcDVJ;
+        "pkg-2.0.0+snapshot.646" = _IZPYEXFa;
+        "pkg-2.0.0+snapshot.642" = _NSYgZXAY;
+        "default" = _NSYgZXAY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvil-lib";

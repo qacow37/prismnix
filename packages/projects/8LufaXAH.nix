@@ -31,6 +31,11 @@ let
             "file" = "simplegenerators-forge-1.15.2-2.1.0.0.jar";
             "hash" = "sha512-f09vlZGLqubJ6PCi/5jMVODc+kQhIxtciSQlCVM0nJHCq6kJVGtjhiTJ3HB4Tda03Pb7+FbM+kwPGb6/WQi5NQ==";
         };
+        _f1OGcZUc = {
+            "id" = "f1OGcZUc";
+            "file" = "simplegens-forge-1.16.5-3.1.0.0.jar";
+            "hash" = "sha512-tjmxqjIIhtrj2UGph0q4zw5cbEcnOysU941NB+zxlWuA5GzbJGqgGmz292Fa0sn0w0si9X0+j2bPZtSq0UZOvA==";
+        };
     in {
         "Ze1Loa2O" = _Ze1Loa2O;
         "vrmjyq43" = _vrmjyq43;
@@ -38,9 +43,10 @@ let
         "TWbqouqd" = _TWbqouqd;
         "dNFmwSCr" = _dNFmwSCr;
         "VkaRe1hU" = _VkaRe1hU;
+        "f1OGcZUc" = _f1OGcZUc;
         "forge-1.9.4" = _Ze1Loa2O;
         "forge-1.12.2" = _TWbqouqd;
-        "forge-1.16.5" = _ACo0XDZv;
+        "forge-1.16.5" = _f1OGcZUc;
         "forge-1.14.4" = _dNFmwSCr;
         "forge-1.15.2" = _VkaRe1hU;
         "pkg-1.9.4-0.6.2a" = _Ze1Loa2O;
@@ -49,7 +55,8 @@ let
         "pkg-1.12.2-2.1.0.0" = _TWbqouqd;
         "pkg-1.14.4-2.1.0.0" = _dNFmwSCr;
         "pkg-1.15.2-2.1.0.0" = _VkaRe1hU;
-        "default" = _VkaRe1hU;
+        "pkg-1.16.5-3.1.0.0" = _f1OGcZUc;
+        "default" = _f1OGcZUc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-generators";

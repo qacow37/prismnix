@@ -31,6 +31,11 @@ let
             "file" = "Various Variously Variegated Items.zip";
             "hash" = "sha512-IM/FZUFhi6o6/TQY98wygD/bDIJvOsy/3bvHeIY95FVAo5ElTIJAnYNOJyA2Tsy9WqJT1RqpN68tW8KqfHItUQ==";
         };
+        _ttBZPNpE = {
+            "id" = "ttBZPNpE";
+            "file" = "Various Variously Variegated Items.zip";
+            "hash" = "sha512-gLPh6S+qH9OkjjcacUuIvk8conDACfWC0VS/ADLvKsu/vBcpYpLtdPG7nqUqiQzahZ99zMfOaZO7DFoOK0/i8Q==";
+        };
     in {
         "KufjZVoB" = _KufjZVoB;
         "ZuT9GbhF" = _ZuT9GbhF;
@@ -38,6 +43,7 @@ let
         "qCEzJCYi" = _qCEzJCYi;
         "Ak9oRNBK" = _Ak9oRNBK;
         "V6Pbuoxn" = _V6Pbuoxn;
+        "ttBZPNpE" = _ttBZPNpE;
         "minecraft-1.20" = _ZuT9GbhF;
         "minecraft-1.20.1" = _ZuT9GbhF;
         "minecraft-1.20.2" = _ZuT9GbhF;
@@ -51,23 +57,25 @@ let
         "minecraft-1.21.3" = _ZuT9GbhF;
         "minecraft-1.21.4" = _ZuT9GbhF;
         "minecraft-1.21.5" = _ZuT9GbhF;
-        "minecraft-1.21.6" = _V6Pbuoxn;
-        "minecraft-1.21.7" = _V6Pbuoxn;
-        "minecraft-1.21.8" = _V6Pbuoxn;
-        "minecraft-1.21.9" = _V6Pbuoxn;
-        "minecraft-1.21.10" = _V6Pbuoxn;
-        "minecraft-1.21.11" = _V6Pbuoxn;
-        "minecraft-26.1" = _V6Pbuoxn;
-        "minecraft-26.1.1" = _V6Pbuoxn;
-        "minecraft-26.1.2" = _V6Pbuoxn;
-        "minecraft-26.2" = _V6Pbuoxn;
+        "minecraft-1.21.6" = _ttBZPNpE;
+        "minecraft-1.21.7" = _ttBZPNpE;
+        "minecraft-1.21.8" = _ttBZPNpE;
+        "minecraft-1.21.9" = _ttBZPNpE;
+        "minecraft-1.21.10" = _ttBZPNpE;
+        "minecraft-1.21.11" = _ttBZPNpE;
+        "minecraft-26.1" = _ttBZPNpE;
+        "minecraft-26.1.1" = _ttBZPNpE;
+        "minecraft-26.1.2" = _ttBZPNpE;
+        "minecraft-26.2" = _ttBZPNpE;
+        "minecraft-26.3" = _ttBZPNpE;
         "pkg-1.0" = _KufjZVoB;
         "pkg-1.2" = _ZuT9GbhF;
         "pkg-1.3" = _AMIKLyEn;
         "pkg-1.4" = _qCEzJCYi;
         "pkg-1.4.1" = _Ak9oRNBK;
         "pkg-1.5" = _V6Pbuoxn;
-        "default" = _V6Pbuoxn;
+        "pkg-1.6" = _ttBZPNpE;
+        "default" = _ttBZPNpE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "various-variously-variegated-items";

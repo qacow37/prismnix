@@ -331,6 +331,16 @@ let
             "file" = "create-fly-26.2-6.0.9-2.jar";
             "hash" = "sha512-6PF37glso0NsGWrRLNZmDpFBnWEEP3KtMZTtOsJcPiifxn4qEs37uu6xoeUOFhwBUlcMRJWhomu+7OTobRKPDA==";
         };
+        _vx36LTf6 = {
+            "id" = "vx36LTf6";
+            "file" = "create-fly-26.3-6.0.9-1.jar";
+            "hash" = "sha512-2SwL2q7oVehb8kKtXHffMYzCq0YuxiMXU32Mt2zSO1QPSdqpi8dEMnjh2WIMxZUCQYg2vshpuLS2fYWLF1UTUg==";
+        };
+        _Y5Ryytu0 = {
+            "id" = "Y5Ryytu0";
+            "file" = "create-fly-26.3-6.0.9-2.jar";
+            "hash" = "sha512-gqMGj3MviGKQ+QfJMj0Jt7fj4aHiqKykZG0FISG3nQHpvfdY4KKRVo3zmjQRgBTl+NGA+EfcvsSZ/I5vn4pp4w==";
+        };
     in {
         "6zpUOx8d" = _6zpUOx8d;
         "CEAK0ioe" = _CEAK0ioe;
@@ -398,6 +408,8 @@ let
         "phlsMPgT" = _phlsMPgT;
         "wV5IQLKg" = _wV5IQLKg;
         "FV8OvjTb" = _FV8OvjTb;
+        "vx36LTf6" = _vx36LTf6;
+        "Y5Ryytu0" = _Y5Ryytu0;
         "fabric-1.21.8" = _v37IUNm0;
         "fabric-1.21.10" = _oYhbStma;
         "fabric-25w46a" = _IXAwX2Rl;
@@ -422,6 +434,7 @@ let
         "fabric-26.2-pre-5" = _ASrLBo5M;
         "fabric-26.2-rc-2" = _phlsMPgT;
         "fabric-26.2" = _FV8OvjTb;
+        "fabric-26.3" = _Y5Ryytu0;
         "quilt-1.21.11" = _fn0H9rSj;
         "quilt-1.21.10" = _oYhbStma;
         "quilt-1.21.8" = _v37IUNm0;
@@ -491,7 +504,9 @@ let
         "pkg-26.2-rc-2-6.0.9-1" = _phlsMPgT;
         "pkg-26.1.2-6.0.9-4" = _wV5IQLKg;
         "pkg-26.2-6.0.9-2" = _FV8OvjTb;
-        "default" = _FV8OvjTb;
+        "pkg-26.3-6.0.9-1" = _vx36LTf6;
+        "pkg-26.3-6.0.9-2" = _Y5Ryytu0;
+        "default" = _Y5Ryytu0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly";

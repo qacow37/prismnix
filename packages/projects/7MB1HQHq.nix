@@ -161,6 +161,11 @@ let
             "file" = "digimobs-2.5.5.jar";
             "hash" = "sha512-6e+OFPlqFWDwiVEDUodu6yi/4/k1Zw5iwq0G/92Aq5ET98TkJQ2IDcN6fXjwn6iFZ7kkN+hebSmODEJFLhXhog==";
         };
+        _xCPX9pP8 = {
+            "id" = "xCPX9pP8";
+            "file" = "digimobs-2.5.6.jar";
+            "hash" = "sha512-eNmeNKRegOVGx3GVz7HojAdWHg+tcGO/5cHuoUXtN6pr9kJcYwVZk45sLNdosm6Lkldk/bdf2XOj471B91Fi4w==";
+        };
     in {
         "NjQs1JsC" = _NjQs1JsC;
         "QvBrmjBz" = _QvBrmjBz;
@@ -194,8 +199,9 @@ let
         "o1pOfugs" = _o1pOfugs;
         "2XtoAHDE" = _2XtoAHDE;
         "H1QV4jsW" = _H1QV4jsW;
+        "xCPX9pP8" = _xCPX9pP8;
         "forge-1.16.5" = _nVen9e72;
-        "forge-1.20.1" = _H1QV4jsW;
+        "forge-1.20.1" = _xCPX9pP8;
         "neoforge-1.20.1" = _EL0bE4D4;
         "pkg-1.16.5-2.2.6" = _NjQs1JsC;
         "pkg-1.16.5-2.2.6a" = _QvBrmjBz;
@@ -229,7 +235,8 @@ let
         "pkg-2.5.4" = _o1pOfugs;
         "pkg-2.5.4a" = _2XtoAHDE;
         "pkg-2.5.5" = _H1QV4jsW;
-        "default" = _H1QV4jsW;
+        "pkg-2.5.6" = _xCPX9pP8;
+        "default" = _xCPX9pP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "digimobs";

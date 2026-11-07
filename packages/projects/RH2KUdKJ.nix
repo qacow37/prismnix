@@ -276,6 +276,16 @@ let
             "file" = "shatterlib-fabric-0.7.0-beta.4+26.3.jar";
             "hash" = "sha512-vCPHWoQmagCzuuY09nrshMmbb5UXy9MLgvUoQoR+NhX0QJspVcD8RIf2Jpak4Hd70C0TetlHlttWBWhFd0/n+w==";
         };
+        _z3vMP4KZ = {
+            "id" = "z3vMP4KZ";
+            "file" = "OctoLib-FABRIC-0.6.3+1.21.jar";
+            "hash" = "sha512-3TSLUuINPd0l+GSBE3V327/WkFnD/zzw2Tb9bwIOSNh9PfDfpJfcC04fDMdI0wgqGXAPDaUge1RCo2fHmP0hLA==";
+        };
+        _5W0Tr3KB = {
+            "id" = "5W0Tr3KB";
+            "file" = "OctoLib-NEOFORGE-0.6.3+1.21.jar";
+            "hash" = "sha512-HAVO2pGvF7Z/pPIbXJL3eX4QfQWpPJ8llC9MYju73U1FMcoA0s5/pi24AbK9TUBv7xEfjBk/pWJHd9F2waVHPg==";
+        };
     in {
         "grEroQx9" = _grEroQx9;
         "BMzGyKew" = _BMzGyKew;
@@ -332,14 +342,16 @@ let
         "FtuJ82gD" = _FtuJ82gD;
         "ts3qsFDB" = _ts3qsFDB;
         "zujVCEvc" = _zujVCEvc;
+        "z3vMP4KZ" = _z3vMP4KZ;
+        "5W0Tr3KB" = _5W0Tr3KB;
         "forge-1.20.1" = _HZ7KmyXp;
         "forge-1.20.2" = _grEroQx9;
         "forge-1.19.2" = _NiQBlfBa;
         "forge-1.18.2" = _2s2b63pG;
         "neoforge-1.20.1" = _9dJfM8hR;
         "neoforge-1.20.2" = _grEroQx9;
-        "neoforge-1.21" = _b1bY4oKd;
-        "neoforge-1.21.1" = _yVCCi6TK;
+        "neoforge-1.21" = _5W0Tr3KB;
+        "neoforge-1.21.1" = _5W0Tr3KB;
         "neoforge-1.21.2" = _1Yj8kwh2;
         "neoforge-1.21.3" = _1Yj8kwh2;
         "neoforge-1.21.4" = _2kJHEIq8;
@@ -350,8 +362,8 @@ let
         "neoforge-26.1.2" = _nDf20sjT;
         "neoforge-26.2" = _bk3IlCia;
         "neoforge-26.3" = _ts3qsFDB;
-        "fabric-1.21" = _6d1vaxHI;
-        "fabric-1.21.1" = _Sj6w7O0I;
+        "fabric-1.21" = _z3vMP4KZ;
+        "fabric-1.21.1" = _z3vMP4KZ;
         "fabric-1.20.1" = _5UfjvE8g;
         "fabric-1.21.2" = _hwDBcZ2e;
         "fabric-1.21.3" = _hwDBcZ2e;
@@ -386,7 +398,8 @@ let
         "pkg-0.7.0-beta.1+26.2" = _bk3IlCia;
         "pkg-0.7.0-beta.1+26.3" = _FtuJ82gD;
         "pkg-0.7.0-beta.4+26.3" = _zujVCEvc;
-        "default" = _zujVCEvc;
+        "pkg-0.6.3+1.21" = _5W0Tr3KB;
+        "default" = _5W0Tr3KB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shatterbyte-lib";

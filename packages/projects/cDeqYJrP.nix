@@ -251,6 +251,31 @@ let
             "file" = "wintery-atmosphere-2.0.0-mc26.3.jar";
             "hash" = "sha512-BxxsEcMvM36yofM9Xxr0Lu4UFhh3fUf8jZQNZZmP6VlUYJJKw3KZoOUQeqFmHx9MrzFvsSvLyw6dq7FXOr5YQw==";
         };
+        _jflFMU6V = {
+            "id" = "jflFMU6V";
+            "file" = "wintery-atmosphere-2.0.0-fabric-1.21.1.jar";
+            "hash" = "sha512-RCdDPWkYtdzKjI6R2xjb5l5TIcUkX/7p8rnjBeg8u5+dNdqIjFdqS0nx3NHFMDa3QDuRs3I4BZwVldjSVrbRsg==";
+        };
+        _FU6yvUeT = {
+            "id" = "FU6yvUeT";
+            "file" = "wintery-atmosphere-2.0.0-fabric-1.21.4.jar";
+            "hash" = "sha512-TMtb838jTsaruayESyV0sVtvC5weAfgSkmLdljj80LDIZ8ZNWmUu4c26RTYY52H0Nv+9ZYjdCRdN/eomzurYPg==";
+        };
+        _Cfyw66Ac = {
+            "id" = "Cfyw66Ac";
+            "file" = "wintery-atmosphere-2.0.0-fabric-1.21.8.jar";
+            "hash" = "sha512-6EMn7gkTjL57r6b/QTNnovafBPDgtk73JP7Wykem4EnhSbjo+6c0sYJ/TH7tQH/gfDP7LskH8uXhFmBsUDJV4Q==";
+        };
+        _jl9BxbbJ = {
+            "id" = "jl9BxbbJ";
+            "file" = "wintery-atmosphere-2.0.0-fabric-1.21.10.jar";
+            "hash" = "sha512-Nw3lrjKfqz9D92XO5zIjVz8wiNWqeFmjkLM4oQhlMMRzcLgyrGbtHfo3YWxdlynhPwUNedgRQO1/u8bv+rimnw==";
+        };
+        _f0e5l4Is = {
+            "id" = "f0e5l4Is";
+            "file" = "wintery-atmosphere-2.0.0-fabric-1.21.11.jar";
+            "hash" = "sha512-1kHSuv/kboxB4gtM64vS2oCj170KR6Vfxt55DkRBO0B8/VVupggsaz30FOmonxfe8YhBBhuvTVegl/KSI1JfNg==";
+        };
     in {
         "9HSMi4pA" = _9HSMi4pA;
         "1IVQYx7X" = _1IVQYx7X;
@@ -302,22 +327,27 @@ let
         "LqPxsCaA" = _LqPxsCaA;
         "GAJIyLDU" = _GAJIyLDU;
         "G8IR05bZ" = _G8IR05bZ;
-        "fabric-1.21" = _b9IT3m3v;
-        "fabric-1.21.1" = _b9IT3m3v;
-        "fabric-1.21.2" = _b9IT3m3v;
-        "fabric-1.21.3" = _b9IT3m3v;
-        "fabric-1.21.4" = _b9IT3m3v;
-        "fabric-1.21.5" = _b9IT3m3v;
-        "fabric-1.21.6" = _b9IT3m3v;
-        "fabric-1.21.7" = _b9IT3m3v;
-        "fabric-1.21.8" = _b9IT3m3v;
-        "fabric-1.21.9" = _b9IT3m3v;
-        "fabric-1.21.10" = _b9IT3m3v;
+        "jflFMU6V" = _jflFMU6V;
+        "FU6yvUeT" = _FU6yvUeT;
+        "Cfyw66Ac" = _Cfyw66Ac;
+        "jl9BxbbJ" = _jl9BxbbJ;
+        "f0e5l4Is" = _f0e5l4Is;
+        "fabric-1.21" = _jflFMU6V;
+        "fabric-1.21.1" = _jflFMU6V;
+        "fabric-1.21.2" = _jflFMU6V;
+        "fabric-1.21.3" = _jflFMU6V;
+        "fabric-1.21.4" = _FU6yvUeT;
+        "fabric-1.21.5" = _Cfyw66Ac;
+        "fabric-1.21.6" = _Cfyw66Ac;
+        "fabric-1.21.7" = _Cfyw66Ac;
+        "fabric-1.21.8" = _Cfyw66Ac;
+        "fabric-1.21.9" = _jl9BxbbJ;
+        "fabric-1.21.10" = _jl9BxbbJ;
         "fabric-26.1" = _fLzUf10N;
         "fabric-26.1.1" = _fLzUf10N;
         "fabric-26.1.2" = _fLzUf10N;
         "fabric-26.2" = _r2uXeVs9;
-        "fabric-1.21.11" = _b9IT3m3v;
+        "fabric-1.21.11" = _f0e5l4Is;
         "fabric-1.20" = _yUpT3Mlj;
         "fabric-1.20.1" = _yUpT3Mlj;
         "fabric-1.20.2" = _yUpT3Mlj;
@@ -386,7 +416,8 @@ let
         "pkg-1.0.0" = _9HSMi4pA;
         "pkg-1.0.1" = _1IVQYx7X;
         "pkg-2.0" = _G8IR05bZ;
-        "default" = _G8IR05bZ;
+        "pkg-2.0.1" = _f0e5l4Is;
+        "default" = _f0e5l4Is;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wintery-atmosphere";

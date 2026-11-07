@@ -1776,6 +1776,16 @@ let
             "file" = "goety-2.5.60.4.jar";
             "hash" = "sha512-SnZc3XwAUlKp7KhhZFVuB8OxVoiYNqBLjLo3+Ph3mOwRbsgFEJkOBJ6LDQQ/H6jDdwb2KH3RlY9dF2/EjASYXg==";
         };
+        _WBUm7ZQe = {
+            "id" = "WBUm7ZQe";
+            "file" = "goety-2.5.60.5.jar";
+            "hash" = "sha512-MeIOHr0ilD54WtW6VEa3KJRtANXOLju9t713m/Pf4MRM2vJacrWK7PNIY2FyjL1nRt6cyT7Tlar5wCGJETuwDw==";
+        };
+        _XIafvWQz = {
+            "id" = "XIafvWQz";
+            "file" = "goety-2.5.60.6.jar";
+            "hash" = "sha512-uoa4yvlelRV2/pnmo86xtVkrQKhMXGK3fSPBJTpXnVZfou9aod3I6Sf6uuuU1np5AM05K25ZUu+AnLW2+9WGtg==";
+        };
     in {
         "kbb3FLSo" = _kbb3FLSo;
         "I4uXhIb5" = _I4uXhIb5;
@@ -2132,10 +2142,12 @@ let
         "TlYkilOk" = _TlYkilOk;
         "ZDGS1FFu" = _ZDGS1FFu;
         "AIxkLaCV" = _AIxkLaCV;
+        "WBUm7ZQe" = _WBUm7ZQe;
+        "XIafvWQz" = _XIafvWQz;
         "forge-1.19.2" = _P53aA5BL;
         "forge-1.16.5" = _nSsAx9u3;
-        "forge-1.20.1" = _AIxkLaCV;
-        "neoforge-1.20.1" = _AIxkLaCV;
+        "forge-1.20.1" = _XIafvWQz;
+        "neoforge-1.20.1" = _XIafvWQz;
         "neoforge-1.21.1" = _xLTYSsZD;
         "pkg-2.2.0" = _kbb3FLSo;
         "pkg-1.31.4" = _I4uXhIb5;
@@ -2492,7 +2504,9 @@ let
         "pkg-2.5.60.2" = _TlYkilOk;
         "pkg-2.5.60.3" = _ZDGS1FFu;
         "pkg-2.5.60.4" = _AIxkLaCV;
-        "default" = _AIxkLaCV;
+        "pkg-2.5.60.5" = _WBUm7ZQe;
+        "pkg-2.5.60.6" = _XIafvWQz;
+        "default" = _XIafvWQz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety";

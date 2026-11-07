@@ -81,6 +81,21 @@ let
             "file" = "lock-end-datapack-4.0.0.zip";
             "hash" = "sha512-PDT1qURbrSI71tiqmSKDKiYCY3c+o78kcrcPg1tZ6LVqo2skhjNp8LF/GhODLYYbU+8B2h+Zh8u+0fK6cUGoEQ==";
         };
+        _KFBUZLPE = {
+            "id" = "KFBUZLPE";
+            "file" = "lock-end-4.0.0.jar";
+            "hash" = "sha512-XLxoqxv62Y7XpQXZ8O+RA/2q5xu3kNM9DHyEYdm47jDfEiSZ+lU/tpjtDtcaQJzEB1jsc3Am8rhWDpGvO/54OA==";
+        };
+        _EO9nXEwQ = {
+            "id" = "EO9nXEwQ";
+            "file" = "lock-end-fabric-4.0.0.jar";
+            "hash" = "sha512-eI9KikKmfa45DLmMW/IS35oZLsDDBtSVVIuMS6MRMC/w9T2V1u7ScECgde7RUul0FTB73m3HFnazaZIhR7Ocww==";
+        };
+        _qhlWK6es = {
+            "id" = "qhlWK6es";
+            "file" = "lock-end-neoforge-4.0.0.jar";
+            "hash" = "sha512-wHzjb5sqZPK5VQoXG0k0uXfKgGvU6NUTZ6u2CNUXgEbx5rnHau2FjnRdcjOTC4gkvz3Ymk6xGEVYBbm7O7jOHw==";
+        };
     in {
         "icsb9Zlf" = _icsb9Zlf;
         "WyE5swss" = _WyE5swss;
@@ -98,6 +113,9 @@ let
         "EvRoxK4g" = _EvRoxK4g;
         "CYb3DZyh" = _CYb3DZyh;
         "B6uzVoBZ" = _B6uzVoBZ;
+        "KFBUZLPE" = _KFBUZLPE;
+        "EO9nXEwQ" = _EO9nXEwQ;
+        "qhlWK6es" = _qhlWK6es;
         "bukkit-1.20" = _icsb9Zlf;
         "bukkit-1.20.1" = _icsb9Zlf;
         "bukkit-1.20.2" = _icsb9Zlf;
@@ -144,7 +162,7 @@ let
         "paper-26.1.2" = _2epWi8bB;
         "paper-26.2-rc-2" = _WyE5swss;
         "paper-26.2" = _J132mAO8;
-        "paper-26.3" = _EvRoxK4g;
+        "paper-26.3" = _KFBUZLPE;
         "purpur-1.20" = _icsb9Zlf;
         "purpur-1.20.1" = _icsb9Zlf;
         "purpur-1.20.2" = _icsb9Zlf;
@@ -168,7 +186,7 @@ let
         "purpur-26.1.2" = _2epWi8bB;
         "purpur-26.2-rc-2" = _WyE5swss;
         "purpur-26.2" = _J132mAO8;
-        "purpur-26.3" = _EvRoxK4g;
+        "purpur-26.3" = _KFBUZLPE;
         "spigot-1.20" = _icsb9Zlf;
         "spigot-1.20.1" = _icsb9Zlf;
         "spigot-1.20.2" = _icsb9Zlf;
@@ -196,9 +214,10 @@ let
         "folia-26.1.2" = _2epWi8bB;
         "folia-26.2-rc-2" = _WyE5swss;
         "folia-26.2" = _yA1aDxEp;
-        "folia-26.3" = _EvRoxK4g;
-        "fabric-26.3" = _CYb3DZyh;
+        "folia-26.3" = _KFBUZLPE;
+        "fabric-26.3" = _EO9nXEwQ;
         "datapack-26.3" = _B6uzVoBZ;
+        "neoforge-26.3" = _qhlWK6es;
         "pkg-1.0.0" = _icsb9Zlf;
         "pkg-1.1.0" = _WyE5swss;
         "pkg-1.2" = _kHKBs3qa;
@@ -213,8 +232,8 @@ let
         "pkg-3.0.0" = _I1lKqnYU;
         "pkg-3.0.2" = _kOFXaeN2;
         "pkg-3.1.0" = _EvRoxK4g;
-        "pkg-4.0.0" = _B6uzVoBZ;
-        "default" = _B6uzVoBZ;
+        "pkg-4.0.0" = _qhlWK6es;
+        "default" = _qhlWK6es;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lock-end";

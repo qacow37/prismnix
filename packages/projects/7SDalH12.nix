@@ -376,6 +376,16 @@ let
             "file" = "ShieldLib-2.0.1+1.21.8-neoforge.jar";
             "hash" = "sha512-tlGb6723p5n3lQRrQxJHSlR/tSldMynGuGcie2AJppGUXeGpb0JvYyhm3GM7F/t1+pk3zrh6gi4FW6lnG9oKgw==";
         };
+        _JJoqweWC = {
+            "id" = "JJoqweWC";
+            "file" = "ShieldLib-2.0.1+1.21.11-neoforge.jar";
+            "hash" = "sha512-zWYQUFhfVhrtj6uReBS8NcbtA8s7OaMHitXS0gUajWZ1JEg33dskRLFFfAGj2SAwSj/Na6wajrYSvXt5fRyE/w==";
+        };
+        _9NESXNIR = {
+            "id" = "9NESXNIR";
+            "file" = "ShieldLib-2.0.1+1.21.11-fabric.jar";
+            "hash" = "sha512-ePYesH57rIrYbCyNT/goV+OzOh47922t3HY/jJZHRffydrHFDdnRK6Z28FttQd9FJbTCHuzXVCxk4pqDDU++oA==";
+        };
     in {
         "SsS4fgsD" = _SsS4fgsD;
         "i3HjBIox" = _i3HjBIox;
@@ -452,6 +462,8 @@ let
         "JLTe0SB1" = _JLTe0SB1;
         "vSY17iQp" = _vSY17iQp;
         "5hhaXnTT" = _5hhaXnTT;
+        "JJoqweWC" = _JJoqweWC;
+        "9NESXNIR" = _9NESXNIR;
         "fabric-1.14.4" = _A5Y9jTIc;
         "fabric-1.15.2" = _3oiFJyNc;
         "fabric-1.16.5" = _YgN7TXiv;
@@ -493,12 +505,14 @@ let
         "fabric-1.21.6" = _SeQp6hZC;
         "fabric-1.21.7" = _SeQp6hZC;
         "fabric-1.21.8" = _vSY17iQp;
+        "fabric-1.21.11" = _9NESXNIR;
         "quilt-1.21.8" = _vSY17iQp;
         "quilt-1.21.6" = _SeQp6hZC;
         "quilt-1.21.7" = _SeQp6hZC;
         "neoforge-1.21.8" = _5hhaXnTT;
         "neoforge-1.21.6" = _JLTe0SB1;
         "neoforge-1.21.7" = _JLTe0SB1;
+        "neoforge-1.21.11" = _JJoqweWC;
         "pkg-1.3.3-1.14.4" = _SsS4fgsD;
         "pkg-1.3.3-1.15.2" = _i3HjBIox;
         "pkg-1.3.3-1.16.5" = _EsAykzB4;
@@ -574,7 +588,9 @@ let
         "pkg-2.0.0+1.21.8-neoforge" = _JLTe0SB1;
         "pkg-2.0.1+1.21.8-fabric" = _vSY17iQp;
         "pkg-2.0.1+1.21.8-neoforge" = _5hhaXnTT;
-        "default" = _5hhaXnTT;
+        "pkg-2.0.1+1.21.11-neoforge" = _JJoqweWC;
+        "pkg-2.0.1+1.21.11-fabric" = _9NESXNIR;
+        "default" = _9NESXNIR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shieldlib";

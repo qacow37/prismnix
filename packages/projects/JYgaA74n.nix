@@ -971,6 +971,16 @@ let
             "file" = "Crystalcraft Unlimited Java 1.21.1 Neoforge Shiny Update.jar";
             "hash" = "sha512-xU3e9dpG5lKzYCiyJJ34zT3BwD8c/HDZCczVa/i3AYBzM1IWxmOSuAm8tK8eh+boAH8v/SfoXwUDjEZjCuaBzA==";
         };
+        _cpM2PeDQ = {
+            "id" = "cpM2PeDQ";
+            "file" = "Crystalcraft Unlimited Shinies 1.20.1 Forge.jar";
+            "hash" = "sha512-Sb7sDTWgp5GY1xknNopZG215UL5NUCtPoManxS4u7M/Sxl2rCZwTpeGPBY21Kd87X6krAIghd661e11v5eCrqw==";
+        };
+        _oOhdAxDe = {
+            "id" = "oOhdAxDe";
+            "file" = "Crystalcraft Unlimited Shinies 1.21.1 Neoforge.jar";
+            "hash" = "sha512-rgVi6dqy3jkIGzTZsXOucYj1aG+PcxHdp43OQKD8JwsL7NB87J3za0hAVe2M4pT7fVeYCTguiqpVzwrV2rDqFw==";
+        };
     in {
         "uN1umENg" = _uN1umENg;
         "1lvxw6uu" = _1lvxw6uu;
@@ -1166,24 +1176,26 @@ let
         "jIabXuXN" = _jIabXuXN;
         "Pm6CjbxU" = _Pm6CjbxU;
         "HXiw3Rkb" = _HXiw3Rkb;
-        "forge-1.20.1" = _Pm6CjbxU;
+        "cpM2PeDQ" = _cpM2PeDQ;
+        "oOhdAxDe" = _oOhdAxDe;
+        "forge-1.20.1" = _cpM2PeDQ;
         "forge-1.19.2" = _KzJTAhYg;
         "forge-1.19.4" = _GHqac9X6;
         "forge-1.16.5" = _chOXbOPd;
         "forge-1.18.2" = _32duyigE;
         "neoforge-1.20.4" = _BmgRD6YF;
         "neoforge-1.20.6" = _G3d1B5h3;
-        "neoforge-1.21.1" = _HXiw3Rkb;
+        "neoforge-1.21.1" = _oOhdAxDe;
         "neoforge-1.21.4" = _v1oFoeis;
         "neoforge-1.21.5" = _HI1QuREa;
         "neoforge-1.21.8" = _YCxHtRtR;
         "neoforge-26.1.2" = _sA3OdQQr;
         "fabric-1.21.8" = _2aHPz8ze;
         "pkg-1.0.0" = _Pm6CjbxU;
-        "pkg-1.21.1" = _HXiw3Rkb;
+        "pkg-1.21.1" = _oOhdAxDe;
         "pkg-1.21.8" = _2aHPz8ze;
-        "pkg-1.20.1" = _XqajjT9C;
-        "default" = _HXiw3Rkb;
+        "pkg-1.20.1" = _cpM2PeDQ;
+        "default" = _oOhdAxDe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystalcraft-unlimited";

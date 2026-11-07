@@ -40622,4 +40622,14 @@ args:{
   "graves-mod" = import ./YPhu4Fxr.nix args;
   "zanders-reinforced-tools" = import ./uFphqi3R.nix args;
   "productive-slimes" = import ./2G12HGTt.nix args;
+  "gtconsolidate" = import ./FCpufqdT.nix args;
+  "cupellation" = import ./yin62yTT.nix args;
+  "link-repair" = import ./Ge13kCyX.nix args;
+  "barebones-better-redstone" = import ./AVUyN93z.nix args;
+  "cbc-enchanced-shells-create-big-cannons" = import ./Gwl4VXlb.nix args;
+  "toast-remover" = import ./sGyYub4o.nix args;
+  "spotify-lyrics" = import ./DVEzYRDb.nix args;
+  "voiceplus" = import ./1tIHZmhl.nix args;
+  "fresh-food-for-hyper-punchy" = import ./bdVt5ysx.nix args;
+  "ape" = import ./RWRKP2kS.nix args;
 }

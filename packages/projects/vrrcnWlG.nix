@@ -21,13 +21,25 @@ let
             "file" = "CobbleRods-fabric-1.0.2+1.21.1.jar";
             "hash" = "sha512-uLyMZe/xgKqjqqvlfH3DxemLVAHmKHy6bxCv4ZPC4j9VQv/KuyhLlYlyo8YdsXrQShC6YJviar3WZwtUz/0VYA==";
         };
+        _4W6LUxCW = {
+            "id" = "4W6LUxCW";
+            "file" = "CobbleRods-fabric-1.1.0+1.21.1.jar";
+            "hash" = "sha512-bcmkcjB5vW2j9jFAn7X9y1+F4C8zmLq2nJ/pbmr3P6inp+CBUDQ2FagjaYJbdvN3wTFBYPPaEWKtr0rZNOZHqg==";
+        };
+        _ws76HEwe = {
+            "id" = "ws76HEwe";
+            "file" = "CobbleRods-neoforge-1.1.0+1.21.1.jar";
+            "hash" = "sha512-GTC5OBHtKJh4OQSf+1NIHbkEv+cFHpVZ4Ry5Bs8RpbSiCrBZf6sDBLcDQ8NrzgZc15dgq0G2RXrAp4jiQnh9zw==";
+        };
     in {
         "uCew6Ewt" = _uCew6Ewt;
         "zeQRfldL" = _zeQRfldL;
         "UqYmMtDe" = _UqYmMtDe;
         "vIrkdDme" = _vIrkdDme;
-        "fabric-1.21.1" = _vIrkdDme;
-        "neoforge-1.21.1" = _zeQRfldL;
+        "4W6LUxCW" = _4W6LUxCW;
+        "ws76HEwe" = _ws76HEwe;
+        "fabric-1.21.1" = _4W6LUxCW;
+        "neoforge-1.21.1" = _ws76HEwe;
         "neoforge-1.21.2" = _zeQRfldL;
         "neoforge-1.21.3" = _zeQRfldL;
         "neoforge-1.21.4" = _zeQRfldL;
@@ -41,7 +53,9 @@ let
         "pkg-1.0.0" = _uCew6Ewt;
         "pkg-1.0.1+1.21.1" = _UqYmMtDe;
         "pkg-1.0.2+1.21.1" = _vIrkdDme;
-        "default" = _vIrkdDme;
+        "pkg-1.1.0+1.21.1-fabric" = _4W6LUxCW;
+        "pkg-1.1.0+1.21.1-neoforge" = _ws76HEwe;
+        "default" = _ws76HEwe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblerods";

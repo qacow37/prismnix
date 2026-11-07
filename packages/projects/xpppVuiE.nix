@@ -141,6 +141,86 @@ let
             "file" = "throwabletorches-neoforge-26.1.2-1.1.0.jar";
             "hash" = "sha512-2dV7UwSa+G1dpwg4Sfyad5Y0gvkH9Ce1GIeQlFgWw69q7yiezx1fo0mb9xRWqZqBSOEcxizVMTF7QRAC2Zw9kA==";
         };
+        _ZnWNdLYh = {
+            "id" = "ZnWNdLYh";
+            "file" = "throwabletorches-fabric-1.19.2-1.1.1.jar";
+            "hash" = "sha512-29SwPCdT6zOOhTs0FughnsMMB+/4P5PcTqisBHtWn+aJ3BVAC3krOA360i9SM3kQaiioqjBHTlf9oeb9Ke+2Qw==";
+        };
+        _CkLCCpVg = {
+            "id" = "CkLCCpVg";
+            "file" = "throwabletorches-fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-cLY7JGE8u9Ffl5rDh/xYlI+KNK6TD8HxxFVXOVj53x7O5npmcfy3DzSX07As8f9fW3Cf42FnAOjSB6pxKzTjYw==";
+        };
+        _SwVdESEK = {
+            "id" = "SwVdESEK";
+            "file" = "throwabletorches-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-ZeJOHZflDd2ga21kY4vUQvusSU/2rImyfjJREx5HYXzzWaawK0K71RAsnEA1FGZAjARnLGltMt0yX3Foa7k9KA==";
+        };
+        _5hgPu35q = {
+            "id" = "5hgPu35q";
+            "file" = "throwabletorches-fabric-1.21.11-1.1.1.jar";
+            "hash" = "sha512-V2xpUh8EU05sPqtF6QgmUZ1odsSUBp6Jlo2XMO4WOsLetWnEBWNi5aPvh3fUYPd0yVOM+rFI/1w+JpUPwJcNJQ==";
+        };
+        _baABRGFq = {
+            "id" = "baABRGFq";
+            "file" = "throwabletorches-fabric-26.1.2-1.1.1.jar";
+            "hash" = "sha512-5vMWqpBcN1Q2HrrY+8IbTjhg67DXGWevBj2e1eXwMCXTOqkjyqMfnKbPOWAZx5h6wSTs/QUXcrS5TgXmkZzSvw==";
+        };
+        _rQc8t6JE = {
+            "id" = "rQc8t6JE";
+            "file" = "throwabletorches-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-SWZ7vMhOeho1pATbE9wKrDZjGSBiS5tRDIye9vlJGUOXechrSnObFWKXoSXMecMFBEkNXCitNGTvtOjZ/DmRNQ==";
+        };
+        _GIBVGMyF = {
+            "id" = "GIBVGMyF";
+            "file" = "throwabletorches-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-XaKZj4pFLBUxzdEAeNlEyXbMzQ5wJuWumKWLBcrynXpQJ5CnllxRUXWz/XR3uAjnDfx4MJ21uFhXoVOgvXmQsg==";
+        };
+        _8kMK0fPh = {
+            "id" = "8kMK0fPh";
+            "file" = "throwabletorches-forge-1.19.2-1.1.1.jar";
+            "hash" = "sha512-6NT4Ia1nKHYgNzaqdYrfrIf1v6RteH54mafrNu64h5SJKAFOQ1kMgmyVPEj3aDI0Ry9LUef5mV7a0IUksRaZyg==";
+        };
+        _Ulb5G7Qq = {
+            "id" = "Ulb5G7Qq";
+            "file" = "throwabletorches-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-oligNjx4Rh1XzfLsXB9Rppqvu5ura6z6v8XuCRgQE+eXxPkLfXl8gMoZyG5SdLLNkjZf/UMeNt0mInkFiyIXlA==";
+        };
+        _Orjkt30b = {
+            "id" = "Orjkt30b";
+            "file" = "throwabletorches-forge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-sCTKtms8j9WWb+U+4ppgnCVu+8lE2b040noEZJO4bFXXiaQtLc5xSjUT9meL52I8Bbk1x048sCIbEMdUsj+WAQ==";
+        };
+        _dmdOwWZG = {
+            "id" = "dmdOwWZG";
+            "file" = "throwabletorches-forge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-sbiyX5TmNhgQJ7JEnajxQ+zoWEhqdb/XT3jFz4/ewgkqcQn16nNmYhAKfZss0usH4YXJDskmGvsg8UaZ0YDpZw==";
+        };
+        _cQ91DeVr = {
+            "id" = "cQ91DeVr";
+            "file" = "throwabletorches-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-db2kdFhzoPOfc8ycQZAngSudWDAhDmzOoo8tYs1SlbvByWhMT/p/+inTvNMkEBR7PtskJqPhduCm1XZXAPp6Jg==";
+        };
+        _K9GiBJKT = {
+            "id" = "K9GiBJKT";
+            "file" = "throwabletorches-neoforge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-QM93gOG3pY9uVrTLbEkpMgPM80QIeBdSU7vJxPZJAraGIozlWKhJf7VUsgDHlsHYFqVk+Q7HRy9Ft1ryj+PTAA==";
+        };
+        _8g6WCJmx = {
+            "id" = "8g6WCJmx";
+            "file" = "throwabletorches-neoforge-26.1.2-1.1.1.jar";
+            "hash" = "sha512-teS6Sl6DxT4SyyVS+aTf5200iVNmZc7q8D2CnxBSh6RJ4oQLRHyBCY/Vvm36Iluy1SOdVuDRwhblUtefdKulAA==";
+        };
+        _ERXaoyls = {
+            "id" = "ERXaoyls";
+            "file" = "throwabletorches-neoforge-26.2-1.1.1.jar";
+            "hash" = "sha512-ZwzpPTQZlZB5nKWNUsdojF8fHs3pz3cNW/uwY5avI0XcQl+axJCf5LANDWm3xo0hdj3c6oqiWTOo8I4L9WYYKQ==";
+        };
+        _FjmJhVFT = {
+            "id" = "FjmJhVFT";
+            "file" = "throwabletorches-neoforge-26.3-1.1.1.jar";
+            "hash" = "sha512-GQll+R6UkWesrp+b5372/JVMFLWnwCrz/G8JvD49q7AS1xifPvB1QiqRyYkpknPBi6OTf8aaXVmaBYrCzDgNyQ==";
+        };
     in {
         "3BM69WcF" = _3BM69WcF;
         "YV1XnpeU" = _YV1XnpeU;
@@ -170,27 +250,44 @@ let
         "dekZj4pJ" = _dekZj4pJ;
         "Yrm31Zsa" = _Yrm31Zsa;
         "cvP09vn6" = _cvP09vn6;
-        "fabric-1.20.1" = _Kqg0ONcK;
-        "fabric-1.21.1" = _yhZLaPaj;
-        "fabric-1.21.11" = _1tmgKUft;
-        "fabric-26.1.2" = _Yrm31Zsa;
+        "ZnWNdLYh" = _ZnWNdLYh;
+        "CkLCCpVg" = _CkLCCpVg;
+        "SwVdESEK" = _SwVdESEK;
+        "5hgPu35q" = _5hgPu35q;
+        "baABRGFq" = _baABRGFq;
+        "rQc8t6JE" = _rQc8t6JE;
+        "GIBVGMyF" = _GIBVGMyF;
+        "8kMK0fPh" = _8kMK0fPh;
+        "Ulb5G7Qq" = _Ulb5G7Qq;
+        "Orjkt30b" = _Orjkt30b;
+        "dmdOwWZG" = _dmdOwWZG;
+        "cQ91DeVr" = _cQ91DeVr;
+        "K9GiBJKT" = _K9GiBJKT;
+        "8g6WCJmx" = _8g6WCJmx;
+        "ERXaoyls" = _ERXaoyls;
+        "FjmJhVFT" = _FjmJhVFT;
+        "fabric-1.20.1" = _CkLCCpVg;
+        "fabric-1.21.1" = _SwVdESEK;
+        "fabric-1.21.11" = _5hgPu35q;
+        "fabric-26.1.2" = _baABRGFq;
         "fabric-26.1" = _Zat1S50L;
-        "fabric-26.2" = _ctAymU9U;
-        "fabric-1.19.2" = _DRqmX1eI;
-        "fabric-26.3" = _YX6lABmK;
-        "forge-1.20.1" = _DuLNC1GN;
-        "forge-1.19.2" = _fXrUgxDd;
-        "forge-1.21.1" = _y6ILl7Aj;
-        "forge-1.21.11" = _CUBUZ5qE;
-        "neoforge-1.21.1" = _C5qYTW4c;
-        "neoforge-1.21.11" = _1DrGZAe6;
-        "neoforge-26.1.2" = _cvP09vn6;
+        "fabric-26.2" = _rQc8t6JE;
+        "fabric-1.19.2" = _ZnWNdLYh;
+        "fabric-26.3" = _GIBVGMyF;
+        "forge-1.20.1" = _Ulb5G7Qq;
+        "forge-1.19.2" = _8kMK0fPh;
+        "forge-1.21.1" = _Orjkt30b;
+        "forge-1.21.11" = _dmdOwWZG;
+        "neoforge-1.21.1" = _cQ91DeVr;
+        "neoforge-1.21.11" = _K9GiBJKT;
+        "neoforge-26.1.2" = _8g6WCJmx;
         "neoforge-26.1" = _FuWfEhb2;
-        "neoforge-26.2" = _enCZepef;
-        "neoforge-26.3" = _dekZj4pJ;
+        "neoforge-26.2" = _ERXaoyls;
+        "neoforge-26.3" = _FjmJhVFT;
         "pkg-1.0.0" = _B5PcxFwN;
         "pkg-1.1.0" = _cvP09vn6;
-        "default" = _cvP09vn6;
+        "pkg-1.1.1" = _FjmJhVFT;
+        "default" = _FjmJhVFT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "throwabletorches";

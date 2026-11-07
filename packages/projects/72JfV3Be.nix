@@ -951,6 +951,21 @@ let
             "file" = "insanesurvivaloverhaul-5.14.2.2.jar";
             "hash" = "sha512-+5839poXKRd/bG6ev3qKb0k6f/gueqpgQgAaZOqHVYCFLEfupsx1h61gSPGpYTWPH7K9+6ihZkXWi5OYRXahOg==";
         };
+        _28kDorZK = {
+            "id" = "28kDorZK";
+            "file" = "insanesurvivaloverhaul-5.14.3.0.jar";
+            "hash" = "sha512-SJR2Qj8/sqZyp85z6GZ4EJtF/prcLd2ndllX7h9AhyQDxGXBuX+8kMuFZowEKlAgStZcOUPgzrMN8N2n+AuFhQ==";
+        };
+        _D1lE84tG = {
+            "id" = "D1lE84tG";
+            "file" = "insanesurvivaloverhaul-5.14.3.1.jar";
+            "hash" = "sha512-7/2+1LDNdd233It+W8FpvRKUwA5IXZEi0TRf75aNZB6BgBHdOJYb9TX8sWltROyc2e9zll4J1OKUhHiZVPaHjQ==";
+        };
+        _JkpgJwwf = {
+            "id" = "JkpgJwwf";
+            "file" = "insanesurvivaloverhaul-5.14.4.0.jar";
+            "hash" = "sha512-ITrspWdyL+kdD08s8AVsbxe31sGztYnduRetIda7vmXfcglN8xiY0N28qVGlTbfxnH52wG+Ar939VRejHkJjcQ==";
+        };
     in {
         "SzffhwC1" = _SzffhwC1;
         "pfzWiFvb" = _pfzWiFvb;
@@ -1142,13 +1157,16 @@ let
         "88RfLGYI" = _88RfLGYI;
         "ZAiQOq6J" = _ZAiQOq6J;
         "s3fiPVvT" = _s3fiPVvT;
+        "28kDorZK" = _28kDorZK;
+        "D1lE84tG" = _D1lE84tG;
+        "JkpgJwwf" = _JkpgJwwf;
         "forge-1.18.2" = _SzffhwC1;
         "forge-1.19.4" = _pfzWiFvb;
         "forge-1.20.1" = _VbQyyeJv;
         "forge-1.19.2" = _kpc80kKK;
         "forge-1.12.2" = _MCHmu8jt;
         "neoforge-1.20.1" = _WelTMcOS;
-        "neoforge-1.21.1" = _s3fiPVvT;
+        "neoforge-1.21.1" = _JkpgJwwf;
         "pkg-2.12.12" = _SzffhwC1;
         "pkg-2.15.0" = _pfzWiFvb;
         "pkg-3.7.1" = _PPvtsUVs;
@@ -1333,7 +1351,10 @@ let
         "pkg-5.14.2.0" = _88RfLGYI;
         "pkg-5.14.2.1" = _ZAiQOq6J;
         "pkg-5.14.2.2" = _s3fiPVvT;
-        "default" = _s3fiPVvT;
+        "pkg-5.14.3.0" = _28kDorZK;
+        "pkg-5.14.3.1" = _D1lE84tG;
+        "pkg-5.14.4.0" = _JkpgJwwf;
+        "default" = _JkpgJwwf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iguanatweaks-reborn";

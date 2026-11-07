@@ -151,6 +151,26 @@ let
             "file" = "tacz-1.20.1-1.1.8-hotfix2.jar";
             "hash" = "sha512-+otL1Kegg1CSvMuyihhGFkLU56L2/bdirEl41NvDHR8PYcaFNDphYH3OPRzYn0MUthqfiBGWC50GBGkqw//5bQ==";
         };
+        _QGCbNkTy = {
+            "id" = "QGCbNkTy";
+            "file" = "tacz-forge-1.20.1-1.2.0.jar";
+            "hash" = "sha512-d4TdED+6pdJqYTCuanFqGQn5PBJv0iYZOyHew4+MNFsAROnjkqGqZzfkaKNGt+ldw4o+dvIuyvN870OK5Xh0wQ==";
+        };
+        _O2Pfsh6w = {
+            "id" = "O2Pfsh6w";
+            "file" = "tacz-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-j1TQtiAEDNRFEynuYvorLt4VMiDYWoci75/+bjG5qu/586Vam8kt8p8Xaep1GlDTYRATnqzICahNXKQYb9zEYQ==";
+        };
+        _YRMiwS2O = {
+            "id" = "YRMiwS2O";
+            "file" = "tacz-1.18.2-1.1.4-hotfix2.jar";
+            "hash" = "sha512-HMJkNFDjjaUAPWlcUITY2N8bjkYuecAVRDYyX/hhenNwpB/nK4PzMgpXMcr+iWr4BpBdvOpBStJvEOiycAXomQ==";
+        };
+        _OwAKV8JE = {
+            "id" = "OwAKV8JE";
+            "file" = "tacz-1.19.2-1.1.4-hotfix2.jar";
+            "hash" = "sha512-odxd5zLPIoQRPk05ZMO2jz9ZOcDLX8/7mTk15CFrelEKX5HHpmcwdX/4KtvovmI/DaE2vzra8zBkWSD2j6T3Dw==";
+        };
     in {
         "ziN9m4CV" = _ziN9m4CV;
         "E6fkRpvN" = _E6fkRpvN;
@@ -182,12 +202,17 @@ let
         "C2pCZ5ht" = _C2pCZ5ht;
         "yOVIzIJR" = _yOVIzIJR;
         "AzCBJlex" = _AzCBJlex;
+        "QGCbNkTy" = _QGCbNkTy;
+        "O2Pfsh6w" = _O2Pfsh6w;
+        "YRMiwS2O" = _YRMiwS2O;
+        "OwAKV8JE" = _OwAKV8JE;
         "forge-1.20" = _CkNQpQcx;
-        "forge-1.20.1" = _AzCBJlex;
-        "forge-1.18.2" = _XELsjBdz;
-        "forge-1.19" = _zuX7UjoK;
-        "forge-1.19.1" = _zuX7UjoK;
-        "forge-1.19.2" = _zuX7UjoK;
+        "forge-1.20.1" = _QGCbNkTy;
+        "forge-1.18.2" = _YRMiwS2O;
+        "forge-1.19" = _OwAKV8JE;
+        "forge-1.19.1" = _OwAKV8JE;
+        "forge-1.19.2" = _OwAKV8JE;
+        "neoforge-1.21.1" = _O2Pfsh6w;
         "pkg-1.0.0" = _tdWBVZHq;
         "pkg-1.0.0-hotfix" = _E6fkRpvN;
         "pkg-1.0.0-hotfix2" = _Y4cF2dUR;
@@ -208,7 +233,9 @@ let
         "pkg-1.1.8" = _C2pCZ5ht;
         "pkg-1.1.8-hotfix" = _yOVIzIJR;
         "pkg-1.1.8-hotfix2" = _AzCBJlex;
-        "default" = _AzCBJlex;
+        "pkg-1.2.0" = _O2Pfsh6w;
+        "pkg-1.1.4-hotfix2" = _OwAKV8JE;
+        "default" = _OwAKV8JE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timeless-and-classics-zero";

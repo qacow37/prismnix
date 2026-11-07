@@ -14581,6 +14581,16 @@ let
             "file" = "XaeroPlus-2.37.2+neoforge-1.21.11-WM1.47.2-MM26.6.2.jar";
             "hash" = "sha512-FgPurlWtVzxehPVmP2arwrUrkEylZYsxKZuq+Ys5By+ESprcpZhBjiP3csXGcjrwmDNvrpIYLbdTQJJvmr6UeQ==";
         };
+        _uDO6OAGS = {
+            "id" = "uDO6OAGS";
+            "file" = "XaeroPlus-2.37.2+neoforge-26.1.2-WM1.47.2-MM26.6.2.jar";
+            "hash" = "sha512-45y+8fWAO8dYtKjceZW6mXe/UQdTR1tbsAaNHYCNx44n6VirMSZZeV34TmROw3ONdiXUBREIWZ3/z6Qm6CxQNw==";
+        };
+        _c0PzVATc = {
+            "id" = "c0PzVATc";
+            "file" = "XaeroPlus-2.37.2+neoforge-1.21.8-WM1.47.0-MM26.6.0.jar";
+            "hash" = "sha512-I3WniDujf1Ubeep6S5Z8BKW1vWu55uYQpAxjGqdjOikZ/Xz5ubxzGlgkpUaZE6eNGdMB9WWPkVRe5yffFmChxA==";
+        };
     in {
         "AVDEUIE3" = _AVDEUIE3;
         "TNlTjTzu" = _TNlTjTzu;
@@ -17498,6 +17508,8 @@ let
         "2ARFIYEz" = _2ARFIYEz;
         "qAsTFKof" = _qAsTFKof;
         "9jO5H1Qg" = _9jO5H1Qg;
+        "uDO6OAGS" = _uDO6OAGS;
+        "c0PzVATc" = _c0PzVATc;
         "forge-1.12.2" = _v2fUhgIf;
         "forge-1.20.1" = _8Ge2TtjV;
         "forge-1.20.2" = _ngSAXfyJ;
@@ -17582,13 +17594,13 @@ let
         "neoforge-1.21.5" = _TOGZ7Nvz;
         "neoforge-1.21.6" = _RrIxdkd5;
         "neoforge-1.21.7" = _rtt7nuzd;
-        "neoforge-1.21.8" = _pI9iwEHG;
+        "neoforge-1.21.8" = _c0PzVATc;
         "neoforge-1.19.4" = _5svIOaT4;
         "neoforge-1.19.2" = _FIAvcysG;
         "neoforge-1.21.9" = _TgB80vMC;
         "neoforge-1.21.10" = _TgB80vMC;
         "neoforge-1.21.11" = _9jO5H1Qg;
-        "neoforge-26.1.2" = _9gyE7sFn;
+        "neoforge-26.1.2" = _uDO6OAGS;
         "neoforge-26.2" = _VQSL16lG;
         "neoforge-26.3" = _xeup30QC;
         "pkg-99" = _AVDEUIE3;
@@ -20322,7 +20334,9 @@ let
         "pkg-2.37.2+fabric-1.21.11" = _2ARFIYEz;
         "pkg-2.37.2+forge-1.21.11" = _qAsTFKof;
         "pkg-2.37.2+neoforge-1.21.11" = _9jO5H1Qg;
-        "default" = _9jO5H1Qg;
+        "pkg-2.37.2+neoforge-26.1.2" = _uDO6OAGS;
+        "pkg-2.37.2+neoforge-1.21.8" = _c0PzVATc;
+        "default" = _c0PzVATc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaeroplus";

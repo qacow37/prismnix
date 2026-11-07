@@ -146,6 +146,11 @@ let
             "file" = "visual_item_edit-2.0.0.0-neoforge-1.21.1.jar";
             "hash" = "sha512-y8j6wPCahWdZ+39sY2tbwTKSGnE+e+ZIBv64Gei8w1gqX5JuNwjrV/4VEvfWOhpJBuqaAt3IT5IisEibxN7pvQ==";
         };
+        _iBlueQKn = {
+            "id" = "iBlueQKn";
+            "file" = "visual_item_edit-2.0.0.0-neoforge-1.21.4.jar";
+            "hash" = "sha512-Yagn8+FHSZfkEo37rjPhxLutIMRcSbYhJffLq6hw94vKCmGAMFhNfqIsaHiphNcuDv7G72/uWvlGHtgoR2JEFg==";
+        };
     in {
         "DuxOab7P" = _DuxOab7P;
         "NIosYAKX" = _NIosYAKX;
@@ -176,10 +181,11 @@ let
         "hZC4Nc5T" = _hZC4Nc5T;
         "GhA0KsXG" = _GhA0KsXG;
         "nxe0i9Yx" = _nxe0i9Yx;
+        "iBlueQKn" = _iBlueQKn;
         "neoforge-1.21.1" = _nxe0i9Yx;
         "neoforge-1.21.2" = _qiWIRjvJ;
         "neoforge-1.21.3" = _qiWIRjvJ;
-        "neoforge-1.21.4" = _NHvLvgGx;
+        "neoforge-1.21.4" = _iBlueQKn;
         "neoforge-1.21.5" = _PITLKC5h;
         "neoforge-1.21.6" = _iyeHnHoK;
         "neoforge-1.21.7" = _ZpU2cu8D;
@@ -221,7 +227,8 @@ let
         "pkg-2.0.0.1-forge-1.20.1" = _hZC4Nc5T;
         "pkg-2.0.0.2-forge-1.20.1" = _GhA0KsXG;
         "pkg-2.0.0.0-neoforge-1.21.1" = _nxe0i9Yx;
-        "default" = _nxe0i9Yx;
+        "pkg-2.0.0.0-neoforge-1.21.4" = _iBlueQKn;
+        "default" = _iBlueQKn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-item-edit";

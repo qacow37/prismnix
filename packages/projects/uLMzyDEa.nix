@@ -86,6 +86,11 @@ let
             "file" = "arch_mc-1.0.7.1-neoforge-26.1.2.jar";
             "hash" = "sha512-se6CYGuOt351Be86nLor5Wd3o4NId0ErYShcK+4rgCTadxyHh9REWohKT75RjI0ntHglbof9PE/zsDqhx+At6w==";
         };
+        _T0o4DjRy = {
+            "id" = "T0o4DjRy";
+            "file" = "arch_mc-1.0.7.2-neoforge-26.1.2.jar";
+            "hash" = "sha512-SjCDUNmP/nRl1uZwfWsyOlbxbwUxFMzgtnUIR0S4KFXAHD51j6HV8Np63EY/jKu9Q1MiyQq5Z9/4bLHFPxsG/g==";
+        };
     in {
         "xNgwI3tF" = _xNgwI3tF;
         "RbHBEnfm" = _RbHBEnfm;
@@ -104,9 +109,10 @@ let
         "WMKgRQ9L" = _WMKgRQ9L;
         "bYPVo6UA" = _bYPVo6UA;
         "KOeFbeHM" = _KOeFbeHM;
+        "T0o4DjRy" = _T0o4DjRy;
         "forge-1.20.1" = _7wM7Lnyr;
         "neoforge-1.21.1" = _WMKgRQ9L;
-        "neoforge-26.1.2" = _KOeFbeHM;
+        "neoforge-26.1.2" = _T0o4DjRy;
         "pkg-1.0.0" = _RbHBEnfm;
         "pkg-1.0.1" = _rrj3Aixx;
         "pkg-1.0.2" = _7WkBJUpt;
@@ -121,7 +127,8 @@ let
         "pkg-1.0.6.1" = _WMKgRQ9L;
         "pkg-1.0.7" = _bYPVo6UA;
         "pkg-1.0.7.1" = _KOeFbeHM;
-        "default" = _KOeFbeHM;
+        "pkg-1.0.7.2" = _T0o4DjRy;
+        "default" = _T0o4DjRy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arch_mc";

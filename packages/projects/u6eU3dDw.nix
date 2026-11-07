@@ -81,6 +81,16 @@ let
             "file" = "UltimateBliss-5.7.0-26.x.jar";
             "hash" = "sha512-T3GvUkgXZ0B6sAm4wuSbvQIBsE4MS6bEaynBY7Nq6y3B63bYP+kqz+w2nuhM1+TzmtlrIHb2em27QQF8eKMkGA==";
         };
+        _r7XJBkPY = {
+            "id" = "r7XJBkPY";
+            "file" = "UltimateBliss-5.8.0.jar";
+            "hash" = "sha512-kQdtsPa0EA25XgILLhsJ5dA1F/+hFtI8CAwueTgzBTFwbJAUZQJdJGUf7OldFruFbWAWZlbY/buXHgoY0CTNGQ==";
+        };
+        _5Hu4D0iD = {
+            "id" = "5Hu4D0iD";
+            "file" = "UltimateBliss-5.8.0-26.x.jar";
+            "hash" = "sha512-HS4xCUtaYgQkIapMWR967+ABVSHJ9eM2EBJcTH5AL2pRYFktMx7DE3LB3I13dkvrSq2v4LdMEkBtLsOFn9AfBw==";
+        };
     in {
         "dhZSVKW1" = _dhZSVKW1;
         "UBIEHQL6" = _UBIEHQL6;
@@ -98,22 +108,25 @@ let
         "FHislscs" = _FHislscs;
         "jnjzOeCc" = _jnjzOeCc;
         "TNhL83EU" = _TNhL83EU;
-        "paper-1.21.1" = _jnjzOeCc;
-        "paper-1.21.2" = _jnjzOeCc;
-        "paper-1.21.3" = _jnjzOeCc;
-        "paper-1.21.4" = _jnjzOeCc;
-        "paper-1.21.5" = _jnjzOeCc;
-        "paper-1.21.6" = _jnjzOeCc;
-        "paper-1.21.7" = _jnjzOeCc;
-        "paper-1.21.8" = _jnjzOeCc;
-        "paper-1.21" = _jnjzOeCc;
-        "paper-1.21.9" = _jnjzOeCc;
-        "paper-1.21.10" = _jnjzOeCc;
-        "paper-1.21.11" = _jnjzOeCc;
-        "paper-26.1" = _TNhL83EU;
-        "paper-26.1.1" = _TNhL83EU;
-        "paper-26.1.2" = _TNhL83EU;
-        "paper-26.2" = _TNhL83EU;
+        "r7XJBkPY" = _r7XJBkPY;
+        "5Hu4D0iD" = _5Hu4D0iD;
+        "paper-1.21.1" = _r7XJBkPY;
+        "paper-1.21.2" = _r7XJBkPY;
+        "paper-1.21.3" = _r7XJBkPY;
+        "paper-1.21.4" = _r7XJBkPY;
+        "paper-1.21.5" = _r7XJBkPY;
+        "paper-1.21.6" = _r7XJBkPY;
+        "paper-1.21.7" = _r7XJBkPY;
+        "paper-1.21.8" = _r7XJBkPY;
+        "paper-1.21" = _r7XJBkPY;
+        "paper-1.21.9" = _r7XJBkPY;
+        "paper-1.21.10" = _r7XJBkPY;
+        "paper-1.21.11" = _r7XJBkPY;
+        "paper-26.1" = _5Hu4D0iD;
+        "paper-26.1.1" = _5Hu4D0iD;
+        "paper-26.1.2" = _5Hu4D0iD;
+        "paper-26.2" = _5Hu4D0iD;
+        "paper-26.3" = _5Hu4D0iD;
         "pkg-1.0.0" = _dhZSVKW1;
         "pkg-1.1.0" = _UBIEHQL6;
         "pkg-1.2.0" = _JqfsnQyF;
@@ -127,7 +140,8 @@ let
         "pkg-5.5.0" = _4YSM6UQz;
         "pkg-5.6.0" = _FHislscs;
         "pkg-5.7.0" = _TNhL83EU;
-        "default" = _TNhL83EU;
+        "pkg-5.8.0" = _5Hu4D0iD;
+        "default" = _5Hu4D0iD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimateblisssmp";

@@ -61,6 +61,11 @@ let
             "file" = "Mizuno's Cow Variant x FA 3.2.zip";
             "hash" = "sha512-moY0xCqYINBt/5Lxreq8Ddclu4/gzFloKZK/z1z4rxwwzQH6CtegOBY8gAo4pN/b/9dg76By6zNocZmBZ3om6Q==";
         };
+        _K7waYez1 = {
+            "id" = "K7waYez1";
+            "file" = "Mizuno's Cow Variant x FA 3.3.zip";
+            "hash" = "sha512-NEUg6vGhVOZl0wgCukuwvDK7zfeYtJTYAHyQV3jyVvZNNo1EEZaH9mA/1LALqRGO1XJlPMCBSRu4/DOJElhHkA==";
+        };
     in {
         "lz4aoBNZ" = _lz4aoBNZ;
         "DLi2GYjY" = _DLi2GYjY;
@@ -74,6 +79,7 @@ let
         "O87KYnQV" = _O87KYnQV;
         "yobnt0oJ" = _yobnt0oJ;
         "CvDrryoO" = _CvDrryoO;
+        "K7waYez1" = _K7waYez1;
         "minecraft-1.20" = _mWpltsO6;
         "minecraft-1.20.1" = _mWpltsO6;
         "minecraft-1.20.2" = _mWpltsO6;
@@ -93,10 +99,11 @@ let
         "minecraft-1.21.9" = _O87KYnQV;
         "minecraft-1.21.10" = _O87KYnQV;
         "minecraft-1.21.11" = _O87KYnQV;
-        "minecraft-26.1" = _CvDrryoO;
-        "minecraft-26.1.1" = _CvDrryoO;
-        "minecraft-26.1.2" = _CvDrryoO;
-        "minecraft-26.2" = _CvDrryoO;
+        "minecraft-26.1" = _K7waYez1;
+        "minecraft-26.1.1" = _K7waYez1;
+        "minecraft-26.1.2" = _K7waYez1;
+        "minecraft-26.2" = _K7waYez1;
+        "minecraft-26.3" = _K7waYez1;
         "pkg-1.0" = _ZnIv8TXm;
         "pkg-2.0" = _YrB0cp5w;
         "pkg-2.1" = _Vth3yilr;
@@ -104,7 +111,8 @@ let
         "pkg-3.0" = _No6iD7c8;
         "pkg-3.1" = _yobnt0oJ;
         "pkg-3.2" = _CvDrryoO;
-        "default" = _CvDrryoO;
+        "pkg-3.3" = _K7waYez1;
+        "default" = _K7waYez1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mizunos-cow-variants-x-fa";

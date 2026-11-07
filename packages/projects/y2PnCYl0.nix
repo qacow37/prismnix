@@ -56,6 +56,11 @@ let
             "file" = "ForgeClientResetPacket-0.4.0-1.21.6-1.21.11.jar";
             "hash" = "sha512-81d7r4U1FJ5Ewxy7NcaTAc4j72EyZXcM5WZQCLmAtIS82gJLNOMEkZ+V//GQNq1aldCald8IPMy65wLokqGuSA==";
         };
+        _1lVsa2Qp = {
+            "id" = "1lVsa2Qp";
+            "file" = "ForgeClientResetPacket-0.1.2.jar";
+            "hash" = "sha512-p47CBN6YcQg9bannM92+4bCI3KAQGEtwL2veBDbiiy1sdlykQm8qKg4jpD2GXsF+UQbcVP+JSKTezPWjaQPOOg==";
+        };
     in {
         "vEsWnp3G" = _vEsWnp3G;
         "Bxt02TTG" = _Bxt02TTG;
@@ -68,10 +73,11 @@ let
         "HOZlImUM" = _HOZlImUM;
         "fLXPz8gh" = _fLXPz8gh;
         "PNDXYoWT" = _PNDXYoWT;
+        "1lVsa2Qp" = _1lVsa2Qp;
         "forge-1.19.2" = _vEsWnp3G;
         "forge-1.18" = _Bxt02TTG;
         "forge-1.18.1" = _Bxt02TTG;
-        "forge-1.18.2" = _Bxt02TTG;
+        "forge-1.18.2" = _1lVsa2Qp;
         "forge-1.20" = _L1GOosbO;
         "forge-1.20.1" = _L1GOosbO;
         "forge-1.19.3" = _AppaxTzD;
@@ -103,7 +109,8 @@ let
         "pkg-0.4.0+1.20.6-1.21.1" = _HOZlImUM;
         "pkg-0.4.0+1.21.2-1.21.5" = _fLXPz8gh;
         "pkg-0.4.0+1.21.6-1.21.11" = _PNDXYoWT;
-        "default" = _PNDXYoWT;
+        "pkg-0.1.2+1.18.2" = _1lVsa2Qp;
+        "default" = _1lVsa2Qp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forward-forge-client-reset-packet";

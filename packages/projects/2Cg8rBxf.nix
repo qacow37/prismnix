@@ -46,6 +46,11 @@ let
             "file" = "origins-legacy-classes-1.7.2+26.2.jar";
             "hash" = "sha512-IUjGl1O6Vd9u1V33FMfcWKjM70TEXRAh+G+6Z/G4uXJyeEpW0osj7qov37YPwh095vLNi6sDYlqGGvIBJRfQsw==";
         };
+        _75D4ZQ7Y = {
+            "id" = "75D4ZQ7Y";
+            "file" = "origins-legacy-classes-1.7.2+26.3.jar";
+            "hash" = "sha512-I0mNcHOH7BkfbJliFn23e6FIQ511OhxN5ZpVxqXAl6tM5PxerUq2+uxs+LWeMXUQAfc9yeIFgjsxiRG0VEw/ZA==";
+        };
     in {
         "huAXviya" = _huAXviya;
         "75dNtYDf" = _75dNtYDf;
@@ -56,12 +61,14 @@ let
         "JQHk76XX" = _JQHk76XX;
         "vE1dAwJu" = _vE1dAwJu;
         "VT1Do4vj" = _VT1Do4vj;
+        "75D4ZQ7Y" = _75D4ZQ7Y;
         "fabric-1.21.1" = _ZVubIPiE;
         "fabric-1.21.11" = _JQHk76XX;
         "fabric-26.1" = _vE1dAwJu;
         "fabric-26.1.1" = _vE1dAwJu;
         "fabric-26.1.2" = _vE1dAwJu;
         "fabric-26.2" = _VT1Do4vj;
+        "fabric-26.3" = _75D4ZQ7Y;
         "pkg-1.7.0+1.21.1" = _huAXviya;
         "pkg-1.7.0+1.21.11" = _75dNtYDf;
         "pkg-1.7.1+1.21.1" = _Upqt9NBE;
@@ -71,7 +78,8 @@ let
         "pkg-1.7.2+1.21.11" = _JQHk76XX;
         "pkg-1.7.2+26.1.x" = _vE1dAwJu;
         "pkg-1.7.2+26.2" = _VT1Do4vj;
-        "default" = _VT1Do4vj;
+        "pkg-1.7.2+26.3" = _75D4ZQ7Y;
+        "default" = _75D4ZQ7Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-legacy-classes";

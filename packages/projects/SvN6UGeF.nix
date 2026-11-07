@@ -326,6 +326,46 @@ let
             "file" = "immersive_furniture-forge-0.3.4+1.20.1.jar";
             "hash" = "sha512-xRuPTyJDQQMnpQ1ct+NEeYSfQIcIsQdajDhoXb0WFbRck6+mYAfUjobRwFy6xw608oGbHRoF55CBshXb6zPHQQ==";
         };
+        _l7gCeFsK = {
+            "id" = "l7gCeFsK";
+            "file" = "immersive_furniture-fabric-0.4.0+1.21.1.jar";
+            "hash" = "sha512-lgEpkmhZQBstu9Nbs0XtBzUiIROxSzhPFp+9jzW93JxAlK0/MU3RMAbhDQvIftf+ynj8wCxgz4B3DcgLmxnUgw==";
+        };
+        _rHWN1zYI = {
+            "id" = "rHWN1zYI";
+            "file" = "immersive_furniture-neoforge-0.4.0+1.21.1.jar";
+            "hash" = "sha512-1ZlyOICaRx0zoNZtHTQIq8QcloJmODhW5ZceMFpeplYz0XR+0zUiOdS1LWxb7oxnEznRArnznmQC+DSCkYT5ng==";
+        };
+        _npbucSkH = {
+            "id" = "npbucSkH";
+            "file" = "immersive_furniture-fabric-0.4.0+1.20.1.jar";
+            "hash" = "sha512-jt5Zg/AtySDo8lalIcKOXZf5QXkYmGb/OY3L+cW09kMe1Rl9lJAQSsjGmryXVSkYA+DCdfJF3a9rr+QXAdHvvw==";
+        };
+        _D9L4rKKj = {
+            "id" = "D9L4rKKj";
+            "file" = "immersive_furniture-forge-0.4.0+1.20.1.jar";
+            "hash" = "sha512-mtINmZH9ARE3AhsWBR4hEXHtUskom5m2kQ8r15keETs+TAoRLYu7G2sn0U5e0ku63Iqx3KPYHVnrLZm34CdiIg==";
+        };
+        _oOTNLtJU = {
+            "id" = "oOTNLtJU";
+            "file" = "immersive_furniture-fabric-0.4.1+1.21.1.jar";
+            "hash" = "sha512-NM3Zz85oYaXD7cjet57gXi1pVc1VeiS9lG2bnaUof/vVq5HGQkgINjeXB8cWkOeWcRtIQWCEix9yG9H9Dx5NQQ==";
+        };
+        _oa8FVOtg = {
+            "id" = "oa8FVOtg";
+            "file" = "immersive_furniture-neoforge-0.4.1+1.21.1.jar";
+            "hash" = "sha512-qIohGpejF8nbOf2UGbI7dxvxRxDwnOzlE/Y+GwK+sAE97Qvwsd31T/CtPl6Y2gJ3v+2bga7jqDR8VjHMzZ150A==";
+        };
+        _lyFuGwuO = {
+            "id" = "lyFuGwuO";
+            "file" = "immersive_furniture-fabric-0.4.1+1.20.1.jar";
+            "hash" = "sha512-vlVqzeIepFqUbJLQZmaqxNcM/sQQgxeOWVKWcliNwdDjFLhpOfOAOZd4gC4l65mcYfJus102xi+JzMfDXyLwuA==";
+        };
+        _WeSSTHGa = {
+            "id" = "WeSSTHGa";
+            "file" = "immersive_furniture-forge-0.4.1+1.20.1.jar";
+            "hash" = "sha512-RS0a/pvWGITCZeAAftzZamfq8fezeBNC4IcZnIS7QIbWiash55CfJxY6hReN11MUkQ8cndCmXzhT7tkGbXcpnA==";
+        };
     in {
         "DW47JEJS" = _DW47JEJS;
         "E1KpbHha" = _E1KpbHha;
@@ -392,10 +432,18 @@ let
         "PQeXT1hV" = _PQeXT1hV;
         "ZG65Jr5g" = _ZG65Jr5g;
         "tZClEarM" = _tZClEarM;
-        "fabric-1.20.1" = _ZG65Jr5g;
-        "fabric-1.21.1" = _nSkeuaqL;
-        "forge-1.20.1" = _tZClEarM;
-        "neoforge-1.21.1" = _PQeXT1hV;
+        "l7gCeFsK" = _l7gCeFsK;
+        "rHWN1zYI" = _rHWN1zYI;
+        "npbucSkH" = _npbucSkH;
+        "D9L4rKKj" = _D9L4rKKj;
+        "oOTNLtJU" = _oOTNLtJU;
+        "oa8FVOtg" = _oa8FVOtg;
+        "lyFuGwuO" = _lyFuGwuO;
+        "WeSSTHGa" = _WeSSTHGa;
+        "fabric-1.20.1" = _lyFuGwuO;
+        "fabric-1.21.1" = _oOTNLtJU;
+        "forge-1.20.1" = _WeSSTHGa;
+        "neoforge-1.21.1" = _oa8FVOtg;
         "pkg-0.0.1+1.20.1" = _E1KpbHha;
         "pkg-0.0.2+1.20.1" = _RUazcUTl;
         "pkg-0.0.3+1.20.1" = _xC8uxk6M;
@@ -428,7 +476,11 @@ let
         "pkg-0.3.3+1.20.1" = _ucG6uaRA;
         "pkg-0.3.4+1.21.1" = _PQeXT1hV;
         "pkg-0.3.4+1.20.1" = _tZClEarM;
-        "default" = _tZClEarM;
+        "pkg-0.4.0+1.21.1" = _rHWN1zYI;
+        "pkg-0.4.0+1.20.1" = _D9L4rKKj;
+        "pkg-0.4.1+1.21.1" = _oa8FVOtg;
+        "pkg-0.4.1+1.20.1" = _WeSSTHGa;
+        "default" = _WeSSTHGa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-furniture";

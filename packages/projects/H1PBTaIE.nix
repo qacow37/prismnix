@@ -236,6 +236,11 @@ let
             "file" = "useless_upgrade_template-neoforge-26.2-1.0.1.jar";
             "hash" = "sha512-EYr1N6QdTu0CYC9qx9lXX2DSqtW9bXX44y31vYZhnjuLcUxqkhZDYyMSW0m2y5Y7NI0Yc52UuXrsvwR6X72G8g==";
         };
+        _5RKLAuzO = {
+            "id" = "5RKLAuzO";
+            "file" = "useless_upgrade_template-1.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-s8/ATwYzVUqWlzh1Fd5MJ1NiqNZ9dJs5Mz8J199Q5GooCkHi7jGjglUc090adtzLPU1IRbepP/Zxd17tzoQcTQ==";
+        };
     in {
         "Aum9nuda" = _Aum9nuda;
         "NtBm6qkH" = _NtBm6qkH;
@@ -284,7 +289,8 @@ let
         "HJ4iRnAV" = _HJ4iRnAV;
         "IBnBqGkP" = _IBnBqGkP;
         "T1FTXA11" = _T1FTXA11;
-        "forge-1.20.1" = _Aum9nuda;
+        "5RKLAuzO" = _5RKLAuzO;
+        "forge-1.20.1" = _5RKLAuzO;
         "forge-1.21.11" = _GXYemvtO;
         "forge-26.1" = _bNIzuSc9;
         "forge-26.1.1" = _bNIzuSc9;
@@ -595,7 +601,8 @@ let
         "pkg-1.0.3r-farbic" = _HJ4iRnAV;
         "pkg-1.0.3r-neoforge" = _IBnBqGkP;
         "pkg-1.0.1-neoforge-hotfix" = _T1FTXA11;
-        "default" = _T1FTXA11;
+        "pkg-1.0.0-forge-1.20.1-hotfix" = _5RKLAuzO;
+        "default" = _5RKLAuzO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uselessupgradetemplate";

@@ -26,20 +26,27 @@ let
             "file" = "BattleCorrection-1.12.2-1.3.0.jar";
             "hash" = "sha512-jEewm0i79dt8V02CAfUQWQp+BZdn0u/VvONgoDwj+ec/eRKbyjM9nrXImyoZ+1XF1iwemxREfUlwt5KQWbmwgQ==";
         };
+        _ZZEq7uvQ = {
+            "id" = "ZZEq7uvQ";
+            "file" = "BattleCorrection-neoforge-1.21.1-3.0.0.jar";
+            "hash" = "sha512-xM2+JEWlsDTh0yki6TVwkCJadhmnY+iQqVejryuwNi0BqdnP7YVJnTjFIlbazGdgj83nwU6ss2fb6TW+QRGs8Q==";
+        };
     in {
         "2uLavQ2s" = _2uLavQ2s;
         "zZGA35EZ" = _zZGA35EZ;
         "rJ3Sc9Or" = _rJ3Sc9Or;
         "W5FwgCig" = _W5FwgCig;
         "wpzb7Xix" = _wpzb7Xix;
+        "ZZEq7uvQ" = _ZZEq7uvQ;
         "forge-1.20.1" = _W5FwgCig;
         "forge-1.12.2" = _wpzb7Xix;
+        "neoforge-1.21.1" = _ZZEq7uvQ;
         "pkg-2.0.1" = _2uLavQ2s;
         "pkg-1.2.0" = _zZGA35EZ;
         "pkg-2.0.2" = _rJ3Sc9Or;
-        "pkg-3.0.0" = _W5FwgCig;
+        "pkg-3.0.0" = _ZZEq7uvQ;
         "pkg-1.3.0" = _wpzb7Xix;
-        "default" = _wpzb7Xix;
+        "default" = _ZZEq7uvQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "battlecorrection";

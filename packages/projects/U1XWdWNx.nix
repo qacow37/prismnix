@@ -86,6 +86,11 @@ let
             "file" = "placeholder-plugin.jar";
             "hash" = "sha512-Dm4c9GtYaC01zLqCWj2tDGzqnztMT7bAkkV/xHp2o320rlbKTkjw1ukOY9qNXGHH9XvfVb9MbxD2ICjZ3i2Jgw==";
         };
+        _SZ6kwCO5 = {
+            "id" = "SZ6kwCO5";
+            "file" = "placeholders-paper.jar";
+            "hash" = "sha512-RqUrUoJLLmd7x2iFxfrvxWoU6Vaf/wO8mfpNfIxN2WZj9r+bemPkHhpLRRKuQsRWF8k1GENu7foQn+i3JfwCbA==";
+        };
     in {
         "L7vnw52B" = _L7vnw52B;
         "dIgUOMSV" = _dIgUOMSV;
@@ -104,6 +109,7 @@ let
         "jbQty7ES" = _jbQty7ES;
         "7h7i8mBb" = _7h7i8mBb;
         "skpjmhsx" = _skpjmhsx;
+        "SZ6kwCO5" = _SZ6kwCO5;
         "paper-1.20" = _skpjmhsx;
         "paper-1.20.1" = _skpjmhsx;
         "paper-1.20.2" = _skpjmhsx;
@@ -122,12 +128,12 @@ let
         "paper-1.21.8" = _skpjmhsx;
         "paper-1.21.9" = _skpjmhsx;
         "paper-1.21.10" = _skpjmhsx;
-        "paper-1.21.11" = _skpjmhsx;
-        "paper-26.1" = _skpjmhsx;
-        "paper-26.1.1" = _skpjmhsx;
-        "paper-26.1.2" = _skpjmhsx;
-        "paper-26.2" = _skpjmhsx;
-        "paper-26.3" = _skpjmhsx;
+        "paper-1.21.11" = _SZ6kwCO5;
+        "paper-26.1" = _SZ6kwCO5;
+        "paper-26.1.1" = _SZ6kwCO5;
+        "paper-26.1.2" = _SZ6kwCO5;
+        "paper-26.2" = _SZ6kwCO5;
+        "paper-26.3" = _SZ6kwCO5;
         "purpur-1.20" = _skpjmhsx;
         "purpur-1.20.1" = _skpjmhsx;
         "purpur-1.20.2" = _skpjmhsx;
@@ -146,12 +152,12 @@ let
         "purpur-1.21.8" = _skpjmhsx;
         "purpur-1.21.9" = _skpjmhsx;
         "purpur-1.21.10" = _skpjmhsx;
-        "purpur-1.21.11" = _skpjmhsx;
-        "purpur-26.1" = _skpjmhsx;
-        "purpur-26.1.1" = _skpjmhsx;
-        "purpur-26.1.2" = _skpjmhsx;
-        "purpur-26.2" = _skpjmhsx;
-        "purpur-26.3" = _skpjmhsx;
+        "purpur-1.21.11" = _SZ6kwCO5;
+        "purpur-26.1" = _SZ6kwCO5;
+        "purpur-26.1.1" = _SZ6kwCO5;
+        "purpur-26.1.2" = _SZ6kwCO5;
+        "purpur-26.2" = _SZ6kwCO5;
+        "purpur-26.3" = _SZ6kwCO5;
         "folia-1.20" = _skpjmhsx;
         "folia-1.20.1" = _skpjmhsx;
         "folia-1.20.2" = _skpjmhsx;
@@ -170,12 +176,12 @@ let
         "folia-1.21.8" = _skpjmhsx;
         "folia-1.21.9" = _skpjmhsx;
         "folia-1.21.10" = _skpjmhsx;
-        "folia-1.21.11" = _skpjmhsx;
-        "folia-26.1" = _skpjmhsx;
-        "folia-26.1.1" = _skpjmhsx;
-        "folia-26.1.2" = _skpjmhsx;
-        "folia-26.2" = _skpjmhsx;
-        "folia-26.3" = _skpjmhsx;
+        "folia-1.21.11" = _SZ6kwCO5;
+        "folia-26.1" = _SZ6kwCO5;
+        "folia-26.1.1" = _SZ6kwCO5;
+        "folia-26.1.2" = _SZ6kwCO5;
+        "folia-26.2" = _SZ6kwCO5;
+        "folia-26.3" = _SZ6kwCO5;
         "pkg-0.0.1-dev.0b0ac1a" = _dIgUOMSV;
         "pkg-0.0.1-dev.2fadd60" = _gTyq1yXH;
         "pkg-0.0.1-dev.ed8099c" = _6YlNiGJQ;
@@ -191,7 +197,8 @@ let
         "pkg-0.0.7-dev.43f91de" = _jbQty7ES;
         "pkg-0.0.8-dev.dd0350e" = _7h7i8mBb;
         "pkg-0.0.9-dev.52b42e0" = _skpjmhsx;
-        "default" = _skpjmhsx;
+        "pkg-1.2.0" = _SZ6kwCO5;
+        "default" = _SZ6kwCO5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "placeholder-plugin";

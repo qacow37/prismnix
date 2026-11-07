@@ -1996,6 +1996,16 @@ let
             "file" = "lithostitched-1.8.1-neoforge-21.1.jar";
             "hash" = "sha512-bAK4smkmnVqoTLA7+CShtdUoOOgGwv7Icn60BJklWS2sm7ZcmWhYdR+7ci8irFnEvgmGDh8B6Pe5fJW+P696Vw==";
         };
+        _f9bClSa7 = {
+            "id" = "f9bClSa7";
+            "file" = "lithostitched-fabric-1.20.1-1.4.12.jar";
+            "hash" = "sha512-bN0fui83t17jrMUZt7SLlex61QKLL3Pc/KJykCS263QhnjqQI5cf14VaxVTssUDpA/mJS0dbo1SJm3nhi4dSNA==";
+        };
+        _Uqt1Zm1l = {
+            "id" = "Uqt1Zm1l";
+            "file" = "lithostitched-forge-1.20.1-1.4.12.jar";
+            "hash" = "sha512-u5bIUYzwzPoSEP7k8B/zjL7gnDt/gt8zDO+P5NLIz8oZocfTYTb90/I4BMuBQxfemfkHzViAqL8SKTl+Cy/8JQ==";
+        };
     in {
         "8fRJMUtj" = _8fRJMUtj;
         "2GhadkWw" = _2GhadkWw;
@@ -2396,7 +2406,9 @@ let
         "pLlJIqyp" = _pLlJIqyp;
         "GZFp8lnS" = _GZFp8lnS;
         "cZu4cHY3" = _cZu4cHY3;
-        "fabric-1.20.1" = _9bbVphAR;
+        "f9bClSa7" = _f9bClSa7;
+        "Uqt1Zm1l" = _Uqt1Zm1l;
+        "fabric-1.20.1" = _f9bClSa7;
         "fabric-1.20.2" = _6fbZrlp1;
         "fabric-1.20.3" = _lSEqJCDB;
         "fabric-1.20.4" = _waP0noCS;
@@ -2405,7 +2417,7 @@ let
         "fabric-1.20.6" = _DzU5aqhv;
         "fabric-1.21" = _6CQBDLeo;
         "fabric-1.21.1" = _GZFp8lnS;
-        "fabric-1.20" = _9bbVphAR;
+        "fabric-1.20" = _f9bClSa7;
         "fabric-1.21.2" = _W941TUQ6;
         "fabric-1.21.3" = _W941TUQ6;
         "fabric-1.21.4" = _n1TiLJEh;
@@ -2427,11 +2439,11 @@ let
         "fabric-26.3-snapshot-10" = _1WYHzavq;
         "fabric-26.3-pre-2" = _WBH1BiWg;
         "fabric-26.3" = _pZgI6b2t;
-        "forge-1.20.1" = _srPoHKt8;
+        "forge-1.20.1" = _Uqt1Zm1l;
         "forge-1.20.2" = _VyXuOP1c;
         "forge-1.20.3" = _1d7slIuK;
         "forge-1.20.4" = _zRADi2S7;
-        "forge-1.20" = _AVzJAkCU;
+        "forge-1.20" = _Uqt1Zm1l;
         "neoforge-1.20.2" = _1qkHiTdN;
         "neoforge-1.20.4" = _di7edPqY;
         "neoforge-1.20.5" = _gLnnBHzT;
@@ -2723,7 +2735,9 @@ let
         "pkg-1.8.1-neoforge-26.1" = _pLlJIqyp;
         "pkg-1.8.1-fabric-21.1" = _GZFp8lnS;
         "pkg-1.8.1-neoforge-21.1" = _cZu4cHY3;
-        "default" = _cZu4cHY3;
+        "pkg-1.4.12-fabric-20.1" = _f9bClSa7;
+        "pkg-1.4.12-forge-20.1" = _Uqt1Zm1l;
+        "default" = _Uqt1Zm1l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lithostitched";

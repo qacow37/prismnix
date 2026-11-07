@@ -141,6 +141,11 @@ let
             "file" = "tomys-lists-4.0.1.jar";
             "hash" = "sha512-pGgL4bEuSPfhghIlgvk7WzOmJ7eEHdKbeDb7P/4uF90cac+6WLx8hGYutK2y7HQ+mhS5ZDtH/m6ALQOJGXVr9g==";
         };
+        _unz2zJB3 = {
+            "id" = "unz2zJB3";
+            "file" = "tomys-lists-5.0.0.jar";
+            "hash" = "sha512-ujgaKBN5djlB4rsrZeVYiI799sxl1i4z9nq7kQSCn2IXrVEU1vYdZxrkkmAT8yh0NmVf9UVDg+kRk7xCLfqtqw==";
+        };
     in {
         "HdejrPtz" = _HdejrPtz;
         "lHBMMtMB" = _lHBMMtMB;
@@ -170,11 +175,12 @@ let
         "fh1qt1uh" = _fh1qt1uh;
         "yot5mVa1" = _yot5mVa1;
         "PPsjQBr1" = _PPsjQBr1;
+        "unz2zJB3" = _unz2zJB3;
         "fabric-1.21.10" = _S3ULpEzT;
         "fabric-1.21.11" = _GPUVdjjb;
         "fabric-26.1" = _MMAYAQOz;
         "fabric-26.2" = _yot5mVa1;
-        "fabric-26.3" = _PPsjQBr1;
+        "fabric-26.3" = _unz2zJB3;
         "pkg-1.0.0" = _SOymz1RX;
         "pkg-1.0.1" = _zLB5UM1b;
         "pkg-1.0.2" = _jSNyxZkC;
@@ -186,7 +192,8 @@ let
         "pkg-3.0.3" = _MMAYAQOz;
         "pkg-4.0.0" = _fh1qt1uh;
         "pkg-4.0.1" = _PPsjQBr1;
-        "default" = _PPsjQBr1;
+        "pkg-5.0.0" = _unz2zJB3;
+        "default" = _unz2zJB3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-material-lists";

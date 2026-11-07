@@ -216,6 +216,46 @@ let
             "file" = "rosegoldequipment-1.8.9.jar";
             "hash" = "sha512-UgiVbM7Hc0U6xBdeRkkHmZ3hnCZyGeOQnepIaCllblLppzpSs7pKYxvPlCQ5j1+7K+wU+V60bbWYCBjXnPFYcQ==";
         };
+        _KZzdP8Hf = {
+            "id" = "KZzdP8Hf";
+            "file" = "rosegoldequipment-fabric-26.3-1.10.0.jar";
+            "hash" = "sha512-Q4QsN/Rzb3A4n/xvUNcIIV7+5m0z2KUGLhbjeb1TMfOYIt/gtA1o3k3qxFuYbQnbdQc8EWibVW5lYb1uyg51Zg==";
+        };
+        _L1puyFwI = {
+            "id" = "L1puyFwI";
+            "file" = "rosegoldequipment-fabric-26.1-1.10.0.jar";
+            "hash" = "sha512-bnc5Sq7JgXTL6y1BcQ0HnPwtWvFxvdDN5p8sFuUaHFYaUOUuj0lP8yehDekbYRQOgDDb8IxAnL6DKMs766wqww==";
+        };
+        _VmWvGAzW = {
+            "id" = "VmWvGAzW";
+            "file" = "rosegoldequipment-fabric-26.2-1.10.0.jar";
+            "hash" = "sha512-FEDtz6t/ewlMBGleNCvvVpSi8ywbMTJN3dDThIq87V0sKoM5ydcFLknQSSyjXKa/r8LwCdojlHH/Plc2lG2PFw==";
+        };
+        _6XT656hw = {
+            "id" = "6XT656hw";
+            "file" = "rosegoldequipment-fabric-1.21.11-1.10.0.jar";
+            "hash" = "sha512-AzhTOQ4cwZLF24tnBCvP0zDg+u9I1mUlMDLeYGfsTYBgP/Bbl5UJq2pFHX0cvM2zjO4gmJt5xrwEqSHdydnZcQ==";
+        };
+        _L2dbaiet = {
+            "id" = "L2dbaiet";
+            "file" = "rosegoldequipment-neoforge-1.21.11-1.10.0.jar";
+            "hash" = "sha512-ADPY6jHuVaociW1tdfKbXp3xq5SwtHRYWLSnjPMXl5HP7d48qimzg7xqc7ecuvxLcQpP0fPdz4GvPMvmmZFQDQ==";
+        };
+        _kXaWtdlU = {
+            "id" = "kXaWtdlU";
+            "file" = "rosegoldequipment-neoforge-26.1-1.10.0.jar";
+            "hash" = "sha512-sjaxSTRmTnFV0gCvGJWS95+arNgrpcwcRIq9O/2fNxj1rB9A+WE4SDGkER/8winkjd8EvEixI92cr8nHEhGIsg==";
+        };
+        _22qLk1dT = {
+            "id" = "22qLk1dT";
+            "file" = "rosegoldequipment-neoforge-26.2-1.10.0.jar";
+            "hash" = "sha512-KYui5J7uidoXAyu7WI1WKFcUiFLXsKNUj4swn+p/eq6FvMCqnk4CoSppq44Lm1z0jDbgUK8Ol+kEMBwMSHOOWQ==";
+        };
+        _cWc4FHdP = {
+            "id" = "cWc4FHdP";
+            "file" = "rosegoldequipment-neoforge-26.3-1.10.0.jar";
+            "hash" = "sha512-4Lo+g7u28KLeldJHzyAUHtWKtJL3O8+PQZJKJXUyB9GibqypncV4KmlhaB6vTEqy58GZQcwS4BBgTk7+6u7BCg==";
+        };
     in {
         "EmjDGQDc" = _EmjDGQDc;
         "sqYxoxu9" = _sqYxoxu9;
@@ -260,6 +300,14 @@ let
         "3pFWvI0j" = _3pFWvI0j;
         "NOfemtcD" = _NOfemtcD;
         "LLEI8jcf" = _LLEI8jcf;
+        "KZzdP8Hf" = _KZzdP8Hf;
+        "L1puyFwI" = _L1puyFwI;
+        "VmWvGAzW" = _VmWvGAzW;
+        "6XT656hw" = _6XT656hw;
+        "L2dbaiet" = _L2dbaiet;
+        "kXaWtdlU" = _kXaWtdlU;
+        "22qLk1dT" = _22qLk1dT;
+        "cWc4FHdP" = _cWc4FHdP;
         "fabric-1.20" = _uswiNwoW;
         "fabric-1.20.1" = _uswiNwoW;
         "fabric-1.21" = _XZMlToRo;
@@ -269,15 +317,21 @@ let
         "fabric-1.21.8" = _LLEI8jcf;
         "fabric-1.21.9" = _LLEI8jcf;
         "fabric-1.21.10" = _LLEI8jcf;
-        "fabric-1.21.11" = _LLEI8jcf;
+        "fabric-1.21.11" = _6XT656hw;
+        "fabric-26.3" = _KZzdP8Hf;
+        "fabric-26.1.2" = _L1puyFwI;
+        "fabric-26.2" = _VmWvGAzW;
         "neoforge-1.21" = _a1qbn1Fo;
         "neoforge-1.21.1" = _a1qbn1Fo;
-        "neoforge-1.21.11" = _47sgoX2O;
+        "neoforge-1.21.11" = _L2dbaiet;
         "neoforge-1.21.6" = _O8BtkiBe;
         "neoforge-1.21.7" = _O8BtkiBe;
         "neoforge-1.21.8" = _O8BtkiBe;
         "neoforge-1.21.9" = _O8BtkiBe;
         "neoforge-1.21.10" = _O8BtkiBe;
+        "neoforge-26.1.2" = _kXaWtdlU;
+        "neoforge-26.2" = _22qLk1dT;
+        "neoforge-26.3" = _cWc4FHdP;
         "forge-1.20" = _2Lkp0yEw;
         "forge-1.20.1" = _2Lkp0yEw;
         "pkg-1.0" = _EmjDGQDc;
@@ -306,7 +360,8 @@ let
         "pkg-1.8" = _3pFWvI0j;
         "pkg-1.8.1" = _NOfemtcD;
         "pkg-1.8.9" = _LLEI8jcf;
-        "default" = _LLEI8jcf;
+        "pkg-1.10.0" = _cWc4FHdP;
+        "default" = _cWc4FHdP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rose-gold-equipment";

@@ -26,22 +26,29 @@ let
             "file" = "heart_crystals-1.21.1-3.0.1.jar";
             "hash" = "sha512-blVJ3gAFGDLWYlMCpnx2jhbIOTLezNFU8oEKogCCYdbaWYpRQiT0LSol9jzxEGidSnCjpgb/F7xlxmrUrgJkTw==";
         };
+        _TkzvvUN6 = {
+            "id" = "TkzvvUN6";
+            "file" = "heart_crystals-1.21.1-3.0.2.jar";
+            "hash" = "sha512-MR+bSw8V4P6LC2yfgWmsaJIS4AoWB661mIQPKPEJLKnR8b2vracKaNIDD7jzGs8aKocGA4VHs4dyA28jSz0y4Q==";
+        };
     in {
         "V7q0TBfF" = _V7q0TBfF;
         "K6x0o9Jh" = _K6x0o9Jh;
         "fRQd9pky" = _fRQd9pky;
         "FFwGEGat" = _FFwGEGat;
         "x2uoz8hM" = _x2uoz8hM;
+        "TkzvvUN6" = _TkzvvUN6;
         "forge-1.20.1" = _fRQd9pky;
         "forge-1.19.2" = _K6x0o9Jh;
         "neoforge-1.20.1" = _fRQd9pky;
-        "neoforge-1.21.1" = _x2uoz8hM;
+        "neoforge-1.21.1" = _TkzvvUN6;
         "pkg-2.1.0" = _V7q0TBfF;
         "pkg-1.0.1" = _K6x0o9Jh;
         "pkg-2.1.1" = _fRQd9pky;
         "pkg-3.0.0" = _FFwGEGat;
         "pkg-3.0.1" = _x2uoz8hM;
-        "default" = _x2uoz8hM;
+        "pkg-3.0.2" = _TkzvvUN6;
+        "default" = _TkzvvUN6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heart_crystals";

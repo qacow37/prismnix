@@ -56,6 +56,11 @@ let
             "file" = "Aetherpack V1 x32 Mc 1.21.11+.cats.zip";
             "hash" = "sha512-pu9iRHHo1a1PcJp3dRlLIQYT3JwvCqmnIwQmL4tsyH+RPJ9bexyN0cz8hrUq5UdBvcJUQk7gfaC2e2EDpcus1A==";
         };
+        _1pGUtXxQ = {
+            "id" = "1pGUtXxQ";
+            "file" = "Aetherpack V1.1 x32 Mc 1.21.11+.cats.zip";
+            "hash" = "sha512-YTa8R1Wtu6fPCuZp0/YbrzidEJ7gvyWc290ZfWDY3YWmklquZGn1bTmU5x/MDKfMkba1Uskdm+bzXlvL3qMKLg==";
+        };
     in {
         "heXZv1Gd" = _heXZv1Gd;
         "PDlYl5mN" = _PDlYl5mN;
@@ -68,14 +73,16 @@ let
         "hcXO9ncW" = _hcXO9ncW;
         "Pr27Wzcs" = _Pr27Wzcs;
         "YytT6dhS" = _YytT6dhS;
+        "1pGUtXxQ" = _1pGUtXxQ;
         "minecraft-1.8.9" = _Qgclgyns;
         "minecraft-1.21.9" = _hcXO9ncW;
         "minecraft-1.21.10" = _YytT6dhS;
         "minecraft-1.21.11" = _YytT6dhS;
-        "minecraft-26.1" = _YytT6dhS;
-        "minecraft-26.1.1" = _YytT6dhS;
-        "minecraft-26.1.2" = _YytT6dhS;
-        "minecraft-26.2" = _YytT6dhS;
+        "minecraft-26.1" = _1pGUtXxQ;
+        "minecraft-26.1.1" = _1pGUtXxQ;
+        "minecraft-26.1.2" = _1pGUtXxQ;
+        "minecraft-26.2" = _1pGUtXxQ;
+        "minecraft-26.3" = _1pGUtXxQ;
         "pkg-(OLD)V1" = _hcyqWlUr;
         "pkg-(OLD)V1.1" = _mXa2ghse;
         "pkg-(OLD)V1.5" = _RtN3wNSy;
@@ -83,7 +90,8 @@ let
         "pkg-V0.9" = _hcXO9ncW;
         "pkg-V1" = _Pr27Wzcs;
         "pkg-V1.0.1" = _YytT6dhS;
-        "default" = _YytT6dhS;
+        "pkg-V1.1" = _1pGUtXxQ;
+        "default" = _1pGUtXxQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aetherpack-x32-for-hypixel-skyblock";

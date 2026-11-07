@@ -711,6 +711,11 @@ let
             "file" = "SnowRealMagic-1.21.1-NeoForge-12.2.5.jar";
             "hash" = "sha512-gLBRT3Edv/e84PIzjcYy+b1p6L34JGO3wdyvr0vAQ3KO38es5MLBgxU3wbbx/7l15KESn7FSHLy5pwyPwznK4g==";
         };
+        _PVddB1BL = {
+            "id" = "PVddB1BL";
+            "file" = "SnowRealMagic-1.21.1-Fabric-12.2.6.jar";
+            "hash" = "sha512-qXuY6XG8gsX3AtyFoqVWHi8JI9qqfan59U8kmrp53QbZQaRbLOP9UKNz4Votm6RMQij7pdNsCJOLQVBQGieA6Q==";
+        };
     in {
         "KzkdNEMw" = _KzkdNEMw;
         "aJn7pG9w" = _aJn7pG9w;
@@ -854,13 +859,14 @@ let
         "2f1PTEnN" = _2f1PTEnN;
         "fDz7EoDJ" = _fDz7EoDJ;
         "ovvhJCXR" = _ovvhJCXR;
+        "PVddB1BL" = _PVddB1BL;
         "fabric-1.19.3" = _Dcj8Il7B;
         "fabric-1.19.2" = _Fo8Vytsg;
         "fabric-1.19.4" = _jIPF2Beb;
         "fabric-1.20" = _Itno2wbk;
         "fabric-1.20.1" = _Itno2wbk;
-        "fabric-1.21" = _2f1PTEnN;
-        "fabric-1.21.1" = _2f1PTEnN;
+        "fabric-1.21" = _PVddB1BL;
+        "fabric-1.21.1" = _PVddB1BL;
         "fabric-26.1" = _YHznfnGs;
         "fabric-26.1.1" = _YHznfnGs;
         "fabric-26.1.2" = _YHznfnGs;
@@ -877,8 +883,8 @@ let
         "neoforge-26.1.2" = _XIeL8UVd;
         "quilt-1.20" = _Itno2wbk;
         "quilt-1.20.1" = _Itno2wbk;
-        "quilt-1.21" = _2f1PTEnN;
-        "quilt-1.21.1" = _2f1PTEnN;
+        "quilt-1.21" = _PVddB1BL;
+        "quilt-1.21.1" = _PVddB1BL;
         "quilt-26.1" = _YHznfnGs;
         "quilt-26.1.1" = _YHznfnGs;
         "quilt-26.1.2" = _YHznfnGs;
@@ -998,7 +1004,8 @@ let
         "pkg-12.2.4+fabric" = _2f1PTEnN;
         "pkg-12.2.4+neoforge" = _fDz7EoDJ;
         "pkg-12.2.5+neoforge" = _ovvhJCXR;
-        "default" = _ovvhJCXR;
+        "pkg-12.2.6+fabric" = _PVddB1BL;
+        "default" = _PVddB1BL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-real-magic";

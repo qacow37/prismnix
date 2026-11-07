@@ -56,6 +56,56 @@ let
             "file" = "No Weather 1.21-1.21.1.zip";
             "hash" = "sha512-E97Pe2fc0vs2Mxmcq5zB3RK/3A2kRzKTgGEgPZ+5Gjyiz3Y/t12i8XKFoiLydj6CCEE6d+qM3jqQ8DowutdaLw==";
         };
+        _qZzi741h = {
+            "id" = "qZzi741h";
+            "file" = "No Weather 1.21.2-1.21.3.zip";
+            "hash" = "sha512-qx6YJerZVVA+kCtcsq/+jPMIochMZsk7bBlfo0Ev4Zpgl3+p3GU0+46c0TBUZUuIclXjncawKf6R+WFP8VzspQ==";
+        };
+        _gqdVc0BD = {
+            "id" = "gqdVc0BD";
+            "file" = "No Weather 1.21.4.zip";
+            "hash" = "sha512-GTAl0ONYmZe3nIOJRySDQdXFE7xMlXDIZTAbGzB2zP45BRUm1GdYUIibQYMnleK5EcLH2SuhJa36xWgWYxHIvg==";
+        };
+        _jXbqtz60 = {
+            "id" = "jXbqtz60";
+            "file" = "No Weather 1.21.5.zip";
+            "hash" = "sha512-G3aZLNUqbVVlioRIxmlao45nPrfSIbtgxrOq7GZScVVuk8/xouI/+e1wlDCFI3rIkt6Aaj90lE/GI6cPumsXNg==";
+        };
+        _yznRgYXm = {
+            "id" = "yznRgYXm";
+            "file" = "No Weather 1.21.6.zip";
+            "hash" = "sha512-CnZGrNr2ygXxzm+elSwEmCxvAViXbIU9Ki/l1GVG1+P3A5IYSln0pH8nN3p2uLBM47/gZXg9psAYneCKNo31ZA==";
+        };
+        _BGkmEflg = {
+            "id" = "BGkmEflg";
+            "file" = "No Weather 1.21.7-1.21.8.zip";
+            "hash" = "sha512-IC/wp3NSAj9ePjMiVS4Urrne9wX/RC/kUBheptv/cdbaLQHxEzBb7FzjqwcZokXeUSNF394VGKpe6h7OtTCfdQ==";
+        };
+        _b6BGvVRg = {
+            "id" = "b6BGvVRg";
+            "file" = "No Weather 1.21.9-1.21.10.zip";
+            "hash" = "sha512-mGJrBgjU+5PGwr+Y3FsMatFU2LIr9h4mtfQm5qPI+hxFSyCxLt0X/ldkBDy7B96Vh12er/40OlXhXeIrvDsmLw==";
+        };
+        _aBCMMpNu = {
+            "id" = "aBCMMpNu";
+            "file" = "No Weather 1.21.11.zip";
+            "hash" = "sha512-UP4XnM/Hj+h4eMEJ0HwhABsToKcf6lY8dUYpETifVNOPj+bTrkQPQI00pEvlEgRd5eJRuc3V//3VfBQaNK8TlQ==";
+        };
+        _TCryWMFE = {
+            "id" = "TCryWMFE";
+            "file" = "No Weather 26.1-26.1.2.zip";
+            "hash" = "sha512-InQ/FD19jlL1LKekjzIwHtaEoKt9Fr6Bg8wnd//4lkWL7sNtg8IUJkVk7aSMnd9s+nfSHCzATZ1PP7OGhGJa4g==";
+        };
+        _PPfzkAQx = {
+            "id" = "PPfzkAQx";
+            "file" = "No Weather 26.2.zip";
+            "hash" = "sha512-m2DHP9f65WPODk1GTgNxLmd9ThL8kIzwYbZUiE8cbLh6G1AvHztAUdRRsLqu41IpbDWDs6Y0vIzcfHgW6pC4Bg==";
+        };
+        _feOFPznK = {
+            "id" = "feOFPznK";
+            "file" = "No Weather 26.3.zip";
+            "hash" = "sha512-Yv3xlMAn4v4PM6EckHwL4iAf9vt0WeS0F2Z6HekFeB+Sk5Yn6oc6tQQ0QbE9cPxMXGHuzIXLJTWnG45wpWImzA==";
+        };
     in {
         "rBo798Kh" = _rBo798Kh;
         "YIE8TWUO" = _YIE8TWUO;
@@ -68,6 +118,16 @@ let
         "lF1BEUHd" = _lF1BEUHd;
         "7dZtpe2i" = _7dZtpe2i;
         "I4ivyUVa" = _I4ivyUVa;
+        "qZzi741h" = _qZzi741h;
+        "gqdVc0BD" = _gqdVc0BD;
+        "jXbqtz60" = _jXbqtz60;
+        "yznRgYXm" = _yznRgYXm;
+        "BGkmEflg" = _BGkmEflg;
+        "b6BGvVRg" = _b6BGvVRg;
+        "aBCMMpNu" = _aBCMMpNu;
+        "TCryWMFE" = _TCryWMFE;
+        "PPfzkAQx" = _PPfzkAQx;
+        "feOFPznK" = _feOFPznK;
         "minecraft-1.17" = _rBo798Kh;
         "minecraft-1.17.1" = _rBo798Kh;
         "minecraft-1.18" = _YIE8TWUO;
@@ -87,8 +147,23 @@ let
         "minecraft-1.20.6" = _lF1BEUHd;
         "minecraft-1.21" = _I4ivyUVa;
         "minecraft-1.21.1" = _I4ivyUVa;
-        "pkg-1.0.0" = _I4ivyUVa;
-        "default" = _I4ivyUVa;
+        "minecraft-1.21.2" = _qZzi741h;
+        "minecraft-1.21.3" = _qZzi741h;
+        "minecraft-1.21.4" = _gqdVc0BD;
+        "minecraft-1.21.5" = _jXbqtz60;
+        "minecraft-1.21.6" = _yznRgYXm;
+        "minecraft-1.21.7" = _BGkmEflg;
+        "minecraft-1.21.8" = _BGkmEflg;
+        "minecraft-1.21.9" = _b6BGvVRg;
+        "minecraft-1.21.10" = _b6BGvVRg;
+        "minecraft-1.21.11" = _aBCMMpNu;
+        "minecraft-26.1" = _TCryWMFE;
+        "minecraft-26.1.1" = _TCryWMFE;
+        "minecraft-26.1.2" = _TCryWMFE;
+        "minecraft-26.2" = _PPfzkAQx;
+        "minecraft-26.3" = _feOFPznK;
+        "pkg-1.0.0" = _feOFPznK;
+        "default" = _feOFPznK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noweather";

@@ -31,6 +31,11 @@ let
             "file" = "createaerophysicsgantry-1.1.1.jar";
             "hash" = "sha512-KuYMAxgd9F3l+hgP0M2nDE++fh0nbUnL1XLYz28uuqKYEKEKlPMYKd/zVwQokTMj4a8gRdrGLeS5IrBhgVukNA==";
         };
+        _3XQqPCsE = {
+            "id" = "3XQqPCsE";
+            "file" = "createaerophysicsgantry-1.1.2.jar";
+            "hash" = "sha512-ME1hVkmHGme+NpmAeCZnV6BNLUTpS/LmjzJ2GaN2fHFsFHU3CJizH6UucPwnRoVOu8EeNZY+CUlQsVSGoZ5h2Q==";
+        };
     in {
         "QzJpIvNV" = _QzJpIvNV;
         "bDyEIoyd" = _bDyEIoyd;
@@ -38,14 +43,16 @@ let
         "QoeKSEzn" = _QoeKSEzn;
         "ulpRYWR7" = _ulpRYWR7;
         "9kLelpFs" = _9kLelpFs;
-        "neoforge-1.21.1" = _9kLelpFs;
+        "3XQqPCsE" = _3XQqPCsE;
+        "neoforge-1.21.1" = _3XQqPCsE;
         "pkg-1.0.0" = _QzJpIvNV;
         "pkg-1.0.1" = _bDyEIoyd;
         "pkg-1.0.2" = _44l8Syx2;
         "pkg-1.0.3" = _QoeKSEzn;
         "pkg-1.1.0" = _ulpRYWR7;
         "pkg-1.1.1" = _9kLelpFs;
-        "default" = _9kLelpFs;
+        "pkg-1.1.2" = _3XQqPCsE;
+        "default" = _3XQqPCsE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-physics-gantry";

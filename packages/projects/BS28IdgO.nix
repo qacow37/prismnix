@@ -81,6 +81,21 @@ let
             "file" = "fabric-elytra-autopilot-26.3-3.7.0.jar";
             "hash" = "sha512-v/kqr9FJGHQyG/s3giB3YKAzKYsb/HJpWe8BpadfL2prnV702OS+WIhN7bCiX8iRm0Ru5Lbc/oxkiIr/vHjymA==";
         };
+        _Yzf8Ig3G = {
+            "id" = "Yzf8Ig3G";
+            "file" = "fabric-elytra-autopilot-26.3-3.8.0.jar";
+            "hash" = "sha512-rSBcTPnZSNp5Fh7NgyyktXdr3LqfDMMZi1w040aAA+uP8N/xEbWl9n7PxEY+yKqUXpMO57duhDEbUhMLd1B4dg==";
+        };
+        _I08akRDL = {
+            "id" = "I08akRDL";
+            "file" = "fabric-elytra-autopilot-26.3-3.8.1.jar";
+            "hash" = "sha512-Nh6o5LTgSKCjRZqC0ReTMWXvByddnJhzRbaBh1A2WsBH6yLB/CN7avwaj04BCzMGeGNNAmQEni4u266D+OIowA==";
+        };
+        _8KvUAXQK = {
+            "id" = "8KvUAXQK";
+            "file" = "fabric-elytra-autopilot-26.3-3.8.2.jar";
+            "hash" = "sha512-syhVR8T3Pix9OdroPc5T4R7pq256Y2ygHZNfzaR20UkpUcwDa08vwg/VGethrTFF1Et7kpoMIQhnPIGrUyywTg==";
+        };
     in {
         "HY4WwwwD" = _HY4WwwwD;
         "1IpQ5F6M" = _1IpQ5F6M;
@@ -98,6 +113,9 @@ let
         "DOEds9WJ" = _DOEds9WJ;
         "3Sv7n7N0" = _3Sv7n7N0;
         "PUE2wpDm" = _PUE2wpDm;
+        "Yzf8Ig3G" = _Yzf8Ig3G;
+        "I08akRDL" = _I08akRDL;
+        "8KvUAXQK" = _8KvUAXQK;
         "fabric-1.21" = _1IpQ5F6M;
         "fabric-1.21.1" = _1IpQ5F6M;
         "fabric-1.21.4" = _DdmlpN19;
@@ -112,7 +130,7 @@ let
         "fabric-26.1.1" = _SJgaoiIq;
         "fabric-26.1.2" = _SJgaoiIq;
         "fabric-26.2" = _3Sv7n7N0;
-        "fabric-26.3" = _PUE2wpDm;
+        "fabric-26.3" = _8KvUAXQK;
         "pkg-3.0.0" = _HY4WwwwD;
         "pkg-3.0.1" = _1IpQ5F6M;
         "pkg-3.1.0" = _fBzK2Jr9;
@@ -128,7 +146,10 @@ let
         "pkg-3.5.1" = _DOEds9WJ;
         "pkg-3.6.0" = _3Sv7n7N0;
         "pkg-3.7.0" = _PUE2wpDm;
-        "default" = _PUE2wpDm;
+        "pkg-3.8.0" = _Yzf8Ig3G;
+        "pkg-3.8.1" = _I08akRDL;
+        "pkg-3.8.2" = _8KvUAXQK;
+        "default" = _8KvUAXQK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-autopilot";

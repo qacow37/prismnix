@@ -71,6 +71,11 @@ let
             "file" = "island-menu-1.4.6.jar";
             "hash" = "sha512-1LzJ/J0mQZCb3JZyFH+G3+sGxEI06LRPXbXSbTY/cMS0UZjlH+4/tf6gM1W4a4ZIiNenJGt83e/gvxr1u8EXeA==";
         };
+        _zS4gh9Mt = {
+            "id" = "zS4gh9Mt";
+            "file" = "island-menu-1.4.7.jar";
+            "hash" = "sha512-jFk2jyFHUBj6Yzn2v3sbvFS5UOtCP8YMap4qAFAldpBUIAWZbtnRg4MTlQBdgE01kdMYzDHA5yBGk1IR6+N81A==";
+        };
     in {
         "wWA41kBr" = _wWA41kBr;
         "jxiHn7ow" = _jxiHn7ow;
@@ -86,6 +91,7 @@ let
         "365tZoyN" = _365tZoyN;
         "Qg8yHQJC" = _Qg8yHQJC;
         "gJxhRCzs" = _gJxhRCzs;
+        "zS4gh9Mt" = _zS4gh9Mt;
         "fabric-1.19.2" = _jxiHn7ow;
         "fabric-1.19.3" = _Nqt3xq9X;
         "fabric-1.19.4" = _kI1Rhb8P;
@@ -108,6 +114,7 @@ let
         "fabric-26.1.1" = _Qg8yHQJC;
         "fabric-26.1.2" = _Qg8yHQJC;
         "fabric-26.2" = _gJxhRCzs;
+        "fabric-26.3" = _zS4gh9Mt;
         "pkg-v1.0" = _wWA41kBr;
         "pkg-v1.1" = _jxiHn7ow;
         "pkg-v1.2" = _Nqt3xq9X;
@@ -122,7 +129,8 @@ let
         "pkg-1.4.4" = _365tZoyN;
         "pkg-1.4.5" = _Qg8yHQJC;
         "pkg-1.4.6" = _gJxhRCzs;
-        "default" = _gJxhRCzs;
+        "pkg-1.4.7" = _zS4gh9Mt;
+        "default" = _zS4gh9Mt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "island-menu";

@@ -221,6 +221,56 @@ let
             "file" = "better_loot_zibura-2.1.2-1.21.1-neoforge.jar";
             "hash" = "sha512-ZLJpshPPLhdg3EwYUo7pD6yuOopPJDWOz0cwJ2VTJ2VXc/f+3npEOybclqWCKap7/Z4gNu4eJAmDq7MSSkxGfQ==";
         };
+        _nCUg5FXO = {
+            "id" = "nCUg5FXO";
+            "file" = "better_loot_zibura-2.2.0-1.20.1-forge.jar";
+            "hash" = "sha512-HPtmqapWAwd05ej7YETKGFITDfbZfgw1CUFyXIyx42ktMFC+nVCcVUOz+EkDhX4Itil2bAT2Oyr1ZW8Ug1B9Ow==";
+        };
+        _p3G1kB53 = {
+            "id" = "p3G1kB53";
+            "file" = "better_loot_zibura-2.2.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-gfgyB1k2gLJjBqUoRxDOMvoC+ynMRbcRmgdbsrQ9x+dmUHv/ou32twPopRz/6UJgDcaojjDQ+vG60Rofli+x2Q==";
+        };
+        _v560AXA6 = {
+            "id" = "v560AXA6";
+            "file" = "better_loot_zibura-2.2.0-26.3-fabric.jar";
+            "hash" = "sha512-cOuJ8eTrK2onAuCiUyg5SC7OxGeZKeuDGVVfOxuusW/Tliep535uGtJuT/GyX6/gu77/q5DMGw6SpAOFWf8Y4g==";
+        };
+        _3rjBg4F1 = {
+            "id" = "3rjBg4F1";
+            "file" = "better_loot_zibura-2.2.1-26.3-fabric.jar";
+            "hash" = "sha512-ITgfSEB0HzzSKvZ7Bm2NENBZFu2PLm5SjQ0gyZMMVh/UBJmElR8h2lTToml5bkyTriei25RX2H4Gz+AvNx+27w==";
+        };
+        _ffpS1xXQ = {
+            "id" = "ffpS1xXQ";
+            "file" = "better_loot_zibura-2.2.2-1.20.1-forge.jar";
+            "hash" = "sha512-OohrJyU97AAAWALw0CVNfGMbHpgD0cWAU4tn212ybqGSHYIbt+3LAHBMC71sSotCXiH4tOTqnMjrib+ywsqrWw==";
+        };
+        _8nprivPY = {
+            "id" = "8nprivPY";
+            "file" = "better_loot_zibura-2.2.2-1.21.1-neoforge.jar";
+            "hash" = "sha512-Gv+JqW+VOGISJrS/Oo+e2abAczP0KkeUvjNYdfWPRepGR3JNYpOISA/FJWJROTDvILEqp97rkRdhy0VlDkJiXg==";
+        };
+        _5Y3LKHea = {
+            "id" = "5Y3LKHea";
+            "file" = "better_loot_zibura-2.2.2-26.3-fabric.jar";
+            "hash" = "sha512-lycKceP6f8sKM2TTFkksWPKZh8hCPIHY7nXcrUBMIgjFWB88l5wIJ/1XtszviT/AWe4+sNH8cm4dEbxeA3YHxw==";
+        };
+        _XtnhoaQK = {
+            "id" = "XtnhoaQK";
+            "file" = "better_loot_zibura-2.2.3-1.20.1-forge.jar";
+            "hash" = "sha512-e6avgQQbbzL5TCkh7UzmQvC+sXcISULZBabTpk2+0SlRu9iYmZG8xOIzrY+JLE5IU301kkpO97ihrldVdDZbMQ==";
+        };
+        _YeJuQGcu = {
+            "id" = "YeJuQGcu";
+            "file" = "better_loot_zibura-2.2.3-1.21.1-neoforge.jar";
+            "hash" = "sha512-ubW0DuANMGMaVoYjk+t1nhbtTT+cT42TdFNTMTcOAPXIXKe8IZCEpPqW6pepNOyTjEUI6M/4yM7rq4HqzV6Afw==";
+        };
+        _Iv22CBEW = {
+            "id" = "Iv22CBEW";
+            "file" = "better_loot_zibura-2.2.3-26.3-fabric.jar";
+            "hash" = "sha512-OZTxbczt7mRAK90Pk15K5bRj20MCJh8/ztvi6UWlJxCveBIBgWEon0vi7fT1ZZnyFjsigz4KYQzqS/9PiJGeCw==";
+        };
     in {
         "9TIz0rED" = _9TIz0rED;
         "Z6S2OEs8" = _Z6S2OEs8;
@@ -266,8 +316,19 @@ let
         "6plNmVuY" = _6plNmVuY;
         "oFkIcjd0" = _oFkIcjd0;
         "qos5QDo4" = _qos5QDo4;
-        "forge-1.20.1" = _oFkIcjd0;
-        "neoforge-1.21.1" = _qos5QDo4;
+        "nCUg5FXO" = _nCUg5FXO;
+        "p3G1kB53" = _p3G1kB53;
+        "v560AXA6" = _v560AXA6;
+        "3rjBg4F1" = _3rjBg4F1;
+        "ffpS1xXQ" = _ffpS1xXQ;
+        "8nprivPY" = _8nprivPY;
+        "5Y3LKHea" = _5Y3LKHea;
+        "XtnhoaQK" = _XtnhoaQK;
+        "YeJuQGcu" = _YeJuQGcu;
+        "Iv22CBEW" = _Iv22CBEW;
+        "forge-1.20.1" = _XtnhoaQK;
+        "neoforge-1.21.1" = _YeJuQGcu;
+        "fabric-26.3" = _Iv22CBEW;
         "pkg-0.2.0" = _Z6S2OEs8;
         "pkg-forge-1.20.1-0.3.0" = _bLJzhDVR;
         "pkg-neoforge-1.21.1-0.3.0" = _hTIRY7CR;
@@ -293,7 +354,11 @@ let
         "pkg-2.1.0" = _uZQstpcY;
         "pkg-2.1.1" = _6plNmVuY;
         "pkg-2.1.2" = _qos5QDo4;
-        "default" = _qos5QDo4;
+        "pkg-2.2.0" = _v560AXA6;
+        "pkg-2.2.1" = _3rjBg4F1;
+        "pkg-2.2.2" = _5Y3LKHea;
+        "pkg-2.2.3" = _Iv22CBEW;
+        "default" = _Iv22CBEW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterloot-zibura";

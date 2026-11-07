@@ -26,13 +26,19 @@ let
             "file" = "Noea-1.2.0-DMZ-2.1.3.jar";
             "hash" = "sha512-rN5OuGYiaJDzu4XIpye+ugYYVMjNsj8t0u5tufkEvwhXbApgU47jXVd/8qzkRtvYU2J7Zh+5nYzz0UQJYiXoYQ==";
         };
+        _1nyBsv1g = {
+            "id" = "1nyBsv1g";
+            "file" = "Noea-dev.update-DMZ-2.2.1.jar";
+            "hash" = "sha512-f2eLbyyBgKJZu13wFHlYa4dTNUvi3okgueM7CzPeBlPcdjiFBeyYcsh01kuChOvlt5c/3ZCMWOEI+f+nthGpRQ==";
+        };
     in {
         "KcdU4dD1" = _KcdU4dD1;
         "QcDy8Ild" = _QcDy8Ild;
         "LfU9Fdgn" = _LfU9Fdgn;
         "4wZQWjy2" = _4wZQWjy2;
         "how4K624" = _how4K624;
-        "forge-1.20.1" = _how4K624;
+        "1nyBsv1g" = _1nyBsv1g;
+        "forge-1.20.1" = _1nyBsv1g;
         "forge-1.20.2" = _how4K624;
         "forge-1.20.3" = _how4K624;
         "forge-1.20.4" = _how4K624;
@@ -43,7 +49,8 @@ let
         "pkg-1.1.0" = _LfU9Fdgn;
         "pkg-1.1.5" = _4wZQWjy2;
         "pkg-1.2.0" = _how4K624;
-        "default" = _how4K624;
+        "pkg-1.2.0-dmz221" = _1nyBsv1g;
+        "default" = _1nyBsv1g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-block-noea";

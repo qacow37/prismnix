@@ -316,6 +316,11 @@ let
             "file" = "Hopper_Barrels 1.5.19 Release.zip";
             "hash" = "sha512-pOCfszvCqpiMro6I0K93/ghVlD+DlQ812MpBjUAmwP6n8EEcUMU6nV8fKPAzKWtQWArXJoIJfTOroT4bNwUQSw==";
         };
+        _qPylPgsC = {
+            "id" = "qPylPgsC";
+            "file" = "hopper-barrels-v1.5.19.jar";
+            "hash" = "sha512-yOcBtxuwDKiNDkb9uNYl+nTENwMPMf/3NSZu6OLi+FAhg9PixS6C9ZeXaCUrynWw/gGm3gZLjKqaYURVHZut4A==";
+        };
     in {
         "2UYzKAW6" = _2UYzKAW6;
         "sC766qX2" = _sC766qX2;
@@ -380,6 +385,7 @@ let
         "S4CP8Oes" = _S4CP8Oes;
         "gtV7rBpw" = _gtV7rBpw;
         "5tGDlzf6" = _5tGDlzf6;
+        "qPylPgsC" = _qPylPgsC;
         "datapack-1.21" = _2UYzKAW6;
         "datapack-1.21.1" = _2UYzKAW6;
         "datapack-1.21.2" = _S4XaJ9pI;
@@ -523,6 +529,7 @@ let
         "fabric-26.3-snapshot-6" = _gtV7rBpw;
         "fabric-26.3-snapshot-7" = _gtV7rBpw;
         "fabric-26.3-snapshot-8" = _gtV7rBpw;
+        "fabric-26.3" = _qPylPgsC;
         "forge-1.21" = _sC766qX2;
         "forge-1.21.1" = _sC766qX2;
         "forge-1.21.2" = _oDtv17SI;
@@ -596,6 +603,7 @@ let
         "forge-26.3-snapshot-6" = _gtV7rBpw;
         "forge-26.3-snapshot-7" = _gtV7rBpw;
         "forge-26.3-snapshot-8" = _gtV7rBpw;
+        "forge-26.3" = _qPylPgsC;
         "neoforge-1.21" = _sC766qX2;
         "neoforge-1.21.1" = _sC766qX2;
         "neoforge-1.21.2" = _oDtv17SI;
@@ -669,6 +677,7 @@ let
         "neoforge-26.3-snapshot-6" = _gtV7rBpw;
         "neoforge-26.3-snapshot-7" = _gtV7rBpw;
         "neoforge-26.3-snapshot-8" = _gtV7rBpw;
+        "neoforge-26.3" = _qPylPgsC;
         "quilt-1.21" = _sC766qX2;
         "quilt-1.21.1" = _sC766qX2;
         "quilt-1.21.2" = _oDtv17SI;
@@ -742,6 +751,7 @@ let
         "quilt-26.3-snapshot-6" = _gtV7rBpw;
         "quilt-26.3-snapshot-7" = _gtV7rBpw;
         "quilt-26.3-snapshot-8" = _gtV7rBpw;
+        "quilt-26.3" = _qPylPgsC;
         "pkg-v1.0.0-1.21.1" = _2UYzKAW6;
         "pkg-v1.0.0-1.21.1+mod" = _sC766qX2;
         "pkg-v1.2.0-1.21.2-8" = _S4XaJ9pI;
@@ -803,7 +813,8 @@ let
         "pkg-v1.5.18-26.3snapshotX" = _S4CP8Oes;
         "pkg-v1.5.18-26.3snapshotX+mod" = _gtV7rBpw;
         "pkg-v1.5.19" = _5tGDlzf6;
-        "default" = _5tGDlzf6;
+        "pkg-v1.5.19+mod" = _qPylPgsC;
+        "default" = _qPylPgsC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopper-barrels";

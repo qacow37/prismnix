@@ -846,6 +846,11 @@ let
             "file" = "waterframes-NEOFORGE-mc1.21.1-v3.0.0-alpha.1.jar";
             "hash" = "sha512-yoJ+6JpYYbXMUci4y0hxNl2dr4rHvpk/C9cPMZPgLr5BoY5PFDX+jU5Ei8HYZ/ga0E7jRuwQsQ2wiXvKmozqCw==";
         };
+        _x4NIeL4U = {
+            "id" = "x4NIeL4U";
+            "file" = "waterframes-FABRIC-mc1.21.1-v3.0.0-alpha.1.jar";
+            "hash" = "sha512-CyNGp8zQfnx48CQ/F3g2aPDSg40MDWMxq107ME3OzhHolGfzdaePXFyaBPfPku7uRMhHakHWdtQ4RlYUew1GbA==";
+        };
     in {
         "HG7dJiVF" = _HG7dJiVF;
         "g4Fn2mpW" = _g4Fn2mpW;
@@ -1016,6 +1021,7 @@ let
         "41bOq1F5" = _41bOq1F5;
         "e2ivSMRA" = _e2ivSMRA;
         "3q7i6sG3" = _3q7i6sG3;
+        "x4NIeL4U" = _x4NIeL4U;
         "forge-1.18.2" = _NJOd2ZT1;
         "forge-1.20.1" = _e2ivSMRA;
         "forge-1.19.2" = _xUNWOHUA;
@@ -1024,7 +1030,7 @@ let
         "neoforge-1.21.4" = _2FWvdJeH;
         "neoforge-1.21.5" = _MdLXtzXS;
         "fabric-1.20.1" = _arCNnrup;
-        "fabric-1.21.1" = _TM8LO9zb;
+        "fabric-1.21.1" = _x4NIeL4U;
         "fabric-1.21.5" = _TEeONfYV;
         "fabric-1.21.8" = _NZ7DzgQG;
         "pkg-1.18.2-2.0.0-beta1" = _HG7dJiVF;
@@ -1193,7 +1199,8 @@ let
         "pkg-FORGE-mc1.20.1-v2.2.0-beta.5" = _41bOq1F5;
         "pkg-FORGE-mc1.20.1-v2.2.0-beta.6" = _e2ivSMRA;
         "pkg-NEOFORGE-mc1.21.1-v3.0.0-alpha.1" = _3q7i6sG3;
-        "default" = _3q7i6sG3;
+        "pkg-FABRIC-mc1.21.1-v3.0.0-alpha.1" = _x4NIeL4U;
+        "default" = _x4NIeL4U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waterframes";

@@ -121,6 +121,36 @@ let
             "file" = "[1.20.1]TimelessPower-3.0.jar";
             "hash" = "sha512-1Q0nH2cf5V8GRBQE9hVHU1ypxaoi9jScGLD+HiRWUPusUb0aRFNjrmoAW8L05IjBXGXjZsLaGwDC9IFviGjAww==";
         };
+        _Y1pUyq9L = {
+            "id" = "Y1pUyq9L";
+            "file" = "[1.16.5]TimelessPower-3.1-Forge.jar";
+            "hash" = "sha512-7JDrG4JgZedn7dGz5kjBVaDrpin0jd8l5oxr+/3kkam6kgdDUmt1H4Aemc+/wcEfjRNJwuGmo9LkcgU99Yeu3w==";
+        };
+        _JqRXK9v1 = {
+            "id" = "JqRXK9v1";
+            "file" = "[1.18.2]TimelessPower-3.1-Forge.jar";
+            "hash" = "sha512-wFHGjzEEiySHFSr3KsxrMyoe1pjPrXD4kqEWZeDuWxXx4u6fXLEgmBTwW3sf+xOFdve43m3JCpzRbWD2xJFHUw==";
+        };
+        _HNl4md7V = {
+            "id" = "HNl4md7V";
+            "file" = "[1.19.2]TimelessPower-3.1-Forge.jar";
+            "hash" = "sha512-m8hMdAkHLB8/Is12TIkS+QBwkZZ1jQEX/oNz+cUGuFeMjZXAfwl6JGS0GZYnHNQVyIOOyxMqqYOXqDorQsNHWw==";
+        };
+        _75pWf3XT = {
+            "id" = "75pWf3XT";
+            "file" = "[1.19.4]TimelessPower-3.1-Forge.jar";
+            "hash" = "sha512-XvLnKV0zlfMiLxNmzI7wPmXPChMyLZewye1xocHShCAqAAAdLmy7eweb09lZh1DhUEFSMEqlYVsm1p70sIBUGg==";
+        };
+        _TKzBrxAd = {
+            "id" = "TKzBrxAd";
+            "file" = "[1.20.1]TimelessPower-3.1-Forge.jar";
+            "hash" = "sha512-ZdVPX96B2xtADA/a7ypcFDUdOTEIGXRq6cTGZ/uw8E1tQHrXW4YBadDTwKaWy1gvcL+wbyT3/Kmo31mpkuMNLg==";
+        };
+        _7pmzQSpP = {
+            "id" = "7pmzQSpP";
+            "file" = "[1.21.1]TimelessPower-3.1-NeoForge.jar";
+            "hash" = "sha512-xo8g2ficN3o7+qx82oOgSm7Vy4R+mctFpZ/C4FGm9qLr9Nyz3EwMuwDT+Pqlegs2ZHh0UaBH8XQ9qmCK8l7L3A==";
+        };
     in {
         "4IOyYPbF" = _4IOyYPbF;
         "G55E1QG5" = _G55E1QG5;
@@ -146,19 +176,27 @@ let
         "FNHWlnHd" = _FNHWlnHd;
         "er4nv9LI" = _er4nv9LI;
         "Jg9W08Vo" = _Jg9W08Vo;
+        "Y1pUyq9L" = _Y1pUyq9L;
+        "JqRXK9v1" = _JqRXK9v1;
+        "HNl4md7V" = _HNl4md7V;
+        "75pWf3XT" = _75pWf3XT;
+        "TKzBrxAd" = _TKzBrxAd;
+        "7pmzQSpP" = _7pmzQSpP;
         "forge-1.12.2" = _4IOyYPbF;
-        "forge-1.16.5" = _fw9ih9AG;
-        "forge-1.18.2" = _zCyQTUdD;
-        "forge-1.19.2" = _FNHWlnHd;
-        "forge-1.19.4" = _er4nv9LI;
-        "forge-1.20.1" = _Jg9W08Vo;
+        "forge-1.16.5" = _Y1pUyq9L;
+        "forge-1.18.2" = _JqRXK9v1;
+        "forge-1.19.2" = _HNl4md7V;
+        "forge-1.19.4" = _75pWf3XT;
+        "forge-1.20.1" = _TKzBrxAd;
+        "neoforge-1.21.1" = _7pmzQSpP;
         "pkg-1.3" = _4IOyYPbF;
         "pkg-2.3" = _ZeJV0ImE;
         "pkg-2.3.1" = _Br7xMr0e;
         "pkg-2.4" = _LTbKkBjS;
         "pkg-2.5" = _P7v1evI9;
         "pkg-3.0" = _Jg9W08Vo;
-        "default" = _Jg9W08Vo;
+        "pkg-3.1" = _7pmzQSpP;
+        "default" = _7pmzQSpP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timeless-power";

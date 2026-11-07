@@ -6176,6 +6176,11 @@ let
             "file" = "supermartijn642corelib-1.1.26d-neoforge-mc26.3.jar";
             "hash" = "sha512-/6Jmurud9ar0hD2ItKJUqvmrwzNEDdGJhLb50ZKZ8uZRXExo6AlkAbvzSEJF+uAyf3Kb7+dK4BH3cJKJTHAufQ==";
         };
+        _ikJwECAC = {
+            "id" = "ikJwECAC";
+            "file" = "supermartijn642corelib-1.1.26b-forge-mc1.17.jar";
+            "hash" = "sha512-qJj0EnfKu0FR8LytDMt5YFBL9dg9ftmq3hkx8bZZhXmh4i0w+yDEOfyL98d/MO+vez3VjWICZmEAhK+tytg9Sw==";
+        };
     in {
         "aRdrikdw" = _aRdrikdw;
         "xJtY1AFz" = _xJtY1AFz;
@@ -7412,6 +7417,7 @@ let
         "fvqbSSWZ" = _fvqbSSWZ;
         "jjNF8u5B" = _jjNF8u5B;
         "vAR7QKK7" = _vAR7QKK7;
+        "ikJwECAC" = _ikJwECAC;
         "forge-1.12" = _zVMyntfG;
         "forge-1.12.1" = _zVMyntfG;
         "forge-1.12.2" = _zVMyntfG;
@@ -7429,8 +7435,8 @@ let
         "forge-1.16.3" = _lWdYZHmV;
         "forge-1.16.4" = _lWdYZHmV;
         "forge-1.16.5" = _lWdYZHmV;
-        "forge-1.17" = _ddTSPlnY;
-        "forge-1.17.1" = _ddTSPlnY;
+        "forge-1.17" = _ikJwECAC;
+        "forge-1.17.1" = _ikJwECAC;
         "forge-1.18" = _BsjvwOkP;
         "forge-1.18.1" = _BsjvwOkP;
         "forge-1.18.2" = _BsjvwOkP;
@@ -8798,7 +8804,8 @@ let
         "pkg-1.1.26b-neoforge-mc26.1" = _fvqbSSWZ;
         "pkg-1.1.26b-neoforge-mc26.2" = _jjNF8u5B;
         "pkg-1.1.26d-neoforge-mc26.3" = _vAR7QKK7;
-        "default" = _vAR7QKK7;
+        "pkg-1.1.26b-forge-mc1.17" = _ikJwECAC;
+        "default" = _ikJwECAC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "supermartijn642s-core-lib";

@@ -91,6 +91,26 @@ let
             "file" = "Invisible Glass 1.21.9-1.21.10.zip";
             "hash" = "sha512-EN2K51jAUcazdjREOlTMHhrHbAyAxOebdzZONsay7l/0H+WW5OI0tzBfALhcb+rK16nRILdpcnbumyAR5VDjcQ==";
         };
+        _dAMgRyDk = {
+            "id" = "dAMgRyDk";
+            "file" = "Invisible Glass 1.21.11.zip";
+            "hash" = "sha512-cd+ETqPXRdN2MUzT4hO+8ge/UW9CnYMEOO/AwBSyA8XvqpQjMQhzWvj59+0a7xEQToB5QroOiCExCFyVj+T28Q==";
+        };
+        _6dDq1ZeD = {
+            "id" = "6dDq1ZeD";
+            "file" = "Invisible Glass 26.1-26.1.2.zip";
+            "hash" = "sha512-XmMg5yyZ9uqqvTu5SC4XVmHCzuX3qIYVGylejHiik//c2U4CmL/z4wTUySe49lK8dQ7N7SC03YIIZXw771RaZg==";
+        };
+        _Qw7dLrGB = {
+            "id" = "Qw7dLrGB";
+            "file" = "Invisible Glass 26.2.zip";
+            "hash" = "sha512-JgyzFgplGKagRZYYbR9as+oiX4a4Alxy3/mYg2qxat0HOUQlBOuwUgSUKjctMTfS4IB5kvEPt+zvwX4Dslkxdg==";
+        };
+        _eo4meIyu = {
+            "id" = "eo4meIyu";
+            "file" = "Invisible Glass 26.3.zip";
+            "hash" = "sha512-r0HQzxc9GT1ndvNGwL8KuAIef4V2JJCQrw1tvAs4/yJJ9nwDFI3lCzMAy4+/7c2vBbDcDh4Ei9I919u7ALu/Yg==";
+        };
     in {
         "u3pmp9We" = _u3pmp9We;
         "CJYDPYaZ" = _CJYDPYaZ;
@@ -110,6 +130,10 @@ let
         "q26sdnyo" = _q26sdnyo;
         "JV9edBV4" = _JV9edBV4;
         "1O4nD7cU" = _1O4nD7cU;
+        "dAMgRyDk" = _dAMgRyDk;
+        "6dDq1ZeD" = _6dDq1ZeD;
+        "Qw7dLrGB" = _Qw7dLrGB;
+        "eo4meIyu" = _eo4meIyu;
         "minecraft-1.15" = _u3pmp9We;
         "minecraft-1.15.1" = _u3pmp9We;
         "minecraft-1.15.2" = _u3pmp9We;
@@ -147,9 +171,16 @@ let
         "minecraft-1.21.8" = _JV9edBV4;
         "minecraft-1.21.9" = _1O4nD7cU;
         "minecraft-1.21.10" = _1O4nD7cU;
+        "minecraft-1.21.11" = _dAMgRyDk;
+        "minecraft-26.1" = _6dDq1ZeD;
+        "minecraft-26.1.2" = _6dDq1ZeD;
+        "minecraft-26.1.1" = _6dDq1ZeD;
+        "minecraft-26.2" = _Qw7dLrGB;
+        "minecraft-26.3" = _eo4meIyu;
         "pkg-1.0.0" = _4eBez8WK;
         "pkg-1.0.1" = _1O4nD7cU;
-        "default" = _1O4nD7cU;
+        "pkg-1.0.2" = _eo4meIyu;
+        "default" = _eo4meIyu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisibleglass";

@@ -91,6 +91,26 @@ let
             "file" = "tacz-mesh-loader-fabric-1.21.1-0.1.8-hotfix1.jar";
             "hash" = "sha512-0SWWTcpKtYBo2GdOwoaMPRd7HrFX9Hjv/0EQDvk+QWEsYeBQF9yrr7P1J4P2HDW6/qIdJM/E8yEoMkj1kXNPLA==";
         };
+        _30lYciJN = {
+            "id" = "30lYciJN";
+            "file" = "tacz-mesh-loader-forge-1.20.1-0.2.0.jar";
+            "hash" = "sha512-m6C44FBsHhwkfgFm+9/lT3KR/Zxoid11kc02t1BxwlKFUgvQBwxEIeaqRVUAbs9PwbQi5oQp1MlMHhroq91iBw==";
+        };
+        _jQCTmmTQ = {
+            "id" = "jQCTmmTQ";
+            "file" = "tacz-mesh-loader-fabric-1.20.1-0.2.0.jar";
+            "hash" = "sha512-NtVQcFt6/0MtjDjXuqplqY0nsel4PiEbqb0/PFGLuWxKpYYOS29wPdOy3FTV7fDR76AF/OOWaF+IMDzl/fZS1w==";
+        };
+        _t5PAPN8B = {
+            "id" = "t5PAPN8B";
+            "file" = "tacz-mesh-loader-neoforge-1.21.1-.0.2.0.jar";
+            "hash" = "sha512-JM0y5k5V9U5BN4Ru9Oa5j32IyRZJX98IrFJvc8F363+BjD8eGf/WWlYzjJOChcOYNJ4D+M5rmlIy49YYRk9y7A==";
+        };
+        _xtfRr11I = {
+            "id" = "xtfRr11I";
+            "file" = "tacz-mesh-loader-fabric-1.21.1-0.2.0.jar";
+            "hash" = "sha512-Oq01aNp3vVLRB+G43W8f/mGPP3Fo5BT35C6OVRRDW52AA0DA/+kPL2OklPYL4/fP3+q+kYqSnTi845Z9mq9WAQ==";
+        };
     in {
         "96zPunJ9" = _96zPunJ9;
         "b9p8tyiC" = _b9p8tyiC;
@@ -110,16 +130,21 @@ let
         "ufO3DlxM" = _ufO3DlxM;
         "z5hrYrq1" = _z5hrYrq1;
         "QgREwV73" = _QgREwV73;
-        "forge-1.20.1" = _PGQI9VTN;
-        "fabric-1.20.1" = _z5hrYrq1;
-        "fabric-1.21.1" = _QgREwV73;
-        "neoforge-1.21.1" = _vf3mu3IU;
+        "30lYciJN" = _30lYciJN;
+        "jQCTmmTQ" = _jQCTmmTQ;
+        "t5PAPN8B" = _t5PAPN8B;
+        "xtfRr11I" = _xtfRr11I;
+        "forge-1.20.1" = _30lYciJN;
+        "fabric-1.20.1" = _jQCTmmTQ;
+        "fabric-1.21.1" = _xtfRr11I;
+        "neoforge-1.21.1" = _t5PAPN8B;
         "pkg-0.1.5" = _EB8G9mbd;
         "pkg-0.1.6" = _zbZz3VtT;
         "pkg-0.1.7" = _wsIljAdE;
         "pkg-0.1.8" = _ufO3DlxM;
         "pkg-0.1.8-hotfix1" = _QgREwV73;
-        "default" = _QgREwV73;
+        "pkg-0.2.0" = _xtfRr11I;
+        "default" = _xtfRr11I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-mesh-loader";

@@ -131,6 +131,16 @@ let
             "file" = "schematicenergistics-1.21.1-1.5.5.jar";
             "hash" = "sha512-phrH2WY+lFmFwuVWcOQ4j2AI7eKhpdvIXRYgiYOoxm5rdpABwhRW7i1j6yTJoK41PFge/AroqIMyAsRQKLbEaA==";
         };
+        _r9ALd8fk = {
+            "id" = "r9ALd8fk";
+            "file" = "schematicenergistics-1.21.1-1.5.6.jar";
+            "hash" = "sha512-XkpdyxtrjSBa5hdb77bz86WA/Z7HRAwXzoVyCMWwINumsBB4+SBbvElq7JHiaPyavWZRMRozs1hnsUsuniGi7w==";
+        };
+        _V7q9NTIj = {
+            "id" = "V7q9NTIj";
+            "file" = "schematicenergistics-1.20.1-1.5.6-forge.jar";
+            "hash" = "sha512-sJ3mjeflPY8r9O6pQ5X0gOlRx6IvfTZli5U0o+4i2QYVal4jWVm0Pwhe32zDB1EXjyGxXoaPzBMC0SSPZHdLHQ==";
+        };
     in {
         "7hfmgVsQ" = _7hfmgVsQ;
         "F30mhIrP" = _F30mhIrP;
@@ -158,8 +168,10 @@ let
         "qCf0RwNi" = _qCf0RwNi;
         "MDzO6TMH" = _MDzO6TMH;
         "th7Hnxq3" = _th7Hnxq3;
-        "neoforge-1.21.1" = _th7Hnxq3;
-        "forge-1.20.1" = _MDzO6TMH;
+        "r9ALd8fk" = _r9ALd8fk;
+        "V7q9NTIj" = _V7q9NTIj;
+        "neoforge-1.21.1" = _r9ALd8fk;
+        "forge-1.20.1" = _V7q9NTIj;
         "pkg-1.0.0" = _F30mhIrP;
         "pkg-1.1.0" = _8SwwvNRN;
         "pkg-1.1.1" = _3xDUzWhC;
@@ -176,7 +188,8 @@ let
         "pkg-1.5.4" = _EdbqewHz;
         "pkg-1.5.4a" = _qCf0RwNi;
         "pkg-1.5.5" = _th7Hnxq3;
-        "default" = _th7Hnxq3;
+        "pkg-1.5.6" = _V7q9NTIj;
+        "default" = _V7q9NTIj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "schematic-energistics";

@@ -51,6 +51,56 @@ let
             "file" = "NoFreeze 1.21-1.21.1.zip";
             "hash" = "sha512-uj6z9vWfMVxDZQM7GC3bZFqXR4NFyvT3bc7mf0KI/rs7Qrttti9Yu2fj11Cwi07ro/FLuC9M0G1UNwXKCoqYpQ==";
         };
+        _IyeYcAn7 = {
+            "id" = "IyeYcAn7";
+            "file" = "No Freeze 1.21.2-1.21.3.zip";
+            "hash" = "sha512-zspuVMoDRJXkxyi6c2mdiL+DRSyVC+8F+MZijzIZ8hfin/7PQVgKCvQ02JXuLsinvS0B4KDthcDjGkLKS/0Kvg==";
+        };
+        _T4CENiAp = {
+            "id" = "T4CENiAp";
+            "file" = "No Freeze 1.21.4.zip";
+            "hash" = "sha512-gzo6AqxZmrhbfg2wtOLfQ4DZadiujueaxFc2KABBCku1Ssk/g0Isyh+DI5OnH16EXnhd6CADwN0gyxid324mWQ==";
+        };
+        _hquAHcPo = {
+            "id" = "hquAHcPo";
+            "file" = "No Freeze 1.21.5.zip";
+            "hash" = "sha512-o2UZEHPknz/1Bf6dK9QKQTJDNyY3OjMf7Lisa+9hbUJ1oPwzIroq7+PUoRkSRWBqYmS3XHbtZ+Wk6Q6c3Eewlg==";
+        };
+        _4IJvodzo = {
+            "id" = "4IJvodzo";
+            "file" = "No Freeze 1.21.6.zip";
+            "hash" = "sha512-RWgLqNlg6GwLfnb1tQkJD2/rnyxU5/SFRsvdfQsiMHmM3DC+aEQHRLIXCIpS8iItyF5km+3EbdPwLEYvavZUBA==";
+        };
+        _bs9yDoBd = {
+            "id" = "bs9yDoBd";
+            "file" = "No Freeze 1.21.7-1.21.8.zip";
+            "hash" = "sha512-K4XAPiezfNWThumcf4rbsaEs2+gP+LR3PA67Z8Q0HfKJBLp4E8EQKZfhsTtdDTjyFlPXZx7XNc1z65LUcu2Pxg==";
+        };
+        _HUQ0TiPE = {
+            "id" = "HUQ0TiPE";
+            "file" = "No Freeze 1.21.9-1.21.10.zip";
+            "hash" = "sha512-d07gniI4xF/ZVHlUQTEgnXTjIAB1AGGAjZ03j6gwBY8NnqQEarlh4hu21NDYkeVgk0380btBZuY+YjRoxPi7ww==";
+        };
+        _TlVvmHLu = {
+            "id" = "TlVvmHLu";
+            "file" = "No Freeze 1.21.11.zip";
+            "hash" = "sha512-yW7W/DDdMxBNGWYU5hOdd1Yd53kbh+JgRW9HoBuLpztoGDpDLuAgTmjzzu6VBVC8j9FnosPjWnEBazgYWgHvTg==";
+        };
+        _zu62Cca6 = {
+            "id" = "zu62Cca6";
+            "file" = "No Freeze 26.1-26.1.2.zip";
+            "hash" = "sha512-pp4KWzN+ivDXvLpDkctg0SFFn7nFgOinsAKPWmevC7pjzHjhbWJf+HCrBqFPjAfDiVB2ErhKOAKxsB0pHFKoSA==";
+        };
+        _eLuvygr2 = {
+            "id" = "eLuvygr2";
+            "file" = "No Freeze 26.2.zip";
+            "hash" = "sha512-C0bhdn40OQUmpgCPNgvLSolEH9WijgMAZoqmDRqTxpAcuBfH7qXvW5bNjubFartLnLJS3utDNSVHuEvXyxHrGw==";
+        };
+        _NGMGCHuQ = {
+            "id" = "NGMGCHuQ";
+            "file" = "No Freeze 26.3.zip";
+            "hash" = "sha512-l89bcvZB6o4sqaEADi74FyBoYvwVX0tpA95vkmJ8VUPxm/mhtLQibeQa6rvm9zVMg0LpeBp48iqT07gGcZ3Hwg==";
+        };
     in {
         "9xLPWXUo" = _9xLPWXUo;
         "k85IEKc2" = _k85IEKc2;
@@ -62,6 +112,16 @@ let
         "VRrDVvT9" = _VRrDVvT9;
         "h4yBZQv1" = _h4yBZQv1;
         "IjiiN8J4" = _IjiiN8J4;
+        "IyeYcAn7" = _IyeYcAn7;
+        "T4CENiAp" = _T4CENiAp;
+        "hquAHcPo" = _hquAHcPo;
+        "4IJvodzo" = _4IJvodzo;
+        "bs9yDoBd" = _bs9yDoBd;
+        "HUQ0TiPE" = _HUQ0TiPE;
+        "TlVvmHLu" = _TlVvmHLu;
+        "zu62Cca6" = _zu62Cca6;
+        "eLuvygr2" = _eLuvygr2;
+        "NGMGCHuQ" = _NGMGCHuQ;
         "minecraft-1.17" = _9xLPWXUo;
         "minecraft-1.17.1" = _9xLPWXUo;
         "minecraft-1.18" = _k85IEKc2;
@@ -81,9 +141,24 @@ let
         "minecraft-1.20.6" = _h4yBZQv1;
         "minecraft-1.21" = _IjiiN8J4;
         "minecraft-1.21.1" = _IjiiN8J4;
+        "minecraft-1.21.2" = _IyeYcAn7;
+        "minecraft-1.21.3" = _IyeYcAn7;
+        "minecraft-1.21.4" = _T4CENiAp;
+        "minecraft-1.21.5" = _hquAHcPo;
+        "minecraft-1.21.6" = _4IJvodzo;
+        "minecraft-1.21.7" = _bs9yDoBd;
+        "minecraft-1.21.8" = _bs9yDoBd;
+        "minecraft-1.21.9" = _HUQ0TiPE;
+        "minecraft-1.21.10" = _HUQ0TiPE;
+        "minecraft-1.21.11" = _TlVvmHLu;
+        "minecraft-26.1" = _zu62Cca6;
+        "minecraft-26.1.1" = _zu62Cca6;
+        "minecraft-26.1.2" = _zu62Cca6;
+        "minecraft-26.2" = _eLuvygr2;
+        "minecraft-26.3" = _NGMGCHuQ;
         "pkg-1.0.0" = _h4yBZQv1;
-        "pkg-1.0.1" = _IjiiN8J4;
-        "default" = _IjiiN8J4;
+        "pkg-1.0.1" = _NGMGCHuQ;
+        "default" = _NGMGCHuQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nofreeze";

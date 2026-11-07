@@ -61,6 +61,16 @@ let
             "file" = "lower-shields - 1.21.4 - 1.0.1.zip";
             "hash" = "sha512-fQSF0/pbSjnqgUqmIW0hkPr/wIpnrLp0SZxZXqTeYREEtlwTwjuaNWsEOAvZdIMpSTeychuZ/mtzu/re8tPwKw==";
         };
+        _5V1aM8Qx = {
+            "id" = "5V1aM8Qx";
+            "file" = "lower-shields - 1.21 - 1.21.1 - 1.0.1.zip";
+            "hash" = "sha512-pX5t4FYo7SckCO08ChGmxRPBJOCchIIDEUts2+REmmm9d/VGOGhmjNmxVyvM63tcojAluZdS+BVnvRU/sp/u3w==";
+        };
+        _GFubpmfz = {
+            "id" = "GFubpmfz";
+            "file" = "lower-shields - 1.21.2 - 1.21.3 - 1.0.1.zip";
+            "hash" = "sha512-Cc6u+Rw9VQh75RQuLTi1bXFwgFgvS8ZxKwA5woTCIE2lsML0VpvHDKbFphV8F+ASBFnLmbNDLrl6TWuQPishFg==";
+        };
     in {
         "hWAV4Pn5" = _hWAV4Pn5;
         "QdbxTGq5" = _QdbxTGq5;
@@ -74,6 +84,8 @@ let
         "pQzR17eJ" = _pQzR17eJ;
         "Xc2SU4O8" = _Xc2SU4O8;
         "qrH2l6te" = _qrH2l6te;
+        "5V1aM8Qx" = _5V1aM8Qx;
+        "GFubpmfz" = _GFubpmfz;
         "minecraft-1.21.11" = _68sXueqS;
         "minecraft-26.1" = _QdbxTGq5;
         "minecraft-26.1.1" = _COeNjGxA;
@@ -87,9 +99,13 @@ let
         "minecraft-1.21.6" = _pQzR17eJ;
         "minecraft-1.21.5" = _Xc2SU4O8;
         "minecraft-1.21.4" = _qrH2l6te;
+        "minecraft-1.21" = _5V1aM8Qx;
+        "minecraft-1.21.1" = _5V1aM8Qx;
+        "minecraft-1.21.2" = _GFubpmfz;
+        "minecraft-1.21.3" = _GFubpmfz;
         "pkg-1.0.0" = _hWAV4Pn5;
-        "pkg-1.0.1" = _qrH2l6te;
-        "default" = _qrH2l6te;
+        "pkg-1.0.1" = _GFubpmfz;
+        "default" = _GFubpmfz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lower-shields";

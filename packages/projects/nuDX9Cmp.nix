@@ -456,6 +456,26 @@ let
             "file" = "End-Parasitize and Convert All-0.148e-1.20.1.jar";
             "hash" = "sha512-U/2f2x87qHP6MLR3AFCLdwuq1yP5YNbj2vSA8JNj6z+4WqHDb37Puc8mXKAkRywiSY3LwlA4vd4LThqm+HExcw==";
         };
+        _D7RHOESK = {
+            "id" = "D7RHOESK";
+            "file" = "End-Parasitize and Convert All-0.148f-1.20.1.jar";
+            "hash" = "sha512-rWBx2p4z2Pgp1voKKf9Ulw8UrOw5mPE3J4wUmcgObmDme+1mMGimhk3oXWTUCFoSQOj4jfdw6sFlPw93JaxQBQ==";
+        };
+        _ighdeerx = {
+            "id" = "ighdeerx";
+            "file" = "End-Parasitize and Convert All-0.148f-26.1.2.jar";
+            "hash" = "sha512-TrLHBPbniJOMCJTCAbozCtmZn1jwsLAgG6VLNo0UUzVTypekZgQCITSIKqqgOz/jhO4bfCdRXMbgy6KwGGEwBw==";
+        };
+        _NpCnfjk4 = {
+            "id" = "NpCnfjk4";
+            "file" = "End-Parasitize and Convert All-0.148g-1.20.1.jar";
+            "hash" = "sha512-EpgyKs2EEu8wP4NCgBaNdZH8tI+0zkZdGiLyzhI1zJGgM7KY4Zu6M5QXU0kubFI1lKIiHxXBTX3fSfBW6tZPow==";
+        };
+        _fwR0708k = {
+            "id" = "fwR0708k";
+            "file" = "End-Parasitize and Convert All-0.148g-26.1.2.jar";
+            "hash" = "sha512-bQG3Jwxm9iroyxBSrvwRUGDYshk4XBevIZZtwOSA90yF2kzC3CBRcxoFVkxhII5T2IwI4fgfgeh9ol3uvLfing==";
+        };
     in {
         "LbUCbmhx" = _LbUCbmhx;
         "IG51hd1O" = _IG51hd1O;
@@ -548,9 +568,13 @@ let
         "c6IucRYm" = _c6IucRYm;
         "2QBd0whm" = _2QBd0whm;
         "PIyP5fRm" = _PIyP5fRm;
-        "forge-1.20.1" = _PIyP5fRm;
+        "D7RHOESK" = _D7RHOESK;
+        "ighdeerx" = _ighdeerx;
+        "NpCnfjk4" = _NpCnfjk4;
+        "fwR0708k" = _fwR0708k;
+        "forge-1.20.1" = _NpCnfjk4;
         "forge-1.12.2" = _GU2CXfkn;
-        "neoforge-26.1.2" = _2QBd0whm;
+        "neoforge-26.1.2" = _fwR0708k;
         "pkg-0.3.3" = _LbUCbmhx;
         "pkg-0.3.3a" = _IG51hd1O;
         "pkg-0.3.3b" = _1vxdz2mH;
@@ -631,7 +655,9 @@ let
         "pkg-0.148c" = _gwoZL1aB;
         "pkg-0.148d" = _c6IucRYm;
         "pkg-0.148e" = _PIyP5fRm;
-        "default" = _PIyP5fRm;
+        "pkg-0.148f" = _ighdeerx;
+        "pkg-0.148g" = _fwR0708k;
+        "default" = _fwR0708k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epca";

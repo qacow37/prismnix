@@ -386,6 +386,11 @@ let
             "file" = "WTMWD v1.4.3.zip";
             "hash" = "sha512-HTbd0RGZrOnDlSRsdkQ3S+j4FVh7hVjlnRp3PsuVgB6LvGggooN9HT4Bl4LG34rwWgQH4asNrJIpokosDZFFNQ==";
         };
+        _APCevSVa = {
+            "id" = "APCevSVa";
+            "file" = "wtmwd-v1.4.3.jar";
+            "hash" = "sha512-LhrXzyMdmpI7q1IPXBc/6KJ84LgufsEffAL46BW06zfYYESMBl43sGyO4SKTW1i8KzrOHYuPkwQvqz5NdhXEHg==";
+        };
     in {
         "WHBspHBh" = _WHBspHBh;
         "ie1Dj7J2" = _ie1Dj7J2;
@@ -464,6 +469,7 @@ let
         "r4UznxXp" = _r4UznxXp;
         "EnhGjBuu" = _EnhGjBuu;
         "bCkFezsi" = _bCkFezsi;
+        "APCevSVa" = _APCevSVa;
         "datapack-1.21.2" = _4YaY6nLa;
         "datapack-1.21.3" = _4YaY6nLa;
         "datapack-1.21.4" = _4YaY6nLa;
@@ -635,6 +641,7 @@ let
         "fabric-26.3-snapshot-2" = _EnhGjBuu;
         "fabric-26.3-snapshot-7" = _EnhGjBuu;
         "fabric-26.3-snapshot-8" = _EnhGjBuu;
+        "fabric-26.3" = _APCevSVa;
         "forge-1.21" = _S6XiGhFP;
         "forge-1.21.1" = _S6XiGhFP;
         "forge-1.21.2" = _IfGb6hYP;
@@ -722,6 +729,7 @@ let
         "forge-26.3-snapshot-2" = _EnhGjBuu;
         "forge-26.3-snapshot-7" = _EnhGjBuu;
         "forge-26.3-snapshot-8" = _EnhGjBuu;
+        "forge-26.3" = _APCevSVa;
         "neoforge-1.21" = _S6XiGhFP;
         "neoforge-1.21.1" = _S6XiGhFP;
         "neoforge-1.21.2" = _IfGb6hYP;
@@ -809,6 +817,7 @@ let
         "neoforge-26.3-snapshot-2" = _EnhGjBuu;
         "neoforge-26.3-snapshot-7" = _EnhGjBuu;
         "neoforge-26.3-snapshot-8" = _EnhGjBuu;
+        "neoforge-26.3" = _APCevSVa;
         "quilt-1.21" = _S6XiGhFP;
         "quilt-1.21.1" = _S6XiGhFP;
         "quilt-1.21.2" = _IfGb6hYP;
@@ -896,6 +905,7 @@ let
         "quilt-26.3-snapshot-2" = _EnhGjBuu;
         "quilt-26.3-snapshot-7" = _EnhGjBuu;
         "quilt-26.3-snapshot-8" = _EnhGjBuu;
+        "quilt-26.3" = _APCevSVa;
         "pkg-1.0.0" = _WHBspHBh;
         "pkg-v1.0.1" = _ie1Dj7J2;
         "pkg-v1.1.1" = _GAiFbLIi;
@@ -973,7 +983,8 @@ let
         "pkg-v1.4.2-26.3snapshotX" = _r4UznxXp;
         "pkg-v1.4.2-26.3snapshotX+mod" = _EnhGjBuu;
         "pkg-v1.4.3" = _bCkFezsi;
-        "default" = _bCkFezsi;
+        "pkg-v1.4.3+mod" = _APCevSVa;
+        "default" = _APCevSVa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wtmwd";

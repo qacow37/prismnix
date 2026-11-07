@@ -221,6 +221,16 @@ let
             "file" = "PaginatedAdvancements-2.8.2+26.2-neoforge.jar";
             "hash" = "sha512-b6wEueGNhFEORIcdkl1RAJ0C+Wujn0Yvu4gJhf2ViKV36Cjg0+NbiJQYIpU1Y+G5i8B3YM1JBvoqvQdaL/GdAA==";
         };
+        _coMs94me = {
+            "id" = "coMs94me";
+            "file" = "paginatedadvancements-2.9.0+26.3.jar";
+            "hash" = "sha512-JpYPzIqo5psqYJz1q0PDeXJU6LEusH3vC4mSQPPFa6ZE2mYwKXTZKBVRQr4T/cUgMtJBKe2lLpBwse3CQN8u5A==";
+        };
+        _AwBbwBb2 = {
+            "id" = "AwBbwBb2";
+            "file" = "PaginatedAdvancements-2.9.0+26.3-neoforge.jar";
+            "hash" = "sha512-NsH9AVdHN3U0Hz4A4CPcBvGNO5WFbMOhFDmDQs9wuw5YtsbsjhMXyrWk6+fGgkkB55SkgElSb2XtIGA/NTOGnQ==";
+        };
     in {
         "hat2V3ej" = _hat2V3ej;
         "BAooAzeQ" = _BAooAzeQ;
@@ -266,6 +276,8 @@ let
         "cOBUCq6i" = _cOBUCq6i;
         "Ra3zz0eG" = _Ra3zz0eG;
         "B8C7aIUR" = _B8C7aIUR;
+        "coMs94me" = _coMs94me;
+        "AwBbwBb2" = _AwBbwBb2;
         "fabric-1.18.1" = _hat2V3ej;
         "fabric-1.18.2" = _cqjw7MUW;
         "fabric-1.19" = _ghQM9rO1;
@@ -294,6 +306,7 @@ let
         "fabric-26.1.1" = _4c7iLjw0;
         "fabric-26.1.2" = _4c7iLjw0;
         "fabric-26.2" = _Ra3zz0eG;
+        "fabric-26.3" = _coMs94me;
         "quilt-1.19" = _ghQM9rO1;
         "quilt-1.19.1" = _ghQM9rO1;
         "quilt-1.19.2" = _ghQM9rO1;
@@ -315,6 +328,7 @@ let
         "neoforge-26.1.1" = _cOBUCq6i;
         "neoforge-26.1.2" = _cOBUCq6i;
         "neoforge-26.2" = _B8C7aIUR;
+        "neoforge-26.3" = _AwBbwBb2;
         "pkg-1.0.0" = _hat2V3ej;
         "pkg-1.0.1-1.18.2" = _BAooAzeQ;
         "pkg-1.0.1-1.19" = _nPdDWO3e;
@@ -353,7 +367,9 @@ let
         "pkg-2.8.2+26.1-neoforge" = _cOBUCq6i;
         "pkg-2.8.0+26.2" = _Ra3zz0eG;
         "pkg-2.8.2+26.2-neoforge" = _B8C7aIUR;
-        "default" = _B8C7aIUR;
+        "pkg-2.9.0+26.3" = _coMs94me;
+        "pkg-2.9.0+26.3-neoforge" = _AwBbwBb2;
+        "default" = _AwBbwBb2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paginatedadvancements";

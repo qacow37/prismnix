@@ -201,6 +201,11 @@ let
             "file" = "NMNG v1.0.19-Release.zip";
             "hash" = "sha512-oV5Jg1xjCyBOvdhbTOfqhgelK5VYSoVlXZvxBMCzX3ERRR5+tc9TOeZSIB+QiDlZhXvspaQzFoseX2DzPJhCRA==";
         };
+        _n0SemDGl = {
+            "id" = "n0SemDGl";
+            "file" = "nmng-v1.0.19.jar";
+            "hash" = "sha512-PBXjFdg0G2GqXc41M/SAfjw7eoosWCZq9wHj967Zv7DBSKp+Q37cRYsSUOokWrNW/CTYsNCtYQKOSyyVyZx4Sw==";
+        };
     in {
         "2Ks5oDuH" = _2Ks5oDuH;
         "Rk0Y9Tss" = _Rk0Y9Tss;
@@ -242,6 +247,7 @@ let
         "6aKDqYiB" = _6aKDqYiB;
         "A8dyxETq" = _A8dyxETq;
         "AO5v6wFR" = _AO5v6wFR;
+        "n0SemDGl" = _n0SemDGl;
         "datapack-1.21.10" = _xA3hdPN2;
         "datapack-25w41a" = _2Ks5oDuH;
         "datapack-25w42a" = _2Ks5oDuH;
@@ -341,6 +347,7 @@ let
         "fabric-26.3-snapshot-2" = _A8dyxETq;
         "fabric-26.3-snapshot-7" = _A8dyxETq;
         "fabric-26.3-snapshot-8" = _A8dyxETq;
+        "fabric-26.3" = _n0SemDGl;
         "forge-1.21.10" = _NNKnpZi3;
         "forge-25w41a" = _Rk0Y9Tss;
         "forge-25w42a" = _Rk0Y9Tss;
@@ -391,6 +398,7 @@ let
         "forge-26.3-snapshot-2" = _A8dyxETq;
         "forge-26.3-snapshot-7" = _A8dyxETq;
         "forge-26.3-snapshot-8" = _A8dyxETq;
+        "forge-26.3" = _n0SemDGl;
         "neoforge-1.21.10" = _NNKnpZi3;
         "neoforge-25w41a" = _Rk0Y9Tss;
         "neoforge-25w42a" = _Rk0Y9Tss;
@@ -441,6 +449,7 @@ let
         "neoforge-26.3-snapshot-2" = _A8dyxETq;
         "neoforge-26.3-snapshot-7" = _A8dyxETq;
         "neoforge-26.3-snapshot-8" = _A8dyxETq;
+        "neoforge-26.3" = _n0SemDGl;
         "quilt-1.21.10" = _NNKnpZi3;
         "quilt-25w41a" = _Rk0Y9Tss;
         "quilt-25w42a" = _Rk0Y9Tss;
@@ -491,6 +500,7 @@ let
         "quilt-26.3-snapshot-2" = _A8dyxETq;
         "quilt-26.3-snapshot-7" = _A8dyxETq;
         "quilt-26.3-snapshot-8" = _A8dyxETq;
+        "quilt-26.3" = _n0SemDGl;
         "pkg-v1.0.0" = _2Ks5oDuH;
         "pkg-v1.0.0+mod" = _Rk0Y9Tss;
         "pkg-1.0.0" = _YCZjZnvY;
@@ -531,7 +541,8 @@ let
         "pkg-v1.0.18-26.3snapshotX" = _6aKDqYiB;
         "pkg-v1.0.18-26.3snapshotX+mod" = _A8dyxETq;
         "pkg-v1.0.19" = _AO5v6wFR;
-        "default" = _AO5v6wFR;
+        "pkg-v1.0.19+mod" = _n0SemDGl;
+        "default" = _n0SemDGl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nmng";

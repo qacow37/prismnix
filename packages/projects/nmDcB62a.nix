@@ -3466,6 +3466,11 @@ let
             "file" = "modernfix-neoforge-5.27.26+mc26.1.2.jar";
             "hash" = "sha512-pcA4l8cxPll71V0FuGON7JkVpwfLikkhfhZg1NIQPjsYAOgiW9LabpblTj6Lx5EZGWJkzzRsUtGqK4K4a5ASBg==";
         };
+        _J49h1v4I = {
+            "id" = "J49h1v4I";
+            "file" = "modernfix-neoforge-5.27.27+mc26.1.2.jar";
+            "hash" = "sha512-ctcyPQwuqB4AoyUS/6HmlL0DvmdYcOW9InkEmlmJLMLM3nnb7EFgrL+P1DxHx173YDaJWeRXuIO1OUGFbWgMMQ==";
+        };
     in {
         "YmKitGGB" = _YmKitGGB;
         "bakWifEu" = _bakWifEu;
@@ -4160,6 +4165,7 @@ let
         "ZDZENbHH" = _ZDZENbHH;
         "Ys9Tnajc" = _Ys9Tnajc;
         "Y6wK36g3" = _Y6wK36g3;
+        "J49h1v4I" = _J49h1v4I;
         "forge-1.16.5" = _Cc0b1kXl;
         "forge-1.18.2" = _Vlkqd178;
         "forge-1.19.2" = _FqoRZlrr;
@@ -4205,7 +4211,7 @@ let
         "neoforge-1.21.1" = _ZDZENbHH;
         "neoforge-1.21.4" = _xbg7UvQT;
         "neoforge-26.1" = _kVUTFg9G;
-        "neoforge-26.1.2" = _Y6wK36g3;
+        "neoforge-26.1.2" = _J49h1v4I;
         "pkg-1.12.2" = _YmKitGGB;
         "pkg-2.3.2" = _bakWifEu;
         "pkg-3.3.1" = _lesun1xH;
@@ -4608,7 +4614,8 @@ let
         "pkg-5.27.27+mc1.21.1" = _ZDZENbHH;
         "pkg-5.27.25+mc26.1.2" = _Ys9Tnajc;
         "pkg-5.27.26+mc26.1.2" = _Y6wK36g3;
-        "default" = _Y6wK36g3;
+        "pkg-5.27.27+mc26.1.2" = _J49h1v4I;
+        "default" = _J49h1v4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modernfix";

@@ -126,6 +126,11 @@ let
             "file" = "thunderbolt-forge-1.20.1-2.0.4.jar";
             "hash" = "sha512-6G3/DfialF7mYicZQ9ludZHpzOa1BHICboo5UpOx/4I3V2ToSifCdCb+z6NgWx6WOetvh7BwqDRAC/4vcR2hFw==";
         };
+        _v6bJHg61 = {
+            "id" = "v6bJHg61";
+            "file" = "thunderbolt-forge-1.20.1-2.0.5.jar";
+            "hash" = "sha512-bVJ+k8O2r3VcKZ1lkJ2SIsCGfI0t08UNzh++jDvd3DrBPsPIfh7JOUrNn7C6JKhQjfSd6XEFnI4VoYtGYMcf2A==";
+        };
     in {
         "abh5u8xl" = _abh5u8xl;
         "MQBdRAju" = _MQBdRAju;
@@ -152,8 +157,9 @@ let
         "i3H7uX2O" = _i3H7uX2O;
         "Z9Rv1fnY" = _Z9Rv1fnY;
         "9r0C4yq7" = _9r0C4yq7;
+        "v6bJHg61" = _v6bJHg61;
         "neoforge-1.21.1" = _i3H7uX2O;
-        "forge-1.20.1" = _9r0C4yq7;
+        "forge-1.20.1" = _v6bJHg61;
         "pkg-0.0.1-alpha" = _abh5u8xl;
         "pkg-1.0.1" = _MQBdRAju;
         "pkg-1.0.2" = _54tSmODm;
@@ -178,7 +184,8 @@ let
         "pkg-2.0.3" = _i3H7uX2O;
         "pkg-2.0.3-forge.1.20.1" = _Z9Rv1fnY;
         "pkg-2.0.4-forge.1.20.1" = _9r0C4yq7;
-        "default" = _9r0C4yq7;
+        "pkg-2.0.5-forge.1.20.1" = _v6bJHg61;
+        "default" = _v6bJHg61;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thunderbolt-core";

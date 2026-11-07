@@ -66,6 +66,21 @@ let
             "file" = "ae2ltpp-1.2.4.jar";
             "hash" = "sha512-jnP6K1OdfDjfBAlSQkCxl/mwx/IImys4Hlnbh7WUa2TYlXwLTj9r2Yacdk4w+yGNtwwTgK9Sq+W9es7pc02sMg==";
         };
+        _8Q5CInYx = {
+            "id" = "8Q5CInYx";
+            "file" = "ae2ltpp-1.2.4-beta.jar";
+            "hash" = "sha512-Mhs/sWhFeyV16oHLdIefdm6TmeZkodKKkqHrADOS2l0+q5sfFv5ROqwTvd2Ayg0jlKDM+1ahAW0OUyK8n4TuNQ==";
+        };
+        _8sYVXQuH = {
+            "id" = "8sYVXQuH";
+            "file" = "ae2ltpp-1.2.4-beta2.jar";
+            "hash" = "sha512-8WvEfS1MPl4UBjS71gyDnjtYRlDHZvtv6JQg7LF6joumSJ02XxQnp2hm9Zr/j7n3ZPXq2AAgbMo53h66Sh7JkQ==";
+        };
+        _gGEBWmRX = {
+            "id" = "gGEBWmRX";
+            "file" = "ae2ltpp-forge-1.20.1-1.2.2-beta3.jar";
+            "hash" = "sha512-xpTy6UAmGvEkIth343U8D0QRYGsHJsofOIds5GuQTZbJbDbe2KwDhAH6w5CSj0SXTotVOQSXb/PWx47dzVQA+Q==";
+        };
     in {
         "sHCYUdOr" = _sHCYUdOr;
         "iTehfd8X" = _iTehfd8X;
@@ -80,8 +95,11 @@ let
         "P6TncGXV" = _P6TncGXV;
         "YeSj4awV" = _YeSj4awV;
         "vpinaRV8" = _vpinaRV8;
-        "neoforge-1.21.1" = _vpinaRV8;
-        "forge-1.20.1" = _P6TncGXV;
+        "8Q5CInYx" = _8Q5CInYx;
+        "8sYVXQuH" = _8sYVXQuH;
+        "gGEBWmRX" = _gGEBWmRX;
+        "neoforge-1.21.1" = _8sYVXQuH;
+        "forge-1.20.1" = _gGEBWmRX;
         "pkg-1.0.0" = _sHCYUdOr;
         "pkg-1.0.1" = _iTehfd8X;
         "pkg-1.1.1" = _lwX4Hpyv;
@@ -95,7 +113,10 @@ let
         "pkg-1.2.2-beta2-forge.1.20.1" = _P6TncGXV;
         "pkg-1.2.3" = _YeSj4awV;
         "pkg-1.2.4" = _vpinaRV8;
-        "default" = _vpinaRV8;
+        "pkg-1.2.4-beta" = _8Q5CInYx;
+        "pkg-1.2.4-beta2" = _8sYVXQuH;
+        "pkg-1.2.2-beta3-forge.1.20.1" = _gGEBWmRX;
+        "default" = _gGEBWmRX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2lt-packaged-pattern-provider";

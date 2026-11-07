@@ -376,6 +376,11 @@ let
             "file" = "playercollars-neoforge-26.3-1.3.0.jar";
             "hash" = "sha512-Yk1JZ5vrVPKKywRxw5mF3m6uK+1T/PlwaQARUfHBJXciK5BIIa6wQoqGWZycWai3I5OOrbBN/Wlw6ig88GYzVA==";
         };
+        _qVoZveNE = {
+            "id" = "qVoZveNE";
+            "file" = "playercollars-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-ZbaOU8LzvEM/zcukT69Yxjx2zRvmiUVPSoihAXxszck3zw5nYrzfiPYjsuilrPxfS+e0+3ZwUTgk6UyUGZjPkA==";
+        };
     in {
         "Jhz5AEo7" = _Jhz5AEo7;
         "v8sy0qIH" = _v8sy0qIH;
@@ -452,6 +457,7 @@ let
         "QE4fyaGx" = _QE4fyaGx;
         "87ZeiHQh" = _87ZeiHQh;
         "jGPNFFoS" = _jGPNFFoS;
+        "qVoZveNE" = _qVoZveNE;
         "forge-1.20.1" = _Jh7wOejH;
         "forge-1.20.2" = _s58uSztV;
         "forge-1.20.3" = _s58uSztV;
@@ -490,6 +496,7 @@ let
         "fabric-1.21.9" = _GTJuEy3U;
         "fabric-1.21.10" = _GTJuEy3U;
         "fabric-1.18.2" = _Hjmzs2eH;
+        "fabric-26.3" = _qVoZveNE;
         "pkg-1.0.0" = _Jhz5AEo7;
         "pkg-1.0.1" = _v8sy0qIH;
         "pkg-1.0.2" = _w10dMkP2;
@@ -562,7 +569,8 @@ let
         "pkg-neoforge-26.1.2-1.3.0" = _QE4fyaGx;
         "pkg-neoforge-26.2-1.3.0" = _87ZeiHQh;
         "pkg-neoforge-26.3-1.3.0" = _jGPNFFoS;
-        "default" = _jGPNFFoS;
+        "pkg-fabric-26.3-1.4.0" = _qVoZveNE;
+        "default" = _qVoZveNE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leashable-collars-(unofficial-port)";

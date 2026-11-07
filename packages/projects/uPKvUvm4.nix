@@ -26,22 +26,44 @@ let
             "file" = "QvStump-1.1.4.jar";
             "hash" = "sha512-7ev7VJlBWip6kdAESj0gsBJ4R4FKwecIk1Vw0nIp88d/9rF+/SurBT4NCnumhQaLjmM3Z3J3ifnnxnhfMRu91w==";
         };
+        _naZ23f2G = {
+            "id" = "naZ23f2G";
+            "file" = "QvStump-universal-0.0.1.jar";
+            "hash" = "sha512-609m4Ydh7caaE86/jESxj+UIDh3GkHccFW6KHIHz1dS15+5fRs064auPSa/jU/HlD4Z0/ArOCz/+Qhz1LtWRig==";
+        };
     in {
         "4XibZL2B" = _4XibZL2B;
         "y4slTNXK" = _y4slTNXK;
         "5xilabVX" = _5xilabVX;
         "s7U9YUO9" = _s7U9YUO9;
         "coSVXWw1" = _coSVXWw1;
+        "naZ23f2G" = _naZ23f2G;
         "fabric-1.19.2" = _4XibZL2B;
         "fabric-1.20.1" = _coSVXWw1;
+        "fabric-26.3" = _naZ23f2G;
+        "fabric-26.2" = _naZ23f2G;
+        "fabric-26.1.2" = _naZ23f2G;
+        "fabric-26.1.1" = _naZ23f2G;
+        "fabric-26.1" = _naZ23f2G;
         "quilt-1.19.2" = _4XibZL2B;
         "quilt-1.20.1" = _coSVXWw1;
+        "forge-26.3" = _naZ23f2G;
+        "forge-26.2" = _naZ23f2G;
+        "forge-26.1.2" = _naZ23f2G;
+        "forge-26.1.1" = _naZ23f2G;
+        "forge-26.1" = _naZ23f2G;
+        "neoforge-26.3" = _naZ23f2G;
+        "neoforge-26.2" = _naZ23f2G;
+        "neoforge-26.1.2" = _naZ23f2G;
+        "neoforge-26.1.1" = _naZ23f2G;
+        "neoforge-26.1" = _naZ23f2G;
         "pkg-1.0a" = _4XibZL2B;
         "pkg-1.1a" = _y4slTNXK;
         "pkg-1.1b" = _5xilabVX;
         "pkg-1.1.3" = _s7U9YUO9;
         "pkg-1.1.4" = _coSVXWw1;
-        "default" = _coSVXWw1;
+        "pkg-0.0.1" = _naZ23f2G;
+        "default" = _naZ23f2G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "qv-stump";
