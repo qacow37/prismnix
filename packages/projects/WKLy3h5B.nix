@@ -31,6 +31,11 @@ let
             "file" = "spelunkers_charm-5.0.6.jar";
             "hash" = "sha512-ML+FHTK5KxRKW9tA9wDuIgyCJhp1S77SJM92JXEVGp558tL1LJ66LkXfv76KrkO71kDchEzgxtsoLXRw6RFhrQ==";
         };
+        _TuGk61lr = {
+            "id" = "TuGk61lr";
+            "file" = "spelunkers_charm-5.1.0.jar";
+            "hash" = "sha512-70d+ppj2rKOzCNXmTU/3H40G8zAsaRWC0cN4tZjMunLT9twDcgpVdNQ4ZwMYr/N4qNe1lwEDNN7pvFjW9TvXXw==";
+        };
     in {
         "AjM1ZAsN" = _AjM1ZAsN;
         "VyILxCtx" = _VyILxCtx;
@@ -38,14 +43,16 @@ let
         "oKr5DEeK" = _oKr5DEeK;
         "rpZSu48S" = _rpZSu48S;
         "rsUHNeoF" = _rsUHNeoF;
-        "neoforge-1.21.1" = _rsUHNeoF;
+        "TuGk61lr" = _TuGk61lr;
+        "neoforge-1.21.1" = _TuGk61lr;
         "pkg-5.0.0" = _AjM1ZAsN;
         "pkg-5.0.1" = _VyILxCtx;
         "pkg-5.0.3" = _tDGI0vDx;
         "pkg-5.0.4" = _oKr5DEeK;
         "pkg-5.0.5" = _rpZSu48S;
         "pkg-5.0.6" = _rsUHNeoF;
-        "default" = _rsUHNeoF;
+        "pkg-5.1.0" = _TuGk61lr;
+        "default" = _TuGk61lr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spelunkers-charm-ii";

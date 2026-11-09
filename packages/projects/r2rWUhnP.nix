@@ -186,6 +186,11 @@ let
             "file" = "adchimneys-26.3.0.2-neoforge-build.0152.jar";
             "hash" = "sha512-L/4NjZ6hTZVUVTHhVbWWcp3v8lrdBi8kIugtBBNqF2cvWtx3+3iHKlIk6PoB6UfpW+LHZhosey5snFsB7isxQA==";
         };
+        _cbTISzb8 = {
+            "id" = "cbTISzb8";
+            "file" = "AdChimneys-1.20.1-10.1.35.0-build.2380.jar";
+            "hash" = "sha512-W/z7McH8NNa6eLgPnpPMmarvGLJ4G40bVb6te98uRbRUSyPGd0PpR9AOjtqGITjiN8RE0HIWzk3Qgx1HyWbiTw==";
+        };
     in {
         "jvhEHBRv" = _jvhEHBRv;
         "DKAG5gSO" = _DKAG5gSO;
@@ -224,10 +229,11 @@ let
         "VpcvOCw3" = _VpcvOCw3;
         "syoulFH7" = _syoulFH7;
         "nGGi74WL" = _nGGi74WL;
+        "cbTISzb8" = _cbTISzb8;
         "fabric-26.2" = _OZURCoPq;
         "fabric-26.3" = _VpcvOCw3;
         "forge-26.2" = _wsGyIcEm;
-        "forge-1.20.1" = _ugwpH0Mj;
+        "forge-1.20.1" = _cbTISzb8;
         "forge-26.3" = _syoulFH7;
         "neoforge-26.2" = _CsaAlyxc;
         "neoforge-1.21.1" = _A2wTbGn9;
@@ -254,7 +260,8 @@ let
         "pkg-10.1.34.0" = _ugwpH0Mj;
         "pkg-11.1.14.0" = _A2wTbGn9;
         "pkg-26.3.0.2" = _nGGi74WL;
-        "default" = _nGGi74WL;
+        "pkg-10.1.35.0" = _cbTISzb8;
+        "default" = _cbTISzb8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-chimneys";

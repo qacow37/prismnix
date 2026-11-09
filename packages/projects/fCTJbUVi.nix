@@ -266,6 +266,11 @@ let
             "file" = "[1.20.1]Nonexistent+5.1.4.jar";
             "hash" = "sha512-NG9Xjga9RtdN3phSsgxY0ize3s7ENxUvKm0y/caleF7vtSuEWY6SkFBCx4WLjeAACSfsB3oAdmECNxNxXbQYjg==";
         };
+        _2oyvKQsJ = {
+            "id" = "2oyvKQsJ";
+            "file" = "[1.12.2]Nonexistent+2.15.6.jar";
+            "hash" = "sha512-1XmQy4XQRlI++QRIHMwdNCyv+CPcZncU/QLMamBjITpbxiSbxuoDRzN6EmSntiP/FSkTNv3LstG4W0u5Im9gag==";
+        };
     in {
         "cIbMTXAb" = _cIbMTXAb;
         "tSGE14xM" = _tSGE14xM;
@@ -320,7 +325,8 @@ let
         "S6jqMvEY" = _S6jqMvEY;
         "pwsN5MgV" = _pwsN5MgV;
         "6TNRODk8" = _6TNRODk8;
-        "forge-1.12.2" = _EakU80aZ;
+        "2oyvKQsJ" = _2oyvKQsJ;
+        "forge-1.12.2" = _2oyvKQsJ;
         "forge-1.14.4" = _BzvPDzBb;
         "forge-1.15.2" = _l0pk5SyC;
         "forge-1.16.5" = _EpItbJK0;
@@ -355,7 +361,8 @@ let
         "pkg-3.12.4" = _l0pk5SyC;
         "pkg-4.1.4" = _EpItbJK0;
         "pkg-5.1.4" = _6TNRODk8;
-        "default" = _6TNRODk8;
+        "pkg-2.15.6" = _2oyvKQsJ;
+        "default" = _2oyvKQsJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nonexistent+";

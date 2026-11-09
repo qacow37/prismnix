@@ -446,6 +446,26 @@ let
             "file" = "TerraFirmaCraft-NeoForge-1.21.1-4.2.13.jar";
             "hash" = "sha512-1QIOs0MF0p05TjbBedIvSgNeYRhsTsKLHwW1QXzPzpdWjFQtaUlCsSYY+avMOm3679weyoonp3BfDhXwpBdFzA==";
         };
+        _qDt45807 = {
+            "id" = "qDt45807";
+            "file" = "TerraFirmaCraft-NeoForge-1.21.1-4.2.14.jar";
+            "hash" = "sha512-Lwv5405ULk22PP1/Fvc04zjlWPEJ6VGA0KS+d+sisr8IXCSLsljBMgrMgVLMHgMqguqv2c69+BxaBMJur5oizA==";
+        };
+        _qAeOayNr = {
+            "id" = "qAeOayNr";
+            "file" = "TerraFirmaCraft-Forge-1.20.1-3.2.29.jar";
+            "hash" = "sha512-9J4twwnYR/CeEif7QPH30ZEsfWRv66Y3eiLjoZF+U0+X1mK68UvMakti+B/srg7J8uuYK1qL6JrlFc/U6CCf+w==";
+        };
+        _h5kAR6P0 = {
+            "id" = "h5kAR6P0";
+            "file" = "TerraFirmaCraft-Forge-1.20.1-3.2.30.jar";
+            "hash" = "sha512-0cN4Skdvz6+ln4KPbJbvvZEx2f/lTHIZyj1ug1AmEb3amQWcHrKSzz2E33nzpNYwvlrrjAoaC30fua596EbamQ==";
+        };
+        _wUMfIZ1n = {
+            "id" = "wUMfIZ1n";
+            "file" = "TerraFirmaCraft-NeoForge-1.21.1-4.2.15.jar";
+            "hash" = "sha512-ChHEd56ziKwTFYEzzcoY3e+cLJFUwsXB7sktguOWKdqla5Ky3WJn05RY1J4sSbtFbHwot3M/A1b30cyCtxfekA==";
+        };
     in {
         "FOgRdBUC" = _FOgRdBUC;
         "XhQYXiMy" = _XhQYXiMy;
@@ -536,12 +556,16 @@ let
         "2gXJo8Ol" = _2gXJo8Ol;
         "dR2GA31g" = _dR2GA31g;
         "NG8qKiLi" = _NG8qKiLi;
+        "qDt45807" = _qDt45807;
+        "qAeOayNr" = _qAeOayNr;
+        "h5kAR6P0" = _h5kAR6P0;
+        "wUMfIZ1n" = _wUMfIZ1n;
         "forge-1.18.2" = _gGitRm7b;
         "forge-1.7.10" = _XhQYXiMy;
         "forge-1.12.2" = _k4rM7PTU;
-        "forge-1.20.1" = _dR2GA31g;
-        "neoforge-1.20.1" = _dR2GA31g;
-        "neoforge-1.21.1" = _NG8qKiLi;
+        "forge-1.20.1" = _h5kAR6P0;
+        "neoforge-1.20.1" = _h5kAR6P0;
+        "neoforge-1.21.1" = _wUMfIZ1n;
         "pkg-2.2.29" = _FOgRdBUC;
         "pkg-0.79.30.925" = _XhQYXiMy;
         "pkg-1.7.23.181" = _k4rM7PTU;
@@ -631,7 +655,11 @@ let
         "pkg-4.2.12" = _2gXJo8Ol;
         "pkg-3.2.28" = _dR2GA31g;
         "pkg-4.2.13" = _NG8qKiLi;
-        "default" = _NG8qKiLi;
+        "pkg-4.2.14" = _qDt45807;
+        "pkg-3.2.29" = _qAeOayNr;
+        "pkg-3.2.30" = _h5kAR6P0;
+        "pkg-4.2.15" = _wUMfIZ1n;
+        "default" = _wUMfIZ1n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terrafirmacraft";

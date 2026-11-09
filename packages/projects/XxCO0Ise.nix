@@ -21,17 +21,30 @@ let
             "file" = "tacz_eo-1.2.0+1.20.1-forge.jar";
             "hash" = "sha512-e9Ux6+KMRq/0ss1nCAe9/fUTbZdKqzdHk7DMOiDTmA8w3TCBNlZ3QxvQHup26MF3xje4mKtM5LXEZDaYFHXEHw==";
         };
+        _QvdRUkih = {
+            "id" = "QvdRUkih";
+            "file" = "tacz_eo-1.2.1+1.20.1-forge.jar";
+            "hash" = "sha512-Zt4NUL3ge93FYCxlIM0ZPn9kMqUGnzHMUSVtMFasg/Apgx5aiGxjloFgcBWtGE7tqj6Np0hgRxl0TrQS2jRxQw==";
+        };
+        _qA5GL21p = {
+            "id" = "qA5GL21p";
+            "file" = "tacz_eo-1.2.1+1.20.1-forge.jar";
+            "hash" = "sha512-Zt4NUL3ge93FYCxlIM0ZPn9kMqUGnzHMUSVtMFasg/Apgx5aiGxjloFgcBWtGE7tqj6Np0hgRxl0TrQS2jRxQw==";
+        };
     in {
         "2GSvs9bz" = _2GSvs9bz;
         "JtJWH7Mr" = _JtJWH7Mr;
         "ILhzLEmy" = _ILhzLEmy;
         "gYiL4Gib" = _gYiL4Gib;
-        "forge-1.20.1" = _gYiL4Gib;
+        "QvdRUkih" = _QvdRUkih;
+        "qA5GL21p" = _qA5GL21p;
+        "forge-1.20.1" = _qA5GL21p;
         "pkg-1.0.4" = _2GSvs9bz;
         "pkg-1.0.5" = _JtJWH7Mr;
         "pkg-1.1.0" = _ILhzLEmy;
         "pkg-1.2.0" = _gYiL4Gib;
-        "default" = _gYiL4Gib;
+        "pkg-1.2.1" = _qA5GL21p;
+        "default" = _qA5GL21p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczeo";

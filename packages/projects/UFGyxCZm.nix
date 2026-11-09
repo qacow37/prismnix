@@ -681,6 +681,16 @@ let
             "file" = "colonypathingedition-1.21.1-1.0.5-fix-7.1.jar";
             "hash" = "sha512-RmSXvKds603LGXq94W+UXuNWsDiZGrrw+rnG4FWI9U6n4BQW3CUlZbjSy1lcfzgrdvKPFmPR9jai2EOuCDvvHQ==";
         };
+        _15JFcr3o = {
+            "id" = "15JFcr3o";
+            "file" = "colonypathingedition-1.0.5-fix-7.2.jar";
+            "hash" = "sha512-qlXDKlTAq9GFJH7cel8rPNWXMqBdK9DZjll5akQTMC3gsFxmyjOvP0Hx48dnN62DMkjLidL5eXXxmjv0Thw93w==";
+        };
+        _iPZFlJ3o = {
+            "id" = "iPZFlJ3o";
+            "file" = "colonypathingedition-1.21.1-1.0.5-fix-7.2.jar";
+            "hash" = "sha512-PIyLdosOtLEoQcik2salsKFzKtwIUZbBw6MKezMllLc96Z+5rIqz7QeWA1QbCJWh1DJhM5YgBHi3bUr9eOILGQ==";
+        };
     in {
         "KDxwq6vc" = _KDxwq6vc;
         "1doQqotj" = _1doQqotj;
@@ -818,8 +828,10 @@ let
         "O93ThGH7" = _O93ThGH7;
         "NPq5ZVIM" = _NPq5ZVIM;
         "GKiIG58q" = _GKiIG58q;
-        "forge-1.20.1" = _NPq5ZVIM;
-        "neoforge-1.21.1" = _GKiIG58q;
+        "15JFcr3o" = _15JFcr3o;
+        "iPZFlJ3o" = _iPZFlJ3o;
+        "forge-1.20.1" = _15JFcr3o;
+        "neoforge-1.21.1" = _iPZFlJ3o;
         "pkg-1.0.2" = _KDxwq6vc;
         "pkg-1.0.3" = _1doQqotj;
         "pkg-1.0.4-ALPHA-2.2" = _NN47vWvp;
@@ -904,7 +916,8 @@ let
         "pkg-1.0.5-fix-6" = _5scK26wL;
         "pkg-1.0.5-fix-7" = _O93ThGH7;
         "pkg-1.0.5-fix-7.1" = _GKiIG58q;
-        "default" = _GKiIG58q;
+        "pkg-1.0.5-fix-7.2" = _iPZFlJ3o;
+        "default" = _iPZFlJ3o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pathfinding-edition-for-minecolonies";

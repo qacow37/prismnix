@@ -131,6 +131,26 @@ let
             "file" = "Mellow-1.8.9-ornithe-7.1.0.jar";
             "hash" = "sha512-FoD9KNdVmVAc3OErfHRybjU6AIc5uTZ61X01f9JRsTRiaTL1exnib9EweeeMbGdefaJ/Jx2kAG1cA1O/01zlYQ==";
         };
+        _dQgppfWe = {
+            "id" = "dQgppfWe";
+            "file" = "Mellow-1.8.9-forge-7.1.1.jar";
+            "hash" = "sha512-Exgrj/o+r/mDIy+cJtaCFbf4WeM340x4qlGgs0h291/wKQStw+gFMqTdMrEJ9NqThmiT/9lvpVtq3N5TSXYX1A==";
+        };
+        _VX4TOw5H = {
+            "id" = "VX4TOw5H";
+            "file" = "Mellow-1.8.9-ornithe-7.1.1.jar";
+            "hash" = "sha512-ncw2QBpwWQgPLv41N8SEvaMN/Z2H36t+Ht5TxfKwKVvIZrvKKWC7HvuCvLxd5N+0kpsBNJ4jBj091+SCsXqwKg==";
+        };
+        _teliLENn = {
+            "id" = "teliLENn";
+            "file" = "Mellow-1.8.9-forge-7.1.2.jar";
+            "hash" = "sha512-oW5vonb8anau8jpFrNpVtbP48tNHNnUNp8h+y+xZmLKlLBnCqXtOK7OfSu/w42/YupaLjjlDA1tnqkIhEzTXig==";
+        };
+        _PZZXNeAV = {
+            "id" = "PZZXNeAV";
+            "file" = "Mellow-1.8.9-ornithe-7.1.2.jar";
+            "hash" = "sha512-1YwOzgi8wWyaMfErwXKXmjs/sX2i0/j+8r6nvic0Cvk5trL3I2Fg38wh0L+uBXDaJiQHaQaNb3H/LOye6N/KFw==";
+        };
     in {
         "sTpsNuaX" = _sTpsNuaX;
         "MUJkHNPV" = _MUJkHNPV;
@@ -158,8 +178,12 @@ let
         "DfOvynNT" = _DfOvynNT;
         "Wn7fOuGJ" = _Wn7fOuGJ;
         "IsUVhSkG" = _IsUVhSkG;
-        "forge-1.8.9" = _Wn7fOuGJ;
-        "ornithe-1.8.9" = _IsUVhSkG;
+        "dQgppfWe" = _dQgppfWe;
+        "VX4TOw5H" = _VX4TOw5H;
+        "teliLENn" = _teliLENn;
+        "PZZXNeAV" = _PZZXNeAV;
+        "forge-1.8.9" = _teliLENn;
+        "ornithe-1.8.9" = _PZZXNeAV;
         "pkg-4.0.0" = _sTpsNuaX;
         "pkg-4.1.0" = _MUJkHNPV;
         "pkg-4.1.1" = _k8Exmw64;
@@ -181,7 +205,9 @@ let
         "pkg-7.0.4" = _hAeYCiSp;
         "pkg-7.0.5" = _DfOvynNT;
         "pkg-7.1.0" = _IsUVhSkG;
-        "default" = _IsUVhSkG;
+        "pkg-7.1.1" = _VX4TOw5H;
+        "pkg-7.1.2" = _PZZXNeAV;
+        "default" = _PZZXNeAV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statsify";

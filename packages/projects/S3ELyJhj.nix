@@ -1196,6 +1196,16 @@ let
             "file" = "biology-dictionary-1.4.2-mc1.20.1-fabric.jar";
             "hash" = "sha512-L4lVj4tX/6EwTPANayx+SLshLH+9zlSOl6QFG8tBjGqND9X8RP2d5cg2FfelA+jTy4CTFoBMppiCEc4YmNOnfw==";
         };
+        _z5BInXLx = {
+            "id" = "z5BInXLx";
+            "file" = "biology-dictionary-1.4.3-mc26.3-neoforge.jar";
+            "hash" = "sha512-LJaLUw0b2s1aMuWU+P4RzYbszGRuE8Bq5wy6g0uX7xJLU2MrSVmPpzTYvZFEJv2QGKqcwbF3qbf7tb7oSyaRXg==";
+        };
+        _cyuOLO6C = {
+            "id" = "cyuOLO6C";
+            "file" = "biology-dictionary-1.4.3-mc26.3-fabric.jar";
+            "hash" = "sha512-RPWw8YBimrcsibfeqSqY5jM7J+VXptcf+nuFFM8Gar25BhnVAZCvzsjQznUAmeUO0+kfZDyEJ0ZIENbr16dIfQ==";
+        };
     in {
         "rmNEHubR" = _rmNEHubR;
         "jV70aY6h" = _jV70aY6h;
@@ -1436,17 +1446,19 @@ let
         "vtBE0Y3K" = _vtBE0Y3K;
         "lZiZM9DV" = _lZiZM9DV;
         "hIUOH3zr" = _hIUOH3zr;
+        "z5BInXLx" = _z5BInXLx;
+        "cyuOLO6C" = _cyuOLO6C;
         "fabric-1.21.11" = _Z3wjZne7;
         "fabric-1.21.1" = _vtBE0Y3K;
         "fabric-1.20.1" = _hIUOH3zr;
         "fabric-26.1.2" = _l0HylUAS;
         "fabric-26.2" = _IGo2xmO8;
-        "fabric-26.3" = _AGxjrgF7;
+        "fabric-26.3" = _cyuOLO6C;
         "neoforge-1.21.11" = _KyA1eaJh;
         "neoforge-1.21.1" = _EhqFvyN4;
         "neoforge-26.1.2" = _PvEMNFwJ;
         "neoforge-26.2" = _4D1dRRyS;
-        "neoforge-26.3" = _cF5odPGo;
+        "neoforge-26.3" = _z5BInXLx;
         "forge-1.20.1" = _lZiZM9DV;
         "pkg-0.5.0" = _rmNEHubR;
         "pkg-0.5.1" = _jV70aY6h;
@@ -1687,7 +1699,9 @@ let
         "pkg-v1.4.2-mc1.21.1-fabric" = _vtBE0Y3K;
         "pkg-v1.4.2-mc1.20.1-forge" = _lZiZM9DV;
         "pkg-v1.4.2-mc1.20.1-fabric" = _hIUOH3zr;
-        "default" = _hIUOH3zr;
+        "pkg-v1.4.3-mc26.3-neoforge" = _z5BInXLx;
+        "pkg-v1.4.3-mc26.3-fabric" = _cyuOLO6C;
+        "default" = _cyuOLO6C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biology-dictionary";

@@ -66,6 +66,11 @@ let
             "file" = "keystrokeexit-3.0.0-fabric+26.2-SNAPSHOT.jar";
             "hash" = "sha512-12opTevRdRsX4hnDOdb01mcVDvHGCFNpyqu7szPlif8zOwnwOBoZsfa0FGpCrYp8DDFGymJqxzUdYalyKI14Lw==";
         };
+        _PQSDcmwY = {
+            "id" = "PQSDcmwY";
+            "file" = "keystrokeexit-1.0.0.jar";
+            "hash" = "sha512-KWqYxu4PaP+EZb0aSg6Iz/8RMqKW/fm2acXurn419+DyRVy7+bnW6gWzdSoaTW0BkYsHMFOdyumkOkRlAMKsYw==";
+        };
     in {
         "mJvzkN7X" = _mJvzkN7X;
         "zgcJJsCL" = _zgcJJsCL;
@@ -80,6 +85,7 @@ let
         "eyflv9vW" = _eyflv9vW;
         "BPPtZvGu" = _BPPtZvGu;
         "ncwWPowI" = _ncwWPowI;
+        "PQSDcmwY" = _PQSDcmwY;
         "fabric-1.21" = _c0bhc3Pt;
         "fabric-1.21.1" = _c0bhc3Pt;
         "fabric-1.21.2" = _Q3YW1ndw;
@@ -96,14 +102,15 @@ let
         "fabric-26.1.1" = _BPPtZvGu;
         "fabric-26.1.2" = _BPPtZvGu;
         "fabric-26.2" = _ncwWPowI;
+        "forge-1.20.1" = _PQSDcmwY;
         "pkg-1.0" = _mJvzkN7X;
         "pkg-1.1" = _zgcJJsCL;
         "pkg-2.0" = _DvL5BAYC;
         "pkg-3.0" = _pVEd7wTb;
         "pkg-4.0" = _6j0CyQ05;
         "pkg-5.0" = _NYFc2pb4;
-        "pkg-6.2" = _ncwWPowI;
-        "default" = _ncwWPowI;
+        "pkg-6.2" = _PQSDcmwY;
+        "default" = _PQSDcmwY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keystroke-gui-exit";

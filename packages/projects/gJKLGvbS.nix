@@ -196,6 +196,26 @@ let
             "file" = "ghosts-forge-1.20.1-1.3.4.jar";
             "hash" = "sha512-TLmaL9IxgSyFc6GASNlTQ1I+nlwbj4AtbtppLbSL4A4UxRdipqA+332DCfYRozNy271eNUQhlS0JiQL2kRf66g==";
         };
+        _K5Ozk0lD = {
+            "id" = "K5Ozk0lD";
+            "file" = "ghosts-fabric-1.20.1-1.4.0.jar";
+            "hash" = "sha512-WyjBDsMqzeaOAGe39KdDw0LxHNv4U8/fUn6OsrKrcAbjylA8BFvWqSuIuzxOxfgoPVycnB+kGDyXVj/1Tnopdg==";
+        };
+        _YP1XtjZV = {
+            "id" = "YP1XtjZV";
+            "file" = "ghosts-fabric-1.21.1-1.4.0.jar";
+            "hash" = "sha512-qeGypJjsifec5+S/wGiJ4PGmrOgFBKDNRPVdMrX4SpQVRT3YYjBpN5eZ4zrb8gOoxZ0kUtAlVKF2mMu376BF2Q==";
+        };
+        _nrzNHTeP = {
+            "id" = "nrzNHTeP";
+            "file" = "ghosts-forge-1.20.1-1.4.0.jar";
+            "hash" = "sha512-9ihbtUEfpWpL+vIqy9Jf6mB3nRxxxsfqJXUWh1Ux3bgHekb2uRyMxpEGLhi8SR3uIJHC+yeYghHIb9xIuqtwWg==";
+        };
+        _klEeRQLv = {
+            "id" = "klEeRQLv";
+            "file" = "ghosts-neoforge-1.21.1-1.4.0.jar";
+            "hash" = "sha512-Rvp01l1kxOamYO0ByA2gvyNTod4Iz8ZtfgBwlvK0MnkAUmSIwzXaug1puM4bZQKhxvtoFDI2ewhCRBrshr1WEw==";
+        };
     in {
         "2Pa2oUki" = _2Pa2oUki;
         "eUMDMD3i" = _eUMDMD3i;
@@ -236,17 +256,21 @@ let
         "M9RpS3bH" = _M9RpS3bH;
         "G3k8pPhx" = _G3k8pPhx;
         "AwsLu61X" = _AwsLu61X;
+        "K5Ozk0lD" = _K5Ozk0lD;
+        "YP1XtjZV" = _YP1XtjZV;
+        "nrzNHTeP" = _nrzNHTeP;
+        "klEeRQLv" = _klEeRQLv;
         "forge-1.18.2" = _3rOtDaPB;
         "forge-1.19.2" = _BstgZBuC;
-        "forge-1.20.1" = _AwsLu61X;
-        "forge-1.20" = _AwsLu61X;
-        "fabric-1.20.1" = _G3k8pPhx;
-        "fabric-1.21.1" = _Wfszaw0v;
-        "fabric-1.21" = _Wfszaw0v;
-        "fabric-1.20" = _G3k8pPhx;
+        "forge-1.20.1" = _nrzNHTeP;
+        "forge-1.20" = _nrzNHTeP;
+        "fabric-1.20.1" = _K5Ozk0lD;
+        "fabric-1.21.1" = _YP1XtjZV;
+        "fabric-1.21" = _YP1XtjZV;
+        "fabric-1.20" = _K5Ozk0lD;
         "neoforge-1.20.1" = _ztulymoR;
-        "neoforge-1.21.1" = _M9RpS3bH;
-        "neoforge-1.21" = _M9RpS3bH;
+        "neoforge-1.21.1" = _klEeRQLv;
+        "neoforge-1.21" = _klEeRQLv;
         "pkg-0" = _2Pa2oUki;
         "pkg-1" = _eUMDMD3i;
         "pkg-0.0.5" = _stCSWJJh;
@@ -262,7 +286,8 @@ let
         "pkg-1.3.3" = _K5TU4Ohq;
         "pkg-1.3.4" = _AwsLu61X;
         "pkg-1.3.5" = _M9RpS3bH;
-        "default" = _AwsLu61X;
+        "pkg-1.4.0" = _klEeRQLv;
+        "default" = _klEeRQLv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ghost";

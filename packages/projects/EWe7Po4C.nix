@@ -56,6 +56,11 @@ let
             "file" = "patch-up-1.0.0-beta.9.1+1.21.1.jar";
             "hash" = "sha512-k5jcmIuus4v0QwCyMg3uf2iczPrPBK6rk2A0pAQEG193771FnN0G/VZpHFu+A3KLzPyvZMGeYMso4XWxvRlzyw==";
         };
+        _61IQuk2R = {
+            "id" = "61IQuk2R";
+            "file" = "patch-up-1.0.0-beta.9.2+1.21.1.jar";
+            "hash" = "sha512-5oCTkdGnt3H4UMC7hBU2aufnznD9Wj42TXSBc97FZLTIzHinc/VRAR3//OHWnp1AYbnP/uJU8bedTX1i+c+JaA==";
+        };
     in {
         "5T5974qo" = _5T5974qo;
         "88jHSt9d" = _88jHSt9d;
@@ -68,8 +73,9 @@ let
         "vKE3w1fA" = _vKE3w1fA;
         "jk1fEXKU" = _jk1fEXKU;
         "xriyFgAq" = _xriyFgAq;
+        "61IQuk2R" = _61IQuk2R;
         "fabric-1.20.1" = _EibhqNY3;
-        "fabric-1.21.1" = _xriyFgAq;
+        "fabric-1.21.1" = _61IQuk2R;
         "pkg-0.0.1-Alpha" = _5T5974qo;
         "pkg-2" = _88jHSt9d;
         "pkg-4" = _EibhqNY3;
@@ -81,7 +87,8 @@ let
         "pkg-8" = _vKE3w1fA;
         "pkg-9" = _jk1fEXKU;
         "pkg-9.1" = _xriyFgAq;
-        "default" = _xriyFgAq;
+        "pkg-9.2" = _61IQuk2R;
+        "default" = _61IQuk2R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "patch-up";

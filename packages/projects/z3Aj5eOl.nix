@@ -471,6 +471,41 @@ let
             "file" = "BuildCraft-Community-Edition-8.0.27+26.3+neoforge.jar";
             "hash" = "sha512-42/YSJnbdoWglwSBxJRkE4roEgKOJqltcsrnVscLLN3rvY5AppFVXzpupBIjwpOg43LXV2N2BYFMVsBZoS0EpQ==";
         };
+        _dIgiMjkd = {
+            "id" = "dIgiMjkd";
+            "file" = "BuildCraft-Community-Edition-8.0.28+1.19.2+forge.jar";
+            "hash" = "sha512-omRBb5EV8gJEkM3spz+044O4O4ZNpHp/A5pCATekJKyiYQnq/I70+37rGyArIYbccmTrWEwYsPrxjw5hk8xG3Q==";
+        };
+        _WmsdOOTQ = {
+            "id" = "WmsdOOTQ";
+            "file" = "BuildCraft-Community-Edition-8.0.28+1.20.1+forge.jar";
+            "hash" = "sha512-/vCHsFLkBhHrVjWR6dEWYi0IB+Q8HmoDMmWmTXIw80MG5YMnPbDLpM9JAmYU8TpIh01c5WrTm04lWRD5joS1EA==";
+        };
+        _xYubsiAX = {
+            "id" = "xYubsiAX";
+            "file" = "BuildCraft-Community-Edition-8.0.28+1.21.1+neoforge.jar";
+            "hash" = "sha512-aNH4rZuXvJyO8YJS+sq38f4WJHE/ar5O3X2Vo5EU6XW7zlqcvDsJJuQagUk7LT99fcaURqAbvtwJiFjKgxVqTw==";
+        };
+        _8F8qU5AA = {
+            "id" = "8F8qU5AA";
+            "file" = "BuildCraft-Community-Edition-8.0.28+1.21.11+neoforge.jar";
+            "hash" = "sha512-rAWmnZ58DhWHdztQLKv8Jq/JP3bGRtfCxR0/cC0bGjLhPdQsN/17qduaOgVPbUAwk6v+CN2vH56d2OEBnXOL7Q==";
+        };
+        _HhZw5kPq = {
+            "id" = "HhZw5kPq";
+            "file" = "BuildCraft-Community-Edition-8.0.28+26.1.2+neoforge.jar";
+            "hash" = "sha512-ngJq69Nhc8HTNBERM4XBWwgucqkux/IPhg+G9k6aZshEA93PK/1OJPgBmMTblRDigHGpCo0xgPTuqn0Cvi4MrQ==";
+        };
+        _V02LxOEy = {
+            "id" = "V02LxOEy";
+            "file" = "BuildCraft-Community-Edition-8.0.28+26.2+neoforge.jar";
+            "hash" = "sha512-E4to/IcYZKegPXqAZs4jYLln3tGXSME4ZUiRXAuOIHjXyfydtN9zqfScQbGWhePEulsBVmYFg+25Vlm5wVC1jQ==";
+        };
+        _fBgHpRzd = {
+            "id" = "fBgHpRzd";
+            "file" = "BuildCraft-Community-Edition-8.0.28+26.3+neoforge.jar";
+            "hash" = "sha512-qtZMSSrTPIiq9QAxfwB5FGdVRhlxrsEQddESEE5AtpDwyD+hS+ZczmzJVxqAdibxXSTB909A9VqfL+toBNoLJA==";
+        };
     in {
         "arK5zOLs" = _arK5zOLs;
         "LVF7ij7D" = _LVF7ij7D;
@@ -566,15 +601,22 @@ let
         "cLg4ZZtU" = _cLg4ZZtU;
         "OrTjEkY8" = _OrTjEkY8;
         "GfEJ46CQ" = _GfEJ46CQ;
-        "forge-1.19.2" = _19v8kjWo;
-        "forge-1.20.1" = _41RVRVhn;
+        "dIgiMjkd" = _dIgiMjkd;
+        "WmsdOOTQ" = _WmsdOOTQ;
+        "xYubsiAX" = _xYubsiAX;
+        "8F8qU5AA" = _8F8qU5AA;
+        "HhZw5kPq" = _HhZw5kPq;
+        "V02LxOEy" = _V02LxOEy;
+        "fBgHpRzd" = _fBgHpRzd;
+        "forge-1.19.2" = _dIgiMjkd;
+        "forge-1.20.1" = _WmsdOOTQ;
         "forge-1.12.2" = _KvVY5NsF;
         "forge-1.21.1" = _elLX0gTO;
-        "neoforge-1.21.1" = _3HEW269d;
-        "neoforge-1.21.11" = _2vv4G6CL;
-        "neoforge-26.1.2" = _cLg4ZZtU;
-        "neoforge-26.2" = _OrTjEkY8;
-        "neoforge-26.3" = _GfEJ46CQ;
+        "neoforge-1.21.1" = _xYubsiAX;
+        "neoforge-1.21.11" = _8F8qU5AA;
+        "neoforge-26.1.2" = _HhZw5kPq;
+        "neoforge-26.2" = _V02LxOEy;
+        "neoforge-26.3" = _fBgHpRzd;
         "pkg-8.0+beta1+1.19.2" = _arK5zOLs;
         "pkg-8.0+beta2+1.19.2" = _LVF7ij7D;
         "pkg-8.0+beta3+1.19.2" = _bVWVJ4DD;
@@ -669,7 +711,14 @@ let
         "pkg-8.0.27+26.1.2+neoforge" = _cLg4ZZtU;
         "pkg-8.0.27+26.2+neoforge" = _OrTjEkY8;
         "pkg-8.0.27+26.3+neoforge" = _GfEJ46CQ;
-        "default" = _GfEJ46CQ;
+        "pkg-8.0.28+1.19.2+forge" = _dIgiMjkd;
+        "pkg-8.0.28+1.20.1+forge" = _WmsdOOTQ;
+        "pkg-8.0.28+1.21.1+neoforge" = _xYubsiAX;
+        "pkg-8.0.28+1.21.11+neoforge" = _8F8qU5AA;
+        "pkg-8.0.28+26.1.2+neoforge" = _HhZw5kPq;
+        "pkg-8.0.28+26.2+neoforge" = _V02LxOEy;
+        "pkg-8.0.28+26.3+neoforge" = _fBgHpRzd;
+        "default" = _fBgHpRzd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildcraft-community-edition";

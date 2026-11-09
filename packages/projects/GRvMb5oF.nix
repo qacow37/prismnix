@@ -181,6 +181,11 @@ let
             "file" = "jeioptimizer-26.2-1.2.1-30.48.jar";
             "hash" = "sha512-AdPEYq6gCVPTAmCw49TWoTZijx25H7DQeYgXYRKcDneHnXIfNB8qIUjDe/2boskO9vmTFRbm7F8gXcrlDDYVow==";
         };
+        _Z6EnYmFu = {
+            "id" = "Z6EnYmFu";
+            "file" = "jeioptimizer-1.20.1-1.2.7-15.74.jar";
+            "hash" = "sha512-SZnJ1WRTsidputhFmXXprlkGIoMy/wf4BZDUpEULuR6nJ/FDvLYm67AQvtZ2EU98s3xxNAjUuJ3EUBLFE3nRhw==";
+        };
     in {
         "8k3kBEEo" = _8k3kBEEo;
         "mPpTZV2A" = _mPpTZV2A;
@@ -218,7 +223,8 @@ let
         "o7An1EXt" = _o7An1EXt;
         "V3MuLbfs" = _V3MuLbfs;
         "HFOqw2yP" = _HFOqw2yP;
-        "forge-1.20.1" = _o7An1EXt;
+        "Z6EnYmFu" = _Z6EnYmFu;
+        "forge-1.20.1" = _Z6EnYmFu;
         "forge-1.19.2" = _arosikmi;
         "neoforge-1.21.1" = _bcRknsDO;
         "neoforge-26.1.2" = _V3MuLbfs;
@@ -255,7 +261,8 @@ let
         "pkg-1.2.6-15.74" = _o7An1EXt;
         "pkg-1.2.2-29.53" = _V3MuLbfs;
         "pkg-1.2.1-30.48" = _HFOqw2yP;
-        "default" = _HFOqw2yP;
+        "pkg-1.2.7-15.74" = _Z6EnYmFu;
+        "default" = _Z6EnYmFu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jeioptimizer";

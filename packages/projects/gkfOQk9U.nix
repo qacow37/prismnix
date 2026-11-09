@@ -286,6 +286,31 @@ let
             "file" = "lifestealutils-1.2.3+1.21.9.jar";
             "hash" = "sha512-XqP59RO0BjmCH37rElgf1R984x3DRDn8sN1VIPIKsYon7FzraZYyKV7SSF+csiWSwk13XgMdSh54BA4eaDEQ0g==";
         };
+        _QrZprgKq = {
+            "id" = "QrZprgKq";
+            "file" = "lifestealutils-1.2.4+26.2.jar";
+            "hash" = "sha512-+wbwqk5gggK+CtOTOVjWWzqQ9WgMX8EcGYosVEBcX/11o/LvZlSXKjmgrBHy0Zj5E0WQiqMaCi6olENJ0qSohQ==";
+        };
+        _a0FqJ62V = {
+            "id" = "a0FqJ62V";
+            "file" = "lifestealutils-1.2.4+1.21.11.jar";
+            "hash" = "sha512-yw9BSCyN0HLhveBrchk0+cRqSVTX4w1j2uWJXeU4ZsZJgSqoq31LZsRyP/VptKWDG0yYyFOAiEEvGz3j24L9Kw==";
+        };
+        _idGTsNVH = {
+            "id" = "idGTsNVH";
+            "file" = "lifestealutils-1.2.4+26.1.jar";
+            "hash" = "sha512-QdwyJKToOprMlO5mYZ5xg5dXAXWTIS0jVUy3HQ3hQ3eOlaDfT0n5kg4tTvT2TnVI0mSLNAu3pN9b0/+Lf5H1XQ==";
+        };
+        _cXhAzLfC = {
+            "id" = "cXhAzLfC";
+            "file" = "lifestealutils-1.2.4+1.21.9.jar";
+            "hash" = "sha512-V7WVi7Zysj3VTXqMPr/ZRSEuJltniChieAUBQckTAJ79tQd1kHO71erXTj0LC5XWyY2xua3F5PDGKmQpKpPZQw==";
+        };
+        _o49FQBwW = {
+            "id" = "o49FQBwW";
+            "file" = "lifestealutils-1.2.4+1.21.8.jar";
+            "hash" = "sha512-iwOplvuYObFN1npfmEg3P+qjS0z69RmGztQ6lZreTrxsM5eg5wXsrpuAfEMTYOKN1MCyxQWOhL2LdBtBMGt3bQ==";
+        };
     in {
         "ST3C3psz" = _ST3C3psz;
         "rGxliKTl" = _rGxliKTl;
@@ -344,14 +369,19 @@ let
         "seFz55Nx" = _seFz55Nx;
         "CpJXlvwq" = _CpJXlvwq;
         "NiSribG2" = _NiSribG2;
-        "fabric-1.21.8" = _CpJXlvwq;
-        "fabric-1.21.11" = _roaiRSpV;
-        "fabric-1.21.9" = _NiSribG2;
-        "fabric-1.21.10" = _NiSribG2;
-        "fabric-26.1" = _seFz55Nx;
-        "fabric-26.1.1" = _seFz55Nx;
-        "fabric-26.1.2" = _seFz55Nx;
-        "fabric-26.2" = _Z9ISQCJl;
+        "QrZprgKq" = _QrZprgKq;
+        "a0FqJ62V" = _a0FqJ62V;
+        "idGTsNVH" = _idGTsNVH;
+        "cXhAzLfC" = _cXhAzLfC;
+        "o49FQBwW" = _o49FQBwW;
+        "fabric-1.21.8" = _o49FQBwW;
+        "fabric-1.21.11" = _a0FqJ62V;
+        "fabric-1.21.9" = _cXhAzLfC;
+        "fabric-1.21.10" = _cXhAzLfC;
+        "fabric-26.1" = _idGTsNVH;
+        "fabric-26.1.1" = _idGTsNVH;
+        "fabric-26.1.2" = _idGTsNVH;
+        "fabric-26.2" = _QrZprgKq;
         "pkg-0.1.0" = _rGxliKTl;
         "pkg-0.2.0" = _8Wm7UhhH;
         "pkg-0.3.0" = _nBJlVLtN;
@@ -374,7 +404,12 @@ let
         "pkg-1.2.3+26.1" = _seFz55Nx;
         "pkg-1.2.3+1.21.8" = _CpJXlvwq;
         "pkg-1.2.3+1.21.9" = _NiSribG2;
-        "default" = _NiSribG2;
+        "pkg-1.2.4-beta.14+26.2" = _QrZprgKq;
+        "pkg-1.2.4-beta.14+1.21.11" = _a0FqJ62V;
+        "pkg-1.2.4-beta.14+26.1" = _idGTsNVH;
+        "pkg-1.2.4-beta.14+1.21.9" = _cXhAzLfC;
+        "pkg-1.2.4-beta.14+1.21.8" = _o49FQBwW;
+        "default" = _o49FQBwW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lifestealutils";

@@ -1026,6 +1026,26 @@ let
             "file" = "BlockFront-1.21.1-0.9.0.73b-RELEASE.jar";
             "hash" = "sha512-/LN8JPDKkN4n0z55CfAJRZ+6A22V06StCA4XERrigiWcsMbhSROnfV4IhgF143Vdhi3Uldmr0lsbTZJOsrUvWA==";
         };
+        _hdJe3qmi = {
+            "id" = "hdJe3qmi";
+            "file" = "BlockFront-1.21.1-0.9.0.74b-RELEASE.jar";
+            "hash" = "sha512-xW5ePU+mCyPxgkntkfxcXoq3460EcUP737KmThU6I54t2iNCLsxz0meOo7nRbmTBRtlz6nih32yvKQa4abOR4g==";
+        };
+        _Buly62Wq = {
+            "id" = "Buly62Wq";
+            "file" = "BlockFront-1.21.1-0.9.0.75b-RELEASE.jar";
+            "hash" = "sha512-/FZGW91gqH8EblXmL3ehSpiOrHE3uQI80qrUUfQJBWdQ5KWFeogmwFLsu8z28QOg1C3U8nVdPGLW014dKQMPjQ==";
+        };
+        _Annyyequ = {
+            "id" = "Annyyequ";
+            "file" = "BlockFront-1.21.1-0.9.0.76b-RELEASE.jar";
+            "hash" = "sha512-FZeqxYIHp5QdWeYL2IgerJCvhYSfObuRRSJbTGl97w+3EvDTO6EoirX+CRZ2F6Slaw8fc5r9kHjh/7VGGCYSeA==";
+        };
+        _x6zZkTBx = {
+            "id" = "x6zZkTBx";
+            "file" = "BlockFront-1.21.1-0.9.0.77b-RELEASE.jar";
+            "hash" = "sha512-dMaAsiufdrcdaR8qnmUUlhkXIiDX3dCb9UvQF6EcAAESo+KFn6qhuXh1fv0GVjFalbzX163/sD3dvnNjse08Jg==";
+        };
     in {
         "8Sq6D8yG" = _8Sq6D8yG;
         "iog9ZURL" = _iog9ZURL;
@@ -1232,13 +1252,17 @@ let
         "YOxANinA" = _YOxANinA;
         "L3Kcob9g" = _L3Kcob9g;
         "Y9xKLIK1" = _Y9xKLIK1;
+        "hdJe3qmi" = _hdJe3qmi;
+        "Buly62Wq" = _Buly62Wq;
+        "Annyyequ" = _Annyyequ;
+        "x6zZkTBx" = _x6zZkTBx;
         "forge-1.19.4" = _ubapOU0W;
         "forge-1.20.1" = _Iamz39kt;
         "forge-1.20" = _Iamz39kt;
         "neoforge-1.20.4" = _YdagCrng;
         "neoforge-1.20.6" = _G6F8bicn;
         "neoforge-1.21" = _iF1BMp4J;
-        "neoforge-1.21.1" = _Y9xKLIK1;
+        "neoforge-1.21.1" = _x6zZkTBx;
         "pkg-0.1.8.6a" = _8Sq6D8yG;
         "pkg-0.1.8.7a" = _iog9ZURL;
         "pkg-0.1.8.8a" = _HKV8OeUo;
@@ -1437,7 +1461,11 @@ let
         "pkg-0.9.0.71b" = _YOxANinA;
         "pkg-0.9.0.72b" = _L3Kcob9g;
         "pkg-0.9.0.73b" = _Y9xKLIK1;
-        "default" = _Y9xKLIK1;
+        "pkg-0.9.0.74b" = _hdJe3qmi;
+        "pkg-0.9.0.75b" = _Buly62Wq;
+        "pkg-0.9.0.76b" = _Annyyequ;
+        "pkg-0.9.0.77b" = _x6zZkTBx;
+        "default" = _x6zZkTBx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockfront";

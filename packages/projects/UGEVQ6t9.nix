@@ -41,6 +41,11 @@ let
             "file" = "Fancy Crops v1.3.zip";
             "hash" = "sha512-zo40znb1NoFpci+ZSe3zcq9dnh08JiOVAGpaFWHte64SWbnWnkg4kU1jeBf2ESg7+vi+B8e0WzF/0r2yLzK34w==";
         };
+        _I3d6FlUX = {
+            "id" = "I3d6FlUX";
+            "file" = "Fancy Crops v1.4.zip";
+            "hash" = "sha512-nAEfmMFEVphjMD9LvtuS5s0Aj0DyBW/IoGEJVzikdae5ZfmcK9oVELzg5qbtNzDQHXZ2WIduAEV8CKt7GQ2xig==";
+        };
     in {
         "u49OCPTt" = _u49OCPTt;
         "H2MEPhRO" = _H2MEPhRO;
@@ -50,6 +55,7 @@ let
         "J47fJlYS" = _J47fJlYS;
         "TQMLlyko" = _TQMLlyko;
         "ZJEBZjg6" = _ZJEBZjg6;
+        "I3d6FlUX" = _I3d6FlUX;
         "minecraft-1.15" = _aPjGJwCA;
         "minecraft-1.15.1" = _aPjGJwCA;
         "minecraft-1.15.2" = _aPjGJwCA;
@@ -92,11 +98,13 @@ let
         "minecraft-26.1.1" = _ZJEBZjg6;
         "minecraft-26.1.2" = _ZJEBZjg6;
         "minecraft-26.2" = _ZJEBZjg6;
+        "minecraft-26.3" = _I3d6FlUX;
         "pkg-1.0" = _aPjGJwCA;
         "pkg-1.1" = _J47fJlYS;
         "pkg-1.2" = _TQMLlyko;
         "pkg-1.3" = _ZJEBZjg6;
-        "default" = _ZJEBZjg6;
+        "pkg-1.4" = _I3d6FlUX;
+        "default" = _I3d6FlUX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-crops";

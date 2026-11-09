@@ -16,25 +16,32 @@ let
             "file" = "structures-1.2.jar";
             "hash" = "sha512-B/HaoarPidLtorowj86vJx7O0N9cImSG+uCR/H2T/r8pey0hyXv8TAplIai6U3/58Sxegy1keqxwLZ6sKyQiNQ==";
         };
+        _lwgkR66t = {
+            "id" = "lwgkR66t";
+            "file" = "structures-1.3.jar";
+            "hash" = "sha512-DwJ6gCOCLbLLoD8SnIQm/9pDlYB4zO6WHwcaue+d0Q0iTGLI1+RGOmrjE8Z3LHCizE+ba17h4aWNRXmvYUENjg==";
+        };
     in {
         "wdnr4I9P" = _wdnr4I9P;
         "z4PUwNle" = _z4PUwNle;
         "JWhmlx4p" = _JWhmlx4p;
-        "neoforge-1.21.1" = _JWhmlx4p;
-        "neoforge-1.21.2" = _JWhmlx4p;
-        "neoforge-1.21.3" = _JWhmlx4p;
-        "neoforge-1.21.4" = _JWhmlx4p;
-        "neoforge-1.21.5" = _JWhmlx4p;
-        "neoforge-1.21.6" = _JWhmlx4p;
-        "neoforge-1.21.7" = _JWhmlx4p;
-        "neoforge-1.21.8" = _JWhmlx4p;
-        "neoforge-1.21.9" = _JWhmlx4p;
-        "neoforge-1.21.10" = _JWhmlx4p;
-        "neoforge-1.21.11" = _JWhmlx4p;
+        "lwgkR66t" = _lwgkR66t;
+        "neoforge-1.21.1" = _lwgkR66t;
+        "neoforge-1.21.2" = _lwgkR66t;
+        "neoforge-1.21.3" = _lwgkR66t;
+        "neoforge-1.21.4" = _lwgkR66t;
+        "neoforge-1.21.5" = _lwgkR66t;
+        "neoforge-1.21.6" = _lwgkR66t;
+        "neoforge-1.21.7" = _lwgkR66t;
+        "neoforge-1.21.8" = _lwgkR66t;
+        "neoforge-1.21.9" = _lwgkR66t;
+        "neoforge-1.21.10" = _lwgkR66t;
+        "neoforge-1.21.11" = _lwgkR66t;
         "pkg-1.0" = _wdnr4I9P;
         "pkg-1.1" = _z4PUwNle;
         "pkg-1.2" = _JWhmlx4p;
-        "default" = _JWhmlx4p;
+        "pkg-1.3" = _lwgkR66t;
+        "default" = _lwgkR66t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aeronautics-structures";

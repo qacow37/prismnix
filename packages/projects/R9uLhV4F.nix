@@ -186,6 +186,26 @@ let
             "file" = "mobspawncontroller-neoforge-1.21.1-1.4.0.jar";
             "hash" = "sha512-LkFtwbWaICTMXlqN7GufVU9Gm/u8vZc5GGh6BNzcJ6zRelIwzlw4sQOYhnaSmTdcixlbmtFZEjm2ovdtgZvKFA==";
         };
+        _TTs4msWx = {
+            "id" = "TTs4msWx";
+            "file" = "mobspawncontroller-fabric-1.20.1-1.4.1.jar";
+            "hash" = "sha512-fvnZHqJF1D6oGchhS8pj7HI9kpMrob7+dVI5dtAZp4S2uLBbbkD0YATHkfKCWRyx8U3lJ2g0GgFxW2gKox6PQQ==";
+        };
+        _FF4k980k = {
+            "id" = "FF4k980k";
+            "file" = "mobspawncontroller-forge-1.20.1-1.4.1.jar";
+            "hash" = "sha512-LqJUfHiGFLOk8CTQugeTEqPk8GDYO/0NjLQUI2KqcqsRecnJHyTF4dYPaPq0dpgEZK6eUsvoyYhCD8A4F0OwZA==";
+        };
+        _s6q11jfX = {
+            "id" = "s6q11jfX";
+            "file" = "mobspawncontroller-fabric-1.21.1-1.4.1.jar";
+            "hash" = "sha512-yfs4Y8BzOSLXjUuiCsVKhwkHikoW4d+q0aCWGu/NzTKLkW9pTpezhRNbeTnv2ZvDUE1JIjkxUmrOICH74sUGHg==";
+        };
+        _PWe7X911 = {
+            "id" = "PWe7X911";
+            "file" = "mobspawncontroller-neoforge-1.21.1-1.4.1.jar";
+            "hash" = "sha512-LaKsspUvHS5ErvE5hyDBfFd8ol8tLzADO/YpmzzTlOrypgI6xlhk9UCloXS7vPGe23FSvLBRna2CH0b8kGkTeg==";
+        };
     in {
         "n3dWgS5e" = _n3dWgS5e;
         "lvCwAXgQ" = _lvCwAXgQ;
@@ -224,10 +244,14 @@ let
         "yPE83EKZ" = _yPE83EKZ;
         "v5GXDEiZ" = _v5GXDEiZ;
         "fovb5UMh" = _fovb5UMh;
-        "forge-1.20.1" = _yPE83EKZ;
-        "fabric-1.21.1" = _v5GXDEiZ;
-        "fabric-1.20.1" = _2Ui1GxbV;
-        "neoforge-1.21.1" = _fovb5UMh;
+        "TTs4msWx" = _TTs4msWx;
+        "FF4k980k" = _FF4k980k;
+        "s6q11jfX" = _s6q11jfX;
+        "PWe7X911" = _PWe7X911;
+        "forge-1.20.1" = _FF4k980k;
+        "fabric-1.21.1" = _s6q11jfX;
+        "fabric-1.20.1" = _TTs4msWx;
+        "neoforge-1.21.1" = _PWe7X911;
         "pkg-1.0" = _n3dWgS5e;
         "pkg-1.0.1" = _po6JWNlg;
         "pkg-1.0.2" = _cmanGGhe;
@@ -238,7 +262,8 @@ let
         "pkg-1.2.3" = _gI7o2ShD;
         "pkg-1.3.0" = _vlhmVjib;
         "pkg-1.4.0" = _fovb5UMh;
-        "default" = _fovb5UMh;
+        "pkg-1.4.1" = _PWe7X911;
+        "default" = _PWe7X911;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobspawncontroller";

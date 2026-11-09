@@ -106,6 +106,11 @@ let
             "file" = "goetyawaken-1.3.9.4.jar";
             "hash" = "sha512-xtrvuSfaY3SaGT5EkKsqi8OcgrdvUUByVliRfLQqvRTu5GMoo1dfaiNzPbe+9iLfCL9b0QC0BFdtehjKTeojbQ==";
         };
+        _env6ORHb = {
+            "id" = "env6ORHb";
+            "file" = "GoetyAwaken-26.11.jar";
+            "hash" = "sha512-VAs75taPoRj4Ansb1dQmLy0GrmFRnvmOUHtAwoRTx9ZpKW7XHMQAYB/t8tgeqtiUzB+q1gLqIfcaTDO2mdZe7Q==";
+        };
     in {
         "OmuY1ItR" = _OmuY1ItR;
         "GZvmUeW5" = _GZvmUeW5;
@@ -128,7 +133,8 @@ let
         "Ym2lxWu1" = _Ym2lxWu1;
         "FsmjnG1n" = _FsmjnG1n;
         "Yu3uWpRd" = _Yu3uWpRd;
-        "forge-1.20.1" = _Yu3uWpRd;
+        "env6ORHb" = _env6ORHb;
+        "forge-1.20.1" = _env6ORHb;
         "pkg-1.0.0" = _OmuY1ItR;
         "pkg-1.0.1" = _GZvmUeW5;
         "pkg-1.0.2" = _Tj60a4Ce;
@@ -150,7 +156,8 @@ let
         "pkg-1.3.9.2" = _Ym2lxWu1;
         "pkg-1.3.9.3" = _FsmjnG1n;
         "pkg-1.3.9.4" = _Yu3uWpRd;
-        "default" = _Yu3uWpRd;
+        "pkg-26.11" = _env6ORHb;
+        "default" = _env6ORHb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-awaken";

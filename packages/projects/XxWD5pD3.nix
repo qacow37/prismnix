@@ -1801,6 +1801,11 @@ let
             "file" = "appliedenergistics2-forge-15.4.12.jar";
             "hash" = "sha512-FsAGaMgvx30WbykX446UDvhbuAsFMHwNpdjs2fHenfsBx9j6sy2oTfFwfE6ztZk2NOeUFDJDaUq2auWSiVMEVw==";
         };
+        _DxZ2waV0 = {
+            "id" = "DxZ2waV0";
+            "file" = "appliedenergistics2-19.2.19.jar";
+            "hash" = "sha512-NjheucQeGx60YyysKX+bVWD51WwGFiLpnqLh+3T2/zua0J2eMyVH0wo8dVn9RETulTam4a4Sr1fIqIJpMqCbKQ==";
+        };
     in {
         "OqkivEmV" = _OqkivEmV;
         "DZZbZnbH" = _DZZbZnbH;
@@ -2162,6 +2167,7 @@ let
         "PDPQ4WfW" = _PDPQ4WfW;
         "hRMIJ07u" = _hRMIJ07u;
         "QRpVsqDI" = _QRpVsqDI;
+        "DxZ2waV0" = _DxZ2waV0;
         "forge-1.18.1" = _LmtoNQhm;
         "forge-1.18.2" = _qBbqV301;
         "forge-1.19" = _aR5tGCcS;
@@ -2183,7 +2189,7 @@ let
         "neoforge-1.20.5" = _tjB3sQ3W;
         "neoforge-1.20.6" = _L3u3Zbmr;
         "neoforge-1.21" = _8hwSVt90;
-        "neoforge-1.21.1" = _KDnFUmMm;
+        "neoforge-1.21.1" = _DxZ2waV0;
         "neoforge-26.1-snapshot-1" = _85JEIVdn;
         "neoforge-26.1.2" = _nVSxZcom;
         "neoforge-26.2" = _XC5aMAdH;
@@ -2515,7 +2521,8 @@ let
         "pkg-26.2.1-alpha" = _XC5aMAdH;
         "pkg-26.3.1-alpha" = _PDPQ4WfW;
         "pkg-15.4.12" = _QRpVsqDI;
-        "default" = _QRpVsqDI;
+        "pkg-19.2.19" = _DxZ2waV0;
+        "default" = _DxZ2waV0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2";

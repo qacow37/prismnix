@@ -66,6 +66,16 @@ let
             "file" = "applied_ammo_box-1.21.1-1.2.3-hotfix2.jar";
             "hash" = "sha512-SPM2bnSDK2wKOU+A1WdwyPkCFcPqQ4p01Bxnbhl2NqDoCAo2gnUZ8zvVCjtXmB+6u58bkuchf92BPqvfBAEItg==";
         };
+        _j28CweGv = {
+            "id" = "j28CweGv";
+            "file" = "applied_ammo_box-1.21.1-1.2.4.jar";
+            "hash" = "sha512-Op5S+IK6K34I3/XGfj+1nf7JYNfiAHCKlklRWCGZMR598hOqiW5/8F5iaP14ZvNQ7ms85JlmrZiR0e38bOodJg==";
+        };
+        _twqLQ9U3 = {
+            "id" = "twqLQ9U3";
+            "file" = "applied_ammo_box-1.20.1-1.2.4.jar";
+            "hash" = "sha512-JwqopvQT0w8QX5T4g9DlKpSG4sEOqk09DZCSQCY1TEq3A9dnqe0nLgC3+2wE1MuVIfQltFM8Ssmw+3qL+6Ki3g==";
+        };
     in {
         "5sMx8DpR" = _5sMx8DpR;
         "klC2PLr3" = _klC2PLr3;
@@ -80,8 +90,10 @@ let
         "p7yt6uMn" = _p7yt6uMn;
         "M4eXPC2s" = _M4eXPC2s;
         "sWiLdXp0" = _sWiLdXp0;
-        "forge-1.20.1" = _p7yt6uMn;
-        "neoforge-1.21.1" = _sWiLdXp0;
+        "j28CweGv" = _j28CweGv;
+        "twqLQ9U3" = _twqLQ9U3;
+        "forge-1.20.1" = _twqLQ9U3;
+        "neoforge-1.21.1" = _j28CweGv;
         "pkg-0.2.0" = _5sMx8DpR;
         "pkg-0.3.0" = _klC2PLr3;
         "pkg-0.3.1" = _RVkTfwmI;
@@ -95,7 +107,9 @@ let
         "pkg-1.20.1-1.2.3" = _p7yt6uMn;
         "pkg-1.21.1-1.2.3-hotfix1" = _M4eXPC2s;
         "pkg-1.21.1-1.2.3-hotfix2" = _sWiLdXp0;
-        "default" = _sWiLdXp0;
+        "pkg-1.21.1-1.2.4" = _j28CweGv;
+        "pkg-1.20.1-1.2.4" = _twqLQ9U3;
+        "default" = _twqLQ9U3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-applied-ammo-box";

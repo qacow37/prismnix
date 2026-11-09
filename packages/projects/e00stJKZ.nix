@@ -76,6 +76,11 @@ let
             "file" = "`FermiumBooter-1.6.3.jar";
             "hash" = "sha512-I9cg5N3jYN8CUMgGCym3fSy+8r/oMvGMG0hKweHir+EUotWN/eUCY5D9H8no2BjZrPLn/+hsESpdKMy9V/YNQw==";
         };
+        _SNgHKBae = {
+            "id" = "SNgHKBae";
+            "file" = "`FermiumBooter-1.6.4.jar";
+            "hash" = "sha512-HNfqr5pmRJhr8Q+qXI/66g2jCAhsmkwLZtf19u2NR5NfA/hzA2Tt/+qABTr3CHACfOGKslVT3hr5+DUKf1pmPg==";
+        };
     in {
         "OYNhXvxu" = _OYNhXvxu;
         "ij0ZKnvW" = _ij0ZKnvW;
@@ -92,7 +97,8 @@ let
         "YJE3hgYb" = _YJE3hgYb;
         "ri1KQoBY" = _ri1KQoBY;
         "gfZpK50l" = _gfZpK50l;
-        "forge-1.12.2" = _gfZpK50l;
+        "SNgHKBae" = _SNgHKBae;
+        "forge-1.12.2" = _SNgHKBae;
         "pkg-1.0.0" = _OYNhXvxu;
         "pkg-1.0.1" = _ij0ZKnvW;
         "pkg-1.1.0" = _uiqJdiV3;
@@ -108,7 +114,8 @@ let
         "pkg-1.6.1" = _YJE3hgYb;
         "pkg-1.6.2" = _ri1KQoBY;
         "pkg-1.6.3" = _gfZpK50l;
-        "default" = _gfZpK50l;
+        "pkg-1.6.4" = _SNgHKBae;
+        "default" = _SNgHKBae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fermiumbooter";

@@ -51,6 +51,11 @@ let
             "file" = "shureee's Potions.zip";
             "hash" = "sha512-LBGfgAG0j4YU+J739mAaIWU1DxFbrtzbckEqL3Epix+72xIHCZYK/84TjjtcpWLUj/6aJstMGeskstX1ZMamzg==";
         };
+        _SvZDB7EE = {
+            "id" = "SvZDB7EE";
+            "file" = "shureee's Potions.zip";
+            "hash" = "sha512-HNsLGp/lat9/hL84EFBmeqEzrPFGGr8Jc7OxOlnDa4Hm1+RxRk17kDg91xraQS8s885hEffQsXBWZzOIGf439g==";
+        };
     in {
         "YBxyXDts" = _YBxyXDts;
         "1uQnA54F" = _1uQnA54F;
@@ -62,12 +67,13 @@ let
         "dnLC2HIH" = _dnLC2HIH;
         "mFPXawVn" = _mFPXawVn;
         "C46IZDpR" = _C46IZDpR;
-        "minecraft-1.21.5" = _dnLC2HIH;
-        "minecraft-1.21.6" = _dnLC2HIH;
-        "minecraft-1.21.7" = _dnLC2HIH;
-        "minecraft-1.21.8" = _dnLC2HIH;
-        "minecraft-1.21.9" = _dnLC2HIH;
-        "minecraft-1.21.10" = _dnLC2HIH;
+        "SvZDB7EE" = _SvZDB7EE;
+        "minecraft-1.21.5" = _SvZDB7EE;
+        "minecraft-1.21.6" = _SvZDB7EE;
+        "minecraft-1.21.7" = _SvZDB7EE;
+        "minecraft-1.21.8" = _SvZDB7EE;
+        "minecraft-1.21.9" = _SvZDB7EE;
+        "minecraft-1.21.10" = _SvZDB7EE;
         "minecraft-1.20.5" = _mFPXawVn;
         "minecraft-1.20.6" = _mFPXawVn;
         "minecraft-1.21" = _mFPXawVn;
@@ -105,12 +111,12 @@ let
         "minecraft-1.20.2" = _mFPXawVn;
         "minecraft-1.20.3" = _mFPXawVn;
         "minecraft-1.20.4" = _mFPXawVn;
-        "minecraft-1.21.11" = _dnLC2HIH;
-        "minecraft-26.1" = _dnLC2HIH;
-        "minecraft-26.1.1" = _dnLC2HIH;
-        "minecraft-26.1.2" = _dnLC2HIH;
-        "minecraft-26.2" = _dnLC2HIH;
-        "minecraft-26.3" = _dnLC2HIH;
+        "minecraft-1.21.11" = _SvZDB7EE;
+        "minecraft-26.1" = _SvZDB7EE;
+        "minecraft-26.1.1" = _SvZDB7EE;
+        "minecraft-26.1.2" = _SvZDB7EE;
+        "minecraft-26.2" = _SvZDB7EE;
+        "minecraft-26.3" = _SvZDB7EE;
         "minecraft-22w42a" = _mFPXawVn;
         "minecraft-22w43a" = _mFPXawVn;
         "minecraft-22w44a" = _mFPXawVn;
@@ -161,14 +167,20 @@ let
         "minecraft-24w44a" = _mFPXawVn;
         "minecraft-24w45a" = _mFPXawVn;
         "minecraft-24w46a" = _mFPXawVn;
-        "minecraft-26.4-snapshot-3" = _C46IZDpR;
+        "minecraft-26.4-snapshot-3" = _SvZDB7EE;
+        "minecraft-26.4-snapshot-1" = _SvZDB7EE;
+        "minecraft-26.4-snapshot-4" = _SvZDB7EE;
+        "minecraft-26.4-snapshot-2" = _SvZDB7EE;
+        "minecraft-26.4-snapshot-5" = _SvZDB7EE;
+        "minecraft-26.4-snapshot-6" = _SvZDB7EE;
+        "minecraft-26.4-snapshot-7" = _SvZDB7EE;
         "pkg-1.0" = _YBxyXDts;
         "pkg-1.0.1" = _1uQnA54F;
         "pkg-1.0.2" = _9deLpxAI;
         "pkg-1.0.3" = _RK1pPQ2K;
         "pkg-2.0" = _mFPXawVn;
-        "pkg-2.1" = _C46IZDpR;
-        "default" = _C46IZDpR;
+        "pkg-2.1" = _SvZDB7EE;
+        "default" = _SvZDB7EE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shureees-potions";

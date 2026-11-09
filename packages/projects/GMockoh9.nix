@@ -691,6 +691,16 @@ let
             "file" = "geode_mania-21.1.21.3-neoforge-1.21.1.jar";
             "hash" = "sha512-8D9g77szOo682q3J2VInCYKBQYa+XCsSiCh73qew7fcVdOoolHiim8sdWnXweh43PvLWWwESRsvC6yFgS2MPew==";
         };
+        _SIVk7a9e = {
+            "id" = "SIVk7a9e";
+            "file" = "geode_mania-21.1.21.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-7G8y7JO8u+tPoXALPNZZWaZL3wUhEBhxI+7A214Uc4LmDMaYgjJFwySzJ481CwmSrUFhfxB5P+duasQWe+IgBw==";
+        };
+        _VXYPSWuG = {
+            "id" = "VXYPSWuG";
+            "file" = "geode_mania-21.1.21.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-pljyDkiXrhOTSdU9Z0qWUjN6GwXP6hZXoL01Tg6MdAPUpxH8ROv6Tg8wjW/vwiJKOLvNdqXfpxo0Pe0PusL9JQ==";
+        };
     in {
         "aH8Nln99" = _aH8Nln99;
         "1P1KEwLd" = _1P1KEwLd;
@@ -830,8 +840,10 @@ let
         "TE8WtefE" = _TE8WtefE;
         "RRqTvPVJ" = _RRqTvPVJ;
         "oUnmyocb" = _oUnmyocb;
+        "SIVk7a9e" = _SIVk7a9e;
+        "VXYPSWuG" = _VXYPSWuG;
         "forge-1.20.1" = _vqrJknUJ;
-        "neoforge-1.21.1" = _oUnmyocb;
+        "neoforge-1.21.1" = _VXYPSWuG;
         "pkg-1.3.5" = _aH8Nln99;
         "pkg-1.3.5.1" = _1P1KEwLd;
         "pkg-1.3.5.2" = _59XInbGY;
@@ -970,7 +982,9 @@ let
         "pkg-21.1.21.1" = _TE8WtefE;
         "pkg-21.1.21.2" = _RRqTvPVJ;
         "pkg-21.1.21.3" = _oUnmyocb;
-        "default" = _oUnmyocb;
+        "pkg-21.1.21.4" = _SIVk7a9e;
+        "pkg-21.1.21.5" = _VXYPSWuG;
+        "default" = _VXYPSWuG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geode-mania";

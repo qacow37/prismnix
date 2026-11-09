@@ -346,6 +346,11 @@ let
             "file" = "swapped_textures-26.4-snapshot-6.zip";
             "hash" = "sha512-nkV8lh7Fo7kKnNgIDVCih+3aIrAfUO1Da/DjEEe8h/IuWDH8vWIPQtpqHS1CVTQqC84M0mXgNra5eITid9Omhg==";
         };
+        _U0Aw5R2G = {
+            "id" = "U0Aw5R2G";
+            "file" = "swapped_textures-26.4-snapshot-7.zip";
+            "hash" = "sha512-mWsG4rHJRA2wyIXYfaTDOY1cImy2c1GQiIonISdW8rs80NmkPVf6iAel3iNNzLawBlk+86TTGIoTEkzR+q//hg==";
+        };
     in {
         "MOu0jgfK" = _MOu0jgfK;
         "asKkZyoy" = _asKkZyoy;
@@ -416,6 +421,7 @@ let
         "Mfq2pqZ3" = _Mfq2pqZ3;
         "NGFnT41o" = _NGFnT41o;
         "InSijXtX" = _InSijXtX;
+        "U0Aw5R2G" = _U0Aw5R2G;
         "minecraft-1.20" = _MOu0jgfK;
         "minecraft-1.20.1" = _MOu0jgfK;
         "minecraft-1.20.2" = _asKkZyoy;
@@ -491,8 +497,9 @@ let
         "minecraft-26.4-snapshot-4" = _Mfq2pqZ3;
         "minecraft-26.4-snapshot-5" = _NGFnT41o;
         "minecraft-26.4-snapshot-6" = _InSijXtX;
-        "pkg-1.0" = _InSijXtX;
-        "default" = _InSijXtX;
+        "minecraft-26.4-snapshot-7" = _U0Aw5R2G;
+        "pkg-1.0" = _U0Aw5R2G;
+        "default" = _U0Aw5R2G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swapped-all-textures";

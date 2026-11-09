@@ -91,6 +91,16 @@ let
             "file" = "the-harvester-V1.1.9-data.jar";
             "hash" = "sha512-SGcTre21mCwSeEDnMPSexIMMxL+X4GAw1yCtutAR+YugdiyO337+gua3W2zD5evmP+5rpxyDAca5huxVuu1vRg==";
         };
+        _5e13As2Y = {
+            "id" = "5e13As2Y";
+            "file" = "The Harvester V1.1.10.zip";
+            "hash" = "sha512-HCGIHOZy89OX8sn7P+P8f6vQ4ZTgdQqnqnZk9p+6rdf4M5dxyGzAu3N8ijwJcoSg9rOKwpNulwhPn2WqxLRnmQ==";
+        };
+        _CULGUQaz = {
+            "id" = "CULGUQaz";
+            "file" = "the-harvester-V1.1.10-data.jar";
+            "hash" = "sha512-cwbMPBy1ebLER8D2GUhSbPad7v8sz2PJnFOD5oDJhAJSHrzf8/V7LhzHTsX7ukfLbVncezKpHH5SeMrVK3YlyA==";
+        };
     in {
         "O6WzVm1y" = _O6WzVm1y;
         "Uo66tu5w" = _Uo66tu5w;
@@ -110,6 +120,8 @@ let
         "PE7JMwtD" = _PE7JMwtD;
         "WTEQg48i" = _WTEQg48i;
         "SqdCPFuC" = _SqdCPFuC;
+        "5e13As2Y" = _5e13As2Y;
+        "CULGUQaz" = _CULGUQaz;
         "datapack-1.20.2" = _O6WzVm1y;
         "datapack-1.21" = _yM1cchIq;
         "datapack-1.21.1" = _yM1cchIq;
@@ -127,6 +139,7 @@ let
         "datapack-26.1.1" = _e7VEIaaz;
         "datapack-26.1.2" = _e7VEIaaz;
         "datapack-26.2" = _WTEQg48i;
+        "datapack-26.3" = _5e13As2Y;
         "fabric-1.20.2" = _Uo66tu5w;
         "fabric-1.21" = _ghMZmPW9;
         "fabric-1.21.1" = _ghMZmPW9;
@@ -144,6 +157,7 @@ let
         "fabric-26.1.1" = _PE7JMwtD;
         "fabric-26.1.2" = _PE7JMwtD;
         "fabric-26.2" = _SqdCPFuC;
+        "fabric-26.3" = _CULGUQaz;
         "forge-1.20.2" = _Uo66tu5w;
         "forge-1.21" = _ghMZmPW9;
         "forge-1.21.1" = _ghMZmPW9;
@@ -161,6 +175,7 @@ let
         "forge-26.1.1" = _PE7JMwtD;
         "forge-26.1.2" = _PE7JMwtD;
         "forge-26.2" = _SqdCPFuC;
+        "forge-26.3" = _CULGUQaz;
         "neoforge-1.20.2" = _Uo66tu5w;
         "neoforge-1.21" = _ghMZmPW9;
         "neoforge-1.21.1" = _ghMZmPW9;
@@ -178,6 +193,7 @@ let
         "neoforge-26.1.1" = _PE7JMwtD;
         "neoforge-26.1.2" = _PE7JMwtD;
         "neoforge-26.2" = _SqdCPFuC;
+        "neoforge-26.3" = _CULGUQaz;
         "quilt-1.20.2" = _Uo66tu5w;
         "quilt-1.21" = _ghMZmPW9;
         "quilt-1.21.1" = _ghMZmPW9;
@@ -195,6 +211,7 @@ let
         "quilt-26.1.1" = _PE7JMwtD;
         "quilt-26.1.2" = _PE7JMwtD;
         "quilt-26.2" = _SqdCPFuC;
+        "quilt-26.3" = _CULGUQaz;
         "pkg-V1.1.1-data" = _O6WzVm1y;
         "pkg-V1.1.1-mod" = _Uo66tu5w;
         "pkg-V1.1.2-data" = _yM1cchIq;
@@ -213,7 +230,9 @@ let
         "pkg-V1.1.8-mod" = _PE7JMwtD;
         "pkg-V1.1.9-data" = _WTEQg48i;
         "pkg-V1.1.9-mod" = _SqdCPFuC;
-        "default" = _SqdCPFuC;
+        "pkg-V1.1.10-data" = _5e13As2Y;
+        "pkg-V1.1.10-mod" = _CULGUQaz;
+        "default" = _CULGUQaz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-harvester";

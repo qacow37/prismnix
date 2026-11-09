@@ -66,6 +66,11 @@ let
             "file" = "CloudTweak-2.0.0.jar";
             "hash" = "sha512-fOkzdI+dliY6Ldj5rs45064QYgeljZOelJ5KxGqb00NOcE1t4l89hyE8tj66pb1RUblg5dM6xXRm/HBbHHKEFA==";
         };
+        _fbx7qClq = {
+            "id" = "fbx7qClq";
+            "file" = "CloudTweak-2.0.1.jar";
+            "hash" = "sha512-51XrIZUda+jkrNWoiUXzuKUYl86woMW2wWqCUC3XuGuLc8v4a4l4r+0rtIGY9mRdXJrJecC+YnSiL8N1ROGjzg==";
+        };
     in {
         "f3RyvlPl" = _f3RyvlPl;
         "LmiQd5xA" = _LmiQd5xA;
@@ -80,7 +85,8 @@ let
         "GnJfrveG" = _GnJfrveG;
         "uTGX5lM7" = _uTGX5lM7;
         "dqz2qp9z" = _dqz2qp9z;
-        "fabric-1.21.1" = _dqz2qp9z;
+        "fbx7qClq" = _fbx7qClq;
+        "fabric-1.21.1" = _fbx7qClq;
         "pkg-1.0.0" = _f3RyvlPl;
         "pkg-1.0.3" = _LmiQd5xA;
         "pkg-1.1.4" = _7fDxC9wN;
@@ -94,7 +100,8 @@ let
         "pkg-1.3.1" = _GnJfrveG;
         "pkg-1.3.2" = _uTGX5lM7;
         "pkg-2.0.0" = _dqz2qp9z;
-        "default" = _dqz2qp9z;
+        "pkg-2.0.1" = _fbx7qClq;
+        "default" = _fbx7qClq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloudtweak";

@@ -386,6 +386,16 @@ let
             "file" = "ShieldLib-2.0.1+1.21.11-fabric.jar";
             "hash" = "sha512-ePYesH57rIrYbCyNT/goV+OzOh47922t3HY/jJZHRffydrHFDdnRK6Z28FttQd9FJbTCHuzXVCxk4pqDDU++oA==";
         };
+        _txqtFMYB = {
+            "id" = "txqtFMYB";
+            "file" = "ShieldLib-2.0.2+26.1.2-neoforge.jar";
+            "hash" = "sha512-P+cs/XR2oEdOcaa5mWyzxCro3mQ1oX63wRgbBQvxDV/q2w/op3uF0yHkQpSlX7udg2sD4rEPqV6/dJ+Jvhng7w==";
+        };
+        _O7NmNRAt = {
+            "id" = "O7NmNRAt";
+            "file" = "ShieldLib-2.0.2+26.1.2-fabric.jar";
+            "hash" = "sha512-OQZhS0cndKuiM0OtQbgkWXoY6L2B4RH+krg91uSKi63HMb19FZYK+kpn1ULQMeUtwm1PgB1ZfUf7pvfiXGCsdg==";
+        };
     in {
         "SsS4fgsD" = _SsS4fgsD;
         "i3HjBIox" = _i3HjBIox;
@@ -464,6 +474,8 @@ let
         "5hhaXnTT" = _5hhaXnTT;
         "JJoqweWC" = _JJoqweWC;
         "9NESXNIR" = _9NESXNIR;
+        "txqtFMYB" = _txqtFMYB;
+        "O7NmNRAt" = _O7NmNRAt;
         "fabric-1.14.4" = _A5Y9jTIc;
         "fabric-1.15.2" = _3oiFJyNc;
         "fabric-1.16.5" = _YgN7TXiv;
@@ -506,6 +518,7 @@ let
         "fabric-1.21.7" = _SeQp6hZC;
         "fabric-1.21.8" = _vSY17iQp;
         "fabric-1.21.11" = _9NESXNIR;
+        "fabric-26.1.2" = _O7NmNRAt;
         "quilt-1.21.8" = _vSY17iQp;
         "quilt-1.21.6" = _SeQp6hZC;
         "quilt-1.21.7" = _SeQp6hZC;
@@ -513,6 +526,7 @@ let
         "neoforge-1.21.6" = _JLTe0SB1;
         "neoforge-1.21.7" = _JLTe0SB1;
         "neoforge-1.21.11" = _JJoqweWC;
+        "neoforge-26.1.2" = _txqtFMYB;
         "pkg-1.3.3-1.14.4" = _SsS4fgsD;
         "pkg-1.3.3-1.15.2" = _i3HjBIox;
         "pkg-1.3.3-1.16.5" = _EsAykzB4;
@@ -590,7 +604,9 @@ let
         "pkg-2.0.1+1.21.8-neoforge" = _5hhaXnTT;
         "pkg-2.0.1+1.21.11-neoforge" = _JJoqweWC;
         "pkg-2.0.1+1.21.11-fabric" = _9NESXNIR;
-        "default" = _9NESXNIR;
+        "pkg-2.0.2+26.1.2-neoforge" = _txqtFMYB;
+        "pkg-2.0.2+26.1.2-fabric" = _O7NmNRAt;
+        "default" = _O7NmNRAt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shieldlib";

@@ -26,21 +26,28 @@ let
             "file" = "wholecloth-1.21.1-2.0.2.jar";
             "hash" = "sha512-OQoleZs02MxdZeBFa0INzI5cxApMg69XOAl9qMvzdLStioLOrT28YkkcARJDrCaOG3XdsWgawhNXZP/lYcRHIQ==";
         };
+        _MlijCFyb = {
+            "id" = "MlijCFyb";
+            "file" = "wholecloth-1.21.1-2.0.3.jar";
+            "hash" = "sha512-kq9pSGsfU+Ab6HLGOoNRwWAnLfMDBgVQGtcAW8q15A4uTI8IWW8qLgiZi2FKV5onY76kWUqMpCultK6SY5217Q==";
+        };
     in {
         "3XEY0SIS" = _3XEY0SIS;
         "z8Fu9TK3" = _z8Fu9TK3;
         "kxwDTK9v" = _kxwDTK9v;
         "iPyNnItn" = _iPyNnItn;
         "A7LhCbuK" = _A7LhCbuK;
+        "MlijCFyb" = _MlijCFyb;
         "forge-1.20.1" = _iPyNnItn;
         "neoforge-1.20.1" = _iPyNnItn;
-        "neoforge-1.21.1" = _A7LhCbuK;
+        "neoforge-1.21.1" = _MlijCFyb;
         "pkg-1.0.0" = _3XEY0SIS;
         "pkg-2.0.0" = _z8Fu9TK3;
         "pkg-2.0.1" = _kxwDTK9v;
         "pkg-1.0.1" = _iPyNnItn;
         "pkg-2.0.2" = _A7LhCbuK;
-        "default" = _A7LhCbuK;
+        "pkg-2.0.3" = _MlijCFyb;
+        "default" = _MlijCFyb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whole-cloth";

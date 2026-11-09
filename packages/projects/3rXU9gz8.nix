@@ -76,6 +76,11 @@ let
             "file" = "projectexplosive-0.7.2-beta.jar";
             "hash" = "sha512-IRN3/w2dhoo8J/fOnjUP931Mc28IIkdA2ILyrUUMtU2kyYVezQSwglow954ZPg2q7IVedrbqtJV99Cy2DnZ2jw==";
         };
+        _bk31iEeA = {
+            "id" = "bk31iEeA";
+            "file" = "projectexplosive-0.7.5-beta.jar";
+            "hash" = "sha512-cYNPUipzoTkWmYN9oxa3SKJckG555ralzSycQw006Na9tUrtOamxv1hYqvYPcEhFoadXrTFa86w1d9vOkoAINQ==";
+        };
     in {
         "G5WSk9pl" = _G5WSk9pl;
         "MfbpQ6CN" = _MfbpQ6CN;
@@ -92,8 +97,9 @@ let
         "kJqDhV3m" = _kJqDhV3m;
         "edpWXlW6" = _edpWXlW6;
         "ZLwuD5gm" = _ZLwuD5gm;
+        "bk31iEeA" = _bk31iEeA;
         "forge-1.20.1" = _DxyKS1kn;
-        "neoforge-1.21.1" = _ZLwuD5gm;
+        "neoforge-1.21.1" = _bk31iEeA;
         "pkg-0.1" = _G5WSk9pl;
         "pkg-0.2-rework" = _MfbpQ6CN;
         "pkg-0.2.1" = _gqJf0FbW;
@@ -109,7 +115,8 @@ let
         "pkg-0.7.0-beta" = _kJqDhV3m;
         "pkg-0.7.1-beta" = _edpWXlW6;
         "pkg-0.7.2-beta" = _ZLwuD5gm;
-        "default" = _ZLwuD5gm;
+        "pkg-0.7.5-beta" = _bk31iEeA;
+        "default" = _bk31iEeA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-explosive";

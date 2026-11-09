@@ -36,6 +36,26 @@ let
             "file" = "advancedplayercrosshair-26.3-1.3.jar";
             "hash" = "sha512-IsqWJyfT7XOiFAKAlf64Jf4Cm7eM6dkyk6Ee+JvUe2zjVLjjlHP6KYbcNZHVPYINCihgZSIpWjtYOI1vOqHcCQ==";
         };
+        _nIoFoDUa = {
+            "id" = "nIoFoDUa";
+            "file" = "advancedplayercrosshair-1.4.jar";
+            "hash" = "sha512-2LHIuHAP3VmZaDtJxyda24Zv1T0ZpURITWEL6qOxluMobQj6T//MMzRjjoqcYeC6fO1FHKRH5YimuW1z6GQuQw==";
+        };
+        _mSyFHtHb = {
+            "id" = "mSyFHtHb";
+            "file" = "advancedplayercrosshair-1.4.jar";
+            "hash" = "sha512-mfFW8czCMBhp878JdwgBeBjFQk62yAZb0vit231dLXRJv26yohvErho8p5VE5XGu/gt8oLbhnGhtzPiUofBL0A==";
+        };
+        _OrfCzA2j = {
+            "id" = "OrfCzA2j";
+            "file" = "advancedplayercrosshair-1.4.jar";
+            "hash" = "sha512-2+FQjubHepn1grfffqcV4NHVDk2AnUSEA0z2cRAmoYjIb8BOWHwBNX9xQWX+tTQMgJPkuPnNHwqxPI3ylyz2Tw==";
+        };
+        _Z2Mchviu = {
+            "id" = "Z2Mchviu";
+            "file" = "advancedplayercrosshair-1.4.jar";
+            "hash" = "sha512-AriH6cxiofz2KV7Bv3VwjsqLrAbzixsxrSJEmW+bTzLj6Pd29Fdil+ZDuefZDDKHAw43KZwXDwX8EUSYgVEHfQ==";
+        };
     in {
         "rAY6Bjy4" = _rAY6Bjy4;
         "iNfY3nJX" = _iNfY3nJX;
@@ -44,15 +64,20 @@ let
         "z40Gqk9m" = _z40Gqk9m;
         "svlUyskR" = _svlUyskR;
         "uDjANfob" = _uDjANfob;
-        "fabric-1.21.11" = _3Y5P0pnt;
-        "fabric-26.1" = _z40Gqk9m;
-        "fabric-26.2" = _svlUyskR;
-        "fabric-26.3" = _uDjANfob;
+        "nIoFoDUa" = _nIoFoDUa;
+        "mSyFHtHb" = _mSyFHtHb;
+        "OrfCzA2j" = _OrfCzA2j;
+        "Z2Mchviu" = _Z2Mchviu;
+        "fabric-1.21.11" = _nIoFoDUa;
+        "fabric-26.1" = _mSyFHtHb;
+        "fabric-26.2" = _OrfCzA2j;
+        "fabric-26.3" = _Z2Mchviu;
         "pkg-1.0" = _rAY6Bjy4;
         "pkg-1.1" = _iNfY3nJX;
         "pkg-1.2" = _juDleYl0;
         "pkg-1.3" = _uDjANfob;
-        "default" = _uDjANfob;
+        "pkg-1.4" = _Z2Mchviu;
+        "default" = _Z2Mchviu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-player-crosshair";

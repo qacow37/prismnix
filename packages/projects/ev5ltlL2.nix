@@ -81,6 +81,51 @@ let
             "file" = "olafsrelativeblocks-2.0.0+mc26.3.jar";
             "hash" = "sha512-4MHNoWn3WUrK+lT9m0YpyGIouT/QPr7DyKwisMQ1C5BDFhYe/LHQyNzvFxA4UMoz4F11ReRJuZRsIuvX/K3eTg==";
         };
+        _y5gRjvaD = {
+            "id" = "y5gRjvaD";
+            "file" = "olafsrelativeblocks-2.0.1+mc1.20.1.jar";
+            "hash" = "sha512-CCr/arv4te4Mh1nhZqx1PrnYABJli1TDl5sqK39ve89v8sPCbUNfPibN7S+VjTn7iLormZqOWk9drNDxGbNwdw==";
+        };
+        _G88qxAOT = {
+            "id" = "G88qxAOT";
+            "file" = "olafsrelativeblocks-2.0.1+mc1.21.1.jar";
+            "hash" = "sha512-T+DLjJdQQ+2GB5O1nvHumbgKuNgxJtG3jL1nxAv0Mnf00DvsDpQpeM9CPf2Vx3vft+esTvZTa108C6phxFyzyw==";
+        };
+        _6AqkErz3 = {
+            "id" = "6AqkErz3";
+            "file" = "olafsrelativeblocks-2.0.1+mc1.21.5.jar";
+            "hash" = "sha512-fqoCZg/4DDzy1anQ0E0SMm7YGP7quVa3fPC0O/wlJUMlJ+f5d4sufmSC1KUnqJG7EGcnClOrtnuOvXwqbkos+w==";
+        };
+        _8sugpVe5 = {
+            "id" = "8sugpVe5";
+            "file" = "olafsrelativeblocks-2.0.1+mc1.21.8.jar";
+            "hash" = "sha512-EGGOMnGzdcW6vfkzooVAjLyPsmz0/pbEvGUqaKlGlsnmUtfCM8iUyJfv9daO8gxim1C2pfk+aVh6OsSAuqkQJQ==";
+        };
+        _gtTjJOyX = {
+            "id" = "gtTjJOyX";
+            "file" = "olafsrelativeblocks-2.0.1+mc1.21.10.jar";
+            "hash" = "sha512-Csfd4CfnRpZydSq/iQ62c08H/+raly94IqujWQjpfx+zOEyKAmXNQXD0RWrmAeTDzLZozTxzLR22N5RoGE5TBQ==";
+        };
+        _yqtdrSEC = {
+            "id" = "yqtdrSEC";
+            "file" = "olafsrelativeblocks-2.0.1+mc1.21.11.jar";
+            "hash" = "sha512-3PRGiESlHXrY8+JyIcupX5WZC+mQUkIKdsEGLtgE2qViN59SR4JH+YDpc20OtHR4RB4F9fCiGFRyUE6Y6TMyCQ==";
+        };
+        _hTLFF9sH = {
+            "id" = "hTLFF9sH";
+            "file" = "olafsrelativeblocks-2.0.1+mc26.1.jar";
+            "hash" = "sha512-iRu22somKvnVzU9lE2/LSyzgpdyUts3hEw6hLDGJIJnTraupqvqX+jnqFp+MdGmYBYVTxfgiS70TcrNu+YUG5A==";
+        };
+        _VwAuMSPN = {
+            "id" = "VwAuMSPN";
+            "file" = "olafsrelativeblocks-2.0.1+mc26.2.jar";
+            "hash" = "sha512-5AqUI9mTHNzbiTAHw5QnagO7ssWH3poMaI6sBTx4BcHFhpUEadL2/w/Bc9c0S863DWJhN/ylcgWU8Bf0nweQ0g==";
+        };
+        _IJFsSTZm = {
+            "id" = "IJFsSTZm";
+            "file" = "olafsrelativeblocks-2.0.1+mc26.3.jar";
+            "hash" = "sha512-u38hfgQBMgStWEAcf8Dc8WfJgBeOkZiIihjrrSpx/srALECUI+9aeLIuf8DdZZlUyqAtp85frKJU8ieKRrnMUQ==";
+        };
     in {
         "qiwc3nG4" = _qiwc3nG4;
         "FQHR5CBZ" = _FQHR5CBZ;
@@ -98,20 +143,33 @@ let
         "mK3jnfkD" = _mK3jnfkD;
         "IAYCUXQ9" = _IAYCUXQ9;
         "Y0zBsHhq" = _Y0zBsHhq;
-        "fabric-1.21.1" = _qiwc3nG4;
-        "fabric-1.21.5" = _VvnWEeUh;
-        "fabric-1.21.8" = _BQyWjVjA;
-        "fabric-1.21.10" = _O1it2J1b;
-        "fabric-1.21.11" = _c0ba9MG5;
-        "fabric-26.1.2" = _9uoXzQsr;
-        "fabric-26.2" = _IAYCUXQ9;
-        "fabric-1.20.1" = _1k0CRbuV;
+        "y5gRjvaD" = _y5gRjvaD;
+        "G88qxAOT" = _G88qxAOT;
+        "6AqkErz3" = _6AqkErz3;
+        "8sugpVe5" = _8sugpVe5;
+        "gtTjJOyX" = _gtTjJOyX;
+        "yqtdrSEC" = _yqtdrSEC;
+        "hTLFF9sH" = _hTLFF9sH;
+        "VwAuMSPN" = _VwAuMSPN;
+        "IJFsSTZm" = _IJFsSTZm;
+        "fabric-1.21.1" = _G88qxAOT;
+        "fabric-1.21.5" = _6AqkErz3;
+        "fabric-1.21.8" = _8sugpVe5;
+        "fabric-1.21.10" = _gtTjJOyX;
+        "fabric-1.21.11" = _yqtdrSEC;
+        "fabric-26.1.2" = _hTLFF9sH;
+        "fabric-26.2" = _VwAuMSPN;
+        "fabric-1.20.1" = _y5gRjvaD;
         "fabric-1.21" = _KYUjIbd2;
-        "fabric-26.1" = _mK3jnfkD;
-        "fabric-26.3" = _Y0zBsHhq;
+        "fabric-26.1" = _hTLFF9sH;
+        "fabric-26.3" = _IJFsSTZm;
+        "fabric-1.21.6" = _8sugpVe5;
+        "fabric-1.21.7" = _8sugpVe5;
+        "fabric-26.1.1" = _hTLFF9sH;
         "pkg-1.0.0" = _JUAXGXQm;
         "pkg-2.0.0" = _Y0zBsHhq;
-        "default" = _Y0zBsHhq;
+        "pkg-2.0.1" = _IJFsSTZm;
+        "default" = _IJFsSTZm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "olafs-relatively-placed-blocks";

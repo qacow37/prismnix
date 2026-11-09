@@ -66,6 +66,11 @@ let
             "file" = "betterzoom-neoforge-1.21.1-3.1.1.jar";
             "hash" = "sha512-U4Fs6jIXJUj58el8S6iGTWbSXi3wjlR+QXewRXj8LcHBybxe135Khy2jyfNTiPCN9kgM5fVYc1KMTXExWttDwQ==";
         };
+        _j5Yu68K0 = {
+            "id" = "j5Yu68K0";
+            "file" = "betterzoom-forge-1.21.1-3.1.1.jar";
+            "hash" = "sha512-oIi1rb8nx8jhCAlKPaIeI7a/qb4DME3yD+FkEIvr0blYh+v/5YG3vrEN0LA1QKZjLo2NkFNk3pJaS5sav9Kgpg==";
+        };
     in {
         "4RI2JfAq" = _4RI2JfAq;
         "1HDrnOoI" = _1HDrnOoI;
@@ -80,12 +85,14 @@ let
         "MnMc0W55" = _MnMc0W55;
         "fZ9eDToF" = _fZ9eDToF;
         "NwwnadOr" = _NwwnadOr;
+        "j5Yu68K0" = _j5Yu68K0;
         "forge-1.20.1" = _fZ9eDToF;
         "forge-1.20.2" = _TUOWHtJQ;
         "forge-1.20.3" = _TUOWHtJQ;
         "forge-1.20.4" = _TUOWHtJQ;
         "forge-1.20.5" = _RbeSfNiz;
         "forge-1.18.2" = _MnMc0W55;
+        "forge-1.21.1" = _j5Yu68K0;
         "neoforge-1.21.1" = _NwwnadOr;
         "pkg-2.2.0" = _4RI2JfAq;
         "pkg-2.3.0" = _1HDrnOoI;
@@ -95,8 +102,8 @@ let
         "pkg-2.6.0" = _iG0jpEH9;
         "pkg-2.7.0" = _P1tY9nD4;
         "pkg-2.9.0" = _20L3hiMA;
-        "pkg-3.1.1" = _NwwnadOr;
-        "default" = _NwwnadOr;
+        "pkg-3.1.1" = _j5Yu68K0;
+        "default" = _j5Yu68K0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-zoom";

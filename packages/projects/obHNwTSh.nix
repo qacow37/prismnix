@@ -21,17 +21,29 @@ let
             "file" = "inhabitants-1.2.0.jar";
             "hash" = "sha512-hjF6KMxddG3ikJHc0WBN1dUdstcec9s786oNq79sf5DEvA9QUqjQXchVPIxns3sH9J10uZxjLZgelaSfAy/LLA==";
         };
+        _m9d986qQ = {
+            "id" = "m9d986qQ";
+            "file" = "inhabitants-1.2.1-mc1.20.1.jar";
+            "hash" = "sha512-eBli4FGB25XGz5RafSjoFsXqDSSoTUrRCevJJFpRVjW9gUYU47ZDqD3h3kzrlsqIAg+SGAG0cWFilUybYhXO2w==";
+        };
     in {
         "mcbWXHrx" = _mcbWXHrx;
         "BF6O9mL7" = _BF6O9mL7;
         "tFtoVfXB" = _tFtoVfXB;
         "BBj97pBY" = _BBj97pBY;
-        "forge-1.20.1" = _BBj97pBY;
+        "m9d986qQ" = _m9d986qQ;
+        "forge-1.20.1" = _m9d986qQ;
+        "forge-1.20.6" = _m9d986qQ;
+        "forge-1.20.5" = _m9d986qQ;
+        "forge-1.20.4" = _m9d986qQ;
+        "forge-1.20.3" = _m9d986qQ;
+        "forge-1.20.2" = _m9d986qQ;
         "pkg-1.0.0-mc1.20.1" = _mcbWXHrx;
         "pkg-1.1.0-mc1.20.1" = _BF6O9mL7;
         "pkg-1.1.1-mc1.20.1" = _tFtoVfXB;
         "pkg-1.2.0-mc1.20.1" = _BBj97pBY;
-        "default" = _BBj97pBY;
+        "pkg-1.2.1-mc1.20.1" = _m9d986qQ;
+        "default" = _m9d986qQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inhabitants";

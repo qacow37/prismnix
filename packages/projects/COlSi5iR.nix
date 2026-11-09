@@ -586,6 +586,16 @@ let
             "file" = "c2me-neoforge-mc26.3-0.4.2-alpha.0.110.jar";
             "hash" = "sha512-Dn1B/fbylajFcaVyS7OEIrUHA6B04nmQPPWGobMPUz0HjrjoZMGT7BxUPJQ2xM9ug8SW9osgYNxIUVDsLRYXGQ==";
         };
+        _gNLuR0Rk = {
+            "id" = "gNLuR0Rk";
+            "file" = "c2me-neoforge-mc26.2-0.4.2-alpha.0.100.jar";
+            "hash" = "sha512-6blW8PeN0iIGFDW0KvgUfzkaAzTvvzxTq1FyPe8UwHGaMYjovWJ/hVv8A5YBiTFBT9+ELzYApZ4DPJurX9HGmQ==";
+        };
+        _U68CNTHF = {
+            "id" = "U68CNTHF";
+            "file" = "c2me-neoforge-mc26.1.2-0.4.0-alpha.0.102.jar";
+            "hash" = "sha512-4IHm/7uOUZ0L3fEP5ODAWjifqwPqoHPdxyYi649NYLQmPHXsBeWqGmwxs34vH12yn/4WfqD+cgPDqfL3vXpNJA==";
+        };
     in {
         "S2taMPLe" = _S2taMPLe;
         "W7hQe9cD" = _W7hQe9cD;
@@ -704,6 +714,8 @@ let
         "VACgDPOc" = _VACgDPOc;
         "OW5kFWVU" = _OW5kFWVU;
         "tsjMpKNj" = _tsjMpKNj;
+        "gNLuR0Rk" = _gNLuR0Rk;
+        "U68CNTHF" = _U68CNTHF;
         "neoforge-1.21.1" = _VACgDPOc;
         "neoforge-1.21.5" = _zaZMwdfX;
         "neoforge-1.21.6-pre4" = _kWnX1Ffh;
@@ -718,9 +730,9 @@ let
         "neoforge-26.1-rc-3" = _lEorZcyn;
         "neoforge-26.1" = _fZQFWknN;
         "neoforge-26.1.1" = _hh7yJLE9;
-        "neoforge-26.1.2" = _LEHKpyxE;
+        "neoforge-26.1.2" = _U68CNTHF;
         "neoforge-26.2-rc-2" = _JxM8JHjp;
-        "neoforge-26.2" = _XpuI7aLS;
+        "neoforge-26.2" = _gNLuR0Rk;
         "neoforge-26.3" = _tsjMpKNj;
         "pkg-0.3.0+alpha.0.19+1.21.1" = _S2taMPLe;
         "pkg-0.3.0+alpha.0.21+1.21.1" = _W7hQe9cD;
@@ -839,7 +851,9 @@ let
         "pkg-0.4.0-alpha.0.124+1.21.1" = _VACgDPOc;
         "pkg-0.4.2-alpha.0.109+26.3" = _OW5kFWVU;
         "pkg-0.4.2-alpha.0.110+26.3" = _tsjMpKNj;
-        "default" = _tsjMpKNj;
+        "pkg-0.4.2-alpha.0.100+26.2" = _gNLuR0Rk;
+        "pkg-0.4.0-alpha.0.102+26.1.2" = _U68CNTHF;
+        "default" = _U68CNTHF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "c2me-neoforge";

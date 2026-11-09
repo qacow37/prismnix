@@ -336,6 +336,11 @@ let
             "file" = "ohmymeteors-1.5.0+26.2.jar";
             "hash" = "sha512-/k0YKZmHiOXI2o2TWqof/n36d2CCtUHDEovjWNU0PSxPgpkf4IJIkq3cBDQkGbQHwDlrmntD3bgkARTTgptxRg==";
         };
+        _MiwAugtN = {
+            "id" = "MiwAugtN";
+            "file" = "ohmymeteors-1.5.1+1.19.2.jar";
+            "hash" = "sha512-lZipVJBFFFKfT/XvpQ9QHjPYwttaprUb+XpzMY2q9QC0vAIi66GA/0Pux8CZ/JwvIAI46v8DcPuewqIQC7W3PQ==";
+        };
     in {
         "btx5bgpQ" = _btx5bgpQ;
         "pVzyF60M" = _pVzyF60M;
@@ -404,9 +409,10 @@ let
         "jITxg2aK" = _jITxg2aK;
         "KDLlSZ1p" = _KDLlSZ1p;
         "6Hs9dyeE" = _6Hs9dyeE;
+        "MiwAugtN" = _MiwAugtN;
         "fabric-1.21" = _HNuZ0dDo;
         "fabric-1.21.1" = _HNuZ0dDo;
-        "fabric-1.19.2" = _jITxg2aK;
+        "fabric-1.19.2" = _MiwAugtN;
         "fabric-1.20" = _zyVXaxqT;
         "fabric-1.20.1" = _zyVXaxqT;
         "fabric-1.21.2" = _L2N8nEdn;
@@ -425,7 +431,7 @@ let
         "fabric-26.2" = _6Hs9dyeE;
         "quilt-1.21" = _HNuZ0dDo;
         "quilt-1.21.1" = _HNuZ0dDo;
-        "quilt-1.19.2" = _jITxg2aK;
+        "quilt-1.19.2" = _MiwAugtN;
         "quilt-1.20" = _zyVXaxqT;
         "quilt-1.20.1" = _zyVXaxqT;
         "quilt-1.21.2" = _L2N8nEdn;
@@ -513,7 +519,8 @@ let
         "pkg-1.5.0+1.19.2" = _jITxg2aK;
         "pkg-1.5.0+26.1" = _KDLlSZ1p;
         "pkg-1.5.0+26.2" = _6Hs9dyeE;
-        "default" = _6Hs9dyeE;
+        "pkg-1.5.1+1.19.2" = _MiwAugtN;
+        "default" = _MiwAugtN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ohmymeteors";

@@ -446,6 +446,16 @@ let
             "file" = "SkyBlockPv-1.9.2-26.3.jar";
             "hash" = "sha512-8wWyKrnFeDw5H2RhcdFu+9A9PXmzXrV58ZI9OC9vLypQbcH7ZE656j1FBfaKBjnhXgOEeZo70WHt1ElXgfyyZw==";
         };
+        _CZbywuPN = {
+            "id" = "CZbywuPN";
+            "file" = "SkyBlockPv-1.10.0-26.2.jar";
+            "hash" = "sha512-YxduelcT6igMqG5PrGKobxx442zJIfgiQNrIsb9KhfjxKlRLOCCOIGocyohxpF8qcvGHNuxJCaLc5lsrTpBihw==";
+        };
+        _dlqiOvPO = {
+            "id" = "dlqiOvPO";
+            "file" = "SkyBlockPv-1.10.0-26.3.jar";
+            "hash" = "sha512-mskmvAdQ4CDuaIyPiNgj9vkaTemmXpJvy1pbXCXiTNqD848DyKDoTf4Ux4QBWeOxGx+438Ei8XE9tC72Ry+s2A==";
+        };
     in {
         "mcLvgz6P" = _mcLvgz6P;
         "MAL522kR" = _MAL522kR;
@@ -536,6 +546,8 @@ let
         "xqACrDEZ" = _xqACrDEZ;
         "i0l6DQfj" = _i0l6DQfj;
         "rcMsCop0" = _rcMsCop0;
+        "CZbywuPN" = _CZbywuPN;
+        "dlqiOvPO" = _dlqiOvPO;
         "fabric-1.21.5" = _Yjrel9Dg;
         "fabric-1.21.6" = _qCi480bM;
         "fabric-1.21.7" = _qCi480bM;
@@ -546,8 +558,8 @@ let
         "fabric-26.1" = _xqACrDEZ;
         "fabric-26.1.1" = _xqACrDEZ;
         "fabric-26.1.2" = _xqACrDEZ;
-        "fabric-26.2" = _i0l6DQfj;
-        "fabric-26.3" = _rcMsCop0;
+        "fabric-26.2" = _CZbywuPN;
+        "fabric-26.3" = _dlqiOvPO;
         "pkg-1.0.0" = _mcLvgz6P;
         "pkg-1.1.0" = _MAL522kR;
         "pkg-1.1.1" = _CTFxplwB;
@@ -621,7 +633,8 @@ let
         "pkg-1.9.0" = _UpHGq9Lh;
         "pkg-1.9.1" = _tn8Tzpud;
         "pkg-1.9.2" = _rcMsCop0;
-        "default" = _rcMsCop0;
+        "pkg-1.10.0" = _dlqiOvPO;
+        "default" = _dlqiOvPO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-profile-viewer";

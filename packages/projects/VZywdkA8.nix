@@ -451,6 +451,11 @@ let
             "file" = "potionring-neoforge-26.3-2.1.jar";
             "hash" = "sha512-vsvz21AbxiIjmaKWq1HwKj1CYD6JibHiBsnzM991GEv3/EvemxSUv2y5sweqflE+QgH8W1ODfriqAcKZ6aoRFQ==";
         };
+        _ltfRjU8o = {
+            "id" = "ltfRjU8o";
+            "file" = "potionring-neoforge-26.3-2.2.jar";
+            "hash" = "sha512-z0UAD/WVtPiOktHP81pybZmdF2rnD+ckgzOeHz2iIlvtd90j/gOXqXBxYrnZplhhewFo2nLIrQ1NT5HySuXltw==";
+        };
     in {
         "Qb410Kgf" = _Qb410Kgf;
         "bpyKXwnN" = _bpyKXwnN;
@@ -542,6 +547,7 @@ let
         "SnwHfaCY" = _SnwHfaCY;
         "TlPlAg4p" = _TlPlAg4p;
         "p4ta3Xe1" = _p4ta3Xe1;
+        "ltfRjU8o" = _ltfRjU8o;
         "fabric-1.19.3" = _lVttakVs;
         "fabric-1.19.4" = _lVttakVs;
         "fabric-1.19.2" = _WlijXVNS;
@@ -596,7 +602,7 @@ let
         "neoforge-1.21.11" = _vor3FMnf;
         "neoforge-26.1" = _tbldYpcU;
         "neoforge-26.2" = _VhT5fjrJ;
-        "neoforge-26.3" = _p4ta3Xe1;
+        "neoforge-26.3" = _ltfRjU8o;
         "pkg-1.19.3-1.0" = _Qb410Kgf;
         "pkg-1.19.2-1.1" = _iRs4PJj7;
         "pkg-1.19-1.1" = _NiqJ6LYU;
@@ -652,7 +658,8 @@ let
         "pkg-26.2-2.0" = _VhT5fjrJ;
         "pkg-26.3-26.3-2.0" = _TlPlAg4p;
         "pkg-26.3-2.1" = _p4ta3Xe1;
-        "default" = _p4ta3Xe1;
+        "pkg-26.3-2.2" = _ltfRjU8o;
+        "default" = _ltfRjU8o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-ring-reforged";

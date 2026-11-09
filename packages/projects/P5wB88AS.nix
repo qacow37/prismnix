@@ -26,12 +26,18 @@ let
             "file" = "repurposed_structures_farmers_delight_compat_v8.jar";
             "hash" = "sha512-gCPA1I8qBqE+/MYfj93oXxqXwFkdZOw7yPAOnccD6m2XJrLrQoFg2gpy3z7eKb5dSNlBTb5RkGATQyos8ucFKw==";
         };
+        _wXNC2HuB = {
+            "id" = "wXNC2HuB";
+            "file" = "repurposed_structures_farmers_delight_compat_v9.jar";
+            "hash" = "sha512-5BwjIEccJ4GC6621JM4Lwa6Srx4qa4ugPfwa1+VfSOV8BiU6S7cLkm/E74Kgb8p8f3JskkantRvUepPTk9gEyw==";
+        };
     in {
         "V7cfydx7" = _V7cfydx7;
         "oFyQ4Atl" = _oFyQ4Atl;
         "DSuBmePz" = _DSuBmePz;
         "PKPVpBYy" = _PKPVpBYy;
         "rGUf2vp9" = _rGUf2vp9;
+        "wXNC2HuB" = _wXNC2HuB;
         "datapack-1.18" = _V7cfydx7;
         "datapack-1.18.1" = _V7cfydx7;
         "datapack-1.18.2" = _V7cfydx7;
@@ -54,6 +60,7 @@ let
         "fabric-26.1.1" = _rGUf2vp9;
         "fabric-26.1.2" = _rGUf2vp9;
         "fabric-26.2" = _rGUf2vp9;
+        "fabric-26.3" = _wXNC2HuB;
         "neoforge-1.21" = _PKPVpBYy;
         "neoforge-1.21.1" = _PKPVpBYy;
         "neoforge-1.21.2" = _PKPVpBYy;
@@ -75,7 +82,8 @@ let
         "pkg-6" = _DSuBmePz;
         "pkg-7" = _PKPVpBYy;
         "pkg-8" = _rGUf2vp9;
-        "default" = _rGUf2vp9;
+        "pkg-9" = _wXNC2HuB;
+        "default" = _wXNC2HuB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "repurposed-structures-farmers-delight-compat";

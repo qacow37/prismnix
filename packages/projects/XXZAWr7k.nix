@@ -166,6 +166,86 @@ let
             "file" = "daynap-neoforge-26.3-1.1.0.jar";
             "hash" = "sha512-nYGw6Q4vZaYzWFUXfrkAtphb3jQItvFFAFWS9sQNXzcYryhlA3AcCuTgBTtvHrlZ3w9yvXhZtgfUuhXLaQRvxw==";
         };
+        _uHfboa27 = {
+            "id" = "uHfboa27";
+            "file" = "daynap-fabric-1.19.2-1.1.1.jar";
+            "hash" = "sha512-ks2TNBaLJXcF+QWckMOei1zALG3Lm2NTiyUiYnSH1/qA2e5crAhtwOuNQcPhja9UvFbgbjXpbJPTMx9ikpZkpw==";
+        };
+        _j3F6os5B = {
+            "id" = "j3F6os5B";
+            "file" = "daynap-fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-a1k8BjsqQxDU9dac1QN1o9Uzo+CvAhvrPUO3ueW5CHmlbyDMQLCDrWX1U0vJxyLnEicZTLK+b7DHcahoMMGT+w==";
+        };
+        _AVpnkk0A = {
+            "id" = "AVpnkk0A";
+            "file" = "daynap-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-OUzDPmmI+vfm0ooEg0S5xqkqd1R9HYk0jTqmMiH2bspFns8kpkyM6YmLjFpSF1VDjJCt1VCQ9cGulgg43d69aQ==";
+        };
+        _TUze5pjY = {
+            "id" = "TUze5pjY";
+            "file" = "daynap-fabric-1.21.11-1.1.1.jar";
+            "hash" = "sha512-CAbbsvwi3yDs155vcKju105hHln65qnrm5fnoTmGPHla+cyCGfP7L7VqCsDcEWLJAh+cZt0Z2gKpeFvX+kW+PA==";
+        };
+        _KYEdRnV8 = {
+            "id" = "KYEdRnV8";
+            "file" = "daynap-fabric-26.1.2-1.1.1.jar";
+            "hash" = "sha512-PvaSq9XGfosIhkp1rP59VWQct2VFZvz1RTEQrolb5Bjj+In9U7smpzgqNbD6c3xqH5SLNrpCe+F0NlvShEjvLQ==";
+        };
+        _Go9JeMJi = {
+            "id" = "Go9JeMJi";
+            "file" = "daynap-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-nPVX2yUb2lkpsQJhQ+FOwttlJoAsb05dSnKUFDd8XvPcUstdgq9ENXj6ZJz/4tnJDFxgaHDGFc2nMk+wR7/ynA==";
+        };
+        _AupwDp5N = {
+            "id" = "AupwDp5N";
+            "file" = "daynap-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-YZUdPLpvtcmipG9VX/WwKNwM/vJaKIQzqAOAR9u74IOdBs5VaKqZU/wtgZZwYPxuQa/hU3F89tTbs8IDtE7fqQ==";
+        };
+        _387C7ThZ = {
+            "id" = "387C7ThZ";
+            "file" = "daynap-forge-1.19.2-1.1.1.jar";
+            "hash" = "sha512-C4eeRvci7LWboPRG4dFnr3o0DMzxuFLvsVr2wTKDU1jhT9Ws9/V3qaKVdLh+QE7YP5D1znpCafORNzEeDK2AEQ==";
+        };
+        _ZZytqkz2 = {
+            "id" = "ZZytqkz2";
+            "file" = "daynap-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-l6zSqGGGqU4ZG2DL4m897/KmQ9U5R/4rzJAnrSSUGmSDfytzpHt9K2NvbKB7f+/xZ5ZXWUp0AP8yqMofGBjSdw==";
+        };
+        _i5gnVnBF = {
+            "id" = "i5gnVnBF";
+            "file" = "daynap-forge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-nR+QGnDBZpXyytfu2F1huj7slVbqNE9sYhTXxKfx9yRWRe+fF11KBBJaXP2U/tTZZRMi1jj4c9yolIqyA3/slg==";
+        };
+        _y9hEvjAM = {
+            "id" = "y9hEvjAM";
+            "file" = "daynap-forge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-tmbwAb6D4fQSGPiYVCQTNIpBd8/TFWUJwAT4Vbmf4zkjwJ8dYR7EyRf3Zwwe9R/UwE0tAeAu8iXLu93xF03BuA==";
+        };
+        _Q3x2OxN6 = {
+            "id" = "Q3x2OxN6";
+            "file" = "daynap-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-leW94E/feDX/cAfniUd09ZOBxaTXKtYVBR9NBjzGXW5A+0rGrtbbbbUkO0Z9+Jfgvw/Clo3ysGEA+g+/GwqRgw==";
+        };
+        _Z0MJLlCk = {
+            "id" = "Z0MJLlCk";
+            "file" = "daynap-neoforge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-LkmoCxDCrfw5BY80xFXDILRLJN9Dme8+8O9TyAwVEszADPQ3Gbu4Gs7EuDDMfwINb/kC4u33ewSZVdCgJ6iUCw==";
+        };
+        _hZ3NXR7E = {
+            "id" = "hZ3NXR7E";
+            "file" = "daynap-neoforge-26.1.2-1.1.1.jar";
+            "hash" = "sha512-fu/ws/4aVpbW051ALV7Wh9r29tzR9rnuXOrQ0dY8ViHt53NVRVBayv+g3W5nf621s6pA6G/wMd/6tD+iQZirzw==";
+        };
+        _IhX4ewPW = {
+            "id" = "IhX4ewPW";
+            "file" = "daynap-neoforge-26.2-1.1.1.jar";
+            "hash" = "sha512-JbRS+bdceuKnjfGb8RZtab6oIcF0dzgF9Q8094WG4vOdvxKuUrAWG+KiazDX+rZw9uHxSwBg6Fp1XdbOc0suKA==";
+        };
+        _GDewgw9h = {
+            "id" = "GDewgw9h";
+            "file" = "daynap-neoforge-26.3-1.1.1.jar";
+            "hash" = "sha512-p268nz4IwEVfpNWjnzFHM7kE/aWWYzZygQsr6e7hesPha1tp6OIJiSBXuU2ZWeK1XPLZyKHWSErpm3RhLAp9jA==";
+        };
     in {
         "UmKXweNE" = _UmKXweNE;
         "x6jo5SY9" = _x6jo5SY9;
@@ -200,29 +280,46 @@ let
         "e9ZspByZ" = _e9ZspByZ;
         "B7BdcqGM" = _B7BdcqGM;
         "7pK19Aym" = _7pK19Aym;
-        "neoforge-1.21.11" = _4xgaTAue;
-        "neoforge-1.21.1" = _r9kLSeBn;
+        "uHfboa27" = _uHfboa27;
+        "j3F6os5B" = _j3F6os5B;
+        "AVpnkk0A" = _AVpnkk0A;
+        "TUze5pjY" = _TUze5pjY;
+        "KYEdRnV8" = _KYEdRnV8;
+        "Go9JeMJi" = _Go9JeMJi;
+        "AupwDp5N" = _AupwDp5N;
+        "387C7ThZ" = _387C7ThZ;
+        "ZZytqkz2" = _ZZytqkz2;
+        "i5gnVnBF" = _i5gnVnBF;
+        "y9hEvjAM" = _y9hEvjAM;
+        "Q3x2OxN6" = _Q3x2OxN6;
+        "Z0MJLlCk" = _Z0MJLlCk;
+        "hZ3NXR7E" = _hZ3NXR7E;
+        "IhX4ewPW" = _IhX4ewPW;
+        "GDewgw9h" = _GDewgw9h;
+        "neoforge-1.21.11" = _Z0MJLlCk;
+        "neoforge-1.21.1" = _Q3x2OxN6;
         "neoforge-26.1" = _jczVeYbh;
         "neoforge-26.1.1" = _NQON6lFG;
-        "neoforge-26.1.2" = _e9ZspByZ;
-        "neoforge-26.2" = _B7BdcqGM;
-        "neoforge-26.3" = _7pK19Aym;
-        "forge-1.20.1" = _RbmB0ulQ;
-        "forge-1.19.2" = _a4pnWU3t;
-        "forge-1.21.1" = _DLkNjcZq;
-        "forge-1.21.11" = _aCnOBmNI;
-        "fabric-1.20.1" = _aJVwuh1E;
-        "fabric-1.21.1" = _G3HucGN9;
-        "fabric-1.21.11" = _FaVAolaq;
+        "neoforge-26.1.2" = _hZ3NXR7E;
+        "neoforge-26.2" = _IhX4ewPW;
+        "neoforge-26.3" = _GDewgw9h;
+        "forge-1.20.1" = _ZZytqkz2;
+        "forge-1.19.2" = _387C7ThZ;
+        "forge-1.21.1" = _i5gnVnBF;
+        "forge-1.21.11" = _y9hEvjAM;
+        "fabric-1.20.1" = _j3F6os5B;
+        "fabric-1.21.1" = _AVpnkk0A;
+        "fabric-1.21.11" = _TUze5pjY;
         "fabric-26.1" = _PtujGJdO;
         "fabric-26.1.1" = _9SvZ2YYu;
-        "fabric-26.1.2" = _UmienLU4;
-        "fabric-26.2" = _akInYdXy;
-        "fabric-26.3" = _6onqdFnm;
-        "fabric-1.19.2" = _11Hl5BEG;
+        "fabric-26.1.2" = _KYEdRnV8;
+        "fabric-26.2" = _Go9JeMJi;
+        "fabric-26.3" = _AupwDp5N;
+        "fabric-1.19.2" = _uHfboa27;
         "pkg-1.0.0" = _FGpjJQZd;
         "pkg-1.1.0" = _7pK19Aym;
-        "default" = _7pK19Aym;
+        "pkg-1.1.1" = _GDewgw9h;
+        "default" = _GDewgw9h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daynap";

@@ -166,6 +166,356 @@ let
             "file" = "boxclient v2.jar";
             "hash" = "sha512-n+yTpi7wxJ/01Vm9VWhAR3UVL7dJuI6tWlfc9FdntAjC/H8SEykqlwD+sZJ9nWKyALvFDaH2JT9MrJlLRFNATA==";
         };
+        _SHAijCDe = {
+            "id" = "SHAijCDe";
+            "file" = "Box Client 1.19.2 v3.0.0.jar";
+            "hash" = "sha512-dbmpeqI4lDaGskL+Df6UG68/w3zJcPukBs1zhmJom7tElzWFUwkg9Z944H8dwTMbZ7ItEPQQJDsMmMALkkPwwg==";
+        };
+        _gvVrS6iK = {
+            "id" = "gvVrS6iK";
+            "file" = "Box Client 1.19.4 v3.0.0.jar";
+            "hash" = "sha512-4uuF6+ea9Nr9UFLBh419GyblV+epAuTxBMaWSy9nnYwCJ9m4/eEZS9YZ8VyUO4hA2q9nryePqrcQF3Ps2+GgTg==";
+        };
+        _AYa2a0Di = {
+            "id" = "AYa2a0Di";
+            "file" = "Box Client 1.20.1 v3.0.0.jar";
+            "hash" = "sha512-gsOF8povxo1knO9RV7/U3PXID+XK2h2s8xImWiuoPmN/xEuYyWrY/aXdeHrJrzfgr/xmhrQjU+OF3ijRJXs3dQ==";
+        };
+        _4moiVpv9 = {
+            "id" = "4moiVpv9";
+            "file" = "Box Client 1.20.4 v3.0.0.jar";
+            "hash" = "sha512-kp7qVsDAZR48jjgVSZoq447H49llwDDdwlmIvDrSSdyVnzN6/J9fF1izvI+BNUBJiY69lY31hcEqGtO1XvViQw==";
+        };
+        _7gBB3KkG = {
+            "id" = "7gBB3KkG";
+            "file" = "Box Client 1.20.6 v3.0.0.jar";
+            "hash" = "sha512-f3W+mc+7h64UjgARUNTZYYIlAzowVJM0hBgUYeeVSRof9fAMBv6U+66FkFQhpev94pASUVyMu+o+2/9NGifFcQ==";
+        };
+        _eQINqcqL = {
+            "id" = "eQINqcqL";
+            "file" = "Box Client 1.21.1 v3.0.0.jar";
+            "hash" = "sha512-5XGpJKCo7jgMGqXXj0bNlEZLY4TfTXZSJSzNcTDvYi+sYcOlzQVRqUIkcf3dlraL4outGhwjmBEvthGQXdSUJg==";
+        };
+        _bTCddfxU = {
+            "id" = "bTCddfxU";
+            "file" = "Box Client 1.21.4 v3.0.0.jar";
+            "hash" = "sha512-9OhUFXkRLw1ZrWgxhWgYMjV3xGeOkLIkU6SSyMlJEnyoEc86SE8+FknkjthJJqcvyNbcOLDqNQs0xI+inMLl3w==";
+        };
+        _SJxwbUiG = {
+            "id" = "SJxwbUiG";
+            "file" = "Box Client 1.21.5 v3.0.0.jar";
+            "hash" = "sha512-hb6lLQn97G4JBY+5YkcPoRdCqiXPjtzv4iXgDaYNR3gSBOwVKUnbyGINnJBjy8pWjO1yqlowhcasOd+zP73hFg==";
+        };
+        _nKnjd2ov = {
+            "id" = "nKnjd2ov";
+            "file" = "Box Client 1.21.8 v3.0.0.jar";
+            "hash" = "sha512-/zdkuCk8MqfI2ym2WKY7GLHHJihl8Ls6tyIJSRWJL84UNNXEOXaTrI41h8+oEmsNgW5QpFrmG4BJ31PmAZthow==";
+        };
+        _Pd3d2yZi = {
+            "id" = "Pd3d2yZi";
+            "file" = "Box Client 1.21.10 v3.0.0.jar";
+            "hash" = "sha512-jPFKPsEDXNEh3+4zAPEVz4N4gRE0SsDW0uylCUq53vhhGe8vMe67sYYP5D/2jPXTHMRFbH6+b7Kx8c/IgX7o+A==";
+        };
+        _BB3vikwq = {
+            "id" = "BB3vikwq";
+            "file" = "Box Client 1.21.11 v3.0.0.jar";
+            "hash" = "sha512-FVqVWYFEQk/oDnkk3Vm5NGBdu0oQ8u8ZCyj1HBFCLIvaZa3pOnv4de/OJLDGaF8SfgKuo/PTK+AUd7wmEglA5w==";
+        };
+        _RvubRTww = {
+            "id" = "RvubRTww";
+            "file" = "Box Client 26.1.2 v3.0.0.jar";
+            "hash" = "sha512-hXP6YOK8GCD1CXeQ4IiaMnzlWD0QGGgg/cQG+K5jyeA9OareffNzVZS0jMv8Jd8xNuZZEZD0O1No8OczniHjiA==";
+        };
+        _Deztw561 = {
+            "id" = "Deztw561";
+            "file" = "Box Client 26.2 v3.0.0.jar";
+            "hash" = "sha512-gWMtXYHLBHUlFOcbbEMrVKfZaCtj/XI50wWB1443tVwMIgb7Jn3cEvLniFACKOMDpVnWHRFwrutXzCgUxreBYQ==";
+        };
+        _5VgwHcSX = {
+            "id" = "5VgwHcSX";
+            "file" = "Box Client 26.3 v3.0.0.jar";
+            "hash" = "sha512-iJZULFGBkcia3Hz87rajtOwA+xoXF2wSadynaNBw14nN+5krp+pYcM7lNE/A567gy/kqg6yL3ZIjyqr8R+K4Mw==";
+        };
+        _4HUWkiVK = {
+            "id" = "4HUWkiVK";
+            "file" = "Box Client 1.19.2 v3.0.1.jar";
+            "hash" = "sha512-3BcjlBV0A6xn45VbLaSwjFeMxyTQyQA6F2B4goA1WbPJtAoY4dHpM69PCHpNmSXZTaQxxnGS/WPnYhAfVmoabA==";
+        };
+        _HvjULHqT = {
+            "id" = "HvjULHqT";
+            "file" = "Box Client 1.19.4 v3.0.1.jar";
+            "hash" = "sha512-IX30qay54tKYlynjYWt0eqYxFQXVvY8yLL5aBJndVLG2kpFxcChi/yOO/Fqyx5IYjsHdanDNKEuwKtJZihFq4Q==";
+        };
+        _ZarQh0bE = {
+            "id" = "ZarQh0bE";
+            "file" = "Box Client 1.20.1 v3.0.1.jar";
+            "hash" = "sha512-keoZAoUAfnJ2ltPUbs7MtXIb9OaG/PB7vMoT7PMYbqTjupd7V9oZo/ZtkVfBA3BGh11QYgIwgePFVWbkeC6JCQ==";
+        };
+        _h4SgvCgu = {
+            "id" = "h4SgvCgu";
+            "file" = "Box Client 1.20.4 v3.0.1.jar";
+            "hash" = "sha512-S9jrEGRgQZWcOrPJsfYN/h+4O/szhRj1nfsbZij4N+wbCyyVFWk+XWuXkD20cS+wI0eLi93Waf4JrvO/YqkK6g==";
+        };
+        _ujkMHTKi = {
+            "id" = "ujkMHTKi";
+            "file" = "Box Client 1.20.6 v3.0.1.jar";
+            "hash" = "sha512-FTrrqcFEd6fO09qDvSkqOUGnfSci6auPmpMGBFmfWtyiggpt7kuLoha6n61SZJVCNP+ny5YCTntru3Yqe6r+6Q==";
+        };
+        _l2tgXGVc = {
+            "id" = "l2tgXGVc";
+            "file" = "Box Client 1.21.1 v3.0.1.jar";
+            "hash" = "sha512-OwIO5epfmC/ErmjCPlYCzpZb5bc0FEVXMe7jXqrYdpjp7PkKntQ0pNT9mlZkIsXaYbiIeGJdHJ+AUwAXbsqpyw==";
+        };
+        _7Mx0lZkR = {
+            "id" = "7Mx0lZkR";
+            "file" = "Box Client 1.21.4 v3.0.1.jar";
+            "hash" = "sha512-OBxeYawRzASLv6eTV61+cEDiNo1R//Ec9X2sTF4YtkAe/v/Umi0G8pJu/YYHq0UKmWw6GafALS/OVqcIvNlKvQ==";
+        };
+        _TcRDaPLa = {
+            "id" = "TcRDaPLa";
+            "file" = "Box Client 1.21.5 v3.0.1.jar";
+            "hash" = "sha512-6TP8jklOeGFLIgXTOjAfQ4pVxh2L8FhdDAholiLQZyqEa6la/p5b3JBG1I6vdWS2EugOHYjo73bv4q+vehLwYA==";
+        };
+        _krthzUZg = {
+            "id" = "krthzUZg";
+            "file" = "Box Client 1.21.8 v3.0.1.jar";
+            "hash" = "sha512-D3xAvuC7SgZkWVoTCYTPs/zUQfwDp3Ld+YQKn5UN39MaNcjwAqEKq6YnjeG2rCm8Lnijg7II40GGYfAjVK5gUQ==";
+        };
+        _V37Uuz2k = {
+            "id" = "V37Uuz2k";
+            "file" = "Box Client 1.21.10 v3.0.1.jar";
+            "hash" = "sha512-Ncr8zKiZr5pJMvqe/3ajZZikjdEGWWrzDgh+6j1qePdpwtXDu1WjnBUkgBoocjBoWCkB0qs1g0l35704V/gxFw==";
+        };
+        _9NA8dyL9 = {
+            "id" = "9NA8dyL9";
+            "file" = "Box Client 1.21.11 v3.0.1.jar";
+            "hash" = "sha512-sfrmQ6EaS39oBa4aeYgu+jMZUBZd9symZWJlDtQzz4BbLImbWUCnJ40rovn6IvkYV8RZbPgI6LT/C+W2IWm+Vw==";
+        };
+        _EOk5dLh1 = {
+            "id" = "EOk5dLh1";
+            "file" = "Box Client 26.1.2 v3.0.1.jar";
+            "hash" = "sha512-WDq90FUA8bSeJQOsS6Q1hMyy7nLu4HhIYbAO93PAxrzr7CAV90Pz55JT1XCsJWbSQAh3mtnnHBihrQa9yw/teQ==";
+        };
+        _CzXtT8xY = {
+            "id" = "CzXtT8xY";
+            "file" = "Box Client 26.2 v3.0.1.jar";
+            "hash" = "sha512-6GRenr36iVuZ+Tfq2gMOOYu9Sa+rrFHpKr3UOjFYqcCJiIwkquHtzXVQl95PapAlXqZnYVMF0Quo+gEg3l4Hbw==";
+        };
+        _V648I5SA = {
+            "id" = "V648I5SA";
+            "file" = "Box Client 26.3 v3.0.1.jar";
+            "hash" = "sha512-K9DIrs1Ew1m/b57qEW9CTqeseGrmvzK2I4w53brSB3R/j1/nhcu0LrtHOL9J7ho3BnwOFh3sDFbdZnlwAQJLmA==";
+        };
+        _T3PC1wSb = {
+            "id" = "T3PC1wSb";
+            "file" = "Box Client 1.19.2 v3.0.2.jar";
+            "hash" = "sha512-uK9Lgblt8L+Jxq2hNohhXD1oPuOBIDIllpxDzI4yH0cRU/t86uYcOXxmNN1ny9hri2FYXhwKRwWTBxW3bBeyag==";
+        };
+        _WtAnHPes = {
+            "id" = "WtAnHPes";
+            "file" = "Box Client 1.19.4 v3.0.2.jar";
+            "hash" = "sha512-OL0hnEdFiv/GfZjriDAp0mn/EM0IjeDQuhhwvve2MTD9gBf4MFH3Cn9fAVb2x22RuVOqFk3HkQvhWRNjK3RBFA==";
+        };
+        _9ssQUene = {
+            "id" = "9ssQUene";
+            "file" = "Box Client 1.20.1 v3.0.2.jar";
+            "hash" = "sha512-02yEA4eVOZG7gpd9U/Bch3VZcvD+adkBiB6mDRvLtFPaY5hPsiUp5BPpTYGc1YlZBGpyTJNDOZs4U7Vmq1VSfg==";
+        };
+        _O88h0uXr = {
+            "id" = "O88h0uXr";
+            "file" = "Box Client 1.20.4 v3.0.2.jar";
+            "hash" = "sha512-aDk+WwPVe/uz3pwX+lh8g0dbEFgGTn/67TJoMp2QdLiSuwOgCdCBu8bCo1nzAQnbdOQDLBntDU/LCI9rmsBb8g==";
+        };
+        _dai3hljb = {
+            "id" = "dai3hljb";
+            "file" = "Box Client 1.20.6 v3.0.2.jar";
+            "hash" = "sha512-Cvw+J4vbFNV8+8UqbTq1lP/vEIk7KP33ThtoVli844JKxp5xor0rHXKO80Tdag4gxm7PP0C5mJoJF1jYHNXdZg==";
+        };
+        _pLvi5ARF = {
+            "id" = "pLvi5ARF";
+            "file" = "Box Client 1.21.1 v3.0.2.jar";
+            "hash" = "sha512-digdcoyHgODmJp3gCamsTdDngWchTxeYUtcifBFDLfnsCYGeKC4f+aSy8dHayvZWj6a/577a+59nQx35bSpDeA==";
+        };
+        _2ndxoClG = {
+            "id" = "2ndxoClG";
+            "file" = "Box Client 1.21.4 v3.0.2.jar";
+            "hash" = "sha512-lWV6yVjb3cXMZ2yaqqe1DlUQRrbINqVYpqdjJKXxAdan0IhPpslqybjlGDdGc7wfb3vfZz1UnLhaSQu3pgn7qQ==";
+        };
+        _iY1F3suA = {
+            "id" = "iY1F3suA";
+            "file" = "Box Client 1.21.5 v3.0.2.jar";
+            "hash" = "sha512-KND+sNuw+Sc8nOYL/8cuyhC5RGafAfSo+SiRQZVtu2Jn64iLDINMUVplOeMluRGhz25MYjgzcruTmzkWNrF0lQ==";
+        };
+        _fJH9auCc = {
+            "id" = "fJH9auCc";
+            "file" = "Box Client 1.21.8 v3.0.2.jar";
+            "hash" = "sha512-AtiiNzdKe7r9sF64gBskA/96fug9UF8Nb1rnbFxmYRuD5y5pDhl8DJpyc/AUroSEveCXl4uIVESib+pu5vcUGA==";
+        };
+        _2IjltJMl = {
+            "id" = "2IjltJMl";
+            "file" = "Box Client 1.21.10 v3.0.2.jar";
+            "hash" = "sha512-3NDOXKF7FCNfpAhN6o3p9BVXQhbnvQriwT516bkeoSLzCYAjFTuKToV/J0etJucinDU3GBl+/1wZK+rH7BdI9w==";
+        };
+        _AO9lNMQo = {
+            "id" = "AO9lNMQo";
+            "file" = "Box Client 1.21.11 v3.0.2.jar";
+            "hash" = "sha512-ukr5iViRtPlEplqpEb7KMTM0iZ+RNuw5mxuMgAkUZtEVHDw78QaVE3XI4cUHHjr8T4ERQPhgsU8i8QAnTPC/TQ==";
+        };
+        _e5cMobjO = {
+            "id" = "e5cMobjO";
+            "file" = "Box Client 26.1.2 v3.0.2.jar";
+            "hash" = "sha512-vkgftT10n21ymxVOYFRxhqtxM5GOcB5Eux3Zclm6kF9ypJx7rQeVC1Dsi/IS9eY+VD0vIXiyj6qaSkSNd7oWQQ==";
+        };
+        _lebWk0cG = {
+            "id" = "lebWk0cG";
+            "file" = "Box Client 26.2 v3.0.2.jar";
+            "hash" = "sha512-kZAKhzq7WFir7Yxq82RLPgX2F0yMBaCps52Y4XwNa9HFjGLReMfzCJyWXMuPL26scVfUq4+QcBn7auqu3gs0VA==";
+        };
+        _me97Jk9t = {
+            "id" = "me97Jk9t";
+            "file" = "Box Client 26.3 v3.0.2.jar";
+            "hash" = "sha512-pqcRUoyJ4jfMuBYe6frnVzJsWDzTP97GhX2Oib2KVHSljQ0tN6Q4ClfoYgheph8xy7049ST0eep5XjxzxAdc7Q==";
+        };
+        _NnZibwXr = {
+            "id" = "NnZibwXr";
+            "file" = "Box Client 1.19.2 v3.0.3.jar";
+            "hash" = "sha512-V0DZYKdUEemP/uWxf1qshk1LxoOn38odgmQjNQkaPMZxr+uvyPqDp9fMgGF1/lb130gJ+vydSF3UGtWlzWaInA==";
+        };
+        _9ApMt7EX = {
+            "id" = "9ApMt7EX";
+            "file" = "Box Client 1.19.4 v3.0.3.jar";
+            "hash" = "sha512-jw45p1MYd1YfPZpxduBt1R5MkP+jSbRHkcpzPo6XWtK7JgoIgXt+kcguZcxvY/sicM6XKa0Jx8WD5aWikO7ZSw==";
+        };
+        _5r8zRjkA = {
+            "id" = "5r8zRjkA";
+            "file" = "Box Client 1.20.1 v3.0.3.jar";
+            "hash" = "sha512-v1W/H17yeiQNrBzX9r5a0nnRgcBt2VCNU1i+th6chsV8Ct7URRS9q7gwvBQcrrqzsYq+KknxFZeFS8JAqlvnHQ==";
+        };
+        _d7bwxofM = {
+            "id" = "d7bwxofM";
+            "file" = "Box Client 1.20.4 v3.0.3.jar";
+            "hash" = "sha512-7/XMD98JLQ+bsYIxKqn7IAaz+SH5nZi+99dr7ZDi2M+OsoG93LVL3CkPvr7b7bB2CwA9pC5vq/J9JIZXL9cmWw==";
+        };
+        _Lb83jdfE = {
+            "id" = "Lb83jdfE";
+            "file" = "Box Client 1.20.6 v3.0.3.jar";
+            "hash" = "sha512-QHIJfCiBPJBjut6vhWc/lo7yYtUXWXOu7P4ZL+CQlnI/I9ftcfPHtswh0K7TUmXDVRnv8FSeF/bB3pKcoD727w==";
+        };
+        _Gu4H17zJ = {
+            "id" = "Gu4H17zJ";
+            "file" = "Box Client 1.21.1 v3.0.3.jar";
+            "hash" = "sha512-fqFgfTGi6/b6U85G2NL2t9tlcFI45oKXjvwUx8LhSz8UfawII3odEgkBMrWOiACH355HDkXyfoaf6CVczY5+aw==";
+        };
+        _pRXYhTei = {
+            "id" = "pRXYhTei";
+            "file" = "Box Client 1.21.4 v3.0.3.jar";
+            "hash" = "sha512-FKfKtLtHBC3K0D8KX3qwpyYve7wEu6TzVtfjB/qc4dME9o29kvbwmAdkx+J6U9MmmnWWe1Ups7dkULzwo4fBMw==";
+        };
+        _pkN6eFYI = {
+            "id" = "pkN6eFYI";
+            "file" = "Box Client 1.21.5 v3.0.3.jar";
+            "hash" = "sha512-1l2t+OPZbcXTvFT8nALJ3Ai/8wtinXHEF5U2bKWc990H6hgxY9qc/Y13iQSklNI68I/IiJY4pIzx9HM41n4egA==";
+        };
+        _iTqzMgtx = {
+            "id" = "iTqzMgtx";
+            "file" = "Box Client 1.21.8 v3.0.3.jar";
+            "hash" = "sha512-YQI9PncT5Dd/XNwJ5r7SDAzm14cFszMr5+kCwsR0tCsUvsS4l2UUxGA74sjZKxIUV2UbtyeQZAbak5DpQofCyg==";
+        };
+        _uUFyt1bG = {
+            "id" = "uUFyt1bG";
+            "file" = "Box Client 1.21.10 v3.0.3.jar";
+            "hash" = "sha512-E+gBiypYyJgczmXho8DK/VQ5klcreEJRQxMqFssYceQ7BKysf4F2R+oXwr3UZEfaEWIwikIjLMSM9OnZ/I3qTQ==";
+        };
+        _5HmtvjMn = {
+            "id" = "5HmtvjMn";
+            "file" = "Box Client 1.21.11 v3.0.3.jar";
+            "hash" = "sha512-dIQtpPjd3AUfROiDjL8k9tr7Es0m1vSzpe1FNrKLAv/A4EQCf/P5C92YcCvS0Ads4TN+dLNb9J08AHu0kVdsPw==";
+        };
+        _3EsPr8Jn = {
+            "id" = "3EsPr8Jn";
+            "file" = "Box Client 26.1.2 v3.0.3.jar";
+            "hash" = "sha512-eY0fU48KXtJEmQ4sDZeBrAe0Dbuze5E5y2SMPQ7DGhN7NBE9SvU5rAhjWsqDS6IDmJoHEEx8llMrvMNpqCDDpg==";
+        };
+        _3w555Ux8 = {
+            "id" = "3w555Ux8";
+            "file" = "Box Client 26.2 v3.0.3.jar";
+            "hash" = "sha512-aRBUFDq11MMl7WH49uGFLx3Hqk4BqkI7z/g/SK0zD9+XCl+bGK/lhC8wix3Z521znD8Qd5Bhp/FtRhGzC2CfIw==";
+        };
+        _BKgN5snL = {
+            "id" = "BKgN5snL";
+            "file" = "Box Client 26.3 v3.0.3.jar";
+            "hash" = "sha512-/HOSXNTAGtJ869H/ncQ5wwRDMSaeJAs6RfficGa5fGYlML+27W5Xv1wLAO3UI9NvMb8YuW4J3ViAooeGnDMAzw==";
+        };
+        _4rknPzZI = {
+            "id" = "4rknPzZI";
+            "file" = "Box Client 1.19.2 v3.0.4.jar";
+            "hash" = "sha512-8gfdR4cQxxDJqjDp0goN2pYJg4cldvIyYCAoNw2TsPZfCZ6wqXY3b7q2tUNI++ggc2C99Pw7WAOvg7mC+I9Tyw==";
+        };
+        _883XI2IR = {
+            "id" = "883XI2IR";
+            "file" = "Box Client 1.19.4 v3.0.4.jar";
+            "hash" = "sha512-VoLxNlLr63VcByE0HFQhvfJ65u/MAynIbSAdg2D5MmIl034oqcdtnseaW3UmXERxDLL8NkI4oNKiGynJnf5P5w==";
+        };
+        _udJmCpDp = {
+            "id" = "udJmCpDp";
+            "file" = "Box Client 1.20.1 v3.0.4.jar";
+            "hash" = "sha512-IeJjcEUrEAaiY5EVmrKPBt1RxU2qlCzl7zK5LHIdijQ4AlSlEbxN9BNwH4t9cmnQWLlI8In45/XMdOBjTI9RFw==";
+        };
+        _WC1KAapt = {
+            "id" = "WC1KAapt";
+            "file" = "Box Client 1.20.4 v3.0.4.jar";
+            "hash" = "sha512-EsyDD43CY6pMA92tdhYRc+cbPjBDZ/5IGyihneWigEF63AKW1pTkDZPfsPwU9THuxPwrr0f21N7MZWJD5Y1nRw==";
+        };
+        _gMcP8oD3 = {
+            "id" = "gMcP8oD3";
+            "file" = "Box Client 1.20.6 v3.0.4.jar";
+            "hash" = "sha512-G8yqCMXdltgzmxO8CzenSSjU23cz0nsEw0XVVntRPcV0Em6RAFG6C58GfH9XAHqikpni1UwGDDUd3z3hJ8WsDw==";
+        };
+        _5HFqdrEC = {
+            "id" = "5HFqdrEC";
+            "file" = "Box Client 1.21.1 v3.0.4.jar";
+            "hash" = "sha512-JZAbrJfY2bda3r6gBES9Ny4AQAkfkEsFopNRKOYZDSih5y5Cr3fHWZbIMDxpITgoz2tu4oeyFMIxrkmO465eKA==";
+        };
+        _9Uv54BYS = {
+            "id" = "9Uv54BYS";
+            "file" = "Box Client 1.21.4 v3.0.4.jar";
+            "hash" = "sha512-iSjxdcfiX93ZZCqYvUYv023dkMsrnOapoQtXIzftSzRKQ9mvpUM56reigBTbAj0C2e/jzSSIKy6AhMKaIUKO3w==";
+        };
+        _uaa6jM5q = {
+            "id" = "uaa6jM5q";
+            "file" = "Box Client 1.21.5 v3.0.4.jar";
+            "hash" = "sha512-OOOYret/tmD6wNyKgAiuMTn3nKQnc7nlZRBZq3wzwIzbGz8SDhdQVkGtt/tKocqqIFlrEibA/5OJOrE5tEXyOQ==";
+        };
+        _D9GcxX4q = {
+            "id" = "D9GcxX4q";
+            "file" = "Box Client 1.21.8 v3.0.4.jar";
+            "hash" = "sha512-144S6umgACPwjGJJYCo/xyZJr7zDIY7eMqRcA1waCKrzrtmxLSSVDoMxZ3vNMpo7/mo4XuxiPv785Le2q1VEBw==";
+        };
+        _QoM4QzVX = {
+            "id" = "QoM4QzVX";
+            "file" = "Box Client 1.21.10 v3.0.4.jar";
+            "hash" = "sha512-HnDkqof3P6gxAFv2/ozfZKomGrjbX7z7Eno/QcT+MbzGc8upU1BIl7CUcLvNaWN57EbqpyonGq3IVDdmBd+5Sg==";
+        };
+        _136sShY0 = {
+            "id" = "136sShY0";
+            "file" = "Box Client 1.21.11 v3.0.4.jar";
+            "hash" = "sha512-0gK/SDisEMUd0mj8DB3Lcd/AEUsNprFyd0j6ac8jqFRyJA+ZvZRB4kQMSKSqn9iQ6EaAUx2IUkaDWrwCRG/74A==";
+        };
+        _STcVjda0 = {
+            "id" = "STcVjda0";
+            "file" = "Box Client 26.1.2 v3.0.4.jar";
+            "hash" = "sha512-aQzRmzLjTZl4hG/8PhrnYn/bNGFM6b6DChgFo/TDxX7FIyNksZBIH58FHP77KCGj3aVaXpGdHHkKS/EoVxYakg==";
+        };
+        _ktaTSjvw = {
+            "id" = "ktaTSjvw";
+            "file" = "Box Client 26.2 v3.0.4.jar";
+            "hash" = "sha512-L29pEirmQTUCn9fAWCm/V+eQGoXEnHgPF61ZpKzvKeoimSXkdLPVu58wgps+HFzAmkHz0uFORGET8a5nBcPtCw==";
+        };
+        _TCMPHOzb = {
+            "id" = "TCMPHOzb";
+            "file" = "Box Client 26.3 v3.0.4.jar";
+            "hash" = "sha512-e/7ejiN/ygy6XSPRxAwMXwdRPfHQBa+UcYy0Rf38kzu+mUi6DkBprGdVDTpvyiOzqO4PsUIkp9rx/u5GN7EYZA==";
+        };
     in {
         "yvmQpEeI" = _yvmQpEeI;
         "6eTekayv" = _6eTekayv;
@@ -200,35 +550,111 @@ let
         "zUNI7lLl" = _zUNI7lLl;
         "aauO8CGc" = _aauO8CGc;
         "TgXgFPno" = _TgXgFPno;
-        "fabric-1.20.1" = _TgXgFPno;
-        "fabric-1.20.2" = _RYTt0lkD;
-        "fabric-1.20.3" = _RYTt0lkD;
-        "fabric-1.20.4" = _RYTt0lkD;
-        "fabric-1.20.5" = _C9K0XPyn;
-        "fabric-1.20.6" = _C9K0XPyn;
-        "fabric-1.19.2" = _y0wChRw2;
-        "fabric-1.21.9" = _9pY6SMwz;
-        "fabric-1.21.10" = _9pY6SMwz;
-        "fabric-1.21.11" = _MGY16Bge;
-        "fabric-1.21" = _z1q4HKvT;
-        "fabric-1.21.1" = _z1q4HKvT;
-        "fabric-1.21.2" = _hL8e9Mbh;
-        "fabric-1.21.3" = _hL8e9Mbh;
-        "fabric-1.21.4" = _hL8e9Mbh;
-        "fabric-1.21.5" = _gkHwb3Gj;
-        "fabric-1.19.3" = _ytVQdqKr;
-        "fabric-1.19.4" = _ytVQdqKr;
-        "fabric-1.21.6" = _5dqXf41t;
-        "fabric-1.21.7" = _5dqXf41t;
-        "fabric-1.21.8" = _5dqXf41t;
-        "fabric-26.1" = _zUNI7lLl;
-        "fabric-26.1.1" = _zUNI7lLl;
-        "fabric-26.1.2" = _zUNI7lLl;
-        "fabric-26.2" = _aauO8CGc;
+        "SHAijCDe" = _SHAijCDe;
+        "gvVrS6iK" = _gvVrS6iK;
+        "AYa2a0Di" = _AYa2a0Di;
+        "4moiVpv9" = _4moiVpv9;
+        "7gBB3KkG" = _7gBB3KkG;
+        "eQINqcqL" = _eQINqcqL;
+        "bTCddfxU" = _bTCddfxU;
+        "SJxwbUiG" = _SJxwbUiG;
+        "nKnjd2ov" = _nKnjd2ov;
+        "Pd3d2yZi" = _Pd3d2yZi;
+        "BB3vikwq" = _BB3vikwq;
+        "RvubRTww" = _RvubRTww;
+        "Deztw561" = _Deztw561;
+        "5VgwHcSX" = _5VgwHcSX;
+        "4HUWkiVK" = _4HUWkiVK;
+        "HvjULHqT" = _HvjULHqT;
+        "ZarQh0bE" = _ZarQh0bE;
+        "h4SgvCgu" = _h4SgvCgu;
+        "ujkMHTKi" = _ujkMHTKi;
+        "l2tgXGVc" = _l2tgXGVc;
+        "7Mx0lZkR" = _7Mx0lZkR;
+        "TcRDaPLa" = _TcRDaPLa;
+        "krthzUZg" = _krthzUZg;
+        "V37Uuz2k" = _V37Uuz2k;
+        "9NA8dyL9" = _9NA8dyL9;
+        "EOk5dLh1" = _EOk5dLh1;
+        "CzXtT8xY" = _CzXtT8xY;
+        "V648I5SA" = _V648I5SA;
+        "T3PC1wSb" = _T3PC1wSb;
+        "WtAnHPes" = _WtAnHPes;
+        "9ssQUene" = _9ssQUene;
+        "O88h0uXr" = _O88h0uXr;
+        "dai3hljb" = _dai3hljb;
+        "pLvi5ARF" = _pLvi5ARF;
+        "2ndxoClG" = _2ndxoClG;
+        "iY1F3suA" = _iY1F3suA;
+        "fJH9auCc" = _fJH9auCc;
+        "2IjltJMl" = _2IjltJMl;
+        "AO9lNMQo" = _AO9lNMQo;
+        "e5cMobjO" = _e5cMobjO;
+        "lebWk0cG" = _lebWk0cG;
+        "me97Jk9t" = _me97Jk9t;
+        "NnZibwXr" = _NnZibwXr;
+        "9ApMt7EX" = _9ApMt7EX;
+        "5r8zRjkA" = _5r8zRjkA;
+        "d7bwxofM" = _d7bwxofM;
+        "Lb83jdfE" = _Lb83jdfE;
+        "Gu4H17zJ" = _Gu4H17zJ;
+        "pRXYhTei" = _pRXYhTei;
+        "pkN6eFYI" = _pkN6eFYI;
+        "iTqzMgtx" = _iTqzMgtx;
+        "uUFyt1bG" = _uUFyt1bG;
+        "5HmtvjMn" = _5HmtvjMn;
+        "3EsPr8Jn" = _3EsPr8Jn;
+        "3w555Ux8" = _3w555Ux8;
+        "BKgN5snL" = _BKgN5snL;
+        "4rknPzZI" = _4rknPzZI;
+        "883XI2IR" = _883XI2IR;
+        "udJmCpDp" = _udJmCpDp;
+        "WC1KAapt" = _WC1KAapt;
+        "gMcP8oD3" = _gMcP8oD3;
+        "5HFqdrEC" = _5HFqdrEC;
+        "9Uv54BYS" = _9Uv54BYS;
+        "uaa6jM5q" = _uaa6jM5q;
+        "D9GcxX4q" = _D9GcxX4q;
+        "QoM4QzVX" = _QoM4QzVX;
+        "136sShY0" = _136sShY0;
+        "STcVjda0" = _STcVjda0;
+        "ktaTSjvw" = _ktaTSjvw;
+        "TCMPHOzb" = _TCMPHOzb;
+        "fabric-1.20.1" = _udJmCpDp;
+        "fabric-1.20.2" = _WC1KAapt;
+        "fabric-1.20.3" = _WC1KAapt;
+        "fabric-1.20.4" = _WC1KAapt;
+        "fabric-1.20.5" = _gMcP8oD3;
+        "fabric-1.20.6" = _gMcP8oD3;
+        "fabric-1.19.2" = _4rknPzZI;
+        "fabric-1.21.9" = _QoM4QzVX;
+        "fabric-1.21.10" = _QoM4QzVX;
+        "fabric-1.21.11" = _136sShY0;
+        "fabric-1.21" = _5HFqdrEC;
+        "fabric-1.21.1" = _5HFqdrEC;
+        "fabric-1.21.2" = _9Uv54BYS;
+        "fabric-1.21.3" = _9Uv54BYS;
+        "fabric-1.21.4" = _9Uv54BYS;
+        "fabric-1.21.5" = _uaa6jM5q;
+        "fabric-1.19.3" = _883XI2IR;
+        "fabric-1.19.4" = _883XI2IR;
+        "fabric-1.21.6" = _D9GcxX4q;
+        "fabric-1.21.7" = _D9GcxX4q;
+        "fabric-1.21.8" = _D9GcxX4q;
+        "fabric-26.1" = _STcVjda0;
+        "fabric-26.1.1" = _STcVjda0;
+        "fabric-26.1.2" = _STcVjda0;
+        "fabric-26.2" = _ktaTSjvw;
+        "fabric-26.3" = _TCMPHOzb;
         "pkg-1.17.0" = _6npT8G6Y;
         "pkg-1.23.0" = _5RfwXQR8;
         "pkg-v2" = _TgXgFPno;
-        "default" = _TgXgFPno;
+        "pkg-3.0.0" = _5VgwHcSX;
+        "pkg-3.0.1" = _V648I5SA;
+        "pkg-3.0.2" = _me97Jk9t;
+        "pkg-3.0.3" = _BKgN5snL;
+        "pkg-3.0.4" = _TCMPHOzb;
+        "default" = _TCMPHOzb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boxclient";

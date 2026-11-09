@@ -1236,6 +1236,26 @@ let
             "file" = "damage-engine-1.5.3-Fabric-26.4-snapshot-6.jar";
             "hash" = "sha512-8fdqcGOfhTgZtWs/3LFWfVxatqaV/koGfo7PrfaagIsWZQVQa5fRXmEA+09/qYyIj4Ox2PiWdaG16HwQ0xxh5w==";
         };
+        _du3nqreO = {
+            "id" = "du3nqreO";
+            "file" = "damage-engine-2.2.2.1-Fabric-1.21.1.jar";
+            "hash" = "sha512-U7Ds+fXuCpwkcgdNuGEm0nD/tZVaYXMXkqYrjQGXl2x6Lg+6yn3ZSkokMqhV9iT5uhrbMWBIExOz575sgJS1Pw==";
+        };
+        _txHSfevc = {
+            "id" = "txHSfevc";
+            "file" = "damage-engine-2.2.2.1-NeoForge-1.21.1.jar";
+            "hash" = "sha512-6z3t4q0V5Uj7aF0dH8LoIpvycVU4GkA5H4FtJRYVo7rmY71iA1PuyU4wQijUOxgd7YzTcEPAYaL2dgNHSzK4iQ==";
+        };
+        _5Y0D5oeO = {
+            "id" = "5Y0D5oeO";
+            "file" = "damage-engine-2.2.2.1-Fabric-26.1.2.jar";
+            "hash" = "sha512-oxfPOI4vxsQIVJiM4kKMBubNTYbaIOjDDoPDm5pwUUfdgxJHjDB5qTmgskF7v240vaGvJEoUxuCBclTkMKXVJQ==";
+        };
+        _MVafn85j = {
+            "id" = "MVafn85j";
+            "file" = "damage-engine-1.5.2-Fabric-26.4-snapshot-7.jar";
+            "hash" = "sha512-c8acjkQe/1lsiYeMcw5aM7++NgWca/lHzvtNAnodWWlWC6BkX/HRZINLxEMOV4O7oh1loa6EVV/hpiYVox3Bmg==";
+        };
     in {
         "YZXjvXuv" = _YZXjvXuv;
         "21HROUAl" = _21HROUAl;
@@ -1484,13 +1504,17 @@ let
         "2rlKcbrL" = _2rlKcbrL;
         "vCV6GZRq" = _vCV6GZRq;
         "f5Klp7nY" = _f5Klp7nY;
-        "fabric-1.21.1" = _HtshnG1a;
+        "du3nqreO" = _du3nqreO;
+        "txHSfevc" = _txHSfevc;
+        "5Y0D5oeO" = _5Y0D5oeO;
+        "MVafn85j" = _MVafn85j;
+        "fabric-1.21.1" = _du3nqreO;
         "fabric-1.20.1" = _V2ef7HNx;
-        "fabric-1.21" = _HtshnG1a;
+        "fabric-1.21" = _du3nqreO;
         "fabric-1.21.11" = _zmIeY8QK;
-        "fabric-26.1" = _6s7VuBCB;
-        "fabric-26.1.1" = _6s7VuBCB;
-        "fabric-26.1.2" = _6s7VuBCB;
+        "fabric-26.1" = _5Y0D5oeO;
+        "fabric-26.1.1" = _5Y0D5oeO;
+        "fabric-26.1.2" = _5Y0D5oeO;
         "fabric-26.2" = _qCP8EeBb;
         "fabric-1.21.2" = _45ysiPqX;
         "fabric-1.21.3" = _45ysiPqX;
@@ -1511,6 +1535,7 @@ let
         "fabric-26.4-snapshot-2" = _LMDhlJDi;
         "fabric-26.4-snapshot-4" = _JPPXOdlI;
         "fabric-26.4-snapshot-6" = _f5Klp7nY;
+        "fabric-26.4-snapshot-7" = _MVafn85j;
         "forge-1.20.1" = _VWueW4Fc;
         "forge-1.19" = _Z2Yh8um9;
         "forge-1.19.1" = _Z2Yh8um9;
@@ -1521,7 +1546,7 @@ let
         "forge-1.18" = _EYkj6TCP;
         "forge-1.18.1" = _EYkj6TCP;
         "forge-1.12.2" = _axRPzq7h;
-        "neoforge-1.21.1" = _MO5fOLga;
+        "neoforge-1.21.1" = _txHSfevc;
         "neoforge-1.21.2" = _KlzLIpzJ;
         "neoforge-1.21.3" = _KlzLIpzJ;
         "neoforge-1.21.4" = _U1RWYQXT;
@@ -1533,12 +1558,12 @@ let
         "neoforge-26.2" = _pd2so4fj;
         "neoforge-26.3" = _vCV6GZRq;
         "quilt-1.20.1" = _V2ef7HNx;
-        "quilt-1.21" = _HtshnG1a;
-        "quilt-1.21.1" = _HtshnG1a;
+        "quilt-1.21" = _du3nqreO;
+        "quilt-1.21.1" = _du3nqreO;
         "quilt-1.21.11" = _zmIeY8QK;
-        "quilt-26.1" = _AYcIbIAI;
-        "quilt-26.1.1" = _AYcIbIAI;
-        "quilt-26.1.2" = _AYcIbIAI;
+        "quilt-26.1" = _5Y0D5oeO;
+        "quilt-26.1.1" = _5Y0D5oeO;
+        "quilt-26.1.2" = _5Y0D5oeO;
         "quilt-1.20" = _V2ef7HNx;
         "quilt-26.2" = _qCP8EeBb;
         "quilt-26.3-pre-2" = _izNDtdNU;
@@ -1555,6 +1580,7 @@ let
         "quilt-1.18.1" = _a8nBOT3k;
         "quilt-26.4-snapshot-4" = _JPPXOdlI;
         "quilt-26.4-snapshot-6" = _f5Klp7nY;
+        "quilt-26.4-snapshot-7" = _MVafn85j;
         "pkg-1.0.0" = _YZXjvXuv;
         "pkg-1.0.1" = _1khIhdXg;
         "pkg-1.0.2" = _ghZqN13x;
@@ -1612,13 +1638,13 @@ let
         "pkg-1.5.0" = _87kfF0N1;
         "pkg-1.5.1" = _cScMqm50;
         "pkg-2.2.1" = _lFfS800J;
-        "pkg-1.5.2" = _axRPzq7h;
+        "pkg-1.5.2" = _MVafn85j;
         "pkg-2.2.2" = _AYcIbIAI;
-        "pkg-2.2.2.1" = _ctHwVXA7;
+        "pkg-2.2.2.1" = _5Y0D5oeO;
         "pkg-1.5.2.1" = _j6mRpOi3;
         "pkg-1.5.3" = _f5Klp7nY;
         "pkg-2.2.3" = _TDltAJ7b;
-        "default" = _f5Klp7nY;
+        "default" = _MVafn85j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "damage-engine";

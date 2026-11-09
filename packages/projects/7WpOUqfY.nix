@@ -166,6 +166,21 @@ let
             "file" = "effect-gems-1.3.6-data.jar";
             "hash" = "sha512-aqY4W/18bNBxGjc4xa1aOdQZruAnu4bAOVkDEq4ApGnMa2HPJ+Zg5xcquRMXJW5QbtC43kEsu7ipeSOrP6x6sw==";
         };
+        _rr94AsaG = {
+            "id" = "rr94AsaG";
+            "file" = "Effect Gems - Resources V1.3.7.zip";
+            "hash" = "sha512-2Jo9QQlhs4ZXgqszl+kjw4wKIgPEKRnz0LTwqGge39Dk3q9TtZ/0/mWbTXhh6yLS7djN/NPdX2rz6O8JgCBqdA==";
+        };
+        _c4npCxzD = {
+            "id" = "c4npCxzD";
+            "file" = "Effect Gems - Data V1.3.7.zip";
+            "hash" = "sha512-g/4XxWmKAXlH0/2R975UFER53NWkJ/GGuncRYDM05C8swhHp8TdGDjsQRceOSiJDaqbAcGRi347MfSxTkiyNbA==";
+        };
+        _gA9GKOJe = {
+            "id" = "gA9GKOJe";
+            "file" = "effect-gems-V1.3.7-data.jar";
+            "hash" = "sha512-qvCWg9wgK8TJtyNIv4fpkvYIxmkrdpuTknnuQjtGu5Kkg8I/jyX6bp+UQU66QrKWld04aUnLXQFRoEkb9ggCXw==";
+        };
     in {
         "vM2hqcGM" = _vM2hqcGM;
         "JGkxokWF" = _JGkxokWF;
@@ -200,6 +215,9 @@ let
         "D19IeAeG" = _D19IeAeG;
         "1JNKWsxU" = _1JNKWsxU;
         "p73uUpQ5" = _p73uUpQ5;
+        "rr94AsaG" = _rr94AsaG;
+        "c4npCxzD" = _c4npCxzD;
+        "gA9GKOJe" = _gA9GKOJe;
         "datapack-1.20" = _vM2hqcGM;
         "datapack-1.20.4" = _JGkxokWF;
         "datapack-1.21" = _htxyqoVk;
@@ -217,6 +235,7 @@ let
         "datapack-26.1.1" = _4j8SPGbA;
         "datapack-26.1.2" = _4j8SPGbA;
         "datapack-26.2" = _1JNKWsxU;
+        "datapack-26.3" = _c4npCxzD;
         "minecraft-1.20.4" = _yeDbbRNz;
         "minecraft-1.21" = _Wn9v3ia3;
         "minecraft-1.21.2" = _NG7j81Wh;
@@ -233,6 +252,7 @@ let
         "minecraft-26.1.1" = _7qKmeLjr;
         "minecraft-26.1.2" = _7qKmeLjr;
         "minecraft-26.2" = _D19IeAeG;
+        "minecraft-26.3" = _rr94AsaG;
         "fabric-1.21" = _OlKqtK54;
         "fabric-1.21.2" = _j4B2WpFB;
         "fabric-1.21.3" = _j4B2WpFB;
@@ -248,6 +268,7 @@ let
         "fabric-26.1.1" = _rStNJdFc;
         "fabric-26.1.2" = _rStNJdFc;
         "fabric-26.2" = _p73uUpQ5;
+        "fabric-26.3" = _gA9GKOJe;
         "forge-1.21" = _OlKqtK54;
         "forge-1.21.2" = _j4B2WpFB;
         "forge-1.21.3" = _j4B2WpFB;
@@ -263,6 +284,7 @@ let
         "forge-26.1.1" = _rStNJdFc;
         "forge-26.1.2" = _rStNJdFc;
         "forge-26.2" = _p73uUpQ5;
+        "forge-26.3" = _gA9GKOJe;
         "quilt-1.21" = _OlKqtK54;
         "quilt-1.21.2" = _j4B2WpFB;
         "quilt-1.21.3" = _j4B2WpFB;
@@ -278,6 +300,7 @@ let
         "quilt-26.1.1" = _rStNJdFc;
         "quilt-26.1.2" = _rStNJdFc;
         "quilt-26.2" = _p73uUpQ5;
+        "quilt-26.3" = _gA9GKOJe;
         "neoforge-1.21.2" = _j4B2WpFB;
         "neoforge-1.21.3" = _j4B2WpFB;
         "neoforge-1.21.4" = _VCYRoy1U;
@@ -292,6 +315,7 @@ let
         "neoforge-26.1.1" = _rStNJdFc;
         "neoforge-26.1.2" = _rStNJdFc;
         "neoforge-26.2" = _p73uUpQ5;
+        "neoforge-26.3" = _gA9GKOJe;
         "pkg-V1.2.1" = _vM2hqcGM;
         "pkg-V1.2.2-data" = _JGkxokWF;
         "pkg-V1.2.2-resource" = _yeDbbRNz;
@@ -325,7 +349,10 @@ let
         "pkg-V1.3.6-resource" = _D19IeAeG;
         "pkg-1.3.6-data" = _1JNKWsxU;
         "pkg-1.3.6-mod" = _p73uUpQ5;
-        "default" = _p73uUpQ5;
+        "pkg-V1.3.7-resource" = _rr94AsaG;
+        "pkg-V1.3.7-data" = _c4npCxzD;
+        "pkg-V1.3.7-mod" = _gA9GKOJe;
+        "default" = _gA9GKOJe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effect-gems";

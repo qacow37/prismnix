@@ -411,6 +411,11 @@ let
             "file" = "Visible_Powdered_Snow-26.4-snapshot-6.zip";
             "hash" = "sha512-Xq4EtgtfSdlQ0bFesMyknoGyx0P/gHvmgbabWULgAZ+uzgJBANaJpdr+HLoU1987pj399M3hVkJWC2Qgnzb0Tg==";
         };
+        _rc0J6DlE = {
+            "id" = "rc0J6DlE";
+            "file" = "Visible_Powdered_Snow-26.4-snapshot-7.zip";
+            "hash" = "sha512-2s9bFzlg87QIHwp8opFhvpw0Y7y3mktAVW2J/0Fr7hUGU7iryRnMH2VgPsChRl/Qf/sNeKe76ibA/jyMqn0gkQ==";
+        };
     in {
         "IXaIaxdI" = _IXaIaxdI;
         "2uei4pmg" = _2uei4pmg;
@@ -494,6 +499,7 @@ let
         "MNHLc3du" = _MNHLc3du;
         "GlE011kY" = _GlE011kY;
         "RGj0Vdgv" = _RGj0Vdgv;
+        "rc0J6DlE" = _rc0J6DlE;
         "minecraft-1.19.4" = _IXaIaxdI;
         "minecraft-1.20" = _xIz1cXPU;
         "minecraft-1.20.1" = _xIz1cXPU;
@@ -570,10 +576,11 @@ let
         "minecraft-26.4-snapshot-4" = _MNHLc3du;
         "minecraft-26.4-snapshot-5" = _GlE011kY;
         "minecraft-26.4-snapshot-6" = _RGj0Vdgv;
+        "minecraft-26.4-snapshot-7" = _rc0J6DlE;
         "pkg-1.0" = _OGM6VwAM;
         "pkg-1.1" = _L01YfrgM;
-        "pkg-1.2" = _RGj0Vdgv;
-        "default" = _RGj0Vdgv;
+        "pkg-1.2" = _rc0J6DlE;
+        "default" = _rc0J6DlE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visible-powdered-snow-bocks";

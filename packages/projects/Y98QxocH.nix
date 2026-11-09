@@ -71,6 +71,16 @@ let
             "file" = "marbledsfirstaid-1.21.1neo-1.2.1.0.jar";
             "hash" = "sha512-aKZDafWDepUPnJbHpbFzSX+akeDNI0oNwxJK0So6uIwApJiiUmVcwjsBuEhypdZIFxUXtQHLmcVcllHY3GHxPg==";
         };
+        _hnis3rbN = {
+            "id" = "hnis3rbN";
+            "file" = "marbledsfirstaid-1.20.1forge-1.3.0.0.jar";
+            "hash" = "sha512-Bvjz0b9W9mnFL/xPHTOj+dRmiRTV9uC8nm4YObMdXIRzJdQQ4NXwGUR7iuFZt/Uc6Xvk8/1jyxMSai6iaIvTOA==";
+        };
+        _e5MvO4bw = {
+            "id" = "e5MvO4bw";
+            "file" = "marbledsfirstaid-1.21.1neo-1.3.0.0.jar";
+            "hash" = "sha512-jQZ5fo4xIX1M4hG92dLH6VPU0wdnk3mbLL+pRWEWp8rprtVVczUGQYbZfBe8CUkeb9QTE7ixy/wzdLkcYYHB4Q==";
+        };
     in {
         "iEuJD3X4" = _iEuJD3X4;
         "AjiecIEG" = _AjiecIEG;
@@ -86,10 +96,12 @@ let
         "2UuV86lL" = _2UuV86lL;
         "qNaxU149" = _qNaxU149;
         "ea6FwgiU" = _ea6FwgiU;
-        "forge-1.20.1" = _qNaxU149;
-        "forge-1.20" = _qNaxU149;
-        "neoforge-1.21" = _ea6FwgiU;
-        "neoforge-1.21.1" = _ea6FwgiU;
+        "hnis3rbN" = _hnis3rbN;
+        "e5MvO4bw" = _e5MvO4bw;
+        "forge-1.20.1" = _hnis3rbN;
+        "forge-1.20" = _hnis3rbN;
+        "neoforge-1.21" = _e5MvO4bw;
+        "neoforge-1.21.1" = _e5MvO4bw;
         "neoforge-1.21.4" = _KGs2aZlz;
         "pkg-1.0.0.0" = _iEuJD3X4;
         "pkg-1.1.0.0" = _KGs2aZlz;
@@ -99,7 +111,8 @@ let
         "pkg-1.2.0.0" = _ssw7lodi;
         "pkg-1.2.0.1" = _2UuV86lL;
         "pkg-1.2.1.0" = _ea6FwgiU;
-        "default" = _ea6FwgiU;
+        "pkg-1.3.0.0" = _e5MvO4bw;
+        "default" = _e5MvO4bw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medical-remedies";

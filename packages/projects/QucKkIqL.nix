@@ -111,6 +111,11 @@ let
             "file" = "spoingly_slimes_1.7_1.21.1.zip";
             "hash" = "sha512-J+/Oh25zX5b4TP/zA4iptlpbgpDxhUkJvFbyLuqnKww+kfKjmpBZpZnJuSjLBzvcV6DpqhDpXo+JYahpQiCfUQ==";
         };
+        _gg8VbeSb = {
+            "id" = "gg8VbeSb";
+            "file" = "spoingly_slimes_1.8_26.1+.zip";
+            "hash" = "sha512-Yi71jwme1Up/S7jG5xjdkdtmV1eWlreLkqa7DsRc6tELsNOOIi0ji5R2VwCgVNcwqxC63AYewZyLZcqgvZfPcw==";
+        };
     in {
         "JVtC0aHi" = _JVtC0aHi;
         "lxae72gK" = _lxae72gK;
@@ -134,6 +139,7 @@ let
         "9hVqZYYs" = _9hVqZYYs;
         "qIEzj6ab" = _qIEzj6ab;
         "UarxnYHe" = _UarxnYHe;
+        "gg8VbeSb" = _gg8VbeSb;
         "minecraft-1.19.2" = _sp14WbTe;
         "minecraft-1.18.2" = _1LOpS19T;
         "minecraft-1.19.3" = _qMUHPzO1;
@@ -150,10 +156,15 @@ let
         "minecraft-1.21.6" = _9hVqZYYs;
         "minecraft-1.21.7" = _9hVqZYYs;
         "minecraft-1.21.8" = _9hVqZYYs;
-        "minecraft-1.21.9" = _9hVqZYYs;
-        "minecraft-1.21.10" = _9hVqZYYs;
-        "minecraft-1.21.11" = _9hVqZYYs;
+        "minecraft-1.21.9" = _gg8VbeSb;
+        "minecraft-1.21.10" = _gg8VbeSb;
+        "minecraft-1.21.11" = _gg8VbeSb;
         "minecraft-26.1-snapshot-1" = _9hVqZYYs;
+        "minecraft-26.1" = _gg8VbeSb;
+        "minecraft-26.1.1" = _gg8VbeSb;
+        "minecraft-26.1.2" = _gg8VbeSb;
+        "minecraft-26.2" = _gg8VbeSb;
+        "minecraft-26.3" = _gg8VbeSb;
         "pkg-0.5_1.19" = _JVtC0aHi;
         "pkg-0.5_1.18" = _lxae72gK;
         "pkg-0.6_1.18" = _rODP5bc6;
@@ -176,7 +187,8 @@ let
         "pkg-1.5.1_1.21.5-11" = _9hVqZYYs;
         "pkg-1.6_1.21.1" = _qIEzj6ab;
         "pkg-1.7_1.21.1" = _UarxnYHe;
-        "default" = _UarxnYHe;
+        "pkg-1.8_26.1+" = _gg8VbeSb;
+        "default" = _gg8VbeSb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spoingly-slimes";

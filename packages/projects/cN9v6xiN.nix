@@ -631,6 +631,26 @@ let
             "file" = "BFMod-CNTR-Project-119.0-(1.21.1-0.9.0.70b)-TC.zip";
             "hash" = "sha512-KAxibml1cKfYB6bGhCEgv1K5b9/urJ8W/bIT1sQj6a1Vwtg/JFRqnGgx7Ij8rXaAwVcoKIeRZg5F/DEe399wQA==";
         };
+        _nRJBZq2m = {
+            "id" = "nRJBZq2m";
+            "file" = "BFMod-CNTR-Project-120.0-(1.21.1-0.9.0.73b)-TC.zip";
+            "hash" = "sha512-pEVXavYTVIhSYTvI7bHrSd/NPqXF+hK7gF6orsDlm/p6cCTDUhdhOxo28Mo/DUNEE/QUIG4mNP72HDSE0Ycy0Q==";
+        };
+        _2NqfVftE = {
+            "id" = "2NqfVftE";
+            "file" = "BFMod-CNTR-Project-121.0-(1.21.1-0.9.0.74b)-TC.zip";
+            "hash" = "sha512-xKE1PkJH+wKim9cjAx3Gw84l6XetnPuD7eHLLHhctyo9fTrAPdJj1/CyNDnVPCN5kQ8mW0tIG53ueI6jqRnqkw==";
+        };
+        _LNwynJti = {
+            "id" = "LNwynJti";
+            "file" = "BFMod-CNTR-Project-122.0-(1.21.1-0.9.0.75b)-TC.zip";
+            "hash" = "sha512-271tyClz/cEl/799AVR1OqCPKfdv6t3mW5xHI78HfvaE+1Z3GA18ZyUrBp6GGk2jd1nF3GCJmoMnEqupjtzPeQ==";
+        };
+        _Hh0bXmfB = {
+            "id" = "Hh0bXmfB";
+            "file" = "BFMod-CNTR-Project-123.0-(1.21.1-0.9.0.77b)-TC.zip";
+            "hash" = "sha512-uHf/V//xI/xWJDaZK9mK9/wEM+hab5zSWOm7IfxNpfPYNgPeMFmxSB3TpdU8Mc0rEZw5EgWgMcOe5WUs1X3AeQ==";
+        };
     in {
         "kHgc1viG" = _kHgc1viG;
         "Ubtk5LIL" = _Ubtk5LIL;
@@ -758,10 +778,14 @@ let
         "WkBScoU7" = _WkBScoU7;
         "s8rtUArU" = _s8rtUArU;
         "LYhjbM6P" = _LYhjbM6P;
+        "nRJBZq2m" = _nRJBZq2m;
+        "2NqfVftE" = _2NqfVftE;
+        "LNwynJti" = _LNwynJti;
+        "Hh0bXmfB" = _Hh0bXmfB;
         "minecraft-1.20.4" = _kHgc1viG;
         "minecraft-1.20.6" = _bsNC1AdE;
         "minecraft-1.21" = _vpVUSdVZ;
-        "minecraft-1.21.1" = _LYhjbM6P;
+        "minecraft-1.21.1" = _Hh0bXmfB;
         "pkg-19.2" = _kHgc1viG;
         "pkg-20.0" = _Ubtk5LIL;
         "pkg-21.0" = _LyBy767u;
@@ -888,7 +912,11 @@ let
         "pkg-117.0" = _WkBScoU7;
         "pkg-118.0" = _s8rtUArU;
         "pkg-119.0" = _LYhjbM6P;
-        "default" = _LYhjbM6P;
+        "pkg-120.0" = _nRJBZq2m;
+        "pkg-121.0" = _2NqfVftE;
+        "pkg-122.0" = _LNwynJti;
+        "pkg-123.0" = _Hh0bXmfB;
+        "default" = _Hh0bXmfB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bfmod-cntr-project-tchinese";

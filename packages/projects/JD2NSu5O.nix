@@ -41,6 +41,11 @@ let
             "file" = "aether_ii-26.1.2-alpha.4.1-neoforge.jar";
             "hash" = "sha512-9bP86hcbglTl76HP35AAXbeOVCHzI79DdK8FqtMgstT5cJlU8Xc5HLVnsattb3w1Xu5yuB+STjTqEf9B5MBjgQ==";
         };
+        _hVPk1MVE = {
+            "id" = "hVPk1MVE";
+            "file" = "aether_ii-26.1.2-alpha.4.2-neoforge.jar";
+            "hash" = "sha512-eIApuAqoeqYcl9Ru8YjXpjD3+RCGDiTKEawpmJuLOwMVh9lOvOBAQU5vh82fsKmCPlYrae4axFWffNvJmXPcUw==";
+        };
     in {
         "LsWr2nf0" = _LsWr2nf0;
         "4dtzie62" = _4dtzie62;
@@ -50,9 +55,10 @@ let
         "RzEI1diB" = _RzEI1diB;
         "Qsxsn6rl" = _Qsxsn6rl;
         "soZ6Sulf" = _soZ6Sulf;
+        "hVPk1MVE" = _hVPk1MVE;
         "neoforge-1.21.8" = _4dtzie62;
         "neoforge-1.21.11" = _Xj4gSNSR;
-        "neoforge-26.1.2" = _soZ6Sulf;
+        "neoforge-26.1.2" = _hVPk1MVE;
         "pkg-1.21.8-alpha.1-neoforge" = _LsWr2nf0;
         "pkg-1.21.8-alpha.1.1-neoforge" = _4dtzie62;
         "pkg-1.21.11-alpha.2-neoforge" = _caROqhUV;
@@ -61,7 +67,8 @@ let
         "pkg-26.1.2-alpha.3.1-neoforge" = _RzEI1diB;
         "pkg-26.1.2-alpha.4-neoforge" = _Qsxsn6rl;
         "pkg-26.1.2-alpha.4.1-neoforge" = _soZ6Sulf;
-        "default" = _soZ6Sulf;
+        "pkg-26.1.2-alpha.4.2-neoforge" = _hVPk1MVE;
+        "default" = _hVPk1MVE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aether-ii";

@@ -51,6 +51,21 @@ let
             "file" = "[alpha_0.0.1]hotfix2.Gardenia's Fancy Punchy.zip";
             "hash" = "sha512-FpZ62qX0DcAuXdPVa6rYgoI1TLqp5nSs0hMtw+PdpZOaGP+y2G8OrgX0TXuNa24J8dpFkmxOsXiNqUDLY5jMSw==";
         };
+        _xzEDGqKw = {
+            "id" = "xzEDGqKw";
+            "file" = "[alpha_0.0.2]Gardenia's Fancy Punchy.zip";
+            "hash" = "sha512-f25g9/4nFxkX1YRQXO9+CheTg2SdxHwlG4CPf+vqC+9ZOVfUKwSC2CSwfmFVoLp4Z/bu3zUqliidqEf7Ws3fQw==";
+        };
+        _gJjABGwQ = {
+            "id" = "gJjABGwQ";
+            "file" = "[alpha_0.0.2]hotfix.Gardenia's Fancy Punchy.zip";
+            "hash" = "sha512-/cwjAruKONul8fISSk3Yat3EP6/lP9KqFMHUyqXLh6CD4UUvvnl+gsLpTyw2FeDALPfS0xqLt+30mnKHBCH/eg==";
+        };
+        _5cs6tNTJ = {
+            "id" = "5cs6tNTJ";
+            "file" = "[21alpha_0.0.2]Gardenia's Fancy Punchy.zip";
+            "hash" = "sha512-c0P8Q1lATUS4Ghh81NZJi7N8aYj2DWPKD3WA4yIVaqHkt5XUTkEbxryM98sqpEN2Op5bxTUDglPrj/PjP9XmNA==";
+        };
     in {
         "fQUfwzS4" = _fQUfwzS4;
         "ebEPPax3" = _ebEPPax3;
@@ -62,10 +77,24 @@ let
         "KVEMc4fQ" = _KVEMc4fQ;
         "xQU6ABVr" = _xQU6ABVr;
         "q6gwQUyW" = _q6gwQUyW;
-        "minecraft-1.21.1" = _IOo9EpoE;
-        "minecraft-1.20.1" = _IOo9EpoE;
-        "minecraft-1.21" = _IOo9EpoE;
-        "minecraft-26.3" = _q6gwQUyW;
+        "xzEDGqKw" = _xzEDGqKw;
+        "gJjABGwQ" = _gJjABGwQ;
+        "5cs6tNTJ" = _5cs6tNTJ;
+        "minecraft-1.21.1" = _5cs6tNTJ;
+        "minecraft-1.20.1" = _5cs6tNTJ;
+        "minecraft-1.21" = _5cs6tNTJ;
+        "minecraft-26.3" = _gJjABGwQ;
+        "minecraft-1.21.11" = _5cs6tNTJ;
+        "minecraft-1.21.10" = _5cs6tNTJ;
+        "minecraft-1.21.9" = _5cs6tNTJ;
+        "minecraft-1.21.8" = _5cs6tNTJ;
+        "minecraft-1.21.7" = _5cs6tNTJ;
+        "minecraft-1.21.6" = _5cs6tNTJ;
+        "minecraft-1.21.5" = _5cs6tNTJ;
+        "minecraft-1.21.4" = _5cs6tNTJ;
+        "minecraft-1.21.3" = _5cs6tNTJ;
+        "minecraft-1.21.2" = _5cs6tNTJ;
+        "minecraft-1.20" = _5cs6tNTJ;
         "pkg-1.0.1_alpha" = _fQUfwzS4;
         "pkg-1.0.1-hotfix_1" = _ebEPPax3;
         "pkg-1.0.1-hotfix_2" = _QSABgqDX;
@@ -76,7 +105,10 @@ let
         "pkg-0.0.1-alpha.1" = _KVEMc4fQ;
         "pkg-hotfix" = _xQU6ABVr;
         "pkg-0.0.1-alpha.1-hotfix2" = _q6gwQUyW;
-        "default" = _q6gwQUyW;
+        "pkg-alpha_0.0.2" = _xzEDGqKw;
+        "pkg-alpha.0.0.2-hotfix" = _gJjABGwQ;
+        "pkg-21-0.0.2-alpha" = _5cs6tNTJ;
+        "default" = _5cs6tNTJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gardeias-kaleidoscope-pucnhy-addon1.0";

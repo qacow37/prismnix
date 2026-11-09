@@ -81,6 +81,16 @@ let
             "file" = "tacz_refit-1.21.1-v006.jar";
             "hash" = "sha512-d/X3wtgE7AohtwBpP2Yt5w2/TIouNmriCyqiFt38mM+FVNAOrcF2EWOb5wfpC/Pa/yhWiKc6Dlfkn0e49SzWmw==";
         };
+        _x4qku1HN = {
+            "id" = "x4qku1HN";
+            "file" = "tacz_refit-1.20.1-v0.06.1-HOTFIX.jar";
+            "hash" = "sha512-vCw0xIAQ4mvOGd48CTgb+Tge6JIVrqQvtw8hrnBBgn5JiZDkYyw5cJjspzQvuY78aO7l1LwCiT5N69zf1wRYtQ==";
+        };
+        _YaHhWic1 = {
+            "id" = "YaHhWic1";
+            "file" = "tacz_refit-1.21.1-v0.06.1-HOTFIX.jar";
+            "hash" = "sha512-FBIYqQjkJo0qn0Qt8LshBD2nziTxi4VCUT5kP8mY4c+KCqtMfjGSjL+4LDwJRC3vDRprFRk47bTtdV8NSY7vcg==";
+        };
     in {
         "6eAYAdKu" = _6eAYAdKu;
         "qxj6MWPl" = _qxj6MWPl;
@@ -98,17 +108,19 @@ let
         "AWsy8JX0" = _AWsy8JX0;
         "5tkh3jst" = _5tkh3jst;
         "7jWqfpLr" = _7jWqfpLr;
-        "forge-1.20.1" = _5tkh3jst;
-        "forge-1.20.2" = _5tkh3jst;
-        "forge-1.20.3" = _5tkh3jst;
-        "forge-1.20.4" = _5tkh3jst;
-        "forge-1.20.5" = _5tkh3jst;
-        "forge-1.20.6" = _5tkh3jst;
+        "x4qku1HN" = _x4qku1HN;
+        "YaHhWic1" = _YaHhWic1;
+        "forge-1.20.1" = _x4qku1HN;
+        "forge-1.20.2" = _x4qku1HN;
+        "forge-1.20.3" = _x4qku1HN;
+        "forge-1.20.4" = _x4qku1HN;
+        "forge-1.20.5" = _x4qku1HN;
+        "forge-1.20.6" = _x4qku1HN;
         "forge-1.19.2" = _ZbySW9fj;
         "forge-1.19.3" = _ZbySW9fj;
         "forge-1.19.4" = _ZbySW9fj;
         "forge-1.18.2" = _aZzsHJtj;
-        "neoforge-1.21.1" = _7jWqfpLr;
+        "neoforge-1.21.1" = _YaHhWic1;
         "pkg-0.0.1" = _6eAYAdKu;
         "pkg-0.0.2" = _qxj6MWPl;
         "pkg-0.0.3" = _4GZ5Wjdf;
@@ -117,7 +129,8 @@ let
         "pkg-0.0.5" = _YrZki4Qw;
         "pkg-0.05.1-HOTFIX" = _AWsy8JX0;
         "pkg-0.0.6" = _7jWqfpLr;
-        "default" = _7jWqfpLr;
+        "pkg-0.06.1-HOTFIX" = _YaHhWic1;
+        "default" = _YaHhWic1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-refit";

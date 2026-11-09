@@ -166,6 +166,11 @@ let
             "file" = "coalexplosion-neoforge-1.21.11-1.13.0.jar";
             "hash" = "sha512-ZN4BY52CoZmJWdu2F+jYNxvbiezzCdPNXuhLljgeBTujpGZdAb/6W+lP2Tc4hmwdlW5wbtU8VLR7lox0RUZsdg==";
         };
+        _HIRplM9E = {
+            "id" = "HIRplM9E";
+            "file" = "Coal-Explosion-1.14.0-MC26.3-NeoForge.jar";
+            "hash" = "sha512-jJ7P1q+hJ1Yn8ttlOmV1Ojdkke5CxjILT8aM8BYctMeuD0/fAht6D7Sj3tVafu/i1vDmTKUCh09e9WPoCc12RQ==";
+        };
     in {
         "qyhvKWvK" = _qyhvKWvK;
         "KttiE3UQ" = _KttiE3UQ;
@@ -200,6 +205,7 @@ let
         "6Ga4opeM" = _6Ga4opeM;
         "rqB8YXCy" = _rqB8YXCy;
         "jVvAERNE" = _jVvAERNE;
+        "HIRplM9E" = _HIRplM9E;
         "forge-1.12.2" = _qyhvKWvK;
         "forge-1.14.4" = _KttiE3UQ;
         "forge-1.15.2" = _XEaG4Go2;
@@ -225,6 +231,7 @@ let
         "neoforge-1.20.4" = _6sW7DjIt;
         "neoforge-1.21.1" = _rqB8YXCy;
         "neoforge-1.21.11" = _jVvAERNE;
+        "neoforge-26.3" = _HIRplM9E;
         "pkg-1.1.2" = _qyhvKWvK;
         "pkg-1.1" = _tDmZx1zc;
         "pkg-1.4.5" = _goNrfM9F;
@@ -243,7 +250,8 @@ let
         "pkg-1.12.0" = _ACOiwetV;
         "pkg-1.12.1" = _6Ga4opeM;
         "pkg-1.13.0" = _jVvAERNE;
-        "default" = _jVvAERNE;
+        "pkg-1.14.0" = _HIRplM9E;
+        "default" = _HIRplM9E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coal-explosion";

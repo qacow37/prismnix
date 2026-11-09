@@ -21,17 +21,24 @@ let
             "file" = "cobblemonmechanicalhealingmachine-1.3.0.jar";
             "hash" = "sha512-/wmE5QUaACiLx8uuueueEz4voQrKn2ob5ajZiLK50jQnDZ5pokpUPx8Xs7RRPG7F6vXaUEVv1FmBoMc44VmkRw==";
         };
+        _OYUZGqJD = {
+            "id" = "OYUZGqJD";
+            "file" = "cobblemonmechanicalhealingmachine-1.3.1.jar";
+            "hash" = "sha512-EqgmSKqI8GEV7mq3NkdB09xjUL2j8cGoDBv/LMiumTUfUjDvoeabH0N5ln0qX/3jdOZ1DeG4Os80DkYxBiaaHQ==";
+        };
     in {
         "MqiYJ9k3" = _MqiYJ9k3;
         "UysYbtvf" = _UysYbtvf;
         "LnnKxxbK" = _LnnKxxbK;
         "2tKWmPoA" = _2tKWmPoA;
-        "neoforge-1.21.1" = _2tKWmPoA;
+        "OYUZGqJD" = _OYUZGqJD;
+        "neoforge-1.21.1" = _OYUZGqJD;
         "pkg-1.2.1" = _MqiYJ9k3;
         "pkg-1.2.1-1.7" = _UysYbtvf;
         "pkg-1.2.2" = _LnnKxxbK;
         "pkg-1.3.0" = _2tKWmPoA;
-        "default" = _2tKWmPoA;
+        "pkg-1.3.1" = _OYUZGqJD;
+        "default" = _OYUZGqJD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mechanical-healing-machine";

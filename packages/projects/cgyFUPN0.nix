@@ -71,6 +71,11 @@ let
             "file" = "galacticraftcompatibility-1.1.3.jar";
             "hash" = "sha512-kjP3rNirpYlPOtk1kGr7yaBWFiic6ecGhH2v8GEJ2pFkQmcvsxMT8sESUVZ42psq+Qw/XmnATBP4qSxDhymdKg==";
         };
+        _npVh0qCW = {
+            "id" = "npVh0qCW";
+            "file" = "galacticraftcompatibility-2.0.0.jar";
+            "hash" = "sha512-tBfjxhk78pnuxKBj1PrehrkSiuVpAR5TPCon2f9BGuob7Dw8TQWRpP40+9wRXnQkKS0ZgUJiHiaVqWZperCgBw==";
+        };
     in {
         "aJMPZY6P" = _aJMPZY6P;
         "Kelo8Okx" = _Kelo8Okx;
@@ -86,7 +91,8 @@ let
         "udbXD4Ez" = _udbXD4Ez;
         "jnFfJErG" = _jnFfJErG;
         "knjmrNkt" = _knjmrNkt;
-        "forge-1.12.2" = _knjmrNkt;
+        "npVh0qCW" = _npVh0qCW;
+        "forge-1.12.2" = _npVh0qCW;
         "pkg-1.0.0" = _aJMPZY6P;
         "pkg-1.0.1" = _Kelo8Okx;
         "pkg-1.0.2" = _giSd4wkr;
@@ -101,7 +107,8 @@ let
         "pkg-1.1.1" = _udbXD4Ez;
         "pkg-1.1.2" = _jnFfJErG;
         "pkg-1.1.3" = _knjmrNkt;
-        "default" = _knjmrNkt;
+        "pkg-2.0.0" = _npVh0qCW;
+        "default" = _npVh0qCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "galacticraftcompatibility";

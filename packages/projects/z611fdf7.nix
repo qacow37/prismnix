@@ -136,6 +136,21 @@ let
             "file" = "createnuclear-2.0.0-neoforge.jar";
             "hash" = "sha512-fQlofh3DeYJHOOM7JUMbon5cMbzlO81HbZOSa1FL6R50iHUEPNmgeCsL6wdJg6NkX2i7Zcc6hFTgZjf9+NArOw==";
         };
+        _zNIyk0mQ = {
+            "id" = "zNIyk0mQ";
+            "file" = "createnuclear-2.0.1-neoforge.jar";
+            "hash" = "sha512-8b3hySGuAJGrrvM4ZRd4EikjqawxIY5qu5l9k86mCEn1qETk0WSupIWWjXEl7YbdCaPmNb10pkC2urLM/8f/Qg==";
+        };
+        _w5YuGu86 = {
+            "id" = "w5YuGu86";
+            "file" = "createnuclear-1.20.1-2.0.2-forge.jar";
+            "hash" = "sha512-4lqlaIHvKSICAuBZQfMLNg6TUpcku/2eFc3tuT4Kny+ie00/k4rxZRcZdsmAieJFAwsUs2CO7W/sleuQgIl8rQ==";
+        };
+        _P13KcFm1 = {
+            "id" = "P13KcFm1";
+            "file" = "CreateNuclearFabric-2.0.1-local+1.20.1-fabric.jar";
+            "hash" = "sha512-6V8G2m2XPKEFLorM51vlbbhbIWOTR5gMhRe/zG7drXE2nQC8JKHQoA7bmsPOVbmAzIoQ50TmhoxmmtiB3CZv5A==";
+        };
     in {
         "WDEL0qsl" = _WDEL0qsl;
         "lr7D4F6V" = _lr7D4F6V;
@@ -164,9 +179,12 @@ let
         "PQ5wzs3F" = _PQ5wzs3F;
         "CDrEMlMg" = _CDrEMlMg;
         "TANOhO2C" = _TANOhO2C;
-        "fabric-1.20.1" = _KArjaK66;
-        "forge-1.20.1" = _CDrEMlMg;
-        "neoforge-1.21.1" = _TANOhO2C;
+        "zNIyk0mQ" = _zNIyk0mQ;
+        "w5YuGu86" = _w5YuGu86;
+        "P13KcFm1" = _P13KcFm1;
+        "fabric-1.20.1" = _P13KcFm1;
+        "forge-1.20.1" = _w5YuGu86;
+        "neoforge-1.21.1" = _zNIyk0mQ;
         "neoforge-1.21" = _xtU5Fcuw;
         "pkg-1.0.0-rc01" = _WDEL0qsl;
         "pkg-1.0.0" = _lr7D4F6V;
@@ -186,9 +204,10 @@ let
         "pkg-1.3.2-beta.3" = _waO2BSHO;
         "pkg-1.4.0" = _FMrNquFh;
         "pkg-1.4.1" = _KArjaK66;
-        "pkg-2.0.0" = _TANOhO2C;
-        "pkg-2.0.1" = _CDrEMlMg;
-        "default" = _TANOhO2C;
+        "pkg-2.0.0" = _P13KcFm1;
+        "pkg-2.0.1" = _zNIyk0mQ;
+        "pkg-2.0.2" = _w5YuGu86;
+        "default" = _P13KcFm1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createnuclear";

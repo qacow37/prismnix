@@ -76,6 +76,16 @@ let
             "file" = "Custom Music Recording Hollow Template 1.1.3 (hotfix) for 1.21.7.zip";
             "hash" = "sha512-dflxG9vuHaTXy5GAzTbKcIq1oH3BBzxPZ9ZwlQc8vDuzu5Tbp7oa/jMSI3KKjGvAl84gqAc3Zpbcgck63S7aIw==";
         };
+        _7DYVktzz = {
+            "id" = "7DYVktzz";
+            "file" = "Custom Music Recording Hollow Template 1.1.4 (hotfix) for 1.21.9-10.zip";
+            "hash" = "sha512-1NRiM5IAV2/vOZNb3ROrw4uYcQgnFP8z4ViNCU0wCWEyQ7WjPw76tmJiEBSxq4PKzaXUqAb+xVF0+58XEvz3tQ==";
+        };
+        _hJgQ9TUz = {
+            "id" = "hJgQ9TUz";
+            "file" = "Custom Music Recording Hollow Template 1.1.5 (hotfix) for 26.1-3.zip";
+            "hash" = "sha512-Q/ia2HAeRRfybwjSYZcj0ukhYYc9bkdetVICQKhJYRugPFHBZEjOtvFoq9hJLiZaPAU00ZZbikMx7RqWLRxngw==";
+        };
     in {
         "XjiNfpdA" = _XjiNfpdA;
         "eWstztPR" = _eWstztPR;
@@ -92,6 +102,8 @@ let
         "akuYVM8o" = _akuYVM8o;
         "NHKrmlEF" = _NHKrmlEF;
         "kLXhOiTM" = _kLXhOiTM;
+        "7DYVktzz" = _7DYVktzz;
+        "hJgQ9TUz" = _hJgQ9TUz;
         "minecraft-1.16.2" = _XjiNfpdA;
         "minecraft-1.16.3" = _XjiNfpdA;
         "minecraft-1.16.4" = _XjiNfpdA;
@@ -113,6 +125,14 @@ let
         "minecraft-1.21.4" = _7YlFztV9;
         "minecraft-1.21.6" = _akuYVM8o;
         "minecraft-1.21.7" = _kLXhOiTM;
+        "minecraft-1.21.11" = _7DYVktzz;
+        "minecraft-1.21.9" = _7DYVktzz;
+        "minecraft-1.21.10" = _7DYVktzz;
+        "minecraft-26.1" = _hJgQ9TUz;
+        "minecraft-26.1.1" = _hJgQ9TUz;
+        "minecraft-26.1.2" = _hJgQ9TUz;
+        "minecraft-26.2" = _hJgQ9TUz;
+        "minecraft-26.3" = _hJgQ9TUz;
         "pkg-1.0" = _XjiNfpdA;
         "pkg-1.0.1" = _eWstztPR;
         "pkg-1.0.2" = _5WcfspYC;
@@ -128,7 +148,9 @@ let
         "pkg-1.1.1" = _akuYVM8o;
         "pkg-1.1.2" = _NHKrmlEF;
         "pkg-1.1.3" = _kLXhOiTM;
-        "default" = _kLXhOiTM;
+        "pkg-1.1.4" = _7DYVktzz;
+        "pkg-1.1.5" = _hJgQ9TUz;
+        "default" = _hJgQ9TUz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-resource-pack-template";

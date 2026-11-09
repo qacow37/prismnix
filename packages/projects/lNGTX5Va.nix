@@ -36,6 +36,11 @@ let
             "file" = "vbincubationcompat-1.5.jar";
             "hash" = "sha512-g7MOJjqTvI3buOMveMtv/D++3VoZ+T2KAthRrKcSzPTn4D8t5D+IND3SR5D8cfYg7k9S55h7Y2g0SFFNo9nf4Q==";
         };
+        _b8nfyDAP = {
+            "id" = "b8nfyDAP";
+            "file" = "vbincubationcompat-1.6.jar";
+            "hash" = "sha512-7VRYH6Iv4a3su5G7FzQD06RkhBPGPa5vinpgJR3tYmrCrwcRLPHqdu0NLIul1zq9wEDDt9j7lMmkvZHiNEkrPA==";
+        };
     in {
         "5QZLpbpw" = _5QZLpbpw;
         "f2ZogFKO" = _f2ZogFKO;
@@ -44,7 +49,8 @@ let
         "p4ZmbJ15" = _p4ZmbJ15;
         "P6O0gEMr" = _P6O0gEMr;
         "4X5xH6B2" = _4X5xH6B2;
-        "neoforge-1.21.1" = _4X5xH6B2;
+        "b8nfyDAP" = _b8nfyDAP;
+        "neoforge-1.21.1" = _b8nfyDAP;
         "pkg-1.0.0" = _5QZLpbpw;
         "pkg-1.0" = _f2ZogFKO;
         "pkg-1.1" = _5mKkjY0J;
@@ -52,7 +58,8 @@ let
         "pkg-1.3" = _p4ZmbJ15;
         "pkg-1.4" = _P6O0gEMr;
         "pkg-1.5" = _4X5xH6B2;
-        "default" = _4X5xH6B2;
+        "pkg-1.6" = _b8nfyDAP;
+        "default" = _b8nfyDAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillabackportxincubationcompat";

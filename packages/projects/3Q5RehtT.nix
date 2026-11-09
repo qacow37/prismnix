@@ -226,6 +226,11 @@ let
             "file" = "cr-compass-ribbon-fabric-2.9.0+26.3.jar";
             "hash" = "sha512-qDt1H5PzcFb23bFdHPaqEF1WqFeWbPXD0Y6wWcfBJU0EE7V5GJ9K59/WXwM11hsenTyyb8bQ3mPSaG7e7lZcVg==";
         };
+        _kYY7sZQM = {
+            "id" = "kYY7sZQM";
+            "file" = "cr-compass-ribbon-fabric-2.9.1+26.3.jar";
+            "hash" = "sha512-yS2CxAvwHi+dHm18z2YzelZ8EICrIYGJ0PbiFej90wgdffabqMHLycFS0/wMdZyBQuLMzDdsEMT5D2aOz0pehQ==";
+        };
     in {
         "nSHKtZGa" = _nSHKtZGa;
         "dR3f0VFc" = _dR3f0VFc;
@@ -272,6 +277,7 @@ let
         "ijnkcdTu" = _ijnkcdTu;
         "OQjTwPUb" = _OQjTwPUb;
         "w41kR1HQ" = _w41kR1HQ;
+        "kYY7sZQM" = _kYY7sZQM;
         "fabric-1.16.5" = _nUeGeWnf;
         "fabric-1.17" = _zvXX0kZy;
         "fabric-1.17.1" = _zvXX0kZy;
@@ -306,7 +312,7 @@ let
         "fabric-26.1.1" = _ijnkcdTu;
         "fabric-26.1.2" = _ijnkcdTu;
         "fabric-26.2" = _OQjTwPUb;
-        "fabric-26.3" = _w41kR1HQ;
+        "fabric-26.3" = _kYY7sZQM;
         "pkg-2.7.2" = _nSHKtZGa;
         "pkg-2.7.3+1.16.5" = _dR3f0VFc;
         "pkg-2.7.3+1.17" = _TWNEuuTr;
@@ -352,7 +358,8 @@ let
         "pkg-2.9.0+26.1" = _ijnkcdTu;
         "pkg-2.9.0+26.2" = _OQjTwPUb;
         "pkg-2.9.0+26.3" = _w41kR1HQ;
-        "default" = _w41kR1HQ;
+        "pkg-2.9.1+26.3" = _kYY7sZQM;
+        "default" = _kYY7sZQM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-ribbon";

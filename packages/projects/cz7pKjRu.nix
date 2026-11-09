@@ -91,6 +91,11 @@ let
             "file" = "betterdiscs-v2.2.0-1.21.1+NEOFORGE.jar";
             "hash" = "sha512-w1zFXxN4HeHOPLbKXGLJm28C9rzltohRGMAvWBHbiAJ+ytyWYimtoJnlKp1GvBVUuYsygCPC7qd+866sw8LXKw==";
         };
+        _BXJC1vLz = {
+            "id" = "BXJC1vLz";
+            "file" = "betterdiscs-v2.2.1-1.21.1+NEOFORGE.jar";
+            "hash" = "sha512-0ezwRioGwarQGKKsyYTJVQ41JrI6H+Lef44/x5Mj7xlI7yIIzI+IsEy6rjiEh2GaL/G//+BvJ7dx1iQEJI5vzA==";
+        };
     in {
         "npaSIN3Y" = _npaSIN3Y;
         "zsdsllOq" = _zsdsllOq;
@@ -110,7 +115,8 @@ let
         "iurOlRdM" = _iurOlRdM;
         "Dj8oHarL" = _Dj8oHarL;
         "bTO3AZkT" = _bTO3AZkT;
-        "neoforge-1.21.1" = _bTO3AZkT;
+        "BXJC1vLz" = _BXJC1vLz;
+        "neoforge-1.21.1" = _BXJC1vLz;
         "forge-1.20.1" = _vTF8eQwq;
         "pkg-1.3.0" = _npaSIN3Y;
         "pkg-2.3.0" = _zsdsllOq;
@@ -130,7 +136,8 @@ let
         "pkg-2.0.3-HOTFIX" = _iurOlRdM;
         "pkg-2.1.0" = _Dj8oHarL;
         "pkg-2.2.0" = _bTO3AZkT;
-        "default" = _bTO3AZkT;
+        "pkg-2.2.1" = _BXJC1vLz;
+        "default" = _BXJC1vLz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jukeboxspeaker";

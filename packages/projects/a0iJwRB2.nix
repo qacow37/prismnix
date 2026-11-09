@@ -21,17 +21,24 @@ let
             "file" = "villagerbarrier-1.0.3.jar";
             "hash" = "sha512-IUq2hKaA3j8m9w1AsEyB3vWusfyURxPYuPlpf1dQhBoTMfsco+HqLJHRJXJTJ2NsBJild6Pa3GtlVp6PCr+77Q==";
         };
+        _Walv0eK1 = {
+            "id" = "Walv0eK1";
+            "file" = "villagerbarrier-1.0.4.jar";
+            "hash" = "sha512-92h/O/uUH3ZF+12XOqHr3jDhFm9tMakEl6pRECPz59yUBm86WYE1WxTlCxM7dpt44YrUiJc9OD9TpAKYMQNIoQ==";
+        };
     in {
         "6RutJvIp" = _6RutJvIp;
         "lqlaRXWq" = _lqlaRXWq;
         "BNK4twSR" = _BNK4twSR;
         "eNCcdlfW" = _eNCcdlfW;
-        "fabric-1.21.1" = _eNCcdlfW;
+        "Walv0eK1" = _Walv0eK1;
+        "fabric-1.21.1" = _Walv0eK1;
         "pkg-1.0.0" = _6RutJvIp;
         "pkg-1.0.1" = _lqlaRXWq;
         "pkg-1.0.2" = _BNK4twSR;
         "pkg-1.0.3" = _eNCcdlfW;
-        "default" = _eNCcdlfW;
+        "pkg-1.0.4" = _Walv0eK1;
+        "default" = _Walv0eK1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-barrier";

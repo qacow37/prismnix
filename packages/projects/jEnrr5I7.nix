@@ -291,6 +291,16 @@ let
             "file" = "SpiderOverhaul-0.1.0-NeoForge-v26.3.jar";
             "hash" = "sha512-NLf7CJ3Rx8NBRsTyTf/HFSfyBBg73d6mxYZd1vhwoUfa5XaZc1SFhiOXM2qy8Dg40VJRe8F5FKLtGcefrbWDxQ==";
         };
+        _EadVQIoH = {
+            "id" = "EadVQIoH";
+            "file" = "SpiderOverhaul-0.1.0-Fabric-v1.20.jar";
+            "hash" = "sha512-3kxaw5ZSx14IhbxqJIm0zizu06ojdDJtJolWaXucEu44FJviSUaoXQ5zGDdnIxP29uDT6Qns7FVvTf/Pf7b6+g==";
+        };
+        _1Utnq2NN = {
+            "id" = "1Utnq2NN";
+            "file" = "SpiderOverhaul-0.1.0-Fabric-v1.21.jar";
+            "hash" = "sha512-HNodQ3rx31cEXM3OQNbYOgNrk/PiV24OUc18ws1vYmqA3uEzqnWGG1hPMO1OPql7MnZKCXi2MClm9nTP2tjXJw==";
+        };
     in {
         "ZyNJnQX4" = _ZyNJnQX4;
         "UPDhG8cd" = _UPDhG8cd;
@@ -350,15 +360,27 @@ let
         "e0zKUb23" = _e0zKUb23;
         "tSvkUuHp" = _tSvkUuHp;
         "RL3JeIyA" = _RL3JeIyA;
+        "EadVQIoH" = _EadVQIoH;
+        "1Utnq2NN" = _1Utnq2NN;
         "fabric-1.19.2" = _p6rOMYZ4;
-        "fabric-1.20" = _iqODCP5z;
-        "fabric-1.20.1" = _iqODCP5z;
-        "fabric-1.21" = _zdHtk3pp;
-        "fabric-1.21.1" = _zdHtk3pp;
+        "fabric-1.20" = _EadVQIoH;
+        "fabric-1.20.1" = _EadVQIoH;
+        "fabric-1.21" = _1Utnq2NN;
+        "fabric-1.21.1" = _1Utnq2NN;
         "fabric-26.1" = _hpTSd35b;
         "fabric-26.1.1" = _hpTSd35b;
         "fabric-26.1.2" = _hpTSd35b;
         "fabric-26.2" = _RHjBcfGT;
+        "fabric-1.21.11" = _1Utnq2NN;
+        "fabric-1.21.10" = _1Utnq2NN;
+        "fabric-1.21.9" = _1Utnq2NN;
+        "fabric-1.21.8" = _1Utnq2NN;
+        "fabric-1.21.7" = _1Utnq2NN;
+        "fabric-1.21.6" = _1Utnq2NN;
+        "fabric-1.21.5" = _1Utnq2NN;
+        "fabric-1.21.4" = _1Utnq2NN;
+        "fabric-1.21.3" = _1Utnq2NN;
+        "fabric-1.21.2" = _1Utnq2NN;
         "neoforge-1.21" = _EjlpAlgq;
         "neoforge-1.21.1" = _EjlpAlgq;
         "neoforge-26.1" = _e0zKUb23;
@@ -417,8 +439,8 @@ let
         "pkg-0.0.6-NeoForge-v1.21" = _gz6BfcyM;
         "pkg-0.0.6-NeoForge-v26.1" = _mDhURy34;
         "pkg-0.0.6-NeoForge-v26.2" = _hnWMCxdQ;
-        "pkg-0.1.0-Fabric-v1.20" = _iqODCP5z;
-        "pkg-0.1.0-Fabric-v1.21" = _zdHtk3pp;
+        "pkg-0.1.0-Fabric-v1.20" = _EadVQIoH;
+        "pkg-0.1.0-Fabric-v1.21" = _1Utnq2NN;
         "pkg-0.1.0-Fabric-v26.1" = _hpTSd35b;
         "pkg-0.1.0-Fabric-v26.2" = _RHjBcfGT;
         "pkg-0.1.0-Forge-v1.20" = _fkCHaiuJ;
@@ -426,7 +448,7 @@ let
         "pkg-0.1.0-NeoForge-v26.1" = _e0zKUb23;
         "pkg-0.1.0-NeoForge-v26.2" = _tSvkUuHp;
         "pkg-0.1.0-NeoForge-v26.3" = _RL3JeIyA;
-        "default" = _RL3JeIyA;
+        "default" = _1Utnq2NN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spider-overhaul";

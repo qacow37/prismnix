@@ -286,6 +286,21 @@ let
             "file" = "apoli-1.124.0.jar";
             "hash" = "sha512-MG1SpVS2qoIuLESK+zZ6temssGGYGjwbzoiPClz4kwr0146Kag1NDfOfZnwXsYYmO8+cJcdZqYUiXF1HMc5k1Q==";
         };
+        _3gaCuz9o = {
+            "id" = "3gaCuz9o";
+            "file" = "apoli-1.129.0.jar";
+            "hash" = "sha512-Gl1ZHI0W9z88v+7ReHraC6eGuJGpirJHHt4AMM0g6WeyIQRq18TypObYxycfOr2i/zXcQQyCxcWmgwUCfof/ZA==";
+        };
+        _9tnOiYZD = {
+            "id" = "9tnOiYZD";
+            "file" = "apoli-1.129.0.jar";
+            "hash" = "sha512-Bclw1gXLBOTOrQv+CaFwUlebbL3eQW+KKlnILk1hO38ZzxNhj5e1MPpEwUueiHfIzDgGZ/3iy5mPeTNjmb1g8A==";
+        };
+        _ivct5ecf = {
+            "id" = "ivct5ecf";
+            "file" = "apoli-1.129.0.jar";
+            "hash" = "sha512-eiw2vLg3tDLegXWAEy4EzbsAX3+gXUQJboH/TKv+SwR+3A6puDfmT1QVYD8H3gSjCeFhtfzJt40yyGhCVK19Lg==";
+        };
     in {
         "Xpn3L2r7" = _Xpn3L2r7;
         "Z4JLv0MZ" = _Z4JLv0MZ;
@@ -344,9 +359,12 @@ let
         "8d2KKcww" = _8d2KKcww;
         "6rLBJtq0" = _6rLBJtq0;
         "oHslKfYl" = _oHslKfYl;
-        "fabric-1.20.1" = _8d2KKcww;
-        "fabric-1.21.1" = _6rLBJtq0;
-        "neoforge-1.21.1" = _oHslKfYl;
+        "3gaCuz9o" = _3gaCuz9o;
+        "9tnOiYZD" = _9tnOiYZD;
+        "ivct5ecf" = _ivct5ecf;
+        "fabric-1.20.1" = _3gaCuz9o;
+        "fabric-1.21.1" = _9tnOiYZD;
+        "neoforge-1.21.1" = _ivct5ecf;
         "pkg-1.3.0" = _bQc7pAWy;
         "pkg-1.5.16" = _abqXJfc3;
         "pkg-1.6.0" = _6SX1Vcpj;
@@ -366,7 +384,8 @@ let
         "pkg-1.117.0" = _yVyElcOT;
         "pkg-1.119.0" = _P0ZxlZtm;
         "pkg-1.124.0" = _oHslKfYl;
-        "default" = _oHslKfYl;
+        "pkg-1.129.0" = _ivct5ecf;
+        "default" = _ivct5ecf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opoli";

@@ -26,13 +26,19 @@ let
             "file" = "lrtactical-1.20.1-0.4.3.jar";
             "hash" = "sha512-V8T6pvtAj4ImJx7LjshV3nKPvgRofkwFvzZlTm9ef6KrqS0+0ysQiSDdNMBgEcuSCInxCfbpHSydjiFkXLTNOQ==";
         };
+        _6R4xXztr = {
+            "id" = "6R4xXztr";
+            "file" = "lrtactical-forge-1.20.1-0.4.4.jar";
+            "hash" = "sha512-vIi51oRRWEQ4dAylqHBovGI8ncHeiqCGoNInakrb+RBlUAOLhblj0ut46CJBubT22xAv4VePUzrwWItYPblEFg==";
+        };
     in {
         "DvPYoQxE" = _DvPYoQxE;
         "wMn7gapK" = _wMn7gapK;
         "E7qEgKDy" = _E7qEgKDy;
         "McZNhhZ1" = _McZNhhZ1;
         "eygQmqIl" = _eygQmqIl;
-        "forge-1.20.1" = _eygQmqIl;
+        "6R4xXztr" = _6R4xXztr;
+        "forge-1.20.1" = _6R4xXztr;
         "forge-1.20.2" = _eygQmqIl;
         "forge-1.20.3" = _eygQmqIl;
         "forge-1.20.4" = _eygQmqIl;
@@ -43,7 +49,8 @@ let
         "pkg-0.4.0" = _E7qEgKDy;
         "pkg-0.4.1" = _McZNhhZ1;
         "pkg-0.4.3" = _eygQmqIl;
-        "default" = _eygQmqIl;
+        "pkg-0.4.4" = _6R4xXztr;
+        "default" = _6R4xXztr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lr-tactical";

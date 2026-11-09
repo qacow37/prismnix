@@ -1516,6 +1516,11 @@ let
             "file" = "AsyncParticles-20.1.4.4+1.20.1.jar";
             "hash" = "sha512-DP+VvIy2WJR1/MnsBYELynOV7z1pi6EDKJbhIdMnZmeCCbTG8/dwQizmhq/QqtwCV+/DHZRBOlZgibanxElxKg==";
         };
+        _4fZjXXDy = {
+            "id" = "4fZjXXDy";
+            "file" = "AsyncParticles-21.1.5.0-beta.1+1.21.1.jar";
+            "hash" = "sha512-pVv50hZObQCVm0APvojAsa4l+PN3B8OFhx00uvl6hSQPxvfJzETOLSNsw+EUNtLg8eksj7Y8M7zdmAvoOOjqpA==";
+        };
     in {
         "GzezCLf9" = _GzezCLf9;
         "HaBZAlE0" = _HaBZAlE0;
@@ -1820,9 +1825,10 @@ let
         "SZhdCb0Q" = _SZhdCb0Q;
         "qLpoOaqY" = _qLpoOaqY;
         "Ruqe5dGD" = _Ruqe5dGD;
+        "4fZjXXDy" = _4fZjXXDy;
         "fabric-1.20.1" = _Ruqe5dGD;
         "fabric-1.21" = _NhjwLSEy;
-        "fabric-1.21.1" = _qLpoOaqY;
+        "fabric-1.21.1" = _4fZjXXDy;
         "fabric-1.21.4" = _l3lpwKZl;
         "fabric-1.21.5" = _6w5WtEx2;
         "fabric-1.21.6" = _hln1vTm4;
@@ -1840,7 +1846,7 @@ let
         "fabric-26.3" = _msLpUZAi;
         "forge-1.20.1" = _Ruqe5dGD;
         "neoforge-1.21" = _NhjwLSEy;
-        "neoforge-1.21.1" = _qLpoOaqY;
+        "neoforge-1.21.1" = _4fZjXXDy;
         "neoforge-1.20.1" = _bw4JNVwQ;
         "neoforge-1.21.4" = _l3lpwKZl;
         "neoforge-1.21.5" = _6w5WtEx2;
@@ -2158,7 +2164,8 @@ let
         "pkg-21.1.4.9" = _SZhdCb0Q;
         "pkg-21.1.4.10" = _qLpoOaqY;
         "pkg-20.1.4.4" = _Ruqe5dGD;
-        "default" = _Ruqe5dGD;
+        "pkg-21.1.5.0-beta.1" = _4fZjXXDy;
+        "default" = _4fZjXXDy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asyncparticles";

@@ -61,6 +61,16 @@ let
             "file" = "ls_spooky_foods-1.0.0 Fabric 26.3.jar";
             "hash" = "sha512-ski3PV39jTmykg16eJVUvPI70z0oer3hwltNd/7PKSgqhkgSbioB5CmdNQ9tqgZp8IRbay4QCHYAIeBbeVRAVQ==";
         };
+        _UZo09clg = {
+            "id" = "UZo09clg";
+            "file" = "ls_spooky_foods-1.0.1 Fabric 1.20.1.jar";
+            "hash" = "sha512-5DF2lP3sUOlW1NK/ixywzFhYFZbi8bkBcDKcXJAajjvFjbGbF7llTI+/fC+fbZXp/sMjkmT7PFFxKjQ0ipLIyA==";
+        };
+        _mSynFy8P = {
+            "id" = "mSynFy8P";
+            "file" = "ls_spooky_foods-1.0.1 Fabric 1.21.1.jar";
+            "hash" = "sha512-oQwfueedxhUwmKqFh31ZlmKGMYOOdSvulJXbu0WCxIaXDXxw1HnluW4Bty5QqEA5fbgEoIE6ZosrrW1rirmzbg==";
+        };
     in {
         "kXjz4E7B" = _kXjz4E7B;
         "gdzp3svd" = _gdzp3svd;
@@ -74,6 +84,8 @@ let
         "KRly6lod" = _KRly6lod;
         "wyjI1kol" = _wyjI1kol;
         "DKQucg4O" = _DKQucg4O;
+        "UZo09clg" = _UZo09clg;
+        "mSynFy8P" = _mSynFy8P;
         "forge-1.20.1" = _O6KfE5sf;
         "neoforge-1.21.1" = _itOwVIxu;
         "neoforge-1.21.4" = _cxu8BVCr;
@@ -81,13 +93,13 @@ let
         "neoforge-26.1.2" = _j3LfEo9I;
         "neoforge-26.3" = _VHi3xkJK;
         "fabric-1.21.8" = _u0npLKJa;
-        "fabric-1.20.1" = _KRly6lod;
-        "fabric-1.21.1" = _wyjI1kol;
+        "fabric-1.20.1" = _UZo09clg;
+        "fabric-1.21.1" = _mSynFy8P;
         "fabric-26.3" = _DKQucg4O;
         "pkg-1.0.0" = _gdzp3svd;
         "pkg-1.0.2" = _O6KfE5sf;
-        "pkg-1.0.3" = _DKQucg4O;
-        "default" = _DKQucg4O;
+        "pkg-1.0.3" = _mSynFy8P;
+        "default" = _mSynFy8P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spooky-foods";

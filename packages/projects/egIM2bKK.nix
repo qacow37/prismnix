@@ -606,6 +606,21 @@ let
             "file" = "mob-ai-tweaks-1.11.4-1.21.1.jar";
             "hash" = "sha512-btZ1qhIHwQxG+QbY5+Zd1JFU5/k/QFTIrR4QY6FXqTdqItUPWuWgp5uqPSpeigczNYUCypnyfrAmV6rFZbL5EQ==";
         };
+        _Z4y75qox = {
+            "id" = "Z4y75qox";
+            "file" = "mob-ai-tweaks-1.11.5-1.21.1.jar";
+            "hash" = "sha512-6/Lz+UnGIeb+etZQuozYaGk3XFcTPUi5PoURtGpDJpkL+/h+PGYtB329wHOGEchQk/GCo6SRUm8hsaY4b+d0yQ==";
+        };
+        _IXxyhHRL = {
+            "id" = "IXxyhHRL";
+            "file" = "mob-ai-tweaks-1.11.6-1.21.1.jar";
+            "hash" = "sha512-x4oAySsF0vrTDzQu52piYPors/u8r0or5hT4PLqdJvelNHMhHIs4i9TGlgqusK9j4oaeWDZ4AX8GgaUq6IzQGQ==";
+        };
+        _veo7FD7D = {
+            "id" = "veo7FD7D";
+            "file" = "mob-ai-tweaks-1.11.3-1.20.1.jar";
+            "hash" = "sha512-HDsCDssiZINGVHuLJ+2dG82ZXCHqtlbIJ46KSZWWZPtjPCQhdJAupZQTfw13GUoXz31CrMN6ICiI559/eYQgmA==";
+        };
     in {
         "giK3RDkv" = _giK3RDkv;
         "1yZQHN4P" = _1yZQHN4P;
@@ -728,9 +743,12 @@ let
         "CExkBTN8" = _CExkBTN8;
         "bFb56Zw2" = _bFb56Zw2;
         "fD88jOSJ" = _fD88jOSJ;
-        "fabric-1.20.1" = _sEVcufgn;
-        "fabric-1.21" = _fD88jOSJ;
-        "fabric-1.21.1" = _fD88jOSJ;
+        "Z4y75qox" = _Z4y75qox;
+        "IXxyhHRL" = _IXxyhHRL;
+        "veo7FD7D" = _veo7FD7D;
+        "fabric-1.20.1" = _veo7FD7D;
+        "fabric-1.21" = _IXxyhHRL;
+        "fabric-1.21.1" = _IXxyhHRL;
         "fabric-1.21.5" = _4ZPLEs5X;
         "fabric-1.19.4" = _ZhA8XEYm;
         "fabric-1.20.4" = _lh0clZQL;
@@ -740,12 +758,12 @@ let
         "fabric-1.21.10" = _jJPKKIyb;
         "fabric-1.21.11" = _bFb56Zw2;
         "fabric-26.2" = _CExkBTN8;
-        "forge-1.20.1" = _sEVcufgn;
-        "forge-1.21" = _fD88jOSJ;
-        "forge-1.21.1" = _fD88jOSJ;
-        "neoforge-1.20.1" = _sEVcufgn;
-        "neoforge-1.21" = _fD88jOSJ;
-        "neoforge-1.21.1" = _fD88jOSJ;
+        "forge-1.20.1" = _veo7FD7D;
+        "forge-1.21" = _IXxyhHRL;
+        "forge-1.21.1" = _IXxyhHRL;
+        "neoforge-1.20.1" = _veo7FD7D;
+        "neoforge-1.21" = _IXxyhHRL;
+        "neoforge-1.21.1" = _IXxyhHRL;
         "pkg-1.3.5" = _1yZQHN4P;
         "pkg-1.3.6" = _DxiQEwZo;
         "pkg-1.3.7" = _7efEk5cq;
@@ -793,10 +811,12 @@ let
         "pkg-1.11.0" = _tmwffAOQ;
         "pkg-1.11.1" = _OD0C3mvr;
         "pkg-1.11.2" = _DeB67UKt;
-        "pkg-1.11.3" = _bFb56Zw2;
+        "pkg-1.11.3" = _veo7FD7D;
         "pkg-1.11.0-beta" = _CExkBTN8;
         "pkg-1.11.4" = _fD88jOSJ;
-        "default" = _fD88jOSJ;
+        "pkg-1.11.5" = _Z4y75qox;
+        "pkg-1.11.6" = _IXxyhHRL;
+        "default" = _veo7FD7D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-ai-tweaks";

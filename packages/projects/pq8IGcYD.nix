@@ -266,6 +266,11 @@ let
             "file" = "ibarnorigins-fabric-1.21.1-1.7.1.jar";
             "hash" = "sha512-rRtUAlu2KUu6afXKSE8RibYionitP9hEKRYBJD++kDFMYcttadrv3xZFERk+4I/4lRZAPZ2h2MdQXgkL1w575g==";
         };
+        _CVeB6FOT = {
+            "id" = "CVeB6FOT";
+            "file" = "ibarnoriginsaddon-1.7.1-fabric-26.3.jar";
+            "hash" = "sha512-R34n6IY9PX7U7Gc0yzgJv7F4V+If8WDYfvExTVxz1igeX37g9g7ZGQcbxZjEUTIecHR+TSO9Fq6NLdvnWJ41IQ==";
+        };
     in {
         "uGA7NzmU" = _uGA7NzmU;
         "E5BQbOzB" = _E5BQbOzB;
@@ -320,6 +325,7 @@ let
         "IUxMQCVP" = _IUxMQCVP;
         "G97kUEwZ" = _G97kUEwZ;
         "IzzbFKJ9" = _IzzbFKJ9;
+        "CVeB6FOT" = _CVeB6FOT;
         "fabric-1.19.4" = _uGA7NzmU;
         "fabric-1.20" = _8r3B78lO;
         "fabric-1.20.1" = _cUrVeP6X;
@@ -329,6 +335,7 @@ let
         "fabric-26.1.2" = _OlqwzfRT;
         "fabric-26.2" = _G97kUEwZ;
         "fabric-1.21.1" = _IzzbFKJ9;
+        "fabric-26.3" = _CVeB6FOT;
         "forge-1.20.1" = _dILwJfcj;
         "neoforge-1.21.1" = _IUxMQCVP;
         "pkg-1.3.0" = _E5BQbOzB;
@@ -367,7 +374,8 @@ let
         "pkg-1.7.0-26.2" = _3ud7o0FA;
         "pkg-1.7.1-1.21.1" = _IzzbFKJ9;
         "pkg-1.7.1-26.2" = _G97kUEwZ;
-        "default" = _IzzbFKJ9;
+        "pkg-1.7.1-26.3" = _CVeB6FOT;
+        "default" = _CVeB6FOT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ibarns-quartet-origins-addon";

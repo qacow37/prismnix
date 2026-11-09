@@ -126,6 +126,46 @@ let
             "file" = "MoreRailVariants-1.0.8+26.1-Fabric.jar";
             "hash" = "sha512-+SnszJxFP/qdjr4+AHytuebbXLUBWdoC2hCZ/pWoFIRP6skmFfDx/v1J71cCCQxQaORuLyMawhkR4SmU98w/6Q==";
         };
+        _6n1rynEt = {
+            "id" = "6n1rynEt";
+            "file" = "MoreRailVariants-1.0.9+1.20.1-Fabric.jar";
+            "hash" = "sha512-jiMcmoWLiWaNaLmqtLbzn8bvFRnyhsk7/Apu9rdvobMvCBqwXc+HsWcdflf8IPNjyrMIGDHLhNwQVUEh3E+0dA==";
+        };
+        _9RquBUhk = {
+            "id" = "9RquBUhk";
+            "file" = "MoreRailVariants-1.0.9+1.21(.1)-Fabric.jar";
+            "hash" = "sha512-xzQ0Wdc9tsNc3daNGmRoNF5h8KkauFFFWLhM5ESJw7N6WDMAWrR/2pwAxUvEs71hPzVpOtMN8V4vd50pimK5VA==";
+        };
+        _HbndvsKg = {
+            "id" = "HbndvsKg";
+            "file" = "MoreRailVariants-1.0.9+1.21.4(-11)-Fabric.jar";
+            "hash" = "sha512-5R5qZQ5fXlw+Jr+Hx/sSiccX72AlqpQdT/SirkgkVUe/7+T1OvHkYM34DK+YCnOnbRf4kmCGkNdKw1SK4A7HQA==";
+        };
+        _FriJRNDM = {
+            "id" = "FriJRNDM";
+            "file" = "MoreRailVariants-1.0.9+26.1(2)-Fabric.jar";
+            "hash" = "sha512-VjnEx0SwgM34YnLQStz5IgFTiBrhRkIzheWfLyheM//Ner1iNWaNbTn4bSZaQQplzUxLbwpw1n7UArbfQzMzUA==";
+        };
+        _Gyp0tGs3 = {
+            "id" = "Gyp0tGs3";
+            "file" = "MoreRailVariants-1.0.10+1.20.1-Fabric.jar";
+            "hash" = "sha512-5MVB951VMffdjdS9X9Lr2ceNyrZaFzQjqEbNHDjL3zaRyqppIRizmW4K8yWRP5MOg/Yq00GWJ5AcA8vsgoSdtw==";
+        };
+        _Xd2AcFvQ = {
+            "id" = "Xd2AcFvQ";
+            "file" = "MoreRailVariants-1.0.10+1.21(.1)-Fabric.jar";
+            "hash" = "sha512-gJQz8e7Qwgn9/gtCUDEri3VjaGrxaa4yUEoKc3f/7ouxHNRxsleZB4Bfsb5mi3fsa1LuVSmchh6TbRi4q9YhAQ==";
+        };
+        _i0SIwCjU = {
+            "id" = "i0SIwCjU";
+            "file" = "MoreRailVariants-1.0.10+1.21.4(-11)-Fabric.jar";
+            "hash" = "sha512-eM2dm9lzSxD0Dhsv3mlx9NzFFaXywOkE2n7/re6ULTJ0dGyhSl93lg0P8OyQtLOuZtwfiHaN5x02iGFGG+Ys4A==";
+        };
+        _c37VV8N8 = {
+            "id" = "c37VV8N8";
+            "file" = "MoreRailVariants-1.0.10+26.1(2)-Fabric.jar";
+            "hash" = "sha512-ce8RgsS0Ze0NTD+kE1w6JxcVDjffYMNyzlXobQkruoJXnOVBnbhy/BuDPi3yX7EpnrequKwopsewWWGLsA5ULA==";
+        };
     in {
         "7WWw6VaH" = _7WWw6VaH;
         "kOtqQ4uR" = _kOtqQ4uR;
@@ -152,16 +192,24 @@ let
         "FOKpTt0j" = _FOKpTt0j;
         "ZLMpAxMh" = _ZLMpAxMh;
         "RMXwg4BK" = _RMXwg4BK;
-        "fabric-1.20.1" = _wRxPb57n;
-        "fabric-1.21" = _FOKpTt0j;
-        "fabric-1.21.1" = _FOKpTt0j;
-        "fabric-1.21.4" = _ZLMpAxMh;
-        "fabric-1.21.5" = _ZLMpAxMh;
-        "fabric-1.21.6" = _ZLMpAxMh;
-        "fabric-1.21.7" = _ZLMpAxMh;
-        "fabric-1.21.8" = _ZLMpAxMh;
-        "fabric-1.21.9" = _ZLMpAxMh;
-        "fabric-1.21.10" = _ZLMpAxMh;
+        "6n1rynEt" = _6n1rynEt;
+        "9RquBUhk" = _9RquBUhk;
+        "HbndvsKg" = _HbndvsKg;
+        "FriJRNDM" = _FriJRNDM;
+        "Gyp0tGs3" = _Gyp0tGs3;
+        "Xd2AcFvQ" = _Xd2AcFvQ;
+        "i0SIwCjU" = _i0SIwCjU;
+        "c37VV8N8" = _c37VV8N8;
+        "fabric-1.20.1" = _Gyp0tGs3;
+        "fabric-1.21" = _Xd2AcFvQ;
+        "fabric-1.21.1" = _Xd2AcFvQ;
+        "fabric-1.21.4" = _i0SIwCjU;
+        "fabric-1.21.5" = _i0SIwCjU;
+        "fabric-1.21.6" = _i0SIwCjU;
+        "fabric-1.21.7" = _i0SIwCjU;
+        "fabric-1.21.8" = _i0SIwCjU;
+        "fabric-1.21.9" = _i0SIwCjU;
+        "fabric-1.21.10" = _i0SIwCjU;
         "fabric-1.21.11-pre1" = _LXM7tHN4;
         "fabric-1.21.11-pre2" = _LXM7tHN4;
         "fabric-1.21.11-pre3" = _LXM7tHN4;
@@ -170,11 +218,11 @@ let
         "fabric-1.21.11-rc1" = _LXM7tHN4;
         "fabric-1.21.11-rc2" = _LXM7tHN4;
         "fabric-1.21.11-rc3" = _LXM7tHN4;
-        "fabric-1.21.11" = _ZLMpAxMh;
-        "fabric-26.1" = _RMXwg4BK;
-        "fabric-26.1.1" = _RMXwg4BK;
-        "fabric-26.1.2" = _RMXwg4BK;
-        "fabric-26.2" = _RMXwg4BK;
+        "fabric-1.21.11" = _i0SIwCjU;
+        "fabric-26.1" = _c37VV8N8;
+        "fabric-26.1.1" = _c37VV8N8;
+        "fabric-26.1.2" = _c37VV8N8;
+        "fabric-26.2" = _c37VV8N8;
         "pkg-1.0.0" = _9usAkUUn;
         "pkg-1.0.1" = _ODR4gfAE;
         "pkg-1.0.2" = _NT3aAvpw;
@@ -184,7 +232,9 @@ let
         "pkg-1.0.6" = _LXM7tHN4;
         "pkg-1.0.7" = _IK8ziYhH;
         "pkg-1.0.8" = _RMXwg4BK;
-        "default" = _RMXwg4BK;
+        "pkg-1.0.9" = _FriJRNDM;
+        "pkg-1.0.10" = _c37VV8N8;
+        "default" = _c37VV8N8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-rail-variants";

@@ -96,6 +96,11 @@ let
             "file" = "ctm-26.1.2.13.jar";
             "hash" = "sha512-GF57ZW7ThwWFYqkbQa7bG1he8MuNygTWLa9OZngwGmuItc1bwOJ08xn7aeMtpQSucuknjDMmxTbf0EwXcSNi/w==";
         };
+        _2CVEHyMD = {
+            "id" = "2CVEHyMD";
+            "file" = "ctm-26.1.2.14.jar";
+            "hash" = "sha512-YMQbuMwF/YlAC0MZRuCSmZTVIdBJ9UQbn02YIW2GQ3jgrMdiqacTY6aj8z8bJZFMxkkuPOgYFz/d0i8v2mcqlg==";
+        };
     in {
         "CNtnoib6" = _CNtnoib6;
         "JdCYaAAx" = _JdCYaAAx;
@@ -116,7 +121,8 @@ let
         "u5avQN4N" = _u5avQN4N;
         "ZSN5QU3q" = _ZSN5QU3q;
         "OsKHWeVv" = _OsKHWeVv;
-        "neoforge-26.1.2" = _OsKHWeVv;
+        "2CVEHyMD" = _2CVEHyMD;
+        "neoforge-26.1.2" = _2CVEHyMD;
         "neoforge-26.2" = _iV7NVbNn;
         "neoforge-1.21.1" = _ZSN5QU3q;
         "pkg-1.0.0" = _CNtnoib6;
@@ -137,7 +143,8 @@ let
         "pkg-26.3.0.1" = _u5avQN4N;
         "pkg-1.21.1.1" = _ZSN5QU3q;
         "pkg-26.1.2.13" = _OsKHWeVv;
-        "default" = _OsKHWeVv;
+        "pkg-26.1.2.14" = _2CVEHyMD;
+        "default" = _2CVEHyMD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ctmlib";

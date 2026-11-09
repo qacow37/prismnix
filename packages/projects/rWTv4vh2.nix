@@ -41,6 +41,16 @@ let
             "file" = "[v`1.2.1] Storybook Hybrids.zip";
             "hash" = "sha512-Uv/o4qpL5qscnKnJQFuKKLYgj331+mW4c/8XWMG6tlrfSqf7hVbnos3P9upFRPlICYgJ6c9m4eeDKzXKj1nQsQ==";
         };
+        _sT1Qazcs = {
+            "id" = "sT1Qazcs";
+            "file" = "storybook-hybrids-1.2.1.jar";
+            "hash" = "sha512-Z0YezqcVI23koPO1VwZ7NWPTwKcHZnI3wCHvA7UFnUqhtDsaf/cjG62eGh5rwsluIvkCpfZbFc8MJJjhHM+hVw==";
+        };
+        _yWVH9MjB = {
+            "id" = "yWVH9MjB";
+            "file" = "storybook-hybrids-1.2.1.jar";
+            "hash" = "sha512-Kfc+1akDelHjB/bAvzblnP84c8M6NHAcH43jHVELBF8uUhHVcNVFZLXP50TqOrVDrg2VBmFQRKV9tEq0NaBj8w==";
+        };
     in {
         "jkUd1qpE" = _jkUd1qpE;
         "7Wyd762W" = _7Wyd762W;
@@ -50,8 +60,12 @@ let
         "wqpZw1Ch" = _wqpZw1Ch;
         "SngC0Axf" = _SngC0Axf;
         "P2zRr4gb" = _P2zRr4gb;
+        "sT1Qazcs" = _sT1Qazcs;
+        "yWVH9MjB" = _yWVH9MjB;
         "datapack-1.21.1" = _P2zRr4gb;
         "minecraft-1.21.1" = _P2zRr4gb;
+        "fabric-1.21.1" = _yWVH9MjB;
+        "neoforge-1.21.1" = _yWVH9MjB;
         "pkg-1.0" = _jkUd1qpE;
         "pkg-1.05" = _7Wyd762W;
         "pkg-1.075" = _O5TBXkCf;
@@ -60,7 +74,8 @@ let
         "pkg-1.15" = _wqpZw1Ch;
         "pkg-1.2" = _SngC0Axf;
         "pkg-1.2.1" = _P2zRr4gb;
-        "default" = _P2zRr4gb;
+        "pkg-1.2.1+mod" = _yWVH9MjB;
+        "default" = _yWVH9MjB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "storybook-hybrids";

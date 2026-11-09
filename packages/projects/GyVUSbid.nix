@@ -146,6 +146,11 @@ let
             "file" = "Sortilege-Neo-1.21.1-9.2.jar";
             "hash" = "sha512-1+fDlvaR27jm+1E+sPAPNyxYMg/GrloWU7g3oXjrWh6mcohE1hAvmKk1azD1wN/hFPY6iWcMMU6/VpEiQVUPow==";
         };
+        _6FPlAJeP = {
+            "id" = "6FPlAJeP";
+            "file" = "Sortilege-1.20.1-9.1.jar";
+            "hash" = "sha512-6TBK/69NiT0h1Z1DrQaIvSMXc9OthA66Ql5L1BC9gkup9vk+GklqXwhB8RDx3colYwVo0spw2390iIyhoFBhvQ==";
+        };
     in {
         "ZdpxKq4X" = _ZdpxKq4X;
         "RpefRDxX" = _RpefRDxX;
@@ -176,15 +181,16 @@ let
         "rCyUF4f0" = _rCyUF4f0;
         "3yzjwmDd" = _3yzjwmDd;
         "grkVZSuP" = _grkVZSuP;
+        "6FPlAJeP" = _6FPlAJeP;
         "forge-1.19.2" = _FqaulnOl;
         "forge-1.19.3" = _FqaulnOl;
         "forge-1.19.4" = _FqaulnOl;
-        "fabric-1.20.1" = _qsvS3NyS;
-        "fabric-1.20.2" = _qsvS3NyS;
-        "fabric-1.20.3" = _qsvS3NyS;
-        "fabric-1.20.4" = _qsvS3NyS;
-        "fabric-1.20.5" = _qsvS3NyS;
-        "fabric-1.20.6" = _qsvS3NyS;
+        "fabric-1.20.1" = _6FPlAJeP;
+        "fabric-1.20.2" = _6FPlAJeP;
+        "fabric-1.20.3" = _6FPlAJeP;
+        "fabric-1.20.4" = _6FPlAJeP;
+        "fabric-1.20.5" = _6FPlAJeP;
+        "fabric-1.20.6" = _6FPlAJeP;
         "fabric-1.21.1" = _3yzjwmDd;
         "fabric-1.21.2" = _3yzjwmDd;
         "fabric-1.21.3" = _3yzjwmDd;
@@ -233,7 +239,8 @@ let
         "pkg-fabric-1.21.1-9.1" = _rCyUF4f0;
         "pkg-fabric-1.21.1-9.2" = _3yzjwmDd;
         "pkg-neo-1.21.1-9.2" = _grkVZSuP;
-        "default" = _grkVZSuP;
+        "pkg-fabric-1.20.1-9.1" = _6FPlAJeP;
+        "default" = _6FPlAJeP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sortilege";

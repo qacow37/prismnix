@@ -441,6 +441,26 @@ let
             "file" = "nautilus_studio-26.1.2-1.14.2-neoforge.jar";
             "hash" = "sha512-ZDk+xBmPWzMfX4LvHjnZeMNrMpa4BIKmc1NPoT0bc3MXmCASY4/IIhbedcc1YHqUEnPEciX/MA0tCZR2WoBOQw==";
         };
+        _Da1IL0rh = {
+            "id" = "Da1IL0rh";
+            "file" = "nautilus_studio-26.1.2-1.14.3-neoforge.jar";
+            "hash" = "sha512-9w5w82saV0m/+EoLX/5cFVvl5l5xOTHQw6K5uN6OBQD7Bo3mlMmt7aoibhdi+kxTXqNfnD3dwWEaw1QPdvlUNA==";
+        };
+        _aui6krAd = {
+            "id" = "aui6krAd";
+            "file" = "nautilus_studio-26.1.2-1.14.3-fabric.jar";
+            "hash" = "sha512-Q3ro+5ZTcogzLrZzveOEPmVHHx7b0tY5iV5AsHqGIkHDAXjF3vf/YNQsVZwH4+APVrCeF0R+MWOrgep3v2Ak7A==";
+        };
+        _SpWqhFGt = {
+            "id" = "SpWqhFGt";
+            "file" = "nautilus_studio-1.21.1-1.10.2-fabric.jar";
+            "hash" = "sha512-BHHz4qyjfoU24yS3NatFqfM+DtzYRnuW2pNn+kvw5Uy91Ok9vBgHUC1IVqvg79DUP3kcc0btmhocTYkg/hC/yA==";
+        };
+        _aZYQc8n1 = {
+            "id" = "aZYQc8n1";
+            "file" = "nautilus_studio-1.21.1-1.10.2-neoforge.jar";
+            "hash" = "sha512-kj9rrAdWflqisObnGFSFfbNFwoyOONlG19rOsOZdxcYE0PccIV1LkVge8sXW3wfScMukRQid1C/XIoemuEQsXw==";
+        };
     in {
         "kSFJA0Ti" = _kSFJA0Ti;
         "QIwrdXkH" = _QIwrdXkH;
@@ -530,14 +550,18 @@ let
         "IDl9GeKO" = _IDl9GeKO;
         "SU07TT0u" = _SU07TT0u;
         "tFAAPAAU" = _tFAAPAAU;
+        "Da1IL0rh" = _Da1IL0rh;
+        "aui6krAd" = _aui6krAd;
+        "SpWqhFGt" = _SpWqhFGt;
+        "aZYQc8n1" = _aZYQc8n1;
         "neoforge-1.21.11" = _yh4qekEl;
-        "neoforge-1.21.1" = _Edl2jqsW;
-        "neoforge-26.1.2" = _tFAAPAAU;
+        "neoforge-1.21.1" = _aZYQc8n1;
+        "neoforge-26.1.2" = _Da1IL0rh;
         "neoforge-26.2" = _M34M1Nwi;
         "neoforge-26.3" = _IDl9GeKO;
         "fabric-1.21.11" = _66nz1syv;
-        "fabric-1.21.1" = _Yv4EWu3L;
-        "fabric-26.1.2" = _SU07TT0u;
+        "fabric-1.21.1" = _SpWqhFGt;
+        "fabric-26.1.2" = _aui6krAd;
         "fabric-26.2" = _dEFwwlqx;
         "fabric-26.3" = _8qivkRih;
         "pkg-1.21.11-1.0.0" = _QIwrdXkH;
@@ -583,7 +607,9 @@ let
         "pkg-1.21.1-1.10.1" = _Yv4EWu3L;
         "pkg-26.3-1.14.1" = _IDl9GeKO;
         "pkg-26.1.2-1.14.2" = _tFAAPAAU;
-        "default" = _tFAAPAAU;
+        "pkg-26.1.2-1.14.3" = _aui6krAd;
+        "pkg-1.21.1-1.10.2" = _aZYQc8n1;
+        "default" = _aZYQc8n1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packs-editor";

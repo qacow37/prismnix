@@ -101,6 +101,16 @@ let
             "file" = "frozen_zombie_castle-1.0.0 Fabric 26.3.jar";
             "hash" = "sha512-QEO71o8979/pFwnxSxxK6j/KwgtTQs2hOAcASWmqFzbkBAr2xyBmwT+/gwiz306I9o4v3DerEdpM8JZ4hBCQCw==";
         };
+        _EtxVx7F6 = {
+            "id" = "EtxVx7F6";
+            "file" = "frozen_zombie_castle-1.0.1 Fabric 1.20.1.jar";
+            "hash" = "sha512-mpG4ZnsdgCUIAP1aTjMerNUU+IqaKhnR/dBiT4vJbmF99A5SHOYUoT4y6hA5cYTR9sr41M9c0DVYBzdnFGSIcw==";
+        };
+        _tEtOZfxi = {
+            "id" = "tEtOZfxi";
+            "file" = "frozen_zombie_castle-1.0.1 Fabric 1.21.1.jar";
+            "hash" = "sha512-sUhE8C9297+DpL3qDqYWUMgBZykWn555EuzeY5NZe4ZaOYmhhF6t7fy6EwbolTXI75WgSn1Lsid9ccrQfGgJ/w==";
+        };
     in {
         "ryXPa9Aj" = _ryXPa9Aj;
         "9aPga3w4" = _9aPga3w4;
@@ -122,10 +132,12 @@ let
         "UPQJoX7a" = _UPQJoX7a;
         "KWOWL8dK" = _KWOWL8dK;
         "B88Um0a7" = _B88Um0a7;
+        "EtxVx7F6" = _EtxVx7F6;
+        "tEtOZfxi" = _tEtOZfxi;
         "forge-1.20.1" = _hVmh1W80;
         "forge-1.19.2" = _wk3KVwR2;
-        "fabric-1.20.1" = _UPQJoX7a;
-        "fabric-1.21.1" = _KWOWL8dK;
+        "fabric-1.20.1" = _EtxVx7F6;
+        "fabric-1.21.1" = _tEtOZfxi;
         "fabric-26.3" = _B88Um0a7;
         "neoforge-1.20.4" = _5YCLO0Fq;
         "neoforge-1.20.6" = _47O7Ksyo;
@@ -138,8 +150,8 @@ let
         "pkg-1.1.0" = _5YCLO0Fq;
         "pkg-1.2.0" = _zWJMg1gC;
         "pkg-1.3.0" = _eEqipift;
-        "pkg-1.4.0" = _B88Um0a7;
-        "default" = _B88Um0a7;
+        "pkg-1.4.0" = _tEtOZfxi;
+        "default" = _tEtOZfxi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frozen-zombie-castle";

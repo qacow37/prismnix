@@ -91,6 +91,11 @@ let
             "file" = "gamma-mod-2.1.0-mc26.3.jar";
             "hash" = "sha512-XMvgrxnoaJWRnR0GoYQIbMADHrQO0OybALdcSeTxz0hj+TWqylp3+2G7u1tRhDLmZPgPUkYCf/+Rfxc3XdPc1A==";
         };
+        _124dGx1N = {
+            "id" = "124dGx1N";
+            "file" = "gamma-mod-2.1.0-mc1.21.11.jar";
+            "hash" = "sha512-56HKlBO5/3GgLHQygUriRng4Dz0LbEPnd4ymVONj0GecCWJrfBp6uDMyH2vXMy5oFBKR8HFSmnNlBZOcw+fw9A==";
+        };
     in {
         "VoM3pfIN" = _VoM3pfIN;
         "ZQV7CtxZ" = _ZQV7CtxZ;
@@ -110,6 +115,7 @@ let
         "l3fLNktP" = _l3fLNktP;
         "jgbru4nM" = _jgbru4nM;
         "3Tma9AY4" = _3Tma9AY4;
+        "124dGx1N" = _124dGx1N;
         "fabric-1.21.4" = _VoM3pfIN;
         "fabric-1.20.1" = _ZQV7CtxZ;
         "fabric-1.20.4" = _oGtsDc3l;
@@ -123,7 +129,7 @@ let
         "fabric-1.21.8" = _j1hcB6Mg;
         "fabric-1.21.9" = _n3szbUMm;
         "fabric-1.21.10" = _9tfiChCb;
-        "fabric-1.21.11" = _uRKV98AP;
+        "fabric-1.21.11" = _124dGx1N;
         "fabric-26.2" = _jgbru4nM;
         "fabric-26.1" = _l3fLNktP;
         "fabric-26.1.1" = _l3fLNktP;
@@ -131,8 +137,8 @@ let
         "fabric-26.3" = _3Tma9AY4;
         "pkg-1.0.0" = _uRKV98AP;
         "pkg-2.0.0" = _l3fLNktP;
-        "pkg-2.1.0" = _3Tma9AY4;
-        "default" = _3Tma9AY4;
+        "pkg-2.1.0" = _124dGx1N;
+        "default" = _124dGx1N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gamma-mod(fullbright)";

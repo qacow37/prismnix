@@ -131,6 +131,11 @@ let
             "file" = "arknights_races-1.5.3-1.20.1-forge.jar";
             "hash" = "sha512-EU1MxrgBepDg/TIInT4eVGHmvxPfAEWb5apaTw3S1qc4ftLGMVCQNJj3LOUCcNYFaFgkAG4TVdYk/Tj7svXu1A==";
         };
+        _ViWQy0MQ = {
+            "id" = "ViWQy0MQ";
+            "file" = "arknights_races-1.5.4-1.20.1-forge.jar";
+            "hash" = "sha512-+we4xnD3DP3DXNQu83eypyoWt7WgjDp+0jLGEVdbh2vP++kUJz1c1mxlzu0MUDyWMxI5W3m032GjxnyE61TwsA==";
+        };
     in {
         "ZfM5FIrj" = _ZfM5FIrj;
         "fxOgwVr9" = _fxOgwVr9;
@@ -158,12 +163,13 @@ let
         "l5AqcJCO" = _l5AqcJCO;
         "xhzhYJTI" = _xhzhYJTI;
         "eDbvNnDW" = _eDbvNnDW;
-        "forge-1.20.1" = _eDbvNnDW;
-        "forge-1.20.2" = _eDbvNnDW;
-        "forge-1.20.3" = _eDbvNnDW;
-        "forge-1.20.4" = _eDbvNnDW;
-        "forge-1.20.5" = _eDbvNnDW;
-        "forge-1.20.6" = _eDbvNnDW;
+        "ViWQy0MQ" = _ViWQy0MQ;
+        "forge-1.20.1" = _ViWQy0MQ;
+        "forge-1.20.2" = _ViWQy0MQ;
+        "forge-1.20.3" = _ViWQy0MQ;
+        "forge-1.20.4" = _ViWQy0MQ;
+        "forge-1.20.5" = _ViWQy0MQ;
+        "forge-1.20.6" = _ViWQy0MQ;
         "fabric-1.21.1" = _i23syeF9;
         "fabric-1.21.2" = _i23syeF9;
         "fabric-1.21.3" = _i23syeF9;
@@ -201,7 +207,8 @@ let
         "pkg-1.5.1-forge" = _l5AqcJCO;
         "pkg-1.5.2-1.20.1" = _xhzhYJTI;
         "pkg-1.5.3-1.20.1" = _eDbvNnDW;
-        "default" = _eDbvNnDW;
+        "pkg-1.5.4-1.20.1" = _ViWQy0MQ;
+        "default" = _ViWQy0MQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arknights-races";

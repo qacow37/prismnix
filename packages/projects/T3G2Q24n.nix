@@ -141,6 +141,11 @@ let
             "file" = "litematic-downloader-1.2.3.jar";
             "hash" = "sha512-FN+Z1AKyKPuno3zyiuVjESfo4WdGCj0c+v2bAw6pgH6wF/+yp6aBFeG6Xul9JNahTY9RsA5oiQS1TDyzE7gIHA==";
         };
+        _VEmTPcER = {
+            "id" = "VEmTPcER";
+            "file" = "litematic-downloader-1.2.4.jar";
+            "hash" = "sha512-xhyeEUpTNJpasyOURZkgUlPQQCnZ19DYr1xrHaKnfgibcD4X57PkrKMOEgIybpczme/P/6uEK7HGEBHvUyngug==";
+        };
     in {
         "cl0WtiXL" = _cl0WtiXL;
         "igR9dFYU" = _igR9dFYU;
@@ -170,6 +175,7 @@ let
         "aIHeD8iY" = _aIHeD8iY;
         "kISZdjoS" = _kISZdjoS;
         "RcXlJVzS" = _RcXlJVzS;
+        "VEmTPcER" = _VEmTPcER;
         "fabric-1.21.6" = _sZpXHAG0;
         "fabric-1.21.7" = _sZpXHAG0;
         "fabric-1.21.8" = _sZpXHAG0;
@@ -183,7 +189,7 @@ let
         "fabric-26.1.1" = _FuX0PfVp;
         "fabric-26.1.2" = _FuX0PfVp;
         "fabric-26.2" = _2TGR7DEX;
-        "fabric-26.3" = _RcXlJVzS;
+        "fabric-26.3" = _VEmTPcER;
         "pkg-1.0.5" = _cl0WtiXL;
         "pkg-1.0.6" = _igR9dFYU;
         "pkg-1.0.7" = _e9aUONyS;
@@ -207,7 +213,8 @@ let
         "pkg-1.2.1" = _aIHeD8iY;
         "pkg-1.2.2" = _kISZdjoS;
         "pkg-1.2.3" = _RcXlJVzS;
-        "default" = _RcXlJVzS;
+        "pkg-1.2.4" = _VEmTPcER;
+        "default" = _VEmTPcER;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematicdownloader";

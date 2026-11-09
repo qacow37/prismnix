@@ -131,6 +131,51 @@ let
             "file" = "pvpoptimizer.1.5-1.21.11.jar";
             "hash" = "sha512-038E9GNpfA8BioEIrhnk4/ITb6M/xL6IjRW8hFsVdvRyWuTnAUtRjHMq819clsOMyDLgDPLxF0tGlGK6aPg40w==";
         };
+        _vbotUrI3 = {
+            "id" = "vbotUrI3";
+            "file" = "pvpoptimizer-1.5+mc26.1.2.jar";
+            "hash" = "sha512-+SuOjUbmel4og/C32qV+GibMmr7p00xFGegxR8g4eD8STMdnkEyUpOaYg583juOeZ/5b/IHNBsBUegmJ5WzXYw==";
+        };
+        _Jyy2XaHh = {
+            "id" = "Jyy2XaHh";
+            "file" = "pvpoptimizer-1.6+mc1.21.11.jar";
+            "hash" = "sha512-v7pZLYnjB1ykA90/RLl/oZ5pmffIp9giPu/Q8ohuI9DqiZ77N51TAHeVqfVoCwCbTOMCNk48Ycsowgy8AXle7A==";
+        };
+        _MP2YGb7J = {
+            "id" = "MP2YGb7J";
+            "file" = "pvpoptimizer-1.6+mc26.1.1.jar";
+            "hash" = "sha512-pb6Yhhys6WOtxy2l+PKkMavxjE49xaYibbaWxoaLmIV+HxBGk84vgyzZ1r04MvmWC/hGIXp+4lyPPUiZo0Autw==";
+        };
+        _UmEsMosT = {
+            "id" = "UmEsMosT";
+            "file" = "pvpoptimizer-1.6+mc26.1.2.jar";
+            "hash" = "sha512-+SuOjUbmel4og/C32qV+GibMmr7p00xFGegxR8g4eD8STMdnkEyUpOaYg583juOeZ/5b/IHNBsBUegmJ5WzXYw==";
+        };
+        _ftObgrN1 = {
+            "id" = "ftObgrN1";
+            "file" = "pvpoptimizer-1.6+mc26.1.jar";
+            "hash" = "sha512-QNz0rvs5EsImQLizsFZUYk74z7d/o+LPVDwGBDMJ6XCOencg1AvNypahdrPTNCYMvBF6w/BbaxJn1m2sfF3DLg==";
+        };
+        _EoTwvl11 = {
+            "id" = "EoTwvl11";
+            "file" = "pvpoptimizer-1.6+mc1.21.10.jar";
+            "hash" = "sha512-bvf99SB2Rv/xBqG1sMvoFAYcf29Ar6s73x4zxlo3XND0e9YW+LhA4IbkDyRWjLp/7pW1bTM1QftQpgN2me9PRA==";
+        };
+        _qincnjgr = {
+            "id" = "qincnjgr";
+            "file" = "pvpoptimizer-1.6+mc1.21.9.jar";
+            "hash" = "sha512-56UFzvL1kSyg/I4ti+oUQmw7xAADVF+qVTjaBWaHBUUOEnEHCK/HwyitduULdWPzvEMwaNocdvA44r2/fgp5XA==";
+        };
+        _O9P1txLG = {
+            "id" = "O9P1txLG";
+            "file" = "pvpoptimizer-1.6+mc26.3.jar";
+            "hash" = "sha512-MX7wMmSP5jsYSIQV3J2O5bKW2K3PKTdNvjQf02KP7XDd3dCIWYm0bm2f3B+IWyzPHvgWq8cC+jblyAD6DOeKLg==";
+        };
+        _Gq7Ik3s4 = {
+            "id" = "Gq7Ik3s4";
+            "file" = "pvpoptimizer-1.6+mc26.2.jar";
+            "hash" = "sha512-CW8uECaqz6UcXMNRDz74wfkERu1j74vGY8CJIrMRcwXWz7PMhb6ziRRFUo3M3mxFUEn/I5ZbTvBAZYnPLBqxuA==";
+        };
     in {
         "KAfVVVxF" = _KAfVVVxF;
         "xGOWKSDe" = _xGOWKSDe;
@@ -158,23 +203,32 @@ let
         "e6JlbsW2" = _e6JlbsW2;
         "HhuTXxbk" = _HhuTXxbk;
         "WwgKwAGJ" = _WwgKwAGJ;
-        "fabric-1.21.10" = _iQxNofbU;
-        "fabric-1.21.9" = _iQxNofbU;
-        "fabric-1.21.11" = _WwgKwAGJ;
+        "vbotUrI3" = _vbotUrI3;
+        "Jyy2XaHh" = _Jyy2XaHh;
+        "MP2YGb7J" = _MP2YGb7J;
+        "UmEsMosT" = _UmEsMosT;
+        "ftObgrN1" = _ftObgrN1;
+        "EoTwvl11" = _EoTwvl11;
+        "qincnjgr" = _qincnjgr;
+        "O9P1txLG" = _O9P1txLG;
+        "Gq7Ik3s4" = _Gq7Ik3s4;
+        "fabric-1.21.10" = _EoTwvl11;
+        "fabric-1.21.9" = _qincnjgr;
+        "fabric-1.21.11" = _Jyy2XaHh;
         "fabric-1.21.8" = _H1DItS5V;
         "fabric-1.21.1" = _e6JlbsW2;
-        "fabric-26.2" = _4lGwTXcS;
+        "fabric-26.2" = _Gq7Ik3s4;
         "fabric-1.21.2" = _H1DItS5V;
         "fabric-1.21.3" = _H1DItS5V;
         "fabric-1.21.4" = _H1DItS5V;
         "fabric-1.21.5" = _H1DItS5V;
         "fabric-1.21.6" = _H1DItS5V;
         "fabric-1.21.7" = _H1DItS5V;
-        "fabric-26.1" = _zOwUNDKY;
-        "fabric-26.1.1" = _zOwUNDKY;
-        "fabric-26.1.2" = _zOwUNDKY;
+        "fabric-26.1" = _ftObgrN1;
+        "fabric-26.1.1" = _MP2YGb7J;
+        "fabric-26.1.2" = _UmEsMosT;
         "fabric-1.21" = _e6JlbsW2;
-        "fabric-26.3" = _HhuTXxbk;
+        "fabric-26.3" = _O9P1txLG;
         "pkg-1.0.0" = _UxWc21LR;
         "pkg-1.0.1" = _7u5iz1Ut;
         "pkg-1.0.2" = _JJZj9jjM;
@@ -186,7 +240,16 @@ let
         "pkg-1.4+mc1.21-1.21.1" = _e6JlbsW2;
         "pkg-1.4+mc26.3" = _HhuTXxbk;
         "pkg-1.5+mc1.21.11" = _WwgKwAGJ;
-        "default" = _WwgKwAGJ;
+        "pkg-1.5+mc26.1.2" = _vbotUrI3;
+        "pkg-1.6+mc1.21.11" = _Jyy2XaHh;
+        "pkg-1.6+mc26.1.1" = _MP2YGb7J;
+        "pkg-1.6+mc26.1.2" = _UmEsMosT;
+        "pkg-1.6+mc26.1" = _ftObgrN1;
+        "pkg-1.6+mc1.21.10" = _EoTwvl11;
+        "pkg-1.6+mc1.21.9" = _qincnjgr;
+        "pkg-1.6+mc26.3" = _O9P1txLG;
+        "pkg-1.6+mc26.2" = _Gq7Ik3s4;
+        "default" = _Gq7Ik3s4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-optmizer";

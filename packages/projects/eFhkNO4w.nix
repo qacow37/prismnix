@@ -156,6 +156,41 @@ let
             "file" = "Nexa 2.2.0 Fabric 26.3.jar";
             "hash" = "sha512-2rwntTjQaA1DHpl2rKpHyoJAqd9iHdIZLo3L79OWl4BHQXMk8tWt2unQaWljUTNKPa1psIe7y7oDH5XOHoD51A==";
         };
+        _KnKRUpri = {
+            "id" = "KnKRUpri";
+            "file" = "Nexa 2.5.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-aaZLuh4Aee8G6m9asNnVdLZ2pSDVylTnw1YN0NFo18jEL7K8EnlBAd91Mfbeg3q4/DgkqQRPykLs9RXGwmee+w==";
+        };
+        _BmOWReWU = {
+            "id" = "BmOWReWU";
+            "file" = "Nexa 2.5.0 Fabric 26.3.jar";
+            "hash" = "sha512-7yJUacLudF8jYeN3U2RqAyOUNP92XySJV90Yc1cpxnn19U+IjRuaXrEsNXA+WILelJXqaxX/abiVPHr8WfwkXg==";
+        };
+        _JeCO80yE = {
+            "id" = "JeCO80yE";
+            "file" = "Nexa 2.5.0 Forge 1.20.1.jar";
+            "hash" = "sha512-I8ksC+LjfoVkk66DD5KaVAURQ6Uw0VERxG421xi5JUe6RX1bRY+cotMuAdrv+WQgaIu4jQBt0ksChO+cNEX3yg==";
+        };
+        _2RfGV7bx = {
+            "id" = "2RfGV7bx";
+            "file" = "Nexa 2.5.0 Forge 26.3.jar";
+            "hash" = "sha512-VWOXBNwXWqlK7k6cuaEfpDbVloCJ27VfNWyJwAhXrVrVQO4ijUVPjPnktS8e1lfyJtDU37+gPZ3EiumC5IFOwg==";
+        };
+        _Z9WHwsNz = {
+            "id" = "Z9WHwsNz";
+            "file" = "Nexa 2.5.0 NeoForge 1.21.1.jar";
+            "hash" = "sha512-1LzKO2vLamF7DUJzSCj9g9Dmu2OUxLHksphKyP0wWjVOw8GLAzUJSizy2d6s4q0C/1qo1DO/G28Wn2a+vRRopA==";
+        };
+        _gHtGXVJh = {
+            "id" = "gHtGXVJh";
+            "file" = "Nexa 2.5.0 NeoForge 26.3.jar";
+            "hash" = "sha512-EQGHJZf74qKRw6658kSMHfpCiCEkVMAoASrWmzPWj/4Q5EcN1HfqZI6CuZP6s5g62g0PJWRmC2qW5EOHzW5c/A==";
+        };
+        _6VGp5AVc = {
+            "id" = "6VGp5AVc";
+            "file" = "Nexa 2.5.0 Plugin [26.3+].jar";
+            "hash" = "sha512-uDrrJK9kpOUvNs1CevPDZJR3ejgzuHxwZ7kv7IRYzOSl30I5JeiWs0DMthxxIMxdpbC3tBHHxYt48w/SJjJQzQ==";
+        };
     in {
         "XCeIzs9U" = _XCeIzs9U;
         "iTMY0O3a" = _iTMY0O3a;
@@ -188,6 +223,13 @@ let
         "yDHOAkAE" = _yDHOAkAE;
         "2X5qS9mc" = _2X5qS9mc;
         "rUrUKqSg" = _rUrUKqSg;
+        "KnKRUpri" = _KnKRUpri;
+        "BmOWReWU" = _BmOWReWU;
+        "JeCO80yE" = _JeCO80yE;
+        "2RfGV7bx" = _2RfGV7bx;
+        "Z9WHwsNz" = _Z9WHwsNz;
+        "gHtGXVJh" = _gHtGXVJh;
+        "6VGp5AVc" = _6VGp5AVc;
         "fabric-1.20.1" = _nFJTEESz;
         "fabric-1.20.2" = _nFJTEESz;
         "fabric-1.20.3" = _nFJTEESz;
@@ -196,15 +238,16 @@ let
         "fabric-1.20.6" = _nFJTEESz;
         "fabric-1.21.11" = _1zj8ZUBK;
         "fabric-26.2" = _zQToXtd4;
-        "fabric-1.21.1" = _Z3r33z9z;
+        "fabric-1.21.1" = _KnKRUpri;
         "fabric-1.21.2" = _Z3r33z9z;
         "fabric-1.21.3" = _Z3r33z9z;
-        "fabric-26.3" = _rUrUKqSg;
-        "forge-1.20.1" = _r7VDVMPU;
+        "fabric-26.3" = _BmOWReWU;
+        "forge-1.20.1" = _JeCO80yE;
         "forge-1.21.11" = _RirAP1ol;
         "forge-26.2" = _sjBrdO7P;
         "forge-1.12.2" = _tSTDzVKK;
         "forge-1.21.1" = _zL07xkpO;
+        "forge-26.3" = _2RfGV7bx;
         "bukkit-1.21.11" = _meqr5P5i;
         "bukkit-26.1.2" = _33uErkEC;
         "bukkit-26.2" = _2X5qS9mc;
@@ -234,7 +277,7 @@ let
         "paper-1.21.8" = _meqr5P5i;
         "paper-1.21.9" = _meqr5P5i;
         "paper-1.21.10" = _meqr5P5i;
-        "paper-26.3" = _2X5qS9mc;
+        "paper-26.3" = _6VGp5AVc;
         "purpur-1.21.11" = _meqr5P5i;
         "purpur-26.1.2" = _33uErkEC;
         "purpur-26.2" = _2X5qS9mc;
@@ -266,14 +309,21 @@ let
         "spigot-1.21.10" = _meqr5P5i;
         "spigot-26.3" = _2X5qS9mc;
         "neoforge-26.2" = _7LRmyMmC;
-        "neoforge-1.21.1" = _bTYJMidZ;
+        "neoforge-1.21.1" = _Z9WHwsNz;
         "neoforge-1.21.11" = _KHwHfd63;
-        "neoforge-26.3" = _yDHOAkAE;
+        "neoforge-26.3" = _gHtGXVJh;
         "pkg-1.1.7" = _NNfSMtfT;
         "pkg-2.0.0" = _zpoFezAv;
         "pkg-2.1.0" = _CC5ioxV8;
         "pkg-2.2.0" = _rUrUKqSg;
-        "default" = _rUrUKqSg;
+        "pkg-2.5.0+1.21.1-fabric" = _KnKRUpri;
+        "pkg-2.5.0+26.3-fabric" = _BmOWReWU;
+        "pkg-2.5.0+1.20.1-forge" = _JeCO80yE;
+        "pkg-2.5.0+26.3-forge" = _2RfGV7bx;
+        "pkg-2.5.0+1.21.1-neoforge" = _Z9WHwsNz;
+        "pkg-2.5.0+26.3-neoforge" = _gHtGXVJh;
+        "pkg-2.5.0+26.3-paper" = _6VGp5AVc;
+        "default" = _6VGp5AVc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nexa-ai";

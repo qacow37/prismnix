@@ -126,6 +126,11 @@ let
             "file" = "Enchantio-1.17.0.jar";
             "hash" = "sha512-sZWN3Cl/F1Y5JPz1fvcy+wn42RqCUlCsapNDEZgdJl8JqA+IPCAbQb+t0iAdF3DOnNWSC9/e1DeOJvnFx7REuA==";
         };
+        _RHmjv0vV = {
+            "id" = "RHmjv0vV";
+            "file" = "Enchantio-1.18.0.jar";
+            "hash" = "sha512-4WNmARtS+dFPwYyZv4f7/zOX3cS3kB0BJNfAsFAonVDr0q3u6/x3QR7jBX4y2Br5aCxnITsx1ZJVD8o1d8CWCA==";
+        };
     in {
         "cpF5pfqg" = _cpF5pfqg;
         "rGtqRo1W" = _rGtqRo1W;
@@ -152,6 +157,7 @@ let
         "86Dl7wr6" = _86Dl7wr6;
         "6Wye9bxx" = _6Wye9bxx;
         "HVgFYEii" = _HVgFYEii;
+        "RHmjv0vV" = _RHmjv0vV;
         "paper-1.21.1" = _YpC4OWG4;
         "paper-1.21.2" = _YpC4OWG4;
         "paper-1.21.3" = _YpC4OWG4;
@@ -168,7 +174,7 @@ let
         "paper-26.1.1" = _QetJKeHR;
         "paper-26.1.2" = _QetJKeHR;
         "paper-26.2" = _QetJKeHR;
-        "paper-26.3" = _HVgFYEii;
+        "paper-26.3" = _RHmjv0vV;
         "purpur-1.21.1" = _YpC4OWG4;
         "purpur-1.21.2" = _YpC4OWG4;
         "purpur-1.21.3" = _YpC4OWG4;
@@ -185,12 +191,12 @@ let
         "purpur-26.1.1" = _QetJKeHR;
         "purpur-26.1.2" = _QetJKeHR;
         "purpur-26.2" = _QetJKeHR;
-        "purpur-26.3" = _HVgFYEii;
+        "purpur-26.3" = _RHmjv0vV;
         "folia-26.1" = _QetJKeHR;
         "folia-26.1.1" = _QetJKeHR;
         "folia-26.1.2" = _QetJKeHR;
         "folia-26.2" = _QetJKeHR;
-        "folia-26.3" = _HVgFYEii;
+        "folia-26.3" = _RHmjv0vV;
         "pkg-1.0.0" = _cpF5pfqg;
         "pkg-1.1.0" = _rGtqRo1W;
         "pkg-1.2.0" = _ahmXPtQL;
@@ -216,7 +222,8 @@ let
         "pkg-1.16.1" = _86Dl7wr6;
         "pkg-1.16.2" = _6Wye9bxx;
         "pkg-1.17.0" = _HVgFYEii;
-        "default" = _HVgFYEii;
+        "pkg-1.18.0" = _RHmjv0vV;
+        "default" = _RHmjv0vV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantio";

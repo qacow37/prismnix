@@ -26,25 +26,39 @@ let
             "file" = "mca-vamp-compat-1.21.1-2.3.1.jar";
             "hash" = "sha512-+XaXRdXAEOl+sJYadtlSYElOEr1UO111UDbNw6PtUCW39pRb/rG3PSfIUqL4H2CxfnO7ivuRnCruKf/dJL9iug==";
         };
+        _DOhZP2jN = {
+            "id" = "DOhZP2jN";
+            "file" = "mca-vamp-compat-1.20.1-1.3.2.jar";
+            "hash" = "sha512-uAPOoez2jDweDYJDeaELjUlYJW/CHxXdMA6ujCU7r5s15rR/LIx6MV8D8ywO4doMWIWbjuZ9RcVMLzwip7ySQQ==";
+        };
+        _gzmIUOWe = {
+            "id" = "gzmIUOWe";
+            "file" = "mca-vamp-compat-1.21.1-2.2.2.jar";
+            "hash" = "sha512-W19os4z69zoaThERx9ULe9w0AbuTHuD2/uPKpYbRzNhnnE0TB8+pT09GxzeusP/z/MINjifaGc2h8xVjGjwBdA==";
+        };
     in {
         "sUWAsaUW" = _sUWAsaUW;
         "gsGXI9b1" = _gsGXI9b1;
         "ehDiHLWf" = _ehDiHLWf;
         "hfSLJh8f" = _hfSLJh8f;
         "gVorZaA7" = _gVorZaA7;
-        "forge-1.20.1" = _hfSLJh8f;
+        "DOhZP2jN" = _DOhZP2jN;
+        "gzmIUOWe" = _gzmIUOWe;
+        "forge-1.20.1" = _DOhZP2jN;
         "forge-1.20.2" = _gsGXI9b1;
         "forge-1.20.3" = _gsGXI9b1;
         "forge-1.20.4" = _gsGXI9b1;
         "forge-1.20.5" = _gsGXI9b1;
         "forge-1.20.6" = _gsGXI9b1;
-        "neoforge-1.21.1" = _gVorZaA7;
+        "neoforge-1.21.1" = _gzmIUOWe;
         "pkg-1.0.0" = _sUWAsaUW;
         "pkg-1.0.1" = _gsGXI9b1;
         "pkg-2.0.0" = _ehDiHLWf;
         "pkg-1.1.0" = _hfSLJh8f;
         "pkg-2.1.0" = _gVorZaA7;
-        "default" = _gVorZaA7;
+        "pkg-1.2.0" = _DOhZP2jN;
+        "pkg-2.2.0" = _gzmIUOWe;
+        "default" = _gzmIUOWe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-reborn-x-vampirism-compat";

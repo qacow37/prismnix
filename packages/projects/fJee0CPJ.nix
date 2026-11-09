@@ -51,6 +51,16 @@ let
             "file" = "bookofdragons-1.4-1.21.1.jar";
             "hash" = "sha512-0/Mei8deixsKGVLQRf7k3xDwtT9Ho9JlP6l58XUasi92yAeESPUYg0fTEWEcYoWtlgj8hKMPs5PHTUryCKNu1Q==";
         };
+        _j609106D = {
+            "id" = "j609106D";
+            "file" = "bookofdragons-1.4.1-1.20.1.jar";
+            "hash" = "sha512-DSfdhjwD724oz1e6htjIGodfKNIaQz2P/anJ6cnMKIySyK9gz5OtQxOBe6joO0JgX6Yjt6fBKB8MVF7B6Klj0A==";
+        };
+        _vMbmodRN = {
+            "id" = "vMbmodRN";
+            "file" = "bookofdragons-1.4.1-1.21.1.jar";
+            "hash" = "sha512-zgqvH0cbj2g6gnWnr0xKkCgBBJfdqfBcJaS8iFAF3XvHzAsU+xyXK28mR/CNpmcHwPWjV92hAiXcZpNl8ij8Mg==";
+        };
     in {
         "HDZWo33w" = _HDZWo33w;
         "5aiYIUaG" = _5aiYIUaG;
@@ -62,8 +72,10 @@ let
         "FMHtYIBA" = _FMHtYIBA;
         "7ZKoc6fd" = _7ZKoc6fd;
         "V19mixjo" = _V19mixjo;
-        "forge-1.20.1" = _7ZKoc6fd;
-        "neoforge-1.21.1" = _V19mixjo;
+        "j609106D" = _j609106D;
+        "vMbmodRN" = _vMbmodRN;
+        "forge-1.20.1" = _j609106D;
+        "neoforge-1.21.1" = _vMbmodRN;
         "pkg-1.0-1.20.1" = _HDZWo33w;
         "pkg-1.01-1.20.1" = _5aiYIUaG;
         "pkg-1.1-1.20.1" = _v2Ew5Z0H;
@@ -74,7 +86,9 @@ let
         "pkg-1.31-1.20.1" = _FMHtYIBA;
         "pkg-1.4-1.20.1" = _7ZKoc6fd;
         "pkg-1.4-1.21.1" = _V19mixjo;
-        "default" = _V19mixjo;
+        "pkg-1.4.1-1.20.1" = _j609106D;
+        "pkg-1.4.1-1.21.1" = _vMbmodRN;
+        "default" = _vMbmodRN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "book-of-dragons";

@@ -91,6 +91,11 @@ let
             "file" = "CCB (Bolted Corners) [1.21.x - 26.1.x].zip";
             "hash" = "sha512-VCjvSW0E+EisQFFhtEW609zLh3DFjfw+qQGY4nuL3rb1q9BsdNKn8WZHKmgBNBKd4A+ZyArVAR7dsS9DwhpeKQ==";
         };
+        _hnquOE8N = {
+            "id" = "hnquOE8N";
+            "file" = "CCB (Bolted Corners) [1.21.x - 26.3].zip";
+            "hash" = "sha512-FnItxnaPefvFNTWRjG744qQvq/YT9FCD9px9Aoahevq+cvti7fNXOxbEkqy1qlty8mbJESDrNS7W+UI66fVwfQ==";
+        };
     in {
         "aFi9cbW4" = _aFi9cbW4;
         "gG5mJysq" = _gG5mJysq;
@@ -110,6 +115,7 @@ let
         "h3E3u7t5" = _h3E3u7t5;
         "IpPbl2U8" = _IpPbl2U8;
         "nzIC6my0" = _nzIC6my0;
+        "hnquOE8N" = _hnquOE8N;
         "minecraft-1.18" = _gG5mJysq;
         "minecraft-1.18.1" = _gG5mJysq;
         "minecraft-1.18.2" = _gG5mJysq;
@@ -120,24 +126,26 @@ let
         "minecraft-1.19.4" = _HUgweJYI;
         "minecraft-1.20" = _6lIDuDDv;
         "minecraft-1.20.1" = _6lIDuDDv;
-        "minecraft-1.21" = _nzIC6my0;
-        "minecraft-1.21.4" = _nzIC6my0;
-        "minecraft-1.21.5" = _nzIC6my0;
-        "minecraft-1.21.6" = _nzIC6my0;
-        "minecraft-1.21.7" = _nzIC6my0;
-        "minecraft-1.21.8" = _nzIC6my0;
-        "minecraft-1.21.9" = _nzIC6my0;
-        "minecraft-1.21.10" = _nzIC6my0;
-        "minecraft-1.21.1" = _nzIC6my0;
-        "minecraft-1.21.2" = _nzIC6my0;
-        "minecraft-1.21.3" = _nzIC6my0;
-        "minecraft-1.21.11" = _nzIC6my0;
-        "minecraft-26.1" = _nzIC6my0;
-        "minecraft-26.1.1" = _nzIC6my0;
-        "minecraft-26.1.2" = _nzIC6my0;
+        "minecraft-1.21" = _hnquOE8N;
+        "minecraft-1.21.4" = _hnquOE8N;
+        "minecraft-1.21.5" = _hnquOE8N;
+        "minecraft-1.21.6" = _hnquOE8N;
+        "minecraft-1.21.7" = _hnquOE8N;
+        "minecraft-1.21.8" = _hnquOE8N;
+        "minecraft-1.21.9" = _hnquOE8N;
+        "minecraft-1.21.10" = _hnquOE8N;
+        "minecraft-1.21.1" = _hnquOE8N;
+        "minecraft-1.21.2" = _hnquOE8N;
+        "minecraft-1.21.3" = _hnquOE8N;
+        "minecraft-1.21.11" = _hnquOE8N;
+        "minecraft-26.1" = _hnquOE8N;
+        "minecraft-26.1.1" = _hnquOE8N;
+        "minecraft-26.1.2" = _hnquOE8N;
+        "minecraft-26.3" = _hnquOE8N;
+        "minecraft-26.2" = _hnquOE8N;
         "pkg-0.0.1" = _6lIDuDDv;
-        "pkg-0.0.2" = _nzIC6my0;
-        "default" = _nzIC6my0;
+        "pkg-0.0.2" = _hnquOE8N;
+        "default" = _hnquOE8N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "connected-copper-blocks";

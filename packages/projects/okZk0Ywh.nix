@@ -926,6 +926,11 @@ let
             "file" = "SuperApple-3.3.7-26.3-Forge.jar";
             "hash" = "sha512-Fukbc5fKEtZgjatv5Relwxl6VEthI/0z2fmJ/SWFeCWPOsc/JSK/Q4l4iISHEazciAOmibdsV+mE1I5m7QZ11Q==";
         };
+        _kZsjx40R = {
+            "id" = "kZsjx40R";
+            "file" = "SuperApple-3.3.8-26.3-NeoForge.jar";
+            "hash" = "sha512-N8w5G5kfEXTYCuhyfxaut8i3g86UUpr+k0+f+AlGCFjfkUSvdMcQcU8+LuVUP/yJrT+44lz0/hGu4KIGPcrUmA==";
+        };
     in {
         "DrijXkjT" = _DrijXkjT;
         "sKOpt03w" = _sKOpt03w;
@@ -1112,6 +1117,7 @@ let
         "6L3RjxHY" = _6L3RjxHY;
         "inGhsJRi" = _inGhsJRi;
         "sptsUY2A" = _sptsUY2A;
+        "kZsjx40R" = _kZsjx40R;
         "fabric-1.19.3" = _aW9BcD0u;
         "fabric-23w03a" = _WMHafvGi;
         "fabric-23w04a" = _WMHafvGi;
@@ -1198,7 +1204,7 @@ let
         "neoforge-26.1.1" = _PF8yJBVo;
         "neoforge-26.1.2" = _PF8yJBVo;
         "neoforge-26.2" = _2Gj1Fqt1;
-        "neoforge-26.3" = _6L3RjxHY;
+        "neoforge-26.3" = _kZsjx40R;
         "pkg-1.0.0-SNAPSHOT" = _DrijXkjT;
         "pkg-1.0.1-1.19.3-SNAPSHOT" = _sKOpt03w;
         "pkg-1.0.2-1.19.3" = _5hfcBpF6;
@@ -1383,7 +1389,8 @@ let
         "pkg-3.3.7-26.3-NeoForge" = _6L3RjxHY;
         "pkg-3.3.7-26.3-Fabric" = _inGhsJRi;
         "pkg-3.3.7-26.3-Forge" = _sptsUY2A;
-        "default" = _sptsUY2A;
+        "pkg-3.3.8-26.3-NeoForge" = _kZsjx40R;
+        "default" = _kZsjx40R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "super-apple";

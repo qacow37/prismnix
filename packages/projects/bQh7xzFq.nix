@@ -316,6 +316,16 @@ let
             "file" = "nerb-neoforge-0.6+1.21.1.jar";
             "hash" = "sha512-ERYnJroVPFrUuS2hvUDKrFdgJMJcy1sq5mV7QPZ9Rc2dfIZLd1FNP6A7wJsYeyrvwhFYRBHPVtGkYtjYKWxELg==";
         };
+        _WiNbVnrT = {
+            "id" = "WiNbVnrT";
+            "file" = "nerb-fabric-0.6.1+26.3.jar";
+            "hash" = "sha512-SzYQei1sd6oNGCvki89NEWk6/wrlDQ3I/hHVdcDtKZTfTFqkPerX0RzDFadRcsg23Lc3rlEZRHKVRfc+GuQbtw==";
+        };
+        _D2tbgcDS = {
+            "id" = "D2tbgcDS";
+            "file" = "nerb-neoforge-0.6.1+26.3.jar";
+            "hash" = "sha512-xESi35Qx6+MMb61sEBzVQQAZe7qFiwKLot8AKWcLKAzRvZ6rzWrTvD2NEqOvneCLVuu2wMvZeczb5BS1vd4vzg==";
+        };
     in {
         "TXL5AFHt" = _TXL5AFHt;
         "hRhjlsGv" = _hRhjlsGv;
@@ -380,6 +390,8 @@ let
         "euHj6IE2" = _euHj6IE2;
         "8NetGCjt" = _8NetGCjt;
         "VtYxePQ0" = _VtYxePQ0;
+        "WiNbVnrT" = _WiNbVnrT;
+        "D2tbgcDS" = _D2tbgcDS;
         "fabric-1.20" = _TXL5AFHt;
         "fabric-1.20.1" = _hiLb6QFe;
         "fabric-1.19.4" = _21LpGT5f;
@@ -395,7 +407,7 @@ let
         "fabric-1.21.4" = _JCGQ5FYt;
         "fabric-1.21.11" = _7APTrG6O;
         "fabric-26.1.2" = _sKWqzgt3;
-        "fabric-26.3" = _8LlvqJ9J;
+        "fabric-26.3" = _WiNbVnrT;
         "fabric-26.2" = _FUrtyIUh;
         "forge-1.20" = _hRhjlsGv;
         "forge-1.20.1" = _xXV9YBzF;
@@ -430,7 +442,7 @@ let
         "neoforge-1.21.4" = _euHj6IE2;
         "neoforge-1.21.11" = _KxSsYHD9;
         "neoforge-26.1.2" = _s3bhN5gW;
-        "neoforge-26.3" = _1jg7H5yO;
+        "neoforge-26.3" = _D2tbgcDS;
         "neoforge-26.2" = _OBu2COEI;
         "pkg-0.3" = _hygTWrEc;
         "pkg-0.3.1" = _TF263yIt;
@@ -450,7 +462,8 @@ let
         "pkg-0.6+1.21.11" = _KxSsYHD9;
         "pkg-0.6+1.21.4" = _euHj6IE2;
         "pkg-0.6+1.21.1" = _VtYxePQ0;
-        "default" = _VtYxePQ0;
+        "pkg-0.6.1+26.3" = _D2tbgcDS;
+        "default" = _D2tbgcDS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notenoughrecipebook";

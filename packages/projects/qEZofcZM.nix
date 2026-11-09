@@ -371,6 +371,21 @@ let
             "file" = "viltrumitecore-1.11.2-neoforge-1.21.1.jar";
             "hash" = "sha512-aqYge1XB8W3Kq6EWJzAXFWXLyt4Z4bV4vBv1PJvzCnxeTIDcdyP94rbA1FtLBf8loQOFeU7zVzTyr+70UCDdNQ==";
         };
+        _J4q3FfdP = {
+            "id" = "J4q3FfdP";
+            "file" = "viltrumitecore-1.12.0-fabric-1.20.1.jar";
+            "hash" = "sha512-a7vu4fmuLvn72i+QLQ6D6YP2xavdaJNKh3jEhujgeDBlwca/KwVnY+PH+y5JtOs/gcpRKGpgNnHyGSL7xD6sHw==";
+        };
+        _KT4TtuWU = {
+            "id" = "KT4TtuWU";
+            "file" = "viltrumitecore-1.12.0-forge-1.20.1.jar";
+            "hash" = "sha512-lk3JVL9lSW8O44O55hVDaGI3EOqy+fofxbR1UqBveWpKVonU1O9hnUZvokQnOp6cYAR1PO6asUCyUzpH8Tb0gQ==";
+        };
+        _kCURXDno = {
+            "id" = "kCURXDno";
+            "file" = "viltrumitecore-1.12.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-TRCNHb0dszPcn87Gc/cECt7BQfN2nLIZChzYmHedR4QemLu+dm2mk1XfVxuJg0iVWj9OXvoJCZz60LhCQh1MAg==";
+        };
     in {
         "v3nGJWR3" = _v3nGJWR3;
         "4RoijOVZ" = _4RoijOVZ;
@@ -446,9 +461,12 @@ let
         "n4oeOpVx" = _n4oeOpVx;
         "PZaoT8ht" = _PZaoT8ht;
         "taEIoTnL" = _taEIoTnL;
-        "fabric-1.20.1" = _n4oeOpVx;
-        "forge-1.20.1" = _PZaoT8ht;
-        "neoforge-1.21.1" = _taEIoTnL;
+        "J4q3FfdP" = _J4q3FfdP;
+        "KT4TtuWU" = _KT4TtuWU;
+        "kCURXDno" = _kCURXDno;
+        "fabric-1.20.1" = _J4q3FfdP;
+        "forge-1.20.1" = _KT4TtuWU;
+        "neoforge-1.21.1" = _kCURXDno;
         "pkg-1.0.0" = _v3nGJWR3;
         "pkg-1.0.1" = _4RoijOVZ;
         "pkg-1.0.2" = _xLpuGg8p;
@@ -492,7 +510,8 @@ let
         "pkg-1.11.0" = _mQJsBCYA;
         "pkg-1.11.1" = _YMc5CysU;
         "pkg-1.11.2" = _taEIoTnL;
-        "default" = _taEIoTnL;
+        "pkg-1.12.0" = _kCURXDno;
+        "default" = _kCURXDno;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viltrumite";

@@ -46,6 +46,11 @@ let
             "file" = "TACZ-Refabricated-26.3-0.8.6-beta1+fabric26.3.jar";
             "hash" = "sha512-cjcn2HyYdbLWawS77iXyyLbnOcAcP0HKjWGjPRvvWuJUd7vYt6Zs/2BJBna6TdCv+kEqdOwzPsqHpQRdToVMCA==";
         };
+        _LrPBPYx9 = {
+            "id" = "LrPBPYx9";
+            "file" = "TACZ-Refabricated-26.3-0.8.6+fabric26.3.jar";
+            "hash" = "sha512-AjXAcM1A4smYfjQeFlBCIeyofiCBmnvfco52zeSBiHzjGaMcboXBEDPUuaUtnJbQY7Ix1e1rf7esa7iuYD+iXw==";
+        };
     in {
         "G9k4Okqt" = _G9k4Okqt;
         "ACYWQtcy" = _ACYWQtcy;
@@ -56,8 +61,9 @@ let
         "3BP2Kc1r" = _3BP2Kc1r;
         "1b0EzW8Z" = _1b0EzW8Z;
         "oeiH7BVM" = _oeiH7BVM;
+        "LrPBPYx9" = _LrPBPYx9;
         "fabric-26.2" = _JGxXP0Ol;
-        "fabric-26.3" = _oeiH7BVM;
+        "fabric-26.3" = _LrPBPYx9;
         "pkg-0.8.0+fabric26.2" = _G9k4Okqt;
         "pkg-0.8.1+fabric26.2" = _ACYWQtcy;
         "pkg-0.8.1-hotfix1+fabric26.2" = _d2bHlEFc;
@@ -67,7 +73,8 @@ let
         "pkg-0.8.5-beta1+fabric26.3" = _3BP2Kc1r;
         "pkg-0.8.5+fabric26.3" = _1b0EzW8Z;
         "pkg-0.8.6-beta1+fabric26.3" = _oeiH7BVM;
-        "default" = _oeiH7BVM;
+        "pkg-0.8.6+fabric26.3" = _LrPBPYx9;
+        "default" = _LrPBPYx9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-refabricated-unofficial-port";

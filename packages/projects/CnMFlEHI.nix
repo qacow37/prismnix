@@ -36,6 +36,26 @@ let
             "file" = "hedges_bestiary-1.1.3-neo.jar";
             "hash" = "sha512-pRHg92WXmHd33dFJ+CpIVP4bcV1iJo+wQ+xP1N6ot1ur+ESmJCQibEc804iJ9mFLqY20BfhveMxQMYnvSqvLUA==";
         };
+        _ReWdzuJK = {
+            "id" = "ReWdzuJK";
+            "file" = "hedges_bestiary-1.1.4-neo.jar";
+            "hash" = "sha512-4BHnLghMj2UlS8dCdiRF7A21Rs0hOhpqcjy5397ceau04lMZ/KJra7MJ4LL+clJFjSuzJqz43HKRHjH+dfcNpw==";
+        };
+        _yahNrveu = {
+            "id" = "yahNrveu";
+            "file" = "hedges_bestiary-1.1.4-forge.jar";
+            "hash" = "sha512-w0sD3QLfsfURRcXqW7I8XPplCaGi14UwcSa+FBglDmc97rEPomnw3GHJ4gicCmwfrr4/2WHRRcCcBYj7ffAykQ==";
+        };
+        _tqK58fhF = {
+            "id" = "tqK58fhF";
+            "file" = "hedges_bestiary-1.1.5-forge.jar";
+            "hash" = "sha512-r1XgJTEqT7MDnaDgx8w/CGOe5uIZJh3pujFESIHJzrlV5ChEf8fzMwJ8iAouN+qYHwPIO+nH5XHvewVl5dKghA==";
+        };
+        _c9ZdAuF0 = {
+            "id" = "c9ZdAuF0";
+            "file" = "hedges_bestiary-1.1.6-forge.jar";
+            "hash" = "sha512-1Gp71iqJ9ED4gfXXhVioZuk3mdQnL7/lLy4OBw7jEXS1VSuYrskjkDtDH+6XIMkHQlC6gzQt6AVLIQUXSzqpvQ==";
+        };
     in {
         "aT1S96fT" = _aT1S96fT;
         "Yf2MZZ0J" = _Yf2MZZ0J;
@@ -44,8 +64,12 @@ let
         "jLgWBSP8" = _jLgWBSP8;
         "9aAlPLPW" = _9aAlPLPW;
         "KpNk8n7C" = _KpNk8n7C;
-        "forge-1.20.1" = _ZLqBa9qM;
-        "neoforge-1.21.1" = _KpNk8n7C;
+        "ReWdzuJK" = _ReWdzuJK;
+        "yahNrveu" = _yahNrveu;
+        "tqK58fhF" = _tqK58fhF;
+        "c9ZdAuF0" = _c9ZdAuF0;
+        "forge-1.20.1" = _c9ZdAuF0;
+        "neoforge-1.21.1" = _ReWdzuJK;
         "pkg-1.0.0" = _aT1S96fT;
         "pkg-1.0.5" = _Yf2MZZ0J;
         "pkg-1.0.7" = _ZLqBa9qM;
@@ -53,7 +77,10 @@ let
         "pkg-1.1.1" = _jLgWBSP8;
         "pkg-1.1.2" = _9aAlPLPW;
         "pkg-1.1.3" = _KpNk8n7C;
-        "default" = _KpNk8n7C;
+        "pkg-1.1.4" = _yahNrveu;
+        "pkg-1.1.5" = _tqK58fhF;
+        "pkg-1.1.6" = _c9ZdAuF0;
+        "default" = _c9ZdAuF0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hedges-bestiary";

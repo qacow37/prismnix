@@ -151,6 +151,21 @@ let
             "file" = "umas-2.0-fabric-26.2.jar";
             "hash" = "sha512-xNHoSN/+fJf1ZxDH0AukjVLnwJN7wsb4OGWguschr2reVNWVmQMecTIifOxbuBIuYvaqFen+C815jZz5llgBeg==";
         };
+        _r1lKqiYn = {
+            "id" = "r1lKqiYn";
+            "file" = "umas-2.1-forge-1.20.1.jar";
+            "hash" = "sha512-41VZE0U50z1bWo+U9NuJn75leVO68F+8NYfrYeIryJqAwDsJWCkcQN9lhUnWn0p0QuSRaFFscM0ymkIV2UiMdQ==";
+        };
+        _BEq2Emp1 = {
+            "id" = "BEq2Emp1";
+            "file" = "umas-2.1-fabric-26.2.jar";
+            "hash" = "sha512-s7z5zSbiIDZxB2pvB+yK8vJGdjSI90+bm92kaYKEy6zPAWjYnnjskX2ZJ8QWp7rmqd0bKZ4MtUUQmntndI+I7Q==";
+        };
+        _usUg0RML = {
+            "id" = "usUg0RML";
+            "file" = "umas-2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-+azB80dh6Z+WDdx0lgvJJdONVscucgdEcgRNIkzsYFkA3xLV662h8asljx+wdVFGg31YACuKwZxt1J0awsR6sw==";
+        };
     in {
         "DS1bFAyg" = _DS1bFAyg;
         "Q2yVyvdf" = _Q2yVyvdf;
@@ -182,14 +197,17 @@ let
         "7LLltQqO" = _7LLltQqO;
         "K5KwlS0l" = _K5KwlS0l;
         "tjlfL4gr" = _tjlfL4gr;
-        "forge-1.20.1" = _kbfGeggE;
-        "neoforge-1.21.1" = _U5pLXdQh;
+        "r1lKqiYn" = _r1lKqiYn;
+        "BEq2Emp1" = _BEq2Emp1;
+        "usUg0RML" = _usUg0RML;
+        "forge-1.20.1" = _r1lKqiYn;
+        "neoforge-1.21.1" = _usUg0RML;
         "neoforge-1.21.8" = _xao3a5y4;
         "neoforge-26.1.2" = _TFtylw1L;
         "neoforge-26.2" = _7LLltQqO;
         "fabric-1.21.8" = _Hys8ZHi7;
         "fabric-26.1.2" = _K5KwlS0l;
-        "fabric-26.2" = _tjlfL4gr;
+        "fabric-26.2" = _BEq2Emp1;
         "pkg-1.1" = _DS1bFAyg;
         "pkg-1.2" = _D2n0FfIE;
         "pkg-1.3" = _XxwEH9K4;
@@ -202,7 +220,8 @@ let
         "pkg-1.8.1" = _xao3a5y4;
         "pkg-1.9" = _ko35z66A;
         "pkg-2.0" = _tjlfL4gr;
-        "default" = _tjlfL4gr;
+        "pkg-2.1" = _usUg0RML;
+        "default" = _usUg0RML;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "umas-luches";

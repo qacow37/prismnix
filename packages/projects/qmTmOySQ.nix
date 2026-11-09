@@ -81,6 +81,21 @@ let
             "file" = "customcrafting-5.0-alpha.4.0.0-fabric-26.2.jar";
             "hash" = "sha512-TW3dkux65LDjVrDxW4mbzCVfXgL9nj9trM/GcwFQfhJv2Nf/GbVk5mHzB1VBJ8hJwXbBrWOfjP5vCyCY2jYOoA==";
         };
+        _fgH5uKdf = {
+            "id" = "fgH5uKdf";
+            "file" = "customcrafting-5.0-alpha.5-fabric-26.3.jar";
+            "hash" = "sha512-4MCeByPCJbWsZCcXRH2HBBPfMWuCTmwdBtGDaIdd6zUFAGQuiZfJNWy2XZfEs4aeihnH61ThaIYd9G8hxxXFkg==";
+        };
+        _nQm5BN9X = {
+            "id" = "nQm5BN9X";
+            "file" = "customcrafting-5.0-alpha.5-spigot-26.3.jar";
+            "hash" = "sha512-kKURJlTFEYl0g6CxH5Kx7FXFFj7IzZ3x+TQu/zYX8mjbOXakiRN/syXCYKMVc3A3KXNfd1D2PBvAkgA75TSWBw==";
+        };
+        _1KQvJSHU = {
+            "id" = "1KQvJSHU";
+            "file" = "customcrafting-5.0-alpha.5-paper-26.3.jar";
+            "hash" = "sha512-hdLgLb5mhhOWi4H+cobKqI3odw92paaYpa6vg9+1Z/I1XDkkR4kmwduaEMMyPkQ+MKoaOqzB/6FZR5zzPmKnow==";
+        };
     in {
         "eIsj5Pts" = _eIsj5Pts;
         "pG3wT2eN" = _pG3wT2eN;
@@ -98,6 +113,9 @@ let
         "gVIcAgdB" = _gVIcAgdB;
         "HRIppvt2" = _HRIppvt2;
         "3rXpCSez" = _3rXpCSez;
+        "fgH5uKdf" = _fgH5uKdf;
+        "nQm5BN9X" = _nQm5BN9X;
+        "1KQvJSHU" = _1KQvJSHU;
         "paper-1.16.5" = _fri9OTZe;
         "paper-1.17" = _DY0tXZBA;
         "paper-1.17.1" = _3j631JSQ;
@@ -123,6 +141,7 @@ let
         "paper-1.21.7" = _6IfsAObT;
         "paper-1.21.8" = _6IfsAObT;
         "paper-26.2" = _HRIppvt2;
+        "paper-26.3" = _1KQvJSHU;
         "purpur-1.16.5" = _fri9OTZe;
         "purpur-1.17" = _DY0tXZBA;
         "purpur-1.17.1" = _3j631JSQ;
@@ -148,6 +167,7 @@ let
         "purpur-1.21.7" = _6IfsAObT;
         "purpur-1.21.8" = _6IfsAObT;
         "purpur-26.2" = _HRIppvt2;
+        "purpur-26.3" = _1KQvJSHU;
         "spigot-1.16.5" = _fri9OTZe;
         "spigot-1.17" = _DY0tXZBA;
         "spigot-1.17.1" = _3j631JSQ;
@@ -173,6 +193,7 @@ let
         "spigot-1.21.7" = _6IfsAObT;
         "spigot-1.21.8" = _6IfsAObT;
         "spigot-26.2" = _gVIcAgdB;
+        "spigot-26.3" = _nQm5BN9X;
         "bukkit-1.16.5" = _fri9OTZe;
         "bukkit-1.17" = _DY0tXZBA;
         "bukkit-1.17.1" = _3j631JSQ;
@@ -198,7 +219,9 @@ let
         "bukkit-1.21.7" = _6IfsAObT;
         "bukkit-1.21.8" = _6IfsAObT;
         "bukkit-26.2" = _gVIcAgdB;
+        "bukkit-26.3" = _nQm5BN9X;
         "fabric-26.2" = _3rXpCSez;
+        "fabric-26.3" = _fgH5uKdf;
         "pkg-4.16.8.0" = _eIsj5Pts;
         "pkg-4.16.8.2" = _pG3wT2eN;
         "pkg-4.16.8.3" = _aKCP20mA;
@@ -213,7 +236,10 @@ let
         "pkg-4.19.0.2" = _O6TcRztG;
         "pkg-4.19.1.0" = _6IfsAObT;
         "pkg-5.0-alpha.4.0.0" = _3rXpCSez;
-        "default" = _3rXpCSez;
+        "pkg-5.0-alpha.5+fabric" = _fgH5uKdf;
+        "pkg-5.0-alpha.5+spigot" = _nQm5BN9X;
+        "pkg-5.0-alpha.5+paper" = _1KQvJSHU;
+        "default" = _1KQvJSHU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customcrafting";

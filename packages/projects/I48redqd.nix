@@ -46,6 +46,21 @@ let
             "file" = "vulkanflow-1.0.0.jar";
             "hash" = "sha512-3R3ZYHVrBQaERBNGJIZOuSAWuH+GRnmKTpasSfpPwwhO0RiNRYF7lkr/SXb3OE8JbcfhLJZS2jvUNmf/zZd1Dg==";
         };
+        _N86kGaUE = {
+            "id" = "N86kGaUE";
+            "file" = "vulkanflow-1.1.0.jar";
+            "hash" = "sha512-Lzsc1vxCYGEZLvPb7YXtEkNne5RsUfuYouNpycbe0nzRips//X/v5XJ1lao2+zG/LxKZu2ivcIxfjPrfq7R1lg==";
+        };
+        _e1LxKEYw = {
+            "id" = "e1LxKEYw";
+            "file" = "vulkanflow-1.1.1+26.2.jar";
+            "hash" = "sha512-pxruC1DHNIddkmqa5hl2HgFATa4s6aoQSS7RhFEGlaxL9wV4J28AfFe/4lsm/PGKyyis5bCZjWRlVPfLeYV6bw==";
+        };
+        _FzTga2ZM = {
+            "id" = "FzTga2ZM";
+            "file" = "vulkanflow-1.1.1+26.1.r3.jar";
+            "hash" = "sha512-kC5/su08+UQ1jE/L2/llbogc7DD47x1K8C5HVp/+FwP2ijZw0LTLh/d7tQ/kZd6E/K1VwA7AQve4ngoIxIfwHw==";
+        };
     in {
         "qyLiKlzg" = _qyLiKlzg;
         "aaqg4pDN" = _aaqg4pDN;
@@ -56,8 +71,14 @@ let
         "S9Tn5po7" = _S9Tn5po7;
         "wGFfiMx2" = _wGFfiMx2;
         "Aas1Wa7r" = _Aas1Wa7r;
-        "fabric-26.2" = _61rw3ElR;
-        "fabric-26.3" = _Aas1Wa7r;
+        "N86kGaUE" = _N86kGaUE;
+        "e1LxKEYw" = _e1LxKEYw;
+        "FzTga2ZM" = _FzTga2ZM;
+        "fabric-26.2" = _e1LxKEYw;
+        "fabric-26.3" = _N86kGaUE;
+        "fabric-26.1.2" = _FzTga2ZM;
+        "fabric-26.1.1" = _FzTga2ZM;
+        "fabric-26.1" = _FzTga2ZM;
         "pkg-0.1.0-alpha" = _qyLiKlzg;
         "pkg-0.1.1-alpha" = _aaqg4pDN;
         "pkg-0.1.11-alpha" = _61rw3ElR;
@@ -67,7 +88,10 @@ let
         "pkg-0.1.27-alpha" = _S9Tn5po7;
         "pkg-0.1.39-alpha" = _wGFfiMx2;
         "pkg-1.0.0" = _Aas1Wa7r;
-        "default" = _Aas1Wa7r;
+        "pkg-1.1.0" = _N86kGaUE;
+        "pkg-1.1.1+26.2" = _e1LxKEYw;
+        "pkg-1.1.1+26.1" = _FzTga2ZM;
+        "default" = _FzTga2ZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vulkanflow";

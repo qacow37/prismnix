@@ -271,6 +271,11 @@ let
             "file" = "enderdragondestroysendisland-2.5.2+mc1.20.1-forge.jar";
             "hash" = "sha512-CETNZ0rK42AXaxILcTie0SKFcVDKXUSwWmemJLxIB8/KG4sbQk5wikguW5PjkgkqpYV9B+kQ2bJZVJeWfFas9Q==";
         };
+        _WVYobzMj = {
+            "id" = "WVYobzMj";
+            "file" = "enderdragondestroysendisland-2.5.3+mc1.20.1-forge.jar";
+            "hash" = "sha512-J0yK4M+i1VzQGSfn2rz5W9o3Zxhv+1OJlzRN3GKKzh3wzyjnXj9J0VinheViGLE+gVHTaEgNb7jEE9kDZfCYCA==";
+        };
     in {
         "rS2ly3d0" = _rS2ly3d0;
         "pRPoqdSQ" = _pRPoqdSQ;
@@ -326,12 +331,13 @@ let
         "Eksc2kgj" = _Eksc2kgj;
         "QAdBvhUx" = _QAdBvhUx;
         "AAKH2aYk" = _AAKH2aYk;
+        "WVYobzMj" = _WVYobzMj;
         "neoforge-1.21" = _Eksc2kgj;
         "neoforge-1.21.1" = _Eksc2kgj;
         "neoforge-26.1" = _oL0MAA21;
         "neoforge-26.1.1" = _oL0MAA21;
         "neoforge-26.1.2" = _oL0MAA21;
-        "neoforge-1.20.1" = _AAKH2aYk;
+        "neoforge-1.20.1" = _WVYobzMj;
         "neoforge-26.2" = _fNSN3pmB;
         "neoforge-1.21.2" = _fasd9Qvi;
         "neoforge-1.21.3" = _fasd9Qvi;
@@ -362,7 +368,7 @@ let
         "fabric-1.21.10" = _ITdbCT5Q;
         "fabric-1.21.11" = _XrQIohLF;
         "fabric-26.3" = _dDfhDdli;
-        "forge-1.20.1" = _AAKH2aYk;
+        "forge-1.20.1" = _WVYobzMj;
         "pkg-1.0.0" = _rS2ly3d0;
         "pkg-1.1.0" = _pRPoqdSQ;
         "pkg-1.1.1" = _vARzhTgg;
@@ -417,7 +423,8 @@ let
         "pkg-2.2.3+mc1.21-neoforge" = _Eksc2kgj;
         "pkg-2.2.3+mc1.21-fabric" = _QAdBvhUx;
         "pkg-2.5.2+mc1.20.1-forge" = _AAKH2aYk;
-        "default" = _AAKH2aYk;
+        "pkg-2.5.3+mc1.20.1-forge" = _WVYobzMj;
+        "default" = _WVYobzMj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-dragon-destroys-end-island";

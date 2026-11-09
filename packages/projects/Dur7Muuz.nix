@@ -106,6 +106,21 @@ let
             "file" = "DaBomb-26.1.2-0.8.0.jar";
             "hash" = "sha512-DkERkQ+WrTXOq/x/XkS+hetTJS4aD0MOs6T3Xm4+zCmE1M4goevoexRP42SdL5fEUwjyYaES4yoFT2gs8xgYZA==";
         };
+        _O7xBfXqg = {
+            "id" = "O7xBfXqg";
+            "file" = "DaBomb-1.21.1-0.3.3.jar";
+            "hash" = "sha512-wOqM5DhU/IPP4XG5MN+JkTa8DebYFNYF8A71DS09uotjRYQGDwDGzzPZp1yllDiLVWntI4RxbSdJBSRbEnREvw==";
+        };
+        _6sK8dYnZ = {
+            "id" = "6sK8dYnZ";
+            "file" = "DaBomb-26.1.2-0.8.1.jar";
+            "hash" = "sha512-1tBitT83xcReE8AOEn7fliW6uiiXHu5YeRn8c7a7s9TDlqXRfaHjs3yz5FXtLskKncpZfpXyQ0RdctC1jjyeVQ==";
+        };
+        _v4hIAcFh = {
+            "id" = "v4hIAcFh";
+            "file" = "DaBomb-26.3-0.9.0.jar";
+            "hash" = "sha512-QdmSK7MmBjI2FV1EY11rNaN/MJaMK9Xf483KePUlNrU25qkOES9bhbWNMlhmOKyqKm6AwpQ5jNNdU/zh1cr+7w==";
+        };
     in {
         "quuVlFn8" = _quuVlFn8;
         "QEzwdeuZ" = _QEzwdeuZ;
@@ -128,6 +143,9 @@ let
         "ri80yJmp" = _ri80yJmp;
         "8Zy16S7y" = _8Zy16S7y;
         "eoggvCrv" = _eoggvCrv;
+        "O7xBfXqg" = _O7xBfXqg;
+        "6sK8dYnZ" = _6sK8dYnZ;
+        "v4hIAcFh" = _v4hIAcFh;
         "forge-1.18.2" = _QEzwdeuZ;
         "forge-1.19.2" = _Z5VX3t8B;
         "forge-1.20" = _uvhlZ8S9;
@@ -138,12 +156,13 @@ let
         "neoforge-1.21" = _gr6CqbnW;
         "neoforge-1.21.4" = _nIqE5JPO;
         "neoforge-1.21.5" = _fkMy9FHx;
-        "neoforge-1.21.1" = _6vOVUzUk;
+        "neoforge-1.21.1" = _O7xBfXqg;
         "neoforge-1.21.8" = _KcnulFw6;
         "neoforge-1.21.10" = _j0nYyNKP;
         "neoforge-1.20.1" = _ri80yJmp;
         "neoforge-1.21.11" = _8Zy16S7y;
-        "neoforge-26.1.2" = _eoggvCrv;
+        "neoforge-26.1.2" = _6sK8dYnZ;
+        "neoforge-26.3" = _v4hIAcFh;
         "pkg-0.1.0" = _quuVlFn8;
         "pkg-0.2.0" = _DmG0u7S8;
         "pkg-0.2.1" = _2u6FzOJ2;
@@ -159,7 +178,10 @@ let
         "pkg-0.3.2" = _6vOVUzUk;
         "pkg-0.7.0" = _8Zy16S7y;
         "pkg-0.8.0" = _eoggvCrv;
-        "default" = _eoggvCrv;
+        "pkg-0.3.3" = _O7xBfXqg;
+        "pkg-0.8.1" = _6sK8dYnZ;
+        "pkg-0.9.0" = _v4hIAcFh;
+        "default" = _v4hIAcFh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "da-bomb";

@@ -131,6 +131,66 @@ let
             "file" = "cave_fog_stabilizer-fabric-2.0.0+1.21.8.jar";
             "hash" = "sha512-Drox9P/4WLaTYqqNDTTMweENUKoAtOxf9AXT3Gc1QxStl6+g/S6C7JfKLxr7Tz98Hl4m/KKrQ3sbVjEyTQqx3A==";
         };
+        _7D56KoT0 = {
+            "id" = "7D56KoT0";
+            "file" = "cave_fog_stabilizer-neoforge-2.0.1+26.3.jar";
+            "hash" = "sha512-TotZOKbElZHE4AbvfA9GDpwpkt7alJEHEJFTQ8H6tr4QHz5NbxfW/0rSVi0ZfrjHpZjGkq+SLQbIE+ZMo70DjQ==";
+        };
+        _uUsbGC7L = {
+            "id" = "uUsbGC7L";
+            "file" = "cave_fog_stabilizer-neoforge-2.0.1+26.1.2.jar";
+            "hash" = "sha512-iV6CqpGk632kswtb+HcJRZnQ8bdETJxLATtewjGs+86ZCI3MRyqlDx9/v5dWFm2ycocZFBoDisNGIzMUw+D7og==";
+        };
+        _3aiiqCu9 = {
+            "id" = "3aiiqCu9";
+            "file" = "cave_fog_stabilizer-neoforge-2.0.1+1.21.11.jar";
+            "hash" = "sha512-CmOMpWlJREBvlK3+FY3XB5ddzMmI/e5vJnHI4IEZ6k6sPGCQycobXh7pETY7CCaXG2Onwoe5ldFC71Y4lkE1jg==";
+        };
+        _pnhK2pgA = {
+            "id" = "pnhK2pgA";
+            "file" = "cave_fog_stabilizer-neoforge-2.0.1+1.21.8.jar";
+            "hash" = "sha512-tNsT5hJ2m4AiAwwdRsE1WjcyrQhmBe+pBNe9VZpourA9SSg/XmGG6ROoBe6Pb6GBZjDLC45D45XmPcqT79hFYQ==";
+        };
+        _Mz8JUqp6 = {
+            "id" = "Mz8JUqp6";
+            "file" = "cave_fog_stabilizer-neoforge-2.0.1+1.21.10.jar";
+            "hash" = "sha512-SxqwL85IkGsA8Zvd+MYFMgf+zflJxTqLrHdWfyXAo1u9/QU9Wi86Rr3lvIN3hz/RSDV4T6jMy6yRtmJBroMjLg==";
+        };
+        _fTqTV5B4 = {
+            "id" = "fTqTV5B4";
+            "file" = "cave_fog_stabilizer-neoforge-2.0.1+26.2.jar";
+            "hash" = "sha512-aRn4Aco49ZZPHTep8NTXxJ6z/EyvnzMuIWebRNyhgpExZX4zoudpyz8CbaPb61Wah3caeu29rhAYPPsFtZDuwg==";
+        };
+        _k968QnSG = {
+            "id" = "k968QnSG";
+            "file" = "cave_fog_stabilizer-fabric-2.0.1+1.21.11.jar";
+            "hash" = "sha512-RYCDRS2gaVBbE0r4BM8Oaig9jHzlg8Fk8P03VOTUVR25390qEj5tLr1f0Uei0zCuJ52ZDsmCz5CyuuT8hXboHA==";
+        };
+        _ZHeL5qZJ = {
+            "id" = "ZHeL5qZJ";
+            "file" = "cave_fog_stabilizer-fabric-2.0.1+1.21.8.jar";
+            "hash" = "sha512-iXRN57wUju8oIB1Gi3MCGpekfvQ4DmyCzLGpMo5oeNsLQc7IN+YBrZVZY6HJ4K4ljE7NLFqXVQhQ7qry3hdLKA==";
+        };
+        _B8ypszwe = {
+            "id" = "B8ypszwe";
+            "file" = "cave_fog_stabilizer-fabric-2.0.1+26.1.2.jar";
+            "hash" = "sha512-3jNSNgOxLLRT9gP7AYOjItjjLsDz32hK99xPgzOUltK+NmjIXmpBFl+uLQxgzKU0HFN1+gKBJoVg+FiV8OdZTQ==";
+        };
+        _DKfeliAZ = {
+            "id" = "DKfeliAZ";
+            "file" = "cave_fog_stabilizer-fabric-2.0.1+26.2.jar";
+            "hash" = "sha512-xXc1REMOW6dASwAjp5e7col9dvDtPQLGtTH8LB2CujUCZYb0UuHlSWuM/C43wxBfURcd8GpzI12+Vi1Kg+Txlw==";
+        };
+        _iX8xOaEy = {
+            "id" = "iX8xOaEy";
+            "file" = "cave_fog_stabilizer-fabric-2.0.1+1.21.10.jar";
+            "hash" = "sha512-HkRMiyvKlgZMUrtqOtbz6OVvTKHzbIrwT3BHVMX/lMEmfDT7uqZNPQsI+2wJmsdVM0pt5cF8bMLjq/ArdM1+yw==";
+        };
+        _Hf40Y6L6 = {
+            "id" = "Hf40Y6L6";
+            "file" = "cave_fog_stabilizer-fabric-2.0.1+26.3.jar";
+            "hash" = "sha512-rl4XLaSLNGr/R+OkGj88wgg43UkHxzg8ZIYGMJuTYapibLPixP4rnheZMm1E+4lflhp5obyXa++Gzwz5la06AA==";
+        };
     in {
         "zwszbUMW" = _zwszbUMW;
         "TWjc1cTt" = _TWjc1cTt;
@@ -158,28 +218,40 @@ let
         "5Kp3PGEh" = _5Kp3PGEh;
         "7hQEKcWO" = _7hQEKcWO;
         "SpUAiAMR" = _SpUAiAMR;
-        "fabric-1.21.11" = _8UzeraEp;
-        "fabric-26.1" = _7hQEKcWO;
-        "fabric-26.1.1" = _7hQEKcWO;
-        "fabric-26.1.2" = _7hQEKcWO;
-        "fabric-26.2" = _5Kp3PGEh;
-        "fabric-26.3" = _vhXfd6wl;
-        "fabric-1.21.9" = _CXNQSLLP;
-        "fabric-1.21.10" = _CXNQSLLP;
-        "fabric-1.21.6" = _SpUAiAMR;
-        "fabric-1.21.7" = _SpUAiAMR;
-        "fabric-1.21.8" = _SpUAiAMR;
-        "neoforge-1.21.11" = _Cnf6MHNy;
-        "neoforge-26.1" = _By2tQIPn;
-        "neoforge-26.1.1" = _By2tQIPn;
-        "neoforge-26.1.2" = _By2tQIPn;
-        "neoforge-26.3" = _chKutzHr;
-        "neoforge-1.21.6" = _CYoNtS3w;
-        "neoforge-1.21.7" = _CYoNtS3w;
-        "neoforge-1.21.8" = _CYoNtS3w;
-        "neoforge-26.2" = _MZA6kfrL;
-        "neoforge-1.21.9" = _gqB5CPGa;
-        "neoforge-1.21.10" = _gqB5CPGa;
+        "7D56KoT0" = _7D56KoT0;
+        "uUsbGC7L" = _uUsbGC7L;
+        "3aiiqCu9" = _3aiiqCu9;
+        "pnhK2pgA" = _pnhK2pgA;
+        "Mz8JUqp6" = _Mz8JUqp6;
+        "fTqTV5B4" = _fTqTV5B4;
+        "k968QnSG" = _k968QnSG;
+        "ZHeL5qZJ" = _ZHeL5qZJ;
+        "B8ypszwe" = _B8ypszwe;
+        "DKfeliAZ" = _DKfeliAZ;
+        "iX8xOaEy" = _iX8xOaEy;
+        "Hf40Y6L6" = _Hf40Y6L6;
+        "fabric-1.21.11" = _k968QnSG;
+        "fabric-26.1" = _B8ypszwe;
+        "fabric-26.1.1" = _B8ypszwe;
+        "fabric-26.1.2" = _B8ypszwe;
+        "fabric-26.2" = _DKfeliAZ;
+        "fabric-26.3" = _Hf40Y6L6;
+        "fabric-1.21.9" = _iX8xOaEy;
+        "fabric-1.21.10" = _iX8xOaEy;
+        "fabric-1.21.6" = _ZHeL5qZJ;
+        "fabric-1.21.7" = _ZHeL5qZJ;
+        "fabric-1.21.8" = _ZHeL5qZJ;
+        "neoforge-1.21.11" = _3aiiqCu9;
+        "neoforge-26.1" = _uUsbGC7L;
+        "neoforge-26.1.1" = _uUsbGC7L;
+        "neoforge-26.1.2" = _uUsbGC7L;
+        "neoforge-26.3" = _7D56KoT0;
+        "neoforge-1.21.6" = _pnhK2pgA;
+        "neoforge-1.21.7" = _pnhK2pgA;
+        "neoforge-1.21.8" = _pnhK2pgA;
+        "neoforge-26.2" = _fTqTV5B4;
+        "neoforge-1.21.9" = _Mz8JUqp6;
+        "neoforge-1.21.10" = _Mz8JUqp6;
         "pkg-1.0.0+1.21.11-fabric" = _zwszbUMW;
         "pkg-1.0.0+1.21.11-neoforge" = _TWjc1cTt;
         "pkg-1.1.0+1.21.11-neoforge" = _Ey8vBbUj;
@@ -200,7 +272,13 @@ let
         "pkg-2.0.0+1.21.11" = _8UzeraEp;
         "pkg-2.0.0+1.21.10" = _CXNQSLLP;
         "pkg-2.0.0+26.1.2" = _7hQEKcWO;
-        "default" = _SpUAiAMR;
+        "pkg-2.0.1+26.3" = _Hf40Y6L6;
+        "pkg-2.0.1+26.1.2" = _B8ypszwe;
+        "pkg-2.0.1+1.21.11" = _k968QnSG;
+        "pkg-2.0.1+1.21.8" = _ZHeL5qZJ;
+        "pkg-2.0.1+1.21.10" = _iX8xOaEy;
+        "pkg-2.0.1+26.2" = _DKfeliAZ;
+        "default" = _Hf40Y6L6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cave-fog-stabilizer";

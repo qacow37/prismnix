@@ -71,6 +71,16 @@ let
             "file" = "better_mob_combat_reimagined-1.1.17+1.20.1-forge.jar";
             "hash" = "sha512-3i6uSKNKGrSJFBNvzMZK04HCqhiDCQ66eL+qpZuwclj/YSh7ihC78Rdm93RlKshJ2abN/4P2dr1sgvjfLWB/Dw==";
         };
+        _FlvhHI5V = {
+            "id" = "FlvhHI5V";
+            "file" = "better_mob_combat_reimagined-1.1.18+1.20.1-forge.jar";
+            "hash" = "sha512-KrtI4YRuYnx/M7/ofiZJsVKyQZ8l4hFu5wTEm0z2ecuZT9MLATfvgNBMVEEOpaA3P825lwdnwefAC3xOAEtR/w==";
+        };
+        _FK8H3pvL = {
+            "id" = "FK8H3pvL";
+            "file" = "better_mob_combat_reimagined-1.1.19.jar";
+            "hash" = "sha512-0bPhJoZJvPVCehYE1Q1t1vCIP3vqFQjyIYIFrIgUixFL9T8jlrwpJRIWl06IulAnmIuIvQM5Gjfp+Zypivy+Gg==";
+        };
     in {
         "1RGfuZ96" = _1RGfuZ96;
         "uBQibI36" = _uBQibI36;
@@ -86,8 +96,10 @@ let
         "ZsFN2Hxu" = _ZsFN2Hxu;
         "EIX8lwXT" = _EIX8lwXT;
         "LCki0q7n" = _LCki0q7n;
-        "neoforge-1.21.1" = _EIX8lwXT;
-        "forge-1.20.1" = _LCki0q7n;
+        "FlvhHI5V" = _FlvhHI5V;
+        "FK8H3pvL" = _FK8H3pvL;
+        "neoforge-1.21.1" = _FK8H3pvL;
+        "forge-1.20.1" = _FlvhHI5V;
         "pkg-1.0.1" = _1RGfuZ96;
         "pkg-1.0.3" = _uBQibI36;
         "pkg-1.0.28" = _uT4D6f1I;
@@ -100,8 +112,9 @@ let
         "pkg-1.1.10" = _m3pKODvs;
         "pkg-1.1.16" = _EasF5aC6;
         "pkg-1.1.17" = _LCki0q7n;
-        "pkg-1.1.18" = _EIX8lwXT;
-        "default" = _LCki0q7n;
+        "pkg-1.1.18" = _FlvhHI5V;
+        "pkg-1.1.19" = _FK8H3pvL;
+        "default" = _FK8H3pvL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-mob-combat-reimagined";

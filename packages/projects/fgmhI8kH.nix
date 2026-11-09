@@ -646,6 +646,31 @@ let
             "file" = "[neoforge]ctov-26-3-4.2.1-dev-shadow.jar";
             "hash" = "sha512-BcmDB54ZPVq7VdNiejChTdMsl0K7OMG92punDde8H1sc9b8ZXW9mupbqQ9XJO0p2En9px+No9KK6+mcUWfl7+A==";
         };
+        _ukXQg2nW = {
+            "id" = "ukXQg2nW";
+            "file" = "[fabric]ctov-26-3-4.2.2.jar";
+            "hash" = "sha512-2pnhmJPatvhgf15pZlxfLSZydl7mo9iPWGjF8gYDKm5tnE+xQc4oVtX3+ZGGNU7DQN9HNQmbpUGptzBhVd5MuA==";
+        };
+        _iKTnH6gF = {
+            "id" = "iKTnH6gF";
+            "file" = "[neoforge]ctov-26-3-4.2.2-dev-shadow.jar";
+            "hash" = "sha512-PAU8WPBYyxZVbo7EAU8r7x0+9pPlwJpt2hvlXDLTZd38Za7p2QyCbDgYDxoywPKrG16KAuqP2gqxySP+pAEFXg==";
+        };
+        _Vcv7z4RB = {
+            "id" = "Vcv7z4RB";
+            "file" = "[fabric]ctov-26-3-4.2.2a.jar";
+            "hash" = "sha512-op4tw0ej0Bvu5YCaDoJzBSVEhEwzXn0GFl83T+iOBvfrOL1r2h93jZzrxVtKxp4F0Fq3ZROzwJAo31CLbqbplw==";
+        };
+        _B5GZEj2K = {
+            "id" = "B5GZEj2K";
+            "file" = "[neoforge]ctov-26-3-4.2.2a-dev-shadow.jar";
+            "hash" = "sha512-2Lp3Pdgh/PaVtDQKEmsl6OLq3VpksgjeGoV5BPwPsmU4DkALLpS5HuVPu7gmfdoYXpofoL/KsIMgIfcIeyyLmQ==";
+        };
+        _lJkQTrca = {
+            "id" = "lJkQTrca";
+            "file" = "[neoforge]ctov-26-3-4.2.2b-dev-shadow.jar";
+            "hash" = "sha512-kqFpMblSs/4wpwvoiDpSAHa4Z/vS+Y+JLIE/xUPp60agUirwYQa/vnQ+2L5Qbxb1WqwDxT3if1Mf/H4spSrmrg==";
+        };
     in {
         "sd27RBEO" = _sd27RBEO;
         "N9bzxzVo" = _N9bzxzVo;
@@ -776,6 +801,11 @@ let
         "VBJgbI8C" = _VBJgbI8C;
         "VHDkCfoS" = _VHDkCfoS;
         "pA7Oafb1" = _pA7Oafb1;
+        "ukXQg2nW" = _ukXQg2nW;
+        "iKTnH6gF" = _iKTnH6gF;
+        "Vcv7z4RB" = _Vcv7z4RB;
+        "B5GZEj2K" = _B5GZEj2K;
+        "lJkQTrca" = _lJkQTrca;
         "fabric-1.18.2-rc1" = _sd27RBEO;
         "fabric-1.18.2" = _mL9oaPkZ;
         "fabric-1.19" = _CXja9TJq;
@@ -806,7 +836,7 @@ let
         "fabric-26.1.1" = _fCld3sEH;
         "fabric-26.1.2" = _fCld3sEH;
         "fabric-26.2" = _DpxVZVuT;
-        "fabric-26.3" = _VHDkCfoS;
+        "fabric-26.3" = _Vcv7z4RB;
         "forge-1.18.2-rc1" = _sd27RBEO;
         "forge-1.18.2" = _mL9oaPkZ;
         "forge-1.19" = _CXja9TJq;
@@ -860,7 +890,7 @@ let
         "neoforge-26.1.1" = _dgey9qZs;
         "neoforge-26.1.2" = _dgey9qZs;
         "neoforge-26.2" = _VBJgbI8C;
-        "neoforge-26.3" = _pA7Oafb1;
+        "neoforge-26.3" = _lJkQTrca;
         "pkg-1-18-2-2" = _sd27RBEO;
         "pkg-2.8" = _N9bzxzVo;
         "pkg-2.9" = _qvvu7W5e;
@@ -938,7 +968,10 @@ let
         "pkg-4.0.1" = _fCld3sEH;
         "pkg-4.1.1" = _VBJgbI8C;
         "pkg-4.2.1" = _pA7Oafb1;
-        "default" = _pA7Oafb1;
+        "pkg-4.2.2" = _iKTnH6gF;
+        "pkg-4.2.2a" = _B5GZEj2K;
+        "pkg-4.2.2b" = _lJkQTrca;
+        "default" = _lJkQTrca;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ct-overhaul-village";

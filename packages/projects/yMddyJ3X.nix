@@ -596,6 +596,16 @@ let
             "file" = "Canyons_and_Cliffs_and_Biomes-1.5.0.14950.0.be_prerelease.261029-1552.zip";
             "hash" = "sha512-/wQXCb4E67VfkSYmmVg6ML00Un5wcj2Neb2cl6o9GmuhbTgmPqeREuzFhP6jn+IMIO0BA7UaZEVuvmJUH0IAMw==";
         };
+        _GfhJa1xp = {
+            "id" = "GfhJa1xp";
+            "file" = "Canyons_and_Cliffs_and_Biomes-1.5.0.14958.0.be_prerelease.261101-0830.jar";
+            "hash" = "sha512-NPgWgpETiZYPeDQQTHNfowJ1IXRAaSYPdxwzE6PxHsbVJ5n54j9dHV3T9dmaNbL6DkcHSdXeK444yclnruTVvw==";
+        };
+        _d4KZfdYO = {
+            "id" = "d4KZfdYO";
+            "file" = "Canyons_and_Cliffs_and_Biomes-1.5.0.14958.0.be_prerelease.261101-0830.zip";
+            "hash" = "sha512-MkvWShqlTSkDmMKbVZu4MprLhwjM6B1MblqYqlRMSeUxcUsvIav3LqVRO/W1YMbGv0WByszzQHNnp4Zue2i8vQ==";
+        };
     in {
         "PZzXEiKM" = _PZzXEiKM;
         "s9oZzMvV" = _s9oZzMvV;
@@ -716,6 +726,8 @@ let
         "Kobigvpk" = _Kobigvpk;
         "EcgaU775" = _EcgaU775;
         "uGFuIkFj" = _uGFuIkFj;
+        "GfhJa1xp" = _GfhJa1xp;
+        "d4KZfdYO" = _d4KZfdYO;
         "datapack-1.21.9" = _rGEg5H4h;
         "datapack-1.21.10-rc1" = _rGEg5H4h;
         "datapack-1.21.10" = _rGEg5H4h;
@@ -755,12 +767,12 @@ let
         "datapack-26.2-rc-1" = _lOEkhhmU;
         "datapack-26.2-rc-2" = _lOEkhhmU;
         "datapack-26.2" = _lOEkhhmU;
-        "datapack-26.3-pre-1" = _uGFuIkFj;
-        "datapack-26.3-pre-2" = _uGFuIkFj;
-        "datapack-26.3-pre-3" = _uGFuIkFj;
-        "datapack-26.3-rc-1" = _uGFuIkFj;
-        "datapack-26.3-rc-2" = _uGFuIkFj;
-        "datapack-26.3-rc-3" = _uGFuIkFj;
+        "datapack-26.3-pre-1" = _d4KZfdYO;
+        "datapack-26.3-pre-2" = _d4KZfdYO;
+        "datapack-26.3-pre-3" = _d4KZfdYO;
+        "datapack-26.3-rc-1" = _d4KZfdYO;
+        "datapack-26.3-rc-2" = _d4KZfdYO;
+        "datapack-26.3-rc-3" = _d4KZfdYO;
         "datapack-26.3" = _FKTE1z1L;
         "fabric-1.21.9" = _dbaFVLNH;
         "fabric-1.21.10-rc1" = _dbaFVLNH;
@@ -804,13 +816,13 @@ let
         "fabric-26.2-rc-1" = _XAvIpJxs;
         "fabric-26.2-rc-2" = _XAvIpJxs;
         "fabric-26.2" = _XAvIpJxs;
-        "fabric-26.3-pre-1" = _EcgaU775;
-        "fabric-26.3-pre-2" = _EcgaU775;
-        "fabric-26.3-pre-3" = _EcgaU775;
-        "fabric-26.3-rc-1" = _EcgaU775;
-        "fabric-26.3-rc-2" = _EcgaU775;
-        "fabric-26.3-rc-3" = _EcgaU775;
-        "fabric-26.3" = _EcgaU775;
+        "fabric-26.3-pre-1" = _GfhJa1xp;
+        "fabric-26.3-pre-2" = _GfhJa1xp;
+        "fabric-26.3-pre-3" = _GfhJa1xp;
+        "fabric-26.3-rc-1" = _GfhJa1xp;
+        "fabric-26.3-rc-2" = _GfhJa1xp;
+        "fabric-26.3-rc-3" = _GfhJa1xp;
+        "fabric-26.3" = _GfhJa1xp;
         "forge-1.21.9" = _dbaFVLNH;
         "forge-1.21.10-rc1" = _dbaFVLNH;
         "forge-1.21.10" = _dbaFVLNH;
@@ -889,13 +901,13 @@ let
         "neoforge-26.2-rc-1" = _Zm1Gqez7;
         "neoforge-26.2-rc-2" = _Zm1Gqez7;
         "neoforge-26.2" = _Zm1Gqez7;
-        "neoforge-26.3-pre-1" = _EcgaU775;
-        "neoforge-26.3-pre-2" = _EcgaU775;
-        "neoforge-26.3-pre-3" = _EcgaU775;
-        "neoforge-26.3-rc-1" = _EcgaU775;
-        "neoforge-26.3-rc-2" = _EcgaU775;
-        "neoforge-26.3-rc-3" = _EcgaU775;
-        "neoforge-26.3" = _EcgaU775;
+        "neoforge-26.3-pre-1" = _GfhJa1xp;
+        "neoforge-26.3-pre-2" = _GfhJa1xp;
+        "neoforge-26.3-pre-3" = _GfhJa1xp;
+        "neoforge-26.3-rc-1" = _GfhJa1xp;
+        "neoforge-26.3-rc-2" = _GfhJa1xp;
+        "neoforge-26.3-rc-3" = _GfhJa1xp;
+        "neoforge-26.3" = _GfhJa1xp;
         "quilt-1.21.9" = _dbaFVLNH;
         "quilt-1.21.10-rc1" = _dbaFVLNH;
         "quilt-1.21.10" = _dbaFVLNH;
@@ -1014,7 +1026,8 @@ let
         "pkg-1.5.0.14907.0" = _y0qGYKKa;
         "pkg-1.5.0.14925.0" = _Kobigvpk;
         "pkg-1.5.0.14950.0" = _uGFuIkFj;
-        "default" = _uGFuIkFj;
+        "pkg-1.5.0.14958.0" = _d4KZfdYO;
+        "default" = _d4KZfdYO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "canyons_and_cliffs_and_biomes";

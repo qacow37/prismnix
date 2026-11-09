@@ -101,6 +101,11 @@ let
             "file" = "StationAPI-2.0.0-alpha.6.4.jar";
             "hash" = "sha512-D7zpjjDioPxTta/mT8uhw7sLpfhQJYT+GxMiJrKMVFs4+YJzGocJS65Log7SLG8HhxOkJbQUvcS29wXAqOaSaQ==";
         };
+        _YsQonigP = {
+            "id" = "YsQonigP";
+            "file" = "StationAPI-2.0.0-alpha.6.5.jar";
+            "hash" = "sha512-RxPEU93Vrf2YRE+Rjjnx9JVNU0KL6eeq1oKBZzAKwiWzh20Sq3PvPo3B+ns5mMJYWGihN8cOa6vPt1rRRDpj3w==";
+        };
     in {
         "zZYwzGqM" = _zZYwzGqM;
         "vVp9vR53" = _vVp9vR53;
@@ -122,8 +127,9 @@ let
         "lpvJITem" = _lpvJITem;
         "Zlkgsw41" = _Zlkgsw41;
         "VJqorUPj" = _VJqorUPj;
-        "babric-b1.7.3" = _VJqorUPj;
-        "fabric-b1.7.3" = _VJqorUPj;
+        "YsQonigP" = _YsQonigP;
+        "babric-b1.7.3" = _YsQonigP;
+        "fabric-b1.7.3" = _YsQonigP;
         "pkg-2.0-alpha.1" = _zZYwzGqM;
         "pkg-2.0-alpha.1.1" = _vVp9vR53;
         "pkg-2.0-alpha.2" = _ZiVDNbPV;
@@ -144,7 +150,8 @@ let
         "pkg-2.0.0-alpha.6.2" = _lpvJITem;
         "pkg-2.0.0-alpha.6.3" = _Zlkgsw41;
         "pkg-2.0.0-alpha.6.4" = _VJqorUPj;
-        "default" = _VJqorUPj;
+        "pkg-2.0.0-alpha.6.5" = _YsQonigP;
+        "default" = _YsQonigP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stationapi";

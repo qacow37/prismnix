@@ -456,6 +456,11 @@ let
             "file" = "MoreSnifferFlowers-26.1.2-neo-6.8.1.jar";
             "hash" = "sha512-jxyL6GlXDYwcnosarBLopt+Td2X1DrO90qdLSzIv58q/opy71DIEPN8Dqsj1L18wR+JWfBfjkims4RnKbEfklQ==";
         };
+        _zfVnstAD = {
+            "id" = "zfVnstAD";
+            "file" = "MoreSnifferFlowers-1.21.1-neo-6.8.jar";
+            "hash" = "sha512-WiRqLKI2lSVYGjG4LT5JfzPLZjb2aasulXFl3AjIn/l33Y6YLWh9s+VF7SKgem32/qXH2gndzCOAIy2SUlIYxw==";
+        };
     in {
         "yIhBQsKw" = _yIhBQsKw;
         "w5ztDsSe" = _w5ztDsSe;
@@ -548,12 +553,13 @@ let
         "mULgzS3g" = _mULgzS3g;
         "JpDG6i20" = _JpDG6i20;
         "2AXIJhdb" = _2AXIJhdb;
+        "zfVnstAD" = _zfVnstAD;
         "forge-1.20.1" = _maaN7Pr3;
         "forge-1.20" = _elsNuX86;
         "neoforge-1.20.4" = _oakUlyuY;
         "neoforge-1.20.1" = _maaN7Pr3;
         "neoforge-1.21" = _lDD82Fqx;
-        "neoforge-1.21.1" = _mULgzS3g;
+        "neoforge-1.21.1" = _zfVnstAD;
         "neoforge-1.20" = _elsNuX86;
         "neoforge-1.21.4" = _fVJdJr0N;
         "neoforge-26.1.2" = _2AXIJhdb;
@@ -610,9 +616,9 @@ let
         "pkg-6.7" = _5kX6k0ct;
         "pkg-6.7.1" = _IglzyqSB;
         "pkg-6.7.2" = _mULgzS3g;
-        "pkg-6.8" = _JpDG6i20;
+        "pkg-6.8" = _zfVnstAD;
         "pkg-6.8.1" = _2AXIJhdb;
-        "default" = _2AXIJhdb;
+        "default" = _zfVnstAD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-sniffer-flowers";

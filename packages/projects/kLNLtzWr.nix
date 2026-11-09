@@ -66,6 +66,11 @@ let
             "file" = "kamenridercraft-1.1.5.jar";
             "hash" = "sha512-6ygO+7Ei7uq9EZLvYf5xy9Ig9yRjy754XdMUIzT675ZC8ZpvJ4YAb/YhdZZCWx7jP19qyWhVbJD8V9tcV/UI1A==";
         };
+        _z2M8XmUM = {
+            "id" = "z2M8XmUM";
+            "file" = "kamenridercraft-1.1.6.jar";
+            "hash" = "sha512-pj/u8fJsrMY9FMGSUDCbhf9SHWg15tlM9kIDm+vgcBGIuB+kAZR5HolFWVHPPvrExD2t3jmag8N2iMhFjLtr9w==";
+        };
     in {
         "NPVoRUWa" = _NPVoRUWa;
         "Zhdy6Ubn" = _Zhdy6Ubn;
@@ -80,7 +85,8 @@ let
         "I61dxvsY" = _I61dxvsY;
         "4ZX8Z7XD" = _4ZX8Z7XD;
         "clIPWrl5" = _clIPWrl5;
-        "neoforge-1.21.1" = _clIPWrl5;
+        "z2M8XmUM" = _z2M8XmUM;
+        "neoforge-1.21.1" = _z2M8XmUM;
         "pkg-1.0.5" = _NPVoRUWa;
         "pkg-1.0.6" = _Zhdy6Ubn;
         "pkg-1.0.7" = _GOWlYJZb;
@@ -94,7 +100,8 @@ let
         "pkg-1.1.3" = _I61dxvsY;
         "pkg-1.1.4" = _4ZX8Z7XD;
         "pkg-1.1.5" = _clIPWrl5;
-        "default" = _clIPWrl5;
+        "pkg-1.1.6" = _z2M8XmUM;
+        "default" = _z2M8XmUM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kamen-rider-craft";

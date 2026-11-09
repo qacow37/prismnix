@@ -121,6 +121,11 @@ let
             "file" = "mtepatches-1.8.2.jar";
             "hash" = "sha512-XoTNefQPE+9tC0W7cKgZLQ47jCZBRZHl+hfHu7oJciKuCI6PAegC29rC++4hyM2XuFtbTEQWRXRNAfRTpx9Fhg==";
         };
+        _3v84e0qO = {
+            "id" = "3v84e0qO";
+            "file" = "mtepatches-1.8.3.jar";
+            "hash" = "sha512-BOm/fBp6qzF725LSwWLmEpXNnxV+xJ5ZFottyeMjkL0CZ6gw8MRG8G8LL61uKTJq1gdog2Z7iIKzKxvcWsRYig==";
+        };
     in {
         "LIFgyQfY" = _LIFgyQfY;
         "8bBYfVq3" = _8bBYfVq3;
@@ -146,7 +151,8 @@ let
         "S3R0Y5Zk" = _S3R0Y5Zk;
         "R6vPVQ7V" = _R6vPVQ7V;
         "NK51eBYU" = _NK51eBYU;
-        "forge-1.12.2" = _NK51eBYU;
+        "3v84e0qO" = _3v84e0qO;
+        "forge-1.12.2" = _3v84e0qO;
         "pkg-1.4.12" = _LIFgyQfY;
         "pkg-1.5.0" = _8bBYfVq3;
         "pkg-1.5.1" = _OPjR48y2;
@@ -171,7 +177,8 @@ let
         "pkg-1.8.0" = _S3R0Y5Zk;
         "pkg-1.8.1" = _R6vPVQ7V;
         "pkg-1.8.2" = _NK51eBYU;
-        "default" = _NK51eBYU;
+        "pkg-1.8.3" = _3v84e0qO;
+        "default" = _3v84e0qO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mte-patches";
