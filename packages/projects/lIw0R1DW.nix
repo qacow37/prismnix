@@ -156,6 +156,16 @@ let
             "file" = "WhitePumpkins-neoforge-1.21.11-1.4.0.jar";
             "hash" = "sha512-Wjqhei/TuEABpNRvvFEBnJwpIBxdzTOU06+ULcsDNxiSiTmrslTorWuR78XMbmKnWp4FMWYnCu/0nCL0Suik8g==";
         };
+        _9mWmuKCR = {
+            "id" = "9mWmuKCR";
+            "file" = "WhitePumpkins-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-PMxtvKl3UOeMIpSf9TDaboQ0hpbSKxCchNTY9Ej/AV5jBFv1Jl+E30IPMPvuV8+0OQyoKEmTsD+kVzVA1rNqNA==";
+        };
+        _L7Y46xex = {
+            "id" = "L7Y46xex";
+            "file" = "WhitePumpkins-neoforge-26.1.2-1.4.0.jar";
+            "hash" = "sha512-/5IhQ1ImF7N+xODT3Qvwkyk1MfCRbcZkftE6XVPE9OSbYivCiU7udJ40gKxvYIBBpFKJhTsUncsOL86TGdcXog==";
+        };
     in {
         "BBHMZUNx" = _BBHMZUNx;
         "pUSCxSLl" = _pUSCxSLl;
@@ -188,6 +198,8 @@ let
         "3tI5kMVy" = _3tI5kMVy;
         "jhTLhmZE" = _jhTLhmZE;
         "Ls3VhMoS" = _Ls3VhMoS;
+        "9mWmuKCR" = _9mWmuKCR;
+        "L7Y46xex" = _L7Y46xex;
         "neoforge-1.21.1" = _toPBQWWp;
         "neoforge-1.21.3" = _v4qxcDRC;
         "neoforge-1.21.4" = _dhYbiQY5;
@@ -196,6 +208,7 @@ let
         "neoforge-1.21.7" = _odOO8UbV;
         "neoforge-1.21.8" = _odOO8UbV;
         "neoforge-1.21.11" = _Ls3VhMoS;
+        "neoforge-26.1.2" = _L7Y46xex;
         "fabric-1.21.1" = _aAabTuRk;
         "fabric-1.21.3" = _cyFRUzk9;
         "fabric-1.21.4" = _aVe75Oj6;
@@ -204,6 +217,7 @@ let
         "fabric-1.21.7" = _9DeydLOq;
         "fabric-1.21.8" = _9DeydLOq;
         "fabric-1.21.11" = _jhTLhmZE;
+        "fabric-26.1.2" = _9mWmuKCR;
         "pkg-1.0.0" = _pUSCxSLl;
         "pkg-1.0.1" = _cy931gCU;
         "pkg-1.1.0" = _3IY8zZ7N;
@@ -212,8 +226,8 @@ let
         "pkg-1.2.2" = _AMTIJ4H0;
         "pkg-1.2.3" = _VJfduBEZ;
         "pkg-1.3.0" = _3tI5kMVy;
-        "pkg-1.4.0" = _Ls3VhMoS;
-        "default" = _Ls3VhMoS;
+        "pkg-1.4.0" = _L7Y46xex;
+        "default" = _L7Y46xex;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "white-pumpkins";

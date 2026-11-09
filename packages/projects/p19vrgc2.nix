@@ -9211,6 +9211,16 @@ let
             "file" = "fusion-1.3.16a-fabric-mc1.19.2.jar";
             "hash" = "sha512-9fxHzpnDf2/rMtHRINPu9KxoTuT1Omjn16ZPp4agmGSVUOA+J1NymE751o2/fDFwHDhArLrZOsxX9Xi9Roqjmg==";
         };
+        _sEYDlGfG = {
+            "id" = "sEYDlGfG";
+            "file" = "fusion-1.3.16a-fabric-mc26.3.jar";
+            "hash" = "sha512-ITNFPtZTGyEBENhgpECQX3q/LkXl7R0QcsBv3AVGbYAp3d/riN3Qvygm/ViZTRAcSXf2BwXTyU4qXPYmMNlUaQ==";
+        };
+        _nyY8l8va = {
+            "id" = "nyY8l8va";
+            "file" = "fusion-1.3.16a-neoforge-mc26.3.jar";
+            "hash" = "sha512-bs3u5Bw44adxMTwz8HWZ3sJLkifTjdgOQBR7Igenrs8vt9NROyr2akqnKVSuOsxq7xUROoyy1M0ZJxwsnqB7+g==";
+        };
     in {
         "TybX8KN2" = _TybX8KN2;
         "N7HkwXST" = _N7HkwXST;
@@ -11054,6 +11064,8 @@ let
         "ok525CEY" = _ok525CEY;
         "8OnP1Rg6" = _8OnP1Rg6;
         "tDIdj23F" = _tDIdj23F;
+        "sEYDlGfG" = _sEYDlGfG;
+        "nyY8l8va" = _nyY8l8va;
         "forge-1.12" = _CphnYxP4;
         "forge-1.12.1" = _CphnYxP4;
         "forge-1.12.2" = _CphnYxP4;
@@ -11132,7 +11144,7 @@ let
         "fabric-26.1.1" = _oAEjsOze;
         "fabric-26.1.2" = _oAEjsOze;
         "fabric-26.2" = _bc67hCHk;
-        "fabric-26.3" = _wRjdAbXf;
+        "fabric-26.3" = _sEYDlGfG;
         "neoforge-1.12" = _XfxNygT7;
         "neoforge-1.12.1" = _XfxNygT7;
         "neoforge-1.12.2" = _XfxNygT7;
@@ -11183,7 +11195,7 @@ let
         "neoforge-26.1.1" = _8g0jpGRQ;
         "neoforge-26.1.2" = _8g0jpGRQ;
         "neoforge-26.2" = _arZXY7Pj;
-        "neoforge-26.3" = _zPVqWQrW;
+        "neoforge-26.3" = _nyY8l8va;
         "quilt-1.18" = _8OnP1Rg6;
         "quilt-1.18.1" = _8OnP1Rg6;
         "quilt-1.18.2" = _8OnP1Rg6;
@@ -11212,7 +11224,7 @@ let
         "quilt-26.1.1" = _oAEjsOze;
         "quilt-26.1.2" = _oAEjsOze;
         "quilt-26.2" = _bc67hCHk;
-        "quilt-26.3" = _wRjdAbXf;
+        "quilt-26.3" = _sEYDlGfG;
         "pkg-1.0.0-forge-mc1.12" = _TybX8KN2;
         "pkg-1.0.0-forge-mc1.14" = _N7HkwXST;
         "pkg-1.0.0-forge-mc1.15" = _gDfkFpgV;
@@ -13052,7 +13064,9 @@ let
         "pkg-1.3.16a-forge-mc1.19.2" = _ok525CEY;
         "pkg-1.3.16a-fabric-mc1.18" = _8OnP1Rg6;
         "pkg-1.3.16a-fabric-mc1.19.2" = _tDIdj23F;
-        "default" = _tDIdj23F;
+        "pkg-1.3.16a-fabric-mc26.3" = _sEYDlGfG;
+        "pkg-1.3.16a-neoforge-mc26.3" = _nyY8l8va;
+        "default" = _nyY8l8va;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fusion-connected-textures";

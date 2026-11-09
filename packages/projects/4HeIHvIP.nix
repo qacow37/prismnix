@@ -271,6 +271,11 @@ let
             "file" = "jumpoverfences-fabric-26.2-1.8.1.jar";
             "hash" = "sha512-qZ4SZcOR+GrG+MWodXFKJx+w0k98bCn1wIufKgE1SLcMl0Hfn1zoJsp4mMKVwPpF0eZULx5UOMtFrdku8UygoQ==";
         };
+        _ZEaPvXJ1 = {
+            "id" = "ZEaPvXJ1";
+            "file" = "jumpoverfences-neoforge-26.3-1.14.0.jar";
+            "hash" = "sha512-Fw8diIITgLMN+DX62OaZz1yevJRudPzoM+pyi94U3gW3j3/NDHU2ne2cr/hJC14B7goSFqjJBsF84Otez7HUlA==";
+        };
     in {
         "5mCs99zL" = _5mCs99zL;
         "9DCzgem4" = _9DCzgem4;
@@ -326,6 +331,7 @@ let
         "keXciyoh" = _keXciyoh;
         "qf7jN4Wd" = _qf7jN4Wd;
         "QYWArODF" = _QYWArODF;
+        "ZEaPvXJ1" = _ZEaPvXJ1;
         "forge-1.15.2" = _5mCs99zL;
         "forge-1.16.4" = _9DCzgem4;
         "forge-1.16.5" = _9DCzgem4;
@@ -374,6 +380,7 @@ let
         "neoforge-1.21.11" = _cwA5MeEU;
         "neoforge-26.1.2" = _keXciyoh;
         "neoforge-26.2" = _qf7jN4Wd;
+        "neoforge-26.3" = _ZEaPvXJ1;
         "pkg-1.0.1" = _PcIHjq6U;
         "pkg-1.19-1.0.1" = _2YBlm0VO;
         "pkg-1.1.0" = _iPzYOyFI;
@@ -403,7 +410,8 @@ let
         "pkg-1.0.0" = _57zha6nS;
         "pkg-26.1.2-1.7.0" = _lH6A2SEV;
         "pkg-26.2-1.8.0" = _gCEK9eW2;
-        "default" = _QYWArODF;
+        "pkg-1.14.0" = _ZEaPvXJ1;
+        "default" = _ZEaPvXJ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jump-over-fences";

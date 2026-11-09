@@ -111,6 +111,11 @@ let
             "file" = "guaranteed_profit-3.0.2-26.3.jar";
             "hash" = "sha512-b3NRU2A21uVKdoH0CQs791OOWRUPEkH7YedVWzDur0az1p+EdHwWDFRfCJWwxkh94zYSXLiOU/RWy3byXQU+fA==";
         };
+        _zCX6Ggwe = {
+            "id" = "zCX6Ggwe";
+            "file" = "guaranteed_profit-3.1.1-26.3.jar";
+            "hash" = "sha512-RfNIf8HXpq8E6gNuo/5yqIxHhGHedCNKbDhChC1FeLA/kgrzAao6PqFms0SWo90rdReFg0E7ZC3es9qacxJFpw==";
+        };
     in {
         "V7DCPeao" = _V7DCPeao;
         "20cX2NLX" = _20cX2NLX;
@@ -134,6 +139,7 @@ let
         "1eslkzc9" = _1eslkzc9;
         "oMXmvZjv" = _oMXmvZjv;
         "QyJIKg8J" = _QyJIKg8J;
+        "zCX6Ggwe" = _zCX6Ggwe;
         "fabric-1.21.4" = _2cONpdBQ;
         "fabric-1.21.5" = _daJwcooH;
         "fabric-1.21.6" = _gCX8yEAN;
@@ -142,7 +148,7 @@ let
         "fabric-1.21.11" = _ZoNSaOhT;
         "fabric-26.1.2" = _55E4J4Re;
         "fabric-26.2" = _c3fjBO1o;
-        "fabric-26.3" = _QyJIKg8J;
+        "fabric-26.3" = _zCX6Ggwe;
         "pkg-1.0.0" = _V7DCPeao;
         "pkg-2.0.0" = _20cX2NLX;
         "pkg-2.1.0" = _2cONpdBQ;
@@ -165,7 +171,8 @@ let
         "pkg-2.2.8-26.3" = _1eslkzc9;
         "pkg-3.0.1-26.3" = _oMXmvZjv;
         "pkg-3.0.2-26.3" = _QyJIKg8J;
-        "default" = _QyJIKg8J;
+        "pkg-3.1.1-26.3" = _zCX6Ggwe;
+        "default" = _zCX6Ggwe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guaranteed-profit";

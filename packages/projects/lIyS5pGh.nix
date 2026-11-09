@@ -366,6 +366,26 @@ let
             "file" = "blocksyouneed_luna-1.12.5-neoforge-26.3.jar";
             "hash" = "sha512-VmtKkzuwqwZFng7CvxAikAarQkIR6HufcYWapJtf4kgDnjWOlt1cwIlzEVLUZFS3qi7XnQepg74HXYrjxB3wCw==";
         };
+        _IxodODHU = {
+            "id" = "IxodODHU";
+            "file" = "blocksyouneed_luna-1.12.6-forge-1.20.1.jar";
+            "hash" = "sha512-yYM50G4+nbIYzldJogbbYp1rDYD2S+6GIH5ysnkPZPM0NggCbhwIkonHU3pG2l3Z/rss2Fg3ZfwzdIbDTRGDbA==";
+        };
+        _RekBOnDy = {
+            "id" = "RekBOnDy";
+            "file" = "blocksyouneed_luna-1.12.6-neoforge-1.21.1.jar";
+            "hash" = "sha512-BkdrGvuXP7E2BUXP+4rQOPHlIP1ni6vTwj20iY10ol33uSoekuvBjTo9v1kSCwi4uLcSujFVjnasni2RfHheHw==";
+        };
+        _oTqOqJAs = {
+            "id" = "oTqOqJAs";
+            "file" = "blocksyouneed_luna-1.12.6-neoforge-26.1.2.jar";
+            "hash" = "sha512-c5Zy95BDroq6UN6jqdZA2JoNN9AqnD+0ZgoUOaWtTmfwAq1dWT9pkWdi0EiK/mnY6tFrBrwzXtox5OCgWUL00w==";
+        };
+        _evgmMnBQ = {
+            "id" = "evgmMnBQ";
+            "file" = "blocksyouneed_luna-1.12.6-neoforge-26.3.jar";
+            "hash" = "sha512-fzKbzrNH85pigE61Gw3YL+ksVnIo42TK8Cwn2TnwZ2QhdbXPJ4RJyMEkDnxfgSK82/Rkg5/axNSCCKIIG4dhZg==";
+        };
     in {
         "E1Ersf5n" = _E1Ersf5n;
         "obOuqVht" = _obOuqVht;
@@ -440,15 +460,19 @@ let
         "qnUlNETW" = _qnUlNETW;
         "cr3eYnLL" = _cr3eYnLL;
         "MRnM6fFP" = _MRnM6fFP;
-        "forge-1.20.1" = _X04rV4qY;
+        "IxodODHU" = _IxodODHU;
+        "RekBOnDy" = _RekBOnDy;
+        "oTqOqJAs" = _oTqOqJAs;
+        "evgmMnBQ" = _evgmMnBQ;
+        "forge-1.20.1" = _IxodODHU;
         "forge-1.19.4" = _6uQk89RY;
         "forge-1.19.2" = _p10YLs1Z;
         "forge-1.18.2" = _eLFWPh3H;
         "neoforge-1.20.6" = _z8CqAiRe;
-        "neoforge-1.21.1" = _qnUlNETW;
+        "neoforge-1.21.1" = _RekBOnDy;
         "neoforge-1.21.4" = _V3pbdltb;
-        "neoforge-26.1.2" = _cr3eYnLL;
-        "neoforge-26.3" = _MRnM6fFP;
+        "neoforge-26.1.2" = _oTqOqJAs;
+        "neoforge-26.3" = _evgmMnBQ;
         "pkg-1.4" = _E1Ersf5n;
         "pkg-1.4.2" = _obOuqVht;
         "pkg-1.4.3" = _jkb2BKU7;
@@ -494,7 +518,8 @@ let
         "pkg-v1.12.3" = _JRUg3m1C;
         "pkg-v1.12.4" = _9SpoVOrG;
         "pkg-v1.12.5" = _MRnM6fFP;
-        "default" = _MRnM6fFP;
+        "pkg-v1.12.6" = _evgmMnBQ;
+        "default" = _evgmMnBQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocks-you-need";

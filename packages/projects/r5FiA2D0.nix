@@ -116,6 +116,11 @@ let
             "file" = "sablemaidragdoll-2.2.5-beta.jar";
             "hash" = "sha512-aOQR2w5ZeAIFaQT053PlQ+MOsYr+7teVoAY2+9PvyorTFjdBWgAlxfUwfvJnDf7vtPX7LzHckH3PQUpNKdq8MA==";
         };
+        _LRMi7rbx = {
+            "id" = "LRMi7rbx";
+            "file" = "sablemaidragdoll-2.3.0-beta.jar";
+            "hash" = "sha512-PCOVV0e05JUh+U9vsK432UFhzEPB4cRQKYPPwWzWGL6Xb+7rzBrQatNRQXiN6WjJMOxm6vuLtBQx7TWDqBT+kQ==";
+        };
     in {
         "FFDL9Nvh" = _FFDL9Nvh;
         "IR6DMwXq" = _IR6DMwXq;
@@ -140,7 +145,8 @@ let
         "72MjxhZ2" = _72MjxhZ2;
         "X54DFoTZ" = _X54DFoTZ;
         "dXAcngyy" = _dXAcngyy;
-        "neoforge-1.21.1" = _dXAcngyy;
+        "LRMi7rbx" = _LRMi7rbx;
+        "neoforge-1.21.1" = _LRMi7rbx;
         "pkg-0.1-alpha" = _FFDL9Nvh;
         "pkg-0.2-alpha" = _IR6DMwXq;
         "pkg-0.3-alpha" = _sLV6fkiC;
@@ -164,7 +170,8 @@ let
         "pkg-2.2.3-beta" = _72MjxhZ2;
         "pkg-2.2.4-beta-hotfix" = _X54DFoTZ;
         "pkg-2.2.5-beta" = _dXAcngyy;
-        "default" = _dXAcngyy;
+        "pkg-2.3.0-beta" = _LRMi7rbx;
+        "default" = _LRMi7rbx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable-maidragdoll";

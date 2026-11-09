@@ -121,6 +121,26 @@ let
             "file" = "chefs-delight-1.0.5-fa-1.20.1.jar";
             "hash" = "sha512-Ho/L+5JaK4maSj7Ve0FzGj3NfVJm7XqRNiEBi2Jkq6J1JJyKoq5D0d7msAOqUgLCo5apwwlbYNJJieUroG6tlA==";
         };
+        _xOOKkvQN = {
+            "id" = "xOOKkvQN";
+            "file" = "chefs-delight-1.0.6-fa-1.20.1.jar";
+            "hash" = "sha512-Ia2P++4N/AXYDCvNVFbol+pHSVBrBjK41ax38E+rSKoZFgilP8oFsIEEW/qt80+e6CQx7nuLZJC7W+9I6nJ5+A==";
+        };
+        _IhPeN4Ze = {
+            "id" = "IhPeN4Ze";
+            "file" = "chefs-delight-1.0.6-fa-1.21.1.jar";
+            "hash" = "sha512-NvbB26w/96yHfdG+quwuLOvvuWjmcKvlxrKb6vvw4DJIqPTbBiqCqRiRRhuQqaqDGBVneZyO5m1IjvszaNI9Mg==";
+        };
+        _3l2ZLBX4 = {
+            "id" = "3l2ZLBX4";
+            "file" = "chefsdelight-1.0.61-fa-26.2.jar";
+            "hash" = "sha512-kysQ9heBjx29RUvZzy0vsiVnJ1DEWTHUKku+jci98sB674kWs50MUL4L+0DBDATcedpouYNm2GWpp10chyijyg==";
+        };
+        _YE0dXA51 = {
+            "id" = "YE0dXA51";
+            "file" = "chefsdelight-1.0.61-fa-26.3.jar";
+            "hash" = "sha512-712VP4K3ItsDNJMsrto5Z8wcO4xs+UUSoG8JyU4OEDutJrvSGqBXVRnK5Mj7ie6wNNO/EhCaHOMI9qwHi/MciA==";
+        };
     in {
         "2V2eUK6V" = _2V2eUK6V;
         "DVvpPN0G" = _DVvpPN0G;
@@ -146,20 +166,25 @@ let
         "N8hZwT7r" = _N8hZwT7r;
         "2xW9d8wE" = _2xW9d8wE;
         "KOXtuZX6" = _KOXtuZX6;
+        "xOOKkvQN" = _xOOKkvQN;
+        "IhPeN4Ze" = _IhPeN4Ze;
+        "3l2ZLBX4" = _3l2ZLBX4;
+        "YE0dXA51" = _YE0dXA51;
         "forge-1.18.2" = _dS6ouy8c;
         "forge-1.19.2" = _fDgIzV8G;
         "forge-1.20" = _5tGfF2Ok;
         "forge-1.20.1" = _2xW9d8wE;
         "fabric-1.18.2" = _LapAm0yv;
         "fabric-1.19.2" = _9IhdnUKg;
-        "fabric-1.20.1" = _KOXtuZX6;
+        "fabric-1.20.1" = _xOOKkvQN;
         "fabric-1.21" = _ittLJDio;
-        "fabric-1.21.1" = _Sur0Lj66;
+        "fabric-1.21.1" = _IhPeN4Ze;
         "fabric-1.21.5" = _tmSlH81b;
         "fabric-1.21.8" = _GueFYIHP;
         "fabric-1.21.10" = _XggiVYeE;
         "fabric-1.21.11" = _EXu0Q4KH;
-        "fabric-26.2" = _ArJ8wpA5;
+        "fabric-26.2" = _3l2ZLBX4;
+        "fabric-26.3" = _YE0dXA51;
         "neoforge-1.21.1" = _N8hZwT7r;
         "pkg-1.0.2-forge-1.18.2" = _2V2eUK6V;
         "pkg-1.0.3-fabric-1.18.2" = _DVvpPN0G;
@@ -185,7 +210,11 @@ let
         "pkg-1.0.6-neoforge-1.21.1" = _N8hZwT7r;
         "pkg-1.0.5-forge-1.20.1" = _2xW9d8wE;
         "pkg-1.0.5-fa-1.20.1" = _KOXtuZX6;
-        "default" = _KOXtuZX6;
+        "pkg-1.0.6-fa-1.20.1" = _xOOKkvQN;
+        "pkg-1.0.6-fa-1.21.1" = _IhPeN4Ze;
+        "pkg-1.0.61-fa-26.2" = _3l2ZLBX4;
+        "pkg-1.0.61-fa-26.3" = _YE0dXA51;
+        "default" = _YE0dXA51;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chefs-delight";

@@ -201,6 +201,31 @@ let
             "file" = "nbteditor-2.0.13+26.3.jar";
             "hash" = "sha512-m6XbTkYRttJ34MKbv/iWDceXsg1p3Z7FCPatUP1qPUADPt1xOnIVqICHTJtHfdOyrQ2kHAvM8+iZK/rhy73wbw==";
         };
+        _xK7iNnnB = {
+            "id" = "xK7iNnnB";
+            "file" = "nbteditor-2.0.14+1.21.10.jar";
+            "hash" = "sha512-hBqhZMVzjRwD3kPNLloEm31/t/4kUpBWry3k0on3rFxkefuBg1ge1MJ6HVfZVfaCUhowsqVWcBaZOOcK8RwwZg==";
+        };
+        _LYNu3dqn = {
+            "id" = "LYNu3dqn";
+            "file" = "nbteditor-2.0.14+1.21.11.jar";
+            "hash" = "sha512-U4REtxztNirNeOn4eSz9nGc1JMA+7187m1D+QnrvOkelV/AW+TbaVUB89LZPLTM5qhIDOx8cO/CqS9oLwQecZA==";
+        };
+        _powBC6oY = {
+            "id" = "powBC6oY";
+            "file" = "nbteditor-2.0.14+26.1.2.jar";
+            "hash" = "sha512-jACrAQHYnh1dqY1NZ5LQ82gwpVWHzBPyONyyl3jEE5gobD4/A2RYUg2G7EzW4+46fRFjCSYW5aWqOAdUF+IaBg==";
+        };
+        _IveOFROH = {
+            "id" = "IveOFROH";
+            "file" = "nbteditor-2.0.14+26.2.jar";
+            "hash" = "sha512-CY+c4SZnPWD29zsAozGY4p6s58kIOdLddTaPVQuk6Wz1XMXbZo9Z7YefwDyScevMOrL4HLX+wnN8X+ChdnJ/sQ==";
+        };
+        _Cdv6Ee3F = {
+            "id" = "Cdv6Ee3F";
+            "file" = "nbteditor-2.0.14+26.3.jar";
+            "hash" = "sha512-2/Z4HG5MAQHVY51gIFcJcHZNIWGOykZfx0aJIAL9WBBr2vN7pX/Wx8GiN9kCdZPATTT8kg5bW0VbYRcr7jEUXA==";
+        };
     in {
         "KM5XDZkO" = _KM5XDZkO;
         "5l8kpnsY" = _5l8kpnsY;
@@ -242,13 +267,18 @@ let
         "lQhbfaOH" = _lQhbfaOH;
         "92kiMwxC" = _92kiMwxC;
         "CvFDCCPw" = _CvFDCCPw;
-        "fabric-1.21.11" = _lkINR55k;
-        "fabric-26.1" = _lQhbfaOH;
-        "fabric-26.1.1" = _lQhbfaOH;
-        "fabric-26.1.2" = _lQhbfaOH;
-        "fabric-1.21.10" = _tn0l6wnB;
-        "fabric-26.2" = _92kiMwxC;
-        "fabric-26.3" = _CvFDCCPw;
+        "xK7iNnnB" = _xK7iNnnB;
+        "LYNu3dqn" = _LYNu3dqn;
+        "powBC6oY" = _powBC6oY;
+        "IveOFROH" = _IveOFROH;
+        "Cdv6Ee3F" = _Cdv6Ee3F;
+        "fabric-1.21.11" = _LYNu3dqn;
+        "fabric-26.1" = _powBC6oY;
+        "fabric-26.1.1" = _powBC6oY;
+        "fabric-26.1.2" = _powBC6oY;
+        "fabric-1.21.10" = _xK7iNnnB;
+        "fabric-26.2" = _IveOFROH;
+        "fabric-26.3" = _Cdv6Ee3F;
         "pkg-2.0.3" = _KM5XDZkO;
         "pkg-2.0.4+1.21.11" = _5l8kpnsY;
         "pkg-2.0.5+1.21.11" = _bMjYSabg;
@@ -289,7 +319,12 @@ let
         "pkg-2.0.13+26.1.2" = _lQhbfaOH;
         "pkg-2.0.13+26.2" = _92kiMwxC;
         "pkg-2.0.13+26.3" = _CvFDCCPw;
-        "default" = _CvFDCCPw;
+        "pkg-2.0.14+1.21.10" = _xK7iNnnB;
+        "pkg-2.0.14+1.21.11" = _LYNu3dqn;
+        "pkg-2.0.14+26.1.2" = _powBC6oY;
+        "pkg-2.0.14+26.2" = _IveOFROH;
+        "pkg-2.0.14+26.3" = _Cdv6Ee3F;
+        "default" = _Cdv6Ee3F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nbteditor-port";

@@ -566,6 +566,11 @@ let
             "file" = "guitween-3.4.5-1.21.1+neoforge.jar";
             "hash" = "sha512-3Ro3OWLctVrIFIlR2eFW4l8O90UdxLnDzLfq5gdrEjGc+FYV3k2ma2KOiRhz0+lLDRJXJ45cOZR0YX5gxAjLvg==";
         };
+        _wBsguvAN = {
+            "id" = "wBsguvAN";
+            "file" = "guitween-3.4.4-1.20.1+forge.jar";
+            "hash" = "sha512-h1qZE7J6IoTKppmN63j/W92NHtAdBMH5jNRN/lqD0NAoYvFWogPYPKW9mBpgthozJ2fF8eCNtEPBkOOxR5tZYA==";
+        };
     in {
         "C5bUcteR" = _C5bUcteR;
         "hvZMlAED" = _hvZMlAED;
@@ -680,7 +685,8 @@ let
         "UqmjkVpm" = _UqmjkVpm;
         "x0DycHbX" = _x0DycHbX;
         "odzGb2aK" = _odzGb2aK;
-        "forge-1.20.1" = _4YeDBp9w;
+        "wBsguvAN" = _wBsguvAN;
+        "forge-1.20.1" = _wBsguvAN;
         "neoforge-1.21.1" = _odzGb2aK;
         "neoforge-1.21.11" = _TA5IHevN;
         "neoforge-26.1" = _myc0Sd97;
@@ -730,9 +736,9 @@ let
         "pkg-3.4.2" = _tZ4VAS1M;
         "pkg-3.4.1-beta" = _mpmEeOOD;
         "pkg-3.4.3" = _x0DycHbX;
-        "pkg-3.4.4" = _UqmjkVpm;
+        "pkg-3.4.4" = _wBsguvAN;
         "pkg-3.4.5" = _odzGb2aK;
-        "default" = _odzGb2aK;
+        "default" = _wBsguvAN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-tween";

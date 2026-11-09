@@ -136,6 +136,11 @@ let
             "file" = "drivebysable-r2.0.4.jar";
             "hash" = "sha512-6Wc93BNTOY+v6QvnuxBE5siSju8nuno+qaZJyiJVWNondwzKtkkMyUR3gvwChy0HDBCUjRw3uS9ZWQIRtKwlZw==";
         };
+        _AExueGLn = {
+            "id" = "AExueGLn";
+            "file" = "drivebysable-r2.1.0.jar";
+            "hash" = "sha512-0QrXEr2/3WeITETsOVrp78Jw9ndCOdgt0zw6BDrFyv8Hn4KlTtP4/o+Nf6SWRQ0P2z+bPIUdioiNz9JrfdWw3g==";
+        };
     in {
         "xPVb7Czo" = _xPVb7Czo;
         "9cldlEdA" = _9cldlEdA;
@@ -164,8 +169,9 @@ let
         "9U5xWb1T" = _9U5xWb1T;
         "WRUXBxY0" = _WRUXBxY0;
         "JOu5h38h" = _JOu5h38h;
+        "AExueGLn" = _AExueGLn;
         "neoforge-1.21" = _Czgtazvp;
-        "neoforge-1.21.1" = _JOu5h38h;
+        "neoforge-1.21.1" = _AExueGLn;
         "pkg-0.0.1" = _xPVb7Czo;
         "pkg-0.0.2" = _9cldlEdA;
         "pkg-0.0.3" = _Czgtazvp;
@@ -193,7 +199,8 @@ let
         "pkg-r2.0.2" = _9U5xWb1T;
         "pkg-r2.0.3" = _WRUXBxY0;
         "pkg-r2.0.4" = _JOu5h38h;
-        "default" = _JOu5h38h;
+        "pkg-r2.1.0" = _AExueGLn;
+        "default" = _AExueGLn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drive-by-sable";

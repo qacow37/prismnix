@@ -1266,6 +1266,21 @@ let
             "file" = "customgun-26.11.35-neoforge-26.3.jar";
             "hash" = "sha512-N4f9CgyEtcrEZZ5ELzJmsFAEpb2Pb056dv70NwUQLqHL8tBMNbK6TvszerUIPONZ8Q+n1qb17cQC+NyKw4QqEA==";
         };
+        _jrJX4JBl = {
+            "id" = "jrJX4JBl";
+            "file" = "customgun-26.11.35.1-forge-1.20.1.jar";
+            "hash" = "sha512-41lXPToryUZZmWT3gVCqoKym5WB9PNVRN4HlYk7qMTJuuu3p1UZxwWI+D8ug59f5G1Z3g9z7fMqjSgXR9KdMhA==";
+        };
+        _kSGrNRw2 = {
+            "id" = "kSGrNRw2";
+            "file" = "customgun-26.11.35.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-BsZ7GxAwg7x25ptad7gtTWlA26KSxf0uTbNTMYxSmRmlAHtV8+KakDLkxrxno9eesnR+NUlHTHbtWof1YWkP1Q==";
+        };
+        _HpL9gUCj = {
+            "id" = "HpL9gUCj";
+            "file" = "customgun-26.11.35.1-neoforge-26.3.jar";
+            "hash" = "sha512-7rQYV7ua3WDOyvbLSe+42QWLlDwyuYRGntuqaEnTrkw9up26cbXxS6/laRBhUFQ8UW1r7k/nYL8qn5PL/SOWHw==";
+        };
     in {
         "ldsXtOG2" = _ldsXtOG2;
         "624d8wIx" = _624d8wIx;
@@ -1520,13 +1535,16 @@ let
         "aRCZ4h2X" = _aRCZ4h2X;
         "KUfPFIUW" = _KUfPFIUW;
         "WoFcg0WA" = _WoFcg0WA;
-        "forge-1.20.1" = _gFpLPjth;
+        "jrJX4JBl" = _jrJX4JBl;
+        "kSGrNRw2" = _kSGrNRw2;
+        "HpL9gUCj" = _HpL9gUCj;
+        "forge-1.20.1" = _jrJX4JBl;
         "forge-1.20.2" = _75WcYwQF;
         "forge-1.20.4" = _l547hkdm;
         "forge-1.21.1" = _WOE1NRQp;
         "neoforge-1.20.2" = _m8zR68Ro;
         "neoforge-1.20.4" = _5fbVGPiP;
-        "neoforge-1.21.1" = _XWFuT6jH;
+        "neoforge-1.21.1" = _kSGrNRw2;
         "neoforge-1.21.4" = _F5hxxKpE;
         "neoforge-1.21.6" = _3ewXeio8;
         "neoforge-1.21.10" = _bWwarkT3;
@@ -1535,7 +1553,7 @@ let
         "neoforge-26.1.1" = _YzmNe41z;
         "neoforge-26.1.2" = _aRCZ4h2X;
         "neoforge-26.2" = _KUfPFIUW;
-        "neoforge-26.3" = _WoFcg0WA;
+        "neoforge-26.3" = _HpL9gUCj;
         "pkg-0.0.5" = _FhFLef3n;
         "pkg-0.0.6" = _VtrrNUCe;
         "pkg-0.0.7" = _yXuaUFCV;
@@ -1572,7 +1590,8 @@ let
         "pkg-26.10.34" = _EdoUtq9X;
         "pkg-26.10.34.1" = _zrYjvyFL;
         "pkg-26.11.35" = _WoFcg0WA;
-        "default" = _WoFcg0WA;
+        "pkg-26.11.35.1" = _HpL9gUCj;
+        "default" = _HpL9gUCj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-gun-continued";

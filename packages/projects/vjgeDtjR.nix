@@ -151,6 +151,16 @@ let
             "file" = "timescalelib-1.2.10-all.jar";
             "hash" = "sha512-mtTknWh1o4YaZA463ETVaUiMjTfOR+JU/ci/L0TkY9FBed/M4Q7rtIjRKcfSfutkMiIlbYBtt50/ibfMBVF9Kg==";
         };
+        _Njs2BWy1 = {
+            "id" = "Njs2BWy1";
+            "file" = "timescalelib-1.3.0.jar";
+            "hash" = "sha512-s3mO1nVnqTRHuOBK2XLmasPe/e5xfeJMwi5trPp+lrsg+Y4nW3KXe5WMI33BWWwkvcmw2UaLrD3Jx7sq2IhfWw==";
+        };
+        _OXilqj7Q = {
+            "id" = "OXilqj7Q";
+            "file" = "timescalelib-1.3.0-all.jar";
+            "hash" = "sha512-x0JjmiQniykoayO9pcEkKOkBktWrP3B7dQAvqOiNJV6KsP46//5JCsfqXXhkC/CGZNvYBQkLO93WnL3Moq44lw==";
+        };
     in {
         "gAo60fOD" = _gAo60fOD;
         "KaCjAMkx" = _KaCjAMkx;
@@ -182,10 +192,12 @@ let
         "YD1NfpZ0" = _YD1NfpZ0;
         "UneoYKaK" = _UneoYKaK;
         "HjWdXdWr" = _HjWdXdWr;
-        "neoforge-1.21.1" = _YD1NfpZ0;
+        "Njs2BWy1" = _Njs2BWy1;
+        "OXilqj7Q" = _OXilqj7Q;
+        "neoforge-1.21.1" = _Njs2BWy1;
         "neoforge-1.21.11" = _UneoYKaK;
-        "neoforge-1.20.1" = _HjWdXdWr;
-        "forge-1.20.1" = _HjWdXdWr;
+        "neoforge-1.20.1" = _OXilqj7Q;
+        "forge-1.20.1" = _OXilqj7Q;
         "pkg-1.0.0" = _KaCjAMkx;
         "pkg-1.0.1" = _M3ZI5gz3;
         "pkg-1.0.2" = _lcvgziZn;
@@ -201,7 +213,8 @@ let
         "pkg-1.2.8" = _UNAvQiln;
         "pkg-1.2.9" = _KDRjij6G;
         "pkg-1.2.10" = _HjWdXdWr;
-        "default" = _HjWdXdWr;
+        "pkg-1.3.0" = _OXilqj7Q;
+        "default" = _OXilqj7Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timescalelib";

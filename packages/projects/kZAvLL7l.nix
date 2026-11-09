@@ -51,6 +51,16 @@ let
             "file" = "curios_for_ammo_box-1.21.1-1.2.0.jar";
             "hash" = "sha512-Vs73pBHz7Fq9f09NbHwrkaZou1vLdvin5vOvrbwAzRSitLROflXReEX5obwfkfzpo2bxvDIEsn2B9d1e5q572Q==";
         };
+        _ouNtvAY0 = {
+            "id" = "ouNtvAY0";
+            "file" = "curios_for_ammo_box-1.21.1-1.2.1.jar";
+            "hash" = "sha512-NXqc0R7HpQsQVcN6CztH+vEP1TjkIyOhleDqMO7CDd+V24IdlvcM+/dly5wy3TYRwmqxi4Ufwh7BMXVsQgn1rA==";
+        };
+        _KtCeAgEW = {
+            "id" = "KtCeAgEW";
+            "file" = "curios_for_ammo_box-1.20.1-1.2.1.jar";
+            "hash" = "sha512-2O1QR9iSz4dWF2fYMpNOrvLWaz9Pjmp6We5o44FETtuS6wkDsu2YJKGChhB8UWRjtWv7j+dfBD8YrkZ8IYQTpA==";
+        };
     in {
         "2GEqNITt" = _2GEqNITt;
         "r4Mi9W1o" = _r4Mi9W1o;
@@ -62,8 +72,10 @@ let
         "b1PLIXB4" = _b1PLIXB4;
         "8rZTDRzl" = _8rZTDRzl;
         "lJXyeGdQ" = _lJXyeGdQ;
-        "forge-1.20.1" = _8rZTDRzl;
-        "neoforge-1.21.1" = _lJXyeGdQ;
+        "ouNtvAY0" = _ouNtvAY0;
+        "KtCeAgEW" = _KtCeAgEW;
+        "forge-1.20.1" = _KtCeAgEW;
+        "neoforge-1.21.1" = _ouNtvAY0;
         "pkg-0.1.0" = _2GEqNITt;
         "pkg-0.2.0" = _r4Mi9W1o;
         "pkg-0.3.0" = _y50soOCO;
@@ -72,7 +84,8 @@ let
         "pkg-1.0.1" = _E0QA0R0I;
         "pkg-1.1.0" = _b1PLIXB4;
         "pkg-1.2.0" = _lJXyeGdQ;
-        "default" = _lJXyeGdQ;
+        "pkg-1.2.1" = _KtCeAgEW;
+        "default" = _KtCeAgEW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "curios-for-ammo-box";

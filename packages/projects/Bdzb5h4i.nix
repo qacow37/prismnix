@@ -51,6 +51,11 @@ let
             "file" = "opbreak-2.4.jar";
             "hash" = "sha512-2rS5WmYS3IGW+h/3gOTc3h8x3saQKpInfKc2gzgmbCRyXPsrYbSxM9ocoH2fUedWmfeAJxf9GG13KMKEjkdyPQ==";
         };
+        _EOXlbeUg = {
+            "id" = "EOXlbeUg";
+            "file" = "opbreak-3.0.jar";
+            "hash" = "sha512-QZ/xwyycHU5qxl7xo+vwX6J3balTdVXQplB0CI8SfhCIgEfxNEhWMbYEEL1gSyt21hkPOwcbehdYc1YAhh8sIw==";
+        };
     in {
         "jghJpfTg" = _jghJpfTg;
         "sTnKXCxM" = _sTnKXCxM;
@@ -62,8 +67,9 @@ let
         "2oqDRvYG" = _2oqDRvYG;
         "Ecu3X4hP" = _Ecu3X4hP;
         "EphDjPQM" = _EphDjPQM;
+        "EOXlbeUg" = _EOXlbeUg;
         "fabric-1.21.4" = _1o0MwG4M;
-        "fabric-1.21.11" = _EphDjPQM;
+        "fabric-1.21.11" = _EOXlbeUg;
         "pkg-1.0" = _jghJpfTg;
         "pkg-1.0.1" = _sTnKXCxM;
         "pkg-1.1" = _jAQuVGln;
@@ -74,7 +80,8 @@ let
         "pkg-2.2" = _2oqDRvYG;
         "pkg-2.3" = _Ecu3X4hP;
         "pkg-2.4" = _EphDjPQM;
-        "default" = _EphDjPQM;
+        "pkg-3.0" = _EOXlbeUg;
+        "default" = _EOXlbeUg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opbreak";

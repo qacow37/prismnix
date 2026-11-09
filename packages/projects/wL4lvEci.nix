@@ -91,6 +91,36 @@ let
             "file" = "dynamicwaters-13.0.1.jar";
             "hash" = "sha512-/+/JGaVWsQV2b+CFFb61ePx/BK0MPL+c+8i3WejiVtlbx7+7LNPnM6bhFwZBHhocBv88xU88lbkBa5WkewQZ4Q==";
         };
+        _1Isp3vKA = {
+            "id" = "1Isp3vKA";
+            "file" = "dynamicwaters-13.1.0-fabric+1.21.1.jar";
+            "hash" = "sha512-ZhTloMalAqTsmENY/601UtBR+STrjszm4SkU2CoDzEizknpWu+riRkJsQ7yZcruAGrRFVxOzZAySf52yFm0Khw==";
+        };
+        _h3nc5sRa = {
+            "id" = "h3nc5sRa";
+            "file" = "dynamicwaters-13.1.0-forge+1.20.1.jar";
+            "hash" = "sha512-VMJrPDm1bHyfBZnRUdllsIZx31zV3uwrqkpETCyoijE0kWqr3Yt5JmBFqRdvCd/mEXOS1HV4Z5E9Mjz1tP9H+Q==";
+        };
+        _At4uOo4s = {
+            "id" = "At4uOo4s";
+            "file" = "dynamicwaters-13.1.0-neoforge+1.21.1.jar";
+            "hash" = "sha512-ih7tOBDh56N15u1Q4h55UNCNCxFZA4d8RPwWRcjyN+DNPKwK4yWqSYhnexYTF85c4OIujyaVEJoob+43TJVuUQ==";
+        };
+        _1XzGBXXE = {
+            "id" = "1XzGBXXE";
+            "file" = "dynamicwaters-13.1.1-forge+1.20.1.jar";
+            "hash" = "sha512-gEBWquvKCUsztIGpT7/0hFD41mM5Hrfd2OatuemkxZIo5XabIIXP7uVt0f1+KoMyQzZs4hGILHt9zT0zzY2edw==";
+        };
+        _98TiJ1Fg = {
+            "id" = "98TiJ1Fg";
+            "file" = "dynamicwaters-13.1.1-fabric+1.21.1.jar";
+            "hash" = "sha512-syh4sYR11hdKV2k7bYHfVp5jOGBuAAkPQfW3oD93gXeg7kAUR9uxsz3ZojKDJ6C6DxwzoTa9w90mCoqKZ91D2A==";
+        };
+        _r4iJrgbS = {
+            "id" = "r4iJrgbS";
+            "file" = "dynamicwaters-13.1.1-neoforge+1.21.1.jar";
+            "hash" = "sha512-qSMRWbZ8QZS5XSSOaxPE6qznJAhDomW2q5DDg/bIZAlBweZANCKcoO1McS48vV5gIIaWPBx5nQJpmLDwAIHznQ==";
+        };
     in {
         "nJyFMhuX" = _nJyFMhuX;
         "H2g5ig6M" = _H2g5ig6M;
@@ -110,8 +140,15 @@ let
         "vX02uOIB" = _vX02uOIB;
         "WlwnEgwg" = _WlwnEgwg;
         "MSeWWM1A" = _MSeWWM1A;
-        "forge-1.20.1" = _KF4xNYaZ;
-        "neoforge-1.21.1" = _MSeWWM1A;
+        "1Isp3vKA" = _1Isp3vKA;
+        "h3nc5sRa" = _h3nc5sRa;
+        "At4uOo4s" = _At4uOo4s;
+        "1XzGBXXE" = _1XzGBXXE;
+        "98TiJ1Fg" = _98TiJ1Fg;
+        "r4iJrgbS" = _r4iJrgbS;
+        "forge-1.20.1" = _1XzGBXXE;
+        "neoforge-1.21.1" = _r4iJrgbS;
+        "fabric-1.21.1" = _98TiJ1Fg;
         "pkg-8.0.0" = _nJyFMhuX;
         "pkg-9.0.1" = _H2g5ig6M;
         "pkg-9.1.0" = _Tc6KoKAv;
@@ -130,7 +167,9 @@ let
         "pkg-dynamicwaters-12.0.thirdtestvers" = _vX02uOIB;
         "pkg-13.0.0" = _WlwnEgwg;
         "pkg-13.0.1" = _MSeWWM1A;
-        "default" = _MSeWWM1A;
+        "pkg-13.1.0" = _At4uOo4s;
+        "pkg-13.1.1" = _r4iJrgbS;
+        "default" = _r4iJrgbS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-waters-realistic-flowing-rivers";

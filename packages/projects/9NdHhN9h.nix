@@ -236,6 +236,11 @@ let
             "file" = "village_mod-1.4.8.jar";
             "hash" = "sha512-0uy+YgVZKPK1TqgxDfSeSTJSZoD2biEdiDhDTr3L/Wg4kQHqngqy9LMcq2c5BjcBJYTULUB7cFjN+us3LBoQUA==";
         };
+        _NyD5zwDA = {
+            "id" = "NyD5zwDA";
+            "file" = "village_mod-1.4.8-fix.jar";
+            "hash" = "sha512-A0mCwMeHZISVEC0K/9U0GsKyrdbrwPdY8JO1SxMRPm8LVz/ysuQvN+6F2ZPrzLzd5qygsJPDXCJaxeMkoNdXAA==";
+        };
     in {
         "logoK6Wc" = _logoK6Wc;
         "Q7KZg86P" = _Q7KZg86P;
@@ -284,7 +289,8 @@ let
         "rIU5YFuH" = _rIU5YFuH;
         "D20tBnpx" = _D20tBnpx;
         "fenqItY2" = _fenqItY2;
-        "forge-1.20.1" = _fenqItY2;
+        "NyD5zwDA" = _NyD5zwDA;
+        "forge-1.20.1" = _NyD5zwDA;
         "pkg-1.0.4-fix" = _logoK6Wc;
         "pkg-1.0.9" = _Q7KZg86P;
         "pkg-1.1.1" = _2ynTZ7rc;
@@ -332,7 +338,8 @@ let
         "pkg-1.4.7" = _rIU5YFuH;
         "pkg-1.4.7-fix" = _D20tBnpx;
         "pkg-1.4.8" = _fenqItY2;
-        "default" = _fenqItY2;
+        "pkg-1.4.8-fix" = _NyD5zwDA;
+        "default" = _NyD5zwDA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village_revolution";

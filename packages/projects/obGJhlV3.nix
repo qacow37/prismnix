@@ -46,6 +46,16 @@ let
             "file" = "emi-1.1.24-beta.3+1.12.2+forge.jar";
             "hash" = "sha512-9ikAgZX8Gcj/6bQdyV0SpbB2egVrcTbIFf7Pm7M8U2CMfApSbcVHlL1BFT237UHqITngZvV/FqZna0RGrQksRQ==";
         };
+        _ffO7DUgj = {
+            "id" = "ffO7DUgj";
+            "file" = "emi-1.1.24-beta.4+1.7.10+forge.jar";
+            "hash" = "sha512-e4ICti2JVzQQLfSB2X82+LBGV3aLKFaXWl1IaEQKDIwOcUxBJZb/A/hH72PnSRzYjM76Qwzp10Iom3ML5Fr6+w==";
+        };
+        _mdEXoTiv = {
+            "id" = "mdEXoTiv";
+            "file" = "emi-1.1.24-beta.4+1.12.2+forge.jar";
+            "hash" = "sha512-pag+9n+I+X0TDGt4/917UGd+H1QWHXjLMvoYnPxHkTxe0q8zlFLmRH5Q+FJK3665diocmCWIMm2qQuei3Mtulw==";
+        };
     in {
         "sh3TZyEx" = _sh3TZyEx;
         "8eW4QKXl" = _8eW4QKXl;
@@ -56,8 +66,10 @@ let
         "QpSMzQnM" = _QpSMzQnM;
         "759BBxxm" = _759BBxxm;
         "KEfgAFiM" = _KEfgAFiM;
-        "forge-1.7.10" = _759BBxxm;
-        "forge-1.12.2" = _KEfgAFiM;
+        "ffO7DUgj" = _ffO7DUgj;
+        "mdEXoTiv" = _mdEXoTiv;
+        "forge-1.7.10" = _ffO7DUgj;
+        "forge-1.12.2" = _mdEXoTiv;
         "pkg-1.1.22-beta1+1.7.10" = _sh3TZyEx;
         "pkg-1.1.22-beta2+1.7.10" = _8eW4QKXl;
         "pkg-1.1.22-beta3+1.7.10" = _I2cL0pOU;
@@ -67,7 +79,9 @@ let
         "pkg-1.1.24-beta.2+1.12.2" = _QpSMzQnM;
         "pkg-1.1.24-beta.3+1.7.10" = _759BBxxm;
         "pkg-1.1.24-beta.3+1.12.2" = _KEfgAFiM;
-        "default" = _KEfgAFiM;
+        "pkg-1.1.24-beta.4+1.7.10" = _ffO7DUgj;
+        "pkg-1.1.24-beta.4+1.12.2" = _mdEXoTiv;
+        "default" = _mdEXoTiv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "retroemi-forge";

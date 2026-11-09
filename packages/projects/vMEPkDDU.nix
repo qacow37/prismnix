@@ -16,17 +16,24 @@ let
             "file" = "IsleofBerkXaero'sMinimapIcons-[1.0.2].zip";
             "hash" = "sha512-Vc4LwIUqZNDbA7zIPZ9FoKfuVCCq2K8USOc1S6ngL/9t4WOOydTozHdjdNT1c9uOZrNRFQF89UsFRsVTvN6fKA==";
         };
+        _GznptTUt = {
+            "id" = "GznptTUt";
+            "file" = "IsleofBerkXaero'sMinimapIcons-[2.0.0].zip";
+            "hash" = "sha512-68/huxJmzj/1TZnhUBKlsTa3U6VKmrC9h4QWVsXXh4QKNZsNHsHHz9BIWxvXh00waVxoomZQYtaDmE76/3jhgw==";
+        };
     in {
         "E73PmCq6" = _E73PmCq6;
         "LDETqZYI" = _LDETqZYI;
         "za4CacBw" = _za4CacBw;
+        "GznptTUt" = _GznptTUt;
         "minecraft-1.18" = _za4CacBw;
         "minecraft-1.18.1" = _za4CacBw;
-        "minecraft-1.18.2" = _za4CacBw;
+        "minecraft-1.18.2" = _GznptTUt;
         "pkg-1.0.0" = _E73PmCq6;
         "pkg-1.0.1" = _LDETqZYI;
         "pkg-1.0.2" = _za4CacBw;
-        "default" = _za4CacBw;
+        "pkg-2.0.0" = _GznptTUt;
+        "default" = _GznptTUt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "isle-of-berk-xaeros-minimap-icons";

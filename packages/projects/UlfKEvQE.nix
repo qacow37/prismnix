@@ -236,6 +236,11 @@ let
             "file" = "sciophobia-1.2.6+1.8.9-fabric.jar";
             "hash" = "sha512-V3MPlSgOZxq/tMp2llict5qu3m4u1aw72cEppb14t+tfSoztKq6uMF7Qsrjaytb3AqdYmGCZLkK2PhcQaTou9w==";
         };
+        _NPhooHoA = {
+            "id" = "NPhooHoA";
+            "file" = "sciophobia-2.0.2+26.3-fabric.jar";
+            "hash" = "sha512-3ZOAs0hvUITG+awcx+7fDC7L5Wy/fHeWTLz9Dk/GFqCea01lX/sq+VRCo5FS3+BGW77EpHt3v4yNzh4wDSrZWA==";
+        };
     in {
         "WMk6Yhi8" = _WMk6Yhi8;
         "8gbaCWxv" = _8gbaCWxv;
@@ -284,6 +289,7 @@ let
         "rWdBqFMZ" = _rWdBqFMZ;
         "FsXIcnwX" = _FsXIcnwX;
         "MhGkEwKe" = _MhGkEwKe;
+        "NPhooHoA" = _NPhooHoA;
         "fabric-1.20" = _amShpA2k;
         "fabric-1.20.1" = _amShpA2k;
         "fabric-1.20.2" = _amShpA2k;
@@ -302,11 +308,11 @@ let
         "fabric-1.21.8" = _c61r8xAN;
         "fabric-1.21.10" = _c61r8xAN;
         "fabric-1.21.11" = _kYotWaB4;
-        "fabric-26.1" = _FsXIcnwX;
-        "fabric-26.1.1" = _FsXIcnwX;
-        "fabric-26.1.2" = _FsXIcnwX;
-        "fabric-26.2" = _FsXIcnwX;
-        "fabric-26.3" = _FsXIcnwX;
+        "fabric-26.1" = _NPhooHoA;
+        "fabric-26.1.1" = _NPhooHoA;
+        "fabric-26.1.2" = _NPhooHoA;
+        "fabric-26.2" = _NPhooHoA;
+        "fabric-26.3" = _NPhooHoA;
         "neoforge-1.21" = _ANtRytpQ;
         "neoforge-1.21.1" = _ANtRytpQ;
         "neoforge-1.21.2" = _Epg060cQ;
@@ -331,7 +337,8 @@ let
         "pkg-1.2.6" = _MhGkEwKe;
         "pkg-2.0.0" = _rWdBqFMZ;
         "pkg-2.0.1" = _FsXIcnwX;
-        "default" = _MhGkEwKe;
+        "pkg-2.0.2" = _NPhooHoA;
+        "default" = _NPhooHoA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sciophobia";

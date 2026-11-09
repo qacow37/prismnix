@@ -86,6 +86,16 @@ let
             "file" = "save-manager-1.3.4.jar";
             "hash" = "sha512-jXKkWDTiuYg5zENwA7J9X+zL/18TvO9T9BpmSiJCmfQGAcnpAS44lYW+d3IR45wt6A6UPIh6s33ckxotGQqLog==";
         };
+        _DsKiwFZ5 = {
+            "id" = "DsKiwFZ5";
+            "file" = "save-manager-1.3.5.jar";
+            "hash" = "sha512-k/9oIzrkOdaUrIXMHcyJ93bdKnt1IorAtzbdmUlrGNXWR41ZaG24EFRHZTB4nnI38Q+TcJGWHfuvh2TJqzau/A==";
+        };
+        _uujmPg4r = {
+            "id" = "uujmPg4r";
+            "file" = "save-manager-1.3.6.jar";
+            "hash" = "sha512-iYN5irXi6ilw6GDad4bv5bnB1HnTCwVqopcthjNAeMzilxS4n8jIACRoSNiuESQ91JNh2k5AGGqBTxrNEG81zw==";
+        };
     in {
         "AK9sTtq2" = _AK9sTtq2;
         "fsPVlEFN" = _fsPVlEFN;
@@ -104,6 +114,8 @@ let
         "A25JAXcL" = _A25JAXcL;
         "G4AGIAxM" = _G4AGIAxM;
         "4MOnprAI" = _4MOnprAI;
+        "DsKiwFZ5" = _DsKiwFZ5;
+        "uujmPg4r" = _uujmPg4r;
         "fabric-1.21.9" = _yBU29haW;
         "fabric-1.21.10" = _yBU29haW;
         "fabric-1.21.11" = _5BuJK8N3;
@@ -113,7 +125,7 @@ let
         "fabric-26.1.1" = _b6qoH7IT;
         "fabric-26.1.2" = _b6qoH7IT;
         "fabric-26.2" = _ulzYys14;
-        "fabric-26.3" = _4MOnprAI;
+        "fabric-26.3" = _uujmPg4r;
         "pkg-1.0.1" = _AK9sTtq2;
         "pkg-1.1.0" = _o03hBMYU;
         "pkg-1.1.1" = _yBU29haW;
@@ -128,7 +140,9 @@ let
         "pkg-1.3.2" = _A25JAXcL;
         "pkg-1.3.3" = _G4AGIAxM;
         "pkg-1.3.4" = _4MOnprAI;
-        "default" = _4MOnprAI;
+        "pkg-1.3.5" = _DsKiwFZ5;
+        "pkg-1.3.6" = _uujmPg4r;
+        "default" = _uujmPg4r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloud-save-manager";

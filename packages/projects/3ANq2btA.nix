@@ -1961,6 +1961,26 @@ let
             "file" = "evilcraft-1.21.1-neoforge-1.2.100.jar";
             "hash" = "sha512-FL3Sro4LjCWIPIBGye4tPX+Jk+R5wtl00xlArPnQeqE+TkL2vpk75Wsbe1OhaTg+hPgsX75KZC+UaIBhcibLVg==";
         };
+        _qesHekDO = {
+            "id" = "qesHekDO";
+            "file" = "evilcraft-26.1.2-neoforge-1.2.109-1195.jar";
+            "hash" = "sha512-+a4sHw7el3SABRyO2sQ5l8fE2AJYLwHQ1PvpyCm4ydLq+rIeFUp9n4oo7W7eeEobQcuNaax6ZTFZPuScgw8V5g==";
+        };
+        _nnoNE80p = {
+            "id" = "nnoNE80p";
+            "file" = "evilcraft-26.1.2-neoforge-1.2.110.jar";
+            "hash" = "sha512-FyQniLS13nw3jleNTxfFSeHSR+Qf84u9f1n9xXjn1bt+G02tfSA4X0k+9j4md7AJgcwNYc5co2xt0P3EAR0/xg==";
+        };
+        _YBMejGcB = {
+            "id" = "YBMejGcB";
+            "file" = "evilcraft-26.3-neoforge-1.2.98-1198.jar";
+            "hash" = "sha512-MKpnqS5udk4IsxdJkyNtYtBzIesHJwzqksy9eW3I6jg+JgdCk3BT4xbsJasjaQsO+wEwerW6gKs0T5BqZpe7Rw==";
+        };
+        _A5Yx4hDB = {
+            "id" = "A5Yx4hDB";
+            "file" = "evilcraft-26.1.2-neoforge-1.2.110-1204.jar";
+            "hash" = "sha512-eG1vCoFqzsDC5ur8W5RUpHwwVSi/qNOMEnnroZoIBRwR7VLHEoBwfidTctAHb2XzRoqSm6wQOkJpyyDE/8WS3g==";
+        };
     in {
         "3xHlulzQ" = _3xHlulzQ;
         "xtJrr47Z" = _xtJrr47Z;
@@ -2354,6 +2374,10 @@ let
         "hgJ1hHmD" = _hgJ1hHmD;
         "AvDUwoL3" = _AvDUwoL3;
         "mOGfae8K" = _mOGfae8K;
+        "qesHekDO" = _qesHekDO;
+        "nnoNE80p" = _nnoNE80p;
+        "YBMejGcB" = _YBMejGcB;
+        "A5Yx4hDB" = _A5Yx4hDB;
         "forge-1.18.2" = _9A10CKm2;
         "forge-1.19" = _QB5jl0mU;
         "forge-1.19.2" = _ZKTV3iRb;
@@ -2368,9 +2392,9 @@ let
         "neoforge-1.21.10" = _P3lyaR65;
         "neoforge-1.21.11" = _L64CPRVG;
         "neoforge-26.1.1" = _tvxO7Ngd;
-        "neoforge-26.1.2" = _hgJ1hHmD;
+        "neoforge-26.1.2" = _A5Yx4hDB;
         "neoforge-26.2" = _7z7VPzeq;
-        "neoforge-26.3" = _AvDUwoL3;
+        "neoforge-26.3" = _YBMejGcB;
         "pkg-1.1.24" = _3xHlulzQ;
         "pkg-1.2.0" = _xtJrr47Z;
         "pkg-1.19-1.2.0" = _ozJBbc1G;
@@ -2763,7 +2787,11 @@ let
         "pkg-26.1.2-1.2.109" = _hgJ1hHmD;
         "pkg-26.3-1.2.98-1190" = _AvDUwoL3;
         "pkg-1.21.1-1.2.100" = _mOGfae8K;
-        "default" = _mOGfae8K;
+        "pkg-26.1.2-1.2.109-1195" = _qesHekDO;
+        "pkg-26.1.2-1.2.110" = _nnoNE80p;
+        "pkg-26.3-1.2.98-1198" = _YBMejGcB;
+        "pkg-26.1.2-1.2.110-1204" = _A5Yx4hDB;
+        "default" = _A5Yx4hDB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evilcraft";

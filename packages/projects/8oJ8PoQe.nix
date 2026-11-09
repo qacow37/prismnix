@@ -71,6 +71,16 @@ let
             "file" = "end_villager_trader-1.0.0 Fabric 26.3.jar";
             "hash" = "sha512-OykLzhVMbppnkuwhgRU4zmHER4n6EOP27Ren3WE1uspmNPz/LFgqyrUl1VM1koXsc8bN/9pR1dsp+Q3RuHOEMg==";
         };
+        _KfCipTJs = {
+            "id" = "KfCipTJs";
+            "file" = "end_villager_trader-1.0.1 Fabric 1.20.1.jar";
+            "hash" = "sha512-ElVX+7Lp6a7PIbe1SG19KbXfodzOQnbGmhg8mAJM07H1zFq2d6ufoPBHxF123x7YKLLlBnvlEx0h6la+Pd8w0w==";
+        };
+        _jTXsQM4L = {
+            "id" = "jTXsQM4L";
+            "file" = "end_villager_trader-1.0.1 Fabric 1.21.1.jar";
+            "hash" = "sha512-mN8oPYL4EipbbDWkoAQE4IXux9wDpKKfZrxiE8bBuoZzdhFZZRFxIDfiS87lRoEGacgGfTNuhCy+N3NowFCGag==";
+        };
     in {
         "up0VlTa2" = _up0VlTa2;
         "Ulxcy9ES" = _Ulxcy9ES;
@@ -86,6 +96,8 @@ let
         "teaKPGkL" = _teaKPGkL;
         "5yBn4qgo" = _5yBn4qgo;
         "rzmwKLHP" = _rzmwKLHP;
+        "KfCipTJs" = _KfCipTJs;
+        "jTXsQM4L" = _jTXsQM4L;
         "forge-1.20.1" = _pFyAkhSR;
         "neoforge-1.20.6" = _HTTQXFNf;
         "neoforge-1.21.1" = _AeUm3GSA;
@@ -93,12 +105,12 @@ let
         "neoforge-1.21.8" = _jn2zMLYZ;
         "neoforge-26.1.2" = _XKwaYjQw;
         "neoforge-26.3" = _bM50aoBn;
-        "fabric-1.20.1" = _teaKPGkL;
-        "fabric-1.21.1" = _5yBn4qgo;
+        "fabric-1.20.1" = _KfCipTJs;
+        "fabric-1.21.1" = _jTXsQM4L;
         "fabric-26.3" = _rzmwKLHP;
         "pkg-1.0.0" = _DUOjyzXO;
-        "pkg-1.0.1" = _rzmwKLHP;
-        "default" = _rzmwKLHP;
+        "pkg-1.0.1" = _jTXsQM4L;
+        "default" = _jTXsQM4L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "end-villager-trader";

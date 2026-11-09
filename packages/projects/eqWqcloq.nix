@@ -16,15 +16,22 @@ let
             "file" = "northstar_structures-1.0.1.jar";
             "hash" = "sha512-Mz3/u2qLXdqlYjA/bF0WpD67FhumsGs/m9asdUmm4Bm7vv6qj7WnYYHR62B4gw/zrvNLgDUg2kjdN6S2Zq3PXw==";
         };
+        _HmklkahQ = {
+            "id" = "HmklkahQ";
+            "file" = "northstar_structures-1.1.0.jar";
+            "hash" = "sha512-lQCTLrGqaZw8g5RDtRNJ7roAlg/PcyDCk8llKGSogdI5gKRF1IZ+eLlx2VgVXfRRM41Sp0WHxBu+PqBb6DvIPQ==";
+        };
     in {
         "tBJAojqM" = _tBJAojqM;
         "SVrOiSaD" = _SVrOiSaD;
         "9FEs1ITm" = _9FEs1ITm;
-        "neoforge-1.21.1" = _9FEs1ITm;
+        "HmklkahQ" = _HmklkahQ;
+        "neoforge-1.21.1" = _HmklkahQ;
         "forge-1.20.1" = _SVrOiSaD;
         "pkg-1.0.0" = _SVrOiSaD;
         "pkg-1.0.1" = _9FEs1ITm;
-        "default" = _9FEs1ITm;
+        "pkg-1.1.0" = _HmklkahQ;
+        "default" = _HmklkahQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-northstar-structures";

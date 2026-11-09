@@ -66,6 +66,46 @@ let
             "file" = "windlink-neoforge-1.1.21+mc1.21.1.jar";
             "hash" = "sha512-ChF1V0B67lyHB1PX3nCoGFCIGbz1zoXugLn827yE87ueQrfSYPdyi58s3MLaJzVtTQAyH4mdzaWGIIhB9uu0Iw==";
         };
+        _CVbzegHK = {
+            "id" = "CVbzegHK";
+            "file" = "windlink-1.1.22-beta-1+mc26.2.jar";
+            "hash" = "sha512-zlPl4BJLoRLGurOx8iz49FpJb93RZU+IJ+/uLi/7K5bGwKfRWD2EHdwNw1LsWxC9UY+71kunwHgoZsNm9Rpoxw==";
+        };
+        _QxWYDrBL = {
+            "id" = "QxWYDrBL";
+            "file" = "windlink-neoforge-1.1.22-beta-1+mc26.2.jar";
+            "hash" = "sha512-/SFFh7WzeVnVJfERwX0KIc/vf0bdR8X4/oFSH8nsSFpJjOz7uKUhB+Yj4O9f6Kts9/gtCA3FLJ6KpwkAAreuKQ==";
+        };
+        _k3K2VzsC = {
+            "id" = "k3K2VzsC";
+            "file" = "windlink-1.1.22-beta-1+mc26.1.2.jar";
+            "hash" = "sha512-g3v+eaDxhZd+7MQ5znt/wowdTXLYnRxnap2yZNrW7xWEPcQwR0N5loEtt/CHqYYBa5TgiZZlzid0mBPnsbtpyQ==";
+        };
+        _lLQgc9aG = {
+            "id" = "lLQgc9aG";
+            "file" = "windlink-neoforge-1.1.22-beta-1+mc26.1.2.jar";
+            "hash" = "sha512-YnEpeTnwMRcvyNVwxzghBwCOe91YgVzI6OmHaYySgz6C5PKxoOzjhdWN2dxpTMATGoJGy5OYJe5VzLY04r0VGg==";
+        };
+        _fyB9V26t = {
+            "id" = "fyB9V26t";
+            "file" = "windlink-1.1.22-beta-1+mc1.21.11.jar";
+            "hash" = "sha512-ReERpaEa8toFaGePlcGZIcFbfjJaituV2mfw66aPpQHTyxJYn+vn5vG2qncqKBwozpbo2p2Hmdwy1oOo3u1Ydw==";
+        };
+        _guGvwdkk = {
+            "id" = "guGvwdkk";
+            "file" = "windlink-neoforge-1.1.22-beta-1+mc1.21.11.jar";
+            "hash" = "sha512-a464nqgzTrjMq8ZgZIHIbnzPK6wWGKxldOiGlsJbCF6XzjRE7i+Br8sBVM/ClPuyQ916Ie4I3KJKEANth08i5w==";
+        };
+        _s0M3W9Mi = {
+            "id" = "s0M3W9Mi";
+            "file" = "windlink-1.1.22-beta-1+mc1.21.1.jar";
+            "hash" = "sha512-S+ECd+KUg0Dt6YlZDK0iXwjX1/++uBKpHjLYMVZLrUBILHxa92anR6lKoFo8uolZElDfMEyVdcMO/6qW0m1Ajw==";
+        };
+        _1pXObKXa = {
+            "id" = "1pXObKXa";
+            "file" = "windlink-neoforge-1.1.22-beta-1+mc1.21.1.jar";
+            "hash" = "sha512-9KjOBViP7NkTfaL6xyczu0k0W3q6Z6PKktZGkryOFEa5OE4EHDf5Oj8ZXJwoJth9ilDPUOYWr5EE2bb/cG8W2A==";
+        };
     in {
         "lv8n78VW" = _lv8n78VW;
         "JVk2Exfy" = _JVk2Exfy;
@@ -80,18 +120,26 @@ let
         "I9GslUeb" = _I9GslUeb;
         "PHiimUB7" = _PHiimUB7;
         "SmTh2R74" = _SmTh2R74;
-        "fabric-26.1" = _TuJ19FJh;
-        "fabric-26.1.1" = _TuJ19FJh;
-        "fabric-26.1.2" = _TuJ19FJh;
-        "fabric-26.2" = _iOrNNuoS;
-        "fabric-1.21.11" = _Xwi64qlm;
-        "fabric-1.21.1" = _PHiimUB7;
-        "neoforge-26.2" = _3S2s03Xx;
-        "neoforge-26.1" = _X9L1zbJv;
-        "neoforge-26.1.1" = _X9L1zbJv;
-        "neoforge-26.1.2" = _X9L1zbJv;
-        "neoforge-1.21.11" = _I9GslUeb;
-        "neoforge-1.21.1" = _SmTh2R74;
+        "CVbzegHK" = _CVbzegHK;
+        "QxWYDrBL" = _QxWYDrBL;
+        "k3K2VzsC" = _k3K2VzsC;
+        "lLQgc9aG" = _lLQgc9aG;
+        "fyB9V26t" = _fyB9V26t;
+        "guGvwdkk" = _guGvwdkk;
+        "s0M3W9Mi" = _s0M3W9Mi;
+        "1pXObKXa" = _1pXObKXa;
+        "fabric-26.1" = _k3K2VzsC;
+        "fabric-26.1.1" = _k3K2VzsC;
+        "fabric-26.1.2" = _k3K2VzsC;
+        "fabric-26.2" = _CVbzegHK;
+        "fabric-1.21.11" = _fyB9V26t;
+        "fabric-1.21.1" = _s0M3W9Mi;
+        "neoforge-26.2" = _QxWYDrBL;
+        "neoforge-26.1" = _lLQgc9aG;
+        "neoforge-26.1.1" = _lLQgc9aG;
+        "neoforge-26.1.2" = _lLQgc9aG;
+        "neoforge-1.21.11" = _guGvwdkk;
+        "neoforge-1.21.1" = _1pXObKXa;
         "pkg-0.1.5" = _lv8n78VW;
         "pkg-1.1.19" = _JVk2Exfy;
         "pkg-1.1.20+mc26.2" = _mq3uRoxR;
@@ -105,7 +153,15 @@ let
         "pkg-1.1.21+mc1.21.11-neoforge" = _I9GslUeb;
         "pkg-1.1.21+mc1.21.1" = _PHiimUB7;
         "pkg-1.1.21+mc1.21.1-neoforge" = _SmTh2R74;
-        "default" = _SmTh2R74;
+        "pkg-1.1.22-beta-1+mc26.2" = _CVbzegHK;
+        "pkg-1.1.22-beta-1+mc26.2-neoforge" = _QxWYDrBL;
+        "pkg-1.1.22-beta-1+mc26.1.2" = _k3K2VzsC;
+        "pkg-1.1.22-beta-1+mc26.1.2-neoforge" = _lLQgc9aG;
+        "pkg-1.1.22-beta-1+mc1.21.11" = _fyB9V26t;
+        "pkg-1.1.22-beta-1+mc1.21.11-neoforge" = _guGvwdkk;
+        "pkg-1.1.22-beta-1+mc1.21.1" = _s0M3W9Mi;
+        "pkg-1.1.22-beta-1+mc1.21.1-neoforge" = _1pXObKXa;
+        "default" = _1pXObKXa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "windlink";

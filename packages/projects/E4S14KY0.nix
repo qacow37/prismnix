@@ -126,6 +126,11 @@ let
             "file" = "createkinetic-1.4.3.jar";
             "hash" = "sha512-XyAAKnEGaERRIB411JsTBugOhwladt0DbSTbwrQk9Erx/RAPdeAJAEUuzU6ng9IlfiLgRAnKOH4OxjF9GsQ8Wg==";
         };
+        _ANNMxbkR = {
+            "id" = "ANNMxbkR";
+            "file" = "createkinetic-1.4.4.jar";
+            "hash" = "sha512-+WXBJ2+sAcV2eFD6cXe7UAexXK+x4NcH9FITdsUdLFlWqMtRzb4QH5W161lO42QLaCCsj8GiAT5+xgu+safdsQ==";
+        };
     in {
         "zDBoCmqG" = _zDBoCmqG;
         "Lm2uLduI" = _Lm2uLduI;
@@ -152,6 +157,7 @@ let
         "MSfhe45c" = _MSfhe45c;
         "cryyyr4y" = _cryyyr4y;
         "64mBDRKW" = _64mBDRKW;
+        "ANNMxbkR" = _ANNMxbkR;
         "forge-1.20.1" = _F8fP4yEX;
         "forge-1.20.2" = _F8fP4yEX;
         "forge-1.20.3" = _F8fP4yEX;
@@ -159,17 +165,17 @@ let
         "forge-1.20.5" = _F8fP4yEX;
         "forge-1.20.6" = _F8fP4yEX;
         "neoforge-1.21" = _64mBDRKW;
-        "neoforge-1.21.1" = _64mBDRKW;
-        "neoforge-1.21.2" = _Wc9MKY3T;
-        "neoforge-1.21.3" = _Wc9MKY3T;
-        "neoforge-1.21.4" = _Wc9MKY3T;
-        "neoforge-1.21.5" = _Wc9MKY3T;
-        "neoforge-1.21.6" = _Wc9MKY3T;
-        "neoforge-1.21.7" = _Wc9MKY3T;
-        "neoforge-1.21.8" = _Wc9MKY3T;
-        "neoforge-1.21.9" = _Wc9MKY3T;
-        "neoforge-1.21.10" = _Wc9MKY3T;
-        "neoforge-1.21.11" = _Wc9MKY3T;
+        "neoforge-1.21.1" = _ANNMxbkR;
+        "neoforge-1.21.2" = _ANNMxbkR;
+        "neoforge-1.21.3" = _ANNMxbkR;
+        "neoforge-1.21.4" = _ANNMxbkR;
+        "neoforge-1.21.5" = _ANNMxbkR;
+        "neoforge-1.21.6" = _ANNMxbkR;
+        "neoforge-1.21.7" = _ANNMxbkR;
+        "neoforge-1.21.8" = _ANNMxbkR;
+        "neoforge-1.21.9" = _ANNMxbkR;
+        "neoforge-1.21.10" = _ANNMxbkR;
+        "neoforge-1.21.11" = _ANNMxbkR;
         "pkg-1.0.1" = _zDBoCmqG;
         "pkg-3.1.3b" = _Lm2uLduI;
         "pkg-3.1.5b" = _DbsgGf5M;
@@ -195,7 +201,8 @@ let
         "pkg-1.4.1" = _MSfhe45c;
         "pkg-1.4.2" = _cryyyr4y;
         "pkg-1.4.3" = _64mBDRKW;
-        "default" = _64mBDRKW;
+        "pkg-1.4.4" = _ANNMxbkR;
+        "default" = _ANNMxbkR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-kinetic";

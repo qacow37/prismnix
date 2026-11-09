@@ -226,6 +226,26 @@ let
             "file" = "simplemusket-fabric-1.21.1-1.10.0.jar";
             "hash" = "sha512-/+iazhMh6h+UNAhXKvG+gB+cwxRY2tYiLIJLxaNwGDhxRW9X7+Zc+u359uwuJJtCZ/1C7Wi9OTCMtyy2PEWtcw==";
         };
+        _JLRrfESC = {
+            "id" = "JLRrfESC";
+            "file" = "simplemusket-forge-1.20.1-1.11.0.jar";
+            "hash" = "sha512-6bV7vk6JJe5UAWRGmunf1d207e36uQ60KE86RLCiY2QERovS2UsbQPROnNFAxI7qO7d5KVnL4gLrJ/XthWn5Zg==";
+        };
+        _Hxvl0Y5E = {
+            "id" = "Hxvl0Y5E";
+            "file" = "simplemusket-fabric-1.20.1-1.11.0.jar";
+            "hash" = "sha512-wv93z3dnLiCXAkcUJ9V7d0UjkQFRy1Kkmtv5DdMbxwPS4wOb5pxGrJ2dJXCd0fPOOsdbwz3iVKuuWyzDi03PrA==";
+        };
+        _H7UmG0PN = {
+            "id" = "H7UmG0PN";
+            "file" = "simplemusket-neoforge-1.21.1-1.11.0.jar";
+            "hash" = "sha512-9wUIcvR2AQHeeDN+kUKmgnZebxkOs1CxhEhnPq/PPS5Okf+JhLc+qVPClJ/NLNboYrZuSPbOH6Fpexu4ltwuqA==";
+        };
+        _fAC5u9Du = {
+            "id" = "fAC5u9Du";
+            "file" = "simplemusket-fabric-1.21.1-1.11.0.jar";
+            "hash" = "sha512-bkgcvpAtXz6yG0/Gq64BfKzg+/CPHgmeYyrGh05wlOHHz0Il6L1wNlshVRE6hoHturSnJ5LDEEbLVcGaxEP1zA==";
+        };
     in {
         "Z52ufDHr" = _Z52ufDHr;
         "pDXTpP30" = _pDXTpP30;
@@ -272,15 +292,19 @@ let
         "gf2iaGKl" = _gf2iaGKl;
         "2BSp6AM1" = _2BSp6AM1;
         "qeaBdHYR" = _qeaBdHYR;
+        "JLRrfESC" = _JLRrfESC;
+        "Hxvl0Y5E" = _Hxvl0Y5E;
+        "H7UmG0PN" = _H7UmG0PN;
+        "fAC5u9Du" = _fAC5u9Du;
         "forge-1.18.2" = _3PtlhORm;
         "forge-1.19.2" = _rVVgL9N2;
-        "forge-1.20.1" = _Myx5E1ox;
+        "forge-1.20.1" = _JLRrfESC;
         "neoforge-1.20.1" = _xZfHLikD;
         "neoforge-1.21" = _XtnJRjGf;
-        "neoforge-1.21.1" = _2BSp6AM1;
-        "fabric-1.20.1" = _gf2iaGKl;
+        "neoforge-1.21.1" = _H7UmG0PN;
+        "fabric-1.20.1" = _Hxvl0Y5E;
         "fabric-1.21" = _5Oyxgd3U;
-        "fabric-1.21.1" = _qeaBdHYR;
+        "fabric-1.21.1" = _fAC5u9Du;
         "pkg-1.1.0" = _pDXTpP30;
         "pkg-1.2.0" = _pgLVGKKk;
         "pkg-1.3.0" = _Waz46Pgs;
@@ -298,7 +322,8 @@ let
         "pkg-1.9.1" = _K7eSotKx;
         "pkg-1.9.2" = _aPHeosj0;
         "pkg-1.10.0" = _qeaBdHYR;
-        "default" = _qeaBdHYR;
+        "pkg-1.11.0" = _fAC5u9Du;
+        "default" = _fAC5u9Du;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-musket";

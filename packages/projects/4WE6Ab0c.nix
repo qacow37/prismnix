@@ -231,6 +231,26 @@ let
             "file" = "delta_force_skills-1.9.98.jar";
             "hash" = "sha512-5eFQs/XuxOKX3ODc8dKpyqcAo2Wd8ECroD7ahPsjPseXoNgN8ehGRl1EZA4+rtXW9AYoESCS7ph64ysVc+wD1g==";
         };
+        _9rpkANML = {
+            "id" = "9rpkANML";
+            "file" = "delta_force_skills-1.9.106.jar";
+            "hash" = "sha512-GYQtDK4lSL9qyABnT0WVnLnJkW5GD1JXMXUNSeudqfYVCSBYkfAET6VGQH5sP0rdOPwtt0jIf7wwHBhlaXydOQ==";
+        };
+        _8AYA3pRc = {
+            "id" = "8AYA3pRc";
+            "file" = "delta_force_skills-1.9.106.jar";
+            "hash" = "sha512-zaS3eWgHu4cMHaOOqbU6LIlGhxRTqVnK6Zr1RFNUvgRiryaoaycTCsLBz1RvyIzgDT7vPGstVJbcw/1KfZ4org==";
+        };
+        _J7zliZxc = {
+            "id" = "J7zliZxc";
+            "file" = "delta_force_skills-1.9.106-hotfix.jar";
+            "hash" = "sha512-OoRexeAN6eH5IZoklbNneRkgEr74pUVEneNtQ2o3rsTwZ5LsQlegcKO/VD69+rH2tvEN/Ydk3Zm/kj9WHcQbvQ==";
+        };
+        _7L7hUyu3 = {
+            "id" = "7L7hUyu3";
+            "file" = "delta_force_skills-1.9.106-hotfix.jar";
+            "hash" = "sha512-pUxGrt/XmCu0fED6nPT+OqDRWreA70Qs+2YEXOdHH2U5qCqM+rSziiHAr8s0aMpMMoN4yu1qhgW7QMA+Y3TVmQ==";
+        };
     in {
         "Vr7fglsf" = _Vr7fglsf;
         "N1BdvURd" = _N1BdvURd;
@@ -278,9 +298,13 @@ let
         "ggErkLuL" = _ggErkLuL;
         "TnmIpSLy" = _TnmIpSLy;
         "HAc25Lur" = _HAc25Lur;
-        "forge-1.20.1" = _HAc25Lur;
+        "9rpkANML" = _9rpkANML;
+        "8AYA3pRc" = _8AYA3pRc;
+        "J7zliZxc" = _J7zliZxc;
+        "7L7hUyu3" = _7L7hUyu3;
+        "forge-1.20.1" = _7L7hUyu3;
         "forge-1.19.2" = _4aMQKmyB;
-        "neoforge-1.21.1" = _TnmIpSLy;
+        "neoforge-1.21.1" = _J7zliZxc;
         "pkg-1.5.10" = _Vr7fglsf;
         "pkg-1.5.12" = _PyPm2CpE;
         "pkg-1.5.13" = _ocF7yPds;
@@ -301,7 +325,9 @@ let
         "pkg-1.9.37" = _6mplvm0Z;
         "pkg-1.9.54" = _ggErkLuL;
         "pkg-1.9.98" = _HAc25Lur;
-        "default" = _HAc25Lur;
+        "pkg-1.9.106" = _8AYA3pRc;
+        "pkg-1.9.106-hotfix" = _7L7hUyu3;
+        "default" = _7L7hUyu3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delta_force_skills";

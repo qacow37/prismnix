@@ -291,6 +291,11 @@ let
             "file" = "kotlinforforge-6.4.0-all.jar";
             "hash" = "sha512-8WRpe0elsjWRpFVc5lXrC6hlzrGXLCnixTYDu3Cji5SOI4AePcApGj9vC7tAs/78D6eem0WGq55AuCEJe2HwPA==";
         };
+        _sGsRJU5e = {
+            "id" = "sGsRJU5e";
+            "file" = "kotlinforforge-6.5.0-all.jar";
+            "hash" = "sha512-3ItH5a9ZAlVwptGCtDkhiNQOPh7nRUXeCAwHsOtS0sXBN2HCH8y80awJ3fTu7AMMOxZxQqu7/Qaxu085R5LGyw==";
+        };
     in {
         "zpPkJKgQ" = _zpPkJKgQ;
         "V7V7Pvv8" = _V7V7Pvv8;
@@ -350,6 +355,7 @@ let
         "WSKgpZoB" = _WSKgpZoB;
         "uhJhCT7X" = _uhJhCT7X;
         "9fo5CJQk" = _9fo5CJQk;
+        "sGsRJU5e" = _sGsRJU5e;
         "forge-1.14" = _ELlLPLYg;
         "forge-1.14.1" = _ELlLPLYg;
         "forge-1.14.2" = _ELlLPLYg;
@@ -410,14 +416,14 @@ let
         "neoforge-1.21.6" = _uhJhCT7X;
         "neoforge-1.21.7" = _uhJhCT7X;
         "neoforge-1.21.8" = _uhJhCT7X;
-        "neoforge-1.21.9" = _9fo5CJQk;
-        "neoforge-1.21.10" = _9fo5CJQk;
-        "neoforge-1.21.11" = _9fo5CJQk;
-        "neoforge-26.1" = _9fo5CJQk;
-        "neoforge-26.1.1" = _9fo5CJQk;
-        "neoforge-26.1.2" = _9fo5CJQk;
-        "neoforge-26.2" = _9fo5CJQk;
-        "neoforge-26.3" = _9fo5CJQk;
+        "neoforge-1.21.9" = _sGsRJU5e;
+        "neoforge-1.21.10" = _sGsRJU5e;
+        "neoforge-1.21.11" = _sGsRJU5e;
+        "neoforge-26.1" = _sGsRJU5e;
+        "neoforge-26.1.1" = _sGsRJU5e;
+        "neoforge-26.1.2" = _sGsRJU5e;
+        "neoforge-26.2" = _sGsRJU5e;
+        "neoforge-26.3" = _sGsRJU5e;
         "pkg-1.8.0" = _zpPkJKgQ;
         "pkg-1.9.0" = _V7V7Pvv8;
         "pkg-1.10.0" = _rtxN6hbp;
@@ -476,7 +482,8 @@ let
         "pkg-6.3.0" = _WSKgpZoB;
         "pkg-5.12.0" = _uhJhCT7X;
         "pkg-6.4.0" = _9fo5CJQk;
-        "default" = _9fo5CJQk;
+        "pkg-6.5.0" = _sGsRJU5e;
+        "default" = _sGsRJU5e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kotlin-for-forge";

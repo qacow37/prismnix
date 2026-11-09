@@ -166,6 +166,31 @@ let
             "file" = "mynethersdelight-3.0.0-1.10.4-beta.1-fabric+26.3.jar";
             "hash" = "sha512-luqouKujr2VQhuze5HLF40BXyyqp2WJqh5Im9gyh+Dwg9qAfqhQfv44z+2FDsXL0S4oFBcPGSnKevfHdZg89yQ==";
         };
+        _BEUvbRrZ = {
+            "id" = "BEUvbRrZ";
+            "file" = "mynethersdelight-3.0.0-1.10.4-beta.2-fabric+1.21.1.jar";
+            "hash" = "sha512-LgIRFzfvrVvnNdTSeTTg4zckbPOUWCDE3u/2YRIlMtGxptTBbraXjBnCFuSWYrU9Wi3g/aYVsIJtVJtBY4eUWw==";
+        };
+        _mYRX50Zv = {
+            "id" = "mYRX50Zv";
+            "file" = "mynethersdelight-3.0.0-1.10.4-beta.2-fabric+1.21.11.jar";
+            "hash" = "sha512-mJToJw44Som1kpX95WZEUBMpY7Cg+a9ltB2bDuWlxFqlJBZg7QeY/kje5s4HNHJEdcnsawAqj4p3u+jY0T6B8Q==";
+        };
+        _ikH7YOM9 = {
+            "id" = "ikH7YOM9";
+            "file" = "mynethersdelight-3.0.0-1.10.4-beta.2-fabric+26.1.2.jar";
+            "hash" = "sha512-mjElZMKOuv7wrMxFCjCJbPPMYzUrw2N5EwIWtL4UW1uQ1e6cr1mqo+i2gDkM3jQTYSLDn8Cl96HWBmsK3sNFaw==";
+        };
+        _djuzp8F8 = {
+            "id" = "djuzp8F8";
+            "file" = "mynethersdelight-3.0.0-1.10.4-beta.2-fabric+26.2.jar";
+            "hash" = "sha512-NXt12DXxPi6uUxWkYBu/6HsulH2pD4pfq5t2H3rt1DUQPSg/hpaOLfBQ6PhEQR0hncyd6ttOvWrHUykH/oVh7g==";
+        };
+        _UtNbWx0H = {
+            "id" = "UtNbWx0H";
+            "file" = "mynethersdelight-3.0.0-1.10.4-beta.2-fabric+26.3.jar";
+            "hash" = "sha512-977yhKGn8stDywlKqZ87/hXSd4R+sg3H2HYTK1zwvcEATIOaCma25Uzqm98KZv6Pg+UT0LDIsPm1Db0zCgd/Gw==";
+        };
     in {
         "TXhxB15G" = _TXhxB15G;
         "G4IExxQ4" = _G4IExxQ4;
@@ -200,13 +225,18 @@ let
         "eeKnWwSh" = _eeKnWwSh;
         "2sVwEKiI" = _2sVwEKiI;
         "2CJ5Znql" = _2CJ5Znql;
+        "BEUvbRrZ" = _BEUvbRrZ;
+        "mYRX50Zv" = _mYRX50Zv;
+        "ikH7YOM9" = _ikH7YOM9;
+        "djuzp8F8" = _djuzp8F8;
+        "UtNbWx0H" = _UtNbWx0H;
         "fabric-1.20" = _MHBBtwSz;
         "fabric-1.20.1" = _MHBBtwSz;
-        "fabric-1.21.1" = _qP6DV1e3;
-        "fabric-1.21.11" = _83pQurds;
-        "fabric-26.1.2" = _eeKnWwSh;
-        "fabric-26.2" = _2sVwEKiI;
-        "fabric-26.3" = _2CJ5Znql;
+        "fabric-1.21.1" = _BEUvbRrZ;
+        "fabric-1.21.11" = _mYRX50Zv;
+        "fabric-26.1.2" = _ikH7YOM9;
+        "fabric-26.2" = _djuzp8F8;
+        "fabric-26.3" = _UtNbWx0H;
         "pkg-1.20.1-0.1.0.0+0.1.7.5" = _TXhxB15G;
         "pkg-1.20.1-0.1.0.1+0.1.7.5" = _G4IExxQ4;
         "pkg-1.20.1-1.0.2+1.7.6" = _lbrH4bo9;
@@ -239,7 +269,12 @@ let
         "pkg-3.0.0-1.10.4-beta.1+26.1.2" = _eeKnWwSh;
         "pkg-3.0.0-1.10.4-beta.1+26.2" = _2sVwEKiI;
         "pkg-3.0.0-1.10.4-beta.1+26.3" = _2CJ5Znql;
-        "default" = _2CJ5Znql;
+        "pkg-3.0.0-1.10.4-beta.2+1.21.1" = _BEUvbRrZ;
+        "pkg-3.0.0-1.10.4-beta.2+1.21.11" = _mYRX50Zv;
+        "pkg-3.0.0-1.10.4-beta.2+26.1.2" = _ikH7YOM9;
+        "pkg-3.0.0-1.10.4-beta.2+26.2" = _djuzp8F8;
+        "pkg-3.0.0-1.10.4-beta.2+26.3" = _UtNbWx0H;
+        "default" = _UtNbWx0H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my-nethers-delight-refabricated";

@@ -181,6 +181,26 @@ let
             "file" = "NeoSync-1.21.1-1.7.5.jar";
             "hash" = "sha512-se/y34zM1AV040Go3/qvneF6PrUe3dFpzwz06g5dJYJZx5So5gmxPwWOlm85Kaa+uv9UVhcdxGCGk/9sjMhbuw==";
         };
+        _xwDto63x = {
+            "id" = "xwDto63x";
+            "file" = "NeoSync-1.21.1-1.7.6.jar";
+            "hash" = "sha512-MlKkJuW2jLMF0uGL+LVnO1x5NlJag5xeK4S3bUSmHIQnxNVNpL4f21kcu99bzaFVMDsfHcWjxXcaHQbq9waR9Q==";
+        };
+        _gGoVwvZi = {
+            "id" = "gGoVwvZi";
+            "file" = "NeoSync-26.1.2-1.7.6.jar";
+            "hash" = "sha512-CkyD3wSNyp7+grvMIZ+FAyS6wV3YvQ9erWaWIL5pUvG18IeLubYSn2HWrRq8sD6bSzLU9OUUzy9D8e8UCyDOvw==";
+        };
+        _zp9m79sN = {
+            "id" = "zp9m79sN";
+            "file" = "NeoSync-26.1.2-1.7.7.jar";
+            "hash" = "sha512-6Ht7kXMPrhUq8tBys2zzyvhn47U5S9e9RUgbMhiDeGMtqNOfqrgRSuFwaPD0M31Oj0d7bB1wZ4Li2blqONaZww==";
+        };
+        _hQM5gCcc = {
+            "id" = "hQM5gCcc";
+            "file" = "NeoSync-1.21.1-1.7.7.jar";
+            "hash" = "sha512-HR4NmD3whoe4JC2/fFIQnSl1Gc/zqucBRVNP7II+y6ef7ETAcddlio4tqAyZSllc+ylbullxAqMIk3HbnHnOkQ==";
+        };
     in {
         "rq4Ifugf" = _rq4Ifugf;
         "ZlNtOtD7" = _ZlNtOtD7;
@@ -218,7 +238,11 @@ let
         "PJMlXlmu" = _PJMlXlmu;
         "q4OeEa0I" = _q4OeEa0I;
         "ECPTnHRT" = _ECPTnHRT;
-        "neoforge-1.21.1" = _ECPTnHRT;
+        "xwDto63x" = _xwDto63x;
+        "gGoVwvZi" = _gGoVwvZi;
+        "zp9m79sN" = _zp9m79sN;
+        "hQM5gCcc" = _hQM5gCcc;
+        "neoforge-1.21.1" = _hQM5gCcc;
         "neoforge-1.21.2" = _rq4Ifugf;
         "neoforge-1.21.3" = _rq4Ifugf;
         "neoforge-1.21.4" = _rq4Ifugf;
@@ -229,7 +253,7 @@ let
         "neoforge-1.21.9" = _rq4Ifugf;
         "neoforge-1.21.10" = _rq4Ifugf;
         "neoforge-1.21.11" = _rq4Ifugf;
-        "neoforge-26.1.2" = _q4OeEa0I;
+        "neoforge-26.1.2" = _zp9m79sN;
         "pkg-1.0.0" = _rq4Ifugf;
         "pkg-1.21.1-1.1.0" = _ZlNtOtD7;
         "pkg-1.21.1-1.2.0" = _vB95Gs3T;
@@ -266,7 +290,11 @@ let
         "pkg-26.1.2-1.7.4" = _PJMlXlmu;
         "pkg-26.1.2-1.7.5" = _q4OeEa0I;
         "pkg-1.21.1-1.7.5" = _ECPTnHRT;
-        "default" = _ECPTnHRT;
+        "pkg-1.21.1-1.7.6" = _xwDto63x;
+        "pkg-26.1.2-1.7.6" = _gGoVwvZi;
+        "pkg-26.1.2-1.7.7" = _zp9m79sN;
+        "pkg-1.21.1-1.7.7" = _hQM5gCcc;
+        "default" = _hQM5gCcc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neosync";

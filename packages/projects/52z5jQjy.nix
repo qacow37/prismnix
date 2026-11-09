@@ -161,6 +161,26 @@ let
             "file" = "redstone-additions-5.1.17.jar";
             "hash" = "sha512-7xn1D5dnnwugHVCqahjAqePj2zPcTw+U5aHzHzqnU2CnoouT+pnggbFvDEcc66dSwKKLtcCmNpjghRdrwcYQKg==";
         };
+        _cuXdmJrs = {
+            "id" = "cuXdmJrs";
+            "file" = "redstone_additions_v6.0.0(RELEASE)-0000.zip";
+            "hash" = "sha512-AaHzBseDR4R1dfbvQRCV+ELgR7DL8l9rQuLw75xuXzF7kuvVwYI1meQIFHc6yau+cWC/qlcCb8yrISmc6NyTZw==";
+        };
+        _wtZNrl53 = {
+            "id" = "wtZNrl53";
+            "file" = "redstone-additions-6.0.0.jar";
+            "hash" = "sha512-luI+/XC1Bikuwi89Lh20TCSkqNegzAC0A5Jwd3KdNJCeyeHid/qsHYWx/63szI0iQuPd/HjbRqzmz8rfeks5NQ==";
+        };
+        _A1uCsPk3 = {
+            "id" = "A1uCsPk3";
+            "file" = "redstone_additions_v6.0.1(RELEASE)-0000.zip";
+            "hash" = "sha512-loK8PHpN1sHiF+ynpIFj6U3pMq5NOrUYLNWtXzv7ZIkWR58zJ7ajqGNlSEomgGjX1LVaTVvoPiQhvFKNchBwMg==";
+        };
+        _CmpGyfw2 = {
+            "id" = "CmpGyfw2";
+            "file" = "redstone-additions-6.0.1.jar";
+            "hash" = "sha512-H1XLXhFVIXbDDY4HDy8nuG3AQVdQpoRSAkHquVSt/ZbDaG2P2FYJcrsRhbFal38A9NpYCMpsqZ+u3pi5lpCjDA==";
+        };
     in {
         "aWHxIOLn" = _aWHxIOLn;
         "2NwE5nkp" = _2NwE5nkp;
@@ -194,6 +214,10 @@ let
         "zqEKmnRW" = _zqEKmnRW;
         "Zyu4c6rI" = _Zyu4c6rI;
         "VJZ2Kymi" = _VJZ2Kymi;
+        "cuXdmJrs" = _cuXdmJrs;
+        "wtZNrl53" = _wtZNrl53;
+        "A1uCsPk3" = _A1uCsPk3;
+        "CmpGyfw2" = _CmpGyfw2;
         "datapack-1.21.10" = _Zyu4c6rI;
         "datapack-1.21.9" = _Zyu4c6rI;
         "datapack-1.21.11" = _Zyu4c6rI;
@@ -202,7 +226,7 @@ let
         "datapack-26.1.1" = _Zyu4c6rI;
         "datapack-26.1.2" = _Zyu4c6rI;
         "datapack-26.2" = _Zyu4c6rI;
-        "datapack-26.3" = _Zyu4c6rI;
+        "datapack-26.3" = _A1uCsPk3;
         "fabric-1.21.9" = _VJZ2Kymi;
         "fabric-1.21.10" = _VJZ2Kymi;
         "fabric-1.21.11" = _VJZ2Kymi;
@@ -210,7 +234,7 @@ let
         "fabric-26.1.1" = _VJZ2Kymi;
         "fabric-26.1.2" = _VJZ2Kymi;
         "fabric-26.2" = _VJZ2Kymi;
-        "fabric-26.3" = _VJZ2Kymi;
+        "fabric-26.3" = _CmpGyfw2;
         "forge-1.21.9" = _VJZ2Kymi;
         "forge-1.21.10" = _VJZ2Kymi;
         "forge-1.21.11" = _VJZ2Kymi;
@@ -218,7 +242,7 @@ let
         "forge-26.1.1" = _VJZ2Kymi;
         "forge-26.1.2" = _VJZ2Kymi;
         "forge-26.2" = _VJZ2Kymi;
-        "forge-26.3" = _VJZ2Kymi;
+        "forge-26.3" = _CmpGyfw2;
         "neoforge-1.21.9" = _VJZ2Kymi;
         "neoforge-1.21.10" = _VJZ2Kymi;
         "neoforge-1.21.11" = _VJZ2Kymi;
@@ -226,7 +250,7 @@ let
         "neoforge-26.1.1" = _VJZ2Kymi;
         "neoforge-26.1.2" = _VJZ2Kymi;
         "neoforge-26.2" = _VJZ2Kymi;
-        "neoforge-26.3" = _VJZ2Kymi;
+        "neoforge-26.3" = _CmpGyfw2;
         "quilt-1.21.9" = _VJZ2Kymi;
         "quilt-1.21.10" = _VJZ2Kymi;
         "quilt-1.21.11" = _VJZ2Kymi;
@@ -234,7 +258,7 @@ let
         "quilt-26.1.1" = _VJZ2Kymi;
         "quilt-26.1.2" = _VJZ2Kymi;
         "quilt-26.2" = _VJZ2Kymi;
-        "quilt-26.3" = _VJZ2Kymi;
+        "quilt-26.3" = _CmpGyfw2;
         "pkg-3.0.0.0000" = _aWHxIOLn;
         "pkg-3.0.0(ALPHA)-0003" = _2NwE5nkp;
         "pkg-v3.0.0(ALPHA)-0004" = _g32md6IE;
@@ -265,7 +289,11 @@ let
         "pkg-5.1.16+mod" = _zqEKmnRW;
         "pkg-5.1.17" = _Zyu4c6rI;
         "pkg-5.1.17+mod" = _VJZ2Kymi;
-        "default" = _VJZ2Kymi;
+        "pkg-6.0.0" = _cuXdmJrs;
+        "pkg-6.0.0+mod" = _wtZNrl53;
+        "pkg-6.0.1" = _A1uCsPk3;
+        "pkg-6.0.1+mod" = _CmpGyfw2;
+        "default" = _CmpGyfw2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-additions";

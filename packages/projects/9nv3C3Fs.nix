@@ -11,9 +11,15 @@ let
             "file" = "wither_death_sound.jar";
             "hash" = "sha512-uQuUGX1TINnSEExCzHj3ouRqY9WJ5zCpervFY/FE2IgH3v6fLvmLNwUURyzcSrTjG49AMmAS0YWT/fSDLz5k9Q==";
         };
+        _2VM14Pin = {
+            "id" = "2VM14Pin";
+            "file" = "wither_death_sound.jar";
+            "hash" = "sha512-uQuUGX1TINnSEExCzHj3ouRqY9WJ5zCpervFY/FE2IgH3v6fLvmLNwUURyzcSrTjG49AMmAS0YWT/fSDLz5k9Q==";
+        };
     in {
         "xu630rCL" = _xu630rCL;
         "c0ZkuwNr" = _c0ZkuwNr;
+        "2VM14Pin" = _2VM14Pin;
         "datapack-1.21" = _xu630rCL;
         "datapack-1.21.1" = _xu630rCL;
         "datapack-1.21.2" = _xu630rCL;
@@ -38,6 +44,7 @@ let
         "fabric-1.21.9" = _c0ZkuwNr;
         "fabric-1.21.10" = _c0ZkuwNr;
         "fabric-1.21.11" = _c0ZkuwNr;
+        "fabric-26.3" = _2VM14Pin;
         "forge-1.21" = _c0ZkuwNr;
         "forge-1.21.1" = _c0ZkuwNr;
         "forge-1.21.2" = _c0ZkuwNr;
@@ -50,6 +57,7 @@ let
         "forge-1.21.9" = _c0ZkuwNr;
         "forge-1.21.10" = _c0ZkuwNr;
         "forge-1.21.11" = _c0ZkuwNr;
+        "forge-26.3" = _2VM14Pin;
         "neoforge-1.21" = _c0ZkuwNr;
         "neoforge-1.21.1" = _c0ZkuwNr;
         "neoforge-1.21.2" = _c0ZkuwNr;
@@ -62,6 +70,7 @@ let
         "neoforge-1.21.9" = _c0ZkuwNr;
         "neoforge-1.21.10" = _c0ZkuwNr;
         "neoforge-1.21.11" = _c0ZkuwNr;
+        "neoforge-26.3" = _2VM14Pin;
         "quilt-1.21" = _c0ZkuwNr;
         "quilt-1.21.1" = _c0ZkuwNr;
         "quilt-1.21.2" = _c0ZkuwNr;
@@ -74,8 +83,9 @@ let
         "quilt-1.21.9" = _c0ZkuwNr;
         "quilt-1.21.10" = _c0ZkuwNr;
         "quilt-1.21.11" = _c0ZkuwNr;
-        "pkg-1.0.0" = _c0ZkuwNr;
-        "default" = _c0ZkuwNr;
+        "quilt-26.3" = _2VM14Pin;
+        "pkg-1.0.0" = _2VM14Pin;
+        "default" = _2VM14Pin;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wither-death-sound";

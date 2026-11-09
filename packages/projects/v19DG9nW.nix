@@ -251,6 +251,16 @@ let
             "file" = "cobblemon_battle_tower-fabric-1.11.23.jar";
             "hash" = "sha512-wJN02UqZxGV53OoGgCCKjjEwHOXQM63E8X016brl9q2YecArjPoY0+lctqvrpXPwQ4u4HmSqlB5LHu5ULK74Bw==";
         };
+        _v7Oyk8Ag = {
+            "id" = "v7Oyk8Ag";
+            "file" = "cobblemon_battle_tower-fabric-1.11.24.jar";
+            "hash" = "sha512-dT1fXGyEUdh8xWucFduDpbaUo3nosPGKQDrlS8rezrBQBBMPGPP+NCiTTtY9PnXv5BImLWU8PkkviPpo7WIffA==";
+        };
+        _ZOUIqmra = {
+            "id" = "ZOUIqmra";
+            "file" = "cobblemon_battle_tower-neoforge-1.11.24.jar";
+            "hash" = "sha512-UaeyZeH8mh49JbR3SxW1iWiTEnq5ch1HPuyhLGfRWBw6H6muayqQaGYzpEMF7pCwJrMDo5XR5BkOiJMFd7pn1A==";
+        };
     in {
         "Hu67wej6" = _Hu67wej6;
         "nxLydpfu" = _nxLydpfu;
@@ -302,7 +312,9 @@ let
         "ukAxBmWe" = _ukAxBmWe;
         "hzDUcNDj" = _hzDUcNDj;
         "Srt2YL8E" = _Srt2YL8E;
-        "neoforge-1.21.1" = _hzDUcNDj;
+        "v7Oyk8Ag" = _v7Oyk8Ag;
+        "ZOUIqmra" = _ZOUIqmra;
+        "neoforge-1.21.1" = _ZOUIqmra;
         "neoforge-1.21.2" = _v1PqV2hc;
         "neoforge-1.21.3" = _v1PqV2hc;
         "neoforge-1.21.4" = _v1PqV2hc;
@@ -313,7 +325,7 @@ let
         "neoforge-1.21.9" = _v1PqV2hc;
         "neoforge-1.21.10" = _v1PqV2hc;
         "neoforge-1.21.11" = _v1PqV2hc;
-        "fabric-1.21.1" = _Srt2YL8E;
+        "fabric-1.21.1" = _v7Oyk8Ag;
         "fabric-1.21.2" = _uLAh77Oy;
         "fabric-1.21.3" = _uLAh77Oy;
         "fabric-1.21.4" = _uLAh77Oy;
@@ -349,7 +361,8 @@ let
         "pkg-1.10.21" = _FT5qisdO;
         "pkg-1.10.22" = _ukAxBmWe;
         "pkg-1.11.23" = _Srt2YL8E;
-        "default" = _Srt2YL8E;
+        "pkg-1.11.24" = _ZOUIqmra;
+        "default" = _ZOUIqmra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-battle-tower";

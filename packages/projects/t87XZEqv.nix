@@ -206,6 +206,16 @@ let
             "file" = "Kilt-21.1.18.jar";
             "hash" = "sha512-YvGTisnTzHy9Illx6xgxE89xLMBtbXLTAHfAfjxA4IfBJVgVJ9rSrlHjDbjVyCjQwCzPwSxggxSJUHEtEGrIIg==";
         };
+        _VPSWBxqv = {
+            "id" = "VPSWBxqv";
+            "file" = "Kilt-21.1.19.jar";
+            "hash" = "sha512-Z/CW0I/qXvZSB+s/xKLds263601Tn8ezqMcppEWPDzIoVB/NeWgLOIezvyNE2lXHU1xgMUAQDYYAV1Ek+qLYgg==";
+        };
+        _tktUNUKP = {
+            "id" = "tktUNUKP";
+            "file" = "Kilt-20.1.23.jar";
+            "hash" = "sha512-roMf77MpGMUOAwdZdYJqMwFvzX2HTtp321PfwJ23E9BGVlM/QWevj7+7ixCMET4P3AM1oEoYTHpBPRETQR4hRg==";
+        };
     in {
         "EZSdSRAL" = _EZSdSRAL;
         "OacGiohQ" = _OacGiohQ;
@@ -248,8 +258,10 @@ let
         "78FmWB64" = _78FmWB64;
         "xqBjG0Da" = _xqBjG0Da;
         "yOgMbi2o" = _yOgMbi2o;
-        "fabric-1.20.1" = _xqBjG0Da;
-        "fabric-1.21.1" = _yOgMbi2o;
+        "VPSWBxqv" = _VPSWBxqv;
+        "tktUNUKP" = _tktUNUKP;
+        "fabric-1.20.1" = _tktUNUKP;
+        "fabric-1.21.1" = _VPSWBxqv;
         "pkg-20.1.0" = _EZSdSRAL;
         "pkg-20.1.1" = _OacGiohQ;
         "pkg-20.1.2" = _jTHxuZMV;
@@ -291,7 +303,9 @@ let
         "pkg-21.1.17" = _78FmWB64;
         "pkg-20.1.22" = _xqBjG0Da;
         "pkg-21.1.18" = _yOgMbi2o;
-        "default" = _yOgMbi2o;
+        "pkg-21.1.19" = _VPSWBxqv;
+        "pkg-20.1.23" = _tktUNUKP;
+        "default" = _tktUNUKP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kilt";

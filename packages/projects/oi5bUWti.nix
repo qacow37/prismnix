@@ -46,6 +46,11 @@ let
             "file" = "beacon-aura-1.2.1.jar";
             "hash" = "sha512-M45BG7A/PPoHW56IJAFpLKQ6Q04f2SEU1FPRkekuL2bnq/QHs9ElUvsRVz/0H9IiWtMSiqLzOzdf4M4B1E92ZQ==";
         };
+        _HDozst6r = {
+            "id" = "HDozst6r";
+            "file" = "beacon-aura-1.3.0.jar";
+            "hash" = "sha512-DWnnh7pzqsZtiPySBWYr0jtLnasDeVGHDOhXQwXPnBpZb9Lv/g3v6NeMRTfnDobDumiNn/Nv306bpiEW9pUDwg==";
+        };
     in {
         "bX7CkLyd" = _bX7CkLyd;
         "oblfwcNL" = _oblfwcNL;
@@ -56,6 +61,7 @@ let
         "P2zdDRVl" = _P2zdDRVl;
         "tIXaaW5s" = _tIXaaW5s;
         "JRADOWti" = _JRADOWti;
+        "HDozst6r" = _HDozst6r;
         "fabric-1.21" = _UoeaZCYm;
         "fabric-1.21.1" = _UoeaZCYm;
         "fabric-1.21.2" = _UoeaZCYm;
@@ -68,11 +74,11 @@ let
         "fabric-1.21.9" = _UoeaZCYm;
         "fabric-1.21.10" = _UoeaZCYm;
         "fabric-1.21.11" = _UoeaZCYm;
-        "fabric-26.1" = _JRADOWti;
-        "fabric-26.1.1" = _JRADOWti;
-        "fabric-26.1.2" = _JRADOWti;
-        "fabric-26.2" = _JRADOWti;
-        "fabric-26.3" = _JRADOWti;
+        "fabric-26.1" = _HDozst6r;
+        "fabric-26.1.1" = _HDozst6r;
+        "fabric-26.1.2" = _HDozst6r;
+        "fabric-26.2" = _HDozst6r;
+        "fabric-26.3" = _HDozst6r;
         "pkg-1.0.0" = _bX7CkLyd;
         "pkg-1.0.1" = _oblfwcNL;
         "pkg-1.0.2" = _R72nutHk;
@@ -82,7 +88,8 @@ let
         "pkg-1.1.1" = _P2zdDRVl;
         "pkg-1.2.0" = _tIXaaW5s;
         "pkg-1.2.1" = _JRADOWti;
-        "default" = _JRADOWti;
+        "pkg-1.3.0" = _HDozst6r;
+        "default" = _HDozst6r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beacon-aura";

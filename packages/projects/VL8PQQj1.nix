@@ -21,11 +21,17 @@ let
             "file" = "whostoppedthemusic-1.1.3.jar";
             "hash" = "sha512-oZVamKU+gfu6hDUOWiGmWNe/OYnxwEeAXj+umFLa4IoiABBSbzXh8/spvlD+GVvWOija8IJ4p4p+irBJmLx76w==";
         };
+        _HgYTuuSA = {
+            "id" = "HgYTuuSA";
+            "file" = "whostoppedthemusic-1.2.0.jar";
+            "hash" = "sha512-TFSpXTSH58f5B49bmBQd2Ap1hPkHwikwExaO/1xcfm9d7Y2CPD2HeHQySew5HbHkovaC0HonIz1G8y02d0HZxw==";
+        };
     in {
         "QHN2vc9e" = _QHN2vc9e;
         "B9FywhnW" = _B9FywhnW;
         "3KTSeAhl" = _3KTSeAhl;
         "MEQVMOQ0" = _MEQVMOQ0;
+        "HgYTuuSA" = _HgYTuuSA;
         "fabric-1.21" = _QHN2vc9e;
         "fabric-1.21.1" = _QHN2vc9e;
         "fabric-1.21.2" = _QHN2vc9e;
@@ -40,6 +46,7 @@ let
         "fabric-1.21.11" = _QHN2vc9e;
         "fabric-26.1.2" = _B9FywhnW;
         "fabric-26.2" = _MEQVMOQ0;
+        "fabric-26.3" = _HgYTuuSA;
         "neoforge-1.21" = _QHN2vc9e;
         "neoforge-1.21.1" = _QHN2vc9e;
         "neoforge-1.21.2" = _QHN2vc9e;
@@ -56,7 +63,8 @@ let
         "pkg-1.1.1" = _B9FywhnW;
         "pkg-1.1.2" = _3KTSeAhl;
         "pkg-1.1.3" = _MEQVMOQ0;
-        "default" = _MEQVMOQ0;
+        "pkg-1.2.0" = _HgYTuuSA;
+        "default" = _HgYTuuSA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whostoppedthemusic";

@@ -116,6 +116,16 @@ let
             "file" = "mnwe-NEOFORGE-1.7.3-1.21.1.jar";
             "hash" = "sha512-qKjPOnZzE5M85UMUWuY8g1Fah40Q45aSo7vE8jo9W3jlMg7QacdxuFlf/H3Hm5VlesK3kab5lAsjgM1nC1Qmlg==";
         };
+        _wU4d1h4W = {
+            "id" = "wU4d1h4W";
+            "file" = "mnwe-FORGE-1.8.0-1.20.1.jar";
+            "hash" = "sha512-Gc1XP0FSd/VhDliC4sHT79s1bTo3zVILooxLujKcy7GtjD04xe9SFMhuQ5Zy5mx+tj1cDBAloR5BqWRUE6fQ4Q==";
+        };
+        _WenYcovk = {
+            "id" = "WenYcovk";
+            "file" = "mnwe-NEOFORGE-1.8.0-1.21.1.jar";
+            "hash" = "sha512-PAAs1x6F6QuawSI4hniCYoDKNBkHQJ42rUzf1WkRlfUjTbkrp/4MDJ/R6tRboBtWTL265IjUGbx3iof509/SiA==";
+        };
     in {
         "wlA2b6xd" = _wlA2b6xd;
         "3pYYfI8r" = _3pYYfI8r;
@@ -140,8 +150,10 @@ let
         "kLNo5hXB" = _kLNo5hXB;
         "9OSNOQn0" = _9OSNOQn0;
         "xsSS58TM" = _xsSS58TM;
-        "neoforge-1.21.1" = _xsSS58TM;
-        "forge-1.20.1" = _9OSNOQn0;
+        "wU4d1h4W" = _wU4d1h4W;
+        "WenYcovk" = _WenYcovk;
+        "neoforge-1.21.1" = _WenYcovk;
+        "forge-1.20.1" = _wU4d1h4W;
         "pkg-1.0.0" = _wlA2b6xd;
         "pkg-1.0.1" = _3pYYfI8r;
         "pkg-1.0.2" = _Tn3pndUf;
@@ -165,7 +177,9 @@ let
         "pkg-1.7.2+neoforge-1.21.1" = _kLNo5hXB;
         "pkg-1.7.3+forge-1.20.1" = _9OSNOQn0;
         "pkg-1.7.3+neoforge-1.21.1" = _xsSS58TM;
-        "default" = _xsSS58TM;
+        "pkg-1.8.0+forge-1.20.1" = _wU4d1h4W;
+        "pkg-1.8.0+neoforge-1.21.1" = _WenYcovk;
+        "default" = _WenYcovk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism-nuclear-weapons-explosives";

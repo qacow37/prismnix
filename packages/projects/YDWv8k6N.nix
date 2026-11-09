@@ -451,6 +451,26 @@ let
             "file" = "renourisheddelight-1.21.1_3.2.5-beta.jar";
             "hash" = "sha512-fq9DKhkqnnBHyJVZX5gCvpr9oWc1/cOLRdGZF4BYM7QQBOyoGqUiJNtX2OXwNpKnW91T5rK6QbHNhp/OhLSilw==";
         };
+        _FEAmYJ6o = {
+            "id" = "FEAmYJ6o";
+            "file" = "renourisheddelight-1.21.1_3.2.6-beta.jar";
+            "hash" = "sha512-nRqUu9F+QYvVTdw77oVREiXdruB0IoonvO7Cc7sC7oPcf0GwfztoZ7ZIVV3GFtiYVpaaH+bX8wkfJEj5oXPy6Q==";
+        };
+        _k9gdeERT = {
+            "id" = "k9gdeERT";
+            "file" = "renourisheddelight-1.21.1_3.2.6-beta.jar";
+            "hash" = "sha512-JRKvwgIn5QIrbzWBMF3xHXs+Vn6OVY4jhhMyUWu4zvG0Y6Aia52UqCG4WmzbVkMrFzM3ijZ48puUgqs8CtRsDw==";
+        };
+        _3oDOJydC = {
+            "id" = "3oDOJydC";
+            "file" = "renourisheddelight-1.20.1_3.2.6-beta.jar";
+            "hash" = "sha512-E3eyQFL+rWhnA8mJO0G8t2R7iuJEI+Zm8fkmdckyiwi6iLEFDEkcWxmohWF01J/I7fu1FpWll1jT28fABQiqAw==";
+        };
+        _BUCTKByp = {
+            "id" = "BUCTKByp";
+            "file" = "renourisheddelight-1.20.1_3.2.6-beta.jar";
+            "hash" = "sha512-7g8j/tEigr8zHt6BzyC54vN7VaCYqHc9+Ovg/YFtB4ZkmiMQY7Yw9xw+CwBpGs2y171W4C1pTxqElwdh1C5GEA==";
+        };
     in {
         "3wWAgq9H" = _3wWAgq9H;
         "DveJIXCI" = _DveJIXCI;
@@ -542,10 +562,14 @@ let
         "trTeMWis" = _trTeMWis;
         "I9YTNdmR" = _I9YTNdmR;
         "z27ONbz8" = _z27ONbz8;
-        "forge-1.20.1" = _25p1Fw8L;
-        "fabric-1.20.1" = _trTeMWis;
-        "fabric-1.21.1" = _z27ONbz8;
-        "neoforge-1.21.1" = _I9YTNdmR;
+        "FEAmYJ6o" = _FEAmYJ6o;
+        "k9gdeERT" = _k9gdeERT;
+        "3oDOJydC" = _3oDOJydC;
+        "BUCTKByp" = _BUCTKByp;
+        "forge-1.20.1" = _3oDOJydC;
+        "fabric-1.20.1" = _BUCTKByp;
+        "fabric-1.21.1" = _k9gdeERT;
+        "neoforge-1.21.1" = _FEAmYJ6o;
         "pkg-1.20.1_1.0.0-alpha" = _3wWAgq9H;
         "pkg-1.20.1_1.0.0-beta" = _DveJIXCI;
         "pkg-1.20.1_1.0.0-release" = _WasMEbL2;
@@ -591,7 +615,9 @@ let
         "pkg-1.21.1_3.2.4-release" = _b5A1C6gH;
         "pkg-1.20.1_3.2.4-release" = _trTeMWis;
         "pkg-1.21.1_3.2.5-beta" = _z27ONbz8;
-        "default" = _z27ONbz8;
+        "pkg-1.21.1_3.2.6-beta" = _k9gdeERT;
+        "pkg-1.20.1_3.2.6-beta" = _BUCTKByp;
+        "default" = _BUCTKByp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "renourisheddelight";

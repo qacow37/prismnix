@@ -336,6 +336,11 @@ let
             "file" = "prefab-fabric-7.1.0.jar";
             "hash" = "sha512-1gFrgPvy7JHHIpQgwRrfkQHGOE1X2CrX9+fVcLF9zy66OiETGvfsT4dqcyclpy3NBoqverS+XpWXcKLaNeXLXw==";
         };
+        _KBaiAoAd = {
+            "id" = "KBaiAoAd";
+            "file" = "prefab-1.10.0.2.jar";
+            "hash" = "sha512-hVzuuyX1z34IM8cANF7sP43zzjV1k7EykkClrgEdCOG9QU347wtzdv8vCXvqC3kNrVfcRn34ON3qSiCQh5jUTg==";
+        };
     in {
         "HZyOJNCW" = _HZyOJNCW;
         "THh2z7up" = _THh2z7up;
@@ -404,6 +409,7 @@ let
         "aPAAckQy" = _aPAAckQy;
         "sBfWTGvD" = _sBfWTGvD;
         "8QDVRGKl" = _8QDVRGKl;
+        "KBaiAoAd" = _KBaiAoAd;
         "fabric-1.16.5" = _bXNDCPON;
         "fabric-1.16.3" = _DEEGEght;
         "fabric-1.16.4" = _DEEGEght;
@@ -428,7 +434,7 @@ let
         "neoforge-1.21.11" = _fd7AYJPw;
         "neoforge-26.1.2" = _FSo4llvE;
         "neoforge-26.2" = _sBfWTGvD;
-        "forge-1.20.1" = _ZlrnxNhh;
+        "forge-1.20.1" = _KBaiAoAd;
         "forge-1.12.2" = _RfS9WGhJ;
         "forge-1.18.2" = _l2wdyEpA;
         "forge-1.16.5" = _fZakgnGw;
@@ -499,7 +505,8 @@ let
         "pkg-7.0.0" = _aPAAckQy;
         "pkg-2.1.0" = _sBfWTGvD;
         "pkg-7.1.0" = _8QDVRGKl;
-        "default" = _8QDVRGKl;
+        "pkg-1.10.0.2" = _KBaiAoAd;
+        "default" = _KBaiAoAd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prefab";

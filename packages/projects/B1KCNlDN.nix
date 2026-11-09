@@ -151,6 +151,21 @@ let
             "file" = "kaleidoscope_end-1.1.0.1-fabric+mc26.3.jar";
             "hash" = "sha512-eZfSRz3/JN9aFybDYlI0C7OvxUR9NvF4bvYK+q9p8iWCZdCYAVGUZPsPT1Q+uM80vyS9vrTM3YRblPxpxou0Hg==";
         };
+        _3wDPeBQ4 = {
+            "id" = "3wDPeBQ4";
+            "file" = "kaleidoscope_end-1.1.0.2-fabric+mc26.1.2.jar";
+            "hash" = "sha512-Sgk8CnXIOes4eq4o0VQsCcQmYWX0vRKT2Td5hWKtYwyuI2RA2dkDXqbyV6+PbkGRyw4oaNL8bsSDMXnNnTyNcQ==";
+        };
+        _GVsWFSDM = {
+            "id" = "GVsWFSDM";
+            "file" = "kaleidoscope_end-1.1.0.2-fabric+mc26.2.jar";
+            "hash" = "sha512-YKbZFi3cz/BFv/HBIeZ8bw2PtBO3yAEAOPJbpitEGUzo1yyDfw3meja4lk9SDA+qVNXpPzB42UNnP9pXdj6W4A==";
+        };
+        _KQACMT1z = {
+            "id" = "KQACMT1z";
+            "file" = "kaleidoscope_end-1.1.0.2-fabric+mc26.3.jar";
+            "hash" = "sha512-rgkzuM42k4kMo+nFTaay8jB8CIFOZtmHgFuUUMCfRNOJjUmoyp4nU3xrqvLNJ5MqhOo4FOAl5hEgc87arq5JLA==";
+        };
     in {
         "G9oH8n0m" = _G9oH8n0m;
         "huMyecMq" = _huMyecMq;
@@ -182,13 +197,16 @@ let
         "m8zFVPsK" = _m8zFVPsK;
         "uEmxotMA" = _uEmxotMA;
         "cvltOFli" = _cvltOFli;
+        "3wDPeBQ4" = _3wDPeBQ4;
+        "GVsWFSDM" = _GVsWFSDM;
+        "KQACMT1z" = _KQACMT1z;
         "fabric-1.21.1" = _huMyecMq;
         "fabric-1.21.11" = _JlA9Lg53;
-        "fabric-26.1" = _m8zFVPsK;
-        "fabric-26.1.1" = _m8zFVPsK;
-        "fabric-26.1.2" = _m8zFVPsK;
-        "fabric-26.2" = _uEmxotMA;
-        "fabric-26.3" = _cvltOFli;
+        "fabric-26.1" = _3wDPeBQ4;
+        "fabric-26.1.1" = _3wDPeBQ4;
+        "fabric-26.1.2" = _3wDPeBQ4;
+        "fabric-26.2" = _GVsWFSDM;
+        "fabric-26.3" = _KQACMT1z;
         "pkg-1.0.4-fabric+mc1.21.1" = _G9oH8n0m;
         "pkg-1.0.7-fabric+mc1.21.1" = _huMyecMq;
         "pkg-1.0.7-fabric+mc1.21.11" = _VaVFJcp7;
@@ -219,7 +237,10 @@ let
         "pkg-1.1.0.1-fabric+mc26.1.2" = _m8zFVPsK;
         "pkg-1.1.0.1-fabric+mc26.2" = _uEmxotMA;
         "pkg-1.1.0.1-fabric+mc26.3" = _cvltOFli;
-        "default" = _cvltOFli;
+        "pkg-1.1.0.2-fabric+mc26.1.2" = _3wDPeBQ4;
+        "pkg-1.1.0.2-fabric+mc26.2" = _GVsWFSDM;
+        "pkg-1.1.0.2-fabric+mc26.3" = _KQACMT1z;
+        "default" = _KQACMT1z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-end-refabricated";

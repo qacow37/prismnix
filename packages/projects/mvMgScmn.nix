@@ -76,6 +76,11 @@ let
             "file" = "ScoreboardPL-1.7.4.jar";
             "hash" = "sha512-+4jBa0KDYuJTMb7+VFihlQe4IPgRgRykzw7udVSqqR0VLMk6a4qI4SqQTwGaZQFoSEoStkbAwS6y4nXzX5RTdA==";
         };
+        _laCbSkIx = {
+            "id" = "laCbSkIx";
+            "file" = "ScoreboardPL-1.7.5.jar";
+            "hash" = "sha512-EHR6DyBwjHB8uric9OZboJxoQNpMAUJw3hXF8mYFCnXyyeRcsd4M5FABlFHEMbfCYvh1YGO+FrK0hziGl0a0Bw==";
+        };
     in {
         "uDPRAsCT" = _uDPRAsCT;
         "nKkdjDEy" = _nKkdjDEy;
@@ -92,6 +97,7 @@ let
         "Rkl50ybQ" = _Rkl50ybQ;
         "1uaOWfTc" = _1uaOWfTc;
         "P1LLmh79" = _P1LLmh79;
+        "laCbSkIx" = _laCbSkIx;
         "bukkit-1.21" = _2i0U9TW2;
         "bukkit-1.21.1" = _2i0U9TW2;
         "bukkit-1.21.2" = _2i0U9TW2;
@@ -108,7 +114,7 @@ let
         "bukkit-26.1.1" = _1uaOWfTc;
         "bukkit-26.1.2" = _1uaOWfTc;
         "bukkit-26.2" = _Rkl50ybQ;
-        "bukkit-26.3" = _Aqn65G3o;
+        "bukkit-26.3" = _laCbSkIx;
         "bukkit-1.20" = _P1LLmh79;
         "bukkit-1.20.1" = _P1LLmh79;
         "bukkit-1.20.2" = _P1LLmh79;
@@ -132,7 +138,7 @@ let
         "folia-26.1.1" = _1uaOWfTc;
         "folia-26.1.2" = _1uaOWfTc;
         "folia-26.2" = _Rkl50ybQ;
-        "folia-26.3" = _Aqn65G3o;
+        "folia-26.3" = _laCbSkIx;
         "folia-1.20" = _P1LLmh79;
         "folia-1.20.1" = _P1LLmh79;
         "folia-1.20.2" = _P1LLmh79;
@@ -156,7 +162,7 @@ let
         "paper-26.1.1" = _1uaOWfTc;
         "paper-26.1.2" = _1uaOWfTc;
         "paper-26.2" = _Rkl50ybQ;
-        "paper-26.3" = _Aqn65G3o;
+        "paper-26.3" = _laCbSkIx;
         "paper-1.20" = _P1LLmh79;
         "paper-1.20.1" = _P1LLmh79;
         "paper-1.20.2" = _P1LLmh79;
@@ -180,7 +186,7 @@ let
         "purpur-26.1.1" = _1uaOWfTc;
         "purpur-26.1.2" = _1uaOWfTc;
         "purpur-26.2" = _Rkl50ybQ;
-        "purpur-26.3" = _Aqn65G3o;
+        "purpur-26.3" = _laCbSkIx;
         "purpur-1.20" = _P1LLmh79;
         "purpur-1.20.1" = _P1LLmh79;
         "purpur-1.20.2" = _P1LLmh79;
@@ -204,7 +210,7 @@ let
         "spigot-26.1.1" = _1uaOWfTc;
         "spigot-26.1.2" = _1uaOWfTc;
         "spigot-26.2" = _Rkl50ybQ;
-        "spigot-26.3" = _Aqn65G3o;
+        "spigot-26.3" = _laCbSkIx;
         "spigot-1.20" = _P1LLmh79;
         "spigot-1.20.1" = _P1LLmh79;
         "spigot-1.20.2" = _P1LLmh79;
@@ -226,7 +232,8 @@ let
         "pkg-1.7.2" = _Rkl50ybQ;
         "pkg-1.7.3" = _1uaOWfTc;
         "pkg-1.7.4" = _P1LLmh79;
-        "default" = _P1LLmh79;
+        "pkg-1.7.5" = _laCbSkIx;
+        "default" = _laCbSkIx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scoreboardpl";

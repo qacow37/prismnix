@@ -256,6 +256,46 @@ let
             "file" = "laboratoryblocks-1.0-forge-mc1.16.5.jar";
             "hash" = "sha512-xRZUNlqI+nvtVL4Rp2gNipBHH76v66/VdG7nIL33llgH/Ph2qBBPD4icU8zth8moVulrlhcQpwZ32WFF90Z5Uw==";
         };
+        _4Nx5KHXu = {
+            "id" = "4Nx5KHXu";
+            "file" = "laboratoryblocks-1.0-fabric-mc1.18.2.jar";
+            "hash" = "sha512-HRsgq2uOan8y+3/JpAMr5saBeKajR3lXI7iNmD7jVGmtDz4dFrFINVo9PMsiLzJXI8jkVvtXtfpLHyVwRxE2vA==";
+        };
+        _2XcvugYc = {
+            "id" = "2XcvugYc";
+            "file" = "laboratoryblocks-1.0-fabric-mc1.19.2.jar";
+            "hash" = "sha512-JRrzXZ4R9ctnu4zz1kcL+tWgnZXk49GagaE+a+uWx551J1Y+Bd65vJx4wSZOIj6yMnjoKn0mBLY1RW6+YQEwIw==";
+        };
+        _Rmo2xw7o = {
+            "id" = "Rmo2xw7o";
+            "file" = "laboratoryblocks-1.0-fabric-mc1.20.1.jar";
+            "hash" = "sha512-7Ik8AZ6gb715igT2GAFhSEnLzA5QhRdwNeHYxwJNriu2M7Ziu3e86ow0+b8vJmJJ3VeODQ60nhHtu+3qhfDjzQ==";
+        };
+        _237kFoW9 = {
+            "id" = "237kFoW9";
+            "file" = "laboratoryblocks-1.0-fabric-mc1.21.1.jar";
+            "hash" = "sha512-jJv/VyrgN8vBJVn74mdqzJfa0QZCjlVF2dXxL7glfBk+C2Ss1p632v5J+mRj9FxOS6r535UfpeH2Gt9u/VP7XQ==";
+        };
+        _kYM7D7Kg = {
+            "id" = "kYM7D7Kg";
+            "file" = "laboratoryblocks-1.0-fabric-mc1.21.11.jar";
+            "hash" = "sha512-ljHvfKTUZw03NvV+waAI7RmT5WsGorKNVF+7Obj70qFLCU8NYAYqv/QKFiE58QWR/5/nKsqkrqg3+OPnJ4H+rQ==";
+        };
+        _DdX1jyyf = {
+            "id" = "DdX1jyyf";
+            "file" = "laboratoryblocks-1.0-fabric-mc26.1.x.jar";
+            "hash" = "sha512-nz72cwujar9AknJDZK+Nx2/bs2jJkcqrycc5bOpyzlWsRaYafRGiyWnJDkiVKk/Ca4dUjprTx3fmshPphQvlog==";
+        };
+        _mRWM2rix = {
+            "id" = "mRWM2rix";
+            "file" = "laboratoryblocks-1.0-fabric-mc26.2.jar";
+            "hash" = "sha512-vExCXYz7t6TY9OdkWj9j3JJgMSNpKwJcSIaUvLVtra/jD5eaj7/GZ0wZDOchNmvogqfr7rrqvZPPxNYk7EyW/A==";
+        };
+        _rpfHHr0O = {
+            "id" = "rpfHHr0O";
+            "file" = "laboratoryblocks-1.0-fabric-mc26.3.jar";
+            "hash" = "sha512-Z3eA1gMIQto/Jakt0EHVeD8SbvW03mCcC9E1B3XPEYgEuEhKDhAxpuAdYsMOt52ZenY8R+1TwrABlfd4LEmU/Q==";
+        };
     in {
         "mk5YCqvm" = _mk5YCqvm;
         "sawKeFFN" = _sawKeFFN;
@@ -308,6 +348,14 @@ let
         "dRFYNL6B" = _dRFYNL6B;
         "VR5eGhvV" = _VR5eGhvV;
         "hhGFPata" = _hhGFPata;
+        "4Nx5KHXu" = _4Nx5KHXu;
+        "2XcvugYc" = _2XcvugYc;
+        "Rmo2xw7o" = _Rmo2xw7o;
+        "237kFoW9" = _237kFoW9;
+        "kYM7D7Kg" = _kYM7D7Kg;
+        "DdX1jyyf" = _DdX1jyyf;
+        "mRWM2rix" = _mRWM2rix;
+        "rpfHHr0O" = _rpfHHr0O;
         "forge-1.18.2" = _VR5eGhvV;
         "forge-1.19.2" = _dRFYNL6B;
         "forge-1.20.1" = _Z2j4FDC3;
@@ -322,16 +370,16 @@ let
         "neoforge-26.1.1" = _AJmYBTZT;
         "neoforge-26.3" = _c75e7f4h;
         "neoforge-1.20.1" = _Z2j4FDC3;
-        "fabric-1.21.1" = _59rRtl5b;
-        "fabric-1.21.11" = _p4I1qyXE;
-        "fabric-26.1" = _LMfE3FwE;
-        "fabric-26.1.1" = _LMfE3FwE;
-        "fabric-26.1.2" = _LMfE3FwE;
-        "fabric-26.2" = _DIWANOVJ;
-        "fabric-1.20.1" = _4qu9YXFu;
-        "fabric-1.19.2" = _a7WVRucj;
-        "fabric-1.18.2" = _KUmAyHFt;
-        "fabric-26.3" = _GKFJTbyH;
+        "fabric-1.21.1" = _237kFoW9;
+        "fabric-1.21.11" = _kYM7D7Kg;
+        "fabric-26.1" = _DdX1jyyf;
+        "fabric-26.1.1" = _DdX1jyyf;
+        "fabric-26.1.2" = _DdX1jyyf;
+        "fabric-26.2" = _mRWM2rix;
+        "fabric-1.20.1" = _Rmo2xw7o;
+        "fabric-1.19.2" = _2XcvugYc;
+        "fabric-1.18.2" = _4Nx5KHXu;
+        "fabric-26.3" = _rpfHHr0O;
         "pkg-1.18.2-0.3.2r-ctm-required" = _mk5YCqvm;
         "pkg-1.19.2-0.3.2r-ctm-required" = _sawKeFFN;
         "pkg-1.20.1-0.3.2.2r-fusion" = _sOrAyeov;
@@ -383,7 +431,15 @@ let
         "pkg-1.0-forge-mc1.19.2" = _dRFYNL6B;
         "pkg-1.0-forge-mc1.18.2" = _VR5eGhvV;
         "pkg-1.0-forge-mc1.16.5" = _hhGFPata;
-        "default" = _hhGFPata;
+        "pkg-1.0-fabric-mc1.18.2" = _4Nx5KHXu;
+        "pkg-1.0-fabric-mc1.19.2" = _2XcvugYc;
+        "pkg-1.0-fabric-mc1.20.1" = _Rmo2xw7o;
+        "pkg-1.0-fabric-mc1.21.1" = _237kFoW9;
+        "pkg-1.0-fabric-mc1.21.11" = _kYM7D7Kg;
+        "pkg-1.0-fabric-mc26.1.x" = _DdX1jyyf;
+        "pkg-1.0-fabric-mc26.2" = _mRWM2rix;
+        "pkg-1.0-fabric-mc26.3" = _rpfHHr0O;
+        "default" = _rpfHHr0O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artemis-laboratory-blocks";

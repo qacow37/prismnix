@@ -131,6 +131,16 @@ let
             "file" = "silents-minemons-4.6.1.jar";
             "hash" = "sha512-941yuP+fzVA8Fg7/u1Q2XyeWAG6UUFFKP276hoTju1PZ83e7hPeS7xGRTco3CvsPv1iQ/GlmlDknm/LYXrM2kw==";
         };
+        _J2clhcCy = {
+            "id" = "J2clhcCy";
+            "file" = "silentsminemons-v4.6.2.zip";
+            "hash" = "sha512-gP+5D3Qwvskoa51AGA8FDtWV3er4RgTAuD2AplA6qjYhf+ZVwjHKYX7+z8scRKy9LqzaZdVq+Z3/40BnfsdTow==";
+        };
+        _6i9ddyeX = {
+            "id" = "6i9ddyeX";
+            "file" = "silents-minemons-4.6.2.jar";
+            "hash" = "sha512-49iUserMnvTKmPnXRNh6eK3NBt1TiW5OW/yK744MD1vBZyxgUEV93XS+OqlbLTc51+RYDlhexDa1NoCvy6MDfw==";
+        };
     in {
         "JpzkMOHV" = _JpzkMOHV;
         "fXpIRGS7" = _fXpIRGS7;
@@ -158,16 +168,18 @@ let
         "oAWPi5O8" = _oAWPi5O8;
         "xVPIQ4LF" = _xVPIQ4LF;
         "t0mJBG7J" = _t0mJBG7J;
-        "datapack-1.21.1" = _xVPIQ4LF;
-        "datapack-24w12a" = _xVPIQ4LF;
-        "fabric-1.21.1" = _t0mJBG7J;
-        "fabric-24w12a" = _t0mJBG7J;
-        "forge-1.21.1" = _t0mJBG7J;
-        "forge-24w12a" = _t0mJBG7J;
-        "neoforge-1.21.1" = _t0mJBG7J;
-        "neoforge-24w12a" = _t0mJBG7J;
-        "quilt-1.21.1" = _t0mJBG7J;
-        "quilt-24w12a" = _t0mJBG7J;
+        "J2clhcCy" = _J2clhcCy;
+        "6i9ddyeX" = _6i9ddyeX;
+        "datapack-1.21.1" = _J2clhcCy;
+        "datapack-24w12a" = _J2clhcCy;
+        "fabric-1.21.1" = _6i9ddyeX;
+        "fabric-24w12a" = _6i9ddyeX;
+        "forge-1.21.1" = _6i9ddyeX;
+        "forge-24w12a" = _6i9ddyeX;
+        "neoforge-1.21.1" = _6i9ddyeX;
+        "neoforge-24w12a" = _6i9ddyeX;
+        "quilt-1.21.1" = _6i9ddyeX;
+        "quilt-24w12a" = _6i9ddyeX;
         "pkg-1.1" = _JpzkMOHV;
         "pkg-1.2" = _fXpIRGS7;
         "pkg-2.0" = _XySsGthM;
@@ -194,7 +206,9 @@ let
         "pkg-4.6+mod" = _oAWPi5O8;
         "pkg-4.6.1" = _xVPIQ4LF;
         "pkg-4.6.1+mod" = _t0mJBG7J;
-        "default" = _t0mJBG7J;
+        "pkg-4.6.2" = _J2clhcCy;
+        "pkg-4.6.2+mod" = _6i9ddyeX;
+        "default" = _6i9ddyeX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silents-minemons";

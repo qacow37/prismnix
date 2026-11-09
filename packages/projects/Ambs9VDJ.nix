@@ -86,6 +86,16 @@ let
             "file" = "oceanvillagertrader-1.0.0 Fabric 26.3.jar";
             "hash" = "sha512-NO2YwZi8RUF1ZOwr/ZT7cXHZXKsmhubssuj0OoXuDcYFaCl1wujUKQo0lemF2xbeUqYZbgOaPbcJXI8c+rXuJw==";
         };
+        _KPZQdr3L = {
+            "id" = "KPZQdr3L";
+            "file" = "oceanvillagertrader-1.0.1 Fabric 1.20.1.jar";
+            "hash" = "sha512-FiC5axFD90SGXZg8Oi9FfBUsorY5cSp5bKpGjXTDbyPCRdgOHZv0VwiZHPjgYp9UzlxOwU5hTbaRHD8Mzpvj+Q==";
+        };
+        _cN2Rr4Eb = {
+            "id" = "cN2Rr4Eb";
+            "file" = "oceanvillagertrader-1.0.1 Fabric 1.21.1.jar";
+            "hash" = "sha512-xcT0pmQIaN2+ZGxU9SKv8Dou8b7QRDBCce3q5y97YYuqdGVQOrYkXH5mvoM3/emJQMmv9aqEqHENvIwX4uC+AA==";
+        };
     in {
         "LNE6mErU" = _LNE6mErU;
         "4QXoYVXT" = _4QXoYVXT;
@@ -104,6 +114,8 @@ let
         "qzIQHvWx" = _qzIQHvWx;
         "bTI60C8b" = _bTI60C8b;
         "o6MJGnme" = _o6MJGnme;
+        "KPZQdr3L" = _KPZQdr3L;
+        "cN2Rr4Eb" = _cN2Rr4Eb;
         "forge-1.20.1" = _MKEU0jry;
         "forge-1.19.2" = _4QXoYVXT;
         "forge-1.20.4" = _dmYbQavh;
@@ -113,14 +125,14 @@ let
         "neoforge-1.21.8" = _dqKFWJrI;
         "neoforge-26.1.2" = _BtxZuNGU;
         "neoforge-26.3" = _5pPrnW9k;
-        "fabric-1.20.1" = _qzIQHvWx;
-        "fabric-1.21.1" = _bTI60C8b;
+        "fabric-1.20.1" = _KPZQdr3L;
+        "fabric-1.21.1" = _cN2Rr4Eb;
         "fabric-26.3" = _o6MJGnme;
         "pkg-1.0.0" = _4QXoYVXT;
         "pkg-2.0.0" = _dmYbQavh;
         "pkg-2.0.2" = _ZMRA8Va5;
-        "pkg-2.1.0" = _o6MJGnme;
-        "default" = _o6MJGnme;
+        "pkg-2.1.0" = _cN2Rr4Eb;
+        "default" = _cN2Rr4Eb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocean-villager-trader";

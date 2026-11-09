@@ -101,6 +101,16 @@ let
             "file" = "createnuclear_radiation-1.1.0r+-neoforge.jar";
             "hash" = "sha512-xE6Hu5SSJeKDRE9K+VMeM8MlAImC6psnrd/lp0rC86jVEWY30LYYmvbCHntm7uGWS0NW3ycxy7nz2AZoSAZkUA==";
         };
+        _PqPMEZ0u = {
+            "id" = "PqPMEZ0u";
+            "file" = "createnuclear_radiation-1.1.1r-neoforge.jar";
+            "hash" = "sha512-CpL82iHu/02k0cSIwGavCEr00lddiwaZzrkIxW6uk1r22GvcEg2zMNaFOWoKRL9bJlpsxE56h5ISjpIvMsVsOA==";
+        };
+        _YM8pn5bX = {
+            "id" = "YM8pn5bX";
+            "file" = "createnuclear_radiation-1.1.1r-forge.jar";
+            "hash" = "sha512-Vkt5f5jWqfId6FRUCC1zLw50BeywH4dYOgOucrKcAWxylXrvhAWGLeRW5NdbIjHThicVXNbJp4YfF73zqnfNIg==";
+        };
     in {
         "MeyaBjVS" = _MeyaBjVS;
         "srsQf28N" = _srsQf28N;
@@ -122,8 +132,10 @@ let
         "Zw6HDWA1" = _Zw6HDWA1;
         "MFfZguaN" = _MFfZguaN;
         "36dgx2sY" = _36dgx2sY;
-        "forge-1.20.1" = _Zw6HDWA1;
-        "neoforge-1.21.1" = _36dgx2sY;
+        "PqPMEZ0u" = _PqPMEZ0u;
+        "YM8pn5bX" = _YM8pn5bX;
+        "forge-1.20.1" = _YM8pn5bX;
+        "neoforge-1.21.1" = _PqPMEZ0u;
         "pkg-1.0.0b-forge" = _MeyaBjVS;
         "pkg-1.0.1r-forge" = _srsQf28N;
         "pkg-1.0.2b-forge" = _HZmFWtwk;
@@ -144,7 +156,9 @@ let
         "pkg-1.1.0r-forge" = _Zw6HDWA1;
         "pkg-1.1.0r-neoforge" = _MFfZguaN;
         "pkg-1.1.0r+-neoforge" = _36dgx2sY;
-        "default" = _36dgx2sY;
+        "pkg-1.1.1r-neoforge" = _PqPMEZ0u;
+        "pkg-1.1.1r-forge" = _YM8pn5bX;
+        "default" = _YM8pn5bX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-nuclear-radiation";

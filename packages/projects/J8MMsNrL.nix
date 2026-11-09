@@ -181,6 +181,26 @@ let
             "file" = "oracle_index-neoforge-1.4.0.jar";
             "hash" = "sha512-OTf+UI56B3dp2BNmK/PhPc0Wh01jrJGkM4ENfuOKUm4jygJY9YEMXqZdN83/LK18tAZ89Dy5pIdDFjELGQ4qhw==";
         };
+        _SkoR0WU6 = {
+            "id" = "SkoR0WU6";
+            "file" = "oracle_index-fabric-2.0.1.jar";
+            "hash" = "sha512-0cSdnRja2z3ZvcpxrXUCfY/VFzmVOvcCIX6gpbxRF3tKiBq6l/Dl9Mf+IdVbaqL0YUdKHmZN+RAI3vUzFKNQjA==";
+        };
+        _bizQa8x3 = {
+            "id" = "bizQa8x3";
+            "file" = "oracle_index-neoforge-2.0.1.jar";
+            "hash" = "sha512-5cT4/uJF+IyXs+HcGFkMQ6YtBMuis3gGMcQ0CgoK2sA506J8aaHK6Zb2/teddCq6QRZUTmhX+R0DdTNnpkeyjA==";
+        };
+        _RqQdolzu = {
+            "id" = "RqQdolzu";
+            "file" = "oracle_index-fabric-1.4.1.jar";
+            "hash" = "sha512-WQfWsSLhhaDQVksrZLjEvQqHV0F2qoi9/ufBCIkAT0VKUdNJVaCpUY/xqtRuz7gQ5II3qNZgCalvXsNVatY72w==";
+        };
+        _8UTmNa3g = {
+            "id" = "8UTmNa3g";
+            "file" = "oracle_index-neoforge-1.4.1.jar";
+            "hash" = "sha512-PX/cghrV9+6BT0fgcB4PgWswDxVBrm9S35Jk/UVP+XrLg/wlnx4lv3lH39hSC9hgWa+AM/bs1iRHp+cBaZnK7w==";
+        };
     in {
         "GbpnMw2w" = _GbpnMw2w;
         "wQ1RIGQY" = _wQ1RIGQY;
@@ -218,12 +238,16 @@ let
         "HePYuaTO" = _HePYuaTO;
         "sAdBVBeD" = _sAdBVBeD;
         "7OqGasX2" = _7OqGasX2;
+        "SkoR0WU6" = _SkoR0WU6;
+        "bizQa8x3" = _bizQa8x3;
+        "RqQdolzu" = _RqQdolzu;
+        "8UTmNa3g" = _8UTmNa3g;
         "fabric-1.21" = _bToVO0Np;
-        "fabric-1.21.1" = _sAdBVBeD;
-        "fabric-26.1.2" = _p1E4ZY1d;
+        "fabric-1.21.1" = _RqQdolzu;
+        "fabric-26.1.2" = _SkoR0WU6;
         "neoforge-1.21" = _n4MB9Ww0;
-        "neoforge-1.21.1" = _7OqGasX2;
-        "neoforge-26.1.2" = _z4LDmExp;
+        "neoforge-1.21.1" = _8UTmNa3g;
+        "neoforge-26.1.2" = _bizQa8x3;
         "pkg-0.1.0" = _wQ1RIGQY;
         "pkg-0.1.1" = _n4MB9Ww0;
         "pkg-0.2.0" = _NYDkyUpK;
@@ -241,7 +265,9 @@ let
         "pkg-2.0.0-exp1" = _jNWL0rAJ;
         "pkg-2.0.0" = _z4LDmExp;
         "pkg-1.4.0" = _7OqGasX2;
-        "default" = _7OqGasX2;
+        "pkg-2.0.1" = _bizQa8x3;
+        "pkg-1.4.1" = _8UTmNa3g;
+        "default" = _8UTmNa3g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oracle-index";

@@ -801,6 +801,11 @@ let
             "file" = "neoscripts-fabric-26.2-1.2.2.0.7.1.jar";
             "hash" = "sha512-Y8vyhctmPYWaffg+uXwZOF4QfGgb5DOP6bKKba1Mpqw3/EcyENLI01cpWYPSP2mpDolGIYF5kwPpNGKpfbPtiA==";
         };
+        _vLp1kHNC = {
+            "id" = "vLp1kHNC";
+            "file" = "neoscripts-neoforge-26.2-1.2.2.0.7.1.jar";
+            "hash" = "sha512-Ptjqn1L+wnG/1E1w2C9PO4UgHUhsnVAs8tf58rLXyymTU1GZgmVlEGR6baFQheSr8ds1mOr6bBFzk1yCl5RtQQ==";
+        };
     in {
         "DMECQbZj" = _DMECQbZj;
         "mGNVIIjB" = _mGNVIIjB;
@@ -962,6 +967,7 @@ let
         "kgPwGdsE" = _kgPwGdsE;
         "YYQKNu8a" = _YYQKNu8a;
         "wMQvazaT" = _wMQvazaT;
+        "vLp1kHNC" = _vLp1kHNC;
         "fabric-1.21.8" = _xb2gr6Z5;
         "fabric-1.21.9" = _lpLMpYV7;
         "fabric-1.21.10" = _lpLMpYV7;
@@ -970,6 +976,7 @@ let
         "fabric-26.2" = _wMQvazaT;
         "neoforge-1.21.11" = _JeGJfxD2;
         "neoforge-26.1.2" = _wg6jV1Kl;
+        "neoforge-26.2" = _vLp1kHNC;
         "pkg-1.1.1b" = _DMECQbZj;
         "pkg-1.1.2b" = _mGNVIIjB;
         "pkg-1.1.2" = _fN7m0WqM;
@@ -1108,8 +1115,8 @@ let
         "pkg-1.2.2.0.6.8" = _XAi1EShp;
         "pkg-1.2.2.0.6.8.1" = _kgPwGdsE;
         "pkg-1.2.2.0.7" = _YYQKNu8a;
-        "pkg-1.2.2.0.7.1" = _wMQvazaT;
-        "default" = _wMQvazaT;
+        "pkg-1.2.2.0.7.1" = _vLp1kHNC;
+        "default" = _vLp1kHNC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neo-scripts";

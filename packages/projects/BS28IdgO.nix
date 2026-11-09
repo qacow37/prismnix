@@ -96,6 +96,11 @@ let
             "file" = "fabric-elytra-autopilot-26.3-3.8.2.jar";
             "hash" = "sha512-syhVR8T3Pix9OdroPc5T4R7pq256Y2ygHZNfzaR20UkpUcwDa08vwg/VGethrTFF1Et7kpoMIQhnPIGrUyywTg==";
         };
+        _SqIPrEDS = {
+            "id" = "SqIPrEDS";
+            "file" = "fabric-elytra-autopilot-26.3-3.8.3.jar";
+            "hash" = "sha512-SLeMXFn3L5FAM9zch/CNCfn513ojfyrU8oGpjmjODBNJt8pE58S/qKzjiio+WhMx8Vbt5GtI5ZshY+lvB+ZkGw==";
+        };
     in {
         "HY4WwwwD" = _HY4WwwwD;
         "1IpQ5F6M" = _1IpQ5F6M;
@@ -116,6 +121,7 @@ let
         "Yzf8Ig3G" = _Yzf8Ig3G;
         "I08akRDL" = _I08akRDL;
         "8KvUAXQK" = _8KvUAXQK;
+        "SqIPrEDS" = _SqIPrEDS;
         "fabric-1.21" = _1IpQ5F6M;
         "fabric-1.21.1" = _1IpQ5F6M;
         "fabric-1.21.4" = _DdmlpN19;
@@ -130,7 +136,7 @@ let
         "fabric-26.1.1" = _SJgaoiIq;
         "fabric-26.1.2" = _SJgaoiIq;
         "fabric-26.2" = _3Sv7n7N0;
-        "fabric-26.3" = _8KvUAXQK;
+        "fabric-26.3" = _SqIPrEDS;
         "pkg-3.0.0" = _HY4WwwwD;
         "pkg-3.0.1" = _1IpQ5F6M;
         "pkg-3.1.0" = _fBzK2Jr9;
@@ -149,7 +155,8 @@ let
         "pkg-3.8.0" = _Yzf8Ig3G;
         "pkg-3.8.1" = _I08akRDL;
         "pkg-3.8.2" = _8KvUAXQK;
-        "default" = _8KvUAXQK;
+        "pkg-3.8.3" = _SqIPrEDS;
+        "default" = _SqIPrEDS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-autopilot";

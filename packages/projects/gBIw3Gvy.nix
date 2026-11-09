@@ -596,6 +596,11 @@ let
             "file" = "worlds-4.5.0-all.jar";
             "hash" = "sha512-VCX1hAONr5pEERhzJg2NwS4A9ylUp+T8IwpIVFPy3AOOdZF9EJNM3C6MDip0Dnpuhzcku2NPFFJS9pS1wz5AKg==";
         };
+        _4y0Ijnx1 = {
+            "id" = "4y0Ijnx1";
+            "file" = "worlds-4.5.1-all.jar";
+            "hash" = "sha512-tgC12JjuyrU9cSs8DKk7jTa4ezgVeC9RtGbOFplqqOwoUy4wpLBSM9zGE2gyOsxCJwI7pIoxQ+XGUTSu2Iak5A==";
+        };
     in {
         "ua6Sthk1" = _ua6Sthk1;
         "zKBQaNPr" = _zKBQaNPr;
@@ -716,6 +721,7 @@ let
         "OoXgUkGB" = _OoXgUkGB;
         "d7QdoDC8" = _d7QdoDC8;
         "uNJRn6iT" = _uNJRn6iT;
+        "4y0Ijnx1" = _4y0Ijnx1;
         "paper-1.20.6" = _Jbn00ABM;
         "paper-1.21" = _Jbn00ABM;
         "paper-1.21.1" = _b69osECt;
@@ -728,18 +734,18 @@ let
         "paper-1.21.9" = _csPZSUQC;
         "paper-1.21.10" = _csPZSUQC;
         "paper-1.21.11" = _QozUj18T;
-        "paper-26.1.2" = _uNJRn6iT;
-        "paper-26.2" = _uNJRn6iT;
-        "paper-26.3" = _uNJRn6iT;
+        "paper-26.1.2" = _4y0Ijnx1;
+        "paper-26.2" = _4y0Ijnx1;
+        "paper-26.3" = _4y0Ijnx1;
         "folia-1.21.4" = _aj5NO3OQ;
         "folia-1.21.5" = _BZy7HCaW;
         "folia-1.21.6" = _BZy7HCaW;
         "folia-1.21.7" = _BZy7HCaW;
         "folia-1.21.8" = _BZy7HCaW;
         "folia-1.21.11" = _QozUj18T;
-        "folia-26.1.2" = _uNJRn6iT;
-        "folia-26.2" = _uNJRn6iT;
-        "folia-26.3" = _uNJRn6iT;
+        "folia-26.1.2" = _4y0Ijnx1;
+        "folia-26.2" = _4y0Ijnx1;
+        "folia-26.3" = _4y0Ijnx1;
         "pkg-1.2.2" = _ua6Sthk1;
         "pkg-1.2.3" = _zKBQaNPr;
         "pkg-1.2.5" = _prVzOoTY;
@@ -858,7 +864,8 @@ let
         "pkg-4.4.1" = _OoXgUkGB;
         "pkg-4.5.0-pre1" = _d7QdoDC8;
         "pkg-4.5.0" = _uNJRn6iT;
-        "default" = _uNJRn6iT;
+        "pkg-4.5.1" = _4y0Ijnx1;
+        "default" = _4y0Ijnx1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worlds-1";

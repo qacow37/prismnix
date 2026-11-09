@@ -166,6 +166,11 @@ let
             "file" = "structureplacerapi-2.1.1+26.1.jar";
             "hash" = "sha512-Az9gu1pIqqJc1wkAQMtj1teKTAPrlqcS98Zosn9s0nrkn9QT01jGFkZclupE9eC/EcZ9dmJntiZUx3rkGtAyfg==";
         };
+        _IUo8cik4 = {
+            "id" = "IUo8cik4";
+            "file" = "structureplacerapi-2.1.1+26.3.jar";
+            "hash" = "sha512-ZgqbgR4ibQK1jlgS5pp/Otam0M63Ylyj159z5BUFF073K8o9FL4q7fnsr6E0TarRDtYzGZLfcemTQu6sbxUijA==";
+        };
     in {
         "Tl3Pvdfj" = _Tl3Pvdfj;
         "7DF3cqEt" = _7DF3cqEt;
@@ -200,6 +205,7 @@ let
         "hHPo3fCb" = _hHPo3fCb;
         "mtQlrUz7" = _mtQlrUz7;
         "kWoix016" = _kWoix016;
+        "IUo8cik4" = _IUo8cik4;
         "fabric-1.19" = _7DF3cqEt;
         "fabric-1.19.1" = _7DF3cqEt;
         "fabric-1.19.2" = _hHPo3fCb;
@@ -225,6 +231,7 @@ let
         "fabric-26.1" = _kWoix016;
         "fabric-26.1.1" = _kWoix016;
         "fabric-26.1.2" = _kWoix016;
+        "fabric-26.3" = _IUo8cik4;
         "quilt-1.19" = _7DF3cqEt;
         "quilt-1.19.1" = _7DF3cqEt;
         "quilt-1.19.2" = _hHPo3fCb;
@@ -250,6 +257,7 @@ let
         "quilt-26.1" = _kWoix016;
         "quilt-26.1.1" = _kWoix016;
         "quilt-26.1.2" = _kWoix016;
+        "quilt-26.3" = _IUo8cik4;
         "neoforge-1.21.1" = _j18R83Er;
         "neoforge-1.21.2" = _j18R83Er;
         "neoforge-1.21.3" = _j18R83Er;
@@ -295,7 +303,8 @@ let
         "pkg-2.1.1+1.19.2" = _hHPo3fCb;
         "pkg-2.1.1+1.20.1" = _mtQlrUz7;
         "pkg-2.1.1+26.1" = _kWoix016;
-        "default" = _kWoix016;
+        "pkg-2.1.1+26.3" = _IUo8cik4;
+        "default" = _IUo8cik4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structureplacerapi";

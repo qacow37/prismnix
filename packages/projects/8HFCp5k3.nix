@@ -91,6 +91,21 @@ let
             "file" = "battlemusic-1.20.1-1.2.2.jar";
             "hash" = "sha512-BxQXmBpG7JdaOtKRfV0La/K1KNJ/GJZRNhbpA390vJbYHgfk9Tmj74D3cA+vBGya4bfXmVoOY0Eq3tIe4c3mQQ==";
         };
+        _zv4BvNml = {
+            "id" = "zv4BvNml";
+            "file" = "battlemusic-1.2.3.jar";
+            "hash" = "sha512-gPQjHkM/YDgOwvTPh+/Bc4lDPIKSH05ckJ9TT6+fOR2zp3QrU0866Yy/lhiyS+pHS8zcLd9WuNbGSyTbq+b4mw==";
+        };
+        _How4YUWN = {
+            "id" = "How4YUWN";
+            "file" = "battlemusic-1.20.1-1.2.3.jar";
+            "hash" = "sha512-7rwd9bpj0l8ygybZsTqVnVDsEEGdGv8az4Ujft51Afa02UHMxoo5nPhef48qAyFUJ6v+WGgIJCDTIN2i+sDk9A==";
+        };
+        _i1YwW2hz = {
+            "id" = "i1YwW2hz";
+            "file" = "battlemusic-1.20.1-1.2.3.jar";
+            "hash" = "sha512-7rwd9bpj0l8ygybZsTqVnVDsEEGdGv8az4Ujft51Afa02UHMxoo5nPhef48qAyFUJ6v+WGgIJCDTIN2i+sDk9A==";
+        };
     in {
         "QtzE3Mqo" = _QtzE3Mqo;
         "xKktqFhg" = _xKktqFhg;
@@ -110,8 +125,11 @@ let
         "ElPor64Y" = _ElPor64Y;
         "6pnnzMQO" = _6pnnzMQO;
         "44J2cfAm" = _44J2cfAm;
-        "forge-1.20" = _44J2cfAm;
-        "forge-1.20.1" = _44J2cfAm;
+        "zv4BvNml" = _zv4BvNml;
+        "How4YUWN" = _How4YUWN;
+        "i1YwW2hz" = _i1YwW2hz;
+        "forge-1.20" = _i1YwW2hz;
+        "forge-1.20.1" = _i1YwW2hz;
         "forge-1.20.2" = _yD56jMYa;
         "forge-1.20.3" = _yD56jMYa;
         "forge-1.20.4" = _yD56jMYa;
@@ -121,11 +139,11 @@ let
         "forge-1.16.5" = _oMFPEOjk;
         "forge-1.20.5" = _XwXJXW6M;
         "forge-1.20.6" = _XwXJXW6M;
-        "forge-1.19.3" = _44J2cfAm;
-        "forge-1.19.4" = _44J2cfAm;
+        "forge-1.19.3" = _i1YwW2hz;
+        "forge-1.19.4" = _i1YwW2hz;
         "forge-1.21" = _62n8xDIY;
         "neoforge-1.20.1" = _yjx5bpdm;
-        "neoforge-1.21.1" = _6pnnzMQO;
+        "neoforge-1.21.1" = _zv4BvNml;
         "pkg-1.0" = _XwXJXW6M;
         "pkg-1.0.1" = _HtqMMb8i;
         "pkg-1.0.2" = _yD56jMYa;
@@ -140,7 +158,9 @@ let
         "pkg-1.20.1-1.2.1" = _ElPor64Y;
         "pkg-1.2.2" = _6pnnzMQO;
         "pkg-1.20.1-1.2.2" = _44J2cfAm;
-        "default" = _44J2cfAm;
+        "pkg-1.21.1-1.2.3" = _zv4BvNml;
+        "pkg-1.20.1-1.2.3" = _i1YwW2hz;
+        "default" = _i1YwW2hz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "battlemusic";

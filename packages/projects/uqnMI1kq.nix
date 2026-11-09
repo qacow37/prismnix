@@ -51,6 +51,11 @@ let
             "file" = "invtweaks-1.20.1-1.2.0.jar";
             "hash" = "sha512-2mbmSzvKdUB2/sSg0ecNShfFe6NYb/OIQtjs/wukNT86Ym7yQRfy+zxBtbh77J2rnL1mRtFEtIbjDqyUWB+Qvw==";
         };
+        _23iWC1DR = {
+            "id" = "23iWC1DR";
+            "file" = "invtweaks-1.21.1-1.4.0.jar";
+            "hash" = "sha512-kHus6UKqPprYmKdwBmiTbtNrzYdHmBeQmeQu69MixMBUG7bkRbmTCKWXiSQOiC/S7G2hgl7Hun7i/2/65jJ7vA==";
+        };
     in {
         "yjN2Yz14" = _yjN2Yz14;
         "noMmNlEf" = _noMmNlEf;
@@ -62,11 +67,12 @@ let
         "ea6snE18" = _ea6snE18;
         "tcTciTmQ" = _tcTciTmQ;
         "eyPkQyNd" = _eyPkQyNd;
+        "23iWC1DR" = _23iWC1DR;
         "forge-1.20.1" = _eyPkQyNd;
         "neoforge-1.20.1" = _eyPkQyNd;
         "neoforge-1.20.6" = _OSUfc9HY;
         "neoforge-1.21" = _ea6snE18;
-        "neoforge-1.21.1" = _tcTciTmQ;
+        "neoforge-1.21.1" = _23iWC1DR;
         "neoforge-1.21.2" = _tcTciTmQ;
         "neoforge-1.21.3" = _tcTciTmQ;
         "pkg-1.0.0" = _yjN2Yz14;
@@ -79,7 +85,8 @@ let
         "pkg-1.21.1-1.1.4" = _ea6snE18;
         "pkg-1.21.1-1.2.0" = _tcTciTmQ;
         "pkg-1.20.1-1.2.0" = _eyPkQyNd;
-        "default" = _eyPkQyNd;
+        "pkg-1.21.1-1.4.0" = _23iWC1DR;
+        "default" = _23iWC1DR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-tweaks-refoxed";

@@ -46,6 +46,11 @@ let
             "file" = "Cobblemotion_v1.5.1.zip";
             "hash" = "sha512-h+kXXMqwKtOTmuMfNxU0kkn8QAFniClGwWF6P8VSdMHeIXlKLYETFKAVpeuIFJsvhAicIOYo1CErvYpIrBe6Sw==";
         };
+        _R7qJrnqr = {
+            "id" = "R7qJrnqr";
+            "file" = "Cobblemotion v1.6.zip";
+            "hash" = "sha512-8nzw+4snkxkHXZmN89Gc1xQ0jU2AqRCU4qk/nast3RYurfcxjDA0muV11ipoBH7c82vWyoauNqyhDYsr81VP6A==";
+        };
     in {
         "Qs7TDYUo" = _Qs7TDYUo;
         "VTv3Q8pm" = _VTv3Q8pm;
@@ -56,9 +61,10 @@ let
         "1WmRp4YR" = _1WmRp4YR;
         "6MGqpPB8" = _6MGqpPB8;
         "sPztKDIi" = _sPztKDIi;
-        "minecraft-1.21.1" = _sPztKDIi;
+        "R7qJrnqr" = _R7qJrnqr;
+        "minecraft-1.21.1" = _R7qJrnqr;
         "minecraft-1.21" = _6MGqpPB8;
-        "datapack-1.21.1" = _sPztKDIi;
+        "datapack-1.21.1" = _R7qJrnqr;
         "pkg-1.0" = _Qs7TDYUo;
         "pkg-1.1" = _VTv3Q8pm;
         "pkg-1.2" = _fPPILCJc;
@@ -68,7 +74,8 @@ let
         "pkg-1.4.1" = _1WmRp4YR;
         "pkg-1.5" = _6MGqpPB8;
         "pkg-1.5.1" = _sPztKDIi;
-        "default" = _sPztKDIi;
+        "pkg-1.6" = _R7qJrnqr;
+        "default" = _R7qJrnqr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemotion";

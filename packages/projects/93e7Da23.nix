@@ -86,6 +86,11 @@ let
             "file" = "pmweathercm1-1.1.6.jar";
             "hash" = "sha512-XnPZMQeXMFf8LgIseCpAd/tqb1wplVEB36vpcxSlM4qX9sBI7QQYqogmGfOe3ZmX4Qi8sdPeiu1EuupLBq9u/Q==";
         };
+        _WLWN6G7u = {
+            "id" = "WLWN6G7u";
+            "file" = "pmweathercm1-1.1.7.jar";
+            "hash" = "sha512-nRqgjD5peAojw/Fgo/on5Y8FRmU0uRb6hph7W7YBQNsTz8R7vFQ4v6ziooT99lKlRL6GQ1wNATR1S7qGmubJ8A==";
+        };
     in {
         "i0deSxz3" = _i0deSxz3;
         "U9QsT5m7" = _U9QsT5m7;
@@ -104,7 +109,8 @@ let
         "tdtBna0Y" = _tdtBna0Y;
         "W8orkVhm" = _W8orkVhm;
         "aipowzKQ" = _aipowzKQ;
-        "neoforge-1.21.1" = _aipowzKQ;
+        "WLWN6G7u" = _WLWN6G7u;
+        "neoforge-1.21.1" = _WLWN6G7u;
         "pkg-1.0.0" = _i0deSxz3;
         "pkg-1.0.1" = _U9QsT5m7;
         "pkg-1.0.2" = _Szg4efMe;
@@ -122,7 +128,8 @@ let
         "pkg-1.1.4" = _tdtBna0Y;
         "pkg-1.1.5" = _W8orkVhm;
         "pkg-1.1.6" = _aipowzKQ;
-        "default" = _aipowzKQ;
+        "pkg-1.1.7" = _WLWN6G7u;
+        "default" = _WLWN6G7u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pmweathercm1";

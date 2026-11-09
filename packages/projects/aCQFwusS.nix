@@ -21,17 +21,24 @@ let
             "file" = "cobblemonfence-1.0.3.jar";
             "hash" = "sha512-rrQL/Egkjv9NsCIdOgOOo6da64QN0c6/d5W3MvMB0aenOpSRfj0fN64bxs1tr57aK9gfqki3NaBjckvZ+vkSAw==";
         };
+        _Rgo4AfBn = {
+            "id" = "Rgo4AfBn";
+            "file" = "cobblemonfence-1.0.4.jar";
+            "hash" = "sha512-NgU9Nr9k7CUWCCtZ3PBIBEHSzgEANcgWDJqnhHWdTo4UInuy1FQIwyT6U45i8J75C0J0WeLCj7stXJjJVC+uLA==";
+        };
     in {
         "5TWWtNz6" = _5TWWtNz6;
         "ztAK8jdM" = _ztAK8jdM;
         "Z3w6FoHa" = _Z3w6FoHa;
         "I5fyoqLb" = _I5fyoqLb;
-        "fabric-1.21.1" = _I5fyoqLb;
+        "Rgo4AfBn" = _Rgo4AfBn;
+        "fabric-1.21.1" = _Rgo4AfBn;
         "pkg-1.0.0" = _5TWWtNz6;
         "pkg-1.0.1" = _ztAK8jdM;
         "pkg-1.0.2" = _Z3w6FoHa;
         "pkg-1.0.3" = _I5fyoqLb;
-        "default" = _I5fyoqLb;
+        "pkg-1.0.4" = _Rgo4AfBn;
+        "default" = _Rgo4AfBn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-fence";

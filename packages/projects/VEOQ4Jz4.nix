@@ -681,6 +681,26 @@ let
             "file" = "knightquest-fabric-1.21.1-1.9.3.jar";
             "hash" = "sha512-Czw6eX3gGhURXX2tchPzM7chymLZRLdc5vbWT9fl4senhIhCgFz+HFAoNKSGOZUshWfwLqYnrV+jp7nzAy3vwg==";
         };
+        _GCWqCaRJ = {
+            "id" = "GCWqCaRJ";
+            "file" = "knightquest-fabric-1.21.1-1.9.4.jar";
+            "hash" = "sha512-Hewj/ip60JLPiZnMUClAIwkypTrw1vuQv9+uIv35tZP4azFsBxmVJI5T0C4UYms+HALyWKOcKgW9FoW+th70Ag==";
+        };
+        _xSSl8brL = {
+            "id" = "xSSl8brL";
+            "file" = "knightquest-neoforge-1.21.1-1.9.4.jar";
+            "hash" = "sha512-qXc72TpQ1q3a+yZexyVgatchAhAGCuqmaJrwJAlGhGXoMTV28ATJwnXr5KWay7CeNbP68bAWBHM/QSK8FMez4g==";
+        };
+        _RisCapz4 = {
+            "id" = "RisCapz4";
+            "file" = "knightquest-forge-1.20.1-1.9.7.jar";
+            "hash" = "sha512-NiHDkiLQ/Vx0Kyx0GkNjV8loM492c4vg8MZyWE5RHtPZrn7pT0L4ZqizZNU8KFvy9381TwTQOatBo5yXm2c6zQ==";
+        };
+        _VhweONqK = {
+            "id" = "VhweONqK";
+            "file" = "knightquest-fabric-1.20.1-1.9.7.jar";
+            "hash" = "sha512-R3Ozq6LSYIX1RSR0te1YPJcyhC3qyEa2b7whaRFxmQno7XZ/kc5MmXwTQ3kWz0CqBIXjAM2Md4JDNwYnlnXk+g==";
+        };
     in {
         "wIYoeFrs" = _wIYoeFrs;
         "EDKIpEiw" = _EDKIpEiw;
@@ -818,15 +838,19 @@ let
         "s0V9U7qr" = _s0V9U7qr;
         "974yQ1qF" = _974yQ1qF;
         "NI9GOR2x" = _NI9GOR2x;
-        "fabric-1.20.1" = _s0V9U7qr;
+        "GCWqCaRJ" = _GCWqCaRJ;
+        "xSSl8brL" = _xSSl8brL;
+        "RisCapz4" = _RisCapz4;
+        "VhweONqK" = _VhweONqK;
+        "fabric-1.20.1" = _VhweONqK;
         "fabric-1.20.2" = _EDKIpEiw;
         "fabric-1.20.3" = _6UE0e16S;
-        "fabric-1.20" = _s0V9U7qr;
-        "fabric-1.21" = _NI9GOR2x;
-        "fabric-1.21.1" = _NI9GOR2x;
-        "forge-1.20.1" = _CY8isVT9;
+        "fabric-1.20" = _VhweONqK;
+        "fabric-1.21" = _GCWqCaRJ;
+        "fabric-1.21.1" = _GCWqCaRJ;
+        "forge-1.20.1" = _RisCapz4;
         "forge-1.21" = _cyNYdtpg;
-        "forge-1.20" = _CY8isVT9;
+        "forge-1.20" = _RisCapz4;
         "forge-1.19.2" = _322nakMG;
         "forge-1.19" = _322nakMG;
         "forge-1.19.1" = _322nakMG;
@@ -834,8 +858,8 @@ let
         "forge-1.18.1" = _DAdssNsC;
         "forge-1.18.2" = _DAdssNsC;
         "forge-1.21.1" = _cyNYdtpg;
-        "neoforge-1.21" = _974yQ1qF;
-        "neoforge-1.21.1" = _974yQ1qF;
+        "neoforge-1.21" = _xSSl8brL;
+        "neoforge-1.21.1" = _xSSl8brL;
         "pkg-1.0.0" = _W8goe9ra;
         "pkg-1.0.2" = _6UE0e16S;
         "pkg-1.0.8" = _98XuIScR;
@@ -876,11 +900,12 @@ let
         "pkg-1.9.0" = _ytzxIAIs;
         "pkg-1.9.1" = _M5kilZqd;
         "pkg-1.9.3" = _NI9GOR2x;
-        "pkg-1.9.4" = _nCgF0HBg;
+        "pkg-1.9.4" = _xSSl8brL;
         "pkg-1.9.5" = _nGxLZvIV;
         "pkg-1.9.2" = _M440ozIu;
         "pkg-1.9.6" = _s0V9U7qr;
-        "default" = _NI9GOR2x;
+        "pkg-1.9.7" = _VhweONqK;
+        "default" = _VhweONqK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "knight-quest";

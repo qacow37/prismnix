@@ -146,6 +146,16 @@ let
             "file" = "SlimeThroneExtras-neoforge-2.1.2.1.jar";
             "hash" = "sha512-2w5hvfKs45HOoWTXPZhSpLhoAG/AUF79iydcsYPNMEdGs3zqKTPgBUWSE3uhtyB4L+HiO2sKAlJjseK5dKJpaQ==";
         };
+        _9H9HTxIx = {
+            "id" = "9H9HTxIx";
+            "file" = "SlimeThroneExtras-fabric-2.1.3.jar";
+            "hash" = "sha512-egpIlq5e2v1V/TiCTySrIcws/q5s1WJmRlr2B+vSEbue2DCuokxzyXw/Y+f6U9UdhSbhOTLbBvW5GtqA1/XXoQ==";
+        };
+        _BY8sE5oj = {
+            "id" = "BY8sE5oj";
+            "file" = "SlimeThroneExtras-neoforge-2.1.3.jar";
+            "hash" = "sha512-zcDmm3BCU+Tw7z/pNGoagT4+xOfi4fYdomrh10d5aT+nEYRzgyLMH8Jwhq2aqx7ZbT+BzXICgqyrb/MJ/bYqsw==";
+        };
     in {
         "dd9abOi1" = _dd9abOi1;
         "koLfhYBo" = _koLfhYBo;
@@ -176,9 +186,11 @@ let
         "6aaObcgY" = _6aaObcgY;
         "RvX4wPMr" = _RvX4wPMr;
         "8u8FzhZK" = _8u8FzhZK;
+        "9H9HTxIx" = _9H9HTxIx;
+        "BY8sE5oj" = _BY8sE5oj;
         "forge-1.19.2" = _koLfhYBo;
-        "fabric-1.21.1" = _RvX4wPMr;
-        "neoforge-1.21.1" = _8u8FzhZK;
+        "fabric-1.21.1" = _9H9HTxIx;
+        "neoforge-1.21.1" = _BY8sE5oj;
         "pkg-1.2.2" = _dd9abOi1;
         "pkg-1.2.3" = _koLfhYBo;
         "pkg-2.0.2" = _mdgn4rDs;
@@ -195,7 +207,8 @@ let
         "pkg-2.1.1" = _y2atA58x;
         "pkg-2.1.2" = _6aaObcgY;
         "pkg-2.1.2.1" = _8u8FzhZK;
-        "default" = _8u8FzhZK;
+        "pkg-2.1.3" = _BY8sE5oj;
+        "default" = _BY8sE5oj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensura-slimethrone-extras";

@@ -1076,6 +1076,16 @@ let
             "file" = "Safra-forge-26.3-3.2.jar";
             "hash" = "sha512-cYS3l0yvTZWexJ4Z6ksnAnkx6e4xmOSc8PNtTV55pEca6UJhLOKLZLXO+SSatqVMD+qC0wQ0hLDTK8jcH6D5Yw==";
         };
+        _nDOo9UjN = {
+            "id" = "nDOo9UjN";
+            "file" = "Safra-forge-26.3-3.2.jar";
+            "hash" = "sha512-H4PhMvOMn/Qt8zOdqQHBRxYJX1C3UGDe1lZUFoVzyesCq+ik93RektjFY1BbhaxztJ3D7V8rmn1YqKYYPOGWXw==";
+        };
+        _45ZQGgJ9 = {
+            "id" = "45ZQGgJ9";
+            "file" = "Safra-fabric-26.3-3.2.jar";
+            "hash" = "sha512-SSGxPsjnklpZX41ymFgwvKb3nOZ5ObjAv3tqfKlf4t/CvPKZ6/rUkMVTG2OB3xIFDn1B/QYSjUfl2GVk2vxk5w==";
+        };
     in {
         "GwnaEaJ4" = _GwnaEaJ4;
         "OZvU4X1N" = _OZvU4X1N;
@@ -1292,6 +1302,8 @@ let
         "n8EzHfIf" = _n8EzHfIf;
         "dEQy9JV4" = _dEQy9JV4;
         "zG7CaKTC" = _zG7CaKTC;
+        "nDOo9UjN" = _nDOo9UjN;
+        "45ZQGgJ9" = _45ZQGgJ9;
         "fabric-26.1" = _g2SWzVpV;
         "fabric-1.21.11" = _nGMSZTMe;
         "fabric-26.1.1" = _3L9cpNNS;
@@ -1331,7 +1343,7 @@ let
         "fabric-1.17.1" = _va2l0y8h;
         "fabric-1.16.4" = _X293X8wA;
         "fabric-1.16.5" = _hzRltxW6;
-        "fabric-26.3" = _aSjnz8S9;
+        "fabric-26.3" = _45ZQGgJ9;
         "forge-26.1" = _RHbDMPSs;
         "forge-26.1.1" = _AyC5doki;
         "forge-26.1.2" = _KMUeeUvk;
@@ -1368,7 +1380,7 @@ let
         "forge-1.17.1" = _7BeLLuzS;
         "forge-1.16.5" = _zGjuQeFM;
         "forge-1.16.4" = _rn1m2sLC;
-        "forge-26.3" = _zG7CaKTC;
+        "forge-26.3" = _nDOo9UjN;
         "neoforge-26.1" = _SoWSAT6Q;
         "neoforge-1.21.11" = _f3MWX4Jg;
         "neoforge-26.1.2" = _TxSX9IyQ;
@@ -1396,8 +1408,8 @@ let
         "pkg-2.5" = _ae3zpMV6;
         "pkg-2.6" = _B0eWzgd2;
         "pkg-3.0" = _zGjuQeFM;
-        "pkg-3.2" = _zG7CaKTC;
-        "default" = _zG7CaKTC;
+        "pkg-3.2" = _45ZQGgJ9;
+        "default" = _45ZQGgJ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "safra";

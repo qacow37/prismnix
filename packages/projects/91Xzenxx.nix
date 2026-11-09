@@ -91,6 +91,26 @@ let
             "file" = "ButterBee-1.1.0-mod-26.3.jar";
             "hash" = "sha512-yL/GYA+3QuGDldpryqk6T5IBRleJKFQxq+flY6ieNQ5S2oFrQ4TAETW5kD2fV4d/MfErIOt/yCY7msxIe9edqA==";
         };
+        _9dpHmTvu = {
+            "id" = "9dpHmTvu";
+            "file" = "ButterBee-1.1.1-mod-26.3.jar";
+            "hash" = "sha512-ep6UvjXQeiuCHW1Yss0eaoC+X65N7CUlv9E/GU24c0n+lvyfUJqgdgiOQBPNfhTwHRA6V+O9NzPoxhPMIa19CQ==";
+        };
+        _U5YyL7oe = {
+            "id" = "U5YyL7oe";
+            "file" = "ButterBee_datapack-1.1.1-26.3.zip";
+            "hash" = "sha512-PT4n6GOXkCOGMciIjUmU0yTL9DcMn72p8CHinmavXiKchTtCBHoHRLTjX9HG7sRHKuPKBGXRS7CSYiJSlRsUYQ==";
+        };
+        _sdZ42l7k = {
+            "id" = "sdZ42l7k";
+            "file" = "ButterBee-1.1.2-mod-26.3.jar";
+            "hash" = "sha512-Psuo56jDSPGRYd4HFZPZjCG0nYAsyWbvHovWbOyz8sYM/+TIuQOWfxLs+mOCq7DUCx91SK6ukGSgtE5k7M0gkQ==";
+        };
+        _giirVYu2 = {
+            "id" = "giirVYu2";
+            "file" = "ButterBee_datapack-1.1.2-26.3.zip";
+            "hash" = "sha512-ELkrVZWSBAJkXgyvJXUi9iDR3+qZVg/eZjbxCPxXDUB4L+AOMqR8VLswz/H3LHo6qC8riG4pNwlqhK9Vjrex/g==";
+        };
     in {
         "WqN0A4H4" = _WqN0A4H4;
         "I8kdGizZ" = _I8kdGizZ;
@@ -110,6 +130,10 @@ let
         "Q3qXiUFX" = _Q3qXiUFX;
         "maP7Cgh4" = _maP7Cgh4;
         "kkqpR2sT" = _kkqpR2sT;
+        "9dpHmTvu" = _9dpHmTvu;
+        "U5YyL7oe" = _U5YyL7oe;
+        "sdZ42l7k" = _sdZ42l7k;
+        "giirVYu2" = _giirVYu2;
         "datapack-1.21.5" = _wtCVo5v6;
         "datapack-1.21.6" = _wtCVo5v6;
         "datapack-1.21.7" = _wtCVo5v6;
@@ -121,7 +145,7 @@ let
         "datapack-26.1.1" = _pD2P7bel;
         "datapack-26.1.2" = _pD2P7bel;
         "datapack-26.2" = _Q3qXiUFX;
-        "datapack-26.3" = _maP7Cgh4;
+        "datapack-26.3" = _giirVYu2;
         "fabric-1.21.5" = _sR9Pij6h;
         "fabric-1.21.6" = _sR9Pij6h;
         "fabric-1.21.7" = _sR9Pij6h;
@@ -133,7 +157,7 @@ let
         "fabric-26.1.1" = _uxMkyfpa;
         "fabric-26.1.2" = _uxMkyfpa;
         "fabric-26.2" = _XPUjBM2U;
-        "fabric-26.3" = _kkqpR2sT;
+        "fabric-26.3" = _sdZ42l7k;
         "forge-1.21.5" = _sR9Pij6h;
         "forge-1.21.6" = _sR9Pij6h;
         "forge-1.21.7" = _sR9Pij6h;
@@ -151,7 +175,7 @@ let
         "neoforge-26.1.1" = _uxMkyfpa;
         "neoforge-26.1.2" = _uxMkyfpa;
         "neoforge-26.2" = _XPUjBM2U;
-        "neoforge-26.3" = _kkqpR2sT;
+        "neoforge-26.3" = _sdZ42l7k;
         "quilt-1.21.5" = _sR9Pij6h;
         "quilt-1.21.6" = _sR9Pij6h;
         "quilt-1.21.7" = _sR9Pij6h;
@@ -173,7 +197,11 @@ let
         "pkg-1.0.8-datapack" = _Q3qXiUFX;
         "pkg-1.1.0-datapack-26.3" = _maP7Cgh4;
         "pkg-1.1.0-mod-26.3" = _kkqpR2sT;
-        "default" = _kkqpR2sT;
+        "pkg-1.1.1-mod-26.3" = _9dpHmTvu;
+        "pkg-1.1.1-datapack-26.3" = _U5YyL7oe;
+        "pkg-1.1.2-mod-26.3" = _sdZ42l7k;
+        "pkg-1.1.2-datapack-26.3" = _giirVYu2;
+        "default" = _giirVYu2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "butterbee";

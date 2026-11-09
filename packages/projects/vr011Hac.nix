@@ -41,6 +41,31 @@ let
             "file" = "gunpowder-recipe-2.0.0+mc26.2-26.3.jar";
             "hash" = "sha512-K5/NULlUZkCezcBj6JdGvOJRv+pLspE7jlbJTXm90ANUJG8yYNjxZDdwdRlkNSXbxn7oUrqKDFzXWtLIwYNCOA==";
         };
+        _MGXm8ClY = {
+            "id" = "MGXm8ClY";
+            "file" = "gunpowder-recipe-2.0.0+mc1.20-1.20.4.zip";
+            "hash" = "sha512-MsKiiUXE1Lk5cl7AMeqK3CLP7LdIO6LK0SEcdYsiinHWXGjVQkWiv8DFkaaaMWYIGUxO3/C9vVn+T7kvQCOB9w==";
+        };
+        _BdCSDkjz = {
+            "id" = "BdCSDkjz";
+            "file" = "gunpowder-recipe-2.0.0+mc1.20.5-1.20.6.zip";
+            "hash" = "sha512-5fkRKMeWBtyR55wEblXknp3C77q0/eItGaJfSxN21Ay4U3PBe/MxfXc6t0HyT8hot3c3TlD8a+8k6g0HiIehlg==";
+        };
+        _En0m1qSR = {
+            "id" = "En0m1qSR";
+            "file" = "gunpowder-recipe-2.0.0+mc1.21-1.21.1.zip";
+            "hash" = "sha512-bQyYovdOiTAG9oCWK9Nw/zpn7eEsVgxA+yjI6C8Nvh8n+KcY9o4jJZ+QV/ZOhXTKCLn7UOK7I740o5UNw+KdGA==";
+        };
+        _OE5kb43Z = {
+            "id" = "OE5kb43Z";
+            "file" = "gunpowder-recipe-2.0.0+mc1.21.2-26.1.2.zip";
+            "hash" = "sha512-AD7dpOu0YCc9/uGlX4HB7st89STBs+LgQDcmGbVXaQnHgDzhQuSS6x1Xl6WM8xOIQ+S6tkIAb0xdnWDqP7NprA==";
+        };
+        _Ps6qo23D = {
+            "id" = "Ps6qo23D";
+            "file" = "gunpowder-recipe-2.0.0+mc26.2-26.3.zip";
+            "hash" = "sha512-AbFhQeMBvZyxMNKWm+oL0T7jRF62neGIY7t3VNq/4hNNqC+YfliEVbhLEsRYVgNAlQ3T/TBTEvOrS3506eqJKg==";
+        };
     in {
         "EkCV4UK3" = _EkCV4UK3;
         "m5cCneI2" = _m5cCneI2;
@@ -50,6 +75,11 @@ let
         "rWFOJOng" = _rWFOJOng;
         "yBg3xBBx" = _yBg3xBBx;
         "EVgykQpN" = _EVgykQpN;
+        "MGXm8ClY" = _MGXm8ClY;
+        "BdCSDkjz" = _BdCSDkjz;
+        "En0m1qSR" = _En0m1qSR;
+        "OE5kb43Z" = _OE5kb43Z;
+        "Ps6qo23D" = _Ps6qo23D;
         "fabric-1.20" = _Z2H4lnBL;
         "fabric-1.20.1" = _Z2H4lnBL;
         "fabric-1.20.2" = _Z2H4lnBL;
@@ -122,6 +152,30 @@ let
         "neoforge-26.1.2" = _yBg3xBBx;
         "neoforge-26.2" = _EVgykQpN;
         "neoforge-26.3" = _EVgykQpN;
+        "datapack-1.20" = _MGXm8ClY;
+        "datapack-1.20.1" = _MGXm8ClY;
+        "datapack-1.20.2" = _MGXm8ClY;
+        "datapack-1.20.3" = _MGXm8ClY;
+        "datapack-1.20.4" = _MGXm8ClY;
+        "datapack-1.20.5" = _BdCSDkjz;
+        "datapack-1.20.6" = _BdCSDkjz;
+        "datapack-1.21" = _En0m1qSR;
+        "datapack-1.21.1" = _En0m1qSR;
+        "datapack-1.21.10" = _OE5kb43Z;
+        "datapack-1.21.11" = _OE5kb43Z;
+        "datapack-1.21.2" = _OE5kb43Z;
+        "datapack-1.21.3" = _OE5kb43Z;
+        "datapack-1.21.4" = _OE5kb43Z;
+        "datapack-1.21.5" = _OE5kb43Z;
+        "datapack-1.21.6" = _OE5kb43Z;
+        "datapack-1.21.7" = _OE5kb43Z;
+        "datapack-1.21.8" = _OE5kb43Z;
+        "datapack-1.21.9" = _OE5kb43Z;
+        "datapack-26.1" = _OE5kb43Z;
+        "datapack-26.1.1" = _OE5kb43Z;
+        "datapack-26.1.2" = _OE5kb43Z;
+        "datapack-26.2" = _Ps6qo23D;
+        "datapack-26.3" = _Ps6qo23D;
         "pkg-1.0.0" = _EkCV4UK3;
         "pkg-1.1.0" = _WO2z6l88;
         "pkg-2.0.0+1.20" = _Z2H4lnBL;
@@ -129,7 +183,12 @@ let
         "pkg-2.0.0+1.21" = _rWFOJOng;
         "pkg-2.0.0+1.21.2" = _yBg3xBBx;
         "pkg-2.0.0+26.2" = _EVgykQpN;
-        "default" = _EVgykQpN;
+        "pkg-2.0.0+1.20-datapack" = _MGXm8ClY;
+        "pkg-2.0.0+1.20.5-datapack" = _BdCSDkjz;
+        "pkg-2.0.0+1.21-datapack" = _En0m1qSR;
+        "pkg-2.0.0+1.21.2-datapack" = _OE5kb43Z;
+        "pkg-2.0.0+26.2-datapack" = _Ps6qo23D;
+        "default" = _Ps6qo23D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gunpowder-recipe-mod";

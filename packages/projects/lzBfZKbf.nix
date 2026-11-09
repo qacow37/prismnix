@@ -146,6 +146,26 @@ let
             "file" = "intelligentvillagers-0.5.0.jar";
             "hash" = "sha512-l/ZZLGLJ/yYivo0CmA7rc35BbyUitJYOcm6sWVIUlMBscO3wkhs2mTFgMZf3H/6gAC3QB8PFbgCdoHzcKdcFvA==";
         };
+        _KPijqzgg = {
+            "id" = "KPijqzgg";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-KM6jEvEZx3j1tNOkdS8HeIyxqNGqVLeNfZe5h9ks936qSFAzTILB2/2slTl8Lc13KfWBzwMGfFIyTgYjE/+p/A==";
+        };
+        _EURFbv2z = {
+            "id" = "EURFbv2z";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-Bfxay/dLdRGoOj1stAaQdgrXr+EuayI2IGJZJMLK0O7C5sn9F7nMGQ4jWrNSP1pRSGs2XCGvenr56WhH/+oKow==";
+        };
+        _DjXaN9gw = {
+            "id" = "DjXaN9gw";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-Kk5Jzo5nmFy/WYlLmaeKBWqET+olCLFVfYMztDI1tQnZZfOAvTnp62+FxYl0AiVYfv1Lu6yR8mxvlyyQW/vgBg==";
+        };
+        _e0Wmi7Od = {
+            "id" = "e0Wmi7Od";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-jYuxsw8sxqeZVbNsMm1eyoYlnaKe286d1x0bYJ3r1eorTXqW+j5bEZH8S59s8U/H4voU5DawFoh2YYVNuhMLtQ==";
+        };
     in {
         "6w46s4kp" = _6w46s4kp;
         "uVss2DmQ" = _uVss2DmQ;
@@ -176,7 +196,11 @@ let
         "Ah5aLlYC" = _Ah5aLlYC;
         "va67JljE" = _va67JljE;
         "XUV1aAIy" = _XUV1aAIy;
-        "neoforge-1.21.1" = _XUV1aAIy;
+        "KPijqzgg" = _KPijqzgg;
+        "EURFbv2z" = _EURFbv2z;
+        "DjXaN9gw" = _DjXaN9gw;
+        "e0Wmi7Od" = _e0Wmi7Od;
+        "neoforge-1.21.1" = _e0Wmi7Od;
         "pkg-6.0.0" = _6w46s4kp;
         "pkg-6.0.1" = _uVss2DmQ;
         "pkg-6.0.2" = _VSiJBvx0;
@@ -206,7 +230,11 @@ let
         "pkg-9.0.2" = _Ah5aLlYC;
         "pkg-9.0.3" = _va67JljE;
         "pkg-9.0.4" = _XUV1aAIy;
-        "default" = _XUV1aAIy;
+        "pkg-9.0.5" = _KPijqzgg;
+        "pkg-9.0.6" = _EURFbv2z;
+        "pkg-9.0.7" = _DjXaN9gw;
+        "pkg-9.0.8" = _e0Wmi7Od;
+        "default" = _e0Wmi7Od;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nations-villagers-ai-reborn";

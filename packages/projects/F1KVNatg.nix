@@ -31,6 +31,16 @@ let
             "file" = "last-world-panorama-26.3.jar";
             "hash" = "sha512-j7rJcgn3rcilLcOJ4NTbZjOX8PkuTWn3cbE8fWh4FOFnornEYhlU04q1x8Vg1T8rFzGf18klLqiXcDHr8+9SQw==";
         };
+        _NKGXncnJ = {
+            "id" = "NKGXncnJ";
+            "file" = "last-world-panorama-1.21.1.jar";
+            "hash" = "sha512-oc3JweEBh8QfTWUeLz30G0HO9DFqBGZWqDLYE0aqBnVt+9dsYDxl3GJJU/sfW45/zcAtx78V8/9igPJkuxR5lQ==";
+        };
+        _xVX9iy6y = {
+            "id" = "xVX9iy6y";
+            "file" = "last-world-panorama-neoforge-1.21.1.jar";
+            "hash" = "sha512-sU9mDuPrmDB0T62Kih+s7kVbnza1fBDiXsYfRpKNfRZuFTCNtb73yclMmiE+ftluvpas1+zhEdghT/xb/nJmvw==";
+        };
     in {
         "LFWsTg89" = _LFWsTg89;
         "uDg7EVvm" = _uDg7EVvm;
@@ -38,6 +48,8 @@ let
         "VVUT6GxC" = _VVUT6GxC;
         "kENSqjwx" = _kENSqjwx;
         "XkXkj2N1" = _XkXkj2N1;
+        "NKGXncnJ" = _NKGXncnJ;
+        "xVX9iy6y" = _xVX9iy6y;
         "fabric-26.2" = _LFWsTg89;
         "fabric-26.1" = _uDg7EVvm;
         "fabric-26.1.1" = _uDg7EVvm;
@@ -49,8 +61,10 @@ let
         "fabric-1.21.7" = _kENSqjwx;
         "fabric-1.21.8" = _kENSqjwx;
         "fabric-26.3" = _XkXkj2N1;
-        "pkg-v1.0" = _XkXkj2N1;
-        "default" = _XkXkj2N1;
+        "fabric-1.21.1" = _NKGXncnJ;
+        "neoforge-1.21.1" = _xVX9iy6y;
+        "pkg-v1.0" = _xVX9iy6y;
+        "default" = _xVX9iy6y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "last-world-panorama";

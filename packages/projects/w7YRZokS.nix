@@ -61,6 +61,21 @@ let
             "file" = "scafall-1.0-alpha.2.0-fabric-26.2.jar";
             "hash" = "sha512-qRfN5SNZIqFIOmqt893sYTu7lSUfQzi2xHipLhd68XE8WCTbYIejMTaxK2xQx2AyVTU+oNi4mmZSegZU6q68vg==";
         };
+        _JLeUB4Ft = {
+            "id" = "JLeUB4Ft";
+            "file" = "scafall-1.0-alpha.3.0-fabric-26.3.jar";
+            "hash" = "sha512-MbCrkTaCePuwyg5AMlqtCvPnJU4AiSVyVzJ5Mm+BbOjDyfooI6GKCMMh/wmv1kUV9yP96SgugG/WXSD+YLLkiw==";
+        };
+        _FVyLRcB6 = {
+            "id" = "FVyLRcB6";
+            "file" = "scafall-1.0-alpha.3.0-paper-26.3.jar";
+            "hash" = "sha512-dl76NwqwVa3dv26JmZjv26zXzDW/tgW4iulfH0Z675dJS5Lrz6VFffl8viTWlVDj63ZwZWUubLbC6GOjC35PJw==";
+        };
+        _DGDu215r = {
+            "id" = "DGDu215r";
+            "file" = "scafall-1.0-alpha.3.0-spigot-26.3.jar";
+            "hash" = "sha512-liJt270XrVG82q84Qq5363nLpL76x1/Ndg2cEfQVXiyx2tv4RtSj0NpiwpgM5wdsiBKQJZjJgbpp1dfAF1CmZg==";
+        };
     in {
         "yUnYqNlb" = _yUnYqNlb;
         "7dqAqZrn" = _7dqAqZrn;
@@ -74,23 +89,33 @@ let
         "VZZ2MXLy" = _VZZ2MXLy;
         "6LCpL8nI" = _6LCpL8nI;
         "NnK3FaCh" = _NnK3FaCh;
+        "JLeUB4Ft" = _JLeUB4Ft;
+        "FVyLRcB6" = _FVyLRcB6;
+        "DGDu215r" = _DGDu215r;
         "paper-26.1.2" = _43VIWUlH;
         "paper-26.2" = _6LCpL8nI;
+        "paper-26.3" = _FVyLRcB6;
         "purpur-26.1.2" = _43VIWUlH;
         "purpur-26.2" = _6LCpL8nI;
+        "purpur-26.3" = _FVyLRcB6;
         "bukkit-26.1.2" = _7rfIXpxY;
         "bukkit-26.2" = _VZZ2MXLy;
         "spigot-26.1.2" = _7rfIXpxY;
         "spigot-26.2" = _VZZ2MXLy;
+        "spigot-26.3" = _DGDu215r;
         "fabric-26.1.2" = _Ij8FxGV1;
         "fabric-26.2" = _NnK3FaCh;
+        "fabric-26.3" = _JLeUB4Ft;
         "pkg-1.0-alpha.0.4" = _rpSC7KaN;
         "pkg-1.0-alpha.0.5" = _43VIWUlH;
         "pkg-1.0-alpha.1.0" = _PDxowXu3;
         "pkg-1.0-alpha.2.0-spigot" = _VZZ2MXLy;
         "pkg-1.0-alpha.2.0-paper" = _6LCpL8nI;
         "pkg-1.0-alpha.2.0-fabric" = _NnK3FaCh;
-        "default" = _NnK3FaCh;
+        "pkg-1.0-alpha.3.0+fabric" = _JLeUB4Ft;
+        "pkg-1.0-alpha.3.0+paper" = _FVyLRcB6;
+        "pkg-1.0-alpha.3.0+spigot" = _DGDu215r;
+        "default" = _DGDu215r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scafall";

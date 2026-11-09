@@ -40632,4 +40632,10 @@ args:{
   "voiceplus" = import ./1tIHZmhl.nix args;
   "fresh-food-for-hyper-punchy" = import ./bdVt5ysx.nix args;
   "ape" = import ./RWRKP2kS.nix args;
+  "throwable-toasts-fork" = import ./wkboazNu.nix args;
+  "mexus-gray-overlay" = import ./oFDMyUPy.nix args;
+  "remnants-roguelite-dungeons" = import ./gKOBlOap.nix args;
+  "create-train-track-updated" = import ./gFscziIf.nix args;
+  "legacy-gui-blur" = import ./DAQQfcTq.nix args;
+  "blockfront-operation-pathfinder" = import ./YiDDdDyY.nix args;
 }

@@ -671,6 +671,66 @@ let
             "file" = "mc2discord-fabric-26.2-4.3.2.jar";
             "hash" = "sha512-hn7Qgkn+KIZlgZT0p5J5J+88ze39p9XVLIMyLaU4sGSTY5VpL8uvzk4ZhmLfk69czqlEiktN6r2sZKIT2zb7oQ==";
         };
+        _j2Fp0y6l = {
+            "id" = "j2Fp0y6l";
+            "file" = "mc2discord-forge-1.21.1-4.4.0.jar";
+            "hash" = "sha512-dEGGPcGdCFPDe5mss7NnYqVPjYFlvpJ1+l6CoI0nahtqzIzozGBbGJbr3Z0h640R8jMY2Ar9LQWMRQBkADKD1A==";
+        };
+        _bgQ30T7P = {
+            "id" = "bgQ30T7P";
+            "file" = "mc2discord-fabric-1.21.1-4.4.0.jar";
+            "hash" = "sha512-BAXtuBYjmsvo/ITBcnuEuE+l4FzlOcHaF+j/0YOxhormDZeGOv5xIDFQF6w1l7PgOVUq1oqxRSHEPwnkvjWQ6A==";
+        };
+        _oBfAabqN = {
+            "id" = "oBfAabqN";
+            "file" = "mc2discord-neoforge-1.21.1-4.4.0.jar";
+            "hash" = "sha512-kjCnGqCSeYmQ8nrSgiuuPYParbxiMyPK9vT/exi6u49hnUe1nsI6XHdaE/grBSzco03ZUdM1B7CvWdegXr6NKQ==";
+        };
+        _3UnmW6jr = {
+            "id" = "3UnmW6jr";
+            "file" = "mc2discord-forge-1.21.x-4.4.0.jar";
+            "hash" = "sha512-dm+qlctvT3VY+DLpZ3TsFHHjkRidN7y5N/QJX7UUrNAq87VsABjVRn3HwuWnHOpEUOm75rA0Kz3AKTG9+ZyOMw==";
+        };
+        _K99zcJ9M = {
+            "id" = "K99zcJ9M";
+            "file" = "mc2discord-fabric-1.21.x-4.4.0.jar";
+            "hash" = "sha512-2AiO2xKdOtU6n2+7ERPgmQku6eM5u/U+ADJbOK6SDRwLrxYFSbVxakg/9fEfnGe+lX2aQjqn/JMWY304naeM/A==";
+        };
+        _voISJ9SC = {
+            "id" = "voISJ9SC";
+            "file" = "mc2discord-neoforge-1.21.x-4.4.0.jar";
+            "hash" = "sha512-qKKNbogldQ55JVmHlirPlWVDzUAlsWbGK/CkS3QxnwlzKgXlTXY9jLvP0Eec3tk6X1HD1nbG+xCExd7kKxGQ1A==";
+        };
+        _IUFjXDoj = {
+            "id" = "IUFjXDoj";
+            "file" = "mc2discord-forge-26.2-4.4.0.jar";
+            "hash" = "sha512-OaVZB77zCZgt8rvE4JruQU5WYjZ7RJE94pbkMQY/Gbrvyc0h2eYMqD5Ee0joI4Q08MHeEmGpEInecS7953rvsg==";
+        };
+        _2tentQC4 = {
+            "id" = "2tentQC4";
+            "file" = "mc2discord-fabric-26.2-4.4.0.jar";
+            "hash" = "sha512-tOLFprVpPL+qiRWLQ19NQ4hVifaytynJ5vxblvhOrVgYr8OahAu/rAV0tMq6J6PeMXUptEj/1L4BPtjicqXcow==";
+        };
+        _iax3LPLK = {
+            "id" = "iax3LPLK";
+            "file" = "mc2discord-neoforge-26.2-4.4.0.jar";
+            "hash" = "sha512-w3hd/c7k5ORQc4ayraHYGkMcveIT0llePKL0OjjU8b9CwL7gGi/g+bjeK2kI9mOz7kow+c6P9mx43kimNdg1EQ==";
+        };
+        _jg0hFS9a = {
+            "id" = "jg0hFS9a";
+            "file" = "mc2discord-forge-26.3-4.4.0.jar";
+            "hash" = "sha512-NRPykn3vzw76DMYxAlyHY7HUavwjCjwVvkIlyMFgrmR3jTlG+X7FC6d86CswQWjJlOyM8XN+kEeXYG1asEns0Q==";
+        };
+        _GaUQd96e = {
+            "id" = "GaUQd96e";
+            "file" = "mc2discord-fabric-26.3-4.4.0.jar";
+            "hash" = "sha512-PM/1Cq8RK1qO8dlKkYwJ1F6rblAI1KfjQZdb2O4cDsuuLgKyYmwwuxiC3tw+s08xCH3ZJzHq6MmtN+sZlbAlYg==";
+        };
+        _VCt83i34 = {
+            "id" = "VCt83i34";
+            "file" = "mc2discord-neoforge-26.3-4.4.0.jar";
+            "hash" = "sha512-N7+IPDupeE75q8MHwjTyXIuc8+UM3Sd/HofYywHWP+NTH7+KzFFZwxYUGoHs8efxGPLiWcezXqU8cWzQtbsSNg==";
+        };
     in {
         "Osuuc5uZ" = _Osuuc5uZ;
         "VlNRdapb" = _VlNRdapb;
@@ -806,6 +866,18 @@ let
         "slMJRJ5A" = _slMJRJ5A;
         "5L7EITFt" = _5L7EITFt;
         "GGGmVuL9" = _GGGmVuL9;
+        "j2Fp0y6l" = _j2Fp0y6l;
+        "bgQ30T7P" = _bgQ30T7P;
+        "oBfAabqN" = _oBfAabqN;
+        "3UnmW6jr" = _3UnmW6jr;
+        "K99zcJ9M" = _K99zcJ9M;
+        "voISJ9SC" = _voISJ9SC;
+        "IUFjXDoj" = _IUFjXDoj;
+        "2tentQC4" = _2tentQC4;
+        "iax3LPLK" = _iax3LPLK;
+        "jg0hFS9a" = _jg0hFS9a;
+        "GaUQd96e" = _GaUQd96e;
+        "VCt83i34" = _VCt83i34;
         "forge-1.16.1" = _yzpiPXT5;
         "forge-1.16.2" = _yzpiPXT5;
         "forge-1.16.3" = _yzpiPXT5;
@@ -825,20 +897,20 @@ let
         "forge-1.20.2" = _iNCtfl71;
         "forge-1.20.5" = _1eic2hCD;
         "forge-1.20.6" = _1eic2hCD;
-        "forge-1.21" = _NLVZGcqv;
-        "forge-1.21.1" = _NLVZGcqv;
+        "forge-1.21" = _j2Fp0y6l;
+        "forge-1.21.1" = _j2Fp0y6l;
         "forge-1.21.2" = _w3OBDRPE;
         "forge-1.21.3" = _w3OBDRPE;
         "forge-1.21.4" = _w3OBDRPE;
         "forge-1.21.5" = _aehGfpos;
         "forge-1.21.6" = _aehGfpos;
-        "forge-1.21.10" = _cQ9zV5zC;
-        "forge-1.21.11" = _cQ9zV5zC;
-        "forge-26.1" = _C1MIMqz1;
-        "forge-26.1.1" = _C1MIMqz1;
-        "forge-26.1.2" = _C1MIMqz1;
-        "forge-26.2" = _C1MIMqz1;
-        "forge-26.3" = _gfu06G1f;
+        "forge-1.21.10" = _3UnmW6jr;
+        "forge-1.21.11" = _3UnmW6jr;
+        "forge-26.1" = _IUFjXDoj;
+        "forge-26.1.1" = _IUFjXDoj;
+        "forge-26.1.2" = _IUFjXDoj;
+        "forge-26.2" = _IUFjXDoj;
+        "forge-26.3" = _jg0hFS9a;
         "fabric-1.20" = _NCDBVONy;
         "fabric-1.20.1" = _NCDBVONy;
         "fabric-1.19.3" = _Sf3R4FK1;
@@ -849,20 +921,20 @@ let
         "fabric-1.20.2" = _7L0BOHbz;
         "fabric-1.20.5" = _pFp9CzZT;
         "fabric-1.20.6" = _pFp9CzZT;
-        "fabric-1.21" = _SXH8dScM;
-        "fabric-1.21.1" = _SXH8dScM;
+        "fabric-1.21" = _bgQ30T7P;
+        "fabric-1.21.1" = _bgQ30T7P;
         "fabric-1.21.2" = _NWcLvb2X;
         "fabric-1.21.3" = _NWcLvb2X;
         "fabric-1.21.4" = _NWcLvb2X;
         "fabric-1.21.5" = _1MS7WOKF;
         "fabric-1.21.6" = _1MS7WOKF;
-        "fabric-1.21.10" = _sfMa9M69;
-        "fabric-1.21.11" = _sfMa9M69;
-        "fabric-26.1" = _GGGmVuL9;
-        "fabric-26.1.1" = _GGGmVuL9;
-        "fabric-26.1.2" = _GGGmVuL9;
-        "fabric-26.2" = _GGGmVuL9;
-        "fabric-26.3" = _slMJRJ5A;
+        "fabric-1.21.10" = _K99zcJ9M;
+        "fabric-1.21.11" = _K99zcJ9M;
+        "fabric-26.1" = _2tentQC4;
+        "fabric-26.1.1" = _2tentQC4;
+        "fabric-26.1.2" = _2tentQC4;
+        "fabric-26.2" = _2tentQC4;
+        "fabric-26.3" = _GaUQd96e;
         "quilt-1.20" = _NCDBVONy;
         "quilt-1.20.1" = _NCDBVONy;
         "quilt-1.19.3" = _Sf3R4FK1;
@@ -873,29 +945,29 @@ let
         "quilt-1.20.2" = _7L0BOHbz;
         "quilt-1.20.5" = _pFp9CzZT;
         "quilt-1.20.6" = _pFp9CzZT;
-        "quilt-1.21" = _SXH8dScM;
-        "quilt-1.21.1" = _SXH8dScM;
+        "quilt-1.21" = _bgQ30T7P;
+        "quilt-1.21.1" = _bgQ30T7P;
         "quilt-1.21.2" = _NWcLvb2X;
         "quilt-1.21.3" = _NWcLvb2X;
         "quilt-1.21.4" = _NWcLvb2X;
         "quilt-1.21.5" = _1MS7WOKF;
         "quilt-1.21.6" = _1MS7WOKF;
-        "quilt-1.21.10" = _sfMa9M69;
-        "quilt-1.21.11" = _sfMa9M69;
-        "quilt-26.1" = _oEVUWwB6;
-        "quilt-26.1.1" = _oEVUWwB6;
-        "quilt-26.1.2" = _oEVUWwB6;
-        "quilt-26.2" = _oEVUWwB6;
-        "quilt-26.3" = _slMJRJ5A;
-        "neoforge-1.21.10" = _ewZP6S0F;
-        "neoforge-1.21.11" = _ewZP6S0F;
-        "neoforge-26.1" = _W8JeAzZk;
-        "neoforge-26.1.1" = _W8JeAzZk;
-        "neoforge-26.1.2" = _W8JeAzZk;
-        "neoforge-26.2" = _W8JeAzZk;
-        "neoforge-1.21" = _TI9YxAxp;
-        "neoforge-1.21.1" = _TI9YxAxp;
-        "neoforge-26.3" = _5L7EITFt;
+        "quilt-1.21.10" = _K99zcJ9M;
+        "quilt-1.21.11" = _K99zcJ9M;
+        "quilt-26.1" = _2tentQC4;
+        "quilt-26.1.1" = _2tentQC4;
+        "quilt-26.1.2" = _2tentQC4;
+        "quilt-26.2" = _2tentQC4;
+        "quilt-26.3" = _GaUQd96e;
+        "neoforge-1.21.10" = _voISJ9SC;
+        "neoforge-1.21.11" = _voISJ9SC;
+        "neoforge-26.1" = _iax3LPLK;
+        "neoforge-26.1.1" = _iax3LPLK;
+        "neoforge-26.1.2" = _iax3LPLK;
+        "neoforge-26.2" = _iax3LPLK;
+        "neoforge-1.21" = _oBfAabqN;
+        "neoforge-1.21.1" = _oBfAabqN;
+        "neoforge-26.3" = _VCt83i34;
         "pkg-forge-1.16.x-3.2.6" = _Osuuc5uZ;
         "pkg-forge-1.18.x-3.2.6" = _VlNRdapb;
         "pkg-forge-1.19.x-3.2.6" = _K9GEO6rg;
@@ -934,7 +1006,8 @@ let
         "pkg-4.3.0" = _3nrgwVcW;
         "pkg-4.3.1" = _5L7EITFt;
         "pkg-4.3.2" = _GGGmVuL9;
-        "default" = _GGGmVuL9;
+        "pkg-4.4.0" = _VCt83i34;
+        "default" = _VCt83i34;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc2discord";

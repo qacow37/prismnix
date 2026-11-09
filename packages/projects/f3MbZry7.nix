@@ -66,6 +66,46 @@ let
             "file" = "plunderengine-neoforge-0.1.21+mc1.21.1.jar";
             "hash" = "sha512-BN8JmHt+hu8oBYXURFqIjcRVPGys4Hoh4AHhUuh7oVqzMrsnJvgFsXtXjuB1oRBbLKueaEwyEViC37ZVR8Ifag==";
         };
+        _R3DlDuRO = {
+            "id" = "R3DlDuRO";
+            "file" = "plunderengine-0.1.22-beta-1+mc26.2.jar";
+            "hash" = "sha512-lqmrP3q7lPYdy/hiRlavOaClMCNeDuWuz2JrwtcdNr/WepyHk1rsE6mv6Q0MYlvGoAY40aaeg+Ux4ACp5oj0UA==";
+        };
+        _TQWhq7TH = {
+            "id" = "TQWhq7TH";
+            "file" = "plunderengine-neoforge-0.1.22-beta-1+mc26.2.jar";
+            "hash" = "sha512-00j/4M/6HlUoCscHYfQ+j6GH+S+gcE95yNhXMhB7Xlbomwk7r3Funcxwg+dZXYuHpVlzufdEYQjr9sNzn/NWMQ==";
+        };
+        _6IJuHiQ0 = {
+            "id" = "6IJuHiQ0";
+            "file" = "plunderengine-0.1.22-beta-1+mc26.1.2.jar";
+            "hash" = "sha512-tPILcd/u/AHT8t4DS8xwgkKhugd4WqbI1hbauA3GofjlDmzCbAQlZbhz4GcLPOvvlNSQn6+G4wqNgXgTd6oHAA==";
+        };
+        _puukRmgu = {
+            "id" = "puukRmgu";
+            "file" = "plunderengine-neoforge-0.1.22-beta-1+mc26.1.2.jar";
+            "hash" = "sha512-9IBEywBXpiF2Mj9tNy2RH/nBIgJFqzhlMxuvJ7yIWrefKvAqBVxdNbt7zgGk/LrLa0VghDPOnvIWJQeadOgXeg==";
+        };
+        _qrEYwODh = {
+            "id" = "qrEYwODh";
+            "file" = "plunderengine-0.1.22-beta-1+mc1.21.11.jar";
+            "hash" = "sha512-IlM44P8VflzUeXdq4/ae/mFp3GojYcSH8mcd8jJR6KQrB5DCmnTrCa8Qv4WGnweZZe40TbfW3Jl060Z8cEkIag==";
+        };
+        _NfWAApLt = {
+            "id" = "NfWAApLt";
+            "file" = "plunderengine-neoforge-0.1.22-beta-1+mc1.21.11.jar";
+            "hash" = "sha512-cyHCOp7JF0gNEczxdmA236i3zlWFBpnuf+dgsme9/Arf7Uo/x91FjsRlIj576OlQYbUDivSnbZ2JnA6+WNR4+A==";
+        };
+        _d6uXOclY = {
+            "id" = "d6uXOclY";
+            "file" = "plunderengine-0.1.22-beta-1+mc1.21.1.jar";
+            "hash" = "sha512-knbw/Ge2RlEK3ZC+Lxaz3hI0K3BWYRB5w2eTPqaohBQ9zdCHoKXTQQoT3IXyeeqGG95CeGoYLFFzBb9/nS8H7g==";
+        };
+        _4oNI2hJ9 = {
+            "id" = "4oNI2hJ9";
+            "file" = "plunderengine-neoforge-0.1.22-beta-1+mc1.21.1.jar";
+            "hash" = "sha512-FOMYkCCtHhKoN0E1GcQLs5IhX27W7VdwamltyluAO8t9jjcNaePmC2ACuq8r041wzYLntQYWOMAiqG4MOk6plA==";
+        };
     in {
         "VKS42bq4" = _VKS42bq4;
         "2Dbi8CgF" = _2Dbi8CgF;
@@ -80,18 +120,26 @@ let
         "U7fn9sVg" = _U7fn9sVg;
         "LFMh49wI" = _LFMh49wI;
         "LqJtRRpD" = _LqJtRRpD;
-        "fabric-26.1" = _EoOW9boA;
-        "fabric-26.1.1" = _EoOW9boA;
-        "fabric-26.1.2" = _EoOW9boA;
-        "fabric-26.2" = _Jl8hWc2s;
-        "fabric-1.21.11" = _azhfdncw;
-        "fabric-1.21.1" = _LFMh49wI;
-        "neoforge-26.2" = _fi7UQKtT;
-        "neoforge-26.1" = _R3HJUKqm;
-        "neoforge-26.1.1" = _R3HJUKqm;
-        "neoforge-26.1.2" = _R3HJUKqm;
-        "neoforge-1.21.11" = _U7fn9sVg;
-        "neoforge-1.21.1" = _LqJtRRpD;
+        "R3DlDuRO" = _R3DlDuRO;
+        "TQWhq7TH" = _TQWhq7TH;
+        "6IJuHiQ0" = _6IJuHiQ0;
+        "puukRmgu" = _puukRmgu;
+        "qrEYwODh" = _qrEYwODh;
+        "NfWAApLt" = _NfWAApLt;
+        "d6uXOclY" = _d6uXOclY;
+        "4oNI2hJ9" = _4oNI2hJ9;
+        "fabric-26.1" = _6IJuHiQ0;
+        "fabric-26.1.1" = _6IJuHiQ0;
+        "fabric-26.1.2" = _6IJuHiQ0;
+        "fabric-26.2" = _R3DlDuRO;
+        "fabric-1.21.11" = _qrEYwODh;
+        "fabric-1.21.1" = _d6uXOclY;
+        "neoforge-26.2" = _TQWhq7TH;
+        "neoforge-26.1" = _puukRmgu;
+        "neoforge-26.1.1" = _puukRmgu;
+        "neoforge-26.1.2" = _puukRmgu;
+        "neoforge-1.21.11" = _NfWAApLt;
+        "neoforge-1.21.1" = _4oNI2hJ9;
         "pkg-0.1.0" = _VKS42bq4;
         "pkg-0.1.19" = _2Dbi8CgF;
         "pkg-0.1.20+mc26.2" = _HqFg4i3w;
@@ -105,7 +153,15 @@ let
         "pkg-0.1.21+mc1.21.11-neoforge" = _U7fn9sVg;
         "pkg-0.1.21+mc1.21.1" = _LFMh49wI;
         "pkg-0.1.21+mc1.21.1-neoforge" = _LqJtRRpD;
-        "default" = _LqJtRRpD;
+        "pkg-0.1.22-beta-1+mc26.2" = _R3DlDuRO;
+        "pkg-0.1.22-beta-1+mc26.2-neoforge" = _TQWhq7TH;
+        "pkg-0.1.22-beta-1+mc26.1.2" = _6IJuHiQ0;
+        "pkg-0.1.22-beta-1+mc26.1.2-neoforge" = _puukRmgu;
+        "pkg-0.1.22-beta-1+mc1.21.11" = _qrEYwODh;
+        "pkg-0.1.22-beta-1+mc1.21.11-neoforge" = _NfWAApLt;
+        "pkg-0.1.22-beta-1+mc1.21.1" = _d6uXOclY;
+        "pkg-0.1.22-beta-1+mc1.21.1-neoforge" = _4oNI2hJ9;
+        "default" = _4oNI2hJ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plunderengine";

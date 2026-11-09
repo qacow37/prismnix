@@ -91,6 +91,41 @@ let
             "file" = "enviromats-forge-1.16.5-2.1.0.0.jar";
             "hash" = "sha512-nksr8uQa9wbIZ7tEhhDmdNsVsGirbn5nYP1Gv9vCeWnfb2AuXqlR+WLdKKT6xwQYkqxbVOuGzXr/n6UzhqcptQ==";
         };
+        _qwWlf3UZ = {
+            "id" = "qwWlf3UZ";
+            "file" = "enviromats-forge-1.16.5-2.1.1.0.jar";
+            "hash" = "sha512-n4GxJPMvBjbscGNfGZKFX5f1S7O+7zca0bRHilla3pq3KxKitHgDrgzb39jhAIRWP4WzoB/2Vt+N9xDUhqnspw==";
+        };
+        _gNOilvDU = {
+            "id" = "gNOilvDU";
+            "file" = "enviromats-forge-1.17.1-2.1.1.0.jar";
+            "hash" = "sha512-GcbTmq1JcuWzLcxm6x6RsQLw/1O64UpsDTiRwPI+xUdxXmq9G97HJLZ06EjsetkTLN2aF2o2l4JF8s+v2nsylg==";
+        };
+        _MQh1nla6 = {
+            "id" = "MQh1nla6";
+            "file" = "enviromats-forge-1.18.2-2.1.1.0.jar";
+            "hash" = "sha512-2WnwMCEpv5sO1Amxbhp9gGnmoJGJmi9tGNw6nAonnOrfrxfYBnBYJKyZ0BVgmTmrdMwdL4OpCiRT8c6xYuzIOQ==";
+        };
+        _rnSovsEP = {
+            "id" = "rnSovsEP";
+            "file" = "enviromats-forge-1.19.4-2.2.0.0.jar";
+            "hash" = "sha512-lvxuzI0BpwcUme3Gd+Wb/PFz7ayfT44AIQXddAI7dd8fx3PVWjKAYMipF3pCMOKoYPzNyNPFCtpCm8G73cxyPQ==";
+        };
+        _VwoRCnha = {
+            "id" = "VwoRCnha";
+            "file" = "enviromats-forge-1.20.1-2.2.0.jar";
+            "hash" = "sha512-tculu5cug09srg8cSwnlFxjGXU3f7Ae1AU+r7qo6NN/iWkFa/gFNMR3mw7sufiXZMtCjYcEcXTHYSvqOu2zDNw==";
+        };
+        _7rRUtyEC = {
+            "id" = "7rRUtyEC";
+            "file" = "enviromats-neoforge-1.20.1-2.2.1.jar";
+            "hash" = "sha512-pk6cssIC241kSgb+/wKy1gYXCguFMgX2DU8kP1t/z49+KU4NmigU0wtteWjMtZ9rXhGMpcCpa74P/R/xpGLhzg==";
+        };
+        _o4KRaFqI = {
+            "id" = "o4KRaFqI";
+            "file" = "enviromats-neoforge-1.21.1-2.2.1.jar";
+            "hash" = "sha512-oN8k6A0nKwfFLWBKG1TCVi4VygQy7X5XdDwhzZ6DSwI5rE2dRu9sq7INbrlCBC2VRSOiJ/YbcHU1CcOO02m54A==";
+        };
     in {
         "znTccB4l" = _znTccB4l;
         "b9ERyhxx" = _b9ERyhxx;
@@ -110,25 +145,35 @@ let
         "IxUFb6j7" = _IxUFb6j7;
         "DXUxASCe" = _DXUxASCe;
         "7Pyd4XIJ" = _7Pyd4XIJ;
+        "qwWlf3UZ" = _qwWlf3UZ;
+        "gNOilvDU" = _gNOilvDU;
+        "MQh1nla6" = _MQh1nla6;
+        "rnSovsEP" = _rnSovsEP;
+        "VwoRCnha" = _VwoRCnha;
+        "7rRUtyEC" = _7rRUtyEC;
+        "o4KRaFqI" = _o4KRaFqI;
         "forge-1.19" = _znTccB4l;
         "forge-1.19.2" = _9JjYdSs1;
         "forge-1.19.3" = _gfRBCaD4;
-        "forge-1.19.4" = _8vfeegea;
+        "forge-1.19.4" = _rnSovsEP;
         "forge-1.12.2" = _P0h6WZVU;
         "forge-1.14.4" = _IxUFb6j7;
         "forge-1.15.2" = _DXUxASCe;
-        "forge-1.16.5" = _7Pyd4XIJ;
+        "forge-1.16.5" = _qwWlf3UZ;
         "forge-1.20" = _ZsA8XL1W;
-        "forge-1.20.1" = _ZsA8XL1W;
+        "forge-1.20.1" = _7rRUtyEC;
         "forge-1.20.2" = _ZsA8XL1W;
+        "forge-1.17.1" = _gNOilvDU;
+        "forge-1.18.2" = _MQh1nla6;
         "fabric-1.19" = _QfMvanTZ;
         "fabric-1.19.1" = _QfMvanTZ;
         "fabric-1.19.2" = _QfMvanTZ;
         "fabric-1.19.3" = _e6HJhzgq;
         "fabric-1.19.4" = _e6HJhzgq;
         "neoforge-1.20" = _ZsA8XL1W;
-        "neoforge-1.20.1" = _ZsA8XL1W;
+        "neoforge-1.20.1" = _7rRUtyEC;
         "neoforge-1.20.2" = _ZsA8XL1W;
+        "neoforge-1.21.1" = _o4KRaFqI;
         "pkg-1.19-2.1.0.0" = _znTccB4l;
         "pkg-1.19-2.1.0.1" = _b9ERyhxx;
         "pkg-1.19.2-2.1.2.0" = _9JjYdSs1;
@@ -145,7 +190,14 @@ let
         "pkg-1.14.4-2.1.0.0" = _IxUFb6j7;
         "pkg-1.15.2-2.1.0.0" = _DXUxASCe;
         "pkg-1.16.5-2.1.0.0" = _7Pyd4XIJ;
-        "default" = _7Pyd4XIJ;
+        "pkg-1.16.5-2.1.1.0" = _qwWlf3UZ;
+        "pkg-1.17.1-2.1.1.0" = _gNOilvDU;
+        "pkg-1.18.2-2.1.1.0" = _MQh1nla6;
+        "pkg-1.19.4-2.2.0.0" = _rnSovsEP;
+        "pkg-1.20.1-2.2.0" = _VwoRCnha;
+        "pkg-1.20.1-2.2.1" = _7rRUtyEC;
+        "pkg-1.21.1-2.2.1" = _o4KRaFqI;
+        "default" = _o4KRaFqI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmental-materials";

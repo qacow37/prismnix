@@ -76,6 +76,11 @@ let
             "file" = "EssentialUI.zip";
             "hash" = "sha512-/pdDgCPZ29xE1Hivsmp0jbPOjauvy3QVvJIzQHpEHa7r0cVmO2QnUZWe8U+VW5X3bO7ITxe3qLAY2JjRdetDdA==";
         };
+        _EeuRSwMk = {
+            "id" = "EeuRSwMk";
+            "file" = "EssentialUI.zip";
+            "hash" = "sha512-F2iBHhUYdbES3OAFliwuyg8Jksz0lgcqqoNfZ1a7/9k5QUY9hDhxtuKeGAcBYcfE2zGKf+iGJSvj37XpZDnvpw==";
+        };
     in {
         "DgVVLpoS" = _DgVVLpoS;
         "KuLNKmIo" = _KuLNKmIo;
@@ -92,6 +97,7 @@ let
         "yLuQvrT0" = _yLuQvrT0;
         "HyZQ43dJ" = _HyZQ43dJ;
         "1QCP3xdR" = _1QCP3xdR;
+        "EeuRSwMk" = _EeuRSwMk;
         "minecraft-1.8.9" = _DgVVLpoS;
         "minecraft-1.16" = _KuLNKmIo;
         "minecraft-1.16.1" = _KuLNKmIo;
@@ -127,13 +133,14 @@ let
         "minecraft-1.21.8" = _b5jTDbEz;
         "minecraft-1.21.9" = _anLEYKQs;
         "minecraft-1.21.10" = _anLEYKQs;
-        "minecraft-1.21.11" = _1QCP3xdR;
-        "minecraft-26.1" = _1QCP3xdR;
-        "minecraft-26.1.1" = _1QCP3xdR;
-        "minecraft-26.1.2" = _1QCP3xdR;
-        "minecraft-26.2" = _1QCP3xdR;
-        "pkg-1.0.0" = _1QCP3xdR;
-        "default" = _1QCP3xdR;
+        "minecraft-1.21.11" = _EeuRSwMk;
+        "minecraft-26.1" = _EeuRSwMk;
+        "minecraft-26.1.1" = _EeuRSwMk;
+        "minecraft-26.1.2" = _EeuRSwMk;
+        "minecraft-26.2" = _EeuRSwMk;
+        "minecraft-26.3" = _EeuRSwMk;
+        "pkg-1.0.0" = _EeuRSwMk;
+        "default" = _EeuRSwMk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essentialui";

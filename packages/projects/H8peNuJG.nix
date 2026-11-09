@@ -316,6 +316,31 @@ let
             "file" = "tacz-tweaks-2.14.2-all.jar";
             "hash" = "sha512-zgl81xAp38JmUuIy0KO5+Ot8cuuYFA2GheHWURNvKYnNlJU/S3/g1n8UXmP/vk0ZDvciOUvAzAbKboUpKVFT1g==";
         };
+        _gcQemY8o = {
+            "id" = "gcQemY8o";
+            "file" = "tacz-tweaks-2.15.0-all.jar";
+            "hash" = "sha512-2FzgrwaH7ukvn0WwcVE3SmjSMuFfVw8u+7vZCieQtGDkVN653m7SIjDbTpLe1ITyDmuT88zP+sigNNSZMCioiA==";
+        };
+        _qeiW1DHt = {
+            "id" = "qeiW1DHt";
+            "file" = "tacz-tweaks-3.0.0-alpha.11+1.20.1-fabric.jar";
+            "hash" = "sha512-xBr8e03mXXeoMMvYyWX+Zgy2FccZBiKrk50x5GkLv0QYQuMD9lIhp36p+9khiA0Fntis2SgXYiitKGRpAmx7YA==";
+        };
+        _nNTJbW9M = {
+            "id" = "nNTJbW9M";
+            "file" = "tacz-tweaks-3.0.0-alpha.11+1.21.1-fabric.jar";
+            "hash" = "sha512-a2V3NrMkqHS4lrSWF3sLRxi2PJfZQ9wT7i/qiHPOQMUjnNf6WZTVOSZZlCLufQz4x556UlqB0fIE49A1EjA0ow==";
+        };
+        _xhNCTKcD = {
+            "id" = "xhNCTKcD";
+            "file" = "tacz-tweaks-3.0.0-alpha.11+1.20.1-forge.jar";
+            "hash" = "sha512-aj4UyC1t6FfLdyFpNxrb01gwcI1tofKEo8L01EBB5p1hJnxGBV04WYq0fth0YXoXZbw77nq9hlKVkzgtz1LAYQ==";
+        };
+        _C0G30tdA = {
+            "id" = "C0G30tdA";
+            "file" = "tacz-tweaks-3.0.0-alpha.11+1.21.1-neoforge.jar";
+            "hash" = "sha512-k1vjIIp51sBaRSnEGysIOqkPkJ6RnodqPrqrCDXn/4YpF5OFJzZFYoEn/uicBLNYJTz9pLtfx4gP/OBGy/b23w==";
+        };
     in {
         "24ia8mEB" = _24ia8mEB;
         "H1PfBN1E" = _H1PfBN1E;
@@ -380,11 +405,16 @@ let
         "arow8rck" = _arow8rck;
         "wM9iqFmt" = _wM9iqFmt;
         "PVCsSn4e" = _PVCsSn4e;
-        "forge-1.20" = _PVCsSn4e;
-        "forge-1.20.1" = _PVCsSn4e;
-        "neoforge-1.21.1" = _wM9iqFmt;
-        "fabric-1.21.1" = _wEKCLlcc;
-        "fabric-1.20.1" = _jwKYozYB;
+        "gcQemY8o" = _gcQemY8o;
+        "qeiW1DHt" = _qeiW1DHt;
+        "nNTJbW9M" = _nNTJbW9M;
+        "xhNCTKcD" = _xhNCTKcD;
+        "C0G30tdA" = _C0G30tdA;
+        "forge-1.20" = _gcQemY8o;
+        "forge-1.20.1" = _xhNCTKcD;
+        "neoforge-1.21.1" = _C0G30tdA;
+        "fabric-1.21.1" = _nNTJbW9M;
+        "fabric-1.20.1" = _qeiW1DHt;
         "pkg-1.3.1" = _24ia8mEB;
         "pkg-1.4.0" = _H1PfBN1E;
         "pkg-1.5.0" = _tXshKbFA;
@@ -448,7 +478,12 @@ let
         "pkg-3.0.0-alpha.10+1.20.1-forge" = _arow8rck;
         "pkg-3.0.0-alpha.10+1.21.1-neoforge" = _wM9iqFmt;
         "pkg-2.14.2" = _PVCsSn4e;
-        "default" = _PVCsSn4e;
+        "pkg-2.15.0" = _gcQemY8o;
+        "pkg-3.0.0-alpha.11+1.20.1-fabric" = _qeiW1DHt;
+        "pkg-3.0.0-alpha.11+1.21.1-fabric" = _nNTJbW9M;
+        "pkg-3.0.0-alpha.11+1.20.1-forge" = _xhNCTKcD;
+        "pkg-3.0.0-alpha.11+1.21.1-neoforge" = _C0G30tdA;
+        "default" = _C0G30tdA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-tweaks";

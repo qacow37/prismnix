@@ -91,6 +91,61 @@ let
             "file" = "choppersdelight-fabric-1.21.1-1.2.2.jar";
             "hash" = "sha512-ku76LwPAcfytHk21KMlmjIsntqMsP4kgi96ao9RUQUdGJq4AzXYkpB9B4QPH1Y7YIHNAJRX8Br4tCN5uD+NDZg==";
         };
+        _aEhSntF1 = {
+            "id" = "aEhSntF1";
+            "file" = "choppersdelight-fabric-1.21.1-1.2.3.jar";
+            "hash" = "sha512-bjtdC5aJykPOpEWEcdvXjToteeak53ANSJhu4vGMrkIHe3W5NUC9C6AtNCgUvWh4lheTvuBS3PaiX1nHuowZ5w==";
+        };
+        _td9Do9x3 = {
+            "id" = "td9Do9x3";
+            "file" = "choppersdelight-forge-1.20.1-1.2.2.jar";
+            "hash" = "sha512-WpQrwXzS8+ok5fierp23YncxDRe6ipgbCcdC8F59y5HjFxKXWRl2ptA5REODbN1nhZ4qkrUETfP8iSmUr572FQ==";
+        };
+        _rE7FKDPG = {
+            "id" = "rE7FKDPG";
+            "file" = "choppersdelight-forge-1.20.1-1.2.3.jar";
+            "hash" = "sha512-uYlA0DhoFVQQO9AsJNbgQAFpt/9qDlxB1kG+a+pWoLa33Zoa/X6vIMgQhuLyrrIU+8/krcpZHTQPNtJXdWXO/g==";
+        };
+        _QuffMMKc = {
+            "id" = "QuffMMKc";
+            "file" = "choppersdelight-fabric-1.21.5-1.2.1.jar";
+            "hash" = "sha512-MPfmX4J8fROz8u23TcuriOKTOEKg4c/MNi4bB2jHX/23ifDtV46nytWDfl+IxNCZoRx0eBgH0+sYI2MBDJt5Rw==";
+        };
+        _G4RyFvAO = {
+            "id" = "G4RyFvAO";
+            "file" = "choppersdelight-fabric-1.21.6-1.2.1.jar";
+            "hash" = "sha512-ulI1B1VVeZCQyUEb5uG2FDw5AcIOVd+q24t+iGUJ5kDPvolWqdqjZ2CbAEYivg2W+H3KkIoVy9M+mFqs+9MMMw==";
+        };
+        _6K11pXGd = {
+            "id" = "6K11pXGd";
+            "file" = "choppersdelight-fabric-1.21.8-1.2.1.jar";
+            "hash" = "sha512-pEXLv3luOIUDWGNB5Rxf9Y1cjjdM0g2Gp7ETPwoaZK1Q/J8slD7Cb27Vj+o51wbjHrUrirT5cdmW4j5iaVPWOw==";
+        };
+        _dWHSNpdL = {
+            "id" = "dWHSNpdL";
+            "file" = "choppersdelight-fabric-1.21.10-1.2.1.jar";
+            "hash" = "sha512-CGXBRgKXW1+QT8tyEAsv09nLlWcMBX0hgm60ltt1WDfm6rup6Ggr1LqmInawGANGUbx8+q1cfUeiMO8P8Ulxog==";
+        };
+        _HsOhDE2A = {
+            "id" = "HsOhDE2A";
+            "file" = "choppersdelight-fabric-1.21.11-1.2.1.jar";
+            "hash" = "sha512-rRwU2rRfj2FqUDCY5vAIeIOvVDMxC/AFN1T7iw/FZAt4jxwqZbdIHPhH9P6k6/7/HgdjaSklDKmjC0H43gb3xg==";
+        };
+        _oS5tZvq7 = {
+            "id" = "oS5tZvq7";
+            "file" = "choppersdelight-fabric-26.1.2-1.2.1.jar";
+            "hash" = "sha512-7wW4TneYBggZLmq5I5FNuvjjSAlr/j8AHhhhHEwhEYV0YefjFUm3BxiFsnj+6x0u4xtXTo3pwdaG1FB4s0aVzw==";
+        };
+        _xo6PjHnU = {
+            "id" = "xo6PjHnU";
+            "file" = "choppersdelight-fabric-26.2-1.2.1.jar";
+            "hash" = "sha512-2mng2AVsG27nhgLZFE5ZGU6qWgzHACTHKjy0E3tzHik/LakLrF6R1v7n6NI4Rc23PwQ8z/fBgih62f0npc9NIw==";
+        };
+        _WXuxgPlk = {
+            "id" = "WXuxgPlk";
+            "file" = "choppersdelight-fabric-26.3-1.2.1.jar";
+            "hash" = "sha512-vkoq22nAx8cZJSOS6hoq4kOtzZQLO4sEAc9zRkzGw/EYSGZfo+Oo0flBpIr5ZNgN9tE8rulEz7xBNEUI9otfxQ==";
+        };
     in {
         "7WP4w0WN" = _7WP4w0WN;
         "wzs0CLu6" = _wzs0CLu6;
@@ -110,21 +165,45 @@ let
         "1lF4QatS" = _1lF4QatS;
         "oulg9zE4" = _oulg9zE4;
         "J6o5P18u" = _J6o5P18u;
+        "aEhSntF1" = _aEhSntF1;
+        "td9Do9x3" = _td9Do9x3;
+        "rE7FKDPG" = _rE7FKDPG;
+        "QuffMMKc" = _QuffMMKc;
+        "G4RyFvAO" = _G4RyFvAO;
+        "6K11pXGd" = _6K11pXGd;
+        "dWHSNpdL" = _dWHSNpdL;
+        "HsOhDE2A" = _HsOhDE2A;
+        "oS5tZvq7" = _oS5tZvq7;
+        "xo6PjHnU" = _xo6PjHnU;
+        "WXuxgPlk" = _WXuxgPlk;
         "neoforge-1.21" = _qqtEV5J3;
         "neoforge-1.21.1" = _oulg9zE4;
-        "neoforge-1.20.1" = _qaSEHh3r;
-        "fabric-1.21" = _J6o5P18u;
-        "fabric-1.21.1" = _J6o5P18u;
-        "forge-1.20.1" = _qaSEHh3r;
+        "neoforge-1.20.1" = _rE7FKDPG;
+        "fabric-1.21" = _aEhSntF1;
+        "fabric-1.21.1" = _aEhSntF1;
+        "fabric-1.21.5" = _QuffMMKc;
+        "fabric-1.21.6" = _G4RyFvAO;
+        "fabric-1.21.7" = _6K11pXGd;
+        "fabric-1.21.8" = _6K11pXGd;
+        "fabric-1.21.9" = _dWHSNpdL;
+        "fabric-1.21.10" = _dWHSNpdL;
+        "fabric-1.21.11" = _HsOhDE2A;
+        "fabric-26.1" = _oS5tZvq7;
+        "fabric-26.1.1" = _oS5tZvq7;
+        "fabric-26.1.2" = _oS5tZvq7;
+        "fabric-26.2" = _xo6PjHnU;
+        "fabric-26.3" = _WXuxgPlk;
+        "forge-1.20.1" = _rE7FKDPG;
         "pkg-1.0.0" = _shAZtfdJ;
         "pkg-1.0.1" = _naOd6ck1;
         "pkg-1.0.2" = _UwXWiOrX;
         "pkg-1.1.0" = _2d93Zvs3;
         "pkg-1.1.2" = _thB4dgEM;
         "pkg-1.2.0" = _nwXBy4bo;
-        "pkg-1.2.1" = _1lF4QatS;
-        "pkg-1.2.2" = _J6o5P18u;
-        "default" = _J6o5P18u;
+        "pkg-1.2.1" = _WXuxgPlk;
+        "pkg-1.2.2" = _td9Do9x3;
+        "pkg-1.2.3" = _rE7FKDPG;
+        "default" = _WXuxgPlk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "choppers-delight";

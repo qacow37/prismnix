@@ -86,6 +86,56 @@ let
             "file" = "BetterGamma-1.1.1+1.21-fabric.jar";
             "hash" = "sha512-2W0Kp5sNGOxvHS7aX3fLx71b4iAfQJoedhm7bciI/jEsnS32DCWZyiqaGtBRvL90eZt1dHTmOngwk4bbaf+pKw==";
         };
+        _nuE51A7e = {
+            "id" = "nuE51A7e";
+            "file" = "bettergamma-2.0.0+1.8.9.jar";
+            "hash" = "sha512-6YlDXB69sqZXuWyzT+RJWF97HxDZ64ipkQ0NgXo1/PELJTwEAwf4mO0MinGr6MTLuKd2E6UIOCpgwLb3xIKEUQ==";
+        };
+        _FqNjdMNh = {
+            "id" = "FqNjdMNh";
+            "file" = "bettergamma-2.0.0+1.21.1.jar";
+            "hash" = "sha512-nsSdZ0jJVMK9l5vS9u9YGgYidgYaCU6lkVE+zw4v13ZWRF56DhWU56Js6EpxbilGWcBLBAWKRloSLhkyDAaWOw==";
+        };
+        _M6VOnEiS = {
+            "id" = "M6VOnEiS";
+            "file" = "bettergamma-2.0.0+1.21.4.jar";
+            "hash" = "sha512-olHj7hqk6Yc8dVMxaq5fiy5Y99i+vSzCdwXypof9+hx9/G+o98i6p7y+WcUAm0IQm98KfOYk+CMI3h1SRqKvqw==";
+        };
+        _ZUwwwoxX = {
+            "id" = "ZUwwwoxX";
+            "file" = "bettergamma-2.0.0+1.21.5.jar";
+            "hash" = "sha512-X8x+5p2NFwmGb6wMuateK50swdcYn/585L+r5DcZgl0I01zbX7tYtaqWyzC8Ilg93p3BT0TSmWp0LQpkBicH3g==";
+        };
+        _kuZLvMO8 = {
+            "id" = "kuZLvMO8";
+            "file" = "bettergamma-2.0.0+1.21.8.jar";
+            "hash" = "sha512-dCkuSVNplq27syIpuNTTojkih9fwc4CoeYcOjVHsD5rYyBGSrRtGoZT8Hznpj08hg/LOb++Mu0ybNH1VdJRt3w==";
+        };
+        _jP260FLB = {
+            "id" = "jP260FLB";
+            "file" = "bettergamma-2.0.0+1.21.10.jar";
+            "hash" = "sha512-eyiPFUayXYB/FYt5lDFvWBMBbyGA4BwClxQhN1/bnwPztAQ+Z2Ya2+Kmzifz8h4XpyYb7KcFTWx1DCVq3W52KQ==";
+        };
+        _l5qsVYbf = {
+            "id" = "l5qsVYbf";
+            "file" = "bettergamma-2.0.0+1.21.11.jar";
+            "hash" = "sha512-M03xbk+BEXO/porBV/4OcKwNZ+n9VIpG6jUFE8EPFMAXgJtyEercRLzSuzZ2gZ20+83mQ3pEokQ++tGjWvGWlQ==";
+        };
+        _Gv9O5fkz = {
+            "id" = "Gv9O5fkz";
+            "file" = "bettergamma-2.0.0+26.1.jar";
+            "hash" = "sha512-zWvK9x3KHSiznYun3VX6vmeWdfSwgOK7SoAofiDgBsMTncqNwDTRN+ot8k0lbU2Y9xjFwLx45T+bFcM+4lsP7Q==";
+        };
+        _yzGM2H1y = {
+            "id" = "yzGM2H1y";
+            "file" = "bettergamma-2.0.0+26.2.jar";
+            "hash" = "sha512-pdCb65ywpYwl04TAcxCbBpeGXAmBwzPreuhI0UM1xR58aqAwajwsrc3kuvgfSw9IsX025UWGNiI3jBV9M3IUOA==";
+        };
+        _GburvMbq = {
+            "id" = "GburvMbq";
+            "file" = "bettergamma-2.0.0+26.3.jar";
+            "hash" = "sha512-v9lbdVkiKiKEGDILMCT+CiiwyATP7Oja7tKtdghn4qXsjWZy0e3oUQpbM//kDbeXr/UCP/i5JktnIXAdQCRqZA==";
+        };
     in {
         "EAkTWWaB" = _EAkTWWaB;
         "TCa8WXg3" = _TCa8WXg3;
@@ -104,6 +154,16 @@ let
         "eJFdKdNI" = _eJFdKdNI;
         "ydv36yuW" = _ydv36yuW;
         "5wRSpxoh" = _5wRSpxoh;
+        "nuE51A7e" = _nuE51A7e;
+        "FqNjdMNh" = _FqNjdMNh;
+        "M6VOnEiS" = _M6VOnEiS;
+        "ZUwwwoxX" = _ZUwwwoxX;
+        "kuZLvMO8" = _kuZLvMO8;
+        "jP260FLB" = _jP260FLB;
+        "l5qsVYbf" = _l5qsVYbf;
+        "Gv9O5fkz" = _Gv9O5fkz;
+        "yzGM2H1y" = _yzGM2H1y;
+        "GburvMbq" = _GburvMbq;
         "fabric-1.19.2" = _Zdnp31xI;
         "fabric-1.18.2" = _NY4VRWjD;
         "fabric-1.19.4" = _WqjyOcbB;
@@ -111,7 +171,19 @@ let
         "fabric-1.20.6" = _ydv36yuW;
         "fabric-1.20.4" = _eJFdKdNI;
         "fabric-1.20.2" = _YU12b0vW;
-        "fabric-1.21" = _5wRSpxoh;
+        "fabric-1.21" = _FqNjdMNh;
+        "fabric-1.21.1" = _FqNjdMNh;
+        "fabric-1.21.4" = _M6VOnEiS;
+        "fabric-1.21.5" = _ZUwwwoxX;
+        "fabric-1.21.8" = _kuZLvMO8;
+        "fabric-1.21.10" = _jP260FLB;
+        "fabric-1.21.11" = _l5qsVYbf;
+        "fabric-26.1" = _Gv9O5fkz;
+        "fabric-26.1.1" = _Gv9O5fkz;
+        "fabric-26.1.2" = _Gv9O5fkz;
+        "fabric-26.2" = _yzGM2H1y;
+        "fabric-26.3" = _GburvMbq;
+        "ornithe-1.8.9" = _nuE51A7e;
         "pkg-1.0.0" = _EAkTWWaB;
         "pkg-1.0.1" = _TCa8WXg3;
         "pkg-1.1.0+1.19.2-fabric" = _qEmnHzJC;
@@ -129,7 +201,8 @@ let
         "pkg-1.1.1+1.20.4-fabric" = _eJFdKdNI;
         "pkg-1.1.1+1.20.6-fabric" = _ydv36yuW;
         "pkg-1.1.1+1.21-fabric" = _5wRSpxoh;
-        "default" = _5wRSpxoh;
+        "pkg-v2.0.0" = _GburvMbq;
+        "default" = _GburvMbq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettergamma";

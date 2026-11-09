@@ -31,6 +31,16 @@ let
             "file" = "mca-ev-compat-1.21.1-2.2.8.jar";
             "hash" = "sha512-qMZa7iT8sRdQahc4guvUW7heSronzWMwn+dsqO1ZV+uXJ/dEKngW8KYBnXIBz4pzYPVDSBETf4nqSeaxENiVqQ==";
         };
+        _8utQsiNn = {
+            "id" = "8utQsiNn";
+            "file" = "mca-ev-compat-1.20.1-1.2.1.jar";
+            "hash" = "sha512-NGM64daXKjOEmUV0OhQGPjbk1IzxVEU8FNns/huZfUxlzVvHtsRIoJW/UjZNPmJk/qtI9UwGCoqRUptBfObxkw==";
+        };
+        _LJ2xwpvU = {
+            "id" = "LJ2xwpvU";
+            "file" = "mca-ev-compat-1.21.1-2.3.0.jar";
+            "hash" = "sha512-n8UEE6RadgecY2rYice7uIoy7/ZTyPn8uKNdXLzFP643IOdRnB990gU1hIzhcCgxsLXq40hdpASxQD8XOl1B7A==";
+        };
     in {
         "CHLYlFmg" = _CHLYlFmg;
         "zcUGc31f" = _zcUGc31f;
@@ -38,8 +48,10 @@ let
         "54Mt0AwS" = _54Mt0AwS;
         "K9eR3nhL" = _K9eR3nhL;
         "5oUkmGze" = _5oUkmGze;
-        "forge-1.20.1" = _MqRtOqPK;
-        "neoforge-1.21.1" = _5oUkmGze;
+        "8utQsiNn" = _8utQsiNn;
+        "LJ2xwpvU" = _LJ2xwpvU;
+        "forge-1.20.1" = _8utQsiNn;
+        "neoforge-1.21.1" = _LJ2xwpvU;
         "neoforge-26.1.2" = _K9eR3nhL;
         "pkg-1.0.0" = _CHLYlFmg;
         "pkg-2.0.0" = _zcUGc31f;
@@ -47,7 +59,9 @@ let
         "pkg-2.1.0" = _54Mt0AwS;
         "pkg-3.0.0" = _K9eR3nhL;
         "pkg-2.2.0" = _5oUkmGze;
-        "default" = _5oUkmGze;
+        "pkg-1.2.0" = _8utQsiNn;
+        "pkg-2.3.0" = _LJ2xwpvU;
+        "default" = _LJ2xwpvU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-reborn-x-easy-villagers-compat";

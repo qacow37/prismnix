@@ -66,6 +66,11 @@ let
             "file" = "shieldsplus-2.3.0.2.jar";
             "hash" = "sha512-HvWr3A9y3oTTEKk+IScl7H62KKMEOtZ6Wt/DfOsKdlr7kYKRGZ5/eacVGHXrZ6rrGe2NT5INvHnfzhyjhr4JZQ==";
         };
+        _7p3KNIhi = {
+            "id" = "7p3KNIhi";
+            "file" = "shieldsplus-2.3.1.0.jar";
+            "hash" = "sha512-ObCdAW+ro2w29uT+YzG0j9FPyTUmv3YBHRhQNXQJjcjpR9+9OYQwMi5+YYLVLDFGFO9RMywFd7KLdLvJrVcjkQ==";
+        };
     in {
         "k9URshxg" = _k9URshxg;
         "CMAG1FiN" = _CMAG1FiN;
@@ -80,8 +85,9 @@ let
         "OnJPMnc9" = _OnJPMnc9;
         "CwNtK0C3" = _CwNtK0C3;
         "IIPp9Dgu" = _IIPp9Dgu;
+        "7p3KNIhi" = _7p3KNIhi;
         "forge-1.20.1" = _oyYWcZLy;
-        "neoforge-1.21.1" = _IIPp9Dgu;
+        "neoforge-1.21.1" = _7p3KNIhi;
         "pkg-1.11.8" = _k9URshxg;
         "pkg-1.11.9" = _CMAG1FiN;
         "pkg-1.12.0" = _oyYWcZLy;
@@ -95,7 +101,8 @@ let
         "pkg-2.3.0.0" = _OnJPMnc9;
         "pkg-2.3.0.1" = _CwNtK0C3;
         "pkg-2.3.0.2" = _IIPp9Dgu;
-        "default" = _IIPp9Dgu;
+        "pkg-2.3.1.0" = _7p3KNIhi;
+        "default" = _7p3KNIhi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shieldsplus";

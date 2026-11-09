@@ -91,6 +91,11 @@ let
             "file" = "ViScriptRecipe-forge-1.20.1-1.0.6.7.jar";
             "hash" = "sha512-rizvzynkdBuCYG2RImsB3KF/vc8jgKCKcInR9BLgCviNOCqH4XHUH80E9pqI5n7BEHTo7IpnikvZ2nW10qJ2xw==";
         };
+        _G2zNNpho = {
+            "id" = "G2zNNpho";
+            "file" = "ViScriptRecipe-forge-1.20.1-1.0.6.8.jar";
+            "hash" = "sha512-VCjYd/KkhYgs4rlkEkmM7mbz996NhFaDHshS4PdX1/1XIB56eqUBC0irq1k13Z6GPR5MyQ2tKHRzgF9jISeM4g==";
+        };
     in {
         "BPXxVF71" = _BPXxVF71;
         "pEHk7ayb" = _pEHk7ayb;
@@ -110,6 +115,7 @@ let
         "yNySNfHG" = _yNySNfHG;
         "uNshtlHG" = _uNshtlHG;
         "CyIGT76f" = _CyIGT76f;
+        "G2zNNpho" = _G2zNNpho;
         "neoforge-1.21.1" = _uNshtlHG;
         "neoforge-1.21.2" = _Qp78hhfn;
         "neoforge-1.21.3" = _Qp78hhfn;
@@ -121,7 +127,7 @@ let
         "neoforge-1.21.9" = _Qp78hhfn;
         "neoforge-1.21.10" = _Qp78hhfn;
         "neoforge-1.21.11" = _Qp78hhfn;
-        "forge-1.20.1" = _CyIGT76f;
+        "forge-1.20.1" = _G2zNNpho;
         "pkg-1.0.0beta" = _BPXxVF71;
         "pkg-1.0.1beta" = _pEHk7ayb;
         "pkg-1.0.2beta" = _wdrfMFnK;
@@ -140,7 +146,8 @@ let
         "pkg-1.1.6" = _yNySNfHG;
         "pkg-1.1.7" = _uNshtlHG;
         "pkg-forge-1.0.6.7" = _CyIGT76f;
-        "default" = _CyIGT76f;
+        "pkg-forge-1.0.6.8" = _G2zNNpho;
+        "default" = _G2zNNpho;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viscriptrecipe";

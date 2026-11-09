@@ -151,6 +151,11 @@ let
             "file" = "Odin-0.4.0.jar";
             "hash" = "sha512-BMB+JxpEUtd95XnuJ2ijMC0pvejx5nhgGXgl7aBbnBkyTPbxid+ZtynSXVi6oRI1DEfLIyrki+iGVqWkxGN4ig==";
         };
+        _WLYVuC9y = {
+            "id" = "WLYVuC9y";
+            "file" = "Odin-0.4.1.jar";
+            "hash" = "sha512-Sm4o3emtuU/fkQJ2lyo9M/+LgHXQW4i/fiCbwZQNBa2Mk1HlB01YMrB8t+IPawrwFHpWiqhCWSV5WWajxO97Hw==";
+        };
     in {
         "R2oitlUn" = _R2oitlUn;
         "q9znLguL" = _q9znLguL;
@@ -182,6 +187,7 @@ let
         "9bsBi70Z" = _9bsBi70Z;
         "LCBBWkQx" = _LCBBWkQx;
         "iaUj8pGx" = _iaUj8pGx;
+        "WLYVuC9y" = _WLYVuC9y;
         "fabric-1.21.8" = _2NxKcruZ;
         "fabric-1.21.10" = _b1wkliTK;
         "fabric-1.21.11" = _SezFv8VL;
@@ -189,7 +195,7 @@ let
         "fabric-26.1" = _7FcnBdo7;
         "fabric-26.1.1" = _7FcnBdo7;
         "fabric-26.2" = _9bsBi70Z;
-        "fabric-26.3" = _iaUj8pGx;
+        "fabric-26.3" = _WLYVuC9y;
         "pkg-0.0.4" = _R2oitlUn;
         "pkg-0.0.5-1.21.8" = _q9znLguL;
         "pkg-0.0.5-1.21.10" = _LkrTP870;
@@ -219,7 +225,8 @@ let
         "pkg-0.3.6" = _9bsBi70Z;
         "pkg-0.3.7" = _LCBBWkQx;
         "pkg-0.4.0" = _iaUj8pGx;
-        "default" = _iaUj8pGx;
+        "pkg-0.4.1" = _WLYVuC9y;
+        "default" = _WLYVuC9y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "odin";

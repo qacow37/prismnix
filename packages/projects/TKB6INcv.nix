@@ -271,6 +271,11 @@ let
             "file" = "ars_nouveau-1.21.1-5.13.4.jar";
             "hash" = "sha512-WUrj6RB9PLivGdrA8t+HF3GxpUIhJCbjJBHN9/plzo/Xea3pxjhtG0tss9D8xb2liHREt96vEAGfLOM15RPHKg==";
         };
+        _ALmdjtiq = {
+            "id" = "ALmdjtiq";
+            "file" = "ars_nouveau-1.21.1-5.13.5.jar";
+            "hash" = "sha512-vpzBPJurGAhgXvW7K4oyqKO7oWkJTjZNiq0MX6/rioPsq7ywoNuis4BuDTCQFywc8diXktgUrC/p0HAY1ERcSQ==";
+        };
     in {
         "ZIvC7pei" = _ZIvC7pei;
         "pqgQeR8N" = _pqgQeR8N;
@@ -326,14 +331,15 @@ let
         "1VWyxABY" = _1VWyxABY;
         "yWDnir1o" = _yWDnir1o;
         "CHw9k5Va" = _CHw9k5Va;
+        "ALmdjtiq" = _ALmdjtiq;
         "forge-1.20.1" = _Hw2aD01e;
         "forge-1.19.2" = _bm2MrJeJ;
         "forge-1.19.3" = _zVcbr1HC;
         "forge-1.19.4" = _zVcbr1HC;
         "forge-1.18.2" = _ffFSfxZE;
         "neoforge-1.20.1" = _Hw2aD01e;
-        "neoforge-1.21.1" = _CHw9k5Va;
-        "neoforge-1.21" = _CHw9k5Va;
+        "neoforge-1.21.1" = _ALmdjtiq;
+        "neoforge-1.21" = _ALmdjtiq;
         "pkg-4.2.4" = _ZIvC7pei;
         "pkg-ars_nouveau-1.19.2-3.17.11" = _pqgQeR8N;
         "pkg-ars_nouveau-1.19.2-3.17.12" = _zVcbr1HC;
@@ -388,7 +394,8 @@ let
         "pkg-5.13.2" = _1VWyxABY;
         "pkg-5.13.3" = _yWDnir1o;
         "pkg-5.13.4" = _CHw9k5Va;
-        "default" = _CHw9k5Va;
+        "pkg-5.13.5" = _ALmdjtiq;
+        "default" = _ALmdjtiq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-nouveau";

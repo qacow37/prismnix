@@ -431,6 +431,66 @@ let
             "file" = "cheesemod-1.6-fabric-1.21.11.jar";
             "hash" = "sha512-8btbvhlm6hLYG2fDAtFo2B73qnnNSd2SdRjP+LrpKvd32qFaIVEcvmv0/8e5pz+F3kLrpFBtTyjkMSEecxfaoA==";
         };
+        _34EZyE8u = {
+            "id" = "34EZyE8u";
+            "file" = "cheesemod-1.6.1-neoforge-26.2.jar";
+            "hash" = "sha512-ERnvv3xRdFt9Rc32yjyqDiQgkGCxHzf2DpZQHDQA1kAr4V8nTYvfQEyB7T8A4AVe+UfS92/4PfAPtJHDxQ4egQ==";
+        };
+        _k3OqzSf8 = {
+            "id" = "k3OqzSf8";
+            "file" = "cheesemod-1.6.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-TtyT8B0R6nGnD+xavzGnlH+g8PtKyhZAxE2svt0+aVEpynMay/DfOFEpArZsPQho9nzG0KV9xUB9ZMV3cu6Cjw==";
+        };
+        _4YJaTC0u = {
+            "id" = "4YJaTC0u";
+            "file" = "cheesemod-1.6.1-neoforge-1.21.8.jar";
+            "hash" = "sha512-LxYH5kPKZktUTGrRDEl7rvJU6t57FuyqqqR49RLisFN988RSP8Wmdu5CIOt4enWEINfXWWPUz7Yk0Gu7xGsoJA==";
+        };
+        _3C9FLjqh = {
+            "id" = "3C9FLjqh";
+            "file" = "cheesemod-1.6.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-cUlhfLwF4gdQfRphxMcrPAx7qdWVSZ4pF6B6y6pLYaGVhbY+PhAr76Y6lGztZxt/x/6KO/8iCrokCgV9e/cE6A==";
+        };
+        _xDE3E6Nf = {
+            "id" = "xDE3E6Nf";
+            "file" = "cheesemod-1.6.1-forge-1.20.1.jar";
+            "hash" = "sha512-2/23O0oMVIsagnJB6X/GFnywp7UhFC/ooISROWau34o4SfiThvw51bDaV9TEZOmLZDahFmECqDytL7b4R758Gg==";
+        };
+        _sr8dJQqH = {
+            "id" = "sr8dJQqH";
+            "file" = "cheesemod-1.6.1-forge-1.19.4.jar";
+            "hash" = "sha512-BNxee1OwwcKk+ws/Hf7RJC4JCrYEzmy2kZOcSRz5Vy8nH5BsGM/x8UbBmPIHg2S77qEKCmb/QwXG/IHww3eH5A==";
+        };
+        _OiYoMRPE = {
+            "id" = "OiYoMRPE";
+            "file" = "cheesemod-1.6.1-forge-1.19.2.jar";
+            "hash" = "sha512-cOehBMLI54VzId2OjZnNX7KGPVFFtp/acjHdsTGnGupGupvVWIWWZodrNsH4gNE5oaSE0vKZp2d8Zf2lsSjpXg==";
+        };
+        _PNwI6dD3 = {
+            "id" = "PNwI6dD3";
+            "file" = "cheesemod-1.6.1-forge-1.18.2.jar";
+            "hash" = "sha512-klE1STb2rQ0TdOfo2vdAFWQMP157L5StC0oe2siU0UYKt0yBn+RdO2Hu0fAqUl+xGdWVgf3k1XpyNf10IhafBQ==";
+        };
+        _466HvQBy = {
+            "id" = "466HvQBy";
+            "file" = "cheesemod-1.6.1-fabric-26.2.jar";
+            "hash" = "sha512-ehC9vSnp1TtShpiwF73QCcbWdllL9qGmOn38/pZ+EpwkSxDC/0zNP51PAx/9uu82jFZBkk8qJGcJrlpHZjLtDg==";
+        };
+        _1uCHlTZR = {
+            "id" = "1uCHlTZR";
+            "file" = "cheesemod-1.6.1-fabric-26.1.2.jar";
+            "hash" = "sha512-hCMUCopE1e1fFJDgzNoWsRsNC1wfKUJl9mqh6fv5OsRWHGNKt08iQOtMPrbVZJKXsO7QScG1Pff1B5aLnbdgxg==";
+        };
+        _O2Pq7ZNg = {
+            "id" = "O2Pq7ZNg";
+            "file" = "cheesemod-1.6.1-fabric-1.21.11.jar";
+            "hash" = "sha512-t2u1KnzsewHeuo20/Vn6vJXMNLMftan9P3d5STuDwee59fIy5WF+p2VV2Km9xwke7pkU2/M3LIhSXIYW42iyIQ==";
+        };
+        _rrdDjC8a = {
+            "id" = "rrdDjC8a";
+            "file" = "cheesemod-1.6.1-neoforge-26.3.jar";
+            "hash" = "sha512-Bv2qI+hopG/pj5sS2NuNvCILTEDMoWnPiO7UVzlfL6WpuIOmMBQ6oZxiizupJIsM40Fo9ntlUQjF/NaH8eTBXg==";
+        };
     in {
         "MeQ2jFKr" = _MeQ2jFKr;
         "D5QMSkBU" = _D5QMSkBU;
@@ -518,24 +578,37 @@ let
         "GwtUbFho" = _GwtUbFho;
         "G5xf059G" = _G5xf059G;
         "aEfPSm9m" = _aEfPSm9m;
-        "forge-1.20.1" = _oA3JbSIF;
-        "forge-1.18.2" = _EslQa64L;
-        "forge-1.19.2" = _ydN49RfN;
-        "forge-1.19.4" = _N0VgeFlC;
+        "34EZyE8u" = _34EZyE8u;
+        "k3OqzSf8" = _k3OqzSf8;
+        "4YJaTC0u" = _4YJaTC0u;
+        "3C9FLjqh" = _3C9FLjqh;
+        "xDE3E6Nf" = _xDE3E6Nf;
+        "sr8dJQqH" = _sr8dJQqH;
+        "OiYoMRPE" = _OiYoMRPE;
+        "PNwI6dD3" = _PNwI6dD3;
+        "466HvQBy" = _466HvQBy;
+        "1uCHlTZR" = _1uCHlTZR;
+        "O2Pq7ZNg" = _O2Pq7ZNg;
+        "rrdDjC8a" = _rrdDjC8a;
+        "forge-1.20.1" = _xDE3E6Nf;
+        "forge-1.18.2" = _PNwI6dD3;
+        "forge-1.19.2" = _OiYoMRPE;
+        "forge-1.19.4" = _sr8dJQqH;
         "forge-1.17.1" = _xBDw4pgV;
         "forge-1.16.5" = _fWeEicVv;
-        "neoforge-1.21.1" = _GTeRUwte;
+        "neoforge-1.21.1" = _3C9FLjqh;
         "neoforge-1.21.4" = _Z4GGIiwM;
         "neoforge-1.21.5" = _DVg2zNnh;
         "neoforge-1.20.4" = _pEwa3GZg;
         "neoforge-1.20.6" = _T76pgnvt;
-        "neoforge-1.21.8" = _2zKMym2A;
-        "neoforge-26.1.2" = _lnuMtD0R;
-        "neoforge-26.2" = _pzdiBMju;
+        "neoforge-1.21.8" = _4YJaTC0u;
+        "neoforge-26.1.2" = _k3OqzSf8;
+        "neoforge-26.2" = _34EZyE8u;
+        "neoforge-26.3" = _rrdDjC8a;
         "fabric-1.21.8" = _EUA3Vk1E;
-        "fabric-26.1.2" = _GwtUbFho;
-        "fabric-26.2" = _G5xf059G;
-        "fabric-1.21.11" = _aEfPSm9m;
+        "fabric-26.1.2" = _1uCHlTZR;
+        "fabric-26.2" = _466HvQBy;
+        "fabric-1.21.11" = _O2Pq7ZNg;
         "pkg-1.1.1" = _D5QMSkBU;
         "pkg-1.1.2" = _LZxJyzkf;
         "pkg-1.2" = _EkYjjYMz;
@@ -549,7 +622,8 @@ let
         "pkg-1.5.0.1.2" = _L42KzmA5;
         "pkg-1.5.1" = _Z4GGIiwM;
         "pkg-1.6" = _aEfPSm9m;
-        "default" = _aEfPSm9m;
+        "pkg-1.6.1" = _rrdDjC8a;
+        "default" = _rrdDjC8a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "da-cheese-mod";

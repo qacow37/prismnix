@@ -246,6 +246,11 @@ let
             "file" = "stationbuilder-FABRIC-0.2.1+1.21.4.jar";
             "hash" = "sha512-9Uc+r/8qvbEpPVVtdSRadnz1EWFgcSrPFITLHg98f1cYLLyxgxWWbB35XJ8YWkmsr/owbhpTMyb5AY3F46yGRQ==";
         };
+        _kvXzZrk8 = {
+            "id" = "kvXzZrk8";
+            "file" = "stationbuilder-NEOFORGE-0.2.2-beta1+1.21.1.jar";
+            "hash" = "sha512-j/W2xD6CcAuaei/gmKOx2bYys55XR/Z62qBskde0TiBwAQl4labC/Nt6YBn5IcWkeGH38jeM3dNKyCfNBFrC1w==";
+        };
     in {
         "Ps2zlh29" = _Ps2zlh29;
         "EL5U8AGE" = _EL5U8AGE;
@@ -296,13 +301,14 @@ let
         "Kpnagksf" = _Kpnagksf;
         "NpYrdKl4" = _NpYrdKl4;
         "bCDzE2Nb" = _bCDzE2Nb;
+        "kvXzZrk8" = _kvXzZrk8;
         "fabric-1.20.4" = _Kpnagksf;
         "fabric-1.20.1" = _c4wzFBEI;
         "fabric-1.21.4" = _bCDzE2Nb;
         "fabric-1.21.1" = _NpYrdKl4;
         "forge-1.20.1" = _sRIWaLYm;
         "forge-1.20.4" = _GJ5PX23F;
-        "neoforge-1.21.1" = _GQ3ItUoR;
+        "neoforge-1.21.1" = _kvXzZrk8;
         "neoforge-1.21.4" = _S5gaoUXO;
         "pkg-FABRIC-0.1.0+1.20.4" = _Ps2zlh29;
         "pkg-FABRIC-0.1.0+1.20.1" = _EL5U8AGE;
@@ -353,7 +359,8 @@ let
         "pkg-FABRIC-0.2.1+1.20.4" = _Kpnagksf;
         "pkg-FABRIC-0.2.1+1.21.1" = _NpYrdKl4;
         "pkg-FABRIC-0.2.1+1.21.4" = _bCDzE2Nb;
-        "default" = _bCDzE2Nb;
+        "pkg-NEOFORGE-0.2.2-beta1+1.21.1" = _kvXzZrk8;
+        "default" = _kvXzZrk8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "station-builder";

@@ -241,6 +241,46 @@ let
             "file" = "mortius_weaponry_redux-1.16-forge-1.20.1.jar";
             "hash" = "sha512-tJsNAAX3Y0Rtmb2RBZZrdXjXSroVGmUNMcLC0W7q6hsFE5/yEXwOkeuDe64NWu3AvDPyajnRn06vIt69zCFLNA==";
         };
+        _3qOUfU64 = {
+            "id" = "3qOUfU64";
+            "file" = "mortius_weaponry_redux-1.17-forge-1.20.1.jar";
+            "hash" = "sha512-kwemClttsTwHnAzfJ5pkOTRbIvXHFoMZ9M9W4E+vYJdZ7aJKRm3bfXcv62YHynP/+WHCWCjLLTep5z7B7f/nfA==";
+        };
+        _XOeqoCNw = {
+            "id" = "XOeqoCNw";
+            "file" = "mortius_weaponry_redux-1.17-neoforge-1.21.1.jar";
+            "hash" = "sha512-vtGXVYL1pHw5eYGZj1hhjZBuuctdPPSi0FP1cT/vNggFt+CU/RRNgV5ipjUUWfaHjqZm5o6SdyqNFsW4VF6jcg==";
+        };
+        _9HmJfhus = {
+            "id" = "9HmJfhus";
+            "file" = "mortius_weaponry_redux-1.17.1-forge-1.20.1.jar";
+            "hash" = "sha512-H5pRKzjI925DXAxGj5Mi4gkTnqzVL0We3FGk8u0Nczovklf7lQEd6j6wghZkqleSLDK5yQRRkm3gtnk/W/WZ6Q==";
+        };
+        _HlSlxB4i = {
+            "id" = "HlSlxB4i";
+            "file" = "mortius_weaponry_redux-1.17.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-Uayr/bkWEQRtI6NayKP4dcZMcwQOcfRU3pLXlmaLeYFcOI7Cq/YB0uvbVWXRythJF2zowaEtoYMRw6m8ny2gbw==";
+        };
+        _ShPTbkPr = {
+            "id" = "ShPTbkPr";
+            "file" = "mortius_weaponry_redux-1.17.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-iCdee4mJkHYJOJTV3/nmg9MEmt1toyHdTYjZa4vHCrzzNvTmYG0R+iSU/QzzmchHVOO00Z2G2IkjNTBHjqw3+g==";
+        };
+        _tAajR2l6 = {
+            "id" = "tAajR2l6";
+            "file" = "mortius_weaponry_redux-1.17.2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-RQKg+3oo9dCwca+W3RmpWGfYxAt3rzF7T3UHG7v5um9wMlXBnTpnTfTv3CWjjVkfOUUpDs9OuNZ3T3KILBcPUQ==";
+        };
+        _VNIz4fx2 = {
+            "id" = "VNIz4fx2";
+            "file" = "mortius_weaponry_redux-1.18-forge-1.20.1.jar";
+            "hash" = "sha512-9iJiNBvQTHVwEQvqxKdZmiy/2CNhoYxRiBM9U2znsLHPFMLAmdSeXHVE9gucBKx7/n49j80HJgGFXOxaHLnvVA==";
+        };
+        _G5LbcxTW = {
+            "id" = "G5LbcxTW";
+            "file" = "mortius_weaponry_redux-1.18-neoforge-1.21.1.jar";
+            "hash" = "sha512-1zf15DzjOz2ButEHzKAjFyCv4Gev+G/oDcvN6RSUpaMrAnHgCiSofE9L1dNCmD7WKC5ZjyREMZm4db5SqOAmQg==";
+        };
     in {
         "feywcMJP" = _feywcMJP;
         "9Nc7yk9l" = _9Nc7yk9l;
@@ -290,10 +330,19 @@ let
         "6AS7YSgS" = _6AS7YSgS;
         "gFfzJ2HM" = _gFfzJ2HM;
         "fGhw6N7z" = _fGhw6N7z;
+        "3qOUfU64" = _3qOUfU64;
+        "XOeqoCNw" = _XOeqoCNw;
+        "9HmJfhus" = _9HmJfhus;
+        "HlSlxB4i" = _HlSlxB4i;
+        "ShPTbkPr" = _ShPTbkPr;
+        "tAajR2l6" = _tAajR2l6;
+        "VNIz4fx2" = _VNIz4fx2;
+        "G5LbcxTW" = _G5LbcxTW;
         "forge-1.19.2" = _BdIe9M8U;
         "forge-1.19.4" = _swKaZGHq;
-        "forge-1.20.1" = _fGhw6N7z;
+        "forge-1.20.1" = _VNIz4fx2;
         "neoforge-1.20.6" = _gFfzJ2HM;
+        "neoforge-1.21.1" = _G5LbcxTW;
         "pkg-1.0" = _D4KgFQIR;
         "pkg-1.1" = _LCNTNPrQ;
         "pkg-1.2" = _YprkRzoN;
@@ -315,7 +364,11 @@ let
         "pkg-1.15.2" = _8TZMuB3E;
         "pkg-1.15.3" = _6AS7YSgS;
         "pkg-1.16" = _fGhw6N7z;
-        "default" = _fGhw6N7z;
+        "pkg-1.17" = _XOeqoCNw;
+        "pkg-1.17.1" = _HlSlxB4i;
+        "pkg-1.17.2.1" = _tAajR2l6;
+        "pkg-1.18" = _G5LbcxTW;
+        "default" = _G5LbcxTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mortius-weaponry-redux";

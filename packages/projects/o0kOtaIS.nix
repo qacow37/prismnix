@@ -501,6 +501,11 @@ let
             "file" = "afterburner-0.2.9+26.3-forge.jar";
             "hash" = "sha512-mp7tVST+JCJxq9cMh5VvWa83HaBZZ31/30N55GiOAcurSS3WgazfD2rZ0IfvZx4qx1bJI30nkdvK5gbbJagRXw==";
         };
+        _p3LXowlt = {
+            "id" = "p3LXowlt";
+            "file" = "afterburner-0.2.10+26.3-fabric.jar";
+            "hash" = "sha512-1Eq6+Wj6WToKB56yeU2DBIeP9/5hx10jOFuzngb+Lcx/O6D63E4jiCVPJg/eo+pV7IaLBHscpbIsSaW3TSF4TA==";
+        };
     in {
         "4B2bZUcN" = _4B2bZUcN;
         "RFyaLxlU" = _RFyaLxlU;
@@ -602,6 +607,7 @@ let
         "oGcSSOck" = _oGcSSOck;
         "zVr3zA8q" = _zVr3zA8q;
         "405xVqpd" = _405xVqpd;
+        "p3LXowlt" = _p3LXowlt;
         "fabric-1.21.1" = _poLaMlof;
         "fabric-1.21.2" = _4B2bZUcN;
         "fabric-1.21.3" = _4B2bZUcN;
@@ -613,7 +619,7 @@ let
         "fabric-1.21.9" = _4B2bZUcN;
         "fabric-1.21.10" = _4B2bZUcN;
         "fabric-1.21.11" = _snXtJSJH;
-        "fabric-26.3" = _zVr3zA8q;
+        "fabric-26.3" = _p3LXowlt;
         "forge-1.21.1" = _q6SMVy7r;
         "forge-26.3" = _405xVqpd;
         "forge-1.21.11" = _Ux7jlkXq;
@@ -680,7 +686,8 @@ let
         "pkg-0.2.7+26.3" = _7xvrRG0w;
         "pkg-0.2.8+26.3" = _oGcSSOck;
         "pkg-0.2.9+26.3" = _405xVqpd;
-        "default" = _405xVqpd;
+        "pkg-0.2.10+26.3" = _p3LXowlt;
+        "default" = _p3LXowlt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litephysics";

@@ -16,10 +16,16 @@ let
             "file" = "no-tooltips-1.0.0.jar";
             "hash" = "sha512-6L1yIFMPh2DbM5OQECqQ+6kbNdeGQdXdfVJW3C205hB2k42zTbrsWdk+E2QYs4OW0gH4xYnSs9AT3v7R141a+g==";
         };
+        _HiMqtnI0 = {
+            "id" = "HiMqtnI0";
+            "file" = "no-tooltips-1.0.0.jar";
+            "hash" = "sha512-okYi7gbOdsljU+r4LBOLJrAzPyPScl3likN2VV7myj6Vo3rWTO/Zc8+O51FYGHyFZUFORvCufMaeeV78z14ZqA==";
+        };
     in {
         "YVqK3Hmj" = _YVqK3Hmj;
         "TYHweTc9" = _TYHweTc9;
         "6Z26anrH" = _6Z26anrH;
+        "HiMqtnI0" = _HiMqtnI0;
         "fabric-1.21" = _YVqK3Hmj;
         "fabric-1.21.1" = _YVqK3Hmj;
         "fabric-1.21.2" = _YVqK3Hmj;
@@ -36,8 +42,9 @@ let
         "fabric-26.1.1" = _TYHweTc9;
         "fabric-26.1.2" = _TYHweTc9;
         "fabric-26.2" = _6Z26anrH;
-        "pkg-1.0.0" = _6Z26anrH;
-        "default" = _6Z26anrH;
+        "fabric-26.3" = _HiMqtnI0;
+        "pkg-1.0.0" = _HiMqtnI0;
+        "default" = _HiMqtnI0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-tool-tips";

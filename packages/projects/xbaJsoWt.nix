@@ -31,6 +31,16 @@ let
             "file" = "dog-1.2.0-1.21.1-neoforge-hotfix1.jar";
             "hash" = "sha512-6RFjiH6nmnlC+hlYsNrecKsVDkQmXUos/JKP0Gy5unOeVxaVVEHht38/r5XGOw1WuVMKO/s+JeswqyhWeG227A==";
         };
+        _7i4NHXUu = {
+            "id" = "7i4NHXUu";
+            "file" = "dog-1.2.0-1.21.1-neoforge-hotfix2.jar";
+            "hash" = "sha512-APMY8vX6R5aSAdsZZzW07sSoh+dtMN6TGpXtoYvvj0sP0WEegaBAezjsorDwwzc4Pg7T1PhC/B7XHc3Iw3PfzQ==";
+        };
+        _JzbA1srC = {
+            "id" = "JzbA1srC";
+            "file" = "dog-1.2.0-hotfix1.jar";
+            "hash" = "sha512-edgjNjr7PYveu/9EGO4XInUP1+HKaWchlf712KGACtIJgVP46rGub8ZPafZiZ1sdIy5IeSgJx1QGODb6ZSv+xA==";
+        };
     in {
         "XkvgM4jb" = _XkvgM4jb;
         "Mmiakzph" = _Mmiakzph;
@@ -38,14 +48,17 @@ let
         "y48ruA9L" = _y48ruA9L;
         "wWiP7mdG" = _wWiP7mdG;
         "hPi8KYdo" = _hPi8KYdo;
-        "forge-1.20.1" = _wWiP7mdG;
-        "neoforge-1.21.1" = _hPi8KYdo;
+        "7i4NHXUu" = _7i4NHXUu;
+        "JzbA1srC" = _JzbA1srC;
+        "forge-1.20.1" = _JzbA1srC;
+        "neoforge-1.21.1" = _7i4NHXUu;
         "pkg-1.0.0" = _XkvgM4jb;
         "pkg-1.1.0" = _Mmiakzph;
         "pkg-1.2.0-beta.3" = _JSydUNam;
         "pkg-1.2.0" = _wWiP7mdG;
-        "pkg-1.2.0-hotfix1" = _hPi8KYdo;
-        "default" = _hPi8KYdo;
+        "pkg-1.2.0-hotfix1" = _JzbA1srC;
+        "pkg-1.2.0-neoforge-hotfix2" = _7i4NHXUu;
+        "default" = _JzbA1srC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "devourer-of-gods";

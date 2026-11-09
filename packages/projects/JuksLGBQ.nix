@@ -456,6 +456,21 @@ let
             "file" = "optigui-2.3.0-beta.10+26.3.jar";
             "hash" = "sha512-R/qwNoN7P90C+EWt6GXjZ6thwjEAND+Cc8RPc5luYc3yrzFtRTtntecw7qYjueia84DXH934adSHA1pn1uaKsw==";
         };
+        _rRPZGCYn = {
+            "id" = "rRPZGCYn";
+            "file" = "optigui-2.3.0-beta.11+26.3.jar";
+            "hash" = "sha512-6XOppUd07BvFptcAn+s4FrAXmuD0GlatD7Mxc0+WwVfzXmg3W4WMcp7P5FiFwtGYpzAbZY/+7jR3BCmw3mFSDw==";
+        };
+        _r0vqPhse = {
+            "id" = "r0vqPhse";
+            "file" = "optigui-2.3.0-beta.11+26.2.jar";
+            "hash" = "sha512-5jB138fxPmQvwlRVZo9M7weZHDh/czcY1E8tUVr5OqsPxkt2f3kUJvSUJCsSoUqoFzrMMDPNo5UgHmC87/xg/Q==";
+        };
+        _807BG4RL = {
+            "id" = "807BG4RL";
+            "file" = "optigui-2.3.0-beta.11+26.1.jar";
+            "hash" = "sha512-a975bm5FEILmvZ73oIqDBg2ZYftHep7y+NQP794ZtMiH7DIKRAYlbuBbBMeQxonDwc21/jGqTkuwzthxHPiZWg==";
+        };
     in {
         "LICx0kWh" = _LICx0kWh;
         "W7KZowlh" = _W7KZowlh;
@@ -548,6 +563,9 @@ let
         "QM4pzEcr" = _QM4pzEcr;
         "FC0X8ap5" = _FC0X8ap5;
         "wcSV1VD1" = _wcSV1VD1;
+        "rRPZGCYn" = _rRPZGCYn;
+        "r0vqPhse" = _r0vqPhse;
+        "807BG4RL" = _807BG4RL;
         "fabric-1.18.2" = _xpfegZsE;
         "fabric-1.19" = _xpfegZsE;
         "fabric-1.19.1" = _xpfegZsE;
@@ -575,11 +593,11 @@ let
         "fabric-1.21.9" = _QM4pzEcr;
         "fabric-1.21.10" = _QM4pzEcr;
         "fabric-1.21.11" = _QM4pzEcr;
-        "fabric-26.1" = _sPNHfRj2;
-        "fabric-26.1.1" = _sPNHfRj2;
-        "fabric-26.1.2" = _sPNHfRj2;
-        "fabric-26.2" = _FC0X8ap5;
-        "fabric-26.3" = _wcSV1VD1;
+        "fabric-26.1" = _807BG4RL;
+        "fabric-26.1.1" = _807BG4RL;
+        "fabric-26.1.2" = _807BG4RL;
+        "fabric-26.2" = _r0vqPhse;
+        "fabric-26.3" = _rRPZGCYn;
         "quilt-1.18" = _xpfegZsE;
         "quilt-1.18.1" = _xpfegZsE;
         "quilt-1.18.2" = _xpfegZsE;
@@ -607,11 +625,11 @@ let
         "quilt-1.21.9" = _QM4pzEcr;
         "quilt-1.21.10" = _QM4pzEcr;
         "quilt-1.21.11" = _QM4pzEcr;
-        "quilt-26.1" = _sPNHfRj2;
-        "quilt-26.1.1" = _sPNHfRj2;
-        "quilt-26.1.2" = _sPNHfRj2;
-        "quilt-26.2" = _FC0X8ap5;
-        "quilt-26.3" = _wcSV1VD1;
+        "quilt-26.1" = _807BG4RL;
+        "quilt-26.1.1" = _807BG4RL;
+        "quilt-26.1.2" = _807BG4RL;
+        "quilt-26.2" = _r0vqPhse;
+        "quilt-26.3" = _rRPZGCYn;
         "pkg-v0.1.0+1.18.2" = _LICx0kWh;
         "pkg-v0.2.0+1.18.2" = _W7KZowlh;
         "pkg-v1.0.0+1.18.2" = _GlXDrxTY;
@@ -703,7 +721,10 @@ let
         "pkg-2.3.0-beta.10+1.21.9" = _QM4pzEcr;
         "pkg-2.3.0-beta.10+26.2" = _FC0X8ap5;
         "pkg-2.3.0-beta.10+26.3" = _wcSV1VD1;
-        "default" = _wcSV1VD1;
+        "pkg-2.3.0-beta.11+26.3" = _rRPZGCYn;
+        "pkg-2.3.0-beta.11+26.2" = _r0vqPhse;
+        "pkg-2.3.0-beta.11+26.1" = _807BG4RL;
+        "default" = _807BG4RL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "optigui";

@@ -41,6 +41,16 @@ let
             "file" = "i-love-frozen-biomes-3.0+26.2.jar";
             "hash" = "sha512-idLr7+1rCfHk4+G7kLeN2zW2nVjJ+ZOOB1QUUZDaHoQdg3W1ariO5YbYtKQ0vP1nvuQs/mctb6caiXEAhwQoFw==";
         };
+        _HK4Ai4Mk = {
+            "id" = "HK4Ai4Mk";
+            "file" = "i-love-frozen-biomes-3.0+26.3.zip";
+            "hash" = "sha512-+fi3qgCK/n0wFZRoKYD+zRZHjxFQqVkthpQ2rzWPE1kALEUgfb6xmPL/9XDM3LBgZztR0hb/UFtPTdXwQKK0Jg==";
+        };
+        _qEJqCkfQ = {
+            "id" = "qEJqCkfQ";
+            "file" = "i-love-frozen-biomes-3.0+26.3.jar";
+            "hash" = "sha512-i7QB5PYAz5Mvfb4jzORFNTEDZ0xnk1IflYXtgRJJ5OK0vojiOcSGBDS5MoLfbw+UAwumzQG+/r+5xooVU+Tttw==";
+        };
     in {
         "TXcapg0M" = _TXcapg0M;
         "UozKOlI1" = _UozKOlI1;
@@ -50,6 +60,8 @@ let
         "XYYWqJUa" = _XYYWqJUa;
         "c3Wgi4vw" = _c3Wgi4vw;
         "iccDHiQE" = _iccDHiQE;
+        "HK4Ai4Mk" = _HK4Ai4Mk;
+        "qEJqCkfQ" = _qEJqCkfQ;
         "datapack-1.19" = _C33Gb7Tc;
         "datapack-1.19.1" = _C33Gb7Tc;
         "datapack-1.19.2" = _C33Gb7Tc;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _FcINmOZQ;
         "datapack-26.1.2" = _FcINmOZQ;
         "datapack-26.2" = _c3Wgi4vw;
+        "datapack-26.3" = _HK4Ai4Mk;
         "fabric-1.19" = _XYYWqJUa;
         "fabric-1.19.1" = _XYYWqJUa;
         "fabric-1.19.2" = _XYYWqJUa;
@@ -106,6 +119,7 @@ let
         "fabric-26.1.1" = _HZR3ulHD;
         "fabric-26.1.2" = _HZR3ulHD;
         "fabric-26.2" = _iccDHiQE;
+        "fabric-26.3" = _qEJqCkfQ;
         "forge-1.19" = _XYYWqJUa;
         "forge-1.19.1" = _XYYWqJUa;
         "forge-1.19.2" = _XYYWqJUa;
@@ -134,6 +148,7 @@ let
         "forge-26.1.1" = _HZR3ulHD;
         "forge-26.1.2" = _HZR3ulHD;
         "forge-26.2" = _iccDHiQE;
+        "forge-26.3" = _qEJqCkfQ;
         "neoforge-1.19" = _XYYWqJUa;
         "neoforge-1.19.1" = _XYYWqJUa;
         "neoforge-1.19.2" = _XYYWqJUa;
@@ -162,6 +177,7 @@ let
         "neoforge-26.1.1" = _HZR3ulHD;
         "neoforge-26.1.2" = _HZR3ulHD;
         "neoforge-26.2" = _iccDHiQE;
+        "neoforge-26.3" = _qEJqCkfQ;
         "quilt-1.19" = _XYYWqJUa;
         "quilt-1.19.1" = _XYYWqJUa;
         "quilt-1.19.2" = _XYYWqJUa;
@@ -190,6 +206,7 @@ let
         "quilt-26.1.1" = _HZR3ulHD;
         "quilt-26.1.2" = _HZR3ulHD;
         "quilt-26.2" = _iccDHiQE;
+        "quilt-26.3" = _qEJqCkfQ;
         "pkg-1.21.5.0" = _TXcapg0M;
         "pkg-1.21.5.0+mod" = _UozKOlI1;
         "pkg-2.0" = _FcINmOZQ;
@@ -198,7 +215,9 @@ let
         "pkg-2.0+1.21.8+mod" = _XYYWqJUa;
         "pkg-3.0+26.2" = _c3Wgi4vw;
         "pkg-3.0+26.2+mod" = _iccDHiQE;
-        "default" = _iccDHiQE;
+        "pkg-3.0+26.3" = _HK4Ai4Mk;
+        "pkg-3.0+26.3+mod" = _qEJqCkfQ;
+        "default" = _qEJqCkfQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "i-love-frozen-biomes";

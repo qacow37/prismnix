@@ -141,6 +141,51 @@ let
             "file" = "punchy_puppies-2.0.4-neoforge-26.3.jar";
             "hash" = "sha512-3Nnlt2Ptg81cPYe6ep5JietlZduLp+mw+bIq5MwIhfzIHL8VqWpVgAimVhlbuSJsbwL1F9V1nu7hqRk/Tmr/fw==";
         };
+        _nVvlbALN = {
+            "id" = "nVvlbALN";
+            "file" = "punchy_puppies-2.0.5-fabric-1.20.1.jar";
+            "hash" = "sha512-mrn7FYRX9yCDiovo646f7JLTWdJ4VUezOnXMpVGFHFA6hCA8PspuWNaoo4l5SbaWFH1TT0HbF6C02MhXo15jWg==";
+        };
+        _vY0Mc9Bl = {
+            "id" = "vY0Mc9Bl";
+            "file" = "punchy_puppies-2.0.5-forge-1.20.1.jar";
+            "hash" = "sha512-heelkVSIRmRyFDQVLETfFYlkeTjpG4qTU2BFnST/HlOeueiLq/h1R3T/zR7NyBFQI7zVbymObLIdyvZjhJqhqw==";
+        };
+        _tfmKtBEO = {
+            "id" = "tfmKtBEO";
+            "file" = "punchy_puppies-2.0.5-fabric-1.21.1.jar";
+            "hash" = "sha512-eNW2X7eAJlyP++XOMCSm2xmIddvc0oLJiriPcAnMIhsaaCAhths8GtLCKzycfwdi0cjqC1QM/DSmMFDpCr22jg==";
+        };
+        _moAJiiEi = {
+            "id" = "moAJiiEi";
+            "file" = "punchy_puppies-2.0.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-JC0uICl0zsrbpBVxMj5MmilquU38eSYxZgTsMkCec83tbMQczqvRmZY6DKpg+N3D8iTTsI9nqejk9x6e3JK78A==";
+        };
+        _4JLGR5SQ = {
+            "id" = "4JLGR5SQ";
+            "file" = "punchy_puppies-2.0.5-fabric-26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-J8oawiQ3FXPfJAzSl2l1NR2LEXDgRcHKaScgFXEHPuxAWJBsOvhOg6GziZGJIYet1t52iUgsrMt0H29p9oy6bw==";
+        };
+        _JnP4RoWk = {
+            "id" = "JnP4RoWk";
+            "file" = "punchy_puppies-2.0.5-fabric-26.2.jar";
+            "hash" = "sha512-XoAmy4hF3NCiO44NPvqQBJiIbzs6jmYadwkZY+rfbCGKoPJf1yzwVENQmscdUfu5X6WEXFYs3+2A5EKln9UaoA==";
+        };
+        _uLYXW3O0 = {
+            "id" = "uLYXW3O0";
+            "file" = "punchy_puppies-2.0.5-fabric-26.3.jar";
+            "hash" = "sha512-29ArTPFcDbzKDbPu1+RGic+9BSnug1JUt4g5WaHtLlppgqCv2luQxnceWHLBYzHBNDwQ1ory2SObdaxQQIHq9A==";
+        };
+        _abY3FlcI = {
+            "id" = "abY3FlcI";
+            "file" = "punchy_puppies-2.0.5-forge-26.3.jar";
+            "hash" = "sha512-+UEQaGqfS5WG7cinBdtiLUKh9iTmHC2/HwAmWCIG5LcI+wQ7oVEUH5lgJzQEGXVhPHaC/fQXdmEPWHR/lN8OOA==";
+        };
+        _Thb9pgP6 = {
+            "id" = "Thb9pgP6";
+            "file" = "punchy_puppies-2.0.5-neoforge-26.3.jar";
+            "hash" = "sha512-dw7jx/mKkp0HAjuPaXJ0G3W8jLeYh+l0QrTTHhAcyrqVBdPLver9kwVhX+uBL8TEhe3AbA5QnKqzjRDKfWC4IQ==";
+        };
     in {
         "oJuVvyvH" = _oJuVvyvH;
         "4JTFXx0K" = _4JTFXx0K;
@@ -170,17 +215,26 @@ let
         "r9i8hrrk" = _r9i8hrrk;
         "DJlzxXjy" = _DJlzxXjy;
         "sXSnsuy0" = _sXSnsuy0;
-        "fabric-26.1" = _PpY5OsbE;
-        "fabric-26.1.1" = _PpY5OsbE;
-        "fabric-26.1.2" = _PpY5OsbE;
-        "fabric-26.2" = _2tziFN0Y;
-        "fabric-1.20.1" = _5xwF1TLP;
-        "fabric-1.21.1" = _b35dvdxA;
-        "fabric-26.3" = _r9i8hrrk;
-        "forge-1.20.1" = _FzFVjKLK;
-        "forge-26.3" = _DJlzxXjy;
-        "neoforge-1.21.1" = _gBsjbdCR;
-        "neoforge-26.3" = _sXSnsuy0;
+        "nVvlbALN" = _nVvlbALN;
+        "vY0Mc9Bl" = _vY0Mc9Bl;
+        "tfmKtBEO" = _tfmKtBEO;
+        "moAJiiEi" = _moAJiiEi;
+        "4JLGR5SQ" = _4JLGR5SQ;
+        "JnP4RoWk" = _JnP4RoWk;
+        "uLYXW3O0" = _uLYXW3O0;
+        "abY3FlcI" = _abY3FlcI;
+        "Thb9pgP6" = _Thb9pgP6;
+        "fabric-26.1" = _4JLGR5SQ;
+        "fabric-26.1.1" = _4JLGR5SQ;
+        "fabric-26.1.2" = _4JLGR5SQ;
+        "fabric-26.2" = _JnP4RoWk;
+        "fabric-1.20.1" = _nVvlbALN;
+        "fabric-1.21.1" = _tfmKtBEO;
+        "fabric-26.3" = _uLYXW3O0;
+        "forge-1.20.1" = _vY0Mc9Bl;
+        "forge-26.3" = _abY3FlcI;
+        "neoforge-1.21.1" = _moAJiiEi;
+        "neoforge-26.3" = _Thb9pgP6;
         "pkg-26.1" = _4JTFXx0K;
         "pkg-26.1.x" = _o0lRTPtd;
         "pkg-1.0.2" = _kZSpY7AE;
@@ -188,7 +242,8 @@ let
         "pkg-2.0.1" = _TyxBXAjy;
         "pkg-2.0.2" = _npkZWiqd;
         "pkg-2.0.4" = _sXSnsuy0;
-        "default" = _sXSnsuy0;
+        "pkg-2.0.5" = _Thb9pgP6;
+        "default" = _Thb9pgP6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-takeover-x-punchy";

@@ -36,6 +36,16 @@ let
             "file" = "Siren Head The Sirens Attacker 1.12.2 Port V1.0.101.jar";
             "hash" = "sha512-6ZXhA55+95/wOh9MWxVUpnVcLzo7F6dnsLKSbUvgLGavXs8WNE2hALtyNCz62Z40qjxxt9JtGVjqP0VK9p5B/A==";
         };
+        _SMs6sQ9g = {
+            "id" = "SMs6sQ9g";
+            "file" = "siren_head_the_sirens_attacker-1.0.112-fixed-forge-1.20.1.jar";
+            "hash" = "sha512-RxbGY0jKkGmlfYzzMRDDTDAPgnio4I+c4XYeZP4BadshCEuNQvbiQPYto+jBPEoc2wLP/WOJP6Tg3cWABaVM1g==";
+        };
+        _5pToIPLI = {
+            "id" = "5pToIPLI";
+            "file" = "siren_head_the_sirens_attacker-1.0.112-fixed-version-2-forge-1.20.1.jar";
+            "hash" = "sha512-6nKiHhAGzVMihP/8gXrJ3HFwDWXgfAqdSCCk2YNrPR+Zj7aH5/sETLRh+7bwBA23QavHR2Ec6q9mvBuo1EY+wg==";
+        };
     in {
         "hLRBw5qU" = _hLRBw5qU;
         "w4UdIz3i" = _w4UdIz3i;
@@ -44,7 +54,9 @@ let
         "zAbd9Pre" = _zAbd9Pre;
         "Nlq6JeGA" = _Nlq6JeGA;
         "T7b0n2Zx" = _T7b0n2Zx;
-        "forge-1.20.1" = _dezMnC04;
+        "SMs6sQ9g" = _SMs6sQ9g;
+        "5pToIPLI" = _5pToIPLI;
+        "forge-1.20.1" = _5pToIPLI;
         "forge-1.12.2" = _T7b0n2Zx;
         "pkg-1.0.0" = _hLRBw5qU;
         "pkg-1.0.1" = _w4UdIz3i;
@@ -53,7 +65,9 @@ let
         "pkg-1.12.2PortV1.0.1" = _zAbd9Pre;
         "pkg-1.12.2Port1.0.1Fixed" = _Nlq6JeGA;
         "pkg-1.12.2PortV1.0.101" = _T7b0n2Zx;
-        "default" = _T7b0n2Zx;
+        "pkg-1.0.112Fixed" = _SMs6sQ9g;
+        "pkg-1.0.112FixedVersion2" = _5pToIPLI;
+        "default" = _5pToIPLI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "siren-head-the-sirens-attacker-(java-port)-horror-mod";

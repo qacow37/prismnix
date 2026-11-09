@@ -41,6 +41,11 @@ let
             "file" = "MVF1.12.4.zip";
             "hash" = "sha512-o+MBaUm3meZrHQy6dGVCbKQd7JPgSIIB+gOep+eXbhYEKK+BKW4PMhR0gqbCE2G3kOiKkcvqbjj4m4VCbrkNPw==";
         };
+        _KVaYAVjH = {
+            "id" = "KVaYAVjH";
+            "file" = "MVFRP1.12.9.zip";
+            "hash" = "sha512-paNABWbV+w5Hyom9u3+bo952LmaezgVYCkC/Hl67vCWji0C5g4Yf3sGxjF9aCwMEg8eZ6nYVtLYQABi2eoOu2g==";
+        };
     in {
         "ZSbhOFZB" = _ZSbhOFZB;
         "SUv01O2b" = _SUv01O2b;
@@ -50,7 +55,9 @@ let
         "grZe984H" = _grZe984H;
         "WAyaKuge" = _WAyaKuge;
         "DDC3xh3a" = _DDC3xh3a;
+        "KVaYAVjH" = _KVaYAVjH;
         "minecraft-26.2" = _DDC3xh3a;
+        "minecraft-26.3" = _KVaYAVjH;
         "pkg-1.01" = _ZSbhOFZB;
         "pkg-1.02" = _SUv01O2b;
         "pkg-1.03" = _rMAZHYqV;
@@ -58,7 +65,8 @@ let
         "pkg-1.12" = _grZe984H;
         "pkg-1.12.3" = _WAyaKuge;
         "pkg-1.12.5" = _DDC3xh3a;
-        "default" = _DDC3xh3a;
+        "pkg-1.12.9" = _KVaYAVjH;
+        "default" = _KVaYAVjH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matcha-vanilla-flavoured";

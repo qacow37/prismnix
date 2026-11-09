@@ -226,6 +226,16 @@ let
             "file" = "parcoolskill-1.4.0-all.jar";
             "hash" = "sha512-EQJGTvuDHdwnPpAoTfrBg+Lhg088TyWZWl6yBW88iESY1kAHRwxXpkTbGf/y6jG2k/WGartXlCRxgpvdhBIZRQ==";
         };
+        _ExeIWJ0b = {
+            "id" = "ExeIWJ0b";
+            "file" = "parcoolskill-1.4.1.jar";
+            "hash" = "sha512-PqRnQERQAKuaTDRmSGgRZe58QqmJNiSQiVrquRQ69iRHMEtnE+2VRW6CF6S/G7+ThQ/ZZfRXa2bIJSpWHL+tIw==";
+        };
+        _4arGEPzG = {
+            "id" = "4arGEPzG";
+            "file" = "parcoolskill-1.4.1-all.jar";
+            "hash" = "sha512-YQDloQ/cB1OdwZ9OfJD6Y1h/gDkAeHk40qHMIfDw1j6YWUuAOq9wh696gQThBA3/dWWqeIsfqX+aJAdcelUYqQ==";
+        };
     in {
         "LwAsUhi0" = _LwAsUhi0;
         "lGGkX1Ud" = _lGGkX1Ud;
@@ -272,10 +282,12 @@ let
         "KojY8Exi" = _KojY8Exi;
         "UMIcMSAY" = _UMIcMSAY;
         "UUQSis4z" = _UUQSis4z;
-        "neoforge-1.21.1" = _KojY8Exi;
+        "ExeIWJ0b" = _ExeIWJ0b;
+        "4arGEPzG" = _4arGEPzG;
+        "neoforge-1.21.1" = _ExeIWJ0b;
         "neoforge-1.21.11" = _UMIcMSAY;
-        "neoforge-1.20.1" = _UUQSis4z;
-        "forge-1.20.1" = _UUQSis4z;
+        "neoforge-1.20.1" = _4arGEPzG;
+        "forge-1.20.1" = _4arGEPzG;
         "pkg-1.0.0" = _LwAsUhi0;
         "pkg-1.0.1" = _lGGkX1Ud;
         "pkg-1.0.2" = _gm3Qs4Pq;
@@ -305,7 +317,8 @@ let
         "pkg-1.3.10" = _wGLzP5KU;
         "pkg-1.3.11" = _4YO6DUSm;
         "pkg-1.4.0" = _UUQSis4z;
-        "default" = _UUQSis4z;
+        "pkg-1.4.1" = _4arGEPzG;
+        "default" = _4arGEPzG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "parcoolskill";

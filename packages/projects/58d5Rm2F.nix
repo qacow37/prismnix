@@ -101,6 +101,51 @@ let
             "file" = "valkyrielib-forge-1.16.5-3.1.0.0.jar";
             "hash" = "sha512-yROb+dRocQjchKoKFSem/WqyOlJZodZD8MGSx6W5WMPQ3lIaZNvu4KvoIr9YRppktqAO/0w6lWcED9gLVcXJTg==";
         };
+        _m9uXg7up = {
+            "id" = "m9uXg7up";
+            "file" = "valkyrielib-forge-1.16.5-3.1.1.0.jar";
+            "hash" = "sha512-T87Yr/7lENURKTJ/Wad7FvKn8rRiZuXCm5dMpImZkF3MLCh4XsJOxL3uFz7BC8BPYwMD2WPN62otECxJMw4kmA==";
+        };
+        _Xn9ic66o = {
+            "id" = "Xn9ic66o";
+            "file" = "valkyrielib-forge-1.17.1-3.1.1.0.jar";
+            "hash" = "sha512-2zHeC3I4A3JxWLRW1GC0Gk1cNEP3FQ52QY4DP6JdTarlo04Sidy8WNnySWHrk2Sr/VMqCB9dzCrjlqdUPdCJrQ==";
+        };
+        _1jOX8XLa = {
+            "id" = "1jOX8XLa";
+            "file" = "valkyrielib-forge-1.16.5-3.1.1.1.jar";
+            "hash" = "sha512-1ZFfDWrHRoNXPxLfmPpjgiNGZ7MzT5aWRNEm49qHST+tGoIEOUTuXoU8KOmeU1tJmncbdREHPWSoR8pqj5gWdQ==";
+        };
+        _Ypv2LXzN = {
+            "id" = "Ypv2LXzN";
+            "file" = "valkyrielib-forge-1.17.1-3.1.1.1.jar";
+            "hash" = "sha512-SC8tj4xT8GZXjgIoYofnW/rNDmQi8E++Ug+7ww3U+K39/ReRTsQHIyEU8XOZSZG7NNIpOc5we/6Ejun9EVvS9A==";
+        };
+        _OStagsob = {
+            "id" = "OStagsob";
+            "file" = "valkyrielib-forge-1.18.2-3.1.1.1.jar";
+            "hash" = "sha512-IOJvfEwhOpPmznaU2ZhvTaORTYMAWvNxNiGf6rlwsqOM+BUQxh6YHHqoseNlVyWmVLt+tGy/0C2I5SqjgDonqQ==";
+        };
+        _xxNpgEqO = {
+            "id" = "xxNpgEqO";
+            "file" = "valkyrielib-forge-1.19.4-3.2.0.0.jar";
+            "hash" = "sha512-KzVm9sII5YM+HTj0l+3Fi27aD3LQwKR9CTGhhWiGYsNAbTSpIh5ctLY0DPYuKygQU8DLRwj9O3xbtxOEJPDGDQ==";
+        };
+        _OmvbJsXy = {
+            "id" = "OmvbJsXy";
+            "file" = "valkyrielib-forge-1.20.1-3.2.0.jar";
+            "hash" = "sha512-DiobC/fyL/cOl2yA9KeU92FuAN7vPRWF8b8xfBMnBvarUvNykdXN/WpBAb6dAB1VZtOfEdk5TsYnFmrrqF7iXw==";
+        };
+        _NbvRqUwV = {
+            "id" = "NbvRqUwV";
+            "file" = "valkyrielib-neoforge-1.20.1-3.2.1.jar";
+            "hash" = "sha512-1g2KxcL3noFUIvRT6E3EOoGGDWaWix/bHca608dM733266aEnDic5m2YmsXaE2sQ9zaxVW9VIrCdjXMzUGCN6Q==";
+        };
+        _7UGuFhGi = {
+            "id" = "7UGuFhGi";
+            "file" = "valkyrielib-neoforge-1.21.1-3.2.1.jar";
+            "hash" = "sha512-X7Nnxbct4HNzakh7RJJ7rKke6ueB245i1c8/tL6WwwXYeIA3KRbRBh9LNxaKRaauP3Tk3T/eyoe46hyfe9ZBDQ==";
+        };
     in {
         "iIDMzzVW" = _iIDMzzVW;
         "Y5f51jEI" = _Y5f51jEI;
@@ -122,19 +167,30 @@ let
         "weCqabc5" = _weCqabc5;
         "e8gNDeo3" = _e8gNDeo3;
         "caGXqVJY" = _caGXqVJY;
+        "m9uXg7up" = _m9uXg7up;
+        "Xn9ic66o" = _Xn9ic66o;
+        "1jOX8XLa" = _1jOX8XLa;
+        "Ypv2LXzN" = _Ypv2LXzN;
+        "OStagsob" = _OStagsob;
+        "xxNpgEqO" = _xxNpgEqO;
+        "OmvbJsXy" = _OmvbJsXy;
+        "NbvRqUwV" = _NbvRqUwV;
+        "7UGuFhGi" = _7UGuFhGi;
         "forge-1.19" = _iIDMzzVW;
         "forge-1.19.2" = _GGwN5EB3;
         "forge-1.19.3" = _FSvNBhLg;
-        "forge-1.19.4" = _Q06fS5Io;
+        "forge-1.19.4" = _xxNpgEqO;
         "forge-1.9.4" = _D9YpIhVs;
         "forge-1.10.2" = _5R7kr3j9;
         "forge-1.12.2" = _vnPMC2SV;
         "forge-1.14.4" = _weCqabc5;
         "forge-1.15.2" = _e8gNDeo3;
-        "forge-1.16.5" = _caGXqVJY;
+        "forge-1.16.5" = _1jOX8XLa;
         "forge-1.20" = _UoMihgnb;
-        "forge-1.20.1" = _UoMihgnb;
+        "forge-1.20.1" = _NbvRqUwV;
         "forge-1.20.2" = _UoMihgnb;
+        "forge-1.17.1" = _Ypv2LXzN;
+        "forge-1.18.2" = _OStagsob;
         "fabric-1.19" = _INOcDnFZ;
         "fabric-1.19.1" = _INOcDnFZ;
         "fabric-1.19.2" = _INOcDnFZ;
@@ -144,8 +200,9 @@ let
         "fabric-1.20.1" = _DeN9TEO5;
         "fabric-1.20.2" = _DeN9TEO5;
         "neoforge-1.20" = _UoMihgnb;
-        "neoforge-1.20.1" = _UoMihgnb;
+        "neoforge-1.20.1" = _NbvRqUwV;
         "neoforge-1.20.2" = _UoMihgnb;
+        "neoforge-1.21.1" = _7UGuFhGi;
         "pkg-1.19.2-4.0.0.0" = _iIDMzzVW;
         "pkg-4.0.0.0" = _Y5f51jEI;
         "pkg-1.19.2-4.0.2.0" = _GGwN5EB3;
@@ -163,7 +220,16 @@ let
         "pkg-1.14.4-3.1.0.0" = _weCqabc5;
         "pkg-1.15.2-3.1.0.0" = _e8gNDeo3;
         "pkg-1.16.5-3.1.0.0" = _caGXqVJY;
-        "default" = _caGXqVJY;
+        "pkg-1.16.5-3.1.1.0" = _m9uXg7up;
+        "pkg-1.17.1-3.1.1.0" = _Xn9ic66o;
+        "pkg-1.16.5-3.1.1.1" = _1jOX8XLa;
+        "pkg-1.17.1-3.1.1.1" = _Ypv2LXzN;
+        "pkg-1.18.2-3.1.1.1" = _OStagsob;
+        "pkg-1.19.4-3.2.0.0" = _xxNpgEqO;
+        "pkg-1.20.1-3.2.0" = _OmvbJsXy;
+        "pkg-1.20.1-3.2.1" = _NbvRqUwV;
+        "pkg-1.21.1-3.2.1" = _7UGuFhGi;
+        "default" = _7UGuFhGi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valkyrielib";

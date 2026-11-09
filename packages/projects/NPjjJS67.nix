@@ -156,6 +156,21 @@ let
             "file" = "QuintMenu-1.4.0-Fabric-26.3.jar";
             "hash" = "sha512-ZB9+jcWyFoDa2LESN1vlEZHAsCsU1cwBkg3KQp+0GXaW+6Cwn7B5h+BjfokFuE67VU9gmx0Vyp3Pfrygr0tmgQ==";
         };
+        _ItijhHAI = {
+            "id" = "ItijhHAI";
+            "file" = "QuintMenu-1.4.2-Fabric-26.2.jar";
+            "hash" = "sha512-FNcrzJuf1MrDdD5d3hzbhmK+F9r6BWgt7IAkiZzZAngGOs6EoiXIh3N2HtNpvP61+nH+3YzLUrWswFvni51H3A==";
+        };
+        _uGo6FP8X = {
+            "id" = "uGo6FP8X";
+            "file" = "QuintMenu-1.4.2-Fabric-26.3.jar";
+            "hash" = "sha512-ODNdjB3LpE6rxyYXYhVlxwcnVUxfrPFo1OcN1RMbiUVw/L1kZp6hypf6Zvq2zMWm3o3qrMR5jO8dDDNdvNt19A==";
+        };
+        _Co9sCCR6 = {
+            "id" = "Co9sCCR6";
+            "file" = "QuintMenu-1.4.2-Fabric-1.21.11.jar";
+            "hash" = "sha512-3HUd2bVm1uwTXEJUr1dsjT1lCtSnwQzJMRx36et80hlMiNWg2P3QHzu7XUU098iLRLjevjtMHdZl6wYl320LnQ==";
+        };
     in {
         "xD7ydZ3r" = _xD7ydZ3r;
         "Xk7j0ev4" = _Xk7j0ev4;
@@ -188,7 +203,10 @@ let
         "a8dVkwo9" = _a8dVkwo9;
         "p5x7uELK" = _p5x7uELK;
         "8ihHkT0v" = _8ihHkT0v;
-        "fabric-1.21.11" = _D0cLYlda;
+        "ItijhHAI" = _ItijhHAI;
+        "uGo6FP8X" = _uGo6FP8X;
+        "Co9sCCR6" = _Co9sCCR6;
+        "fabric-1.21.11" = _Co9sCCR6;
         "fabric-1.21.4" = _CtP9RXOI;
         "fabric-1.21.5" = _CtP9RXOI;
         "fabric-26.1" = _gN8I87iN;
@@ -203,8 +221,8 @@ let
         "fabric-1.21.1" = _OxtZzuUm;
         "fabric-1.21.2" = _OxtZzuUm;
         "fabric-1.21.3" = _OxtZzuUm;
-        "fabric-26.2" = _p5x7uELK;
-        "fabric-26.3" = _8ihHkT0v;
+        "fabric-26.2" = _ItijhHAI;
+        "fabric-26.3" = _uGo6FP8X;
         "forge-26.1" = _jm7B2n98;
         "forge-26.1.1" = _jm7B2n98;
         "forge-26.1.2" = _jm7B2n98;
@@ -226,7 +244,8 @@ let
         "pkg-1.2.17" = _GKJu2UVq;
         "pkg-1.2.18" = _a8dVkwo9;
         "pkg-1.4.0" = _8ihHkT0v;
-        "default" = _8ihHkT0v;
+        "pkg-1.4.2" = _Co9sCCR6;
+        "default" = _Co9sCCR6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quintessential-quintuplets-theme";

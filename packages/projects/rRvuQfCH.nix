@@ -241,6 +241,21 @@ let
             "file" = "AutoMeow 1.28-26.3.jar";
             "hash" = "sha512-aK6WDtrcTOROPMBGo1cfc2x8O7tM5BMnZoMmlllUT811VlCCdohFfNvlj76x1To5PpgdttzR1nWOHN6DYlAGMg==";
         };
+        _wN5jNn4F = {
+            "id" = "wN5jNn4F";
+            "file" = "AutoMeow 1.29-26.1.jar";
+            "hash" = "sha512-lsxdUp3+zsd/m/YVEaOPPUaTMwQO2L5G27O98pyG+CKOGDn3BDMO6uSDr5e2FSrhnnyYiuRwJlIkUSdufCHwEg==";
+        };
+        _MTsSLlhE = {
+            "id" = "MTsSLlhE";
+            "file" = "AutoMeow 1.29-26.2.jar";
+            "hash" = "sha512-gTqvWAMYG2VydUOOBAQ76WCWRnmJJs9kFdUTAKycLPVzeusjZfCE35nUC2ZsZN/P3S+yho9Sa/ypwWx5e/nWHQ==";
+        };
+        _cKUepenc = {
+            "id" = "cKUepenc";
+            "file" = "AutoMeow 1.29-26.3.jar";
+            "hash" = "sha512-tDNYAffFbV2sSG5F6m5paVqLogoUdZLvnD1xtoVUdIVgmCxDS6KqvLpEZCkNp5rXJN0qGmpllBmGnYURd7d4yw==";
+        };
     in {
         "2O5ObslW" = _2O5ObslW;
         "RefbUUSb" = _RefbUUSb;
@@ -290,14 +305,17 @@ let
         "zTl3wclK" = _zTl3wclK;
         "8E2GmI1J" = _8E2GmI1J;
         "MsK6t1pO" = _MsK6t1pO;
+        "wN5jNn4F" = _wN5jNn4F;
+        "MTsSLlhE" = _MTsSLlhE;
+        "cKUepenc" = _cKUepenc;
         "fabric-1.21.5" = _2FKg4Hhp;
         "fabric-1.21.10" = _YfS27hev;
         "fabric-1.21.11" = _YfS27hev;
-        "fabric-26.1" = _zTl3wclK;
-        "fabric-26.1.1" = _zTl3wclK;
-        "fabric-26.1.2" = _zTl3wclK;
-        "fabric-26.2" = _8E2GmI1J;
-        "fabric-26.3" = _MsK6t1pO;
+        "fabric-26.1" = _wN5jNn4F;
+        "fabric-26.1.1" = _wN5jNn4F;
+        "fabric-26.1.2" = _wN5jNn4F;
+        "fabric-26.2" = _MTsSLlhE;
+        "fabric-26.3" = _cKUepenc;
         "pkg-1.0.0" = _2O5ObslW;
         "pkg-1.1" = _RefbUUSb;
         "pkg-1.3" = _R13vDbsT;
@@ -329,7 +347,8 @@ let
         "pkg-1.26" = _K8fxA3yM;
         "pkg-1.27" = _vndasE04;
         "pkg-1.28" = _MsK6t1pO;
-        "default" = _MsK6t1pO;
+        "pkg-1.29" = _cKUepenc;
+        "default" = _cKUepenc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automeow";

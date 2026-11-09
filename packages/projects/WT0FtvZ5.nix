@@ -56,6 +56,11 @@ let
             "file" = "diamondglass-neoforge-26.2-5.1.0.jar";
             "hash" = "sha512-9za4GceqzkdNVkHm5/6Q21hQMz8JN4J2+6UCMXsIBYY46OGj8dAMlorpEzvn5NIABcf/lvi2ATjyIPLC6bcCbQ==";
         };
+        _DJDSLuBX = {
+            "id" = "DJDSLuBX";
+            "file" = "diamondglass-neoforge-26.3-5.2.0.jar";
+            "hash" = "sha512-okYkbjM7I0ze+4ntEysUO14EDJjWc72nXJ2PvRl49jhPEdzvye9Xq8VH6ElIaSfNpCvt9aNnhEPwrtOXX085Bw==";
+        };
     in {
         "XcylRANe" = _XcylRANe;
         "OieZddhj" = _OieZddhj;
@@ -68,6 +73,7 @@ let
         "rKA2xEYY" = _rKA2xEYY;
         "SWhCQGsB" = _SWhCQGsB;
         "1evglLAP" = _1evglLAP;
+        "DJDSLuBX" = _DJDSLuBX;
         "fabric-1.18.2" = _XcylRANe;
         "fabric-26.1.2" = _oHAvfuW2;
         "fabric-26.2" = _rKA2xEYY;
@@ -80,6 +86,7 @@ let
         "neoforge-1.20.1" = _GUvQ1tEn;
         "neoforge-26.1.2" = _SWhCQGsB;
         "neoforge-26.2" = _1evglLAP;
+        "neoforge-26.3" = _DJDSLuBX;
         "pkg-4.5.30" = _BR5YwK0C;
         "pkg-1.5.0.9" = _OieZddhj;
         "pkg-3.4.20" = _GJAiUP6X;
@@ -87,7 +94,8 @@ let
         "pkg-1.20.1-6.0.0" = _GUvQ1tEn;
         "pkg-5.0.0" = _SWhCQGsB;
         "pkg-5.1.0" = _1evglLAP;
-        "default" = _1evglLAP;
+        "pkg-5.2.0" = _DJDSLuBX;
+        "default" = _DJDSLuBX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diamond-glass";
