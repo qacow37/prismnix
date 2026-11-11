@@ -31,6 +31,26 @@ let
             "file" = "betterlist-1.4.0+26.2.jar";
             "hash" = "sha512-K7YYKu57RFEubvd7CEqgmqjNhJq5LS/MZ2J5y/SmryvFNOHCFHVkoAA8TDiXdXMH3Q2f6Ol1Td7ngE/Dedxc1w==";
         };
+        _oVGGRCcD = {
+            "id" = "oVGGRCcD";
+            "file" = "betterlist-1.5.0+26.3.jar";
+            "hash" = "sha512-yXO6zF8+xiHc6RhN8TpIe278xWao6qW507eF2dNmJ29eQtqchCWQyia3F8ZdY4+X1uNsyU8L9RQblFGx6JiRuQ==";
+        };
+        _8Ou2ywHw = {
+            "id" = "8Ou2ywHw";
+            "file" = "betterlist-1.5.0+26.2.jar";
+            "hash" = "sha512-d6gIz+YySxyud4x6u0qxxeSRBwdUbsMW351ai2v0Kbgf+MKepGEk10t8/93Srw+YMlQQQdrTf5qWX28AvBPiOg==";
+        };
+        _k1Gi1vz4 = {
+            "id" = "k1Gi1vz4";
+            "file" = "betterlist-1.5.1+26.3.jar";
+            "hash" = "sha512-QQLvjhWOzYF7popzHZQJTbtzYrnTde0ychmStgRSdG8BpZdLdkakslnk9/g2N7qDRVs6DGtj4fLWfAv8mOtrBg==";
+        };
+        _RdrueUiX = {
+            "id" = "RdrueUiX";
+            "file" = "betterlist-1.5.1+26.2.jar";
+            "hash" = "sha512-WvXPwMqFvYBRPp4St3cpnC87B8afAieliM3eydvWJv4oj7hKPL0xGz+eKu7iuXETzohR3/B+8PLKvi/TicN5qA==";
+        };
     in {
         "rlU5TmoA" = _rlU5TmoA;
         "HX2HlZ91" = _HX2HlZ91;
@@ -38,15 +58,24 @@ let
         "GVTVWUJO" = _GVTVWUJO;
         "jW2kEmXi" = _jW2kEmXi;
         "O0kPIbm3" = _O0kPIbm3;
+        "oVGGRCcD" = _oVGGRCcD;
+        "8Ou2ywHw" = _8Ou2ywHw;
+        "k1Gi1vz4" = _k1Gi1vz4;
+        "RdrueUiX" = _RdrueUiX;
         "fabric-26.1.2" = _GVTVWUJO;
-        "fabric-26.2" = _O0kPIbm3;
+        "fabric-26.2" = _RdrueUiX;
+        "fabric-26.3" = _k1Gi1vz4;
         "pkg-1.0.0" = _rlU5TmoA;
         "pkg-1.1.0" = _HX2HlZ91;
         "pkg-1.2.0" = _HnpAHLpB;
         "pkg-1.3.0" = _GVTVWUJO;
         "pkg-1.3.0+26.2" = _jW2kEmXi;
         "pkg-1.4.0+26.2" = _O0kPIbm3;
-        "default" = _O0kPIbm3;
+        "pkg-1.5.0+26.3" = _oVGGRCcD;
+        "pkg-1.5.0+26.2" = _8Ou2ywHw;
+        "pkg-1.5.1+26.3" = _k1Gi1vz4;
+        "pkg-1.5.1+26.2" = _RdrueUiX;
+        "default" = _RdrueUiX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-list-for-litematica";

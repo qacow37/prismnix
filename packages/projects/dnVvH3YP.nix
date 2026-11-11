@@ -1036,6 +1036,16 @@ let
             "file" = "PickablePets-2.0.3.2+1.21.1-neoforge.jar";
             "hash" = "sha512-FFT34nfaTZf0SOz7JnZcEIwANEIm2YCOBgrd2tJb9LvKyN9PQ1e3mDC1cl9Ac9XHpdgkJh/FRJ3ErSlQ3NJaZA==";
         };
+        _AasW9tfk = {
+            "id" = "AasW9tfk";
+            "file" = "PickablePets-neoforge-26.1.2.jar";
+            "hash" = "sha512-yfgP2uiBrSGTHWeWWnjOmumtA0WFsh6a6ns7yxV7lJsS6sPsnj3F6mJ4/vzifXT3zLTXhWq+kZc44uI4CSZ2DA==";
+        };
+        _FIg2ogUK = {
+            "id" = "FIg2ogUK";
+            "file" = "PickablePets-fabric-26.1.2.jar";
+            "hash" = "sha512-pR/Ah6kUCxjYeiD6SkLW3TrZVzfX3xhnNHHTpgAdDofojJ6pG+renjMleyeBjbryHoislhczOUuwVXlaMLfRmw==";
+        };
     in {
         "EGadnYNK" = _EGadnYNK;
         "LyExFQKD" = _LyExFQKD;
@@ -1244,6 +1254,8 @@ let
         "ToWCJJTV" = _ToWCJJTV;
         "pAv0cadq" = _pAv0cadq;
         "4VymLu9m" = _4VymLu9m;
+        "AasW9tfk" = _AasW9tfk;
+        "FIg2ogUK" = _FIg2ogUK;
         "forge-1.19" = _wWzsZZAv;
         "forge-1.19.2" = _uM3NY8yh;
         "forge-1.19.3" = _lXDTVXma;
@@ -1273,6 +1285,7 @@ let
         "fabric-1.21.3" = _eaJoroxV;
         "fabric-1.21.4" = _Y3GD1BBl;
         "fabric-1.21.5" = _3VKzsYNP;
+        "fabric-26.1.2" = _FIg2ogUK;
         "neoforge-1.20.4" = _962QHJpX;
         "neoforge-1.20.6" = _MhLQR94s;
         "neoforge-1.21" = _WM2TIsM1;
@@ -1281,6 +1294,7 @@ let
         "neoforge-1.21.3" = _BSsutOAF;
         "neoforge-1.21.4" = _4i7w9BVE;
         "neoforge-1.21.5" = _fzOgiXSi;
+        "neoforge-26.1.2" = _AasW9tfk;
         "pkg-1.0.0+1.19" = _LyExFQKD;
         "pkg-1.0.0+1.19.2" = _7AXPvwzz;
         "pkg-1.0.0+1.19.3" = _fg9sjSB6;
@@ -1354,7 +1368,8 @@ let
         "pkg-1.3.4.2" = _hDHUPPG4;
         "pkg-2.0.3.1" = _ToWCJJTV;
         "pkg-2.0.3.2" = _4VymLu9m;
-        "default" = _4VymLu9m;
+        "pkg-26.1.2" = _FIg2ogUK;
+        "default" = _FIg2ogUK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickable-pets";

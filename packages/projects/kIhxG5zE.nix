@@ -191,6 +191,16 @@ let
             "file" = "ArmorTrimItemFix-neoforge-26.2-2.1.6.jar";
             "hash" = "sha512-Ck3fWYB3H4y8H/1K6iTel6SF0g/Y7Og6H53XNu6G2xgfUg46E1pG+vTYTNczG+/nezOSRvmltiH5GiVWsEthNA==";
         };
+        _VV0B4wzF = {
+            "id" = "VV0B4wzF";
+            "file" = "ArmorTrimItemFix-fabric-26.3-2.1.6.jar";
+            "hash" = "sha512-6LUZuUrN69YY7hJYn59N3Al/g0SeUzWt5ZZ8iZY9VwqO5nHTfm6w4ktT1Dbci4LL6wjgPnhMmTwkrSA1iTaKQg==";
+        };
+        _Mlpyq22g = {
+            "id" = "Mlpyq22g";
+            "file" = "ArmorTrimItemFix-neoforge-26.3-2.1.6.jar";
+            "hash" = "sha512-JQTt740Sgy+FmhPn3udf6Koc3UlDQlFjUPEpTaKCJaIeRbogL0ArDDpdQjG2wTrjapVuFHn9+FWl5m+2EdxHtA==";
+        };
     in {
         "Vwl1OCIf" = _Vwl1OCIf;
         "ZCtHHyty" = _ZCtHHyty;
@@ -230,6 +240,8 @@ let
         "5tFFswCa" = _5tFFswCa;
         "TZxPMReF" = _TZxPMReF;
         "KocTSBp8" = _KocTSBp8;
+        "VV0B4wzF" = _VV0B4wzF;
+        "Mlpyq22g" = _Mlpyq22g;
         "forge-1.20" = _1Gwsvu76;
         "forge-1.20.1" = _vKAzdnbB;
         "forge-1.20.2" = _1Gwsvu76;
@@ -253,6 +265,7 @@ let
         "neoforge-26.1.1" = _5tFFswCa;
         "neoforge-26.1.2" = _5tFFswCa;
         "neoforge-26.2" = _KocTSBp8;
+        "neoforge-26.3" = _Mlpyq22g;
         "fabric-1.20" = _BTiTfYIk;
         "fabric-1.20.1" = _nHqlGGrb;
         "fabric-1.20.2" = _BTiTfYIk;
@@ -271,6 +284,7 @@ let
         "fabric-26.1.1" = _tWrvjeFb;
         "fabric-26.1.2" = _tWrvjeFb;
         "fabric-26.2" = _TZxPMReF;
+        "fabric-26.3" = _VV0B4wzF;
         "pkg-1.0.0" = _ZCtHHyty;
         "pkg-1.0.1" = _abONw6UG;
         "pkg-1.0.2" = _kiBoVvAB;
@@ -283,8 +297,8 @@ let
         "pkg-2.1.3" = _Ptsp2UTH;
         "pkg-2.1.4" = _fQ0EZPZm;
         "pkg-2.1.5" = _5tFFswCa;
-        "pkg-2.1.6" = _KocTSBp8;
-        "default" = _KocTSBp8;
+        "pkg-2.1.6" = _Mlpyq22g;
+        "default" = _Mlpyq22g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-trim-item-fix";

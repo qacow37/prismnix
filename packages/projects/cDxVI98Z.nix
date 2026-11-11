@@ -111,6 +111,16 @@ let
             "file" = "easywp-1.4.0+26.3.jar";
             "hash" = "sha512-dWidt6JHKT1Q3++o5wZruOHgHHJxmuh65N7ZeL/iMCe0CBk6IeAzhjlpgECaqnCXN+0zoRvK22R/t7SOX2mV8A==";
         };
+        _WLVb470F = {
+            "id" = "WLVb470F";
+            "file" = "easywp-1.4.1+26.1-26.2.jar";
+            "hash" = "sha512-hUjGH1QLxsbR3xgqKmuTDTkuCLIAzIox3WwkdjRY9x1TzcYcQR4b46S5Q0PzJ9BzN4HU8YfBVtZilWKoFpLyMQ==";
+        };
+        _LFdmqm38 = {
+            "id" = "LFdmqm38";
+            "file" = "easywp-1.4.1+26.3.jar";
+            "hash" = "sha512-aJoBKzrJYOGgTsvQ6XEVMYTAIhufYYjUQktXRdiKiJuByFucND9ruurdd7r8B4FTu7C/5AC8ah0cf/6RUsedZg==";
+        };
     in {
         "Iw2h0rIh" = _Iw2h0rIh;
         "A238vKRO" = _A238vKRO;
@@ -134,11 +144,13 @@ let
         "TWCZEPnQ" = _TWCZEPnQ;
         "frBRzBFu" = _frBRzBFu;
         "xXJhiWRh" = _xXJhiWRh;
-        "fabric-26.1.2" = _frBRzBFu;
-        "fabric-26.1" = _frBRzBFu;
-        "fabric-26.1.1" = _frBRzBFu;
-        "fabric-26.2" = _frBRzBFu;
-        "fabric-26.3" = _xXJhiWRh;
+        "WLVb470F" = _WLVb470F;
+        "LFdmqm38" = _LFdmqm38;
+        "fabric-26.1.2" = _WLVb470F;
+        "fabric-26.1" = _WLVb470F;
+        "fabric-26.1.1" = _WLVb470F;
+        "fabric-26.2" = _WLVb470F;
+        "fabric-26.3" = _LFdmqm38;
         "pkg-1.1.4" = _Iw2h0rIh;
         "pkg-1.2.3" = _iiXfLQqW;
         "pkg-1.3.0" = _WBNn1QHI;
@@ -149,7 +161,8 @@ let
         "pkg-1.4.0-alpha.5" = _eGr0mcZA;
         "pkg-1.4.0-beta.2" = _TWCZEPnQ;
         "pkg-1.4.0" = _xXJhiWRh;
-        "default" = _xXJhiWRh;
+        "pkg-1.4.1" = _LFdmqm38;
+        "default" = _LFdmqm38;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easywaypoints";

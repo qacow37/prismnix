@@ -121,6 +121,21 @@ let
             "file" = "zombies_everywhere-1.0.2-neoforge+mc26.1.2-beta.jar";
             "hash" = "sha512-/PXyEz0laM2gBgtLpHqA4njnOhhCXpvJJF3vxTqfbTQ6c00qkBwLKNN2ansk3CHK3tlNMBzVOGHaC4apM/9m4w==";
         };
+        _aw7UJx4P = {
+            "id" = "aw7UJx4P";
+            "file" = "zombies_everywhere-1.5.0-neoforge+mc1.21.1.jar";
+            "hash" = "sha512-ctM6vATzEJBkvz1A953p2oOnlHO7A5HyhpE0r3h+JmTxbgvM1z6X2moQeMfJR7pCT4mO7QY2RBHPMasDq6Atkw==";
+        };
+        _bzycaSRg = {
+            "id" = "bzycaSRg";
+            "file" = "zombies_everywhere-1.1.0-forge+mc1.20.1-beta.jar";
+            "hash" = "sha512-elMOoKqZ3IGTd+ahCM4wP7ZJJZjOvkch20Px+3/idCxk2NAnTvCXN8Kz7PUOaSuCvUcvXyWiXVml8m5uq6qHJQ==";
+        };
+        _64t1DGTj = {
+            "id" = "64t1DGTj";
+            "file" = "zombies_everywhere-1.1.0-neoforge+mc26.1.2-beta.jar";
+            "hash" = "sha512-kJQ4/ITUm5PslzLPMgsB5WSpxDlhriEvgnMoeLH1XstoVcoFmgZfJRVRc/pydUN4QjqK9pGoMbJhHocCYjRDuQ==";
+        };
     in {
         "a9sbVFGv" = _a9sbVFGv;
         "grzR6jUC" = _grzR6jUC;
@@ -146,9 +161,12 @@ let
         "eXsRW6zi" = _eXsRW6zi;
         "jvFHA6kB" = _jvFHA6kB;
         "I2jENCur" = _I2jENCur;
-        "neoforge-1.21.1" = _k1XnGDfs;
-        "neoforge-26.1.2" = _I2jENCur;
-        "forge-1.20.1" = _jvFHA6kB;
+        "aw7UJx4P" = _aw7UJx4P;
+        "bzycaSRg" = _bzycaSRg;
+        "64t1DGTj" = _64t1DGTj;
+        "neoforge-1.21.1" = _aw7UJx4P;
+        "neoforge-26.1.2" = _64t1DGTj;
+        "forge-1.20.1" = _bzycaSRg;
         "pkg-1.0.0-1.21.1" = _a9sbVFGv;
         "pkg-1.1.0-1.21.1" = _grzR6jUC;
         "pkg-1.2.0-1.21.1" = _QBQAl9zg;
@@ -173,7 +191,10 @@ let
         "pkg-1.0.1-forge+mc1.20.1-beta" = _eXsRW6zi;
         "pkg-1.0.2-forge+mc1.20.1-beta" = _jvFHA6kB;
         "pkg-1.0.2-neoforge+mc26.1.2-beta" = _I2jENCur;
-        "default" = _I2jENCur;
+        "pkg-1.5.0-neoforge+mc1.21.1" = _aw7UJx4P;
+        "pkg-1.1.0-forge+mc1.20.1-beta" = _bzycaSRg;
+        "pkg-1.1.0-neoforge+mc26.1.2-beta" = _64t1DGTj;
+        "default" = _64t1DGTj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombieseverywhere";

@@ -66,6 +66,11 @@ let
             "file" = "moblocator-26.2-4.2.0.jar";
             "hash" = "sha512-ZK30PAWwsOAXAi+ediPrfUTLWTGMF4uYQL04j/5toIxEAUChOMLv8oREEI0HCUBZKGDLdWY/dbwfid0hNVLVqQ==";
         };
+        _7j6PrjLB = {
+            "id" = "7j6PrjLB";
+            "file" = "moblocator-26.3-4.3.0.jar";
+            "hash" = "sha512-/MYN1EdWWnxrviIZMc+XcDwssz58/ZR/k5QSuob8axDy1an9QYufFZzSJ18Ny6nwy+Jjzzxlw2RjBFiHTJUxxQ==";
+        };
     in {
         "VzALvz7G" = _VzALvz7G;
         "6CfApCLd" = _6CfApCLd;
@@ -80,6 +85,7 @@ let
         "Aosfu59W" = _Aosfu59W;
         "tt36LU6q" = _tt36LU6q;
         "hOfmvWUX" = _hOfmvWUX;
+        "7j6PrjLB" = _7j6PrjLB;
         "fabric-1.21.10" = _C7tDmZfb;
         "fabric-1.21.11" = _C7tDmZfb;
         "fabric-1.21" = _5SsOgln0;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _tt36LU6q;
         "fabric-26.1.2" = _tt36LU6q;
         "fabric-26.2" = _hOfmvWUX;
+        "fabric-26.3" = _7j6PrjLB;
         "pkg-1.0.0" = _VzALvz7G;
         "pkg-1.1.0" = _6CfApCLd;
         "pkg-1.2.0" = _NTz4ovFJ;
@@ -105,7 +112,8 @@ let
         "pkg-4.0.0" = _Aosfu59W;
         "pkg-4.1.0" = _tt36LU6q;
         "pkg-4.2.0" = _hOfmvWUX;
-        "default" = _hOfmvWUX;
+        "pkg-4.3.0" = _7j6PrjLB;
+        "default" = _7j6PrjLB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-locator";

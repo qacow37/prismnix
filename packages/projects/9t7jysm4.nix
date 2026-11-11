@@ -216,6 +216,11 @@ let
             "file" = "createcybernetics-0.5.2-neoforge-1.21.1-HOTFIX.jar";
             "hash" = "sha512-+llLd5nFERQF5QCB601cmwPxiqXbfpS/QJ6ZA6wF5cRNTIiNHumF9GEFNB7ASH0hlCiVsml/lKqZQPBCONM+ww==";
         };
+        _Llf6Xqq2 = {
+            "id" = "Llf6Xqq2";
+            "file" = "createcybernetics-0.5.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-PKXyVZU87lGEfK7OQhHISA/U6pYJHqG8Cfv3RGBSuOiDvyK1+0tZS0zQOz0uMPPgM6FoU9KIhh28TsFFAuEbog==";
+        };
     in {
         "KAU0iaYx" = _KAU0iaYx;
         "xGq7q9pU" = _xGq7q9pU;
@@ -260,7 +265,8 @@ let
         "oIO6u65N" = _oIO6u65N;
         "ELUd2enO" = _ELUd2enO;
         "smUjGKaM" = _smUjGKaM;
-        "neoforge-1.21.1" = _smUjGKaM;
+        "Llf6Xqq2" = _Llf6Xqq2;
+        "neoforge-1.21.1" = _Llf6Xqq2;
         "pkg-0.1.1b" = _KAU0iaYx;
         "pkg-0.1.2b" = _xGq7q9pU;
         "pkg-0.1.3" = _C9QjYKWk;
@@ -302,7 +308,8 @@ let
         "pkg-0.5.1-HOTFIX" = _oIO6u65N;
         "pkg-0.5.2" = _ELUd2enO;
         "pkg-0.5.2-HOTFIX" = _smUjGKaM;
-        "default" = _smUjGKaM;
+        "pkg-0.5.3" = _Llf6Xqq2;
+        "default" = _Llf6Xqq2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createcybernetics";

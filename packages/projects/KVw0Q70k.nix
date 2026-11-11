@@ -71,6 +71,16 @@ let
             "file" = "ProbeJSLegacy-1.20.1-6.2.0.jar";
             "hash" = "sha512-fcbhhrrAtlIupst78nwcBvcyAalZ+vMt4EbAbkHtpHl/bN4XdWkaoBggGTo6ifknlFI+8576AEimow+X3jn1nw==";
         };
+        _XN4yzDqT = {
+            "id" = "XN4yzDqT";
+            "file" = "ProbeJSLegacy-1.16.5-6.3.0.jar";
+            "hash" = "sha512-05c+leOWaIb8ZfBSGTHKeOkTOO6ec4MLqsqfkVZg4BJnf/sBaKl2TByIzCnAcT8/fX7LmU5ErPsvIE9Qum65uQ==";
+        };
+        _eSYpKvro = {
+            "id" = "eSYpKvro";
+            "file" = "ProbeJSLegacy-1.20.1-6.3.0.jar";
+            "hash" = "sha512-WHcKyIKel2HXa2P18dDkOisCf709P8KVyF/AiARWZaM35TsgYcAMYY96fXLWQuFdJobC9yMLno0wEJwXDYLPeg==";
+        };
     in {
         "2ruVR1qO" = _2ruVR1qO;
         "1ui6qiiQ" = _1ui6qiiQ;
@@ -86,8 +96,10 @@ let
         "E0m64tr7" = _E0m64tr7;
         "Xs8wcpAK" = _Xs8wcpAK;
         "m0TaAVwY" = _m0TaAVwY;
-        "forge-1.16.5" = _Xs8wcpAK;
-        "forge-1.20.1" = _m0TaAVwY;
+        "XN4yzDqT" = _XN4yzDqT;
+        "eSYpKvro" = _eSYpKvro;
+        "forge-1.16.5" = _XN4yzDqT;
+        "forge-1.20.1" = _eSYpKvro;
         "forge-1.20.2" = _63jV54XO;
         "forge-1.20.3" = _63jV54XO;
         "forge-1.20.4" = _63jV54XO;
@@ -100,7 +112,8 @@ let
         "pkg-6.0.5" = _wS3tikC8;
         "pkg-6.1.0" = _E0m64tr7;
         "pkg-6.2.0" = _m0TaAVwY;
-        "default" = _m0TaAVwY;
+        "pkg-6.3.0" = _eSYpKvro;
+        "default" = _eSYpKvro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "probejs-legacy";

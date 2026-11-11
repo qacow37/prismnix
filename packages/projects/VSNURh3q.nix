@@ -3666,6 +3666,11 @@ let
             "file" = "c2me-fabric-mc26.1.2-0.4.0-alpha.0.70.jar";
             "hash" = "sha512-s9Rinu0CTzo9YSeTRrIZxkcQRMVmt9r1wEUbiYCuM1xvVbT2/lAQ/9ZaGjkw1b2M9o6vWZ0liBcgAUdZN87Kew==";
         };
+        _fyReexgu = {
+            "id" = "fyReexgu";
+            "file" = "c2me-fabric-mc26.4-snapshot-8-0.4.2-alpha.0.135.jar";
+            "hash" = "sha512-pzO+0zHZ8zzuzyrIC4D8qLzPqU3juL+oE3403ckaw7ZY5eZ7FnrJy4gAYR2U+AJ3IEtk4+iytqPVlWUhXDcxIA==";
+        };
     in {
         "4FLwGDDE" = _4FLwGDDE;
         "2IaFivhp" = _2IaFivhp;
@@ -4400,6 +4405,7 @@ let
         "2cvOSZ4X" = _2cvOSZ4X;
         "HmE6J1Ax" = _HmE6J1Ax;
         "W9TlypeQ" = _W9TlypeQ;
+        "fyReexgu" = _fyReexgu;
         "fabric-1.17.1" = _4FLwGDDE;
         "fabric-21w39a" = _2IaFivhp;
         "fabric-21w40a" = _1SfzeCfa;
@@ -4668,6 +4674,7 @@ let
         "fabric-26.4-snapshot-5" = _Ez6kKhwB;
         "fabric-26.4-snapshot-6" = _bvOHPArP;
         "fabric-26.4-snapshot-7" = _DgZAfcu4;
+        "fabric-26.4-snapshot-8" = _fyReexgu;
         "pkg-0.2.0+alpha.5 1.17.1" = _4FLwGDDE;
         "pkg-0.2.0+alpha.5 21w39a" = _2IaFivhp;
         "pkg-0.2.0+alpha.5.35 21w40a" = _1SfzeCfa;
@@ -5401,7 +5408,8 @@ let
         "pkg-0.4.2-alpha.0.65+26.2" = _2cvOSZ4X;
         "pkg-0.4.2-alpha.0.66+26.2" = _HmE6J1Ax;
         "pkg-0.4.0-alpha.0.70+26.1.2" = _W9TlypeQ;
-        "default" = _W9TlypeQ;
+        "pkg-0.4.2-alpha.0.135+26.4-snap-8" = _fyReexgu;
+        "default" = _fyReexgu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "c2me-fabric";

@@ -151,6 +151,11 @@ let
             "file" = "Mellow-1.8.9-ornithe-7.1.2.jar";
             "hash" = "sha512-1YwOzgi8wWyaMfErwXKXmjs/sX2i0/j+8r6nvic0Cvk5trL3I2Fg38wh0L+uBXDaJiQHaQaNb3H/LOye6N/KFw==";
         };
+        _yLRyFJu2 = {
+            "id" = "yLRyFJu2";
+            "file" = "Mellow-1.8.9-ornithe-7.1.3.jar";
+            "hash" = "sha512-z+DpIuZ5UjJmRA0IwSMI/k1mpGkU/iAXn+2ydLifpEN39b+xObOANUJecSBuuOAZ1uRB2aeKPNMKJoliQBtkXw==";
+        };
     in {
         "sTpsNuaX" = _sTpsNuaX;
         "MUJkHNPV" = _MUJkHNPV;
@@ -182,8 +187,9 @@ let
         "VX4TOw5H" = _VX4TOw5H;
         "teliLENn" = _teliLENn;
         "PZZXNeAV" = _PZZXNeAV;
+        "yLRyFJu2" = _yLRyFJu2;
         "forge-1.8.9" = _teliLENn;
-        "ornithe-1.8.9" = _PZZXNeAV;
+        "ornithe-1.8.9" = _yLRyFJu2;
         "pkg-4.0.0" = _sTpsNuaX;
         "pkg-4.1.0" = _MUJkHNPV;
         "pkg-4.1.1" = _k8Exmw64;
@@ -207,7 +213,8 @@ let
         "pkg-7.1.0" = _IsUVhSkG;
         "pkg-7.1.1" = _VX4TOw5H;
         "pkg-7.1.2" = _PZZXNeAV;
-        "default" = _PZZXNeAV;
+        "pkg-7.1.3" = _yLRyFJu2;
+        "default" = _yLRyFJu2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statsify";

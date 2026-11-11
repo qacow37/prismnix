@@ -376,6 +376,16 @@ let
             "file" = "thesilverage-neoforge-26.3-1.4.0.jar";
             "hash" = "sha512-ckKPtWgSx8nWMyzltuUVzs0l1lgb3nDEI3W4EupVYjzwy2I9djpIB17v8tb3r6igbCBml3OwfeKDfG+up1xgqQ==";
         };
+        _YOUtOT0z = {
+            "id" = "YOUtOT0z";
+            "file" = "thesilverage-forge-1.20.1-1.4.0.jar";
+            "hash" = "sha512-1zak1QCaLjzh+smxTHf+spmoD+JpRiBFFXtt50kGMl6HTWh451vo0H3EHm1aqQNhiA1Wr6ZabZe6dM8GlB1QYg==";
+        };
+        _Kaq714XV = {
+            "id" = "Kaq714XV";
+            "file" = "thesilverage-fabric-1.20.1-1.4.0.jar";
+            "hash" = "sha512-hc7q4rXGozZVRgXuGGaaOziZnNjM28aFa/TzgmABPpVCoIAsfnQNpCC0v8PE9vk2fehpLlvuofzzblqSgwR8WA==";
+        };
     in {
         "9qaG6UTy" = _9qaG6UTy;
         "dRANOjz6" = _dRANOjz6;
@@ -452,9 +462,11 @@ let
         "XCZ3cyM8" = _XCZ3cyM8;
         "zSGK2foI" = _zSGK2foI;
         "XJ4HSG0p" = _XJ4HSG0p;
+        "YOUtOT0z" = _YOUtOT0z;
+        "Kaq714XV" = _Kaq714XV;
         "neoforge-1.21" = _i3hrXsgt;
         "neoforge-1.21.1" = _Wvrwu9GP;
-        "neoforge-1.20.1" = _VtTyvBPX;
+        "neoforge-1.20.1" = _YOUtOT0z;
         "neoforge-1.21.2" = _IGU0hOWA;
         "neoforge-1.21.3" = _zBDrbmvb;
         "neoforge-1.21.4" = _plSUahSq;
@@ -470,7 +482,7 @@ let
         "neoforge-26.1" = _zwowdE5d;
         "neoforge-26.1.1" = _zwowdE5d;
         "neoforge-26.3" = _XJ4HSG0p;
-        "forge-1.20.1" = _VtTyvBPX;
+        "forge-1.20.1" = _YOUtOT0z;
         "fabric-1.21" = _EEXkvIAy;
         "fabric-1.21.1" = _EEXkvIAy;
         "fabric-1.21.2" = _j5mdAdAu;
@@ -488,6 +500,7 @@ let
         "fabric-26.1" = _rksN4VVQ;
         "fabric-26.1.1" = _rksN4VVQ;
         "fabric-26.3" = _zSGK2foI;
+        "fabric-1.20.1" = _Kaq714XV;
         "pkg-1.0.1" = _9qaG6UTy;
         "pkg-1.1.0" = _dRANOjz6;
         "pkg-1.2.0" = _ts6x97Sn;
@@ -495,8 +508,8 @@ let
         "pkg-1.3.1" = _LV9WwNd9;
         "pkg-1.3.2" = _pznOYQy8;
         "pkg-1.3.3" = _S5LjiK9d;
-        "pkg-1.4.0" = _XJ4HSG0p;
-        "default" = _XJ4HSG0p;
+        "pkg-1.4.0" = _Kaq714XV;
+        "default" = _Kaq714XV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-silver-age";

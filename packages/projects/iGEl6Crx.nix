@@ -1751,6 +1751,16 @@ let
             "file" = "biolith-fabric-3.9.0-alpha.4.jar";
             "hash" = "sha512-DbZHO/uDOLgJMLYkPB2BFEIiQ3FnzgALTBYAKDH3c9ZnE6oLAHNKfkU4PgT2nhNMrzRyBIyhBGXan7engvB/fg==";
         };
+        _9cO8y7Qp = {
+            "id" = "9cO8y7Qp";
+            "file" = "biolith-fabric-3.9.0-alpha.5.jar";
+            "hash" = "sha512-iqtDj70SrB7u7SjRkO6huvldVWkgZyqsPF/bJs+5TwVe4xQ2zPVtAUHxmxqLjmS3l6rDeley/vWEolzgFZboPw==";
+        };
+        _2R6GfjVq = {
+            "id" = "2R6GfjVq";
+            "file" = "biolith-fabric-3.9.0-alpha.6.jar";
+            "hash" = "sha512-nx0G+CfjOKHNvzvrU0jEQb484cXpU2QD+D45iCy6qTDoSrcswpqUOlTJnQhp81eAoBJ3SlIa8gKMankRdTWCnA==";
+        };
     in {
         "DgbD2J3k" = _DgbD2J3k;
         "zSFydtUE" = _zSFydtUE;
@@ -2102,6 +2112,8 @@ let
         "Gm1N2sYR" = _Gm1N2sYR;
         "pSWoVCVk" = _pSWoVCVk;
         "HQoQJPFx" = _HQoQJPFx;
+        "9cO8y7Qp" = _9cO8y7Qp;
+        "2R6GfjVq" = _2R6GfjVq;
         "fabric-1.19.4" = _gUa9RrR8;
         "fabric-23w14a" = _zSFydtUE;
         "fabric-23w16a" = _zSFydtUE;
@@ -2208,6 +2220,8 @@ let
         "fabric-26.4-snapshot-3" = _HQoQJPFx;
         "fabric-26.4-snapshot-4" = _HQoQJPFx;
         "fabric-26.4-snapshot-5" = _HQoQJPFx;
+        "fabric-26.4-snapshot-7" = _9cO8y7Qp;
+        "fabric-26.4-snapshot-8" = _2R6GfjVq;
         "quilt-1.20-pre2" = _K4N5tZT1;
         "quilt-1.20-pre3" = _K4N5tZT1;
         "quilt-1.20-pre4" = _K4N5tZT1;
@@ -2307,6 +2321,8 @@ let
         "quilt-26.4-snapshot-3" = _HQoQJPFx;
         "quilt-26.4-snapshot-4" = _HQoQJPFx;
         "quilt-26.4-snapshot-5" = _HQoQJPFx;
+        "quilt-26.4-snapshot-7" = _9cO8y7Qp;
+        "quilt-26.4-snapshot-8" = _2R6GfjVq;
         "forge-1.20.4" = _ddWqE2bc;
         "forge-23w51a" = _Jt522J2O;
         "forge-23w51b" = _Jt522J2O;
@@ -2523,7 +2539,9 @@ let
         "pkg-3.9.0-alpha.3" = _sFXaru9d;
         "pkg-3.8.0-beta.2" = _pSWoVCVk;
         "pkg-3.9.0-alpha.4" = _HQoQJPFx;
-        "default" = _HQoQJPFx;
+        "pkg-3.9.0-alpha.5" = _9cO8y7Qp;
+        "pkg-3.9.0-alpha.6" = _2R6GfjVq;
+        "default" = _2R6GfjVq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biolith";

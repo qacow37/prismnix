@@ -141,6 +141,36 @@ let
             "file" = "chineseweapons-neoforge-1.21.1-1.2.1.3.jar";
             "hash" = "sha512-31un4CMVKcYs1CXzOZedjFeX6fpibCrjifxsM0+JHx1di3ShMCeIlx5udXwFnfuKQsloXCOGFOmOMESG7EZ2BQ==";
         };
+        _pxQ0rdmM = {
+            "id" = "pxQ0rdmM";
+            "file" = "Chinese Weapons-fabric-1.20.1-1.2.1.4.jar";
+            "hash" = "sha512-D50Swia4N7xUNqgHfvGBucI/cZoOXJGUrxYPjICIlricZ8iREsalTbZJWyf3IsCCfXjc/OvmauxdxAIN9HiI7g==";
+        };
+        _Is6Nw4U7 = {
+            "id" = "Is6Nw4U7";
+            "file" = "Chinese Weapons-fabric-1.21.1-1.2.1.4.jar";
+            "hash" = "sha512-XjvDyC2R+5gzJcO5hoeUZe3knJqTvFimPXrxnccekYPPxU2z6NHk/7SCdjkzP4eARDNYVjVoVENYq04yiyDpsA==";
+        };
+        _sZ64VgYk = {
+            "id" = "sZ64VgYk";
+            "file" = "Chinese Weapons-fabric-26.1-1.2.1.4.jar";
+            "hash" = "sha512-URVqEMwjbXggqzJpW1RKPqYsy7XVK0kGGioWMt16vZVruqURuyH8rOu2Jew2EZey/yzuVsLwKfYGMQAVvkEOUg==";
+        };
+        _NHkMEY3R = {
+            "id" = "NHkMEY3R";
+            "file" = "Chinese Weapons-forge-1.18.2-1.2.1.4.jar";
+            "hash" = "sha512-rWo6AGnK6B/A5fuODP+rsNtfoMcDly1BRw4yCEwFGgTnDWskR6UQYaXHPS7ptmUk/0J4hDVxEDfpQgxv//BkfA==";
+        };
+        _Vlk7igVp = {
+            "id" = "Vlk7igVp";
+            "file" = "Chinese Weapons-forge-1.19.2-1.2.1.4.jar";
+            "hash" = "sha512-Y/nQbUzu9F/KXgOrKupCTNYxaG+cfM5s+TJ+xt674SIQAIziw/hTExp1Q+ODwfonF1uODIAu4JYZPoTSj//Zbw==";
+        };
+        _Ju9J6CUG = {
+            "id" = "Ju9J6CUG";
+            "file" = "Chinese Weapons-neoforge-26.1-1.2.1.4.jar";
+            "hash" = "sha512-GiY8di3qFCdKA4Onz55uIRJ54gd2JzqEKhfeOU/xm0YRR8rorzaAD5gy/MAmmO9YUQlWDRL8Xy3NDfde+UAwog==";
+        };
     in {
         "9JqPS1Pe" = _9JqPS1Pe;
         "yCfL1XNC" = _yCfL1XNC;
@@ -170,14 +200,32 @@ let
         "7N1Bk0Al" = _7N1Bk0Al;
         "1gRRfw7X" = _1gRRfw7X;
         "M6v8HCIx" = _M6v8HCIx;
+        "pxQ0rdmM" = _pxQ0rdmM;
+        "Is6Nw4U7" = _Is6Nw4U7;
+        "sZ64VgYk" = _sZ64VgYk;
+        "NHkMEY3R" = _NHkMEY3R;
+        "Vlk7igVp" = _Vlk7igVp;
+        "Ju9J6CUG" = _Ju9J6CUG;
         "forge-1.20.1" = _1gRRfw7X;
         "forge-1.20.2" = _7JlMSPpN;
         "forge-1.20.3" = _7JlMSPpN;
         "forge-1.20.4" = _7JlMSPpN;
         "forge-1.20.5" = _7JlMSPpN;
         "forge-1.20.6" = _7JlMSPpN;
+        "forge-1.18.2" = _NHkMEY3R;
+        "forge-1.19.2" = _Vlk7igVp;
+        "forge-1.19.3" = _Vlk7igVp;
+        "forge-1.19.4" = _Vlk7igVp;
         "neoforge-1.21.1" = _M6v8HCIx;
         "neoforge-1.20.1" = _7N1Bk0Al;
+        "neoforge-26.1.2" = _Ju9J6CUG;
+        "neoforge-26.1.1" = _Ju9J6CUG;
+        "neoforge-26.1" = _Ju9J6CUG;
+        "fabric-1.20.1" = _pxQ0rdmM;
+        "fabric-1.21.1" = _Is6Nw4U7;
+        "fabric-26.1.2" = _sZ64VgYk;
+        "fabric-26.1.1" = _sZ64VgYk;
+        "fabric-26.1" = _sZ64VgYk;
         "pkg-1.0.0" = _9JqPS1Pe;
         "pkg-1.0.1" = _yCfL1XNC;
         "pkg-1.0.3" = _8kg0WayQ;
@@ -195,8 +243,8 @@ let
         "pkg-1.2.1.1" = _F6kUFAFd;
         "pkg-1.2.1.2" = _7N1Bk0Al;
         "pkg-1.2.1.3" = _M6v8HCIx;
-        "pkg-1.2.1.4" = _1gRRfw7X;
-        "default" = _M6v8HCIx;
+        "pkg-1.2.1.4" = _Ju9J6CUG;
+        "default" = _Ju9J6CUG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chinese-weapons";

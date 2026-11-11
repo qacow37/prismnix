@@ -136,6 +136,26 @@ let
             "file" = "reanimal-neoforge-0.6.8+26.3.jar";
             "hash" = "sha512-nMI6LMLUOnZfWjbLvsPcqzLo7LjSegFoJ3co3DOKq/bGSzcyINmM5YGqxTi0ouTmKie4kQa/UQFF5AbGbCMsQw==";
         };
+        _cLg6t0kw = {
+            "id" = "cLg6t0kw";
+            "file" = "reanimal-fabric-0.6.9+26.3.jar";
+            "hash" = "sha512-Z3jEL4naw5drDgTdvs/AlnKyMFd0LfDHvbEBVzNHDpGNNTosnGVD+6icN2aXj6XBPbAMMcueuEaYhfoACorVSA==";
+        };
+        _zUNCqCFR = {
+            "id" = "zUNCqCFR";
+            "file" = "reanimal-neoforge-0.6.9+26.3.jar";
+            "hash" = "sha512-iEduI7UkUk0wtc/ggnKn2RYEHrDZ3ovr6Cs01GMaOCznDWW5DignfPOerKvgK/FUT1QylEKmKL5dGCJtjenKHA==";
+        };
+        _aO6YNASv = {
+            "id" = "aO6YNASv";
+            "file" = "reanimal-fabric-0.6.10+26.3.jar";
+            "hash" = "sha512-4rZW69TPjuBoLNtc0Bkd9tjw0ggpUe3EoPcr16l6f+u2x0DtyOUjCUvdiuoB8fE3ClK94r3EqsO3aZNPmRuAbA==";
+        };
+        _ncln6t4P = {
+            "id" = "ncln6t4P";
+            "file" = "reanimal-neoforge-0.6.10+26.3.jar";
+            "hash" = "sha512-OFvIufVbVK/NG+7RcHBVla+cJYFLP2qZfscDCcI5eJUoCnmpqKnspEtiNLOIY+Y2xD9qS1w7Y1+OIF+t8aHihw==";
+        };
     in {
         "dKygY4fF" = _dKygY4fF;
         "5M9w4zgt" = _5M9w4zgt;
@@ -164,9 +184,13 @@ let
         "8lbjbW3H" = _8lbjbW3H;
         "4MPyFGZZ" = _4MPyFGZZ;
         "7Q79GFHm" = _7Q79GFHm;
+        "cLg6t0kw" = _cLg6t0kw;
+        "zUNCqCFR" = _zUNCqCFR;
+        "aO6YNASv" = _aO6YNASv;
+        "ncln6t4P" = _ncln6t4P;
         "neoforge-1.21.1" = _yOEHRyHw;
-        "neoforge-26.3" = _7Q79GFHm;
-        "fabric-26.3" = _4MPyFGZZ;
+        "neoforge-26.3" = _ncln6t4P;
+        "fabric-26.3" = _aO6YNASv;
         "pkg-0.2" = _dKygY4fF;
         "pkg-0.2.1" = _5M9w4zgt;
         "pkg-0.2.2" = _d6KmbWDe;
@@ -185,7 +209,9 @@ let
         "pkg-0.6.6+26.3" = _1dyy9fjs;
         "pkg-0.6.7+26.3" = _8lbjbW3H;
         "pkg-0.6.8+26.3" = _7Q79GFHm;
-        "default" = _7Q79GFHm;
+        "pkg-0.6.9+26.3" = _zUNCqCFR;
+        "pkg-0.6.10+26.3" = _ncln6t4P;
+        "default" = _ncln6t4P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-animal";

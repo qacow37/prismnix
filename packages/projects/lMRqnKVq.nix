@@ -506,6 +506,11 @@ let
             "file" = "PickableVillagers-3.3.4+1.21.1-fabric.jar";
             "hash" = "sha512-h2q19k5bcjQ7ENYVwKgwvaa2sIDcWm/uEmonYTkgSgr0vY6L8VVk4LbuyOmMpG80GpPwaizW6av6GA8e7JxQaw==";
         };
+        _AB5KMxci = {
+            "id" = "AB5KMxci";
+            "file" = "PickableVillagers-fabric-26.1.2.jar";
+            "hash" = "sha512-kiA1tbMVyMj9lDKhQNlk4R8VqUVLahQtQzxTDDqvEfSG9qfqRA4+2az7V48qdEV5KQJyy2tpHHSRAXb3xfNCmQ==";
+        };
     in {
         "FQMrJOdS" = _FQMrJOdS;
         "cKSCGEPv" = _cKSCGEPv;
@@ -608,6 +613,7 @@ let
         "hJQhhkk9" = _hJQhhkk9;
         "hdgs1ypA" = _hdgs1ypA;
         "ScKT8zbm" = _ScKT8zbm;
+        "AB5KMxci" = _AB5KMxci;
         "fabric-1.16.5" = _Oy3bUap3;
         "fabric-1.17.1" = _C5MmUNDM;
         "fabric-1.18.2" = _YgfTeMqf;
@@ -627,6 +633,7 @@ let
         "fabric-1.21.5" = _epyktkJx;
         "fabric-1.21.6" = _x7FtSFo1;
         "fabric-1.21.7" = _x7FtSFo1;
+        "fabric-26.1.2" = _AB5KMxci;
         "pkg-1.0.5+1.16.5" = _FQMrJOdS;
         "pkg-1.1.4+1.17.1" = _cKSCGEPv;
         "pkg-1.2.4+1.18.2" = _4WiB5Rs4;
@@ -678,7 +685,8 @@ let
         "pkg-3.3.1" = _hJQhhkk9;
         "pkg-3.3.3" = _hdgs1ypA;
         "pkg-3.3.4" = _ScKT8zbm;
-        "default" = _ScKT8zbm;
+        "pkg-26.1.2" = _AB5KMxci;
+        "default" = _AB5KMxci;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickable-villagers";

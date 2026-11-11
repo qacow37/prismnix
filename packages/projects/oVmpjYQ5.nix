@@ -511,6 +511,11 @@ let
             "file" = "fantasy-armor-1.3.2-1.12.2-forge.jar";
             "hash" = "sha512-MSmY6B21ZyUVnsqZ+ye+r9gvGxCZa/VZRUcYPIXXq4/Uk+Tr4fqNosCtwuZ6GsnotPjp5SUmmLPppO4EUYeh+g==";
         };
+        _di5F0W6X = {
+            "id" = "di5F0W6X";
+            "file" = "fantasy-armor-1.3.3-1.12.2-forge.jar";
+            "hash" = "sha512-TB7W9+80Ry1wl/xWdInv1UG1U3Ux6ZUzWHBCAaXefF+D1F4l/7xmHcNzEb4iGkLgPVLPLcZBSsXaprnSiYbxnA==";
+        };
     in {
         "iLY2TXEg" = _iLY2TXEg;
         "EMnskPvl" = _EMnskPvl;
@@ -614,6 +619,7 @@ let
         "Nc9D9xfe" = _Nc9D9xfe;
         "cZUmqosB" = _cZUmqosB;
         "TIKxyHpZ" = _TIKxyHpZ;
+        "di5F0W6X" = _di5F0W6X;
         "forge-1.20.1" = _e2QSYfvf;
         "forge-1.20.2" = _HAhKc9yf;
         "forge-1.20.3" = _HAhKc9yf;
@@ -625,7 +631,7 @@ let
         "forge-26.1.2" = _3NTRqesI;
         "forge-26.2" = _J6jr2ilo;
         "forge-26.3" = _SvupfCep;
-        "forge-1.12.2" = _TIKxyHpZ;
+        "forge-1.12.2" = _di5F0W6X;
         "forge-1.15.2" = _jmtpOyXQ;
         "forge-1.16.5" = _70gWGKAd;
         "forge-1.18.2" = _z08sZcpJ;
@@ -702,7 +708,8 @@ let
         "pkg-1.3.1-1.21.10" = _Nc9D9xfe;
         "pkg-1.3.1-1.21.11" = _cZUmqosB;
         "pkg-1.3.2-1.12.2" = _TIKxyHpZ;
-        "default" = _TIKxyHpZ;
+        "pkg-1.3.3-1.12.2" = _di5F0W6X;
+        "default" = _di5F0W6X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasy_armor";

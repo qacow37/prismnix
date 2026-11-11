@@ -286,6 +286,16 @@ let
             "file" = "tooltrims-2.0.12+tt3.0.x+mc26.1.2.jar";
             "hash" = "sha512-AW0eIyyPCd0np/OymVTZGAMBCX7Ein530cRDi0bvYmZGspsYsYpPY9wKzayyqcXTB3wrQ9aE/6FIX7chJrIU7g==";
         };
+        _KTr07lU8 = {
+            "id" = "KTr07lU8";
+            "file" = "tooltrims-2.0.13+tt3.0.x+mc26.3.jar";
+            "hash" = "sha512-6tQr3D6vv/+gQ+gbwaQz30lZ1tKEaIw6mAJjkhahkoZ4HXPzeQTsT4hxB/deyCaLHIPTmdBddtv2wHZABI1YtQ==";
+        };
+        _ngC2i8ma = {
+            "id" = "ngC2i8ma";
+            "file" = "tooltrims-2.0.13+tt3.0.x+mc26.1.2.jar";
+            "hash" = "sha512-daWBYnezXbWokwKRX0uauXT6+HKSeW3Brdg485NtpilSBptVv17C39L+5qfHNaR2D40Egev8R/hpF94hXEP8nA==";
+        };
     in {
         "WRtppsyl" = _WRtppsyl;
         "dw2LtBRK" = _dw2LtBRK;
@@ -344,6 +354,8 @@ let
         "PQ271azb" = _PQ271azb;
         "Xl33mYn4" = _Xl33mYn4;
         "m2tFS10G" = _m2tFS10G;
+        "KTr07lU8" = _KTr07lU8;
+        "ngC2i8ma" = _ngC2i8ma;
         "fabric-1.20" = _scwcAaKL;
         "fabric-1.20.1" = _scwcAaKL;
         "fabric-1.20.2" = _dw2LtBRK;
@@ -372,14 +384,14 @@ let
         "fabric-26.1-snapshot-7" = _PA08wIEz;
         "fabric-26.1-snapshot-8" = _PA08wIEz;
         "fabric-26.1-snapshot-9" = _PA08wIEz;
-        "fabric-26.1" = _m2tFS10G;
-        "fabric-26.1.1" = _m2tFS10G;
-        "fabric-26.1.2" = _m2tFS10G;
+        "fabric-26.1" = _ngC2i8ma;
+        "fabric-26.1.1" = _ngC2i8ma;
+        "fabric-26.1.2" = _ngC2i8ma;
         "fabric-26.2-rc-1" = _8XWSNWql;
         "fabric-26.2-rc-2" = _8XWSNWql;
         "fabric-26.2" = _Hbyk0zuB;
         "fabric-26.3-pre-3" = _E4vrX0uJ;
-        "fabric-26.3" = _Xl33mYn4;
+        "fabric-26.3" = _KTr07lU8;
         "quilt-1.20" = _scwcAaKL;
         "quilt-1.20.1" = _scwcAaKL;
         "quilt-1.20.2" = _dw2LtBRK;
@@ -393,9 +405,9 @@ let
         "quilt-1.21.3" = _3uCApgA9;
         "quilt-1.21.4" = _I3yUbLmF;
         "quilt-1.21.5" = _2mO37ElS;
-        "neoforge-26.1" = _m2tFS10G;
-        "neoforge-26.1.1" = _m2tFS10G;
-        "neoforge-26.1.2" = _m2tFS10G;
+        "neoforge-26.1" = _ngC2i8ma;
+        "neoforge-26.1.1" = _ngC2i8ma;
+        "neoforge-26.1.2" = _ngC2i8ma;
         "pkg-1.0.0+mc1.20.1" = _WRtppsyl;
         "pkg-1.0.0+mc1.20.2" = _dw2LtBRK;
         "pkg-1.0.0+mc1.20.3" = _iYQEalwv;
@@ -453,7 +465,9 @@ let
         "pkg-2.0.10-beta1+tt3.0.x+mc26.3" = _PQ271azb;
         "pkg-2.0.11-beta2+tt3.0.x+mc26.3" = _Xl33mYn4;
         "pkg-2.0.12+tt3.0.x+mc26.1.2" = _m2tFS10G;
-        "default" = _m2tFS10G;
+        "pkg-2.0.13+tt3.0.x+mc26.3" = _KTr07lU8;
+        "pkg-2.0.13+tt3.0.x+mc26.1.2" = _ngC2i8ma;
+        "default" = _ngC2i8ma;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-trims-mod";

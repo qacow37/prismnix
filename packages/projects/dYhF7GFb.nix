@@ -91,6 +91,16 @@ let
             "file" = "digimodcobblemon-1.8.3+1.21.1[NeoForge].jar";
             "hash" = "sha512-iHGmMJqGA+JqKLLUOPqKCazP+OBgkTVLZXjzw9xALPDGCAI+bK3iGxcKZEslSjiuzBLulWTHG2xS84oXzthTTQ==";
         };
+        _Tvfme6eb = {
+            "id" = "Tvfme6eb";
+            "file" = "digimodcobblemon-1.9.0-1.21.1-Fabric.jar";
+            "hash" = "sha512-Uzexw8ZnllPujNKdWEldGFKrOwklv+149j5yZJ6/pDGx4xyVG10NMZiCUefIxz7YJ1t1+97EbMcbZjT6SpDcBw==";
+        };
+        _WC0SCe9b = {
+            "id" = "WC0SCe9b";
+            "file" = "digimodcobblemon-1.9.0-1.21.1-NeoForge.jar";
+            "hash" = "sha512-fK8kUfllVEmd/0Ty13jfgMCNrnraSvhFLtohMhccGFDYlpJeZR63UL1HN/29Yve13Alf6En+IvjNTfX6dySscg==";
+        };
     in {
         "yS4kPWtk" = _yS4kPWtk;
         "nhMlPIR5" = _nhMlPIR5;
@@ -110,10 +120,12 @@ let
         "uBl1noOU" = _uBl1noOU;
         "Fkg6V6zN" = _Fkg6V6zN;
         "VuK6dY3t" = _VuK6dY3t;
+        "Tvfme6eb" = _Tvfme6eb;
+        "WC0SCe9b" = _WC0SCe9b;
         "forge-1.20.1" = _nhMlPIR5;
         "neoforge-1.20.1" = _nhMlPIR5;
-        "neoforge-1.21.1" = _VuK6dY3t;
-        "fabric-1.21.1" = _Fkg6V6zN;
+        "neoforge-1.21.1" = _WC0SCe9b;
+        "fabric-1.21.1" = _Tvfme6eb;
         "pkg-1.1+1.20.1" = _yS4kPWtk;
         "pkg-1.2+1.20.1" = _nhMlPIR5;
         "pkg-1.3+1.21.1" = _rjzX3fFr;
@@ -124,7 +136,8 @@ let
         "pkg-1.8.1" = _RPBR72oA;
         "pkg-1.8.2" = _uBl1noOU;
         "pkg-1.8.3" = _VuK6dY3t;
-        "default" = _VuK6dY3t;
+        "pkg-1.9.0" = _WC0SCe9b;
+        "default" = _WC0SCe9b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "digimod-cobblemon";

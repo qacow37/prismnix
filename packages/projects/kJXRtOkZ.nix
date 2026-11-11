@@ -66,6 +66,16 @@ let
             "file" = "ae2utility-1.8.0.jar";
             "hash" = "sha512-pCtagImxxrGtTOaAHu8ZSJhMgYue+foXyTGqS16xpCz9Z6TlD/9RKZ1F1DrTFkXmn6N+nx3p5cfau906IkS7Gg==";
         };
+        _k2AK2ibu = {
+            "id" = "k2AK2ibu";
+            "file" = "ae2utility-1.20.1.3.jar";
+            "hash" = "sha512-i9cP1GTrOeRd9yvo3Y4WGBsGz/yuKfnINZ+vtnPWgUGKIT6cfNS5EywOZ9v/fKzM4B0pyL12dBNxsoW+jXq2mA==";
+        };
+        _Ck0YB8pj = {
+            "id" = "Ck0YB8pj";
+            "file" = "ae2utility-1.8.1.jar";
+            "hash" = "sha512-1lPZCjVor1rrVsKWDmiZawzzWQRgLcCrTHxCARxXhcDnzu+vQSD735Qqnmh7gjJXEi7OVyl88/XT/MaX+iSqxg==";
+        };
     in {
         "vdL0Rd8R" = _vdL0Rd8R;
         "E0dgy1Ch" = _E0dgy1Ch;
@@ -80,8 +90,10 @@ let
         "tnuuYbOw" = _tnuuYbOw;
         "V4fJGV6M" = _V4fJGV6M;
         "cipTSARa" = _cipTSARa;
-        "neoforge-1.21.1" = _cipTSARa;
-        "forge-1.20.1" = _S4rlvXU2;
+        "k2AK2ibu" = _k2AK2ibu;
+        "Ck0YB8pj" = _Ck0YB8pj;
+        "neoforge-1.21.1" = _Ck0YB8pj;
+        "forge-1.20.1" = _k2AK2ibu;
         "pkg-1.6.0" = _vdL0Rd8R;
         "pkg-1.7.0" = _E0dgy1Ch;
         "pkg-1.7.1" = _Vt1n0P2q;
@@ -95,7 +107,9 @@ let
         "pkg-1.7.8" = _tnuuYbOw;
         "pkg-1.7.9" = _V4fJGV6M;
         "pkg-1.8.0" = _cipTSARa;
-        "default" = _cipTSARa;
+        "pkg-1.20.1.3" = _k2AK2ibu;
+        "pkg-1.8.1" = _Ck0YB8pj;
+        "default" = _Ck0YB8pj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2utility";

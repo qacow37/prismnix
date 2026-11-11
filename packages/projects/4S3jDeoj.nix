@@ -291,6 +291,11 @@ let
             "file" = "McDonald's Mod v1.4.2 NeoForge (1.21-1.21.1).jar";
             "hash" = "sha512-P3k9pGpQp/ryq1C2ImKoo6TDyZFTOa5O+hBpRAAJ+6NApbkJ24cpR/0pESVUBsuXFqqkNUZmC2vL9OLrJDQvmg==";
         };
+        _rlqCDyYs = {
+            "id" = "rlqCDyYs";
+            "file" = "McDonald's Mod v1.4.2.1 (1.16.5).jar";
+            "hash" = "sha512-Xb3I7s1DO8ESf5QCWN5czfL26DEAdtp7oIwQ+SmzMTwO539XBxEXxBbgKM1mCdaP1YM9qaTUkaK6V8D6mePCrw==";
+        };
     in {
         "WJhg0oax" = _WJhg0oax;
         "IBshguVO" = _IBshguVO;
@@ -350,7 +355,8 @@ let
         "lQBpcYw6" = _lQBpcYw6;
         "ZyRyIWee" = _ZyRyIWee;
         "qQqh3hmR" = _qQqh3hmR;
-        "forge-1.16.5" = _1oRg3Rgr;
+        "rlqCDyYs" = _rlqCDyYs;
+        "forge-1.16.5" = _rlqCDyYs;
         "forge-1.18.2" = _A0Ksq2dn;
         "forge-1.19.2" = _VZzpPM5l;
         "forge-1.20" = _joSw0h1q;
@@ -370,7 +376,8 @@ let
         "pkg-1.4.0" = _aXsbcvdZ;
         "pkg-1.4.1" = _FRDDbcmr;
         "pkg-1.4.2" = _qQqh3hmR;
-        "default" = _qQqh3hmR;
+        "pkg-1.4.2.1" = _rlqCDyYs;
+        "default" = _rlqCDyYs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcdonalds-mod-by-zappyq";

@@ -51,6 +51,11 @@ let
             "file" = "radiocraft-neoforge-1.21.1-1.11.0.jar";
             "hash" = "sha512-x0KtBgW+4ek4XXhdl76plnlIXkwb26rI1L3CkWS+22DZqAdUN2m73zLvyBIA718YeHEWPPGYzFxS5adyBGcY8w==";
         };
+        _lywZsGZT = {
+            "id" = "lywZsGZT";
+            "file" = "radiocraft-neoforge-1.21.1-1.12.0.jar";
+            "hash" = "sha512-U4CXlocQwoWJ6NwBaaIeOW9Sh6lD4aEhKpSPC6P6qYqxCz6bX8hRslnHSbt6Gq9Y18ZIXbszk9tPk56Z9W3iBQ==";
+        };
     in {
         "NWqqhrAG" = _NWqqhrAG;
         "U2Mk46ve" = _U2Mk46ve;
@@ -62,7 +67,8 @@ let
         "kY3Iqd7e" = _kY3Iqd7e;
         "64PbNCcp" = _64PbNCcp;
         "TgJq0Dfo" = _TgJq0Dfo;
-        "neoforge-1.21.1" = _TgJq0Dfo;
+        "lywZsGZT" = _lywZsGZT;
+        "neoforge-1.21.1" = _lywZsGZT;
         "neoforge-1.21.2" = _4FVoG5Wv;
         "neoforge-1.21.3" = _4FVoG5Wv;
         "neoforge-1.21.4" = _4FVoG5Wv;
@@ -88,7 +94,8 @@ let
         "pkg-1.9.2" = _kY3Iqd7e;
         "pkg-1.10.0" = _64PbNCcp;
         "pkg-1.11.0" = _TgJq0Dfo;
-        "default" = _TgJq0Dfo;
+        "pkg-1.12.0" = _lywZsGZT;
+        "default" = _lywZsGZT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "radiocraft";

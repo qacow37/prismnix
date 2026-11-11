@@ -231,6 +231,11 @@ let
             "file" = "small_swords-2.7.zip";
             "hash" = "sha512-GS+PM+vLkBET5XCygMxehP7kBGcGwmvBOXKBnZ6wDGXgcHXUuqn6gN/9zn1YRglPzT13918IoKhWiIbfb1T5WQ==";
         };
+        _1XsvM7gM = {
+            "id" = "1XsvM7gM";
+            "file" = "small_swords-2.7.1.zip";
+            "hash" = "sha512-Cd+d8Uj022Swa3ElBQUUcNQfUA8MhY71noMNO3gXU5vzbJxoX2o/CuEAS+Pv9t5nZ5EahB+jYLJLh7UMalEi7g==";
+        };
     in {
         "k5d3JJzc" = _k5d3JJzc;
         "YZysJsan" = _YZysJsan;
@@ -278,6 +283,7 @@ let
         "Hhzlq9aP" = _Hhzlq9aP;
         "Z69dtkeX" = _Z69dtkeX;
         "2xlyKihs" = _2xlyKihs;
+        "1XsvM7gM" = _1XsvM7gM;
         "minecraft-1.20" = _tRu2j9F5;
         "minecraft-1.20.1" = _tRu2j9F5;
         "minecraft-1.20.2" = _tRu2j9F5;
@@ -290,7 +296,7 @@ let
         "minecraft-1.21.2" = _nHeFxJ4N;
         "minecraft-1.21.3" = _nHeFxJ4N;
         "minecraft-1.21.4" = _2xlyKihs;
-        "minecraft-1.21.5" = _2xlyKihs;
+        "minecraft-1.21.5" = _1XsvM7gM;
         "minecraft-1.16.5" = _6xzqrRgz;
         "minecraft-1.17" = _qzCNauw6;
         "minecraft-1.17.1" = _qzCNauw6;
@@ -372,12 +378,12 @@ let
         "minecraft-1.15.2" = _RMaof8Hp;
         "minecraft-1.16" = _wfoSgMjM;
         "minecraft-1.16.1" = _wfoSgMjM;
-        "minecraft-1.21.6" = _2xlyKihs;
+        "minecraft-1.21.6" = _1XsvM7gM;
         "minecraft-1.21.7-rc1" = _U2bCOCRh;
         "minecraft-1.21.7-rc2" = _U2bCOCRh;
-        "minecraft-1.21.7" = _2xlyKihs;
+        "minecraft-1.21.7" = _1XsvM7gM;
         "minecraft-1.21.8-rc1" = _U2bCOCRh;
-        "minecraft-1.21.8" = _2xlyKihs;
+        "minecraft-1.21.8" = _1XsvM7gM;
         "minecraft-25w33a" = _pFpvjx6Y;
         "minecraft-25w34a" = _pFpvjx6Y;
         "minecraft-25w34b" = _pFpvjx6Y;
@@ -386,9 +392,9 @@ let
         "minecraft-25w36b" = _pFpvjx6Y;
         "minecraft-25w37a" = _pFpvjx6Y;
         "minecraft-1.21.9-pre1" = _pFpvjx6Y;
-        "minecraft-1.21.9" = _2xlyKihs;
-        "minecraft-1.21.10" = _2xlyKihs;
-        "minecraft-1.21.11" = _2xlyKihs;
+        "minecraft-1.21.9" = _1XsvM7gM;
+        "minecraft-1.21.10" = _1XsvM7gM;
+        "minecraft-1.21.11" = _1XsvM7gM;
         "minecraft-26.1-snapshot-1" = _CwYMnLGM;
         "minecraft-26.1-snapshot-2" = _CwYMnLGM;
         "minecraft-26.1-snapshot-3" = _CwYMnLGM;
@@ -406,9 +412,9 @@ let
         "minecraft-26.1-rc-1" = _CwYMnLGM;
         "minecraft-26.1-rc-2" = _CwYMnLGM;
         "minecraft-26.1-rc-3" = _CwYMnLGM;
-        "minecraft-26.1" = _2xlyKihs;
+        "minecraft-26.1" = _1XsvM7gM;
         "minecraft-26.1.1-rc-1" = _CwYMnLGM;
-        "minecraft-26.1.1" = _2xlyKihs;
+        "minecraft-26.1.1" = _1XsvM7gM;
         "minecraft-23w31a" = _tRu2j9F5;
         "minecraft-23w32a" = _tRu2j9F5;
         "minecraft-23w33a" = _tRu2j9F5;
@@ -435,7 +441,7 @@ let
         "minecraft-1.20.5-pre1" = _tRu2j9F5;
         "minecraft-1.20.5-pre2" = _tRu2j9F5;
         "minecraft-1.20.5-pre3" = _tRu2j9F5;
-        "minecraft-26.1.2" = _2xlyKihs;
+        "minecraft-26.1.2" = _1XsvM7gM;
         "minecraft-24w44a" = _nHeFxJ4N;
         "minecraft-24w45a" = _nHeFxJ4N;
         "minecraft-24w46a" = _nHeFxJ4N;
@@ -447,7 +453,7 @@ let
         "minecraft-26.2-snapshot-7" = _nGsMSEZk;
         "minecraft-26.2-rc-1" = _Hhzlq9aP;
         "minecraft-26.2-rc-2" = _Hhzlq9aP;
-        "minecraft-26.2" = _2xlyKihs;
+        "minecraft-26.2" = _1XsvM7gM;
         "minecraft-26.3-snapshot-1" = _2xlyKihs;
         "minecraft-26.3-snapshot-2" = _2xlyKihs;
         "minecraft-26.3-snapshot-3" = _2xlyKihs;
@@ -459,6 +465,7 @@ let
         "minecraft-26.3-snapshot-9" = _2xlyKihs;
         "minecraft-26.3-snapshot-10" = _2xlyKihs;
         "minecraft-26.3-pre-1" = _2xlyKihs;
+        "minecraft-26.3" = _1XsvM7gM;
         "pkg-1.0.0" = _k5d3JJzc;
         "pkg-1.1.0" = _YZysJsan;
         "pkg-1.1.1" = _3Q3S3gxE;
@@ -489,7 +496,8 @@ let
         "pkg-2.6.3-26.2" = _Hhzlq9aP;
         "pkg-2.6.4-26.2" = _Z69dtkeX;
         "pkg-2.7-26.2" = _2xlyKihs;
-        "default" = _2xlyKihs;
+        "pkg-2.7.1-26.3" = _1XsvM7gM;
+        "default" = _1XsvM7gM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-swords-";

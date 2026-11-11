@@ -91,6 +91,16 @@ let
             "file" = "pokemon-fly-transitions-neoforge-1.9.0.jar";
             "hash" = "sha512-QRzW4V47PXOKpMngcO47O8t19AAz/iWNPO3CLeR6o8Esr/RHecEW3g9e7Yche+RhWcVupSgYERZ+mcdiL0x9yA==";
         };
+        _CvWhu9Qr = {
+            "id" = "CvWhu9Qr";
+            "file" = "pokemon-fly-transitions-fabric-2.0.0.jar";
+            "hash" = "sha512-W8PVsOjQcjrH8aQVmU6au6EUJwxxfiOWgZv1f/E7RokuA8PA4BxzvON4ZP13bsySBeUgKFirCgJs+IMZ/CiYdg==";
+        };
+        _BqK9JApz = {
+            "id" = "BqK9JApz";
+            "file" = "pokemon-fly-transitions-neoforge-2.0.0.jar";
+            "hash" = "sha512-SaocFQI1kwceZxglQCJ9LSOWj7DNsKNoG4Zj73TLO0IW+isvnHzGWZuPm8Ems/Lf9cG1bBSsbfvVQVZSeV4ZnA==";
+        };
     in {
         "PSueDpTI" = _PSueDpTI;
         "xY34injI" = _xY34injI;
@@ -110,8 +120,10 @@ let
         "DPHW9try" = _DPHW9try;
         "iCys1vTh" = _iCys1vTh;
         "zES8oOIy" = _zES8oOIy;
-        "neoforge-1.21.1" = _zES8oOIy;
-        "fabric-1.21.1" = _iCys1vTh;
+        "CvWhu9Qr" = _CvWhu9Qr;
+        "BqK9JApz" = _BqK9JApz;
+        "neoforge-1.21.1" = _BqK9JApz;
+        "fabric-1.21.1" = _CvWhu9Qr;
         "pkg-1.3" = _xY34injI;
         "pkg-1.5" = _VaVDMli8;
         "pkg-1.5.1" = _FxeTro1a;
@@ -121,7 +133,8 @@ let
         "pkg-1.7.0" = _KwOpZy3F;
         "pkg-1.8.0" = _DPHW9try;
         "pkg-1.9.0" = _zES8oOIy;
-        "default" = _zES8oOIy;
+        "pkg-2.0.0" = _BqK9JApz;
+        "default" = _BqK9JApz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokemon-fly-transitions";

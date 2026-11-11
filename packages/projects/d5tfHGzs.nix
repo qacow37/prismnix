@@ -181,6 +181,11 @@ let
             "file" = "lucidity-2.0.2+1.21.11.jar";
             "hash" = "sha512-tWyOMjSxakrLhq1se5tWeUyvLScpLEQfi9DDuDPqP5YGpf7alrqbuvUh/VbOfZDrCUV1FVymiKY7MAFQCVHfYw==";
         };
+        _KwlWmSsO = {
+            "id" = "KwlWmSsO";
+            "file" = "lucidity-3.0.0+26.3.jar";
+            "hash" = "sha512-tTgvqkTNKe+jEEI8ncAcSIngdKFQL5sqB/xFOds5lEHjR5+uLgdOhjLBjaegNK6b1fMzCRPliDk2dhuAeNyR5Q==";
+        };
     in {
         "luH5d65r" = _luH5d65r;
         "jK2oDChh" = _jK2oDChh;
@@ -218,6 +223,7 @@ let
         "Tb7PUm6h" = _Tb7PUm6h;
         "l7wXmeZo" = _l7wXmeZo;
         "F9yOwYTx" = _F9yOwYTx;
+        "KwlWmSsO" = _KwlWmSsO;
         "fabric-1.21" = _kr9ihozv;
         "fabric-1.21.1" = _kr9ihozv;
         "fabric-1.21.3" = _4qg4kOXm;
@@ -230,6 +236,7 @@ let
         "fabric-1.21.9" = _l7wXmeZo;
         "fabric-1.21.10" = _aKZKCzQg;
         "fabric-1.21.11" = _F9yOwYTx;
+        "fabric-26.3" = _KwlWmSsO;
         "pkg-1.5.0-1.21-fabric0.16.0" = _luH5d65r;
         "pkg-1.5.2-1.21-fabric0.16.0" = _jK2oDChh;
         "pkg-1.6.3-1.21-fabric0.16.0" = _Qk5lSJOO;
@@ -253,7 +260,8 @@ let
         "pkg-2.0.2+1.21.5" = _azka6OcY;
         "pkg-2.0.2+1.21.6" = _Tb7PUm6h;
         "pkg-2.0.2+1.21.9" = _l7wXmeZo;
-        "default" = _F9yOwYTx;
+        "pkg-3.0.0+26.3" = _KwlWmSsO;
+        "default" = _KwlWmSsO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lucidity-mod";

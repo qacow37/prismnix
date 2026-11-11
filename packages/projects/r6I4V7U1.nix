@@ -251,6 +251,36 @@ let
             "file" = "AnimatedHearts-2.2.0-NeoForge.jar";
             "hash" = "sha512-I4MPHKesH0P2MCIxFXGvjN3XXunJm1rCk2rGOdHn7ubOTq/kio7+kbBpnkgpbKMMn4xEaM/1fPMDdTXOYEvEuA==";
         };
+        _IDm3yjFb = {
+            "id" = "IDm3yjFb";
+            "file" = "AnimatedHearts-Fabric-2.3.0.jar";
+            "hash" = "sha512-ngprpNMs8SuFZquhL/XCvOPA9k/o16+2WixVECU12+ctNMG9npBXFEN5SQn09SvSenuLzJMhbwFwvZQJ6p3gtw==";
+        };
+        _HLEWnrGD = {
+            "id" = "HLEWnrGD";
+            "file" = "AnimatedHearts-Fabric-2.3.0.jar";
+            "hash" = "sha512-8NLMKlIzmK7qNAMlajBaaxb5pfzIJepYTpAaErndJn9XMvOHVZJj9XFrnjI/wizZDyoMW6mg5Xdmper0P5DZ3Q==";
+        };
+        _ujopq6qj = {
+            "id" = "ujopq6qj";
+            "file" = "AnimatedHearts-Fabric-2.3.0.jar";
+            "hash" = "sha512-I/wNDAL7teMmzOiXml1GuZsBjiIcGIF4Ik8m/AHYHuczGUIxUkbE5pCWHUu3cEm3YnJLoLM2f4aV2qNPZHVeFQ==";
+        };
+        _lh5BOv8d = {
+            "id" = "lh5BOv8d";
+            "file" = "AnimatedHearts-NeoForge-2.3.0.jar";
+            "hash" = "sha512-pbR8msJl7tROoRjrPm5VlyevBhll2ZaucvRLRUgzC7oqWpfKl3+VxHaDImRe0ClbRQMWYlhFtlBHLwA97tO5nA==";
+        };
+        _XBb6P6iu = {
+            "id" = "XBb6P6iu";
+            "file" = "AnimatedHearts-forge-2.3.0.jar";
+            "hash" = "sha512-XT9ogtrvJUleRzHi6n6mHLncpDPhC86U0oYZQOAtf7g6oRskvzKbUOFrNKB1ASasgCQa6XmWtw44fEe+OHEIzA==";
+        };
+        _MHw7vgyo = {
+            "id" = "MHw7vgyo";
+            "file" = "AnimatedHearts-Fabric-2.3.0.jar";
+            "hash" = "sha512-UPJ1waq3+hgTV5N64DzIIj/yx406uOT7TRAJxvW/hht2ytVMd/JMlr3JXXSmbRNEbhqr97ELAZbBxFiWf8rRgQ==";
+        };
     in {
         "Jdlp3EjY" = _Jdlp3EjY;
         "ukSkmHTj" = _ukSkmHTj;
@@ -302,18 +332,24 @@ let
         "bDZDmtlU" = _bDZDmtlU;
         "WLRcvedt" = _WLRcvedt;
         "oxvSB4Fr" = _oxvSB4Fr;
-        "forge-1.20.1" = _aj7chpeB;
-        "neoforge-1.21.1" = _oxvSB4Fr;
+        "IDm3yjFb" = _IDm3yjFb;
+        "HLEWnrGD" = _HLEWnrGD;
+        "ujopq6qj" = _ujopq6qj;
+        "lh5BOv8d" = _lh5BOv8d;
+        "XBb6P6iu" = _XBb6P6iu;
+        "MHw7vgyo" = _MHw7vgyo;
+        "forge-1.20.1" = _XBb6P6iu;
+        "neoforge-1.21.1" = _lh5BOv8d;
         "neoforge-26.2" = _fobB4tXi;
         "neoforge-26.1.2" = _8W2LIfYz;
-        "fabric-1.20.1" = _bDZDmtlU;
-        "fabric-26.2" = _WLRcvedt;
-        "fabric-26.1.2" = _WLRcvedt;
-        "fabric-26.1" = _WLRcvedt;
-        "fabric-26.1.1" = _WLRcvedt;
-        "fabric-26.3" = _WLRcvedt;
-        "fabric-1.21.11" = _MZBHLWii;
-        "fabric-1.21.1" = _zYZwHKMh;
+        "fabric-1.20.1" = _HLEWnrGD;
+        "fabric-26.2" = _MHw7vgyo;
+        "fabric-26.1.2" = _MHw7vgyo;
+        "fabric-26.1" = _MHw7vgyo;
+        "fabric-26.1.1" = _MHw7vgyo;
+        "fabric-26.3" = _MHw7vgyo;
+        "fabric-1.21.11" = _IDm3yjFb;
+        "fabric-1.21.1" = _ujopq6qj;
         "pkg-1.0.0" = _Jdlp3EjY;
         "pkg-1.0.7" = _ukSkmHTj;
         "pkg-1.2.0" = _ItJxGPCj;
@@ -330,7 +366,8 @@ let
         "pkg-2.0.0" = _boWi3vZq;
         "pkg-2.1.0" = _AUuoCtCq;
         "pkg-2.2.0" = _oxvSB4Fr;
-        "default" = _oxvSB4Fr;
+        "pkg-2.3.0" = _MHw7vgyo;
+        "default" = _MHw7vgyo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-heart";

@@ -101,6 +101,21 @@ let
             "file" = "ctm-26.1.2.14.jar";
             "hash" = "sha512-YMQbuMwF/YlAC0MZRuCSmZTVIdBJ9UQbn02YIW2GQ3jgrMdiqacTY6aj8z8bJZFMxkkuPOgYFz/d0i8v2mcqlg==";
         };
+        _DYwgO7HL = {
+            "id" = "DYwgO7HL";
+            "file" = "ctm-1.21.1.2.jar";
+            "hash" = "sha512-66hCCMebjagVTZFzrKhIn/mK7JGtNMhGTZmYV9RDTrUSnj07RKH5Y07PGCKq+BxZt5By/rYVMqNVUa7bxUoI7w==";
+        };
+        _ps40Vvj5 = {
+            "id" = "ps40Vvj5";
+            "file" = "ctm-26.2.0.3.jar";
+            "hash" = "sha512-Yvq2Gu0Qlz1nDqjUAInv3Ft86wu/L77ynzSmcj7sy1VQUrzimhkfxGbwkGpZnwCplJNl4JDKum3mOwHZUhZ01A==";
+        };
+        _qjPw6sE3 = {
+            "id" = "qjPw6sE3";
+            "file" = "ctm-26.3.0.2.jar";
+            "hash" = "sha512-C6r0AchOH85HCkKVxhS1jXDp1y2sM2tUK18VtVJjw057F15xc98PGSOWFTQVe+ZJsY30/vBwqxCidSRXDp5MrA==";
+        };
     in {
         "CNtnoib6" = _CNtnoib6;
         "JdCYaAAx" = _JdCYaAAx;
@@ -122,9 +137,13 @@ let
         "ZSN5QU3q" = _ZSN5QU3q;
         "OsKHWeVv" = _OsKHWeVv;
         "2CVEHyMD" = _2CVEHyMD;
+        "DYwgO7HL" = _DYwgO7HL;
+        "ps40Vvj5" = _ps40Vvj5;
+        "qjPw6sE3" = _qjPw6sE3;
         "neoforge-26.1.2" = _2CVEHyMD;
-        "neoforge-26.2" = _iV7NVbNn;
-        "neoforge-1.21.1" = _ZSN5QU3q;
+        "neoforge-26.2" = _ps40Vvj5;
+        "neoforge-1.21.1" = _DYwgO7HL;
+        "neoforge-26.3" = _qjPw6sE3;
         "pkg-1.0.0" = _CNtnoib6;
         "pkg-1.0.1" = _JdCYaAAx;
         "pkg-26.1.2.2" = _zPVMjX5c;
@@ -144,7 +163,10 @@ let
         "pkg-1.21.1.1" = _ZSN5QU3q;
         "pkg-26.1.2.13" = _OsKHWeVv;
         "pkg-26.1.2.14" = _2CVEHyMD;
-        "default" = _2CVEHyMD;
+        "pkg-1.21.1.2" = _DYwgO7HL;
+        "pkg-26.2.0.3" = _ps40Vvj5;
+        "pkg-26.3.0.2" = _qjPw6sE3;
+        "default" = _qjPw6sE3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ctmlib";

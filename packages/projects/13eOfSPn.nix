@@ -66,6 +66,21 @@ let
             "file" = "Steam_Rails-1.7.3.2+fly-mc26.2.jar";
             "hash" = "sha512-mjdJUBbh6tbR6KQHayflOiYAKm+I6b13LJ83DLQG+/dWIvzUfXh1aydg+Zb7oPNAjHrA/tojcZREwj7k3mSGeQ==";
         };
+        _xXC5Iu66 = {
+            "id" = "xXC5Iu66";
+            "file" = "Steam_Rails-1.7.3.3+fly-mc26.2.jar";
+            "hash" = "sha512-mLeiOYDX0kWtD+g2MgUbrv8x9W91KL1i3pRO8W66ntB+27KfFs1oKVvbMOfnkke4gCuBIH+fcNYgMawBG6Fz/A==";
+        };
+        _Mog543BZ = {
+            "id" = "Mog543BZ";
+            "file" = "Steam_Rails-1.7.3.3+fly-mc26.1.jar";
+            "hash" = "sha512-nmo3rYZUQTzXh2baK24vOBZBlGBK3Ydv6EoVTZ7GTRU7zpfpE/6PdRcOd2G3AQ/V1veErnjsFIav0/DYh6KQZg==";
+        };
+        _AlXpf03m = {
+            "id" = "AlXpf03m";
+            "file" = "Steam_Rails-1.7.3.3+fly-mc26.3.jar";
+            "hash" = "sha512-XGLc6281xHBwA4IL2h4nSU1ThDAK0A3qV2CRR9zVGDFfuSUgPdXWn4kBY4jiTq9Vd2lgcKR1TAY1Xy4KyHMqTg==";
+        };
     in {
         "vD87T3Tb" = _vD87T3Tb;
         "blWaVzo2" = _blWaVzo2;
@@ -80,10 +95,14 @@ let
         "kWDiymeD" = _kWDiymeD;
         "eW63quVH" = _eW63quVH;
         "A1raJny0" = _A1raJny0;
-        "fabric-26.2" = _A1raJny0;
-        "fabric-26.1.2" = _eW63quVH;
-        "fabric-26.1" = _eW63quVH;
-        "fabric-26.1.1" = _eW63quVH;
+        "xXC5Iu66" = _xXC5Iu66;
+        "Mog543BZ" = _Mog543BZ;
+        "AlXpf03m" = _AlXpf03m;
+        "fabric-26.2" = _xXC5Iu66;
+        "fabric-26.1.2" = _Mog543BZ;
+        "fabric-26.1" = _Mog543BZ;
+        "fabric-26.1.1" = _Mog543BZ;
+        "fabric-26.3" = _AlXpf03m;
         "pkg-1.7.2-fly.26.2-beta.6" = _vD87T3Tb;
         "pkg-1.7.2-fly.26.2-beta.7" = _blWaVzo2;
         "pkg-1.7.2-fly.26.2-beta.8" = _ixIUw8sh;
@@ -97,7 +116,10 @@ let
         "pkg-1.7.3.1+fly-mc26.2" = _kWDiymeD;
         "pkg-1.7.3.1+fly-mc26.1" = _eW63quVH;
         "pkg-1.7.3.2+fly-mc26.2" = _A1raJny0;
-        "default" = _A1raJny0;
+        "pkg-1.7.3.3+fly-mc26.2" = _xXC5Iu66;
+        "pkg-1.7.3.3+fly-mc26.1" = _Mog543BZ;
+        "pkg-1.7.3.3+fly-mc26.3" = _AlXpf03m;
+        "default" = _AlXpf03m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-steam-n-rails-unofficial-port";

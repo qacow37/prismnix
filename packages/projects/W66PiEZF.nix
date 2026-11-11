@@ -416,6 +416,61 @@ let
             "file" = "MTR-London-Underground-Trains-forge-1.0.5-beta.2+1.16.5.jar";
             "hash" = "sha512-3kLf2iiCqmjqLGHErbMF6pVstKVjfnXviPMTQoh15hyZvFimeXNRKIQrBxwVUtDIyjKnLiOtq3DqCkneFM99cw==";
         };
+        _91OddPjc = {
+            "id" = "91OddPjc";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta.3+1.20.4.jar";
+            "hash" = "sha512-KyG2wSJSPAqZQHZ4dUf7z6Ea1fzUsyEHcrTeKM4q7qy3THwt6enj8Gz+OoRKB22dyx/NmKr6no02Gm7JhEuBaA==";
+        };
+        _xUZOQJco = {
+            "id" = "xUZOQJco";
+            "file" = "MTR-London-Underground-Trains-forge-1.0.5-beta.3+1.20.4.jar";
+            "hash" = "sha512-581VQZF69BzHcHymnjnvxkFN6cMRCHRyPgipzDXiC7Jhn27rFG3+izm9Pk9MLsznuYYDSM+UyjTXctuinQ+jLg==";
+        };
+        _E1vUFMbG = {
+            "id" = "E1vUFMbG";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta.3+1.20.1.jar";
+            "hash" = "sha512-iaJeERNk8KJREdF92675fd4z7dY4myzqCsfiAh+zSQvGQFQ3AeEJCYNIJNEHcXuxJNnt7dGsOW+/r79LNCCJiQ==";
+        };
+        _wnpH3KJ7 = {
+            "id" = "wnpH3KJ7";
+            "file" = "MTR-London-Underground-Trains-forge-1.0.5-beta.3+1.20.1.jar";
+            "hash" = "sha512-OE/HkSD9ZxqKS9s/4f2DkQ9QEPkYsnJoZM3iKooWN2E/QrVIrvT0g4E0M3J6oy52dY75VESauFtsrW/NuILqow==";
+        };
+        _iuar8cZ5 = {
+            "id" = "iuar8cZ5";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta.3+1.19.4.jar";
+            "hash" = "sha512-yPPEv+j1Stvqvcol3Ft1MuRS/PcaDiH2x/kNLmU+8YavSDMwSHpLQaaf23jrZiRIob8kYkIpcNvmHK/J3/9tdw==";
+        };
+        _yvTkKD9S = {
+            "id" = "yvTkKD9S";
+            "file" = "MTR-London-Underground-Trains-forge-1.0.5-beta.3+1.19.4.jar";
+            "hash" = "sha512-IxZ2s+nI0+cLHOdyoO1AjDYnlhVnt73eWibzUT10o45Bu53ErYNjldf5J5hIb6yxWqy9XXQ05wv3QfVZ+dGpag==";
+        };
+        _1iX2tuzD = {
+            "id" = "1iX2tuzD";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta.3+1.19.2.jar";
+            "hash" = "sha512-fyxYPzoAH3dLbNvXoK46Hz/Ru/iOk+/abzz3fopKdYcNCp2zNRmhiceh/WDTYqRcIF37NB5k8cHYfyp6fbvAQw==";
+        };
+        _VXq6VbuT = {
+            "id" = "VXq6VbuT";
+            "file" = "MTR-London-Underground-Trains-forge-1.0.5-beta.3+1.19.2.jar";
+            "hash" = "sha512-S9u5EUJ0fA0jkdJY7AJx1VZbN0xAVz5P0jpUP/rV0+3AdfEYwjcdMlwM2jufd3iSPyu446Ex0uxomVRE2yOPLA==";
+        };
+        _AP3rNGv3 = {
+            "id" = "AP3rNGv3";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta.3+1.18.2.jar";
+            "hash" = "sha512-6nKpZob7HllaeDtaCMuMHDPe2+R34nc92i9Jdfvp1CalI1U6lsUX/ov+qdM7Oq0zKq+JrML3/kKz4ygqzPqn0w==";
+        };
+        _p5ddh8ay = {
+            "id" = "p5ddh8ay";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta.3+1.17.1.jar";
+            "hash" = "sha512-XmQFNmo+bprFaxMEsyM7HlaO3o1OJK9DpZtzFhPGhAFMl0NqUtfks9c4utjVWbW/OjANl7g/JVCOH0n3I10OYg==";
+        };
+        _fYIzGpyD = {
+            "id" = "fYIzGpyD";
+            "file" = "MTR-London-Underground-Trains-fabric-1.0.5-beta.3+1.16.5.jar";
+            "hash" = "sha512-ut5gTdsoWoEafsVP+LuazUzltOrPt1iQ2GQxoZVeNiQjEgF6oeTBCA8MZVl+0rppIXkAA/tn5voQindTpUFNZg==";
+        };
     in {
         "aO3Sk5O9" = _aO3Sk5O9;
         "KC9FFb4G" = _KC9FFb4G;
@@ -500,18 +555,29 @@ let
         "Gl1ZThvF" = _Gl1ZThvF;
         "higlDRQh" = _higlDRQh;
         "59PMERCg" = _59PMERCg;
-        "fabric-1.20.4" = _AZjAeKCE;
-        "fabric-1.20.1" = _7DlrYHNZ;
-        "fabric-1.19.4" = _hAziEw6t;
-        "fabric-1.19.2" = _Zw0L3oaq;
-        "fabric-1.18.2" = _tpIXkBAk;
-        "fabric-1.17.1" = _c2P4jDNd;
-        "fabric-1.16.5" = _higlDRQh;
+        "91OddPjc" = _91OddPjc;
+        "xUZOQJco" = _xUZOQJco;
+        "E1vUFMbG" = _E1vUFMbG;
+        "wnpH3KJ7" = _wnpH3KJ7;
+        "iuar8cZ5" = _iuar8cZ5;
+        "yvTkKD9S" = _yvTkKD9S;
+        "1iX2tuzD" = _1iX2tuzD;
+        "VXq6VbuT" = _VXq6VbuT;
+        "AP3rNGv3" = _AP3rNGv3;
+        "p5ddh8ay" = _p5ddh8ay;
+        "fYIzGpyD" = _fYIzGpyD;
+        "fabric-1.20.4" = _91OddPjc;
+        "fabric-1.20.1" = _E1vUFMbG;
+        "fabric-1.19.4" = _iuar8cZ5;
+        "fabric-1.19.2" = _1iX2tuzD;
+        "fabric-1.18.2" = _AP3rNGv3;
+        "fabric-1.17.1" = _p5ddh8ay;
+        "fabric-1.16.5" = _fYIzGpyD;
         "fabric-1.19.3" = _aFsYwEUq;
-        "forge-1.20.4" = _wB09pjiT;
-        "forge-1.20.1" = _ItCZPE8L;
-        "forge-1.19.4" = _uSi5lV5f;
-        "forge-1.19.2" = _zY01GoLS;
+        "forge-1.20.4" = _xUZOQJco;
+        "forge-1.20.1" = _wnpH3KJ7;
+        "forge-1.19.4" = _yvTkKD9S;
+        "forge-1.19.2" = _VXq6VbuT;
         "forge-1.19.3" = _VTbly99d;
         "forge-1.18.2" = _jCbj74YA;
         "forge-1.17.1" = _Gl1ZThvF;
@@ -524,7 +590,8 @@ let
         "pkg-1.0.4-hotfix" = _vkgTf0hM;
         "pkg-1.0.5-beta" = _qRcskJzm;
         "pkg-1.0.5-beta.2" = _59PMERCg;
-        "default" = _59PMERCg;
+        "pkg-1.0.5-beta.3" = _fYIzGpyD;
+        "default" = _fYIzGpyD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-london-underground-trains";

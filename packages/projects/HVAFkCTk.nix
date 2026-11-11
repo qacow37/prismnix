@@ -161,6 +161,31 @@ let
             "file" = "pipez_optimizer-1.0.0-26.2.jar";
             "hash" = "sha512-EaR+NRnq4r7Gyzic9ey+PnN16SAR10opu5uTi3Zz9HmfIcb7PRfznLGqbzH2y66gwhzcvwj/camMRWaD2ADv+w==";
         };
+        _CHrBQDAi = {
+            "id" = "CHrBQDAi";
+            "file" = "pipez_optimizer-1.0.3-1.19.2.jar";
+            "hash" = "sha512-E3vvN7XUh9NDv1wG6SrabXg9KUU2rFVGQG/F7MbgKm1rCdhy//G0FOr2YNJJVTb683pgiDuWiFZWGw3FzvS36g==";
+        };
+        _BtK1QUpN = {
+            "id" = "BtK1QUpN";
+            "file" = "pipez_optimizer-1.0.16-1.21.1.jar";
+            "hash" = "sha512-/SDJxKqzk/i1A0ARvvz11vF1IbliK7jyFgcf6TkXwrQLaIYjWjsxIbO/zE6865SdFho9btUHPmrnqCPCtf6ySg==";
+        };
+        _8cXdXJ4u = {
+            "id" = "8cXdXJ4u";
+            "file" = "pipez_optimizer-1.0.11-1.20.1.jar";
+            "hash" = "sha512-03brI88RwzLKWipr2omNc/CmAiy7Ip9DMdFdykVc0iNN4Qda47u42D+N3KaqC/hhjfWguOWeZq3ZdCu5/D73NA==";
+        };
+        _LiwLf3n3 = {
+            "id" = "LiwLf3n3";
+            "file" = "pipez_optimizer-1.0.1-26.2.jar";
+            "hash" = "sha512-/QhTWcbHCJLwDwmyqxm8k/CnofdSHzwnyrGxFo7E7tKQOZvUgx19ROYQB/fPjdgKAJWzeHQMMxPQvgxvTxmSMA==";
+        };
+        _bM00zTLD = {
+            "id" = "bM00zTLD";
+            "file" = "pipez_optimizer-1.0.1-26.1.2.jar";
+            "hash" = "sha512-J5dJOW9ZPzDKJHVFpSjTA2ThCEnZGJnoYy0ZMU/MjgS7k4j9p84Fosam4SkX2rnzyVEBf9wLz+6J4/q0ukDZcQ==";
+        };
     in {
         "OVXKZgVD" = _OVXKZgVD;
         "jq4VYbGA" = _jq4VYbGA;
@@ -194,13 +219,18 @@ let
         "Q4dI2Glz" = _Q4dI2Glz;
         "yg66Aeew" = _yg66Aeew;
         "rvnBFIid" = _rvnBFIid;
-        "neoforge-1.21.1" = _5xMlPffn;
-        "neoforge-26.1" = _Q4dI2Glz;
-        "neoforge-26.1.1" = _Q4dI2Glz;
-        "neoforge-26.1.2" = _Q4dI2Glz;
-        "neoforge-26.2" = _rvnBFIid;
-        "forge-1.20.1" = _yg66Aeew;
-        "forge-1.19.2" = _PDF2M0i9;
+        "CHrBQDAi" = _CHrBQDAi;
+        "BtK1QUpN" = _BtK1QUpN;
+        "8cXdXJ4u" = _8cXdXJ4u;
+        "LiwLf3n3" = _LiwLf3n3;
+        "bM00zTLD" = _bM00zTLD;
+        "neoforge-1.21.1" = _BtK1QUpN;
+        "neoforge-26.1" = _bM00zTLD;
+        "neoforge-26.1.1" = _bM00zTLD;
+        "neoforge-26.1.2" = _bM00zTLD;
+        "neoforge-26.2" = _LiwLf3n3;
+        "forge-1.20.1" = _8cXdXJ4u;
+        "forge-1.19.2" = _CHrBQDAi;
         "pkg-1.0.0-1.21.1" = _OVXKZgVD;
         "pkg-1.0.0-1.20.1" = _jq4VYbGA;
         "pkg-1.0.1-1.21.1" = _wDkCfYZe;
@@ -233,7 +263,12 @@ let
         "pkg-1.0.0-26.1.2" = _Q4dI2Glz;
         "pkg-1.0.10-1.20.1" = _yg66Aeew;
         "pkg-1.0.0-26.2" = _rvnBFIid;
-        "default" = _rvnBFIid;
+        "pkg-1.0.3-1.19.2" = _CHrBQDAi;
+        "pkg-1.0.16-1.21.1" = _BtK1QUpN;
+        "pkg-1.0.11-1.20.1" = _8cXdXJ4u;
+        "pkg-1.0.1-26.2" = _LiwLf3n3;
+        "pkg-1.0.1-26.1.2" = _bM00zTLD;
+        "default" = _bM00zTLD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pipez-optimizer";

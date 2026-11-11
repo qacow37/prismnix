@@ -346,6 +346,26 @@ let
             "file" = "online-emotes-3.4.10+mc.26.2.jar";
             "hash" = "sha512-ma+hh84r7fDCZMfBuC7wV2fJlCF29qpZpt1pY3IUh3JwRyzmnhTfAbYLqmG6/eWUJq/Ex8bloHFmupOO3IRzMg==";
         };
+        _AZAVCkcS = {
+            "id" = "AZAVCkcS";
+            "file" = "online-emotes-3.4.10+mc.26.1.2.jar";
+            "hash" = "sha512-lqx8Eq+RESuhOo1eEIqttbivKd3QUkTAlmG8Hl9p7J0DJf7P7MkREGqm2NIb65MdoGYjsNYzBKF7mA0iS+RwiQ==";
+        };
+        _ZfffMQOU = {
+            "id" = "ZfffMQOU";
+            "file" = "online-emotes-3.4.11+mc.26.2.jar";
+            "hash" = "sha512-RBVW1dynTA6AtPAqYKtU4asleBQFy2nMJpjcfEv5naZzNlE6ykfm0Wd8qqLqBA0vFvQu74Ft/vq9Lmr0u8Wgbg==";
+        };
+        _kwEJp1KE = {
+            "id" = "kwEJp1KE";
+            "file" = "online-emotes-3.4.10+mc1.21.11-forge.jar";
+            "hash" = "sha512-5+U6phzBo4QUMsiijh3dAqV65EXq87GPaWhKncErIuME2Qjklc88ngvlUmyGqyXLG6SMkBC9Ov/QVF9LMXRiNw==";
+        };
+        _XIrF5Hls = {
+            "id" = "XIrF5Hls";
+            "file" = "online-emotes-3.4.10+mc1.21.11-fabric.jar";
+            "hash" = "sha512-TVXski9hbEgxhYXxWP+AkCPRnjUoMZlDTd8mYpmXKJLCLYUV5Ts458n8MDlnMHVZNf+g/9+OFdxm2SvVB+LjXA==";
+        };
     in {
         "cSzcj62w" = _cSzcj62w;
         "uPWbZCun" = _uPWbZCun;
@@ -416,6 +436,10 @@ let
         "g6nwW3hR" = _g6nwW3hR;
         "yEdesEWA" = _yEdesEWA;
         "jtItiTtj" = _jtItiTtj;
+        "AZAVCkcS" = _AZAVCkcS;
+        "ZfffMQOU" = _ZfffMQOU;
+        "kwEJp1KE" = _kwEJp1KE;
+        "XIrF5Hls" = _XIrF5Hls;
         "forge-1.19.4" = _2Riip6rV;
         "forge-1.19.2" = _2Riip6rV;
         "forge-1.19.3" = _2Riip6rV;
@@ -445,11 +469,11 @@ let
         "fabric-1.21.8" = _ed0MvWmw;
         "fabric-1.21.9" = _vVuBW5jp;
         "fabric-1.21.10" = _vVuBW5jp;
-        "fabric-1.21.11" = _NO6WQiYJ;
-        "fabric-26.1" = _jtItiTtj;
-        "fabric-26.1.1" = _jtItiTtj;
-        "fabric-26.1.2" = _g6nwW3hR;
-        "fabric-26.2" = _jtItiTtj;
+        "fabric-1.21.11" = _XIrF5Hls;
+        "fabric-26.1" = _AZAVCkcS;
+        "fabric-26.1.1" = _AZAVCkcS;
+        "fabric-26.1.2" = _AZAVCkcS;
+        "fabric-26.2" = _ZfffMQOU;
         "quilt-1.19.4" = _KfEcVOeO;
         "quilt-1.19.2" = _KfEcVOeO;
         "quilt-1.19.3" = _KfEcVOeO;
@@ -479,11 +503,11 @@ let
         "neoforge-1.21.8" = _CauznQ7W;
         "neoforge-1.21.9" = _Oimi23py;
         "neoforge-1.21.10" = _Oimi23py;
-        "neoforge-1.21.11" = _5TDomEG1;
-        "neoforge-26.1" = _jtItiTtj;
-        "neoforge-26.1.1" = _jtItiTtj;
-        "neoforge-26.1.2" = _g6nwW3hR;
-        "neoforge-26.2" = _jtItiTtj;
+        "neoforge-1.21.11" = _kwEJp1KE;
+        "neoforge-26.1" = _AZAVCkcS;
+        "neoforge-26.1.1" = _AZAVCkcS;
+        "neoforge-26.1.2" = _AZAVCkcS;
+        "neoforge-26.2" = _ZfffMQOU;
         "pkg-1.0.0+mc1.19.4-build.1" = _uPWbZCun;
         "pkg-1.19.4-1.0.1-forge" = _kUTRUo0U;
         "pkg-1.19.4-1.0.1-fabric" = _MIXN2vQJ;
@@ -551,7 +575,11 @@ let
         "pkg-3.4.9+mc26.1.2" = _g6nwW3hR;
         "pkg-3.4.9+mc26.2" = _yEdesEWA;
         "pkg-3.4.10+mc26.2" = _jtItiTtj;
-        "default" = _jtItiTtj;
+        "pkg-3.4.10+mc26.1.2" = _AZAVCkcS;
+        "pkg-3.4.11+mc26.2" = _ZfffMQOU;
+        "pkg-3.4.10+mc1.21.11-forge" = _kwEJp1KE;
+        "pkg-3.4.10+mc1.21.11-fabric" = _XIrF5Hls;
+        "default" = _XIrF5Hls;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "online-emotes";

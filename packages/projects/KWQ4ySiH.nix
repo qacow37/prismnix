@@ -126,6 +126,31 @@ let
             "file" = "SpiceOfLifeBerry-Forge-1.20.1-1.2.1.jar";
             "hash" = "sha512-lg00Qbg/rcN4ki7oxn+/EzReM+cAIT/yUS/yyDTPNCIRjq9bWqVeYgdyZDNwtyycVjOME03Tg29iumEf7HEMMQ==";
         };
+        _yFDGpkzt = {
+            "id" = "yFDGpkzt";
+            "file" = "SpiceOfLifeBerry-NeoForge-1.21.1-1.2.2.jar";
+            "hash" = "sha512-ZjN81/afQa27H/lnXsurG/7d/2NFP6Zm/24VhgtyBO32cwhp/L+IA9FIqT9zSrdnPv5jgr0Xo1ES+Gou/RSKZA==";
+        };
+        _lUjQSwa0 = {
+            "id" = "lUjQSwa0";
+            "file" = "SpiceOfLifeBerry-Forge-1.20.1-1.2.2.jar";
+            "hash" = "sha512-ZAQjkSmkaJnNN2aJjICUogUFXr/mlQvnwcVaP+pA/jzPLa+vWL8Ed1iQhN/I+FAjS4bGPQKZpB6NKeqZaynj4w==";
+        };
+        _uipS8BLZ = {
+            "id" = "uipS8BLZ";
+            "file" = "SpiceOfLifeBerry-Fabric-1.21.11-1.2.2.jar";
+            "hash" = "sha512-xWPh+orVpSrIcOuvrsfSjkWs9CdOrVWcQqG4zpr19FFR4fGOsTrPZnmxtFXNzD+3oVM42V62SmZBkEdGhkGUfw==";
+        };
+        _3q2vQwYe = {
+            "id" = "3q2vQwYe";
+            "file" = "SpiceOfLifeBerry-Fabric-1.21.1-1.2.2.jar";
+            "hash" = "sha512-xBsv1LaGrpK8SWFZj6/jLBwpaodZt6ynlHJW6UTswQsTw/Sw5ZHYMu73OKufIUqxvVUbdVcTu3J270xsAmIVVQ==";
+        };
+        _bS0hN8Qv = {
+            "id" = "bS0hN8Qv";
+            "file" = "SpiceOfLifeBerry-Fabric-1.20.1-1.2.2.jar";
+            "hash" = "sha512-DjW3D1akR6/72xG72vUODQmEU09kyxN0QBcMAfrTT5Ht1j3Dk9YXBoiqFo8wwIwYo4S2eFwtTvJzTJIIT4HXKg==";
+        };
     in {
         "t3A2Rc5K" = _t3A2Rc5K;
         "KM1YV1Jk" = _KM1YV1Jk;
@@ -152,11 +177,16 @@ let
         "BgHu2PSZ" = _BgHu2PSZ;
         "smXiL6EI" = _smXiL6EI;
         "A0VYpBzi" = _A0VYpBzi;
-        "neoforge-1.21.1" = _1Kgh3Vya;
-        "forge-1.20.1" = _A0VYpBzi;
-        "fabric-1.21.11" = _smXiL6EI;
-        "fabric-1.21.1" = _9kzYVzM2;
-        "fabric-1.20.1" = _BgHu2PSZ;
+        "yFDGpkzt" = _yFDGpkzt;
+        "lUjQSwa0" = _lUjQSwa0;
+        "uipS8BLZ" = _uipS8BLZ;
+        "3q2vQwYe" = _3q2vQwYe;
+        "bS0hN8Qv" = _bS0hN8Qv;
+        "neoforge-1.21.1" = _yFDGpkzt;
+        "forge-1.20.1" = _lUjQSwa0;
+        "fabric-1.21.11" = _uipS8BLZ;
+        "fabric-1.21.1" = _3q2vQwYe;
+        "fabric-1.20.1" = _bS0hN8Qv;
         "pkg-0.1" = _t3A2Rc5K;
         "pkg-0.2-forge-1.20.1" = _KM1YV1Jk;
         "pkg-0.3" = _WcuZ0qAj;
@@ -167,7 +197,8 @@ let
         "pkg-1.0" = _vp5NseCQ;
         "pkg-1.2" = _id0PyLfD;
         "pkg-1.2.1" = _A0VYpBzi;
-        "default" = _A0VYpBzi;
+        "pkg-1.2.2" = _bS0hN8Qv;
+        "default" = _bS0hN8Qv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "solberry";

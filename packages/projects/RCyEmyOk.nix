@@ -121,6 +121,11 @@ let
             "file" = "redwoodvariants-1.4.0+26.2.jar";
             "hash" = "sha512-YxLYFrteGS84Wtw4XsZEkSEw5ClkXTkotfg+KMRTwiekZXwfHZz4Nv2IDLStLdjhe2opNbTQ/5qnJo9pfgnxUg==";
         };
+        _By55bryn = {
+            "id" = "By55bryn";
+            "file" = "redwood-variants-1.4.1+26.3.jar";
+            "hash" = "sha512-CeClykNvKVqa/Q3+ihj5p4aciy/R+GnyebQA2vXx/o2r/X2KpG95Q65HAhnt4Gd0cFC8vaVqetSaT3krasVXEQ==";
+        };
     in {
         "brgRIAuP" = _brgRIAuP;
         "sGw3Qf5j" = _sGw3Qf5j;
@@ -146,6 +151,7 @@ let
         "IqsWfNMQ" = _IqsWfNMQ;
         "aGqqqQpq" = _aGqqqQpq;
         "72yQBSbl" = _72yQBSbl;
+        "By55bryn" = _By55bryn;
         "fabric-1.21.3" = _sGw3Qf5j;
         "fabric-1.21.4" = _l0PJzuP3;
         "fabric-1.21.5" = _OXGKVpwi;
@@ -159,6 +165,7 @@ let
         "fabric-26.1.1" = _nsJkPMtg;
         "fabric-26.1.2" = _nsJkPMtg;
         "fabric-26.2" = _aGqqqQpq;
+        "fabric-26.3" = _By55bryn;
         "neoforge-1.21.4" = _mvQL393I;
         "neoforge-1.21.5" = _3SDnqL8j;
         "neoforge-1.21.6" = _zVFlSCJ3;
@@ -180,7 +187,8 @@ let
         "pkg-1.4.0" = _72yQBSbl;
         "pkg-1.4.1+1.21.10" = _qJPM4hHZ;
         "pkg-1.4.1" = _aGqqqQpq;
-        "default" = _72yQBSbl;
+        "pkg-1.4.1+26.3" = _By55bryn;
+        "default" = _By55bryn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redwood";

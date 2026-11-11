@@ -221,6 +221,11 @@ let
             "file" = "ModernCreateWorldUI-7.1.1.jar";
             "hash" = "sha512-wB1xm6b7s286PwASoT76tkSmjjZSHmpyz76XyaRXAyBN+sUKt0hUGuwW+MykclinZymYm7tbtiMKSx9R3ksAzg==";
         };
+        _5zjeiNz3 = {
+            "id" = "5zjeiNz3";
+            "file" = "ModernCreateWorldUI-7.4.1.jar";
+            "hash" = "sha512-v4fBvhm7HxkWwgU5A0jCbpBZk320VallZEGMYn77HOO+ymJ/bj5Jb/PXAi/EIOjPnLBf6NATeeenh9WyfFjYhg==";
+        };
     in {
         "OqGAK2iR" = _OqGAK2iR;
         "ka2quTWe" = _ka2quTWe;
@@ -266,7 +271,8 @@ let
         "MikKZoub" = _MikKZoub;
         "dJj8TicB" = _dJj8TicB;
         "bb4fpGEX" = _bb4fpGEX;
-        "forge-1.7.10" = _bb4fpGEX;
+        "5zjeiNz3" = _5zjeiNz3;
+        "forge-1.7.10" = _5zjeiNz3;
         "forge-1.12.2" = _dJj8TicB;
         "pkg-v0.0.8" = _OqGAK2iR;
         "pkg-v0.1.0" = _ka2quTWe;
@@ -312,7 +318,8 @@ let
         "pkg-7.1.0" = _MikKZoub;
         "pkg-1.12.2-0.0.4" = _dJj8TicB;
         "pkg-7.1.1" = _bb4fpGEX;
-        "default" = _bb4fpGEX;
+        "pkg-7.4.1" = _5zjeiNz3;
+        "default" = _5zjeiNz3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crwui";

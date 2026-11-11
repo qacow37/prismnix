@@ -436,6 +436,11 @@ let
             "file" = "pufferfishapi-1.3.3-26.3-forge.jar";
             "hash" = "sha512-JWH6bxL0Rai7JudPGEm488rRjCmHOz0dKKjY/WY2qdc+f3xSE2jfzvcBPqylHXKH8/jg9mhghIve4Kfnw5bGeg==";
         };
+        _KNoReI6t = {
+            "id" = "KNoReI6t";
+            "file" = "pufferfishapi-1.3.4-snapshot.8-26.4-snapshot-8-fabric.jar";
+            "hash" = "sha512-1eR02FeO68a0oawB8UGrCLSqWlR01qjiI9YVCuuYAKEaJSRjkTVaFksV0oItIKgAwg6e/HEt0XQKtadORt7AOg==";
+        };
     in {
         "TAwL3gsF" = _TAwL3gsF;
         "VaXTWktH" = _VaXTWktH;
@@ -524,6 +529,7 @@ let
         "zyJSsy9d" = _zyJSsy9d;
         "GEYVOLAO" = _GEYVOLAO;
         "FpPH9XXL" = _FpPH9XXL;
+        "KNoReI6t" = _KNoReI6t;
         "fabric-1.20.6" = _R9039pOn;
         "fabric-1.21.1" = _JMnfqZjp;
         "fabric-1.21.4" = _9seQ8TXK;
@@ -537,6 +543,7 @@ let
         "fabric-26.1.2" = _m7BbfaSg;
         "fabric-26.2" = _FxM3jZXX;
         "fabric-26.3" = _GEYVOLAO;
+        "fabric-26.4-snapshot-8" = _KNoReI6t;
         "forge-1.20.6" = _hK2VX0HK;
         "forge-1.21.1" = _ahwVTB1J;
         "forge-1.21.4" = _y4ZwW8FH;
@@ -576,7 +583,8 @@ let
         "pkg-1.3.1" = _P3FAWbFU;
         "pkg-1.3.2" = _kON3kNDT;
         "pkg-1.3.3" = _FpPH9XXL;
-        "default" = _FpPH9XXL;
+        "pkg-1.3.4-snapshot.8" = _KNoReI6t;
+        "default" = _KNoReI6t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pufferfish-api";

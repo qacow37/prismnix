@@ -31,6 +31,11 @@ let
             "file" = "ballisticmissile-5.0.0.jar";
             "hash" = "sha512-WBQaVmlTNbDyez9sEHnZ7LkO4qMLx+8MXZjChPU0wQhBu/O0rVFZVO9EfNGXIo+KcAKl+qKC+bulyyqg7KZcrQ==";
         };
+        _EASVOvPT = {
+            "id" = "EASVOvPT";
+            "file" = "ballisticmissile-6.0.0.jar";
+            "hash" = "sha512-BWVGZXtCfdCx9/aR7PvlNto4Ne32f99D44/blpF7EiAdYwXLPJa0CRMtufe6nYw/J69luqte0/LotRKHyJQaYg==";
+        };
     in {
         "6nNqMyr9" = _6nNqMyr9;
         "4WNrxvX0" = _4WNrxvX0;
@@ -38,7 +43,8 @@ let
         "bIhYzfGW" = _bIhYzfGW;
         "jrq0LVgo" = _jrq0LVgo;
         "p0RCx81X" = _p0RCx81X;
-        "forge-1.20.1" = _p0RCx81X;
+        "EASVOvPT" = _EASVOvPT;
+        "forge-1.20.1" = _EASVOvPT;
         "forge-1.20.2" = _4WNrxvX0;
         "forge-1.20.3" = _4WNrxvX0;
         "forge-1.20.4" = _4WNrxvX0;
@@ -50,7 +56,8 @@ let
         "pkg-4.0.0" = _bIhYzfGW;
         "pkg-4.5.0" = _jrq0LVgo;
         "pkg-5.0.0" = _p0RCx81X;
-        "default" = _p0RCx81X;
+        "pkg-6.0.0" = _EASVOvPT;
+        "default" = _EASVOvPT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ballistic-missile-mod";

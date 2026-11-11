@@ -206,6 +206,31 @@ let
             "file" = "soundscape-fabric-2.3+mc1.21.11.jar";
             "hash" = "sha512-EKEPMfnomggenSIYwnrXZgdGdBHtHQ5eJpE3nb10AZKPmctNRMJ4k8wIgo+xcWBDMufpHisptOLpD0M/0ka9tQ==";
         };
+        _XaUBCIuT = {
+            "id" = "XaUBCIuT";
+            "file" = "Soundscape-2.4.jar";
+            "hash" = "sha512-9fSOW+0Z4HFwy2f9VfUwU70lSo1voQuqL0e7Ff+hU3612XsNm1woiuW37exOFBOzwxeiaVr6Y61+NYOZgwuGGQ==";
+        };
+        _NfvnurJf = {
+            "id" = "NfvnurJf";
+            "file" = "soundscape-fabric-2.4+mc1.20.1.jar";
+            "hash" = "sha512-JqjhWG6Yzz7OmeijzrEGRpa3mSvevr4rB6X+4kS7BbRXZ964wm0/tJDRB/+KPJDx8r3b/TvuaV4/sJDFy0UtLQ==";
+        };
+        _GiOu0Q8i = {
+            "id" = "GiOu0Q8i";
+            "file" = "soundscape-fabric-2.4+mc1.21.1.jar";
+            "hash" = "sha512-m+MYGFihnaUiM8IMPous21QBaenLI2VVT3ERUeWW2s5pI+dUAgEhB7QhX58VlMRR1dUPxGeG//soBcfP+WjNUw==";
+        };
+        _N3iRg1pw = {
+            "id" = "N3iRg1pw";
+            "file" = "soundscape-fabric-2.4+mc1.21.4.jar";
+            "hash" = "sha512-oqiZjWIEEHyKJbgA0vov/QwRV1oQ2F/lReAHPqRrVa1seTsv4SsavIrnhY9jllV20CuhNof2rSxMi5jw2wcFmw==";
+        };
+        _Xlo4tFFG = {
+            "id" = "Xlo4tFFG";
+            "file" = "soundscape-fabric-2.4+mc1.21.11.jar";
+            "hash" = "sha512-LiG942JpGnqUs4wuNN1x8Yu457R0Fy+9UYASkghy30p1vuNVsJiFLG1MPZIi0qrV7jHjH4USZ159zs9k2alfxw==";
+        };
     in {
         "GsUbJwnq" = _GsUbJwnq;
         "8cXUzm4D" = _8cXUzm4D;
@@ -248,13 +273,18 @@ let
         "V5wHH5It" = _V5wHH5It;
         "PiVjEOTP" = _PiVjEOTP;
         "iH7W9WXX" = _iH7W9WXX;
-        "fabric-26.1" = _UxZBqUxy;
-        "fabric-26.1.1" = _UxZBqUxy;
-        "fabric-26.1.2" = _UxZBqUxy;
-        "fabric-1.20.1" = _shcUyicL;
-        "fabric-1.21.1" = _V5wHH5It;
-        "fabric-1.21.4" = _PiVjEOTP;
-        "fabric-1.21.11" = _iH7W9WXX;
+        "XaUBCIuT" = _XaUBCIuT;
+        "NfvnurJf" = _NfvnurJf;
+        "GiOu0Q8i" = _GiOu0Q8i;
+        "N3iRg1pw" = _N3iRg1pw;
+        "Xlo4tFFG" = _Xlo4tFFG;
+        "fabric-26.1" = _XaUBCIuT;
+        "fabric-26.1.1" = _XaUBCIuT;
+        "fabric-26.1.2" = _XaUBCIuT;
+        "fabric-1.20.1" = _NfvnurJf;
+        "fabric-1.21.1" = _GiOu0Q8i;
+        "fabric-1.21.4" = _N3iRg1pw;
+        "fabric-1.21.11" = _Xlo4tFFG;
         "pkg-1.0.0+fabric-26.1.x" = _GsUbJwnq;
         "pkg-1.0.0+fabric-1.20.1" = _8cXUzm4D;
         "pkg-1.0.0+fabric-1.21.1" = _8CTIuryr;
@@ -293,7 +323,12 @@ let
         "pkg-2.3+fabric-1.21.1" = _V5wHH5It;
         "pkg-2.3+fabric-1.21.4" = _PiVjEOTP;
         "pkg-2.3+fabric-1.21.11" = _iH7W9WXX;
-        "default" = _iH7W9WXX;
+        "pkg-2.4+fabric-26.1.1" = _XaUBCIuT;
+        "pkg-2.4+fabric-1.20.1" = _NfvnurJf;
+        "pkg-2.4+fabric-1.21.1" = _GiOu0Q8i;
+        "pkg-2.4+fabric-1.21.4" = _N3iRg1pw;
+        "pkg-2.4+fabric-1.21.11" = _Xlo4tFFG;
+        "default" = _Xlo4tFFG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soundscape";

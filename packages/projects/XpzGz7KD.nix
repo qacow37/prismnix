@@ -2231,6 +2231,36 @@ let
             "file" = "elytratrims-fabric-4.9.1+26.3.jar";
             "hash" = "sha512-iohfn6+g+qWxGS69EO8urhwLArESlsz5+VLHRHEPSo0/SPT3cWkz4mijMKFz+V7WNNXetAVAErHwG3e8VK5pJQ==";
         };
+        _TV2pXKE2 = {
+            "id" = "TV2pXKE2";
+            "file" = "elytratrims-neoforge-4.9.2+26.1.2.jar";
+            "hash" = "sha512-8/wi1xx8r+OvkxF00BOCVNNr8AQAW8kFOaG3ZHyojAz9LT1N5457BYWuC0ptsF5DHHQtbCLRtqRO1LAC7tJMsA==";
+        };
+        _xIz8Jr9q = {
+            "id" = "xIz8Jr9q";
+            "file" = "elytratrims-fabric-4.9.2+26.1.2.jar";
+            "hash" = "sha512-nU6RVuiYK3K5xrU8C07Vv1O6cVQUfqgoPnjcjhz/JkvlNIsAeqR6Or6GzjFd5qLxKA3m0zyA0zqaSJiyfNdwkw==";
+        };
+        _JYKmc24s = {
+            "id" = "JYKmc24s";
+            "file" = "elytratrims-neoforge-4.9.2+26.2.jar";
+            "hash" = "sha512-Y4rifL3f5mroZhLAimRx2ROwCy/V5tCwk5SjsCkhXyOhpFe3AIOGNxbR5aF3c62sfOoPGiIlbHAvyreP/BsW9A==";
+        };
+        _wmRk5ps3 = {
+            "id" = "wmRk5ps3";
+            "file" = "elytratrims-fabric-4.9.2+26.2.jar";
+            "hash" = "sha512-ia5D2P+kOMQkU+9wUj35NjiSUYmhAQ8kDqG7+G5aAAzQPf+FIvjympOnBfXREblxXeq4Ekh0nzNa53ybuMx1Qg==";
+        };
+        _PSGxa8mH = {
+            "id" = "PSGxa8mH";
+            "file" = "elytratrims-neoforge-4.9.2+26.3.jar";
+            "hash" = "sha512-LnK0E7N1layJOujZGfPd6t8vAHaZyDas8eynmHMQoWJagQEDG/SgSFCAYE1fUeMYdTwmjJAz6fPKCNsGhYlq/w==";
+        };
+        _N72RmRV7 = {
+            "id" = "N72RmRV7";
+            "file" = "elytratrims-fabric-4.9.2+26.3.jar";
+            "hash" = "sha512-B/z21TienSuMEHbfUh+8WE7bdh+/JkqbV+h0mQFBLSQl8I6tzN3p58yjBi+ceBZGCc95SSovc2qLgTEB4kaoDA==";
+        };
     in {
         "7va3yOBQ" = _7va3yOBQ;
         "9TQnMw0W" = _9TQnMw0W;
@@ -2678,6 +2708,12 @@ let
         "fnd2JvcE" = _fnd2JvcE;
         "lSFduvPP" = _lSFduvPP;
         "KiDLWRiF" = _KiDLWRiF;
+        "TV2pXKE2" = _TV2pXKE2;
+        "xIz8Jr9q" = _xIz8Jr9q;
+        "JYKmc24s" = _JYKmc24s;
+        "wmRk5ps3" = _wmRk5ps3;
+        "PSGxa8mH" = _PSGxa8mH;
+        "N72RmRV7" = _N72RmRV7;
         "fabric-1.19.4" = _dUDEzKit;
         "fabric-23w12a" = _9TQnMw0W;
         "fabric-23w13a" = _9TQnMw0W;
@@ -2707,13 +2743,13 @@ let
         "fabric-1.21.9" = _GuYLHDtX;
         "fabric-1.21.10" = _GuYLHDtX;
         "fabric-1.21.11" = _Nzd1iQCn;
-        "fabric-26.1" = _yK8AOwnF;
-        "fabric-26.1.1" = _yK8AOwnF;
-        "fabric-26.1.2" = _yK8AOwnF;
+        "fabric-26.1" = _xIz8Jr9q;
+        "fabric-26.1.1" = _xIz8Jr9q;
+        "fabric-26.1.2" = _xIz8Jr9q;
         "fabric-26.2-pre-2" = _zfXuuaop;
         "fabric-26.2-pre-3" = _zfXuuaop;
         "fabric-26.2-pre-4" = _zfXuuaop;
-        "fabric-26.2" = _fnd2JvcE;
+        "fabric-26.2" = _wmRk5ps3;
         "fabric-26.3-snapshot-3" = _Nr402HuQ;
         "fabric-26.3-snapshot-4" = _Nr402HuQ;
         "fabric-26.3-snapshot-5" = _SLm95J8w;
@@ -2722,7 +2758,7 @@ let
         "fabric-26.3-snapshot-8" = _SLm95J8w;
         "fabric-26.3-snapshot-9" = _SLm95J8w;
         "fabric-26.3-snapshot-10" = _SLm95J8w;
-        "fabric-26.3" = _KiDLWRiF;
+        "fabric-26.3" = _N72RmRV7;
         "quilt-1.19.4" = _NHXd6aZk;
         "quilt-23w12a" = _9TQnMw0W;
         "quilt-23w13a" = _9TQnMw0W;
@@ -2757,9 +2793,9 @@ let
         "neoforge-1.21.11" = _u2w6bgX3;
         "neoforge-26.1" = _wgUBgHvL;
         "neoforge-26.1.1" = _wgUBgHvL;
-        "neoforge-26.1.2" = _zLSAwh67;
-        "neoforge-26.2" = _hOtyJCey;
-        "neoforge-26.3" = _lSFduvPP;
+        "neoforge-26.1.2" = _TV2pXKE2;
+        "neoforge-26.2" = _JYKmc24s;
+        "neoforge-26.3" = _PSGxa8mH;
         "pkg-1.0.0+1.19.4" = _7va3yOBQ;
         "pkg-1.0.0+1.20" = _9TQnMw0W;
         "pkg-1.1.0+1.19.4" = _JtH7CecY;
@@ -2896,7 +2932,8 @@ let
         "pkg-4.9.0-beta.6" = _SLm95J8w;
         "pkg-4.9.0" = _zox5ML8k;
         "pkg-4.9.1" = _KiDLWRiF;
-        "default" = _KiDLWRiF;
+        "pkg-4.9.2" = _N72RmRV7;
+        "default" = _N72RmRV7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-trims";

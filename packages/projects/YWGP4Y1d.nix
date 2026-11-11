@@ -201,6 +201,16 @@ let
             "file" = "chalk-fabric-26.3-2.0.3.jar";
             "hash" = "sha512-EWhy4wrhiGRDZFrR7lCFG1j+YtR6W8fyt82BKdh/naEXEBdILFY6wg/a8EHCtzhtYhQo7O9f+BADM5LotmZQLg==";
         };
+        _rTdzgOiD = {
+            "id" = "rTdzgOiD";
+            "file" = "chalk-neoforge-26.3-2.0.4.jar";
+            "hash" = "sha512-d0TBFG6HLaFLz6eN8bniO/p7kdQ+IifSDe21mhPzCI1APShgDXp65p3DC+2aDqMolyERlsLefIXf7xNba0lkhQ==";
+        };
+        _76TZUD6g = {
+            "id" = "76TZUD6g";
+            "file" = "chalk-fabric-26.3-2.0.4.jar";
+            "hash" = "sha512-rSX1LXKQTECbno7vlQKt7ADJsptrDRs1nJUIirF7R0TNmAP1VqPV3m2sBTqxzNKhvL8G0zwzqWJ8p9HMC81Z/w==";
+        };
     in {
         "H62hdhZn" = _H62hdhZn;
         "sdDk5eB6" = _sdDk5eB6;
@@ -242,6 +252,8 @@ let
         "ZdYpsiXB" = _ZdYpsiXB;
         "jtZnOw6t" = _jtZnOw6t;
         "r1YBZ5bk" = _r1YBZ5bk;
+        "rTdzgOiD" = _rTdzgOiD;
+        "76TZUD6g" = _76TZUD6g;
         "forge-1.18" = _H62hdhZn;
         "forge-1.18.1" = _H62hdhZn;
         "forge-1.18.2" = _EPyMvw5p;
@@ -252,9 +264,9 @@ let
         "forge-1.20" = _APioGdM9;
         "neoforge-1.21" = _FO0SZRP2;
         "neoforge-1.21.1" = _Cw4mfhCD;
-        "neoforge-26.3" = _jtZnOw6t;
+        "neoforge-26.3" = _rTdzgOiD;
         "fabric-1.21.1" = _ZdYpsiXB;
-        "fabric-26.3" = _r1YBZ5bk;
+        "fabric-26.3" = _76TZUD6g;
         "pkg-1.18.2-1.2.1" = _H62hdhZn;
         "pkg-1.16.5-1.2.1" = _sdDk5eB6;
         "pkg-1.3.2" = _Exhgjlip;
@@ -281,7 +293,8 @@ let
         "pkg-2.0.1" = _vZDyLrg9;
         "pkg-2.0.2" = _c9La5ZxO;
         "pkg-2.0.3" = _r1YBZ5bk;
-        "default" = _r1YBZ5bk;
+        "pkg-2.0.4" = _76TZUD6g;
+        "default" = _76TZUD6g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chalk-mod";

@@ -1086,6 +1086,16 @@ let
             "file" = "Safra-fabric-26.3-3.2.jar";
             "hash" = "sha512-SSGxPsjnklpZX41ymFgwvKb3nOZ5ObjAv3tqfKlf4t/CvPKZ6/rUkMVTG2OB3xIFDn1B/QYSjUfl2GVk2vxk5w==";
         };
+        _hAa7VcFU = {
+            "id" = "hAa7VcFU";
+            "file" = "Safra-forge-1.20.1-3.2.jar";
+            "hash" = "sha512-688BwXa9jV/xmmfmGQmaU3NQBl4dnuhyinxLqoIKb2dcH3m+KEMPQcSFQzA6XpCNdZQtIf1eKc/1VOZ/plQmjQ==";
+        };
+        _Nxtl4KO3 = {
+            "id" = "Nxtl4KO3";
+            "file" = "Safra-forge-1.21.1-3.2.jar";
+            "hash" = "sha512-JHhk3CfFCOljvGnS//WGJNTccb0a2zOLcQk7KAxP1xte7rj3yYp2fT0e4QQfrD6Nt/H3nLQpKjL7x43WGUes8Q==";
+        };
     in {
         "GwnaEaJ4" = _GwnaEaJ4;
         "OZvU4X1N" = _OZvU4X1N;
@@ -1304,6 +1314,8 @@ let
         "zG7CaKTC" = _zG7CaKTC;
         "nDOo9UjN" = _nDOo9UjN;
         "45ZQGgJ9" = _45ZQGgJ9;
+        "hAa7VcFU" = _hAa7VcFU;
+        "Nxtl4KO3" = _Nxtl4KO3;
         "fabric-26.1" = _g2SWzVpV;
         "fabric-1.21.11" = _nGMSZTMe;
         "fabric-26.1.1" = _3L9cpNNS;
@@ -1348,7 +1360,7 @@ let
         "forge-26.1.1" = _AyC5doki;
         "forge-26.1.2" = _KMUeeUvk;
         "forge-1.21.11" = _NlkQaR3Z;
-        "forge-1.20.1" = _zmH6uHy1;
+        "forge-1.20.1" = _hAa7VcFU;
         "forge-1.20.2" = _EbjzdfOe;
         "forge-1.20.3" = _Yrf74HJF;
         "forge-1.20.4" = _8j7tjfiA;
@@ -1358,7 +1370,7 @@ let
         "forge-1.21.9" = _u3fMN74D;
         "forge-1.21.8" = _UMUPWv2u;
         "forge-26.2" = _xN7PG04U;
-        "forge-1.21.1" = _ZaQYtfxo;
+        "forge-1.21.1" = _Nxtl4KO3;
         "forge-1.21" = _v3l6IUnT;
         "forge-1.21.10" = _UQ2eyQgm;
         "forge-1.21.5" = _pHNoCXlO;
@@ -1408,8 +1420,8 @@ let
         "pkg-2.5" = _ae3zpMV6;
         "pkg-2.6" = _B0eWzgd2;
         "pkg-3.0" = _zGjuQeFM;
-        "pkg-3.2" = _45ZQGgJ9;
-        "default" = _45ZQGgJ9;
+        "pkg-3.2" = _Nxtl4KO3;
+        "default" = _Nxtl4KO3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "safra";

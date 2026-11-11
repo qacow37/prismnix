@@ -581,6 +581,16 @@ let
             "file" = "customizedtridents-FORGE-1.2.1-26.3.jar";
             "hash" = "sha512-BmDIQFpOc/mNa6tg/xNSkQXLW7iFH+Zr4/m+dLf1NhDveZZFVK/131AuOjioBE+r6o1+1kI9tVR/6PxoXpLutQ==";
         };
+        _yvbTTpnU = {
+            "id" = "yvbTTpnU";
+            "file" = "customizedtridents-FORGE-1.2.2-1.20.1.jar";
+            "hash" = "sha512-os/ksL8dnb8al8Te2oq7OwUfJWGFe5mGrtbDOPa4Kl3/DZSGU5fqxpr8v+F9KmivNo5js2OKMmOoPNPiKkJRPw==";
+        };
+        _srk4TWtq = {
+            "id" = "srk4TWtq";
+            "file" = "customizedtridents-NEOFORGE-1.2.2-1.20.1.jar";
+            "hash" = "sha512-rum9zmhxZ8uJj7WxeWwibylkhgS/FkBa6OCrsWdmUn7AbSAOn2ydOJs618JANMU1M0RdwKvlAm9qY5BYPNu20Q==";
+        };
     in {
         "BcLLZAfv" = _BcLLZAfv;
         "22yR6214" = _22yR6214;
@@ -698,6 +708,8 @@ let
         "tKTRnJWL" = _tKTRnJWL;
         "8AxpWFNd" = _8AxpWFNd;
         "ejHOIBpL" = _ejHOIBpL;
+        "yvbTTpnU" = _yvbTTpnU;
+        "srk4TWtq" = _srk4TWtq;
         "fabric-1.15.2" = _BcLLZAfv;
         "fabric-1.16.2" = _53tLJ0e0;
         "fabric-1.16.3" = _Ivy3R7Mh;
@@ -743,7 +755,7 @@ let
         "forge-1.19.3" = _mrq1Aym1;
         "forge-1.19.4" = _oF36W6sJ;
         "forge-1.20" = _t356LDgV;
-        "forge-1.20.1" = _cJQAtvqq;
+        "forge-1.20.1" = _yvbTTpnU;
         "forge-1.20.2" = _VCWTrCRa;
         "forge-1.20.4" = _jJqKNk4N;
         "forge-1.21" = _6Zm7Vk0V;
@@ -775,7 +787,7 @@ let
         "neoforge-1.21.9" = _fc6nfyEs;
         "neoforge-1.21.10" = _88d0tbPD;
         "neoforge-1.21.11" = _CJnvjYk8;
-        "neoforge-1.20.1" = _ODwMSztt;
+        "neoforge-1.20.1" = _srk4TWtq;
         "neoforge-26.1.1" = _zYFK0SLx;
         "neoforge-26.1.2" = _QHJ7FebT;
         "neoforge-26.1" = _JYvB0wMs;
@@ -866,7 +878,9 @@ let
         "pkg-1.2.1+fabric-26.3" = _tKTRnJWL;
         "pkg-1.2.1+neoforge-26.3" = _8AxpWFNd;
         "pkg-1.2.1+forge-26.3" = _ejHOIBpL;
-        "default" = _ejHOIBpL;
+        "pkg-1.2.2+forge-1.20.1" = _yvbTTpnU;
+        "pkg-1.2.2+neoforge-1.20.1" = _srk4TWtq;
+        "default" = _srk4TWtq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customized-tridents";

@@ -4256,6 +4256,41 @@ let
             "file" = "dungeontrain-0.1739.0.jar";
             "hash" = "sha512-HF2K8sJ0q08eMCmUDkvUGJJBPleq8IPMGrTx/1PtaWS6vbjejBK2eNYmFP52c5CdVRru8DeHle+xUM1JxducVA==";
         };
+        _Q48MInHy = {
+            "id" = "Q48MInHy";
+            "file" = "dungeontrain-0.1747.0.jar";
+            "hash" = "sha512-3+OLQsi/s9zfp+NuiBxIlg9YhvG5peennbeEuO9tA95r24xhjOF+FnSJ5CypHuFrmCgxZ15iqQ9U+0utF5Zx6w==";
+        };
+        _oleMH8FN = {
+            "id" = "oleMH8FN";
+            "file" = "dungeontrain-0.1750.0.jar";
+            "hash" = "sha512-aUVQihBwhP7Hj7r5MDUqmmp9P/4/KBF89dHm8KXyzbP3YrcbowqEC3QdV7HYl3VaZn9uVjVTLqmpHhGuTcotZA==";
+        };
+        _BAoFnKcq = {
+            "id" = "BAoFnKcq";
+            "file" = "dungeontrain-0.1759.0.jar";
+            "hash" = "sha512-nDVoRQs+7uxUFvU8OQEmxJ7KrpBHwIsXVUz6NsUXJtZd70XOVTzRT9S6Jnabhe4NCs4GjZC5y5pnU4gC0ZATqg==";
+        };
+        _Q8lNDqMD = {
+            "id" = "Q8lNDqMD";
+            "file" = "dungeontrain-0.1760.0.jar";
+            "hash" = "sha512-4IIVIlQdUUzZtgDbQ+6+xc/otiFg9wF/ejyocu1Wl9kEMZhvfLPM1apdoOdaeej6x1/yPR3shr/FrA2xpR5DAA==";
+        };
+        _zOqeHk9V = {
+            "id" = "zOqeHk9V";
+            "file" = "dungeontrain-0.1764.0.jar";
+            "hash" = "sha512-2G2iYBRlMQHLkpEQ0Wt8rSqshIUoR2xSRmvpzdfd7DllacVUlOw2ag7RDj5wU0htAWIp5IW1hUy5lBTYEpwJHw==";
+        };
+        _vtf5ukW5 = {
+            "id" = "vtf5ukW5";
+            "file" = "dungeontrain-0.1767.0.jar";
+            "hash" = "sha512-/j4eGslXpZ63qV015S6zJlgPoXdn+e6Ci0IrwVRLNx7eCJJjz18N8LGk2kuVtJFqmnp/KyF1SkLuxMzGdVbl3g==";
+        };
+        _gKnYktKB = {
+            "id" = "gKnYktKB";
+            "file" = "dungeontrain-0.1775.0.jar";
+            "hash" = "sha512-EwVHKVGcJnPrVlmgfDmN/ReIuf8WmZgxKHhJtVlkuhrQddauj+1gomuiTvYPx87YwC/c5fZslyV9GuffvLKF1A==";
+        };
     in {
         "aayJdrv5" = _aayJdrv5;
         "bnexSrS2" = _bnexSrS2;
@@ -5108,13 +5143,20 @@ let
         "LblUFaIZ" = _LblUFaIZ;
         "woXztuSD" = _woXztuSD;
         "YG2InHGD" = _YG2InHGD;
+        "Q48MInHy" = _Q48MInHy;
+        "oleMH8FN" = _oleMH8FN;
+        "BAoFnKcq" = _BAoFnKcq;
+        "Q8lNDqMD" = _Q8lNDqMD;
+        "zOqeHk9V" = _zOqeHk9V;
+        "vtf5ukW5" = _vtf5ukW5;
+        "gKnYktKB" = _gKnYktKB;
         "forge-1.20.1" = _gf1Z1Nna;
         "forge-1.20.2" = _aayJdrv5;
         "forge-1.20.3" = _aayJdrv5;
         "forge-1.20.4" = _aayJdrv5;
         "forge-1.20.5" = _aayJdrv5;
         "forge-1.20.6" = _aayJdrv5;
-        "neoforge-1.21.1" = _YG2InHGD;
+        "neoforge-1.21.1" = _gKnYktKB;
         "pkg-0.72.0" = _aayJdrv5;
         "pkg-v0.72.1" = _bnexSrS2;
         "pkg-v0.73.2" = _dr45kFNn;
@@ -5960,7 +6002,14 @@ let
         "pkg-v0.1735.0" = _LblUFaIZ;
         "pkg-v0.1737.0" = _woXztuSD;
         "pkg-v0.1739.0" = _YG2InHGD;
-        "default" = _YG2InHGD;
+        "pkg-v0.1747.0" = _Q48MInHy;
+        "pkg-v0.1750.0" = _oleMH8FN;
+        "pkg-v0.1759.0" = _BAoFnKcq;
+        "pkg-v0.1760.0" = _Q8lNDqMD;
+        "pkg-v0.1764.0" = _zOqeHk9V;
+        "pkg-v0.1767.0" = _vtf5ukW5;
+        "pkg-v0.1775.0" = _gKnYktKB;
+        "default" = _gKnYktKB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeon-train";

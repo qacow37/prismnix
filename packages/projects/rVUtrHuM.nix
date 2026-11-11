@@ -341,6 +341,16 @@ let
             "file" = "spear-backport-neoforge-1.0.1-1.21.10.jar";
             "hash" = "sha512-NIeLHoAEC4yAU6QmLRi2o868M+zPADwEeCUgUD5OIkuXI6ure2oLZpDD53ZM5C/kO96ILlVk27NYM336cW3ORw==";
         };
+        _YOGbBdkr = {
+            "id" = "YOGbBdkr";
+            "file" = "spears-fabric-1.5.0-1.20.1.jar";
+            "hash" = "sha512-78FQOiTFdKBU3A1l5BrGKeMiX5FLUUDmZRy9BBbulcUpTeTnE7IPpV5h9Z67ui1U5Gs1gU0I61abVuAfU+NU/w==";
+        };
+        _1e0M8R3T = {
+            "id" = "1e0M8R3T";
+            "file" = "spears-forge-1.5.0-1.20.1.jar";
+            "hash" = "sha512-UKyXDTxPOFZ5WSMwcSlRSfujRUkAUgEoED1tEi9Ncpne2a9XzNr7Aj47cTXkL4bU22uNaGoYBuREJ/FxAQZoLw==";
+        };
     in {
         "vstXWr5f" = _vstXWr5f;
         "q8U84prg" = _q8U84prg;
@@ -410,9 +420,11 @@ let
         "wlGhzm2t" = _wlGhzm2t;
         "bwlA6ACr" = _bwlA6ACr;
         "lwX0dRE0" = _lwX0dRE0;
+        "YOGbBdkr" = _YOGbBdkr;
+        "1e0M8R3T" = _1e0M8R3T;
         "fabric-1.21" = _gaCjtiZC;
         "fabric-1.21.1" = _pBxqKUpa;
-        "fabric-1.20.1" = _zXYXrqoK;
+        "fabric-1.20.1" = _YOGbBdkr;
         "fabric-1.21.8" = _TCZ7VVNT;
         "fabric-1.21.10" = _bwlA6ACr;
         "neoforge-1.21" = _gaCjtiZC;
@@ -421,7 +433,7 @@ let
         "neoforge-1.21.10" = _lwX0dRE0;
         "forge-1.21" = _gaCjtiZC;
         "forge-1.21.1" = _gaCjtiZC;
-        "forge-1.20.1" = _maGyr2Ki;
+        "forge-1.20.1" = _1e0M8R3T;
         "pkg-1.0.0" = _wlGhzm2t;
         "pkg-1.0.1" = _lwX0dRE0;
         "pkg-1.1.0" = _s90FvWsd;
@@ -433,7 +445,7 @@ let
         "pkg-1.0.0-beta" = _uC5mFZwr;
         "pkg-1.4.2" = _bUeLyWXu;
         "pkg-1.4.3" = _Nwn6i4bN;
-        "pkg-1.5.0" = _oEM1kzCE;
+        "pkg-1.5.0" = _1e0M8R3T;
         "pkg-1.1.0-beta" = _BUp5nnyU;
         "pkg-1.6.0" = _kqCKnqD9;
         "pkg-1.2.0-beta" = _YZdPGcGs;
@@ -455,7 +467,7 @@ let
         "pkg-1.4.6" = _KC4uWMPx;
         "pkg-1.8.0" = _FROwtXRs;
         "pkg-1.4.7" = _maGyr2Ki;
-        "default" = _lwX0dRE0;
+        "default" = _1e0M8R3T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backported-spears";

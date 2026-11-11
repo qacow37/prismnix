@@ -61,6 +61,21 @@ let
             "file" = "create_connected-1.3.3.1+fly-mc26.1.jar";
             "hash" = "sha512-VbYLOTLtQelep0mgFmRjR3wY4G2PKxKwx2y1/Vky3Au+HhnFaT1h0iBOADfYVwoe1gpY2WJuaUZnHRvqK6pYGw==";
         };
+        _7XMpohty = {
+            "id" = "7XMpohty";
+            "file" = "create_connected-1.3.3.3+fly-mc26.2.jar";
+            "hash" = "sha512-/PaYsOZU7y2Fl8LrN1OebD5AllUlnzFlHl7Tu+CwSAVPoYuU+yEocEoX4ez29VYtyr9wwgdKewLjfViZPsyVMQ==";
+        };
+        _bi4Gndci = {
+            "id" = "bi4Gndci";
+            "file" = "create_connected-1.3.3.3+fly-mc26.1.jar";
+            "hash" = "sha512-paWBztGCUzekztMU0D5j4WAufYTczKz4Z5Q4fLkd7DPI3qpGe1UhQbEJjzXU81eAIW/gprreTwY2MrrS3pa0og==";
+        };
+        _ZM3nwhCI = {
+            "id" = "ZM3nwhCI";
+            "file" = "create_connected-1.3.3.3+fly-mc26.3.jar";
+            "hash" = "sha512-+AgwXALXDBX7tmWVlTkliRvpnVKPHgqf+pZ/M4D5Z1swv/JaEg+8wI+pzs41yVMl4v5D3bVAoV6P6ofc7WAVzQ==";
+        };
     in {
         "lSxBveV6" = _lSxBveV6;
         "b3K8ZmOo" = _b3K8ZmOo;
@@ -74,10 +89,14 @@ let
         "bLZi6Dci" = _bLZi6Dci;
         "NN2GYITi" = _NN2GYITi;
         "tZgWaMo5" = _tZgWaMo5;
-        "fabric-26.2" = _NN2GYITi;
-        "fabric-26.1.2" = _tZgWaMo5;
-        "fabric-26.1" = _tZgWaMo5;
-        "fabric-26.1.1" = _tZgWaMo5;
+        "7XMpohty" = _7XMpohty;
+        "bi4Gndci" = _bi4Gndci;
+        "ZM3nwhCI" = _ZM3nwhCI;
+        "fabric-26.2" = _7XMpohty;
+        "fabric-26.1.2" = _bi4Gndci;
+        "fabric-26.1" = _bi4Gndci;
+        "fabric-26.1.1" = _bi4Gndci;
+        "fabric-26.3" = _ZM3nwhCI;
         "pkg-1.3.2-fly.26.2-beta.5" = _lSxBveV6;
         "pkg-1.3.2-fly.26.2-beta.6" = _b3K8ZmOo;
         "pkg-1.3.2-fly.26.2-beta.7" = _7HG5WrgB;
@@ -90,7 +109,10 @@ let
         "pkg-1.3.3+fly-mc26.1" = _bLZi6Dci;
         "pkg-1.3.3.2+fly-mc26.2" = _NN2GYITi;
         "pkg-1.3.3.1+fly-mc26.1" = _tZgWaMo5;
-        "default" = _tZgWaMo5;
+        "pkg-1.3.3.3+fly-mc26.2" = _7XMpohty;
+        "pkg-1.3.3.3+fly-mc26.1" = _bi4Gndci;
+        "pkg-1.3.3.3+fly-mc26.3" = _ZM3nwhCI;
+        "default" = _ZM3nwhCI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-connected-unofficial-port";

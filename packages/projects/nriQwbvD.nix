@@ -406,6 +406,41 @@ let
             "file" = "litematica-printer-dev470.jar";
             "hash" = "sha512-fGruYSyDCxmso0fWornt585W9DMneAoXDc8QZwsPcBefioazaNFsbgZncflKkT37WJA28vbKjxIezlYZShaR5Q==";
         };
+        _HWugrnxz = {
+            "id" = "HWugrnxz";
+            "file" = "litematica-printer-dev471.jar";
+            "hash" = "sha512-NujvNRNiVSKn+dQ5VSkbcY+jMXT1y0na/Q9kZfJAEW72fM44ly8/k4gGs61tJCu6iWw0l/7k76g+UJfAtfo/SQ==";
+        };
+        _Yvu1rGws = {
+            "id" = "Yvu1rGws";
+            "file" = "litematica-printer-dev472.jar";
+            "hash" = "sha512-NTTEo/p8jzLWjT+GfNDhmZDkcckTq/2ByDH1Q0l51XjBkAsrhPRnxwpurn8NQUtdOeFCmEg4TGMvz+4U55eLEA==";
+        };
+        _sWS9aX2J = {
+            "id" = "sWS9aX2J";
+            "file" = "litematica-printer-dev473.jar";
+            "hash" = "sha512-hrub780R1dqcHM93D0tynkoqyIrCcIEwV1C/K8WMgXQML09WheoSnxgGBT8W/x1R0cJ+17n9wagjSN/ucbxZRw==";
+        };
+        _KpQBmTJE = {
+            "id" = "KpQBmTJE";
+            "file" = "litematica-printer-dev474.jar";
+            "hash" = "sha512-mAw3KNxuxmncuDlpzvmXgSvCHigocgSox25qZA7exdWQ2ks0hkZtcU8O6FJDkGSJW0ghLTf5EsksTVTwms/Seg==";
+        };
+        _cC7TWc45 = {
+            "id" = "cC7TWc45";
+            "file" = "litematica-printer-dev475.jar";
+            "hash" = "sha512-oJfr/MUNutkjdJ8NsX/VkhbM1GULhILp2LOYdvVVmQFpFfoCSLDS0lS3df33+CPp83Lj6ohE/YiQXzTaEYJtSA==";
+        };
+        _tf5JtWSH = {
+            "id" = "tf5JtWSH";
+            "file" = "litematica-printer-dev476.jar";
+            "hash" = "sha512-kniPoMqEWa30iaZ/yt+pg48tigTe95jkT10rTPdYbTuJSp5zSlJRyBgUAPVZKWf2qec8sc444Uh5HEFaaS+CvQ==";
+        };
+        _PT9whcWN = {
+            "id" = "PT9whcWN";
+            "file" = "litematica-printer-beta28.jar";
+            "hash" = "sha512-PlaPAgp++JjAWqQDScemftxrIrpULa06oSakJAS11Fs4jHqvt9wXghMlpli8f1WWxAM80DexEk18ZYK9X+7ilg==";
+        };
     in {
         "iM0YFug1" = _iM0YFug1;
         "jcUSgzrI" = _jcUSgzrI;
@@ -488,29 +523,36 @@ let
         "DqEraf4M" = _DqEraf4M;
         "wh5CCbo1" = _wh5CCbo1;
         "vd1DOGka" = _vd1DOGka;
-        "fabric-1.18.2" = _vd1DOGka;
-        "fabric-1.19.4" = _vd1DOGka;
-        "fabric-1.20.1" = _vd1DOGka;
-        "fabric-1.20.2" = _vd1DOGka;
-        "fabric-1.20.4" = _vd1DOGka;
-        "fabric-1.20.6" = _vd1DOGka;
-        "fabric-1.21" = _vd1DOGka;
-        "fabric-1.21.1" = _vd1DOGka;
-        "fabric-1.21.2" = _vd1DOGka;
-        "fabric-1.21.3" = _vd1DOGka;
-        "fabric-1.21.4" = _vd1DOGka;
-        "fabric-1.21.5" = _vd1DOGka;
-        "fabric-1.21.6" = _vd1DOGka;
-        "fabric-1.21.7" = _vd1DOGka;
-        "fabric-1.21.8" = _vd1DOGka;
-        "fabric-1.21.9" = _vd1DOGka;
-        "fabric-1.21.10" = _vd1DOGka;
-        "fabric-1.21.11" = _vd1DOGka;
-        "fabric-26.1" = _vd1DOGka;
-        "fabric-26.1.1" = _vd1DOGka;
-        "fabric-26.1.2" = _vd1DOGka;
-        "fabric-26.2" = _vd1DOGka;
-        "fabric-26.3" = _vd1DOGka;
+        "HWugrnxz" = _HWugrnxz;
+        "Yvu1rGws" = _Yvu1rGws;
+        "sWS9aX2J" = _sWS9aX2J;
+        "KpQBmTJE" = _KpQBmTJE;
+        "cC7TWc45" = _cC7TWc45;
+        "tf5JtWSH" = _tf5JtWSH;
+        "PT9whcWN" = _PT9whcWN;
+        "fabric-1.18.2" = _PT9whcWN;
+        "fabric-1.19.4" = _PT9whcWN;
+        "fabric-1.20.1" = _PT9whcWN;
+        "fabric-1.20.2" = _PT9whcWN;
+        "fabric-1.20.4" = _PT9whcWN;
+        "fabric-1.20.6" = _PT9whcWN;
+        "fabric-1.21" = _PT9whcWN;
+        "fabric-1.21.1" = _PT9whcWN;
+        "fabric-1.21.2" = _PT9whcWN;
+        "fabric-1.21.3" = _PT9whcWN;
+        "fabric-1.21.4" = _PT9whcWN;
+        "fabric-1.21.5" = _PT9whcWN;
+        "fabric-1.21.6" = _PT9whcWN;
+        "fabric-1.21.7" = _PT9whcWN;
+        "fabric-1.21.8" = _PT9whcWN;
+        "fabric-1.21.9" = _PT9whcWN;
+        "fabric-1.21.10" = _PT9whcWN;
+        "fabric-1.21.11" = _PT9whcWN;
+        "fabric-26.1" = _PT9whcWN;
+        "fabric-26.1.1" = _PT9whcWN;
+        "fabric-26.1.2" = _PT9whcWN;
+        "fabric-26.2" = _PT9whcWN;
+        "fabric-26.3" = _PT9whcWN;
         "pkg-0.7.2.1-Hana-dev348" = _iM0YFug1;
         "pkg-0.7.2.1-Hana-beta21" = _jcUSgzrI;
         "pkg-0.7.2.1-Hana-dev377" = _QyyT6C7K;
@@ -592,7 +634,14 @@ let
         "pkg-Hana-Dev467" = _DqEraf4M;
         "pkg-Hana-Dev469" = _wh5CCbo1;
         "pkg-Hana-Dev470" = _vd1DOGka;
-        "default" = _vd1DOGka;
+        "pkg-Hana-Dev471" = _HWugrnxz;
+        "pkg-Hana-Dev472" = _Yvu1rGws;
+        "pkg-Hana-Dev473" = _sWS9aX2J;
+        "pkg-Hana-Dev474" = _KpQBmTJE;
+        "pkg-Hana-Dev475" = _cC7TWc45;
+        "pkg-Hana-Dev476" = _tf5JtWSH;
+        "pkg-Hana-Beta28" = _PT9whcWN;
+        "default" = _PT9whcWN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-printer-hana";

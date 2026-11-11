@@ -186,6 +186,26 @@ let
             "file" = "twilight_lib-1.20.1-forge-dev260819a.jar";
             "hash" = "sha512-6pxoBlOmb4guav9e/Y2dlwZd6ilID8tzhSTM4FPH86+T4qs6Hl+GxX7qwFChYgBAzaXf9drpNSDDR4bkMAGnVQ==";
         };
+        _jow2QwqG = {
+            "id" = "jow2QwqG";
+            "file" = "twilight_lib-1.21.1-fabric-dev261110a.jar";
+            "hash" = "sha512-yDqTdVoeKn3i/15zDkCVD6fo0P7ISfU1u7ZVoh0SDhEjHZX84lV7bgeIHLGRP/zq2xmvu39+WnflM6EXENxjyw==";
+        };
+        _Z6nqystm = {
+            "id" = "Z6nqystm";
+            "file" = "twilight_lib-1.21.1-neoforge-dev261110a.jar";
+            "hash" = "sha512-5kWPkNnDI7x1OrEos41exKDLDcV0RRnxUFd5RoeB7OlmRph9rnHPPHEm2KhribTXZ9toqb19MO22H/pZ7OIOsQ==";
+        };
+        _YdbkwhlY = {
+            "id" = "YdbkwhlY";
+            "file" = "twilight_lib-1.20.1-fabric-dev261110a.jar";
+            "hash" = "sha512-8njj9zIjh66XC/3aHM8kymZkjrA/NeV5nQZTU3HhQ6qoV31zCHxQXefpFWBI51YPlH7S3Jq9m/2kkAKWE1zUcw==";
+        };
+        _GXHpB4T8 = {
+            "id" = "GXHpB4T8";
+            "file" = "twilight_lib-1.20.1-forge-dev261110a.jar";
+            "hash" = "sha512-lKUS/roaPgyqJ0EPL+xCILBxeZX6Jm90rBPSxSouX3L5JyBoE9mmOiTL/4q5OwjlJ0vcuxtIsrplR436i0Vv7w==";
+        };
     in {
         "mTTzkGUN" = _mTTzkGUN;
         "gKbVvOta" = _gKbVvOta;
@@ -224,15 +244,19 @@ let
         "Z9pjBV8M" = _Z9pjBV8M;
         "odbxB1aw" = _odbxB1aw;
         "CIhSyz3E" = _CIhSyz3E;
+        "jow2QwqG" = _jow2QwqG;
+        "Z6nqystm" = _Z6nqystm;
+        "YdbkwhlY" = _YdbkwhlY;
+        "GXHpB4T8" = _GXHpB4T8;
         "forge-1.19.2" = _U1e2aQCz;
         "forge-1.19.4" = _oZEUScCT;
-        "forge-1.20.1" = _CIhSyz3E;
-        "neoforge-1.20.1" = _CIhSyz3E;
+        "forge-1.20.1" = _GXHpB4T8;
+        "neoforge-1.20.1" = _GXHpB4T8;
         "neoforge-1.20.4" = _Sgc2CNxs;
         "neoforge-1.20.6" = _EELy1yjK;
-        "neoforge-1.21.1" = _Z9pjBV8M;
-        "fabric-1.20.1" = _odbxB1aw;
-        "fabric-1.21.1" = _SaYwxlHe;
+        "neoforge-1.21.1" = _Z6nqystm;
+        "fabric-1.20.1" = _YdbkwhlY;
+        "fabric-1.21.1" = _jow2QwqG;
         "pkg-1.1.0.0" = _njb7RYUf;
         "pkg-1.1.1.1" = _XoiesgbT;
         "pkg-dev251106a" = _BuMKS6kv;
@@ -244,7 +268,8 @@ let
         "pkg-dev260626a" = _vPId7XmQ;
         "pkg-dev260818a" = _q4lXmeYt;
         "pkg-dev260819a" = _CIhSyz3E;
-        "default" = _CIhSyz3E;
+        "pkg-dev261110a" = _GXHpB4T8;
+        "default" = _GXHpB4T8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "twilight-lib";

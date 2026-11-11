@@ -126,6 +126,11 @@ let
             "file" = "farworld-1.3.4.5.jar";
             "hash" = "sha512-oKPjvI4w7N0j7kwXVL1CDpHPL6KkaSV6F5LwoYhnVjvoNhlW0EhxlL0izl56XTbdEIPVEh9Fo1h5YCx1SyNclQ==";
         };
+        _x3Bmz9Y3 = {
+            "id" = "x3Bmz9Y3";
+            "file" = "farworld-1.3.4.6.jar";
+            "hash" = "sha512-1cOy641BcqYoNeaKdhmQvADv6EpXfl8x8dl9iKHNtaJzW3ZxPwV80Ak/COFxS7TZMXWAsxPSu7T37RztoIp9WQ==";
+        };
     in {
         "jtsmP3Pe" = _jtsmP3Pe;
         "M6oAVx1I" = _M6oAVx1I;
@@ -152,8 +157,9 @@ let
         "NBqKHoWH" = _NBqKHoWH;
         "ULfD9eu2" = _ULfD9eu2;
         "xk8vAuhe" = _xk8vAuhe;
+        "x3Bmz9Y3" = _x3Bmz9Y3;
         "forge-1.20.1" = _jtsmP3Pe;
-        "neoforge-1.21.1" = _xk8vAuhe;
+        "neoforge-1.21.1" = _x3Bmz9Y3;
         "neoforge-1.21.2" = _L2rY75Ue;
         "neoforge-1.21.3" = _L2rY75Ue;
         "neoforge-1.21.4" = _L2rY75Ue;
@@ -188,7 +194,8 @@ let
         "pkg-1.3.4.3" = _NBqKHoWH;
         "pkg-1.3.4.4" = _ULfD9eu2;
         "pkg-1.3.4.5" = _xk8vAuhe;
-        "default" = _xk8vAuhe;
+        "pkg-1.3.4.6" = _x3Bmz9Y3;
+        "default" = _x3Bmz9Y3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farworld";

@@ -41,6 +41,11 @@ let
             "file" = "Pocket Universal V6.zip";
             "hash" = "sha512-QTSr3jaqvd4LTRZxHft4nDgE5UGWnOoM8YmFgYYjzE24gSUfOAouberN1wLTP4rJwxHK+OTy4lUiGciqA9FLjg==";
         };
+        _p4TSTqtM = {
+            "id" = "p4TSTqtM";
+            "file" = "Pocket Universal V6.5.zip";
+            "hash" = "sha512-AeeKxPdA6vswLGEpFNeDyvxhVj+wBR7sA7Y5fB4Ts/adEcjA/Ma5eRzKL3c8Odhzu7EzVD4+SC9oTMV/oVjkrQ==";
+        };
     in {
         "yyZkPZeZ" = _yyZkPZeZ;
         "zv8xr44b" = _zv8xr44b;
@@ -50,8 +55,9 @@ let
         "6qPTKpdF" = _6qPTKpdF;
         "CFIzflvc" = _CFIzflvc;
         "j7cIXNUj" = _j7cIXNUj;
-        "datapack-1.21.1" = _j7cIXNUj;
-        "minecraft-1.21.1" = _j7cIXNUj;
+        "p4TSTqtM" = _p4TSTqtM;
+        "datapack-1.21.1" = _p4TSTqtM;
+        "minecraft-1.21.1" = _p4TSTqtM;
         "pkg-1v" = _yyZkPZeZ;
         "pkg-v2" = _zv8xr44b;
         "pkg-V3.25" = _r1y9oBRx;
@@ -60,7 +66,8 @@ let
         "pkg-V5" = _6qPTKpdF;
         "pkg-V5.5" = _CFIzflvc;
         "pkg-V6" = _j7cIXNUj;
-        "default" = _j7cIXNUj;
+        "pkg-V6.5" = _p4TSTqtM;
+        "default" = _p4TSTqtM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pocket-universal";

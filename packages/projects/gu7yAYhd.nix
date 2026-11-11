@@ -1236,6 +1236,11 @@ let
             "file" = "cc-tweaked-26.3-fabric-1.121.0.jar";
             "hash" = "sha512-GRjmQoZZ2yj9D6z6lNdIgb+qnCG8wLq48X+z7qRERScSXv5E/E6C0SWg/hprOE59olLZGCUJa4Nuc3pZLvLLjQ==";
         };
+        _gu4wv8zh = {
+            "id" = "gu4wv8zh";
+            "file" = "cc-tweaked-1.4.7-1.121.0.jar";
+            "hash" = "sha512-Kg2M0PMUWeHWbdy2hAUQLGK5CRX36qc59DcnhpFXSOQ+ivFVy90+jQ82hep40TPOL5ICAWSEZT+9rRfCNkGe6A==";
+        };
     in {
         "WqeySHnJ" = _WqeySHnJ;
         "vs6rHRcl" = _vs6rHRcl;
@@ -1484,6 +1489,7 @@ let
         "ThbQoK4I" = _ThbQoK4I;
         "RcP8ANFt" = _RcP8ANFt;
         "M5LJB9s0" = _M5LJB9s0;
+        "gu4wv8zh" = _gu4wv8zh;
         "forge-1.16.4" = _WqeySHnJ;
         "forge-1.16.5" = _szgGZGGC;
         "forge-1.15.2" = _pBsBWmkc;
@@ -1497,7 +1503,7 @@ let
         "forge-1.19.3" = _eGjixIog;
         "forge-1.19.4" = _LS3REzLT;
         "forge-1.20" = _uTqLh5vj;
-        "forge-1.4.7" = _FgcxzPya;
+        "forge-1.4.7" = _gu4wv8zh;
         "forge-1.20.1" = _Qm9iIIEY;
         "fabric-1.19.4" = _mtL4uUWR;
         "fabric-1.20" = _Uq4DlqWv;
@@ -1631,8 +1637,8 @@ let
         "pkg-1.120.1" = _L5nVwMw9;
         "pkg-1.120.2" = _qCodNofi;
         "pkg-1.120.3" = _tKLY4fAR;
-        "pkg-1.121.0" = _M5LJB9s0;
-        "default" = _M5LJB9s0;
+        "pkg-1.121.0" = _gu4wv8zh;
+        "default" = _gu4wv8zh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cc-tweaked";

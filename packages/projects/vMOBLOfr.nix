@@ -46,6 +46,21 @@ let
             "file" = "CreateReiViewer-1.0.2+fly-mc26.1.jar";
             "hash" = "sha512-QZLEK+eT1b8FqGESBPStbpxohWM9UAvjaKAZ8QOCHrX66fI3OGSblZufW1m/XmyWYhch/I569XPzgg0vDtJasg==";
         };
+        _eVEDBrI1 = {
+            "id" = "eVEDBrI1";
+            "file" = "CreateReiViewer-1.0.3+fly-mc26.2.jar";
+            "hash" = "sha512-rC365UyJ4MoyXYqeX3BmiJrgjmGRNkgfdMGg400u6HrOt3mJbiRy1ret1ILJePWYz+uWKNT/pwVwGsH4uuy/Iw==";
+        };
+        _BhSkyDr0 = {
+            "id" = "BhSkyDr0";
+            "file" = "CreateReiViewer-1.0.3+fly-mc26.1.jar";
+            "hash" = "sha512-Uh5owuLjrVoXWj/2sXKwqZPX7cxgxyc8E+jocSjm7ihE2kRz4mGPVm86J5SYDaz3qMNQOaUn4Vg9GyF54v7QWw==";
+        };
+        _KyXrlkYD = {
+            "id" = "KyXrlkYD";
+            "file" = "CreateReiViewer-1.0.3+fly-mc26.3.jar";
+            "hash" = "sha512-BMu3rNA8rQ3vq/eCfNhn8vWYkIB4GdfJBVhIoHxV7jeEcApqJijEQJBkyO8rhwqkfW1xzamhgYyTUxeaormL6w==";
+        };
     in {
         "Vq8E2mrm" = _Vq8E2mrm;
         "VdEzC3g2" = _VdEzC3g2;
@@ -56,10 +71,14 @@ let
         "Aa7x0mWC" = _Aa7x0mWC;
         "f2zw9iQs" = _f2zw9iQs;
         "ORkdszGq" = _ORkdszGq;
-        "fabric-26.2" = _f2zw9iQs;
-        "fabric-26.1.2" = _ORkdszGq;
-        "fabric-26.1" = _ORkdszGq;
-        "fabric-26.1.1" = _ORkdszGq;
+        "eVEDBrI1" = _eVEDBrI1;
+        "BhSkyDr0" = _BhSkyDr0;
+        "KyXrlkYD" = _KyXrlkYD;
+        "fabric-26.2" = _eVEDBrI1;
+        "fabric-26.1.2" = _BhSkyDr0;
+        "fabric-26.1" = _BhSkyDr0;
+        "fabric-26.1.1" = _BhSkyDr0;
+        "fabric-26.3" = _KyXrlkYD;
         "pkg-1.0.0-fly.26.2-beta.5" = _Vq8E2mrm;
         "pkg-1.0.0-fly.26.2-beta.7" = _VdEzC3g2;
         "pkg-1.0.0-fly.26.1-beta.1" = _n0EzVUeY;
@@ -69,7 +88,10 @@ let
         "pkg-1.0.1+fly-mc26.2" = _Aa7x0mWC;
         "pkg-1.0.2+fly-mc26.2" = _f2zw9iQs;
         "pkg-1.0.2+fly-mc26.1" = _ORkdszGq;
-        "default" = _ORkdszGq;
+        "pkg-1.0.3+fly-mc26.2" = _eVEDBrI1;
+        "pkg-1.0.3+fly-mc26.1" = _BhSkyDr0;
+        "pkg-1.0.3+fly-mc26.3" = _KyXrlkYD;
+        "default" = _KyXrlkYD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-recipe-viewer";

@@ -31,6 +31,16 @@ let
             "file" = "annihilationblade-forge-1.20.1-1.4.1.jar";
             "hash" = "sha512-vzXZGCiRH/ZE10elO13a18x3m+tyoSHLpOAGPxfJc5QSQcPNLzP5KwfbKx2fM8Q0Z5iSADkmo/gHlp+QZJ4+eg==";
         };
+        _2mqB9hrG = {
+            "id" = "2mqB9hrG";
+            "file" = "annihilationblade-forge-1.20.1-1.4.2.jar";
+            "hash" = "sha512-UrY76W+9NY8F28H2I1dy+7+UNyiWzL0nSjXpzw9ONQZ9lRrSgXqxEYQkMLqgDwCkOMnwBD5vVK5ma4NLENT7rg==";
+        };
+        _PHu3Icde = {
+            "id" = "PHu3Icde";
+            "file" = "annihilationblade-neoforge-1.21.1-1.4.2.jar";
+            "hash" = "sha512-G71fhMJqFkNTOJ/OnVN/VHo8vptj4QRv2bZdeZz2CJZ2t/d1fCdETHxIcUsSQvrcP9P+wlxg/3Ll0bW71+Idzg==";
+        };
     in {
         "sClB4FmT" = _sClB4FmT;
         "8HBRoeDU" = _8HBRoeDU;
@@ -38,13 +48,16 @@ let
         "K6HHzvYW" = _K6HHzvYW;
         "lylJAGn7" = _lylJAGn7;
         "JkCieEAS" = _JkCieEAS;
-        "forge-1.20.1" = _JkCieEAS;
-        "neoforge-1.21.1" = _lylJAGn7;
+        "2mqB9hrG" = _2mqB9hrG;
+        "PHu3Icde" = _PHu3Icde;
+        "forge-1.20.1" = _2mqB9hrG;
+        "neoforge-1.21.1" = _PHu3Icde;
         "pkg-1.3.0" = _sClB4FmT;
         "pkg-1.3.1" = _8HBRoeDU;
         "pkg-1.4.0" = _K6HHzvYW;
         "pkg-1.4.1" = _JkCieEAS;
-        "default" = _JkCieEAS;
+        "pkg-1.4.2" = _PHu3Icde;
+        "default" = _PHu3Icde;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annihilationblade";

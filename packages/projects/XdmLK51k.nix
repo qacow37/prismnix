@@ -271,6 +271,11 @@ let
             "file" = "better_loot_zibura-2.2.3-26.3-fabric.jar";
             "hash" = "sha512-OZTxbczt7mRAK90Pk15K5bRj20MCJh8/ztvi6UWlJxCveBIBgWEon0vi7fT1ZZnyFjsigz4KYQzqS/9PiJGeCw==";
         };
+        _RiqRJKoM = {
+            "id" = "RiqRJKoM";
+            "file" = "better_loot_zibura-2.2.3-1.21.1-fabric.jar";
+            "hash" = "sha512-tmCrVTFa8ptqCoJQyjJ7m3rNVpi+aLNrF0NqxVtDyLeZPqeQ05DdHVSjcPJi1l4UWEdCuLPlR8Vj34VsXxIRuA==";
+        };
     in {
         "9TIz0rED" = _9TIz0rED;
         "Z6S2OEs8" = _Z6S2OEs8;
@@ -326,9 +331,11 @@ let
         "XtnhoaQK" = _XtnhoaQK;
         "YeJuQGcu" = _YeJuQGcu;
         "Iv22CBEW" = _Iv22CBEW;
+        "RiqRJKoM" = _RiqRJKoM;
         "forge-1.20.1" = _XtnhoaQK;
         "neoforge-1.21.1" = _YeJuQGcu;
         "fabric-26.3" = _Iv22CBEW;
+        "fabric-1.21.1" = _RiqRJKoM;
         "pkg-0.2.0" = _Z6S2OEs8;
         "pkg-forge-1.20.1-0.3.0" = _bLJzhDVR;
         "pkg-neoforge-1.21.1-0.3.0" = _hTIRY7CR;
@@ -357,8 +364,8 @@ let
         "pkg-2.2.0" = _v560AXA6;
         "pkg-2.2.1" = _3rjBg4F1;
         "pkg-2.2.2" = _5Y3LKHea;
-        "pkg-2.2.3" = _Iv22CBEW;
-        "default" = _Iv22CBEW;
+        "pkg-2.2.3" = _RiqRJKoM;
+        "default" = _RiqRJKoM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterloot-zibura";

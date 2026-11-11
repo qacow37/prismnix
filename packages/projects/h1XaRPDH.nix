@@ -16,10 +16,16 @@ let
             "file" = "dynamic-rain-shader_0.1.2_1.21.4.zip";
             "hash" = "sha512-bs3E7nQpZyDjzFtG5gi8FSFoqD7qJkU5z90lkk9jJaOnqBu8/85qV3vc1bSEipgrONQiyVh0lzxPMU3hOm7Pig==";
         };
+        _Y1ylWnLB = {
+            "id" = "Y1ylWnLB";
+            "file" = "Dynamic Rain Shader 26.3.zip";
+            "hash" = "sha512-XcQIzkmxcJzuFRH3oiBGSUL9lkxWe980sMt6n0o4VYW0qAyUrNxfjN2LsQhtprtHmV2Upb62ceVtWInNltePzQ==";
+        };
     in {
         "kWKXHt1R" = _kWKXHt1R;
         "ecL7xS8q" = _ecL7xS8q;
         "9vWDGhLQ" = _9vWDGhLQ;
+        "Y1ylWnLB" = _Y1ylWnLB;
         "minecraft-1.19" = _ecL7xS8q;
         "minecraft-1.19.1" = _ecL7xS8q;
         "minecraft-1.19.2" = _ecL7xS8q;
@@ -35,10 +41,12 @@ let
         "minecraft-1.21" = _ecL7xS8q;
         "minecraft-1.21.1" = _ecL7xS8q;
         "minecraft-1.21.4" = _9vWDGhLQ;
+        "minecraft-26.3" = _Y1ylWnLB;
         "pkg-0.1.0" = _kWKXHt1R;
         "pkg-0.1.1" = _ecL7xS8q;
         "pkg-0.1.2_1.21.4" = _9vWDGhLQ;
-        "default" = _9vWDGhLQ;
+        "pkg-26.3.1" = _Y1ylWnLB;
+        "default" = _Y1ylWnLB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-rain-shader";

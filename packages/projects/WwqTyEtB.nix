@@ -1056,6 +1056,11 @@ let
             "file" = "pets-mod-0.8.4-1.8.9-ornithe.jar";
             "hash" = "sha512-TsAETF2hLPjK2Xyz+tdVz0pqTdeUshcBU/s2ao6SLFPcwfyteOq3UGrCTiqBhSXu4JwFNmJEAvHQOmD2eUcD5g==";
         };
+        _RvXXEgGv = {
+            "id" = "RvXXEgGv";
+            "file" = "pets-mod-SNAPSHOT-26.4b8.jar";
+            "hash" = "sha512-pVM4h6i5qqPraG874ZBT95JMA4JDPg/1qo7E9Wd34qSgIiu1IaOZFMKrzz6jgbTh83i1KYeVHuhaufv8N7jGNw==";
+        };
     in {
         "QXwNiseV" = _QXwNiseV;
         "fNYBq9w9" = _fNYBq9w9;
@@ -1268,6 +1273,7 @@ let
         "WjUyHixT" = _WjUyHixT;
         "4VTyDtja" = _4VTyDtja;
         "LJimnBa9" = _LJimnBa9;
+        "RvXXEgGv" = _RvXXEgGv;
         "fabric-1.21.11" = _CPwFdYy0;
         "fabric-26.1" = _O9ZcoNMs;
         "fabric-26.1.1" = _O9ZcoNMs;
@@ -1322,6 +1328,7 @@ let
         "fabric-26.4-snapshot-4" = _2zJ2Mmkk;
         "fabric-26.4-snapshot-6" = _RlnIQ4fw;
         "fabric-26.4-snapshot-7" = _Cj5fSQq2;
+        "fabric-26.4-snapshot-8" = _RvXXEgGv;
         "quilt-26.1" = _O9ZcoNMs;
         "quilt-26.1.1" = _O9ZcoNMs;
         "quilt-26.1.2" = _O9ZcoNMs;
@@ -1376,6 +1383,7 @@ let
         "quilt-26.4-snapshot-4" = _2zJ2Mmkk;
         "quilt-26.4-snapshot-6" = _RlnIQ4fw;
         "quilt-26.4-snapshot-7" = _Cj5fSQq2;
+        "quilt-26.4-snapshot-8" = _RvXXEgGv;
         "neoforge-26.1" = _PkS7qc25;
         "neoforge-26.1.1" = _PkS7qc25;
         "neoforge-26.1.2" = _PkS7qc25;
@@ -1707,7 +1715,7 @@ let
         "pkg-0.8.5-26.3-Fabric" = _bB1dCF2I;
         "pkg-0.8.5-26.3-Neo" = _bZwa6Buu;
         "pkg-0.8.5-26.3-Java-Agent" = _fii2LlJM;
-        "pkg-SNAPSHOT" = _RlnIQ4fw;
+        "pkg-SNAPSHOT" = _RvXXEgGv;
         "pkg-0.8.5-26.2-Fabric+build.2" = _jIQDeZu3;
         "pkg-0.8.5-26.3-Neo+build.2" = _ZGwBvZHK;
         "pkg-0.7.9-1.8.9-Legacy-Fabric" = _2zguxf3b;
@@ -1746,7 +1754,7 @@ let
         "pkg-0.8.7-26.3-Neo" = _WjUyHixT;
         "pkg-0.8.7-26.3-Java-Agent" = _4VTyDtja;
         "pkg-0.8.4-1.8.9-Ornithe" = _LJimnBa9;
-        "default" = _LJimnBa9;
+        "default" = _RvXXEgGv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pets-mod";

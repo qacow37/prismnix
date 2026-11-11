@@ -81,6 +81,16 @@ let
             "file" = "more-raids-V1.0.7-data.jar";
             "hash" = "sha512-XAXianrzXrZ91nsziSJup6x0jKV3l6tZTfugK1OfV6lFsEtBr6jEhqyUyAP30wlIUJEweyHNm/8UJdc1OBZN/g==";
         };
+        _CZJQpIcy = {
+            "id" = "CZJQpIcy";
+            "file" = "More Raids V1.0.8.zip";
+            "hash" = "sha512-RAmM4HHZH4cDzP9Ckf7+rGgBB/GrO+XEDGCjAA70+TO+ndhdG3oecVJDtSdEmuWDuCwMPc0phS2qpC5o+3T/NQ==";
+        };
+        _gxNKOOi3 = {
+            "id" = "gxNKOOi3";
+            "file" = "more-raids-V1.0.8-data.jar";
+            "hash" = "sha512-3hec9MpWZBQ0i6Ux7ptOJ4i/Crc6G6+K6CLv5+hFX86wwWVLs1PCTnw2mYFx/zKtApovrrVkmJGgaXXgwzrVEw==";
+        };
     in {
         "t20HCK9v" = _t20HCK9v;
         "eGKVfV6g" = _eGKVfV6g;
@@ -98,6 +108,8 @@ let
         "gNLQNUUd" = _gNLQNUUd;
         "tWrXSkak" = _tWrXSkak;
         "tmhLY9ns" = _tmhLY9ns;
+        "CZJQpIcy" = _CZJQpIcy;
+        "gxNKOOi3" = _gxNKOOi3;
         "datapack-1.21" = _t20HCK9v;
         "datapack-1.21.1" = _t20HCK9v;
         "datapack-1.21.2" = _t9qzsuLq;
@@ -114,6 +126,7 @@ let
         "datapack-26.1.1" = _b5ZEqaPo;
         "datapack-26.1.2" = _b5ZEqaPo;
         "datapack-26.2" = _tWrXSkak;
+        "datapack-26.3" = _CZJQpIcy;
         "fabric-1.21" = _eGKVfV6g;
         "fabric-1.21.1" = _eGKVfV6g;
         "fabric-1.21.2" = _lAOkG7oi;
@@ -130,6 +143,7 @@ let
         "fabric-26.1.1" = _gNLQNUUd;
         "fabric-26.1.2" = _gNLQNUUd;
         "fabric-26.2" = _tmhLY9ns;
+        "fabric-26.3" = _gxNKOOi3;
         "forge-1.21" = _eGKVfV6g;
         "forge-1.21.1" = _eGKVfV6g;
         "forge-1.21.2" = _lAOkG7oi;
@@ -146,6 +160,7 @@ let
         "forge-26.1.1" = _gNLQNUUd;
         "forge-26.1.2" = _gNLQNUUd;
         "forge-26.2" = _tmhLY9ns;
+        "forge-26.3" = _gxNKOOi3;
         "neoforge-1.21" = _eGKVfV6g;
         "neoforge-1.21.1" = _eGKVfV6g;
         "neoforge-1.21.2" = _lAOkG7oi;
@@ -162,6 +177,7 @@ let
         "neoforge-26.1.1" = _gNLQNUUd;
         "neoforge-26.1.2" = _gNLQNUUd;
         "neoforge-26.2" = _tmhLY9ns;
+        "neoforge-26.3" = _gxNKOOi3;
         "quilt-1.21" = _eGKVfV6g;
         "quilt-1.21.1" = _eGKVfV6g;
         "quilt-1.21.2" = _lAOkG7oi;
@@ -178,6 +194,7 @@ let
         "quilt-26.1.1" = _gNLQNUUd;
         "quilt-26.1.2" = _gNLQNUUd;
         "quilt-26.2" = _tmhLY9ns;
+        "quilt-26.3" = _gxNKOOi3;
         "pkg-V1.0-data" = _t20HCK9v;
         "pkg-V1.0-mod" = _eGKVfV6g;
         "pkg-V1.0.1-data" = _7n2ZjHN3;
@@ -194,7 +211,9 @@ let
         "pkg-V1.0.6-mod" = _gNLQNUUd;
         "pkg-V1.0.7-data" = _tWrXSkak;
         "pkg-V1.0.7-mod" = _tmhLY9ns;
-        "default" = _tmhLY9ns;
+        "pkg-V1.0.8-data" = _CZJQpIcy;
+        "pkg-V1.0.8-mod" = _gxNKOOi3;
+        "default" = _gxNKOOi3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-raids";

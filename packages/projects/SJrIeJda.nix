@@ -41,6 +41,21 @@ let
             "file" = "BlocksAndBogies-1.0.8.1+fly-mc26.1.jar";
             "hash" = "sha512-JMsIZKs05RkpZaiaUqdUb2S4KkwAD1x+h6B3OmhKFTN1hJb3U7nSp92DfSdoA8u5V1UewPioOZcAmSHNJ39Mgg==";
         };
+        _5I9TGcWS = {
+            "id" = "5I9TGcWS";
+            "file" = "BlocksAndBogies-1.0.8.2+fly-mc26.2.jar";
+            "hash" = "sha512-cWApbYm6aJaFcemMN8t5i7tfHmwZUwSXLjpJXCDzPRvFct/aNGQo/bZiLTXRMkdPhP8kNe82emNNJz5OU2RmkA==";
+        };
+        _AFh5OZeD = {
+            "id" = "AFh5OZeD";
+            "file" = "BlocksAndBogies-1.0.8.2+fly-mc26.1.jar";
+            "hash" = "sha512-3pBHGGnQXfvL8lwen1NPAoB7PL1OSSGSj9j2Z2SjMaG31P1TPjIznI55Zxxq1gX7rWwvHY6f02V9jbjj+9sQ9g==";
+        };
+        _QjVjd7xC = {
+            "id" = "QjVjd7xC";
+            "file" = "BlocksAndBogies-1.0.8.2+fly-mc26.3.jar";
+            "hash" = "sha512-JNPPRXV0H1jI29ETMR/L1cqTbK99VfGGB/7UCFH7heyb2PFHw6s/6ml4IGFSLKHMez5r7aFR70dH0EwXtCP93g==";
+        };
     in {
         "K41zEU6d" = _K41zEU6d;
         "1hGUsgKu" = _1hGUsgKu;
@@ -50,10 +65,14 @@ let
         "r9zJ9fFm" = _r9zJ9fFm;
         "AiMGcsCS" = _AiMGcsCS;
         "Auji4688" = _Auji4688;
-        "fabric-26.2" = _AiMGcsCS;
-        "fabric-26.1.2" = _Auji4688;
-        "fabric-26.1" = _Auji4688;
-        "fabric-26.1.1" = _Auji4688;
+        "5I9TGcWS" = _5I9TGcWS;
+        "AFh5OZeD" = _AFh5OZeD;
+        "QjVjd7xC" = _QjVjd7xC;
+        "fabric-26.2" = _5I9TGcWS;
+        "fabric-26.1.2" = _AFh5OZeD;
+        "fabric-26.1" = _AFh5OZeD;
+        "fabric-26.1.1" = _AFh5OZeD;
+        "fabric-26.3" = _QjVjd7xC;
         "pkg-1.0.8-fly.26.2-beta.4" = _K41zEU6d;
         "pkg-1.0.8-fly.26.1.2-beta.1" = _1hGUsgKu;
         "pkg-1.0.8-fly.26.1.2-beta.2" = _bMQDKedq;
@@ -62,7 +81,10 @@ let
         "pkg-1.0.8+fly-mc26.1" = _r9zJ9fFm;
         "pkg-1.0.8.1+fly-mc26.2" = _AiMGcsCS;
         "pkg-1.0.8.1+fly-mc26.1" = _Auji4688;
-        "default" = _Auji4688;
+        "pkg-1.0.8.2+fly-mc26.2" = _5I9TGcWS;
+        "pkg-1.0.8.2+fly-mc26.1" = _AFh5OZeD;
+        "pkg-1.0.8.2+fly-mc26.3" = _QjVjd7xC;
+        "default" = _QjVjd7xC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-blocks-bogies-unofficial-port";

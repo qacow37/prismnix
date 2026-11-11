@@ -231,6 +231,26 @@ let
             "file" = "tiered_more-fabric-1.2.11.jar";
             "hash" = "sha512-WHoy2x3w3af6sJMf9+N+GUdBCWBY2DX3S4r5XAw4YuyJDYhX9i3l6TmZgMut3WWWjcWCrTkqPuilkgg73w9ahQ==";
         };
+        _Uax8SkUx = {
+            "id" = "Uax8SkUx";
+            "file" = "tiered_more-neoforge-1.2.2.jar";
+            "hash" = "sha512-aH69kWOqTxLC1fbhbL/R6/ngVLdyeROoSPzCsBoUK40mynNa2jFLwdIhLkBef18gpeZngHXt50M6lwgCHAxtbg==";
+        };
+        _uTdTnt7i = {
+            "id" = "uTdTnt7i";
+            "file" = "tiered_more-fabric-1.2.2.jar";
+            "hash" = "sha512-hOpb5LJBfcK/z/dyoZR5dRh48pv1Ja1Z7sGqohzHmj0Jvgpo8wvnJ507RqEW2kcwcw5V/RVfeIB5Q2WBDB8cJA==";
+        };
+        _qHQ22hbo = {
+            "id" = "qHQ22hbo";
+            "file" = "tiered_more-fabric-1.3.0.jar";
+            "hash" = "sha512-tqsbCSi7ke7hfq+dLLck4xf1t+Ygd+E3tGLlN17ZKAvauPj6muyKppyF7qsNvEK/g5KTL+fwCHNECMEfc4Ct+A==";
+        };
+        _Pi5JPIRa = {
+            "id" = "Pi5JPIRa";
+            "file" = "tiered_more-neoforge-1.3.0.jar";
+            "hash" = "sha512-yWT0YnDdcFXGsXW7rrfiF2jv7J6LjeGB8jNFDYlpL1H0Puud0O+WA3kQeAgYlnK2jWxuq/fe+FnEL38rNFwBJA==";
+        };
     in {
         "cqBVGuKD" = _cqBVGuKD;
         "TYWQkX27" = _TYWQkX27;
@@ -278,8 +298,12 @@ let
         "FQnP4JQk" = _FQnP4JQk;
         "H9bYIvfq" = _H9bYIvfq;
         "90icQGjt" = _90icQGjt;
-        "fabric-1.21.1" = _90icQGjt;
-        "neoforge-1.21.1" = _H9bYIvfq;
+        "Uax8SkUx" = _Uax8SkUx;
+        "uTdTnt7i" = _uTdTnt7i;
+        "qHQ22hbo" = _qHQ22hbo;
+        "Pi5JPIRa" = _Pi5JPIRa;
+        "fabric-1.21.1" = _qHQ22hbo;
+        "neoforge-1.21.1" = _Pi5JPIRa;
         "pkg-1.0.0" = _cqBVGuKD;
         "pkg-1.0.1" = _TYWQkX27;
         "pkg-1.0.5" = _Hy8VPLpJ;
@@ -303,7 +327,7 @@ let
         "pkg-1.1.9" = _nna1NS1B;
         "pkg-1.2.0" = _5V2hoGCA;
         "pkg-1.2.1" = _5P8DYfbb;
-        "pkg-1.2.2" = _Cou5lJXu;
+        "pkg-1.2.2" = _uTdTnt7i;
         "pkg-1.2.3" = _Vk2AyhRb;
         "pkg-1.2.4" = _roKxav9L;
         "pkg-1.2.5" = _UWGwAorz;
@@ -313,7 +337,8 @@ let
         "pkg-1.2.9" = _CoCz6afQ;
         "pkg-1.2.10" = _FQnP4JQk;
         "pkg-1.2.11" = _90icQGjt;
-        "default" = _90icQGjt;
+        "pkg-1.3.0" = _Pi5JPIRa;
+        "default" = _Pi5JPIRa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiered-more";

@@ -71,6 +71,11 @@ let
             "file" = "FreeCam-Fabric-MC-26.3-custom.4.jar";
             "hash" = "sha512-ktVwAUc5Ta6Jzm448p9dOs0heyYQFhr3WXUUWRPHBjuzo6HtwlTv/XImIF/2yM2BXEr8JZmlf+LxXL7aexX5vw==";
         };
+        _wuKoJoKt = {
+            "id" = "wuKoJoKt";
+            "file" = "FreeCam-Fabric-MC-1.21.10-custom.5.jar";
+            "hash" = "sha512-yTBoysL+o17acMrY5kMtU80IYtSWLIxApS5y2WjwFXzIneBdeahElIiFJmUCYnK/J20W/XCL+q29hqjdqMyZlA==";
+        };
     in {
         "UvcxXC0G" = _UvcxXC0G;
         "h0QbHKoB" = _h0QbHKoB;
@@ -86,6 +91,7 @@ let
         "8mJBPidk" = _8mJBPidk;
         "X4INJpJw" = _X4INJpJw;
         "MXdwQbkb" = _MXdwQbkb;
+        "wuKoJoKt" = _wuKoJoKt;
         "fabric-1.18" = _UvcxXC0G;
         "fabric-1.18.1" = _UvcxXC0G;
         "fabric-1.18.2" = _h0QbHKoB;
@@ -97,7 +103,7 @@ let
         "fabric-26.1.2" = _SBkpi4Fp;
         "fabric-1.20.5" = _i7B7uMDn;
         "fabric-1.20.6" = _i7B7uMDn;
-        "fabric-1.21.10" = _l7Bipt5v;
+        "fabric-1.21.10" = _wuKoJoKt;
         "fabric-1.21.11" = _l7Bipt5v;
         "fabric-26.1" = _SBkpi4Fp;
         "fabric-26.1.1" = _SBkpi4Fp;
@@ -147,8 +153,8 @@ let
         "pkg-1.4" = _gCa8k0ft;
         "pkg-1.5" = _8mJBPidk;
         "pkg-2" = _X4INJpJw;
-        "pkg-3" = _MXdwQbkb;
-        "default" = _MXdwQbkb;
+        "pkg-3" = _wuKoJoKt;
+        "default" = _wuKoJoKt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freecam_yannis_";

@@ -26,25 +26,32 @@ let
             "file" = "Portland Transit Pack v2.2.zip";
             "hash" = "sha512-gdCut4kvbQPiPpygESJ/1nUrD0UH8OrXwraKfPyPbOMCgv0ttrm8B2wEuim6c1Mpy7BdXYukyoE3j7xj/0XlGg==";
         };
+        _1wOoTUgj = {
+            "id" = "1wOoTUgj";
+            "file" = "Portland Transit Pack v2.3.zip";
+            "hash" = "sha512-HQYBgTTVYUlbIvuQCFXpjZDbQ0maNac1xfkNtk5Er4jStBm9+Nh6g6UmFovP2n8JpIbfn10VEAisMTwnN3Th5w==";
+        };
     in {
         "LgdPr0rU" = _LgdPr0rU;
         "awxjXMWi" = _awxjXMWi;
         "YvdCOIjs" = _YvdCOIjs;
         "3n7d5xzu" = _3n7d5xzu;
         "jUNlAzTw" = _jUNlAzTw;
-        "minecraft-1.16.5" = _jUNlAzTw;
-        "minecraft-1.17.1" = _jUNlAzTw;
-        "minecraft-1.18.2" = _jUNlAzTw;
-        "minecraft-1.19.2" = _jUNlAzTw;
-        "minecraft-1.19.4" = _jUNlAzTw;
-        "minecraft-1.20.1" = _jUNlAzTw;
-        "minecraft-1.20.4" = _jUNlAzTw;
+        "1wOoTUgj" = _1wOoTUgj;
+        "minecraft-1.16.5" = _1wOoTUgj;
+        "minecraft-1.17.1" = _1wOoTUgj;
+        "minecraft-1.18.2" = _1wOoTUgj;
+        "minecraft-1.19.2" = _1wOoTUgj;
+        "minecraft-1.19.4" = _1wOoTUgj;
+        "minecraft-1.20.1" = _1wOoTUgj;
+        "minecraft-1.20.4" = _1wOoTUgj;
         "pkg-1.0" = _LgdPr0rU;
         "pkg-1.1" = _awxjXMWi;
         "pkg-2.0" = _YvdCOIjs;
         "pkg-2.1" = _3n7d5xzu;
         "pkg-2.2" = _jUNlAzTw;
-        "default" = _jUNlAzTw;
+        "pkg-2.3" = _1wOoTUgj;
+        "default" = _1wOoTUgj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trimet-s700";

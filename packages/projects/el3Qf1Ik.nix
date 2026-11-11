@@ -16,15 +16,23 @@ let
             "file" = "dutchpidsv1.zip";
             "hash" = "sha512-lclzU+v/VVwXHeCkxLf8txwS9N1HAGzkxoz1Byg2/+/KtZyAJ4wgglshsjMRF5Lh4H45IOCm06vF6EHUOPiwmA==";
         };
+        _fPHh5nAt = {
+            "id" = "fPHh5nAt";
+            "file" = "dutchpidspackv1.2.zip";
+            "hash" = "sha512-U1fQhKwlCzYSmheIe3yVjykhXwm4tuJVzFvEeshAfUIuudgNJ8+dwK07xnSvcuaT97gIsVJlidT8YOvkz2Yq9A==";
+        };
     in {
         "u5Fa9Q4B" = _u5Fa9Q4B;
         "uFf3PCKt" = _uFf3PCKt;
         "fJMSMZzx" = _fJMSMZzx;
-        "minecraft-1.20.1" = _fJMSMZzx;
+        "fPHh5nAt" = _fPHh5nAt;
+        "minecraft-1.20.1" = _fPHh5nAt;
+        "minecraft-1.20" = _fPHh5nAt;
         "pkg-0.0.1" = _u5Fa9Q4B;
         "pkg-0.0.3" = _uFf3PCKt;
         "pkg-v1" = _fJMSMZzx;
-        "default" = _fJMSMZzx;
+        "pkg-1.2" = _fPHh5nAt;
+        "default" = _fPHh5nAt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr_dutchpidspack";

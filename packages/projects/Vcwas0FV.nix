@@ -116,6 +116,16 @@ let
             "file" = "WR And Foxline Intercity 225.zip";
             "hash" = "sha512-PAtr03LL4/yH/D6aF04Gwmaz04sjWLKFKmExHkoUFPeYH1Zk3s0vx3q0kjPvPcVX68VP4KLGINwy6d3F+Eunfg==";
         };
+        _9fXH1pjc = {
+            "id" = "9fXH1pjc";
+            "file" = "WelshieRail Metro 1972 Stock.zip";
+            "hash" = "sha512-mz35ipHDR+NL/+f2xzPRhDNsNZfMuCWVuOLHaFKVKlsi0geIdW88ZD0umAOLluDP7ALItY2kKAswJVDNGEUspg==";
+        };
+        _gApX4hyK = {
+            "id" = "gApX4hyK";
+            "file" = "WelshieRail Metro C69 Stock.zip";
+            "hash" = "sha512-WcgSGVL5VBTil61VMIZo1DZ/5G7DzE5Im3tDFhhQ/ZDA4aPOGjDeu8Sxsy0Zmq3gnRFlCziNKiRU6ZjpVhrXqw==";
+        };
     in {
         "j3X9ii1D" = _j3X9ii1D;
         "njj1I3W2" = _njj1I3W2;
@@ -140,11 +150,13 @@ let
         "voAAkN8N" = _voAAkN8N;
         "UrqwCBKk" = _UrqwCBKk;
         "khurdMWr" = _khurdMWr;
+        "9fXH1pjc" = _9fXH1pjc;
+        "gApX4hyK" = _gApX4hyK;
         "minecraft-1.19" = _vRrJembv;
         "minecraft-1.19.1" = _vRrJembv;
         "minecraft-1.19.2" = _vRrJembv;
-        "minecraft-1.20.3" = _UrqwCBKk;
-        "minecraft-1.20.4" = _UrqwCBKk;
+        "minecraft-1.20.3" = _gApX4hyK;
+        "minecraft-1.20.4" = _gApX4hyK;
         "minecraft-1.20" = _khurdMWr;
         "minecraft-1.20.1" = _khurdMWr;
         "pkg-3" = _j3X9ii1D;
@@ -170,7 +182,9 @@ let
         "pkg-16" = _voAAkN8N;
         "pkg-17" = _UrqwCBKk;
         "pkg-91" = _khurdMWr;
-        "default" = _khurdMWr;
+        "pkg-1972" = _9fXH1pjc;
+        "pkg-18" = _gApX4hyK;
+        "default" = _gApX4hyK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "welshierail";

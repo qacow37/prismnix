@@ -31,6 +31,26 @@ let
             "file" = "immersive-portals-updated-6.2.0-mc1.21.1-fabric.jar";
             "hash" = "sha512-sXcUFY2HBBhfJS4EQRFmjKt6odba6iu8aF5uBgdjZaKretXgPOfUKxOxRxnjVky7rWLcsJoekLT7t7Y0YFRatw==";
         };
+        _eekfZG0j = {
+            "id" = "eekfZG0j";
+            "file" = "immersive-portals-updated-5.4.0-mc1.20.1-fabric.jar";
+            "hash" = "sha512-FgCbrHTIzMU1zU8KkuyezdLHAH30Q9j2qgbxFFF4OPz6JUrCSK4oH5ZU3qUnWPO9vGXRS0/G4UDH+esvEGjGHg==";
+        };
+        _Q736qKHH = {
+            "id" = "Q736qKHH";
+            "file" = "immersive-portals-updated-6.3.0-mc1.21.1-fabric.jar";
+            "hash" = "sha512-/iqv2uBoXMCJqyZRH6Lk9ci8bfS3t4Gwfog6D53Vt/txTiCtXwC9lWVqo3XBKgt7vgi92PTUwOT0r+WiruAp1w==";
+        };
+        _ZRPF1jBZ = {
+            "id" = "ZRPF1jBZ";
+            "file" = "immersive-portals-updated-5.4.1-mc1.20.1-fabric.jar";
+            "hash" = "sha512-iJDxN8Tka32ZPHJhsYfJyhcQgaDTpKc2HSDs4lPVTVveAbjtfJnKiiq0L2tKo0C05gazryOpWW/MH3LMH5vdxQ==";
+        };
+        _XEdV5oeE = {
+            "id" = "XEdV5oeE";
+            "file" = "immersive-portals-updated-6.3.1-mc1.21.1-fabric.jar";
+            "hash" = "sha512-vfH1pNpzHLxytapZ2GaZ5TUNgddwqyXy0jmEtcl7ev9DqGbyIF0uiP00XfZzGQ0X0QIeGATodXx2ltQkRDVtkw==";
+        };
     in {
         "ZqcOisJA" = _ZqcOisJA;
         "RlccWCGn" = _RlccWCGn;
@@ -38,17 +58,25 @@ let
         "GW1Uczu3" = _GW1Uczu3;
         "gjrzrifA" = _gjrzrifA;
         "COan3u71" = _COan3u71;
+        "eekfZG0j" = _eekfZG0j;
+        "Q736qKHH" = _Q736qKHH;
+        "ZRPF1jBZ" = _ZRPF1jBZ;
+        "XEdV5oeE" = _XEdV5oeE;
         "fabric-1.20" = _gjrzrifA;
-        "fabric-1.20.1" = _gjrzrifA;
+        "fabric-1.20.1" = _ZRPF1jBZ;
         "fabric-1.21" = _COan3u71;
-        "fabric-1.21.1" = _COan3u71;
+        "fabric-1.21.1" = _XEdV5oeE;
         "pkg-v5.2.3-mc1.20.1" = _ZqcOisJA;
         "pkg-v6.0.9-mc1.21.1" = _RlccWCGn;
         "pkg-v5.2.4-mc1.20.1" = _1ZexHwlN;
         "pkg-v6.1.0-mc1.21.1" = _GW1Uczu3;
         "pkg-v5.3.0-mc1.20.1" = _gjrzrifA;
         "pkg-v6.2.0-mc1.21.1" = _COan3u71;
-        "default" = _COan3u71;
+        "pkg-v5.4.0-mc1.20.1" = _eekfZG0j;
+        "pkg-v6.3.0-mc1.21.1" = _Q736qKHH;
+        "pkg-v5.4.1-mc1.20.1" = _ZRPF1jBZ;
+        "pkg-v6.3.1-mc1.21.1" = _XEdV5oeE;
+        "default" = _XEdV5oeE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-portals-updated";

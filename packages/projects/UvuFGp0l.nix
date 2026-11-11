@@ -21,17 +21,30 @@ let
             "file" = "emf_compat_quark_1.21.1_1.1.0.jar";
             "hash" = "sha512-GS+BJVRaoNXDIDyWqFMNIGAHdke1A7aZPWVOWQZpcaYZi+RqbzM3Nt6R9d5MgFs6+7RMH87OffjnTGuJ1xKmWw==";
         };
+        _SINsx1f1 = {
+            "id" = "SINsx1f1";
+            "file" = "emf_compat_quark_forge_1.20.1_1.1.1.jar";
+            "hash" = "sha512-/ZIiU8hFsp9We3L/713E0ILewUCLRq+g1FdenL04eHJIdZqqeiVidoR7irm012wMOxaVXsFxAFJOYPMxjBFNzQ==";
+        };
+        _ZdahQjlA = {
+            "id" = "ZdahQjlA";
+            "file" = "emf_compat_quark_neoforge_1.21.1_1.1.1.jar";
+            "hash" = "sha512-aHhDFJBSxq67GPwOaTYRAtwuXfgtg1/7pM8fj7FMIFmtvSjubg0q2fY8G5D4n78dB1dfBO1yX45QbK/g22XIhQ==";
+        };
     in {
         "J6MZCM2B" = _J6MZCM2B;
         "wGluJzq8" = _wGluJzq8;
         "SSP4NLlG" = _SSP4NLlG;
         "iuCwulgK" = _iuCwulgK;
-        "neoforge-1.21.1" = _iuCwulgK;
-        "forge-1.20.1" = _SSP4NLlG;
+        "SINsx1f1" = _SINsx1f1;
+        "ZdahQjlA" = _ZdahQjlA;
+        "neoforge-1.21.1" = _ZdahQjlA;
+        "forge-1.20.1" = _SINsx1f1;
         "pkg-1.0.0" = _J6MZCM2B;
         "pkg-1.0.1" = _wGluJzq8;
         "pkg-1.1.0" = _iuCwulgK;
-        "default" = _iuCwulgK;
+        "pkg-1.1.1" = _ZdahQjlA;
+        "default" = _ZdahQjlA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-quark";

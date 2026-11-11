@@ -46,6 +46,21 @@ let
             "file" = "The_Sculk_Sword-1.0.1-Neoforge-26.1.2.jar";
             "hash" = "sha512-hV7AyxDiQO+7JAm23DvuR59VEQnezVZXdUy3JUR8i9tV69E8s2wtUNKNEn9cqKap4PgKoHHCVRpmMjx3awCOzg==";
         };
+        _zKFPn3FB = {
+            "id" = "zKFPn3FB";
+            "file" = "thesculksword-1.0.1-fabric-1.21.11.jar";
+            "hash" = "sha512-lC/4jYkLHHTCznTmk+ugFSlWRuATcy7hMR9K+TEuvPWJo5L1qzH9T3RMOz5SNag/8ctEsn6vf0w3IBKyDQiTpw==";
+        };
+        _IGAAlgZf = {
+            "id" = "IGAAlgZf";
+            "file" = "thesculksword-1.0.1-forge-1.19.4.jar";
+            "hash" = "sha512-clPHEbRCtCmj/6OaCasqW5nMPPs6tEai0q6Gmx7ZbuRC0+FMO5wpeivqs9Lb7Dykl0ARMJNQDRHzQWeP+JeI0A==";
+        };
+        _EjgkS32r = {
+            "id" = "EjgkS32r";
+            "file" = "thesculksword-1.0.1-forge-1.19.2.jar";
+            "hash" = "sha512-C5zkMVNfUsgc26skdAhNz1qjmgOvIRch/H7YviiPojTIBgu1S4+ox1gOG0mT4QLNcgJGrYX5g8AWTHkev/tQHQ==";
+        };
     in {
         "Eic79nQj" = _Eic79nQj;
         "dLXfOwFL" = _dLXfOwFL;
@@ -56,16 +71,22 @@ let
         "33sRnlnW" = _33sRnlnW;
         "nJopc87h" = _nJopc87h;
         "OffKKL15" = _OffKKL15;
+        "zKFPn3FB" = _zKFPn3FB;
+        "IGAAlgZf" = _IGAAlgZf;
+        "EjgkS32r" = _EjgkS32r;
         "forge-1.20.1" = _6NQ18AVk;
+        "forge-1.19.4" = _IGAAlgZf;
+        "forge-1.19.2" = _EjgkS32r;
         "neoforge-1.20.4" = _dLXfOwFL;
         "neoforge-1.20.6" = _p8CnVtFh;
         "neoforge-1.21.1" = _uYWEBocK;
         "neoforge-1.21.8" = _33sRnlnW;
         "neoforge-26.1.2" = _OffKKL15;
         "fabric-1.21.8" = _nJopc87h;
+        "fabric-1.21.11" = _zKFPn3FB;
         "pkg-1.0.0" = _MGbP3dfk;
-        "pkg-1.0.1" = _OffKKL15;
-        "default" = _OffKKL15;
+        "pkg-1.0.1" = _EjgkS32r;
+        "default" = _EjgkS32r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thesculksword";

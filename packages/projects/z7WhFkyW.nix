@@ -151,6 +151,26 @@ let
             "file" = "moyai-26.1.2-3.0.0-fabric.jar";
             "hash" = "sha512-K7TppYOSe2yDbdh28vhaPcj41hgRamVOQnD+DT6iPffKq4VoYn4XAFZbhd2A5l9LXFFabdSCzVDPmpkJdlvUZQ==";
         };
+        _i2uHKz17 = {
+            "id" = "i2uHKz17";
+            "file" = "moyai-26.1.2-3.0.1-fabric.jar";
+            "hash" = "sha512-ThikkL7gwqEvuXGUqeYxmKD19HT6PYw/Du31HP/EkNNxmNzWg5lDUH1tcl5j+9Asj0B5Zs8P2J8VfBqfatlAHw==";
+        };
+        _w6nVsMbe = {
+            "id" = "w6nVsMbe";
+            "file" = "moyai-26.1.2-3.0.1-neoforge.jar";
+            "hash" = "sha512-keHvB78Vbu+Y1xIS61GsKMXfMTsyBDK98PpG81lgI329HWxFZtMjblaVjR2hY+7HC2uWAhDHpkBQUxeKChM6UA==";
+        };
+        _80QjvSDx = {
+            "id" = "80QjvSDx";
+            "file" = "moyai-1.21-2.1.8-fabric.jar";
+            "hash" = "sha512-3n2793rqu7vQRWgHBaw5StaTGkt3H0Rrv8smIpBx+z3Eo2QaoOeY4neQUbHUfGa4ioE+xXAbm/lglZOPuJGxnA==";
+        };
+        _cUm81Vji = {
+            "id" = "cUm81Vji";
+            "file" = "moyai-1.21-2.1.8-neoforge.jar";
+            "hash" = "sha512-BYaTg3299NNorpDqVBlaVoVlmDp4jNP+V+RLwn/wa6QMdGlujupzTEUjNzm46uBjMiTOCLl7WyePICLrjfSs5A==";
+        };
     in {
         "Xdn8fArX" = _Xdn8fArX;
         "cadLlSg6" = _cadLlSg6;
@@ -182,6 +202,10 @@ let
         "i8rkKp3P" = _i8rkKp3P;
         "rhxRpQiv" = _rhxRpQiv;
         "pc8LtrT2" = _pc8LtrT2;
+        "i2uHKz17" = _i2uHKz17;
+        "w6nVsMbe" = _w6nVsMbe;
+        "80QjvSDx" = _80QjvSDx;
+        "cUm81Vji" = _cUm81Vji;
         "forge-1.18" = _SOANYN7M;
         "forge-1.18.1" = _SOANYN7M;
         "forge-1.16.4" = _sl3zEJDx;
@@ -200,11 +224,11 @@ let
         "fabric-1.20" = _enqrTZWH;
         "fabric-1.20.1" = _enqrTZWH;
         "fabric-1.21" = _LTg1gXI5;
-        "fabric-1.21.1" = _WU1qJXVc;
-        "fabric-26.1.2" = _pc8LtrT2;
+        "fabric-1.21.1" = _80QjvSDx;
+        "fabric-26.1.2" = _i2uHKz17;
         "neoforge-1.21" = _SyhonbVK;
-        "neoforge-1.21.1" = _i8rkKp3P;
-        "neoforge-26.1.2" = _rhxRpQiv;
+        "neoforge-1.21.1" = _cUm81Vji;
+        "neoforge-26.1.2" = _w6nVsMbe;
         "pkg-0" = _Xdn8fArX;
         "pkg-1" = _cadLlSg6;
         "pkg-2" = _7WWN0WHo;
@@ -231,7 +255,9 @@ let
         "pkg-fabric_1.21-2.1.7" = _LTg1gXI5;
         "pkg-1.21-2.1.7" = _i8rkKp3P;
         "pkg-26.1.2-3.0.0" = _pc8LtrT2;
-        "default" = _pc8LtrT2;
+        "pkg-26.1.2-3.0.1" = _w6nVsMbe;
+        "pkg-1.21-2.1.8" = _cUm81Vji;
+        "default" = _cUm81Vji;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moyai";

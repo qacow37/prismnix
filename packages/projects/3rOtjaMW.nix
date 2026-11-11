@@ -401,6 +401,21 @@ let
             "file" = "fixedminecraft-26.3-v2.jar";
             "hash" = "sha512-8naxJc9zDHAh4emenkasm1yOoHp+hij2ShF3FpSfmEK4VaJh9rFoMpnz/ipzKTaTp5eHBbQeXX2dPSCp3meEAw==";
         };
+        _482RHAJL = {
+            "id" = "482RHAJL";
+            "file" = "fixedminecraft-26.1.2-v3.jar";
+            "hash" = "sha512-GSLi4B8eci53Xf4SMpW4m+AITDhs7OPFYzrDyvWTseehvIMN7NjCbUIwIMfKmO6Dxlv/SoP1WalJcNnc7FuqUA==";
+        };
+        _7KU3mKgL = {
+            "id" = "7KU3mKgL";
+            "file" = "fixedminecraft-26.2-v3.jar";
+            "hash" = "sha512-TQ40qOSt6NIzicSwTCQ/BQIgNSaPUQvIeJbnQd6EAINWwUcF9R3fs0Bb8xDRYIchI7TlpuZABveiRxgTUlzk2Q==";
+        };
+        _v2R2VUJr = {
+            "id" = "v2R2VUJr";
+            "file" = "fixedminecraft-26.3-v3.jar";
+            "hash" = "sha512-eIGViqE6Pv5uf07VE8vYcaCZfR5VyYlKfZe3ztbcspMlKu5YdE2qTzZUTQLLnqbbg3s5W/SankglTXW83A37+g==";
+        };
     in {
         "3vj9wuVA" = _3vj9wuVA;
         "QKXrocFK" = _QKXrocFK;
@@ -482,6 +497,9 @@ let
         "SuNadQvd" = _SuNadQvd;
         "1Wx1wTU8" = _1Wx1wTU8;
         "OCz8hLSC" = _OCz8hLSC;
+        "482RHAJL" = _482RHAJL;
+        "7KU3mKgL" = _7KU3mKgL;
+        "v2R2VUJr" = _v2R2VUJr;
         "fabric-1.20.4" = _kUzkPsYt;
         "fabric-1.21.4" = _EU3SREeo;
         "fabric-1.21.5" = _IQaLnK55;
@@ -492,9 +510,9 @@ let
         "fabric-1.21.9" = _bhhc9oZB;
         "fabric-1.21.10" = _mxZvUCbo;
         "fabric-1.21.11" = _RHjdv42K;
-        "fabric-26.1.2" = _SuNadQvd;
-        "fabric-26.2" = _1Wx1wTU8;
-        "fabric-26.3" = _OCz8hLSC;
+        "fabric-26.1.2" = _482RHAJL;
+        "fabric-26.2" = _7KU3mKgL;
+        "fabric-26.3" = _v2R2VUJr;
         "pkg-1.0.0-1.20.4" = _3vj9wuVA;
         "pkg-1.0.1-1.20.4" = _QKXrocFK;
         "pkg-1.0.2-1.20.4" = _3WQVfWah;
@@ -575,7 +593,10 @@ let
         "pkg-26.1.2-v2" = _SuNadQvd;
         "pkg-26.2-v2" = _1Wx1wTU8;
         "pkg-26.3-v2" = _OCz8hLSC;
-        "default" = _OCz8hLSC;
+        "pkg-26.1.2-v3" = _482RHAJL;
+        "pkg-26.2-v3" = _7KU3mKgL;
+        "pkg-26.3-v3" = _v2R2VUJr;
+        "default" = _v2R2VUJr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fixed";

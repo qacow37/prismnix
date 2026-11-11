@@ -131,6 +131,16 @@ let
             "file" = "vehicle-mod-26w37b-1.20.1.jar";
             "hash" = "sha512-0agEYG0MKJPHKWvCjQkGAkeJm7YLvW9N8/RV8XVnaMt0d1tAr36LohxI+2LecbVH7GbNTUkLKO5hRs5b504rOg==";
         };
+        _C7zLF0lJ = {
+            "id" = "C7zLF0lJ";
+            "file" = "vehicle-mod-26w43a-1.20.1.jar";
+            "hash" = "sha512-V8CqVETNRnksSUIpfc47OPf2y2vth0m3d0/i118nrF6dkmE6XMQl63N+xWy8p9vu3TnZMDvx6Pc02O7eqveNdg==";
+        };
+        _C4fmGGQF = {
+            "id" = "C4fmGGQF";
+            "file" = "vehicle-mod-26w46a-1.20.1-theKeyUpdate.jar";
+            "hash" = "sha512-I8p0zN2dunBojhFRZNbnjlkVmouL9eT758LnxdVcAOXv9LR+2B5C7BIKbzfoPPVMwHSAHC7PSKshGVQeWqqJZA==";
+        };
     in {
         "FhhjFJ4y" = _FhhjFJ4y;
         "Ya48Spw6" = _Ya48Spw6;
@@ -158,13 +168,15 @@ let
         "Zpi68NRD" = _Zpi68NRD;
         "tSaa3oY0" = _tSaa3oY0;
         "nTXkjKzq" = _nTXkjKzq;
+        "C7zLF0lJ" = _C7zLF0lJ;
+        "C4fmGGQF" = _C4fmGGQF;
         "forge-1.19.3" = _Ya48Spw6;
         "forge-1.19.4" = _ooNQs45I;
-        "forge-1.20.1" = _nTXkjKzq;
+        "forge-1.20.1" = _C4fmGGQF;
         "forge-1.19.1" = _LpISD5cT;
         "forge-1.19.2" = _LpISD5cT;
         "neoforge-1.19.4" = _ooNQs45I;
-        "neoforge-1.20.1" = _nTXkjKzq;
+        "neoforge-1.20.1" = _C4fmGGQF;
         "neoforge-1.19.1" = _LpISD5cT;
         "neoforge-1.19.2" = _LpISD5cT;
         "pkg-0.45.3-19.3" = _FhhjFJ4y;
@@ -193,7 +205,9 @@ let
         "pkg-vehicle-mod-26w35a-1.20.1" = _Zpi68NRD;
         "pkg-26w37a-1.20.1" = _tSaa3oY0;
         "pkg-26w37b-1.20.1" = _nTXkjKzq;
-        "default" = _nTXkjKzq;
+        "pkg-26w43a-1.20.1" = _C7zLF0lJ;
+        "pkg-26w46a-1.20.1-theKeyUpdate" = _C4fmGGQF;
+        "default" = _C4fmGGQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itsuniquegamers-mrcrayfishs-vehicle-unofficial-port";

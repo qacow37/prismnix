@@ -206,6 +206,11 @@ let
             "file" = "utools-1.8.3+26.3+fabric.jar";
             "hash" = "sha512-79Uljccn5dJMkrbVNaCOGm1ESO4tNls6v13hbFla9XB+QULc8ixc6kixHxClc8ZNRKSk3RAGX1Bk6qw3sInNGA==";
         };
+        _BPP1YdPj = {
+            "id" = "BPP1YdPj";
+            "file" = "utools-1.8.4+26.3+fabric.jar";
+            "hash" = "sha512-93xFFbuxcBBU7rknxGsiHhNHYKEedybs0uqK2BAXmIv00neyFPGJkd1NkLGVTWpKQvZ1Aw+dNmQ6U/rqGVupGQ==";
+        };
     in {
         "zzoO6aQu" = _zzoO6aQu;
         "GqiYKKfa" = _GqiYKKfa;
@@ -248,6 +253,7 @@ let
         "NVZH0Ge6" = _NVZH0Ge6;
         "xPL4XJ2f" = _xPL4XJ2f;
         "PGUUPINL" = _PGUUPINL;
+        "BPP1YdPj" = _BPP1YdPj;
         "fabric-1.20.6" = _xYYBg6g1;
         "fabric-1.20.2" = _ZgBOJFN5;
         "fabric-1.21" = _pOc3ZeWc;
@@ -266,7 +272,7 @@ let
         "fabric-26.1.2" = _lZljzuxX;
         "fabric-1.20.1" = _NVZH0Ge6;
         "fabric-26.2" = _xPL4XJ2f;
-        "fabric-26.3" = _PGUUPINL;
+        "fabric-26.3" = _BPP1YdPj;
         "pkg-0.3" = _zzoO6aQu;
         "pkg-0.3.1" = _GqiYKKfa;
         "pkg-0.4.0-1.20.6" = _7vvbHbDl;
@@ -302,7 +308,8 @@ let
         "pkg-1.5.0+1.20.1+fabric" = _NVZH0Ge6;
         "pkg-1.8.3+26.2+fabric" = _xPL4XJ2f;
         "pkg-1.8.3+26.3+fabric" = _PGUUPINL;
-        "default" = _PGUUPINL;
+        "pkg-1.8.4+26.3+fabric" = _BPP1YdPj;
+        "default" = _BPP1YdPj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "utools";

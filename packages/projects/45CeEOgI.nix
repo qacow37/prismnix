@@ -116,6 +116,11 @@ let
             "file" = "trinketsandbaubles-1.4.0.jar";
             "hash" = "sha512-eU79a8gXWqiOzhKahON9ggU81PFecmjnCrZX44zJD7Qom4UYF/+hqSLkPEfuH0PEs5KHTy2XU+q93dC/0lUM1g==";
         };
+        _suFzNKq6 = {
+            "id" = "suFzNKq6";
+            "file" = "trinketsandbaubles-1.4.1.jar";
+            "hash" = "sha512-XFp4h0HcFuepCbOqi3oQ/FdXjKMm+GLznTiI5NU2l462QtbJKT240i+IyffBW3vq6nJlVTq6RSyn2h4wmd07EA==";
+        };
     in {
         "EVh9P8FF" = _EVh9P8FF;
         "NE9DKSEz" = _NE9DKSEz;
@@ -140,7 +145,8 @@ let
         "zbkqXdVw" = _zbkqXdVw;
         "QKz0bInx" = _QKz0bInx;
         "WvdMpqaE" = _WvdMpqaE;
-        "forge-1.20.1" = _WvdMpqaE;
+        "suFzNKq6" = _suFzNKq6;
+        "forge-1.20.1" = _suFzNKq6;
         "neoforge-1.21.1" = _2d6pRtJp;
         "pkg-1.1.2" = _EVh9P8FF;
         "pkg-1.2.0" = _2Xn5nKYt;
@@ -162,7 +168,8 @@ let
         "pkg-1.3.0" = _zbkqXdVw;
         "pkg-1.3.1" = _QKz0bInx;
         "pkg-1.4.0" = _WvdMpqaE;
-        "default" = _WvdMpqaE;
+        "pkg-1.4.1" = _suFzNKq6;
+        "default" = _suFzNKq6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trinkets-and-baubles-reforked";

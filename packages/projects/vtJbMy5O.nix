@@ -151,6 +151,11 @@ let
             "file" = "cozystudioscore-2.9.1-1.20.1.jar";
             "hash" = "sha512-+78QTfho9Me0agwRUBmFnhRdUcom/qajpsW8YlF/gs7v2RZUl8k4zlbujWA0joKpG2/fiEJPwM4LiLSJ6y1EWQ==";
         };
+        _411uJDgo = {
+            "id" = "411uJDgo";
+            "file" = "cozystudioscore-2.9.2-1.20.1.jar";
+            "hash" = "sha512-Nyj76btrIbn3YWElKQR7q4pHN993LqJrl/ugYznviB5OsWaRzvXNyqiLswRRanuzFQFWkQC7qjX+WV+BlocpNw==";
+        };
     in {
         "HxSOfIcL" = _HxSOfIcL;
         "oR0QFbCr" = _oR0QFbCr;
@@ -182,7 +187,8 @@ let
         "4OTruf5g" = _4OTruf5g;
         "TGsAZ2h1" = _TGsAZ2h1;
         "qgfvdEeG" = _qgfvdEeG;
-        "fabric-1.20.1" = _qgfvdEeG;
+        "411uJDgo" = _411uJDgo;
+        "fabric-1.20.1" = _411uJDgo;
         "pkg-0.1-1.20.1" = _HxSOfIcL;
         "pkg-0.2-1.20.1" = _oR0QFbCr;
         "pkg-0.3-1.20.1" = _oKhiWD1G;
@@ -213,7 +219,8 @@ let
         "pkg-2.8-1.20.1" = _4OTruf5g;
         "pkg-2.9-1.20.1" = _TGsAZ2h1;
         "pkg-2.9.1-1.20.1" = _qgfvdEeG;
-        "default" = _qgfvdEeG;
+        "pkg-2.9.2-1.20.1" = _411uJDgo;
+        "default" = _411uJDgo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cozystudios-core";
