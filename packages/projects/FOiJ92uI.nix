@@ -331,6 +331,26 @@ let
             "file" = "too_many_bows-fabric-4.2.0.jar";
             "hash" = "sha512-uLLCUK58fReDHpWM7p0p36j1OeAEg0lOJiSXwIHxJzBOJNF2QocJqnrzPQEcvX23b8le+ALQY57G03WauM2zvQ==";
         };
+        _2gxJhQNK = {
+            "id" = "2gxJhQNK";
+            "file" = "too_many_bows-fabric-1.21.1-4.1.0.jar";
+            "hash" = "sha512-Wvp2zf9xuhVlHgGEde/UJHxniIpUf4DCEfwH62BenEMnHUqPkBJly5s9zX+MSedn1jKDHTiqW2OYihPjtN4ijA==";
+        };
+        _mxjUXock = {
+            "id" = "mxjUXock";
+            "file" = "too_many_bows-neoforge-1.21.1-4.1.0.jar";
+            "hash" = "sha512-faaggHQn42fTp/6bzPcbAGFtUm3HBFwHjO/YKaXyTFqEYZFOY9eEFlFNubrOKObwVM0fTEmcPHtPG+zFAqkDsA==";
+        };
+        _yyt9I72J = {
+            "id" = "yyt9I72J";
+            "file" = "too_many_bows-fabric-4.2.1.jar";
+            "hash" = "sha512-ejcR/kkY+PA5Yc0L1JK7t+KPi8cGdwVWgVOw4j2L//9EGc0oL4uZ+3g45C5Opixy1dDF2RBayK+6dk73K7xaow==";
+        };
+        _FAa4dQMy = {
+            "id" = "FAa4dQMy";
+            "file" = "too_many_bows-forge-4.2.1.jar";
+            "hash" = "sha512-PRtJeng9LcH8sO5LtgFQujLNRHsWdN4G1Pkh7mYeadB+sVFS/aZzk2fipNIoyIWyJseW+f00nSf9tXa4rCp9gA==";
+        };
     in {
         "77vijU0K" = _77vijU0K;
         "2a4Bxsz5" = _2a4Bxsz5;
@@ -398,17 +418,21 @@ let
         "APNacWEn" = _APNacWEn;
         "72OBX8Nl" = _72OBX8Nl;
         "AtRqJWa7" = _AtRqJWa7;
-        "forge-1.20.1" = _72OBX8Nl;
+        "2gxJhQNK" = _2gxJhQNK;
+        "mxjUXock" = _mxjUXock;
+        "yyt9I72J" = _yyt9I72J;
+        "FAa4dQMy" = _FAa4dQMy;
+        "forge-1.20.1" = _FAa4dQMy;
         "neoforge-1.20.1" = _hOaD9tdO;
-        "neoforge-1.21.1" = _Xsg0Y76J;
+        "neoforge-1.21.1" = _mxjUXock;
         "neoforge-1.21.2" = _F56EGz66;
         "neoforge-1.21" = _pSPpjheZ;
         "neoforge-1.21.11" = _xw5hv2ks;
         "neoforge-26.1.2" = _zlAtiwYG;
         "neoforge-26.2" = _TxzN5XdB;
-        "fabric-1.20.1" = _AtRqJWa7;
+        "fabric-1.20.1" = _yyt9I72J;
         "fabric-1.20.2" = _2a4Bxsz5;
-        "fabric-1.21.1" = _APNacWEn;
+        "fabric-1.21.1" = _2gxJhQNK;
         "fabric-1.21.2" = _wwLe62sD;
         "fabric-1.21" = _jvjSKvWK;
         "fabric-1.21.11" = _nd0WUgDb;
@@ -448,7 +472,9 @@ let
         "pkg-4.1.2" = _KOD5f8OH;
         "pkg-1.21.1-4.0.1" = _APNacWEn;
         "pkg-4.2.0" = _AtRqJWa7;
-        "default" = _AtRqJWa7;
+        "pkg-1.21.1-4.1.0" = _mxjUXock;
+        "pkg-4.2.1" = _FAa4dQMy;
+        "default" = _FAa4dQMy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "too-many-bows";

@@ -181,6 +181,11 @@ let
             "file" = "aaron-mod-3.1.0+26.2.jar";
             "hash" = "sha512-4fush0Xdzs2Jz4rfEYtNou8P1xrl0yhor1lXPBdI3HqweM4mQCbA/jnCDNWeJa3i+QGcN3yy+O4+9JujIMtPSA==";
         };
+        _vayZwBbH = {
+            "id" = "vayZwBbH";
+            "file" = "aaron-mod-3.1.1+26.2.jar";
+            "hash" = "sha512-fu+TB4BkU0eC5xCiEU2GcrKbgWvRlUwaCGnca3XvI0+QbtiAWYkgx0v9lW6E0/ahItoAWNuK6UNJZM7dhJRlCA==";
+        };
     in {
         "e2j9xExK" = _e2j9xExK;
         "tykY6qoq" = _tykY6qoq;
@@ -218,6 +223,7 @@ let
         "42KZmnXS" = _42KZmnXS;
         "Ka0HzLug" = _Ka0HzLug;
         "cwFiZZhd" = _cwFiZZhd;
+        "vayZwBbH" = _vayZwBbH;
         "fabric-1.19.4" = _JRAuyTos;
         "fabric-1.20" = _JtYP2npd;
         "fabric-1.20.1" = _JtYP2npd;
@@ -241,7 +247,7 @@ let
         "fabric-26.1" = _Ka0HzLug;
         "fabric-26.1.1" = _Ka0HzLug;
         "fabric-26.1.2" = _Ka0HzLug;
-        "fabric-26.2" = _cwFiZZhd;
+        "fabric-26.2" = _vayZwBbH;
         "pkg-1.0.0" = _e2j9xExK;
         "pkg-1.0.1" = _tykY6qoq;
         "pkg-1.0.2" = _JRAuyTos;
@@ -277,7 +283,8 @@ let
         "pkg-3.0.0+26.1.2" = _42KZmnXS;
         "pkg-3.0.1+26.1.2" = _Ka0HzLug;
         "pkg-3.1.0+26.2" = _cwFiZZhd;
-        "default" = _cwFiZZhd;
+        "pkg-3.1.1+26.2" = _vayZwBbH;
+        "default" = _vayZwBbH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aaron-mod";

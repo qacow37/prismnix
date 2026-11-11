@@ -31,6 +31,11 @@ let
             "file" = "armorplus-26.1.2-23.0.0-neo.jar";
             "hash" = "sha512-iUyVS3J1Mk2iHNkaExVufn3Mg5vdKSN/jqSb/xkZVw5W423O3GhcUs1XcaWHKjWOWPhnazD3yqejB4KoeausKA==";
         };
+        _dobjAVfd = {
+            "id" = "dobjAVfd";
+            "file" = "armorplus-1.21.1-23.0.0-neo.jar";
+            "hash" = "sha512-wlsP1Eueu6NsBCm57UvNuSH14NwVWCKjBsPDLUjoG6OdaBK1P3PqTwKJJ4gbvzLgsKAVLQNYARdUKj/qPoRbmA==";
+        };
     in {
         "jKc8WCL4" = _jKc8WCL4;
         "QAnoIC5r" = _QAnoIC5r;
@@ -38,17 +43,20 @@ let
         "RBc8l8lz" = _RBc8l8lz;
         "DuzUYwqr" = _DuzUYwqr;
         "5w3EoHmX" = _5w3EoHmX;
+        "dobjAVfd" = _dobjAVfd;
         "forge-1.16.5" = _QAnoIC5r;
         "forge-1.18.2" = _luH0kOcp;
         "forge-1.19.2" = _RBc8l8lz;
         "neoforge-26.1.2" = _5w3EoHmX;
+        "neoforge-1.21.1" = _dobjAVfd;
         "pkg-1.16.5-16.7.0" = _jKc8WCL4;
         "pkg-1.16.5-16.8.1" = _QAnoIC5r;
         "pkg-1.18.2-18.2.0" = _luH0kOcp;
         "pkg-1.19.2-19.0.0" = _RBc8l8lz;
         "pkg-22.2.0" = _DuzUYwqr;
         "pkg-23.0.0" = _5w3EoHmX;
-        "default" = _5w3EoHmX;
+        "pkg-1.21.1-23.0.0" = _dobjAVfd;
+        "default" = _dobjAVfd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armorplus";

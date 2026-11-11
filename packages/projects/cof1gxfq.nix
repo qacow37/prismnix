@@ -246,6 +246,11 @@ let
             "file" = "tpatools-1.2.2+mc1.21.2-1.21.4.jar";
             "hash" = "sha512-c6MU1++XSQkJ/Uz49bQRlVxq0AaGThShJl0KZLo4ftcwn2lGHYDbvdPzpHaDkb9C4WqSMtsvNahZUzx6cU1BUQ==";
         };
+        _zVo2BxsD = {
+            "id" = "zVo2BxsD";
+            "file" = "tpatools-1.2.2+mc1.21.jar";
+            "hash" = "sha512-BUi3XGyRMf5h60wv1DmENn+Kz5s2eZ4HuRPGPcYuwEEFjtfHNhQwAJW0DpbfxDpurG2n8/q7Cqg+gj1p3baT0Q==";
+        };
     in {
         "7QZP2e1x" = _7QZP2e1x;
         "nw7Kff4q" = _nw7Kff4q;
@@ -296,6 +301,7 @@ let
         "tLjJZryF" = _tLjJZryF;
         "6VAElrLY" = _6VAElrLY;
         "gmK9lxvx" = _gmK9lxvx;
+        "zVo2BxsD" = _zVo2BxsD;
         "forge-1.20.1" = _MYqh0gPk;
         "forge-1.20.2" = _MYqh0gPk;
         "forge-1.20.3" = _MYqh0gPk;
@@ -343,6 +349,8 @@ let
         "neoforge-1.20.4" = _QPx0o9eR;
         "neoforge-1.20" = _lLY4oaVZ;
         "neoforge-1.20.1" = _lLY4oaVZ;
+        "neoforge-1.21.1" = _zVo2BxsD;
+        "neoforge-1.21" = _zVo2BxsD;
         "pkg-1.0.1" = _7QZP2e1x;
         "pkg-1.0.2" = _nw7Kff4q;
         "pkg-1.0.3" = _21325TEy;
@@ -388,7 +396,8 @@ let
         "pkg-1.2.2+mc1.21.5-1.21.10" = _tLjJZryF;
         "pkg-1.2.2+mc1.21-1.21.1" = _6VAElrLY;
         "pkg-1.2.2+mc1.21.2-1.21.4" = _gmK9lxvx;
-        "default" = _gmK9lxvx;
+        "pkg-1.2.2+mc1.21" = _zVo2BxsD;
+        "default" = _zVo2BxsD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tpatools";

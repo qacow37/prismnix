@@ -976,6 +976,16 @@ let
             "file" = "diversity-fabric-26.2-2.5.5.jar";
             "hash" = "sha512-VX8YFVKjweiEV+FcaP0GVbIWwPWvEKEY8QQ8LjozENZQ+B9bal+T5j7cC3JD5w4xYrMuuzfEONUYH2SFuOtzmA==";
         };
+        _iA6jOxhG = {
+            "id" = "iA6jOxhG";
+            "file" = "diversity-neoforge-26.1.2-2.5.6.jar";
+            "hash" = "sha512-O51IPwRUae/lsBclFIW5zlAc667muYtVWiP6ei7dLoDymVZrwbCFUkdw5eeJYFoyeegCh+kSsU9AdWiCeclsCw==";
+        };
+        _sGkSjoTw = {
+            "id" = "sGkSjoTw";
+            "file" = "diversity-fabric-26.1.2-2.5.6.jar";
+            "hash" = "sha512-M57cfUnTukR+Iz/jP1EzZFB8TU27o3KM7gu0iLhHqVCPKIhaUOaVAI8tdwn/7DWFORurv1NR5nXgJrIAXi4ycg==";
+        };
     in {
         "RLVUIiig" = _RLVUIiig;
         "WkfUM9Ip" = _WkfUM9Ip;
@@ -1172,6 +1182,8 @@ let
         "hb8C4ZBM" = _hb8C4ZBM;
         "IBqYUiGo" = _IBqYUiGo;
         "fy9bkq0h" = _fy9bkq0h;
+        "iA6jOxhG" = _iA6jOxhG;
+        "sGkSjoTw" = _sGkSjoTw;
         "fabric-1.21" = _chYAMQXM;
         "fabric-1.21.1" = _XuiO2zdS;
         "fabric-1.20.1" = _kmKNnCEV;
@@ -1183,7 +1195,7 @@ let
         "fabric-1.21.8" = _UUtqtGDp;
         "fabric-1.21.10" = _AoLz9FFz;
         "fabric-1.21.11" = _YHar9GqH;
-        "fabric-26.1.2" = _hb8C4ZBM;
+        "fabric-26.1.2" = _sGkSjoTw;
         "fabric-26.2" = _fy9bkq0h;
         "quilt-1.21" = _chYAMQXM;
         "quilt-1.21.1" = _XuiO2zdS;
@@ -1196,7 +1208,7 @@ let
         "quilt-1.21.8" = _UUtqtGDp;
         "quilt-1.21.10" = _AoLz9FFz;
         "quilt-1.21.11" = _YHar9GqH;
-        "quilt-26.1.2" = _hb8C4ZBM;
+        "quilt-26.1.2" = _sGkSjoTw;
         "quilt-26.2" = _fy9bkq0h;
         "neoforge-1.21" = _yCL9qK5l;
         "neoforge-1.21.1" = _5Z0d6gj0;
@@ -1209,7 +1221,7 @@ let
         "neoforge-1.21.8" = _vIbESpdF;
         "neoforge-1.21.10" = _54TxBIBx;
         "neoforge-1.21.11" = _2Lgpran8;
-        "neoforge-26.1.2" = _VHn4zjWC;
+        "neoforge-26.1.2" = _iA6jOxhG;
         "neoforge-26.2" = _IBqYUiGo;
         "forge-1.20.1" = _WxobAjIv;
         "forge-1.21.1" = _wMCTw3Si;
@@ -1253,7 +1265,8 @@ let
         "pkg-2.5.3" = _DWF5grJX;
         "pkg-2.5.4" = _2Lgpran8;
         "pkg-2.5.5" = _fy9bkq0h;
-        "default" = _fy9bkq0h;
+        "pkg-2.5.6" = _sGkSjoTw;
+        "default" = _sGkSjoTw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faewufs-diversity";

@@ -36,6 +36,11 @@ let
             "file" = "iq-1.0.4+mc26.2.jar";
             "hash" = "sha512-9Uri9C/6yjlzOSLo7u56Y++O4QTaU3Y+iDoWhI5XxQblsPl4JZbtWGeM1O040HuxFRRx6Ebn2gwdbrPEc6XMtA==";
         };
+        _xqPMod1S = {
+            "id" = "xqPMod1S";
+            "file" = "iq-1.0.4+mc26.3.jar";
+            "hash" = "sha512-VsaP6chkQ/ZgoCYTukB3cPVOUsnJHqS/9EY4LDnTklGLJ9pVl5JFooF76pPPWgm+e5+xcmtNOJO0hb/EZ5CIbw==";
+        };
     in {
         "FoBrfV9g" = _FoBrfV9g;
         "HUWij6x3" = _HUWij6x3;
@@ -44,16 +49,18 @@ let
         "6lT5EEqh" = _6lT5EEqh;
         "l5Xvdvem" = _l5Xvdvem;
         "CEV9Kq2t" = _CEV9Kq2t;
+        "xqPMod1S" = _xqPMod1S;
         "fabric-1.21.10" = _7xRTEBBS;
         "fabric-1.21.11" = _bO0Akxqt;
         "fabric-26.1.2" = _l5Xvdvem;
         "fabric-26.2" = _CEV9Kq2t;
+        "fabric-26.3" = _xqPMod1S;
         "pkg-1.0.0-BETA" = _FoBrfV9g;
         "pkg-1.0.1" = _HUWij6x3;
         "pkg-1.0.2" = _bO0Akxqt;
         "pkg-1.0.3" = _6lT5EEqh;
-        "pkg-1.0.4" = _CEV9Kq2t;
-        "default" = _CEV9Kq2t;
+        "pkg-1.0.4" = _xqPMod1S;
+        "default" = _xqPMod1S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iq-addons";

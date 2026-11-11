@@ -151,6 +151,11 @@ let
             "file" = "changedextras-1.1.9-beta3-hf3.jar";
             "hash" = "sha512-BC0gdn30qygjYyV3jrAxc/UkRg5+lzvbWKiP8haQ/L/72qMN4ruO1OJpgPEWnxAeLDOBZVe+ga396FwiEE1JlQ==";
         };
+        _4UtsZNI4 = {
+            "id" = "4UtsZNI4";
+            "file" = "changedextras-1.1.9.jar";
+            "hash" = "sha512-JhPamxXxkrqRWoCOaUIw+tExi1Wm6oHxDahc35WzcaSuaxbDBRfeY1t4tBgYjsaAFKeO4D1Yb7wcJOWdjP/WYw==";
+        };
     in {
         "MJbjSshk" = _MJbjSshk;
         "WNCj33wK" = _WNCj33wK;
@@ -182,7 +187,8 @@ let
         "kijP2so8" = _kijP2so8;
         "iTbvYYB6" = _iTbvYYB6;
         "dzxqxeaT" = _dzxqxeaT;
-        "forge-1.20.1" = _dzxqxeaT;
+        "4UtsZNI4" = _4UtsZNI4;
+        "forge-1.20.1" = _4UtsZNI4;
         "pkg-1.0.3b" = _MJbjSshk;
         "pkg-1.0.5" = _WNCj33wK;
         "pkg-1.0.5_newicon" = _Ci2HvMgd;
@@ -213,7 +219,8 @@ let
         "pkg-1.1.9-beta3-hf1" = _kijP2so8;
         "pkg-1.1.9-beta3-hf2" = _iTbvYYB6;
         "pkg-1.1.9-beta3-hf3" = _dzxqxeaT;
-        "default" = _dzxqxeaT;
+        "pkg-1.1.9" = _4UtsZNI4;
+        "default" = _4UtsZNI4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "changedextras";

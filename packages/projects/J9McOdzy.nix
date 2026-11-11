@@ -146,6 +146,31 @@ let
             "file" = "emf_compat_create_fabric_26.2_2.1.0.jar";
             "hash" = "sha512-R7zWOk4MWOdLY2YO+4JxRFxNpKmdeNGerV4bks11fGnhUQbPWAS6fKTEa/o5NQYoNGfzgkLIV+w7D+jONLAABA==";
         };
+        _fNJmb0mt = {
+            "id" = "fNJmb0mt";
+            "file" = "emf_compat_create_forge_1.20.1_2.1.1.jar";
+            "hash" = "sha512-XDsAgMxKJ+X3uwDPAL4z2a6w3J1AXgueqp4bP+6HvmRNus13nBzYDOuSnT4jIzAUi5NtJXiqNc6oFAYidaxDhw==";
+        };
+        _w9CLlrNR = {
+            "id" = "w9CLlrNR";
+            "file" = "emf_compat_create_neoforge_1.21.1_2.1.1.jar";
+            "hash" = "sha512-E5oZuY0jMNPZal40ZhbW9fmPasj7o6WN6C0/ellyn0KgO/6TWRujHmMrfQZKj4Kz6YLHF8Ph55B0LFRMPwQNqA==";
+        };
+        _BaimwlJ5 = {
+            "id" = "BaimwlJ5";
+            "file" = "emf_compat_create_fabric_1.21.11_2.1.1.jar";
+            "hash" = "sha512-8TsaRp8GvonHQvirblIP6UoTs2P9i9Xsi+FZVCqg6gdXHn641R3d3syoPfhJOH0sDEp0th+DFNtbYWM+4wSRSg==";
+        };
+        _hlIFlh4J = {
+            "id" = "hlIFlh4J";
+            "file" = "emf_compat_create_fabric_26.1.2_2.1.1.jar";
+            "hash" = "sha512-OveNPVk69R/RBKa3GQxmQ51+1rVt0TUWvsJy+KrbYcjpU4eBeUfe7hHMITwhOQoTyvkTi0GjgghmMOYm76BtCw==";
+        };
+        _rKFM6p5w = {
+            "id" = "rKFM6p5w";
+            "file" = "emf_compat_create_fabric_26.2_2.1.1.jar";
+            "hash" = "sha512-4cAcNnVFTjSYVdQl375WfF0up4ZG7Mw3xYiUd5kY9WJXbxeZV9aHRBhu/Y+0V6xiFVPF9oqqVyE6ZkaufkwhBA==";
+        };
     in {
         "55GT6fq1" = _55GT6fq1;
         "Py26oBVz" = _Py26oBVz;
@@ -176,11 +201,16 @@ let
         "VFzzEdVX" = _VFzzEdVX;
         "X4rGklrB" = _X4rGklrB;
         "3gejvBNe" = _3gejvBNe;
-        "neoforge-1.21.1" = _i61xLd9M;
-        "fabric-26.1.2" = _X4rGklrB;
-        "fabric-1.21.11" = _VFzzEdVX;
-        "fabric-26.2" = _3gejvBNe;
-        "forge-1.20.1" = _WSlYaEZY;
+        "fNJmb0mt" = _fNJmb0mt;
+        "w9CLlrNR" = _w9CLlrNR;
+        "BaimwlJ5" = _BaimwlJ5;
+        "hlIFlh4J" = _hlIFlh4J;
+        "rKFM6p5w" = _rKFM6p5w;
+        "neoforge-1.21.1" = _w9CLlrNR;
+        "fabric-26.1.2" = _hlIFlh4J;
+        "fabric-1.21.11" = _BaimwlJ5;
+        "fabric-26.2" = _rKFM6p5w;
+        "forge-1.20.1" = _fNJmb0mt;
         "pkg-1.0.0" = _F3Vdp2EQ;
         "pkg-1.1.0a" = _bZEju7RU;
         "pkg-1.2.0" = _ur6orOfo;
@@ -192,7 +222,8 @@ let
         "pkg-1.4.1" = _sBezxfRr;
         "pkg-2.0.0" = _GkQIr6gC;
         "pkg-2.1.0" = _3gejvBNe;
-        "default" = _3gejvBNe;
+        "pkg-2.1.1" = _rKFM6p5w;
+        "default" = _rKFM6p5w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-emf-compat-skyhook";

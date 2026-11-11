@@ -221,6 +221,11 @@ let
             "file" = "boundless-26.3-neo-12.jar";
             "hash" = "sha512-3YcHjs7PLf8bD7CZOlfhJAR2jOcTGceimqz8AdtjChPyjIc7NxMHjcuRuaCJBFufvtIE31u+CUr8u0010LPp3w==";
         };
+        _3xX7awEW = {
+            "id" = "3xX7awEW";
+            "file" = "boundless-1.21.1-neo-12.1.jar";
+            "hash" = "sha512-AtR7DnxhCmaHavStUXMhfaqtfYq8kj39M0uBKfJL8lo42/5hLRXfDMX5FVGXbmgNNwrKnxHJ3GYl00WxmcRRJQ==";
+        };
     in {
         "yxjpkGDF" = _yxjpkGDF;
         "1yl1pWAX" = _1yl1pWAX;
@@ -266,7 +271,8 @@ let
         "ntMza9wf" = _ntMza9wf;
         "zElQCb6e" = _zElQCb6e;
         "J6gIl0ZU" = _J6gIl0ZU;
-        "neoforge-1.21.1" = _zElQCb6e;
+        "3xX7awEW" = _3xX7awEW;
+        "neoforge-1.21.1" = _3xX7awEW;
         "neoforge-1.21.2" = _v9QEcQk9;
         "neoforge-1.20.1" = _ys2XZqv9;
         "neoforge-1.21.4" = _hDhjbkur;
@@ -320,7 +326,8 @@ let
         "pkg-26.2-neo-12" = _ntMza9wf;
         "pkg-1.21.1-neo-12" = _zElQCb6e;
         "pkg-26.3-neo-12" = _J6gIl0ZU;
-        "default" = _J6gIl0ZU;
+        "pkg-1.21.1-neo-12.1" = _3xX7awEW;
+        "default" = _3xX7awEW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boundless-quests";

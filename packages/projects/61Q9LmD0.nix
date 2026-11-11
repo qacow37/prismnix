@@ -41,6 +41,26 @@ let
             "file" = "[1.21 Fabric] Hybrid Blocks 1.3.0.jar";
             "hash" = "sha512-Ggf9D4+1YeEDEVGEi8nRLzfpI2jUM78qtkiAf8I6Tl42j8RSgxNcpxLDZAgbb3FWP61JXcJ75LutkPXrX/OR1A==";
         };
+        _O2xhoK19 = {
+            "id" = "O2xhoK19";
+            "file" = "hybrid_blocks-forge-1.20.1-1.3.1.jar";
+            "hash" = "sha512-Jkf6d+9QZ2JLDAHQSAwoa/Qn4jGyLVmOxFroROdIN4Ehw1GesEI3Ml+qnkwpO8t9OrCqsgDs2TO+/pj+YDPpoQ==";
+        };
+        _FyrpPGvd = {
+            "id" = "FyrpPGvd";
+            "file" = "hybrid_blocks-fabric-1.20.1-1.3.1.jar";
+            "hash" = "sha512-OJjMez+EPKDSzB9Pg/eAlL8dfndW0pYcsWeAXCpeaVroOmCJY8By0uMl/6eWk5yQrCB7WhZ8DwW6xEOa2wzAIw==";
+        };
+        _78pGI7PX = {
+            "id" = "78pGI7PX";
+            "file" = "hybrid_blocks-neoforge-1.21.1-1.3.1.jar";
+            "hash" = "sha512-F5IqDGXaFBIkeAaqhSmXuQ/TyAZQ8M8MQZLTdVZQ7/kxnYIq1OCF7P3MwEDuthSoEhE64fo0F5RLtsOT4bmzWw==";
+        };
+        _JdEtdARp = {
+            "id" = "JdEtdARp";
+            "file" = "hybrid_blocks-fabric-1.21.1-1.3.1.jar";
+            "hash" = "sha512-UjbGfOxF64XWvd+IGddzarQ6PwfKJZQZWP/O7lmeIutYHtKMRchGhyhzvUITbhHqpzKZvlWaZbjdK8GCmINI4g==";
+        };
     in {
         "2a0sp8Qp" = _2a0sp8Qp;
         "ZtUGihbb" = _ZtUGihbb;
@@ -50,31 +70,39 @@ let
         "4nUfmakP" = _4nUfmakP;
         "YLTgy2LD" = _YLTgy2LD;
         "McvP7tY5" = _McvP7tY5;
+        "O2xhoK19" = _O2xhoK19;
+        "FyrpPGvd" = _FyrpPGvd;
+        "78pGI7PX" = _78pGI7PX;
+        "JdEtdARp" = _JdEtdARp;
         "fabric-1.20" = _4nUfmakP;
-        "fabric-1.20.1" = _4nUfmakP;
+        "fabric-1.20.1" = _FyrpPGvd;
         "fabric-1.20.2" = _4nUfmakP;
         "fabric-1.20.3" = _4nUfmakP;
         "fabric-1.20.4" = _4nUfmakP;
         "fabric-1.20.5" = _4nUfmakP;
         "fabric-1.20.6" = _4nUfmakP;
-        "fabric-1.21.1" = _McvP7tY5;
+        "fabric-1.21.1" = _JdEtdARp;
         "quilt-1.20" = _8CJq8ruC;
         "quilt-1.20.1" = _8CJq8ruC;
         "forge-1.20" = _6Cs8Ft8Q;
-        "forge-1.20.1" = _6Cs8Ft8Q;
+        "forge-1.20.1" = _O2xhoK19;
         "forge-1.20.2" = _6Cs8Ft8Q;
         "forge-1.20.3" = _6Cs8Ft8Q;
         "forge-1.20.4" = _6Cs8Ft8Q;
         "forge-1.20.5" = _6Cs8Ft8Q;
         "forge-1.20.6" = _6Cs8Ft8Q;
-        "neoforge-1.21.1" = _YLTgy2LD;
+        "neoforge-1.21.1" = _78pGI7PX;
         "pkg-1.0.0" = _2a0sp8Qp;
         "pkg-1.0.1" = _ZtUGihbb;
         "pkg-1.2.0" = _8CJq8ruC;
         "pkg-1.3.0-forge" = _6Cs8Ft8Q;
         "pkg-1.3.0-fabric" = _McvP7tY5;
         "pkg-1.3.0-neoforge" = _YLTgy2LD;
-        "default" = _McvP7tY5;
+        "pkg-mc1.20.1-1.3.1-forge" = _O2xhoK19;
+        "pkg-mc1.20.1-1.3.1-fabric" = _FyrpPGvd;
+        "pkg-mc1.21.1-1.3.1-neoforge" = _78pGI7PX;
+        "pkg-mc1.21.1-1.3.1-fabric" = _JdEtdARp;
+        "default" = _JdEtdARp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hybrid-blocks";

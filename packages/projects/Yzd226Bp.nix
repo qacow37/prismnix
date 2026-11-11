@@ -201,6 +201,11 @@ let
             "file" = "survival_plus_plus-0.0.1+build.51-mc1.21.10.jar";
             "hash" = "sha512-qBqWtR6aRSK6UofUOjnnLcFT40hyMmSxTLVupaNnJiTx93e7Mew+Q9rGDsPlPn3cpB1IOEb9Jw6kbTNeBvjFyg==";
         };
+        _sdSjlfBr = {
+            "id" = "sdSjlfBr";
+            "file" = "survival_plus_plus-0.0.1+build.52-mc26.1.2.jar";
+            "hash" = "sha512-cu0zPaCaR83Cdi9NHOcKOFztMMc/CMAhddhRJysVo8lTgF/owX6eQFLMZjc3sjEWyWNoYlY58hkjw0bYRl4THA==";
+        };
     in {
         "eGG99m2t" = _eGG99m2t;
         "38NtJCKn" = _38NtJCKn;
@@ -242,10 +247,11 @@ let
         "SrYacQKd" = _SrYacQKd;
         "36DJkZxT" = _36DJkZxT;
         "V0dNINg1" = _V0dNINg1;
+        "sdSjlfBr" = _sdSjlfBr;
         "neoforge-1.21.1" = _wnFdDb0P;
         "neoforge-1.21.8" = _tD1DS0CY;
         "neoforge-1.21.10" = _V0dNINg1;
-        "neoforge-26.1.2" = _CewNhlcl;
+        "neoforge-26.1.2" = _sdSjlfBr;
         "neoforge-26.2" = _BZlJUh8o;
         "neoforge-26.3" = _SrYacQKd;
         "neoforge-1.21.11" = _36DJkZxT;
@@ -289,7 +295,8 @@ let
         "pkg-0.0.1+build.49" = _SrYacQKd;
         "pkg-0.0.1+build.50" = _36DJkZxT;
         "pkg-0.0.1+build.51" = _V0dNINg1;
-        "default" = _V0dNINg1;
+        "pkg-0.0.1+build.52" = _sdSjlfBr;
+        "default" = _sdSjlfBr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-plus-plus";

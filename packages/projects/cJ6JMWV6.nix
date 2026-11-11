@@ -26,19 +26,26 @@ let
             "file" = "[1.8.9] Lunar Keystrokes Mod v3.1.1.jar";
             "hash" = "sha512-VTwk/xaAwRdLrXwGGDrkTEu/LwCHGNpp596njAl/hZkRPP+dm3r3DWP9Xh7khsGgb3X5Q9OSau3de63dSgjxGg==";
         };
+        _9Dd4o9qv = {
+            "id" = "9Dd4o9qv";
+            "file" = "[26.3] Lunar Keystrokes V3.1.1.jar";
+            "hash" = "sha512-mm/yFJIdpghOgDuqfb4dQqlkcmI8M9W84jAVMy7/zrMPTaXpSKQoZeqWu27eNhkzWKE4iUCfupjebyNSmNl6GA==";
+        };
     in {
         "PIbScjYg" = _PIbScjYg;
         "TLhGaZGo" = _TLhGaZGo;
         "MFerJXsX" = _MFerJXsX;
         "fumF3Aih" = _fumF3Aih;
         "ea0aGv9M" = _ea0aGv9M;
+        "9Dd4o9qv" = _9Dd4o9qv;
         "forge-1.8.9" = _ea0aGv9M;
+        "fabric-26.3" = _9Dd4o9qv;
         "pkg-1" = _PIbScjYg;
         "pkg-2" = _TLhGaZGo;
         "pkg-3" = _MFerJXsX;
         "pkg-3.1" = _fumF3Aih;
-        "pkg-3.1.1" = _ea0aGv9M;
-        "default" = _ea0aGv9M;
+        "pkg-3.1.1" = _9Dd4o9qv;
+        "default" = _9Dd4o9qv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lunar-keystrokes";

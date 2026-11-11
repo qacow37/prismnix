@@ -161,6 +161,16 @@ let
             "file" = "kitchenprojectiles-1.1.0+mc26.1.2.jar";
             "hash" = "sha512-V+2OhiHkCEwHPuwi7IKUWgktzjpISRfGPKBLADdpZCB2NgeTfmk0EaP3lCV3Yy8oEoah8aAuhzDf00wJfp8ufg==";
         };
+        _UYc7YXtx = {
+            "id" = "UYc7YXtx";
+            "file" = "kitchenprojectiles-1.1.1+mc26.3.jar";
+            "hash" = "sha512-Coq9m3dq600owiovjlMNmplPjLiWAkZSFLgU0R+mgORVNj/qxeqUWZmZ7HwcLmQgx/NLLvK/o7rsezYcNtIvIA==";
+        };
+        _BUFw1pSQ = {
+            "id" = "BUFw1pSQ";
+            "file" = "kitchenprojectiles-1.1.1+mc26.1.2.jar";
+            "hash" = "sha512-SPBTGTR9gRB6lbCr6UH38fn+WIPioDO/efhvc3Oxm5yrMKQvCvG9EOqPLNcbuzlz7rJlOkLidzPBVj57xwAMJg==";
+        };
     in {
         "9JDLu24z" = _9JDLu24z;
         "wjxwdBQJ" = _wjxwdBQJ;
@@ -194,6 +204,8 @@ let
         "CKgNVWdr" = _CKgNVWdr;
         "5x2pZhcB" = _5x2pZhcB;
         "c7NJIaAM" = _c7NJIaAM;
+        "UYc7YXtx" = _UYc7YXtx;
+        "BUFw1pSQ" = _BUFw1pSQ;
         "fabric-1.20.1" = _REPh5GDu;
         "fabric-1.21" = _iCwAfZDt;
         "fabric-1.21.1" = _iCwAfZDt;
@@ -203,11 +215,11 @@ let
         "fabric-1.21.9" = _Wav0hYXd;
         "fabric-1.21.10" = _Wav0hYXd;
         "fabric-1.21.11" = _JCEmM7PN;
-        "fabric-26.1" = _c7NJIaAM;
-        "fabric-26.1.1" = _c7NJIaAM;
-        "fabric-26.1.2" = _c7NJIaAM;
-        "fabric-26.2" = _3YuekkKQ;
-        "fabric-26.3" = _5x2pZhcB;
+        "fabric-26.1" = _BUFw1pSQ;
+        "fabric-26.1.1" = _BUFw1pSQ;
+        "fabric-26.1.2" = _BUFw1pSQ;
+        "fabric-26.2" = _BUFw1pSQ;
+        "fabric-26.3" = _UYc7YXtx;
         "neoforge-1.21" = _aimG9ALl;
         "neoforge-1.21.1" = _O3Lf8MHF;
         "pkg-0.1.0+1.20.1" = _9JDLu24z;
@@ -242,7 +254,9 @@ let
         "pkg-1.0.14+mc26.3" = _CKgNVWdr;
         "pkg-1.1.0+mc26.3" = _5x2pZhcB;
         "pkg-1.1.0+mc26.1.2" = _c7NJIaAM;
-        "default" = _c7NJIaAM;
+        "pkg-1.1.1+mc26.3" = _UYc7YXtx;
+        "pkg-1.1.1+mc26.1.2" = _BUFw1pSQ;
+        "default" = _BUFw1pSQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kitchen-projectiles";

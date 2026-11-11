@@ -271,6 +271,11 @@ let
             "file" = "GoodMC-Fabric-26.3-6.0.4f.jar";
             "hash" = "sha512-1eL0fN+Ioz/6a2smMLNLspoGNgVMdVNurQuASaxmp4LoECNGJSonAF62zuPsvGoliplsFxXu7ukWeqSL+InrXQ==";
         };
+        _TjX3m0bI = {
+            "id" = "TjX3m0bI";
+            "file" = "GoodMC-Fabric-26.3-6.0.4.1f.jar";
+            "hash" = "sha512-wJscqB0k5UMpSy4oiiNoaJgOFzUbuJdicxgs+MO5ia+uEqzJc0l5CIvBETZwy3nife+MzbMvaUcpazuLtYTmTQ==";
+        };
     in {
         "xWn2Uva0" = _xWn2Uva0;
         "WSgpwSqe" = _WSgpwSqe;
@@ -326,6 +331,7 @@ let
         "YRgpyHPC" = _YRgpyHPC;
         "t1upGLys" = _t1upGLys;
         "bVQiohcO" = _bVQiohcO;
+        "TjX3m0bI" = _TjX3m0bI;
         "forge-1.12.2" = _HQKPAirH;
         "forge-1.20.1" = _VE6Qxfij;
         "neoforge-1.20.1" = _VE6Qxfij;
@@ -333,7 +339,7 @@ let
         "neoforge-26.3" = _t1upGLys;
         "fabric-1.20.1" = _G6PTwK23;
         "fabric-26.2" = _YRgpyHPC;
-        "fabric-26.3" = _bVQiohcO;
+        "fabric-26.3" = _TjX3m0bI;
         "quilt-1.20.1" = _G6PTwK23;
         "pkg-0.1.0" = _xWn2Uva0;
         "pkg-0.1.1" = _WSgpwSqe;
@@ -389,7 +395,8 @@ let
         "pkg-5.0.4f" = _YRgpyHPC;
         "pkg-6.0.4" = _t1upGLys;
         "pkg-6.0.4f" = _bVQiohcO;
-        "default" = _bVQiohcO;
+        "pkg-6.0.4.1f" = _TjX3m0bI;
+        "default" = _TjX3m0bI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goodmc-old-combat";

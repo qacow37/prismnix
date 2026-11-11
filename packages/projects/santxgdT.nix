@@ -101,6 +101,11 @@ let
             "file" = "perspektive-1.4.7.jar";
             "hash" = "sha512-NK2nBqaTTxf73s6uix2ng0LV3/s3hktm07IAS9ZKvmem6WPZCJl5N/KFb3CsrhZkZzHiGda+Kk4wlQiaKVxjpQ==";
         };
+        _2Qj8MMwX = {
+            "id" = "2Qj8MMwX";
+            "file" = "perspektive-1.4.8.jar";
+            "hash" = "sha512-E2LdF5ASBogRq3orG/3UyrRwDqwefT/MFfiQRE096BF+IynoOKjCxsue/VvHYN8piaH2viqYFAKRDtPxdic6ig==";
+        };
     in {
         "HOHsqFot" = _HOHsqFot;
         "NJKhUcqv" = _NJKhUcqv;
@@ -122,6 +127,7 @@ let
         "mSYReB7Z" = _mSYReB7Z;
         "3kqrQoJ9" = _3kqrQoJ9;
         "htShlaRK" = _htShlaRK;
+        "2Qj8MMwX" = _2Qj8MMwX;
         "fabric-1.17" = _HOHsqFot;
         "fabric-1.17.1" = _HOHsqFot;
         "fabric-1.18" = _3oklLMFA;
@@ -154,7 +160,8 @@ let
         "fabric-26.1" = _3kqrQoJ9;
         "fabric-26.1.1" = _3kqrQoJ9;
         "fabric-26.1.2" = _3kqrQoJ9;
-        "fabric-26.2" = _htShlaRK;
+        "fabric-26.2" = _2Qj8MMwX;
+        "fabric-26.3" = _2Qj8MMwX;
         "quilt-1.18" = _3oklLMFA;
         "quilt-1.18.1" = _3oklLMFA;
         "quilt-1.18.2" = _3oklLMFA;
@@ -204,7 +211,8 @@ let
         "pkg-1.4.5" = _mSYReB7Z;
         "pkg-1.4.6" = _3kqrQoJ9;
         "pkg-1.4.7" = _htShlaRK;
-        "default" = _htShlaRK;
+        "pkg-1.4.8" = _2Qj8MMwX;
+        "default" = _2Qj8MMwX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perspektive";

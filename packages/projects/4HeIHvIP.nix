@@ -276,6 +276,16 @@ let
             "file" = "jumpoverfences-neoforge-26.3-1.14.0.jar";
             "hash" = "sha512-Fw8diIITgLMN+DX62OaZz1yevJRudPzoM+pyi94U3gW3j3/NDHU2ne2cr/hJC14B7goSFqjJBsF84Otez7HUlA==";
         };
+        _SI4Mb8tc = {
+            "id" = "SI4Mb8tc";
+            "file" = "Jump-Over-Fences-1.14.1-MC26.3-NeoForge.jar";
+            "hash" = "sha512-ZnYZS+o7aooGYRNQEs4mVQ7yBuj0i8X7TVb89BUawwz11qvUvpmMLUpclygXbrHZDUgtfroXdLcO7+Ri4b1kiA==";
+        };
+        _y2WFK2Um = {
+            "id" = "y2WFK2Um";
+            "file" = "Jump-Over-Fences-1.14.1-MC26.3-Fabric.jar";
+            "hash" = "sha512-2hl2kZzE+0XzRecU0Kzu+xHCh6esnY3orJ4VwIZlyLlrMcgj25PEvjH7dyQsCFiXeEKhZnVI1CJxb3xzHnqAKw==";
+        };
     in {
         "5mCs99zL" = _5mCs99zL;
         "9DCzgem4" = _9DCzgem4;
@@ -332,6 +342,8 @@ let
         "qf7jN4Wd" = _qf7jN4Wd;
         "QYWArODF" = _QYWArODF;
         "ZEaPvXJ1" = _ZEaPvXJ1;
+        "SI4Mb8tc" = _SI4Mb8tc;
+        "y2WFK2Um" = _y2WFK2Um;
         "forge-1.15.2" = _5mCs99zL;
         "forge-1.16.4" = _9DCzgem4;
         "forge-1.16.5" = _9DCzgem4;
@@ -365,6 +377,7 @@ let
         "fabric-1.21.11" = _KVRcSuOY;
         "fabric-26.1.2" = _lH6A2SEV;
         "fabric-26.2" = _QYWArODF;
+        "fabric-26.3" = _y2WFK2Um;
         "neoforge-1.20.2" = _ViYXgPmR;
         "neoforge-1.20.4" = _cWTfu5AU;
         "neoforge-1.20.5" = _cWTfu5AU;
@@ -380,7 +393,7 @@ let
         "neoforge-1.21.11" = _cwA5MeEU;
         "neoforge-26.1.2" = _keXciyoh;
         "neoforge-26.2" = _qf7jN4Wd;
-        "neoforge-26.3" = _ZEaPvXJ1;
+        "neoforge-26.3" = _SI4Mb8tc;
         "pkg-1.0.1" = _PcIHjq6U;
         "pkg-1.19-1.0.1" = _2YBlm0VO;
         "pkg-1.1.0" = _iPzYOyFI;
@@ -411,7 +424,8 @@ let
         "pkg-26.1.2-1.7.0" = _lH6A2SEV;
         "pkg-26.2-1.8.0" = _gCEK9eW2;
         "pkg-1.14.0" = _ZEaPvXJ1;
-        "default" = _ZEaPvXJ1;
+        "pkg-1.14.1" = _y2WFK2Um;
+        "default" = _y2WFK2Um;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jump-over-fences";

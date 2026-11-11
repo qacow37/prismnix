@@ -111,6 +111,21 @@ let
             "file" = "WeatherModRemasteredV1.2.99.jar";
             "hash" = "sha512-pq5rYAmIjv4vhulNV321pmSZGwuXOIP5Vnn5ICelgCs4Yrat63D3IA9xaotqFIj76IabAwYEULPqVuCO4idgZg==";
         };
+        _6jcGexQj = {
+            "id" = "6jcGexQj";
+            "file" = "WeatherRemasteredV1.3.jar";
+            "hash" = "sha512-Prix3QNchD3fLKVsYnDpkIuwW4TYDyRyWHTqdeJLFWIoS2ZgbQulOvGsHMCvwHujK/jzqyipCSmLlNqdGvbndw==";
+        };
+        _jZNe93hW = {
+            "id" = "jZNe93hW";
+            "file" = "WeatherRemasteredV1.3.1-1.21.11.jar";
+            "hash" = "sha512-QGQEc2ZMQ/3AYhbOomynGrAeJekDDjZFw8sYo3TWGsOOGt0h2khBZ2dABXk2D89CgSIMhRp5JwSS0jfRbOpQZg==";
+        };
+        _9e3i4Np8 = {
+            "id" = "9e3i4Np8";
+            "file" = "WeatherRemasteredV1.3.1-1.21.1.jar";
+            "hash" = "sha512-DZM9bZMrJ38p/g4qKyhIVNs6wcSWyqWF7ykjcy1qDbw4i6v05vBxkN8oym57vlvBM5yyx7/Ruy4RuXClgqkfxA==";
+        };
     in {
         "UH9nBci1" = _UH9nBci1;
         "w4TD3R2i" = _w4TD3R2i;
@@ -134,13 +149,18 @@ let
         "T7zeyE8c" = _T7zeyE8c;
         "xjFooJLB" = _xjFooJLB;
         "esaYnkzj" = _esaYnkzj;
+        "6jcGexQj" = _6jcGexQj;
+        "jZNe93hW" = _jZNe93hW;
+        "9e3i4Np8" = _9e3i4Np8;
         "fabric-1.21.4" = _fjLuTyAm;
         "fabric-1.21.7" = _f1jXciYJ;
         "fabric-1.21.8" = _f1jXciYJ;
         "fabric-1.21.6" = _f1jXciYJ;
         "fabric-1.21.9" = _adhy1Xqo;
         "fabric-1.21.10" = _adhy1Xqo;
-        "fabric-1.21.11" = _esaYnkzj;
+        "fabric-1.21.11" = _jZNe93hW;
+        "fabric-1.21.1" = _9e3i4Np8;
+        "fabric-1.21" = _9e3i4Np8;
         "pkg-1.1" = _UH9nBci1;
         "pkg-1.1.2" = _w4TD3R2i;
         "pkg-1.1.3" = _fjLuTyAm;
@@ -163,7 +183,9 @@ let
         "pkg-1.2.97" = _T7zeyE8c;
         "pkg-1.2.98F" = _xjFooJLB;
         "pkg-1.2.99" = _esaYnkzj;
-        "default" = _esaYnkzj;
+        "pkg-1.3" = _6jcGexQj;
+        "pkg-1.3.1" = _9e3i4Np8;
+        "default" = _9e3i4Np8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weather-and-tornadoes-remastered";

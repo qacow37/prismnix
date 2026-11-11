@@ -91,6 +91,11 @@ let
             "file" = "custom-weapons-2.0.0+26.2.jar";
             "hash" = "sha512-CS6lvAY5UW2HpGVadCvEACrElWajhJNcrX41kAGdmYDowmnVSGVxMnVIfSBjLBlp/BBWpSfGt+de3OwD1FWNZA==";
         };
+        _zbwD9Zzn = {
+            "id" = "zbwD9Zzn";
+            "file" = "custom-weapons-2.0.0+26.3.jar";
+            "hash" = "sha512-fbKg17s+s5IRSBFta/Z8pU7psv2jccDnZpBWo+yN7NlMUIfP0Y3HqjsPI0f9L3LCmSxrOxy0lo89O/C5VFpHiA==";
+        };
     in {
         "7eyIuh82" = _7eyIuh82;
         "Q2HRm7if" = _Q2HRm7if;
@@ -110,6 +115,7 @@ let
         "3hp94GOg" = _3hp94GOg;
         "I9jifJea" = _I9jifJea;
         "tfR6JhuH" = _tfR6JhuH;
+        "zbwD9Zzn" = _zbwD9Zzn;
         "fabric-1.21" = _7eyIuh82;
         "fabric-1.21.1" = _7eyIuh82;
         "fabric-1.21.2" = _Q2HRm7if;
@@ -126,6 +132,7 @@ let
         "fabric-26.1.1" = _I9jifJea;
         "fabric-26.1.2" = _I9jifJea;
         "fabric-26.2" = _tfR6JhuH;
+        "fabric-26.3" = _zbwD9Zzn;
         "pkg-1.0.0" = _Q2HRm7if;
         "pkg-1.0.1" = _uvfWLISX;
         "pkg-1.1.0" = _oGJsFJXS;
@@ -137,7 +144,8 @@ let
         "pkg-1.6.0" = _phVYQVIK;
         "pkg-2.0.0" = _I9jifJea;
         "pkg-2.0.0+26.2" = _tfR6JhuH;
-        "default" = _tfR6JhuH;
+        "pkg-2.0.0+26.3" = _zbwD9Zzn;
+        "default" = _zbwD9Zzn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-armor-and-weapons";

@@ -81,6 +81,16 @@ let
             "file" = "tables-chairs-2-0.6.jar";
             "hash" = "sha512-9zPN+uwxiThSNOg+Y6TZhpzgA5eIy4eFJGtCocKtogQ9Z19HCCVBYy1uyYbpGMgMbGQFgGnVqD1Ja60bF80L/w==";
         };
+        _ToeMHurN = {
+            "id" = "ToeMHurN";
+            "file" = "tables_chairs_2_data_pack - v0.7.zip";
+            "hash" = "sha512-4DtMsFyVYOgecAdsKLLN0OYbs5c+ESMVfTImlCCMGHn8MNmWPk8sR8efWNNxnMbGqM3Bx3KaZWo95u7vfmadyg==";
+        };
+        _VbNLqkBB = {
+            "id" = "VbNLqkBB";
+            "file" = "tables-chairs-2-0.7.jar";
+            "hash" = "sha512-Kxgr9p/GXzRRDPhnKtBQsvSAs8iq5R53R34hQ1lDh//ZuhuG8HS4H2UQbMvwIIc0y1D0hPlrCU4XvzAAer+2Cw==";
+        };
     in {
         "flgz8T0B" = _flgz8T0B;
         "C30aZwwZ" = _C30aZwwZ;
@@ -98,6 +108,8 @@ let
         "6aMOxW7h" = _6aMOxW7h;
         "TeqoTlum" = _TeqoTlum;
         "oWxMB4jz" = _oWxMB4jz;
+        "ToeMHurN" = _ToeMHurN;
+        "VbNLqkBB" = _VbNLqkBB;
         "datapack-1.21.4" = _EJLAy0WM;
         "datapack-1.21.5" = _sDaHr5Zp;
         "datapack-1.21.6" = _6aMOxW7h;
@@ -110,6 +122,7 @@ let
         "datapack-26.1.1" = _6aMOxW7h;
         "datapack-26.1.2" = _6aMOxW7h;
         "datapack-26.2" = _6aMOxW7h;
+        "datapack-26.3" = _ToeMHurN;
         "fabric-1.21.4" = _SoGxYANU;
         "fabric-1.21.5" = _R5JYFrSh;
         "fabric-1.21.6" = _oWxMB4jz;
@@ -122,6 +135,7 @@ let
         "fabric-26.1.1" = _oWxMB4jz;
         "fabric-26.1.2" = _oWxMB4jz;
         "fabric-26.2" = _oWxMB4jz;
+        "fabric-26.3" = _VbNLqkBB;
         "forge-1.21.4" = _SoGxYANU;
         "forge-1.21.5" = _R5JYFrSh;
         "forge-1.21.6" = _oWxMB4jz;
@@ -134,6 +148,7 @@ let
         "forge-26.1.1" = _oWxMB4jz;
         "forge-26.1.2" = _oWxMB4jz;
         "forge-26.2" = _oWxMB4jz;
+        "forge-26.3" = _VbNLqkBB;
         "neoforge-1.21.4" = _SoGxYANU;
         "neoforge-1.21.5" = _R5JYFrSh;
         "neoforge-1.21.6" = _oWxMB4jz;
@@ -146,6 +161,7 @@ let
         "neoforge-26.1.1" = _oWxMB4jz;
         "neoforge-26.1.2" = _oWxMB4jz;
         "neoforge-26.2" = _oWxMB4jz;
+        "neoforge-26.3" = _VbNLqkBB;
         "quilt-1.21.4" = _SoGxYANU;
         "quilt-1.21.5" = _R5JYFrSh;
         "quilt-1.21.6" = _oWxMB4jz;
@@ -158,6 +174,7 @@ let
         "quilt-26.1.1" = _oWxMB4jz;
         "quilt-26.1.2" = _oWxMB4jz;
         "quilt-26.2" = _oWxMB4jz;
+        "quilt-26.3" = _VbNLqkBB;
         "pkg-0.0" = _flgz8T0B;
         "pkg-0.0.1+mod" = _C30aZwwZ;
         "pkg-0.1" = _EJLAy0WM;
@@ -173,7 +190,9 @@ let
         "pkg-0.6" = _6aMOxW7h;
         "pkg-0.6+mod" = _TeqoTlum;
         "pkg-0.6b+mod" = _oWxMB4jz;
-        "default" = _oWxMB4jz;
+        "pkg-0.7" = _ToeMHurN;
+        "pkg-0.7+mod" = _VbNLqkBB;
+        "default" = _VbNLqkBB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tables-chairs-2";

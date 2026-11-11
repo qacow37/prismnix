@@ -1261,6 +1261,26 @@ let
             "file" = "mcsrranked-6.0.4.jar";
             "hash" = "sha512-35nODQz2DvK4ZtnpDWVlYHFnHrUF8Nhs9NIc8Ugl96iTigSZKK9Z5hg22UM4PqfQF94M0BvnAgqN+6tBHypiDw==";
         };
+        _8IdIANm9 = {
+            "id" = "8IdIANm9";
+            "file" = "mcsrranked-6.0.9.jar";
+            "hash" = "sha512-5tXu9EFt6qMaDCa5iZ17sZGQ/EuRBTi5sxwCe2NjcCleMs4bGv9Jfqo+GNRawj9XsGKxDv9PZD/nsUu5A7mPzw==";
+        };
+        _Y801i4iD = {
+            "id" = "Y801i4iD";
+            "file" = "mcsrranked-6.0.10.jar";
+            "hash" = "sha512-TNu1Yjeo72tC7+fPFby7C8tEbR/KABbfMwN4Ar1TJHS2maM/E0hqhk2UiwfHkRFtQJMw06tKCKwjGwXLetdfMw==";
+        };
+        _zFMLYEz6 = {
+            "id" = "zFMLYEz6";
+            "file" = "mcsrranked-6.0.11.jar";
+            "hash" = "sha512-LAJBNQ5JYspXRYZohSHMPKQ6Q8vlD7GbFPWt//LRDs1BB0aq2zU62FaKDfwysSFhXSwmWwD6C00tbrNWQBT41Q==";
+        };
+        _Uppa2nGO = {
+            "id" = "Uppa2nGO";
+            "file" = "mcsrranked-6.0.12.jar";
+            "hash" = "sha512-vCzWsTf7W+zP99i2kLxZOIVG2i+cTLor9cl5+G1WFiXqcqTu9QGSNp1RSICw79GIGvn4kOdtevPTZxyC3p2fRw==";
+        };
     in {
         "r17vLIlI" = _r17vLIlI;
         "Pr8911G1" = _Pr8911G1;
@@ -1514,7 +1534,11 @@ let
         "bHKNDWtT" = _bHKNDWtT;
         "PMQjgUaG" = _PMQjgUaG;
         "rj7xJrfe" = _rj7xJrfe;
-        "fabric-1.16.1" = _rj7xJrfe;
+        "8IdIANm9" = _8IdIANm9;
+        "Y801i4iD" = _Y801i4iD;
+        "zFMLYEz6" = _zFMLYEz6;
+        "Uppa2nGO" = _Uppa2nGO;
+        "fabric-1.16.1" = _Uppa2nGO;
         "pkg-1.1.8" = _r17vLIlI;
         "pkg-1.1.9" = _Pr8911G1;
         "pkg-1.1.10" = _XZVqLLbz;
@@ -1767,7 +1791,11 @@ let
         "pkg-6.0.2" = _bHKNDWtT;
         "pkg-6.0.3" = _PMQjgUaG;
         "pkg-6.0.4" = _rj7xJrfe;
-        "default" = _rj7xJrfe;
+        "pkg-6.0.9" = _8IdIANm9;
+        "pkg-6.0.10" = _Y801i4iD;
+        "pkg-6.0.11" = _zFMLYEz6;
+        "pkg-6.0.12" = _Uppa2nGO;
+        "default" = _Uppa2nGO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcsr-ranked";

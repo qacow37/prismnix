@@ -126,6 +126,11 @@ let
             "file" = "contraption-lights-neoforge-1.21.1-1.5.6.jar";
             "hash" = "sha512-9e3LzsugifhmklQ+6DAFNX5zAoOZatZqU1nRIghoOIEPuZwzicvY3kefB5zaunbDOn1Ld7sE+/i8YEZSr518vw==";
         };
+        _8vismdWF = {
+            "id" = "8vismdWF";
+            "file" = "contraption-lights-neoforge-1.21.1-1.6.0.jar";
+            "hash" = "sha512-RZ5yT5NafWX7kEimHWTGhXN32K677UYYtHypcNxqLlYQoj7KGdJ4sFTBptd063DaHPQxO+H+pL1TA+hH9Qbf/A==";
+        };
     in {
         "NVVDBFKn" = _NVVDBFKn;
         "uZQoNQJB" = _uZQoNQJB;
@@ -152,7 +157,8 @@ let
         "SCthdXf0" = _SCthdXf0;
         "Jcn2RlzM" = _Jcn2RlzM;
         "b48miEqp" = _b48miEqp;
-        "neoforge-1.21.1" = _b48miEqp;
+        "8vismdWF" = _8vismdWF;
+        "neoforge-1.21.1" = _8vismdWF;
         "pkg-1.0.0" = _NVVDBFKn;
         "pkg-1.1.0-beta.1" = _uZQoNQJB;
         "pkg-1.1.0-beta.2" = _dtnt3692;
@@ -178,7 +184,8 @@ let
         "pkg-1.5.4" = _SCthdXf0;
         "pkg-1.5.5" = _Jcn2RlzM;
         "pkg-1.5.6" = _b48miEqp;
-        "default" = _b48miEqp;
+        "pkg-1.6.0" = _8vismdWF;
+        "default" = _8vismdWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "contraption-lights";

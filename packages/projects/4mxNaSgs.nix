@@ -26,12 +26,18 @@ let
             "file" = "pingplayer-1.1.0.jar";
             "hash" = "sha512-BEdxiS+Ca0rNx0doonT5JvAF1nAgHfUVopjGJkbhbhgtBYdNxMP9Nx1XghRhUFfx0uSCse49hu0nHr42SC+1NA==";
         };
+        _Jvb2CEJC = {
+            "id" = "Jvb2CEJC";
+            "file" = "pingplayer-1.2.0.jar";
+            "hash" = "sha512-Az0gCpybskI6BZHHvGIUq8UcxyQeLjjVb8dRylGH7OvpLsxGJqNCoRPyhQY9ui9Yx99N+eLwjYD+dqupMOLcUg==";
+        };
     in {
         "aurRGYWS" = _aurRGYWS;
         "fMhKqHug" = _fMhKqHug;
         "JfTrPVsa" = _JfTrPVsa;
         "6LYjvrTl" = _6LYjvrTl;
         "tyyouZPo" = _tyyouZPo;
+        "Jvb2CEJC" = _Jvb2CEJC;
         "paper-1.19" = _6LYjvrTl;
         "paper-1.19.1" = _6LYjvrTl;
         "paper-1.19.2" = _6LYjvrTl;
@@ -60,6 +66,7 @@ let
         "paper-26.1.1" = _tyyouZPo;
         "paper-26.1.2" = _tyyouZPo;
         "paper-26.2" = _tyyouZPo;
+        "paper-26.3" = _Jvb2CEJC;
         "purpur-1.19" = _6LYjvrTl;
         "purpur-1.19.1" = _6LYjvrTl;
         "purpur-1.19.2" = _6LYjvrTl;
@@ -88,6 +95,7 @@ let
         "purpur-26.1.1" = _tyyouZPo;
         "purpur-26.1.2" = _tyyouZPo;
         "purpur-26.2" = _tyyouZPo;
+        "purpur-26.3" = _Jvb2CEJC;
         "folia-1.21" = _tyyouZPo;
         "folia-1.21.1" = _tyyouZPo;
         "folia-1.21.2" = _tyyouZPo;
@@ -104,12 +112,14 @@ let
         "folia-26.1.1" = _tyyouZPo;
         "folia-26.1.2" = _tyyouZPo;
         "folia-26.2" = _tyyouZPo;
+        "folia-26.3" = _Jvb2CEJC;
         "pkg-1.0.0" = _aurRGYWS;
         "pkg-1.0.1" = _fMhKqHug;
         "pkg-1.0.2" = _JfTrPVsa;
         "pkg-1.0.3" = _6LYjvrTl;
         "pkg-1.1.0" = _tyyouZPo;
-        "default" = _tyyouZPo;
+        "pkg-1.2.0" = _Jvb2CEJC;
+        "default" = _Jvb2CEJC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ping-players";

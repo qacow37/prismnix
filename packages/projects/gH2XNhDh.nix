@@ -496,6 +496,36 @@ let
             "file" = "zombieapocalypseaddon-forge-1.20.1-1.13.0.jar";
             "hash" = "sha512-n+kr1f1Mtpq7Fuu4sxmqpHjtIZDOCha8Xxa39nHseP8KfgfjO/nHxwYINBeqphItPbHYrXVU9nwwiWZMdkwvPQ==";
         };
+        _7WV7TTdY = {
+            "id" = "7WV7TTdY";
+            "file" = "zombieapocalypseaddon-2.11.0.jar";
+            "hash" = "sha512-UoHW/5rnBcvA44uz62yICS28TnGLDcc7aDV4ySio2+ADS91Iin59UFP1ykiQFHbxJAkAcdBUyXLE2SS9+9s01A==";
+        };
+        _lKVwQfaP = {
+            "id" = "lKVwQfaP";
+            "file" = "zombieapocalypseaddon-neoforge-1.20.1-1.14.0.jar";
+            "hash" = "sha512-ca3PgNW8QwBRpaYsTnTYeByV2m3c8PR15LHieVIFJjtjEKFOUGZSLiizVl6juVKpm0aItePIAKAW6h60ed69QQ==";
+        };
+        _vFYYjrk7 = {
+            "id" = "vFYYjrk7";
+            "file" = "zombieapocalypseaddon-forge-1.20.1-1.14.0.jar";
+            "hash" = "sha512-aOgI3uSmU2ywledavu5HDbQ1gOWNejCOm1hWcXlA8VViwzwsNdBI5qz3Q0/hsMfWkEoN7r5UV50k8MIcEOsGNw==";
+        };
+        _qdHwi5Lj = {
+            "id" = "qdHwi5Lj";
+            "file" = "zombieapocalypseaddon-2.12.0.jar";
+            "hash" = "sha512-qSxVNgLF5wlPHaJ5KYV7Qi2IHYAoNw4ptPjGh1A9GjV+8w3lAyQBFZs16b6vDZVFXSDgUitkN8OcQjgx8bOBWA==";
+        };
+        _Nnt8K9zu = {
+            "id" = "Nnt8K9zu";
+            "file" = "zombieapocalypseaddon-neoforge-1.20.1-1.15.0.jar";
+            "hash" = "sha512-n815xfGUq6Vnt6HBexysAjOawOw2aD2T3TnGH+G38ZP1elzs0Pajhx5VfIy3W7vTxvAWBXWi6LyQ7W5jVZ2gkg==";
+        };
+        _MbfkbJ8C = {
+            "id" = "MbfkbJ8C";
+            "file" = "zombieapocalypseaddon-forge-1.20.1-1.15.0.jar";
+            "hash" = "sha512-Yvk85RFgXz/F7Z5T8M2GzuqvOEA8OAvz7qx7NYLjma3JgpncUz/QQZENdgcwh01cOSynaIPjPoBz7oT4rugNqQ==";
+        };
     in {
         "M0hw7KNt" = _M0hw7KNt;
         "rNOXGLwB" = _rNOXGLwB;
@@ -596,10 +626,16 @@ let
         "4Cy4OUkg" = _4Cy4OUkg;
         "EXchqW8f" = _EXchqW8f;
         "xwrfdQYc" = _xwrfdQYc;
+        "7WV7TTdY" = _7WV7TTdY;
+        "lKVwQfaP" = _lKVwQfaP;
+        "vFYYjrk7" = _vFYYjrk7;
+        "qdHwi5Lj" = _qdHwi5Lj;
+        "Nnt8K9zu" = _Nnt8K9zu;
+        "MbfkbJ8C" = _MbfkbJ8C;
         "forge-1.18.2" = _vjdHNEuR;
-        "forge-1.20.1" = _xwrfdQYc;
-        "neoforge-1.21.1" = _4Cy4OUkg;
-        "neoforge-1.20.1" = _EXchqW8f;
+        "forge-1.20.1" = _MbfkbJ8C;
+        "neoforge-1.21.1" = _qdHwi5Lj;
+        "neoforge-1.20.1" = _Nnt8K9zu;
         "pkg-1.0.0" = _vjdHNEuR;
         "pkg-1.0.1" = _rNOXGLwB;
         "pkg-1.0.3" = _86UIykVI;
@@ -675,7 +711,11 @@ let
         "pkg-1.12.0" = _PA5WI00m;
         "pkg-2.10.0" = _4Cy4OUkg;
         "pkg-1.13.0" = _xwrfdQYc;
-        "default" = _xwrfdQYc;
+        "pkg-2.11.0" = _7WV7TTdY;
+        "pkg-1.14.0" = _vFYYjrk7;
+        "pkg-2.12.0" = _qdHwi5Lj;
+        "pkg-1.15.0" = _MbfkbJ8C;
+        "default" = _MbfkbJ8C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apocolypseaddon";

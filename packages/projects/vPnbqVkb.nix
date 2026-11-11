@@ -21,16 +21,29 @@ let
             "file" = "emf_compat_tacz_neoforge_1.21.1_1.0.1.jar";
             "hash" = "sha512-N0T45a+eMpvuPDe8TQez1boU7q8FFh2Qoath+hUsJQKvFLGXjipTIW+5MgseTKfKiPcncdHdL+VAQjWEQzRrPA==";
         };
+        _DkukZTrO = {
+            "id" = "DkukZTrO";
+            "file" = "emf_compat_tacz_forge_1.20.1_1.1.0.jar";
+            "hash" = "sha512-7DK0fyUNeLH5Mizm8JgPph9hKHtz2aKrNBZBdwyWsjjlqh8dSYP+oBDyCxa8oxhP63zPK2YVpKkq94JcwHt+CA==";
+        };
+        _IhephPZR = {
+            "id" = "IhephPZR";
+            "file" = "emf_compat_tacz_neoforge_1.21.1_1.1.0.jar";
+            "hash" = "sha512-5FRwo7clpQREjcazDRLstUVfeQCm083nKXCmTt1wNj0rwqD0ARzPV9o19N+UL1R+jz3Om6k8QYGCzlXI+WZEkw==";
+        };
     in {
         "ZUtGF3my" = _ZUtGF3my;
         "bxrucOH0" = _bxrucOH0;
         "bG7U0hqM" = _bG7U0hqM;
         "ihmCJ7Qp" = _ihmCJ7Qp;
-        "forge-1.20.1" = _bG7U0hqM;
-        "neoforge-1.21.1" = _ihmCJ7Qp;
+        "DkukZTrO" = _DkukZTrO;
+        "IhephPZR" = _IhephPZR;
+        "forge-1.20.1" = _DkukZTrO;
+        "neoforge-1.21.1" = _IhephPZR;
         "pkg-1.0.0" = _bxrucOH0;
         "pkg-1.0.1" = _ihmCJ7Qp;
-        "default" = _ihmCJ7Qp;
+        "pkg-1.1.0" = _IhephPZR;
+        "default" = _IhephPZR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-tacz";

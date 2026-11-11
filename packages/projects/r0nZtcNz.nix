@@ -71,6 +71,11 @@ let
             "file" = "Foxy shader 1.2.3 beta.zip";
             "hash" = "sha512-Yz1qtyvebDM7NSTTkYY9+cjljaSaAU2UN8GyzVsMYR6sek4D//hK+HF92qae16FV/K8UPRbVffWz7mfVlQz9Pg==";
         };
+        _8E9zAHlC = {
+            "id" = "8E9zAHlC";
+            "file" = "Foxy shader 1.3.0 beta.zip";
+            "hash" = "sha512-YyQgm5Hc9ok/phjeoOVcg2EXWYF6VkSkgzSVols2mwsYnzlA9yBA5midY+pb1toLfIsRgM4WDQ8Xk9Rf0MlzmA==";
+        };
     in {
         "XnZQH0PQ" = _XnZQH0PQ;
         "OTuyzxXO" = _OTuyzxXO;
@@ -86,25 +91,26 @@ let
         "WaB2RH0a" = _WaB2RH0a;
         "AQLcnTqt" = _AQLcnTqt;
         "XGniImad" = _XGniImad;
-        "iris-1.20.1" = _XGniImad;
-        "iris-1.20.2" = _XGniImad;
-        "iris-1.20.3" = _XGniImad;
-        "iris-1.20.4" = _XGniImad;
-        "iris-1.20.5" = _XGniImad;
-        "iris-1.20.6" = _XGniImad;
-        "iris-1.21" = _XGniImad;
-        "iris-1.21.1" = _XGniImad;
-        "iris-1.21.2" = _XGniImad;
-        "iris-1.21.3" = _XGniImad;
-        "iris-1.21.4" = _XGniImad;
-        "iris-1.21.5" = _XGniImad;
-        "iris-1.21.6" = _XGniImad;
-        "iris-1.21.7" = _XGniImad;
-        "iris-1.21.8" = _XGniImad;
-        "iris-1.21.9" = _XGniImad;
-        "iris-1.21.10" = _XGniImad;
-        "iris-1.21.11" = _XGniImad;
-        "iris-26.1" = _XGniImad;
+        "8E9zAHlC" = _8E9zAHlC;
+        "iris-1.20.1" = _8E9zAHlC;
+        "iris-1.20.2" = _8E9zAHlC;
+        "iris-1.20.3" = _8E9zAHlC;
+        "iris-1.20.4" = _8E9zAHlC;
+        "iris-1.20.5" = _8E9zAHlC;
+        "iris-1.20.6" = _8E9zAHlC;
+        "iris-1.21" = _8E9zAHlC;
+        "iris-1.21.1" = _8E9zAHlC;
+        "iris-1.21.2" = _8E9zAHlC;
+        "iris-1.21.3" = _8E9zAHlC;
+        "iris-1.21.4" = _8E9zAHlC;
+        "iris-1.21.5" = _8E9zAHlC;
+        "iris-1.21.6" = _8E9zAHlC;
+        "iris-1.21.7" = _8E9zAHlC;
+        "iris-1.21.8" = _8E9zAHlC;
+        "iris-1.21.9" = _8E9zAHlC;
+        "iris-1.21.10" = _8E9zAHlC;
+        "iris-1.21.11" = _8E9zAHlC;
+        "iris-26.1" = _8E9zAHlC;
         "optifine-1.20.1" = _EHyvz80k;
         "optifine-1.20.2" = _EHyvz80k;
         "optifine-1.20.3" = _EHyvz80k;
@@ -138,7 +144,8 @@ let
         "pkg-1.2.1" = _WaB2RH0a;
         "pkg-1.2.2" = _AQLcnTqt;
         "pkg-1.2.3" = _XGniImad;
-        "default" = _XGniImad;
+        "pkg-1.3.0" = _8E9zAHlC;
+        "default" = _8E9zAHlC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foxyshader";

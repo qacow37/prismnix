@@ -306,6 +306,51 @@ let
             "file" = "antos-fabric-26.3-1.6.4.jar";
             "hash" = "sha512-/EsUwAp7uIYFBxTQaq8ol3Cs8Z73n9uH9OurW4ZILoOca+5bLIrzO17cDFOWaTFKoQfa9i72qgvgMuFxvT7S1Q==";
         };
+        _IbfeUCMW = {
+            "id" = "IbfeUCMW";
+            "file" = "antos-forge-1.20.1-1.6.5.jar";
+            "hash" = "sha512-3ilesLC6dkkir2oaZXK35R30sqWMvfqxxTJwj2gMdlgI7qAq7x38T/FpFQqBkc7RN5GmWkVRse+76gDy8vjbkg==";
+        };
+        _OWhpAnxa = {
+            "id" = "OWhpAnxa";
+            "file" = "antos-neoforge-1.21.1-1.6.5.jar";
+            "hash" = "sha512-Krby9UvhWzdyc/kCm9GfJC5OEq08Tf648ZyOjBslGjlaqWT3311J70I4zGeZJ6elkwj9RyH8URSuQ2oXoAecEg==";
+        };
+        _PpdnoSha = {
+            "id" = "PpdnoSha";
+            "file" = "antos-neoforge-26.1-1.6.5.jar";
+            "hash" = "sha512-ipQCbfL0DLeSZ4AA+mbHazW7m4vVhgrKgZfj7KhYxtZa4Lh/3B+2/ODGBMz38RxzG+XJ2LHRTO4wn1E0lHALYw==";
+        };
+        _ONmw4XVG = {
+            "id" = "ONmw4XVG";
+            "file" = "antos-neoforge-26.2-1.6.5.jar";
+            "hash" = "sha512-bdJWYa2vDmhEu9rekF0a6xSfwwf8LfyQxMO8RbRpX0YrzSxj81cWefdATZQcNeQ5n58hYNG1DrF3B+nnoO2YvQ==";
+        };
+        _Uyg8NzRg = {
+            "id" = "Uyg8NzRg";
+            "file" = "antos-neoforge-26.3-1.6.5.jar";
+            "hash" = "sha512-uN2SSAimeAgqIDwbQ5cY4mEIyH+685EFifO9KBMedWHAvBk/dZU4TnPOLEg+5B3TZ2XlFy2avHWb9VpQzdmbig==";
+        };
+        _uWHphcmE = {
+            "id" = "uWHphcmE";
+            "file" = "antos-fabric-1.21.1-1.6.5.jar";
+            "hash" = "sha512-pG46bqNBdvrjcEkeH65zFf9GMKhY0Y29dY+D3g2sEiUo+RumWjMR6P06EoDlvG7a6zxQxeccVl6O1klKr4tQ/Q==";
+        };
+        _BqikXT9y = {
+            "id" = "BqikXT9y";
+            "file" = "antos-fabric-26.1-1.6.5.jar";
+            "hash" = "sha512-4CvEPcPy+Y3LpBBbTimA+m9fXYD2rXfHlNIhelguluBYYxYysZ8aXCm+MikvvFJfICt1QlNKUZuPHYy0ynvPBw==";
+        };
+        _mPh9pZHR = {
+            "id" = "mPh9pZHR";
+            "file" = "antos-fabric-26.2-1.6.5.jar";
+            "hash" = "sha512-1HqWcO94ixkc8ggi1PXzt+ir6ODX4lX7fCETa93qQFLyDXLsX4kI9TojEkV5HVPr6sNrQg5MHeaPfefvuHx7Tg==";
+        };
+        _ZxGxcg0s = {
+            "id" = "ZxGxcg0s";
+            "file" = "antos-fabric-26.3-1.6.5.jar";
+            "hash" = "sha512-mtAONUhN9BAcAHzsszRP8QulqhEZZxryVGgC8PNF3yKQo326U3sumzsxdilP1IabPnh3IZflBw3gGdOS2a8wmg==";
+        };
     in {
         "wXA8Z4N3" = _wXA8Z4N3;
         "wh77H1tX" = _wh77H1tX;
@@ -368,17 +413,26 @@ let
         "ohjA74a2" = _ohjA74a2;
         "DRtMv7tv" = _DRtMv7tv;
         "2S8TIC9u" = _2S8TIC9u;
-        "neoforge-1.21.1" = _lNXcC3ED;
-        "neoforge-26.1" = _IDFw9sjf;
-        "neoforge-26.1.1" = _IDFw9sjf;
-        "neoforge-26.1.2" = _IDFw9sjf;
-        "neoforge-26.2" = _v79Mc0h6;
-        "neoforge-26.3" = _EhFBPnuU;
-        "fabric-1.21.1" = _m6TN33cL;
-        "fabric-26.2" = _DRtMv7tv;
-        "fabric-26.1.2" = _ohjA74a2;
-        "fabric-26.3" = _2S8TIC9u;
-        "forge-1.20.1" = _PwQ0wtdg;
+        "IbfeUCMW" = _IbfeUCMW;
+        "OWhpAnxa" = _OWhpAnxa;
+        "PpdnoSha" = _PpdnoSha;
+        "ONmw4XVG" = _ONmw4XVG;
+        "Uyg8NzRg" = _Uyg8NzRg;
+        "uWHphcmE" = _uWHphcmE;
+        "BqikXT9y" = _BqikXT9y;
+        "mPh9pZHR" = _mPh9pZHR;
+        "ZxGxcg0s" = _ZxGxcg0s;
+        "neoforge-1.21.1" = _OWhpAnxa;
+        "neoforge-26.1" = _PpdnoSha;
+        "neoforge-26.1.1" = _PpdnoSha;
+        "neoforge-26.1.2" = _PpdnoSha;
+        "neoforge-26.2" = _ONmw4XVG;
+        "neoforge-26.3" = _Uyg8NzRg;
+        "fabric-1.21.1" = _uWHphcmE;
+        "fabric-26.2" = _mPh9pZHR;
+        "fabric-26.1.2" = _BqikXT9y;
+        "fabric-26.3" = _ZxGxcg0s;
+        "forge-1.20.1" = _IbfeUCMW;
         "pkg-1.1.0" = _wh77H1tX;
         "pkg-1.1.1" = _aOZ2En8v;
         "pkg-1.2.1" = _KWQdVXd4;
@@ -398,7 +452,8 @@ let
         "pkg-1.6.2" = _hOiKs6Bo;
         "pkg-1.6.3" = _1HwSq9Xn;
         "pkg-1.6.4" = _2S8TIC9u;
-        "default" = _2S8TIC9u;
+        "pkg-1.6.5" = _ZxGxcg0s;
+        "default" = _ZxGxcg0s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antos";

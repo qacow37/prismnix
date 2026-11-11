@@ -471,6 +471,46 @@ let
             "file" = "tokimistoolshed-fabric-1.9+mc1.20.1.jar";
             "hash" = "sha512-U5UKbleDzRQEwnyoBGTaklR1qE8vDAiWUz++2S9KDncA+wjJjvwLhuyfc+vbJYQCNm6n24mtug2h1isu+AGtdA==";
         };
+        _QSutAS3l = {
+            "id" = "QSutAS3l";
+            "file" = "TokimisToolshed-1.9.1.jar";
+            "hash" = "sha512-R4fJfpSyIzytMFq0arO/5garsG+tavso23COxH2el0Dtzihwiohv8l35u7ci4a29VZnlrMTUcSn0ejBj8B1zew==";
+        };
+        _j24mMNEw = {
+            "id" = "j24mMNEw";
+            "file" = "TokimisToolshed-1.9.1.jar";
+            "hash" = "sha512-b8Jz2D5jefaND2/zqrvyaTPaqohAsXWoRaz+jaxJLMagv0jul1zMdKTiu5N0wG6iOkbl1D65o24Zu5YxTftbOg==";
+        };
+        _SdQynhhh = {
+            "id" = "SdQynhhh";
+            "file" = "tokimistoolshed-fabric-1.9.1+mc1.20.1.jar";
+            "hash" = "sha512-J8bYEmLPRUt3WY1a5OvBVvn5V004HLXwbSEttEPWFMmveBHZPAC7WR/RdZBJrToCFD3eQoM67zS7c6F7ioki5g==";
+        };
+        _7QFlmAkg = {
+            "id" = "7QFlmAkg";
+            "file" = "tokimistoolshed-fabric-1.9.1+mc1.21.jar";
+            "hash" = "sha512-tS9YUZPmCE7bIvhxlLSUnwrdGAH+Mn8sPHTZbBnyG2V/HC7Ig1FWD6HPfWsJ9GzdCz7GaS846WAJr5uNhYy8zQ==";
+        };
+        _L8ndsZ8u = {
+            "id" = "L8ndsZ8u";
+            "file" = "tokimistoolshed-fabric-1.9.1+mc1.21.2.jar";
+            "hash" = "sha512-qrHdKd3yB7fVl64VjrRqRNFsoXH0DTl6Amm9is5DzDTwgnS6hcKeIExOt9T3V11P+oWNo7GsfFuWFvohSElVVQ==";
+        };
+        _T6iVj0el = {
+            "id" = "T6iVj0el";
+            "file" = "tokimistoolshed-fabric-1.9.1+mc1.21.4.jar";
+            "hash" = "sha512-FiS4DPaDlcED+B06qc5oD6upYd9AExnGf4onrbocE1Eb/uGQX+BVnnlQf0m4QnKi4F9TnE8jc2phkCi0Xusppw==";
+        };
+        _1sE6d2sQ = {
+            "id" = "1sE6d2sQ";
+            "file" = "tokimistoolshed-fabric-1.9.1+mc1.21.5.jar";
+            "hash" = "sha512-vRHtHtMb53glrzw3x6cF3qfUQ+Op5noO4w87UDOBL45IfNmJ8r025ODHypvJEkUt4UR4p3F0wbK9wIx+q/akRQ==";
+        };
+        _2qcZH71C = {
+            "id" = "2qcZH71C";
+            "file" = "tokimistoolshed-fabric-1.9.1+mc1.21.11.jar";
+            "hash" = "sha512-By/b2r7jn2nCtskDfm5xg0Vt2FMG41tua4cbOdIeLq6v+uEkypyKuaH6aSgsQl8fRTlxqFJJeRaKhZecWBstfQ==";
+        };
     in {
         "Cn9Ba4wH" = _Cn9Ba4wH;
         "sS9sXo1H" = _sS9sXo1H;
@@ -566,23 +606,31 @@ let
         "un3E9biT" = _un3E9biT;
         "atduT5bd" = _atduT5bd;
         "uOT9CMQz" = _uOT9CMQz;
-        "fabric-1.20.1" = _uOT9CMQz;
-        "fabric-1.21" = _koJtbek6;
-        "fabric-1.21.1" = _koJtbek6;
-        "fabric-1.21.2" = _jRBOPIjj;
-        "fabric-1.21.3" = _jRBOPIjj;
-        "fabric-1.21.4" = _YqvjZOfm;
-        "fabric-1.21.5" = _RIyZx6d3;
-        "fabric-1.21.6" = _RIyZx6d3;
-        "fabric-1.21.7" = _RIyZx6d3;
-        "fabric-1.21.8" = _RIyZx6d3;
-        "fabric-1.21.9" = _RIyZx6d3;
-        "fabric-1.21.10" = _RIyZx6d3;
-        "fabric-1.21.11" = _6o9h8Meo;
-        "fabric-26.1" = _un3E9biT;
-        "fabric-26.1.1" = _un3E9biT;
-        "fabric-26.1.2" = _un3E9biT;
-        "fabric-26.2" = _atduT5bd;
+        "QSutAS3l" = _QSutAS3l;
+        "j24mMNEw" = _j24mMNEw;
+        "SdQynhhh" = _SdQynhhh;
+        "7QFlmAkg" = _7QFlmAkg;
+        "L8ndsZ8u" = _L8ndsZ8u;
+        "T6iVj0el" = _T6iVj0el;
+        "1sE6d2sQ" = _1sE6d2sQ;
+        "2qcZH71C" = _2qcZH71C;
+        "fabric-1.20.1" = _SdQynhhh;
+        "fabric-1.21" = _7QFlmAkg;
+        "fabric-1.21.1" = _7QFlmAkg;
+        "fabric-1.21.2" = _L8ndsZ8u;
+        "fabric-1.21.3" = _L8ndsZ8u;
+        "fabric-1.21.4" = _T6iVj0el;
+        "fabric-1.21.5" = _1sE6d2sQ;
+        "fabric-1.21.6" = _1sE6d2sQ;
+        "fabric-1.21.7" = _1sE6d2sQ;
+        "fabric-1.21.8" = _1sE6d2sQ;
+        "fabric-1.21.9" = _1sE6d2sQ;
+        "fabric-1.21.10" = _1sE6d2sQ;
+        "fabric-1.21.11" = _2qcZH71C;
+        "fabric-26.1" = _QSutAS3l;
+        "fabric-26.1.1" = _QSutAS3l;
+        "fabric-26.1.2" = _QSutAS3l;
+        "fabric-26.2" = _j24mMNEw;
         "pkg-0.1-1.20.1" = _Cn9Ba4wH;
         "pkg-0.2-1.20.1" = _sS9sXo1H;
         "pkg-0.3-1.20.1" = _WutNA1Ei;
@@ -667,7 +715,15 @@ let
         "pkg-1.8+fabric-26.1" = _un3E9biT;
         "pkg-1.8+fabric-26.2" = _atduT5bd;
         "pkg-1.9+fabric-1.20.1" = _uOT9CMQz;
-        "default" = _uOT9CMQz;
+        "pkg-1.9.1+fabric-26.1.1" = _QSutAS3l;
+        "pkg-1.9.1+fabric-26.2" = _j24mMNEw;
+        "pkg-1.9.1+fabric-1.20.1" = _SdQynhhh;
+        "pkg-1.9.1+fabric-1.21.1" = _7QFlmAkg;
+        "pkg-1.9.1+fabric-1.21.3" = _L8ndsZ8u;
+        "pkg-1.9.1+fabric-1.21.4" = _T6iVj0el;
+        "pkg-1.9.1+fabric-1.21.7" = _1sE6d2sQ;
+        "pkg-1.9.1+fabric-1.21.11" = _2qcZH71C;
+        "default" = _2qcZH71C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tokimistoolshed";

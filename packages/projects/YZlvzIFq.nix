@@ -561,6 +561,26 @@ let
             "file" = "roomfortwo-neoforge-1.21.11-0.3.1.jar";
             "hash" = "sha512-8TR381qeDFh5Jon8jl52GtXLMNoAEZgr8BAFibqUl5OeuWKg6Ua+E5+bq6CP3JieC98f67iHyimqJtQqX4Qgjg==";
         };
+        _6MBZyCo9 = {
+            "id" = "6MBZyCo9";
+            "file" = "roomfortwo-fabric-1.20.1-0.3.1.jar";
+            "hash" = "sha512-tzgVYZQ7v1mzAX058nQHtUCboyvucFBt6IUaFrLJdPPJui6gjlt/05nCxL6HnEWHchv+Jl0maxlg/Eospl9FmA==";
+        };
+        _Q0MNvSTl = {
+            "id" = "Q0MNvSTl";
+            "file" = "roomfortwo-forge-1.20.1-0.3.1.jar";
+            "hash" = "sha512-cvxQiFZOdbR4Kce6mII5J12GvNNVMeE9CrmxpKskFE7Hb6B4TCtGlv/cNZM7VDeRg6us1SzpbgO0JpQc26M3ZQ==";
+        };
+        _gtnVe1k6 = {
+            "id" = "gtnVe1k6";
+            "file" = "roomfortwo-fabric-1.19.2-0.3.1.jar";
+            "hash" = "sha512-5+htpaQ3zAFqudZ9V9eaKB1eGaGugMh6DFArZPIuyIsCb01u9fzMnPZSrA34SnrdKUkG3DXwQ+qqf8naQZyy2Q==";
+        };
+        _sXQuAwks = {
+            "id" = "sXQuAwks";
+            "file" = "roomfortwo-forge-1.19.2-0.3.1.jar";
+            "hash" = "sha512-D2wLDNL34CqTdxC96R5lx1SCTqhqCBau+XV2VkBALL4mLoh5gXKunLPTQNr5cy2nBOkYzqcSmVuE6+oF0dgRhA==";
+        };
     in {
         "BvOIeMun" = _BvOIeMun;
         "ai7W19Qk" = _ai7W19Qk;
@@ -674,21 +694,25 @@ let
         "zZNzcpFY" = _zZNzcpFY;
         "YdabXVjZ" = _YdabXVjZ;
         "QoV6WYez" = _QoV6WYez;
+        "6MBZyCo9" = _6MBZyCo9;
+        "Q0MNvSTl" = _Q0MNvSTl;
+        "gtnVe1k6" = _gtnVe1k6;
+        "sXQuAwks" = _sXQuAwks;
         "fabric-26.1" = _K5LqTANw;
         "fabric-26.1.1" = _K5LqTANw;
         "fabric-26.1.2" = _K5LqTANw;
         "fabric-1.21" = _M6Y7LDWi;
         "fabric-1.21.1" = _M6Y7LDWi;
-        "fabric-1.20" = _bT3rsNrN;
-        "fabric-1.20.1" = _bT3rsNrN;
+        "fabric-1.20" = _6MBZyCo9;
+        "fabric-1.20.1" = _6MBZyCo9;
         "fabric-1.20.2" = _UKKUyBuZ;
         "fabric-1.20.3" = _UKKUyBuZ;
         "fabric-1.20.4" = _UKKUyBuZ;
         "fabric-1.21.11" = _zZNzcpFY;
         "fabric-26.2" = _b5uBPxLN;
         "fabric-1.21.4" = _PkjnaeHp;
-        "fabric-1.19.1" = _2BdV7tkn;
-        "fabric-1.19.2" = _2BdV7tkn;
+        "fabric-1.19.1" = _gtnVe1k6;
+        "fabric-1.19.2" = _gtnVe1k6;
         "fabric-26.3" = _YWsnsbTY;
         "fabric-1.18.2" = _4EPi13wD;
         "forge-26.1" = _Gfz2Bfsr;
@@ -696,8 +720,8 @@ let
         "forge-26.1.2" = _Gfz2Bfsr;
         "forge-1.21" = _hOkyaoBB;
         "forge-1.21.1" = _hOkyaoBB;
-        "forge-1.20" = _nIz5sJ3j;
-        "forge-1.20.1" = _nIz5sJ3j;
+        "forge-1.20" = _Q0MNvSTl;
+        "forge-1.20.1" = _Q0MNvSTl;
         "forge-1.20.2" = _1Lpi9blz;
         "forge-1.20.3" = _1Lpi9blz;
         "forge-1.20.4" = _1Lpi9blz;
@@ -706,8 +730,8 @@ let
         "forge-1.12.2" = _cIa5repJ;
         "forge-26.2" = _YxqjSMlr;
         "forge-1.21.4" = _6Q4FdXpV;
-        "forge-1.19.1" = _pizN6IUM;
-        "forge-1.19.2" = _pizN6IUM;
+        "forge-1.19.1" = _sXQuAwks;
+        "forge-1.19.2" = _sXQuAwks;
         "forge-26.3" = _2ae2pHU2;
         "neoforge-26.1" = _ZcbkTkSj;
         "neoforge-26.1.1" = _ZcbkTkSj;
@@ -728,8 +752,8 @@ let
         "pkg-0.1.1" = _Bhc1nSFf;
         "pkg-0.2.0" = _pizN6IUM;
         "pkg-0.3.0" = _8W5G4tLQ;
-        "pkg-0.3.1" = _QoV6WYez;
-        "default" = _QoV6WYez;
+        "pkg-0.3.1" = _sXQuAwks;
+        "default" = _sXQuAwks;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "room-for-two";

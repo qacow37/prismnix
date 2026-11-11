@@ -306,6 +306,11 @@ let
             "file" = "gadgets-and-gizmos-bundled-2.0.2.jar";
             "hash" = "sha512-zMx5FjRc6N6MipUJssgd/I5LCcNhBFSv4wrmYWdh5jayAbP0mktFYFguMUHFsRX4awBJtSdKr+2Pnu8HdKhJdQ==";
         };
+        _SeokxTA4 = {
+            "id" = "SeokxTA4";
+            "file" = "gadgets-and-gizmos-bundled-2.0.3.jar";
+            "hash" = "sha512-ILJKl6z7a1ONlILZ+rezffLsZv4XCPXmWJZVB4qylb9oNfFhxd26+xugR8i9yCjxaia71yfFoB9iU10exFF9cw==";
+        };
     in {
         "4rUiOPkB" = _4rUiOPkB;
         "aTzV5rfX" = _aTzV5rfX;
@@ -368,7 +373,8 @@ let
         "aP8QzV0K" = _aP8QzV0K;
         "bJgeGffn" = _bJgeGffn;
         "j64Uveca" = _j64Uveca;
-        "neoforge-1.21.1" = _j64Uveca;
+        "SeokxTA4" = _SeokxTA4;
+        "neoforge-1.21.1" = _SeokxTA4;
         "pkg-0.1.0" = _4rUiOPkB;
         "pkg-0.1.1" = _aTzV5rfX;
         "pkg-0.1.2" = _XVWHgyW4;
@@ -422,7 +428,8 @@ let
         "pkg-2.0.0" = _aP8QzV0K;
         "pkg-2.0.1" = _bJgeGffn;
         "pkg-2.0.2" = _j64Uveca;
-        "default" = _j64Uveca;
+        "pkg-2.0.3" = _SeokxTA4;
+        "default" = _SeokxTA4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-gadgets-and-gizmos";

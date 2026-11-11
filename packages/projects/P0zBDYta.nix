@@ -91,6 +91,16 @@ let
             "file" = "roleplayers-atlas-1.5.2+1.21.8.jar";
             "hash" = "sha512-o1U5u8Lmu76Zw6OqPD2JHeIQuctCzLnhw+6qilZ+T2O98u6Yvq4KAZPc62Lw5rSgtw+wXjypocEgbJHos0LSwQ==";
         };
+        _q4f7vIBc = {
+            "id" = "q4f7vIBc";
+            "file" = "roleplayers-atlas-1.5.3+1.21.11.jar";
+            "hash" = "sha512-oqoaDFqE2gXyKQCfHQU8QUruZlrkQiwtpP/ZOftTmdLa6IRm/VuL9fbTTCbxsiQxGzJSjtDkbqMUjjGsojaxeg==";
+        };
+        _6YqC1V0Q = {
+            "id" = "6YqC1V0Q";
+            "file" = "roleplayers-atlas-1.5.3+1.21.8.jar";
+            "hash" = "sha512-IughNXyecyPf/RknJ+GESK812YwirC86ZZsVfFPi/VX439KrgIdMPhCP/JXrOlmxXYkkQzB3D//3V37cL57V6Q==";
+        };
     in {
         "o4tUW2vt" = _o4tUW2vt;
         "1B6NpZ4C" = _1B6NpZ4C;
@@ -110,10 +120,12 @@ let
         "a6DOg1cz" = _a6DOg1cz;
         "w4Nvy0NB" = _w4Nvy0NB;
         "PSox0qqC" = _PSox0qqC;
-        "fabric-1.21.8" = _PSox0qqC;
-        "fabric-1.21.11" = _w4Nvy0NB;
-        "quilt-1.21.8" = _PSox0qqC;
-        "quilt-1.21.11" = _w4Nvy0NB;
+        "q4f7vIBc" = _q4f7vIBc;
+        "6YqC1V0Q" = _6YqC1V0Q;
+        "fabric-1.21.8" = _6YqC1V0Q;
+        "fabric-1.21.11" = _q4f7vIBc;
+        "quilt-1.21.8" = _6YqC1V0Q;
+        "quilt-1.21.11" = _q4f7vIBc;
         "pkg-1.0.0+1.22" = _o4tUW2vt;
         "pkg-1.0.0+1.21.11" = _1B6NpZ4C;
         "pkg-1.0.1+1.21.11" = _qn85KO3X;
@@ -132,7 +144,9 @@ let
         "pkg-1.4.0+1.21.8" = _a6DOg1cz;
         "pkg-1.5.2+1.21.11" = _w4Nvy0NB;
         "pkg-1.5.2+1.21.8" = _PSox0qqC;
-        "default" = _PSox0qqC;
+        "pkg-1.5.3+1.21.11" = _q4f7vIBc;
+        "pkg-1.5.3+1.21.8" = _6YqC1V0Q;
+        "default" = _6YqC1V0Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roleplayers-atlas";

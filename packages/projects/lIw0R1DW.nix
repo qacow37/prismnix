@@ -166,6 +166,26 @@ let
             "file" = "WhitePumpkins-neoforge-26.1.2-1.4.0.jar";
             "hash" = "sha512-/5IhQ1ImF7N+xODT3Qvwkyk1MfCRbcZkftE6XVPE9OSbYivCiU7udJ40gKxvYIBBpFKJhTsUncsOL86TGdcXog==";
         };
+        _uFdMj9NA = {
+            "id" = "uFdMj9NA";
+            "file" = "WhitePumpkins-fabric-26.2-1.4.0.jar";
+            "hash" = "sha512-UdTih9djl7wCkqN2XwSpdI+Wt0jSs/AoqNrRCVhJrcQK1nUdHryQMSPIGBA/I0/nvb/JDfpl7kWMIKEnpJQZqQ==";
+        };
+        _jvSoKx7r = {
+            "id" = "jvSoKx7r";
+            "file" = "WhitePumpkins-neoforge-26.2-1.4.0.jar";
+            "hash" = "sha512-wrfHByqR0jss/hyi2T0zUr+yXP1DE0ZnJNPWAqpYom+wf/GcPTD1jvGcHNc06uSi9Lmp3fk6tH0ZkNeuaUfSlg==";
+        };
+        _AAdtbcLG = {
+            "id" = "AAdtbcLG";
+            "file" = "WhitePumpkins-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-0wHaudpK+vgn9kWuONeVTN3l4S7X+s4fXbR/xCL/n84/QghXzgC1xScp1c5PF5QMXvJW1Wl6iD4nT5mby1+PcQ==";
+        };
+        _mUc8lyRT = {
+            "id" = "mUc8lyRT";
+            "file" = "WhitePumpkins-neoforge-26.3-1.4.0.jar";
+            "hash" = "sha512-V2nv6QYKiP3HjzDKNNg5bi/LKX0KqM9vpjkhHMo55BFcUsXS/x9QzBxWpHWVUIUFrc0xrp2G54277km3so6LMA==";
+        };
     in {
         "BBHMZUNx" = _BBHMZUNx;
         "pUSCxSLl" = _pUSCxSLl;
@@ -200,6 +220,10 @@ let
         "Ls3VhMoS" = _Ls3VhMoS;
         "9mWmuKCR" = _9mWmuKCR;
         "L7Y46xex" = _L7Y46xex;
+        "uFdMj9NA" = _uFdMj9NA;
+        "jvSoKx7r" = _jvSoKx7r;
+        "AAdtbcLG" = _AAdtbcLG;
+        "mUc8lyRT" = _mUc8lyRT;
         "neoforge-1.21.1" = _toPBQWWp;
         "neoforge-1.21.3" = _v4qxcDRC;
         "neoforge-1.21.4" = _dhYbiQY5;
@@ -209,6 +233,8 @@ let
         "neoforge-1.21.8" = _odOO8UbV;
         "neoforge-1.21.11" = _Ls3VhMoS;
         "neoforge-26.1.2" = _L7Y46xex;
+        "neoforge-26.2" = _jvSoKx7r;
+        "neoforge-26.3" = _mUc8lyRT;
         "fabric-1.21.1" = _aAabTuRk;
         "fabric-1.21.3" = _cyFRUzk9;
         "fabric-1.21.4" = _aVe75Oj6;
@@ -218,6 +244,8 @@ let
         "fabric-1.21.8" = _9DeydLOq;
         "fabric-1.21.11" = _jhTLhmZE;
         "fabric-26.1.2" = _9mWmuKCR;
+        "fabric-26.2" = _uFdMj9NA;
+        "fabric-26.3" = _AAdtbcLG;
         "pkg-1.0.0" = _pUSCxSLl;
         "pkg-1.0.1" = _cy931gCU;
         "pkg-1.1.0" = _3IY8zZ7N;
@@ -226,8 +254,8 @@ let
         "pkg-1.2.2" = _AMTIJ4H0;
         "pkg-1.2.3" = _VJfduBEZ;
         "pkg-1.3.0" = _3tI5kMVy;
-        "pkg-1.4.0" = _L7Y46xex;
-        "default" = _L7Y46xex;
+        "pkg-1.4.0" = _mUc8lyRT;
+        "default" = _mUc8lyRT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "white-pumpkins";

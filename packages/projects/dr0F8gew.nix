@@ -46,6 +46,11 @@ let
             "file" = "ItemTag-4.0.0.jar";
             "hash" = "sha512-rU5HkDqGHaeEdUqt0JWAm0z4jeikSKbI/jyngUeubhokgb4RPoD6kIy8D3w+AVvaMsNdGxBYq41NCbWPkRQDKQ==";
         };
+        _uydXFzhP = {
+            "id" = "uydXFzhP";
+            "file" = "ItemTag-4.0.1.jar";
+            "hash" = "sha512-Q5fyIxsLIqPYmuPCPiTEbAA65gV+19FXytQSVhHO+lOSLQbpPmZQ7eowPe3a8/eeObia3ZldCD83H50UQFa/rg==";
+        };
     in {
         "EobItHtD" = _EobItHtD;
         "ZYc9tnrs" = _ZYc9tnrs;
@@ -56,6 +61,7 @@ let
         "3VIbb4l7" = _3VIbb4l7;
         "twSNgo45" = _twSNgo45;
         "kryrOiHb" = _kryrOiHb;
+        "uydXFzhP" = _uydXFzhP;
         "paper-1.8.8" = _ytSzhExe;
         "paper-1.8.9" = _twSNgo45;
         "paper-1.9" = _twSNgo45;
@@ -256,19 +262,19 @@ let
         "spigot-26.1.1" = _twSNgo45;
         "spigot-26.1.2" = _twSNgo45;
         "spigot-26.2" = _twSNgo45;
-        "folia-1.21.4" = _kryrOiHb;
-        "folia-1.21.5" = _kryrOiHb;
-        "folia-1.21.6" = _kryrOiHb;
-        "folia-1.21.7" = _kryrOiHb;
-        "folia-1.21.8" = _kryrOiHb;
-        "folia-1.21.9" = _kryrOiHb;
-        "folia-1.21.10" = _kryrOiHb;
-        "folia-1.21.11" = _kryrOiHb;
-        "folia-26.1" = _kryrOiHb;
-        "folia-26.1.1" = _kryrOiHb;
-        "folia-26.1.2" = _kryrOiHb;
-        "folia-26.2" = _kryrOiHb;
-        "folia-26.3" = _kryrOiHb;
+        "folia-1.21.4" = _uydXFzhP;
+        "folia-1.21.5" = _uydXFzhP;
+        "folia-1.21.6" = _uydXFzhP;
+        "folia-1.21.7" = _uydXFzhP;
+        "folia-1.21.8" = _uydXFzhP;
+        "folia-1.21.9" = _uydXFzhP;
+        "folia-1.21.10" = _uydXFzhP;
+        "folia-1.21.11" = _uydXFzhP;
+        "folia-26.1" = _uydXFzhP;
+        "folia-26.1.1" = _uydXFzhP;
+        "folia-26.1.2" = _uydXFzhP;
+        "folia-26.2" = _uydXFzhP;
+        "folia-26.3" = _uydXFzhP;
         "pkg-3.7.0" = _ZYc9tnrs;
         "pkg-3.7.2" = _oodHZqDI;
         "pkg-3.7.3" = _y6q73tqo;
@@ -277,7 +283,8 @@ let
         "pkg-3.7.6" = _3VIbb4l7;
         "pkg-3.7.7" = _twSNgo45;
         "pkg-4.0.0" = _kryrOiHb;
-        "default" = _kryrOiHb;
+        "pkg-4.0.1" = _uydXFzhP;
+        "default" = _uydXFzhP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemtag";

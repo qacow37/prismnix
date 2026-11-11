@@ -31,6 +31,16 @@ let
             "file" = "enchantment-tomes-3.0.0.jar";
             "hash" = "sha512-fnjL207K62uP8VPEy88UuIreuxLvYvZl4sUH1cfJEO2umWn7mi3Ix0g/w/62geHLmrETULFOCMNwEtGXzBILUw==";
         };
+        _Z0iTUlME = {
+            "id" = "Z0iTUlME";
+            "file" = "enchantment tomes-dp.zip";
+            "hash" = "sha512-A0cVOmLCyASxaRocImaG1BH/xMLwe2XrdhCYHbvJ5fGTy/aQzwcncoYFyWyqNqWW8SYE1bAXGQOYmeYjBH8QAg==";
+        };
+        _Vig87Vqi = {
+            "id" = "Vig87Vqi";
+            "file" = "enchantment-tomes-3.0.1.jar";
+            "hash" = "sha512-YilPbqYv0Zia0TrzXFltMNtIzE9iKsHEB3IhAom3e/gFSPKzhCKTGwgOKht6gfaxcd5DZZFAUEac58/grSI2Zg==";
+        };
     in {
         "Jj46c4oH" = _Jj46c4oH;
         "H008x7Xp" = _H008x7Xp;
@@ -38,6 +48,8 @@ let
         "7LizsARb" = _7LizsARb;
         "umxjiyLH" = _umxjiyLH;
         "b0Yp81kp" = _b0Yp81kp;
+        "Z0iTUlME" = _Z0iTUlME;
+        "Vig87Vqi" = _Vig87Vqi;
         "datapack-1.21.5" = _Jj46c4oH;
         "datapack-1.21.6" = _Jj46c4oH;
         "datapack-1.21.7" = _Jj46c4oH;
@@ -50,7 +62,7 @@ let
         "datapack-26.1.2" = _Jj46c4oH;
         "datapack-26.2" = _Jj46c4oH;
         "datapack-1.21.4" = _uUvGDGdl;
-        "datapack-26.3" = _umxjiyLH;
+        "datapack-26.3" = _Z0iTUlME;
         "fabric-1.21.5" = _H008x7Xp;
         "fabric-1.21.6" = _H008x7Xp;
         "fabric-1.21.7" = _H008x7Xp;
@@ -63,7 +75,7 @@ let
         "fabric-26.1.2" = _H008x7Xp;
         "fabric-26.2" = _H008x7Xp;
         "fabric-1.21.4" = _7LizsARb;
-        "fabric-26.3" = _b0Yp81kp;
+        "fabric-26.3" = _Vig87Vqi;
         "forge-1.21.5" = _H008x7Xp;
         "forge-1.21.6" = _H008x7Xp;
         "forge-1.21.7" = _H008x7Xp;
@@ -76,7 +88,7 @@ let
         "forge-26.1.2" = _H008x7Xp;
         "forge-26.2" = _H008x7Xp;
         "forge-1.21.4" = _7LizsARb;
-        "forge-26.3" = _b0Yp81kp;
+        "forge-26.3" = _Vig87Vqi;
         "neoforge-1.21.5" = _H008x7Xp;
         "neoforge-1.21.6" = _H008x7Xp;
         "neoforge-1.21.7" = _H008x7Xp;
@@ -89,7 +101,7 @@ let
         "neoforge-26.1.2" = _H008x7Xp;
         "neoforge-26.2" = _H008x7Xp;
         "neoforge-1.21.4" = _7LizsARb;
-        "neoforge-26.3" = _b0Yp81kp;
+        "neoforge-26.3" = _Vig87Vqi;
         "quilt-1.21.5" = _H008x7Xp;
         "quilt-1.21.6" = _H008x7Xp;
         "quilt-1.21.7" = _H008x7Xp;
@@ -102,14 +114,16 @@ let
         "quilt-26.1.2" = _H008x7Xp;
         "quilt-26.2" = _H008x7Xp;
         "quilt-1.21.4" = _7LizsARb;
-        "quilt-26.3" = _b0Yp81kp;
+        "quilt-26.3" = _Vig87Vqi;
         "pkg-V2-Fixed" = _Jj46c4oH;
         "pkg-V2-Fixed+mod" = _H008x7Xp;
         "pkg-V1-Fixed" = _uUvGDGdl;
         "pkg-V1-Fixed+mod" = _7LizsARb;
         "pkg-3.0.0" = _umxjiyLH;
         "pkg-3.0.0+mod" = _b0Yp81kp;
-        "default" = _b0Yp81kp;
+        "pkg-3.0.1" = _Z0iTUlME;
+        "pkg-3.0.1+mod" = _Vig87Vqi;
+        "default" = _Vig87Vqi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-tomes";

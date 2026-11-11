@@ -76,6 +76,11 @@ let
             "file" = "IC2Classic-1.19.2-2.1.3.4.jar";
             "hash" = "sha512-QfSIFHnCKFNU7UBVGDA85Dy0e4X15hwNvDuxbfxiB9zy6keB4btjcff11KEcPz7XeswTeqD4sxTDqZhKOHc5vg==";
         };
+        _MFybTPGu = {
+            "id" = "MFybTPGu";
+            "file" = "IC2Classic-1.19.2-2.1.3.5.jar";
+            "hash" = "sha512-nsM29oQfR9/1Veb9As9Bjk1HIwVqzpaKp/fq6Ziw0jyfkccwXQg+QNB4lRO5qUi4DF4E1fWvaXJy4KdDILCHgQ==";
+        };
     in {
         "sgCwVktL" = _sgCwVktL;
         "Phb0nk4b" = _Phb0nk4b;
@@ -92,8 +97,9 @@ let
         "fOYhfarK" = _fOYhfarK;
         "JyOJ28dm" = _JyOJ28dm;
         "Qy5qeGTB" = _Qy5qeGTB;
+        "MFybTPGu" = _MFybTPGu;
         "forge-1.7.10" = _2fYENSXl;
-        "forge-1.19.2" = _Qy5qeGTB;
+        "forge-1.19.2" = _MFybTPGu;
         "forge-1.12.2" = _JyOJ28dm;
         "pkg-1.2.5" = _sgCwVktL;
         "pkg-2.1.1" = _Phb0nk4b;
@@ -110,7 +116,8 @@ let
         "pkg-1.5.14" = _fOYhfarK;
         "pkg-1.5.15" = _JyOJ28dm;
         "pkg-2.1.3.4" = _Qy5qeGTB;
-        "default" = _Qy5qeGTB;
+        "pkg-2.1.3.5" = _MFybTPGu;
+        "default" = _MFybTPGu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ic2classic";

@@ -211,6 +211,21 @@ let
             "file" = "arknights_endfield-1.3.1-1.21.1-beta.jar";
             "hash" = "sha512-9KbpHk+GfWrTSsN6aIUHTjPxaCsdjJqriyAAGIOoJU5Ymu/WOJ0dQEbOZqy6LWdo7hbALQ22u3ZEUS+6f5iWZg==";
         };
+        _Uu4VnMZs = {
+            "id" = "Uu4VnMZs";
+            "file" = "arknights_endfield-1.3.2-1.20.1-beta.jar";
+            "hash" = "sha512-3pCujdX4k/QaEZtY1+nIriGDpg/T2eOLttcPPuIF+19+kf8ReiBfb4brtQVF/HJG9BKFvHNyYvkaGq9VHpixsw==";
+        };
+        _VSEJTEZI = {
+            "id" = "VSEJTEZI";
+            "file" = "arknights_endfield-1.3.2-1.20.1-beta.jar";
+            "hash" = "sha512-8ZWq7koOopRLrMN2JN0FDTkuZb5Sko1dei6mp1nuPTpcG5yzgg716nre1nRO0Fj8hF9fcGEpTfVrG5dm8UWxdQ==";
+        };
+        _xpaiNxQR = {
+            "id" = "xpaiNxQR";
+            "file" = "arknights_endfield-1.3.2-1.21.1-beta.jar";
+            "hash" = "sha512-f+9hrm7qFiQht2MBHVaMIqtf1UD6q7bFHFbbSNXNdynnp+NYWdJbW2qvKzflOizdwDEtq8vOn1h0ZxPXOY+abA==";
+        };
     in {
         "89VswudI" = _89VswudI;
         "GwPWfydX" = _GwPWfydX;
@@ -254,9 +269,12 @@ let
         "cR5gQMVA" = _cR5gQMVA;
         "4NOxKhId" = _4NOxKhId;
         "OUQkVfi5" = _OUQkVfi5;
-        "forge-1.20.1" = _4NOxKhId;
-        "fabric-1.20.1" = _cR5gQMVA;
-        "neoforge-1.21.1" = _OUQkVfi5;
+        "Uu4VnMZs" = _Uu4VnMZs;
+        "VSEJTEZI" = _VSEJTEZI;
+        "xpaiNxQR" = _xpaiNxQR;
+        "forge-1.20.1" = _VSEJTEZI;
+        "fabric-1.20.1" = _Uu4VnMZs;
+        "neoforge-1.21.1" = _xpaiNxQR;
         "pkg-0.1.0-1.20.1-beta" = _GwPWfydX;
         "pkg-0.1.1-1.20.1-beta-Forge" = _5dOPajna;
         "pkg-0.1.1-1.20.1-beta-Fabric" = _bHG3b24h;
@@ -298,7 +316,10 @@ let
         "pkg-1.3.1-1.20.1-beta-Fabric" = _cR5gQMVA;
         "pkg-1.3.1-1.20.1-beta-Forge" = _4NOxKhId;
         "pkg-1.3.1-1.21.1-beta-NeoForge" = _OUQkVfi5;
-        "default" = _OUQkVfi5;
+        "pkg-1.3.2-1.20.1-beta-Fabric" = _Uu4VnMZs;
+        "pkg-1.3.2-1.20.1-beta-Forge" = _VSEJTEZI;
+        "pkg-1.3.2-1.21.1-beta-NeoForge" = _xpaiNxQR;
+        "default" = _xpaiNxQR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endfield-industry";

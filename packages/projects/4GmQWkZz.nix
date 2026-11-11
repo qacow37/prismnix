@@ -141,6 +141,26 @@ let
             "file" = "bundleupgrade-v26.3.3-mc26.3.x+fabric.jar";
             "hash" = "sha512-MhzstsPHYGF3nyoKLkKnWArJ/CHbG9a0vPHlEezraQ7lADcGtBzubjrkoYzYcPFce14afP1h2az9t93Y47m7/Q==";
         };
+        _YZ3jD9mf = {
+            "id" = "YZ3jD9mf";
+            "file" = "bundleupgrade-v26.1.7-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-J8dKpScXWvuz0Ydk7HI80B3ygpWXA44ymMj2IYMgCw3gu4Qdw80+oKngV9Z1JITMb+iDkzKBBTkanAhzNdmPlg==";
+        };
+        _ZohxJw4A = {
+            "id" = "ZohxJw4A";
+            "file" = "bundleupgrade-v26.1.7-mc26.1.x+fabric.jar";
+            "hash" = "sha512-rQ/j3FynO+bv/ZykxRwTTBEb+RO6CYfTABd/bguNYbX8zm01wRTo8sFnk9vXs6y0dvrf9/hdE8rrs7AyxajJiQ==";
+        };
+        _ASuAyONe = {
+            "id" = "ASuAyONe";
+            "file" = "bundleupgrade-v26.3.4-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-wgReJbU5nz10IvWEljFPtUDKoKBPcRrr6zynAloKgoSp6G/kaqcWs6lW0QWUC6KngHznchDSuMNScKxbfe3uEQ==";
+        };
+        _5A70ZrPP = {
+            "id" = "5A70ZrPP";
+            "file" = "bundleupgrade-v26.3.4-mc26.3.x+fabric.jar";
+            "hash" = "sha512-oj6N7pWj6zvtI/Y7AtxkfzfcQ6v2sBQ87GfqgeQ5istdleTZRQt/kka1tnLfzKUqWmIrj9RelTYTeiUMOGNqhA==";
+        };
     in {
         "5C3xnEVA" = _5C3xnEVA;
         "HyLjgg4j" = _HyLjgg4j;
@@ -170,16 +190,20 @@ let
         "lqc9yUNB" = _lqc9yUNB;
         "e8EC0VTf" = _e8EC0VTf;
         "zQbiYbra" = _zQbiYbra;
-        "fabric-26.1" = _lqc9yUNB;
-        "fabric-26.1.1" = _lqc9yUNB;
-        "fabric-26.1.2" = _lqc9yUNB;
+        "YZ3jD9mf" = _YZ3jD9mf;
+        "ZohxJw4A" = _ZohxJw4A;
+        "ASuAyONe" = _ASuAyONe;
+        "5A70ZrPP" = _5A70ZrPP;
+        "fabric-26.1" = _ZohxJw4A;
+        "fabric-26.1.1" = _ZohxJw4A;
+        "fabric-26.1.2" = _ZohxJw4A;
         "fabric-26.2" = _7ybcuHGt;
-        "fabric-26.3" = _zQbiYbra;
-        "neoforge-26.1" = _Ii5cuqpw;
-        "neoforge-26.1.1" = _Ii5cuqpw;
-        "neoforge-26.1.2" = _Ii5cuqpw;
+        "fabric-26.3" = _5A70ZrPP;
+        "neoforge-26.1" = _YZ3jD9mf;
+        "neoforge-26.1.1" = _YZ3jD9mf;
+        "neoforge-26.1.2" = _YZ3jD9mf;
         "neoforge-26.2" = _fvv0IiMe;
-        "neoforge-26.3" = _e8EC0VTf;
+        "neoforge-26.3" = _ASuAyONe;
         "pkg-26.1.0" = _HyLjgg4j;
         "pkg-26.1.1" = _28INeWqM;
         "pkg-26.2.0" = _swuSlvGL;
@@ -194,7 +218,9 @@ let
         "pkg-26.1.5" = _jOGHNSH4;
         "pkg-26.1.6" = _lqc9yUNB;
         "pkg-26.3.3" = _zQbiYbra;
-        "default" = _zQbiYbra;
+        "pkg-26.1.7" = _ZohxJw4A;
+        "pkg-26.3.4" = _5A70ZrPP;
+        "default" = _5A70ZrPP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bundle-upgrade";

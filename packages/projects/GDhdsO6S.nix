@@ -26,12 +26,18 @@ let
             "file" = "TPSpawn-1.2.0.jar";
             "hash" = "sha512-Y6wcPqgHM1Q4Bh38RViHiX2YJCi74rQ0ZNVqzfjb1DPVZef/5/5NdiHOCqTFdpLTeRNpxvd1kW9/zVhHxEtCLQ==";
         };
+        _Jhyj1bFJ = {
+            "id" = "Jhyj1bFJ";
+            "file" = "TPSpawn-1.3.0.jar";
+            "hash" = "sha512-aiv/nhmGXVsKPiJJb/khlWLgvKclu/Y8iWXgC5MAtJ5NVgYwK7s5MzF10aIxS1sP8xqNjb6mk44ki94V+p6pwg==";
+        };
     in {
         "j6qrlbHC" = _j6qrlbHC;
         "pQwvTlDy" = _pQwvTlDy;
         "YOXbzDbp" = _YOXbzDbp;
         "Lhn20Q38" = _Lhn20Q38;
         "Wk2EcUoB" = _Wk2EcUoB;
+        "Jhyj1bFJ" = _Jhyj1bFJ;
         "paper-1.19" = _YOXbzDbp;
         "paper-1.19.1" = _YOXbzDbp;
         "paper-1.19.2" = _YOXbzDbp;
@@ -60,6 +66,7 @@ let
         "paper-26.1.1" = _Wk2EcUoB;
         "paper-26.1.2" = _Wk2EcUoB;
         "paper-26.2" = _Wk2EcUoB;
+        "paper-26.3" = _Jhyj1bFJ;
         "purpur-1.19" = _YOXbzDbp;
         "purpur-1.19.1" = _YOXbzDbp;
         "purpur-1.19.2" = _YOXbzDbp;
@@ -88,6 +95,7 @@ let
         "purpur-26.1.1" = _Wk2EcUoB;
         "purpur-26.1.2" = _Wk2EcUoB;
         "purpur-26.2" = _Wk2EcUoB;
+        "purpur-26.3" = _Jhyj1bFJ;
         "folia-1.21" = _Wk2EcUoB;
         "folia-1.21.1" = _Wk2EcUoB;
         "folia-1.21.2" = _Wk2EcUoB;
@@ -104,12 +112,14 @@ let
         "folia-26.1.1" = _Wk2EcUoB;
         "folia-26.1.2" = _Wk2EcUoB;
         "folia-26.2" = _Wk2EcUoB;
+        "folia-26.3" = _Jhyj1bFJ;
         "pkg-1.0.0" = _j6qrlbHC;
         "pkg-1.0.1" = _pQwvTlDy;
         "pkg-1.0.2" = _YOXbzDbp;
         "pkg-1.1.0" = _Lhn20Q38;
         "pkg-1.2.0" = _Wk2EcUoB;
-        "default" = _Wk2EcUoB;
+        "pkg-1.3.0" = _Jhyj1bFJ;
+        "default" = _Jhyj1bFJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tp-spawn";

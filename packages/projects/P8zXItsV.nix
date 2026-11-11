@@ -66,6 +66,16 @@ let
             "file" = "thecopperrail-0.9.10.jar";
             "hash" = "sha512-C5xsgaqVWp7jxuWipUN68lKCkh3KG0MIBLAZbFZbqgjdrdLJViSjtSqUbhqJnbe3tQqQwjjuLfdlmTqNhqbSEQ==";
         };
+        _OnYH8xf4 = {
+            "id" = "OnYH8xf4";
+            "file" = "MCTheCopperRail-0.9.11.jar";
+            "hash" = "sha512-PkHOVB/ckQwZra+Wev1KpU8Q0a9sbS6ZNgOWjORL3aVUIY+gAQhRybcC9BW8VeIYE6z5Btnhr/3JVS37IDOGZQ==";
+        };
+        _FDBIayx9 = {
+            "id" = "FDBIayx9";
+            "file" = "thecopperrail-0.9.12.jar";
+            "hash" = "sha512-S4RBu5cg3UlJU1/zORKmVzLiv83kywDZhL1wRnVHRfhSFWEDOcPwE6dFNPX/IeesMNIDA45Pl7+VDb0v++omLA==";
+        };
     in {
         "smnjnqTc" = _smnjnqTc;
         "4BHZPOmJ" = _4BHZPOmJ;
@@ -80,6 +90,8 @@ let
         "W94x4QsR" = _W94x4QsR;
         "HiA94EP2" = _HiA94EP2;
         "FLpb5fip" = _FLpb5fip;
+        "OnYH8xf4" = _OnYH8xf4;
+        "FDBIayx9" = _FDBIayx9;
         "fabric-1.20" = _4BHZPOmJ;
         "fabric-1.20.1" = _4BHZPOmJ;
         "fabric-1.20.2" = _4BHZPOmJ;
@@ -99,7 +111,8 @@ let
         "fabric-26.1" = _FLpb5fip;
         "fabric-26.1.1" = _FLpb5fip;
         "fabric-26.1.2" = _FLpb5fip;
-        "fabric-26.2" = _FLpb5fip;
+        "fabric-26.2" = _OnYH8xf4;
+        "fabric-26.3" = _FDBIayx9;
         "pkg-0.9" = _smnjnqTc;
         "pkg-0.9.1" = _4BHZPOmJ;
         "pkg-0.9.3" = _s1uPW5TJ;
@@ -113,7 +126,9 @@ let
         "pkg-0.9.8" = _W94x4QsR;
         "pkg-0.9.9" = _HiA94EP2;
         "pkg-0.9.10" = _FLpb5fip;
-        "default" = _FLpb5fip;
+        "pkg-0.9.11" = _OnYH8xf4;
+        "pkg-0.9.12" = _FDBIayx9;
+        "default" = _FDBIayx9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thecopperrail";

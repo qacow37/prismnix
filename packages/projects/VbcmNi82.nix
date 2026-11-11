@@ -541,6 +541,16 @@ let
             "file" = "deactivateriptideflight-FORGE-1.2.1-26.3.jar";
             "hash" = "sha512-Sf+Tc8QteQIJLP/6qNcqRkaMu5Pa0ExQ2gPPSeigXccegAMNISBa7eRoK30O3l2pV2hDg/rkHtH5qebP/D+x+Q==";
         };
+        _N1dJh3AR = {
+            "id" = "N1dJh3AR";
+            "file" = "deactivateriptideflight-FORGE-1.2.2-1.20.1.jar";
+            "hash" = "sha512-2cOpBMWRu+XcIRgx75b4q/tXMPHHG1Hs+zb/sh3+XIn4+8/ovAvntxQRAp90A338LzTyg4A1TXCZ/j4YIzO14A==";
+        };
+        _Yex7tV66 = {
+            "id" = "Yex7tV66";
+            "file" = "deactivateriptideflight-NEOFORGE-1.2.2-1.20.1.jar";
+            "hash" = "sha512-XgsYGgYJwqRL6K4wE0hVdNiiPZsi8YxJpEx0/ZeAeuX0qeJsXmlD6hTT0voq0gOzVZzdmzCs3MHHpVvT1uhpIA==";
+        };
     in {
         "kxrBny2b" = _kxrBny2b;
         "aQrKQqoP" = _aQrKQqoP;
@@ -650,6 +660,8 @@ let
         "mgKagYzG" = _mgKagYzG;
         "RScZYoij" = _RScZYoij;
         "IrGt8T7u" = _IrGt8T7u;
+        "N1dJh3AR" = _N1dJh3AR;
+        "Yex7tV66" = _Yex7tV66;
         "fabric-1.14" = _kxrBny2b;
         "fabric-1.14.1" = _kxrBny2b;
         "fabric-1.14.2" = _kxrBny2b;
@@ -705,7 +717,7 @@ let
         "forge-1.19.3" = _7JLcEo3u;
         "forge-1.19.4" = _rZR3XSpK;
         "forge-1.20" = _BZfAmE9V;
-        "forge-1.20.1" = _1iuLEp6i;
+        "forge-1.20.1" = _N1dJh3AR;
         "forge-1.20.2" = _izinpGvh;
         "forge-1.20.4" = _iGbx8I1L;
         "forge-1.21" = _lf4Za8Vl;
@@ -737,7 +749,7 @@ let
         "neoforge-1.21.9" = _WsmFoOfQ;
         "neoforge-1.21.10" = _h5dLMth0;
         "neoforge-1.21.11" = _pR2e5sGm;
-        "neoforge-1.20.1" = _zlPzKjNv;
+        "neoforge-1.20.1" = _Yex7tV66;
         "neoforge-26.1.1" = _F35DjDkL;
         "neoforge-26.1.2" = _xhsz96aQ;
         "neoforge-26.1" = _BFu3Q2O7;
@@ -822,7 +834,9 @@ let
         "pkg-1.2.1+fabric-26.3" = _mgKagYzG;
         "pkg-1.2.1+neoforge-26.3" = _RScZYoij;
         "pkg-1.2.1+forge-26.3" = _IrGt8T7u;
-        "default" = _IrGt8T7u;
+        "pkg-1.2.2+forge-1.20.1" = _N1dJh3AR;
+        "pkg-1.2.2+neoforge-1.20.1" = _Yex7tV66;
+        "default" = _Yex7tV66;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deactivate-riptide-flight";

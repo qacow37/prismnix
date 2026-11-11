@@ -156,6 +156,11 @@ let
             "file" = "locator_lodestones-1.5.3+26.2+A.jar";
             "hash" = "sha512-27WKMGVPMJC9ngeu4FzcG7cZ4jTfM6gASTr/v4BquIYVbwPo1VTmDQcwH1Jir9q+VKNLHQ4DifQUvc1FFMK3vQ==";
         };
+        _6rskwlKs = {
+            "id" = "6rskwlKs";
+            "file" = "locator_lodestones-1.5.3+26.3+A.jar";
+            "hash" = "sha512-cE/LHpry3gBlhpZPJLR5Jo8jSQWf+HLWA4cq+cB7FfAaOZIOAz3dgr/qprmpl/98q7s3VmIY98R83L9VNoZhjg==";
+        };
     in {
         "T1VLyNAw" = _T1VLyNAw;
         "PY10wjHQ" = _PY10wjHQ;
@@ -188,6 +193,7 @@ let
         "Bxvtiw39" = _Bxvtiw39;
         "2ScPNrBr" = _2ScPNrBr;
         "CHYrFP5J" = _CHYrFP5J;
+        "6rskwlKs" = _6rskwlKs;
         "fabric-1.21.6" = _4JJDsDS1;
         "fabric-1.21.7" = _4JJDsDS1;
         "fabric-1.21.8" = _4JJDsDS1;
@@ -198,6 +204,7 @@ let
         "fabric-26.1.1" = _2ScPNrBr;
         "fabric-26.1.2" = _2ScPNrBr;
         "fabric-26.2" = _CHYrFP5J;
+        "fabric-26.3" = _6rskwlKs;
         "quilt-1.21.6" = _4JJDsDS1;
         "quilt-1.21.7" = _4JJDsDS1;
         "quilt-1.21.8" = _4JJDsDS1;
@@ -208,6 +215,7 @@ let
         "quilt-26.1.1" = _2ScPNrBr;
         "quilt-26.1.2" = _2ScPNrBr;
         "quilt-26.2" = _CHYrFP5J;
+        "quilt-26.3" = _6rskwlKs;
         "pkg-1.0.0" = _T1VLyNAw;
         "pkg-1.0.1" = _PY10wjHQ;
         "pkg-1.1.0" = _4DvlMeYD;
@@ -239,7 +247,8 @@ let
         "pkg-1.5.3+1.21.9+A" = _Bxvtiw39;
         "pkg-1.5.3+26.1+A" = _2ScPNrBr;
         "pkg-1.5.3+26.2+A" = _CHYrFP5J;
-        "default" = _CHYrFP5J;
+        "pkg-1.5.3+26.3+A" = _6rskwlKs;
+        "default" = _6rskwlKs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locator_lodestones";

@@ -36,6 +36,11 @@ let
             "file" = "create_redstone_additions-1.0.5.jar";
             "hash" = "sha512-P05T2lYprpzKKZQltTp/VMZYISme7SP2hGPKlWtpWF8RlDk4Pl04CpRkAQ3BfGqjnZTlTvJMWtnPJvud+HXGTA==";
         };
+        _Hvlv9gb6 = {
+            "id" = "Hvlv9gb6";
+            "file" = "create_redstone_additions-1.0.6.jar";
+            "hash" = "sha512-WDWgqXMGPFvbrX+hpN09wuylU8QUuYIt/rYz+fI2/5CFtnbGDwTQjr3Hf5JYg2Gx9PmZYItjg47HJSPvw7Pufw==";
+        };
     in {
         "edVteMfh" = _edVteMfh;
         "tS8PP38W" = _tS8PP38W;
@@ -44,9 +49,10 @@ let
         "f9e3YZ0g" = _f9e3YZ0g;
         "87aIL0Z4" = _87aIL0Z4;
         "4P4QJB3m" = _4P4QJB3m;
+        "Hvlv9gb6" = _Hvlv9gb6;
         "forge-1.20.1" = _87aIL0Z4;
         "fabric-1.20.1" = _f9e3YZ0g;
-        "neoforge-1.21.1" = _4P4QJB3m;
+        "neoforge-1.21.1" = _Hvlv9gb6;
         "pkg-0.9-1.20.1-forge" = _edVteMfh;
         "pkg-0.9-1.20.1-fabric" = _tS8PP38W;
         "pkg-1.0.0-1.20.1-fabric" = _F0RWAd0z;
@@ -54,7 +60,8 @@ let
         "pkg-1.0.1-12-1.20.1-fabric" = _f9e3YZ0g;
         "pkg-1.0.1-12-1.20.1-forge" = _87aIL0Z4;
         "pkg-1.0.5-1.21.1-neoforge" = _4P4QJB3m;
-        "default" = _4P4QJB3m;
+        "pkg-1.0.6-1.21.1-neoforge" = _Hvlv9gb6;
+        "default" = _Hvlv9gb6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-redstone-additions";

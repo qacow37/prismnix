@@ -46,6 +46,11 @@ let
             "file" = "BellsAndWhistles-0.4.7+fly-mc26.1.jar";
             "hash" = "sha512-s6tusf9ARBxqMZextxx+8P4F14Xsj7isYOYQUwcxB4cMN+6/M8aS/VXjJAmv1we8J/vQ9fqT9lHBn6NGFiqi6g==";
         };
+        _3sFrs1Vu = {
+            "id" = "3sFrs1Vu";
+            "file" = "BellsAndWhistles-0.4.7+fly-mc26.3.jar";
+            "hash" = "sha512-fyTCoHkNbnaW9hjUf5Lj/rzRBasdBWEaclnpFmhtU4TOr2JGhDpDcDOADsXRZlLgAF72MBc5H8NNznesLtPlwA==";
+        };
     in {
         "amiGf54w" = _amiGf54w;
         "K3miOkfy" = _K3miOkfy;
@@ -56,10 +61,12 @@ let
         "fRt4Ipjg" = _fRt4Ipjg;
         "AUhNAUBb" = _AUhNAUBb;
         "eaW7Mr0u" = _eaW7Mr0u;
+        "3sFrs1Vu" = _3sFrs1Vu;
         "fabric-26.2" = _AUhNAUBb;
         "fabric-26.1.2" = _eaW7Mr0u;
         "fabric-26.1" = _eaW7Mr0u;
         "fabric-26.1.1" = _eaW7Mr0u;
+        "fabric-26.3" = _3sFrs1Vu;
         "pkg-0.4.7-fly.26.2-beta.2" = _amiGf54w;
         "pkg-0.4.7-fly.26.2-beta.3" = _K3miOkfy;
         "pkg-0.4.7-fly.26.2-beta.4" = _YJUBxCJk;
@@ -69,7 +76,8 @@ let
         "pkg-0.4.7-fly.26.2-beta.8" = _fRt4Ipjg;
         "pkg-0.4.7+fly-mc26.2" = _AUhNAUBb;
         "pkg-0.4.7+fly-mc26.1" = _eaW7Mr0u;
-        "default" = _eaW7Mr0u;
+        "pkg-0.4.7+fly-mc26.3" = _3sFrs1Vu;
+        "default" = _3sFrs1Vu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-bells-whistles-unofficial-port";

@@ -46,6 +46,31 @@ let
             "file" = "emf_compat_gliders_fabric_1.21.1_2.0.0.jar";
             "hash" = "sha512-OLEaiBny8bdBmWcYdwXFARpEZCg3BAlMJ+Ng9hiNRuAYAzc9LI7GqRhgAO6RtFahcFlpuuquam+R1q0qpju2VA==";
         };
+        _9yrSNqGc = {
+            "id" = "9yrSNqGc";
+            "file" = "emf_compat_gliders_forge_1.20.1_2.0.1.jar";
+            "hash" = "sha512-ng1zpJBuZwTWicpdGQ9RrxZFLQ/B2w2jBErbpVIKybDQ+n8YaJKXouRQC5OFrceNNV5dmRyYfRrnEA8SAKghRQ==";
+        };
+        _ZzWy0h8A = {
+            "id" = "ZzWy0h8A";
+            "file" = "emf_compat_gliders_neoforge_1.21.1_2.0.1.jar";
+            "hash" = "sha512-AfM/WEeONbNA5J3ncJVPX7PVowDr/aEcdDRyJyfXtNAXK8jWRfdb/bDCqz2JvWiRZsFZFOWFtP/uScuGqHeSzA==";
+        };
+        _V5mnrswt = {
+            "id" = "V5mnrswt";
+            "file" = "emf_compat_gliders_fabric_1.21.1_2.0.1.jar";
+            "hash" = "sha512-vtBxacP6lxLS2Zt1X8At7mBMt35hL+tasLN8YxRNP3jyZbnyGIFDnH5yC+jVq+0NB1DoZdi5+Tgyuk8AmtH8XQ==";
+        };
+        _IcsRlzye = {
+            "id" = "IcsRlzye";
+            "file" = "emf_compat_gliders_fabric_26.1.2_2.0.1.jar";
+            "hash" = "sha512-KTgjNX5VQFbuX9q2S3egFaBMzmxvcytV5rNpTZf5VvPpY/WiBC842t61LQDuq35AKo/oKeSAcpC2rZNaAfNYIA==";
+        };
+        _8QSzyfHr = {
+            "id" = "8QSzyfHr";
+            "file" = "emf_compat_gliders_fabric_26.2_2.0.1.jar";
+            "hash" = "sha512-oHuu7SxJCne6U/des2F5+uYE1thVTPbhuL9Lg2CiJyfOLE0BFnIOw0NYEjbJsLQ71t7lGj6ACUDGCxT/gNmo2w==";
+        };
     in {
         "VLwH6wMY" = _VLwH6wMY;
         "I54WgHq3" = _I54WgHq3;
@@ -56,14 +81,20 @@ let
         "kGZXirMq" = _kGZXirMq;
         "yPq4DMja" = _yPq4DMja;
         "Im1Mn1ez" = _Im1Mn1ez;
-        "forge-1.20.1" = _oTdQNDtC;
-        "neoforge-1.21.1" = _cER4cs2Q;
-        "fabric-26.1.2" = _kGZXirMq;
-        "fabric-26.2" = _yPq4DMja;
-        "fabric-1.21.1" = _Im1Mn1ez;
+        "9yrSNqGc" = _9yrSNqGc;
+        "ZzWy0h8A" = _ZzWy0h8A;
+        "V5mnrswt" = _V5mnrswt;
+        "IcsRlzye" = _IcsRlzye;
+        "8QSzyfHr" = _8QSzyfHr;
+        "forge-1.20.1" = _9yrSNqGc;
+        "neoforge-1.21.1" = _ZzWy0h8A;
+        "fabric-26.1.2" = _IcsRlzye;
+        "fabric-26.2" = _8QSzyfHr;
+        "fabric-1.21.1" = _V5mnrswt;
         "pkg-1.0.0" = _e6br3aJq;
         "pkg-2.0.0" = _Im1Mn1ez;
-        "default" = _Im1Mn1ez;
+        "pkg-2.0.1" = _8QSzyfHr;
+        "default" = _8QSzyfHr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-gliders";

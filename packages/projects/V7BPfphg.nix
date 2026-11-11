@@ -151,6 +151,81 @@ let
             "file" = "compasstomapxaeros-0.1.2-fabric-26.2.jar";
             "hash" = "sha512-YNswmpMoosp+MLDdEnGO4bAYRbIqo3oS50WTpkxTMloTiyGbwMkDyVs3YAWB5piibU4L2AdTUtjFZzzhjKV0gg==";
         };
+        _hDtTsPhZ = {
+            "id" = "hDtTsPhZ";
+            "file" = "compass-to-map-xaero-0.1.3+neoforge-1.21.1.jar";
+            "hash" = "sha512-x5ee5eC4vwek4r6uWKWzWK6wZxWI0NcsutaVqBbvWn7+QFPc7ffqmjz1mNLRLVZHdhQh7eTBlVIAFpdryKOPvw==";
+        };
+        _LSuC4lSf = {
+            "id" = "LSuC4lSf";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-1.20.1.jar";
+            "hash" = "sha512-htMP1LTHbsefyVwYHyEcLSbKdDpNP9JjQgfePgt6VIrSW2F+OpQMqEofyG/80h9jWY0bPUwiXO2t7LYeZ5IShg==";
+        };
+        _vpCWmMwo = {
+            "id" = "vpCWmMwo";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-1.21.1.jar";
+            "hash" = "sha512-D3hRh9zfgw30gmfpnr6zbpbRPW2Z3lFl3bckLXyi3N1wkwLAsf5hh7zb7VDr8SNM6ud1cvqG3pf9aN/BTvPE7Q==";
+        };
+        _Xb45hXZs = {
+            "id" = "Xb45hXZs";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-1.21.11.jar";
+            "hash" = "sha512-HxEX+slx2pnaQGQeqktJfu1ldnDC2TkqOBEVzr5PHcSS2eHKWDltmqJaMEdDwPLVICwZGwYNf2elvwMI7oHtQw==";
+        };
+        _epme6F6R = {
+            "id" = "epme6F6R";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-1.21.4.jar";
+            "hash" = "sha512-pxJTuidyTJk8wqGJ3Xn6X/MJn4Ko2Rw5ZgSDVZFAa4/X7vt2SYy4UohIiSdUBGt9E8H4CCEXf9x4NjjLELsCmA==";
+        };
+        _8KuB6OIj = {
+            "id" = "8KuB6OIj";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-1.21.8.jar";
+            "hash" = "sha512-YWIYpPrFunznKKac/it3nzx1lVm36gTATfiHI7pi2SMlSvCOx0EHgndsD14fCmKOOzxJASEuVq56h1/ZSRj/lQ==";
+        };
+        _AcrKXsGv = {
+            "id" = "AcrKXsGv";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-26.1.2.jar";
+            "hash" = "sha512-nXuRU6Te5aVdsRdecYGFQy2Cmk6MTfRx6aL0tim9u84inDr1/Fv+4jXzxp/FjFLU33D1B9gsOAWMKlxF+eLbTg==";
+        };
+        _G9DRHo3J = {
+            "id" = "G9DRHo3J";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-26.2.jar";
+            "hash" = "sha512-BGF6/UygCT9j96Z77VRgfs7YIdHuN1xEg1G35wxMNAojOLnrc64qAMm2CPe9YgcC4gcfKQ9QwhRVyx9Qykk8Bw==";
+        };
+        _2ZJL46uO = {
+            "id" = "2ZJL46uO";
+            "file" = "compass-to-map-xaero-0.1.3+forge-1.20.1.jar";
+            "hash" = "sha512-Hbd+p5/I39nK1pF4WC6HMfUZ/6OkD3ks5sXALF/hFYhanOyfqbvI9c65QKOC4dbQC/I07EpqoR2kZjHmAW1udQ==";
+        };
+        _zVzqdzxi = {
+            "id" = "zVzqdzxi";
+            "file" = "compass-to-map-xaero-0.1.3+forge-1.21.1.jar";
+            "hash" = "sha512-xQlxuQwnoMyTGFKpnH8XAwCATFLLRkpUrKyKT+c7gqKxltFf+Omj//oeq8fACj/ZvcIz0ukhyxWMK/uZZ/oIkA==";
+        };
+        _MzCAoyB6 = {
+            "id" = "MzCAoyB6";
+            "file" = "compass-to-map-xaero-0.1.3+neoforge-1.21.11.jar";
+            "hash" = "sha512-hUSaAOgMZ2PbaTj/bq+amHRFtqK1pfMI5umuFfp94ldN5C5w6ZhiQyaz1BLa2N4hVWvL1WU4I78iSZP1WJqBBw==";
+        };
+        _zZkjzFRc = {
+            "id" = "zZkjzFRc";
+            "file" = "compass-to-map-xaero-0.1.3+neoforge-1.21.4.jar";
+            "hash" = "sha512-Wrc8Fu64xhfZF3Rs+25ZwUfVjOYThUwRnmwn1p0Lly/aEwuBhh3GRDKaGkWWR55QX3dSoO6cn6KWhZHtyaugMQ==";
+        };
+        _Wy2BHh5Q = {
+            "id" = "Wy2BHh5Q";
+            "file" = "compass-to-map-xaero-0.1.3+neoforge-1.21.8.jar";
+            "hash" = "sha512-IBYfnzMcHqvz3m8dp7Ywz8sTtGqg7nIycMCt6P46YufJ28Q4Kiq3+Wevp88tDYnuyd2PvlJrIcyLR/rvhoD5PA==";
+        };
+        _pv1R4WYa = {
+            "id" = "pv1R4WYa";
+            "file" = "compass-to-map-xaero-0.1.3+neoforge-26.1.2.jar";
+            "hash" = "sha512-buZ9ob3rB8sR4NQ9/TFTaW7ODBmotOv8X8nVuCyEY+aKf9BoYIzMPOB1dSVivBcsbaOTlQeSp+1Wdw6nBqQJUA==";
+        };
+        _hGVxCnKV = {
+            "id" = "hGVxCnKV";
+            "file" = "compass-to-map-xaero-0.1.3+neoforge-26.2.jar";
+            "hash" = "sha512-PXL/cgVbPklvM9tS9vXmrNaYef+cbFcDFKO2VRR29YY2bzv2G4NERc0PCgAL8BrxFk6NtLiekN4ffATzWpLILw==";
+        };
     in {
         "1IWubHUM" = _1IWubHUM;
         "AfmH74ZA" = _AfmH74ZA;
@@ -182,21 +257,36 @@ let
         "Nf3wYw6E" = _Nf3wYw6E;
         "QhkcIIQ6" = _QhkcIIQ6;
         "D5rUUiSE" = _D5rUUiSE;
-        "neoforge-1.21.1" = _yL3yBq1T;
-        "neoforge-1.21.4" = _HGd2pxuB;
-        "neoforge-1.21.8" = _Vp7w5vZ0;
-        "neoforge-1.21.11" = _yYoEpbCE;
-        "neoforge-26.2" = _QhkcIIQ6;
-        "neoforge-26.1.2" = _l3KZbmpp;
-        "forge-1.21.1" = _4N7tLeiR;
-        "forge-1.20.1" = _AvnoZo5R;
-        "fabric-1.21.1" = _nvbOrY7y;
-        "fabric-1.20.1" = _TZoo6Blf;
-        "fabric-1.21.4" = _BQY4qGG9;
-        "fabric-1.21.8" = _Y81clkCU;
-        "fabric-1.21.11" = _AtjgivHA;
-        "fabric-26.2" = _D5rUUiSE;
-        "fabric-26.1.2" = _Nf3wYw6E;
+        "hDtTsPhZ" = _hDtTsPhZ;
+        "LSuC4lSf" = _LSuC4lSf;
+        "vpCWmMwo" = _vpCWmMwo;
+        "Xb45hXZs" = _Xb45hXZs;
+        "epme6F6R" = _epme6F6R;
+        "8KuB6OIj" = _8KuB6OIj;
+        "AcrKXsGv" = _AcrKXsGv;
+        "G9DRHo3J" = _G9DRHo3J;
+        "2ZJL46uO" = _2ZJL46uO;
+        "zVzqdzxi" = _zVzqdzxi;
+        "MzCAoyB6" = _MzCAoyB6;
+        "zZkjzFRc" = _zZkjzFRc;
+        "Wy2BHh5Q" = _Wy2BHh5Q;
+        "pv1R4WYa" = _pv1R4WYa;
+        "hGVxCnKV" = _hGVxCnKV;
+        "neoforge-1.21.1" = _hDtTsPhZ;
+        "neoforge-1.21.4" = _zZkjzFRc;
+        "neoforge-1.21.8" = _Wy2BHh5Q;
+        "neoforge-1.21.11" = _MzCAoyB6;
+        "neoforge-26.2" = _hGVxCnKV;
+        "neoforge-26.1.2" = _pv1R4WYa;
+        "forge-1.21.1" = _zVzqdzxi;
+        "forge-1.20.1" = _2ZJL46uO;
+        "fabric-1.21.1" = _vpCWmMwo;
+        "fabric-1.20.1" = _LSuC4lSf;
+        "fabric-1.21.4" = _epme6F6R;
+        "fabric-1.21.8" = _8KuB6OIj;
+        "fabric-1.21.11" = _Xb45hXZs;
+        "fabric-26.2" = _G9DRHo3J;
+        "fabric-26.1.2" = _AcrKXsGv;
         "pkg-0.1.1" = _1IWubHUM;
         "pkg-0.1.1+forge-1.21.1" = _AfmH74ZA;
         "pkg-0.1.1+forge-1.20.1" = _aHY4vFbz;
@@ -227,7 +317,22 @@ let
         "pkg-0.1.2+fabric-26.1.2" = _Nf3wYw6E;
         "pkg-0.1.2+neoforge-26.2" = _QhkcIIQ6;
         "pkg-0.1.2+fabric-26.2" = _D5rUUiSE;
-        "default" = _D5rUUiSE;
+        "pkg-0.1.3+neoforge-1.21.1" = _hDtTsPhZ;
+        "pkg-0.1.3+fabric-1.20.1" = _LSuC4lSf;
+        "pkg-0.1.3+fabric-1.21.1" = _vpCWmMwo;
+        "pkg-0.1.3+fabric-1.21.11" = _Xb45hXZs;
+        "pkg-0.1.3+fabric-1.21.4" = _epme6F6R;
+        "pkg-0.1.3+fabric-1.21.8" = _8KuB6OIj;
+        "pkg-0.1.3+fabric-26.1.2" = _AcrKXsGv;
+        "pkg-0.1.3+fabric-26.2" = _G9DRHo3J;
+        "pkg-0.1.3+forge-1.20.1" = _2ZJL46uO;
+        "pkg-0.1.3+forge-1.21.1" = _zVzqdzxi;
+        "pkg-0.1.3+neoforge-1.21.11" = _MzCAoyB6;
+        "pkg-0.1.3+neoforge-1.21.4" = _zZkjzFRc;
+        "pkg-0.1.3+neoforge-1.21.8" = _Wy2BHh5Q;
+        "pkg-0.1.3+neoforge-26.1.2" = _pv1R4WYa;
+        "pkg-0.1.3+neoforge-26.2" = _hGVxCnKV;
+        "default" = _hGVxCnKV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-to-map-xaeros";

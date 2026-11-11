@@ -21,17 +21,24 @@ let
             "file" = "cyberchems-1.0.6.jar";
             "hash" = "sha512-0GEbp8oGtrSuWpFAhBcInhMc/xMCtJrltiHteASAYYOiXbDU0KS9nD+FLBaZznAVeuvU/qfZ3VpLJTqqdX1f5Q==";
         };
+        _tzT1LcI0 = {
+            "id" = "tzT1LcI0";
+            "file" = "cyberchems-1.0.8.jar";
+            "hash" = "sha512-bW/Fyy3WrmyzAWRmPcRDnvcIWbFNcHW1yqIngs/Qtlapw/SegWS37+vFKNQDkL30ls+T9T+Ztge+6NhwYli2aA==";
+        };
     in {
         "hNUHJGjB" = _hNUHJGjB;
         "nOz2aBQP" = _nOz2aBQP;
         "nmRwS7Bl" = _nmRwS7Bl;
         "L67dwlXS" = _L67dwlXS;
-        "neoforge-1.21.1" = _L67dwlXS;
+        "tzT1LcI0" = _tzT1LcI0;
+        "neoforge-1.21.1" = _tzT1LcI0;
         "pkg-1.0.0" = _hNUHJGjB;
         "pkg-1.0.4" = _nOz2aBQP;
         "pkg-1.0.5" = _nmRwS7Bl;
         "pkg-1.0.6" = _L67dwlXS;
-        "default" = _L67dwlXS;
+        "pkg-1.0.8" = _tzT1LcI0;
+        "default" = _tzT1LcI0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cybernetics-cyberchems";

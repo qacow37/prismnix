@@ -96,6 +96,11 @@ let
             "file" = "TaskManager-1.2.4.jar";
             "hash" = "sha512-nGl//hz1iJ3izS3P6ghtJVGx/C11i671pqb20R9XO4Vt4DAZmyQxX2VTQ5SbF35Qq8asls+HElgXIpW+zd2W6Q==";
         };
+        _NEDItST5 = {
+            "id" = "NEDItST5";
+            "file" = "TaskManager-1.4.0.jar";
+            "hash" = "sha512-erXmLgQe1rO1db3KLK5JRNLWcJIORQjI2exCydOxGPYcQGtDq5z+SrZNdUTzNSBfqMraKxgEqEeYiTUnNxtXxw==";
+        };
     in {
         "QCTNPiob" = _QCTNPiob;
         "aW47tQ3e" = _aW47tQ3e;
@@ -116,6 +121,7 @@ let
         "lkflsJCj" = _lkflsJCj;
         "HoZc7s5l" = _HoZc7s5l;
         "nCPGYlc2" = _nCPGYlc2;
+        "NEDItST5" = _NEDItST5;
         "fabric-1.21.8" = _n89PpsiN;
         "fabric-1.21.9" = _l4j8c9RY;
         "fabric-1.21.10" = _l4j8c9RY;
@@ -124,13 +130,15 @@ let
         "fabric-1.21.7" = _n89PpsiN;
         "fabric-26.1.2" = _xLqaHKjl;
         "fabric-26.2" = _HoZc7s5l;
+        "fabric-26.3" = _NEDItST5;
         "pkg-1.0-SNAPSHOT" = _UY9xwvEn;
         "pkg-1.0.1" = _KeKmhtPN;
         "pkg-1.2.0" = _fEAkvUBa;
         "pkg-1.2.3" = _J1yMlVrP;
         "pkg-1.3.0" = _HoZc7s5l;
         "pkg-1.2.4" = _nCPGYlc2;
-        "default" = _nCPGYlc2;
+        "pkg-1.4.0" = _NEDItST5;
+        "default" = _NEDItST5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taskmanager";

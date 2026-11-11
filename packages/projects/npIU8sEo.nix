@@ -76,6 +76,11 @@ let
             "file" = "emf_compat_takeaseat_fabric_26.2_2.0.1.jar";
             "hash" = "sha512-L+LSSd9zdbIgkWWLGA2AbvoQV5ayyhTnqsmzlOfYgCpwKGjiO3TSJ6f0mSIJ7J8FwcfcbcpupPXWhpnFCqEkEg==";
         };
+        _DDIhNbjr = {
+            "id" = "DDIhNbjr";
+            "file" = "emf_compat_takeaseat_forge_1.20.1_2.0.2.jar";
+            "hash" = "sha512-DiNDNYQ3kIq4zc087cm0z0Eqi408WzH2Z2eLq0UUliFveSFnJ/XMfm7OMV3dm0+A4DNYA9ai+ITxpF6ZcWlmhQ==";
+        };
     in {
         "adSYcXhb" = _adSYcXhb;
         "g25LiESc" = _g25LiESc;
@@ -92,7 +97,8 @@ let
         "z2l0QmF6" = _z2l0QmF6;
         "ovXdskLa" = _ovXdskLa;
         "V7dt9G5y" = _V7dt9G5y;
-        "forge-1.20.1" = _z2jQW4u2;
+        "DDIhNbjr" = _DDIhNbjr;
+        "forge-1.20.1" = _DDIhNbjr;
         "neoforge-1.21.1" = _T2PYkr3K;
         "fabric-1.21.11" = _z2l0QmF6;
         "fabric-26.1.2" = _ovXdskLa;
@@ -101,7 +107,8 @@ let
         "pkg-1.0.1" = _9eIacc6F;
         "pkg-2.0.0" = _Pq6OHcRV;
         "pkg-2.0.1" = _V7dt9G5y;
-        "default" = _V7dt9G5y;
+        "pkg-2.0.2" = _DDIhNbjr;
+        "default" = _DDIhNbjr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emf-compat-take-a-seat";

@@ -81,6 +81,11 @@ let
             "file" = "createbionics-2.5.0.jar";
             "hash" = "sha512-MFu/iDQQfGPK/UxTTVr3iWlTaHgBaIyty79ThYpzUcRG5hWmcOzLQ4d24vgkAT3l8Xk71u1WFZ5WA/BpwqvJJg==";
         };
+        _mOBzxRXc = {
+            "id" = "mOBzxRXc";
+            "file" = "createbionics-2.5.1.jar";
+            "hash" = "sha512-ECuyEYC0kXTAA3vw8tMC47FguTPVcct1abGmqnE5Jao/xLHAMGlzEjDUar3Dbq7pu86Cjg0xU2k7WT5iP8kmpg==";
+        };
     in {
         "UvPwciIi" = _UvPwciIi;
         "u1ZtKMyp" = _u1ZtKMyp;
@@ -98,7 +103,8 @@ let
         "fvjP8azR" = _fvjP8azR;
         "IB3jhYul" = _IB3jhYul;
         "fG2UIEqS" = _fG2UIEqS;
-        "neoforge-1.21.1" = _fG2UIEqS;
+        "mOBzxRXc" = _mOBzxRXc;
+        "neoforge-1.21.1" = _mOBzxRXc;
         "pkg-1.0.0" = _UvPwciIi;
         "pkg-1.0.5" = _u1ZtKMyp;
         "pkg-1.0.5b" = _CQ4S177k;
@@ -115,7 +121,8 @@ let
         "pkg-2.1.0" = _fvjP8azR;
         "pkg-2.1.1" = _IB3jhYul;
         "pkg-2.5.0" = _fG2UIEqS;
-        "default" = _fG2UIEqS;
+        "pkg-2.5.1" = _mOBzxRXc;
+        "default" = _mOBzxRXc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-bionics";

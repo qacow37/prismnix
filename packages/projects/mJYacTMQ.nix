@@ -51,6 +51,16 @@ let
             "file" = "cobblemon-pokesnacks-controls-neoforge-2.1.jar";
             "hash" = "sha512-prgXo1z2U0M61i5E7+oPTFmFj1B05A8t2Xphh08/8fN4KRb865zi87aAYb1ztTF48eW8/rXfl6httKY9tC1huw==";
         };
+        _Qy1oZKZL = {
+            "id" = "Qy1oZKZL";
+            "file" = "cobblemon-pokesnacks-controls-fabric-2.2.1.jar";
+            "hash" = "sha512-D8MQv2GEIaM8mWE6pkk+hHL+VPqABj7+CoT/AOpwk3wrgn1SEpKeNBa35IyWIQf+KfRj1MIpw0PCMDFWHzPlwg==";
+        };
+        _DxKREA3Q = {
+            "id" = "DxKREA3Q";
+            "file" = "cobblemon-pokesnacks-controls-neoforge-2.2.1.jar";
+            "hash" = "sha512-1Soerr2x7Z0E1wQIczM24CwAju/MilgituPuev7ggqTEZ0HCGAm2Ps1ZuREX0FtE3gcaEoezdnOeyMa+xczXGQ==";
+        };
     in {
         "bzToIC4l" = _bzToIC4l;
         "Mv5RrMNu" = _Mv5RrMNu;
@@ -62,14 +72,17 @@ let
         "8boZaRee" = _8boZaRee;
         "zoPnu3OM" = _zoPnu3OM;
         "PDwfpIm5" = _PDwfpIm5;
-        "fabric-1.21.1" = _zoPnu3OM;
-        "neoforge-1.21.1" = _PDwfpIm5;
+        "Qy1oZKZL" = _Qy1oZKZL;
+        "DxKREA3Q" = _DxKREA3Q;
+        "fabric-1.21.1" = _Qy1oZKZL;
+        "neoforge-1.21.1" = _DxKREA3Q;
         "pkg-1.1" = _Mv5RrMNu;
         "pkg-1.2" = _ex7ZZ6GQ;
         "pkg-1.2.1" = _qQJzbCjQ;
         "pkg-2.0" = _8boZaRee;
         "pkg-2.1" = _PDwfpIm5;
-        "default" = _PDwfpIm5;
+        "pkg-2.2.1" = _DxKREA3Q;
+        "default" = _DxKREA3Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokesnacks-controls";

@@ -151,6 +151,11 @@ let
             "file" = "stellarity-lite-3.0.5.12.jar";
             "hash" = "sha512-ne/6jDMUR1b/EkpS/Mee1Nn72j7hVWvbryOJFfEGALMdCEDu4Xnmmt6cFKg7LGgLPjJbUwBNAMEA0Dtfn42q4w==";
         };
+        _RIJMRjwM = {
+            "id" = "RIJMRjwM";
+            "file" = "StellarityLite-3.0.5.12-26.3-experimental-v5.zip";
+            "hash" = "sha512-wAVBoPB0d1wFumfPn/JU3JLDzlz4Hz9tQ2gZKgaBiOxVAfQBce5NqTAz120QikVwamISQx0jhNIsdrFbGokMUA==";
+        };
     in {
         "KJ2EXHzQ" = _KJ2EXHzQ;
         "NTjpIPdB" = _NTjpIPdB;
@@ -182,6 +187,7 @@ let
         "yttZILe2" = _yttZILe2;
         "R54I9JY3" = _R54I9JY3;
         "9nZyT3Y3" = _9nZyT3Y3;
+        "RIJMRjwM" = _RIJMRjwM;
         "datapack-1.20.3" = _KJ2EXHzQ;
         "datapack-1.20.4" = _KJ2EXHzQ;
         "datapack-1.20" = _NTjpIPdB;
@@ -210,11 +216,12 @@ let
         "datapack-24w44a" = _P71UdXku;
         "datapack-24w45a" = _P71UdXku;
         "datapack-24w46a" = _P71UdXku;
-        "datapack-1.21.11" = _R54I9JY3;
-        "datapack-26.1" = _R54I9JY3;
-        "datapack-26.1.1" = _R54I9JY3;
-        "datapack-26.1.2" = _R54I9JY3;
-        "datapack-26.2" = _R54I9JY3;
+        "datapack-1.21.11" = _RIJMRjwM;
+        "datapack-26.1" = _RIJMRjwM;
+        "datapack-26.1.1" = _RIJMRjwM;
+        "datapack-26.1.2" = _RIJMRjwM;
+        "datapack-26.2" = _RIJMRjwM;
+        "datapack-26.3" = _RIJMRjwM;
         "fabric-1.20" = _RhA8KiYU;
         "fabric-1.20.1" = _RhA8KiYU;
         "fabric-1.20.3" = _Dl0jrFU5;
@@ -372,7 +379,8 @@ let
         "pkg-3.0.5.11+mod" = _yttZILe2;
         "pkg-3.0.5.12" = _R54I9JY3;
         "pkg-3.0.5.12+mod" = _9nZyT3Y3;
-        "default" = _9nZyT3Y3;
+        "pkg-3.0.5.13" = _RIJMRjwM;
+        "default" = _RIJMRjwM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellarity-lite";

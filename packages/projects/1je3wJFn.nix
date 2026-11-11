@@ -131,6 +131,11 @@ let
             "file" = "rendertweaks-2.2.0+1.8.9-fabric.jar";
             "hash" = "sha512-JSH4sqYNPPf+pDlPUbGoP2MpqVifNrFYZ1ThBUgHaw8Igrr+zhX0xlfzoLi1P6RsjvVg+VXR2muRHicOj1MoZQ==";
         };
+        _sd1v92qR = {
+            "id" = "sd1v92qR";
+            "file" = "rendertweaks-2.2.0-hotfix.1+1.8.9-fabric.jar";
+            "hash" = "sha512-b2g0vfqFDMayCx2NUHnV5fSjsEp6cMac+Y31LSE9drCacjTk1vgXGTmV79WO7lTIsYxSu4uemetgPtlzG4QcXQ==";
+        };
     in {
         "Hm78sctZ" = _Hm78sctZ;
         "BU3lKMbJ" = _BU3lKMbJ;
@@ -158,6 +163,7 @@ let
         "5dVrOtRU" = _5dVrOtRU;
         "5MB6YcgZ" = _5MB6YcgZ;
         "tbkbS9BD" = _tbkbS9BD;
+        "sd1v92qR" = _sd1v92qR;
         "fabric-1.20.1" = _PHcfwYte;
         "fabric-1.20.3" = _PHcfwYte;
         "fabric-1.20.4" = _PHcfwYte;
@@ -173,7 +179,7 @@ let
         "fabric-26.1.2" = _5dVrOtRU;
         "fabric-26.2" = _5dVrOtRU;
         "fabric-26.3" = _5dVrOtRU;
-        "ornithe-1.8.9" = _tbkbS9BD;
+        "ornithe-1.8.9" = _sd1v92qR;
         "pkg-1.0.0" = _8l0ybsOA;
         "pkg-1.0.1" = _mDzRZpAW;
         "pkg-1.1.0" = _XezwwDTC;
@@ -190,7 +196,8 @@ let
         "pkg-2.0.3" = _iWHgoojr;
         "pkg-2.1.0" = _t7n8CT40;
         "pkg-2.2.0" = _tbkbS9BD;
-        "default" = _tbkbS9BD;
+        "pkg-2.2.0-hotfix.1" = _sd1v92qR;
+        "default" = _sd1v92qR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rendertweaks";

@@ -41,6 +41,21 @@ let
             "file" = "PowerGrid-0.6.2.2+fly-mc26.1.jar";
             "hash" = "sha512-RgS8uoQOITm0a5i5F+mdjVcBi4pBuDu3HyJsXWlcfiCQyyEKgP4B+9TeOJBOAsnA8CuFlrmh2HMrAG2i3CehKA==";
         };
+        _rFcpexAH = {
+            "id" = "rFcpexAH";
+            "file" = "PowerGrid-0.6.2.4+fly-mc26.2.jar";
+            "hash" = "sha512-DSU9oevOptByVtGVA+iPi2JJXoWpvkh44ch3W4l3trlDB5xfIPRyjeEuozM/wI5xlAHWtCmZwWkrOzN5QHMHlA==";
+        };
+        _e2twS3k1 = {
+            "id" = "e2twS3k1";
+            "file" = "PowerGrid-0.6.2.4+fly-mc26.1.jar";
+            "hash" = "sha512-VSnq6YSC7mWBLDurWjPqXbRNkRLz+/KJDtyrTc772aLg3sTg4ikDyWb5EWziuv+CZg1JO3wIUs4wMxAuFGxs0Q==";
+        };
+        _oZuVNsG0 = {
+            "id" = "oZuVNsG0";
+            "file" = "PowerGrid-0.6.2.4+fly-mc26.3.jar";
+            "hash" = "sha512-I0BM+VRkAA0YyjB+Z42RoEt+Qv1YTKBfEPST55/5BA+Hp3icPt+wdt0CxBHVgwFi46fdLHRJTLw+X+m4Fza9qg==";
+        };
     in {
         "svOxDpQ8" = _svOxDpQ8;
         "ruPfYqhl" = _ruPfYqhl;
@@ -50,10 +65,14 @@ let
         "DgIVnaiI" = _DgIVnaiI;
         "KrC1RFGs" = _KrC1RFGs;
         "WrlytT23" = _WrlytT23;
-        "fabric-26.2" = _KrC1RFGs;
-        "fabric-26.1.2" = _WrlytT23;
-        "fabric-26.1" = _WrlytT23;
-        "fabric-26.1.1" = _WrlytT23;
+        "rFcpexAH" = _rFcpexAH;
+        "e2twS3k1" = _e2twS3k1;
+        "oZuVNsG0" = _oZuVNsG0;
+        "fabric-26.2" = _rFcpexAH;
+        "fabric-26.1.2" = _e2twS3k1;
+        "fabric-26.1" = _e2twS3k1;
+        "fabric-26.1.1" = _e2twS3k1;
+        "fabric-26.3" = _oZuVNsG0;
         "pkg-0.6.1-fly.26.2-beta.8" = _svOxDpQ8;
         "pkg-0.6.2-fly.26.1.2-beta.3" = _ruPfYqhl;
         "pkg-0.6.2-fly.26.2-beta.2" = _5Wh5V683;
@@ -62,7 +81,10 @@ let
         "pkg-0.6.2.1+fly-mc26.2" = _DgIVnaiI;
         "pkg-0.6.2.2+fly-mc26.2" = _KrC1RFGs;
         "pkg-0.6.2.2+fly-mc26.1" = _WrlytT23;
-        "default" = _WrlytT23;
+        "pkg-0.6.2.4+fly-mc26.2" = _rFcpexAH;
+        "pkg-0.6.2.4+fly-mc26.1" = _e2twS3k1;
+        "pkg-0.6.2.4+fly-mc26.3" = _oZuVNsG0;
+        "default" = _oZuVNsG0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-power-grid-unofficial-port";

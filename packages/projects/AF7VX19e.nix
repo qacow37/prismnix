@@ -111,6 +111,21 @@ let
             "file" = "collectors_caravan-10.0.1.jar";
             "hash" = "sha512-jUJyNdkZWzs67GC+lZNYv3AaY1w16dGSmv+Bt3DoQ6zDQY8VmoywtLWFqMb5c4bBm1hoNALWeJCwfq+ltoFXPw==";
         };
+        _BbNn0Bnf = {
+            "id" = "BbNn0Bnf";
+            "file" = "CollectorsCaravan-11.0.0-Forge-1.20.1.jar";
+            "hash" = "sha512-dVLeJSW/l04HbSWuIPQL0v6f47m7CJ92ORDi09OtEtewQjPgZYf6OwKVxw2PT0ezaGu0jJy8Fdl6j/3BS64wRQ==";
+        };
+        _mYsrdAWt = {
+            "id" = "mYsrdAWt";
+            "file" = "CollectorsCaravan-11.0.0-NeoForge-1.21.1.jar";
+            "hash" = "sha512-hX1PyLT1Ia0YI1Ez8RkfkMZwfDfp6yp5gf05Ko7dyG1B/W0ZJ7apFEDFQy3OO3/DYxafr1nng1om7OSY8XXCGg==";
+        };
+        _vTEodM6C = {
+            "id" = "vTEodM6C";
+            "file" = "CollectorsCaravan-11.0.0-Fabric-1.20.1.jar";
+            "hash" = "sha512-EWTFcyeGfy/lbopdksP97vTB1vHH1RPRsQJl9cwn0qnGBOAbj1071726P8GQWVpMVclkDg4pt+RJtjGHWzcD6g==";
+        };
     in {
         "EoagtGqK" = _EoagtGqK;
         "gSea8T9M" = _gSea8T9M;
@@ -134,10 +149,13 @@ let
         "LQwWStbX" = _LQwWStbX;
         "pcjDjBaV" = _pcjDjBaV;
         "fcPwdIqM" = _fcPwdIqM;
-        "forge-1.20.1" = _fcPwdIqM;
+        "BbNn0Bnf" = _BbNn0Bnf;
+        "mYsrdAWt" = _mYsrdAWt;
+        "vTEodM6C" = _vTEodM6C;
+        "forge-1.20.1" = _BbNn0Bnf;
         "forge-1.21.1" = _7fRvbUUw;
-        "neoforge-1.21.1" = _pcjDjBaV;
-        "fabric-1.20.1" = _LQwWStbX;
+        "neoforge-1.21.1" = _mYsrdAWt;
+        "fabric-1.20.1" = _vTEodM6C;
         "pkg-4.0.0" = _EoagtGqK;
         "pkg-4.0.2" = _gSea8T9M;
         "pkg-4.1.0" = _gDE1R6Ng;
@@ -157,7 +175,8 @@ let
         "pkg-9.0.0" = _hXPH9QkQ;
         "pkg-10.0.0" = _DL9XigWz;
         "pkg-10.0.1" = _fcPwdIqM;
-        "default" = _fcPwdIqM;
+        "pkg-11.0.0" = _vTEodM6C;
+        "default" = _vTEodM6C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collectors-caravan";

@@ -1641,6 +1641,21 @@ let
             "file" = "EclipticSeasons-1.21.1-neoforge-0.15.5.1.jar";
             "hash" = "sha512-uXc7bDFSurz0ZzXx/HzutO/UrfwsFd80ij2lcyLTF3Zb5MRL3Mtbu3QwZlSW86+HFioecE1Orb9h9YAJGuoPMA==";
         };
+        _MHAecJZb = {
+            "id" = "MHAecJZb";
+            "file" = "EclipticSeasons-26.1.2-neoforge-0.15.5.2.jar";
+            "hash" = "sha512-sF0fTBb8reVMH2GDxQMsxEV2+2N+QRNKko56yBR2b/uS83bLqt2mid2amv7xZCJ6P4TGNFVZgmnsUFqSa2KBDg==";
+        };
+        _YzFNh6Oy = {
+            "id" = "YzFNh6Oy";
+            "file" = "EclipticSeasons-26.3-neoforge-0.15.5.2.jar";
+            "hash" = "sha512-MbEOSvsRyf9+23hN9vvfp+Yc2vtMq5WmVQOHEdDWleKDcrF8jDVl2KCzqb4CJt7/yplNRsZUnWwYDZcQ9EDmXA==";
+        };
+        _SqCP2ymh = {
+            "id" = "SqCP2ymh";
+            "file" = "EclipticSeasons-26.2-neoforge-0.15.5.2.jar";
+            "hash" = "sha512-ERlagmx5zjIt2A7j4U+6BQYfL6bCCj8dwDVBHplHagN9Y77DglbJMY+GWdv6HZWmaTBXMH1lS++xU8xJOGu1TA==";
+        };
     in {
         "eNDTi1Uc" = _eNDTi1Uc;
         "68Dkgrmp" = _68Dkgrmp;
@@ -1970,12 +1985,15 @@ let
         "61rMI1MS" = _61rMI1MS;
         "Iop5cmsH" = _Iop5cmsH;
         "ReqQpW6c" = _ReqQpW6c;
+        "MHAecJZb" = _MHAecJZb;
+        "YzFNh6Oy" = _YzFNh6Oy;
+        "SqCP2ymh" = _SqCP2ymh;
         "neoforge-26.1" = _M60AKc2f;
         "neoforge-1.21.1" = _ReqQpW6c;
         "neoforge-26.1.1" = _8yGqVA39;
-        "neoforge-26.1.2" = _Iop5cmsH;
-        "neoforge-26.2" = _XqcSj58A;
-        "neoforge-26.3" = _61rMI1MS;
+        "neoforge-26.1.2" = _MHAecJZb;
+        "neoforge-26.2" = _SqCP2ymh;
+        "neoforge-26.3" = _YzFNh6Oy;
         "forge-1.20.1" = _K7LHGe7X;
         "pkg-0.12.99-alpha-2" = _eNDTi1Uc;
         "pkg-0.12.18.7" = _G4OHOTAz;
@@ -2119,7 +2137,8 @@ let
         "pkg-0.15.4.1" = _lQddDvyL;
         "pkg-0.15.5" = _K7LHGe7X;
         "pkg-0.15.5.1" = _ReqQpW6c;
-        "default" = _ReqQpW6c;
+        "pkg-0.15.5.2" = _SqCP2ymh;
+        "default" = _SqCP2ymh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecliptic-seasons";

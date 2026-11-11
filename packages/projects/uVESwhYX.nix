@@ -31,6 +31,11 @@ let
             "file" = "Monster-Totem_1.21.6.zip";
             "hash" = "sha512-q0I5MXbamz9nF4wtbc0k3WweIELs67VUQtwPBHcrkYiXryk810Vtj+cTKzTawnk9NNGmZlBRj4/jEPxiKC3RNA==";
         };
+        _OeqjmuMa = {
+            "id" = "OeqjmuMa";
+            "file" = "Monster_Totem-26.3.zip";
+            "hash" = "sha512-F7P/Kpnz2/J7UnPyXibzGKljszZbRbbOUMPFKHqkPmHJ9zf9IDywyB7t1JpK4ye6dVaVHRDBoHbBNvYa1vj6Pw==";
+        };
     in {
         "1VKTlsbW" = _1VKTlsbW;
         "RzVotf2s" = _RzVotf2s;
@@ -38,6 +43,7 @@ let
         "yUjFsDlV" = _yUjFsDlV;
         "7Bf0IDMy" = _7Bf0IDMy;
         "e7w386PN" = _e7w386PN;
+        "OeqjmuMa" = _OeqjmuMa;
         "minecraft-26.2" = _1VKTlsbW;
         "minecraft-26.1" = _RzVotf2s;
         "minecraft-26.1.1" = _RzVotf2s;
@@ -72,8 +78,9 @@ let
         "minecraft-1.12.1" = _7Bf0IDMy;
         "minecraft-1.12.2" = _7Bf0IDMy;
         "minecraft-1.21.6" = _e7w386PN;
-        "pkg-1.0" = _e7w386PN;
-        "default" = _e7w386PN;
+        "minecraft-26.3" = _OeqjmuMa;
+        "pkg-1.0" = _OeqjmuMa;
+        "default" = _OeqjmuMa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mt512";

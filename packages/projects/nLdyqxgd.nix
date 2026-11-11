@@ -111,6 +111,11 @@ let
             "file" = "seymouranalyzer-1.4.4.jar";
             "hash" = "sha512-WlUzOkWsMIIBZTRVKpuhWdUAcO5FpZ47WyrtTqBtIx1AEAvJbc/LvG5LtxRKgn3Sosza8z9AjbcXFsLsZXQ09g==";
         };
+        _2dZmv0VG = {
+            "id" = "2dZmv0VG";
+            "file" = "seymouranalyzer-1.4.5.jar";
+            "hash" = "sha512-jWRogI7NBDA+7oGtmKdoXhBu3Htq5n6zI2PO/Beqqvpj37FEaedOzf313YOrk87csl62VbD8Rj4XRtn42vCaSg==";
+        };
     in {
         "WbyCjFC3" = _WbyCjFC3;
         "h1GVHmZN" = _h1GVHmZN;
@@ -134,11 +139,12 @@ let
         "CAUhwT16" = _CAUhwT16;
         "SCw3lB4W" = _SCw3lB4W;
         "NIUp5yAb" = _NIUp5yAb;
+        "2dZmv0VG" = _2dZmv0VG;
         "fabric-1.21.8" = _iyMmdpuS;
         "fabric-1.21.10" = _C2qJB36O;
         "fabric-1.21.11" = _oXh6BxYW;
         "fabric-26.1.2" = _zF6n6Uod;
-        "fabric-26.2" = _NIUp5yAb;
+        "fabric-26.2" = _2dZmv0VG;
         "pkg-1.0.0" = _WbyCjFC3;
         "pkg-1.0.1" = _h1GVHmZN;
         "pkg-1.0.2" = _R0KZn1UL;
@@ -161,7 +167,8 @@ let
         "pkg-1.4.1" = _CAUhwT16;
         "pkg-1.4.2" = _SCw3lB4W;
         "pkg-1.4.4" = _NIUp5yAb;
-        "default" = _NIUp5yAb;
+        "pkg-1.4.5" = _2dZmv0VG;
+        "default" = _2dZmv0VG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seymouranalyzer";

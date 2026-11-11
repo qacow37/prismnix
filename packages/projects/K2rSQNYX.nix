@@ -86,6 +86,16 @@ let
             "file" = "tkvm_enemies-4.2.jar";
             "hash" = "sha512-/CTWjFM0y74XsBPmHLPr4x6g3CrkJGEAw2OUnl57HeQYc5sZO3zcfoMf5aiF8DERkdkW0cJgegjmdidLP9LBrQ==";
         };
+        _RnIQCnnG = {
+            "id" = "RnIQCnnG";
+            "file" = "tkvm_enemies-4.3.jar";
+            "hash" = "sha512-pkqZ4ErOptpBjhAWn1R+wdOqWIq1vY8YgwFJpTNbXXlXPd3wEm9iUK2AxIfC4B4Ng6AqsQMJSuqXbyDCGNpANA==";
+        };
+        _md9yURzC = {
+            "id" = "md9yURzC";
+            "file" = "tkvm_enemies-4.3.1hf.jar";
+            "hash" = "sha512-HwsaTLhwJU5HlgSOL8H5kP8dMCzBC8CQliqgCap/ZcC3Cu10fmWZjaaXPL2nNWMnR+jfQllxRROQHwiARKYjDQ==";
+        };
     in {
         "428jmhec" = _428jmhec;
         "QJVLEaAb" = _QJVLEaAb;
@@ -104,12 +114,14 @@ let
         "tH1tK6W3" = _tH1tK6W3;
         "MUzBfs2Y" = _MUzBfs2Y;
         "2sjaG5oS" = _2sjaG5oS;
-        "forge-1.20.1" = _2sjaG5oS;
-        "forge-1.20.2" = _2sjaG5oS;
-        "forge-1.20.3" = _2sjaG5oS;
-        "forge-1.20.4" = _2sjaG5oS;
-        "forge-1.20.5" = _2sjaG5oS;
-        "forge-1.20.6" = _2sjaG5oS;
+        "RnIQCnnG" = _RnIQCnnG;
+        "md9yURzC" = _md9yURzC;
+        "forge-1.20.1" = _md9yURzC;
+        "forge-1.20.2" = _md9yURzC;
+        "forge-1.20.3" = _md9yURzC;
+        "forge-1.20.4" = _md9yURzC;
+        "forge-1.20.5" = _md9yURzC;
+        "forge-1.20.6" = _md9yURzC;
         "pkg-1.0.0" = _428jmhec;
         "pkg-2.0.0" = _QJVLEaAb;
         "pkg-2.0.1" = _pr5QxxB5;
@@ -127,7 +139,9 @@ let
         "pkg-4.1.4" = _tH1tK6W3;
         "pkg-4.1.5" = _MUzBfs2Y;
         "pkg-4.2" = _2sjaG5oS;
-        "default" = _2sjaG5oS;
+        "pkg-4.3" = _RnIQCnnG;
+        "pkg-4.3.1hf" = _md9yURzC;
+        "default" = _md9yURzC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tkvms-enemies";

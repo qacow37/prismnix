@@ -6,8 +6,14 @@ let
             "file" = "chalk-chars-1.0.0.jar";
             "hash" = "sha512-yYNSzQ0VB8shKU/cEQRtkDz9ysbV0w1l/w9M/WUVRz+LmCrMCe/QKxMhY2pXiUaoCZ8sZAoJ5hZ4x8ys4tgMtA==";
         };
+        _xDozkIFm = {
+            "id" = "xDozkIFm";
+            "file" = "chalk-chars-1.0.1.jar";
+            "hash" = "sha512-JSZ4bcQJJAd7UCNc9l/gYffxwTNBkzZU2gNXCacOhRfMz/w8lNqjGc4t8J2t6E50emqfZaSbNShKEAxKEfH5xg==";
+        };
     in {
         "icGswGED" = _icGswGED;
+        "xDozkIFm" = _xDozkIFm;
         "fabric-1.0" = _icGswGED;
         "fabric-1.1" = _icGswGED;
         "fabric-1.2.1" = _icGswGED;
@@ -95,7 +101,7 @@ let
         "fabric-1.20.5" = _icGswGED;
         "fabric-1.20.6" = _icGswGED;
         "fabric-1.21" = _icGswGED;
-        "fabric-1.21.1" = _icGswGED;
+        "fabric-1.21.1" = _xDozkIFm;
         "fabric-1.21.2" = _icGswGED;
         "fabric-1.21.3" = _icGswGED;
         "fabric-1.21.4" = _icGswGED;
@@ -110,6 +116,7 @@ let
         "fabric-26.1.1" = _icGswGED;
         "fabric-26.1.2" = _icGswGED;
         "fabric-26.2" = _icGswGED;
+        "fabric-26.3" = _xDozkIFm;
         "neoforge-1.0" = _icGswGED;
         "neoforge-1.1" = _icGswGED;
         "neoforge-1.2.1" = _icGswGED;
@@ -197,7 +204,7 @@ let
         "neoforge-1.20.5" = _icGswGED;
         "neoforge-1.20.6" = _icGswGED;
         "neoforge-1.21" = _icGswGED;
-        "neoforge-1.21.1" = _icGswGED;
+        "neoforge-1.21.1" = _xDozkIFm;
         "neoforge-1.21.2" = _icGswGED;
         "neoforge-1.21.3" = _icGswGED;
         "neoforge-1.21.4" = _icGswGED;
@@ -212,8 +219,10 @@ let
         "neoforge-26.1.1" = _icGswGED;
         "neoforge-26.1.2" = _icGswGED;
         "neoforge-26.2" = _icGswGED;
+        "neoforge-26.3" = _xDozkIFm;
         "pkg-1.0.0" = _icGswGED;
-        "default" = _icGswGED;
+        "pkg-1.0.1" = _xDozkIFm;
+        "default" = _xDozkIFm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chalk-chars";

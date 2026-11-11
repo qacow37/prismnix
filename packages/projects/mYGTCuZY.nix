@@ -91,6 +91,11 @@ let
             "file" = "createappliedkinetics-1.5.5-1.21.1.jar";
             "hash" = "sha512-wdOGB9eo15RMTFkSPwgof4ALkPgpVHhxX4qNO7Je4pZZrbHdK96O6et2TewV3Ye3LKud0gHbDhJ4EJfHJPDCnw==";
         };
+        _1nkYMksD = {
+            "id" = "1nkYMksD";
+            "file" = "createappliedkinetics-1.5.6-1.21.1.jar";
+            "hash" = "sha512-bibDWGGdVtxUAIZ8BxTOaSXDkqvGT1MVHRjEohe7btdzRsSCCQ2VafRMn0iv/eoJ47sBI8c6gBtdZ6ry0nHkSw==";
+        };
     in {
         "UsdNPoHW" = _UsdNPoHW;
         "DVi0G6KN" = _DVi0G6KN;
@@ -110,12 +115,13 @@ let
         "5hxuW9NL" = _5hxuW9NL;
         "Sk7TlTkT" = _Sk7TlTkT;
         "qeGh796M" = _qeGh796M;
+        "1nkYMksD" = _1nkYMksD;
         "forge-1.18.2" = _1FIOAvmx;
         "forge-1.19.2" = _B4JDMVGM;
         "forge-1.20.1" = _DjaJgxhC;
         "neoforge-1.18.2" = _1q6fqrph;
         "neoforge-1.20.1" = _DjaJgxhC;
-        "neoforge-1.21.1" = _qeGh796M;
+        "neoforge-1.21.1" = _1nkYMksD;
         "pkg-1.0" = _UsdNPoHW;
         "pkg-1.1" = _DVi0G6KN;
         "pkg-1.2" = _xS6Ls1hZ;
@@ -133,7 +139,8 @@ let
         "pkg-1.5.3-1.21.1" = _5hxuW9NL;
         "pkg-1.5.4" = _Sk7TlTkT;
         "pkg-1.5.5-1.21.1" = _qeGh796M;
-        "default" = _qeGh796M;
+        "pkg-1.5.6-1.21.1" = _1nkYMksD;
+        "default" = _1nkYMksD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-applied-kinetics";

@@ -126,6 +126,11 @@ let
             "file" = "AbsoluteOrder-2.0.0-fabric-mc26.3.jar";
             "hash" = "sha512-Hvt75SAZesWfHj0domuPV7T7n00FWjwXHnXfftFIm0JQ4PUrvQ7k2+9oQBgnNCADK5iWAGeoivf3WtbDzBMZvQ==";
         };
+        _V8ZyP415 = {
+            "id" = "V8ZyP415";
+            "file" = "AbsoluteOrder-2.0.0-forge-mc26.3.jar";
+            "hash" = "sha512-kFBFIxDABNuhuMbXelg8Abk7xWyVu+nlbSwaY8TCmuptFJu6o3XFMVRqsfAvesUqQ956q6//kDfQyNBMFj2VSA==";
+        };
     in {
         "L82wCrPI" = _L82wCrPI;
         "94dw6sBU" = _94dw6sBU;
@@ -152,6 +157,7 @@ let
         "RvHghWxS" = _RvHghWxS;
         "1WnzTFuc" = _1WnzTFuc;
         "9wiwB4g9" = _9wiwB4g9;
+        "V8ZyP415" = _V8ZyP415;
         "fabric-1.21.11" = _l3xllKl1;
         "fabric-1.20.1" = _cSSjVOXo;
         "fabric-26.2" = _BDVW72gS;
@@ -168,6 +174,7 @@ let
         "forge-1.18.2" = _K6WgJYxo;
         "forge-1.16.5" = _8LsfcPid;
         "forge-1.12.2" = _PabjosL2;
+        "forge-26.3" = _V8ZyP415;
         "neoforge-26.2" = _WrzQBpsT;
         "neoforge-26.1" = _LrZmCfic;
         "neoforge-26.1.1" = _LrZmCfic;
@@ -181,8 +188,8 @@ let
         "pkg-1.2.0-1.20.1" = _5SRSABnu;
         "pkg-1.3.0" = _jaQMSZKp;
         "pkg-1.3.1" = _G5TmRaGl;
-        "pkg-2.0.0" = _9wiwB4g9;
-        "default" = _9wiwB4g9;
+        "pkg-2.0.0" = _V8ZyP415;
+        "default" = _V8ZyP415;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "absolute-order";

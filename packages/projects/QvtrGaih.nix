@@ -61,6 +61,16 @@ let
             "file" = "Alexandria-1.0.3.4.2+1.21.1-fabric.jar";
             "hash" = "sha512-oVjpmb298oMuVSQesuQBDSvuveXAg/mM3fNaNoF/SuWJAC8AzpRLJWmWJ3QRM0h+zEYeU7XCOa8Cm3oAs4kS/A==";
         };
+        _O5VENV9y = {
+            "id" = "O5VENV9y";
+            "file" = "Alexandria-neoforge-26.1.2.jar";
+            "hash" = "sha512-ZNWcCTPx1ZKsF8nu+2gdjI9cvRa0llNFmUGd/5tClcoEqr2KjOIMYC4WAAAH/0V7aSBNznv4b0bKDM1H2b5BxQ==";
+        };
+        _L5F5C5y5 = {
+            "id" = "L5F5C5y5";
+            "file" = "Alexandria-fabric-26.1.2.jar";
+            "hash" = "sha512-WUefBTz4et33wZMbAq36U6D0KtE3/rFYSj2dZDn1pdAIjwMVybK7Eo/fMdxy4f9dEDxQtbWalB0tAPZtE8XzpQ==";
+        };
     in {
         "OE0sGoPs" = _OE0sGoPs;
         "S9is1EkP" = _S9is1EkP;
@@ -74,15 +84,20 @@ let
         "Pd8ABfZ3" = _Pd8ABfZ3;
         "cImddmDl" = _cImddmDl;
         "ubqqG09d" = _ubqqG09d;
+        "O5VENV9y" = _O5VENV9y;
+        "L5F5C5y5" = _L5F5C5y5;
         "fabric-1.21.1" = _ubqqG09d;
+        "fabric-26.1.2" = _L5F5C5y5;
         "neoforge-1.21.1" = _cImddmDl;
+        "neoforge-26.1.2" = _O5VENV9y;
         "pkg-1.0.0" = _S9is1EkP;
         "pkg-1.0.1" = _kABzSHkr;
         "pkg-1.0.2" = _pevj9jMg;
         "pkg-1.0.3" = _dDpdDH2l;
         "pkg-1.0.3.3" = _Pd8ABfZ3;
         "pkg-1.0.3.4" = _ubqqG09d;
-        "default" = _ubqqG09d;
+        "pkg-26.1.2" = _L5F5C5y5;
+        "default" = _L5F5C5y5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alexandria-lib";

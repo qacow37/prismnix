@@ -781,6 +781,11 @@ let
             "file" = "oritech-2.0.0-exp12.jar";
             "hash" = "sha512-uMYRqj8EgNswgfofzQUHU7XFgpaPQY9ocRZvMonbSNyLCwFSQ2zoeTPYiaQIQzb6KTSruLIhOYtv6LBCGiFQ1A==";
         };
+        _z6rSM3hY = {
+            "id" = "z6rSM3hY";
+            "file" = "oritech-2.0.0-exp13.jar";
+            "hash" = "sha512-VXSc07MjZkNrEYsMM6ek/MIRL7C+XLpjF+3j0uchbxpCfTZ2+8DJoVIXGxpgfAbtxbIjbKWk27NLs6rPO8GRvA==";
+        };
     in {
         "mtOyJsNT" = _mtOyJsNT;
         "bAgJ4UBb" = _bAgJ4UBb;
@@ -938,13 +943,14 @@ let
         "Yj0Hzt0G" = _Yj0Hzt0G;
         "ZgnrQ2pV" = _ZgnrQ2pV;
         "eCP3mBH7" = _eCP3mBH7;
+        "z6rSM3hY" = _z6rSM3hY;
         "fabric-1.20.4" = _Fz5w3V0S;
         "fabric-1.21" = _GNbpMyOn;
         "fabric-1.21.1" = _GNbpMyOn;
         "neoforge-1.21" = _BR0KKypH;
         "neoforge-1.21.1" = _BR0KKypH;
-        "neoforge-26.1" = _eCP3mBH7;
-        "neoforge-26.1.2" = _eCP3mBH7;
+        "neoforge-26.1" = _z6rSM3hY;
+        "neoforge-26.1.2" = _z6rSM3hY;
         "pkg-0.4.1" = _mtOyJsNT;
         "pkg-0.5.0" = _bAgJ4UBb;
         "pkg-0.6.0" = _aIAiqf9b;
@@ -1036,7 +1042,8 @@ let
         "pkg-2.0.0-exp10" = _Yj0Hzt0G;
         "pkg-2.0.0-exp11" = _ZgnrQ2pV;
         "pkg-2.0.0-exp12" = _eCP3mBH7;
-        "default" = _eCP3mBH7;
+        "pkg-2.0.0-exp13" = _z6rSM3hY;
+        "default" = _z6rSM3hY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oritech";

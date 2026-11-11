@@ -6,8 +6,14 @@ let
             "file" = "Lexi's Smaller Shields.zip";
             "hash" = "sha512-/OkWOUv5d8x6aIXm6j9mYS9l0MdDLYB+t5AX+wmMtidG4r1WIxdrJyR9Hu8F/vhSJ+4O9eu+OX/53TExFQcqeA==";
         };
+        _Q98PgQun = {
+            "id" = "Q98PgQun";
+            "file" = "Smaller Shields.zip";
+            "hash" = "sha512-iukryleG2q9kawS+XpydfdLOPvhcRHBnh9CurfrE6R6VWXmlJp/iNhnLoTD4EwNA3nlw/3iF7TOMiKUjOh2x5A==";
+        };
     in {
         "v3QKRvum" = _v3QKRvum;
+        "Q98PgQun" = _Q98PgQun;
         "minecraft-1.20" = _v3QKRvum;
         "minecraft-1.20.1" = _v3QKRvum;
         "minecraft-1.20.2" = _v3QKRvum;
@@ -31,8 +37,10 @@ let
         "minecraft-26.1.1" = _v3QKRvum;
         "minecraft-26.1.2" = _v3QKRvum;
         "minecraft-26.2" = _v3QKRvum;
+        "minecraft-26.3" = _Q98PgQun;
         "pkg-1.0.0" = _v3QKRvum;
-        "default" = _v3QKRvum;
+        "pkg-2.0.0" = _Q98PgQun;
+        "default" = _Q98PgQun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smaller-shields";

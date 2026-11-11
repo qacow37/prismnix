@@ -16,18 +16,26 @@ let
             "file" = "techextensions-2.0.0.jar";
             "hash" = "sha512-fTBLdPZ47mIu8X2REJ8zeCjU4FB+XzMO7k9sPpGzOFRssuvM4dreJ/fuBKy+y/1W1NDiuRDhSxtd7jsdrm0Arw==";
         };
+        _OIFxfXg5 = {
+            "id" = "OIFxfXg5";
+            "file" = "techextensions-3.0.0.jar";
+            "hash" = "sha512-glm3KmgoO3QcT4cBchCH5jF7N4GekYN2m5oLVLuzVqOJNSEJ2eknKQ8fD9A4k6gw7xD1iymaLQtev5nB8jBnQQ==";
+        };
     in {
         "aG9NlR0B" = _aG9NlR0B;
         "rtAjV7x0" = _rtAjV7x0;
         "eB1Jx8sQ" = _eB1Jx8sQ;
+        "OIFxfXg5" = _OIFxfXg5;
         "fabric-1.21.10" = _rtAjV7x0;
         "fabric-26.1" = _eB1Jx8sQ;
         "fabric-26.1.1" = _eB1Jx8sQ;
         "fabric-26.1.2" = _eB1Jx8sQ;
+        "fabric-26.3" = _OIFxfXg5;
         "pkg-1.0.0" = _aG9NlR0B;
         "pkg-1.1.0" = _rtAjV7x0;
         "pkg-2.0.0" = _eB1Jx8sQ;
-        "default" = _eB1Jx8sQ;
+        "pkg-3.0.0" = _OIFxfXg5;
+        "default" = _OIFxfXg5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tech-extensions";

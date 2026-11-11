@@ -411,6 +411,21 @@ let
             "file" = "grabvillager-1.0.11-26.3.jar";
             "hash" = "sha512-oQyAg4i/AUyl861beGslYgVC/JFailxwAmYn4r1efwEyJNM1dM5Bbpww7vJM06XZjqdPgH7hv/N/o4V12VR4Gg==";
         };
+        _2PO1VQhF = {
+            "id" = "2PO1VQhF";
+            "file" = "grabvillager-1.0.10-26.1.jar";
+            "hash" = "sha512-OsuMRGx+ZPWxwGrnEBG9ykpWMfiepnmVKV7Z2xotqIKIiUWCYVjMam3Iy7cOaeORBdAaexDGWs4Pc0W4YmdurQ==";
+        };
+        _jKsveUk5 = {
+            "id" = "jKsveUk5";
+            "file" = "grabvillager-1.0.11-26.2.jar";
+            "hash" = "sha512-PRksnRER4YIYkQGgGG6z31vz/yd9RANEmEmtgQb0pbru0W/HPs+ufV++19lMUUe19YHq/SL7Z49S2K3kBvAU9Q==";
+        };
+        _I2ckmDuT = {
+            "id" = "I2ckmDuT";
+            "file" = "grabvillager-1.0.12-26.3.jar";
+            "hash" = "sha512-x1qNZz3Ya8lg3puXpbxvEmKRWSwzvqI+LCbKGBgnaiIDzyxBdE4oqv1+KHZc1EMe8MEE45wRbMb5koPObWsvyA==";
+        };
     in {
         "DUqS0CZp" = _DUqS0CZp;
         "35jjMdsI" = _35jjMdsI;
@@ -494,6 +509,9 @@ let
         "ZpmCfvBX" = _ZpmCfvBX;
         "oYGTnW5j" = _oYGTnW5j;
         "M9jKDahy" = _M9jKDahy;
+        "2PO1VQhF" = _2PO1VQhF;
+        "jKsveUk5" = _jKsveUk5;
+        "I2ckmDuT" = _I2ckmDuT;
         "fabric-1.21" = _uNsEbS5M;
         "fabric-1.21.1" = _prWw4lb7;
         "fabric-1.21.2" = _bvCpE44i;
@@ -506,11 +524,11 @@ let
         "fabric-1.21.9" = _K7DZES0G;
         "fabric-1.21.10" = _K9MnITnd;
         "fabric-1.21.11" = _hIdgLhqM;
-        "fabric-26.1" = _ZpmCfvBX;
-        "fabric-26.1.1" = _ZpmCfvBX;
-        "fabric-26.1.2" = _ZpmCfvBX;
-        "fabric-26.2" = _oYGTnW5j;
-        "fabric-26.3" = _M9jKDahy;
+        "fabric-26.1" = _2PO1VQhF;
+        "fabric-26.1.1" = _2PO1VQhF;
+        "fabric-26.1.2" = _2PO1VQhF;
+        "fabric-26.2" = _jKsveUk5;
+        "fabric-26.3" = _I2ckmDuT;
         "quilt-1.21" = _uNsEbS5M;
         "quilt-1.21.1" = _prWw4lb7;
         "quilt-1.21.2" = _bvCpE44i;
@@ -523,11 +541,11 @@ let
         "quilt-1.21.9" = _K7DZES0G;
         "quilt-1.21.10" = _K9MnITnd;
         "quilt-1.21.11" = _hIdgLhqM;
-        "quilt-26.1" = _ZpmCfvBX;
-        "quilt-26.1.1" = _ZpmCfvBX;
-        "quilt-26.1.2" = _ZpmCfvBX;
-        "quilt-26.2" = _oYGTnW5j;
-        "quilt-26.3" = _M9jKDahy;
+        "quilt-26.1" = _2PO1VQhF;
+        "quilt-26.1.1" = _2PO1VQhF;
+        "quilt-26.1.2" = _2PO1VQhF;
+        "quilt-26.2" = _jKsveUk5;
+        "quilt-26.3" = _I2ckmDuT;
         "neoforge-1.21" = _JniduWtr;
         "neoforge-1.21.1" = _bOZw1otY;
         "neoforge-1.21.4" = _6WJCzbxB;
@@ -610,7 +628,10 @@ let
         "pkg-1.0.9-26.1" = _ZpmCfvBX;
         "pkg-1.0.10-26.2" = _oYGTnW5j;
         "pkg-1.0.11-26.3" = _M9jKDahy;
-        "default" = _M9jKDahy;
+        "pkg-1.0.10-26.1" = _2PO1VQhF;
+        "pkg-1.0.11-26.2" = _jKsveUk5;
+        "pkg-1.0.12-26.3" = _I2ckmDuT;
+        "default" = _I2ckmDuT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grabvillager";

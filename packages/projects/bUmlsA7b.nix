@@ -666,6 +666,11 @@ let
             "file" = "BetterUnpackables_v5.1.0-beta.8_mc26.3-26.4snap7.zip";
             "hash" = "sha512-ph7NxqHMsYcHTQaQdUxPy1iS1994cJ3VqF95y84eTml6hPu6f5FHAH9+x7qRBp2VLQ1uHw/yOT6OOKztsm4Djg==";
         };
+        _Y6lO2zno = {
+            "id" = "Y6lO2zno";
+            "file" = "BetterUnpackables_v5.1.0-pre.1_mc26.3-26.4snap8.zip";
+            "hash" = "sha512-bEfbJESA04sq/MnHdvXLpBPhbAE3c/UfC+i/nXYPb/bed9PVb4i6WFzyBtVAAmVCgl6vMGoEok+cfDdtC3LFBw==";
+        };
     in {
         "niaxbXcl" = _niaxbXcl;
         "2N9ex882" = _2N9ex882;
@@ -800,6 +805,7 @@ let
         "dnm7wh5W" = _dnm7wh5W;
         "edBMkVoY" = _edBMkVoY;
         "VBP9QAMA" = _VBP9QAMA;
+        "Y6lO2zno" = _Y6lO2zno;
         "datapack-1.21.2-pre1" = _niaxbXcl;
         "datapack-1.21.2-pre2" = _niaxbXcl;
         "datapack-1.21.2-pre3" = _niaxbXcl;
@@ -937,14 +943,15 @@ let
         "datapack-26.3-rc-1" = _Bw1AAKEE;
         "datapack-26.3-rc-2" = _Bw1AAKEE;
         "datapack-26.3-rc-3" = _Bw1AAKEE;
-        "datapack-26.3" = _VBP9QAMA;
+        "datapack-26.3" = _Y6lO2zno;
         "datapack-26.4-snapshot-1" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-2" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-3" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-4" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-5" = _dnm7wh5W;
         "datapack-26.4-snapshot-6" = _edBMkVoY;
-        "datapack-26.4-snapshot-7" = _VBP9QAMA;
+        "datapack-26.4-snapshot-7" = _Y6lO2zno;
+        "datapack-26.4-snapshot-8" = _Y6lO2zno;
         "fabric-1.21.2-pre1" = _2N9ex882;
         "fabric-1.21.2-pre2" = _2N9ex882;
         "fabric-1.21.2-pre3" = _2N9ex882;
@@ -1139,7 +1146,8 @@ let
         "pkg-v5.1.0-beta.6" = _dnm7wh5W;
         "pkg-v5.1.0-beta.7" = _edBMkVoY;
         "pkg-v5.1.0-beta.8" = _VBP9QAMA;
-        "default" = _VBP9QAMA;
+        "pkg-v5.1.0-pre.1" = _Y6lO2zno;
+        "default" = _Y6lO2zno;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-unpackables";

@@ -1,5 +1,13 @@
 [
     {
+        "minecraft" = "26.4-snapshot-8";
+        "fabric" = "0.20.1";
+        "quilt" = "0.31.0-beta.6";
+        "forge" = null;
+        "neoforge" = null;
+        "liteloader" = null;
+    }
+    {
         "minecraft" = "26.4-snapshot-7";
         "fabric" = "0.20.1";
         "quilt" = "0.31.0-beta.6";
@@ -60,7 +68,7 @@
         "fabric" = "0.20.1";
         "quilt" = "0.31.0-beta.6";
         "forge" = "66.1.5";
-        "neoforge" = "26.3.0.101";
+        "neoforge" = "26.3.0.102";
         "liteloader" = null;
     }
     {

@@ -941,6 +941,16 @@ let
             "file" = "Truly-Modular-miapi-fabric-2.4.1-1.21.1.jar";
             "hash" = "sha512-wUZEKDw6vZr6f1P16EWvM7Y25VwGxo0PptEbHsDezfECLjtATzTcj33yfNYysmFbKTSfUIy2azWnYlzuKuqO6w==";
         };
+        _zybVVvVE = {
+            "id" = "zybVVvVE";
+            "file" = "Truly-Modular-miapi-fabric-2.4.2-1.21.1.jar";
+            "hash" = "sha512-JJdSJc3nKc6+MZRf9hooQsDlLLGK9t3J7kM0R5I6U25rRl3OFrdTwcFOmdDHNCOoqLk/hWKmjT+9cPS/BgWMkg==";
+        };
+        _fnEr0I9Z = {
+            "id" = "fnEr0I9Z";
+            "file" = "Truly-Modular-miapi-neoforge-2.4.2-1.21.1.jar";
+            "hash" = "sha512-PiUjYiA2K4CgnD898Xy/u9xaMXCvnFKQB328anT4nEdZ+o+RuGZpIkfDjmsVFzF4tHcJjcWK3Mz8ULew1Yx6fg==";
+        };
     in {
         "uIuEvBkk" = _uIuEvBkk;
         "2I0h9Q9A" = _2I0h9Q9A;
@@ -1130,16 +1140,18 @@ let
         "zNs8dDAY" = _zNs8dDAY;
         "bOB36Vxi" = _bOB36Vxi;
         "oA5v0oDs" = _oA5v0oDs;
+        "zybVVvVE" = _zybVVvVE;
+        "fnEr0I9Z" = _fnEr0I9Z;
         "fabric-1.20.1" = _QD9BD0kZ;
-        "fabric-1.21" = _oA5v0oDs;
-        "fabric-1.21.1" = _oA5v0oDs;
+        "fabric-1.21" = _zybVVvVE;
+        "fabric-1.21.1" = _zybVVvVE;
         "quilt-1.20.1" = _QD9BD0kZ;
-        "quilt-1.21" = _oA5v0oDs;
-        "quilt-1.21.1" = _oA5v0oDs;
+        "quilt-1.21" = _zybVVvVE;
+        "quilt-1.21.1" = _zybVVvVE;
         "forge-1.20.1" = _W9uZWbXR;
         "neoforge-1.20.1" = _W9uZWbXR;
-        "neoforge-1.21" = _bOB36Vxi;
-        "neoforge-1.21.1" = _bOB36Vxi;
+        "neoforge-1.21" = _fnEr0I9Z;
+        "neoforge-1.21.1" = _fnEr0I9Z;
         "pkg-0.9.3-SNAPSHOT-1.20.1-fabric" = _uIuEvBkk;
         "pkg-0.9.3-SNAPSHOT-1.20.1-forge" = _2I0h9Q9A;
         "pkg-miapi-1.0-1.20.1-fabric" = _v2G1C0g4;
@@ -1316,7 +1328,9 @@ let
         "pkg-2.4.0-1.21.1-fabric" = _zNs8dDAY;
         "pkg-2.4.1-1.21.1-neoforge" = _bOB36Vxi;
         "pkg-2.4.1-1.21.1-fabric" = _oA5v0oDs;
-        "default" = _oA5v0oDs;
+        "pkg-2.4.2-1.21.1-fabric" = _zybVVvVE;
+        "pkg-2.4.2-1.21.1-neoforge" = _fnEr0I9Z;
+        "default" = _fnEr0I9Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modular-item-api";

@@ -1801,6 +1801,11 @@ let
             "file" = "NotEnoughItems-2.9.3-GTNH.jar";
             "hash" = "sha512-sXxHDQcBNl8IAcm2mB3Yysz6GTsj1d4fsT/ZPaUJpUgjuEKy28Bw2nfh204uuCG3kq7Dt36exKsYmxfq2PoPCg==";
         };
+        _HHqdpNK8 = {
+            "id" = "HHqdpNK8";
+            "file" = "NotEnoughItems-2.9.4-GTNH.jar";
+            "hash" = "sha512-QhtBYJrl5Yql8KGgVb7nN4EgvU3An8ddknaBAIf2+o3YBgo4jwKKHBMXvAYYRyoNBEFau/Q4q4NZWnQKGKbJHA==";
+        };
     in {
         "bdLObler" = _bdLObler;
         "BwC1togv" = _BwC1togv;
@@ -2162,7 +2167,8 @@ let
         "QyZ2LX3N" = _QyZ2LX3N;
         "FWJ664qY" = _FWJ664qY;
         "zWHwmzel" = _zWHwmzel;
-        "forge-1.7.10" = _zWHwmzel;
+        "HHqdpNK8" = _HHqdpNK8;
+        "forge-1.7.10" = _HHqdpNK8;
         "pkg-2.2.14-GTNH" = _bdLObler;
         "pkg-2.3.7-GTNH" = _BwC1togv;
         "pkg-2.3.10-GTNH" = _IFqJJuIT;
@@ -2522,7 +2528,8 @@ let
         "pkg-2.9.1-GTNH" = _QyZ2LX3N;
         "pkg-2.9.2-GTNH" = _FWJ664qY;
         "pkg-2.9.3-GTNH" = _zWHwmzel;
-        "default" = _zWHwmzel;
+        "pkg-2.9.4-GTNH" = _HHqdpNK8;
+        "default" = _HHqdpNK8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notenoughitems-unofficial";

@@ -216,6 +216,11 @@ let
             "file" = "mixinbooter-12.3-sources.jar";
             "hash" = "sha512-KKi6a1XWylWtrCAmh2z9S70stgnS6vUhGqVzbxNrlRBAQK4p3QeVe+LGzz6LsRwe/w+2ACJOQGy8iCuIEF85+g==";
         };
+        _NgQyOl3j = {
+            "id" = "NgQyOl3j";
+            "file" = "!mixinbooter-12.3.jar";
+            "hash" = "sha512-On28Fruzax+Ybwxp2r5y9Cj5I7rDwkjw8IstC6uSxtrBPziF2Fo7sMcUb2MECWXuZPgfgFjq+EICgBgrHEi2vA==";
+        };
     in {
         "gWwlRR6V" = _gWwlRR6V;
         "Xh1vOucm" = _Xh1vOucm;
@@ -260,7 +265,8 @@ let
         "Nx7XpWVF" = _Nx7XpWVF;
         "wi04tkMF" = _wi04tkMF;
         "E0GDAQH7" = _E0GDAQH7;
-        "forge-1.8" = _E0GDAQH7;
+        "NgQyOl3j" = _NgQyOl3j;
+        "forge-1.8" = _NgQyOl3j;
         "forge-1.8.1" = _E0GDAQH7;
         "forge-1.8.2" = _E0GDAQH7;
         "forge-1.8.3" = _E0GDAQH7;
@@ -269,21 +275,21 @@ let
         "forge-1.8.6" = _E0GDAQH7;
         "forge-1.8.7" = _E0GDAQH7;
         "forge-1.8.8" = _E0GDAQH7;
-        "forge-1.8.9" = _E0GDAQH7;
+        "forge-1.8.9" = _NgQyOl3j;
         "forge-1.9" = _E0GDAQH7;
         "forge-1.9.1" = _E0GDAQH7;
         "forge-1.9.2" = _E0GDAQH7;
         "forge-1.9.3" = _E0GDAQH7;
-        "forge-1.9.4" = _E0GDAQH7;
+        "forge-1.9.4" = _NgQyOl3j;
         "forge-1.10" = _E0GDAQH7;
         "forge-1.10.1" = _E0GDAQH7;
-        "forge-1.10.2" = _E0GDAQH7;
+        "forge-1.10.2" = _NgQyOl3j;
         "forge-1.11" = _E0GDAQH7;
         "forge-1.11.1" = _E0GDAQH7;
-        "forge-1.11.2" = _E0GDAQH7;
+        "forge-1.11.2" = _NgQyOl3j;
         "forge-1.12" = _E0GDAQH7;
         "forge-1.12.1" = _E0GDAQH7;
-        "forge-1.12.2" = _E0GDAQH7;
+        "forge-1.12.2" = _NgQyOl3j;
         "pkg-8.4" = _gWwlRR6V;
         "pkg-8.5" = _Xh1vOucm;
         "pkg-8.6" = _NKZ8pGfP;
@@ -325,8 +331,8 @@ let
         "pkg-12.0" = _fnOYL1bW;
         "pkg-12.1" = _YF1cGmeq;
         "pkg-12.2" = _wi04tkMF;
-        "pkg-12.3" = _E0GDAQH7;
-        "default" = _E0GDAQH7;
+        "pkg-12.3" = _NgQyOl3j;
+        "default" = _NgQyOl3j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mixinbooter";

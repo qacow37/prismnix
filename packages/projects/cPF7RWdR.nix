@@ -656,6 +656,11 @@ let
             "file" = "searchonmcmod-neoforge-26.2-0.1.1.jar";
             "hash" = "sha512-oOlsYLrJUIjycq1zUK9KnchrMg69Rwy61AYuMnTEIxkUTgYbdz1hcTbqKjLMNgdaJtm7RYT27nCk0UWR+g/XMw==";
         };
+        _8QxyTkAm = {
+            "id" = "8QxyTkAm";
+            "file" = "searchonmcmod-forge-1.7.10-0.1.2.jar";
+            "hash" = "sha512-woi1OoUgJkguKEOUHx93E75eCxfmM2wCAPnaWcNQqxPR/BH6388RQEj2JHojKtS0Pd8wXYgLPvr0HTq8KAddnQ==";
+        };
     in {
         "xI39nuCg" = _xI39nuCg;
         "eClAKOau" = _eClAKOau;
@@ -788,6 +793,7 @@ let
         "tpFdGGpH" = _tpFdGGpH;
         "bWRmj0HN" = _bWRmj0HN;
         "dVNqvCZn" = _dVNqvCZn;
+        "8QxyTkAm" = _8QxyTkAm;
         "forge-1.20" = _DE5p2dLh;
         "forge-1.20.1" = _DE5p2dLh;
         "forge-1.20.2" = _DE5p2dLh;
@@ -804,7 +810,7 @@ let
         "forge-1.12.2" = _x5nHKM3d;
         "forge-1.20.6" = _TCryIdNv;
         "forge-1.16.5" = _gz3LEnQf;
-        "forge-1.7.10" = _jnKJkBMj;
+        "forge-1.7.10" = _8QxyTkAm;
         "fabric-1.21" = _kOwFJyaR;
         "fabric-1.21.1" = _kOwFJyaR;
         "fabric-1.21.2" = _kOwFJyaR;
@@ -868,7 +874,8 @@ let
         "pkg-0.0.9.2" = _LCqUNZH3;
         "pkg-0.1.0" = _iQ9CzdjG;
         "pkg-0.1.1" = _dVNqvCZn;
-        "default" = _dVNqvCZn;
+        "pkg-0.1.2" = _8QxyTkAm;
+        "default" = _8QxyTkAm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "search-on-mcmod";

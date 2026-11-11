@@ -46,6 +46,26 @@ let
             "file" = "seaworthyboats-26.1.2-1.1.jar";
             "hash" = "sha512-fvIokgfNvWys3h1WJAW3SnMzv0p88ZKErGZjQu/YotET3v009SIHqDzQet7IQofdDfbe0CWyNWp1KLTqGG4Otg==";
         };
+        _OOpxk581 = {
+            "id" = "OOpxk581";
+            "file" = "seaworthyboats-1.20.1-2.0.jar";
+            "hash" = "sha512-bRODvADqhtGuZn4MZ+44nd9Bfj7JWTZszF6QTM1QShYKoEoXiKo0aeYXRFqEud/oS/84fnsBRmbpmyTtrdqd9Q==";
+        };
+        _uvmsRpxK = {
+            "id" = "uvmsRpxK";
+            "file" = "seaworthyboats-1.21.1-2.0.jar";
+            "hash" = "sha512-4Ycn8qla9r/eWSHtKTBQyhrD0xahevqHqruwGcYHt6sdJamSL2h1NkzqOHFH5v6Roro1DkP+1Wx1siS33DIpjA==";
+        };
+        _Yahc7vmS = {
+            "id" = "Yahc7vmS";
+            "file" = "seaworthyboats-26.1.2-2.0.jar";
+            "hash" = "sha512-8WXwfCJnB+oDVDs7EuG8I0c7uHWRyg6d1EsRpABJsqBMZDC69x7J1103wLd23mAOScuGEKuZcN7o0lvbE0O1pw==";
+        };
+        _29sIHp7D = {
+            "id" = "29sIHp7D";
+            "file" = "seaworthyboats-26.3.0-2.0.jar";
+            "hash" = "sha512-rp1TAgUAk4fkTBlgZRrYe1qMPuJJrpH4IgViVMNVTJq+O0a+djpG/S/292yZJoz5zuZCt9GY8loTS40SUI3wGw==";
+        };
     in {
         "FOQr380C" = _FOQr380C;
         "M6BYvAvV" = _M6BYvAvV;
@@ -56,30 +76,34 @@ let
         "MJZFxVFP" = _MJZFxVFP;
         "AylArRBy" = _AylArRBy;
         "2bN619ul" = _2bN619ul;
-        "fabric-1.20.1" = _m7ij4kBr;
-        "fabric-1.21" = _2Gck3ywD;
-        "fabric-1.21.1" = _2Gck3ywD;
+        "OOpxk581" = _OOpxk581;
+        "uvmsRpxK" = _uvmsRpxK;
+        "Yahc7vmS" = _Yahc7vmS;
+        "29sIHp7D" = _29sIHp7D;
+        "fabric-1.20.1" = _OOpxk581;
+        "fabric-1.21" = _uvmsRpxK;
+        "fabric-1.21.1" = _uvmsRpxK;
         "fabric-26.2" = _MJZFxVFP;
-        "fabric-26.3" = _AylArRBy;
-        "fabric-26.1.2" = _2bN619ul;
-        "forge-1.20.1" = _m7ij4kBr;
-        "forge-1.21" = _2Gck3ywD;
-        "forge-1.21.1" = _2Gck3ywD;
+        "fabric-26.3" = _29sIHp7D;
+        "fabric-26.1.2" = _Yahc7vmS;
+        "forge-1.20.1" = _OOpxk581;
+        "forge-1.21" = _uvmsRpxK;
+        "forge-1.21.1" = _uvmsRpxK;
         "forge-26.2" = _MJZFxVFP;
-        "forge-26.3" = _AylArRBy;
-        "forge-26.1.2" = _2bN619ul;
-        "neoforge-1.20.1" = _m7ij4kBr;
-        "neoforge-1.21" = _2Gck3ywD;
-        "neoforge-1.21.1" = _2Gck3ywD;
+        "forge-26.3" = _29sIHp7D;
+        "forge-26.1.2" = _Yahc7vmS;
+        "neoforge-1.20.1" = _OOpxk581;
+        "neoforge-1.21" = _uvmsRpxK;
+        "neoforge-1.21.1" = _uvmsRpxK;
         "neoforge-26.2" = _MJZFxVFP;
-        "neoforge-26.3" = _AylArRBy;
-        "neoforge-26.1.2" = _2bN619ul;
-        "quilt-1.20.1" = _m7ij4kBr;
-        "quilt-1.21" = _2Gck3ywD;
-        "quilt-1.21.1" = _2Gck3ywD;
+        "neoforge-26.3" = _29sIHp7D;
+        "neoforge-26.1.2" = _Yahc7vmS;
+        "quilt-1.20.1" = _OOpxk581;
+        "quilt-1.21" = _uvmsRpxK;
+        "quilt-1.21.1" = _uvmsRpxK;
         "quilt-26.2" = _MJZFxVFP;
-        "quilt-26.3" = _AylArRBy;
-        "quilt-26.1.2" = _2bN619ul;
+        "quilt-26.3" = _29sIHp7D;
+        "quilt-26.1.2" = _Yahc7vmS;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _FOQr380C;
         "pkg-1.21.1-1.0-fabric+forge+neo" = _M6BYvAvV;
         "pkg-26.2.0-1.0-fabric+forge+neo" = _itVONbpc;
@@ -89,7 +113,11 @@ let
         "pkg-26.2.0-1.1-fabric+forge+neo" = _MJZFxVFP;
         "pkg-26.3.0-1.1-fabric+forge+neo" = _AylArRBy;
         "pkg-26.1.2-1.1-fabric+forge+neo" = _2bN619ul;
-        "default" = _2bN619ul;
+        "pkg-1.20.1-2.0-fabric+forge+neo" = _OOpxk581;
+        "pkg-1.21.1-2.0-fabric+forge+neo" = _uvmsRpxK;
+        "pkg-26.1.2-2.0-fabric+forge+neo" = _Yahc7vmS;
+        "pkg-26.3.0-2.0-fabric+forge+neo" = _29sIHp7D;
+        "default" = _29sIHp7D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seaworthy-boats";

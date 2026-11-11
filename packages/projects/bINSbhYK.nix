@@ -141,6 +141,16 @@ let
             "file" = "envelope-fabric-1.21.1-0.8.1.jar";
             "hash" = "sha512-xkIRzPwuuP+0j9KhBkAnXZ8zwWXxv05nOggshQo+3h54ayUK43mg8sIC41rHOZ2lete8KhcVoz3THRjk9gIiPw==";
         };
+        _6mpcJy5P = {
+            "id" = "6mpcJy5P";
+            "file" = "envelope-neoforge-1.21.1-0.8.2.jar";
+            "hash" = "sha512-l90fFimdOk8znCuG9P43VQyNvyAcPsQubL+NPW3b/LNdnCXxPgqYZcrWewNbaqRmOJsTLjrAIAGMLQYtfyvHEA==";
+        };
+        _d5eMJMiw = {
+            "id" = "d5eMJMiw";
+            "file" = "envelope-fabric-1.21.1-0.8.2.jar";
+            "hash" = "sha512-Kpi5e0gLghayIUnTzEBuOM0k3DWGxEWGtEOwyRuLf+DefxYdQFa86En07yihBF/M7wjRxTGXYvrMZij9AdlSJw==";
+        };
     in {
         "GUwGP7IL" = _GUwGP7IL;
         "IeIRf1Eh" = _IeIRf1Eh;
@@ -170,8 +180,10 @@ let
         "7AGtjUTP" = _7AGtjUTP;
         "E5ItQJuD" = _E5ItQJuD;
         "elCP09ki" = _elCP09ki;
-        "fabric-1.21.1" = _elCP09ki;
-        "neoforge-1.21.1" = _E5ItQJuD;
+        "6mpcJy5P" = _6mpcJy5P;
+        "d5eMJMiw" = _d5eMJMiw;
+        "fabric-1.21.1" = _d5eMJMiw;
+        "neoforge-1.21.1" = _6mpcJy5P;
         "pkg-0.5.0" = _IeIRf1Eh;
         "pkg-0.5.1" = _tpEtxCmr;
         "pkg-0.5.2" = _1X04oyJ2;
@@ -186,7 +198,8 @@ let
         "pkg-0.7.5" = _xTkokyBk;
         "pkg-0.8.0" = _7AGtjUTP;
         "pkg-0.8.1" = _elCP09ki;
-        "default" = _elCP09ki;
+        "pkg-0.8.2" = _d5eMJMiw;
+        "default" = _d5eMJMiw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "envelope";

@@ -11,9 +11,21 @@ let
             "file" = "SenpaiSpider_2M_Pack.zip";
             "hash" = "sha512-MROl159vFGZk0f4GI0jQHR0DJG/jYKcxPX7Ybnkwg1fYM0TzvLngki8RB+V6AzSObqvFhXcHyd63RctlHqbXbQ==";
         };
+        _DOOwHcnh = {
+            "id" = "DOOwHcnh";
+            "file" = "SenpaiSpider2M-BY-RAY.zip";
+            "hash" = "sha512-TUtlFBuXx/fDPeBTGuhEXPsHxBDkWH0x1UN5/N4jkn+eR7XFkRA4hvVzupTfbrABObt5v46y0CB2uvp7RMQAfQ==";
+        };
+        _E3uNi0ze = {
+            "id" = "E3uNi0ze";
+            "file" = "SenpaiSpider2M-BY-RAY(Non-Animated).zip";
+            "hash" = "sha512-HEW9WH0yAIIZAWuz0hb97dsuEOnN3lERFCasVidmpsG8jZiPWMyPYjhCMS5Ophuq4VniKURgKaVKqRzq3c8AoQ==";
+        };
     in {
         "fggKCZNQ" = _fggKCZNQ;
         "EXjycriT" = _EXjycriT;
+        "DOOwHcnh" = _DOOwHcnh;
+        "E3uNi0ze" = _E3uNi0ze;
         "minecraft-1.20.3" = _EXjycriT;
         "minecraft-1.20.4" = _EXjycriT;
         "minecraft-24w03a" = _EXjycriT;
@@ -64,8 +76,14 @@ let
         "minecraft-1.21.9" = _EXjycriT;
         "minecraft-1.21.10" = _EXjycriT;
         "minecraft-1.21.11" = _EXjycriT;
+        "minecraft-26.3" = _E3uNi0ze;
+        "minecraft-26.2" = _E3uNi0ze;
+        "minecraft-26.1.2" = _E3uNi0ze;
+        "minecraft-26.1" = _E3uNi0ze;
+        "minecraft-26.1.1" = _E3uNi0ze;
         "pkg-1.0.0" = _EXjycriT;
-        "default" = _EXjycriT;
+        "pkg-1.0.1" = _E3uNi0ze;
+        "default" = _E3uNi0ze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "senpaispider-2-million-resource-pack";

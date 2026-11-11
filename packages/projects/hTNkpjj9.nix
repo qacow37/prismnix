@@ -51,6 +51,11 @@ let
             "file" = "xaeronuhuh-fabric-1.2.1+26.3.jar";
             "hash" = "sha512-DW3kAQDETdAAZo1Rti4KssltcLJYornMHm3dHMtmMMa5UwEwqHjp5untD4eH0qd6UzPqr3OnLjMI+gMzQc9CEQ==";
         };
+        _2Nnbbm0f = {
+            "id" = "2Nnbbm0f";
+            "file" = "xaeronuhuh-neoforge-1.2.1+26.3.jar";
+            "hash" = "sha512-+isDDnVmboRyUUnvmqw6D0vBa7RRFAzd+A+jOVdY8Bisra9cSaJoalg/geWi8UU7dpn3F4g7eWYmqnkhBurpSA==";
+        };
     in {
         "PTkRp0eA" = _PTkRp0eA;
         "SeFQqIuc" = _SeFQqIuc;
@@ -62,6 +67,7 @@ let
         "hYHDsJx9" = _hYHDsJx9;
         "z9Jg5nln" = _z9Jg5nln;
         "Ph6bqwD8" = _Ph6bqwD8;
+        "2Nnbbm0f" = _2Nnbbm0f;
         "fabric-1.21.10" = _PTkRp0eA;
         "fabric-1.21.11" = _bpj1qNJx;
         "fabric-26.1" = _mRZaBzjI;
@@ -71,6 +77,7 @@ let
         "fabric-26.3" = _Ph6bqwD8;
         "neoforge-1.21.1" = _Ar31ekrH;
         "neoforge-26.2" = _EpEr5x30;
+        "neoforge-26.3" = _2Nnbbm0f;
         "pkg-1.0" = _PTkRp0eA;
         "pkg-1.1.0+1.21.11" = _SeFQqIuc;
         "pkg-1.1.1+1.21.11" = _bpj1qNJx;
@@ -79,8 +86,8 @@ let
         "pkg-1.2.0+1.21.1" = _Ar31ekrH;
         "pkg-1.2.0+26.2" = _hYHDsJx9;
         "pkg-1.2.1+26.2" = _z9Jg5nln;
-        "pkg-1.2.1+26.3" = _Ph6bqwD8;
-        "default" = _Ph6bqwD8;
+        "pkg-1.2.1+26.3" = _2Nnbbm0f;
+        "default" = _2Nnbbm0f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaeronuhuh";

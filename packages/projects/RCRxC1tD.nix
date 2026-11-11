@@ -1151,6 +1151,11 @@ let
             "file" = "LittleTiles_BETA_v1.6.0-pre237_mc1.21.1.jar";
             "hash" = "sha512-l4D1oD7q5mpGg7zcXd9MqZU0DIf7G+j65yjFdtAwHPO19nF9AdqFuH1TbGoPKXE/swbMtKyJLRmibUkB7SFcBw==";
         };
+        _RDJvdHID = {
+            "id" = "RDJvdHID";
+            "file" = "LittleTiles_BETA_v1.6.0-pre238_mc1.21.1.jar";
+            "hash" = "sha512-Cqk19yMyQ5cqR8ntGHTzFAKG7GnbC/OMyWwbTe3JlxE/PeJKmqfruvdnG38uDiAzn2zXS4Yu68hZedjocGFMfQ==";
+        };
     in {
         "Q7mkn1Ve" = _Q7mkn1Ve;
         "UK4jzCE1" = _UK4jzCE1;
@@ -1382,13 +1387,14 @@ let
         "EUSPvucg" = _EUSPvucg;
         "c2SowFEz" = _c2SowFEz;
         "dGjooVZk" = _dGjooVZk;
+        "RDJvdHID" = _RDJvdHID;
         "forge-1.19.4" = _gqY8Rcr3;
         "forge-1.20" = _Q1z1uCgw;
         "forge-1.20.1" = _sBbUjEhq;
         "forge-1.20.2" = _Wg2btKS3;
         "neoforge-1.20" = _Q1z1uCgw;
         "neoforge-1.20.1" = _sBbUjEhq;
-        "neoforge-1.21.1" = _dGjooVZk;
+        "neoforge-1.21.1" = _RDJvdHID;
         "pkg-1.6.0-pre039" = _Q7mkn1Ve;
         "pkg-1.6.0-pre040" = _UK4jzCE1;
         "pkg-1.6.0-pre041" = _gqY8Rcr3;
@@ -1582,7 +1588,8 @@ let
         "pkg-1.6.0-pre235" = _EUSPvucg;
         "pkg-1.6.0-pre236" = _c2SowFEz;
         "pkg-1.6.0-pre237" = _dGjooVZk;
-        "default" = _dGjooVZk;
+        "pkg-1.6.0-pre238" = _RDJvdHID;
+        "default" = _RDJvdHID;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "littletiles";

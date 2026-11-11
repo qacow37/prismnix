@@ -61,6 +61,11 @@ let
             "file" = "OfflineCommands-1.0.3+26.3.jar";
             "hash" = "sha512-K2gF8KwsDHSsx9pzp+3LtCBJlg7yonuxaCSBNku5kT0byP2ZtWYD4HLksgRaQ/znAprqTiYN8WpRs0X1TDXhpg==";
         };
+        _rNfGLU1d = {
+            "id" = "rNfGLU1d";
+            "file" = "OfflineCommands-1.0.4+26.3.jar";
+            "hash" = "sha512-Z+tQDkhmnZwzS1QD9jr8biUSh6d9T3qMBBwy7WAd+TW2/f2VbAlMQYBDzev1fdst7Bz+dpSu4VZdi+kJRQQx3A==";
+        };
     in {
         "N5pbFRDC" = _N5pbFRDC;
         "TFczG3M0" = _TFczG3M0;
@@ -74,6 +79,7 @@ let
         "WcuhUAD7" = _WcuhUAD7;
         "YfBIpokm" = _YfBIpokm;
         "iF2JEqDe" = _iF2JEqDe;
+        "rNfGLU1d" = _rNfGLU1d;
         "fabric-1.20.6" = _TFczG3M0;
         "fabric-1.21" = _F4BpLp04;
         "fabric-1.21.1" = _F4BpLp04;
@@ -97,7 +103,7 @@ let
         "fabric-26.1.1" = _YfBIpokm;
         "fabric-26.1.2" = _YfBIpokm;
         "fabric-26.2" = _YfBIpokm;
-        "fabric-26.3" = _iF2JEqDe;
+        "fabric-26.3" = _rNfGLU1d;
         "quilt-1.20.6" = _TFczG3M0;
         "quilt-1.21" = _F4BpLp04;
         "quilt-1.21.1" = _F4BpLp04;
@@ -121,7 +127,7 @@ let
         "quilt-26.1.1" = _YfBIpokm;
         "quilt-26.1.2" = _YfBIpokm;
         "quilt-26.2" = _YfBIpokm;
-        "quilt-26.3" = _iF2JEqDe;
+        "quilt-26.3" = _rNfGLU1d;
         "pkg-1.0.0+1.20.6" = _N5pbFRDC;
         "pkg-1.0.1+1.20.6" = _TFczG3M0;
         "pkg-1.0.1+1.21" = _F4BpLp04;
@@ -134,7 +140,8 @@ let
         "pkg-1.0.3+1.21.11" = _WcuhUAD7;
         "pkg-1.0.3+26.1-rc-3" = _YfBIpokm;
         "pkg-1.0.3+26.3" = _iF2JEqDe;
-        "default" = _iF2JEqDe;
+        "pkg-1.0.4+26.3" = _rNfGLU1d;
+        "default" = _rNfGLU1d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "offlinecommands";

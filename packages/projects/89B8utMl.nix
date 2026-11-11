@@ -66,6 +66,21 @@ let
             "file" = "CreateBitsnBobs-2.3.5.2+fly-mc26.2.jar";
             "hash" = "sha512-Fn5oyIVVVlzPatt2wwgBMWL1zt3XnrVD0zhHoCfuAB910HWNGXi11XknR8IixV05jCNOgKLoZr/c/pI36oZmXA==";
         };
+        _ZKUGYO82 = {
+            "id" = "ZKUGYO82";
+            "file" = "CreateBitsnBobs-2.3.5.3+fly-mc26.2.jar";
+            "hash" = "sha512-2X0tTWmwPZBleaDtlbZA6+GPUu3XBZcrMZorfns9OCzYeFaR/L0xnaB+8HvSz9A+NA8NRcZlYDPFkWhghfgOHw==";
+        };
+        _IIABi30a = {
+            "id" = "IIABi30a";
+            "file" = "CreateBitsnBobs-2.3.5.3+fly-mc26.1.jar";
+            "hash" = "sha512-3x4zrfRJtd3464rnDO7pD5Vb52GES4oqadTuI/Fm/J5p0RDVisG2HJ3ekfv5zRzXeoIaRRA1+/1tTL7uU//Kgg==";
+        };
+        _nqfvbyq4 = {
+            "id" = "nqfvbyq4";
+            "file" = "CreateBitsnBobs-2.3.5.3+fly-mc26.3.jar";
+            "hash" = "sha512-LSncqWtxtKEHUo/81KNbj0yd8C5MjeGHXggmYL5yj1qyFWsIg/xXOIMTWBr45ibhfGIw7tCEh2Fqblmh3nd2xw==";
+        };
     in {
         "k5f0j318" = _k5f0j318;
         "v54xLnUO" = _v54xLnUO;
@@ -80,10 +95,14 @@ let
         "8sTSLASx" = _8sTSLASx;
         "4d25P5ZU" = _4d25P5ZU;
         "N7IPwJGd" = _N7IPwJGd;
-        "fabric-26.2" = _N7IPwJGd;
-        "fabric-26.1" = _4d25P5ZU;
-        "fabric-26.1.1" = _4d25P5ZU;
-        "fabric-26.1.2" = _4d25P5ZU;
+        "ZKUGYO82" = _ZKUGYO82;
+        "IIABi30a" = _IIABi30a;
+        "nqfvbyq4" = _nqfvbyq4;
+        "fabric-26.2" = _ZKUGYO82;
+        "fabric-26.1" = _IIABi30a;
+        "fabric-26.1.1" = _IIABi30a;
+        "fabric-26.1.2" = _IIABi30a;
+        "fabric-26.3" = _nqfvbyq4;
         "pkg-2.3.2-fly.26.2-beta.8" = _k5f0j318;
         "pkg-2.3.2-fly.26.1.2-beta.4" = _v54xLnUO;
         "pkg-2.3.2-fly.26.2-beta.9" = _JKrpxThe;
@@ -97,7 +116,10 @@ let
         "pkg-2.3.5.1+fly-mc26.2" = _8sTSLASx;
         "pkg-2.3.5.1+fly-mc26.1" = _4d25P5ZU;
         "pkg-2.3.5.2+fly-mc26.2" = _N7IPwJGd;
-        "default" = _N7IPwJGd;
+        "pkg-2.3.5.3+fly-mc26.2" = _ZKUGYO82;
+        "pkg-2.3.5.3+fly-mc26.1" = _IIABi30a;
+        "pkg-2.3.5.3+fly-mc26.3" = _nqfvbyq4;
+        "default" = _nqfvbyq4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-bits-n-bobs-unofficial-port";

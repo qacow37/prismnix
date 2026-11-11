@@ -151,6 +151,16 @@ let
             "file" = "MendableAnvils-neoforge-26.1-1.2.4.jar";
             "hash" = "sha512-y9hnU0jD8b3xa5cSfO5oLUI8SH1Fhun7Ckb8en4tj/I16jfRzGFeQpm2s++GwQaOuI/Nl5n7hvkpnSBukLdIzw==";
         };
+        _uvqHEKeu = {
+            "id" = "uvqHEKeu";
+            "file" = "MendableAnvils-fabric-26.1-1.2.5.jar";
+            "hash" = "sha512-2KvGxId8FmPumoUIh+rYnxY7op7ok+hsU1n3+3eQMRrfzN+Bm9GmY/dVS7gW8UqLRVuulogY/0PMx20lw2Y2iA==";
+        };
+        _xYDMBX1C = {
+            "id" = "xYDMBX1C";
+            "file" = "MendableAnvils-neoforge-26.1-1.2.5.jar";
+            "hash" = "sha512-U4xRlFNzq272IlzjVAJq/S3XbxWLfRXSThk4UtGtetuwEk3l1SGBJbFCzjGnWp8wGnJg7xjy2f94mkDjEAAiyA==";
+        };
     in {
         "jlsU7MLx" = _jlsU7MLx;
         "op8msjEB" = _op8msjEB;
@@ -182,6 +192,8 @@ let
         "EL2a9Jqk" = _EL2a9Jqk;
         "CQFLLGM4" = _CQFLLGM4;
         "LbEI0d6q" = _LbEI0d6q;
+        "uvqHEKeu" = _uvqHEKeu;
+        "xYDMBX1C" = _xYDMBX1C;
         "forge-1.19" = _jlsU7MLx;
         "forge-1.19.1" = _jlsU7MLx;
         "forge-1.19.2" = _jlsU7MLx;
@@ -204,10 +216,11 @@ let
         "fabric-1.21.9" = _6VZufOhT;
         "fabric-1.21.10" = _6VZufOhT;
         "fabric-1.21.11" = _xJBbxeSA;
-        "fabric-26.1" = _CQFLLGM4;
-        "fabric-26.1.1" = _CQFLLGM4;
-        "fabric-26.1.2" = _CQFLLGM4;
-        "fabric-26.2" = _CQFLLGM4;
+        "fabric-26.1" = _uvqHEKeu;
+        "fabric-26.1.1" = _uvqHEKeu;
+        "fabric-26.1.2" = _uvqHEKeu;
+        "fabric-26.2" = _uvqHEKeu;
+        "fabric-26.3" = _uvqHEKeu;
         "neoforge-1.20.6" = _QzG697s2;
         "neoforge-1.21" = _sQVxPsP3;
         "neoforge-1.21.1" = _sQVxPsP3;
@@ -219,10 +232,11 @@ let
         "neoforge-1.21.9" = _KuwAsaCt;
         "neoforge-1.21.10" = _KuwAsaCt;
         "neoforge-1.21.11" = _EL2a9Jqk;
-        "neoforge-26.1" = _LbEI0d6q;
-        "neoforge-26.1.1" = _LbEI0d6q;
-        "neoforge-26.1.2" = _LbEI0d6q;
-        "neoforge-26.2" = _LbEI0d6q;
+        "neoforge-26.1" = _xYDMBX1C;
+        "neoforge-26.1.1" = _xYDMBX1C;
+        "neoforge-26.1.2" = _xYDMBX1C;
+        "neoforge-26.2" = _xYDMBX1C;
+        "neoforge-26.3" = _xYDMBX1C;
         "pkg-1.0.0" = _jlsU7MLx;
         "pkg-1.0.1" = _op8msjEB;
         "pkg-1.0.2" = _WIy4debj;
@@ -232,7 +246,8 @@ let
         "pkg-1.2.2" = _LjEKUMjz;
         "pkg-1.2.3" = _rdAI0Thd;
         "pkg-1.2.4" = _LbEI0d6q;
-        "default" = _LbEI0d6q;
+        "pkg-1.2.5" = _xYDMBX1C;
+        "default" = _xYDMBX1C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mendable-anvils";

@@ -116,6 +116,16 @@ let
             "file" = "progressivebosses-4.3.12.jar";
             "hash" = "sha512-09LEEXdUiCJmaPNpZn5gCtyHerNauGL6kgmnxGBCj62t2UWe7WnjugqzNzWn9hI9ugFryOm3/NgHhI/ep8ytKA==";
         };
+        _o8ufxeW1 = {
+            "id" = "o8ufxeW1";
+            "file" = "progressivebosses-5.0.0.3-alpha.jar";
+            "hash" = "sha512-7uwIsluaN1Qf/U4Vr/I1hNLrFLAxEmW3a5tBJSoicYFNbtEDi2EsmXNXUG0sB++f9s2rWVE3fblOcxsZFDoqHA==";
+        };
+        _nd6Zv3a9 = {
+            "id" = "nd6Zv3a9";
+            "file" = "progressivebosses-5.0.0.4-alpha.jar";
+            "hash" = "sha512-Svi84gjqQDfDzs+9v1sRxC5aJ70nSRPkV/m/qARYYraoNF8saC/iFYJD82JEVQi48d6I47y4qPtA9ClaL2Dhqw==";
+        };
     in {
         "XRJkbAKh" = _XRJkbAKh;
         "LORKjZKw" = _LORKjZKw;
@@ -140,12 +150,15 @@ let
         "tUkhFaQE" = _tUkhFaQE;
         "FuxHR2O6" = _FuxHR2O6;
         "swYJ1CxT" = _swYJ1CxT;
+        "o8ufxeW1" = _o8ufxeW1;
+        "nd6Zv3a9" = _nd6Zv3a9;
         "forge-1.18.2" = _OEbonNxC;
         "forge-1.19.2" = _LORKjZKw;
         "forge-1.19.4" = _xInaMZRR;
         "forge-1.20.1" = _swYJ1CxT;
         "forge-1.20" = _WULIzBrf;
         "neoforge-1.20.1" = _krcOmp2Z;
+        "neoforge-1.21.1" = _nd6Zv3a9;
         "pkg-3.6.6" = _XRJkbAKh;
         "pkg-3.7.5" = _LORKjZKw;
         "pkg-3.8.3" = _UUy29z3Q;
@@ -167,7 +180,9 @@ let
         "pkg-4.3.10" = _tUkhFaQE;
         "pkg-4.3.11" = _FuxHR2O6;
         "pkg-4.3.12" = _swYJ1CxT;
-        "default" = _swYJ1CxT;
+        "pkg-5.0.0.3-alpha" = _o8ufxeW1;
+        "pkg-5.0.0.4-alpha" = _nd6Zv3a9;
+        "default" = _nd6Zv3a9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "progressive-bosses";

@@ -71,6 +71,21 @@ let
             "file" = "levelhearts-1.21.1-2.4.0+patch.2.jar";
             "hash" = "sha512-PQfsVZbV6vLlxN4hFon7ZDT4EHpVdxuiXxVF9k5sUCd6iv6jP3YLCrgulZ9htkY6vqJtCgT3tF7BJJKVPXAlew==";
         };
+        _ePp1FFEu = {
+            "id" = "ePp1FFEu";
+            "file" = "levelhearts-26.1.2-2.4.0.jar";
+            "hash" = "sha512-ouCwNCE7o8TWQPH7ZFppTxUcllfzhrmHXagZb2D9cPb7PqAc7MEZdTShNe2BBRvP1iuPPUH+rA3T2Yz1sRksyQ==";
+        };
+        _tlDKRLAg = {
+            "id" = "tlDKRLAg";
+            "file" = "levelhearts-26.2-2.4.0.jar";
+            "hash" = "sha512-XU5s8l/9gXwFAbX1fJvIfA07AvOSz2fEQchCGltOIfhj4rIvM0auXj8w9uN/3kpH2vpUxFfZTAKPfZNM1KDFTw==";
+        };
+        _x9oDroFU = {
+            "id" = "x9oDroFU";
+            "file" = "levelhearts-26.3-2.4.0.jar";
+            "hash" = "sha512-uUhDGAcYItK2VHuZoWPdBUxar9PFeiGFWhxHIGinKpJzaUwcUxzpvnAGgVz2DxbwsIOz1NyIP00+AdX3FN/XPg==";
+        };
     in {
         "DdUnegAQ" = _DdUnegAQ;
         "up3IIisb" = _up3IIisb;
@@ -86,6 +101,9 @@ let
         "aGUM02wM" = _aGUM02wM;
         "EqzpsF1d" = _EqzpsF1d;
         "93VtOkQY" = _93VtOkQY;
+        "ePp1FFEu" = _ePp1FFEu;
+        "tlDKRLAg" = _tlDKRLAg;
+        "x9oDroFU" = _x9oDroFU;
         "forge-1.12.2" = _DdUnegAQ;
         "forge-1.14.4" = _up3IIisb;
         "forge-1.15.2" = _ueReIDO0;
@@ -97,6 +115,9 @@ let
         "forge-1.20.1" = _7MSVEcFD;
         "forge-1.21.1" = _Clbo7jD0;
         "neoforge-1.21.1" = _93VtOkQY;
+        "neoforge-26.1.2" = _ePp1FFEu;
+        "neoforge-26.2" = _tlDKRLAg;
+        "neoforge-26.3" = _x9oDroFU;
         "pkg-1.12.2-2.4.0" = _DdUnegAQ;
         "pkg-1.14.4-2.4.0" = _up3IIisb;
         "pkg-1.15.2-2.4.0" = _ueReIDO0;
@@ -110,7 +131,10 @@ let
         "pkg-1.21.1-2.4.0" = _aGUM02wM;
         "pkg-1.21.1-2.4.0+patch.1" = _EqzpsF1d;
         "pkg-1.21.1-2.4.0+patch.2" = _93VtOkQY;
-        "default" = _93VtOkQY;
+        "pkg-26.1.2-2.4.0" = _ePp1FFEu;
+        "pkg-26.2-2.4.0" = _tlDKRLAg;
+        "pkg-26.3-2.4.0" = _x9oDroFU;
+        "default" = _x9oDroFU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "levelhearts";

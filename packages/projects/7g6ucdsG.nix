@@ -36,6 +36,16 @@ let
             "file" = "brewerylib_26.3_1.0.2.jar";
             "hash" = "sha512-SHyT9RP9i22CwiY0lX91Z2gT56pCIbTZCxv6s9apHN6tZiwJcd9W5z6vEuF5Y+Mh8T3Yd3d1/mz2cj/TcJ5MgQ==";
         };
+        _dFT7aLUV = {
+            "id" = "dFT7aLUV";
+            "file" = "brewerylib_1.21.1_1.0.2.jar";
+            "hash" = "sha512-j62E4ZZi4nqClDguDVWNTtcvYmrXJ6RzGBGgBFE7uxu8ira9TdxgywxiZd6bFO1Q7gYzbhv041/fhvcH8uIU4Q==";
+        };
+        _n9zBOKdk = {
+            "id" = "n9zBOKdk";
+            "file" = "brewerylib_1.20.1_1.0.2.jar";
+            "hash" = "sha512-CLx5OuxUlL7DTnnTbxpjuV+QRln+4tyWfVLfF1LPDl0up6GfyZYPlETcqwniSGVP6XZB8Pw5q58UPPiUDb1sYQ==";
+        };
     in {
         "69YauyrF" = _69YauyrF;
         "zl0E5ZgX" = _zl0E5ZgX;
@@ -44,6 +54,8 @@ let
         "DlCJt5P8" = _DlCJt5P8;
         "ttfIxlSt" = _ttfIxlSt;
         "XB6xTJJf" = _XB6xTJJf;
+        "dFT7aLUV" = _dFT7aLUV;
+        "n9zBOKdk" = _n9zBOKdk;
         "fabric-1.21.8" = _nCcn1SwY;
         "fabric-1.21.10" = _nCcn1SwY;
         "fabric-1.21.9" = _nCcn1SwY;
@@ -53,10 +65,12 @@ let
         "fabric-26.1.2" = _DlCJt5P8;
         "fabric-26.2" = _ttfIxlSt;
         "fabric-26.3" = _XB6xTJJf;
+        "fabric-1.21.1" = _dFT7aLUV;
+        "fabric-1.20.1" = _n9zBOKdk;
         "pkg-1.0.0" = _dv31gJev;
         "pkg-1.0.1" = _ttfIxlSt;
-        "pkg-1.0.2" = _XB6xTJJf;
-        "default" = _XB6xTJJf;
+        "pkg-1.0.2" = _n9zBOKdk;
+        "default" = _n9zBOKdk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brewerylib";

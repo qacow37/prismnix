@@ -131,6 +131,46 @@ let
             "file" = "presence-neoforge-2.4.5.jar";
             "hash" = "sha512-RF23rby6Qr4kC9CKSRj70nKk37Tb3Nr41EwCPOkJjFa4TTD6kismIUJMu7kB6SYRh79JG6shfIK7xkFddXtLtg==";
         };
+        _skH4cN1V = {
+            "id" = "skH4cN1V";
+            "file" = "presence-2.4.6.jar";
+            "hash" = "sha512-9PFxF3qbfk/6OUcy0cIVJa/7XB7dY3blVqwKl7DdvhE6vAq4DhQSU+gl0C1jANUPMR18kMKxZvaaYXr7vSFPGw==";
+        };
+        _VsVkqai7 = {
+            "id" = "VsVkqai7";
+            "file" = "presence-2.4.6.jar";
+            "hash" = "sha512-J7P1dl8Hec2dxconrNdQSLAMvtwM5q5pZ43ZLbdLgP3vjSms3oH8bvjLlioU/OuD4Cy/niqBRrS2zPJqCck53w==";
+        };
+        _kygRHe4Q = {
+            "id" = "kygRHe4Q";
+            "file" = "presence-2.4.6.jar";
+            "hash" = "sha512-ZR3zzTODfrF2iC1F8gp7umEACC8qbKHqxhqoGyKC6csS3qmsbGT70sXXvegiov5dt+lm7QuwrMi2GN5Mprfw8g==";
+        };
+        _OBhuseH3 = {
+            "id" = "OBhuseH3";
+            "file" = "presence-fabric-2.4.6.jar";
+            "hash" = "sha512-uQYOt4egJiZ62FGVxADHoeL3BakxtchkobBY2NkFhXPcrYHVtnlY1xJ+PFHEQOOgHD6HU4j1eG/1Zuqll4wYLQ==";
+        };
+        _K3HVfOqi = {
+            "id" = "K3HVfOqi";
+            "file" = "presence-fabric-2.4.6.jar";
+            "hash" = "sha512-KJBUQMkZ0o3dzY885He3KYoiJ54IdX5uLGd1WE0+RPZRVlQL+DVx+/1U8kh3HeUWOtHYH2t30noX8Hvo5Dr+Tg==";
+        };
+        _PNWOl9gu = {
+            "id" = "PNWOl9gu";
+            "file" = "presence-neoforge-2.4.6.jar";
+            "hash" = "sha512-+34OXFn4eGblLnQpjBmLEgDghrbB2Ce+kLk2QYeSry1CwrE5qhJUfgD0Pf1/50jZZUah9dsvJcXmF1vBjO6RoQ==";
+        };
+        _Fjcb7qsN = {
+            "id" = "Fjcb7qsN";
+            "file" = "presence-neoforge-2.4.6.jar";
+            "hash" = "sha512-k/2mn6QGrw1G4P6TKmzPcrv7w1JjopyqVyn165iymMdFDg5Q5LSthrzdjLqdzKoCloOvpsLGKdsSqlX22LjmUw==";
+        };
+        _Bkw544Tx = {
+            "id" = "Bkw544Tx";
+            "file" = "presence-neoforge-2.4.6.jar";
+            "hash" = "sha512-4EEUEkHMgyDW3KBNTFvP/yIdtEFKvc9mbmFpe4qGiFDTzF3YvHEWBMu8XHqzS5lLmktSrFbNVWnzDtmThB8j3Q==";
+        };
     in {
         "8LLgHQrV" = _8LLgHQrV;
         "y5OrmG1j" = _y5OrmG1j;
@@ -158,7 +198,15 @@ let
         "OidcQR9D" = _OidcQR9D;
         "WmkcqD6i" = _WmkcqD6i;
         "uzjWYNZf" = _uzjWYNZf;
-        "forge-1.21.1" = _Hn4yJPoK;
+        "skH4cN1V" = _skH4cN1V;
+        "VsVkqai7" = _VsVkqai7;
+        "kygRHe4Q" = _kygRHe4Q;
+        "OBhuseH3" = _OBhuseH3;
+        "K3HVfOqi" = _K3HVfOqi;
+        "PNWOl9gu" = _PNWOl9gu;
+        "Fjcb7qsN" = _Fjcb7qsN;
+        "Bkw544Tx" = _Bkw544Tx;
+        "forge-1.21.1" = _kygRHe4Q;
         "forge-1.21.2" = _8LLgHQrV;
         "forge-1.21.3" = _8LLgHQrV;
         "forge-1.21.4" = _8LLgHQrV;
@@ -169,27 +217,28 @@ let
         "forge-1.21.9" = _8LLgHQrV;
         "forge-1.21.10" = _8LLgHQrV;
         "forge-1.21.11" = _8LLgHQrV;
-        "forge-1.20.1" = _PTv8wmSh;
+        "forge-1.20.1" = _VsVkqai7;
         "forge-1.20.2" = _y5OrmG1j;
         "forge-1.20.3" = _y5OrmG1j;
         "forge-1.20.4" = _y5OrmG1j;
         "forge-1.20.5" = _y5OrmG1j;
         "forge-1.20.6" = _y5OrmG1j;
-        "forge-1.19.2" = _QEU50Ihx;
+        "forge-1.19.2" = _skH4cN1V;
         "forge-1.19.3" = _hZQZv6ZZ;
         "forge-1.19.4" = _hZQZv6ZZ;
-        "fabric-1.20.1" = _k08CZpoF;
-        "fabric-1.21.1" = _jhjMowt1;
-        "neoforge-1.21.11" = _OidcQR9D;
-        "neoforge-26.1.2" = _WmkcqD6i;
-        "neoforge-26.3" = _uzjWYNZf;
+        "fabric-1.20.1" = _OBhuseH3;
+        "fabric-1.21.1" = _K3HVfOqi;
+        "neoforge-1.21.11" = _PNWOl9gu;
+        "neoforge-26.1.2" = _Fjcb7qsN;
+        "neoforge-26.3" = _Bkw544Tx;
         "pkg-2.3.0" = _hZQZv6ZZ;
         "pkg-2.4.0" = _SrvZq2Ut;
         "pkg-2.4.1" = _Z6pevrIy;
         "pkg-2.4.3" = _QDIjCTcu;
         "pkg-2.4.4" = _jhjMowt1;
         "pkg-2.4.5" = _uzjWYNZf;
-        "default" = _uzjWYNZf;
+        "pkg-2.4.6" = _Bkw544Tx;
+        "default" = _Bkw544Tx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "presence-an-ambient-horror-mod";

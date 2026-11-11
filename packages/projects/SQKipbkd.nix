@@ -326,6 +326,16 @@ let
             "file" = "fix-mc-stats-fabric-26.3-2.6.0.jar";
             "hash" = "sha512-oS8KSy6qqQLhyiUYgSiMv2K17caGTOT+rFnpiEBSAzkik8mUVc+C9sNgdWz05vWp1hMzCuVzGCTw+D6KvKpUmQ==";
         };
+        _t6ut5eLM = {
+            "id" = "t6ut5eLM";
+            "file" = "fix-mc-stats-neoforge-26.3-2.6.1.jar";
+            "hash" = "sha512-rDklkkssvmVRR7/ec9VSpyIPsxBXQCc17sf9TN8d/SEcGBL5u7noZJKlhsl9UOdxQgVuFTkqrWyqBqzywOGPzg==";
+        };
+        _7Vpt0BdS = {
+            "id" = "7Vpt0BdS";
+            "file" = "fix-mc-stats-fabric-26.3-2.6.1.jar";
+            "hash" = "sha512-J5XMU04W1vdU1ysCk2iuGO0dUPSPgGrLOfqemuOzOLh4t4UGpHbI/vutKFhL1lfXYNr/UpaziDjimFHZg4i3Yg==";
+        };
     in {
         "pdNcFMrl" = _pdNcFMrl;
         "oEIhJOYC" = _oEIhJOYC;
@@ -392,6 +402,8 @@ let
         "GFdsRaA3" = _GFdsRaA3;
         "5XcBDVCX" = _5XcBDVCX;
         "rjmjYDE5" = _rjmjYDE5;
+        "t6ut5eLM" = _t6ut5eLM;
+        "7Vpt0BdS" = _7Vpt0BdS;
         "fabric-1.20.4" = _cbxj3mC1;
         "fabric-1.20.5" = _GJ4P0QDq;
         "fabric-1.20.6" = _GJ4P0QDq;
@@ -413,7 +425,7 @@ let
         "fabric-26.1.2-rc-1" = _HjYPJTTL;
         "fabric-26.1.2" = _851focDx;
         "fabric-26.2" = _KYYQqEh0;
-        "fabric-26.3" = _rjmjYDE5;
+        "fabric-26.3" = _7Vpt0BdS;
         "quilt-1.20.4" = _cbxj3mC1;
         "quilt-1.20.5" = _GJ4P0QDq;
         "quilt-1.20.6" = _GJ4P0QDq;
@@ -435,7 +447,7 @@ let
         "quilt-26.1.2-rc-1" = _HjYPJTTL;
         "quilt-26.1.2" = _851focDx;
         "quilt-26.2" = _KYYQqEh0;
-        "quilt-26.3" = _rjmjYDE5;
+        "quilt-26.3" = _7Vpt0BdS;
         "neoforge-1.21.11" = _TbG7sUyV;
         "neoforge-1.21" = _39MxXWdh;
         "neoforge-1.21.1" = _39MxXWdh;
@@ -444,7 +456,7 @@ let
         "neoforge-26.1.1" = _HaniL23I;
         "neoforge-26.1.2" = _HaniL23I;
         "neoforge-26.2" = _DNl5t9YH;
-        "neoforge-26.3" = _5XcBDVCX;
+        "neoforge-26.3" = _t6ut5eLM;
         "pkg-1.0.0-SNAPSHOT" = _VzAydmfq;
         "pkg-1.0.0" = _cbxj3mC1;
         "pkg-1.0.1" = _BH6v5Q5G;
@@ -508,7 +520,9 @@ let
         "pkg-neoforge-2.5.0" = _GFdsRaA3;
         "pkg-neoforge-2.6.0" = _5XcBDVCX;
         "pkg-fabric-2.6.0" = _rjmjYDE5;
-        "default" = _rjmjYDE5;
+        "pkg-neoforge-2.6.1" = _t6ut5eLM;
+        "pkg-fabric-2.6.1" = _7Vpt0BdS;
+        "default" = _7Vpt0BdS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fixmcstats";

@@ -381,6 +381,66 @@ let
             "file" = "fffoodspoilageandpreservation-0.13.2+26.3-neoforge.jar";
             "hash" = "sha512-divsHE7SzuWTGTXuzgcr/lcdOusjDBcVzsk3qKn3I+6vkKVRdhNqjDGqEhvHI4YGk9h7qQ0KA4SDnAS3ZYuLLQ==";
         };
+        _MCI3GJ7f = {
+            "id" = "MCI3GJ7f";
+            "file" = "fffoodspoilageandpreservation-0.13.3+1.21.1-fabric.jar";
+            "hash" = "sha512-j6PMHp82rQ9LCHJTyiDQ+/ch+fS7clPsynd8r3XUj7I1CnkFfKpFBbxGtt1f51AMgL2ufDkm0pGzI9EoBHpR8A==";
+        };
+        _6pdnwpI2 = {
+            "id" = "6pdnwpI2";
+            "file" = "fffoodspoilageandpreservation-0.13.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-3KuXR7uOkQ3zVFKwu44lcvr3z1DnOdf5MeEFjGMjg+Kbx2XxNo2nCXlIXxBDcBW5rn3/nKBosqsAZYJBfNv5EQ==";
+        };
+        _c8Lslbhy = {
+            "id" = "c8Lslbhy";
+            "file" = "fffoodspoilageandpreservation-0.13.3+1.21.11-fabric.jar";
+            "hash" = "sha512-iX59e64d4feyn5zZAfDiEm8jSL5mmBx3ZMFGq/OdqJbM48iahhBIo9kSqUdYhck1lE4UcXV3vZwHY+AgJvjlIA==";
+        };
+        _ocbwcHw6 = {
+            "id" = "ocbwcHw6";
+            "file" = "fffoodspoilageandpreservation-0.13.3+1.21.11-neoforge.jar";
+            "hash" = "sha512-C316oJeYx5YFC22YTL9S5AaR1izO9dE++4q9SHpxG9mADzxbCK8Pu4uuHYralqORt6KHolvx4/opo8OYXY3Nww==";
+        };
+        _wtJqnmsi = {
+            "id" = "wtJqnmsi";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.1-fabric.jar";
+            "hash" = "sha512-1qfhBkt3tFx+gG+ZLRxf3Z5JJ0EaoRsKf67t8QleMYvrfkO5oTlqDW6AwPu/GF6t1O9rWrI53qTBbgrxsdViCg==";
+        };
+        _IAIJVihw = {
+            "id" = "IAIJVihw";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.1.1-fabric.jar";
+            "hash" = "sha512-mzd5iSAmguWyYP08Cb4U9IvkopkKV35OEp1/ZrZaUSsT2wXPI4MaxsBswJAPCmtvBq6uOEM4GvDM+UR1qpIM/g==";
+        };
+        _2eGEvwOe = {
+            "id" = "2eGEvwOe";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.1.2-fabric.jar";
+            "hash" = "sha512-J14QI30dikyUtusTdjUtUpxmr2skQDjw32Nozl1WkQiLxszz/DbqzlIYRTSI9sq84PQbwYBgfQ9G59U4UZ8LnA==";
+        };
+        _bmAZv6e1 = {
+            "id" = "bmAZv6e1";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.1.2-neoforge.jar";
+            "hash" = "sha512-gHxTT0bRrTdxy8N03XPiT7PoUzzXS5qMg2vGuLeu7HZYzprVO9uyITUO6agUh5muBF5tekrQ9gzVQRuYUtHNQw==";
+        };
+        _adRLc6S9 = {
+            "id" = "adRLc6S9";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.2-fabric.jar";
+            "hash" = "sha512-tccvV5o8c48IMQouH0fNCiZSxjijtUZhU++yU80kWwqXWpwPU8LkrrKXyRD0ILnVIm5B95zs2hL5iGDj9mAouw==";
+        };
+        _LfVn0wR8 = {
+            "id" = "LfVn0wR8";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.2-neoforge.jar";
+            "hash" = "sha512-g+iP9VKEpXo5I2ZMz4D87+MOTYPmON3fz0JvLAVBhe3yOZJtrLRGUxGvbpYbb76Ac3luKxxR0ICWFDDYRRyzoA==";
+        };
+        _XZJ2A1ev = {
+            "id" = "XZJ2A1ev";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.3-fabric.jar";
+            "hash" = "sha512-HBJBfMmqQUG7Ohx+N/BwpLGQSSCUdLH8GvXP4Qw0ac62QpH0WBg2IhXHaGWdVGQcFlMp4+73atMs6i2q6tF/1w==";
+        };
+        _cUhXUFAR = {
+            "id" = "cUhXUFAR";
+            "file" = "fffoodspoilageandpreservation-0.13.3+26.3-neoforge.jar";
+            "hash" = "sha512-zu/mhcIt1sypcP7AKaNZYZMcCOcOeFiuQxuxlB/j5PrLtQx4c2nziI0ucxahSy1CBStrApXck3iBv74aEzlDEA==";
+        };
     in {
         "GskatxFn" = _GskatxFn;
         "CVwzOV6d" = _CVwzOV6d;
@@ -458,18 +518,30 @@ let
         "PmjCQjGw" = _PmjCQjGw;
         "lFEsMX5h" = _lFEsMX5h;
         "FUvkp1ra" = _FUvkp1ra;
-        "neoforge-1.21.1" = _LSFvV6XB;
-        "neoforge-1.21.11" = _ooKt7WiQ;
-        "neoforge-26.1.2" = _jq1CZzFy;
-        "neoforge-26.2" = _PmjCQjGw;
-        "neoforge-26.3" = _FUvkp1ra;
-        "fabric-1.21.1" = _ONccKNh5;
-        "fabric-1.21.11" = _N88o7tSO;
-        "fabric-26.1" = _wm1byG2r;
-        "fabric-26.1.1" = _bwWimS7u;
-        "fabric-26.1.2" = _wrnEDsY6;
-        "fabric-26.2" = _X75GQv70;
-        "fabric-26.3" = _lFEsMX5h;
+        "MCI3GJ7f" = _MCI3GJ7f;
+        "6pdnwpI2" = _6pdnwpI2;
+        "c8Lslbhy" = _c8Lslbhy;
+        "ocbwcHw6" = _ocbwcHw6;
+        "wtJqnmsi" = _wtJqnmsi;
+        "IAIJVihw" = _IAIJVihw;
+        "2eGEvwOe" = _2eGEvwOe;
+        "bmAZv6e1" = _bmAZv6e1;
+        "adRLc6S9" = _adRLc6S9;
+        "LfVn0wR8" = _LfVn0wR8;
+        "XZJ2A1ev" = _XZJ2A1ev;
+        "cUhXUFAR" = _cUhXUFAR;
+        "neoforge-1.21.1" = _6pdnwpI2;
+        "neoforge-1.21.11" = _ocbwcHw6;
+        "neoforge-26.1.2" = _bmAZv6e1;
+        "neoforge-26.2" = _LfVn0wR8;
+        "neoforge-26.3" = _cUhXUFAR;
+        "fabric-1.21.1" = _MCI3GJ7f;
+        "fabric-1.21.11" = _c8Lslbhy;
+        "fabric-26.1" = _wtJqnmsi;
+        "fabric-26.1.1" = _IAIJVihw;
+        "fabric-26.1.2" = _2eGEvwOe;
+        "fabric-26.2" = _adRLc6S9;
+        "fabric-26.3" = _XZJ2A1ev;
         "pkg-0.4.5" = _GskatxFn;
         "pkg-0.6.6" = _CVwzOV6d;
         "pkg-0.7.3" = _LPpUoqE3;
@@ -546,7 +618,19 @@ let
         "pkg-0.13.2+26.2-neoforge" = _PmjCQjGw;
         "pkg-0.13.2+26.3-fabric" = _lFEsMX5h;
         "pkg-0.13.2+26.3-neoforge" = _FUvkp1ra;
-        "default" = _FUvkp1ra;
+        "pkg-0.13.3+1.21.1-fabric" = _MCI3GJ7f;
+        "pkg-0.13.3+1.21.1-neoforge" = _6pdnwpI2;
+        "pkg-0.13.3+1.21.11-fabric" = _c8Lslbhy;
+        "pkg-0.13.3+1.21.11-neoforge" = _ocbwcHw6;
+        "pkg-0.13.3+26.1-fabric" = _wtJqnmsi;
+        "pkg-0.13.3+26.1.1-fabric" = _IAIJVihw;
+        "pkg-0.13.3+26.1.2-fabric" = _2eGEvwOe;
+        "pkg-0.13.3+26.1.2-neoforge" = _bmAZv6e1;
+        "pkg-0.13.3+26.2-fabric" = _adRLc6S9;
+        "pkg-0.13.3+26.2-neoforge" = _LfVn0wR8;
+        "pkg-0.13.3+26.3-fabric" = _XZJ2A1ev;
+        "pkg-0.13.3+26.3-neoforge" = _cUhXUFAR;
+        "default" = _cUhXUFAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fffoodspoilageandpreservation";

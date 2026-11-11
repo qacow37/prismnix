@@ -40638,4 +40638,18 @@ args:{
   "create-train-track-updated" = import ./gFscziIf.nix args;
   "legacy-gui-blur" = import ./DAQQfcTq.nix args;
   "blockfront-operation-pathfinder" = import ./YiDDdDyY.nix args;
+  "smithing-skeletons" = import ./MZvqGQfU.nix args;
+  "rocks-dirt" = import ./c407Mpoh.nix args;
+  "no-anvil-penalty" = import ./EABFzYGo.nix args;
+  "gabous-libs" = import ./N8aGZtvj.nix args;
+  "meowmere" = import ./UdtWOG7K.nix args;
+  "oculus-for-simple-clouds" = import ./8WzyyTkv.nix args;
+  "orbital-strike-cannonmods" = import ./tSbIeKM9.nix args;
+  "polydium" = import ./hbSfT032.nix args;
+  "recording-tools" = import ./ahRR7tAt.nix args;
+  "polyfullbright" = import ./p6m1u5Bu.nix args;
+  "alltheplants" = import ./rgTY9VWv.nix args;
+  "clapping-cat-meme" = import ./f9vNpjbj.nix args;
+  "derivativebodycam" = import ./z67DnolW.nix args;
+  "neythox-3d-tools" = import ./dzGxygHJ.nix args;
 }

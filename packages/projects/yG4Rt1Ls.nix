@@ -41,6 +41,11 @@ let
             "file" = "tables_chairs_2_resource_pack - v0.6c.zip";
             "hash" = "sha512-htupYo089vs9RVMdkJgwc7CR/0RrfzJBLzSPKToac2ezEFQHUxsQZmNSNzG6isBFiM9Vy+C/8hOuFmDh9+oVFg==";
         };
+        _pfWsMwvu = {
+            "id" = "pfWsMwvu";
+            "file" = "tables_chairs_2_resource_pack - v0.7.zip";
+            "hash" = "sha512-CdRyCZTEFj3BgfLWI/ppnsnU5B0pt0Fpyz6XwyOYuHEV7TRrY8Twh6E+QX8H/FVkrWjiL3CBKX/ALEhqDqK/EQ==";
+        };
     in {
         "N241zJ0K" = _N241zJ0K;
         "mfYyiv8E" = _mfYyiv8E;
@@ -50,6 +55,7 @@ let
         "FcOK8cu9" = _FcOK8cu9;
         "6VYNG0eV" = _6VYNG0eV;
         "RwYDiF2j" = _RwYDiF2j;
+        "pfWsMwvu" = _pfWsMwvu;
         "minecraft-1.21.4" = _mfYyiv8E;
         "minecraft-1.21.5" = _1fPqGzpn;
         "minecraft-1.21.6" = _RwYDiF2j;
@@ -62,6 +68,7 @@ let
         "minecraft-26.1.1" = _RwYDiF2j;
         "minecraft-26.1.2" = _RwYDiF2j;
         "minecraft-26.2" = _RwYDiF2j;
+        "minecraft-26.3" = _pfWsMwvu;
         "pkg-0.0-for-0.0" = _N241zJ0K;
         "pkg-0.1" = _mfYyiv8E;
         "pkg-0.2" = _pVfBctrL;
@@ -70,7 +77,8 @@ let
         "pkg-0.5" = _FcOK8cu9;
         "pkg-0.6" = _6VYNG0eV;
         "pkg-0.6b" = _RwYDiF2j;
-        "default" = _RwYDiF2j;
+        "pkg-0.7" = _pfWsMwvu;
+        "default" = _pfWsMwvu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "furniture-resources";

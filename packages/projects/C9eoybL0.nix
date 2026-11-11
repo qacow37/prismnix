@@ -86,6 +86,16 @@ let
             "file" = "impact-frames-1.2.1.7.jar";
             "hash" = "sha512-0FkkJuDJCT/y+p6U9whun8dnwG1O22eggWXwp5cZZ/skgN/V8q1y9WhuHt7vBZNErhGcy2o6X3WmDS4As+U4uA==";
         };
+        _7reIQKTb = {
+            "id" = "7reIQKTb";
+            "file" = "impact-frames-1.2.1.8.jar";
+            "hash" = "sha512-rpHZ6tS4YcAQOdqOL2HxCHmmpvWcID7rQcaFBtbfuthYApgTN0bQ7g55hFzcx3yzhKqfvEnqkQK2JgoQSEFiig==";
+        };
+        _g5eMo7rj = {
+            "id" = "g5eMo7rj";
+            "file" = "impact-frames-1.2.1.8.jar";
+            "hash" = "sha512-8pbfqTkhhZJKkeaDlkzOEtux77c3IX8azNrdohReDHZQoaON1Gcjj/+t8WPmVYQgFhbk3z+I/GDcjr3Ro89qtg==";
+        };
     in {
         "Yh7dh7Lt" = _Yh7dh7Lt;
         "I4VHXwgl" = _I4VHXwgl;
@@ -104,12 +114,14 @@ let
         "rLjVFyv6" = _rLjVFyv6;
         "dZFyFli5" = _dZFyFli5;
         "43RUdkmN" = _43RUdkmN;
-        "fabric-1.21.11" = _43RUdkmN;
+        "7reIQKTb" = _7reIQKTb;
+        "g5eMo7rj" = _g5eMo7rj;
+        "fabric-1.21.11" = _g5eMo7rj;
         "fabric-26.1" = _dZFyFli5;
         "fabric-26.1.1" = _dZFyFli5;
         "fabric-26.1.2" = _dZFyFli5;
         "fabric-26.2" = _rLjVFyv6;
-        "fabric-26.3" = _GhTL1Xr8;
+        "fabric-26.3" = _7reIQKTb;
         "pkg-1.0.0" = _Yh7dh7Lt;
         "pkg-1.1.0" = _I4VHXwgl;
         "pkg-1.1.4" = _CRrqjwDv;
@@ -122,7 +134,8 @@ let
         "pkg-1.2.1.6" = _6NjeDLfL;
         "pkg-1.2.1.7+alpha1" = _GhTL1Xr8;
         "pkg-1.2.1.7" = _43RUdkmN;
-        "default" = _43RUdkmN;
+        "pkg-1.2.1.8" = _g5eMo7rj;
+        "default" = _g5eMo7rj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "impact-frames-pvp";
