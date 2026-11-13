@@ -68,20 +68,22 @@ in
         };
     };
     config.instance = let
-        cfg = config.config;
         opt = options.config;
-        mkOpt = path: let
-            o = lib.attrByPath path null opt;
-            c = lib.attrByPath path null cfg;
-        in mkIf o {
-            value = if lib.isBool c
-                then lib.boolToString c
-                else lib.toString c;
-            # force = true;
-        };
-        mkIf = opt: val: lib.mkIf (opt ? option) val;
+        cfg = config.config;
+
+        toStr = v: (if lib.isBool v
+            then lib.boolToString v
+            else lib.toString v
+        );
+        mkOpt = path: (
+            lib.mkIf (lib.getAttrFromPath path opt).isDefined {
+                value = toStr (lib.attrByPath path null cfg);
+                # force = true;
+            }
+        );
     in {
         config = {
+            # The Fuck is this?
             "name" = {value = lib.mkDefault cfg.name;};
 
             # Memory
@@ -97,7 +99,7 @@ in
 
             # Window
             "OverrideWindow"     = mkOpt ["window" "override"              ];
-            "LaunchMaximized"    = mkOpt ["window" "lauch-maximized"       ];
+            "LaunchMaximized"    = mkOpt ["window" "launch-maximized"      ];
             "MinecraftWinWidth"  = mkOpt ["window" "width"                 ];
             "MinecraftWinHeight" = mkOpt ["window" "height"                ];
             "CloseAfterLaunch"   = mkOpt ["window" "hide-launcher-on-open" ];
