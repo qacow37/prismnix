@@ -30,11 +30,11 @@
     */
     mkConfigOptions = set: (
         set // {
-            disable = lib.mkOption {
+            enable = lib.mkOption {
                 type = lib.types.bool;
                 default = false;
                 example = true;
-                description = "Whether to disable generating the config file";
+                description = "Whether to enable generating the config file";
             };
             rawConfig = lib.mkOption {
                 type = lib.types.nullOr lib.types.lines;
@@ -46,7 +46,8 @@
 
     /**
         Create a valid configuration for generating
-        a mod config file for a mod config option section.
+        a mod config file for a mod config option section
+        created using `mkConfigOptions`.
 
         # Examples
 
@@ -106,7 +107,7 @@
         copy?true,
         path?"config/${filename}"
     }: (
-        lib.mkIf (cfg.disable == false) {
+        lib.mkIf (cfg.enable == true) {
             file = {
                 "mods.config.${filename}" = {
                     text = if cfg.rawConfig == null
@@ -116,6 +117,72 @@
                         )
                         else cfg.rawConfig;
 
+                    copy = copy;
+                    target = path;
+                };
+            };
+        }
+    );
+
+    /**
+        Creates a config for the settings option of a mod.
+        The option accepts any nix convertable to json.
+
+        # Inputs
+
+        `mod-name`
+
+        : Name of the mod used for the description message.
+
+        # Type
+
+        ```
+        mkRawConfigOptions :: String -> options
+        ```
+    */
+    mkRawConfigOptions = mod-name: (
+        lib.mkOption {
+            type = lib.types.json;
+            default = {};
+            description = "Settings of `${mod-name}` mod, content of this option is directly converted to the mods config format";
+        }
+    );
+
+    /**
+        Create a valid configuration for generating
+        a mod config file for a  raw mod config option section
+        created using `mkRawConfigOptions`.
+
+        # Inputs
+
+        `cfg`
+
+        : Configs option section created by using `mkRawConfigOptions`.
+
+        # Type
+
+        ```
+        mkConfigFile :: cfg -> {
+            filename :: String;
+            format   :: String;
+            copy     :: Bool ? true;
+            path     :: String ? "config/${filename}";
+        } -> config
+        ```
+    */
+    mkRawConfigFile = cfg: {
+        filename,
+        format,
+        copy?true,
+        path?"config/${filename}"
+    }: (
+        lib.mkIf (cfg != {}) {
+            file = {
+                "mods.config.${filename}" = {
+                    text = (mkConfigContent
+                        format
+                        cfg
+                    );
                     copy = copy;
                     target = path;
                 };
