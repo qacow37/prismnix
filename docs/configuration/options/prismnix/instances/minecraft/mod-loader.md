@@ -2,7 +2,7 @@
 
 
 
-Whether to enable Whether to enable using a mod loader\.
+Whether to enable using a mod loader
 
 
 
@@ -26,7 +26,7 @@ true
 ```
 
 *Declared by:*
- - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft)
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
 
 
 
@@ -48,7 +48,7 @@ a JSON object
 ```
 
 *Declared by:*
- - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft)
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
 
 
 
@@ -72,7 +72,7 @@ string
 ```
 
 *Declared by:*
- - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft)
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
 
 
 
@@ -104,6 +104,6 @@ string
 ```
 
 *Declared by:*
- - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft)
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
 
 

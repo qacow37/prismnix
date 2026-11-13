@@ -29,6 +29,102 @@ false
 ```
 
 *Declared by:*
- - [/nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft](file:///nix/store/hv3j911g53c7mm9dx8a0dgz8gmz4s8mc-source/options/minecraft)
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
+
+
+
+## programs\.prismnix\.instances\.\<name>\.minecraft\.default-links\.mods
+
+
+
+Whether to use the default mod directory symlink
+
+
+
+*Type:*
+boolean
+
+
+
+*Default:*
+
+```nix
+"<default-links.enable>"
+```
+
+
+
+*Example:*
+
+```nix
+false
+```
+
+*Declared by:*
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
+
+
+
+## programs\.prismnix\.instances\.\<name>\.minecraft\.default-links\.resourcepacks
+
+
+
+Whether to use the default resourcepack directory symlink
+
+
+
+*Type:*
+boolean
+
+
+
+*Default:*
+
+```nix
+"<default-links.enable>"
+```
+
+
+
+*Example:*
+
+```nix
+false
+```
+
+*Declared by:*
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
+
+
+
+## programs\.prismnix\.instances\.\<name>\.minecraft\.default-links\.shaderpacks
+
+
+
+Whether to use the default shaderpack directory symlink
+
+
+
+*Type:*
+boolean
+
+
+
+*Default:*
+
+```nix
+"<default-links.enable>"
+```
+
+
+
+*Example:*
+
+```nix
+false
+```
+
+*Declared by:*
+ - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
 
 

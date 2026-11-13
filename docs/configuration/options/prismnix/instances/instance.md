@@ -26,7 +26,7 @@ Activations to run
 
 
 *Type:*
-DAG of string
+attribute set of (prismnix-dag-entry)
 
 
 
@@ -114,6 +114,53 @@ string
 
 
 
+## programs\.prismnix\.instances\.\<name>\.instance\.copyfiles
+
+
+
+Files to copy into the instance
+
+
+
+*Type:*
+list of (submodule)
+
+
+
+*Default:*
+
+```nix
+[ ]
+```
+
+
+
+## programs\.prismnix\.instances\.\<name>\.instance\.copyfiles\.\*\.source
+
+
+
+Source of the file to copy
+
+
+
+*Type:*
+absolute path
+
+
+
+## programs\.prismnix\.instances\.\<name>\.instance\.copyfiles\.\*\.target
+
+
+
+Target path relative to the instance directory
+
+
+
+*Type:*
+string
+
+
+
 ## programs\.prismnix\.instances\.\<name>\.instance\.filesystem
 
 
@@ -134,6 +181,27 @@ filesystem\.dir
   content = { };
   type = "dir";
 }
+```
+
+
+
+## programs\.prismnix\.instances\.\<name>\.instance\.force
+
+
+
+Whether to force the generation of the files
+
+
+
+*Type:*
+boolean
+
+
+
+*Default:*
+
+```nix
+false
 ```
 
 

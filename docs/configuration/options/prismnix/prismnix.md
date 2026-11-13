@@ -1,6 +1,6 @@
 ## programs\.prismnix\.enable
 
-Whether to enable Enable prismnix\.
+Whether to enable prismnix\.
 
 
 
@@ -41,7 +41,7 @@ null or package
 *Default:*
 
 ```nix
-<derivation prismlauncher-10.0-unstable-2026-06-26>
+pkgs.prismlauncher
 ```
 
 
@@ -71,7 +71,7 @@ attribute set of (submodule)
 
 
 
-Path to prismlauncher directory
+Path to the directory storing PrismLauncher data
 
 
 
@@ -83,7 +83,7 @@ string
 *Default:*
 
 ```nix
-"$XDG_DATA_HOME/PrismLauncher"
+"<prismnix instance dir>"
 ```
 
 

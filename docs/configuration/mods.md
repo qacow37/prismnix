@@ -84,6 +84,10 @@ programs.prismnix.instances."My Instance" = {
 
 Some mods also include a `settings` option
 for configuring the options of the mod itself.
+It is important to note that the `settings` option
+is only guaranteed to work for the latest version of the mod.
+Some mods expose a `settings.rawConfig` option, which
+takes the raw config file data.
 
 You should look in its dedicated Markdown file
 for documentation.

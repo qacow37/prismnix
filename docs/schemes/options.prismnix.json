@@ -32,6 +32,18 @@
                                                 {
                                                     "type": "file",
                                                     "name": "sound-controller"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "yacl"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "malilib"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "fabric-language-kotlin"
                                                 }
                                             ]
                                         },
