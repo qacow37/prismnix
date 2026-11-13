@@ -271,6 +271,11 @@ let
             "file" = "latitude-1.5.3+26.3-neoforge.jar";
             "hash" = "sha512-Mwlr/UH5S+RcqMRUzu47tuwPQ/lEQdvnWyeXV0BPsdG5xZE10SMzBIkIh3lho/n9f0nCLp9Rh0hOILiuLlVdjw==";
         };
+        _lCBggjpL = {
+            "id" = "lCBggjpL";
+            "file" = "latitude-mc1.21.1-1.2.4-beta+1.21.1.jar";
+            "hash" = "sha512-6Jsp7ouCMpv0vVWjdUPqTHGXGNxHENyRxEpllZ/hcK5GXRohnlMCIgw7yt4nyyed6EBxQ53jZC89qFaH36vQww==";
+        };
     in {
         "BmKzqhHT" = _BmKzqhHT;
         "IAsgaH0H" = _IAsgaH0H;
@@ -326,6 +331,7 @@ let
         "SBAjXamK" = _SBAjXamK;
         "cmxbix0p" = _cmxbix0p;
         "KJNQJKAp" = _KJNQJKAp;
+        "lCBggjpL" = _lCBggjpL;
         "fabric-1.21.11" = _pohrthfM;
         "fabric-1.21.1" = _yBL36tTm;
         "fabric-1.20.1" = _thMFH0W0;
@@ -394,6 +400,7 @@ let
         "pkg-1.5.3+26.1-neoforge" = _SBAjXamK;
         "pkg-1.5.3+26.2-neoforge" = _cmxbix0p;
         "pkg-1.5.3+26.3-neoforge" = _KJNQJKAp;
+        "pkg-1.2.4-beta+1.21.1" = _lCBggjpL;
         "default" = _KJNQJKAp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -26,12 +26,18 @@ let
             "file" = "schematic-placer-1.0.4.jar";
             "hash" = "sha512-JnCOZ6gSOezgnbZcInZ4zLjJ68VKbsII3lz1ZSf0umjBZQJdalYMILVPbaMhEZYSUSr5D1r1clJnpLLPr+rxqQ==";
         };
+        _TEBmIKHP = {
+            "id" = "TEBmIKHP";
+            "file" = "schematic-placer-1.0.5.jar";
+            "hash" = "sha512-8bjbFE771ZM0dNS4Gs4Flap4/ADkG2gA3fT+WanRI348KPzH+2/Ogzu9LPsCm9FHg7l176uHo+Wk/J3E6jJyXw==";
+        };
     in {
         "SB1r16zb" = _SB1r16zb;
         "S5FopToz" = _S5FopToz;
         "6pthWRAQ" = _6pthWRAQ;
         "ukFFm3hO" = _ukFFm3hO;
         "esbnGUqT" = _esbnGUqT;
+        "TEBmIKHP" = _TEBmIKHP;
         "fabric-1.21.7" = _6pthWRAQ;
         "fabric-1.21.8" = _6pthWRAQ;
         "fabric-1.21.9" = _6pthWRAQ;
@@ -41,12 +47,14 @@ let
         "fabric-26.1.1" = _ukFFm3hO;
         "fabric-26.1.2" = _ukFFm3hO;
         "fabric-26.2" = _esbnGUqT;
+        "fabric-26.3" = _TEBmIKHP;
         "pkg-1.0.0" = _SB1r16zb;
         "pkg-1.0.1" = _S5FopToz;
         "pkg-1.0.2" = _6pthWRAQ;
         "pkg-1.0.3" = _ukFFm3hO;
         "pkg-1.0.4" = _esbnGUqT;
-        "default" = _esbnGUqT;
+        "pkg-1.0.5" = _TEBmIKHP;
+        "default" = _TEBmIKHP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "schematic-placer";

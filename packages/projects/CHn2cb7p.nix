@@ -66,6 +66,21 @@ let
             "file" = "Easy-freecam-2.0+26.3-quilt.jar";
             "hash" = "sha512-fWACKNsvZtOjL7YgHPCwNMjPvymtarXiJw0iSOiR8OEVcMSLwwXXPlWqwxqNlYvMkS97Yn3oUCOZesxB1Od8qg==";
         };
+        _KWoSHDyT = {
+            "id" = "KWoSHDyT";
+            "file" = "Easy-freecam-3.0+26.3-fabric.jar";
+            "hash" = "sha512-M/Qy7+LmQvwSZIWKMiFp4CdOC2MaYBiYh3KepxJUhzXlQj8P8mEuc3Q4lYlFjc2OTYt6qXVJnJgW21Szi02/OQ==";
+        };
+        _d1QLQhnx = {
+            "id" = "d1QLQhnx";
+            "file" = "Easy-freecam-3.0+26.3-neoforge.jar";
+            "hash" = "sha512-n/tDUfZDZaAQW6RHW8EDpAMSTyDLxAqOB21FgZrkt7C7k9/E8evEFDYAoStZ/WYD4v65HAyEH0bTFtpPmecBhg==";
+        };
+        _2r25CSWk = {
+            "id" = "2r25CSWk";
+            "file" = "Easy-freecam-3.0+26.3-quilt.jar";
+            "hash" = "sha512-ZTdmsHRppaYquh/og798BP3eOJH7S6yZz15cWH4dT5w+VUrxJs8PGDuQQin2X6pi3xSh/VN164X23824RMTZjA==";
+        };
     in {
         "eN8EcQ5Z" = _eN8EcQ5Z;
         "9MHNXpAl" = _9MHNXpAl;
@@ -80,14 +95,17 @@ let
         "sc7peL0n" = _sc7peL0n;
         "yhiVFuOy" = _yhiVFuOy;
         "MAn5pEmN" = _MAn5pEmN;
+        "KWoSHDyT" = _KWoSHDyT;
+        "d1QLQhnx" = _d1QLQhnx;
+        "2r25CSWk" = _2r25CSWk;
         "fabric-1.21.11" = _eN8EcQ5Z;
         "fabric-26.1" = _wvf1NPOF;
         "fabric-26.1.1" = _wWX2zEUB;
         "fabric-26.1.2" = _nmwsbhhz;
         "fabric-26.2" = _gG6J64nB;
-        "fabric-26.3" = _sc7peL0n;
-        "neoforge-26.3" = _yhiVFuOy;
-        "quilt-26.3" = _MAn5pEmN;
+        "fabric-26.3" = _KWoSHDyT;
+        "neoforge-26.3" = _d1QLQhnx;
+        "quilt-26.3" = _2r25CSWk;
         "pkg-1.1+1.21.11" = _eN8EcQ5Z;
         "pkg-1.1+26.1" = _wvf1NPOF;
         "pkg-1.1+26.1.1" = _wWX2zEUB;
@@ -96,7 +114,8 @@ let
         "pkg-2.0+26.1.2" = _nmwsbhhz;
         "pkg-2.0+26.2" = _gG6J64nB;
         "pkg-2.0+26.3" = _MAn5pEmN;
-        "default" = _MAn5pEmN;
+        "pkg-3.0+26.3" = _2r25CSWk;
+        "default" = _2r25CSWk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-freecam";

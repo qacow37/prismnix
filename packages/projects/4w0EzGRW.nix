@@ -286,6 +286,11 @@ let
             "file" = "Companion-1.21.1-NeoForge-6.3.0.jar";
             "hash" = "sha512-vcO50Zw2UDZkBKbE4JWbGc6XWaCGG13wUmLq+a865rDtkx3+YrnPYf4rkvIb2eoyCCJRKvjNJ2Nu3MABCy3cfA==";
         };
+        _VPuxIKXO = {
+            "id" = "VPuxIKXO";
+            "file" = "Companion-1.21.1-Fabric-6.3.0.jar";
+            "hash" = "sha512-iGTTW7BkbLQv7U9wnQjEHM2J2zh5qY1xhtl02Ll052b9Lh/np5+NwzdEuzUyAPHYWj2iqrlKUlbeVTsamAXQtg==";
+        };
     in {
         "ow4aP87c" = _ow4aP87c;
         "nVb4BhsV" = _nVb4BhsV;
@@ -344,6 +349,7 @@ let
         "ZfoZODFg" = _ZfoZODFg;
         "L9xjNE7p" = _L9xjNE7p;
         "PfXPQBGy" = _PfXPQBGy;
+        "VPuxIKXO" = _VPuxIKXO;
         "forge-1.18.2" = _ow4aP87c;
         "forge-1.19.2" = _7NBgz9Ej;
         "forge-1.19.3" = _IsnCKO0T;
@@ -354,13 +360,13 @@ let
         "fabric-1.19.3" = _JoPnlEZo;
         "fabric-1.20" = _gqjOYbM8;
         "fabric-1.20.1" = _h9OKCOHX;
-        "fabric-1.21.1" = _q1lABhXI;
+        "fabric-1.21.1" = _VPuxIKXO;
         "fabric-26.1" = _ZfoZODFg;
         "fabric-26.1.1" = _ZfoZODFg;
         "fabric-26.1.2" = _ZfoZODFg;
         "quilt-1.20" = _gqjOYbM8;
         "quilt-1.20.1" = _h9OKCOHX;
-        "quilt-1.21.1" = _q1lABhXI;
+        "quilt-1.21.1" = _VPuxIKXO;
         "quilt-26.1" = _ZfoZODFg;
         "quilt-26.1.1" = _ZfoZODFg;
         "quilt-26.1.2" = _ZfoZODFg;
@@ -422,7 +428,8 @@ let
         "pkg-26.0.7+fabric" = _ZfoZODFg;
         "pkg-26.0.7+neoforge" = _L9xjNE7p;
         "pkg-6.3.0+neoforge" = _PfXPQBGy;
-        "default" = _PfXPQBGy;
+        "pkg-6.3.0+fabric" = _VPuxIKXO;
+        "default" = _VPuxIKXO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "companion";

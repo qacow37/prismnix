@@ -56,6 +56,11 @@ let
             "file" = "AnnoyingStuffRemover-4.0.0.jar";
             "hash" = "sha512-gPD1EXK6fHvrXMRsa2C3B5nVLdy/IVb+8yD+CQtOUrUru2sg1xjekHbU0TOB8mdGjD+V627n3A8QL6G4qGLmqA==";
         };
+        _nDhFatDc = {
+            "id" = "nDhFatDc";
+            "file" = "AnnoyingStuffRemover-0.2.0-forge.jar";
+            "hash" = "sha512-OjsmfYPgQbReCPMJ6uiQ9k5mLaxvb0xCidoOOemjyjfVld6mJ2ZV5gd+lsu4A82/3zaPqC87Kwe0F+kP8xJE4g==";
+        };
     in {
         "j5wMOqEK" = _j5wMOqEK;
         "2YMLglnN" = _2YMLglnN;
@@ -68,6 +73,7 @@ let
         "8y3XDyuz" = _8y3XDyuz;
         "QNkAWZsi" = _QNkAWZsi;
         "XLtw6ala" = _XLtw6ala;
+        "nDhFatDc" = _nDhFatDc;
         "forge-1.20.1" = _QNkAWZsi;
         "neoforge-1.20.1" = _QNkAWZsi;
         "neoforge-1.21.1" = _8y3XDyuz;
@@ -84,6 +90,7 @@ let
         "pkg-2.2.0" = _8y3XDyuz;
         "pkg-1.1.0" = _QNkAWZsi;
         "pkg-4.0.0" = _XLtw6ala;
+        "pkg-0.2.0" = _nDhFatDc;
         "default" = _XLtw6ala;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

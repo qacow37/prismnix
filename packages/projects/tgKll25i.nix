@@ -121,6 +121,11 @@ let
             "file" = "TrTierListTagger-1.2.jar";
             "hash" = "sha512-UuUgdrYHtTFJF6TSoOnNfMTZ60xUKmQycrdTxRE+nSsGwUrjONaJUkBCjG8V+fENxnUYu4llF+/H8eWxWqg2ew==";
         };
+        _dpvX63d0 = {
+            "id" = "dpvX63d0";
+            "file" = "TrTierListTagger-1.2.jar";
+            "hash" = "sha512-BJZkRnBqblofssMnfqJRxT+HDnfoNRmbBAd637RV06BdpZFeAt4ccpyIy6fw6oRY2YF73vGr8b6fv/kVfvtQ2w==";
+        };
     in {
         "QnOA87ER" = _QnOA87ER;
         "8VH4wQTL" = _8VH4wQTL;
@@ -146,6 +151,7 @@ let
         "6ZwdfXOQ" = _6ZwdfXOQ;
         "oeyfGhUm" = _oeyfGhUm;
         "64rPXhAI" = _64rPXhAI;
+        "dpvX63d0" = _dpvX63d0;
         "fabric-1.20.4" = _RyFgd39X;
         "fabric-1.21.4" = _uQnWxbjj;
         "fabric-1.21.8" = _v6CzlfEP;
@@ -158,11 +164,12 @@ let
         "fabric-1.20.5" = _OpACv4Ya;
         "fabric-1.21.9" = _oeyfGhUm;
         "fabric-1.21.10" = _oeyfGhUm;
-        "fabric-26.2" = _64rPXhAI;
+        "fabric-26.2" = _dpvX63d0;
+        "fabric-26.3" = _dpvX63d0;
         "pkg-1.0" = _mHqGaUTk;
         "pkg-1.1" = _axe7hkKz;
-        "pkg-1.2" = _64rPXhAI;
-        "default" = _64rPXhAI;
+        "pkg-1.2" = _dpvX63d0;
+        "default" = _dpvX63d0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trtierlisttiertagger";

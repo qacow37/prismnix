@@ -241,6 +241,46 @@ let
             "file" = "runeborn-neoforge-26.3-3.0.0.jar";
             "hash" = "sha512-KUx9BTg91xcnaf7F3orU0lJDWHcW60eQQA6CIVgK/SJqRszEl1iYWLiCOtJqd5DyJcOyIIKv4gvZAKYs7Z5YPA==";
         };
+        _C3kyg1HA = {
+            "id" = "C3kyg1HA";
+            "file" = "runeborn-fabric-1.20.1-3.0.1.jar";
+            "hash" = "sha512-lCfP3EpVb2YBgVLbBfYigm3NeWALXcGK/EdBlbmbHLYl6bTftFVgiiZDlmwpRecMnCT4DV//fQHMoja0KNLx/g==";
+        };
+        _28yXWNNJ = {
+            "id" = "28yXWNNJ";
+            "file" = "runeborn-fabric-1.21.1-3.0.1.jar";
+            "hash" = "sha512-aO+ynRg82FBLKxl7pk/F+Exsq8Ss2EosDqo/oOt6F0mebhhSJIPNwxHqNOWx0RuGwUntA+GFdDc8fnLZ43P7vQ==";
+        };
+        _FCLWf9Wh = {
+            "id" = "FCLWf9Wh";
+            "file" = "runeborn-fabric-26.2-3.0.1.jar";
+            "hash" = "sha512-IsFrhV2B9Q7WN0YzBEg5c5WnSTwFzsUsbAlAUuB835NjGnynJ1EoZdJmqzChsNcjmCGd5LbgtBWXUpmedmUuJw==";
+        };
+        _1QmadxNT = {
+            "id" = "1QmadxNT";
+            "file" = "runeborn-fabric-26.3-3.0.1.jar";
+            "hash" = "sha512-YqK2O/Dukzc++4kcUDtvbSVsSQB6bzjvPPxePkWr0IcyP9upy1+/P0OR2fKAvqQlPcEuM6er3ujRpZ8gKqG+mw==";
+        };
+        _UyXNT10l = {
+            "id" = "UyXNT10l";
+            "file" = "runeborn-forge-1.20.1-3.0.1.jar";
+            "hash" = "sha512-MsdtgjKRBETeA4Le4t8X4PGgZqzSYeGF1ODAhd59FCAU6GtWvl2rf0kWBbrpiMcYdZZTBxemkX26Y+/28o/SfQ==";
+        };
+        _gEMJej1g = {
+            "id" = "gEMJej1g";
+            "file" = "runeborn-neoforge-1.21.1-3.0.1.jar";
+            "hash" = "sha512-SScRT2tKhtrSEQVTRxsv/TOsObjvYEyfHPoiXfeUaoOSTzjeQ+CubVuYGfIax0saorFTBd2PoppPVzzjBYAABw==";
+        };
+        _BOLtJzE6 = {
+            "id" = "BOLtJzE6";
+            "file" = "runeborn-neoforge-26.2-3.0.1.jar";
+            "hash" = "sha512-+nRUIiumM1DKIbwplSffPXXLwbWvjM970jhiWpqhF9AUQpFd48R/nZ6Re/m38sJl8cM+Ce8aE5ie8qBL1PRIig==";
+        };
+        _6sdR4FW2 = {
+            "id" = "6sdR4FW2";
+            "file" = "runeborn-neoforge-26.3-3.0.1.jar";
+            "hash" = "sha512-8Cm53SXMg29eqrXT2NzdvCxwqcRqEeeObHQkBP/a4uqhMH/TZ1IdaHq0e5gqlxYwtVms9ssBz9EyaVGIsLIaEw==";
+        };
     in {
         "5DYjOv2n" = _5DYjOv2n;
         "Sj8aMdYT" = _Sj8aMdYT;
@@ -290,16 +330,24 @@ let
         "9IohPC6P" = _9IohPC6P;
         "jNg5Cmu2" = _jNg5Cmu2;
         "1WUa6wA0" = _1WUa6wA0;
-        "forge-1.20.1" = _qdkH9Yw5;
+        "C3kyg1HA" = _C3kyg1HA;
+        "28yXWNNJ" = _28yXWNNJ;
+        "FCLWf9Wh" = _FCLWf9Wh;
+        "1QmadxNT" = _1QmadxNT;
+        "UyXNT10l" = _UyXNT10l;
+        "gEMJej1g" = _gEMJej1g;
+        "BOLtJzE6" = _BOLtJzE6;
+        "6sdR4FW2" = _6sdR4FW2;
+        "forge-1.20.1" = _UyXNT10l;
         "forge-1.19.2" = _jjhEYKya;
         "neoforge-1.20.1" = _DL7FOmEA;
-        "neoforge-1.21.1" = _9IohPC6P;
-        "neoforge-26.2" = _jNg5Cmu2;
-        "neoforge-26.3" = _1WUa6wA0;
-        "fabric-1.20.1" = _2QKqDUrV;
-        "fabric-1.21.1" = _neUsIuXQ;
-        "fabric-26.2" = _D8icTO2e;
-        "fabric-26.3" = _QWYVRIu2;
+        "neoforge-1.21.1" = _gEMJej1g;
+        "neoforge-26.2" = _BOLtJzE6;
+        "neoforge-26.3" = _6sdR4FW2;
+        "fabric-1.20.1" = _C3kyg1HA;
+        "fabric-1.21.1" = _28yXWNNJ;
+        "fabric-26.2" = _FCLWf9Wh;
+        "fabric-26.3" = _1QmadxNT;
         "pkg-0.1.0" = _5DYjOv2n;
         "pkg-1.0.0" = _OveyuwBL;
         "pkg-1.1.0" = _U9t9hVM4;
@@ -328,7 +376,15 @@ let
         "pkg-3.0.0+neoforge-1.21.1" = _9IohPC6P;
         "pkg-3.0.0+neoforge-26.2" = _jNg5Cmu2;
         "pkg-3.0.0+neoforge-26.3" = _1WUa6wA0;
-        "default" = _1WUa6wA0;
+        "pkg-3.0.1+fabric-1.20.1" = _C3kyg1HA;
+        "pkg-3.0.1+fabric-1.21.1" = _28yXWNNJ;
+        "pkg-3.0.1+fabric-26.2" = _FCLWf9Wh;
+        "pkg-3.0.1+fabric-26.3" = _1QmadxNT;
+        "pkg-3.0.1+forge-1.20.1" = _UyXNT10l;
+        "pkg-3.0.1+neoforge-1.21.1" = _gEMJej1g;
+        "pkg-3.0.1+neoforge-26.2" = _BOLtJzE6;
+        "pkg-3.0.1+neoforge-26.3" = _6sdR4FW2;
+        "default" = _6sdR4FW2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fine-tunned-weaponry";

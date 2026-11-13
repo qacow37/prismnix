@@ -46,6 +46,11 @@ let
             "file" = "dirtdeco-1.21.1-1.4.1.jar";
             "hash" = "sha512-T+/cw/Iu1bxnam1V29qONMYNAMC6JHqt1TThMoHK3HSrkwbYXOQ8ua+IUDcZvvVRQ/qgBXdGOtDczezVWZ6usQ==";
         };
+        _nnIPfl98 = {
+            "id" = "nnIPfl98";
+            "file" = "Dirt-Deco-2.0.2-MC26.3-NeoForge.jar";
+            "hash" = "sha512-UVi5jImyo6dwdL/jWCZnS+56yXy/+sZSMVErq0QODhVzXrwHgtsIqgO6OGShOEjivnY7gLaGec2IqBk71AVTeQ==";
+        };
     in {
         "XUUtDlya" = _XUUtDlya;
         "CtTYKQw0" = _CtTYKQw0;
@@ -56,6 +61,7 @@ let
         "cTfem8P6" = _cTfem8P6;
         "PTA9efhH" = _PTA9efhH;
         "ujwGqrJ8" = _ujwGqrJ8;
+        "nnIPfl98" = _nnIPfl98;
         "forge-1.12.2" = _XUUtDlya;
         "forge-1.16.5" = _CtTYKQw0;
         "forge-1.17.1" = _MpTlkJ9v;
@@ -63,6 +69,7 @@ let
         "forge-1.20.1" = _PTA9efhH;
         "fabric-1.16.5" = _dRIVUtNq;
         "neoforge-1.21.1" = _ujwGqrJ8;
+        "neoforge-26.3" = _nnIPfl98;
         "pkg-1.6.7" = _XUUtDlya;
         "pkg-1.0" = _dRIVUtNq;
         "pkg-1.0.1" = _MpTlkJ9v;
@@ -71,7 +78,8 @@ let
         "pkg-1.4.0" = _cTfem8P6;
         "pkg-1.3.1" = _PTA9efhH;
         "pkg-1.21.1" = _ujwGqrJ8;
-        "default" = _ujwGqrJ8;
+        "pkg-2.0.2" = _nnIPfl98;
+        "default" = _nnIPfl98;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dirt-deco";

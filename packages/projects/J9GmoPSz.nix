@@ -76,6 +76,26 @@ let
             "file" = "OceTags-4.0.0+mc26.2.jar";
             "hash" = "sha512-kg5TAzwlYL81cCRdCBJet2fM2BYk9ly5fcxTw3lZteQYmygdYCULcewEUDkRiEc9xU9gRaNl+kwOWg2AGbah2g==";
         };
+        _NO7sJgNy = {
+            "id" = "NO7sJgNy";
+            "file" = "OceTags-5.0.0+mc1.21.11.jar";
+            "hash" = "sha512-tzcQ4xTXE+NzWGVSsrbd5Szqjb6gEgHXswevFhA4WHYrdWSx3ZXyw/yKT8SRfFLToDlqR+mEtKCXPC4KSRE62g==";
+        };
+        _nfeX79xx = {
+            "id" = "nfeX79xx";
+            "file" = "OceTags-5.0.0+mc26.1.2.jar";
+            "hash" = "sha512-TheX3D8yXE2ty3cP07C2oxujbv//aQ+qQRQ20cba6b25gynJxTjn5/3IvrAcp4/llsPPcaIG7s+IS98OmlAzTA==";
+        };
+        _IsylCU9b = {
+            "id" = "IsylCU9b";
+            "file" = "OceTags-5.0.0+mc26.2.jar";
+            "hash" = "sha512-qcdnbwZbfkxnBUR4FkK26O2pkUY2K2YNF3Hw4Vnntmdss33b0jdY9luloIqg/1q5lO/11+kzUg/Gj917ZcG2Gw==";
+        };
+        _b1XBeYrb = {
+            "id" = "b1XBeYrb";
+            "file" = "OceTags-5.0.0+mc26.3.jar";
+            "hash" = "sha512-7Wd8C9QHZGDb19XOTASvt8uDPOcS86+h03xW+FfC8sUEd7ODFJNfP6iPooHxtfhXwfKl5LpBys0qS2sTwsE0Fg==";
+        };
     in {
         "Gty5tTXD" = _Gty5tTXD;
         "KBaWaVnm" = _KBaWaVnm;
@@ -92,11 +112,16 @@ let
         "hQf8p2Ic" = _hQf8p2Ic;
         "rpicNat4" = _rpicNat4;
         "GzxpXZE2" = _GzxpXZE2;
-        "fabric-1.21.11" = _hQf8p2Ic;
-        "fabric-26.1" = _rpicNat4;
-        "fabric-26.1.1" = _rpicNat4;
-        "fabric-26.1.2" = _rpicNat4;
-        "fabric-26.2" = _GzxpXZE2;
+        "NO7sJgNy" = _NO7sJgNy;
+        "nfeX79xx" = _nfeX79xx;
+        "IsylCU9b" = _IsylCU9b;
+        "b1XBeYrb" = _b1XBeYrb;
+        "fabric-1.21.11" = _NO7sJgNy;
+        "fabric-26.1" = _nfeX79xx;
+        "fabric-26.1.1" = _nfeX79xx;
+        "fabric-26.1.2" = _nfeX79xx;
+        "fabric-26.2" = _IsylCU9b;
+        "fabric-26.3" = _b1XBeYrb;
         "pkg-1.0.0" = _Gty5tTXD;
         "pkg-2.0.0" = _KBaWaVnm;
         "pkg-2.1.0-1.21.11" = _V34JTFKx;
@@ -112,7 +137,11 @@ let
         "pkg-4.0.0-1.21.11" = _hQf8p2Ic;
         "pkg-4.0.0-26.1" = _rpicNat4;
         "pkg-4.0.0-26.2" = _GzxpXZE2;
-        "default" = _GzxpXZE2;
+        "pkg-5.0.0-1.21.11" = _NO7sJgNy;
+        "pkg-5.0.0-26.1.2" = _nfeX79xx;
+        "pkg-5.0.0-26.2" = _IsylCU9b;
+        "pkg-5.0.0-26.3" = _b1XBeYrb;
+        "default" = _b1XBeYrb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocetags";

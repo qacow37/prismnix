@@ -446,6 +446,76 @@ let
             "file" = "TunnelCraft-paper-10.1.0-mc26.2.jar";
             "hash" = "sha512-zBEJ66G/hRUkpeAqgaefKJ4JvuuIEa8yM0IYQ+Gu+W3zBZa/0DkK/XP7FTIM1uCBy5cZisN4YpIzMvgSxXPtdw==";
         };
+        _SZYY3gmY = {
+            "id" = "SZYY3gmY";
+            "file" = "TunnelCraft-neoforge-10.1.0-mc1.21.1-bannerfix.jar";
+            "hash" = "sha512-qgQ5DhCF1iK8mdZtuh1Xv+XnHXq6IitVIQrcaXQ/yPdZt1J8VJSaFQ0/6nvjxuNpBmiB4Bo6zX0cV/hsSnmTUQ==";
+        };
+        _tVBgVZoH = {
+            "id" = "tVBgVZoH";
+            "file" = "TunnelCraft-fabric-10.2.0-mc1.21.1.jar";
+            "hash" = "sha512-61wvBq1/BklpSmFvy75D3f2ngQBkqSJTBPX8n7QDlnBawl51WbniLZNsNLd8VNmQZc5d9djEuwW8Tw0/edoolQ==";
+        };
+        _MQJAH8yG = {
+            "id" = "MQJAH8yG";
+            "file" = "TunnelCraft-neoforge-10.2.0-mc1.21.1.jar";
+            "hash" = "sha512-+4fuH5sgfHKLi29v2bqw1OnfOsoYlKSjYKZKtfaoa+qxB99sWYThIjChtymw6Jqjm9pFLTMMVVhrQz8RnH3Ysg==";
+        };
+        _qtL6dFwd = {
+            "id" = "qtL6dFwd";
+            "file" = "TunnelCraft-paper-10.2.0-mc1.21.1.jar";
+            "hash" = "sha512-oe418c0oqsK+Jbx5Ca9WZIHRV3mN4icXjBc4u6fDtyFbh9ZhIVa4oz+U8jZek0Ms3PutYI0OM3qBn7Zqc02ytQ==";
+        };
+        _me36HdgF = {
+            "id" = "me36HdgF";
+            "file" = "TunnelCraft-fabric-10.2.0-mc1.21.11.jar";
+            "hash" = "sha512-KQw4km6PcjL/oTaHVuSmlXGJzsH/FuNFQOrGlOZ9yCojoqohwgpGS8PVhfc1kjN6/sMV4Z/+rXdcO1mGhjQQBw==";
+        };
+        _STijy49r = {
+            "id" = "STijy49r";
+            "file" = "TunnelCraft-neoforge-10.2.0-mc1.21.11.jar";
+            "hash" = "sha512-iqSjwVQyy6cWMCbKo/2fyFjrw/dpKKsgxlklqWkdUrR6zfqA7lGT+gJD+kajCMyldHFBgNLGgoNHaN9lBaK5jA==";
+        };
+        _FSUXG7Xl = {
+            "id" = "FSUXG7Xl";
+            "file" = "TunnelCraft-paper-10.2.0-mc1.21.11.jar";
+            "hash" = "sha512-YxpJ4Q2v5OtgaW9hDOdeIx4NelWK+0N7HHLwBIXI8nbIh3ro/UkcOiBgW85nwC7X7ru3P+inZO+OrH/OR++S1w==";
+        };
+        _HCzt6RUG = {
+            "id" = "HCzt6RUG";
+            "file" = "TunnelCraft-fabric-10.2.0-mc26.1.1.jar";
+            "hash" = "sha512-RAeQqJDZvg1YdV+BABUvy5ITVpuA3cocnMogym15pHszz5bgMEiNeXsqZyJprTBLbUr9bJc+lUWT87VmXxVN1A==";
+        };
+        _8c2jn6gn = {
+            "id" = "8c2jn6gn";
+            "file" = "TunnelCraft-neoforge-10.2.0-mc26.1.1.jar";
+            "hash" = "sha512-iHoImuW6dDFdeEUNahujEbok71EhwYlBPC8SuvZvHq7IENbZgiOBU3clAUqZ2kP+GlNQKHGN698zAUNUKirz0g==";
+        };
+        _ap0ZgP5M = {
+            "id" = "ap0ZgP5M";
+            "file" = "TunnelCraft-paper-10.2.0-mc26.1.1.jar";
+            "hash" = "sha512-p1yd+Xdrw/5uoDMH11oWZj/ImH3lPN28C5OCmZU1hn4xpGkKbv8A2QEo45hW2lWgxuqdXQ8Sb4mM/PrDkzUo2w==";
+        };
+        _VrbpwSpZ = {
+            "id" = "VrbpwSpZ";
+            "file" = "TunnelCraft-fabric-10.2.0-mc26.1.2.jar";
+            "hash" = "sha512-aEBmruj0dasN3DAHSUlOfnK41y76SPERlpTtwTtXUYHkYfOkZuTEq5x9A+NPUhgUfIKdZBXH8AKiN47xMwgENQ==";
+        };
+        _ccnHdI4I = {
+            "id" = "ccnHdI4I";
+            "file" = "TunnelCraft-neoforge-10.2.0-mc26.1.2.jar";
+            "hash" = "sha512-5BeFhhMPq0Z9QMfsTbN6bBf0po8dJODqCxhtPN7yj8w1jW4p4+0xJCVQan0yRU7sDZXUgY5lU4Kj0iTRWYmL3g==";
+        };
+        _INFyneeT = {
+            "id" = "INFyneeT";
+            "file" = "TunnelCraft-fabric-10.2.0-mc26.2.jar";
+            "hash" = "sha512-cqJcNAhouu8g0Ghcow+QCOnPpN3ayFuDecTQ72eJJXLmRJ88715KexvEBi1DoOq1CzxGzgUat/FUpaD7c05nzA==";
+        };
+        _bwM6GHa9 = {
+            "id" = "bwM6GHa9";
+            "file" = "TunnelCraft-neoforge-10.2.0-mc26.2.jar";
+            "hash" = "sha512-XogUXXMUI5eRv89yaWLg6vBxoaJyQMxk4dTJfo2hf3tSJDk/Eho6miw/iGAXwoqLsCY6XmJjD4acY8gs62JdpQ==";
+        };
     in {
         "LPajabRq" = _LPajabRq;
         "q32VOULi" = _q32VOULi;
@@ -536,19 +606,33 @@ let
         "1jnRYL0B" = _1jnRYL0B;
         "4RVZP3eK" = _4RVZP3eK;
         "ccdbDvTo" = _ccdbDvTo;
-        "neoforge-1.21.1" = _177Rlkin;
+        "SZYY3gmY" = _SZYY3gmY;
+        "tVBgVZoH" = _tVBgVZoH;
+        "MQJAH8yG" = _MQJAH8yG;
+        "qtL6dFwd" = _qtL6dFwd;
+        "me36HdgF" = _me36HdgF;
+        "STijy49r" = _STijy49r;
+        "FSUXG7Xl" = _FSUXG7Xl;
+        "HCzt6RUG" = _HCzt6RUG;
+        "8c2jn6gn" = _8c2jn6gn;
+        "ap0ZgP5M" = _ap0ZgP5M;
+        "VrbpwSpZ" = _VrbpwSpZ;
+        "ccnHdI4I" = _ccnHdI4I;
+        "INFyneeT" = _INFyneeT;
+        "bwM6GHa9" = _bwM6GHa9;
+        "neoforge-1.21.1" = _MQJAH8yG;
         "neoforge-1.21.10" = _elUsfv3y;
-        "neoforge-1.21.11" = _Z7P1Skak;
-        "neoforge-26.1.1" = _ThHURsCf;
-        "neoforge-26.1.2" = _6Iwrf0Bf;
-        "neoforge-26.2" = _JR3xhttU;
-        "fabric-1.21.1" = _YCbpzSVm;
+        "neoforge-1.21.11" = _STijy49r;
+        "neoforge-26.1.1" = _8c2jn6gn;
+        "neoforge-26.1.2" = _ccnHdI4I;
+        "neoforge-26.2" = _bwM6GHa9;
+        "fabric-1.21.1" = _tVBgVZoH;
         "fabric-1.21.10" = _NfA07ldw;
-        "fabric-1.21.11" = _bviMov1V;
+        "fabric-1.21.11" = _me36HdgF;
         "fabric-26.1" = _vtwbLAEA;
-        "fabric-26.1.1" = _hneWpdzK;
-        "fabric-26.1.2" = _jemuohg9;
-        "fabric-26.2" = _J3Td3wEn;
+        "fabric-26.1.1" = _HCzt6RUG;
+        "fabric-26.1.2" = _VrbpwSpZ;
+        "fabric-26.2" = _INFyneeT;
         "bukkit-1.21.1" = _YNMwozw6;
         "bukkit-1.21" = _YNMwozw6;
         "bukkit-1.21.2" = _YNMwozw6;
@@ -563,7 +647,7 @@ let
         "bukkit-1.21.11" = _YNMwozw6;
         "bukkit-26.1.1" = _Zivz3PaS;
         "bukkit-26.1.2" = _gd50KJHS;
-        "paper-1.21.1" = _yXPQtYRq;
+        "paper-1.21.1" = _qtL6dFwd;
         "paper-1.21" = _YNMwozw6;
         "paper-1.21.2" = _YNMwozw6;
         "paper-1.21.3" = _YNMwozw6;
@@ -574,10 +658,10 @@ let
         "paper-1.21.8" = _YNMwozw6;
         "paper-1.21.9" = _YNMwozw6;
         "paper-1.21.10" = _YNMwozw6;
-        "paper-1.21.11" = _5UuWDu56;
-        "paper-26.1.1" = _1jnRYL0B;
-        "paper-26.1.2" = _4RVZP3eK;
-        "paper-26.2" = _ccdbDvTo;
+        "paper-1.21.11" = _FSUXG7Xl;
+        "paper-26.1.1" = _ap0ZgP5M;
+        "paper-26.1.2" = _ap0ZgP5M;
+        "paper-26.2" = _ap0ZgP5M;
         "spigot-1.21.1" = _YNMwozw6;
         "spigot-1.21" = _YNMwozw6;
         "spigot-1.21.2" = _YNMwozw6;
@@ -641,7 +725,9 @@ let
         "pkg-9.0.0" = _y4ScaLnw;
         "pkg-10.0.1" = _PBBKEswz;
         "pkg-10.1.0" = _ccdbDvTo;
-        "default" = _ccdbDvTo;
+        "pkg-10.1.0-bannerfix.1" = _SZYY3gmY;
+        "pkg-10.2.0" = _bwM6GHa9;
+        "default" = _bwM6GHa9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tunnelcraft";

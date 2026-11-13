@@ -161,6 +161,26 @@ let
             "file" = "oc2-MC1.21.11-neoforge-0.12.0+9de0af5.jar";
             "hash" = "sha512-ccVjhGobx9DNDxY5rZBZiEcBQ/lli1hfX/0MgohJDSY3C0bMPd9VIiVv/DGiuVAZrOkUXiC1zoH3331orGliGA==";
         };
+        _b84slHxs = {
+            "id" = "b84slHxs";
+            "file" = "oc2-MC1.21.1-fabric-0.12.1+d672c55.jar";
+            "hash" = "sha512-y+L0MICbw6G24yGUb5ZcxhZamYuOsBG4dgPC4E2ETTf6vSmRyXaR2NLXyseCpfjvt3JPR69tKdNogw0XAfE/Tg==";
+        };
+        _k4kCG0NG = {
+            "id" = "k4kCG0NG";
+            "file" = "oc2-MC1.21.1-neoforge-0.12.1+d672c55.jar";
+            "hash" = "sha512-8lqDa+FiocT2NVnM7jfvPlsWzJLCVr8Xd/hcJQ5bRztDBmX4vq0eWhVifN5Pipo2I1Is7LzPixuqEcvlHC31qQ==";
+        };
+        _93w0L3IJ = {
+            "id" = "93w0L3IJ";
+            "file" = "oc2-MC1.21.11-neoforge-0.12.1+396009e.jar";
+            "hash" = "sha512-sVeJNbJdIW072rz22UVJ+fO8n10TAbEo4pkqGeP+Zx8XkjzmlJAoXFA0gd5XhTdm4NF0jvmrbjeQOSntd6RSRA==";
+        };
+        _vfSvAney = {
+            "id" = "vfSvAney";
+            "file" = "oc2-MC1.21.11-fabric-0.12.1+396009e.jar";
+            "hash" = "sha512-AyJDFkuzQuLt4ct6CPi6DZI7RsyZcI8vEWBHWbfQBlyRmod3/hf3xMPifdmkaJjImDXXwKFBSrgZppSx+Mzsog==";
+        };
     in {
         "rGTLC0x4" = _rGTLC0x4;
         "H79EdQcV" = _H79EdQcV;
@@ -194,10 +214,14 @@ let
         "xgmrBsM6" = _xgmrBsM6;
         "xFyTfhCQ" = _xFyTfhCQ;
         "B5oMX4DK" = _B5oMX4DK;
-        "neoforge-1.21.1" = _xgmrBsM6;
-        "neoforge-1.21.11" = _B5oMX4DK;
-        "fabric-1.21.1" = _YvUzltYo;
-        "fabric-1.21.11" = _xFyTfhCQ;
+        "b84slHxs" = _b84slHxs;
+        "k4kCG0NG" = _k4kCG0NG;
+        "93w0L3IJ" = _93w0L3IJ;
+        "vfSvAney" = _vfSvAney;
+        "neoforge-1.21.1" = _k4kCG0NG;
+        "neoforge-1.21.11" = _93w0L3IJ;
+        "fabric-1.21.1" = _b84slHxs;
+        "fabric-1.21.11" = _vfSvAney;
         "pkg-MC1.21.1-neoforge-0.3.0" = _rGTLC0x4;
         "pkg-MC1.21.1-fabric-0.3.0" = _H79EdQcV;
         "pkg-MC1.21.1-fabric-0.4.0" = _wancfAtj;
@@ -230,7 +254,11 @@ let
         "pkg-MC1.21.1-neoforge-0.12.0" = _xgmrBsM6;
         "pkg-MC1.21.11-fabric-0.12.0" = _xFyTfhCQ;
         "pkg-MC1.21.11-neoforge-0.12.0" = _B5oMX4DK;
-        "default" = _B5oMX4DK;
+        "pkg-MC1.21.1-fabric-0.12.1" = _b84slHxs;
+        "pkg-MC1.21.1-neoforge-0.12.1" = _k4kCG0NG;
+        "pkg-MC1.21.11-neoforge-0.12.1" = _93w0L3IJ;
+        "pkg-MC1.21.11-fabric-0.12.1" = _vfSvAney;
+        "default" = _vfSvAney;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opencomputers-ii";

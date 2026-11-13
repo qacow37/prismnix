@@ -26,19 +26,26 @@ let
             "file" = "miningz-1.0.4.jar";
             "hash" = "sha512-epamk1Kw1+18vlavEONnjaCJ2W/mhOrse9uKui1Ra19SmVcQsoWwUrtBfefR6m6u4l1l26VV3TXrUnUshK4t1Q==";
         };
+        _U2oWFti1 = {
+            "id" = "U2oWFti1";
+            "file" = "miningz-1.0.5.jar";
+            "hash" = "sha512-6LOMfm/2cYxM1ETPOsw5yM2mphPyc4FAB7Ps2c3WF16BPVckELKselQXngCkFvl8AQmBpDuRUmrnr0tMLNOUGA==";
+        };
     in {
         "Fn4wfhUz" = _Fn4wfhUz;
         "3YT9ol8q" = _3YT9ol8q;
         "W9rwEITN" = _W9rwEITN;
         "kg7xQi7e" = _kg7xQi7e;
         "6WJEK8ln" = _6WJEK8ln;
-        "fabric-1.21.1" = _6WJEK8ln;
+        "U2oWFti1" = _U2oWFti1;
+        "fabric-1.21.1" = _U2oWFti1;
         "pkg-1.0.0" = _Fn4wfhUz;
         "pkg-1.0.1" = _3YT9ol8q;
         "pkg-1.0.2+1.21.1" = _W9rwEITN;
         "pkg-1.0.3+1.21.1" = _kg7xQi7e;
         "pkg-1.0.4+1.21.1" = _6WJEK8ln;
-        "default" = _6WJEK8ln;
+        "pkg-1.0.5+1.21.1" = _U2oWFti1;
+        "default" = _U2oWFti1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "miningz";

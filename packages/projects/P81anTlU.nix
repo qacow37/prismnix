@@ -121,6 +121,11 @@ let
             "file" = "UltimateStrengthSMP-6.1.0-26.x.jar";
             "hash" = "sha512-fws9KTE8l2/9WvYem/h5ksfmD9khxxE0dlDfT1AbZ8CChJN3eN1YuYvNGL8nZnc6mqO687xWRMkc2YyE6rQE1w==";
         };
+        _2pjtoWMb = {
+            "id" = "2pjtoWMb";
+            "file" = "UltimateStrengthSMP-6.2.0-26.x.jar";
+            "hash" = "sha512-vaRUTs3xb7i50iS19zt2aZEI+Z6IYfS0uvZg5WCPzw5tuA7N33BhiVhT1kntH7Awd/IvmYMu5wH7GZljZAQSjQ==";
+        };
     in {
         "tHg5zm0D" = _tHg5zm0D;
         "A0dteIwH" = _A0dteIwH;
@@ -146,6 +151,7 @@ let
         "X6GIvDVs" = _X6GIvDVs;
         "46DXXwAR" = _46DXXwAR;
         "rWXUeILu" = _rWXUeILu;
+        "2pjtoWMb" = _2pjtoWMb;
         "paper-1.21.1" = _46DXXwAR;
         "paper-1.21.2" = _46DXXwAR;
         "paper-1.21.3" = _46DXXwAR;
@@ -158,11 +164,11 @@ let
         "paper-1.21.10" = _46DXXwAR;
         "paper-1.21.11" = _46DXXwAR;
         "paper-1.21" = _46DXXwAR;
-        "paper-26.1" = _rWXUeILu;
-        "paper-26.1.1" = _rWXUeILu;
-        "paper-26.1.2" = _rWXUeILu;
-        "paper-26.2" = _rWXUeILu;
-        "paper-26.3" = _rWXUeILu;
+        "paper-26.1" = _2pjtoWMb;
+        "paper-26.1.1" = _2pjtoWMb;
+        "paper-26.1.2" = _2pjtoWMb;
+        "paper-26.2" = _2pjtoWMb;
+        "paper-26.3" = _2pjtoWMb;
         "folia-1.21" = _46DXXwAR;
         "folia-1.21.1" = _46DXXwAR;
         "folia-1.21.2" = _46DXXwAR;
@@ -175,11 +181,11 @@ let
         "folia-1.21.9" = _46DXXwAR;
         "folia-1.21.10" = _46DXXwAR;
         "folia-1.21.11" = _46DXXwAR;
-        "folia-26.1" = _rWXUeILu;
-        "folia-26.1.1" = _rWXUeILu;
-        "folia-26.1.2" = _rWXUeILu;
-        "folia-26.2" = _rWXUeILu;
-        "folia-26.3" = _rWXUeILu;
+        "folia-26.1" = _2pjtoWMb;
+        "folia-26.1.1" = _2pjtoWMb;
+        "folia-26.1.2" = _2pjtoWMb;
+        "folia-26.2" = _2pjtoWMb;
+        "folia-26.3" = _2pjtoWMb;
         "purpur-1.21" = _46DXXwAR;
         "purpur-1.21.1" = _46DXXwAR;
         "purpur-1.21.2" = _46DXXwAR;
@@ -192,11 +198,11 @@ let
         "purpur-1.21.9" = _46DXXwAR;
         "purpur-1.21.10" = _46DXXwAR;
         "purpur-1.21.11" = _46DXXwAR;
-        "purpur-26.1" = _rWXUeILu;
-        "purpur-26.1.1" = _rWXUeILu;
-        "purpur-26.1.2" = _rWXUeILu;
-        "purpur-26.2" = _rWXUeILu;
-        "purpur-26.3" = _rWXUeILu;
+        "purpur-26.1" = _2pjtoWMb;
+        "purpur-26.1.1" = _2pjtoWMb;
+        "purpur-26.1.2" = _2pjtoWMb;
+        "purpur-26.2" = _2pjtoWMb;
+        "purpur-26.3" = _2pjtoWMb;
         "pkg-1.0.0" = _tHg5zm0D;
         "pkg-1.7.0" = _A0dteIwH;
         "pkg-2.0.0" = _Gp6jTF6k;
@@ -214,7 +220,8 @@ let
         "pkg-5.9.0" = _x0BWdwfn;
         "pkg-6.0.0" = _X6GIvDVs;
         "pkg-6.1.0" = _rWXUeILu;
-        "default" = _rWXUeILu;
+        "pkg-6.2.0" = _2pjtoWMb;
+        "default" = _2pjtoWMb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimatestrengthsmp";

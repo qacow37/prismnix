@@ -321,6 +321,11 @@ let
             "file" = "pehkui-rebuilt-fabric-3.9.0+26.4-snapshot-7.jar";
             "hash" = "sha512-E4oP/wDh0421/fAe+VaLfx0TQCfxmaPXNmCzkCVt1xVv6Mf3mdDDMdrcIfwuYZWRWZEVm73DnM4a8P9sN5efpg==";
         };
+        _wwuMecOO = {
+            "id" = "wwuMecOO";
+            "file" = "pehkui-rebuilt-fabric-3.9.0+26.4-snapshot-8.jar";
+            "hash" = "sha512-KV3xYULIS/mJmujd5kLUpZBnCKrylnq9a1oJ9PGs3BLMcg5wvESPEUTzAbMKs2I8IjWbhwfh2XYKfgVAsFL/KQ==";
+        };
     in {
         "8jAPmdu0" = _8jAPmdu0;
         "ZvqEKuNn" = _ZvqEKuNn;
@@ -386,6 +391,7 @@ let
         "pQdozoO0" = _pQdozoO0;
         "6PtqvB7i" = _6PtqvB7i;
         "73JAmdzk" = _73JAmdzk;
+        "wwuMecOO" = _wwuMecOO;
         "fabric-1.21.1" = _G1SwMCtV;
         "fabric-1.21.2" = _eYjpf8Om;
         "fabric-1.21.3" = _eYjpf8Om;
@@ -405,6 +411,7 @@ let
         "fabric-26.3" = _jC24bGUG;
         "fabric-26.4-snapshot-6" = _6PtqvB7i;
         "fabric-26.4-snapshot-7" = _73JAmdzk;
+        "fabric-26.4-snapshot-8" = _wwuMecOO;
         "neoforge-1.21" = _pQdozoO0;
         "neoforge-1.21.1" = _pQdozoO0;
         "neoforge-1.21.2" = _dDZolaKH;
@@ -472,7 +479,8 @@ let
         "pkg-3.9.2+1.21.1" = _pQdozoO0;
         "pkg-3.9.0+26.4-snapshot-6" = _6PtqvB7i;
         "pkg-3.9.0+26.4-snapshot-7" = _73JAmdzk;
-        "default" = _73JAmdzk;
+        "pkg-3.9.0+26.4-snapshot-8" = _wwuMecOO;
+        "default" = _wwuMecOO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pehkui-rebuilt";

@@ -776,6 +776,21 @@ let
             "file" = "enhancedbiomesmusic-forge-2.2.1-hotfix+1.20.1.jar";
             "hash" = "sha512-2A5lyWHEtPkGe1y9QuoatMiyhNezF9AuwDSFgb5x9Ixg57+ih4houSBWAqzxpjP/Qr5GSlmehNhNdWx3744aJg==";
         };
+        _8TuTaICI = {
+            "id" = "8TuTaICI";
+            "file" = "enhancedbiomesmusic-fabric-2.2.5+26.3.jar";
+            "hash" = "sha512-aBw+ki+sKo23lPPKhLHvNZjLbLR1f5uZ+WSVvGTD7buH6PoL1f8V1NTbyXDYccn/EigamEWoZpe06t1JWFqSmw==";
+        };
+        _nuiIKyFM = {
+            "id" = "nuiIKyFM";
+            "file" = "enhancedbiomesmusic-fabric-2.2.5+26.2.jar";
+            "hash" = "sha512-n4ruW2YFfayjzUOYYq0Dip1D4D1h94KydpqphmD44cm/f0700Q74n9x7U21rhpeWqDaovTfhLIXzFwCn/0Q46w==";
+        };
+        _4CRpf7r3 = {
+            "id" = "4CRpf7r3";
+            "file" = "enhancedbiomesmusic-fabric-2.2.4+26.1-26.1.2.jar";
+            "hash" = "sha512-1Ea7PGcQ4q7PwUppzjj3j7oGGL8b1pND9om8L/BPpfnQD/Mv//EeL1nFJA5HDBKWsPvbp+uw8u3A3yLyRPJk8A==";
+        };
     in {
         "HCucmSgI" = _HCucmSgI;
         "kS0X0fjc" = _kS0X0fjc;
@@ -932,9 +947,12 @@ let
         "1li4EE0B" = _1li4EE0B;
         "h9dm65fN" = _h9dm65fN;
         "2JYXIxHv" = _2JYXIxHv;
-        "fabric-26.1" = _l9eFYrIU;
-        "fabric-26.1.1" = _l9eFYrIU;
-        "fabric-26.1.2" = _l9eFYrIU;
+        "8TuTaICI" = _8TuTaICI;
+        "nuiIKyFM" = _nuiIKyFM;
+        "4CRpf7r3" = _4CRpf7r3;
+        "fabric-26.1" = _4CRpf7r3;
+        "fabric-26.1.1" = _4CRpf7r3;
+        "fabric-26.1.2" = _4CRpf7r3;
         "fabric-1.21.4" = _lwEVlYeS;
         "fabric-1.21.5" = _wDm5579U;
         "fabric-1.21.6" = _zho4Zzt9;
@@ -955,14 +973,14 @@ let
         "fabric-1.20.5" = _wQ9xq1V0;
         "fabric-1.20.6" = _wQ9xq1V0;
         "fabric-26.2-rc-2" = _HjsWF8nJ;
-        "fabric-26.2" = _B8w0NSX0;
+        "fabric-26.2" = _nuiIKyFM;
         "fabric-1.19" = _MF7iBUI6;
         "fabric-1.19.1" = _MF7iBUI6;
         "fabric-1.19.2" = _MF7iBUI6;
         "fabric-1.18.2" = _VCHOdPzF;
         "fabric-1.19.3" = _AM507BQB;
         "fabric-1.19.4" = _YGifazyX;
-        "fabric-26.3" = _1li4EE0B;
+        "fabric-26.3" = _8TuTaICI;
         "neoforge-26.1" = _iCY3sLmj;
         "neoforge-26.1.1" = _iCY3sLmj;
         "neoforge-26.1.2" = _iCY3sLmj;
@@ -999,10 +1017,10 @@ let
         "forge-26.1" = _SPYdM51c;
         "forge-26.1.1" = _SPYdM51c;
         "forge-26.1.2" = _SPYdM51c;
-        "quilt-26.2" = _B8w0NSX0;
-        "quilt-26.1" = _l9eFYrIU;
-        "quilt-26.1.1" = _l9eFYrIU;
-        "quilt-26.1.2" = _l9eFYrIU;
+        "quilt-26.2" = _nuiIKyFM;
+        "quilt-26.1" = _4CRpf7r3;
+        "quilt-26.1.1" = _4CRpf7r3;
+        "quilt-26.1.2" = _4CRpf7r3;
         "quilt-1.21.11" = _aE1o7JOm;
         "quilt-1.21.6" = _zho4Zzt9;
         "quilt-1.21.7" = _zho4Zzt9;
@@ -1028,7 +1046,7 @@ let
         "quilt-1.18.2" = _VCHOdPzF;
         "quilt-1.19.3" = _AM507BQB;
         "quilt-1.19.4" = _YGifazyX;
-        "quilt-26.3" = _1li4EE0B;
+        "quilt-26.3" = _8TuTaICI;
         "pkg-1.0.0" = _fcYUJ0u9;
         "pkg-1.0.1" = _jCMqIevy;
         "pkg-1.0.2" = _jOpkhf7T;
@@ -1044,7 +1062,9 @@ let
         "pkg-2.2.2" = _l9eFYrIU;
         "pkg-2.2.3" = _VCHOdPzF;
         "pkg-2.2.1-hotfix" = _2JYXIxHv;
-        "default" = _2JYXIxHv;
+        "pkg-2.2.5" = _nuiIKyFM;
+        "pkg-2.2.4" = _4CRpf7r3;
+        "default" = _4CRpf7r3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhancedbiomemusic";

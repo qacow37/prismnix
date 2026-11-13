@@ -31,6 +31,11 @@ let
             "file" = "AL's Spiders Revamped 2.0.zip";
             "hash" = "sha512-3TKXMPmQMCA/VZouWfzzcAc+Ajn0/NEp6cRHiBK1xobnODPCR96uI1qCn5NROv8MZyTEHmOUNz7psRA+FyVEwQ==";
         };
+        _DEiPIM3e = {
+            "id" = "DEiPIM3e";
+            "file" = "AL's Spiders Revamped 2.0.1.zip";
+            "hash" = "sha512-mIzeGnfnSwSlz02KPNf7XpnX7D9wO3rIVy/DIMRQt08/+wpg0MFC1tqZ1vNu+iQwVI1Ze1V0gcGBC6NH7owyMA==";
+        };
     in {
         "kMAGvPH5" = _kMAGvPH5;
         "izMqEDtm" = _izMqEDtm;
@@ -38,6 +43,7 @@ let
         "K1WLgL4F" = _K1WLgL4F;
         "IGRupwHC" = _IGRupwHC;
         "lbBPuTtk" = _lbBPuTtk;
+        "DEiPIM3e" = _DEiPIM3e;
         "minecraft-1.20.6" = _kMAGvPH5;
         "minecraft-1.21" = _kMAGvPH5;
         "minecraft-1.21.1" = _kMAGvPH5;
@@ -48,17 +54,19 @@ let
         "minecraft-1.21.9" = _lbBPuTtk;
         "minecraft-1.21.10" = _lbBPuTtk;
         "minecraft-1.21.11" = _lbBPuTtk;
-        "minecraft-26.1" = _lbBPuTtk;
-        "minecraft-26.1.1" = _lbBPuTtk;
-        "minecraft-26.1.2" = _lbBPuTtk;
-        "minecraft-26.2" = _lbBPuTtk;
+        "minecraft-26.1" = _DEiPIM3e;
+        "minecraft-26.1.1" = _DEiPIM3e;
+        "minecraft-26.1.2" = _DEiPIM3e;
+        "minecraft-26.2" = _DEiPIM3e;
+        "minecraft-26.3" = _DEiPIM3e;
         "pkg-1.3" = _kMAGvPH5;
         "pkg-1.4" = _izMqEDtm;
         "pkg-1.4.1" = _g7zC4DNB;
         "pkg-1.4.2" = _K1WLgL4F;
         "pkg-1.5" = _IGRupwHC;
         "pkg-2.0" = _lbBPuTtk;
-        "default" = _lbBPuTtk;
+        "pkg-2.0.1" = _DEiPIM3e;
+        "default" = _DEiPIM3e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "als-spiders-revamped";

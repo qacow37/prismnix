@@ -146,6 +146,11 @@ let
             "file" = "enderio_conduit_opt-1.0.2-26.1.2.jar";
             "hash" = "sha512-6VjP2rtfKyUhBIKcnWGEkzkOrAbjIAHIs0RSpgKrDyDEv7JT8I3fT1k7/9dQcJJUvLbcb9syR1tFMA/pnS9ZRg==";
         };
+        _r86xhg9h = {
+            "id" = "r86xhg9h";
+            "file" = "enderio_conduit_opt-1.1.7-1.21.1.jar";
+            "hash" = "sha512-YJ1QzxON9bMfAYsspA/b3qL6gp9snCU97MReXO7HirMi8GalQ0RLopH1ewISutsnb0r6ecXCi7slHOFpPw3cHQ==";
+        };
     in {
         "CMIbDlR3" = _CMIbDlR3;
         "I8tHFzlT" = _I8tHFzlT;
@@ -176,7 +181,8 @@ let
         "ev9XSrpE" = _ev9XSrpE;
         "fKgk9PzO" = _fKgk9PzO;
         "VVSdP5Ty" = _VVSdP5Ty;
-        "neoforge-1.21.1" = _ywdy6tkv;
+        "r86xhg9h" = _r86xhg9h;
+        "neoforge-1.21.1" = _r86xhg9h;
         "neoforge-26.1.2" = _VVSdP5Ty;
         "forge-1.20.1" = _fKgk9PzO;
         "forge-1.12.2" = _X7hBP7po;
@@ -209,7 +215,8 @@ let
         "pkg-1.0.1-26.1.2" = _ev9XSrpE;
         "pkg-1.0.7-1.20.1" = _fKgk9PzO;
         "pkg-1.0.2-26.1.2" = _VVSdP5Ty;
-        "default" = _VVSdP5Ty;
+        "pkg-1.1.7-1.21.1" = _r86xhg9h;
+        "default" = _r86xhg9h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-io-conduit-optimizer";

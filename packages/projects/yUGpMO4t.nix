@@ -351,6 +351,11 @@ let
             "file" = "NeoGGTU-1.2.2+mc26.3.jar";
             "hash" = "sha512-pWpmrUYswyPJXVGGKhtbIRb+2+zgaxe5j3ge5kC9B1+WlAHLIHwiXLMCSeKqlcMfyryXqSLtSclG3wEqkdDgHA==";
         };
+        _S0XiSczE = {
+            "id" = "S0XiSczE";
+            "file" = "NeoForgeGGTU-1.2.2+mc26.3.jar";
+            "hash" = "sha512-ZpQz7OUNaxOXzSkhFcJ9vwsFGFQvhxE71cPZuTtyOqdWkO0pDKcd/qr2z1SWIX3zkj80noazfdYlc6XZf8eGIQ==";
+        };
     in {
         "VOSoEEDk" = _VOSoEEDk;
         "3j1ZrFf0" = _3j1ZrFf0;
@@ -422,6 +427,7 @@ let
         "Pkb38RAG" = _Pkb38RAG;
         "wuCTa9uR" = _wuCTa9uR;
         "c0fB8fPx" = _c0fB8fPx;
+        "S0XiSczE" = _S0XiSczE;
         "fabric-1.21.11" = _IqhYVngC;
         "fabric-26.1.2" = _qyZtyY6B;
         "fabric-26.2" = _wuCTa9uR;
@@ -434,6 +440,7 @@ let
         "fabric-26.1" = _qyZtyY6B;
         "forge-1.20.1" = _nD9DUXv1;
         "neoforge-1.21.1" = _Pkb38RAG;
+        "neoforge-26.3" = _S0XiSczE;
         "pkg-2.0.0" = _VOSoEEDk;
         "pkg-2.0.2" = _3j1ZrFf0;
         "pkg-2.0.3" = _EB1Rogmm;
@@ -501,7 +508,8 @@ let
         "pkg-NeoForge-1.2.2+mc1.21.1" = _Pkb38RAG;
         "pkg-Neo-1.2.2+mc26.2" = _wuCTa9uR;
         "pkg-Neo-1.2.2+mc26.3" = _c0fB8fPx;
-        "default" = _c0fB8fPx;
+        "pkg-NeoForge-1.2.2+mc26.3" = _S0XiSczE;
+        "default" = _S0XiSczE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ggtu";

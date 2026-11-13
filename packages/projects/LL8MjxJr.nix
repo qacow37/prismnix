@@ -31,6 +31,21 @@ let
             "file" = "origins-1.11.10.1.jar";
             "hash" = "sha512-JNHCs893dVfeRE/cIcwMLwLBolNbXKbYTttxvVOLeAh0vr+in9xfqcHv8Gy05zGoTBgF1kyPoke+fGrMhstjgA==";
         };
+        _Y4XZsRFc = {
+            "id" = "Y4XZsRFc";
+            "file" = "origins-1.11.10.1.jar";
+            "hash" = "sha512-K2Y6NVkNT+4ND0wl6EX0HbaSU7uUK5sPXNSyOGcaRbpkOYsGFSLPoBhJBol/SMv41vi5zXIMLeHKI2T6tECSEg==";
+        };
+        _HXzhfhOh = {
+            "id" = "HXzhfhOh";
+            "file" = "origins-1.11.10.1.jar";
+            "hash" = "sha512-8dsJSX3oONDxCqItOIkJhj5UecQCWxEn18LCLYNQKVpgRfM4nPAyYX4RWoH+BNtCuX+gqDI/jV4wzk43eYTbOw==";
+        };
+        _qRGESfB6 = {
+            "id" = "qRGESfB6";
+            "file" = "origins-1.11.10.1.jar";
+            "hash" = "sha512-Bp3XKjLIT8o+0bWN82nZJIwXuhnG33hPOkUM7MqDjdVpAPgCBmi1pTcvwYPc8ghPSOZJ6yu4ONtBbIt/2G/n2Q==";
+        };
     in {
         "gutMsKRD" = _gutMsKRD;
         "xPUoLG6J" = _xPUoLG6J;
@@ -38,13 +53,19 @@ let
         "wCKzacsq" = _wCKzacsq;
         "SWPQurZT" = _SWPQurZT;
         "U0gHSmVL" = _U0gHSmVL;
+        "Y4XZsRFc" = _Y4XZsRFc;
+        "HXzhfhOh" = _HXzhfhOh;
+        "qRGESfB6" = _qRGESfB6;
         "neoforge-1.21.1" = _U0gHSmVL;
+        "neoforge-1.21.4" = _Y4XZsRFc;
+        "neoforge-1.21.11" = _HXzhfhOh;
+        "neoforge-26.3" = _qRGESfB6;
         "pkg-1.11.6" = _xPUoLG6J;
         "pkg-1.11.6.1" = _e2p5Zvqh;
         "pkg-1.11.6.2" = _wCKzacsq;
         "pkg-1.11.10" = _SWPQurZT;
-        "pkg-1.11.10.1" = _U0gHSmVL;
-        "default" = _U0gHSmVL;
+        "pkg-1.11.10.1" = _qRGESfB6;
+        "default" = _qRGESfB6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-legacy-neoforged";

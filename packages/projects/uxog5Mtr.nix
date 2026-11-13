@@ -31,6 +31,11 @@ let
             "file" = "simple_durability_tooltip-3.0.0-universal.jar";
             "hash" = "sha512-7k0zIZrSjMCx37v4baucGSHZ2H4PrgPe88vy0dn4tQyGQ35LiSSRpxnNqwNKnzqN/NgYaAWVSFxeTh7G1wFTpQ==";
         };
+        _A3qf5oiy = {
+            "id" = "A3qf5oiy";
+            "file" = "durability_tooltip-1.0.0.jar";
+            "hash" = "sha512-zW7MU2CvbERYAvjEGT0kOZrmRY9Zws0dlItzJlYsWWlKv3PLbNo+PKt11Cqkrvpig6muNfwRwbFTiUduocsagw==";
+        };
     in {
         "l421yiTU" = _l421yiTU;
         "uo5aGMV2" = _uo5aGMV2;
@@ -38,22 +43,32 @@ let
         "uq6P4zhV" = _uq6P4zhV;
         "yYFqL2ux" = _yYFqL2ux;
         "LzWx6F0G" = _LzWx6F0G;
-        "fabric-26.1.1" = _l421yiTU;
-        "fabric-26.1.2" = _l421yiTU;
+        "A3qf5oiy" = _A3qf5oiy;
+        "fabric-26.1.1" = _A3qf5oiy;
+        "fabric-26.1.2" = _A3qf5oiy;
         "fabric-26.2-snapshot-2" = _l421yiTU;
         "fabric-26.2-snapshot-3" = _l421yiTU;
-        "fabric-26.2" = _uo5aGMV2;
-        "fabric-26.3" = _LzWx6F0G;
+        "fabric-26.2" = _A3qf5oiy;
+        "fabric-26.3" = _A3qf5oiy;
+        "fabric-26.1" = _A3qf5oiy;
+        "fabric-26.4-snapshot-8" = _A3qf5oiy;
+        "fabric-26.4-snapshot-5" = _A3qf5oiy;
+        "fabric-26.4-snapshot-2" = _A3qf5oiy;
+        "fabric-26.4-snapshot-1" = _A3qf5oiy;
+        "fabric-26.4-snapshot-4" = _A3qf5oiy;
+        "fabric-26.4-snapshot-7" = _A3qf5oiy;
+        "fabric-26.4-snapshot-6" = _A3qf5oiy;
+        "fabric-26.4-snapshot-3" = _A3qf5oiy;
         "forge-26.3" = _LzWx6F0G;
         "neoforge-26.3" = _LzWx6F0G;
         "quilt-26.3" = _LzWx6F0G;
-        "pkg-1.0.0" = _l421yiTU;
+        "pkg-1.0.0" = _A3qf5oiy;
         "pkg-26.2-1.0.0" = _uo5aGMV2;
         "pkg-1.0.0-build1" = _ptRFa8E4;
         "pkg-1.0.1-build1" = _uq6P4zhV;
         "pkg-2.0.0-build1" = _yYFqL2ux;
         "pkg-3.0.0" = _LzWx6F0G;
-        "default" = _LzWx6F0G;
+        "default" = _A3qf5oiy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yet_another_durability_tooltip";

@@ -161,6 +161,11 @@ let
             "file" = "blockblocker-1.7.10-1.4.3.jar";
             "hash" = "sha512-uVWoJK+z6DznP6OSCMQ13vacZuAYJ1Wq32eGlwB3ghoBplwRXHTGoShqz6oU/hOsXTy4nj9FavE7VyFwOIiltQ==";
         };
+        _RK1phR9S = {
+            "id" = "RK1phR9S";
+            "file" = "Block-Blocker-2.0.1-MC26.3-NeoForge.jar";
+            "hash" = "sha512-ydRggoVM/cv/kfYUFQnWNX8yJzMFq/3mmtBlu1beFyMP4gEu6cKBi2aUubUniw0T7jRMTi6XHFj92cr1CHTslQ==";
+        };
     in {
         "xts6b8Vi" = _xts6b8Vi;
         "PbeUf1fx" = _PbeUf1fx;
@@ -194,6 +199,7 @@ let
         "cDFtXtSm" = _cDFtXtSm;
         "RbRzym3q" = _RbRzym3q;
         "JnCm6n4H" = _JnCm6n4H;
+        "RK1phR9S" = _RK1phR9S;
         "forge-1.7.10" = _JnCm6n4H;
         "forge-1.11.2" = _PbeUf1fx;
         "forge-1.12.2" = _4HT7UNv8;
@@ -219,6 +225,7 @@ let
         "neoforge-1.21.1" = _3ZUtPZQp;
         "neoforge-1.21.4" = _NZXpQMk2;
         "neoforge-1.21.11" = _RbRzym3q;
+        "neoforge-26.3" = _RK1phR9S;
         "pkg-1.4.2" = _xts6b8Vi;
         "pkg-1.1.2" = _PbeUf1fx;
         "pkg-1.3.1" = _BNqft7ok;
@@ -235,7 +242,8 @@ let
         "pkg-1.12.0" = _cDFtXtSm;
         "pkg-1.13.0" = _RbRzym3q;
         "pkg-1.4.3" = _JnCm6n4H;
-        "default" = _JnCm6n4H;
+        "pkg-2.0.1" = _RK1phR9S;
+        "default" = _RK1phR9S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-blocker";

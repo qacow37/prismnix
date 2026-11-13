@@ -56,6 +56,41 @@ let
             "file" = "enchantmentcalculator-2.0.0+26.3.jar";
             "hash" = "sha512-G9C/oKXcU9C6rOsOFqT1faj3n7B/YlT21ZXo17Qn7T387TMTuLdRFSEZxVkx6RsISkbv0WgTl66jGfG8bFDO+w==";
         };
+        _ejuzkBTg = {
+            "id" = "ejuzkBTg";
+            "file" = "enchantmentcalculator-2.0.1+1.21.8.jar";
+            "hash" = "sha512-i+SwNdm80B8Jf8KMZ0+0gzOTBdh5ZN2NHeNdnV93ciF0b9OPs81Z2Va4pzSqiVpuOxi0OfYuhv/l3kRFu7zX8w==";
+        };
+        _Nepndlil = {
+            "id" = "Nepndlil";
+            "file" = "enchantmentcalculator-2.0.1+1.21.9.jar";
+            "hash" = "sha512-wOeKNfp4HbtTfzhkvjVJuD0qRyv/XxsfL57kuS2ADXSMbCbqASEy3AlV4unzOUxb7+cYcl9UQSw3VMPwi6GIoA==";
+        };
+        _LjmBxuwQ = {
+            "id" = "LjmBxuwQ";
+            "file" = "enchantmentcalculator-2.0.1+1.21.10.jar";
+            "hash" = "sha512-jwS2ByrrJki9slw4yxU3RKHE4J/gtQl2JQqAuHaRqku+IwRdWcQFsa80XBI2pff7AEhKeJ+740BN97Mn/wwsoA==";
+        };
+        _RMls0YHA = {
+            "id" = "RMls0YHA";
+            "file" = "enchantmentcalculator-2.0.1+1.21.11.jar";
+            "hash" = "sha512-LJ+6lvHQhgWudlpqe1OT/xWCSYoEgrf9fdA568bL9bWe1OccvASJglSnWfHL2KyfFiSgooGPakD8FWSthpCcDA==";
+        };
+        _ADdKisBe = {
+            "id" = "ADdKisBe";
+            "file" = "enchantmentcalculator-2.0.1+26.1.jar";
+            "hash" = "sha512-weFQigqIlmkftooTZu/xCBs2MgQIS46QFes6UkJW9Mp3CO7pGlUfM0w2jsbf1hM5AxN4P0li/dezepm6wk0KtA==";
+        };
+        _GKRDokr2 = {
+            "id" = "GKRDokr2";
+            "file" = "enchantmentcalculator-2.0.1+26.2.jar";
+            "hash" = "sha512-bwm2zcek+/7xALZca0wI6ie7azFeEcsgIhT8bSkyXmDwDNBLAB7VmaKJJcFEkqm0krHyXrVI7NyRSuOlMYg3jw==";
+        };
+        _r8wRPYrP = {
+            "id" = "r8wRPYrP";
+            "file" = "enchantmentcalculator-2.0.1+26.3.jar";
+            "hash" = "sha512-8vB5MrKKgAqjqWQCQL7Lvq3Lacg8KGJ1TH3lSy6Dd4bWuOmcalXbNwRPNEUfgTHw4t+7+V/bJ1Q5LGdY6iwf9w==";
+        };
     in {
         "WuSe5ew5" = _WuSe5ew5;
         "Zu4rutXF" = _Zu4rutXF;
@@ -68,6 +103,13 @@ let
         "DLqhFrLN" = _DLqhFrLN;
         "WatayViJ" = _WatayViJ;
         "4nabj5z3" = _4nabj5z3;
+        "ejuzkBTg" = _ejuzkBTg;
+        "Nepndlil" = _Nepndlil;
+        "LjmBxuwQ" = _LjmBxuwQ;
+        "RMls0YHA" = _RMls0YHA;
+        "ADdKisBe" = _ADdKisBe;
+        "GKRDokr2" = _GKRDokr2;
+        "r8wRPYrP" = _r8wRPYrP;
         "fabric-1.21" = _WuSe5ew5;
         "fabric-1.21.1" = _WuSe5ew5;
         "fabric-1.21.2" = _Zu4rutXF;
@@ -76,15 +118,15 @@ let
         "fabric-1.21.5" = _Zu4rutXF;
         "fabric-1.21.6" = _Fm8LzgIx;
         "fabric-1.21.7" = _Fm8LzgIx;
-        "fabric-1.21.8" = _P5C5rKWh;
-        "fabric-1.21.9" = _OyhBF2ji;
-        "fabric-1.21.10" = _IxLI3OI5;
-        "fabric-1.21.11" = _NTv7t5xB;
-        "fabric-26.1" = _DLqhFrLN;
-        "fabric-26.1.1" = _DLqhFrLN;
-        "fabric-26.1.2" = _DLqhFrLN;
-        "fabric-26.2" = _WatayViJ;
-        "fabric-26.3" = _4nabj5z3;
+        "fabric-1.21.8" = _ejuzkBTg;
+        "fabric-1.21.9" = _Nepndlil;
+        "fabric-1.21.10" = _LjmBxuwQ;
+        "fabric-1.21.11" = _RMls0YHA;
+        "fabric-26.1" = _ADdKisBe;
+        "fabric-26.1.1" = _ADdKisBe;
+        "fabric-26.1.2" = _ADdKisBe;
+        "fabric-26.2" = _GKRDokr2;
+        "fabric-26.3" = _r8wRPYrP;
         "pkg-1.0.0" = _8bYgdNXF;
         "pkg-2.0.0+1.21.8" = _P5C5rKWh;
         "pkg-2.0.0+1.21.9" = _OyhBF2ji;
@@ -93,7 +135,14 @@ let
         "pkg-2.0.0+26.1" = _DLqhFrLN;
         "pkg-2.0.0+26.2" = _WatayViJ;
         "pkg-2.0.0+26.3" = _4nabj5z3;
-        "default" = _4nabj5z3;
+        "pkg-2.0.1+1.21.8" = _ejuzkBTg;
+        "pkg-2.0.1+1.21.9" = _Nepndlil;
+        "pkg-2.0.1+1.21.10" = _LjmBxuwQ;
+        "pkg-2.0.1+1.21.11" = _RMls0YHA;
+        "pkg-2.0.1+26.1" = _ADdKisBe;
+        "pkg-2.0.1+26.2" = _GKRDokr2;
+        "pkg-2.0.1+26.3" = _r8wRPYrP;
+        "default" = _r8wRPYrP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-calculator";

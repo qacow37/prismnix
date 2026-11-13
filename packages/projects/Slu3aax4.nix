@@ -41,6 +41,11 @@ let
             "file" = "nearby-delight-1.5.0.jar";
             "hash" = "sha512-xWafaY9OnvdPj2NTuxkjfkIeDHcZ7MNegSgm8d6JhRWsilHIh/yBBO2CjdTjyTY5qbL3sUmZp2dNfGlGeoPocQ==";
         };
+        _9mOspb1N = {
+            "id" = "9mOspb1N";
+            "file" = "nearbydelight-1.6.0.jar";
+            "hash" = "sha512-1cd59wYTMfuT972BoWGJUAhi8ctLsMCkaIPCiHEP+1Y/8Ih8zeoQenwk/zZNDJMG9vyhDzSgcaEzNFY1z3cFhw==";
+        };
     in {
         "YWyTLI8c" = _YWyTLI8c;
         "hhSBnPxV" = _hhSBnPxV;
@@ -50,7 +55,8 @@ let
         "Xehnm40p" = _Xehnm40p;
         "MZY0Sxi1" = _MZY0Sxi1;
         "GWZcoNlA" = _GWZcoNlA;
-        "neoforge-1.21.1" = _MZY0Sxi1;
+        "9mOspb1N" = _9mOspb1N;
+        "neoforge-1.21.1" = _9mOspb1N;
         "fabric-26.2" = _UfgGazAv;
         "fabric-26.3" = _GWZcoNlA;
         "pkg-0.0.1" = _YWyTLI8c;
@@ -59,7 +65,8 @@ let
         "pkg-1.3.0" = _UfgGazAv;
         "pkg-1.4.1" = _Xehnm40p;
         "pkg-1.5.0" = _GWZcoNlA;
-        "default" = _GWZcoNlA;
+        "pkg-1.6.0" = _9mOspb1N;
+        "default" = _9mOspb1N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nearby-delight";

@@ -581,6 +581,21 @@ let
             "file" = "roomfortwo-forge-1.19.2-0.3.1.jar";
             "hash" = "sha512-D2wLDNL34CqTdxC96R5lx1SCTqhqCBau+XV2VkBALL4mLoh5gXKunLPTQNr5cy2nBOkYzqcSmVuE6+oF0dgRhA==";
         };
+        _W9327tBR = {
+            "id" = "W9327tBR";
+            "file" = "roomfortwo-fabric-1.18.2-0.3.1.jar";
+            "hash" = "sha512-WCztfbbGDgdqwZgZmoKwCdo02BHu+01BD9KuyNQyhO1wlVYfx7xPJjhIwMKuUOqGF2uC2xOwKNeaaPd76NcDLQ==";
+        };
+        _sFOn0FNi = {
+            "id" = "sFOn0FNi";
+            "file" = "roomfortwo-forge-1.18.2-0.3.1.jar";
+            "hash" = "sha512-hlDu2A9vTlGZM0BCzfpCHdryg5o3QeZ1QNt3kuHADOAueqO+2W1VEbvSKwifwodRaw7i3UAcRVx3ro0XZNsTNw==";
+        };
+        _Qh5ZNpTF = {
+            "id" = "Qh5ZNpTF";
+            "file" = "roomfortwo-forge-1.12.2-0.3.1.jar";
+            "hash" = "sha512-TPSG70Vc2ZRm0JDFdZn9DD/+QPVDAo+chW8Hu9G2eR06AmAaEMJN5sM8WIZ6MPiOaDJfkAAfUKYUHNWzCUNoFQ==";
+        };
     in {
         "BvOIeMun" = _BvOIeMun;
         "ai7W19Qk" = _ai7W19Qk;
@@ -698,6 +713,9 @@ let
         "Q0MNvSTl" = _Q0MNvSTl;
         "gtnVe1k6" = _gtnVe1k6;
         "sXQuAwks" = _sXQuAwks;
+        "W9327tBR" = _W9327tBR;
+        "sFOn0FNi" = _sFOn0FNi;
+        "Qh5ZNpTF" = _Qh5ZNpTF;
         "fabric-26.1" = _K5LqTANw;
         "fabric-26.1.1" = _K5LqTANw;
         "fabric-26.1.2" = _K5LqTANw;
@@ -714,7 +732,7 @@ let
         "fabric-1.19.1" = _gtnVe1k6;
         "fabric-1.19.2" = _gtnVe1k6;
         "fabric-26.3" = _YWsnsbTY;
-        "fabric-1.18.2" = _4EPi13wD;
+        "fabric-1.18.2" = _W9327tBR;
         "forge-26.1" = _Gfz2Bfsr;
         "forge-26.1.1" = _Gfz2Bfsr;
         "forge-26.1.2" = _Gfz2Bfsr;
@@ -725,9 +743,9 @@ let
         "forge-1.20.2" = _1Lpi9blz;
         "forge-1.20.3" = _1Lpi9blz;
         "forge-1.20.4" = _1Lpi9blz;
-        "forge-1.18.2" = _8W5G4tLQ;
+        "forge-1.18.2" = _sFOn0FNi;
         "forge-1.21.11" = _YdabXVjZ;
-        "forge-1.12.2" = _cIa5repJ;
+        "forge-1.12.2" = _Qh5ZNpTF;
         "forge-26.2" = _YxqjSMlr;
         "forge-1.21.4" = _6Q4FdXpV;
         "forge-1.19.1" = _sXQuAwks;
@@ -752,8 +770,8 @@ let
         "pkg-0.1.1" = _Bhc1nSFf;
         "pkg-0.2.0" = _pizN6IUM;
         "pkg-0.3.0" = _8W5G4tLQ;
-        "pkg-0.3.1" = _sXQuAwks;
-        "default" = _sXQuAwks;
+        "pkg-0.3.1" = _Qh5ZNpTF;
+        "default" = _Qh5ZNpTF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "room-for-two";

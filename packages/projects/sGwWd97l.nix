@@ -781,6 +781,46 @@ let
             "file" = "HundredYearsWar-0.8.0r-1.21.1-neoforge.jar";
             "hash" = "sha512-+IykrElwlCKqIXiop/6/p2xJq6KUpZA4FkJ3dldeh2OBY6NvO385f/BOHW2CG6lkAlF3YQ+IvyZQoThoZgo4wQ==";
         };
+        _TFoQEzjU = {
+            "id" = "TFoQEzjU";
+            "file" = "HundredYearsWar-0.8.0r-fix1-1.20.1-fabric.jar";
+            "hash" = "sha512-Z+WlnKRsn9fFI63fboT8PRAgQflyGMczxPePB+9Jdinfvk3+A+fm36aMnu8xsL1IxqkGww6mHRGTViswlTfEeQ==";
+        };
+        _jnTrEvnd = {
+            "id" = "jnTrEvnd";
+            "file" = "HundredYearsWar-0.8.0r-fix1-1.20.1-forge.jar";
+            "hash" = "sha512-a2puwHZO9WHwPUwKv1d7bA2cUhx3iCkTwCQLwVupp88rzPy4iXf2GleI2l2nfi1oZoeMrtb7qxpNeQhtOsrjJg==";
+        };
+        _Mpad0r4L = {
+            "id" = "Mpad0r4L";
+            "file" = "HundredYearsWar-0.8.0r-fix1-1.21.1-fabric.jar";
+            "hash" = "sha512-2szz4x296UFbGQjR3VCflx/9kJMfG7IpFY8cNUwxy6fxpZwS6ezVP9/8/Zv+c2kgJeA2kMZ9nauyUozX9smdyQ==";
+        };
+        _KaUR3X0O = {
+            "id" = "KaUR3X0O";
+            "file" = "HundredYearsWar-0.8.0r-fix1-1.21.1-neoforge.jar";
+            "hash" = "sha512-VmpA1DD61hydAeQ12k2mwScPiJ+HLDA68flEQQaeM8YusgzcwYhj/UbTOkPw9qKiy4VEEhmTer0G1d6uug/jWA==";
+        };
+        _zkdctxLG = {
+            "id" = "zkdctxLG";
+            "file" = "HundredYearsWar-0.8.0r-fix2-1.20.1-fabric.jar";
+            "hash" = "sha512-gqOfHbSL9GcIfkQQNBkaQ81kHqpOI2lh/F+HWBgO7W83nbfqnq7qkk51JoRubW6luI8VaL0O5mZ2+VV78YmZzA==";
+        };
+        _iHmM641J = {
+            "id" = "iHmM641J";
+            "file" = "HundredYearsWar-0.8.0r-fix2-1.20.1-forge.jar";
+            "hash" = "sha512-Y4QL8wDQ6Qcnj/AFFdg78BZZ/5E1z7rwp5aTzU3batm9G5S1z+UviOZI50dNVUd+oG/xQcO1KTOg4S+M72JKPQ==";
+        };
+        _H1vcDdXt = {
+            "id" = "H1vcDdXt";
+            "file" = "HundredYearsWar-0.8.0r-fix2-1.21.1-fabric.jar";
+            "hash" = "sha512-cVo1qBr0Mq8K/hMAm2ddzf8Wr2VMm1SEfQy/B7eVjH2NoLmL/tF3JlSBxI7XRV71iM9kYjKZM/7VCm94EOl9ZQ==";
+        };
+        _4Ez90btf = {
+            "id" = "4Ez90btf";
+            "file" = "HundredYearsWar-0.8.0r-fix2-1.21.1-neoforge.jar";
+            "hash" = "sha512-uC/DzYAFedyqQjZcJ5rd5gsQ1ihjkWKcG7ZK80DFhnbGTM5f28xkEYlLEmrJFak2/kMXQD5UD15KCmePUFgFOA==";
+        };
     in {
         "aFFrqHHJ" = _aFFrqHHJ;
         "4imQBZKn" = _4imQBZKn;
@@ -938,10 +978,18 @@ let
         "3hOgo4T3" = _3hOgo4T3;
         "LfIdFl2L" = _LfIdFl2L;
         "lOIRg1aV" = _lOIRg1aV;
-        "fabric-1.20.1" = _WFeRe2zQ;
-        "fabric-1.21.1" = _LfIdFl2L;
-        "forge-1.20.1" = _3hOgo4T3;
-        "neoforge-1.21.1" = _lOIRg1aV;
+        "TFoQEzjU" = _TFoQEzjU;
+        "jnTrEvnd" = _jnTrEvnd;
+        "Mpad0r4L" = _Mpad0r4L;
+        "KaUR3X0O" = _KaUR3X0O;
+        "zkdctxLG" = _zkdctxLG;
+        "iHmM641J" = _iHmM641J;
+        "H1vcDdXt" = _H1vcDdXt;
+        "4Ez90btf" = _4Ez90btf;
+        "fabric-1.20.1" = _zkdctxLG;
+        "fabric-1.21.1" = _H1vcDdXt;
+        "forge-1.20.1" = _iHmM641J;
+        "neoforge-1.21.1" = _4Ez90btf;
         "pkg-0.3.6b-1.20.1-fabric" = _aFFrqHHJ;
         "pkg-0.3.6b-1.20.1-forge" = _4imQBZKn;
         "pkg-0.3.6b-1.20.1-forge-hotfix1" = _X2JPxN78;
@@ -1095,7 +1143,15 @@ let
         "pkg-0.8.0r-1.20.1-forge" = _3hOgo4T3;
         "pkg-0.8.0r-1.21.1-fabric" = _LfIdFl2L;
         "pkg-0.8.0r-1.21.1-neoforge" = _lOIRg1aV;
-        "default" = _lOIRg1aV;
+        "pkg-0.8.0r-fix1-1.20.1-fabric" = _TFoQEzjU;
+        "pkg-0.8.0r-fix1-1.20.1-forge" = _jnTrEvnd;
+        "pkg-0.8.0r-fix1-1.21.1-fabric" = _Mpad0r4L;
+        "pkg-0.8.0r-fix1-1.21.1-neoforge" = _KaUR3X0O;
+        "pkg-0.8.0r-fix2-1.20.1-fabric" = _zkdctxLG;
+        "pkg-0.8.0r-fix2-1.20.1-forge" = _iHmM641J;
+        "pkg-0.8.0r-fix2-1.21.1-fabric" = _H1vcDdXt;
+        "pkg-0.8.0r-fix2-1.21.1-neoforge" = _4Ez90btf;
+        "default" = _4Ez90btf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hundred-years-warfare";

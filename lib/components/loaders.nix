@@ -67,8 +67,8 @@
         "minecraft" = "26.3";
         "fabric" = "0.20.1";
         "quilt" = "0.31.0-beta.6";
-        "forge" = "66.1.5";
-        "neoforge" = "26.3.0.102";
+        "forge" = "66.1.8";
+        "neoforge" = "26.3.0.103";
         "liteloader" = null;
     }
     {
@@ -1364,7 +1364,7 @@
         "fabric" = "0.20.1";
         "quilt" = "0.31.0-beta.6";
         "forge" = "52.1.21";
-        "neoforge" = "21.1.265";
+        "neoforge" = "21.1.266";
         "liteloader" = null;
     }
     {

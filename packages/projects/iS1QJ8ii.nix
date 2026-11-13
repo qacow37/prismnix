@@ -11,10 +11,16 @@ let
             "file" = "uncomplicated-fpv-1.0.1.jar";
             "hash" = "sha512-EYlRmbCB56mE6AGMh83rJAZKp0bnzW5T9PRMw21KvkW1l78YfUXdF/rBM/dys3RX7XMCPgwkW3mW2UEpP5Zl2Q==";
         };
+        _wMP5173d = {
+            "id" = "wMP5173d";
+            "file" = "uncomplicated-fpv-1.0.2.jar";
+            "hash" = "sha512-gocwdf5oMTOwI/gTe0shtOo3YfEzZa6mMJemUv376u1j73At97U0QvitP8AyqVL0ZnMvPqAmg/60nXzIZxzCyQ==";
+        };
     in {
         "cBTzdf03" = _cBTzdf03;
         "hzHrH9yY" = _hzHrH9yY;
-        "forge-1.20.1" = _hzHrH9yY;
+        "wMP5173d" = _wMP5173d;
+        "forge-1.20.1" = _wMP5173d;
         "forge-1.20.2" = _cBTzdf03;
         "forge-1.20.3" = _cBTzdf03;
         "forge-1.20.4" = _cBTzdf03;
@@ -22,7 +28,8 @@ let
         "forge-1.20.6" = _cBTzdf03;
         "pkg-1.0.0" = _cBTzdf03;
         "pkg-1.0.1" = _hzHrH9yY;
-        "default" = _hzHrH9yY;
+        "pkg-1.0.2" = _wMP5173d;
+        "default" = _wMP5173d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uncomplicated-fpv";

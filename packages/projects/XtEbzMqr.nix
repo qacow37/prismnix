@@ -1096,6 +1096,21 @@ let
             "file" = "Safra-forge-1.21.1-3.2.jar";
             "hash" = "sha512-JHhk3CfFCOljvGnS//WGJNTccb0a2zOLcQk7KAxP1xte7rj3yYp2fT0e4QQfrD6Nt/H3nLQpKjL7x43WGUes8Q==";
         };
+        _Ef2CBduM = {
+            "id" = "Ef2CBduM";
+            "file" = "Safra-neoforge-26.3-3.2.jar";
+            "hash" = "sha512-Vp1udMyJ9LNMDdMtxMXmnrKNgwP0icwyzNzSz8e/FTGeLs6zqrRTJ02P//A5GXZW3XFgg56u9NMMIusI6xW+Bg==";
+        };
+        _H1x4MHnv = {
+            "id" = "H1x4MHnv";
+            "file" = "Safra-neoforge-1.21.1-3.2.jar";
+            "hash" = "sha512-6+bOkgZXCG8mXBlFciPN7CAKH6dWfIFOMRmf3/UXGqOj98wVdnpfc8n0MbMEbu4TLb1daGRrzUK6SJMLKYCEMQ==";
+        };
+        _WfIFzB7I = {
+            "id" = "WfIFzB7I";
+            "file" = "Safra-fabric-1.21.1-3.2.jar";
+            "hash" = "sha512-551/3eQFHpaUE4kIlXMpZzs6UfUNH1ScM8EoYZ6nPUjhROiITrtIUIiYSvGWVD/pq44QTXIAWeoC6N3S+eCiXA==";
+        };
     in {
         "GwnaEaJ4" = _GwnaEaJ4;
         "OZvU4X1N" = _OZvU4X1N;
@@ -1316,6 +1331,9 @@ let
         "45ZQGgJ9" = _45ZQGgJ9;
         "hAa7VcFU" = _hAa7VcFU;
         "Nxtl4KO3" = _Nxtl4KO3;
+        "Ef2CBduM" = _Ef2CBduM;
+        "H1x4MHnv" = _H1x4MHnv;
+        "WfIFzB7I" = _WfIFzB7I;
         "fabric-26.1" = _g2SWzVpV;
         "fabric-1.21.11" = _nGMSZTMe;
         "fabric-26.1.1" = _3L9cpNNS;
@@ -1325,7 +1343,7 @@ let
         "fabric-1.21.9" = _PFi3d0VM;
         "fabric-1.21.10" = _kKnRTFwe;
         "fabric-26.2" = _us6BkShL;
-        "fabric-1.21.1" = _6LGKPkFP;
+        "fabric-1.21.1" = _WfIFzB7I;
         "fabric-1.20.1" = _jUvmrUWw;
         "fabric-1.21.5" = _h917tkMA;
         "fabric-1.21" = _EPUu7tw6;
@@ -1396,7 +1414,7 @@ let
         "neoforge-26.1" = _SoWSAT6Q;
         "neoforge-1.21.11" = _f3MWX4Jg;
         "neoforge-26.1.2" = _TxSX9IyQ;
-        "neoforge-1.21.1" = _dEQy9JV4;
+        "neoforge-1.21.1" = _H1x4MHnv;
         "neoforge-1.21.7" = _fukjOegW;
         "neoforge-1.21.6" = _tQllyo4j;
         "neoforge-1.21.4" = _T2hwIUW0;
@@ -1412,7 +1430,7 @@ let
         "neoforge-1.21.2" = _EgNiAjZT;
         "neoforge-1.20.5" = _sDD3yQUh;
         "neoforge-1.20.6" = _sDD3yQUh;
-        "neoforge-26.3" = _n8EzHfIf;
+        "neoforge-26.3" = _Ef2CBduM;
         "pkg-1.0" = _Yrf74HJF;
         "pkg-2.0" = _TXx7JPgJ;
         "pkg-2.0.1" = _74DhgPAE;
@@ -1420,8 +1438,8 @@ let
         "pkg-2.5" = _ae3zpMV6;
         "pkg-2.6" = _B0eWzgd2;
         "pkg-3.0" = _zGjuQeFM;
-        "pkg-3.2" = _Nxtl4KO3;
-        "default" = _Nxtl4KO3;
+        "pkg-3.2" = _WfIFzB7I;
+        "default" = _WfIFzB7I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "safra";

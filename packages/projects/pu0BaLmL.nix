@@ -31,6 +31,11 @@ let
             "file" = "riptideshieldfix-1.1.0+26.2+A.jar";
             "hash" = "sha512-gCTOfnHNjqEKGeKoq2fKzPLDlBQ3yJo6Mz4juDKERfJxlsosL/zQKg1HRFoEjL/Tmo9ur0vlWUQwmpfTOOkHxQ==";
         };
+        _nCFiP3sX = {
+            "id" = "nCFiP3sX";
+            "file" = "riptideshieldfix-1.1.0+26.3+A.jar";
+            "hash" = "sha512-VPDxMfJaAOivR8C+8zgmvqO1evGtBIGr9iI0MAzuJR36wE3FotR9G+vQZWs7vZyd6DSFxUmamcCmhVOhix0o4Q==";
+        };
     in {
         "Pl44fZg7" = _Pl44fZg7;
         "6bMHoQ58" = _6bMHoQ58;
@@ -38,6 +43,7 @@ let
         "Oue4SgZI" = _Oue4SgZI;
         "Sjg0p7mh" = _Sjg0p7mh;
         "x7TzUl6A" = _x7TzUl6A;
+        "nCFiP3sX" = _nCFiP3sX;
         "fabric-1.21" = _Oue4SgZI;
         "fabric-1.21.1" = _Oue4SgZI;
         "fabric-1.21.2" = _Oue4SgZI;
@@ -61,6 +67,7 @@ let
         "fabric-1.20.3" = _Sjg0p7mh;
         "fabric-1.20.4" = _Sjg0p7mh;
         "fabric-26.2" = _x7TzUl6A;
+        "fabric-26.3" = _nCFiP3sX;
         "quilt-1.21" = _Oue4SgZI;
         "quilt-1.21.1" = _Oue4SgZI;
         "quilt-1.21.2" = _Oue4SgZI;
@@ -84,13 +91,15 @@ let
         "quilt-1.20.3" = _Sjg0p7mh;
         "quilt-1.20.4" = _Sjg0p7mh;
         "quilt-26.2" = _x7TzUl6A;
+        "quilt-26.3" = _nCFiP3sX;
         "pkg-1.0.0" = _Pl44fZg7;
         "pkg-1.0.1" = _6bMHoQ58;
         "pkg-1.1.0+26.1+A" = _aHsT7aoQ;
         "pkg-1.1.0+1.20.5+A" = _Oue4SgZI;
         "pkg-1.1.0+1.20+A" = _Sjg0p7mh;
         "pkg-1.1.0+26.2+A" = _x7TzUl6A;
-        "default" = _x7TzUl6A;
+        "pkg-1.1.0+26.3+A" = _nCFiP3sX;
+        "default" = _nCFiP3sX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "riptide-shield-fix";

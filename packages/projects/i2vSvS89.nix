@@ -66,6 +66,11 @@ let
             "file" = "inventoryoverlay-26.2-4.1.0.jar";
             "hash" = "sha512-1p+rEIcSrijZiQrHun80vbvcuiVVg4fLSKVwV4Fr74DCUsLorBykZvt63JQ9fKA4qGpcQCfR9bRC+knt9TtaOA==";
         };
+        _KNpmU4uz = {
+            "id" = "KNpmU4uz";
+            "file" = "inventoryoverlay-26.3-4.2.0.jar";
+            "hash" = "sha512-GwDHzDA+7iygH7QKKI6JMhOxSvU0o/QCmu4JXkYL5W2MJJueTNPNyqgW1QhQUeebmeZlISuOGoxV/+CCTR/oRg==";
+        };
     in {
         "CKpY1rrV" = _CKpY1rrV;
         "MIu3SNK8" = _MIu3SNK8;
@@ -80,6 +85,7 @@ let
         "tqhCvIRJ" = _tqhCvIRJ;
         "xGxl3HUC" = _xGxl3HUC;
         "6AeiUUic" = _6AeiUUic;
+        "KNpmU4uz" = _KNpmU4uz;
         "fabric-1.21.10" = _3D33lTCn;
         "fabric-1.21.11" = _3D33lTCn;
         "fabric-1.21" = _XRa730Uw;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _xGxl3HUC;
         "fabric-26.1.2" = _xGxl3HUC;
         "fabric-26.2" = _6AeiUUic;
+        "fabric-26.3" = _KNpmU4uz;
         "pkg-1.0.0" = _CKpY1rrV;
         "pkg-1.1.0" = _MIu3SNK8;
         "pkg-1.2.0" = _hBzYJNj7;
@@ -104,7 +111,8 @@ let
         "pkg-3.1.0" = _3D33lTCn;
         "pkg-4.0.0" = _tqhCvIRJ;
         "pkg-4.1.0" = _6AeiUUic;
-        "default" = _6AeiUUic;
+        "pkg-4.2.0" = _KNpmU4uz;
+        "default" = _KNpmU4uz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-overlay";

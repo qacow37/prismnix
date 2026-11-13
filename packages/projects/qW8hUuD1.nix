@@ -341,6 +341,16 @@ let
             "file" = "better-snowy-biome-2.5.1.jar";
             "hash" = "sha512-pJqGPbhUXU2XuZAk7b8Ok7+UKWrTr+aPbtXfViFY6bDAvkKNbWa99hn42HSVYqoofCIem1py3jgCXSdUH3qKMg==";
         };
+        _rie7w8zD = {
+            "id" = "rie7w8zD";
+            "file" = "snowy-biomes-enhanced-26.3-v2.6.zip";
+            "hash" = "sha512-8t8h601KLAA7qw9BRj3IdwJw44tNwaxWazVHTto5U2wBP9Yk1rsh9saYPTwW7KNB1a9QB1XbA458Ue+nfmnLKg==";
+        };
+        _2h5DV1cc = {
+            "id" = "2h5DV1cc";
+            "file" = "better-snowy-biome-v2.6.jar";
+            "hash" = "sha512-75H9AHp/1QNQkqvo3YoBK4vs1S1D9w57hHd7hOQLK3ap57U6cDpyRQyAn6QcwHnZOhXU30v3YPS8+ajQ41TyMg==";
+        };
     in {
         "c4FfxNyE" = _c4FfxNyE;
         "LoZJU0jO" = _LoZJU0jO;
@@ -410,6 +420,8 @@ let
         "WE47RQy3" = _WE47RQy3;
         "DPlCxfEh" = _DPlCxfEh;
         "nNvA1Koy" = _nNvA1Koy;
+        "rie7w8zD" = _rie7w8zD;
+        "2h5DV1cc" = _2h5DV1cc;
         "datapack-1.21" = _15JALG4C;
         "datapack-1.21.1" = _15JALG4C;
         "datapack-1.21.2" = _15JALG4C;
@@ -434,6 +446,7 @@ let
         "datapack-26.1.1" = _YaetaHTo;
         "datapack-26.1.2" = _YaetaHTo;
         "datapack-26.2" = _DPlCxfEh;
+        "datapack-26.3" = _rie7w8zD;
         "fabric-1.21" = _YuViVhAw;
         "fabric-1.21.1" = _YuViVhAw;
         "fabric-1.21.4" = _YuViVhAw;
@@ -458,6 +471,7 @@ let
         "fabric-26.1.1" = _WE47RQy3;
         "fabric-26.1.2" = _WE47RQy3;
         "fabric-26.2" = _nNvA1Koy;
+        "fabric-26.3" = _2h5DV1cc;
         "forge-1.21" = _YuViVhAw;
         "forge-1.21.1" = _YuViVhAw;
         "forge-1.21.4" = _YuViVhAw;
@@ -481,6 +495,7 @@ let
         "forge-26.1.1" = _WE47RQy3;
         "forge-26.1.2" = _WE47RQy3;
         "forge-26.2" = _nNvA1Koy;
+        "forge-26.3" = _2h5DV1cc;
         "neoforge-1.21.4" = _YuViVhAw;
         "neoforge-1.21.2" = _YuViVhAw;
         "neoforge-1.21.3" = _YuViVhAw;
@@ -505,6 +520,7 @@ let
         "neoforge-26.1.1" = _WE47RQy3;
         "neoforge-26.1.2" = _WE47RQy3;
         "neoforge-26.2" = _nNvA1Koy;
+        "neoforge-26.3" = _2h5DV1cc;
         "quilt-1.21" = _YuViVhAw;
         "quilt-1.21.1" = _YuViVhAw;
         "quilt-1.21.2" = _YuViVhAw;
@@ -528,6 +544,7 @@ let
         "quilt-26.1.1" = _WE47RQy3;
         "quilt-26.1.2" = _WE47RQy3;
         "quilt-26.2" = _nNvA1Koy;
+        "quilt-26.3" = _2h5DV1cc;
         "pkg-v0.1-dp" = _sU5Hvr7Q;
         "pkg-v0.1-mod" = _PHxxj1J8;
         "pkg-v0.1-Mod" = _xNt73EhJ;
@@ -550,7 +567,9 @@ let
         "pkg-v2.5.1" = _A5j239Po;
         "pkg-2.5.1" = _DPlCxfEh;
         "pkg-2.5.1+mod" = _nNvA1Koy;
-        "default" = _nNvA1Koy;
+        "pkg-v2.6" = _rie7w8zD;
+        "pkg-v2.6+mod" = _2h5DV1cc;
+        "default" = _2h5DV1cc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-snowy-biome";

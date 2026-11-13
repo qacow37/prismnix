@@ -126,6 +126,16 @@ let
             "file" = "WeatherRemasteredV1.3.1-1.21.1.jar";
             "hash" = "sha512-DZM9bZMrJ38p/g4qKyhIVNs6wcSWyqWF7ykjcy1qDbw4i6v05vBxkN8oym57vlvBM5yyx7/Ruy4RuXClgqkfxA==";
         };
+        _8C1OEiqF = {
+            "id" = "8C1OEiqF";
+            "file" = "WeatherRemasteredV1.3.11-1.21.11.jar";
+            "hash" = "sha512-bUh7YdTK3/B2tghgsDyBrurVCqab2A6OUssA3TNw5fLvQUHggBvEPr7rLapPx8lXUjGufWZ4aCosT9LfDbDI8g==";
+        };
+        _z3p1l4VO = {
+            "id" = "z3p1l4VO";
+            "file" = "WeatherRemasteredV1.3.11-1.21.1.jar";
+            "hash" = "sha512-LaLUYkd2tc/MOfNM6EYIELzYDqXXaGBTow6u+Aw/73/TwhHCXhsVQDLQU7WnNYw2I4wU1V0iG9xi+VHFUBZhEg==";
+        };
     in {
         "UH9nBci1" = _UH9nBci1;
         "w4TD3R2i" = _w4TD3R2i;
@@ -152,15 +162,17 @@ let
         "6jcGexQj" = _6jcGexQj;
         "jZNe93hW" = _jZNe93hW;
         "9e3i4Np8" = _9e3i4Np8;
+        "8C1OEiqF" = _8C1OEiqF;
+        "z3p1l4VO" = _z3p1l4VO;
         "fabric-1.21.4" = _fjLuTyAm;
         "fabric-1.21.7" = _f1jXciYJ;
         "fabric-1.21.8" = _f1jXciYJ;
         "fabric-1.21.6" = _f1jXciYJ;
         "fabric-1.21.9" = _adhy1Xqo;
         "fabric-1.21.10" = _adhy1Xqo;
-        "fabric-1.21.11" = _jZNe93hW;
-        "fabric-1.21.1" = _9e3i4Np8;
-        "fabric-1.21" = _9e3i4Np8;
+        "fabric-1.21.11" = _8C1OEiqF;
+        "fabric-1.21.1" = _z3p1l4VO;
+        "fabric-1.21" = _z3p1l4VO;
         "pkg-1.1" = _UH9nBci1;
         "pkg-1.1.2" = _w4TD3R2i;
         "pkg-1.1.3" = _fjLuTyAm;
@@ -185,7 +197,8 @@ let
         "pkg-1.2.99" = _esaYnkzj;
         "pkg-1.3" = _6jcGexQj;
         "pkg-1.3.1" = _9e3i4Np8;
-        "default" = _9e3i4Np8;
+        "pkg-1.3.11" = _z3p1l4VO;
+        "default" = _z3p1l4VO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weather-and-tornadoes-remastered";

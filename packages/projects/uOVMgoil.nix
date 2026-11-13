@@ -1356,6 +1356,11 @@ let
             "file" = "theurgy-1.21.1-neoforge-1.79.0.jar";
             "hash" = "sha512-LpKqCjRi1AD+7TmNSmdflJLas2E61pjyT8vM40tWWgeac2L7Y3xOJo27cb5dEfxmMHWPFJ7MzI1mA/Lp2W8FaQ==";
         };
+        _O215D3n7 = {
+            "id" = "O215D3n7";
+            "file" = "theurgy-26.3-neoforge-1.121.1.jar";
+            "hash" = "sha512-ZDofYK+RwlWplgrSzrlaN9TmZgZ6te5LcZ057vdyPsOPFnOhilu5vT5t25y5bSJ/5jX0wSh3u9aPt9g+J1mXtQ==";
+        };
     in {
         "Pf9wrKED" = _Pf9wrKED;
         "1ThELtGd" = _1ThELtGd;
@@ -1628,6 +1633,7 @@ let
         "fZQnR4zy" = _fZQnR4zy;
         "lzVmNYnI" = _lzVmNYnI;
         "EBO0aQOY" = _EBO0aQOY;
+        "O215D3n7" = _O215D3n7;
         "forge-1.20" = _bd4YwTzI;
         "forge-1.20.1" = _lzVmNYnI;
         "forge-1.18.2" = _1ThELtGd;
@@ -1645,7 +1651,7 @@ let
         "neoforge-26.1.1" = _5JdPaaNS;
         "neoforge-26.1.2" = _yZm2XqHG;
         "neoforge-26.2" = _O4tOwkRB;
-        "neoforge-26.3" = _fZQnR4zy;
+        "neoforge-26.3" = _O215D3n7;
         "pkg-1.20.1-1.3.7" = _Pf9wrKED;
         "pkg-1.18.2-1.3.6" = _1ThELtGd;
         "pkg-1.19.3-1.3.1" = _gZUwKRK5;
@@ -1916,7 +1922,8 @@ let
         "pkg-26.3-neoforge-1.121.0" = _fZQnR4zy;
         "pkg-1.20.1-1.31.0" = _lzVmNYnI;
         "pkg-1.21.1-neoforge-1.79.0" = _EBO0aQOY;
-        "default" = _EBO0aQOY;
+        "pkg-26.3-neoforge-1.121.1" = _O215D3n7;
+        "default" = _O215D3n7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "theurgy";

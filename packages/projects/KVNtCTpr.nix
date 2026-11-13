@@ -271,6 +271,26 @@ let
             "file" = "cobblemonminigames-neoforge-4.2.1+cobblemon1.8.0.jar";
             "hash" = "sha512-Xzqm8FQdmc0399OG5uJx8N74dpvY6eD8me4pkHlnKHeW++ntZMSIEjy4VMHiwcKNfVcNWdViy+a6ogtnNqnBUQ==";
         };
+        _tOrS93n2 = {
+            "id" = "tOrS93n2";
+            "file" = "cobblemonminigames-fabric-4.3.0+cobblemon1.7.3.jar";
+            "hash" = "sha512-D6iCZIquqX/zdl+kTDA1FI6sZNeqLoaROy5eW20Fxp+OOKIGX7omDPeDmIiUws40VxZkDd/IORad1QVvlyuPUg==";
+        };
+        _XtrUweym = {
+            "id" = "XtrUweym";
+            "file" = "cobblemonminigames-neoforge-4.3.0+cobblemon1.7.3.jar";
+            "hash" = "sha512-E2FpWYvA7w3Aw/EbQppzBZ4LPzz+ceRonQWKcZEo9V7rm41qAoDL6NDIyLqpy/jY/WLGrAWEdutatQbe0OaUXQ==";
+        };
+        _pOzUTCKK = {
+            "id" = "pOzUTCKK";
+            "file" = "cobblemonminigames-fabric-4.3.0+cobblemon1.8.0.jar";
+            "hash" = "sha512-HbfW1WTjVOpuHX7TsbDySv3YNoB9wquES3usqUEZkX9MgJs440/8i5XA0kL7VUrkaHduFebKgbBlwJLoBaVv0g==";
+        };
+        _hZjubEyC = {
+            "id" = "hZjubEyC";
+            "file" = "cobblemonminigames-neoforge-4.3.0+cobblemon1.8.0.jar";
+            "hash" = "sha512-8+s6iLPbTFaGtBKp4Sg9a2sAaA1QPYUh0RiT68a2xsfv6YONmDrQQ4I3xxwhkupZ486rzYEjMsXRLdHA7Cx8wQ==";
+        };
     in {
         "pBSpI6kW" = _pBSpI6kW;
         "IhjJ6Peo" = _IhjJ6Peo;
@@ -326,8 +346,12 @@ let
         "GKs9xwRR" = _GKs9xwRR;
         "xqEWabEx" = _xqEWabEx;
         "KqCDJVDx" = _KqCDJVDx;
-        "neoforge-1.21.1" = _KqCDJVDx;
-        "fabric-1.21.1" = _xqEWabEx;
+        "tOrS93n2" = _tOrS93n2;
+        "XtrUweym" = _XtrUweym;
+        "pOzUTCKK" = _pOzUTCKK;
+        "hZjubEyC" = _hZjubEyC;
+        "neoforge-1.21.1" = _hZjubEyC;
+        "fabric-1.21.1" = _pOzUTCKK;
         "pkg-1.0.0" = _IhjJ6Peo;
         "pkg-1.0.1" = _lxUKvMGF;
         "pkg-1.0.2" = _JyFFGSZ9;
@@ -355,7 +379,9 @@ let
         "pkg-4.2.0+cobblemon1.8.0" = _2dHfXMeg;
         "pkg-4.2.1+cobblemon1.7.3" = _GKs9xwRR;
         "pkg-4.2.1+cobblemon1.8.0" = _KqCDJVDx;
-        "default" = _KqCDJVDx;
+        "pkg-4.3.0+cobblemon1.7.3" = _XtrUweym;
+        "pkg-4.3.0+cobblemon1.8.0" = _hZjubEyC;
+        "default" = _hZjubEyC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-minigames";

@@ -31,6 +31,16 @@ let
             "file" = "flashback-extras-1.3.0-MC26.3.x.jar";
             "hash" = "sha512-Ef79g8suvK0cLm9cn8VQFSfB41+/ACNTkWaHmG2RjCCgW3bI/WA9AYq1+Cvfb2nSe5ohtesEmgCVPdT1Imv/xg==";
         };
+        _lcARSLER = {
+            "id" = "lcARSLER";
+            "file" = "flashback-extras-1.3.1-MC26.3.x.jar";
+            "hash" = "sha512-ejjhvheWGyg3ZgirxG+ChL1LJ/vqAZqMnU0g75jKcgVJkWA9ZbKIJk1uhvwtiajRPf/RVcEXo7d6TGllgT771Q==";
+        };
+        _KNkIKVDR = {
+            "id" = "KNkIKVDR";
+            "file" = "flashback-extras-1.3.2-MC26.3.x.jar";
+            "hash" = "sha512-Acrz0b1DxK/5xzvvKZDCME0OeFN3lsOPFbw4q7EwcBiXIIlmxyFP9vT2mZ+ZooQsala07qLPl3yPc+ddyXIy2Q==";
+        };
     in {
         "KsgIsk7C" = _KsgIsk7C;
         "OtYu7Dc0" = _OtYu7Dc0;
@@ -38,6 +48,8 @@ let
         "FZoA2T8E" = _FZoA2T8E;
         "aUTpZweH" = _aUTpZweH;
         "hkhJxXuO" = _hkhJxXuO;
+        "lcARSLER" = _lcARSLER;
+        "KNkIKVDR" = _KNkIKVDR;
         "fabric-1.21.11" = _KsgIsk7C;
         "fabric-1.21.8" = _2ESLMe3K;
         "fabric-1.21.9" = _2ESLMe3K;
@@ -48,12 +60,14 @@ let
         "fabric-26.1.1" = _FZoA2T8E;
         "fabric-26.1.2" = _FZoA2T8E;
         "fabric-26.2" = _aUTpZweH;
-        "fabric-26.3" = _hkhJxXuO;
+        "fabric-26.3" = _KNkIKVDR;
         "pkg-1.0.0" = _2ESLMe3K;
         "pkg-1.1.0" = _FZoA2T8E;
         "pkg-1.2.0" = _aUTpZweH;
         "pkg-1.3.0" = _hkhJxXuO;
-        "default" = _hkhJxXuO;
+        "pkg-1.3.1" = _lcARSLER;
+        "pkg-1.3.2" = _KNkIKVDR;
+        "default" = _KNkIKVDR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashback-extras";

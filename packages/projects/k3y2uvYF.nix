@@ -21,17 +21,24 @@ let
             "file" = "ccredstonelinkbridge-neoforge-1.0.3.jar";
             "hash" = "sha512-16HLjUsColvb69aJPpTPsdBwKlNPkWiIbc+CvsnMbEGQ280NvBFwH+DP+bWjj7kzGHQkncfO1PvC6bTdFkXphA==";
         };
+        _96ZtnDyu = {
+            "id" = "96ZtnDyu";
+            "file" = "ccredstonelinkbridge-neoforge-1.1.0.jar";
+            "hash" = "sha512-GqtOlnxhUAnAyhNavMw56qfdlf0w2xWsE7FK7e43pBMD4eSnsyJf/gxZWf0rM3UiXa7UDM5hVsWKgBar2hp6ZA==";
+        };
     in {
         "FqkBqzBr" = _FqkBqzBr;
         "k0NZ4b2R" = _k0NZ4b2R;
         "Dzq97gN7" = _Dzq97gN7;
         "gH50GtVz" = _gH50GtVz;
+        "96ZtnDyu" = _96ZtnDyu;
         "forge-1.20.1" = _Dzq97gN7;
-        "neoforge-1.21.1" = _gH50GtVz;
+        "neoforge-1.21.1" = _96ZtnDyu;
         "pkg-1.0.1" = _FqkBqzBr;
         "pkg-1.0.2" = _Dzq97gN7;
         "pkg-1.0.3" = _gH50GtVz;
-        "default" = _gH50GtVz;
+        "pkg-1.1.0" = _96ZtnDyu;
+        "default" = _96ZtnDyu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cc-redstone-link-bridge";

@@ -126,6 +126,26 @@ let
             "file" = "chisel-26.3.0.1.jar";
             "hash" = "sha512-bXk11NEJTMkbgh1/bFZtxrjeXB9V1EHdn0FZAoqFl1LMAgd4voLQ3vkwhvCr/SUfrS74C3TcYV1wlEyF5hLVkQ==";
         };
+        _87gGWn24 = {
+            "id" = "87gGWn24";
+            "file" = "chisel-1.21.1.3.jar";
+            "hash" = "sha512-DA7Uxr8Fyw+fxztJ9lF9m37B0HKs1qbDAGMp/mSWdunK0seMS0pgHh5Kopit9Yl52rrdt4vpAh3e1go9VVoMmw==";
+        };
+        _f8HYGyei = {
+            "id" = "f8HYGyei";
+            "file" = "chisel-26.2.0.2.jar";
+            "hash" = "sha512-+O1JkIDFyxAguUhwX4mG4kng/9lce5RnrDOtqa8qXsJgYHclQG2qzZ3xLMRq1mSYMNIMHu/7hc8/uqn6M52szg==";
+        };
+        _mreupDjg = {
+            "id" = "mreupDjg";
+            "file" = "chisel-26.3.0.2.jar";
+            "hash" = "sha512-lGZGenphc2qvXHZK8DI2n30DJzGT8XcPZu9ggC76q1iqHeg83/3zr/LXZsVNXYtmBCEqfl709CKxrLGdPd/NBA==";
+        };
+        _zUVU9IFZ = {
+            "id" = "zUVU9IFZ";
+            "file" = "chisel-26.1.2.21.jar";
+            "hash" = "sha512-aNpsIV1Pfi7XF5yATcarvoBSrY1szRk6XFOMqeJpQEfDZTKXHnFIOA8dsQxWuoamY3Sw5vWeRf3tZrJ3rOV3GA==";
+        };
     in {
         "bFmy2Ppo" = _bFmy2Ppo;
         "sVdP2OwL" = _sVdP2OwL;
@@ -152,11 +172,15 @@ let
         "2L3cF0cT" = _2L3cF0cT;
         "ThgGlUGw" = _ThgGlUGw;
         "4q5IySZX" = _4q5IySZX;
+        "87gGWn24" = _87gGWn24;
+        "f8HYGyei" = _f8HYGyei;
+        "mreupDjg" = _mreupDjg;
+        "zUVU9IFZ" = _zUVU9IFZ;
         "neoforge-26.1" = _4pSTTTxI;
-        "neoforge-26.1.2" = _mn9r7bIW;
-        "neoforge-1.21.1" = _2L3cF0cT;
-        "neoforge-26.2" = _ThgGlUGw;
-        "neoforge-26.3" = _4q5IySZX;
+        "neoforge-26.1.2" = _zUVU9IFZ;
+        "neoforge-1.21.1" = _87gGWn24;
+        "neoforge-26.2" = _f8HYGyei;
+        "neoforge-26.3" = _mreupDjg;
         "pkg-3.0.0" = _bFmy2Ppo;
         "pkg-3.0.1" = _sVdP2OwL;
         "pkg-3.0.2" = _qPk2aAI9;
@@ -182,7 +206,11 @@ let
         "pkg-1.21.1.2" = _2L3cF0cT;
         "pkg-26.2.0.1" = _ThgGlUGw;
         "pkg-26.3.0.1" = _4q5IySZX;
-        "default" = _4q5IySZX;
+        "pkg-1.21.1.3" = _87gGWn24;
+        "pkg-26.2.0.2" = _f8HYGyei;
+        "pkg-26.3.0.2" = _mreupDjg;
+        "pkg-26.1.2.21" = _zUVU9IFZ;
+        "default" = _zUVU9IFZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chisel-3";

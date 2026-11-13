@@ -51,6 +51,11 @@ let
             "file" = "ragdoll_reactions-1.21.1-0.7.0.jar";
             "hash" = "sha512-qrlAY2Ndh5CjOp6yGR1/yLOzixsohcDellc6s/vLmmK5BPFRLm85w+E2SLZbdvIR8bgWYIU1F0qscTs9YTZHZQ==";
         };
+        _ITBE1E6c = {
+            "id" = "ITBE1E6c";
+            "file" = "ragdoll_reactions-1.21.1-0.8.0.jar";
+            "hash" = "sha512-P1qt0n+LovGc30MuBSYX8t3Zq/FSw27dLqzT6US0P66lfshvGYuZi9//d21qqCcJ9eC1LJy44YXT/Bhgp+Zc/Q==";
+        };
     in {
         "NbjtTRHL" = _NbjtTRHL;
         "mRfHEUSC" = _mRfHEUSC;
@@ -62,7 +67,8 @@ let
         "TkqZUVEW" = _TkqZUVEW;
         "Oa0RDBOh" = _Oa0RDBOh;
         "yx32Af0N" = _yx32Af0N;
-        "neoforge-1.21.1" = _yx32Af0N;
+        "ITBE1E6c" = _ITBE1E6c;
+        "neoforge-1.21.1" = _ITBE1E6c;
         "pkg-0.1.0" = _NbjtTRHL;
         "pkg-0.2.0" = _mRfHEUSC;
         "pkg-0.3.0" = _YJNBV30q;
@@ -73,7 +79,8 @@ let
         "pkg-0.6.6" = _TkqZUVEW;
         "pkg-0.6.7" = _Oa0RDBOh;
         "pkg-0.7.0" = _yx32Af0N;
-        "default" = _yx32Af0N;
+        "pkg-0.8.0" = _ITBE1E6c;
+        "default" = _ITBE1E6c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ragdoll-reactions";

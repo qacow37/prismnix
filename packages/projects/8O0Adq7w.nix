@@ -156,6 +156,16 @@ let
             "file" = "wunderlib-26.301.4.jar";
             "hash" = "sha512-iJeJxhm4Dq5xQzeLk+H/jWarMxV1o8qEg6tfpZE0S+RFO+89Bf4pEIeBew7BR04LKMiyAaz+UgVjG+KSjUQbHw==";
         };
+        _VlgzubHe = {
+            "id" = "VlgzubHe";
+            "file" = "wunderlib-21.800.4.jar";
+            "hash" = "sha512-8P6VitljLYwVNK1GluLNCc7Ipk6T7zPn5ALp14t55qb5cG9qATabVmjARXEPrtnqHFe7QcU2jsjV2JNAd1Zwgg==";
+        };
+        _iYZCv03E = {
+            "id" = "iYZCv03E";
+            "file" = "wunderlib-26.400.0.jar";
+            "hash" = "sha512-Uuue+BqhUmixi1Q33HFO0ntINZll4ShEj2k8xWplb2b3yB0KZndQP3ZstwoSDHwJRTPBiEr+pnD4YsLHFCXxZQ==";
+        };
     in {
         "Ql6bYH4v" = _Ql6bYH4v;
         "NWOZ9B7R" = _NWOZ9B7R;
@@ -188,20 +198,23 @@ let
         "QxVEDpO5" = _QxVEDpO5;
         "2Grs4DUN" = _2Grs4DUN;
         "emLYjVJd" = _emLYjVJd;
+        "VlgzubHe" = _VlgzubHe;
+        "iYZCv03E" = _iYZCv03E;
         "fabric-1.21" = _NWOZ9B7R;
         "fabric-1.21.1" = _NWOZ9B7R;
         "fabric-26.1" = _uV1W6Y1E;
         "fabric-26.1.1" = _uV1W6Y1E;
         "fabric-26.1.2" = _uV1W6Y1E;
-        "fabric-1.21.6" = _QxVEDpO5;
-        "fabric-1.21.7" = _QxVEDpO5;
-        "fabric-1.21.8" = _QxVEDpO5;
+        "fabric-1.21.6" = _VlgzubHe;
+        "fabric-1.21.7" = _VlgzubHe;
+        "fabric-1.21.8" = _VlgzubHe;
         "fabric-26.3-snapshot-5" = _c3ohD88a;
         "fabric-26.3-snapshot-6" = _1tlKntEn;
         "fabric-26.2" = _teACYvoS;
         "fabric-26.3" = _emLYjVJd;
         "fabric-1.20" = _190vW5cJ;
         "fabric-1.20.1" = _190vW5cJ;
+        "fabric-26.4-snapshot-8" = _iYZCv03E;
         "pkg-21.0.6" = _Ql6bYH4v;
         "pkg-21.0.8" = _NWOZ9B7R;
         "pkg-26.0.0" = _N6fq9zK4;
@@ -233,7 +246,9 @@ let
         "pkg-21.800.3" = _QxVEDpO5;
         "pkg-26.301.3" = _2Grs4DUN;
         "pkg-26.301.4" = _emLYjVJd;
-        "default" = _emLYjVJd;
+        "pkg-21.800.4" = _VlgzubHe;
+        "pkg-26.400.0" = _iYZCv03E;
+        "default" = _iYZCv03E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wunderlib";

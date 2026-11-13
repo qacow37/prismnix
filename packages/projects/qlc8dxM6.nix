@@ -1561,6 +1561,36 @@ let
             "file" = "Stargate.Journey-1.21.1-0.6.53.jar";
             "hash" = "sha512-QSqmy6dMjy09cPVPqF9nRqZaHgWE6d7qnavopWV5D0dra6OR2tsa4OFAq5YdmFn7G6uNhyryVQVSf/uluuBbKw==";
         };
+        _J2diAYoh = {
+            "id" = "J2diAYoh";
+            "file" = "Stargate.Journey-1.18.2-0.6.54.jar";
+            "hash" = "sha512-U4ryEMIxNfQSM7DtdBPBzRnJW1lXXhfAzDQmXjK66XZjzjLpQQYW8njgipJ6nPc2Vsj+aIOJaIuueqVbidm2rg==";
+        };
+        _yCvavf4H = {
+            "id" = "yCvavf4H";
+            "file" = "Stargate.Journey-1.19.2-0.6.54.jar";
+            "hash" = "sha512-Qpfw+jmanNbWDb33wUJTaCnfuPhO8GW+aRwXOOs/0aVXFv8rNwYg3RYQi6QUTiwua1DaO3vblBEh1nQj7bdfmQ==";
+        };
+        _1FM7ZQ6e = {
+            "id" = "1FM7ZQ6e";
+            "file" = "Stargate.Journey-1.19.3-0.6.54.jar";
+            "hash" = "sha512-28LGvqABXzv1G+0aHsaMNFaKf35y8O/VFw0NiuZ5CQIS+91biDLru3+vxLdLZNG+53S1kANLiJ8CKWiCgnMnnw==";
+        };
+        _wcznC24H = {
+            "id" = "wcznC24H";
+            "file" = "Stargate.Journey-1.19.4-0.6.54.jar";
+            "hash" = "sha512-BZPXIPJGKQ3WSxv/cikG2/1RPBgGAbra0PJI88hho8NW8CbevGRSmHKLVOVrG7grm7he5mvhar21dJEtwFkkIA==";
+        };
+        _lhR8mlfH = {
+            "id" = "lhR8mlfH";
+            "file" = "Stargate.Journey-1.20.1-0.6.54.jar";
+            "hash" = "sha512-fWX5jj25uwv7tgclbuV9Srie35vGJLIsiXFpjurLRFy5OryTiAOKYpkt+1Sz8kjY2M72Ugx7s5SkMUaqB9gVFA==";
+        };
+        _C9jX8BNz = {
+            "id" = "C9jX8BNz";
+            "file" = "Stargate.Journey-1.21.1-0.6.54.jar";
+            "hash" = "sha512-eH9/4zKR84fyrz574sE6TVrN9Gv/HtJfoHU93Uh0zaKxq51+pepSKIA2pxRebH2PXSq+yBd0AS3C6izGkXKOVQ==";
+        };
     in {
         "bSh3bKLz" = _bSh3bKLz;
         "T6vNsbfw" = _T6vNsbfw;
@@ -1874,12 +1904,18 @@ let
         "K8SyXhh4" = _K8SyXhh4;
         "OBUSMSWj" = _OBUSMSWj;
         "FDNxAJMm" = _FDNxAJMm;
-        "forge-1.19.3" = _q86KSryZ;
-        "forge-1.19.4" = _K8SyXhh4;
-        "forge-1.19.2" = _5vZ4n5AG;
-        "forge-1.20.1" = _OBUSMSWj;
-        "forge-1.18.2" = _MqKtu28y;
-        "neoforge-1.21.1" = _FDNxAJMm;
+        "J2diAYoh" = _J2diAYoh;
+        "yCvavf4H" = _yCvavf4H;
+        "1FM7ZQ6e" = _1FM7ZQ6e;
+        "wcznC24H" = _wcznC24H;
+        "lhR8mlfH" = _lhR8mlfH;
+        "C9jX8BNz" = _C9jX8BNz;
+        "forge-1.19.3" = _1FM7ZQ6e;
+        "forge-1.19.4" = _wcznC24H;
+        "forge-1.19.2" = _yCvavf4H;
+        "forge-1.20.1" = _lhR8mlfH;
+        "forge-1.18.2" = _J2diAYoh;
+        "neoforge-1.21.1" = _C9jX8BNz;
         "pkg-0.6.2" = _bSh3bKLz;
         "pkg-0.6.3" = _T6vNsbfw;
         "pkg-0.6.4" = _Srj9INZt;
@@ -1936,7 +1972,8 @@ let
         "pkg-0.6.51" = _cDVrUzYl;
         "pkg-0.6.52" = _HcYWpI7G;
         "pkg-0.6.53" = _FDNxAJMm;
-        "default" = _FDNxAJMm;
+        "pkg-0.6.54" = _C9jX8BNz;
+        "default" = _C9jX8BNz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sgjourney";

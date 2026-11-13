@@ -40652,4 +40652,12 @@ args:{
   "clapping-cat-meme" = import ./f9vNpjbj.nix args;
   "derivativebodycam" = import ./z67DnolW.nix args;
   "neythox-3d-tools" = import ./dzGxygHJ.nix args;
+  "phonon" = import ./eQMs1sDd.nix args;
+  "actual-sodium" = import ./D9tch0HE.nix args;
+  "economyshopgui" = import ./khsXZqla.nix args;
+  "aero-player-tilt" = import ./R8r1wiW4.nix args;
+  "asymmetric-battles-api" = import ./sI88vVWl.nix args;
+  "the-cat-in-the-hat-horror-plus" = import ./Fa3OxQRF.nix args;
+  "inventory-expanded" = import ./kcgUksbd.nix args;
+  "decorationx-christmas" = import ./7COzXwtc.nix args;
 }

@@ -31,6 +31,11 @@ let
             "file" = "AL's Spiders Revamped+FA 2.0.zip";
             "hash" = "sha512-wKA6KVbnbIT5N935Vgs5mEjI1duHITmYLe165zIgWPIGbMxvb0O2gmvXtcNxM0Q+lbLlcVmWSs9GRIpvDAQQow==";
         };
+        _XArshZ8M = {
+            "id" = "XArshZ8M";
+            "file" = "AL's Spiders Revamped+FA 2.0.1.zip";
+            "hash" = "sha512-452/V0EB/XVDiJ2CwMI1MI92FVvsyYwSxyrefz6ZQhimaQPPfoTcYWyRGQxXGI2QMz1nDQQ9KpSxpZhXTZTmLw==";
+        };
     in {
         "dkLVGc79" = _dkLVGc79;
         "7iHhw5lj" = _7iHhw5lj;
@@ -38,6 +43,7 @@ let
         "ezSSxWMK" = _ezSSxWMK;
         "M9AxMZzJ" = _M9AxMZzJ;
         "qQ5HReHT" = _qQ5HReHT;
+        "XArshZ8M" = _XArshZ8M;
         "minecraft-1.20.6" = _dkLVGc79;
         "minecraft-1.21" = _dkLVGc79;
         "minecraft-1.21.1" = _dkLVGc79;
@@ -48,17 +54,19 @@ let
         "minecraft-1.21.9" = _qQ5HReHT;
         "minecraft-1.21.10" = _qQ5HReHT;
         "minecraft-1.21.11" = _qQ5HReHT;
-        "minecraft-26.1" = _qQ5HReHT;
-        "minecraft-26.1.1" = _qQ5HReHT;
-        "minecraft-26.1.2" = _qQ5HReHT;
-        "minecraft-26.2" = _qQ5HReHT;
+        "minecraft-26.1" = _XArshZ8M;
+        "minecraft-26.1.1" = _XArshZ8M;
+        "minecraft-26.1.2" = _XArshZ8M;
+        "minecraft-26.2" = _XArshZ8M;
+        "minecraft-26.3" = _XArshZ8M;
         "pkg-1.3" = _dkLVGc79;
         "pkg-1.4" = _7iHhw5lj;
         "pkg-1.4.1" = _n36yigF4;
         "pkg-1.4.2" = _ezSSxWMK;
         "pkg-1.5" = _M9AxMZzJ;
         "pkg-2.0" = _qQ5HReHT;
-        "default" = _qQ5HReHT;
+        "pkg-2.0.1" = _XArshZ8M;
+        "default" = _XArshZ8M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "als-spiders-revamped-x-fresh-animations";

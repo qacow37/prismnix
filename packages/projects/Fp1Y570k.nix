@@ -116,6 +116,11 @@ let
             "file" = "CREATIVE TEXURE 26.3 .zip";
             "hash" = "sha512-cHEhMgW4RMLChXZqsBQC3Crr1pTrcdE5g1mXQS2sME0i6VUhbkgx7SysO4omnc8l/Qv8+4W/ZKeeuoDa4P7TpQ==";
         };
+        _Nt751zmN = {
+            "id" = "Nt751zmN";
+            "file" = "CREATIVE TEXURE 26.3 v2.zip";
+            "hash" = "sha512-N7APB+C2xel1mLdCUHudWYMEJvHfX6379QdknaylRXVXqioQFpoUoNazI6qJIiXa08U1bcz6HTjzkGd2kqPs2w==";
+        };
     in {
         "hj5KCwFx" = _hj5KCwFx;
         "DxokRio8" = _DxokRio8;
@@ -140,6 +145,7 @@ let
         "2NmAxlUo" = _2NmAxlUo;
         "W0hoOQtR" = _W0hoOQtR;
         "fxMxZVsP" = _fxMxZVsP;
+        "Nt751zmN" = _Nt751zmN;
         "minecraft-1.20.1" = _W0hoOQtR;
         "minecraft-1.20.2" = _W0hoOQtR;
         "minecraft-1.20.3" = _W0hoOQtR;
@@ -276,12 +282,12 @@ let
         "minecraft-26.1-snapshot-2" = _Nq7LN0Pt;
         "minecraft-26.1-snapshot-3" = _Nq7LN0Pt;
         "minecraft-26.1-snapshot-4" = _Nq7LN0Pt;
-        "minecraft-26.1" = _2NmAxlUo;
-        "minecraft-26.1.1" = _2NmAxlUo;
-        "minecraft-26.1.2" = _2NmAxlUo;
+        "minecraft-26.1" = _Nt751zmN;
+        "minecraft-26.1.1" = _Nt751zmN;
+        "minecraft-26.1.2" = _Nt751zmN;
         "minecraft-26.2-pre-2" = _2NmAxlUo;
-        "minecraft-26.2" = _W0hoOQtR;
-        "minecraft-26.3" = _fxMxZVsP;
+        "minecraft-26.2" = _Nt751zmN;
+        "minecraft-26.3" = _Nt751zmN;
         "pkg-1.00" = _hj5KCwFx;
         "pkg-2.0.0" = _DxokRio8;
         "pkg-3.0.0" = _KCRIPuaW;
@@ -305,7 +311,8 @@ let
         "pkg-26.1.2.3" = _2NmAxlUo;
         "pkg-26.1.2.4" = _W0hoOQtR;
         "pkg-26.3.1" = _fxMxZVsP;
-        "default" = _fxMxZVsP;
+        "pkg-26.3.2" = _Nt751zmN;
+        "default" = _Nt751zmN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creative-texure";

@@ -236,6 +236,36 @@ let
             "file" = "carpetvariants-1.21.7-1.2.1.jar";
             "hash" = "sha512-fRsShNrcannalYpk37Eu2h3Q43JAdZDJbpUWdnHDwmIQExSaPTybOyom3BhAdZLya7ZAwkf0tY7Gp7rI+zDBPA==";
         };
+        _T8dUSFEG = {
+            "id" = "T8dUSFEG";
+            "file" = "carpetvariants-fabric-26.3-1.2.2.jar";
+            "hash" = "sha512-pAewCYljhGzfn4np2beASPTSOsyJ7s/x7NglOuSOu1S2HTyfnIRAZsyZ2RLJEWLkC7X4zbYgFm7ISX/SENZ+Bw==";
+        };
+        _94WHJ8KF = {
+            "id" = "94WHJ8KF";
+            "file" = "carpetvariants-neo-26.3-1.2.2.jar";
+            "hash" = "sha512-RPsGN+ZusYIigLGGTCkbJBOW2lmd4V3HFbVuvbLoYYISf1xxoILiT4o11N6gMt3mX4QDDdpMorWJosipAjPeNA==";
+        };
+        _6HCsRp9g = {
+            "id" = "6HCsRp9g";
+            "file" = "carpetvariants-fabric-26.1.2-1.2.0.jar";
+            "hash" = "sha512-cS6sO5If75BwoLIFYz2sjSTRyn5xi19cKIPUoFSbjBJeZbYSUYYZuaj6PmdgkZBjAeg9dRfuv+CNlXaUN6/wOA==";
+        };
+        _shTcyp6K = {
+            "id" = "shTcyp6K";
+            "file" = "carpetvariants-neo-26.1.2-1.2.1.jar";
+            "hash" = "sha512-PBdWS4FcH2mzyRDZMQ+/+kE/1Ukw+/50Lfe+3xAA8vaIkjmFJwJA13Ua8UELD1y6kM/FwmL/oME55fLT6PWh0w==";
+        };
+        _Y6z263vm = {
+            "id" = "Y6z263vm";
+            "file" = "carpetvariants-fabric-26.2-1.2.0.jar";
+            "hash" = "sha512-WP2RpxCXZGz9LjnzMr4fW4kFBdBDLY3sx2hhzOyBe49DEk7StbrXGLCm4gt178xnXPw2vdzZ9ZF8Xql79H0cRw==";
+        };
+        _3s3LiNOg = {
+            "id" = "3s3LiNOg";
+            "file" = "carpetvariants-neo-26.2-1.2.1.jar";
+            "hash" = "sha512-uc7sudBdL8ZCs4NFUnVTTpE25z/6bNf06Z3sDzIl6LzFkvSgJXGHCwsHw7/Hm1qvy52cepB3DdZqGrQ34J2ruQ==";
+        };
     in {
         "hOugI1sM" = _hOugI1sM;
         "tUwwFvfT" = _tUwwFvfT;
@@ -284,6 +314,12 @@ let
         "95NXvmwU" = _95NXvmwU;
         "PTnb90Ly" = _PTnb90Ly;
         "TSf5Mvm5" = _TSf5Mvm5;
+        "T8dUSFEG" = _T8dUSFEG;
+        "94WHJ8KF" = _94WHJ8KF;
+        "6HCsRp9g" = _6HCsRp9g;
+        "shTcyp6K" = _shTcyp6K;
+        "Y6z263vm" = _Y6z263vm;
+        "3s3LiNOg" = _3s3LiNOg;
         "neoforge-1.21" = _e6cJSlrL;
         "neoforge-1.20.6" = _JHopIWKc;
         "neoforge-1.20.4" = _95NXvmwU;
@@ -294,6 +330,9 @@ let
         "neoforge-1.21.5" = _hBfd5ZDV;
         "neoforge-1.21.6" = _PTnb90Ly;
         "neoforge-1.21.7" = _TSf5Mvm5;
+        "neoforge-26.3" = _94WHJ8KF;
+        "neoforge-26.1.2" = _shTcyp6K;
+        "neoforge-26.2" = _3s3LiNOg;
         "forge-1.20.1" = _v3WLBuMq;
         "forge-1.19.2" = _I4cIxsRp;
         "forge-1.18.2" = _shzcIsKR;
@@ -306,6 +345,9 @@ let
         "fabric-1.21.3" = _LcGDlXgb;
         "fabric-1.19.2" = _6ZB0FJIA;
         "fabric-1.18.2" = _8MUiM8FS;
+        "fabric-26.3" = _T8dUSFEG;
+        "fabric-26.1.2" = _6HCsRp9g;
+        "fabric-26.2" = _Y6z263vm;
         "quilt-1.21.3" = _LcGDlXgb;
         "quilt-1.21.1" = _YibKsOCy;
         "quilt-1.20.6" = _gtvpkmul;
@@ -338,7 +380,13 @@ let
         "pkg-1.20.4-1.1.1" = _95NXvmwU;
         "pkg-1.21.6-1.2.1" = _PTnb90Ly;
         "pkg-1.21.7-1.2.1" = _TSf5Mvm5;
-        "default" = _TSf5Mvm5;
+        "pkg-26.3-1.2.2-fabric" = _T8dUSFEG;
+        "pkg-26.3-1.2.2-neoforge" = _94WHJ8KF;
+        "pkg-26.1.2-1.2.0-fabric" = _6HCsRp9g;
+        "pkg-26.1.2-1.2.1-neoforge" = _shTcyp6K;
+        "pkg-26.2-1.2.0-fabric" = _Y6z263vm;
+        "pkg-26.2-1.2.1-neoforge" = _3s3LiNOg;
+        "default" = _3s3LiNOg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-variants";

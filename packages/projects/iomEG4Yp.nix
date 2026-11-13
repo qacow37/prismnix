@@ -16,19 +16,26 @@ let
             "file" = "replanter-forked-2.3.4+26.3.jar";
             "hash" = "sha512-TRsLI5QLUi48kPQy7NL6UaRZJCepjpTBu08TQ3aiDlLYxtm8an+iUPGgmyS5Lcku5NDqvYQTevLw+9P42RLn3w==";
         };
+        _xXhUL0A1 = {
+            "id" = "xXhUL0A1";
+            "file" = "replanter-forked-2.3.5 MC 26.3.jar";
+            "hash" = "sha512-tbj57a5/zi6VoMGog2oYo9x/oLVCZPwOLAGlI2aWRsXPxo7UJFb4hNyWoy6ovOnegwawGr6ug+/uA+6Kqr3qnA==";
+        };
     in {
         "FTKlBO35" = _FTKlBO35;
         "AdsTwCsG" = _AdsTwCsG;
         "batuAy5H" = _batuAy5H;
+        "xXhUL0A1" = _xXhUL0A1;
         "fabric-26.1" = _FTKlBO35;
         "fabric-26.1.1" = _FTKlBO35;
         "fabric-26.1.2" = _FTKlBO35;
         "fabric-26.2" = _AdsTwCsG;
-        "fabric-26.3" = _batuAy5H;
+        "fabric-26.3" = _xXhUL0A1;
         "pkg-2.3.4-26.1" = _FTKlBO35;
         "pkg-2.3.4-26.2" = _AdsTwCsG;
         "pkg-2.3.4-26.3" = _batuAy5H;
-        "default" = _batuAy5H;
+        "pkg-2.3.5-26.3" = _xXhUL0A1;
+        "default" = _xXhUL0A1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "replanterforked";

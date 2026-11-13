@@ -451,6 +451,11 @@ let
             "file" = "visual_set_edit-1.12.2.0.jar";
             "hash" = "sha512-4soSbRzlxMv/fOIfikB2kW11b8x76tATQICmjdBdPZTpkvMLTv7NHCd9euuH1P/lfMaZSLGEr9zrFECmMm+B3w==";
         };
+        _Ogn2blQU = {
+            "id" = "Ogn2blQU";
+            "file" = "visual_set_edit-1.12.3.0.jar";
+            "hash" = "sha512-vQfcvytVvhPuY8SzEpIxGPJ+7qUz3wK30S//dkjLt/fdGPtv48mxI3mqISZSJq2cE2trntM4ViDM6Dqyzt/BLQ==";
+        };
     in {
         "JxQtKoqw" = _JxQtKoqw;
         "aFcNg4zJ" = _aFcNg4zJ;
@@ -542,7 +547,8 @@ let
         "FYWfsxSC" = _FYWfsxSC;
         "mIIXfhd9" = _mIIXfhd9;
         "7HHSr0tb" = _7HHSr0tb;
-        "forge-1.20.1" = _7HHSr0tb;
+        "Ogn2blQU" = _Ogn2blQU;
+        "forge-1.20.1" = _Ogn2blQU;
         "neoforge-1.21.1" = _mIIXfhd9;
         "neoforge-1.21.2" = _Uml5BmVN;
         "neoforge-1.21.3" = _Uml5BmVN;
@@ -651,7 +657,8 @@ let
         "pkg-1.12.1.1" = _FYWfsxSC;
         "pkg-1.12.1.1-neoforge-1.21.1" = _mIIXfhd9;
         "pkg-1.12.2.0" = _7HHSr0tb;
-        "default" = _7HHSr0tb;
+        "pkg-1.12.3.0" = _Ogn2blQU;
+        "default" = _Ogn2blQU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-set-edit";

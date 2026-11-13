@@ -66,6 +66,11 @@ let
             "file" = "aeog-26.2-3.1.0.jar";
             "hash" = "sha512-As1K6iB4aVrsnOLWxs4TOM5PGZBEfOiNKvSmUg5hICB1YJ9pb2vgPuKRx9170aWpqGVw7srd5EoBc75oe7mPGg==";
         };
+        _RGwU8NTp = {
+            "id" = "RGwU8NTp";
+            "file" = "aeog-26.3-3.2.0.jar";
+            "hash" = "sha512-QB9UrVibm4MIQgWIVtEnl8SUaZHOYGH8dOAyKaozCu81d8qyQleXQwRQ9gluxqxhLcnzaSvcbNQANbAUzF7oOg==";
+        };
     in {
         "5uI9chQ8" = _5uI9chQ8;
         "KyQm2mMP" = _KyQm2mMP;
@@ -80,6 +85,7 @@ let
         "B2HKyV2E" = _B2HKyV2E;
         "DUfannkf" = _DUfannkf;
         "fj2mPsvo" = _fj2mPsvo;
+        "RGwU8NTp" = _RGwU8NTp;
         "fabric-1.21.10" = _mvHBy7HJ;
         "fabric-1.21.11" = _mvHBy7HJ;
         "fabric-1.21" = _OJorue2E;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _DUfannkf;
         "fabric-26.1.2" = _DUfannkf;
         "fabric-26.2" = _fj2mPsvo;
+        "fabric-26.3" = _RGwU8NTp;
         "pkg-1.0.0" = _KyQm2mMP;
         "pkg-1.1.0" = _MwpXg0IU;
         "pkg-1.2.0" = _yywyxjfu;
@@ -103,7 +110,8 @@ let
         "pkg-2.1.0" = _mvHBy7HJ;
         "pkg-3.0.0" = _B2HKyV2E;
         "pkg-3.1.0" = _fj2mPsvo;
-        "default" = _fj2mPsvo;
+        "pkg-3.2.0" = _RGwU8NTp;
+        "default" = _RGwU8NTp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvil-enchantment-ordering-guide";

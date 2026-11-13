@@ -2666,6 +2666,16 @@ let
             "file" = "hodgepodge-2.8.1.jar";
             "hash" = "sha512-JyqHfdXARIf2Y66hFK9yhw9VNQB5sbYbgBf4lRy+7YthahrVlFeqan/+onsu5/5s87eMRplXRXR2widfe9RabA==";
         };
+        _39lmOkj9 = {
+            "id" = "39lmOkj9";
+            "file" = "hodgepodge-2.8.2.jar";
+            "hash" = "sha512-uNqv07VMgu02ilg/7C5AVSlYe7YoFYOFS1o9gNeC1M/ORQDIxSzBt9Frtana+4C1OAChKC1sD5QQ9mztBpDDBA==";
+        };
+        _KvlHWgYO = {
+            "id" = "KvlHWgYO";
+            "file" = "hodgepodge-2.8.3.jar";
+            "hash" = "sha512-IYBT8TBAOQLhJgYhz4zIhKvwi6kV1ZekdZqOACOuUEw95HaAxuWy1Jl84x+ywrca2IT9bZf7q9VrI3gB2znYsg==";
+        };
     in {
         "hXRM2ICI" = _hXRM2ICI;
         "gLPkAGq1" = _gLPkAGq1;
@@ -3200,7 +3210,9 @@ let
         "2HkEHrzu" = _2HkEHrzu;
         "tsiANAKu" = _tsiANAKu;
         "ypPMmA8w" = _ypPMmA8w;
-        "forge-1.7.10" = _ypPMmA8w;
+        "39lmOkj9" = _39lmOkj9;
+        "KvlHWgYO" = _KvlHWgYO;
+        "forge-1.7.10" = _KvlHWgYO;
         "pkg-2.0.1" = _hXRM2ICI;
         "pkg-2.0.2" = _gLPkAGq1;
         "pkg-2.0.3" = _dIGGZkfj;
@@ -3729,7 +3741,9 @@ let
         "pkg-2.7.222" = _2HkEHrzu;
         "pkg-2.8.0" = _tsiANAKu;
         "pkg-2.8.1" = _ypPMmA8w;
-        "default" = _ypPMmA8w;
+        "pkg-2.8.2" = _39lmOkj9;
+        "pkg-2.8.3" = _KvlHWgYO;
+        "default" = _KvlHWgYO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hodgepodge";

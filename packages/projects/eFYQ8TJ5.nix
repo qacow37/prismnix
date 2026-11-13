@@ -81,6 +81,26 @@ let
             "file" = "Hitbox+ 1.2.0 - 26.3.jar";
             "hash" = "sha512-uUX7hCRUMXCkGOFQPLMfTnO1OC+J/tAHDHPx2vRqZByq6q7znRNzNkYDP9kkZu/XDu5DAVvqx/aA8gG9Z59T7g==";
         };
+        _b2uuj94p = {
+            "id" = "b2uuj94p";
+            "file" = "hitboxesplus-1.3.1+1.21.11.jar";
+            "hash" = "sha512-+BcFgWqeqOf8ZkiLiJYdTbDujZxHHth7nCqLoxJ+K4VgQt9xSYWrxomSQVb7UYJNEt+v/5PZor09gYgOrFY/DA==";
+        };
+        _gj7QqT21 = {
+            "id" = "gj7QqT21";
+            "file" = "hitboxesplus-1.3.1+26.1.jar";
+            "hash" = "sha512-hfamngodNB1cdu7AtlCPfLv7s2O2Y+MlWa1Owtoazw79iCPzsNAYQWuSyREbAk8F1i8nO94XWL62A46lTCCjaA==";
+        };
+        _GbAqVWGs = {
+            "id" = "GbAqVWGs";
+            "file" = "hitboxesplus-1.3.1+26.2.jar";
+            "hash" = "sha512-Xnx/O1LhVWKU62QjncvpxUhIB8BRXdhi9O7TArlhKlZpnFhXLm+vyqn1lptTA0XZP5e+ZVQiu9hI8HIqzoSKmg==";
+        };
+        _9mt8bQLh = {
+            "id" = "9mt8bQLh";
+            "file" = "hitboxesplus-1.3.1+26.3.jar";
+            "hash" = "sha512-zt5AP1easXFSexkdKW2jwHiXfD0+2Dxs8X1SSaXXB4dXICja2cHbegs4NjZ0fP5F1p8deRMuCSq/oQnzKo9nnA==";
+        };
     in {
         "Uu25zg36" = _Uu25zg36;
         "G7LwDexC" = _G7LwDexC;
@@ -98,12 +118,16 @@ let
         "z8aozovT" = _z8aozovT;
         "TkPalbBE" = _TkPalbBE;
         "nJSKbvY3" = _nJSKbvY3;
-        "fabric-1.21.11" = _KK232pM6;
-        "fabric-26.1" = _z8aozovT;
-        "fabric-26.1.1" = _z8aozovT;
-        "fabric-26.1.2" = _z8aozovT;
-        "fabric-26.2" = _TkPalbBE;
-        "fabric-26.3" = _nJSKbvY3;
+        "b2uuj94p" = _b2uuj94p;
+        "gj7QqT21" = _gj7QqT21;
+        "GbAqVWGs" = _GbAqVWGs;
+        "9mt8bQLh" = _9mt8bQLh;
+        "fabric-1.21.11" = _b2uuj94p;
+        "fabric-26.1" = _gj7QqT21;
+        "fabric-26.1.1" = _gj7QqT21;
+        "fabric-26.1.2" = _gj7QqT21;
+        "fabric-26.2" = _GbAqVWGs;
+        "fabric-26.3" = _9mt8bQLh;
         "pkg-1.21.11-Outdated" = _vZ6vqKxQ;
         "pkg-26.1-Outdated" = _G7LwDexC;
         "pkg-26.1.1-Outdated" = _CZi2KGFC;
@@ -118,7 +142,11 @@ let
         "pkg-26.1.X-Updated" = _z8aozovT;
         "pkg-26.2-Updated" = _TkPalbBE;
         "pkg-26.3-Updated" = _nJSKbvY3;
-        "default" = _nJSKbvY3;
+        "pkg-1.3.1+1.21.11" = _b2uuj94p;
+        "pkg-1.3.1+26.1.x" = _gj7QqT21;
+        "pkg-1.3.1+26.2" = _GbAqVWGs;
+        "pkg-1.3.1+26.3" = _9mt8bQLh;
+        "default" = _9mt8bQLh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hitbox+";

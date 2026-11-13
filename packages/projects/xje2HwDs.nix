@@ -101,6 +101,16 @@ let
             "file" = "admincommandtool-1.1.3-26.3.jar";
             "hash" = "sha512-KjPXBzdfchYdHw+Q9w7Yprhwd5pSQc3EgWjkLMrYw4bBM18v2PHgZOXD6VNPOpkcF9cH1hNqamE+iB9CH1ql5Q==";
         };
+        _AjAPhUEf = {
+            "id" = "AjAPhUEf";
+            "file" = "admincommandtool-2.0.0-26.3.jar";
+            "hash" = "sha512-yFbqkP0YvRG1mUBwBlk1jK2Sk5Iaxw3/dO0OwFDCtkIstcSRsBoMW9fcNJj083rsmxv3EJ5uxSTWUJ6TbfB8yw==";
+        };
+        _mZHAia44 = {
+            "id" = "mZHAia44";
+            "file" = "admincommandtool-2.0.0-26.2.jar";
+            "hash" = "sha512-0qo/8PCohF4TqVUzyjutgadhLP/saYVOSDSvJWcQrnKymf1q1GPReZRrUf7TVgl4TK4osGjwo5tcJSRxgd3Ibw==";
+        };
     in {
         "klN4iwVb" = _klN4iwVb;
         "pab0p3lI" = _pab0p3lI;
@@ -122,12 +132,14 @@ let
         "krEztT5d" = _krEztT5d;
         "vEoYyw1t" = _vEoYyw1t;
         "YEDoPOyA" = _YEDoPOyA;
+        "AjAPhUEf" = _AjAPhUEf;
+        "mZHAia44" = _mZHAia44;
         "fabric-1.21.11" = _RINbK4EY;
         "fabric-26.1" = _AJgPpqRx;
         "fabric-26.1.1" = _AJgPpqRx;
         "fabric-26.1.2" = _AJgPpqRx;
-        "fabric-26.2" = _EsdQ1DY9;
-        "fabric-26.3" = _YEDoPOyA;
+        "fabric-26.2" = _mZHAia44;
+        "fabric-26.3" = _AjAPhUEf;
         "pkg-1.0.6" = _tMwbagUL;
         "pkg-1.0.7" = _Vrt7TXeN;
         "pkg-1.0.8" = _3BKeHjFt;
@@ -136,7 +148,8 @@ let
         "pkg-1.1.1" = _krEztT5d;
         "pkg-1.1.2" = _vEoYyw1t;
         "pkg-1.1.3" = _YEDoPOyA;
-        "default" = _YEDoPOyA;
+        "pkg-2.0.0" = _mZHAia44;
+        "default" = _mZHAia44;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "admin-command-tool";

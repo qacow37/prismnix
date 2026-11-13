@@ -196,6 +196,16 @@ let
             "file" = "cobblemon-trainers-neoforge-1.1.3.jar";
             "hash" = "sha512-SEa949EcLQ+yOvsv4DqavwXDqX4lAFn+XPteGQ8ATbQNj3IQrRUXkhg/NY5nJDuUXjXeoysDu4uEZQQeuXR8VA==";
         };
+        _u00O7bwX = {
+            "id" = "u00O7bwX";
+            "file" = "cobblemon-trainers-neoforge-2.0.0-alpha.jar";
+            "hash" = "sha512-gDaEPSUZm5qt0eBspBDKh0Q+4h4/BXg+8RTMBoSvDFkA3uYdWzPUOSx2nyQK6OhjEo3kD1B9Dp4k7/zTuf1xMg==";
+        };
+        _AKEMGCw3 = {
+            "id" = "AKEMGCw3";
+            "file" = "cobblemon-trainers-2.0.0-alpha.jar";
+            "hash" = "sha512-KcJXNdA+XrTe2WkMbxS97V3Uj4pkIgzZO78tLbzeFwgrk8d2tiywY7/dCcXDYf/3S13mVrT2LtPCGXx03UL2sA==";
+        };
     in {
         "GNOUCeEI" = _GNOUCeEI;
         "9zW5iRiE" = _9zW5iRiE;
@@ -236,8 +246,10 @@ let
         "BaDM2232" = _BaDM2232;
         "Uby8pGUP" = _Uby8pGUP;
         "VpdtEtxx" = _VpdtEtxx;
-        "fabric-1.21.1" = _Uby8pGUP;
-        "neoforge-1.21.1" = _VpdtEtxx;
+        "u00O7bwX" = _u00O7bwX;
+        "AKEMGCw3" = _AKEMGCw3;
+        "fabric-1.21.1" = _AKEMGCw3;
+        "neoforge-1.21.1" = _u00O7bwX;
         "pkg-0.1.0" = _GNOUCeEI;
         "pkg-0.1.1" = _9zW5iRiE;
         "pkg-0.2.0" = _HDfAFzOa;
@@ -277,7 +289,9 @@ let
         "pkg-1.1.2-neoforge" = _BaDM2232;
         "pkg-1.1.3-fabric" = _Uby8pGUP;
         "pkg-1.1.3-neoforge" = _VpdtEtxx;
-        "default" = _VpdtEtxx;
+        "pkg-2.0.0-alpha-neoforge" = _u00O7bwX;
+        "pkg-2.0.0-alpha-fabric" = _AKEMGCw3;
+        "default" = _AKEMGCw3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-trainers-rerebleue";

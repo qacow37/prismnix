@@ -1046,6 +1046,16 @@ let
             "file" = "PickablePets-fabric-26.1.2.jar";
             "hash" = "sha512-pR/Ah6kUCxjYeiD6SkLW3TrZVzfX3xhnNHHTpgAdDofojJ6pG+renjMleyeBjbryHoislhczOUuwVXlaMLfRmw==";
         };
+        _bE8NH1Lx = {
+            "id" = "bE8NH1Lx";
+            "file" = "PickablePets-fabric-26.1.2.1.jar";
+            "hash" = "sha512-n3wtCZKE8XdwH4ROvz2C7d5idbKNLXnzoaKTjdM5M3VqLtTw8EzOSApX3KQzHlv+LGLMcurUzJUSrupcUh6y7A==";
+        };
+        _C0SXAi4V = {
+            "id" = "C0SXAi4V";
+            "file" = "PickablePets-neoforge-26.1.2.1.jar";
+            "hash" = "sha512-BAARzt34GOKyp8RJCpUuB+lB6w/ZsyeXt1Z28+ZMk1EnxWEZselG7ei5HStrk7M4qK7EPl9Fo50XZ/QtmvGPTQ==";
+        };
     in {
         "EGadnYNK" = _EGadnYNK;
         "LyExFQKD" = _LyExFQKD;
@@ -1256,6 +1266,8 @@ let
         "4VymLu9m" = _4VymLu9m;
         "AasW9tfk" = _AasW9tfk;
         "FIg2ogUK" = _FIg2ogUK;
+        "bE8NH1Lx" = _bE8NH1Lx;
+        "C0SXAi4V" = _C0SXAi4V;
         "forge-1.19" = _wWzsZZAv;
         "forge-1.19.2" = _uM3NY8yh;
         "forge-1.19.3" = _lXDTVXma;
@@ -1285,7 +1297,7 @@ let
         "fabric-1.21.3" = _eaJoroxV;
         "fabric-1.21.4" = _Y3GD1BBl;
         "fabric-1.21.5" = _3VKzsYNP;
-        "fabric-26.1.2" = _FIg2ogUK;
+        "fabric-26.1.2" = _bE8NH1Lx;
         "neoforge-1.20.4" = _962QHJpX;
         "neoforge-1.20.6" = _MhLQR94s;
         "neoforge-1.21" = _WM2TIsM1;
@@ -1294,7 +1306,7 @@ let
         "neoforge-1.21.3" = _BSsutOAF;
         "neoforge-1.21.4" = _4i7w9BVE;
         "neoforge-1.21.5" = _fzOgiXSi;
-        "neoforge-26.1.2" = _AasW9tfk;
+        "neoforge-26.1.2" = _C0SXAi4V;
         "pkg-1.0.0+1.19" = _LyExFQKD;
         "pkg-1.0.0+1.19.2" = _7AXPvwzz;
         "pkg-1.0.0+1.19.3" = _fg9sjSB6;
@@ -1369,7 +1381,8 @@ let
         "pkg-2.0.3.1" = _ToWCJJTV;
         "pkg-2.0.3.2" = _4VymLu9m;
         "pkg-26.1.2" = _FIg2ogUK;
-        "default" = _FIg2ogUK;
+        "pkg-26.1.2.1" = _C0SXAi4V;
+        "default" = _C0SXAi4V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickable-pets";

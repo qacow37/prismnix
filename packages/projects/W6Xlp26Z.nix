@@ -51,6 +51,26 @@ let
             "file" = "cratedelightcroptopia-26.06.24-26.1-neoforge.jar";
             "hash" = "sha512-FITC//ASRaA9AE/pPdUFJwppJ7UZ4Vhh3X8+zgl9B4ZyEyfn4FcSCfAI8vS07Q6CuJ54NcI/HRrOz6kZajxtSg==";
         };
+        _pG3NSMGv = {
+            "id" = "pG3NSMGv";
+            "file" = "cratedelightcroptopia-26.11.11-26.2-fabric.jar";
+            "hash" = "sha512-UghkkUktyy6y8gPkjWkZ/NPJ4H8EYpL2+NYRAmdTRn/7Nt3w3iBIgmfO3i1yYY02o8cnerRkeaDNQcUn5qQbSw==";
+        };
+        _BTJXq8wi = {
+            "id" = "BTJXq8wi";
+            "file" = "cratedelightcroptopia-26.11.11-26.3-fabric.jar";
+            "hash" = "sha512-zeU0qkP4B76rZ9GVreFpQDut+EQVo3NJvV5AAHuQdKW/eyTFuPUeKFOHK5ROxIbFo1NGkgkrgihEyPSLEtqyTA==";
+        };
+        _rpdjZXBJ = {
+            "id" = "rpdjZXBJ";
+            "file" = "cratedelightcroptopia-26.11.11-26.2-neoforge.jar";
+            "hash" = "sha512-dXM5x/9/sG1uVHyiwXRhHhLZ4NRvcnsgr3GnSfH7491suiuj8iZVNU62HYVY7O1fqBAlLTvwCxxLnI9hYcIwHg==";
+        };
+        _BgiMmnw8 = {
+            "id" = "BgiMmnw8";
+            "file" = "cratedelightcroptopia-26.11.11-26.3-neoforge.jar";
+            "hash" = "sha512-Q2DPyhgvohLRRKqWGjbEE9VFsH0HrDft8yuOiNF6WDHfMLbcYBVYNEjiGjdVpaqDncSfXG3UMLsjNDLtEqfK3Q==";
+        };
     in {
         "6XPITvs1" = _6XPITvs1;
         "GsR02eyU" = _GsR02eyU;
@@ -62,6 +82,10 @@ let
         "nmXLo1IW" = _nmXLo1IW;
         "BGhSGXTK" = _BGhSGXTK;
         "WQNukyXL" = _WQNukyXL;
+        "pG3NSMGv" = _pG3NSMGv;
+        "BTJXq8wi" = _BTJXq8wi;
+        "rpdjZXBJ" = _rpdjZXBJ;
+        "BgiMmnw8" = _BgiMmnw8;
         "fabric-1.19" = _6XPITvs1;
         "fabric-1.19.1" = _6XPITvs1;
         "fabric-1.19.2" = _6XPITvs1;
@@ -75,6 +99,8 @@ let
         "fabric-26.1" = _BGhSGXTK;
         "fabric-26.1.1" = _BGhSGXTK;
         "fabric-26.1.2" = _BGhSGXTK;
+        "fabric-26.2" = _pG3NSMGv;
+        "fabric-26.3" = _BTJXq8wi;
         "forge-1.19" = _GsR02eyU;
         "forge-1.19.1" = _GsR02eyU;
         "forge-1.19.2" = _GsR02eyU;
@@ -87,6 +113,8 @@ let
         "neoforge-26.1" = _WQNukyXL;
         "neoforge-26.1.1" = _WQNukyXL;
         "neoforge-26.1.2" = _WQNukyXL;
+        "neoforge-26.2" = _rpdjZXBJ;
+        "neoforge-26.3" = _BgiMmnw8;
         "pkg-24.12.27-1.19-fabric" = _6XPITvs1;
         "pkg-24.12.28-1.19-forge" = _GsR02eyU;
         "pkg-24.12.27-1.20-fabric" = _RX8eZPaX;
@@ -97,7 +125,11 @@ let
         "pkg-24.12.27-1.21-neoforge" = _nmXLo1IW;
         "pkg-26.06.24-26.1-fabric" = _BGhSGXTK;
         "pkg-26.06.24-26.1-neoforge" = _WQNukyXL;
-        "default" = _WQNukyXL;
+        "pkg-26.11.11-26.2-fabric" = _pG3NSMGv;
+        "pkg-26.11.11-26.3-fabric" = _BTJXq8wi;
+        "pkg-26.11.11-26.2-neoforge" = _rpdjZXBJ;
+        "pkg-26.11.11-26.3-neoforge" = _BgiMmnw8;
+        "default" = _BgiMmnw8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crate-delight-croptopia";

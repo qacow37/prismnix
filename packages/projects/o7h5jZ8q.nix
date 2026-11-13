@@ -66,6 +66,11 @@ let
             "file" = "bbyj's Pet Bunny-1.5.1-Summer-1.20.1-Forge.jar";
             "hash" = "sha512-XWRyqTwJ8JNRliwJz4FTjhiVx3lIGh4FLub9iWDrmIn9vWt75qMmeSiueFRQUyEsMsMcNMT0Xn70sIfIhLUrPw==";
         };
+        _pawPQRkG = {
+            "id" = "pawPQRkG";
+            "file" = "bbyj's Pet Bunny-1.5.2-fabric+1.20.1.jar";
+            "hash" = "sha512-o2vkajE7WXX0vz/x23q/XlD3jZ/Tf/mn9t84YdWnLK0l2+Rd1D41MzaU4GdjQoBfjiUuWQ4wAKNPwzF5C3XPng==";
+        };
     in {
         "3PwS63su" = _3PwS63su;
         "Gmxntihi" = _Gmxntihi;
@@ -80,10 +85,11 @@ let
         "h9uMbqvV" = _h9uMbqvV;
         "oDmMslON" = _oDmMslON;
         "DRVTnWKv" = _DRVTnWKv;
+        "pawPQRkG" = _pawPQRkG;
         "forge-1.20.1" = _DRVTnWKv;
         "fabric-1.21.8" = _hkQ2k9A3;
         "fabric-1.21.7" = _h9uMbqvV;
-        "fabric-1.20.1" = _oDmMslON;
+        "fabric-1.20.1" = _pawPQRkG;
         "pkg-1.0.0" = _3PwS63su;
         "pkg-1.1.0" = _Gmxntihi;
         "pkg-1.2.0" = _iayIZ0ar;
@@ -97,7 +103,8 @@ let
         "pkg-1.5.0-Preview-fabric+1.21.7" = _h9uMbqvV;
         "pkg-1.5.0r-Preview-fabric+1.20.1" = _oDmMslON;
         "pkg-1.5.1-Summer" = _DRVTnWKv;
-        "default" = _DRVTnWKv;
+        "pkg-1.5.2" = _pawPQRkG;
+        "default" = _pawPQRkG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbyjs-pet-bunny";

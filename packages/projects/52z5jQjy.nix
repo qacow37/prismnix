@@ -191,6 +191,16 @@ let
             "file" = "redstone-additions-6.0.2.jar";
             "hash" = "sha512-HMYKeA7QfqFofn4Eluk/0JlV3F/TT2p5/N51PgkQwVJekb59lcIK04bdUSOoYNXbvqvoagz00zMIkBraWdHW3g==";
         };
+        _c912sswe = {
+            "id" = "c912sswe";
+            "file" = "redstone_additions_v6.0.3(RELEASE)-0000.zip";
+            "hash" = "sha512-/juTKBeq0okhsulANr1tosHIscAyGnrFTtVlDEu2ua5eeVeO39N5bhha0wv1W8L3qf3kR6eFCOelKqSQWh73hw==";
+        };
+        _oSmp95lL = {
+            "id" = "oSmp95lL";
+            "file" = "redstone-additions-6.0.3.jar";
+            "hash" = "sha512-+1ff3NTFxWX1AL2y3tJR1Fg5PwoNlUyHgkyYF54lhbsy4pbp5CK2wTRSuAO5/RjL3mUw4Yx9bZPgqzSLgqy0Uw==";
+        };
     in {
         "aWHxIOLn" = _aWHxIOLn;
         "2NwE5nkp" = _2NwE5nkp;
@@ -230,6 +240,8 @@ let
         "CmpGyfw2" = _CmpGyfw2;
         "qCBEFza8" = _qCBEFza8;
         "dghAHJqv" = _dghAHJqv;
+        "c912sswe" = _c912sswe;
+        "oSmp95lL" = _oSmp95lL;
         "datapack-1.21.10" = _Zyu4c6rI;
         "datapack-1.21.9" = _Zyu4c6rI;
         "datapack-1.21.11" = _Zyu4c6rI;
@@ -238,7 +250,7 @@ let
         "datapack-26.1.1" = _Zyu4c6rI;
         "datapack-26.1.2" = _Zyu4c6rI;
         "datapack-26.2" = _Zyu4c6rI;
-        "datapack-26.3" = _qCBEFza8;
+        "datapack-26.3" = _c912sswe;
         "fabric-1.21.9" = _VJZ2Kymi;
         "fabric-1.21.10" = _VJZ2Kymi;
         "fabric-1.21.11" = _VJZ2Kymi;
@@ -246,7 +258,7 @@ let
         "fabric-26.1.1" = _VJZ2Kymi;
         "fabric-26.1.2" = _VJZ2Kymi;
         "fabric-26.2" = _VJZ2Kymi;
-        "fabric-26.3" = _dghAHJqv;
+        "fabric-26.3" = _oSmp95lL;
         "forge-1.21.9" = _VJZ2Kymi;
         "forge-1.21.10" = _VJZ2Kymi;
         "forge-1.21.11" = _VJZ2Kymi;
@@ -254,7 +266,7 @@ let
         "forge-26.1.1" = _VJZ2Kymi;
         "forge-26.1.2" = _VJZ2Kymi;
         "forge-26.2" = _VJZ2Kymi;
-        "forge-26.3" = _dghAHJqv;
+        "forge-26.3" = _oSmp95lL;
         "neoforge-1.21.9" = _VJZ2Kymi;
         "neoforge-1.21.10" = _VJZ2Kymi;
         "neoforge-1.21.11" = _VJZ2Kymi;
@@ -262,7 +274,7 @@ let
         "neoforge-26.1.1" = _VJZ2Kymi;
         "neoforge-26.1.2" = _VJZ2Kymi;
         "neoforge-26.2" = _VJZ2Kymi;
-        "neoforge-26.3" = _dghAHJqv;
+        "neoforge-26.3" = _oSmp95lL;
         "quilt-1.21.9" = _VJZ2Kymi;
         "quilt-1.21.10" = _VJZ2Kymi;
         "quilt-1.21.11" = _VJZ2Kymi;
@@ -270,7 +282,7 @@ let
         "quilt-26.1.1" = _VJZ2Kymi;
         "quilt-26.1.2" = _VJZ2Kymi;
         "quilt-26.2" = _VJZ2Kymi;
-        "quilt-26.3" = _dghAHJqv;
+        "quilt-26.3" = _oSmp95lL;
         "pkg-3.0.0.0000" = _aWHxIOLn;
         "pkg-3.0.0(ALPHA)-0003" = _2NwE5nkp;
         "pkg-v3.0.0(ALPHA)-0004" = _g32md6IE;
@@ -307,7 +319,9 @@ let
         "pkg-6.0.1+mod" = _CmpGyfw2;
         "pkg-6.0.2" = _qCBEFza8;
         "pkg-6.0.2+mod" = _dghAHJqv;
-        "default" = _dghAHJqv;
+        "pkg-6.0.3" = _c912sswe;
+        "pkg-6.0.3+mod" = _oSmp95lL;
+        "default" = _oSmp95lL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-additions";

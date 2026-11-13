@@ -661,6 +661,26 @@ let
             "file" = "acornlib-1.0.9+1.21.1.jar";
             "hash" = "sha512-stpdsZAZstBqRzkZcJs3prM65g9T4yqOdRP50flneirVUqAVJAjiK7SdX9soRK/egJtolzi8TJPgozlk/xf34A==";
         };
+        _4cQG0EPS = {
+            "id" = "4cQG0EPS";
+            "file" = "acornlib-1.1.0+26.1.2.jar";
+            "hash" = "sha512-biUjq6HUmNdK2Heh8b0BcceEVtZk4m3uU9Nnu3H3+2rKFwEJ5aMOLh3OYaVrGil7+48W5w9jgvF3Tao6eoV3tQ==";
+        };
+        _TEqMyeXv = {
+            "id" = "TEqMyeXv";
+            "file" = "acornlib-1.1.0+26.3.jar";
+            "hash" = "sha512-J5v5GTaK29jzxUDja9ZKkbYjIJwEe7hoqui4/mb6g5LcUM7YN1myYiQPtJH1Nnl3w+eDOW36ogwjCaAcU6TGSg==";
+        };
+        _fknZJ6yv = {
+            "id" = "fknZJ6yv";
+            "file" = "acornlib-1.1.0+1.21.11.jar";
+            "hash" = "sha512-eygryp27ST3IRbC5HGEQWfvpA4W6dP/c2dqhRRbXBA+Wg7hmYSqv3Kw6gzpLzpjvktTcJpU63G2Rdu9JNH1MaA==";
+        };
+        _rNKXVRhF = {
+            "id" = "rNKXVRhF";
+            "file" = "acornlib-1.1.0+1.21.1.jar";
+            "hash" = "sha512-VWw0OZOYXT6mPbGF541pvk5eF21AP8X5NdmSdxfL9v2EAUDo1FljcLzK4SwdRsn9XyopGtwXGMwAprFHmfztnA==";
+        };
     in {
         "6LEYoYOV" = _6LEYoYOV;
         "O5LsGtEw" = _O5LsGtEw;
@@ -794,17 +814,21 @@ let
         "gUJLhmke" = _gUJLhmke;
         "FMHYapna" = _FMHYapna;
         "lOxPWOjm" = _lOxPWOjm;
+        "4cQG0EPS" = _4cQG0EPS;
+        "TEqMyeXv" = _TEqMyeXv;
+        "fknZJ6yv" = _fknZJ6yv;
+        "rNKXVRhF" = _rNKXVRhF;
         "fabric-1.21.4" = _zrLIYz3E;
         "fabric-1.21.5" = _b1sqE3o7;
         "fabric-1.21.6" = _q9ehv74F;
         "fabric-1.21.7" = _wLjZ6T4F;
-        "fabric-1.21.1" = _lOxPWOjm;
+        "fabric-1.21.1" = _rNKXVRhF;
         "fabric-1.21.8" = _BuRLlEx4;
-        "fabric-1.21.11" = _FMHYapna;
+        "fabric-1.21.11" = _fknZJ6yv;
         "fabric-26.1" = _OeyPU2kX;
-        "fabric-26.1.2" = _gUJLhmke;
-        "fabric-1.21" = _lOxPWOjm;
-        "fabric-26.3" = _jYNKPHUk;
+        "fabric-26.1.2" = _4cQG0EPS;
+        "fabric-1.21" = _rNKXVRhF;
+        "fabric-26.3" = _TEqMyeXv;
         "pkg-1.21.4-r1" = _6LEYoYOV;
         "pkg-1.21.4-r2" = _O5LsGtEw;
         "pkg-1.21.4-r3" = _lHdCV7Pz;
@@ -935,7 +959,11 @@ let
         "pkg-1.0.9+26.1.2" = _gUJLhmke;
         "pkg-1.0.9+1.21.11" = _FMHYapna;
         "pkg-1.0.9+1.21.1" = _lOxPWOjm;
-        "default" = _lOxPWOjm;
+        "pkg-1.1.0+26.1.2" = _4cQG0EPS;
+        "pkg-1.1.0+26.3" = _TEqMyeXv;
+        "pkg-1.1.0+1.21.11" = _fknZJ6yv;
+        "pkg-1.1.0+1.21.1" = _rNKXVRhF;
+        "default" = _rNKXVRhF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "acornlib";

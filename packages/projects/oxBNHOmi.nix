@@ -426,6 +426,21 @@ let
             "file" = "shippy_ships-201.27.1-FORGE.jar";
             "hash" = "sha512-v/JPrwTUqQYuuwBx0y12W29x1tg1f+L4AlhlfS6Rvpgpm1t2M9iBG3+VdhmzQ3ui3wc98aFyimNOwcvtJatQGA==";
         };
+        _Wfk5KvZr = {
+            "id" = "Wfk5KvZr";
+            "file" = "shippy-ships-1.0.28.3-FABRIC-MC-1.21.11.jar";
+            "hash" = "sha512-IXyrbcJdKc0jdm3os+qkTy5QfE965jzBxKTQRIrs2lzXOXMr6Qii9lt5MhzqwnAwvjtR+oPwUzQ9sDlUfgD3gA==";
+        };
+        _xUjX8S5k = {
+            "id" = "xUjX8S5k";
+            "file" = "shippy-ships-1.0.28.3-FABRIC-MC-26.1.X.jar";
+            "hash" = "sha512-TGfeDUPy9OCMzUaMVLmeCoObffN+CD9sT4GtWd+reQZxnk7JSdpTGOrpCOI9v/lmWIn5FeucmVlzPgI3y/jN9g==";
+        };
+        _dAXJHnTf = {
+            "id" = "dAXJHnTf";
+            "file" = "shippy-ships-1.0.28.3-FABRIC-MC-26.2.jar";
+            "hash" = "sha512-rchtDsn4iz4sdOx75O1pscubRYccyHOOSC+atPIsvdO7pcEtBcGg8Epmutu8GWzbyXcPgejW5giazcyiEAEXsQ==";
+        };
     in {
         "GU9bK0ll" = _GU9bK0ll;
         "ELGpyPLo" = _ELGpyPLo;
@@ -512,13 +527,16 @@ let
         "dZcofTOJ" = _dZcofTOJ;
         "BgnXGv5S" = _BgnXGv5S;
         "XMcjPzBz" = _XMcjPzBz;
+        "Wfk5KvZr" = _Wfk5KvZr;
+        "xUjX8S5k" = _xUjX8S5k;
+        "dAXJHnTf" = _dAXJHnTf;
         "fabric-1.20.1" = _J3GaDBjE;
-        "fabric-26.1" = _8DHRenhL;
-        "fabric-26.1.1" = _8DHRenhL;
-        "fabric-26.1.2" = _8DHRenhL;
-        "fabric-26.2" = _3ArVRD99;
+        "fabric-26.1" = _xUjX8S5k;
+        "fabric-26.1.1" = _xUjX8S5k;
+        "fabric-26.1.2" = _xUjX8S5k;
+        "fabric-26.2" = _dAXJHnTf;
         "fabric-1.21.1" = _wgMKtIcJ;
-        "fabric-1.21.11" = _7j511A1m;
+        "fabric-1.21.11" = _Wfk5KvZr;
         "fabric-1.21.10" = _AQCZgZyL;
         "fabric-1.21.8" = _fKRwHKEO;
         "fabric-1.20.2" = _bdu8yAbe;
@@ -570,7 +588,8 @@ let
         "pkg-1.0.28.2" = _dZcofTOJ;
         "pkg-201.27" = _BgnXGv5S;
         "pkg-201.27.1" = _XMcjPzBz;
-        "default" = _XMcjPzBz;
+        "pkg-1.0.28.3" = _dAXJHnTf;
+        "default" = _dAXJHnTf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shippy-ships";

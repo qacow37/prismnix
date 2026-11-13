@@ -321,6 +321,11 @@ let
             "file" = "peterwolfs-realistic-tree-felling-1.1.9+1.20.1.jar";
             "hash" = "sha512-cQXz2xhAQvk1ZGHAiee8gel16iE1viQLL887iNm0vTpR7MSxcoEjpwdiGcWGFMpsyF5Tt2lJCZxEckOEtO8R2g==";
         };
+        _Heujbeow = {
+            "id" = "Heujbeow";
+            "file" = "peterwolfs-realistic-tree-felling-1.1.9+26.2.jar";
+            "hash" = "sha512-wD4xHPg1A2fWpyMMcNpVckBwsebCBC09xsDuWApTVPYUcO61uCFiaezx/AJ4+7yT73fOlw0fBbc7viLlXCyR7A==";
+        };
     in {
         "YJymsIqe" = _YJymsIqe;
         "b8UlCU1h" = _b8UlCU1h;
@@ -386,7 +391,8 @@ let
         "6j5O8mtw" = _6j5O8mtw;
         "Eo1PLvQJ" = _Eo1PLvQJ;
         "qGPsrXvi" = _qGPsrXvi;
-        "fabric-26.2" = _EEmDl9io;
+        "Heujbeow" = _Heujbeow;
+        "fabric-26.2" = _Heujbeow;
         "fabric-1.21.11" = _3y0pY2ji;
         "fabric-26.3" = _C1TA8uWs;
         "fabric-1.21.1" = _zh6gmVUg;
@@ -419,12 +425,12 @@ let
         "pkg-1.1.8+1.21.11" = _B6y16Hgy;
         "pkg-1.1.8+1.21.1" = _1nyGPsEs;
         "pkg-1.1.8+1.20.1" = _Vh4sTAlW;
-        "pkg-1.1.9+26.2" = _r7okF0gd;
+        "pkg-1.1.9+26.2" = _Heujbeow;
         "pkg-1.1.9" = _C1TA8uWs;
         "pkg-1.1.9+1.21.11" = _YTJCi27A;
         "pkg-1.1.9+1.21.1" = _6j5O8mtw;
         "pkg-1.1.9+1.20.1" = _qGPsrXvi;
-        "default" = _qGPsrXvi;
+        "default" = _Heujbeow;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "peterwolfs-realistic-tree-felling";

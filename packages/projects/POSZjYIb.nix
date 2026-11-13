@@ -206,6 +206,36 @@ let
             "file" = "UNU Civilian Pack [MTS] 1.20.1-22.18.0-6.7.1.jar";
             "hash" = "sha512-X2/CYp9Eey8szmArB9tKSEycYkfIE23GV704Mijf6Gw7tAU/4fe0h/o1NSVSKsXSAMNH+VfMGPTWZr5fjyi0Bw==";
         };
+        _zsoYR1dx = {
+            "id" = "zsoYR1dx";
+            "file" = "UNU Civilian Pack [MTS] 1.12.2-24.0.0-6.8.0.jar";
+            "hash" = "sha512-TS8k6D28NAvUkw7ZYVpl8TO7axSY8YYutrnggBTnOl3EySQ1WmsnhEbcSqa88I6RysLcHW/SV8zuR9VqNMWwqQ==";
+        };
+        _hhwvtPLe = {
+            "id" = "hhwvtPLe";
+            "file" = "UNU Civilian Pack [MTS] 1.16.5-24.0.0-6.8.0.jar";
+            "hash" = "sha512-3hezzZf4WQdmbozVvpRee5xXz9wzhfb67S7kDvR1bBP1IgXuQDJ5GLoGsRsGwvdZRPoRySrlQHGa5HeGMLco8g==";
+        };
+        _VXmeI6j3 = {
+            "id" = "VXmeI6j3";
+            "file" = "UNU Civilian Pack [MTS] 1.18.2-24.0.0-6.8.0.jar";
+            "hash" = "sha512-2qD56XWYhHWFflpT/iGP8sMCwI/3S0jmvTto8tiMJjmz6wsyxlfZYu4YBVCu17FEDPL+gJl8O+kvA33M6nUuYA==";
+        };
+        _w6If5beW = {
+            "id" = "w6If5beW";
+            "file" = "UNU Civilian Pack [MTS] 1.19.2-24.0.0-6.8.0.jar";
+            "hash" = "sha512-Kj3PIgQal4bWBwvo1SjMa7JcEeSYM6r2YNJKMiZp1Xw3GIqZu/97VkB9y/V8a+xpC1F+vvVlv1Lf784Ek4jbQw==";
+        };
+        _KG1Ys1x2 = {
+            "id" = "KG1Ys1x2";
+            "file" = "UNU Civilian Pack [MTS] 1.20.1-24.0.0-6.8.0.jar";
+            "hash" = "sha512-n1NJADft7/HKJWFdxjHzWHTOWsrmHf7wFdtKvJajWtMT1NOavuOKYG9RKQlFfD+naA3xeepgCwU5OXH1a2nGtA==";
+        };
+        _tWszcXdq = {
+            "id" = "tWszcXdq";
+            "file" = "UNU Civilian Pack [MTS] 1.21.1-24.0.0-6.8.0.jar";
+            "hash" = "sha512-ai/1a7GbnujiFnCd7DF4TV96XGhjTa2zHPj+iZGJarSwimEUo7/M+oXXw/VawFzWt3OUatqZ4EEmXQdA2aeeAQ==";
+        };
     in {
         "bGdpd5rQ" = _bGdpd5rQ;
         "f1D6NQpp" = _f1D6NQpp;
@@ -248,18 +278,25 @@ let
         "cYmRdBww" = _cYmRdBww;
         "Niyhs1Wk" = _Niyhs1Wk;
         "8WRgm45x" = _8WRgm45x;
-        "forge-1.12.2" = _QKGH5g70;
-        "forge-1.16.5" = _ac1G5Fb0;
-        "forge-1.18.2" = _cYmRdBww;
-        "forge-1.19.2" = _Niyhs1Wk;
-        "forge-1.19.3" = _Qp3phS1l;
-        "forge-1.19.4" = _Qp3phS1l;
-        "forge-1.20.1" = _8WRgm45x;
+        "zsoYR1dx" = _zsoYR1dx;
+        "hhwvtPLe" = _hhwvtPLe;
+        "VXmeI6j3" = _VXmeI6j3;
+        "w6If5beW" = _w6If5beW;
+        "KG1Ys1x2" = _KG1Ys1x2;
+        "tWszcXdq" = _tWszcXdq;
+        "forge-1.12.2" = _zsoYR1dx;
+        "forge-1.16.5" = _hhwvtPLe;
+        "forge-1.18.2" = _VXmeI6j3;
+        "forge-1.19.2" = _w6If5beW;
+        "forge-1.19.3" = _w6If5beW;
+        "forge-1.19.4" = _w6If5beW;
+        "forge-1.20.1" = _KG1Ys1x2;
         "forge-1.20.2" = _gWU39IIB;
         "forge-1.20.3" = _gWU39IIB;
         "forge-1.20.4" = _gWU39IIB;
         "forge-1.20.5" = _gWU39IIB;
         "forge-1.20.6" = _gWU39IIB;
+        "neoforge-1.21.1" = _tWszcXdq;
         "pkg-6.0.0" = _bGdpd5rQ;
         "pkg-6.0.1" = _i311gZZI;
         "pkg-6.0.2" = _QUwWoXh4;
@@ -293,7 +330,13 @@ let
         "pkg-1.18.2-6.7.1" = _cYmRdBww;
         "pkg-1.19.2-6.7.1" = _Niyhs1Wk;
         "pkg-1.20.1-6.7.1" = _8WRgm45x;
-        "default" = _8WRgm45x;
+        "pkg-1.12.2-6.8.0" = _zsoYR1dx;
+        "pkg-1.16.5-6.8.0" = _hhwvtPLe;
+        "pkg-1.18.2-6.8.0" = _VXmeI6j3;
+        "pkg-1.19.2-6.8.0" = _w6If5beW;
+        "pkg-1.20.1-6.8.0" = _KG1Ys1x2;
+        "pkg-1.21.1-6.8.0" = _tWszcXdq;
+        "default" = _tWszcXdq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unu-civilian-pack";

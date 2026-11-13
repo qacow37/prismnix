@@ -191,6 +191,31 @@ let
             "file" = "Modern-Dynamics-1.0.0-alpha.jar";
             "hash" = "sha512-M88Tq98pskVh9AqKANcNSbqybXyqTDrnqbS+pdl0qVcDvGk6yalgHTSZ+0cFLYjd5lOOeIJ8mZtZ3Q/cy7C0ZQ==";
         };
+        _8k9oi2fa = {
+            "id" = "8k9oi2fa";
+            "file" = "Modern-Dynamics-26.1.2.0.jar";
+            "hash" = "sha512-l27Xrp7WiYu7uFbl6fHpTJveYqw0DYi4l/VJ9TmiWTpuoK6QtOq8Cb6BpQBimvmxDoIIxem8s4C9ehuENn0RLQ==";
+        };
+        _8jLbT9Sk = {
+            "id" = "8jLbT9Sk";
+            "file" = "Modern-Dynamics-26.2.0.jar";
+            "hash" = "sha512-ABZ/4Jxwl7OMPfn+fIwJjnq8qj0lAqrLDqXFNNw2Qlc4P701i0oRGWGZV/EQZ6lI5FEC+ougErr6PRisfnOkjA==";
+        };
+        _FpUBoT8E = {
+            "id" = "FpUBoT8E";
+            "file" = "Modern-Dynamics-26.3.0.jar";
+            "hash" = "sha512-WzUyIBq4RVz9e39+2oUO7nl130N2FHBhfSzd7qc+bnq4RInR85qzi5nYnYZkKQ/RihFa3JOwunbDQGrcY7/pBA==";
+        };
+        _g9RPRc85 = {
+            "id" = "g9RPRc85";
+            "file" = "Modern-Dynamics-26.3.1.jar";
+            "hash" = "sha512-YcR4QRo7sHNxrisL29N4RBX3XGuq4XEN0rqZn2EwT0V3KGDN7lu2djlvU+op7YwqVCbfnDh2bQ7GZP9HV9kjkw==";
+        };
+        _2Hfb8P7A = {
+            "id" = "2Hfb8P7A";
+            "file" = "Modern-Dynamics-26.1.2.1.jar";
+            "hash" = "sha512-/HsM8V/qGKVtpEa3SwnGY2rPkz/+jdr1WHmX6UOHb3aINyNaItoBthRgxCxhFhx0gos+fcAYbTew2n616Hsfbg==";
+        };
     in {
         "eZn0XyLK" = _eZn0XyLK;
         "DYaQtQYC" = _DYaQtQYC;
@@ -230,6 +255,11 @@ let
         "3LlLdnuQ" = _3LlLdnuQ;
         "TTPA9hxb" = _TTPA9hxb;
         "z2XToldP" = _z2XToldP;
+        "8k9oi2fa" = _8k9oi2fa;
+        "8jLbT9Sk" = _8jLbT9Sk;
+        "FpUBoT8E" = _FpUBoT8E;
+        "g9RPRc85" = _g9RPRc85;
+        "2Hfb8P7A" = _2Hfb8P7A;
         "fabric-1.18.2" = _pVb5b9Mx;
         "fabric-1.19" = _UxRxCwUs;
         "fabric-1.19.1" = _uSorcoNB;
@@ -239,6 +269,9 @@ let
         "neoforge-1.21" = _MlWkxN0s;
         "neoforge-1.21.1" = _TTPA9hxb;
         "neoforge-26.1-snapshot-1" = _z2XToldP;
+        "neoforge-26.1.2" = _2Hfb8P7A;
+        "neoforge-26.2" = _8jLbT9Sk;
+        "neoforge-26.3" = _g9RPRc85;
         "pkg-0.1.4-alpha" = _eZn0XyLK;
         "pkg-0.2.0-beta" = _DYaQtQYC;
         "pkg-0.2.1-beta" = _MuAQ22UH;
@@ -277,7 +310,12 @@ let
         "pkg-0.9.5" = _3LlLdnuQ;
         "pkg-0.9.6" = _TTPA9hxb;
         "pkg-1.0.0-alpha" = _z2XToldP;
-        "default" = _z2XToldP;
+        "pkg-26.1.2.0" = _8k9oi2fa;
+        "pkg-26.2.0" = _8jLbT9Sk;
+        "pkg-26.3.0" = _FpUBoT8E;
+        "pkg-26.3.1" = _g9RPRc85;
+        "pkg-26.1.2.1" = _2Hfb8P7A;
+        "default" = _2Hfb8P7A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-dynamics";

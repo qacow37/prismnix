@@ -166,6 +166,11 @@ let
             "file" = "oxidized_fps_counter-1.0.6-26.4-snapshot.7.jar";
             "hash" = "sha512-EBb6ilys5bRfk6frdwSeS74j1hNJqx7emw3u5OlNVhzqkaagLABrvafZKa2kZSEOq3HtyIE4v9GBVUN7/UM10A==";
         };
+        _YjPVpB4A = {
+            "id" = "YjPVpB4A";
+            "file" = "oxidized_fps_counter-1.0.6-26.4-snapshot.8.jar";
+            "hash" = "sha512-W9wL3cTIHKsOB9uGy/yQrK7lLZ2fIXyo92LouROvGv9pvm6VDjlVXZUdnV9YDZjca9OD+j4UvZxQ1le0Fg0hxw==";
+        };
     in {
         "aJFMzs3C" = _aJFMzs3C;
         "XhDriw62" = _XhDriw62;
@@ -200,6 +205,7 @@ let
         "briMXVM1" = _briMXVM1;
         "ED0A7gab" = _ED0A7gab;
         "oRw7KxQG" = _oRw7KxQG;
+        "YjPVpB4A" = _YjPVpB4A;
         "fabric-1.21.1" = _aJFMzs3C;
         "fabric-1.21.4" = _XhDriw62;
         "fabric-1.21.8" = _rJWtRsrS;
@@ -224,6 +230,7 @@ let
         "fabric-26.4-snapshot-5" = _CKqcdQpQ;
         "fabric-26.4-snapshot-6" = _dSgLBtHf;
         "fabric-26.4-snapshot-7" = _oRw7KxQG;
+        "fabric-26.4-snapshot-8" = _YjPVpB4A;
         "pkg-1.0.0+1.21.1" = _aJFMzs3C;
         "pkg-1.0.0+1.21.4" = _XhDriw62;
         "pkg-1.0.0+1.21.8" = _rJWtRsrS;
@@ -257,7 +264,8 @@ let
         "pkg-1.0.5+26.3" = _briMXVM1;
         "pkg-1.0.6+26.3" = _ED0A7gab;
         "pkg-1.0.6+26.4-snapshot.7" = _oRw7KxQG;
-        "default" = _oRw7KxQG;
+        "pkg-1.0.6+26.4-snapshot.8" = _YjPVpB4A;
+        "default" = _YjPVpB4A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oxidized-fps-counter";

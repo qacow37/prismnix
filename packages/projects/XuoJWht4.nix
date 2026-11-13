@@ -21,11 +21,23 @@ let
             "file" = "armorchroma-mc26.1.x-1.2.11+26.1.x.jar";
             "hash" = "sha512-C2GyQZg3aohS5a5dTELUvOCMfnl6vWrIUJpEvldyoSgkD6ULUZm559iTugZx6386j8iqrStt0NANS+/U98Owvg==";
         };
+        _k81ijeNF = {
+            "id" = "k81ijeNF";
+            "file" = "armorchroma-mc26.2-1.2.11+26.2.jar";
+            "hash" = "sha512-rsTg8XFro+KlyTUv4jQm/U3bTURdzwq3fmpk3Go4cIGFWvp35M5AX/KaafUGVFeFwNWWqE204FIc5WS+4VHJKw==";
+        };
+        _B68Drdfl = {
+            "id" = "B68Drdfl";
+            "file" = "armorchroma-mc26.3-1.2.11+26.3.jar";
+            "hash" = "sha512-c4zCOYwL3UWe33ICtPNpt1UZt4rFsryTJrFv4pYOj84UHz0LyFAtQlbPK9AlCXtMhidx4AHpUm4tqHHJxB5htw==";
+        };
     in {
         "YA8XfJpi" = _YA8XfJpi;
         "HwlUyxWk" = _HwlUyxWk;
         "FhWXZmMV" = _FhWXZmMV;
         "sQ0d5Bmi" = _sQ0d5Bmi;
+        "k81ijeNF" = _k81ijeNF;
+        "B68Drdfl" = _B68Drdfl;
         "fabric-1.21.6" = _YA8XfJpi;
         "fabric-1.21.7" = _YA8XfJpi;
         "fabric-1.21.8" = _YA8XfJpi;
@@ -35,11 +47,15 @@ let
         "fabric-26.1" = _HwlUyxWk;
         "fabric-26.1.1" = _HwlUyxWk;
         "fabric-26.1.2" = _sQ0d5Bmi;
+        "fabric-26.2" = _k81ijeNF;
+        "fabric-26.3" = _B68Drdfl;
         "pkg-1.2.11+1.21.x" = _YA8XfJpi;
         "pkg-1.2.11+26.1.x" = _HwlUyxWk;
         "pkg-1.2.12+1.21.x" = _FhWXZmMV;
         "pkg-1.2.12+26.1.x" = _sQ0d5Bmi;
-        "default" = _sQ0d5Bmi;
+        "pkg-1.2.11+26.2" = _k81ijeNF;
+        "pkg-1.2.11+26.3" = _B68Drdfl;
+        "default" = _B68Drdfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-chroma-refabricated";

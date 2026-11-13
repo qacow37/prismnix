@@ -76,6 +76,11 @@ let
             "file" = "environmentz-2.2.0.jar";
             "hash" = "sha512-OVLV8m8/tUkJmlEz3kiO6asdUdhyXduKGXTkouZz5k23ceRqowyu+qPZlR17xZMTSTBM6O8oQTpDU6JN3N2rdA==";
         };
+        _G87tT2Gb = {
+            "id" = "G87tT2Gb";
+            "file" = "environmentz-2.3.0.jar";
+            "hash" = "sha512-7z2opo787tvnpnkRj3ynk6P2t0U6971n8jvIZ/9mRMn7JsVPLNHNqOJdUlAMZdAikXuXKWQ7B21zoBsPCKDX7w==";
+        };
     in {
         "mDaNJ6lc" = _mDaNJ6lc;
         "HHiIWi57" = _HHiIWi57;
@@ -92,9 +97,10 @@ let
         "xJDCSyAv" = _xJDCSyAv;
         "H4W1Ih5a" = _H4W1Ih5a;
         "l7EZhw1K" = _l7EZhw1K;
+        "G87tT2Gb" = _G87tT2Gb;
         "fabric-1.19.2" = _bP9IhOAM;
         "fabric-1.20.1" = _18lLbkwS;
-        "fabric-1.21.1" = _l7EZhw1K;
+        "fabric-1.21.1" = _G87tT2Gb;
         "pkg-2.0.0" = _mDaNJ6lc;
         "pkg-2.0.1+1.19.2" = _HHiIWi57;
         "pkg-2.0.2+1.19.2" = _opqU9A0j;
@@ -110,7 +116,8 @@ let
         "pkg-2.1.0+1.21.1" = _xJDCSyAv;
         "pkg-2.1.1+1.21.1" = _H4W1Ih5a;
         "pkg-2.2.0+1.21.1" = _l7EZhw1K;
-        "default" = _l7EZhw1K;
+        "pkg-2.3.0+1.21.1" = _G87tT2Gb;
+        "default" = _G87tT2Gb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmentz";

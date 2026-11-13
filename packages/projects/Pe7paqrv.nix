@@ -226,6 +226,11 @@ let
             "file" = "boundless-1.21.1-neo-12.1.jar";
             "hash" = "sha512-AtR7DnxhCmaHavStUXMhfaqtfYq8kj39M0uBKfJL8lo42/5hLRXfDMX5FVGXbmgNNwrKnxHJ3GYl00WxmcRRJQ==";
         };
+        _tkVXRl6D = {
+            "id" = "tkVXRl6D";
+            "file" = "boundless-1.20.1-forge-12.1.jar";
+            "hash" = "sha512-Ytv7BrQdVpq5ugbip/+QavHwpMGjxgtDpkJnEfEHTjXUb533lTFwSxaF0VzrTD8JsHodQgkpxg0XRHZqa1wKVA==";
+        };
     in {
         "yxjpkGDF" = _yxjpkGDF;
         "1yl1pWAX" = _1yl1pWAX;
@@ -272,6 +277,7 @@ let
         "zElQCb6e" = _zElQCb6e;
         "J6gIl0ZU" = _J6gIl0ZU;
         "3xX7awEW" = _3xX7awEW;
+        "tkVXRl6D" = _tkVXRl6D;
         "neoforge-1.21.1" = _3xX7awEW;
         "neoforge-1.21.2" = _v9QEcQk9;
         "neoforge-1.20.1" = _ys2XZqv9;
@@ -282,7 +288,12 @@ let
         "neoforge-26.1.2" = _SEwdRlBT;
         "neoforge-26.2" = _ntMza9wf;
         "neoforge-26.3" = _J6gIl0ZU;
-        "forge-1.20.1" = _67azp5Kv;
+        "forge-1.20.1" = _tkVXRl6D;
+        "forge-1.20.6" = _tkVXRl6D;
+        "forge-1.20.5" = _tkVXRl6D;
+        "forge-1.20.4" = _tkVXRl6D;
+        "forge-1.20.3" = _tkVXRl6D;
+        "forge-1.20.2" = _tkVXRl6D;
         "fabric-1.21.1" = _Tnw5tr2I;
         "fabric-1.20.1" = _yTPhP5ag;
         "pkg-U0.1" = _yxjpkGDF;
@@ -327,7 +338,8 @@ let
         "pkg-1.21.1-neo-12" = _zElQCb6e;
         "pkg-26.3-neo-12" = _J6gIl0ZU;
         "pkg-1.21.1-neo-12.1" = _3xX7awEW;
-        "default" = _3xX7awEW;
+        "pkg-1.20.1-forge-12.1" = _tkVXRl6D;
+        "default" = _tkVXRl6D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boundless-quests";

@@ -386,6 +386,16 @@ let
             "file" = "easymagic-v26.3.0-mc26.3.x+neoforge.jar";
             "hash" = "sha512-Q8OPnUbohLQSwKDFcjLE7plHt1dlJThenrqTwmwUOAK51RvMxBxaV66Vi19/wUGvBrk+R/UpyRqPCZBYyWTdnQ==";
         };
+        _yR6ULA9W = {
+            "id" = "yR6ULA9W";
+            "file" = "easymagic-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-aDu1ZFRJcoXLh4bAPc9mItkX3e46E97GPizTMuav7LzXwX0/TqSpikJuKr2ZosttM8yp0o0b3fRE+CHPe2UXqQ==";
+        };
+        _74oaolkD = {
+            "id" = "74oaolkD";
+            "file" = "easymagic-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-8t5k2qK1+d3ZPzFH4P9qbr7P9/SpdYougPnTFwzyKsZWlgO9oPze9SMUzyMGwVrBXtqKAZmosDCJ/s6L7/xZTQ==";
+        };
     in {
         "TN6I1kVF" = _TN6I1kVF;
         "s3rosB9u" = _s3rosB9u;
@@ -464,6 +474,8 @@ let
         "53T0C4GG" = _53T0C4GG;
         "JvKuwM5d" = _JvKuwM5d;
         "OrKzwK6v" = _OrKzwK6v;
+        "yR6ULA9W" = _yR6ULA9W;
+        "74oaolkD" = _74oaolkD;
         "fabric-1.19" = _TN6I1kVF;
         "fabric-1.19.1" = _8aLDK0o2;
         "fabric-1.19.2" = _GjLNFYQU;
@@ -487,7 +499,7 @@ let
         "fabric-26.1.1" = _QQ5bzpqG;
         "fabric-26.1.2" = _QQ5bzpqG;
         "fabric-26.2" = _5CL4B48Y;
-        "fabric-26.3" = _JvKuwM5d;
+        "fabric-26.3" = _74oaolkD;
         "forge-1.19" = _s3rosB9u;
         "forge-1.19.1" = _1MXiOPNu;
         "forge-1.19.2" = _yYI8kLD9;
@@ -512,7 +524,7 @@ let
         "neoforge-26.1.1" = _1tUK8U3Z;
         "neoforge-26.1.2" = _1tUK8U3Z;
         "neoforge-26.2" = _53T0C4GG;
-        "neoforge-26.3" = _OrKzwK6v;
+        "neoforge-26.3" = _yR6ULA9W;
         "pkg-v4.0.0-1.19-Fabric" = _TN6I1kVF;
         "pkg-v4.0.0-1.19-Forge" = _s3rosB9u;
         "pkg-v4.1.0-1.19.1-Forge" = _2FEEjEIT;
@@ -584,7 +596,8 @@ let
         "pkg-26.1.0" = _QQ5bzpqG;
         "pkg-26.2.0" = _53T0C4GG;
         "pkg-26.3.0" = _OrKzwK6v;
-        "default" = _OrKzwK6v;
+        "pkg-26.3.1" = _74oaolkD;
+        "default" = _74oaolkD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-magic";

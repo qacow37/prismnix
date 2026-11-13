@@ -21,36 +21,55 @@ let
             "file" = "ks-blood-moon-26.2.jar";
             "hash" = "sha512-ycyV1i0Zsnf8iuvOyFrcbIpJVBJEok88RxPUd9idPBH1MyR/y0YRh521nObyP4L075eozM8lr1+r3yBndsuSPw==";
         };
+        _TZiQo08C = {
+            "id" = "TZiQo08C";
+            "file" = "ks_blood_moon_26.3.zip";
+            "hash" = "sha512-lfYi879a7obeko/Qx7uGyLbXEUUlp2BJjsyTAgabA0j4vxQzwZvi7CWp7DqGUI6q8XNg08aGunKoBMqJrZ3myA==";
+        };
+        _8ObaDRIU = {
+            "id" = "8ObaDRIU";
+            "file" = "ks-blood-moon-26.3.jar";
+            "hash" = "sha512-6VvTfwQewkbhk3vI4+ORZO4UEN5wVt4T54JnZJ/1ImZXZXWvb8Kj1SH5NHYHpjGXdb8Lw0HFCGgoF9ieoEUPxw==";
+        };
     in {
         "9kHJYsIc" = _9kHJYsIc;
         "AI3yTtcd" = _AI3yTtcd;
         "nK3SohsH" = _nK3SohsH;
         "P9mgPrWq" = _P9mgPrWq;
+        "TZiQo08C" = _TZiQo08C;
+        "8ObaDRIU" = _8ObaDRIU;
         "datapack-26.1" = _9kHJYsIc;
         "datapack-26.1.1" = _9kHJYsIc;
         "datapack-26.1.2" = _9kHJYsIc;
         "datapack-26.2" = _nK3SohsH;
+        "datapack-26.3" = _TZiQo08C;
         "fabric-26.1" = _AI3yTtcd;
         "fabric-26.1.1" = _AI3yTtcd;
         "fabric-26.1.2" = _AI3yTtcd;
         "fabric-26.2" = _P9mgPrWq;
+        "fabric-26.3" = _8ObaDRIU;
         "forge-26.1" = _AI3yTtcd;
         "forge-26.1.1" = _AI3yTtcd;
         "forge-26.1.2" = _AI3yTtcd;
         "forge-26.2" = _P9mgPrWq;
+        "forge-26.3" = _8ObaDRIU;
         "neoforge-26.1" = _AI3yTtcd;
         "neoforge-26.1.1" = _AI3yTtcd;
         "neoforge-26.1.2" = _AI3yTtcd;
         "neoforge-26.2" = _P9mgPrWq;
+        "neoforge-26.3" = _8ObaDRIU;
         "quilt-26.1" = _AI3yTtcd;
         "quilt-26.1.1" = _AI3yTtcd;
         "quilt-26.1.2" = _AI3yTtcd;
         "quilt-26.2" = _P9mgPrWq;
+        "quilt-26.3" = _8ObaDRIU;
         "pkg-26.1.x" = _9kHJYsIc;
         "pkg-26.1.x+mod" = _AI3yTtcd;
         "pkg-26.2" = _nK3SohsH;
         "pkg-26.2+mod" = _P9mgPrWq;
-        "default" = _P9mgPrWq;
+        "pkg-26.3" = _TZiQo08C;
+        "pkg-26.3+mod" = _8ObaDRIU;
+        "default" = _8ObaDRIU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ks-blood-moon";

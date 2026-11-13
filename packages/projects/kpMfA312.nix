@@ -151,6 +151,26 @@ let
             "file" = "universalgrid-fabric-1.21.1-0.3.2.jar";
             "hash" = "sha512-zbMkFEaPORQ9u8E0hn2/NlByfHlziG4v75omykAa++GSsu+Msr/pTl04B8psoiTDjl//NnV0AkzIW8R5HCktuw==";
         };
+        _nrrdvNFB = {
+            "id" = "nrrdvNFB";
+            "file" = "universalgrid-neoforge-26.1.2-1.0.3.jar";
+            "hash" = "sha512-u1UNwYaKlTrbly95z1OjIZo5AhCFt7CkGmrzHRQmFWKBxa8hnMwAYTuwsXw/qkKj3iAZPESNy6Vy8wP9sonIZQ==";
+        };
+        _TqTL3I8O = {
+            "id" = "TqTL3I8O";
+            "file" = "universalgrid-fabric-26.1.2-1.0.3.jar";
+            "hash" = "sha512-FpYkMJkH/ATesLtPqQ1bLTVIyYB9Qc59ZejyQyap2cs3JHu+MQPep6i8Uzeqiik2pSU18V+w97q/R43pZn1tuQ==";
+        };
+        _8vN1cVJh = {
+            "id" = "8vN1cVJh";
+            "file" = "universalgrid-neoforge-1.21.1-0.3.3.jar";
+            "hash" = "sha512-/KbzcZnqFGKmwC6jDEB9LhsUBYYqR8MnljvppSopAJwgXUmfiNeXtjztjxmCdssUH69E+JYWAXuergaCn9A6Zw==";
+        };
+        _YgfipwlD = {
+            "id" = "YgfipwlD";
+            "file" = "universalgrid-fabric-1.21.1-0.3.3.jar";
+            "hash" = "sha512-lElDLuet7Pub9CYc5e4mcqZ3qh4eWJ3ey/WvDkrgKWXLzWY5yi2Fgu1ATQEOVmzecDATkEz8SHOu4PX6K8hJZw==";
+        };
     in {
         "uHlFJqIl" = _uHlFJqIl;
         "4ojuHjNG" = _4ojuHjNG;
@@ -182,16 +202,20 @@ let
         "wrmC8ceG" = _wrmC8ceG;
         "fa0WBjoC" = _fa0WBjoC;
         "BLW9G3T4" = _BLW9G3T4;
+        "nrrdvNFB" = _nrrdvNFB;
+        "TqTL3I8O" = _TqTL3I8O;
+        "8vN1cVJh" = _8vN1cVJh;
+        "YgfipwlD" = _YgfipwlD;
         "forge-1.16.5" = _uHlFJqIl;
         "forge-1.18.2" = _4ojuHjNG;
         "forge-1.19.2" = _VHXVWj4y;
         "forge-1.20.1" = _jl1ouh7x;
-        "fabric-1.21.1" = _BLW9G3T4;
+        "fabric-1.21.1" = _YgfipwlD;
         "fabric-1.21" = _jVdUtgUZ;
-        "fabric-26.1.2" = _wrmC8ceG;
-        "neoforge-1.21.1" = _fa0WBjoC;
+        "fabric-26.1.2" = _TqTL3I8O;
+        "neoforge-1.21.1" = _8vN1cVJh;
         "neoforge-1.21" = _ZgKEhw3M;
-        "neoforge-26.1.2" = _8k91XKy3;
+        "neoforge-26.1.2" = _nrrdvNFB;
         "pkg-1.16.5-1.0321" = _uHlFJqIl;
         "pkg-1.18.2-1.0321" = _4ojuHjNG;
         "pkg-1.19.2-1.1" = _VHXVWj4y;
@@ -209,7 +233,9 @@ let
         "pkg-26.1.2-1.0.1" = _hMj0mUQa;
         "pkg-26.1.2-1.0.2" = _wrmC8ceG;
         "pkg-1.21.1-0.3.2" = _BLW9G3T4;
-        "default" = _BLW9G3T4;
+        "pkg-26.1.2-1.0.3" = _TqTL3I8O;
+        "pkg-1.21.1-0.3.3" = _YgfipwlD;
+        "default" = _YgfipwlD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-grid";

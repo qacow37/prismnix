@@ -361,6 +361,26 @@ let
             "file" = "mezz_config_gui-26.3-fabric-mc26.3-0.6.3.jar";
             "hash" = "sha512-U8ysz9X3CVa/D1/+HC3uJGy++Fvu5EFdh72QQBk6TEz2WRphslVpur1AbDj9jYPdp5nHmdLgV0palx1SJRSReg==";
         };
+        _Wti0JqTo = {
+            "id" = "Wti0JqTo";
+            "file" = "mezz_config_gui-26.3-neoforge-mc26.3-0.6.5.jar";
+            "hash" = "sha512-u8M3bUSYLRbdS7S05/a63icZeT1EKOMh+2As74zZhFF3IjWeBWteZ6bUnJTQ8yAozwgx7pDqemHW3kKUekIntg==";
+        };
+        _NzLbOYrj = {
+            "id" = "NzLbOYrj";
+            "file" = "mezz_config_gui-26.3-fabric-mc26.3-0.6.5.jar";
+            "hash" = "sha512-8bhKeJ42JnPAFR/T+iwPmeu1hIo+ZvpzjOKVJi3b2Iph5PMFUtdUWveq6tGb1iUelphYyHtLKIPdRtFoVUpfUw==";
+        };
+        _CtflwGq2 = {
+            "id" = "CtflwGq2";
+            "file" = "mezz_config_gui-26.3-neoforge-mc26.3-0.6.6.jar";
+            "hash" = "sha512-lGFHY1quwVBtKOo3ABI+QuGvSxsou0PCW9GHavtJxaDS0mymGBMKD3YpRXRZeXAJsAygCtj+cNyi8nwdqQZ/8A==";
+        };
+        _xqPWqfQf = {
+            "id" = "xqPWqfQf";
+            "file" = "mezz_config_gui-26.3-fabric-mc26.3-0.6.6.jar";
+            "hash" = "sha512-+RP6eTaFp1WfcsR+nILu/AQ3v2ec9LPqoZxLc12ij/FnJOF+VZbyyzBiA5lHoIIbjyh+r3sVONcNmUIQgYxf0Q==";
+        };
     in {
         "ZruvSbde" = _ZruvSbde;
         "QUXYoDnP" = _QUXYoDnP;
@@ -434,18 +454,22 @@ let
         "2uTmuupR" = _2uTmuupR;
         "GCAYccDJ" = _GCAYccDJ;
         "pdnHeT1n" = _pdnHeT1n;
+        "Wti0JqTo" = _Wti0JqTo;
+        "NzLbOYrj" = _NzLbOYrj;
+        "CtflwGq2" = _CtflwGq2;
+        "xqPWqfQf" = _xqPWqfQf;
         "forge-1.21.1" = _ebq4uLtX;
         "forge-1.20.1" = _yJRD65ti;
         "forge-1.19.2" = _YBnNdoLh;
         "fabric-1.21.1" = _j744Bkpz;
-        "fabric-26.3" = _pdnHeT1n;
+        "fabric-26.3" = _xqPWqfQf;
         "fabric-26.2" = _GKU4dbVS;
         "fabric-26.1.2" = _xk4WdtA4;
         "fabric-1.21.11" = _xkEq8fRl;
         "fabric-1.20.1" = _nkoacmqY;
         "fabric-1.19.2" = _DBbF5cQj;
         "neoforge-1.21.1" = _uhiOElAu;
-        "neoforge-26.3" = _GCAYccDJ;
+        "neoforge-26.3" = _CtflwGq2;
         "neoforge-26.2" = _3QoTdPCR;
         "neoforge-26.1.2" = _642D5RT3;
         "neoforge-1.21.11" = _LsBxKJuQ;
@@ -482,7 +506,9 @@ let
         "pkg-mc1.19.2-0.5.10" = _YBnNdoLh;
         "pkg-mc26.3-0.6.2" = _2uTmuupR;
         "pkg-mc26.3-0.6.3" = _pdnHeT1n;
-        "default" = _pdnHeT1n;
+        "pkg-mc26.3-0.6.5" = _NzLbOYrj;
+        "pkg-mc26.3-0.6.6" = _xqPWqfQf;
+        "default" = _xqPWqfQf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mezzconfiggui";

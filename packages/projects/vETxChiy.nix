@@ -101,6 +101,16 @@ let
             "file" = "headpats-plugin-1.0.2+paper.jar";
             "hash" = "sha512-/AYTS7Qs/2033eN9xvLB8dsn5IksAP6wkbyM3Ig+YQ4xJzbsbFnWrMzh8ptnyQDX4Hm0TComMI8x6LfYDT1RYw==";
         };
+        _okBLyTSG = {
+            "id" = "okBLyTSG";
+            "file" = "headpats-plugin-1.0.2+paper.jar";
+            "hash" = "sha512-/AYTS7Qs/2033eN9xvLB8dsn5IksAP6wkbyM3Ig+YQ4xJzbsbFnWrMzh8ptnyQDX4Hm0TComMI8x6LfYDT1RYw==";
+        };
+        _LvQQjjNz = {
+            "id" = "LvQQjjNz";
+            "file" = "headpats-1.0.8+26.3.jar";
+            "hash" = "sha512-Js1fqpPxBgfPfeBRpc1PnPUPnpqkVlplcblmKHzGBWFvntmElgKUX03QCvHy94300VrFb9DNeGP6gUMmnY5Izw==";
+        };
     in {
         "6u6o2A6O" = _6u6o2A6O;
         "48UPFTae" = _48UPFTae;
@@ -122,6 +132,8 @@ let
         "PLEHRRPS" = _PLEHRRPS;
         "kq9IEA2S" = _kq9IEA2S;
         "74tlRNNt" = _74tlRNNt;
+        "okBLyTSG" = _okBLyTSG;
+        "LvQQjjNz" = _LvQQjjNz;
         "fabric-1.21" = _s4qXNcqK;
         "fabric-1.21.1" = _s4qXNcqK;
         "fabric-1.21.4" = _bZKTCwCo;
@@ -134,6 +146,7 @@ let
         "fabric-26.1.1" = _PLEHRRPS;
         "fabric-26.1.2" = _PLEHRRPS;
         "fabric-26.2" = _kq9IEA2S;
+        "fabric-26.3" = _LvQQjjNz;
         "paper-1.21" = _ewEJS75r;
         "paper-1.21.1" = _ewEJS75r;
         "paper-1.21.4" = _vQO85t8O;
@@ -148,6 +161,7 @@ let
         "paper-26.1.1" = _Tawt2Pks;
         "paper-26.1.2" = _Tawt2Pks;
         "paper-26.2" = _74tlRNNt;
+        "paper-26.3" = _okBLyTSG;
         "pkg-1.0.0" = _6u6o2A6O;
         "pkg-1.0.1" = _48UPFTae;
         "pkg-1.0.2" = _nzOFF0LI;
@@ -155,7 +169,7 @@ let
         "pkg-1.0.1+paper" = _ewEJS75r;
         "pkg-1.0.3" = _CC9qSsBb;
         "pkg-1.0.3+1.21.4" = _BwO6HnRG;
-        "pkg-1.0.2+paper" = _74tlRNNt;
+        "pkg-1.0.2+paper" = _okBLyTSG;
         "pkg-1.0.5+1.21.4" = _bZKTCwCo;
         "pkg-1.0.5+1.21.5" = _OM9Egh74;
         "pkg-1.0.6+1.21.5" = _Fcy6qNCU;
@@ -166,7 +180,8 @@ let
         "pkg-1.0.6+26.1.2" = _S63Bdr7g;
         "pkg-1.0.7+26.1.2" = _PLEHRRPS;
         "pkg-1.0.7+26.2" = _kq9IEA2S;
-        "default" = _74tlRNNt;
+        "pkg-1.0.8+26.3" = _LvQQjjNz;
+        "default" = _LvQQjjNz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "headpat";

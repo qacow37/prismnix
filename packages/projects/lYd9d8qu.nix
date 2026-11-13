@@ -246,6 +246,11 @@ let
             "file" = "evo-plus-3.3.4.jar";
             "hash" = "sha512-gL0LocZf6TFbm6A/qQQoCiNUjNR75NJfNISWyHHcyzl73/HEqgnbkNkY0/TqxVMxk/1/9DjEEz9jrWLPxm+b/w==";
         };
+        _bvQ83Ek6 = {
+            "id" = "bvQ83Ek6";
+            "file" = "evo-plus-3.3.5.jar";
+            "hash" = "sha512-jZzkwEkLP2eCZ4jGXd3mTYp59vBg2s5eEDPgpBtkSsKB5W4jvCyAleMnBvBq3gMG6ogYpbg585WnK08O5qoK2g==";
+        };
     in {
         "SSN82BiY" = _SSN82BiY;
         "g628Bvnz" = _g628Bvnz;
@@ -296,10 +301,11 @@ let
         "alhROBLQ" = _alhROBLQ;
         "oPM9Ojqg" = _oPM9Ojqg;
         "fHOBwO5W" = _fHOBwO5W;
+        "bvQ83Ek6" = _bvQ83Ek6;
         "fabric-1.19.4" = _diKFirCR;
         "fabric-1.21.3" = _TkJidjJV;
         "fabric-1.21.4" = _AtJsEnb7;
-        "fabric-26.2" = _fHOBwO5W;
+        "fabric-26.2" = _bvQ83Ek6;
         "pkg-2.0.2" = _SSN82BiY;
         "pkg-2.0.3" = _g628Bvnz;
         "pkg-2.0.7" = _7E251d3U;
@@ -348,7 +354,8 @@ let
         "pkg-3.3.2" = _alhROBLQ;
         "pkg-3.3.3" = _oPM9Ojqg;
         "pkg-3.3.4" = _fHOBwO5W;
-        "default" = _fHOBwO5W;
+        "pkg-3.3.5" = _bvQ83Ek6;
+        "default" = _bvQ83Ek6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evoplus";

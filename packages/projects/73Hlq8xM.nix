@@ -41,6 +41,11 @@ let
             "file" = "individualkeepinv-1.0.0+26.2.jar";
             "hash" = "sha512-NLnXZrRUTnNVjmhNwFW0fpZ3BNxZ/2DSvCzYGEGxyXrKg6P+2QxaGPaHhhJ55bkJPD8txpGanKoAkIP6Qc85BA==";
         };
+        _tWzrBzd6 = {
+            "id" = "tWzrBzd6";
+            "file" = "individualkeepinv-1.0.0+26.3.jar";
+            "hash" = "sha512-tnTmZJuhEZUZ7E3MCJlwsa/OwDCgdOvaN8F411cFzMkkJnSmUdhhWRoIY2TjQVlqCqvdMd4F9aEpl9P+Lt0xWQ==";
+        };
     in {
         "7A1vrNPe" = _7A1vrNPe;
         "opDS3dnj" = _opDS3dnj;
@@ -50,6 +55,7 @@ let
         "2qD3xc19" = _2qD3xc19;
         "NGrywwPq" = _NGrywwPq;
         "vFUh75mW" = _vFUh75mW;
+        "tWzrBzd6" = _tWzrBzd6;
         "fabric-1.21.2" = _7A1vrNPe;
         "fabric-1.21.3" = _7A1vrNPe;
         "fabric-1.21.4" = _opDS3dnj;
@@ -63,6 +69,7 @@ let
         "fabric-26.1.1" = _NGrywwPq;
         "fabric-26.1.2" = _NGrywwPq;
         "fabric-26.2" = _vFUh75mW;
+        "fabric-26.3" = _tWzrBzd6;
         "pkg-1.0.0+1.21.2" = _7A1vrNPe;
         "pkg-1.0.0+1.21.4" = _opDS3dnj;
         "pkg-1.0.0+1.21.5" = _gipMGZh1;
@@ -70,7 +77,8 @@ let
         "pkg-1.0.0+1.21.10" = _W0LdMFy0;
         "pkg-1.0.0" = _NGrywwPq;
         "pkg-1.0.0+26.2" = _vFUh75mW;
-        "default" = _vFUh75mW;
+        "pkg-1.0.0+26.3" = _tWzrBzd6;
+        "default" = _tWzrBzd6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "individual-keep-inventory-(updated)";

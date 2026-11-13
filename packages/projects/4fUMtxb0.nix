@@ -121,6 +121,11 @@ let
             "file" = "Default Beta Release v14.5 (1.5.2).zip";
             "hash" = "sha512-k2x2JlZeu3kJ5HBwE9FJh28MvYchOjWyhIHh2G5tLG5ghCnsTwVHbqur5HU5Vt38G8YfHSBA7eKnhbJXDfUqIw==";
         };
+        _X9FTBBwB = {
+            "id" = "X9FTBBwB";
+            "file" = "Default Beta Release v15.zip";
+            "hash" = "sha512-0nLsvV5hLvCqkxqYqCyxvWX7ywiP2z+SSQuWO6847CDBvdad51Oxu+VbMU//joZboxiGduU3GeBoUqPA4IuuQw==";
+        };
     in {
         "ZsbKos4B" = _ZsbKos4B;
         "fsGvRaX2" = _fsGvRaX2;
@@ -146,14 +151,15 @@ let
         "kRvsngSO" = _kRvsngSO;
         "JOit91B4" = _JOit91B4;
         "eijjElWb" = _eijjElWb;
-        "minecraft-1.21.4" = _JOit91B4;
-        "minecraft-1.21.8" = _JOit91B4;
+        "X9FTBBwB" = _X9FTBBwB;
+        "minecraft-1.21.4" = _X9FTBBwB;
+        "minecraft-1.21.8" = _X9FTBBwB;
         "minecraft-1.5.2" = _eijjElWb;
-        "minecraft-1.21.9" = _JOit91B4;
-        "minecraft-1.21.10" = _JOit91B4;
-        "minecraft-26.1" = _JOit91B4;
-        "minecraft-26.1.1" = _JOit91B4;
-        "minecraft-26.1.2" = _JOit91B4;
+        "minecraft-1.21.9" = _X9FTBBwB;
+        "minecraft-1.21.10" = _X9FTBBwB;
+        "minecraft-26.1" = _X9FTBBwB;
+        "minecraft-26.1.1" = _X9FTBBwB;
+        "minecraft-26.1.2" = _X9FTBBwB;
         "minecraft-25w02a" = _312E2LSo;
         "minecraft-25w03a" = _312E2LSo;
         "minecraft-25w04a" = _312E2LSo;
@@ -169,7 +175,7 @@ let
         "minecraft-1.21.5-pre3" = _312E2LSo;
         "minecraft-1.21.5-rc1" = _312E2LSo;
         "minecraft-1.21.5-rc2" = _312E2LSo;
-        "minecraft-1.21.5" = _JOit91B4;
+        "minecraft-1.21.5" = _X9FTBBwB;
         "minecraft-25w15a" = _312E2LSo;
         "minecraft-25w16a" = _312E2LSo;
         "minecraft-25w17a" = _312E2LSo;
@@ -182,10 +188,10 @@ let
         "minecraft-1.21.6-pre3" = _312E2LSo;
         "minecraft-1.21.6-pre4" = _312E2LSo;
         "minecraft-1.21.6-rc1" = _312E2LSo;
-        "minecraft-1.21.6" = _JOit91B4;
+        "minecraft-1.21.6" = _X9FTBBwB;
         "minecraft-1.21.7-rc1" = _312E2LSo;
         "minecraft-1.21.7-rc2" = _312E2LSo;
-        "minecraft-1.21.7" = _JOit91B4;
+        "minecraft-1.21.7" = _X9FTBBwB;
         "minecraft-1.21.8-rc1" = _312E2LSo;
         "minecraft-25w31a" = _312E2LSo;
         "minecraft-25w32a" = _312E2LSo;
@@ -216,7 +222,7 @@ let
         "minecraft-1.21.11-rc1" = _312E2LSo;
         "minecraft-1.21.11-rc2" = _312E2LSo;
         "minecraft-1.21.11-rc3" = _312E2LSo;
-        "minecraft-1.21.11" = _JOit91B4;
+        "minecraft-1.21.11" = _X9FTBBwB;
         "minecraft-26.1-snapshot-1" = _312E2LSo;
         "minecraft-26.1-snapshot-2" = _312E2LSo;
         "minecraft-26.1-snapshot-3" = _312E2LSo;
@@ -252,8 +258,8 @@ let
         "minecraft-26.2-pre-6" = _312E2LSo;
         "minecraft-26.2-rc-1" = _312E2LSo;
         "minecraft-26.2-rc-2" = _312E2LSo;
-        "minecraft-26.2" = _JOit91B4;
-        "minecraft-26.3" = _JOit91B4;
+        "minecraft-26.2" = _X9FTBBwB;
+        "minecraft-26.3" = _X9FTBBwB;
         "minecraft-1.5" = _eijjElWb;
         "minecraft-1.5.1" = _eijjElWb;
         "pkg-V1" = _ZsbKos4B;
@@ -278,7 +284,8 @@ let
         "pkg-R13.5" = _312E2LSo;
         "pkg-R14" = _kRvsngSO;
         "pkg-R14.5" = _eijjElWb;
-        "default" = _eijjElWb;
+        "pkg-R15" = _X9FTBBwB;
+        "default" = _X9FTBBwB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "(wip)-default-beta";

@@ -871,6 +871,21 @@ let
             "file" = "gouge-1.8-mc1.20.1-neoforge.jar";
             "hash" = "sha512-6E3Giy5jVFiw6qhDUGycJCv5ztJc0bkIAI0vkcN7bJfTyAfMP5BNLhhMYOrtg8ZzSDOxzqAMaa/keOdex4g/3g==";
         };
+        _NRACKjjP = {
+            "id" = "NRACKjjP";
+            "file" = "gouge-1.8.1-mc1.21.4-neoforge.jar";
+            "hash" = "sha512-afRNoHPkafvQolZEfAc2AcKEvgCBpJKpgc3MyRRm63oimBg8IFf7YVwyEHLTWeODINoYCHhGJ5i3X7EQbioDCA==";
+        };
+        _Msgtfn8F = {
+            "id" = "Msgtfn8F";
+            "file" = "gouge-1.8.1-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-ZYDOCwqKF8s4OiTqSEtj+U62k7w0q6+bp3MnaBfd1bRPs7PIAQZr6QlnqHbBOYbcCkWB2YkpFj+Bq2MmXjhjqA==";
+        };
+        _hKPeyROn = {
+            "id" = "hKPeyROn";
+            "file" = "gouge-1.8.1-mc1.20.1-forge.jar";
+            "hash" = "sha512-+WgulvKPvFf0k01WxFj6s/7iIBib+qxRmtrheLOmHhTmtW2IIo11hd8vjdYhHO3MCsFYlM8RLcHBjfSMHcrWWQ==";
+        };
     in {
         "hLCiIekw" = _hLCiIekw;
         "NkbkzHyI" = _NkbkzHyI;
@@ -1046,6 +1061,9 @@ let
         "5toosE8a" = _5toosE8a;
         "EDkEXRFa" = _EDkEXRFa;
         "a6Hy3W1r" = _a6Hy3W1r;
+        "NRACKjjP" = _NRACKjjP;
+        "Msgtfn8F" = _Msgtfn8F;
+        "hKPeyROn" = _hKPeyROn;
         "fabric-1.20.1" = _5toosE8a;
         "fabric-1.20.4" = _aDn7q85u;
         "fabric-1.21.1" = _rmFbhTjw;
@@ -1053,7 +1071,7 @@ let
         "fabric-26.1.2" = _n4hiqoFq;
         "fabric-26.2" = _l8zkxpzn;
         "fabric-1.21.11" = _GofZKQpt;
-        "forge-1.20.1" = _EDkEXRFa;
+        "forge-1.20.1" = _hKPeyROn;
         "forge-1.20.4" = _LH3Y4N6g;
         "forge-1.21.1" = _8ztdRLaW;
         "forge-1.21.4" = _2BqyBZEQ;
@@ -1062,8 +1080,8 @@ let
         "forge-1.21.11" = _QfBVorJY;
         "neoforge-1.20.1" = _a6Hy3W1r;
         "neoforge-1.20.4" = _mF3P18WH;
-        "neoforge-1.21.1" = _RYjsrWcv;
-        "neoforge-1.21.4" = _fvysDYyA;
+        "neoforge-1.21.1" = _Msgtfn8F;
+        "neoforge-1.21.4" = _NRACKjjP;
         "neoforge-26.1.2" = _2EYZLaap;
         "neoforge-26.2" = _2nqYw7g4;
         "neoforge-1.21.11" = _zcDEFFs2;
@@ -1079,7 +1097,8 @@ let
         "pkg-1.7.1" = _1TZyIRjO;
         "pkg-1.7.1f" = _1JrWmvWV;
         "pkg-1.8" = _a6Hy3W1r;
-        "default" = _a6Hy3W1r;
+        "pkg-1.8.1" = _hKPeyROn;
+        "default" = _hKPeyROn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gouge";

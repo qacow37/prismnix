@@ -66,6 +66,11 @@ let
             "file" = "bee-gui-26.2-4.1.1.jar";
             "hash" = "sha512-Siy9A2xX9t9SVCyfPM0ylbX3KgLNevI+vj8xufKG8pBXXSnAQ71963THMOAYBjmb9cjDklV+utIdAWxKaDtS2A==";
         };
+        _ygXxXbaX = {
+            "id" = "ygXxXbaX";
+            "file" = "beegui-26.2_26.3-4.2.0.jar";
+            "hash" = "sha512-+msrqSp23TBJzNtot6hlgbtlvXBmMRy8lGdWpSwCVOY7Dw29AZEGiEZjwVa+Q9yab+uibvIBcpH1R9S3ASs8pw==";
+        };
     in {
         "6wawUm9D" = _6wawUm9D;
         "PkWn1xrR" = _PkWn1xrR;
@@ -80,6 +85,7 @@ let
         "iEJksmuT" = _iEJksmuT;
         "t7hJKxkF" = _t7hJKxkF;
         "KsVDMLhV" = _KsVDMLhV;
+        "ygXxXbaX" = _ygXxXbaX;
         "fabric-1.21.10" = _uIDTLu9v;
         "fabric-1.21.11" = _uIDTLu9v;
         "fabric-1.21" = _FSYbw4RI;
@@ -95,7 +101,8 @@ let
         "fabric-26.1" = _iEJksmuT;
         "fabric-26.1.1" = _iEJksmuT;
         "fabric-26.1.2" = _iEJksmuT;
-        "fabric-26.2" = _KsVDMLhV;
+        "fabric-26.2" = _ygXxXbaX;
+        "fabric-26.3" = _ygXxXbaX;
         "pkg-1.0.0" = _6wawUm9D;
         "pkg-1.1.0" = _PkWn1xrR;
         "pkg-2.0.0" = _B7KrD7jK;
@@ -104,7 +111,8 @@ let
         "pkg-4.0.0" = _iEJksmuT;
         "pkg-4.1.0" = _t7hJKxkF;
         "pkg-4.1.1" = _KsVDMLhV;
-        "default" = _KsVDMLhV;
+        "pkg-4.2.0" = _ygXxXbaX;
+        "default" = _ygXxXbaX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bee-gui";

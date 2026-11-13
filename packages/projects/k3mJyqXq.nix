@@ -86,6 +86,11 @@ let
             "file" = "skincraft-1.3.8-rc.1.jar";
             "hash" = "sha512-ds2KxXyelydlmQoZ2HD9D2m/7OBUr6eOWT4GUF7UZn0c9rceGuxdPWB51pmOr9zLVeH86iIC2eOaA+10n3fc+w==";
         };
+        _NLVextXb = {
+            "id" = "NLVextXb";
+            "file" = "skincraft-1.3.8.jar";
+            "hash" = "sha512-fbzLx4vtmg2R5EY29p8arJIIevPpYghJAkojuMwbKsML7BOPzDSJv/w1WyTbVBF7o2Fidxi3m3xq9WVb9PAApA==";
+        };
     in {
         "DSWaLRmu" = _DSWaLRmu;
         "IVhT8LOs" = _IVhT8LOs;
@@ -104,12 +109,13 @@ let
         "HKDMoF5n" = _HKDMoF5n;
         "zQBp2pD0" = _zQBp2pD0;
         "DZjAFKLW" = _DZjAFKLW;
+        "NLVextXb" = _NLVextXb;
         "fabric-1.21.11" = _ezxWzdPU;
-        "fabric-26.1" = _DZjAFKLW;
-        "fabric-26.1.1" = _DZjAFKLW;
-        "fabric-26.1.2" = _DZjAFKLW;
-        "fabric-26.2" = _DZjAFKLW;
-        "fabric-26.3" = _DZjAFKLW;
+        "fabric-26.1" = _NLVextXb;
+        "fabric-26.1.1" = _NLVextXb;
+        "fabric-26.1.2" = _NLVextXb;
+        "fabric-26.2" = _NLVextXb;
+        "fabric-26.3" = _NLVextXb;
         "pkg-1.0.0-beta.1" = _DSWaLRmu;
         "pkg-1.1.0-beta.1" = _IVhT8LOs;
         "pkg-1.1.1-beta.1" = _e0rPOLLS;
@@ -126,7 +132,8 @@ let
         "pkg-1.3.7" = _HKDMoF5n;
         "pkg-1.3.7-hotfix1" = _zQBp2pD0;
         "pkg-1.3.8-rc.1" = _DZjAFKLW;
-        "default" = _DZjAFKLW;
+        "pkg-1.3.8" = _NLVextXb;
+        "default" = _NLVextXb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skincraft";

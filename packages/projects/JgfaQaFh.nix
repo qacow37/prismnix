@@ -26,19 +26,50 @@ let
             "file" = "ParticleRain-Backport-1.12.2-0.2.2.jar";
             "hash" = "sha512-oeps8GwDMs+Va3yr5Oq1PmukfhFB5hB3kHFXy2OAhqbG5aCTBEZ0KwPcyBHz3BCpyO+S1Igy2eS/jcX9qRnKMQ==";
         };
+        _MKwshSe1 = {
+            "id" = "MKwshSe1";
+            "file" = "particlerain-1.4.8+1.12.2-forge.jar";
+            "hash" = "sha512-rsIzqg2teRg+kyrjtpjB9D27cnNGfziNzAR4w5WZTHRq/I0NXSh57pzzv1LGiSoC/siNf/gH9AxkLfWiP2KlBQ==";
+        };
+        _NOFoxDGA = {
+            "id" = "NOFoxDGA";
+            "file" = "particlerain-1.4.8+1.7.10-forge.jar";
+            "hash" = "sha512-97AG6wkQ+ocuehJ/dsPzjq2qgPGUVMnqrbQQEHyfUPS8DQ7SmhGOkyiyaDRNB1fURukjw+boTI44kjjkyNB+/w==";
+        };
+        _P3wqn1yQ = {
+            "id" = "P3wqn1yQ";
+            "file" = "particlerain-1.4.8+1.12.2-legacyfabric.jar";
+            "hash" = "sha512-HDXaPjDKllVk3sKDOgZFK+8PrhJXxA6Nr4gGcXpW6kAgPHfz8uJm7hq9PZBzifxtf09vNJxMaDsp3k6Wiz1ebA==";
+        };
+        _Chzrr4nJ = {
+            "id" = "Chzrr4nJ";
+            "file" = "particlerain-1.4.8+1.7.10-legacyfabric.jar";
+            "hash" = "sha512-O/gSYOcYdvt8iRV7ZMaAL9NsvScxtDXxcfqiQrLv4rNNLkIl4JlC+qYRDHuCpxBMzY5rwTeIz2/6HFQ4xoPJHA==";
+        };
     in {
         "cMn3UjcY" = _cMn3UjcY;
         "icOwKYkt" = _icOwKYkt;
         "f0uoAGsR" = _f0uoAGsR;
         "MKX25U5Z" = _MKX25U5Z;
         "AXEWm64w" = _AXEWm64w;
-        "forge-1.12.2" = _AXEWm64w;
+        "MKwshSe1" = _MKwshSe1;
+        "NOFoxDGA" = _NOFoxDGA;
+        "P3wqn1yQ" = _P3wqn1yQ;
+        "Chzrr4nJ" = _Chzrr4nJ;
+        "forge-1.12.2" = _MKwshSe1;
+        "forge-1.7.10" = _NOFoxDGA;
+        "legacy-fabric-1.12.2" = _P3wqn1yQ;
+        "legacy-fabric-1.7.10" = _Chzrr4nJ;
         "pkg-0.1.4" = _cMn3UjcY;
         "pkg-0.1.5" = _icOwKYkt;
         "pkg-0.1.7" = _f0uoAGsR;
         "pkg-0.1.8" = _MKX25U5Z;
         "pkg-0.2.2" = _AXEWm64w;
-        "default" = _AXEWm64w;
+        "pkg-1.4.8+1.12.2-forge" = _MKwshSe1;
+        "pkg-1.4.8+1.7.10-forge" = _NOFoxDGA;
+        "pkg-1.4.8+1.12.2-legacyfabric" = _P3wqn1yQ;
+        "pkg-1.4.8+1.7.10-legacyfabric" = _Chzrr4nJ;
+        "default" = _Chzrr4nJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-rain-backport";

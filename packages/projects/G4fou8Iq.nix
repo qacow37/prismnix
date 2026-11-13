@@ -81,6 +81,11 @@ let
             "file" = "modmenu_updater-1.2.0-mc26.2.jar";
             "hash" = "sha512-xyTQDeGQ66EiL3qpU9CgI0taQblB1bMUcQBMSdtZ4ti8YZW/duhJ40Zhzy8wIu7VLrd/m9apRKiNdPmMDKVyyA==";
         };
+        _Gql8eFfi = {
+            "id" = "Gql8eFfi";
+            "file" = "modmenu_updater-1.3.0-mc26.3.jar";
+            "hash" = "sha512-kDViBf5x6WMq1hkf6Y0QTCnAGVcRkDjq7ADpcZWuQNKvhVmoUHUNDlv56lvDU8u1MF+FLjrhb3Eiwgrw7XlI1w==";
+        };
     in {
         "UjV1MT9h" = _UjV1MT9h;
         "UYuUIcei" = _UYuUIcei;
@@ -98,6 +103,7 @@ let
         "egi39xI4" = _egi39xI4;
         "NwPwYbz6" = _NwPwYbz6;
         "S1SOpfEp" = _S1SOpfEp;
+        "Gql8eFfi" = _Gql8eFfi;
         "fabric-1.21.10" = _UjV1MT9h;
         "fabric-1.21.11" = _Af34F3LB;
         "fabric-1.21.4" = _v8YwdyTd;
@@ -105,6 +111,7 @@ let
         "fabric-26.1.1" = _egi39xI4;
         "fabric-26.1.2" = _egi39xI4;
         "fabric-26.2" = _S1SOpfEp;
+        "fabric-26.3" = _Gql8eFfi;
         "pkg-1.0.0" = _UjV1MT9h;
         "pkg-1.1.0" = _UYuUIcei;
         "pkg-1.1.1" = _5MVPNWp6;
@@ -121,7 +128,8 @@ let
         "pkg-1.1.8-mc26.1" = _egi39xI4;
         "pkg-1.1.9-mc26.2" = _NwPwYbz6;
         "pkg-1.2.0-mc26.2" = _S1SOpfEp;
-        "default" = _S1SOpfEp;
+        "pkg-1.3.0-mc26.3" = _Gql8eFfi;
+        "default" = _Gql8eFfi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modmenu-updater";

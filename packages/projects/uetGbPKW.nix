@@ -16,15 +16,22 @@ let
             "file" = "ragdoll_corpse-1.21.1-0.3.0.jar";
             "hash" = "sha512-GmXqlbuqFxYR9XpO9EgGSp8NjGoT8tbvVsEAHvDfRp/0LrRx49bW/j4jFB9X8J+uZMwYF122Do4yu3klMf+CtA==";
         };
+        _7o7DeIN5 = {
+            "id" = "7o7DeIN5";
+            "file" = "ragdoll_corpse-1.21.1-0.4.0.jar";
+            "hash" = "sha512-YRSTGCAy29rWRsph31Pf2N/gtaU2/nE95IzHHOTEyNB+0k4nY0NxvtLzCePfCTNq428xDKopUm5ugU+MGaLZBA==";
+        };
     in {
         "ECnar1pT" = _ECnar1pT;
         "iCtoFHKa" = _iCtoFHKa;
         "DwA6a1pT" = _DwA6a1pT;
-        "neoforge-1.21.1" = _DwA6a1pT;
+        "7o7DeIN5" = _7o7DeIN5;
+        "neoforge-1.21.1" = _7o7DeIN5;
         "pkg-0.1.0" = _ECnar1pT;
         "pkg-0.2.0" = _iCtoFHKa;
         "pkg-0.3.0" = _DwA6a1pT;
-        "default" = _DwA6a1pT;
+        "pkg-0.4.0" = _7o7DeIN5;
+        "default" = _7o7DeIN5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable-ragdoll-corpse";

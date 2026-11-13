@@ -36,6 +36,11 @@ let
             "file" = "armorplus-1.21.1-23.0.0-neo.jar";
             "hash" = "sha512-wlsP1Eueu6NsBCm57UvNuSH14NwVWCKjBsPDLUjoG6OdaBK1P3PqTwKJJ4gbvzLgsKAVLQNYARdUKj/qPoRbmA==";
         };
+        _KJwI4NXz = {
+            "id" = "KJwI4NXz";
+            "file" = "armorplus-1.21.1-23.0.1-neo.jar";
+            "hash" = "sha512-eqQIfnWOAcv1ziIElu7R1xGJlRogeMDQgDBX8skYnnDYH+JLrEKdcBsF9w6KUzScuiWUN/WgG7JF8l263+Lwxw==";
+        };
     in {
         "jKc8WCL4" = _jKc8WCL4;
         "QAnoIC5r" = _QAnoIC5r;
@@ -44,11 +49,12 @@ let
         "DuzUYwqr" = _DuzUYwqr;
         "5w3EoHmX" = _5w3EoHmX;
         "dobjAVfd" = _dobjAVfd;
+        "KJwI4NXz" = _KJwI4NXz;
         "forge-1.16.5" = _QAnoIC5r;
         "forge-1.18.2" = _luH0kOcp;
         "forge-1.19.2" = _RBc8l8lz;
         "neoforge-26.1.2" = _5w3EoHmX;
-        "neoforge-1.21.1" = _dobjAVfd;
+        "neoforge-1.21.1" = _KJwI4NXz;
         "pkg-1.16.5-16.7.0" = _jKc8WCL4;
         "pkg-1.16.5-16.8.1" = _QAnoIC5r;
         "pkg-1.18.2-18.2.0" = _luH0kOcp;
@@ -56,7 +62,8 @@ let
         "pkg-22.2.0" = _DuzUYwqr;
         "pkg-23.0.0" = _5w3EoHmX;
         "pkg-1.21.1-23.0.0" = _dobjAVfd;
-        "default" = _dobjAVfd;
+        "pkg-1.21.1-23.0.1" = _KJwI4NXz;
+        "default" = _KJwI4NXz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armorplus";
