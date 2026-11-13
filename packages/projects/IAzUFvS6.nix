@@ -2651,6 +2651,11 @@ let
             "file" = "fwa+1.21.1-neoforge-1.3.4.jar";
             "hash" = "sha512-ervXDR+HNV1aG5sCkgyVUfcdoCKR3sqLEMrspdToP4m8eF5h824vXnRdUIccYVaqm1iqIqgWfB+VougpplMsag==";
         };
+        _fDAYiNfL = {
+            "id" = "fDAYiNfL";
+            "file" = "fwa+26.3-1.3.6.jar";
+            "hash" = "sha512-yx6Btlio41WnfVdW6ZYV3dGA3sTATigiZETx9SBrD8mLZn8l8kDGv15IJn6Bn7aHuqB3vK0tIWeN6j7exs4ulA==";
+        };
     in {
         "I1LoBt83" = _I1LoBt83;
         "tSmI3H4o" = _tSmI3H4o;
@@ -3182,6 +3187,7 @@ let
         "VdLw70UL" = _VdLw70UL;
         "gpbASJi7" = _gpbASJi7;
         "ElMgmNhI" = _ElMgmNhI;
+        "fDAYiNfL" = _fDAYiNfL;
         "fabric-1.21.11" = _7DjxuDWs;
         "fabric-1.21.6" = _yCyn9oe7;
         "fabric-1.21.7" = _yCyn9oe7;
@@ -3204,7 +3210,7 @@ let
         "fabric-26.1.1" = _SV2bLR5y;
         "fabric-26.1.2" = _SV2bLR5y;
         "fabric-26.2" = _cSXDNo3Z;
-        "fabric-26.3" = _oFnm3FIX;
+        "fabric-26.3" = _fDAYiNfL;
         "quilt-1.21.11" = _7DjxuDWs;
         "quilt-1.21.6" = _yCyn9oe7;
         "quilt-1.21.7" = _yCyn9oe7;
@@ -3227,7 +3233,7 @@ let
         "quilt-26.1.1" = _SV2bLR5y;
         "quilt-26.1.2" = _SV2bLR5y;
         "quilt-26.2" = _cSXDNo3Z;
-        "quilt-26.3" = _oFnm3FIX;
+        "quilt-26.3" = _fDAYiNfL;
         "neoforge-1.21.11" = _cVnYCs84;
         "neoforge-1.21.1" = _ElMgmNhI;
         "neoforge-1.20.1" = _gpbASJi7;
@@ -3335,7 +3341,8 @@ let
         "pkg-1.3.2" = _b0yNdHc5;
         "pkg-1.3.3" = _Rk75TRf6;
         "pkg-1.3.4" = _ElMgmNhI;
-        "default" = _ElMgmNhI;
+        "pkg-1.3.6" = _fDAYiNfL;
+        "default" = _fDAYiNfL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fwa";

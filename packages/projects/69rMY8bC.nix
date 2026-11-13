@@ -3226,6 +3226,21 @@ let
             "file" = "tofucraft-26.3-28.2.2.0.jar";
             "hash" = "sha512-1qFk3foIrORH3CAp0cV/U9OCdbeXLXUWSrP/a0P544e23F1s3kcLYA2jct3gtOJMxvYFD9QPv8vDTIqUIq5o8g==";
         };
+        _1QTScP8o = {
+            "id" = "1QTScP8o";
+            "file" = "tofucraft-26.1.2-26.11.7.0.jar";
+            "hash" = "sha512-A3Y72/DVQFi2xlyzQxco3O8UIdXQxSrMZBS5PpVa38HFhtT3/49A0wWwgIQeUedednxJm/KGuh7UdjbI8PjKDw==";
+        };
+        _WwusEhqD = {
+            "id" = "WwusEhqD";
+            "file" = "tofucraft-26.2-27.10.8.0.jar";
+            "hash" = "sha512-HGg4lJJKl0NLw4pI9fZ+SD/tZGo9Z7JiyKcWsJpL2GVKjNj06uAeYetdrppi6LFFzAIo9SWnPPGMT3gp7eakSw==";
+        };
+        _provw3bO = {
+            "id" = "provw3bO";
+            "file" = "tofucraft-26.3-28.2.3.0.jar";
+            "hash" = "sha512-2L39kxxw+IYP54auYspXqqMs0WulPSQfp4dZz3keOiCRDktxGo90652k++T0Xl1pzyRL0VIefFQHD+e9QEsVbw==";
+        };
     in {
         "OF6fzUdX" = _OF6fzUdX;
         "7txqHZCY" = _7txqHZCY;
@@ -3872,6 +3887,9 @@ let
         "U2kHW6tg" = _U2kHW6tg;
         "FhTlyttN" = _FhTlyttN;
         "zy4xvmfV" = _zy4xvmfV;
+        "1QTScP8o" = _1QTScP8o;
+        "WwusEhqD" = _WwusEhqD;
+        "provw3bO" = _provw3bO;
         "forge-1.19.2" = _eUK2pr22;
         "forge-1.19.3" = _8IRIXH49;
         "forge-1.18.2" = _FgGfLtTy;
@@ -3904,9 +3922,9 @@ let
         "neoforge-26.1-snapshot-7" = _yzcMVyCb;
         "neoforge-26.1" = _IN4yNoCH;
         "neoforge-26.1.1" = _fcCw7QtT;
-        "neoforge-26.1.2" = _zLM34X8K;
-        "neoforge-26.2" = _U2kHW6tg;
-        "neoforge-26.3" = _zy4xvmfV;
+        "neoforge-26.1.2" = _1QTScP8o;
+        "neoforge-26.2" = _WwusEhqD;
+        "neoforge-26.3" = _provw3bO;
         "pkg-2.7.4.2" = _OF6fzUdX;
         "pkg-2.7.4.3" = _7txqHZCY;
         "pkg-2.7.5.0" = _JLOy0FLR;
@@ -4547,7 +4565,10 @@ let
         "pkg-26.2-27.10.7.0" = _U2kHW6tg;
         "pkg-26.3-28.2.1.0" = _FhTlyttN;
         "pkg-26.3-28.2.2.0" = _zy4xvmfV;
-        "default" = _zy4xvmfV;
+        "pkg-26.1.2-26.11.7.0" = _1QTScP8o;
+        "pkg-26.2-27.10.8.0" = _WwusEhqD;
+        "pkg-26.3-28.2.3.0" = _provw3bO;
+        "default" = _provw3bO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tofucraftreload";

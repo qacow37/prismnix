@@ -61,6 +61,11 @@ let
             "file" = "strippingtoggle-1.3.0+26.3.jar";
             "hash" = "sha512-0ikmS8OtUYe8jP0UyNSnV8Qa9ZTKna10mbROBIiFELg/zBS0/tpOKA1emG9ZSmzFv0GPr8HR5TFqlJg9JK/9uA==";
         };
+        _bynGHG7b = {
+            "id" = "bynGHG7b";
+            "file" = "strippingtoggle-1.3.1+26.3.jar";
+            "hash" = "sha512-M1aUmYEGKFsGh9XIvyZeS849SEfwxbpf73GK1KGh2htFjADI7MpXVnnfRFXTHk/H0PZkJpKTyGCZHBUSFuZFjA==";
+        };
     in {
         "vqCUzNut" = _vqCUzNut;
         "bsifHZfZ" = _bsifHZfZ;
@@ -74,6 +79,7 @@ let
         "NXxqUYv8" = _NXxqUYv8;
         "f19h3Pa4" = _f19h3Pa4;
         "qE9SyGg0" = _qE9SyGg0;
+        "bynGHG7b" = _bynGHG7b;
         "fabric-1.21.1" = _NpvWHGbY;
         "fabric-1.21.5" = _7tveNGur;
         "fabric-1.21" = _NpvWHGbY;
@@ -88,7 +94,7 @@ let
         "fabric-26.1.1" = _NXxqUYv8;
         "fabric-26.1.2" = _NXxqUYv8;
         "fabric-26.2" = _f19h3Pa4;
-        "fabric-26.3" = _qE9SyGg0;
+        "fabric-26.3" = _bynGHG7b;
         "pkg-1.0.0" = _vqCUzNut;
         "pkg-1.1.0" = _bsifHZfZ;
         "pkg-1.2.0" = _1HnuqPo0;
@@ -101,7 +107,8 @@ let
         "pkg-1.2.5" = _NXxqUYv8;
         "pkg-1.2.6" = _f19h3Pa4;
         "pkg-1.3.0+26.3" = _qE9SyGg0;
-        "default" = _qE9SyGg0;
+        "pkg-1.3.1+26.3" = _bynGHG7b;
+        "default" = _bynGHG7b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strippingtoggle";

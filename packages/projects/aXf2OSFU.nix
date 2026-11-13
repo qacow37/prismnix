@@ -686,6 +686,16 @@ let
             "file" = "ok_zoomer-17.0.0-beta.7.jar";
             "hash" = "sha512-nihay4ZN8/tngvpbMuAZd4GF1L9UQizpgd9t9+B6JE1s/tkqQjHx7gh7Q/6PtEYcQD9kw1N6MeZLkeeoF++qtw==";
         };
+        _ddlK4Q2U = {
+            "id" = "ddlK4Q2U";
+            "file" = "ok_zoomer-fabric-16.0.0-beta.3.jar";
+            "hash" = "sha512-/P63700Xm+yKSemoiuvIG8izm7rRTmVSvanGjhIZfJqeCACKpKmf9pZzEwQ8GAdFhlH+yKlguxe9OBoKGyE8qw==";
+        };
+        _uy9LyAL5 = {
+            "id" = "uy9LyAL5";
+            "file" = "ok_zoomer-neo-16.0.0-beta.3.jar";
+            "hash" = "sha512-uDxm3/zzWCRqo/Jm9uFE0tD40ucLVAywV6SIS6AG5Lp3+iLqGQvwRFEj7zp/o9EQgFCSQrrI+jGXlvf0syTkow==";
+        };
     in {
         "KK5vv9Ca" = _KK5vv9Ca;
         "78Hjm4bd" = _78Hjm4bd;
@@ -824,6 +834,8 @@ let
         "g9ICu3fu" = _g9ICu3fu;
         "BeDXLh3L" = _BeDXLh3L;
         "2LEV4zNa" = _2LEV4zNa;
+        "ddlK4Q2U" = _ddlK4Q2U;
+        "uy9LyAL5" = _uy9LyAL5;
         "fabric-1.16.2" = _L7TmfftT;
         "fabric-1.15" = _78Hjm4bd;
         "fabric-1.15.1" = _78Hjm4bd;
@@ -882,7 +894,7 @@ let
         "fabric-1.21.8" = _Zc1RUWpc;
         "fabric-1.21.9" = _97vlRtL9;
         "fabric-1.21.10" = _97vlRtL9;
-        "fabric-1.21.11" = _MiOAcTGw;
+        "fabric-1.21.11" = _ddlK4Q2U;
         "fabric-26.1-pre-1" = _Qct44PL0;
         "fabric-26.1-pre-2" = _Qct44PL0;
         "fabric-26.1-pre-3" = _Qct44PL0;
@@ -965,7 +977,7 @@ let
         "neoforge-1.21.8" = _ytb8G9Y4;
         "neoforge-1.21.9" = _Zp5dTkTT;
         "neoforge-1.21.10" = _Zp5dTkTT;
-        "neoforge-1.21.11" = _FRHpJBJG;
+        "neoforge-1.21.11" = _uy9LyAL5;
         "neoforge-26.1-pre-1" = _Qct44PL0;
         "neoforge-26.1-pre-2" = _Qct44PL0;
         "neoforge-26.1-pre-3" = _Qct44PL0;
@@ -1120,7 +1132,9 @@ let
         "pkg-19.0.0-beta.3" = _g9ICu3fu;
         "pkg-18.0.0-beta.4" = _BeDXLh3L;
         "pkg-17.0.0-beta.7" = _2LEV4zNa;
-        "default" = _2LEV4zNa;
+        "pkg-16.0.0-beta.3+fabric" = _ddlK4Q2U;
+        "pkg-16.0.0-beta.3+neo" = _uy9LyAL5;
+        "default" = _uy9LyAL5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ok-zoomer";

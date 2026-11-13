@@ -1066,6 +1066,16 @@ let
             "file" = "ae2wtlib-26.1.2-beta.jar";
             "hash" = "sha512-RfipzJ5LeGhXZA376L3ujQrdyBJ4XGg1y+2aDELeaC3+NMUQQGWNGmITnm/3v68AeEfry80fchZAUt52lOR9Tg==";
         };
+        _WdI8qZMR = {
+            "id" = "WdI8qZMR";
+            "file" = "ae2wtlib-26.3.2-beta.jar";
+            "hash" = "sha512-7Bfp+8bIn5vZy+wYuthQYWmdLpuJpKUn8PfRhkMav/uuzYDjNZ1ZrXuJ7JBDNSYTRQUVFUenyeuuFwDFKAgAuA==";
+        };
+        _cFIgbO20 = {
+            "id" = "cFIgbO20";
+            "file" = "ae2wtlib-26.1.3-beta.jar";
+            "hash" = "sha512-WfQfxuLE/XjBkrolyluORdsN7fBYomsbsc8GljuECog1DkY2IhRQ7otqC4NB/2VppHYSdEABQJTVF4x0q5YSjA==";
+        };
     in {
         "kreHRWjE" = _kreHRWjE;
         "leFHWmnB" = _leFHWmnB;
@@ -1280,6 +1290,8 @@ let
         "8s6eW5ev" = _8s6eW5ev;
         "4QO067RQ" = _4QO067RQ;
         "oB0wuNDF" = _oB0wuNDF;
+        "WdI8qZMR" = _WdI8qZMR;
+        "cFIgbO20" = _cFIgbO20;
         "fabric-1.16.5" = _sf1mHLqO;
         "fabric-1.17.1" = _uUVK3ITc;
         "fabric-1.18" = _31o5U4Ht;
@@ -1299,9 +1311,9 @@ let
         "neoforge-1.20.6" = _bePqAqEm;
         "neoforge-1.21" = _tL5vZeFg;
         "neoforge-1.21.1" = _CxSEpEnO;
-        "neoforge-26.1.2" = _oB0wuNDF;
+        "neoforge-26.1.2" = _cFIgbO20;
         "neoforge-26.2" = _sFImQ4Hm;
-        "neoforge-26.3" = _4QO067RQ;
+        "neoforge-26.3" = _WdI8qZMR;
         "pkg-1.0.0-alpha.662006877" = _kreHRWjE;
         "pkg-1.0.0-alpha.662043544" = _leFHWmnB;
         "pkg-1.0.0-alpha.670660002" = _eOS8jwH2;
@@ -1515,7 +1527,9 @@ let
         "pkg-26.3.0-beta" = _8s6eW5ev;
         "pkg-26.3.1-beta" = _4QO067RQ;
         "pkg-26.1.2-beta" = _oB0wuNDF;
-        "default" = _oB0wuNDF;
+        "pkg-26.3.2-beta" = _WdI8qZMR;
+        "pkg-26.1.3-beta" = _cFIgbO20;
+        "default" = _cFIgbO20;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-energistics-2-wireless-terminals";

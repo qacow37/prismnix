@@ -11,13 +11,20 @@ let
             "file" = "tacz_extras-1.20.1-1.1.1.jar";
             "hash" = "sha512-BJMEAYdkZsi/1OlRKUdujItClk3c6SZ0fdN/Pr6UzdbOQNWuektI9BOJEHsQIExecOpHdtkTjrQ+Z5QDr4qn+g==";
         };
+        _JlCnimD8 = {
+            "id" = "JlCnimD8";
+            "file" = "tacz_extras-1.20.1-1.1.2.jar";
+            "hash" = "sha512-R7IbZUqjPJJCPNyXOh3JyWkkH17i5KR2Yw24hSDx3v+NIoLLOTLJugG0V0z23DykrZgnlkAlGDv9dE+/YQOHTQ==";
+        };
     in {
         "jgLHxbyv" = _jgLHxbyv;
         "VNf2JkUf" = _VNf2JkUf;
-        "forge-1.20.1" = _VNf2JkUf;
+        "JlCnimD8" = _JlCnimD8;
+        "forge-1.20.1" = _JlCnimD8;
         "pkg-1.1.0" = _jgLHxbyv;
         "pkg-1.1.1" = _VNf2JkUf;
-        "default" = _VNf2JkUf;
+        "pkg-1.1.2" = _JlCnimD8;
+        "default" = _JlCnimD8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-extras";

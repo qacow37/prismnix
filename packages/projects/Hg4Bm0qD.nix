@@ -71,6 +71,21 @@ let
             "file" = "kubejsstudio-neoforge-1.21.1-1.3.0.jar";
             "hash" = "sha512-CrEhUi0REHbpyjM4GVAGZfWt7DweEE7iqgD30wkSROMTbbg5zManDf2oGAhhi+AyrIoiFIGylb4PPBaH0OaF2Q==";
         };
+        _vX68vL3E = {
+            "id" = "vX68vL3E";
+            "file" = "kubejsstudio-forge-1.20.1-1.4.0.jar";
+            "hash" = "sha512-tm7GRFo+qyty6G3c1wb4ir3USM6Eu5MEQLWsT1hPE+nspk9znh2ee3nW05UVzUfhJZx7w98H+CdAcV2Vs8TYSg==";
+        };
+        _uICJUj53 = {
+            "id" = "uICJUj53";
+            "file" = "kubejsstudio-neoforge-26.1-1.4.0.jar";
+            "hash" = "sha512-67+FTuB85BT9kVTheVjrAozsOiL2WCM1CYenDb+g7oYgii7HamSts56hVRClfsM/KkDZrFlssP0Am9ll6dePDw==";
+        };
+        _LYjqB2c4 = {
+            "id" = "LYjqB2c4";
+            "file" = "kubejsstudio-neoforge-1.21.1-1.4.0.jar";
+            "hash" = "sha512-NugBb2KMjrfawlLPGI5Edr05VIoDL04EoFfPmCEPQ5eH0jBarEeO+wgAzNQxlSSL0wCsnxYfg4PBxKEv/lxPYQ==";
+        };
     in {
         "9G5cXGQX" = _9G5cXGQX;
         "nPgA21LV" = _nPgA21LV;
@@ -86,11 +101,14 @@ let
         "9xcEFA8k" = _9xcEFA8k;
         "uY1E5WyM" = _uY1E5WyM;
         "LEDg1K1f" = _LEDg1K1f;
-        "neoforge-1.21.1" = _LEDg1K1f;
-        "neoforge-26.1" = _uY1E5WyM;
-        "neoforge-26.1.1" = _uY1E5WyM;
-        "neoforge-26.1.2" = _uY1E5WyM;
-        "forge-1.20.1" = _9xcEFA8k;
+        "vX68vL3E" = _vX68vL3E;
+        "uICJUj53" = _uICJUj53;
+        "LYjqB2c4" = _LYjqB2c4;
+        "neoforge-1.21.1" = _LYjqB2c4;
+        "neoforge-26.1" = _uICJUj53;
+        "neoforge-26.1.1" = _uICJUj53;
+        "neoforge-26.1.2" = _uICJUj53;
+        "forge-1.20.1" = _vX68vL3E;
         "pkg-1.0.0-beta1" = _9G5cXGQX;
         "pkg-1.0.0+forge-1.20.1" = _nPgA21LV;
         "pkg-1.0.0+neoforge-1.21.1" = _zJzislik;
@@ -105,7 +123,10 @@ let
         "pkg-1.3.0+forge-1.20.1" = _9xcEFA8k;
         "pkg-1.3.0+neoforge-26.1" = _uY1E5WyM;
         "pkg-1.3.0+neoforge-1.21.1" = _LEDg1K1f;
-        "default" = _LEDg1K1f;
+        "pkg-1.4.0+forge-1.20.1" = _vX68vL3E;
+        "pkg-1.4.0+neoforge-26.1" = _uICJUj53;
+        "pkg-1.4.0+neoforge-1.21.1" = _LYjqB2c4;
+        "default" = _LYjqB2c4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubejs-studio";

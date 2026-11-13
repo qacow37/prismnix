@@ -46,6 +46,11 @@ let
             "file" = "homelawnsecurity-0.0.5.3.jar";
             "hash" = "sha512-DUGvUDOyDVXZAmZB2lPk+clztDmVm7Bs0wygpRD/g2/YafSdM+5JeKzeyPvL27aQp7cxx0n2wlRwjpOniBcnjw==";
         };
+        _V4JYhT1e = {
+            "id" = "V4JYhT1e";
+            "file" = "homelawnsecurity-0.0.6.jar";
+            "hash" = "sha512-Wvjt2wNOAM7vGmpIy2xEKpoR0oKDPmxmC+ByA4gzu141TGlWa0ZSi8f0CvWtVJ86BQb5BAq6Wh5dajyU0FnQuw==";
+        };
     in {
         "84LXEtps" = _84LXEtps;
         "d9dlyC9c" = _d9dlyC9c;
@@ -56,6 +61,7 @@ let
         "LSAQUUHJ" = _LSAQUUHJ;
         "vRUbXuGA" = _vRUbXuGA;
         "hxPwrwXi" = _hxPwrwXi;
+        "V4JYhT1e" = _V4JYhT1e;
         "fabric-1.20.4" = _84LXEtps;
         "fabric-1.20.5" = _84LXEtps;
         "fabric-1.20.6" = _84LXEtps;
@@ -63,7 +69,7 @@ let
         "fabric-1.21.5" = _Otf0BXRG;
         "fabric-1.21.6" = _LSAQUUHJ;
         "fabric-1.21.10" = _vRUbXuGA;
-        "fabric-1.21.11" = _hxPwrwXi;
+        "fabric-1.21.11" = _V4JYhT1e;
         "pkg-0.0.1" = _84LXEtps;
         "pkg-0.0.2" = _d9dlyC9c;
         "pkg-0.0.3" = _vp4kN03E;
@@ -73,7 +79,8 @@ let
         "pkg-0.0.5.1" = _LSAQUUHJ;
         "pkg-0.0.5.2" = _vRUbXuGA;
         "pkg-0.0.5.3" = _hxPwrwXi;
-        "default" = _hxPwrwXi;
+        "pkg-0.0.6" = _V4JYhT1e;
+        "default" = _V4JYhT1e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "home-lawn-security";

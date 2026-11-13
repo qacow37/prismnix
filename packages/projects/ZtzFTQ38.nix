@@ -31,6 +31,11 @@ let
             "file" = "§eHorse Armor & Stuff_FA_1.21.11.zip";
             "hash" = "sha512-4+Sue7mq33bmlKCVtdOiPwOdPc4F5LXlCx4ooPf4dufHXM2GyE0C8go7f0j/Ngn8xv1wIiMr7xkXy0O6jL3VEQ==";
         };
+        _SpkZADeF = {
+            "id" = "SpkZADeF";
+            "file" = "§eHorse Armor & Stuff_FA_26.1+.zip";
+            "hash" = "sha512-GQ9NDVVoG0WPsqjKnPOJ6WiVMq7z8HVR/1HbkJ5sn6xMIm4F6YeK+f8uLtnnmJ3U5lb73CVBbrjxAgevkIqxgw==";
+        };
     in {
         "3U3dJsMs" = _3U3dJsMs;
         "H15IOWFJ" = _H15IOWFJ;
@@ -38,6 +43,7 @@ let
         "RkSHxiRD" = _RkSHxiRD;
         "jRVW8fMj" = _jRVW8fMj;
         "VlHAKc74" = _VlHAKc74;
+        "SpkZADeF" = _SpkZADeF;
         "minecraft-1.21.2" = _ejDpccSW;
         "minecraft-1.21.3" = _ejDpccSW;
         "minecraft-1.21.4" = _ejDpccSW;
@@ -47,11 +53,17 @@ let
         "minecraft-1.21.8" = _RkSHxiRD;
         "minecraft-1.21.9" = _jRVW8fMj;
         "minecraft-1.21.10" = _jRVW8fMj;
-        "minecraft-1.21.11" = _VlHAKc74;
+        "minecraft-1.21.11" = _SpkZADeF;
+        "minecraft-26.1" = _SpkZADeF;
+        "minecraft-26.1.1" = _SpkZADeF;
+        "minecraft-26.1.2" = _SpkZADeF;
+        "minecraft-26.2" = _SpkZADeF;
+        "minecraft-26.3" = _SpkZADeF;
         "pkg-1.0" = _H15IOWFJ;
         "pkg-1.1" = _jRVW8fMj;
         "pkg-1.2" = _VlHAKc74;
-        "default" = _VlHAKc74;
+        "pkg-1.3" = _SpkZADeF;
+        "default" = _SpkZADeF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-armor-stuff-x-fresh-animations";

@@ -1006,6 +1006,26 @@ let
             "file" = "remi-neoforge-1.21.1-4.8.1.jar";
             "hash" = "sha512-d66BLROZ+QKpqN68Fns0aTsgxGJcq8QioKLoBy9JjuCNzYs7pI6d0V2J7ISLKku5cv1V0aefqUyYX/c6wYS08Q==";
         };
+        _AdvweqNN = {
+            "id" = "AdvweqNN";
+            "file" = "remi-fabric-1.20.1-4.8.2.jar";
+            "hash" = "sha512-AnPg10drOtQoZSc37cDtQxrPkQJ6CsOejx5q778e/9ozFUXULJ/HmTldWrHvDZbnuW5wEDaFin21z6UuQPr3OQ==";
+        };
+        _7izaN7et = {
+            "id" = "7izaN7et";
+            "file" = "remi-forge-1.20.1-4.8.2.jar";
+            "hash" = "sha512-nWbASmlDNP8xlIRbiZwz4pgqOH6VBzYgPN4V8mm73wZH28lwg5bwXVuXImvp2q4HpGxrciT8v5Qf8lwJJ9zozg==";
+        };
+        _olfAMXfJ = {
+            "id" = "olfAMXfJ";
+            "file" = "remi-fabric-1.21.1-4.8.2.jar";
+            "hash" = "sha512-lTQo2ke3RcXAZvXMJ2SOyqB7PVB6Iqd9l9DDEMPqjUKg9sa4ouFF3cygErlTHA82uzoWPxpsvVV4xTkLyW/BhA==";
+        };
+        _ezoYTMYG = {
+            "id" = "ezoYTMYG";
+            "file" = "remi-neoforge-1.21.1-4.8.2.jar";
+            "hash" = "sha512-CO2cyYCAi4wcIPo6TsNJATFUDVjLR1aksrlNOo07H7MQPPe4kv792632dz0GDRA+M5xoKqsJXPzwvuu4ZIhrZg==";
+        };
     in {
         "Aebe71Zx" = _Aebe71Zx;
         "tj0Cdud2" = _tj0Cdud2;
@@ -1208,12 +1228,16 @@ let
         "9b1U5yMI" = _9b1U5yMI;
         "1sDFQ6xm" = _1sDFQ6xm;
         "pnPjAfuO" = _pnPjAfuO;
-        "forge-1.20.1" = _9b1U5yMI;
+        "AdvweqNN" = _AdvweqNN;
+        "7izaN7et" = _7izaN7et;
+        "olfAMXfJ" = _olfAMXfJ;
+        "ezoYTMYG" = _ezoYTMYG;
+        "forge-1.20.1" = _7izaN7et;
         "forge-1.20" = _8nKQrOEP;
-        "fabric-1.20.1" = _elia2pgF;
+        "fabric-1.20.1" = _AdvweqNN;
         "fabric-1.20" = _b42avp5f;
-        "fabric-1.21.1" = _1sDFQ6xm;
-        "neoforge-1.21.1" = _pnPjAfuO;
+        "fabric-1.21.1" = _olfAMXfJ;
+        "neoforge-1.21.1" = _ezoYTMYG;
         "pkg-1.0.0-1.20.1" = _Aebe71Zx;
         "pkg-1.1.2-1.20.1" = _uB24nfaX;
         "pkg-1.1.3-1.20.1" = _UG3dQVKv;
@@ -1380,7 +1404,11 @@ let
         "pkg-4.8.1-1.20.1-forge" = _9b1U5yMI;
         "pkg-4.8.1-1.21.1-fabric" = _1sDFQ6xm;
         "pkg-4.8.1-1.21.1-neoforge" = _pnPjAfuO;
-        "default" = _pnPjAfuO;
+        "pkg-4.8.2-1.20.1-fabric" = _AdvweqNN;
+        "pkg-4.8.2-1.20.1-forge" = _7izaN7et;
+        "pkg-4.8.2-1.21.1-fabric" = _olfAMXfJ;
+        "pkg-4.8.2-1.21.1-neoforge" = _ezoYTMYG;
+        "default" = _ezoYTMYG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliable-emi";

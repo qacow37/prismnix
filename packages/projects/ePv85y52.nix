@@ -411,6 +411,16 @@ let
             "file" = "enchantinginfuser-v26.3.0-mc26.3.x+neoforge.jar";
             "hash" = "sha512-hiG/PtFs/V10Dwin+KdFvbL4PSvqIrNbKw3me886lEqcwwhFqZ+e6vs+ECwiGoWQ5bJTb8SJgYpvuLHLNGZo9A==";
         };
+        _ver4Ebe5 = {
+            "id" = "ver4Ebe5";
+            "file" = "enchantinginfuser-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-AaaywrAUHjnUjBLmVd3Wic4BbSPy1FmwjUE4uBAOZa2o1sAAdUK5ndqohzGVze8JEXy5eMLuT2p7EIwYpB2jOg==";
+        };
+        _hHxLISyM = {
+            "id" = "hHxLISyM";
+            "file" = "enchantinginfuser-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-G/1cyKCglOTF+XK7SkutS2jOBeqmM3JGqk9oYpzM2uGM23w4ffrKhJX+woZtuKj35esUri0E4uZxsJbc1Wi5GA==";
+        };
     in {
         "zikU9c7J" = _zikU9c7J;
         "P7AMhPmR" = _P7AMhPmR;
@@ -494,6 +504,8 @@ let
         "ntwhp9xH" = _ntwhp9xH;
         "gGpFJLO5" = _gGpFJLO5;
         "SpiyGUzJ" = _SpiyGUzJ;
+        "ver4Ebe5" = _ver4Ebe5;
+        "hHxLISyM" = _hHxLISyM;
         "fabric-1.19" = _7JJF6bmG;
         "fabric-1.19.1" = _UaIVbML9;
         "fabric-1.19.2" = _UaIVbML9;
@@ -516,7 +528,7 @@ let
         "fabric-26.1.1" = _c7EhUpXk;
         "fabric-26.1.2" = _c7EhUpXk;
         "fabric-26.2" = _C0FU8WvB;
-        "fabric-26.3" = _gGpFJLO5;
+        "fabric-26.3" = _ver4Ebe5;
         "forge-1.19" = _MIZEVu00;
         "forge-1.19.1" = _9UD54Pev;
         "forge-1.19.2" = _9UD54Pev;
@@ -540,7 +552,7 @@ let
         "neoforge-26.1.1" = _678lcTJL;
         "neoforge-26.1.2" = _678lcTJL;
         "neoforge-26.2" = _ntwhp9xH;
-        "neoforge-26.3" = _SpiyGUzJ;
+        "neoforge-26.3" = _hHxLISyM;
         "pkg-v4.0.0-1.19-Fabric" = _zikU9c7J;
         "pkg-v4.0.0-1.19-Forge" = _P7AMhPmR;
         "pkg-v4.0.1-1.19-Forge" = _MaMuEtzZ;
@@ -614,7 +626,8 @@ let
         "pkg-26.1.0" = _678lcTJL;
         "pkg-26.2.0" = _ntwhp9xH;
         "pkg-26.3.0" = _SpiyGUzJ;
-        "default" = _SpiyGUzJ;
+        "pkg-26.3.1" = _hHxLISyM;
+        "default" = _hHxLISyM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanting-infuser";

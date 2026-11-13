@@ -31,6 +31,11 @@ let
             "file" = "Legacy Extended 2.12 (1.21.4).zip";
             "hash" = "sha512-xMVJQZWbaKsrF/Xg1kV6+6FD8swls/2Kd5+heXwBJ4VQPjfi1uZQ1HpDBXDCh4nL18o12INCgaPENsgHS8ii6A==";
         };
+        _6vLpl6hO = {
+            "id" = "6vLpl6hO";
+            "file" = "Legacy Extended 2.12 (26.1.2-26.3).zip";
+            "hash" = "sha512-wgUbyBiVyXLbjIu3smd84PZMnrY0g4FjYByOt8ay/TBEcux8O+c6oYin/0Mtf2rJTdMAH9+C/wkNXQNsEgGQEA==";
+        };
     in {
         "kRtcCXz4" = _kRtcCXz4;
         "1P83EAa6" = _1P83EAa6;
@@ -38,18 +43,25 @@ let
         "akWvwDEI" = _akWvwDEI;
         "wYC75FDp" = _wYC75FDp;
         "Ds5lq5mN" = _Ds5lq5mN;
+        "6vLpl6hO" = _6vLpl6hO;
         "minecraft-1.20.4" = _akWvwDEI;
         "minecraft-1.20.6" = _akWvwDEI;
         "minecraft-1.21" = _wYC75FDp;
         "minecraft-1.21.1" = _wYC75FDp;
         "minecraft-1.21.4" = _Ds5lq5mN;
+        "minecraft-26.3" = _6vLpl6hO;
+        "minecraft-26.2" = _6vLpl6hO;
+        "minecraft-26.1.2" = _6vLpl6hO;
+        "minecraft-26.1" = _6vLpl6hO;
+        "minecraft-26.1.1" = _6vLpl6hO;
         "pkg-1.1" = _kRtcCXz4;
         "pkg-2.0" = _1P83EAa6;
         "pkg-2.1" = _B3LIId5m;
         "pkg-2.12-1.20.X" = _akWvwDEI;
         "pkg-2.12-1.21.1" = _wYC75FDp;
         "pkg-2.12-1.21.4" = _Ds5lq5mN;
-        "default" = _Ds5lq5mN;
+        "pkg-2.12-MC26.1.2-26.3" = _6vLpl6hO;
+        "default" = _6vLpl6hO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "l4j-extended";

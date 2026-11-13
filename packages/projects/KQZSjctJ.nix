@@ -36,6 +36,26 @@ let
             "file" = "scythes_vanilla-1.5.7.jar";
             "hash" = "sha512-pF/rmKIhbnUaAsPFx8oMYPYTjAhaLxbFdoW0tjDbfyRuOLG25HiLh2vylyV+CLMUttkUR6ZUStgMrf6z+ySS7w==";
         };
+        _3WcJWLWQ = {
+            "id" = "3WcJWLWQ";
+            "file" = "scythes_vanilla-forge-1.20.1-1.6.0.jar";
+            "hash" = "sha512-HZZr6qpnrR/54UEu9xyRwYMX2AARbiHypylW8jskxw7hartaOGBILJiQCDjZNcbpCIKhgub/NVf+iO4GpTwrDw==";
+        };
+        _ZMVuZgbI = {
+            "id" = "ZMVuZgbI";
+            "file" = "scythes_vanilla-neoforge-1.21.1-1.6.0.jar";
+            "hash" = "sha512-m6Y/YVb/ZrjtXH/hGeBlM/I72aesLgTP/tZM9RwsSeN4BJt8X3lYMkm+mEBthMZaCkp19PuBxGTLuNDiefBeZw==";
+        };
+        _MZ2hZuEg = {
+            "id" = "MZ2hZuEg";
+            "file" = "scythes_vanilla-1.6.0.jar";
+            "hash" = "sha512-G0FJ3y47LWvCTTU03aEoXbX4kXACObbFOJT3NNZCpCK+6xBlDT64ltBxnIaLe7kdz1pSkbWQpxUql1CnKA7JKw==";
+        };
+        _MJlDyUl2 = {
+            "id" = "MJlDyUl2";
+            "file" = "scythes_vanilla-1.21.11-1.6.0.jar";
+            "hash" = "sha512-hiHBWDjpQBjEIyoAO0lINOjjvKKXmcZKKtRMf/yyg0RFaQZM6xvduPbVAvQCyHoxWjRSte/ER+y98476tDFaYA==";
+        };
     in {
         "5UG2jmtM" = _5UG2jmtM;
         "yHxU2ph1" = _yHxU2ph1;
@@ -44,14 +64,20 @@ let
         "5yGtdqd1" = _5yGtdqd1;
         "qOCpuxhv" = _qOCpuxhv;
         "W6UbfP7u" = _W6UbfP7u;
-        "neoforge-1.21.1" = _qOCpuxhv;
-        "fabric-1.21.11" = _yHxU2ph1;
-        "fabric-26.3" = _W6UbfP7u;
+        "3WcJWLWQ" = _3WcJWLWQ;
+        "ZMVuZgbI" = _ZMVuZgbI;
+        "MZ2hZuEg" = _MZ2hZuEg;
+        "MJlDyUl2" = _MJlDyUl2;
+        "neoforge-1.21.1" = _ZMVuZgbI;
+        "fabric-1.21.11" = _MJlDyUl2;
+        "fabric-26.3" = _MZ2hZuEg;
+        "forge-1.20.1" = _3WcJWLWQ;
         "pkg-1.0.0" = _5UG2jmtM;
         "pkg-1.5.0" = _qkHwa1MC;
         "pkg-1.5.2" = _5yGtdqd1;
         "pkg-1.5.7" = _W6UbfP7u;
-        "default" = _W6UbfP7u;
+        "pkg-1.6.0" = _MJlDyUl2;
+        "default" = _MJlDyUl2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scythes-vanilla";

@@ -1971,6 +1971,66 @@ let
             "file" = "reliable_recipes-3.8.3+26.3-neoforge.jar";
             "hash" = "sha512-4AVV6D9g7OeydfLKJQDI2CZavUCBHZxcOrNxHh3Nf0D/VNLAlTUWbxC/Kf0Nytw8XSZZ4B/rG/pHe/hlBNtaGg==";
         };
+        _MvX6uTJh = {
+            "id" = "MvX6uTJh";
+            "file" = "reliable_recipes-3.9.0+26.2-neoforge.jar";
+            "hash" = "sha512-KXmcNafoAbUOwvvdhLljcfaKcuezcvaVlFFnwyrtt5/XRnQVtbZU3SWGzTDtkAwCeG7to1V/rSqUcoFpJqel6A==";
+        };
+        _Uydw8VgL = {
+            "id" = "Uydw8VgL";
+            "file" = "reliable_recipes-3.9.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-N7PkPmoWCC+uSqYRWm/8jQ8/h4RwciZbRrOlHIEwrr3980asNiS87LQxPehWTYylvnBY456fLfU2y9Kvht+NUQ==";
+        };
+        _NWlMzgdZ = {
+            "id" = "NWlMzgdZ";
+            "file" = "reliable_recipes-3.9.0+26.1.2-fabric.jar";
+            "hash" = "sha512-C3ARe1ws7YiaM+hBnXsbLXXBQK9gVzahWO0dyU3+rzhAc1bQO7u7AVrFRaot233NZaCJJ8boT8kaP75yffWD6g==";
+        };
+        _465IvtIu = {
+            "id" = "465IvtIu";
+            "file" = "reliable_recipes-3.9.0+26.1.2-neoforge.jar";
+            "hash" = "sha512-OqpCYF4PiHBGKl+ekl5E54iDZzpqdBcV1vr8k7gkP9MpXcgEYp/7B2bGBpx2VaZEUcr3aRAHf/mLdNTWN8Ncxw==";
+        };
+        _pVbIGz5w = {
+            "id" = "pVbIGz5w";
+            "file" = "reliable_recipes-3.9.0+1.19.2-forge.jar";
+            "hash" = "sha512-2D5v3M0tz5o6rHC5UATKGTIEYCueNxfSTzB/IdOfl13tLVYObo7TGV5TmFzwSrpZbTDl4/tHHemqqwLCLTrLJQ==";
+        };
+        _RRvvmIQM = {
+            "id" = "RRvvmIQM";
+            "file" = "reliable_recipes-3.9.0+1.20.1-forge.jar";
+            "hash" = "sha512-ejNFwNQo/qvGMXQEAoCleelULyPczO9OHorSWgDcr6vFPASEkgVP7Z0lhUNdAoJsfDHj4RzLZLPrtF2uHThWDQ==";
+        };
+        _fgyM7URr = {
+            "id" = "fgyM7URr";
+            "file" = "reliable_recipes-3.9.0+26.2-fabric.jar";
+            "hash" = "sha512-paNAz7mwcsYIK0uLZPAGmUptzKERZEDCiiCozlqoOWsOh15rRrx0kqi/MIX+XHbsnB8TZItozPjdTeFCWcnhJw==";
+        };
+        _euDywt0M = {
+            "id" = "euDywt0M";
+            "file" = "reliable_recipes-3.9.0+1.19.2-fabric.jar";
+            "hash" = "sha512-CfYXUGjGRaGgZdJMvpwgEdW5SLBHWI5ZAKiDS5jTIusYmC+Be9qVhbdVNV0kdo+IHf7NBbjfbQFaHADLyWIR3w==";
+        };
+        _qUzXSTFs = {
+            "id" = "qUzXSTFs";
+            "file" = "reliable_recipes-3.9.0+1.20.1-fabric.jar";
+            "hash" = "sha512-VgAh6ZFm2D0XTiCeCcmNpwgRqZBLfAVhkOOwQfLtenBh+Jo/D+VmPCPshX+ZwdIjAvLvgc4wGStaVXaGwR59iQ==";
+        };
+        _TnmHlEwy = {
+            "id" = "TnmHlEwy";
+            "file" = "reliable_recipes-3.9.0+1.21.1-fabric.jar";
+            "hash" = "sha512-SDbOnKyDptof1iO6KfMFVIfn2xEyp7pQIu3cWZRWbhPHyAZSpvgSlzJQs5xch6jnu9FjwnbtDu5eufJmnqC7IA==";
+        };
+        _opyrqunb = {
+            "id" = "opyrqunb";
+            "file" = "reliable_recipes-3.9.0+26.3-fabric.jar";
+            "hash" = "sha512-Yx7CH4flNnuDNqExfPXhP03g1O9H/DAJh13spJ/l5xdv8RuGOKqX1JRjBCK5iJ/rKttTrtnH/VkN/20IW8KjEg==";
+        };
+        _wBmgqjJU = {
+            "id" = "wBmgqjJU";
+            "file" = "reliable_recipes-3.9.0+26.3-neoforge.jar";
+            "hash" = "sha512-0x/uuCgO0Utn96WyU68GqkWC8G63oP/W3SzZ8FKFcD/2BiYrl0VX0q8sV++5Ade16frS09CvrwhWXnoPXIZzIw==";
+        };
     in {
         "FsKiErjj" = _FsKiErjj;
         "GEEgrhT3" = _GEEgrhT3;
@@ -2366,22 +2426,34 @@ let
         "RLSW1vUm" = _RLSW1vUm;
         "b93z2Yrc" = _b93z2Yrc;
         "gxeEXvFy" = _gxeEXvFy;
-        "fabric-1.20.1" = _vcCBMky8;
-        "fabric-1.21.1" = _3li8rjzz;
-        "fabric-26.1" = _JsmExkrm;
-        "fabric-26.1.1" = _JsmExkrm;
-        "fabric-26.1.2" = _JsmExkrm;
-        "fabric-26.2" = _1AUDd12d;
-        "fabric-26.3" = _b93z2Yrc;
-        "fabric-1.19.2" = _HIF2jgqd;
-        "forge-1.20.1" = _9RyEwybp;
-        "forge-1.19.2" = _zHQHucfc;
-        "neoforge-1.21.1" = _Kr2fGwVB;
-        "neoforge-26.1" = _ryQ1wjGW;
-        "neoforge-26.1.1" = _ryQ1wjGW;
-        "neoforge-26.1.2" = _ryQ1wjGW;
-        "neoforge-26.2" = _RLSW1vUm;
-        "neoforge-26.3" = _gxeEXvFy;
+        "MvX6uTJh" = _MvX6uTJh;
+        "Uydw8VgL" = _Uydw8VgL;
+        "NWlMzgdZ" = _NWlMzgdZ;
+        "465IvtIu" = _465IvtIu;
+        "pVbIGz5w" = _pVbIGz5w;
+        "RRvvmIQM" = _RRvvmIQM;
+        "fgyM7URr" = _fgyM7URr;
+        "euDywt0M" = _euDywt0M;
+        "qUzXSTFs" = _qUzXSTFs;
+        "TnmHlEwy" = _TnmHlEwy;
+        "opyrqunb" = _opyrqunb;
+        "wBmgqjJU" = _wBmgqjJU;
+        "fabric-1.20.1" = _qUzXSTFs;
+        "fabric-1.21.1" = _TnmHlEwy;
+        "fabric-26.1" = _NWlMzgdZ;
+        "fabric-26.1.1" = _NWlMzgdZ;
+        "fabric-26.1.2" = _NWlMzgdZ;
+        "fabric-26.2" = _fgyM7URr;
+        "fabric-26.3" = _opyrqunb;
+        "fabric-1.19.2" = _euDywt0M;
+        "forge-1.20.1" = _RRvvmIQM;
+        "forge-1.19.2" = _pVbIGz5w;
+        "neoforge-1.21.1" = _Uydw8VgL;
+        "neoforge-26.1" = _465IvtIu;
+        "neoforge-26.1.1" = _465IvtIu;
+        "neoforge-26.1.2" = _465IvtIu;
+        "neoforge-26.2" = _MvX6uTJh;
+        "neoforge-26.3" = _wBmgqjJU;
         "pkg-1.0.0" = _GEEgrhT3;
         "pkg-1.3.0" = _Eg7XaZjM;
         "pkg-1.3.1" = _4UlrihPJ;
@@ -2734,7 +2806,19 @@ let
         "pkg-3.8.3+26.2-neoforge" = _RLSW1vUm;
         "pkg-3.8.3+26.3-fabric" = _b93z2Yrc;
         "pkg-3.8.3+26.3-neoforge" = _gxeEXvFy;
-        "default" = _gxeEXvFy;
+        "pkg-3.9.0+26.2-neoforge" = _MvX6uTJh;
+        "pkg-3.9.0+1.21.1-neoforge" = _Uydw8VgL;
+        "pkg-3.9.0+26.1.2-fabric" = _NWlMzgdZ;
+        "pkg-3.9.0+26.1.2-neoforge" = _465IvtIu;
+        "pkg-3.9.0+1.19.2-forge" = _pVbIGz5w;
+        "pkg-3.9.0+1.20.1-forge" = _RRvvmIQM;
+        "pkg-3.9.0+26.2-fabric" = _fgyM7URr;
+        "pkg-3.9.0+1.19.2-fabric" = _euDywt0M;
+        "pkg-3.9.0+1.20.1-fabric" = _qUzXSTFs;
+        "pkg-3.9.0+1.21.1-fabric" = _TnmHlEwy;
+        "pkg-3.9.0+26.3-fabric" = _opyrqunb;
+        "pkg-3.9.0+26.3-neoforge" = _wBmgqjJU;
+        "default" = _wBmgqjJU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliable-recipes";

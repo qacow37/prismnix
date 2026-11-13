@@ -911,6 +911,26 @@ let
             "file" = "audioplayer-fabric-2.5.1+26.3.jar";
             "hash" = "sha512-fIq07xTDBRjZUoXqGzINzJTQQ2Z9xKUlQ00GEU22s3Wii8DxIHqxBfsbhR8n94gVdDiejX4h538BuLUySbxBfg==";
         };
+        _WdLOZan4 = {
+            "id" = "WdLOZan4";
+            "file" = "audioplayer-fabric-2.5.2+1.21.11.jar";
+            "hash" = "sha512-sWuYmuVCn2oI/AFWT2oQyfSREG7YMK5XHBF9UYhv/nUrT/oeISIxuCmBrNIgOCM5Y8CMrbg7coYmI7rVd78wIQ==";
+        };
+        _qBX3t4xT = {
+            "id" = "qBX3t4xT";
+            "file" = "audioplayer-fabric-2.5.2+26.1.2.jar";
+            "hash" = "sha512-7e5Bk5WDCzuorPftJadW1Q/6C6AvPSIDCEo/Z+1svTNSkPHbPsFwHDZ+Of9vfFNQvrqb4inOM8cbPrwbiqk+sg==";
+        };
+        _eBM0GSq0 = {
+            "id" = "eBM0GSq0";
+            "file" = "audioplayer-fabric-2.5.2+26.2.jar";
+            "hash" = "sha512-GmF5dJ4h/cIuI0YdX+z3dccouJn87/FAfOpThcAJWXAn9K0MxPOtNhNBRt82s+eJSuIJ5k61Xyl3PTptU1cGEA==";
+        };
+        _ndGCZDJJ = {
+            "id" = "ndGCZDJJ";
+            "file" = "audioplayer-fabric-2.5.2+26.3.jar";
+            "hash" = "sha512-6fGBB2FdDP+tw0bm+olweS+0QSSvQhryTLH/PmrMWxGPRiRZB2WBgwchWYo4R4kvA8TWvt4Z9lf5uFoiGT7UzQ==";
+        };
     in {
         "o003ssDC" = _o003ssDC;
         "mXQFTwNT" = _mXQFTwNT;
@@ -1094,6 +1114,10 @@ let
         "J1iloKsh" = _J1iloKsh;
         "t1QRse7R" = _t1QRse7R;
         "p6mjD7hC" = _p6mjD7hC;
+        "WdLOZan4" = _WdLOZan4;
+        "qBX3t4xT" = _qBX3t4xT;
+        "eBM0GSq0" = _eBM0GSq0;
+        "ndGCZDJJ" = _ndGCZDJJ;
         "fabric-1.19" = _PFbPsyGl;
         "fabric-1.19.1" = _EK7QkTom;
         "fabric-1.19.2" = _kMvN8BZs;
@@ -1117,12 +1141,12 @@ let
         "fabric-1.21.8" = _iSKldPrA;
         "fabric-1.21.9" = _gHqPNYEH;
         "fabric-1.21.10" = _qHG6nngD;
-        "fabric-1.21.11" = _j5k8hkGS;
-        "fabric-26.1" = _J1iloKsh;
-        "fabric-26.1.1" = _J1iloKsh;
-        "fabric-26.1.2" = _J1iloKsh;
-        "fabric-26.2" = _t1QRse7R;
-        "fabric-26.3" = _p6mjD7hC;
+        "fabric-1.21.11" = _WdLOZan4;
+        "fabric-26.1" = _qBX3t4xT;
+        "fabric-26.1.1" = _qBX3t4xT;
+        "fabric-26.1.2" = _qBX3t4xT;
+        "fabric-26.2" = _eBM0GSq0;
+        "fabric-26.3" = _ndGCZDJJ;
         "quilt-1.19.2" = _kMvN8BZs;
         "quilt-1.19.4" = _Y9yiwT8X;
         "quilt-1.20.1" = _M6EFtrdy;
@@ -1141,12 +1165,12 @@ let
         "quilt-1.21.8" = _iSKldPrA;
         "quilt-1.21.9" = _gHqPNYEH;
         "quilt-1.21.10" = _qHG6nngD;
-        "quilt-1.21.11" = _j5k8hkGS;
-        "quilt-26.1" = _J1iloKsh;
-        "quilt-26.1.1" = _J1iloKsh;
-        "quilt-26.1.2" = _J1iloKsh;
-        "quilt-26.2" = _t1QRse7R;
-        "quilt-26.3" = _p6mjD7hC;
+        "quilt-1.21.11" = _WdLOZan4;
+        "quilt-26.1" = _qBX3t4xT;
+        "quilt-26.1.1" = _qBX3t4xT;
+        "quilt-26.1.2" = _qBX3t4xT;
+        "quilt-26.2" = _eBM0GSq0;
+        "quilt-26.3" = _ndGCZDJJ;
         "pkg-fabric-1.19-1.0.3" = _o003ssDC;
         "pkg-fabric-1.19-1.1.0" = _mXQFTwNT;
         "pkg-fabric-1.19-1.2.0" = _O5vc7cq0;
@@ -1326,7 +1350,11 @@ let
         "pkg-fabric-2.5.1+26.1.2" = _J1iloKsh;
         "pkg-fabric-2.5.1+26.2" = _t1QRse7R;
         "pkg-fabric-2.5.1+26.3" = _p6mjD7hC;
-        "default" = _p6mjD7hC;
+        "pkg-fabric-2.5.2+1.21.11" = _WdLOZan4;
+        "pkg-fabric-2.5.2+26.1.2" = _qBX3t4xT;
+        "pkg-fabric-2.5.2+26.2" = _eBM0GSq0;
+        "pkg-fabric-2.5.2+26.3" = _ndGCZDJJ;
+        "default" = _ndGCZDJJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "audioplayer";

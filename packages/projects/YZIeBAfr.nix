@@ -96,6 +96,11 @@ let
             "file" = "dew_drop_farmland_growth-9.0.jar";
             "hash" = "sha512-Rzk94d2V9Zipq52IJqy5E5/qFv+aBgcynuro+hIBIjyY9INNeiMp0P0u6eJEownQXehtvsLOkdGEhFo03U69gQ==";
         };
+        _7kI0Zo7l = {
+            "id" = "7kI0Zo7l";
+            "file" = "dew_drop_farmland_growth-10.0.jar";
+            "hash" = "sha512-DCJ63NahmY9NmR3PZZ3eArRaFOkCsFkh54HRI02xaILyXETjgPgVGwFEN6LPErLkZfgkBdo8jW9CGObwOmdz9w==";
+        };
     in {
         "OrtO5Rz8" = _OrtO5Rz8;
         "4TAC6jN7" = _4TAC6jN7;
@@ -116,7 +121,8 @@ let
         "x0zC9Ad7" = _x0zC9Ad7;
         "tVBc1Al8" = _tVBc1Al8;
         "wLtnkIQh" = _wLtnkIQh;
-        "forge-1.20.1" = _wLtnkIQh;
+        "7kI0Zo7l" = _7kI0Zo7l;
+        "forge-1.20.1" = _7kI0Zo7l;
         "pkg-1.3" = _OrtO5Rz8;
         "pkg-1.4" = _4TAC6jN7;
         "pkg-1.5" = _gbW9cFfq;
@@ -136,7 +142,8 @@ let
         "pkg-7.0" = _x0zC9Ad7;
         "pkg-8.0" = _tVBc1Al8;
         "pkg-9.0" = _wLtnkIQh;
-        "default" = _wLtnkIQh;
+        "pkg-10.0" = _7kI0Zo7l;
+        "default" = _7kI0Zo7l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sturdy-farmland-growth-edition";

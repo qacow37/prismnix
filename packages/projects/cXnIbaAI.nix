@@ -76,6 +76,11 @@ let
             "file" = "unstable-smp-orbital-strike-cannon-1.6.jar";
             "hash" = "sha512-W8VZzgZU4OcR7DopbZZWkB+jEn6xAAokQXednhWlx95zPOcpZV9qpiSbWCX2FqyyPWnG8eKF3r+4yvBeaD5GLA==";
         };
+        _ybr2bD03 = {
+            "id" = "ybr2bD03";
+            "file" = "OrbitalStrikeCannonPlus 26.3 V1.6.jar";
+            "hash" = "sha512-b7AsMpAlmarjYs95pe3Zrd9rVI7duR99C9kOOfS25vktyLmwT8SLGAG3uZCPsazm+KJcbO+chNlsU/4vnMz9tw==";
+        };
     in {
         "J9xwm7qU" = _J9xwm7qU;
         "6rj3a1BJ" = _6rj3a1BJ;
@@ -92,6 +97,7 @@ let
         "CU441H3V" = _CU441H3V;
         "ZogfAc4t" = _ZogfAc4t;
         "zLkOzIJm" = _zLkOzIJm;
+        "ybr2bD03" = _ybr2bD03;
         "datapack-1.21.6" = _TwAYUp1h;
         "datapack-1.21.7" = _TwAYUp1h;
         "datapack-1.21.8" = _45eo5Br2;
@@ -186,6 +192,7 @@ let
         "paper-1.21.9" = _RrKVSY5w;
         "paper-1.21.10" = _RrKVSY5w;
         "paper-1.21.11" = _RrKVSY5w;
+        "paper-26.3" = _ybr2bD03;
         "spigot-1.21" = _RrKVSY5w;
         "spigot-1.21.1" = _RrKVSY5w;
         "spigot-1.21.2" = _RrKVSY5w;
@@ -512,7 +519,8 @@ let
         "pkg-1.5mod" = _tfvqvZtc;
         "pkg-1.6" = _ZogfAc4t;
         "pkg-1.6mod" = _zLkOzIJm;
-        "default" = _zLkOzIJm;
+        "pkg-1.6plugin" = _ybr2bD03;
+        "default" = _ybr2bD03;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unstable-smp-orbital-strike-cannon";

@@ -786,6 +786,96 @@ let
             "file" = "undergroundworlds-neoforge-3.2.1-26.2.jar";
             "hash" = "sha512-L7TfVb1Joa1E5Te8M9/0gd3fAOredh89g5JlYGJSsE2D2DExMhV41Lym9ditcmSZ+Mg1YgxilkYNz8jJ1R2JgA==";
         };
+        _enmK2qnF = {
+            "id" = "enmK2qnF";
+            "file" = "undergroundworlds-forge-3.0.3-1.21.1.jar";
+            "hash" = "sha512-mqrF/O8SgaODtki5aXGLHiFD5tkqDQE4R0itEqLEXKoi1XyUypXwkwRImYQAqEPyBMVHbx8CjqFDz8vXV5UjMg==";
+        };
+        _1LPWCjMN = {
+            "id" = "1LPWCjMN";
+            "file" = "undergroundworlds-fabric-3.0.3-1.21.1.jar";
+            "hash" = "sha512-LMeywCRYtsAP0EEMwqoj04diX8qsm7718EN619M7SUgGwNVwM1flHfT/xWhqX+ORNjdjIe5t4dIIfAEvFl1Vvg==";
+        };
+        _4m9Rcb7g = {
+            "id" = "4m9Rcb7g";
+            "file" = "undergroundworlds-neoforge-3.0.3-1.21.1.jar";
+            "hash" = "sha512-mIbwlLarbV+nEBLHm7x5YZa4FbardTXn0RZ6wxWN7iN0cbqkJ08lewTqDeTcm5saWEoppUepgwk7XwGcqwQNkQ==";
+        };
+        _j3lkKcOF = {
+            "id" = "j3lkKcOF";
+            "file" = "undergroundworlds-forge-3.0.3-1.21.4.jar";
+            "hash" = "sha512-T5AoPshA2q8+tAQ/UYEJ7gdL57hXiLqKMYXZBFh58bixFp3tMeEfh/eDc/Dp2YUdO65AK6pcYc0FoHvDelG4Ew==";
+        };
+        _3j01MSRh = {
+            "id" = "3j01MSRh";
+            "file" = "undergroundworlds-fabric-3.0.3-1.21.4.jar";
+            "hash" = "sha512-IMNM4L93POvK2qPnExtvtdy/zcBlIHHCImN7Z2dq3bEFldLritToUf4+YcJNddnieFbeQ5W38xVnajTJXRmwLQ==";
+        };
+        _teAKxdt9 = {
+            "id" = "teAKxdt9";
+            "file" = "undergroundworlds-neoforge-3.0.3-1.21.4.jar";
+            "hash" = "sha512-2+eSRDCsDeEn/hxrIRRUYvB2iGX/xqcBEyJY9jyU1P+lcnNEIXlNCL6ELtYPYmvkchR+OJXHPCTKvlFThTpVFQ==";
+        };
+        _YhKQU8bL = {
+            "id" = "YhKQU8bL";
+            "file" = "undergroundworlds-forge-3.0.3-1.21.8.jar";
+            "hash" = "sha512-T+k82BJFuFPtm+wDvWaiHjbRRSoojAnIM7wjo9in3y+ijXVj5K9xJ9t5o5x8+KZtagrlJaAYr/2PPMED1SoWug==";
+        };
+        _egzFVVgh = {
+            "id" = "egzFVVgh";
+            "file" = "undergroundworlds-fabric-3.0.3-1.21.8.jar";
+            "hash" = "sha512-bm95LCdOV3pCbFaqZGcWgmdW8jhWDd0s9NFEJ/Z6HBQC3X3F4Hz5bE2gNt4iuapvxEwJv1jXCmxWG+dPxGJUdQ==";
+        };
+        _OwS8ll2V = {
+            "id" = "OwS8ll2V";
+            "file" = "undergroundworlds-neoforge-3.0.3-1.21.8.jar";
+            "hash" = "sha512-0BJ6LNxCCH9DBelgQn7G3N2VSWSXU19XIsMcXHo9nZJAWRoJEjnfHna1bITOuNqnr78L+Zi0Nc+xIynPVSwa8Q==";
+        };
+        _7vzbiH72 = {
+            "id" = "7vzbiH72";
+            "file" = "undergroundworlds-forge-3.0.3-1.21.10.jar";
+            "hash" = "sha512-TMTnr+R6ohju/KuiDD25ils0+a2mNxZpOkkYUFDDiEBh4kRq+c0KeVQCW/NrfZ8iXjAgppMohsXmTlD1aU572g==";
+        };
+        _gKpKMd3q = {
+            "id" = "gKpKMd3q";
+            "file" = "undergroundworlds-fabric-3.0.3-1.21.10.jar";
+            "hash" = "sha512-uiDLn4AaXcTANUEW9XDWP3sMpKvRupfP8ylO+K9vFqyS15g5a/jZibjsoNEYbhcDoHCLrQ/gRbPE89/UBHnUMQ==";
+        };
+        _XAX6yGN8 = {
+            "id" = "XAX6yGN8";
+            "file" = "undergroundworlds-neoforge-3.0.3-1.21.10.jar";
+            "hash" = "sha512-8JshfgfWDehqAMXHbgzwA/CKhAV673koeZKNkXxeepOVcEE5Y2wzshJcG16zzF3EUA6ndVzhjFOJOOewnFFmlg==";
+        };
+        _iajL8dJD = {
+            "id" = "iajL8dJD";
+            "file" = "undergroundworlds-forge-3.2.2-26.1.jar";
+            "hash" = "sha512-J3xftsbCDzg+fo7A48oOvz1x9V9hhPz7dpd2RANPv5RQZDTRvUW8ZinTwnVUCRdsdMd+SYzSMXK5ffO8g2iP/g==";
+        };
+        _RKrtBsnS = {
+            "id" = "RKrtBsnS";
+            "file" = "undergroundworlds-fabric-3.2.2-26.1.jar";
+            "hash" = "sha512-z7njGQG4M3pAhaxp+CyzZyzKp2KY5Z3x3eUM0obiQOlCJcBaVQFBtjuqy8n4JB8hoKeD3Bnl4ZeqswRTPN5wMQ==";
+        };
+        _mxGX5V7N = {
+            "id" = "mxGX5V7N";
+            "file" = "undergroundworlds-neoforge-3.2.2-26.1.jar";
+            "hash" = "sha512-AU7Ci2ao04SGLefPZQCYEEIdfen9S49pSisMNDfGYXQdReZAYdN77k3z5GjwafTRqWX2XhPBJ3FsY2kFki0RJA==";
+        };
+        _ymzBSH8K = {
+            "id" = "ymzBSH8K";
+            "file" = "undergroundworlds-forge-3.2.2-26.2.jar";
+            "hash" = "sha512-ALW+80/wxVMjC6SU0TYuTtxq9s6eo+qjcfh9tCy0QlYLI+iPAclxYH7PYLnKL72kMYVdvxq/UAznb4M0XkCzFA==";
+        };
+        _sOE0y0VV = {
+            "id" = "sOE0y0VV";
+            "file" = "undergroundworlds-fabric-3.2.2-26.2.jar";
+            "hash" = "sha512-3YITmcM0cC6/DfK+6aAroSBTqACHH5xPPakrSTveBCelR6XkOpNVkrlo/Zb0XSaEfwKvDkuufPuTX+8spCDB9g==";
+        };
+        _CDZLxMGe = {
+            "id" = "CDZLxMGe";
+            "file" = "undergroundworlds-neoforge-3.2.2-26.2.jar";
+            "hash" = "sha512-TyHZQFOW2tZ7OI7P6SKORGmZh2Pr1h/f7sT4kg+MNuH1Opq/9wXDUEb/xWS2iTkDjkL1Fwmv1gag53pvALOGcA==";
+        };
     in {
         "EaKaphuT" = _EaKaphuT;
         "lK6tflyT" = _lK6tflyT;
@@ -944,40 +1034,58 @@ let
         "Ip0bSyDi" = _Ip0bSyDi;
         "vhEkhTCp" = _vhEkhTCp;
         "yg0YwDfS" = _yg0YwDfS;
+        "enmK2qnF" = _enmK2qnF;
+        "1LPWCjMN" = _1LPWCjMN;
+        "4m9Rcb7g" = _4m9Rcb7g;
+        "j3lkKcOF" = _j3lkKcOF;
+        "3j01MSRh" = _3j01MSRh;
+        "teAKxdt9" = _teAKxdt9;
+        "YhKQU8bL" = _YhKQU8bL;
+        "egzFVVgh" = _egzFVVgh;
+        "OwS8ll2V" = _OwS8ll2V;
+        "7vzbiH72" = _7vzbiH72;
+        "gKpKMd3q" = _gKpKMd3q;
+        "XAX6yGN8" = _XAX6yGN8;
+        "iajL8dJD" = _iajL8dJD;
+        "RKrtBsnS" = _RKrtBsnS;
+        "mxGX5V7N" = _mxGX5V7N;
+        "ymzBSH8K" = _ymzBSH8K;
+        "sOE0y0VV" = _sOE0y0VV;
+        "CDZLxMGe" = _CDZLxMGe;
         "forge-1.19.4" = _ORwPgWEf;
         "forge-1.20.1" = _bW7hDwdR;
         "forge-1.20.2" = _nHqfSwdU;
         "forge-1.20.3" = _1irhgf34;
         "forge-1.20.4" = _yMlZ3EHm;
-        "forge-1.21.1" = _oTe1X4f9;
-        "forge-1.21.4" = _PDpHXyVm;
-        "forge-1.21.8" = _ToIRYW06;
-        "forge-1.21.10" = _tP23KDOE;
-        "forge-26.1" = _GVMxzSJM;
-        "forge-26.1.1" = _GVMxzSJM;
-        "forge-26.1.2" = _GVMxzSJM;
-        "forge-26.2" = _Ip0bSyDi;
+        "forge-1.21.1" = _enmK2qnF;
+        "forge-1.21.4" = _j3lkKcOF;
+        "forge-1.21.8" = _YhKQU8bL;
+        "forge-1.21.10" = _7vzbiH72;
+        "forge-26.1" = _iajL8dJD;
+        "forge-26.1.1" = _iajL8dJD;
+        "forge-26.1.2" = _iajL8dJD;
+        "forge-26.2" = _ymzBSH8K;
         "fabric-1.19.4" = _Fo2bbvGX;
         "fabric-1.20.2" = _fxOjRWEJ;
         "fabric-1.20.1" = _82LQmJpo;
         "fabric-1.20.3" = _kyaUyI2P;
         "fabric-1.20.4" = _xzuI3f0l;
-        "fabric-1.21.1" = _nQP9l4bd;
-        "fabric-1.21.4" = _GvdIhtjR;
-        "fabric-1.21.8" = _zFoRbHpb;
-        "fabric-1.21.10" = _iMBYcY9n;
-        "fabric-26.1" = _gmtHJWq4;
-        "fabric-26.1.1" = _gmtHJWq4;
-        "fabric-26.1.2" = _gmtHJWq4;
-        "fabric-26.2" = _vhEkhTCp;
-        "neoforge-1.21.1" = _aqtQkQ70;
-        "neoforge-1.21.4" = _RUlRlXOu;
-        "neoforge-1.21.8" = _u8Lq5wKH;
-        "neoforge-1.21.10" = _y2cgIeQQ;
-        "neoforge-26.1" = _wkKsE7g5;
-        "neoforge-26.1.1" = _wkKsE7g5;
-        "neoforge-26.1.2" = _wkKsE7g5;
-        "neoforge-26.2" = _yg0YwDfS;
+        "fabric-1.21.1" = _1LPWCjMN;
+        "fabric-1.21.4" = _3j01MSRh;
+        "fabric-1.21.8" = _egzFVVgh;
+        "fabric-1.21.10" = _gKpKMd3q;
+        "fabric-26.1" = _RKrtBsnS;
+        "fabric-26.1.1" = _RKrtBsnS;
+        "fabric-26.1.2" = _RKrtBsnS;
+        "fabric-26.2" = _sOE0y0VV;
+        "neoforge-1.21.1" = _4m9Rcb7g;
+        "neoforge-1.21.4" = _teAKxdt9;
+        "neoforge-1.21.8" = _OwS8ll2V;
+        "neoforge-1.21.10" = _XAX6yGN8;
+        "neoforge-26.1" = _mxGX5V7N;
+        "neoforge-26.1.1" = _mxGX5V7N;
+        "neoforge-26.1.2" = _mxGX5V7N;
+        "neoforge-26.2" = _CDZLxMGe;
         "pkg-1.0.1" = _EaKaphuT;
         "pkg-2.0.1" = _lK6tflyT;
         "pkg-1.0" = _lKq1XRSe;
@@ -1048,7 +1156,13 @@ let
         "pkg-3.2-26.2" = _b7Qv6BSj;
         "pkg-3.2.1-26.1" = _yg0YwDfS;
         "pkg-3.2.1-26.2" = _vhEkhTCp;
-        "default" = _yg0YwDfS;
+        "pkg-3.0.3-1.21.1" = _4m9Rcb7g;
+        "pkg-3.0.3-1.21.4" = _teAKxdt9;
+        "pkg-3.0.3-1.21.8" = _OwS8ll2V;
+        "pkg-3.0.3-1.21.10" = _XAX6yGN8;
+        "pkg-3.2.2-26.1" = _mxGX5V7N;
+        "pkg-3.2.2-26.2" = _CDZLxMGe;
+        "default" = _CDZLxMGe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underground-worlds";

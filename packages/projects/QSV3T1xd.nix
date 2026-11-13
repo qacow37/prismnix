@@ -41,6 +41,11 @@ let
             "file" = "mobnumericalindicator-26.2-2.1.0.jar";
             "hash" = "sha512-tecSIeIOQGgA8N+7+vayI6cA+s/dw695ZEYFxdETVLSg+PE5Fl6unB8I1D7Nqilugr0RBgJGg5SLkt/5rKPXZA==";
         };
+        _WS1ooEHq = {
+            "id" = "WS1ooEHq";
+            "file" = "mobnumericalindicator-26.3-2.2.0.jar";
+            "hash" = "sha512-6+01PoGaHOYi3vb7RtosUCLyeDVQM7ZdvYX/YtETQTT9ery/YkPzzwm4VSg/D3GCqMqUVEmnH1a68kYIHHekaA==";
+        };
     in {
         "bQb3J5Zc" = _bQb3J5Zc;
         "ceQdmQIb" = _ceQdmQIb;
@@ -50,6 +55,7 @@ let
         "nI2nzwvi" = _nI2nzwvi;
         "Famo6FnD" = _Famo6FnD;
         "D9mqIXtT" = _D9mqIXtT;
+        "WS1ooEHq" = _WS1ooEHq;
         "fabric-1.21" = _bQb3J5Zc;
         "fabric-1.21.1" = _bQb3J5Zc;
         "fabric-1.21.2" = _ceQdmQIb;
@@ -66,10 +72,12 @@ let
         "fabric-26.1.1" = _Famo6FnD;
         "fabric-26.1.2" = _Famo6FnD;
         "fabric-26.2" = _D9mqIXtT;
+        "fabric-26.3" = _WS1ooEHq;
         "pkg-1.0.0" = _TXIlILLi;
         "pkg-2.0.0" = _nI2nzwvi;
         "pkg-2.1.0" = _D9mqIXtT;
-        "default" = _D9mqIXtT;
+        "pkg-2.2.0" = _WS1ooEHq;
+        "default" = _WS1ooEHq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-numerical-indicator";

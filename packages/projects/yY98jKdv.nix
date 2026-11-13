@@ -486,6 +486,11 @@ let
             "file" = "hudder-11.1.0.jar";
             "hash" = "sha512-OionOAW+Hn5kUynGEzfaUtijl2DlKk4m6v/RkLLtH7dIW5k0qxsVhfazxterXplgRmebgunJkZo3KZ0pZ6EIvA==";
         };
+        _yypa0opZ = {
+            "id" = "yypa0opZ";
+            "file" = "hudder-11.0.0.jar";
+            "hash" = "sha512-Fv9acqiXloyYQwRu73jvkC7CWEwQ6ntfLn9RaGQd+2l8+kTl5yc1fFG+eX5pwO3LGE+cmjm1IS6OTkDfrzZiSQ==";
+        };
     in {
         "ssaVpN2U" = _ssaVpN2U;
         "osPvsIob" = _osPvsIob;
@@ -584,6 +589,7 @@ let
         "iyN89MaQ" = _iyN89MaQ;
         "yHNMlafE" = _yHNMlafE;
         "gcnjIfCi" = _gcnjIfCi;
+        "yypa0opZ" = _yypa0opZ;
         "fabric-1.20.4" = _H7EBJ0r4;
         "fabric-1.20.1" = _nojzEyvu;
         "fabric-1.20.5" = _RkNaKz7Q;
@@ -627,6 +633,7 @@ let
         "fabric-26.4-snapshot-1" = _yHNMlafE;
         "fabric-26.4-snapshot-2" = _yHNMlafE;
         "fabric-26.4-snapshot-7" = _gcnjIfCi;
+        "fabric-26.4-snapshot-8" = _yypa0opZ;
         "pkg-1.0.1" = _ssaVpN2U;
         "pkg-1.0.2" = _osPvsIob;
         "pkg-2.0.0" = _lDV6RdLG;
@@ -722,7 +729,8 @@ let
         "pkg-11.0.0-26.3" = _iyN89MaQ;
         "pkg-11.0.0-26.4-snapshot-1" = _yHNMlafE;
         "pkg-11.1.0-26.4-snapshot-7" = _gcnjIfCi;
-        "default" = _gcnjIfCi;
+        "pkg-11.0.0-26.4-snapshot-8" = _yypa0opZ;
+        "default" = _yypa0opZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hudder";

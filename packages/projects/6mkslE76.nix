@@ -31,6 +31,11 @@ let
             "file" = "Carrots to Pizza!! 26.2.zip";
             "hash" = "sha512-ye//lIZ9n/UPEksd4/3swjLLi4Pk8YLjtCIot6Jte2I9WklvQyqfQcAflthrKwHqtrQ9H2daOp6ou7FSxXF4Ew==";
         };
+        _CCTDeMeN = {
+            "id" = "CCTDeMeN";
+            "file" = "Carrots to Pizza!! 26.2 - 26.3.zip";
+            "hash" = "sha512-uwONvC64hI06exIiak9n0J3V9rKlO19xRv6QksyOj7sb8YVFWH9V1pE0M4a73j5iQldQmXLEWOFGwi+29TYifQ==";
+        };
     in {
         "eyRnVtLH" = _eyRnVtLH;
         "gsli9W8B" = _gsli9W8B;
@@ -38,6 +43,7 @@ let
         "guFp1vsK" = _guFp1vsK;
         "6y3z57De" = _6y3z57De;
         "KkpgT3XQ" = _KkpgT3XQ;
+        "CCTDeMeN" = _CCTDeMeN;
         "minecraft-1.21.6" = _eyRnVtLH;
         "minecraft-1.21.7" = _gsli9W8B;
         "minecraft-1.21.8" = _gsli9W8B;
@@ -47,14 +53,16 @@ let
         "minecraft-26.1" = _6y3z57De;
         "minecraft-26.1.1" = _6y3z57De;
         "minecraft-26.1.2" = _6y3z57De;
-        "minecraft-26.2" = _KkpgT3XQ;
+        "minecraft-26.2" = _CCTDeMeN;
+        "minecraft-26.3" = _CCTDeMeN;
         "pkg-1.6.0" = _eyRnVtLH;
         "pkg-1.78.0" = _gsli9W8B;
         "pkg-1.910.0" = _ygcYRdkj;
         "pkg-1.11.0" = _guFp1vsK;
         "pkg-26.112" = _6y3z57De;
         "pkg-26.2" = _KkpgT3XQ;
-        "default" = _KkpgT3XQ;
+        "pkg-26.23" = _CCTDeMeN;
+        "default" = _CCTDeMeN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carrot-to-pizza";

@@ -81,6 +81,11 @@ let
             "file" = "sable_player_ragdoll-1.21.1-0.7.5.jar";
             "hash" = "sha512-yYb1i8SksNRwgeWGqdnCgQlqv5x3vN5F9q4UiOgSDnG3ngGdIUX/CjksXBaPWo+ys4kHsfXGq52JJiLFXawO+Q==";
         };
+        _7VQ9pGev = {
+            "id" = "7VQ9pGev";
+            "file" = "sable_player_ragdoll-1.21.1-0.8.1.jar";
+            "hash" = "sha512-PLFBlM1frDGM0JM6BZRCRjpqYgkmvcywTUTYHnyfsFePepX0lPN/m3DuMvrB4vGOgSA6KsxS9NJkiX8aaR+LhQ==";
+        };
     in {
         "6TqIcPIY" = _6TqIcPIY;
         "3jpll9cp" = _3jpll9cp;
@@ -98,7 +103,8 @@ let
         "imE1vUMn" = _imE1vUMn;
         "qixfTt58" = _qixfTt58;
         "CyKh8XSr" = _CyKh8XSr;
-        "neoforge-1.21.1" = _CyKh8XSr;
+        "7VQ9pGev" = _7VQ9pGev;
+        "neoforge-1.21.1" = _7VQ9pGev;
         "pkg-0.1.0" = _6TqIcPIY;
         "pkg-0.2.0" = _3jpll9cp;
         "pkg-0.3.0" = _1D0SH4zC;
@@ -115,7 +121,8 @@ let
         "pkg-0.7.2" = _imE1vUMn;
         "pkg-0.7.4" = _qixfTt58;
         "pkg-0.7.5" = _CyKh8XSr;
-        "default" = _CyKh8XSr;
+        "pkg-0.8.1" = _7VQ9pGev;
+        "default" = _7VQ9pGev;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable-ragdolls";

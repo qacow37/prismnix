@@ -111,6 +111,11 @@ let
             "file" = "TerracartReloaded-neoforge-1.21.1-1.10.0.jar";
             "hash" = "sha512-YKSZboRQzo1JznSvGsafaat26GBQShTdn2fKYDoivEkOISKK5fx5yd1Hz5l6Er/tE8Vk0O+ewc0yjl+iD5pPdg==";
         };
+        _IdvJ8Jva = {
+            "id" = "IdvJ8Jva";
+            "file" = "Terracart-Reloaded-2.0.11-MC26.3-NeoForge.jar";
+            "hash" = "sha512-rELvaYKGdiWCCI4i4Iopdt6ZBx7cuAjVduPjte3d7GBHyiwSJufm2Q+B+ptRgOE8gTQgcy2K7jkdWXoqcdJbGw==";
+        };
     in {
         "CHr5isYG" = _CHr5isYG;
         "FCC48g2L" = _FCC48g2L;
@@ -134,6 +139,7 @@ let
         "Ro95hkxJ" = _Ro95hkxJ;
         "pvBWJM3B" = _pvBWJM3B;
         "R6yWtnJC" = _R6yWtnJC;
+        "IdvJ8Jva" = _IdvJ8Jva;
         "forge-1.12.2" = _CHr5isYG;
         "forge-1.11.2" = _FCC48g2L;
         "forge-1.16.5" = _5meZ1zX1;
@@ -154,6 +160,7 @@ let
         "neoforge-1.20.2" = _mvbY11sU;
         "neoforge-1.20.4" = _Ro95hkxJ;
         "neoforge-1.21.1" = _R6yWtnJC;
+        "neoforge-26.3" = _IdvJ8Jva;
         "pkg-1.2.3" = _5meZ1zX1;
         "pkg-1.3.1" = _1EQoZqeP;
         "pkg-1.4.0" = _DtIAdILq;
@@ -164,7 +171,8 @@ let
         "pkg-1.7.0" = _N1TvThZ0;
         "pkg-1.8.0" = _mvbY11sU;
         "pkg-1.9.0" = _R6yWtnJC;
-        "default" = _R6yWtnJC;
+        "pkg-2.0.11" = _IdvJ8Jva;
+        "default" = _IdvJ8Jva;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terracart-reloaded";

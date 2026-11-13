@@ -286,6 +286,11 @@ let
             "file" = "kinetic-minecart-2.6.0-alpha.2+26.3.jar";
             "hash" = "sha512-QkNSsGM6UdcVqKGrB/N4iY8OeQAnICJs4m6m4syLYKIIZydvRbc5oDQb/7IaSlWgfDzoV5nNh4M6gg7wH3Rs8g==";
         };
+        _FqHL18bF = {
+            "id" = "FqHL18bF";
+            "file" = "kinetic-minecart-2.6.0-beta.1+26.3.jar";
+            "hash" = "sha512-ur+QNcWVcleVELKWPLgWUtiaaTBQoo8DFIKBd9FGVThi2k6IcWgwmBnrVee6AYbTnm8F4i0FVhHyaRXzNFzoJg==";
+        };
     in {
         "18rmlbQp" = _18rmlbQp;
         "SNHvOrmR" = _SNHvOrmR;
@@ -344,6 +349,7 @@ let
         "jNxOEGih" = _jNxOEGih;
         "UJXYu6iC" = _UJXYu6iC;
         "3XqxkwCp" = _3XqxkwCp;
+        "FqHL18bF" = _FqHL18bF;
         "fabric-1.21.9" = _neJJjBik;
         "fabric-1.21.10" = _neJJjBik;
         "fabric-1.20.5" = _ZipppL3d;
@@ -386,7 +392,7 @@ let
         "fabric-26.1.1" = _g9RZ0bn4;
         "fabric-26.1.2" = _g9RZ0bn4;
         "fabric-26.2" = _jNxOEGih;
-        "fabric-26.3" = _3XqxkwCp;
+        "fabric-26.3" = _FqHL18bF;
         "neoforge-1.21.11" = _PVe23TD8;
         "neoforge-1.21" = _KP6RIKwa;
         "neoforge-1.21.1" = _KP6RIKwa;
@@ -449,7 +455,8 @@ let
         "pkg-2.5.0+26.2" = _jNxOEGih;
         "pkg-2.6.0-alpha.1+26.3" = _UJXYu6iC;
         "pkg-2.6.0-alpha.2+26.3" = _3XqxkwCp;
-        "default" = _3XqxkwCp;
+        "pkg-2.6.0-beta.1+26.3" = _FqHL18bF;
+        "default" = _FqHL18bF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kinetic-minecart";

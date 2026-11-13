@@ -26,12 +26,30 @@ let
             "file" = "DragonElytra 1.19.x.zip";
             "hash" = "sha512-VH+PxC1wITczrzkRXgfAFqDsH/WZ3Z1SGsbAL2Zt8530Lj/uun9QKjcT5lBEgoYp3TQNll3WSGrrTchP2J/08g==";
         };
+        _mv8YtNuf = {
+            "id" = "mv8YtNuf";
+            "file" = "DragonElytra 26.1.zip";
+            "hash" = "sha512-o4XpcuXGr4/der/RniLEFAWM1hFBlmj6CkUaf9I9iof4Lekw0AjGbQeGTMQq/xdy8be23IsKEXPJKl4OSA3Ihg==";
+        };
+        _xsisl5x1 = {
+            "id" = "xsisl5x1";
+            "file" = "DragonElytra 26.2.zip";
+            "hash" = "sha512-aOnKbSYI8LCA6vNBHiTC1urNSogWNK+9BYla0/GcguH5Wk2oEz3eBkA2T8OTSvVFdhQ4DlXiVeqtQmJV/z+GNA==";
+        };
+        _fFua7QGI = {
+            "id" = "fFua7QGI";
+            "file" = "DragonElytra 26.3.zip";
+            "hash" = "sha512-hcVthYLOz9qtoZtirMvoXKT7RvtBaj22Xe6vOsoULqcJcZqBmAU2rGx+U0Hn7S6WTkain1baTKvu2Ju12E6XTw==";
+        };
     in {
         "KraBd7Zk" = _KraBd7Zk;
         "iYHIFQNB" = _iYHIFQNB;
         "oS4FL7S9" = _oS4FL7S9;
         "Xi11xhfI" = _Xi11xhfI;
         "f0SeO6dS" = _f0SeO6dS;
+        "mv8YtNuf" = _mv8YtNuf;
+        "xsisl5x1" = _xsisl5x1;
+        "fFua7QGI" = _fFua7QGI;
         "minecraft-1.21" = _KraBd7Zk;
         "minecraft-1.21.1" = _KraBd7Zk;
         "minecraft-24w33a" = _iYHIFQNB;
@@ -74,12 +92,20 @@ let
         "minecraft-1.19.2" = _f0SeO6dS;
         "minecraft-1.19.3" = _f0SeO6dS;
         "minecraft-1.19.4" = _f0SeO6dS;
+        "minecraft-26.1.2" = _mv8YtNuf;
+        "minecraft-26.1" = _mv8YtNuf;
+        "minecraft-26.1.1" = _mv8YtNuf;
+        "minecraft-26.2" = _xsisl5x1;
+        "minecraft-26.3" = _fFua7QGI;
         "pkg-1.21" = _KraBd7Zk;
         "pkg-1.20" = _iYHIFQNB;
         "pkg-1.17" = _oS4FL7S9;
         "pkg-1.18" = _Xi11xhfI;
         "pkg-1.19" = _f0SeO6dS;
-        "default" = _f0SeO6dS;
+        "pkg-26.1" = _mv8YtNuf;
+        "pkg-26.2" = _xsisl5x1;
+        "pkg-26.3" = _fFua7QGI;
+        "default" = _fFua7QGI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-elytra";

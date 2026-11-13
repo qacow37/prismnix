@@ -2206,6 +2206,11 @@ let
             "file" = "carpet-fga-addition-1.7.1-mc26.3.jar";
             "hash" = "sha512-0RsDc8ACVSfyxOyn3wjZZyjaI8WUfQQ/NNId/HxNLwUnp0ANu/k+ibN++YaQL/MWOwWFQu0/YxQ5qyOkSjZPzg==";
         };
+        _1oGo2Hnb = {
+            "id" = "1oGo2Hnb";
+            "file" = "carpet-fga-addition-1.5.1-mc1.20.1.jar";
+            "hash" = "sha512-i2EasSoBQBxg+J5Lc/mT2SX8yS/4mtq8jGUpv1TKZyosJnrADJOnIx33TprFCNRdi+Vm65bWtDcpU9OnCNHr7A==";
+        };
     in {
         "UXOTXVzs" = _UXOTXVzs;
         "L7upm9zR" = _L7upm9zR;
@@ -2648,6 +2653,7 @@ let
         "KyaO2P5J" = _KyaO2P5J;
         "ensvtiwi" = _ensvtiwi;
         "3ZcPlLzr" = _3ZcPlLzr;
+        "1oGo2Hnb" = _1oGo2Hnb;
         "fabric-26.2" = _ensvtiwi;
         "fabric-26.1.2" = _KyaO2P5J;
         "fabric-1.21" = _drVJ3wFG;
@@ -2734,6 +2740,7 @@ let
         "pkg-1.6.4" = _yyhNZezq;
         "pkg-1.7.0" = _9qEXYPwZ;
         "pkg-1.7.1" = _3ZcPlLzr;
+        "pkg-1.5.1" = _1oGo2Hnb;
         "default" = _3ZcPlLzr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

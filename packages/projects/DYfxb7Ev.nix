@@ -61,6 +61,11 @@ let
             "file" = "antiitembreak-2.1.1+26.1.2.jar";
             "hash" = "sha512-YVqwwm/1jHvj6bkcu1nQ3YpeYT4blX2ZjN+7q3MirT+yX7tK1HAeLmkG684MLzzIVOED/32sXMAgaKCXDclruA==";
         };
+        _OwmVtXpY = {
+            "id" = "OwmVtXpY";
+            "file" = "antiitembreak-2.1.1+26.3.jar";
+            "hash" = "sha512-L0rl7h7ZkRrncRW6/WHQz144sm9/mjbEAiWLojxMMSw85PzpOLaCcudWxwsRtQFC6Z+6IFckQZh4xR5KnDENrA==";
+        };
     in {
         "NSsNUZ24" = _NSsNUZ24;
         "YYiEGkcW" = _YYiEGkcW;
@@ -74,6 +79,7 @@ let
         "Cot5DJM3" = _Cot5DJM3;
         "w66KVrGl" = _w66KVrGl;
         "z1lo7dQr" = _z1lo7dQr;
+        "OwmVtXpY" = _OwmVtXpY;
         "fabric-1.20" = _NSsNUZ24;
         "fabric-1.20.1" = _NSsNUZ24;
         "fabric-1.20.2" = _YYiEGkcW;
@@ -98,6 +104,7 @@ let
         "fabric-26.1.1" = _z1lo7dQr;
         "fabric-26.1.2" = _z1lo7dQr;
         "fabric-26.2" = _z1lo7dQr;
+        "fabric-26.3" = _OwmVtXpY;
         "pkg-1.0.0+1.20" = _NSsNUZ24;
         "pkg-1.0.0+1.20.2" = _YYiEGkcW;
         "pkg-1.0.0+1.20.3" = _4agzFs3M;
@@ -110,7 +117,8 @@ let
         "pkg-2.0.1+1.21.10" = _Cot5DJM3;
         "pkg-2.1.0+26.1.2" = _w66KVrGl;
         "pkg-2.1.1+26.1.2" = _z1lo7dQr;
-        "default" = _z1lo7dQr;
+        "pkg-2.1.1+26.3" = _OwmVtXpY;
+        "default" = _OwmVtXpY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-item-break";

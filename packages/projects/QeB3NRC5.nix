@@ -181,6 +181,41 @@ let
             "file" = "Re-Avaritia-neoforge-26.3-1.4.2-release.jar";
             "hash" = "sha512-JA2RUmEN0tOTCgvm7cYMQemzWqkp7lRsiTVLiJDoXolI7tssk8ofnUw4511IiGh/MOEFs5E/hGvpz9ymQhqSxw==";
         };
+        _ke1KwklO = {
+            "id" = "ke1KwklO";
+            "file" = "Re-Avaritia-neoforge-26.3-1.4.4-release.jar";
+            "hash" = "sha512-oW9d+FRa+k6qUguN/Ksn1uhaPTW5mTWY7yOzC7ollKp7OM1vzdl1ZMHAl3ZJaK+xTsqjlk32qaqfks0t+cc6qg==";
+        };
+        _EcNykOKu = {
+            "id" = "EcNykOKu";
+            "file" = "Re-Avaritia-neoforge-1.21.11-1.4.4-port1.21.11.jar";
+            "hash" = "sha512-A5yYt2n8OpNqZ05IfSyxT0KtgFn85n1gRu7vS/qyTa4WJiCwjlsz8lx38v5qYmxtTlAq5GEn0MghjbV+xxXzAw==";
+        };
+        _gdorhBGg = {
+            "id" = "gdorhBGg";
+            "file" = "Re-Avaritia-neoforge-26.1.2-1.4.4-release.jar";
+            "hash" = "sha512-+CXQsOz7glN2sv7sP1oJKUquQ1xPKAxWgBUKB8u9TXiOTN9yCZ22CZaejuHGw98Sr9bI+Z+FlkLYFHu1J3ZyYA==";
+        };
+        _L0BhOua9 = {
+            "id" = "L0BhOua9";
+            "file" = "Re-Avaritia-fabric-1.20.1-1.4.4-fabric.jar";
+            "hash" = "sha512-ilMVJLibKM4iV58LV1y/wvblSAx74Z9mLitYcYYtx6pIRXk1ytzqeP7kriKDrSZKm/Ptj/K90NGqz7JUTw7cgA==";
+        };
+        _21L9CJ39 = {
+            "id" = "21L9CJ39";
+            "file" = "Re-Avaritia-fabric-26.3-1.4.4-fabric.jar";
+            "hash" = "sha512-0hbcWAEERKtD2ysPr05ErMzNwyUEGlQqvxli45F/yQYt0jVh7u3onYHO1avm7CDyH7vEzgb1QtCry0Rq5AXbeA==";
+        };
+        _PIZk2hki = {
+            "id" = "PIZk2hki";
+            "file" = "Re-Avaritia-forge-1.20.1-1.4.4-release.jar";
+            "hash" = "sha512-7emjtr8t9snZfHIHpiXztyq2cQSP2lgt9EgPFZQ7YYamJzBdw2jI0w2y8RwSvFHO6xQqXVNMvWeeLLhADaN4AQ==";
+        };
+        _RN6Eu9Y3 = {
+            "id" = "RN6Eu9Y3";
+            "file" = "Re-Avaritia-neoforge-1.21.1-1.4.4-release.jar";
+            "hash" = "sha512-11gdNsAQjmNhLlzUnRxs6mUp2Fsh6O0TP1rgLt4YV223JgPtpN0gVAMJ/ecumzhODY00D5qCqbjwgGzqZLUFcw==";
+        };
     in {
         "wPJom34X" = _wPJom34X;
         "FFn9M9Be" = _FFn9M9Be;
@@ -218,15 +253,24 @@ let
         "trZJ7YBv" = _trZJ7YBv;
         "9YZiPPHJ" = _9YZiPPHJ;
         "872Qjept" = _872Qjept;
+        "ke1KwklO" = _ke1KwklO;
+        "EcNykOKu" = _EcNykOKu;
+        "gdorhBGg" = _gdorhBGg;
+        "L0BhOua9" = _L0BhOua9;
+        "21L9CJ39" = _21L9CJ39;
+        "PIZk2hki" = _PIZk2hki;
+        "RN6Eu9Y3" = _RN6Eu9Y3;
         "forge-1.20" = _vigcKMZ9;
-        "forge-1.20.1" = _trZJ7YBv;
+        "forge-1.20.1" = _PIZk2hki;
         "neoforge-1.20" = _vigcKMZ9;
         "neoforge-1.20.1" = _5muSI5qX;
         "neoforge-1.20.4" = _I64tc9zs;
-        "neoforge-1.21.1" = _uY1x1LTC;
-        "neoforge-26.1.2" = _3NNXXUW4;
-        "neoforge-26.3" = _872Qjept;
-        "fabric-1.20.1" = _9YZiPPHJ;
+        "neoforge-1.21.1" = _RN6Eu9Y3;
+        "neoforge-26.1.2" = _gdorhBGg;
+        "neoforge-26.3" = _ke1KwklO;
+        "neoforge-1.21.11" = _EcNykOKu;
+        "fabric-1.20.1" = _L0BhOua9;
+        "fabric-26.3" = _21L9CJ39;
         "pkg-1.3.4" = _wPJom34X;
         "pkg-1.3.5.3" = _I64tc9zs;
         "pkg-1.3.6.0" = _9cYlLjSp;
@@ -254,7 +298,14 @@ let
         "pkg-1.20.1-1.4.2-release" = _trZJ7YBv;
         "pkg-1.20.1-1.4.2-fabric" = _9YZiPPHJ;
         "pkg-26.3-1.4.2-release" = _872Qjept;
-        "default" = _872Qjept;
+        "pkg-26.3-1.4.4-release" = _ke1KwklO;
+        "pkg-1.21.11-1.4.4-port1.21.11" = _EcNykOKu;
+        "pkg-26.1.2-1.4.4-release" = _gdorhBGg;
+        "pkg-1.20.1-1.4.4-fabric" = _L0BhOua9;
+        "pkg-26.3-1.4.4-fabric" = _21L9CJ39;
+        "pkg-1.20.1-1.4.4-release" = _PIZk2hki;
+        "pkg-1.21.1-1.4.4-release" = _RN6Eu9Y3;
+        "default" = _RN6Eu9Y3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-avaritia";

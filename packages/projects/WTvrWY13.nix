@@ -426,6 +426,11 @@ let
             "file" = "infusedpower-0.9.94-b-fabric-1.21.11.jar";
             "hash" = "sha512-LADizEGluZK77txiJmEfSpe37ttgqoPcQIg52eR7S1qHdVRJ0mhb7QZW7gpJJrR2QMR7lmdDkv2eHhp1GYbLCg==";
         };
+        _LfsePkP8 = {
+            "id" = "LfsePkP8";
+            "file" = "infusedpower-0.9.95_ALPHA_TEST-fabric-1.21.1.jar";
+            "hash" = "sha512-/G6eoP/qr2bhuct9JD/mMu7cpiY23lY+knp1qS8NW96GwFPhgGXu4JCew7FMRTlfwMmmBGIU5L/3MuVqiig6kw==";
+        };
     in {
         "o96Z7m8W" = _o96Z7m8W;
         "PLwRJtqF" = _PLwRJtqF;
@@ -512,7 +517,8 @@ let
         "226eRKPK" = _226eRKPK;
         "3caV9SBI" = _3caV9SBI;
         "dzQaeow5" = _dzQaeow5;
-        "fabric-1.21.1" = _QteW7ogD;
+        "LfsePkP8" = _LfsePkP8;
+        "fabric-1.21.1" = _LfsePkP8;
         "fabric-1.21.11" = _dzQaeow5;
         "fabric-1.21.10" = _rWI9kKrG;
         "fabric-1.21.9" = _7hzkIMzt;
@@ -578,7 +584,8 @@ let
         "pkg-0.9.93+26.1.2" = _kZokqLvj;
         "pkg-0.9.94+1.21.11" = _3caV9SBI;
         "pkg-0.9.94-b+1.21.11" = _dzQaeow5;
-        "default" = _dzQaeow5;
+        "pkg-0.9.95-alpha+1.21.1" = _LfsePkP8;
+        "default" = _LfsePkP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infused-power";

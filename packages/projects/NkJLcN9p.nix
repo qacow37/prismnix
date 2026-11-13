@@ -111,6 +111,11 @@ let
             "file" = "more_sweet_treats-1.0.0-for-forge-1.16.5.jar";
             "hash" = "sha512-7o0cCrJ9Eo+G2wCtyEv0bM5H6+aW/3Rb1fC6uBcPRLD57ITg9p7sAEzHHGQ9c/M+e2VVkNYPs36Vz7xyvNNTwA==";
         };
+        _bTEB2QPc = {
+            "id" = "bTEB2QPc";
+            "file" = "more_sweet_treats-1.0.0-for-forge-1.20.4.jar";
+            "hash" = "sha512-wuPu9TjG6U+x4M2PBO6yY6tS5KzA7vLsbFoKRMsoFsVmOssWCyisLY0SZmGcNOU3DPtPcP+6amySbflqZXewPw==";
+        };
     in {
         "uaQSiu5Q" = _uaQSiu5Q;
         "FTlJrCUz" = _FTlJrCUz;
@@ -134,9 +139,11 @@ let
         "zO5PQhez" = _zO5PQhez;
         "JKvSUjxe" = _JKvSUjxe;
         "3k44KFAS" = _3k44KFAS;
+        "bTEB2QPc" = _bTEB2QPc;
         "forge-1.18.2" = _uaQSiu5Q;
         "forge-1.20.1" = _FTlJrCUz;
         "forge-1.16.5" = _3k44KFAS;
+        "forge-1.20.4" = _bTEB2QPc;
         "neoforge-1.21.1" = _T7yZhvas;
         "neoforge-1.21.4" = _Zb80MFiU;
         "neoforge-1.21.8" = _gX2mmeAJ;
@@ -155,9 +162,9 @@ let
         "fabric-26.1.2" = _GbbmBDTp;
         "fabric-26.2" = _icH4WeCA;
         "fabric-26.3" = _zO5PQhez;
-        "pkg-1.0.0" = _3k44KFAS;
+        "pkg-1.0.0" = _bTEB2QPc;
         "pkg-1.0.0-beta" = _Co1JfQwK;
-        "default" = _3k44KFAS;
+        "default" = _bTEB2QPc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-sweet-treats";

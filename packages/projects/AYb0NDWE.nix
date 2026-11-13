@@ -206,6 +206,36 @@ let
             "file" = "vanilla-outsider-true-sleep-1.3.31+26.2.jar";
             "hash" = "sha512-3rkQvWcSu3SWP9dGilTPmXN5U+gD6PwNLh1fwWIixMPlGfydVRwVdeaAo6PzKeW54HEFzEL+bXBx2zMGqYYHGg==";
         };
+        _yAPvvhrP = {
+            "id" = "yAPvvhrP";
+            "file" = "vanilla-outsider-true-sleep-1.0.1+1.20.1.jar";
+            "hash" = "sha512-QAa/34KYPSpE3qt97UOW8Bkgpp+gKgQAoYHJU3jfb7VSLNDpz3CzzxBlHllCgMjXFt1Ucv3YdtJBHx+IAVTRHg==";
+        };
+        _x859zL1G = {
+            "id" = "x859zL1G";
+            "file" = "vanilla-outsider-true-sleep-1.0.1+1.21.1.jar";
+            "hash" = "sha512-bvZEg6+X7ByzFNu7SfV7JxwBpJWkxqY0/afT3wzvHFBkku+PrjNZ+WuNUtmYJFM412tioh32REhobsU38HniTw==";
+        };
+        _TO1h7siF = {
+            "id" = "TO1h7siF";
+            "file" = "vanilla-outsider-true-sleep-1.0.1+1.21.11.jar";
+            "hash" = "sha512-e3Xcu7SzF2hRyVPWe5QNEKLDU+ocmlO1hVtm3XWMEsFfnundHhir7JiLRLxIfYczOxpcCT6sJyMAxSD6cj9eZg==";
+        };
+        _5bYWez9w = {
+            "id" = "5bYWez9w";
+            "file" = "vanilla-outsider-true-sleep-1.3.32+26.1.2.jar";
+            "hash" = "sha512-0Yw6nlNcFoSLSy3QyVzV2TPsriinHSss8snd7zkEqv6Jr6MgNct7wFlRUneHh1fdWFlUv+/JbD+owp9cY58biw==";
+        };
+        _gFE39FJQ = {
+            "id" = "gFE39FJQ";
+            "file" = "vanilla-outsider-true-sleep-1.3.32+26.2.jar";
+            "hash" = "sha512-Xl2K5O37+eg3Hgy4yKqfqfCDslfdtFDkhfLzQ5WeVb65Eh99NhNjEKX9PDIgwSZGf41SCaFjzTRQjiKlMA7SbQ==";
+        };
+        _fDvu6D5H = {
+            "id" = "fDvu6D5H";
+            "file" = "vanilla-outsider-true-sleep-1.3.29+26.3.jar";
+            "hash" = "sha512-zau945rsn1oJYCi1FrgVLHr666gIVIA8vC6ioQVNb0ODJQgGNIdZle4mAEfYrJH/N3xHtbi2wqVycNFAgTzMJQ==";
+        };
     in {
         "Jc9G1YZM" = _Jc9G1YZM;
         "pwQznJRY" = _pwQznJRY;
@@ -248,6 +278,12 @@ let
         "b69wyKeM" = _b69wyKeM;
         "KnMNGvCA" = _KnMNGvCA;
         "fveuhs4v" = _fveuhs4v;
+        "yAPvvhrP" = _yAPvvhrP;
+        "x859zL1G" = _x859zL1G;
+        "TO1h7siF" = _TO1h7siF;
+        "5bYWez9w" = _5bYWez9w;
+        "gFE39FJQ" = _gFE39FJQ;
+        "fDvu6D5H" = _fDvu6D5H;
         "fabric-26.1-snapshot-1" = _qgOhLOaZ;
         "fabric-26.1-snapshot-2" = _qgOhLOaZ;
         "fabric-26.1-snapshot-3" = _qgOhLOaZ;
@@ -267,14 +303,14 @@ let
         "fabric-26.1-rc-3" = _qgOhLOaZ;
         "fabric-26.1" = _Q5YbKXvb;
         "fabric-26.1.1" = _qgOhLOaZ;
-        "fabric-26.1.2" = _KnMNGvCA;
+        "fabric-26.1.2" = _5bYWez9w;
         "fabric-26.2-snapshot-2" = _qgOhLOaZ;
         "fabric-26.2-snapshot-3" = _qgOhLOaZ;
         "fabric-26.2-snapshot-4" = _qgOhLOaZ;
         "fabric-26.2-snapshot-5" = _qgOhLOaZ;
         "fabric-26.2-rc-1" = _nk7jl99r;
         "fabric-26.2-rc-2" = _ohy2dwKK;
-        "fabric-26.2" = _fveuhs4v;
+        "fabric-26.2" = _gFE39FJQ;
         "fabric-26.3-snapshot-1" = _flxZKhqQ;
         "fabric-26.3-snapshot-2" = _flxZKhqQ;
         "fabric-26.3-snapshot-3" = _flxZKhqQ;
@@ -287,10 +323,10 @@ let
         "fabric-26.3-snapshot-10" = _flxZKhqQ;
         "fabric-26.3-pre-1" = _flxZKhqQ;
         "fabric-26.3-pre-2" = _flxZKhqQ;
-        "fabric-26.3" = _G3ek2WMD;
-        "fabric-1.20.1" = _783WzkvI;
-        "fabric-1.21.1" = _UHN8SNom;
-        "fabric-1.21.11" = _b69wyKeM;
+        "fabric-26.3" = _fDvu6D5H;
+        "fabric-1.20.1" = _yAPvvhrP;
+        "fabric-1.21.1" = _x859zL1G;
+        "fabric-1.21.11" = _TO1h7siF;
         "pkg-1.0.0-26.1" = _Jc9G1YZM;
         "pkg-1.0.2-26.1" = _pwQznJRY;
         "pkg-1.1.4-26.1" = _JLtwWPuA;
@@ -332,7 +368,13 @@ let
         "pkg-1.0.0+1.21.11" = _b69wyKeM;
         "pkg-1.3.31+26.1.2" = _KnMNGvCA;
         "pkg-1.3.31+26.2" = _fveuhs4v;
-        "default" = _fveuhs4v;
+        "pkg-1.0.1+1.20.1" = _yAPvvhrP;
+        "pkg-1.0.1+1.21.1" = _x859zL1G;
+        "pkg-1.0.1+1.21.11" = _TO1h7siF;
+        "pkg-1.3.32+26.1.2" = _5bYWez9w;
+        "pkg-1.3.32+26.2" = _gFE39FJQ;
+        "pkg-1.3.29+26.3" = _fDvu6D5H;
+        "default" = _fDvu6D5H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-outsider-true-sleep";

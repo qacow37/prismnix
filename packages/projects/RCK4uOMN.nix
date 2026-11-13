@@ -296,6 +296,16 @@ let
             "file" = "hoppergadgetry-v26.1.1-mc26.1.x+fabric.jar";
             "hash" = "sha512-++3HeKx2+2rIYSRluSgJ8B+7fGvyw6cpio/3yS9WYNv6a6bqMbqpHazJu6tN+syUXOu1aKl9nySh3XCa1i7wIg==";
         };
+        _HU6ux7Zg = {
+            "id" = "HU6ux7Zg";
+            "file" = "hoppergadgetry-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-NYIgQy36KfDUJx4MIz3sZfOBh3U8H5MUfWtsWjDJtshqIMxp1F5ipcH9vTf6bi/YTjMpqxA2kro8JrYxmm8ejA==";
+        };
+        _OJjIBgtL = {
+            "id" = "OJjIBgtL";
+            "file" = "hoppergadgetry-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-a0GmNqFdxONDcurlWKROhGVAVCdFk8x2VAVIpq6tbbCHRQb3SUWmyk3xSuMkMgfmwzDgbrdV1lMVzaAFaiDI2w==";
+        };
     in {
         "oQFxkCLP" = _oQFxkCLP;
         "uozBsjn8" = _uozBsjn8;
@@ -356,6 +366,8 @@ let
         "3LCZMvnP" = _3LCZMvnP;
         "m3HOFG4c" = _m3HOFG4c;
         "UiVq1Tf3" = _UiVq1Tf3;
+        "HU6ux7Zg" = _HU6ux7Zg;
+        "OJjIBgtL" = _OJjIBgtL;
         "fabric-1.20.1" = _xBGglNV9;
         "fabric-1.20.4" = _43VQmJqZ;
         "fabric-1.21.1" = _oFDXEdZD;
@@ -372,7 +384,7 @@ let
         "fabric-26.1.1" = _UiVq1Tf3;
         "fabric-26.1.2" = _UiVq1Tf3;
         "fabric-26.2" = _62brqYey;
-        "fabric-26.3" = _3LCZMvnP;
+        "fabric-26.3" = _OJjIBgtL;
         "forge-1.20.1" = _oxYWsAHC;
         "forge-1.20.4" = _l5mgC3AL;
         "neoforge-1.20.4" = _NdJ4SNWJ;
@@ -390,7 +402,7 @@ let
         "neoforge-26.1.1" = _m3HOFG4c;
         "neoforge-26.1.2" = _m3HOFG4c;
         "neoforge-26.2" = _JvF0d4zV;
-        "neoforge-26.3" = _6WykWzUv;
+        "neoforge-26.3" = _HU6ux7Zg;
         "pkg-v20.1.0-1.20.1-Fabric" = _oQFxkCLP;
         "pkg-v20.1.0-1.20.1-Forge" = _uozBsjn8;
         "pkg-v20.4.0-1.20.4-Fabric" = _43VQmJqZ;
@@ -442,7 +454,8 @@ let
         "pkg-26.2.0" = _JvF0d4zV;
         "pkg-26.3.0" = _3LCZMvnP;
         "pkg-26.1.1" = _UiVq1Tf3;
-        "default" = _UiVq1Tf3;
+        "pkg-26.3.1" = _OJjIBgtL;
+        "default" = _OJjIBgtL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopper-gadgetry";

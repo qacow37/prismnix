@@ -201,6 +201,11 @@ let
             "file" = "bwncr-neoforge-1.21.1-3.20.4.jar";
             "hash" = "sha512-ZCxVDGHw/DdLV2vVsmpunuacC45HoTaNmb/8vUdCBonHY7YK72Ss6PouDs2OkJsmdxp3mt0vzeDdhsnEyZ/+6A==";
         };
+        _QftJk11v = {
+            "id" = "QftJk11v";
+            "file" = "Bad-Wither-No-Cookie-Reloaded-4.0.5-MC26.3-NeoForge.jar";
+            "hash" = "sha512-RXW+60GDLzZU5lBau7ORWwDBP8UX7m1QDfsWADi569WluZ7azQZSGx9g9zyQ6pzqwpIKz1pU2Cu9KZvAHsGzPw==";
+        };
     in {
         "UIgEX1gX" = _UIgEX1gX;
         "2ZnkNT15" = _2ZnkNT15;
@@ -242,6 +247,7 @@ let
         "o37ytez4" = _o37ytez4;
         "rdqcNBbv" = _rdqcNBbv;
         "FRuLJsBp" = _FRuLJsBp;
+        "QftJk11v" = _QftJk11v;
         "forge-1.18.1" = _UIgEX1gX;
         "forge-1.18.2" = _UIgEX1gX;
         "forge-1.16.5" = _2ZnkNT15;
@@ -282,6 +288,7 @@ let
         "neoforge-1.20.4" = _GGC87TYn;
         "neoforge-1.21.1" = _FRuLJsBp;
         "neoforge-1.21.10" = _o37ytez4;
+        "neoforge-26.3" = _QftJk11v;
         "pkg-3.13.21" = _UIgEX1gX;
         "pkg-3.10.16" = _2ZnkNT15;
         "pkg-3.10.17" = _zkEQntV6;
@@ -306,7 +313,8 @@ let
         "pkg-3.20.2" = _XSodJ47q;
         "pkg-3.20.3" = _Vg54emzq;
         "pkg-3.20.4" = _FRuLJsBp;
-        "default" = _FRuLJsBp;
+        "pkg-4.0.5" = _QftJk11v;
+        "default" = _QftJk11v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bad-wither-no-cookie";

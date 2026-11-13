@@ -201,6 +201,196 @@ let
             "file" = "NoBlockRotations-26.3-ae90005.dirty.zip";
             "hash" = "sha512-5gumhhnGDQN7pt0PQU6Qv93VQuIBUDgSM65t62M+47KsFtm8cg7UYVBKVeJNER9seg0tc7EnE3WHgyMxQCsSgg==";
         };
+        _5TimQICv = {
+            "id" = "5TimQICv";
+            "file" = "NoBlockRotations-1.10-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-AwYInfbMwolZ8qSzniihESNnl4zhCr1IcRWpA2MTt8ROusaZyY5s2X54edEAa/PxIYyPSrxOE1vA59qIrMhs6w==";
+        };
+        _pkL7ggXB = {
+            "id" = "pkL7ggXB";
+            "file" = "NoBlockRotations-1.11-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-FP0ra09q3Jw3SDdaVTHjOPR1xBeyqld3c4R8q98CcQOVIzUgeDpGn4acW3wwfSvsbMYUMGPc2CN2D7hc8YV+Tw==";
+        };
+        _VnGUogAg = {
+            "id" = "VnGUogAg";
+            "file" = "NoBlockRotations-1.12-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-kESIAdHDpz2GiLtm0RerdCCKlFm8b6yLwM2jgn2I9r1ejOc1cV5jd1//k+VQMLfMhlV8ycfLu/gVlgCblsoqFg==";
+        };
+        _vJUGFiRK = {
+            "id" = "vJUGFiRK";
+            "file" = "NoBlockRotations-1.13-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-YX9MMXBu65KHxnhHoS4qzutFYagbmxcIaAX3elZo9OdIbjTdSx2fj9bfXsYBcFDBdPWFnmI/VmX465j6xKb0jg==";
+        };
+        _dtYmZ0Q0 = {
+            "id" = "dtYmZ0Q0";
+            "file" = "NoBlockRotations-1.14-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-4/yC5/pXFWh1IEUfHUP78/wXjgsuDC2LaAKX31C6bKU8lc4NB/lSMPBMifrnIl/Ht5BFuHuJPvBKuU2Z9XXuzg==";
+        };
+        _oRUa4AI9 = {
+            "id" = "oRUa4AI9";
+            "file" = "NoBlockRotations-1.15-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-bSrvX/C/5z9MvkDtol5el3UylsknSdTYNItIWBwR/Uv2zPG7Oji2GjYV2QQvljhoHP6gtV23VSSlTMrDUB7Rfw==";
+        };
+        _fH4j8lIO = {
+            "id" = "fH4j8lIO";
+            "file" = "NoBlockRotations-1.16-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-hH4AyVCq7AkSvXXVR6GPia9jR2XmYEe4VLSp/WaeGKEgu5pXq/iu9P3BV7e+xWuA+1jX2+9MHyy2j2YHZjypPg==";
+        };
+        _UjvgYMRF = {
+            "id" = "UjvgYMRF";
+            "file" = "NoBlockRotations-1.16.2-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-x2WgoNU8KNMEj7RncGn+ujkUGIYs3jNCp4tFyHLM5hxmEbNcjjESNlMQPcEw2nC3Yc72iqVgSY8MaGsvnddDXQ==";
+        };
+        _BZXQH398 = {
+            "id" = "BZXQH398";
+            "file" = "NoBlockRotations-1.17-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-L12pna0oxHJR5pSxdVR5XzEF5X+feaMEWXKvGrM+MTvT1f7NA97bP2fs7cjQPvyZ9SmM1k1Mgmq/iZ3SmRRdaw==";
+        };
+        _wOpHH6Rz = {
+            "id" = "wOpHH6Rz";
+            "file" = "NoBlockRotations-1.18-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-uijH97c4OiQO2pel63qXeT2OQiCr1W1idHAwf49SvvW83+Ws/3acBwcoiDhj2vhZI/1aOO5fmz1FDbDJtJzlQw==";
+        };
+        _ka183fCs = {
+            "id" = "ka183fCs";
+            "file" = "NoBlockRotations-1.19-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-b9bBdWUMT7SR4wT9uCk9XBXHuAE1xNW2ZV47itniEcRD/HhZVrQYH3TpqNV+5KnyV6ihYFbLU+FcsYTTMZ9zQA==";
+        };
+        _Zj5djnZD = {
+            "id" = "Zj5djnZD";
+            "file" = "NoBlockRotations-1.19.3-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-51L76bnY/2Axhp9vbGgQ1GoFq/Cf0EMohgvoD+xW0uA8loC2h8C+gw2NnX0Gkq1M1ZRc7Z510O1DEzuBIwSEMA==";
+        };
+        _qjlyD6Vs = {
+            "id" = "qjlyD6Vs";
+            "file" = "NoBlockRotations-1.19.4-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-ZO73JwYmT6oTwaaCsF+zPdd3FQWeN3I039MrU4YWvVr3LNgFMOHUjJJwQtZXETMzyjWTvzJ3ejya8Ga+XJO/GQ==";
+        };
+        _skVWASMI = {
+            "id" = "skVWASMI";
+            "file" = "NoBlockRotations-1.20-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-isTFykEDleZUSaLCIwdVEawdrgeB+fKXtYT7eeB8s5kgLPwDUsyAOQWWXmOZniPY4cLM5aZuvb2jo/pKxX0oWw==";
+        };
+        _mnPXYKpk = {
+            "id" = "mnPXYKpk";
+            "file" = "NoBlockRotations-1.20.2-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-AF4oclVWqEvlQRC9ffmGV1vCIOb2ouehM+JAUEtv3Jlc3DOxar07YWDYs9rSaPrQC9YqVrgbFDYfkHXBNqFE7A==";
+        };
+        _zZzPox28 = {
+            "id" = "zZzPox28";
+            "file" = "NoBlockRotations-1.20.3-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-QURcVw3zFGwcWC+LCd+ms13uLv2WaVrWPX5JB06XquVVMRNU98SkrqgxnNcyXs9MuzFngMNcZ7EyQPPj+GTbIA==";
+        };
+        _TH5qRwNl = {
+            "id" = "TH5qRwNl";
+            "file" = "NoBlockRotations-1.20.4-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-OSOH5dzSDyiVCUJjiK0XL7HkIdYG8dP+hUVPVKQc5RqS+1LKpYqkDE9Ck1zx8UrHg6SHCDFCwcea/NsDoR5NKw==";
+        };
+        _Av7H4u7H = {
+            "id" = "Av7H4u7H";
+            "file" = "NoBlockRotations-1.20.5-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-lPdxca9PYvAv/d/mi/e6/uwDabtCIHNRyPlM5qBoT5uqVLHMNC78SXDXcEqE+Z/IU0uYc61s03PKHOPSRARBpA==";
+        };
+        _VJIJM1fK = {
+            "id" = "VJIJM1fK";
+            "file" = "NoBlockRotations-1.20.6-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-E+tMTdFR3GmoY0Dbb91mwNr7ccYXp5SYbK7kzfj9oE1KXpBDRdmLPComP2dn5jZzPKKlDV8x1J9Oyx3m50fAnQ==";
+        };
+        _WTClWiJ7 = {
+            "id" = "WTClWiJ7";
+            "file" = "NoBlockRotations-1.21-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-qAG/v/ODYJJ1Z7BlQ2RKrgDOpsA/bcH4XEQK3tLB8itRh39TbVS++fSIawRNIRRXfxPHIh/ug92UaO5Q8/XD5Q==";
+        };
+        _lvH5XCuO = {
+            "id" = "lvH5XCuO";
+            "file" = "NoBlockRotations-1.21.1-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-zfOHYp0pxXQmHPMY3nYVERgJB2GiY94rsnHOCU7jMtfhKLUf2cowCmsL087zBsA2nPYoOBAcgk/bXwqqzn9alA==";
+        };
+        _xMmCRp8P = {
+            "id" = "xMmCRp8P";
+            "file" = "NoBlockRotations-1.21.10-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-RgjntT9UiE5uiJn+k3kqjKmJiCa0dAUgUmeYGaMojlc7OlPp+i5se1A4sR4jdZUG/CvJqubA+n4xbJkdFePo/A==";
+        };
+        _zI9FO4L3 = {
+            "id" = "zI9FO4L3";
+            "file" = "NoBlockRotations-1.21.11-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-ySd7VQeq5gpnL7NiKUCFkqhkVXjCU9HxrrAFu8MgfAlVtdyT2eiFmfxPtx50qMx09tijqLvtHOmrtvSL+Hu5zA==";
+        };
+        _BTCJWBzt = {
+            "id" = "BTCJWBzt";
+            "file" = "NoBlockRotations-1.21.2-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-SJPOfOIteJngJwnYpdHTzfKO9JocanwAxc7G4uM2GPrjLqT/gbPj53v6WJQJSbOvZJPHOw6/gu7pUvx8KVrbSw==";
+        };
+        _g2pm61XU = {
+            "id" = "g2pm61XU";
+            "file" = "NoBlockRotations-1.21.3-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-yBddM2fz/99RQNSJtsE9rY8c6+WFNeBpvIBOMtHaNPraDf3c8NltVRedwYhTkk7vBft8nzgmsL5zW36SS4Xvsg==";
+        };
+        _qot0gxzc = {
+            "id" = "qot0gxzc";
+            "file" = "NoBlockRotations-1.21.4-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-6Hy67BzCLLryfnsGM82szjiBg1hn1BQU6JdjTriOG2QEU2sOt3XUWMFrkvBKlQT5Es+WMhFOgbvOT91glXveFg==";
+        };
+        _6u0sdlhy = {
+            "id" = "6u0sdlhy";
+            "file" = "NoBlockRotations-1.21.5-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-9DEZMA0pghWxVKo3R8audVxUqfYDtXuNbUQPU4lfAt9FjyIGNVgXaJdxwyzGr4gUGDTgb4D6Nvl5Iwyopj1KGw==";
+        };
+        _E9w7Fxu8 = {
+            "id" = "E9w7Fxu8";
+            "file" = "NoBlockRotations-1.21.6-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-o49zVNlzr5gcHSuMAl50acYQIXYAsU4KYwO9hDagGupblkdKr9aEAOkZYXcdyNFR8XMki/Tk1LPlZfJp0YUkLQ==";
+        };
+        _CbN6bXjs = {
+            "id" = "CbN6bXjs";
+            "file" = "NoBlockRotations-1.21.7-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-to2ocmH7IO0Z3XqQdavB2pu/l14xaxG60mWwd9Z0HzuFxheLM/UF+dqPmYpA4K0kQMsdteROwhvZfsvruzP+Fw==";
+        };
+        _4JP5B6Jv = {
+            "id" = "4JP5B6Jv";
+            "file" = "NoBlockRotations-1.21.8-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-S0rapr/fieQDpU/W0uqy7CGxljiUgIxryQ8W4tJd3WDEOdEr5owvVgavYQWrpffCBTEewomN3NN7aOF8pjmucQ==";
+        };
+        _d3IYoFiW = {
+            "id" = "d3IYoFiW";
+            "file" = "NoBlockRotations-1.21.9-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-m8ndhuiX4eOSVJdGA6cMpkiPAc4HbsO6t3SVR6zblLw1SWjALyygfuqbuPRAwoAZ6MxbfvRLHnHCmp77MBrz9A==";
+        };
+        _4uhREbPO = {
+            "id" = "4uhREbPO";
+            "file" = "NoBlockRotations-1.8-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-D1GSbfc8X2ULJUyC86BOJbJRgIUIe+7aeT8Gdgk7z3hzJh86XExfK2cMzk+DX6cRMXbfgP4gqZKfrOItGEP9Yw==";
+        };
+        _Snbj5WnQ = {
+            "id" = "Snbj5WnQ";
+            "file" = "NoBlockRotations-1.9-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-dPBtSGryTrj0QjrG5EjVbYp0L8eE3raVjeVoSDZ9PC2/Czs7vJNm+F4PR/CH12heHWG8YFuSgGPsvl81cYHiZQ==";
+        };
+        _UznCXrHn = {
+            "id" = "UznCXrHn";
+            "file" = "NoBlockRotations-26.1-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-ZwxwHjzdmHeGdzyuBJ4I1dmp7pU7aLktCNL2aWiNWQLUKAV5PyMsB+0WI334PQIaQT6AFpqBGv7d+WtzPr96Ug==";
+        };
+        _yoqSgygE = {
+            "id" = "yoqSgygE";
+            "file" = "NoBlockRotations-26.1.1-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-fKaOqg3VkU2ZJVsBgr752GH4qUFEupN4rTCWNhp/MZMzhnYT2WDyx9IKufzh+FgDg4hh8nPue0ldn+zciITW6A==";
+        };
+        _zHnLUjEP = {
+            "id" = "zHnLUjEP";
+            "file" = "NoBlockRotations-26.1.2-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-ZU5ikzNfKePT1xSsSArUFeOUL+ANGfjH58AHFGGSsJC7RGqtm8Et2++pApReOcsvwYIw+3YvGSfm3o5vCH9TGQ==";
+        };
+        _TlBGJ0HI = {
+            "id" = "TlBGJ0HI";
+            "file" = "NoBlockRotations-26.2-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-Eqyyje4GqZHRhXOOY0uR5NKa5tVmqbhSw06KAUOAvXwiYprpDB11IprSGgIaGTHW3GFb17Klx2jZoulP47myxA==";
+        };
+        _wHBAMlgC = {
+            "id" = "wHBAMlgC";
+            "file" = "NoBlockRotations-26.3-1.0.0-3daf0f1.zip";
+            "hash" = "sha512-F/GAK7MjGSlruW+XRUhG1QYR1uyrYr2mCM2glCzNK++MzpO18kWJf3Wg24loFDaXO+nXWXSExwn8Wjw5xc8spA==";
+        };
     in {
         "E2sZopR9" = _E2sZopR9;
         "JzgtjWRu" = _JzgtjWRu;
@@ -242,44 +432,83 @@ let
         "SMpNCLyy" = _SMpNCLyy;
         "OYZVHASw" = _OYZVHASw;
         "mFTXAg6j" = _mFTXAg6j;
-        "minecraft-1.21.9" = _lTidFyFm;
-        "minecraft-1.21.10" = _Xxhd6vfI;
-        "minecraft-1.21.7" = _znwnqni4;
-        "minecraft-1.21.8" = _ckXumJsp;
-        "minecraft-1.10" = _McDV1Dqi;
-        "minecraft-1.11" = _L4vB26rA;
-        "minecraft-1.12" = _l10MPyBP;
-        "minecraft-1.13" = _KqKl7aEX;
-        "minecraft-1.14" = _Jf99hgva;
-        "minecraft-1.15" = _MaeLzS0R;
-        "minecraft-1.16.2" = _FNfUxVFx;
-        "minecraft-1.16" = _wrsq7Vvf;
-        "minecraft-1.17" = _GqCBoy1E;
-        "minecraft-1.18" = _kCUa0E98;
-        "minecraft-1.19.3" = _7Iisavog;
-        "minecraft-1.19.4" = _JeBAmWTe;
-        "minecraft-1.19" = _gew5CcZP;
-        "minecraft-1.20.2" = _ns7KEc8v;
-        "minecraft-1.20.3" = _KEASt1rM;
-        "minecraft-1.20.4" = _3qVmpMFu;
-        "minecraft-1.20.5" = _dC8imj69;
-        "minecraft-1.20.6" = _BtqP3qbu;
-        "minecraft-1.20" = _lmjqVeex;
-        "minecraft-1.21.11" = _99yhbjQs;
-        "minecraft-1.21.1" = _YEOqsF7R;
-        "minecraft-1.21.2" = _fz1FMtdo;
-        "minecraft-1.21.3" = _m6zt3bd1;
-        "minecraft-1.21.4" = _FidnEbQI;
-        "minecraft-1.21.5" = _jnG4ArEp;
-        "minecraft-1.21.6" = _VRCZQDfE;
-        "minecraft-1.21" = _rNAypIMz;
-        "minecraft-1.8" = _15WYFFj6;
-        "minecraft-1.9" = _9orBEq6B;
-        "minecraft-26.1.1" = _MmQVPLHx;
-        "minecraft-26.1.2" = _pzzHS23i;
-        "minecraft-26.1" = _SMpNCLyy;
-        "minecraft-26.2" = _OYZVHASw;
+        "5TimQICv" = _5TimQICv;
+        "pkL7ggXB" = _pkL7ggXB;
+        "VnGUogAg" = _VnGUogAg;
+        "vJUGFiRK" = _vJUGFiRK;
+        "dtYmZ0Q0" = _dtYmZ0Q0;
+        "oRUa4AI9" = _oRUa4AI9;
+        "fH4j8lIO" = _fH4j8lIO;
+        "UjvgYMRF" = _UjvgYMRF;
+        "BZXQH398" = _BZXQH398;
+        "wOpHH6Rz" = _wOpHH6Rz;
+        "ka183fCs" = _ka183fCs;
+        "Zj5djnZD" = _Zj5djnZD;
+        "qjlyD6Vs" = _qjlyD6Vs;
+        "skVWASMI" = _skVWASMI;
+        "mnPXYKpk" = _mnPXYKpk;
+        "zZzPox28" = _zZzPox28;
+        "TH5qRwNl" = _TH5qRwNl;
+        "Av7H4u7H" = _Av7H4u7H;
+        "VJIJM1fK" = _VJIJM1fK;
+        "WTClWiJ7" = _WTClWiJ7;
+        "lvH5XCuO" = _lvH5XCuO;
+        "xMmCRp8P" = _xMmCRp8P;
+        "zI9FO4L3" = _zI9FO4L3;
+        "BTCJWBzt" = _BTCJWBzt;
+        "g2pm61XU" = _g2pm61XU;
+        "qot0gxzc" = _qot0gxzc;
+        "6u0sdlhy" = _6u0sdlhy;
+        "E9w7Fxu8" = _E9w7Fxu8;
+        "CbN6bXjs" = _CbN6bXjs;
+        "4JP5B6Jv" = _4JP5B6Jv;
+        "d3IYoFiW" = _d3IYoFiW;
+        "4uhREbPO" = _4uhREbPO;
+        "Snbj5WnQ" = _Snbj5WnQ;
+        "UznCXrHn" = _UznCXrHn;
+        "yoqSgygE" = _yoqSgygE;
+        "zHnLUjEP" = _zHnLUjEP;
+        "TlBGJ0HI" = _TlBGJ0HI;
+        "wHBAMlgC" = _wHBAMlgC;
+        "minecraft-1.21.9" = _d3IYoFiW;
+        "minecraft-1.21.10" = _xMmCRp8P;
+        "minecraft-1.21.7" = _CbN6bXjs;
+        "minecraft-1.21.8" = _4JP5B6Jv;
+        "minecraft-1.10" = _5TimQICv;
+        "minecraft-1.11" = _pkL7ggXB;
+        "minecraft-1.12" = _VnGUogAg;
+        "minecraft-1.13" = _vJUGFiRK;
+        "minecraft-1.14" = _dtYmZ0Q0;
+        "minecraft-1.15" = _oRUa4AI9;
+        "minecraft-1.16.2" = _UjvgYMRF;
+        "minecraft-1.16" = _fH4j8lIO;
+        "minecraft-1.17" = _BZXQH398;
+        "minecraft-1.18" = _wOpHH6Rz;
+        "minecraft-1.19.3" = _Zj5djnZD;
+        "minecraft-1.19.4" = _qjlyD6Vs;
+        "minecraft-1.19" = _ka183fCs;
+        "minecraft-1.20.2" = _mnPXYKpk;
+        "minecraft-1.20.3" = _zZzPox28;
+        "minecraft-1.20.4" = _TH5qRwNl;
+        "minecraft-1.20.5" = _Av7H4u7H;
+        "minecraft-1.20.6" = _VJIJM1fK;
+        "minecraft-1.20" = _skVWASMI;
+        "minecraft-1.21.11" = _zI9FO4L3;
+        "minecraft-1.21.1" = _lvH5XCuO;
+        "minecraft-1.21.2" = _BTCJWBzt;
+        "minecraft-1.21.3" = _g2pm61XU;
+        "minecraft-1.21.4" = _qot0gxzc;
+        "minecraft-1.21.5" = _6u0sdlhy;
+        "minecraft-1.21.6" = _E9w7Fxu8;
+        "minecraft-1.21" = _WTClWiJ7;
+        "minecraft-1.8" = _4uhREbPO;
+        "minecraft-1.9" = _Snbj5WnQ;
+        "minecraft-26.1.1" = _yoqSgygE;
+        "minecraft-26.1.2" = _zHnLUjEP;
+        "minecraft-26.1" = _UznCXrHn;
+        "minecraft-26.2" = _TlBGJ0HI;
         "minecraft-26.3-snapshot-5" = _mFTXAg6j;
+        "minecraft-26.3" = _wHBAMlgC;
         "pkg-1.21.10-1.0.0" = _E2sZopR9;
         "pkg-1.21.8-1.0.0" = _JzgtjWRu;
         "pkg-ae90005.dirty+1.10" = _McDV1Dqi;
@@ -320,7 +549,45 @@ let
         "pkg-ae90005.dirty+26.1" = _SMpNCLyy;
         "pkg-ae90005.dirty+26.2" = _OYZVHASw;
         "pkg-ae90005.dirty+26.3" = _mFTXAg6j;
-        "default" = _mFTXAg6j;
+        "pkg-1.10-1.0.0-3daf0f1" = _5TimQICv;
+        "pkg-1.11-1.0.0-3daf0f1" = _pkL7ggXB;
+        "pkg-1.12-1.0.0-3daf0f1" = _VnGUogAg;
+        "pkg-1.13-1.0.0-3daf0f1" = _vJUGFiRK;
+        "pkg-1.14-1.0.0-3daf0f1" = _dtYmZ0Q0;
+        "pkg-1.15-1.0.0-3daf0f1" = _oRUa4AI9;
+        "pkg-1.16-1.0.0-3daf0f1" = _fH4j8lIO;
+        "pkg-1.16.2-1.0.0-3daf0f1" = _UjvgYMRF;
+        "pkg-1.17-1.0.0-3daf0f1" = _BZXQH398;
+        "pkg-1.18-1.0.0-3daf0f1" = _wOpHH6Rz;
+        "pkg-1.19-1.0.0-3daf0f1" = _ka183fCs;
+        "pkg-1.19.3-1.0.0-3daf0f1" = _Zj5djnZD;
+        "pkg-1.19.4-1.0.0-3daf0f1" = _qjlyD6Vs;
+        "pkg-1.20-1.0.0-3daf0f1" = _skVWASMI;
+        "pkg-1.20.2-1.0.0-3daf0f1" = _mnPXYKpk;
+        "pkg-1.20.3-1.0.0-3daf0f1" = _zZzPox28;
+        "pkg-1.20.4-1.0.0-3daf0f1" = _TH5qRwNl;
+        "pkg-1.20.5-1.0.0-3daf0f1" = _Av7H4u7H;
+        "pkg-1.20.6-1.0.0-3daf0f1" = _VJIJM1fK;
+        "pkg-1.21-1.0.0-3daf0f1" = _WTClWiJ7;
+        "pkg-1.21.1-1.0.0-3daf0f1" = _lvH5XCuO;
+        "pkg-1.21.10-1.0.0-3daf0f1" = _xMmCRp8P;
+        "pkg-1.21.11-1.0.0-3daf0f1" = _zI9FO4L3;
+        "pkg-1.21.2-1.0.0-3daf0f1" = _BTCJWBzt;
+        "pkg-1.21.3-1.0.0-3daf0f1" = _g2pm61XU;
+        "pkg-1.21.4-1.0.0-3daf0f1" = _qot0gxzc;
+        "pkg-1.21.5-1.0.0-3daf0f1" = _6u0sdlhy;
+        "pkg-1.21.6-1.0.0-3daf0f1" = _E9w7Fxu8;
+        "pkg-1.21.7-1.0.0-3daf0f1" = _CbN6bXjs;
+        "pkg-1.21.8-1.0.0-3daf0f1" = _4JP5B6Jv;
+        "pkg-1.21.9-1.0.0-3daf0f1" = _d3IYoFiW;
+        "pkg-1.8-1.0.0-3daf0f1" = _4uhREbPO;
+        "pkg-1.9-1.0.0-3daf0f1" = _Snbj5WnQ;
+        "pkg-26.1-1.0.0-3daf0f1" = _UznCXrHn;
+        "pkg-26.1.1-1.0.0-3daf0f1" = _yoqSgygE;
+        "pkg-26.1.2-1.0.0-3daf0f1" = _zHnLUjEP;
+        "pkg-26.2-1.0.0-3daf0f1" = _TlBGJ0HI;
+        "pkg-26.3-1.0.0-3daf0f1" = _wHBAMlgC;
+        "default" = _wHBAMlgC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noblockrotations";

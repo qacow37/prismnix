@@ -41,6 +41,16 @@ let
             "file" = "HeartCrystals.jar";
             "hash" = "sha512-PdGN5XUqhMk/ntjWbYcvTNPfAbeEQfywb67EZRL92l+9GZeGNV2jUI36B12aUxfGSxkjO+576EfqhWpWTfZ3Pg==";
         };
+        _MFZU3coM = {
+            "id" = "MFZU3coM";
+            "file" = "HeartCrystals.jar";
+            "hash" = "sha512-dFpNYUaomcUHUdjaX2bWekayN9rDOPuFOYbVRazkpYjA+By3KkJXeoxQ/o1pzhB5759OS8ccCH6ErUmCz0PgSA==";
+        };
+        _JLY7kKcK = {
+            "id" = "JLY7kKcK";
+            "file" = "HeartCrystals.jar";
+            "hash" = "sha512-3GOsx2TekTnZKwEdVPpiSiy3UFwNGi3ZuYYOy7RmisKOYu0TX60qQOQeCm+NJsfUDwJmSD3FXhOiTUQeyYvkmA==";
+        };
     in {
         "hiam9jnx" = _hiam9jnx;
         "xGJrnlNF" = _xGJrnlNF;
@@ -50,10 +60,12 @@ let
         "IrA3iTG0" = _IrA3iTG0;
         "hD9rOpL2" = _hD9rOpL2;
         "xMUYZ0yV" = _xMUYZ0yV;
+        "MFZU3coM" = _MFZU3coM;
+        "JLY7kKcK" = _JLY7kKcK;
         "fabric-1.20.1" = _hiam9jnx;
         "fabric-1.21.1" = _IrA3iTG0;
-        "fabric-26.2" = _hD9rOpL2;
-        "fabric-26.3" = _xMUYZ0yV;
+        "fabric-26.2" = _JLY7kKcK;
+        "fabric-26.3" = _MFZU3coM;
         "forge-1.20.1" = _xGJrnlNF;
         "neoforge-1.20.1" = _xGJrnlNF;
         "neoforge-1.21.1" = _dQenGn1w;
@@ -63,7 +75,9 @@ let
         "pkg-1.0.1-1.21" = _IrA3iTG0;
         "pkg-1.0.1-26.2" = _hD9rOpL2;
         "pkg-1.0.1-26.3" = _xMUYZ0yV;
-        "default" = _xMUYZ0yV;
+        "pkg-1.0.4-26.3" = _MFZU3coM;
+        "pkg-1.0.4-26.2" = _JLY7kKcK;
+        "default" = _JLY7kKcK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heart-crystals";

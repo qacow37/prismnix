@@ -141,6 +141,11 @@ let
             "file" = "assorted-discoveries-fabric-4.5.1+26.3.jar";
             "hash" = "sha512-DbUyCRd8adhk0KTEdhQht82fRusEvl26ReT3KgQg42CY9pg3+BfqkC2fTfLNvQVFRzWS8O3F5N7T3+t1YIQgRQ==";
         };
+        _nhFg3y9V = {
+            "id" = "nhFg3y9V";
+            "file" = "assorted-discoveries-fabric-4.4.2+26.2.jar";
+            "hash" = "sha512-ZWD9dOoSfyDf1RFhUTLyhAy4D/oS0oJ/0VGX23lRMnfOMCLK9jpnnaYB5/+gjHVF75qQijpiqGdDRjCoCuhv7A==";
+        };
     in {
         "WXDqB6KS" = _WXDqB6KS;
         "rXKQNIuu" = _rXKQNIuu;
@@ -170,11 +175,12 @@ let
         "Yn53pg3m" = _Yn53pg3m;
         "4KKbgM7B" = _4KKbgM7B;
         "8ckk8iRC" = _8ckk8iRC;
+        "nhFg3y9V" = _nhFg3y9V;
         "fabric-1.21.11" = _4KKbgM7B;
         "fabric-26.1" = _WalpgmVw;
         "fabric-26.1.1" = _WalpgmVw;
         "fabric-26.1.2" = _WalpgmVw;
-        "fabric-26.2" = _Yn53pg3m;
+        "fabric-26.2" = _nhFg3y9V;
         "fabric-26.3" = _8ckk8iRC;
         "pkg-3.0.0" = _WXDqB6KS;
         "pkg-3.0.1" = _rXKQNIuu;
@@ -204,7 +210,8 @@ let
         "pkg-4.4.1+26.2" = _Yn53pg3m;
         "pkg-3.3.0+1.21.11" = _4KKbgM7B;
         "pkg-4.5.1+26.3" = _8ckk8iRC;
-        "default" = _8ckk8iRC;
+        "pkg-4.4.2+26.2" = _nhFg3y9V;
+        "default" = _nhFg3y9V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assorted-discoveries";

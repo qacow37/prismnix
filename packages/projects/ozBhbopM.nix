@@ -46,6 +46,16 @@ let
             "file" = "theemporium-lunarobservatoryset-forge-1.20.1.jar";
             "hash" = "sha512-3/++f5c82qkFag3OA1kwQ+SVpxctMlFlPuXI4SwUnQfMwss5ZoU9BApyrTGvD0B29EUea818eBehGXMiJGy73Q==";
         };
+        _iECn2Omq = {
+            "id" = "iECn2Omq";
+            "file" = "theemporium-1.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-xslcaWmAonAY03/ezdk/vXoki3FExxoW3wWpUbG2cof0EIan1Gx52w9j8EQkr752xJGY7wuy41ltcR8b62yGpg==";
+        };
+        _YNg0fe61 = {
+            "id" = "YNg0fe61";
+            "file" = "theemporium-lunarobservatorysetpatch-forge-1.20.1.jar";
+            "hash" = "sha512-dxydkUUgLIGkj90IXBOYIHdKm4C5zs2E2DDWRgmrYFgZg7gYVtcR0naAEgJ4hg8JeB3HmvSlTgQNUeH2y3nT+Q==";
+        };
     in {
         "KfLLkaWJ" = _KfLLkaWJ;
         "8N3uwggm" = _8N3uwggm;
@@ -56,10 +66,13 @@ let
         "iSHBkXfM" = _iSHBkXfM;
         "tkJpFley" = _tkJpFley;
         "pI4Oqujm" = _pI4Oqujm;
+        "iECn2Omq" = _iECn2Omq;
+        "YNg0fe61" = _YNg0fe61;
         "forge-1.16.5" = _KfLLkaWJ;
         "forge-1.18.2" = _8N3uwggm;
-        "forge-1.20.1" = _pI4Oqujm;
-        "pkg-1.0.0" = _8N3uwggm;
+        "forge-1.20.1" = _YNg0fe61;
+        "neoforge-1.21.1" = _iECn2Omq;
+        "pkg-1.0.0" = _iECn2Omq;
         "pkg-2" = _jwHZCtYI;
         "pkg-2.5" = _RT7XuiNt;
         "pkg-2.6" = _3XuD6zJP;
@@ -67,7 +80,8 @@ let
         "pkg-2.8" = _iSHBkXfM;
         "pkg-2.9" = _tkJpFley;
         "pkg-3.0" = _pI4Oqujm;
-        "default" = _pI4Oqujm;
+        "pkg-3.1" = _YNg0fe61;
+        "default" = _YNg0fe61;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "theemporium";

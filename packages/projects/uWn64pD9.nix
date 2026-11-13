@@ -71,6 +71,16 @@ let
             "file" = "createharmonics-neoforge-1.21.1-1.1.7.jar";
             "hash" = "sha512-86IxDR2ci2KNUPpB4/0n4t4feLdInQUAHbjrFOKk4MY4aHDJgTQ19xClQ7b7Wth2RuD6l00ajyIRRN4iXnjEwA==";
         };
+        _ISb0zGBu = {
+            "id" = "ISb0zGBu";
+            "file" = "createharmonics-neoforge-1.21.1-1.1.8.jar";
+            "hash" = "sha512-hsEz+1b1Pvv4OZJWrRuBFL1LfftEZTqW7pjOHc4E2nZbu2J8kypzKLIGOiH0ib9w1kaHI1m9iayJ4JnLrc5gYg==";
+        };
+        _qQNDSE6F = {
+            "id" = "qQNDSE6F";
+            "file" = "createharmonics-forge-1.20.1-1.1.8.jar";
+            "hash" = "sha512-YWJiV1RaWRcWn/wZatwg58HPKbOe5WvxVQMV91rcQmTD2I2FrZNtgvZPmuf8QMJQQqdC9bKZzsOoMaYoJFHgpQ==";
+        };
     in {
         "SlOZe92n" = _SlOZe92n;
         "qFTZy4Qx" = _qFTZy4Qx;
@@ -86,13 +96,15 @@ let
         "tt6ymra7" = _tt6ymra7;
         "4wXz1eqc" = _4wXz1eqc;
         "siTn4nXm" = _siTn4nXm;
-        "forge-1.20.1" = _4wXz1eqc;
+        "ISb0zGBu" = _ISb0zGBu;
+        "qQNDSE6F" = _qQNDSE6F;
+        "forge-1.20.1" = _qQNDSE6F;
         "forge-1.20.2" = _bgg2r0Uo;
         "forge-1.20.3" = _bgg2r0Uo;
         "forge-1.20.4" = _bgg2r0Uo;
         "forge-1.20.5" = _bgg2r0Uo;
         "forge-1.20.6" = _bgg2r0Uo;
-        "neoforge-1.21.1" = _siTn4nXm;
+        "neoforge-1.21.1" = _ISb0zGBu;
         "pkg-1.0.0" = _SlOZe92n;
         "pkg-1.1.0" = _qFTZy4Qx;
         "pkg-1.1.1" = _i7DeqkVX;
@@ -102,7 +114,8 @@ let
         "pkg-1.1.5" = _qA5yeZ6E;
         "pkg-1.1.6" = _tt6ymra7;
         "pkg-1.1.7" = _siTn4nXm;
-        "default" = _siTn4nXm;
+        "pkg-1.1.8" = _qQNDSE6F;
+        "default" = _qQNDSE6F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-harmonics";

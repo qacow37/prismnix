@@ -21,22 +21,30 @@ let
             "file" = "colored-copper-lanterns-1.0.0+26.2.jar";
             "hash" = "sha512-wTbzAAEnnqjsN9SxBXDQBF5buef7BLfvT8s6JWsKPvONZZl4e09QPDkDp2qP3Dmhxksm2IJeP8bGFZ2JflvNyA==";
         };
+        _WhXPolQE = {
+            "id" = "WhXPolQE";
+            "file" = "colored-copper-lanterns-1.0.0+26.3.jar";
+            "hash" = "sha512-VN8YFEEg/h2pOmz3FkpuuPCTrjG6RCS0k2VdjCahsPPR7juEeHEn1l1Jq8AtUMQYi41CJoUQlHkKodcHh3Xurw==";
+        };
     in {
         "VZKGlLqD" = _VZKGlLqD;
         "u0t7Fqfz" = _u0t7Fqfz;
         "NJUJnclv" = _NJUJnclv;
         "qdYNz1eX" = _qdYNz1eX;
+        "WhXPolQE" = _WhXPolQE;
         "fabric-1.21.10" = _VZKGlLqD;
         "fabric-1.21.11" = _u0t7Fqfz;
         "fabric-26.1" = _NJUJnclv;
         "fabric-26.1.1" = _NJUJnclv;
         "fabric-26.1.2" = _NJUJnclv;
         "fabric-26.2" = _qdYNz1eX;
+        "fabric-26.3" = _WhXPolQE;
         "quilt-1.21.10" = _VZKGlLqD;
         "pkg-1.0.0+1.21.10" = _VZKGlLqD;
         "pkg-1.0.0" = _NJUJnclv;
         "pkg-1.0.0+26.2" = _qdYNz1eX;
-        "default" = _qdYNz1eX;
+        "pkg-1.0.0+26.3" = _WhXPolQE;
+        "default" = _WhXPolQE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-copper-lanterns";

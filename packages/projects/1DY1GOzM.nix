@@ -376,6 +376,11 @@ let
             "file" = "dmc_improvements-5.0.5-neoforge-26.3.jar";
             "hash" = "sha512-rVtsn0y14OfPoltbKbbzkVhSsrT2Fa/0QQyn53mEh4UxxOwimDuvPMCRVyqdfi1Urmo8fG81cFu9l8iC2pm0Zw==";
         };
+        _CrHILJ7w = {
+            "id" = "CrHILJ7w";
+            "file" = "dmc_improvements-5.0.6-neoforge-26.3.jar";
+            "hash" = "sha512-lgbecptjUytMDbG0plEz5ETy3LJf36vzn9/5MLOg//RO9ykSTtSKZOd3BkxzsNgUb7KaWM2guYE4urLKrI0PBQ==";
+        };
     in {
         "suWUoGhj" = _suWUoGhj;
         "gJN8EwCU" = _gJN8EwCU;
@@ -452,11 +457,12 @@ let
         "pNxSylpA" = _pNxSylpA;
         "PqGO83Pb" = _PqGO83Pb;
         "fz2BMusN" = _fz2BMusN;
+        "CrHILJ7w" = _CrHILJ7w;
         "neoforge-1.21.1" = _GiJ5k73U;
         "neoforge-1.21.4" = _RVZaPCZF;
         "neoforge-1.21.8" = _tVyLsm1v;
         "neoforge-26.1.2" = _U6N9KF6z;
-        "neoforge-26.3" = _fz2BMusN;
+        "neoforge-26.3" = _CrHILJ7w;
         "forge-1.20.1" = _fzbmjTPR;
         "pkg-1.0.1" = _suWUoGhj;
         "pkg-1.1.0" = _gJN8EwCU;
@@ -533,7 +539,8 @@ let
         "pkg-5.0.3" = _pNxSylpA;
         "pkg-5.0.4" = _PqGO83Pb;
         "pkg-5.0.5" = _fz2BMusN;
-        "default" = _fz2BMusN;
+        "pkg-5.0.6" = _CrHILJ7w;
+        "default" = _CrHILJ7w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dmc-improvements";

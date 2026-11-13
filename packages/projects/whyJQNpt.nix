@@ -56,6 +56,11 @@ let
             "file" = "Coordinates-1.2.2.zip";
             "hash" = "sha512-L9F9UvdSTlPk4g8ycpA9H945BfvfJsmPXeB/pAHwiRla7CWrzMTE0F40xyURffEOrpv6ZE4aDsUztdunRcEtgQ==";
         };
+        _YYhvYlnI = {
+            "id" = "YYhvYlnI";
+            "file" = "Coordinates-1.2.3.zip";
+            "hash" = "sha512-HVqFtNjbyRfT+56hWyKbAmULc5T0qmA7o1blexoibxiYNeEIC8zqUBwYd2cdVrgojDZQEgPZLUYuds1dPnpbhg==";
+        };
     in {
         "XIyZceI5" = _XIyZceI5;
         "g4AyZJQw" = _g4AyZJQw;
@@ -68,6 +73,7 @@ let
         "QVYnkQJA" = _QVYnkQJA;
         "9tdXCz9G" = _9tdXCz9G;
         "GtMTmIdJ" = _GtMTmIdJ;
+        "YYhvYlnI" = _YYhvYlnI;
         "datapack-1.21" = _wuVTG2kt;
         "datapack-1.21.1" = _wuVTG2kt;
         "datapack-1.21.2" = _wuVTG2kt;
@@ -84,7 +90,7 @@ let
         "datapack-26.1.1" = _GtMTmIdJ;
         "datapack-26.1.2" = _GtMTmIdJ;
         "datapack-26.2" = _GtMTmIdJ;
-        "datapack-26.3" = _GtMTmIdJ;
+        "datapack-26.3" = _YYhvYlnI;
         "fabric-1.21" = _4xthzTO3;
         "fabric-1.21.1" = _4xthzTO3;
         "fabric-1.21.2" = _4xthzTO3;
@@ -156,7 +162,8 @@ let
         "pkg-1.2.1" = _QVYnkQJA;
         "pkg-1.2.1+mod" = _9tdXCz9G;
         "pkg-1.2.2" = _GtMTmIdJ;
-        "default" = _GtMTmIdJ;
+        "pkg-1.2.3" = _YYhvYlnI;
+        "default" = _YYhvYlnI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hotbarcoordinates";

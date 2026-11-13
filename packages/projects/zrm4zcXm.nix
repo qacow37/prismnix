@@ -31,6 +31,11 @@ let
             "file" = "fly_high-1.21.1-2.0.0-all.jar";
             "hash" = "sha512-CAvtZKHb6HjSqSAs/RkXmC5v5zO1uMPCxWG6tpPdc7ozlFRmEvvcLePzlEyzRsNUz/ELaPl0IiBdFCeaUMJDwA==";
         };
+        _iU5QOdhE = {
+            "id" = "iU5QOdhE";
+            "file" = "fly_high-1-21.11-2.0.0.jar";
+            "hash" = "sha512-RTS5qrLu7J1Ug9ZEWj+ds9oJdVJdBoLCJ6q9V4ttr0gNpiZePDZS+/n1MNQA4Whnwb8L8AS0WnyD2HUkNbV8OA==";
+        };
     in {
         "zxPjcTp3" = _zxPjcTp3;
         "NloMlKMh" = _NloMlKMh;
@@ -38,16 +43,19 @@ let
         "iVWV8nod" = _iVWV8nod;
         "2czKZyVv" = _2czKZyVv;
         "7P24EW2b" = _7P24EW2b;
+        "iU5QOdhE" = _iU5QOdhE;
         "forge-1.20.1" = _2czKZyVv;
         "neoforge-1.20.1" = _2czKZyVv;
         "neoforge-1.21.1" = _7P24EW2b;
+        "neoforge-1.21.11" = _iU5QOdhE;
         "pkg-1.0.0" = _zxPjcTp3;
         "pkg-1.0.1" = _NloMlKMh;
         "pkg-1.0.2" = _lLX7X85A;
         "pkg-1.1.0" = _iVWV8nod;
         "pkg-1.1.1" = _2czKZyVv;
         "pkg-2.0.0" = _7P24EW2b;
-        "default" = _7P24EW2b;
+        "pkg-1-21.11-2.0.0" = _iU5QOdhE;
+        "default" = _iU5QOdhE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fly-high";

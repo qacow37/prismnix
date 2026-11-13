@@ -356,6 +356,11 @@ let
             "file" = "animated_totem_fullsize_emissive_totem_outline_26.1.x.zip";
             "hash" = "sha512-JvG+jR+Qgn6zdWIljicXrna6Fism/4dX0Tnu6RZHbjzj8i0U29gUH61tbg8zWY/qpN4DvGYhtudi12aM6F08XA==";
         };
+        _moWzZqCL = {
+            "id" = "moWzZqCL";
+            "file" = "animated-totem-respackopts-26_1_x.zip";
+            "hash" = "sha512-S9QNfgCNrPbUw3M3WAb5NYu/fk/fH3NhwwhIcWzs3/aGdh33VANPj9tNKqcLEsBiqzjlr7wx4HzpgEzmc/J5jA==";
+        };
     in {
         "w5ICyoTG" = _w5ICyoTG;
         "DRPS7R7d" = _DRPS7R7d;
@@ -428,6 +433,7 @@ let
         "DrKDc8a2" = _DrKDc8a2;
         "Z5KVASMN" = _Z5KVASMN;
         "kqfSvM7n" = _kqfSvM7n;
+        "moWzZqCL" = _moWzZqCL;
         "minecraft-1.20.1" = _R8VMEXt4;
         "minecraft-1.20.2" = _R8VMEXt4;
         "minecraft-1.20.3" = _R8VMEXt4;
@@ -447,11 +453,11 @@ let
         "minecraft-1.21.9" = _R8VMEXt4;
         "minecraft-1.21.10" = _R8VMEXt4;
         "minecraft-1.21.11" = _R8VMEXt4;
-        "minecraft-26.1" = _kqfSvM7n;
-        "minecraft-26.1.1" = _kqfSvM7n;
-        "minecraft-26.1.2" = _kqfSvM7n;
-        "minecraft-26.2" = _kqfSvM7n;
-        "minecraft-26.3" = _kqfSvM7n;
+        "minecraft-26.1" = _moWzZqCL;
+        "minecraft-26.1.1" = _moWzZqCL;
+        "minecraft-26.1.2" = _moWzZqCL;
+        "minecraft-26.2" = _moWzZqCL;
+        "minecraft-26.3" = _moWzZqCL;
         "pkg-1.0" = _II6MQ3FZ;
         "pkg-1.0.0" = _ymSDcmH1;
         "pkg-1.0.1" = _85szBlvd;
@@ -468,7 +474,8 @@ let
         "pkg-1.1.2" = _R8VMEXt4;
         "pkg-1.1.3" = _4HauO6Ys;
         "pkg-1.1.4" = _kqfSvM7n;
-        "default" = _kqfSvM7n;
+        "pkg-1.1.5" = _moWzZqCL;
+        "default" = _moWzZqCL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-totem-of-undying";

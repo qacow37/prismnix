@@ -1766,6 +1766,11 @@ let
             "file" = "physics-mod-3.0.35-mc-1.21.1-fabric.jar";
             "hash" = "sha512-fCmVu6TAmPXZx2KXCH6BdYsILFqMNSpZBbuiiK+LBADKI5Ey+1xGr8qMP5WA5B/JrPKN4+vUui3QWGi400fM6w==";
         };
+        _R9776XnS = {
+            "id" = "R9776XnS";
+            "file" = "physics-mod-3.2.5-mc-26.4-snapshot-8-fabric.jar";
+            "hash" = "sha512-1kglXCL5ffYlH6x7jP3A5CcpPsyUTrd2PwnziJiXM5b9zSf/vthQu8RP+/NHh2ExwPUADm4GL0omCbZ4RsHBQQ==";
+        };
     in {
         "qBCMrSKV" = _qBCMrSKV;
         "hXAUGz57" = _hXAUGz57;
@@ -2120,6 +2125,7 @@ let
         "uwdP5Uid" = _uwdP5Uid;
         "wudTG1nk" = _wudTG1nk;
         "iVnZdLtE" = _iVnZdLtE;
+        "R9776XnS" = _R9776XnS;
         "fabric-1.18.2" = _tfJjgLZC;
         "fabric-1.16.5" = _zrY7WNa3;
         "fabric-1.19" = _H8zkqjX7;
@@ -2215,6 +2221,7 @@ let
         "fabric-26.4-snapshot-5" = _6oEPuWGc;
         "fabric-26.4-snapshot-6" = _Tj0Ucnf6;
         "fabric-26.4-snapshot-7" = _uwdP5Uid;
+        "fabric-26.4-snapshot-8" = _R9776XnS;
         "quilt-1.18.2" = _tfJjgLZC;
         "quilt-1.16.5" = _zrY7WNa3;
         "quilt-1.19" = _H8zkqjX7;
@@ -2308,6 +2315,7 @@ let
         "quilt-26.4-snapshot-5" = _6oEPuWGc;
         "quilt-26.4-snapshot-6" = _Tj0Ucnf6;
         "quilt-26.4-snapshot-7" = _uwdP5Uid;
+        "quilt-26.4-snapshot-8" = _R9776XnS;
         "forge-1.18.2" = _pvae8vlw;
         "forge-1.17.1" = _aqDyN46T;
         "forge-1.16.5" = _1jiaF34y;
@@ -2447,9 +2455,9 @@ let
         "pkg-3.2.4" = _LDCTDMLj;
         "pkg-3.0.33" = _aDn7qF9R;
         "pkg-3.0.34" = _ZhWEOiAq;
-        "pkg-3.2.5" = _uwdP5Uid;
+        "pkg-3.2.5" = _R9776XnS;
         "pkg-3.0.35" = _iVnZdLtE;
-        "default" = _iVnZdLtE;
+        "default" = _R9776XnS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "physicsmod";

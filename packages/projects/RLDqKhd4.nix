@@ -5981,6 +5981,11 @@ let
             "file" = "lifeseries-1.5.10+26.4-snapshot-7-fabric.jar";
             "hash" = "sha512-KR/mx3yvUFqspJAkcVjF0hDRpQ6SSzCC6NSbXTjAt0HBlsiDiyEOUeN7skCm+MO6CcAL7OCc4YRlWndTM/eFqw==";
         };
+        _9xQ1Hvpe = {
+            "id" = "9xQ1Hvpe";
+            "file" = "lifeseries-1.5.10+26.4-snapshot-8-fabric.jar";
+            "hash" = "sha512-jcHvl6xfm9bItN1z0b0Tmq4OKYAsq1RMz1lXX/+DxsIWStWlPFGssyFLpLKjaGwPTP3zK5rF+ftnlhXAR6kakQ==";
+        };
     in {
         "Pl4WbLrB" = _Pl4WbLrB;
         "TCDiw70e" = _TCDiw70e;
@@ -7178,6 +7183,7 @@ let
         "Mmc9KGca" = _Mmc9KGca;
         "XYbIfKqG" = _XYbIfKqG;
         "j7SJqN9m" = _j7SJqN9m;
+        "9xQ1Hvpe" = _9xQ1Hvpe;
         "fabric-1.21" = _j6exMxTG;
         "fabric-1.21.1" = _j6exMxTG;
         "fabric-1.21.2" = _a0qKI7cP;
@@ -7256,6 +7262,7 @@ let
         "fabric-26.4-snapshot-5" = _QyEbL7OB;
         "fabric-26.4-snapshot-6" = _XYbIfKqG;
         "fabric-26.4-snapshot-7" = _j7SJqN9m;
+        "fabric-26.4-snapshot-8" = _9xQ1Hvpe;
         "forge-1.20" = _tmmDP22A;
         "forge-1.20.1" = _tmmDP22A;
         "forge-1.20.5" = _wsb54uCl;
@@ -7357,6 +7364,7 @@ let
         "quilt-26.4-snapshot-5" = _QyEbL7OB;
         "quilt-26.4-snapshot-6" = _XYbIfKqG;
         "quilt-26.4-snapshot-7" = _j7SJqN9m;
+        "quilt-26.4-snapshot-8" = _9xQ1Hvpe;
         "pkg-dev-1.3.6.10+1.21" = _Pl4WbLrB;
         "pkg-dev-1.3.6.10+1.21.2" = _TCDiw70e;
         "pkg-dev-1.3.6.10+1.21.4" = _KiOyb4nX;
@@ -8550,7 +8558,8 @@ let
         "pkg-fabric-1.5.10-pre1+26.3" = _Mmc9KGca;
         "pkg-fabric-1.5.9+26.4-snapshot-6" = _XYbIfKqG;
         "pkg-fabric-1.5.10+26.4-snapshot-7" = _j7SJqN9m;
-        "default" = _j7SJqN9m;
+        "pkg-fabric-1.5.10+26.4-snapshot-8" = _9xQ1Hvpe;
+        "default" = _9xQ1Hvpe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "life-series-dev";

@@ -41,6 +41,21 @@ let
             "file" = "piechart-1.1+26.3-quilt.jar";
             "hash" = "sha512-WVGwswcvlRs4gF7kqBRB5yeleCdukU9EImHckFACuseNB+i8xqntJMvoxtD9NEqpuAc92cOTzEpSFj8UP/xJ6w==";
         };
+        _8LJIU9rv = {
+            "id" = "8LJIU9rv";
+            "file" = "piechart-2.0+26.3-fabric.jar";
+            "hash" = "sha512-3VbVdmuxdbBVgv8DAC/VP0lai7rrwuWdpim5EFttIZGqUCQinGU+z/EdHw7573MftF4AUwAbIBGb2mpf9d2sLA==";
+        };
+        _5MXBWFvj = {
+            "id" = "5MXBWFvj";
+            "file" = "piechart-2.0+26.3-neoforge.jar";
+            "hash" = "sha512-1Toj2E04wFF3A5qDQfvghIcZuRN5lKO9Nssa0JiY8WYbxi6HKdq9/chCFfF8lxqW/nOOkKefA/rZsHfXbekeJQ==";
+        };
+        _SHW4hnRX = {
+            "id" = "SHW4hnRX";
+            "file" = "piechart-2.0+26.3-quilt.jar";
+            "hash" = "sha512-lW6hdGMhjvFyel7RC/DMXyqnJHrcrgLRzeBgwmLoBdBP6ExvPFQrBfRJ73clmaDimsHgfPsteIwqNy6pC4BtHQ==";
+        };
     in {
         "4VruRLiL" = _4VruRLiL;
         "IWtqs2zs" = _IWtqs2zs;
@@ -50,21 +65,25 @@ let
         "qe279UHu" = _qe279UHu;
         "cHRpH6KI" = _cHRpH6KI;
         "8bkCrDP2" = _8bkCrDP2;
+        "8LJIU9rv" = _8LJIU9rv;
+        "5MXBWFvj" = _5MXBWFvj;
+        "SHW4hnRX" = _SHW4hnRX;
         "fabric-1.21.11" = _4VruRLiL;
         "fabric-26.1" = _IWtqs2zs;
         "fabric-26.1.1" = _UI36XYW0;
         "fabric-26.1.2" = _71z4J07K;
         "fabric-26.2" = _oIdvrFmd;
-        "fabric-26.3" = _qe279UHu;
-        "neoforge-26.3" = _cHRpH6KI;
-        "quilt-26.3" = _8bkCrDP2;
+        "fabric-26.3" = _8LJIU9rv;
+        "neoforge-26.3" = _5MXBWFvj;
+        "quilt-26.3" = _SHW4hnRX;
         "pkg-1.1+1.21.11" = _4VruRLiL;
         "pkg-1.1+26.1" = _IWtqs2zs;
         "pkg-1.1+26.1.1" = _UI36XYW0;
         "pkg-1.1+26.1.2" = _71z4J07K;
         "pkg-1.1+26.2" = _oIdvrFmd;
         "pkg-1.1+26.3" = _8bkCrDP2;
-        "default" = _8bkCrDP2;
+        "pkg-2.0+26.3" = _SHW4hnRX;
+        "default" = _SHW4hnRX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "piechart";

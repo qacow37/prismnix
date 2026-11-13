@@ -161,6 +161,41 @@ let
             "file" = "immersiveminimaps-1.2.5+26.2-neoforge.jar";
             "hash" = "sha512-bkEwEgiXdPSocGolZYN9Ls3KoYMDtkLLoNnC/Pj9h4kO334ztwXyfu2duKcIKtOon/fQsfM0+6IsYip25UZYtg==";
         };
+        _iaX9OVzP = {
+            "id" = "iaX9OVzP";
+            "file" = "immersiveminimaps-1.2.6+1.20.1-fabric.jar";
+            "hash" = "sha512-4qtxs0FuWaXSLgNamn7BCiH/sot+U0pTkB9QLQ+soU2V3DAMbiNohnC13Hi0/M1kHeRRRIfaylwopTEaKP8gWw==";
+        };
+        _XJ2lJnfX = {
+            "id" = "XJ2lJnfX";
+            "file" = "immersiveminimaps-1.2.6+1.21.1-fabric.jar";
+            "hash" = "sha512-GeEfVNybuTqc+tZZvVuEZvNFt+pQ/KYnZFMpQhQ2EAPcuA0X6OsSZm3qEYxudmZtgzJ2C9iozCY40EDvOy/u0g==";
+        };
+        _jLtUKges = {
+            "id" = "jLtUKges";
+            "file" = "immersiveminimaps-1.2.6+26.1.2-fabric.jar";
+            "hash" = "sha512-kHk9lELBh8dWqBgCeg1ce3eN+5CydDdBpwhkpT7TgIpFLLkWIG3iwvVQ4taT/BaRXjd3jM7yHlwmqlx929qT1g==";
+        };
+        _HZUYszej = {
+            "id" = "HZUYszej";
+            "file" = "immersiveminimaps-1.2.6+26.1.2-neoforge.jar";
+            "hash" = "sha512-C4MqztTo1RjUzwgSFNkJzwhIAM2A9X2qifXKFm6lhHtd8S7lLiNson+Yi2lCF3PydRrS0q8r2jBAxbay6hSQLQ==";
+        };
+        _kDdmCjIM = {
+            "id" = "kDdmCjIM";
+            "file" = "immersiveminimaps-1.2.6+26.2-fabric.jar";
+            "hash" = "sha512-ORqdt/z7pwy/NEKUZkRP3WOkFYlqQH1F/0/nO2iHsvzrJ6J9wM3WLZLpM2k/22oGh15fYnqISVzIuVUVXAilBA==";
+        };
+        _JOEC19ZQ = {
+            "id" = "JOEC19ZQ";
+            "file" = "immersiveminimaps-1.2.6+26.2-neoforge.jar";
+            "hash" = "sha512-LDQWzm3GzIM20/TfLBYYBkMO3o9zKa+0axAtnxwvpufoV4cQgDsVgyiTM/MLx/BpyN2FGmDh+B+w2T4DnwJWlQ==";
+        };
+        _SbJGCgi8 = {
+            "id" = "SbJGCgi8";
+            "file" = "immersiveminimaps-1.2.6+26.3-fabric.jar";
+            "hash" = "sha512-sZkIRqXMyy88U+LdXTkbM9N9kvjUe/oOoqvDxm6Jm5pVCGD87MzlCPywFSJMJtgX8kHMtZcGhOGGrBDdqRQTrQ==";
+        };
     in {
         "E9DNGNIC" = _E9DNGNIC;
         "EKJ8VrGZ" = _EKJ8VrGZ;
@@ -194,20 +229,27 @@ let
         "N8cknQX4" = _N8cknQX4;
         "NBSF6xpT" = _NBSF6xpT;
         "hwfGhRq6" = _hwfGhRq6;
-        "fabric-1.20.1" = _bsGAqY8y;
-        "fabric-1.21.1" = _Khh4xFug;
+        "iaX9OVzP" = _iaX9OVzP;
+        "XJ2lJnfX" = _XJ2lJnfX;
+        "jLtUKges" = _jLtUKges;
+        "HZUYszej" = _HZUYszej;
+        "kDdmCjIM" = _kDdmCjIM;
+        "JOEC19ZQ" = _JOEC19ZQ;
+        "SbJGCgi8" = _SbJGCgi8;
+        "fabric-1.20.1" = _iaX9OVzP;
+        "fabric-1.21.1" = _XJ2lJnfX;
         "fabric-1.21.8" = _fMWI2z5I;
-        "fabric-26.1" = _v6uabbFI;
-        "fabric-26.1.1" = _v6uabbFI;
-        "fabric-26.1.2" = _v6uabbFI;
-        "fabric-26.2" = _HnF7eYDf;
-        "fabric-26.3" = _N8cknQX4;
-        "forge-1.20.1" = _bsGAqY8y;
-        "neoforge-1.21.1" = _Khh4xFug;
+        "fabric-26.1" = _jLtUKges;
+        "fabric-26.1.1" = _jLtUKges;
+        "fabric-26.1.2" = _jLtUKges;
+        "fabric-26.2" = _kDdmCjIM;
+        "fabric-26.3" = _SbJGCgi8;
+        "forge-1.20.1" = _iaX9OVzP;
+        "neoforge-1.21.1" = _XJ2lJnfX;
         "neoforge-26.1" = _H54mLtY1;
         "neoforge-26.1.1" = _H54mLtY1;
-        "neoforge-26.1.2" = _NBSF6xpT;
-        "neoforge-26.2" = _hwfGhRq6;
+        "neoforge-26.1.2" = _HZUYszej;
+        "neoforge-26.2" = _JOEC19ZQ;
         "pkg-1.0.0+1.20.1-fabric" = _E9DNGNIC;
         "pkg-1.0.0+1.21.1-fabric" = _EKJ8VrGZ;
         "pkg-1.0.0+1.21.8-fabric" = _4J9fXn9H;
@@ -240,7 +282,14 @@ let
         "pkg-1.2.4+26.3-fabric" = _N8cknQX4;
         "pkg-1.2.5+26.1.2-neoforge" = _NBSF6xpT;
         "pkg-1.2.5+26.2-neoforge" = _hwfGhRq6;
-        "default" = _hwfGhRq6;
+        "pkg-1.2.6+1.20.1-fabric" = _iaX9OVzP;
+        "pkg-1.2.6+1.21.1-fabric" = _XJ2lJnfX;
+        "pkg-1.2.6+26.1.2-fabric" = _jLtUKges;
+        "pkg-1.2.6+26.1.2-neoforge" = _HZUYszej;
+        "pkg-1.2.6+26.2-fabric" = _kDdmCjIM;
+        "pkg-1.2.6+26.2-neoforge" = _JOEC19ZQ;
+        "pkg-1.2.6+26.3-fabric" = _SbJGCgi8;
+        "default" = _SbJGCgi8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-minimaps";

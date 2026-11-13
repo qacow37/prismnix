@@ -516,6 +516,36 @@ let
             "file" = "rftoolsbase-26.3-9.0.1.jar";
             "hash" = "sha512-WRL0t9RG2REIFDASnGP0MXfQ33OR++BHHghxnFGNZvivA1Stxf51otVX3G8NaoEscknGn4awu3k3irlDVU5IqA==";
         };
+        _q2rp5bpF = {
+            "id" = "q2rp5bpF";
+            "file" = "rftoolsbase-26.1.2-7.0.2.jar";
+            "hash" = "sha512-t0pUz3HzBs4KJ46l3b4eUjtrz24RI0AX3uA/+CWzIc6bPNiMyXi+whsc5yfnjEumb9ocNqHS+vQHHRlYUTUqBQ==";
+        };
+        _UNuFuDFX = {
+            "id" = "UNuFuDFX";
+            "file" = "rftoolsbase-fabric-26.1.2-7.0.2-fabric.jar";
+            "hash" = "sha512-lsr69AMgz/pO58ZMP2ZGjRQiAgyl2ANATUTsdGu+0OjThJuWkkky1Rx/+PvMoDYwD7rmCBhI39RV1T9b4Q5Kkg==";
+        };
+        _2CVTObgO = {
+            "id" = "2CVTObgO";
+            "file" = "rftoolsbase-26.2-8.0.2.jar";
+            "hash" = "sha512-vbbWq6H27Jh7faVDDTGtLQ886hDonOk9hMPJWQC6ZBJRm+y/G0jcbFmvJONTyzzc121Xl+EZ2812IclddLfLWw==";
+        };
+        _yr6JHy4f = {
+            "id" = "yr6JHy4f";
+            "file" = "rftoolsbase-fabric-26.2-8.0.2-fabric.jar";
+            "hash" = "sha512-qX8HfjYZpwGKf6ux7Rq4lDzqy20DTd/MGQlXk+3RQVbi5KNlRFQYGvG/y8EAHsfEP5BRJShHRZIu/8AykRFI/w==";
+        };
+        _lMS9BMCI = {
+            "id" = "lMS9BMCI";
+            "file" = "rftoolsbase-26.3-9.0.2.jar";
+            "hash" = "sha512-GdQQtevoeIcRuVk/4Y+2AQta2S+EnX0cukYkL5fzh7u8+19xJp+6M5/97Zx3+gspSQEPI+jIWWQdG9bcL/CqCw==";
+        };
+        _DHQIt9rW = {
+            "id" = "DHQIt9rW";
+            "file" = "rftoolsbase-fabric-26.3-9.0.2-fabric.jar";
+            "hash" = "sha512-8qSInBm4YrfMHMVQ1Py7nOHSUzztEx+PFY7DOrtyAglJJAAksZIiT40+0HkIGvAD+E9kFw2JenBSRZyhyIy/TQ==";
+        };
     in {
         "gDzgkIrj" = _gDzgkIrj;
         "vCHISJ3h" = _vCHISJ3h;
@@ -620,6 +650,12 @@ let
         "XpoxO30I" = _XpoxO30I;
         "r4sMlL9x" = _r4sMlL9x;
         "e3XPZkfa" = _e3XPZkfa;
+        "q2rp5bpF" = _q2rp5bpF;
+        "UNuFuDFX" = _UNuFuDFX;
+        "2CVTObgO" = _2CVTObgO;
+        "yr6JHy4f" = _yr6JHy4f;
+        "lMS9BMCI" = _lMS9BMCI;
+        "DHQIt9rW" = _DHQIt9rW;
         "forge-1.14.3" = _gDzgkIrj;
         "forge-1.14.4" = _RwSDXtZc;
         "forge-1.15.2" = _XGna2bBj;
@@ -636,12 +672,12 @@ let
         "forge-1.19.4" = _eVoRfw4X;
         "forge-1.20.1" = _dYvtIH7M;
         "neoforge-1.21.1" = _f8Tk2cfj;
-        "neoforge-26.1.2" = _q8a3SPQg;
-        "neoforge-26.2" = _XpoxO30I;
-        "neoforge-26.3" = _e3XPZkfa;
-        "fabric-26.1.2" = _bbNFaKhi;
-        "fabric-26.2" = _q0qG4kk8;
-        "fabric-26.3" = _r4sMlL9x;
+        "neoforge-26.1.2" = _q2rp5bpF;
+        "neoforge-26.2" = _2CVTObgO;
+        "neoforge-26.3" = _lMS9BMCI;
+        "fabric-26.1.2" = _UNuFuDFX;
+        "fabric-26.2" = _yr6JHy4f;
+        "fabric-26.3" = _DHQIt9rW;
         "pkg-1.14-0.0.1-alpha" = _gDzgkIrj;
         "pkg-1.14-0.0.2-alpha" = _vCHISJ3h;
         "pkg-1.14-0.0.3-alpha" = _hgMuvX7y;
@@ -745,7 +781,13 @@ let
         "pkg-26.2-8.0.1" = _XpoxO30I;
         "pkg-26.3-9.0.1-fabric" = _r4sMlL9x;
         "pkg-26.3-9.0.1" = _e3XPZkfa;
-        "default" = _e3XPZkfa;
+        "pkg-26.1.2-7.0.2" = _q2rp5bpF;
+        "pkg-26.1.2-7.0.2-fabric" = _UNuFuDFX;
+        "pkg-26.2-8.0.2" = _2CVTObgO;
+        "pkg-26.2-8.0.2-fabric" = _yr6JHy4f;
+        "pkg-26.3-9.0.2" = _lMS9BMCI;
+        "pkg-26.3-9.0.2-fabric" = _DHQIt9rW;
+        "default" = _DHQIt9rW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rftools-base";

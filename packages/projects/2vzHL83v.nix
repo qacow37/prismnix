@@ -106,6 +106,11 @@ let
             "file" = "darkdoppelganger-4.2.1-1.21.1.jar";
             "hash" = "sha512-7xNwz+z5KyamJB/A+pDMvhfSqdAWSOkh83ObHxg6kTozhZEZHaa5Z3gCqdD4VduYrUeNfe+yqSUxr0mP60MIXQ==";
         };
+        _J55cIVu7 = {
+            "id" = "J55cIVu7";
+            "file" = "darkdoppelganger-4.3.0-1.21.1.jar";
+            "hash" = "sha512-KySdZ/mW26vzgiSLwmaiLDxI0iC/L+SabIims6YL7iEOkqYRww3dmofn4PeUDvYDg1ij85KWJcVNmYltK0a/wA==";
+        };
     in {
         "nZ6sFY7w" = _nZ6sFY7w;
         "P5VVZzGs" = _P5VVZzGs;
@@ -128,6 +133,7 @@ let
         "XmtF5USk" = _XmtF5USk;
         "LZqs9vDv" = _LZqs9vDv;
         "Lmk5SMLa" = _Lmk5SMLa;
+        "J55cIVu7" = _J55cIVu7;
         "forge-1.20.1" = _YIQddviy;
         "forge-1.20.2" = _sqs8jjxj;
         "forge-1.20.3" = _sqs8jjxj;
@@ -135,7 +141,7 @@ let
         "forge-1.20.5" = _sqs8jjxj;
         "forge-1.20.6" = _sqs8jjxj;
         "neoforge-1.21" = _Wu1WHogD;
-        "neoforge-1.21.1" = _Lmk5SMLa;
+        "neoforge-1.21.1" = _J55cIVu7;
         "pkg-3.1.0-1.20.1" = _nZ6sFY7w;
         "pkg-3.2.0-1.20.1" = _P5VVZzGs;
         "pkg-4.2.0-1.20.1" = _sqs8jjxj;
@@ -157,7 +163,8 @@ let
         "pkg-4.0.0-1.21.1" = _XmtF5USk;
         "pkg-4.2.0-1.21.1" = _LZqs9vDv;
         "pkg-4.2.1-1.21.1" = _Lmk5SMLa;
-        "default" = _Lmk5SMLa;
+        "pkg-4.3.0-1.21.1" = _J55cIVu7;
+        "default" = _J55cIVu7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-doppelganger";

@@ -86,6 +86,46 @@ let
             "file" = "carpetscore-1.21.7-1.2.0.jar";
             "hash" = "sha512-Y6u6mzDdo2js5w3x/on91coHcRLHf6iBLnEixwzwIaDBbOtQ4muVqBWjM/n+dJ5DnUZ26vH8xz5DdcV1arIugA==";
         };
+        _ZHNwF3ad = {
+            "id" = "ZHNwF3ad";
+            "file" = "carpetscore-fabric-26.3-1.3.1.jar";
+            "hash" = "sha512-6Zj+aAfSYkJPuodtQIyvHupGWPM8r3Sd6ocYG55MEnOEXGNhSFNalVI4nWHgcAGmqDCIny2SHmAcNjYbkhCgEQ==";
+        };
+        _5IxZZm8I = {
+            "id" = "5IxZZm8I";
+            "file" = "carpetscore-neo-26.3-1.3.1.jar";
+            "hash" = "sha512-pS6e7NMVJdGRtyB7BbwovcLDaBNSKA9sJkBxaRUalfaL1tC8FkfSvDHrcNbpMBYAhX2cf6voRjBh0wArp7XPPw==";
+        };
+        _HkuwXI0F = {
+            "id" = "HkuwXI0F";
+            "file" = "carpetscore-fabric-26.1.2-1.3.0.jar";
+            "hash" = "sha512-T5iQonhdrhXnSPbcc4bq6UuxR9o3kZKuu2bbHCYLqVv838P9cGYVoXbTLAdSdgI2W12J0qsoJP/sA8t3XiKG6w==";
+        };
+        _Jr3lmzc4 = {
+            "id" = "Jr3lmzc4";
+            "file" = "carpetscore-neo-26.1.2-1.3.1.jar";
+            "hash" = "sha512-m+fI1s0xtQgiXZtbbYsHZOTeKsjI246dQy4ccUYeldMeDftjEFVR0YBejn7a2Pos7vjCqXINtcSVy92qK99YuA==";
+        };
+        _tIUtoPQP = {
+            "id" = "tIUtoPQP";
+            "file" = "carpetscore-fabric-26.2-1.3.1.jar";
+            "hash" = "sha512-TEfMk49054C64qw4z2tGzZLjUDu+SOl5bwZ6C7PIkFtjgO7p6CrReAQlx39/HbKUde8K6roJ1gUERW4gy3M79A==";
+        };
+        _FbWGlIXM = {
+            "id" = "FbWGlIXM";
+            "file" = "carpetscore-neo-26.2-1.3.1.jar";
+            "hash" = "sha512-Jes9w3npB2VADKikpbWNCnPp+FW7KIO2KAN1cskmv4Mgnt2ejLxNI3177PBYunMnNHpUAvA8sa8EH06KfPsnQQ==";
+        };
+        _kqBXplAc = {
+            "id" = "kqBXplAc";
+            "file" = "carpetscore-neo-26.2-1.3.2.jar";
+            "hash" = "sha512-JqqRgdb5l74fiwmOjpNh0agD4HAuAhqFKzH5l+I98YXhQOUBUzF0xfxYxVp8Nn7ssqC+TYp/4NMM4hYwjjXPnA==";
+        };
+        _hotwFZkt = {
+            "id" = "hotwFZkt";
+            "file" = "carpetscore-fabric-26.2-1.3.2.jar";
+            "hash" = "sha512-NzatqUkn6Ge059btrCg68rVzJWdqrwC/n9UVRXMVL6fH1IQynil1jB6+udKPeqe3zhv+MPs/sOvcA2p6b9xa9A==";
+        };
     in {
         "uBBF58yl" = _uBBF58yl;
         "rsVF4qE0" = _rsVF4qE0;
@@ -104,6 +144,14 @@ let
         "na4C1LIs" = _na4C1LIs;
         "lqtedG9k" = _lqtedG9k;
         "Zqfr3WIA" = _Zqfr3WIA;
+        "ZHNwF3ad" = _ZHNwF3ad;
+        "5IxZZm8I" = _5IxZZm8I;
+        "HkuwXI0F" = _HkuwXI0F;
+        "Jr3lmzc4" = _Jr3lmzc4;
+        "tIUtoPQP" = _tIUtoPQP;
+        "FbWGlIXM" = _FbWGlIXM;
+        "kqBXplAc" = _kqBXplAc;
+        "hotwFZkt" = _hotwFZkt;
         "neoforge-1.21.3" = _uBBF58yl;
         "neoforge-1.21.1" = _daYgrZ9c;
         "neoforge-1.20.6" = _BOWkVZ91;
@@ -113,11 +161,17 @@ let
         "neoforge-1.21.5" = _Wie5x1OQ;
         "neoforge-1.21.6" = _lqtedG9k;
         "neoforge-1.21.7" = _Zqfr3WIA;
+        "neoforge-26.3" = _5IxZZm8I;
+        "neoforge-26.1.2" = _Jr3lmzc4;
+        "neoforge-26.2" = _kqBXplAc;
         "fabric-1.21.3" = _rsVF4qE0;
         "fabric-1.21.1" = _90AUuOqU;
         "fabric-1.20.6" = _3cZMW8p9;
         "fabric-1.20.4" = _x2SCq0If;
         "fabric-1.20.1" = _fCvGbATC;
+        "fabric-26.3" = _ZHNwF3ad;
+        "fabric-26.1.2" = _HkuwXI0F;
+        "fabric-26.2" = _hotwFZkt;
         "quilt-1.21.3" = _rsVF4qE0;
         "quilt-1.21.1" = _90AUuOqU;
         "quilt-1.20.6" = _3cZMW8p9;
@@ -130,7 +184,15 @@ let
         "pkg-1.0.1" = _na4C1LIs;
         "pkg-1.21.6-1.2.0" = _lqtedG9k;
         "pkg-1.21.7-1.2.0" = _Zqfr3WIA;
-        "default" = _Zqfr3WIA;
+        "pkg-26.3-1.3.1-fabric" = _ZHNwF3ad;
+        "pkg-26.3-1.3.1-neoforge" = _5IxZZm8I;
+        "pkg-26.1.2-1.3.0-fabric" = _HkuwXI0F;
+        "pkg-26.1.2-1.3.1-neoforge" = _Jr3lmzc4;
+        "pkg-26.2-1.3.1-fabric" = _tIUtoPQP;
+        "pkg-26.2-1.3.1-neoforge" = _FbWGlIXM;
+        "pkg-26.2-1.3.2-neoforge" = _kqBXplAc;
+        "pkg-26.2-1.3.2-fabric" = _hotwFZkt;
+        "default" = _hotwFZkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpets-core";

@@ -131,6 +131,11 @@ let
             "file" = "reimaginingpotatoes-1.20.1-1.0.1-forge.jar";
             "hash" = "sha512-WNU1PZid7c05wmKOMzirVUgD5mriZ4oRfy1/bbzT7xyJ3hq6yjUumyUlSlEA4JrkPSoW39lL+6j1/hXVx9Elzg==";
         };
+        _LzihLUsw = {
+            "id" = "LzihLUsw";
+            "file" = "reimaginingpotatoes-1.20.1-1.0.01-fabric.jar";
+            "hash" = "sha512-BrQbX5xE2huG9j/UFeKu6BSFRC2x4L5O4LjnclOzEEjQvs3FKKVOP1sIxffe47Cyz/rxyk/rtKjzsqKG1q4bDw==";
+        };
     in {
         "xCaAF5N7" = _xCaAF5N7;
         "BNaFxc9p" = _BNaFxc9p;
@@ -158,7 +163,8 @@ let
         "K1Lp11Jw" = _K1Lp11Jw;
         "HLD9RAwP" = _HLD9RAwP;
         "kOJ79Oqf" = _kOJ79Oqf;
-        "fabric-1.20.1" = _K1Lp11Jw;
+        "LzihLUsw" = _LzihLUsw;
+        "fabric-1.20.1" = _LzihLUsw;
         "fabric-1.20.4" = _iE1kPwB1;
         "fabric-1.21" = _YgBx2Vuc;
         "forge-1.20.1" = _kOJ79Oqf;
@@ -185,7 +191,8 @@ let
         "pkg-0.1.27" = _YgBx2Vuc;
         "pkg-1.0.0" = _HLD9RAwP;
         "pkg-1.0.1" = _kOJ79Oqf;
-        "default" = _kOJ79Oqf;
+        "pkg-1.0.01" = _LzihLUsw;
+        "default" = _LzihLUsw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reimagining-potatoes";

@@ -31,6 +31,16 @@ let
             "file" = "skyfront-1.20.1-1.5.0.jar";
             "hash" = "sha512-Q6JVkr7y+1Pujfz2K5etCm/z4A9zGtxA1XGV1ZbNxtQIQ1lEBXmBdGSa23abiY/Gkp9Y7IcjEqCml94heuoRzQ==";
         };
+        _mb0NiOm4 = {
+            "id" = "mb0NiOm4";
+            "file" = "skyfront-1.21.1-1.6.0.jar";
+            "hash" = "sha512-FDugVl4TSTXcgFAoVm5Jway8wxqqgvlTVawuahzMZXwkyqiOb2eTXIdJk+KoUwV7VcUumU7JQPa71tyS/G8RBA==";
+        };
+        _ethJGtGu = {
+            "id" = "ethJGtGu";
+            "file" = "skyfront-1.20.1-1.6.0.jar";
+            "hash" = "sha512-BK53GNhoRzEDnPvbVweSqA9QGJe7JxggF3VBWW6KDCdfoY5N3AecosV60/g3IW4r0uFtAArKoHEwPXGdnyTGkA==";
+        };
     in {
         "d9Ekb5Ya" = _d9Ekb5Ya;
         "msIfFGBy" = _msIfFGBy;
@@ -38,13 +48,16 @@ let
         "wQ5BWZ8z" = _wQ5BWZ8z;
         "kgIOOvmP" = _kgIOOvmP;
         "POPWIciN" = _POPWIciN;
-        "forge-1.20.1" = _POPWIciN;
-        "neoforge-1.21.1" = _kgIOOvmP;
+        "mb0NiOm4" = _mb0NiOm4;
+        "ethJGtGu" = _ethJGtGu;
+        "forge-1.20.1" = _ethJGtGu;
+        "neoforge-1.21.1" = _mb0NiOm4;
         "pkg-1.0.0" = _d9Ekb5Ya;
         "pkg-1.2.0" = _msIfFGBy;
         "pkg-1.4.0" = _wQ5BWZ8z;
         "pkg-1.5.0" = _POPWIciN;
-        "default" = _POPWIciN;
+        "pkg-1.6.0" = _ethJGtGu;
+        "default" = _ethJGtGu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shahed";

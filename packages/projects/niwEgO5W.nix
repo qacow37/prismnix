@@ -81,6 +81,16 @@ let
             "file" = "timber-enchantment-1.2.1.jar";
             "hash" = "sha512-C5cWSubEKG1/zcmPEjWeRl52eHyU2CP53Tw2V/wiedBef7Ri4Hmi5IPmCwW3UJj8rYF7mITE/HKnCIIIO3VxnA==";
         };
+        _nPwh9LHZ = {
+            "id" = "nPwh9LHZ";
+            "file" = "Timber Enchantment v1.2.2 [26.3].zip";
+            "hash" = "sha512-GGSakjajR/PnOKNh93XzpdwbAB1DgbgbF+zZqDwe2O3ALpcEHE22EBTu3+CV9iYoQpcHvxWSzqWa2FrlDd8USA==";
+        };
+        _yXMlu0nL = {
+            "id" = "yXMlu0nL";
+            "file" = "timber-enchantment-1.2.2.jar";
+            "hash" = "sha512-jUw/BGFffFkuMvy/vHpFb+s2ScB/Xn4SlQPjvHuFixOiLlqC4fYS5+FWkRkaNTGY8yOYogoSQHZ7wveNhgJnHw==";
+        };
     in {
         "ZDwmODEk" = _ZDwmODEk;
         "aOTJcRNy" = _aOTJcRNy;
@@ -98,6 +108,8 @@ let
         "yAkzrvG1" = _yAkzrvG1;
         "15vbbTAu" = _15vbbTAu;
         "b43jUYyE" = _b43jUYyE;
+        "nPwh9LHZ" = _nPwh9LHZ;
+        "yXMlu0nL" = _yXMlu0nL;
         "datapack-1.21.4" = _ZDwmODEk;
         "datapack-1.21.5" = _ZDwmODEk;
         "datapack-1.21.6" = _ZDwmODEk;
@@ -114,7 +126,7 @@ let
         "datapack-26.1.1" = _HBefeOSJ;
         "datapack-26.1.2" = _HBefeOSJ;
         "datapack-26.2" = _HBefeOSJ;
-        "datapack-26.3" = _15vbbTAu;
+        "datapack-26.3" = _nPwh9LHZ;
         "fabric-1.21.4" = _aOTJcRNy;
         "fabric-1.21.5" = _aOTJcRNy;
         "fabric-1.21.6" = _aOTJcRNy;
@@ -131,7 +143,7 @@ let
         "fabric-26.1.1" = _ley3D9R1;
         "fabric-26.1.2" = _ley3D9R1;
         "fabric-26.2" = _ley3D9R1;
-        "fabric-26.3" = _b43jUYyE;
+        "fabric-26.3" = _yXMlu0nL;
         "forge-1.21.4" = _aOTJcRNy;
         "forge-1.21.5" = _aOTJcRNy;
         "forge-1.21.6" = _aOTJcRNy;
@@ -148,7 +160,7 @@ let
         "forge-26.1.1" = _ley3D9R1;
         "forge-26.1.2" = _ley3D9R1;
         "forge-26.2" = _ley3D9R1;
-        "forge-26.3" = _b43jUYyE;
+        "forge-26.3" = _yXMlu0nL;
         "neoforge-1.21.4" = _aOTJcRNy;
         "neoforge-1.21.5" = _aOTJcRNy;
         "neoforge-1.21.6" = _aOTJcRNy;
@@ -165,7 +177,7 @@ let
         "neoforge-26.1.1" = _ley3D9R1;
         "neoforge-26.1.2" = _ley3D9R1;
         "neoforge-26.2" = _ley3D9R1;
-        "neoforge-26.3" = _b43jUYyE;
+        "neoforge-26.3" = _yXMlu0nL;
         "quilt-1.21.4" = _aOTJcRNy;
         "quilt-1.21.5" = _aOTJcRNy;
         "quilt-1.21.6" = _aOTJcRNy;
@@ -182,7 +194,7 @@ let
         "quilt-26.1.1" = _ley3D9R1;
         "quilt-26.1.2" = _ley3D9R1;
         "quilt-26.2" = _ley3D9R1;
-        "quilt-26.3" = _b43jUYyE;
+        "quilt-26.3" = _yXMlu0nL;
         "pkg-v1.0.0" = _ZDwmODEk;
         "pkg-v1.0.0+mod" = _aOTJcRNy;
         "pkg-v1.0.1" = _HBefeOSJ;
@@ -193,7 +205,9 @@ let
         "pkg-1.2.0+mod" = _ZVzgC05X;
         "pkg-1.2.1" = _15vbbTAu;
         "pkg-1.2.1+mod" = _b43jUYyE;
-        "default" = _b43jUYyE;
+        "pkg-1.2.2" = _nPwh9LHZ;
+        "pkg-1.2.2+mod" = _yXMlu0nL;
+        "default" = _yXMlu0nL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timber-enchantment";

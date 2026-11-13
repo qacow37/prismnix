@@ -36,6 +36,11 @@ let
             "file" = "Advanced-Fishing-26.2-1.6.4.jar";
             "hash" = "sha512-47ZkimpVFLwHrtjzuilsljG7sWBAcc/enHLT/1Efupl+qr5o/Xu1f2x1GeOzqZGrbcRSfnKdDMMo7eK8/uXsWw==";
         };
+        _Ulfg1CcD = {
+            "id" = "Ulfg1CcD";
+            "file" = "Advanced-Fishing-26.3-1.6.5.jar";
+            "hash" = "sha512-rwLI9lwxSkYZocYUrCS+4Ep14/EwWy4GpMlS+MR6dUrFof3NlRNZZPwV3g22gzfX5944S3xcnyKtNXIoU9c1eQ==";
+        };
     in {
         "Q8R3kZOA" = _Q8R3kZOA;
         "4JBv3D4Z" = _4JBv3D4Z;
@@ -44,18 +49,21 @@ let
         "ggPm6Wde" = _ggPm6Wde;
         "4u5MIh2Y" = _4u5MIh2Y;
         "PaHRJjCY" = _PaHRJjCY;
+        "Ulfg1CcD" = _Ulfg1CcD;
         "neoforge-1.21.11" = _ggPm6Wde;
         "neoforge-26.1" = _4u5MIh2Y;
         "neoforge-26.1.1" = _4u5MIh2Y;
         "neoforge-26.1.2" = _4u5MIh2Y;
         "neoforge-26.2" = _PaHRJjCY;
+        "neoforge-26.3" = _Ulfg1CcD;
         "forge-1.12.2" = _4JBv3D4Z;
         "pkg-1.6.1" = _Q8R3kZOA;
         "pkg-1.3.3" = _4JBv3D4Z;
         "pkg-1.6.2" = _fnKCiOxl;
         "pkg-1.6.3" = _gHRrOYK1;
         "pkg-1.6.4" = _PaHRJjCY;
-        "default" = _PaHRJjCY;
+        "pkg-1.6.5" = _Ulfg1CcD;
+        "default" = _Ulfg1CcD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-fishing";

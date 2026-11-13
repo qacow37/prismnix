@@ -71,6 +71,11 @@ let
             "file" = "MWE-4.9.jar";
             "hash" = "sha512-by3FQZCm5VIcdcmOE0qgYEdACC2QAluDqwqe/wQ9kVvayNeJPvXpXMWEXO6Z8QS/y6i4PPDbfVl66S6abHLBwA==";
         };
+        _7NWXswhd = {
+            "id" = "7NWXswhd";
+            "file" = "MWE-4.10.jar";
+            "hash" = "sha512-0Ki+MZx7tz2TQRWfLrQjUvCFyQ5+qHRMmNu+h4UvoGEd9h9inFiB+Wgnorj9eZ8cZn0CO/L+6sMFQPvVCfXkdg==";
+        };
     in {
         "6XOsJ6hY" = _6XOsJ6hY;
         "YtBbGhst" = _YtBbGhst;
@@ -86,7 +91,8 @@ let
         "m8KTgpiz" = _m8KTgpiz;
         "5f9QMJ7y" = _5f9QMJ7y;
         "SzGWpipq" = _SzGWpipq;
-        "forge-1.8.9" = _SzGWpipq;
+        "7NWXswhd" = _7NWXswhd;
+        "forge-1.8.9" = _7NWXswhd;
         "pkg-4.0" = _6XOsJ6hY;
         "pkg-4.1" = _YtBbGhst;
         "pkg-4.2" = _l2RpWJ01;
@@ -101,7 +107,8 @@ let
         "pkg-4.8.2" = _m8KTgpiz;
         "pkg-4.8.3" = _5f9QMJ7y;
         "pkg-4.9" = _SzGWpipq;
-        "default" = _SzGWpipq;
+        "pkg-4.10" = _7NWXswhd;
+        "default" = _7NWXswhd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mwe";

@@ -21,17 +21,24 @@ let
             "file" = "HBM-NTM-.1.0.27_X5687_r.11-hotfix.3.jar";
             "hash" = "sha512-Fy37T9Dy8FshtIB27SMd9iNhk+uuQu7mjDdPVxyKTJPiiqxnsHM6lObzs+OW/RN9rF40GiOceKpvaypSIITmmg==";
         };
+        _cZdPYN5W = {
+            "id" = "cZdPYN5W";
+            "file" = "HBM-NTM1.0.27_X5771_r.12.jar";
+            "hash" = "sha512-3dYrdEYMFwumRB0WlKebQY4VOKznX9RVl8P+Nv/IWMzzmAPqYfgS1JplZ2QpWOscEDAUTV+vPEpgdC4RkSWpVQ==";
+        };
     in {
         "KelKyUyb" = _KelKyUyb;
         "SZRqfbMb" = _SZRqfbMb;
         "rxvH7rvI" = _rxvH7rvI;
         "RowMKapA" = _RowMKapA;
-        "forge-1.7.10" = _RowMKapA;
+        "cZdPYN5W" = _cZdPYN5W;
+        "forge-1.7.10" = _cZdPYN5W;
         "pkg-r.7-hotfix" = _KelKyUyb;
         "pkg-r.8-hotfix" = _SZRqfbMb;
         "pkg-r.9-hotfix" = _rxvH7rvI;
         "pkg-r.11-hotfix.3" = _RowMKapA;
-        "default" = _RowMKapA;
+        "pkg-r.12" = _cZdPYN5W;
+        "default" = _cZdPYN5W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ntm-1-of-90-edition";

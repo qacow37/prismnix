@@ -21,11 +21,17 @@ let
             "file" = "§lShulker-Box-Tooltip-1.16.5~1.21.2-Mechanical-equation-GUI-v0.1.0.zip";
             "hash" = "sha512-ODH5gtNYpD9LqSQDVXl8ZJjt7weI5o7NiSfGrLaMo3i+Idfl7xjgbA1/fy0OdSKZB7hiSPUMsLEZqRcbMhdsiA==";
         };
+        _iJ3eDGj7 = {
+            "id" = "iJ3eDGj7";
+            "file" = "§lShulker-Box-Tooltip-1.21.3~26.3-Mechanical-equation-GUI-v0.1.1.zip";
+            "hash" = "sha512-m/u8A9e/NTEaWOspYLZ2FAYh/HeglwIlFtJJRlRqPugEg14h//NVC3W7HR6ZCoi+wa2DNWKHsy48YpV9QYTLlg==";
+        };
     in {
         "BnLac4iE" = _BnLac4iE;
         "o5d14gCF" = _o5d14gCF;
         "yjYMz1vI" = _yjYMz1vI;
         "SYwUrWua" = _SYwUrWua;
+        "iJ3eDGj7" = _iJ3eDGj7;
         "minecraft-1.16.5" = _SYwUrWua;
         "minecraft-1.17" = _SYwUrWua;
         "minecraft-1.17.1" = _SYwUrWua;
@@ -47,11 +53,26 @@ let
         "minecraft-1.21" = _SYwUrWua;
         "minecraft-1.21.1" = _SYwUrWua;
         "minecraft-1.21.2" = _SYwUrWua;
+        "minecraft-26.3" = _iJ3eDGj7;
+        "minecraft-26.2" = _iJ3eDGj7;
+        "minecraft-26.1.2" = _iJ3eDGj7;
+        "minecraft-26.1.1" = _iJ3eDGj7;
+        "minecraft-26.1" = _iJ3eDGj7;
+        "minecraft-1.21.11" = _iJ3eDGj7;
+        "minecraft-1.21.7" = _iJ3eDGj7;
+        "minecraft-1.21.3" = _iJ3eDGj7;
+        "minecraft-1.21.10" = _iJ3eDGj7;
+        "minecraft-1.21.6" = _iJ3eDGj7;
+        "minecraft-1.21.9" = _iJ3eDGj7;
+        "minecraft-1.21.5" = _iJ3eDGj7;
+        "minecraft-1.21.8" = _iJ3eDGj7;
+        "minecraft-1.21.4" = _iJ3eDGj7;
         "pkg-0.1.0.1" = _BnLac4iE;
         "pkg-0.1.0.2" = _o5d14gCF;
         "pkg-0.1.0.3" = _yjYMz1vI;
         "pkg-0.1.0.4" = _SYwUrWua;
-        "default" = _SYwUrWua;
+        "pkg-0.1.1" = _iJ3eDGj7;
+        "default" = _iJ3eDGj7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mechanical-equation-gui-addon-for-shulker-box-tooltip";

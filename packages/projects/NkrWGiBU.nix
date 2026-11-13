@@ -11,13 +11,21 @@ let
             "file" = "ae2helpers-1.0.1.jar";
             "hash" = "sha512-KE+9hQTWRN9wJstk7NYyTBYdqYJGAhu+bwzQKFQZ/R+4zrf78ECyPyQnQnHM/NOCmmo8J6Wmqhanz53JB6UyEQ==";
         };
+        _9Vbofnoc = {
+            "id" = "9Vbofnoc";
+            "file" = "ae2helpers-26.1.2-1.1.0.jar";
+            "hash" = "sha512-cEa+ewDb0Cd9bcPdusAQNSLv0NwcnOtySpM13jkXUy5QAdZm5WAJtZRbvFCzrSSRmTvQe8EovdXYKOgosFDLzg==";
+        };
     in {
         "KIqkKy8G" = _KIqkKy8G;
         "lP1rypeP" = _lP1rypeP;
+        "9Vbofnoc" = _9Vbofnoc;
         "neoforge-1.21.1" = _lP1rypeP;
+        "neoforge-26.1.2" = _9Vbofnoc;
         "pkg-1.0.0" = _KIqkKy8G;
         "pkg-1.0.1" = _lP1rypeP;
-        "default" = _lP1rypeP;
+        "pkg-26.1.2-1.1.0" = _9Vbofnoc;
+        "default" = _9Vbofnoc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2helpers";

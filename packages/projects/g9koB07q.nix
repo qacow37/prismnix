@@ -26,19 +26,26 @@ let
             "file" = "bits_n_tracks-3.0.2.jar";
             "hash" = "sha512-xFfVpKnXgx7wZUrx0EUz36EMFWsKqwjMIuBpJptJywjtxH4mZmU4NgLvbPSAhdK9eRV6gEpXHUEwJNM0+5RgiA==";
         };
+        _u76G5vP1 = {
+            "id" = "u76G5vP1";
+            "file" = "bits_n_tracks-3.0.3.jar";
+            "hash" = "sha512-oMZ3gruG2vtbSUhTg2h7Su2cU1+AGrTuOaChbttdgabst23AEBcSHSWXUo3VOSbQ/OIpZ0JgoOEsWuBEwekkMg==";
+        };
     in {
         "3db44CKX" = _3db44CKX;
         "duEsSo9r" = _duEsSo9r;
         "pN60Hfff" = _pN60Hfff;
         "w8rhvpAa" = _w8rhvpAa;
         "k0tRxcSJ" = _k0tRxcSJ;
-        "neoforge-1.21.1" = _k0tRxcSJ;
+        "u76G5vP1" = _u76G5vP1;
+        "neoforge-1.21.1" = _u76G5vP1;
         "pkg-2.0.0" = _3db44CKX;
         "pkg-2.1.0" = _duEsSo9r;
         "pkg-3.0.0" = _pN60Hfff;
         "pkg-3.0.1" = _w8rhvpAa;
         "pkg-3.0.2" = _k0tRxcSJ;
-        "default" = _k0tRxcSJ;
+        "pkg-3.0.3" = _u76G5vP1;
+        "default" = _u76G5vP1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bits-n-tracks-ce";

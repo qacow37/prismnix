@@ -51,6 +51,11 @@ let
             "file" = "super-hero-mod-2.0.4-snapshot.5.jar";
             "hash" = "sha512-HpGxvqu1UYppZT9SA1mwzYCGJVnuD8ClZHzPm0gzuMdI6K3t3d9beTaI8yJTGvEWZgxKsHbPY1J0HictkpptFA==";
         };
+        _bpp9tWsB = {
+            "id" = "bpp9tWsB";
+            "file" = "super-hero-mod-2.0.4.jar";
+            "hash" = "sha512-Xzgrw9Vkyvzvn1sWJ4Dfv+AIoudSzPWchiRmPxmmQzcXa6+0iDKu/Sww/KU9Ywp3EnSuz4RltGyDzzdgL4/oCw==";
+        };
     in {
         "E3jax9kE" = _E3jax9kE;
         "5QM6alPh" = _5QM6alPh;
@@ -62,8 +67,9 @@ let
         "dDF4wLaK" = _dDF4wLaK;
         "SudTeAIP" = _SudTeAIP;
         "6Z4lQlG9" = _6Z4lQlG9;
+        "bpp9tWsB" = _bpp9tWsB;
         "fabric-1.21.4" = _E3jax9kE;
-        "fabric-26.2" = _6Z4lQlG9;
+        "fabric-26.2" = _bpp9tWsB;
         "pkg-1.0.0" = _E3jax9kE;
         "pkg-2.0.0" = _5QM6alPh;
         "pkg-2.0.1" = _sV7hWarI;
@@ -74,7 +80,8 @@ let
         "pkg-2.0.4-snapshot.3" = _dDF4wLaK;
         "pkg-2.0.4-snapshot.4" = _SudTeAIP;
         "pkg-2.0.4-snapshot.5" = _6Z4lQlG9;
-        "default" = _6Z4lQlG9;
+        "pkg-2.0.4" = _bpp9tWsB;
+        "default" = _bpp9tWsB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-super-hero-mod";

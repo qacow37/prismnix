@@ -351,6 +351,61 @@ let
             "file" = "CrosshairAddons-2.2.0+26.3.jar";
             "hash" = "sha512-DgtaXzWWMT16TvoPQMzkU0/Y4WiR8uf2cUnuzyIoc4Rd/i3Afg+6ikRquHmDnxqKTKC2OggsyC9HSyJlB9ntSg==";
         };
+        _EA6ZoOBC = {
+            "id" = "EA6ZoOBC";
+            "file" = "CrosshairAddons-2.2.2+1.21-1.21.1.jar";
+            "hash" = "sha512-aKjCOWSjxkLWUA5QVvJvBolAXQwZaQbH0hAM0EFyFWOnwvQKyzNUCbix4xQT5N7+DLu2FpSbg3qqIu2gD96FJA==";
+        };
+        _ETI99U98 = {
+            "id" = "ETI99U98";
+            "file" = "CrosshairAddons-2.2.2+1.21.2-1.21.3.jar";
+            "hash" = "sha512-Q5/wb53hpX7gFvc3CdFCMtO5P3MM7Gy3HBI02lvB3xRtAyXMGIlPvMqZ6ukmeTYiFlbmx0FtYqxYCyu5tNfONA==";
+        };
+        _DamecsCg = {
+            "id" = "DamecsCg";
+            "file" = "CrosshairAddons-2.2.2+1.21.4.jar";
+            "hash" = "sha512-gm5m2s43WHd4n2RuS8so864aMfGvp2fUW5GZxpz0TI5Ay0yS9d7soOLRoLEU7B/hT+lxH91xgJNmfXhB8WfPFw==";
+        };
+        _S3yorp58 = {
+            "id" = "S3yorp58";
+            "file" = "CrosshairAddons-2.2.2+1.21.5.jar";
+            "hash" = "sha512-OvYmnVMGQ+5BcSKrfYmCRm8axzWNBh1cEyEL7c0Rq4uO/Sup6j5aPzXrjelfjbUlxqf6WA4zylMbzn9iFKWpog==";
+        };
+        _ULONx58A = {
+            "id" = "ULONx58A";
+            "file" = "CrosshairAddons-2.2.2+1.21.6.jar";
+            "hash" = "sha512-CQ7a34KwVyklopaoGYKaG4BUYmRQOcsP2B7XAu9CYus7ZXeN8CeLmElwZurUXyr0iWH6aC6CPQankilFMP/4Bw==";
+        };
+        _X7lDjnoh = {
+            "id" = "X7lDjnoh";
+            "file" = "CrosshairAddons-2.2.2+1.21.7-1.21.8.jar";
+            "hash" = "sha512-am+T3UzvJHOLhhlH1gZ/mfRRDlFMxbjmLSNkwisdloGxw4Jz8KiA2hf7jdq3FYuEpvFbsL2ZhpfKG/rfN6sbmw==";
+        };
+        _GTSCbQyJ = {
+            "id" = "GTSCbQyJ";
+            "file" = "CrosshairAddons-2.2.2+1.21.9-1.21.10.jar";
+            "hash" = "sha512-GHz+ImhwYrPlw9dA05rj00LSIw0hWbIgQwakQtiVuK6qEEFEil2X1z5DNMbTjmSPiBO0RnOWJz1x9Nc1SAHuqw==";
+        };
+        _MVhSfA50 = {
+            "id" = "MVhSfA50";
+            "file" = "CrosshairAddons-2.2.2+1.21.11.jar";
+            "hash" = "sha512-4wlAz3GHTrGxeJ5RbF9CKtugUOOuumiw0ZUjTaHxZEFnCSwRzRdj854R/W1xIEMZU6NM6pcEKVeSXpdidR4w+w==";
+        };
+        _EMEaB97y = {
+            "id" = "EMEaB97y";
+            "file" = "CrosshairAddons-2.2.2+26.1-26.1.2.jar";
+            "hash" = "sha512-RitJPfZQXLEJ82vAbvcjUYK2Kys+xGr9Fjjz+0zOtrF0RsngHIbhbotg0PT19Emco9C+LKxMzAUs9W8V9wlA+A==";
+        };
+        _9OIhIJIq = {
+            "id" = "9OIhIJIq";
+            "file" = "CrosshairAddons-2.2.2+26.2.jar";
+            "hash" = "sha512-4NJeT7+Kz7f7WkLoNEGiGBaYiJ4v9+NmHIWiMZOH9QF90zd5bcThTBcW253jn1/DslD/5Cj0JpUk3sZdGxRBbA==";
+        };
+        _1TpQedkM = {
+            "id" = "1TpQedkM";
+            "file" = "CrosshairAddons-2.2.2+26.3.jar";
+            "hash" = "sha512-ZrwOX+RPB+5n4K8z5Dl2ahs41AM79jpT2FjDeVKKV2i8tewIQ5WCAjeW0Fjbf1nCPUALn1eYewLEGSV+aDBkqQ==";
+        };
     in {
         "3x3MmwKu" = _3x3MmwKu;
         "bDHOp7Dq" = _bDHOp7Dq;
@@ -422,6 +477,17 @@ let
         "ScMAAE16" = _ScMAAE16;
         "KwB1ndIU" = _KwB1ndIU;
         "BAHg5ZBo" = _BAHg5ZBo;
+        "EA6ZoOBC" = _EA6ZoOBC;
+        "ETI99U98" = _ETI99U98;
+        "DamecsCg" = _DamecsCg;
+        "S3yorp58" = _S3yorp58;
+        "ULONx58A" = _ULONx58A;
+        "X7lDjnoh" = _X7lDjnoh;
+        "GTSCbQyJ" = _GTSCbQyJ;
+        "MVhSfA50" = _MVhSfA50;
+        "EMEaB97y" = _EMEaB97y;
+        "9OIhIJIq" = _9OIhIJIq;
+        "1TpQedkM" = _1TpQedkM;
         "fabric-1.19.4" = _tiVxpDWX;
         "fabric-1.20" = _zhZjybn2;
         "fabric-1.20.1" = _TB74CTuj;
@@ -430,23 +496,23 @@ let
         "fabric-1.20.4" = _xRzgQB7O;
         "fabric-1.20.5" = _zTcxXzok;
         "fabric-1.20.6" = _eAKZGWxa;
-        "fabric-1.21" = _bVG9wxqG;
-        "fabric-1.21.1" = _bVG9wxqG;
-        "fabric-1.21.2" = _r1BS8qfF;
-        "fabric-1.21.3" = _r1BS8qfF;
-        "fabric-1.21.4" = _wKm3Fez8;
-        "fabric-1.21.5" = _VkqPaNRV;
-        "fabric-1.21.6" = _MrOEYLJs;
-        "fabric-1.21.7" = _VfKchwgZ;
-        "fabric-1.21.8" = _VfKchwgZ;
-        "fabric-1.21.9" = _okzcJcyy;
-        "fabric-1.21.10" = _okzcJcyy;
-        "fabric-1.21.11" = _Vb04Z99e;
-        "fabric-26.1" = _ScMAAE16;
-        "fabric-26.1.1" = _ScMAAE16;
-        "fabric-26.1.2" = _ScMAAE16;
-        "fabric-26.2" = _KwB1ndIU;
-        "fabric-26.3" = _BAHg5ZBo;
+        "fabric-1.21" = _EA6ZoOBC;
+        "fabric-1.21.1" = _EA6ZoOBC;
+        "fabric-1.21.2" = _ETI99U98;
+        "fabric-1.21.3" = _ETI99U98;
+        "fabric-1.21.4" = _DamecsCg;
+        "fabric-1.21.5" = _S3yorp58;
+        "fabric-1.21.6" = _ULONx58A;
+        "fabric-1.21.7" = _X7lDjnoh;
+        "fabric-1.21.8" = _X7lDjnoh;
+        "fabric-1.21.9" = _GTSCbQyJ;
+        "fabric-1.21.10" = _GTSCbQyJ;
+        "fabric-1.21.11" = _MVhSfA50;
+        "fabric-26.1" = _EMEaB97y;
+        "fabric-26.1.1" = _EMEaB97y;
+        "fabric-26.1.2" = _EMEaB97y;
+        "fabric-26.2" = _9OIhIJIq;
+        "fabric-26.3" = _1TpQedkM;
         "pkg-1.0.0" = _tct9xDOz;
         "pkg-1.1.0" = _EUItcTon;
         "pkg-1.2.0" = _ZTEtzN5O;
@@ -481,7 +547,18 @@ let
         "pkg-2.2.0+26.1-26.1.2" = _ScMAAE16;
         "pkg-2.2.0+26.2" = _KwB1ndIU;
         "pkg-2.2.0+26.3" = _BAHg5ZBo;
-        "default" = _BAHg5ZBo;
+        "pkg-2.2.2+1.21-1.21.1" = _EA6ZoOBC;
+        "pkg-2.2.2+1.21.2-1.21.3" = _ETI99U98;
+        "pkg-2.2.2+1.21.4" = _DamecsCg;
+        "pkg-2.2.2+1.21.5" = _S3yorp58;
+        "pkg-2.2.2+1.21.6" = _ULONx58A;
+        "pkg-2.2.2+1.21.7-1.21.8" = _X7lDjnoh;
+        "pkg-2.2.2+1.21.9-1.21.10" = _GTSCbQyJ;
+        "pkg-2.2.2+1.21.11" = _MVhSfA50;
+        "pkg-2.2.2+26.1-26.1.2" = _EMEaB97y;
+        "pkg-2.2.2+26.2" = _9OIhIJIq;
+        "pkg-2.2.2+26.3" = _1TpQedkM;
+        "default" = _1TpQedkM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crosshair-addons-public";

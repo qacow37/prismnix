@@ -96,6 +96,11 @@ let
             "file" = "anvilcraft_dingdongji-0.1.0.jar";
             "hash" = "sha512-stOPV+hFZTaAAp+weaL+bJbAoUrK12BgllBaDTwZG50Stxu0ohnqcsAKXG1RO0FYNt5iDHfoQc4bhfIHAhwl0g==";
         };
+        _4IPUSIXz = {
+            "id" = "4IPUSIXz";
+            "file" = "anvilcraft_dingdongji-0.1.1.jar";
+            "hash" = "sha512-uGES9pubqL/HF4mSijUNm51jwjuTy3X31gCoE529ChvD/vdy5CJMKIdYDevgwCu4EWyp2L/t7+QU7SHGKDQq2g==";
+        };
     in {
         "M1V6ZTJX" = _M1V6ZTJX;
         "Yd2xmJGc" = _Yd2xmJGc;
@@ -116,7 +121,8 @@ let
         "aCwdD9KO" = _aCwdD9KO;
         "XVrne49A" = _XVrne49A;
         "AhTXkHAA" = _AhTXkHAA;
-        "neoforge-1.21.1" = _AhTXkHAA;
+        "4IPUSIXz" = _4IPUSIXz;
+        "neoforge-1.21.1" = _4IPUSIXz;
         "pkg-0.0.1" = _M1V6ZTJX;
         "pkg-0.0.2" = _Yd2xmJGc;
         "pkg-0.0.3" = _v52rFLuD;
@@ -136,7 +142,8 @@ let
         "pkg-0.0.9-fix-5" = _aCwdD9KO;
         "pkg-0.1.0" = _XVrne49A;
         "pkg-0.1.0-fix-1" = _AhTXkHAA;
-        "default" = _AhTXkHAA;
+        "pkg-0.1.1" = _4IPUSIXz;
+        "default" = _4IPUSIXz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraftdingdongji";

@@ -1521,6 +1521,16 @@ let
             "file" = "AsyncParticles-21.1.5.0-beta.1+1.21.1.jar";
             "hash" = "sha512-pVv50hZObQCVm0APvojAsa4l+PN3B8OFhx00uvl6hSQPxvfJzETOLSNsw+EUNtLg8eksj7Y8M7zdmAvoOOjqpA==";
         };
+        _ZCHsCohA = {
+            "id" = "ZCHsCohA";
+            "file" = "AsyncParticles-21.1.4.11+1.21.1.jar";
+            "hash" = "sha512-j70zi08SN7FhWB5LV8sKqpP9kfLFquTF03eG81evUOe6l+rdKwRHeMg5QWwBv+0Stc4HdffJi0aKsVf/ye42fw==";
+        };
+        _D3J2BqEp = {
+            "id" = "D3J2BqEp";
+            "file" = "AsyncParticles-20.1.4.5+1.20.1.jar";
+            "hash" = "sha512-LP4Ru3+XWLTetV8q82XDMHRuJ9rj6iHp4yGZSWH0hDQecbAUUTGM1+5zMSfVglAcUGqZDMj0d1TPoMr3iTnVeQ==";
+        };
     in {
         "GzezCLf9" = _GzezCLf9;
         "HaBZAlE0" = _HaBZAlE0;
@@ -1826,9 +1836,11 @@ let
         "qLpoOaqY" = _qLpoOaqY;
         "Ruqe5dGD" = _Ruqe5dGD;
         "4fZjXXDy" = _4fZjXXDy;
-        "fabric-1.20.1" = _Ruqe5dGD;
+        "ZCHsCohA" = _ZCHsCohA;
+        "D3J2BqEp" = _D3J2BqEp;
+        "fabric-1.20.1" = _D3J2BqEp;
         "fabric-1.21" = _NhjwLSEy;
-        "fabric-1.21.1" = _4fZjXXDy;
+        "fabric-1.21.1" = _ZCHsCohA;
         "fabric-1.21.4" = _l3lpwKZl;
         "fabric-1.21.5" = _6w5WtEx2;
         "fabric-1.21.6" = _hln1vTm4;
@@ -1844,9 +1856,9 @@ let
         "fabric-26.3-snapshot-7" = _SnE4O1Sk;
         "fabric-26.3-rc-3" = _FmbchDVp;
         "fabric-26.3" = _msLpUZAi;
-        "forge-1.20.1" = _Ruqe5dGD;
+        "forge-1.20.1" = _D3J2BqEp;
         "neoforge-1.21" = _NhjwLSEy;
-        "neoforge-1.21.1" = _4fZjXXDy;
+        "neoforge-1.21.1" = _ZCHsCohA;
         "neoforge-1.20.1" = _bw4JNVwQ;
         "neoforge-1.21.4" = _l3lpwKZl;
         "neoforge-1.21.5" = _6w5WtEx2;
@@ -2165,7 +2177,9 @@ let
         "pkg-21.1.4.10" = _qLpoOaqY;
         "pkg-20.1.4.4" = _Ruqe5dGD;
         "pkg-21.1.5.0-beta.1" = _4fZjXXDy;
-        "default" = _4fZjXXDy;
+        "pkg-21.1.4.11" = _ZCHsCohA;
+        "pkg-20.1.4.5" = _D3J2BqEp;
+        "default" = _D3J2BqEp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asyncparticles";

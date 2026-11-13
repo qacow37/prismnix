@@ -16,10 +16,16 @@ let
             "file" = "no-falldamage-1.0.3.jar";
             "hash" = "sha512-l5zMCH8mEHLSKxrEeUkeX71qIatfklfG1gwYb0muuXK5zqOyZruQDw1UM4xueVOPtfGGpDUnahrsLIir7xUu1g==";
         };
+        _YLsu2Tx6 = {
+            "id" = "YLsu2Tx6";
+            "file" = "No fall damage 1.0.3.zip";
+            "hash" = "sha512-57phYamWI1DoAPsmAO7+YBBV758vIrz9m0g0og1zNdft07XCWtTrvwopx5apq6xs3WUhx+HBKkdrEZ+/1VIzvQ==";
+        };
     in {
         "eaPiiuWC" = _eaPiiuWC;
         "RJ15tGi0" = _RJ15tGi0;
         "iNmLSr3q" = _iNmLSr3q;
+        "YLsu2Tx6" = _YLsu2Tx6;
         "fabric-1.21.5" = _eaPiiuWC;
         "fabric-1.21.6" = _eaPiiuWC;
         "fabric-1.21.7" = _eaPiiuWC;
@@ -45,10 +51,18 @@ let
         "datapack-1.21.7" = _RJ15tGi0;
         "datapack-1.21.8" = _RJ15tGi0;
         "datapack-1.21.9" = _RJ15tGi0;
+        "datapack-1.21.10" = _YLsu2Tx6;
+        "datapack-1.21.11" = _YLsu2Tx6;
+        "datapack-26.1" = _YLsu2Tx6;
+        "datapack-26.1.1" = _YLsu2Tx6;
+        "datapack-26.1.2" = _YLsu2Tx6;
+        "datapack-26.2" = _YLsu2Tx6;
+        "datapack-26.3" = _YLsu2Tx6;
         "pkg-1.0.2+mod" = _eaPiiuWC;
         "pkg-1.0.3" = _RJ15tGi0;
         "pkg-1.0.3+neo" = _iNmLSr3q;
-        "default" = _iNmLSr3q;
+        "pkg-1.0.4" = _YLsu2Tx6;
+        "default" = _YLsu2Tx6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-falldamage";

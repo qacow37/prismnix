@@ -51,6 +51,11 @@ let
             "file" = "custom-crops-1.1.1+26.2.jar";
             "hash" = "sha512-txFs03LRkWi3uadTmSBlzkY3UR7BeKIa2ESXtQDZ/CRd1HrxJPx8wVMk8cFkaERZH2HUx3FyBTtL60aSEAUX1g==";
         };
+        _fUhVK1h4 = {
+            "id" = "fUhVK1h4";
+            "file" = "custom-crops-1.1.1+26.3.jar";
+            "hash" = "sha512-ezcrVZx2NiAubImKty7irWTMjnRwbOR8Tu8uYfZMjnD0EmWbGKxZSWa4nsw/edMpYX3rE4FXZTS4195c8U6pNA==";
+        };
     in {
         "IgiRgLgU" = _IgiRgLgU;
         "lysbmTbL" = _lysbmTbL;
@@ -62,6 +67,7 @@ let
         "DF3kxpuX" = _DF3kxpuX;
         "nFxW4bjI" = _nFxW4bjI;
         "pSRXytQM" = _pSRXytQM;
+        "fUhVK1h4" = _fUhVK1h4;
         "fabric-1.21.4" = _lysbmTbL;
         "fabric-1.21.5" = _NS8k46Db;
         "fabric-1.21.6" = _jfjcKsKf;
@@ -74,11 +80,13 @@ let
         "fabric-26.1.1" = _nFxW4bjI;
         "fabric-26.1.2" = _nFxW4bjI;
         "fabric-26.2" = _pSRXytQM;
+        "fabric-26.3" = _fUhVK1h4;
         "pkg-1.0.0" = _BYljr2wt;
         "pkg-1.1.0" = _9s7kVokm;
         "pkg-1.1.1" = _nFxW4bjI;
         "pkg-1.1.1+26.2" = _pSRXytQM;
-        "default" = _pSRXytQM;
+        "pkg-1.1.1+26.3" = _fUhVK1h4;
+        "default" = _fUhVK1h4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-crops";

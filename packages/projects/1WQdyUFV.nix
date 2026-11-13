@@ -36,6 +36,11 @@ let
             "file" = "createfiltersanywhere-1.21.1-2.7.0.jar";
             "hash" = "sha512-I8TuwVPrVamAzILHoWIKpsDe2wpiItqQkKKICGpRkwzGDv1OMwIvx1jnSDaYPoSTcaWIbRnCYk5FCNWfp1P3rg==";
         };
+        _7XWamjKE = {
+            "id" = "7XWamjKE";
+            "file" = "createfiltersanywhere-1.21.1-2.8.0.jar";
+            "hash" = "sha512-BrZwvl45JXt1TRxSZJdlJhFbVTgsdMYV0Xq9LyO3cbMMDfl4DHyJ1c7TbVfNUe6EXJaaeN/XUCH79qNNaSPGwQ==";
+        };
     in {
         "mkMXhjav" = _mkMXhjav;
         "SbVf543o" = _SbVf543o;
@@ -44,18 +49,19 @@ let
         "vukZLEc6" = _vukZLEc6;
         "Xc3MdZHc" = _Xc3MdZHc;
         "CvwxYBxp" = _CvwxYBxp;
-        "neoforge-1.21.1" = _CvwxYBxp;
+        "7XWamjKE" = _7XWamjKE;
+        "neoforge-1.21.1" = _7XWamjKE;
         "neoforge-1.21" = _vukZLEc6;
-        "neoforge-1.21.2" = _CvwxYBxp;
-        "neoforge-1.21.3" = _CvwxYBxp;
-        "neoforge-1.21.4" = _CvwxYBxp;
-        "neoforge-1.21.5" = _CvwxYBxp;
-        "neoforge-1.21.6" = _CvwxYBxp;
-        "neoforge-1.21.7" = _CvwxYBxp;
-        "neoforge-1.21.8" = _CvwxYBxp;
-        "neoforge-1.21.9" = _CvwxYBxp;
-        "neoforge-1.21.10" = _CvwxYBxp;
-        "neoforge-1.21.11" = _CvwxYBxp;
+        "neoforge-1.21.2" = _7XWamjKE;
+        "neoforge-1.21.3" = _7XWamjKE;
+        "neoforge-1.21.4" = _7XWamjKE;
+        "neoforge-1.21.5" = _7XWamjKE;
+        "neoforge-1.21.6" = _7XWamjKE;
+        "neoforge-1.21.7" = _7XWamjKE;
+        "neoforge-1.21.8" = _7XWamjKE;
+        "neoforge-1.21.9" = _7XWamjKE;
+        "neoforge-1.21.10" = _7XWamjKE;
+        "neoforge-1.21.11" = _7XWamjKE;
         "forge-1.20.1" = _nU0osBHZ;
         "forge-1.20.2" = _nU0osBHZ;
         "forge-1.20.3" = _nU0osBHZ;
@@ -69,7 +75,8 @@ let
         "pkg-2.2.0" = _vukZLEc6;
         "pkg-2.3.0" = _Xc3MdZHc;
         "pkg-2.7.0" = _CvwxYBxp;
-        "default" = _CvwxYBxp;
+        "pkg-2.8.0" = _7XWamjKE;
+        "default" = _7XWamjKE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-filters-anywhere";

@@ -31,6 +31,11 @@ let
             "file" = "AL's Scorpions & Crabs+FA 2.0.zip";
             "hash" = "sha512-IPvFimcAkjq1CxFrCQisS0NAu5ZzBt+yaspoLV/EQAt9YvJdfY2m6SBR2icpCzOxHFhPeyLiIb1DBhCb7pFsAQ==";
         };
+        _oFYIzzrA = {
+            "id" = "oFYIzzrA";
+            "file" = "AL's Scorpions & Crabs+FA 2.0.1.zip";
+            "hash" = "sha512-mO9qXejXMQR24V0vZK/oRbQvUeHwlaZQdHv5Y7sFBH4ESWVhrTd+x0ZekOjBOu8JTqp7lCxlTiodBmSwNtQtyQ==";
+        };
     in {
         "kQ2klcof" = _kQ2klcof;
         "fmyXvW7h" = _fmyXvW7h;
@@ -38,6 +43,7 @@ let
         "jdiNEHgQ" = _jdiNEHgQ;
         "7fJVypts" = _7fJVypts;
         "7BnQ8QzY" = _7BnQ8QzY;
+        "oFYIzzrA" = _oFYIzzrA;
         "minecraft-1.20.6" = _kQ2klcof;
         "minecraft-1.21" = _kQ2klcof;
         "minecraft-1.21.1" = _kQ2klcof;
@@ -48,17 +54,19 @@ let
         "minecraft-1.21.9" = _7BnQ8QzY;
         "minecraft-1.21.10" = _7BnQ8QzY;
         "minecraft-1.21.11" = _7BnQ8QzY;
-        "minecraft-26.1" = _7BnQ8QzY;
-        "minecraft-26.1.1" = _7BnQ8QzY;
-        "minecraft-26.1.2" = _7BnQ8QzY;
-        "minecraft-26.2" = _7BnQ8QzY;
+        "minecraft-26.1" = _oFYIzzrA;
+        "minecraft-26.1.1" = _oFYIzzrA;
+        "minecraft-26.1.2" = _oFYIzzrA;
+        "minecraft-26.2" = _oFYIzzrA;
+        "minecraft-26.3" = _oFYIzzrA;
         "pkg-1.0" = _kQ2klcof;
         "pkg-1.1" = _fmyXvW7h;
         "pkg-1.1.1" = _V2xCe3hP;
         "pkg-1.1.2" = _jdiNEHgQ;
         "pkg-1.2" = _7fJVypts;
         "pkg-2.0" = _7BnQ8QzY;
-        "default" = _7BnQ8QzY;
+        "pkg-2.0.1" = _oFYIzzrA;
+        "default" = _oFYIzzrA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "als-scorpions-crabs-x-fresh-animations";

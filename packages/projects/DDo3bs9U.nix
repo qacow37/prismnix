@@ -141,6 +141,16 @@ let
             "file" = "simple_gems-0.10.3+26.1.jar";
             "hash" = "sha512-X/TTc5BkuY7DP/KOEQ3ztcv0mC22BJY7nvly6Mx6L/5G0B+Uo/B8gQJllh2jYdif361yv92tvK/ABkl0a42UmQ==";
         };
+        _B0WJMC5x = {
+            "id" = "B0WJMC5x";
+            "file" = "simple_gems-0.11.0+26.1.jar";
+            "hash" = "sha512-9+3IA6ItVIzCzOGS/X0PdcyqW/OWP44jqmbXfa8OlkA3xio9+KMMw02lfpATHG6UKIOEpDfXrht8pxAXDuc+TA==";
+        };
+        _2DEFKELj = {
+            "id" = "2DEFKELj";
+            "file" = "simple_gems-0.11.0+26.2.jar";
+            "hash" = "sha512-orDKjIZ+zRx4BfAtjaJIgu68KKfytdBH6Tknipw+bealx8tnG1zT0lAh3tc1pNjm46pJgpfW2Oi0JbJWbRivvg==";
+        };
     in {
         "DuOC3bLe" = _DuOC3bLe;
         "r5XzMjIZ" = _r5XzMjIZ;
@@ -170,6 +180,8 @@ let
         "AM2Q9cIc" = _AM2Q9cIc;
         "JJEnwAXq" = _JJEnwAXq;
         "2vO7xC8R" = _2vO7xC8R;
+        "B0WJMC5x" = _B0WJMC5x;
+        "2DEFKELj" = _2DEFKELj;
         "fabric-1.20.1" = _ZAwxYMII;
         "fabric-1.20.4" = _Ktl9Ut9G;
         "fabric-1.21" = _w6Sa6WBe;
@@ -184,8 +196,10 @@ let
         "fabric-1.21.9" = _OawR5Fts;
         "fabric-1.21.10" = _NiYq2fOG;
         "fabric-1.21.11" = _JJEnwAXq;
-        "fabric-26.1" = _2vO7xC8R;
-        "fabric-26.1.1" = _2vO7xC8R;
+        "fabric-26.1" = _B0WJMC5x;
+        "fabric-26.1.1" = _B0WJMC5x;
+        "fabric-26.1.2" = _B0WJMC5x;
+        "fabric-26.2" = _2DEFKELj;
         "pkg-0.1.0" = _DuOC3bLe;
         "pkg-0.2.0" = _r5XzMjIZ;
         "pkg-0.2.1" = _AqPwmEcL;
@@ -214,7 +228,9 @@ let
         "pkg-0.10.2+1.21.11" = _AM2Q9cIc;
         "pkg-0.10.3+1.21.11" = _JJEnwAXq;
         "pkg-0.10.3+26.1" = _2vO7xC8R;
-        "default" = _2vO7xC8R;
+        "pkg-0.11.0+26.1" = _B0WJMC5x;
+        "pkg-0.11.0+26.2" = _2DEFKELj;
+        "default" = _2DEFKELj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-gems-fabricated";

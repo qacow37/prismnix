@@ -526,6 +526,11 @@ let
             "file" = "Powah-8.0.1-alpha.jar";
             "hash" = "sha512-DxgXmQyGAY6JZGDnMqY6NylIiWuBJ5/NuAn2VMOMUaWYTzFNKYY8QOi2lx5grYqmJdtocuFiGgW2jE5jXdGdDw==";
         };
+        _1vM3AToD = {
+            "id" = "1vM3AToD";
+            "file" = "Powah-9.0.0-alpha.jar";
+            "hash" = "sha512-9DL9lL1dtovGvtpo6WbB5dwuE5kCRi6PlEDxmRsYPYv8GFMoG6Di583Rwzk01oON0AvaVUFcgrC+DRGA1DOgag==";
+        };
     in {
         "Kv7GFXWf" = _Kv7GFXWf;
         "nu7tOUhe" = _nu7tOUhe;
@@ -632,6 +637,7 @@ let
         "1prWLuga" = _1prWLuga;
         "bymXTkIP" = _bymXTkIP;
         "brtD7Pyx" = _brtD7Pyx;
+        "1vM3AToD" = _1vM3AToD;
         "forge-1.18.2" = _q6LoUb7z;
         "forge-1.19.1" = _8E6Zh2mP;
         "forge-1.19.2" = _oKOZ4cAb;
@@ -647,6 +653,7 @@ let
         "neoforge-26.1-snapshot-1" = _6vVoXJq4;
         "neoforge-26.1.2" = _bymXTkIP;
         "neoforge-26.2" = _brtD7Pyx;
+        "neoforge-26.3" = _1vM3AToD;
         "pkg-3.0.0-pre.05-forge" = _Kv7GFXWf;
         "pkg-3.0.0-alpha-fabric" = _nu7tOUhe;
         "pkg-3.0.0-alpha-forge" = _ut60QP2N;
@@ -752,7 +759,8 @@ let
         "pkg-6.2.10-neoforge" = _1prWLuga;
         "pkg-7.0.4-alpha-neoforge" = _bymXTkIP;
         "pkg-8.0.1-alpha-neoforge" = _brtD7Pyx;
-        "default" = _brtD7Pyx;
+        "pkg-9.0.0-alpha-neoforge" = _1vM3AToD;
+        "default" = _1vM3AToD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "powah";

@@ -261,6 +261,11 @@ let
             "file" = "BuildPaste_Plugin-1.17.1-26.3v2.1.0.jar";
             "hash" = "sha512-pLc2qDU48Hedqnq7gyK2mQ5340N3e6O3ARRy/Z0IF/Jjwv4XXQqavjR8PE0k4VhhAjtayv5ZW4Goe6XoabwCHg==";
         };
+        _YM3OrQZk = {
+            "id" = "YM3OrQZk";
+            "file" = "BuildPaste_Forge-26.3v3.0.3.jar";
+            "hash" = "sha512-fjAIH5hLaRnvACxY6NbuNkmaopcYYuDePTB+iQoWedBCCc6hN43TXkpo8/zN4RlJoZ9WgxZhUE4RlY/i9cI35g==";
+        };
     in {
         "vIsKcY7V" = _vIsKcY7V;
         "xchO351p" = _xchO351p;
@@ -314,6 +319,7 @@ let
         "WZyXJwCW" = _WZyXJwCW;
         "s3z2ZOJv" = _s3z2ZOJv;
         "nUEsW5fs" = _nUEsW5fs;
+        "YM3OrQZk" = _YM3OrQZk;
         "forge-1.20.1" = _vIsKcY7V;
         "forge-1.19.4" = _6FD0bq63;
         "forge-1.17.1" = _7Lx2Bi0j;
@@ -325,6 +331,7 @@ let
         "forge-1.18.1" = _yqaVCbgC;
         "forge-1.18.2" = _yqaVCbgC;
         "forge-1.19.2" = _4KYbGeej;
+        "forge-26.3" = _YM3OrQZk;
         "fabric-1.20" = _vgT2XBmN;
         "fabric-1.20.1" = _vgT2XBmN;
         "fabric-1.19.4" = _JTWXxpfy;
@@ -519,9 +526,9 @@ let
         "pkg-2.2.1" = _7VusGJsH;
         "pkg-3.0.1" = _Uyz6u4Ik;
         "pkg-3.0.2" = _LqvH5V8x;
-        "pkg-3.0.3" = _s3z2ZOJv;
+        "pkg-3.0.3" = _YM3OrQZk;
         "pkg-2.1.0" = _nUEsW5fs;
-        "default" = _nUEsW5fs;
+        "default" = _YM3OrQZk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildpaste";

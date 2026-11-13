@@ -351,6 +351,21 @@ let
             "file" = "enderio_evolution-4.0.6-NeoForge-26.1.2.jar";
             "hash" = "sha512-7rIwhQAwm7LBFHs3ACc5bVdMCLb1C+s9yQVHmiQ3Z/PrZ1sIzSVrnQA34ATpGQj87XEGFAGsxcXjKqvUm3WGcg==";
         };
+        _Jb6Bt38r = {
+            "id" = "Jb6Bt38r";
+            "file" = "enderio_evolution-4.0.7-NeoForge-26.1.2.jar";
+            "hash" = "sha512-aXgp2gwb71DNu0SF2YPr/GSLt2RWHLg+ZCt/qkf91ON6l+yrg/H40eeJC4VeC57fHYwBwTP0VATpd5VE4kgvPg==";
+        };
+        _bpOd2hA4 = {
+            "id" = "bpOd2hA4";
+            "file" = "enderio_evolution-1.2.6-Forge-1.20.1.jar";
+            "hash" = "sha512-OxzVJzg62jfnC64UW3Xa762EgI17sptHu5twpH4uBktVcKQdYxXJ1Fr0PSQWeo2bK+iCaOOCoSKC41p4ivs1Wg==";
+        };
+        _FJ4ERZVi = {
+            "id" = "FJ4ERZVi";
+            "file" = "enderio_evolution-3.1.6-NeoForge-1.21.1.jar";
+            "hash" = "sha512-EZlTntw5OCuUHOnmsT7T2k4BBwDmTJAu49m+OWDyjIFmDaIdcVQ4KO2mj4mZnij1akFCMTWUah8KA3VckIlJWQ==";
+        };
     in {
         "BcX2EEeH" = _BcX2EEeH;
         "dYuGhtsw" = _dYuGhtsw;
@@ -422,9 +437,12 @@ let
         "WdT604Kz" = _WdT604Kz;
         "MNpiQ4Ju" = _MNpiQ4Ju;
         "aP2us10e" = _aP2us10e;
-        "neoforge-1.21.1" = _nnShL6rj;
-        "neoforge-26.1.2" = _aP2us10e;
-        "forge-1.20.1" = _MNpiQ4Ju;
+        "Jb6Bt38r" = _Jb6Bt38r;
+        "bpOd2hA4" = _bpOd2hA4;
+        "FJ4ERZVi" = _FJ4ERZVi;
+        "neoforge-1.21.1" = _FJ4ERZVi;
+        "neoforge-26.1.2" = _Jb6Bt38r;
+        "forge-1.20.1" = _bpOd2hA4;
         "pkg-1.0.0-1.21.1" = _BcX2EEeH;
         "pkg-1.0.0-1.20.1" = _dYuGhtsw;
         "pkg-1.0.1-1.21.1" = _xZP42HDJ;
@@ -495,7 +513,10 @@ let
         "pkg-1.2.4-Forge-1.20.1" = _WdT604Kz;
         "pkg-1.2.5-Forge-1.20.1" = _MNpiQ4Ju;
         "pkg-4.0.6-NeoForge-26.1.2" = _aP2us10e;
-        "default" = _aP2us10e;
+        "pkg-4.0.7-NeoForge-26.1.2" = _Jb6Bt38r;
+        "pkg-1.2.6-Forge-1.20.1" = _bpOd2hA4;
+        "pkg-3.1.6-NeoForge-1.21.1" = _FJ4ERZVi;
+        "default" = _FJ4ERZVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderio_evolution";

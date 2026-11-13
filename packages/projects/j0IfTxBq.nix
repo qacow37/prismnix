@@ -136,6 +136,31 @@ let
             "file" = "mielon's-the-sift-2.0.2-mc26.2-fabric.jar";
             "hash" = "sha512-eQkRMIsjNWMLu62ftrqgZcWRd2SRGoRfpJfQq4VtlV8MG9E2Te19CfcU43BUgUviBElMHlmYa5+9c/OEoaxBBw==";
         };
+        _kLnqsIbi = {
+            "id" = "kLnqsIbi";
+            "file" = "mielon's-the-sift-2.0.3-mc26.3-fabric.jar";
+            "hash" = "sha512-6fDNcS4ezx9W4EGWEicpUwlHUW0qBg4KbJnqckdd2uwXtmB4vQvC7LdeDo5zwoBeE9+lMsgCf0Ht5DXhFx6g2Q==";
+        };
+        _gfNXHUHB = {
+            "id" = "gfNXHUHB";
+            "file" = "mielon's-the-sift-2.0.3-mc1.21.1-neo.jar";
+            "hash" = "sha512-2wwR4uWV0SjY9cmQSkBoGnbpU8KLKgZaCab7b5aCpt35ly7yuTlZ6lrxR3Dvl7S17n6hHvVeNmlPECO/v4mlwg==";
+        };
+        _v87BArYU = {
+            "id" = "v87BArYU";
+            "file" = "mielon's-the-sift-2.0.3-mc26.1.2-fabric.jar";
+            "hash" = "sha512-XmA/8U+nO63+COJertJS84PFmYYEV1H/K1SsPX0iRf/bDKAhVYZcGqZgGACh9yX688bfGb327/kQ6d3L7FJ7Pg==";
+        };
+        _TuQLUouN = {
+            "id" = "TuQLUouN";
+            "file" = "mielon's-the-sift-2.0.3-mc1.20.1-forge.jar";
+            "hash" = "sha512-vuphXoFJbYKQaArMIthdq8JsMT6pwCbduGVMRLeAy8sZvJ0qyWxzDsyCa4igyUlt5s8D4bIpxSPrnwqJK7Z0ng==";
+        };
+        _OKXfFwDC = {
+            "id" = "OKXfFwDC";
+            "file" = "mielon's-the-sift-2.0.3-mc26.2-fabric.jar";
+            "hash" = "sha512-I/RvQyqLqp5IYA4mo7CpgVTCLDWoX8ymkEt8nLFgB0ox371VQOdkR2EimaBCbbnAV9E61OTwiUht0YN5l+Q/Qg==";
+        };
     in {
         "FnKvuUff" = _FnKvuUff;
         "iYywdz9s" = _iYywdz9s;
@@ -164,10 +189,16 @@ let
         "wT1zJgIy" = _wT1zJgIy;
         "JuShoLSb" = _JuShoLSb;
         "eANpYVGE" = _eANpYVGE;
-        "fabric-26.2" = _eANpYVGE;
-        "fabric-26.3" = _mFSG4o4I;
-        "neoforge-1.21.1" = _wT1zJgIy;
-        "forge-1.20.1" = _JuShoLSb;
+        "kLnqsIbi" = _kLnqsIbi;
+        "gfNXHUHB" = _gfNXHUHB;
+        "v87BArYU" = _v87BArYU;
+        "TuQLUouN" = _TuQLUouN;
+        "OKXfFwDC" = _OKXfFwDC;
+        "fabric-26.2" = _OKXfFwDC;
+        "fabric-26.3" = _kLnqsIbi;
+        "fabric-26.1.2" = _v87BArYU;
+        "neoforge-1.21.1" = _gfNXHUHB;
+        "forge-1.20.1" = _TuQLUouN;
         "pkg-1.0.0" = _FnKvuUff;
         "pkg-1.0.2" = _ZO7hrAOx;
         "pkg-1.1.0" = _UbyC91UB;
@@ -176,7 +207,8 @@ let
         "pkg-2.0.0" = _IkFjLhR1;
         "pkg-2.0.1" = _yd04WXNf;
         "pkg-2.0.2" = _eANpYVGE;
-        "default" = _eANpYVGE;
+        "pkg-2.0.3" = _OKXfFwDC;
+        "default" = _OKXfFwDC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mielons-the-sift";

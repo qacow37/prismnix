@@ -81,6 +81,36 @@ let
             "file" = "UNU Military Pack [MTS] 1.20.1-22.18.0-6.0.3.jar";
             "hash" = "sha512-L25rG8UJFtCnKnuI+7yHI7pi91Q76riNTDtP4pk+o+Ip3flv+78Oj/3hrSUWGA/MzHypLynIrFyLntUPzQcsfw==";
         };
+        _Ebt43pLc = {
+            "id" = "Ebt43pLc";
+            "file" = "UNU Military Pack [MTS] 1.12.2-24.0.0-6.1.0.jar";
+            "hash" = "sha512-4UDEavDSVxEI7uXEfGwWvr88ULcirwxTgbaiMtQ8TF7/ZEXnPSdqvnq3Pcjk/hNz8zCCpefeOu6q9UCkdYgDYw==";
+        };
+        _pqcsUYgp = {
+            "id" = "pqcsUYgp";
+            "file" = "UNU Military Pack [MTS] 1.16.5-24.0.0-6.1.0.jar";
+            "hash" = "sha512-2EjMx2baYqWoCak+aIQ60TTogVG9a+bSbZcv7cU0h7nUjyk6BAQHIyPneDH0wqDZRv8iSR0APx/92kWVGxSAmA==";
+        };
+        _Z0JwAm5I = {
+            "id" = "Z0JwAm5I";
+            "file" = "UNU Military Pack [MTS] 1.18.2-24.0.0-6.1.0.jar";
+            "hash" = "sha512-is3bAfLgnNl2tjxxuug9QiOoFbENoO70YW7irXz7bWsIvwLA/+h/+DQ8s+fWNIKBUPoh4c2qxPuWfsjnumM6sg==";
+        };
+        _to2ceI6a = {
+            "id" = "to2ceI6a";
+            "file" = "UNU Military Pack [MTS] 1.19.2-24.0.0-6.1.0.jar";
+            "hash" = "sha512-lwQR8Ut7e+ss+nh+xDHsu6H3TZ0v13X1/a2HgMR+R1auO6BBqbakPBsrs8H6hpbty43nk3LyMAMEZ/JArbji4w==";
+        };
+        _wxCbRwZT = {
+            "id" = "wxCbRwZT";
+            "file" = "UNU Military Pack [MTS] 1.20.1-24.0.0-6.1.0.jar";
+            "hash" = "sha512-t8XWtXri50AEFRf+/tr4UopNd1uGgpsjZN9V4jjpIPi4N46iU7akHLSTUQ3O7r6W6KH4Pz8Q3Czdo4jVvzyc+w==";
+        };
+        _Q4CTSRjV = {
+            "id" = "Q4CTSRjV";
+            "file" = "UNU Military Pack [MTS] 1.21.1-24.0.0-6.1.0.jar";
+            "hash" = "sha512-hyZEPUtM9gWXNjPlfmRsoZNmbEVnG4Z0L7TUp+o4jCaniOzpiJijDX2Sq94pm11Nk37SyYhX2Lary5GoUVv8mg==";
+        };
     in {
         "kfawy8Mk" = _kfawy8Mk;
         "w6WVZEdA" = _w6WVZEdA;
@@ -98,18 +128,35 @@ let
         "XBTYNjLO" = _XBTYNjLO;
         "vbKdeYX6" = _vbKdeYX6;
         "jFIa24Zx" = _jFIa24Zx;
-        "forge-1.12.2" = _w1db8y0c;
-        "forge-1.16.5" = _BYFszaSf;
-        "forge-1.18.2" = _XBTYNjLO;
-        "forge-1.19.2" = _vbKdeYX6;
-        "forge-1.19.3" = _b0Hdck4T;
-        "forge-1.19.4" = _b0Hdck4T;
-        "forge-1.20.1" = _jFIa24Zx;
-        "forge-1.20.2" = _HZ2kgDF2;
-        "forge-1.20.3" = _HZ2kgDF2;
-        "forge-1.20.4" = _HZ2kgDF2;
-        "forge-1.20.5" = _HZ2kgDF2;
-        "forge-1.20.6" = _HZ2kgDF2;
+        "Ebt43pLc" = _Ebt43pLc;
+        "pqcsUYgp" = _pqcsUYgp;
+        "Z0JwAm5I" = _Z0JwAm5I;
+        "to2ceI6a" = _to2ceI6a;
+        "wxCbRwZT" = _wxCbRwZT;
+        "Q4CTSRjV" = _Q4CTSRjV;
+        "forge-1.12.2" = _Ebt43pLc;
+        "forge-1.16.5" = _pqcsUYgp;
+        "forge-1.18.2" = _Z0JwAm5I;
+        "forge-1.19.2" = _to2ceI6a;
+        "forge-1.19.3" = _to2ceI6a;
+        "forge-1.19.4" = _to2ceI6a;
+        "forge-1.20.1" = _wxCbRwZT;
+        "forge-1.20.2" = _wxCbRwZT;
+        "forge-1.20.3" = _wxCbRwZT;
+        "forge-1.20.4" = _wxCbRwZT;
+        "forge-1.20.5" = _wxCbRwZT;
+        "forge-1.20.6" = _wxCbRwZT;
+        "neoforge-1.21.11" = _Q4CTSRjV;
+        "neoforge-1.21.10" = _Q4CTSRjV;
+        "neoforge-1.21.9" = _Q4CTSRjV;
+        "neoforge-1.21.8" = _Q4CTSRjV;
+        "neoforge-1.21.7" = _Q4CTSRjV;
+        "neoforge-1.21.6" = _Q4CTSRjV;
+        "neoforge-1.21.5" = _Q4CTSRjV;
+        "neoforge-1.21.4" = _Q4CTSRjV;
+        "neoforge-1.21.3" = _Q4CTSRjV;
+        "neoforge-1.21.2" = _Q4CTSRjV;
+        "neoforge-1.21.1" = _Q4CTSRjV;
         "pkg-1.12.2-6.0.0-BETA1" = _kfawy8Mk;
         "pkg-1.16.5-6.0.0-BETA1" = _w6WVZEdA;
         "pkg-1.12.2-6.0.0" = _1zNAxRXi;
@@ -126,7 +173,13 @@ let
         "pkg-1.18.2-6.0.3" = _XBTYNjLO;
         "pkg-1.19.2-6.0.3" = _vbKdeYX6;
         "pkg-6.0.3" = _jFIa24Zx;
-        "default" = _jFIa24Zx;
+        "pkg-1.12.2-6.1.0" = _Ebt43pLc;
+        "pkg-1.16.5-6.1.0" = _pqcsUYgp;
+        "pkg-1.18.2-6.1.0" = _Z0JwAm5I;
+        "pkg-1.19.2-6.1.0" = _to2ceI6a;
+        "pkg-1.20.1-6.1.0" = _wxCbRwZT;
+        "pkg-1.21.1-6.1.0" = _Q4CTSRjV;
+        "default" = _Q4CTSRjV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unu-military-pack";

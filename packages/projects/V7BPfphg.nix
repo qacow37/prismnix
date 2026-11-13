@@ -226,6 +226,16 @@ let
             "file" = "compass-to-map-xaero-0.1.3+neoforge-26.2.jar";
             "hash" = "sha512-PXL/cgVbPklvM9tS9vXmrNaYef+cbFcDFKO2VRR29YY2bzv2G4NERc0PCgAL8BrxFk6NtLiekN4ffATzWpLILw==";
         };
+        _cVMjPnZ8 = {
+            "id" = "cVMjPnZ8";
+            "file" = "compass-to-map-xaero-0.1.3+neoforge-26.3.jar";
+            "hash" = "sha512-dtpg1bDOsA9tAouTa11AvbBEYbLMFH0ddtjTCKr3UlxTMbXZpvCoe/jXK64m/OkTGQAGKrWzF4YKpJ0Pk/h4iA==";
+        };
+        _yRpIjxwO = {
+            "id" = "yRpIjxwO";
+            "file" = "compass-to-map-xaero-0.1.3+fabric-26.3.jar";
+            "hash" = "sha512-WUv/KXyfxGrEWrN6XHv5yuzqkHu57B3HbZ7+fgPWznKr7aNbfrXHx9oJOI2gTzJvpriEhBRlJ+d0cMDbxnn16A==";
+        };
     in {
         "1IWubHUM" = _1IWubHUM;
         "AfmH74ZA" = _AfmH74ZA;
@@ -272,12 +282,15 @@ let
         "Wy2BHh5Q" = _Wy2BHh5Q;
         "pv1R4WYa" = _pv1R4WYa;
         "hGVxCnKV" = _hGVxCnKV;
+        "cVMjPnZ8" = _cVMjPnZ8;
+        "yRpIjxwO" = _yRpIjxwO;
         "neoforge-1.21.1" = _hDtTsPhZ;
         "neoforge-1.21.4" = _zZkjzFRc;
         "neoforge-1.21.8" = _Wy2BHh5Q;
         "neoforge-1.21.11" = _MzCAoyB6;
         "neoforge-26.2" = _hGVxCnKV;
         "neoforge-26.1.2" = _pv1R4WYa;
+        "neoforge-26.3" = _cVMjPnZ8;
         "forge-1.21.1" = _zVzqdzxi;
         "forge-1.20.1" = _2ZJL46uO;
         "fabric-1.21.1" = _vpCWmMwo;
@@ -287,6 +300,7 @@ let
         "fabric-1.21.11" = _Xb45hXZs;
         "fabric-26.2" = _G9DRHo3J;
         "fabric-26.1.2" = _AcrKXsGv;
+        "fabric-26.3" = _yRpIjxwO;
         "pkg-0.1.1" = _1IWubHUM;
         "pkg-0.1.1+forge-1.21.1" = _AfmH74ZA;
         "pkg-0.1.1+forge-1.20.1" = _aHY4vFbz;
@@ -332,7 +346,9 @@ let
         "pkg-0.1.3+neoforge-1.21.8" = _Wy2BHh5Q;
         "pkg-0.1.3+neoforge-26.1.2" = _pv1R4WYa;
         "pkg-0.1.3+neoforge-26.2" = _hGVxCnKV;
-        "default" = _hGVxCnKV;
+        "pkg-0.1.3+neoforge-26.3" = _cVMjPnZ8;
+        "pkg-0.1.3+fabric-26.3" = _yRpIjxwO;
+        "default" = _yRpIjxwO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-to-map-xaeros";

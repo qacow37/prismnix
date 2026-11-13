@@ -221,6 +221,11 @@ let
             "file" = "shape-shifter-curse-addon-8.0.0-neomagic.55.jar";
             "hash" = "sha512-luPDMyGp4IzPDqhtxAjdUZ2ESO8krIn3OoKfs9siYkGpDnNU58wno9LIAXMY16XCS92Mr1saeLZtzhCpaRHQkw==";
         };
+        _1mNReeEo = {
+            "id" = "1mNReeEo";
+            "file" = "shape-shifter-curse-addon-8.0.0-beta.5.jar";
+            "hash" = "sha512-KICfkAhYgesPN0CJuTeQXeErExGzHQwCMrE9aSZwUbOMGUW2GsAER/cPOSJUHOn985d9jL811vGHjhOpXlLlmg==";
+        };
     in {
         "LworypNJ" = _LworypNJ;
         "zWsJexDC" = _zWsJexDC;
@@ -266,7 +271,8 @@ let
         "B4JDtv9n" = _B4JDtv9n;
         "w1EXhD5y" = _w1EXhD5y;
         "3qqQAZxh" = _3qqQAZxh;
-        "fabric-1.20.1" = _3qqQAZxh;
+        "1mNReeEo" = _1mNReeEo;
+        "fabric-1.20.1" = _1mNReeEo;
         "fabric-1.21.1" = _bTCxBm3J;
         "neoforge-1.21.1" = _bTCxBm3J;
         "pkg-1.0.0" = _LworypNJ;
@@ -313,7 +319,8 @@ let
         "pkg-v8.0.0-magic-dev.1-ssc-1.9.2" = _B4JDtv9n;
         "pkg-8.0.0-magic-dev.3-ssc-1.9.2" = _w1EXhD5y;
         "pkg-8.0.0-neomagic.55" = _3qqQAZxh;
-        "default" = _3qqQAZxh;
+        "pkg-8.0.0-beta.5" = _1mNReeEo;
+        "default" = _1mNReeEo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shape-shifter-curse-addon";

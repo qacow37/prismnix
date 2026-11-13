@@ -226,6 +226,36 @@ let
             "file" = "UNU Parts Pack [MTS] 1.20.1-22.18.0-6.7.3.jar";
             "hash" = "sha512-ytIcnyKcNkIKwaL3JCGGzeI/2SmF5OcB6yNxj1sHKDfPI2jVyHsXrZwLIIOojtQ4Q915WM+iRO1ptnFNYQxQxA==";
         };
+        _FEezmHmN = {
+            "id" = "FEezmHmN";
+            "file" = "UNU Parts Pack [MTS] 1.12.2-24.0.0-6.8.0.jar";
+            "hash" = "sha512-HY9vpQc3F/SN+XADb4PWkWffyINmzDLl/JtRODjqcABV1fSQKw+qzlsrKIIxlX84bTbAfniC4plAWb7atdOT2g==";
+        };
+        _H6E7kssO = {
+            "id" = "H6E7kssO";
+            "file" = "UNU Parts Pack [MTS] 1.16.5-24.0.0-6.8.0.jar";
+            "hash" = "sha512-ymFsYIk3276xM6D4gyUQoKamQGqmfczMONcshzx5XxcVxj1NfsUEJsGCIR2fikN638cT6StjY8cHqqkD1IhGZA==";
+        };
+        _7QQ1T4mb = {
+            "id" = "7QQ1T4mb";
+            "file" = "UNU Parts Pack [MTS] 1.18.2-24.0.0-6.8.0.jar";
+            "hash" = "sha512-wDX2UewmmaRi5l+d5QmZxSrda4MKRdWwZZAqEsF/EhARUSj9I/qIgGPCBsE0hFPf4OirbNeSKihJ5FVnpp1RSA==";
+        };
+        _TaxdN8bK = {
+            "id" = "TaxdN8bK";
+            "file" = "UNU Parts Pack [MTS] 1.19.2-24.0.0-6.8.0.jar";
+            "hash" = "sha512-xymHMtVRvihakbG2UB2cZaJ52KRunusk5xSMgxlhvAvKXTB8OrIzvPW0yeEw3J3XCO9cUtFUio6b6xTqvId/8A==";
+        };
+        _fgyPi6I9 = {
+            "id" = "fgyPi6I9";
+            "file" = "UNU Parts Pack [MTS] 1.20.1-24.0.0-6.8.0.jar";
+            "hash" = "sha512-MiIzWXzlPKvDDjyjMRm1ER7chnCww+zFropLMUKa4UZwRAk/Afihm0dCWS0u5F/TgtjGZl2j431njE8cGaDAXw==";
+        };
+        _5ikXrJTW = {
+            "id" = "5ikXrJTW";
+            "file" = "UNU Parts Pack [MTS] 1.21.1-24.0.0-6.8.0.jar";
+            "hash" = "sha512-DaupZ2nr2R+0JvLUmlF29PDqDyeFS/722oWCaytPBnJ8eeRtLj4ZcO6+p/HlBGHgGfnpodGM+5vCy70640dTCw==";
+        };
     in {
         "6tzRsFee" = _6tzRsFee;
         "kzDdQqfl" = _kzDdQqfl;
@@ -272,18 +302,35 @@ let
         "SwA3AFwJ" = _SwA3AFwJ;
         "nPMcjuZd" = _nPMcjuZd;
         "i1Hf4saR" = _i1Hf4saR;
-        "forge-1.12.2" = _okeJkJro;
-        "forge-1.16.5" = _VjpyvdIF;
-        "forge-1.18.2" = _SwA3AFwJ;
-        "forge-1.19.2" = _nPMcjuZd;
-        "forge-1.19.3" = _Prt2LQuc;
-        "forge-1.19.4" = _Prt2LQuc;
-        "forge-1.20.1" = _i1Hf4saR;
-        "forge-1.20.2" = _RYhtdX2F;
-        "forge-1.20.3" = _RYhtdX2F;
-        "forge-1.20.4" = _RYhtdX2F;
-        "forge-1.20.5" = _RYhtdX2F;
-        "forge-1.20.6" = _RYhtdX2F;
+        "FEezmHmN" = _FEezmHmN;
+        "H6E7kssO" = _H6E7kssO;
+        "7QQ1T4mb" = _7QQ1T4mb;
+        "TaxdN8bK" = _TaxdN8bK;
+        "fgyPi6I9" = _fgyPi6I9;
+        "5ikXrJTW" = _5ikXrJTW;
+        "forge-1.12.2" = _FEezmHmN;
+        "forge-1.16.5" = _H6E7kssO;
+        "forge-1.18.2" = _7QQ1T4mb;
+        "forge-1.19.2" = _TaxdN8bK;
+        "forge-1.19.3" = _TaxdN8bK;
+        "forge-1.19.4" = _TaxdN8bK;
+        "forge-1.20.1" = _fgyPi6I9;
+        "forge-1.20.2" = _fgyPi6I9;
+        "forge-1.20.3" = _fgyPi6I9;
+        "forge-1.20.4" = _fgyPi6I9;
+        "forge-1.20.5" = _fgyPi6I9;
+        "forge-1.20.6" = _fgyPi6I9;
+        "neoforge-1.21.11" = _5ikXrJTW;
+        "neoforge-1.21.10" = _5ikXrJTW;
+        "neoforge-1.21.9" = _5ikXrJTW;
+        "neoforge-1.21.8" = _5ikXrJTW;
+        "neoforge-1.21.7" = _5ikXrJTW;
+        "neoforge-1.21.6" = _5ikXrJTW;
+        "neoforge-1.21.5" = _5ikXrJTW;
+        "neoforge-1.21.4" = _5ikXrJTW;
+        "neoforge-1.21.3" = _5ikXrJTW;
+        "neoforge-1.21.2" = _5ikXrJTW;
+        "neoforge-1.21.1" = _5ikXrJTW;
         "pkg-6.0.0" = _kzDdQqfl;
         "pkg-6.0.1" = _3Ub2vGJ3;
         "pkg-6.0.2" = _tNzFEWLm;
@@ -317,7 +364,13 @@ let
         "pkg-1.18.2-6.7.3" = _SwA3AFwJ;
         "pkg-1.19.2-6.7.3" = _nPMcjuZd;
         "pkg-1.20.1-6.7.3" = _i1Hf4saR;
-        "default" = _i1Hf4saR;
+        "pkg-1.12.2-6.8.0" = _FEezmHmN;
+        "pkg-1.16.5-6.8.0" = _H6E7kssO;
+        "pkg-1.18.2-6.8.0" = _7QQ1T4mb;
+        "pkg-1.19.2-6.8.0" = _TaxdN8bK;
+        "pkg-1.20.1-6.8.0" = _fgyPi6I9;
+        "pkg-1.21.1-6.8.0" = _5ikXrJTW;
+        "default" = _5ikXrJTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unu-parts-pack";

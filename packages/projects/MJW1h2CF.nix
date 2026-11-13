@@ -211,6 +211,36 @@ let
             "file" = "cadeditor-26.3-0.5.6-neoforge.jar";
             "hash" = "sha512-QVCsefsxIzwHJALQ5uGf67QSfp35St3ZxIT1SzaoJn2Ia9PUtaTwYZ4gFGxbXnqyPx9IrtXJEXrVeDntmTBm/A==";
         };
+        _Wtcje6WK = {
+            "id" = "Wtcje6WK";
+            "file" = "cadeditor-fabric-26.1.2-0.99.8.jar";
+            "hash" = "sha512-/RsS+CSgT4HYcImtJFvDKA8NTiKcke3EKVS5XcgmsaQ2WX+B7YwO/rrj5ZDd17bIPHImAWnvFRB1j9V/HN+/YA==";
+        };
+        _aKnkLbVm = {
+            "id" = "aKnkLbVm";
+            "file" = "cadeditor-fabric-26.2-0.99.8.jar";
+            "hash" = "sha512-Okfg2pJao7h3NEW8LZPbHhtfwtxq2LdRx+eFkGx0gdmkn8HSRgyTu1k6iUJL6PvxB/abyZYnmSjN59OGUXss3A==";
+        };
+        _sXvTDOHL = {
+            "id" = "sXvTDOHL";
+            "file" = "cadeditor-fabric-26.3-0.99.8.jar";
+            "hash" = "sha512-7aR2xXOL5T61kBrGpLVW5Z70y17nDtJf4RSeKeajRKC5MObVn7OLyEH2VVyvB3I3InqLL7oGysg10l8//OEkLw==";
+        };
+        _EqQI0V34 = {
+            "id" = "EqQI0V34";
+            "file" = "cadeditor-neoforge-26.1.2-0.99.8.jar";
+            "hash" = "sha512-D6tvezrqLOqy+DqY2l9rkv4/bFVm9rcSkmAp6MOEUKB7WFCzbBdbMZLq4pBB8vJQ59MDMXcFvNENKrMbwYbMLA==";
+        };
+        _bYzq7rfN = {
+            "id" = "bYzq7rfN";
+            "file" = "cadeditor-neoforge-26.2-0.99.8.jar";
+            "hash" = "sha512-k1XHENCdY3m+w5NqGzTigOAQok4aSCg5/DgXpGkxavgc3QnkVwzRc9cRPd+fOjE1s/8VuGDlIsMOanc3xUNJuw==";
+        };
+        _xwN80lRh = {
+            "id" = "xwN80lRh";
+            "file" = "cadeditor-neoforge-26.3-0.99.8.jar";
+            "hash" = "sha512-ej4hoNlaNkH9vh9/B/nUEY7kUigQInPFZwvrCm7hEUDJnlNbGTKE/fj3676pMnMNXABTGPlr9E6XysHbGImtsQ==";
+        };
     in {
         "zgw1MiTE" = _zgw1MiTE;
         "9FbPXuRY" = _9FbPXuRY;
@@ -254,24 +284,30 @@ let
         "ZrI1OnZC" = _ZrI1OnZC;
         "dcWu3DoC" = _dcWu3DoC;
         "R7H8vHWk" = _R7H8vHWk;
+        "Wtcje6WK" = _Wtcje6WK;
+        "aKnkLbVm" = _aKnkLbVm;
+        "sXvTDOHL" = _sXvTDOHL;
+        "EqQI0V34" = _EqQI0V34;
+        "bYzq7rfN" = _bYzq7rfN;
+        "xwN80lRh" = _xwN80lRh;
         "neoforge-1.21.1" = _5qgNO9fQ;
         "neoforge-1.21.4" = _LAjRGLSU;
         "neoforge-1.21.8" = _M06idNsk;
         "neoforge-1.21.10" = _OkRoN18G;
         "neoforge-1.21.11" = _leIdR9aF;
         "neoforge-26.1" = _AjuZ6AO4;
-        "neoforge-26.1.2" = _j4LVeCqT;
-        "neoforge-26.2" = _ZrI1OnZC;
-        "neoforge-26.3" = _R7H8vHWk;
+        "neoforge-26.1.2" = _EqQI0V34;
+        "neoforge-26.2" = _bYzq7rfN;
+        "neoforge-26.3" = _xwN80lRh;
         "fabric-1.21.1" = _9zFqxgjW;
         "fabric-1.21.4" = _kBKQnT6q;
         "fabric-1.21.8" = _qEE09Gml;
         "fabric-1.21.10" = _O3RUYiPM;
         "fabric-1.21.11" = _ddluRldu;
         "fabric-26.1" = _GDY5dqHs;
-        "fabric-26.1.2" = _PqIzHqoR;
-        "fabric-26.2" = _x9M0hfHu;
-        "fabric-26.3" = _dcWu3DoC;
+        "fabric-26.1.2" = _Wtcje6WK;
+        "fabric-26.2" = _aKnkLbVm;
+        "fabric-26.3" = _sXvTDOHL;
         "forge-1.21.11" = _leIdR9aF;
         "pkg-0.0.1" = _9FbPXuRY;
         "pkg-0.0.2" = _vsmAb21N;
@@ -289,7 +325,13 @@ let
         "pkg-0.5.4" = _7fItNsb9;
         "pkg-0.5.5" = _1japKa2c;
         "pkg-0.5.6" = _R7H8vHWk;
-        "default" = _R7H8vHWk;
+        "pkg-0.99.8+fabric-26.1.2" = _Wtcje6WK;
+        "pkg-0.99.8+fabric-26.2" = _aKnkLbVm;
+        "pkg-0.99.8+fabric-26.3" = _sXvTDOHL;
+        "pkg-0.99.8+neoforge-26.1.2" = _EqQI0V34;
+        "pkg-0.99.8+neoforge-26.2" = _bYzq7rfN;
+        "pkg-0.99.8+neoforge-26.3" = _xwN80lRh;
+        "default" = _xwN80lRh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cad-editor";

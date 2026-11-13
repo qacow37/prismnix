@@ -41,6 +41,11 @@ let
             "file" = "railed-1.1.3+26.2.jar";
             "hash" = "sha512-s0fKiNWkrffPeiZzCKXJLnWXuEK0jnIh07EndRsVBgRQ9JXI4ToGnGc6J70cj7tKlfTMoWYxpuANXQIOIwyRKg==";
         };
+        _H9uW64U0 = {
+            "id" = "H9uW64U0";
+            "file" = "railed-1.1.3+26.3.jar";
+            "hash" = "sha512-HfI88qhlsYXxPCHpz/+otjej1O42Ablt5Or0yoxBFhcGvfEyQpE+WD7fEWOSr/YfJY9zuFdrP+RWLsiUy6QVsA==";
+        };
     in {
         "yZwZ3jwX" = _yZwZ3jwX;
         "LyyEbEUP" = _LyyEbEUP;
@@ -50,6 +55,7 @@ let
         "kIJOqASy" = _kIJOqASy;
         "SxCpqp4b" = _SxCpqp4b;
         "UTc4MuSG" = _UTc4MuSG;
+        "H9uW64U0" = _H9uW64U0;
         "fabric-1.21" = _LyyEbEUP;
         "fabric-1.21.1" = _LyyEbEUP;
         "fabric-1.21.5" = _TZgJqZ9q;
@@ -63,6 +69,7 @@ let
         "fabric-26.1.1" = _SxCpqp4b;
         "fabric-26.1.2" = _SxCpqp4b;
         "fabric-26.2" = _UTc4MuSG;
+        "fabric-26.3" = _H9uW64U0;
         "pkg-mc1.21-1.0.0" = _yZwZ3jwX;
         "pkg-1.1.0+1.21.1" = _LyyEbEUP;
         "pkg-1.1.0+1.21.5" = _TZgJqZ9q;
@@ -71,7 +78,8 @@ let
         "pkg-1.1.1+26.1" = _kIJOqASy;
         "pkg-1.1.2+26.1" = _SxCpqp4b;
         "pkg-1.1.3+26.2" = _UTc4MuSG;
-        "default" = _UTc4MuSG;
+        "pkg-1.1.3+26.3" = _H9uW64U0;
+        "default" = _H9uW64U0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "railed";

@@ -56,6 +56,21 @@ let
             "file" = "Colourful OreUI.zip";
             "hash" = "sha512-wQ2A030YwkrqijNCPLZ7tNLMF66XFcuqdqICnHUmZQiEtu7rnsTG2bo/rnv/UCjlrPVFGqm9BqtqWGO7TH/rWw==";
         };
+        _aUbNJdG7 = {
+            "id" = "aUbNJdG7";
+            "file" = "Colourful OreUI.zip";
+            "hash" = "sha512-IshkIDMnK2nrpw01F+w1/NUZCCBInAlx9p1gEX/eyEi9cDKhgbw8zwPpMys+9mCQ8KVUQMrqiWpPAIo5YPam3Q==";
+        };
+        _AEeD0HfX = {
+            "id" = "AEeD0HfX";
+            "file" = "Colourful OreUI.zip";
+            "hash" = "sha512-tV9h+70wytPYhxBlbhmsiM4PLLO1uwNdiGlaEUY/lg+IYVmhdgFmX9KdhsXNgjeV0cXjUpZGn/UUni53VKvQHw==";
+        };
+        _ClwQntRO = {
+            "id" = "ClwQntRO";
+            "file" = "Colourful OreUI.zip";
+            "hash" = "sha512-Bgk4qmXQdRlQpzu3PJkGAHfzNTfam+F8hDwsQ1uxuAtdnZHL7G0pgcfxcQvNqGM0FZInaSHN7aY90oXvcz7tkQ==";
+        };
     in {
         "l6PuzyeI" = _l6PuzyeI;
         "XQ8uKGH2" = _XQ8uKGH2;
@@ -68,6 +83,9 @@ let
         "Vj972IsQ" = _Vj972IsQ;
         "aThFjyCw" = _aThFjyCw;
         "rG8saVwr" = _rG8saVwr;
+        "aUbNJdG7" = _aUbNJdG7;
+        "AEeD0HfX" = _AEeD0HfX;
+        "ClwQntRO" = _ClwQntRO;
         "minecraft-1.21.5" = _BdrwICQ0;
         "minecraft-1.21.6" = _Vj972IsQ;
         "minecraft-1.21.7" = _Vj972IsQ;
@@ -75,13 +93,18 @@ let
         "minecraft-1.21.9" = _aThFjyCw;
         "minecraft-1.21.10" = _aThFjyCw;
         "minecraft-1.21.11" = _rG8saVwr;
+        "minecraft-26.1" = _aUbNJdG7;
+        "minecraft-26.1.1" = _aUbNJdG7;
+        "minecraft-26.1.2" = _aUbNJdG7;
+        "minecraft-26.2" = _AEeD0HfX;
+        "minecraft-26.3" = _ClwQntRO;
         "pkg-1.0" = _l6PuzyeI;
         "pkg-1.1" = _XQ8uKGH2;
         "pkg-1.2" = _196np75X;
         "pkg-1.2.1" = _MlBKmRCj;
         "pkg-1.2.2" = _FaU84IEK;
-        "pkg-2.0" = _rG8saVwr;
-        "default" = _rG8saVwr;
+        "pkg-2.0" = _ClwQntRO;
+        "default" = _ClwQntRO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colouful-ore-ui";

@@ -31,6 +31,11 @@ let
             "file" = "synaxis-1.5.0.jar";
             "hash" = "sha512-hRDbzWqU40icWXyvht4StxI2FFUOaHX8/QlO3egO65NcVhtsG6JJve5NVsVgaDCYgKUDkfGVZaO2otigCG2EyA==";
         };
+        _nm5hV39x = {
+            "id" = "nm5hV39x";
+            "file" = "synaxis-1.6.3.jar";
+            "hash" = "sha512-dNw8JwTsWZREMPyPnSR3mm7EzpjiBI59OSbhDzw6+twtQBdxB4Bk4Gc2k85hE68dm+a7KiJS/0bMT2AX1kpTvw==";
+        };
     in {
         "WGfszWj2" = _WGfszWj2;
         "69USAn7M" = _69USAn7M;
@@ -38,14 +43,16 @@ let
         "KnVJhNRQ" = _KnVJhNRQ;
         "idBeMbm2" = _idBeMbm2;
         "RFBeUM47" = _RFBeUM47;
-        "neoforge-1.21.1" = _RFBeUM47;
+        "nm5hV39x" = _nm5hV39x;
+        "neoforge-1.21.1" = _nm5hV39x;
         "pkg-1.0.4" = _WGfszWj2;
         "pkg-1.1.7" = _69USAn7M;
         "pkg-1.2.0" = _Th1GDsiT;
         "pkg-1.2.1" = _KnVJhNRQ;
         "pkg-1.4.3" = _idBeMbm2;
         "pkg-1.5.0" = _RFBeUM47;
-        "default" = _RFBeUM47;
+        "pkg-1.6.3" = _nm5hV39x;
+        "default" = _nm5hV39x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "synaxis";

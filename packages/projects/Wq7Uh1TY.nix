@@ -111,6 +111,11 @@ let
             "file" = "xiaoxiang_cultivation-0.3.376.jar";
             "hash" = "sha512-OYhG6khYRuEPG/+A1GnVLStpj8MMvRcG4WQtsIUER6FBQQKge6ZV2cH4oklOeCR6PMjdNGToOJGr5EIwozwDQg==";
         };
+        _RT35Rvo4 = {
+            "id" = "RT35Rvo4";
+            "file" = "xiaoxiang_cultivation-0.3.377.jar";
+            "hash" = "sha512-ZchdCAZBMgjMpNjXjcblw0o8MqRFty9Ks5vxcdWpJ2mJ+qTKeEWrGFuOqFmX8rGdOGFSVB8meTe3XIq58KQpBA==";
+        };
     in {
         "D6odtMeI" = _D6odtMeI;
         "ugwNV42W" = _ugwNV42W;
@@ -134,7 +139,8 @@ let
         "hGhVZNiB" = _hGhVZNiB;
         "nE5LQBgZ" = _nE5LQBgZ;
         "zhSDVjFl" = _zhSDVjFl;
-        "forge-1.20.1" = _zhSDVjFl;
+        "RT35Rvo4" = _RT35Rvo4;
+        "forge-1.20.1" = _RT35Rvo4;
         "pkg-0.1.49" = _D6odtMeI;
         "pkg-0.1.57" = _ugwNV42W;
         "pkg-0.1.119" = _PvdWJcKy;
@@ -157,7 +163,8 @@ let
         "pkg-0.3.322" = _hGhVZNiB;
         "pkg-0.3.328" = _nE5LQBgZ;
         "pkg-0.3.376" = _zhSDVjFl;
-        "default" = _zhSDVjFl;
+        "pkg-0.3.377" = _RT35Rvo4;
+        "default" = _RT35Rvo4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xiaoxiang-cultivation-world";

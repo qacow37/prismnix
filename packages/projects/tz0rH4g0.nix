@@ -66,6 +66,11 @@ let
             "file" = "scgextra-forge-3.1.2.jar";
             "hash" = "sha512-W/mkPVvsk9Mhbr94zf8LawBe2rYIV8TQoA3oQiWnWSIAfxCUihXZ/wuzT2nTfPpX01tLuh/WStagVckILdMqgg==";
         };
+        _KRboGkX7 = {
+            "id" = "KRboGkX7";
+            "file" = "scgextra-forge-4.0.0.jar";
+            "hash" = "sha512-rAfNdDuBd3ZRvjpalql9gdZoFCxWVUOmnrGLiXxvPPf3xgbk32FURyC+EAToOFfjDb9rTKRv17Dcw+8onZDWWw==";
+        };
     in {
         "qQJG4SM4" = _qQJG4SM4;
         "39qjwEFO" = _39qjwEFO;
@@ -80,7 +85,8 @@ let
         "oGXNfXwG" = _oGXNfXwG;
         "xzfypU1C" = _xzfypU1C;
         "QqRxv9ek" = _QqRxv9ek;
-        "forge-1.20.1" = _QqRxv9ek;
+        "KRboGkX7" = _KRboGkX7;
+        "forge-1.20.1" = _KRboGkX7;
         "pkg-1.0.0" = _xiKCBaA1;
         "pkg-2.0.0" = _e79jSAIX;
         "pkg-2.0.1" = _7BDMvWT8;
@@ -90,7 +96,8 @@ let
         "pkg-3.0.0" = _oGXNfXwG;
         "pkg-3.1.1" = _xzfypU1C;
         "pkg-3.1.2" = _QqRxv9ek;
-        "default" = _QqRxv9ek;
+        "pkg-4.0.0" = _KRboGkX7;
+        "default" = _KRboGkX7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scorched-guns-scg-extra";

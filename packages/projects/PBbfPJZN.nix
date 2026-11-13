@@ -191,6 +191,46 @@ let
             "file" = "betterscreens-2.1.1-hotfix.3+1.8.9-fabric.jar";
             "hash" = "sha512-R3hw1+WzCsVEPw7UdBp1rRqirtHCPJB1OmcR6eWmQFvpvEBZP2ZPQUH1xtJfDoZFOz8ncYuJyaN9QWew0PvrVg==";
         };
+        _1i0xxXR6 = {
+            "id" = "1i0xxXR6";
+            "file" = "betterscreens-4.0.3+1.21.11-fabric.jar";
+            "hash" = "sha512-FM8E2U825Ftc2gkOh/DJc6Y9Gb0Nh4OtfmZVL7WaMVyNXAiZbTBw9NIZOIThHkHv0o+MUz77xs4+rUXToATLGQ==";
+        };
+        _FY7iFfic = {
+            "id" = "FY7iFfic";
+            "file" = "betterscreens-4.0.3+26.1-fabric.jar";
+            "hash" = "sha512-Rzb5tyrepGGYsGQHgedQIZapdj0rrBcMbrirNRVwPlwZg8RLXvJcDcLWgThUUrXbEtqaMucFFmohlaWpHfc4Og==";
+        };
+        _84QguHup = {
+            "id" = "84QguHup";
+            "file" = "betterscreens-4.0.3+26.2-fabric.jar";
+            "hash" = "sha512-wv+ikmeGcjhnZwcluEifQrN/70aiR78MGKsaMJ+Js9HrAjDFzN1rLnYZTuRt+gxNSfvnCsAWE90smKkd76qCXg==";
+        };
+        _qUZz7AjJ = {
+            "id" = "qUZz7AjJ";
+            "file" = "betterscreens-4.0.3+26.3-fabric.jar";
+            "hash" = "sha512-TBS9v98Zg1NMMxBRIecGhwSGbUuSIao/IoS3l4jvhwiJIeOoTo7+/8QNvlT+4x1fr0DKzMCr1UHL3dr7sYs4Yw==";
+        };
+        _wXyFwaYn = {
+            "id" = "wXyFwaYn";
+            "file" = "betterscreens-4.0.4+1.21.11-fabric.jar";
+            "hash" = "sha512-Y1WfcmmdARLvvTdk5Vtbu4x6hUAJtT2KEELJJHjpO8Sn+kn9Ui/PpwlgouH+5lLb/fnq5w3C1sXb63lzSUVmtA==";
+        };
+        _vRaz9fm0 = {
+            "id" = "vRaz9fm0";
+            "file" = "betterscreens-4.0.4+26.1-fabric.jar";
+            "hash" = "sha512-ZzpWAdiAksDwkOKiU5VPoa/imR+BIKzKfm0IUrREFRLh+lHz/sS72O5bXW/JDpFD5Dt7PU5S3rEN09feSaFZoA==";
+        };
+        _nwPyHm0d = {
+            "id" = "nwPyHm0d";
+            "file" = "betterscreens-4.0.4+26.2-fabric.jar";
+            "hash" = "sha512-A0TlC7Ho/IkWk5vcPuvpvNu3f7VLq0PyNeVNV/tV2zqgJzGqKt7vehP5ZEne7yD3uKG4nF/TMFAYcteoid7WuA==";
+        };
+        _JrxgYQZW = {
+            "id" = "JrxgYQZW";
+            "file" = "betterscreens-4.0.4+26.3-fabric.jar";
+            "hash" = "sha512-P5uuh3EQGbkCgJsl3ytcxd904JOFakvINkY5G/smsW7Xdp6orn3SDyjs2JH/gyuASToyIrHFlV8Qfj+lVaQ77A==";
+        };
     in {
         "f1s6jOAU" = _f1s6jOAU;
         "y6b3rm2N" = _y6b3rm2N;
@@ -230,14 +270,22 @@ let
         "4mH9mpre" = _4mH9mpre;
         "atwLoeR4" = _atwLoeR4;
         "FmsDiYZ1" = _FmsDiYZ1;
+        "1i0xxXR6" = _1i0xxXR6;
+        "FY7iFfic" = _FY7iFfic;
+        "84QguHup" = _84QguHup;
+        "qUZz7AjJ" = _qUZz7AjJ;
+        "wXyFwaYn" = _wXyFwaYn;
+        "vRaz9fm0" = _vRaz9fm0;
+        "nwPyHm0d" = _nwPyHm0d;
+        "JrxgYQZW" = _JrxgYQZW;
         "fabric-1.21.8" = _5kgvtbuE;
         "fabric-1.21.10" = _hjgJ1G8A;
-        "fabric-1.21.11" = _w3MhEzEK;
-        "fabric-26.1" = _IdEZWyAp;
-        "fabric-26.1.1" = _IdEZWyAp;
-        "fabric-26.1.2" = _IdEZWyAp;
-        "fabric-26.2" = _4mH9mpre;
-        "fabric-26.3" = _atwLoeR4;
+        "fabric-1.21.11" = _wXyFwaYn;
+        "fabric-26.1" = _vRaz9fm0;
+        "fabric-26.1.1" = _vRaz9fm0;
+        "fabric-26.1.2" = _vRaz9fm0;
+        "fabric-26.2" = _nwPyHm0d;
+        "fabric-26.3" = _JrxgYQZW;
         "ornithe-1.8.9" = _FmsDiYZ1;
         "pkg-1.0.1" = _f1s6jOAU;
         "pkg-2.0.0" = _y6b3rm2N;
@@ -268,7 +316,9 @@ let
         "pkg-2.1.1-hotfix.2" = _XML2ksVj;
         "pkg-4.0.2" = _atwLoeR4;
         "pkg-2.1.1-hotfix.3" = _FmsDiYZ1;
-        "default" = _FmsDiYZ1;
+        "pkg-4.0.3" = _qUZz7AjJ;
+        "pkg-4.0.4" = _JrxgYQZW;
+        "default" = _JrxgYQZW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-screens";

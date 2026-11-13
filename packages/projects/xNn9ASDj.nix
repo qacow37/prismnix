@@ -71,6 +71,16 @@ let
             "file" = "MatterOverdrive-1.12.2-0.9.0-universal.jar";
             "hash" = "sha512-AhhzLVmKJmoP3fPabcw3eo5jWgDslsTrx+Q6YTzUD8Tv64xb0X/5oE5RTD85zK+GW5XNt+Hh7bWAE3gdeCqcSQ==";
         };
+        _Me6ifBqA = {
+            "id" = "Me6ifBqA";
+            "file" = "matteroverdrive-1.21.1-0.1.4-fix.jar";
+            "hash" = "sha512-SKV0E8XTK4rlrGOweL9d6c6XkkUFI/zEIEBIbNe6vBU92C1XqFA6Ylc73hHprLdG+C3417TWwpyrwN3lFnY7Ng==";
+        };
+        _rubGOq1p = {
+            "id" = "rubGOq1p";
+            "file" = "matteroverdrive-26.2-0.1.4-fix.jar";
+            "hash" = "sha512-PDjlPUXNl5yRqmxlIea3kWlcJqHYZvUIMowDmFwWK5MbfngRfA8arMOX2LvgNgPvlchC9pySQAdMJtM+cKzErA==";
+        };
     in {
         "zfYzFa47" = _zfYzFa47;
         "cMbwOvwu" = _cMbwOvwu;
@@ -86,9 +96,23 @@ let
         "Y7snPKO6" = _Y7snPKO6;
         "33vAedpR" = _33vAedpR;
         "FWdJJ3X9" = _FWdJJ3X9;
+        "Me6ifBqA" = _Me6ifBqA;
+        "rubGOq1p" = _rubGOq1p;
         "forge-1.12.2" = _FWdJJ3X9;
         "forge-1.7.10" = _NSw2jkwD;
         "forge-1.19.2" = _OZbTsthr;
+        "neoforge-1.21.11" = _Me6ifBqA;
+        "neoforge-1.21.10" = _Me6ifBqA;
+        "neoforge-1.21.9" = _Me6ifBqA;
+        "neoforge-1.21.8" = _Me6ifBqA;
+        "neoforge-1.21.7" = _Me6ifBqA;
+        "neoforge-1.21.6" = _Me6ifBqA;
+        "neoforge-1.21.5" = _Me6ifBqA;
+        "neoforge-1.21.4" = _Me6ifBqA;
+        "neoforge-1.21.3" = _Me6ifBqA;
+        "neoforge-1.21.2" = _Me6ifBqA;
+        "neoforge-1.21.1" = _Me6ifBqA;
+        "neoforge-26.2" = _rubGOq1p;
         "pkg-0.8.0" = _zfYzFa47;
         "pkg-0.8.1" = _cMbwOvwu;
         "pkg-0.8.2" = _Vor5Zteh;
@@ -103,7 +127,8 @@ let
         "pkg-0.8.8" = _Y7snPKO6;
         "pkg-0.8.9" = _33vAedpR;
         "pkg-0.9.0" = _FWdJJ3X9;
-        "default" = _FWdJJ3X9;
+        "pkg-0.1.4-fix" = _rubGOq1p;
+        "default" = _rubGOq1p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moce";

@@ -206,6 +206,16 @@ let
             "file" = "compass-to-map-journeymap-2.1.1+neoforge-26.2.jar";
             "hash" = "sha512-eR6INKv00QjFurFbe2RJeqCUePoSUs8GEQKgHR8RCt6oYOJs13INHaFkC6X1rGyP0RB1PxS+pgA88WGbqmijTg==";
         };
+        _m1qMUzFW = {
+            "id" = "m1qMUzFW";
+            "file" = "compass-to-map-journeymap-2.1.1+neoforge-26.3.jar";
+            "hash" = "sha512-fGHdv23lyJtG8dndJEK3Dt143LGTFKqn6SZkXg9gX+KdYrAnZJ1JC1y+4+FUyyberxl8dN1kYWqVoIas9ECDZw==";
+        };
+        _Yg8WswH8 = {
+            "id" = "Yg8WswH8";
+            "file" = "compass-to-map-journeymap-2.1.1+fabric-26.3.jar";
+            "hash" = "sha512-gpVO5reXf465e/Em0VVtZD9LnMLMCAod1QbV1fcoPit94yehA3DYK9tnpe2Q5NaKE4IAQb43/W/cgFlI0QpTKQ==";
+        };
     in {
         "N4lfa2qq" = _N4lfa2qq;
         "3FPIq0c7" = _3FPIq0c7;
@@ -248,11 +258,14 @@ let
         "YTBZwtzb" = _YTBZwtzb;
         "Q4gFqlqj" = _Q4gFqlqj;
         "yTDtRVyi" = _yTDtRVyi;
+        "m1qMUzFW" = _m1qMUzFW;
+        "Yg8WswH8" = _Yg8WswH8;
         "neoforge-1.21.1" = _K1jb5USK;
         "neoforge-1.21.4" = _YTBZwtzb;
         "neoforge-1.21.11" = _8kjXEfiG;
         "neoforge-26.2" = _yTDtRVyi;
         "neoforge-26.1.2" = _Q4gFqlqj;
+        "neoforge-26.3" = _m1qMUzFW;
         "forge-1.21.1" = _ixnqmnwS;
         "forge-1.20.1" = _L9vlD7wQ;
         "fabric-1.21.1" = _ttst9Jnj;
@@ -261,6 +274,7 @@ let
         "fabric-1.21.11" = _YfkSMi7c;
         "fabric-26.2" = _g04PYwff;
         "fabric-26.1.2" = _twrC4J3i;
+        "fabric-26.3" = _Yg8WswH8;
         "pkg-2.0.3+neoforge-1.21.1" = _N4lfa2qq;
         "pkg-2.0.3+forge-1.21.1" = _3FPIq0c7;
         "pkg-2.0.3+fabric-1.21.1" = _UcJ8PLuy;
@@ -302,7 +316,9 @@ let
         "pkg-2.1.1+neoforge-1.21.4" = _YTBZwtzb;
         "pkg-2.1.1+neoforge-26.1.2" = _Q4gFqlqj;
         "pkg-2.1.1+neoforge-26.2" = _yTDtRVyi;
-        "default" = _yTDtRVyi;
+        "pkg-2.1.1+neoforge-26.3" = _m1qMUzFW;
+        "pkg-2.1.1+fabric-26.3" = _Yg8WswH8;
+        "default" = _Yg8WswH8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-to-map";

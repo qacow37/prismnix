@@ -226,6 +226,16 @@ let
             "file" = "ping-to-map-xaero-1.1.2+neoforge-26.2.jar";
             "hash" = "sha512-BWkQi5IAS0/z8f7GywfAYmv0QZFrdejNHS4+/oEnUuZbZWCu8VP+Y0SC+lIjROjNnsMZs+KOYhUMSDCpa8gGTg==";
         };
+        _gGXM4C83 = {
+            "id" = "gGXM4C83";
+            "file" = "ping-to-map-xaero-1.1.2+neoforge-26.3.jar";
+            "hash" = "sha512-0rxUMrBUDyineUsbqO35vIOEtdreVhWVBG2SYdN+0wGeYJduGxRcke7GvikDo8bUolrbeNPmM8qH4g2KO2qaGw==";
+        };
+        _RaaBmjzm = {
+            "id" = "RaaBmjzm";
+            "file" = "ping-to-map-xaero-1.1.2+fabric-26.3.jar";
+            "hash" = "sha512-gulAN6RkC6oPtSOk78sm87GyQqmuEm90PIrEufwEaxsbXfv3nPoQZlx1ym9GXZ+9CSrJG+t15KXxpO7ZmqET6Q==";
+        };
     in {
         "TNHx9IER" = _TNHx9IER;
         "s9zIxynn" = _s9zIxynn;
@@ -272,12 +282,15 @@ let
         "3vvXmv70" = _3vvXmv70;
         "fKAfbudV" = _fKAfbudV;
         "6ccQr2Nz" = _6ccQr2Nz;
+        "gGXM4C83" = _gGXM4C83;
+        "RaaBmjzm" = _RaaBmjzm;
         "neoforge-1.21.1" = _y3JyW37i;
         "neoforge-1.21.4" = _Tjy1btLE;
         "neoforge-1.21.8" = _3vvXmv70;
         "neoforge-1.21.11" = _C5dhvCcM;
         "neoforge-26.2" = _6ccQr2Nz;
         "neoforge-26.1.2" = _fKAfbudV;
+        "neoforge-26.3" = _gGXM4C83;
         "forge-1.21.1" = _B7sIRIvB;
         "forge-1.20.1" = _dobKefkK;
         "fabric-1.21.1" = _Ke5dxv5r;
@@ -287,6 +300,7 @@ let
         "fabric-1.21.11" = _a3oRIOXy;
         "fabric-26.2" = _zixeCR81;
         "fabric-26.1.2" = _kBiBivpd;
+        "fabric-26.3" = _RaaBmjzm;
         "pkg-1.1.0+neoforge-1.21.1" = _TNHx9IER;
         "pkg-1.1.0+forge-1.21.1" = _s9zIxynn;
         "pkg-1.1.0+fabric-1.21.1" = _VDdVD1db;
@@ -332,7 +346,9 @@ let
         "pkg-1.1.2+neoforge-1.21.8" = _3vvXmv70;
         "pkg-1.1.2+neoforge-26.1.2" = _fKAfbudV;
         "pkg-1.1.2+neoforge-26.2" = _6ccQr2Nz;
-        "default" = _6ccQr2Nz;
+        "pkg-1.1.2+neoforge-26.3" = _gGXM4C83;
+        "pkg-1.1.2+fabric-26.3" = _RaaBmjzm;
+        "default" = _RaaBmjzm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ping-to-map-xaeros";

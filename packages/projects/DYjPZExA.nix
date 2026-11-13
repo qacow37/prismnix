@@ -46,6 +46,16 @@ let
             "file" = "GeneticAnimals-0_11_12.jar";
             "hash" = "sha512-qSPhxwSxqeip5ILGzlKQB24BKtQXdJ0+DkESjGODD+MwdZt8dOSs8sf85YJvLrwGQf1/zRw99WfgqIJDcXgkDg==";
         };
+        _taVtnE4G = {
+            "id" = "taVtnE4G";
+            "file" = "GeneticAnimals-0_8_80.jar";
+            "hash" = "sha512-W4TnCnyTCIxe2By+mJPgYCrkT9jVZ8R5GUZH+XByuWrt+YpDCsfCl1pZhN2Kv0+zZV6Zb5koyFhb2AMs0168pw==";
+        };
+        _NTbZFFPq = {
+            "id" = "NTbZFFPq";
+            "file" = "GeneticAnimals-0_11_20.jar";
+            "hash" = "sha512-HlwGdgC0sScZW9HoiBP0Z2v1V0IfNu8TdiRv7WgkS0857ZF6TmoeByrAew/m9GxL8E/ThEFAU4rxJFv6DDRsWA==";
+        };
     in {
         "HOdnIIPb" = _HOdnIIPb;
         "DDvCJyH9" = _DDvCJyH9;
@@ -56,9 +66,11 @@ let
         "CMpv6qqI" = _CMpv6qqI;
         "EjZu6v1i" = _EjZu6v1i;
         "QpwmrbVK" = _QpwmrbVK;
-        "forge-1.18.2" = _EjZu6v1i;
+        "taVtnE4G" = _taVtnE4G;
+        "NTbZFFPq" = _NTbZFFPq;
+        "forge-1.18.2" = _taVtnE4G;
         "forge-1.20" = _nQjMwI77;
-        "forge-1.20.1" = _QpwmrbVK;
+        "forge-1.20.1" = _NTbZFFPq;
         "pkg-0.8.40" = _HOdnIIPb;
         "pkg-0.8.56" = _DDvCJyH9;
         "pkg-0.11.9" = _nQjMwI77;
@@ -68,7 +80,9 @@ let
         "pkg-0.8.58" = _CMpv6qqI;
         "pkg-0.8.59" = _EjZu6v1i;
         "pkg-0.11.12" = _QpwmrbVK;
-        "default" = _QpwmrbVK;
+        "pkg-0.8.80" = _taVtnE4G;
+        "pkg-0.11.20" = _NTbZFFPq;
+        "default" = _NTbZFFPq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genetic-animals";

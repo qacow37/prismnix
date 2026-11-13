@@ -176,6 +176,56 @@ let
             "file" = "AraxersBestiary-26.3-neoforge-2.0.0.jar";
             "hash" = "sha512-obgc8VJgZicMicoRE49XX1KlCr6pee8OYi8mAQYUKDqMobCwtACHKrrnFKoJNYZUe8qKn4jim2VxpwJjnVBa+Q==";
         };
+        _ESZzNwQu = {
+            "id" = "ESZzNwQu";
+            "file" = "AraxersBestiary-1.16.5-forge-2.1.0.jar";
+            "hash" = "sha512-Qwk3KPVvvVeeADGW5wIsY9Ss4YCrSoJ6ChaGFwjcONvgbiX6hhCYm1A05BtaxFkk15DLjHeRyWJjjDK6NNKaWg==";
+        };
+        _9VNCvSOz = {
+            "id" = "9VNCvSOz";
+            "file" = "AraxersBestiary-1.19.2-forge-2.1.0.jar";
+            "hash" = "sha512-kQF7n/y045ngYeBX52JDYA0aZXn89kJjrBwN/6m440tBYJe9XUbZWNoQVZrsDxAAk+WeuBw/YfEMa7B1DC4dYg==";
+        };
+        _IVMxVsdN = {
+            "id" = "IVMxVsdN";
+            "file" = "AraxersBestiary-1.20.1-fabric-2.1.0.jar";
+            "hash" = "sha512-+dcVwYOx+o44h9yYOPLUOm6eiFHGwN8Y4+Jn61EZ2QmmFiogoR/POpyPwp/BpPys8QHXwgNzkN582zIHYRMdCQ==";
+        };
+        _Dk1TUdP8 = {
+            "id" = "Dk1TUdP8";
+            "file" = "AraxersBestiary-1.20.1-forge-2.1.0.jar";
+            "hash" = "sha512-f9SQk2/ixpMKOqCRSetT2tBdaGjQl2Ufj9g2Nj6LOL1HajO7s3BNJqlfscnh9NJSHsinnIlXQb9rcZWm9Y8g6Q==";
+        };
+        _1dTAz6Hp = {
+            "id" = "1dTAz6Hp";
+            "file" = "AraxersBestiary-1.21.1-fabric-2.1.0.jar";
+            "hash" = "sha512-9otdp566tDULSROaPO7uc+YlTqsISr/331DGQuJ/M+m+CftKjRHoSNr+smjs7oySaZdJUWQ3PNP0xOiKF2lbHQ==";
+        };
+        _bS52Wb0j = {
+            "id" = "bS52Wb0j";
+            "file" = "AraxersBestiary-1.21.1-neoforge-2.1.0.jar";
+            "hash" = "sha512-lnjtj8AugDQ9kZhZ21CYuc9Dwq16fuKSVD9GAZ4vBjU7k1zGay9fNrTUzUYQt814l3rBmyjp69WTyoWrE3iVmA==";
+        };
+        _vEDmBnKS = {
+            "id" = "vEDmBnKS";
+            "file" = "AraxersBestiary-26.1.2-fabric-2.1.0.jar";
+            "hash" = "sha512-pYabOb018bPPAhaPd49NkUduW3HzcKRoFpXVmvGx4QANzheSmiNlEERwaayq7idAI2HK2e2g52eCXUeytPRvaQ==";
+        };
+        _AQioE3yU = {
+            "id" = "AQioE3yU";
+            "file" = "AraxersBestiary-26.1.2-neoforge-2.1.0.jar";
+            "hash" = "sha512-32vJQFbNOyJJSKhBPioAUVxp4eGe4KuMYxQKrAtNKUPfxzZxotfUPO8Q5wRmgH3XIxwy8pRqkbC5ElMqFhzjBg==";
+        };
+        _Y91Skheg = {
+            "id" = "Y91Skheg";
+            "file" = "AraxersBestiary-26.3-fabric-2.1.0.jar";
+            "hash" = "sha512-Qk45N3jEp28NohrevRuWn8b4nb6TCwtWYvBiYtjcdRmL838fLM8yqAHquFkS+GQddYZuNKMPhVF1c01nVrzFEw==";
+        };
+        _R4ZnRtpE = {
+            "id" = "R4ZnRtpE";
+            "file" = "AraxersBestiary-26.3-neoforge-2.1.0.jar";
+            "hash" = "sha512-6YyHhxpAbggwsJfu0/Epbpn5LiOI3lBbReoiXZozZC9lG23sWInKzNG0wcZOYkFfOS1veoy/RqiFDLQsWIqfNw==";
+        };
     in {
         "WlK4GlzJ" = _WlK4GlzJ;
         "1IIkbtkB" = _1IIkbtkB;
@@ -212,14 +262,26 @@ let
         "NwnGpUSy" = _NwnGpUSy;
         "X6NhHMvU" = _X6NhHMvU;
         "IcwNvhtr" = _IcwNvhtr;
-        "forge-1.20.1" = _9fUZnhD9;
-        "forge-1.19.2" = _8kV2EGaZ;
-        "forge-1.16.5" = _NwnGpUSy;
-        "neoforge-1.21.1" = _CeuzWQsx;
-        "neoforge-26.1.2" = _X6NhHMvU;
-        "neoforge-26.3" = _IcwNvhtr;
-        "fabric-1.20.1" = _R6OspYNX;
-        "fabric-1.21.1" = _mG1R1VSb;
+        "ESZzNwQu" = _ESZzNwQu;
+        "9VNCvSOz" = _9VNCvSOz;
+        "IVMxVsdN" = _IVMxVsdN;
+        "Dk1TUdP8" = _Dk1TUdP8;
+        "1dTAz6Hp" = _1dTAz6Hp;
+        "bS52Wb0j" = _bS52Wb0j;
+        "vEDmBnKS" = _vEDmBnKS;
+        "AQioE3yU" = _AQioE3yU;
+        "Y91Skheg" = _Y91Skheg;
+        "R4ZnRtpE" = _R4ZnRtpE;
+        "forge-1.20.1" = _Dk1TUdP8;
+        "forge-1.19.2" = _9VNCvSOz;
+        "forge-1.16.5" = _ESZzNwQu;
+        "neoforge-1.21.1" = _bS52Wb0j;
+        "neoforge-26.1.2" = _AQioE3yU;
+        "neoforge-26.3" = _R4ZnRtpE;
+        "fabric-1.20.1" = _IVMxVsdN;
+        "fabric-1.21.1" = _1dTAz6Hp;
+        "fabric-26.1.2" = _vEDmBnKS;
+        "fabric-26.3" = _Y91Skheg;
         "pkg-1.3.1" = _WlK4GlzJ;
         "pkg-1.3.3" = _1IIkbtkB;
         "pkg-1.3.3a" = _P1B6Z8rp;
@@ -248,7 +310,8 @@ let
         "pkg-1.4.3.1" = _QWVZ5Oog;
         "pkg-1.5.0" = _Zlw9VZZB;
         "pkg-2.0.0" = _IcwNvhtr;
-        "default" = _IcwNvhtr;
+        "pkg-2.1.0" = _R4ZnRtpE;
+        "default" = _R4ZnRtpE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "araxers-bestiary";

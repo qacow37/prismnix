@@ -81,6 +81,26 @@ let
             "file" = "invistags-1.2.0-mc26.3.jar";
             "hash" = "sha512-7Qis0vpOEmDWbgrZAGuwVYATdMNmotOivCcRKzQoqUXMUi8B7DQBCSh+1Ps9svwGDTohBh8eP2mZ/FgNqYyoxA==";
         };
+        _eMt39izZ = {
+            "id" = "eMt39izZ";
+            "file" = "invistags-mc1.21.11-1.3.1.jar";
+            "hash" = "sha512-ctxRHFI/4RklLChwyIGKDYux0J+dn6Ws0sYZxkVc8qai0cCxgbxII4vxdTF3BzrDtBHeQpZv8oxk2LSedEvApA==";
+        };
+        _VVmnGwS4 = {
+            "id" = "VVmnGwS4";
+            "file" = "invistags-mc26.1.2-1.3.1.jar";
+            "hash" = "sha512-4ThmIPLUN9L3AIM0c6U4CN9/COUlq7VLEieuwmvXJUDguKCOWT9CDVdg+NziWDnzkeSawVJ/BDW5vbi+9D3uqw==";
+        };
+        _IApbJl4y = {
+            "id" = "IApbJl4y";
+            "file" = "invistags-mc26.2-1.3.1.jar";
+            "hash" = "sha512-HA6f+NUsR+DGRpxzKJfpluuE2ProMIOjOH0PrvCzpbHD9NHHnL/SmE6HQ6/I4fAo8l+9PnIERd/rggUAZrnWig==";
+        };
+        _fhqQAG8m = {
+            "id" = "fhqQAG8m";
+            "file" = "invistags-mc26.3-1.3.1.jar";
+            "hash" = "sha512-lv3iwzbvCCl8YD0qK48eDeeZWUXZ8vq0TERtkdiN1+9Q7wFat3my5z+P11U3acpvwd5D9k8xGf9xoCsPTrCqcw==";
+        };
     in {
         "J4PmyPoI" = _J4PmyPoI;
         "IezUKbsc" = _IezUKbsc;
@@ -98,13 +118,17 @@ let
         "Rn5ig3aD" = _Rn5ig3aD;
         "iLpKWUtd" = _iLpKWUtd;
         "sPlWxq5o" = _sPlWxq5o;
-        "fabric-1.21.11" = _RqxOyB5m;
-        "fabric-26.2" = _iLpKWUtd;
-        "fabric-26.1" = _Rn5ig3aD;
-        "fabric-26.1.1" = _Rn5ig3aD;
-        "fabric-26.1.2" = _Rn5ig3aD;
+        "eMt39izZ" = _eMt39izZ;
+        "VVmnGwS4" = _VVmnGwS4;
+        "IApbJl4y" = _IApbJl4y;
+        "fhqQAG8m" = _fhqQAG8m;
+        "fabric-1.21.11" = _eMt39izZ;
+        "fabric-26.2" = _IApbJl4y;
+        "fabric-26.1" = _VVmnGwS4;
+        "fabric-26.1.1" = _VVmnGwS4;
+        "fabric-26.1.2" = _VVmnGwS4;
         "fabric-1.20.4" = _eEyWMsHb;
-        "fabric-26.3" = _sPlWxq5o;
+        "fabric-26.3" = _fhqQAG8m;
         "pkg-1.0-1.21.11" = _J4PmyPoI;
         "pkg-1.0+26.2" = _IezUKbsc;
         "pkg-1.0+26.1.x" = _ZKI5rnjh;
@@ -121,7 +145,11 @@ let
         "pkg-1.2.0+26.1.x" = _Rn5ig3aD;
         "pkg-1.2.0+26.2" = _iLpKWUtd;
         "pkg-1.2.0+26.3" = _sPlWxq5o;
-        "default" = _sPlWxq5o;
+        "pkg-1.3.1+1.21.11" = _eMt39izZ;
+        "pkg-1.3.1+26.1.x" = _VVmnGwS4;
+        "pkg-1.3.1+26.2" = _IApbJl4y;
+        "pkg-1.3.1+26.3" = _fhqQAG8m;
+        "default" = _fhqQAG8m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invistags";

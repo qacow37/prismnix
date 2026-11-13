@@ -106,6 +106,41 @@ let
             "file" = "landsoficaria-1.20.1-2.0.3.0-beta.jar";
             "hash" = "sha512-ySt0O/6ShtgolwK9Lu5t1tm05zY0tpLYF0pZ0ic13x5Gk4NZVV4zAAMroTUxoSfliuJsSGWlZhQultLmJzjtXg==";
         };
+        _BhfpFfwl = {
+            "id" = "BhfpFfwl";
+            "file" = "landsoficaria-1.20.6-2.1.1.1-beta.jar";
+            "hash" = "sha512-AxvugpOVm1eoA6l6n+OZnH1o/ypNmjsFQlDNoC2MktKgfSjUWCyhL/Myv+Fn+TvYYvtLvp2Eq3E11lQpXW4jHA==";
+        };
+        _NkX6bBVk = {
+            "id" = "NkX6bBVk";
+            "file" = "landsoficaria-1.21-2.2.5.1-beta.jar";
+            "hash" = "sha512-pMggj42/bS9RiKc61TrPLSV+RVrBwSDKM8lcL2XzPXtR1//zCo4lzwjA4yn7EkC790sEMKvD6eEKsE0UzHyjZA==";
+        };
+        _KAqF6pBk = {
+            "id" = "KAqF6pBk";
+            "file" = "landsoficaria-1.21.1-2.3.1.1-beta.jar";
+            "hash" = "sha512-qEVC6UcDwQ87JybkYGz1LtTXjlZSRVtgNVwbbZF86wjM+Us3Rszt7J1+KIwQr0XyMgYqqx9pfYQmLZgpGvlgEg==";
+        };
+        _UbYMTD2T = {
+            "id" = "UbYMTD2T";
+            "file" = "landsoficaria-1.21.4-2.4.2.1-beta.jar";
+            "hash" = "sha512-4ypaP8yUpYJyvcPC9gzTDQ3gOCK8+U+J0TP5eWioVLGHEYmFLBSF4JgE/pdEoN0shmhAwHKE6qXPujZj2PWNYw==";
+        };
+        _LQ5NPn0N = {
+            "id" = "LQ5NPn0N";
+            "file" = "landsoficaria-1.21.5-2.5.0.1-beta.jar";
+            "hash" = "sha512-7zdxWAB/PWpw1/m/ci+kCSpHV0vU19WV9gdpJC/N3w3v6LxkdIwnVxLBkgQ59JDhCfWqlnutHy2QvtdWXiAefg==";
+        };
+        _pJ6tmIn9 = {
+            "id" = "pJ6tmIn9";
+            "file" = "landsoficaria-1.21.6-2.6.0.1-beta.jar";
+            "hash" = "sha512-TNlahbWbfbjo9uvAy7WpsMDtr7Qy4yD6WyNRjB3asghtMhLaeuPAKMGT5LfguVKLajJ9hd+IbmaNE7wKyYRERA==";
+        };
+        _JZyCBJJh = {
+            "id" = "JZyCBJJh";
+            "file" = "landsoficaria-1.21.7-2.7.0.1-beta.jar";
+            "hash" = "sha512-LLA98Ps7TB9EhRmQjJOPWdeN0QLRBs1dewAIAtIlA+6TDoNpKwBkbmtAAIcc3BQ7UfHpC1+/nN7JEnTsRDlXDA==";
+        };
     in {
         "a1Tk95JB" = _a1Tk95JB;
         "bjt5GMME" = _bjt5GMME;
@@ -128,16 +163,23 @@ let
         "dS24OOod" = _dS24OOod;
         "oJY4hi1r" = _oJY4hi1r;
         "aVvWipwA" = _aVvWipwA;
+        "BhfpFfwl" = _BhfpFfwl;
+        "NkX6bBVk" = _NkX6bBVk;
+        "KAqF6pBk" = _KAqF6pBk;
+        "UbYMTD2T" = _UbYMTD2T;
+        "LQ5NPn0N" = _LQ5NPn0N;
+        "pJ6tmIn9" = _pJ6tmIn9;
+        "JZyCBJJh" = _JZyCBJJh;
         "forge-1.20.1" = _aVvWipwA;
         "forge-1.12.2" = _bjt5GMME;
         "neoforge-1.20.1" = _aVvWipwA;
-        "neoforge-1.20.6" = _YxdbREWI;
-        "neoforge-1.21" = _mokFKVqp;
-        "neoforge-1.21.1" = _xSuXbBZw;
-        "neoforge-1.21.4" = _9VCoeZVL;
-        "neoforge-1.21.5" = _S2of34tw;
-        "neoforge-1.21.6" = _dS24OOod;
-        "neoforge-1.21.7" = _oJY4hi1r;
+        "neoforge-1.20.6" = _BhfpFfwl;
+        "neoforge-1.21" = _NkX6bBVk;
+        "neoforge-1.21.1" = _KAqF6pBk;
+        "neoforge-1.21.4" = _UbYMTD2T;
+        "neoforge-1.21.5" = _LQ5NPn0N;
+        "neoforge-1.21.6" = _pJ6tmIn9;
+        "neoforge-1.21.7" = _JZyCBJJh;
         "pkg-1.20.1-2.0.0.0-beta" = _a1Tk95JB;
         "pkg-1.12.2-1.0.3.0-beta" = _bjt5GMME;
         "pkg-1.20.1-2.0.1.0-beta" = _71QvbHLq;
@@ -159,7 +201,14 @@ let
         "pkg-1.21.6-2.6.0.0-beta" = _dS24OOod;
         "pkg-1.21.7-2.7.0.0-beta" = _oJY4hi1r;
         "pkg-1.20.1-2.0.3.0-beta" = _aVvWipwA;
-        "default" = _aVvWipwA;
+        "pkg-1.20.6-2.1.1.1-beta" = _BhfpFfwl;
+        "pkg-1.21-2.2.5.1-beta" = _NkX6bBVk;
+        "pkg-1.21.1-2.3.1.1-beta" = _KAqF6pBk;
+        "pkg-1.21.4-2.4.2.1-beta" = _UbYMTD2T;
+        "pkg-1.21.5-2.5.0.1-beta" = _LQ5NPn0N;
+        "pkg-1.21.6-2.6.0.1-beta" = _pJ6tmIn9;
+        "pkg-1.21.7-2.7.0.1-beta" = _JZyCBJJh;
+        "default" = _JZyCBJJh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lands-of-icaria";

@@ -86,6 +86,21 @@ let
             "file" = "apexintegration-1.21.1+1.2.0-SNAPSHOT.jar";
             "hash" = "sha512-6TcYBlBBjA//rm8wShfdEJC2UpdpNS51t9kgJW/P+N6omstVHP6uRpXP7D+QNCGawUEfWC61tWUUzbdGeoLRQw==";
         };
+        _93MqaCxO = {
+            "id" = "93MqaCxO";
+            "file" = "apexintegration-1.21.1+1.2.1-SNAPSHOT.jar";
+            "hash" = "sha512-AMmyCd1twkckqA346F4UhwGK552F8XI7jhht7MpRcqt7/aK0s6SP5Pm5KuyZljvXsXMyIlSy5GB0EPJFuIdbxA==";
+        };
+        _aMBAKCaG = {
+            "id" = "aMBAKCaG";
+            "file" = "apexintegration-1.21.1+1.2.2-SNAPSHOT.jar";
+            "hash" = "sha512-X3Sev0TB/WzpLzhQthEY84hzy2tkgCD7yKQTyulZ4kE4OjFct/D6t79eCqNHdNHa73pJPAkm6vnAbNwgNf4eyg==";
+        };
+        _x9l4vQXE = {
+            "id" = "x9l4vQXE";
+            "file" = "apexintegration-1.21.1+1.2.3-SNAPSHOT.jar";
+            "hash" = "sha512-rqqgFRUFenZhwRNXYiIKHpRcGJxJYZv70TJGpiiwf48E7Bfz/NMzMJ1LyhabjW8KrHmTYyNHOuxbEFJLxKwYVw==";
+        };
     in {
         "V2Gzbgc8" = _V2Gzbgc8;
         "G5JVPNvA" = _G5JVPNvA;
@@ -104,7 +119,10 @@ let
         "j0hkqS86" = _j0hkqS86;
         "Ek6S7zsv" = _Ek6S7zsv;
         "g69uVYHj" = _g69uVYHj;
-        "fabric-1.21.1" = _g69uVYHj;
+        "93MqaCxO" = _93MqaCxO;
+        "aMBAKCaG" = _aMBAKCaG;
+        "x9l4vQXE" = _x9l4vQXE;
+        "fabric-1.21.1" = _x9l4vQXE;
         "pkg-1.0.3" = _V2Gzbgc8;
         "pkg-1.0.5" = _G5JVPNvA;
         "pkg-1.0.6" = _h1TvYqhr;
@@ -122,7 +140,10 @@ let
         "pkg-1.1.2" = _j0hkqS86;
         "pkg-1.1.3" = _Ek6S7zsv;
         "pkg-1.2.0" = _g69uVYHj;
-        "default" = _g69uVYHj;
+        "pkg-1.2.1" = _93MqaCxO;
+        "pkg-1.2.2" = _aMBAKCaG;
+        "pkg-1.2.3" = _x9l4vQXE;
+        "default" = _x9l4vQXE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apex-integration";

@@ -96,6 +96,11 @@ let
             "file" = "modcccwlegends-1.8.4.jar";
             "hash" = "sha512-/nyWxbLw20awK4mp0KPpg00kZkDq+HdA9esA93WY+2+PhTr0izEzYcKnfJg8dmNcOeKffJeEHnih+jWiGaVvZA==";
         };
+        _OPE4CgiB = {
+            "id" = "OPE4CgiB";
+            "file" = "CCC_2.31.zip";
+            "hash" = "sha512-JlQXMOZEp7AhstoMHWTe82QYMjCRIH+hLjRn9umd+ET29/DN2XC1mipEpiV1XRJd8IHezjoql7tIe80TyhvQvg==";
+        };
     in {
         "t7bzMGjO" = _t7bzMGjO;
         "MBy6tWFR" = _MBy6tWFR;
@@ -116,6 +121,7 @@ let
         "hKxrK6yb" = _hKxrK6yb;
         "4ROeSdOl" = _4ROeSdOl;
         "ImoA1PH7" = _ImoA1PH7;
+        "OPE4CgiB" = _OPE4CgiB;
         "datapack-1.21.1" = _4ROeSdOl;
         "datapack-1.21" = _4ROeSdOl;
         "datapack-24w12a" = _4ROeSdOl;
@@ -283,6 +289,7 @@ let
         "pkg-2.21" = _YrlhRZwi;
         "pkg-2.3" = _hKxrK6yb;
         "pkg-1.8.4" = _ImoA1PH7;
+        "pkg-2.31" = _OPE4CgiB;
         "default" = _ImoA1PH7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

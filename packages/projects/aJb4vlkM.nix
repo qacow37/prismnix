@@ -116,6 +116,11 @@ let
             "file" = "blahaj-totem-1.7.4+26.2.jar";
             "hash" = "sha512-jOXkpQmi1DG/JKEuyKTvEIvnmXTzTqYS8VBEM33j1FLnprYYTw+SJetPddeCrHdqDSlH0cde1l/G6iQv6COVlA==";
         };
+        _NIRmvTRr = {
+            "id" = "NIRmvTRr";
+            "file" = "blahaj-totem-1.7.4+26.3.jar";
+            "hash" = "sha512-+l4KxHUWpMV1EGtk4zTRrvIGDmDnrN3vRwvf90Deel4kz8vsw4d/8xsGpYaNLQyKAwieGRbaayA15sIzlWG/tw==";
+        };
     in {
         "RGCyclAq" = _RGCyclAq;
         "PAUZB0Qu" = _PAUZB0Qu;
@@ -140,6 +145,7 @@ let
         "J9n2nBFV" = _J9n2nBFV;
         "k08vuJT9" = _k08vuJT9;
         "2eptaWxs" = _2eptaWxs;
+        "NIRmvTRr" = _NIRmvTRr;
         "fabric-1.18" = _PAUZB0Qu;
         "fabric-1.18.1" = _PAUZB0Qu;
         "fabric-1.18.2" = _PAUZB0Qu;
@@ -170,6 +176,7 @@ let
         "fabric-26.1.1" = _k08vuJT9;
         "fabric-26.1.2" = _k08vuJT9;
         "fabric-26.2" = _2eptaWxs;
+        "fabric-26.3" = _NIRmvTRr;
         "pkg-1.0.0" = _RGCyclAq;
         "pkg-1.1.0" = _PAUZB0Qu;
         "pkg-1.2.0" = _az3WQi4S;
@@ -193,7 +200,8 @@ let
         "pkg-1.7.4+1.21.11" = _J9n2nBFV;
         "pkg-1.7.4+26.1.2" = _k08vuJT9;
         "pkg-1.7.4+26.2" = _2eptaWxs;
-        "default" = _2eptaWxs;
+        "pkg-1.7.4+26.3" = _NIRmvTRr;
+        "default" = _NIRmvTRr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blahaj-of-undying";

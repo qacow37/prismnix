@@ -21,18 +21,32 @@ let
             "file" = "fox_trot_brew-1.1.0-mc1.21.1-neoforge.jar";
             "hash" = "sha512-7zafGPASHQPdwjtHvJkmiTliHNJPpDQCTklr2mKFoONVv47gmEsryuRGV+ylX8n4zfDvY8oxr1hbQ9/YrKxl5Q==";
         };
+        _El7XBhzS = {
+            "id" = "El7XBhzS";
+            "file" = "fox_trot_brew-1.1.1-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-Ac1xfYPRF5hUXg6gSPDImzqbbCv8POuv/wfd14Pk/pB8uvPU+T/kPUu3rmEMMLRjLv0QZAQ7EwTd0tfKkOgqzQ==";
+        };
+        _niqi6JCE = {
+            "id" = "niqi6JCE";
+            "file" = "fox_trot_brew-1.1.1-mc1.20.1-forge.jar";
+            "hash" = "sha512-KnwFHQOrUmVc3PbBIPtEwTuzI4dfIINqgluD404cBYodWnmGB724Tbv0yWq7wvmTsyo2lSayvXEQmPfXeujp+A==";
+        };
     in {
         "sMXZk4Hx" = _sMXZk4Hx;
         "qnFIAjRK" = _qnFIAjRK;
         "NLuIMljX" = _NLuIMljX;
         "ufunHgPH" = _ufunHgPH;
-        "neoforge-1.21.1" = _ufunHgPH;
-        "forge-1.20.1" = _NLuIMljX;
+        "El7XBhzS" = _El7XBhzS;
+        "niqi6JCE" = _niqi6JCE;
+        "neoforge-1.21.1" = _El7XBhzS;
+        "forge-1.20.1" = _niqi6JCE;
         "pkg-1.0.0-mc1.21.1-neoforge" = _sMXZk4Hx;
         "pkg-1.0.0-mc1.20.1-forge" = _qnFIAjRK;
         "pkg-1.1.0-mc1.20.1-forge" = _NLuIMljX;
         "pkg-1.1.0-mc1.21.1-neoforge" = _ufunHgPH;
-        "default" = _ufunHgPH;
+        "pkg-1.1.1-mc1.21.1-neoforge" = _El7XBhzS;
+        "pkg-1.1.1-mc1.20.1-forge" = _niqi6JCE;
+        "default" = _niqi6JCE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fox-trot-brew";

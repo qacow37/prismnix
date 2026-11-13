@@ -36,6 +36,11 @@ let
             "file" = "RisingStorm_1.4.2.jar";
             "hash" = "sha512-d7fwCQPKw3Apw7biNNSdVVfTvm4XvjPGSZax/TX4Llj9aeiwDBz7u2FZ0e/bf9Wdeyb7e38GaBy0QPpZKcFdxQ==";
         };
+        _ey1tKops = {
+            "id" = "ey1tKops";
+            "file" = "Rising Storm 1.5.jar";
+            "hash" = "sha512-R1XOLyffz6V1qZb1MDnFQnv7/iKOh3WtGSMNynqipu3VrlwXPUh07URa8DvOd+VLnuwnre7Cgc5Z1AOOjNAcTg==";
+        };
     in {
         "PProaAAT" = _PProaAAT;
         "9QuTjLWD" = _9QuTjLWD;
@@ -44,8 +49,9 @@ let
         "rXEiOvaB" = _rXEiOvaB;
         "8SWfogVM" = _8SWfogVM;
         "hI1HieYM" = _hI1HieYM;
+        "ey1tKops" = _ey1tKops;
         "fabric-1.20.1" = _EfXAfZND;
-        "forge-1.20.1" = _hI1HieYM;
+        "forge-1.20.1" = _ey1tKops;
         "pkg-1.0" = _PProaAAT;
         "pkg-1.1" = _9QuTjLWD;
         "pkg-1.2" = _PlEUQHXP;
@@ -53,7 +59,8 @@ let
         "pkg-1.4" = _rXEiOvaB;
         "pkg-1.4.1" = _8SWfogVM;
         "pkg-1.4.2" = _hI1HieYM;
-        "default" = _hI1HieYM;
+        "pkg-1.5" = _ey1tKops;
+        "default" = _ey1tKops;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rising-storm";

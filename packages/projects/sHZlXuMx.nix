@@ -511,6 +511,16 @@ let
             "file" = "masks-n-glory-v85-1.20.1.jar";
             "hash" = "sha512-0hywNLobSUPWduDRbtaLSHTlh7zBwvyZTqUk0MIBQfBx9I2H6p925BdvovkFVM38xyv96/V1jkuZLzY718ZdSQ==";
         };
+        _iXd4d0PT = {
+            "id" = "iXd4d0PT";
+            "file" = "masks-n-glory-v86-1.20.1.jar";
+            "hash" = "sha512-lhq+mSsKcYqfwy/Iaxr7r49I//8nJIMgl3tTHCm9nKx8qV3BqF1hyeIyyhleKtXYjnqD9knj4oD4s2hACT/jRQ==";
+        };
+        _uwAuNR0B = {
+            "id" = "uwAuNR0B";
+            "file" = "masks-n-glory-v86fix-1.20.1.jar";
+            "hash" = "sha512-9nHjLjtYqGpVvh/s2SDXJE8UnkxpGMinz17eCLMR1HHUDicFP4jJiEfZshrzFJT71j58hd6G9+spWaTB9qz26g==";
+        };
     in {
         "zdlsFjoJ" = _zdlsFjoJ;
         "l928lrOf" = _l928lrOf;
@@ -614,7 +624,9 @@ let
         "8mG6Bk21" = _8mG6Bk21;
         "5NwggFTe" = _5NwggFTe;
         "9kFy0Vy0" = _9kFy0Vy0;
-        "fabric-1.20.1" = _9kFy0Vy0;
+        "iXd4d0PT" = _iXd4d0PT;
+        "uwAuNR0B" = _uwAuNR0B;
+        "fabric-1.20.1" = _uwAuNR0B;
         "pkg-0.1-1.20.1" = _zdlsFjoJ;
         "pkg-0.2-1.20.1" = _l928lrOf;
         "pkg-0.3-1.20.1" = _kIDxrXiB;
@@ -716,7 +728,9 @@ let
         "pkg-83" = _8mG6Bk21;
         "pkg-84" = _5NwggFTe;
         "pkg-85" = _9kFy0Vy0;
-        "default" = _9kFy0Vy0;
+        "pkg-86" = _iXd4d0PT;
+        "pkg-86fix" = _uwAuNR0B;
+        "default" = _uwAuNR0B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "masks-n-glory";

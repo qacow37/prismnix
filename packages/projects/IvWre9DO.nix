@@ -66,6 +66,16 @@ let
             "file" = "terrano-fabric-1.5.1.jar";
             "hash" = "sha512-FuXfVX1rC7WgytwBc97GR2MXzo69EDOZrbVk1IpkF2TflzxESwQYvRcTbgicuZPG0PGk3/P8Gp0q14mJEea6wg==";
         };
+        _bLKElTTM = {
+            "id" = "bLKElTTM";
+            "file" = "terrano-neoforge-1.6.0.jar";
+            "hash" = "sha512-SdGcv5relCFF5tLFYwZ+CJvNEOC1O3fniSxtoPa/x3vCEdziDmmd0nYszS3+593AjE8yP/pib7P09wb0JrBxgA==";
+        };
+        _apzCClF1 = {
+            "id" = "apzCClF1";
+            "file" = "terrano-fabric-1.6.0.jar";
+            "hash" = "sha512-f3vfXnTQUoLA42YmHr8dqYjtBgXFGbeA/HKjOHTtRJfubOGWYXbyb3QYojkasqMx+p+laJl8XskjKiBy63Al8w==";
+        };
     in {
         "XUKdTBsR" = _XUKdTBsR;
         "K4CCh2gR" = _K4CCh2gR;
@@ -80,8 +90,10 @@ let
         "zvwrswLA" = _zvwrswLA;
         "2ZA23SV4" = _2ZA23SV4;
         "pQSmq7Dg" = _pQSmq7Dg;
-        "neoforge-1.21.1" = _2ZA23SV4;
-        "fabric-1.21.1" = _pQSmq7Dg;
+        "bLKElTTM" = _bLKElTTM;
+        "apzCClF1" = _apzCClF1;
+        "neoforge-1.21.1" = _bLKElTTM;
+        "fabric-1.21.1" = _apzCClF1;
         "pkg-1.1.0" = _XUKdTBsR;
         "pkg-1.2.0" = _K4CCh2gR;
         "pkg-1.2.1" = _yglGXKrc;
@@ -93,7 +105,8 @@ let
         "pkg-1.4.2" = _ReYxdziG;
         "pkg-1.5.0" = _zvwrswLA;
         "pkg-1.5.1" = _pQSmq7Dg;
-        "default" = _pQSmq7Dg;
+        "pkg-1.6.0" = _apzCClF1;
+        "default" = _apzCClF1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terrano";

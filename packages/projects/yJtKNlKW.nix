@@ -156,6 +156,16 @@ let
             "file" = "MCEndgame-1.8.1+26.3.jar";
             "hash" = "sha512-OQPR+8e9ADVgtK9ysB5VBc5tdmIEHcgmpdnQfEL3Tyc5svt3chWKWmRUtsgAyCIO25GvwGjDdZxc7TQT+Zj4xw==";
         };
+        _yf1FckoT = {
+            "id" = "yf1FckoT";
+            "file" = "MCEndgame-1.8.1+26.2.jar";
+            "hash" = "sha512-1Qz5Zmh59CNR6+kHe0fwq3dEao5y5upqtU7l/kukvomvBn5qX8HN5oJ2tYU8UAgcXzPzpa3X6M/9ws1mjiOOHw==";
+        };
+        _Szf7qBVb = {
+            "id" = "Szf7qBVb";
+            "file" = "MCEndgame-1.8.2+26.3.jar";
+            "hash" = "sha512-uegspA7xng0DJ0AKdgDJD1izuP1CD/4+/ti4fnKV3QhKrco+XTvsC5Thkl+ijMC1Hu+GsioLitftg3onkA61gA==";
+        };
     in {
         "4WEpdj3o" = _4WEpdj3o;
         "bM4dFO4b" = _bM4dFO4b;
@@ -188,10 +198,12 @@ let
         "RkvOjIe3" = _RkvOjIe3;
         "qQD6FGPE" = _qQD6FGPE;
         "P2ueEmT8" = _P2ueEmT8;
+        "yf1FckoT" = _yf1FckoT;
+        "Szf7qBVb" = _Szf7qBVb;
         "fabric-1.21.11" = _n9FplqH9;
         "fabric-26.1.2" = _b2ZfopJP;
-        "fabric-26.2" = _qQD6FGPE;
-        "fabric-26.3" = _P2ueEmT8;
+        "fabric-26.2" = _yf1FckoT;
+        "fabric-26.3" = _Szf7qBVb;
         "pkg-1.0.0+1.21.11" = _4WEpdj3o;
         "pkg-1.1.0+1.21.11" = _bM4dFO4b;
         "pkg-1.2.0+1.21.11" = _zCVwWQlV;
@@ -223,7 +235,9 @@ let
         "pkg-1.8.0+26.3" = _RkvOjIe3;
         "pkg-1.8.0+26.2" = _qQD6FGPE;
         "pkg-1.8.1+26.3" = _P2ueEmT8;
-        "default" = _P2ueEmT8;
+        "pkg-1.8.1+26.2" = _yf1FckoT;
+        "pkg-1.8.2+26.3" = _Szf7qBVb;
+        "default" = _Szf7qBVb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcendgame";

@@ -36,6 +36,11 @@ let
             "file" = "cheesus-1.2.2-test-1.21.1.jar";
             "hash" = "sha512-OF+7AjRuGAGB8MxrDeDRSvy4j3PjdJVK2HQPsZNaI3xTs6hKKBDroRVQhyWNPt6qQaETyhlyZYUNFPbltlFSUQ==";
         };
+        _dibnmZGF = {
+            "id" = "dibnmZGF";
+            "file" = "cheesus-1.3-1.21.1.jar";
+            "hash" = "sha512-l2igukX8Wb8TV7S8v7aI6RcIYBItsjDjUjHuXsUhlTh9isBzzrgXIe4Lsid84cV39hKzSPbhdJU08Wfbel8zXw==";
+        };
     in {
         "OOr4nTcR" = _OOr4nTcR;
         "blHAoCYz" = _blHAoCYz;
@@ -44,8 +49,9 @@ let
         "wsxB68yC" = _wsxB68yC;
         "MpD1vxBv" = _MpD1vxBv;
         "Z1TmoWRS" = _Z1TmoWRS;
+        "dibnmZGF" = _dibnmZGF;
         "forge-1.20.1" = _MpD1vxBv;
-        "neoforge-1.21.1" = _Z1TmoWRS;
+        "neoforge-1.21.1" = _dibnmZGF;
         "pkg-1.2.1-alpha-1.20.1" = _OOr4nTcR;
         "pkg-1.0.0-1.20.1" = _blHAoCYz;
         "pkg-1.1.0-1.20.1" = _t8EkI9vo;
@@ -53,7 +59,8 @@ let
         "pkg-1.2.1-1.20.1" = _wsxB68yC;
         "pkg-1.2.2-1.20.1" = _MpD1vxBv;
         "pkg-1.2.2" = _Z1TmoWRS;
-        "default" = _Z1TmoWRS;
+        "pkg-1.3" = _dibnmZGF;
+        "default" = _dibnmZGF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cheesus";

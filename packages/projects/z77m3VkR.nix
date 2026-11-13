@@ -66,6 +66,16 @@ let
             "file" = "Two-Moons-LexLim-Resourcepack-1.21.9-1.21.10-v1.0.7.zip";
             "hash" = "sha512-4JZaXFP0b5xcnnG57v2HNCuw7eykjNqMW38mvsxIwl94TZqtVU9NsNmBOEf9FbWnOfwugi1BM+GGdmUEUsoGDg==";
         };
+        _J2LuliOF = {
+            "id" = "J2LuliOF";
+            "file" = "Two-Moons-Vanilla-Resourcepack-1.21.11-later-v1.0.8.zip";
+            "hash" = "sha512-q1jL+YkMTAdIdaG51ZSDpOO3AtrwGhrYnzg6WrOwkkB3pw4APUixaEmPM2YVh7VtIp8/+vUlyJSk6/7/jCiFaw==";
+        };
+        _9fably5W = {
+            "id" = "9fably5W";
+            "file" = "Two-Moons-Lexlim-Resourcepack-1.21.11-later-v1.0.8.zip";
+            "hash" = "sha512-Ky0roKxNPhPNpAO///uxLOzQPOIBj1bzT8GBOL/DytOTyg15MRFOWzxV/9MU1yLZCs1rVr39BWBvk62pFuV3Zg==";
+        };
     in {
         "F4SnTO6d" = _F4SnTO6d;
         "vYGzG5U3" = _vYGzG5U3;
@@ -80,6 +90,8 @@ let
         "erhONNNc" = _erhONNNc;
         "RFmU2Ule" = _RFmU2Ule;
         "dgFRUbsi" = _dgFRUbsi;
+        "J2LuliOF" = _J2LuliOF;
+        "9fably5W" = _9fably5W;
         "minecraft-1.18" = _CJEqwdFZ;
         "minecraft-1.18.1" = _CJEqwdFZ;
         "minecraft-1.18.2" = _CJEqwdFZ;
@@ -106,11 +118,18 @@ let
         "minecraft-1.21.8" = _erhONNNc;
         "minecraft-1.21.9" = _dgFRUbsi;
         "minecraft-1.21.10" = _dgFRUbsi;
+        "minecraft-1.21.11" = _9fably5W;
+        "minecraft-26.1" = _9fably5W;
+        "minecraft-26.1.1" = _9fably5W;
+        "minecraft-26.1.2" = _9fably5W;
+        "minecraft-26.2" = _9fably5W;
+        "minecraft-26.3" = _9fably5W;
         "pkg-1.0" = _ZwgoIksM;
         "pkg-1.0.5" = _CJEqwdFZ;
         "pkg-1.0.6" = _erhONNNc;
         "pkg-1.0.7" = _dgFRUbsi;
-        "default" = _dgFRUbsi;
+        "pkg-1.0.8" = _9fably5W;
+        "default" = _9fably5W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "two-moons";

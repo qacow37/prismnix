@@ -66,6 +66,11 @@ let
             "file" = "offlinelan-2.0.0+1.14.4.jar";
             "hash" = "sha512-VmQdOiKSnvpRE+DhPmlD2rhQTTjXMwQI/53admmEeju//74732mJtcnaMyqexcYKAtQ+zebCBX0UeMopu8C0SQ==";
         };
+        _YAallKr0 = {
+            "id" = "YAallKr0";
+            "file" = "offlinelan-2.0.0+1.21.11.jar";
+            "hash" = "sha512-2nL1oHal0sHx9+5+cgIOOTIpT4WpwyYGxYuurH0GC4xdwtcGP1Wkq/g4iLVBDQE7LUu4zvoKn4amuqEnbSEUcg==";
+        };
     in {
         "AxY4jPZc" = _AxY4jPZc;
         "Sjy9GNBs" = _Sjy9GNBs;
@@ -80,6 +85,7 @@ let
         "geo5hQyA" = _geo5hQyA;
         "6fKnvQgh" = _6fKnvQgh;
         "t7WEQX3W" = _t7WEQX3W;
+        "YAallKr0" = _YAallKr0;
         "fabric-1.19" = _TUr44TBP;
         "fabric-1.19.1" = _TUr44TBP;
         "fabric-1.19.2" = _TUr44TBP;
@@ -103,7 +109,7 @@ let
         "fabric-1.21.8" = _TUr44TBP;
         "fabric-1.21.9" = _TUr44TBP;
         "fabric-1.21.10" = _TUr44TBP;
-        "fabric-1.21.11" = _TUr44TBP;
+        "fabric-1.21.11" = _YAallKr0;
         "fabric-26.1" = _lP3xKiAv;
         "fabric-26.1.1" = _lP3xKiAv;
         "fabric-26.1.2" = _lP3xKiAv;
@@ -133,8 +139,8 @@ let
         "pkg-1.1.2" = _Lk7jQTsr;
         "pkg-1.2" = _LJvx8eU8;
         "pkg-1.2.1" = _U7x6oOxs;
-        "pkg-2.0.0" = _t7WEQX3W;
-        "default" = _t7WEQX3W;
+        "pkg-2.0.0" = _YAallKr0;
+        "default" = _YAallKr0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "offlinelan";

@@ -176,6 +176,11 @@ let
             "file" = "RPRenames-26.2-0.12.2.jar";
             "hash" = "sha512-5BpIqY2qv87ayMxobZMqZL6z7dZtF2FDGP5jEgJG9ZkhEdgrs8g+tG6+HJSrd94jYPeoGvbbhQQqTcNQQ226gQ==";
         };
+        _hXndtCPE = {
+            "id" = "hXndtCPE";
+            "file" = "RPRenames-0.13.0+26.3.jar";
+            "hash" = "sha512-Wr5+2DHYE+5rZRnGQ8/VBMj6JE1WYQXc/ZHBSe9Pr36u2NiRt0Upg3mp7JrrCC9iEqvsWAtD9+aZefBqmUnSgg==";
+        };
     in {
         "uADKK8Gy" = _uADKK8Gy;
         "owDkCJsB" = _owDkCJsB;
@@ -212,6 +217,7 @@ let
         "NG6XFFee" = _NG6XFFee;
         "6MCJvt8V" = _6MCJvt8V;
         "G0ZXslP9" = _G0ZXslP9;
+        "hXndtCPE" = _hXndtCPE;
         "fabric-1.19.2" = _4Mqvwoco;
         "fabric-1.19.4" = _v9iuMY2n;
         "fabric-1.20.1" = _Mxtfnssi;
@@ -230,6 +236,7 @@ let
         "fabric-26.1.1" = _NG6XFFee;
         "fabric-26.1.2" = _NG6XFFee;
         "fabric-26.2" = _G0ZXslP9;
+        "fabric-26.3" = _hXndtCPE;
         "quilt-1.19.2" = _4Mqvwoco;
         "quilt-1.19.4" = _v9iuMY2n;
         "quilt-1.20.1" = _Mxtfnssi;
@@ -248,10 +255,12 @@ let
         "quilt-26.1.1" = _NG6XFFee;
         "quilt-26.1.2" = _NG6XFFee;
         "quilt-26.2" = _G0ZXslP9;
+        "quilt-26.3" = _hXndtCPE;
         "neoforge-26.1" = _NG6XFFee;
         "neoforge-26.1.1" = _NG6XFFee;
         "neoforge-26.1.2" = _NG6XFFee;
         "neoforge-26.2" = _G0ZXslP9;
+        "neoforge-26.3" = _hXndtCPE;
         "pkg-0.3.0" = _owDkCJsB;
         "pkg-0.4.0" = _g3Rsk02v;
         "pkg-0.4.0.3" = _zzE8Lf6B;
@@ -279,7 +288,8 @@ let
         "pkg-0.12.0" = _NG6XFFee;
         "pkg-0.12.1" = _6MCJvt8V;
         "pkg-0.12.2" = _G0ZXslP9;
-        "default" = _G0ZXslP9;
+        "pkg-0.13.0+26.3" = _hXndtCPE;
+        "default" = _hXndtCPE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rp-renames";

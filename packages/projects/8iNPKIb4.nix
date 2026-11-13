@@ -61,6 +61,26 @@ let
             "file" = "inventoryslots-2.1.0+26.3.jar";
             "hash" = "sha512-AbQpXRhQsxPykL1I6F9YeLlGttYujcw/68QMktDIzLlKh6k7HSFyyYrmOS6jpulWAByZKPGDDeHJ7WrnFLH8PQ==";
         };
+        _BBCcujOH = {
+            "id" = "BBCcujOH";
+            "file" = "inventoryslots-2.2.0+1.21.11.jar";
+            "hash" = "sha512-KJx1thZC+cVijeZm4+mE1hTKQ3L3wcr54BD/CJtCRszMo2+8q4KsO1iThfe1atqw+sCvGAZaHLAHGY5p+EapyQ==";
+        };
+        _PcHxq8bs = {
+            "id" = "PcHxq8bs";
+            "file" = "inventoryslots-2.2.0+26.1.2.jar";
+            "hash" = "sha512-kY3lNKeT3QgA/VkkZrqa35EyoWjs3Astx1EVJibtNoMVw4/s+yZGNcm4oh7Gc3ymB4inyIvuiJQ9WH0VYmpCWw==";
+        };
+        _jwXwdnZn = {
+            "id" = "jwXwdnZn";
+            "file" = "inventoryslots-2.2.0+26.2.jar";
+            "hash" = "sha512-2Rs+o5W88Ndpki4h2Ab6flRKcEHPl+FVmhC/lLikowqtam9uHNl+a9KWk9bFXatL7j9FxvBKf0kBQDLKxyxcyg==";
+        };
+        _5yvS77F8 = {
+            "id" = "5yvS77F8";
+            "file" = "inventoryslots-2.2.0+26.3.jar";
+            "hash" = "sha512-uYErpHedC56W8JcTaWPEFlpdcelIKwD/5fFHZWLciQyGc3WAosrtkOuzRK1BJW5EVAodDYqLR6iPhtwonh4gfQ==";
+        };
     in {
         "mxLKsezQ" = _mxLKsezQ;
         "AGqea1EP" = _AGqea1EP;
@@ -74,16 +94,20 @@ let
         "PNKXqVqh" = _PNKXqVqh;
         "XAfRgqy2" = _XAfRgqy2;
         "iJwtLApY" = _iJwtLApY;
+        "BBCcujOH" = _BBCcujOH;
+        "PcHxq8bs" = _PcHxq8bs;
+        "jwXwdnZn" = _jwXwdnZn;
+        "5yvS77F8" = _5yvS77F8;
         "fabric-1.21.4" = _AGqea1EP;
         "fabric-1.21.5" = _AGqea1EP;
         "fabric-1.21.6" = _AGqea1EP;
         "fabric-1.21.7" = _AGqea1EP;
         "fabric-1.21.8" = _pFIQFHTs;
         "fabric-1.21.10" = _sg2F4UBM;
-        "fabric-1.21.11" = _U56qlllO;
-        "fabric-26.1.2" = _PNKXqVqh;
-        "fabric-26.2" = _XAfRgqy2;
-        "fabric-26.3" = _iJwtLApY;
+        "fabric-1.21.11" = _BBCcujOH;
+        "fabric-26.1.2" = _PcHxq8bs;
+        "fabric-26.2" = _jwXwdnZn;
+        "fabric-26.3" = _5yvS77F8;
         "pkg-1.0.0" = _mxLKsezQ;
         "pkg-1.0.1" = _AGqea1EP;
         "pkg-2.0.0" = _2YsRf2wO;
@@ -96,7 +120,11 @@ let
         "pkg-2.1.0+26.1.2" = _PNKXqVqh;
         "pkg-2.1.0+26.2" = _XAfRgqy2;
         "pkg-2.1.0+26.3" = _iJwtLApY;
-        "default" = _iJwtLApY;
+        "pkg-2.2.0+1.21.11" = _BBCcujOH;
+        "pkg-2.2.0+26.1.2" = _PcHxq8bs;
+        "pkg-2.2.0+26.2" = _jwXwdnZn;
+        "pkg-2.2.0+26.3" = _5yvS77F8;
+        "default" = _5yvS77F8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-slots";

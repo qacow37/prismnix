@@ -56,6 +56,11 @@ let
             "file" = "bloxd 0.08.2.zip";
             "hash" = "sha512-gzD51ShmUJWU5S9HyET9Wc9spzg8uDorMIuPgpXnGu5VUWiTYM2Etc/bEUq4OPckYRYhJvsB9ku4R057nQebJQ==";
         };
+        _yamsG4FS = {
+            "id" = "yamsG4FS";
+            "file" = "bloxd 0.09.0.zip";
+            "hash" = "sha512-WaW2Bvq5Klp/CTTZR12CSjn0+WJUA6hWM3a7Hk8SeQ6FS337ET7tZ/RjedmIBchJmCv1irYtjGugg++91etxtw==";
+        };
     in {
         "s9wcz07o" = _s9wcz07o;
         "DHvQ2yIX" = _DHvQ2yIX;
@@ -68,6 +73,7 @@ let
         "TFXrcoGJ" = _TFXrcoGJ;
         "5vAN9dd2" = _5vAN9dd2;
         "lXwaJnww" = _lXwaJnww;
+        "yamsG4FS" = _yamsG4FS;
         "minecraft-1.21" = _QlZCxk6o;
         "minecraft-1.21.1" = _QlZCxk6o;
         "minecraft-1.21.2" = _QlZCxk6o;
@@ -77,6 +83,7 @@ let
         "minecraft-1.21.6" = _lXwaJnww;
         "minecraft-1.21.7" = _lXwaJnww;
         "minecraft-1.21.8" = _lXwaJnww;
+        "minecraft-1.21.11" = _yamsG4FS;
         "pkg-0.01" = _s9wcz07o;
         "pkg-0.02" = _DHvQ2yIX;
         "pkg-0.03" = _QlZCxk6o;
@@ -88,7 +95,8 @@ let
         "pkg-0.08" = _TFXrcoGJ;
         "pkg-0.08.1" = _5vAN9dd2;
         "pkg-0.08.2" = _lXwaJnww;
-        "default" = _lXwaJnww;
+        "pkg-0.09.0" = _yamsG4FS;
+        "default" = _yamsG4FS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bloxd.io";

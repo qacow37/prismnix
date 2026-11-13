@@ -891,6 +891,11 @@ let
             "file" = "Nova-0.25.0-alpha.6+MC-26.3.jar";
             "hash" = "sha512-7iKZ2trbJx+dO/axsPA5Jyzy4uxkKKD/WUxugsyX0g4lPKA8QVpd6760pL6n7JHlBkkevtXqgm8IMGJc+N5EQA==";
         };
+        _exIlSt2T = {
+            "id" = "exIlSt2T";
+            "file" = "Nova-0.25.0-alpha.7+MC-26.3.jar";
+            "hash" = "sha512-Zsmn2NBmzzk6IgL+yjfDvHI+MsbKMHRgKNMmuC+PPOQSa2g34v4ZrUuhhxvAbolpnCU/UveVKZJRHNSSBcRMoQ==";
+        };
     in {
         "XQUzOp1N" = _XQUzOp1N;
         "quYhJv5u" = _quYhJv5u;
@@ -1070,6 +1075,7 @@ let
         "k0eGtB0c" = _k0eGtB0c;
         "KL74PEBk" = _KL74PEBk;
         "DmhHiCmy" = _DmhHiCmy;
+        "exIlSt2T" = _exIlSt2T;
         "paper-1.19.3" = _XQUzOp1N;
         "paper-1.19.4" = _oqVN6JSD;
         "paper-1.20" = _YJsDfOn9;
@@ -1089,7 +1095,7 @@ let
         "paper-26.1.2" = _5GcXzCBb;
         "paper-26.2-rc-2" = _yZRfILpl;
         "paper-26.2" = _I0MMDtD5;
-        "paper-26.3" = _DmhHiCmy;
+        "paper-26.3" = _exIlSt2T;
         "purpur-1.19.3" = _XQUzOp1N;
         "purpur-1.19.4" = _oqVN6JSD;
         "purpur-1.20" = _YJsDfOn9;
@@ -1109,7 +1115,7 @@ let
         "purpur-26.1.2" = _5GcXzCBb;
         "purpur-26.2-rc-2" = _yZRfILpl;
         "purpur-26.2" = _I0MMDtD5;
-        "purpur-26.3" = _DmhHiCmy;
+        "purpur-26.3" = _exIlSt2T;
         "spigot-1.19.3" = _XQUzOp1N;
         "spigot-1.19.4" = _oqVN6JSD;
         "spigot-1.20" = _YJsDfOn9;
@@ -1292,7 +1298,8 @@ let
         "pkg-0.25.0-alpha.4" = _k0eGtB0c;
         "pkg-0.25.0-alpha.5" = _KL74PEBk;
         "pkg-0.25.0-alpha.6" = _DmhHiCmy;
-        "default" = _DmhHiCmy;
+        "pkg-0.25.0-alpha.7" = _exIlSt2T;
+        "default" = _exIlSt2T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nova-framework";

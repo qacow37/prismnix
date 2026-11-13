@@ -271,6 +271,16 @@ let
             "file" = "rtsbuilding-forge-1.20.1-1.1.8-beta1.jar";
             "hash" = "sha512-KWmppqnpazqKuWAv5kF0aF2jQyOqkOchwzAc/OrQ1zGC5j0HerlxcVEoZBiW41BUxHH0EcnIc2fpIVxUsoUvfg==";
         };
+        _h4sYbzD0 = {
+            "id" = "h4sYbzD0";
+            "file" = "rtsbuilding-forge-1.20.1-1.1.8-beta2.jar";
+            "hash" = "sha512-xH9dhG6sMqXEN16HqT5Hu+uXE29Jymf0/mkm5J78t9d3NRiM7gtffuWPJzdODZpuJSQDXMJ7SM1bDKd0NatoxQ==";
+        };
+        _i86lvOnq = {
+            "id" = "i86lvOnq";
+            "file" = "rtsbuilding-neoforge-1.21.1-1.1.8-beta2.jar";
+            "hash" = "sha512-LiWikjne6q2GodtNbIparRxZL8AK5vr8qxcSIfDi6cS/aPYFU4QGuEVQCTgvv6y4ZS7HzapcuXXJ7WfIVvvo0w==";
+        };
     in {
         "NTRGPI9N" = _NTRGPI9N;
         "ThQ4gM8y" = _ThQ4gM8y;
@@ -326,9 +336,11 @@ let
         "dVipmL0p" = _dVipmL0p;
         "LeuEiLRZ" = _LeuEiLRZ;
         "9yJQht3q" = _9yJQht3q;
-        "neoforge-1.21.1" = _LeuEiLRZ;
+        "h4sYbzD0" = _h4sYbzD0;
+        "i86lvOnq" = _i86lvOnq;
+        "neoforge-1.21.1" = _i86lvOnq;
         "neoforge-26.1.2" = _Ao1znvNN;
-        "forge-1.20.1" = _9yJQht3q;
+        "forge-1.20.1" = _h4sYbzD0;
         "forge-1.20.2" = _AymVMqRG;
         "forge-1.20.3" = _AymVMqRG;
         "forge-1.20.4" = _AymVMqRG;
@@ -374,7 +386,8 @@ let
         "pkg-1.1.7" = _J6pjI9e8;
         "pkg-1.1.8-beta" = _dVipmL0p;
         "pkg-1.1.8-beta1" = _9yJQht3q;
-        "default" = _9yJQht3q;
+        "pkg-1.1.8-beta2" = _i86lvOnq;
+        "default" = _i86lvOnq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rts-building-build-from-above";
