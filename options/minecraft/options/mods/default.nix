@@ -16,7 +16,7 @@ lib.prismnix.mkScope {
         options = lib.mapAttrs (k: v:
             (v.options or {}) //
             {
-                enable = lib.mkEnableOption "Whether to enable the `${k}` mod";
+                enable = lib.mkEnableOption "the `${k}` mod";
                 version = lib.mkOption {
                     type = lib.types.str;
                     default = "${mc-loader}-${mc-version}";

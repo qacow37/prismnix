@@ -1,7 +1,12 @@
 {lib, pkgs, config, ...}: let cfg = config.shader-loader; in
 {
     options.shader-loader = {
-        enable = lib.mkEnableOption "Whether to enable using a shader loader";
+        enable = lib.mkOption {
+            type = lib.types.bool;
+            default = false;
+            example = true;
+            description = "Whether to enable using a shader loader";
+        };
 
         loader = lib.mkOption {
             type = lib.types.str;

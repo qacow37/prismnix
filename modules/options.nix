@@ -3,7 +3,7 @@
 {
     options.programs = {
         prismnix = {
-            enable = lib.mkEnableOption "Enable prismnix";
+            enable = lib.mkEnableOption "prismnix";
 
             package = lib.mkOption {
                 type = lib.types.nullOr lib.types.package;

@@ -1,7 +1,12 @@
 {lib, config, ...}: let cfg = config.mod-loader; in
 {
     options.mod-loader = {
-        enable = lib.mkEnableOption "Whether to enable using a mod loader";
+        enable = lib.mkOption {
+            type = lib.types.bool;
+            default = false;
+            example = true;
+            description = "Whether to enable using a mod loader";
+        };
 
         loader = lib.mkOption {
             type = lib.types.str;
