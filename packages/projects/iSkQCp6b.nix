@@ -346,6 +346,16 @@ let
             "file" = "SimpleHats-0.4.1.jar";
             "hash" = "sha512-fnEy6VjbGlb44eVtS3UbAWrL7eP+7t0QjI6S+546tL1L+Jw82KSGpPspU0CYtKK/RsQyRDTvUcvFmzwnVU04Zw==";
         };
+        _sB91TMqR = {
+            "id" = "sB91TMqR";
+            "file" = "simplehats-fabric-26.3-0.4.1.jar";
+            "hash" = "sha512-0Fqj1lQYA1/bPJO4yDUqxfVoeX/ivWIe82fsuK5AJwyVZ9cd8ugRRMzpWFN1USaKwSQ8kNsBNvDWDVD68hHc1Q==";
+        };
+        _mboaQ83E = {
+            "id" = "mboaQ83E";
+            "file" = "simplehats-neoforge-26.3-0.4.1.jar";
+            "hash" = "sha512-ajploiqg/uKxdqmpKSC4jn+p81lQZGZQIDihoCDXxJmXq7npsC1YE6B90anqch6CSff3Cq4xCm6TKMcZj+6MVw==";
+        };
     in {
         "TM9KlpBK" = _TM9KlpBK;
         "RPxLlCim" = _RPxLlCim;
@@ -416,6 +426,8 @@ let
         "mqicVG9A" = _mqicVG9A;
         "paO05HKa" = _paO05HKa;
         "TIFkKFLE" = _TIFkKFLE;
+        "sB91TMqR" = _sB91TMqR;
+        "mboaQ83E" = _mboaQ83E;
         "forge-1.19.4" = _GBslZwpo;
         "forge-1.18.2" = _MmYR1izy;
         "forge-1.19.2" = _nxHfpSMn;
@@ -432,10 +444,12 @@ let
         "fabric-1.21.1" = _CBwzDCWX;
         "fabric-1.21.10" = _3BEb3ZZZ;
         "fabric-26.1.2" = _mqicVG9A;
+        "fabric-26.3" = _sB91TMqR;
         "neoforge-1.21.1" = _t7zbSooi;
         "neoforge-1.20.1" = _LcbDTCwp;
         "neoforge-1.21.10" = _dpfCizEV;
         "neoforge-26.1.2" = _paO05HKa;
+        "neoforge-26.3" = _mboaQ83E;
         "pkg-Forge-1.19.4-0.1.7" = _TM9KlpBK;
         "pkg-Forge-1.18.2-0.1.6" = _RPxLlCim;
         "pkg-Fabric-1.19.4-0.1.7" = _fyFKrpb4;
@@ -481,7 +495,9 @@ let
         "pkg-26.1.2-0.4.1" = _mqicVG9A;
         "pkg-26.1.2-Neo-0.4.1" = _paO05HKa;
         "pkg-1.12.2-Forge-0.4.1" = _TIFkKFLE;
-        "default" = _TIFkKFLE;
+        "pkg-26.3-Fabric-0.4.1" = _sB91TMqR;
+        "pkg-26.3-Neo-0.4.1" = _mboaQ83E;
+        "default" = _mboaQ83E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-hats";

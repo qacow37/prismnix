@@ -181,6 +181,16 @@ let
             "file" = "clockwork-0.5.6.jar";
             "hash" = "sha512-xfS+9d5a6+EFqsLHtx3bZK5zy4WM260cdkZoNnKAWRpDFw+aEeosrai67sn9bQM08gHkYAs0FQYw9c/KsR/09Q==";
         };
+        _IqLoUZX9 = {
+            "id" = "IqLoUZX9";
+            "file" = "clockwork-0.5.7.jar";
+            "hash" = "sha512-e6VLtpM77mSkL9yAhA7x8pP/owC73LeUEujYxKdf1ye1uAg7IJ6C+f6uW8AQ6s6ybNkY0bMRJo69+i6Nr2PAEA==";
+        };
+        _a9JnVNQz = {
+            "id" = "a9JnVNQz";
+            "file" = "clockwork-0.5.7.jar";
+            "hash" = "sha512-qjJnotqDwtIf/dWpUKV/qzt5WCVlSJqGn6Lmm0DcwEbs1ZLKny5Z/zpq2SeGlPNBTkAnmSOOMYzJwR7GQwQK5g==";
+        };
     in {
         "vy3rk7D0" = _vy3rk7D0;
         "8JdnD9wo" = _8JdnD9wo;
@@ -218,12 +228,14 @@ let
         "q7OCzMfX" = _q7OCzMfX;
         "fYK8BigB" = _fYK8BigB;
         "6V352Hop" = _6V352Hop;
+        "IqLoUZX9" = _IqLoUZX9;
+        "a9JnVNQz" = _a9JnVNQz;
         "forge-1.18.2" = _vy3rk7D0;
         "forge-1.19.2" = _nFXocypA;
-        "forge-1.20.1" = _fYK8BigB;
+        "forge-1.20.1" = _a9JnVNQz;
         "fabric-1.18.2" = _8JdnD9wo;
         "fabric-1.19.2" = _okvheSWL;
-        "fabric-1.20.1" = _6V352Hop;
+        "fabric-1.20.1" = _IqLoUZX9;
         "pkg-1.18.2-0.1.16" = _8JdnD9wo;
         "pkg-1.19.2-0.1.16" = _okvheSWL;
         "pkg-1.20.1-0.1.16" = _EvNWNIMY;
@@ -257,7 +269,9 @@ let
         "pkg-1.20.1-forge-0.5.5.2" = _q7OCzMfX;
         "pkg-1.20.1-forge-0.5.6" = _fYK8BigB;
         "pkg-1.20.1-fabric-0.5.6" = _6V352Hop;
-        "default" = _6V352Hop;
+        "pkg-1.20.1-fabric-0.5.7" = _IqLoUZX9;
+        "pkg-1.20.1-forge-0.5.7" = _a9JnVNQz;
+        "default" = _a9JnVNQz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-clockwork";

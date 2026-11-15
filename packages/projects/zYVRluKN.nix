@@ -146,6 +146,66 @@ let
             "file" = "my-totem-sounds-1.0.1+26.2+fabric.jar";
             "hash" = "sha512-Xr+EIWpX5VLgJA7cd+XEc5pyUgjRmy2pPxJ3viYyCwhQCLTZLLoENbERhh4p/YgUf2AGFMy1R7fxpT8HB/JD1g==";
         };
+        _PIQzCWNc = {
+            "id" = "PIQzCWNc";
+            "file" = "my-totem-sounds-1.0.2+1.20.1+forge.jar";
+            "hash" = "sha512-Li/50bCZDgU5QY57y3gy8dzxmjtuafOC+Gum844GU+D3aGSuqof7Zee90WFuThgLpnUXTbg158dLPsumAD7Jjg==";
+        };
+        _X1MldtdP = {
+            "id" = "X1MldtdP";
+            "file" = "my-totem-sounds-1.0.2+1.21.1+neoforge.jar";
+            "hash" = "sha512-rJqto+mJP7Sd9dLdCVoMoZpHCW4DvxmKbX6olJnkkclRE1dff7klOuSc0clQRwtDmXpw4iOHutEDl2yhH+2epg==";
+        };
+        _uliiOieY = {
+            "id" = "uliiOieY";
+            "file" = "my-totem-sounds-1.0.2+1.21.11+neoforge.jar";
+            "hash" = "sha512-m2GvHPinEmFEcayi6z0vdgffYuX4FrFBSa6wBbyY++V3XPE+bwFLHyXuTRtwLc7n9W/ScxQABpTMYEtd5ejrDA==";
+        };
+        _Hei2jxQZ = {
+            "id" = "Hei2jxQZ";
+            "file" = "my-totem-sounds-1.0.2+26.1+neoforge.jar";
+            "hash" = "sha512-s7djrcXGQ61YRwy9ZjZNUzptLrbxRzp35/S2JzSDW7A7uTK/pQj6Np6uOGYr8MGsmlsnPyZaLaXKJ8AzrmaZJA==";
+        };
+        _ObwBzvgt = {
+            "id" = "ObwBzvgt";
+            "file" = "my-totem-sounds-1.0.2+26.2+neoforge.jar";
+            "hash" = "sha512-VgewClte0DwcGr7r0xsgk5Rf3f39/WiS6KdolZ6FeXIbOvBcyC1NrRhnQK/CVJyYTYgeWqMT1PpJgST2CzMinA==";
+        };
+        _kWR3uqBt = {
+            "id" = "kWR3uqBt";
+            "file" = "my-totem-sounds-1.0.2+26.3+neoforge.jar";
+            "hash" = "sha512-CoGnWg0QjmUGmAw9XC74cDIimf9w4kmKoxr0lMjhrPosYw/Y/oEU3DwPCM/wLiXFsn0P59zLIrtY8C9c6Je0sw==";
+        };
+        _CsYegyE5 = {
+            "id" = "CsYegyE5";
+            "file" = "my-totem-sounds-1.0.2+1.20.1+fabric.jar";
+            "hash" = "sha512-QVHimMWa7yAJxCapLcaxfgoxMb4GLk14+23e+So1cVW+AnSWhBYna03GVwP5+v2RK5K8OQsxbIDUaZfvkADJsQ==";
+        };
+        _9zFgKp6Y = {
+            "id" = "9zFgKp6Y";
+            "file" = "my-totem-sounds-1.0.2+1.21.1+fabric.jar";
+            "hash" = "sha512-0kCmfNU9k1mwoCHq9Prjz5RcG57/iakqO4jNSiOI3Ry1mqZNCNo0mgoxulLOxnIBa5ZJmwZ857RByXtjHS6FxQ==";
+        };
+        _CjtOhacu = {
+            "id" = "CjtOhacu";
+            "file" = "my-totem-sounds-1.0.2+1.21.11+fabric.jar";
+            "hash" = "sha512-8gNQi64JsCIGn+CvHZ9vcI1a44MFt73Nu89fiuib/iC/5C4v2pCQvd8H002zbYTnVT+ROW13GdkBUJYmgRITng==";
+        };
+        _Ybb4kIme = {
+            "id" = "Ybb4kIme";
+            "file" = "my-totem-sounds-1.0.2+26.1+fabric.jar";
+            "hash" = "sha512-oMPbJxN4bZVOzUkZ/DpggZuq0vXnSnKLwdhyjgy7J0s2M8rZiVIIyy/NK7c7SSicMDKZIwYU14WtSjeRxfMV4g==";
+        };
+        _vADC5v2C = {
+            "id" = "vADC5v2C";
+            "file" = "my-totem-sounds-1.0.2+26.2+fabric.jar";
+            "hash" = "sha512-JTQ2T4BPg68i6O2CrophTwZw4/HXWzpgA+o5SPmAm28XXx/LYpP4i61L03AV7SGObj1IA0MMoISs3ZUcaINI2g==";
+        };
+        _HV7xHB5u = {
+            "id" = "HV7xHB5u";
+            "file" = "my-totem-sounds-1.0.2+26.3+fabric.jar";
+            "hash" = "sha512-whoI/aOnUQjYgAi04JJ7rAHoccBgNyGFlHTEG4N5SDc1aAtSwq8VimgdVo11v4WiWmIik0OC5EBfEDMW32axrw==";
+        };
     in {
         "vwFhepLn" = _vwFhepLn;
         "AkrJseIJ" = _AkrJseIJ;
@@ -176,15 +236,27 @@ let
         "N9HM4RyC" = _N9HM4RyC;
         "JBFhlhgC" = _JBFhlhgC;
         "RWOcyEeR" = _RWOcyEeR;
+        "PIQzCWNc" = _PIQzCWNc;
+        "X1MldtdP" = _X1MldtdP;
+        "uliiOieY" = _uliiOieY;
+        "Hei2jxQZ" = _Hei2jxQZ;
+        "ObwBzvgt" = _ObwBzvgt;
+        "kWR3uqBt" = _kWR3uqBt;
+        "CsYegyE5" = _CsYegyE5;
+        "9zFgKp6Y" = _9zFgKp6Y;
+        "CjtOhacu" = _CjtOhacu;
+        "Ybb4kIme" = _Ybb4kIme;
+        "vADC5v2C" = _vADC5v2C;
+        "HV7xHB5u" = _HV7xHB5u;
         "fabric-1.20" = _vwFhepLn;
-        "fabric-1.20.1" = _IUuoCYVN;
+        "fabric-1.20.1" = _CsYegyE5;
         "fabric-1.20.2" = _gTOtqrNF;
         "fabric-1.20.3" = _QGyCpMXl;
         "fabric-1.20.4" = _Y3csMXLo;
         "fabric-1.20.5" = _Z17UatMK;
         "fabric-1.20.6" = _nZkaZaHJ;
         "fabric-1.21" = _5wiPEhOw;
-        "fabric-1.21.1" = _ptgDVWqk;
+        "fabric-1.21.1" = _9zFgKp6Y;
         "fabric-1.21.2" = _vpatcX8K;
         "fabric-1.21.3" = _vtYHMliN;
         "fabric-1.21.4" = _K3BOf6ju;
@@ -194,18 +266,20 @@ let
         "fabric-1.21.8" = _OO7Dza8u;
         "fabric-1.21.9" = _8FnNxTM0;
         "fabric-1.21.10" = _H3gQbjqd;
-        "fabric-1.21.11" = _N9HM4RyC;
-        "fabric-26.1" = _JBFhlhgC;
-        "fabric-26.1.1" = _JBFhlhgC;
-        "fabric-26.1.2" = _JBFhlhgC;
-        "fabric-26.2" = _RWOcyEeR;
-        "forge-1.20.1" = _XYulrul1;
-        "neoforge-1.21.1" = _rb7uJr6o;
-        "neoforge-1.21.11" = _u1lqgxLv;
-        "neoforge-26.1" = _QidrlQW8;
-        "neoforge-26.1.1" = _QidrlQW8;
-        "neoforge-26.1.2" = _QidrlQW8;
-        "neoforge-26.2" = _KSSCYX4W;
+        "fabric-1.21.11" = _CjtOhacu;
+        "fabric-26.1" = _Ybb4kIme;
+        "fabric-26.1.1" = _Ybb4kIme;
+        "fabric-26.1.2" = _Ybb4kIme;
+        "fabric-26.2" = _vADC5v2C;
+        "fabric-26.3" = _HV7xHB5u;
+        "forge-1.20.1" = _PIQzCWNc;
+        "neoforge-1.21.1" = _X1MldtdP;
+        "neoforge-1.21.11" = _uliiOieY;
+        "neoforge-26.1" = _Hei2jxQZ;
+        "neoforge-26.1.1" = _Hei2jxQZ;
+        "neoforge-26.1.2" = _Hei2jxQZ;
+        "neoforge-26.2" = _ObwBzvgt;
+        "neoforge-26.3" = _kWR3uqBt;
         "pkg-1.0.0+1.20+fabric" = _vwFhepLn;
         "pkg-1.0.0+1.20.1+fabric" = _AkrJseIJ;
         "pkg-1.0.0+1.20.2+fabric" = _gTOtqrNF;
@@ -235,7 +309,19 @@ let
         "pkg-1.0.1+1.21.11+fabric" = _N9HM4RyC;
         "pkg-1.0.1+26.1+fabric" = _JBFhlhgC;
         "pkg-1.0.1+26.2+fabric" = _RWOcyEeR;
-        "default" = _RWOcyEeR;
+        "pkg-1.0.2+1.20.1+forge" = _PIQzCWNc;
+        "pkg-1.0.2+1.21.1+neoforge" = _X1MldtdP;
+        "pkg-1.0.2+1.21.11+neoforge" = _uliiOieY;
+        "pkg-1.0.2+26.1+neoforge" = _Hei2jxQZ;
+        "pkg-1.0.2+26.2+neoforge" = _ObwBzvgt;
+        "pkg-1.0.2+26.3+neoforge" = _kWR3uqBt;
+        "pkg-1.0.2+1.20.1+fabric" = _CsYegyE5;
+        "pkg-1.0.2+1.21.1+fabric" = _9zFgKp6Y;
+        "pkg-1.0.2+1.21.11+fabric" = _CjtOhacu;
+        "pkg-1.0.2+26.1+fabric" = _Ybb4kIme;
+        "pkg-1.0.2+26.2+fabric" = _vADC5v2C;
+        "pkg-1.0.2+26.3+fabric" = _HV7xHB5u;
+        "default" = _HV7xHB5u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my-totem-sounds";

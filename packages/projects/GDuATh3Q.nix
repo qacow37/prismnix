@@ -41,6 +41,11 @@ let
             "file" = "[TaCZ1.1.8+Arc+LR0.4.1]42Labs 0.26.1.zip";
             "hash" = "sha512-NunvOIdlPEBUj73NCQFd6/8qvWe55CX/h8erQXtbmMVCJYZCLWj+45ss/yFMEdueu/nSoIp+vHV+x9fJ0waBiQ==";
         };
+        _qWnDifpv = {
+            "id" = "qWnDifpv";
+            "file" = "[TaCZ 1.20 + LR0.4.3]42Labs ver 0.26.3.zip";
+            "hash" = "sha512-7AtLi0Og+5FignTxk+FhiqYz7hw8LBlMrHO4Y6JgFpywwKPz6ztV//gRG73OLDMyLKfBDyz3xvtv7xAmKZmVxg==";
+        };
     in {
         "YyTSAvwD" = _YyTSAvwD;
         "jY4tMpv3" = _jY4tMpv3;
@@ -50,8 +55,9 @@ let
         "DdYUx5px" = _DdYUx5px;
         "8vujHZxq" = _8vujHZxq;
         "ara6QboN" = _ara6QboN;
-        "datapack-1.20.1" = _ara6QboN;
-        "minecraft-1.20.1" = _ara6QboN;
+        "qWnDifpv" = _qWnDifpv;
+        "datapack-1.20.1" = _qWnDifpv;
+        "minecraft-1.20.1" = _qWnDifpv;
         "pkg-0.24" = _YyTSAvwD;
         "pkg-0.24.1" = _jY4tMpv3;
         "pkg-0.25" = _ytTjSe4Q;
@@ -60,7 +66,8 @@ let
         "pkg-0.25.3" = _DdYUx5px;
         "pkg-0.26" = _8vujHZxq;
         "pkg-0.26.1" = _ara6QboN;
-        "default" = _ara6QboN;
+        "pkg-0.26.3" = _qWnDifpv;
+        "default" = _qWnDifpv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "42labs-gunpack";

@@ -771,6 +771,36 @@ let
             "file" = "woodenshears-forge-26.3-4.2.1.0.jar";
             "hash" = "sha512-5JQYa+QCtyq6qhn1yqYXfP49NRNuM9rvVhMgjY5B+I8YGMUTXpi3fEetUWWpfOekTdow4VX9DEZVkba39uUbgQ==";
         };
+        _gNtUOic9 = {
+            "id" = "gNtUOic9";
+            "file" = "woodenshears-neoforge-26.3-4.2.1.1.jar";
+            "hash" = "sha512-4m+vegCTn8ZaIM84ZcI64X61aSx5CgA4kTghfP2vG4XZuONvghCTNSOcf3kzriUa6jAlYfFkOZNJgFuqhRUEHQ==";
+        };
+        _eA5wI5mM = {
+            "id" = "eA5wI5mM";
+            "file" = "woodenshears-forge-26.3-4.2.1.1.jar";
+            "hash" = "sha512-ns1sRd+e8yVFxTiqV6DC7464XECjOsecN1/02PK/oioizWckKlcRr/vWsmPixbm0U6yXEIagGIzSJCAx8iKEdA==";
+        };
+        _Txpox6Ds = {
+            "id" = "Txpox6Ds";
+            "file" = "woodenshears-fabric-26.3-4.2.1.1.jar";
+            "hash" = "sha512-6hdvj0X6/ZoOlI0xyE+87EcikSmbdp8hm3Vc/u5dcp+5NnRVyIsSSTVDhHcck7f2vB2EPdrCCT4MN1SZNYDZBA==";
+        };
+        _g3kPr8Y4 = {
+            "id" = "g3kPr8Y4";
+            "file" = "woodenshears-neoforge-26.2-4.1.0.1.jar";
+            "hash" = "sha512-ybPUXRnczf9I5ahRE2T/x5+WHyQe00ynZhkbHzKonZNsf7nLnpK+O3JetkSFfAoDAkUPVJzLFk5bRMfJDFPBQA==";
+        };
+        _AGSpKIMR = {
+            "id" = "AGSpKIMR";
+            "file" = "woodenshears-forge-26.2-4.1.0.1.jar";
+            "hash" = "sha512-0DSu4tbMCFD0ua73d+Z6t9U8JRlDbLR4aA0vGKufgpImivkD8YB0hJgUbdymeOsVkzwgZL2wT71B2d0CCZ5mzw==";
+        };
+        _TompwcS6 = {
+            "id" = "TompwcS6";
+            "file" = "woodenshears-fabric-26.2-4.1.0.1.jar";
+            "hash" = "sha512-NDAVRdeS6x9UxSJMfejiMvNfhNrjyiGTE1M/Wh/jXqSNernT2Wx/VkXcgX/8X+XwwF15EhL5A0gKlKPVOF4F8w==";
+        };
     in {
         "sk6hPwYx" = _sk6hPwYx;
         "I5Cv85FN" = _I5Cv85FN;
@@ -926,6 +956,12 @@ let
         "vwsNL3kT" = _vwsNL3kT;
         "hS0ZVDXx" = _hS0ZVDXx;
         "sB2HAiTH" = _sB2HAiTH;
+        "gNtUOic9" = _gNtUOic9;
+        "eA5wI5mM" = _eA5wI5mM;
+        "Txpox6Ds" = _Txpox6Ds;
+        "g3kPr8Y4" = _g3kPr8Y4;
+        "AGSpKIMR" = _AGSpKIMR;
+        "TompwcS6" = _TompwcS6;
         "forge-1.16.5" = _sk6hPwYx;
         "forge-1.17.1" = _I5Cv85FN;
         "forge-1.18.2" = _hfBVp29P;
@@ -953,8 +989,8 @@ let
         "forge-26.1" = _CcFgP1Pe;
         "forge-26.1.1" = _CcFgP1Pe;
         "forge-26.1.2" = _CcFgP1Pe;
-        "forge-26.2" = _ZrpXkjNF;
-        "forge-26.3" = _sB2HAiTH;
+        "forge-26.2" = _AGSpKIMR;
+        "forge-26.3" = _eA5wI5mM;
         "neoforge-1.20.2" = _ilugphHX;
         "neoforge-1.20.4" = _6CJjZ1xj;
         "neoforge-1.20.6" = _QX0xGx4N;
@@ -973,8 +1009,8 @@ let
         "neoforge-26.1" = _ZvoJHRvw;
         "neoforge-26.1.1" = _ZvoJHRvw;
         "neoforge-26.1.2" = _ZvoJHRvw;
-        "neoforge-26.2" = _wWUOTZnx;
-        "neoforge-26.3" = _vwsNL3kT;
+        "neoforge-26.2" = _g3kPr8Y4;
+        "neoforge-26.3" = _gNtUOic9;
         "fabric-1.20.4" = _PnSrpWZo;
         "fabric-1.20.6" = _sg0ltmTG;
         "fabric-1.21" = _TSvx2moY;
@@ -991,8 +1027,8 @@ let
         "fabric-26.1" = _emVhpFMc;
         "fabric-26.1.1" = _emVhpFMc;
         "fabric-26.1.2" = _emVhpFMc;
-        "fabric-26.2" = _ytnqnHTQ;
-        "fabric-26.3" = _hS0ZVDXx;
+        "fabric-26.2" = _TompwcS6;
+        "fabric-26.3" = _Txpox6Ds;
         "quilt-1.20.4" = _PnSrpWZo;
         "quilt-1.20.6" = _sg0ltmTG;
         "quilt-1.21" = _TSvx2moY;
@@ -1009,8 +1045,8 @@ let
         "quilt-26.1" = _emVhpFMc;
         "quilt-26.1.1" = _emVhpFMc;
         "quilt-26.1.2" = _emVhpFMc;
-        "quilt-26.2" = _ytnqnHTQ;
-        "quilt-26.3" = _hS0ZVDXx;
+        "quilt-26.2" = _TompwcS6;
+        "quilt-26.3" = _Txpox6Ds;
         "pkg-1.16.5-1.1.0.0" = _sk6hPwYx;
         "pkg-1.17.1-1.1.0.1" = _I5Cv85FN;
         "pkg-1.18.2-1.2.1.2" = _hfBVp29P;
@@ -1071,7 +1107,9 @@ let
         "pkg-26.2-4.1.0.0" = _wWUOTZnx;
         "pkg-26.3-4.2.0.0" = _BXbq2Dmr;
         "pkg-26.3-4.2.1.0" = _sB2HAiTH;
-        "default" = _sB2HAiTH;
+        "pkg-26.3-4.2.1.1" = _Txpox6Ds;
+        "pkg-26.2-4.1.0.1" = _TompwcS6;
+        "default" = _TompwcS6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wooden-shears";

@@ -4776,6 +4776,11 @@ let
             "file" = "cyclopscore-26.1.2-neoforge-1.31.4-1229.jar";
             "hash" = "sha512-r1fHa6HiBdE8eZrev//UcuRfH7EDqx+RCurbj50PeWqbcrJe7J2rihRMpCy4ZPaResG1vPzwdhsy0FbGhCbT/Q==";
         };
+        _YapwTrss = {
+            "id" = "YapwTrss";
+            "file" = "CyclopsCore-1.20.1-1.22.5.jar";
+            "hash" = "sha512-TjOZznjp4aX6BAc5GfbfDOZofuX8khkYxtkoIeYTuqXEAyP5EppZYu33IypGcaJ8lJi4Z6u+9MCRvaS1POgsfg==";
+        };
     in {
         "YGSw94E2" = _YGSw94E2;
         "pWLnmAHh" = _pWLnmAHh;
@@ -5732,12 +5737,13 @@ let
         "kYFII7jc" = _kYFII7jc;
         "oTVLy7b9" = _oTVLy7b9;
         "l6wBz6fk" = _l6wBz6fk;
+        "YapwTrss" = _YapwTrss;
         "forge-1.18.2" = _nTP9IfzD;
         "forge-1.19" = _WTR4UEUT;
         "forge-1.19.2" = _psk3cJFH;
         "forge-1.19.3" = _xx3v75g0;
         "forge-1.19.4" = _6RzMjSSR;
-        "forge-1.20.1" = _wdZWRQ2y;
+        "forge-1.20.1" = _YapwTrss;
         "forge-1.21.1" = _j379ERPd;
         "forge-1.21.4" = _dezakRTy;
         "forge-1.21.6" = _yW2A8xOD;
@@ -6163,7 +6169,8 @@ let
         "pkg-1.21.1-1.30.1" = _axSK9vET;
         "pkg-1.20.1-1.22.4" = _wdZWRQ2y;
         "pkg-26.1.2-1.31.4-1229" = _l6wBz6fk;
-        "default" = _l6wBz6fk;
+        "pkg-1.20.1-1.22.5" = _YapwTrss;
+        "default" = _YapwTrss;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyclops-core";

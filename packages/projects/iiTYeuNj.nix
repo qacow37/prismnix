@@ -26,22 +26,37 @@ let
             "file" = "clearvision-1.2.0.jar";
             "hash" = "sha512-iFcDDORLAl2YExoKLvHFjL3lOes6T5Jq3XdNdY3q2l9y5klKAAE6jXilsmuTdVu3VC+G+cMPedaXEHVretO/OQ==";
         };
+        _Z5dnjrqt = {
+            "id" = "Z5dnjrqt";
+            "file" = "clearvision-1.3.0.jar";
+            "hash" = "sha512-oCXYcbYVAwie4skLSKWywg8fEj/tqIaRT42dInnPVTZYeL/sK6yyjDooOW3MISnz05P1IrrwauS43flDRk5SJQ==";
+        };
+        _7RhZidtu = {
+            "id" = "7RhZidtu";
+            "file" = "clearvision-1.3.0.jar";
+            "hash" = "sha512-IPAncCb68DgxvjBkKDv32nd6ZP+yCWbU873g1M/DSa0RRvrlRmzJAo4rZQmToPze4uEiUtKnc37gMCaTr49N2Q==";
+        };
     in {
         "UTyWWgxm" = _UTyWWgxm;
         "vRIJew18" = _vRIJew18;
         "u1eD22yY" = _u1eD22yY;
         "pd8quUSd" = _pd8quUSd;
         "jqW9QK1z" = _jqW9QK1z;
+        "Z5dnjrqt" = _Z5dnjrqt;
+        "7RhZidtu" = _7RhZidtu;
         "fabric-1.21.10" = _vRIJew18;
         "fabric-26.1" = _jqW9QK1z;
         "fabric-1.21.11" = _pd8quUSd;
         "fabric-26.1.1" = _jqW9QK1z;
         "fabric-26.1.2" = _jqW9QK1z;
+        "fabric-26.3" = _Z5dnjrqt;
+        "fabric-26.2" = _7RhZidtu;
         "pkg-1.0.0" = _UTyWWgxm;
         "pkg-1.0.1" = _vRIJew18;
         "pkg-1.1.0" = _pd8quUSd;
         "pkg-1.2.0" = _jqW9QK1z;
-        "default" = _jqW9QK1z;
+        "pkg-1.3.0" = _7RhZidtu;
+        "default" = _7RhZidtu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clearvision";

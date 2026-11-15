@@ -36,6 +36,11 @@ let
             "file" = "core-companion-2.4.5-dev.26.3.jar";
             "hash" = "sha512-lJMyhgKxQeyb0XItc+usembWMiRBYSgvdezBxcV8MM/eorZfLPHRZ9HIZMBroJqefD3O79RdLcyyg904Hx6exg==";
         };
+        _UFUYuMdk = {
+            "id" = "UFUYuMdk";
+            "file" = "core-companion-2.4.33.jar";
+            "hash" = "sha512-4ic9kQ1xCYcUhfSHfb+URCdDcbePRZQQ77Y/+fdvEqml3AH4OPVRHVJWI3W1mo1sYBre+6ScCUDvpP19yubkWw==";
+        };
     in {
         "GNtJIoAM" = _GNtJIoAM;
         "JntwpCFB" = _JntwpCFB;
@@ -44,16 +49,18 @@ let
         "QnF4TiiA" = _QnF4TiiA;
         "lS0ZQb4c" = _lS0ZQb4c;
         "fGEE7xHz" = _fGEE7xHz;
+        "UFUYuMdk" = _UFUYuMdk;
         "fabric-1.21.8" = _QnF4TiiA;
         "fabric-1.21.11" = _lS0ZQb4c;
-        "fabric-26.3" = _fGEE7xHz;
+        "fabric-26.3" = _UFUYuMdk;
         "pkg-1.0" = _GNtJIoAM;
         "pkg-2.0" = _JntwpCFB;
         "pkg-2.1.0" = _ROxbOmg2;
         "pkg-2.2.0" = _QnF4TiiA;
         "pkg-2.3" = _lS0ZQb4c;
         "pkg-2.4.5" = _fGEE7xHz;
-        "default" = _fGEE7xHz;
+        "pkg-2.4.6" = _UFUYuMdk;
+        "default" = _UFUYuMdk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "core-companion";

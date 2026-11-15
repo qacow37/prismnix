@@ -96,6 +96,11 @@ let
             "file" = "JsonPatcher-2.0.0-beta.8+mc.26.3.jar";
             "hash" = "sha512-AD/mXrzvGSYbDmspe7GFgE8yA0M8hmORMrcTigorEYVaPKxXbZlTEhX4Y7wMIsamiVtAztmamLV25X7+ukhKPw==";
         };
+        _41sce7Wk = {
+            "id" = "41sce7Wk";
+            "file" = "JsonPatcher-2.0.0-beta.9+mc.26.3.jar";
+            "hash" = "sha512-OxUZ4e5MlURUv1GZ575apu/w3HcOYhoGN0jYsSjwo/9+qoMD4o13F5zs45nhOMds1THuFVrUxbShfz2CDRZZ4A==";
+        };
     in {
         "1iBLSkVg" = _1iBLSkVg;
         "oQiLL8oW" = _oQiLL8oW;
@@ -116,6 +121,7 @@ let
         "jt9BM4UE" = _jt9BM4UE;
         "uiP8GDt5" = _uiP8GDt5;
         "BiPLOm5k" = _BiPLOm5k;
+        "41sce7Wk" = _41sce7Wk;
         "fabric-1.20.1" = _U1Q4YW9z;
         "fabric-1.20.2" = _SlULfQWt;
         "fabric-1.20.3-pre2" = _4Df13B8a;
@@ -123,7 +129,7 @@ let
         "fabric-1.20.6" = _3XoeSRHE;
         "fabric-1.21" = _9TNIVrDG;
         "fabric-1.21.1" = _uiP8GDt5;
-        "fabric-26.3" = _BiPLOm5k;
+        "fabric-26.3" = _41sce7Wk;
         "quilt-1.20.1" = _U1Q4YW9z;
         "quilt-1.20.2" = _SlULfQWt;
         "quilt-1.20.3-pre2" = _4Df13B8a;
@@ -150,7 +156,8 @@ let
         "pkg-2.0.0-beta.6+mc.1.21.1" = _jt9BM4UE;
         "pkg-2.0.0-beta.7+mc.1.21.1" = _uiP8GDt5;
         "pkg-2.0.0-beta.8+mc.26.3" = _BiPLOm5k;
-        "default" = _BiPLOm5k;
+        "pkg-2.0.0-beta.9+mc.26.3" = _41sce7Wk;
+        "default" = _41sce7Wk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jsonpatcher";

@@ -41,6 +41,26 @@ let
             "file" = "shieldscaler-1.1.0.jar";
             "hash" = "sha512-o/Mag4KTbFRm4+KNffujMVyVIrBGl56+mGcnIOra5pyRHwVR68snOZ/FQyD6nlUYBV97iZuLDyNUvGdM9cJYVQ==";
         };
+        _MzIwm6OJ = {
+            "id" = "MzIwm6OJ";
+            "file" = "shieldscaler-2.0.0.jar";
+            "hash" = "sha512-oSQn1tKJ7vCHE7NSd3rhljqgiOjrxDEzmRJ1A4FUaDn7CdRCXD05uKeb5f5aeWfyePcpyoXvZcegWJ/BcmD2lg==";
+        };
+        _sD0wqtbe = {
+            "id" = "sD0wqtbe";
+            "file" = "shieldscaler-2.0.0.jar";
+            "hash" = "sha512-HPsxRkfQnzb+oCFrHsTjr13DxEXoWqrBC/LF5RZ0IArbNe0D1FVkb1LZP8CirEPv2Qkuma+gtVjQYGL7i7rLzg==";
+        };
+        _ej0j61QI = {
+            "id" = "ej0j61QI";
+            "file" = "shieldscaler-2.0.0.jar";
+            "hash" = "sha512-0FgPT/srQrOULzcPD8giih056vzHfd/bU/ZkTWXbk+fGy5MJiA79vUTedPPc+1SNQFuDLLwmaF3WFEYwQy6Hwg==";
+        };
+        _Lwghbzgy = {
+            "id" = "Lwghbzgy";
+            "file" = "shieldscaler-2.0.0.jar";
+            "hash" = "sha512-xCrjYqq8jV8L1bUvMdsrFroeber/otx6u166tlN/MnNqLYy/8RmM2M5XeYcNaTRgchsSr2xb6EpOh18oZjMiZA==";
+        };
     in {
         "BQE2yEJq" = _BQE2yEJq;
         "59G2aqmM" = _59G2aqmM;
@@ -50,15 +70,20 @@ let
         "an9lOCxr" = _an9lOCxr;
         "1tPgdzib" = _1tPgdzib;
         "LICSMCjB" = _LICSMCjB;
-        "fabric-1.21.11" = _tnqT9vd1;
-        "fabric-26.1" = _an9lOCxr;
-        "fabric-26.1.1" = _an9lOCxr;
-        "fabric-26.1.2" = _an9lOCxr;
-        "fabric-26.2" = _1tPgdzib;
-        "fabric-26.3" = _LICSMCjB;
+        "MzIwm6OJ" = _MzIwm6OJ;
+        "sD0wqtbe" = _sD0wqtbe;
+        "ej0j61QI" = _ej0j61QI;
+        "Lwghbzgy" = _Lwghbzgy;
+        "fabric-1.21.11" = _MzIwm6OJ;
+        "fabric-26.1" = _sD0wqtbe;
+        "fabric-26.1.1" = _sD0wqtbe;
+        "fabric-26.1.2" = _sD0wqtbe;
+        "fabric-26.2" = _ej0j61QI;
+        "fabric-26.3" = _Lwghbzgy;
         "pkg-1.0.0" = _CJGETtJX;
         "pkg-1.1.0" = _LICSMCjB;
-        "default" = _LICSMCjB;
+        "pkg-2.0.0" = _Lwghbzgy;
+        "default" = _Lwghbzgy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shieldscaler";

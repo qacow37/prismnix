@@ -201,6 +201,16 @@ let
             "file" = "RallyHealth-neoforge-26.1.2-3.0.1.jar";
             "hash" = "sha512-9s1dhvzIJ19KFhfWDjKLiV1Xvsbpz1rpDj2qX4S92VFI9OpJsW8i7EX0ou0KpaW9hmSQkaQZaZCpJ5UGdzEP6Q==";
         };
+        _zqhrmQEu = {
+            "id" = "zqhrmQEu";
+            "file" = "RallyHealth-fabric-26.3-3.1.0.jar";
+            "hash" = "sha512-qdzhlMAmDQ6Tb/qyPpyHrU9EPBCqdHUKkmsaz4kmwJUOTYsvkuf6ZjxUmyrJEJQa2ykH+33vX2WFqT6RDuLmCQ==";
+        };
+        _2EDmpmHi = {
+            "id" = "2EDmpmHi";
+            "file" = "RallyHealth-neoforge-26.3-3.1.0.jar";
+            "hash" = "sha512-smsWdv/XY0jS0LkwVwJYotrS6Oek6EhfvBpC09pqIYqLarO/DvTt9F36R0bc6pcKHa27+WRkMz74eNgWX9d5Cw==";
+        };
     in {
         "kfBhgTSO" = _kfBhgTSO;
         "Wn4UXlLq" = _Wn4UXlLq;
@@ -242,6 +252,8 @@ let
         "cOh1soaA" = _cOh1soaA;
         "UEsvQUgA" = _UEsvQUgA;
         "rzHUH6GS" = _rzHUH6GS;
+        "zqhrmQEu" = _zqhrmQEu;
+        "2EDmpmHi" = _2EDmpmHi;
         "forge-1.18" = _kfBhgTSO;
         "forge-1.18.1" = _kfBhgTSO;
         "forge-1.18.2" = _kfBhgTSO;
@@ -271,6 +283,7 @@ let
         "fabric-1.21.10" = _w3RnEaqC;
         "fabric-1.21.11" = _Ibh3jXQP;
         "fabric-26.1.2" = _UEsvQUgA;
+        "fabric-26.3" = _zqhrmQEu;
         "neoforge-1.20.2" = _D6xmn9p6;
         "neoforge-1.20.4" = _H3401BEr;
         "neoforge-1.20.5" = _xiIS5czD;
@@ -281,6 +294,7 @@ let
         "neoforge-1.21.10" = _HiJey65n;
         "neoforge-1.21.11" = _XKGeqqwG;
         "neoforge-26.1.2" = _rzHUH6GS;
+        "neoforge-26.3" = _2EDmpmHi;
         "pkg-1.2.0.3" = _kfBhgTSO;
         "pkg-1.2.0.2" = _Wn4UXlLq;
         "pkg-1.2.0.1" = _Agxn5NbK;
@@ -302,7 +316,8 @@ let
         "pkg-2.5.1" = _Ibh3jXQP;
         "pkg-3.0.0" = _cOh1soaA;
         "pkg-3.0.1" = _rzHUH6GS;
-        "default" = _rzHUH6GS;
+        "pkg-3.1.0" = _2EDmpmHi;
+        "default" = _2EDmpmHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rally-health";

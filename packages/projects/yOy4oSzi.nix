@@ -71,6 +71,21 @@ let
             "file" = "irons_artifice-26.1.2-1.1.1.jar";
             "hash" = "sha512-mQYWZ3wC/LpP0iuGwG6NdzpiwlOouxjEtMmh+G2rpmgck6k56AIS551NzNQ5wS/s8q4yv9frDl8Mz0n+riUlvw==";
         };
+        _h3MNcSEg = {
+            "id" = "h3MNcSEg";
+            "file" = "irons_artifice-1.20.1-1.2.0.jar";
+            "hash" = "sha512-gAKK3u3qVnKYyolP9gS55lwBzPzEt2Wr8ap3CtZiChEkVdo/kExgmfFiDZDZFBKlWlMVLHrk198WxUnqk7RMbw==";
+        };
+        _ulTMIOdu = {
+            "id" = "ulTMIOdu";
+            "file" = "irons_artifice-1.21.1-1.2.0.jar";
+            "hash" = "sha512-9GuzoH9/PHrsp+KI1Sa0tpBi+CUDseAIQ4M4phItPvUnC3L/WpZOmS06B51e5jZoh+DciQyTP+kq8j1VaAQFfw==";
+        };
+        _ApZlVEym = {
+            "id" = "ApZlVEym";
+            "file" = "irons_artifice-26.1.2-1.2.0.jar";
+            "hash" = "sha512-Qh5AC7vvbkF4oE+6TS0Q9KmAgAkJwN0HiBvDBFJXVMqZ9Gkkdd6cojZ3kKx2hs1btw81yAa7xpj52F++j5D+YQ==";
+        };
     in {
         "unBZMIYI" = _unBZMIYI;
         "1QTbxEbd" = _1QTbxEbd;
@@ -86,9 +101,12 @@ let
         "LHRImsnZ" = _LHRImsnZ;
         "ttABG4v0" = _ttABG4v0;
         "BaFWxFb1" = _BaFWxFb1;
-        "neoforge-26.1.2" = _BaFWxFb1;
-        "neoforge-1.21.1" = _ttABG4v0;
-        "forge-1.20.1" = _LHRImsnZ;
+        "h3MNcSEg" = _h3MNcSEg;
+        "ulTMIOdu" = _ulTMIOdu;
+        "ApZlVEym" = _ApZlVEym;
+        "neoforge-26.1.2" = _ApZlVEym;
+        "neoforge-1.21.1" = _ulTMIOdu;
+        "forge-1.20.1" = _h3MNcSEg;
         "pkg-0.0.9" = _unBZMIYI;
         "pkg-0.1.1" = _1QTbxEbd;
         "pkg-0.2.0" = _ZySQmr2Q;
@@ -103,7 +121,10 @@ let
         "pkg-1.20.1-1.1.1" = _LHRImsnZ;
         "pkg-1.21.1-1.1.1" = _ttABG4v0;
         "pkg-26.1.2-1.1.1" = _BaFWxFb1;
-        "default" = _BaFWxFb1;
+        "pkg-1.20.1-1.2.0" = _h3MNcSEg;
+        "pkg-1.21.1-1.2.0" = _ulTMIOdu;
+        "pkg-26.1.2-1.2.0" = _ApZlVEym;
+        "default" = _ApZlVEym;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irons-artifice";

@@ -441,6 +441,11 @@ let
             "file" = "SuperEnchants-4.6.2-all.jar";
             "hash" = "sha512-Q4Isn3fKRw3WiAWOoTCyGHzKsrppjLzMoLe1oHY4GPmjTFEwzNxY/9Z0OaHJAXZEWMfhxPVvwHGw1LwSVKOaGA==";
         };
+        _yyrpEFah = {
+            "id" = "yyrpEFah";
+            "file" = "SuperEnchants-5.0.0-B9.jar";
+            "hash" = "sha512-EotuTH6K60bbANyHVG5In8F2qPUXVJupUuEXoiakFHYzFry2dbCaqJq8UpktJRtEQMyCsfQk81I3mafDSqpO2g==";
+        };
     in {
         "ZjUugsEv" = _ZjUugsEv;
         "FnH0Gi6G" = _FnH0Gi6G;
@@ -530,6 +535,7 @@ let
         "c88hV3Sk" = _c88hV3Sk;
         "sWGFAdxx" = _sWGFAdxx;
         "gXfQx3Zd" = _gXfQx3Zd;
+        "yyrpEFah" = _yyrpEFah;
         "bukkit-1.8" = _ZjUugsEv;
         "bukkit-1.8.8" = _ZjUugsEv;
         "bukkit-1.8.9" = _ZjUugsEv;
@@ -552,6 +558,7 @@ let
         "paper-26.1" = _gXfQx3Zd;
         "paper-26.1.1" = _gXfQx3Zd;
         "paper-26.1.2" = _gXfQx3Zd;
+        "paper-26.3" = _yyrpEFah;
         "purpur-1.21" = _gXfQx3Zd;
         "purpur-1.21.1" = _gXfQx3Zd;
         "purpur-1.21.2" = _gXfQx3Zd;
@@ -567,6 +574,7 @@ let
         "purpur-26.1" = _gXfQx3Zd;
         "purpur-26.1.1" = _gXfQx3Zd;
         "purpur-26.1.2" = _gXfQx3Zd;
+        "purpur-26.3" = _yyrpEFah;
         "folia-1.21" = _gXfQx3Zd;
         "folia-1.21.1" = _gXfQx3Zd;
         "folia-1.21.2" = _gXfQx3Zd;
@@ -582,6 +590,7 @@ let
         "folia-26.1" = _gXfQx3Zd;
         "folia-26.1.1" = _gXfQx3Zd;
         "folia-26.1.2" = _gXfQx3Zd;
+        "folia-26.3" = _yyrpEFah;
         "pkg-0.0.3" = _ZjUugsEv;
         "pkg-0.1.0" = _FnH0Gi6G;
         "pkg-0.1.1" = _1RpBGvld;
@@ -670,7 +679,8 @@ let
         "pkg-4.6.0" = _c88hV3Sk;
         "pkg-4.6.1" = _sWGFAdxx;
         "pkg-4.6.2" = _gXfQx3Zd;
-        "default" = _gXfQx3Zd;
+        "pkg-5.0.0" = _yyrpEFah;
+        "default" = _yyrpEFah;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superenchants";

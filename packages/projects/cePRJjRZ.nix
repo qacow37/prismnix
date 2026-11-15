@@ -16,15 +16,22 @@ let
             "file" = "flyhigher-1.21.1-1.0.2.jar";
             "hash" = "sha512-kC/t5cYVTaHP9SvIV5DayJQep9M+kns9MF5zFeyDi0uPHLHwwxlw6Qbi2LZGiNn5n4HXSABDYsnQfN8PzaqPRw==";
         };
+        _WPBGGFVT = {
+            "id" = "WPBGGFVT";
+            "file" = "flyhigher-1.21.1-1.1.0.jar";
+            "hash" = "sha512-iVhJM0i+QhSY5tEnjWgDk5BlU9xofSHRq8gnCWo9VjWxl4AlF4bHuZxUQWqun+Sv63VcJ3TPZ9OvvoFKNtIz6Q==";
+        };
     in {
         "NtN29PUD" = _NtN29PUD;
         "YkEHZ8sO" = _YkEHZ8sO;
         "OzpXNl6w" = _OzpXNl6w;
-        "neoforge-1.21.1" = _OzpXNl6w;
+        "WPBGGFVT" = _WPBGGFVT;
+        "neoforge-1.21.1" = _WPBGGFVT;
         "pkg-1.0.0" = _NtN29PUD;
         "pkg-1.0.1" = _YkEHZ8sO;
         "pkg-1.0.2" = _OzpXNl6w;
-        "default" = _OzpXNl6w;
+        "pkg-1.1.0" = _WPBGGFVT;
+        "default" = _WPBGGFVT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flyhigher";

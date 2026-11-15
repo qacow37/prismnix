@@ -1111,6 +1111,16 @@ let
             "file" = "Safra-fabric-1.21.1-3.2.jar";
             "hash" = "sha512-551/3eQFHpaUE4kIlXMpZzs6UfUNH1ScM8EoYZ6nPUjhROiITrtIUIiYSvGWVD/pq44QTXIAWeoC6N3S+eCiXA==";
         };
+        _IoWBVGBn = {
+            "id" = "IoWBVGBn";
+            "file" = "Safra-fabric-1.20.1-3.2.jar";
+            "hash" = "sha512-Aw9t/omWs14EA3acUTi/jRnkCBfIEJO08IfqBg0birWz8bh4yjI5a0MlzSFj2qdJEbijwgfM3sCcjyxXuB3ZtA==";
+        };
+        _om8UaSTW = {
+            "id" = "om8UaSTW";
+            "file" = "Safra-fabric-1.21.10-3.2.jar";
+            "hash" = "sha512-gfaeXucaKa93ZMtu8JKi9d2Z1gwTSp1F0CC/ieDEhsKvi4pi/YBdKC/UgDK+pAk9ZVfJlNyJdEHhoxrhzyo1yw==";
+        };
     in {
         "GwnaEaJ4" = _GwnaEaJ4;
         "OZvU4X1N" = _OZvU4X1N;
@@ -1334,6 +1344,8 @@ let
         "Ef2CBduM" = _Ef2CBduM;
         "H1x4MHnv" = _H1x4MHnv;
         "WfIFzB7I" = _WfIFzB7I;
+        "IoWBVGBn" = _IoWBVGBn;
+        "om8UaSTW" = _om8UaSTW;
         "fabric-26.1" = _g2SWzVpV;
         "fabric-1.21.11" = _nGMSZTMe;
         "fabric-26.1.1" = _3L9cpNNS;
@@ -1341,10 +1353,10 @@ let
         "fabric-1.21.4" = _fnd8bmWi;
         "fabric-1.21.7" = _yy6SqA6t;
         "fabric-1.21.9" = _PFi3d0VM;
-        "fabric-1.21.10" = _kKnRTFwe;
+        "fabric-1.21.10" = _om8UaSTW;
         "fabric-26.2" = _us6BkShL;
         "fabric-1.21.1" = _WfIFzB7I;
-        "fabric-1.20.1" = _jUvmrUWw;
+        "fabric-1.20.1" = _IoWBVGBn;
         "fabric-1.21.5" = _h917tkMA;
         "fabric-1.21" = _EPUu7tw6;
         "fabric-1.21.8" = _SXYPr54W;
@@ -1438,8 +1450,8 @@ let
         "pkg-2.5" = _ae3zpMV6;
         "pkg-2.6" = _B0eWzgd2;
         "pkg-3.0" = _zGjuQeFM;
-        "pkg-3.2" = _WfIFzB7I;
-        "default" = _WfIFzB7I;
+        "pkg-3.2" = _om8UaSTW;
+        "default" = _om8UaSTW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "safra";

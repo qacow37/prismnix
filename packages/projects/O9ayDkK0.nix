@@ -341,6 +341,16 @@ let
             "file" = "ohmymeteors-1.5.1+1.19.2.jar";
             "hash" = "sha512-lZipVJBFFFKfT/XvpQ9QHjPYwttaprUb+XpzMY2q9QC0vAIi66GA/0Pux8CZ/JwvIAI46v8DcPuewqIQC7W3PQ==";
         };
+        _VBdAJ9F2 = {
+            "id" = "VBdAJ9F2";
+            "file" = "ohmymeteors-1.5.1+26.2.jar";
+            "hash" = "sha512-8Gds3LpeXVI1iVEkBweYzWuT3+6r3zAndBRGZ2Q6XT+sHos+2fp/CfcKOGeGk498OaEHBJP2b2tUlXqGTI/JTA==";
+        };
+        _gaTUqPy5 = {
+            "id" = "gaTUqPy5";
+            "file" = "ohmymeteors-1.6.0+1.21.jar";
+            "hash" = "sha512-wGJ/wAKfySjd3L5eSe9mJAe2GGXvPs6jTJAgQaA7l7jNtp2bbLqUd0H9qE1L6X6+5s/CMunjpsvcoT1Sl6U8YQ==";
+        };
     in {
         "btx5bgpQ" = _btx5bgpQ;
         "pVzyF60M" = _pVzyF60M;
@@ -410,8 +420,10 @@ let
         "KDLlSZ1p" = _KDLlSZ1p;
         "6Hs9dyeE" = _6Hs9dyeE;
         "MiwAugtN" = _MiwAugtN;
-        "fabric-1.21" = _HNuZ0dDo;
-        "fabric-1.21.1" = _HNuZ0dDo;
+        "VBdAJ9F2" = _VBdAJ9F2;
+        "gaTUqPy5" = _gaTUqPy5;
+        "fabric-1.21" = _gaTUqPy5;
+        "fabric-1.21.1" = _gaTUqPy5;
         "fabric-1.19.2" = _MiwAugtN;
         "fabric-1.20" = _zyVXaxqT;
         "fabric-1.20.1" = _zyVXaxqT;
@@ -428,9 +440,9 @@ let
         "fabric-26.1" = _KDLlSZ1p;
         "fabric-26.1.1" = _KDLlSZ1p;
         "fabric-26.1.2" = _KDLlSZ1p;
-        "fabric-26.2" = _6Hs9dyeE;
-        "quilt-1.21" = _HNuZ0dDo;
-        "quilt-1.21.1" = _HNuZ0dDo;
+        "fabric-26.2" = _VBdAJ9F2;
+        "quilt-1.21" = _gaTUqPy5;
+        "quilt-1.21.1" = _gaTUqPy5;
         "quilt-1.19.2" = _MiwAugtN;
         "quilt-1.20" = _zyVXaxqT;
         "quilt-1.20.1" = _zyVXaxqT;
@@ -447,7 +459,7 @@ let
         "quilt-26.1" = _KDLlSZ1p;
         "quilt-26.1.1" = _KDLlSZ1p;
         "quilt-26.1.2" = _KDLlSZ1p;
-        "quilt-26.2" = _6Hs9dyeE;
+        "quilt-26.2" = _VBdAJ9F2;
         "neoforge-1.21" = _IfVjwaNS;
         "neoforge-1.21.1" = _gu1EhULT;
         "forge-1.20" = _fKnn97Hy;
@@ -520,7 +532,9 @@ let
         "pkg-1.5.0+26.1" = _KDLlSZ1p;
         "pkg-1.5.0+26.2" = _6Hs9dyeE;
         "pkg-1.5.1+1.19.2" = _MiwAugtN;
-        "default" = _MiwAugtN;
+        "pkg-1.5.1+26.2" = _VBdAJ9F2;
+        "pkg-1.6.0+1.21" = _gaTUqPy5;
+        "default" = _gaTUqPy5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ohmymeteors";

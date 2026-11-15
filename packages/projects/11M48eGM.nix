@@ -181,6 +181,21 @@ let
             "file" = "bodycam-forge-1.20.1-2.5.jar";
             "hash" = "sha512-Wgs2kyNgQS/HqP+pktpE1VMdd87hyZO5f+6xkiYVBvthxwkhkKY2xntD38vuhnk3YCpdeQhTESZMzeax7BLeIw==";
         };
+        _RuBc7MyQ = {
+            "id" = "RuBc7MyQ";
+            "file" = "bodycam-forge-1.20.1-3.0.jar";
+            "hash" = "sha512-fu8kwJrfvsA5UfWvbydMKdeqRi+JWwhk9CbWqf5qUp3ojztN779aVJgvaGoMqADwE/x3lpP261wQgNP1xpBczg==";
+        };
+        _AwlL2bcp = {
+            "id" = "AwlL2bcp";
+            "file" = "bodycam-fabric-1.21.1-3.0.jar";
+            "hash" = "sha512-b1oS6aTHlVx9PbAG39XFxF4lqRHk8x8V2pwomUYtZYmvzxF0r1Hh2gCi4pHxQNPIkLBdy65KiESRyKiAGfAr6Q==";
+        };
+        _gsydrOU5 = {
+            "id" = "gsydrOU5";
+            "file" = "bodycam-neoforge-1.21.1-3.0.jar";
+            "hash" = "sha512-ofm6mPHrqfB3iq5w3/es9O9cUdohqI9a1Zs7nM8Pu2kjStlSXmZtf0ed2t5MlZ70uUAALoyIbAvHJPkWq+4shw==";
+        };
     in {
         "Wtu074Nv" = _Wtu074Nv;
         "zDbvx54l" = _zDbvx54l;
@@ -218,9 +233,12 @@ let
         "2qRFxMYq" = _2qRFxMYq;
         "u5cmQUdu" = _u5cmQUdu;
         "pG7uCk2w" = _pG7uCk2w;
-        "forge-1.20.1" = _pG7uCk2w;
+        "RuBc7MyQ" = _RuBc7MyQ;
+        "AwlL2bcp" = _AwlL2bcp;
+        "gsydrOU5" = _gsydrOU5;
+        "forge-1.20.1" = _RuBc7MyQ;
         "fabric-1.20.1" = _DHlgeFBF;
-        "fabric-1.21.1" = _AVEwUWPq;
+        "fabric-1.21.1" = _AwlL2bcp;
         "fabric-1.21.2" = _j6g3czf0;
         "fabric-1.21.3" = _iPYr6gwh;
         "fabric-1.21.4" = _wJQtJiMG;
@@ -231,7 +249,7 @@ let
         "fabric-1.21.9" = _71I1icLz;
         "fabric-1.21.10" = _S21P3KJm;
         "fabric-1.21.11" = _2qRFxMYq;
-        "neoforge-1.21.1" = _snRjgQok;
+        "neoforge-1.21.1" = _gsydrOU5;
         "neoforge-1.21.2" = _iQJfd8ej;
         "neoforge-1.21.3" = _kCheyMgr;
         "neoforge-1.21.4" = _QD86Ww9M;
@@ -253,7 +271,8 @@ let
         "pkg-2.1.2A" = _2qRFxMYq;
         "pkg-2.2" = _u5cmQUdu;
         "pkg-2.5" = _pG7uCk2w;
-        "default" = _pG7uCk2w;
+        "pkg-3.0" = _gsydrOU5;
+        "default" = _gsydrOU5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bodycam-mod";

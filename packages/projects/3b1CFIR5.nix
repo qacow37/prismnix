@@ -256,6 +256,36 @@ let
             "file" = "mobplaques-v26.3.0-mc26.3.x+fabric.jar";
             "hash" = "sha512-Ts1jb0aEKyaLq6/Rgd/WImNMeOI92Axypg4fjvQpKH3/t6FK60OMBHVddanRzTsMO+E944J7Kmnk7NZjIWLUcw==";
         };
+        _OkRC4sPX = {
+            "id" = "OkRC4sPX";
+            "file" = "mobplaques-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-1CfHVCgLm9fu/JWn6dMKL5ba6utD74GZ3xjihJAPycUVEitpivF7Y95DOfQMrqFL+F0CQe72gXqyKxqQ3lRNGw==";
+        };
+        _Clp9j5QK = {
+            "id" = "Clp9j5QK";
+            "file" = "mobplaques-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-w0gBWkc4wdWdACs5x2Wp3mTqHpbVSNnmoeusDqxER/sAkURVz5yZIbFqVvV0QeBOy18cDqW9lOfWU8PEYkIDhQ==";
+        };
+        _mnUaQj0W = {
+            "id" = "mnUaQj0W";
+            "file" = "mobplaques-v26.1.2-mc26.1.x+fabric.jar";
+            "hash" = "sha512-no8EUmsMaCKQtZy+K2FLit8qEfmrqJc2Ygjo1d6OwG+WoBObYH04XF95etZtdATizp/+Fg+r4a45ceellZQUQA==";
+        };
+        _xxOYUwKU = {
+            "id" = "xxOYUwKU";
+            "file" = "mobplaques-v26.1.2-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-eykI2qA+d3QXgq0zfVdqJVZn7HOeLREzj5VSy++z48yiN1l388MaLckHgkYUCn2GLwfrDul7sKjiiTfqF0fF6Q==";
+        };
+        _4bGt2upI = {
+            "id" = "4bGt2upI";
+            "file" = "mobplaques-v21.1.2-mc1.21.1+neoforge.jar";
+            "hash" = "sha512-vHvepAwgPmySahEln30OSeCCgXDH8uxaHG0BVJlA14qJFmkGqiPTHnr/vwW7Gz/k4onez3C/cGrEBex/1aJMPA==";
+        };
+        _4OgPyWYW = {
+            "id" = "4OgPyWYW";
+            "file" = "mobplaques-v21.1.2-mc1.21.1+fabric.jar";
+            "hash" = "sha512-Ai0U5TTUt9Zj2CSkNR7j6N9veZSGLMhtSjsk9BTMRePMbn0D/kNPhw6/YwijwCGTk5SwV6dTjJmb7gVEi/HSww==";
+        };
     in {
         "v5DKY8Wa" = _v5DKY8Wa;
         "VyiEPoIo" = _VyiEPoIo;
@@ -308,6 +338,12 @@ let
         "F3yGjflW" = _F3yGjflW;
         "HxbfXpQq" = _HxbfXpQq;
         "j91uH4Kf" = _j91uH4Kf;
+        "OkRC4sPX" = _OkRC4sPX;
+        "Clp9j5QK" = _Clp9j5QK;
+        "mnUaQj0W" = _mnUaQj0W;
+        "xxOYUwKU" = _xxOYUwKU;
+        "4bGt2upI" = _4bGt2upI;
+        "4OgPyWYW" = _4OgPyWYW;
         "forge-1.19.2" = _n3Ce9mNi;
         "forge-1.19.3" = _waiGuWuT;
         "forge-1.19.4" = _blGPZUFI;
@@ -321,7 +357,7 @@ let
         "fabric-1.20.1" = _bcQFG4g7;
         "fabric-1.20.4" = _2maA6qra;
         "fabric-1.21" = _8ClJd5BS;
-        "fabric-1.21.1" = _9Olc0dTQ;
+        "fabric-1.21.1" = _4OgPyWYW;
         "fabric-1.21.3" = _vcpv4gg8;
         "fabric-1.21.4" = _NNcfzgN3;
         "fabric-1.21.5" = _seOFhiHC;
@@ -330,14 +366,14 @@ let
         "fabric-1.21.9" = _vXi2TtSY;
         "fabric-1.21.10" = _1bPSXcgk;
         "fabric-1.21.11" = _8xM1rqfT;
-        "fabric-26.1" = _8Z0GxmY4;
-        "fabric-26.1.1" = _8Z0GxmY4;
-        "fabric-26.1.2" = _8Z0GxmY4;
+        "fabric-26.1" = _mnUaQj0W;
+        "fabric-26.1.1" = _mnUaQj0W;
+        "fabric-26.1.2" = _mnUaQj0W;
         "fabric-26.2" = _W0URbzOf;
-        "fabric-26.3" = _j91uH4Kf;
+        "fabric-26.3" = _OkRC4sPX;
         "neoforge-1.20.4" = _wFW7OJCI;
         "neoforge-1.21" = _18g31FS1;
-        "neoforge-1.21.1" = _gDwygHA5;
+        "neoforge-1.21.1" = _4bGt2upI;
         "neoforge-1.21.3" = _eoYV6F9D;
         "neoforge-1.21.4" = _WxzbYwbX;
         "neoforge-1.21.5" = _a37FyeBk;
@@ -346,11 +382,11 @@ let
         "neoforge-1.21.9" = _BcftahsS;
         "neoforge-1.21.10" = _d62b3XsN;
         "neoforge-1.21.11" = _PdDW5515;
-        "neoforge-26.1" = _LGaPH7dU;
-        "neoforge-26.1.1" = _LGaPH7dU;
-        "neoforge-26.1.2" = _LGaPH7dU;
+        "neoforge-26.1" = _xxOYUwKU;
+        "neoforge-26.1.1" = _xxOYUwKU;
+        "neoforge-26.1.2" = _xxOYUwKU;
         "neoforge-26.2" = _F3yGjflW;
-        "neoforge-26.3" = _HxbfXpQq;
+        "neoforge-26.3" = _Clp9j5QK;
         "pkg-v4.0.0-1.19.2-Forge" = _v5DKY8Wa;
         "pkg-v4.0.0-1.19.2-Fabric" = _VyiEPoIo;
         "pkg-v4.0.1-1.19.2-Forge" = _n3Ce9mNi;
@@ -394,7 +430,10 @@ let
         "pkg-26.1.1" = _8Z0GxmY4;
         "pkg-26.2.1" = _F3yGjflW;
         "pkg-26.3.0" = _j91uH4Kf;
-        "default" = _j91uH4Kf;
+        "pkg-26.3.1" = _Clp9j5QK;
+        "pkg-26.1.2" = _xxOYUwKU;
+        "pkg-21.1.2" = _4OgPyWYW;
+        "default" = _4OgPyWYW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-plaques";

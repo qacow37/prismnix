@@ -71,6 +71,26 @@ let
             "file" = "Alexandria-fabric-26.1.2.jar";
             "hash" = "sha512-WUefBTz4et33wZMbAq36U6D0KtE3/rFYSj2dZDn1pdAIjwMVybK7Eo/fMdxy4f9dEDxQtbWalB0tAPZtE8XzpQ==";
         };
+        _vbO4iP6k = {
+            "id" = "vbO4iP6k";
+            "file" = "Alexandria-neoforge-26.2.jar";
+            "hash" = "sha512-HRZR6/dhnDmIEmeXmMMnGnsvH76XHzW8HJSbr5JN5pIlIlBgmA5+IORE+Y+swPaRKohPk2T/khG/vxDkGxDL/A==";
+        };
+        _Jy8toKh3 = {
+            "id" = "Jy8toKh3";
+            "file" = "Alexandria-fabric-26.2.jar";
+            "hash" = "sha512-P/ZGEXphEZlh8pxsDcK7uWsaxlXZh8mINmfVGtw3bCVWQY8A+m+nkeBBt9McJ/hHTiucPEC9edysw3Dxi0spTQ==";
+        };
+        _5Tuhioa0 = {
+            "id" = "5Tuhioa0";
+            "file" = "Alexandria-fabric-26.3.jar";
+            "hash" = "sha512-cleoRn6/o98F94o7v7Cv/sWZTr7P79lStO+kt92a5cC+PrMO72+1eUXVuko1zyoQqDVdKvhmYS2Hzpn+yfvRfQ==";
+        };
+        _CYti9UQ4 = {
+            "id" = "CYti9UQ4";
+            "file" = "Alexandria-neoforge-26.3.jar";
+            "hash" = "sha512-OUhqWfqvY/okcI4oJP5AJpCIM8LRZ5uV4jTi1GFHyBBQ/lky2Ob8WmP4ximJ2Hbc6PhZi2vUTOxy3EA1glUbzA==";
+        };
     in {
         "OE0sGoPs" = _OE0sGoPs;
         "S9is1EkP" = _S9is1EkP;
@@ -86,10 +106,18 @@ let
         "ubqqG09d" = _ubqqG09d;
         "O5VENV9y" = _O5VENV9y;
         "L5F5C5y5" = _L5F5C5y5;
+        "vbO4iP6k" = _vbO4iP6k;
+        "Jy8toKh3" = _Jy8toKh3;
+        "5Tuhioa0" = _5Tuhioa0;
+        "CYti9UQ4" = _CYti9UQ4;
         "fabric-1.21.1" = _ubqqG09d;
         "fabric-26.1.2" = _L5F5C5y5;
+        "fabric-26.2" = _Jy8toKh3;
+        "fabric-26.3" = _5Tuhioa0;
         "neoforge-1.21.1" = _cImddmDl;
         "neoforge-26.1.2" = _O5VENV9y;
+        "neoforge-26.2" = _vbO4iP6k;
+        "neoforge-26.3" = _CYti9UQ4;
         "pkg-1.0.0" = _S9is1EkP;
         "pkg-1.0.1" = _kABzSHkr;
         "pkg-1.0.2" = _pevj9jMg;
@@ -97,7 +125,9 @@ let
         "pkg-1.0.3.3" = _Pd8ABfZ3;
         "pkg-1.0.3.4" = _ubqqG09d;
         "pkg-26.1.2" = _L5F5C5y5;
-        "default" = _L5F5C5y5;
+        "pkg-26.2" = _Jy8toKh3;
+        "pkg-26.3" = _CYti9UQ4;
+        "default" = _CYti9UQ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alexandria-lib";

@@ -41,6 +41,11 @@ let
             "file" = "rickcore-neoforge-26.3-1.1.3.jar";
             "hash" = "sha512-Txe3k8eSl/XSU0HxcEH5l9IeD1JDtHKrJXtn6ciMqnZrQHW3MFRLIPrz5xwU6oMWBVYbLMxaOQ8NzU/SSFO1NA==";
         };
+        _jUSW0Ijo = {
+            "id" = "jUSW0Ijo";
+            "file" = "rickcore-neoforge-26.3-1.2.0.jar";
+            "hash" = "sha512-zWUHsHT8q5gLNPWSk8nqzbR982Dzo4vgFTB5OqDGePemhdVr9jN3hupgTTviENupqqCX94Gw+cJrkeonzQAEEg==";
+        };
     in {
         "uU8WRp7A" = _uU8WRp7A;
         "6vLKE0uH" = _6vLKE0uH;
@@ -50,11 +55,12 @@ let
         "tWqmjZRs" = _tWqmjZRs;
         "rAAOOvYy" = _rAAOOvYy;
         "seOHh4Zd" = _seOHh4Zd;
+        "jUSW0Ijo" = _jUSW0Ijo;
         "forge-1.20.1" = _uU8WRp7A;
         "neoforge-1.21.1" = _6vLKE0uH;
         "neoforge-26.1.2" = _tWqmjZRs;
         "neoforge-26.2" = _tWqmjZRs;
-        "neoforge-26.3" = _seOHh4Zd;
+        "neoforge-26.3" = _jUSW0Ijo;
         "fabric-26.1.2" = _lY53WgRo;
         "fabric-26.2" = _lY53WgRo;
         "fabric-26.3" = _rAAOOvYy;
@@ -62,7 +68,8 @@ let
         "pkg-1.1.1" = _YoAxbNrz;
         "pkg-1.1.2" = _tWqmjZRs;
         "pkg-1.1.3" = _seOHh4Zd;
-        "default" = _seOHh4Zd;
+        "pkg-1.2.0" = _jUSW0Ijo;
+        "default" = _jUSW0Ijo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rickcore";

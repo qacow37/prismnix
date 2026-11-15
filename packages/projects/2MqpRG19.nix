@@ -71,6 +71,11 @@ let
             "file" = "NoPoles-neoforge-1.20.4-3.9.0.jar";
             "hash" = "sha512-HR5gzqsj5swtdVolzcxJfZAMEcHusKtOeFShUAa6DE3MrTh6QOyFngwPOIiWBycN9AR8jp45wajyvO9Pr09QSw==";
         };
+        _1i5b7Y8t = {
+            "id" = "1i5b7Y8t";
+            "file" = "No-Poles-4.0.10-MC26.3-NeoForge.jar";
+            "hash" = "sha512-GKkJNM2Let1V8Ft3ce44Y2wlYteZAJ3O1xRv/lGnvN8HOTyMMn31Z7i/wGiSfg4Kkpe+jFkphpd+jBzTtJJMIw==";
+        };
     in {
         "hhmapLTN" = _hhmapLTN;
         "Bcg3NOvj" = _Bcg3NOvj;
@@ -86,6 +91,7 @@ let
         "151CHAjl" = _151CHAjl;
         "a2PBgzZN" = _a2PBgzZN;
         "fQEAVXuA" = _fQEAVXuA;
+        "1i5b7Y8t" = _1i5b7Y8t;
         "forge-1.12.2" = _hhmapLTN;
         "forge-1.15.1" = _Bcg3NOvj;
         "forge-1.16.5" = _fKNh5egn;
@@ -100,6 +106,7 @@ let
         "fabric-1.20.4" = _dAQLSlB3;
         "neoforge-1.20.2" = _a2PBgzZN;
         "neoforge-1.20.4" = _fQEAVXuA;
+        "neoforge-26.3" = _1i5b7Y8t;
         "pkg-3.2.9" = _hhmapLTN;
         "pkg-3.1.6" = _Bcg3NOvj;
         "pkg-3.2.7" = _fKNh5egn;
@@ -109,7 +116,8 @@ let
         "pkg-3.7.0" = _151CHAjl;
         "pkg-3.8.0" = _a2PBgzZN;
         "pkg-3.9.0" = _fQEAVXuA;
-        "default" = _fQEAVXuA;
+        "pkg-4.0.10" = _1i5b7Y8t;
+        "default" = _1i5b7Y8t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-poles";

@@ -311,6 +311,16 @@ let
             "file" = "fightorflight-neoforge-0.11.2.jar";
             "hash" = "sha512-IkwNCppo6GLZrPJrONFp0NyKW4Ej5I47E33tDg+5V+hIpKJmX3xJw3w7SkycNnk/ixRbsVHtL8t+z+3E7SH5TQ==";
         };
+        _FALL8mct = {
+            "id" = "FALL8mct";
+            "file" = "fightorflight-fabric-0.11.3.jar";
+            "hash" = "sha512-Dk3qrn1bL4mvqDpM1uMClfekqDFN+vXF/WsTuL0N8Kd/IOZ5cLWoU+UdPkK25cteCwKn/5iniGjIH+yDLIY84Q==";
+        };
+        _OfILyck1 = {
+            "id" = "OfILyck1";
+            "file" = "fightorflight-neoforge-0.11.3.jar";
+            "hash" = "sha512-hqXpj4d2g+CoArZGm/HNoQUrcLRH6Zn5rrXXNIyNLZCl9zdQRXeEsGuMV0JnIZPAMfujwTDw5crwGGYl4/qJkw==";
+        };
     in {
         "JidVVB3f" = _JidVVB3f;
         "su6K4djv" = _su6K4djv;
@@ -374,10 +384,12 @@ let
         "OD7X9rYz" = _OD7X9rYz;
         "bY4nLlQ7" = _bY4nLlQ7;
         "dwBg5eDv" = _dwBg5eDv;
+        "FALL8mct" = _FALL8mct;
+        "OfILyck1" = _OfILyck1;
         "forge-1.20.1" = _9rQX5kHn;
         "fabric-1.20.1" = _MIF2Smpa;
-        "fabric-1.21.1" = _bY4nLlQ7;
-        "neoforge-1.21.1" = _dwBg5eDv;
+        "fabric-1.21.1" = _FALL8mct;
+        "neoforge-1.21.1" = _OfILyck1;
         "pkg-0.6.1" = _su6K4djv;
         "pkg-0.7.0" = _5wwtw23y;
         "pkg-0.7.1" = _wlAzpQIe;
@@ -410,7 +422,8 @@ let
         "pkg-0.11.1" = _OD7X9rYz;
         "pkg-0.11.2F" = _bY4nLlQ7;
         "pkg-0.11.2NF" = _dwBg5eDv;
-        "default" = _dwBg5eDv;
+        "pkg-0.11.3" = _OfILyck1;
+        "default" = _OfILyck1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-fight-or-flight-reborn";

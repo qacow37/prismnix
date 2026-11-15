@@ -7611,6 +7611,16 @@ let
             "file" = "azurelib-neo-26.3-4.1.8.jar";
             "hash" = "sha512-Px8ff6tNr7D/x61sZbL8y9k/8Rg1SdwZAb5jS3ttfbXV+co9JOt/Z1ql9zgQdjoHKyVPEEODxn5QazOINcjDOQ==";
         };
+        _EwMd7piz = {
+            "id" = "EwMd7piz";
+            "file" = "azurelib-fabric-1.20.1-3.2.9.jar";
+            "hash" = "sha512-OknCsq87p5wyeTE7US1TPA5gIBAARWqiJjyMY2IZQBAI1WJLPZegVdz6Ut6LPod99DDiM3JWQEocOhtVgNcqiA==";
+        };
+        _UseEzxfs = {
+            "id" = "UseEzxfs";
+            "file" = "azurelib-neo-1.20.1-3.2.9.jar";
+            "hash" = "sha512-Nh6d2IOBryA73iQxb4TJNY3BjUXAPDrSDtfllERYuOBPrOJZnzxpjlY/kIfhVEz6jikQYiORo7WKShg+aPz/XA==";
+        };
     in {
         "LDZFNjki" = _LDZFNjki;
         "CgVj70jh" = _CgVj70jh;
@@ -9134,6 +9144,8 @@ let
         "2bWKAkMf" = _2bWKAkMf;
         "LvXiSKwg" = _LvXiSKwg;
         "Gw94PmQI" = _Gw94PmQI;
+        "EwMd7piz" = _EwMd7piz;
+        "UseEzxfs" = _UseEzxfs;
         "fabric-1.19.3" = _K4Xvektd;
         "fabric-1.19.2" = _taRtjO4z;
         "fabric-1.19.4" = _BeVP4sAJ;
@@ -9142,7 +9154,7 @@ let
         "fabric-1.20-pre1" = _9TuxoJbx;
         "fabric-1.20-rc1" = _Ni9A46bx;
         "fabric-1.20" = _iZj7n8Uf;
-        "fabric-1.20.1" = _m20RfMU3;
+        "fabric-1.20.1" = _EwMd7piz;
         "fabric-1.17.1" = _jNpoZ35C;
         "fabric-1.20.2-pre1" = _8U3Y5TWH;
         "fabric-1.20.2-rc1" = _ykCjVxwA;
@@ -9163,7 +9175,7 @@ let
         "quilt-1.18.2" = _EPkBmyuK;
         "quilt-1.20-rc1" = _Ni9A46bx;
         "quilt-1.20" = _iZj7n8Uf;
-        "quilt-1.20.1" = _m20RfMU3;
+        "quilt-1.20.1" = _EwMd7piz;
         "quilt-1.20.2-pre1" = _8U3Y5TWH;
         "quilt-1.20.2-rc1" = _ykCjVxwA;
         "quilt-1.20.2" = _a7bCp7ed;
@@ -9179,12 +9191,12 @@ let
         "forge-1.18.2" = _kFgP8PvZ;
         "forge-1.16.5" = _EKBmsO1O;
         "forge-1.20" = _pow1BhHD;
-        "forge-1.20.1" = _NJMSoASg;
+        "forge-1.20.1" = _UseEzxfs;
         "forge-1.17.1" = _XKnYqPlc;
         "forge-1.15.2" = _KzNqOx6N;
         "forge-1.12.2" = _ppN0SRVm;
         "forge-1.7.10" = _UblO0vCj;
-        "neoforge-1.20.1" = _NJMSoASg;
+        "neoforge-1.20.1" = _UseEzxfs;
         "neoforge-1.20.2" = _S2DxD0oM;
         "neoforge-1.20.3" = _SJJPodOx;
         "neoforge-1.20.4" = _54vruXme;
@@ -9441,7 +9453,7 @@ let
         "pkg-3.2.6" = _KHThrfV0;
         "pkg-3.2.7" = _N2wVdORg;
         "pkg-3.2.8" = _2bWKAkMf;
-        "pkg-3.2.9" = _clz0ywrz;
+        "pkg-3.2.9" = _UseEzxfs;
         "pkg-3.2.10" = _RUjLrRva;
         "pkg-3.2.11" = _jKK8PTvg;
         "pkg-4.0.0" = _fiQrUC6b;
@@ -9516,7 +9528,7 @@ let
         "pkg-1.1.9" = _ppN0SRVm;
         "pkg-3.3.8" = _kFgP8PvZ;
         "pkg-4.1.8" = _Gw94PmQI;
-        "default" = _Gw94PmQI;
+        "default" = _UseEzxfs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "azurelib";

@@ -1041,6 +1041,11 @@ let
             "file" = "filament-1.8.5-hotfix.1+26.3.jar";
             "hash" = "sha512-98Y6T7Y/NO3ObPNulKMbBMhm7/ISO3bckKPKVkSpYEHvLqTjDRns8F5hdXQrMrW9C4o500kDDNiKYnudGOBunQ==";
         };
+        _xA09FGIg = {
+            "id" = "xA09FGIg";
+            "file" = "filament-1.8.12+26.3.jar";
+            "hash" = "sha512-RC2tnK4PtsSvkeyCldVjl9dxWMiWBZpgkDO0OErH8RxyXaBf3QTVCIrkVralZqrfuBhqOWK028TzNfMuX0QY8w==";
+        };
     in {
         "4jfqfDQL" = _4jfqfDQL;
         "pPLg7OV7" = _pPLg7OV7;
@@ -1250,6 +1255,7 @@ let
         "SVcTiN6K" = _SVcTiN6K;
         "hx9B6uTQ" = _hx9B6uTQ;
         "66G6ixmY" = _66G6ixmY;
+        "xA09FGIg" = _xA09FGIg;
         "fabric-1.20.4" = _jpecue9O;
         "fabric-1.20.1" = _xMPBiklG;
         "fabric-1.20.6" = _Ahf6WiKI;
@@ -1277,7 +1283,7 @@ let
         "fabric-26.1.1" = _AbmuCE3d;
         "fabric-26.1.2" = _AbmuCE3d;
         "fabric-26.2" = _AbmuCE3d;
-        "fabric-26.3" = _66G6ixmY;
+        "fabric-26.3" = _xA09FGIg;
         "pkg-0.3.2+1.20.4" = _4jfqfDQL;
         "pkg-0.3.2+1.20.1" = _pPLg7OV7;
         "pkg-0.3.3+1.20.4" = _AaLeoWTg;
@@ -1486,7 +1492,8 @@ let
         "pkg-1.8.4+26.3" = _SVcTiN6K;
         "pkg-1.8.5+26.3" = _hx9B6uTQ;
         "pkg-1.8.5-hotfix.1+26.3" = _66G6ixmY;
-        "default" = _66G6ixmY;
+        "pkg-1.8.12+26.3" = _xA09FGIg;
+        "default" = _xA09FGIg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "filament";

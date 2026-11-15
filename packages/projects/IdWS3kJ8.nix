@@ -81,6 +81,16 @@ let
             "file" = "particleanimationlib-0.1.3+26.1-neo.jar";
             "hash" = "sha512-rccTW9LX0Z5v30xLpr/ZJ7pa1+5rE/lkYZyZpebEbzuweojOpGHpthcELLPnFqez+fU0g0jBRcW2SZz7yIGmzQ==";
         };
+        _PrKSCPG2 = {
+            "id" = "PrKSCPG2";
+            "file" = "particleanimationlib-0.1.3+1.21-neo.jar";
+            "hash" = "sha512-v0PfC7uY8b27BfTiOFFyLqfgIa7FLwK28B55FnOEmaIpkczBTzrBYTn0A5oDvJAPKEAOml+tqV3zo2kGryysqA==";
+        };
+        _RN8DNxGW = {
+            "id" = "RN8DNxGW";
+            "file" = "particleanimationlib-0.1.3+26.3-neo.jar";
+            "hash" = "sha512-dQ9xDmbP7fq+fp0vvB+VH8sKw5IB4lmvprE4YL92/8CDhqGy7Y/junIYdKJEoNidS3yI3q8Qa7Lr5t3hz/iOIQ==";
+        };
     in {
         "9fWGB6e5" = _9fWGB6e5;
         "aK41CIc1" = _aK41CIc1;
@@ -98,6 +108,8 @@ let
         "x6tSsCSM" = _x6tSsCSM;
         "49oDGvw4" = _49oDGvw4;
         "3ZW8XBmT" = _3ZW8XBmT;
+        "PrKSCPG2" = _PrKSCPG2;
+        "RN8DNxGW" = _RN8DNxGW;
         "fabric-1.17" = _F20zf26X;
         "fabric-1.17.1" = _F20zf26X;
         "fabric-1.18" = _F20zf26X;
@@ -166,23 +178,34 @@ let
         "quilt-1.21.8" = _x6tSsCSM;
         "quilt-26.2" = _49oDGvw4;
         "quilt-26.3" = _49oDGvw4;
-        "neoforge-1.20" = _bx2fi4nD;
-        "neoforge-1.20.1" = _bx2fi4nD;
-        "neoforge-1.20.2" = _bx2fi4nD;
-        "neoforge-1.20.3" = _bx2fi4nD;
-        "neoforge-1.20.4" = _bx2fi4nD;
-        "neoforge-1.20.5" = _bx2fi4nD;
-        "neoforge-1.20.6" = _bx2fi4nD;
-        "neoforge-1.21.1" = _bx2fi4nD;
-        "neoforge-1.21.2" = _bx2fi4nD;
-        "neoforge-1.21.3" = _bx2fi4nD;
-        "neoforge-1.21.4" = _bx2fi4nD;
+        "neoforge-1.20" = _PrKSCPG2;
+        "neoforge-1.20.1" = _PrKSCPG2;
+        "neoforge-1.20.2" = _PrKSCPG2;
+        "neoforge-1.20.3" = _PrKSCPG2;
+        "neoforge-1.20.4" = _PrKSCPG2;
+        "neoforge-1.20.5" = _PrKSCPG2;
+        "neoforge-1.20.6" = _PrKSCPG2;
+        "neoforge-1.21.1" = _PrKSCPG2;
+        "neoforge-1.21.2" = _PrKSCPG2;
+        "neoforge-1.21.3" = _PrKSCPG2;
+        "neoforge-1.21.4" = _PrKSCPG2;
         "neoforge-1.21.5" = _bx2fi4nD;
-        "neoforge-26.1.2" = _3ZW8XBmT;
-        "neoforge-26.2" = _3ZW8XBmT;
+        "neoforge-26.1.2" = _RN8DNxGW;
+        "neoforge-26.2" = _RN8DNxGW;
         "neoforge-26.1.1" = _3ZW8XBmT;
         "neoforge-26.1" = _3ZW8XBmT;
-        "neoforge-26.3" = _3ZW8XBmT;
+        "neoforge-26.3" = _RN8DNxGW;
+        "neoforge-1.21" = _PrKSCPG2;
+        "neoforge-1.19.4" = _PrKSCPG2;
+        "neoforge-1.19.3" = _PrKSCPG2;
+        "neoforge-1.19.2" = _PrKSCPG2;
+        "neoforge-1.19.1" = _PrKSCPG2;
+        "neoforge-1.19" = _PrKSCPG2;
+        "neoforge-1.18.2" = _PrKSCPG2;
+        "neoforge-1.18.1" = _PrKSCPG2;
+        "neoforge-1.18" = _PrKSCPG2;
+        "neoforge-1.17.1" = _PrKSCPG2;
+        "neoforge-1.17" = _PrKSCPG2;
         "forge-1.20.1" = _mQK8NVr0;
         "forge-1.20.2" = _mQK8NVr0;
         "forge-1.20.3" = _mQK8NVr0;
@@ -211,7 +234,9 @@ let
         "pkg-0.1.3+1.21.10" = _x6tSsCSM;
         "pkg-0.1.3+26.3" = _49oDGvw4;
         "pkg-0.1.3+26.1-neo" = _3ZW8XBmT;
-        "default" = _3ZW8XBmT;
+        "pkg-0.1.3+1.21-neo" = _PrKSCPG2;
+        "pkg-0.1.3+26.3-neo" = _RN8DNxGW;
+        "default" = _RN8DNxGW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particleanimationlib";

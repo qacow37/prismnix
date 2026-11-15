@@ -421,6 +421,26 @@ let
             "file" = "BlueIceServerTweaks-2.4.3+1.20.1.jar";
             "hash" = "sha512-jvKN69qj5HfLX+76LnhVjn7WkWwVF9tP0qD7oHjKSkUFJuhpcPIoXlk4A3FyHOPkM0wuteSbM5E1wEJLjUNTdQ==";
         };
+        _BIsfvlB2 = {
+            "id" = "BIsfvlB2";
+            "file" = "BlueIceServerTweaks-2.4.4+26.3.jar";
+            "hash" = "sha512-bZGmbwfQKmsWcJzKs1Y/YXgH1UhKxh1SmBAc2EmV+VG4XzqM2jzNUeAetVDS9AqL8Z4dwALjgwQ4riB6eYEDZA==";
+        };
+        _OCEAGIFW = {
+            "id" = "OCEAGIFW";
+            "file" = "BlueIceServerTweaks-2.4.5+26.3.jar";
+            "hash" = "sha512-ugPdYvr3Ii8+dMp0RloH9rtLgFno2nlYYRAJaxBzqCk7k/iMzjAKvj7eSD18L9loAgQHbxzaocEtFVA74eep2Q==";
+        };
+        _hHOIYGZn = {
+            "id" = "hHOIYGZn";
+            "file" = "BlueIceServerTweaks-2.4.5+1.21.1.jar";
+            "hash" = "sha512-iv/8Q4GAmBZ3U1eWSPOhVMg1Oo2utRFf8RDL3I7lFE9SQr670AHzlCaLc79C/GC1XulSSKk9zxyZm99YYwnUOg==";
+        };
+        _gVV7OVql = {
+            "id" = "gVV7OVql";
+            "file" = "BlueIceServerTweaks-2.4.5+1.20.1.jar";
+            "hash" = "sha512-HYYzJM+sltxWy1S0s8fafrTwCw+sF1ZZa0fNQOX5pCndOYDvGYvnj45WIK2uNx/3iPk80P0dkNhYKPUglSSqUg==";
+        };
     in {
         "aHM8hn3N" = _aHM8hn3N;
         "92TaeHIM" = _92TaeHIM;
@@ -506,9 +526,13 @@ let
         "nVZKxn0q" = _nVZKxn0q;
         "3dpc1EeT" = _3dpc1EeT;
         "jHP21s5j" = _jHP21s5j;
+        "BIsfvlB2" = _BIsfvlB2;
+        "OCEAGIFW" = _OCEAGIFW;
+        "hHOIYGZn" = _hHOIYGZn;
+        "gVV7OVql" = _gVV7OVql;
         "fabric-1.20" = _aHM8hn3N;
-        "fabric-1.20.1" = _jHP21s5j;
-        "fabric-1.21.1" = _3dpc1EeT;
+        "fabric-1.20.1" = _gVV7OVql;
+        "fabric-1.21.1" = _hHOIYGZn;
         "fabric-1.21.11" = _zKOqGLvO;
         "fabric-26.2" = _TTlH7EQb;
         "fabric-26.3-snapshot-8" = _ipyEZCRv;
@@ -516,7 +540,7 @@ let
         "fabric-26.3-snapshot-10" = _w8wDlaon;
         "fabric-26.3-pre-2" = _vNXfwNIA;
         "fabric-26.3-rc-2" = _Ma7PHFGU;
-        "fabric-26.3" = _nVZKxn0q;
+        "fabric-26.3" = _OCEAGIFW;
         "quilt-1.20" = _aHM8hn3N;
         "quilt-1.20.1" = _aHM8hn3N;
         "forge-1.20" = _92TaeHIM;
@@ -573,7 +597,11 @@ let
         "pkg-2.4.3+26.3" = _nVZKxn0q;
         "pkg-2.4.3+1.21.1" = _3dpc1EeT;
         "pkg-2.4.3+1.20.1" = _jHP21s5j;
-        "default" = _jHP21s5j;
+        "pkg-2.4.4+26.3" = _BIsfvlB2;
+        "pkg-2.4.5+26.3" = _OCEAGIFW;
+        "pkg-2.4.5+1.21.1" = _hHOIYGZn;
+        "pkg-2.4.5+1.20.1" = _gVV7OVql;
+        "default" = _gVV7OVql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blueice-server-tweaks";

@@ -71,6 +71,16 @@ let
             "file" = "pokebelt-0.1.5.jar";
             "hash" = "sha512-zuYtDN7nbyAB+dU7efjtq7qBEeOCWwRRSTWRMaeQ1bBTz1SNFouAtMpFQqLSjaebG0N22DhyrhUDdXBUQCYXAQ==";
         };
+        _EYkSCLO8 = {
+            "id" = "EYkSCLO8";
+            "file" = "pokebelt-0.1.6.jar";
+            "hash" = "sha512-evhDRzrg0+bInCLM0KzVpgv8VXSEghnf0RIY5wvJwtsX07RxLaIKBjzWz4czfM11+8ZppgwEEvnRfM/aBNfdQg==";
+        };
+        _uLTMTOGH = {
+            "id" = "uLTMTOGH";
+            "file" = "pokebelt-0.1.6.jar";
+            "hash" = "sha512-evhDRzrg0+bInCLM0KzVpgv8VXSEghnf0RIY5wvJwtsX07RxLaIKBjzWz4czfM11+8ZppgwEEvnRfM/aBNfdQg==";
+        };
     in {
         "CEKBgeEn" = _CEKBgeEn;
         "lFUzP91v" = _lFUzP91v;
@@ -86,8 +96,10 @@ let
         "6kQqJjq0" = _6kQqJjq0;
         "zfkFSw53" = _zfkFSw53;
         "vsMq1Xas" = _vsMq1Xas;
-        "fabric-1.21.1" = _zfkFSw53;
-        "neoforge-1.21.1" = _vsMq1Xas;
+        "EYkSCLO8" = _EYkSCLO8;
+        "uLTMTOGH" = _uLTMTOGH;
+        "fabric-1.21.1" = _EYkSCLO8;
+        "neoforge-1.21.1" = _uLTMTOGH;
         "pkg-Pokebelt-0.0.1" = _CEKBgeEn;
         "pkg-0.0.7" = _lFUzP91v;
         "pkg-0.0.8" = _boTKs3Ma;
@@ -98,7 +110,8 @@ let
         "pkg-0.1.3" = _b2h1pqrc;
         "pkg-0.1.4" = _6kQqJjq0;
         "pkg-0.1.5" = _vsMq1Xas;
-        "default" = _vsMq1Xas;
+        "pkg-0.1.6" = _uLTMTOGH;
+        "default" = _uLTMTOGH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokebelt-cobblemon";

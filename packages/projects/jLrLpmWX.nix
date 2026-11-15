@@ -481,6 +481,21 @@ let
             "file" = "crystal_tools-26.1.1.1.jar";
             "hash" = "sha512-YnOXCheCJqvQMkQ2Bqs9E+Tbw5pcHdYIuKidF8SwPZTm3BVKDhFXjn5g4khiGJp6MRWWL4co6i1njIWiD2ueCA==";
         };
+        _fMwvK8wl = {
+            "id" = "fMwvK8wl";
+            "file" = "crystal_tools-26.2.0.2.jar";
+            "hash" = "sha512-VwstuJX0sgq6j9RSeJpyWXoMxCDFBjZjvUHBSsbEfxbJwnWJhpgqHNCZUhie6TB9/CAnmmXIEgEEaXhTllMpJQ==";
+        };
+        _Qw10JG1h = {
+            "id" = "Qw10JG1h";
+            "file" = "crystal_tools-26.1.1.2.jar";
+            "hash" = "sha512-RJL5epYCk31LsC4VQ5khFGdIY3pIrxTslkw9c+3XQZBEcbPoiN3X1XC1w5fNeXVAg857SxQovjLOi855knwVFQ==";
+        };
+        _7KgCIllb = {
+            "id" = "7KgCIllb";
+            "file" = "crystal_tools-26.2.0.3.jar";
+            "hash" = "sha512-GJh5d+8FOzz4DbpGts2ONwTIjaTmdw4rNETA71VtccESBeRdH5/6LGBmo71PZOUccBKTu+ue/IIp7Cc3dDaZnw==";
+        };
     in {
         "GlwyaThi" = _GlwyaThi;
         "ASv9gg34" = _ASv9gg34;
@@ -578,6 +593,9 @@ let
         "lURyCWxP" = _lURyCWxP;
         "9a0SeUJD" = _9a0SeUJD;
         "2lMheRY8" = _2lMheRY8;
+        "fMwvK8wl" = _fMwvK8wl;
+        "Qw10JG1h" = _Qw10JG1h;
+        "7KgCIllb" = _7KgCIllb;
         "forge-1.19.2" = _IVJgC0uJ;
         "forge-1.20.1" = _nGXMjrON;
         "forge-1.20" = _40Ir0NjF;
@@ -596,10 +614,10 @@ let
         "neoforge-1.21.9" = _GH9YHXVm;
         "neoforge-1.21.10" = _9HwKu8bv;
         "neoforge-1.21.11" = _Z83DOQDP;
-        "neoforge-26.1" = _2lMheRY8;
-        "neoforge-26.1.1" = _2lMheRY8;
-        "neoforge-26.1.2" = _2lMheRY8;
-        "neoforge-26.2" = _9a0SeUJD;
+        "neoforge-26.1" = _Qw10JG1h;
+        "neoforge-26.1.1" = _Qw10JG1h;
+        "neoforge-26.1.2" = _Qw10JG1h;
+        "neoforge-26.2" = _7KgCIllb;
         "pkg-1.4.1" = _GlwyaThi;
         "pkg-1.4.2-beta" = _ASv9gg34;
         "pkg-1.4.2" = _eGIyyIY4;
@@ -696,7 +714,10 @@ let
         "pkg-26.2.0.0" = _lURyCWxP;
         "pkg-26.2.0.1" = _9a0SeUJD;
         "pkg-26.1.1.1" = _2lMheRY8;
-        "default" = _2lMheRY8;
+        "pkg-26.2.0.2" = _fMwvK8wl;
+        "pkg-26.1.1.2" = _Qw10JG1h;
+        "pkg-26.2.0.3" = _7KgCIllb;
+        "default" = _7KgCIllb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystal-tools";

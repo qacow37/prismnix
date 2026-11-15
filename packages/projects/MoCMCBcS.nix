@@ -161,6 +161,16 @@ let
             "file" = "slashblade：finale-blade-sanctum-2.9.4-1.21.1-neoforge.jar";
             "hash" = "sha512-CtkDApfAmxwoR6vig1SGyWRwSGGiAUuBWPmKh9xzykFwJM4dnbiNKMzMiLkXOyXZvHZHQ+pDJRXd+hvwELcuHw==";
         };
+        _eL2pQdhe = {
+            "id" = "eL2pQdhe";
+            "file" = "slashblade-finale-blade-sanctum-2.9.4-hotfix2-1.21.1-neoforge.jar";
+            "hash" = "sha512-cynvClcddPZr8H1IaGQ4MTs3BtqRCmQSz6Qe0lbbLev4tRjbRbXcMJ965hoxQInFCCIb8oeqc7AdScsflmxWEg==";
+        };
+        _K6iIVwsU = {
+            "id" = "K6iIVwsU";
+            "file" = "slashblade-finale-blade-sanctum-2.9.4-hotfix2-26.1.2-fabric-sources.jar";
+            "hash" = "sha512-J6ev7cTB3ZUBmQY1F7g8Irh//KQnY1mIw51CvNa6Dky9nA6rYN8g+ojdeIp+C+LNkUH9aBW1eom6b64P5rEhuQ==";
+        };
     in {
         "iuHpLWqf" = _iuHpLWqf;
         "ReMWKtvV" = _ReMWKtvV;
@@ -194,8 +204,11 @@ let
         "LvId7pMg" = _LvId7pMg;
         "MIVkRsc4" = _MIVkRsc4;
         "MDbgmhDy" = _MDbgmhDy;
+        "eL2pQdhe" = _eL2pQdhe;
+        "K6iIVwsU" = _K6iIVwsU;
         "forge-1.20.1" = _MIVkRsc4;
-        "neoforge-1.21.1" = _MDbgmhDy;
+        "neoforge-1.21.1" = _eL2pQdhe;
+        "fabric-26.1.2" = _K6iIVwsU;
         "pkg-2.0.1-hotfix" = _iuHpLWqf;
         "pkg-2.1.1" = _ReMWKtvV;
         "pkg-2.2.5" = _FGjJ5yh3;
@@ -228,7 +241,9 @@ let
         "pkg-2.9.4-1.20.1-forge" = _LvId7pMg;
         "pkg-2.9.4-hotfix1-1.20.1-forge" = _MIVkRsc4;
         "pkg-2.9.4-1.21.1-neoforge" = _MDbgmhDy;
-        "default" = _MDbgmhDy;
+        "pkg-2.9.4-hotfix2-1.21.1-neoforge" = _eL2pQdhe;
+        "pkg-2.9.4-26.1.2-fabric" = _K6iIVwsU;
+        "default" = _K6iIVwsU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annihilationbladeex";

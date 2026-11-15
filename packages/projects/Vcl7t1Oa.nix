@@ -266,6 +266,11 @@ let
             "file" = "MCXboxBroadcastExtension.jar";
             "hash" = "sha512-Dx53g3uRRj7GuGBbmrwBkWYzuZSsgo1/Wvycs1/JXt0eG/QFC6aEOV9DrR5HdEvlLE1dH90zNkOLtmOUZM+vaA==";
         };
+        _HS4jX0n2 = {
+            "id" = "HS4jX0n2";
+            "file" = "MCXboxBroadcastExtension.jar";
+            "hash" = "sha512-UpPpP4dGjGk+A6M2gOGmLHmeiYg5wh2BJtRS53etW8pMSlglPleNg/JrekcSx+Z+ab6aJ0G8BbjOGhDWC1qCUA==";
+        };
     in {
         "ZcJOFebe" = _ZcJOFebe;
         "fZhuY9hN" = _fZhuY9hN;
@@ -320,13 +325,14 @@ let
         "4ChjdJO4" = _4ChjdJO4;
         "QmmQXt9S" = _QmmQXt9S;
         "nt8gAmHg" = _nt8gAmHg;
+        "HS4jX0n2" = _HS4jX0n2;
         "geyser-1.21.10" = _oHkGgTYZ;
         "geyser-1.21.11" = _u2egBU50;
         "geyser-26.1" = _MAqjdI2q;
         "geyser-26.1.1" = _MAqjdI2q;
         "geyser-26.1.2" = _MAqjdI2q;
         "geyser-26.2" = _laiRMgHM;
-        "geyser-26.3" = _nt8gAmHg;
+        "geyser-26.3" = _HS4jX0n2;
         "pkg-111" = _ZcJOFebe;
         "pkg-112" = _fZhuY9hN;
         "pkg-113" = _vXDboFQ2;
@@ -380,7 +386,8 @@ let
         "pkg-161" = _4ChjdJO4;
         "pkg-162" = _QmmQXt9S;
         "pkg-163" = _nt8gAmHg;
-        "default" = _nt8gAmHg;
+        "pkg-164" = _HS4jX0n2;
+        "default" = _HS4jX0n2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcxboxbroadcast";

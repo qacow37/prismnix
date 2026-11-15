@@ -231,6 +231,11 @@ let
             "file" = "danlib-3.0.0.jar";
             "hash" = "sha512-Whe6d2DLMXxHT/lZs8vTfNlkCi7rtanAaqZgWWbC8ke7ygTHynIdheLwhSbhXT3i44EDI5cpx5G5aMBk07fDlw==";
         };
+        _LKvzjznW = {
+            "id" = "LKvzjznW";
+            "file" = "danlib-3.0.0.jar";
+            "hash" = "sha512-Whe6d2DLMXxHT/lZs8vTfNlkCi7rtanAaqZgWWbC8ke7ygTHynIdheLwhSbhXT3i44EDI5cpx5G5aMBk07fDlw==";
+        };
     in {
         "uBzNPAfJ" = _uBzNPAfJ;
         "HRqrwV9M" = _HRqrwV9M;
@@ -278,6 +283,7 @@ let
         "ApOUoO3K" = _ApOUoO3K;
         "QzmyDlwn" = _QzmyDlwn;
         "53pjVzXL" = _53pjVzXL;
+        "LKvzjznW" = _LKvzjznW;
         "fabric-25w32a" = _uBzNPAfJ;
         "fabric-25w34b" = _HRqrwV9M;
         "fabric-25w35a" = _tZx1zAF3;
@@ -341,6 +347,7 @@ let
         "fabric-26.4-snapshot-3" = _ApOUoO3K;
         "fabric-26.4-snapshot-6" = _QzmyDlwn;
         "fabric-26.4-snapshot-7" = _53pjVzXL;
+        "fabric-26.4-snapshot-8" = _LKvzjznW;
         "pkg-1.0.3" = _uBzNPAfJ;
         "pkg-1.0.0" = _UyEMroHP;
         "pkg-1.0.4" = _h7enN31P;
@@ -373,7 +380,8 @@ let
         "pkg-3.0.0-26.4-snapshot3" = _ApOUoO3K;
         "pkg-3.0.0-26.4snapshot6" = _QzmyDlwn;
         "pkg-3.0.0-26.4-SNAPSHOT7" = _53pjVzXL;
-        "default" = _53pjVzXL;
+        "pkg-3.0.0-26.4-snapshot8" = _LKvzjznW;
+        "default" = _LKvzjznW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "danlib";

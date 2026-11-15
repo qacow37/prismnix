@@ -241,6 +241,16 @@ let
             "file" = "findme-4.0.0-fabric.jar";
             "hash" = "sha512-5eyxtnNn9cVufe4UThKcV99AgCpMV+DaipKoBKbZ8sPrsdXUK+a/vfdw+V/7WLFaaWOTW8jNE9CqBNGCLkajGg==";
         };
+        _wDtgcjdW = {
+            "id" = "wDtgcjdW";
+            "file" = "findme-3.3.5-neoforge.jar";
+            "hash" = "sha512-/4nvhnZusXztsUu2NgKPFoHzr+oZDlk9784CPhF4s7tcPSaycBrY7a6vTRDOuEwDfYQ3L2DXPnVkOAwHJ1/wkg==";
+        };
+        _D1G0ddXI = {
+            "id" = "D1G0ddXI";
+            "file" = "findme-3.3.5-fabric.jar";
+            "hash" = "sha512-38NnDMOYyuRzdc0qIhCOlPqkiI8YXO090w8sl7qavtF0shDlQNC8AWLWkjDm5BrbVZSpj4qatQZ5uQQTRN71rw==";
+        };
     in {
         "6J2pcN93" = _6J2pcN93;
         "NKuN3pnx" = _NKuN3pnx;
@@ -290,6 +300,8 @@ let
         "EJKksclk" = _EJKksclk;
         "g5s3fjhE" = _g5s3fjhE;
         "ulWItSbO" = _ulWItSbO;
+        "wDtgcjdW" = _wDtgcjdW;
+        "D1G0ddXI" = _D1G0ddXI;
         "forge-1.12" = _VGW7Er2j;
         "forge-1.12.1" = _VGW7Er2j;
         "forge-1.12.2" = _VGW7Er2j;
@@ -312,11 +324,11 @@ let
         "fabric-1.19.1" = _ckJ518Qt;
         "fabric-1.19.2" = _ckJ518Qt;
         "fabric-1.20.1" = _3yVHZGuH;
-        "fabric-1.21" = _EJKksclk;
-        "fabric-1.21.1" = _9k9ve2su;
+        "fabric-1.21" = _D1G0ddXI;
+        "fabric-1.21.1" = _D1G0ddXI;
         "fabric-26.1.2" = _ulWItSbO;
-        "neoforge-1.21" = _OYTXQUUB;
-        "neoforge-1.21.1" = _XqFomM19;
+        "neoforge-1.21" = _wDtgcjdW;
+        "neoforge-1.21.1" = _wDtgcjdW;
         "neoforge-26.1.2" = _g5s3fjhE;
         "pkg-1.0.1" = _6J2pcN93;
         "pkg-1.0.2" = _NKuN3pnx;
@@ -347,7 +359,8 @@ let
         "pkg-1.20.1-3.2.3" = _3yVHZGuH;
         "pkg-1.21-3.3.4" = _EJKksclk;
         "pkg-4.0.0" = _ulWItSbO;
-        "default" = _ulWItSbO;
+        "pkg-1.21-3.3.5" = _D1G0ddXI;
+        "default" = _D1G0ddXI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "findme";

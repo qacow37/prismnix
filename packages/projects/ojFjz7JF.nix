@@ -431,6 +431,16 @@ let
             "file" = "untitledduckmod-1.7.0-fix-forge-1.20.1.jar";
             "hash" = "sha512-Rt1DGkflSU3HL0klN/19R+EGdC8xrOSZ/CFfe8waRfs6BRsGpUjE5CvnW8gDzwZMQNxAwInXCQa2Fcad/MrDSQ==";
         };
+        _lGoz2u2L = {
+            "id" = "lGoz2u2L";
+            "file" = "untitledduckmod-neoforge-26.3-1.8.1.jar";
+            "hash" = "sha512-7hRAkTvstCWJfeSvF67AoKvi2wjPYxkf4GNFC7ueO6XOPFcHJ/kRjVsIZVUIrVGw08Nf0h+N5cTBPNt73nTHoQ==";
+        };
+        _vNlEAHKP = {
+            "id" = "vNlEAHKP";
+            "file" = "untitledduckmod-1.7.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-gQHaOgo3ch1hNgVDtKavS5oLWX1S3KkVom2b4wMP7INdyhHQgpZhA0NJXkZ/XXzqzERQBn30b+ZD65er/iugtg==";
+        };
     in {
         "ir97YSNV" = _ir97YSNV;
         "sx4Ttl4h" = _sx4Ttl4h;
@@ -518,6 +528,8 @@ let
         "GxnC3UzO" = _GxnC3UzO;
         "R3vpHCeV" = _R3vpHCeV;
         "nc27c1zo" = _nc27c1zo;
+        "lGoz2u2L" = _lGoz2u2L;
+        "vNlEAHKP" = _vNlEAHKP;
         "fabric-1.18.2" = _yYH6ajII;
         "fabric-1.19" = _HwJr91dJ;
         "fabric-1.19.1" = _HwJr91dJ;
@@ -543,7 +555,7 @@ let
         "forge-1.20.1" = _nc27c1zo;
         "neoforge-1.20.1" = _LyM51PJV;
         "neoforge-1.21" = _x9tCP1UT;
-        "neoforge-1.21.1" = _QfrVPbOi;
+        "neoforge-1.21.1" = _vNlEAHKP;
         "neoforge-1.21.4" = _PeNBzYNQ;
         "neoforge-1.21.5" = _H11gHZHg;
         "neoforge-1.21.6" = _TOXkXRBT;
@@ -554,7 +566,7 @@ let
         "neoforge-26.1.1" = _VT4cNm9m;
         "neoforge-26.1.2" = _VT4cNm9m;
         "neoforge-26.2" = _TsqLpX5v;
-        "neoforge-26.3" = _GxnC3UzO;
+        "neoforge-26.3" = _lGoz2u2L;
         "pkg-0.4.1-fabric-1.18.2" = _ir97YSNV;
         "pkg-0.4.1-forge-1.18.2" = _sx4Ttl4h;
         "pkg-0.5.0-fabric-1.18.2" = _yYH6ajII;
@@ -593,7 +605,9 @@ let
         "pkg-1.8.0+neoforge" = _GxnC3UzO;
         "pkg-1.8.0+fabric" = _R3vpHCeV;
         "pkg-1.7.0-fix+forge" = _nc27c1zo;
-        "default" = _nc27c1zo;
+        "pkg-1.8.1-neoforge" = _lGoz2u2L;
+        "pkg-1.7.1+neoforge" = _vNlEAHKP;
+        "default" = _vNlEAHKP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "untitled-duck-mod";

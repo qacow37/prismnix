@@ -101,6 +101,11 @@ let
             "file" = "AnotherLiquidMilkMod-26.2-2.1.0.jar";
             "hash" = "sha512-C+K+tnb7ssMT4R69D5X+FQd/TvMUP1lk5iDQFAld1oneC3EeDCGsBTjSN06AQ5+PmraR9vFkS0FYVpfir1txMQ==";
         };
+        _vvgHOMkO = {
+            "id" = "vvgHOMkO";
+            "file" = "AnotherLiquidMilkMod-26.3-2.2.0.jar";
+            "hash" = "sha512-UtwGLK/q05DsEpANfYPotHW2xjVF9krGX0IsNkMxjPDiZ1x+Txcs5WRiRMLE8WmevLhXqlV09jw2b/L1Ce9QQg==";
+        };
     in {
         "gOFQVmdS" = _gOFQVmdS;
         "YVxchf0O" = _YVxchf0O;
@@ -122,6 +127,7 @@ let
         "2H7y5kw9" = _2H7y5kw9;
         "Q7AQNKfT" = _Q7AQNKfT;
         "TRB93es1" = _TRB93es1;
+        "vvgHOMkO" = _vvgHOMkO;
         "forge-1.18.2" = _gOFQVmdS;
         "forge-1.16.5" = _YVxchf0O;
         "forge-1.12.2" = _XHvoAbMX;
@@ -145,6 +151,7 @@ let
         "neoforge-1.21.11" = _2H7y5kw9;
         "neoforge-26.1.1" = _Q7AQNKfT;
         "neoforge-26.2" = _TRB93es1;
+        "neoforge-26.3" = _vvgHOMkO;
         "pkg-1.0.0.3" = _gOFQVmdS;
         "pkg-1.0.0.2" = _YVxchf0O;
         "pkg-1.1" = _XHvoAbMX;
@@ -163,7 +170,8 @@ let
         "pkg-1.9.0" = _2H7y5kw9;
         "pkg-2.0.0" = _Q7AQNKfT;
         "pkg-2.1.0" = _TRB93es1;
-        "default" = _TRB93es1;
+        "pkg-2.2.0" = _vvgHOMkO;
+        "default" = _vvgHOMkO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "another-liquid-milk";

@@ -56,6 +56,11 @@ let
             "file" = "morecloudlayers-26.2-2.1.0.jar";
             "hash" = "sha512-H0zUkO/efzIbI0kdUUviCROBTbzQWjouncg9rhF3QeheBEL+BKhTsnRZC4Mg6ajNxHhoXDb8w7TPIL3geiXx3w==";
         };
+        _mQivtktY = {
+            "id" = "mQivtktY";
+            "file" = "morecloudlayers-26.3-2.2.0.jar";
+            "hash" = "sha512-l+A/xkdJtIkVoGR3vDlekw4+HfCM+x9uLjzQZDZfDhvxZtOxLsi8m34C7UPML0MKxZ6gyTdHmrXpcae/wI00eg==";
+        };
     in {
         "KmdnVbuZ" = _KmdnVbuZ;
         "V4KDQS8c" = _V4KDQS8c;
@@ -68,6 +73,7 @@ let
         "2nXO3ZVz" = _2nXO3ZVz;
         "eSvSsBJa" = _eSvSsBJa;
         "j6lfujaW" = _j6lfujaW;
+        "mQivtktY" = _mQivtktY;
         "fabric-1.21" = _KmdnVbuZ;
         "fabric-1.21.1" = _KmdnVbuZ;
         "fabric-1.21.2" = _V4KDQS8c;
@@ -84,11 +90,13 @@ let
         "fabric-26.1.1" = _eSvSsBJa;
         "fabric-26.1.2" = _eSvSsBJa;
         "fabric-26.2" = _j6lfujaW;
+        "fabric-26.3" = _mQivtktY;
         "pkg-1.0.0" = _cnmZl372;
         "pkg-1.1.0" = _2nXO3ZVz;
         "pkg-2.0.0" = _eSvSsBJa;
         "pkg-2.1.0" = _j6lfujaW;
-        "default" = _j6lfujaW;
+        "pkg-2.2.0" = _mQivtktY;
+        "default" = _mQivtktY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-cloud-layers";

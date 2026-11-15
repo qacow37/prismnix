@@ -61,6 +61,11 @@ let
             "file" = "ProtectedArea-1.0.9.jar";
             "hash" = "sha512-be59yROPjuTIqvwEyKSthLgsOcGDuADoJdq+YRjSWVP8J3/KkCXszn40zaikQ57Vm+GI0FjgzGnEIUE0Z3K4PQ==";
         };
+        _nxGEBRNH = {
+            "id" = "nxGEBRNH";
+            "file" = "ProtectedArea-1.1.0.jar";
+            "hash" = "sha512-mrA1WCGX/ynTiBfojTJbTJU0fuiKu3hObeYYzTmOeOHbNEXHz1aiHbXjdAWQUzTalUQXU99gFcVibndJEFTwYA==";
+        };
     in {
         "xTe75d4w" = _xTe75d4w;
         "gaiS56uE" = _gaiS56uE;
@@ -74,8 +79,9 @@ let
         "bE72TOj0" = _bE72TOj0;
         "K8YCdRod" = _K8YCdRod;
         "923dwsKE" = _923dwsKE;
-        "fabric-1.21" = _923dwsKE;
-        "fabric-1.21.1" = _923dwsKE;
+        "nxGEBRNH" = _nxGEBRNH;
+        "fabric-1.21" = _nxGEBRNH;
+        "fabric-1.21.1" = _nxGEBRNH;
         "fabric-1.21.2" = _xTe75d4w;
         "fabric-1.21.3" = _xTe75d4w;
         "fabric-1.21.4" = _xTe75d4w;
@@ -94,7 +100,8 @@ let
         "pkg-1.0.7-client" = _bE72TOj0;
         "pkg-1.0.8" = _K8YCdRod;
         "pkg-1.0.9" = _923dwsKE;
-        "default" = _923dwsKE;
+        "pkg-1.1.0" = _nxGEBRNH;
+        "default" = _nxGEBRNH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "protectedarea";

@@ -166,6 +166,16 @@ let
             "file" = "talentium-1.0.7.jar";
             "hash" = "sha512-5ojA9Wg9Wv5Zf18LvLbgw+6XYY3lHNey3kS8aHbB8HIuvhESYFZsyWRXJbU/lQT6qvv0fngZlU5aWXEt3nfLhA==";
         };
+        _T6XSVyce = {
+            "id" = "T6XSVyce";
+            "file" = "talentium-1.1.zip";
+            "hash" = "sha512-a1v+ivtpnu8zX5uOJ+oenxZa6dLEpaK/hblH5jTHEltM4/WTTdT6of8mvESafY3VaQmbNgk5NOGed8hC1ss5CQ==";
+        };
+        _RUOQlcPU = {
+            "id" = "RUOQlcPU";
+            "file" = "talentium-1.1.jar";
+            "hash" = "sha512-MAS5xLkwi2M005O9fgqUbjStWZ6cc3qro3FK9jGqmjI5l+r8jcbpnJMN1lLdntHv90Le5f0k26odKUuBgdlRBw==";
+        };
     in {
         "ksVEwnmJ" = _ksVEwnmJ;
         "2pkUP9y8" = _2pkUP9y8;
@@ -200,6 +210,8 @@ let
         "f1OKB3dV" = _f1OKB3dV;
         "Fn4TRQmH" = _Fn4TRQmH;
         "VuF3h7wD" = _VuF3h7wD;
+        "T6XSVyce" = _T6XSVyce;
+        "RUOQlcPU" = _RUOQlcPU;
         "datapack-1.20" = _r8EpmrTT;
         "datapack-1.20.1" = _r8EpmrTT;
         "datapack-1.20.2" = _kTB1hTuF;
@@ -218,6 +230,7 @@ let
         "datapack-26.1.1" = _p4MWHMPb;
         "datapack-26.1.2" = _p4MWHMPb;
         "datapack-26.2" = _Fn4TRQmH;
+        "datapack-26.3" = _T6XSVyce;
         "fabric-1.20" = _RdWWPZMo;
         "fabric-1.20.1" = _RdWWPZMo;
         "fabric-1.20.2" = _1YTYoPPs;
@@ -236,6 +249,7 @@ let
         "fabric-26.1.1" = _f1OKB3dV;
         "fabric-26.1.2" = _f1OKB3dV;
         "fabric-26.2" = _VuF3h7wD;
+        "fabric-26.3" = _RUOQlcPU;
         "forge-1.20" = _RdWWPZMo;
         "forge-1.20.1" = _RdWWPZMo;
         "forge-1.20.2" = _1YTYoPPs;
@@ -254,6 +268,7 @@ let
         "forge-26.1.1" = _f1OKB3dV;
         "forge-26.1.2" = _f1OKB3dV;
         "forge-26.2" = _VuF3h7wD;
+        "forge-26.3" = _RUOQlcPU;
         "quilt-1.20" = _RdWWPZMo;
         "quilt-1.20.1" = _RdWWPZMo;
         "quilt-1.20.2" = _1YTYoPPs;
@@ -272,6 +287,7 @@ let
         "quilt-26.1.1" = _f1OKB3dV;
         "quilt-26.1.2" = _f1OKB3dV;
         "quilt-26.2" = _VuF3h7wD;
+        "quilt-26.3" = _RUOQlcPU;
         "neoforge-1.21.2" = _J28MgkvI;
         "neoforge-1.21.3" = _Y70ZBfBv;
         "neoforge-1.21.4" = _ALsp6iHb;
@@ -285,6 +301,7 @@ let
         "neoforge-26.1.1" = _f1OKB3dV;
         "neoforge-26.1.2" = _f1OKB3dV;
         "neoforge-26.2" = _VuF3h7wD;
+        "neoforge-26.3" = _RUOQlcPU;
         "pkg-0.21" = _ksVEwnmJ;
         "pkg-0.22" = _2pkUP9y8;
         "pkg-0.22+mod" = _VMyTvM0D;
@@ -318,7 +335,9 @@ let
         "pkg-1.0.6+mod" = _f1OKB3dV;
         "pkg-1.0.7" = _Fn4TRQmH;
         "pkg-1.0.7+mod" = _VuF3h7wD;
-        "default" = _VuF3h7wD;
+        "pkg-1.1" = _T6XSVyce;
+        "pkg-1.1+mod" = _RUOQlcPU;
+        "default" = _RUOQlcPU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "talentium";

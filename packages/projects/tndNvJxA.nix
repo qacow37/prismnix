@@ -26,19 +26,26 @@ let
             "file" = "project_edgerunner-1.1.2.jar";
             "hash" = "sha512-LfZCNG4W1pPYnITBONz0nIhn/1V0SG1g1cioCewqRGeGzyCTlPuYx6Ei30lgmTdjNXziOBxcCz85ajLTZ0Vgmg==";
         };
+        _u1LyvLXN = {
+            "id" = "u1LyvLXN";
+            "file" = "project_edgerunner-1.2.0.jar";
+            "hash" = "sha512-edOZURtp+hwv6MKMGd2XC0N0HuhKl/gC3yS6TxmSdxJ2ACNjfLRXyiSn/ixuJkmy1dUGyl1bcmQikDfIPC+E/g==";
+        };
     in {
         "M82NAq0p" = _M82NAq0p;
         "XrUj5hhd" = _XrUj5hhd;
         "jCSVP8c2" = _jCSVP8c2;
         "oksjFxmh" = _oksjFxmh;
         "ZdLeTdRD" = _ZdLeTdRD;
-        "forge-1.20.1" = _ZdLeTdRD;
+        "u1LyvLXN" = _u1LyvLXN;
+        "forge-1.20.1" = _u1LyvLXN;
         "pkg-1.0.0" = _M82NAq0p;
         "pkg-1.0.1" = _XrUj5hhd;
         "pkg-1.1.0" = _jCSVP8c2;
         "pkg-1.1.1" = _oksjFxmh;
         "pkg-1.1.2" = _ZdLeTdRD;
-        "default" = _ZdLeTdRD;
+        "pkg-1.2.0" = _u1LyvLXN;
+        "default" = _u1LyvLXN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-edgerunner";

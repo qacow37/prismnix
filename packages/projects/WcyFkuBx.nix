@@ -81,6 +81,21 @@ let
             "file" = "doritosandprime-1.1.5.jar";
             "hash" = "sha512-UZaaNzrk7BVFROsONQOt9nL/AiPHmMHT/4jnHqULoE9AhlAx4DvD8A9q8IppBnFe2i+RKliIYo3a6/RZs9+UKw==";
         };
+        _EiIjgmgq = {
+            "id" = "EiIjgmgq";
+            "file" = "doritosandprime-1.1.6.jar";
+            "hash" = "sha512-5jp3fRH382wtldgPwykLluBdxnJD22Kx7qOOtCC7Co3qpoIC22bdyTnwVM8NTMrmiUJHi05PE2l8X9bLgo/L+w==";
+        };
+        _6be0eDA5 = {
+            "id" = "6be0eDA5";
+            "file" = "doritosandprime-1.1.7.jar";
+            "hash" = "sha512-a6WadhwzthM0AhhdpCrTse3+Wzrje7z++j6VtvZYeHt0lFMLvSKH742XJ1vA8p3JejjTY2k8+CV2TmwifiL0QA==";
+        };
+        _a9Bf2rFS = {
+            "id" = "a9Bf2rFS";
+            "file" = "doritosandprime-1.1.8.jar";
+            "hash" = "sha512-KJ+h/tSbs/Gx034Ii78gqfXjah6MWerTR6RMoqHcTrFD7MDuvWgDifJXwR9FitpgVKDyd5JUTJE+UNY3li4AYA==";
+        };
     in {
         "OFXKyjT9" = _OFXKyjT9;
         "v6cA46hY" = _v6cA46hY;
@@ -98,6 +113,9 @@ let
         "QAYUfz8V" = _QAYUfz8V;
         "661QrGCn" = _661QrGCn;
         "RupOtvV2" = _RupOtvV2;
+        "EiIjgmgq" = _EiIjgmgq;
+        "6be0eDA5" = _6be0eDA5;
+        "a9Bf2rFS" = _a9Bf2rFS;
         "fabric-1.21.1" = _DJBDgyHw;
         "fabric-1.21.2" = _3JOEVE1B;
         "fabric-1.21.3" = _48k4qecb;
@@ -109,6 +127,11 @@ let
         "fabric-1.21.9" = _RupOtvV2;
         "fabric-1.21.10" = _RupOtvV2;
         "fabric-1.21.11" = _RupOtvV2;
+        "fabric-26.1.2" = _EiIjgmgq;
+        "fabric-26.1.1" = _EiIjgmgq;
+        "fabric-26.1" = _EiIjgmgq;
+        "fabric-26.2" = _6be0eDA5;
+        "fabric-26.3" = _a9Bf2rFS;
         "pkg-1.0.0" = _OFXKyjT9;
         "pkg-1.0.1" = _v6cA46hY;
         "pkg-1.0.2" = _mGgZDpfn;
@@ -125,7 +148,10 @@ let
         "pkg-1.1.3" = _QAYUfz8V;
         "pkg-1.1.4" = _661QrGCn;
         "pkg-1.1.5" = _RupOtvV2;
-        "default" = _RupOtvV2;
+        "pkg-1.1.6" = _EiIjgmgq;
+        "pkg-1.1.7" = _6be0eDA5;
+        "pkg-1.1.8" = _a9Bf2rFS;
+        "default" = _a9Bf2rFS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "memefoods";

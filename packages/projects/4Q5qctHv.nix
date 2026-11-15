@@ -176,6 +176,16 @@ let
             "file" = "reanimal-neoforge-0.6.12+26.3.jar";
             "hash" = "sha512-pwQhW4vSd/h42fnFh9oGpiKHwNBMoOXQY8jZC2OyST/J2EepBpKU4dDH21yJDKeLFkeh7SS7VNjumrM6RLqVBw==";
         };
+        _kSKv674j = {
+            "id" = "kSKv674j";
+            "file" = "reanimal-fabric-0.6.13+26.3.jar";
+            "hash" = "sha512-CY1z5Cv2Jqy2ctMRJpS9eA6uTz7WDC7RWwKCqhvc0340EutvmToNBW+d3TNVlUaucw/fs/QuUzmNBbFXFPDyuw==";
+        };
+        _5NiC5Z40 = {
+            "id" = "5NiC5Z40";
+            "file" = "reanimal-neoforge-0.6.13+26.3.jar";
+            "hash" = "sha512-xRsK3Sqom7o10FzaSi8/U3vzfVbqkkZdJIoXwmh/tlcvH9SuIunJNS9e+ouEr42yzLQBtMeDZTY+R83y++2EtA==";
+        };
     in {
         "dKygY4fF" = _dKygY4fF;
         "5M9w4zgt" = _5M9w4zgt;
@@ -212,9 +222,11 @@ let
         "oVwrvZEO" = _oVwrvZEO;
         "dcNJpLZ7" = _dcNJpLZ7;
         "vvvlx4nS" = _vvvlx4nS;
+        "kSKv674j" = _kSKv674j;
+        "5NiC5Z40" = _5NiC5Z40;
         "neoforge-1.21.1" = _yOEHRyHw;
-        "neoforge-26.3" = _vvvlx4nS;
-        "fabric-26.3" = _dcNJpLZ7;
+        "neoforge-26.3" = _5NiC5Z40;
+        "fabric-26.3" = _kSKv674j;
         "pkg-0.2" = _dKygY4fF;
         "pkg-0.2.1" = _5M9w4zgt;
         "pkg-0.2.2" = _d6KmbWDe;
@@ -237,7 +249,8 @@ let
         "pkg-0.6.10+26.3" = _ncln6t4P;
         "pkg-0.6.11+26.3" = _oVwrvZEO;
         "pkg-0.6.12+26.3" = _vvvlx4nS;
-        "default" = _vvvlx4nS;
+        "pkg-0.6.13+26.3" = _5NiC5Z40;
+        "default" = _5NiC5Z40;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-animal";

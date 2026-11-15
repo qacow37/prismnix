@@ -91,6 +91,11 @@ let
             "file" = "SpongeSucc (Lava Sponge)-3.1.2-1.26.3.jar";
             "hash" = "sha512-ixUsVkZgtkiozTGvDbX5Xs7yfhe0PEno4t9mGDnIrlXNNR8fIq95n//G4Ho3xi2LQO+bzEuVvDq/P+noCiBsgw==";
         };
+        _svH4urKp = {
+            "id" = "svH4urKp";
+            "file" = "SpongeSucc (Lava Sponge)-3.2.0-1.26.3.jar";
+            "hash" = "sha512-k0HckkA8vV3GGWsOp86bFJvy+c70+8gu6glYXRBlTBI4KmvaUIVwgEKuv1665a9h4KhzXlU0fUBWLAss6U+6wQ==";
+        };
     in {
         "Mm7ilojY" = _Mm7ilojY;
         "q3ZNoVSd" = _q3ZNoVSd;
@@ -110,6 +115,7 @@ let
         "v4VwXQGd" = _v4VwXQGd;
         "uvgI91HY" = _uvgI91HY;
         "9UW1muPQ" = _9UW1muPQ;
+        "svH4urKp" = _svH4urKp;
         "fabric-1.19.2" = _Mm7ilojY;
         "fabric-1.19.3" = _q3ZNoVSd;
         "fabric-1.19.4" = _mwK1aoyR;
@@ -136,7 +142,7 @@ let
         "fabric-26.1.1" = _8VWUKdaz;
         "fabric-26.1.2" = _8VWUKdaz;
         "fabric-26.2" = _uvgI91HY;
-        "fabric-26.3" = _9UW1muPQ;
+        "fabric-26.3" = _svH4urKp;
         "pkg-1.0.0" = _q3ZNoVSd;
         "pkg-1.0.1" = _mwK1aoyR;
         "pkg-1.0.2-1.20" = _YBmxA5yQ;
@@ -154,7 +160,8 @@ let
         "pkg-3.1.0-1.26.2" = _v4VwXQGd;
         "pkg-3.1.1-1.26.2" = _uvgI91HY;
         "pkg-3.1.2-1.26.3" = _9UW1muPQ;
-        "default" = _9UW1muPQ;
+        "pkg-3.2.0-1.26.3" = _svH4urKp;
+        "default" = _svH4urKp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spongesucc";

@@ -211,6 +211,21 @@ let
             "file" = "Slice-neoforge-26.1.2-1.1.0.jar";
             "hash" = "sha512-IldsdlFw1s3r7psLPPBl6NaPy40HacbOSTnyJA6uWfl2TWTxXTe4VXwUYeqyPIiUS96NdNJQOaPXSzuOMsaBpg==";
         };
+        _StfjxztD = {
+            "id" = "StfjxztD";
+            "file" = "Slice-forge-26.2-1.1.0.jar";
+            "hash" = "sha512-fcR31QkqK4AZu9RAxaSjv2EAO4hCr77iBVrMBK3p91zQ7h6dIAAZGCsiwJP2lkwa8j8aI3hd7iPr64dV+WucFw==";
+        };
+        _WTLa92B2 = {
+            "id" = "WTLa92B2";
+            "file" = "Slice-fabric&quilt-26.2-1.1.0.jar";
+            "hash" = "sha512-IzWtv+fv5lE/hC6Z8oTSzyPGkDdJYx0Ac3HZpyATIwRas76FoXblvXF1FFgyBVriSOVfGncIyJk9hgOowbM02A==";
+        };
+        _tc53AO8w = {
+            "id" = "tc53AO8w";
+            "file" = "Slice-neoforge-26.2-1.1.0.jar";
+            "hash" = "sha512-euqMa5oiimW3Pi6nfkUyo10PzsNA4WqIS5Sb5IMah01ED3fnnhJN5cXbNMGc4xCM7mPh4j7ZaemFbcjasoTTJw==";
+        };
     in {
         "izoaCAL6" = _izoaCAL6;
         "iwPwXFgx" = _iwPwXFgx;
@@ -254,6 +269,9 @@ let
         "PNnO8fWl" = _PNnO8fWl;
         "884SEvkz" = _884SEvkz;
         "CbaO5Gej" = _CbaO5Gej;
+        "StfjxztD" = _StfjxztD;
+        "WTLa92B2" = _WTLa92B2;
+        "tc53AO8w" = _tc53AO8w;
         "neoforge-1.21.9" = _dAIhpKxL;
         "neoforge-1.21.10" = _DUfNAnui;
         "neoforge-1.21.11" = _nfkeRbut;
@@ -261,6 +279,7 @@ let
         "neoforge-26.1" = _XZmW9vwv;
         "neoforge-26.1.1" = _AyHwmaRD;
         "neoforge-26.1.2" = _CbaO5Gej;
+        "neoforge-26.2" = _tc53AO8w;
         "fabric-1.21.9" = _8ZrcqLRH;
         "fabric-1.21.11" = _oqw0UGw1;
         "fabric-1.21.10" = _p32rgr9s;
@@ -268,6 +287,7 @@ let
         "fabric-1.21.1" = _zXtiiyvj;
         "fabric-26.1.1" = _8h4msgAD;
         "fabric-26.1.2" = _884SEvkz;
+        "fabric-26.2" = _WTLa92B2;
         "quilt-1.21.9" = _8ZrcqLRH;
         "quilt-1.21.11" = _oqw0UGw1;
         "quilt-1.21.10" = _p32rgr9s;
@@ -279,6 +299,7 @@ let
         "forge-1.21.1" = _YICgkiDy;
         "forge-26.1.1" = _vx0zyHuY;
         "forge-26.1.2" = _PNnO8fWl;
+        "forge-26.2" = _StfjxztD;
         "pkg-0.0.1" = _izoaCAL6;
         "pkg-0.0.2" = _iwPwXFgx;
         "pkg-0.0.3" = _6LUEbNWY;
@@ -289,8 +310,8 @@ let
         "pkg-1.0.0" = _zXtiiyvj;
         "pkg-1.0.1" = _XZmW9vwv;
         "pkg-1.0.2" = _UiQu1gwp;
-        "pkg-1.1.0" = _CbaO5Gej;
-        "default" = _CbaO5Gej;
+        "pkg-1.1.0" = _tc53AO8w;
+        "default" = _tc53AO8w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slice";

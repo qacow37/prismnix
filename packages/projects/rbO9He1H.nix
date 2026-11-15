@@ -26,18 +26,31 @@ let
             "file" = "[拔刀剑：更多电力工具]MoreElectricTools_Blade-1.20.1-1.2.0.jar";
             "hash" = "sha512-+bdrnL7fWRb14AZ2L/wAfPzEVQOGVTAVaeQxCV/gZEGNQXIHUIwnpWDz1DA1XHVY5Xjc9pu75Wur1bCaDa/Hvg==";
         };
+        _lLdqNQyh = {
+            "id" = "lLdqNQyh";
+            "file" = "[拔刀剑：更多电力工具]MoreElectricTools_Blade-1.20.1-1.3.0.jar";
+            "hash" = "sha512-dlZagfmqteDJK9xbRs4lDb4zaVW8s+MOPGmQKda9zg8vWohXE3wS12daHV23YrkjmRI3yG/QgUM6+jJv2fSKkA==";
+        };
+        _t6TENdns = {
+            "id" = "t6TENdns";
+            "file" = "[拔刀剑：更多电力工具]MoreElectricTools_Blade-1.21.1-1.2.0.jar";
+            "hash" = "sha512-VqCW0Lrr22x3QFF2FTyKp+WaG6QxQ3xCp0bw195GiJU0rZ6eAV+cyM29Jw0KJSDZEIBq9JDiNLR/ABsgZnNypA==";
+        };
     in {
         "IisrT1RO" = _IisrT1RO;
         "20OLTwe2" = _20OLTwe2;
         "aZWyR4gk" = _aZWyR4gk;
         "krON0Ckn" = _krON0Ckn;
         "zs7vaSPM" = _zs7vaSPM;
-        "forge-1.20.1" = _zs7vaSPM;
-        "neoforge-1.21.1" = _krON0Ckn;
+        "lLdqNQyh" = _lLdqNQyh;
+        "t6TENdns" = _t6TENdns;
+        "forge-1.20.1" = _lLdqNQyh;
+        "neoforge-1.21.1" = _t6TENdns;
         "pkg-1.0.0" = _aZWyR4gk;
         "pkg-1.1.0" = _krON0Ckn;
-        "pkg-1.2.0" = _zs7vaSPM;
-        "default" = _zs7vaSPM;
+        "pkg-1.2.0" = _t6TENdns;
+        "pkg-1.3.0" = _lLdqNQyh;
+        "default" = _t6TENdns;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mets_blade";

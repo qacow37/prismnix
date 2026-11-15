@@ -156,6 +156,16 @@ let
             "file" = "zps-1.21.1-2.6.4.jar";
             "hash" = "sha512-cxvl4elfL0xC9NzGurxvY6Xje7LW4YZY8IiYNbcZpzfEECb/hUx36vfaCOGzJGEGhmOmmswmPxeVkQ4JKn/VdA==";
         };
+        _5GdUc4qX = {
+            "id" = "5GdUc4qX";
+            "file" = "zps-1.20.1-2.7.0.jar";
+            "hash" = "sha512-Z44ARewCFKNCBwebszGgncqMa4yG52aFkjW4npkFxufkN8/hr1yx1nrchBsMuD+35D9tGb4pT2R5UiSczWm+uA==";
+        };
+        _RC53LX1m = {
+            "id" = "RC53LX1m";
+            "file" = "zps-1.21.1-2.7.0.jar";
+            "hash" = "sha512-L1tY1gVZIlWNJHTJ/mtmdgusT+czA6yAsU4bn3NlCcpvNZisJ18MJ8+scRkMTLUZHx7NodI2FqxHttgJshtc6A==";
+        };
     in {
         "rdhL2nml" = _rdhL2nml;
         "6W49NXj6" = _6W49NXj6;
@@ -188,8 +198,10 @@ let
         "C3geJTHd" = _C3geJTHd;
         "14Zjukj3" = _14Zjukj3;
         "myaXWuwR" = _myaXWuwR;
-        "forge-1.20.1" = _14Zjukj3;
-        "neoforge-1.21.1" = _myaXWuwR;
+        "5GdUc4qX" = _5GdUc4qX;
+        "RC53LX1m" = _RC53LX1m;
+        "forge-1.20.1" = _5GdUc4qX;
+        "neoforge-1.21.1" = _RC53LX1m;
         "pkg-1.20.1-1.0.2" = _rdhL2nml;
         "pkg-1.21.1-1.0.2" = _6W49NXj6;
         "pkg-1.20.1-1.0.3" = _AyUauyAp;
@@ -221,7 +233,9 @@ let
         "pkg-1.21.1-2.6.3" = _C3geJTHd;
         "pkg-1.20.1-2.6.4" = _14Zjukj3;
         "pkg-1.21.1-2.6.4" = _myaXWuwR;
-        "default" = _myaXWuwR;
+        "pkg-1.20.1-2.7.0" = _5GdUc4qX;
+        "pkg-1.21.1-2.7.0" = _RC53LX1m;
+        "default" = _RC53LX1m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zps";

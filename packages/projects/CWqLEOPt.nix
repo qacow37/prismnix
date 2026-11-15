@@ -696,6 +696,41 @@ let
             "file" = "flightassistant-fabric-3.0.1+mc1.21.6.jar";
             "hash" = "sha512-oN0rA6tktJ6sISfzbm9dsY6jacjj5dlpmvx7ZYZDOeu3GBTBzCfrT/jGDGFDw6qZemlIKO60hjYv+T1dOvilEw==";
         };
+        _PHLZt1r0 = {
+            "id" = "PHLZt1r0";
+            "file" = "flightassistant-neoforge-3.1.0-alpha.1+mc1.21.1.jar";
+            "hash" = "sha512-a5jMqjApZCqWqN5zVAclvb+cvRinds+HPR/JfUJ04ugfha/t4navyxngm2oDSQop1akUTtTl/x3CTMJ+g+UJbQ==";
+        };
+        _FSbugc4A = {
+            "id" = "FSbugc4A";
+            "file" = "flightassistant-fabric-3.1.0-alpha.1+mc1.21.6.jar";
+            "hash" = "sha512-28S54LbTA0/Se3uEdVMySsJ479fRtDxWwEiEO8ELCf3Fl8Pg8IhhkRREe1liX7FQXIEPC2cQ1hkuzyX2FygO1w==";
+        };
+        _D3dopxCU = {
+            "id" = "D3dopxCU";
+            "file" = "flightassistant-fabric-3.1.0-alpha.1+mc1.21.1.jar";
+            "hash" = "sha512-EPSuWByOvAn+dDJ89zdxT73wIZW4pdoOuKGPypLN3E1XKQ4vicPv/V5OimeUTVNI4ohEQoPeHDsJ60LWlp4cOg==";
+        };
+        _aGzDzy9y = {
+            "id" = "aGzDzy9y";
+            "file" = "flightassistant-fabric-3.1.0-alpha.1+mc1.20.1.jar";
+            "hash" = "sha512-4Fq6V1FfEoIl+1R92Fh5iOWrEByNJ+l6UWErHmybI45iMUMb6vmS06OAFS1pZ8vDZiLQeEtgyaLwW1dfN5CKuA==";
+        };
+        _HCtR9Tdo = {
+            "id" = "HCtR9Tdo";
+            "file" = "flightassistant-fabric-3.1.0-alpha.1+mc1.21.9.jar";
+            "hash" = "sha512-A/EbG8bhxs8ENEoZKacbg2qHObT1BHEnMKn7hqa60yz3ZmCcjNjHM9hDAiDljMnU6Za1E/E72A/gtWjf3v5FAg==";
+        };
+        _JNS9rmCU = {
+            "id" = "JNS9rmCU";
+            "file" = "flightassistant-fabric-3.1.0-alpha.1+mc1.21.11.jar";
+            "hash" = "sha512-QYRfaYsmHRc0bO6zLXDZJCeLertgQlseZUBCE4r0ihgfOlL/OEcZP3XH20ryt/89SN/pPTyv+Ig28UWUHESAtg==";
+        };
+        _1YXq1HgV = {
+            "id" = "1YXq1HgV";
+            "file" = "flightassistant-forge-3.1.0-alpha.1+mc1.20.1.jar";
+            "hash" = "sha512-PmJcrYVPfZIf6VccInI2h57jeyMYAqGrHeH006FmkewSPEU3wpEZtleKRJc5N+DNj9yfTi0cdDUvaItC3yOjzg==";
+        };
     in {
         "tzml7iT8" = _tzml7iT8;
         "iuPfz7hA" = _iuPfz7hA;
@@ -836,8 +871,15 @@ let
         "THfiVv8l" = _THfiVv8l;
         "qAGpD7AK" = _qAGpD7AK;
         "lvaCjUbC" = _lvaCjUbC;
-        "fabric-1.20" = _CFjsLwCy;
-        "fabric-1.20.1" = _CFjsLwCy;
+        "PHLZt1r0" = _PHLZt1r0;
+        "FSbugc4A" = _FSbugc4A;
+        "D3dopxCU" = _D3dopxCU;
+        "aGzDzy9y" = _aGzDzy9y;
+        "HCtR9Tdo" = _HCtR9Tdo;
+        "JNS9rmCU" = _JNS9rmCU;
+        "1YXq1HgV" = _1YXq1HgV;
+        "fabric-1.20" = _aGzDzy9y;
+        "fabric-1.20.1" = _aGzDzy9y;
         "fabric-1.20.2" = _hdw80hcf;
         "fabric-1.20.3" = _hdw80hcf;
         "fabric-1.20.4" = _hdw80hcf;
@@ -845,20 +887,20 @@ let
         "fabric-1.19.4" = _cWzvgYJM;
         "fabric-1.20.5" = _Gp3aUW9x;
         "fabric-1.20.6" = _Gp3aUW9x;
-        "fabric-1.21" = _el1y5aSO;
-        "fabric-1.21.1" = _el1y5aSO;
+        "fabric-1.21" = _D3dopxCU;
+        "fabric-1.21.1" = _D3dopxCU;
         "fabric-1.21.2" = _VWAQ3RMd;
         "fabric-1.21.3" = _VWAQ3RMd;
         "fabric-1.21.4" = _YQgM7PPI;
         "fabric-1.21.5" = _lztPM5bW;
-        "fabric-1.21.6" = _lvaCjUbC;
-        "fabric-1.21.7" = _lvaCjUbC;
-        "fabric-1.21.8" = _lvaCjUbC;
-        "fabric-1.21.9" = _qAGpD7AK;
-        "fabric-1.21.10" = _qAGpD7AK;
-        "fabric-1.21.11" = _THfiVv8l;
-        "quilt-1.20" = _CFjsLwCy;
-        "quilt-1.20.1" = _CFjsLwCy;
+        "fabric-1.21.6" = _FSbugc4A;
+        "fabric-1.21.7" = _FSbugc4A;
+        "fabric-1.21.8" = _FSbugc4A;
+        "fabric-1.21.9" = _HCtR9Tdo;
+        "fabric-1.21.10" = _HCtR9Tdo;
+        "fabric-1.21.11" = _JNS9rmCU;
+        "quilt-1.20" = _aGzDzy9y;
+        "quilt-1.20.1" = _aGzDzy9y;
         "quilt-1.20.2" = _hdw80hcf;
         "quilt-1.20.3" = _hdw80hcf;
         "quilt-1.20.4" = _hdw80hcf;
@@ -866,23 +908,23 @@ let
         "quilt-1.19.4" = _cWzvgYJM;
         "quilt-1.20.5" = _Gp3aUW9x;
         "quilt-1.20.6" = _Gp3aUW9x;
-        "quilt-1.21" = _el1y5aSO;
-        "quilt-1.21.1" = _el1y5aSO;
+        "quilt-1.21" = _D3dopxCU;
+        "quilt-1.21.1" = _D3dopxCU;
         "quilt-1.21.2" = _VWAQ3RMd;
         "quilt-1.21.3" = _VWAQ3RMd;
         "quilt-1.21.4" = _YQgM7PPI;
         "quilt-1.21.5" = _lztPM5bW;
-        "quilt-1.21.6" = _lvaCjUbC;
-        "quilt-1.21.7" = _lvaCjUbC;
-        "quilt-1.21.8" = _lvaCjUbC;
-        "quilt-1.21.9" = _qAGpD7AK;
-        "quilt-1.21.10" = _qAGpD7AK;
-        "quilt-1.21.11" = _THfiVv8l;
-        "neoforge-1.21" = _4BrkHe7j;
-        "neoforge-1.21.1" = _4BrkHe7j;
+        "quilt-1.21.6" = _FSbugc4A;
+        "quilt-1.21.7" = _FSbugc4A;
+        "quilt-1.21.8" = _FSbugc4A;
+        "quilt-1.21.9" = _HCtR9Tdo;
+        "quilt-1.21.10" = _HCtR9Tdo;
+        "quilt-1.21.11" = _JNS9rmCU;
+        "neoforge-1.21" = _PHLZt1r0;
+        "neoforge-1.21.1" = _PHLZt1r0;
         "neoforge-1.21.4" = _87UuhAbC;
-        "forge-1.20" = _KmhOlVGR;
-        "forge-1.20.1" = _KmhOlVGR;
+        "forge-1.20" = _1YXq1HgV;
+        "forge-1.20.1" = _1YXq1HgV;
         "forge-1.20.2" = _F1D2mnzH;
         "forge-1.20.3" = _F1D2mnzH;
         "forge-1.20.4" = _F1D2mnzH;
@@ -1021,7 +1063,14 @@ let
         "pkg-3.0.1+mc1.21.11-fabric" = _THfiVv8l;
         "pkg-3.0.1+mc1.21.9-fabric" = _qAGpD7AK;
         "pkg-3.0.1+mc1.21.6-fabric" = _lvaCjUbC;
-        "default" = _lvaCjUbC;
+        "pkg-3.1.0-alpha.1+mc1.21.1-neoforge" = _PHLZt1r0;
+        "pkg-3.1.0-alpha.1+mc1.21.6-fabric" = _FSbugc4A;
+        "pkg-3.1.0-alpha.1+mc1.21.1-fabric" = _D3dopxCU;
+        "pkg-3.1.0-alpha.1+mc1.20.1-fabric" = _aGzDzy9y;
+        "pkg-3.1.0-alpha.1+mc1.21.9-fabric" = _HCtR9Tdo;
+        "pkg-3.1.0-alpha.1+mc1.21.11-fabric" = _JNS9rmCU;
+        "pkg-3.1.0-alpha.1+mc1.20.1-forge" = _1YXq1HgV;
+        "default" = _1YXq1HgV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flightassistant";

@@ -621,6 +621,26 @@ let
             "file" = "builds_n_barrens-23.25-neoforge-26.1.2.jar";
             "hash" = "sha512-UDonIhxN79PBjH7xmXhXQ1RGdEj6I+veiXqrhw0SI1E09L9aMiZvtjiR6gKXgGAGAw58+4As69HRTP4SSzoObA==";
         };
+        _w6U68Is1 = {
+            "id" = "w6U68Is1";
+            "file" = "builds_n_barrens-23.26-neoforge-26.1.2.jar";
+            "hash" = "sha512-79SA6NbuL8U3qW79wm6LJD8xOF0VtCLDja3iS0z4M8iJI7yAFm+vTtgjPuWYTCwmGRUX1MJlYPS5xKXdFeQugg==";
+        };
+        _at938th9 = {
+            "id" = "at938th9";
+            "file" = "builds_n_barrens-23.27-neoforge-26.1.2.jar";
+            "hash" = "sha512-RwgRWbt1j+72bUPCHuY32T5bbgg5mI9Viz/36wsOBIqigTGaSz4zkEWZbm2XjY5fdcr3GolBWmQwmW97n2v6nw==";
+        };
+        _8pFVVEN4 = {
+            "id" = "8pFVVEN4";
+            "file" = "builds_n_barrens-23.28-neoforge-26.1.2.jar";
+            "hash" = "sha512-9Uqbss/qfFmyCbBpCcWqGWlDRJlubhstvWZa6dIe2aJx5D5Y7Gb9KC3A6+Htwec4O1jyxnZpHqWDvMxZ/3NNbg==";
+        };
+        _YbWHa24n = {
+            "id" = "YbWHa24n";
+            "file" = "builds_n_barrens-23.29-neoforge-26.1.2.jar";
+            "hash" = "sha512-jQItOAZ/ghI9vWmsfe5Y7QaGK1gGzkc4R5YelS2n0A6pI+G+zM/eFbMWG4/xJZoayzXsKkDToCXVxyLq5Hemog==";
+        };
     in {
         "o5Kn0bRg" = _o5Kn0bRg;
         "ya68VEcS" = _ya68VEcS;
@@ -746,9 +766,13 @@ let
         "ijmEd3sn" = _ijmEd3sn;
         "wMySg8wF" = _wMySg8wF;
         "5VI6Y1rO" = _5VI6Y1rO;
+        "w6U68Is1" = _w6U68Is1;
+        "at938th9" = _at938th9;
+        "8pFVVEN4" = _8pFVVEN4;
+        "YbWHa24n" = _YbWHa24n;
         "neoforge-1.21.8" = _jsk5Dknf;
         "neoforge-1.21.1" = _xTUYM66l;
-        "neoforge-26.1.2" = _5VI6Y1rO;
+        "neoforge-26.1.2" = _YbWHa24n;
         "pkg-1.b" = _o5Kn0bRg;
         "pkg-1.1.b" = _ya68VEcS;
         "pkg-1.2.b" = _k26xZF7D;
@@ -873,7 +897,11 @@ let
         "pkg-23.23" = _ijmEd3sn;
         "pkg-23.24" = _wMySg8wF;
         "pkg-23.25" = _5VI6Y1rO;
-        "default" = _5VI6Y1rO;
+        "pkg-23.26" = _w6U68Is1;
+        "pkg-23.27" = _at938th9;
+        "pkg-23.28" = _8pFVVEN4;
+        "pkg-23.29" = _YbWHa24n;
+        "default" = _YbWHa24n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildsnbarrens";

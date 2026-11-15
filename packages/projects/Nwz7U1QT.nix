@@ -461,6 +461,21 @@ let
             "file" = "ForceCraft-26.1.2-7.0.3.jar";
             "hash" = "sha512-sI3rcYSpid3d1r9B3V4Mr2RpyALdN6oDI6VKCkjdO5lCgS0LewHrNKw5yurYHmeTUuBqGQACsYatJZGcWId4FA==";
         };
+        _SohTrd8o = {
+            "id" = "SohTrd8o";
+            "file" = "ForceCraft-26.1.2-7.0.4.jar";
+            "hash" = "sha512-+7IpQAP8aN+8WhNA/3MyXgDhjYfOrxENDc98ZIxFCdkFESlnDgQ9YDV8I8//o9gGMFRpi5g7yh03TxDiwS2HUw==";
+        };
+        _eGiumzN1 = {
+            "id" = "eGiumzN1";
+            "file" = "ForceCraft-26.1.2-7.0.5.jar";
+            "hash" = "sha512-+ycVUBZsMoo/EnBAQF9Nh5NXzsP2d3d0h5tB+yXslDfRDhQkfj7NR0tZYLz+tERu3AqiZBgjZmvT4v92wGg7KA==";
+        };
+        _oSuIryoT = {
+            "id" = "oSuIryoT";
+            "file" = "ForceCraft-26.1.2-7.0.6.jar";
+            "hash" = "sha512-ZNQ16htWJQL8ZzPLCRfbp/uwpeyvi6/93XCI/Hkxvw+atBZk0JQGxdzVQQAhENLCCmm+hDiT3GTfq6Yau3q4FA==";
+        };
     in {
         "lCPw4gpe" = _lCPw4gpe;
         "OgKrbWBJ" = _OgKrbWBJ;
@@ -554,6 +569,9 @@ let
         "yS0jvN7k" = _yS0jvN7k;
         "cKcXRHzq" = _cKcXRHzq;
         "7xytzZAy" = _7xytzZAy;
+        "SohTrd8o" = _SohTrd8o;
+        "eGiumzN1" = _eGiumzN1;
+        "oSuIryoT" = _oSuIryoT;
         "forge-1.16.5" = _7pfQIMtA;
         "forge-1.18.1" = _OgKrbWBJ;
         "forge-1.18.2" = _jmZvatVf;
@@ -566,7 +584,7 @@ let
         "neoforge-1.20.1" = _C2RFaAC9;
         "neoforge-1.20.4" = _LTvXlApO;
         "neoforge-1.21.1" = _roWfi5Si;
-        "neoforge-26.1.2" = _7xytzZAy;
+        "neoforge-26.1.2" = _oSuIryoT;
         "pkg-1.0.8.4" = _lCPw4gpe;
         "pkg-2.1.2" = _OgKrbWBJ;
         "pkg-2.2.0" = _behK4YhZ;
@@ -656,7 +674,10 @@ let
         "pkg-7.0.1" = _yS0jvN7k;
         "pkg-7.0.2" = _cKcXRHzq;
         "pkg-7.0.3" = _7xytzZAy;
-        "default" = _7xytzZAy;
+        "pkg-7.0.4" = _SohTrd8o;
+        "pkg-7.0.5" = _eGiumzN1;
+        "pkg-7.0.6" = _oSuIryoT;
+        "default" = _oSuIryoT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forcecraft";

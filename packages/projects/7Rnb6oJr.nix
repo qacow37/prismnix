@@ -2291,6 +2291,11 @@ let
             "file" = "music_hud-neoforge-1.3.1.1+1.21.11.jar";
             "hash" = "sha512-d1Lx+uQtBBKJaKwVV9tmXTt3eMGTc40N+IeZ8lwqrplX7ALfBPZBb/NYKdy6K7SQaag2BQV/jiYEVpY2DhBp4w==";
         };
+        _hwwxhisF = {
+            "id" = "hwwxhisF";
+            "file" = "music_hud-neoforge-1.3.1.1+26.3.jar";
+            "hash" = "sha512-sUj6GvNQPJqnbIcD+EWBxpEM2L/GupL+fxn7mXT6KQc4Sx1LUFBO8XxZjd3nUZ95ExEwXecRE7t4ZoxDMtrGLA==";
+        };
     in {
         "3p2JJxxr" = _3p2JJxxr;
         "QM7a45UD" = _QM7a45UD;
@@ -2750,6 +2755,7 @@ let
         "X2nLIWbs" = _X2nLIWbs;
         "JBkeXnbh" = _JBkeXnbh;
         "bSPeurUR" = _bSPeurUR;
+        "hwwxhisF" = _hwwxhisF;
         "fabric-1.21.8" = _RZ2MkSgb;
         "fabric-1.21.6" = _RZ2MkSgb;
         "fabric-1.21.7" = _RZ2MkSgb;
@@ -2773,7 +2779,7 @@ let
         "neoforge-26.1.1" = _mf9vMcbs;
         "neoforge-26.1.2" = _mf9vMcbs;
         "neoforge-26.2" = _EA4Pp4KE;
-        "neoforge-26.3" = _AcTCSMIh;
+        "neoforge-26.3" = _hwwxhisF;
         "bukkit-1.21.6" = _ZHpDN9nQ;
         "bukkit-1.21.7" = _ZHpDN9nQ;
         "bukkit-1.21.8" = _ZHpDN9nQ;
@@ -3041,7 +3047,8 @@ let
         "pkg-1.3.1" = _8lZWCdRj;
         "pkg-1.3.1.1+1.21.9-10" = _X2nLIWbs;
         "pkg-1.3.1.1+1.21.11" = _bSPeurUR;
-        "default" = _bSPeurUR;
+        "pkg-1.3.1.1+26.3" = _hwwxhisF;
+        "default" = _hwwxhisF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-hud";

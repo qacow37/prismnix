@@ -171,6 +171,16 @@ let
             "file" = "tacz-1.19.2-1.1.4-hotfix2.jar";
             "hash" = "sha512-odxd5zLPIoQRPk05ZMO2jz9ZOcDLX8/7mTk15CFrelEKX5HHpmcwdX/4KtvovmI/DaE2vzra8zBkWSD2j6T3Dw==";
         };
+        _4yAbMXbz = {
+            "id" = "4yAbMXbz";
+            "file" = "tacz-forge-1.20.1-1.2.0-hotfix.jar";
+            "hash" = "sha512-KTcI4BzJl4NParGuYrHmfBGuy9g01f2B8IpkfcVQ9dvkYM5cGoW2h4HXM9Fs40IpllFPzzrNci589z6cq7gZNw==";
+        };
+        _tJiZL0He = {
+            "id" = "tJiZL0He";
+            "file" = "tacz-neoforge-1.21.1-1.2.0-hotfix.jar";
+            "hash" = "sha512-zRTBonERZDU8QA5iBFnKgvP4kOZBeJ55+jcQ7qcnlzs2oJ7HMwZS/VLPkmZMe9hn499J+ts5DaBS3wwTa2WDSQ==";
+        };
     in {
         "ziN9m4CV" = _ziN9m4CV;
         "E6fkRpvN" = _E6fkRpvN;
@@ -206,13 +216,15 @@ let
         "O2Pfsh6w" = _O2Pfsh6w;
         "YRMiwS2O" = _YRMiwS2O;
         "OwAKV8JE" = _OwAKV8JE;
+        "4yAbMXbz" = _4yAbMXbz;
+        "tJiZL0He" = _tJiZL0He;
         "forge-1.20" = _CkNQpQcx;
-        "forge-1.20.1" = _QGCbNkTy;
+        "forge-1.20.1" = _4yAbMXbz;
         "forge-1.18.2" = _YRMiwS2O;
         "forge-1.19" = _OwAKV8JE;
         "forge-1.19.1" = _OwAKV8JE;
         "forge-1.19.2" = _OwAKV8JE;
-        "neoforge-1.21.1" = _O2Pfsh6w;
+        "neoforge-1.21.1" = _tJiZL0He;
         "pkg-1.0.0" = _tdWBVZHq;
         "pkg-1.0.0-hotfix" = _E6fkRpvN;
         "pkg-1.0.0-hotfix2" = _Y4cF2dUR;
@@ -235,7 +247,8 @@ let
         "pkg-1.1.8-hotfix2" = _AzCBJlex;
         "pkg-1.2.0" = _O2Pfsh6w;
         "pkg-1.1.4-hotfix2" = _OwAKV8JE;
-        "default" = _OwAKV8JE;
+        "pkg-1.2.0-hotfix" = _tJiZL0He;
+        "default" = _tJiZL0He;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timeless-and-classics-zero";

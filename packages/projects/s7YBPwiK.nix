@@ -61,6 +61,11 @@ let
             "file" = "toolsarmorandshields-1.0.4-26.3.jar";
             "hash" = "sha512-ymomSluZLlmXOAFmMwZXPNW7DBWNWoU8hWpz9NIfNOCe9CK7Hlt87uJU4RuEcAPzP1yFqXbcqwMYO4Ypf30OHA==";
         };
+        _hdQpZmzK = {
+            "id" = "hdQpZmzK";
+            "file" = "toolsarmorandshields-1.0.5-26.3.jar";
+            "hash" = "sha512-2uKVXfosLDcF3kmdRIyz5k62JzpuPulFl72VGDzBTNeCdWcFBZ+AHJYxXHWYknEjXuz1ghIyIM+PbEneDI6DBQ==";
+        };
     in {
         "hUwdhBSH" = _hUwdhBSH;
         "bB3I385s" = _bB3I385s;
@@ -74,6 +79,7 @@ let
         "VxfPosnu" = _VxfPosnu;
         "ROC8MZcq" = _ROC8MZcq;
         "satCYrRQ" = _satCYrRQ;
+        "hdQpZmzK" = _hdQpZmzK;
         "fabric-26.1" = _bCJEmPuN;
         "fabric-26.1.1" = _bCJEmPuN;
         "fabric-26.1.2" = _bCJEmPuN;
@@ -83,7 +89,7 @@ let
         "neoforge-26.1.1" = _88FQ93nE;
         "neoforge-26.1.2" = _88FQ93nE;
         "neoforge-26.2" = _VxfPosnu;
-        "neoforge-26.3" = _satCYrRQ;
+        "neoforge-26.3" = _hdQpZmzK;
         "pkg-1.0.0" = _hUwdhBSH;
         "pkg-1.0.1" = _bB3I385s;
         "pkg-1.0.0-26.1-26.1.2" = _9JVwQS9s;
@@ -94,9 +100,9 @@ let
         "pkg-1.0.3" = _bCJEmPuN;
         "pkg-1.0.3-26.1-26.1.2" = _88FQ93nE;
         "pkg-1.0.3-26.2" = _VxfPosnu;
-        "pkg-1.0.5-26.3" = _ROC8MZcq;
+        "pkg-1.0.5-26.3" = _hdQpZmzK;
         "pkg-1.0.4-26.3" = _satCYrRQ;
-        "default" = _satCYrRQ;
+        "default" = _hdQpZmzK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tools-armor-and-shields";

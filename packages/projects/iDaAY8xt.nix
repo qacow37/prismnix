@@ -191,6 +191,46 @@ let
             "file" = "csgobox-forge-26.2-2.0.3.jar";
             "hash" = "sha512-t/IicsCCvjvvrLz9sMlDhjMqnDYkWCxlpVJWr8/scYBVKgc8XHXgKpkREYYKJjGxv01Wspyg2YdBUpFbKeRBFw==";
         };
+        _wNxogX64 = {
+            "id" = "wNxogX64";
+            "file" = "csgobox-1.21.1-2.0.4.jar";
+            "hash" = "sha512-A/8/nQwuIe4thu/lf1n0SWvSB5wPogOCI84m/u5po/UMuCsprFmytJx7LzFPgPD9u9V9hwZHX0yoV+BHuMSXUA==";
+        };
+        _WKDcKMbA = {
+            "id" = "WKDcKMbA";
+            "file" = "csgobox-26.1.2-2.0.4.jar";
+            "hash" = "sha512-bwXioSBJ8C1s0xT7FfbtZJpkZg0RWN1+OndaWBNw2YKS7Z5Owxbk4Ad5Fn2yNpSkozIkm2C45hSjjWX7Dhqp/A==";
+        };
+        _UhkX7q9d = {
+            "id" = "UhkX7q9d";
+            "file" = "csgobox-26.2-2.0.4.jar";
+            "hash" = "sha512-N1P7eOJPpDNlDKfVjqBHkFNmf5ZN/P0UAsKczE/wu4B71Q1pAuI8KYuDek9HpINlPnwfsGiCWlFv7QGyqKF6sA==";
+        };
+        _Xze1k1e6 = {
+            "id" = "Xze1k1e6";
+            "file" = "csgobox-fabric-1.21.1-2.0.4.jar";
+            "hash" = "sha512-YVJ0uBxX4OYEt3VN8rCuxKY0x/ubNeTGGpF62de8+8JQnTpcJo0+WX3tu13fOOvDta8Nz+aMponnRGxolpRClg==";
+        };
+        _C5F63bM8 = {
+            "id" = "C5F63bM8";
+            "file" = "csgobox-forge-1.18.2-2.0.4-srg.jar";
+            "hash" = "sha512-ZuFlnw7Y8iKbUa979HQ1s49ejv6aqQ/3cpLNr4a0rS+IJ2LJ8s5PRK4nx622cn+44KsG3gx9ItRBWCQ944aS3A==";
+        };
+        _ltbIJaJP = {
+            "id" = "ltbIJaJP";
+            "file" = "csgobox-forge-1.20.1-2.0.4-srg.jar";
+            "hash" = "sha512-FvnivB3Qv8D2Qn9P/4OXYoLECNv8qVEwBqXJYhHDNello7HnWG9K+iJKIrr8JYHXhlx4nSH7B8AckAdu+THZtA==";
+        };
+        _yvq7Efcc = {
+            "id" = "yvq7Efcc";
+            "file" = "csgobox-forge-26.1.2-2.0.4.jar";
+            "hash" = "sha512-nszCUy09moO8mEJOdh/XS7SMbi5/Y1+JBFA1JKsuuh4HB+a+EIK65NBZGeIQ7JIFGIppXzt9B184x0Z2Ez52Ww==";
+        };
+        _Dk615iHu = {
+            "id" = "Dk615iHu";
+            "file" = "csgobox-forge-26.2-2.0.4.jar";
+            "hash" = "sha512-7UqidZWxNJ/oKe8KxTerbhx0DNlKnhuEODjMpuxmLehyC59XR5au2EgjkCU7mpR0jGQx0Ozf4+qLu7/8BE1CRA==";
+        };
     in {
         "ytkDCbIo" = _ytkDCbIo;
         "YhBft3hg" = _YhBft3hg;
@@ -230,13 +270,23 @@ let
         "CrZil66Y" = _CrZil66Y;
         "6I1HmeuN" = _6I1HmeuN;
         "xfbfyH0p" = _xfbfyH0p;
-        "neoforge-1.21.1" = _DQf7tX9A;
-        "neoforge-26.1.2" = _7g3EHdju;
-        "neoforge-26.2" = _rBejGRz2;
+        "wNxogX64" = _wNxogX64;
+        "WKDcKMbA" = _WKDcKMbA;
+        "UhkX7q9d" = _UhkX7q9d;
+        "Xze1k1e6" = _Xze1k1e6;
+        "C5F63bM8" = _C5F63bM8;
+        "ltbIJaJP" = _ltbIJaJP;
+        "yvq7Efcc" = _yvq7Efcc;
+        "Dk615iHu" = _Dk615iHu;
+        "neoforge-1.21.1" = _wNxogX64;
+        "neoforge-26.1.2" = _WKDcKMbA;
+        "neoforge-26.2" = _UhkX7q9d;
         "neoforge-1.21" = _y8J2l2La;
-        "forge-26.1.2" = _6I1HmeuN;
-        "forge-26.2" = _xfbfyH0p;
-        "forge-1.20.1" = _CrZil66Y;
+        "forge-26.1.2" = _yvq7Efcc;
+        "forge-26.2" = _Dk615iHu;
+        "forge-1.20.1" = _ltbIJaJP;
+        "forge-1.18.2" = _C5F63bM8;
+        "fabric-1.21.1" = _Xze1k1e6;
         "pkg-1.0.0" = _ytkDCbIo;
         "pkg-1.0.1" = _YhBft3hg;
         "pkg-1.0.2" = _eDKd0HQF;
@@ -249,7 +299,8 @@ let
         "pkg-2.0.0.1" = _IXZwGywj;
         "pkg-2.0.1" = _uQxAKtVO;
         "pkg-2.0.3" = _xfbfyH0p;
-        "default" = _xfbfyH0p;
+        "pkg-2.0.4" = _Dk615iHu;
+        "default" = _Dk615iHu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "csgo-box";

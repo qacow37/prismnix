@@ -121,6 +121,51 @@ let
             "file" = "shellbound-for-airship-1.2.1.jar";
             "hash" = "sha512-QrmHJZRzzAbWKBXNBdFoHdvVwIp3ZL+iXAm4m0O1F7OcgoQ1JDOXjsa0DrR/Bn1WTw59/mkK4koa08r2kltKRw==";
         };
+        _z2uux3QQ = {
+            "id" = "z2uux3QQ";
+            "file" = "shellbound-for-airship-2.0.0-1.21.10.jar";
+            "hash" = "sha512-zPI7J5tEAxYgJBxdDGfGQ+uOrNkCfWBjIKoMnWAlFrokwBvAJf5T1nRaU7gVgLkp3hw87UVIbGWBgE4pMjoEFw==";
+        };
+        _WdM3VuOZ = {
+            "id" = "WdM3VuOZ";
+            "file" = "shellbound-for-airship-2.0.0-1.21.11.jar";
+            "hash" = "sha512-C98Y8irbGDUP8mCTnUDruYF0jgG6kP0MK2QWJbzIHTTRzu7H/f9SZyH8tBUat7gGDYeVr35Ef9XypkDBVDD5HA==";
+        };
+        _KQJ2mgjv = {
+            "id" = "KQJ2mgjv";
+            "file" = "shellbound-for-airship-2.0.0-26.1.x.jar";
+            "hash" = "sha512-VQBepFu/Q7YbMVFvwVKzHtA0tnpRnupv3rTXfmTT64VclNbzz8SQcKB/69Q9fGQR4yK5qscZDHfvf9ZBUhg+iQ==";
+        };
+        _BrKr9wUg = {
+            "id" = "BrKr9wUg";
+            "file" = "shellbound-for-airship-2.0.0-26.2.jar";
+            "hash" = "sha512-MX6nIYI8VgIhbclskurX/pRgXltKYiFGgTk2JsKYu3nPFQB8rqwp806V4scs0DpvKITdAsl5/9GvQ32AoQy5VA==";
+        };
+        _FeIKZkJ7 = {
+            "id" = "FeIKZkJ7";
+            "file" = "shellbound-for-airship-2.0.0-26.3.jar";
+            "hash" = "sha512-Luwe7Nv0SxMNS2cpZeXJBkPSVrNXZw+ieEVB7IAFQ+bCrXNGZUdg5sZRzaTGrBTHinyK+YXhv2dLhrmMKPyzlw==";
+        };
+        _53CLuoZ4 = {
+            "id" = "53CLuoZ4";
+            "file" = "shellbound_for_airship-2.0.0-1.21.11.jar";
+            "hash" = "sha512-n2fhLM75GHL5VAcDVSENgxjopOaZgkahJilIXWVzaBkRYSq7x0J3wW3zFxXpza+5tLIAolJbdujq81aF1kXutw==";
+        };
+        _IiH8ejcS = {
+            "id" = "IiH8ejcS";
+            "file" = "shellbound_for_airship-2.0.0-26.1.x.jar";
+            "hash" = "sha512-K5COjE6Ot1SyJU3tdIBYiMXLxjSGtK8Ad/9DTtdpmGJKdhXaf/TPLl+V/UksK8M8sXYfDMgOeDH6mlJszzKzQw==";
+        };
+        _mM2rgPs8 = {
+            "id" = "mM2rgPs8";
+            "file" = "shellbound_for_airship-2.0.0-26.2.jar";
+            "hash" = "sha512-RG0u/RAkUiUwF4SDWuWs1F32A3iCCLwaL/ITO0F01rETowDQojb5cN2Kjq1pGxBSrZVSxkilHx6oJHN0b1Gtdw==";
+        };
+        _FOkimOeZ = {
+            "id" = "FOkimOeZ";
+            "file" = "shellbound_for_airship-2.0.0-26.3.jar";
+            "hash" = "sha512-xJitUKppXn1FFx+dl3g7RjTndepokkBQP0FV+GTMsNNGJjZXKUvd4Qb2K9YR7EC7KZIDALnrQm5Jd+LedNuFjg==";
+        };
     in {
         "eQWdHGbC" = _eQWdHGbC;
         "OtFNinbJ" = _OtFNinbJ;
@@ -146,8 +191,17 @@ let
         "cwcRVI2o" = _cwcRVI2o;
         "AY3Colek" = _AY3Colek;
         "33tQCq5C" = _33tQCq5C;
-        "fabric-1.21.9" = _eQWdHGbC;
-        "fabric-1.21.10" = _eQWdHGbC;
+        "z2uux3QQ" = _z2uux3QQ;
+        "WdM3VuOZ" = _WdM3VuOZ;
+        "KQJ2mgjv" = _KQJ2mgjv;
+        "BrKr9wUg" = _BrKr9wUg;
+        "FeIKZkJ7" = _FeIKZkJ7;
+        "53CLuoZ4" = _53CLuoZ4;
+        "IiH8ejcS" = _IiH8ejcS;
+        "mM2rgPs8" = _mM2rgPs8;
+        "FOkimOeZ" = _FOkimOeZ;
+        "fabric-1.21.9" = _z2uux3QQ;
+        "fabric-1.21.10" = _z2uux3QQ;
         "fabric-1.21.6" = _OtFNinbJ;
         "fabric-1.21.7" = _OtFNinbJ;
         "fabric-1.21.8" = _OtFNinbJ;
@@ -157,7 +211,7 @@ let
         "fabric-1.21.3" = _Jjb1twqN;
         "fabric-1.21" = _s511WoyI;
         "fabric-1.21.1" = _s511WoyI;
-        "fabric-1.21.11" = _Dd8m7WeS;
+        "fabric-1.21.11" = _WdM3VuOZ;
         "fabric-1.20" = _33tQCq5C;
         "fabric-1.20.1" = _33tQCq5C;
         "fabric-1.20.2" = _POFore15;
@@ -165,10 +219,11 @@ let
         "fabric-1.20.4" = _rdxPJeWD;
         "fabric-1.20.5" = _3Jauqb8V;
         "fabric-1.20.6" = _3Jauqb8V;
-        "fabric-26.1" = _8QArFRro;
-        "fabric-26.1.1" = _8QArFRro;
-        "fabric-26.1.2" = _8QArFRro;
-        "fabric-26.2" = _JnnyJTxT;
+        "fabric-26.1" = _KQJ2mgjv;
+        "fabric-26.1.1" = _KQJ2mgjv;
+        "fabric-26.1.2" = _KQJ2mgjv;
+        "fabric-26.2" = _BrKr9wUg;
+        "fabric-26.3" = _FeIKZkJ7;
         "quilt-1.21" = _s511WoyI;
         "quilt-1.21.1" = _s511WoyI;
         "quilt-1.20" = _6tOKTsIN;
@@ -180,13 +235,19 @@ let
         "quilt-1.20.6" = _3Jauqb8V;
         "neoforge-1.21" = _JZtRFKlv;
         "neoforge-1.21.1" = _JZtRFKlv;
-        "neoforge-1.21.11" = _cwcRVI2o;
+        "neoforge-1.21.11" = _53CLuoZ4;
+        "neoforge-26.1.2" = _IiH8ejcS;
+        "neoforge-26.1.1" = _IiH8ejcS;
+        "neoforge-26.1" = _IiH8ejcS;
+        "neoforge-26.2" = _mM2rgPs8;
+        "neoforge-26.3" = _FOkimOeZ;
         "forge-1.20" = _AY3Colek;
         "forge-1.20.1" = _AY3Colek;
         "pkg-1.0.0" = _cwcRVI2o;
         "pkg-1.0.1" = _JnnyJTxT;
         "pkg-1.2.1" = _33tQCq5C;
-        "default" = _33tQCq5C;
+        "pkg-2.0.0" = _FOkimOeZ;
+        "default" = _FOkimOeZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shellbound-for-airship";

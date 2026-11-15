@@ -56,6 +56,11 @@ let
             "file" = "Just 3D Stuffs.zip";
             "hash" = "sha512-dao7iaZDrLgJbt82pvckkxeyoUpS2WtfxbIwHe9roGxHZmGLQJbKh6qzrBjzsQiZSvPm/hoyRxQKMMala/jYjw==";
         };
+        _y3hDpsnL = {
+            "id" = "y3hDpsnL";
+            "file" = "Just 3D Stuffs.zip";
+            "hash" = "sha512-8agp114/7zWBr8CeAGkZPGIISJNTOvbpdFKkw9Vq/fBfFhw8tibhTXscxMqRxg2biMQGnwLyTjvIZmTG5ivZPQ==";
+        };
     in {
         "xljLq14c" = _xljLq14c;
         "RmApifOg" = _RmApifOg;
@@ -68,9 +73,10 @@ let
         "1Ml5XLAk" = _1Ml5XLAk;
         "Go0eHfqH" = _Go0eHfqH;
         "xMXNj6wz" = _xMXNj6wz;
-        "minecraft-1.21.9" = _xMXNj6wz;
-        "minecraft-1.21.10" = _xMXNj6wz;
-        "minecraft-1.21.11" = _xMXNj6wz;
+        "y3hDpsnL" = _y3hDpsnL;
+        "minecraft-1.21.9" = _y3hDpsnL;
+        "minecraft-1.21.10" = _y3hDpsnL;
+        "minecraft-1.21.11" = _y3hDpsnL;
         "pkg-1.0" = _xljLq14c;
         "pkg-1.1" = _RmApifOg;
         "pkg-1.2" = _67gl36pA;
@@ -82,7 +88,8 @@ let
         "pkg-1.6" = _1Ml5XLAk;
         "pkg-1.7" = _Go0eHfqH;
         "pkg-1.7h" = _xMXNj6wz;
-        "default" = _xMXNj6wz;
+        "pkg-1.8" = _y3hDpsnL;
+        "default" = _y3hDpsnL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-3d-stuffs";

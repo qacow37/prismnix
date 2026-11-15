@@ -326,6 +326,11 @@ let
             "file" = "elytratrails-1.6.10-26.3.jar";
             "hash" = "sha512-zZghdBiRoRfyWSEHyuua+yfQ+ciJXcDpnxtFY+Qw8vt0ThbSfNkpqdkqP7Jo6G5w8vcNYGKkmlVom30SjdaJCw==";
         };
+        _ho8G65e8 = {
+            "id" = "ho8G65e8";
+            "file" = "elytratrails-1.6.10-26.4-snapshot-8.jar";
+            "hash" = "sha512-XIHJJuCjKj6xDLz0PsYMfFLzRbqKTjQo+nXT3jpU9/6cMJ3ag4u57kSlZ2+HIK0r1ZFAyl7v6EgLdxlPYu2XPQ==";
+        };
     in {
         "CfFozPOO" = _CfFozPOO;
         "LnF8d50s" = _LnF8d50s;
@@ -392,6 +397,7 @@ let
         "MPuC5AJ2" = _MPuC5AJ2;
         "C4wdFxQq" = _C4wdFxQq;
         "8dPqoJzO" = _8dPqoJzO;
+        "ho8G65e8" = _ho8G65e8;
         "fabric-1.21.11" = _9KJRbgAa;
         "fabric-26.1" = _5we4VeeY;
         "fabric-26.1.1" = _5we4VeeY;
@@ -406,6 +412,7 @@ let
         "fabric-26.3-pre-2" = _JAa0fuT7;
         "fabric-26.3-rc-3" = _WEGvx2fH;
         "fabric-26.3" = _8dPqoJzO;
+        "fabric-26.4-snapshot-8" = _ho8G65e8;
         "pkg-1.0.0" = _CfFozPOO;
         "pkg-1.0.1" = _LnF8d50s;
         "pkg-1.1.0" = _lhUP0Wa9;
@@ -471,7 +478,8 @@ let
         "pkg-1.6.9-26.2" = _MPuC5AJ2;
         "pkg-1.6.9-26.3" = _C4wdFxQq;
         "pkg-1.6.10-26.3" = _8dPqoJzO;
-        "default" = _8dPqoJzO;
+        "pkg-1.6.10-26.4-snapshot-8" = _ho8G65e8;
+        "default" = _ho8G65e8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-contrails-mod";

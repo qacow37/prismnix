@@ -316,6 +316,41 @@ let
             "file" = "Background for 26.3 Visual Vibrance.zip";
             "hash" = "sha512-TIbJExhX2qtoGtHn3t2xowD5yUEjKf4KhRymr1lNPGe6EsKyDuQJjP1HaPszvHtiBzbjYrDuH+N54YumrM5jeA==";
         };
+        _x2G03qcn = {
+            "id" = "x2G03qcn";
+            "file" = "Background for 26.3 Vibrant Visuals (Bedrock Port).zip";
+            "hash" = "sha512-MXdbZ1h15s0pBLhB0UTCacD5FQMdGdqoLlqYiP/HJvpBn/ZYhpHybfrGTE89Z2UPcCcBZy1qhqowGMBlxYX6XQ==";
+        };
+        _whhEv34p = {
+            "id" = "whhEv34p";
+            "file" = "Background for 26.3 Complementary Shaders Reimagined (Non-Bare-Bones).zip";
+            "hash" = "sha512-UoGj54ML0dd4gU084OO63Z1VB8iNI19LJFej69l3C6SS9vSOShj5H4MmKkQOWsOG72G7HXcgTCCGGE725uA7HA==";
+        };
+        _4dOaBi92 = {
+            "id" = "4dOaBi92";
+            "file" = "Background for 26.3 Complementary Shaders - Reimagined.zip";
+            "hash" = "sha512-38F8yuh5JC6UAwjIVFjkKfMeCHlKTucUHV8+pCxwE3Zg89+QHGf7/aZe4jBmADIJ00qvseSbSYnob+SUKW8kAA==";
+        };
+        _mGnrrApw = {
+            "id" = "mGnrrApw";
+            "file" = "Background for 26.3 BSL Shaders (Non-Bare-Bones).zip";
+            "hash" = "sha512-INYW7yxG74t87JVrKToKmwFaxMN15wviz7djTe+XLQKKYAyad8P1p/SwDN7CBN/AlnMs+Mj5znOJelZBgSKDAg==";
+        };
+        _RuHvMuh1 = {
+            "id" = "RuHvMuh1";
+            "file" = "Background for 26.3 BSL Shaders.zip";
+            "hash" = "sha512-DXf4W3IEkd2gte7evYWx+gWDTNpPA8KuDmMkdMmNLJN1aaBTVsqgahiwvuVCk2dg/P321ohqVLAPHQgZn/ZEng==";
+        };
+        _6t6gq4LM = {
+            "id" = "6t6gq4LM";
+            "file" = "Background for 26.3 Visual Vibrance (Non-Bare-Bone).zip";
+            "hash" = "sha512-SwCeBc5/79Kr8kC3lMy4WU+Myozyvn3uZ09x7M4j/kRZZJxX0wjeA50CdB6yz3KwmD57cfb+DHD1iGkcJSw9uQ==";
+        };
+        _5VkT6yB8 = {
+            "id" = "5VkT6yB8";
+            "file" = "Background for 26.3 Visual Vibrance.zip";
+            "hash" = "sha512-O0WbtKTA4AC1A4nub0DzBRcrn7Te5VOOTczFUKjp34eZ5VnybTmZ+CnKQ8tsD60Y08/p5TsbBzXdNIu9EdBFfg==";
+        };
     in {
         "1G8Z25d9" = _1G8Z25d9;
         "Vp025Zi3" = _Vp025Zi3;
@@ -380,6 +415,13 @@ let
         "GdZ4Fmtz" = _GdZ4Fmtz;
         "bZ2GEIid" = _bZ2GEIid;
         "EvadR10Q" = _EvadR10Q;
+        "x2G03qcn" = _x2G03qcn;
+        "whhEv34p" = _whhEv34p;
+        "4dOaBi92" = _4dOaBi92;
+        "mGnrrApw" = _mGnrrApw;
+        "RuHvMuh1" = _RuHvMuh1;
+        "6t6gq4LM" = _6t6gq4LM;
+        "5VkT6yB8" = _5VkT6yB8;
         "minecraft-1.21" = _lIqT3DNB;
         "minecraft-1.20" = _Vp025Zi3;
         "minecraft-1.20.1" = _Vp025Zi3;
@@ -401,7 +443,7 @@ let
         "minecraft-26.1" = _zrJD68UB;
         "minecraft-26.1.1" = _zrJD68UB;
         "minecraft-26.2" = _D8Wgmj6l;
-        "minecraft-26.3" = _EvadR10Q;
+        "minecraft-26.3" = _5VkT6yB8;
         "pkg-0.1" = _Vp025Zi3;
         "pkg-0.2" = _tK2eWVcd;
         "pkg-0.3" = _WmIuO71d;
@@ -428,7 +470,14 @@ let
         "pkg-1.8_BSL-Shaders_BB" = _GdZ4Fmtz;
         "pkg-1.8_Visual-Vibrance_Non-BB" = _bZ2GEIid;
         "pkg-1.8_Visual-Vibrance_BB" = _EvadR10Q;
-        "default" = _EvadR10Q;
+        "pkg-1.8.1_VV_Bedrock-Port" = _x2G03qcn;
+        "pkg-1.8.1_Complementary_Non-BB" = _whhEv34p;
+        "pkg-1.8.1_Complementary_BB" = _4dOaBi92;
+        "pkg-1.8.1_BSL-Shaders_Non-BB" = _mGnrrApw;
+        "pkg-1.8.1_BSL-Shaders_BB" = _RuHvMuh1;
+        "pkg-1.8.1_Visual-Vibrance_Non-BB" = _6t6gq4LM;
+        "pkg-1.8.1_Visual-Vibrance_BB" = _5VkT6yB8;
+        "default" = _5VkT6yB8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "panoramas-of-updates";

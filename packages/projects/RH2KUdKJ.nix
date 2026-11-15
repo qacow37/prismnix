@@ -321,6 +321,61 @@ let
             "file" = "OctoLib-FABRIC-0.6.3.1+1.21.jar";
             "hash" = "sha512-6WylBjV5J+86BSRViQTt9JAroOT+z9pIq3goR11OnrTUUJPKMz4ogPAhCy/mByXdHLy41FIeFhoRrazeq25WZA==";
         };
+        _iOz6j3eM = {
+            "id" = "iOz6j3eM";
+            "file" = "OctoLib-FABRIC-0.5.0.2+1.20.1.jar";
+            "hash" = "sha512-795B98FpvHDdCCR8/wCHUVZ4hEg6swD97U7uYjkrKu+B3DbD3LTwdlIRJB18qRuqz2WpvWT0d1+aHaop9QsMDw==";
+        };
+        _DIrIERJm = {
+            "id" = "DIrIERJm";
+            "file" = "OctoLib-FORGE-0.5.0.2+1.20.1.jar";
+            "hash" = "sha512-/WD5Zhu/pTKofpscQN5E8kKafr7X5v9Mz2gNBUCueM8r+nx4kQ+KNsn23K+3ov2rSMA+Nzl3M8s4dwNEdySGFg==";
+        };
+        _IrWdydNM = {
+            "id" = "IrWdydNM";
+            "file" = "OctoLib-QUILT-0.5.0.2+1.20.1.jar";
+            "hash" = "sha512-S3YCgm+4sUCV6TJJ6nC47F1Hgst20+RDsvSmwTwVmLlp9NEkouTe/efC80/Dx265wUY3X+5LJGJ/bynOl8WLAQ==";
+        };
+        _auboAQ8R = {
+            "id" = "auboAQ8R";
+            "file" = "OctoLib-FABRIC-0.6.3.2+1.21.jar";
+            "hash" = "sha512-kNJduJfgiUhGl+trxdGmFz2JLe65YJ6DcdsnYifRAYw4joxFofty13OrSrGH4MjTbCMoE+1Q+DgPeUWs7eMe2A==";
+        };
+        _bhZqwctG = {
+            "id" = "bhZqwctG";
+            "file" = "OctoLib-NEOFORGE-0.6.3.2+1.21.jar";
+            "hash" = "sha512-qkWMnRHQySinOQZSKjTgZXt5BnW54H8MDyeR9J3dFWBHfseQx2Pn1VcilCdb0R8w+CdeET7xHJYPl9MPsG5gKg==";
+        };
+        _Ln2344mg = {
+            "id" = "Ln2344mg";
+            "file" = "OctoLib-FABRIC-0.5.0.3+1.21.4.jar";
+            "hash" = "sha512-ElxCi6ADB+UHDWcrBFt9PPYDxuLtI9c3YbdLoIB8NNzpz3stw7i8s44KijTvAjHVxPgU3+b3x8r/jMA4+80Q3g==";
+        };
+        _HldYrvf2 = {
+            "id" = "HldYrvf2";
+            "file" = "OctoLib-NEOFORGE-0.5.0.3+1.21.4.jar";
+            "hash" = "sha512-pma+0E2PhS2xprOdTKU32P4SHBYuYmb8/FH71T3obEtl5AxepE8aqf2VDO4RbFfnGO6J6KgPd+MSvR02nquekQ==";
+        };
+        _4ix3gveL = {
+            "id" = "4ix3gveL";
+            "file" = "OctoLib-FABRIC-0.6.0.6+1.21.8.jar";
+            "hash" = "sha512-efSTJZ6Ov3ScrrbSt5hS1JJLdHdvqvbxm30efnTDeIhBUc3KSSSBlsjav8CfsVdjUM6lNM2x3w/TXl++pn8G3A==";
+        };
+        _o2h1gVlw = {
+            "id" = "o2h1gVlw";
+            "file" = "OctoLib-NEOFORGE-0.6.0.6+1.21.8.jar";
+            "hash" = "sha512-tbya7j/gGzEhYkI+/U6LcUeT7v0+F+3j7KvmZGW+Qi0rv+80iC8fDifIqOXD7t/lPKl9appV7dW/5fYaWCqhJg==";
+        };
+        _tRWqyM7n = {
+            "id" = "tRWqyM7n";
+            "file" = "ShatterLib-FABRIC-0.6.0.9+1.21.11.jar";
+            "hash" = "sha512-9dTTC4h6xC+kunHx3pOLJ1WQzJf74HHmkFdJoTyVjM29MEGlWzEe5Q5bUb7gNa7aF34VzYx2FtYCIHEeEEsnPA==";
+        };
+        _mq1tXNUd = {
+            "id" = "mq1tXNUd";
+            "file" = "ShatterLib-NEOFORGE-0.6.0.9+1.21.11.jar";
+            "hash" = "sha512-UXxj8JUeVIXEMAjmBuNZknXVlHFMiljJAa1FnhI66haiKIsMRS53/TPTaESSBfjYCsssaUnz7JmmhOQwcPeF4A==";
+        };
     in {
         "grEroQx9" = _grEroQx9;
         "BMzGyKew" = _BMzGyKew;
@@ -386,40 +441,51 @@ let
         "TnLiibe7" = _TnLiibe7;
         "tWSxYz7q" = _tWSxYz7q;
         "tDQu6eGt" = _tDQu6eGt;
-        "forge-1.20.1" = _HZ7KmyXp;
+        "iOz6j3eM" = _iOz6j3eM;
+        "DIrIERJm" = _DIrIERJm;
+        "IrWdydNM" = _IrWdydNM;
+        "auboAQ8R" = _auboAQ8R;
+        "bhZqwctG" = _bhZqwctG;
+        "Ln2344mg" = _Ln2344mg;
+        "HldYrvf2" = _HldYrvf2;
+        "4ix3gveL" = _4ix3gveL;
+        "o2h1gVlw" = _o2h1gVlw;
+        "tRWqyM7n" = _tRWqyM7n;
+        "mq1tXNUd" = _mq1tXNUd;
+        "forge-1.20.1" = _DIrIERJm;
         "forge-1.20.2" = _grEroQx9;
         "forge-1.19.2" = _NiQBlfBa;
         "forge-1.18.2" = _2s2b63pG;
         "neoforge-1.20.1" = _9dJfM8hR;
         "neoforge-1.20.2" = _grEroQx9;
         "neoforge-1.21" = _5W0Tr3KB;
-        "neoforge-1.21.1" = _5W0Tr3KB;
+        "neoforge-1.21.1" = _bhZqwctG;
         "neoforge-1.21.2" = _1Yj8kwh2;
         "neoforge-1.21.3" = _1Yj8kwh2;
-        "neoforge-1.21.4" = _tWSxYz7q;
-        "neoforge-1.21.8" = _amyjDhUx;
+        "neoforge-1.21.4" = _HldYrvf2;
+        "neoforge-1.21.8" = _o2h1gVlw;
         "neoforge-1.21.9" = _14MS4teJ;
         "neoforge-1.21.10" = _14MS4teJ;
-        "neoforge-1.21.11" = _FLPGrIpB;
+        "neoforge-1.21.11" = _mq1tXNUd;
         "neoforge-26.1.2" = _nDf20sjT;
         "neoforge-26.2" = _bk3IlCia;
         "neoforge-26.3" = _sUntVaAo;
         "fabric-1.21" = _tDQu6eGt;
-        "fabric-1.21.1" = _tDQu6eGt;
-        "fabric-1.20.1" = _5UfjvE8g;
+        "fabric-1.21.1" = _auboAQ8R;
+        "fabric-1.20.1" = _iOz6j3eM;
         "fabric-1.21.2" = _hwDBcZ2e;
         "fabric-1.21.3" = _hwDBcZ2e;
-        "fabric-1.21.4" = _TnLiibe7;
-        "fabric-1.21.8" = _Sznkcno9;
+        "fabric-1.21.4" = _Ln2344mg;
+        "fabric-1.21.8" = _4ix3gveL;
         "fabric-1.21.9" = _VtMzU9l0;
         "fabric-1.21.10" = _VtMzU9l0;
-        "fabric-1.21.11" = _DtNaQNS2;
+        "fabric-1.21.11" = _tRWqyM7n;
         "fabric-26.1.2" = _IZNCj2sj;
         "fabric-26.2" = _V7etoqpZ;
         "fabric-26.3" = _yGChlg17;
         "quilt-1.21" = _m3ey9qly;
         "quilt-1.21.1" = _m3ey9qly;
-        "quilt-1.20.1" = _eI4teGA0;
+        "quilt-1.20.1" = _IrWdydNM;
         "pkg-0.1" = _grEroQx9;
         "pkg-0.2" = _BMzGyKew;
         "pkg-0.3" = _2s2b63pG;
@@ -431,7 +497,7 @@ let
         "pkg-0.6.0.3" = _XMZB2Xe6;
         "pkg-0.6.0.4" = _FaKxj9Hr;
         "pkg-0.6.0.5" = _amyjDhUx;
-        "pkg-0.6.0.6" = _qILuB0de;
+        "pkg-0.6.0.6" = _o2h1gVlw;
         "pkg-0.6.0.7" = _AS33Zp3F;
         "pkg-0.6.1" = _oCmdIpY6;
         "pkg-0.6.0.8" = _FLPGrIpB;
@@ -442,9 +508,12 @@ let
         "pkg-0.7.0-beta.4+26.3" = _zujVCEvc;
         "pkg-0.6.3+1.21" = _5W0Tr3KB;
         "pkg-0.7.0-beta.5+26.3" = _sUntVaAo;
-        "pkg-0.5.0.2" = _tWSxYz7q;
+        "pkg-0.5.0.2" = _IrWdydNM;
         "pkg-0.6.3.1+1.21" = _tDQu6eGt;
-        "default" = _tDQu6eGt;
+        "pkg-0.6.3.2+1.21" = _bhZqwctG;
+        "pkg-0.5.0.3" = _HldYrvf2;
+        "pkg-0.6.0.9" = _mq1tXNUd;
+        "default" = _mq1tXNUd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shatterbyte-lib";

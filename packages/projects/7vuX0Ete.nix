@@ -146,6 +146,11 @@ let
             "file" = "dota-0.7.40-forge-1.20.1.jar";
             "hash" = "sha512-0RPRXl01pArwPOTjaUxDrkjirgTF3k7yzrtylVCkuIx8dI//DLgS7EcK8XABm4IM44wBHbm+IQEIh/y1aAtW0Q==";
         };
+        _TtdYYD0i = {
+            "id" = "TtdYYD0i";
+            "file" = "dota-1.2.3-fabric-26.3.jar";
+            "hash" = "sha512-bQ5gHdYPLZ3n8KTb1I2zZ3xo245gEFJ/ONaPGIujfG3KpUCq0I4ALr/VxE2e6TzVVLDGqRrSwfvo3a+TFEJSlA==";
+        };
     in {
         "FxfKCjZL" = _FxfKCjZL;
         "KSkNz46Z" = _KSkNz46Z;
@@ -176,7 +181,9 @@ let
         "j08FtKdn" = _j08FtKdn;
         "TAu96mN6" = _TAu96mN6;
         "IZudskXn" = _IZudskXn;
+        "TtdYYD0i" = _TtdYYD0i;
         "forge-1.20.1" = _IZudskXn;
+        "fabric-26.3" = _TtdYYD0i;
         "pkg-0.4.2" = _FxfKCjZL;
         "pkg-0.5.4" = _KSkNz46Z;
         "pkg-0.5.5" = _7ReZEdKN;
@@ -206,7 +213,8 @@ let
         "pkg-0.7.39g" = _j08FtKdn;
         "pkg-0.7.39o" = _TAu96mN6;
         "pkg-0.7.40" = _IZudskXn;
-        "default" = _IZudskXn;
+        "pkg-1.2.3" = _TtdYYD0i;
+        "default" = _TtdYYD0i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dota.rg";

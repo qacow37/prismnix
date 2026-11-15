@@ -101,6 +101,36 @@ let
             "file" = "decorationx_christmas-1.1.0+neoforge-1.21.1.jar";
             "hash" = "sha512-A5zyooxMwfpPdP1ipbHCsZtGOQTHEo/g+7Pd5M4I3P6qpePCTwBQLmxgvt0oEz7mF/9hUmkP6/kiIRSK3fZERg==";
         };
+        _FU2io74f = {
+            "id" = "FU2io74f";
+            "file" = "decorationx_christmas-1.1.1+neoforge-26.3.jar";
+            "hash" = "sha512-hd9lEyGe9nvkpdK2UBkf24AApSJsUMe5trkzeA+az0ATrqttuEw5vZIL0bZFWgTpz+L+gr/qXOjjKySpXFqPxQ==";
+        };
+        _ndo4Q87h = {
+            "id" = "ndo4Q87h";
+            "file" = "decorationx_christmas-1.1.1+neoforge-1.21.1.jar";
+            "hash" = "sha512-BaReCFXhAkIK9Q8UGP/CZS+QEVVOquysYiy797ay4wngJByBSQEZ2nhEeHpEqwOhcHUGzv1prY9jopTqhjgkjA==";
+        };
+        _jnMPNZiG = {
+            "id" = "jnMPNZiG";
+            "file" = "decorationx_christmas-1.1.1+fabric-26.3.jar";
+            "hash" = "sha512-8+LVSErDcZAGiCcajpniLUNhWYai7FnSZnSluiQskpr95TsG1EppLHoO9yZgER4ssOD8/tcQPQ+c+yWiPfs8Pw==";
+        };
+        _gww93eT1 = {
+            "id" = "gww93eT1";
+            "file" = "decorationx_christmas-1.1.1+fabric-1.21.1.jar";
+            "hash" = "sha512-B/LKAvZ2e34Xk28hqLsFkMDv8ljysLfUacgdhtfqk2lUeP8NuB92A3GMMtvSTlOQYdUO9isJ2JAsZYaUgo/Y9Q==";
+        };
+        _I2lIBIw6 = {
+            "id" = "I2lIBIw6";
+            "file" = "decorationx_christmas-1.1.1+fabric-1.20.1.jar";
+            "hash" = "sha512-+f/U1UURcr8DD6j00KPa3cEfPCn5eVMtkgwEssRSSRHyxcd9hPvgXbfSZ7DXEzChqMI5FH/8L6eWDttbBGDjAA==";
+        };
+        _pYGRnk3V = {
+            "id" = "pYGRnk3V";
+            "file" = "decorationx_christmas-1.1.1+forge-1.20.1.jar";
+            "hash" = "sha512-nF+xFjh0uniwxPmbXaRQXofh53TlqyS8bOFtx6ZD1sefjx/MA/tkFF1zsAtrSfq8sA5b+Dki8c9rgzY2jb1pBA==";
+        };
     in {
         "9cS88iGs" = _9cS88iGs;
         "WL0LfMR9" = _WL0LfMR9;
@@ -122,15 +152,21 @@ let
         "o16IflxB" = _o16IflxB;
         "mLC09S3e" = _mLC09S3e;
         "KbTpn5JO" = _KbTpn5JO;
-        "fabric-26.3" = _uy11E1AJ;
-        "fabric-1.21.1" = _mLC09S3e;
-        "fabric-1.20.1" = _RCFvhnl4;
-        "neoforge-26.3" = _o16IflxB;
-        "neoforge-1.21.1" = _KbTpn5JO;
+        "FU2io74f" = _FU2io74f;
+        "ndo4Q87h" = _ndo4Q87h;
+        "jnMPNZiG" = _jnMPNZiG;
+        "gww93eT1" = _gww93eT1;
+        "I2lIBIw6" = _I2lIBIw6;
+        "pYGRnk3V" = _pYGRnk3V;
+        "fabric-26.3" = _jnMPNZiG;
+        "fabric-1.21.1" = _gww93eT1;
+        "fabric-1.20.1" = _I2lIBIw6;
+        "neoforge-26.3" = _FU2io74f;
+        "neoforge-1.21.1" = _ndo4Q87h;
         "quilt-26.3" = _uy11E1AJ;
         "quilt-1.21.1" = _mLC09S3e;
-        "quilt-1.20.1" = _RCFvhnl4;
-        "forge-1.20.1" = _nBm7aBqr;
+        "quilt-1.20.1" = _I2lIBIw6;
+        "forge-1.20.1" = _pYGRnk3V;
         "pkg-1.0.0+fabric-26.3" = _9cS88iGs;
         "pkg-1.0.0+fabric-1.21.1" = _WL0LfMR9;
         "pkg-1.0.0+neoforge-26.3" = _ueQ6Ou30;
@@ -151,7 +187,13 @@ let
         "pkg-1.1.0+neoforge-26.3" = _o16IflxB;
         "pkg-1.1.0+fabric-1.21.1" = _mLC09S3e;
         "pkg-1.1.0+neoforge-1.21.1" = _KbTpn5JO;
-        "default" = _KbTpn5JO;
+        "pkg-1.1.1+neoforge-26.3" = _FU2io74f;
+        "pkg-1.1.1+neoforge-1.21.1" = _ndo4Q87h;
+        "pkg-1.1.1+fabric-26.3" = _jnMPNZiG;
+        "pkg-1.1.1+fabric-1.21.1" = _gww93eT1;
+        "pkg-1.1.1+fabric-1.20.1" = _I2lIBIw6;
+        "pkg-1.1.1+forge-1.20.1" = _pYGRnk3V;
+        "default" = _pYGRnk3V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "decorationx-christmas";

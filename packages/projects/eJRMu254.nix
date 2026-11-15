@@ -16,15 +16,22 @@ let
             "file" = "FpsCounter-2.0-BETA-ACCESS.jar";
             "hash" = "sha512-wzWN2IwI9Syce2wbgWqx4XjKMcIpXuig9HqbcYhA5dhHRl8dNV0aQX5RDcPoeXtViDXsdkjDmgjysGY/7ZdKZQ==";
         };
+        _vSVZSRAH = {
+            "id" = "vSVZSRAH";
+            "file" = "FpsCounter-2.0-public-release.jar";
+            "hash" = "sha512-SymRmxaud4W/UDVa1reQmNb2PycSN9ZMt3x6fJXjLaKxtcxA1sbjAwSrtAt3GL3RCk2WLdczzZ/C09m9Trqwwg==";
+        };
     in {
         "txqeyt6C" = _txqeyt6C;
         "LbUUuekO" = _LbUUuekO;
         "lb8j0f4K" = _lb8j0f4K;
-        "fabric-1.20.1" = _lb8j0f4K;
+        "vSVZSRAH" = _vSVZSRAH;
+        "fabric-1.20.1" = _vSVZSRAH;
         "pkg-1.0" = _txqeyt6C;
         "pkg-1.1" = _LbUUuekO;
         "pkg-v2-BETA-ACCESS" = _lb8j0f4K;
-        "default" = _lb8j0f4K;
+        "pkg-2.0" = _vSVZSRAH;
+        "default" = _vSVZSRAH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fpscounter";

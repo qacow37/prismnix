@@ -526,6 +526,16 @@ let
             "file" = "moonlightcore-fabric-26.1.2.14-beta.jar";
             "hash" = "sha512-ChBBq76H1hm5ZDjOsu2WLsa7YwWdHoA2cv4IlLUmNIHJsUSwPXxmZGFe6QmhGIvxwarwARA9YHnkPSaPOQK8Pw==";
         };
+        _xKWOa1sv = {
+            "id" = "xKWOa1sv";
+            "file" = "moonlightcore-fabric-26.1.2.15-beta.jar";
+            "hash" = "sha512-74rhD/8avaRBFO16t5bgci+vI2QoRA8axsmcGI8+Fb1FKwhGWdXnb61G9iP1DRsm4QS7LHmv/CSkpLIZqTdFOA==";
+        };
+        _38TqZ8Cf = {
+            "id" = "38TqZ8Cf";
+            "file" = "moonlightcore-neoforge-26.1.2.15-beta.jar";
+            "hash" = "sha512-5DTUCb5ymLm1on7wkFS8in2KJMeki+L+fQm4kLZuAjwh8YQ3/g2IXxrwxyddhMMQILGUnSgWFlDgfp22w16NMA==";
+        };
     in {
         "s35TdV2r" = _s35TdV2r;
         "vd5m6gMD" = _vd5m6gMD;
@@ -632,15 +642,17 @@ let
         "lASq8cq5" = _lASq8cq5;
         "jJ1O6IBF" = _jJ1O6IBF;
         "yyj3KiO7" = _yyj3KiO7;
+        "xKWOa1sv" = _xKWOa1sv;
+        "38TqZ8Cf" = _38TqZ8Cf;
         "fabric-1.21.1" = _zaMiHPWG;
         "fabric-1.20.1" = _vFtxy6fp;
-        "fabric-26.1" = _yyj3KiO7;
-        "fabric-26.1.1" = _yyj3KiO7;
-        "fabric-26.1.2" = _yyj3KiO7;
+        "fabric-26.1" = _xKWOa1sv;
+        "fabric-26.1.1" = _xKWOa1sv;
+        "fabric-26.1.2" = _xKWOa1sv;
         "neoforge-1.21.1" = _GHGyBrj9;
-        "neoforge-26.1" = _jJ1O6IBF;
-        "neoforge-26.1.1" = _jJ1O6IBF;
-        "neoforge-26.1.2" = _jJ1O6IBF;
+        "neoforge-26.1" = _38TqZ8Cf;
+        "neoforge-26.1.1" = _38TqZ8Cf;
+        "neoforge-26.1.2" = _38TqZ8Cf;
         "forge-1.20.1" = _uNpshtH1;
         "pkg-1.21.1-2.1.0" = _vd5m6gMD;
         "pkg-1.21.1-2.1.6" = _iCmHqm3c;
@@ -697,7 +709,8 @@ let
         "pkg-26.1.2.12-beta" = _cdHlpcOJ;
         "pkg-26.1.2.13-beta" = _lASq8cq5;
         "pkg-26.1.2.14-beta" = _yyj3KiO7;
-        "default" = _yyj3KiO7;
+        "pkg-26.1.2.15-beta" = _38TqZ8Cf;
+        "default" = _38TqZ8Cf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wgc-moonlight-core";

@@ -151,6 +151,11 @@ let
             "file" = "SpiceOfLifeBerry-Fabric-1.20.1-1.2.2.jar";
             "hash" = "sha512-DjW3D1akR6/72xG72vUODQmEU09kyxN0QBcMAfrTT5Ht1j3Dk9YXBoiqFo8wwIwYo4S2eFwtTvJzTJIIT4HXKg==";
         };
+        _KVlpGdSY = {
+            "id" = "KVlpGdSY";
+            "file" = "SpiceOfLifeBerry-Forge-1.20.1-1.2.3.jar";
+            "hash" = "sha512-OvT2HK75H2qdIY0UAioQ4qY+sfiMD9mEb2DFsS5RbfaHuwJA4tVDbNThqrNWIF1Sr7GAx95Dideal/G2ft1dNw==";
+        };
     in {
         "t3A2Rc5K" = _t3A2Rc5K;
         "KM1YV1Jk" = _KM1YV1Jk;
@@ -182,8 +187,9 @@ let
         "uipS8BLZ" = _uipS8BLZ;
         "3q2vQwYe" = _3q2vQwYe;
         "bS0hN8Qv" = _bS0hN8Qv;
+        "KVlpGdSY" = _KVlpGdSY;
         "neoforge-1.21.1" = _yFDGpkzt;
-        "forge-1.20.1" = _lUjQSwa0;
+        "forge-1.20.1" = _KVlpGdSY;
         "fabric-1.21.11" = _uipS8BLZ;
         "fabric-1.21.1" = _3q2vQwYe;
         "fabric-1.20.1" = _bS0hN8Qv;
@@ -198,7 +204,8 @@ let
         "pkg-1.2" = _id0PyLfD;
         "pkg-1.2.1" = _A0VYpBzi;
         "pkg-1.2.2" = _bS0hN8Qv;
-        "default" = _bS0hN8Qv;
+        "pkg-1.2.3" = _KVlpGdSY;
+        "default" = _KVlpGdSY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "solberry";

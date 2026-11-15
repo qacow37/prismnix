@@ -121,6 +121,11 @@ let
             "file" = "Render Distance+.jar";
             "hash" = "sha512-/Pbz5rdDyLR05rtuPElEjUQooc8KK5SqJeFb/d6Fo33fqBUqc56lybmxYK4460lV8jFKIphBfpD48B57grVabA==";
         };
+        _fZW90C9U = {
+            "id" = "fZW90C9U";
+            "file" = "Render Distance+.jar";
+            "hash" = "sha512-tPMFm8e1mIUD+CU5QqkZqavQLrBSdA6onbTsdt+RxEW3NIJcTRfF+ipwB9IyPYuVn/f2eSlTTl+m5Q/NfjvzGw==";
+        };
     in {
         "fdPJsZIS" = _fdPJsZIS;
         "G9SA1kL7" = _G9SA1kL7;
@@ -146,6 +151,7 @@ let
         "ljNKC8xs" = _ljNKC8xs;
         "4KjO2sFq" = _4KjO2sFq;
         "Qc71kl6E" = _Qc71kl6E;
+        "fZW90C9U" = _fZW90C9U;
         "datapack-1.21.11" = _4KjO2sFq;
         "datapack-26.1" = _4KjO2sFq;
         "datapack-26.1.1" = _4KjO2sFq;
@@ -157,24 +163,24 @@ let
         "datapack-1.21.6" = _4hRpT0c0;
         "datapack-1.21.7" = _4hRpT0c0;
         "datapack-26.3" = _4KjO2sFq;
-        "fabric-1.21.8" = _Qc71kl6E;
-        "fabric-1.21.9" = _Qc71kl6E;
-        "fabric-1.21.10" = _Qc71kl6E;
-        "fabric-1.21.11" = _Qc71kl6E;
-        "fabric-26.1" = _Qc71kl6E;
-        "fabric-26.1.1" = _Qc71kl6E;
-        "fabric-26.1.2" = _Qc71kl6E;
-        "fabric-26.2" = _Qc71kl6E;
-        "fabric-26.3" = _Qc71kl6E;
-        "quilt-1.21.8" = _Qc71kl6E;
-        "quilt-1.21.9" = _Qc71kl6E;
-        "quilt-1.21.10" = _Qc71kl6E;
-        "quilt-1.21.11" = _Qc71kl6E;
-        "quilt-26.1" = _Qc71kl6E;
-        "quilt-26.1.1" = _Qc71kl6E;
-        "quilt-26.1.2" = _Qc71kl6E;
-        "quilt-26.2" = _Qc71kl6E;
-        "quilt-26.3" = _Qc71kl6E;
+        "fabric-1.21.8" = _fZW90C9U;
+        "fabric-1.21.9" = _fZW90C9U;
+        "fabric-1.21.10" = _fZW90C9U;
+        "fabric-1.21.11" = _fZW90C9U;
+        "fabric-26.1" = _fZW90C9U;
+        "fabric-26.1.1" = _fZW90C9U;
+        "fabric-26.1.2" = _fZW90C9U;
+        "fabric-26.2" = _fZW90C9U;
+        "fabric-26.3" = _fZW90C9U;
+        "quilt-1.21.8" = _fZW90C9U;
+        "quilt-1.21.9" = _fZW90C9U;
+        "quilt-1.21.10" = _fZW90C9U;
+        "quilt-1.21.11" = _fZW90C9U;
+        "quilt-26.1" = _fZW90C9U;
+        "quilt-26.1.1" = _fZW90C9U;
+        "quilt-26.1.2" = _fZW90C9U;
+        "quilt-26.2" = _fZW90C9U;
+        "quilt-26.3" = _fZW90C9U;
         "pkg-1.0.0" = _fdPJsZIS;
         "pkg-1.0.1" = _jnSrz3eQ;
         "pkg-1.0.2" = _UmETt4CG;
@@ -193,7 +199,8 @@ let
         "pkg-1.1.0" = _ljNKC8xs;
         "pkg-1.1.1" = _4KjO2sFq;
         "pkg-1.2.0" = _Qc71kl6E;
-        "default" = _Qc71kl6E;
+        "pkg-1.2.1" = _fZW90C9U;
+        "default" = _fZW90C9U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "render-distance-plus";

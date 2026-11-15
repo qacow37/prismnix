@@ -2886,6 +2886,16 @@ let
             "file" = "travelersbackpack-fabric-26.3-11.4.4.jar";
             "hash" = "sha512-5ywWmSVdjJPnV6VZ5klAg9l9KPJgArRZY4k4McP/qgMZtONAg7oJVMOfcZJEUpUqBzeOhfFQIGlAWn87cqHbCg==";
         };
+        _F759alaJ = {
+            "id" = "F759alaJ";
+            "file" = "travelersbackpack-fabric-26.3-11.4.5.jar";
+            "hash" = "sha512-rVU5W+RfdVS/ZXxTWSmJbpvzt3lIz2aRsq2E3hq9hACpEA2ZBxqOEWhlYwrKkP9ZQH4mG/ChAhbslrYCW8jQdg==";
+        };
+        _Q02MvPoU = {
+            "id" = "Q02MvPoU";
+            "file" = "travelersbackpack-neoforge-26.3-11.4.5.jar";
+            "hash" = "sha512-vdIwGbHUjN+o+C8RBVACTJpVKw8HF+/mkEDsahU9TDwZ1rTmJ/D9oUFo+gLVyGKvcQysBkNMYyctd1ga6d3iYw==";
+        };
     in {
         "3JLbcslr" = _3JLbcslr;
         "kenpECMd" = _kenpECMd;
@@ -3464,6 +3474,8 @@ let
         "JrOhWsXk" = _JrOhWsXk;
         "ku10OEnd" = _ku10OEnd;
         "Vrtb34Ji" = _Vrtb34Ji;
+        "F759alaJ" = _F759alaJ;
+        "Q02MvPoU" = _Q02MvPoU;
         "forge-1.12.2" = _3JLbcslr;
         "forge-1.16.5" = _6NAEVL5U;
         "forge-1.17.1" = _ZX1zUypH;
@@ -3502,7 +3514,7 @@ let
         "fabric-26.1.1" = _nkLEWUqE;
         "fabric-26.1.2" = _nkLEWUqE;
         "fabric-26.2" = _PagAM0A0;
-        "fabric-26.3" = _Vrtb34Ji;
+        "fabric-26.3" = _F759alaJ;
         "neoforge-1.20.4" = _BNberKGE;
         "neoforge-1.20.6" = _7F2hRnJ3;
         "neoforge-1.21" = _41RS1Evh;
@@ -3518,7 +3530,7 @@ let
         "neoforge-26.1.1" = _gvH9BSzg;
         "neoforge-26.1.2" = _LX6k4E9I;
         "neoforge-26.2" = _wUABrDVo;
-        "neoforge-26.3" = _ku10OEnd;
+        "neoforge-26.3" = _Q02MvPoU;
         "pkg-1.12.2-1.0.35" = _3JLbcslr;
         "pkg-1.16.5-5.4.4" = _kenpECMd;
         "pkg-1.17.1-6.0.4" = _AMhy8riF;
@@ -3852,7 +3864,8 @@ let
         "pkg-1.21.11-10.11.12" = _YQ2jBwbk;
         "pkg-1.21.1-10.1.41" = _JrOhWsXk;
         "pkg-26.3-11.4.4" = _Vrtb34Ji;
-        "default" = _Vrtb34Ji;
+        "pkg-26.3-11.4.5" = _Q02MvPoU;
+        "default" = _Q02MvPoU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelersbackpack";

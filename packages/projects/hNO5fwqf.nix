@@ -366,6 +366,11 @@ let
             "file" = "enderio_evolution-3.1.6-NeoForge-1.21.1.jar";
             "hash" = "sha512-EZlTntw5OCuUHOnmsT7T2k4BBwDmTJAu49m+OWDyjIFmDaIdcVQ4KO2mj4mZnij1akFCMTWUah8KA3VckIlJWQ==";
         };
+        _T3eohUHB = {
+            "id" = "T3eohUHB";
+            "file" = "enderio_evolution-4.0.8-NeoForge-26.1.2.jar";
+            "hash" = "sha512-my7iaXZoig8BvrdBx7ZPXzjxbT+i8Xn7aALgUg77ujVVuNufmaFqtBfHpt6gSx4aHA4EWRibW5lReZLMXaXWiA==";
+        };
     in {
         "BcX2EEeH" = _BcX2EEeH;
         "dYuGhtsw" = _dYuGhtsw;
@@ -440,8 +445,9 @@ let
         "Jb6Bt38r" = _Jb6Bt38r;
         "bpOd2hA4" = _bpOd2hA4;
         "FJ4ERZVi" = _FJ4ERZVi;
+        "T3eohUHB" = _T3eohUHB;
         "neoforge-1.21.1" = _FJ4ERZVi;
-        "neoforge-26.1.2" = _Jb6Bt38r;
+        "neoforge-26.1.2" = _T3eohUHB;
         "forge-1.20.1" = _bpOd2hA4;
         "pkg-1.0.0-1.21.1" = _BcX2EEeH;
         "pkg-1.0.0-1.20.1" = _dYuGhtsw;
@@ -516,7 +522,8 @@ let
         "pkg-4.0.7-NeoForge-26.1.2" = _Jb6Bt38r;
         "pkg-1.2.6-Forge-1.20.1" = _bpOd2hA4;
         "pkg-3.1.6-NeoForge-1.21.1" = _FJ4ERZVi;
-        "default" = _FJ4ERZVi;
+        "pkg-4.0.8-NeoForge-26.1.2" = _T3eohUHB;
+        "default" = _T3eohUHB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderio_evolution";

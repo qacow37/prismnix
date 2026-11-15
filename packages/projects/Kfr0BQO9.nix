@@ -256,6 +256,11 @@ let
             "file" = "enchantments-plus-fabric-1.2.6+26.1.2.jar";
             "hash" = "sha512-kDfntgYWg5DzS4JT4itAPc7cupe88oFFxQL+lEFsJgnrFGXnlsY2Q0P6njhxjWOpjUvBWfxrrpIrducNa9rccw==";
         };
+        _AIgvPgil = {
+            "id" = "AIgvPgil";
+            "file" = "enchantments-plus-fabric-1.2.6+1.20.1.jar";
+            "hash" = "sha512-P2Lio7LrySV/l/juJ51T3I3luytdMPohTOWdSCYuwEHmAMGxqVNqzGmPulCsPM/ZvxTHFp2bd/Gp/ET/N+3Xtw==";
+        };
     in {
         "guEFSpJC" = _guEFSpJC;
         "Fnk4pvxO" = _Fnk4pvxO;
@@ -308,6 +313,7 @@ let
         "5mfVPDv1" = _5mfVPDv1;
         "KvcPkavm" = _KvcPkavm;
         "lxxmNKew" = _lxxmNKew;
+        "AIgvPgil" = _AIgvPgil;
         "fabric-1.19.3" = _S9iPaSlF;
         "fabric-1.19.2" = _HMP81OFV;
         "fabric-1.19" = _SVj9v0cA;
@@ -317,7 +323,7 @@ let
         "fabric-1.16.1" = _r88mtJUB;
         "fabric-1.19.4" = _rb1QoHtb;
         "fabric-1.20" = _hVtTfOrF;
-        "fabric-1.20.1" = _4XJS1jmv;
+        "fabric-1.20.1" = _AIgvPgil;
         "fabric-1.19.1" = _SVj9v0cA;
         "fabric-1.20.2" = _vazVbjQM;
         "fabric-1.20.4" = _D6SFe5d3;
@@ -391,7 +397,8 @@ let
         "pkg-1.2.6+26.3" = _5mfVPDv1;
         "pkg-1.2.6+26.1.1" = _KvcPkavm;
         "pkg-1.2.6+26.1.2" = _lxxmNKew;
-        "default" = _lxxmNKew;
+        "pkg-1.2.6+1.20.1" = _AIgvPgil;
+        "default" = _AIgvPgil;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantments-plus";

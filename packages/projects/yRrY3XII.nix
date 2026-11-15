@@ -231,6 +231,11 @@ let
             "file" = "extradelight-2.7.jar";
             "hash" = "sha512-Zd1Wi9wimBnuedg9k/x8C8RXXbsY2LKJUflQCEYfXjSi3TnNBipF0+sWGwjQwnuRkeC6watfASncpTqRaakOFA==";
         };
+        _qoAnW1in = {
+            "id" = "qoAnW1in";
+            "file" = "extradelight-2.7.1.jar";
+            "hash" = "sha512-4Zdlx29ui2ggw0qQJD8eBr8l+i5lPXVPnD8RX8JiNsUI+vwORfYGLykSmBj6uyQNLjmpbJK4aLh4kTxOEJlbhw==";
+        };
     in {
         "jVznC3S8" = _jVznC3S8;
         "ubF3HiEo" = _ubF3HiEo;
@@ -278,9 +283,10 @@ let
         "XntyupDn" = _XntyupDn;
         "1SSgrmDa" = _1SSgrmDa;
         "zUBFUbzl" = _zUBFUbzl;
+        "qoAnW1in" = _qoAnW1in;
         "forge-1.19.2" = _33ak1nKW;
         "neoforge-1.21" = _Stgl0fET;
-        "neoforge-1.21.1" = _zUBFUbzl;
+        "neoforge-1.21.1" = _qoAnW1in;
         "pkg-1.1.3" = _jVznC3S8;
         "pkg-1.1.4" = _ubF3HiEo;
         "pkg-1.1.6" = _vRAad702;
@@ -327,7 +333,8 @@ let
         "pkg-2.6.5" = _XntyupDn;
         "pkg-2.6.6" = _1SSgrmDa;
         "pkg-2.7" = _zUBFUbzl;
-        "default" = _zUBFUbzl;
+        "pkg-2.7.1" = _qoAnW1in;
+        "default" = _qoAnW1in;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extradelight";

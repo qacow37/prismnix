@@ -126,6 +126,51 @@ let
             "file" = "bettercaravans-neoforge-26.3-1.1.2.jar";
             "hash" = "sha512-ey795beiOWxZdvPxtkUHYhgTe0spCNx4JB2/3kAMc+/p22mVrArEg1/bQ1mf5Xl6gT1N7ZzvH1cUmuyKyPQO4g==";
         };
+        _Qj3kL6uQ = {
+            "id" = "Qj3kL6uQ";
+            "file" = "bettercaravans-forge-1.19.2-1.3.0.jar";
+            "hash" = "sha512-rPdryR7J8dw0go3ilCEHSY3b7YhxsOi6OPb6KSWTtwuTtQbxxspRPAqLPC30dMmZEtsBRzbwniOjgOQHeQ4fsg==";
+        };
+        _ZDZ77uhm = {
+            "id" = "ZDZ77uhm";
+            "file" = "bettercaravans-forge-1.20.1-1.3.0.jar";
+            "hash" = "sha512-pQaRDRwWqowgftEuzNI5yjiW/YDhA2GFZMVvEzBumT8t9CaDtWK/GoHbh9Mp8tA1StbU72GYiWKATTDy6HrFPw==";
+        };
+        _hESoQXHn = {
+            "id" = "hESoQXHn";
+            "file" = "bettercaravans-forge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-TPGz7ug5HE1K7D63q2lZblG0zLNCPyGGYoXkrcpvsm73dEjkvOoNewphobdOzghtjfOeJZc6MTIjD+Dr7+p+bg==";
+        };
+        _3t0UAQc1 = {
+            "id" = "3t0UAQc1";
+            "file" = "bettercaravans-forge-1.21.11-1.3.0.jar";
+            "hash" = "sha512-ssw2StTLoamyXzrIi0lgEpdTomMal4r0w02mHMixzWnE+iCTBD9Qld4rINeOp3runBQvQeeZcDS13w5uwm3SrA==";
+        };
+        _3ejsvb4j = {
+            "id" = "3ejsvb4j";
+            "file" = "bettercaravans-neoforge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-ECKRkCv2nwPDOIAMcVUIE1dUju48rG4c2XbLGYosjJQa5de6PxzscuDF1IHlZX473xOTltbbBRozLgyC/vI99A==";
+        };
+        _5NDoSz8L = {
+            "id" = "5NDoSz8L";
+            "file" = "bettercaravans-neoforge-1.21.11-1.3.0.jar";
+            "hash" = "sha512-A7Qjz17g8MRjIOIYoFPXqDF0W8ICFs/D56V1SIVbChP4vMFo+zOVFiPmaJR8qzJYdzf0pb7o/0KBmR9lOzg7jQ==";
+        };
+        _cLITX2Qr = {
+            "id" = "cLITX2Qr";
+            "file" = "bettercaravans-neoforge-26.1.2-1.3.0.jar";
+            "hash" = "sha512-BYNb5PqCUlvj45uPrsQdq0IGlJBVMCehKBeLq+57l5THqvCz10ns+bBCXcgKm26tU4xHpcfxLWYtexJW7TFFJw==";
+        };
+        _lwrsphHk = {
+            "id" = "lwrsphHk";
+            "file" = "bettercaravans-neoforge-26.2-1.3.0.jar";
+            "hash" = "sha512-kqy31jeMS6r7PhP+MzlNaqiLYXAhRyrZmplsUOfbmyVQd4YmvB8q3uo1rH4tpJX9eN5ee+NETT9r+6+HVNxkcA==";
+        };
+        _qpkcykwY = {
+            "id" = "qpkcykwY";
+            "file" = "bettercaravans-neoforge-26.3-1.3.0.jar";
+            "hash" = "sha512-VpcjI6OJ2SFkeWUWG629N59nt8eJfbDoWpEKHdSzfrhtVTSCr+bO61vXEoB6MlBIlvh2XeUh+ii6ivZyNq5elA==";
+        };
     in {
         "SplWoTSG" = _SplWoTSG;
         "EUMATzRv" = _EUMATzRv;
@@ -152,20 +197,33 @@ let
         "FkoWtj2Z" = _FkoWtj2Z;
         "lZ217jE1" = _lZ217jE1;
         "O48pKUQB" = _O48pKUQB;
-        "forge-1.20.1" = _YAGETKLi;
-        "forge-1.19.2" = _ZpxpElDa;
-        "neoforge-1.21.1" = _1n7xrpYb;
+        "Qj3kL6uQ" = _Qj3kL6uQ;
+        "ZDZ77uhm" = _ZDZ77uhm;
+        "hESoQXHn" = _hESoQXHn;
+        "3t0UAQc1" = _3t0UAQc1;
+        "3ejsvb4j" = _3ejsvb4j;
+        "5NDoSz8L" = _5NDoSz8L;
+        "cLITX2Qr" = _cLITX2Qr;
+        "lwrsphHk" = _lwrsphHk;
+        "qpkcykwY" = _qpkcykwY;
+        "forge-1.20.1" = _ZDZ77uhm;
+        "forge-1.19.2" = _Qj3kL6uQ;
+        "forge-1.21.1" = _hESoQXHn;
+        "forge-1.21.11" = _3t0UAQc1;
+        "neoforge-1.21.1" = _3ejsvb4j;
         "neoforge-26.1" = _FkoWtj2Z;
-        "neoforge-26.1.2" = _LmqAm18K;
-        "neoforge-26.2" = _lZ217jE1;
-        "neoforge-26.3" = _O48pKUQB;
+        "neoforge-26.1.2" = _cLITX2Qr;
+        "neoforge-26.2" = _lwrsphHk;
+        "neoforge-26.3" = _qpkcykwY;
+        "neoforge-1.21.11" = _5NDoSz8L;
         "pkg-1.0.0" = _EUMATzRv;
         "pkg-1.0.1" = _aFWH0jlH;
         "pkg-1.0.2" = _g6jpqqMM;
         "pkg-1.0.3" = _ftllkORH;
         "pkg-1.1.0" = _WSjkjsk6;
         "pkg-1.1.2" = _O48pKUQB;
-        "default" = _O48pKUQB;
+        "pkg-1.3.0" = _qpkcykwY;
+        "default" = _qpkcykwY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-caravans";

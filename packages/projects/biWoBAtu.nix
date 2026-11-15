@@ -131,6 +131,26 @@ let
             "file" = "schematicindex-0.8.2+26.3.jar";
             "hash" = "sha512-fJDH55nXBVqvMLUmJGQwT8p9k20/KDrjNcJuLMZslePwUbTFJI00guZI5dj+TFtYS37+FNM5nAW9sZZrjR7Qiw==";
         };
+        _nhXhsnoL = {
+            "id" = "nhXhsnoL";
+            "file" = "schematicindex-0.8.5+1.21.11.jar";
+            "hash" = "sha512-XA+igDXeWgIT2g3wL9/Lsg6X/p0/LUGmLlWVnHxVv9wkxkd7pKolSeGhZHFcjcENWpLfkiHSInuvnfB4Ysbllg==";
+        };
+        _6ZG6kBRC = {
+            "id" = "6ZG6kBRC";
+            "file" = "schematicindex-0.8.5+26.1.jar";
+            "hash" = "sha512-meQID1PmcpOVkgWGva0NBtsyVT7ryl2VwGhWzGf4RNYY5jbVSj+ypwiLtn8XUydFfqYkGv5VqDITVkcDTQD6Pg==";
+        };
+        _pP2UKJQe = {
+            "id" = "pP2UKJQe";
+            "file" = "schematicindex-0.8.5+26.2.jar";
+            "hash" = "sha512-aU5Yu2BPD74X9ptV82RQEuI4XLRPbFgaQPPVNmBIFkZnx1K7kSRlzZKECMMFUr9dByqGWy532YhIISMeFo25Fg==";
+        };
+        _OhHOas4c = {
+            "id" = "OhHOas4c";
+            "file" = "schematicindex-0.8.5+26.3.jar";
+            "hash" = "sha512-Uss2C475+TwjIQNUKZ5CVmK63oY0sIEvvwnpE9YfAVNguXntz048ZsHom1j63DAtGMbQt3P+iyurFz4gMOoRVw==";
+        };
     in {
         "JTS5UaQD" = _JTS5UaQD;
         "tyqAwfVm" = _tyqAwfVm;
@@ -158,12 +178,16 @@ let
         "zQpg20r2" = _zQpg20r2;
         "D0GpYSpu" = _D0GpYSpu;
         "7Jc5cbCQ" = _7Jc5cbCQ;
-        "fabric-1.21.11" = _6Ciud1ue;
-        "fabric-26.2" = _D0GpYSpu;
-        "fabric-26.1.2" = _zQpg20r2;
-        "fabric-26.1" = _zQpg20r2;
-        "fabric-26.1.1" = _zQpg20r2;
-        "fabric-26.3" = _7Jc5cbCQ;
+        "nhXhsnoL" = _nhXhsnoL;
+        "6ZG6kBRC" = _6ZG6kBRC;
+        "pP2UKJQe" = _pP2UKJQe;
+        "OhHOas4c" = _OhHOas4c;
+        "fabric-1.21.11" = _nhXhsnoL;
+        "fabric-26.2" = _pP2UKJQe;
+        "fabric-26.1.2" = _6ZG6kBRC;
+        "fabric-26.1" = _6ZG6kBRC;
+        "fabric-26.1.1" = _6ZG6kBRC;
+        "fabric-26.3" = _OhHOas4c;
         "pkg-0.6.5" = _JTS5UaQD;
         "pkg-0.6.6+1.21.11" = _tyqAwfVm;
         "pkg-0.6.6+26.2" = _5XDQSQlH;
@@ -190,7 +214,11 @@ let
         "pkg-0.8.2+26.1" = _zQpg20r2;
         "pkg-0.8.2+26.2" = _D0GpYSpu;
         "pkg-0.8.2+26.3" = _7Jc5cbCQ;
-        "default" = _7Jc5cbCQ;
+        "pkg-0.8.5+1.21.11" = _nhXhsnoL;
+        "pkg-0.8.5+26.1" = _6ZG6kBRC;
+        "pkg-0.8.5+26.2" = _pP2UKJQe;
+        "pkg-0.8.5+26.3" = _OhHOas4c;
+        "default" = _OhHOas4c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-schematic-index";

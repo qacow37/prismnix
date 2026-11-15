@@ -2066,6 +2066,16 @@ let
             "file" = "architectury-neoforge-22.0.5.jar";
             "hash" = "sha512-BOb7BWraDwFIwAJSfNrAmmUfJ1xfprbby819T9YqTrb1g9dxEDDhyCsAM5uoCNgHCliKVDLzNJA9i0MKDaR65Q==";
         };
+        _xGfBrBzj = {
+            "id" = "xGfBrBzj";
+            "file" = "architectury-13.0.12-neoforge.jar";
+            "hash" = "sha512-KGEn+ZcI0eJyPh3MkQTryrJY8E25IED8I5Tlt/rzbXMe87hOWS2U7A0Pf4meyoT4BrHgEiI9pIlNTYr1Aw/+Dw==";
+        };
+        _WklfM1A0 = {
+            "id" = "WklfM1A0";
+            "file" = "architectury-13.0.12-fabric.jar";
+            "hash" = "sha512-5DaySqVPlAG9DDv/+V/Y3x/kTrt+puQaygszfglBMmX7+WdhBluNfr8/q+Rb0PrQ3uQ9MC779D57uIU9ycghrw==";
+        };
     in {
         "37aObfvM" = _37aObfvM;
         "gyNUAhlG" = _gyNUAhlG;
@@ -2480,6 +2490,8 @@ let
         "ohb3PBGZ" = _ohb3PBGZ;
         "1pMaB6So" = _1pMaB6So;
         "dZ7iNvS4" = _dZ7iNvS4;
+        "xGfBrBzj" = _xGfBrBzj;
+        "WklfM1A0" = _WklfM1A0;
         "fabric-1.18.2" = _ql0OowZw;
         "fabric-1.16.5" = _ScYnvqdx;
         "fabric-1.18" = _468H7PSo;
@@ -2523,8 +2535,8 @@ let
         "fabric-1.20.5-pre1" = _K1mZCldi;
         "fabric-1.20.5" = _iqKljDnd;
         "fabric-1.20.6" = _vvN5UGnq;
-        "fabric-1.21" = _Pzc2FP5K;
-        "fabric-1.21.1" = _Pzc2FP5K;
+        "fabric-1.21" = _WklfM1A0;
+        "fabric-1.21.1" = _WklfM1A0;
         "fabric-24w40a" = _M7ETXdSr;
         "fabric-1.21.2" = _i3y5Sm14;
         "fabric-1.21.3" = _i3y5Sm14;
@@ -2593,8 +2605,8 @@ let
         "neoforge-1.20.4" = _1ROEGmfO;
         "neoforge-1.20.5" = _Th6yhTAa;
         "neoforge-1.20.6" = _whouAO7b;
-        "neoforge-1.21" = _1IiqEQGl;
-        "neoforge-1.21.1" = _1IiqEQGl;
+        "neoforge-1.21" = _xGfBrBzj;
+        "neoforge-1.21.1" = _xGfBrBzj;
         "neoforge-1.21.2" = _avlNAUxs;
         "neoforge-1.21.3" = _avlNAUxs;
         "neoforge-1.21.4" = _qOJoTaPQ;
@@ -3022,7 +3034,9 @@ let
         "pkg-21.1.12+fabric" = _ohb3PBGZ;
         "pkg-22.0.5+fabric" = _1pMaB6So;
         "pkg-22.0.5+neoforge" = _dZ7iNvS4;
-        "default" = _dZ7iNvS4;
+        "pkg-13.0.12+neoforge" = _xGfBrBzj;
+        "pkg-13.0.12+fabric" = _WklfM1A0;
+        "default" = _WklfM1A0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "architectury-api";

@@ -136,6 +136,16 @@ let
             "file" = "freefbible-NEOFORGE-26.3-1.0.0.jar";
             "hash" = "sha512-K/xVsvbao+eoadNdUS9juaCdemceaCre3q1BM/6npOa0lpET3WKMDZkxIGALXE9NZrrgtHGD7jbb2xB2QBkzYw==";
         };
+        _M1iBbQl9 = {
+            "id" = "M1iBbQl9";
+            "file" = "freefbible-NEOFORGE-26.3-1.0.1.jar";
+            "hash" = "sha512-0Cbm7kp9amUOw4E15V5rif6uDkNUpHPL/gAFUZB6sbKLWbk26dwbqsbWdHUFuxybUWoPhLWVcZPpPvDTy4mkUg==";
+        };
+        _9cJEOHTk = {
+            "id" = "9cJEOHTk";
+            "file" = "freefbible-FABRIC-26.3-1.0.0.jar";
+            "hash" = "sha512-77XIuKPeZj0qAKhbWaRzlra6dUDM3sVJgyMpHa0DajXvSpOnEqhESfHG8f63D7n9Yo4pT9kef44y07kKPs/unA==";
+        };
     in {
         "xTjbKAwC" = _xTjbKAwC;
         "V2P2lL4e" = _V2P2lL4e;
@@ -164,12 +174,15 @@ let
         "N3vYw9WF" = _N3vYw9WF;
         "2GwXT85F" = _2GwXT85F;
         "K0fin8fh" = _K0fin8fh;
+        "M1iBbQl9" = _M1iBbQl9;
+        "9cJEOHTk" = _9cJEOHTk;
         "fabric-1.20.1" = _xTjbKAwC;
         "fabric-1.21.5" = _2FlCaEZs;
         "fabric-1.21.1" = _43LBQj5U;
         "fabric-1.21.11" = _cNaxrtdm;
         "fabric-26.2" = _avQ1RpCI;
         "fabric-1.19.2" = _N3vYw9WF;
+        "fabric-26.3" = _9cJEOHTk;
         "quilt-1.20.1" = _xTjbKAwC;
         "quilt-1.21.1" = _43LBQj5U;
         "forge-1.12.2" = _V2P2lL4e;
@@ -193,7 +206,7 @@ let
         "neoforge-1.21.8" = _feUbqUVm;
         "neoforge-26.1.2" = _osnu1DsF;
         "neoforge-26.2" = _zLTGk40D;
-        "neoforge-26.3" = _K0fin8fh;
+        "neoforge-26.3" = _M1iBbQl9;
         "pkg-FABRIC-1.20.1-1.0.0" = _xTjbKAwC;
         "pkg-FORGE-1.12.2-1.0.0" = _V2P2lL4e;
         "pkg-FORGE-1.16.5-1.0.0" = _iHuchGby;
@@ -220,7 +233,9 @@ let
         "pkg-FABRIC-26.2-1.0.0" = _avQ1RpCI;
         "pkg-FABRIC-1.19.2-1.0.0" = _N3vYw9WF;
         "pkg-NEOFORGE-26.3-1.0.0" = _K0fin8fh;
-        "default" = _K0fin8fh;
+        "pkg-NEOFORGE-26.3-1.0.1" = _M1iBbQl9;
+        "pkg-FABRIC-26.3-1.0.0" = _9cJEOHTk;
+        "default" = _9cJEOHTk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bible";

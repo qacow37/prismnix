@@ -146,6 +146,21 @@ let
             "file" = "createphotomovement-fabric-1.20.1-0.3.4.jar";
             "hash" = "sha512-stJ/PcoLusNrtzB4rxXeYN2mXMcE1AFFyLdEVB9/+tjXJvkKDvtR21VxCr/S4h/bPVwAqNkXdQLDUk5UpYSrrQ==";
         };
+        _nehyfOyJ = {
+            "id" = "nehyfOyJ";
+            "file" = "createphotomovement-neoforge-1.21.1-0.4.0.jar";
+            "hash" = "sha512-QaxnRciEaGzdW3jQvLhKTADNyxw1EuXnTYZdYSuA9z/v8z/UzLEWDYrisEOc8lG3fvAwJ5XsRgeqzSkQUxPnDA==";
+        };
+        _EstLsMVc = {
+            "id" = "EstLsMVc";
+            "file" = "createphotomovement-neoforge-1.20.1-0.4.0.jar";
+            "hash" = "sha512-z7kqX+cS3cD6RHXpCofvEXlu6waGkKU8RqOGjEr4xKskc2nNdFjlbq252zcvLlTTJHNcwBGIV57I+ObvLLjRiQ==";
+        };
+        _BZ19dIrl = {
+            "id" = "BZ19dIrl";
+            "file" = "createphotomovement-fabric-1.20.1-0.4.0.jar";
+            "hash" = "sha512-NqlC4hwnF8ORfVAooMzOe6DepKW+WJgmJEhJKTfdQRxKIf0UgrJ/B3+0AG7xEudWmOg3g22emDTefOLVwGI53w==";
+        };
     in {
         "6mwDkVtJ" = _6mwDkVtJ;
         "teus5P1Q" = _teus5P1Q;
@@ -176,16 +191,19 @@ let
         "nsz0sj4C" = _nsz0sj4C;
         "YPcMhklt" = _YPcMhklt;
         "wHYXwgoC" = _wHYXwgoC;
-        "neoforge-1.21.1" = _nsz0sj4C;
-        "neoforge-1.20.1" = _YPcMhklt;
-        "forge-1.20.1" = _YPcMhklt;
+        "nehyfOyJ" = _nehyfOyJ;
+        "EstLsMVc" = _EstLsMVc;
+        "BZ19dIrl" = _BZ19dIrl;
+        "neoforge-1.21.1" = _nehyfOyJ;
+        "neoforge-1.20.1" = _EstLsMVc;
+        "forge-1.20.1" = _EstLsMVc;
         "forge-1.20.2" = _ZMvFOvxo;
         "forge-1.20.3" = _ZMvFOvxo;
         "forge-1.20.4" = _ZMvFOvxo;
         "forge-1.20.5" = _ZMvFOvxo;
         "forge-1.20.6" = _ZMvFOvxo;
         "forge-1.21.1" = _xCcq3XPW;
-        "fabric-1.20.1" = _wHYXwgoC;
+        "fabric-1.20.1" = _BZ19dIrl;
         "pkg-0.0.1" = _6mwDkVtJ;
         "pkg-0.0.2" = _teus5P1Q;
         "pkg-mc1211-0.1.0" = _aUd4ntEK;
@@ -209,7 +227,10 @@ let
         "pkg-0.3.4+neoforge-1.21.1" = _nsz0sj4C;
         "pkg-0.3.4+neoforge-1.20.1" = _YPcMhklt;
         "pkg-0.3.4+fabric-1.20.1" = _wHYXwgoC;
-        "default" = _wHYXwgoC;
+        "pkg-0.4.0+neoforge-1.21.1" = _nehyfOyJ;
+        "pkg-0.4.0+neoforge-1.20.1" = _EstLsMVc;
+        "pkg-0.4.0+fabric-1.20.1" = _BZ19dIrl;
+        "default" = _BZ19dIrl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-photomovement";

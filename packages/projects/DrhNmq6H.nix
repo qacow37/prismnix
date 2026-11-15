@@ -56,6 +56,16 @@ let
             "file" = "sweety_horse_armor_tweaks-2.1.0-neoforge-1.21.1.jar";
             "hash" = "sha512-W/p/VbwQ2vm6lGg5enXcIKDdnx3e/9ArqYf/kRcUpfe2op+Rz+DLa3STOpnJJLffot2Sb+jfdKo+UP8rqNViZQ==";
         };
+        _DTUkqZGf = {
+            "id" = "DTUkqZGf";
+            "file" = "sweety_horse_armor_tweaks-2.1.1-forge-1.20.1.jar";
+            "hash" = "sha512-eLIarQvgH4mP86zpOTLis35/Vz5rTuRSWObdoQLD/+Bc9C1ICg2YgNAKhH9qcOk6B8B0u96/C28lgWxjvYtY1A==";
+        };
+        _LIZJ4pLp = {
+            "id" = "LIZJ4pLp";
+            "file" = "sweety_horse_armor_tweaks-2.1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-XFEtTXzHrCrcykYn8s+4cPIRzQCmzWTJs8BFpeHdypFOJ1MEf2XBKps9/ZLrJ30TCyr3tPliRjxBpJfB2xLZlA==";
+        };
     in {
         "gEStivdQ" = _gEStivdQ;
         "ffoUVRnu" = _ffoUVRnu;
@@ -68,20 +78,23 @@ let
         "kwznCIhc" = _kwznCIhc;
         "uq734V8i" = _uq734V8i;
         "nyYA3iBf" = _nyYA3iBf;
+        "DTUkqZGf" = _DTUkqZGf;
+        "LIZJ4pLp" = _LIZJ4pLp;
         "forge-1.19" = _Ldm9VQjZ;
         "forge-1.19.1" = _Ldm9VQjZ;
         "forge-1.19.2" = _Ldm9VQjZ;
         "forge-1.19.3" = _zAbjAKR5;
         "forge-1.19.4" = _zAbjAKR5;
         "forge-1.20" = _ufDJEH7F;
-        "forge-1.20.1" = _uq734V8i;
-        "neoforge-1.21.1" = _nyYA3iBf;
+        "forge-1.20.1" = _DTUkqZGf;
+        "neoforge-1.21.1" = _LIZJ4pLp;
         "pkg-1.0.0" = _Cg0bsCeZ;
         "pkg-1.1.0" = _ufDJEH7F;
         "pkg-2.0.0" = _MMLywMq7;
         "pkg-2.0.1" = _kwznCIhc;
         "pkg-2.1.0" = _nyYA3iBf;
-        "default" = _nyYA3iBf;
+        "pkg-2.1.1" = _LIZJ4pLp;
+        "default" = _LIZJ4pLp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sweetys-horse-armor-tweaks";

@@ -201,6 +201,16 @@ let
             "file" = "easegui-neoforge-1.0.0+1.21.1.jar";
             "hash" = "sha512-G2NLIo0ktAxOFR1ZC+/aV7a94lV3eG/mKdnAyIPoxjkaWG2pfYN52sapkAZemiqqErg6HBRFjqvzFRiE4SowOw==";
         };
+        _eDyTF0kE = {
+            "id" = "eDyTF0kE";
+            "file" = "easegui-fabric-1.0.0+1.20.1.jar";
+            "hash" = "sha512-B0bI7hDquYTeB77rcKcj9XvtDbN1/528U/gG5sxI4n4IsPZxwYWK38cn85j5oam8l7QthCZJ7rCPHyPtxbmj9w==";
+        };
+        _nCN0U707 = {
+            "id" = "nCN0U707";
+            "file" = "easegui-forge-1.0.0+1.20.1.jar";
+            "hash" = "sha512-J1J5HEVgcZ2fT7IMY/w4XXumR3MR1oVpqWEGoBKeAloUv9xFkEuTP/FkS77FeOJNBZDa+l8mCSb5D7sfUdaFvA==";
+        };
     in {
         "PpbtmO4W" = _PpbtmO4W;
         "TeJuB2pV" = _TeJuB2pV;
@@ -242,10 +252,12 @@ let
         "uJC8Xv96" = _uJC8Xv96;
         "8i6CvOZN" = _8i6CvOZN;
         "n88LzH1b" = _n88LzH1b;
+        "eDyTF0kE" = _eDyTF0kE;
+        "nCN0U707" = _nCN0U707;
         "fabric-1.21.1" = _8i6CvOZN;
         "fabric-1.21.11" = _Fz0g3tQl;
         "fabric-26.2" = _RvC7hm5v;
-        "fabric-1.20.1" = _H5s3rSF1;
+        "fabric-1.20.1" = _eDyTF0kE;
         "fabric-26.1" = _X157OO7c;
         "fabric-26.1.1" = _X157OO7c;
         "fabric-26.1.2" = _X157OO7c;
@@ -257,7 +269,7 @@ let
         "neoforge-26.1.1" = _ianprNkZ;
         "neoforge-26.1.2" = _ianprNkZ;
         "neoforge-26.3" = _uJC8Xv96;
-        "forge-1.20.1" = _jxfVezHx;
+        "forge-1.20.1" = _nCN0U707;
         "pkg-0.1.0" = _TeJuB2pV;
         "pkg-0.2.0" = _XYRLKOzI;
         "pkg-0.3.0" = _QWc9kNS0;
@@ -278,7 +290,8 @@ let
         "pkg-1.0.0+26.1" = _ianprNkZ;
         "pkg-1.0.0+26.3" = _uJC8Xv96;
         "pkg-1.0.0+1.21.1" = _n88LzH1b;
-        "default" = _n88LzH1b;
+        "pkg-1.0.0+1.20.1" = _nCN0U707;
+        "default" = _nCN0U707;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easegui";

@@ -76,6 +76,16 @@ let
             "file" = "ShadowedHearts-fabric-1.0.6-Hotfix-SNAPSHOT.jar";
             "hash" = "sha512-TFQhrcOm8qB4zSr7WUKJr0DnGEkCUNgEsSwaFgjag1r+F6ePW1ny3BE039USh82xU96WDmR9JoGnDqyHZWsvhw==";
         };
+        _Mzub8iHb = {
+            "id" = "Mzub8iHb";
+            "file" = "ShadowedHearts-fabric-2.0.0-alpha.jar";
+            "hash" = "sha512-N598QesKfp2FB+BY9N7wzVfSYLZLf+ydrevw4uhGEz82ZexsC/jRyBD88iIOy83zkF/KOLYAAFSZm5zp78EueQ==";
+        };
+        _32U14zQn = {
+            "id" = "32U14zQn";
+            "file" = "ShadowedHearts-neoforge-2.0.0-alpha.jar";
+            "hash" = "sha512-gOOKOY/eG0UAHfevWLyoN3jeQvffpxuIiwxlsPnGkbLB87slonrElMXEOBsd/pJActxyf2QkW8xbif63Be7m1w==";
+        };
     in {
         "dPqmO9OQ" = _dPqmO9OQ;
         "TXelSkql" = _TXelSkql;
@@ -92,8 +102,10 @@ let
         "PX6kJYbH" = _PX6kJYbH;
         "sEkMUBpz" = _sEkMUBpz;
         "tFIJNLak" = _tFIJNLak;
-        "neoforge-1.21.1" = _PX6kJYbH;
-        "fabric-1.21.1" = _tFIJNLak;
+        "Mzub8iHb" = _Mzub8iHb;
+        "32U14zQn" = _32U14zQn;
+        "neoforge-1.21.1" = _32U14zQn;
+        "fabric-1.21.1" = _Mzub8iHb;
         "pkg-1.0-SNAPSHOT-NeoForge" = _dPqmO9OQ;
         "pkg-1.0-SNAPSHOT-Fabric" = _TXelSkql;
         "pkg-1.0.2-SNAPSHOT" = _1n0mpQaK;
@@ -103,7 +115,8 @@ let
         "pkg-1.0.5-SNAPSHOT" = _UQwLiP5H;
         "pkg-1.0.6-SNAPSHOT" = _sEkMUBpz;
         "pkg-1.0.6-Hotfix-SNAPSHOT" = _tFIJNLak;
-        "default" = _tFIJNLak;
+        "pkg-2.0.0" = _32U14zQn;
+        "default" = _32U14zQn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-shadowedhearts";

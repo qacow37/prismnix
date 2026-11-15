@@ -511,6 +511,16 @@ let
             "file" = "PickableVillagers-fabric-26.1.2.jar";
             "hash" = "sha512-kiA1tbMVyMj9lDKhQNlk4R8VqUVLahQtQzxTDDqvEfSG9qfqRA4+2az7V48qdEV5KQJyy2tpHHSRAXb3xfNCmQ==";
         };
+        _EqayxVQk = {
+            "id" = "EqayxVQk";
+            "file" = "PickableVillagers-fabric-26.2.jar";
+            "hash" = "sha512-J1oneEOgvgWXPYMN1OrwPhGUcSU6rNmmNWuTyz0ovFAufsJpzEe2W3FhfA+WiKcs9QqnOHZSjIbC2yvCcwHY5g==";
+        };
+        _VZ59pEBJ = {
+            "id" = "VZ59pEBJ";
+            "file" = "PickableVillagers-fabric-26.3.jar";
+            "hash" = "sha512-+ji/J/kPYhU4+dE9ZMps03EB5nTvW7QOC1qpLxv3EaeQfrqiwFhqYviRRrHxVjpJtzPva9PytTKhGoGVNdthLA==";
+        };
     in {
         "FQMrJOdS" = _FQMrJOdS;
         "cKSCGEPv" = _cKSCGEPv;
@@ -614,6 +624,8 @@ let
         "hdgs1ypA" = _hdgs1ypA;
         "ScKT8zbm" = _ScKT8zbm;
         "AB5KMxci" = _AB5KMxci;
+        "EqayxVQk" = _EqayxVQk;
+        "VZ59pEBJ" = _VZ59pEBJ;
         "fabric-1.16.5" = _Oy3bUap3;
         "fabric-1.17.1" = _C5MmUNDM;
         "fabric-1.18.2" = _YgfTeMqf;
@@ -634,6 +646,8 @@ let
         "fabric-1.21.6" = _x7FtSFo1;
         "fabric-1.21.7" = _x7FtSFo1;
         "fabric-26.1.2" = _AB5KMxci;
+        "fabric-26.2" = _EqayxVQk;
+        "fabric-26.3" = _VZ59pEBJ;
         "pkg-1.0.5+1.16.5" = _FQMrJOdS;
         "pkg-1.1.4+1.17.1" = _cKSCGEPv;
         "pkg-1.2.4+1.18.2" = _4WiB5Rs4;
@@ -686,7 +700,9 @@ let
         "pkg-3.3.3" = _hdgs1ypA;
         "pkg-3.3.4" = _ScKT8zbm;
         "pkg-26.1.2" = _AB5KMxci;
-        "default" = _AB5KMxci;
+        "pkg-26.2" = _EqayxVQk;
+        "pkg-26.3" = _VZ59pEBJ;
+        "default" = _VZ59pEBJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickable-villagers";

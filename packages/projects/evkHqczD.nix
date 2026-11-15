@@ -351,6 +351,21 @@ let
             "file" = "GameInfo-4.0.6.3.alpha-Fabric.jar";
             "hash" = "sha512-bWGSm6xPH/AnjdB49WJqHVivLniO80SW0nwYn/EiyJv2+339pMFA+x2fzGBqatpwxomZT7bEKfSrShLnLYgTJA==";
         };
+        _PvNE4UIQ = {
+            "id" = "PvNE4UIQ";
+            "file" = "GameInfo-26.3-Fabric-3.1.5.jar";
+            "hash" = "sha512-+eKc4+FYEfYRJduVXmGkaXfF6Qzp4y2R99a+i8b/CACRrIv9REB1lUZ3v01JfJBGupLLXbedV5AkhAY5ZP2bzg==";
+        };
+        _638GADt9 = {
+            "id" = "638GADt9";
+            "file" = "GameInfo-26.4-snapshot-8-Fabric-4.0.8.alpha.jar";
+            "hash" = "sha512-nMps6GEBiFhjc5z49NB1nmymsLBPwGUZAGFF6PJ8SF6Lbj02hXNcsGaIk6Q0KamCwjwb6uX7Tf43VGhq26qJQg==";
+        };
+        _BADnjS4R = {
+            "id" = "BADnjS4R";
+            "file" = "GameInfo-26.3-Fabric-3.1.6.jar";
+            "hash" = "sha512-UC10QVsdd/bTiSxNizps3M06xJpEXolod+CyE0vm3pmukQscWnHw2vRKhSNblTF6onDIvZgwarjUDSjmEp74RQ==";
+        };
     in {
         "1XogJU6n" = _1XogJU6n;
         "rWh0tzft" = _rWh0tzft;
@@ -422,6 +437,9 @@ let
         "ImtWA678" = _ImtWA678;
         "ybstcHnW" = _ybstcHnW;
         "IuiOIqBk" = _IuiOIqBk;
+        "PvNE4UIQ" = _PvNE4UIQ;
+        "638GADt9" = _638GADt9;
+        "BADnjS4R" = _BADnjS4R;
         "fabric-26.2" = _gyNlUCy4;
         "fabric-26.3-snapshot-4" = _a12zl6L8;
         "fabric-26.3-snapshot-1" = _5BpsTI2A;
@@ -442,7 +460,7 @@ let
         "fabric-26.3-rc-1" = _BxvtaI55;
         "fabric-26.3-rc-2" = _gbFR6xbr;
         "fabric-26.3-rc-3" = _TRnJTfDW;
-        "fabric-26.3" = _ybstcHnW;
+        "fabric-26.3" = _BADnjS4R;
         "fabric-26.4-snapshot-1" = _eCy5KQG7;
         "fabric-26.4-snapshot-2" = _udjIg3xU;
         "fabric-26.4-snapshot-3" = _ePt1UI0z;
@@ -451,6 +469,7 @@ let
         "fabric-1.21.11" = _2X1V5DKQ;
         "fabric-1.21.1" = _HXFhSqcp;
         "fabric-26.4-snapshot-6" = _IuiOIqBk;
+        "fabric-26.4-snapshot-8" = _638GADt9;
         "neoforge-26.3" = _ImtWA678;
         "pkg-v29-20260721" = _1XogJU6n;
         "pkg-v30-20260814" = _rWh0tzft;
@@ -522,7 +541,10 @@ let
         "pkg-26.3-3.1.0-NeoForge" = _ImtWA678;
         "pkg-26.3-3.1.4-Fabric" = _ybstcHnW;
         "pkg-4.0.6.3.alpha" = _IuiOIqBk;
-        "default" = _IuiOIqBk;
+        "pkg-26.3-3.1.5-Fabric" = _PvNE4UIQ;
+        "pkg-26.4-snapshot-4.0.8.alpha-Fabric" = _638GADt9;
+        "pkg-v3.1.6" = _BADnjS4R;
+        "default" = _BADnjS4R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gameinfo";

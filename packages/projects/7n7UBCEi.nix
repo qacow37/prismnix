@@ -371,6 +371,11 @@ let
             "file" = "Crafting Cloth v2.3.28.zip";
             "hash" = "sha512-6uF/Q7T4PElB9TAEFVgVSCXso9jA6vV6ysdI7VvHFS9Px7Xa/Bj2hMrSQcMx5KAutF3Ty7vDct8/xTkYqolnKA==";
         };
+        _gOrhVMtz = {
+            "id" = "gOrhVMtz";
+            "file" = "Crafting Cloth v2.3.29.zip";
+            "hash" = "sha512-l94m4bkMOGbyNdSMLh5UxU5A4QQBMbhGewIlnOaCCZirSgDRMDKpk6AV7vxoQ/Rsy64HPrhVDFvkZQQ+w9hK3w==";
+        };
     in {
         "49KKQ5P1" = _49KKQ5P1;
         "E6O0Qofa" = _E6O0Qofa;
@@ -446,6 +451,7 @@ let
         "D9E3uIHP" = _D9E3uIHP;
         "fREILQhu" = _fREILQhu;
         "R1q1ZfrB" = _R1q1ZfrB;
+        "gOrhVMtz" = _gOrhVMtz;
         "minecraft-1.20" = _pcHtNfY0;
         "minecraft-1.20.1" = _pcHtNfY0;
         "minecraft-1.20.2" = _pcHtNfY0;
@@ -582,9 +588,9 @@ let
         "minecraft-1.21.9-pre3" = _xB3jFPNj;
         "minecraft-1.21.9-pre4" = _xB3jFPNj;
         "minecraft-1.21.9-rc1" = _xB3jFPNj;
-        "minecraft-1.21.9" = _yGLsrgEV;
+        "minecraft-1.21.9" = _gOrhVMtz;
         "minecraft-1.21.10-rc1" = _F9h3CmZx;
-        "minecraft-1.21.10" = _yGLsrgEV;
+        "minecraft-1.21.10" = _gOrhVMtz;
         "minecraft-25w41a" = _pqYXhvLU;
         "minecraft-25w42a" = _pqYXhvLU;
         "minecraft-25w43a" = _yz0okHWM;
@@ -599,7 +605,7 @@ let
         "minecraft-1.21.11-rc1" = _EKAY31Ro;
         "minecraft-1.21.11-rc2" = _EKAY31Ro;
         "minecraft-1.21.11-rc3" = _EKAY31Ro;
-        "minecraft-1.21.11" = _yGLsrgEV;
+        "minecraft-1.21.11" = _gOrhVMtz;
         "minecraft-26.1-snapshot-1" = _522lkmPd;
         "minecraft-26.1-snapshot-2" = _wC3QfJSN;
         "minecraft-26.1-snapshot-3" = _3xlHZ0qe;
@@ -615,16 +621,16 @@ let
         "minecraft-26.1-pre-2" = _97SVK0cj;
         "minecraft-26.1-pre-3" = _97SVK0cj;
         "minecraft-26.1-rc-1" = _97SVK0cj;
-        "minecraft-26.1" = _yGLsrgEV;
-        "minecraft-26.1.1" = _yGLsrgEV;
-        "minecraft-26.1.2" = _yGLsrgEV;
+        "minecraft-26.1" = _gOrhVMtz;
+        "minecraft-26.1.1" = _gOrhVMtz;
+        "minecraft-26.1.2" = _gOrhVMtz;
         "minecraft-26.2-snapshot-1" = _NnFPOxRj;
         "minecraft-26.2-snapshot-2" = _NnFPOxRj;
         "minecraft-26.2-snapshot-3" = _K8kBATEZ;
         "minecraft-26.2-snapshot-4" = _xASvBxLz;
         "minecraft-26.2-snapshot-5" = _xASvBxLz;
         "minecraft-26.2-snapshot-7" = _IrHAWyDt;
-        "minecraft-26.2" = _yGLsrgEV;
+        "minecraft-26.2" = _gOrhVMtz;
         "minecraft-26.3-snapshot-1" = _fREILQhu;
         "minecraft-26.3-snapshot-2" = _fREILQhu;
         "minecraft-26.3-snapshot-3" = _fREILQhu;
@@ -633,7 +639,15 @@ let
         "minecraft-26.3-snapshot-6" = _fREILQhu;
         "minecraft-26.3-snapshot-7" = _fREILQhu;
         "minecraft-26.3-snapshot-8" = _fREILQhu;
-        "minecraft-26.3" = _R1q1ZfrB;
+        "minecraft-26.3" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-1" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-2" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-3" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-4" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-5" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-6" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-7" = _gOrhVMtz;
+        "minecraft-26.4-snapshot-8" = _gOrhVMtz;
         "pkg-1.0.1" = _49KKQ5P1;
         "pkg-1.0.2" = _E6O0Qofa;
         "pkg-1.1.1" = _qEp1gHft;
@@ -708,7 +722,8 @@ let
         "pkg-v2.3.26-snapshot6" = _D9E3uIHP;
         "pkg-v2.3.27-26.3snapshotX" = _fREILQhu;
         "pkg-v2.3.28" = _R1q1ZfrB;
-        "default" = _R1q1ZfrB;
+        "pkg-v2.3.29" = _gOrhVMtz;
+        "default" = _gOrhVMtz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafting-cloth";

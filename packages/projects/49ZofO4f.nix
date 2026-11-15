@@ -546,6 +546,11 @@ let
             "file" = "enderio-8.2.13-beta.jar";
             "hash" = "sha512-Ze2jH+u430T9unII5yIvQItBbZE8gFH21kVwu2XOCYPK9p8bIpOq6jtCjvyPwPfla7058NwOu6kXrmMPMmD10A==";
         };
+        _N6zrKYgj = {
+            "id" = "N6zrKYgj";
+            "file" = "enderio-9.0.7-alpha.jar";
+            "hash" = "sha512-Movo6oZswMJ8/XJkORMA9h8PNK8bMDQGd8ma9H+tmNpiyiK+2S1S0OMCCDa7TQ2PuQQqe8mbdcR8mkCLxES+UQ==";
+        };
     in {
         "8hsUEFyr" = _8hsUEFyr;
         "fi9xUBqs" = _fi9xUBqs;
@@ -656,11 +661,12 @@ let
         "2bHl1dCW" = _2bHl1dCW;
         "SNsMXOPB" = _SNsMXOPB;
         "KUk8AN5v" = _KUk8AN5v;
+        "N6zrKYgj" = _N6zrKYgj;
         "forge-1.20.1" = _nJnmg29v;
         "forge-1.12.2" = _ozde4Meh;
         "neoforge-1.21" = _AzTCyAPX;
         "neoforge-1.21.1" = _KUk8AN5v;
-        "neoforge-26.1.2" = _SNsMXOPB;
+        "neoforge-26.1.2" = _N6zrKYgj;
         "pkg-6.0.1-alpha" = _8hsUEFyr;
         "pkg-6.0.2-alpha" = _fi9xUBqs;
         "pkg-6.0.3-alpha" = _4FBAMXmR;
@@ -770,7 +776,8 @@ let
         "pkg-v8.2.12-beta" = _2bHl1dCW;
         "pkg-v9.0.6-alpha" = _SNsMXOPB;
         "pkg-v8.2.13-beta" = _KUk8AN5v;
-        "default" = _KUk8AN5v;
+        "pkg-v9.0.7-alpha" = _N6zrKYgj;
+        "default" = _N6zrKYgj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderio";

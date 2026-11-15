@@ -46,6 +46,11 @@ let
             "file" = "aXess-0.4.0-neoforge.jar";
             "hash" = "sha512-5OOH252+9D9XuyeUI3Zzcp3AY7wHHXc/O4HDKbiXTdLbgIrJP1tenTUhw132PRUSBHQ0f8+NxaQQ0xo6YrjMuA==";
         };
+        _IKMoYcVo = {
+            "id" = "IKMoYcVo";
+            "file" = "aXess-0.4.1-neoforge.jar";
+            "hash" = "sha512-Vn6/KP9OjQ80Yc9+NRc1/9lKg+Fmx2AdY7LSVQjYC2Xo7JMAZM04CgNTTMcJCejcpn4YLPLdnZUjWghyPFL3ig==";
+        };
     in {
         "bd5kAjj9" = _bd5kAjj9;
         "NVgzITtV" = _NVgzITtV;
@@ -56,23 +61,24 @@ let
         "L9WHLlaZ" = _L9WHLlaZ;
         "zAhbDFlL" = _zAhbDFlL;
         "4t0C7FCL" = _4t0C7FCL;
+        "IKMoYcVo" = _IKMoYcVo;
         "forge-1.20.1" = _zAhbDFlL;
         "forge-1.20.2" = _zAhbDFlL;
         "forge-1.20.3" = _zAhbDFlL;
         "forge-1.20.4" = _zAhbDFlL;
         "forge-1.20.5" = _zAhbDFlL;
         "forge-1.20.6" = _zAhbDFlL;
-        "neoforge-1.21.1" = _4t0C7FCL;
-        "neoforge-1.21.2" = _4t0C7FCL;
-        "neoforge-1.21.3" = _4t0C7FCL;
-        "neoforge-1.21.4" = _4t0C7FCL;
-        "neoforge-1.21.5" = _4t0C7FCL;
-        "neoforge-1.21.6" = _4t0C7FCL;
-        "neoforge-1.21.7" = _4t0C7FCL;
-        "neoforge-1.21.8" = _4t0C7FCL;
-        "neoforge-1.21.9" = _4t0C7FCL;
-        "neoforge-1.21.10" = _4t0C7FCL;
-        "neoforge-1.21.11" = _4t0C7FCL;
+        "neoforge-1.21.1" = _IKMoYcVo;
+        "neoforge-1.21.2" = _IKMoYcVo;
+        "neoforge-1.21.3" = _IKMoYcVo;
+        "neoforge-1.21.4" = _IKMoYcVo;
+        "neoforge-1.21.5" = _IKMoYcVo;
+        "neoforge-1.21.6" = _IKMoYcVo;
+        "neoforge-1.21.7" = _IKMoYcVo;
+        "neoforge-1.21.8" = _IKMoYcVo;
+        "neoforge-1.21.9" = _IKMoYcVo;
+        "neoforge-1.21.10" = _IKMoYcVo;
+        "neoforge-1.21.11" = _IKMoYcVo;
         "pkg-0.1.0" = _bd5kAjj9;
         "pkg-0.2.0" = _NVgzITtV;
         "pkg-0.2.1" = _38hqYWsC;
@@ -81,7 +87,8 @@ let
         "pkg-0.3.2" = _VTtD2GEb;
         "pkg-0.3.3" = _L9WHLlaZ;
         "pkg-0.4.0" = _4t0C7FCL;
-        "default" = _4t0C7FCL;
+        "pkg-0.4.1" = _IKMoYcVo;
+        "default" = _IKMoYcVo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axess-keycards";

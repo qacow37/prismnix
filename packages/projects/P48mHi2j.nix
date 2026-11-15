@@ -771,6 +771,16 @@ let
             "file" = "JAOPCA-26.1.2-6.0.3.3.jar";
             "hash" = "sha512-3QtHUYi3D6Dy3vp7q0R0kwf1Mp/0F5ukkxob82fbBYrFRXvJ+H41+m/B5i8Y/Vm8Jr7hp4fmZtVQ7R6xo6hotQ==";
         };
+        _uOcaf7z7 = {
+            "id" = "uOcaf7z7";
+            "file" = "JAOPCA-1.21.1-5.0.15.25.jar";
+            "hash" = "sha512-jFVHZx90QLZ6E4bIJIRrizMvaw/Ds/XnlfmC/frkiNiCro1tazb0EaV6euokT9KMxj4p49YAjk3k5+izeBgCfw==";
+        };
+        _4xeeueFc = {
+            "id" = "4xeeueFc";
+            "file" = "JAOPCA-26.1.2-6.0.3.4.jar";
+            "hash" = "sha512-g8SLDyXT3/5DrY3tn0MWZONly0X95Kzi5je51rqO9Wf6Ao30d75pSNpjKJZEzzOZzHpwMvHWfA2eJkoTGfPhMA==";
+        };
     in {
         "rAX9T1mU" = _rAX9T1mU;
         "XcAgSBhc" = _XcAgSBhc;
@@ -926,6 +936,8 @@ let
         "gbozsyDe" = _gbozsyDe;
         "t23iaiXV" = _t23iaiXV;
         "wJJuyWoD" = _wJJuyWoD;
+        "uOcaf7z7" = _uOcaf7z7;
+        "4xeeueFc" = _4xeeueFc;
         "forge-1.12.2" = _TwNNnwOp;
         "forge-1.16.5" = _ftO6nC1p;
         "forge-1.18.2" = _Gr5y6Ecn;
@@ -935,8 +947,8 @@ let
         "neoforge-1.20.1" = _4uVDNMWX;
         "neoforge-1.20.4" = _1k84EQVY;
         "neoforge-1.21" = _Zee1WVxN;
-        "neoforge-1.21.1" = _t23iaiXV;
-        "neoforge-26.1.2" = _wJJuyWoD;
+        "neoforge-1.21.1" = _uOcaf7z7;
+        "neoforge-26.1.2" = _4xeeueFc;
         "pkg-1.12.2-2.3.9.19" = _rAX9T1mU;
         "pkg-1.16.5-3.4.4.32" = _XcAgSBhc;
         "pkg-1.18.2-4.1.17.38" = _cPUnq2Y6;
@@ -1091,7 +1103,9 @@ let
         "pkg-1.7.10-W.0.8.32" = _gbozsyDe;
         "pkg-1.21.1-5.0.15.24" = _t23iaiXV;
         "pkg-26.1.2-6.0.3.3" = _wJJuyWoD;
-        "default" = _wJJuyWoD;
+        "pkg-1.21.1-5.0.15.25" = _uOcaf7z7;
+        "pkg-26.1.2-6.0.3.4" = _4xeeueFc;
+        "default" = _4xeeueFc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jaopca";

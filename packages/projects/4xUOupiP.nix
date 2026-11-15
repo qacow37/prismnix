@@ -46,6 +46,11 @@ let
             "file" = "ModV1.0.13 (1).jar";
             "hash" = "sha512-JumZmHbWhrCxFoqKxNQModYphIzmP2WHJE2b8ODoX8pt2xtVlkv4u1AN8lIxSW42IqUrOUe6EjjBgohuES7f9A==";
         };
+        _CFulwzE1 = {
+            "id" = "CFulwzE1";
+            "file" = "Adminswords-1.20.1-FabricV1.0.12-Fixed.jar";
+            "hash" = "sha512-vGU/WhkRGIvmTtV/JAs2pLcTzpV4yHZxRJi64YXaCn2iSkTwgEZ2iUqqV4nEGNMZQXPb1Gp9L8rVdAedZAp77w==";
+        };
     in {
         "Sk7urKgF" = _Sk7urKgF;
         "xbiFVfk1" = _xbiFVfk1;
@@ -56,6 +61,7 @@ let
         "zlzzjv19" = _zlzzjv19;
         "eOyBHMap" = _eOyBHMap;
         "IGKW7XNN" = _IGKW7XNN;
+        "CFulwzE1" = _CFulwzE1;
         "neoforge-1.21.4" = _doFzk9MF;
         "neoforge-1.21.5" = _doFzk9MF;
         "neoforge-1.21.6" = _doFzk9MF;
@@ -74,13 +80,13 @@ let
         "forge-1.20.4" = _IGKW7XNN;
         "forge-1.20.5" = _IGKW7XNN;
         "forge-1.20.6" = _IGKW7XNN;
-        "fabric-1.20" = _eOyBHMap;
-        "fabric-1.20.1" = _eOyBHMap;
-        "fabric-1.20.2" = _eOyBHMap;
-        "fabric-1.20.3" = _eOyBHMap;
-        "fabric-1.20.4" = _eOyBHMap;
-        "fabric-1.20.5" = _eOyBHMap;
-        "fabric-1.20.6" = _eOyBHMap;
+        "fabric-1.20" = _CFulwzE1;
+        "fabric-1.20.1" = _CFulwzE1;
+        "fabric-1.20.2" = _CFulwzE1;
+        "fabric-1.20.3" = _CFulwzE1;
+        "fabric-1.20.4" = _CFulwzE1;
+        "fabric-1.20.5" = _CFulwzE1;
+        "fabric-1.20.6" = _CFulwzE1;
         "pkg-1.0.0" = _Sk7urKgF;
         "pkg-1.0.1" = _xbiFVfk1;
         "pkg-1.0.2" = _D3oFVKVH;
@@ -90,7 +96,8 @@ let
         "pkg-1.0.12" = _zlzzjv19;
         "pkg-1.0.12-Fabric" = _eOyBHMap;
         "pkg-1.0.13" = _IGKW7XNN;
-        "default" = _IGKW7XNN;
+        "pkg-1.0.12-Fabric-Fixed" = _CFulwzE1;
+        "default" = _CFulwzE1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "admin-swords";

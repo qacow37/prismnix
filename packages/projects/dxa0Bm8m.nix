@@ -286,6 +286,36 @@ let
             "file" = "veinminer-client-neoforge-2.13.1.jar";
             "hash" = "sha512-XPt2pB4QTRJyuECG+a3HOXGnJ2kbglLMSNbEnolLHqTHa6W2YPxHDs2iAVq5Ey8TBJwSe7cEkvGXD7+jlDbPWg==";
         };
+        _xdvMZKi6 = {
+            "id" = "xdvMZKi6";
+            "file" = "veinminer-client-fabric-2.14.0.jar";
+            "hash" = "sha512-laYAxP7R326pAVKKGv/skikeZRrbG9u67iDe8tc6LBAG+TIf5O+vrnBG5O2zyXqoDBFLeNqSOaCMAscgdAi6yg==";
+        };
+        _SAecpr2o = {
+            "id" = "SAecpr2o";
+            "file" = "veinminer-client-neoforge-2.14.0.jar";
+            "hash" = "sha512-LtohXSjMweZz75BldriRNJ3oQOtWXxoiLTdVMPKpgtzIJ1EZ8GRQas+YDB3MBFgKQyMSiPkmVRYLgsiwg0mCww==";
+        };
+        _XNoUvcev = {
+            "id" = "XNoUvcev";
+            "file" = "veinminer-client-fabric-2.14.0+1.21.11.jar";
+            "hash" = "sha512-qybfebFDqoRi9f5aFe2OujFXet0aIYNnNZzFdmCAYmmHFuaxsPv49fYfnbvx+2uCT395DLGn3MEUzV9ByXLpBw==";
+        };
+        _WJuCgUdS = {
+            "id" = "WJuCgUdS";
+            "file" = "veinminer-client-neoforge-2.14.0+1.21.11.jar";
+            "hash" = "sha512-0XcQz/EuYJwsAlC/V4qgj+nKUdHBzBQVGohGKw6838m38nIYUBjlHLAP3zAce5WKv5ChQDjCj6vL/hhxO+Lqmw==";
+        };
+        _E6yEDeJQ = {
+            "id" = "E6yEDeJQ";
+            "file" = "veinminer-client-fabric-2.14.0+1.21.1.jar";
+            "hash" = "sha512-q0eXaojnnzqFNO1PFte3DN0kMG3Dnr1ShZAgix7Laxm3C7on8P1t8eByYs06fkHSwKusEirmHhVV29/Fz+0JLg==";
+        };
+        _eyiRGy7h = {
+            "id" = "eyiRGy7h";
+            "file" = "veinminer-client-neoforge-2.14.0+1.21.1.jar";
+            "hash" = "sha512-pyadWh/T1mJJr/9R9EwkXJPvkDAy5zyOZQOkQeUko7MrjHZdKyuxcQiF3eLLyJQv0+WWJCFC56IxWconsEcN4A==";
+        };
     in {
         "fObrTfSZ" = _fObrTfSZ;
         "UYZNaDKc" = _UYZNaDKc;
@@ -344,11 +374,17 @@ let
         "1hxRaFIh" = _1hxRaFIh;
         "X4effOjM" = _X4effOjM;
         "vue8Vvep" = _vue8Vvep;
+        "xdvMZKi6" = _xdvMZKi6;
+        "SAecpr2o" = _SAecpr2o;
+        "XNoUvcev" = _XNoUvcev;
+        "WJuCgUdS" = _WJuCgUdS;
+        "E6yEDeJQ" = _E6yEDeJQ;
+        "eyiRGy7h" = _eyiRGy7h;
         "fabric-1.21.2" = _bVfGsbfb;
         "fabric-1.21.3" = _bVfGsbfb;
         "fabric-1.21.4" = _bVfGsbfb;
         "fabric-1.21" = _ycz8UR6d;
-        "fabric-1.21.1" = _PPnkQNVh;
+        "fabric-1.21.1" = _E6yEDeJQ;
         "fabric-1.20.5" = _ugWbusl4;
         "fabric-1.20.6" = _ugWbusl4;
         "fabric-1.21.5" = _Zfk0H9y4;
@@ -357,17 +393,17 @@ let
         "fabric-1.21.8" = _cWNP1COp;
         "fabric-1.21.9" = _RiJ5m0pN;
         "fabric-1.21.10" = _RiJ5m0pN;
-        "fabric-1.21.11" = _USzyPFTe;
+        "fabric-1.21.11" = _XNoUvcev;
         "fabric-26.1" = _sfgXyNVG;
         "fabric-26.1.1" = _sfgXyNVG;
         "fabric-26.1.2" = _sfgXyNVG;
         "fabric-26.2" = _bZ7WIGCC;
-        "fabric-26.3" = _X4effOjM;
+        "fabric-26.3" = _xdvMZKi6;
         "quilt-1.21.2" = _bVfGsbfb;
         "quilt-1.21.3" = _bVfGsbfb;
         "quilt-1.21.4" = _bVfGsbfb;
         "quilt-1.21" = _ycz8UR6d;
-        "quilt-1.21.1" = _PPnkQNVh;
+        "quilt-1.21.1" = _E6yEDeJQ;
         "quilt-1.20.5" = _ugWbusl4;
         "quilt-1.20.6" = _ugWbusl4;
         "quilt-1.21.5" = _Zfk0H9y4;
@@ -376,19 +412,19 @@ let
         "quilt-1.21.8" = _cWNP1COp;
         "quilt-1.21.9" = _RiJ5m0pN;
         "quilt-1.21.10" = _RiJ5m0pN;
-        "quilt-1.21.11" = _USzyPFTe;
+        "quilt-1.21.11" = _XNoUvcev;
         "quilt-26.1" = _sfgXyNVG;
         "quilt-26.1.1" = _sfgXyNVG;
         "quilt-26.1.2" = _sfgXyNVG;
         "quilt-26.2" = _bZ7WIGCC;
-        "quilt-26.3" = _X4effOjM;
+        "quilt-26.3" = _xdvMZKi6;
         "neoforge-26.1" = _ld9KW91B;
         "neoforge-26.1.1" = _ld9KW91B;
         "neoforge-26.1.2" = _ld9KW91B;
-        "neoforge-1.21.11" = _Aqks6yRv;
-        "neoforge-1.21.1" = _dIwSWhIM;
+        "neoforge-1.21.11" = _WJuCgUdS;
+        "neoforge-1.21.1" = _eyiRGy7h;
         "neoforge-26.2" = _A8MIAvsa;
-        "neoforge-26.3" = _vue8Vvep;
+        "neoforge-26.3" = _SAecpr2o;
         "pkg-2.4.0" = _fObrTfSZ;
         "pkg-2.4.1" = _UYZNaDKc;
         "pkg-2.4.2" = _Zfk0H9y4;
@@ -414,7 +450,8 @@ let
         "pkg-2.12.3" = _rxa0vmOU;
         "pkg-2.13.0" = _Qhmfbmjx;
         "pkg-2.13.1" = _vue8Vvep;
-        "default" = _vue8Vvep;
+        "pkg-2.14.0" = _eyiRGy7h;
+        "default" = _eyiRGy7h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veinminer-client";

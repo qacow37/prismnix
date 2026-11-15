@@ -21,17 +21,25 @@ let
             "file" = "dalekmod-69.4.24.jar";
             "hash" = "sha512-dBefXSU14QfK3E7wDN83Kc3LOuMqIxdiXnM3pXj9AkHJ8+cQ7L/ghVNUR8SzJddBSmUpbJ1wEnRGjOEMtcUhJg==";
         };
+        _OkBNmHXU = {
+            "id" = "OkBNmHXU";
+            "file" = "dalekmod-mc1.20.1-1.0.0.jar";
+            "hash" = "sha512-ZdDzDa2PQ3J0I0MShMspr4rYOdmOGocJgxasLHQhODpKrOSVgX3W+0J85tmJ9DV1inKMzmc3Bs4khpavLJ2bwg==";
+        };
     in {
         "PDiUc9cZ" = _PDiUc9cZ;
         "YpSUc9H0" = _YpSUc9H0;
         "qdKad0nR" = _qdKad0nR;
         "lTjj90fi" = _lTjj90fi;
+        "OkBNmHXU" = _OkBNmHXU;
         "forge-1.16.5" = _lTjj90fi;
+        "forge-1.20.1" = _OkBNmHXU;
         "pkg-66.0.0" = _PDiUc9cZ;
         "pkg-67.0.0" = _YpSUc9H0;
         "pkg-69.4.20" = _qdKad0nR;
         "pkg-69.4.24" = _lTjj90fi;
-        "default" = _lTjj90fi;
+        "pkg-1.20.1-1.0.0" = _OkBNmHXU;
+        "default" = _OkBNmHXU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dalek-mod";

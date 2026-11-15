@@ -91,6 +91,176 @@ let
             "file" = "enchanted_fishing_line-1.0.1-fabric-26.3.jar";
             "hash" = "sha512-ZlobdrYh/ZYxl5SEg3W8rfOKFs+zI6wR6TwZO0Dgu9KZ9MMDwvDFh472VazmqTEynNybdFXN1/uheD1vRHhwBQ==";
         };
+        _Bl2g6ycM = {
+            "id" = "Bl2g6ycM";
+            "file" = "enchanted_fishing_line-1.1-fabric-1.20.1.jar";
+            "hash" = "sha512-7azsHRglD4ABS+/WahYpgTxwBG6GeNPu2zM/rLhH4MKKr1zkl9OsgAP4gxdxucDnQR/+YDDSB9BV/9BgF/B9MA==";
+        };
+        _MA2ZgksZ = {
+            "id" = "MA2ZgksZ";
+            "file" = "enchanted_fishing_line-1.1-forge-1.20.1.jar";
+            "hash" = "sha512-tzbP64N6txlIv8cxpLO0dtKU220czmuhQ/IAeRZGIq0xapAQjPBDg7TaeRqrwPRT60yOLr0e/wmRTLMc3nYGLw==";
+        };
+        _cwprnJB9 = {
+            "id" = "cwprnJB9";
+            "file" = "enchanted_fishing_line-1.1-fabric-1.21.1.jar";
+            "hash" = "sha512-GcumR6RQnBqLAITDMOtirO2i7WKRHyfdieaLgLNv5AO86jy7/MZoulO1Xt0lraEAv2vQ9HyrPE8wnB24vYaZZw==";
+        };
+        _xc6Q3sfO = {
+            "id" = "xc6Q3sfO";
+            "file" = "enchanted_fishing_line-1.1-forge-1.21.1.jar";
+            "hash" = "sha512-kJohPPTF3cRwTuzRuXPHFcQaHi6HCbtipZnEd7evjUqtVRepziAIrW05X1fZwjOmfveqU5j3c2ayfeu+77CaRQ==";
+        };
+        _JWNHSPYD = {
+            "id" = "JWNHSPYD";
+            "file" = "enchanted_fishing_line-1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-WXWI7odGgkN0MnuwlikRkHf46hOFaavBSPexJXtKIAZIMEaJOt67ZyLD3ICfkm+4b4qX34KhduyC2C2zyFjvcA==";
+        };
+        _cgB1VTpv = {
+            "id" = "cgB1VTpv";
+            "file" = "enchanted_fishing_line-1.1-fabric-1.21.11.jar";
+            "hash" = "sha512-fB8EpZO4cCbcEN2rzmyqSC3x31QwY6J/5iAtdotT+41tTlk7gQGk6JqDL0cxAVeb5URF/S7dzqZA57GDcERd+Q==";
+        };
+        _aaUECc8p = {
+            "id" = "aaUECc8p";
+            "file" = "enchanted_fishing_line-1.1-forge-1.21.11.jar";
+            "hash" = "sha512-fGIKl/y9QFI7SbtYPzmVaTSPCg0KjPQJuWGoiEjINrbWu3Ez/KIX61hb235wrD50zivNglpjgyYMb3D4jANliA==";
+        };
+        _s6CqsFpM = {
+            "id" = "s6CqsFpM";
+            "file" = "enchanted_fishing_line-1.1-neoforge-1.21.11.jar";
+            "hash" = "sha512-bbDW3tDtH+xwS60npO8kZETiGNjM8NghK0Vm+491G5n1/NAZMmvoc8h5zvUBGIRE9rx2YlVFLH1S9xieJZvVVQ==";
+        };
+        _G0Say1DS = {
+            "id" = "G0Say1DS";
+            "file" = "enchanted_fishing_line-1.1-fabric-26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-Q6QfeUoQ1MfMTfqg3z9AJsSVgCOhuGCpCm1AQs8OY1L7DZTE4oJf1ZPJikL9bP4Ls/p9LyK+xxQ0mkytNaMgJA==";
+        };
+        _A3bxUJfr = {
+            "id" = "A3bxUJfr";
+            "file" = "enchanted_fishing_line-1.1-forge-26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-XQ7SCAxtf4oh5fSpyvl1xn+XUvJQKeMLjNVc9BaU8gEzdTocfdMaxWVu/oWhbu09MuHy6wUMrsOZJQM+SBf6jA==";
+        };
+        _fnu0Q2wE = {
+            "id" = "fnu0Q2wE";
+            "file" = "enchanted_fishing_line-1.1-neoforge-26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-f/Pc5PPNsuL7fhq+G1AlHOXNu8DyFGMZUCeKdkjKftTu7EW97ihPqUHSWvcEulDS54pAmCjFRX+HmKEtDuN92A==";
+        };
+        _Al0rfxtE = {
+            "id" = "Al0rfxtE";
+            "file" = "enchanted_fishing_line-1.1-fabric-26.2.jar";
+            "hash" = "sha512-qYSUm2lUzd7yQ98yo1XhukJWv0a8WpQN7TeqIAKPoVc1x/jinIJdlFnted5ItzHxu5Tlyj4A7gsT7DK8GMAJiw==";
+        };
+        _1BQeDF2D = {
+            "id" = "1BQeDF2D";
+            "file" = "enchanted_fishing_line-1.1-forge-26.2.jar";
+            "hash" = "sha512-QDnAFtiO/eXlIkyFSySsoBGJQwU7z7UiTzT8KPtthSvSWZcXXUXLVkUyBdRib8Eaqv9bvsJbiKK2e1/GWI6IEA==";
+        };
+        _qL3vLbD1 = {
+            "id" = "qL3vLbD1";
+            "file" = "enchanted_fishing_line-1.1-neoforge-26.2.jar";
+            "hash" = "sha512-4RzOZZHs+Ji2z6Fga23qudzYiSFN19Oq868ST9D7BqJZ/oLUJFxIw0n88eQGKkx4asuDo7e8LX4+uY9eg/5ujA==";
+        };
+        _pZABzjmn = {
+            "id" = "pZABzjmn";
+            "file" = "enchanted_fishing_line-1.1-fabric-26.3.jar";
+            "hash" = "sha512-8a294BQ0BxdiPhL0Fnbnm9S70KkgwsieDlEVptA6JeUR/GGhUogef88fRkolB2Y2GYc9brAyPxz8Q6NplwmDTQ==";
+        };
+        _qQosyy39 = {
+            "id" = "qQosyy39";
+            "file" = "enchanted_fishing_line-1.1-forge-26.3.jar";
+            "hash" = "sha512-cKzyAKo+WP8QEEOaMuoAOTloJZieboek4tBf2MLXb9wlD4HLaI5exjGHad7IKngNADcfezdack0UWQprvTRrZQ==";
+        };
+        _kz2PxwEp = {
+            "id" = "kz2PxwEp";
+            "file" = "enchanted_fishing_line-1.1-neoforge-26.3.jar";
+            "hash" = "sha512-TbPd/FayGToeh2HhkWtOQZkhAJZlLjJ44fimADZca9b1lUxRRosrLE8iVHVIk/0ZIPAA973eNaueZqw2Nimwzw==";
+        };
+        _quNMlKb1 = {
+            "id" = "quNMlKb1";
+            "file" = "enchanted_fishing_line-1.1.1-fabric-1.20.1.jar";
+            "hash" = "sha512-6+7V76xZ6WX7ditGZfqaKzJffRrGKnDH6HyoxwrsSfEfxCWJ0KWNT3OiUwPJ11WVfXqVz3vvVVXujVszehm3MA==";
+        };
+        _i0WHntWj = {
+            "id" = "i0WHntWj";
+            "file" = "enchanted_fishing_line-1.1.1-forge-1.20.1.jar";
+            "hash" = "sha512-2udjdQprRHmPfxxGFMHy0rZZINtPdm6FlLo/sus89Yy0VvQpPR3Lv1dRMPdJ0ZQYJZG84nUwtQ9ZPzLNsSDtVQ==";
+        };
+        _YO7dJ68p = {
+            "id" = "YO7dJ68p";
+            "file" = "enchanted_fishing_line-1.1.1-fabric-1.21.1.jar";
+            "hash" = "sha512-qSGdFmQGWLsng96+SrzTvDe/XtwU1X1Y9qfE5VluFMQ2a9qLpUK6RZZ1E1DNb7nK7b7zQXs95Gf4i7oQRTbPfA==";
+        };
+        _uOpqg4aP = {
+            "id" = "uOpqg4aP";
+            "file" = "enchanted_fishing_line-1.1.1-forge-1.21.1.jar";
+            "hash" = "sha512-Hb+aM/Mkfc5Jjb44Yu0e/AVSgGZJGYb2wPIsBy4eucGg1v/gXY8zWtgXNOSiFXbdHWYgBBZ3OLNPiu5AV8ruoA==";
+        };
+        _HNRIgUFH = {
+            "id" = "HNRIgUFH";
+            "file" = "enchanted_fishing_line-1.1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-faA61fghyqOOdcvTAgvvo3kc6chQS1a1dX06CHROoXXGMtwynEdn4ieRFn17pepPQ1x3lR2AgroQ8SkavimVyg==";
+        };
+        _37wNi4fm = {
+            "id" = "37wNi4fm";
+            "file" = "enchanted_fishing_line-1.1.1-fabric-1.21.11.jar";
+            "hash" = "sha512-I7Xchzba/cb16R5MtvBIYRgrekj24lTwDkHEejqqrwhGPXg5RXRe3GgNeOb08tvr3eJWFml78u7lV6g1UlSpPg==";
+        };
+        _1XKkQ8uQ = {
+            "id" = "1XKkQ8uQ";
+            "file" = "enchanted_fishing_line-1.1.1-forge-1.21.11.jar";
+            "hash" = "sha512-kRDt1vBdcYhgoS0j4c2kfEEAY4q8+l1qYw2/R87nGhYy//gMqnzcWinWg7a2ULlHA2pWH631jZrpPGR7i5Uo+A==";
+        };
+        _sdydmjbb = {
+            "id" = "sdydmjbb";
+            "file" = "enchanted_fishing_line-1.1.1-neoforge-1.21.11.jar";
+            "hash" = "sha512-IxHoGYby3fPvwSwSBU6vW51Nl6DqH9FAJYndU2M8E1dpxfeE3GlsMO22Axn1KXEOzX/lixx11CsoKR+rCHUvjg==";
+        };
+        _IbsPKq6Y = {
+            "id" = "IbsPKq6Y";
+            "file" = "enchanted_fishing_line-1.1.1-fabric-26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-P0/8MCZ/eUOwKHfQOF1yvBSTTX4ZEi7vwpIdGZKqZTEFPH+LvkDhxs4btqfVK8tCa6MQukxhNmX+NLKdRHv2ow==";
+        };
+        _r8zmUlpd = {
+            "id" = "r8zmUlpd";
+            "file" = "enchanted_fishing_line-1.1.1-forge-26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-EgjwseEXQvZNBv5fxeyHuMoyLwrOV3mzl9Dgevj4XqwkiOkYGjHYpivL76Zg2w3Vtdov1v+S+eGU7Z/LmuwnmQ==";
+        };
+        _BpKRzDdh = {
+            "id" = "BpKRzDdh";
+            "file" = "enchanted_fishing_line-1.1.1-neoforge-26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-afSgdI46kp8cYGJ2tS1qW7GiZxKvltSsvP8F5id85VCtwPD0QRvmUpiJzyQCq9nwGXQi1vZSe/Q2QPyK5nVtMA==";
+        };
+        _ICru9Zoj = {
+            "id" = "ICru9Zoj";
+            "file" = "enchanted_fishing_line-1.1.1-fabric-26.2.jar";
+            "hash" = "sha512-91NK3uVPwD9NewtQsWV0qyU9bq7q+pD6oR/cA1fFogou0ZpeKco2gt5QKbzF5XZVuR9xWO8komqJ/6E1lP3iPQ==";
+        };
+        _PGqV9LNM = {
+            "id" = "PGqV9LNM";
+            "file" = "enchanted_fishing_line-1.1.1-forge-26.2.jar";
+            "hash" = "sha512-POjVTDFTj7xpLV/SqEzBwyV655GUliKE1T7oidWbgeaTRpVw561+fGYs1vrdmsx6FSu3A+L1A+cx4JwESK7EDg==";
+        };
+        _dsCqEpEK = {
+            "id" = "dsCqEpEK";
+            "file" = "enchanted_fishing_line-1.1.1-neoforge-26.2.jar";
+            "hash" = "sha512-EO2oK/lq5lcDfYyDjizF4SO3fsaY1Xy1pvRzaEqUMXL7kHXQrnIkIK7DDQP1j3x7LhLg+duug6eAscJkr+sqCA==";
+        };
+        _uNEfZcEU = {
+            "id" = "uNEfZcEU";
+            "file" = "enchanted_fishing_line-1.1.1-fabric-26.3.jar";
+            "hash" = "sha512-S11sHKfQ+BVGzdwCBwfLVZSWVdXxuc2Q4NzM7l+rIhiN968c+eNTKtA8qrdDI54FNFtd/7r1ETnFZj+uR6So3Q==";
+        };
+        _m0Jdtmvo = {
+            "id" = "m0Jdtmvo";
+            "file" = "enchanted_fishing_line-1.1.1-forge-26.3.jar";
+            "hash" = "sha512-LhzZ1CDUlBOwAtbHxClXceglCUlUrYIaRO6wJFV61ue6nNqQxUwxmlRuE6tFgqxTBxCujlX9uaGS/sGwaKYeWw==";
+        };
+        _xj6jnjbm = {
+            "id" = "xj6jnjbm";
+            "file" = "enchanted_fishing_line-1.1.1-neoforge-26.3.jar";
+            "hash" = "sha512-ZarGc0jj4oFNl03rNk1D8wnY/mbt1g2YssLK14qpDIhrWemUtneVkAZ5HtQzjiAhoS+9ptA06MtH66VBzQQgaw==";
+        };
     in {
         "8SwzloQ7" = _8SwzloQ7;
         "iCrD6BUn" = _iCrD6BUn;
@@ -110,33 +280,69 @@ let
         "j09lQ3jq" = _j09lQ3jq;
         "aw8TLoWG" = _aw8TLoWG;
         "3hvA2QVv" = _3hvA2QVv;
-        "fabric-1.20.1" = _8SwzloQ7;
-        "fabric-1.21.1" = _C4wqGlsi;
-        "fabric-1.21.11" = _7k3mAoYZ;
-        "fabric-26.1" = _ytGOIxFq;
-        "fabric-26.1.1" = _ytGOIxFq;
-        "fabric-26.1.2" = _ytGOIxFq;
-        "fabric-26.2" = _WPLDIfpY;
-        "fabric-26.3" = _3hvA2QVv;
-        "forge-1.20.1" = _iCrD6BUn;
-        "forge-1.21.1" = _miUMPPHu;
-        "forge-1.21.11" = _6sK5K9cE;
-        "forge-26.1" = _ymRaDxvq;
-        "forge-26.1.1" = _ymRaDxvq;
-        "forge-26.1.2" = _ymRaDxvq;
-        "forge-26.2" = _Fyq3bQ35;
-        "forge-26.3" = _aw8TLoWG;
-        "neoforge-1.21.1" = _8nAbeyES;
-        "neoforge-1.21.11" = _AwT5Bgho;
-        "neoforge-26.1" = _vFAZABgO;
-        "neoforge-26.1.1" = _vFAZABgO;
-        "neoforge-26.1.2" = _vFAZABgO;
-        "neoforge-26.2" = _nioyS0ql;
-        "neoforge-26.3" = _j09lQ3jq;
+        "Bl2g6ycM" = _Bl2g6ycM;
+        "MA2ZgksZ" = _MA2ZgksZ;
+        "cwprnJB9" = _cwprnJB9;
+        "xc6Q3sfO" = _xc6Q3sfO;
+        "JWNHSPYD" = _JWNHSPYD;
+        "cgB1VTpv" = _cgB1VTpv;
+        "aaUECc8p" = _aaUECc8p;
+        "s6CqsFpM" = _s6CqsFpM;
+        "G0Say1DS" = _G0Say1DS;
+        "A3bxUJfr" = _A3bxUJfr;
+        "fnu0Q2wE" = _fnu0Q2wE;
+        "Al0rfxtE" = _Al0rfxtE;
+        "1BQeDF2D" = _1BQeDF2D;
+        "qL3vLbD1" = _qL3vLbD1;
+        "pZABzjmn" = _pZABzjmn;
+        "qQosyy39" = _qQosyy39;
+        "kz2PxwEp" = _kz2PxwEp;
+        "quNMlKb1" = _quNMlKb1;
+        "i0WHntWj" = _i0WHntWj;
+        "YO7dJ68p" = _YO7dJ68p;
+        "uOpqg4aP" = _uOpqg4aP;
+        "HNRIgUFH" = _HNRIgUFH;
+        "37wNi4fm" = _37wNi4fm;
+        "1XKkQ8uQ" = _1XKkQ8uQ;
+        "sdydmjbb" = _sdydmjbb;
+        "IbsPKq6Y" = _IbsPKq6Y;
+        "r8zmUlpd" = _r8zmUlpd;
+        "BpKRzDdh" = _BpKRzDdh;
+        "ICru9Zoj" = _ICru9Zoj;
+        "PGqV9LNM" = _PGqV9LNM;
+        "dsCqEpEK" = _dsCqEpEK;
+        "uNEfZcEU" = _uNEfZcEU;
+        "m0Jdtmvo" = _m0Jdtmvo;
+        "xj6jnjbm" = _xj6jnjbm;
+        "fabric-1.20.1" = _quNMlKb1;
+        "fabric-1.21.1" = _YO7dJ68p;
+        "fabric-1.21.11" = _37wNi4fm;
+        "fabric-26.1" = _IbsPKq6Y;
+        "fabric-26.1.1" = _IbsPKq6Y;
+        "fabric-26.1.2" = _IbsPKq6Y;
+        "fabric-26.2" = _ICru9Zoj;
+        "fabric-26.3" = _uNEfZcEU;
+        "forge-1.20.1" = _i0WHntWj;
+        "forge-1.21.1" = _uOpqg4aP;
+        "forge-1.21.11" = _1XKkQ8uQ;
+        "forge-26.1" = _r8zmUlpd;
+        "forge-26.1.1" = _r8zmUlpd;
+        "forge-26.1.2" = _r8zmUlpd;
+        "forge-26.2" = _PGqV9LNM;
+        "forge-26.3" = _m0Jdtmvo;
+        "neoforge-1.21.1" = _HNRIgUFH;
+        "neoforge-1.21.11" = _sdydmjbb;
+        "neoforge-26.1" = _BpKRzDdh;
+        "neoforge-26.1.1" = _BpKRzDdh;
+        "neoforge-26.1.2" = _BpKRzDdh;
+        "neoforge-26.2" = _dsCqEpEK;
+        "neoforge-26.3" = _xj6jnjbm;
         "pkg-1.0.0" = _nioyS0ql;
         "pkg-1.0.0-hotfix" = _7k3mAoYZ;
         "pkg-1.0.1" = _3hvA2QVv;
-        "default" = _3hvA2QVv;
+        "pkg-1.1" = _kz2PxwEp;
+        "pkg-1.1.1" = _xj6jnjbm;
+        "default" = _xj6jnjbm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanted-fishing-line";

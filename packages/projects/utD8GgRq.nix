@@ -576,6 +576,11 @@ let
             "file" = "bren-0.9.9b-26.3.jar";
             "hash" = "sha512-BQhTkC6MFkgQUUkTHzlgbsKxJ2icgqQWivn1tKljDAuNyHx/aFMPbSzXq+A5bARsWN1RkpOT6bzPJfhoWe8Npg==";
         };
+        _KZ2WjZN0 = {
+            "id" = "KZ2WjZN0";
+            "file" = "bren-0.9.9c-26.3.jar";
+            "hash" = "sha512-1D8iHUHNMN18DC/g/XZ83LvV+ZtuGo77N1zQOdxBlqz/NSOb6OeU3uRFNK17WWJ1qcSQQ4JAN4gkPx60iHfnoQ==";
+        };
     in {
         "BWkGAIYG" = _BWkGAIYG;
         "xPglOk91" = _xPglOk91;
@@ -692,6 +697,7 @@ let
         "knGS3KIG" = _knGS3KIG;
         "t9Uxw59g" = _t9Uxw59g;
         "12WvIdzH" = _12WvIdzH;
+        "KZ2WjZN0" = _KZ2WjZN0;
         "fabric-1.20.1" = _Zjfqunb2;
         "fabric-1.20.4" = _XSGqaALu;
         "fabric-1.21" = _FOGJimIS;
@@ -735,7 +741,7 @@ let
         "fabric-26.2-pre-6" = _w5sU67km;
         "fabric-26.2" = _oy1fvBwX;
         "fabric-26.3-snapshot-1" = _5xR6btBF;
-        "fabric-26.3" = _12WvIdzH;
+        "fabric-26.3" = _KZ2WjZN0;
         "pkg-0.4.1-1.20.1" = _BWkGAIYG;
         "pkg-0.4.1-1.20.4" = _xPglOk91;
         "pkg-0.5.1-1.21.1" = _K60mDZwb;
@@ -849,7 +855,8 @@ let
         "pkg-0.9.6-26.1" = _knGS3KIG;
         "pkg-0.9.9a-26.3" = _t9Uxw59g;
         "pkg-0.9.9b-26.3" = _12WvIdzH;
-        "default" = _12WvIdzH;
+        "pkg-0.9.9c-26.3" = _KZ2WjZN0;
+        "default" = _KZ2WjZN0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bren-bin-fork";

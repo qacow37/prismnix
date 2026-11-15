@@ -61,6 +61,26 @@ let
             "file" = "asedojapan-fabric-1.20.1-0.1.3.1.jar";
             "hash" = "sha512-/vVCBXGFSgi85GJsHjyYOlpRi+1LKxiTLvLukuGISRrB/tXu5N8nPbKFNXhXNU/FYT9vHdw7qkPtS6dKMgc2bA==";
         };
+        _X8L1zgxs = {
+            "id" = "X8L1zgxs";
+            "file" = "asedojapan-forge-1.20.1-0.1.4.jar";
+            "hash" = "sha512-wOnXmr0MXT7Bt2YEAYqPJF7mYUhT3XU3EcOgVmnHG+o9P2m8BoDPhtnez0T17IcYveOFAJRKiB0PBNbfxsoIhQ==";
+        };
+        _Y6uJjkMk = {
+            "id" = "Y6uJjkMk";
+            "file" = "asedojapan-fabric-1.20.1-0.1.4.jar";
+            "hash" = "sha512-cnaFof2Wj5GVDIRs91sLJxvIp1Q87fqAH+eTHCd2jpRzR4qrWShS22l5SBvo6bTGMrrj75cpFhHb54y1wOlACQ==";
+        };
+        _p2Z7rVK2 = {
+            "id" = "p2Z7rVK2";
+            "file" = "asedojapan-neoforge-1.21.1-0.2.1.jar";
+            "hash" = "sha512-StfO+0qD3csaNBtV9dN/hsPOGDddt5gGrPKYoz0HQ1WXGUHrvWs1RmQ/Q2DFnsGmYTk7SlolU1umkrpIH712rw==";
+        };
+        _qbt1Orps = {
+            "id" = "qbt1Orps";
+            "file" = "asedojapan-fabric-1.21.1-0.2.1.jar";
+            "hash" = "sha512-60P3pUl6Y0kjqe6HPjJj76BG//Q85AhiMJOxoeKUBtlozKUPReNQqmZ/OfLStb1MsHJP9Iz1+L2rrXau5meCpQ==";
+        };
     in {
         "BJim5GVE" = _BJim5GVE;
         "BOcoGkn9" = _BOcoGkn9;
@@ -74,17 +94,23 @@ let
         "1KNUhW6v" = _1KNUhW6v;
         "eyLMvuuY" = _eyLMvuuY;
         "kP3IuuJe" = _kP3IuuJe;
-        "fabric-1.20.1" = _kP3IuuJe;
-        "fabric-1.21.1" = _1KNUhW6v;
-        "forge-1.20.1" = _eyLMvuuY;
-        "neoforge-1.21.1" = _6QVD9EGs;
+        "X8L1zgxs" = _X8L1zgxs;
+        "Y6uJjkMk" = _Y6uJjkMk;
+        "p2Z7rVK2" = _p2Z7rVK2;
+        "qbt1Orps" = _qbt1Orps;
+        "fabric-1.20.1" = _Y6uJjkMk;
+        "fabric-1.21.1" = _qbt1Orps;
+        "forge-1.20.1" = _X8L1zgxs;
+        "neoforge-1.21.1" = _p2Z7rVK2;
         "pkg-0.1.0" = _BOcoGkn9;
         "pkg-0.1.1" = _9d2vddZG;
         "pkg-0.1.2" = _Pd6IYreS;
         "pkg-0.1.3" = _pJ2grEW8;
         "pkg-0.2.0" = _1KNUhW6v;
         "pkg-0.1.3.1" = _kP3IuuJe;
-        "default" = _kP3IuuJe;
+        "pkg-0.1.4" = _Y6uJjkMk;
+        "pkg-0.2.1" = _qbt1Orps;
+        "default" = _qbt1Orps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancient-structures-edo-japan";

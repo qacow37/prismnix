@@ -131,6 +131,16 @@ let
             "file" = "TelePastries-26.1.2-0.15.0.jar";
             "hash" = "sha512-StW9WexV/VXXbbNXpH4NZ1ajstvPSzx5I4Xj3pdab7pz20/H2gz5YZxnm0ObyfSQ6APqLXxmY+OtEm0us4SFLQ==";
         };
+        _5VJ9FIgk = {
+            "id" = "5VJ9FIgk";
+            "file" = "TelePastries-26.1.2-0.15.1.jar";
+            "hash" = "sha512-I2GFxuT5ucdn7muec6sdbZgtPaWU+akWmVK7KLnT1jgOVrfBK9TPDfPwkWdw1dHCCR8SzoHZrNWbiF4qWWtmFQ==";
+        };
+        _1ANIcllm = {
+            "id" = "1ANIcllm";
+            "file" = "TelePastries-26.3-0.16.0.jar";
+            "hash" = "sha512-l5JO+lp/Hh7INCoVv21Mhojjg/gVzWhiBt73cSxBgLiHqtaoIFyCFJtglykbbPW4vuI82toZ4ZLAPYAIc9WdZg==";
+        };
     in {
         "gUBYZCZD" = _gUBYZCZD;
         "YkmCn2xL" = _YkmCn2xL;
@@ -158,6 +168,8 @@ let
         "lyJpLqTn" = _lyJpLqTn;
         "R5TbeJL9" = _R5TbeJL9;
         "moqbmqi9" = _moqbmqi9;
+        "5VJ9FIgk" = _5VJ9FIgk;
+        "1ANIcllm" = _1ANIcllm;
         "forge-1.18.2" = _Eetwf7Xn;
         "forge-1.17.1" = _YkmCn2xL;
         "forge-1.16.5" = _tC6WwyLo;
@@ -178,7 +190,8 @@ let
         "neoforge-1.21.5" = _3JOVtf04;
         "neoforge-1.21.8" = _lyJpLqTn;
         "neoforge-1.21.11" = _R5TbeJL9;
-        "neoforge-26.1.2" = _moqbmqi9;
+        "neoforge-26.1.2" = _5VJ9FIgk;
+        "neoforge-26.3" = _1ANIcllm;
         "pkg-0.4.4.0" = _gUBYZCZD;
         "pkg-0.4.3.1" = _YkmCn2xL;
         "pkg-0.4.3.0" = _HoBIPSpG;
@@ -202,7 +215,9 @@ let
         "pkg-0.13.0" = _lyJpLqTn;
         "pkg-0.14.0" = _R5TbeJL9;
         "pkg-0.15.0" = _moqbmqi9;
-        "default" = _moqbmqi9;
+        "pkg-0.15.1" = _5VJ9FIgk;
+        "pkg-0.16.0" = _1ANIcllm;
+        "default" = _1ANIcllm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "telepastries";

@@ -731,6 +731,26 @@ let
             "file" = "improved-more-biomes-3.7.4.jar";
             "hash" = "sha512-HQCdSsRUpXX76qIOJ5AFhxjpUC8yP+vvN18xS0u7NFkGouRyShi3PXNDZz3hFiMtcWYHDdBkA7oCPF14F2rcqQ==";
         };
+        _PY1Prrxn = {
+            "id" = "PY1Prrxn";
+            "file" = "More Biomes 26.3.zip";
+            "hash" = "sha512-zOP7pofkj2pzb2FkDFj37/iKEOxAdXLI3wFtqT4lZio+p/PxZ5VLZl1uDykMEEM9PEOzmZ2Pl0VE6ECSONEYew==";
+        };
+        _KD2ph5jT = {
+            "id" = "KD2ph5jT";
+            "file" = "improved-more-biomes-3.7.5.jar";
+            "hash" = "sha512-SgJWJSQ3lYOVL15l4/ml2051uj1moOBO7JV2GaF3JnZsuZsxscnJ8P2YgTDFiJGpDAVYnXv15dqeOsgcbwDDgA==";
+        };
+        _Es9o06e9 = {
+            "id" = "Es9o06e9";
+            "file" = "More Biomes 26.4.zip";
+            "hash" = "sha512-PByKN9H6BYuoc8tdH4ayrt8+rhe2u4iCqtQSlUM61iPPxrCfQxxspt3S7zUU0S8Py6yGCVZ39Nt9T2mkvSx81g==";
+        };
+        _wELTZLn7 = {
+            "id" = "wELTZLn7";
+            "file" = "improved-more-biomes-3.7.5.jar";
+            "hash" = "sha512-ZihGqJyrLABtimIqhtDcRnYLAyKUg2V1DMOu10zkd84OpLYn8NNzYrVxw8hO+yZh8Q128qzGOcAD2PhPhgf6cA==";
+        };
     in {
         "mQ88LtY0" = _mQ88LtY0;
         "b35SeP0f" = _b35SeP0f;
@@ -878,6 +898,10 @@ let
         "fWFogRZ6" = _fWFogRZ6;
         "X8VwqchV" = _X8VwqchV;
         "uUoRpIC8" = _uUoRpIC8;
+        "PY1Prrxn" = _PY1Prrxn;
+        "KD2ph5jT" = _KD2ph5jT;
+        "Es9o06e9" = _Es9o06e9;
+        "wELTZLn7" = _wELTZLn7;
         "datapack-1.21.5" = _bkYNgBeG;
         "datapack-1.21.6" = _bkYNgBeG;
         "datapack-1.21.7" = _bkYNgBeG;
@@ -906,13 +930,13 @@ let
         "datapack-26.3-snapshot-9" = _YKRfB35a;
         "datapack-26.3-snapshot-10" = _YKRfB35a;
         "datapack-26.3-pre-2" = _ScBp7Kcg;
-        "datapack-26.3" = _P1sHxnDk;
-        "datapack-26.4-snapshot-5" = _X8VwqchV;
-        "datapack-26.4-snapshot-6" = _X8VwqchV;
-        "datapack-26.4-snapshot-7" = _X8VwqchV;
+        "datapack-26.3" = _PY1Prrxn;
+        "datapack-26.4-snapshot-5" = _Es9o06e9;
+        "datapack-26.4-snapshot-6" = _Es9o06e9;
+        "datapack-26.4-snapshot-7" = _Es9o06e9;
         "datapack-1.21" = _A3Fk9asc;
         "datapack-1.21.1" = _A3Fk9asc;
-        "datapack-26.4-snapshot-8" = _X8VwqchV;
+        "datapack-26.4-snapshot-8" = _Es9o06e9;
         "fabric-1.21.4" = _D9Kzs0m4;
         "fabric-1.21.5" = _J69JcAmg;
         "fabric-1.21.6" = _J69JcAmg;
@@ -941,13 +965,13 @@ let
         "fabric-26.3-snapshot-9" = _srcXoQJu;
         "fabric-26.3-snapshot-10" = _srcXoQJu;
         "fabric-26.3-pre-2" = _O2dZCJ8B;
-        "fabric-26.3" = _fWFogRZ6;
-        "fabric-26.4-snapshot-5" = _uUoRpIC8;
-        "fabric-26.4-snapshot-6" = _uUoRpIC8;
-        "fabric-26.4-snapshot-7" = _uUoRpIC8;
+        "fabric-26.3" = _KD2ph5jT;
+        "fabric-26.4-snapshot-5" = _wELTZLn7;
+        "fabric-26.4-snapshot-6" = _wELTZLn7;
+        "fabric-26.4-snapshot-7" = _wELTZLn7;
         "fabric-1.21" = _e8nsxYdz;
         "fabric-1.21.1" = _e8nsxYdz;
-        "fabric-26.4-snapshot-8" = _uUoRpIC8;
+        "fabric-26.4-snapshot-8" = _wELTZLn7;
         "forge-1.21.4" = _D9Kzs0m4;
         "forge-1.21.5" = _J69JcAmg;
         "forge-1.21.6" = _J69JcAmg;
@@ -976,13 +1000,13 @@ let
         "forge-26.3-snapshot-9" = _srcXoQJu;
         "forge-26.3-snapshot-10" = _srcXoQJu;
         "forge-26.3-pre-2" = _O2dZCJ8B;
-        "forge-26.3" = _fWFogRZ6;
-        "forge-26.4-snapshot-5" = _uUoRpIC8;
-        "forge-26.4-snapshot-6" = _uUoRpIC8;
-        "forge-26.4-snapshot-7" = _uUoRpIC8;
+        "forge-26.3" = _KD2ph5jT;
+        "forge-26.4-snapshot-5" = _wELTZLn7;
+        "forge-26.4-snapshot-6" = _wELTZLn7;
+        "forge-26.4-snapshot-7" = _wELTZLn7;
         "forge-1.21" = _e8nsxYdz;
         "forge-1.21.1" = _e8nsxYdz;
-        "forge-26.4-snapshot-8" = _uUoRpIC8;
+        "forge-26.4-snapshot-8" = _wELTZLn7;
         "neoforge-1.21.4" = _D9Kzs0m4;
         "neoforge-1.21.5" = _J69JcAmg;
         "neoforge-1.21.6" = _J69JcAmg;
@@ -1011,13 +1035,13 @@ let
         "neoforge-26.3-snapshot-9" = _srcXoQJu;
         "neoforge-26.3-snapshot-10" = _srcXoQJu;
         "neoforge-26.3-pre-2" = _O2dZCJ8B;
-        "neoforge-26.3" = _fWFogRZ6;
-        "neoforge-26.4-snapshot-5" = _uUoRpIC8;
-        "neoforge-26.4-snapshot-6" = _uUoRpIC8;
-        "neoforge-26.4-snapshot-7" = _uUoRpIC8;
+        "neoforge-26.3" = _KD2ph5jT;
+        "neoforge-26.4-snapshot-5" = _wELTZLn7;
+        "neoforge-26.4-snapshot-6" = _wELTZLn7;
+        "neoforge-26.4-snapshot-7" = _wELTZLn7;
         "neoforge-1.21" = _e8nsxYdz;
         "neoforge-1.21.1" = _e8nsxYdz;
-        "neoforge-26.4-snapshot-8" = _uUoRpIC8;
+        "neoforge-26.4-snapshot-8" = _wELTZLn7;
         "quilt-1.21.4" = _D9Kzs0m4;
         "quilt-1.21.5" = _J69JcAmg;
         "quilt-1.21.6" = _J69JcAmg;
@@ -1046,13 +1070,13 @@ let
         "quilt-26.3-snapshot-9" = _srcXoQJu;
         "quilt-26.3-snapshot-10" = _srcXoQJu;
         "quilt-26.3-pre-2" = _O2dZCJ8B;
-        "quilt-26.3" = _fWFogRZ6;
-        "quilt-26.4-snapshot-5" = _uUoRpIC8;
-        "quilt-26.4-snapshot-6" = _uUoRpIC8;
-        "quilt-26.4-snapshot-7" = _uUoRpIC8;
+        "quilt-26.3" = _KD2ph5jT;
+        "quilt-26.4-snapshot-5" = _wELTZLn7;
+        "quilt-26.4-snapshot-6" = _wELTZLn7;
+        "quilt-26.4-snapshot-7" = _wELTZLn7;
         "quilt-1.21" = _e8nsxYdz;
         "quilt-1.21.1" = _e8nsxYdz;
-        "quilt-26.4-snapshot-8" = _uUoRpIC8;
+        "quilt-26.4-snapshot-8" = _wELTZLn7;
         "pkg-1.1" = _mQ88LtY0;
         "pkg-1.0" = _b35SeP0f;
         "pkg-1.0+mod" = _D9Kzs0m4;
@@ -1167,7 +1191,9 @@ let
         "pkg-3.7.3.1+mod" = _oCVbsgQC;
         "pkg-3.7.4" = _X8VwqchV;
         "pkg-3.7.4+mod" = _uUoRpIC8;
-        "default" = _uUoRpIC8;
+        "pkg-3.7.5" = _Es9o06e9;
+        "pkg-3.7.5+mod" = _wELTZLn7;
+        "default" = _wELTZLn7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-more-biomes";

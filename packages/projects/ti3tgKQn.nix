@@ -316,6 +316,11 @@ let
             "file" = "blockbench-import-library-2.2.0+26.3-rc-3.jar";
             "hash" = "sha512-WNu0AITydq7N3LAz43ODktrb0nw1DVM3Om0SdMXIjY4MomnjIN//Ad2tAYoHfegm7bQQfrr1/H1ki92cnWduKQ==";
         };
+        _LB7vZmjJ = {
+            "id" = "LB7vZmjJ";
+            "file" = "blockbench-import-library-2.2.2+26.3.jar";
+            "hash" = "sha512-Bnk6InJE9dwtkzxatWoybhsYBxFv/s8j9uizImKMXpmQD4sqcscW6C5HQjWEzLmQuurkQyPN9cGslHb4vyqHHw==";
+        };
     in {
         "nZPZLFYs" = _nZPZLFYs;
         "vuyOFbXK" = _vuyOFbXK;
@@ -380,6 +385,7 @@ let
         "O1wNxgis" = _O1wNxgis;
         "j9IAlR4d" = _j9IAlR4d;
         "GNFRbOMD" = _GNFRbOMD;
+        "LB7vZmjJ" = _LB7vZmjJ;
         "fabric-1.20.4" = _7vWVlgp9;
         "fabric-1.20.1" = _8erOeehC;
         "fabric-1.20.6" = _50hkPn90;
@@ -402,7 +408,7 @@ let
         "fabric-26.1.1" = _j9IAlR4d;
         "fabric-26.1.2" = _j9IAlR4d;
         "fabric-26.2" = _j9IAlR4d;
-        "fabric-26.3" = _GNFRbOMD;
+        "fabric-26.3" = _LB7vZmjJ;
         "pkg-1.0.0" = _nZPZLFYs;
         "pkg-1.0.3" = _vuyOFbXK;
         "pkg-1.1.1" = _ThZjxZMV;
@@ -465,7 +471,8 @@ let
         "pkg-1.8.0+1.21.11" = _O1wNxgis;
         "pkg-2.0.5+26.1" = _j9IAlR4d;
         "pkg-2.2.0+26.3-rc-3" = _GNFRbOMD;
-        "default" = _GNFRbOMD;
+        "pkg-2.2.2+26.3" = _LB7vZmjJ;
+        "default" = _LB7vZmjJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockbench-import-library";

@@ -76,6 +76,56 @@ let
             "file" = "ScaledDragonFight-v1.1.1+21.6.jar";
             "hash" = "sha512-M9PCaK2KU+BoycP9IZWqTVHdorGjEEhDjPu8drDt5jJDOoNOSr0KKjJFaYPY6C56g96PP8WXeoCngQ/FYssMIA==";
         };
+        _w5l6XCvq = {
+            "id" = "w5l6XCvq";
+            "file" = "ScaledDragonFight-v2.0.0+26.2.jar";
+            "hash" = "sha512-+gLgZ6F5DTICvgNoijCzLv+4c+RNRo2S+tDl6LQyT6ZutQd9V8fo9RZ9wqQlMVGgCCi75AxKvvjrXaCNxbJrSA==";
+        };
+        _SZcA8YYc = {
+            "id" = "SZcA8YYc";
+            "file" = "ScaledDragonFight-v2.0.0+26.3.jar";
+            "hash" = "sha512-t7AGmfJ3L/BHMBCbjibT7/79OXDpGAbL86C/tX1UvxidbPlwMBcGtqiaq6lgwos++GJmQZyZ5nVXrcqyvZrQjg==";
+        };
+        _t7u59Q7p = {
+            "id" = "t7u59Q7p";
+            "file" = "ScaledDragonFight-v2.0.0+26.1.jar";
+            "hash" = "sha512-aYDftvhwnoGcxL3mFUBumhOODG0UDEIEu6U7gfUYR495rZCZbcvNyPprNBn8YTs964yLtcQqXkiakaYOy1IwCQ==";
+        };
+        _sucMTv2M = {
+            "id" = "sucMTv2M";
+            "file" = "ScaledDragonFight-v2.0.0+1.21.7.jar";
+            "hash" = "sha512-P/70fB9/zDHqYE05Tz5z6tCIiRvGbZEiu6PY+aES2Sgq2AwBlkeTd+Tk1N8iWzX0Hj0jCzRkPhcYKcZ04oYpdA==";
+        };
+        _q8UYdkhM = {
+            "id" = "q8UYdkhM";
+            "file" = "ScaledDragonFight-v2.0.0+1.21.5.jar";
+            "hash" = "sha512-RvAQTDSCC8aROebB1/f1yvFg5kVpHlpSxWdNVpmqC4N+osX+03T3QrjnOIEwvPkUPhUwF2XyGiBb2JfR2nxC0Q==";
+        };
+        _OVGP9TyQ = {
+            "id" = "OVGP9TyQ";
+            "file" = "ScaledDragonFight-v2.0.0+1.21.4.jar";
+            "hash" = "sha512-p2lI4cjHM5aBWCxUgK4eaNtBHXBExTOmonAMc8BsGA7dwUT/ERziZpCAFN5vgKXP4LcgNrUkBhuxK4nNKwxhMw==";
+        };
+        _CxF120GY = {
+            "id" = "CxF120GY";
+            "file" = "ScaledDragonFight-v2.0.0+1.21.8.jar";
+            "hash" = "sha512-aK18aLTpj/J9X4hP3RC2OUQMUs43zHEphoYp/Xg2MtEWQbJmX3gTCccuBgIkgwP49gEKXfMzDi9zVVyru5suPQ==";
+        };
+        _rSH8m7Nv = {
+            "id" = "rSH8m7Nv";
+            "file" = "ScaledDragonFight-v2.0.0+1.21.9.jar";
+            "hash" = "sha512-WuhmNFqtXEi3P/DpcsYUh6TY77HkfIHM0OwcOxllfPO1PgZ3jTXLznRrmUsq6AB8e3ZoK5LFko8PZKm8XXJn+A==";
+        };
+        _GDvKGqN5 = {
+            "id" = "GDvKGqN5";
+            "file" = "ScaledDragonFight-v2.0.0+1.21.10.jar";
+            "hash" = "sha512-V38ahoDbVpO1shrlrGfH1aeoz5qmxqR8XhQtXrN5XXtlnmuzLcjgu6YK7x52Kn9pRBA84W5XCf0bVn9sZiP3mQ==";
+        };
+        _VTZJjqW6 = {
+            "id" = "VTZJjqW6";
+            "file" = "ScaledDragonFight-v2.0.0+1.21.11.jar";
+            "hash" = "sha512-mTUI6cTmvgOtzs/4YpKi+feMDv65ze7BgZ/0APzeNGjfV5hZWNFX7gkyJyFlK0dSbaHBGMcakm8vyY6QDKs7cQ==";
+        };
     in {
         "FG3oTVvJ" = _FG3oTVvJ;
         "a0bn2DIB" = _a0bn2DIB;
@@ -92,14 +142,28 @@ let
         "IOjI0uWQ" = _IOjI0uWQ;
         "qxUCIkuw" = _qxUCIkuw;
         "O9JDE4zL" = _O9JDE4zL;
-        "fabric-1.21.5" = _IOjI0uWQ;
-        "fabric-1.21.7" = _vfUZ4YL2;
-        "fabric-1.21.8" = _L8X1Ssql;
-        "fabric-1.21.9" = _q5nvRXid;
-        "fabric-1.21.10" = _fLEBLD36;
-        "fabric-1.21.11" = _hZz8vPyI;
-        "fabric-1.21.4" = _qxUCIkuw;
-        "fabric-26.1" = _O9JDE4zL;
+        "w5l6XCvq" = _w5l6XCvq;
+        "SZcA8YYc" = _SZcA8YYc;
+        "t7u59Q7p" = _t7u59Q7p;
+        "sucMTv2M" = _sucMTv2M;
+        "q8UYdkhM" = _q8UYdkhM;
+        "OVGP9TyQ" = _OVGP9TyQ;
+        "CxF120GY" = _CxF120GY;
+        "rSH8m7Nv" = _rSH8m7Nv;
+        "GDvKGqN5" = _GDvKGqN5;
+        "VTZJjqW6" = _VTZJjqW6;
+        "fabric-1.21.5" = _q8UYdkhM;
+        "fabric-1.21.7" = _sucMTv2M;
+        "fabric-1.21.8" = _CxF120GY;
+        "fabric-1.21.9" = _rSH8m7Nv;
+        "fabric-1.21.10" = _GDvKGqN5;
+        "fabric-1.21.11" = _VTZJjqW6;
+        "fabric-1.21.4" = _OVGP9TyQ;
+        "fabric-26.1" = _t7u59Q7p;
+        "fabric-26.2" = _w5l6XCvq;
+        "fabric-26.3" = _SZcA8YYc;
+        "fabric-26.1.1" = _t7u59Q7p;
+        "fabric-26.1.2" = _t7u59Q7p;
         "pkg-v1.0.0+1.21.5" = _FG3oTVvJ;
         "pkg-v1.0.0+1.21.7" = _a0bn2DIB;
         "pkg-v1.0.0+1.21.8" = _Al4ht7gn;
@@ -115,7 +179,17 @@ let
         "pkg-v1.0.1+1.21.5" = _IOjI0uWQ;
         "pkg-v1.0.0+1.21.4" = _qxUCIkuw;
         "pkg-v1.1.1+21.6" = _O9JDE4zL;
-        "default" = _O9JDE4zL;
+        "pkg-v2.0.0+26.2" = _w5l6XCvq;
+        "pkg-v2.0.0+26.3" = _SZcA8YYc;
+        "pkg-v2.0.0+26.1" = _t7u59Q7p;
+        "pkg-v2.0.0+1.21.7" = _sucMTv2M;
+        "pkg-v2.0.0+1.21.5" = _q8UYdkhM;
+        "pkg-v2.0.0+1.21.4" = _OVGP9TyQ;
+        "pkg-v2.0.0+1.21.8" = _CxF120GY;
+        "pkg-v2.0.0+1.21.9" = _rSH8m7Nv;
+        "pkg-v2.0.0+1.21.10" = _GDvKGqN5;
+        "pkg-v2.0.0+1.21.11" = _VTZJjqW6;
+        "default" = _VTZJjqW6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scaled-dragon-fight";

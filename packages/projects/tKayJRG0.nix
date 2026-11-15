@@ -126,6 +126,11 @@ let
             "file" = "Ageing-Mobs-26.2-10.0.0.jar";
             "hash" = "sha512-Bqgy+0t2mI/geGZ9/+CxKd+Hw94L2MMexplNau0iAfQfBtxnD1ocrnJkIoShZM5jLXCMDk1l1+ga5GuJJ4XyHQ==";
         };
+        _9k1fkyVB = {
+            "id" = "9k1fkyVB";
+            "file" = "Ageing-Mobs-26.3-11.0.0.jar";
+            "hash" = "sha512-IBXdYd86VMuZbc/u32bL1gXmmLstGdkBhUQRnuN/HVJXH6D9rLHUbxRggVhWadE33bis3Kslh7rW0KQruZAafA==";
+        };
     in {
         "EEofB6Nq" = _EEofB6Nq;
         "uiabNLRO" = _uiabNLRO;
@@ -152,6 +157,7 @@ let
         "2eCt8pTN" = _2eCt8pTN;
         "WQxvLNTK" = _WQxvLNTK;
         "CMvO9Na3" = _CMvO9Na3;
+        "9k1fkyVB" = _9k1fkyVB;
         "forge-1.18.2" = _EEofB6Nq;
         "forge-1.16.3" = _uiabNLRO;
         "forge-1.16.4" = _uiabNLRO;
@@ -170,6 +176,7 @@ let
         "neoforge-1.21.11" = _2eCt8pTN;
         "neoforge-26.1" = _WQxvLNTK;
         "neoforge-26.2" = _CMvO9Na3;
+        "neoforge-26.3" = _9k1fkyVB;
         "pkg-1.2.0.3" = _EEofB6Nq;
         "pkg-1.2.0.2" = _uiabNLRO;
         "pkg-1.1.0" = _pCIYpxcX;
@@ -195,7 +202,8 @@ let
         "pkg-8.0.0" = _2eCt8pTN;
         "pkg-9.0.0" = _WQxvLNTK;
         "pkg-10.0.0" = _CMvO9Na3;
-        "default" = _CMvO9Na3;
+        "pkg-11.0.0" = _9k1fkyVB;
+        "default" = _9k1fkyVB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ageing-mobs";

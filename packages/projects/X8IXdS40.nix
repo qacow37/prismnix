@@ -436,6 +436,26 @@ let
             "file" = "thematic-heroes-1.21.1-1.1.0.jar";
             "hash" = "sha512-gZP1g3GfXCrqW8eA3zyQ4DTz47/IewOaWPhg8Wo4QqVtfghrn8mARUa7xOSk1oIr77LHTHZCJzkLckrRvOcyrQ==";
         };
+        _fHGaUvwZ = {
+            "id" = "fHGaUvwZ";
+            "file" = "thematic-heroes-1.20.1-1.1.1.jar";
+            "hash" = "sha512-v4ndgdsenhoB+jqEDFo5RHNymzR7J3CDyGVqXoZNun+yapc8Kkkr3Dsi7o82tFEzGbswX5qYcHW1ezG9Pvln2A==";
+        };
+        _1Z513ufz = {
+            "id" = "1Z513ufz";
+            "file" = "thematic-heroes-1.21.1-1.1.1.jar";
+            "hash" = "sha512-FQD/B99yNd74S/0wUlXTv24LWSoWzl3Rd84uLA5j3Q5Q/EIpRxuUupm0ZEbkTAJuH7X/glOPwWXtV18N2g1Gow==";
+        };
+        _FEv4vsUe = {
+            "id" = "FEv4vsUe";
+            "file" = "thematic-heroes-1.20.1-1.1.2.jar";
+            "hash" = "sha512-kNV4zTeFKr7G+Y16Hbwnc0V/nASDMBD3YoGvrgclzy94RFJHDjFHxJGS2iuCxXVMSHP/KAxAzmQpUAQA0Zp8Rw==";
+        };
+        _XPP2UmRZ = {
+            "id" = "XPP2UmRZ";
+            "file" = "thematic-heroes-1.21.1-1.1.2.jar";
+            "hash" = "sha512-AyglDI9MvSsM6mF029Qw52yWJ6InDh1rOADIL6csGjUF8SZrKzFm9R7trVIiZb5US3p3jgM5sqPdePwWkopKwA==";
+        };
     in {
         "IMNv1qnq" = _IMNv1qnq;
         "qktY3dn5" = _qktY3dn5;
@@ -524,16 +544,20 @@ let
         "oOdZvkJa" = _oOdZvkJa;
         "JRSQv3li" = _JRSQv3li;
         "AfdSee7N" = _AfdSee7N;
-        "fabric-1.20.1" = _JRSQv3li;
+        "fHGaUvwZ" = _fHGaUvwZ;
+        "1Z513ufz" = _1Z513ufz;
+        "FEv4vsUe" = _FEv4vsUe;
+        "XPP2UmRZ" = _XPP2UmRZ;
+        "fabric-1.20.1" = _FEv4vsUe;
         "fabric-1.20.2" = _hv0E0Pmv;
         "fabric-1.20.4" = _BdSeae4H;
-        "fabric-1.20" = _JRSQv3li;
-        "fabric-1.21" = _AfdSee7N;
-        "fabric-1.21.1" = _AfdSee7N;
-        "forge-1.20" = _JRSQv3li;
-        "forge-1.20.1" = _JRSQv3li;
-        "neoforge-1.21" = _AfdSee7N;
-        "neoforge-1.21.1" = _AfdSee7N;
+        "fabric-1.20" = _FEv4vsUe;
+        "fabric-1.21" = _XPP2UmRZ;
+        "fabric-1.21.1" = _XPP2UmRZ;
+        "forge-1.20" = _FEv4vsUe;
+        "forge-1.20.1" = _FEv4vsUe;
+        "neoforge-1.21" = _XPP2UmRZ;
+        "neoforge-1.21.1" = _XPP2UmRZ;
         "pkg-1.2.48-BETA" = _IMNv1qnq;
         "pkg-1.2.485-BETA" = _qktY3dn5;
         "pkg-1.2.486-BETA" = _rsxxEioc;
@@ -618,7 +642,11 @@ let
         "pkg-1.0.10" = _oOdZvkJa;
         "pkg-1.1.0+1.20.1" = _JRSQv3li;
         "pkg-1.1.0+1.21.1" = _AfdSee7N;
-        "default" = _AfdSee7N;
+        "pkg-1.1.1+1.20.1" = _fHGaUvwZ;
+        "pkg-1.1.1+1.21.1" = _1Z513ufz;
+        "pkg-1.1.2+1.20.1" = _FEv4vsUe;
+        "pkg-1.1.2+1.21.1" = _XPP2UmRZ;
+        "default" = _XPP2UmRZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thematic-superheroes";

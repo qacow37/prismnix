@@ -1261,6 +1261,16 @@ let
             "file" = "gtnhlib-0.12.2.jar";
             "hash" = "sha512-F2TgedjR0EldRgtcpoblqInhxZT39ANu+I5C7vinVZDxuDDY3l4OX1/m4zsF9rWIj87fYbKE6oNMfSgXaFY1pQ==";
         };
+        _nzW7B2rb = {
+            "id" = "nzW7B2rb";
+            "file" = "gtnhlib-0.12.3.jar";
+            "hash" = "sha512-YIcA9yQJyhrhklzeMhe5badYwTQgRqI9iN2YU5THiuC7ol2rHXYXS9h91S4FfpkgiEjrmE8eBAqV9F9aP3vb2w==";
+        };
+        _NHeKirtA = {
+            "id" = "NHeKirtA";
+            "file" = "gtnhlib-0.12.4.jar";
+            "hash" = "sha512-W/F7jniQbMjSCXhdw809/SU4rxy4bgJLGbBjS/kOnxvOi25E89pz5VbqqvSXKIaARoTh/gxfnvSz5Q+eK3hK7w==";
+        };
     in {
         "lyEHl5yr" = _lyEHl5yr;
         "Xn4O8qI1" = _Xn4O8qI1;
@@ -1514,7 +1524,9 @@ let
         "OeIP5IT0" = _OeIP5IT0;
         "MoEXA4GT" = _MoEXA4GT;
         "pmL21pST" = _pmL21pST;
-        "forge-1.7.10" = _pmL21pST;
+        "nzW7B2rb" = _nzW7B2rb;
+        "NHeKirtA" = _NHeKirtA;
+        "forge-1.7.10" = _NHeKirtA;
         "pkg-0.0.6" = _lyEHl5yr;
         "pkg-0.0.13" = _Xn4O8qI1;
         "pkg-0.2.1" = _gKLWh1TA;
@@ -1767,7 +1779,9 @@ let
         "pkg-0.12.0" = _OeIP5IT0;
         "pkg-0.12.1" = _MoEXA4GT;
         "pkg-0.12.2" = _pmL21pST;
-        "default" = _pmL21pST;
+        "pkg-0.12.3" = _nzW7B2rb;
+        "pkg-0.12.4" = _NHeKirtA;
+        "default" = _NHeKirtA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gtnhlib";

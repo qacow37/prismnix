@@ -76,6 +76,11 @@ let
             "file" = "!Tightfault-1.21.11-v1.2.5.zip";
             "hash" = "sha512-vUylRWcLYSl/g+8u1HljLWNURLHQq6j9vOcbbSSftVRavUesohRIptVQwRAzVN1EwSM0w+7nwsHXTfRZ8PlMNw==";
         };
+        _we6XjxYw = {
+            "id" = "we6XjxYw";
+            "file" = "!Tightfault-26.3-v1.2.6.zip";
+            "hash" = "sha512-yUYfFm+G2kYvWntN08b5hm2Na/cSzukJYj6c7LGpOKsBNY3XWCz2Pg7/nnFR0oa+c3fCc2I6Y6vvL/wAdK8pNw==";
+        };
     in {
         "eEh5GMtH" = _eEh5GMtH;
         "GVGWevQp" = _GVGWevQp;
@@ -92,6 +97,7 @@ let
         "lLpCRlEV" = _lLpCRlEV;
         "v8F0n7Zh" = _v8F0n7Zh;
         "UW36PQAI" = _UW36PQAI;
+        "we6XjxYw" = _we6XjxYw;
         "minecraft-1.19" = _eEh5GMtH;
         "minecraft-1.19.1" = _eEh5GMtH;
         "minecraft-1.19.2" = _eEh5GMtH;
@@ -115,6 +121,7 @@ let
         "minecraft-26.1.1" = _UW36PQAI;
         "minecraft-26.1.2" = _UW36PQAI;
         "minecraft-26.2" = _UW36PQAI;
+        "minecraft-26.3" = _we6XjxYw;
         "pkg-2.0" = _eEh5GMtH;
         "pkg-1.1.1" = _GVGWevQp;
         "pkg-1.1.2" = _dZTlirwv;
@@ -129,7 +136,8 @@ let
         "pkg-1.2.3" = _lLpCRlEV;
         "pkg-1.2.4" = _v8F0n7Zh;
         "pkg-1.2.5" = _UW36PQAI;
-        "default" = _UW36PQAI;
+        "pkg-1.2.6" = _we6XjxYw;
+        "default" = _we6XjxYw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tightfault-revamp-edit";

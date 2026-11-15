@@ -41,6 +41,11 @@ let
             "file" = "amethysttoolsandmore-1.0.1-26.3.jar";
             "hash" = "sha512-CBgE2rPCNVDF0KKCVJZ4jAeAJIsivTD/gJr4+h2hI/8DHdsXWQ22p8ieZpyLebXDOKHzJpUpobLq+MOc9AVjtQ==";
         };
+        _JEriD8c9 = {
+            "id" = "JEriD8c9";
+            "file" = "amethysttoolsandmore-1.0.5-26.3.jar";
+            "hash" = "sha512-GujLErX2dW4QFdNGdD/0I60z5ZrdGT7LLagBhGAHEENWETAi+EAYPbIi0EtCE+qi/7Zlfke99vYMMPjBCInx6g==";
+        };
     in {
         "KHibhzcj" = _KHibhzcj;
         "j7rRtAJO" = _j7rRtAJO;
@@ -50,6 +55,7 @@ let
         "mQ1B3xTT" = _mQ1B3xTT;
         "SHTNhzJP" = _SHTNhzJP;
         "PyWbVGhu" = _PyWbVGhu;
+        "JEriD8c9" = _JEriD8c9;
         "fabric-26.1" = _KHibhzcj;
         "fabric-26.1.1" = _j7rRtAJO;
         "fabric-26.1.2" = _1nkPnrhF;
@@ -59,12 +65,13 @@ let
         "neoforge-26.1.1" = _A7rhpUe3;
         "neoforge-26.1.2" = _A7rhpUe3;
         "neoforge-26.2" = _mQ1B3xTT;
-        "neoforge-26.3" = _PyWbVGhu;
+        "neoforge-26.3" = _JEriD8c9;
         "pkg-1.0.0" = _fsfd9SZC;
         "pkg-1.0.0-26.1-26.1.2" = _A7rhpUe3;
         "pkg-1.0.0-26.2" = _mQ1B3xTT;
         "pkg-1.0.1-26.3" = _PyWbVGhu;
-        "default" = _PyWbVGhu;
+        "pkg-1.0.5-26.3" = _JEriD8c9;
+        "default" = _JEriD8c9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amethysttoolsandmore";

@@ -271,6 +271,11 @@ let
             "file" = "pridecraft-2.3.2.jar";
             "hash" = "sha512-3H8b4OGa8jC6eg15mYO0ZcyZ7YrwXByyBvTtKv50Gejz9vzJbmIpxM4XUKwiDA+hRQonGnzLQoT1cUgdtQtPqg==";
         };
+        _ortlCb0s = {
+            "id" = "ortlCb0s";
+            "file" = "pridecraft-2.4.0.jar";
+            "hash" = "sha512-K9KU/5CfdJ0D04gGoBh2LA/sqEimHatkKI+sK/e8nRTodlgZ5YPn0LAk/T3hkCP2SyKtqvHGL8n0hA0C7OKB1Q==";
+        };
     in {
         "EwRXcaWM" = _EwRXcaWM;
         "iragSfj1" = _iragSfj1;
@@ -326,10 +331,11 @@ let
         "dO5eIiVY" = _dO5eIiVY;
         "MmF5oKOA" = _MmF5oKOA;
         "A8e2LUkb" = _A8e2LUkb;
+        "ortlCb0s" = _ortlCb0s;
         "forge-1.20.1" = _QG9Zput9;
         "neoforge-1.20.4" = _Is3zG9Nr;
         "neoforge-1.20.6" = _HeinAMml;
-        "neoforge-1.21.1" = _Q8F2bLHJ;
+        "neoforge-1.21.1" = _ortlCb0s;
         "neoforge-1.21.3" = _HetzJ884;
         "neoforge-1.21.4" = _aY00Blq6;
         "neoforge-1.21.5" = _FWsPm74H;
@@ -356,7 +362,8 @@ let
         "pkg-2.3.0" = _EkkiROCn;
         "pkg-2.3.1" = _dO5eIiVY;
         "pkg-2.3.2" = _A8e2LUkb;
-        "default" = _A8e2LUkb;
+        "pkg-2.4.0" = _ortlCb0s;
+        "default" = _ortlCb0s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pride-craft";

@@ -171,6 +171,26 @@ let
             "file" = "crankshaft-1.2.0+mc1.12.2.jar";
             "hash" = "sha512-V4QiCMyvhXYhhxIQXXcZk/zN1AzlX4p4MwFIy+AwTD/8VBgARcnzVtq7b3BmA6Pj9kc2Qszma0kKL3Tt4G2lvw==";
         };
+        _3ZuL3r5h = {
+            "id" = "3ZuL3r5h";
+            "file" = "crankshaft-fabric-1.7.0+mc26.2.jar";
+            "hash" = "sha512-3I3f2HBppOXYj8Hd9YZ2vEhdNZrNg8HkCOVmJTdVERZyFJgmRO56vDxP2vTrLU1Woyv/W5D9w9k2W7Wk3dWhKg==";
+        };
+        _9VWpg5V5 = {
+            "id" = "9VWpg5V5";
+            "file" = "crankshaft-fabric-1.7.0+mc26.3.jar";
+            "hash" = "sha512-lCA8cuuex34nKs7fQm5IEWo68m+fFiTO9oQnvcNzLbjtVoyFlH7mvr6WOKU+EB+ALtQX0O7Wk2122tF0M/TP1A==";
+        };
+        _HpQ2qwiS = {
+            "id" = "HpQ2qwiS";
+            "file" = "crankshaft-neoforge-1.7.0+mc26.2.jar";
+            "hash" = "sha512-4v16uoPbqaDlr/3/pdrBNTtOQxdG/bbsPhR5FBVNH2x4vOqCTRLhF6NuFrhztVPGVkaV+k4teo/CTMIXaJ1OrQ==";
+        };
+        _HIEtxTEM = {
+            "id" = "HIEtxTEM";
+            "file" = "crankshaft-neoforge-1.7.0+mc26.3.jar";
+            "hash" = "sha512-mwBFx/PHpCzCQqCmbDXBOBhXvLuiyJ5hsBm4OqsvERlkJeuyuUW8QjPAxRoAn1iyxyt7YVOrQyRUA/OXdgso/w==";
+        };
     in {
         "hjuDy8sc" = _hjuDy8sc;
         "MvKzXbve" = _MvKzXbve;
@@ -206,11 +226,15 @@ let
         "87iYrDhn" = _87iYrDhn;
         "CQ6T0FZP" = _CQ6T0FZP;
         "Vm7UXvRw" = _Vm7UXvRw;
+        "3ZuL3r5h" = _3ZuL3r5h;
+        "9VWpg5V5" = _9VWpg5V5;
+        "HpQ2qwiS" = _HpQ2qwiS;
+        "HIEtxTEM" = _HIEtxTEM;
         "forge-1.12.2" = _Vm7UXvRw;
-        "fabric-26.2" = _64auqBaS;
-        "fabric-26.3" = _HOrc4NJh;
-        "neoforge-26.2" = _CQ6T0FZP;
-        "neoforge-26.3" = _87iYrDhn;
+        "fabric-26.2" = _3ZuL3r5h;
+        "fabric-26.3" = _9VWpg5V5;
+        "neoforge-26.2" = _HpQ2qwiS;
+        "neoforge-26.3" = _HIEtxTEM;
         "pkg-1.0.0" = _hjuDy8sc;
         "pkg-1.0.0+mc26.2" = _cry4fGI0;
         "pkg-1.0.1+mc26.2" = _IYOVtlkE;
@@ -229,7 +253,9 @@ let
         "pkg-1.6.1+mc26.2" = _CQ6T0FZP;
         "pkg-1.6.1+mc26.3" = _87iYrDhn;
         "pkg-1.2.0+mc1.12.2" = _Vm7UXvRw;
-        "default" = _Vm7UXvRw;
+        "pkg-1.7.0+mc26.2" = _HpQ2qwiS;
+        "pkg-1.7.0+mc26.3" = _HIEtxTEM;
+        "default" = _HIEtxTEM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crankshaft";

@@ -586,6 +586,26 @@ let
             "file" = "frostiful-fabric-3.1.0+26.1.x-beta.3.jar";
             "hash" = "sha512-f15cmw4gMZb8vozv1bw2aZqSs65g0Uzw1eeMjs6OXryh7cgihlUbZQW5M1hHUu08atVkgSv33ZwosGV1eIUwMg==";
         };
+        _ZwJwF78n = {
+            "id" = "ZwJwF78n";
+            "file" = "frostiful-neoforge-3.1.0+26.1.x.jar";
+            "hash" = "sha512-AhuAuaGD7ziU7bU16J+9huk4uRwgR/sKZvzS6cs8pUlH51jafjSC3tK0u27Nf30GqoBYxAaJa8qMJCbJreWk4Q==";
+        };
+        _1gUzJM1F = {
+            "id" = "1gUzJM1F";
+            "file" = "frostiful-fabric-3.1.0+26.1.x.jar";
+            "hash" = "sha512-a1RLdZ2VFcYrvacPjF19+mG9Pi3YgcsHmLIYasigrBn2CGK9EoHL/4uX6OEu0SgalBa7GonAwPF7oP+IyPyUAQ==";
+        };
+        _9XRebZil = {
+            "id" = "9XRebZil";
+            "file" = "frostiful-fabric-3.1.1+26.1.x.jar";
+            "hash" = "sha512-74Hs73N0sHZ3zKrueUyH5eXyuKjPb7DKL4PwkiYJ5N2qrX4k+o3WKI55Y0yecNGlCCB391tNCfOlEbdjByEhSA==";
+        };
+        _91owdSpE = {
+            "id" = "91owdSpE";
+            "file" = "frostiful-neoforge-3.1.1+26.1.x.jar";
+            "hash" = "sha512-TevtniQ1c3Cog7SqxMISKKV1nco37n73YYfca1eDmYzCE6fSfb80cxQvzSumjK+7cnJ1NlwLS25A21b3R7ZW1A==";
+        };
     in {
         "8iy3K48a" = _8iy3K48a;
         "aWoprtM0" = _aWoprtM0;
@@ -704,6 +724,10 @@ let
         "aT8PlFg6" = _aT8PlFg6;
         "3Uy20V1g" = _3Uy20V1g;
         "SsIH8Nbw" = _SsIH8Nbw;
+        "ZwJwF78n" = _ZwJwF78n;
+        "1gUzJM1F" = _1gUzJM1F;
+        "9XRebZil" = _9XRebZil;
+        "91owdSpE" = _91owdSpE;
         "fabric-1.19.2" = _1KyzJTWq;
         "fabric-1.19.4" = _y5dLU5lV;
         "fabric-1.20" = _RjfSgmLe;
@@ -723,9 +747,9 @@ let
         "fabric-1.21.9" = _2lclJ8KS;
         "fabric-1.21.10" = _x3jbmzaa;
         "fabric-1.21.11" = _NNfGXP1O;
-        "fabric-26.1" = _SsIH8Nbw;
-        "fabric-26.1.1" = _SsIH8Nbw;
-        "fabric-26.1.2" = _SsIH8Nbw;
+        "fabric-26.1" = _9XRebZil;
+        "fabric-26.1.1" = _9XRebZil;
+        "fabric-26.1.2" = _9XRebZil;
         "quilt-1.19.2" = _1KyzJTWq;
         "quilt-1.19.4" = _y5dLU5lV;
         "quilt-1.20" = _RjfSgmLe;
@@ -745,13 +769,13 @@ let
         "quilt-1.21.9" = _2lclJ8KS;
         "quilt-1.21.10" = _x3jbmzaa;
         "quilt-1.21.11" = _NNfGXP1O;
-        "quilt-26.1" = _SsIH8Nbw;
-        "quilt-26.1.1" = _SsIH8Nbw;
-        "quilt-26.1.2" = _SsIH8Nbw;
+        "quilt-26.1" = _9XRebZil;
+        "quilt-26.1.1" = _9XRebZil;
+        "quilt-26.1.2" = _9XRebZil;
         "neoforge-1.21.1" = _p6QunhUe;
-        "neoforge-26.1" = _3Uy20V1g;
-        "neoforge-26.1.1" = _3Uy20V1g;
-        "neoforge-26.1.2" = _3Uy20V1g;
+        "neoforge-26.1" = _91owdSpE;
+        "neoforge-26.1.1" = _91owdSpE;
+        "neoforge-26.1.2" = _91owdSpE;
         "pkg-0.1.0" = _8iy3K48a;
         "pkg-0.2.0" = _i1Zt2oyX;
         "pkg-0.2.1" = _lLLEUY7O;
@@ -865,7 +889,9 @@ let
         "pkg-3.1.0+26.1.x-beta.1" = _Tt1ASKLX;
         "pkg-3.1.0+26.1.x-beta.2" = _aT8PlFg6;
         "pkg-3.1.0+26.1.x-beta.3" = _SsIH8Nbw;
-        "default" = _SsIH8Nbw;
+        "pkg-3.1.0+26.1.x" = _1gUzJM1F;
+        "pkg-3.1.1+26.1.x" = _91owdSpE;
+        "default" = _91owdSpE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostiful";

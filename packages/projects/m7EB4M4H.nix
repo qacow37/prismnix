@@ -516,6 +516,31 @@ let
             "file" = "TunnelCraft-neoforge-10.2.0-mc26.2.jar";
             "hash" = "sha512-XogUXXMUI5eRv89yaWLg6vBxoaJyQMxk4dTJfo2hf3tSJDk/Eho6miw/iGAXwoqLsCY6XmJjD4acY8gs62JdpQ==";
         };
+        _P6x1VqjT = {
+            "id" = "P6x1VqjT";
+            "file" = "TunnelCraft-fabric-10.2.0-mc26.3.jar";
+            "hash" = "sha512-88PmnLLibbzSkmxmtp8FTf6aj9h+DXzhwVr0rmocyySH+Nk26EEg8ELcoIhxxIF0J9VYJiaBhjH6KOn4YkB2uQ==";
+        };
+        _isoTpB5T = {
+            "id" = "isoTpB5T";
+            "file" = "TunnelCraft-neoforge-10.2.0-mc26.3.jar";
+            "hash" = "sha512-UbVUMk4C4mY0vZYmBGWcxhRps8UWivsVwgvYpqw9WERZOIYAbAIwbCSVZdJoIoSbWhuerGcZEWcWWoTFd3giDQ==";
+        };
+        _4pJsJ2t7 = {
+            "id" = "4pJsJ2t7";
+            "file" = "TunnelCraft-forge-10.2.0-mc26.3.jar";
+            "hash" = "sha512-F4/qQGoi9Y2+OX3ExQYQ+j6kfQI88KItv8hQtU1hx3x1nLywgGHTkX464M34rNW/DgCq84lfb93F3swwW1p7vg==";
+        };
+        _PxmrCCOq = {
+            "id" = "PxmrCCOq";
+            "file" = "TunnelCraft-quilt-10.2.0-mc26.3.jar";
+            "hash" = "sha512-eEwibTLGi68qLnqjUZlr1JhMxtI+aXvMGFXHiTHf0lh7/KOKMcvNuiUNvGqzwW0PT0UE9vmyZ+VaEj/7lv07fg==";
+        };
+        _FEwf4d0k = {
+            "id" = "FEwf4d0k";
+            "file" = "TunnelCraft-paper-10.2.0-mc26.3.jar";
+            "hash" = "sha512-IR3+gqLsmdlaGxyi7ipl3+en789zHvS9SpJWNUNKafQ4bMNhfF7BTShfgUHC1tpY3iEKxCNsjzpe/omIrHnIgQ==";
+        };
     in {
         "LPajabRq" = _LPajabRq;
         "q32VOULi" = _q32VOULi;
@@ -620,12 +645,18 @@ let
         "ccnHdI4I" = _ccnHdI4I;
         "INFyneeT" = _INFyneeT;
         "bwM6GHa9" = _bwM6GHa9;
+        "P6x1VqjT" = _P6x1VqjT;
+        "isoTpB5T" = _isoTpB5T;
+        "4pJsJ2t7" = _4pJsJ2t7;
+        "PxmrCCOq" = _PxmrCCOq;
+        "FEwf4d0k" = _FEwf4d0k;
         "neoforge-1.21.1" = _MQJAH8yG;
         "neoforge-1.21.10" = _elUsfv3y;
         "neoforge-1.21.11" = _STijy49r;
         "neoforge-26.1.1" = _8c2jn6gn;
         "neoforge-26.1.2" = _ccnHdI4I;
         "neoforge-26.2" = _bwM6GHa9;
+        "neoforge-26.3" = _isoTpB5T;
         "fabric-1.21.1" = _tVBgVZoH;
         "fabric-1.21.10" = _NfA07ldw;
         "fabric-1.21.11" = _me36HdgF;
@@ -633,6 +664,7 @@ let
         "fabric-26.1.1" = _HCzt6RUG;
         "fabric-26.1.2" = _VrbpwSpZ;
         "fabric-26.2" = _INFyneeT;
+        "fabric-26.3" = _P6x1VqjT;
         "bukkit-1.21.1" = _YNMwozw6;
         "bukkit-1.21" = _YNMwozw6;
         "bukkit-1.21.2" = _YNMwozw6;
@@ -662,6 +694,7 @@ let
         "paper-26.1.1" = _ap0ZgP5M;
         "paper-26.1.2" = _ap0ZgP5M;
         "paper-26.2" = _ap0ZgP5M;
+        "paper-26.3" = _FEwf4d0k;
         "spigot-1.21.1" = _YNMwozw6;
         "spigot-1.21" = _YNMwozw6;
         "spigot-1.21.2" = _YNMwozw6;
@@ -703,6 +736,8 @@ let
         "folia-1.21.9" = _YNMwozw6;
         "folia-1.21.10" = _YNMwozw6;
         "folia-1.21.11" = _YNMwozw6;
+        "forge-26.3" = _4pJsJ2t7;
+        "quilt-26.3" = _PxmrCCOq;
         "pkg-4.0.0" = _H4HKH78z;
         "pkg-4.0.3" = _lU9tuynE;
         "pkg-4.0.6" = _gnMhWrkg;
@@ -726,8 +761,8 @@ let
         "pkg-10.0.1" = _PBBKEswz;
         "pkg-10.1.0" = _ccdbDvTo;
         "pkg-10.1.0-bannerfix.1" = _SZYY3gmY;
-        "pkg-10.2.0" = _bwM6GHa9;
-        "default" = _bwM6GHa9;
+        "pkg-10.2.0" = _FEwf4d0k;
+        "default" = _FEwf4d0k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tunnelcraft";

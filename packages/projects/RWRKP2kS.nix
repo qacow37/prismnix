@@ -46,6 +46,11 @@ let
             "file" = "awerials-pack-editor-mc26.3-1.45.0.jar";
             "hash" = "sha512-iWzcOv4lI1Fzz5W34+6J2Wowpv+qRPL5n93FeEDp3bznKC0KyIe0FIJKPaevlVzdDlIv9V/7mlYAxe3rvBa+XA==";
         };
+        _IIJDZUnl = {
+            "id" = "IIJDZUnl";
+            "file" = "awerials-pack-editor-mc26.3-1.45.7.jar";
+            "hash" = "sha512-nw+da734+M0b/jAkweThJJG8wI40fU20H3AkwSEX9EEDlfby4IWThXESYGEfKBAAOkcmBEv/ugyChTKuRN49vg==";
+        };
     in {
         "BAmH3Foa" = _BAmH3Foa;
         "WSCXDQ0Z" = _WSCXDQ0Z;
@@ -56,6 +61,7 @@ let
         "QU48qGhV" = _QU48qGhV;
         "gi6Jio8F" = _gi6Jio8F;
         "pBUaNGfy" = _pBUaNGfy;
+        "IIJDZUnl" = _IIJDZUnl;
         "fabric-1.21" = _BAmH3Foa;
         "fabric-1.21.1" = _BAmH3Foa;
         "fabric-1.21.2" = _WSCXDQ0Z;
@@ -69,9 +75,10 @@ let
         "fabric-1.21.9" = _UYJP4qrb;
         "fabric-1.21.11" = _QU48qGhV;
         "fabric-26.2" = _gi6Jio8F;
-        "fabric-26.3" = _pBUaNGfy;
+        "fabric-26.3" = _IIJDZUnl;
         "pkg-1.45.0" = _pBUaNGfy;
-        "default" = _pBUaNGfy;
+        "pkg-1.45.7" = _IIJDZUnl;
+        "default" = _IIJDZUnl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ape";

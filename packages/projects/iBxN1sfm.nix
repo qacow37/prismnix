@@ -666,6 +666,11 @@ let
             "file" = "BFMod-CNTR-Project-123.0-(1.21.1-0.9.0.77b)-SC.zip";
             "hash" = "sha512-6CTO4mgyKmap8kiHWs6gjBHK4WteTckVVmcH/ARtxeJQAy5J2tQ8Af+QrTZExtijtd2IBgkQ+/nKXhHJTCqYYA==";
         };
+        _13lQJFW3 = {
+            "id" = "13lQJFW3";
+            "file" = "BFMod-CNTR-Project-124.0-(1.21.1-0.9.0.78b)-SC.zip";
+            "hash" = "sha512-+jb+PSXGrxC+zmNQ4jtC6tV8TcdPMTwI7ydi1Zgn9KZoy61t0ZmaNNIbdxbXTIc4LhXhJ0P4zTnCBdTzYlY68w==";
+        };
     in {
         "In0ITCkg" = _In0ITCkg;
         "6JxNRuTl" = _6JxNRuTl;
@@ -800,10 +805,11 @@ let
         "jBLnQCEB" = _jBLnQCEB;
         "DgB8KGzK" = _DgB8KGzK;
         "R7NgbTzo" = _R7NgbTzo;
+        "13lQJFW3" = _13lQJFW3;
         "minecraft-1.20.4" = _In0ITCkg;
         "minecraft-1.20.6" = _HsB0E3HY;
         "minecraft-1.21" = _jM85nSJY;
-        "minecraft-1.21.1" = _R7NgbTzo;
+        "minecraft-1.21.1" = _13lQJFW3;
         "pkg-19.2" = _In0ITCkg;
         "pkg-20.0" = _6JxNRuTl;
         "pkg-21.0" = _2ILZWejK;
@@ -937,7 +943,8 @@ let
         "pkg-121.0" = _jBLnQCEB;
         "pkg-122.0" = _DgB8KGzK;
         "pkg-123.0" = _R7NgbTzo;
-        "default" = _R7NgbTzo;
+        "pkg-124.0" = _13lQJFW3;
+        "default" = _13lQJFW3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bfmod-cntr-project-schinese";

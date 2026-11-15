@@ -101,6 +101,26 @@ let
             "file" = "inputbooster-4.1.2-alpha-fabric-mc262.jar";
             "hash" = "sha512-+ShpywlR1o5U6hOxIMAkTM72jb059ZZZ1OsifN3MMCVNgLAT4Ovu5UVHmQGHmWc3JykJI11un7/3TS2eBzWoUw==";
         };
+        _JQEEULIr = {
+            "id" = "JQEEULIr";
+            "file" = "inputbooster-4.1.2-mc262.jar";
+            "hash" = "sha512-gnnaXDsh1fVfIvJJdZxtsCNiD6sYxDHEWwRmX1zGRpF6FC/kpAOIDt5e8SScjNRL8GnIHJ3SKzppHPo1TFOMLQ==";
+        };
+        _vhRUAzjM = {
+            "id" = "vhRUAzjM";
+            "file" = "inputbooster-4.1.2-mc263.jar";
+            "hash" = "sha512-TEdN+qBDZaPYlWlenyyMX9o6Yf7rTts9KQXynsL6iZpxJvu0LMXnBKb5r+/crO0cxuiNASeNlgcUUs7QbxM7MA==";
+        };
+        _gW7LotXR = {
+            "id" = "gW7LotXR";
+            "file" = "inputbooster-4.1.2-mc2612.jar";
+            "hash" = "sha512-5H4N1BAjvnmnuFy4OMMcxvyFcC+qrmRWP5ZhyTqW4bgjS4VWFsraXDMOL9B5UVljYM/k0aiRhJMvuDC70QV5Xw==";
+        };
+        _2YwnFqPq = {
+            "id" = "2YwnFqPq";
+            "file" = "inputbooster-3.1.5-mc12111.jar";
+            "hash" = "sha512-u0H1QTw1ObB7Y/pz39WNQ7iCfDWIpfYhEhqlhztudn5PJlbi22CF/cb1vllzzJimNCTpZ1bqluPSFLjwdW3aJw==";
+        };
     in {
         "2LbGpqbY" = _2LbGpqbY;
         "A3ut8NAH" = _A3ut8NAH;
@@ -122,10 +142,14 @@ let
         "iHCl03SL" = _iHCl03SL;
         "Dg2LhNW1" = _Dg2LhNW1;
         "4BB8EV2A" = _4BB8EV2A;
+        "JQEEULIr" = _JQEEULIr;
+        "vhRUAzjM" = _vhRUAzjM;
+        "gW7LotXR" = _gW7LotXR;
+        "2YwnFqPq" = _2YwnFqPq;
         "fabric-1.21.8" = _IpKCs9K8;
         "fabric-1.21.9" = _IpKCs9K8;
         "fabric-1.21.10" = _IpKCs9K8;
-        "fabric-1.21.11" = _LB3qRVtz;
+        "fabric-1.21.11" = _2YwnFqPq;
         "fabric-26.1" = _xrJ3vDEf;
         "fabric-26.1.1" = _xrJ3vDEf;
         "fabric-1.21.1" = _IpKCs9K8;
@@ -135,9 +159,9 @@ let
         "fabric-1.21.5" = _IpKCs9K8;
         "fabric-1.21.6" = _IpKCs9K8;
         "fabric-1.21.7" = _IpKCs9K8;
-        "fabric-26.1.2" = _xrJ3vDEf;
-        "fabric-26.2" = _4BB8EV2A;
-        "fabric-26.3" = _iHCl03SL;
+        "fabric-26.1.2" = _gW7LotXR;
+        "fabric-26.2" = _JQEEULIr;
+        "fabric-26.3" = _vhRUAzjM;
         "neoforge-1.21.11" = _UqAIcqLS;
         "neoforge-26.1" = _IwwGw3q9;
         "neoforge-26.1.1" = _IwwGw3q9;
@@ -163,7 +187,11 @@ let
         "pkg-4.0.0-fabric-mc263" = _iHCl03SL;
         "pkg-4.0.3-stable-fabric-mc262" = _Dg2LhNW1;
         "pkg-4.1.2-alpha-fabric-mc262" = _4BB8EV2A;
-        "default" = _4BB8EV2A;
+        "pkg-4.1.2-mc262" = _JQEEULIr;
+        "pkg-4.1.2-mc263" = _vhRUAzjM;
+        "pkg-4.1.2-mc2612" = _gW7LotXR;
+        "pkg-3.1.5-mc12111" = _2YwnFqPq;
+        "default" = _2YwnFqPq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inputbooster";

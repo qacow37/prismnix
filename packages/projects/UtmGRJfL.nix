@@ -41,6 +41,11 @@ let
             "file" = "obsidiantoolsandmore-1.0.1-26.3.jar";
             "hash" = "sha512-GfW4d7PR8LnOSFitMmUuJsCDCc5RxotEY354ucc6rxpp4/jfnDOIf7/TA1zsTWFV47BHBTmWklvRV6/QecFQ2w==";
         };
+        _oIpx00um = {
+            "id" = "oIpx00um";
+            "file" = "obsidiantoolsandmore-1.0.5-26.3.jar";
+            "hash" = "sha512-aVqENkxdhN03o/gJvxW5nNqKuCZLb44kAOnC1aNNjyLoqea2OC1ZGGWTqQd+DmvOigfNJHN97ZAnz2+YoZMDeA==";
+        };
     in {
         "gXhnHN0p" = _gXhnHN0p;
         "jnjjoI1H" = _jnjjoI1H;
@@ -50,6 +55,7 @@ let
         "E4LpJK75" = _E4LpJK75;
         "XUIHnkJF" = _XUIHnkJF;
         "QAb1ZFrz" = _QAb1ZFrz;
+        "oIpx00um" = _oIpx00um;
         "fabric-26.1" = _gXhnHN0p;
         "fabric-26.1.1" = _jnjjoI1H;
         "fabric-26.1.2" = _nyaVRfRD;
@@ -59,12 +65,13 @@ let
         "neoforge-26.1.1" = _s2IQs8Ee;
         "neoforge-26.1.2" = _s2IQs8Ee;
         "neoforge-26.2" = _E4LpJK75;
-        "neoforge-26.3" = _QAb1ZFrz;
+        "neoforge-26.3" = _oIpx00um;
         "pkg-1.0.0" = _aO1A6GWz;
         "pkg-1.0.0-26.1-26.1.2" = _s2IQs8Ee;
         "pkg-1.0.0-26.2" = _E4LpJK75;
         "pkg-1.0.1-26.3" = _QAb1ZFrz;
-        "default" = _QAb1ZFrz;
+        "pkg-1.0.5-26.3" = _oIpx00um;
+        "default" = _oIpx00um;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obsidiantoolsandmore";

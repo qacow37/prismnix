@@ -286,6 +286,16 @@ let
             "file" = "neoecoae-21.2.17.jar";
             "hash" = "sha512-BAJpL1ZI3uufzaCSQqeX6Dklaq/VpZEeQBi2Tdv8ZuNvcXwXcx3ibhVdUAd6UKTKghZANC5XhuV6TvSMIcx85w==";
         };
+        _HhEsQJ8L = {
+            "id" = "HhEsQJ8L";
+            "file" = "neoecoae-26.2.16.jar";
+            "hash" = "sha512-wMU2xorJ1pY80/LeHEqSiSU0Kpo75MzWUp0cuBRft1Vmk4kadgx9lew9PVr+ZgrRmLylD16VVczNNpSTiy7hhQ==";
+        };
+        _sIcQtm3W = {
+            "id" = "sIcQtm3W";
+            "file" = "neoecoae-26.2.17.jar";
+            "hash" = "sha512-GHRnz/l86Hug2uO7Zg/QCOteqfjYKc1A8UYVu82gmCHm3SIfuMqpZ2K17fVRbLLb4lJvB9eIIo1cK19FpxN4Ig==";
+        };
     in {
         "fk6J0mSI" = _fk6J0mSI;
         "Fgo9rAPU" = _Fgo9rAPU;
@@ -344,8 +354,10 @@ let
         "VilVe0LM" = _VilVe0LM;
         "XZ8STSI4" = _XZ8STSI4;
         "pwZ1AjYW" = _pwZ1AjYW;
+        "HhEsQJ8L" = _HhEsQJ8L;
+        "sIcQtm3W" = _sIcQtm3W;
         "neoforge-1.21.1" = _pwZ1AjYW;
-        "neoforge-26.1.2" = _r3hDncoP;
+        "neoforge-26.1.2" = _sIcQtm3W;
         "forge-1.20.1" = _VilVe0LM;
         "forge-1.7.10" = _OPbdsETO;
         "pkg-1.0.0" = _fk6J0mSI;
@@ -404,7 +416,9 @@ let
         "pkg-20.5.7" = _VilVe0LM;
         "pkg-21.2.16" = _XZ8STSI4;
         "pkg-21.2.17" = _pwZ1AjYW;
-        "default" = _pwZ1AjYW;
+        "pkg-26.2.16" = _HhEsQJ8L;
+        "pkg-26.2.17" = _sIcQtm3W;
+        "default" = _sIcQtm3W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neoecoae";

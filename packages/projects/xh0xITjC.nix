@@ -16,17 +16,24 @@ let
             "file" = "bettertotemhighlight-1.0.jar";
             "hash" = "sha512-7+zlE82nNDtDu7a3j04TqSJkE8ZdgYCMuIWVXBo9D72dU7nEKwM5Imfy6wVlG0k4aZxddgtrwiZJg1Qp0hlZzQ==";
         };
+        _mXYPTCLk = {
+            "id" = "mXYPTCLk";
+            "file" = "bettertotemhighlight-26.1.2-1.0.jar";
+            "hash" = "sha512-p8uq4ipOMQem8Mbv8fe5EFzyl8FNyi4/eHNhIhyMkNcWHQYmTf+/J4Da7JMY6FZ2IQwxipZhXj7eYc8VK59NJg==";
+        };
     in {
         "tBstFc75" = _tBstFc75;
         "kgcquPVa" = _kgcquPVa;
         "IG3fud3H" = _IG3fud3H;
+        "mXYPTCLk" = _mXYPTCLk;
         "fabric-1.21.4" = _tBstFc75;
         "fabric-1.21.5" = _kgcquPVa;
         "fabric-1.21.6" = _IG3fud3H;
         "fabric-1.21.7" = _IG3fud3H;
         "fabric-1.21.8" = _IG3fud3H;
-        "pkg-1.0" = _IG3fud3H;
-        "default" = _IG3fud3H;
+        "fabric-26.1.2" = _mXYPTCLk;
+        "pkg-1.0" = _mXYPTCLk;
+        "default" = _mXYPTCLk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettertotemhighlight";

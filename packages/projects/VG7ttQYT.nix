@@ -61,6 +61,11 @@ let
             "file" = "peterwolfs-boats-and-ships-1.0.23.jar";
             "hash" = "sha512-TRNVbMDdQxLgsLyptBx8xCT+COyCZwdCbW8b/ff2lhGKUcVh5LqocCqKiYtFtxVAti1/iLXdEct8fwqqn7Vs1Q==";
         };
+        _X1oNRhT8 = {
+            "id" = "X1oNRhT8";
+            "file" = "peterwolfs-boats-and-ships-1.0.24.jar";
+            "hash" = "sha512-i2CbVvZtGzgSQvjDvhIKFn7j2CiB1tLpAzPBGJX7uR6IS36eqFs4YeBksrPT88YczIOBX5io1mVwczXxMe5bTw==";
+        };
     in {
         "BOUuUdmP" = _BOUuUdmP;
         "MambwAjq" = _MambwAjq;
@@ -74,9 +79,10 @@ let
         "Rsvi0qzp" = _Rsvi0qzp;
         "kQiSVNQw" = _kQiSVNQw;
         "3hehfNaP" = _3hehfNaP;
+        "X1oNRhT8" = _X1oNRhT8;
         "fabric-26.2" = _ai2U21l5;
         "fabric-1.21.11" = _XEUI0Kvl;
-        "fabric-26.3" = _3hehfNaP;
+        "fabric-26.3" = _X1oNRhT8;
         "neoforge-26.2" = _Rsvi0qzp;
         "pkg-1.0.4" = _BOUuUdmP;
         "pkg-1.0.5" = _K9YJzCFq;
@@ -88,7 +94,8 @@ let
         "pkg-1.0.19+1.21.11" = _XEUI0Kvl;
         "pkg-1.0.22" = _kQiSVNQw;
         "pkg-1.0.23" = _3hehfNaP;
-        "default" = _3hehfNaP;
+        "pkg-1.0.24" = _X1oNRhT8;
+        "default" = _X1oNRhT8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "peterwolfs-boats-ships";

@@ -111,6 +111,26 @@ let
             "file" = "darkdoppelganger-4.3.0-1.21.1.jar";
             "hash" = "sha512-KySdZ/mW26vzgiSLwmaiLDxI0iC/L+SabIims6YL7iEOkqYRww3dmofn4PeUDvYDg1ij85KWJcVNmYltK0a/wA==";
         };
+        _KhYY5c59 = {
+            "id" = "KhYY5c59";
+            "file" = "darkdoppelganger-4.4.0-1.21.1.jar";
+            "hash" = "sha512-PtrwiGipvwLXfk+3YBPEzFRXU4SN6+LGkVvAWJCa6LSGP/dkWTu8eq557ytxLdnJxTJmdrJva5amrdqhGMMslw==";
+        };
+        _TA6qiliK = {
+            "id" = "TA6qiliK";
+            "file" = "darkdoppelganger-4.5.0-1.21.1.jar";
+            "hash" = "sha512-Oa9nO+Iz+P2knJ/zWOkyycTmwhipmyx1uSRJg8XBNMZjKF7xj3x/h8a4pLqn8a2WsIF/Ewx/TKOB1gmk0iZYmg==";
+        };
+        _Zembk00z = {
+            "id" = "Zembk00z";
+            "file" = "darkdoppelganger-4.5.1-1.21.1.jar";
+            "hash" = "sha512-ta6zkq2QLxG6M2rYGOW2/G72HKDBeb/r9RCg9yeMdb9YE8gzX1MWoYnEB7JfIeut14GorZxtRM9wEsDTL0nNBg==";
+        };
+        _V98szR7Y = {
+            "id" = "V98szR7Y";
+            "file" = "darkdoppelganger-10.0.0-1.20.1.jar";
+            "hash" = "sha512-aZKuuNnnaD+AEabqSqsUYtrTsZqsOUAcCAOtiRCAzsPm5TbNFAiOayebdxYtn8IwQTP6/zSaiEYq3SH9WSGUhQ==";
+        };
     in {
         "nZ6sFY7w" = _nZ6sFY7w;
         "P5VVZzGs" = _P5VVZzGs;
@@ -134,14 +154,18 @@ let
         "LZqs9vDv" = _LZqs9vDv;
         "Lmk5SMLa" = _Lmk5SMLa;
         "J55cIVu7" = _J55cIVu7;
-        "forge-1.20.1" = _YIQddviy;
+        "KhYY5c59" = _KhYY5c59;
+        "TA6qiliK" = _TA6qiliK;
+        "Zembk00z" = _Zembk00z;
+        "V98szR7Y" = _V98szR7Y;
+        "forge-1.20.1" = _V98szR7Y;
         "forge-1.20.2" = _sqs8jjxj;
         "forge-1.20.3" = _sqs8jjxj;
         "forge-1.20.4" = _sqs8jjxj;
         "forge-1.20.5" = _sqs8jjxj;
         "forge-1.20.6" = _sqs8jjxj;
         "neoforge-1.21" = _Wu1WHogD;
-        "neoforge-1.21.1" = _J55cIVu7;
+        "neoforge-1.21.1" = _Zembk00z;
         "pkg-3.1.0-1.20.1" = _nZ6sFY7w;
         "pkg-3.2.0-1.20.1" = _P5VVZzGs;
         "pkg-4.2.0-1.20.1" = _sqs8jjxj;
@@ -164,7 +188,11 @@ let
         "pkg-4.2.0-1.21.1" = _LZqs9vDv;
         "pkg-4.2.1-1.21.1" = _Lmk5SMLa;
         "pkg-4.3.0-1.21.1" = _J55cIVu7;
-        "default" = _J55cIVu7;
+        "pkg-4.4.0-1.21.1" = _KhYY5c59;
+        "pkg-4.5.0-1.21.1" = _TA6qiliK;
+        "pkg-4.5.1-1.21.1" = _Zembk00z;
+        "pkg-10.0.0-1.20.1" = _V98szR7Y;
+        "default" = _V98szR7Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-doppelganger";
