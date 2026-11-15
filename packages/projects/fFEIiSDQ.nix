@@ -4481,6 +4481,26 @@ let
             "file" = "supplementaries-1.21.1-4.0.2-neoforge.jar";
             "hash" = "sha512-CSA0rAB8Mnyd1Yxorlhd9Z+lI6XKQNqIs0rY8cY0dSPTAuSQrMFlDq5oN/RpeUQuqKjBUYAgdN4tqZw5bsKIlA==";
         };
+        _ASZwA3B8 = {
+            "id" = "ASZwA3B8";
+            "file" = "supplementaries-1.21.1-4.1.0-neoforge.jar";
+            "hash" = "sha512-0EtcX6/0O/7oWKpC5R4HK2G7m0vwWg/1eB5Y7OdCugHlCOQjb4RK/kuJj7bbuU7a5SqGSvO6qkstBlZSErZYtA==";
+        };
+        _fg7fhzfR = {
+            "id" = "fg7fhzfR";
+            "file" = "supplementaries-1.21.1-4.1.0-fabric.jar";
+            "hash" = "sha512-2A1tK6JHl36DJm9V69m8qPameYZy77ny1ORsbOOItTLag8y0u5c/UpfgYxwAQCWfzhSE/6VTijDcRCtsOrjFYw==";
+        };
+        _ry2Njtnv = {
+            "id" = "ry2Njtnv";
+            "file" = "supplementaries-1.21.1-4.1.1-neoforge.jar";
+            "hash" = "sha512-Ssrdssf/LNk4GfreZVOyM/UK0IT42/HorUku68ec8aS0d8Rsd1z3+32TiB1WLSn04N5YcBcTp3ysA7crMaBAYA==";
+        };
+        _3QNMpqj6 = {
+            "id" = "3QNMpqj6";
+            "file" = "supplementaries-1.21.1-4.1.1-fabric.jar";
+            "hash" = "sha512-jA7FMzHVJckwOUHXWyji3gmZJ6/zWMwop4n1WE3s+z2W1XspMZxTZ0oEQDhFuSoxmEKLQHTFJoJa7+IXGuJGfA==";
+        };
     in {
         "ZNg1UUpP" = _ZNg1UUpP;
         "7fEfk3ST" = _7fEfk3ST;
@@ -5378,6 +5398,10 @@ let
         "q5DOgja6" = _q5DOgja6;
         "CjTooKpp" = _CjTooKpp;
         "rWq0ko29" = _rWq0ko29;
+        "ASZwA3B8" = _ASZwA3B8;
+        "fg7fhzfR" = _fg7fhzfR;
+        "ry2Njtnv" = _ry2Njtnv;
+        "3QNMpqj6" = _3QNMpqj6;
         "forge-1.15.2" = _7fEfk3ST;
         "forge-1.16.3" = _qgUuUJbM;
         "forge-1.16.4" = _Dro1V4Ql;
@@ -5399,10 +5423,10 @@ let
         "fabric-1.20" = _IHh70qnX;
         "fabric-1.20.1" = _hsHs7Gle;
         "fabric-1.21" = _tqVK2pBK;
-        "fabric-1.21.1" = _CjTooKpp;
+        "fabric-1.21.1" = _3QNMpqj6;
         "neoforge-1.20.1" = _foXRPXFH;
         "neoforge-1.21" = _ZeUwQQZo;
-        "neoforge-1.21.1" = _rWq0ko29;
+        "neoforge-1.21.1" = _ry2Njtnv;
         "pkg-0" = _ZNg1UUpP;
         "pkg-1" = _7fEfk3ST;
         "pkg-2" = _QwZE12dT;
@@ -6063,7 +6087,9 @@ let
         "pkg-1.20-3.1.44-fabric" = _hsHs7Gle;
         "pkg-1.21.1-4.0.1" = _q5DOgja6;
         "pkg-1.21.1-4.0.2" = _rWq0ko29;
-        "default" = _rWq0ko29;
+        "pkg-1.21.1-4.1.0" = _fg7fhzfR;
+        "pkg-1.21.1-4.1.1" = _3QNMpqj6;
+        "default" = _3QNMpqj6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "supplementaries";

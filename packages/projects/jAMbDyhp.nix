@@ -81,6 +81,16 @@ let
             "file" = "Hyrule_Terrors-fabric-2.2.2-1.21.1.jar";
             "hash" = "sha512-XtYUQNabC/Vc/LboCPeeoaShY4wd7MLumQGPbYlmniLQGyZWd18Co6QXisU8ZuipRj1eJwXo0e7Vfg8iRIQdhw==";
         };
+        _pLMURGcW = {
+            "id" = "pLMURGcW";
+            "file" = "Hyrule_Terrors-neoforge-2.3.0-1.21.1.jar";
+            "hash" = "sha512-PyTM7GAG9V5EM5o+1pBmxiCYh6R/aPDrGEmoicX2kB8a5ztSkX2KRR3KI2ufFkuHUQFEVUeN9Nu2c84zCcqk6g==";
+        };
+        _jhTSP86G = {
+            "id" = "jhTSP86G";
+            "file" = "Hyrule_Terrors-fabric-2.3.0-1.21.1.jar";
+            "hash" = "sha512-+WkaU79YOqKqdyutRpy6CXYo5RQ+vB7qQSFI1gBz7RrddpB8pF/eqbAaQhx/Ex5PxedKNGNYqLaRlyByvaN22g==";
+        };
     in {
         "8GqAhEjW" = _8GqAhEjW;
         "vYHe4DRk" = _vYHe4DRk;
@@ -98,10 +108,12 @@ let
         "Kifyt3Ee" = _Kifyt3Ee;
         "kyuiL8ke" = _kyuiL8ke;
         "BCHVgfLu" = _BCHVgfLu;
+        "pLMURGcW" = _pLMURGcW;
+        "jhTSP86G" = _jhTSP86G;
         "forge-1.20.1" = _DKaA7Vrl;
         "fabric-1.20.1" = _Kifyt3Ee;
-        "fabric-1.21.1" = _BCHVgfLu;
-        "neoforge-1.21.1" = _kyuiL8ke;
+        "fabric-1.21.1" = _jhTSP86G;
+        "neoforge-1.21.1" = _pLMURGcW;
         "pkg-1.1.0" = _vYHe4DRk;
         "pkg-1.2.2-1.21.1" = _x1zPzuVt;
         "pkg-2.0.2" = _TApBkIls;
@@ -110,7 +122,8 @@ let
         "pkg-2.2.0-1.21.1" = _z0H8Q8d6;
         "pkg-2.2.0" = _Kifyt3Ee;
         "pkg-2.2.2-1.21.1" = _BCHVgfLu;
-        "default" = _BCHVgfLu;
+        "pkg-2.3.0-1.21.1" = _jhTSP86G;
+        "default" = _jhTSP86G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zelda-hyrule-terrors";

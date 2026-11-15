@@ -156,6 +156,11 @@ let
             "file" = "fancytabsections-6.2-NEOFORGE-26.3.jar";
             "hash" = "sha512-gas3OJEpZEU4yRPGGtDiEoSSWZdRztxX7T2YO6G2mTKaShGhOU8q7I4Ntcn/QP4lOQVa1HEWKqT4h/kpRjDo6w==";
         };
+        _i8dJmNmT = {
+            "id" = "i8dJmNmT";
+            "file" = "fancytabsections-6.3-FORGE-1.20.1.jar";
+            "hash" = "sha512-7bcS3eNXB7jrl2od72YhHfBBVkNk0liCVFh3Vg7EKRAhOi62h6RTwEdqSoU1czO6vU4KGlXAGyUFD1gA7PSfZQ==";
+        };
     in {
         "CJlrVSwW" = _CJlrVSwW;
         "Pat2B289" = _Pat2B289;
@@ -188,11 +193,12 @@ let
         "wfhfSuZB" = _wfhfSuZB;
         "DRorIVcZ" = _DRorIVcZ;
         "X5CiUhmY" = _X5CiUhmY;
+        "i8dJmNmT" = _i8dJmNmT;
         "neoforge-26.1.2" = _yWigbWI3;
         "neoforge-1.21.1" = _Nfh3zmbE;
         "neoforge-26.2" = _Of819TZQ;
         "neoforge-26.3" = _X5CiUhmY;
-        "forge-1.20.1" = _DRorIVcZ;
+        "forge-1.20.1" = _i8dJmNmT;
         "pkg-1.0-NEOFORGE-26.1" = _CJlrVSwW;
         "pkg-1.0-NEOFORGE-1.21.1" = _Pat2B289;
         "pkg-1.0-FORGE-1.20.1" = _SbVyCE3u;
@@ -224,7 +230,8 @@ let
         "pkg-6.2.2-FORGE-1.20.1" = _wfhfSuZB;
         "pkg-6.2.3-FORGE-1.20.1" = _DRorIVcZ;
         "pkg-6.2-NEOFORGE-26.3" = _X5CiUhmY;
-        "default" = _X5CiUhmY;
+        "pkg-6.3-FORGE-1.20.1" = _i8dJmNmT;
+        "default" = _i8dJmNmT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancytabsections";

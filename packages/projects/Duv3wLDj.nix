@@ -761,6 +761,11 @@ let
             "file" = "boss-warps-1.0.35.jar";
             "hash" = "sha512-3y4Ke5/dBfp7M/ox+oY1NjqmqmeCbLqvIRweQTULxrxKm/nuJZwjc8vgUB1VOpl2w/biEYjpFjtUrSOjakvE2g==";
         };
+        _rjj6Hux1 = {
+            "id" = "rjj6Hux1";
+            "file" = "Boss Warps 1.20.1 v1.0.78.jar";
+            "hash" = "sha512-hvwxT7j7FtHhrf8+E2T2urkIIM+pYQuS7cL8ts67xVHtPSsEDjcfBYcB97YK4zG7EBcb0yAHaTtdS2NhVp/e+A==";
+        };
     in {
         "kdk9uohi" = _kdk9uohi;
         "XQ1mX6Qb" = _XQ1mX6Qb;
@@ -914,10 +919,11 @@ let
         "yvzX4Anq" = _yvzX4Anq;
         "JYAK7ijt" = _JYAK7ijt;
         "LyHNFXYE" = _LyHNFXYE;
-        "forge-1.20.1" = _yvzX4Anq;
+        "rjj6Hux1" = _rjj6Hux1;
+        "forge-1.20.1" = _rjj6Hux1;
         "forge-1.21" = _LyHNFXYE;
         "forge-1.21.1" = _LyHNFXYE;
-        "neoforge-1.20.1" = _yvzX4Anq;
+        "neoforge-1.20.1" = _rjj6Hux1;
         "neoforge-1.21" = _LyHNFXYE;
         "neoforge-1.21.1" = _LyHNFXYE;
         "datapack-1.21" = _JYAK7ijt;
@@ -1042,7 +1048,8 @@ let
         "pkg-1.0.76" = _yajagoyA;
         "pkg-1.0.77" = _yvzX4Anq;
         "pkg-1.0.35+mod" = _LyHNFXYE;
-        "default" = _LyHNFXYE;
+        "pkg-1.0.78" = _rjj6Hux1;
+        "default" = _rjj6Hux1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boss-warps";

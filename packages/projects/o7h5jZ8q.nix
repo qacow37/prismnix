@@ -71,6 +71,16 @@ let
             "file" = "bbyj's Pet Bunny-1.5.2-fabric+1.20.1.jar";
             "hash" = "sha512-o2vkajE7WXX0vz/x23q/XlD3jZ/Tf/mn9t84YdWnLK0l2+Rd1D41MzaU4GdjQoBfjiUuWQ4wAKNPwzF5C3XPng==";
         };
+        _TNG8p5ac = {
+            "id" = "TNG8p5ac";
+            "file" = "bbyj's Pet Bunny-1.5.2-forge+1.20.1.jar";
+            "hash" = "sha512-VPFL4JSU4/uscP7rEYcMRZ3v/UxebBGWxLWbAZlOjLDLYYSMcnQ9ExVUM0Vcls0+8vxjP7bQSnQWJ0qKMnDzOg==";
+        };
+        _JpMGxGnh = {
+            "id" = "JpMGxGnh";
+            "file" = "bbyj's Pet Bunny-1.5.2-fabric+26.3.jar";
+            "hash" = "sha512-4MpCcgjZvQVR5ZHYnbCA8HJQ6GpBLCVfHkl0w8hJgyjyhY66kueNzb2ewqIAJcmX+a+K1u5gh9NblYC+/gZyEw==";
+        };
     in {
         "3PwS63su" = _3PwS63su;
         "Gmxntihi" = _Gmxntihi;
@@ -86,10 +96,13 @@ let
         "oDmMslON" = _oDmMslON;
         "DRVTnWKv" = _DRVTnWKv;
         "pawPQRkG" = _pawPQRkG;
-        "forge-1.20.1" = _DRVTnWKv;
+        "TNG8p5ac" = _TNG8p5ac;
+        "JpMGxGnh" = _JpMGxGnh;
+        "forge-1.20.1" = _TNG8p5ac;
         "fabric-1.21.8" = _hkQ2k9A3;
         "fabric-1.21.7" = _h9uMbqvV;
         "fabric-1.20.1" = _pawPQRkG;
+        "fabric-26.3" = _JpMGxGnh;
         "pkg-1.0.0" = _3PwS63su;
         "pkg-1.1.0" = _Gmxntihi;
         "pkg-1.2.0" = _iayIZ0ar;
@@ -103,8 +116,8 @@ let
         "pkg-1.5.0-Preview-fabric+1.21.7" = _h9uMbqvV;
         "pkg-1.5.0r-Preview-fabric+1.20.1" = _oDmMslON;
         "pkg-1.5.1-Summer" = _DRVTnWKv;
-        "pkg-1.5.2" = _pawPQRkG;
-        "default" = _pawPQRkG;
+        "pkg-1.5.2" = _JpMGxGnh;
+        "default" = _JpMGxGnh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbyjs-pet-bunny";

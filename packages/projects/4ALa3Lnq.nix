@@ -51,6 +51,11 @@ let
             "file" = "§eStrings & Things 26.3.zip";
             "hash" = "sha512-2yx8rgHQoyzzFh/dbuYRKwvSwzrlK8ph/LEE/dCDmKEBT1KGIk2VNHGSjdyzlTCRMIqmnpLdaQOsyihM1QZBQw==";
         };
+        _RAMPyTPP = {
+            "id" = "RAMPyTPP";
+            "file" = "§eStrings & Things 26.3.zip";
+            "hash" = "sha512-JYSx0rMYP2JNcav0j9yr7uGJI1Y8hLFYgVxwdzeSaGRLjGinVx4xPN3yLTdoz/5dEn2Fu0a0Vfp1bV+RLuG9YA==";
+        };
     in {
         "XFJJdwjq" = _XFJJdwjq;
         "PjQaaDQK" = _PjQaaDQK;
@@ -62,19 +67,28 @@ let
         "wiMOG7sD" = _wiMOG7sD;
         "6h02WkHw" = _6h02WkHw;
         "dNqLrpzg" = _dNqLrpzg;
-        "minecraft-1.21.5" = _dNqLrpzg;
-        "minecraft-1.21.6" = _dNqLrpzg;
-        "minecraft-1.21.7" = _dNqLrpzg;
-        "minecraft-1.21.8" = _dNqLrpzg;
-        "minecraft-1.21.9" = _dNqLrpzg;
-        "minecraft-1.21.10" = _dNqLrpzg;
-        "minecraft-1.21.11" = _dNqLrpzg;
+        "RAMPyTPP" = _RAMPyTPP;
+        "minecraft-1.21.5" = _RAMPyTPP;
+        "minecraft-1.21.6" = _RAMPyTPP;
+        "minecraft-1.21.7" = _RAMPyTPP;
+        "minecraft-1.21.8" = _RAMPyTPP;
+        "minecraft-1.21.9" = _RAMPyTPP;
+        "minecraft-1.21.10" = _RAMPyTPP;
+        "minecraft-1.21.11" = _RAMPyTPP;
         "minecraft-26.1-snapshot-1" = _qfHhVyI1;
-        "minecraft-26.1" = _dNqLrpzg;
-        "minecraft-26.1.1" = _dNqLrpzg;
-        "minecraft-26.1.2" = _dNqLrpzg;
-        "minecraft-26.2" = _dNqLrpzg;
-        "minecraft-26.3" = _dNqLrpzg;
+        "minecraft-26.1" = _RAMPyTPP;
+        "minecraft-26.1.1" = _RAMPyTPP;
+        "minecraft-26.1.2" = _RAMPyTPP;
+        "minecraft-26.2" = _RAMPyTPP;
+        "minecraft-26.3" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-8" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-7" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-6" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-3" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-4" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-5" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-2" = _RAMPyTPP;
+        "minecraft-26.4-snapshot-1" = _RAMPyTPP;
         "pkg-1a" = _XFJJdwjq;
         "pkg-2a" = _PjQaaDQK;
         "pkg-2b" = _N8XOfzkA;
@@ -85,7 +99,8 @@ let
         "pkg-6b" = _wiMOG7sD;
         "pkg-7a" = _6h02WkHw;
         "pkg-7b" = _dNqLrpzg;
-        "default" = _dNqLrpzg;
+        "pkg-7c" = _RAMPyTPP;
+        "default" = _RAMPyTPP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strings-and-things";

@@ -61,6 +61,11 @@ let
             "file" = "bielgg_spells-1.7-1.jar";
             "hash" = "sha512-OY9fvF0fGLodEmkhk96TvvLNdbqxS67avCq413ZBRLGopVDBpKvCb/Ca9OTyih8w8k2zC9QCdVrSy8jRL7hMdw==";
         };
+        _7J1lYNEA = {
+            "id" = "7J1lYNEA";
+            "file" = "bielgg_spells-1.7-2.jar";
+            "hash" = "sha512-GP5mB5JKwV1oNR6Y/imdPJRJUfQu4l/24tzRtGF6SbdwQVE8j4PQDfESD15iY/KVHTcVD/AxnRQgAi03ILAR4g==";
+        };
     in {
         "CQn6jt4X" = _CQn6jt4X;
         "PtHM9Lh0" = _PtHM9Lh0;
@@ -74,12 +79,13 @@ let
         "xGlPe98h" = _xGlPe98h;
         "HhCVSVtb" = _HhCVSVtb;
         "YNOzB4mT" = _YNOzB4mT;
-        "forge-1.20.1" = _YNOzB4mT;
-        "forge-1.20.2" = _YNOzB4mT;
-        "forge-1.20.3" = _YNOzB4mT;
-        "forge-1.20.4" = _YNOzB4mT;
-        "forge-1.20.5" = _YNOzB4mT;
-        "forge-1.20.6" = _YNOzB4mT;
+        "7J1lYNEA" = _7J1lYNEA;
+        "forge-1.20.1" = _7J1lYNEA;
+        "forge-1.20.2" = _7J1lYNEA;
+        "forge-1.20.3" = _7J1lYNEA;
+        "forge-1.20.4" = _7J1lYNEA;
+        "forge-1.20.5" = _7J1lYNEA;
+        "forge-1.20.6" = _7J1lYNEA;
         "pkg-1.1-hotfix" = _CQn6jt4X;
         "pkg-1.2" = _PtHM9Lh0;
         "pkg-1.2-lightweight" = _bwavwmYg;
@@ -92,7 +98,8 @@ let
         "pkg-1.5-patchwork" = _xGlPe98h;
         "pkg-1.6" = _HhCVSVtb;
         "pkg-1.7-1" = _YNOzB4mT;
-        "default" = _YNOzB4mT;
+        "pkg-1.7-2" = _7J1lYNEA;
+        "default" = _7J1lYNEA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bielggs-spells-addon";

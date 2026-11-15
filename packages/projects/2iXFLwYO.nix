@@ -221,6 +221,11 @@ let
             "file" = "HadEnoughItems_1.12.2-4.37.3.jar";
             "hash" = "sha512-XldAQRGLe3TN4CTP67tyslzxR1VW6fSiOxzsFwGnNGr9OOQb2Ihx1HbS7BGsh38+mKYJH5ZCBsa0taTYwpwyWw==";
         };
+        _NPe5VWbs = {
+            "id" = "NPe5VWbs";
+            "file" = "HadEnoughItems_1.12.2-4.38.0.jar";
+            "hash" = "sha512-w6Sb/12XOv8KVegv9WLW+hFAxaXXi2wicHQ/yYk0JcWswEwC9IyQJjLlFzuWOqf47q4gjxaElDFehC7VApXB9g==";
+        };
     in {
         "WNEFxxQ5" = _WNEFxxQ5;
         "K5rdkMmb" = _K5rdkMmb;
@@ -266,7 +271,8 @@ let
         "JRyfJ8Tq" = _JRyfJ8Tq;
         "E55wRC5i" = _E55wRC5i;
         "T4sU7pzK" = _T4sU7pzK;
-        "forge-1.12.2" = _T4sU7pzK;
+        "NPe5VWbs" = _NPe5VWbs;
+        "forge-1.12.2" = _NPe5VWbs;
         "pkg-4.26.0" = _WNEFxxQ5;
         "pkg-4.26.1" = _K5rdkMmb;
         "pkg-4.26.2" = _EYlKeUXm;
@@ -311,7 +317,8 @@ let
         "pkg-4.36.1" = _JRyfJ8Tq;
         "pkg-4.37.2" = _E55wRC5i;
         "pkg-4.37.3" = _T4sU7pzK;
-        "default" = _T4sU7pzK;
+        "pkg-4.38.0" = _NPe5VWbs;
+        "default" = _NPe5VWbs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "had-enough-items";

@@ -2591,6 +2591,11 @@ let
             "file" = "the_bumblezone-7.18.7+26.1.2-neoforge.jar";
             "hash" = "sha512-6B8LKi9lFXI733htesEitPoB7elE+GfTIzlat+CWncQB99pJPWdQBneygsxHIU5fs6RfrkQI0CKobRzvaef+DA==";
         };
+        _cZZRSZLk = {
+            "id" = "cZZRSZLk";
+            "file" = "the_bumblezone-7.19.0+26.1.2-neoforge.jar";
+            "hash" = "sha512-2A2c/njtotC23TETLoBpAqoBAME1FTTHX3EChqmp0/noFY1dtI47e5Ihb08vg+1kY+sORmLSmU6ROklL+y3Yow==";
+        };
     in {
         "G53D0Hb1" = _G53D0Hb1;
         "DbEBxSSF" = _DbEBxSSF;
@@ -3110,6 +3115,7 @@ let
         "Y03sXE5Q" = _Y03sXE5Q;
         "JpEHlzmT" = _JpEHlzmT;
         "aVa62crr" = _aVa62crr;
+        "cZZRSZLk" = _cZZRSZLk;
         "forge-1.16.5" = _zWgjhwUG;
         "forge-1.18.1" = _vZdUFi2H;
         "forge-1.18.2" = _1s5rBT6B;
@@ -3125,7 +3131,7 @@ let
         "neoforge-1.20.6" = _OaKkhIfs;
         "neoforge-1.21" = _y19jNgxQ;
         "neoforge-1.21.1" = _LwGXnQCW;
-        "neoforge-26.1.2" = _aVa62crr;
+        "neoforge-26.1.2" = _cZZRSZLk;
         "pkg-1.16.5-2.4.3-forge" = _G53D0Hb1;
         "pkg-1.16.5-2.4.4-forge" = _DbEBxSSF;
         "pkg-1.16.5-2.4.5-forge" = _EEyCaG7X;
@@ -3644,7 +3650,8 @@ let
         "pkg-7.18.5+26.1.2-neoforge" = _Y03sXE5Q;
         "pkg-7.18.6+26.1.2-neoforge" = _JpEHlzmT;
         "pkg-7.18.7+26.1.2-neoforge" = _aVa62crr;
-        "default" = _aVa62crr;
+        "pkg-7.19.0+26.1.2-neoforge" = _cZZRSZLk;
+        "default" = _cZZRSZLk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bumblezone";

@@ -151,6 +151,16 @@ let
             "file" = "gamingbarns-morphs-V1.15.2-data.jar";
             "hash" = "sha512-V8vtZvQpQcZRqwuiYxRpTV+q6DMW4AH5JJQJohOGuVChtfVohDpLi77UkR6gEjAGFD2CRrmLnLdPwq0AB1b5zw==";
         };
+        _HnsULeMH = {
+            "id" = "HnsULeMH";
+            "file" = "Gamingbarn's Morphs V1.15.3.zip";
+            "hash" = "sha512-s/kR9vfvOuGOMUuMciB/+X58MidoCVJTOa/rDkkZU0275QS/UBTPb+hYhv0TzABf03MaSk2QTGVzq1MsNBw4dQ==";
+        };
+        _CGxdoQj3 = {
+            "id" = "CGxdoQj3";
+            "file" = "gamingbarns-morphs-V1.15.3-data.jar";
+            "hash" = "sha512-BNT4cmhsZqNKh5Y/6Z4eNc3guI19lKBe6MPEksFTRIziI9ncJ8WE3suDQecZjJLfMgyOG87+QXq0fxX9OoDeZA==";
+        };
     in {
         "H7XLcEkg" = _H7XLcEkg;
         "EHSwyOCa" = _EHSwyOCa;
@@ -182,6 +192,8 @@ let
         "BUSiwbQ3" = _BUSiwbQ3;
         "CzJsicI8" = _CzJsicI8;
         "CbrLcs5w" = _CbrLcs5w;
+        "HnsULeMH" = _HnsULeMH;
+        "CGxdoQj3" = _CGxdoQj3;
         "datapack-1.20.4" = _l1MxYb9x;
         "datapack-1.20.6" = _YJJMUB8a;
         "datapack-1.21" = _D6611T1Z;
@@ -198,6 +210,7 @@ let
         "datapack-26.1.1" = _2tCIKXJv;
         "datapack-26.1.2" = _2tCIKXJv;
         "datapack-26.2" = _CzJsicI8;
+        "datapack-26.3" = _HnsULeMH;
         "fabric-1.21" = _WoP0DzoW;
         "fabric-1.21.1" = _WoP0DzoW;
         "fabric-1.21.4" = _5tQAOMkX;
@@ -212,6 +225,7 @@ let
         "fabric-26.1.1" = _BUSiwbQ3;
         "fabric-26.1.2" = _BUSiwbQ3;
         "fabric-26.2" = _CbrLcs5w;
+        "fabric-26.3" = _CGxdoQj3;
         "forge-1.21" = _WoP0DzoW;
         "forge-1.21.1" = _WoP0DzoW;
         "forge-1.21.4" = _5tQAOMkX;
@@ -226,6 +240,7 @@ let
         "forge-26.1.1" = _BUSiwbQ3;
         "forge-26.1.2" = _BUSiwbQ3;
         "forge-26.2" = _CbrLcs5w;
+        "forge-26.3" = _CGxdoQj3;
         "quilt-1.21" = _WoP0DzoW;
         "quilt-1.21.1" = _WoP0DzoW;
         "quilt-1.21.4" = _5tQAOMkX;
@@ -240,6 +255,7 @@ let
         "quilt-26.1.1" = _BUSiwbQ3;
         "quilt-26.1.2" = _BUSiwbQ3;
         "quilt-26.2" = _CbrLcs5w;
+        "quilt-26.3" = _CGxdoQj3;
         "neoforge-1.21" = _WoP0DzoW;
         "neoforge-1.21.1" = _WoP0DzoW;
         "neoforge-1.21.4" = _5tQAOMkX;
@@ -254,6 +270,7 @@ let
         "neoforge-26.1.1" = _BUSiwbQ3;
         "neoforge-26.1.2" = _BUSiwbQ3;
         "neoforge-26.2" = _CbrLcs5w;
+        "neoforge-26.3" = _CGxdoQj3;
         "pkg-V1.11" = _H7XLcEkg;
         "pkg-V1.11.1" = _EHSwyOCa;
         "pkg-V1.11.2" = _l1MxYb9x;
@@ -284,7 +301,9 @@ let
         "pkg-V1.15.1-mod" = _BUSiwbQ3;
         "pkg-V1.15.2-data" = _CzJsicI8;
         "pkg-V1.15.2-mod" = _CbrLcs5w;
-        "default" = _CbrLcs5w;
+        "pkg-V1.15.3-data" = _HnsULeMH;
+        "pkg-V1.15.3-mod" = _CGxdoQj3;
+        "default" = _CGxdoQj3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gamingbarns-morphs";

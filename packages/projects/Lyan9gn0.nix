@@ -26,17 +26,23 @@ let
             "file" = "Lite Mc.zip";
             "hash" = "sha512-FmlVqcfCseDXzCHSgelzcYy461tCcqr0tu0q/djw08wff8hoSB6dWUgx1C0olrxYh9Bo/fbOhffIcPkcHJDREw==";
         };
+        _lqiOdZK5 = {
+            "id" = "lqiOdZK5";
+            "file" = "Lite Visuals.zip";
+            "hash" = "sha512-HtCXDJRYYnaoZcZM6w08OW/fYfT/WkftdfGH+lraZH2khL0Fhzho8/shc9/p0r7XKxLEyeyy1caoC73w5L3nBQ==";
+        };
     in {
         "sK8et3eE" = _sK8et3eE;
         "4rOxQ4EC" = _4rOxQ4EC;
         "j4GUJWGw" = _j4GUJWGw;
         "kEvQLZey" = _kEvQLZey;
         "xnZMnbmw" = _xnZMnbmw;
+        "lqiOdZK5" = _lqiOdZK5;
         "iris-1.21.11" = _4rOxQ4EC;
         "iris-26.1" = _kEvQLZey;
         "iris-26.1.1" = _kEvQLZey;
-        "iris-26.2" = _xnZMnbmw;
-        "iris-26.3" = _xnZMnbmw;
+        "iris-26.2" = _lqiOdZK5;
+        "iris-26.3" = _lqiOdZK5;
         "optifine-1.21.11" = _4rOxQ4EC;
         "optifine-26.1" = _kEvQLZey;
         "optifine-26.1.1" = _kEvQLZey;
@@ -45,7 +51,8 @@ let
         "pkg-Beta.v.0.1" = _j4GUJWGw;
         "pkg-Beta.v.0.2" = _kEvQLZey;
         "pkg-Release-v.1" = _xnZMnbmw;
-        "default" = _xnZMnbmw;
+        "pkg-v1.1" = _lqiOdZK5;
+        "default" = _lqiOdZK5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litemc";

@@ -276,6 +276,11 @@ let
             "file" = "player-death-corpses-3.8.jar";
             "hash" = "sha512-kv96CF6IHYITg0WwWV04Y5sM4CCGPcz87HyhUR4MehvuSJWRGzEfPb0xwIPqYCrzsWg6XU4xdXOdzNRbglSVXw==";
         };
+        _qYoFGmOw = {
+            "id" = "qYoFGmOw";
+            "file" = "player-corpses-plugin-1.0.0.jar";
+            "hash" = "sha512-SQjfTsoS9aH3rH2jfoxYrWKazznVSwtjxeWRsKjEdQd3otNw6wOxEDbZsvUFV3DagzQmWF7NQ0PusSo9i/nWww==";
+        };
     in {
         "cDdJOYc2" = _cDdJOYc2;
         "yfhz0UMu" = _yfhz0UMu;
@@ -332,6 +337,7 @@ let
         "bEAcbslS" = _bEAcbslS;
         "XXPg6wBD" = _XXPg6wBD;
         "dqNslZrU" = _dqNslZrU;
+        "qYoFGmOw" = _qYoFGmOw;
         "datapack-1.21.9-pre1" = _rj7bjEhK;
         "datapack-1.21.9" = _XXPg6wBD;
         "datapack-1.21.10" = _XXPg6wBD;
@@ -378,6 +384,22 @@ let
         "quilt-26.1.2" = _dqNslZrU;
         "quilt-26.2" = _dqNslZrU;
         "quilt-26.3" = _dqNslZrU;
+        "paper-1.21.11" = _qYoFGmOw;
+        "paper-1.21.10" = _qYoFGmOw;
+        "paper-1.21.9" = _qYoFGmOw;
+        "paper-26.1" = _qYoFGmOw;
+        "paper-26.1.1" = _qYoFGmOw;
+        "paper-26.1.2" = _qYoFGmOw;
+        "paper-26.2" = _qYoFGmOw;
+        "paper-26.3" = _qYoFGmOw;
+        "purpur-1.21.11" = _qYoFGmOw;
+        "purpur-1.21.10" = _qYoFGmOw;
+        "purpur-1.21.9" = _qYoFGmOw;
+        "purpur-26.1" = _qYoFGmOw;
+        "purpur-26.1.1" = _qYoFGmOw;
+        "purpur-26.1.2" = _qYoFGmOw;
+        "purpur-26.2" = _qYoFGmOw;
+        "purpur-26.3" = _qYoFGmOw;
         "pkg-0.1" = _cDdJOYc2;
         "pkg-0.2" = _yfhz0UMu;
         "pkg-0.3" = _rj7bjEhK;
@@ -433,7 +455,8 @@ let
         "pkg-3.7+mod" = _bEAcbslS;
         "pkg-3.8" = _XXPg6wBD;
         "pkg-3.8+mod" = _dqNslZrU;
-        "default" = _dqNslZrU;
+        "pkg-1.0.0" = _qYoFGmOw;
+        "default" = _qYoFGmOw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-death-corpses";

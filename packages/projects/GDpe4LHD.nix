@@ -126,6 +126,11 @@ let
             "file" = "desiredservers-neoforge-1.21.1-1.6.0.jar";
             "hash" = "sha512-hrbmTMPJqWIAZFJqmX3Zkz1CmKG78SFpwhyds/Bb5dLmtsIocLs0VYMX/ksVz/YG22B0yTptO7U9Sj35IBVwzA==";
         };
+        _p1ynTo5l = {
+            "id" = "p1ynTo5l";
+            "file" = "Desired-Servers-2.0.1-MC26.3-NeoForge.jar";
+            "hash" = "sha512-zN0Zl4N5CO+yef1kbl8OdhRPbpSpOdBPqdaf17KNLoPpI1aXU8/yv31qbPIgTFLyFrKzoaSwXiiXUu3se1PDnw==";
+        };
     in {
         "T04JbMwA" = _T04JbMwA;
         "Zi6Bak7Z" = _Zi6Bak7Z;
@@ -152,6 +157,7 @@ let
         "bzTHvIbq" = _bzTHvIbq;
         "NKRhBmYy" = _NKRhBmYy;
         "NujdMPdL" = _NujdMPdL;
+        "p1ynTo5l" = _p1ynTo5l;
         "forge-1.12.2" = _T04JbMwA;
         "forge-1.16.4" = _Zi6Bak7Z;
         "forge-1.16.5" = _Zi6Bak7Z;
@@ -179,6 +185,7 @@ let
         "neoforge-1.20.4" = _pFwaWr87;
         "neoforge-1.20.6" = _bzTHvIbq;
         "neoforge-1.21.1" = _NujdMPdL;
+        "neoforge-26.3" = _p1ynTo5l;
         "pkg-1.0.1" = _GAmRvF14;
         "pkg-1.16.5-1.0.1" = _FgZDTomR;
         "pkg-1.19-1.0.1" = _7kMd8O2g;
@@ -191,7 +198,8 @@ let
         "pkg-1.4.0" = _pFwaWr87;
         "pkg-1.5.0" = _bzTHvIbq;
         "pkg-1.6.0" = _NujdMPdL;
-        "default" = _NujdMPdL;
+        "pkg-2.0.1" = _p1ynTo5l;
+        "default" = _p1ynTo5l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "desired-servers";

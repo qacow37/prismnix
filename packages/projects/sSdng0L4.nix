@@ -176,6 +176,16 @@ let
             "file" = "structureplacerapi-2.1.1+26.1+neo.jar";
             "hash" = "sha512-br6AJaGeHdK/9G00Ozn5PIGW5V6ApVuhnLFAu5bSRrnOcHkCwR9CBkoVioQWyXu7vF/8Tg/CSlk7JweVY+VG1g==";
         };
+        _LToOVEIJ = {
+            "id" = "LToOVEIJ";
+            "file" = "structureplacerapi-2.1.1+26.1+neo.jar";
+            "hash" = "sha512-j2h5cTYXsYdb/XbBdbfB4pOG4Ml5GjcGZvtocychV5BWstY/v28uNFIoEYTOprJl+VSUYt+RznsC1q6ualLZxQ==";
+        };
+        _XxsVK0Ll = {
+            "id" = "XxsVK0Ll";
+            "file" = "structureplacerapi-2.1.1+26.3+neo.jar";
+            "hash" = "sha512-jCGnLA5RbKh86dO3oGvRwaNH6nR78INgTKhgNY4EBqtebFGY/4sjOXxQDo0VaOGEb5OanJwsZKbRnws/5vtxdQ==";
+        };
     in {
         "Tl3Pvdfj" = _Tl3Pvdfj;
         "7DF3cqEt" = _7DF3cqEt;
@@ -212,6 +222,8 @@ let
         "kWoix016" = _kWoix016;
         "IUo8cik4" = _IUo8cik4;
         "1dOSCSlg" = _1dOSCSlg;
+        "LToOVEIJ" = _LToOVEIJ;
+        "XxsVK0Ll" = _XxsVK0Ll;
         "fabric-1.19" = _7DF3cqEt;
         "fabric-1.19.1" = _7DF3cqEt;
         "fabric-1.19.2" = _hHPo3fCb;
@@ -269,9 +281,11 @@ let
         "neoforge-1.21.3" = _j18R83Er;
         "neoforge-1.21.4" = _j18R83Er;
         "neoforge-1.21.5" = _j18R83Er;
-        "neoforge-26.1.2" = _1dOSCSlg;
-        "neoforge-26.1.1" = _1dOSCSlg;
-        "neoforge-26.1" = _1dOSCSlg;
+        "neoforge-26.1.2" = _LToOVEIJ;
+        "neoforge-26.1.1" = _LToOVEIJ;
+        "neoforge-26.1" = _LToOVEIJ;
+        "neoforge-26.2" = _LToOVEIJ;
+        "neoforge-26.3" = _XxsVK0Ll;
         "forge-1.20.1" = _5yzHf2C1;
         "forge-1.20.2" = _fm41Q6PL;
         "forge-1.20.3" = _fm41Q6PL;
@@ -313,8 +327,9 @@ let
         "pkg-2.1.1+1.20.1" = _mtQlrUz7;
         "pkg-2.1.1+26.1" = _kWoix016;
         "pkg-2.1.1+26.3" = _IUo8cik4;
-        "pkg-2.1.1+26.1+neo" = _1dOSCSlg;
-        "default" = _1dOSCSlg;
+        "pkg-2.1.1+26.1+neo" = _LToOVEIJ;
+        "pkg-2.1.1+26.3+neo" = _XxsVK0Ll;
+        "default" = _XxsVK0Ll;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structureplacerapi";

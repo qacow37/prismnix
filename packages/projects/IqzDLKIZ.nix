@@ -46,6 +46,11 @@ let
             "file" = "xMelonekMaX's Faithful 64x64 26.1.2.zip";
             "hash" = "sha512-9FBEmxQtolM+bkze4xBF7KIASDhOkVizsDUMpuHC6LvewrNWn30DB4d5V35uXQ1YJCd3TP+yXKtD0Z5rZtazfQ==";
         };
+        _fhumbLKo = {
+            "id" = "fhumbLKo";
+            "file" = "xMelonekMaX's Faithful 64x64 26.3.zip";
+            "hash" = "sha512-dLpkUVYp1n0m68orCXCyz/PM2cl9NwXCyc2+q2jRLFl4uJG+azU6wGpFAI7oojqWt0Dh6csEK7dlLKkCLvYfVQ==";
+        };
     in {
         "SSlbvyIW" = _SSlbvyIW;
         "NKkQpwo8" = _NKkQpwo8;
@@ -56,6 +61,7 @@ let
         "FTnuTFSX" = _FTnuTFSX;
         "ds1rhufN" = _ds1rhufN;
         "1qwiW9jJ" = _1qwiW9jJ;
+        "fhumbLKo" = _fhumbLKo;
         "minecraft-1.8.9" = _SSlbvyIW;
         "minecraft-1.16.4" = _NKkQpwo8;
         "minecraft-1.17" = _o9QdVsRa;
@@ -69,6 +75,7 @@ let
         "minecraft-1.20.6" = _FTnuTFSX;
         "minecraft-1.21.9" = _ds1rhufN;
         "minecraft-26.1.2" = _1qwiW9jJ;
+        "minecraft-26.3" = _fhumbLKo;
         "pkg-1.8.9a" = _SSlbvyIW;
         "pkg-1.16.4" = _NKkQpwo8;
         "pkg-1.17" = _o9QdVsRa;
@@ -78,7 +85,8 @@ let
         "pkg-1.20.6" = _FTnuTFSX;
         "pkg-1.21.9" = _ds1rhufN;
         "pkg-26.1.2" = _1qwiW9jJ;
-        "default" = _1qwiW9jJ;
+        "pkg-26.3" = _fhumbLKo;
+        "default" = _fhumbLKo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xmelonekmaxs-faithful-64x";

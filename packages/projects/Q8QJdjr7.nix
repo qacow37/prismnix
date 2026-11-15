@@ -86,6 +86,11 @@ let
             "file" = "hasoook-neoforge-1.21.11-1.4.1.jar";
             "hash" = "sha512-nwW0maUPY4fszELU8/yJsRcVq8GYc3/1p+EFaT8eTFJvL/U4cXkni7TNGAelicmIRmFH9SoFvJu35AqlPXJ9CQ==";
         };
+        _yvuOojmR = {
+            "id" = "yvuOojmR";
+            "file" = "hasoook-neoforge-1.21.11-1.6.5.jar";
+            "hash" = "sha512-NjBRw7GlrvYbCYpslzrg2f6i57nD+qhhqdO9+X9HufN80pVQGb6uZ39O6fPCVlb7uX0q0rs5T/8pjwfZONFKuA==";
+        };
     in {
         "lLmKwayP" = _lLmKwayP;
         "wBMzAa32" = _wBMzAa32;
@@ -104,12 +109,13 @@ let
         "6D0VwV82" = _6D0VwV82;
         "dw4w2tvb" = _dw4w2tvb;
         "LOGCokvj" = _LOGCokvj;
+        "yvuOojmR" = _yvuOojmR;
         "forge-1.20.1" = _v7q9eGiI;
         "fabric-1.20.3" = _jGEq3XQo;
         "fabric-1.20.4" = _jGEq3XQo;
         "neoforge-1.21" = _EPwczqK1;
         "neoforge-1.21.1" = _EPwczqK1;
-        "neoforge-1.21.11" = _LOGCokvj;
+        "neoforge-1.21.11" = _yvuOojmR;
         "pkg-1.2.0" = _lLmKwayP;
         "pkg-1.3.0" = _wBMzAa32;
         "pkg-1.3.1" = _Bb2CBu0F;
@@ -126,7 +132,8 @@ let
         "pkg-1.0.0" = _6D0VwV82;
         "pkg-1.1.1" = _dw4w2tvb;
         "pkg-1.4.1" = _LOGCokvj;
-        "default" = _LOGCokvj;
+        "pkg-1.6.5" = _yvuOojmR;
+        "default" = _yvuOojmR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hasoook";

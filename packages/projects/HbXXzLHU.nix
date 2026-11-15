@@ -331,6 +331,11 @@ let
             "file" = "xtoxray-2026.31.jar";
             "hash" = "sha512-0qYyfJX+R+w1h3jeLGktJ7FU4Jjn8t83Yv+OSbEn0Uh9nSeM9hRkfVzo2tVJVbBf7ZJuqT4bRzuZMVPlTfbUUQ==";
         };
+        _QPfQ4B5V = {
+            "id" = "QPfQ4B5V";
+            "file" = "xtoxray-2026.32.jar";
+            "hash" = "sha512-LWoAD20aImzkVG9+MjFMfrVEgc7Ug/Guoz2/8xxaenxSYDaBBsMvZs++6axeixugAI+U1pm9sm8mAE8ze2cNOg==";
+        };
     in {
         "oP5DctBQ" = _oP5DctBQ;
         "bMcrXwai" = _bMcrXwai;
@@ -398,9 +403,10 @@ let
         "uOXCXjoL" = _uOXCXjoL;
         "MYoOiCx2" = _MYoOiCx2;
         "cWYTc9U5" = _cWYTc9U5;
-        "fabric-26.1" = _cWYTc9U5;
-        "fabric-26.1.1" = _cWYTc9U5;
-        "fabric-26.1.2" = _cWYTc9U5;
+        "QPfQ4B5V" = _QPfQ4B5V;
+        "fabric-26.1" = _QPfQ4B5V;
+        "fabric-26.1.1" = _QPfQ4B5V;
+        "fabric-26.1.2" = _QPfQ4B5V;
         "fabric-1.21" = _rSbX1RB0;
         "fabric-1.21.1" = _rSbX1RB0;
         "fabric-1.21.2" = _rSbX1RB0;
@@ -413,7 +419,7 @@ let
         "fabric-1.21.9" = _rSbX1RB0;
         "fabric-1.21.10" = _rSbX1RB0;
         "fabric-1.21.11" = _rSbX1RB0;
-        "fabric-26.2" = _cWYTc9U5;
+        "fabric-26.2" = _QPfQ4B5V;
         "fabric-1.20.5" = _C4dp8mmM;
         "fabric-1.20.6" = _C4dp8mmM;
         "fabric-26.3-snapshot-1" = _l9lkvzwA;
@@ -430,9 +436,9 @@ let
         "fabric-26.3-snapshot-7" = _l9lkvzwA;
         "fabric-26.3-snapshot-8" = _l9lkvzwA;
         "fabric-26.3-snapshot-9" = _l9lkvzwA;
-        "fabric-26.3" = _cWYTc9U5;
-        "fabric-26.4-snapshot-1" = _TI548KQP;
-        "fabric-26.4-snapshot-2" = _TI548KQP;
+        "fabric-26.3" = _QPfQ4B5V;
+        "fabric-26.4-snapshot-1" = _QPfQ4B5V;
+        "fabric-26.4-snapshot-2" = _QPfQ4B5V;
         "fabric-1.19" = _BFMngOPh;
         "fabric-1.19.1" = _BFMngOPh;
         "fabric-1.19.2" = _BFMngOPh;
@@ -449,8 +455,12 @@ let
         "fabric-1.16.3" = _JzZWbXMJ;
         "fabric-1.16.4" = _JzZWbXMJ;
         "fabric-1.16.5" = _JzZWbXMJ;
-        "fabric-26.4-snapshot-3" = _TI548KQP;
-        "fabric-26.4-snapshot-5" = _W0dQvI62;
+        "fabric-26.4-snapshot-3" = _QPfQ4B5V;
+        "fabric-26.4-snapshot-5" = _QPfQ4B5V;
+        "fabric-26.4-snapshot-8" = _QPfQ4B5V;
+        "fabric-26.4-snapshot-4" = _QPfQ4B5V;
+        "fabric-26.4-snapshot-7" = _QPfQ4B5V;
+        "fabric-26.4-snapshot-6" = _QPfQ4B5V;
         "quilt-26.1.2" = _fjATlUij;
         "neoforge-26.1.2" = _Jq0Q7Dql;
         "neoforge-1.21.11" = _zGOUvwTB;
@@ -512,7 +522,8 @@ let
         "pkg-2026.29-Legacy" = _ppyQxh1d;
         "pkg-2026.30" = _MYoOiCx2;
         "pkg-2026.31" = _cWYTc9U5;
-        "default" = _cWYTc9U5;
+        "pkg-2026.32" = _QPfQ4B5V;
+        "default" = _QPfQ4B5V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "x-to-xray";

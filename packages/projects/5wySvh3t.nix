@@ -161,6 +161,16 @@ let
             "file" = "CamoCreepers-neoforge-26.2-12.0.0.jar";
             "hash" = "sha512-9rPTPed/kn6TVvJhzUrVXdukdX/YrK1snFHg0a6FRQD58yGrl/gZR3BlW/2jCs/dRgv9iwciWjI5STL1Q4CNtA==";
         };
+        _kQIVA2rX = {
+            "id" = "kQIVA2rX";
+            "file" = "CamoCreepers-fabric-26.3-13.0.0.jar";
+            "hash" = "sha512-/sfN+mD5ED5j/ZE19qcFzAODEiu6ujmvYW33fFvJy8aKbe5gW1nU1hQBOBBO1k+2uODV7g6JHd2L4tFvHPkaQw==";
+        };
+        _yb1BVBOU = {
+            "id" = "yb1BVBOU";
+            "file" = "CamoCreepers-neoforge-26.3-13.0.0.jar";
+            "hash" = "sha512-pCU7jBF+aK0YT4LLYT5R0jdzEPyGqTtX3N98G1NpIxqulZdtgaFGo0kfM0vXCDHDLPL5xQiY/BMxZIjdI3X6Nw==";
+        };
     in {
         "kbDxgjCH" = _kbDxgjCH;
         "W4KfkRRg" = _W4KfkRRg;
@@ -194,6 +204,8 @@ let
         "ScwHDfSP" = _ScwHDfSP;
         "SHsUBWit" = _SHsUBWit;
         "Shsw9qWt" = _Shsw9qWt;
+        "kQIVA2rX" = _kQIVA2rX;
+        "yb1BVBOU" = _yb1BVBOU;
         "forge-1.18.2" = _kbDxgjCH;
         "forge-1.17.1" = _W4KfkRRg;
         "forge-1.16.5" = _D2wpPpOO;
@@ -215,6 +227,7 @@ let
         "neoforge-1.21.11" = _bZ2Tnz2t;
         "neoforge-26.1.2" = _ScwHDfSP;
         "neoforge-26.2" = _Shsw9qWt;
+        "neoforge-26.3" = _yb1BVBOU;
         "fabric-1.20.1" = _PD9kDuYk;
         "fabric-1.21" = _jnfdAA6C;
         "fabric-1.21.4" = _387KBTWL;
@@ -223,6 +236,7 @@ let
         "fabric-1.21.11" = _gNUAog5t;
         "fabric-26.1.2" = _FoksyFXe;
         "fabric-26.2" = _SHsUBWit;
+        "fabric-26.3" = _kQIVA2rX;
         "pkg-1.2.0.4" = _kbDxgjCH;
         "pkg-1.2.0.3" = _W4KfkRRg;
         "pkg-1.2.0.2" = _D2wpPpOO;
@@ -245,7 +259,8 @@ let
         "pkg-10.0.0" = _gNUAog5t;
         "pkg-11.0.0" = _ScwHDfSP;
         "pkg-12.0.0" = _Shsw9qWt;
-        "default" = _Shsw9qWt;
+        "pkg-13.0.0" = _yb1BVBOU;
+        "default" = _yb1BVBOU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camo-creepers";

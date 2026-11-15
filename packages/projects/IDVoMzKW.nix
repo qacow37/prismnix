@@ -51,6 +51,11 @@ let
             "file" = "k3d-2.3.jar";
             "hash" = "sha512-ezOznVm5cKYiCHoVc8NAbpopl3On2+QQY9/OMbzuPZBTJZRUZ++8LeeiWK3Zudpe0wj6QKFLr7Rep4Ql6uE97Q==";
         };
+        _IGba01ry = {
+            "id" = "IGba01ry";
+            "file" = "k3d-2.4.jar";
+            "hash" = "sha512-Pv0WjLr+ypSjTy/cccN0EMzmiQEGHs1H0Xk/w3ZBQ+cJHDC6/fBimIEQPBkmmiA/nbOcanHH1LV2pjFpfQYXzg==";
+        };
     in {
         "CZ6iDYra" = _CZ6iDYra;
         "rh8tF0jQ" = _rh8tF0jQ;
@@ -62,7 +67,8 @@ let
         "snGcjVt0" = _snGcjVt0;
         "JVnhxHk6" = _JVnhxHk6;
         "veTmXW0D" = _veTmXW0D;
-        "fabric-1.21.4" = _veTmXW0D;
+        "IGba01ry" = _IGba01ry;
+        "fabric-1.21.4" = _IGba01ry;
         "pkg-1.4" = _CZ6iDYra;
         "pkg-1.5" = _rh8tF0jQ;
         "pkg-1.6" = _tVn4dQVb;
@@ -73,7 +79,8 @@ let
         "pkg-2.1" = _snGcjVt0;
         "pkg-2.2" = _JVnhxHk6;
         "pkg-2.3" = _veTmXW0D;
-        "default" = _veTmXW0D;
+        "pkg-2.4" = _IGba01ry;
+        "default" = _IGba01ry;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "k3d-visuals";

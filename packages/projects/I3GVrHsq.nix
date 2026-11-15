@@ -86,6 +86,11 @@ let
             "file" = "betterspawn-1.0.9-1.21.1-neo.jar";
             "hash" = "sha512-NiKBQX9nMccczhY+2jyg0ChBPttae7jJudSdrxA6Dx+FzntypL0E+CFrrkfcQyK8NgvX/XwLvXdxOymgZyUhHA==";
         };
+        _dSRJ8DZO = {
+            "id" = "dSRJ8DZO";
+            "file" = "betterspawn-1.0.8-1.20.1-forge.jar";
+            "hash" = "sha512-pf9SpqNrgqrc3+zzTYQOEYU+nhmOMylkyCfh2pPdwzArgJ6bXTjqxyNsjeW/RQpI9aww0FXOvdwiDqaTHYBsTQ==";
+        };
     in {
         "a3KjUlrJ" = _a3KjUlrJ;
         "I0Kiorjk" = _I0Kiorjk;
@@ -104,6 +109,7 @@ let
         "TP6s2S1C" = _TP6s2S1C;
         "3kZJRYdu" = _3kZJRYdu;
         "68gHwjMc" = _68gHwjMc;
+        "dSRJ8DZO" = _dSRJ8DZO;
         "fabric-1.21.11" = _SQ3PzDpX;
         "fabric-1.21.1" = _3kZJRYdu;
         "fabric-1.20.1" = _QRsvOwbP;
@@ -115,7 +121,7 @@ let
         "neoforge-26.1.1" = _XZoOGSDz;
         "neoforge-26.1" = _XZoOGSDz;
         "neoforge-26.1.2" = _XZoOGSDz;
-        "forge-1.20.1" = _LU7NVT9r;
+        "forge-1.20.1" = _dSRJ8DZO;
         "pkg-1.0.7-1.21.11" = _a3KjUlrJ;
         "pkg-1.0.7-1.21.1" = _I0Kiorjk;
         "pkg-1.0.7-1.20.1" = _QRsvOwbP;
@@ -130,7 +136,8 @@ let
         "pkg-1.0.8-1.21.1-neo" = _TP6s2S1C;
         "pkg-1.0.8-1.21.1" = _3kZJRYdu;
         "pkg-1.0.9-1.21.1-neo" = _68gHwjMc;
-        "default" = _68gHwjMc;
+        "pkg-1.0.8-1.20.1-forge" = _dSRJ8DZO;
+        "default" = _dSRJ8DZO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterspawn";

@@ -281,6 +281,16 @@ let
             "file" = "mako-2.3.3 fabric.jar";
             "hash" = "sha512-nj+OA0+NmACS7FG4ijUASVb67hOF4UhsqqefwtZuE5VmimSa5aBO+b/mrJJw5NK2TV1iWZSJ/l75Ihrhy1/52w==";
         };
+        _3rpsvaRI = {
+            "id" = "3rpsvaRI";
+            "file" = "mako-2.3.4-neoforge-26.1.2.jar";
+            "hash" = "sha512-uG59ciSpm4TVglC9zMURBS6noC6qehJIvX614eO1TNU75jea9/Vcx10Uz+ElgXnQNK11mJRJ/6TOykUn9GrGZg==";
+        };
+        _84I04K7E = {
+            "id" = "84I04K7E";
+            "file" = "mako-2.3.4-fabric.jar";
+            "hash" = "sha512-KWhKcUfUvgvdsaSj8kYEeHHS4n8I9ysBcNmIK82dVGhEJH2wmH/1p4XmcMcoS0pfhiounQYduK4gtKkkc+nn6A==";
+        };
     in {
         "vNavANqL" = _vNavANqL;
         "soM6d8Gf" = _soM6d8Gf;
@@ -338,6 +348,8 @@ let
         "RQLS8HDY" = _RQLS8HDY;
         "1ChM7Oaq" = _1ChM7Oaq;
         "s4vD7JPs" = _s4vD7JPs;
+        "3rpsvaRI" = _3rpsvaRI;
+        "84I04K7E" = _84I04K7E;
         "neoforge-1.21.1" = _jzhmWkXJ;
         "neoforge-1.21.2" = _jzhmWkXJ;
         "neoforge-1.21.3" = _jzhmWkXJ;
@@ -352,14 +364,14 @@ let
         "neoforge-1.21.11" = _7TUH3cGQ;
         "neoforge-26.1" = _7TUH3cGQ;
         "neoforge-26.1.1" = _7TUH3cGQ;
-        "neoforge-26.1.2" = _1ChM7Oaq;
+        "neoforge-26.1.2" = _3rpsvaRI;
         "fabric-1.21.8" = _C40M7mzz;
         "fabric-1.21.9" = _C40M7mzz;
         "fabric-1.21.10" = _C40M7mzz;
         "fabric-1.21.11" = _C40M7mzz;
-        "fabric-26.1.2" = _s4vD7JPs;
-        "fabric-26.2" = _s4vD7JPs;
-        "fabric-26.3" = _s4vD7JPs;
+        "fabric-26.1.2" = _84I04K7E;
+        "fabric-26.2" = _84I04K7E;
+        "fabric-26.3" = _84I04K7E;
         "pkg-1.0.1" = _vNavANqL;
         "pkg-1.0.2" = _soM6d8Gf;
         "pkg-1.0.3" = _YBLPfieN;
@@ -409,7 +421,8 @@ let
         "pkg-2.3.1" = _Xi4q4F3X;
         "pkg-2.3.2" = _RQLS8HDY;
         "pkg-2.3.3" = _s4vD7JPs;
-        "default" = _s4vD7JPs;
+        "pkg-2.3.4" = _84I04K7E;
+        "default" = _84I04K7E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mako-mermaids-mod";

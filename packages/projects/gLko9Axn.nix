@@ -606,6 +606,21 @@ let
             "file" = "gamingbarns-guns-V1.29-data.jar";
             "hash" = "sha512-xb9iavs2bOc508VfVAgGC8b4tzVZYd+7PQ0+odgBMxn9VVjrMR6punyR2wbj99+SBkgwzFrkcSxuxVb7ynuo+Q==";
         };
+        _GlfAjWkf = {
+            "id" = "GlfAjWkf";
+            "file" = "Gamingbarn's Guns - Resources V1.29.1.zip";
+            "hash" = "sha512-qEWhwL2Uy+D6Q5JHK5XOo2sBtsee8qtvPIhB3Arrbxy3/CCVcWDjYjOp2mauTsDUcRN0/6nc4gnAjeQq21O1vQ==";
+        };
+        _CJYzjYa2 = {
+            "id" = "CJYzjYa2";
+            "file" = "Gamingbarn's Guns - Data V1.29.1.zip";
+            "hash" = "sha512-EkkcStdF6qnOf8DltQwPECWVbFfa+yjm7+QlHE0K1pl9/xETxSxOBf6+IkdeXtFI7+ahfk0erVAcj+I0Uw3yTg==";
+        };
+        _1pxglu12 = {
+            "id" = "1pxglu12";
+            "file" = "gamingbarns-guns-V1.29.1-data.jar";
+            "hash" = "sha512-68Qr6OQD20qCDw3mYDP/zxNFhoqfnOdelKJ0v/3lNVpzK9uf+lFyqfpL5hI/snXRsYXa8daFDdzqQ8VxIKMCYw==";
+        };
     in {
         "1tCPD8bD" = _1tCPD8bD;
         "nJ2urvmI" = _nJ2urvmI;
@@ -728,6 +743,9 @@ let
         "4sv8VcDy" = _4sv8VcDy;
         "zuf3NN3U" = _zuf3NN3U;
         "CT7Qo1tV" = _CT7Qo1tV;
+        "GlfAjWkf" = _GlfAjWkf;
+        "CJYzjYa2" = _CJYzjYa2;
+        "1pxglu12" = _1pxglu12;
         "datapack-1.20.2" = _1tCPD8bD;
         "datapack-1.20.4" = _Pt22KvI3;
         "datapack-1.20.6" = _z0kucP4l;
@@ -747,6 +765,7 @@ let
         "datapack-26.1.1" = _vwTtA4CA;
         "datapack-26.1.2" = _vwTtA4CA;
         "datapack-26.2" = _zuf3NN3U;
+        "datapack-26.3" = _CJYzjYa2;
         "minecraft-1.20.4" = _Iyd5HbH7;
         "minecraft-1.20.6" = _nkCuVtzD;
         "minecraft-1.21" = _Rza9bmnP;
@@ -765,6 +784,7 @@ let
         "minecraft-26.1.1" = _phZoDYiw;
         "minecraft-26.1.2" = _phZoDYiw;
         "minecraft-26.2" = _4sv8VcDy;
+        "minecraft-26.3" = _GlfAjWkf;
         "fabric-1.21" = _bTnH3hih;
         "fabric-1.21.1" = _bTnH3hih;
         "fabric-1.21.2" = _jfKr0DJt;
@@ -781,6 +801,7 @@ let
         "fabric-26.1.1" = _vpRWzE22;
         "fabric-26.1.2" = _vpRWzE22;
         "fabric-26.2" = _CT7Qo1tV;
+        "fabric-26.3" = _1pxglu12;
         "forge-1.21" = _bTnH3hih;
         "forge-1.21.1" = _bTnH3hih;
         "forge-1.21.2" = _jfKr0DJt;
@@ -797,6 +818,7 @@ let
         "forge-26.1.1" = _vpRWzE22;
         "forge-26.1.2" = _vpRWzE22;
         "forge-26.2" = _CT7Qo1tV;
+        "forge-26.3" = _1pxglu12;
         "quilt-1.21" = _bTnH3hih;
         "quilt-1.21.1" = _bTnH3hih;
         "quilt-1.21.2" = _jfKr0DJt;
@@ -813,6 +835,7 @@ let
         "quilt-26.1.1" = _vpRWzE22;
         "quilt-26.1.2" = _vpRWzE22;
         "quilt-26.2" = _CT7Qo1tV;
+        "quilt-26.3" = _1pxglu12;
         "neoforge-1.21" = _bTnH3hih;
         "neoforge-1.21.1" = _bTnH3hih;
         "neoforge-1.21.2" = _jfKr0DJt;
@@ -829,6 +852,7 @@ let
         "neoforge-26.1.1" = _vpRWzE22;
         "neoforge-26.1.2" = _vpRWzE22;
         "neoforge-26.2" = _CT7Qo1tV;
+        "neoforge-26.3" = _1pxglu12;
         "pkg-V1.19" = _1tCPD8bD;
         "pkg-V1.19.1" = _nJ2urvmI;
         "pkg-V1.19.2" = _xGbnH6ZQ;
@@ -936,7 +960,10 @@ let
         "pkg-V1.29-resource" = _4sv8VcDy;
         "pkg-V1.29-data" = _zuf3NN3U;
         "pkg-V1.29-mod" = _CT7Qo1tV;
-        "default" = _CT7Qo1tV;
+        "pkg-V1.29.1-resource" = _GlfAjWkf;
+        "pkg-V1.29.1-data" = _CJYzjYa2;
+        "pkg-V1.29.1-mod" = _1pxglu12;
+        "default" = _1pxglu12;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gamingbarns-guns";

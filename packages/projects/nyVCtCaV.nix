@@ -26,19 +26,26 @@ let
             "file" = "kaleidoscope_sauce-0.1.2.jar";
             "hash" = "sha512-9vR8UX8Vt6AY3M08idnJQgb11sKgwHRi51yoJQiA7nXSD7Ovt0lc0UY0pm2pNMuZoX/abM9znEP5DUJjNM0SGA==";
         };
+        _J7MeKr7i = {
+            "id" = "J7MeKr7i";
+            "file" = "kaleidoscope_sauce-0.2.0.jar";
+            "hash" = "sha512-I4vXf+6QsrXYq6IWDX1NJbVLHy7d6TpKTJ9jvfGJN2uwIziJxilnTZzrtxjY4jH2XAdb01n7ldbPd7nq21GWVA==";
+        };
     in {
         "9SYGx8xO" = _9SYGx8xO;
         "ElD7HBJ4" = _ElD7HBJ4;
         "VHYQdaQD" = _VHYQdaQD;
         "s61RyoSp" = _s61RyoSp;
         "Q6HNKvkL" = _Q6HNKvkL;
-        "forge-1.20.1" = _Q6HNKvkL;
+        "J7MeKr7i" = _J7MeKr7i;
+        "forge-1.20.1" = _J7MeKr7i;
         "pkg-0.0.5" = _9SYGx8xO;
         "pkg-0.0.6" = _ElD7HBJ4;
         "pkg-0.1.0" = _VHYQdaQD;
         "pkg-0.1.1" = _s61RyoSp;
         "pkg-0.1.2" = _Q6HNKvkL;
-        "default" = _Q6HNKvkL;
+        "pkg-0.2.0" = _J7MeKr7i;
+        "default" = _J7MeKr7i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-sauce";

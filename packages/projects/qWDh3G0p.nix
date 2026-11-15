@@ -66,6 +66,16 @@ let
             "file" = "dehydration-1.4.2.jar";
             "hash" = "sha512-is+5xpBR9vMwvdjw26U/8oQchS6OYjcOwLnut4+Z8LPqmbFxItquzzxvJkUKOD3rH8J3X4I0Ar2LCawvv7mQpQ==";
         };
+        _ephqkNgk = {
+            "id" = "ephqkNgk";
+            "file" = "dehydration-fabric-1.5.0+26.3.jar";
+            "hash" = "sha512-2QEEsrdctKKdqxmoOHgRgiXbEQA6Q9TwaamGO0bjgWuNrJZMogFT5tErcL2ufrw9F0SzzfDkKxTodnsOBzfY1w==";
+        };
+        _AzW6gVrl = {
+            "id" = "AzW6gVrl";
+            "file" = "dehydration-neoforge-1.5.0+26.3.jar";
+            "hash" = "sha512-chUqS+iBewE8F/ky+RhRhggDmGy2P+kq401+b4wulTz1xRzcgQwbMwEuuhrHlm4ukiHbF55MMkOk8E8bm/WhMg==";
+        };
     in {
         "9JFGnKQp" = _9JFGnKQp;
         "EjWyPcTK" = _EjWyPcTK;
@@ -80,11 +90,15 @@ let
         "yjZs5qQj" = _yjZs5qQj;
         "4TJ5tNbT" = _4TJ5tNbT;
         "Ls1nAcYc" = _Ls1nAcYc;
+        "ephqkNgk" = _ephqkNgk;
+        "AzW6gVrl" = _AzW6gVrl;
         "fabric-1.19.2" = _9JFGnKQp;
         "fabric-1.20" = _EjWyPcTK;
         "fabric-1.20.1" = _60cSGCnr;
         "fabric-1.21" = _lrH71rTP;
         "fabric-1.21.1" = _Ls1nAcYc;
+        "fabric-26.3" = _ephqkNgk;
+        "neoforge-26.3" = _AzW6gVrl;
         "pkg-1.3.4" = _9JFGnKQp;
         "pkg-1.3.4+1.20" = _EjWyPcTK;
         "pkg-1.3.4+1.20.1" = _tVIsLApb;
@@ -98,7 +112,9 @@ let
         "pkg-1.4.0+1.21.1" = _yjZs5qQj;
         "pkg-1.4.1+1.21.1" = _4TJ5tNbT;
         "pkg-1.4.2+1.21.1" = _Ls1nAcYc;
-        "default" = _Ls1nAcYc;
+        "pkg-1.5.0+26.3-fabric" = _ephqkNgk;
+        "pkg-1.5.0+26.3-neoforge" = _AzW6gVrl;
+        "default" = _AzW6gVrl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dehydration";

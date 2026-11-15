@@ -101,6 +101,11 @@ let
             "file" = "hammersandexcavators-1.0.3-26.3.jar";
             "hash" = "sha512-lGcE5UvZOM3wwjp5aNK+mfEEcMO//hYzWtDiXHG7tYlCB6qzW9+kFKLxqzPTE2L9v7/zUu1Bg9lAXKHTDwZ2Tw==";
         };
+        _JdJiOgRU = {
+            "id" = "JdJiOgRU";
+            "file" = "hammersandexcavators-1.0.5-26.3.jar";
+            "hash" = "sha512-g8dhuvp+Ssfdm1vj1fbMtbjWf5m/8MS4vRy9QKwsuvT0LhB9y2iujH00o6RG3q9nckqCHUJv6HUx+SM9QQkf5A==";
+        };
     in {
         "6KYGeC4S" = _6KYGeC4S;
         "pvBOVmEu" = _pvBOVmEu;
@@ -122,6 +127,7 @@ let
         "wociuFaU" = _wociuFaU;
         "eWPrzNQ0" = _eWPrzNQ0;
         "zotDQQEZ" = _zotDQQEZ;
+        "JdJiOgRU" = _JdJiOgRU;
         "fabric-26.1" = _GwLMINL7;
         "fabric-26.1.1" = _KxgnOyOp;
         "fabric-26.1.2" = _DKOZ3UHU;
@@ -131,7 +137,7 @@ let
         "neoforge-26.1.1" = _R0YhysBz;
         "neoforge-26.1.2" = _R0YhysBz;
         "neoforge-26.2" = _wociuFaU;
-        "neoforge-26.3" = _zotDQQEZ;
+        "neoforge-26.3" = _JdJiOgRU;
         "pkg-1.0.0" = _ALHUNUcs;
         "pkg-1.0.0-26.1-26.1.2" = _q7Y78CoF;
         "pkg-1.0.0-26.2" = _1QaV0WCL;
@@ -143,7 +149,8 @@ let
         "pkg-1.0.3-26.2" = _wociuFaU;
         "pkg-1.0.1-26.3" = _eWPrzNQ0;
         "pkg-1.0.3-26.3" = _zotDQQEZ;
-        "default" = _zotDQQEZ;
+        "pkg-1.0.5-26.3" = _JdJiOgRU;
+        "default" = _JdJiOgRU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hammers-and-excavators-miners-dream";

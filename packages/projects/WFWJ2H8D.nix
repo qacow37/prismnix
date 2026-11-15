@@ -81,6 +81,51 @@ let
             "file" = "better_party_ftb_teams-fabric-1.20.1-1.0.1.jar";
             "hash" = "sha512-MVPpYL8U4Vz4TP/SSQXmZTYHG+BqOVtKS5EqLO/zpN9w8z/IoA4JQtI2C4XoNxLRvbQgpy0SHzPQCB6JP0E3sg==";
         };
+        _i0T486TW = {
+            "id" = "i0T486TW";
+            "file" = "better_party_ftb_teams-fabric-1.20.1-1.0.2.jar";
+            "hash" = "sha512-4HaH0aCEuv0nGpH9/ipBApFPm56jARbRKkXSXyDolYix1aEZf/ZdFKfBx+EKeYtOPRcol5mO2QjJ5999Ib4jzg==";
+        };
+        _A3W10oB0 = {
+            "id" = "A3W10oB0";
+            "file" = "better_party_ftb_teams-fabric-1.21.1-1.0.2.jar";
+            "hash" = "sha512-omU5iI4MCp9clV9aSCJwIu90u5o78Ar8vTu11GdJCzGJajVqpIJ8qLNPhhPkc+bHh0IUtUbeK+Ow2ADFh0XLdQ==";
+        };
+        _EtCbJfgl = {
+            "id" = "EtCbJfgl";
+            "file" = "better_party_ftb_teams-fabric-26.1-1.0.2.jar";
+            "hash" = "sha512-FnnzufZcir/yfgV4EXgIjo47BtIIyX0si4erBmUCf5jPrRB8XFFSYzDFSh1LYXbrjGCIXWi0lVoo+qDnTojJ6g==";
+        };
+        _IlANRpz1 = {
+            "id" = "IlANRpz1";
+            "file" = "better_party_ftb_teams-forge-1.20.1-1.0.2.jar";
+            "hash" = "sha512-XJlg2NLg+5zzlm0wKueCbTI0BuNojc7QJtH1aQyPPLoHzQmIDCAgJKaqDIUi7Ipy+L67MNC1OH5X/3zV+sjLtg==";
+        };
+        _slZtuSLh = {
+            "id" = "slZtuSLh";
+            "file" = "better_party_ftb_teams-neoforge-1.20.1-1.0.2.jar";
+            "hash" = "sha512-G1voU6EYjXYX6S4sONmZ+wY2EC6UC1zN6qawFOt3yoE2m8FYUfICJDmTvsF1CRIkbflbLfYxc7FSpmakwOjcNA==";
+        };
+        _wW9z7jl1 = {
+            "id" = "wW9z7jl1";
+            "file" = "better_party_ftb_teams-neoforge-1.21.1-1.0.2.jar";
+            "hash" = "sha512-GAUhzF30zxqRZaQxGFbmzFvRkpOhJ3k+vzQY28b8JhIJ5r0IKQmPailI5qloSf6mFopGyjVfsCe9PhUYRv6mzg==";
+        };
+        _RfBGWhFF = {
+            "id" = "RfBGWhFF";
+            "file" = "better_party_ftb_teams-neoforge-26.1-1.0.2.jar";
+            "hash" = "sha512-sSwRpf2e8+IPGIKNYdFMl5KQpKwdSZ2jygbF0HU0ngZAh2Q8fj3MKI5M9a+4Gd0YTIyj0oR7MMLHNblw4fxmVQ==";
+        };
+        _18WcOk06 = {
+            "id" = "18WcOk06";
+            "file" = "better_party_ftb_teams-neoforge-26.1.1-1.0.2.jar";
+            "hash" = "sha512-ovkB2K2lM1v6Zx/pxfySw7//CWmnu0NXc8jHnm8Nu3G1v68kj2V498qUgspFnvcM54zHaaovFw3i65rXRVrLyw==";
+        };
+        _MtvExS2I = {
+            "id" = "MtvExS2I";
+            "file" = "better_party_ftb_teams-neoforge-26.1.2-1.0.2.jar";
+            "hash" = "sha512-RrrYRzTe/CejePXVVLZZRsyctKXKQDgUSu8xfbc/I65PjEvFqRQbFickyKS5XjUFswZtJH2lK0Bal3OEIDKUbg==";
+        };
     in {
         "ok2wlzxx" = _ok2wlzxx;
         "82YNLQKT" = _82YNLQKT;
@@ -98,20 +143,30 @@ let
         "dUscZb3s" = _dUscZb3s;
         "j1poy1NR" = _j1poy1NR;
         "wRo4w7IV" = _wRo4w7IV;
-        "neoforge-26.1" = _JqWWQ4IH;
-        "neoforge-26.1.1" = _Bq6ZakoW;
-        "neoforge-26.1.2" = _t2MFGvTr;
-        "neoforge-1.21.1" = _l2ZDssoE;
-        "neoforge-1.20.1" = _1WaCGsOs;
-        "fabric-26.1" = _dUscZb3s;
-        "fabric-26.1.1" = _dUscZb3s;
-        "fabric-26.1.2" = _dUscZb3s;
-        "fabric-1.21.1" = _j1poy1NR;
-        "fabric-1.20.1" = _wRo4w7IV;
-        "forge-1.20.1" = _qxpt6VDH;
+        "i0T486TW" = _i0T486TW;
+        "A3W10oB0" = _A3W10oB0;
+        "EtCbJfgl" = _EtCbJfgl;
+        "IlANRpz1" = _IlANRpz1;
+        "slZtuSLh" = _slZtuSLh;
+        "wW9z7jl1" = _wW9z7jl1;
+        "RfBGWhFF" = _RfBGWhFF;
+        "18WcOk06" = _18WcOk06;
+        "MtvExS2I" = _MtvExS2I;
+        "neoforge-26.1" = _RfBGWhFF;
+        "neoforge-26.1.1" = _18WcOk06;
+        "neoforge-26.1.2" = _MtvExS2I;
+        "neoforge-1.21.1" = _wW9z7jl1;
+        "neoforge-1.20.1" = _slZtuSLh;
+        "fabric-26.1" = _EtCbJfgl;
+        "fabric-26.1.1" = _EtCbJfgl;
+        "fabric-26.1.2" = _EtCbJfgl;
+        "fabric-1.21.1" = _A3W10oB0;
+        "fabric-1.20.1" = _i0T486TW;
+        "forge-1.20.1" = _IlANRpz1;
         "pkg-1.0.0" = _SQOSBpJm;
         "pkg-1.0.1" = _wRo4w7IV;
-        "default" = _wRo4w7IV;
+        "pkg-1.0.2" = _MtvExS2I;
+        "default" = _MtvExS2I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-party-x-ftb-teams";

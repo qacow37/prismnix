@@ -206,6 +206,11 @@ let
             "file" = "MineRooms-Level-0-Enhanced-26.3.zip";
             "hash" = "sha512-ZS9a9iytbaEMR1dMMmsjvhVm5cOHDmGRz+E1B08x2V5/xNDyriFAqBVR49d9TsXUWUn1v8PHTAqSvnzOVyaneg==";
         };
+        _hhRD0xRE = {
+            "id" = "hhRD0xRE";
+            "file" = "minerooms-37-version-34.zip";
+            "hash" = "sha512-fGyseiqacaotPyKLt2tCKVe+7hQ32Cklb7ZqR187cHFWJ5LPQhrSqUdPtSZdT/3DlxgEmVQ/7Hf+1M0xW3gf3A==";
+        };
     in {
         "NjsJsBiM" = _NjsJsBiM;
         "znvGbaSW" = _znvGbaSW;
@@ -248,6 +253,7 @@ let
         "A4ff3M8G" = _A4ff3M8G;
         "8WP0tyrs" = _8WP0tyrs;
         "S7aIkQtx" = _S7aIkQtx;
+        "hhRD0xRE" = _hhRD0xRE;
         "minecraft-1.19" = _NjsJsBiM;
         "minecraft-1.19.1" = _NjsJsBiM;
         "minecraft-1.19.2" = _NjsJsBiM;
@@ -260,8 +266,8 @@ let
         "minecraft-1.20.4" = _nXphQcO3;
         "minecraft-1.20.5" = _5bNH7mZ5;
         "minecraft-1.20.6" = _5bNH7mZ5;
-        "minecraft-1.21" = _AeczD5uc;
-        "minecraft-1.21.1" = _AeczD5uc;
+        "minecraft-1.21" = _hhRD0xRE;
+        "minecraft-1.21.1" = _hhRD0xRE;
         "minecraft-1.21.2" = _9VjFmPu6;
         "minecraft-1.21.3" = _9VjFmPu6;
         "minecraft-1.21.4" = _nz6Wqy8j;
@@ -342,7 +348,8 @@ let
         "pkg-84-level-0-enhanced" = _A4ff3M8G;
         "pkg-88-level-0-enhanced" = _8WP0tyrs;
         "pkg-97.1-level-0-enhanced" = _S7aIkQtx;
-        "default" = _S7aIkQtx;
+        "pkg-34-level-37" = _hhRD0xRE;
+        "default" = _hhRD0xRE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minerooms";

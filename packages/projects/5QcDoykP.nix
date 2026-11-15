@@ -191,6 +191,11 @@ let
             "file" = "modestmining-1.21.1-1.4.7.jar";
             "hash" = "sha512-EK/5Cuj36db1rL65M/QcOXQ9Q1FKjKAnsj0WkwzWbmvBziU+2wlO4Qua4HbEvU/0tuxMp/Q8dSy82Z4VdNobhQ==";
         };
+        _90MqjPXB = {
+            "id" = "90MqjPXB";
+            "file" = "modestmining-1.21.1-1.5.0.jar";
+            "hash" = "sha512-piOWFGTP/gICYvbxmTMHL9NdS/fe0aGvmcje7EOloz247J391YED8xaJKNM1OE+jPrfmv3qZ/giU21ecAj9fPA==";
+        };
     in {
         "QGmZQOWM" = _QGmZQOWM;
         "s69BM7pO" = _s69BM7pO;
@@ -230,11 +235,12 @@ let
         "vvPmVKDJ" = _vvPmVKDJ;
         "GTCRVyzb" = _GTCRVyzb;
         "KpvJ7UqU" = _KpvJ7UqU;
+        "90MqjPXB" = _90MqjPXB;
         "forge-1.19.2" = _dy1txOdj;
         "forge-1.19.3" = _s69BM7pO;
         "forge-1.19.4" = _s69BM7pO;
         "forge-1.20.1" = _vvPmVKDJ;
-        "neoforge-1.21.1" = _KpvJ7UqU;
+        "neoforge-1.21.1" = _90MqjPXB;
         "pkg-0.2.13" = _QGmZQOWM;
         "pkg-0.2.14" = _s69BM7pO;
         "pkg-0.2.16" = _ocN9Q6Pf;
@@ -273,7 +279,8 @@ let
         "pkg-1.4.4-1.20.1" = _vvPmVKDJ;
         "pkg-1.4.6-1.21.1" = _GTCRVyzb;
         "pkg-1.4.7-1.21.1" = _KpvJ7UqU;
-        "default" = _KpvJ7UqU;
+        "pkg-1.5.0-1.21.1" = _90MqjPXB;
+        "default" = _90MqjPXB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modest-mining";

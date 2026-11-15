@@ -41,6 +41,11 @@ let
             "file" = "emeraldtoolsandmore-1.0.1-26.3.jar";
             "hash" = "sha512-mshGhBKZOOmoESvE45xJk5olg1ZtzyGf5nsaDtW9NtvK1W4PwTQxLVpR2X47BMHkQGcM1mF/Vai84YTWfMyWhg==";
         };
+        _hS19aVOY = {
+            "id" = "hS19aVOY";
+            "file" = "emeraldtoolsandmore-1.0.5-26.3.jar";
+            "hash" = "sha512-0SJIRmzZZcUpER023eL7w3yFK4BqIidKOeh4X5DZorkhctOTZ2WZDp4IlgqZRdGBYI0kuClmxWGe0xVbiRv6/A==";
+        };
     in {
         "jHbK5jAk" = _jHbK5jAk;
         "rc2Vkdxp" = _rc2Vkdxp;
@@ -50,6 +55,7 @@ let
         "yh0Jhn94" = _yh0Jhn94;
         "jUdASQsp" = _jUdASQsp;
         "u1vRDQ4n" = _u1vRDQ4n;
+        "hS19aVOY" = _hS19aVOY;
         "fabric-26.1" = _jHbK5jAk;
         "fabric-26.1.1" = _rc2Vkdxp;
         "fabric-26.1.2" = _LhgDvyyt;
@@ -59,12 +65,13 @@ let
         "neoforge-26.1.1" = _fevTfAuz;
         "neoforge-26.1.2" = _fevTfAuz;
         "neoforge-26.2" = _yh0Jhn94;
-        "neoforge-26.3" = _u1vRDQ4n;
+        "neoforge-26.3" = _hS19aVOY;
         "pkg-1.0.0" = _7bZdkAnh;
         "pkg-1.0.0-26.1-26.1.2" = _fevTfAuz;
         "pkg-1.0.0-26.2" = _yh0Jhn94;
         "pkg-1.0.1-26.3" = _u1vRDQ4n;
-        "default" = _u1vRDQ4n;
+        "pkg-1.0.5-26.3" = _hS19aVOY;
+        "default" = _hS19aVOY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emeraldtoolsandmore";

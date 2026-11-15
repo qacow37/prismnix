@@ -21,17 +21,24 @@ let
             "file" = "BaldasProjectionSorcery-2.0.1.3.jar";
             "hash" = "sha512-+gvXAJQOdZTdlxMVyvSwq4fhAFmsNdUIovWIoGItlzVTGIWgv8Oa0aVw1LUcyw8Ugz8GhpGEag6XnGZF5dW2bg==";
         };
+        _ybESOEgP = {
+            "id" = "ybESOEgP";
+            "file" = "BaldasProjectionSorcery-2.0.1.4.jar";
+            "hash" = "sha512-TOqmXJTZo8lcEOLgkfYLayJjqyEhT+ixEWQbChs8Eok7VjR4NuRak5q8OOFYWTpEF30pgUv3YqGXyCHF3OwnKg==";
+        };
     in {
         "IHhW5C80" = _IHhW5C80;
         "jWAkiE3G" = _jWAkiE3G;
         "1mS4BsyN" = _1mS4BsyN;
         "zUnKWMaJ" = _zUnKWMaJ;
-        "forge-1.20.1" = _zUnKWMaJ;
+        "ybESOEgP" = _ybESOEgP;
+        "forge-1.20.1" = _ybESOEgP;
         "pkg-0.01" = _IHhW5C80;
         "pkg-1.0.2" = _jWAkiE3G;
         "pkg-2.0.1.2" = _1mS4BsyN;
         "pkg-2.0.1.3" = _zUnKWMaJ;
-        "default" = _zUnKWMaJ;
+        "pkg-2.0.1.4" = _ybESOEgP;
+        "default" = _ybESOEgP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "projection-sorcery-cursed-fate-addon";

@@ -581,6 +581,16 @@ let
             "file" = "effectmc-fabric-26.2-3.1.0.jar";
             "hash" = "sha512-dO4MKf/B6YS/T0e75MRmXqkkw0fo4+OmLnUL9Dwu9nI+Tlsyaknt5utM3S3VH+Ysy1SAULYp7pEUb/jn8vSkhQ==";
         };
+        _VU7sJ6nA = {
+            "id" = "VU7sJ6nA";
+            "file" = "effectmc-neoforge-26.3-3.1.0.jar";
+            "hash" = "sha512-74kBz1ZFra8kKAb7LABt5MDFrW1piK4t5zdM0zoAEPcwSGqzLNoUeoyoJZ3WOJvdsg04PJAz6dbq125b/pOaiQ==";
+        };
+        _EXdgbagB = {
+            "id" = "EXdgbagB";
+            "file" = "effectmc-fabric-26.3-3.1.0.jar";
+            "hash" = "sha512-xO3owKUpX1d+RQ3oO1kP1xFzCYZllMvhYxM9yTK5XDQbAFiCcCz6i4K+FhSBs3JW3DgrFva8VA7PPVDXoS4lgA==";
+        };
     in {
         "s8z04QBr" = _s8z04QBr;
         "MAO810pO" = _MAO810pO;
@@ -698,6 +708,8 @@ let
         "4Pmn0U94" = _4Pmn0U94;
         "Clti6qr5" = _Clti6qr5;
         "AFYLbHQC" = _AFYLbHQC;
+        "VU7sJ6nA" = _VU7sJ6nA;
+        "EXdgbagB" = _EXdgbagB;
         "forge-1.16.4" = _UBFBuGR9;
         "forge-1.16.5" = _UBFBuGR9;
         "forge-1.17.1" = _YvMeQGnz;
@@ -743,6 +755,7 @@ let
         "fabric-26.1.1" = _4Pmn0U94;
         "fabric-26.1.2" = _4Pmn0U94;
         "fabric-26.2" = _AFYLbHQC;
+        "fabric-26.3" = _EXdgbagB;
         "neoforge-1.20.1" = _ajiMvBwK;
         "neoforge-1.20.2" = _vHfNmRNm;
         "neoforge-1.20.4" = _pts7sZc8;
@@ -762,6 +775,7 @@ let
         "neoforge-26.1.1" = _hguw0MK3;
         "neoforge-26.1.2" = _hguw0MK3;
         "neoforge-26.2" = _Clti6qr5;
+        "neoforge-26.3" = _VU7sJ6nA;
         "pkg-Forge-1.16.4-v2.0.0" = _s8z04QBr;
         "pkg-Fabric-1.16.4-v2.0.0" = _MAO810pO;
         "pkg-Forge-1.17.1-v2.0.0" = _R99553xH;
@@ -878,7 +892,9 @@ let
         "pkg-Fabric-26.1-v3.1.0" = _4Pmn0U94;
         "pkg-NeoForge-26.2-v3.1.0" = _Clti6qr5;
         "pkg-Fabric-26.2-v3.1.0" = _AFYLbHQC;
-        "default" = _AFYLbHQC;
+        "pkg-NeoForge-26.3-v3.1.0" = _VU7sJ6nA;
+        "pkg-Fabric-26.3-v3.1.0" = _EXdgbagB;
+        "default" = _EXdgbagB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effectmc";

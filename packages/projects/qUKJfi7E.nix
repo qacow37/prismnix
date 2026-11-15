@@ -221,6 +221,16 @@ let
             "file" = "alchimiae-neoforge-0.3.10-1.21.1-sgd.jar";
             "hash" = "sha512-unnCbHjMjbKuhoPrRIrMIPLpFxycp0i+5prd8Wo8M9AYetaYj5UIkhaPgZgKJBB2hTIytCZeCIIe9cxOKC+88A==";
         };
+        _WyGQElML = {
+            "id" = "WyGQElML";
+            "file" = "alchimiae-neoforge-1.0.0-1.21.1-sgd.jar";
+            "hash" = "sha512-Ae/Z1K7Y5/qeBhw/E+ugLw8TxzOoJpVv9aZ46U+Dt+OFIVAJKSVLxMuCorgCfaQaE/4Qe4CeUK57mQGFwDW/5g==";
+        };
+        _JLmdohCW = {
+            "id" = "JLmdohCW";
+            "file" = "alchimiae-fabric-1.0.0-1.21.1-sgd.jar";
+            "hash" = "sha512-S3g39PN+Y9xLjCW62nDq1XEGmKlkFOpFxoGaAmG9QfZesTqZNZySYxPU57S2y1VxH96v4FrZvxT7peCHMbTdgA==";
+        };
     in {
         "XhBhr74C" = _XhBhr74C;
         "HR3L8710" = _HR3L8710;
@@ -266,10 +276,12 @@ let
         "4ItnJduS" = _4ItnJduS;
         "YrGdPHmV" = _YrGdPHmV;
         "WYb0rSke" = _WYb0rSke;
-        "fabric-1.21" = _YrGdPHmV;
-        "fabric-1.21.1" = _YrGdPHmV;
-        "neoforge-1.21" = _WYb0rSke;
-        "neoforge-1.21.1" = _WYb0rSke;
+        "WyGQElML" = _WyGQElML;
+        "JLmdohCW" = _JLmdohCW;
+        "fabric-1.21" = _JLmdohCW;
+        "fabric-1.21.1" = _JLmdohCW;
+        "neoforge-1.21" = _WyGQElML;
+        "neoforge-1.21.1" = _WyGQElML;
         "pkg-0.1.0" = _HR3L8710;
         "pkg-0.1.1-neoforge" = _PXKAy241;
         "pkg-0.1.1-fabric" = _IOVxd0U5;
@@ -313,7 +325,9 @@ let
         "pkg-0.3.9-1.21.1-neoforge" = _4ItnJduS;
         "pkg-0.3.10-1.21.1-fabric" = _YrGdPHmV;
         "pkg-0.3.10-1.21.1-neoforge" = _WYb0rSke;
-        "default" = _WYb0rSke;
+        "pkg-1.0.0-1.21.1-neoforge" = _WyGQElML;
+        "pkg-1.0.0-1.21.1-fabric" = _JLmdohCW;
+        "default" = _JLmdohCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alchimiae-magicae";

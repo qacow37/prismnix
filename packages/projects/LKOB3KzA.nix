@@ -171,6 +171,11 @@ let
             "file" = "HBM-NTM-.1.0.27_X5852_H261.jar";
             "hash" = "sha512-bE8tOauksmUKRgrIZP7vAqmZI5MUZBW7b6Kmn99SHFTGBC1TMJSOTn8PlTAJISEDdI22FcMz/LhjMFHvtnMGDg==";
         };
+        _vy3YIHy2 = {
+            "id" = "vy3YIHy2";
+            "file" = "HBM-NTM-.1.0.27_X5853_H261.jar";
+            "hash" = "sha512-ZSj0ULQwqgj58aSJ0ZQ6GJ+5eSTpWSc5rJ9+mi6RV3NmPqR++hQZE0QYvOSNrXS6/esH5eY+eCKI+PeH8gNkOA==";
+        };
     in {
         "C4RIS42I" = _C4RIS42I;
         "wyV2YvAx" = _wyV2YvAx;
@@ -206,7 +211,8 @@ let
         "CZHIrRq4" = _CZHIrRq4;
         "HKdklvsV" = _HKdklvsV;
         "3AhayMnd" = _3AhayMnd;
-        "forge-1.7.10" = _3AhayMnd;
+        "vy3YIHy2" = _vy3YIHy2;
+        "forge-1.7.10" = _vy3YIHy2;
         "pkg-X5036" = _C4RIS42I;
         "pkg-X5052B2" = _wyV2YvAx;
         "pkg-X5054" = _mfbTLxO6;
@@ -241,7 +247,8 @@ let
         "pkg-X5758_H261" = _CZHIrRq4;
         "pkg-X5778_H261" = _HKdklvsV;
         "pkg-1.0.27X5842" = _3AhayMnd;
-        "default" = _3AhayMnd;
+        "pkg-1.0.27X5853" = _vy3YIHy2;
+        "default" = _vy3YIHy2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ntmspace";

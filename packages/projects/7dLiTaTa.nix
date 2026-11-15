@@ -5911,6 +5911,26 @@ let
             "file" = "ipla-mc26.3-neoforge-6.5.1.jar";
             "hash" = "sha512-aeMA8oVH2rjr24LCgiUsWCeeI+Sx4kiPLGsdNHO1+3WKMoL9B8IJbnBV2gMbUKGLaPdaPhDZP9/TT6TL9Uq9RA==";
         };
+        _5Ze2CYOA = {
+            "id" = "5Ze2CYOA";
+            "file" = "ipla-mc1.21.11-fabric-6.5.2.jar";
+            "hash" = "sha512-pP+1NIRzp4W0Yn6fp9KGefe7X5+cYPr0S+y9AgbhnB7oNqE4nxdB8SDim30FOUIt1cSofiBPvy0mtCXdlyd7XA==";
+        };
+        _ikHnY9gA = {
+            "id" = "ikHnY9gA";
+            "file" = "ipla-mc1.21.11-neoforge-6.5.2.jar";
+            "hash" = "sha512-zes73vCKjeNV/ybQttfXMgKx1/Hsge2+z13fipXprmb4Rll9NuPzQVcVBtwLqVMvA+tA2K7fjwcOeDtvRMsA1g==";
+        };
+        _b2wdyRI3 = {
+            "id" = "b2wdyRI3";
+            "file" = "ipla-mc26.3-fabric-6.5.2.jar";
+            "hash" = "sha512-sxiVGQtROu2XfbQvCTdTNMlmjP7NrTB7qSFtNuniSH/ccIuoAZFCCeRDCivdWn7yx0/R6DqfjyoMal3lcNQOEg==";
+        };
+        _gEQoVyEw = {
+            "id" = "gEQoVyEw";
+            "file" = "ipla-mc26.3-neoforge-6.5.2.jar";
+            "hash" = "sha512-CFfVyn22CTbrEEvcQlfHnamjjRyB2Gi5z9HXwhfTSS7/FhuJYQIeZ7N4sXUAKOBfQoBivHGn7rmwZ7NP2JEX7Q==";
+        };
     in {
         "AuDWB07b" = _AuDWB07b;
         "W3gfuFyW" = _W3gfuFyW;
@@ -7094,6 +7114,10 @@ let
         "pUrqUc6g" = _pUrqUc6g;
         "Lge2NZw3" = _Lge2NZw3;
         "SVuQWA6E" = _SVuQWA6E;
+        "5Ze2CYOA" = _5Ze2CYOA;
+        "ikHnY9gA" = _ikHnY9gA;
+        "b2wdyRI3" = _b2wdyRI3;
+        "gEQoVyEw" = _gEQoVyEw;
         "forge-1.19.2" = _Paf2UrzG;
         "forge-1.19.4" = _7nfl4Ei3;
         "forge-1.20.1" = _1MZrvPf5;
@@ -7113,12 +7137,12 @@ let
         "fabric-1.21.8" = _UdM1MMVu;
         "fabric-1.21.9" = _sEVm6zHe;
         "fabric-1.21.10" = _KtEeaZmi;
-        "fabric-1.21.11" = _uYZ8v0h5;
+        "fabric-1.21.11" = _5Ze2CYOA;
         "fabric-26.1" = _3kjuwtdC;
         "fabric-26.1.1" = _RfS94Nmi;
         "fabric-26.1.2" = _ygxVnej8;
         "fabric-26.2" = _mgJcO3W0;
-        "fabric-26.3" = _Lge2NZw3;
+        "fabric-26.3" = _b2wdyRI3;
         "neoforge-1.20.4" = _Ot99fPsX;
         "neoforge-1.21" = _YAfDtmdo;
         "neoforge-1.21.1" = _gHgq2Zox;
@@ -7130,12 +7154,12 @@ let
         "neoforge-1.21.8" = _tAJODdH5;
         "neoforge-1.21.9" = _J65LYfhg;
         "neoforge-1.21.10" = _nsJmHCJq;
-        "neoforge-1.21.11" = _kTMhnrhO;
+        "neoforge-1.21.11" = _ikHnY9gA;
         "neoforge-26.1" = _Y4Ccpw4I;
         "neoforge-26.1.1" = _hd2kFudZ;
         "neoforge-26.1.2" = _ZabWnfoR;
         "neoforge-26.2" = _pUrqUc6g;
-        "neoforge-26.3" = _SVuQWA6E;
+        "neoforge-26.3" = _gEQoVyEw;
         "pkg-1.0" = _UyuP88mi;
         "pkg-1.2" = _Flb0gDeh;
         "pkg-1.3" = _dyTlkaWD;
@@ -7174,7 +7198,8 @@ let
         "pkg-6.4.6beta" = _ejUuDBRf;
         "pkg-6.4.7beta" = _lRWkHyaL;
         "pkg-6.5.1" = _SVuQWA6E;
-        "default" = _SVuQWA6E;
+        "pkg-6.5.2" = _gEQoVyEw;
+        "default" = _gEQoVyEw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ipla";

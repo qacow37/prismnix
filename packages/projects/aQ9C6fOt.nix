@@ -101,6 +101,11 @@ let
             "file" = "security-1.20.1-0.1.7.jar";
             "hash" = "sha512-vBFit+25FXHuc1ORy1xNk19oPrIXQlKWkzOxvGbPIgnXhYV6OLwOmoOjqWzVY9GSYqO9qmSC/OIyzu6bqZTIOQ==";
         };
+        _IXzdUQvn = {
+            "id" = "IXzdUQvn";
+            "file" = "security-1.21.11-0.1.7-alpha.jar";
+            "hash" = "sha512-PIWajZy53Y5bDqvACROtA20GCNa0dgPwEGGDOIhnvFx913kulap1SCNHcJtkvA81GFsSBsFR3sHhYWLVNprZvw==";
+        };
     in {
         "AekjXef5" = _AekjXef5;
         "Yl07HXOv" = _Yl07HXOv;
@@ -122,9 +127,11 @@ let
         "UTeboaOX" = _UTeboaOX;
         "shX5oe9J" = _shX5oe9J;
         "z0jqamYb" = _z0jqamYb;
+        "IXzdUQvn" = _IXzdUQvn;
         "fabric-1.21.4" = _shX5oe9J;
         "fabric-1.20.1" = _z0jqamYb;
         "fabric-1.21.1" = _UTeboaOX;
+        "fabric-1.21.11" = _IXzdUQvn;
         "pkg-1.21.4-0.1.0" = _AekjXef5;
         "pkg-1.21.4-0.1.1" = _Yl07HXOv;
         "pkg-1.21.4-0.1.2" = _ityr5Rft;
@@ -145,7 +152,8 @@ let
         "pkg-1.21.1-0.1.7" = _UTeboaOX;
         "pkg-1.21.4-0.1.7" = _shX5oe9J;
         "pkg-1.20.1-0.1.7" = _z0jqamYb;
-        "default" = _z0jqamYb;
+        "pkg-1.21.11-0.1.7-alpha" = _IXzdUQvn;
+        "default" = _IXzdUQvn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "security";

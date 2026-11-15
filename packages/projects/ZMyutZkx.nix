@@ -81,6 +81,26 @@ let
             "file" = "better_mob_combat_reimagined-1.1.19.jar";
             "hash" = "sha512-0bPhJoZJvPVCehYE1Q1t1vCIP3vqFQjyIYIFrIgUixFL9T8jlrwpJRIWl06IulAnmIuIvQM5Gjfp+Zypivy+Gg==";
         };
+        _7RXlBRfX = {
+            "id" = "7RXlBRfX";
+            "file" = "better_mob_combat_reimagined-1.1.20.jar";
+            "hash" = "sha512-SQr0FXZOYJpPj/uBLSOJymk1HkIavHQefjfTUG6Uit4QOlU/waX7Xo2LJA+diUVAQB/mY/TxgulAihq7krkBEg==";
+        };
+        _57qYv91D = {
+            "id" = "57qYv91D";
+            "file" = "better_mob_combat_reimagined-1.1.21.jar";
+            "hash" = "sha512-8lnbesB8eARz8m6aapqaaJUKQn1Y2afXGCid3iwu4m9uIvBipzS+griz7RuDk580+4+IvtCYiePM6a5VSCZW+g==";
+        };
+        _K621pNoE = {
+            "id" = "K621pNoE";
+            "file" = "better_mob_combat_reimagined-1.1.22.jar";
+            "hash" = "sha512-1KPJrGmltp6obaLzlGWSfaoFkXyMNa5g9EWVJ72fskgdC6cOPbwtNJ2AMbDUKo4lIKmuAUi6N/QDegVzX1rMwg==";
+        };
+        _bhgnsrzk = {
+            "id" = "bhgnsrzk";
+            "file" = "better_mob_combat_reimagined-1.1.19+1.20.1-forge.jar";
+            "hash" = "sha512-OVsQMRBOMFo5KULXYNqspGxdAaq5KMiT/m4ThZCuBKAdSvF0JA+1+yo8LyfB2zWWbgHf3cIWYwynh3uS2Kht4Q==";
+        };
     in {
         "1RGfuZ96" = _1RGfuZ96;
         "uBQibI36" = _uBQibI36;
@@ -98,8 +118,12 @@ let
         "LCki0q7n" = _LCki0q7n;
         "FlvhHI5V" = _FlvhHI5V;
         "FK8H3pvL" = _FK8H3pvL;
-        "neoforge-1.21.1" = _FK8H3pvL;
-        "forge-1.20.1" = _FlvhHI5V;
+        "7RXlBRfX" = _7RXlBRfX;
+        "57qYv91D" = _57qYv91D;
+        "K621pNoE" = _K621pNoE;
+        "bhgnsrzk" = _bhgnsrzk;
+        "neoforge-1.21.1" = _K621pNoE;
+        "forge-1.20.1" = _bhgnsrzk;
         "pkg-1.0.1" = _1RGfuZ96;
         "pkg-1.0.3" = _uBQibI36;
         "pkg-1.0.28" = _uT4D6f1I;
@@ -113,8 +137,11 @@ let
         "pkg-1.1.16" = _EasF5aC6;
         "pkg-1.1.17" = _LCki0q7n;
         "pkg-1.1.18" = _FlvhHI5V;
-        "pkg-1.1.19" = _FK8H3pvL;
-        "default" = _FK8H3pvL;
+        "pkg-1.1.19" = _bhgnsrzk;
+        "pkg-1.1.20" = _7RXlBRfX;
+        "pkg-1.1.21" = _57qYv91D;
+        "pkg-1.1.22" = _K621pNoE;
+        "default" = _bhgnsrzk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-mob-combat-reimagined";

@@ -311,6 +311,16 @@ let
             "file" = "day-counter-fabric-1.1.1+26.3.jar";
             "hash" = "sha512-XoLmBUsrtmc1qAp6UUEyzCMKFhcVdE6szpjkY61VpwUhN+CQ+wlNw4EMsEyBe+DR7l3GeJMKeSZEPJUL4Rgifg==";
         };
+        _9nYWxaOP = {
+            "id" = "9nYWxaOP";
+            "file" = "day-counter-neoforge-2.0.0.jar";
+            "hash" = "sha512-fXr89AVZiaTa+oZcmSAnfQNo6klwP8jWcHDcMcluxZSYxBJWkWwIApGHRMHXWsBUkoJ5LZfQBKj+sIV5AxU3kA==";
+        };
+        _H0LGl9I9 = {
+            "id" = "H0LGl9I9";
+            "file" = "day-counter-fabric-2.0.0.jar";
+            "hash" = "sha512-9ymC7Qov4qs9EFQDPeUy5ZQneqMo/Ud5Wu8RR19/XePxuI5VYapN3mEd8BZMT9n8uOQA/VyognVhlR5P8IjorA==";
+        };
     in {
         "5k7LtNph" = _5k7LtNph;
         "2ufJNTfC" = _2ufJNTfC;
@@ -374,6 +384,8 @@ let
         "CzTiDVjl" = _CzTiDVjl;
         "zW4nh6lg" = _zW4nh6lg;
         "yFP9ZcrC" = _yFP9ZcrC;
+        "9nYWxaOP" = _9nYWxaOP;
+        "H0LGl9I9" = _H0LGl9I9;
         "datapack-1.21" = _hiX0CMML;
         "datapack-1.21.1" = _hiX0CMML;
         "datapack-1.21.2" = _hiX0CMML;
@@ -462,7 +474,7 @@ let
         "fabric-26.3-snapshot-9" = _IGp1ZASf;
         "fabric-26.3-snapshot-10" = _IGp1ZASf;
         "fabric-26.3-pre-1" = _IGp1ZASf;
-        "fabric-26.3" = _yFP9ZcrC;
+        "fabric-26.3" = _H0LGl9I9;
         "forge-1.21" = _1xw9EHou;
         "forge-1.21.1" = _JVkAvPqg;
         "forge-1.21.2" = _1xw9EHou;
@@ -552,7 +564,7 @@ let
         "neoforge-26.3-snapshot-9" = _IGp1ZASf;
         "neoforge-26.3-snapshot-10" = _IGp1ZASf;
         "neoforge-26.3-pre-1" = _IGp1ZASf;
-        "neoforge-26.3" = _zW4nh6lg;
+        "neoforge-26.3" = _9nYWxaOP;
         "quilt-1.21" = _1xw9EHou;
         "quilt-1.21.1" = _1xw9EHou;
         "quilt-1.21.2" = _1xw9EHou;
@@ -640,7 +652,8 @@ let
         "pkg-1.1.0+26.3" = _Y4IyNvLC;
         "pkg-1.1.1+26.2" = _75IQj4pO;
         "pkg-1.1.1+26.3" = _yFP9ZcrC;
-        "default" = _yFP9ZcrC;
+        "pkg-2.0.0" = _H0LGl9I9;
+        "default" = _H0LGl9I9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avies-day-counter";

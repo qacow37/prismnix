@@ -106,6 +106,16 @@ let
             "file" = "BuriedWrecks-neoforge-26.2-14.0.0.jar";
             "hash" = "sha512-8MWa5TpFLBoLnDPLx2RK+t1fvIBpsyluG8wJbNnyZEDgsHEkJye/RkgbfZcgPWXdpFvWX9ucQz2BkjjUppgHAw==";
         };
+        _zYPMABHm = {
+            "id" = "zYPMABHm";
+            "file" = "BuriedWrecks-fabric-26.3-15.0.0.jar";
+            "hash" = "sha512-gELdX+nXfjVckh3Ckpo7IYX59p1LGM0/LpxVXLniIXFNIIiF6wNFdF3/OuDfgpsDlmc4+Ll30dFQkYwPEAiO4g==";
+        };
+        _6E9WF3oz = {
+            "id" = "6E9WF3oz";
+            "file" = "BuriedWrecks-neoforge-26.3-15.0.0.jar";
+            "hash" = "sha512-iPaAfvTTj+AbIlXu30gcdV1k5hdSoQdWWaHJ10/+cgEUaQuaO6JWSkH/D9+xomgCQ5Xia4gJfwDosDkF/lQ8GA==";
+        };
     in {
         "2YnmgvDv" = _2YnmgvDv;
         "WeQkOlm6" = _WeQkOlm6;
@@ -128,6 +138,8 @@ let
         "9Gp5usqv" = _9Gp5usqv;
         "GT13HzC5" = _GT13HzC5;
         "unSAwJHi" = _unSAwJHi;
+        "zYPMABHm" = _zYPMABHm;
+        "6E9WF3oz" = _6E9WF3oz;
         "forge-1.18.2" = _WeQkOlm6;
         "forge-1.19.2" = _GCWydfL2;
         "forge-1.19.3" = _dsJ7NavY;
@@ -146,8 +158,10 @@ let
         "neoforge-1.21.11" = _EypCsP16;
         "neoforge-26.1.2" = _9Gp5usqv;
         "neoforge-26.2" = _unSAwJHi;
+        "neoforge-26.3" = _6E9WF3oz;
         "fabric-26.1.2" = _jPTDOopE;
         "fabric-26.2" = _GT13HzC5;
+        "fabric-26.3" = _zYPMABHm;
         "pkg-1.0.0" = _2YnmgvDv;
         "pkg-1.1.0" = _WeQkOlm6;
         "pkg-2.0.0" = _dsJ7NavY;
@@ -166,7 +180,8 @@ let
         "pkg-13.0.0" = _sRgOLf3d;
         "pkg-13.1.0" = _9Gp5usqv;
         "pkg-14.0.0" = _unSAwJHi;
-        "default" = _unSAwJHi;
+        "pkg-15.0.0" = _6E9WF3oz;
+        "default" = _6E9WF3oz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buried-wrecks";

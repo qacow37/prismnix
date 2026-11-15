@@ -556,6 +556,11 @@ let
             "file" = "mythicmetals-0.26.0-alpha.5+26.1.2.jar";
             "hash" = "sha512-PxZrVAIYg07KxQPOkMLUsozxs780k2S98aSE9D1xcyMEaByIhb/rAFNzttP4ZyoOMqZkFeArAph8WrMfFUciYA==";
         };
+        _scbJGui1 = {
+            "id" = "scbJGui1";
+            "file" = "mythicmetals-0.26.0-alpha.6+26.1.2.jar";
+            "hash" = "sha512-xx2e4XMOd/xAW/2uBZMwcoKUCbZzP3LTgZ9iALOEgrLyNEhp2wcaTMvHfMjNJLUvzwRWjf7/9OQijWkMEQ9QuA==";
+        };
     in {
         "hOHmhWkv" = _hOHmhWkv;
         "nZlUcmUo" = _nZlUcmUo;
@@ -668,6 +673,7 @@ let
         "BW2KPZyv" = _BW2KPZyv;
         "AN6d59Ku" = _AN6d59Ku;
         "u7eGEvHs" = _u7eGEvHs;
+        "scbJGui1" = _scbJGui1;
         "fabric-1.16.3" = _3OCF3P2G;
         "fabric-1.16.4" = _3OCF3P2G;
         "fabric-20w51a" = _2zNkIRHX;
@@ -689,7 +695,7 @@ let
         "fabric-1.21" = _1qHVN4oA;
         "fabric-1.21.1" = _fKQ4feyG;
         "fabric-1.21.4" = _poyAM7Ti;
-        "fabric-26.1.2" = _u7eGEvHs;
+        "fabric-26.1.2" = _scbJGui1;
         "pkg-0.9.6" = _hOHmhWkv;
         "pkg-0.9.7" = _nZlUcmUo;
         "pkg-0.9.8" = _2zNkIRHX;
@@ -801,7 +807,8 @@ let
         "pkg-0.26.0-alpha.3+26.1.2" = _BW2KPZyv;
         "pkg-0.26.0-alpha.4+26.1.2" = _AN6d59Ku;
         "pkg-0.26.0-alpha.5+26.1.2" = _u7eGEvHs;
-        "default" = _u7eGEvHs;
+        "pkg-0.26.0-alpha.6+26.1.2" = _scbJGui1;
+        "default" = _scbJGui1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mythicmetals";

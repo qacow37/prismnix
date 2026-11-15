@@ -166,6 +166,11 @@ let
             "file" = "JustARaftMod-26.1.2-12.0.0.jar";
             "hash" = "sha512-nghXP0uiqg/t3+jFwCfqRPVZfvt1nASAF2GF0PYSrcRIBYeK4yGsEKqZSbIG3FQxOOlZJtUQmQP8FKAIuiTC7g==";
         };
+        _oEG4MZIt = {
+            "id" = "oEG4MZIt";
+            "file" = "JustARaftMod-26.3-13.0.0.jar";
+            "hash" = "sha512-QMSYPtimuvkNzDSfxa7Nglzk7zNXMMld9kQeb6qvchZ51S1QLXPkGFqux+0uJ7RyG46litRh0nZUBfAS75p5MQ==";
+        };
     in {
         "Gw4ixFSM" = _Gw4ixFSM;
         "vPJxovYw" = _vPJxovYw;
@@ -200,6 +205,7 @@ let
         "DYnE5vCN" = _DYnE5vCN;
         "ZxzygcrE" = _ZxzygcrE;
         "hPuURvC6" = _hPuURvC6;
+        "oEG4MZIt" = _oEG4MZIt;
         "forge-1.12.2" = _Gw4ixFSM;
         "forge-1.16.3" = _vPJxovYw;
         "forge-1.16.4" = _vPJxovYw;
@@ -224,6 +230,7 @@ let
         "neoforge-1.21.8" = _DYnE5vCN;
         "neoforge-1.21.11" = _ZxzygcrE;
         "neoforge-26.1.2" = _hPuURvC6;
+        "neoforge-26.3" = _oEG4MZIt;
         "pkg-1.1.2" = _Gw4ixFSM;
         "pkg-1.1.3" = _KHwnaGfj;
         "pkg-1.2.0" = _PbdHtaUW;
@@ -251,7 +258,8 @@ let
         "pkg-10.0.0" = _DYnE5vCN;
         "pkg-11.0.0" = _ZxzygcrE;
         "pkg-12.0.0" = _hPuURvC6;
-        "default" = _hPuURvC6;
+        "pkg-13.0.0" = _oEG4MZIt;
+        "default" = _oEG4MZIt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-a-raft-mod";

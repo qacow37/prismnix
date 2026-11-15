@@ -606,6 +606,71 @@ let
             "file" = "waypoints-plus-mc26.3-fabric-1.0.13.jar";
             "hash" = "sha512-nhYToGNJsVbVR0qx0VnmtwqbbOwtwvE/GiKx59cqMlSpoVFfxnBRIpNVJELQ/UfH0YMGosGpZ3F1p5lW/8QZOA==";
         };
+        _VfKNWf0g = {
+            "id" = "VfKNWf0g";
+            "file" = "waypoints-plus-mc1.19.2-fabric-1.1.1.jar";
+            "hash" = "sha512-2qcfBDiE2BfNOOu+twWOK79vMIWfvZMGK7GpgqOcBnxthdGQCfIjrFshAKs3Sy2dxnX12OYCn2yb6Jpxoig8PA==";
+        };
+        _G4zI1GyL = {
+            "id" = "G4zI1GyL";
+            "file" = "waypoints-plus-mc1.20.1-fabric-1.1.1.jar";
+            "hash" = "sha512-2ZK/wQp5j3W8QnmMidmPHsbImJrYue7MpgbuV7j4D9R46ReBjc0HIeqFuA7dTQ7GceO8+ynriRH8DA+ltFSUCQ==";
+        };
+        _UFktuFnP = {
+            "id" = "UFktuFnP";
+            "file" = "waypoints-plus-mc1.20.6-fabric-1.1.1.jar";
+            "hash" = "sha512-Y98xhSyOhjqUSyTb0UYnCWLNsoe+/1AOBrO1Uy9jV8Jm2t1NxaBFkLBk528j+TKVzR/ep55dWpQOWFCowzW0lw==";
+        };
+        _YNMZys60 = {
+            "id" = "YNMZys60";
+            "file" = "waypoints-plus-mc1.21.1-fabric-1.1.1.jar";
+            "hash" = "sha512-TDPFdPZcSTsQVl1wE9JJrbCM3WxQvfCSghsaV2N7hEtlsSkaNjNwrJtO9KP/ObWMftIskX6epfu6DY6wsSfOrA==";
+        };
+        _9spodHYV = {
+            "id" = "9spodHYV";
+            "file" = "waypoints-plus-mc1.21.2-1.21.4-fabric-1.1.1.jar";
+            "hash" = "sha512-qqPFXA1O4cEhsuRmu7Kr7QwGYljwAzpL+IbYzBOrbNDGtVLqG6emYktqiiXRP3TRmvx7GhK7C3llE6tjEbcIfA==";
+        };
+        _RjMJtyLT = {
+            "id" = "RjMJtyLT";
+            "file" = "waypoints-plus-mc1.21.5-fabric-1.1.1.jar";
+            "hash" = "sha512-61BEUNdaPD4K7TrgnvUlf5EEAQpnn/OBIN6ZsTT4/ctyXQRnUKcUz6i2p/sU3HAvEtVowBGKgFe3BvdaSVgUUQ==";
+        };
+        _y0hWVXMd = {
+            "id" = "y0hWVXMd";
+            "file" = "waypoints-plus-mc1.21.6-fabric-1.1.1.jar";
+            "hash" = "sha512-P8dHrZsVVD1jJ3LVbdrnQSg2vBCIZnfCUzcAyPRm+LEB0dUC0mAEeEU5xphJAyHBPyhKhhsSwxO2/fV8bsQaZA==";
+        };
+        _ozmMABLM = {
+            "id" = "ozmMABLM";
+            "file" = "waypoints-plus-mc1.21.8-fabric-1.1.1.jar";
+            "hash" = "sha512-LgJefHG2rD/6OQ7ZdX+hI3js2+/ueId2ZIIkVc+AJazBROlTz2FOTdem5XTW7vTzp5ITUDhpbFBFR8P95k/SZA==";
+        };
+        _xhE0wfrN = {
+            "id" = "xhE0wfrN";
+            "file" = "waypoints-plus-mc1.21.10-fabric-1.1.1.jar";
+            "hash" = "sha512-VPsvzw4R7l7nZ7RyeHcLZCdJQT4aNPicsLN/0m7nzwPb+UKB8JNlQ34zRR8QsTrXATtQenm+AayoetgAfMEv/g==";
+        };
+        _nO1670LJ = {
+            "id" = "nO1670LJ";
+            "file" = "waypoints-plus-mc1.21.11-fabric-1.1.1.jar";
+            "hash" = "sha512-F78OID/Of/G1SUZSLU9LCnuPgWEieaL59tdqMv6pxkJSxr0vBQxxid8FRKZKb7p0c6de4UUsHaAUg8yNxHEgIA==";
+        };
+        _gCYeflj2 = {
+            "id" = "gCYeflj2";
+            "file" = "waypoints-plus-mc26.1.2-fabric-1.1.1.jar";
+            "hash" = "sha512-Ho3SjpLidLbCSDJ3p6ZyL1XXbC3UjZFry48d05P+4gbuSkfu5boVQSYFhkQ50RRetQ/xq5Gc5nbKA23aliJZiw==";
+        };
+        _ArASawdb = {
+            "id" = "ArASawdb";
+            "file" = "waypoints-plus-mc26.2-fabric-1.1.1.jar";
+            "hash" = "sha512-3fyxgkcnAJBX0w5ww+toIAofQYRrAPfC4WKZRtOpwKfyAloYPle1bIc2zK0MY9svnBTfcURN05o5owFSIYS4gQ==";
+        };
+        _HDa2GpKm = {
+            "id" = "HDa2GpKm";
+            "file" = "waypoints-plus-mc26.3-fabric-1.1.1.jar";
+            "hash" = "sha512-iug5cxZMFmjlw9ZAW+4AUIS5caNLQt+l/5uN0rNRd9fK25jnRLdNMGjGYfPBwTDs04ViHCsuPFU5cKsSfmiKoA==";
+        };
     in {
         "WvFL41X7" = _WvFL41X7;
         "ReFGtAyk" = _ReFGtAyk;
@@ -728,21 +793,34 @@ let
         "zdfiI88q" = _zdfiI88q;
         "skHHYg8I" = _skHHYg8I;
         "d7swXWW8" = _d7swXWW8;
-        "fabric-1.21.2" = _8V235eue;
-        "fabric-1.21.3" = _8V235eue;
-        "fabric-1.21.4" = _8V235eue;
-        "fabric-26.1.2" = _zdfiI88q;
-        "fabric-1.21.8" = _jg1xXpJj;
-        "fabric-1.19.2" = _MxafRGxD;
-        "fabric-1.21.11" = _NZHPP6lu;
-        "fabric-1.21.10" = _MRHul1f9;
-        "fabric-1.21.6" = _pcMwB4OF;
-        "fabric-1.21.5" = _ghSxNAyG;
-        "fabric-1.21.1" = _GemMkuXW;
-        "fabric-1.20.6" = _7MZehngr;
-        "fabric-1.20.1" = _MR0ufqiO;
-        "fabric-26.2" = _skHHYg8I;
-        "fabric-26.3" = _d7swXWW8;
+        "VfKNWf0g" = _VfKNWf0g;
+        "G4zI1GyL" = _G4zI1GyL;
+        "UFktuFnP" = _UFktuFnP;
+        "YNMZys60" = _YNMZys60;
+        "9spodHYV" = _9spodHYV;
+        "RjMJtyLT" = _RjMJtyLT;
+        "y0hWVXMd" = _y0hWVXMd;
+        "ozmMABLM" = _ozmMABLM;
+        "xhE0wfrN" = _xhE0wfrN;
+        "nO1670LJ" = _nO1670LJ;
+        "gCYeflj2" = _gCYeflj2;
+        "ArASawdb" = _ArASawdb;
+        "HDa2GpKm" = _HDa2GpKm;
+        "fabric-1.21.2" = _9spodHYV;
+        "fabric-1.21.3" = _9spodHYV;
+        "fabric-1.21.4" = _9spodHYV;
+        "fabric-26.1.2" = _gCYeflj2;
+        "fabric-1.21.8" = _ozmMABLM;
+        "fabric-1.19.2" = _VfKNWf0g;
+        "fabric-1.21.11" = _nO1670LJ;
+        "fabric-1.21.10" = _xhE0wfrN;
+        "fabric-1.21.6" = _y0hWVXMd;
+        "fabric-1.21.5" = _RjMJtyLT;
+        "fabric-1.21.1" = _YNMZys60;
+        "fabric-1.20.6" = _UFktuFnP;
+        "fabric-1.20.1" = _G4zI1GyL;
+        "fabric-26.2" = _ArASawdb;
+        "fabric-26.3" = _HDa2GpKm;
         "pkg-1.0.0" = _N99jGHVl;
         "pkg-1.0.3" = _NArFQ5cw;
         "pkg-1.0.4" = _Frb949Nj;
@@ -754,7 +832,8 @@ let
         "pkg-1.0.11" = _G2QFEKr6;
         "pkg-1.0.12" = _jVZIztt1;
         "pkg-1.0.13" = _d7swXWW8;
-        "default" = _d7swXWW8;
+        "pkg-1.1.1" = _HDa2GpKm;
+        "default" = _HDa2GpKm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waypoints-plus";

@@ -681,6 +681,11 @@ let
             "file" = "dgh-1.3.3.14-NeoForge-1.21.1.jar";
             "hash" = "sha512-m6oAcGgw72bl1tbf7nI+4aTWtDNGyM4IzYQQ3ovhP1jCvjMRZsx9f8X1qUqN2/Y3QFnoeiIDNymwjyXYijBOng==";
         };
+        _4dHCjJxZ = {
+            "id" = "4dHCjJxZ";
+            "file" = "dgh-1.3.3.14-Forge-1.20.1.jar";
+            "hash" = "sha512-3m1M8tFD0OlyHwHndM+LEM7q5qY7nURv/LF/6gptoxGyPgSnzq2dhdDsCFHX+0TOvkYqp7ZzBm7nsNLoek8MLw==";
+        };
     in {
         "Hpw4y5MG" = _Hpw4y5MG;
         "lG219ypA" = _lG219ypA;
@@ -818,7 +823,8 @@ let
         "5XTbYrd5" = _5XTbYrd5;
         "nBJ6UtRi" = _nBJ6UtRi;
         "EX1mfdra" = _EX1mfdra;
-        "forge-1.20.1" = _nBJ6UtRi;
+        "4dHCjJxZ" = _4dHCjJxZ;
+        "forge-1.20.1" = _4dHCjJxZ;
         "neoforge-1.20.6" = _LAzqgoQp;
         "neoforge-1.21.1" = _EX1mfdra;
         "neoforge-1.21.11" = _AUiHAhuh;
@@ -956,9 +962,9 @@ let
         "pkg-1.3.3.10-NeoForge-1.21.1" = _IAuyj4jD;
         "pkg-1.3.3.11-Forge-1.20.1" = _APB8Y5bv;
         "pkg-1.3.3.11-NeoForge-1.21.1" = _5XTbYrd5;
-        "pkg-1.3.3.14-Forge-1.20.1" = _nBJ6UtRi;
+        "pkg-1.3.3.14-Forge-1.20.1" = _4dHCjJxZ;
         "pkg-1.3.3.14-NeoForge-1.21.1" = _EX1mfdra;
-        "default" = _EX1mfdra;
+        "default" = _4dHCjJxZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dont-get-hurt";

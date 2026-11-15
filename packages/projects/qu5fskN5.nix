@@ -81,6 +81,16 @@ let
             "file" = "unbound-items-1.0.5.jar";
             "hash" = "sha512-eujGTa54oi1/yAuPHrnevQGfTtpQ0vjPqT5HeJBO6oGevrGykm2uoMyrIrrgSl3jKwLZZ/C29n0yzealXXGH/g==";
         };
+        _V9ukTMMS = {
+            "id" = "V9ukTMMS";
+            "file" = "unbound-items-v1.0.6.zip";
+            "hash" = "sha512-yIE2iWKzK59PpCF2QssYBXrOpg3775e5cY0zqvDMVokmnSObjFHQIFcL6I1h40KNhwoIP4nwwExa88wZDrdxrg==";
+        };
+        _ixO6aX09 = {
+            "id" = "ixO6aX09";
+            "file" = "unbound-items-1.0.6.jar";
+            "hash" = "sha512-4qO8dRhcMDqbxhc46N7X7nvBEh6wyb/O9I/OO8fEK7MGwyq7/eaoB7K6UOZZGLyOmh0Yz/o/9+BTledNzGzi8g==";
+        };
     in {
         "7fF8JC5f" = _7fF8JC5f;
         "jNT5QWLk" = _jNT5QWLk;
@@ -98,6 +108,8 @@ let
         "NGY7Wn9k" = _NGY7Wn9k;
         "G7n8Nl9j" = _G7n8Nl9j;
         "ExKgPvtb" = _ExKgPvtb;
+        "V9ukTMMS" = _V9ukTMMS;
+        "ixO6aX09" = _ixO6aX09;
         "datapack-1.21.5" = _WZFSPeQ5;
         "datapack-1.21.6" = _WZFSPeQ5;
         "datapack-1.21.7" = _WZFSPeQ5;
@@ -109,6 +121,7 @@ let
         "datapack-26.1.1" = _WZFSPeQ5;
         "datapack-26.1.2" = _WZFSPeQ5;
         "datapack-26.2" = _G7n8Nl9j;
+        "datapack-26.3" = _V9ukTMMS;
         "fabric-1.21.5" = _vUcSCz2V;
         "fabric-1.21.6" = _vUcSCz2V;
         "fabric-1.21.7" = _vUcSCz2V;
@@ -120,6 +133,7 @@ let
         "fabric-26.1.1" = _vUcSCz2V;
         "fabric-26.1.2" = _vUcSCz2V;
         "fabric-26.2" = _ExKgPvtb;
+        "fabric-26.3" = _ixO6aX09;
         "forge-1.21.5" = _vUcSCz2V;
         "forge-1.21.6" = _vUcSCz2V;
         "forge-1.21.7" = _vUcSCz2V;
@@ -131,6 +145,7 @@ let
         "forge-26.1.1" = _vUcSCz2V;
         "forge-26.1.2" = _vUcSCz2V;
         "forge-26.2" = _ExKgPvtb;
+        "forge-26.3" = _ixO6aX09;
         "neoforge-1.21.5" = _vUcSCz2V;
         "neoforge-1.21.6" = _vUcSCz2V;
         "neoforge-1.21.7" = _vUcSCz2V;
@@ -142,6 +157,7 @@ let
         "neoforge-26.1.1" = _vUcSCz2V;
         "neoforge-26.1.2" = _vUcSCz2V;
         "neoforge-26.2" = _ExKgPvtb;
+        "neoforge-26.3" = _ixO6aX09;
         "quilt-1.21.5" = _vUcSCz2V;
         "quilt-1.21.6" = _vUcSCz2V;
         "quilt-1.21.7" = _vUcSCz2V;
@@ -153,6 +169,7 @@ let
         "quilt-26.1.1" = _vUcSCz2V;
         "quilt-26.1.2" = _vUcSCz2V;
         "quilt-26.2" = _ExKgPvtb;
+        "quilt-26.3" = _ixO6aX09;
         "pkg-1.0.0" = _7fF8JC5f;
         "pkg-1.0.0+mod" = _jNT5QWLk;
         "pkg-1.0.1" = _dzJTRT9p;
@@ -165,7 +182,9 @@ let
         "pkg-1.0.4+mod" = _Ge58V3sz;
         "pkg-1.0.5" = _G7n8Nl9j;
         "pkg-1.0.5+mod" = _ExKgPvtb;
-        "default" = _ExKgPvtb;
+        "pkg-1.0.6" = _V9ukTMMS;
+        "pkg-1.0.6+mod" = _ixO6aX09;
+        "default" = _ixO6aX09;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unbound-items";

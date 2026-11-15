@@ -101,6 +101,11 @@ let
             "file" = "goety_ladder-1.2.1-fix.jar";
             "hash" = "sha512-REqY0M0AfOJwL6P+mZ9O2KD7lpT061GX86wM97qzNdiVeA2CFG1HPJYXVPSnDO9Z3tgeDC/vXr4SujnU4f2UFw==";
         };
+        _BNYJSG7P = {
+            "id" = "BNYJSG7P";
+            "file" = "goety_ladder-1.2.2-bete.jar";
+            "hash" = "sha512-sd+qpYU7yPMJzxzXMBKBKG9wgLcEcsFK+hEdI4+C2EjHPcqVoz3HNe1t3NA6N2mTRCIAKAwdKwzmiPaIK1aquA==";
+        };
     in {
         "picoUHcB" = _picoUHcB;
         "IO69FqqU" = _IO69FqqU;
@@ -122,12 +127,13 @@ let
         "bu8cDN8l" = _bu8cDN8l;
         "hTayUE6t" = _hTayUE6t;
         "RSt1u5A1" = _RSt1u5A1;
-        "forge-1.20.1" = _RSt1u5A1;
-        "forge-1.20.2" = _RSt1u5A1;
-        "forge-1.20.3" = _RSt1u5A1;
-        "forge-1.20.4" = _RSt1u5A1;
-        "forge-1.20.5" = _RSt1u5A1;
-        "forge-1.20.6" = _RSt1u5A1;
+        "BNYJSG7P" = _BNYJSG7P;
+        "forge-1.20.1" = _BNYJSG7P;
+        "forge-1.20.2" = _BNYJSG7P;
+        "forge-1.20.3" = _BNYJSG7P;
+        "forge-1.20.4" = _BNYJSG7P;
+        "forge-1.20.5" = _BNYJSG7P;
+        "forge-1.20.6" = _BNYJSG7P;
         "pkg-1.0.0" = _picoUHcB;
         "pkg-1.0.1" = _6R42sFCj;
         "pkg-1.1.2" = _O2o1Stqq;
@@ -142,7 +148,8 @@ let
         "pkg-1.2.0" = _bu8cDN8l;
         "pkg-1.2.1" = _hTayUE6t;
         "pkg-1.2.1-fix" = _RSt1u5A1;
-        "default" = _RSt1u5A1;
+        "pkg-1.2.2Bete" = _BNYJSG7P;
+        "default" = _BNYJSG7P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goetyladder";

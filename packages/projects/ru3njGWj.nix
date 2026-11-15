@@ -91,6 +91,21 @@ let
             "file" = "rexray-6.0.0-neoforge-1.21.1.jar";
             "hash" = "sha512-X3HirYHL5R/S2VDOZ/jFrOJB08vS0q4a2sFfWZcQiY8pGMHJ7YEQG18HIANxf588aFi2wGPkis93H6nKOpE39w==";
         };
+        _iNYv1iov = {
+            "id" = "iNYv1iov";
+            "file" = "rexray-6.0.0-neoforge-26.1.2.jar";
+            "hash" = "sha512-prPet0NMA1kV78KAo5IfFE529rItOk1W/FIRp3BOYsjhfnOMRLW4XBXwL2i1fCBbb0x7mzsCFXT8eN+xf/NAPA==";
+        };
+        _PhNoZvLG = {
+            "id" = "PhNoZvLG";
+            "file" = "rexray-6.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-dRHKTVppAOCeIOULtcL7DTKMPNdAslXZDGiMhNoz9oxKhQaDzQvD7krCqRWwJAhZRdb2ZmZw7rrKESQJWIjD2g==";
+        };
+        _E4JPbOMp = {
+            "id" = "E4JPbOMp";
+            "file" = "rexray-6.0.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-BBzg2kzI/HB5fdmbO5jOT11ZhgUPJt/EBIpFJst7xr1X2AQMuQWk2SxgEB+WhmqN/4ve/M6/bJHNYKQFbbo6ww==";
+        };
     in {
         "Voc7V6UU" = _Voc7V6UU;
         "wBKLEigb" = _wBKLEigb;
@@ -110,9 +125,12 @@ let
         "kkSXAhs4" = _kkSXAhs4;
         "21TVn6lB" = _21TVn6lB;
         "ICuHFEvB" = _ICuHFEvB;
-        "neoforge-1.21.1" = _ICuHFEvB;
-        "neoforge-26.1.2" = _7JMlZvCA;
-        "forge-1.20.1" = _21TVn6lB;
+        "iNYv1iov" = _iNYv1iov;
+        "PhNoZvLG" = _PhNoZvLG;
+        "E4JPbOMp" = _E4JPbOMp;
+        "neoforge-1.21.1" = _E4JPbOMp;
+        "neoforge-26.1.2" = _iNYv1iov;
+        "forge-1.20.1" = _PhNoZvLG;
         "pkg-1.0.0" = _Voc7V6UU;
         "pkg-2.0.0" = _wBKLEigb;
         "pkg-2.1.0" = _IZwc2omG;
@@ -128,8 +146,9 @@ let
         "pkg-5.0.3-beta-928" = _7JMlZvCA;
         "pkg-5.0.3-beta-930" = _aweOlemg;
         "pkg-5.0.4" = _21TVn6lB;
-        "pkg-6.0.0" = _ICuHFEvB;
-        "default" = _ICuHFEvB;
+        "pkg-6.0.0" = _PhNoZvLG;
+        "pkg-6.0.1" = _E4JPbOMp;
+        "default" = _E4JPbOMp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rexrayandsupertools";

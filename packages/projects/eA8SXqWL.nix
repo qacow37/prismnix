@@ -3861,6 +3861,11 @@ let
             "file" = "the_bumblezone-7.18.7+26.1.2-fabric.jar";
             "hash" = "sha512-hoyNKWYgFVSo6RPMeT6ObqkQAdjd6e50G2DTHHP4guHColWAM+qoWSOXZKTV7SwQVNYIDVXOxUHFcolmbFtPsQ==";
         };
+        _565qfxXw = {
+            "id" = "565qfxXw";
+            "file" = "the_bumblezone-7.19.0+26.1.2-fabric.jar";
+            "hash" = "sha512-xgVRuvuhOfxM4uCJ2Uf1Znorb1PhLyPgxbFFaFN8Kp2966fkh4knCmPwo6SKlglCNit0IZ3AtnuNBiuuDzbOMg==";
+        };
     in {
         "k5yXwDGg" = _k5yXwDGg;
         "cXpmfcoN" = _cXpmfcoN;
@@ -4634,6 +4639,7 @@ let
         "3lEs4WwZ" = _3lEs4WwZ;
         "4Yjf4Xch" = _4Yjf4Xch;
         "2Q1sFEsf" = _2Q1sFEsf;
+        "565qfxXw" = _565qfxXw;
         "fabric-1.16.5" = _CSuPyeXQ;
         "fabric-1.17" = _ueSWlQem;
         "fabric-1.17.1" = _ueSWlQem;
@@ -4649,7 +4655,7 @@ let
         "fabric-1.20.6" = _mJ1VmNMI;
         "fabric-1.21" = _IARmxdUv;
         "fabric-1.21.1" = _WXjHJFB3;
-        "fabric-26.1.2" = _2Q1sFEsf;
+        "fabric-26.1.2" = _565qfxXw;
         "forge-1.18" = _9VYPxpQi;
         "quilt-1.19" = _3vhAfMJo;
         "quilt-1.19.1" = _jFeZ3xG2;
@@ -5424,7 +5430,8 @@ let
         "pkg-7.18.5+26.1.2-fabric" = _3lEs4WwZ;
         "pkg-7.18.6+26.1.2-fabric" = _4Yjf4Xch;
         "pkg-7.18.7+26.1.2-fabric" = _2Q1sFEsf;
-        "default" = _2Q1sFEsf;
+        "pkg-7.19.0+26.1.2-fabric" = _565qfxXw;
+        "default" = _565qfxXw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bumblezone-fabric";

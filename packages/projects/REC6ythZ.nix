@@ -116,6 +116,21 @@ let
             "file" = "idle_boost-fabric-2.0.0+1.21.1-dev.jar";
             "hash" = "sha512-/RkAyPoNfjV3k4G4Sju+OkG7Xn33W3CUZw6/awD8M4vQSzzTvv4tYjVNUGpUzEab8coUJOjJUSKspgjelY8KOw==";
         };
+        _DRzYrsml = {
+            "id" = "DRzYrsml";
+            "file" = "idle_boost-forge-2.0.0+1.20.6-dev.jar";
+            "hash" = "sha512-BQgQLwWsP1eurAsZGU5jwx3JKbYx3NnIriUhNE2KKk/c6ZdlWXdPM8Eyunb4NdzHskGobjUfyqJFVwoemL/PqA==";
+        };
+        _Ir22bGGd = {
+            "id" = "Ir22bGGd";
+            "file" = "idle_boost-fabric-2.0.0+1.20.6-dev.jar";
+            "hash" = "sha512-d3NkJ6WfquN5fEYT4G+z+5ILN+zNt76RJEyg9S/3azHN7qQ+AAnFPvIVvnQFRBdMtVV9SIPE/nlVL9xT6Og0cg==";
+        };
+        _PjkMa6gM = {
+            "id" = "PjkMa6gM";
+            "file" = "idle_boost-neoforge-2.0.0+1.20.6-dev.jar";
+            "hash" = "sha512-3XcXqmSpJGHKmx84HMdN6wP/O5ec+L1ZCQb+9LqkbVIS/t6ltEQJYXcZyc6dB23KNr5Li0bHZTSKAXydC3sOkQ==";
+        };
     in {
         "qjXZT8Q0" = _qjXZT8Q0;
         "feNalZIa" = _feNalZIa;
@@ -140,15 +155,19 @@ let
         "24Ec2c3d" = _24Ec2c3d;
         "AYXsMdrx" = _AYXsMdrx;
         "OhU9jXzF" = _OhU9jXzF;
+        "DRzYrsml" = _DRzYrsml;
+        "Ir22bGGd" = _Ir22bGGd;
+        "PjkMa6gM" = _PjkMa6gM;
         "neoforge-1.21" = _S47lYPKw;
-        "neoforge-1.20.6" = _IOUzwuER;
+        "neoforge-1.20.6" = _PjkMa6gM;
         "neoforge-1.21.1" = _24Ec2c3d;
         "fabric-1.21" = _odWkWVWG;
-        "fabric-1.20.6" = _tlghKO2F;
+        "fabric-1.20.6" = _Ir22bGGd;
         "fabric-1.21.1" = _OhU9jXzF;
         "fabric-1.20.1" = _R7BANeO0;
         "forge-1.20.1" = _wrgHebmW;
         "forge-1.21.1" = _AYXsMdrx;
+        "forge-1.20.6" = _DRzYrsml;
         "pkg-1.0.0+1.21" = _feNalZIa;
         "pkg-1.0.1+1.21" = _5H66bOTA;
         "pkg-1.0.1+1.20.6" = _9FhTaHsJ;
@@ -160,7 +179,8 @@ let
         "pkg-1.2.0+1.20.6" = _IOUzwuER;
         "pkg-1.2.0+1.21.1" = _fgCNU8NR;
         "pkg-2.0.0+1.21.1" = _OhU9jXzF;
-        "default" = _OhU9jXzF;
+        "pkg-2.0.0+1.20.6" = _PjkMa6gM;
+        "default" = _PjkMa6gM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "idle-boost";

@@ -76,6 +76,21 @@ let
             "file" = "Cell4-1.21.1-NeoForge-1.0.4fix3.jar";
             "hash" = "sha512-8Yu25HrrjhQrYrkkFpP3hPQgAqyJ4sZ5cSMy3Ta6G298jJpotx7RM4v38GWnoJa+M1xrydwTMW58xj6BaG647g==";
         };
+        _moEJT70r = {
+            "id" = "moEJT70r";
+            "file" = "Cell4-1.20.1-Forge-1.0.5.jar";
+            "hash" = "sha512-wgrZTJ2c4W1jbGKYtxG2bn0OK2IJu//DHX5IDILC9SxgUt5WwAn7dlQBHfh5x4K+WBQeLCFd45yo078UTX5uQg==";
+        };
+        _16EKB3J0 = {
+            "id" = "16EKB3J0";
+            "file" = "Cell4-1.21.1-NeoForge-1.0.5.jar";
+            "hash" = "sha512-i6nYOswFlhh62D0BV8TWzU6T1AHAX8FkCyXAtFX46eze6BKo44FUSOyN+/r4buPMmeQRv03x1JZzYdmZi/eAzQ==";
+        };
+        _vGUaIZVt = {
+            "id" = "vGUaIZVt";
+            "file" = "Cell4-26.1.2-NeoForge-1.0.5.jar";
+            "hash" = "sha512-/h5jKmTcup+6axldGY9OZFrotfjKXFwCgJ6s6OKRRooPnFWeS6YyxsF2QA9CJtdyxn68HJTwpQydJhK2lo1Qyw==";
+        };
     in {
         "mYPwZP80" = _mYPwZP80;
         "EkSfhxhA" = _EkSfhxhA;
@@ -92,9 +107,12 @@ let
         "fWAL74Rt" = _fWAL74Rt;
         "rxFXdfVg" = _rxFXdfVg;
         "Oc6ScGhy" = _Oc6ScGhy;
-        "forge-1.20.1" = _rxFXdfVg;
-        "neoforge-1.21.1" = _Oc6ScGhy;
-        "neoforge-26.1.2" = _CPicXVhO;
+        "moEJT70r" = _moEJT70r;
+        "16EKB3J0" = _16EKB3J0;
+        "vGUaIZVt" = _vGUaIZVt;
+        "forge-1.20.1" = _moEJT70r;
+        "neoforge-1.21.1" = _16EKB3J0;
+        "neoforge-26.1.2" = _vGUaIZVt;
         "pkg-1.20.1-forge-1.0.0" = _mYPwZP80;
         "pkg-1.21.1-Neoforge-1.0.0" = _EkSfhxhA;
         "pkg-1.20.1-Forge-1.0.1" = _aAnTR77D;
@@ -110,7 +128,10 @@ let
         "pkg-Cell4-1.21.1-NeoForge-1.0.4fix2" = _fWAL74Rt;
         "pkg-Cell4-1.20.1-Forge-1.0.4Fix3" = _rxFXdfVg;
         "pkg-Cell4-1.21.1-NeoForge-1.0.4Fix3" = _Oc6ScGhy;
-        "default" = _Oc6ScGhy;
+        "pkg-Cell4-1.20.1-Forge-1.0.5" = _moEJT70r;
+        "pkg-Cell4-1.21.1-NeoForge-1.0.5" = _16EKB3J0;
+        "pkg-Cell4-26.1.2-NeoForge-1.0.5" = _vGUaIZVt;
+        "default" = _vGUaIZVt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cell4";

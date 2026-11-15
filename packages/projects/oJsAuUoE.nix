@@ -151,6 +151,16 @@ let
             "file" = "Sapixcraft 32x r1.9a 1.21.11.zip";
             "hash" = "sha512-esgiqWeXQ2Rg0n2tRRY7fk0gqnctxiJm3dDslDXOxyZvD2LpWiSSRrksN8GBXZOJo7ArStG3piYnKZzlKErB1A==";
         };
+        _zfxwAkqD = {
+            "id" = "zfxwAkqD";
+            "file" = "Sapixcraft 32x r1.9 26.3.zip";
+            "hash" = "sha512-A4KijZ3WkiHEeUGxPi1ufjm0Cq5QpjMcNtJuuhgb7pugEDo/rA9LKPrcKJK6fk79dtycz8m7QyW8T1fIpDF2sg==";
+        };
+        _cmFRNTVr = {
+            "id" = "cmFRNTVr";
+            "file" = "Sapixcraft 32x r1.8 26.2.zip";
+            "hash" = "sha512-waFmByglbFKBZa4xrsWjrman4+9NnIN6r3AkBgWALXAY2q618SiFbUh1Gy1IXZWQ2LdpS1xHZsyD7vJHpOGqOQ==";
+        };
     in {
         "lYslTVWE" = _lYslTVWE;
         "KdlX1k4H" = _KdlX1k4H;
@@ -182,6 +192,8 @@ let
         "4hwTRpJ5" = _4hwTRpJ5;
         "l6bD65fO" = _l6bD65fO;
         "mR2UCxhR" = _mR2UCxhR;
+        "zfxwAkqD" = _zfxwAkqD;
+        "cmFRNTVr" = _cmFRNTVr;
         "minecraft-1.19" = _lYslTVWE;
         "minecraft-1.19.1" = _lYslTVWE;
         "minecraft-1.19.2" = _lYslTVWE;
@@ -220,7 +232,7 @@ let
         "minecraft-1.21.8" = _wiceFnV2;
         "minecraft-1.21.9" = _wiceFnV2;
         "minecraft-1.21.10" = _wiceFnV2;
-        "minecraft-26.2" = _4hwTRpJ5;
+        "minecraft-26.2" = _cmFRNTVr;
         "minecraft-26.3-snapshot-1" = _eJKD3bGC;
         "minecraft-26.3-snapshot-2" = _eJKD3bGC;
         "minecraft-26.3-snapshot-3" = _eJKD3bGC;
@@ -231,7 +243,7 @@ let
         "minecraft-26.3-snapshot-8" = _eJKD3bGC;
         "minecraft-26.3-snapshot-9" = _eJKD3bGC;
         "minecraft-26.3-snapshot-10" = _eJKD3bGC;
-        "minecraft-26.3" = _4QmEUUJ6;
+        "minecraft-26.3" = _zfxwAkqD;
         "pkg-1.19.2_r1-32x" = _lYslTVWE;
         "pkg-Sapixcraft_16x_1.18r1" = _KdlX1k4H;
         "pkg-Sapixcraft_32x_1.19.3r1" = _EtbZr5tj;
@@ -258,9 +270,10 @@ let
         "pkg-r1.5a" = _o1qAzRyr;
         "pkg-r1.6" = _4hwTRpJ5;
         "pkg-r1.7" = _tqJ5LO5R;
-        "pkg-r1.8" = _l6bD65fO;
+        "pkg-r1.8" = _cmFRNTVr;
         "pkg-r1.9a" = _mR2UCxhR;
-        "default" = _mR2UCxhR;
+        "pkg-r1.9" = _zfxwAkqD;
+        "default" = _cmFRNTVr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sapixcraft";

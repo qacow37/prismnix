@@ -46,6 +46,16 @@ let
             "file" = "dragonloot-1.1.10.jar";
             "hash" = "sha512-OM9GxR7uM2cQyhcBmtfG8bGEfYAO++XFoKdY6FCuKUFl2f4hylyxPUD1qX4K4n3+CnZPzwzSKlSUUqguDf7wvg==";
         };
+        _TEbgsrWG = {
+            "id" = "TEbgsrWG";
+            "file" = "dragonloot-fabric-1.2.0+26.3.jar";
+            "hash" = "sha512-zRVNgbAvfRegAzAYjdH78iNBEp/6r7AacnSUI8ulkghNyp2iKUHpHHnvk1rosXKoDwjLxn8AACz0bZdg9mkDcQ==";
+        };
+        _l08uuNOs = {
+            "id" = "l08uuNOs";
+            "file" = "dragonloot-neoforge-1.2.0+26.3.jar";
+            "hash" = "sha512-BcODop4l84m4R2WgGkyiVLHikXBdMS1siQE7I3k/NiVj2xpHjNP1GMsxGZvO9k9kfNc7q71OtfKxc6JLK6at5A==";
+        };
     in {
         "u2AwD5fw" = _u2AwD5fw;
         "SJn4GXJb" = _SJn4GXJb;
@@ -56,10 +66,14 @@ let
         "qzpZJael" = _qzpZJael;
         "p6ukZcRV" = _p6ukZcRV;
         "55BVyXIG" = _55BVyXIG;
+        "TEbgsrWG" = _TEbgsrWG;
+        "l08uuNOs" = _l08uuNOs;
         "fabric-1.19.2" = _u2AwD5fw;
         "fabric-1.20.1" = _SJn4GXJb;
         "fabric-1.21" = _Sn17HTpV;
         "fabric-1.21.1" = _55BVyXIG;
+        "fabric-26.3" = _TEbgsrWG;
+        "neoforge-26.3" = _l08uuNOs;
         "pkg-1.1.2" = _u2AwD5fw;
         "pkg-1.1.4+1.20.1" = _SJn4GXJb;
         "pkg-1.1.4+1.21" = _c1HO94Ky;
@@ -69,7 +83,9 @@ let
         "pkg-1.1.8+1.21.1" = _qzpZJael;
         "pkg-1.1.9+1.21.1" = _p6ukZcRV;
         "pkg-1.1.10+1.21.1" = _55BVyXIG;
-        "default" = _55BVyXIG;
+        "pkg-1.2.0+26.3-fabric" = _TEbgsrWG;
+        "pkg-1.2.0+26.3-neoforge" = _l08uuNOs;
+        "default" = _l08uuNOs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonloot";

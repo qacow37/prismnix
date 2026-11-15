@@ -201,6 +201,16 @@ let
             "file" = "cobblemon_smartphone-neoforge-2.0.1.jar";
             "hash" = "sha512-uNHr9OCntPp6U7Lgo+8qjEkWwZuvIRBJmlwnHctj73Mw9ju/7Xtzw6atwIMPh0kiL6f1qS8sZyYZps2CCl1/2Q==";
         };
+        _cTi5BnNq = {
+            "id" = "cTi5BnNq";
+            "file" = "cobblemon_smartphone-fabric-2.0.2.jar";
+            "hash" = "sha512-KQl+Xh0RQrGk+rsuzyyT0unAd+tb15fR+vCXyEqzwEViijJaGuT33d8zfO+oPCiuLBlKeYRzf18yh6YufG7/cA==";
+        };
+        _Cnz5Lilf = {
+            "id" = "Cnz5Lilf";
+            "file" = "cobblemon_smartphone-neoforge-2.0.2.jar";
+            "hash" = "sha512-gOKNhoIyLS15ed9UDM4/iQhUSrOAV0WprvPDCFHu/9Y+s8qPtFW9veBuTtIkoJDOowObFNz6TYwwqnQh4ie4gw==";
+        };
     in {
         "Dp6Q2TXn" = _Dp6Q2TXn;
         "xK4705Pf" = _xK4705Pf;
@@ -242,8 +252,10 @@ let
         "fD5tuHtz" = _fD5tuHtz;
         "2WQrGmiA" = _2WQrGmiA;
         "JZJWCOmN" = _JZJWCOmN;
-        "fabric-1.21.1" = _2WQrGmiA;
-        "neoforge-1.21.1" = _JZJWCOmN;
+        "cTi5BnNq" = _cTi5BnNq;
+        "Cnz5Lilf" = _Cnz5Lilf;
+        "fabric-1.21.1" = _cTi5BnNq;
+        "neoforge-1.21.1" = _Cnz5Lilf;
         "pkg-1.0.0" = _Dp6Q2TXn;
         "pkg-1.0.1" = _eXdRTm3d;
         "pkg-1.0.2" = _E0Q6Xnua;
@@ -265,7 +277,8 @@ let
         "pkg-1.1.5" = _xGUiyiuH;
         "pkg-2.0.0" = _fD5tuHtz;
         "pkg-2.0.1" = _JZJWCOmN;
-        "default" = _JZJWCOmN;
+        "pkg-2.0.2" = _Cnz5Lilf;
+        "default" = _Cnz5Lilf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-smartphone";

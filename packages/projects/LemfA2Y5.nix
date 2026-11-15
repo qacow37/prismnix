@@ -26,20 +26,27 @@ let
             "file" = "gauged_wires-1.0.6a.jar";
             "hash" = "sha512-8ueMyxubPGr5dp3RnEl1p6QFjH/ZPwQrjhaQTysygkTssWF907wfcUVK4QI/QrXYzXV7GGPAJ5FxZW2HUousQQ==";
         };
+        _354okuSR = {
+            "id" = "354okuSR";
+            "file" = "gauged_wires-2.0.0.jar";
+            "hash" = "sha512-Oc/3KF10HFLVCfDAO6raKyRh6s/hRwdwANEuB1nxBGxaDotzpCHyo2xNIyq8fZMR+Aqf6APGydS3RH/+ceDvRQ==";
+        };
     in {
         "qpXmkNtv" = _qpXmkNtv;
         "Jl6nHvLw" = _Jl6nHvLw;
         "Gm9gp4w2" = _Gm9gp4w2;
         "EbNSBYRd" = _EbNSBYRd;
         "f1ywSCNc" = _f1ywSCNc;
-        "neoforge-1.21.1" = _f1ywSCNc;
+        "354okuSR" = _354okuSR;
+        "neoforge-1.21.1" = _354okuSR;
         "neoforge-1.20.1" = _EbNSBYRd;
         "pkg-1.0.0" = _qpXmkNtv;
         "pkg-1.0.2" = _Jl6nHvLw;
         "pkg-1.0.3" = _Gm9gp4w2;
         "pkg-1.0.4" = _EbNSBYRd;
         "pkg-1.0.6a" = _f1ywSCNc;
-        "default" = _f1ywSCNc;
+        "pkg-2.0.0" = _354okuSR;
+        "default" = _354okuSR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gauged-a-wire-addon";

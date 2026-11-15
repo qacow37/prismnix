@@ -351,6 +351,16 @@ let
             "file" = "spears-forge-1.5.0-1.20.1.jar";
             "hash" = "sha512-UKyXDTxPOFZ5WSMwcSlRSfujRUkAUgEoED1tEi9Ncpne2a9XzNr7Aj47cTXkL4bU22uNaGoYBuREJ/FxAQZoLw==";
         };
+        _zpaATelq = {
+            "id" = "zpaATelq";
+            "file" = "spear-backport-fabric-1.5.1-1.20.1.jar";
+            "hash" = "sha512-fJHiVg5/UVTSDmkyfeuKtHVbV5E1Q0Qt3IHRPAzjzATv1JcfU4pZrAgT0xSXZTocEqm6fzjMynON22gwK14TaA==";
+        };
+        _c9MmFf2E = {
+            "id" = "c9MmFf2E";
+            "file" = "spear-backport-forge-1.5.1-1.20.1.jar";
+            "hash" = "sha512-gt8nM4eCR65vuHihng0OEMompN2YiLpXmmf1ZCCTryo4n61BHfSTkaKkB47gIWeyy2RX3X+iKJla7cV5XEWXPQ==";
+        };
     in {
         "vstXWr5f" = _vstXWr5f;
         "q8U84prg" = _q8U84prg;
@@ -422,9 +432,11 @@ let
         "lwX0dRE0" = _lwX0dRE0;
         "YOGbBdkr" = _YOGbBdkr;
         "1e0M8R3T" = _1e0M8R3T;
+        "zpaATelq" = _zpaATelq;
+        "c9MmFf2E" = _c9MmFf2E;
         "fabric-1.21" = _gaCjtiZC;
         "fabric-1.21.1" = _pBxqKUpa;
-        "fabric-1.20.1" = _YOGbBdkr;
+        "fabric-1.20.1" = _zpaATelq;
         "fabric-1.21.8" = _TCZ7VVNT;
         "fabric-1.21.10" = _bwlA6ACr;
         "neoforge-1.21" = _gaCjtiZC;
@@ -433,7 +445,7 @@ let
         "neoforge-1.21.10" = _lwX0dRE0;
         "forge-1.21" = _gaCjtiZC;
         "forge-1.21.1" = _gaCjtiZC;
-        "forge-1.20.1" = _1e0M8R3T;
+        "forge-1.20.1" = _c9MmFf2E;
         "pkg-1.0.0" = _wlGhzm2t;
         "pkg-1.0.1" = _lwX0dRE0;
         "pkg-1.1.0" = _s90FvWsd;
@@ -467,7 +479,8 @@ let
         "pkg-1.4.6" = _KC4uWMPx;
         "pkg-1.8.0" = _FROwtXRs;
         "pkg-1.4.7" = _maGyr2Ki;
-        "default" = _1e0M8R3T;
+        "pkg-1.5.1" = _c9MmFf2E;
+        "default" = _c9MmFf2E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backported-spears";

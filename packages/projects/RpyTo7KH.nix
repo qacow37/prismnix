@@ -46,6 +46,11 @@ let
             "file" = "grim_and_bleak-2.5.2-neoforge-1.21.1.jar";
             "hash" = "sha512-stBNiTM91NpGNideSa2cWfNH5k28SOFpJT7vvZsoKMVlKkHDrIEsHf7rIqf3f1GkB//wDgI3hFe3zAB9VKUtHg==";
         };
+        _6seqERm3 = {
+            "id" = "6seqERm3";
+            "file" = "grim_and_bleak-2.7-forge-1.20.1.jar";
+            "hash" = "sha512-kpKASqBha2SfcWeEva5iUKxl8XA7e+4YnWW8vGT+TCxFMGIY+AuM2itH+HKLCHFANsNlafjQ8e1iyd4yiaIEBw==";
+        };
     in {
         "fxOxYvst" = _fxOxYvst;
         "jDJ0Iinr" = _jDJ0Iinr;
@@ -56,23 +61,26 @@ let
         "cgm76IID" = _cgm76IID;
         "QrCJPbJw" = _QrCJPbJw;
         "x4IDBdv8" = _x4IDBdv8;
-        "forge-1.20.1" = _QrCJPbJw;
+        "6seqERm3" = _6seqERm3;
+        "forge-1.20.1" = _6seqERm3;
         "forge-1.20" = _QrCJPbJw;
         "forge-1.20.2" = _jDJ0Iinr;
         "forge-1.21.1" = _x4IDBdv8;
         "forge-1.21" = _cgm76IID;
         "neoforge-1.20" = _QrCJPbJw;
-        "neoforge-1.20.1" = _QrCJPbJw;
+        "neoforge-1.20.1" = _6seqERm3;
         "neoforge-1.20.2" = _jDJ0Iinr;
         "neoforge-1.21.1" = _x4IDBdv8;
         "neoforge-1.21" = _cgm76IID;
+        "fabric-1.20.1" = _6seqERm3;
         "pkg-1.0.0" = _fxOxYvst;
         "pkg-1.0.6" = _jDJ0Iinr;
         "pkg-1.1.4" = _bicQqEP1;
         "pkg-2.0" = _6q7JBz2y;
         "pkg-2.5" = _cgm76IID;
         "pkg-2.5.2" = _x4IDBdv8;
-        "default" = _x4IDBdv8;
+        "pkg-1.0.7" = _6seqERm3;
+        "default" = _6seqERm3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grim-and-bleak";

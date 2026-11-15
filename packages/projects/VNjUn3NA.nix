@@ -4171,6 +4171,51 @@ let
             "file" = "seasonhud-neoforge-26.3-2.0.11.jar";
             "hash" = "sha512-C3NfkUWnE3CB00qDpdWgLo2Bz50hpRqEmwSjvAyfwoVfpS9CprboN9zpsE4ttIjKiqR6cuWmqZ6lRf5D5pIKEw==";
         };
+        _dTDZr4ND = {
+            "id" = "dTDZr4ND";
+            "file" = "seasonhud-forge-1.16.5-2.0.12.jar";
+            "hash" = "sha512-9O8QOysTvYIEDY/riM4hwixmJQlKpxks93PbbTTpqR4LemBioxyZG3FdPiNtWltddRJhuNT6nJ5Hp/FAUp35NA==";
+        };
+        _YkZ0V2U1 = {
+            "id" = "YkZ0V2U1";
+            "file" = "seasonhud-forge-1.18.2-2.0.12.jar";
+            "hash" = "sha512-yyBsDj1hkQJoiBO7FYmA5z8g4PtYl3//6idEeavRhi/mQGW5VyNeem5GAgKq6XGGtNeieukB6TvgC+GqJ2FZCw==";
+        };
+        _qo1jzz5q = {
+            "id" = "qo1jzz5q";
+            "file" = "seasonhud-forge-1.19.2-2.0.12.jar";
+            "hash" = "sha512-rY8vWFujVZ8tg7SjSUtzGZ2dxaEM5VT2qkj0UaGFcqMHy/6zXPPl3/L8FIsIleqLvLxQkJ6Abbm3qLcVhvqunw==";
+        };
+        _6n2Hz48p = {
+            "id" = "6n2Hz48p";
+            "file" = "seasonhud-forge-1.20.1-2.0.12.jar";
+            "hash" = "sha512-tftdLIJlc/vmjKLkWzdI+dkv6czYiiBhFOnrksQ95a8NfJ5ZDzoyAHurD92Xm95P0NiwhvJ3aPEu/YsY7hQomQ==";
+        };
+        _ZizyPPDy = {
+            "id" = "ZizyPPDy";
+            "file" = "SeasonHud-forge-1.21.1-2.0.12.jar";
+            "hash" = "sha512-rVKEyQ+LfvDgCwLivqCurFEFur1py5um4TeQvuUOg7l+S/nchuXYU/lcIFJN3gcuWgsdTFuNDMi8Pse4mQE4AA==";
+        };
+        _re5UdGel = {
+            "id" = "re5UdGel";
+            "file" = "seasonhud-neoforge-1.21.1-2.0.12.jar";
+            "hash" = "sha512-ANXET4FEg8czdK9D5CtmEyd2g61Mf5FHdegw2yyOEoe+d9V9dfXYUeWIERajtSAQI+8soO2mHUk1L2NiP6y64w==";
+        };
+        _UtJNbVWT = {
+            "id" = "UtJNbVWT";
+            "file" = "seasonhud-neoforge-26.1.2-2.0.12.jar";
+            "hash" = "sha512-dwxylYpsP43Q5HF70o492u2DIbxOItdUGnQMaC3xLiypyV/8UW6ow4VFpxOuSEku1LL/GQ6hAKj5aWxsNf6WNQ==";
+        };
+        _wDtQcOxU = {
+            "id" = "wDtQcOxU";
+            "file" = "seasonhud-neoforge-26.2-2.0.12.jar";
+            "hash" = "sha512-FxqASRHf9WxeRBUbxCIrrYisjjtM2KfoC+aeCdJT4ffUw2NJC/wdxbXNQsVQSNgZln27uvWLPgYzWospe+B8iQ==";
+        };
+        _waLYnkVF = {
+            "id" = "waLYnkVF";
+            "file" = "seasonhud-neoforge-26.3-2.0.12.jar";
+            "hash" = "sha512-iLMi7TZmfmntLatTGLK7jT+9p+yzoR4uSAT5YFGqRRJrvUysV19vpgfAEEO688ioIbqAbXcHDA0n/MjnFBVDzw==";
+        };
     in {
         "QfkDo63N" = _QfkDo63N;
         "iDJlSLj1" = _iDJlSLj1;
@@ -5006,20 +5051,29 @@ let
         "l07PKCg2" = _l07PKCg2;
         "nNEa8QQX" = _nNEa8QQX;
         "nlr0Xwoc" = _nlr0Xwoc;
-        "forge-1.16.5" = _qCZIELro;
-        "forge-1.18.2" = _SZp3pkuy;
-        "forge-1.19.2" = _zsvCYv6x;
-        "forge-1.19.3" = _zsvCYv6x;
-        "forge-1.19.4" = _zsvCYv6x;
-        "forge-1.20" = _J0Bp2ckj;
-        "forge-1.20.1" = _J0Bp2ckj;
+        "dTDZr4ND" = _dTDZr4ND;
+        "YkZ0V2U1" = _YkZ0V2U1;
+        "qo1jzz5q" = _qo1jzz5q;
+        "6n2Hz48p" = _6n2Hz48p;
+        "ZizyPPDy" = _ZizyPPDy;
+        "re5UdGel" = _re5UdGel;
+        "UtJNbVWT" = _UtJNbVWT;
+        "wDtQcOxU" = _wDtQcOxU;
+        "waLYnkVF" = _waLYnkVF;
+        "forge-1.16.5" = _dTDZr4ND;
+        "forge-1.18.2" = _YkZ0V2U1;
+        "forge-1.19.2" = _qo1jzz5q;
+        "forge-1.19.3" = _qo1jzz5q;
+        "forge-1.19.4" = _qo1jzz5q;
+        "forge-1.20" = _6n2Hz48p;
+        "forge-1.20.1" = _6n2Hz48p;
         "forge-1.20.2" = _tWhYW1YV;
         "forge-1.20.4" = _23OmondH;
         "forge-1.20.3" = _tWhYW1YV;
         "forge-1.20.5" = _O4RyaFEc;
         "forge-1.20.6" = _O4RyaFEc;
-        "forge-1.21" = _LK5OZo4V;
-        "forge-1.21.1" = _LK5OZo4V;
+        "forge-1.21" = _ZizyPPDy;
+        "forge-1.21.1" = _ZizyPPDy;
         "forge-1.21.2" = _AOc9i25x;
         "forge-1.21.3" = _AOc9i25x;
         "forge-1.21.4" = _AOc9i25x;
@@ -5030,15 +5084,15 @@ let
         "forge-1.21.9" = _1M3JMwiv;
         "forge-1.21.10" = _1M3JMwiv;
         "forge-1.21.11" = _Jmn5u0eG;
-        "neoforge-1.20" = _J0Bp2ckj;
-        "neoforge-1.20.1" = _J0Bp2ckj;
+        "neoforge-1.20" = _6n2Hz48p;
+        "neoforge-1.20.1" = _6n2Hz48p;
         "neoforge-1.20.4" = _zCffy4Tu;
         "neoforge-1.20.5" = _t943Blme;
         "neoforge-1.20.6" = _t943Blme;
         "neoforge-1.20.2" = _tWhYW1YV;
         "neoforge-1.20.3" = _tWhYW1YV;
-        "neoforge-1.21" = _zhU8hBUB;
-        "neoforge-1.21.1" = _zhU8hBUB;
+        "neoforge-1.21" = _re5UdGel;
+        "neoforge-1.21.1" = _re5UdGel;
         "neoforge-1.21.2" = _JoVVb5aT;
         "neoforge-1.21.3" = _JoVVb5aT;
         "neoforge-1.21.4" = _JoVVb5aT;
@@ -5049,11 +5103,11 @@ let
         "neoforge-1.21.9" = _VP15f80z;
         "neoforge-1.21.10" = _VP15f80z;
         "neoforge-1.21.11" = _QTypLj6o;
-        "neoforge-26.1" = _l07PKCg2;
-        "neoforge-26.1.1" = _l07PKCg2;
-        "neoforge-26.1.2" = _l07PKCg2;
-        "neoforge-26.2" = _nNEa8QQX;
-        "neoforge-26.3" = _nlr0Xwoc;
+        "neoforge-26.1" = _UtJNbVWT;
+        "neoforge-26.1.1" = _UtJNbVWT;
+        "neoforge-26.1.2" = _UtJNbVWT;
+        "neoforge-26.2" = _wDtQcOxU;
+        "neoforge-26.3" = _waLYnkVF;
         "pkg-1.16.5-1.4.9" = _QfkDo63N;
         "pkg-1.18.2-1.4.9" = _iDJlSLj1;
         "pkg-1.19.2-1.4.9" = _icUvJKnf;
@@ -5738,7 +5792,15 @@ let
         "pkg-26.1.2-2.0.11" = _l07PKCg2;
         "pkg-26.2-2.0.11" = _nNEa8QQX;
         "pkg-26.3-2.0.11" = _nlr0Xwoc;
-        "default" = _nlr0Xwoc;
+        "pkg-1.16.5-2.0.12" = _dTDZr4ND;
+        "pkg-1.18.2-2.0.12" = _YkZ0V2U1;
+        "pkg-1.19.2-2.0.12" = _qo1jzz5q;
+        "pkg-1.20.1-2.0.12" = _6n2Hz48p;
+        "pkg-1.21.1-2.0.12" = _re5UdGel;
+        "pkg-26.1.2-2.0.12" = _UtJNbVWT;
+        "pkg-26.2-2.0.12" = _wDtQcOxU;
+        "pkg-26.3-2.0.12" = _waLYnkVF;
+        "default" = _waLYnkVF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seasonhud";

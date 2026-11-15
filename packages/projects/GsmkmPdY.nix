@@ -86,6 +86,11 @@ let
             "file" = "aperture_innovations-neoforge-2.1.1.jar";
             "hash" = "sha512-bt56NXG4BFTU3XgA/9j+KO5t655kKHnb2H+6omOjDK57vaiIZm+bghwGvG6oqyKYmRuxrlK5W6JQEyyPnVoSfQ==";
         };
+        _Z3c17Aan = {
+            "id" = "Z3c17Aan";
+            "file" = "aperture_innovations-neoforge-3.0.0.jar";
+            "hash" = "sha512-YoVFQlwRvFCxNMP698zzQ1D+TMpMVBz/7te6AEPWCmZLdJgTKD9+9e0BwFIyqdZ8rQ6zfyp05NXPrY53uXNv7A==";
+        };
     in {
         "SWhiKOQ0" = _SWhiKOQ0;
         "Dd1GvBCp" = _Dd1GvBCp;
@@ -104,8 +109,9 @@ let
         "I02AAeuD" = _I02AAeuD;
         "JsfTPaUp" = _JsfTPaUp;
         "izlbCbqe" = _izlbCbqe;
+        "Z3c17Aan" = _Z3c17Aan;
         "forge-1.20.1" = _QFYwiE9W;
-        "neoforge-1.21.1" = _izlbCbqe;
+        "neoforge-1.21.1" = _Z3c17Aan;
         "pkg-1.0.0" = _Dd1GvBCp;
         "pkg-1.0.1" = _3rs6Y1dy;
         "pkg-1.0.2" = _jji0bVTQ;
@@ -116,7 +122,8 @@ let
         "pkg-2.0.1" = _I02AAeuD;
         "pkg-2.1.0" = _JsfTPaUp;
         "pkg-2.1.1" = _izlbCbqe;
-        "default" = _izlbCbqe;
+        "pkg-3.0.0" = _Z3c17Aan;
+        "default" = _Z3c17Aan;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aperture-innovations";

@@ -101,6 +101,26 @@ let
             "file" = "afk-cinematics-1.11.26+mc1.21.11.jar";
             "hash" = "sha512-V3/+1tTBj3R8caem+S/eQB4ZNms2ZpGTIEC+4/G/9Oi+DB+s5FbwBYq0+lL6kcbHGXZ6F3w+iBN65euakrhaYw==";
         };
+        _dO0YpYTp = {
+            "id" = "dO0YpYTp";
+            "file" = "afk-cinematics-2.11.26+mc1.21.11.jar";
+            "hash" = "sha512-mUCPOiKxFWFvHUDw7tUUstkMuYdmdw0WKsNoq7HFebpBl2ZO9TtlwzMbRYExKWKnRbpvGI18ehp7KsFB85UUVA==";
+        };
+        _GPKqmJsG = {
+            "id" = "GPKqmJsG";
+            "file" = "afk-cinematics-1.11.26+mc26.1.jar";
+            "hash" = "sha512-/jckb5SJlmahCpi+BxxG6LTUxp5Dz9lzdDvLuS4KIPqV5pkQ64LGaGJFDH2wpnjHorKo1K3FYr15mYtlrZAqgg==";
+        };
+        _womwJgic = {
+            "id" = "womwJgic";
+            "file" = "afk-cinematics-1.11.26+mc26.2.jar";
+            "hash" = "sha512-CuBqV422VcWNR4sRKhSs5jVIZC+xXkZPIOloZuvN0gM0739uDf0p4N7R0P7SlPR6L9gCkN+sijXz+bhvr+3gvw==";
+        };
+        _go7q6Jf8 = {
+            "id" = "go7q6Jf8";
+            "file" = "afk-cinematics-2.11.26+mc26.3.jar";
+            "hash" = "sha512-OdT2DmcoCD6cqGkJfGD4eYHZEedGNApL3/dsKTnTAvNct17lLMjXj60NH7KS13x1cn77KZkJM3vxOP5zZ9KtNg==";
+        };
     in {
         "UxoI2zMA" = _UxoI2zMA;
         "ADvKwfyK" = _ADvKwfyK;
@@ -122,6 +142,10 @@ let
         "q7nT1JY4" = _q7nT1JY4;
         "d8rzPZho" = _d8rzPZho;
         "jubKhZ97" = _jubKhZ97;
+        "dO0YpYTp" = _dO0YpYTp;
+        "GPKqmJsG" = _GPKqmJsG;
+        "womwJgic" = _womwJgic;
+        "go7q6Jf8" = _go7q6Jf8;
         "fabric-1.21.1" = _UxoI2zMA;
         "fabric-1.21.2" = _ADvKwfyK;
         "fabric-1.21.3" = _nMtgRoaZ;
@@ -132,12 +156,12 @@ let
         "fabric-1.21.8" = _PPytH7JG;
         "fabric-1.21.9" = _JTwXSN14;
         "fabric-1.21.10" = _sw9iU3Sv;
-        "fabric-1.21.11" = _jubKhZ97;
-        "fabric-26.1" = _tpuO2IIQ;
-        "fabric-26.1.1" = _oLEGp0ZH;
-        "fabric-26.1.2" = _Oucp0E4e;
-        "fabric-26.2" = _ggKNg45G;
-        "fabric-26.3" = _d8rzPZho;
+        "fabric-1.21.11" = _dO0YpYTp;
+        "fabric-26.1" = _GPKqmJsG;
+        "fabric-26.1.1" = _GPKqmJsG;
+        "fabric-26.1.2" = _GPKqmJsG;
+        "fabric-26.2" = _womwJgic;
+        "fabric-26.3" = _go7q6Jf8;
         "pkg-1.21.1" = _UxoI2zMA;
         "pkg-1.21.2" = _ADvKwfyK;
         "pkg-1.21.3" = _nMtgRoaZ;
@@ -158,7 +182,11 @@ let
         "pkg-1.0.6+26.3" = _q7nT1JY4;
         "pkg-1.11.26+mc26.3" = _d8rzPZho;
         "pkg-1.11.26+mc1.21.11" = _jubKhZ97;
-        "default" = _jubKhZ97;
+        "pkg-2.11.26+mc1.21.11" = _dO0YpYTp;
+        "pkg-1.11.26+mc26.1+" = _GPKqmJsG;
+        "pkg-1.11.26+mc26.2" = _womwJgic;
+        "pkg-2.11.26+mc26.3" = _go7q6Jf8;
+        "default" = _go7q6Jf8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afk-cinematics";

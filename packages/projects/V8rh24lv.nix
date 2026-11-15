@@ -131,6 +131,11 @@ let
             "file" = "spearcore-1.20.1-forge-3.2.1.jar";
             "hash" = "sha512-G4T8y+YLBPTZ+MasxyPKAGhwL/fZMygnMYGgAQvkE786CdX7LvZvgAX3CvtuCG8oE7OzYLUx/0MQZv9AVQHE5A==";
         };
+        _uKNmsQOg = {
+            "id" = "uKNmsQOg";
+            "file" = "spearcore-1.21.1-neo-3.2.1.jar";
+            "hash" = "sha512-OwDMMyjR0l0W889r60prkPNhk+HMt3/sRWRciXgbvhYHt5MLAj76lH9vGTjeRhXVQ++wXk9oCXpTQ9gSGgwnYg==";
+        };
     in {
         "XKgNFzEv" = _XKgNFzEv;
         "Nk8Aj7TN" = _Nk8Aj7TN;
@@ -158,7 +163,8 @@ let
         "8GwgxvNo" = _8GwgxvNo;
         "szMqxP3n" = _szMqxP3n;
         "sIA7UNCC" = _sIA7UNCC;
-        "neoforge-1.21.1" = _8GwgxvNo;
+        "uKNmsQOg" = _uKNmsQOg;
+        "neoforge-1.21.1" = _uKNmsQOg;
         "forge-1.20.1" = _sIA7UNCC;
         "pkg-1.0.0" = _XKgNFzEv;
         "pkg-1.1.0" = _Nk8Aj7TN;
@@ -182,8 +188,8 @@ let
         "pkg-3.1.0" = _a7CYJ826;
         "pkg-3.2.0" = _8GwgxvNo;
         "pkg-3.2.0hotfix" = _szMqxP3n;
-        "pkg-3.2.1" = _sIA7UNCC;
-        "default" = _sIA7UNCC;
+        "pkg-3.2.1" = _uKNmsQOg;
+        "default" = _uKNmsQOg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spear-core";

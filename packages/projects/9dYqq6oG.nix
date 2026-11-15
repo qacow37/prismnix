@@ -21,11 +21,17 @@ let
             "file" = "FreshRabbitVillager v.2.3 1.21.11.zip";
             "hash" = "sha512-CSfYI9njG7sRjNsJLmnGcMVMl150ugXYnbQYdfpWenVbdrlrgPxyl3pA4s3EpdBdA9IscTi5o86wtEroEsWSiw==";
         };
+        _VkDbrA2s = {
+            "id" = "VkDbrA2s";
+            "file" = "FreshRabbitVillager v.5.0 26.1+.zip";
+            "hash" = "sha512-m0p5BgrvA+6f84M618NChKTBnFqH8498UHCaucuoP4AvTlaqaffpcPPf49aoWcIWPrMmniYgz99dlYzKeQ4CUw==";
+        };
     in {
         "VDQWN6ww" = _VDQWN6ww;
         "BYv2n7T1" = _BYv2n7T1;
         "lzjtgkAj" = _lzjtgkAj;
         "e1hyGXaE" = _e1hyGXaE;
+        "VkDbrA2s" = _VkDbrA2s;
         "minecraft-1.21.2" = _e1hyGXaE;
         "minecraft-1.21.3" = _e1hyGXaE;
         "minecraft-1.21.4" = _e1hyGXaE;
@@ -46,10 +52,16 @@ let
         "minecraft-1.21.9" = _e1hyGXaE;
         "minecraft-1.21.10" = _e1hyGXaE;
         "minecraft-1.21.11" = _e1hyGXaE;
+        "minecraft-26.3" = _VkDbrA2s;
+        "minecraft-26.2" = _VkDbrA2s;
+        "minecraft-26.1.2" = _VkDbrA2s;
+        "minecraft-26.1.1" = _VkDbrA2s;
+        "minecraft-26.1" = _VkDbrA2s;
         "pkg-1" = _BYv2n7T1;
         "pkg-2" = _lzjtgkAj;
         "pkg-2.3" = _e1hyGXaE;
-        "default" = _e1hyGXaE;
+        "pkg-FreshRabbitVillager" = _VkDbrA2s;
+        "default" = _VkDbrA2s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rabbit-villager-add-ons";

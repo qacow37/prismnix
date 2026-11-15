@@ -91,6 +91,11 @@ let
             "file" = "ocean_lily_pad_village-1.0.0 Neoforge 26.3.jar";
             "hash" = "sha512-9KhSDVdvJGXld+b3FLUlfa7cJIDeNE+3NEWk/EM2zIgmWxeMevQw/eNDYRzCP8bLwAYEtwrVytFt4xu0l/kImg==";
         };
+        _BElPtB72 = {
+            "id" = "BElPtB72";
+            "file" = "ocean_lily_pad_village-1.0.0 Fabric 1.20.1.jar";
+            "hash" = "sha512-ad5uTlmD9SsqGNBWfCZko02eqNmvz5+/akjUKvzfbJmw6zmLeckdiUm6hSN2YVwN25YpBu6QQbNKf6OgGB0Nyg==";
+        };
     in {
         "npovMDKU" = _npovMDKU;
         "LeimYgNR" = _LeimYgNR;
@@ -110,6 +115,7 @@ let
         "zJpHEpZp" = _zJpHEpZp;
         "gT8wQXfI" = _gT8wQXfI;
         "t0P0Edv4" = _t0P0Edv4;
+        "BElPtB72" = _BElPtB72;
         "forge-1.20.1" = _npovMDKU;
         "neoforge-1.21.1" = _LeimYgNR;
         "neoforge-1.21.4" = _cUqlioMo;
@@ -130,9 +136,10 @@ let
         "fabric-26.1.2" = _xRlGyw8n;
         "fabric-26.2" = _kUZjKf0D;
         "fabric-26.3" = _gT8wQXfI;
+        "fabric-1.20.1" = _BElPtB72;
         "pkg-1.0.1" = _DK7BH7tK;
-        "pkg-1.0.0" = _t0P0Edv4;
-        "default" = _t0P0Edv4;
+        "pkg-1.0.0" = _BElPtB72;
+        "default" = _BElPtB72;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocean-lily-pad-village";

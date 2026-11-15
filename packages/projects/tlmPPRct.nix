@@ -26,19 +26,26 @@ let
             "file" = "createfirefightingadd-0.2.7-beta.jar";
             "hash" = "sha512-6OyTdTZY4/2MfEGQi1/3YAeqJjcYCKUE4pcFRomwTLdEJj9ccWFvbhs3nmcLxQikBhUkxZaPaYaoj/5RY4ihpg==";
         };
+        _tow8U2e7 = {
+            "id" = "tow8U2e7";
+            "file" = "createfirefightingadd-0.2.9-beta.jar";
+            "hash" = "sha512-IcsVsOCo6qPPy28bIOyhJxoGqFRflvqJIhWtEUa44kWBX9kXFLEuAR/pei5e9JJFRWTaPY2bB+idCtLIm/V8Aw==";
+        };
     in {
         "S0HrjOdG" = _S0HrjOdG;
         "s0eGgxnc" = _s0eGgxnc;
         "YFgJxrNf" = _YFgJxrNf;
         "nRSRtbX2" = _nRSRtbX2;
         "VUWldTDN" = _VUWldTDN;
-        "neoforge-1.21.1" = _VUWldTDN;
+        "tow8U2e7" = _tow8U2e7;
+        "neoforge-1.21.1" = _tow8U2e7;
         "pkg-0.1.9-beta" = _S0HrjOdG;
         "pkg-0.2.1-beta" = _s0eGgxnc;
         "pkg-0.2.3-beta" = _YFgJxrNf;
         "pkg-0.2.5-beta-fix2" = _nRSRtbX2;
         "pkg-0.2.7-beta" = _VUWldTDN;
-        "default" = _VUWldTDN;
+        "pkg-0.2.9-beta" = _tow8U2e7;
+        "default" = _tow8U2e7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-firefighting-additions";

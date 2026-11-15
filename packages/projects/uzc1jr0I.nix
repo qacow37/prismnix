@@ -791,6 +791,16 @@ let
             "file" = "redfx-3.3.0-mc1.21.1-fabric.jar";
             "hash" = "sha512-AN5finyviM37dTuVV3jTXPmFmxRmT12xUW7XBr+VmewimQaMzvSBTiaWg0TPxGtd0/JRtmFESlhQyOwn/sGKGw==";
         };
+        _OsxVuNZP = {
+            "id" = "OsxVuNZP";
+            "file" = "redfx-3.3.0-mc1.20.1-fabric.jar";
+            "hash" = "sha512-Xd+RPxz0QeBpWk9CyCWmBTFdrKDlXvHrlKhoSh7zp+ycqNYU/OSp1r/xlKSrc0DYROfNSH1utY8xNwR8pe5EsQ==";
+        };
+        _Hdhz3Z7Y = {
+            "id" = "Hdhz3Z7Y";
+            "file" = "redfx-3.3.0-mc1.20.1-forge.jar";
+            "hash" = "sha512-NCqd5dd9Ls5RoYQA4B257527LSmYL7jBYWDhOajRvEp98z9atOcVn+snNiVmpiV5gH7PR4yc8ZRsp8tBe2irdw==";
+        };
     in {
         "sZGRQYtn" = _sZGRQYtn;
         "v6suF4jX" = _v6suF4jX;
@@ -950,6 +960,8 @@ let
         "PBCbRrmu" = _PBCbRrmu;
         "2Ihum5OQ" = _2Ihum5OQ;
         "8wtbwpnN" = _8wtbwpnN;
+        "OsxVuNZP" = _OsxVuNZP;
+        "Hdhz3Z7Y" = _Hdhz3Z7Y;
         "fabric-26.1" = _7FlLK7mF;
         "fabric-26.1.1" = _7FlLK7mF;
         "fabric-26.1.2" = _7FlLK7mF;
@@ -967,6 +979,7 @@ let
         "fabric-1.21.11" = _HUDCf05F;
         "fabric-26.2" = _dYEYG7B1;
         "fabric-26.3" = _Ve2ZTcV8;
+        "fabric-1.20.1" = _OsxVuNZP;
         "neoforge-26.2" = _9YF1pjcJ;
         "neoforge-26.1" = _2PTDpnmu;
         "neoforge-26.1.1" = _2PTDpnmu;
@@ -984,6 +997,8 @@ let
         "neoforge-1.21.10" = _Jqr0zoDp;
         "neoforge-1.21.11" = _8IAd8tD8;
         "neoforge-26.3" = _fFsjCSWL;
+        "neoforge-1.20.1" = _Hdhz3Z7Y;
+        "forge-1.20.1" = _Hdhz3Z7Y;
         "pkg-1.0.0" = _sZGRQYtn;
         "pkg-1.0.0-mc1.21.x" = _v6suF4jX;
         "pkg-1.1.0-mc26.1.x" = _nPnEBmiu;
@@ -1142,7 +1157,9 @@ let
         "pkg-3.3.0-mc1.21.4-fabric" = _PBCbRrmu;
         "pkg-3.3.0-mc1.21.1-neoforge" = _2Ihum5OQ;
         "pkg-3.3.0-mc1.21.1-fabric" = _8wtbwpnN;
-        "default" = _8wtbwpnN;
+        "pkg-3.3.0-mc1.20.1-fabric" = _OsxVuNZP;
+        "pkg-3.3.0-mc1.20.1-forge" = _Hdhz3Z7Y;
+        "default" = _Hdhz3Z7Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redfx-blood-particle";

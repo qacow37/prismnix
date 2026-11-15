@@ -56,6 +56,11 @@ let
             "file" = "opbreak-3.0.jar";
             "hash" = "sha512-QZ/xwyycHU5qxl7xo+vwX6J3balTdVXQplB0CI8SfhCIgEfxNEhWMbYEEL1gSyt21hkPOwcbehdYc1YAhh8sIw==";
         };
+        _vABAlMfl = {
+            "id" = "vABAlMfl";
+            "file" = "opbreak-3.1.jar";
+            "hash" = "sha512-i3KUeFEJtLOq8WkWlRYmprXfUs2Daklcx3C9z5cxBg39EuMsSa3NcSkKgVfye6iPfszj7YDWugSmO1KbvubFSA==";
+        };
     in {
         "jghJpfTg" = _jghJpfTg;
         "sTnKXCxM" = _sTnKXCxM;
@@ -68,8 +73,9 @@ let
         "Ecu3X4hP" = _Ecu3X4hP;
         "EphDjPQM" = _EphDjPQM;
         "EOXlbeUg" = _EOXlbeUg;
+        "vABAlMfl" = _vABAlMfl;
         "fabric-1.21.4" = _1o0MwG4M;
-        "fabric-1.21.11" = _EOXlbeUg;
+        "fabric-1.21.11" = _vABAlMfl;
         "pkg-1.0" = _jghJpfTg;
         "pkg-1.0.1" = _sTnKXCxM;
         "pkg-1.1" = _jAQuVGln;
@@ -81,7 +87,8 @@ let
         "pkg-2.3" = _Ecu3X4hP;
         "pkg-2.4" = _EphDjPQM;
         "pkg-3.0" = _EOXlbeUg;
-        "default" = _EOXlbeUg;
+        "pkg-3.1" = _vABAlMfl;
+        "default" = _vABAlMfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opbreak";

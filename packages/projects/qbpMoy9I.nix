@@ -66,6 +66,11 @@ let
             "file" = "ninshuorigins-2.1.9-1.20.1.jar";
             "hash" = "sha512-H1AIBPA2Z41yU6bvMCas+oqsiW4Rq0RHb3pPp9yD/sm6cEEYzEX+yzYDJnuahkmRcWi6rPVOsF1z1kBAxQRIzg==";
         };
+        _SwCvZeGj = {
+            "id" = "SwCvZeGj";
+            "file" = "ninshuorigins-2.2.0-1.20.1.jar";
+            "hash" = "sha512-8vF9go2bmxuZZgcvHZYLywQ0nP0e8mf+j9VclItXHWiwyPDhorSMyL5BwNZnyBw8Og6M29lDG+WZNTGF896oRA==";
+        };
     in {
         "awPzPiKo" = _awPzPiKo;
         "U53cF2Ru" = _U53cF2Ru;
@@ -80,9 +85,10 @@ let
         "JB23IQtk" = _JB23IQtk;
         "v6qOa3Bg" = _v6qOa3Bg;
         "uFvnrZzD" = _uFvnrZzD;
+        "SwCvZeGj" = _SwCvZeGj;
         "forge-1.19.2" = _awPzPiKo;
         "forge-1.19.4" = _MZ60KLH5;
-        "forge-1.20.1" = _uFvnrZzD;
+        "forge-1.20.1" = _SwCvZeGj;
         "pkg-0.4.1.4" = _awPzPiKo;
         "pkg-0.4.1.5" = _U53cF2Ru;
         "pkg-0.4.1.6" = _MZ60KLH5;
@@ -95,7 +101,8 @@ let
         "pkg-v0.4.2.3" = _JB23IQtk;
         "pkg-v0.4.2.4" = _v6qOa3Bg;
         "pkg-v0.4.2.5" = _uFvnrZzD;
-        "default" = _uFvnrZzD;
+        "pkg-v0.4.2.6" = _SwCvZeGj;
+        "default" = _SwCvZeGj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ninshu-origins-naruto-mod";

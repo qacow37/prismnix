@@ -106,6 +106,11 @@ let
             "file" = "Waifu for You Winter Edition.zip";
             "hash" = "sha512-fOM7bvk2k2XGjEZ5znMF1LK0fQNkWLLr7nbVU0h3YMaEJXbzlHIo3jcf4tVbvY1uLykSuhiEeUgONfOrjr7gSw==";
         };
+        _6tQOuf1K = {
+            "id" = "6tQOuf1K";
+            "file" = "Waifu_for_You_26.1-26.3.zip";
+            "hash" = "sha512-DhhAFnQHUzlTq7ILUPVaIX4idBd5dWPnQ0URD56gNdKNt8gVG9Cf1c0+iura5AFeoRyxkKamEP81kk6xzROPdA==";
+        };
     in {
         "AtWOHeiu" = _AtWOHeiu;
         "SfxEYtUC" = _SfxEYtUC;
@@ -128,6 +133,7 @@ let
         "XUWaFHFJ" = _XUWaFHFJ;
         "x3B9UcIL" = _x3B9UcIL;
         "UGBJfyUs" = _UGBJfyUs;
+        "6tQOuf1K" = _6tQOuf1K;
         "minecraft-1.16.5" = _AtWOHeiu;
         "minecraft-1.14" = _SfxEYtUC;
         "minecraft-1.14.1" = _SfxEYtUC;
@@ -211,6 +217,11 @@ let
         "minecraft-1.21.9" = _UGBJfyUs;
         "minecraft-1.21.10" = _UGBJfyUs;
         "minecraft-1.21.11" = _UGBJfyUs;
+        "minecraft-26.1.2" = _6tQOuf1K;
+        "minecraft-26.1.1" = _6tQOuf1K;
+        "minecraft-26.1" = _6tQOuf1K;
+        "minecraft-26.2" = _6tQOuf1K;
+        "minecraft-26.3" = _6tQOuf1K;
         "pkg-1.16.5" = _AtWOHeiu;
         "pkg-1.14.x" = _SfxEYtUC;
         "pkg-1.15.x" = _T1nHnIo1;
@@ -229,7 +240,8 @@ let
         "pkg-1.21.5" = _sAEnAbAc;
         "pkg-1.21.6" = _uym1Jflf;
         "pkg-1.20-1.21.x" = _UGBJfyUs;
-        "default" = _UGBJfyUs;
+        "pkg-26.1-26.3" = _6tQOuf1K;
+        "default" = _6tQOuf1K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waifu-for-you";

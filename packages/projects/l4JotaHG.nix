@@ -136,6 +136,16 @@ let
             "file" = "Extra Bows (Data).zip";
             "hash" = "sha512-C8EvLkZV0KZXvVxM3N30+eyqGTP+bYCU7uuV3MndeVipPRkeyNK6E/nPtQisWJMgV7LfR5gaoDz28P+twC6/Sw==";
         };
+        _RBJYhF43 = {
+            "id" = "RBJYhF43";
+            "file" = "extra-bows-neoforge-1.1.4-1.21.1.jar";
+            "hash" = "sha512-eBSLLS3sRtCIClGh1heVLSnIy+xEaN3lpajLUjRnya62nE2oXEPwQPm7nBidZOTM/XBJ0UNJ0nI4ncFgYuJFSA==";
+        };
+        _81w33cFB = {
+            "id" = "81w33cFB";
+            "file" = "extra-bows-fabric-1.1.4-1.21.1.jar";
+            "hash" = "sha512-/EDC5uu9iTGTIIXeSQFKhT2Ji/RlrdZ5xax9pQighDLEQJNJgfYZCixz6ZIvRNGgd9eREi5lKujBmjCLqH8zqw==";
+        };
     in {
         "cAde4Dlz" = _cAde4Dlz;
         "2PzGEhTq" = _2PzGEhTq;
@@ -164,6 +174,8 @@ let
         "48hSipvu" = _48hSipvu;
         "Qbkh2qby" = _Qbkh2qby;
         "Qorgb1T0" = _Qorgb1T0;
+        "RBJYhF43" = _RBJYhF43;
+        "81w33cFB" = _81w33cFB;
         "datapack-1.21.9" = _sXhVW7P7;
         "datapack-1.21.10" = _sXhVW7P7;
         "datapack-1.21.11" = _Q1PnY8jf;
@@ -179,13 +191,13 @@ let
         "neoforge-1.21.9" = _nVMJgY2s;
         "neoforge-1.21.10" = _nVMJgY2s;
         "neoforge-1.21" = _pENkFduo;
-        "neoforge-1.21.1" = _dEw4QOIf;
+        "neoforge-1.21.1" = _RBJYhF43;
         "quilt-1.21.9" = _nVMJgY2s;
         "quilt-1.21.10" = _nVMJgY2s;
         "fabric-1.21.9" = _mPEqNLHn;
         "fabric-1.21.10" = _mPEqNLHn;
         "fabric-1.21" = _f0bx5xiI;
-        "fabric-1.21.1" = _2lx9gSO6;
+        "fabric-1.21.1" = _81w33cFB;
         "fabric-1.20.1" = _Qbkh2qby;
         "pkg-1.0" = _cAde4Dlz;
         "pkg-1.0+mod" = _2PzGEhTq;
@@ -207,7 +219,9 @@ let
         "pkg-1.1.3-neoforge-mod" = _dEw4QOIf;
         "pkg-1.1.3-fabric-mod" = _2lx9gSO6;
         "pkg-1.1.1-forge-mod" = _48hSipvu;
-        "default" = _Qorgb1T0;
+        "pkg-1.1.4-neoforge-mod" = _RBJYhF43;
+        "pkg-1.1.4-fabric-mod" = _81w33cFB;
+        "default" = _81w33cFB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extra-bows";

@@ -31,6 +31,11 @@ let
             "file" = "Chase the Skies.zip";
             "hash" = "sha512-3mBlxhwTx+/IGC/lFEHo3aXpZS0OlNaEW33xT3fLd3myW7Z3mp5l1Rk5f44tqS7930apA6GbNrQvjPFPlkWzlA==";
         };
+        _UaoyhTGI = {
+            "id" = "UaoyhTGI";
+            "file" = "Chase the Skies.zip";
+            "hash" = "sha512-n7PgUpW7a7/iYBRInG3se+PST9qmLgZzOMRTtKKrb18KOYzUs2cxwMV9zwop5CC0krMh9YF2Hd9O8E9A++TGOQ==";
+        };
     in {
         "ObuAmtv9" = _ObuAmtv9;
         "cxAo791I" = _cxAo791I;
@@ -38,6 +43,7 @@ let
         "VWvKrOsv" = _VWvKrOsv;
         "TGHhUsrz" = _TGHhUsrz;
         "BOcgulHm" = _BOcgulHm;
+        "UaoyhTGI" = _UaoyhTGI;
         "minecraft-1.21" = _TGHhUsrz;
         "minecraft-1.21.1" = _TGHhUsrz;
         "minecraft-1.21.2" = _TGHhUsrz;
@@ -47,8 +53,8 @@ let
         "minecraft-1.21.6" = _TGHhUsrz;
         "minecraft-1.21.7" = _TGHhUsrz;
         "minecraft-1.21.8" = _TGHhUsrz;
-        "minecraft-1.20" = _TGHhUsrz;
-        "minecraft-1.20.1" = _TGHhUsrz;
+        "minecraft-1.20" = _UaoyhTGI;
+        "minecraft-1.20.1" = _UaoyhTGI;
         "minecraft-1.20.2" = _TGHhUsrz;
         "minecraft-1.20.3" = _TGHhUsrz;
         "minecraft-1.20.4" = _TGHhUsrz;
@@ -85,7 +91,8 @@ let
         "pkg-1" = _VWvKrOsv;
         "pkg-2" = _TGHhUsrz;
         "pkg-3" = _BOcgulHm;
-        "default" = _BOcgulHm;
+        "pkg-4" = _UaoyhTGI;
+        "default" = _UaoyhTGI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chase-the-skies";

@@ -56,6 +56,16 @@ let
             "file" = "player-visibility-fabric-1.4.jar";
             "hash" = "sha512-M76PO8qaIAygPfVqUYhmdbdmnhSYCkvrW61w+ufhXfnFihiHUGy7CO5KPH13KFMPsRpgyKh/T1pT4sJpFinkOA==";
         };
+        _2lMzw70f = {
+            "id" = "2lMzw70f";
+            "file" = "player-visibility-fabric-1.5.jar";
+            "hash" = "sha512-JMJeqYrCO5YYFkG4HyUg4kmaPBU/ZrUnxQp5t4SBPCJoQ+5SnNTrdEI7MbIPXL1mAuFQGXTxZFrqCfRepW3JPg==";
+        };
+        _EgqK9Wwb = {
+            "id" = "EgqK9Wwb";
+            "file" = "player-visibility-fabric-1.5.jar";
+            "hash" = "sha512-bkxdz6W8c3jJ1iLJKdkwVTQdmWffyS9tJz5qgLy4qv/WdBhtAVlZdHtakGCWfMLwyIKv9zBtO/wcc0zdvz0e9Q==";
+        };
     in {
         "hxomBfOS" = _hxomBfOS;
         "m2iEU1IW" = _m2iEU1IW;
@@ -68,6 +78,8 @@ let
         "mfhUxtoz" = _mfhUxtoz;
         "cmNTtaSW" = _cmNTtaSW;
         "Tsk0tDDb" = _Tsk0tDDb;
+        "2lMzw70f" = _2lMzw70f;
+        "EgqK9Wwb" = _EgqK9Wwb;
         "fabric-1.20" = _Tsk0tDDb;
         "fabric-1.20.1" = _Tsk0tDDb;
         "fabric-1.20.2" = _Tsk0tDDb;
@@ -103,6 +115,12 @@ let
         "fabric-1.21.6" = _Tsk0tDDb;
         "fabric-1.21.7" = _Tsk0tDDb;
         "fabric-1.21.8" = _Tsk0tDDb;
+        "fabric-1.21.11" = _2lMzw70f;
+        "fabric-26.3" = _EgqK9Wwb;
+        "fabric-26.2" = _EgqK9Wwb;
+        "fabric-26.1.2" = _EgqK9Wwb;
+        "fabric-26.1.1" = _EgqK9Wwb;
+        "fabric-26.1" = _EgqK9Wwb;
         "quilt-1.15" = _mfhUxtoz;
         "quilt-1.15.1" = _mfhUxtoz;
         "quilt-1.15.2" = _mfhUxtoz;
@@ -138,12 +156,19 @@ let
         "quilt-1.21.6" = _Tsk0tDDb;
         "quilt-1.21.7" = _Tsk0tDDb;
         "quilt-1.21.8" = _Tsk0tDDb;
+        "quilt-1.21.11" = _2lMzw70f;
+        "quilt-26.3" = _EgqK9Wwb;
+        "quilt-26.2" = _EgqK9Wwb;
+        "quilt-26.1.2" = _EgqK9Wwb;
+        "quilt-26.1.1" = _EgqK9Wwb;
+        "quilt-26.1" = _EgqK9Wwb;
         "pkg-1.0" = _gsKIrrjp;
         "pkg-1.1" = _eCYC2vNi;
         "pkg-1.2" = _mfhUxtoz;
         "pkg-1.3" = _cmNTtaSW;
         "pkg-1.4" = _Tsk0tDDb;
-        "default" = _Tsk0tDDb;
+        "pkg-1.5" = _EgqK9Wwb;
+        "default" = _EgqK9Wwb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-visibility";

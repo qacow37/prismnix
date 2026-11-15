@@ -136,6 +136,21 @@ let
             "file" = "Tridot-1.21.1-1.1.3.jar";
             "hash" = "sha512-WTYfdbOb1/4stCMSeDzMeJci3x28cPHCK8ZXyv0RgyvfDqeFHv3afKPXGx1amxo9lS/fOVwUmRw76vcobdEzPA==";
         };
+        _MUp9zlZs = {
+            "id" = "MUp9zlZs";
+            "file" = "Tridot-1.20.1-1.1.3.jar";
+            "hash" = "sha512-uQ5qqAGpNmIxeWCPAkBYgsCJoozF3RsPc0UcZskF8X+uoYAvSjPswq5wxbl6J2dIxLhRW+ezOn7Q36gQRzCp+Q==";
+        };
+        _9qaBgoGl = {
+            "id" = "9qaBgoGl";
+            "file" = "Tridot-1.20.1-1.1.5.jar";
+            "hash" = "sha512-ITlOnwgGSIaWqP0/EpydgHbUQ4e2WfZ5BzoW7/pWPN70liVTfHz+jALLm4FSy3nxMAPRE4qWgu5QSjVZH02T+Q==";
+        };
+        _jSIMa5JT = {
+            "id" = "jSIMa5JT";
+            "file" = "Tridot-1.21.1-1.1.5.jar";
+            "hash" = "sha512-czKLOs5/O16Lmu7507OBSccZS0WA278rpsaoY6WGXsLH5JuNn8k5uCjwi6JkVnQ+6IMe7uaf5dj0otiPmA8ESw==";
+        };
     in {
         "vm6ha9iN" = _vm6ha9iN;
         "5wizSLNm" = _5wizSLNm;
@@ -164,7 +179,10 @@ let
         "WV6IaTya" = _WV6IaTya;
         "VCEaeDkQ" = _VCEaeDkQ;
         "13wnDGVX" = _13wnDGVX;
-        "forge-1.20.1" = _VCEaeDkQ;
+        "MUp9zlZs" = _MUp9zlZs;
+        "9qaBgoGl" = _9qaBgoGl;
+        "jSIMa5JT" = _jSIMa5JT;
+        "forge-1.20.1" = _9qaBgoGl;
         "forge-1.20.2" = _IvGFC0ds;
         "forge-1.20.3" = _IvGFC0ds;
         "forge-1.20.4" = _IvGFC0ds;
@@ -176,7 +194,7 @@ let
         "neoforge-1.20.4" = _DuMwBqtL;
         "neoforge-1.20.5" = _DuMwBqtL;
         "neoforge-1.20.6" = _DuMwBqtL;
-        "neoforge-1.21.1" = _13wnDGVX;
+        "neoforge-1.21.1" = _jSIMa5JT;
         "pkg-1.20.1-1.0.25" = _vm6ha9iN;
         "pkg-1.20.1-1.0.42" = _5wizSLNm;
         "pkg-1.20.1-1.0.43" = _lnxS7QrA;
@@ -202,9 +220,11 @@ let
         "pkg-1.20.1-1.0.175" = _XKC0VF5j;
         "pkg-1.20.1-1.0.177" = _IvGFC0ds;
         "pkg-1.21.1-1.0.177" = _WV6IaTya;
-        "pkg-1.20.1-1.1.3" = _VCEaeDkQ;
+        "pkg-1.20.1-1.1.3" = _MUp9zlZs;
         "pkg-1.21.1-1.1.3" = _13wnDGVX;
-        "default" = _13wnDGVX;
+        "pkg-1.20.1-1.1.5" = _9qaBgoGl;
+        "pkg-1.21.1-1.1.5" = _jSIMa5JT;
+        "default" = _jSIMa5JT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tridot";

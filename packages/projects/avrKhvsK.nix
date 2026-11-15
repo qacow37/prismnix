@@ -301,6 +301,16 @@ let
             "file" = "mobs_of_mythology-fabric-1.21.1-3.0.0.jar";
             "hash" = "sha512-sR807PQr2LqgLiwcGd/YsGR4oEKwWvUucspqcI4KaNXAHfB3RuLQyMl+FUoVu44gP4PlPhT+ABFF7twartp+Zw==";
         };
+        _7VuEfcwJ = {
+            "id" = "7VuEfcwJ";
+            "file" = "mobs_of_mythology-fabric-1.21.1-3.1.0.jar";
+            "hash" = "sha512-56sKdOK4pmQ00RBERfkohOUDOdVLAOnrlNLadz667032L1sMwjtLLWLNc1eQ0//GVxhMMcCFJy7IFIl4zKeaAg==";
+        };
+        _vmrhjtJx = {
+            "id" = "vmrhjtJx";
+            "file" = "mobs_of_mythology-neoforge-1.21.1-3.1.0.jar";
+            "hash" = "sha512-U3zTfol9tYsE9+0SzmtSNA18d30Jz75Vue+5ABOeLi3JRTLexvZ7WdrrzGKtdH38TLVaf8HxOYUkAspo7mzFiw==";
+        };
     in {
         "wWo8Qcvc" = _wWo8Qcvc;
         "EYJzG6I2" = _EYJzG6I2;
@@ -362,12 +372,14 @@ let
         "iM3DRnM3" = _iM3DRnM3;
         "rLXvf7Aw" = _rLXvf7Aw;
         "Caz3htE2" = _Caz3htE2;
+        "7VuEfcwJ" = _7VuEfcwJ;
+        "vmrhjtJx" = _vmrhjtJx;
         "fabric-1.19.2" = _wWo8Qcvc;
         "fabric-1.20.1" = _iM3DRnM3;
         "fabric-1.21" = _3sms0vro;
-        "fabric-1.21.1" = _Caz3htE2;
+        "fabric-1.21.1" = _7VuEfcwJ;
         "neoforge-1.21" = _sHojyTR6;
-        "neoforge-1.21.1" = _rLXvf7Aw;
+        "neoforge-1.21.1" = _vmrhjtJx;
         "forge-1.20.1" = _icphyvSl;
         "pkg-1.19.2-fabric-1.4.5" = _wWo8Qcvc;
         "pkg-1.20.1-fabric-1.4.5" = _EYJzG6I2;
@@ -392,7 +404,8 @@ let
         "pkg-2.2.1" = _SPmwWY2B;
         "pkg-2.2.2" = _A7zNrAex;
         "pkg-3.0.0" = _Caz3htE2;
-        "default" = _Caz3htE2;
+        "pkg-3.1.0" = _vmrhjtJx;
+        "default" = _vmrhjtJx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobs-of-mythology";

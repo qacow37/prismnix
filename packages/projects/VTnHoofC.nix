@@ -1401,6 +1401,26 @@ let
             "file" = "liteminer-neoforge-4.5.2+26.3.jar";
             "hash" = "sha512-QcECCOBY8a9/pptQFdfUeeqQVrf0wgaLUiHUyjYTdK1E39rdN3Zt2R9f8r6hoL0iX9l1jEZkNbp+H9kUKglUbQ==";
         };
+        _vlXijlJn = {
+            "id" = "vlXijlJn";
+            "file" = "liteminer-fabric-4.6.0+1.20.1.jar";
+            "hash" = "sha512-P5BSSydYQYnxRhInDNOCh2qkrkZ4uHa0rn9yGiVDNsGKtYvd7a/O2y3jF43wVMzV36Cu4FYY39KT0L9YCCTWtw==";
+        };
+        _98GrAQwp = {
+            "id" = "98GrAQwp";
+            "file" = "liteminer-forge-4.6.0+1.20.1.jar";
+            "hash" = "sha512-601ceopL7Lx5jhg1EUMKcfoytmWgJVGSrCb2nehEKXf3PHilUIMrNYibudSQtrSSOmgBUXZq4+de9IUfD0KoKQ==";
+        };
+        _A0pdtoTL = {
+            "id" = "A0pdtoTL";
+            "file" = "liteminer-fabric-4.7.0+1.20.1.jar";
+            "hash" = "sha512-AJQRTS0jWSvK/U65/QEr8HlaoxZtZ6aOMBbb2+7N00HR1hjR51D5K12fEZ4Qny97RG9GI0z9XhHttP//KiTsmg==";
+        };
+        _2LIIx6Oj = {
+            "id" = "2LIIx6Oj";
+            "file" = "liteminer-forge-4.7.0+1.20.1.jar";
+            "hash" = "sha512-h8Xw7WQlRGP6OYIR/mtuoGyJp2l2/VuzZ2fuko6eiJcIRwQNhEc4I69RgKHg0E0rM8N0KRGESmeDUm/PEsjWPQ==";
+        };
     in {
         "lS7qoUiA" = _lS7qoUiA;
         "JEkY5vQT" = _JEkY5vQT;
@@ -1682,9 +1702,13 @@ let
         "5wicpnue" = _5wicpnue;
         "Ew2JEUj5" = _Ew2JEUj5;
         "P7DfaurH" = _P7DfaurH;
+        "vlXijlJn" = _vlXijlJn;
+        "98GrAQwp" = _98GrAQwp;
+        "A0pdtoTL" = _A0pdtoTL;
+        "2LIIx6Oj" = _2LIIx6Oj;
         "fabric-1.21.1" = _vwDNJu8S;
         "fabric-1.21" = _vwDNJu8S;
-        "fabric-1.20.1" = _XjSOgIYR;
+        "fabric-1.20.1" = _A0pdtoTL;
         "fabric-1.21.4" = _OfUBGho0;
         "fabric-1.21.5" = _cOoBL8DO;
         "fabric-1.20.4" = _IzjQDCDd;
@@ -1723,7 +1747,7 @@ let
         "quilt-1.21.6" = _Pe7GKGuS;
         "quilt-1.21.7" = _YTgGd7vZ;
         "quilt-1.21.8" = _njVA2TjK;
-        "forge-1.20.1" = _AgS5epQK;
+        "forge-1.20.1" = _2LIIx6Oj;
         "forge-26.1" = _uFrOtdPn;
         "forge-26.1.1" = _3MY6nBGX;
         "forge-26.1.2" = _TjZ6VSYT;
@@ -1835,7 +1859,9 @@ let
         "pkg-3.4.2+26.1.2" = _t5q7i6VO;
         "pkg-4.5.2+26.2" = _JOw19EIn;
         "pkg-4.5.2+26.3" = _P7DfaurH;
-        "default" = _P7DfaurH;
+        "pkg-4.6.0+1.20.1" = _98GrAQwp;
+        "pkg-4.7.0+1.20.1" = _2LIIx6Oj;
+        "default" = _2LIIx6Oj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "liteminer";

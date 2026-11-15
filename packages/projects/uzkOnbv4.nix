@@ -51,6 +51,11 @@ let
             "file" = "combat-tag-2.0.0.jar";
             "hash" = "sha512-bGBjXKuhPDwtSXe1SJ1h9LenmBGcLsWbQFcg1S3cbgrJBVWer40hrfjU2oYncrQ+n9bVKygRfEwWtxD/rP5X+A==";
         };
+        _5idq7tG8 = {
+            "id" = "5idq7tG8";
+            "file" = "combat-tag-2.0.1.jar";
+            "hash" = "sha512-TBLbmmHA4cRocgQpehZGMdq1qL6HrIpHF/KZNwKIrtvKv5MhnpXSCBSLAbZ7YrKHdgT2v1HaLiJu4O+peqqMgw==";
+        };
     in {
         "EXL6vkZt" = _EXL6vkZt;
         "t09F73ng" = _t09F73ng;
@@ -62,6 +67,7 @@ let
         "DjUl7mbI" = _DjUl7mbI;
         "tDXrexiD" = _tDXrexiD;
         "oPSjne3z" = _oPSjne3z;
+        "5idq7tG8" = _5idq7tG8;
         "bukkit-1.20" = _tDXrexiD;
         "bukkit-1.20.1" = _tDXrexiD;
         "bukkit-1.20.2" = _tDXrexiD;
@@ -92,22 +98,23 @@ let
         "paper-1.20.4" = _tDXrexiD;
         "paper-1.20.5" = _tDXrexiD;
         "paper-1.20.6" = _tDXrexiD;
-        "paper-1.21" = _oPSjne3z;
-        "paper-1.21.1" = _oPSjne3z;
-        "paper-1.21.2" = _oPSjne3z;
-        "paper-1.21.3" = _oPSjne3z;
-        "paper-1.21.4" = _oPSjne3z;
-        "paper-1.21.5" = _oPSjne3z;
-        "paper-1.21.6" = _oPSjne3z;
-        "paper-1.21.7" = _oPSjne3z;
-        "paper-1.21.8" = _oPSjne3z;
-        "paper-1.21.9" = _oPSjne3z;
-        "paper-1.21.10" = _oPSjne3z;
-        "paper-1.21.11" = _oPSjne3z;
-        "paper-26.1" = _oPSjne3z;
-        "paper-26.1.1" = _oPSjne3z;
-        "paper-26.1.2" = _oPSjne3z;
-        "paper-26.2" = _oPSjne3z;
+        "paper-1.21" = _5idq7tG8;
+        "paper-1.21.1" = _5idq7tG8;
+        "paper-1.21.2" = _5idq7tG8;
+        "paper-1.21.3" = _5idq7tG8;
+        "paper-1.21.4" = _5idq7tG8;
+        "paper-1.21.5" = _5idq7tG8;
+        "paper-1.21.6" = _5idq7tG8;
+        "paper-1.21.7" = _5idq7tG8;
+        "paper-1.21.8" = _5idq7tG8;
+        "paper-1.21.9" = _5idq7tG8;
+        "paper-1.21.10" = _5idq7tG8;
+        "paper-1.21.11" = _5idq7tG8;
+        "paper-26.1" = _5idq7tG8;
+        "paper-26.1.1" = _5idq7tG8;
+        "paper-26.1.2" = _5idq7tG8;
+        "paper-26.2" = _5idq7tG8;
+        "paper-26.3" = _5idq7tG8;
         "spigot-1.20" = _tDXrexiD;
         "spigot-1.20.1" = _tDXrexiD;
         "spigot-1.20.2" = _tDXrexiD;
@@ -140,7 +147,8 @@ let
         "pkg-1.6" = _DjUl7mbI;
         "pkg-1.7" = _tDXrexiD;
         "pkg-2.0.0" = _oPSjne3z;
-        "default" = _oPSjne3z;
+        "pkg-2.0.1" = _5idq7tG8;
+        "default" = _5idq7tG8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-tag";

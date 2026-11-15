@@ -136,6 +136,11 @@ let
             "file" = "fishingrodfix-26.3-v0.6.jar";
             "hash" = "sha512-qh7WAq1kcSnIYgxjwAdsLTp6Ce9ViIjDokMpzP7xXtTHchoRp5fFMAhAuu9A91L/P+XS+Izb2ZxjwlhGOTnG1w==";
         };
+        _9mexd6uA = {
+            "id" = "9mexd6uA";
+            "file" = "fishingrodfix-26.3-v0.7.jar";
+            "hash" = "sha512-MGoLgf2cx1Ds7cKA78Vzgles7ZzOV2yeW+Q37O3NAO7Uv6ir9IokkmgnkF90lzxvUH6TYeNy11UjPSoeq1vk7Q==";
+        };
     in {
         "1BqHHrXH" = _1BqHHrXH;
         "yAoHjRQa" = _yAoHjRQa;
@@ -164,6 +169,7 @@ let
         "52WVYg8R" = _52WVYg8R;
         "yUcEGVeY" = _yUcEGVeY;
         "tBPcVWlJ" = _tBPcVWlJ;
+        "9mexd6uA" = _9mexd6uA;
         "fabric-1.20.4" = _nzUh15zi;
         "fabric-1.20" = _fwurPmsi;
         "fabric-1.20.1" = _fwurPmsi;
@@ -184,7 +190,7 @@ let
         "fabric-1.21.11" = _J2hpVhgc;
         "fabric-26.1.2" = _52WVYg8R;
         "fabric-26.2" = _yUcEGVeY;
-        "fabric-26.3" = _tBPcVWlJ;
+        "fabric-26.3" = _9mexd6uA;
         "fabric-1.21.6" = _omupGU3i;
         "fabric-1.21.7" = _omupGU3i;
         "fabric-1.21.8" = _omupGU3i;
@@ -219,7 +225,8 @@ let
         "pkg-26.1-26.1.2-v0.6" = _52WVYg8R;
         "pkg-26.2-v0.6" = _yUcEGVeY;
         "pkg-26.3-v0.6" = _tBPcVWlJ;
-        "default" = _tBPcVWlJ;
+        "pkg-26.3-v0.7" = _9mexd6uA;
+        "default" = _9mexd6uA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishing-rod-fix";

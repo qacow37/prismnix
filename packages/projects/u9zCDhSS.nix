@@ -36,6 +36,16 @@ let
             "file" = "Dungeon And Village Ad Astra 1.21.1  1.1.1.jar";
             "hash" = "sha512-JGDfnFlDcQdT5HJbtFMMKXrqr+V5ydXdFe2mODmJCUr2UK6Maio4LLBsKsAKj3DkUntr4dkiraqgTG7rAQVJqw==";
         };
+        _vz36qTSu = {
+            "id" = "vz36qTSu";
+            "file" = "Dungeon And Village Ad Astra 1.20.1.jar";
+            "hash" = "sha512-/6KUAUc1t5Tg7qGBRpgIiVlSg6Mt1K5lrPmo9R+zF18vzzCkbQISZCNBMWCNjHSsQksbGKo+j2+5NWp5+d59CA==";
+        };
+        _eEvVkGa1 = {
+            "id" = "eEvVkGa1";
+            "file" = "Dungeon And Village Ad Astra 1.21.1.jar";
+            "hash" = "sha512-RqXh57tFGg7KHKA4CC0Q9Pt27Pqj940/8zmgZiPTpmsdaAQ71zutU0Swja6j9qC4SHyPMQTmO0rEjmfAB/dV1g==";
+        };
     in {
         "42He8jZJ" = _42He8jZJ;
         "8lysIBfy" = _8lysIBfy;
@@ -44,23 +54,26 @@ let
         "s6B4VTwL" = _s6B4VTwL;
         "ceoeTSOD" = _ceoeTSOD;
         "EsOArRBM" = _EsOArRBM;
+        "vz36qTSu" = _vz36qTSu;
+        "eEvVkGa1" = _eEvVkGa1;
         "datapack-1.20" = _s6B4VTwL;
         "datapack-1.20.1" = _s6B4VTwL;
         "datapack-1.20.4" = _42He8jZJ;
         "fabric-1.20" = _ceoeTSOD;
-        "fabric-1.20.1" = _ceoeTSOD;
+        "fabric-1.20.1" = _vz36qTSu;
         "fabric-1.20.4" = _nKBY1qtO;
         "fabric-1.19.2" = _yw580nas;
-        "fabric-1.21.1" = _EsOArRBM;
+        "fabric-1.21.1" = _eEvVkGa1;
         "forge-1.20" = _ceoeTSOD;
-        "forge-1.20.1" = _ceoeTSOD;
+        "forge-1.20.1" = _vz36qTSu;
         "forge-1.19.2" = _yw580nas;
         "neoforge-1.20.4" = _nKBY1qtO;
-        "neoforge-1.21.1" = _EsOArRBM;
+        "neoforge-1.21.1" = _eEvVkGa1;
         "pkg-1.0" = _yw580nas;
         "pkg-1.1" = _ceoeTSOD;
         "pkg-1.1.1" = _EsOArRBM;
-        "default" = _EsOArRBM;
+        "pkg-1.2" = _eEvVkGa1;
+        "default" = _eEvVkGa1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeon-and-village-ad-astra";

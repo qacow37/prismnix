@@ -136,6 +136,21 @@ let
             "file" = "camera-obscura-fabric-2.1.1+26.3.jar";
             "hash" = "sha512-hlsFp4ASCqnx3TzAeftRnkdchfwtCg13A4sCJQOBHahf6mb7zIYSOQw1/B3frW2F+UFIaa3/3mFoFZF77ftDnA==";
         };
+        _BQZUJPVI = {
+            "id" = "BQZUJPVI";
+            "file" = "camera-obscura-fabric-2.1.2+26.3.jar";
+            "hash" = "sha512-OaFLYGYgnpVkCjNuPaRAcjSex3fLDh/qAQlUaQ2mzSb+iyS4g9yUiyE/Z7DnWl8tcsgIStd3Q0BaGQLWavMeXA==";
+        };
+        _HTW9D8gA = {
+            "id" = "HTW9D8gA";
+            "file" = "camera-obscura-fabric-2.1.3+26.3.jar";
+            "hash" = "sha512-kqI1IuKX8x1zjCSaO2OYL+0KYUKFpVpQ/SUQ0W1Yw6xEspMv1e24kOPf9UhzY7EAVg+Y5FkZ0uUdNjUX1T/iJA==";
+        };
+        _qMdH85xO = {
+            "id" = "qMdH85xO";
+            "file" = "camera-obscura-fabric-2.1.4+26.3.jar";
+            "hash" = "sha512-/w4oHsbO2y/u7zPa0ttPL3NK3Q5+oHSnZHvRy9CzgKoCkLnmff4HyNocEndl7gZlBuoz8meO6Takjtg442218A==";
+        };
     in {
         "w8EqMYhv" = _w8EqMYhv;
         "uI9I1CSV" = _uI9I1CSV;
@@ -164,6 +179,9 @@ let
         "tBBv79hS" = _tBBv79hS;
         "cVSrHECt" = _cVSrHECt;
         "KWj6GEgT" = _KWj6GEgT;
+        "BQZUJPVI" = _BQZUJPVI;
+        "HTW9D8gA" = _HTW9D8gA;
+        "qMdH85xO" = _qMdH85xO;
         "fabric-1.20.1" = _Vw2vrDc0;
         "fabric-1.20.4" = _nw7VNz9L;
         "fabric-1.20.6" = _fL2rjueH;
@@ -185,7 +203,7 @@ let
         "fabric-26.1" = _cVSrHECt;
         "fabric-26.1.1" = _cVSrHECt;
         "fabric-26.1.2" = _cVSrHECt;
-        "fabric-26.3" = _KWj6GEgT;
+        "fabric-26.3" = _qMdH85xO;
         "pkg-1.0.0+1.20.1" = _w8EqMYhv;
         "pkg-1.0.0+1.20.4" = _uI9I1CSV;
         "pkg-1.0.0+1.20.6" = _ZjgyYoBD;
@@ -213,7 +231,10 @@ let
         "pkg-2.0.0-beta.1+26.1" = _tBBv79hS;
         "pkg-2.0.0+26.1.2" = _cVSrHECt;
         "pkg-2.1.1+26.3" = _KWj6GEgT;
-        "default" = _KWj6GEgT;
+        "pkg-2.1.2+26.3" = _BQZUJPVI;
+        "pkg-2.1.3+26.3" = _HTW9D8gA;
+        "pkg-2.1.4+26.3" = _qMdH85xO;
+        "default" = _qMdH85xO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camera-obscura";

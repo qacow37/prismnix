@@ -111,6 +111,16 @@ let
             "file" = "sweety_archaeology-1.1.0-neoforge-1.21.1.jar";
             "hash" = "sha512-ff5iL+MN3reILX0KB3LBWQ85O911eJv8lGD1pCFdW3cqbVRgIjMnGpkPrGwYpG3nLKIhpi6xljSrijthMjnBXg==";
         };
+        _u1b9amNz = {
+            "id" = "u1b9amNz";
+            "file" = "sweety_archaeology-1.1.1-forge-1.20.1.jar";
+            "hash" = "sha512-bi8S8hPcZl9pjwL1jYVszqRtODmFQuqdRQ+qphlFoBx8MS7HUjLwLkLdiD9NJmb95odnOFAyrfROYRhnbSlLNA==";
+        };
+        _ypwy81Dl = {
+            "id" = "ypwy81Dl";
+            "file" = "sweety_archaeology-1.1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-f83AjlE0P83W48+L3K7zreV2MvaYEa5ilJ2WZ7tmyAbbuoewUmedVSg68/5sySQZp9mgd9tRnJIVYgJFzQWAnw==";
+        };
     in {
         "urR4uyNC" = _urR4uyNC;
         "LUdAFr67" = _LUdAFr67;
@@ -134,8 +144,10 @@ let
         "Nqowpiww" = _Nqowpiww;
         "KRHS9ORU" = _KRHS9ORU;
         "5kvbRSuq" = _5kvbRSuq;
-        "forge-1.20.1" = _KRHS9ORU;
-        "neoforge-1.21.1" = _5kvbRSuq;
+        "u1b9amNz" = _u1b9amNz;
+        "ypwy81Dl" = _ypwy81Dl;
+        "forge-1.20.1" = _u1b9amNz;
+        "neoforge-1.21.1" = _ypwy81Dl;
         "pkg-1.0.0" = _urR4uyNC;
         "pkg-1.0.1" = _dVF6NTl6;
         "pkg-1.0.2" = _2NqIbfZN;
@@ -149,7 +161,8 @@ let
         "pkg-1.0.9b" = _5gCrslwf;
         "pkg-1.0.9c" = _Nqowpiww;
         "pkg-1.1.0" = _5kvbRSuq;
-        "default" = _5kvbRSuq;
+        "pkg-1.1.1" = _ypwy81Dl;
+        "default" = _ypwy81Dl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sweety-archaeology";

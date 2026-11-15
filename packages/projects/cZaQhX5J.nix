@@ -51,6 +51,21 @@ let
             "file" = "OrbitalStrikeMod-26.1-1.7.1.jar";
             "hash" = "sha512-QZkid+alts5mIc2ujxRMlQLjKL+T0u7sU8MeBMiKxahAtKoz9nSj4tIaYyx7ooEgzq8OCD4N2DO7MjqbaIYiDQ==";
         };
+        _DA6ET2ot = {
+            "id" = "DA6ET2ot";
+            "file" = "OrbitalStrikeMod-26.2-1.8.0.jar";
+            "hash" = "sha512-xKAj116rpyjgizQj25N3DLWS+qRw635pYfYObYEnIMY0oYsWRBj+A7Paibh5oKXFFG0sgOIMNTPqAdRsT3cvVg==";
+        };
+        _hn193QMd = {
+            "id" = "hn193QMd";
+            "file" = "OrbitalStrikeMod-26.3-1.8.0.jar";
+            "hash" = "sha512-YjGw4nIsdE3xrjGE6FaMzkElrLaBaAlhWxpCVCEHb628Rrl0R2gKK7eX7ALmmOyjsG782rpyypNe5/0J5cyYLg==";
+        };
+        _Axu0DkvF = {
+            "id" = "Axu0DkvF";
+            "file" = "OrbitalStrikeMod-1.21.11-1.8.0.jar";
+            "hash" = "sha512-CX6vt9q1ib2u3q6kTlmDc/SmgU2HQ3t0dUdfkA2PftNOTbrVnz0xG5rUD5Ud/y+Ssncqj0tt4F3/Sa4ZqRPgAA==";
+        };
     in {
         "pMg9TrN1" = _pMg9TrN1;
         "L87MaKz4" = _L87MaKz4;
@@ -62,11 +77,16 @@ let
         "AkWCw1sk" = _AkWCw1sk;
         "9jhMZOJG" = _9jhMZOJG;
         "eaEFNHmV" = _eaEFNHmV;
+        "DA6ET2ot" = _DA6ET2ot;
+        "hn193QMd" = _hn193QMd;
+        "Axu0DkvF" = _Axu0DkvF;
         "fabric-1.21.7" = _gJn4KYQp;
-        "fabric-1.21.11" = _AkWCw1sk;
+        "fabric-1.21.11" = _Axu0DkvF;
         "fabric-26.1" = _eaEFNHmV;
         "fabric-26.1.1" = _eaEFNHmV;
         "fabric-26.1.2" = _eaEFNHmV;
+        "fabric-26.2" = _DA6ET2ot;
+        "fabric-26.3" = _hn193QMd;
         "pkg-1.21.7-1.0.0" = _pMg9TrN1;
         "pkg-1.1.0" = _L87MaKz4;
         "pkg-1.2.0" = _y6IvNlNe;
@@ -77,7 +97,10 @@ let
         "pkg-1.7.0-1.21.11" = _AkWCw1sk;
         "pkg-1.7.0-26.1" = _9jhMZOJG;
         "pkg-1.7.1-26.1" = _eaEFNHmV;
-        "default" = _eaEFNHmV;
+        "pkg-1.8.0-26.2" = _DA6ET2ot;
+        "pkg-1.8.0-26.3" = _hn193QMd;
+        "pkg-1.8.0-1.21.11" = _Axu0DkvF;
+        "default" = _Axu0DkvF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orbitalstrikecannon";

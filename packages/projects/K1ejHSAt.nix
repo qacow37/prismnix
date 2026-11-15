@@ -266,6 +266,16 @@ let
             "file" = "PickablePiglins-fabric-26.1.2.jar";
             "hash" = "sha512-oBuiUI2j6Jd6FbYN1n1iHvhu1hnHRafwYhUW4IIdnQCc16mD7jmmAB1rZtacvUJj4lsVOFUSNHod0CjgfQxyuA==";
         };
+        _QDejk3y3 = {
+            "id" = "QDejk3y3";
+            "file" = "PickablePiglins-fabric-26.2.jar";
+            "hash" = "sha512-gkaD8GrTQglWxs/+Zv0xPUb18oU0ExkbJo1yMLmN6XS4SgekXE68QO1LAS/7NhNmBwesNBQVj3sDWrT5zSWRbg==";
+        };
+        _4YMMg1d7 = {
+            "id" = "4YMMg1d7";
+            "file" = "PickablePiglins-fabric-26.3.jar";
+            "hash" = "sha512-YMRbest4ijWAZc+4aFPpyITbXbpQ2VIsecvXYEXg2SsCS33DW3bcEhItHUez50+k80Tun80DCYbIW0suayvQeA==";
+        };
     in {
         "zJm8dZm0" = _zJm8dZm0;
         "8BrZBXI4" = _8BrZBXI4;
@@ -320,6 +330,8 @@ let
         "CQcI6hUh" = _CQcI6hUh;
         "4zkPRjXs" = _4zkPRjXs;
         "Supj06Ig" = _Supj06Ig;
+        "QDejk3y3" = _QDejk3y3;
+        "4YMMg1d7" = _4YMMg1d7;
         "fabric-1.16.5" = _zJm8dZm0;
         "fabric-1.17.1" = _8BrZBXI4;
         "fabric-1.18.2" = _STlNBbyu;
@@ -338,6 +350,8 @@ let
         "fabric-1.21.3" = _O1dytfhs;
         "fabric-1.21.4" = _CUX0wlTi;
         "fabric-26.1.2" = _Supj06Ig;
+        "fabric-26.2" = _QDejk3y3;
+        "fabric-26.3" = _4YMMg1d7;
         "pkg-2.0.0+1.16.5" = _zJm8dZm0;
         "pkg-2.0.0+1.17.1" = _8BrZBXI4;
         "pkg-2.0.0+1.18.2" = _7SOuBcUH;
@@ -361,7 +375,9 @@ let
         "pkg-3.0.2" = _CQcI6hUh;
         "pkg-3.0.2.1" = _4zkPRjXs;
         "pkg-26.1.2" = _Supj06Ig;
-        "default" = _Supj06Ig;
+        "pkg-26.2" = _QDejk3y3;
+        "pkg-26.3" = _4YMMg1d7;
+        "default" = _4YMMg1d7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickable-piglins";

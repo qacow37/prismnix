@@ -111,6 +111,21 @@ let
             "file" = "admincommandtool-2.0.0-26.2.jar";
             "hash" = "sha512-0qo/8PCohF4TqVUzyjutgadhLP/saYVOSDSvJWcQrnKymf1q1GPReZRrUf7TVgl4TK4osGjwo5tcJSRxgd3Ibw==";
         };
+        _FjH8ypfX = {
+            "id" = "FjH8ypfX";
+            "file" = "admincommandtool-2.0.1-26.1.jar";
+            "hash" = "sha512-qoF/4PEplt08jwG08uKixVgr3Du1RyJ8hR8NzeBCsaLTBZ5dJQ4yEzXIXP9v8Qj9bYBhwqGuprG0UR1GAOG3BA==";
+        };
+        _boO2816U = {
+            "id" = "boO2816U";
+            "file" = "admincommandtool-2.0.1-26.2.jar";
+            "hash" = "sha512-ZTowCxAACah514q4CgiQDZjHbUv8QE6xENOZpqfbCiedf/muiTf5gGjuQ7VFF3Dzmmnp5SAvSm+LZhOBg2qCxg==";
+        };
+        _12n0cyXx = {
+            "id" = "12n0cyXx";
+            "file" = "admincommandtool-2.0.1-26.3.jar";
+            "hash" = "sha512-NhNwkeNX/0xyBMKp979vx7nsvVN4xy+q0E9h3r2AxwUOou/eJrYZWsFvJ1zo/JYvWHt8akBgA6l5kB65kMOfCg==";
+        };
     in {
         "klN4iwVb" = _klN4iwVb;
         "pab0p3lI" = _pab0p3lI;
@@ -134,12 +149,15 @@ let
         "YEDoPOyA" = _YEDoPOyA;
         "AjAPhUEf" = _AjAPhUEf;
         "mZHAia44" = _mZHAia44;
+        "FjH8ypfX" = _FjH8ypfX;
+        "boO2816U" = _boO2816U;
+        "12n0cyXx" = _12n0cyXx;
         "fabric-1.21.11" = _RINbK4EY;
-        "fabric-26.1" = _AJgPpqRx;
-        "fabric-26.1.1" = _AJgPpqRx;
-        "fabric-26.1.2" = _AJgPpqRx;
-        "fabric-26.2" = _mZHAia44;
-        "fabric-26.3" = _AjAPhUEf;
+        "fabric-26.1" = _FjH8ypfX;
+        "fabric-26.1.1" = _FjH8ypfX;
+        "fabric-26.1.2" = _FjH8ypfX;
+        "fabric-26.2" = _boO2816U;
+        "fabric-26.3" = _12n0cyXx;
         "pkg-1.0.6" = _tMwbagUL;
         "pkg-1.0.7" = _Vrt7TXeN;
         "pkg-1.0.8" = _3BKeHjFt;
@@ -149,7 +167,8 @@ let
         "pkg-1.1.2" = _vEoYyw1t;
         "pkg-1.1.3" = _YEDoPOyA;
         "pkg-2.0.0" = _mZHAia44;
-        "default" = _mZHAia44;
+        "pkg-2.0.1" = _12n0cyXx;
+        "default" = _12n0cyXx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "admin-command-tool";

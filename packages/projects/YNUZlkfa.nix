@@ -61,6 +61,36 @@ let
             "file" = "faster_skeletons-neoforge-1.2.0-1.21.1.jar";
             "hash" = "sha512-vaJ4RU8qkC/BMQZ/tRiUY8+MnUKHb007bTy8HPWfk43C7zQ8T1wN7R5eNw5Zq4ETkIuIq+n6Oz3bj3YZgMpshA==";
         };
+        _5WVxbjjp = {
+            "id" = "5WVxbjjp";
+            "file" = "faster_skeletons-fabric-1.3.0-1.21.1.jar";
+            "hash" = "sha512-84ksXIKBL60DTosDHq9vVYyRwYu9Mkl3b+Kl268hK6qEIjKaTiDmacIMSk32WnaF6zh+/T59M1NvcPZ978OlxA==";
+        };
+        _hMamXKCa = {
+            "id" = "hMamXKCa";
+            "file" = "faster_skeletons-neoforge-1.3.0-1.21.1.jar";
+            "hash" = "sha512-/7bABXl+o7kJlEU57h5Jpu3Hwwlc+M24LEFjNSIYSBL96zfy+rhrEQQA9G6iXFLRIP0OjNiEe5J1mDl/vzQw7g==";
+        };
+        _IpqqP2f0 = {
+            "id" = "IpqqP2f0";
+            "file" = "faster_skeletons-fabric-1.3.0-26.2.jar";
+            "hash" = "sha512-PFwUVLO//hafuYw8AAns/IWTbybqVq6cuPdnS9SPK5uyOlkaRJ3t+D2EHwBG1jL9736zVYWYO5+49O8z+M9bOQ==";
+        };
+        _ljlJSauD = {
+            "id" = "ljlJSauD";
+            "file" = "faster_skeletons-neoforge-1.3.0-26.2.jar";
+            "hash" = "sha512-7pGtH/NxU0yxO4Dx1SX1QcONU9UFq/P4nY4V0xFbADcBEEdJ3fbtyBz+yT+66BNUd+Vw/lvXgOUVzD0aba9SjA==";
+        };
+        _W0bwudas = {
+            "id" = "W0bwudas";
+            "file" = "faster_skeletons-fabric-1.3.0-26.1.2.jar";
+            "hash" = "sha512-2bwQ22HE7+0xWdjMorurg2IApP8LjWV8Nj60AoTtU8GeejnP4ETx+gzyDRRX4yQNjWMruR0WMY+fMPou/kNAnw==";
+        };
+        _xWvD209y = {
+            "id" = "xWvD209y";
+            "file" = "faster_skeletons-neoforge-1.3.0-26.1.2.jar";
+            "hash" = "sha512-mbcHZgu/R8eRqVrrHPZUetiwa14jj39NzlBmS2beVd65SUVg0gO8Q+/pmg+bDIulhRrNOvLuHd0gLH67hVNcfA==";
+        };
     in {
         "Ul96I1NA" = _Ul96I1NA;
         "k7kG5gH0" = _k7kG5gH0;
@@ -74,6 +104,12 @@ let
         "zF4IBb8V" = _zF4IBb8V;
         "j394L42E" = _j394L42E;
         "kXBnEv8X" = _kXBnEv8X;
+        "5WVxbjjp" = _5WVxbjjp;
+        "hMamXKCa" = _hMamXKCa;
+        "IpqqP2f0" = _IpqqP2f0;
+        "ljlJSauD" = _ljlJSauD;
+        "W0bwudas" = _W0bwudas;
+        "xWvD209y" = _xWvD209y;
         "fabric-1.19" = _Wa8x6ffm;
         "fabric-1.19.1" = _Wa8x6ffm;
         "fabric-1.19.2" = _Wa8x6ffm;
@@ -87,7 +123,7 @@ let
         "fabric-1.20.5" = _u7x73ik2;
         "fabric-1.20.6" = _u7x73ik2;
         "fabric-1.21" = _eZF0Z8E3;
-        "fabric-1.21.1" = _j394L42E;
+        "fabric-1.21.1" = _5WVxbjjp;
         "fabric-1.21.2" = _j394L42E;
         "fabric-1.21.3" = _j394L42E;
         "fabric-1.21.4" = _j394L42E;
@@ -101,6 +137,8 @@ let
         "fabric-1.21.9" = _j394L42E;
         "fabric-1.21.10" = _j394L42E;
         "fabric-1.21.11" = _j394L42E;
+        "fabric-26.2" = _IpqqP2f0;
+        "fabric-26.1.2" = _W0bwudas;
         "forge-1.20.1" = _zF4IBb8V;
         "forge-1.20.2" = _zF4IBb8V;
         "forge-1.20.3" = _zF4IBb8V;
@@ -118,10 +156,14 @@ let
         "neoforge-1.21.9" = _kXBnEv8X;
         "neoforge-1.21.10" = _kXBnEv8X;
         "neoforge-1.21.11" = _kXBnEv8X;
+        "neoforge-1.21" = _hMamXKCa;
+        "neoforge-26.2" = _ljlJSauD;
+        "neoforge-26.1.2" = _xWvD209y;
         "pkg-1.0.0" = _73wiZLaw;
         "pkg-1.1.0" = _KjjnvS7f;
         "pkg-1.2.0" = _kXBnEv8X;
-        "default" = _kXBnEv8X;
+        "pkg-1.3.0" = _xWvD209y;
+        "default" = _xWvD209y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faster-skeletons";

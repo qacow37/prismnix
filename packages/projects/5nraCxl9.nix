@@ -446,6 +446,21 @@ let
             "file" = "slabbed-0.6.12-alpha+1.21.1.jar";
             "hash" = "sha512-FwYDAawMvCeOQM+Ff3huXNJB8nHeMfjumsOxBozQE19TiekhJ2QscTzLNPfccHZva0RUFpB1FYGFGqFJvEIwrw==";
         };
+        _q4wvjCNG = {
+            "id" = "q4wvjCNG";
+            "file" = "slabbed-0.7.0-alpha+26.2-26.3.jar";
+            "hash" = "sha512-8FmjMFmuj/UemERQgOx+zqGhs414NCxmTEyobLcliNFRylkI6wV3f95p6fLBWPuaGvrpJSTgbSGYl1RiZ1oicQ==";
+        };
+        _XT98DAx0 = {
+            "id" = "XT98DAx0";
+            "file" = "slabbed-0.6.3-alpha+1.21.1-fabric.jar";
+            "hash" = "sha512-46pghcVuIj0phPKD926nI98S/RzNZs/0WC+yRCqVWFB9CAY19uPGD8ePuw0EbmmRYpYfO9vYOv8yE5NdoFOpUA==";
+        };
+        _6DKeYcwE = {
+            "id" = "6DKeYcwE";
+            "file" = "slabbed-0.6.13-alpha+1.21.1-neoforge.jar";
+            "hash" = "sha512-uEipjEU2xAsBeGEY/PwvFwmG4lTuvTMoUTwq52lRRM1c1tA73BjUy1ERFfG3L91lXWyXVMK1pkWuk0/tpGeWlw==";
+        };
     in {
         "9Gv3y8K1" = _9Gv3y8K1;
         "1nyAujDn" = _1nyAujDn;
@@ -536,12 +551,15 @@ let
         "eBCGmAKd" = _eBCGmAKd;
         "ZFLRu3zA" = _ZFLRu3zA;
         "OfOWwhWn" = _OfOWwhWn;
+        "q4wvjCNG" = _q4wvjCNG;
+        "XT98DAx0" = _XT98DAx0;
+        "6DKeYcwE" = _6DKeYcwE;
         "fabric-1.21.11" = _2bddbATt;
-        "fabric-1.21.1" = _w3Yw2bqL;
+        "fabric-1.21.1" = _XT98DAx0;
         "fabric-26.1.2" = _IvQAKQMt;
-        "fabric-26.2" = _ZFLRu3zA;
+        "fabric-26.2" = _q4wvjCNG;
         "fabric-26.1" = _gxk1Et3G;
-        "fabric-26.3" = _ZFLRu3zA;
+        "fabric-26.3" = _q4wvjCNG;
         "fabric-1.20.1" = _T1EugWvY;
         "fabric-1.20.3" = _5Tvr0R5T;
         "fabric-1.20.4" = _5Tvr0R5T;
@@ -554,7 +572,7 @@ let
         "fabric-1.21.8" = _pPqjWatk;
         "fabric-1.21.9" = _2bddbATt;
         "fabric-1.21.10" = _2bddbATt;
-        "neoforge-1.21.1" = _OfOWwhWn;
+        "neoforge-1.21.1" = _6DKeYcwE;
         "neoforge-26.2" = _O40Aq1iw;
         "neoforge-26.3" = _AUsylBuk;
         "forge-1.20.1" = _mPttc26d;
@@ -647,7 +665,10 @@ let
         "pkg-0.6.10-alpha+26.2-26.3" = _eBCGmAKd;
         "pkg-0.6.11-alpha+26.2-26.3" = _ZFLRu3zA;
         "pkg-0.6.12-alpha+1.21.1" = _OfOWwhWn;
-        "default" = _OfOWwhWn;
+        "pkg-0.7.0-alpha+26.2-26.3" = _q4wvjCNG;
+        "pkg-0.6.3-alpha+1.21.1-fabric" = _XT98DAx0;
+        "pkg-0.6.13-alpha+1.21.1-neoforge" = _6DKeYcwE;
+        "default" = _6DKeYcwE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slabbed";

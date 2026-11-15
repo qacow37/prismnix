@@ -61,6 +61,11 @@ let
             "file" = "WynnVista-2.2.0.jar";
             "hash" = "sha512-a3mqi+iAk8X7PNSTSOesUMDbGdIxsBJhZWOsvz6zO3LXjSklPoJ7g0f5wmjaZVyx83/Yws1B6LB5bxrlUcwu+w==";
         };
+        _NbNDmvk6 = {
+            "id" = "NbNDmvk6";
+            "file" = "WynnVista-2.2.1.jar";
+            "hash" = "sha512-YElvDJx4hgSK6h2nsH+t84bdlGaQAmLLVq/2uZFpHIL4qV/xmTX0WZ5RfE5T+5INAohKdXuNUlxYUlTVpT9OsQ==";
+        };
     in {
         "FPdI8dk4" = _FPdI8dk4;
         "JNRobuZR" = _JNRobuZR;
@@ -74,6 +79,7 @@ let
         "w57bNkFn" = _w57bNkFn;
         "zxdcRtwf" = _zxdcRtwf;
         "Ean5Cjyg" = _Ean5Cjyg;
+        "NbNDmvk6" = _NbNDmvk6;
         "fabric-1.21" = _YT8EvRgg;
         "fabric-1.21.1" = _YT8EvRgg;
         "fabric-1.21.4" = _YT8EvRgg;
@@ -82,7 +88,7 @@ let
         "fabric-1.21.5" = _YT8EvRgg;
         "fabric-1.21.6" = _YT8EvRgg;
         "fabric-1.21.7" = _YT8EvRgg;
-        "fabric-1.21.11" = _Ean5Cjyg;
+        "fabric-1.21.11" = _NbNDmvk6;
         "pkg-0.6.4" = _FPdI8dk4;
         "pkg-0.6.5" = _JNRobuZR;
         "pkg-0.6.6" = _kbcraubp;
@@ -95,7 +101,8 @@ let
         "pkg-2.1.0" = _w57bNkFn;
         "pkg-2.1.1" = _zxdcRtwf;
         "pkg-2.2.0" = _Ean5Cjyg;
-        "default" = _Ean5Cjyg;
+        "pkg-2.2.1" = _NbNDmvk6;
+        "default" = _NbNDmvk6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnvista";

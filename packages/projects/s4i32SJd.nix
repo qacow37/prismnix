@@ -1341,6 +1341,11 @@ let
             "file" = "Paradigm-neoforge-26.1.2-2.5.4.jar";
             "hash" = "sha512-q3DSIQFL1zyoEjroCv9TSCYl2pG8B/wQ15bI7XOtxsvgdG0+ITqmEFplRHAQP0PuGdeivis4y+9JZsH6mJx5og==";
         };
+        _gZeynVM5 = {
+            "id" = "gZeynVM5";
+            "file" = "Paradigm-forge-1.20.1-2.5.4.jar";
+            "hash" = "sha512-dpm2dxxbgtbyLGxyTSvUnFKRcQMxEnWEVaKXqGklaUB2ceHKXJ2Qg+J+4nf4B61UkXEWVnZ5GRnSqb7UKI0Ylg==";
+        };
     in {
         "qpdo5wsV" = _qpdo5wsV;
         "MKXtd8Zr" = _MKXtd8Zr;
@@ -1610,10 +1615,11 @@ let
         "9Aj1KbMO" = _9Aj1KbMO;
         "B9aFRjc9" = _B9aFRjc9;
         "SpYCApTy" = _SpYCApTy;
+        "gZeynVM5" = _gZeynVM5;
         "forge-1.12.2" = _kjG1X2WR;
         "forge-1.18.2" = _m6wgImHK;
         "forge-1.19.2" = _kIgMRknP;
-        "forge-1.20.1" = _LbwxkN2n;
+        "forge-1.20.1" = _gZeynVM5;
         "forge-1.21.1" = _E4G5NcDi;
         "forge-1.21.11" = _9Aj1KbMO;
         "forge-1.7.10" = _bKWy82iV;
@@ -1873,7 +1879,8 @@ let
         "pkg-2.5.4-forge-1.21.11" = _9Aj1KbMO;
         "pkg-2.5.4-neoforge-1.21.1" = _B9aFRjc9;
         "pkg-2.5.4-neoforge-26.1.2" = _SpYCApTy;
-        "default" = _SpYCApTy;
+        "pkg-2.5.4" = _gZeynVM5;
+        "default" = _gZeynVM5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paradigm";

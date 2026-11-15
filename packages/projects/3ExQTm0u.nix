@@ -106,6 +106,16 @@ let
             "file" = "springlotus-fabric-1.2.2+26.2.jar";
             "hash" = "sha512-6Bi8iQKwr8JjfEUPd0R1vPIxHPvTDdxcUNb/npBlzgYE3tYhuijR+mdIiUUqahSS0mcjV2qzEzN1ptOL23KSGA==";
         };
+        _tdHv9thf = {
+            "id" = "tdHv9thf";
+            "file" = "springlotus-fabric-1.2.2+26.3.jar";
+            "hash" = "sha512-x7E2IbVQxXmLT0Y2y90gNrnCMwpQzpmdo7s1jkjJlhOop+VCiF6VwhU1cphUZH/EbboCzSj5v8oztTSTv23Dvw==";
+        };
+        _8m5Arvrj = {
+            "id" = "8m5Arvrj";
+            "file" = "springlotus-neoforge-1.2.2+26.3.jar";
+            "hash" = "sha512-/SY/xgY0NbAWdFTI120rh3Ndj9WNkOUFeU0+k211lHTSJpoT8t7kojzTMgKd0tQOOq2vKe51pBs3L+XzbD1ZDA==";
+        };
     in {
         "J6EnzUcc" = _J6EnzUcc;
         "p9IobK0e" = _p9IobK0e;
@@ -128,11 +138,16 @@ let
         "eP3xw6Tj" = _eP3xw6Tj;
         "iFkBb3eq" = _iFkBb3eq;
         "jKsvd49y" = _jKsvd49y;
+        "tdHv9thf" = _tdHv9thf;
+        "8m5Arvrj" = _8m5Arvrj;
         "neoforge-26.1.2" = _eP3xw6Tj;
         "neoforge-26.2" = _hg3vfHx7;
+        "neoforge-26.3" = _8m5Arvrj;
         "fabric-26.1.2" = _iFkBb3eq;
         "fabric-26.2" = _jKsvd49y;
+        "fabric-26.3" = _tdHv9thf;
         "quilt-26.1.2" = _LBlqwRFA;
+        "quilt-26.3" = _tdHv9thf;
         "pkg-1.0.0" = _J6EnzUcc;
         "pkg-1.0.1" = _Vb4wj9Wz;
         "pkg-1.1.0+26.2" = _OSNzNJm1;
@@ -144,7 +159,8 @@ let
         "pkg-1.2.1+26.2" = _dtZ0Q60B;
         "pkg-1.2.2+26.2" = _jKsvd49y;
         "pkg-1.2.2+26.1.2" = _iFkBb3eq;
-        "default" = _jKsvd49y;
+        "pkg-1.2.2+26.3" = _8m5Arvrj;
+        "default" = _8m5Arvrj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "springlotus";

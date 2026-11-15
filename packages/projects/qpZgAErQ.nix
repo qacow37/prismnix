@@ -146,6 +146,16 @@ let
             "file" = "nofrills-26.2-0.4.15.jar";
             "hash" = "sha512-d39mukQmShzuppqY7Ldm4EFYaT4b5cyPgMnZb98Jb6tWcDNhqVy7it27GWx/Yuya+7PEEnIMZoMAmcBb86m9RA==";
         };
+        _4wbTYLLn = {
+            "id" = "4wbTYLLn";
+            "file" = "nofrills-26.2-0.4.16.jar";
+            "hash" = "sha512-3xf/nbW0uk4aQgRiRV+8PoT0KcSCxfK4g4Gs78jN9SSMdNVaX+lDTX1FKg31Vyo+7iSOnHz/8A7ly/srNlCIyw==";
+        };
+        _gerF3bJn = {
+            "id" = "gerF3bJn";
+            "file" = "nofrills-26.3-0.4.16.jar";
+            "hash" = "sha512-QPuQjcXrF71zDOzU3fJAIEK5WkG+ySt2zwyYzFbsV4OU22DGzysrk3SbmbdkZJijdc0X8SfhGvjHyPqF5VA8qA==";
+        };
     in {
         "DwlSOlQb" = _DwlSOlQb;
         "rDI0871b" = _rDI0871b;
@@ -176,6 +186,8 @@ let
         "Tho7kTTD" = _Tho7kTTD;
         "gswbcoyf" = _gswbcoyf;
         "X47s2XFf" = _X47s2XFf;
+        "4wbTYLLn" = _4wbTYLLn;
+        "gerF3bJn" = _gerF3bJn;
         "fabric-1.21.5" = _urHgAX72;
         "fabric-1.21.6" = _NRPWvCt4;
         "fabric-1.21.7" = _NRPWvCt4;
@@ -186,7 +198,8 @@ let
         "fabric-26.1" = _gswbcoyf;
         "fabric-26.1.1" = _gswbcoyf;
         "fabric-26.1.2" = _gswbcoyf;
-        "fabric-26.2" = _X47s2XFf;
+        "fabric-26.2" = _4wbTYLLn;
+        "fabric-26.3" = _gerF3bJn;
         "pkg-0.4.0" = _DwlSOlQb;
         "pkg-0.4.1" = _rDI0871b;
         "pkg-0.4.2" = _gtT615m3;
@@ -203,7 +216,8 @@ let
         "pkg-0.4.13" = _cQZRiDB2;
         "pkg-0.4.14" = _Tho7kTTD;
         "pkg-0.4.15" = _X47s2XFf;
-        "default" = _X47s2XFf;
+        "pkg-0.4.16" = _gerF3bJn;
+        "default" = _gerF3bJn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nofrills";

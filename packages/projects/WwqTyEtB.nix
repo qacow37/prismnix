@@ -1061,6 +1061,26 @@ let
             "file" = "pets-mod-SNAPSHOT-26.4b8.jar";
             "hash" = "sha512-pVM4h6i5qqPraG874ZBT95JMA4JDPg/1qo7E9Wd34qSgIiu1IaOZFMKrzz6jgbTh83i1KYeVHuhaufv8N7jGNw==";
         };
+        _edc1IgCd = {
+            "id" = "edc1IgCd";
+            "file" = "pets-mod-0.7.9-1.4.7-ornithe.jar";
+            "hash" = "sha512-RIAamZSRj8qXmB2emmEbeMBWYOiTPcJ7yEI3p21HN9kUfDVQS3oa6jLlVxiiVLma2KuALc44XkiZHdNTiT7tHw==";
+        };
+        _pbKKN35A = {
+            "id" = "pbKKN35A";
+            "file" = "pets-mod-0.7.9-1.3.2-ornithe.jar";
+            "hash" = "sha512-Mz+w8dp2gXjxDlOpbZPkhVqXVLPgHar376tu3Iwx9HuY/sUIYwWC4H2WuA5W/OOa9p6Ck6WfR88Gd09ODKPNKg==";
+        };
+        _j2ATRqpC = {
+            "id" = "j2ATRqpC";
+            "file" = "pets-mod-0.7.9-1.2.5-ornithe.jar";
+            "hash" = "sha512-49Kb7jHGISdOEya/Yye9k+HccS2hDfHoDw5VISSPmgVQelscBTi53auZjpUG6wCEiTbxK9S7a6iBnkTANtQafA==";
+        };
+        _NYZ1tVOs = {
+            "id" = "NYZ1tVOs";
+            "file" = "pets-mod-0.7.9-1.2-ornithe.jar";
+            "hash" = "sha512-o1EWM7eBdhj0wdPSG6QYYfLsc9RSXoQgKXp2GtApDDEbvpbV1nWetSFM5G+CceKR7TuZuc4xW+hBMYxeAhyNBg==";
+        };
     in {
         "QXwNiseV" = _QXwNiseV;
         "fNYBq9w9" = _fNYBq9w9;
@@ -1274,6 +1294,10 @@ let
         "4VTyDtja" = _4VTyDtja;
         "LJimnBa9" = _LJimnBa9;
         "RvXXEgGv" = _RvXXEgGv;
+        "edc1IgCd" = _edc1IgCd;
+        "pbKKN35A" = _pbKKN35A;
+        "j2ATRqpC" = _j2ATRqpC;
+        "NYZ1tVOs" = _NYZ1tVOs;
         "fabric-1.21.11" = _CPwFdYy0;
         "fabric-26.1" = _O9ZcoNMs;
         "fabric-26.1.1" = _O9ZcoNMs;
@@ -1497,6 +1521,21 @@ let
         "ornithe-1.6.4" = _D2A0k8Wg;
         "ornithe-1.5.1" = _UZy7OIOE;
         "ornithe-1.5.2" = _UZy7OIOE;
+        "ornithe-1.4.7" = _edc1IgCd;
+        "ornithe-1.4.6" = _edc1IgCd;
+        "ornithe-1.4.5" = _edc1IgCd;
+        "ornithe-1.4.4" = _edc1IgCd;
+        "ornithe-1.4.2" = _edc1IgCd;
+        "ornithe-1.4" = _edc1IgCd;
+        "ornithe-1.4.1" = _edc1IgCd;
+        "ornithe-1.4.3" = _edc1IgCd;
+        "ornithe-1.3.2" = _pbKKN35A;
+        "ornithe-1.3.1" = _pbKKN35A;
+        "ornithe-1.2.5" = _j2ATRqpC;
+        "ornithe-1.2.4" = _j2ATRqpC;
+        "ornithe-1.2.3" = _NYZ1tVOs;
+        "ornithe-1.2.2" = _NYZ1tVOs;
+        "ornithe-1.2.1" = _NYZ1tVOs;
         "java-agent-26.1" = _b3HHKYmt;
         "java-agent-26.1.1" = _b3HHKYmt;
         "java-agent-26.1.2" = _b3HHKYmt;
@@ -1754,7 +1793,11 @@ let
         "pkg-0.8.7-26.3-Neo" = _WjUyHixT;
         "pkg-0.8.7-26.3-Java-Agent" = _4VTyDtja;
         "pkg-0.8.4-1.8.9-Ornithe" = _LJimnBa9;
-        "default" = _RvXXEgGv;
+        "pkg-0.7.9-1.4.7-Ornithe" = _edc1IgCd;
+        "pkg-0.7.9-1.3.2-Ornithe" = _pbKKN35A;
+        "pkg-0.7.9-1.2.5-Ornithe" = _j2ATRqpC;
+        "pkg-0.7.9-1.2-Ornithe" = _NYZ1tVOs;
+        "default" = _NYZ1tVOs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pets-mod";

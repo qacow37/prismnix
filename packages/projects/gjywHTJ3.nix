@@ -116,6 +116,11 @@ let
             "file" = "youkaishomecoming-4.2.16.jar";
             "hash" = "sha512-JvRzc9RU7moLDy6Z/9ZVjfd44wN2AHVSdQSB3GhesT9dIHsk9r3PG5WglYxVeUG6gO3Z63zZCL+wN3TIbGsLdw==";
         };
+        _w6MRJ8k0 = {
+            "id" = "w6MRJ8k0";
+            "file" = "youkaishomecoming-4.2.17.jar";
+            "hash" = "sha512-XyBnwk/2VhKDiZ72gE1QjxbbKkkKFHMlFXkliI9bBTP+1ruZfKTypxB+bsDQBP9c1OsvH7ydIB9Do+F3GpIHHg==";
+        };
     in {
         "O4IrcJAl" = _O4IrcJAl;
         "myxcAA78" = _myxcAA78;
@@ -140,7 +145,8 @@ let
         "bH1t3HEd" = _bH1t3HEd;
         "PRbW338Q" = _PRbW338Q;
         "4li1tQxK" = _4li1tQxK;
-        "neoforge-1.21.1" = _4li1tQxK;
+        "w6MRJ8k0" = _w6MRJ8k0;
+        "neoforge-1.21.1" = _w6MRJ8k0;
         "pkg-4.1.49" = _O4IrcJAl;
         "pkg-4.1.50" = _myxcAA78;
         "pkg-4.1.51" = _yVFH3oIm;
@@ -164,7 +170,8 @@ let
         "pkg-4.2.14" = _bH1t3HEd;
         "pkg-4.2.15" = _PRbW338Q;
         "pkg-4.2.16" = _4li1tQxK;
-        "default" = _4li1tQxK;
+        "pkg-4.2.17" = _w6MRJ8k0;
+        "default" = _w6MRJ8k0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "youkaishomecoming-unofficial-port";

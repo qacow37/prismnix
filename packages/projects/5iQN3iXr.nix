@@ -41,6 +41,11 @@ let
             "file" = "zombie_tactics-fabric-1.2.2.jar";
             "hash" = "sha512-Cb43qZPUspQLuXdGKfWUdsqBMfsgSDJgnnFMAdyOoKMVsXiId7LmJBVuWtKGeJNF0VqUABVKnm0nxqrc6K33ww==";
         };
+        _mPBnwr1B = {
+            "id" = "mPBnwr1B";
+            "file" = "Zombie Tactics.jar";
+            "hash" = "sha512-HwN74IWh5G/NfHHV76xjD6ALowgzCF9WzlJFhba2oVmKB/p5tZb2hRNsQqPq/na7MKDMJKIgtvwmy/OUMlJS2A==";
+        };
     in {
         "lGXsak9k" = _lGXsak9k;
         "45mOiita" = _45mOiita;
@@ -50,10 +55,12 @@ let
         "LItbSdrH" = _LItbSdrH;
         "SXEiN6P7" = _SXEiN6P7;
         "8L3RPrca" = _8L3RPrca;
+        "mPBnwr1B" = _mPBnwr1B;
         "neoforge-1.21" = _SXEiN6P7;
         "neoforge-1.21.1" = _SXEiN6P7;
         "fabric-1.21" = _8L3RPrca;
         "fabric-1.21.1" = _8L3RPrca;
+        "fabric-26.3" = _mPBnwr1B;
         "pkg-1.0.0" = _lGXsak9k;
         "pkg-1.0.1" = _45mOiita;
         "pkg-1.1.0" = _mEsuohqy;
@@ -61,7 +68,8 @@ let
         "pkg-1.2.0" = _dGTxTNWx;
         "pkg-1.2.1" = _LItbSdrH;
         "pkg-1.2.2" = _8L3RPrca;
-        "default" = _8L3RPrca;
+        "pkg-1.3.0" = _mPBnwr1B;
+        "default" = _mPBnwr1B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombie-tactics";

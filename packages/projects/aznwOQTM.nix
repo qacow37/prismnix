@@ -356,6 +356,156 @@ let
             "file" = "simple_waterloggable_redstone-forge-26.2-1.0.2.jar";
             "hash" = "sha512-UpxlgxHQcShQgap/J3Sh9RlTRDAiahuHNvOSq1dPxK7CGZvcufdlbVQ4ukuXSCafSdJOThFOKykjwWtLFBIEJQ==";
         };
+        _N3VCNfz3 = {
+            "id" = "N3VCNfz3";
+            "file" = "just-redstone-waterlog-legacyfabric-1.13.2-1.1.0.jar";
+            "hash" = "sha512-YUcNE1t+wOOT10U0juY6dSTR74nIEWvVcj00XEdatnfCkoRRaeFepd5O1d6AcaeRwQdfvcocKl6FOVS2oagFyA==";
+        };
+        _P1spnqeQ = {
+            "id" = "P1spnqeQ";
+            "file" = "just-redstone-waterlog-ornithe-1.13-1.1.0.jar";
+            "hash" = "sha512-gtBfoG47tLXq8cbEHurx/6D0g7X+KAVODF/7BFLNGOAdoUH5ZGImg7HIfg3ZZLOile44fbqu1XTJne++ybStpw==";
+        };
+        _lZ6g40jM = {
+            "id" = "lZ6g40jM";
+            "file" = "just-redstone-waterlog-ornithe-1.13.1-1.1.0.jar";
+            "hash" = "sha512-eIeWx53D9UeSH0ooabzQ/3Ktf37zcx1IL5Bw/6xlBRnEkwuLg+gbIu/X/mofjYMCBkH+SXSVV6eYvyPG788Y7g==";
+        };
+        _FXK4S2Bm = {
+            "id" = "FXK4S2Bm";
+            "file" = "just-redstone-waterlog-ornithe-1.13.2-1.1.0.jar";
+            "hash" = "sha512-P8CWGqj3dRt6nait3638tOccI8o5nZTgzAhAos2f5srm3kwfDb7Hg5EiDw4KY+yQOeiiUBziK9yRCobRvjtyHA==";
+        };
+        _1HCSBhtT = {
+            "id" = "1HCSBhtT";
+            "file" = "just-redstone-waterlog-nilloader-1.13-1.1.0.jar";
+            "hash" = "sha512-d1ccC/hLmhnIM7JwJWMCISXf/yuC/Dqr6USprTVPwqqaUSih9JyX9B91oG11gEg6fL/qHvY/E5sogW9HZDFPtg==";
+        };
+        _lLayDis4 = {
+            "id" = "lLayDis4";
+            "file" = "just-redstone-waterlog-nilloader-1.13.1-1.1.0.jar";
+            "hash" = "sha512-8JAEYDJvGiKhXVCA96hf72OkSkdLMgGec2gE+0Wr9OMIVQteQAaRyaerNx44hRrMB9YrXRkNvLF1brCSacnJ2w==";
+        };
+        _8m05bfLM = {
+            "id" = "8m05bfLM";
+            "file" = "just-redstone-waterlog-nilloader-1.13.2-1.1.0.jar";
+            "hash" = "sha512-EVXtn6dpNs6q/s5f5g/GZtsx8RIkJWTi/oU1f/RRWgvpfjIgCfeCJIrxiO84DtwWgNt5Drg9xHXHet8tc9iN6g==";
+        };
+        _FIWez81b = {
+            "id" = "FIWez81b";
+            "file" = "just-redstone-waterlog-forge-1.13.2-1.1.0.jar";
+            "hash" = "sha512-Bc7rh/gnwnCKK097wq0Rx+V9Row9RAbcrMAwhjW/q+b/pkE0FuMaMdWnoa5ogFGhtLQgiIzoq8KL7m91ZWZdhQ==";
+        };
+        _XbFzOaDw = {
+            "id" = "XbFzOaDw";
+            "file" = "just-redstone-waterlog-fabric-1.14.1-1.1.0.jar";
+            "hash" = "sha512-x1am6/DEK3MgqlfrB2XpEIcN1HZR3AyEUrW9BDrc30vRAMdlscdzVEng3fxPKCbb1WFxVnaVLpUbPdnSXXlZQA==";
+        };
+        _5NwM9kvf = {
+            "id" = "5NwM9kvf";
+            "file" = "just-redstone-waterlog-fabric-1.14.2-1.1.0.jar";
+            "hash" = "sha512-946H8obhgqLSqNe7+Zz80kOLuXblTJ+HDkvhreN4XL/4hvMUTMeK/4JWOhUQk+H70yS5aGp/gPAOrur9vvB2QA==";
+        };
+        _mbH7G5iN = {
+            "id" = "mbH7G5iN";
+            "file" = "just-redstone-waterlog-fabric-1.14.3-1.1.0.jar";
+            "hash" = "sha512-KfSXWmLwuPbov8L20ABS6xDLNuLIE/YA9KX5bTvEopaL4TFJusF69NqyGIdq9+2CO+owV2jSzU0NIBYSpOdO1w==";
+        };
+        _Hj9Uzxum = {
+            "id" = "Hj9Uzxum";
+            "file" = "just-redstone-waterlog-fabric-1.14.4-1.1.0.jar";
+            "hash" = "sha512-HIf5DnZzuH+kOVOynl36HyQ38uilxj66rjFW9SFg7gAN6QfB6idAFS0eOdwwB0nf57ITC7c/gkuKMRfpxg/3eQ==";
+        };
+        _4fOUqQhm = {
+            "id" = "4fOUqQhm";
+            "file" = "just-redstone-waterlog-fabric-1.14-1.1.0.jar";
+            "hash" = "sha512-kjlVBBNN6pXOzMSR4JluoL7i7mC8qv537VsQRY6lcVmDzZQwZ1+SpIhKincippqlQ23imuNPMzXUT9Lik0YIBw==";
+        };
+        _Y6uqcjCI = {
+            "id" = "Y6uqcjCI";
+            "file" = "just-redstone-waterlog-forge-1.14.2-1.1.0.jar";
+            "hash" = "sha512-o6RTj3LXXmi2TjkTnwEorOSDT+2yuORSMyixrD5CQ9U0BdxoNR98aQYHzBgJYB1QPOEj3fh9pSrK2xFxOyXBNg==";
+        };
+        _6513QnNF = {
+            "id" = "6513QnNF";
+            "file" = "just-redstone-waterlog-forge-1.14.3-1.1.0.jar";
+            "hash" = "sha512-ws88BlWKbLtb8qhN935EjJziPs+3XrAPfBev6Nky+qUjnf++Rzwd2tGlZrpvcASTPtjxzAoDCPGu2o02DoG8wg==";
+        };
+        _oSxrpYB3 = {
+            "id" = "oSxrpYB3";
+            "file" = "just-redstone-waterlog-forge-1.14.4-1.1.0.jar";
+            "hash" = "sha512-rpDnbg5IEuvmb+MYrB5Cv0eUCMzJvd5/fBSzfansJSqaa4N8a/RIIRVZvBNzAJmI/FvcOLieHzYEGUCE5ApipQ==";
+        };
+        _iy7hLoZv = {
+            "id" = "iy7hLoZv";
+            "file" = "just-redstone-waterlog-nilloader-1.14-1.1.0.jar";
+            "hash" = "sha512-KS+oDGHf9g/4pN4b4WN5EZJm5tnF9JH7aZYGDZDDYyS/UKX8gzBaHCKwpVkYqBfQrkFFZXK5M1JH20c+zbzdlg==";
+        };
+        _aJkfogiJ = {
+            "id" = "aJkfogiJ";
+            "file" = "just-redstone-waterlog-nilloader-1.14.1-1.1.0.jar";
+            "hash" = "sha512-IUZFTFCovznNIp1t4fqb4SP03kTghQ/7H4wGHaPGNZy57gXLzAIVyi2GCD55wTi1MpZIi5qr2kVmfH/Ur9OL4w==";
+        };
+        _XyWzPgLv = {
+            "id" = "XyWzPgLv";
+            "file" = "just-redstone-waterlog-nilloader-1.14.2-1.1.0.jar";
+            "hash" = "sha512-u44MLEVgZH7aGI6SX6WZ0qS7BdcIzFR9QSZSPcxF/pTLHDFy2Tt9Gj+cBhvNZkOTRsgHJSuUqDscbuv4DNgWjQ==";
+        };
+        _CXbfxc1I = {
+            "id" = "CXbfxc1I";
+            "file" = "just-redstone-waterlog-nilloader-1.14.3-1.1.0.jar";
+            "hash" = "sha512-smHlOlZB0Vd2pPHzqHH38yuTgeuxt8BYrs04T/NNSEQCsUAZjoe825bpjSDk5NyBRz9zcB7kOs+SDbidWRUu+A==";
+        };
+        _KauLns48 = {
+            "id" = "KauLns48";
+            "file" = "just-redstone-waterlog-nilloader-1.14.4-1.1.0.jar";
+            "hash" = "sha512-rzntXzFz0ZdjlIVdnj2tP4ybXySDso38DJSb/O0D5OV+IfT/SmZPS4XVBN3nFsA1zckNuUbhWZPFpIltacWxdg==";
+        };
+        _Ebuidagj = {
+            "id" = "Ebuidagj";
+            "file" = "just-redstone-waterlog-ornithe-1.14-1.1.0.jar";
+            "hash" = "sha512-hO0nilWIoNiIDU36YBeLvpocdXkwZcEa49BO6XRUBTwUsaIZGLvQdNNeFGQCXNi3oj2REeubc5D9kSdYPS/nyQ==";
+        };
+        _KfwgH2vw = {
+            "id" = "KfwgH2vw";
+            "file" = "just-redstone-waterlog-ornithe-1.14.1-1.1.0.jar";
+            "hash" = "sha512-gSyhpQClAzIKVHUvh4WTlgsJLbLli5yycPjuiLeS5KSkNb4cE+0wLy+7yFCJmCfwQGkuz6BvRI1TTj7Y6qgIWg==";
+        };
+        _H8ieNQYb = {
+            "id" = "H8ieNQYb";
+            "file" = "just-redstone-waterlog-ornithe-1.14.2-1.1.0.jar";
+            "hash" = "sha512-A+4CbtsqNItPS5F/WTh806Zj3/W1TEDnRAQ+KBZirwu0hK8z08cGF5m+z8VDKlegjwzCgLoEYqAhEU6mMANVFQ==";
+        };
+        _YMuGgXOd = {
+            "id" = "YMuGgXOd";
+            "file" = "just-redstone-waterlog-ornithe-1.14.3-1.1.0.jar";
+            "hash" = "sha512-U44wrTFpHh2FIPiQihZc5Xk1lAUZ+mc/7ivMVeMXBjUase6MP36qkysbkBCWM0/wWaEIORkqfuqgLEb1F4swHg==";
+        };
+        _Ju8qe64D = {
+            "id" = "Ju8qe64D";
+            "file" = "just-redstone-waterlog-ornithe-1.14.4-1.1.0.jar";
+            "hash" = "sha512-o61VTdUuiTq4Q1EIIvOhxjsKnrJcHWJWJPIRaw2H8dTA1lWvj/aqZuo0yutv3iqm+bgw6KGeBFUOw/6hUFfewg==";
+        };
+        _MqSzqWps = {
+            "id" = "MqSzqWps";
+            "file" = "just-redstone-waterlog-fabric-26.3-1.1.0.jar";
+            "hash" = "sha512-hqfAbare00+XEqMgyP+pDxSAE/7XWSGrmTHaNeCQ0CMzWpPrQqU+vDQvDl62mfYpwDuxsESp1z0duS7p/2gn9g==";
+        };
+        _TWhvIPak = {
+            "id" = "TWhvIPak";
+            "file" = "just-redstone-waterlog-forge-26.3-1.1.0.jar";
+            "hash" = "sha512-NNn54wEsw9NB+KjUl+3waQ5zX+TZ+bDBS1SNergGSBaQDj6GunQSoB1DlGFrR1WpuZwi1Qwd4KQCEL0y1dkG2g==";
+        };
+        _IJR9oUd2 = {
+            "id" = "IJR9oUd2";
+            "file" = "just-redstone-waterlog-neoforge-26.3-1.1.0.jar";
+            "hash" = "sha512-s9l5oJZB79q5v3xaDhBD//flYpB1SBvIG1LdPs0CncdmpHiJBlrnotsTHUgBu6UZ3AJNqhBVN9GhvwqJvHEvxQ==";
+        };
+        _RhY2VhXQ = {
+            "id" = "RhY2VhXQ";
+            "file" = "just-redstone-waterlog-nilloader-26.3-1.1.0.jar";
+            "hash" = "sha512-OuiPGGt+rRdLbK4UJBA5c8QB9lqtf5BB3enknL3wxOzit1+rNn+eCw8lFAtsyTBMyyUIo0lw5oQR2yaMCvvcYw==";
+        };
     in {
         "KJpeJpcP" = _KJpeJpcP;
         "Dppqnwtm" = _Dppqnwtm;
@@ -428,6 +578,36 @@ let
         "4wQcLAtM" = _4wQcLAtM;
         "7LjvVVox" = _7LjvVVox;
         "gr87hWh1" = _gr87hWh1;
+        "N3VCNfz3" = _N3VCNfz3;
+        "P1spnqeQ" = _P1spnqeQ;
+        "lZ6g40jM" = _lZ6g40jM;
+        "FXK4S2Bm" = _FXK4S2Bm;
+        "1HCSBhtT" = _1HCSBhtT;
+        "lLayDis4" = _lLayDis4;
+        "8m05bfLM" = _8m05bfLM;
+        "FIWez81b" = _FIWez81b;
+        "XbFzOaDw" = _XbFzOaDw;
+        "5NwM9kvf" = _5NwM9kvf;
+        "mbH7G5iN" = _mbH7G5iN;
+        "Hj9Uzxum" = _Hj9Uzxum;
+        "4fOUqQhm" = _4fOUqQhm;
+        "Y6uqcjCI" = _Y6uqcjCI;
+        "6513QnNF" = _6513QnNF;
+        "oSxrpYB3" = _oSxrpYB3;
+        "iy7hLoZv" = _iy7hLoZv;
+        "aJkfogiJ" = _aJkfogiJ;
+        "XyWzPgLv" = _XyWzPgLv;
+        "CXbfxc1I" = _CXbfxc1I;
+        "KauLns48" = _KauLns48;
+        "Ebuidagj" = _Ebuidagj;
+        "KfwgH2vw" = _KfwgH2vw;
+        "H8ieNQYb" = _H8ieNQYb;
+        "YMuGgXOd" = _YMuGgXOd;
+        "Ju8qe64D" = _Ju8qe64D;
+        "MqSzqWps" = _MqSzqWps;
+        "TWhvIPak" = _TWhvIPak;
+        "IJR9oUd2" = _IJR9oUd2;
+        "RhY2VhXQ" = _RhY2VhXQ;
         "fabric-1.21.10" = _myzytMyq;
         "fabric-1.21.11" = _myzytMyq;
         "fabric-1.21.9" = _myzytMyq;
@@ -466,15 +646,16 @@ let
         "fabric-1.15.2" = _fKO7IzXN;
         "fabric-1.15.1" = _dptYGUTq;
         "fabric-1.15" = _rbgYLKEP;
-        "fabric-1.14.4" = _JIAJ4fHW;
-        "fabric-1.14.3" = _jYZAK3Wo;
-        "fabric-1.14.2" = _PujI3ewX;
-        "fabric-1.14.1" = _x1puienr;
-        "fabric-1.14" = _5FSJGDiB;
+        "fabric-1.14.4" = _Hj9Uzxum;
+        "fabric-1.14.3" = _mbH7G5iN;
+        "fabric-1.14.2" = _5NwM9kvf;
+        "fabric-1.14.1" = _XbFzOaDw;
+        "fabric-1.14" = _4fOUqQhm;
         "fabric-26.1" = _fliA4W60;
         "fabric-26.1.1" = _fliA4W60;
         "fabric-26.1.2" = _fliA4W60;
         "fabric-26.2" = _4wQcLAtM;
+        "fabric-26.3" = _MqSzqWps;
         "quilt-26.1" = _fliA4W60;
         "quilt-26.1.1" = _fliA4W60;
         "quilt-26.1.2" = _fliA4W60;
@@ -499,6 +680,12 @@ let
         "quilt-1.20" = _I77wkRoQ;
         "quilt-1.20.1" = _I77wkRoQ;
         "quilt-1.19.3" = _z1jFMimk;
+        "quilt-1.14.1" = _XbFzOaDw;
+        "quilt-1.14.2" = _5NwM9kvf;
+        "quilt-1.14.3" = _mbH7G5iN;
+        "quilt-1.14.4" = _Hj9Uzxum;
+        "quilt-1.14" = _4fOUqQhm;
+        "quilt-26.3" = _MqSzqWps;
         "forge-26.1" = _65axwqI6;
         "forge-26.1.1" = _65axwqI6;
         "forge-26.1.2" = _65axwqI6;
@@ -529,6 +716,11 @@ let
         "forge-1.19.2" = _QbI3VJ8e;
         "forge-1.17.1" = _nQS68IBX;
         "forge-26.2" = _gr87hWh1;
+        "forge-1.13.2" = _FIWez81b;
+        "forge-1.14.2" = _Y6uqcjCI;
+        "forge-1.14.3" = _6513QnNF;
+        "forge-1.14.4" = _oSxrpYB3;
+        "forge-26.3" = _TWhvIPak;
         "neoforge-26.1" = _EUqini1L;
         "neoforge-26.1.1" = _EUqini1L;
         "neoforge-26.1.2" = _EUqini1L;
@@ -550,6 +742,7 @@ let
         "neoforge-1.20.4" = _IWiEFV6S;
         "neoforge-1.20.2" = _kPHdcq8B;
         "neoforge-26.2" = _7LjvVVox;
+        "neoforge-26.3" = _IJR9oUd2;
         "bukkit-1.21.11" = _VoAAzNTQ;
         "bukkit-1.21" = _VoAAzNTQ;
         "bukkit-1.21.1" = _VoAAzNTQ;
@@ -586,12 +779,30 @@ let
         "spigot-1.21.8" = _VoAAzNTQ;
         "spigot-1.21.9" = _VoAAzNTQ;
         "spigot-1.21.10" = _VoAAzNTQ;
+        "legacy-fabric-1.13.2" = _N3VCNfz3;
+        "ornithe-1.13" = _P1spnqeQ;
+        "ornithe-1.13.1" = _lZ6g40jM;
+        "ornithe-1.13.2" = _FXK4S2Bm;
+        "ornithe-1.14" = _Ebuidagj;
+        "ornithe-1.14.1" = _KfwgH2vw;
+        "ornithe-1.14.2" = _H8ieNQYb;
+        "ornithe-1.14.3" = _YMuGgXOd;
+        "ornithe-1.14.4" = _Ju8qe64D;
+        "nilloader-1.13" = _1HCSBhtT;
+        "nilloader-1.13.1" = _lLayDis4;
+        "nilloader-1.13.2" = _8m05bfLM;
+        "nilloader-1.14" = _iy7hLoZv;
+        "nilloader-1.14.1" = _aJkfogiJ;
+        "nilloader-1.14.2" = _XyWzPgLv;
+        "nilloader-1.14.3" = _CXbfxc1I;
+        "nilloader-1.14.4" = _KauLns48;
+        "nilloader-26.3" = _RhY2VhXQ;
         "pkg-1.0.0" = _Q0QXZauc;
         "pkg-1.0.2" = _gr87hWh1;
-        "pkg-1.1.0" = _259WQHFx;
+        "pkg-1.1.0" = _RhY2VhXQ;
         "pkg-1.1.1" = _HaARYPNd;
         "pkg-1.1.2" = _VoAAzNTQ;
-        "default" = _gr87hWh1;
+        "default" = _RhY2VhXQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jrw";

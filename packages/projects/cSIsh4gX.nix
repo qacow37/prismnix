@@ -356,6 +356,21 @@ let
             "file" = "display_case-fabric-26.3-1.4.3.jar";
             "hash" = "sha512-QJm/R9qa1S30f+BL7Uo0J6kDZwclocJEk9tRd/Hft4t50yf/WHzJJ6Wi5WEEb/oWW6UQ7hnkuPq1spD9ejw5Tw==";
         };
+        _a0BL14i8 = {
+            "id" = "a0BL14i8";
+            "file" = "display_case-fabric-1.20.1-1.4.4+1.20.1.jar";
+            "hash" = "sha512-Yl7HKd5ChK64GTL+v5l+8LEXLfiQe5yvV/c98sAaL9OPmZks/KTK4DXA1sHMlsg7+YUlFMs+kGYdnvF2Mb/gNA==";
+        };
+        _Wo8G64qr = {
+            "id" = "Wo8G64qr";
+            "file" = "display_case-forge-1.20.1-1.4.4+1.20.1.jar";
+            "hash" = "sha512-tDWa13tAIM1HY6xHLGQOm89xzTUhWqko8+IQ/PKDvBs6Kn7CjdkK3wbaQ0XEswhO0vwgnxQ06t5UjCr73MPKdQ==";
+        };
+        _g8BJZxFy = {
+            "id" = "g8BJZxFy";
+            "file" = "display_case-neoforge-1.20.1-1.4.4+1.20.1.jar";
+            "hash" = "sha512-yYjSVuT6qHajbXaaCeOrLuKneGM2QwNifu/Gdz5O0uQHOG/wrDM/ZD7lQkWqkDhRPTo8pGKrnVViNp6Zf1t4eg==";
+        };
     in {
         "7cy4yfln" = _7cy4yfln;
         "rlCKmU4Y" = _rlCKmU4Y;
@@ -428,6 +443,9 @@ let
         "63ckggww" = _63ckggww;
         "DBawnQz5" = _DBawnQz5;
         "hQZuEwCW" = _hQZuEwCW;
+        "a0BL14i8" = _a0BL14i8;
+        "Wo8G64qr" = _Wo8G64qr;
+        "g8BJZxFy" = _g8BJZxFy;
         "forge-1.18.2" = _6jXLdlj2;
         "forge-1.19" = _W2Hbbhqn;
         "forge-1.19.1" = _W2Hbbhqn;
@@ -435,7 +453,7 @@ let
         "forge-1.19.3" = _W2Hbbhqn;
         "forge-1.19.4" = _W2Hbbhqn;
         "forge-1.20" = _DQDfQ22z;
-        "forge-1.20.1" = _DQDfQ22z;
+        "forge-1.20.1" = _g8BJZxFy;
         "forge-1.20.2" = _625e47Gn;
         "forge-1.20.3" = _625e47Gn;
         "forge-1.20.4" = _muF7wiBC;
@@ -457,7 +475,7 @@ let
         "fabric-1.19.3" = _xgcqq08Z;
         "fabric-1.19.4" = _xgcqq08Z;
         "fabric-1.20" = _MmINtjAu;
-        "fabric-1.20.1" = _MmINtjAu;
+        "fabric-1.20.1" = _a0BL14i8;
         "fabric-1.20.2" = _2RQjJihu;
         "fabric-1.20.3" = _2RQjJihu;
         "fabric-1.20.4" = _eZKELknN;
@@ -526,7 +544,8 @@ let
         "pkg-1.4.1" = _63ckggww;
         "pkg-1.4.2" = _DBawnQz5;
         "pkg-1.4.3" = _hQZuEwCW;
-        "default" = _hQZuEwCW;
+        "pkg-1.4.4+1.20.1" = _g8BJZxFy;
+        "default" = _g8BJZxFy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "displaycase";

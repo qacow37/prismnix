@@ -81,6 +81,11 @@ let
             "file" = "nse-0.1.2.jar";
             "hash" = "sha512-7V85M+DaQuhQQlcCA8/6O8aDHGjAjPDdldVNtjvmGeLEn5UVTfHkj7KKnu5oR4bB7o8vlw0gp1gNWsf2oXKxlA==";
         };
+        _uhxXKdGm = {
+            "id" = "uhxXKdGm";
+            "file" = "nse-0.1.3.jar";
+            "hash" = "sha512-C2WuDshOIabVztnuc47X5Xt8CZZzVJ6m7EXAXXWy5f6h9QGgqOQDPkJHJoFR8bgeJdBqARw1ZdKax4LcEASZKw==";
+        };
     in {
         "yiGvu07J" = _yiGvu07J;
         "zTN7bQeQ" = _zTN7bQeQ;
@@ -98,8 +103,9 @@ let
         "XjVrwLWC" = _XjVrwLWC;
         "zZTvOaQE" = _zZTvOaQE;
         "QLZmFosB" = _QLZmFosB;
+        "uhxXKdGm" = _uhxXKdGm;
         "forge-1.20.1" = _7emMk5Pf;
-        "neoforge-1.21.1" = _QLZmFosB;
+        "neoforge-1.21.1" = _uhxXKdGm;
         "pkg-0.5.6" = _yiGvu07J;
         "pkg-1.20.1-0.6.0" = _zTN7bQeQ;
         "pkg-0.6.0.5" = _d3V0UThu;
@@ -115,7 +121,8 @@ let
         "pkg-1.21.1-0.1.0-BETA" = _XjVrwLWC;
         "pkg-1.21.1-0.1.1-BETA" = _zZTvOaQE;
         "pkg-1.21.1-0.1.2-BETA" = _QLZmFosB;
-        "default" = _QLZmFosB;
+        "pkg-1.21.1-0.1.3-BETA" = _uhxXKdGm;
+        "default" = _uhxXKdGm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naruto_new_shinobi_era";
