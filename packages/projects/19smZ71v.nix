@@ -286,6 +286,16 @@ let
             "file" = "summoningrituals-neoforge-1.21.1-3.14.2.jar";
             "hash" = "sha512-G4Xr+7PyLQPw3uR+4FOKtyf3gi856SrK9JKc++Lh67HPjf5YTqm30iPY2l12aBLhy1eBU1ViCcNPXdKHNhT2VA==";
         };
+        _jGe6Isgg = {
+            "id" = "jGe6Isgg";
+            "file" = "summoningrituals-neoforge-1.21.1-3.14.3.jar";
+            "hash" = "sha512-pDszpHBduutoyWWrwpE1+8e6w1qz2YLeof8oLIo0Ym2GI9EFnuZM4gJrUugXp7wxdR45MuaxLhuJivIArC1T2g==";
+        };
+        _zgqg95MG = {
+            "id" = "zgqg95MG";
+            "file" = "summoningrituals-neoforge-26.1.2-3.15.0.jar";
+            "hash" = "sha512-3hKYDdvADel12WMl8fFIm3pjhWQmuCpJLA66qX+vp0khc/K/X0Tby+Hho1ZHczIxSmSC9C/U8dmQqiMAd3XSxQ==";
+        };
     in {
         "xv30gBF8" = _xv30gBF8;
         "Q1H5wzuS" = _Q1H5wzuS;
@@ -344,12 +354,15 @@ let
         "API5g6Vt" = _API5g6Vt;
         "onR21RXD" = _onR21RXD;
         "UDFT3cby" = _UDFT3cby;
+        "jGe6Isgg" = _jGe6Isgg;
+        "zgqg95MG" = _zgqg95MG;
         "forge-1.18.2" = _AiFpXjsV;
         "forge-1.19.2" = _yfQCNCNg;
         "forge-1.20.1" = _onR21RXD;
         "fabric-1.19.2" = _ohzcpVjy;
         "neoforge-1.20.1" = _onR21RXD;
-        "neoforge-1.21.1" = _UDFT3cby;
+        "neoforge-1.21.1" = _jGe6Isgg;
+        "neoforge-26.1.2" = _zgqg95MG;
         "pkg-1.18.2-1.0.0" = _xv30gBF8;
         "pkg-1.18.2-1.1.0" = _Q1H5wzuS;
         "pkg-1.18.2-1.1.1" = _3k4boA72;
@@ -407,7 +420,9 @@ let
         "pkg-1.21.1-3.14.1+neoforge" = _API5g6Vt;
         "pkg-1.20.1-2.0.9+forge" = _onR21RXD;
         "pkg-1.21.1-3.14.2+neoforge" = _UDFT3cby;
-        "default" = _UDFT3cby;
+        "pkg-1.21.1-3.14.3+neoforge" = _jGe6Isgg;
+        "pkg-26.1.2-3.15.0+neoforge" = _zgqg95MG;
+        "default" = _zgqg95MG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "summoningrituals";

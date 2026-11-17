@@ -1451,6 +1451,26 @@ let
             "file" = "integratedterminals-26.1.2-neoforge-1.11.1-1100.jar";
             "hash" = "sha512-oJPuicvF3fa60yYNG6f+3ibjiCrlS6Wf+V3bPAjQUsuqNWq9BmvMbbtQrkGGFFNlVwSo0VgaRBtD+kbciGoocg==";
         };
+        _cO3p3jFt = {
+            "id" = "cO3p3jFt";
+            "file" = "IntegratedTerminals-1.20.1-1.7.1.jar";
+            "hash" = "sha512-k0wK0tXpj7SzfLwd7iVvunQGREwCKTF3kbKzWlas/P4902rSckDIwH8VqqboBrCU6jNw/y1MmXB+Oh3Rn84hWg==";
+        };
+        _IaxaFqUC = {
+            "id" = "IaxaFqUC";
+            "file" = "integratedterminals-26.1.2-neoforge-1.11.2.jar";
+            "hash" = "sha512-H9KN4E7WEDFV6WvTiTEK+H0eRP+dDogv6WMct65NaBOPHXAceCzoWTFcF1SNrsMj83c80g1aJcltPAJ2tF84Lg==";
+        };
+        _LStwrqNQ = {
+            "id" = "LStwrqNQ";
+            "file" = "integratedterminals-1.21.1-neoforge-1.11.2.jar";
+            "hash" = "sha512-jgInOdnkEz3zNACeGNN6l3GHm1x2kOEKewUECe0eoC774hcaQ+rkjtgtMQOJSuGk6BLky19J76l0MLkkI3rs9g==";
+        };
+        _LbRZ3qNm = {
+            "id" = "LbRZ3qNm";
+            "file" = "integratedterminals-26.3-neoforge-1.7.0-1111.jar";
+            "hash" = "sha512-iwa2tftT2agslBSWgftODPIeKlGPzhpOaAkhb+OozzaBa/pLQScGrNJpBB9UxFJ48KEkTb+Se1NL9ZS4zeCVxg==";
+        };
     in {
         "ZHFPHLDw" = _ZHFPHLDw;
         "I6s5UbRW" = _I6s5UbRW;
@@ -1742,23 +1762,27 @@ let
         "eKTFYRzJ" = _eKTFYRzJ;
         "yU5A0JiC" = _yU5A0JiC;
         "iPRSupXB" = _iPRSupXB;
+        "cO3p3jFt" = _cO3p3jFt;
+        "IaxaFqUC" = _IaxaFqUC;
+        "LStwrqNQ" = _LStwrqNQ;
+        "LbRZ3qNm" = _LbRZ3qNm;
         "forge-1.18.2" = _IBQpAttK;
         "forge-1.19" = _rD380a2t;
         "forge-1.19.2" = _OucDz2J3;
         "forge-1.19.3" = _7NixaXCQ;
         "forge-1.19.4" = _IZCjB6Xo;
-        "forge-1.20.1" = _61hzWuVE;
+        "forge-1.20.1" = _cO3p3jFt;
         "neoforge-1.20.4" = _ppaulrbH;
         "neoforge-1.21" = _sqLb5rKE;
-        "neoforge-1.21.1" = _yU5A0JiC;
+        "neoforge-1.21.1" = _LStwrqNQ;
         "neoforge-1.21.4" = _fMBXXVYB;
         "neoforge-1.21.8" = _quIemGpB;
         "neoforge-1.21.10" = _QtDqGHti;
         "neoforge-1.21.11" = _ML5OjYR9;
         "neoforge-26.1.1" = _ZoyBVSWG;
-        "neoforge-26.1.2" = _iPRSupXB;
+        "neoforge-26.1.2" = _IaxaFqUC;
         "neoforge-26.2" = _3wrJGXcp;
-        "neoforge-26.3" = _eKTFYRzJ;
+        "neoforge-26.3" = _LbRZ3qNm;
         "pkg-1.2.16" = _ZHFPHLDw;
         "pkg-1.3.0" = _I6s5UbRW;
         "pkg-1.19-1.3.0" = _hbjN2ulZ;
@@ -2049,7 +2073,11 @@ let
         "pkg-26.3-1.7.0-1098" = _eKTFYRzJ;
         "pkg-1.21.1-1.11.1" = _yU5A0JiC;
         "pkg-26.1.2-1.11.1-1100" = _iPRSupXB;
-        "default" = _iPRSupXB;
+        "pkg-1.20.1-1.7.1" = _cO3p3jFt;
+        "pkg-26.1.2-1.11.2" = _IaxaFqUC;
+        "pkg-1.21.1-1.11.2" = _LStwrqNQ;
+        "pkg-26.3-1.7.0-1111" = _LbRZ3qNm;
+        "default" = _LbRZ3qNm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-terminals";

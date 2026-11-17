@@ -166,6 +166,16 @@ let
             "file" = "shellbound_for_airship-2.0.0-26.3.jar";
             "hash" = "sha512-xJitUKppXn1FFx+dl3g7RjTndepokkBQP0FV+GTMsNNGJjZXKUvd4Qb2K9YR7EC7KZIDALnrQm5Jd+LedNuFjg==";
         };
+        _8M6p1sm1 = {
+            "id" = "8M6p1sm1";
+            "file" = "shellbound-for-airship-2.0.0.jar";
+            "hash" = "sha512-NEgMYXGtoXfjKaEZEJIpgZuNlxm/AXZUw7Pk1mLjLz0dShybZjhYPXd/1It2FGXS/TZIyDXv5kx2NZpwCoo3sQ==";
+        };
+        _zMsDe7Sc = {
+            "id" = "zMsDe7Sc";
+            "file" = "shellbound_for_airship-2.0.0.jar";
+            "hash" = "sha512-p/lg/DWWvly83i/ZVmz/Fs6YktDfqCJHqggvBECUWp1GMfm4q1zlu9IcdPovlqLk3Y7YZhw1vBYEVUIYNgVZhg==";
+        };
     in {
         "eQWdHGbC" = _eQWdHGbC;
         "OtFNinbJ" = _OtFNinbJ;
@@ -200,6 +210,8 @@ let
         "IiH8ejcS" = _IiH8ejcS;
         "mM2rgPs8" = _mM2rgPs8;
         "FOkimOeZ" = _FOkimOeZ;
+        "8M6p1sm1" = _8M6p1sm1;
+        "zMsDe7Sc" = _zMsDe7Sc;
         "fabric-1.21.9" = _z2uux3QQ;
         "fabric-1.21.10" = _z2uux3QQ;
         "fabric-1.21.6" = _OtFNinbJ;
@@ -209,8 +221,8 @@ let
         "fabric-1.21.4" = _eKiMcjiz;
         "fabric-1.21.2" = _Jjb1twqN;
         "fabric-1.21.3" = _Jjb1twqN;
-        "fabric-1.21" = _s511WoyI;
-        "fabric-1.21.1" = _s511WoyI;
+        "fabric-1.21" = _8M6p1sm1;
+        "fabric-1.21.1" = _8M6p1sm1;
         "fabric-1.21.11" = _WdM3VuOZ;
         "fabric-1.20" = _33tQCq5C;
         "fabric-1.20.1" = _33tQCq5C;
@@ -233,8 +245,8 @@ let
         "quilt-1.20.4" = _rdxPJeWD;
         "quilt-1.20.5" = _3Jauqb8V;
         "quilt-1.20.6" = _3Jauqb8V;
-        "neoforge-1.21" = _JZtRFKlv;
-        "neoforge-1.21.1" = _JZtRFKlv;
+        "neoforge-1.21" = _zMsDe7Sc;
+        "neoforge-1.21.1" = _zMsDe7Sc;
         "neoforge-1.21.11" = _53CLuoZ4;
         "neoforge-26.1.2" = _IiH8ejcS;
         "neoforge-26.1.1" = _IiH8ejcS;
@@ -246,8 +258,8 @@ let
         "pkg-1.0.0" = _cwcRVI2o;
         "pkg-1.0.1" = _JnnyJTxT;
         "pkg-1.2.1" = _33tQCq5C;
-        "pkg-2.0.0" = _FOkimOeZ;
-        "default" = _FOkimOeZ;
+        "pkg-2.0.0" = _zMsDe7Sc;
+        "default" = _zMsDe7Sc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shellbound-for-airship";

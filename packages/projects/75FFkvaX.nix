@@ -101,6 +101,11 @@ let
             "file" = "CosmereAviar-1.20.1-47.3.0-0.7.113.jar";
             "hash" = "sha512-eYlC4jM+cTyvQKj7IVe5isuJca4E8r3yykLVOrLSFqu+0UMAqGV89+QKtnkd41WlKFqR/0cil9Zw+xFUdm9uKQ==";
         };
+        _8PgvJYLa = {
+            "id" = "8PgvJYLa";
+            "file" = "CosmereAviar-1.21.1-21.1.219-0.8.114.jar";
+            "hash" = "sha512-TZY393it4D3vqNi8y+YDEHVtMKDVj4G+BtigJA7cCeNPcPzAA6GYtGMbTB/7g+W9sCicxN6WpB5HNmKYyhL/Yg==";
+        };
     in {
         "bdENDIoO" = _bdENDIoO;
         "l9dE1Y5A" = _l9dE1Y5A;
@@ -122,9 +127,11 @@ let
         "BambzH3C" = _BambzH3C;
         "UL0jXe4j" = _UL0jXe4j;
         "MlErbUKE" = _MlErbUKE;
+        "8PgvJYLa" = _8PgvJYLa;
         "forge-1.19.2" = _9S8MkapX;
         "forge-1.20.1" = _MlErbUKE;
         "neoforge-1.20.1" = _MlErbUKE;
+        "neoforge-1.21.1" = _8PgvJYLa;
         "pkg-0.5.88" = _bdENDIoO;
         "pkg-0.5.89" = _l9dE1Y5A;
         "pkg-0.5.90" = _KEANCjkA;
@@ -145,7 +152,8 @@ let
         "pkg-0.7.111" = _BambzH3C;
         "pkg-0.7.112" = _UL0jXe4j;
         "pkg-0.7.113" = _MlErbUKE;
-        "default" = _MlErbUKE;
+        "pkg-0.8.114" = _8PgvJYLa;
+        "default" = _8PgvJYLa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aviar";

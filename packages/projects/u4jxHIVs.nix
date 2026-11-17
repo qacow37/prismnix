@@ -36,6 +36,16 @@ let
             "file" = "Fullbright by Finnvian.zip";
             "hash" = "sha512-Jq89V7VZZBy5QtPAV8U7iLdJJyUUJlAyw5utAHP86E9PHhe8e6SH8Xl6dV3zuAKVIYOBWhOvCB2DU9nNddxL0g==";
         };
+        _L0JRi3wL = {
+            "id" = "L0JRi3wL";
+            "file" = "Fullbright by Finnvian.zip";
+            "hash" = "sha512-KV830e/E51PU8trZM8KmbEDGhOYfOoOwPRN/3sXv1bZhbRtdJ0Yy5GyOm/qeqAGPkwyviRkb8okG4vrKsupizg==";
+        };
+        _J5rDWeWL = {
+            "id" = "J5rDWeWL";
+            "file" = "Fullbright by Finnvian.zip";
+            "hash" = "sha512-B+eSQZlTMGUdPX8/Gkv4aA1iaKX7WLvujPYELA5sjlC1CBpGN1DwZfDOPEqvxm/g64G2ta3BSwBVk523HQldCA==";
+        };
     in {
         "qn1XJUvc" = _qn1XJUvc;
         "r8EBp2yX" = _r8EBp2yX;
@@ -44,6 +54,8 @@ let
         "D41SaQtw" = _D41SaQtw;
         "j9FbKUcx" = _j9FbKUcx;
         "BGzyAfF3" = _BGzyAfF3;
+        "L0JRi3wL" = _L0JRi3wL;
+        "J5rDWeWL" = _J5rDWeWL;
         "minecraft-1.21" = _qn1XJUvc;
         "minecraft-1.21.1" = _qn1XJUvc;
         "minecraft-1.21.2" = _qn1XJUvc;
@@ -109,6 +121,15 @@ let
         "minecraft-26.3-snapshot-5" = _BGzyAfF3;
         "minecraft-26.3-snapshot-6" = _BGzyAfF3;
         "minecraft-26.3-snapshot-7" = _BGzyAfF3;
+        "minecraft-26.3" = _L0JRi3wL;
+        "minecraft-26.4-snapshot-1" = _J5rDWeWL;
+        "minecraft-26.4-snapshot-2" = _J5rDWeWL;
+        "minecraft-26.4-snapshot-3" = _J5rDWeWL;
+        "minecraft-26.4-snapshot-4" = _J5rDWeWL;
+        "minecraft-26.4-snapshot-5" = _J5rDWeWL;
+        "minecraft-26.4-snapshot-6" = _J5rDWeWL;
+        "minecraft-26.4-snapshot-7" = _J5rDWeWL;
+        "minecraft-26.4-snapshot-8" = _J5rDWeWL;
         "pkg-1.0" = _qn1XJUvc;
         "pkg-1.1" = _r8EBp2yX;
         "pkg-1.2" = _tUb3BAcX;
@@ -116,7 +137,9 @@ let
         "pkg-1.4" = _D41SaQtw;
         "pkg-1.5" = _j9FbKUcx;
         "pkg-1.5.1" = _BGzyAfF3;
-        "default" = _BGzyAfF3;
+        "pkg-1.6" = _L0JRi3wL;
+        "pkg-1.6.1" = _J5rDWeWL;
+        "default" = _J5rDWeWL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fullbright-resource-pack";

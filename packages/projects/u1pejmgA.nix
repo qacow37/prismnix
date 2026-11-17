@@ -101,6 +101,11 @@ let
             "file" = "CosmereAllomancy-1.20.1-47.3.0-0.7.113.jar";
             "hash" = "sha512-5q58fV+4EyQS3mKqPE+K5K6PuTCjK7e9R7lDlh0CHTChnhi8vyCqiLmMOgiW2PkU5defr3VCD/rBpjJVnhvbkQ==";
         };
+        _weZXWzCM = {
+            "id" = "weZXWzCM";
+            "file" = "CosmereAllomancy-1.21.1-21.1.219-0.8.114.jar";
+            "hash" = "sha512-ah0FzKne6+EUBXbfOd2cnWWR4Augzf3q5FHB4md3vJmNfNBfagkHv88YzJ3jPNcC2k/hhXdcjc2S03iHqsMwIA==";
+        };
     in {
         "1xPvcCV2" = _1xPvcCV2;
         "34QQDwpo" = _34QQDwpo;
@@ -122,9 +127,11 @@ let
         "e1Bw3EoF" = _e1Bw3EoF;
         "LwlxawLZ" = _LwlxawLZ;
         "x4kymVoc" = _x4kymVoc;
+        "weZXWzCM" = _weZXWzCM;
         "forge-1.19.2" = _YxEVCBNn;
         "forge-1.20.1" = _x4kymVoc;
         "neoforge-1.20.1" = _x4kymVoc;
+        "neoforge-1.21.1" = _weZXWzCM;
         "pkg-0.5.88" = _1xPvcCV2;
         "pkg-0.5.89" = _34QQDwpo;
         "pkg-0.5.90" = _WqZ7LD3v;
@@ -145,7 +152,8 @@ let
         "pkg-0.7.111" = _e1Bw3EoF;
         "pkg-0.7.112" = _LwlxawLZ;
         "pkg-0.7.113" = _x4kymVoc;
-        "default" = _x4kymVoc;
+        "pkg-0.8.114" = _weZXWzCM;
+        "default" = _weZXWzCM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allomancer";

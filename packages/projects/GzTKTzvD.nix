@@ -406,6 +406,31 @@ let
             "file" = "oraclium-1.0.0.jar";
             "hash" = "sha512-q7CB5klD172zr3o6lS5DDmEljmWkFkb9IalIcKuG1SXIgQkz+4G+tuD0P8QDSUTtN+jejzGLOeTYAn1PomQZUg==";
         };
+        _OUFht7Oq = {
+            "id" = "OUFht7Oq";
+            "file" = "oraclium-3.2.0.jar";
+            "hash" = "sha512-zsdt+zrVTzFZcDoLv5UFX6uZLf4p3WmyzgDH+MrwWh1h7kqbHCbIwF2lr6AvfbQgylyYbQcQalYMnNqJFARLtg==";
+        };
+        _bimXkny1 = {
+            "id" = "bimXkny1";
+            "file" = "oraclium-3.2.0.jar";
+            "hash" = "sha512-tiTHQgCi/yjYyIBUeNBuqruBpzoVNZdnU/KNjxwz6mIwSlRmsKQmdWKRuJZ1euuq68VZE+xqaoQjKwdWv0izKA==";
+        };
+        _zmGu6crc = {
+            "id" = "zmGu6crc";
+            "file" = "oraclium-3.2.0.jar";
+            "hash" = "sha512-QAxWLZtnqN5k2JPydw8HIUr2gsMXeAfMMQrDvZfaX1Op6XwA/WYaBjhQmDTc0ZXnK2vjqSgqQmFaqquy6WO4lQ==";
+        };
+        _3GVtft1X = {
+            "id" = "3GVtft1X";
+            "file" = "oraclium-3.2.0.jar";
+            "hash" = "sha512-p5zMmUErJ+GJHKk0fY3B6k83nWNhwRTlN8jE47yBWYsI3LICabA6R/vYNm/lcnbSSO09NcZu0HMt9xmmY/jgUQ==";
+        };
+        _wB2hPzJH = {
+            "id" = "wB2hPzJH";
+            "file" = "oraclium-3.2.0.jar";
+            "hash" = "sha512-sdWvZKiykGreLXAr2kJc7jA5hH+EwSef6r7HLhlNuulQbt+b3vLkNMzwa+y7of73aWnQzT0Bu7m46kE8YMMYPg==";
+        };
     in {
         "eRl0YByp" = _eRl0YByp;
         "djSFHxUO" = _djSFHxUO;
@@ -488,14 +513,19 @@ let
         "wMlByVXt" = _wMlByVXt;
         "dCvsEoP7" = _dCvsEoP7;
         "jpxQk1S6" = _jpxQk1S6;
+        "OUFht7Oq" = _OUFht7Oq;
+        "bimXkny1" = _bimXkny1;
+        "zmGu6crc" = _zmGu6crc;
+        "3GVtft1X" = _3GVtft1X;
+        "wB2hPzJH" = _wB2hPzJH;
         "neoforge-1.21.4" = _WRyYKTTx;
-        "neoforge-1.21.8" = _wMlByVXt;
-        "neoforge-1.21.11" = _dCvsEoP7;
-        "neoforge-26.2" = _jpxQk1S6;
+        "neoforge-1.21.8" = _zmGu6crc;
+        "neoforge-1.21.11" = _3GVtft1X;
+        "neoforge-26.2" = _wB2hPzJH;
         "forge-1.20.1" = _6oG1t1JF;
         "fabric-1.21.8" = _bqFhLXik;
-        "fabric-1.21.11" = _7Uzht105;
-        "fabric-26.2" = _UY9OuBMg;
+        "fabric-1.21.11" = _OUFht7Oq;
+        "fabric-26.2" = _bimXkny1;
         "pkg-1.12.11" = _eRl0YByp;
         "pkg-1.13.11" = _djSFHxUO;
         "pkg-1.13.12" = _M1mR38bz;
@@ -553,7 +583,8 @@ let
         "pkg-3.2.0" = _9Hpll7xV;
         "pkg-3.3.0" = _Go6DY4JF;
         "pkg-3.4.0" = _dCvsEoP7;
-        "default" = _jpxQk1S6;
+        "pkg-2026.1" = _wB2hPzJH;
+        "default" = _wB2hPzJH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oraclium";

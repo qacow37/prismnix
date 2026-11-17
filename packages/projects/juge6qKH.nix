@@ -996,6 +996,31 @@ let
             "file" = "ThirstWasTaken2-1.11.0+1.20.1-forge.jar";
             "hash" = "sha512-yzcJuNhIoqIx8eP4Ih92ye3ocGF2CHo5AnEHj4nJ4Tge1JW2sHiknqfk+0W5tH2o02EgU2hiKjbuNY33t//1/Q==";
         };
+        _bhEjsZWJ = {
+            "id" = "bhEjsZWJ";
+            "file" = "ThirstWasTaken2-1.11.1+26.3.jar";
+            "hash" = "sha512-ykAYNNmtK4B6IcFIcMv3I+GsgkgJl9KLH4wn5TGinXl2lTzQgw9pEtKAgzO3oEZBD2stWRyWw+9xr+sXbxxjQQ==";
+        };
+        _Bnb31y30 = {
+            "id" = "Bnb31y30";
+            "file" = "ThirstWasTaken2-1.11.1+26.2.jar";
+            "hash" = "sha512-bNF4w7CV+qyooSjnOy6G0/SJAbWb1pVXSNiFcF5toQNHfoHsIFJxFd3AdrFXcnut2N8DLyq4uirkpo/XN442cQ==";
+        };
+        _noevcRYM = {
+            "id" = "noevcRYM";
+            "file" = "ThirstWasTaken2-1.11.1+26.1.2.jar";
+            "hash" = "sha512-Wd7GNFLMmlvTP9syVjt1EEH8yt4uth+2hL1bXVEkxegUJ1AqF6uunERIPHUS0AYJ1Hoqn1Dww7Ub0XdRWuj7yw==";
+        };
+        _1PhgQxMm = {
+            "id" = "1PhgQxMm";
+            "file" = "ThirstWasTaken2-1.11.1+1.21.1.jar";
+            "hash" = "sha512-eqcYrM1WPGh/xGrYCYDYJi9kWZV+ZsCPt/z2jJomUBJ0xAg0z4Ads2ngu1XQ8aedWO3CJxnDlL9LjlvgWKAx3A==";
+        };
+        _4EBqBAJI = {
+            "id" = "4EBqBAJI";
+            "file" = "ThirstWasTaken2-1.11.1+1.20.1.jar";
+            "hash" = "sha512-mT8lXSM1DWafkjCFbzT8TKQtDie/M+mWPJIDDGKIBNwFnYfe7hj7kQNJZe99M5zBPuWgxrrXMWtYei93kM5HSA==";
+        };
     in {
         "FGl6DHH0" = _FGl6DHH0;
         "Lc7zbhE7" = _Lc7zbhE7;
@@ -1196,15 +1221,20 @@ let
         "Cxs4e81y" = _Cxs4e81y;
         "C71MkyNY" = _C71MkyNY;
         "k9f1L6fE" = _k9f1L6fE;
-        "fabric-26.2" = _ENPKzOoI;
-        "fabric-26.1" = _YDaZfSTJ;
-        "fabric-26.1.1" = _YDaZfSTJ;
-        "fabric-26.1.2" = _YDaZfSTJ;
+        "bhEjsZWJ" = _bhEjsZWJ;
+        "Bnb31y30" = _Bnb31y30;
+        "noevcRYM" = _noevcRYM;
+        "1PhgQxMm" = _1PhgQxMm;
+        "4EBqBAJI" = _4EBqBAJI;
+        "fabric-26.2" = _Bnb31y30;
+        "fabric-26.1" = _noevcRYM;
+        "fabric-26.1.1" = _noevcRYM;
+        "fabric-26.1.2" = _noevcRYM;
         "fabric-1.21.11" = _Cx9U2dod;
-        "fabric-1.21" = _fLkzP943;
-        "fabric-1.21.1" = _fLkzP943;
-        "fabric-26.3" = _yCsw84Q1;
-        "fabric-1.20.1" = _aRPktg53;
+        "fabric-1.21" = _1PhgQxMm;
+        "fabric-1.21.1" = _1PhgQxMm;
+        "fabric-26.3" = _bhEjsZWJ;
+        "fabric-1.20.1" = _4EBqBAJI;
         "neoforge-26.2" = _KBPIKXYy;
         "neoforge-26.1" = _Cxs4e81y;
         "neoforge-26.1.1" = _Cxs4e81y;
@@ -1412,7 +1442,12 @@ let
         "pkg-1.11.0+26.1.2-neoforge" = _Cxs4e81y;
         "pkg-1.11.0+1.21.1-neoforge" = _C71MkyNY;
         "pkg-1.11.0+1.20.1-forge" = _k9f1L6fE;
-        "default" = _k9f1L6fE;
+        "pkg-1.11.1+26.3" = _bhEjsZWJ;
+        "pkg-1.11.1+26.2" = _Bnb31y30;
+        "pkg-1.11.1+26.1.2" = _noevcRYM;
+        "pkg-1.11.1+1.21.1" = _1PhgQxMm;
+        "pkg-1.11.1+1.20.1" = _4EBqBAJI;
+        "default" = _4EBqBAJI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thirst-was-taken-2";

@@ -96,6 +96,16 @@ let
             "file" = "lendersdelight-1.21.1-1.0.10b.jar";
             "hash" = "sha512-BmlF2NLYDTN4i+5QsMTDuGtdQ+PlYVX+D1u4bHm8RrXx6FRzdRU0MDDVrFNbXuXEjijO9v2y8pmgDrXCuorzeg==";
         };
+        _r1IyrRNE = {
+            "id" = "r1IyrRNE";
+            "file" = "lendersdelight-1.20.1-1.0.10c.jar";
+            "hash" = "sha512-2u1RkjLAM0yWwRYQocXXkml4U58B7EmYo9g4J5V0WzV68vkIxEFyx1Qm/zg1CuG0uNCsRJ0g5uJDOA/pDPcFkA==";
+        };
+        _WNfuGV3j = {
+            "id" = "WNfuGV3j";
+            "file" = "lendersdelight-1.21.1-1.0.10c.jar";
+            "hash" = "sha512-yhJu4TR1EyRc/V95qbZVcRVByAgrr+L4NjscOQeSpYF1fC0psu/+O5/+fzKUco1OOC+PVkQbHUzTxphCjxCPZQ==";
+        };
     in {
         "JrObecT5" = _JrObecT5;
         "zQy5VSlS" = _zQy5VSlS;
@@ -116,8 +126,10 @@ let
         "E9b2qhhr" = _E9b2qhhr;
         "A3ZdFfKb" = _A3ZdFfKb;
         "cl5zVy2S" = _cl5zVy2S;
-        "forge-1.20.1" = _A3ZdFfKb;
-        "neoforge-1.21.1" = _cl5zVy2S;
+        "r1IyrRNE" = _r1IyrRNE;
+        "WNfuGV3j" = _WNfuGV3j;
+        "forge-1.20.1" = _r1IyrRNE;
+        "neoforge-1.21.1" = _WNfuGV3j;
         "pkg-1.0.3-1.20.1" = _JrObecT5;
         "pkg-1.0.4-1.20.1" = _zQy5VSlS;
         "pkg-1.0.4-1.21.1" = _OgLeas0z;
@@ -137,7 +149,9 @@ let
         "pkg-1.21.1-1.0.10a" = _E9b2qhhr;
         "pkg-1.20.1-1.0.10b" = _A3ZdFfKb;
         "pkg-1.21.1-1.0.10b" = _cl5zVy2S;
-        "default" = _cl5zVy2S;
+        "pkg-1.20.1-1.0.10c" = _r1IyrRNE;
+        "pkg-1.21.1-1.0.10c" = _WNfuGV3j;
+        "default" = _WNfuGV3j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "l_enders-cataclysm-delight";

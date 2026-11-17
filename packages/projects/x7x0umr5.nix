@@ -46,6 +46,11 @@ let
             "file" = "unraveling_spells-1.20.1-1.3.0a.jar";
             "hash" = "sha512-pOYzrSF1LHAwSaUqaGyrFObxftc1VWOq37WE5WiijcNepzVMUGhckbY4jROxvgJ3YHzJY7Yu96ESEjTSiwrSXw==";
         };
+        _6oi9ycEl = {
+            "id" = "6oi9ycEl";
+            "file" = "unraveling_spells-1.20.1-1.3.0b.jar";
+            "hash" = "sha512-fp/ekTE+WpsiVfWmcnQ5bFjXo0ZuSPrPgtdvaIZ3z9vqbuMFlcxbAVVXuSXf2Z9IdkQzt7DIWDyP00aQnOFyew==";
+        };
     in {
         "hvE6WOc8" = _hvE6WOc8;
         "RllHlbCR" = _RllHlbCR;
@@ -56,7 +61,8 @@ let
         "Y8L3wTqm" = _Y8L3wTqm;
         "KFL0C2EL" = _KFL0C2EL;
         "C7qoUTkm" = _C7qoUTkm;
-        "forge-1.20.1" = _C7qoUTkm;
+        "6oi9ycEl" = _6oi9ycEl;
+        "forge-1.20.1" = _6oi9ycEl;
         "neoforge-1.21.1" = _KFL0C2EL;
         "pkg-1.0.1" = _hvE6WOc8;
         "pkg-1.1.0" = _RllHlbCR;
@@ -66,7 +72,8 @@ let
         "pkg-1.2.0a" = _AGf1rv08;
         "pkg-1.2.0b" = _KFL0C2EL;
         "pkg-1.3.0a" = _C7qoUTkm;
-        "default" = _C7qoUTkm;
+        "pkg-1.3.0b" = _6oi9ycEl;
+        "default" = _6oi9ycEl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unraveling-the-spells";

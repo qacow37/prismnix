@@ -1216,6 +1216,11 @@ let
             "file" = "MinecraftCapes Babric b1.7.3-1.1.0.jar";
             "hash" = "sha512-78qm3IfiepznHB9MK4aDYxLEN+k01vTzri4uSrsAoU5UtlaSta/khnGYap0088Ejqj/5sB171u1A5sYMcvxlMA==";
         };
+        _gMZ1eKPN = {
+            "id" = "gMZ1eKPN";
+            "file" = "MinecraftCapes Forge 1.8.9-1.1.2.jar";
+            "hash" = "sha512-1WXqxRhu/mnl4swMuDFLi+AFo247KptvhhR5lE/RSh6YJyO0lKWCfaXk9O/i03GoRq5VO4zzFZgramjR98fSsw==";
+        };
     in {
         "N0wfcmUF" = _N0wfcmUF;
         "h0YmF5PM" = _h0YmF5PM;
@@ -1460,6 +1465,7 @@ let
         "AzN73qv6" = _AzN73qv6;
         "l59bX65V" = _l59bX65V;
         "HjmiwbG2" = _HjmiwbG2;
+        "gMZ1eKPN" = _gMZ1eKPN;
         "fabric-1.14.4" = _R6ecaqGz;
         "fabric-1.15.2" = _jz17VPNg;
         "fabric-1.16.5" = _6Xtf77gh;
@@ -1510,7 +1516,7 @@ let
         "forge-1.11.2" = _RSAOAwPh;
         "forge-1.12.2" = _hs14KIMC;
         "forge-1.7.10" = _r3k4PH9B;
-        "forge-1.8.9" = _7ILnUXFn;
+        "forge-1.8.9" = _gMZ1eKPN;
         "forge-1.9.4" = _Kp4ZfKVZ;
         "forge-1.21.11" = _18UiBsfG;
         "forge-1.19.2" = _pRvnS4Mc;
@@ -1767,7 +1773,8 @@ let
         "pkg-ornithe-1.8.9-1.1.0" = _AzN73qv6;
         "pkg-ornithe-b1.7.3-1.1.0" = _l59bX65V;
         "pkg-babric-b1.7.3-1.1.0" = _HjmiwbG2;
-        "default" = _HjmiwbG2;
+        "pkg-forge-1.8.9-1.1.2" = _gMZ1eKPN;
+        "default" = _gMZ1eKPN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraftcapes";

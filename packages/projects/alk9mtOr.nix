@@ -351,6 +351,11 @@ let
             "file" = "MoVariants-V9.0-mc26.3.zip";
             "hash" = "sha512-1ej7HRhv/WSJfsR1blt1cBcpOCyOMcxcG1RMOsKtJJ7mKVhMtoyRZvzur4MGPDYOnl8H/yaTv4E1yUPsKfVEgQ==";
         };
+        _waj8ETOj = {
+            "id" = "waj8ETOj";
+            "file" = "mo-variants-9.0.jar";
+            "hash" = "sha512-UTMFkMl47GGpmIv6+2IgMxqbbJ6ro+QkvMZjx0KxCVu2z92gI4cEQtyiItYkN655nd6QuF6xJWyQeC0cPJmf+A==";
+        };
     in {
         "FMXfJf7s" = _FMXfJf7s;
         "Uddvc7Ez" = _Uddvc7Ez;
@@ -422,6 +427,7 @@ let
         "d0qFCrhT" = _d0qFCrhT;
         "zSfAV2Kk" = _zSfAV2Kk;
         "LDDF0Nul" = _LDDF0Nul;
+        "waj8ETOj" = _waj8ETOj;
         "datapack-1.20.2" = _Dj3bEa0m;
         "datapack-1.20" = _Dj3bEa0m;
         "datapack-1.20.1" = _Dj3bEa0m;
@@ -478,6 +484,7 @@ let
         "fabric-26.1" = _zSfAV2Kk;
         "fabric-26.1.1" = _zSfAV2Kk;
         "fabric-26.1.2" = _zSfAV2Kk;
+        "fabric-26.3" = _waj8ETOj;
         "forge-1.20.2" = _vxYLK79H;
         "forge-1.20.3" = _vxYLK79H;
         "forge-1.20.4" = _vxYLK79H;
@@ -505,6 +512,7 @@ let
         "forge-26.1" = _zSfAV2Kk;
         "forge-26.1.1" = _zSfAV2Kk;
         "forge-26.1.2" = _zSfAV2Kk;
+        "forge-26.3" = _waj8ETOj;
         "quilt-1.20.2" = _vxYLK79H;
         "quilt-1.20.3" = _vxYLK79H;
         "quilt-1.20.4" = _vxYLK79H;
@@ -532,6 +540,7 @@ let
         "quilt-26.1" = _zSfAV2Kk;
         "quilt-26.1.1" = _zSfAV2Kk;
         "quilt-26.1.2" = _zSfAV2Kk;
+        "quilt-26.3" = _waj8ETOj;
         "neoforge-1.20" = _vxYLK79H;
         "neoforge-1.20.1" = _vxYLK79H;
         "neoforge-1.20.4" = _vxYLK79H;
@@ -551,6 +560,7 @@ let
         "neoforge-26.1" = _zSfAV2Kk;
         "neoforge-26.1.1" = _zSfAV2Kk;
         "neoforge-26.1.2" = _zSfAV2Kk;
+        "neoforge-26.3" = _waj8ETOj;
         "pkg-6.1" = _FMXfJf7s;
         "pkg-6.2.1" = _Uddvc7Ez;
         "pkg-6.3.1" = _ZrDEQXY3;
@@ -619,7 +629,8 @@ let
         "pkg-8.1" = _d0qFCrhT;
         "pkg-8.1+mod" = _zSfAV2Kk;
         "pkg-9.0" = _LDDF0Nul;
-        "default" = _LDDF0Nul;
+        "pkg-9.0+mod" = _waj8ETOj;
+        "default" = _waj8ETOj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mo-variants";

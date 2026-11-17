@@ -11,9 +11,15 @@ let
             "file" = "retiNO-ver-26.1-1.1.0.jar";
             "hash" = "sha512-sD+v2OHnJdxivlS1LoAL0jEngxIw7FQbi9uZGmNKVUunx2lfoRPXxfrlmC54VKTStXOhr8gpirTocxkuidIw9g==";
         };
+        _jfyTd1PG = {
+            "id" = "jfyTd1PG";
+            "file" = "retiNO-1.2.0.jar";
+            "hash" = "sha512-i6Zb1yLxfKyJPoYKk3Rq3qV/AhvHsC+0KtJeh/4E1ynkaEWfIlxuQmm1oo9UPSJkvLtlar4tus2YrCqosLsQdA==";
+        };
     in {
         "gyLsjEk8" = _gyLsjEk8;
         "WXp30SQo" = _WXp30SQo;
+        "jfyTd1PG" = _jfyTd1PG;
         "fabric-1.16.4" = _gyLsjEk8;
         "fabric-1.16.5" = _gyLsjEk8;
         "fabric-1.17" = _gyLsjEk8;
@@ -49,6 +55,7 @@ let
         "fabric-26.1.1" = _WXp30SQo;
         "fabric-26.1.2" = _WXp30SQo;
         "fabric-26.2" = _WXp30SQo;
+        "fabric-26.3" = _jfyTd1PG;
         "quilt-1.16.4" = _gyLsjEk8;
         "quilt-1.16.5" = _gyLsjEk8;
         "quilt-1.17" = _gyLsjEk8;
@@ -82,7 +89,8 @@ let
         "quilt-1.21.11" = _gyLsjEk8;
         "pkg-1.0.1" = _gyLsjEk8;
         "pkg-1.1.0" = _WXp30SQo;
-        "default" = _WXp30SQo;
+        "pkg-1.2.0" = _jfyTd1PG;
+        "default" = _jfyTd1PG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "retino";

@@ -96,6 +96,11 @@ let
             "file" = "MoreBeautifulPlates-neoforge-1.21.1-1.8.0.jar";
             "hash" = "sha512-SQ9JRrhCLw8xaJXatI9YiZHNkXZHtBWbSvEwIJs6F51xwJMMB187gAgCbM4e+7LTuXmkAnHauYkf4aFNyLJ8KQ==";
         };
+        _cAuyzarE = {
+            "id" = "cAuyzarE";
+            "file" = "More-Beautiful-Plates-2.0.9-MC26.3-NeoForge.jar";
+            "hash" = "sha512-ZcyqO7hcwPyKkIu8/k1ZeSiOy2qDVbBoofkdgdNP26NJ1spiXjobae1Wm4cNlpcUJ0i90Lf9RUQ7qH1c6THF/w==";
+        };
     in {
         "fhSV3Aot" = _fhSV3Aot;
         "kFB5dAqU" = _kFB5dAqU;
@@ -116,6 +121,7 @@ let
         "l4j0ZOEF" = _l4j0ZOEF;
         "6q0KBuK5" = _6q0KBuK5;
         "KfOqXHxH" = _KfOqXHxH;
+        "cAuyzarE" = _cAuyzarE;
         "forge-1.12.2" = _fhSV3Aot;
         "forge-1.16.5" = _kFB5dAqU;
         "forge-1.17.1" = _vPhcK9xV;
@@ -135,6 +141,7 @@ let
         "fabric-1.21.1" = _6q0KBuK5;
         "neoforge-1.20.4" = _l4j0ZOEF;
         "neoforge-1.21.1" = _KfOqXHxH;
+        "neoforge-26.3" = _cAuyzarE;
         "pkg-1.1.4" = _fhSV3Aot;
         "pkg-1.1" = _5Ex3AXQG;
         "pkg-1.0" = _vPhcK9xV;
@@ -146,7 +153,8 @@ let
         "pkg-1.6.0" = _HlDMjpuX;
         "pkg-1.7.0" = _l4j0ZOEF;
         "pkg-1.8.0" = _KfOqXHxH;
-        "default" = _KfOqXHxH;
+        "pkg-2.0.9" = _cAuyzarE;
+        "default" = _cAuyzarE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-plates";

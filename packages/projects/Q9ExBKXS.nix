@@ -71,6 +71,71 @@ let
             "file" = "CarianStyle-neoforge-1.21.1-2.3.2.jar";
             "hash" = "sha512-OGdw69btHIBDKWjZz2/nyniue9p7q7Vhq2LokZLvzR7PROicAwcZksQLKOh8XE/T8WioWJey7bSiiCa2LwaNJA==";
         };
+        _ip4Q0RdT = {
+            "id" = "ip4Q0RdT";
+            "file" = "CarianStyle-forge-1.20.1-2.4.0.jar";
+            "hash" = "sha512-83OKCcMhZ1EwvTztgAbNwlIQyeEf+HXY1/B0a8uD9UkcRHvT1vw3p4l8zL80aaHiUH4XWpXz/SqLMR45WsUdgg==";
+        };
+        _6sOCtmYD = {
+            "id" = "6sOCtmYD";
+            "file" = "CarianStyle-fabric-1.20.1-2.4.0.jar";
+            "hash" = "sha512-tlM5WKOfgm+QzLEvqdFPrGWmz8PsA3xgMIBh6uMCj+dwV4p57j4P2plqd1ZgrRvHdHUW1++hQX0gD/D+I++ppQ==";
+        };
+        _EKSILWF7 = {
+            "id" = "EKSILWF7";
+            "file" = "CarianStyle-neoforge-1.21.1-2.4.0.jar";
+            "hash" = "sha512-jxnisLBu0Pcf26h6t3YUyLV5+QJRsWuGi3ZS7YtEJduHo2jsR3NpgJ99r5A4Qd2veeadGLQN/esIJxQCYvS4bw==";
+        };
+        _71Why4Xh = {
+            "id" = "71Why4Xh";
+            "file" = "CarianStyle-fabric-1.21.1-2.4.0.jar";
+            "hash" = "sha512-/NT2iUCkivqlLUCSbozDmlpSiA50QE2h+895IEDUQZx69NNI2RP3JjXRwyDepYTw2b7nrwQPBFvwrECxfLCc2w==";
+        };
+        _hzXqkE4f = {
+            "id" = "hzXqkE4f";
+            "file" = "CarianStyle-forge-1.20.1-2.4.1.jar";
+            "hash" = "sha512-xks2mq5HoZRwsKofn8PHqbRc4OxdSa2Zs5YiJNvr/fCy2c4NOrHx6xhu1/PdcEnDknYMCByRqacELn563iD7vA==";
+        };
+        _qNASVyUt = {
+            "id" = "qNASVyUt";
+            "file" = "CarianStyle-fabric-1.20.1-2.4.1.jar";
+            "hash" = "sha512-9WhGW/cNhOjep/NVMdtsjcYXhJ95W9kBbQPuteuSlQWrxb10XN9ChX0Q+nnTe4BjgLPXLSoYHRDJ297Lj7bopw==";
+        };
+        _zicfSLN5 = {
+            "id" = "zicfSLN5";
+            "file" = "CarianStyle-neoforge-1.21.1-2.4.1.jar";
+            "hash" = "sha512-E1siU3FELW3o9aR4UGKYV1urnHPH0+NG7NBrVBoxcBoID9ocEC1VKYxO01jPuRvzeLI/QejJhFj3oT+TFkLkWg==";
+        };
+        _4CV7ub0W = {
+            "id" = "4CV7ub0W";
+            "file" = "CarianStyle-fabric-1.21.1-2.4.1.jar";
+            "hash" = "sha512-26e0uT0p8pXeAv08Hqsi5CQD9wS56bqH4NWzsE+tFh+parf64RkjL0beeRIldx2VQ6tKakd9cFsnTDIApak9/Q==";
+        };
+        _4z4cuHH1 = {
+            "id" = "4z4cuHH1";
+            "file" = "CarianStyle-forge-1.20.1-2.5.0.jar";
+            "hash" = "sha512-2se64HkoD/MIdCiSPXFa+iiMrTfw/xK7zC8Pm0NVgMfrqkgbAK27/h8DFt4MBmNFp4oO+VXftbjY38NyxQaInQ==";
+        };
+        _WGtdQIge = {
+            "id" = "WGtdQIge";
+            "file" = "CarianStyle-fabric-1.20.1-2.5.0.jar";
+            "hash" = "sha512-6Iq4/JaL2cwEgDDYmAOhuqgWeONluNlRkJ53mv3n45Uj0NhMPa9CJCwFqv3HKM5bJ7SUjPmJ+LgOCy6y5lE76g==";
+        };
+        _vxBSeMQj = {
+            "id" = "vxBSeMQj";
+            "file" = "CarianStyle-neoforge-1.21.1-2.5.0.jar";
+            "hash" = "sha512-17oa23ANmYmWxl9DtSp4aqOh3rKe90thEiypyz466/Uh1YUb8mebdjVWg/1VkVbUArRwfpGGnchpXEOoyrPdpw==";
+        };
+        _NsTwtZOy = {
+            "id" = "NsTwtZOy";
+            "file" = "CarianStyle-fabric-1.21.1-2.5.0.jar";
+            "hash" = "sha512-g/cXpChRdAmXTkOr/mdDuTyhm/BoQZ45XrEvckdauO1pEHUkEdT8CruKt9WVgsEELKs0Yf1c7l7Q/R6QVm+XiQ==";
+        };
+        _esiZ1ZmL = {
+            "id" = "esiZ1ZmL";
+            "file" = "CarianStyle-1.12.2-2.5.0.jar";
+            "hash" = "sha512-p/QCjIE7sWXL3E2YKmd+5tyDnUTMrfPgE6CAvWBUZBizNA2M0yaf+Ek9KH8lzNptONZWp0LxoUSipcDSt7OCQw==";
+        };
     in {
         "itsGeFaW" = _itsGeFaW;
         "5stYyRxN" = _5stYyRxN;
@@ -86,9 +151,24 @@ let
         "Xudernbk" = _Xudernbk;
         "wCac6TyC" = _wCac6TyC;
         "GYvLrnmg" = _GYvLrnmg;
-        "forge-1.12.2" = _Xudernbk;
-        "forge-1.20.1" = _wCac6TyC;
-        "neoforge-1.21.1" = _GYvLrnmg;
+        "ip4Q0RdT" = _ip4Q0RdT;
+        "6sOCtmYD" = _6sOCtmYD;
+        "EKSILWF7" = _EKSILWF7;
+        "71Why4Xh" = _71Why4Xh;
+        "hzXqkE4f" = _hzXqkE4f;
+        "qNASVyUt" = _qNASVyUt;
+        "zicfSLN5" = _zicfSLN5;
+        "4CV7ub0W" = _4CV7ub0W;
+        "4z4cuHH1" = _4z4cuHH1;
+        "WGtdQIge" = _WGtdQIge;
+        "vxBSeMQj" = _vxBSeMQj;
+        "NsTwtZOy" = _NsTwtZOy;
+        "esiZ1ZmL" = _esiZ1ZmL;
+        "forge-1.12.2" = _esiZ1ZmL;
+        "forge-1.20.1" = _4z4cuHH1;
+        "neoforge-1.21.1" = _vxBSeMQj;
+        "fabric-1.20.1" = _WGtdQIge;
+        "fabric-1.21.1" = _NsTwtZOy;
         "pkg-2.0.0" = _5stYyRxN;
         "pkg-2.0.1" = _ofyUShud;
         "pkg-2.0.2" = _WDljLqg3;
@@ -98,7 +178,10 @@ let
         "pkg-2.3.0" = _le8Z5syW;
         "pkg-2.3.1" = _kMXwy2zN;
         "pkg-2.3.2" = _GYvLrnmg;
-        "default" = _GYvLrnmg;
+        "pkg-2.4.0" = _71Why4Xh;
+        "pkg-2.4.1" = _4CV7ub0W;
+        "pkg-2.5.0" = _esiZ1ZmL;
+        "default" = _esiZ1ZmL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carianstyle";

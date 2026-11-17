@@ -76,6 +76,11 @@ let
             "file" = "Atlas-Lib-1.12.2-1.1.11.jar";
             "hash" = "sha512-k2gneqnJaiQEW/dqg8wdF6W2zODse+K7SZ2OJ1fqJWgD3ggBYAjeI8UbFVo8GOpXTMNVzrGtQ62EGjfSQX1z5Q==";
         };
+        _5xtQRyL1 = {
+            "id" = "5xtQRyL1";
+            "file" = "Atlas-Lib-1.12.2-1.1.12.jar";
+            "hash" = "sha512-0hIE8n2mwfJ8jA1kPKhYrBVPB/0EXZrbFZX71qB1S3XCyLhaKLWXVmEO26hnnMrDiyiSe/d6lNtGyKVoMf9Rtg==";
+        };
     in {
         "MBAqDWxZ" = _MBAqDWxZ;
         "QimyuHhC" = _QimyuHhC;
@@ -92,7 +97,8 @@ let
         "bpOrAZJe" = _bpOrAZJe;
         "S4IUMRjT" = _S4IUMRjT;
         "UekJfJ7l" = _UekJfJ7l;
-        "forge-1.12.2" = _UekJfJ7l;
+        "5xtQRyL1" = _5xtQRyL1;
+        "forge-1.12.2" = _5xtQRyL1;
         "forge-1.16.5" = _QimyuHhC;
         "forge-1.17.1" = _HUGlgTIo;
         "forge-1.18.2" = _yDWpDwYV;
@@ -119,7 +125,8 @@ let
         "pkg-1.21-1.1.14" = _bpOrAZJe;
         "pkg-1.1.10" = _S4IUMRjT;
         "pkg-1.12.2-1.1.11" = _UekJfJ7l;
-        "default" = _UekJfJ7l;
+        "pkg-1.12.2-1.1.12" = _5xtQRyL1;
+        "default" = _5xtQRyL1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atlas-lib";

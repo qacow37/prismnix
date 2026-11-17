@@ -131,6 +131,11 @@ let
             "file" = "society_trading-1.2.12-1.21.1.jar";
             "hash" = "sha512-YSniyNJkAqRpyEaPWzqwICuBT4b7WKkLyCzlwxy4ejfDQnU5FX1X0/B/zLQaJRMCh5FFTYPq0IQntz5ee6kh6g==";
         };
+        _OBvft37I = {
+            "id" = "OBvft37I";
+            "file" = "society_trading-1.2.13-1.21.1.jar";
+            "hash" = "sha512-xCgM8aTVAVhukZJdJReWSw2fDNOZQFfi5eEn1fNUboqsn/54n10FpYkuKJceRZFVG+CfJUKbUJd2NacZUFgfHg==";
+        };
     in {
         "m8I1OauC" = _m8I1OauC;
         "RYyCVglj" = _RYyCVglj;
@@ -158,8 +163,9 @@ let
         "sbyFhvbQ" = _sbyFhvbQ;
         "3Gf6gyTx" = _3Gf6gyTx;
         "HU3fexng" = _HU3fexng;
+        "OBvft37I" = _OBvft37I;
         "forge-1.20.1" = _BOAcS2QW;
-        "neoforge-1.21.1" = _HU3fexng;
+        "neoforge-1.21.1" = _OBvft37I;
         "pkg-0.4" = _m8I1OauC;
         "pkg-0.5" = _RYyCVglj;
         "pkg-0.7" = _OoPJP5ko;
@@ -186,7 +192,8 @@ let
         "pkg-1.2.10-1.21.1" = _sbyFhvbQ;
         "pkg-1.2.11-1.21.1" = _3Gf6gyTx;
         "pkg-1.2.12-1.21.1" = _HU3fexng;
-        "default" = _HU3fexng;
+        "pkg-1.2.13-1.21.1" = _OBvft37I;
+        "default" = _OBvft37I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "society-trading";

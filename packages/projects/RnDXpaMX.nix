@@ -56,6 +56,31 @@ let
             "file" = "DoAnotherBarrelRoll-3.7.5+26.3.jar";
             "hash" = "sha512-tmYk9UR5L4SfaGfklZp3zXTAtXdXe4krP0SXmCKyDI2ZnbpbHzUc9WuiFvIljYhoYuZue0KvB5soDHUdYbYkmg==";
         };
+        _iFDMan84 = {
+            "id" = "iFDMan84";
+            "file" = "DoAnotherBarrelRoll-3.8.0+1.21.1.jar";
+            "hash" = "sha512-W0OJMg/7RfXkQ8PB4txN9S8e/8H3pkXUWF91jOFkaTE1XXyrnmz3S4IELxjfYv8QPzlRxUGdGgZhiRn1zdkubw==";
+        };
+        _eQ9MrvWX = {
+            "id" = "eQ9MrvWX";
+            "file" = "DoAnotherBarrelRoll-3.8.0+1.21.11.jar";
+            "hash" = "sha512-YGXQZWB7ST6wXuheX5XKRPOkItD/LXZG3sL6o24xxqNPF6BI6/Wh0wLZFziJZriAEzZx+5R7WTM1Ct/6DUMYcg==";
+        };
+        _1m18wsd2 = {
+            "id" = "1m18wsd2";
+            "file" = "DoAnotherBarrelRoll-3.8.0+26.1.2.jar";
+            "hash" = "sha512-6uE4za7HCBBWaMbXrfd3w5XjGXrhlNvPWd3u9qK2ar2WhBPNdFnmOS/kQXP7mnbLbnFa6ULhqPCmMT9oztqJyg==";
+        };
+        _Of6ozmZi = {
+            "id" = "Of6ozmZi";
+            "file" = "DoAnotherBarrelRoll-3.8.0+26.2.jar";
+            "hash" = "sha512-iJLiCmM9P83hShsOF8DQ9Iys+rmdlBL+KtiHtTZjN3Fep3wSMVl5heeLD0g0gI/Wq4xK/Grdpf/9nepGHm9ABA==";
+        };
+        _hqKVCb22 = {
+            "id" = "hqKVCb22";
+            "file" = "DoAnotherBarrelRoll-3.8.0+26.3.jar";
+            "hash" = "sha512-5HUpbTiGRWdrUacEgaJfOcgNjRjudcANOmMIxNW4Oq1Su3V+H8MNXkTeZtwZRo1+p7kV4RyWQm7ZuM44mp3okg==";
+        };
     in {
         "sh1uhZva" = _sh1uhZva;
         "cxVs101S" = _cxVs101S;
@@ -68,14 +93,19 @@ let
         "rfWtAlNh" = _rfWtAlNh;
         "NlpFJPG3" = _NlpFJPG3;
         "LKkeKx1G" = _LKkeKx1G;
+        "iFDMan84" = _iFDMan84;
+        "eQ9MrvWX" = _eQ9MrvWX;
+        "1m18wsd2" = _1m18wsd2;
+        "Of6ozmZi" = _Of6ozmZi;
+        "hqKVCb22" = _hqKVCb22;
         "neoforge-1.21" = _sh1uhZva;
-        "neoforge-1.21.1" = _ghhEpX3E;
-        "neoforge-1.21.11" = _VRKyj9qE;
-        "neoforge-26.1" = _rfWtAlNh;
-        "neoforge-26.1.1" = _rfWtAlNh;
-        "neoforge-26.1.2" = _rfWtAlNh;
-        "neoforge-26.2" = _NlpFJPG3;
-        "neoforge-26.3" = _LKkeKx1G;
+        "neoforge-1.21.1" = _iFDMan84;
+        "neoforge-1.21.11" = _eQ9MrvWX;
+        "neoforge-26.1" = _1m18wsd2;
+        "neoforge-26.1.1" = _1m18wsd2;
+        "neoforge-26.1.2" = _1m18wsd2;
+        "neoforge-26.2" = _Of6ozmZi;
+        "neoforge-26.3" = _hqKVCb22;
         "pkg-3.7.3+1.21.1" = _sh1uhZva;
         "pkg-3.7.4+1.21.1" = _cxVs101S;
         "pkg-3.7.4+1.21.11" = _Ltx8ZNvU;
@@ -87,7 +117,12 @@ let
         "pkg-3.7.5+26.1.2" = _rfWtAlNh;
         "pkg-3.7.5+26.2" = _NlpFJPG3;
         "pkg-3.7.5+26.3" = _LKkeKx1G;
-        "default" = _LKkeKx1G;
+        "pkg-3.8.0+1.21.1" = _iFDMan84;
+        "pkg-3.8.0+1.21.11" = _eQ9MrvWX;
+        "pkg-3.8.0+26.1.2" = _1m18wsd2;
+        "pkg-3.8.0+26.2" = _Of6ozmZi;
+        "pkg-3.8.0+26.3" = _hqKVCb22;
+        "default" = _hqKVCb22;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "do-another-barrel-roll";

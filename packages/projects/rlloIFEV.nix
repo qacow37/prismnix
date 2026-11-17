@@ -2896,6 +2896,26 @@ let
             "file" = "travelersbackpack-neoforge-26.3-11.4.5.jar";
             "hash" = "sha512-vdIwGbHUjN+o+C8RBVACTJpVKw8HF+/mkEDsahU9TDwZ1rTmJ/D9oUFo+gLVyGKvcQysBkNMYyctd1ga6d3iYw==";
         };
+        _L30PcIdJ = {
+            "id" = "L30PcIdJ";
+            "file" = "travelersbackpack-neoforge-26.3-11.4.6.jar";
+            "hash" = "sha512-0/Je4p1j5poCacZTBZ5P4yMm9/qMN4Re6Kd3+SQQEbM6KeCRMbVPo5gyW/0605S/y1avrWCKhwLmTOCJE+73Fg==";
+        };
+        _aOuuo6p9 = {
+            "id" = "aOuuo6p9";
+            "file" = "travelersbackpack-neoforge-26.1.2-11.2.10.jar";
+            "hash" = "sha512-VSsx5rYA7i+wiQdn+cSTjlyiXKBQBpEFAuEkkahMS3qN6vrNaPjxPeafZsFgzz60NIoKcT/Caow4b+ITl3QswA==";
+        };
+        _RSmOmcy4 = {
+            "id" = "RSmOmcy4";
+            "file" = "travelersbackpack-fabric-26.3-11.4.6.jar";
+            "hash" = "sha512-yk+jYR1h0wEJ36PDYS7ylQJXyx7P3TsErMB9LPcPLy2XKgZArwvzdRnoO5/Gpcnl/aagitIb9SNQ9lgpDIVgZg==";
+        };
+        _O9S9wIJE = {
+            "id" = "O9S9wIJE";
+            "file" = "travelersbackpack-fabric-26.1.2-11.2.13.jar";
+            "hash" = "sha512-uM4ORLWTC9NYjNRvCoLb55zoey0G3ZqSUfxATZ4OQ/QtLKdJhSbM0LVN1f02npg7AX4AIzoG59SmzxNSnJTVPQ==";
+        };
     in {
         "3JLbcslr" = _3JLbcslr;
         "kenpECMd" = _kenpECMd;
@@ -3476,6 +3496,10 @@ let
         "Vrtb34Ji" = _Vrtb34Ji;
         "F759alaJ" = _F759alaJ;
         "Q02MvPoU" = _Q02MvPoU;
+        "L30PcIdJ" = _L30PcIdJ;
+        "aOuuo6p9" = _aOuuo6p9;
+        "RSmOmcy4" = _RSmOmcy4;
+        "O9S9wIJE" = _O9S9wIJE;
         "forge-1.12.2" = _3JLbcslr;
         "forge-1.16.5" = _6NAEVL5U;
         "forge-1.17.1" = _ZX1zUypH;
@@ -3511,10 +3535,10 @@ let
         "fabric-1.21.8" = _P3LjVY8i;
         "fabric-1.21.10" = _uQ0xHxTz;
         "fabric-1.21.11" = _YQ2jBwbk;
-        "fabric-26.1.1" = _nkLEWUqE;
-        "fabric-26.1.2" = _nkLEWUqE;
+        "fabric-26.1.1" = _O9S9wIJE;
+        "fabric-26.1.2" = _O9S9wIJE;
         "fabric-26.2" = _PagAM0A0;
-        "fabric-26.3" = _F759alaJ;
+        "fabric-26.3" = _RSmOmcy4;
         "neoforge-1.20.4" = _BNberKGE;
         "neoforge-1.20.6" = _7F2hRnJ3;
         "neoforge-1.21" = _41RS1Evh;
@@ -3528,9 +3552,9 @@ let
         "neoforge-1.21.11" = _456c47fG;
         "neoforge-26.1" = _gvH9BSzg;
         "neoforge-26.1.1" = _gvH9BSzg;
-        "neoforge-26.1.2" = _LX6k4E9I;
+        "neoforge-26.1.2" = _aOuuo6p9;
         "neoforge-26.2" = _wUABrDVo;
-        "neoforge-26.3" = _Q02MvPoU;
+        "neoforge-26.3" = _L30PcIdJ;
         "pkg-1.12.2-1.0.35" = _3JLbcslr;
         "pkg-1.16.5-5.4.4" = _kenpECMd;
         "pkg-1.17.1-6.0.4" = _AMhy8riF;
@@ -3848,7 +3872,7 @@ let
         "pkg-1.21.11-10.11.6" = _hE3rdvIY;
         "pkg-1.20.1-9.1.57" = _wuJ2J0SL;
         "pkg-1.21.1-10.1.39" = _npKsvQvE;
-        "pkg-26.1.2-11.2.10" = _Ah1lkxJY;
+        "pkg-26.1.2-11.2.10" = _aOuuo6p9;
         "pkg-1.21.11-10.11.11" = _7ltEXeO3;
         "pkg-26.2-11.3.3" = _I6Fg8UrJ;
         "pkg-26.3-11.4.0" = _Gdy0zkAN;
@@ -3865,7 +3889,9 @@ let
         "pkg-1.21.1-10.1.41" = _JrOhWsXk;
         "pkg-26.3-11.4.4" = _Vrtb34Ji;
         "pkg-26.3-11.4.5" = _Q02MvPoU;
-        "default" = _Q02MvPoU;
+        "pkg-26.3-11.4.6" = _RSmOmcy4;
+        "pkg-26.1.2-11.2.13" = _O9S9wIJE;
+        "default" = _O9S9wIJE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelersbackpack";

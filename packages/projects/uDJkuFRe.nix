@@ -911,6 +911,26 @@ let
             "file" = "integratedscripting-1.21.1-neoforge-1.1.0-736.jar";
             "hash" = "sha512-0vl6vUrbET0l1TDt3kTSD1jd9MpLyZBgzIJrl6MdZ/XGFnoldgP3qdkF33sMmg994WC1MuT+M6Josa5sTwdlkw==";
         };
+        _gd5bSmIH = {
+            "id" = "gd5bSmIH";
+            "file" = "IntegratedScripting-1.20.1-1.0.20.jar";
+            "hash" = "sha512-bH1iDOYK8aDHfCoQQ/uYfYueBG2D+zAulcWFPW0kyzJJXCDgEGuvM+bVyBJArEJ1lXECrfnADqmHweQG7RwS4w==";
+        };
+        _fvpDaLUL = {
+            "id" = "fvpDaLUL";
+            "file" = "integratedscripting-1.21.1-neoforge-1.1.1.jar";
+            "hash" = "sha512-w68CzbZXiKKlrF77I92tXu7+j8RU0UhtQpOWbYJnPx72ZQTWISGrgdik3aEDrEtbJ2mgSCnSWzkcG/SFSqV+OQ==";
+        };
+        _mVIkYVIr = {
+            "id" = "mVIkYVIr";
+            "file" = "integratedscripting-26.3-neoforge-1.0.22-744.jar";
+            "hash" = "sha512-I3zM2VGHUR6/HN8dQOD9U5pLfg4RaS+7HRpVLlk9aqdk5yFIwp0+nuvqYM7JsdN8ljpYN7MYdBksfzKxTC8hmQ==";
+        };
+        _BdPgPOD4 = {
+            "id" = "BdPgPOD4";
+            "file" = "integratedscripting-26.1.2-neoforge-1.1.2.jar";
+            "hash" = "sha512-/Wxqo1LhMaFVw1x+wyu2Pg+d6j5r+UD6Ou72EwYCeLXLq+ZXJ1+cnYbYkIcQdMjNPyjGK52YspgVbXYv/50gvQ==";
+        };
     in {
         "cbEixwaw" = _cbEixwaw;
         "F7rldawn" = _F7rldawn;
@@ -1094,19 +1114,23 @@ let
         "SYUVsyIa" = _SYUVsyIa;
         "ECtTY3ee" = _ECtTY3ee;
         "UXtcaiJt" = _UXtcaiJt;
+        "gd5bSmIH" = _gd5bSmIH;
+        "fvpDaLUL" = _fvpDaLUL;
+        "mVIkYVIr" = _mVIkYVIr;
+        "BdPgPOD4" = _BdPgPOD4;
         "forge-1.19.2" = _IEzhJkHn;
-        "forge-1.20.1" = _xf40ue0C;
+        "forge-1.20.1" = _gd5bSmIH;
         "neoforge-1.20.4" = _hOPzjFrv;
         "neoforge-1.21" = _GmojwKPy;
-        "neoforge-1.21.1" = _UXtcaiJt;
+        "neoforge-1.21.1" = _fvpDaLUL;
         "neoforge-1.21.4" = _P79xpWRO;
         "neoforge-1.21.8" = _zbLKoFoU;
         "neoforge-1.21.10" = _DUjgreRx;
         "neoforge-1.21.11" = _nQoivRuE;
         "neoforge-26.1.1" = _JZdt8oM5;
-        "neoforge-26.1.2" = _SYUVsyIa;
+        "neoforge-26.1.2" = _BdPgPOD4;
         "neoforge-26.2" = _WlA54yNY;
-        "neoforge-26.3" = _ECtTY3ee;
+        "neoforge-26.3" = _mVIkYVIr;
         "pkg-1.19.2-1.0.0" = _cbEixwaw;
         "pkg-1.20.1-1.0.0" = _F7rldawn;
         "pkg-1.20.1-1.0.1" = _8BrKJRge;
@@ -1289,7 +1313,11 @@ let
         "pkg-26.1.2-1.1.1" = _SYUVsyIa;
         "pkg-26.3-1.0.22-735" = _ECtTY3ee;
         "pkg-1.21.1-1.1.0-736" = _UXtcaiJt;
-        "default" = _UXtcaiJt;
+        "pkg-1.20.1-1.0.20" = _gd5bSmIH;
+        "pkg-1.21.1-1.1.1" = _fvpDaLUL;
+        "pkg-26.3-1.0.22-744" = _mVIkYVIr;
+        "pkg-26.1.2-1.1.2" = _BdPgPOD4;
+        "default" = _BdPgPOD4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-scripting";

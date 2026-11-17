@@ -186,6 +186,21 @@ let
             "file" = "physical-falling-trees-2.4.2.jar";
             "hash" = "sha512-OnaAXB6EeJulXTzBbVJC6f7QO8vt0QmDgMLpqfOR2nGh3LmClyDuA9zFuJAI3l//aKHg504S8wQemVbEY//46Q==";
         };
+        _tiQiJAXM = {
+            "id" = "tiQiJAXM";
+            "file" = "physical-falling-trees-3.0.0.jar";
+            "hash" = "sha512-43xdledRKI1sjssdavthTxShp7u8+sNPqoRW4pEVqfZBabMTzXD06sHpcTNNpBRLy+ybLr/zpaDzj2TVuCSuhQ==";
+        };
+        _ZePG42jz = {
+            "id" = "ZePG42jz";
+            "file" = "Physical-Falling-Trees_RP_v1-1-0_26-3.zip";
+            "hash" = "sha512-7WG9ZX5HzQJ4d7jRT7zXlK5OT08BNjZT/tpmCFvBm3O6dHwSYrhS0X1Qzhn6/66WQ2z5bZcs+GhwWQqH3jlQqw==";
+        };
+        _RUIflHWu = {
+            "id" = "RUIflHWu";
+            "file" = "Physical-Falling-Trees_DP_v3-0-0_26-3.zip";
+            "hash" = "sha512-Z+2jncDiszd6UEns+M1zyL4sZ25FWs4C9Hqhqsld2j/cNXUnA4j6SH5fk9quZBdjDvhhCYhne9lbrPjo70BHcA==";
+        };
     in {
         "7W9me9xa" = _7W9me9xa;
         "cO0Egg1J" = _cO0Egg1J;
@@ -224,6 +239,9 @@ let
         "LdYYbuil" = _LdYYbuil;
         "3Ip5aqrR" = _3Ip5aqrR;
         "SxpxdUC5" = _SxpxdUC5;
+        "tiQiJAXM" = _tiQiJAXM;
+        "ZePG42jz" = _ZePG42jz;
+        "RUIflHWu" = _RUIflHWu;
         "datapack-1.19.4" = _uy099jW0;
         "datapack-1.20" = _uy099jW0;
         "datapack-1.20.1" = _uy099jW0;
@@ -249,6 +267,7 @@ let
         "datapack-26.1.1" = _LdYYbuil;
         "datapack-26.1.2" = _LdYYbuil;
         "datapack-26.2" = _LdYYbuil;
+        "datapack-26.3" = _RUIflHWu;
         "fabric-1.21" = _ovBXeEIe;
         "fabric-1.21.1" = _ovBXeEIe;
         "fabric-1.21.2" = _ovBXeEIe;
@@ -265,6 +284,7 @@ let
         "fabric-26.1.1" = _SxpxdUC5;
         "fabric-26.1.2" = _SxpxdUC5;
         "fabric-26.2" = _SxpxdUC5;
+        "fabric-26.3" = _tiQiJAXM;
         "neoforge-1.21" = _ovBXeEIe;
         "neoforge-1.21.1" = _ovBXeEIe;
         "neoforge-1.21.2" = _ovBXeEIe;
@@ -281,6 +301,7 @@ let
         "neoforge-26.1.1" = _SxpxdUC5;
         "neoforge-26.1.2" = _SxpxdUC5;
         "neoforge-26.2" = _SxpxdUC5;
+        "neoforge-26.3" = _tiQiJAXM;
         "quilt-1.21" = _ovBXeEIe;
         "quilt-1.21.1" = _ovBXeEIe;
         "quilt-1.21.2" = _ovBXeEIe;
@@ -297,6 +318,8 @@ let
         "quilt-26.1.1" = _SxpxdUC5;
         "quilt-26.1.2" = _SxpxdUC5;
         "quilt-26.2" = _SxpxdUC5;
+        "quilt-26.3" = _tiQiJAXM;
+        "minecraft-26.3" = _ZePG42jz;
         "pkg-1.0" = _7W9me9xa;
         "pkg-1.1" = _cO0Egg1J;
         "pkg-1.2" = _A1H3bLPR;
@@ -331,7 +354,10 @@ let
         "pkg-2.4.2" = _LdYYbuil;
         "pkg-2.4.2-cropped+mod" = _3Ip5aqrR;
         "pkg-2.4.2+mod" = _SxpxdUC5;
-        "default" = _SxpxdUC5;
+        "pkg-3.0.0+mod" = _tiQiJAXM;
+        "pkg-1.1.0-rp" = _ZePG42jz;
+        "pkg-3.0.0" = _RUIflHWu;
+        "default" = _RUIflHWu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "physical-falling-trees";

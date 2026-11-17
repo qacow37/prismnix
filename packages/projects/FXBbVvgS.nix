@@ -56,6 +56,11 @@ let
             "file" = "fnaf_tapes_and_music_discs_mod-1.0.9-forge-1.20.1.jar";
             "hash" = "sha512-SS1ylLCothHQdZ/UWEQ1yx0MTjvus4JyhD3RfByhynvxYm2uETAQ/krNfBsMXa/xMxSO/H5mtBz0OxMwv8N4DQ==";
         };
+        _HfNFwVgW = {
+            "id" = "HfNFwVgW";
+            "file" = "fnaf_tapes_and_music_discs_mod-1.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-wzMiL3Ids7OinxlBiGbwwjcK+4+rcKDaNrKREe6ethuLaKCg/0bkFkR6N1ZErvWQOjsOgvwE74EFbuzFWv7hoQ==";
+        };
     in {
         "ccnZ1BRf" = _ccnZ1BRf;
         "USZm99Dg" = _USZm99Dg;
@@ -68,7 +73,8 @@ let
         "PiT7Scu4" = _PiT7Scu4;
         "cypcAfKY" = _cypcAfKY;
         "2lapOFS4" = _2lapOFS4;
-        "forge-1.20.1" = _2lapOFS4;
+        "HfNFwVgW" = _HfNFwVgW;
+        "forge-1.20.1" = _HfNFwVgW;
         "pkg-1.0.0" = _ccnZ1BRf;
         "pkg-1.0.1" = _USZm99Dg;
         "pkg-1.0.2" = _L9mT8UHO;
@@ -79,7 +85,8 @@ let
         "pkg-1.0.7" = _PiT7Scu4;
         "pkg-1.0.8" = _cypcAfKY;
         "pkg-1.0.9" = _2lapOFS4;
-        "default" = _2lapOFS4;
+        "pkg-1.1.0" = _HfNFwVgW;
+        "default" = _HfNFwVgW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fnaf-music-tapes-mod";

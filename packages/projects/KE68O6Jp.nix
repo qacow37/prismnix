@@ -316,6 +316,21 @@ let
             "file" = "kinetic-minecart-2.6.1+1.21.jar";
             "hash" = "sha512-zfzSHH1BeXQcRKL25NI8dnbSQjqViDyL1v2DYP5L16p+CJ7VxoiL3arZasOOTJbZtnd7FAh2cQZqtWv5J1s8Og==";
         };
+        _d3ICeVzJ = {
+            "id" = "d3ICeVzJ";
+            "file" = "kinetic_minecart-2.6.1+1.21.neoforge.jar";
+            "hash" = "sha512-4WP1pfhX4KJ2S0GbghSgqdeREp2G0PG0SEiLm1/N4v5VkBcu0RtXtMHMhrJSFzhsqaOPe9xoQsh3KF9P5g3ztQ==";
+        };
+        _fMYWEdyT = {
+            "id" = "fMYWEdyT";
+            "file" = "kinetic-minecart-2.6.1+1.20.jar";
+            "hash" = "sha512-YBFJFicblz1o/BCLzJuVuyoOi/Hlr0FNmiAB/8h7UpMg5r97WfK1QFbyWsmC/7lbjFCleJsaIttwSYWA4tQjlQ==";
+        };
+        _M2R7FvvF = {
+            "id" = "M2R7FvvF";
+            "file" = "kinetic_minecart-2.6.1+1.20.forge.jar";
+            "hash" = "sha512-n7uODHTRt8L0aQrxQDp06+uk2VTlCxlNj21+l4UyfLObbJ5w4p15GMXGcEuCRnlUnIFXNXgzs4VdZGVvvTqbGQ==";
+        };
     in {
         "18rmlbQp" = _18rmlbQp;
         "SNHvOrmR" = _SNHvOrmR;
@@ -380,6 +395,9 @@ let
         "Fo1Nk9gv" = _Fo1Nk9gv;
         "iqbVLgVw" = _iqbVLgVw;
         "JwxpG1JR" = _JwxpG1JR;
+        "d3ICeVzJ" = _d3ICeVzJ;
+        "fMYWEdyT" = _fMYWEdyT;
+        "M2R7FvvF" = _M2R7FvvF;
         "fabric-1.21.9" = _neJJjBik;
         "fabric-1.21.10" = _neJJjBik;
         "fabric-1.20.5" = _ZipppL3d;
@@ -393,8 +411,8 @@ let
         "fabric-1.21.6" = _XXhQbu0F;
         "fabric-1.21.7" = _XXhQbu0F;
         "fabric-1.21.8" = _XXhQbu0F;
-        "fabric-1.20" = _ta1pVwl8;
-        "fabric-1.20.1" = _ta1pVwl8;
+        "fabric-1.20" = _fMYWEdyT;
+        "fabric-1.20.1" = _fMYWEdyT;
         "fabric-1.20.2" = _lkfu3jYe;
         "fabric-1.20.3" = _K2Z8bL0I;
         "fabric-1.20.4" = _K2Z8bL0I;
@@ -424,13 +442,13 @@ let
         "fabric-26.2" = _jNxOEGih;
         "fabric-26.3" = _bJVfGWOF;
         "neoforge-1.21.11" = _PVe23TD8;
-        "neoforge-1.21" = _KP6RIKwa;
-        "neoforge-1.21.1" = _KP6RIKwa;
+        "neoforge-1.21" = _d3ICeVzJ;
+        "neoforge-1.21.1" = _d3ICeVzJ;
         "neoforge-26.1" = _iqbVLgVw;
         "neoforge-26.1.1" = _iqbVLgVw;
         "neoforge-26.1.2" = _iqbVLgVw;
-        "forge-1.20" = _QUsTOdIU;
-        "forge-1.20.1" = _QUsTOdIU;
+        "forge-1.20" = _M2R7FvvF;
+        "forge-1.20.1" = _M2R7FvvF;
         "pkg-1.21.9-release.1" = _18rmlbQp;
         "pkg-1.21.9-release.2" = _SNHvOrmR;
         "pkg-1.20.5-release.1" = _jAv5ekPg;
@@ -494,7 +512,10 @@ let
         "pkg-2.6.1+26.1" = _Fo1Nk9gv;
         "pkg-2.6.1+26.1.neoforge" = _iqbVLgVw;
         "pkg-2.6.1+1.21" = _JwxpG1JR;
-        "default" = _JwxpG1JR;
+        "pkg-2.6.1+1.21.neoforge" = _d3ICeVzJ;
+        "pkg-2.6.1+1.20" = _fMYWEdyT;
+        "pkg-2.6.1+1.20.forge" = _M2R7FvvF;
+        "default" = _M2R7FvvF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kinetic-minecart";

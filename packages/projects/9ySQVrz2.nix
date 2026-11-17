@@ -236,6 +236,56 @@ let
             "file" = "redstonetools-4.0.0+26.3.jar";
             "hash" = "sha512-dHw3nuV+eKxCrtvNlERqN3cGs45aiXS+khPH64GQ53JE+Tl7svkoPioNSAcmU66rTH2YNaklGrmareXUN9XGJw==";
         };
+        _aWv62xAf = {
+            "id" = "aWv62xAf";
+            "file" = "redstonetools-4.0.1+1.21.10.jar";
+            "hash" = "sha512-26LtZgsgK27/QLAp5ljrik4A6ZNMu3H8uxujNGenwlg5iGn/sjGMaz5dM5aEsIyjEWRGbFCx4eNN8cuWnbE6xQ==";
+        };
+        _TCp8zBDX = {
+            "id" = "TCp8zBDX";
+            "file" = "redstonetools-4.0.1+1.21.11.jar";
+            "hash" = "sha512-0YeGU4Gp4wC2Mn7Ev5GQkROsdB+ooXtrGzAs0fHUerQTVMA8YcvSYKGwp4v72HDES68FcAu7FeoDF8chkFYuFg==";
+        };
+        _qAwBZsq2 = {
+            "id" = "qAwBZsq2";
+            "file" = "redstonetools-4.0.1+1.21.4.jar";
+            "hash" = "sha512-kjJyiGSQkVwnz6AsB/A8dgoRhkFYV0kjzb6Ccs+Bw00CDw5VBHdGONuzxa0mE7rf7sy5hJ9YskVUpRuLfK9uww==";
+        };
+        _10gGB2eo = {
+            "id" = "10gGB2eo";
+            "file" = "redstonetools-4.0.1+1.21.5.jar";
+            "hash" = "sha512-B4C8gpeP/IbT9LZaa4plWBR5hFCy0Kn8YmtMFXmd607Cfkldh3IJrTv8z86UYHG389q7zCf4lvjYOCWIA87RZQ==";
+        };
+        _paW2ZAmT = {
+            "id" = "paW2ZAmT";
+            "file" = "redstonetools-4.0.1+1.21.8.jar";
+            "hash" = "sha512-Y+lByfaWSMKgG90CW0ZOcZIHT3bAZH9kDgNfMJMisI2hM6BQP5+EK1+RktQWatmd49ImmcM9IZoX4VVA3aMQrg==";
+        };
+        _K2sSodfC = {
+            "id" = "K2sSodfC";
+            "file" = "redstonetools-4.0.1+1.21.8-paper.jar";
+            "hash" = "sha512-KUTgBhBSy/oUlu4a4NB8OCfE0AefoaB/rsRcDTv1krpMDzgCHfiNmdFYwMdqk8fJbtQh3x/Oysj6eD1pkglMaA==";
+        };
+        _ucAHKOOt = {
+            "id" = "ucAHKOOt";
+            "file" = "redstonetools-4.0.1+26.1.2.jar";
+            "hash" = "sha512-BKut9mWSvStK6Y3P/E1bW3/L/7un3+oQUyaTqBdvpdAHYQg6tsaz21UHMdb68cFwS0Qz81CJ3lj/tcKw8ssBLQ==";
+        };
+        _SkkVShJ1 = {
+            "id" = "SkkVShJ1";
+            "file" = "redstonetools-4.0.1+26.1.2-paper.jar";
+            "hash" = "sha512-TgvrKRo6EvXAY7iO46IbLwNnUnGYIVKJy5dVRxvFnYEXPXd+MM1GUVcdwMerprDCzBpUx8r413RVPJn5OXu7dg==";
+        };
+        _oFA9OmCJ = {
+            "id" = "oFA9OmCJ";
+            "file" = "redstonetools-4.0.1+26.2.jar";
+            "hash" = "sha512-jpgf7kIkqPKZPlL46jdfhAteqnLQnZD8tT82U0TJLloFXJ/DzzpkEEqBqYlItIxEWNHe8QSDMdWvwbzo/6F8LQ==";
+        };
+        _mHvqwLkK = {
+            "id" = "mHvqwLkK";
+            "file" = "redstonetools-4.0.1+26.3.jar";
+            "hash" = "sha512-AWY6rjLzojhDQzNbe7y0f5W059Dny4Wc8/7RA0ZmfwsqDy4oG7GsN/FcdlmTtFLRGDE5fIn8EByTe1cCqCvWXQ==";
+        };
     in {
         "iuqBUWsK" = _iuqBUWsK;
         "1LWIkYqu" = _1LWIkYqu;
@@ -284,19 +334,29 @@ let
         "M60zOCUd" = _M60zOCUd;
         "lNorLi6g" = _lNorLi6g;
         "XCr5XOOi" = _XCr5XOOi;
+        "aWv62xAf" = _aWv62xAf;
+        "TCp8zBDX" = _TCp8zBDX;
+        "qAwBZsq2" = _qAwBZsq2;
+        "10gGB2eo" = _10gGB2eo;
+        "paW2ZAmT" = _paW2ZAmT;
+        "K2sSodfC" = _K2sSodfC;
+        "ucAHKOOt" = _ucAHKOOt;
+        "SkkVShJ1" = _SkkVShJ1;
+        "oFA9OmCJ" = _oFA9OmCJ;
+        "mHvqwLkK" = _mHvqwLkK;
         "fabric-1.18.2" = _rRyfxQv9;
-        "fabric-1.21.4" = _yTEIuHL6;
-        "fabric-1.21.5" = _9wSPr5To;
+        "fabric-1.21.4" = _qAwBZsq2;
+        "fabric-1.21.5" = _10gGB2eo;
         "fabric-1.21.6" = _DZGCiBsn;
         "fabric-1.21.7" = _DZGCiBsn;
-        "fabric-1.21.8" = _VN8e1pT8;
-        "fabric-1.21.10" = _sb48bdCO;
-        "fabric-1.21.11" = _91LVdT3G;
-        "fabric-26.1.2" = _Wz0lUCzJ;
-        "fabric-26.2" = _lNorLi6g;
-        "fabric-26.3" = _XCr5XOOi;
-        "paper-1.21.8" = _Ay9fIbVZ;
-        "paper-26.1.2" = _M60zOCUd;
+        "fabric-1.21.8" = _paW2ZAmT;
+        "fabric-1.21.10" = _aWv62xAf;
+        "fabric-1.21.11" = _TCp8zBDX;
+        "fabric-26.1.2" = _ucAHKOOt;
+        "fabric-26.2" = _oFA9OmCJ;
+        "fabric-26.3" = _mHvqwLkK;
+        "paper-1.21.8" = _K2sSodfC;
+        "paper-26.1.2" = _SkkVShJ1;
         "pkg-1.18.2-1.0.0" = _iuqBUWsK;
         "pkg-1.18.2-1.0.1" = _1LWIkYqu;
         "pkg-1.18.2-1.0.2" = _gbYxDmgF;
@@ -344,7 +404,17 @@ let
         "pkg-4.0.0+26.1.2-paper" = _M60zOCUd;
         "pkg-4.0.0+26.2" = _lNorLi6g;
         "pkg-4.0.0+26.3" = _XCr5XOOi;
-        "default" = _XCr5XOOi;
+        "pkg-4.0.1+1.21.10" = _aWv62xAf;
+        "pkg-4.0.1+1.21.11" = _TCp8zBDX;
+        "pkg-4.0.1+1.21.4" = _qAwBZsq2;
+        "pkg-4.0.1+1.21.5" = _10gGB2eo;
+        "pkg-4.0.1+1.21.8" = _paW2ZAmT;
+        "pkg-4.0.1+1.21.8-paper" = _K2sSodfC;
+        "pkg-4.0.1+26.1.2" = _ucAHKOOt;
+        "pkg-4.0.1+26.1.2-paper" = _SkkVShJ1;
+        "pkg-4.0.1+26.2" = _oFA9OmCJ;
+        "pkg-4.0.1+26.3" = _mHvqwLkK;
+        "default" = _mHvqwLkK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-tools";

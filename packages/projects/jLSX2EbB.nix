@@ -31,6 +31,16 @@ let
             "file" = "DesignerRaid-neoforge-3.0.jar";
             "hash" = "sha512-06+9jAmr5Mjl3Q79R1wNm7hR6IpCMwb/1gwWF7wOfIf1P6zjytnUQseRyraGyXBJzedp1NMxq11SOaMmbXYp1g==";
         };
+        _a1vn7ozC = {
+            "id" = "a1vn7ozC";
+            "file" = "DesignerRaid-fabric-4.0.jar";
+            "hash" = "sha512-JstGXDWrxYP71Wu3tDFbtorsouZXQWiHA0mGOaZiq2s0mCkOERd066fI557jnP3OojOZg7VHEQ5gQhU4Zrc/4g==";
+        };
+        _Qbo9SEB3 = {
+            "id" = "Qbo9SEB3";
+            "file" = "DesignerRaid-neoforge-4.0.jar";
+            "hash" = "sha512-yV27A8t8fxmfCi6IbKJ0sWVoyShCubbpUJFHEo9ILmIHgPVcWhUuPw9eFypZX0rPUtbeynK+VA2fx/eIrewl+g==";
+        };
     in {
         "ZIxm9wmz" = _ZIxm9wmz;
         "I6wOz1pt" = _I6wOz1pt;
@@ -38,12 +48,15 @@ let
         "iCuIgih8" = _iCuIgih8;
         "pXH5m41U" = _pXH5m41U;
         "X7l1moJm" = _X7l1moJm;
-        "fabric-1.21.1" = _pXH5m41U;
-        "neoforge-1.21.1" = _X7l1moJm;
+        "a1vn7ozC" = _a1vn7ozC;
+        "Qbo9SEB3" = _Qbo9SEB3;
+        "fabric-1.21.1" = _a1vn7ozC;
+        "neoforge-1.21.1" = _Qbo9SEB3;
         "pkg-1.0" = _I6wOz1pt;
         "pkg-2.0" = _iCuIgih8;
         "pkg-3.0" = _X7l1moJm;
-        "default" = _X7l1moJm;
+        "pkg-4.0" = _Qbo9SEB3;
+        "default" = _Qbo9SEB3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-raid-dens-addon-auto-raid-den-designs";

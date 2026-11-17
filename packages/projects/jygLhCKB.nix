@@ -151,6 +151,16 @@ let
             "file" = "NopoMod-2.6.0-26.1.2.jar";
             "hash" = "sha512-j+3VvK6YJymlnAVwIC/ROO4C8qY0piBV4ESYRrUA94B49tRPisWfBobTL3ObXArx8tDbzCs9szVSG+qWEcW2WA==";
         };
+        _oWzzGVNn = {
+            "id" = "oWzzGVNn";
+            "file" = "NopoMod-2.7.0-26.2.jar";
+            "hash" = "sha512-csWyAf2gDvOd81bdL7pFhU6FbzgaIzPp0uIOMLxpuA2zWuKLEWPeXhJ7/KLUl9kPLdaSDGRy5/qQPz1gKxL43w==";
+        };
+        _v93akpCm = {
+            "id" = "v93akpCm";
+            "file" = "NopoMod-2.7.0-26.1.2.jar";
+            "hash" = "sha512-RlUfloxgfajqsxRFrrVowZuCx7xp0/atol29CWAfcT79jLGrNOBRKgPN+2myiIaoooJgMno0mr4H64nNMDfQZg==";
+        };
     in {
         "w6ABotdU" = _w6ABotdU;
         "q2Dxn6Xn" = _q2Dxn6Xn;
@@ -182,11 +192,13 @@ let
         "6LRGEQ73" = _6LRGEQ73;
         "VHUzF2NJ" = _VHUzF2NJ;
         "5Qh9sdj6" = _5Qh9sdj6;
+        "oWzzGVNn" = _oWzzGVNn;
+        "v93akpCm" = _v93akpCm;
         "fabric-1.21.11" = _o0jFsChn;
-        "fabric-26.1" = _5Qh9sdj6;
-        "fabric-26.1.1" = _5Qh9sdj6;
-        "fabric-26.1.2" = _5Qh9sdj6;
-        "fabric-26.2" = _VHUzF2NJ;
+        "fabric-26.1" = _v93akpCm;
+        "fabric-26.1.1" = _v93akpCm;
+        "fabric-26.1.2" = _v93akpCm;
+        "fabric-26.2" = _oWzzGVNn;
         "pkg-1.0.0" = _w6ABotdU;
         "pkg-1.1.0" = _q2Dxn6Xn;
         "pkg-1.1.1" = _WsscwYg8;
@@ -210,7 +222,8 @@ let
         "pkg-2.4.0" = _GYyJ5JAl;
         "pkg-2.5.0" = _6LRGEQ73;
         "pkg-2.6.0" = _5Qh9sdj6;
-        "default" = _5Qh9sdj6;
+        "pkg-2.7.0" = _v93akpCm;
+        "default" = _v93akpCm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nopo-mod";

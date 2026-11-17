@@ -86,6 +86,21 @@ let
             "file" = "combatplus-core-4.0.1+1.21.11.jar";
             "hash" = "sha512-gyNV7blyT0Dsg98E6BT/30jHWc6VgT8AH7EMBCrHoBcNYOkTEyhc9AFVwL7qeV5PcLk6MBHiQAsplxv8mGITFA==";
         };
+        _4NkZB3tI = {
+            "id" = "4NkZB3tI";
+            "file" = "combatplus-core-5.0.0+26.1.jar";
+            "hash" = "sha512-YpXL6SEFz8cg4qCmx9MfBYbmltUC6YqZ/BQxNFZLq3v7dNA4ZiYhhc/YPLx4hpMTxZ1wUvkhDviR3FP6Jvu7cw==";
+        };
+        _TRnANwLu = {
+            "id" = "TRnANwLu";
+            "file" = "combatplus-core-5.0.0+26.2.jar";
+            "hash" = "sha512-WDW3hVu9pJ3igM7e84q3qzuDUdSBw5E0+Wqp5tMToWuLZNvVgtdM1bKKRMoTqEPVVlwBzfdef7KxZsVds07Sbg==";
+        };
+        _fLDEKUjl = {
+            "id" = "fLDEKUjl";
+            "file" = "combatplus-core-5.0.0+26.3.jar";
+            "hash" = "sha512-PbihLk0gELwWEIpJEIxBPguLEDUmsAnENaPhV6rlppcnkX18mc9GE8Ihk/mz3M3KJsL7HdUMjiDufdLQK08/iA==";
+        };
     in {
         "h50cFdVK" = _h50cFdVK;
         "CueeGm2z" = _CueeGm2z;
@@ -104,6 +119,9 @@ let
         "jiNrHxZp" = _jiNrHxZp;
         "gP8IWnvS" = _gP8IWnvS;
         "QOZ3s0Zo" = _QOZ3s0Zo;
+        "4NkZB3tI" = _4NkZB3tI;
+        "TRnANwLu" = _TRnANwLu;
+        "fLDEKUjl" = _fLDEKUjl;
         "fabric-1.20" = _owxfKIHw;
         "fabric-1.20.1" = _owxfKIHw;
         "fabric-1.20.2" = _owxfKIHw;
@@ -123,6 +141,11 @@ let
         "fabric-1.21.9" = _jiNrHxZp;
         "fabric-1.21.10" = _jiNrHxZp;
         "fabric-1.21.11" = _QOZ3s0Zo;
+        "fabric-26.1" = _4NkZB3tI;
+        "fabric-26.1.1" = _4NkZB3tI;
+        "fabric-26.1.2" = _4NkZB3tI;
+        "fabric-26.2" = _TRnANwLu;
+        "fabric-26.3" = _fLDEKUjl;
         "quilt-1.20" = _owxfKIHw;
         "quilt-1.20.1" = _owxfKIHw;
         "quilt-1.20.2" = _owxfKIHw;
@@ -142,6 +165,11 @@ let
         "quilt-1.21.9" = _jiNrHxZp;
         "quilt-1.21.10" = _jiNrHxZp;
         "quilt-1.21.11" = _QOZ3s0Zo;
+        "quilt-26.1" = _4NkZB3tI;
+        "quilt-26.1.1" = _4NkZB3tI;
+        "quilt-26.1.2" = _4NkZB3tI;
+        "quilt-26.2" = _TRnANwLu;
+        "quilt-26.3" = _fLDEKUjl;
         "pkg-1.0.0+1.20.1" = _h50cFdVK;
         "pkg-1.0.0+1.20.4" = _CueeGm2z;
         "pkg-2.0.0+1.20.6" = _BnZ0kP3U;
@@ -159,7 +187,10 @@ let
         "pkg-4.0.0+1.21.10" = _jiNrHxZp;
         "pkg-4.0.0+1.21.11" = _gP8IWnvS;
         "pkg-4.0.1+1.21.11" = _QOZ3s0Zo;
-        "default" = _QOZ3s0Zo;
+        "pkg-5.0.0+26.1" = _4NkZB3tI;
+        "pkg-5.0.0+26.2" = _TRnANwLu;
+        "pkg-5.0.0+26.3" = _fLDEKUjl;
+        "default" = _fLDEKUjl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combatplus-core";

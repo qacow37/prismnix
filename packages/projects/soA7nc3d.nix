@@ -36,6 +36,11 @@ let
             "file" = "jvpillage-1.20.1-1.0.0.6.1.jar";
             "hash" = "sha512-n8Db5w+OHpCC5gkkWlzKfuG0wAOt4jLle+uKWNEH/6M+sVSMoV46WaL/MRKPuWlm+x0Iit2SXKWxh9h39UjAlw==";
         };
+        _FEy1wRsD = {
+            "id" = "FEy1wRsD";
+            "file" = "jvpillage-1.20.1-1.0.0.6.2.jar";
+            "hash" = "sha512-gdIgUXcjGpYSEXbdWiI2crLlE+Y9O2Hg6xI3figaNx3ueSD2KMVPQoDGDWkpaAq71fgr/lApQxGd/XBxGusG/A==";
+        };
     in {
         "tkxzEgnx" = _tkxzEgnx;
         "unpzPpbq" = _unpzPpbq;
@@ -44,7 +49,8 @@ let
         "sGoHIfcZ" = _sGoHIfcZ;
         "XmhVGZdv" = _XmhVGZdv;
         "5tyYoa87" = _5tyYoa87;
-        "forge-1.20.1" = _5tyYoa87;
+        "FEy1wRsD" = _FEy1wRsD;
+        "forge-1.20.1" = _FEy1wRsD;
         "pkg-1.0.0.0" = _tkxzEgnx;
         "pkg-1.0.0.4" = _unpzPpbq;
         "pkg-1.0.0.5" = _ILjq6TUQ;
@@ -52,7 +58,8 @@ let
         "pkg-1.0.0.6" = _sGoHIfcZ;
         "pkg-1.0.0.6_fix" = _XmhVGZdv;
         "pkg-1.0.0.6.1" = _5tyYoa87;
-        "default" = _5tyYoa87;
+        "pkg-1.0.0.6.2" = _FEy1wRsD;
+        "default" = _FEy1wRsD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jvs-pillage";

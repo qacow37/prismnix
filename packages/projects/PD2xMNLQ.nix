@@ -161,6 +161,61 @@ let
             "file" = "optimizedcushionsbackport-fabric-mc1.20.1-1.2.0.jar";
             "hash" = "sha512-+hbCvQvwb3L6EtFS2ThlHHtU2R0cRV5nAR+tvvaU/HtH/5Nh1tWmTSpolIaa8WD5g5+cAaJxFg7qQtEmoJG//A==";
         };
+        _h1dpjOeO = {
+            "id" = "h1dpjOeO";
+            "file" = "optimizedcushions-fabric-mc26.3-1.3.0.jar";
+            "hash" = "sha512-o1AnLGzNEOM3+gYZwtnbUZBbG0yDP5oO1qj9vdM4iicaAhwS2fDlOISCgyi/4d9EE2Iyz/FlONG1AkYWc9wy5w==";
+        };
+        _rP7AR1Wp = {
+            "id" = "rP7AR1Wp";
+            "file" = "optimizedcushions-neoforge-mc26.3-1.3.0.jar";
+            "hash" = "sha512-GzmhkAHT2wdY8FzI/NEh5OmLoh/BGZgmr+XhdX5U5RWCTJZ3Go/9/PcTMrIRRvXEfuA0v8uxsR8ZpIkT9vVRoQ==";
+        };
+        _800WEPsX = {
+            "id" = "800WEPsX";
+            "file" = "optimizedcushionsbackport-neoforge-mc26.1.2-1.3.0.jar";
+            "hash" = "sha512-ZjDe6RyqrRTiWzZQOgguOKbCsQvdyQ5t5LKikV6EkBetcJq18G0eOofT8LAKskjmoHxt4snR4GFn38Zx8DMRmg==";
+        };
+        _NvNhyrjy = {
+            "id" = "NvNhyrjy";
+            "file" = "optimizedcushionsbackport-fabric-mc1.21.1-1.3.0.jar";
+            "hash" = "sha512-vJRNF34QeiWt1QZQQzCpdWvhUMhW8MzeT1AVXcw4+8zBdnIYeYbtFo9Gg6A1mxFqVQt2NDU0JGIltVPnahx0uQ==";
+        };
+        _bpFGjNJN = {
+            "id" = "bpFGjNJN";
+            "file" = "optimizedcushionsbackport-fabric-mc1.20.1-1.3.0.jar";
+            "hash" = "sha512-dSffjSLRAEc4IcxCm/GzvaEnr2EzgNHWv/qWxDwotfqJ3mXfm3a99k4Cn6bZySTbMxcosNNgmyF6qbbBioCANQ==";
+        };
+        _a7mhagkG = {
+            "id" = "a7mhagkG";
+            "file" = "optimizedcushionsbackport-neoforge-mc26.2-1.3.0.jar";
+            "hash" = "sha512-3gS/7BSEWN+mfrll6KhLKCR1At7h+5fSgYeanPyWbTr5mElj6ZEOZKrjhi5JdeRyjqA6hTwWZfQWMwMBhw8fCA==";
+        };
+        _Z0SiLms7 = {
+            "id" = "Z0SiLms7";
+            "file" = "optimizedcushionsbackport-fabric-mc1.21.11-1.3.0.jar";
+            "hash" = "sha512-ejPup9r/dNgMRR7kW4TP82y/3gPd0VMIHUcv0VbVzmeKisASjeQWNu9HKDM+Wyenu2+DpbeGKiZtha9wFHdFYQ==";
+        };
+        _AzlGyi0N = {
+            "id" = "AzlGyi0N";
+            "file" = "optimizedcushionsbackport-fabric-mc26.2-1.3.0.jar";
+            "hash" = "sha512-XUgKpXvhGcwx1BYzKVTPKFy2D0gxbO1HZosCfEbC7BKDcBA5g9nLuZOnzAtTfpt/EZtQeFh/p7X+0DX7onZYcQ==";
+        };
+        _1OkrYyA3 = {
+            "id" = "1OkrYyA3";
+            "file" = "optimizedcushionsbackport-fabric-mc26.1.2-1.3.0.jar";
+            "hash" = "sha512-mJ4uOhNWVOcDnKUReiwkIkH7zbpUvaGBDBOuf4aEYBa0S4vVvcShM9MU60tTiTR5TSThPzNdV0Q2HGlbsXe5yA==";
+        };
+        _1uACH8r8 = {
+            "id" = "1uACH8r8";
+            "file" = "optimizedcushionsbackport-neoforge-mc1.21.11-1.3.0.jar";
+            "hash" = "sha512-AVTnYfGd7Ae77B5YYX/2GuBeSQl/iazZdrJv8Ar2qNaMGBD2N1qET3bEC9x2YLPhXm1WbRBvKYnK3LEXXX1ftQ==";
+        };
+        _q7qrSMrq = {
+            "id" = "q7qrSMrq";
+            "file" = "optimizedcushionsbackport-neoforge-mc1.21.1-1.3.0.jar";
+            "hash" = "sha512-62+aoW33iwB8JPMLWHoOFUz73HBk7+rlYjw3Ys3Pyyh/cE8Bqh5h1mxyP4GF1uCvMrLzMqswPbgpnRV2JZr9zQ==";
+        };
     in {
         "WX1hFA0E" = _WX1hFA0E;
         "6tPQaSV2" = _6tPQaSV2;
@@ -194,23 +249,35 @@ let
         "ZcTMl25C" = _ZcTMl25C;
         "J0XULx3L" = _J0XULx3L;
         "Sh2p0n2V" = _Sh2p0n2V;
+        "h1dpjOeO" = _h1dpjOeO;
+        "rP7AR1Wp" = _rP7AR1Wp;
+        "800WEPsX" = _800WEPsX;
+        "NvNhyrjy" = _NvNhyrjy;
+        "bpFGjNJN" = _bpFGjNJN;
+        "a7mhagkG" = _a7mhagkG;
+        "Z0SiLms7" = _Z0SiLms7;
+        "AzlGyi0N" = _AzlGyi0N;
+        "1OkrYyA3" = _1OkrYyA3;
+        "1uACH8r8" = _1uACH8r8;
+        "q7qrSMrq" = _q7qrSMrq;
         "fabric-26.3-snapshot-3" = _WX1hFA0E;
-        "fabric-26.3" = _yYn5X3kO;
-        "fabric-26.1.2" = _dSkamPNZ;
-        "fabric-26.2" = _CitVV5db;
-        "fabric-1.21.11" = _Txt8Q9XI;
-        "fabric-1.20.1" = _Sh2p0n2V;
-        "fabric-1.21.1" = _bGh2q3CZ;
-        "neoforge-26.3" = _I7vJtJkZ;
-        "neoforge-1.21.11" = _J0XULx3L;
-        "neoforge-26.2" = _ZcTMl25C;
-        "neoforge-1.21.1" = _FzVyxdFF;
-        "neoforge-26.1.2" = _aQkzUnTE;
+        "fabric-26.3" = _h1dpjOeO;
+        "fabric-26.1.2" = _1OkrYyA3;
+        "fabric-26.2" = _AzlGyi0N;
+        "fabric-1.21.11" = _Z0SiLms7;
+        "fabric-1.20.1" = _bpFGjNJN;
+        "fabric-1.21.1" = _NvNhyrjy;
+        "neoforge-26.3" = _rP7AR1Wp;
+        "neoforge-1.21.11" = _1uACH8r8;
+        "neoforge-26.2" = _a7mhagkG;
+        "neoforge-1.21.1" = _q7qrSMrq;
+        "neoforge-26.1.2" = _800WEPsX;
         "pkg-0.1.0" = _WX1hFA0E;
         "pkg-1.0.0" = _IzpsWhe4;
         "pkg-1.1.0" = _f3gRf3C2;
         "pkg-1.2.0" = _Sh2p0n2V;
-        "default" = _Sh2p0n2V;
+        "pkg-1.3.0" = _q7qrSMrq;
+        "default" = _q7qrSMrq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "optimized-cushions";

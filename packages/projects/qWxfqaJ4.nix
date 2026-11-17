@@ -66,6 +66,11 @@ let
             "file" = "custom-torches-1.0.0+26.3.jar";
             "hash" = "sha512-rSO3UkOBHXqoC4coYa/H2kH8whAgy/NgzlDdICqTwqFFYWZDD8dkXvDnniZVq1hp3K/EuRDUDlqQELP+mxSMqw==";
         };
+        _ymQ7MFVa = {
+            "id" = "ymQ7MFVa";
+            "file" = "customtorches-1.0.0+26.3.jar";
+            "hash" = "sha512-6qYT4HYhJEp/wRsIk3LHlqIragkpCLDf6qHwr3CUQSDZEpp9ml3S2bxAc4wg33lWTI0+bvb9sKhw3ad4VunxBQ==";
+        };
     in {
         "W2bBw1j2" = _W2bBw1j2;
         "vs14ldqX" = _vs14ldqX;
@@ -80,6 +85,7 @@ let
         "jGh0Zb2k" = _jGh0Zb2k;
         "1VTDPYYs" = _1VTDPYYs;
         "BzM1GjaM" = _BzM1GjaM;
+        "ymQ7MFVa" = _ymQ7MFVa;
         "fabric-1.21.5" = _W2bBw1j2;
         "fabric-1.21.6" = _lJGx2rfY;
         "fabric-1.21.7" = _lJGx2rfY;
@@ -102,10 +108,11 @@ let
         "neoforge-26.1.1" = _IyG8phZA;
         "neoforge-26.1.2" = _IyG8phZA;
         "neoforge-26.2" = _1VTDPYYs;
+        "neoforge-26.3" = _ymQ7MFVa;
         "pkg-1.0.0" = _1VTDPYYs;
         "pkg-1.0.0+26.2" = _jGh0Zb2k;
-        "pkg-1.0.0+26.3" = _BzM1GjaM;
-        "default" = _BzM1GjaM;
+        "pkg-1.0.0+26.3" = _ymQ7MFVa;
+        "default" = _ymQ7MFVa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "torch-color-variants";

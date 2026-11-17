@@ -56,6 +56,21 @@ let
             "file" = "extended-enchanting-2.0.0+1.21.11.jar";
             "hash" = "sha512-DhPO4RZRiD5tGmuKBBslr3x+1NpbaWfqHejcTmN88+vAt0f1uSdSHYdlNNLcTaJU+ANNrtYM5sR4v3kx9uCyuw==";
         };
+        _5xdEpe6t = {
+            "id" = "5xdEpe6t";
+            "file" = "extended-enchanting-2.0.0+26.1.jar";
+            "hash" = "sha512-EZsvncFBikFVgfztQvkqt2Nis2piMlslDkRD5MGBdzKcufAquNN82dtl8Q0iGykkRo7/0Ms8YUT6QkesG3ebmA==";
+        };
+        _A2O2OpiY = {
+            "id" = "A2O2OpiY";
+            "file" = "extended-enchanting-2.0.0+26.2.jar";
+            "hash" = "sha512-ZwF1khJs551goQ2Pit3gxvqtIE4oNmXv+Ud2b+EcSdGh1+m5dYqkjZCsxts2ukGTOHp2Mr9Xlr6Wss+uB3tznw==";
+        };
+        _PL1dYL9f = {
+            "id" = "PL1dYL9f";
+            "file" = "extended-enchanting-2.0.0+26.3.jar";
+            "hash" = "sha512-i5Gpg1mf4YJpDxDoIkoeM9YWZQPNwaqN7vOwcDy257BVPXgMZ+82zQFTM+wKwCyOhDOiw/Fa+uSu1mfVIPZPvQ==";
+        };
     in {
         "PdEXVQbz" = _PdEXVQbz;
         "yrQZi4wZ" = _yrQZi4wZ;
@@ -68,6 +83,9 @@ let
         "Icco9czl" = _Icco9czl;
         "oiK9IFBm" = _oiK9IFBm;
         "eqTIwndh" = _eqTIwndh;
+        "5xdEpe6t" = _5xdEpe6t;
+        "A2O2OpiY" = _A2O2OpiY;
+        "PL1dYL9f" = _PL1dYL9f;
         "fabric-1.20" = _gOfLa49A;
         "fabric-1.20.1" = _gOfLa49A;
         "fabric-1.20.2" = _gOfLa49A;
@@ -87,6 +105,11 @@ let
         "fabric-1.21.9" = _oiK9IFBm;
         "fabric-1.21.10" = _oiK9IFBm;
         "fabric-1.21.11" = _eqTIwndh;
+        "fabric-26.1" = _5xdEpe6t;
+        "fabric-26.1.1" = _5xdEpe6t;
+        "fabric-26.1.2" = _5xdEpe6t;
+        "fabric-26.2" = _A2O2OpiY;
+        "fabric-26.3" = _PL1dYL9f;
         "quilt-1.20" = _gOfLa49A;
         "quilt-1.20.1" = _gOfLa49A;
         "quilt-1.20.2" = _gOfLa49A;
@@ -106,6 +129,11 @@ let
         "quilt-1.21.9" = _oiK9IFBm;
         "quilt-1.21.10" = _oiK9IFBm;
         "quilt-1.21.11" = _eqTIwndh;
+        "quilt-26.1" = _5xdEpe6t;
+        "quilt-26.1.1" = _5xdEpe6t;
+        "quilt-26.1.2" = _5xdEpe6t;
+        "quilt-26.2" = _A2O2OpiY;
+        "quilt-26.3" = _PL1dYL9f;
         "pkg-1.0.0+1.20.1" = _PdEXVQbz;
         "pkg-1.0.1+1.20.6" = _yrQZi4wZ;
         "pkg-1.0.2+1.20.6" = _o33raGjI;
@@ -117,7 +145,10 @@ let
         "pkg-2.0.0+1.21.5" = _Icco9czl;
         "pkg-2.0.0+1.21.10" = _oiK9IFBm;
         "pkg-2.0.0+1.21.11" = _eqTIwndh;
-        "default" = _eqTIwndh;
+        "pkg-2.0.0+26.1" = _5xdEpe6t;
+        "pkg-2.0.0+26.2" = _A2O2OpiY;
+        "pkg-2.0.0+26.3" = _PL1dYL9f;
+        "default" = _PL1dYL9f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-enchanting";

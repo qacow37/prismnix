@@ -156,6 +156,21 @@ let
             "file" = "shape-shifter-curse-unofficial-1.10.0.57+26.1.2.jar";
             "hash" = "sha512-AcoyNnUn22VvcFOrN7vW1VU+5IbxwHSOVjkjSqTX90rfWIjNgBf3kqraQryrKPR9MuXCCJ/XOw+967urnq9Tcw==";
         };
+        _qtrHgvr0 = {
+            "id" = "qtrHgvr0";
+            "file" = "shape-shifter-curse-unofficial-1.10.0.55+1.21.1.jar";
+            "hash" = "sha512-or+pu6OTh0s3LANdBNKzB9E5fVduwlhuLTUF/Yp9950pQw0FWGSeHHCV4D+0kcw3CmehZ+9nMJCG7ZVZyWssYQ==";
+        };
+        _CW1zZgLX = {
+            "id" = "CW1zZgLX";
+            "file" = "shape-shifter-curse-unofficial-1.10.0.55+1.21.11.jar";
+            "hash" = "sha512-JbNoJaAVbDBfFUzocTvA9Ik9gxPg6SqIiWXNqKyEj/FIBFoswVqH3YKt1pLiyyVNyZ7UqtoKEOjJ1R01Vg9wPQ==";
+        };
+        _2UsKb5rD = {
+            "id" = "2UsKb5rD";
+            "file" = "shape-shifter-curse-unofficial-1.10.0.59+26.1.2.jar";
+            "hash" = "sha512-QPsRH8DpnQUuUpHoKDsGVb4aWZ3PsQX7/5wZFtGUD4OogW2haA999DK1SgjuJvADFo4RMO0pykFScwZt80rTFg==";
+        };
     in {
         "u0SjxCE4" = _u0SjxCE4;
         "xnRbuHZi" = _xnRbuHZi;
@@ -188,15 +203,18 @@ let
         "56OyQnUy" = _56OyQnUy;
         "teB3HFYn" = _teB3HFYn;
         "LwRptqtb" = _LwRptqtb;
-        "fabric-1.21.1" = _56OyQnUy;
-        "fabric-1.21.11" = _teB3HFYn;
-        "fabric-26.1" = _LwRptqtb;
-        "fabric-26.1.1" = _LwRptqtb;
-        "fabric-26.1.2" = _LwRptqtb;
-        "neoforge-1.21.1" = _56OyQnUy;
-        "neoforge-26.1.2" = _LwRptqtb;
-        "neoforge-26.1.1" = _LwRptqtb;
-        "neoforge-26.1" = _LwRptqtb;
+        "qtrHgvr0" = _qtrHgvr0;
+        "CW1zZgLX" = _CW1zZgLX;
+        "2UsKb5rD" = _2UsKb5rD;
+        "fabric-1.21.1" = _qtrHgvr0;
+        "fabric-1.21.11" = _CW1zZgLX;
+        "fabric-26.1" = _2UsKb5rD;
+        "fabric-26.1.1" = _2UsKb5rD;
+        "fabric-26.1.2" = _2UsKb5rD;
+        "neoforge-1.21.1" = _qtrHgvr0;
+        "neoforge-26.1.2" = _2UsKb5rD;
+        "neoforge-26.1.1" = _2UsKb5rD;
+        "neoforge-26.1" = _2UsKb5rD;
         "pkg-1.9.0-dev+build.1+mc.1.21.1" = _u0SjxCE4;
         "pkg-1.9.0-dev+build.2+mc.1.21.1" = _xnRbuHZi;
         "pkg-1.9.0-dev+build.3+mc.1.21.1" = _fvAKh47V;
@@ -228,7 +246,10 @@ let
         "pkg-1.10.0.50+1.21.1" = _56OyQnUy;
         "pkg-1.10.0.54+1.21.11" = _teB3HFYn;
         "pkg-1.10.0.57+26.1.2" = _LwRptqtb;
-        "default" = _LwRptqtb;
+        "pkg-1.10.0.55+1.21.1" = _qtrHgvr0;
+        "pkg-1.10.0.55+1.21.11" = _CW1zZgLX;
+        "pkg-1.10.0.59+26.1.2" = _2UsKb5rD;
+        "default" = _2UsKb5rD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shape-shifter-curse-unofficial-port";

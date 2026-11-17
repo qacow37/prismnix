@@ -161,6 +161,11 @@ let
             "file" = "nastias_miracle_stones_mod-2.1.2-Bugfix2.jar";
             "hash" = "sha512-rELAfMdFs3iIJlzvOn3ARlXxJm4PCaiYU3CAaEpMJwpX7zJsQ3Vr+dhLtn4uvZJl7oSw5jUNJtYXfO7wc5xsrQ==";
         };
+        _29LQSmkP = {
+            "id" = "29LQSmkP";
+            "file" = "nastias-miracle-stones-2.1.3-Snake_Addition.jar";
+            "hash" = "sha512-tgwPkZxBm1r1VfFqJ+fWP59grSU7shNqSACcTwVgKwsx/a+gQuaPECufv6VhkUaBaKkkyBflrrCtV34ZWxHomA==";
+        };
     in {
         "FxIa6gxj" = _FxIa6gxj;
         "qjjpcta2" = _qjjpcta2;
@@ -194,7 +199,8 @@ let
         "c2e7yUdL" = _c2e7yUdL;
         "G2WBJ55u" = _G2WBJ55u;
         "U9Z5CQX2" = _U9Z5CQX2;
-        "forge-1.20.1" = _U9Z5CQX2;
+        "29LQSmkP" = _29LQSmkP;
+        "forge-1.20.1" = _29LQSmkP;
         "pkg-1.0.0" = _FxIa6gxj;
         "pkg-1.1.0" = _N0agwaMD;
         "pkg-1.2.0" = _M1gGrgYj;
@@ -221,7 +227,8 @@ let
         "pkg-2.1" = _c2e7yUdL;
         "pkg-2.1.1" = _G2WBJ55u;
         "pkg-2.1.2" = _U9Z5CQX2;
-        "default" = _U9Z5CQX2;
+        "pkg-2.1.3" = _29LQSmkP;
+        "default" = _29LQSmkP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nastia`s-miracle-stones";

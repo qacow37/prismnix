@@ -31,6 +31,11 @@ let
             "file" = "sweeper_maid-1.1.3.jar";
             "hash" = "sha512-rJrkm2dCbCUps09jUiHJy5OQuemxSt25/qe28o6iCutT7U6OYgcgCugxukcVk0aMmdIzwCQQbSwHJts4WVzz1g==";
         };
+        _MUqeMpdU = {
+            "id" = "MUqeMpdU";
+            "file" = "sweeper_maid-1.2.1.jar";
+            "hash" = "sha512-xazAfOcw8E/HerxOloRk3F2fXLkG9huGYL51Dt/q0mbR5oCdIhkkHVBW0AuiIhzlxEfOI6QOc8ZQqWWFhQ5xxg==";
+        };
     in {
         "EjjBdKGx" = _EjjBdKGx;
         "ZptEa3Xa" = _ZptEa3Xa;
@@ -38,14 +43,15 @@ let
         "9an6YdAf" = _9an6YdAf;
         "4Fx97QFQ" = _4Fx97QFQ;
         "VtCoRA06" = _VtCoRA06;
+        "MUqeMpdU" = _MUqeMpdU;
         "forge-1.20" = _VtCoRA06;
         "forge-1.20.1" = _VtCoRA06;
         "forge-1.20.2" = _ZptEa3Xa;
         "forge-1.20.3" = _ZptEa3Xa;
         "forge-1.20.4" = _ZptEa3Xa;
-        "neoforge-1.20.2" = _ejQbL5ki;
-        "neoforge-1.20.3" = _ejQbL5ki;
-        "neoforge-1.20.4" = _ejQbL5ki;
+        "neoforge-1.20.2" = _MUqeMpdU;
+        "neoforge-1.20.3" = _MUqeMpdU;
+        "neoforge-1.20.4" = _MUqeMpdU;
         "neoforge-1.20.5" = _9an6YdAf;
         "neoforge-1.20.6" = _9an6YdAf;
         "pkg-1.1.0" = _EjjBdKGx;
@@ -54,7 +60,8 @@ let
         "pkg-1.6.0" = _9an6YdAf;
         "pkg-1.1.2" = _4Fx97QFQ;
         "pkg-1.1.3" = _VtCoRA06;
-        "default" = _VtCoRA06;
+        "pkg-1.2.1" = _MUqeMpdU;
+        "default" = _MUqeMpdU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sweeper-maid";

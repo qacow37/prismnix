@@ -146,6 +146,56 @@ let
             "file" = "accuratefpsplus-26.3-1.4-r1-neoforge.jar";
             "hash" = "sha512-xRBJ/yQVHY49W5Z90dlAFuKC67g5sz07FN0TMStMGIRMSTfjt0RCndAoR8eX1W0hSxLLbKccR1nGh+dEGLONXQ==";
         };
+        _uCrpx0xY = {
+            "id" = "uCrpx0xY";
+            "file" = "accuratefpsplus-1.21.1-1.4-r2-fabric.jar";
+            "hash" = "sha512-AILBbbUcJe0P4ptNkrXw2XX8syo73YVQ4bd7oE3UR7NHi4uDwZh1gVEhlcbXjr/JN7i7ecx7fj/QAajfCUTuPQ==";
+        };
+        _KlKXFydS = {
+            "id" = "KlKXFydS";
+            "file" = "accuratefpsplus-1.21.1-1.4-r2-neoforge.jar";
+            "hash" = "sha512-fw03EQ3hIBNNd7X3knLTx1ap93WwbWBNdEj3+Q1b8al/NfyxDybbXnuHWGUTYkYx7NQtwOkhsSFbrFmPVC0Xyw==";
+        };
+        _HxOecTMB = {
+            "id" = "HxOecTMB";
+            "file" = "accuratefpsplus-1.21.11-1.4-r2-fabric.jar";
+            "hash" = "sha512-3Q48Akdw8BsVQ+71ayWuHTazrxvwY9KX48Uuc0V117EUekSTyeNDRj0l+h/PJcPBmw9tFV9ya/SLChpk4l+txA==";
+        };
+        _fo2N4iAs = {
+            "id" = "fo2N4iAs";
+            "file" = "accuratefpsplus-1.21.11-1.4-r2-neoforge.jar";
+            "hash" = "sha512-7TaA2ZhK2x/QCK0gwJRH2obG+Phj4EaevcXyWAPRgOQPTx4a7dTrD86DV1AAMUDUUYAEEnA7e0DmrNG8ufbZmQ==";
+        };
+        _ckd9GYKY = {
+            "id" = "ckd9GYKY";
+            "file" = "accuratefpsplus-26.1.2-1.4-r2-fabric.jar";
+            "hash" = "sha512-b/mwlSjOcilfz0W/82tePNVmJUE+MfuFD9Dbw36QHzbI6eC1IHQ/PqGOdTukRWfwSvrhN9mqClAMqNFwj2dUcA==";
+        };
+        _HbNCYHBi = {
+            "id" = "HbNCYHBi";
+            "file" = "accuratefpsplus-26.1.2-1.4-r2-neoforge.jar";
+            "hash" = "sha512-ov/yi3jFlA+66EEjT0W9ZDjWsWAhRI5cV0MQ90DVhY8cEQvOC6q7v4Veo8dpHtvz0L/WAuTdiUNC+bjOfauo9g==";
+        };
+        _f2NhH6kL = {
+            "id" = "f2NhH6kL";
+            "file" = "accuratefpsplus-26.2-1.4-r2-fabric.jar";
+            "hash" = "sha512-CfoPhAfAnEKGsq9i2RuxOT5EtImEaRheH24CLFxin8nVPfGvWdxOGBQOFayd19R9l1sFnGjv7ATfHXK8PbWr+Q==";
+        };
+        _P52C2VbO = {
+            "id" = "P52C2VbO";
+            "file" = "accuratefpsplus-26.2-1.4-r2-neoforge.jar";
+            "hash" = "sha512-gSKhxYCIhWOhPDcJLuHps9ddOuzstLBOa5cyfSlOa5EkeXci9+IoAiHqWl4IecpBvsNMZYjpY8J0iH0yjoMiNQ==";
+        };
+        _t6kFHkkt = {
+            "id" = "t6kFHkkt";
+            "file" = "accuratefpsplus-26.3-1.4-r2-fabric.jar";
+            "hash" = "sha512-EIn8Tk0vGzmh14YcZXZts+mWc4nP33fvNQ4LsT1YgNJsrf40rERfPQfeQBbo2DJTWmKi1ccsiVpH7QQrefIzCA==";
+        };
+        _b063LDCm = {
+            "id" = "b063LDCm";
+            "file" = "accuratefpsplus-26.3-1.4-r2-neoforge.jar";
+            "hash" = "sha512-ldepowhIVf+7pkj8oyrJyac8UBvOVzr+cN/OVWZsQP+l7N9xmby0N9E1nskV3DrsOQ4QWXtP9QGaKS67xyoWxg==";
+        };
     in {
         "f00hpXX7" = _f00hpXX7;
         "4nuhzszF" = _4nuhzszF;
@@ -176,24 +226,34 @@ let
         "5rd1aqSE" = _5rd1aqSE;
         "gQPjycIv" = _gQPjycIv;
         "jcRd1nw9" = _jcRd1nw9;
-        "fabric-1.21.1" = _ilZH1BaM;
-        "fabric-1.21.11" = _WSrOPTlO;
-        "fabric-26.1" = _cgg5tlxc;
-        "fabric-26.1.1" = _cgg5tlxc;
-        "fabric-26.1.2" = _cgg5tlxc;
-        "fabric-26.2" = _Zka6TizZ;
-        "fabric-26.3" = _gQPjycIv;
+        "uCrpx0xY" = _uCrpx0xY;
+        "KlKXFydS" = _KlKXFydS;
+        "HxOecTMB" = _HxOecTMB;
+        "fo2N4iAs" = _fo2N4iAs;
+        "ckd9GYKY" = _ckd9GYKY;
+        "HbNCYHBi" = _HbNCYHBi;
+        "f2NhH6kL" = _f2NhH6kL;
+        "P52C2VbO" = _P52C2VbO;
+        "t6kFHkkt" = _t6kFHkkt;
+        "b063LDCm" = _b063LDCm;
+        "fabric-1.21.1" = _uCrpx0xY;
+        "fabric-1.21.11" = _HxOecTMB;
+        "fabric-26.1" = _ckd9GYKY;
+        "fabric-26.1.1" = _ckd9GYKY;
+        "fabric-26.1.2" = _ckd9GYKY;
+        "fabric-26.2" = _f2NhH6kL;
+        "fabric-26.3" = _t6kFHkkt;
         "forge-1.21.1" = _FNkzYqIH;
         "forge-1.21.11" = _kqLlp4tj;
         "quilt-1.21.1" = _SGBR1Lye;
         "quilt-1.21.11" = _4J2dBTjn;
-        "neoforge-1.21.1" = _Bp1FL09G;
-        "neoforge-1.21.11" = _izSFir0K;
-        "neoforge-26.1" = _xXgpomqP;
-        "neoforge-26.1.1" = _xXgpomqP;
-        "neoforge-26.1.2" = _xXgpomqP;
-        "neoforge-26.2" = _5rd1aqSE;
-        "neoforge-26.3" = _jcRd1nw9;
+        "neoforge-1.21.1" = _KlKXFydS;
+        "neoforge-1.21.11" = _fo2N4iAs;
+        "neoforge-26.1" = _HbNCYHBi;
+        "neoforge-26.1.1" = _HbNCYHBi;
+        "neoforge-26.1.2" = _HbNCYHBi;
+        "neoforge-26.2" = _P52C2VbO;
+        "neoforge-26.3" = _b063LDCm;
         "pkg-1.0-r1" = _4J2dBTjn;
         "pkg-1.0-r2.Refabricated" = _4f9jCBuS;
         "pkg-1.1-r1" = _fISOQoC8;
@@ -201,7 +261,8 @@ let
         "pkg-1.2-r2" = _jGa7vucp;
         "pkg-1.3-r1" = _xNvOMctB;
         "pkg-1.4-r1" = _jcRd1nw9;
-        "default" = _jcRd1nw9;
+        "pkg-1.4-r2" = _b063LDCm;
+        "default" = _b063LDCm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accuratefpsplus";

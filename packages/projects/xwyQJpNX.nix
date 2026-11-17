@@ -81,6 +81,16 @@ let
             "file" = "Forager-Extra3D.zip";
             "hash" = "sha512-IfGuCddwsZajhhgnVcpehDYcDZYHcH8gPooXtenjM+LFZy9V8V78hf40qxW2Fyhhm50Wg9LhkWzZZxjYTPFR4g==";
         };
+        _F3Tf2m6N = {
+            "id" = "F3Tf2m6N";
+            "file" = "Forager-FA 26.1+.zip";
+            "hash" = "sha512-3vHpOmvgkLDwcRdHfKhv5RQLH6O9MZifV1XcOqITEEoDSK6gxeEQ822qxBwl1ZW/DMakdjOTSY3g/FxqScSlZg==";
+        };
+        _Owr9KrNu = {
+            "id" = "Owr9KrNu";
+            "file" = "Forager-ExtraMobsFA 26.1+.zip";
+            "hash" = "sha512-+ce6v3mFvvTSmTD1GhnLTTpr0s2ozZSJdhPeROPB7GcBOTrMkB2hKocf3Oi/HbJFO+oAVy8CPY+SC9DOOdwCRA==";
+        };
     in {
         "B8kkxM9n" = _B8kkxM9n;
         "4n22TO77" = _4n22TO77;
@@ -98,6 +108,8 @@ let
         "ufl11AzP" = _ufl11AzP;
         "hVdu2Q4w" = _hVdu2Q4w;
         "uHzlvTXD" = _uHzlvTXD;
+        "F3Tf2m6N" = _F3Tf2m6N;
+        "Owr9KrNu" = _Owr9KrNu;
         "minecraft-1.19.4" = _uHzlvTXD;
         "minecraft-1.20" = _uHzlvTXD;
         "minecraft-1.20.1" = _uHzlvTXD;
@@ -118,17 +130,19 @@ let
         "minecraft-1.21.9" = _uHzlvTXD;
         "minecraft-1.21.10" = _uHzlvTXD;
         "minecraft-1.21.11" = _uHzlvTXD;
-        "minecraft-26.1" = _uHzlvTXD;
-        "minecraft-26.1.1" = _uHzlvTXD;
-        "minecraft-26.1.2" = _uHzlvTXD;
-        "minecraft-26.2" = _uHzlvTXD;
-        "minecraft-26.3" = _uHzlvTXD;
+        "minecraft-26.1" = _Owr9KrNu;
+        "minecraft-26.1.1" = _Owr9KrNu;
+        "minecraft-26.1.2" = _Owr9KrNu;
+        "minecraft-26.2" = _Owr9KrNu;
+        "minecraft-26.3" = _Owr9KrNu;
         "pkg-1.0" = _QhVZYFQk;
         "pkg-2.0" = _8sBoascL;
         "pkg-Forager-BushyLeaves" = _ufl11AzP;
         "pkg-Forager-ConnectedTextures" = _hVdu2Q4w;
         "pkg-Forager-Extra3D" = _uHzlvTXD;
-        "default" = _uHzlvTXD;
+        "pkg-Forager-FreshAnimations" = _F3Tf2m6N;
+        "pkg-Forager-ExtraMobsFreshAnimations" = _Owr9KrNu;
+        "default" = _Owr9KrNu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forager-add-ons";

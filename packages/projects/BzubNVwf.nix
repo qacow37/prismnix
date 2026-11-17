@@ -101,6 +101,16 @@ let
             "file" = "a-mod-that-just-makes-the-game-more-annoying-mc26.3+-fabric-1.36.jar";
             "hash" = "sha512-349s3tKX2UkVNoG0ltUntiIUOOM6vrC8PrMDo0WtyNLADWTXw6Fbz5CU70w4QUYbYbeG1ir9bQ7/K0IssOSVZw==";
         };
+        _l1dwNMx6 = {
+            "id" = "l1dwNMx6";
+            "file" = "a-mod-that-just-makes-the-game-more-annoying-mc26.3+-fabric-1.37.jar";
+            "hash" = "sha512-pcvgdolWrM0B5y535iDWRdKyOQRQuGTbF0biiuyIjOaI+IcLkHQMdj4PFPgh9W+woxB2ZTVnUs5YDOAaBPSXpw==";
+        };
+        _9uE8OAry = {
+            "id" = "9uE8OAry";
+            "file" = "a-mod-that-just-makes-the-game-more-annoying-mc26.3+-fabric-1.38.jar";
+            "hash" = "sha512-RRsZFDBRaYsnPfozsEQPtEeuiNiQwKik0EUMiCJEbXWTqMphPVwi0yaW+saneOsTaCocd7s/SwKsZ/CNryYi1A==";
+        };
     in {
         "LvZ7iiad" = _LvZ7iiad;
         "RBWkgSwN" = _RBWkgSwN;
@@ -122,8 +132,10 @@ let
         "go3hWIWF" = _go3hWIWF;
         "O5N5sovs" = _O5N5sovs;
         "IL2tWDnf" = _IL2tWDnf;
+        "l1dwNMx6" = _l1dwNMx6;
+        "9uE8OAry" = _9uE8OAry;
         "fabric-26.2" = _azBbUnyG;
-        "fabric-26.3" = _IL2tWDnf;
+        "fabric-26.3" = _9uE8OAry;
         "pkg-1.8" = _LvZ7iiad;
         "pkg-1.15" = _RBWkgSwN;
         "pkg-1.16" = _fn4C7RFo;
@@ -144,7 +156,9 @@ let
         "pkg-1.34" = _go3hWIWF;
         "pkg-1.35" = _O5N5sovs;
         "pkg-1.36" = _IL2tWDnf;
-        "default" = _IL2tWDnf;
+        "pkg-1.37" = _l1dwNMx6;
+        "pkg-1.38" = _9uE8OAry;
+        "default" = _9uE8OAry;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amtjmtgma";

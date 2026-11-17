@@ -71,6 +71,11 @@ let
             "file" = "Simcity Expansion-1.21.1-neoforge-1.1.0.jar";
             "hash" = "sha512-m/kPWKpIGXFu4QNdZYudhXq37q4TyYXloPqQaOmHVR5HHuXu1kJlPTuDgvNMF5DZ0Yj9ZM2nuKPOxmAEOdm1xQ==";
         };
+        _9bLv2o9T = {
+            "id" = "9bLv2o9T";
+            "file" = "Simcity Expansion-1.21.1-neoforge-1.2.0.jar";
+            "hash" = "sha512-kImL2acNQ21q1PalOTnmOAODfz4Z1Odqa7/EuLEe43obVJhEj8z495CbMOyG3G+S3kWNitEMSJ20NEQXkjhfcw==";
+        };
     in {
         "pYVkNeL8" = _pYVkNeL8;
         "4HJV5J8t" = _4HJV5J8t;
@@ -86,8 +91,9 @@ let
         "r8JGA92L" = _r8JGA92L;
         "Tw7FXemn" = _Tw7FXemn;
         "OaXoLLxu" = _OaXoLLxu;
+        "9bLv2o9T" = _9bLv2o9T;
         "forge-1.20.1" = _IX7JFvdE;
-        "neoforge-1.21.1" = _OaXoLLxu;
+        "neoforge-1.21.1" = _9bLv2o9T;
         "pkg-0.0.1" = _pYVkNeL8;
         "pkg-0.0.2" = _4HJV5J8t;
         "pkg-0.0.2-hotfix" = _HgSkbjnU;
@@ -102,7 +108,8 @@ let
         "pkg-1.0.4" = _r8JGA92L;
         "pkg-1.0.7" = _Tw7FXemn;
         "pkg-1.1.0" = _OaXoLLxu;
-        "default" = _OaXoLLxu;
+        "pkg-1.2.0" = _9bLv2o9T;
+        "default" = _9bLv2o9T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simcityexpansion";

@@ -96,6 +96,11 @@ let
             "file" = "creaturefeature-1.2.3.3.jar";
             "hash" = "sha512-V+S+doWbTr7cbtBLAQgBkbpbFNx1kyL9UoOSkKS7mc2qa7Ax26MOIPr2VwVWHjUfasL7Iajh7mKzVcvTOFUWhA==";
         };
+        _WSnoKdtT = {
+            "id" = "WSnoKdtT";
+            "file" = "creaturefeature-1.3.0.jar";
+            "hash" = "sha512-T08NqEkQcOFV29gh6DZM+TFMW+Cg5kRFbtmr0NfpvEzUG52GiQsFh0R80SdNyxlFt7o/lK8K80jGejtmIOjEkQ==";
+        };
     in {
         "PolByQ5V" = _PolByQ5V;
         "uUIP4o7F" = _uUIP4o7F;
@@ -116,7 +121,8 @@ let
         "jhrDC35l" = _jhrDC35l;
         "KWUQOGeg" = _KWUQOGeg;
         "eW0CuJzM" = _eW0CuJzM;
-        "neoforge-1.21.1" = _eW0CuJzM;
+        "WSnoKdtT" = _WSnoKdtT;
+        "neoforge-1.21.1" = _WSnoKdtT;
         "pkg-1.0.0" = _PolByQ5V;
         "pkg-1.0.1" = _uUIP4o7F;
         "pkg-1.0.2" = _3pcsKCh2;
@@ -136,7 +142,8 @@ let
         "pkg-1.2.3.1" = _jhrDC35l;
         "pkg-1.2.3.2" = _KWUQOGeg;
         "pkg-1.2.3.3" = _eW0CuJzM;
-        "default" = _eW0CuJzM;
+        "pkg-1.3.0" = _WSnoKdtT;
+        "default" = _WSnoKdtT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creature-feature";

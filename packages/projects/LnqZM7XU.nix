@@ -161,6 +161,16 @@ let
             "file" = "miku-plushie-2.0.1-1.21.1.jar";
             "hash" = "sha512-NTDEfh1OJ/75fXRWaEmRX3qsgTyccWMFlgAwbahUj74eyHF3qn1tHn7GizIyFBaDAm2NR+i3fYpnlSVvtt9n+A==";
         };
+        _pjcaIv89 = {
+            "id" = "pjcaIv89";
+            "file" = "miku_plushie-fabric-1.21.1-3.0.0-rc1.jar";
+            "hash" = "sha512-/QBygJpwSr2PUCnSZyTf/IYIw48eBrLNqXA2d9k35Nd0hNe5/IAJOafoUGxaEGzrsKJzWtrrcigIjDEdydfNKQ==";
+        };
+        _iPnDwq64 = {
+            "id" = "iPnDwq64";
+            "file" = "miku_plushie-neoforge-1.21.1-3.0.0-rc1.jar";
+            "hash" = "sha512-4Aw3rZDQeATNBLwUY1JwLwZFJCAFTRtE2kR7JTdUWhCKDOx4LC7Tg2+tuFtA1EQKufAU0tA8W3TBg/CQy2uPCA==";
+        };
     in {
         "mNyusUkM" = _mNyusUkM;
         "ucH8UccF" = _ucH8UccF;
@@ -194,9 +204,11 @@ let
         "ob7baHkx" = _ob7baHkx;
         "SpMweLhu" = _SpMweLhu;
         "Jbgb8ZEY" = _Jbgb8ZEY;
-        "fabric-1.21.1" = _Jbgb8ZEY;
+        "pjcaIv89" = _pjcaIv89;
+        "iPnDwq64" = _iPnDwq64;
+        "fabric-1.21.1" = _pjcaIv89;
         "fabric-1.20.1" = _SpMweLhu;
-        "neoforge-1.21.1" = _UsG3L0dr;
+        "neoforge-1.21.1" = _iPnDwq64;
         "forge-1.20.1" = _ob7baHkx;
         "pkg-0.1.0" = _mNyusUkM;
         "pkg-1.0" = _ucH8UccF;
@@ -228,7 +240,9 @@ let
         "pkg-2.0-1.20.1-forge" = _ob7baHkx;
         "pkg-2.0.1-1.20.1" = _SpMweLhu;
         "pkg-2.0.1-1.21.1" = _Jbgb8ZEY;
-        "default" = _Jbgb8ZEY;
+        "pkg-fabric-3.0.0-rc1" = _pjcaIv89;
+        "pkg-neoforge-3.0.0-rc1" = _iPnDwq64;
+        "default" = _iPnDwq64;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "miku-plushies";

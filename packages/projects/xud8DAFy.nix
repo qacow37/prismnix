@@ -221,6 +221,21 @@ let
             "file" = "MoreDecorativeBlocks-fabric-26.3-1.3.1.jar";
             "hash" = "sha512-HH1f5fVgHe/C6Ty0adk8DH2TKa8/wEwniL6pztwNkWSDOfjyhJpbbwlFz9FlAdify3SMqCVgMX/lqTPB9vS12w==";
         };
+        _us7ypwI7 = {
+            "id" = "us7ypwI7";
+            "file" = "MoreDecorativeBlocks-forge-26.2-1.2.1.jar";
+            "hash" = "sha512-yse13eqxb3oRo8RFcK7hKDHrfC3DvzyRIpg5ikOmgy6BBdsSEo96FDCrMpFDrSw0W9Uw8IlQEljSYfC9PLheTw==";
+        };
+        _IaRV2ipi = {
+            "id" = "IaRV2ipi";
+            "file" = "MoreDecorativeBlocks-neoforge-26.2-1.2.1.jar";
+            "hash" = "sha512-Gq2bPrKpePruPFJzMpcAdvII6T7NUBlmu5r25AhRsJmDB1eb3bQIszaKDls+vjX1OQ4p0xD7BmViiwkZf2xtmA==";
+        };
+        _swhxaNaP = {
+            "id" = "swhxaNaP";
+            "file" = "MoreDecorativeBlocks-fabric-26.2-1.2.1.jar";
+            "hash" = "sha512-1FeclNhqQ6ewTAhnJykgeUskh+ruT2RMgPgL++twfRy5jPr+F+1/HKP+O/wiAW2RSw9lKrOaGqyuoKCkVc0HYw==";
+        };
     in {
         "jTeR7o8g" = _jTeR7o8g;
         "tA0kih9x" = _tA0kih9x;
@@ -266,6 +281,9 @@ let
         "9AqrCzUM" = _9AqrCzUM;
         "Ek965c9a" = _Ek965c9a;
         "kzsm6Mzt" = _kzsm6Mzt;
+        "us7ypwI7" = _us7ypwI7;
+        "IaRV2ipi" = _IaRV2ipi;
+        "swhxaNaP" = _swhxaNaP;
         "fabric-1.20.1" = _jTeR7o8g;
         "fabric-1.20.2" = _EiIYKBB7;
         "fabric-1.20.4" = _nmglHhKF;
@@ -276,6 +294,7 @@ let
         "fabric-1.21.11" = _PtecKIeu;
         "fabric-26.1.2" = _h1zk0Tv5;
         "fabric-26.3" = _kzsm6Mzt;
+        "fabric-26.2" = _swhxaNaP;
         "forge-1.20.1" = _tA0kih9x;
         "forge-1.20.2" = _eySXUbZI;
         "forge-1.20.4" = _aTH8BEFS;
@@ -287,6 +306,7 @@ let
         "forge-1.21.11" = _ctqmIv9X;
         "forge-26.1.2" = _TM7Rp02U;
         "forge-26.3" = _Ek965c9a;
+        "forge-26.2" = _us7ypwI7;
         "neoforge-1.20.4" = _frKPKD4R;
         "neoforge-1.21" = _9LbU6Yjx;
         "neoforge-1.21.1" = _aKokdhDG;
@@ -295,6 +315,7 @@ let
         "neoforge-1.21.11" = _jfq3cgTl;
         "neoforge-26.1.2" = _Xhi2oNGO;
         "neoforge-26.3" = _9AqrCzUM;
+        "neoforge-26.2" = _IaRV2ipi;
         "pkg-1.0.4" = _tA0kih9x;
         "pkg-1.0.5" = _BQJLAD8C;
         "pkg-1.0.6" = _EiIYKBB7;
@@ -313,7 +334,7 @@ let
         "pkg-1.1.4" = _9pPaOs5n;
         "pkg-1.21.1-1.0.9.1" = _wMicNuDR;
         "pkg-1.2.0" = _TM7Rp02U;
-        "pkg-1.2.1" = _u47HWMNx;
+        "pkg-1.2.1" = _swhxaNaP;
         "pkg-1.2.2" = _4lHvVhFS;
         "pkg-1.2.3" = _kXq37snX;
         "pkg-1.1.5" = _jfq3cgTl;
@@ -322,7 +343,7 @@ let
         "pkg-1.1.3.1" = _UiFC5Cou;
         "pkg-1.3.0" = _Uu34DIBt;
         "pkg-1.3.1" = _kzsm6Mzt;
-        "default" = _kzsm6Mzt;
+        "default" = _swhxaNaP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-decorative-blocks";

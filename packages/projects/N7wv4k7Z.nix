@@ -86,6 +86,11 @@ let
             "file" = "SimpleTeleportersReforged-1.21.1-2.2.0.jar";
             "hash" = "sha512-LglEFEffMBWttkH8OvjXi83HgBx+zAL3Efv01lqzhuIdem5Njy7Y+OwYorrgy205MWxeZ21ucNU2e0Nq75Xmbg==";
         };
+        _x81LfONq = {
+            "id" = "x81LfONq";
+            "file" = "SimpleTeleportersReforged-26.3-6.0.0.jar";
+            "hash" = "sha512-a74aVQUg3nvbiQeppCb1eNPNZf3ExNuiazu8had5BeZYC3gfze2OsyU1KACCUXKShv8701xvqga1C3Yeg4DoRg==";
+        };
     in {
         "1UHMxzLw" = _1UHMxzLw;
         "vpwYwcTf" = _vpwYwcTf;
@@ -104,6 +109,7 @@ let
         "uarSitrL" = _uarSitrL;
         "8sZrjv9p" = _8sZrjv9p;
         "JSjGjihb" = _JSjGjihb;
+        "x81LfONq" = _x81LfONq;
         "neoforge-1.20.4" = _1UHMxzLw;
         "neoforge-1.21" = _vpwYwcTf;
         "neoforge-1.21.10" = _7nWZWx11;
@@ -112,6 +118,7 @@ let
         "neoforge-26.1" = _CzjIwLBk;
         "neoforge-26.1.1" = _MQUqc1bm;
         "neoforge-26.1.2" = _8sZrjv9p;
+        "neoforge-26.3" = _x81LfONq;
         "pkg-1.0.0" = _1UHMxzLw;
         "pkg-2.0.0" = _vpwYwcTf;
         "pkg-3.0.0" = _dYTt4U5P;
@@ -129,7 +136,8 @@ let
         "pkg-5.0.4" = _uarSitrL;
         "pkg-5.1.0" = _8sZrjv9p;
         "pkg-2.2.0" = _JSjGjihb;
-        "default" = _JSjGjihb;
+        "pkg-6.0.0" = _x81LfONq;
+        "default" = _x81LfONq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-teleporters-reforged";

@@ -671,6 +671,16 @@ let
             "file" = "BFMod-CNTR-Project-124.0-(1.21.1-0.9.0.78b)-SC.zip";
             "hash" = "sha512-+jb+PSXGrxC+zmNQ4jtC6tV8TcdPMTwI7ydi1Zgn9KZoy61t0ZmaNNIbdxbXTIc4LhXhJ0P4zTnCBdTzYlY68w==";
         };
+        _zWKdcx2H = {
+            "id" = "zWKdcx2H";
+            "file" = "BFMod-CNTR-Project-125.0-(1.21.1-0.9.0.80b)-SC.zip";
+            "hash" = "sha512-4h/Zcl5WPHjm6WLDi04BALjV6Iibm9QfgyPe+igTUdbGMSielZXZOgxXJlh5eQh1/+wvKqeM2Fx2Nre9/JFOAA==";
+        };
+        _axGw2vgH = {
+            "id" = "axGw2vgH";
+            "file" = "BFMod-CNTR-Project-126.0-(1.21.1-0.9.0.82b)-SC.zip";
+            "hash" = "sha512-vxjldUcgUJ6YzfnRvOg0kkQQtz6LO97l3516rnqSSQsK2rC2DmGHgiTndiR0fFyVJs+Q46rCaUbthaJQ5E7x5w==";
+        };
     in {
         "In0ITCkg" = _In0ITCkg;
         "6JxNRuTl" = _6JxNRuTl;
@@ -806,10 +816,12 @@ let
         "DgB8KGzK" = _DgB8KGzK;
         "R7NgbTzo" = _R7NgbTzo;
         "13lQJFW3" = _13lQJFW3;
+        "zWKdcx2H" = _zWKdcx2H;
+        "axGw2vgH" = _axGw2vgH;
         "minecraft-1.20.4" = _In0ITCkg;
         "minecraft-1.20.6" = _HsB0E3HY;
         "minecraft-1.21" = _jM85nSJY;
-        "minecraft-1.21.1" = _13lQJFW3;
+        "minecraft-1.21.1" = _axGw2vgH;
         "pkg-19.2" = _In0ITCkg;
         "pkg-20.0" = _6JxNRuTl;
         "pkg-21.0" = _2ILZWejK;
@@ -944,7 +956,9 @@ let
         "pkg-122.0" = _DgB8KGzK;
         "pkg-123.0" = _R7NgbTzo;
         "pkg-124.0" = _13lQJFW3;
-        "default" = _13lQJFW3;
+        "pkg-125.0" = _zWKdcx2H;
+        "pkg-126.0" = _axGw2vgH;
+        "default" = _axGw2vgH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bfmod-cntr-project-schinese";

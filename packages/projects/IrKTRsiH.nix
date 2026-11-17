@@ -756,6 +756,11 @@ let
             "file" = "kap_lib-v1.33.0-mc1.21.1.jar";
             "hash" = "sha512-a/QCEsQozNSMHR6NUH0PZ2rxCEDWdQSdhdS8AftZkqz60bT/lEl2ma7uTGH002itqmUSG9yUEILGFSVBJWXLpA==";
         };
+        _HYooVRrN = {
+            "id" = "HYooVRrN";
+            "file" = "kap_lib-v1.33.3-mc1.21.1.jar";
+            "hash" = "sha512-a9n4V7mSjgMe9CdBGAKeuBNbVXiGjPEIUBLCLoT2RFI59KLy6kGe3fcGr2tj0Xk2dMWxdatiYf6dL9TLz++5mw==";
+        };
     in {
         "FD4UgCdy" = _FD4UgCdy;
         "QpmFwXPz" = _QpmFwXPz;
@@ -908,8 +913,9 @@ let
         "6spyoH7w" = _6spyoH7w;
         "r0Bw637i" = _r0Bw637i;
         "4uEc8eoU" = _4uEc8eoU;
+        "HYooVRrN" = _HYooVRrN;
         "forge-1.20.1" = _ddb0kkfe;
-        "neoforge-1.21.1" = _4uEc8eoU;
+        "neoforge-1.21.1" = _HYooVRrN;
         "pkg-v1.4.0-mc1.20.1-FML47.3.0" = _FD4UgCdy;
         "pkg-v1.5.0-mc1.20.1-FML47.3.0" = _QpmFwXPz;
         "pkg-v1.5.1-mc1.20.1-FML47.3.0" = _XO7jeERg;
@@ -1061,7 +1067,8 @@ let
         "pkg-v1.32.2-mc1.21.1" = _6spyoH7w;
         "pkg-v1.32.3-mc1.21.1" = _r0Bw637i;
         "pkg-v1.33.0-mc1.21.1" = _4uEc8eoU;
-        "default" = _4uEc8eoU;
+        "pkg-v1.33.3-mc1.21.1" = _HYooVRrN;
+        "default" = _HYooVRrN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kap_lib";

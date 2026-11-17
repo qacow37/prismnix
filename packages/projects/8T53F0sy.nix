@@ -411,6 +411,11 @@ let
             "file" = "SlashBladeResharped-2.1.9-1.21.1.jar";
             "hash" = "sha512-2Qnv8BLTVpQurYnLesKjOo/VkwQgSMtXs87hF9Y7TG6tPk36aH+DleHI1UKjmzNEe0yVxIqyYi1HKMuPa01eQg==";
         };
+        _IEvIPjvJ = {
+            "id" = "IEvIPjvJ";
+            "file" = "SlashBladeResharped-2.2.1-1.21.1.jar";
+            "hash" = "sha512-uRQQQtRQynbG3KaTNjQwiuM8fJdNKTZODG3ht5bbEzpFk4eA1ngOxzkJomAMf8AoWAINV9ceppCLfbpNjGlfFg==";
+        };
     in {
         "OsF4onGf" = _OsF4onGf;
         "MY1Yqylu" = _MY1Yqylu;
@@ -494,9 +499,10 @@ let
         "u02EDgAr" = _u02EDgAr;
         "zTMJum3Z" = _zTMJum3Z;
         "SA6IKdsb" = _SA6IKdsb;
+        "IEvIPjvJ" = _IEvIPjvJ;
         "forge-1.20.1" = _pdMMavGH;
         "neoforge-1.20.1" = _pdMMavGH;
-        "neoforge-1.21.1" = _SA6IKdsb;
+        "neoforge-1.21.1" = _IEvIPjvJ;
         "pkg-0.1.4" = _OsF4onGf;
         "pkg-0.4.7" = _MY1Yqylu;
         "pkg-0.5.8" = _Ec7BlYGY;
@@ -574,7 +580,8 @@ let
         "pkg-2.0.7-1.21.1" = _u02EDgAr;
         "pkg-2.0.8-1.21.1" = _zTMJum3Z;
         "pkg-2.1.9-1.21.1" = _SA6IKdsb;
-        "default" = _SA6IKdsb;
+        "pkg-2.2.1-1.21.1" = _IEvIPjvJ;
+        "default" = _IEvIPjvJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slashblade-resharped";

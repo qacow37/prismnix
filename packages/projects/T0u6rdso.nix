@@ -86,6 +86,11 @@ let
             "file" = "CosmereTools-1.20.1-47.3.0-0.7.113.jar";
             "hash" = "sha512-Cznps036/j1JNjqDLI+ckH3gJeLpWtAjVZOubGfAq1tBOJmqQdWssBFpkGR3nBTjNgg1Ec2drEGG1AVpeYk0HA==";
         };
+        _kd9hv1Cl = {
+            "id" = "kd9hv1Cl";
+            "file" = "CosmereTools-1.21.1-21.1.219-0.8.114.jar";
+            "hash" = "sha512-4LqTsL4PBigRdJDhb6eMpYGFXRN7a6c+NKD4ZpxCrvWgVFIei/FIaDsfpcg5wrgqJ2UwKjqOXfTSLEeRDmacRw==";
+        };
     in {
         "Fe4dEOpC" = _Fe4dEOpC;
         "My5a0rug" = _My5a0rug;
@@ -104,9 +109,11 @@ let
         "RnHtMr32" = _RnHtMr32;
         "JgDiCUdP" = _JgDiCUdP;
         "w8eepJMC" = _w8eepJMC;
+        "kd9hv1Cl" = _kd9hv1Cl;
         "forge-1.19.2" = _9d6BfPGM;
         "forge-1.20.1" = _w8eepJMC;
         "neoforge-1.20.1" = _w8eepJMC;
+        "neoforge-1.21.1" = _kd9hv1Cl;
         "pkg-0.5.92" = _Fe4dEOpC;
         "pkg-0.5.94" = _My5a0rug;
         "pkg-0.7.95" = _l7F6Qk2r;
@@ -124,7 +131,8 @@ let
         "pkg-0.7.111" = _RnHtMr32;
         "pkg-0.7.112" = _JgDiCUdP;
         "pkg-0.7.113" = _w8eepJMC;
-        "default" = _w8eepJMC;
+        "pkg-0.8.114" = _kd9hv1Cl;
+        "default" = _kd9hv1Cl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cosmere-tools";

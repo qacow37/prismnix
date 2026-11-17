@@ -2596,6 +2596,31 @@ let
             "file" = "occultism-26.3-neoforge-1.267.1.jar";
             "hash" = "sha512-tE//PIjsoOdbeuGjYCDPJWlZAg1f8Q3Fetxmo4o49gtD3JA3BzQYEs7CJiLpCI16ND2nDsJ7FFz2zWPoWuUhAA==";
         };
+        _6RsDIlRG = {
+            "id" = "6RsDIlRG";
+            "file" = "occultism-26.1.2-neoforge-1.264.0.jar";
+            "hash" = "sha512-kD1AsBMEW/4oCuzKAk94+zdcJEPg8g9YEXHKXX8hIpNDweZeTT/wqJcwyvOKyFAfSwnseEG34V9e/B+ta69Rjg==";
+        };
+        _XvHGFPBR = {
+            "id" = "XvHGFPBR";
+            "file" = "occultism-26.3-neoforge-1.268.0.jar";
+            "hash" = "sha512-Q8z44ifEkRVe2duCMqZf6SVSnU9GAXKMO0CCJiD7OdTb+kZHKTtRPNeDPagILcitLV+SSrzTmm0vzjIffS3vgw==";
+        };
+        _TaMghnvt = {
+            "id" = "TaMghnvt";
+            "file" = "occultism-26.3-neoforge-1.268.1.jar";
+            "hash" = "sha512-zE/R/FGzBcvrq+wxjD70+84DPBrKMnA++74t7cm23XcYB5TUEPPPjpVfmZ4rsVF669fx4l6unyGCccpb4wr0yQ==";
+        };
+        _Sr81XaLd = {
+            "id" = "Sr81XaLd";
+            "file" = "occultism-26.1.2-neoforge-1.265.0.jar";
+            "hash" = "sha512-LdNsuh0meVdq/KI5ybKfLQQ8r8wELTu0172Yc878G3CZKwyRCvDGOWmSuK1/kNuoU9wMW9/9zzIBXfyK80Kuew==";
+        };
+        _hG9oD0v1 = {
+            "id" = "hG9oD0v1";
+            "file" = "occultism-26.3-neoforge-1.269.0.jar";
+            "hash" = "sha512-g7Bt8XuiGbm9K0H37RAfvDpMGtbpU/NGEh9p1tni6Zx2IqS3sUPUbrfKBUlawDCCE1PU0082ua0MkO430XS8Ig==";
+        };
     in {
         "2BadvPxY" = _2BadvPxY;
         "Z54ef9Td" = _Z54ef9Td;
@@ -3116,6 +3141,11 @@ let
         "SFDVXWYt" = _SFDVXWYt;
         "YNRPOkjT" = _YNRPOkjT;
         "113BP7vp" = _113BP7vp;
+        "6RsDIlRG" = _6RsDIlRG;
+        "XvHGFPBR" = _XvHGFPBR;
+        "TaMghnvt" = _TaMghnvt;
+        "Sr81XaLd" = _Sr81XaLd;
+        "hG9oD0v1" = _hG9oD0v1;
         "forge-1.20" = _SXSljrEU;
         "forge-1.20.1" = _hs5pHmiU;
         "forge-1.19.4" = _SVGO9i56;
@@ -3129,9 +3159,9 @@ let
         "neoforge-1.21" = _chZfoj4Q;
         "neoforge-1.21.1" = _SFDVXWYt;
         "neoforge-26.1" = _lFb7yrkC;
-        "neoforge-26.1.2" = _U1MiOfBU;
+        "neoforge-26.1.2" = _Sr81XaLd;
         "neoforge-26.2" = _bTXjaivx;
-        "neoforge-26.3" = _113BP7vp;
+        "neoforge-26.3" = _hG9oD0v1;
         "pkg-1.20.1-1.80.9" = _2BadvPxY;
         "pkg-1.20.1-1.80.10" = _Z54ef9Td;
         "pkg-1.20.1-1.80.12" = _gGK4CANx;
@@ -3648,7 +3678,12 @@ let
         "pkg-1.21.1-neoforge-1.227.0" = _SFDVXWYt;
         "pkg-26.3-neoforge-1.267.0" = _YNRPOkjT;
         "pkg-26.3-neoforge-1.267.1" = _113BP7vp;
-        "default" = _113BP7vp;
+        "pkg-26.1.2-neoforge-1.264.0" = _6RsDIlRG;
+        "pkg-26.3-neoforge-1.268.0" = _XvHGFPBR;
+        "pkg-26.3-neoforge-1.268.1" = _TaMghnvt;
+        "pkg-26.1.2-neoforge-1.265.0" = _Sr81XaLd;
+        "pkg-26.3-neoforge-1.269.0" = _hG9oD0v1;
+        "default" = _hG9oD0v1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "occultism";

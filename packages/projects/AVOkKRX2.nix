@@ -121,6 +121,11 @@ let
             "file" = "MoreBeautifulButtons-neoforge-1.21.1-1.8.0.jar";
             "hash" = "sha512-2psHo0R27j6T6GYUrTLA3xu64vnJ+AhwK/c51R5hWM2kLgv2BL/IoMF2sS+Aaj1en4kruHo+OK1zYHby6xxPBQ==";
         };
+        _yZ2BKr2T = {
+            "id" = "yZ2BKr2T";
+            "file" = "More-Beautiful-Buttons-2.0.1-MC26.3-NeoForge.jar";
+            "hash" = "sha512-vHlDwEL6PYjhRsOen5/WqCaE9mOPxt/yxipQGSYOkL5aHa5nO22rghJRFDuo1WonV6Oy0xLRVNjJllGR5T2MjQ==";
+        };
     in {
         "VwJ7EPXL" = _VwJ7EPXL;
         "vJcM2jub" = _vJcM2jub;
@@ -146,6 +151,7 @@ let
         "FMu3jkOI" = _FMu3jkOI;
         "cmprYpPa" = _cmprYpPa;
         "cRDvQv4f" = _cRDvQv4f;
+        "yZ2BKr2T" = _yZ2BKr2T;
         "forge-1.10.2" = _VwJ7EPXL;
         "forge-1.11.2" = _vJcM2jub;
         "forge-1.12.2" = _TqV8evgv;
@@ -168,6 +174,7 @@ let
         "neoforge-1.20.2" = _T2hMlv3O;
         "neoforge-1.20.4" = _FMu3jkOI;
         "neoforge-1.21.1" = _cRDvQv4f;
+        "neoforge-26.3" = _yZ2BKr2T;
         "pkg-1.7.0.16" = _vJcM2jub;
         "pkg-1.7.3.20" = _TqV8evgv;
         "pkg-1.0" = _P6oG3Rva;
@@ -181,7 +188,8 @@ let
         "pkg-1.6.0" = _o0wvUEnQ;
         "pkg-1.7.0" = _cmprYpPa;
         "pkg-1.21.1-1.8.0" = _cRDvQv4f;
-        "default" = _cRDvQv4f;
+        "pkg-2.0.1" = _yZ2BKr2T;
+        "default" = _yZ2BKr2T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-beautiful-buttons";

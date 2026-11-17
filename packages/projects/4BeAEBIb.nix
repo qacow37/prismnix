@@ -3581,6 +3581,11 @@ let
             "file" = "chunksmith-4.9.0+26.x-plugin.jar";
             "hash" = "sha512-ZxDuFTE7ZrIZLXwh5ofPknUtDhWL7lYXJ3PCaO2PimJHPeOQzJgb39/b1myQADt7lfbY3gmTPxAmvfjY9RR8yg==";
         };
+        _XBaPyXGk = {
+            "id" = "XBaPyXGk";
+            "file" = "chunksmith-4.10.0+26.4.jar";
+            "hash" = "sha512-qAcycxWwZ2Fi07yhqtfv0eweF8WYGLEIMA1NMGxmYzA9/kVFS8eqpurgk6GmDHi/eLAjYLOpyK9rKG7QYc+sGQ==";
+        };
     in {
         "RIgl4dCB" = _RIgl4dCB;
         "nfKnGf2L" = _nfKnGf2L;
@@ -4298,6 +4303,7 @@ let
         "rOFmnUl9" = _rOFmnUl9;
         "bEaU6UAk" = _bEaU6UAk;
         "URaPs9xY" = _URaPs9xY;
+        "XBaPyXGk" = _XBaPyXGk;
         "forge-1.20.1" = _iocLjSL7;
         "forge-1.20.2" = _U2sjxyIr;
         "forge-1.20.3" = _U2sjxyIr;
@@ -4345,6 +4351,7 @@ let
         "fabric-26.3-pre-3" = _OYtoSAcv;
         "fabric-26.3-rc-1" = _IzBl1ZgS;
         "fabric-26.3" = _bEaU6UAk;
+        "fabric-26.4-snapshot-8" = _XBaPyXGk;
         "quilt-1.20" = _cALqd03x;
         "quilt-1.20.1" = _cALqd03x;
         "quilt-1.20.5" = _yv7ZHwe4;
@@ -5194,7 +5201,8 @@ let
         "pkg-4.9.0+26.3-neoforge" = _rOFmnUl9;
         "pkg-4.9.0+26.3" = _bEaU6UAk;
         "pkg-4.9.0+26.x-plugin" = _URaPs9xY;
-        "default" = _URaPs9xY;
+        "pkg-4.10.0+26.4" = _XBaPyXGk;
+        "default" = _XBaPyXGk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chunksmith";

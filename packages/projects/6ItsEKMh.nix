@@ -376,6 +376,11 @@ let
             "file" = "homesteads-3.0.0-for-forge-1.18.2.jar";
             "hash" = "sha512-dGd4o1+/vGw/xxyQnLm6GXeLNxN4+zCRkLXHq0rAF81nqNKbNP8VjatfrwR+YhRktUzND6gEqhd5bYcYMdC/rA==";
         };
+        _DLTSRrRG = {
+            "id" = "DLTSRrRG";
+            "file" = "homesteads-3.0.0-for-fabric-1.21.10.jar";
+            "hash" = "sha512-yXooUxbbkebpXqVlXgcdsYsC4VQybgZtQp4RaNfRyj5yq44Jt8oyWJ6Ks6eUZOl1P+WpuGJbpT3a5qnDiWbjUA==";
+        };
     in {
         "MGqMdIzV" = _MGqMdIzV;
         "kTr4cdgj" = _kTr4cdgj;
@@ -452,6 +457,7 @@ let
         "EgxY8wiZ" = _EgxY8wiZ;
         "nLFuZ8t6" = _nLFuZ8t6;
         "BZkR8xhv" = _BZkR8xhv;
+        "DLTSRrRG" = _DLTSRrRG;
         "forge-1.20.1" = _TPgdBHFI;
         "forge-1.20.4" = _EgxY8wiZ;
         "forge-1.18.2" = _BZkR8xhv;
@@ -474,7 +480,7 @@ let
         "fabric-1.21" = _bKk6xGAc;
         "fabric-1.21.1" = _SeqqKQPI;
         "fabric-1.21.9" = _GDDUUFEX;
-        "fabric-1.21.10" = _YaPpijWU;
+        "fabric-1.21.10" = _DLTSRrRG;
         "fabric-1.21.11" = _4rMJ8ixK;
         "fabric-26.1" = _3OHxCtoi;
         "fabric-26.1.1" = _v7DdSNDx;
@@ -494,8 +500,8 @@ let
         "pkg-2.0.1" = _frhpGFWE;
         "pkg-2.0.2" = _f5JC3TEH;
         "pkg-2.0.3" = _nVy350zS;
-        "pkg-3.0.0" = _BZkR8xhv;
-        "default" = _BZkR8xhv;
+        "pkg-3.0.0" = _DLTSRrRG;
+        "default" = _DLTSRrRG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homesteads";

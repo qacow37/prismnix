@@ -41,6 +41,11 @@ let
             "file" = "flashback-extras-1.3.2-MC26.3.x.jar";
             "hash" = "sha512-Acrz0b1DxK/5xzvvKZDCME0OeFN3lsOPFbw4q7EwcBiXIIlmxyFP9vT2mZ+ZooQsala07qLPl3yPc+ddyXIy2Q==";
         };
+        _Wket1kdX = {
+            "id" = "Wket1kdX";
+            "file" = "flashback-extras-1.3.3-MC26.3.x.jar";
+            "hash" = "sha512-HmPgcukkXXElWLv9Gxkm9h8nEpcOIfAFIgBfp4fOY5RCmDCWk1oPXIgJMPuZQP2dqZmjTJBjE6zf/878Rb8lwQ==";
+        };
     in {
         "KsgIsk7C" = _KsgIsk7C;
         "OtYu7Dc0" = _OtYu7Dc0;
@@ -50,6 +55,7 @@ let
         "hkhJxXuO" = _hkhJxXuO;
         "lcARSLER" = _lcARSLER;
         "KNkIKVDR" = _KNkIKVDR;
+        "Wket1kdX" = _Wket1kdX;
         "fabric-1.21.11" = _KsgIsk7C;
         "fabric-1.21.8" = _2ESLMe3K;
         "fabric-1.21.9" = _2ESLMe3K;
@@ -60,14 +66,15 @@ let
         "fabric-26.1.1" = _FZoA2T8E;
         "fabric-26.1.2" = _FZoA2T8E;
         "fabric-26.2" = _aUTpZweH;
-        "fabric-26.3" = _KNkIKVDR;
+        "fabric-26.3" = _Wket1kdX;
         "pkg-1.0.0" = _2ESLMe3K;
         "pkg-1.1.0" = _FZoA2T8E;
         "pkg-1.2.0" = _aUTpZweH;
         "pkg-1.3.0" = _hkhJxXuO;
         "pkg-1.3.1" = _lcARSLER;
         "pkg-1.3.2" = _KNkIKVDR;
-        "default" = _KNkIKVDR;
+        "pkg-1.3.3" = _Wket1kdX;
+        "default" = _Wket1kdX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashback-extras";

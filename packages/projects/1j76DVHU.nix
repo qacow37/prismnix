@@ -246,6 +246,16 @@ let
             "file" = "tacz-refabricated-1.0.0-neo1.2.0+mc1.21.1.jar";
             "hash" = "sha512-USFN2BHFKvqd0SJukbYZKT9lKfp6pjQGipDwg2egR/YbE8EYVY+6lkvgfm0N0Td5wSQN2un3l6pMq1hLVp/HBA==";
         };
+        _Ma8Cqg9j = {
+            "id" = "Ma8Cqg9j";
+            "file" = "tacz-refabricated-1.0.1-forge1.2.0-hotfix+mc1.20.1.jar";
+            "hash" = "sha512-lnpnqim6zLRBQn8lVqhF7sb19Uf1QHBUQkOuDlReiE/Hhm9nvmBxcK2ncDJqjVA/UmxRTR3eZ3N7OoI9uVPNpA==";
+        };
+        _PFmhVjJo = {
+            "id" = "PFmhVjJo";
+            "file" = "tacz-refabricated-1.0.1-neo1.2.0-hotfix+mc1.21.1.jar";
+            "hash" = "sha512-lCZ8TpkVAd6xa+GEZY8JViuZBBA6nXrf3yHAahJ4KxfLrhhL+nlgunbWf6yIP74MtoRfqoKYiwGC5AIubLOeAA==";
+        };
     in {
         "Bk2IbZei" = _Bk2IbZei;
         "VJwy0aHc" = _VJwy0aHc;
@@ -296,10 +306,12 @@ let
         "veM4XOhW" = _veM4XOhW;
         "wbgtQwxp" = _wbgtQwxp;
         "eoaP2iB9" = _eoaP2iB9;
+        "Ma8Cqg9j" = _Ma8Cqg9j;
+        "PFmhVjJo" = _PFmhVjJo;
         "fabric-1.20" = _u7C7n2bV;
-        "fabric-1.20.1" = _wbgtQwxp;
+        "fabric-1.20.1" = _Ma8Cqg9j;
         "fabric-1.21" = _GRk0Kp45;
-        "fabric-1.21.1" = _eoaP2iB9;
+        "fabric-1.21.1" = _PFmhVjJo;
         "pkg-1.20.1-0.0.1-forge1.1.6-hotfix" = _Bk2IbZei;
         "pkg-1.20.1-0.0.2-forge1.1.6-hotfix" = _VJwy0aHc;
         "pkg-1.21.1-0.0.2-forge1.1.6-hotfix" = _Xt3ufVtV;
@@ -349,7 +361,9 @@ let
         "pkg-1.21.1-0.7.1-forge1.1.8-hotfix2" = _veM4XOhW;
         "pkg-1.0.0-forge1.2.0+mc1.20.1" = _wbgtQwxp;
         "pkg-1.0.0-neo1.2.0+mc1.21.1" = _eoaP2iB9;
-        "default" = _eoaP2iB9;
+        "pkg-1.0.1-forge1.2.0-hotfix+mc1.20.1" = _Ma8Cqg9j;
+        "pkg-1.0.1-neo1.2.0-hotfix+mc1.21.1" = _PFmhVjJo;
+        "default" = _PFmhVjJo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-refabricated";

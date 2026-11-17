@@ -106,6 +106,11 @@ let
             "file" = "levelz-2.0.13.jar";
             "hash" = "sha512-c/W0FAuOEXMONdoJjglJaTHzjLsdSHvfSQgQoSDDW6gLq5M/X1G83VBnIEOCwNMacqVpDL9xpUz/OCWcF1PYbw==";
         };
+        _P85Nsys4 = {
+            "id" = "P85Nsys4";
+            "file" = "levelz-2.0.14.jar";
+            "hash" = "sha512-N//Ld45VdBXdL4j4Ol4OeYBAXLIPprWk0W0BT1VguRM94ywnGDqAm7Tj2H6dNr7yns2cuGVqcTDiA5aJnNv2dg==";
+        };
     in {
         "cGfKiiIe" = _cGfKiiIe;
         "2Z4uv615" = _2Z4uv615;
@@ -128,10 +133,11 @@ let
         "BzDUUS67" = _BzDUUS67;
         "40CB7XX2" = _40CB7XX2;
         "XFbM85C9" = _XFbM85C9;
+        "P85Nsys4" = _P85Nsys4;
         "fabric-1.19.2" = _2Z4uv615;
         "fabric-1.20" = _XYNMi9Xt;
         "fabric-1.20.1" = _gYSnmSW4;
-        "fabric-1.21.1" = _XFbM85C9;
+        "fabric-1.21.1" = _P85Nsys4;
         "pkg-1.4.8" = _cGfKiiIe;
         "pkg-1.4.9+1.19.2" = _2Z4uv615;
         "pkg-1.4.9+1.20" = _XYNMi9Xt;
@@ -153,7 +159,8 @@ let
         "pkg-2.0.11+1.21.1" = _BzDUUS67;
         "pkg-2.0.12+1.21.1" = _40CB7XX2;
         "pkg-2.0.13+1.21.1" = _XFbM85C9;
-        "default" = _XFbM85C9;
+        "pkg-2.0.14+1.21.1" = _P85Nsys4;
+        "default" = _P85Nsys4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "levelz";

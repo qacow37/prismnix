@@ -121,6 +121,41 @@ let
             "file" = "mekanismtweaks-1.7.10-1.2.jar";
             "hash" = "sha512-ff6wEuTXFStQk5RAuvgF3JNulmwKcm9zb8Gyl3/2Qm8FdM1jjli8wvl21MG1RnOlQ1pmTxYjx41oXxULmEbCLw==";
         };
+        _eMYJSFcv = {
+            "id" = "eMYJSFcv";
+            "file" = "mekanismtweaks-1.20.1-1.2.2.jar";
+            "hash" = "sha512-+sQeXr+l4TaATttC2355qBgp/DgciCGl5aYECeCQ6QjyT9QNWdDZ9vt82BMczgeqwfr6G5Y/XISnnYaQ64IlFw==";
+        };
+        _Amv2M2Ho = {
+            "id" = "Amv2M2Ho";
+            "file" = "mekanismtweaks-1.19.2-1.2.2.jar";
+            "hash" = "sha512-U37gcPcM3JuauiJpFElMpky6IhRz1tD0c5yUsZiQB0gXwVrhEEKWqMnyocPWrvkzB97PCwu2/TBjj4BKT9WGLw==";
+        };
+        _7W44XfXb = {
+            "id" = "7W44XfXb";
+            "file" = "mekanismtweaks-1.19.1-1.2.2.jar";
+            "hash" = "sha512-PoNDX1Xi7N8A0++ByINxUW7WbqCHLHWLcyN8Xi0y5AQkZkgOtcpktZLJSMCwqglzSzIWBlXvIc5lQfoRpGyjeQ==";
+        };
+        _nlRsXX8A = {
+            "id" = "nlRsXX8A";
+            "file" = "mekanismtweaks-1.16.4-1.2.2.jar";
+            "hash" = "sha512-PRVAa2XG66CtQNg4aqGPB1tm16rgV0Ic9C8bAYxuK6HffOAQ8R61ZX/Rd+kbvIxMQuYv5d0AfF21TH/wL0rrLQ==";
+        };
+        _gXDHVrvA = {
+            "id" = "gXDHVrvA";
+            "file" = "mekanismtweaks-1.16.3-1.2.2.jar";
+            "hash" = "sha512-WY52OKjKQfIVviOswolEkXwjTKENHoCEfvJ4PDV3sbQq5KiN/WweW1CtqR9l1wcHNa6zpNtJ3Vu7TZUUw9Pyow==";
+        };
+        _AkS4WDO3 = {
+            "id" = "AkS4WDO3";
+            "file" = "mekanismtweaks-1.16.1-1.2.2.jar";
+            "hash" = "sha512-qYjpK+XEigY2ILY4W5+fVCc6GJdXmfyrv1wodhzMIETxeM9m1B/sekYnI9GxQjr2HvRx2S/ta16S/fT1qTe0hA==";
+        };
+        _9oOA745f = {
+            "id" = "9oOA745f";
+            "file" = "mekanismtweaks-1.15.2-1.2.2.jar";
+            "hash" = "sha512-rlOtvdeX+USx9vivkEU2quYNWKu1ht87fqwPOmhgwjajLZrGsxx4UBdVzqqj68OClGBh+7k1J/iDl0QzYIiIIg==";
+        };
     in {
         "CXTEvu7J" = _CXTEvu7J;
         "3NVzL39k" = _3NVzL39k;
@@ -146,16 +181,23 @@ let
         "zA6FCN19" = _zA6FCN19;
         "He0KAsCo" = _He0KAsCo;
         "l48BXND6" = _l48BXND6;
-        "forge-1.19.2" = _4EBTF1dL;
+        "eMYJSFcv" = _eMYJSFcv;
+        "Amv2M2Ho" = _Amv2M2Ho;
+        "7W44XfXb" = _7W44XfXb;
+        "nlRsXX8A" = _nlRsXX8A;
+        "gXDHVrvA" = _gXDHVrvA;
+        "AkS4WDO3" = _AkS4WDO3;
+        "9oOA745f" = _9oOA745f;
+        "forge-1.19.2" = _Amv2M2Ho;
         "forge-1.18.2" = _wCwaNupa;
         "forge-1.12.2" = _aozV5vcF;
         "forge-1.16.5" = _voeq9iHH;
-        "forge-1.20.1" = _gIxi4YFB;
-        "forge-1.19.1" = _qlD1sIuM;
-        "forge-1.16.4" = _XTklBKO8;
-        "forge-1.16.3" = _L1EaqbUm;
-        "forge-1.16.1" = _jY4JOp06;
-        "forge-1.15.2" = _Z0bjZh2v;
+        "forge-1.20.1" = _eMYJSFcv;
+        "forge-1.19.1" = _7W44XfXb;
+        "forge-1.16.4" = _nlRsXX8A;
+        "forge-1.16.3" = _gXDHVrvA;
+        "forge-1.16.1" = _AkS4WDO3;
+        "forge-1.15.2" = _9oOA745f;
         "forge-1.12.1" = _iomDZvFz;
         "forge-1.12" = _x7myy1up;
         "forge-1.11.2" = _DvABAKqa;
@@ -183,7 +225,14 @@ let
         "pkg-1.10.2-1.2" = _zA6FCN19;
         "pkg-1.7.10(7.1.2)-1.2" = _He0KAsCo;
         "pkg-1.7.10(9.1.x)-1.2" = _l48BXND6;
-        "default" = _l48BXND6;
+        "pkg-1.20.1-1.2.2" = _eMYJSFcv;
+        "pkg-1.19.2-1.2.2" = _Amv2M2Ho;
+        "pkg-1.19.1-1.2.2" = _7W44XfXb;
+        "pkg-1.16.4-1.2.2" = _nlRsXX8A;
+        "pkg-1.16.3-1.2.2" = _gXDHVrvA;
+        "pkg-1.16.1-1.2.2" = _AkS4WDO3;
+        "pkg-1.15.2-1.2.2" = _9oOA745f;
+        "default" = _9oOA745f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism-tweaks";

@@ -316,6 +316,31 @@ let
             "file" = "snowundertrees-neoforge-26.3-1.6.2.jar";
             "hash" = "sha512-A9Rec58XIoWZgP70b7nW2+nq37AfpT4QBwPq3PBVLC6dO6WGh3EGZfUI6rlRSKG/xVPFBhjDfDJIoUpzIyjypA==";
         };
+        _OYaUDns6 = {
+            "id" = "OYaUDns6";
+            "file" = "snowundertrees-1.21.1-1.7.jar";
+            "hash" = "sha512-Hfp2sIlVr0NlJzI2BnCwj7LLNjq5rCUx2B3xb8hvWfg174JZ+mG76GdEp3Kd9u7qfLAyjaJoIA8OLSrIsjcR2Q==";
+        };
+        _iqMtGA2Z = {
+            "id" = "iqMtGA2Z";
+            "file" = "snowundertrees-fabric-26.1.2-1.7.jar";
+            "hash" = "sha512-jiQoFx5QmzX6MIMDmBlDV3xSNgluBx0x3v2uq9QUvHfDsJjtNQBCYNMBzqOkMXwhnCeirIxs+FBDQsX69CRB2w==";
+        };
+        _WUn2l9LV = {
+            "id" = "WUn2l9LV";
+            "file" = "snowundertrees-neoforge-26.1.2-1.7.jar";
+            "hash" = "sha512-xDrJ+sp4uUeYQeUaAkc5YYXYZ8FLkgDBbQZzUv+vzd/Yd+nXG3Jn2mWIHsHm+J+pFlEADckcLJtUJOYflauqeg==";
+        };
+        _FAIO7HK2 = {
+            "id" = "FAIO7HK2";
+            "file" = "snowundertrees-fabric-26.3-1.7.jar";
+            "hash" = "sha512-Ora+5+hs2ar2mjotlogrTJ/g1cRmrYmiv4u7FljXl0/RY3yAD+38lgncEsEirbr94piyJ5Kpi0OGXNvoP2duYQ==";
+        };
+        _K2Xmoyhi = {
+            "id" = "K2Xmoyhi";
+            "file" = "snowundertrees-neoforge-26.3-1.7.jar";
+            "hash" = "sha512-q3F1ah2ueywrROZgDtbtgAXryIIwxEkvG9E+i2R/wsbEpXbrmytjVnQhTskqlfQZuBls/LMnHT2xZUTOXosqng==";
+        };
     in {
         "85KGx8j1" = _85KGx8j1;
         "VoViJ3JX" = _VoViJ3JX;
@@ -380,6 +405,11 @@ let
         "Po4T55d0" = _Po4T55d0;
         "1uigvyyM" = _1uigvyyM;
         "EZA6uTIa" = _EZA6uTIa;
+        "OYaUDns6" = _OYaUDns6;
+        "iqMtGA2Z" = _iqMtGA2Z;
+        "WUn2l9LV" = _WUn2l9LV;
+        "FAIO7HK2" = _FAIO7HK2;
+        "K2Xmoyhi" = _K2Xmoyhi;
         "forge-1.14.4" = _85KGx8j1;
         "forge-1.15.2" = _VoViJ3JX;
         "forge-1.16.5" = _iY5GJjbW;
@@ -396,7 +426,7 @@ let
         "neoforge-1.20.4" = _FYjQv8zP;
         "neoforge-1.20.6" = _JcrdqZr5;
         "neoforge-1.21" = _jqPptii7;
-        "neoforge-1.21.1" = _MWz6mhd4;
+        "neoforge-1.21.1" = _OYaUDns6;
         "neoforge-1.21.3" = _CaASo0kx;
         "neoforge-1.21.4" = _CaASo0kx;
         "neoforge-1.21.5" = _TvsjsO4j;
@@ -407,19 +437,19 @@ let
         "neoforge-1.21.11" = _3okkMHY1;
         "neoforge-26.1" = _PXC8L6ZG;
         "neoforge-26.1.1" = _PXC8L6ZG;
-        "neoforge-26.1.2" = _PXC8L6ZG;
+        "neoforge-26.1.2" = _WUn2l9LV;
         "neoforge-26.2" = _PXC8L6ZG;
-        "neoforge-26.3" = _EZA6uTIa;
+        "neoforge-26.3" = _K2Xmoyhi;
         "fabric-26.1" = _ubJYO77l;
         "fabric-26.1.1" = _ubJYO77l;
-        "fabric-26.1.2" = _ubJYO77l;
+        "fabric-26.1.2" = _iqMtGA2Z;
         "fabric-26.2" = _ubJYO77l;
-        "fabric-26.3" = _1uigvyyM;
+        "fabric-26.3" = _FAIO7HK2;
         "quilt-26.1" = _ubJYO77l;
         "quilt-26.1.1" = _ubJYO77l;
-        "quilt-26.1.2" = _ubJYO77l;
+        "quilt-26.1.2" = _iqMtGA2Z;
         "quilt-26.2" = _ubJYO77l;
-        "quilt-26.3" = _1uigvyyM;
+        "quilt-26.3" = _FAIO7HK2;
         "pkg-v1.1.1" = _85KGx8j1;
         "pkg-v1.1.4" = _VoViJ3JX;
         "pkg-v1.3" = _IzNdMwzN;
@@ -443,7 +473,8 @@ let
         "pkg-v1.5.1" = _MWz6mhd4;
         "pkg-v1.6.1" = _1uigvyyM;
         "pkg-v1.6.2" = _EZA6uTIa;
-        "default" = _EZA6uTIa;
+        "pkg-v1.7" = _K2Xmoyhi;
+        "default" = _K2Xmoyhi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-under-trees";

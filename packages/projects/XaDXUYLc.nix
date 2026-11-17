@@ -46,6 +46,41 @@ let
             "file" = "Abandoned Watchtowers 7.0 Datapack Ver.zip";
             "hash" = "sha512-jXzFECpPVr+Q9xyZavzvSF889DRELUuhu/dIumvukNvZlzX/hBJWrSzyGLZFsr+UORV2jwzQnno8Qjx9MroMCw==";
         };
+        _QXgAkPGj = {
+            "id" = "QXgAkPGj";
+            "file" = "watchtower_building-7.2-forge-1.20.1.jar";
+            "hash" = "sha512-JzYHtRCkLseMxa64pb7ghpDyVVc9Um+vN1AOrhyT0dlx5Fxv9j8rDhn+hdEikggpEqRVz63oQpOD5iKJcoZGUw==";
+        };
+        _QBoIRFF2 = {
+            "id" = "QBoIRFF2";
+            "file" = "watchtower_building-7.2-forge-1.19.2.jar";
+            "hash" = "sha512-wFEoxCh+RSllc1nYcPjfySNZ6RSq/DCUZ538qeSejf/ZFtktkTv+YzxNm5n4nnhpEr0L19fK+9fms54RyUWJFg==";
+        };
+        _8PKzTyxH = {
+            "id" = "8PKzTyxH";
+            "file" = "watchtower_building-7.2-forge-1.19.4.jar";
+            "hash" = "sha512-Jw9f9VXlJg7JXvWYq048uf6q81TYhEUVHPtmYrQ1kGvuzPReK0w6vxFUY50HlgfANjiZUxeEcj4qp91Hx8LRcg==";
+        };
+        _NVDWwjVn = {
+            "id" = "NVDWwjVn";
+            "file" = "watchtower_building-7.2-neoforge-1.20.4.jar";
+            "hash" = "sha512-vtjeC0bL8ThmxGkBNwnTUe7esFegM3VUHydiNPY9vq/as5ttNpq3LJEG2Znz1icQAZR8NEU4gvX+KR2C2fC+yw==";
+        };
+        _3w4SkLO2 = {
+            "id" = "3w4SkLO2";
+            "file" = "watchtower_building-7.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-J7NjAI+OTfH2p2GfHpukHsqiVP/mCvQ+GoCg90BFOkqZ7pa9ZhIheYCAztXV68mGxtfo6sJEgKRjOB7xJNWP/A==";
+        };
+        _RILYVWAJ = {
+            "id" = "RILYVWAJ";
+            "file" = "watchtower_building-7.2-neoforge-1.21.4.jar";
+            "hash" = "sha512-f9UR7C7qNO7Ch3fm5HLPGiiA6YAP7ZpFA82h9saef363xf7XL1M9k8od+ewj4LzjbnZPdBPrMIE6JI7100ZsUw==";
+        };
+        _oF8Gh369 = {
+            "id" = "oF8Gh369";
+            "file" = "watchtower_building-7.2-neoforge-1.21.8.jar";
+            "hash" = "sha512-FJZ+3ofCyPyCXIM0YxDKxhxsMoH7Q6eupCsHS24/NvEx58dT/9Pq+cLjuuNGYAybuZCNHiEDI3d2ECtqfinElw==";
+        };
     in {
         "7JsYJnJq" = _7JsYJnJq;
         "XHiZVbM7" = _XHiZVbM7;
@@ -56,10 +91,20 @@ let
         "oI3gsYA4" = _oI3gsYA4;
         "ct2tTpcS" = _ct2tTpcS;
         "L1smiUTM" = _L1smiUTM;
-        "forge-1.20.1" = _yeYFB9Ry;
-        "forge-1.19.2" = _vYJFC3h6;
-        "neoforge-1.21.1" = _oI3gsYA4;
-        "neoforge-1.21.4" = _ct2tTpcS;
+        "QXgAkPGj" = _QXgAkPGj;
+        "QBoIRFF2" = _QBoIRFF2;
+        "8PKzTyxH" = _8PKzTyxH;
+        "NVDWwjVn" = _NVDWwjVn;
+        "3w4SkLO2" = _3w4SkLO2;
+        "RILYVWAJ" = _RILYVWAJ;
+        "oF8Gh369" = _oF8Gh369;
+        "forge-1.20.1" = _QXgAkPGj;
+        "forge-1.19.2" = _QBoIRFF2;
+        "forge-1.19.4" = _8PKzTyxH;
+        "neoforge-1.21.1" = _3w4SkLO2;
+        "neoforge-1.21.4" = _RILYVWAJ;
+        "neoforge-1.20.4" = _NVDWwjVn;
+        "neoforge-1.21.8" = _oF8Gh369;
         "datapack-1.21.9" = _L1smiUTM;
         "datapack-1.21.10" = _L1smiUTM;
         "datapack-1.21.11" = _L1smiUTM;
@@ -69,7 +114,8 @@ let
         "datapack-26.2" = _L1smiUTM;
         "pkg-6.0" = _Jn3Hz3ZW;
         "pkg-7.0" = _L1smiUTM;
-        "default" = _L1smiUTM;
+        "pkg-7.2" = _oF8Gh369;
+        "default" = _oF8Gh369;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "abandoned-watchtowers";

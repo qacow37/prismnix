@@ -41,6 +41,16 @@ let
             "file" = "talkbubbles-1.0.8.jar";
             "hash" = "sha512-oHNcZjoPvr+upKMfO5AqBlsbO+VpcInIEcHMkx1N0q/TO1twY8E2TfWuWZbYv/il28+IRWStTavBToZ3z13tRw==";
         };
+        _vBRZXrEg = {
+            "id" = "vBRZXrEg";
+            "file" = "herdspanic-fabric-1.1.0+26.3.jar";
+            "hash" = "sha512-YQJPDWbkSkBIMO43IToIK1SXXQBCaQ1DeE/R9D5kHGK/Z8NFTqSrUR1fLHZJnksDgkzUaSz1Y3EWemKgpjXa1w==";
+        };
+        _b46aMNnK = {
+            "id" = "b46aMNnK";
+            "file" = "herdspanic-neoforge-1.1.0+26.3.jar";
+            "hash" = "sha512-jww1LZQ6UIOfTbM8Jx2gDb0Z+UHNjaqWjBVBrdW52qsZ7/OVHU2usexRwTTmjmHGcI1ZM9wNfdI6zreBYq+ecg==";
+        };
     in {
         "iKrJETeV" = _iKrJETeV;
         "rByNrDMT" = _rByNrDMT;
@@ -50,13 +60,16 @@ let
         "yt3O96WZ" = _yt3O96WZ;
         "sLqjhL7c" = _sLqjhL7c;
         "KOEBzebL" = _KOEBzebL;
+        "vBRZXrEg" = _vBRZXrEg;
+        "b46aMNnK" = _b46aMNnK;
         "fabric-1.19.2" = _iKrJETeV;
         "fabric-1.20" = _rByNrDMT;
         "fabric-1.20.1" = _rJqUdjSw;
         "fabric-1.20.6" = _al1PCA1r;
         "fabric-1.21" = _yt3O96WZ;
         "fabric-1.21.1" = _sLqjhL7c;
-        "fabric-26.3" = _KOEBzebL;
+        "fabric-26.3" = _vBRZXrEg;
+        "neoforge-26.3" = _b46aMNnK;
         "pkg-1.0.6" = _iKrJETeV;
         "pkg-1.0.7+1.20" = _rByNrDMT;
         "pkg-1.0.7+1.20.1" = _mCDiJJHc;
@@ -65,7 +78,9 @@ let
         "pkg-1.1.1+1.21" = _yt3O96WZ;
         "pkg-1.1.1+1.21.1" = _sLqjhL7c;
         "pkg-1.0.8+26.3" = _KOEBzebL;
-        "default" = _KOEBzebL;
+        "pkg-1.1.0+26.3-fabric" = _vBRZXrEg;
+        "pkg-1.1.0+26.3-neoforge" = _b46aMNnK;
+        "default" = _b46aMNnK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herdspanic";

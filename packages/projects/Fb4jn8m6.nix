@@ -1266,6 +1266,11 @@ let
             "file" = "FallingTree-1.21-1.21.0.9.jar";
             "hash" = "sha512-qvazlloUY6ez6G5CgZvprbe91wL/4FQnZoch86ALaTT/nuXllhTa219+SeX/OBLMLtjjbZyltJfXQG4vU12y9w==";
         };
+        _8f8067Sq = {
+            "id" = "8f8067Sq";
+            "file" = "FallingTree-26.3-25.jar";
+            "hash" = "sha512-0AvB7Rk8yAnHXxT8yKVdVBd4K2pBz1vBrXGYqbnT7Mn1tqj/n6bM74M7ERkkgFPQGsjCo7Ukm7epXAmIJi0V7g==";
+        };
     in {
         "ClS5aGDu" = _ClS5aGDu;
         "by7f3jqu" = _by7f3jqu;
@@ -1520,6 +1525,7 @@ let
         "DCea151G" = _DCea151G;
         "9d55G3Q0" = _9d55G3Q0;
         "HQ8q2wyQ" = _HQ8q2wyQ;
+        "8f8067Sq" = _8f8067Sq;
         "fabric-1.16.5" = _rK4GkUX6;
         "fabric-1.17" = _nDc9P6UR;
         "fabric-1.17.1" = _59SG26Fv;
@@ -1568,7 +1574,7 @@ let
         "fabric-26.1.1" = _VGlJITqh;
         "fabric-26.1.2" = _87iHk1lF;
         "fabric-26.2" = _6wMhF5Oq;
-        "fabric-26.3" = _D0B62UJ5;
+        "fabric-26.3" = _8f8067Sq;
         "forge-1.16.5" = _rK4GkUX6;
         "forge-1.17.1" = _59SG26Fv;
         "forge-1.18" = _jHljfMeN;
@@ -1600,7 +1606,7 @@ let
         "forge-26.1.1" = _VGlJITqh;
         "forge-26.1.2" = _87iHk1lF;
         "forge-26.2" = _6wMhF5Oq;
-        "forge-26.3" = _D0B62UJ5;
+        "forge-26.3" = _8f8067Sq;
         "neoforge-1.20.6" = _9d55G3Q0;
         "neoforge-1.21" = _HQ8q2wyQ;
         "neoforge-1.21.1" = _wxGXaJMA;
@@ -1618,7 +1624,7 @@ let
         "neoforge-26.1.1" = _VGlJITqh;
         "neoforge-26.1.2" = _87iHk1lF;
         "neoforge-26.2" = _6wMhF5Oq;
-        "neoforge-26.3" = _D0B62UJ5;
+        "neoforge-26.3" = _8f8067Sq;
         "pkg-1.16.5-2.10.0-Fabric" = _ClS5aGDu;
         "pkg-1.16.5-2.10.0-Forge" = _by7f3jqu;
         "pkg-1.16.5-2.10.1-Forge" = _wYPHBZnq;
@@ -1872,7 +1878,8 @@ let
         "pkg-1.20.5-1.20.5.1" = _DCea151G;
         "pkg-1.20.6-1.20.6.9" = _9d55G3Q0;
         "pkg-1.21-1.21.0.9" = _HQ8q2wyQ;
-        "default" = _HQ8q2wyQ;
+        "pkg-26.3-26.3.0.5" = _8f8067Sq;
+        "default" = _8f8067Sq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallingtree";

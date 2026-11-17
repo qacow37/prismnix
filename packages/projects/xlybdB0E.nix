@@ -156,6 +156,16 @@ let
             "file" = "puffish_biome_dither-1.0.0-26.2-neoforge.jar";
             "hash" = "sha512-pJbk4MD4Yt/TwlWS3z7d3/qjnl/6mumVUHd2rZQk2/7e8lpL0JA4EksIEQqHGwrcEYfWyfn3q6uPUCGWgw9cMw==";
         };
+        _A40FwpZj = {
+            "id" = "A40FwpZj";
+            "file" = "puffish_biome_dither-1.0.0-26.3-fabric.jar";
+            "hash" = "sha512-Go+45y11EP14OrJRTZ4+J1nwopHmnsLFrRcIXkqc68XvRB5vwzYxA8iHPk0pKUWBQkjggF3pqzYktXGNY4IKxg==";
+        };
+        _60RSiQpC = {
+            "id" = "60RSiQpC";
+            "file" = "puffish_biome_dither-1.0.0-26.3-neoforge.jar";
+            "hash" = "sha512-WZH28+19vst5Af7RsVSLDZuomJ2u8LrhHfNROs8+ZhOLdjJ4qcSKCCX3NEUKi9VuN7WrAptYW8kGZMWh6nyiFw==";
+        };
     in {
         "W7bS39oZ" = _W7bS39oZ;
         "kH9he3Bu" = _kH9he3Bu;
@@ -188,6 +198,8 @@ let
         "Lsy3CpcC" = _Lsy3CpcC;
         "itM5NwYS" = _itM5NwYS;
         "9xFqPK9z" = _9xFqPK9z;
+        "A40FwpZj" = _A40FwpZj;
+        "60RSiQpC" = _60RSiQpC;
         "fabric-1.21" = _AP4T3D4E;
         "fabric-1.21.1" = _AP4T3D4E;
         "fabric-1.21.2" = _AP4T3D4E;
@@ -211,6 +223,7 @@ let
         "fabric-1.21.11" = _AP4T3D4E;
         "fabric-26.1" = _Lsy3CpcC;
         "fabric-26.2" = _itM5NwYS;
+        "fabric-26.3" = _A40FwpZj;
         "neoforge-1.21" = _3QEt8Guw;
         "neoforge-1.21.1" = _3QEt8Guw;
         "neoforge-1.21.2" = _3QEt8Guw;
@@ -226,6 +239,7 @@ let
         "neoforge-1.21.11" = _3QEt8Guw;
         "neoforge-26.1" = _ea1tppY3;
         "neoforge-26.2" = _9xFqPK9z;
+        "neoforge-26.3" = _60RSiQpC;
         "forge-1.19.2" = _WUgsnq8e;
         "forge-1.19.3" = _WUgsnq8e;
         "forge-1.19.4" = _WUgsnq8e;
@@ -237,8 +251,8 @@ let
         "forge-1.18.2" = _4yvvHX0V;
         "pkg-0.1.0" = _kjOCd5K1;
         "pkg-0.1.1" = _E78whLWp;
-        "pkg-1.0.0" = _9xFqPK9z;
-        "default" = _9xFqPK9z;
+        "pkg-1.0.0" = _60RSiQpC;
+        "default" = _60RSiQpC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biome-dither";

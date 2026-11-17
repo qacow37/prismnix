@@ -501,6 +501,11 @@ let
             "file" = "mine-treasure-1.6.5.jar";
             "hash" = "sha512-ORoLnE/ySietRBRCYSov8taoJQW9Ky8MaJOgi67Xjg84do2x7068Fs+1k9KFV1X0z28/HuRwJ7UbLk/sGAIm2g==";
         };
+        _9w50TAPM = {
+            "id" = "9w50TAPM";
+            "file" = "mine-treasure-1.4.6-hf01.jar";
+            "hash" = "sha512-QgoskdlQx/C1hctfTQHdqHuVb7VYx2EW1/kNY4gTo+2qKZjKhbAx0Gvegg4gxv9MZQbNYzmcbj8L8nW11wCGVw==";
+        };
     in {
         "SXIO0BdD" = _SXIO0BdD;
         "yi1eF7DG" = _yi1eF7DG;
@@ -602,6 +607,7 @@ let
         "W9z1MH3f" = _W9z1MH3f;
         "gmXStium" = _gmXStium;
         "mkW3jjKe" = _mkW3jjKe;
+        "9w50TAPM" = _9w50TAPM;
         "datapack-1.19" = _WPUgOpru;
         "datapack-1.19.1" = _WPUgOpru;
         "datapack-1.19.2" = _WPUgOpru;
@@ -645,8 +651,8 @@ let
         "fabric-1.20.4" = _tmm08KfL;
         "fabric-1.20.5" = _v0K34Bwo;
         "fabric-1.20.6" = _v0K34Bwo;
-        "fabric-1.21" = _Slcj3YlH;
-        "fabric-1.21.1" = _Slcj3YlH;
+        "fabric-1.21" = _9w50TAPM;
+        "fabric-1.21.1" = _9w50TAPM;
         "fabric-1.21.2" = _ELgY1zsZ;
         "fabric-1.21.3" = _lVGQwFo2;
         "fabric-1.21.4" = _lVGQwFo2;
@@ -675,8 +681,8 @@ let
         "forge-1.20.4" = _tmm08KfL;
         "forge-1.20.5" = _v0K34Bwo;
         "forge-1.20.6" = _v0K34Bwo;
-        "forge-1.21" = _Slcj3YlH;
-        "forge-1.21.1" = _Slcj3YlH;
+        "forge-1.21" = _9w50TAPM;
+        "forge-1.21.1" = _9w50TAPM;
         "forge-1.21.2" = _ELgY1zsZ;
         "forge-1.21.3" = _lVGQwFo2;
         "forge-1.21.4" = _lVGQwFo2;
@@ -705,8 +711,8 @@ let
         "quilt-1.20.4" = _tmm08KfL;
         "quilt-1.20.5" = _v0K34Bwo;
         "quilt-1.20.6" = _v0K34Bwo;
-        "quilt-1.21" = _Slcj3YlH;
-        "quilt-1.21.1" = _Slcj3YlH;
+        "quilt-1.21" = _9w50TAPM;
+        "quilt-1.21.1" = _9w50TAPM;
         "quilt-1.21.2" = _ELgY1zsZ;
         "quilt-1.21.3" = _lVGQwFo2;
         "quilt-1.21.4" = _lVGQwFo2;
@@ -737,6 +743,8 @@ let
         "neoforge-26.1.2" = _FoXF7dXg;
         "neoforge-26.2" = _W9z1MH3f;
         "neoforge-26.3" = _mkW3jjKe;
+        "neoforge-1.21" = _9w50TAPM;
+        "neoforge-1.21.1" = _9w50TAPM;
         "pkg-1.0.2" = _SXIO0BdD;
         "pkg-0.0.91" = _yi1eF7DG;
         "pkg-1.0.3+dp" = _eKopxRBm;
@@ -837,7 +845,8 @@ let
         "pkg-1.6.4+mod" = _W9z1MH3f;
         "pkg-1.6.5" = _gmXStium;
         "pkg-1.6.5+mod" = _mkW3jjKe;
-        "default" = _mkW3jjKe;
+        "pkg-1.4.6-hf01+mod" = _9w50TAPM;
+        "default" = _9w50TAPM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-treasure";

@@ -266,6 +266,11 @@ let
             "file" = "functionalstorage-26.1.2-1.6.4.jar";
             "hash" = "sha512-9CQ4yQkcI/8VOuwpkZ0GXAvAmLC2tuGgDRpBRfPFBVVtxn52WxITQYNlpQrLV3Vy+DkF+cIUAU6pOhnla34ptg==";
         };
+        _pQA9KEny = {
+            "id" = "pQA9KEny";
+            "file" = "functionalstorage-26.1.2-1.6.5.jar";
+            "hash" = "sha512-e0GSgIoXNG6gVIIglrB5pCgzEw1aLoxdjUwxDBnt5XS/f9wUhcKOEycps8IMP6sfN4eJsvIWyQIEFTmxcfLVjg==";
+        };
     in {
         "JyXiAfsS" = _JyXiAfsS;
         "L35pqNW9" = _L35pqNW9;
@@ -320,12 +325,13 @@ let
         "UIiPOHFO" = _UIiPOHFO;
         "8oT46urW" = _8oT46urW;
         "1WVNxD4h" = _1WVNxD4h;
+        "pQA9KEny" = _pQA9KEny;
         "forge-1.19.2" = _mMaCsAzp;
         "forge-1.20.1" = _XJ0p2eID;
         "forge-1.19.4" = _yAAkXsNv;
         "neoforge-1.21" = _FWnouoF2;
         "neoforge-1.21.1" = _FWnouoF2;
-        "neoforge-26.1.2" = _1WVNxD4h;
+        "neoforge-26.1.2" = _pQA9KEny;
         "pkg-1.19.2-1.1.4" = _JyXiAfsS;
         "pkg-1.20.1-1.2.0c" = _L35pqNW9;
         "pkg-1.20.1-1.2.1" = _ucJtV3uE;
@@ -378,7 +384,8 @@ let
         "pkg-26.1-1.6.2" = _UIiPOHFO;
         "pkg-26.1-1.6.3" = _8oT46urW;
         "pkg-26.1-1.6.4" = _1WVNxD4h;
-        "default" = _1WVNxD4h;
+        "pkg-26.1-1.6.5a" = _pQA9KEny;
+        "default" = _pQA9KEny;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "functional-storage";

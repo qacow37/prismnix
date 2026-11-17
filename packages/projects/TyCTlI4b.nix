@@ -4781,6 +4781,21 @@ let
             "file" = "sophisticatedbackpacks-26.2-3.26.19.2251.jar";
             "hash" = "sha512-xFH5sHwHAW2xzY6dn2IkHTT9hs0+6IeeTjxe+FDozOPe6imm7gkK0qu9a1SxSQWKHPHS+vVhn0fVImfXbGQOTA==";
         };
+        _4x1vdGns = {
+            "id" = "4x1vdGns";
+            "file" = "sophisticatedbackpacks-26.2-3.26.20.2253.jar";
+            "hash" = "sha512-ax0A+RI6ZWFFlbI7tB3my7EHzhijcHd+URTyuO5Sath1KjMX75a9caTzvvFqFjyww/eoVpqEq+5T6lJUXtRaiw==";
+        };
+        _WEwNaMhT = {
+            "id" = "WEwNaMhT";
+            "file" = "sophisticatedbackpacks-26.3-3.26.21.2255.jar";
+            "hash" = "sha512-h4tGP8tow0FMWgkq5/P+rb7Onsj6+EX6aQWHelD2DhnhAi1ObbJrWsnEFpx4Gg2g/sWovruuNMsun/1m62pe5A==";
+        };
+        _itQUsJb1 = {
+            "id" = "itQUsJb1";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.21.2254.jar";
+            "hash" = "sha512-Y1Gi0r48Ks4zxAoir8EX1B44+iGvSv9xNQTIswWfJsNm6tplIMEhZ1VXXVmTYHIsq4ZRkSrC7jPGjxR8xwNxYQ==";
+        };
     in {
         "HNx6YaQC" = _HNx6YaQC;
         "suz8ANPn" = _suz8ANPn;
@@ -5738,6 +5753,9 @@ let
         "bsFkej1I" = _bsFkej1I;
         "ViXiwS5d" = _ViXiwS5d;
         "LzCGr3Z6" = _LzCGr3Z6;
+        "4x1vdGns" = _4x1vdGns;
+        "WEwNaMhT" = _WEwNaMhT;
+        "itQUsJb1" = _itQUsJb1;
         "neoforge-1.21" = _q4YzYKAb;
         "neoforge-1.21.1" = _tJnK2DE1;
         "neoforge-1.20.1" = _xviLgqVd;
@@ -5748,9 +5766,9 @@ let
         "neoforge-1.21.11" = _36YO13Ox;
         "neoforge-26.1" = _7CsDRcYC;
         "neoforge-26.1.1" = _7CsDRcYC;
-        "neoforge-26.1.2" = _bsFkej1I;
-        "neoforge-26.2" = _LzCGr3Z6;
-        "neoforge-26.3" = _ViXiwS5d;
+        "neoforge-26.1.2" = _itQUsJb1;
+        "neoforge-26.2" = _4x1vdGns;
+        "neoforge-26.3" = _WEwNaMhT;
         "forge-1.20.1" = _xviLgqVd;
         "forge-1.19.2" = _1TblkbcZ;
         "forge-1.18.2" = _ySJuJiG9;
@@ -6709,7 +6727,10 @@ let
         "pkg-26.1.2-3.26.20.2250" = _bsFkej1I;
         "pkg-26.3-3.26.20.2252" = _ViXiwS5d;
         "pkg-26.2-3.26.19.2251" = _LzCGr3Z6;
-        "default" = _LzCGr3Z6;
+        "pkg-26.2-3.26.20.2253" = _4x1vdGns;
+        "pkg-26.3-3.26.21.2255" = _WEwNaMhT;
+        "pkg-26.1.2-3.26.21.2254" = _itQUsJb1;
+        "default" = _itQUsJb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks";

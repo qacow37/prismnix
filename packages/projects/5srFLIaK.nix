@@ -1976,6 +1976,16 @@ let
             "file" = "better-clouds-1.15.0+26.3-neoforge.jar";
             "hash" = "sha512-FyTa+j7inrv5DSahkX3PEymDSr1YQiHmNIpA9WLk2yl571FtI4g/89/yiN7qhoD6/v2ltpsCPj93yl3L8TUwPA==";
         };
+        _9XrdE3tu = {
+            "id" = "9XrdE3tu";
+            "file" = "better-clouds-1.15.1+26.3-neoforge.jar";
+            "hash" = "sha512-o1Dw+g8/dvyYa1gNxJK/Ns8389LhoQm26hRViiVdGXXconDMVo3GbpixSfl7sb1S0fuR5DQmX6RNCT5fIpLOXg==";
+        };
+        _TgYkWqbC = {
+            "id" = "TgYkWqbC";
+            "file" = "better-clouds-1.15.1+26.3-fabric.jar";
+            "hash" = "sha512-N2/t7dTwBjUNl3fsyncKqAhcEq8ztabEkdO1WkZmAtd55jyerlYMxRCgr9T73Y8YBHs5WLfH6LN0bJ3ovQLp1g==";
+        };
     in {
         "2P4z29Lc" = _2P4z29Lc;
         "f4jg6EtK" = _f4jg6EtK;
@@ -2372,6 +2382,8 @@ let
         "gd9idieP" = _gd9idieP;
         "3CZjRo4I" = _3CZjRo4I;
         "X6JjeBvE" = _X6JjeBvE;
+        "9XrdE3tu" = _9XrdE3tu;
+        "TgYkWqbC" = _TgYkWqbC;
         "fabric-1.18.1" = _2EEKJCHK;
         "fabric-1.17.1" = _W1j4ucem;
         "fabric-1.18" = _2EEKJCHK;
@@ -2400,7 +2412,7 @@ let
         "fabric-26.1.1" = _bkU1BWd8;
         "fabric-26.1.2" = _Jf0v8y9Y;
         "fabric-26.2" = _6hLnIcGQ;
-        "fabric-26.3" = _3CZjRo4I;
+        "fabric-26.3" = _TgYkWqbC;
         "neoforge-1.21" = _UvRCtZxT;
         "neoforge-1.20.6" = _UrxGCQBN;
         "neoforge-1.20.4" = _MzeesNiG;
@@ -2417,7 +2429,7 @@ let
         "neoforge-26.1" = _6614HttX;
         "neoforge-26.1.2" = _nNnnD5Om;
         "neoforge-26.2" = _HLg3L2FJ;
-        "neoforge-26.3" = _X6JjeBvE;
+        "neoforge-26.3" = _9XrdE3tu;
         "forge-1.20" = _hQgUzZa4;
         "forge-1.20.1" = _hQgUzZa4;
         "forge-1.21" = _ucwzanPQ;
@@ -2793,7 +2805,8 @@ let
         "pkg-1.15.0-beta.7" = _mo1L4rI7;
         "pkg-1.15.0-beta.8" = _gd9idieP;
         "pkg-1.15.0" = _X6JjeBvE;
-        "default" = _X6JjeBvE;
+        "pkg-1.15.1" = _TgYkWqbC;
+        "default" = _TgYkWqbC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-clouds";

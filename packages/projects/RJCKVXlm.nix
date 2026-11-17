@@ -61,6 +61,11 @@ let
             "file" = "AmysSodaMod-0.4.8b-1.21.1.jar";
             "hash" = "sha512-6gGalqw6W9Y2yps6cE7uRxIfcOOoHi7CVoOSWGs3S1/EOkiXww3j91f5q+ws05hHiw6A848BaJijoEKREX3g2Q==";
         };
+        _jACvCyZW = {
+            "id" = "jACvCyZW";
+            "file" = "AmysSodaMod-0.4.9-1.21.1.jar";
+            "hash" = "sha512-/dytmnDXqxTRkW+76TRHTfJH6LGESr3qu9Vv3Ti/f51NaG/0G+VgYN10u2JWBJNxmSS2My7wmAiMbTT4J099jA==";
+        };
     in {
         "HxC1sX6h" = _HxC1sX6h;
         "3AWGG5fo" = _3AWGG5fo;
@@ -74,8 +79,10 @@ let
         "1UPjiA8H" = _1UPjiA8H;
         "hJl4NnSi" = _hJl4NnSi;
         "dU2NxEGH" = _dU2NxEGH;
+        "jACvCyZW" = _jACvCyZW;
         "forge-1.20.1" = _1UPjiA8H;
         "neoforge-1.21.1" = _dU2NxEGH;
+        "fabric-1.21.1" = _jACvCyZW;
         "pkg-0.4.1" = _HxC1sX6h;
         "pkg-0.4.2" = _3AWGG5fo;
         "pkg-0.4.3" = _gyMCojEV;
@@ -88,7 +95,8 @@ let
         "pkg-0.4.7" = _1UPjiA8H;
         "pkg-0.4.8" = _hJl4NnSi;
         "pkg-0.4.8b" = _dU2NxEGH;
-        "default" = _dU2NxEGH;
+        "pkg-0.4.9" = _jACvCyZW;
+        "default" = _jACvCyZW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amys-soda-mod";

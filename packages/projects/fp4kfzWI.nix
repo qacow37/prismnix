@@ -86,6 +86,11 @@ let
             "file" = "onceuponastroll-neoforge-1.21.1-1.10.0.jar";
             "hash" = "sha512-mqlSCHcwJnYmRP+pyS8+41q5kGf3dX03iq8dD6um4CuGek8Ok1+uZOf+OhT8eqllqSCQdbZUebLpsf9xbUa4CQ==";
         };
+        _3xdlw21B = {
+            "id" = "3xdlw21B";
+            "file" = "Once-Upon-A-Stroll-2.0.1-MC26.3-NeoForge.jar";
+            "hash" = "sha512-LTPqPsGu8tCDF7M7R2dT/uO36FX4TvQANCE7lUW0L8ll+oRtasXs+NMou2eBrrZ6dkLMuZBLsI9kwUQWN0ZpBA==";
+        };
     in {
         "2Q2BPgX6" = _2Q2BPgX6;
         "ZwF7dxEm" = _ZwF7dxEm;
@@ -104,6 +109,7 @@ let
         "wKycdfyn" = _wKycdfyn;
         "1G9jFath" = _1G9jFath;
         "7YU1Ue7E" = _7YU1Ue7E;
+        "3xdlw21B" = _3xdlw21B;
         "forge-1.14.4" = _2Q2BPgX6;
         "forge-1.15.1" = _ZwF7dxEm;
         "forge-1.16.5" = _GPtk9HoZ;
@@ -124,6 +130,7 @@ let
         "neoforge-1.20.2" = _8aF10JeV;
         "neoforge-1.20.4" = _wKycdfyn;
         "neoforge-1.21.1" = _7YU1Ue7E;
+        "neoforge-26.3" = _3xdlw21B;
         "pkg-1.3.4" = _GPtk9HoZ;
         "pkg-1.4.0" = _kK6wkg9I;
         "pkg-1.5.0" = _MIduEyuS;
@@ -132,7 +139,8 @@ let
         "pkg-1.8.0" = _8aF10JeV;
         "pkg-1.9.0" = _wKycdfyn;
         "pkg-1.10.0" = _7YU1Ue7E;
-        "default" = _7YU1Ue7E;
+        "pkg-2.0.1" = _3xdlw21B;
+        "default" = _3xdlw21B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "once-upon-a-stroll";

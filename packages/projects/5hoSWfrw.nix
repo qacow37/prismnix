@@ -176,6 +176,16 @@ let
             "file" = "plushie_buddies-0.1.8-1.21.1.jar";
             "hash" = "sha512-xtvsa5L0Aa7WSpoXF3eCrAZGTkVI6qgi1CG5FEYuSMSLMRnNg598cw3k5iYom2G/yINHcoMnhwyNX+zkOBfFQQ==";
         };
+        _RxnMh3r3 = {
+            "id" = "RxnMh3r3";
+            "file" = "plushie_buddies-1.0.2.hotfix-1.21.1.jar";
+            "hash" = "sha512-qaFOl2nkYEuXqf+vtQwWEvItIYfZEljKXPH+WFyhJ8v20s6k9dyMjULm/qD8ZL32nekjl8z8If2kyezOTkdAxw==";
+        };
+        _oSivNwdd = {
+            "id" = "oSivNwdd";
+            "file" = "plushie_buddies-1.0.2.hotfix-1.20.1.jar";
+            "hash" = "sha512-G0jKFRDj7VdILvhFXZheGQliAjgUriF+wgxRyHsa/m2XFZticv5xJfqADW60jL2gx5CvBIrLeeUZBKvBfPa8og==";
+        };
     in {
         "8FpiEbzc" = _8FpiEbzc;
         "FTt3T4Zw" = _FTt3T4Zw;
@@ -212,9 +222,11 @@ let
         "Q4klVI3F" = _Q4klVI3F;
         "8jWRzitb" = _8jWRzitb;
         "wVISmlgE" = _wVISmlgE;
+        "RxnMh3r3" = _RxnMh3r3;
+        "oSivNwdd" = _oSivNwdd;
         "forge-1.20.1" = _Q4klVI3F;
-        "fabric-1.20.1" = _6l4tO1Ak;
-        "fabric-1.21.1" = _wVISmlgE;
+        "fabric-1.20.1" = _oSivNwdd;
+        "fabric-1.21.1" = _RxnMh3r3;
         "neoforge-1.21.1" = _79cJi8lU;
         "pkg-0.0.1-1.20.1" = _8FpiEbzc;
         "pkg-0.0.2-1.20.1" = _FTt3T4Zw;
@@ -245,7 +257,9 @@ let
         "pkg-1.0.2-1.20.1" = _Q4klVI3F;
         "pkg-0.1.2-1.21.1" = _8jWRzitb;
         "pkg-0.1.8-1.21.1" = _wVISmlgE;
-        "default" = _wVISmlgE;
+        "pkg-1.0.2.hotfix-1.21.1" = _RxnMh3r3;
+        "pkg-1.0.2.hotfix-1.20.1" = _oSivNwdd;
+        "default" = _oSivNwdd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plushie-buddies";

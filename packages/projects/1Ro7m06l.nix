@@ -406,6 +406,21 @@ let
             "file" = "titanium-1.20.1-3.8.37.jar";
             "hash" = "sha512-V+V1wOxQbzcVvukdE0AEgTo6GDSbFij/lkQHnUkX/0DTmj+S4ZzPXm7hsfkqY2hTY3W6dz2G8OVi1AkwjFNAHw==";
         };
+        _962E0SQz = {
+            "id" = "962E0SQz";
+            "file" = "titanium-26.1.2-4.0.17.jar";
+            "hash" = "sha512-xnwEHE9KwWL47Ie1uZP53zGV5SIJPy8ORUsTx0e4mWVVBs/VGYZWiSC1zQMeYCHhyWNPFCthE34e+Vq2AtAToA==";
+        };
+        _rPEGFqrv = {
+            "id" = "rPEGFqrv";
+            "file" = "titanium-1.21-4.0.53.jar";
+            "hash" = "sha512-531s6IxeYF4CG2XWXvMJuIJ/SYj3GncUbZHa9N29cLc8jd+i6JliEPUe/V0Oi7/jvHQ8DEJerPEsrrZoXaQONg==";
+        };
+        _ipoFMkfv = {
+            "id" = "ipoFMkfv";
+            "file" = "titanium-1.21-4.0.56.jar";
+            "hash" = "sha512-5B8cu8BKWqgO8kw3dYfh7Kg34fjnz6JSb48+/W6SCYdemqh8mWQTLHbisdQpCWwo0DUSysSQpS/A3L1woj2Elg==";
+        };
     in {
         "C671K5PG" = _C671K5PG;
         "f8zZ2kK5" = _f8zZ2kK5;
@@ -488,14 +503,17 @@ let
         "ynzx60mi" = _ynzx60mi;
         "ZrffET42" = _ZrffET42;
         "Hiz07O4L" = _Hiz07O4L;
+        "962E0SQz" = _962E0SQz;
+        "rPEGFqrv" = _rPEGFqrv;
+        "ipoFMkfv" = _ipoFMkfv;
         "forge-1.19.2" = _C671K5PG;
         "forge-1.18.2" = _f8zZ2kK5;
         "forge-1.14.4" = _pJxuKoTg;
         "forge-1.16.5" = _U2ihcjtm;
         "forge-1.20.1" = _Hiz07O4L;
-        "neoforge-1.21" = _ZrffET42;
-        "neoforge-1.21.1" = _ZrffET42;
-        "neoforge-26.1.2" = _ynzx60mi;
+        "neoforge-1.21" = _ipoFMkfv;
+        "neoforge-1.21.1" = _ipoFMkfv;
+        "neoforge-26.1.2" = _962E0SQz;
         "pkg-3.7.3" = _C671K5PG;
         "pkg-3.5.9" = _f8zZ2kK5;
         "pkg-2.2.10" = _pJxuKoTg;
@@ -577,7 +595,10 @@ let
         "pkg-26.1.2-4.0.16" = _ynzx60mi;
         "pkg-1.21-4.0.52" = _ZrffET42;
         "pkg-1.20.1-3.8.37" = _Hiz07O4L;
-        "default" = _Hiz07O4L;
+        "pkg-26.1.2-4.0.17" = _962E0SQz;
+        "pkg-1.21-4.0.53" = _rPEGFqrv;
+        "pkg-1.21-4.0.56" = _ipoFMkfv;
+        "default" = _ipoFMkfv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "titanium";

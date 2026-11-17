@@ -241,6 +241,11 @@ let
             "file" = "CrazyEnvoys-26.1.2-561766c.jar";
             "hash" = "sha512-u/6AmKMRA7+LD58/oktfS23gSS2eukOJNrd+I0OMShrr2y1iUzTX/tAhYgSjaPfpAf5rqqjFSPhl61XHDGDo1g==";
         };
+        _IhlwpHm2 = {
+            "id" = "IhlwpHm2";
+            "file" = "CrazyEnvoys-26.1.2-c9613d1.jar";
+            "hash" = "sha512-huPTwZcDXUQai2XAHrsnxV8SstBv9fogQt6HijsNPRdvcj3wh5Ku3dSgCoMZY7TsXHKPiPJDK0XEbzH0DMbFaw==";
+        };
     in {
         "QkKlspsp" = _QkKlspsp;
         "vtMMeTpa" = _vtMMeTpa;
@@ -290,6 +295,7 @@ let
         "zmPhB2BY" = _zmPhB2BY;
         "jbBjoQjZ" = _jbBjoQjZ;
         "TjltuJyn" = _TjltuJyn;
+        "IhlwpHm2" = _IhlwpHm2;
         "paper-1.19.3" = _ZrobsUh0;
         "paper-1.8.8" = _U4R67Vt9;
         "paper-1.12.2" = _U4R67Vt9;
@@ -313,8 +319,8 @@ let
         "paper-1.21.11" = _C3uqyrnF;
         "paper-26.1" = _C3uqyrnF;
         "paper-26.1.1" = _C3uqyrnF;
-        "paper-26.1.2" = _TjltuJyn;
-        "paper-26.2" = _TjltuJyn;
+        "paper-26.1.2" = _IhlwpHm2;
+        "paper-26.2" = _IhlwpHm2;
         "purpur-1.19.3" = _ZrobsUh0;
         "purpur-1.19.4" = _M4IyJV7f;
         "purpur-1.20.1" = _3oqi1Qw9;
@@ -335,8 +341,8 @@ let
         "purpur-1.21.11" = _C3uqyrnF;
         "purpur-26.1" = _C3uqyrnF;
         "purpur-26.1.1" = _C3uqyrnF;
-        "purpur-26.1.2" = _TjltuJyn;
-        "purpur-26.2" = _TjltuJyn;
+        "purpur-26.1.2" = _IhlwpHm2;
+        "purpur-26.2" = _IhlwpHm2;
         "spigot-1.8.8" = _U4R67Vt9;
         "spigot-1.12.2" = _U4R67Vt9;
         "spigot-1.16.5" = _U4R67Vt9;
@@ -355,8 +361,8 @@ let
         "folia-1.21.11" = _C3uqyrnF;
         "folia-26.1" = _C3uqyrnF;
         "folia-26.1.1" = _C3uqyrnF;
-        "folia-26.1.2" = _TjltuJyn;
-        "folia-26.2" = _TjltuJyn;
+        "folia-26.1.2" = _IhlwpHm2;
+        "folia-26.2" = _IhlwpHm2;
         "pkg-1.4.19" = _QkKlspsp;
         "pkg-1.4.17" = _vtMMeTpa;
         "pkg-1.4.20" = _i0v2hAtX;
@@ -405,7 +411,8 @@ let
         "pkg-26.1.2-e837ce2" = _zmPhB2BY;
         "pkg-26.1.2-cbe81f0" = _jbBjoQjZ;
         "pkg-26.1.2-561766c" = _TjltuJyn;
-        "default" = _TjltuJyn;
+        "pkg-26.1.2-c9613d1" = _IhlwpHm2;
+        "default" = _IhlwpHm2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazyenvoys";

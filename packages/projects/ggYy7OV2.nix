@@ -131,6 +131,11 @@ let
             "file" = "ClassicCombined v1.7.3 - mc26.1 - NeoForge.jar";
             "hash" = "sha512-Hth6sKMvisV+9Cifdy18DK2Rggt4m1m9ILXfjE3mkh0L+NPnv7LRqwK8kqWxyipNlItgd9lhLTbSoCyC6MEPeA==";
         };
+        _Bz1MaDwn = {
+            "id" = "Bz1MaDwn";
+            "file" = "ClassicCombined v1.7.4 - mc26.1 - NeoForge.jar";
+            "hash" = "sha512-OuGUJlf60m1j8GDqGHRw3ZZHgF/G3ZdHxo1/mbGMmmDwWTt7UhFT7EunfYQHT9sqVJVteWODQMMaEfHotza6SQ==";
+        };
     in {
         "kAsp7EjU" = _kAsp7EjU;
         "r4RD3drz" = _r4RD3drz;
@@ -158,9 +163,10 @@ let
         "rFS9OrBf" = _rFS9OrBf;
         "88MwUlvg" = _88MwUlvg;
         "FO4hg4wf" = _FO4hg4wf;
+        "Bz1MaDwn" = _Bz1MaDwn;
         "neoforge-1.21.8" = _hi5iYnMp;
         "neoforge-1.21.1" = _irNYa56Y;
-        "neoforge-26.1.2" = _FO4hg4wf;
+        "neoforge-26.1.2" = _Bz1MaDwn;
         "pkg-1.0.0" = _kAsp7EjU;
         "pkg-1.1.0" = _r4RD3drz;
         "pkg-1.1.1" = _B1zIJOah;
@@ -184,7 +190,8 @@ let
         "pkg-1.7.1" = _rFS9OrBf;
         "pkg-1.7.2" = _88MwUlvg;
         "pkg-1.7.3" = _FO4hg4wf;
-        "default" = _FO4hg4wf;
+        "pkg-1.7.4" = _Bz1MaDwn;
+        "default" = _Bz1MaDwn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classiccombined";

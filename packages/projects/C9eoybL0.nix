@@ -96,6 +96,11 @@ let
             "file" = "impact-frames-1.2.1.8.jar";
             "hash" = "sha512-8pbfqTkhhZJKkeaDlkzOEtux77c3IX8azNrdohReDHZQoaON1Gcjj/+t8WPmVYQgFhbk3z+I/GDcjr3Ro89qtg==";
         };
+        _lhrBte0Q = {
+            "id" = "lhrBte0Q";
+            "file" = "impact-frames-1.2.1.8.jar";
+            "hash" = "sha512-lIYYJbcP1wR8c8DfcneWW/CSrMibr23EFRVg2KnYBB1MRE3uB7ES6iPg/afJDPNImXPmlzdo64Jufllf+5VZFA==";
+        };
     in {
         "Yh7dh7Lt" = _Yh7dh7Lt;
         "I4VHXwgl" = _I4VHXwgl;
@@ -116,11 +121,12 @@ let
         "43RUdkmN" = _43RUdkmN;
         "7reIQKTb" = _7reIQKTb;
         "g5eMo7rj" = _g5eMo7rj;
+        "lhrBte0Q" = _lhrBte0Q;
         "fabric-1.21.11" = _g5eMo7rj;
         "fabric-26.1" = _dZFyFli5;
         "fabric-26.1.1" = _dZFyFli5;
         "fabric-26.1.2" = _dZFyFli5;
-        "fabric-26.2" = _rLjVFyv6;
+        "fabric-26.2" = _lhrBte0Q;
         "fabric-26.3" = _7reIQKTb;
         "pkg-1.0.0" = _Yh7dh7Lt;
         "pkg-1.1.0" = _I4VHXwgl;
@@ -134,8 +140,8 @@ let
         "pkg-1.2.1.6" = _6NjeDLfL;
         "pkg-1.2.1.7+alpha1" = _GhTL1Xr8;
         "pkg-1.2.1.7" = _43RUdkmN;
-        "pkg-1.2.1.8" = _g5eMo7rj;
-        "default" = _g5eMo7rj;
+        "pkg-1.2.1.8" = _lhrBte0Q;
+        "default" = _lhrBte0Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "impact-frames-pvp";

@@ -3236,6 +3236,16 @@ let
             "file" = "Roundabout-forge-1.20.1-3.6.7.jar";
             "hash" = "sha512-Ph/dzX/hjBfcPJR90vQUYCxiq1jWs9eNfFE9DHuJA5ZfL4SA201AXwYKh2JOXsfVEroH2qagbLzTODMUhfGRVQ==";
         };
+        _Cez690HP = {
+            "id" = "Cez690HP";
+            "file" = "Roundabout-fabric-1.20.1-3.6.8.jar";
+            "hash" = "sha512-hB6qeHgz8AcRO5Wv+lMJX4hKf8S/3/EEZrbnhTi88tHUO2/4p1rp8AcfFpQbmUOy9Mnv8oiQnmnvur5vV1nHkw==";
+        };
+        _qQxPg8UF = {
+            "id" = "qQxPg8UF";
+            "file" = "Roundabout-forge-1.20.1-3.6.8.jar";
+            "hash" = "sha512-XgBd5P+G9y+sEng4ptPoY1WNPkLusbZDTbZ5FlBa0YIiuObfbJgsUu5ElDkv/tDtyKDGp/IjkLsI1bZPId0PgQ==";
+        };
     in {
         "IBC5eZVT" = _IBC5eZVT;
         "hu49wVYJ" = _hu49wVYJ;
@@ -3884,8 +3894,10 @@ let
         "EcW1bHfH" = _EcW1bHfH;
         "YT7FyoGe" = _YT7FyoGe;
         "i6IwxMd7" = _i6IwxMd7;
-        "fabric-1.20.1" = _YT7FyoGe;
-        "forge-1.20.1" = _i6IwxMd7;
+        "Cez690HP" = _Cez690HP;
+        "qQxPg8UF" = _qQxPg8UF;
+        "fabric-1.20.1" = _Cez690HP;
+        "forge-1.20.1" = _qQxPg8UF;
         "forge-1.20.2" = _f749OaVt;
         "forge-1.20.3" = _f749OaVt;
         "forge-1.20.4" = _f749OaVt;
@@ -4222,7 +4234,8 @@ let
         "pkg-3.6.5" = _Fk0R9aZi;
         "pkg-3.6.6" = _EcW1bHfH;
         "pkg-3.6.7" = _i6IwxMd7;
-        "default" = _i6IwxMd7;
+        "pkg-3.6.8" = _qQxPg8UF;
+        "default" = _qQxPg8UF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roundabout_the_jojo_mod";

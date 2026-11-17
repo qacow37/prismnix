@@ -26,18 +26,42 @@ let
             "file" = "cobbletwoclient-1.2.1.jar";
             "hash" = "sha512-NmcbB65x75+FZ7sFzhVP9y26Ib3stM+uD4/sdspU/KQpLeZK5PRrqIRmYj4SQt6XRAtJspqz+/7hB41E8uzutg==";
         };
+        _rWfHFbQx = {
+            "id" = "rWfHFbQx";
+            "file" = "cobbletwoclient-2.2.4.jar";
+            "hash" = "sha512-39KfD1r5ojog1oSdvRTeCIwEu07zCwn5F4oIcovUgfYcNfkE+nf7i67CpmVI6z942XTXft/M/cT2HILkdadNfA==";
+        };
+        _jxpI6Qgt = {
+            "id" = "jxpI6Qgt";
+            "file" = "cobbletwoclient-2.2.7.jar";
+            "hash" = "sha512-Fxyjng5VKVGJyT5TAGu+wuvTEl65r3yS7oGs2yL3EedHHsHOLTO+GrS615OLzwTP5L82M9uUb6xa1DCxP5Ct7w==";
+        };
     in {
         "XOi0Vixp" = _XOi0Vixp;
         "DOEddPtd" = _DOEddPtd;
         "NS329bmL" = _NS329bmL;
         "t8wDLJHk" = _t8wDLJHk;
         "eZNxuaQE" = _eZNxuaQE;
-        "fabric-1.21.1" = _eZNxuaQE;
+        "rWfHFbQx" = _rWfHFbQx;
+        "jxpI6Qgt" = _jxpI6Qgt;
+        "fabric-1.21.1" = _jxpI6Qgt;
+        "fabric-1.21.11" = _jxpI6Qgt;
+        "fabric-1.21.10" = _jxpI6Qgt;
+        "fabric-1.21.9" = _jxpI6Qgt;
+        "fabric-1.21.8" = _jxpI6Qgt;
+        "fabric-1.21.7" = _jxpI6Qgt;
+        "fabric-1.21.6" = _jxpI6Qgt;
+        "fabric-1.21.5" = _jxpI6Qgt;
+        "fabric-1.21.4" = _jxpI6Qgt;
+        "fabric-1.21.3" = _jxpI6Qgt;
+        "fabric-1.21.2" = _jxpI6Qgt;
         "pkg-1.0" = _t8wDLJHk;
         "pkg-1.1" = _DOEddPtd;
         "pkg-1.2" = _NS329bmL;
         "pkg-1.2.1" = _eZNxuaQE;
-        "default" = _eZNxuaQE;
+        "pkg-2.2.4" = _rWfHFbQx;
+        "pkg-2.2.7" = _jxpI6Qgt;
+        "default" = _jxpI6Qgt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbletwoclient";

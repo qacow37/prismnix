@@ -161,6 +161,11 @@ let
             "file" = "Aquaculture-1.21.11-2.8.10.jar";
             "hash" = "sha512-25pB8a2rzDjAIHueE43m3xPgQ/A5K6mEHTUr5MduivIOfbjyAvZK84wOMss5ZlzM6Cf34uXxeIYOkPVRZJrLKA==";
         };
+        _h4jCizmw = {
+            "id" = "h4jCizmw";
+            "file" = "Aquaculture-26.3-2.11.3.jar";
+            "hash" = "sha512-w+Tvyd4MFGinct1juxa5Ar8NTiCpsZTkmi8KrammT+65Ojjjwe9R2Gwvcx6a3KjEM4OUoRMG+lfnllR5Kz9rMg==";
+        };
     in {
         "u59UKITA" = _u59UKITA;
         "3FMksfjB" = _3FMksfjB;
@@ -194,6 +199,7 @@ let
         "EVDXfAI9" = _EVDXfAI9;
         "76GvMJGa" = _76GvMJGa;
         "NPiAO3SA" = _NPiAO3SA;
+        "h4jCizmw" = _h4jCizmw;
         "neoforge-1.20.4" = _u59UKITA;
         "neoforge-1.21.5" = _Y5Qzr3S2;
         "neoforge-1.20.1" = _wNiFoROs;
@@ -207,7 +213,7 @@ let
         "neoforge-26.1.1" = _FWv4aPCV;
         "neoforge-26.1.2" = _FWv4aPCV;
         "neoforge-26.2" = _67SfZfwF;
-        "neoforge-26.3" = _76GvMJGa;
+        "neoforge-26.3" = _h4jCizmw;
         "forge-1.20.1" = _wNiFoROs;
         "pkg-2.6.0" = _u59UKITA;
         "pkg-2.8.2" = _3FMksfjB;
@@ -238,7 +244,8 @@ let
         "pkg-2.7.22" = _EVDXfAI9;
         "pkg-2.11.2" = _76GvMJGa;
         "pkg-2.8.10" = _NPiAO3SA;
-        "default" = _NPiAO3SA;
+        "pkg-2.11.3" = _h4jCizmw;
+        "default" = _h4jCizmw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquaculture";

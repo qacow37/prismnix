@@ -591,6 +591,36 @@ let
             "file" = "okcore-26.10.31.1.jar";
             "hash" = "sha512-5ksqGaZgi7Syq07RgZz51jL1kMDuF54RhxO8zUpu9+HxQiee3SMq4x/4NbuVzvtTgOLvY4ohQdEOHrFLcTy8Xg==";
         };
+        _dXIOFlr9 = {
+            "id" = "dXIOFlr9";
+            "file" = "okcore-26.11.15.0.jar";
+            "hash" = "sha512-hBb8BQxZy/FVR1x987xBvHSNEg2MHzhejzd6t4//YsHq+efK30jRtLCv3rvzvqPtYOZ+WRfIgEMtYZTS3bwUNA==";
+        };
+        _xeSH1D5y = {
+            "id" = "xeSH1D5y";
+            "file" = "okcore-26.11.15.1.jar";
+            "hash" = "sha512-qOugZSmxFeJrkMHprH+F/xgg6utcCvnjbWp3ovnPWHzfPu2h/QmDfYEPEtvWmnkpsZY+QPZ2O1v1ley6IUpQ/g==";
+        };
+        _Qo1ZSTxo = {
+            "id" = "Qo1ZSTxo";
+            "file" = "okcore-26.11.16.0.jar";
+            "hash" = "sha512-S2PcSgVZbr3jBgTowLxQR2TBoEwmhzjc2yJnoPROZEtSrwn76cbs5FB4+P2ZPg8C6+azgUA14pVnMnFZp/Hv3A==";
+        };
+        _b3A7Isph = {
+            "id" = "b3A7Isph";
+            "file" = "okcore-26.11.16.1.jar";
+            "hash" = "sha512-J4iboE6HsVFvzmCCIuN4Zmvv55o3ZOlPtdcfkdFfwdMtPj0Bt0b+8cbeRnum2eCbu+WNXuSIXbTB1vwHXxce2A==";
+        };
+        _Q0wmgCHW = {
+            "id" = "Q0wmgCHW";
+            "file" = "okcore-26.11.16.2.jar";
+            "hash" = "sha512-R7Vrs8bcCKS6GUNkaxw5DwMDXpZBh+Z8kXnHWGUlldPzV7JuZ9TeEeLmhhmhGeZHYGglUQeQhgTFH7hZdMusyQ==";
+        };
+        _hBLSTZyl = {
+            "id" = "hBLSTZyl";
+            "file" = "okcore-26.11.16.3.jar";
+            "hash" = "sha512-KE0wRWvHDB/6k6qg6+XTXj9OIBrtLMHWgePXDAhtrSFinZCcXoLvHjhsK32o/m7lizg9Xx0M8FuLERlk3N5VLA==";
+        };
     in {
         "8a8doypa" = _8a8doypa;
         "n0PTagCb" = _n0PTagCb;
@@ -710,7 +740,13 @@ let
         "ftCS1u1z" = _ftCS1u1z;
         "L6a1lhl1" = _L6a1lhl1;
         "hrIakbzh" = _hrIakbzh;
-        "forge-1.7.10" = _hrIakbzh;
+        "dXIOFlr9" = _dXIOFlr9;
+        "xeSH1D5y" = _xeSH1D5y;
+        "Qo1ZSTxo" = _Qo1ZSTxo;
+        "b3A7Isph" = _b3A7Isph;
+        "Q0wmgCHW" = _Q0wmgCHW;
+        "hBLSTZyl" = _hBLSTZyl;
+        "forge-1.7.10" = _hBLSTZyl;
         "pkg-1.2.4" = _8a8doypa;
         "pkg-1.2.5" = _n0PTagCb;
         "pkg-1.2.6" = _NS623V7Z;
@@ -829,7 +865,13 @@ let
         "pkg-26.10.10.0" = _ftCS1u1z;
         "pkg-26.10.31.0" = _L6a1lhl1;
         "pkg-26.10.31.1" = _hrIakbzh;
-        "default" = _hrIakbzh;
+        "pkg-26.11.15.0" = _dXIOFlr9;
+        "pkg-26.11.15.1" = _xeSH1D5y;
+        "pkg-26.11.16.0" = _Qo1ZSTxo;
+        "pkg-26.11.16.1" = _b3A7Isph;
+        "pkg-26.11.16.2" = _Q0wmgCHW;
+        "pkg-26.11.16.3" = _hBLSTZyl;
+        "default" = _hBLSTZyl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ok-core";

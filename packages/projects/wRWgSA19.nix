@@ -51,6 +51,11 @@ let
             "file" = "tead-2.11-1.20.1.jar";
             "hash" = "sha512-42vqR1pTv933+2f4GQ0ndb46+WJ/o9t4tJvBnZXGTkjvCzaH0vnn4K1b3PbJz0SJRUWpzD1EX5QERQbAhbarDA==";
         };
+        _lWJgND60 = {
+            "id" = "lWJgND60";
+            "file" = "tead-2.11-1.20.4.jar";
+            "hash" = "sha512-YXs3dwLb7aBFIAM9nz3dVO1YVl3oOAFGJGfmvwG+DNTgE2Zrpwg7dpLkwOFk+wnvPIj1twkH4JmtR/1i3Mi8+A==";
+        };
     in {
         "M5W236dO" = _M5W236dO;
         "t6PTQ94N" = _t6PTQ94N;
@@ -62,9 +67,10 @@ let
         "7QJVvDAV" = _7QJVvDAV;
         "bpIR0uB6" = _bpIR0uB6;
         "6t1A5EGi" = _6t1A5EGi;
+        "lWJgND60" = _lWJgND60;
         "fabric-1.20.1" = _6t1A5EGi;
         "fabric-1.19.2" = _ymxq9pES;
-        "fabric-1.20.4" = _IsGbGapW;
+        "fabric-1.20.4" = _lWJgND60;
         "pkg-0.1-1.20.1" = _M5W236dO;
         "pkg-0.2-1.20.1" = _t6PTQ94N;
         "pkg-0.2-1.19.2" = _ymxq9pES;
@@ -75,7 +81,8 @@ let
         "pkg-1.0.1-1.20.1" = _7QJVvDAV;
         "pkg-2.8-1.20.1" = _bpIR0uB6;
         "pkg-2.11-1.20.1" = _6t1A5EGi;
-        "default" = _6t1A5EGi;
+        "pkg-2.11-1.20.4" = _lWJgND60;
+        "default" = _lWJgND60;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tead";

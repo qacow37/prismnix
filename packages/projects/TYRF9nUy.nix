@@ -141,6 +141,11 @@ let
             "file" = "thermoo_patches-0.1.1-neoforge.jar";
             "hash" = "sha512-wwmKs7hpfffChktr4rjGJwDcpohYA13JCgyKmuTTgV1YKmzHC75IRPnneufzkThw1cEZ3tYvGmJlROAg1tKKCg==";
         };
+        _wKFhoFJ8 = {
+            "id" = "wKFhoFJ8";
+            "file" = "thermoo-patches-5.1.0.jar";
+            "hash" = "sha512-2DtxAhGIfviptJEqEiW863NbrWhXN6sTB0U5YkPedw8hVqNVWTWxE7nzYYuAyYHxdtpjBrlEUskn5X+83lAC/A==";
+        };
     in {
         "MpgOQkFK" = _MpgOQkFK;
         "oY88DMtP" = _oY88DMtP;
@@ -170,6 +175,7 @@ let
         "HG3aPqWx" = _HG3aPqWx;
         "MLXcX3U1" = _MLXcX3U1;
         "KYaqnBiE" = _KYaqnBiE;
+        "wKFhoFJ8" = _wKFhoFJ8;
         "fabric-1.20.1" = _Q0Br0TGv;
         "fabric-1.20.4" = _j83PccGh;
         "fabric-1.21" = _DXedaKQy;
@@ -181,9 +187,9 @@ let
         "fabric-1.21.8" = _fX4uPUfk;
         "fabric-1.21.9" = _fX4uPUfk;
         "fabric-1.21.11" = _ZC8wP0Gl;
-        "fabric-26.1" = _HG3aPqWx;
-        "fabric-26.1.1" = _HG3aPqWx;
-        "fabric-26.1.2" = _HG3aPqWx;
+        "fabric-26.1" = _wKFhoFJ8;
+        "fabric-26.1.1" = _wKFhoFJ8;
+        "fabric-26.1.2" = _wKFhoFJ8;
         "quilt-1.20.1" = _Q0Br0TGv;
         "quilt-1.20.4" = _j83PccGh;
         "quilt-1.21" = _DXedaKQy;
@@ -195,9 +201,9 @@ let
         "quilt-1.21.8" = _fX4uPUfk;
         "quilt-1.21.9" = _fX4uPUfk;
         "quilt-1.21.11" = _ZC8wP0Gl;
-        "quilt-26.1" = _HG3aPqWx;
-        "quilt-26.1.1" = _HG3aPqWx;
-        "quilt-26.1.2" = _HG3aPqWx;
+        "quilt-26.1" = _wKFhoFJ8;
+        "quilt-26.1.1" = _wKFhoFJ8;
+        "quilt-26.1.2" = _wKFhoFJ8;
         "neoforge-1.21.1" = _KYaqnBiE;
         "pkg-1.0.0" = _MpgOQkFK;
         "pkg-1.0.1" = _oY88DMtP;
@@ -227,7 +233,8 @@ let
         "pkg-5.0.0" = _HG3aPqWx;
         "pkg-0.1.0-neoforge" = _MLXcX3U1;
         "pkg-0.1.1-neoforge" = _KYaqnBiE;
-        "default" = _KYaqnBiE;
+        "pkg-5.1.0" = _wKFhoFJ8;
+        "default" = _wKFhoFJ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thermoo-patches";

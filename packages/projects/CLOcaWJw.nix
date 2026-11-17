@@ -16,10 +16,16 @@ let
             "file" = "Connected Glass 1.0.1.zip";
             "hash" = "sha512-NL6cvAQIJYoGgIa/iXg3MbF7HRVFDpHZ8DEdBPyjpwpUA27ExjawgXv/XPw+0b9/d3cdPGVs0pOiGLbrTnQ6hA==";
         };
+        _mgV7hcAz = {
+            "id" = "mgV7hcAz";
+            "file" = "Connected Glass 1.0.2.zip";
+            "hash" = "sha512-BgOOBAjeDi48+nbvzwnOUcTbJB/CYL8bgU6NQtp4N1y55IrdBp12Zu+NyQWj15mI6rRWe1+C0ZOVy5yufzkcOA==";
+        };
     in {
         "cZSj6WbW" = _cZSj6WbW;
         "Mo0ZJ7vP" = _Mo0ZJ7vP;
         "BcsxMIup" = _BcsxMIup;
+        "mgV7hcAz" = _mgV7hcAz;
         "minecraft-1.21" = _Mo0ZJ7vP;
         "minecraft-1.21.1" = _Mo0ZJ7vP;
         "minecraft-24w33a" = _cZSj6WbW;
@@ -42,9 +48,9 @@ let
         "minecraft-1.21.6" = _Mo0ZJ7vP;
         "minecraft-1.21.7" = _Mo0ZJ7vP;
         "minecraft-1.21.8" = _Mo0ZJ7vP;
-        "minecraft-1.21.9" = _BcsxMIup;
-        "minecraft-1.21.10" = _BcsxMIup;
-        "minecraft-1.21.11" = _BcsxMIup;
+        "minecraft-1.21.9" = _mgV7hcAz;
+        "minecraft-1.21.10" = _mgV7hcAz;
+        "minecraft-1.21.11" = _mgV7hcAz;
         "minecraft-1.20" = _Mo0ZJ7vP;
         "minecraft-1.20.1" = _Mo0ZJ7vP;
         "minecraft-1.20.2" = _Mo0ZJ7vP;
@@ -52,13 +58,15 @@ let
         "minecraft-1.20.4" = _Mo0ZJ7vP;
         "minecraft-1.20.5" = _Mo0ZJ7vP;
         "minecraft-1.20.6" = _Mo0ZJ7vP;
-        "minecraft-26.1" = _BcsxMIup;
-        "minecraft-26.1.1" = _BcsxMIup;
-        "minecraft-26.1.2" = _BcsxMIup;
-        "minecraft-26.2" = _BcsxMIup;
+        "minecraft-26.1" = _mgV7hcAz;
+        "minecraft-26.1.1" = _mgV7hcAz;
+        "minecraft-26.1.2" = _mgV7hcAz;
+        "minecraft-26.2" = _mgV7hcAz;
+        "minecraft-26.3" = _mgV7hcAz;
         "pkg-1.0.0" = _cZSj6WbW;
         "pkg-1.0.1" = _BcsxMIup;
-        "default" = _BcsxMIup;
+        "pkg-1.0.2" = _mgV7hcAz;
+        "default" = _mgV7hcAz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "generic-connected-glass";

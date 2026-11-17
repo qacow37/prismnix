@@ -16891,6 +16891,16 @@ let
             "file" = "wynntils-0.0.3-alpha.402-fabric+MC-1.19.4.jar";
             "hash" = "sha512-AcnTmRCV3PomtmEhgM3HSIPlFh3p6b8UjNFikQj12JDY1scy9xExv28EOBy5Mk2vYFeLdD9wcfrONIur1/6yYw==";
         };
+        _YPpgpMI5 = {
+            "id" = "YPpgpMI5";
+            "file" = "wynntils-4.2.17-fabric+MC-1.21.11.jar";
+            "hash" = "sha512-M8k1kbVI5naQ/DzQM66CKXqWdC+Kyg3OcKa8Qt5cXnJkNmfjp3x5Q+o2d7yRd/doAv7cVoj/Ylt1npx6COf8bQ==";
+        };
+        _QrZNnkYG = {
+            "id" = "QrZNnkYG";
+            "file" = "wynntils-4.2.17-neoforge+MC-1.21.11.jar";
+            "hash" = "sha512-78EiAZ2tFEr5tcQurnb+DCOiP9RKb+yoHglDyRL1aqMDCA6JzOesD8GydvxXBEwjAdeBYTpewBofvpMENehjOA==";
+        };
     in {
         "bqlWhLUY" = _bqlWhLUY;
         "EhyKGtAM" = _EhyKGtAM;
@@ -20270,6 +20280,8 @@ let
         "Py0LtOlc" = _Py0LtOlc;
         "3skcY4zc" = _3skcY4zc;
         "qdw8rKjJ" = _qdw8rKjJ;
+        "YPpgpMI5" = _YPpgpMI5;
+        "QrZNnkYG" = _QrZNnkYG;
         "forge-1.12.2" = _42Q2H4Qu;
         "forge-1.20.2" = _ww1waI8Y;
         "forge-1.19.3" = _3cYPEina;
@@ -20278,13 +20290,13 @@ let
         "fabric-1.21" = _NcbIp00x;
         "fabric-1.21.1" = _NcbIp00x;
         "fabric-1.21.4" = _XJt5jHxs;
-        "fabric-1.21.11" = _hEKOk1N7;
+        "fabric-1.21.11" = _YPpgpMI5;
         "fabric-1.19.3" = _wTEVmC4n;
         "fabric-1.19.4" = _qdw8rKjJ;
         "neoforge-1.21" = _QJMkNR1I;
         "neoforge-1.21.1" = _QJMkNR1I;
         "neoforge-1.21.4" = _nLGKpG7x;
-        "neoforge-1.21.11" = _9InxDQyo;
+        "neoforge-1.21.11" = _QrZNnkYG;
         "quilt-1.19.3" = _ZFh2eC0A;
         "quilt-1.19.4" = _Py0LtOlc;
         "pkg-v1.12.0" = _bqlWhLUY;
@@ -21569,7 +21581,8 @@ let
         "pkg-v0.0.3-alpha.400" = _3AOrAYLv;
         "pkg-v0.0.3-alpha.401" = _DZTWMzRi;
         "pkg-v0.0.3-alpha.402" = _qdw8rKjJ;
-        "default" = _9InxDQyo;
+        "pkg-v4.2.17" = _QrZNnkYG;
+        "default" = _QrZNnkYG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynntils";

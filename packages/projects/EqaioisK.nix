@@ -71,6 +71,11 @@ let
             "file" = "StackMob-5.10.8.jar";
             "hash" = "sha512-k1/QZzhQyJ5fYbFDEol2qUHe5TSI5nPpiZ1dYlYZjgYl21B4ak99ll9IYVsFyIagrIATprmD8GohlZccA5IgDw==";
         };
+        _AwpJJPq0 = {
+            "id" = "AwpJJPq0";
+            "file" = "StackMob-5.10.9.jar";
+            "hash" = "sha512-zXawh8VDH1vdsrav6FqIOlP8ZNf/SFYhnhoS1gCXPwMJr7E5Etpzhw3Ij1oHuX714s8Wj7KJHw04h4tYOpZKSQ==";
+        };
     in {
         "UM2s9jG3" = _UM2s9jG3;
         "L3BBDpf1" = _L3BBDpf1;
@@ -86,6 +91,7 @@ let
         "zexRGBz8" = _zexRGBz8;
         "FdFCebrU" = _FdFCebrU;
         "Ai7JCJsO" = _Ai7JCJsO;
+        "AwpJJPq0" = _AwpJJPq0;
         "bukkit-1.16.5" = _xdLt1WZl;
         "bukkit-1.17" = _xdLt1WZl;
         "bukkit-1.17.1" = _xdLt1WZl;
@@ -145,10 +151,11 @@ let
         "paper-1.21.9" = _FdFCebrU;
         "paper-1.21.10" = _FdFCebrU;
         "paper-1.21.11" = _Ai7JCJsO;
-        "paper-26.1.2" = _Ai7JCJsO;
-        "paper-26.1" = _Ai7JCJsO;
-        "paper-26.1.1" = _Ai7JCJsO;
-        "paper-26.2" = _Ai7JCJsO;
+        "paper-26.1.2" = _AwpJJPq0;
+        "paper-26.1" = _AwpJJPq0;
+        "paper-26.1.1" = _AwpJJPq0;
+        "paper-26.2" = _AwpJJPq0;
+        "paper-26.3" = _AwpJJPq0;
         "spigot-1.16.5" = _UM2s9jG3;
         "spigot-1.17" = _UM2s9jG3;
         "spigot-1.17.1" = _UM2s9jG3;
@@ -237,7 +244,8 @@ let
         "pkg-5.10.6" = _cKnGyI2j;
         "pkg-5.10.7" = _FdFCebrU;
         "pkg-5.10.8" = _Ai7JCJsO;
-        "default" = _Ai7JCJsO;
+        "pkg-5.10.9" = _AwpJJPq0;
+        "default" = _AwpJJPq0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackmob";

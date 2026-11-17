@@ -991,6 +991,16 @@ let
             "file" = "MyTotemDoll-2.7.0+26.3+neoforge.jar";
             "hash" = "sha512-FO2kuHkF3npV/lMOyzYF82YypFgvhPnekOKf6VZBLBlBYNBskPWBU/FlKWq1sbNGMCW1x6UTwGOEILnF28NftA==";
         };
+        _i13EztLH = {
+            "id" = "i13EztLH";
+            "file" = "MyTotemDoll-2.7.1+26.3+fabric.jar";
+            "hash" = "sha512-T7HC5Eg1cKlITtM415cwTnIyr6ss+w1BP4LfttRUMRkbPnLb6ycEzEeGvrV4sG4EdFAZSgd2RaF6Molw0QXGTw==";
+        };
+        _4uzkbJW0 = {
+            "id" = "4uzkbJW0";
+            "file" = "MyTotemDoll-2.7.1+26.3+neoforge.jar";
+            "hash" = "sha512-y43qoupVdMxIEu9ffLh2DtHR+lY/m4xpX9XpTufckiKItQ0krmaWKnYzloGrGRakFAbGU01hk84iK07kKfdvRw==";
+        };
     in {
         "gE8XKKPZ" = _gE8XKKPZ;
         "3GIMn6tG" = _3GIMn6tG;
@@ -1190,6 +1200,8 @@ let
         "9l62H4R9" = _9l62H4R9;
         "aMCe9nes" = _aMCe9nes;
         "Bre9zYl6" = _Bre9zYl6;
+        "i13EztLH" = _i13EztLH;
+        "4uzkbJW0" = _4uzkbJW0;
         "fabric-1.20" = _8YLtIaya;
         "fabric-1.20.1" = _Go5Qi7Oy;
         "fabric-1.20.2" = _ICIHSnrC;
@@ -1213,14 +1225,14 @@ let
         "fabric-26.1.1" = _pkh96Lin;
         "fabric-26.1.2" = _pkh96Lin;
         "fabric-26.2" = _nufSSvwt;
-        "fabric-26.3" = _aMCe9nes;
+        "fabric-26.3" = _i13EztLH;
         "forge-1.20.1" = _EldynNUm;
         "neoforge-1.21.1" = _7OBALdOg;
         "neoforge-26.1" = _p0q025Cu;
         "neoforge-26.1.1" = _p0q025Cu;
         "neoforge-26.1.2" = _p0q025Cu;
         "neoforge-26.2" = _9l62H4R9;
-        "neoforge-26.3" = _Bre9zYl6;
+        "neoforge-26.3" = _4uzkbJW0;
         "pkg-1.0.0+1.20" = _gE8XKKPZ;
         "pkg-1.0.0+1.20.1" = _3GIMn6tG;
         "pkg-1.0.0+1.20.2" = _GMl3jU0K;
@@ -1419,7 +1431,9 @@ let
         "pkg-2.6.0+26.2+neoforge" = _9l62H4R9;
         "pkg-2.7.0+26.3+fabric" = _aMCe9nes;
         "pkg-2.7.0+26.3+neoforge" = _Bre9zYl6;
-        "default" = _Bre9zYl6;
+        "pkg-2.7.1+26.3+fabric" = _i13EztLH;
+        "pkg-2.7.1+26.3+neoforge" = _4uzkbJW0;
+        "default" = _4uzkbJW0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my_totem_doll";

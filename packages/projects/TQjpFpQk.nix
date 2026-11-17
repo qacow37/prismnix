@@ -61,6 +61,11 @@ let
             "file" = "create_encapsulated-1.1.3+1.21.1.jar";
             "hash" = "sha512-CO1Ktl0Zz8TX8PXYnfOUubypYnbannYhmZDAkNdw9bTca5hKrC9pZ5cstxlvnr6bmilbODzvOmqOIgibS47S2g==";
         };
+        _17MQ4BLV = {
+            "id" = "17MQ4BLV";
+            "file" = "create_encapsulated-1.2.0+1.21.1.jar";
+            "hash" = "sha512-Am+UfLTh3riAG7hHj7zyjmm/OH4skJlC4XUVDzmQUehj7lQZneIGR2Imed2L8lITUQ/aZZwuVMlXJxptnUgjew==";
+        };
     in {
         "90OTtSqf" = _90OTtSqf;
         "H8pU7dxn" = _H8pU7dxn;
@@ -74,7 +79,8 @@ let
         "Xn3bYjoV" = _Xn3bYjoV;
         "UGU7yvdZ" = _UGU7yvdZ;
         "5CP6xKDs" = _5CP6xKDs;
-        "neoforge-1.21.1" = _5CP6xKDs;
+        "17MQ4BLV" = _17MQ4BLV;
+        "neoforge-1.21.1" = _17MQ4BLV;
         "pkg-1.0.0" = _90OTtSqf;
         "pkg-1.0.1" = _H8pU7dxn;
         "pkg-1.0.2" = _Dfq8s6eu;
@@ -87,7 +93,8 @@ let
         "pkg-1.1.1" = _Xn3bYjoV;
         "pkg-1.1.2" = _UGU7yvdZ;
         "pkg-1.1.3" = _5CP6xKDs;
-        "default" = _5CP6xKDs;
+        "pkg-1.2.0" = _17MQ4BLV;
+        "default" = _17MQ4BLV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-encapsulated";

@@ -561,6 +561,46 @@ let
             "file" = "immersive_melodies-neoforge-0.8.3+26.2.jar";
             "hash" = "sha512-1UlXU640HL5yk46U14wOfYyyqdcZ8uJm9fcKwttSMiJ0/BJKMHdqpiqW5TKuU6clIJoaMxDt45tQVVhv0lCoGw==";
         };
+        _jFguaUem = {
+            "id" = "jFguaUem";
+            "file" = "immersive_melodies-fabric-0.8.4+26.1.2.jar";
+            "hash" = "sha512-HDoH6wwVF3RjDqYwGLYlNZ0H1J/tr69zEwFX5LMWZv+Jd7PO3zuk1dxme4eUQCEVo88zM8HfLNmPvI8LivVp5Q==";
+        };
+        _27jXrBDn = {
+            "id" = "27jXrBDn";
+            "file" = "immersive_melodies-neoforge-0.8.4+26.1.2.jar";
+            "hash" = "sha512-2WnG8cg9L9CIjXbUOq5aaLUtF366qMmMlvmerbr00rrxpsefCKSffz/dirIcKUEq1o7EhtJ8lQpZMGEgnsjAZQ==";
+        };
+        _7h65RqZN = {
+            "id" = "7h65RqZN";
+            "file" = "immersive_melodies-fabric-0.8.4+26.2.jar";
+            "hash" = "sha512-tjRGxhWPqVrD98f7Vq6K3ACXB4/0+ZIyjsX9iGHCCBw/JZiHXS2hSif+G1WL+IZ0kUn0j8+d0mOdHDeiY3DAUA==";
+        };
+        _fiYWTg0A = {
+            "id" = "fiYWTg0A";
+            "file" = "immersive_melodies-neoforge-0.8.4+26.2.jar";
+            "hash" = "sha512-zRKGAYATmM4F70eypGzsz1E98qhW1qNW+q/p0zAIq9msac+K17MQRlt6TdhrAwwtQn5P0GkpucQqP8dHG4mdZw==";
+        };
+        _qLkdWqkb = {
+            "id" = "qLkdWqkb";
+            "file" = "immersive_melodies-fabric-0.8.4+1.21.1.jar";
+            "hash" = "sha512-0t4tnmHQZ8/g8K5ihdPldAuRKBJk7riCMksqZgQCblEkZM1uIiigKh3ajx+HKT7XlBzcScMhrSIsk5ime6CNug==";
+        };
+        _BLjuDDDL = {
+            "id" = "BLjuDDDL";
+            "file" = "immersive_melodies-neoforge-0.8.4+1.21.1.jar";
+            "hash" = "sha512-Zd66cTNOapiLlNGbrHw3g/tIYq7/pY1+xS4OCU95lA+YZCN0Zw+I5ajFaTIpZ7aA339ojYuThj1ECwQ4E/QJgA==";
+        };
+        _PZ9YrO9K = {
+            "id" = "PZ9YrO9K";
+            "file" = "immersive_melodies-0.8.4+1.20.1-fabric.jar";
+            "hash" = "sha512-NyWiUPKdNJqeLDa+56FdeL8UgAf+KCKa5ovyn4OmpNrfbSfNdMl86qHGci20tTCQG5wQIktsKBEjyWGexZ5Njg==";
+        };
+        _qxcFamzn = {
+            "id" = "qxcFamzn";
+            "file" = "immersive_melodies-0.8.4+1.20.1-forge.jar";
+            "hash" = "sha512-ht0iowgrO/6gTPRuJiPcfY20jNbvw6IR3Zz5bDDTmXgtuX62fHZJHiXckOZzsFNqIQxyv1ItcOUvLfVZNtktlw==";
+        };
     in {
         "nZC7PRuA" = _nZC7PRuA;
         "IDjEolhF" = _IDjEolhF;
@@ -674,20 +714,28 @@ let
         "N7zMXfkl" = _N7zMXfkl;
         "pJ9fwEKy" = _pJ9fwEKy;
         "IOig2Eiu" = _IOig2Eiu;
-        "fabric-1.20.1" = _Qc1s3iSI;
+        "jFguaUem" = _jFguaUem;
+        "27jXrBDn" = _27jXrBDn;
+        "7h65RqZN" = _7h65RqZN;
+        "fiYWTg0A" = _fiYWTg0A;
+        "qLkdWqkb" = _qLkdWqkb;
+        "BLjuDDDL" = _BLjuDDDL;
+        "PZ9YrO9K" = _PZ9YrO9K;
+        "qxcFamzn" = _qxcFamzn;
+        "fabric-1.20.1" = _PZ9YrO9K;
         "fabric-1.19.4" = _2rT4Wzec;
         "fabric-1.18.2" = _4vg3ftle;
         "fabric-1.19.2" = _bi5WeHMA;
-        "fabric-1.21.1" = _VAjY26is;
-        "fabric-26.1.2" = _xwmIsuCu;
-        "fabric-26.2" = _pJ9fwEKy;
-        "forge-1.20.1" = _sXSjUutt;
+        "fabric-1.21.1" = _qLkdWqkb;
+        "fabric-26.1.2" = _jFguaUem;
+        "fabric-26.2" = _7h65RqZN;
+        "forge-1.20.1" = _qxcFamzn;
         "forge-1.19.4" = _ty29eT32;
         "forge-1.18.2" = _CZVt3wTn;
         "forge-1.19.2" = _YtTU5kjw;
-        "neoforge-1.21.1" = _5Lld5obZ;
-        "neoforge-26.1.2" = _N7zMXfkl;
-        "neoforge-26.2" = _IOig2Eiu;
+        "neoforge-1.21.1" = _BLjuDDDL;
+        "neoforge-26.1.2" = _27jXrBDn;
+        "neoforge-26.2" = _fiYWTg0A;
         "pkg-0.0.1+1.20.1" = _IDjEolhF;
         "pkg-0.0.1+1.19.4" = _raWTehDy;
         "pkg-0.0.1+1.18.2" = _7AiOwEZY;
@@ -744,7 +792,11 @@ let
         "pkg-0.8.2+1.21.1" = _5Lld5obZ;
         "pkg-0.8.3+26.1.2" = _N7zMXfkl;
         "pkg-0.8.3+26.2" = _IOig2Eiu;
-        "default" = _IOig2Eiu;
+        "pkg-0.8.4+26.1.2" = _27jXrBDn;
+        "pkg-0.8.4+26.2" = _fiYWTg0A;
+        "pkg-0.8.4+1.21.1" = _BLjuDDDL;
+        "pkg-0.8.4+1.20.1" = _qxcFamzn;
+        "default" = _qxcFamzn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-melodies";

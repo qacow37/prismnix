@@ -31,6 +31,16 @@ let
             "file" = "blockdurability-2.0.0-neoforge.jar";
             "hash" = "sha512-a1fLwKrfAJOgL6pgJECHxXSNFQIcSn86Mvaqvs/FddlZOI9q2JxjTzLz0cU8m5xMNUhqXK7trf/jWtvnvUoT5g==";
         };
+        _7dVu7KJX = {
+            "id" = "7dVu7KJX";
+            "file" = "blockdurability-1.20.1-2.1.0-forge.jar";
+            "hash" = "sha512-Z9PV0LSWIp1aHXyHJQ9JJTP3K6TNX5w8g4/uovrlLIFogWlB67Ch8aFbVumvGnTmgj4b2cU651NrQT0FG7z1+Q==";
+        };
+        _hjrGAsNj = {
+            "id" = "hjrGAsNj";
+            "file" = "blockdurability-2.1.0-neoforge.jar";
+            "hash" = "sha512-XM25C9V1Oc0uzzUaz8re/aEBLhV0+9EUur0dGeT1Iq3yrz8mJJpt2VXBESWmtOw61PshPAxVdo+6Euyc0i5wbg==";
+        };
     in {
         "ELidPbk2" = _ELidPbk2;
         "rdTMJbrU" = _rdTMJbrU;
@@ -38,15 +48,19 @@ let
         "SLXHqHNJ" = _SLXHqHNJ;
         "j9X0HHaP" = _j9X0HHaP;
         "aEORvLsB" = _aEORvLsB;
-        "neoforge-1.21.1" = _aEORvLsB;
-        "forge-1.20.1" = _j9X0HHaP;
+        "7dVu7KJX" = _7dVu7KJX;
+        "hjrGAsNj" = _hjrGAsNj;
+        "neoforge-1.21.1" = _hjrGAsNj;
+        "forge-1.20.1" = _7dVu7KJX;
         "pkg-1.0.0-NeoForge-1.21.1" = _ELidPbk2;
         "pkg-1.0.0-Forge-1.20.1" = _rdTMJbrU;
         "pkg-1.1.0-forge-1.20.1" = _WQBLQkB6;
         "pkg-1.1.0-neoforge-1.21.1" = _SLXHqHNJ;
         "pkg-2.0.0-forge-1.20.1" = _j9X0HHaP;
         "pkg-2.0.0-neoforge-1.21.1" = _aEORvLsB;
-        "default" = _aEORvLsB;
+        "pkg-2.1.0-forge-1.20.1" = _7dVu7KJX;
+        "pkg-2.1.0-neoforge-1.21.1" = _hjrGAsNj;
+        "default" = _hjrGAsNj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-durability";

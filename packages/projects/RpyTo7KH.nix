@@ -51,6 +51,16 @@ let
             "file" = "grim_and_bleak-2.7-forge-1.20.1.jar";
             "hash" = "sha512-kpKASqBha2SfcWeEva5iUKxl8XA7e+4YnWW8vGT+TCxFMGIY+AuM2itH+HKLCHFANsNlafjQ8e1iyd4yiaIEBw==";
         };
+        _v37qkg2u = {
+            "id" = "v37qkg2u";
+            "file" = "grim_and_bleak-2.7.1-forge-1.20.1.jar";
+            "hash" = "sha512-kKaWA5piih1GSKNZa5wpb8e0lLvQegxeqY8SIJRT0w6dIxugrLSuOxonovPPD4DueY5ZgI8cdV5Psm1x6nauHA==";
+        };
+        _Ie2IJvBw = {
+            "id" = "Ie2IJvBw";
+            "file" = "grim_and_bleak-2.7.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-PVgcK/HbjsTD3aNx48+qSd03likPSkWzyqjo0wyV6Sos7bq6Ggyc9jlANOexFKqm1G+gXaUu07zM/JTOQgCFVA==";
+        };
     in {
         "fxOxYvst" = _fxOxYvst;
         "jDJ0Iinr" = _jDJ0Iinr;
@@ -62,17 +72,20 @@ let
         "QrCJPbJw" = _QrCJPbJw;
         "x4IDBdv8" = _x4IDBdv8;
         "6seqERm3" = _6seqERm3;
-        "forge-1.20.1" = _6seqERm3;
+        "v37qkg2u" = _v37qkg2u;
+        "Ie2IJvBw" = _Ie2IJvBw;
+        "forge-1.20.1" = _v37qkg2u;
         "forge-1.20" = _QrCJPbJw;
         "forge-1.20.2" = _jDJ0Iinr;
-        "forge-1.21.1" = _x4IDBdv8;
+        "forge-1.21.1" = _Ie2IJvBw;
         "forge-1.21" = _cgm76IID;
         "neoforge-1.20" = _QrCJPbJw;
-        "neoforge-1.20.1" = _6seqERm3;
+        "neoforge-1.20.1" = _v37qkg2u;
         "neoforge-1.20.2" = _jDJ0Iinr;
-        "neoforge-1.21.1" = _x4IDBdv8;
+        "neoforge-1.21.1" = _Ie2IJvBw;
         "neoforge-1.21" = _cgm76IID;
         "fabric-1.20.1" = _6seqERm3;
+        "fabric-1.21.1" = _Ie2IJvBw;
         "pkg-1.0.0" = _fxOxYvst;
         "pkg-1.0.6" = _jDJ0Iinr;
         "pkg-1.1.4" = _bicQqEP1;
@@ -80,7 +93,8 @@ let
         "pkg-2.5" = _cgm76IID;
         "pkg-2.5.2" = _x4IDBdv8;
         "pkg-1.0.7" = _6seqERm3;
-        "default" = _6seqERm3;
+        "pkg-2.7.1" = _Ie2IJvBw;
+        "default" = _Ie2IJvBw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grim-and-bleak";

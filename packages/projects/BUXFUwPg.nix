@@ -171,6 +171,66 @@ let
             "file" = "fiw-anticheat-neoforge-1.21.11-2.2.0.jar";
             "hash" = "sha512-RmUCS0UZRghsRKhPzUkJxoZXG6PbZXRAC8wt/6m7t1mZ1IT4atl+6RcQ0KIzgXRUe2y6fCWGhPIoFYgiCu7SXA==";
         };
+        _nlIHOUCO = {
+            "id" = "nlIHOUCO";
+            "file" = "fiw-anticheat-fabric-26.3-2.2.1.jar";
+            "hash" = "sha512-nv5qld03lztTkqtqoZwDjUzN6rJ4s6ARjtgOugcGqFPeZQMD+J9/NvRTm+uiH9HYtFmOpqzjjw47gDr81y8XKw==";
+        };
+        _dnk8jwSw = {
+            "id" = "dnk8jwSw";
+            "file" = "fiw-anticheat-neoforge-26.3-2.2.1.jar";
+            "hash" = "sha512-Edugp6ZHRENUWWahWA4imeVBpHHL/3R35Q7cBd8L8R+xbJ/h1UWjPRBRnd5Au/GOvKKb0vPS4J9Yc32y/gLoIw==";
+        };
+        _dKxOTyQW = {
+            "id" = "dKxOTyQW";
+            "file" = "fiw-anticheat-fabric-26.1.2-2.2.1.jar";
+            "hash" = "sha512-YmbMOYmXkATXSoUk8R0/forV6MqvDJF/hFK3l8XcgNC1ZR6XoabdDFabhmTb5lR2bWTZ2zRsZQklsCleGfJAcQ==";
+        };
+        _hQEY3KyI = {
+            "id" = "hQEY3KyI";
+            "file" = "fiw-anticheat-neoforge-26.1.2-2.2.1.jar";
+            "hash" = "sha512-fTx0KotNZ5UwKOlpd1WSOgRgn3Tc+rLqp9bXLG9j2/N1BRF9s2hE4fGBUtzKVC4LlOPEwy/4C0etW3bWiV5sHQ==";
+        };
+        _VF8pmvq5 = {
+            "id" = "VF8pmvq5";
+            "file" = "fiw-anticheat-fabric-1.21.11-2.2.1.jar";
+            "hash" = "sha512-ai2tq5dqiH6oDMxO/lGE+gh3IwLqrqXu99OR6Ti/xxStDGN+yTVlpGauPkAlbHSDJXkeD9ww1hiQ/RQbFSgdoA==";
+        };
+        _t5Pj25Zw = {
+            "id" = "t5Pj25Zw";
+            "file" = "fiw-anticheat-neoforge-1.21.11-2.2.1.jar";
+            "hash" = "sha512-D0Nm5pfBceDlJqKyQqGxgIzgEaUb575P0R8V7o140sNFpqMG4qJDi0Xf1wyaAf9R8e1JvAVsMiU+niCHUh0hgw==";
+        };
+        _kLGWPMno = {
+            "id" = "kLGWPMno";
+            "file" = "fiw-anticheat-fabric-1.21.8-2.2.1.jar";
+            "hash" = "sha512-3MgPcgck1FD/ZMCIPspP6H8e8E52R+MSxNefXHfbDYF5U/dHWaHdZsEyjSOBVb2iuVe4G7eIpRqcngOBS2r5SQ==";
+        };
+        _8f4THysy = {
+            "id" = "8f4THysy";
+            "file" = "fiw-anticheat-neoforge-1.21.8-2.2.1.jar";
+            "hash" = "sha512-3ilo9tx1yYsS7M71QY4/Uowe6epPGiyhd5D4yN7ThkWdVgNaT6DNOX7Pi3f4qcWtT5YQweUweWt7iBIQgiY55g==";
+        };
+        _KSHoyP6Q = {
+            "id" = "KSHoyP6Q";
+            "file" = "fiw-anticheat-fabric-1.21.1-2.2.1.jar";
+            "hash" = "sha512-x//pjVi9+n6Cm/1+t6WcLTr5gnD0OiwlGXSOLuoXHXzclCPdt2+oy4+zh2FKCBNowr/lTqGzBFHaADpr7F1N3A==";
+        };
+        _NDWHeC6F = {
+            "id" = "NDWHeC6F";
+            "file" = "fiw-anticheat-neoforge-1.21.1-2.2.1.jar";
+            "hash" = "sha512-q3IiGe4Brhxdfpbgxe9VbtmMKhWXvDibZXYJBp36uhyi7cKG0BdmJwSY/7TuwgTronH5AiNS61G/tOn8nUlz4w==";
+        };
+        _XDm94ciN = {
+            "id" = "XDm94ciN";
+            "file" = "fiw-anticheat-fabric-1.20.1-2.2.1.jar";
+            "hash" = "sha512-NnuaW4F78vM/IzRdUdRJij9oc10TJL6OT8Vtae6nb3bxEn/gDU41WAfK6/7MDAT5oO5WCUM+eelYk+QXzgWuew==";
+        };
+        _E52P2uyA = {
+            "id" = "E52P2uyA";
+            "file" = "fiw-anticheat-forge-1.20.1-2.2.1.jar";
+            "hash" = "sha512-EddrIVmEeAYXD+Tccf3oruvAAnF8OoE5ASR1Rk05pInT1Ub16OihGfpsXpX1EPPGb9NRrTaTUC516wF2ytQ+dw==";
+        };
     in {
         "wDrvkXt5" = _wDrvkXt5;
         "fRsyyHrl" = _fRsyyHrl;
@@ -206,19 +266,38 @@ let
         "QY15GGGL" = _QY15GGGL;
         "ROmYM2tD" = _ROmYM2tD;
         "uhuzUEF9" = _uhuzUEF9;
-        "fabric-1.20.1" = _Nxl73bNY;
-        "fabric-1.21.1" = _7Q5xc5ys;
-        "fabric-1.21.11" = _ROmYM2tD;
-        "forge-1.20.1" = _bDbPt8jy;
-        "neoforge-1.21.1" = _QY15GGGL;
-        "neoforge-1.21.11" = _uhuzUEF9;
+        "nlIHOUCO" = _nlIHOUCO;
+        "dnk8jwSw" = _dnk8jwSw;
+        "dKxOTyQW" = _dKxOTyQW;
+        "hQEY3KyI" = _hQEY3KyI;
+        "VF8pmvq5" = _VF8pmvq5;
+        "t5Pj25Zw" = _t5Pj25Zw;
+        "kLGWPMno" = _kLGWPMno;
+        "8f4THysy" = _8f4THysy;
+        "KSHoyP6Q" = _KSHoyP6Q;
+        "NDWHeC6F" = _NDWHeC6F;
+        "XDm94ciN" = _XDm94ciN;
+        "E52P2uyA" = _E52P2uyA;
+        "fabric-1.20.1" = _XDm94ciN;
+        "fabric-1.21.1" = _KSHoyP6Q;
+        "fabric-1.21.11" = _VF8pmvq5;
+        "fabric-26.3" = _nlIHOUCO;
+        "fabric-26.1.2" = _dKxOTyQW;
+        "fabric-1.21.8" = _kLGWPMno;
+        "forge-1.20.1" = _E52P2uyA;
+        "neoforge-1.21.1" = _NDWHeC6F;
+        "neoforge-1.21.11" = _t5Pj25Zw;
+        "neoforge-26.3" = _dnk8jwSw;
+        "neoforge-26.1.2" = _hQEY3KyI;
+        "neoforge-1.21.8" = _8f4THysy;
         "pkg-2.0.0" = _fziEY83n;
         "pkg-2.0.1" = _fVdgKtWW;
         "pkg-2.0.2" = _FCgPI0Nb;
         "pkg-2.1.0" = _VbcBkyY3;
         "pkg-2.1.1" = _869ftyRJ;
         "pkg-2.2.0" = _uhuzUEF9;
-        "default" = _uhuzUEF9;
+        "pkg-2.2.1" = _E52P2uyA;
+        "default" = _E52P2uyA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fiw-anticheat";

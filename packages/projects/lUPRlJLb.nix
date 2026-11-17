@@ -96,6 +96,11 @@ let
             "file" = "Big-Beautiful-Buttons-2.0.10-MC26.3-NeoForge.jar";
             "hash" = "sha512-NlcqOf9trqWiY7H5gRfF62lhQaZatPDhmuRFMalYFwOsiplkBE9WjUrZ0aV8xrGRiqkBrlTAwwq4sRrY7Mcj5w==";
         };
+        _mS5Zu4wO = {
+            "id" = "mS5Zu4wO";
+            "file" = "Big-Beautiful-Buttons-2.0.11-MC26.3-NeoForge.jar";
+            "hash" = "sha512-bI6OGM4j1SuPXnVamq/IevT7lB8tBu+S7jOtlsuOSPQWe/gCPJy8h+pA8u3t/xgRvbIk2afj1crbNJtSQ8RiDw==";
+        };
     in {
         "utvW0x5N" = _utvW0x5N;
         "1jHGRC9H" = _1jHGRC9H;
@@ -116,6 +121,7 @@ let
         "gnItVlu9" = _gnItVlu9;
         "HdWFAmse" = _HdWFAmse;
         "av0FUYg3" = _av0FUYg3;
+        "mS5Zu4wO" = _mS5Zu4wO;
         "forge-1.12.2" = _utvW0x5N;
         "forge-1.18.2" = _bYo7MSTt;
         "forge-1.19.2" = _H8Lcqexq;
@@ -134,7 +140,7 @@ let
         "neoforge-1.20.2" = _SMIfQiY5;
         "neoforge-1.20.4" = _EdJn1J5V;
         "neoforge-1.21.1" = _HdWFAmse;
-        "neoforge-26.3" = _av0FUYg3;
+        "neoforge-26.3" = _mS5Zu4wO;
         "pkg-1.1.3" = _utvW0x5N;
         "pkg-1.7.3.20" = _1jHGRC9H;
         "pkg-1.2.0" = _bYo7MSTt;
@@ -146,7 +152,8 @@ let
         "pkg-1.8.0" = _gnItVlu9;
         "pkg-1.9.0" = _HdWFAmse;
         "pkg-2.0.10" = _av0FUYg3;
-        "default" = _av0FUYg3;
+        "pkg-2.0.11" = _mS5Zu4wO;
+        "default" = _mS5Zu4wO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "big-beautiful-buttons";

@@ -476,6 +476,11 @@ let
             "file" = "ForceCraft-26.1.2-7.0.6.jar";
             "hash" = "sha512-ZNQ16htWJQL8ZzPLCRfbp/uwpeyvi6/93XCI/Hkxvw+atBZk0JQGxdzVQQAhENLCCmm+hDiT3GTfq6Yau3q4FA==";
         };
+        _8wzBcdKf = {
+            "id" = "8wzBcdKf";
+            "file" = "ForceCraft-26.3-9.0.0.jar";
+            "hash" = "sha512-qPRR2kaCQcVS/5YRQoAchEpX2LBibpZ8jKGlLYCc3IjtTFQAbLwmylBxmR/B5CkwgFkS6NpaQkCCRz9S55ZImw==";
+        };
     in {
         "lCPw4gpe" = _lCPw4gpe;
         "OgKrbWBJ" = _OgKrbWBJ;
@@ -572,6 +577,7 @@ let
         "SohTrd8o" = _SohTrd8o;
         "eGiumzN1" = _eGiumzN1;
         "oSuIryoT" = _oSuIryoT;
+        "8wzBcdKf" = _8wzBcdKf;
         "forge-1.16.5" = _7pfQIMtA;
         "forge-1.18.1" = _OgKrbWBJ;
         "forge-1.18.2" = _jmZvatVf;
@@ -585,6 +591,7 @@ let
         "neoforge-1.20.4" = _LTvXlApO;
         "neoforge-1.21.1" = _roWfi5Si;
         "neoforge-26.1.2" = _oSuIryoT;
+        "neoforge-26.3" = _8wzBcdKf;
         "pkg-1.0.8.4" = _lCPw4gpe;
         "pkg-2.1.2" = _OgKrbWBJ;
         "pkg-2.2.0" = _behK4YhZ;
@@ -677,7 +684,8 @@ let
         "pkg-7.0.4" = _SohTrd8o;
         "pkg-7.0.5" = _eGiumzN1;
         "pkg-7.0.6" = _oSuIryoT;
-        "default" = _oSuIryoT;
+        "pkg-9.0.0" = _8wzBcdKf;
+        "default" = _8wzBcdKf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forcecraft";
