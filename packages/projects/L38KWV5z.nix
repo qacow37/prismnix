@@ -396,6 +396,31 @@ let
             "file" = "bizzys_tooltopia-2.3-forge-1.14.4.jar";
             "hash" = "sha512-hFiRIbBFSKmApSTJhThbMcnJbf/0i8uisQlpVcRxStHluLEE7j9nb4viqo1edoRLB3zAMH3bIAg/CIkdSu8DEQ==";
         };
+        _6hPO3bDC = {
+            "id" = "6hPO3bDC";
+            "file" = "bizzys_tooltopia-2.4-neoforge-26.1.2.jar";
+            "hash" = "sha512-Gk5k8zx3yAi6qVu4aAxXoWKy83snZ6LQnHW1cLjZ/UkWihUSjbDFh1RhPSZJ2DQgU1AvufwTM10uPaoDJAeSPw==";
+        };
+        _wc7vdr5v = {
+            "id" = "wc7vdr5v";
+            "file" = "bizzys_tooltopia-2.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-bWQI3w5ElWdf6yA5XCvDsvK+uATAFJTeU7bYm4iHOMDEWekporHCv6ztKai77YAzXi5GqPbaoHA9UcfmSoSh+g==";
+        };
+        _hEK961vp = {
+            "id" = "hEK961vp";
+            "file" = "bizzys_tooltopia-2.4-forge-1.20.1.jar";
+            "hash" = "sha512-LGsfzoKN3970fTEYstFxai481VH1wb/f+fZEvsi3J3dqJB5nhZ3irN4mTxJ1LExe2G/o7p3UkAeJTGAWRlrj2g==";
+        };
+        _EZ8tS38S = {
+            "id" = "EZ8tS38S";
+            "file" = "bizzys_tooltopia-2.4-forge-1.19.4.jar";
+            "hash" = "sha512-SZD4RGyLzqdSh/sBbJY5EalpuACxmaR/qJBcGhu1VyMlHKttj0aK+HsgvzgGLsUBRYsxPWxh2LcpgmIfFSpbrw==";
+        };
+        _UIQ4KYnO = {
+            "id" = "UIQ4KYnO";
+            "file" = "bizzys_tooltopia-2.4-forge-1.19.2.jar";
+            "hash" = "sha512-u05JVzOjxSevcC3odiYXKtxdjVIl8PdKMyYZ2gTxB+frLlFLvrPhEvy7VeTtfAHDhaxnpR1nalfIob7AHgDlFg==";
+        };
     in {
         "BG3mvZ7D" = _BG3mvZ7D;
         "vRfU8LuA" = _vRfU8LuA;
@@ -476,15 +501,21 @@ let
         "ouPfX3HK" = _ouPfX3HK;
         "StGijnUG" = _StGijnUG;
         "qyd8fNdc" = _qyd8fNdc;
+        "6hPO3bDC" = _6hPO3bDC;
+        "wc7vdr5v" = _wc7vdr5v;
+        "hEK961vp" = _hEK961vp;
+        "EZ8tS38S" = _EZ8tS38S;
+        "UIQ4KYnO" = _UIQ4KYnO;
         "fabric-1.20.1" = _rWhizcZ2;
-        "forge-1.20.1" = _BnRAzHtz;
-        "forge-1.19.4" = _lCo5vlNZ;
-        "forge-1.19.2" = _ouPfX3HK;
+        "forge-1.20.1" = _hEK961vp;
+        "forge-1.19.4" = _EZ8tS38S;
+        "forge-1.19.2" = _UIQ4KYnO;
         "forge-1.14.4" = _qyd8fNdc;
         "forge-1.16.5" = _StGijnUG;
         "neoforge-1.20.4" = _PGiHhXrH;
         "neoforge-1.20.6" = _sQtjfarR;
-        "neoforge-1.21.1" = _3SSKuZMk;
+        "neoforge-1.21.1" = _wc7vdr5v;
+        "neoforge-26.1.2" = _6hPO3bDC;
         "pkg-1.3" = _BG3mvZ7D;
         "pkg-1.3.5" = _vRfU8LuA;
         "pkg-1.4" = _vJDc9mFd;
@@ -504,7 +535,8 @@ let
         "pkg-2.1.5" = _pgrMHlmI;
         "pkg-2.2" = _dB7ygxkE;
         "pkg-2.3" = _qyd8fNdc;
-        "default" = _qyd8fNdc;
+        "pkg-2.4" = _UIQ4KYnO;
+        "default" = _UIQ4KYnO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bizzys_tooltopia";

@@ -146,6 +146,86 @@ let
             "file" = "resizeablesubtitles-neoforge-26.1.2-1.1.0.jar";
             "hash" = "sha512-CO9tTR+RqIFza808Ksy+OGh7Y96cMQZOpCaTVqiGPmRo1N1E94PfYDE+lYZGsyvQONeExkKopaACNzxQo/CSTA==";
         };
+        _5blTCmo2 = {
+            "id" = "5blTCmo2";
+            "file" = "resizeablesubtitles-fabric-1.19.2-1.1.1.jar";
+            "hash" = "sha512-uOaIn7J/Z6fsSDmwb3HUSAGJaetEFzMC3lqk5iBQPL0j34HN/X0xRE2byeu0UeH7w2uvx6SjmmgnNPda9xK2XQ==";
+        };
+        _1RN4kVSj = {
+            "id" = "1RN4kVSj";
+            "file" = "resizeablesubtitles-fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-c9bTo1gEs6MLxRuMBhFog4/50W3hOJdFHWcIFUTw9uXigvAsyR/3pZjq2angp6Q/eEzLwWkhw8gpXE/nd3mOlA==";
+        };
+        _7H5uN6Xt = {
+            "id" = "7H5uN6Xt";
+            "file" = "resizeablesubtitles-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-2chGN7uasVEZDtxR0iVkjFXvg69PsltlHJNESscIy7N24ZKPTcw/K5rxGYA0I2tTvf3A758x/2gbSfUi/Byleg==";
+        };
+        _qoXSP4Y6 = {
+            "id" = "qoXSP4Y6";
+            "file" = "resizeablesubtitles-fabric-1.21.11-1.1.1.jar";
+            "hash" = "sha512-7PH2VRRE4ZS25UjvEks1KeXhlAePlnBVmR7QxVnwgRJXag/hdd8QCP9rByr2EiKJuBERRd0cwcnzUvTntlx7NQ==";
+        };
+        _znQvAYm3 = {
+            "id" = "znQvAYm3";
+            "file" = "resizeablesubtitles-fabric-26.1.2-1.1.1.jar";
+            "hash" = "sha512-f3iozbHKzCSMLJg/abqohnpyBgEntsvDucBgzkf3TE1itV9zEUtu6ySDGm1MoiUD5d/sPVRYejCu+3qMBB9plw==";
+        };
+        _g2Fhz2nO = {
+            "id" = "g2Fhz2nO";
+            "file" = "resizeablesubtitles-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-Fk21Z6BJysLsLMfVtvoenhTaOEiJUu/Bi6qapwRk4yetO3TtbPU1v7Jgfzw/bS6ci0AXdJkgEMGGmA3Ud8jIJw==";
+        };
+        _TjvJ9LHD = {
+            "id" = "TjvJ9LHD";
+            "file" = "resizeablesubtitles-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-FTVEsSXX/0mP7WxSLQsI/bbkfpzdiDz3/Whhpo1rikgbZuaJhPjZv0cKbHgn4/qtt1aHrslkGJ54TtPFCUxAVg==";
+        };
+        _g0iHn1pp = {
+            "id" = "g0iHn1pp";
+            "file" = "resizeablesubtitles-forge-1.19.2-1.1.1.jar";
+            "hash" = "sha512-M06O33zVSExJMgVYQ0RwVjFI5uHAHJLJJBkewHswsvwZRbcZ5IZCzeHcUvjFEvpJSzq7+JTLbHYUvpN9mZdakw==";
+        };
+        _c5KzNlmi = {
+            "id" = "c5KzNlmi";
+            "file" = "resizeablesubtitles-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-2roznUIXE6Zf3c17A9V2exH8ZDR7o9ME0bEezxR7H7rVJgV9s9xjbPLXoLFHFBU8q+1UmbXZR19OXBN+HpuMiA==";
+        };
+        _Bis9GWwb = {
+            "id" = "Bis9GWwb";
+            "file" = "resizeablesubtitles-forge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-dY4YglCf7eLakwBigzSUkIcX/bjrOE5mBeN/ZYk9qXEYoQtAhV0DylwC32wkc7zqzkEe/7Zl05MnxSNQL73g2g==";
+        };
+        _twtWUiLG = {
+            "id" = "twtWUiLG";
+            "file" = "resizeablesubtitles-forge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-99jbXTWF9SDhX93F8NQ45Ev+0J9axYcYvqBeuPZuWQIvx9Vs7dvs6CshgzF8aBFBuGcPZnqJoIOnwoinE9SjZQ==";
+        };
+        _YzQkuucp = {
+            "id" = "YzQkuucp";
+            "file" = "resizeablesubtitles-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-vbSKl1BlXAB7zTf8SV+Xx3FeS4XCNNtJVVz5PbE3hL7iccWwECzXGZpdV4jv6EVrBhGg4PyYpw15L6Rt/Hnc1Q==";
+        };
+        _YnL64uk3 = {
+            "id" = "YnL64uk3";
+            "file" = "resizeablesubtitles-neoforge-1.21.11-1.1.1.jar";
+            "hash" = "sha512-5f0MpNJ91bQEcX7FfeMs5X1yNHQS2N5afC69kCkxB8Y5Ke9TgkywW1dCaoE7nto8jL/kyhmduBomRDlwoGmYkg==";
+        };
+        _8tdKGnEH = {
+            "id" = "8tdKGnEH";
+            "file" = "resizeablesubtitles-neoforge-26.1.2-1.1.1.jar";
+            "hash" = "sha512-Ga+agEWS1D0fHeW3LbR3a6fOj2IYZ+8zcGzi9Yd7/OrTheKdZ2SIka1mKZCZ8KYUHV7Df6oXuwN2dbGKKrkKsQ==";
+        };
+        _MQ03Ynl6 = {
+            "id" = "MQ03Ynl6";
+            "file" = "resizeablesubtitles-neoforge-26.2-1.1.1.jar";
+            "hash" = "sha512-IhSOzznnxRMTd40RRb9oIbEQ/JPTMdcpfbxL8LaRuF/805XyJd6UYvu1/a9EP2CwFturgBnEgIxDzDd1aIHZkw==";
+        };
+        _ksjzVeMZ = {
+            "id" = "ksjzVeMZ";
+            "file" = "resizeablesubtitles-neoforge-26.3-1.1.1.jar";
+            "hash" = "sha512-kgb3nq5ycaJuIW6zt7KMoD6gCmNdtnNzhpRRHVUq5Myx9ewlGuBRDFcELTANvYF2mxAVYKLlfEFU7PCRmUELbQ==";
+        };
     in {
         "HlKlrHZp" = _HlKlrHZp;
         "tO9zqCcb" = _tO9zqCcb;
@@ -176,27 +256,44 @@ let
         "MDR9sAGo" = _MDR9sAGo;
         "NpEvlPcA" = _NpEvlPcA;
         "nSpDUMhW" = _nSpDUMhW;
-        "fabric-1.20.1" = _hjX5aOLZ;
-        "fabric-1.21.1" = _KzqCg4ri;
-        "fabric-1.21.11" = _vJhzM3aP;
-        "fabric-26.1.2" = _NpEvlPcA;
+        "5blTCmo2" = _5blTCmo2;
+        "1RN4kVSj" = _1RN4kVSj;
+        "7H5uN6Xt" = _7H5uN6Xt;
+        "qoXSP4Y6" = _qoXSP4Y6;
+        "znQvAYm3" = _znQvAYm3;
+        "g2Fhz2nO" = _g2Fhz2nO;
+        "TjvJ9LHD" = _TjvJ9LHD;
+        "g0iHn1pp" = _g0iHn1pp;
+        "c5KzNlmi" = _c5KzNlmi;
+        "Bis9GWwb" = _Bis9GWwb;
+        "twtWUiLG" = _twtWUiLG;
+        "YzQkuucp" = _YzQkuucp;
+        "YnL64uk3" = _YnL64uk3;
+        "8tdKGnEH" = _8tdKGnEH;
+        "MQ03Ynl6" = _MQ03Ynl6;
+        "ksjzVeMZ" = _ksjzVeMZ;
+        "fabric-1.20.1" = _1RN4kVSj;
+        "fabric-1.21.1" = _7H5uN6Xt;
+        "fabric-1.21.11" = _qoXSP4Y6;
+        "fabric-26.1.2" = _znQvAYm3;
         "fabric-26.1" = _wyXXoa71;
-        "fabric-26.2" = _Xte7Qv0l;
-        "fabric-1.19.2" = _vUsAzYZ7;
-        "fabric-26.3" = _y8l80MCL;
-        "forge-1.19.2" = _XMjKZuNY;
-        "forge-1.20.1" = _UONwcjp4;
-        "forge-1.21.1" = _njSlLsWh;
-        "forge-1.21.11" = _5nzutIvO;
-        "neoforge-1.21.1" = _c1GEXppo;
-        "neoforge-1.21.11" = _PUMyzlRh;
-        "neoforge-26.1.2" = _nSpDUMhW;
+        "fabric-26.2" = _g2Fhz2nO;
+        "fabric-1.19.2" = _5blTCmo2;
+        "fabric-26.3" = _TjvJ9LHD;
+        "forge-1.19.2" = _g0iHn1pp;
+        "forge-1.20.1" = _c5KzNlmi;
+        "forge-1.21.1" = _Bis9GWwb;
+        "forge-1.21.11" = _twtWUiLG;
+        "neoforge-1.21.1" = _YzQkuucp;
+        "neoforge-1.21.11" = _YnL64uk3;
+        "neoforge-26.1.2" = _8tdKGnEH;
         "neoforge-26.1" = _Hb03MHV7;
-        "neoforge-26.2" = _VCTS4xWJ;
-        "neoforge-26.3" = _MDR9sAGo;
+        "neoforge-26.2" = _MQ03Ynl6;
+        "neoforge-26.3" = _ksjzVeMZ;
         "pkg-1.0.0" = _zKAsAA45;
         "pkg-1.1.0" = _nSpDUMhW;
-        "default" = _nSpDUMhW;
+        "pkg-1.1.1" = _ksjzVeMZ;
+        "default" = _ksjzVeMZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resizeablesubtitles";

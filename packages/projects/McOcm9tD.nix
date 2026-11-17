@@ -101,6 +101,11 @@ let
             "file" = "CosmereHemalurgy-1.20.1-47.3.0-0.7.113.jar";
             "hash" = "sha512-/ztZsslFPJb+KDCu+yyZbe5HuAlrOyaEl1oqQScl40gTPdb/irsf1ErmCfB0W81zj40o0Z7qr2YOSHJYSVQQGA==";
         };
+        _pRsZF3Xu = {
+            "id" = "pRsZF3Xu";
+            "file" = "CosmereHemalurgy-1.21.1-21.1.219-0.8.114.jar";
+            "hash" = "sha512-GxHGZwH4bYdA6F/zawbQoWU7QSwwuNMANdts2dCXkht3XvzoimyTLMG0gdcaH3bRtwEHSMzXs8uv4XyrSEDE5A==";
+        };
     in {
         "gOnAeXwX" = _gOnAeXwX;
         "qa0SGDaL" = _qa0SGDaL;
@@ -122,9 +127,11 @@ let
         "TKEktpo3" = _TKEktpo3;
         "ppM9n2XA" = _ppM9n2XA;
         "z4kAwuXI" = _z4kAwuXI;
+        "pRsZF3Xu" = _pRsZF3Xu;
         "forge-1.19.2" = _4oDRCCrG;
         "forge-1.20.1" = _z4kAwuXI;
         "neoforge-1.20.1" = _z4kAwuXI;
+        "neoforge-1.21.1" = _pRsZF3Xu;
         "pkg-0.5.88" = _gOnAeXwX;
         "pkg-0.5.89" = _qa0SGDaL;
         "pkg-0.5.90" = _Pk1cjBzH;
@@ -145,7 +152,8 @@ let
         "pkg-0.7.111" = _TKEktpo3;
         "pkg-0.7.112" = _ppM9n2XA;
         "pkg-0.7.113" = _z4kAwuXI;
-        "default" = _z4kAwuXI;
+        "pkg-0.8.114" = _pRsZF3Xu;
+        "default" = _pRsZF3Xu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hemalurgy";

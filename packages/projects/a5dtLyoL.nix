@@ -181,6 +181,16 @@ let
             "file" = "sporesrp-1.10.1-neo.jar";
             "hash" = "sha512-4zKXD5SeUKXPz22z9kD7/g8gAlUDdAjEu7Wdj6PzBPrKP6tI2jn+TnXu7HuKKimDXUW+1ShxoYGsMg5tduwnrQ==";
         };
+        _zBIeKlUw = {
+            "id" = "zBIeKlUw";
+            "file" = "sporesrp-1.10.2.jar";
+            "hash" = "sha512-+gL/70M94A50rHAI7mj6cvyteCQR3P3ZJ1okBelDQZiwXiYT4CRZO3vJY1bcFp3Fd7DXXSVuASgrcU5HD1WGIw==";
+        };
+        _djg0Dr4f = {
+            "id" = "djg0Dr4f";
+            "file" = "sporesrp-1.10.2-neo.jar";
+            "hash" = "sha512-DHI/FjW1yADDvvRsWsvnol9V1e0cDBHA4+KB+6Du4VmcxAsEK2fsM5kIYN7cv0qGDA+xDf3VGkWSUn/uS0vwQg==";
+        };
     in {
         "UCZQWk0m" = _UCZQWk0m;
         "LwjPMuMJ" = _LwjPMuMJ;
@@ -218,8 +228,10 @@ let
         "huhZtsMh" = _huhZtsMh;
         "HYpGOzG5" = _HYpGOzG5;
         "OlcvM1TQ" = _OlcvM1TQ;
-        "forge-1.20.1" = _HYpGOzG5;
-        "neoforge-1.21.1" = _OlcvM1TQ;
+        "zBIeKlUw" = _zBIeKlUw;
+        "djg0Dr4f" = _djg0Dr4f;
+        "forge-1.20.1" = _zBIeKlUw;
+        "neoforge-1.21.1" = _djg0Dr4f;
         "pkg-1.0.0" = _UCZQWk0m;
         "pkg-1.1.0" = _LwjPMuMJ;
         "pkg-1.2.0" = _8XAv2qn0;
@@ -246,7 +258,8 @@ let
         "pkg-1.9.0" = _jHBwOSmK;
         "pkg-1.10.0" = _huhZtsMh;
         "pkg-1.10.1" = _OlcvM1TQ;
-        "default" = _OlcvM1TQ;
+        "pkg-1.10.2" = _djg0Dr4f;
+        "default" = _djg0Dr4f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sporesrp!";

@@ -351,6 +351,36 @@ let
             "file" = "ohmymeteors-1.6.0+1.21.jar";
             "hash" = "sha512-wGJ/wAKfySjd3L5eSe9mJAe2GGXvPs6jTJAgQaA7l7jNtp2bbLqUd0H9qE1L6X6+5s/CMunjpsvcoT1Sl6U8YQ==";
         };
+        _FepoHPcl = {
+            "id" = "FepoHPcl";
+            "file" = "ohmymeteors-1.6.0+1.21+neo.jar";
+            "hash" = "sha512-yglfONAiG4b3qMzWSf9eeFdk/Cr3UQ50u2Zh+AfZPWFks/MxvpV9nsPv7M8ScydQ23MbUW4I0FLSzVO9betW5g==";
+        };
+        _IhB3OhX3 = {
+            "id" = "IhB3OhX3";
+            "file" = "ohmymeteors-1.6.0+1.20.1.jar";
+            "hash" = "sha512-lSH0zQg1bNpChbRkzey/9Q2OfSuXsuKd5DXn+x+W+lwf8pgjUFvPC6R1Idwz29Y2Th7oGHYvdW7Rx76XqLMNgQ==";
+        };
+        _nP4hgCy9 = {
+            "id" = "nP4hgCy9";
+            "file" = "ohmymeteors-1.6.0+1.20.1+forge.jar";
+            "hash" = "sha512-BhvDaICmZmEgnPmjqOcgZDcf/v8/++jQVe0d0qOg6FtrgasjUUvDDvaLlsK3QhxylhaU431grV0xfMREyXvxGw==";
+        };
+        _6vnnPEn5 = {
+            "id" = "6vnnPEn5";
+            "file" = "ohmymeteors-1.6.0+26.1.2+neo.jar";
+            "hash" = "sha512-lWQukf9GP0/GnYIApBZgzyXcnGql8bbn8jSODd5IwsdVseKwouhtQMsyH5NTgbdgXd6hIXbJYTEfaU7DeNgPlg==";
+        };
+        _fiFbpy4K = {
+            "id" = "fiFbpy4K";
+            "file" = "ohmymeteors-1.6.0+26.3.jar";
+            "hash" = "sha512-7tN/8l9eTpLmWuZjEhJELIHYN93Mi1sGyItltvHoh5dhKgo9b1unVYNHEJURawngWq3PKKLV/z+grUS+AyHjag==";
+        };
+        _JDW592Di = {
+            "id" = "JDW592Di";
+            "file" = "ohmymeteors-1.6.0+26.3+neo.jar";
+            "hash" = "sha512-1zssUDqorTEw1547dT0TaQ/sxYc/3+HLF2Avhr0mW2N6tJS61NdHHsgCA4x3GjNhEs+4N0zANQNsmcLiVIZkCA==";
+        };
     in {
         "btx5bgpQ" = _btx5bgpQ;
         "pVzyF60M" = _pVzyF60M;
@@ -422,11 +452,17 @@ let
         "MiwAugtN" = _MiwAugtN;
         "VBdAJ9F2" = _VBdAJ9F2;
         "gaTUqPy5" = _gaTUqPy5;
+        "FepoHPcl" = _FepoHPcl;
+        "IhB3OhX3" = _IhB3OhX3;
+        "nP4hgCy9" = _nP4hgCy9;
+        "6vnnPEn5" = _6vnnPEn5;
+        "fiFbpy4K" = _fiFbpy4K;
+        "JDW592Di" = _JDW592Di;
         "fabric-1.21" = _gaTUqPy5;
         "fabric-1.21.1" = _gaTUqPy5;
         "fabric-1.19.2" = _MiwAugtN;
-        "fabric-1.20" = _zyVXaxqT;
-        "fabric-1.20.1" = _zyVXaxqT;
+        "fabric-1.20" = _IhB3OhX3;
+        "fabric-1.20.1" = _IhB3OhX3;
         "fabric-1.21.2" = _L2N8nEdn;
         "fabric-1.21.3" = _L2N8nEdn;
         "fabric-1.21.4" = _Jy0ggORn;
@@ -441,11 +477,12 @@ let
         "fabric-26.1.1" = _KDLlSZ1p;
         "fabric-26.1.2" = _KDLlSZ1p;
         "fabric-26.2" = _VBdAJ9F2;
+        "fabric-26.3" = _fiFbpy4K;
         "quilt-1.21" = _gaTUqPy5;
         "quilt-1.21.1" = _gaTUqPy5;
         "quilt-1.19.2" = _MiwAugtN;
-        "quilt-1.20" = _zyVXaxqT;
-        "quilt-1.20.1" = _zyVXaxqT;
+        "quilt-1.20" = _IhB3OhX3;
+        "quilt-1.20.1" = _IhB3OhX3;
         "quilt-1.21.2" = _L2N8nEdn;
         "quilt-1.21.3" = _L2N8nEdn;
         "quilt-1.21.4" = _Jy0ggORn;
@@ -460,10 +497,13 @@ let
         "quilt-26.1.1" = _KDLlSZ1p;
         "quilt-26.1.2" = _KDLlSZ1p;
         "quilt-26.2" = _VBdAJ9F2;
-        "neoforge-1.21" = _IfVjwaNS;
-        "neoforge-1.21.1" = _gu1EhULT;
-        "forge-1.20" = _fKnn97Hy;
-        "forge-1.20.1" = _fKnn97Hy;
+        "quilt-26.3" = _fiFbpy4K;
+        "neoforge-1.21" = _FepoHPcl;
+        "neoforge-1.21.1" = _FepoHPcl;
+        "neoforge-26.1.2" = _6vnnPEn5;
+        "neoforge-26.3" = _JDW592Di;
+        "forge-1.20" = _nP4hgCy9;
+        "forge-1.20.1" = _nP4hgCy9;
         "pkg-0.1.0+1.21.1" = _btx5bgpQ;
         "pkg-0.1.0+1.19.2" = _pVzyF60M;
         "pkg-0.1.0+1.21.1+neo" = _PhD8gDfi;
@@ -534,7 +574,13 @@ let
         "pkg-1.5.1+1.19.2" = _MiwAugtN;
         "pkg-1.5.1+26.2" = _VBdAJ9F2;
         "pkg-1.6.0+1.21" = _gaTUqPy5;
-        "default" = _gaTUqPy5;
+        "pkg-1.6.0+1.21+neo" = _FepoHPcl;
+        "pkg-1.6.0+1.20.1" = _IhB3OhX3;
+        "pkg-1.6.0+1.20.1+forge" = _nP4hgCy9;
+        "pkg-1.6.0+26.1.2+neo" = _6vnnPEn5;
+        "pkg-1.6.0+26.3" = _fiFbpy4K;
+        "pkg-1.6.0+26.3+neo" = _JDW592Di;
+        "default" = _JDW592Di;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ohmymeteors";

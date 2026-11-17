@@ -406,6 +406,16 @@ let
             "file" = "DistantFriends-neoforge-26.3-0.17.0.jar";
             "hash" = "sha512-tuvfw88o3+S04hP08nhPmTPwr7cHrstJtqazmoWOebdTJii74SugOcfML2DwIl4UTyl6POZRLI2bZ0ywjrcBfA==";
         };
+        _INkXzmf3 = {
+            "id" = "INkXzmf3";
+            "file" = "DistantFriends-fabric-26.3-0.17.1.jar";
+            "hash" = "sha512-w3bv7tbGd1OH9+D34v/kKwVCiItHCBNhwhRTDcUx636GLRFVMBJfeEQEuREhnRUh/nwX7Vn4pH1tWV31LsLcVA==";
+        };
+        _Gg59WX1M = {
+            "id" = "Gg59WX1M";
+            "file" = "DistantFriends-neoforge-26.3-0.17.1.jar";
+            "hash" = "sha512-zDzA4X4slG07RcsiNV1yFq0azpK1GACs8WnORWK/Xaj02JV1g9nyG7Zt9S9Gm2bb7iTjtv6BjQKO5REpTtuqtw==";
+        };
     in {
         "VTbKZPTm" = _VTbKZPTm;
         "P3amfbE2" = _P3amfbE2;
@@ -488,6 +498,8 @@ let
         "ehEm0n6V" = _ehEm0n6V;
         "MTTscBkJ" = _MTTscBkJ;
         "GoHkEA73" = _GoHkEA73;
+        "INkXzmf3" = _INkXzmf3;
+        "Gg59WX1M" = _Gg59WX1M;
         "forge-1.18.2" = _QORmFhzO;
         "forge-1.19.2" = _FlCbM5pD;
         "forge-1.19.3" = _cj3SQE9A;
@@ -506,7 +518,7 @@ let
         "neoforge-1.21.11" = _PcXYVRRn;
         "neoforge-26.1.2" = _3wBUIdRs;
         "neoforge-26.2" = _ehEm0n6V;
-        "neoforge-26.3" = _GoHkEA73;
+        "neoforge-26.3" = _Gg59WX1M;
         "fabric-1.20.1" = _ObKMM98j;
         "fabric-1.20.2" = _p1uPdfmM;
         "fabric-1.20.4" = _dULFVuUY;
@@ -520,7 +532,7 @@ let
         "fabric-1.21.11" = _oQfiBDig;
         "fabric-26.1.2" = _AKoXaIn1;
         "fabric-26.2" = _FEFExVDb;
-        "fabric-26.3" = _MTTscBkJ;
+        "fabric-26.3" = _INkXzmf3;
         "pkg-0.1.0" = _VTbKZPTm;
         "pkg-0.1.1" = _P3amfbE2;
         "pkg-0.1.2" = _WhUR0g09;
@@ -573,7 +585,8 @@ let
         "pkg-0.15.3" = _3wBUIdRs;
         "pkg-0.16.2" = _ehEm0n6V;
         "pkg-0.17.0" = _GoHkEA73;
-        "default" = _GoHkEA73;
+        "pkg-0.17.1" = _Gg59WX1M;
+        "default" = _Gg59WX1M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "distant-friends";

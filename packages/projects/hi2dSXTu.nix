@@ -246,6 +246,11 @@ let
             "file" = "elevatorid-fabric-26.3-1.16.6.jar";
             "hash" = "sha512-VZLw3EB3tyz4Jz2CN6ZV0AqoPHJX5SYmEHw4w7BEMGnGR3mowCoRjCM8aWvN8VACxymJmLAoCvZjzgyjI+2Y3w==";
         };
+        _4cGzS2MW = {
+            "id" = "4cGzS2MW";
+            "file" = "elevatorid-1.20.1-1.9.2-forge.jar";
+            "hash" = "sha512-JmOEIkN8fpb/O6zv7Ziuu6iJcTIPHADJa4iSH2VYttf92kFiV+paJxrSGQBfJfQOMZqmu4ud6ykMITaAUTpUYQ==";
+        };
     in {
         "vRsfyfzW" = _vRsfyfzW;
         "ysLPxfPt" = _ysLPxfPt;
@@ -296,7 +301,8 @@ let
         "ZjzXGLrr" = _ZjzXGLrr;
         "rNKheZ5b" = _rNKheZ5b;
         "8Z3hxGYQ" = _8Z3hxGYQ;
-        "forge-1.20.1" = _nWSTr4AA;
+        "4cGzS2MW" = _4cGzS2MW;
+        "forge-1.20.1" = _4cGzS2MW;
         "forge-1.16.3" = _ysLPxfPt;
         "forge-1.16.4" = _ysLPxfPt;
         "forge-1.16.5" = _ysLPxfPt;
@@ -392,7 +398,8 @@ let
         "pkg-neoforge-26.3-1.16.5" = _ZjzXGLrr;
         "pkg-neoforge-26.3-1.16.6" = _rNKheZ5b;
         "pkg-fabric-26.3-1.16.6" = _8Z3hxGYQ;
-        "default" = _8Z3hxGYQ;
+        "pkg-1.20.1-1.9.2-forge" = _4cGzS2MW;
+        "default" = _4cGzS2MW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elevatormod";

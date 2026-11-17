@@ -96,6 +96,11 @@ let
             "file" = "authback-1.9.0.jar";
             "hash" = "sha512-CNqOLy5fjfOP7819NEIeyNBSvYU0g9vGrEW1uUB0F/OSzfL5YqcW2v2AyIH5rtD5VV4QoK8OC4DiPxmnVaBvJA==";
         };
+        _NUu47jai = {
+            "id" = "NUu47jai";
+            "file" = "authback-1.9.1.jar";
+            "hash" = "sha512-vHMf77QEGqfuEifm7JIGg6maz1hKaA9h65OC/ms7E+8B0gmBi/WxsrfmzzkgKP6+rQ9vX0SLoz/rIbR9wywnmQ==";
+        };
     in {
         "YKnLvjBN" = _YKnLvjBN;
         "NgNO0s2p" = _NgNO0s2p;
@@ -116,6 +121,7 @@ let
         "pxAamLw5" = _pxAamLw5;
         "yn2B55aD" = _yn2B55aD;
         "gL9JQnh8" = _gL9JQnh8;
+        "NUu47jai" = _NUu47jai;
         "fabric-1.21.10" = _j6Me5s8j;
         "fabric-1.21.11" = _yqN8Nkho;
         "fabric-26.1" = _bh8ugqb4;
@@ -124,7 +130,7 @@ let
         "fabric-26.2-pre-3" = _soSS9cRQ;
         "fabric-26.2" = _pxAamLw5;
         "fabric-26.3-snapshot-9" = _yn2B55aD;
-        "fabric-26.3" = _gL9JQnh8;
+        "fabric-26.3" = _NUu47jai;
         "pkg-0.3.1" = _YKnLvjBN;
         "pkg-0.3.2" = _NgNO0s2p;
         "pkg-0.4.0" = _j6Me5s8j;
@@ -144,7 +150,8 @@ let
         "pkg-1.8.0" = _pxAamLw5;
         "pkg-1.9.0-SNAPSHOT" = _yn2B55aD;
         "pkg-1.9.0" = _gL9JQnh8;
-        "default" = _gL9JQnh8;
+        "pkg-1.9.1" = _NUu47jai;
+        "default" = _NUu47jai;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "authback";

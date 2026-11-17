@@ -171,6 +171,11 @@ let
             "file" = "respawnobelisks-2.6-e.jar";
             "hash" = "sha512-EEiTBYnvT8nwSukKLtRqV8n0X6yoa+zyArWvsLEilN2V7my3Oey6urxfFSb7iHRB52KnJaNkzrlt8hj7iXohsQ==";
         };
+        _GRgtNQSn = {
+            "id" = "GRgtNQSn";
+            "file" = "respawnobelisks-2.6-f.jar";
+            "hash" = "sha512-XLAjncqWfgk0OqUOod+kZvXl6SZkxE6ThGBneFCgBMJX9nq4QuUjVAEniMIQ/xeuJGzviVy3mwpD87mMVdaMqQ==";
+        };
     in {
         "1dUdCahO" = _1dUdCahO;
         "JliDur8W" = _JliDur8W;
@@ -206,10 +211,11 @@ let
         "UdFm99Yo" = _UdFm99Yo;
         "A1BuUXlp" = _A1BuUXlp;
         "9vNEEwAI" = _9vNEEwAI;
+        "GRgtNQSn" = _GRgtNQSn;
         "forge-1.19.2" = _V5Pff7jD;
         "forge-1.20.1" = _9vNEEwAI;
         "fabric-1.19.2" = _2nhynBYr;
-        "fabric-1.20.1" = _A1BuUXlp;
+        "fabric-1.20.1" = _GRgtNQSn;
         "pkg-2.0-beta" = _JliDur8W;
         "pkg-2.1-a" = _F0l0n4eY;
         "pkg-2.1-b" = _V5Pff7jD;
@@ -226,7 +232,8 @@ let
         "pkg-2.6-b" = _WCpNo1TY;
         "pkg-2.6-d" = _UdFm99Yo;
         "pkg-2.6-e" = _9vNEEwAI;
-        "default" = _9vNEEwAI;
+        "pkg-2.6-f" = _GRgtNQSn;
+        "default" = _GRgtNQSn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respawn-obelisks";

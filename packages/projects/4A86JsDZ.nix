@@ -846,6 +846,36 @@ let
             "file" = "tslatentitystatus-forge-1.20.1-1.6.6.jar";
             "hash" = "sha512-M6oMya8pi8xZ1Lp/j8mT2ig6puGJ3gMTpRTEwGu41oElHxE6+hARC+l8D/otfmqLlxniAouEi68Z/86jJlQlgQ==";
         };
+        _fgIXfRSy = {
+            "id" = "fgIXfRSy";
+            "file" = "tslatentitystatus-fabric-26.3-1.10.3.jar";
+            "hash" = "sha512-Fsrel1wc3Sg+K+05ijS69udbcaW1UHQNhd4T6m1U692/VW+xj4mVVyclpnmiBGLrm0rooz9T+n0/owTMrDFLoA==";
+        };
+        _adgq8jik = {
+            "id" = "adgq8jik";
+            "file" = "tslatentitystatus-forge-26.3-1.10.3.jar";
+            "hash" = "sha512-M48f69n+HZjKcplxmugHooJEd0VYNTDgxfe23KLVgameVxqCRO26vJL417ohTKf9UprcaY75gOH0C4Qcux1ESQ==";
+        };
+        _aLtDAsxP = {
+            "id" = "aLtDAsxP";
+            "file" = "tslatentitystatus-neoforge-26.3-1.10.3.jar";
+            "hash" = "sha512-2eCHNLNnvFYqub9qrlFzZMuzTkOaOUO7G/PkvId70b+6GIp+0h7dxfYq1nmuMqsSW+s+R3lO/Yslul55x69ZDQ==";
+        };
+        _ZR3iTCiB = {
+            "id" = "ZR3iTCiB";
+            "file" = "tslatentitystatus-fabric-1.21.1-1.8.6.jar";
+            "hash" = "sha512-+sYXOeN7VOFkxGppAEAMbxHu0lpmXFocFvbCHjk7I2cX4c8Z1ehOXuQ9r4NDjyezWBCJ9bXl2QpRcZhNyHYN7g==";
+        };
+        _9TjVQyU5 = {
+            "id" = "9TjVQyU5";
+            "file" = "tslatentitystatus-forge-1.21.1-1.8.6.jar";
+            "hash" = "sha512-P6UnIdFanFJ2Br1qIz6ch/e/Y5SgerkPpyHK1bBAuBN0MXRtR7tl2Ye8bGUczo1JoiHliz3d9oMJpws4iJ3JuA==";
+        };
+        _4KVTjmbL = {
+            "id" = "4KVTjmbL";
+            "file" = "tslatentitystatus-neoforge-1.21.1-1.8.6.jar";
+            "hash" = "sha512-7su1F4cRC2Qe8DfDgd5R/FAMIX2VGMTsEMlqyNYC3NS6sFjcc/NzlIw4uxoL1w2TlbnF04AJJIquia4BhAxxLQ==";
+        };
     in {
         "Jm2fgcZk" = _Jm2fgcZk;
         "rj9sxGyY" = _rj9sxGyY;
@@ -1016,6 +1046,12 @@ let
         "cO6haY1k" = _cO6haY1k;
         "tbxujeBu" = _tbxujeBu;
         "1jkoU0eg" = _1jkoU0eg;
+        "fgIXfRSy" = _fgIXfRSy;
+        "adgq8jik" = _adgq8jik;
+        "aLtDAsxP" = _aLtDAsxP;
+        "ZR3iTCiB" = _ZR3iTCiB;
+        "9TjVQyU5" = _9TjVQyU5;
+        "4KVTjmbL" = _4KVTjmbL;
         "fabric-1.20.2" = _QEGGAKWu;
         "fabric-1.20" = _OtPl3wmK;
         "fabric-1.20.1" = _tbxujeBu;
@@ -1032,7 +1068,7 @@ let
         "fabric-1.20.5" = _nOnRxVoh;
         "fabric-1.20.6" = _XiJI4Opp;
         "fabric-1.21" = _zGVbOJOH;
-        "fabric-1.21.1" = _2ySSZhCY;
+        "fabric-1.21.1" = _ZR3iTCiB;
         "fabric-1.21.3" = _TPx3jh9Z;
         "fabric-1.21.4" = _hW4VdgrU;
         "fabric-1.21.5" = _7h3eiz3c;
@@ -1043,7 +1079,7 @@ let
         "fabric-1.21.11" = _kz65Ajvt;
         "fabric-26.1.2" = _S2MJbgYF;
         "fabric-26.2" = _GvwWVSNB;
-        "fabric-26.3" = _U8MaJzq1;
+        "fabric-26.3" = _fgIXfRSy;
         "forge-1.20.2" = _qfXn3cs5;
         "forge-1.20" = _jkcsvVkc;
         "forge-1.20.1" = _1jkoU0eg;
@@ -1059,7 +1095,7 @@ let
         "forge-1.20.4" = _HpsNPAtk;
         "forge-1.20.6" = _vMXCLfIt;
         "forge-1.21" = _3hZJ4A3z;
-        "forge-1.21.1" = _3hN7spve;
+        "forge-1.21.1" = _9TjVQyU5;
         "forge-1.21.3" = _wwYO5FVl;
         "forge-1.21.4" = _W3ZqYVPA;
         "forge-1.21.5" = _4FrP8wy2;
@@ -1069,7 +1105,7 @@ let
         "forge-1.21.10" = _4wSosCRN;
         "forge-26.1.2" = _DFYjdPzi;
         "forge-26.2" = _GOk6VCh4;
-        "forge-26.3" = _oizhjy2m;
+        "forge-26.3" = _adgq8jik;
         "forge-1.21.11" = _tbuEgohv;
         "neoforge-1.20" = _jkcsvVkc;
         "neoforge-1.20.1" = _5uaCBPEo;
@@ -1078,7 +1114,7 @@ let
         "neoforge-1.20.5" = _VMpi9VVR;
         "neoforge-1.20.6" = _EGBqQfLD;
         "neoforge-1.21" = _DVd3Cyun;
-        "neoforge-1.21.1" = _ZnpWkEsM;
+        "neoforge-1.21.1" = _4KVTjmbL;
         "neoforge-1.21.3" = _coujuvEU;
         "neoforge-1.21.4" = _RUgdYVe5;
         "neoforge-1.21.5" = _c75Aa0ru;
@@ -1089,7 +1125,7 @@ let
         "neoforge-1.21.11" = _cO6haY1k;
         "neoforge-26.1.2" = _BcCnrwuq;
         "neoforge-26.2" = _BVpL0Z9U;
-        "neoforge-26.3" = _cL9XzhJT;
+        "neoforge-26.3" = _aLtDAsxP;
         "pkg-1.3" = _jkcsvVkc;
         "pkg-1.2.1" = _fCrz6ZUn;
         "pkg-1.1.1" = _cD3Vzdkb;
@@ -1127,7 +1163,9 @@ let
         "pkg-1.6.5" = _yTZHkMOv;
         "pkg-1.9.4" = _cO6haY1k;
         "pkg-1.6.6" = _1jkoU0eg;
-        "default" = _1jkoU0eg;
+        "pkg-1.10.3" = _aLtDAsxP;
+        "pkg-1.8.6" = _4KVTjmbL;
+        "default" = _4KVTjmbL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tslatentitystatus";

@@ -171,6 +171,26 @@ let
             "file" = "oxidized_fps_counter-1.0.6-26.4-snapshot.8.jar";
             "hash" = "sha512-W9wL3cTIHKsOB9uGy/yQrK7lLZ2fIXyo92LouROvGv9pvm6VDjlVXZUdnV9YDZjca9OD+j4UvZxQ1le0Fg0hxw==";
         };
+        _mL1n9Er5 = {
+            "id" = "mL1n9Er5";
+            "file" = "oxidized_fps_counter-1.0.7-26.4-snapshot.8.jar";
+            "hash" = "sha512-WtboyrMJs0EBZFOLsjQOUykteAhM5qubiK62JZh8btttYwF5Oo1U00zDkla+8Jcm1QEPsSFwJCLvgQ1aNlB9cw==";
+        };
+        _gMp6toDx = {
+            "id" = "gMp6toDx";
+            "file" = "Oxidized-fps-counter-1.0.7+26.3.jar";
+            "hash" = "sha512-nfws7KUg+RcnADPY6q3KHVqsfhhxZgrh0gFy+/vq/ErF4D7eez5txNJRrgq7CdOlVAClpwuQJelJeHnhJkXTHw==";
+        };
+        _j4PVLQtE = {
+            "id" = "j4PVLQtE";
+            "file" = "oxidized_fps-1.0.7+1.21.1.jar";
+            "hash" = "sha512-n2DZZM2eE9fneehj4wAesmK/06QIw+o/07FShVjE4Ok/ZWFzSsAjctBFxa+IX8Nh6+2kynkMhPDk6nwvPh81cg==";
+        };
+        _MHbCTTWG = {
+            "id" = "MHbCTTWG";
+            "file" = "oxidized_fps-1.0.7+1.21.1.jar";
+            "hash" = "sha512-n2DZZM2eE9fneehj4wAesmK/06QIw+o/07FShVjE4Ok/ZWFzSsAjctBFxa+IX8Nh6+2kynkMhPDk6nwvPh81cg==";
+        };
     in {
         "aJFMzs3C" = _aJFMzs3C;
         "XhDriw62" = _XhDriw62;
@@ -206,11 +226,15 @@ let
         "ED0A7gab" = _ED0A7gab;
         "oRw7KxQG" = _oRw7KxQG;
         "YjPVpB4A" = _YjPVpB4A;
-        "fabric-1.21.1" = _aJFMzs3C;
+        "mL1n9Er5" = _mL1n9Er5;
+        "gMp6toDx" = _gMp6toDx;
+        "j4PVLQtE" = _j4PVLQtE;
+        "MHbCTTWG" = _MHbCTTWG;
+        "fabric-1.21.1" = _MHbCTTWG;
         "fabric-1.21.4" = _XhDriw62;
         "fabric-1.21.8" = _rJWtRsrS;
         "fabric-1.21.11" = _geefZca5;
-        "fabric-26.3" = _ED0A7gab;
+        "fabric-26.3" = _gMp6toDx;
         "fabric-26.2" = _RMB9u5tt;
         "fabric-26.4-snapshot-1" = _5Ap92p92;
         "fabric-26.1.2" = _nfUDa0ej;
@@ -230,7 +254,8 @@ let
         "fabric-26.4-snapshot-5" = _CKqcdQpQ;
         "fabric-26.4-snapshot-6" = _dSgLBtHf;
         "fabric-26.4-snapshot-7" = _oRw7KxQG;
-        "fabric-26.4-snapshot-8" = _YjPVpB4A;
+        "fabric-26.4-snapshot-8" = _mL1n9Er5;
+        "neoforge-1.21.1" = _j4PVLQtE;
         "pkg-1.0.0+1.21.1" = _aJFMzs3C;
         "pkg-1.0.0+1.21.4" = _XhDriw62;
         "pkg-1.0.0+1.21.8" = _rJWtRsrS;
@@ -265,7 +290,10 @@ let
         "pkg-1.0.6+26.3" = _ED0A7gab;
         "pkg-1.0.6+26.4-snapshot.7" = _oRw7KxQG;
         "pkg-1.0.6+26.4-snapshot.8" = _YjPVpB4A;
-        "default" = _YjPVpB4A;
+        "pkg-1.0.7+26.4-snapshot.8" = _mL1n9Er5;
+        "pkg-1.0.7+26.3" = _gMp6toDx;
+        "pkg-1.0.7+1.21.1" = _MHbCTTWG;
+        "default" = _MHbCTTWG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oxidized-fps-counter";

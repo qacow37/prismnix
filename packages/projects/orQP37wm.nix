@@ -611,6 +611,46 @@ let
             "file" = "bbs-cml-3.0-beta-7-26.3.jar";
             "hash" = "sha512-DfFitVovCEycPXGTa9TfPmAUNZs7IiRtuGzsSi8XQAzdkMGjaiHnMVCfd7mNdEslmIh1JLp5Cukp0Bg18GMpfw==";
         };
+        _VGqmqdPO = {
+            "id" = "VGqmqdPO";
+            "file" = "bbs-cml-3.0-beta-9-1.20.1.jar";
+            "hash" = "sha512-3TlCl/rstiEvXHOkkrgDoa0fNW2LoQzT0m/lUHyrs5+QCDU5COE6YwA00sknRqYkv2xtTAs8abQ1vxq8rji1TQ==";
+        };
+        _ZesEHa2X = {
+            "id" = "ZesEHa2X";
+            "file" = "bbs-cml-3.0-beta-9-1.20.4.jar";
+            "hash" = "sha512-NqKMnNLAsvsGWaXk1LvP91o9I0mSQ9bv+ndeyrnzC7HAMkB+o7aTjFaPanQk8/HWrwvaoLtZWS9fa1wNo2zBwQ==";
+        };
+        _BBX0o9MY = {
+            "id" = "BBX0o9MY";
+            "file" = "bbs-cml-3.0-beta-9-1.21.1.jar";
+            "hash" = "sha512-MppK3UahTkCUJ15SdKUwsawBlCihYGEYTiTpKcNePFCNAV6r2x1JlS3VeAkKDhHCClK0lLRJZ5BETlJunXOrAQ==";
+        };
+        _OWsnC9v5 = {
+            "id" = "OWsnC9v5";
+            "file" = "bbs-cml-3.0-beta-9-1.21.4.jar";
+            "hash" = "sha512-xNhDTxdKv0/Ieo7SHS+sOzYvJo1Fyg2rOwLWszMyOu+rMmA+FcGv6krjrj5SlHQ1OJfFSMF8wedJZXy4aX+zUA==";
+        };
+        _DaerSpbT = {
+            "id" = "DaerSpbT";
+            "file" = "bbs-cml-3.0-beta-9-1.21.11.jar";
+            "hash" = "sha512-1Uo6Ne//kpobmfooPblq8ytaqZHiZIIjqLGtffZ9hHS9Z9y6Vh3UM3lOzuiEUOTevtP1EKne/UwtAHt3tCLgkw==";
+        };
+        _EO67jvSy = {
+            "id" = "EO67jvSy";
+            "file" = "bbs-cml-3.0-beta-9-26.1.jar";
+            "hash" = "sha512-EbuINjuWXQB2K7RN/luYZGLRXWGQzExtnNuXU/mXCyKvxFkku1pMnlQIynLHQjj8DBtkxdOgjt6pQdMmbs0JLA==";
+        };
+        _lm9zQULi = {
+            "id" = "lm9zQULi";
+            "file" = "bbs-cml-3.0-beta-9-26.2.jar";
+            "hash" = "sha512-pl6p0I2nSmuzoz6qXdOYSR5yLeKDyiCDJetAL0WhZejpRJPy0sqI2zFVtfRObFtnZrmltSvBdLbBcy9KQc/QGQ==";
+        };
+        _5fPN4iTy = {
+            "id" = "5fPN4iTy";
+            "file" = "bbs-cml-3.0-beta-9-26.3.jar";
+            "hash" = "sha512-O3LIKZjh205epb2v21uSpE1eXqmm5+EZcodfEGua9FBlKEOpdZVyMsOgvKSd4uZ4EYb09rAwzlyS86494x0n4Q==";
+        };
     in {
         "xTK5ppCm" = _xTK5ppCm;
         "5EgRT0LB" = _5EgRT0LB;
@@ -734,21 +774,29 @@ let
         "BsNlrvaQ" = _BsNlrvaQ;
         "KdIIzkLM" = _KdIIzkLM;
         "Rdvlbadr" = _Rdvlbadr;
-        "fabric-1.20.1" = _EV7pBGGI;
-        "fabric-1.20.4" = _ivssanZZ;
-        "fabric-1.21.1" = _Y7RD8f6t;
-        "fabric-1.21.4" = _sNBn9UEn;
-        "fabric-1.21.11" = _YajFr92B;
-        "fabric-26.1" = _BsNlrvaQ;
-        "fabric-26.1.1" = _BsNlrvaQ;
-        "fabric-26.1.2" = _BsNlrvaQ;
-        "fabric-26.2" = _KdIIzkLM;
-        "fabric-26.3" = _Rdvlbadr;
-        "forge-1.20.1" = _EV7pBGGI;
-        "neoforge-1.21.1" = _Y7RD8f6t;
-        "neoforge-26.1" = _BsNlrvaQ;
-        "neoforge-26.1.1" = _BsNlrvaQ;
-        "neoforge-26.1.2" = _BsNlrvaQ;
+        "VGqmqdPO" = _VGqmqdPO;
+        "ZesEHa2X" = _ZesEHa2X;
+        "BBX0o9MY" = _BBX0o9MY;
+        "OWsnC9v5" = _OWsnC9v5;
+        "DaerSpbT" = _DaerSpbT;
+        "EO67jvSy" = _EO67jvSy;
+        "lm9zQULi" = _lm9zQULi;
+        "5fPN4iTy" = _5fPN4iTy;
+        "fabric-1.20.1" = _VGqmqdPO;
+        "fabric-1.20.4" = _ZesEHa2X;
+        "fabric-1.21.1" = _BBX0o9MY;
+        "fabric-1.21.4" = _OWsnC9v5;
+        "fabric-1.21.11" = _DaerSpbT;
+        "fabric-26.1" = _EO67jvSy;
+        "fabric-26.1.1" = _EO67jvSy;
+        "fabric-26.1.2" = _EO67jvSy;
+        "fabric-26.2" = _lm9zQULi;
+        "fabric-26.3" = _5fPN4iTy;
+        "forge-1.20.1" = _VGqmqdPO;
+        "neoforge-1.21.1" = _BBX0o9MY;
+        "neoforge-26.1" = _EO67jvSy;
+        "neoforge-26.1.1" = _EO67jvSy;
+        "neoforge-26.1.2" = _EO67jvSy;
         "pkg-1.6.21-1.20.1" = _xTK5ppCm;
         "pkg-1.6.21-1.20.4" = _5EgRT0LB;
         "pkg-1.6.21-beta-1-1.21.1" = _QzcaoSTr;
@@ -871,7 +919,15 @@ let
         "pkg-3.0-beta-7-26.1" = _BsNlrvaQ;
         "pkg-3.0-beta-7-26.2" = _KdIIzkLM;
         "pkg-3.0-beta-7-26.3" = _Rdvlbadr;
-        "default" = _Rdvlbadr;
+        "pkg-3.0-beta-9-1.20.1" = _VGqmqdPO;
+        "pkg-3.0-beta-9-1.20.4" = _ZesEHa2X;
+        "pkg-3.0-beta-9-1.21.1" = _BBX0o9MY;
+        "pkg-3.0-beta-9-1.21.4" = _OWsnC9v5;
+        "pkg-3.0-beta-9-1.21.11" = _DaerSpbT;
+        "pkg-3.0-beta-9-26.1" = _EO67jvSy;
+        "pkg-3.0-beta-9-26.2" = _lm9zQULi;
+        "pkg-3.0-beta-9-26.3" = _5fPN4iTy;
+        "default" = _5fPN4iTy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbs-cml-edition";

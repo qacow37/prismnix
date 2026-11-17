@@ -36,6 +36,11 @@ let
             "file" = "jerotesvillage-1.20.1-1.0.0.6.1.jar";
             "hash" = "sha512-bWT3Q83tYUMeuGm8q+URUX7TCwDgSLEDekr5alSBzE+j4qMBu2VWH9ucKb5WkbiyuEgkhuTMUyU9gu0JVAZmzw==";
         };
+        _ybwBokBa = {
+            "id" = "ybwBokBa";
+            "file" = "jerotesvillage-1.20.1-1.0.0.6.2.jar";
+            "hash" = "sha512-Gc8Psh83t4Lqnl5cKD4hUNlMU9sSTvHw+a70fYjLWJVC9BQ+bEaqm5IqkLnpNTSJp13y0XDBhrDy+DgimmS7KQ==";
+        };
     in {
         "u35bDdlr" = _u35bDdlr;
         "jhqmFrtC" = _jhqmFrtC;
@@ -44,7 +49,8 @@ let
         "ntEjpsB0" = _ntEjpsB0;
         "tc9Xx0Bk" = _tc9Xx0Bk;
         "RUxyaNFw" = _RUxyaNFw;
-        "forge-1.20.1" = _RUxyaNFw;
+        "ybwBokBa" = _ybwBokBa;
+        "forge-1.20.1" = _ybwBokBa;
         "pkg-1.0.0.0" = _u35bDdlr;
         "pkg-1.0.0.4" = _jhqmFrtC;
         "pkg-1.0.0.5" = _IldbnOuW;
@@ -52,7 +58,8 @@ let
         "pkg-1.0.0.6" = _ntEjpsB0;
         "pkg-1.0.0.6_fix" = _tc9Xx0Bk;
         "pkg-1.0.0.6.1" = _RUxyaNFw;
-        "default" = _RUxyaNFw;
+        "pkg-1.0.0.6.2" = _ybwBokBa;
+        "default" = _ybwBokBa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jerotes-villages-pillage";

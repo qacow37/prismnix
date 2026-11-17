@@ -136,6 +136,11 @@ let
             "file" = "ForgeEndertech-1.20.1-11.1.11.2-build.2374.jar";
             "hash" = "sha512-opCYrj5MUx4lW9EfCk1cd7Ok/nxcpqFjJPj2sMEyNhPDPEh4akEm6GtC9E34pJ/DEgNjr1aoW9AJqWdfNIXfbQ==";
         };
+        _ZVYWvUbW = {
+            "id" = "ZVYWvUbW";
+            "file" = "ForgeEndertech-1.21.1-12.1.5.0-NeoForge-build.1295.jar";
+            "hash" = "sha512-HBZxS2EdfKforXM/fpqRld/hlk5zT1xdKd+Tkez8M64yfAK38lQ2HlC9dQIVgDCZ+7zKHOCmb5tpt0bsFeWlig==";
+        };
     in {
         "YN64I5dY" = _YN64I5dY;
         "yTRaxrqz" = _yTRaxrqz;
@@ -164,10 +169,11 @@ let
         "qyo8Z72d" = _qyo8Z72d;
         "mTMe0ZDJ" = _mTMe0ZDJ;
         "fVjtdSoU" = _fVjtdSoU;
+        "ZVYWvUbW" = _ZVYWvUbW;
         "fabric-26.2" = _MTDsjyFM;
         "fabric-26.3" = _G2PeFNvS;
         "neoforge-26.2" = _RkZkT04p;
-        "neoforge-1.21.1" = _r9lM1yuJ;
+        "neoforge-1.21.1" = _ZVYWvUbW;
         "neoforge-26.3" = _mTMe0ZDJ;
         "forge-26.2" = _mjPDRnkz;
         "forge-1.20.1" = _fVjtdSoU;
@@ -186,7 +192,8 @@ let
         "pkg-26.2.0.3" = _RkZkT04p;
         "pkg-26.3.0.1" = _mTMe0ZDJ;
         "pkg-11.1.11.2" = _fVjtdSoU;
-        "default" = _fVjtdSoU;
+        "pkg-12.1.5.0" = _ZVYWvUbW;
+        "default" = _ZVYWvUbW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forgeendertech";

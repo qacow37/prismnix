@@ -171,6 +171,26 @@ let
             "file" = "smooth_f5-neoforge-1.3.2.jar";
             "hash" = "sha512-E2B4kRipravxV4iarPp+YfeAL/X2gnYsMaGWKgdAl1JUuIFIditrxO5DfNgoXhYcvVVew8sVkue9TdvlqUh23g==";
         };
+        _R7zmzZTZ = {
+            "id" = "R7zmzZTZ";
+            "file" = "smooth_f5-neoforge-1.4.0.jar";
+            "hash" = "sha512-3HBTHf6uZEI0ftGsLrkOF6lDUokfjhl0R2XdwxHNUplF8kdOubHMYm4bZnFw8EAdg3C/0TRBHCVlz0I92OWNFA==";
+        };
+        _2ErIPEkx = {
+            "id" = "2ErIPEkx";
+            "file" = "smooth_f5-fabric-1.4.0.jar";
+            "hash" = "sha512-IS25fqafvVHc+Q4fjdNgNbPvijYbiUeC/OzAeDOkYvaNGmXs62VefVLU4AOV12vneY0fsV+EiCMxa72rfMpBlg==";
+        };
+        _xbKlIc7k = {
+            "id" = "xbKlIc7k";
+            "file" = "smooth_f5-neoforge-1.4.0.jar";
+            "hash" = "sha512-3TWkoBUkMEmDsXNtpYq1T+jLJXA7XhZ90pRLl42FHr4j7QF5sIDhhmhHaIkxaVfmNRo/QBOcanPxdKDxNqD42g==";
+        };
+        _hKzkh81F = {
+            "id" = "hKzkh81F";
+            "file" = "smooth_f5-fabric-1.4.0.jar";
+            "hash" = "sha512-Z1mdA9KagLz+wzYwICl6NMMiCSVE6i7UYo2NHyYHI0bZ5lKq4fWR3q1q2vispXTY5TVG2bhYwa7kH+nziyBtag==";
+        };
     in {
         "E5na1erE" = _E5na1erE;
         "wYGJR6rF" = _wYGJR6rF;
@@ -206,18 +226,22 @@ let
         "egZxCecd" = _egZxCecd;
         "T5itEytV" = _T5itEytV;
         "YmSjTX4x" = _YmSjTX4x;
+        "R7zmzZTZ" = _R7zmzZTZ;
+        "2ErIPEkx" = _2ErIPEkx;
+        "xbKlIc7k" = _xbKlIc7k;
+        "hKzkh81F" = _hKzkh81F;
         "fabric-1.20.1" = _FeFsf802;
         "fabric-1.21.1" = _54W08CAL;
         "fabric-1.21.11" = _kOW8Lal5;
-        "fabric-26.1.2" = _7X14WcmI;
+        "fabric-26.1.2" = _hKzkh81F;
         "fabric-26.2" = _f959GZMl;
-        "fabric-26.3" = _T5itEytV;
+        "fabric-26.3" = _2ErIPEkx;
         "forge-1.20.1" = _YNf8u9NK;
         "neoforge-1.21.1" = _q4V8O9ce;
         "neoforge-1.21.11" = _7NqEtnHg;
-        "neoforge-26.1.2" = _GzmnUdyD;
+        "neoforge-26.1.2" = _xbKlIc7k;
         "neoforge-26.2" = _egZxCecd;
-        "neoforge-26.3" = _YmSjTX4x;
+        "neoforge-26.3" = _R7zmzZTZ;
         "pkg-1.0.0" = _wYGJR6rF;
         "pkg-1.0.1" = _QHIv0tpS;
         "pkg-1.1.0" = _b9hEfDTz;
@@ -225,7 +249,8 @@ let
         "pkg-1.3.0" = _NxEkYvcl;
         "pkg-1.3.1" = _FbmK2GXP;
         "pkg-1.3.2" = _YmSjTX4x;
-        "default" = _YmSjTX4x;
+        "pkg-1.4.0" = _hKzkh81F;
+        "default" = _hKzkh81F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "countereds-smooth-f5";

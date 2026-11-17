@@ -86,6 +86,21 @@ let
             "file" = "dual-swords-2.2.0+1.21.11.jar";
             "hash" = "sha512-N9w6BsuOYmuJuXnFxYomFTG3v7qSw5VQEUZmnMwcs83hgMDZSQCzxSh8Pz+nFCvsiv4sTenBc0YtMt7mLdudRg==";
         };
+        _pAeGdJ3t = {
+            "id" = "pAeGdJ3t";
+            "file" = "dual-swords-2.2.0+26.1.jar";
+            "hash" = "sha512-G/Qc9yYmMt68USDNVIbKGfcO5KtT052zPBtwTLp3Z2QluksiZxlI9q9M1iARZCKPlW5fMBTd0eYylmyKm8r0gQ==";
+        };
+        _K1EaosDE = {
+            "id" = "K1EaosDE";
+            "file" = "dual-swords-2.2.0+26.2.jar";
+            "hash" = "sha512-ZZ+xQNVwvcQEJQSzYnrzXakPI81AvNiG+d5THwMb90cupcBWLepW4xwNlxkTloq4Cv2n73Z8NcgnqlDcFVdG4A==";
+        };
+        _h0zvQiSI = {
+            "id" = "h0zvQiSI";
+            "file" = "dual-swords-2.2.0+26.3.jar";
+            "hash" = "sha512-Kh+76zZBODce4Iaq6QnyIXW27ckpeaC2G8t1dMmh09Iz1on4wHQcX2RNEocbOyUM285zoT4Nd85DikXY83L+zg==";
+        };
     in {
         "cSdmaLIc" = _cSdmaLIc;
         "2rniJ2pE" = _2rniJ2pE;
@@ -104,6 +119,9 @@ let
         "J1pslcDU" = _J1pslcDU;
         "M6uWD1wg" = _M6uWD1wg;
         "83iAgLWJ" = _83iAgLWJ;
+        "pAeGdJ3t" = _pAeGdJ3t;
+        "K1EaosDE" = _K1EaosDE;
+        "h0zvQiSI" = _h0zvQiSI;
         "fabric-1.20" = _kPOYRcot;
         "fabric-1.20.1" = _kPOYRcot;
         "fabric-1.20.2" = _kPOYRcot;
@@ -123,6 +141,11 @@ let
         "fabric-1.21.9" = _M6uWD1wg;
         "fabric-1.21.10" = _M6uWD1wg;
         "fabric-1.21.11" = _83iAgLWJ;
+        "fabric-26.1" = _pAeGdJ3t;
+        "fabric-26.1.1" = _pAeGdJ3t;
+        "fabric-26.1.2" = _pAeGdJ3t;
+        "fabric-26.2" = _K1EaosDE;
+        "fabric-26.3" = _h0zvQiSI;
         "quilt-1.20" = _kPOYRcot;
         "quilt-1.20.1" = _kPOYRcot;
         "quilt-1.20.2" = _kPOYRcot;
@@ -142,6 +165,11 @@ let
         "quilt-1.21.9" = _M6uWD1wg;
         "quilt-1.21.10" = _M6uWD1wg;
         "quilt-1.21.11" = _83iAgLWJ;
+        "quilt-26.1" = _pAeGdJ3t;
+        "quilt-26.1.1" = _pAeGdJ3t;
+        "quilt-26.1.2" = _pAeGdJ3t;
+        "quilt-26.2" = _K1EaosDE;
+        "quilt-26.3" = _h0zvQiSI;
         "pkg-1.0.0" = _cSdmaLIc;
         "pkg-1.0.1" = _2rniJ2pE;
         "pkg-1.0.2" = _7KDebPb5;
@@ -159,7 +187,10 @@ let
         "pkg-2.2.0+1.21.5" = _J1pslcDU;
         "pkg-2.2.0+1.21.10" = _M6uWD1wg;
         "pkg-2.2.0+1.21.11" = _83iAgLWJ;
-        "default" = _83iAgLWJ;
+        "pkg-2.2.0+26.1" = _pAeGdJ3t;
+        "pkg-2.2.0+26.2" = _K1EaosDE;
+        "pkg-2.2.0+26.3" = _h0zvQiSI;
+        "default" = _h0zvQiSI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dual-swords";

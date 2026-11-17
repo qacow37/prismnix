@@ -61,6 +61,16 @@ let
             "file" = "New-Sim-U-Kraft-2.2.0-neoforge-1.21.1.jar";
             "hash" = "sha512-DBl8Fv/DMsuuQlMMRMw4paV+4hDaWyoOTMeUQmIRFwHxAPn9L9E1x/uHDrL6bWvVHkfWZDNjUb1F5bJ00KOE8g==";
         };
+        _uQrtn8uM = {
+            "id" = "uQrtn8uM";
+            "file" = "New-Sim-U-Kraft-2.3.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-bDJxNNH2EVTQMPhwK8m6fG7L5a4aS/sj2jqLIwM1aNwuxWXJR0dfAHQ2MOaaNzS31wNtCuvKtC9Q18AmHSXkEQ==";
+        };
+        _yEV2UXRt = {
+            "id" = "yEV2UXRt";
+            "file" = "New-Sim-U-Kraft-2.3.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-XszyIPcihDp7p59jb1pux5qXfNgR8miBAfO0lksK52yfzDHSX7BGeTzAGxjRnnw1myBJPPf0jkjSIIBAWdUOkQ==";
+        };
     in {
         "xuyCdCLr" = _xuyCdCLr;
         "PcpmU8BO" = _PcpmU8BO;
@@ -74,8 +84,10 @@ let
         "t9TKii2o" = _t9TKii2o;
         "KqmydrRh" = _KqmydrRh;
         "sQTfF8mn" = _sQTfF8mn;
+        "uQrtn8uM" = _uQrtn8uM;
+        "yEV2UXRt" = _yEV2UXRt;
         "forge-1.20.1" = _bXQ1L0eV;
-        "neoforge-1.21.1" = _sQTfF8mn;
+        "neoforge-1.21.1" = _yEV2UXRt;
         "pkg-1.0.4b1-fix-5" = _xuyCdCLr;
         "pkg-1.0.5b1-fix" = _PcpmU8BO;
         "pkg-1.0.5b2-fix0.2" = _PlEu0tNd;
@@ -88,7 +100,9 @@ let
         "pkg-2.0.1-fix" = _t9TKii2o;
         "pkg-2.1.0" = _KqmydrRh;
         "pkg-2.2.0" = _sQTfF8mn;
-        "default" = _sQTfF8mn;
+        "pkg-2.3.0" = _uQrtn8uM;
+        "pkg-2.3.1" = _yEV2UXRt;
+        "default" = _yEV2UXRt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-sim-u-kraft";

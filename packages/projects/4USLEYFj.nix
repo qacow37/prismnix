@@ -66,6 +66,26 @@ let
             "file" = "easy2trade-1.0.3.jar";
             "hash" = "sha512-dtDLkuiZMRHHTIKQqy1NRhHm+1A7wZuWStZAqxeYLU8nHBlQvnmHOiEzGsGKGbkjAFo7BUf9rBImMcgv3D55QQ==";
         };
+        _hx7h0eRB = {
+            "id" = "hx7h0eRB";
+            "file" = "Easy2Trade-v26.3.jar";
+            "hash" = "sha512-t7HhwNpK/hehT27mfiDb1zl4/Aa5JuIjhiwnEkuRdM5CbIxh8x92C5A3LPy60iiL0POzFWEsVrF0kzNd2WYQSQ==";
+        };
+        _HX7ak55t = {
+            "id" = "HX7ak55t";
+            "file" = "Easy2Trade-v26.2.jar";
+            "hash" = "sha512-HgCZtE7rc3Xv3EkAxULNtnIjNcsXheNJzc0nMFHBe7ywDsZmB5fkx23HKS0qp3MgTpGdPMoUTtH7raGk/RQzOw==";
+        };
+        _3qEWYRNZ = {
+            "id" = "3qEWYRNZ";
+            "file" = "Easy2Trade-v26.1.jar";
+            "hash" = "sha512-f+lm1PCB1O3dl8TggId6gdNgxxQU2V3Ey0UJqnUS3FNB7MBSck3ouBu8NAGpstNe8zha2+WMv7llw4qUyn+1TA==";
+        };
+        _X8ILsGXD = {
+            "id" = "X8ILsGXD";
+            "file" = "Easy2Trade-v1.21.11.jar";
+            "hash" = "sha512-eNZVttrY262DV9JlA8e+JMlu2yGl7bDQBE4MuqwjjMISwGBDZP4pZjmBEAU8p8YFa0w3DkT5grE9teHNyd4e7Q==";
+        };
     in {
         "AFk4zoIR" = _AFk4zoIR;
         "pusKZQA2" = _pusKZQA2;
@@ -80,6 +100,10 @@ let
         "Gv1xQgQC" = _Gv1xQgQC;
         "be1DbpFN" = _be1DbpFN;
         "3ADi70Hc" = _3ADi70Hc;
+        "hx7h0eRB" = _hx7h0eRB;
+        "HX7ak55t" = _HX7ak55t;
+        "3qEWYRNZ" = _3qEWYRNZ;
+        "X8ILsGXD" = _X8ILsGXD;
         "forge-26.1" = _l9nbySif;
         "forge-26.1.1" = _l9nbySif;
         "forge-26.1.2" = _l9nbySif;
@@ -97,28 +121,32 @@ let
         "forge-1.21.10" = _2xMf61XI;
         "forge-1.21.11" = _2xMf61XI;
         "forge-26.3" = _3ADi70Hc;
-        "fabric-26.1" = _gA1gOrNo;
-        "fabric-26.1.1" = _gA1gOrNo;
-        "fabric-26.1.2" = _gA1gOrNo;
-        "fabric-1.21" = _SBGHNX6N;
-        "fabric-1.21.1" = _SBGHNX6N;
-        "fabric-1.21.2" = _SBGHNX6N;
-        "fabric-1.21.3" = _SBGHNX6N;
-        "fabric-1.21.4" = _SBGHNX6N;
-        "fabric-1.21.5" = _SBGHNX6N;
-        "fabric-1.21.6" = _SBGHNX6N;
-        "fabric-1.21.7" = _SBGHNX6N;
-        "fabric-1.21.8" = _SBGHNX6N;
-        "fabric-1.21.9" = _SBGHNX6N;
-        "fabric-1.21.10" = _SBGHNX6N;
-        "fabric-1.21.11" = _SBGHNX6N;
-        "fabric-26.2" = _M341v4Qk;
-        "fabric-26.3" = _be1DbpFN;
+        "fabric-26.1" = _3qEWYRNZ;
+        "fabric-26.1.1" = _3qEWYRNZ;
+        "fabric-26.1.2" = _3qEWYRNZ;
+        "fabric-1.21" = _X8ILsGXD;
+        "fabric-1.21.1" = _X8ILsGXD;
+        "fabric-1.21.2" = _X8ILsGXD;
+        "fabric-1.21.3" = _X8ILsGXD;
+        "fabric-1.21.4" = _X8ILsGXD;
+        "fabric-1.21.5" = _X8ILsGXD;
+        "fabric-1.21.6" = _X8ILsGXD;
+        "fabric-1.21.7" = _X8ILsGXD;
+        "fabric-1.21.8" = _X8ILsGXD;
+        "fabric-1.21.9" = _X8ILsGXD;
+        "fabric-1.21.10" = _X8ILsGXD;
+        "fabric-1.21.11" = _X8ILsGXD;
+        "fabric-26.2" = _HX7ak55t;
+        "fabric-26.3" = _hx7h0eRB;
         "pkg-1.0.1" = _l9nbySif;
         "pkg-1.0.0" = _2xMf61XI;
         "pkg-1.0.2" = _Gv1xQgQC;
         "pkg-1.0.3" = _3ADi70Hc;
-        "default" = _3ADi70Hc;
+        "pkg-v26.3" = _hx7h0eRB;
+        "pkg-v26.2" = _HX7ak55t;
+        "pkg-v26.1" = _3qEWYRNZ;
+        "pkg-v1.21.11" = _X8ILsGXD;
+        "default" = _X8ILsGXD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy2trade";

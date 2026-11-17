@@ -26,12 +26,18 @@ let
             "file" = "§6§lEsperial §b§lSkies§8.zip";
             "hash" = "sha512-PC3Li3eI4hrQ0Dx/20tbE15vcpyt6iZp8zm16Ohvdzvugk/AibFb6cJJ6uJloMfKMhVyfvDMV7K5HYojP+EJFw==";
         };
+        _EOsTfyTs = {
+            "id" = "EOsTfyTs";
+            "file" = "§5§lEsperial §d§lEnd Sky§8.zip";
+            "hash" = "sha512-Y7qxlHZW09P+gkM7VKIjSxQyddv6XnPeCDd1h4nKrGZiezXHr7mD2svLJkkfS7a2XvmQIL59hA9PDhGAS+cqAg==";
+        };
     in {
         "ZUEPj6mo" = _ZUEPj6mo;
         "QiEiirZD" = _QiEiirZD;
         "mDNtsoI8" = _mDNtsoI8;
         "t5mhrT68" = _t5mhrT68;
         "mPx17ulO" = _mPx17ulO;
+        "EOsTfyTs" = _EOsTfyTs;
         "minecraft-1.21.5" = _mDNtsoI8;
         "minecraft-1.21.6" = _mDNtsoI8;
         "minecraft-1.21.7" = _mDNtsoI8;
@@ -43,13 +49,14 @@ let
         "minecraft-26.1.1" = _mDNtsoI8;
         "minecraft-26.1.2" = _mDNtsoI8;
         "minecraft-26.2" = _mDNtsoI8;
-        "minecraft-26.3" = _mPx17ulO;
+        "minecraft-26.3" = _EOsTfyTs;
         "pkg-1.0.0" = _ZUEPj6mo;
         "pkg-1.1.0" = _QiEiirZD;
         "pkg-2.0" = _mDNtsoI8;
         "pkg-2.1.0" = _t5mhrT68;
         "pkg-2.2.0" = _mPx17ulO;
-        "default" = _mPx17ulO;
+        "pkg-2.2.0.1" = _EOsTfyTs;
+        "default" = _EOsTfyTs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "esperial-skies";

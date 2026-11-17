@@ -126,6 +126,16 @@ let
             "file" = "sablemaidragdoll-2.3.1-beta.jar";
             "hash" = "sha512-xa9mpipxMIeecQlnXv1ZCZjdOth6lpVhRyYK7FcMGZxPxmSSXfPPXnsM3t2AdVYf1NYV3WPPZjKG/++D+1dNAg==";
         };
+        _Wr58TdQz = {
+            "id" = "Wr58TdQz";
+            "file" = "sablemaidragdoll-2.3.2-beta.jar";
+            "hash" = "sha512-LR6kMfDN/YzC4DkC8mKENVD6zbtxTyhrl+5iMP51k5t5fmzXmMM4lcm7mBbtNt6JA3h/JcmiErpW54Ajr0bsPQ==";
+        };
+        _jxX8sVoS = {
+            "id" = "jxX8sVoS";
+            "file" = "sablemaidragdoll-2.3.3-beta-hotfix.jar";
+            "hash" = "sha512-THMQU+zaeQmNeuPnHRMrTA1eQWx908HEcGif8NeP2dDIYC3vkOI3xPdWA7Nsuvo4l71x4LJZoXf3GyTKJF5Umw==";
+        };
     in {
         "FFDL9Nvh" = _FFDL9Nvh;
         "IR6DMwXq" = _IR6DMwXq;
@@ -152,7 +162,9 @@ let
         "dXAcngyy" = _dXAcngyy;
         "LRMi7rbx" = _LRMi7rbx;
         "glptc8cy" = _glptc8cy;
-        "neoforge-1.21.1" = _glptc8cy;
+        "Wr58TdQz" = _Wr58TdQz;
+        "jxX8sVoS" = _jxX8sVoS;
+        "neoforge-1.21.1" = _jxX8sVoS;
         "pkg-0.1-alpha" = _FFDL9Nvh;
         "pkg-0.2-alpha" = _IR6DMwXq;
         "pkg-0.3-alpha" = _sLV6fkiC;
@@ -178,7 +190,9 @@ let
         "pkg-2.2.5-beta" = _dXAcngyy;
         "pkg-2.3.0-beta" = _LRMi7rbx;
         "pkg-2.3.1-beta" = _glptc8cy;
-        "default" = _glptc8cy;
+        "pkg-2.3.2-beta" = _Wr58TdQz;
+        "pkg-2.3.3-beta-hotfix" = _jxX8sVoS;
+        "default" = _jxX8sVoS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable-maidragdoll";

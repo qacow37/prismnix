@@ -26,19 +26,26 @@ let
             "file" = "[拔刀剑：灼霜]SlashBladeHoarfrost-1.20.1-2.0.10.jar";
             "hash" = "sha512-2ntJszssOmXVFQfqS++OnKpL5YA3KjVLwpHTHFIEFkEC5i/2LiTh5ZHJOWabMLMKzm0jfUNtLpHQLGw/b8vgrQ==";
         };
+        _A7tRxsWi = {
+            "id" = "A7tRxsWi";
+            "file" = "[拔刀剑：灼霜]SlashBladeHoarfrost-1.20.1-2.0.1.jar";
+            "hash" = "sha512-EkCq0Kpnup3qxFhnf+NfgW9HYk47b+7XU3ztPW1+wbxGIiVGnqAX53fb5hp8fnnM+PPb47WZQHXKhdAIjj74kA==";
+        };
     in {
         "UafMAXeF" = _UafMAXeF;
         "rm33wsJC" = _rm33wsJC;
         "wcS91GIs" = _wcS91GIs;
         "hbhcLH8X" = _hbhcLH8X;
         "w6aAdDh0" = _w6aAdDh0;
-        "forge-1.20.1" = _w6aAdDh0;
+        "A7tRxsWi" = _A7tRxsWi;
+        "forge-1.20.1" = _A7tRxsWi;
         "neoforge-1.21.1" = _wcS91GIs;
         "pkg-1.0.1" = _UafMAXeF;
         "pkg-1.0.2" = _wcS91GIs;
         "pkg-1.7.0b" = _hbhcLH8X;
         "pkg-2.0.0" = _w6aAdDh0;
-        "default" = _w6aAdDh0;
+        "pkg-2.0.1" = _A7tRxsWi;
+        "default" = _A7tRxsWi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slashblade_hoarfrost";

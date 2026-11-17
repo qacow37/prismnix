@@ -136,6 +136,16 @@ let
             "file" = "tacz-mesh-loader-forge-1.20.1-0.2.1-hotfix.jar";
             "hash" = "sha512-KmComBAM0IJspy2JHJ9q6mFS0FHR1RDt7ZWvcG0FGY2sVM0CBDA00XRfvn0yvVsjxbaqb5FPViXX5EMpjPvrMg==";
         };
+        _HKzQsnEq = {
+            "id" = "HKzQsnEq";
+            "file" = "tacz-mesh-loader-neoforge-1.21.1-0.2.1-hotfix2.jar";
+            "hash" = "sha512-0L6tAW8tg17EBAnzMUmwHoX02WCSxt1BSCuf15XqmHBBlxljY7tXFijNrtAroEPU+ZeJIb7JtOxyKJMcoBbiHw==";
+        };
+        _rffv7FdR = {
+            "id" = "rffv7FdR";
+            "file" = "tacz-mesh-loader-fabric-1.21.1-0.2.1-hotfix2.jar";
+            "hash" = "sha512-YHvMQP5Y4Pd5pviLRNYWS6+rVmOELeuWsc0TLKwa6jyOswu2ngl6QNo89XT+PM79Qk4/QyPYt8PUReWx7++Q9A==";
+        };
     in {
         "96zPunJ9" = _96zPunJ9;
         "b9p8tyiC" = _b9p8tyiC;
@@ -164,10 +174,12 @@ let
         "D98XSwcs" = _D98XSwcs;
         "r2uZcx29" = _r2uZcx29;
         "LqwLfxyO" = _LqwLfxyO;
+        "HKzQsnEq" = _HKzQsnEq;
+        "rffv7FdR" = _rffv7FdR;
         "forge-1.20.1" = _LqwLfxyO;
         "fabric-1.20.1" = _OWglyPef;
-        "fabric-1.21.1" = _r2uZcx29;
-        "neoforge-1.21.1" = _D98XSwcs;
+        "fabric-1.21.1" = _rffv7FdR;
+        "neoforge-1.21.1" = _HKzQsnEq;
         "pkg-0.1.5" = _EB8G9mbd;
         "pkg-0.1.6" = _zbZz3VtT;
         "pkg-0.1.7" = _wsIljAdE;
@@ -176,7 +188,8 @@ let
         "pkg-0.2.0" = _xtfRr11I;
         "pkg-0.2.1" = _r2uZcx29;
         "pkg-0.2.1-hotfix" = _LqwLfxyO;
-        "default" = _LqwLfxyO;
+        "pkg-0.2.1-hotfix2" = _rffv7FdR;
+        "default" = _rffv7FdR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-mesh-loader";

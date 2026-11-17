@@ -111,6 +111,11 @@ let
             "file" = "mrqxs_Slashblade_Core-1.21.1-1.5.2-hotfix1.jar";
             "hash" = "sha512-whQThWEChcuzK3PeM4JQ7n7da3GAq3jDZxp2lhMi7s3hq5yYGexa6tndLzzKdl8niRTo0MamPFvn9pMNENRG6g==";
         };
+        _89eicIbc = {
+            "id" = "89eicIbc";
+            "file" = "mrqxs_Slashblade_Core-1.21.1-1.6.0.jar";
+            "hash" = "sha512-ShLFom0hxfH4a8/Mdby3kaPYEoePqebne2J8JHfIC20nVhgM6hBBQzpGcI9IbUnQJpx5BCSWP1atKR5yhchNFQ==";
+        };
     in {
         "qx0JLlQO" = _qx0JLlQO;
         "1FKfO086" = _1FKfO086;
@@ -134,8 +139,9 @@ let
         "AZVIyeU5" = _AZVIyeU5;
         "YvKLUNcn" = _YvKLUNcn;
         "CMOoMnYg" = _CMOoMnYg;
+        "89eicIbc" = _89eicIbc;
         "forge-1.20.1" = _dPmiLWGP;
-        "neoforge-1.21.1" = _CMOoMnYg;
+        "neoforge-1.21.1" = _89eicIbc;
         "pkg-1.0.0" = _qx0JLlQO;
         "pkg-1.1.0" = _1FKfO086;
         "pkg-1.2.0" = _dvCGSHM5;
@@ -157,7 +163,8 @@ let
         "pkg-1.5.1" = _AZVIyeU5;
         "pkg-1.5.2" = _YvKLUNcn;
         "pkg-1.5.2-hotfix1" = _CMOoMnYg;
-        "default" = _CMOoMnYg;
+        "pkg-1.6.0" = _89eicIbc;
+        "default" = _89eicIbc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mrqx`s-slashblade-core";

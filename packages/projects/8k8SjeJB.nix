@@ -111,6 +111,26 @@ let
             "file" = "tacz_turrets-neoforge-4.3.0-1.21.1.jar";
             "hash" = "sha512-mBJipyHfszlPdd+EzEOPvxVQlzd+D+6v6Ho26fJeC6F4gRW5wLcWxpeRr2iAGeq70BxeSYjDHW1ucXGFyNCreQ==";
         };
+        _Cwtf5qyu = {
+            "id" = "Cwtf5qyu";
+            "file" = "tacz_turrets-forge-4.3.1-1.20.1.jar";
+            "hash" = "sha512-FK3Cf0yMDDbYExVBrrEF+xgDgUu+s68YjR3yI0/vNWwbcxgPwOKQ3/qFFstIho41RiUnOWiVgM69e65uPihMyQ==";
+        };
+        _DgXCIKil = {
+            "id" = "DgXCIKil";
+            "file" = "tacz_turrets-neoforge-4.3.1-1.21.1.jar";
+            "hash" = "sha512-zvVNCgu/7rWkub0pR+3h46xoHfK4k5+yPKTil8xp0rGIgi3wWjBsj77XE0sGaUQ8aklKKc14PvATAvY3POgIFA==";
+        };
+        _FCY2gAJ5 = {
+            "id" = "FCY2gAJ5";
+            "file" = "tacz_turrets-forge-4.4.0-1.20.1.jar";
+            "hash" = "sha512-eKoEN+oB2HXO32rMzVum/cQ+soTO42xe8JJN+XVlFnl+jiNpZ2MQoMzSNKjgofb7CoMptYJqVaFOOcXL0br4TQ==";
+        };
+        _vHWDIMtn = {
+            "id" = "vHWDIMtn";
+            "file" = "tacz_turrets-neoforge-4.4.0-1.21.1.jar";
+            "hash" = "sha512-4gMhAXWRe+ssKWZBtpMXs0jhL8lUvVLMsI7nUGLj4Izb+2iXZgnD8biBMVp7LdwCeCDr/ZZmM/37StmIixAhHw==";
+        };
     in {
         "Jr7OcD41" = _Jr7OcD41;
         "IyYOU04x" = _IyYOU04x;
@@ -134,13 +154,17 @@ let
         "PWFfJBkj" = _PWFfJBkj;
         "CmVdu0sn" = _CmVdu0sn;
         "9bf80Cfe" = _9bf80Cfe;
-        "forge-1.20.1" = _CmVdu0sn;
+        "Cwtf5qyu" = _Cwtf5qyu;
+        "DgXCIKil" = _DgXCIKil;
+        "FCY2gAJ5" = _FCY2gAJ5;
+        "vHWDIMtn" = _vHWDIMtn;
+        "forge-1.20.1" = _FCY2gAJ5;
         "forge-1.20.2" = _tFuhu3A1;
         "forge-1.20.3" = _tFuhu3A1;
         "forge-1.20.4" = _tFuhu3A1;
         "forge-1.20.5" = _tFuhu3A1;
         "forge-1.20.6" = _tFuhu3A1;
-        "neoforge-1.21.1" = _9bf80Cfe;
+        "neoforge-1.21.1" = _vHWDIMtn;
         "pkg-1.0.0" = _Jr7OcD41;
         "pkg-1.0.1" = _IyYOU04x;
         "pkg-1.0.2" = _Dov1O8kL;
@@ -155,7 +179,9 @@ let
         "pkg-4.1.1" = _qh11kPD4;
         "pkg-4.2.0" = _PWFfJBkj;
         "pkg-4.3.0" = _9bf80Cfe;
-        "default" = _9bf80Cfe;
+        "pkg-4.3.1" = _DgXCIKil;
+        "pkg-4.4.0" = _vHWDIMtn;
+        "default" = _vHWDIMtn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-turrets";

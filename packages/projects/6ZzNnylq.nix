@@ -46,6 +46,11 @@ let
             "file" = "jerotes-1.20.1-1.3.2.1.jar";
             "hash" = "sha512-LvEUIRVVjdU4ZZmLFLi6TsHyN4bRiiNErUCadgj9KXhLNgcaK55EKzHDW2pekutc/FUTk5YKxYgrbYNTbKVZRA==";
         };
+        _yJYuO390 = {
+            "id" = "yJYuO390";
+            "file" = "jerotes-1.20.1-1.3.4.jar";
+            "hash" = "sha512-NZqxzVbIKd7NQyl6gK4b0ZaiMsHa1AN+w7GIvj6WKo0jnLUpEsCC2IHejX5eFoO/5igiG8eO+5s6wx7ZY/VW/A==";
+        };
     in {
         "6ugNYehQ" = _6ugNYehQ;
         "7knPjFyC" = _7knPjFyC;
@@ -56,7 +61,8 @@ let
         "di1K87FO" = _di1K87FO;
         "ZRRZ4tUU" = _ZRRZ4tUU;
         "Rx3c4oKx" = _Rx3c4oKx;
-        "forge-1.20.1" = _Rx3c4oKx;
+        "yJYuO390" = _yJYuO390;
+        "forge-1.20.1" = _yJYuO390;
         "forge-1.20.2" = _di1K87FO;
         "forge-1.20.3" = _di1K87FO;
         "forge-1.20.4" = _di1K87FO;
@@ -71,7 +77,8 @@ let
         "pkg-1.3.1.1" = _di1K87FO;
         "pkg-1.3.2" = _ZRRZ4tUU;
         "pkg-1.3.2.1" = _Rx3c4oKx;
-        "default" = _Rx3c4oKx;
+        "pkg-1.3.4" = _yJYuO390;
+        "default" = _yJYuO390;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jerotes-warehouse";

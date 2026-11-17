@@ -41,6 +41,11 @@ let
             "file" = "no-way-1.4.0.jar";
             "hash" = "sha512-NLstGis6A2ZazuzAFvUwku6/zfCg+WuaGuJIgZno8OMH8rTirEKIF8fKU8CYseVp0u03DWqX3mEuU5PKbtuW7A==";
         };
+        _V0HN4kVh = {
+            "id" = "V0HN4kVh";
+            "file" = "no-way-1.4.1.jar";
+            "hash" = "sha512-91o/Q5TYKC5L5vcBlyXGrihaqzNB176CfXEy2xqIe3M2of1QOtb78O3dI8gTzQpuBpesX0maF35uGHnLiDtnQA==";
+        };
     in {
         "5RnMhPJG" = _5RnMhPJG;
         "dSIr3OYO" = _dSIr3OYO;
@@ -50,6 +55,7 @@ let
         "kOTOPL7R" = _kOTOPL7R;
         "1JFmCU7c" = _1JFmCU7c;
         "fUH4oQrM" = _fUH4oQrM;
+        "V0HN4kVh" = _V0HN4kVh;
         "fabric-1.21.6-pre1" = _5RnMhPJG;
         "fabric-1.21.6-pre2" = _5RnMhPJG;
         "fabric-1.21.6-pre3" = _5RnMhPJG;
@@ -64,7 +70,7 @@ let
         "fabric-26.1.1" = _kOTOPL7R;
         "fabric-26.1.2" = _kOTOPL7R;
         "fabric-26.2" = _1JFmCU7c;
-        "fabric-26.3" = _fUH4oQrM;
+        "fabric-26.3" = _V0HN4kVh;
         "pkg-1.0.0" = _5RnMhPJG;
         "pkg-1.1.0" = _dSIr3OYO;
         "pkg-1.1.1" = _Xu0Sf7pD;
@@ -73,7 +79,8 @@ let
         "pkg-1.2.0" = _kOTOPL7R;
         "pkg-1.3.0" = _1JFmCU7c;
         "pkg-1.4.0" = _fUH4oQrM;
-        "default" = _fUH4oQrM;
+        "pkg-1.4.1" = _V0HN4kVh;
+        "default" = _V0HN4kVh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-way";

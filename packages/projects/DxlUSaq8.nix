@@ -101,6 +101,21 @@ let
             "file" = "additional-armoury-2.0.3+1.21.11.jar";
             "hash" = "sha512-wB6xkIKBlbAEgQNagIN8PAczemLrutVWOYFP0/Na1ruE0YsUUSR0RJpgZgqImgl4bZ/RQi66iD8YydZpfnbw1w==";
         };
+        _ws8Kv4KY = {
+            "id" = "ws8Kv4KY";
+            "file" = "Additional-Armoury-2.1.0+26.1.2.jar";
+            "hash" = "sha512-tjjiR3MNaSjAB/KKc34ynXaiw88L5UNtiOGX+LBAYp+9Vncro/PlqN4hcqBmDLfNKdaiM3FBm5LsF4CmRvRqTA==";
+        };
+        _T0y4Eixs = {
+            "id" = "T0y4Eixs";
+            "file" = "Additional-Armoury-2.1.0+26.2.jar";
+            "hash" = "sha512-s88FTB1a/rbpjBEiX+r4a3zfwpta3YPeoR+qRVs+8oDZIXS6tMxyZV6v3RVmRlEiNwTXsWdp/9ozu4TB1PHFBw==";
+        };
+        _BBr6UzB1 = {
+            "id" = "BBr6UzB1";
+            "file" = "Additional-Armoury-2.1.0+26.3.jar";
+            "hash" = "sha512-YL8fsilUxzGZy8MZ0oTl2VMsacrMT9s8iXEJHHAa3ENArnKPmz9Y7zWdyvoeumbFpPAoM4vZ+EKsVU3v6cysZA==";
+        };
     in {
         "uDPkiUrG" = _uDPkiUrG;
         "JScgZGpk" = _JScgZGpk;
@@ -122,6 +137,9 @@ let
         "SKYhbtK0" = _SKYhbtK0;
         "l3b9BFDq" = _l3b9BFDq;
         "6XtpimHd" = _6XtpimHd;
+        "ws8Kv4KY" = _ws8Kv4KY;
+        "T0y4Eixs" = _T0y4Eixs;
+        "BBr6UzB1" = _BBr6UzB1;
         "fabric-1.20" = _uDPkiUrG;
         "fabric-1.20.1" = _rh5P09jQ;
         "fabric-1.20.2" = _gUiPZJVp;
@@ -141,6 +159,11 @@ let
         "fabric-1.21.9" = _l3b9BFDq;
         "fabric-1.21.10" = _l3b9BFDq;
         "fabric-1.21.11" = _6XtpimHd;
+        "fabric-26.1" = _ws8Kv4KY;
+        "fabric-26.1.1" = _ws8Kv4KY;
+        "fabric-26.1.2" = _ws8Kv4KY;
+        "fabric-26.2" = _T0y4Eixs;
+        "fabric-26.3" = _BBr6UzB1;
         "quilt-1.20" = _uDPkiUrG;
         "quilt-1.20.1" = _rh5P09jQ;
         "quilt-1.20.2" = _gUiPZJVp;
@@ -160,6 +183,11 @@ let
         "quilt-1.21.9" = _l3b9BFDq;
         "quilt-1.21.10" = _l3b9BFDq;
         "quilt-1.21.11" = _6XtpimHd;
+        "quilt-26.1" = _ws8Kv4KY;
+        "quilt-26.1.1" = _ws8Kv4KY;
+        "quilt-26.1.2" = _ws8Kv4KY;
+        "quilt-26.2" = _T0y4Eixs;
+        "quilt-26.3" = _BBr6UzB1;
         "pkg-1.0.0+1.20.1" = _uDPkiUrG;
         "pkg-1.0.0+1.20.2" = _JScgZGpk;
         "pkg-1.0.0+1.20.4" = _EmVWAeyR;
@@ -180,7 +208,10 @@ let
         "pkg-2.0.3+1.21.5" = _SKYhbtK0;
         "pkg-2.0.3+1.21.10" = _l3b9BFDq;
         "pkg-2.0.3+1.21.11" = _6XtpimHd;
-        "default" = _6XtpimHd;
+        "pkg-2.1.0+26.1.2" = _ws8Kv4KY;
+        "pkg-2.1.0+26.2" = _T0y4Eixs;
+        "pkg-2.1.0+26.3" = _BBr6UzB1;
+        "default" = _BBr6UzB1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "additional-armoury";

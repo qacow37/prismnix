@@ -216,6 +216,11 @@ let
             "file" = "vintage-1.21.1-1.6.5.jar";
             "hash" = "sha512-tJIRDHwYlZjCzUxUKhnJvG+4mpsLkciOfPMyh2qpC2Rq/c4C/S2CkhJmet2GDvGNvd3noO2g8FiiNMmCMEz8FA==";
         };
+        _qZVJT4be = {
+            "id" = "qZVJT4be";
+            "file" = "vintage-fabric-1.20.1-1.6.4-fabric.jar";
+            "hash" = "sha512-jaJQfmFDldWHMNqPLnYnFnhMbJrFtoF6me0YFrg3OxcgzCiONFgwO28x1QtAakn3CwHJb94P3CuE1Iiy0i0Nqw==";
+        };
     in {
         "GazXaDyq" = _GazXaDyq;
         "4BoYaeG3" = _4BoYaeG3;
@@ -260,8 +265,10 @@ let
         "p4zDPwzI" = _p4zDPwzI;
         "1U05zPuF" = _1U05zPuF;
         "8Xn8084G" = _8Xn8084G;
+        "qZVJT4be" = _qZVJT4be;
         "forge-1.20.1" = _p4zDPwzI;
         "neoforge-1.21.1" = _8Xn8084G;
+        "fabric-1.20.1" = _qZVJT4be;
         "pkg-1.20.1-1.1.0" = _GazXaDyq;
         "pkg-1.20.1-1.2.0" = _4BoYaeG3;
         "pkg-1.20.1-1.2.5" = _RPrxh1Kk;
@@ -302,10 +309,10 @@ let
         "pkg-1.20.1-1.6.2" = _CkOWJYOZ;
         "pkg-1.20.1-1.6.3" = _gcBNexsM;
         "pkg-1.21.1-1.6.3" = _jxbnjFb3;
-        "pkg-1.20.1-1.6.4" = _p4zDPwzI;
+        "pkg-1.20.1-1.6.4" = _qZVJT4be;
         "pkg-1.21.1-1.6.4" = _1U05zPuF;
         "pkg-1.21.1-1.6.5" = _8Xn8084G;
-        "default" = _8Xn8084G;
+        "default" = _qZVJT4be;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-vintage-(unofficial-port)";

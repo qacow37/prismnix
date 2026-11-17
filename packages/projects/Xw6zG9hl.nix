@@ -231,6 +231,11 @@ let
             "file" = "GeOre-26.1.2-8.1.0.jar";
             "hash" = "sha512-LKmKgK7eCNEVu8DYFeHfx91cybMaCSBuLYXDKgZO2krzvkb5JSjOKNmbgYnWpFJjlD4cfWRxU0akCHwhaPfs4A==";
         };
+        _Kq33EMpo = {
+            "id" = "Kq33EMpo";
+            "file" = "GeOre-26.3-9.0.0.jar";
+            "hash" = "sha512-3b/fnhza0V0sCkKkqPEA+l5s4+Q9fMFhSzk6HsAX6TdyByHCOsOTnZoy7bEF4WBFqJiXp8X3NlJQjMPzW3fraA==";
+        };
     in {
         "PntlZxjb" = _PntlZxjb;
         "14CF7A6D" = _14CF7A6D;
@@ -278,6 +283,7 @@ let
         "YgbGBJdN" = _YgbGBJdN;
         "73hXLxdm" = _73hXLxdm;
         "Pwl7e857" = _Pwl7e857;
+        "Kq33EMpo" = _Kq33EMpo;
         "forge-1.18.2" = _4Uz81xFx;
         "forge-1.17.1" = _14CF7A6D;
         "forge-1.19" = _ihsiN5tb;
@@ -296,6 +302,7 @@ let
         "neoforge-1.21.11" = _K5xDsRYS;
         "neoforge-26.1" = _hZ5tkb9Y;
         "neoforge-26.1.2" = _Pwl7e857;
+        "neoforge-26.3" = _Kq33EMpo;
         "pkg-1.3.0" = _PntlZxjb;
         "pkg-1.0.0" = _14CF7A6D;
         "pkg-2.0.0.0" = _7fBeEjpE;
@@ -340,7 +347,8 @@ let
         "pkg-8.0.7" = _YgbGBJdN;
         "pkg-6.2.4" = _73hXLxdm;
         "pkg-8.1.0" = _Pwl7e857;
-        "default" = _Pwl7e857;
+        "pkg-9.0.0" = _Kq33EMpo;
+        "default" = _Kq33EMpo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geore";

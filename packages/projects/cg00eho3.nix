@@ -341,6 +341,66 @@ let
             "file" = "BuildCraftRedux-2026.3.2+mc26.2.jar";
             "hash" = "sha512-0QkP76bvNBdBbh3eBncNTdY+R/sHMhnrdxkz/fsnV+UNaEPQk7Mq274xgFXilEps/sSdAyygEu9fLTtUwjPoFw==";
         };
+        _272d5zuB = {
+            "id" = "272d5zuB";
+            "file" = "BuildCraftRedux-2026.4.0+mc26.3.jar";
+            "hash" = "sha512-r2gVJOQYAb4FbDNzT9wcaAMvjecEOmSQaNY5ZcFBo7zLxVyOKNsPylmf92gIpcQvip0oAoxu4x6XnqHegNfVQg==";
+        };
+        _o9MQbMiH = {
+            "id" = "o9MQbMiH";
+            "file" = "BuildCraftRedux-2026.4.0+mc1.21.1.jar";
+            "hash" = "sha512-VzWP5RocjVx8mxn/TQ3kangGcvlzDxG46E4hoUoAbKXIsFAP5RLhS5CI6SzL0NW2oQUY+q5taDgx9bf0LhDdmw==";
+        };
+        _DbuJoMB0 = {
+            "id" = "DbuJoMB0";
+            "file" = "BuildCraftRedux-2026.4.0+mc1.21.1-fabric.jar";
+            "hash" = "sha512-aSm+q5PN6a4fIaGsi8idmZXgRTA8/Z5lDf228JU+Etb1osyTAgrRTCQevdgk4xg9O1j+hmaed6F8czyDLcdpmQ==";
+        };
+        _5Ll5fXps = {
+            "id" = "5Ll5fXps";
+            "file" = "BuildCraftRedux-2026.4.0+mc1.21.10.jar";
+            "hash" = "sha512-uDJBXb2uK88OncY19Lt+UFdFVzMQvi2qoHBsiAPeJBxMViC/O8mFCCMDJWn1VW+yWrSg1UeNIbiEGdACDlhYGA==";
+        };
+        _IYJJvZnO = {
+            "id" = "IYJJvZnO";
+            "file" = "BuildCraftRedux-2026.4.0+mc1.21.10-fabric.jar";
+            "hash" = "sha512-6TlIvi7wA0mShtyP0WBirnpL/1rIrQ69QSxes+1PcFJzmjArrTIvKg00FfqwnV+hTnisEsghM8P5dHcevsg5Xw==";
+        };
+        _5eVYWKH6 = {
+            "id" = "5eVYWKH6";
+            "file" = "BuildCraftRedux-2026.4.0+mc1.21.11.jar";
+            "hash" = "sha512-ITSVq9DhqDMzLkzwyWr5sx07026WhfawuWspOCk4+PUN/y/C90/fdo7N4YTp9jz0g02QVqwvMqBvUoIxRnDt4w==";
+        };
+        _Twaicxox = {
+            "id" = "Twaicxox";
+            "file" = "BuildCraftRedux-2026.4.0+mc1.21.11-fabric.jar";
+            "hash" = "sha512-9TXqKoC4yq5A/GqE3e6fiIWPC1Zcn1IK76K6TGWkk4AwXeDLNYa1DFWnAPxFzpRenKSp73Ml6+X2wJLQtpNijg==";
+        };
+        _BRNTK0pF = {
+            "id" = "BRNTK0pF";
+            "file" = "BuildCraftRedux-2026.4.0+mc26.1.2.jar";
+            "hash" = "sha512-36V5Tk1xdPNHPWtfR5QuepC61cfprnC3rJSxDP+PIB0P5fd+unYVbQ/Lwiv+QIbXwodsa8e9tLg2ewb3qVyDzA==";
+        };
+        _a9u47SoX = {
+            "id" = "a9u47SoX";
+            "file" = "BuildCraftRedux-2026.4.0+mc26.1.2-fabric.jar";
+            "hash" = "sha512-dQERBeL0qxxT+vg5vu5xnXh0+zmcfJriblHyHAlhCyNOMNc8CfHtKNsBaJl9lDiQWraBnmMFKioxsX8TDgFbvQ==";
+        };
+        _NkOHe05A = {
+            "id" = "NkOHe05A";
+            "file" = "BuildCraftRedux-2026.4.0+mc26.2.jar";
+            "hash" = "sha512-vcDQXCsTY7/911s952DFusFLeB/J7zQfI6Yva595jeD02sz1sN3zCjLPxSWjhJ0Qgtkk7QG16hxzU6BFYyMFzQ==";
+        };
+        _fqkLm4Z1 = {
+            "id" = "fqkLm4Z1";
+            "file" = "BuildCraftRedux-2026.4.0+mc26.2-fabric.jar";
+            "hash" = "sha512-ThC/7dHPGJjcz+xiejMgZnYuLHG6cAGQMIXbDN81FHKIQLynbf20ioZem11KpykYkHoeLE5UsWPAUsZpt9YxsQ==";
+        };
+        _1Gt6NOPz = {
+            "id" = "1Gt6NOPz";
+            "file" = "BuildCraftRedux-2026.4.0+mc26.3-fabric.jar";
+            "hash" = "sha512-v7rLsI5+nkpyLrFt8YjZXKIMvjBqSjju+HSLjWBR6BzK8Ohf09/hgUwndXZ+P6Nb/S3l143szoH1dLtOsHLDFg==";
+        };
     in {
         "5CkTYrGd" = _5CkTYrGd;
         "f88TyvZ3" = _f88TyvZ3;
@@ -410,14 +470,38 @@ let
         "hRp8ug4G" = _hRp8ug4G;
         "KzLxUx2y" = _KzLxUx2y;
         "5XUrrpDA" = _5XUrrpDA;
-        "neoforge-1.21.11" = _hRp8ug4G;
+        "272d5zuB" = _272d5zuB;
+        "o9MQbMiH" = _o9MQbMiH;
+        "DbuJoMB0" = _DbuJoMB0;
+        "5Ll5fXps" = _5Ll5fXps;
+        "IYJJvZnO" = _IYJJvZnO;
+        "5eVYWKH6" = _5eVYWKH6;
+        "Twaicxox" = _Twaicxox;
+        "BRNTK0pF" = _BRNTK0pF;
+        "a9u47SoX" = _a9u47SoX;
+        "NkOHe05A" = _NkOHe05A;
+        "fqkLm4Z1" = _fqkLm4Z1;
+        "1Gt6NOPz" = _1Gt6NOPz;
+        "neoforge-1.21.11" = _5eVYWKH6;
         "neoforge-26.1" = _eXypQlq0;
         "neoforge-26.1.1" = _eXypQlq0;
-        "neoforge-26.1.2" = _KzLxUx2y;
-        "neoforge-1.21.1" = _4CcN2EBb;
-        "neoforge-1.21.10" = _jmvbCK1q;
-        "neoforge-26.2" = _5XUrrpDA;
-        "neoforge-26.3" = _JW1tYY5T;
+        "neoforge-26.1.2" = _BRNTK0pF;
+        "neoforge-1.21.1" = _o9MQbMiH;
+        "neoforge-1.21.10" = _5Ll5fXps;
+        "neoforge-26.2" = _NkOHe05A;
+        "neoforge-26.3" = _272d5zuB;
+        "fabric-1.21.1" = _DbuJoMB0;
+        "fabric-1.21.10" = _IYJJvZnO;
+        "fabric-1.21.11" = _Twaicxox;
+        "fabric-26.1.2" = _a9u47SoX;
+        "fabric-26.2" = _fqkLm4Z1;
+        "fabric-26.3" = _1Gt6NOPz;
+        "quilt-1.21.1" = _DbuJoMB0;
+        "quilt-1.21.10" = _IYJJvZnO;
+        "quilt-1.21.11" = _Twaicxox;
+        "quilt-26.1.2" = _a9u47SoX;
+        "quilt-26.2" = _fqkLm4Z1;
+        "quilt-26.3" = _1Gt6NOPz;
         "pkg-1.21.11-8.0.0-ar1" = _5CkTYrGd;
         "pkg-1.21.11_8.0.0-FINAL" = _f88TyvZ3;
         "pkg-26.1_8.0.0-br1" = _Q839ADRU;
@@ -486,7 +570,19 @@ let
         "pkg-2026.3.2+mc1.21.11" = _hRp8ug4G;
         "pkg-2026.3.2+mc26.1.2" = _KzLxUx2y;
         "pkg-2026.3.2+mc26.2" = _5XUrrpDA;
-        "default" = _5XUrrpDA;
+        "pkg-2026.4.0+mc26.3" = _272d5zuB;
+        "pkg-2026.4.0+mc1.21.1" = _o9MQbMiH;
+        "pkg-2026.4.0+mc1.21.1-fabric" = _DbuJoMB0;
+        "pkg-2026.4.0+mc1.21.10" = _5Ll5fXps;
+        "pkg-2026.4.0+mc1.21.10-fabric" = _IYJJvZnO;
+        "pkg-2026.4.0+mc1.21.11" = _5eVYWKH6;
+        "pkg-2026.4.0+mc1.21.11-fabric" = _Twaicxox;
+        "pkg-2026.4.0+mc26.1.2" = _BRNTK0pF;
+        "pkg-2026.4.0+mc26.1.2-fabric" = _a9u47SoX;
+        "pkg-2026.4.0+mc26.2" = _NkOHe05A;
+        "pkg-2026.4.0+mc26.2-fabric" = _fqkLm4Z1;
+        "pkg-2026.4.0+mc26.3-fabric" = _1Gt6NOPz;
+        "default" = _1Gt6NOPz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildcraft-unofficial";

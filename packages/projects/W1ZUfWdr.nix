@@ -31,6 +31,11 @@ let
             "file" = "simulatedcoasters-0.1.5.jar";
             "hash" = "sha512-H9MaqsY3VefN923hSYyeCziXOXfmaq9J44B3TsMKGwmDTxxE4+nMyWVAPUQOTK/Ea85C+DMHl5v3kLZonTz7Hw==";
         };
+        _HQOOL6Do = {
+            "id" = "HQOOL6Do";
+            "file" = "simulatedcoasters-0.1.6.jar";
+            "hash" = "sha512-UcEQtWv3CiQF210/G7VueWhumw9+lqUkbjfRHG8p4s0kBWeJOzgNb2BWwYNO3ruedjisoVOKCf+eQsO+8tf+eQ==";
+        };
     in {
         "IXr3Jch9" = _IXr3Jch9;
         "iOm9m3BL" = _iOm9m3BL;
@@ -38,14 +43,16 @@ let
         "CUlWYAXX" = _CUlWYAXX;
         "RIBBfVi3" = _RIBBfVi3;
         "PGhQoSBq" = _PGhQoSBq;
-        "neoforge-1.21.1" = _PGhQoSBq;
+        "HQOOL6Do" = _HQOOL6Do;
+        "neoforge-1.21.1" = _HQOOL6Do;
         "pkg-0.1" = _IXr3Jch9;
         "pkg-0.1.1" = _iOm9m3BL;
         "pkg-0.1.2" = _WtNrH6lS;
         "pkg-0.1.3" = _CUlWYAXX;
         "pkg-0.1.4" = _RIBBfVi3;
         "pkg-0.1.5" = _PGhQoSBq;
-        "default" = _PGhQoSBq;
+        "pkg-0.1.6" = _HQOOL6Do;
+        "default" = _HQOOL6Do;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-coasters-simulated";

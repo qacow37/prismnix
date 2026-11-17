@@ -26,19 +26,26 @@ let
             "file" = "bigsmall-1.1.0.jar";
             "hash" = "sha512-6T5O0jybDBJ9dQeodTK8k2Ot52aF3CYNgGUMNm15ihPTMU1t4lKxVcyv63nTGt2VByftIAVw6HiXRxicjMXHlg==";
         };
+        _5kOKCrIi = {
+            "id" = "5kOKCrIi";
+            "file" = "bigsmall-1.1.1.jar";
+            "hash" = "sha512-9eH+xA9cP4XHaccyROCz21yaw7+qlJwP+CXs5ExEEUZjRGGSuI1pQYJ3O9OFcAAlkPsdFbJnbkbfUaALn3GHzw==";
+        };
     in {
         "NawQfrXU" = _NawQfrXU;
         "GgOnoy1w" = _GgOnoy1w;
         "SO35ZHVA" = _SO35ZHVA;
         "GTMzGPa2" = _GTMzGPa2;
         "wMQc4CjE" = _wMQc4CjE;
+        "5kOKCrIi" = _5kOKCrIi;
         "datapack-1.21.1" = _GgOnoy1w;
-        "fabric-1.21.1" = _wMQc4CjE;
+        "fabric-1.21.1" = _5kOKCrIi;
         "pkg-1.0" = _NawQfrXU;
         "pkg-1.0.1" = _GgOnoy1w;
         "pkg-1.0.1+mod" = _GTMzGPa2;
         "pkg-1.1" = _wMQc4CjE;
-        "default" = _wMQc4CjE;
+        "pkg-1.1.1" = _5kOKCrIi;
+        "default" = _5kOKCrIi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-big-and-small";

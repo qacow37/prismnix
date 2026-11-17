@@ -206,6 +206,16 @@ let
             "file" = "better-hp-26.1.x-1.1.0.jar";
             "hash" = "sha512-8eInIQQvsGHPV9dj0JH6CwcKvMCfrXPDSF6H4HxXJqFRveIxsAuO6wyZYjF4m9O1eW/mAq6SoWrbGKx32+TeHQ==";
         };
+        _6ZUXRyst = {
+            "id" = "6ZUXRyst";
+            "file" = "better_hp-8.2.1-1.20.1-forge.jar";
+            "hash" = "sha512-nFt9FAnP3nXD00/PWQ8YGNW1GtN0Cu2eK9bqC2yEV8eDtGfVnVEGi4z5Xnfr0i5K6NDHODPE+4wg0Y4mb0xJxQ==";
+        };
+        _mCo0ODhc = {
+            "id" = "mCo0ODhc";
+            "file" = "better_hp-2.3.1-1.21.1.jar";
+            "hash" = "sha512-nczSAssy/hp9y4UgpuYvzVwHP71lMyiId0smm131w9F14RxWZpHI+g1SlrdqNNfp87ECuOMuxNhPBrAxZEDxZg==";
+        };
     in {
         "rtPJ1FEL" = _rtPJ1FEL;
         "WeiZbTgn" = _WeiZbTgn;
@@ -248,6 +258,8 @@ let
         "84HGsbGG" = _84HGsbGG;
         "jQl2eXVP" = _jQl2eXVP;
         "DW0LOXVA" = _DW0LOXVA;
+        "6ZUXRyst" = _6ZUXRyst;
+        "mCo0ODhc" = _mCo0ODhc;
         "fabric-1.20.1" = _xauKkwfv;
         "fabric-1.20.2" = _8MCIS1M3;
         "fabric-1.20.3" = _8MCIS1M3;
@@ -262,7 +274,7 @@ let
         "fabric-26.1.1" = _DW0LOXVA;
         "fabric-26.1.2" = _DW0LOXVA;
         "fabric-26.1" = _DW0LOXVA;
-        "forge-1.20.1" = _HbMLjidM;
+        "forge-1.20.1" = _6ZUXRyst;
         "forge-1.20.2" = _O5ioXJAx;
         "forge-1.20.3" = _O5ioXJAx;
         "forge-1.20.4" = _Iu5SNaqa;
@@ -270,7 +282,7 @@ let
         "forge-1.20.6" = _C0emSjGq;
         "neoforge-1.20.1" = _O5ioXJAx;
         "neoforge-1.21" = _gODVyFdj;
-        "neoforge-1.21.1" = _iTthZU2f;
+        "neoforge-1.21.1" = _mCo0ODhc;
         "neoforge-1.21.2" = _gODVyFdj;
         "neoforge-1.21.3" = _gODVyFdj;
         "neoforge-1.20.2" = _O5ioXJAx;
@@ -317,7 +329,9 @@ let
         "pkg-1.21.11-1.1.0" = _84HGsbGG;
         "pkg-1.1.0-26.1.x" = _jQl2eXVP;
         "pkg-26.1.x-1.1.0" = _DW0LOXVA;
-        "default" = _DW0LOXVA;
+        "pkg-8.2.1-1.20.1-forge" = _6ZUXRyst;
+        "pkg-2.3.1-1.21.1" = _mCo0ODhc;
+        "default" = _mCo0ODhc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterhp";

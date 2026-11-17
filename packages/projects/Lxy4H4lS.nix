@@ -286,6 +286,31 @@ let
             "file" = "pkc-fabric-1.20.4-1.17.0.jar";
             "hash" = "sha512-RnbqzEwEkas6gPNqz5+0C8QFrySi4RcRYRFEZ9/aXs93QPswBtaC22PtSh/OjRVGC3kcAERX7TuZ1okZLM6fjQ==";
         };
+        _AYbdDbMm = {
+            "id" = "AYbdDbMm";
+            "file" = "pkc-fabric-26.3-1.18.0.jar";
+            "hash" = "sha512-icmbzRdvdXNcuvqRynrSKInrDe6m58WvE+xvyLjJJEqJRlB0UWBrt8/MbKGPZU54zEabOcWt6CWKjmAQznPLeQ==";
+        };
+        _eVBPMI1G = {
+            "id" = "eVBPMI1G";
+            "file" = "pkc-fabric-1.21.3-1.18.0.jar";
+            "hash" = "sha512-OID0UtoUVINI/beAzWiwTjSjEN71ubG+yMRW1B8qsdpoFPrt/+cI4CILR9bhu6uCX+qkdJVaN8/lkMMKmJjJQA==";
+        };
+        _cGzRPRr4 = {
+            "id" = "cGzRPRr4";
+            "file" = "pkc-forge-1.12.2-1.18.0.jar";
+            "hash" = "sha512-fGx1rlGqx7W32PeleiX8BOwaEqzCFaWVMxWAR0z7TNeKYLjut3dPEjH4S6b7lcbxphxMwbRqOnxrD5SvixVM2Q==";
+        };
+        _2C1bC3jz = {
+            "id" = "2C1bC3jz";
+            "file" = "pkc-fabric-1.20.4-1.18.0.jar";
+            "hash" = "sha512-xdh7ZTokQIKY75yT9MtXJM74CA99+gpjwEwmr4nIAUzhPjk5XNtTQzH5RTR8R6uH3MauhfJfvvMIZYo/+5y1WA==";
+        };
+        _LHHaCUzo = {
+            "id" = "LHHaCUzo";
+            "file" = "pkc-forge-1.8.9-1.18.0.jar";
+            "hash" = "sha512-PyAnRAbM6LMm9RFyT+ObEByyul29+PcOosx9MZVhCebbJCYs7Iv++y80ui5CZZiPRS0VvufPl9Pz8JbAuEigeQ==";
+        };
     in {
         "5KeRQBYa" = _5KeRQBYa;
         "HkGBzDcQ" = _HkGBzDcQ;
@@ -344,13 +369,18 @@ let
         "oCdh7whj" = _oCdh7whj;
         "D64Rluyg" = _D64Rluyg;
         "HFDBLpJr" = _HFDBLpJr;
-        "forge-1.8.9" = _dVbiqKGH;
-        "forge-1.12.2" = _D64Rluyg;
+        "AYbdDbMm" = _AYbdDbMm;
+        "eVBPMI1G" = _eVBPMI1G;
+        "cGzRPRr4" = _cGzRPRr4;
+        "2C1bC3jz" = _2C1bC3jz;
+        "LHHaCUzo" = _LHHaCUzo;
+        "forge-1.8.9" = _LHHaCUzo;
+        "forge-1.12.2" = _cGzRPRr4;
         "fabric-1.21.10" = _FK2a7lfE;
         "fabric-26.2" = _92sDh7PP;
-        "fabric-1.21.3" = _oCdh7whj;
-        "fabric-26.3" = _PmhiNbmB;
-        "fabric-1.20.4" = _HFDBLpJr;
+        "fabric-1.21.3" = _eVBPMI1G;
+        "fabric-26.3" = _AYbdDbMm;
+        "fabric-1.20.4" = _2C1bC3jz;
         "pkg-1.5.1" = _aDqr0iPL;
         "pkg-1.6.0" = _Hb2dxEm3;
         "pkg-1.6.1" = _FK2a7lfE;
@@ -367,7 +397,8 @@ let
         "pkg-1.16.0" = _hZfxotE3;
         "pkg-1.16.1" = _ZGnlSgrq;
         "pkg-1.17.0" = _HFDBLpJr;
-        "default" = _HFDBLpJr;
+        "pkg-1.18.0" = _LHHaCUzo;
+        "default" = _LHHaCUzo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "parkourcalculator";

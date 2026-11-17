@@ -146,6 +146,11 @@ let
             "file" = "valkyrielib-neoforge-1.21.1-3.2.1.jar";
             "hash" = "sha512-X7Nnxbct4HNzakh7RJJ7rKke6ueB245i1c8/tL6WwwXYeIA3KRbRBh9LNxaKRaauP3Tk3T/eyoe46hyfe9ZBDQ==";
         };
+        _SKrow8G1 = {
+            "id" = "SKrow8G1";
+            "file" = "valkyrielib-neoforge-1.21.1-3.2.2.jar";
+            "hash" = "sha512-n3/xK3RmmvNLFj5azx3UvP7a8SEeOA3T2vnUVNTUUNqrfmw3XjViZ1mfBBuEuT8W+gDnAigRtACdN7+MekhmYw==";
+        };
     in {
         "iIDMzzVW" = _iIDMzzVW;
         "Y5f51jEI" = _Y5f51jEI;
@@ -176,6 +181,7 @@ let
         "OmvbJsXy" = _OmvbJsXy;
         "NbvRqUwV" = _NbvRqUwV;
         "7UGuFhGi" = _7UGuFhGi;
+        "SKrow8G1" = _SKrow8G1;
         "forge-1.19" = _iIDMzzVW;
         "forge-1.19.2" = _GGwN5EB3;
         "forge-1.19.3" = _FSvNBhLg;
@@ -202,7 +208,7 @@ let
         "neoforge-1.20" = _UoMihgnb;
         "neoforge-1.20.1" = _NbvRqUwV;
         "neoforge-1.20.2" = _UoMihgnb;
-        "neoforge-1.21.1" = _7UGuFhGi;
+        "neoforge-1.21.1" = _SKrow8G1;
         "pkg-1.19.2-4.0.0.0" = _iIDMzzVW;
         "pkg-4.0.0.0" = _Y5f51jEI;
         "pkg-1.19.2-4.0.2.0" = _GGwN5EB3;
@@ -229,7 +235,8 @@ let
         "pkg-1.20.1-3.2.0" = _OmvbJsXy;
         "pkg-1.20.1-3.2.1" = _NbvRqUwV;
         "pkg-1.21.1-3.2.1" = _7UGuFhGi;
-        "default" = _7UGuFhGi;
+        "pkg-1.21.1-3.2.2" = _SKrow8G1;
+        "default" = _SKrow8G1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valkyrielib";

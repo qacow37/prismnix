@@ -81,6 +81,11 @@ let
             "file" = "granular_hunger-0.8.2+26.2.jar";
             "hash" = "sha512-PmWXV4ijmO6FfHPuwzEeyTsuzPBVjNgmGxkHnP1gIesGxRZUYwqkoC0OMNXf3WDZLibx1sgyNGCLb4hchgodOw==";
         };
+        _cyKhFNYZ = {
+            "id" = "cyKhFNYZ";
+            "file" = "granular-hunger-0.8+1.21.1.jar";
+            "hash" = "sha512-oVxGtXo2J1LTf5JweMKjzkTxLdXfz/bT742h40/rVUpdL59a3NyUdSGnPQiEbiNwgQ6AcWzx7E6J2sn1Sy9dvg==";
+        };
     in {
         "r3J4OCgJ" = _r3J4OCgJ;
         "BjRrS8pF" = _BjRrS8pF;
@@ -98,7 +103,8 @@ let
         "Adg8lSkb" = _Adg8lSkb;
         "ZywxR7i1" = _ZywxR7i1;
         "AFBtcywT" = _AFBtcywT;
-        "fabric-1.21.1" = _526phzAj;
+        "cyKhFNYZ" = _cyKhFNYZ;
+        "fabric-1.21.1" = _cyKhFNYZ;
         "fabric-1.21.11" = _234u3qto;
         "fabric-26.2" = _AFBtcywT;
         "pkg-0.2" = _r3J4OCgJ;
@@ -117,7 +123,8 @@ let
         "pkg-0.8+26.2" = _Adg8lSkb;
         "pkg-0.8.1+26.2" = _ZywxR7i1;
         "pkg-0.8.2+26.2" = _AFBtcywT;
-        "default" = _AFBtcywT;
+        "pkg-0.8+1.21.1" = _cyKhFNYZ;
+        "default" = _cyKhFNYZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "granular-hunger";

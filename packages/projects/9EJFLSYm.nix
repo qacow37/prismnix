@@ -101,6 +101,11 @@ let
             "file" = "CosmereSandmastery-1.20.1-47.3.0-0.7.113.jar";
             "hash" = "sha512-EmM20yFxGan07ha7tZR7yTyq1AJiDlLXyo/DwAcZtbE1iPuJP5wr/5jmdtd/gy2raIUbYvRT7g2p4y49PZHNXQ==";
         };
+        _7R2gtY90 = {
+            "id" = "7R2gtY90";
+            "file" = "CosmereSandmastery-1.21.1-21.1.219-0.8.114.jar";
+            "hash" = "sha512-kHe4XGrouyNZSRjA1G+cpz+exbHij1FqXCHBEhaNVEjXXCXM3GFsgSysPVXreAByuyDliyU39ha8Bfotd0zYrg==";
+        };
     in {
         "AR6AMdfx" = _AR6AMdfx;
         "5uuZ4NC1" = _5uuZ4NC1;
@@ -122,9 +127,11 @@ let
         "cfnLtYcQ" = _cfnLtYcQ;
         "px88vCCe" = _px88vCCe;
         "wquDnZpS" = _wquDnZpS;
+        "7R2gtY90" = _7R2gtY90;
         "forge-1.19.2" = _tftZF70E;
         "forge-1.20.1" = _wquDnZpS;
         "neoforge-1.20.1" = _wquDnZpS;
+        "neoforge-1.21.1" = _7R2gtY90;
         "pkg-0.5.88" = _AR6AMdfx;
         "pkg-0.5.89" = _5uuZ4NC1;
         "pkg-0.5.90" = _HKCibYtD;
@@ -145,7 +152,8 @@ let
         "pkg-0.7.111" = _cfnLtYcQ;
         "pkg-0.7.112" = _px88vCCe;
         "pkg-0.7.113" = _wquDnZpS;
-        "default" = _wquDnZpS;
+        "pkg-0.8.114" = _7R2gtY90;
+        "default" = _7R2gtY90;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sandmastery";

@@ -71,6 +71,11 @@ let
             "file" = "My Hero Craft-31.0.0.jar";
             "hash" = "sha512-ljvpKZEs6dJYowOLW0gg7mQBTdFrQp9UaGHcTKoX29zeucyO4/dNZS62Bvftx0u0pJmDwEbMisZ2v+taeuD0QQ==";
         };
+        _s3Lptfek = {
+            "id" = "s3Lptfek";
+            "file" = "My Hero Craft-32.0.2.jar";
+            "hash" = "sha512-4NZuCTbufZBkd3bwUDmDwcIx6hsYMXI3wEPLu5I/HFVIoHjsLH1qYIMtr6RSOjifNWuBPBZR0aNwucv78ORyuA==";
+        };
     in {
         "WFRjQKZq" = _WFRjQKZq;
         "9rBN41WC" = _9rBN41WC;
@@ -86,7 +91,8 @@ let
         "vfy3VEbr" = _vfy3VEbr;
         "DVkE2yc4" = _DVkE2yc4;
         "k3vZNIuO" = _k3vZNIuO;
-        "forge-1.20.1" = _k3vZNIuO;
+        "s3Lptfek" = _s3Lptfek;
+        "forge-1.20.1" = _s3Lptfek;
         "pkg-22.0.1" = _WFRjQKZq;
         "pkg-23.0.0" = _9rBN41WC;
         "pkg-24.0.0" = _VK0jSiPq;
@@ -101,7 +107,8 @@ let
         "pkg-28.0.2" = _vfy3VEbr;
         "pkg-28.0.3" = _DVkE2yc4;
         "pkg-31.0.0" = _k3vZNIuO;
-        "default" = _k3vZNIuO;
+        "pkg-32.0.2" = _s3Lptfek;
+        "default" = _s3Lptfek;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my-hero-craft";

@@ -131,6 +131,16 @@ let
             "file" = "World_PIDS-Pack-210.zip";
             "hash" = "sha512-M2n9vp5hHgKCVC2kyjPoot72FniMiIvyFVbHKMJjaQPrcvXvVB+96BIa5WZzPr1bRMSqTdFZeN1dNrHIDq+cdA==";
         };
+        _Qe6G9g7r = {
+            "id" = "Qe6G9g7r";
+            "file" = "World_PIDS-Pack-220.zip";
+            "hash" = "sha512-Y75m5Kpq91HGePailREKGcgYvsuzTuAVYmURGgkWXy5lW4OB9I8FG9A1bO4nItl64UJMxNawF4tRzuAmpz4I4A==";
+        };
+        _ioCv5mVa = {
+            "id" = "ioCv5mVa";
+            "file" = "World_PIDS-Pack-221.zip";
+            "hash" = "sha512-3KzQb4ESVcMM13Jzigi1IQMTuTLnZK3A5x/Pj3CnyXp9w58a2WOrqe9FgceudCxOk06Ofh+UGTptSizzlc8QAw==";
+        };
     in {
         "dFfyg6e6" = _dFfyg6e6;
         "brV6kdLb" = _brV6kdLb;
@@ -158,13 +168,15 @@ let
         "1OYeKeSc" = _1OYeKeSc;
         "mvNxsqhQ" = _mvNxsqhQ;
         "GqJ05PiA" = _GqJ05PiA;
+        "Qe6G9g7r" = _Qe6G9g7r;
+        "ioCv5mVa" = _ioCv5mVa;
         "minecraft-1.16.5" = _8sSfzR6l;
-        "minecraft-1.17.1" = _GqJ05PiA;
-        "minecraft-1.18.2" = _GqJ05PiA;
-        "minecraft-1.19.2" = _GqJ05PiA;
-        "minecraft-1.19.4" = _GqJ05PiA;
-        "minecraft-1.20.1" = _GqJ05PiA;
-        "minecraft-1.20.4" = _GqJ05PiA;
+        "minecraft-1.17.1" = _ioCv5mVa;
+        "minecraft-1.18.2" = _ioCv5mVa;
+        "minecraft-1.19.2" = _ioCv5mVa;
+        "minecraft-1.19.4" = _ioCv5mVa;
+        "minecraft-1.20.1" = _ioCv5mVa;
+        "minecraft-1.20.4" = _ioCv5mVa;
         "pkg-beta-1" = _dFfyg6e6;
         "pkg-beta-2" = _brV6kdLb;
         "pkg-beta-3" = _BebyQcwS;
@@ -191,7 +203,9 @@ let
         "pkg-v1113" = _1OYeKeSc;
         "pkg-v200" = _mvNxsqhQ;
         "pkg-v210" = _GqJ05PiA;
-        "default" = _GqJ05PiA;
+        "pkg-v220" = _Qe6G9g7r;
+        "pkg-v221" = _ioCv5mVa;
+        "default" = _ioCv5mVa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-pids-pack";

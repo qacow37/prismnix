@@ -521,6 +521,16 @@ let
             "file" = "saturation_plus-1.3.1-neoforge-1.21.11.jar";
             "hash" = "sha512-pgcBJ5xZEXrkzMl9zwa+CbRk5lsm4JFg2wm+zGRRZsBf6YnNF/slVyUE52Cjs/js8mAymDTPieHXlLprtg/IlA==";
         };
+        _YhKvVmIt = {
+            "id" = "YhKvVmIt";
+            "file" = "saturation_plus-1.4.0-1.18.jar";
+            "hash" = "sha512-EWPe3yRkj4/vtmvlRX0yluP2EQlF8whwJygMsVYHri4CLQEQ3Z3bARd1oKK/CWdhXUQ7sia7InEmnV79oBwd1A==";
+        };
+        _jKm2ryXx = {
+            "id" = "jKm2ryXx";
+            "file" = "saturation_plus-1.4.0-1.19.jar";
+            "hash" = "sha512-WlJ/BU1c2wRIBWJqcvl3H1JDLMxtVT8MiYRP0FY8q8gpYviB34m5sGX3J9KhA1T+Y5DL0BBw4ox7DpVrTA7uUQ==";
+        };
     in {
         "Wm188JVi" = _Wm188JVi;
         "TOvM87xE" = _TOvM87xE;
@@ -626,6 +636,8 @@ let
         "C7UkJ8vQ" = _C7UkJ8vQ;
         "Vp2gAmut" = _Vp2gAmut;
         "aJ4mVcz0" = _aJ4mVcz0;
+        "YhKvVmIt" = _YhKvVmIt;
+        "jKm2ryXx" = _jKm2ryXx;
         "fabric-1.14.4" = _ysmoDA0m;
         "fabric-1.15" = _5tAw4bo4;
         "fabric-1.15.1" = _5tAw4bo4;
@@ -638,14 +650,14 @@ let
         "fabric-1.16.5" = _JA5cMaoL;
         "fabric-1.17" = _UCGkiZs2;
         "fabric-1.17.1" = _UCGkiZs2;
-        "fabric-1.18" = _lEQRYpXR;
-        "fabric-1.18.1" = _lEQRYpXR;
-        "fabric-1.18.2" = _lEQRYpXR;
-        "fabric-1.19.3" = _FSvin67B;
-        "fabric-1.19.4" = _FSvin67B;
-        "fabric-1.19" = _FSvin67B;
-        "fabric-1.19.1" = _FSvin67B;
-        "fabric-1.19.2" = _FSvin67B;
+        "fabric-1.18" = _YhKvVmIt;
+        "fabric-1.18.1" = _YhKvVmIt;
+        "fabric-1.18.2" = _YhKvVmIt;
+        "fabric-1.19.3" = _jKm2ryXx;
+        "fabric-1.19.4" = _jKm2ryXx;
+        "fabric-1.19" = _jKm2ryXx;
+        "fabric-1.19.1" = _jKm2ryXx;
+        "fabric-1.19.2" = _jKm2ryXx;
         "fabric-1.20" = _hfzmwuqr;
         "fabric-1.20.1" = _hfzmwuqr;
         "fabric-1.20.2" = _WZG4flLV;
@@ -813,7 +825,9 @@ let
         "pkg-1.3.1-neoforge-1.21" = _C7UkJ8vQ;
         "pkg-1.3.1-neoforge-1.21.2" = _Vp2gAmut;
         "pkg-1.3.1-neoforge-1.21.11" = _aJ4mVcz0;
-        "default" = _aJ4mVcz0;
+        "pkg-1.4.0-1.18" = _YhKvVmIt;
+        "pkg-1.4.0-1.19" = _jKm2ryXx;
+        "default" = _jKm2ryXx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturation-plus";

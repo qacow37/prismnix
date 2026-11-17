@@ -241,6 +241,21 @@ let
             "file" = "foutil-0.1.11+mc26.3.jar";
             "hash" = "sha512-DqLq7Q8YR3lbNv1X6I5g8xqPmSg81x8kwES4HRUQKq8v8y00UN1+owfIH4Gu9TFV7ykA4+P6qzR6mUiiIZEfCw==";
         };
+        _XMwfPXNA = {
+            "id" = "XMwfPXNA";
+            "file" = "foutil-0.1.12+mc1.21.11.jar";
+            "hash" = "sha512-tAkAoj6FlAjmHuJ5/GG01SlzKj1wVwA/DisspBH4hgb6mUATshO7p7yCEfJc6ZdM3BFrC75jormlOABSeVhgUQ==";
+        };
+        _RiMIiJ7S = {
+            "id" = "RiMIiJ7S";
+            "file" = "foutil-0.1.12+mc26.2.jar";
+            "hash" = "sha512-smxEZze+Bmo8bjYFSjekyOud6Bn1sCWr6066DatexJMgRpLX/4lEsIZSI8s0AW0tFXPnbMtx357THSnDcW2SLQ==";
+        };
+        _WzdUIFsm = {
+            "id" = "WzdUIFsm";
+            "file" = "foutil-0.1.12+mc26.3.jar";
+            "hash" = "sha512-Zw1PZiivigQnfbPzx8060ksQ5j/K6D0UjM+4T7XPs67vhf1a2O4Ck5zbHBJ7qxInTmXFIXZY7fYnJydrRZ6AJw==";
+        };
     in {
         "9PA2ACum" = _9PA2ACum;
         "koRiRYix" = _koRiRYix;
@@ -290,12 +305,15 @@ let
         "b0ASvZ1A" = _b0ASvZ1A;
         "6AK06OXi" = _6AK06OXi;
         "EiAXEzKO" = _EiAXEzKO;
+        "XMwfPXNA" = _XMwfPXNA;
+        "RiMIiJ7S" = _RiMIiJ7S;
+        "WzdUIFsm" = _WzdUIFsm;
         "fabric-1.21" = _RjvRi9Gt;
         "fabric-1.21.4" = _IQrnAaH1;
         "fabric-1.21.8" = _tyPqI8Am;
-        "fabric-1.21.11" = _b0ASvZ1A;
-        "fabric-26.2" = _6AK06OXi;
-        "fabric-26.3" = _EiAXEzKO;
+        "fabric-1.21.11" = _XMwfPXNA;
+        "fabric-26.2" = _RiMIiJ7S;
+        "fabric-26.3" = _WzdUIFsm;
         "pkg-0.0.4-SNAPSHOT" = _9PA2ACum;
         "pkg-0.0.5" = _koRiRYix;
         "pkg-0.0.9" = _RjvRi9Gt;
@@ -344,7 +362,10 @@ let
         "pkg-0.1.11+1.21.11" = _b0ASvZ1A;
         "pkg-0.1.11+26.2" = _6AK06OXi;
         "pkg-0.1.11+26.3" = _EiAXEzKO;
-        "default" = _EiAXEzKO;
+        "pkg-0.1.12+1.21.11" = _XMwfPXNA;
+        "pkg-0.1.12+26.2" = _RiMIiJ7S;
+        "pkg-0.1.12+26.3" = _WzdUIFsm;
+        "default" = _WzdUIFsm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foutil";

@@ -1071,6 +1071,16 @@ let
             "file" = "SubtleEffects-neoforge-26.3-1.15.2.jar";
             "hash" = "sha512-Pm+w0PH28jqycJYKJqI+d79wDd2n9gd1DhMuZjNdjlGpjkgz0C83upEnMWwltB1fiS66SlgfW6uY8OYNJMiidw==";
         };
+        _QGgOmwz7 = {
+            "id" = "QGgOmwz7";
+            "file" = "SubtleEffects-fabric-1.21.1-1.15.2-hotfix.1.jar";
+            "hash" = "sha512-vaixYg7rUnsekrIAlKb2ErqhTskoLquz9wGoqXsljVlVGwgZc7n9DpXyqRGkqIiCYqXsgRT+7FyIkv+h2sl+SA==";
+        };
+        _w4f4zz6I = {
+            "id" = "w4f4zz6I";
+            "file" = "SubtleEffects-neoforge-1.21.1-1.15.2-hotfix.1.jar";
+            "hash" = "sha512-KYc32966TUzA6SnTMaI5OYvcRADJIwh5TXc8wYq1dkPevMecqNOsdbEptWOfZ6MplTTgMybuydZ66l+N2hf7zw==";
+        };
     in {
         "1d1qmFKW" = _1d1qmFKW;
         "obE8lj6k" = _obE8lj6k;
@@ -1286,7 +1296,9 @@ let
         "CRzOskid" = _CRzOskid;
         "BMMtEpDv" = _BMMtEpDv;
         "jgLfCrS1" = _jgLfCrS1;
-        "fabric-1.21.1" = _4M5eS2fa;
+        "QGgOmwz7" = _QGgOmwz7;
+        "w4f4zz6I" = _w4f4zz6I;
+        "fabric-1.21.1" = _QGgOmwz7;
         "fabric-1.21" = _wFxfk79O;
         "fabric-1.20.1" = _FmVsUs6v;
         "fabric-1.21.3" = _VEFw2Lvl;
@@ -1302,7 +1314,7 @@ let
         "fabric-26.1.2" = _4yHzZnYt;
         "fabric-26.2" = _fqKCIL1l;
         "fabric-26.3" = _BMMtEpDv;
-        "neoforge-1.21.1" = _Xbx8Sis8;
+        "neoforge-1.21.1" = _w4f4zz6I;
         "neoforge-1.21" = _tlhBalp2;
         "neoforge-1.21.3" = _N77XeinY;
         "neoforge-1.21.4" = _Z4pLufCX;
@@ -1357,7 +1369,8 @@ let
         "pkg-1.15.1" = _CCzcYTbG;
         "pkg-1.15.1-hotfix.1" = _Ztgv9kkz;
         "pkg-1.15.2" = _jgLfCrS1;
-        "default" = _jgLfCrS1;
+        "pkg-1.15.2-hotfix.1" = _w4f4zz6I;
+        "default" = _w4f4zz6I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "subtle-effects";

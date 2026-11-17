@@ -346,6 +346,131 @@ let
             "file" = "cobbleapi-1.1.1.jar";
             "hash" = "sha512-wUp9mBM89tnuToXkisqR0/qp/2qMaOjf9PaL/7Ys6l+7CoDEeVjzyI9vS7ZweK39s1ywo2tjT0vbbdQzr4CUBA==";
         };
+        _M3M5e5lN = {
+            "id" = "M3M5e5lN";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-U/bWVTXfJtKvH+UiBfOe2SGCsJEqgdZvS7X7GzEgrSNeQLH1bgbZHjgJv/C49nrSNFmM+ZI0IpgxNlMik/9XUg==";
+        };
+        _KLzqFQb8 = {
+            "id" = "KLzqFQb8";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-8Ha/tdKG93u1T9q0m1MBsVrYGYGzE1WurLSB5hQC7z4L1jGSC8OHaOCAyaR5iPRnRqeDcU5jnRZ9m3ZBBBWNtg==";
+        };
+        _I93McSwL = {
+            "id" = "I93McSwL";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-/U6z/4fJzEtZLk6xgCIy9Rh/FniQ+Ffd/8+w5AA47pc/Zetvuk3QFhXT7N8FojXTh4U9sD9lAxZinQ03voH7Ng==";
+        };
+        _3IZvnli0 = {
+            "id" = "3IZvnli0";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-duTZotx0fdRnGetfhkW1I4LO0bXxDdY7fBE8Awd4R2CRHZCFgyp09hM+p6KsSNmjo6v1pGGgwIosBO7jUjJkJA==";
+        };
+        _I1qX1bZv = {
+            "id" = "I1qX1bZv";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-j4riY3SAM7aYYD96pzI+hWzhOeYOGaTS6wH5rXPciNMZnLvlALAUF+S8HYEC1luzrO5sj2vDxn9Vv6G2WW2TfQ==";
+        };
+        _zLECvkye = {
+            "id" = "zLECvkye";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-ghgJBqyxYyPFPe/GqAB9Bgnz5Ov+69ym6VewFVz8K6L9xF1SF73LKW760xa8e9xuEEskgihWSbUrSK3dfVluhg==";
+        };
+        _GOeH8zW4 = {
+            "id" = "GOeH8zW4";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-i5Mn+VC5LtKhCvwD8uDefyldHzsRaly/x0ojKTDBhWbK6dFcVPJ9sjUM4XEehJIg8fUpiU8ANbVSFVFKj/MnhQ==";
+        };
+        _cmqOx11l = {
+            "id" = "cmqOx11l";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-NCrv4u6dRi13m4992FhYLYBtdEcwHeXH9NWri8YBcycFnflZOSH/YR2UZdeL0tBJpHd6TbHWWWRaKDpE4gSDeA==";
+        };
+        _fuFWRFst = {
+            "id" = "fuFWRFst";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-nY4xE8N/QOl4vhBzttowEhLFPbS95gh9atM3WLFrzfuPMLF23GRvjfSPGGanjys9Hg/U61z/1yOBvsLCavfI7g==";
+        };
+        _PExFOI1R = {
+            "id" = "PExFOI1R";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-7tto8sfVlJ1Kc0DGkqYhfsqO0kc0N/AFF6hF3EY5P1QrX6me2TUJIspCL93VDxNWierOG+NoBYZDwxs5Cq1CLQ==";
+        };
+        _uhkFYl66 = {
+            "id" = "uhkFYl66";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-5e3jy9TP2QTAsfzNtzolGF+FwnR0D7G0bpbwJWJ91ee94y2dCeqJIOz49l3DppnOupBi/xbI4i29LBLMpLR1zA==";
+        };
+        _gXhMlEeq = {
+            "id" = "gXhMlEeq";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-d+5in0syD580C3Dg+Ds7Pw24qi8ogdK32yp05Z1ZU982zrS1iIy8+34jMw80pso/z8WdhavcSThQlmR6qpFgyw==";
+        };
+        _uUFbMgyY = {
+            "id" = "uUFbMgyY";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-neiXdAVHjvyZ+V5nDRg7rR1UOPjEVSOYfPmmsEiWdTbb/fkAP6FmSit7mSzMXic89+tvRFCKTJ0XlK98eGTMWg==";
+        };
+        _tviVXbQh = {
+            "id" = "tviVXbQh";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-ReIbXpcyIgP+2vWOvV27FRiMuy5SS3RZU6cuR5KhtgZeadt6+AnyO8q6b87O8jNQz3S+T+2U87vxh7aKhAE14w==";
+        };
+        _DnAjSEH6 = {
+            "id" = "DnAjSEH6";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-vhhabYmtxmZCZZseHBMjpHjad+VDj6LyOvRy4/W2Ged7cgPIfB3p4jp+AJqdndveDBFG/4bH2cmmGvJH6L23yw==";
+        };
+        _jOLFMxYx = {
+            "id" = "jOLFMxYx";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-x3U70JKZW23otSugIa/E0rc9WsfcCDokpZsfHVQI4HYmLS0dakHYft5GBOgOn9z6RYqW/TjliXDBWtVj0yez1g==";
+        };
+        _AUPvh5Hi = {
+            "id" = "AUPvh5Hi";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-pQTfL5WBXvx9ok2NqO5sd6Gsdz9K7ZGHptF4EyfKOM5jbTqvkY++dMxp8COVX57aejf9+Dn1h3mIZab4TYg6tQ==";
+        };
+        _oHduCnlU = {
+            "id" = "oHduCnlU";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-vT0M5M9cS6R0dOilXsd6qbwgvugUBcBXo9PL2Y73kkpCxh650XWQikixRfSUA/TUU/jMVC8GFe2hRb1oSY6Hmg==";
+        };
+        _Md1TARSJ = {
+            "id" = "Md1TARSJ";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-SNoCpnqfXOz3wyt/hPmBWgI/8ZxL4VEqABESKym+8AhWa4I6jd8c0uHWauAa3Z3LYLoY3tonaaIk17UeE0b3Rw==";
+        };
+        _xrmjvv1l = {
+            "id" = "xrmjvv1l";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-U/bWVTXfJtKvH+UiBfOe2SGCsJEqgdZvS7X7GzEgrSNeQLH1bgbZHjgJv/C49nrSNFmM+ZI0IpgxNlMik/9XUg==";
+        };
+        _LLJcPdFK = {
+            "id" = "LLJcPdFK";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-8Ha/tdKG93u1T9q0m1MBsVrYGYGzE1WurLSB5hQC7z4L1jGSC8OHaOCAyaR5iPRnRqeDcU5jnRZ9m3ZBBBWNtg==";
+        };
+        _H746LJ5k = {
+            "id" = "H746LJ5k";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-/U6z/4fJzEtZLk6xgCIy9Rh/FniQ+Ffd/8+w5AA47pc/Zetvuk3QFhXT7N8FojXTh4U9sD9lAxZinQ03voH7Ng==";
+        };
+        _8ZJu24Bm = {
+            "id" = "8ZJu24Bm";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-duTZotx0fdRnGetfhkW1I4LO0bXxDdY7fBE8Awd4R2CRHZCFgyp09hM+p6KsSNmjo6v1pGGgwIosBO7jUjJkJA==";
+        };
+        _1oyUvtW7 = {
+            "id" = "1oyUvtW7";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-j4riY3SAM7aYYD96pzI+hWzhOeYOGaTS6wH5rXPciNMZnLvlALAUF+S8HYEC1luzrO5sj2vDxn9Vv6G2WW2TfQ==";
+        };
+        _rPi4OlQP = {
+            "id" = "rPi4OlQP";
+            "file" = "cobbleapi-1.1.1.jar";
+            "hash" = "sha512-ghgJBqyxYyPFPe/GqAB9Bgnz5Ov+69ym6VewFVz8K6L9xF1SF73LKW760xa8e9xuEEskgihWSbUrSK3dfVluhg==";
+        };
     in {
         "QtaxzdfI" = _QtaxzdfI;
         "yENmEF8H" = _yENmEF8H;
@@ -416,24 +541,50 @@ let
         "rvtp8jPt" = _rvtp8jPt;
         "5IA3hMpA" = _5IA3hMpA;
         "SL7McyPm" = _SL7McyPm;
-        "neoforge-1.21.4" = _KORs0i2P;
-        "neoforge-1.21.5" = _UVynOIL8;
-        "neoforge-1.21.6" = _bC5h55Me;
-        "neoforge-1.21.7" = _FxdUkHOZ;
-        "neoforge-1.21.8" = _rNt5YUFT;
-        "neoforge-1.21.9" = _DEj4OSz3;
-        "neoforge-1.21.10" = _UwIgxpWR;
-        "neoforge-1.21.11" = _ZXLNfZy1;
-        "neoforge-26.1" = _eacENI7u;
-        "neoforge-26.1.1" = _Hhmko5Wp;
-        "neoforge-26.1.2" = _bjfAslfS;
-        "neoforge-26.2" = _rvtp8jPt;
-        "fabric-1.21.1" = _HaTdIsw0;
-        "fabric-1.21.4" = _uJviI0Dx;
-        "fabric-1.21.8" = _ANzTfP91;
-        "fabric-1.21.11" = _ZmKAEluQ;
-        "fabric-26.1.2" = _SL7McyPm;
-        "fabric-26.2" = _5IA3hMpA;
+        "M3M5e5lN" = _M3M5e5lN;
+        "KLzqFQb8" = _KLzqFQb8;
+        "I93McSwL" = _I93McSwL;
+        "3IZvnli0" = _3IZvnli0;
+        "I1qX1bZv" = _I1qX1bZv;
+        "zLECvkye" = _zLECvkye;
+        "GOeH8zW4" = _GOeH8zW4;
+        "cmqOx11l" = _cmqOx11l;
+        "fuFWRFst" = _fuFWRFst;
+        "PExFOI1R" = _PExFOI1R;
+        "uhkFYl66" = _uhkFYl66;
+        "gXhMlEeq" = _gXhMlEeq;
+        "uUFbMgyY" = _uUFbMgyY;
+        "tviVXbQh" = _tviVXbQh;
+        "DnAjSEH6" = _DnAjSEH6;
+        "jOLFMxYx" = _jOLFMxYx;
+        "AUPvh5Hi" = _AUPvh5Hi;
+        "oHduCnlU" = _oHduCnlU;
+        "Md1TARSJ" = _Md1TARSJ;
+        "xrmjvv1l" = _xrmjvv1l;
+        "LLJcPdFK" = _LLJcPdFK;
+        "H746LJ5k" = _H746LJ5k;
+        "8ZJu24Bm" = _8ZJu24Bm;
+        "1oyUvtW7" = _1oyUvtW7;
+        "rPi4OlQP" = _rPi4OlQP;
+        "neoforge-1.21.4" = _GOeH8zW4;
+        "neoforge-1.21.5" = _cmqOx11l;
+        "neoforge-1.21.6" = _fuFWRFst;
+        "neoforge-1.21.7" = _PExFOI1R;
+        "neoforge-1.21.8" = _uhkFYl66;
+        "neoforge-1.21.9" = _gXhMlEeq;
+        "neoforge-1.21.10" = _uUFbMgyY;
+        "neoforge-1.21.11" = _tviVXbQh;
+        "neoforge-26.1" = _DnAjSEH6;
+        "neoforge-26.1.1" = _jOLFMxYx;
+        "neoforge-26.1.2" = _AUPvh5Hi;
+        "neoforge-26.2" = _oHduCnlU;
+        "neoforge-26.3" = _Md1TARSJ;
+        "fabric-1.21.1" = _xrmjvv1l;
+        "fabric-1.21.4" = _LLJcPdFK;
+        "fabric-1.21.8" = _H746LJ5k;
+        "fabric-1.21.11" = _8ZJu24Bm;
+        "fabric-26.1.2" = _1oyUvtW7;
+        "fabric-26.2" = _rPi4OlQP;
         "pkg-1.0.0" = _ITmA2IuK;
         "pkg-1.1.0" = _OclOO9ed;
         "pkg-1.2.0" = _sST9jME4;
@@ -444,7 +595,8 @@ let
         "pkg-1.5.2" = _4ehmUEz0;
         "pkg-1.5.3" = _FcTlhFLq;
         "pkg-1.1.1" = _SL7McyPm;
-        "default" = _SL7McyPm;
+        "pkg-2026.1" = _rPi4OlQP;
+        "default" = _rPi4OlQP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbleapi";

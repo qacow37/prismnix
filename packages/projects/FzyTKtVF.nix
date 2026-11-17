@@ -276,6 +276,16 @@ let
             "file" = "stoneworks-v26.3.3-mc26.3.x+fabric.jar";
             "hash" = "sha512-VwfrHR2zf1iO2EuXd23uzo8tSxfZ7FCg4Aps8FG1LFSsrZpjvFq6zTrg/GLDXxWzG9d5PTcFU34eMv2s9JAIlQ==";
         };
+        _5olPmMQu = {
+            "id" = "5olPmMQu";
+            "file" = "stoneworks-v26.3.4-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-HnCctoQROfg6AvYN3eT2LVTe724Mn+dBLUYyqzKsbA8wA+eMtkOhFh6snrDHmRAUCqypGBjiUBhZE9cXDu/A3Q==";
+        };
+        _WC5MX8kL = {
+            "id" = "WC5MX8kL";
+            "file" = "stoneworks-v26.3.4-mc26.3.x+fabric.jar";
+            "hash" = "sha512-zQ53IWp/g9fACefaefNbZtA/bJsqT3kGZ+wrP96DxA7VU8zGKkWkQ0lAM2GdmWOp7i1DeXcYgnumB25juVFDlg==";
+        };
     in {
         "gSykIFo8" = _gSykIFo8;
         "pgYGYeA3" = _pgYGYeA3;
@@ -332,6 +342,8 @@ let
         "1voGgP6b" = _1voGgP6b;
         "t8zwyn09" = _t8zwyn09;
         "5zKAxhyO" = _5zKAxhyO;
+        "5olPmMQu" = _5olPmMQu;
+        "WC5MX8kL" = _WC5MX8kL;
         "fabric-1.19.2" = _hoKFSyYm;
         "fabric-1.19.3" = _oERVEBxH;
         "fabric-1.19.4" = _FzMp34g3;
@@ -354,7 +366,7 @@ let
         "fabric-26.1.1" = _O5cB5AXO;
         "fabric-26.1.2" = _O5cB5AXO;
         "fabric-26.2" = _c9YWwjPp;
-        "fabric-26.3" = _5zKAxhyO;
+        "fabric-26.3" = _WC5MX8kL;
         "forge-1.19.2" = _phitYGlE;
         "forge-1.19.3" = _3q70hr5r;
         "forge-1.19.4" = _66WVSoxZ;
@@ -378,7 +390,7 @@ let
         "neoforge-26.1.1" = _yI3EuefP;
         "neoforge-26.1.2" = _yI3EuefP;
         "neoforge-26.2" = _1S7DNXwa;
-        "neoforge-26.3" = _t8zwyn09;
+        "neoforge-26.3" = _5olPmMQu;
         "pkg-v4.0.0-1.19.2-Fabric" = _gSykIFo8;
         "pkg-v4.0.0-1.19.2-Forge" = _pgYGYeA3;
         "pkg-v4.0.1-1.19.2-Fabric" = _DdT1vZOS;
@@ -425,7 +437,8 @@ let
         "pkg-26.3.1" = _blHWPVsk;
         "pkg-26.3.2" = _1voGgP6b;
         "pkg-26.3.3" = _5zKAxhyO;
-        "default" = _5zKAxhyO;
+        "pkg-26.3.4" = _WC5MX8kL;
+        "default" = _WC5MX8kL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stoneworks";

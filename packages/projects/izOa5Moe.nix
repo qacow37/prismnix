@@ -2361,6 +2361,16 @@ let
             "file" = "cui-mc1.21.11-neoforge-5.0.5.jar";
             "hash" = "sha512-SVBbkmPn6iEDqMf1abtwlIT3xQDOEtfXz5aENt3COuS0AazaHIsy7c1PQOD4KzaxImKMCwsH33oQg/6pJfc6Lg==";
         };
+        _t3zJNLlV = {
+            "id" = "t3zJNLlV";
+            "file" = "cui-mc1.21.11-fabric-5.0.7.jar";
+            "hash" = "sha512-Q4WuvvirJCldjwbazgQQqpKbAFJTeTzR7OVz1EdZXA6gTWuIHNnvhKQO8Gk5HJlp5v0p6s/Sbl64NoI4VjyeLA==";
+        };
+        _i7tNG8MV = {
+            "id" = "i7tNG8MV";
+            "file" = "cui-mc1.21.11-neoforge-5.0.7.jar";
+            "hash" = "sha512-w+8j/8OWzIBLAU/OghaA5Q5LhdneerOXTZxEOZozZHFOwLS3oUjl+ZC0hj4G5LeeOSFLgLfO77q2VzueYjydqw==";
+        };
     in {
         "sUYqkZ8x" = _sUYqkZ8x;
         "sd2qPX8q" = _sd2qPX8q;
@@ -2834,6 +2844,8 @@ let
         "waTYmqVm" = _waTYmqVm;
         "MGqrOeaJ" = _MGqrOeaJ;
         "H2awdJIc" = _H2awdJIc;
+        "t3zJNLlV" = _t3zJNLlV;
+        "i7tNG8MV" = _i7tNG8MV;
         "fabric-1.20.1" = _J3Grpj2v;
         "fabric-1.20.2" = _ZEasVE7B;
         "fabric-1.20.3" = _ZEasVE7B;
@@ -2850,7 +2862,7 @@ let
         "fabric-1.21.8" = _6zT6SOZ4;
         "fabric-1.21.9" = _dkqfAU5W;
         "fabric-1.21.10" = _pXuAQQ2U;
-        "fabric-1.21.11" = _jsnpcBQg;
+        "fabric-1.21.11" = _t3zJNLlV;
         "fabric-26.1.2" = _UNbi4kjR;
         "fabric-26.2" = _4DcmzEF9;
         "fabric-26.3" = _waTYmqVm;
@@ -2865,7 +2877,7 @@ let
         "neoforge-1.21.10" = _eN4rqoDC;
         "neoforge-1.21" = _znHxpn6S;
         "neoforge-1.20.4" = _Mb7bEopT;
-        "neoforge-1.21.11" = _H2awdJIc;
+        "neoforge-1.21.11" = _i7tNG8MV;
         "neoforge-26.1.2" = _cntIs708;
         "neoforge-26.2" = _mIzJ5qru;
         "neoforge-26.3" = _MGqrOeaJ;
@@ -2898,7 +2910,8 @@ let
         "pkg-5.0.2" = _isu6LBP6;
         "pkg-5.0.4" = _7j66hJaM;
         "pkg-5.0.5" = _H2awdJIc;
-        "default" = _H2awdJIc;
+        "pkg-5.0.7" = _i7tNG8MV;
+        "default" = _i7tNG8MV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cui";

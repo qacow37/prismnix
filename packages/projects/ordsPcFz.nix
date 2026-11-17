@@ -296,6 +296,11 @@ let
             "file" = "kotlinforforge-6.5.0-all.jar";
             "hash" = "sha512-3ItH5a9ZAlVwptGCtDkhiNQOPh7nRUXeCAwHsOtS0sXBN2HCH8y80awJ3fTu7AMMOxZxQqu7/Qaxu085R5LGyw==";
         };
+        _9ZlVvei8 = {
+            "id" = "9ZlVvei8";
+            "file" = "kotlinforforge-5.13.0-all.jar";
+            "hash" = "sha512-ZKJvc+MpmtCbNQ00IeP5elzNFY0ZNvtQ/FfzyIv2/TOBRWi/Q6CIb3mtpL5l1l0jLZ4gqQGDMVDsW4mgHEbUWQ==";
+        };
     in {
         "zpPkJKgQ" = _zpPkJKgQ;
         "V7V7Pvv8" = _V7V7Pvv8;
@@ -356,6 +361,7 @@ let
         "uhJhCT7X" = _uhJhCT7X;
         "9fo5CJQk" = _9fo5CJQk;
         "sGsRJU5e" = _sGsRJU5e;
+        "9ZlVvei8" = _9ZlVvei8;
         "forge-1.14" = _ELlLPLYg;
         "forge-1.14.1" = _ELlLPLYg;
         "forge-1.14.2" = _ELlLPLYg;
@@ -385,16 +391,16 @@ let
         "forge-1.20.2" = _Zsh14XeQ;
         "forge-1.20.3" = _Zsh14XeQ;
         "forge-1.20.4" = _Zsh14XeQ;
-        "forge-1.20.6" = _uhJhCT7X;
-        "forge-1.21" = _uhJhCT7X;
-        "forge-1.21.1" = _uhJhCT7X;
-        "forge-1.21.2" = _uhJhCT7X;
-        "forge-1.21.3" = _uhJhCT7X;
-        "forge-1.21.4" = _uhJhCT7X;
-        "forge-1.21.5" = _uhJhCT7X;
-        "forge-1.21.6" = _uhJhCT7X;
-        "forge-1.21.7" = _uhJhCT7X;
-        "forge-1.21.8" = _uhJhCT7X;
+        "forge-1.20.6" = _9ZlVvei8;
+        "forge-1.21" = _9ZlVvei8;
+        "forge-1.21.1" = _9ZlVvei8;
+        "forge-1.21.2" = _9ZlVvei8;
+        "forge-1.21.3" = _9ZlVvei8;
+        "forge-1.21.4" = _9ZlVvei8;
+        "forge-1.21.5" = _9ZlVvei8;
+        "forge-1.21.6" = _9ZlVvei8;
+        "forge-1.21.7" = _9ZlVvei8;
+        "forge-1.21.8" = _9ZlVvei8;
         "forge-1.21.9" = _KNsvqa2M;
         "forge-1.21.10" = _KNsvqa2M;
         "forge-1.21.11" = _KNsvqa2M;
@@ -406,16 +412,16 @@ let
         "neoforge-1.20.3" = _Zsh14XeQ;
         "neoforge-1.20.4" = _Zsh14XeQ;
         "neoforge-1.20.5" = _bTzmIDY7;
-        "neoforge-1.20.6" = _uhJhCT7X;
-        "neoforge-1.21" = _uhJhCT7X;
-        "neoforge-1.21.1" = _uhJhCT7X;
-        "neoforge-1.21.2" = _uhJhCT7X;
-        "neoforge-1.21.3" = _uhJhCT7X;
-        "neoforge-1.21.4" = _uhJhCT7X;
-        "neoforge-1.21.5" = _uhJhCT7X;
-        "neoforge-1.21.6" = _uhJhCT7X;
-        "neoforge-1.21.7" = _uhJhCT7X;
-        "neoforge-1.21.8" = _uhJhCT7X;
+        "neoforge-1.20.6" = _9ZlVvei8;
+        "neoforge-1.21" = _9ZlVvei8;
+        "neoforge-1.21.1" = _9ZlVvei8;
+        "neoforge-1.21.2" = _9ZlVvei8;
+        "neoforge-1.21.3" = _9ZlVvei8;
+        "neoforge-1.21.4" = _9ZlVvei8;
+        "neoforge-1.21.5" = _9ZlVvei8;
+        "neoforge-1.21.6" = _9ZlVvei8;
+        "neoforge-1.21.7" = _9ZlVvei8;
+        "neoforge-1.21.8" = _9ZlVvei8;
         "neoforge-1.21.9" = _sGsRJU5e;
         "neoforge-1.21.10" = _sGsRJU5e;
         "neoforge-1.21.11" = _sGsRJU5e;
@@ -483,7 +489,8 @@ let
         "pkg-5.12.0" = _uhJhCT7X;
         "pkg-6.4.0" = _9fo5CJQk;
         "pkg-6.5.0" = _sGsRJU5e;
-        "default" = _sGsRJU5e;
+        "pkg-5.13.0" = _9ZlVvei8;
+        "default" = _9ZlVvei8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kotlin-for-forge";

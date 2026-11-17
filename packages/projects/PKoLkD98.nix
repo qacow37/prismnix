@@ -1366,6 +1366,11 @@ let
             "file" = "immersiveoverlays-1.8.7+26.3-neoforge.jar";
             "hash" = "sha512-32w6dljBuWXFSYw41EUYwLMqahggSEcMczGrkS/SHqzSW5VIb4sAQy07DTIplmQ5YVlpObqG7DCPswYuMCsVRw==";
         };
+        _4SoOBCpq = {
+            "id" = "4SoOBCpq";
+            "file" = "immersiveoverlays-1.8.8+1.20.1-fabric.jar";
+            "hash" = "sha512-OMjgA5Q+jwc8RpQOEC2CDLU22wOhh4h2DYPcTy60WbpNW5zXMYHoEv09piKaXU6Kt3yb0Gms8TFrH7NukeUsxg==";
+        };
     in {
         "2ZCfdfUq" = _2ZCfdfUq;
         "4YmsVJYX" = _4YmsVJYX;
@@ -1640,13 +1645,14 @@ let
         "ofz40vdm" = _ofz40vdm;
         "55PthQKf" = _55PthQKf;
         "RAGCCnC4" = _RAGCCnC4;
+        "4SoOBCpq" = _4SoOBCpq;
         "fabric-1.19" = _uXbKqvYx;
         "fabric-1.19.1" = _uXbKqvYx;
         "fabric-1.19.2" = _FHvhWF0j;
         "fabric-1.19.3" = _uXbKqvYx;
         "fabric-1.19.4" = _uXbKqvYx;
         "fabric-1.20" = _IDz0maur;
-        "fabric-1.20.1" = _olLs0yz0;
+        "fabric-1.20.1" = _4SoOBCpq;
         "fabric-1.21" = _RoRfr0Dk;
         "fabric-1.21.1" = _dgZWDehs;
         "fabric-1.21.4" = _zPXC8R3J;
@@ -2005,7 +2011,8 @@ let
         "pkg-1.8.7+26.2-fabric" = _ofz40vdm;
         "pkg-1.8.7+26.2-neoforge" = _55PthQKf;
         "pkg-1.8.7+26.3-neoforge" = _RAGCCnC4;
-        "default" = _RAGCCnC4;
+        "pkg-1.8.8+1.20.1-fabric" = _4SoOBCpq;
+        "default" = _4SoOBCpq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-overlays";

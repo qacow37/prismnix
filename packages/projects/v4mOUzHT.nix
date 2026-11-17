@@ -41,6 +41,21 @@ let
             "file" = "more_curios_slots-1.4.jar";
             "hash" = "sha512-G9f82JkOXHkZtt1LTw4oR2MLvug+YP5bdpz5xViknfrPbvQyQ0yxdPyqcFcxwNdL1h5JLJK5fZC8z3fkSwqhzQ==";
         };
+        _jwHLdMKE = {
+            "id" = "jwHLdMKE";
+            "file" = "more_curios_slots-1.5-1201-forge.jar";
+            "hash" = "sha512-GhFnlzBtAmQnI7mq+HV+hjPTlK1UhV1F09b95tB9o6cOmV2dRHZQ7a/yD35ft2rFd7Lo/KeRgIRoyQ0XgA0dVA==";
+        };
+        _Oawvx67P = {
+            "id" = "Oawvx67P";
+            "file" = "more_curios_slots-1.5-1192-forge.jar";
+            "hash" = "sha512-ypd/AqWqh6es8l28ZcUmG0E+rd8pMQuopJV4pl8ecV+klnkZIVy/lBgvv00UWeb48GOzIPl3ZCmipB0o3wzbvA==";
+        };
+        _Ho3SSuvg = {
+            "id" = "Ho3SSuvg";
+            "file" = "more_curios_slots-1.5-1211-neoforge.jar";
+            "hash" = "sha512-n919Q7kdvkP3TBJCtyPtSpO67otfcYmuzIlzU5lCx+3AIRLNDRntdnaQKahuXAgqH55IutN0ssV9BlV0TKHbeQ==";
+        };
     in {
         "e4eiAoFj" = _e4eiAoFj;
         "ANTKDKz6" = _ANTKDKz6;
@@ -50,18 +65,22 @@ let
         "8k0MKaeu" = _8k0MKaeu;
         "xWM74tti" = _xWM74tti;
         "JyvdZSA0" = _JyvdZSA0;
-        "forge-1.20.1" = _US5dWUzD;
-        "forge-1.19.2" = _8k0MKaeu;
-        "forge-1.19.3" = _8k0MKaeu;
-        "forge-1.19.4" = _8k0MKaeu;
-        "neoforge-1.21.1" = _JyvdZSA0;
+        "jwHLdMKE" = _jwHLdMKE;
+        "Oawvx67P" = _Oawvx67P;
+        "Ho3SSuvg" = _Ho3SSuvg;
+        "forge-1.20.1" = _jwHLdMKE;
+        "forge-1.19.2" = _Oawvx67P;
+        "forge-1.19.3" = _Oawvx67P;
+        "forge-1.19.4" = _Oawvx67P;
+        "neoforge-1.21.1" = _Ho3SSuvg;
         "pkg-1.0" = _e4eiAoFj;
         "pkg-1.1" = _ANTKDKz6;
         "pkg-1.2" = _V9OMEyiJ;
         "pkg-1.2a" = _TlQizdkL;
         "pkg-1.3" = _xWM74tti;
         "pkg-1.4" = _JyvdZSA0;
-        "default" = _JyvdZSA0;
+        "pkg-1.5" = _Ho3SSuvg;
+        "default" = _Ho3SSuvg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-curios-slots";

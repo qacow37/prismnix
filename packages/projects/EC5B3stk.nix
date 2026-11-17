@@ -161,6 +161,11 @@ let
             "file" = "MiddleEarth-Tweaks-1.6.21.jar";
             "hash" = "sha512-eLG32t9KypS8jljfN9dxh5o6od6gW7b5FI5kk+jmEB3QB52zKYUnjlGa1fklsWQfxT3eHIr2LpUyFluNNZ/5wA==";
         };
+        _ZqWs2Adk = {
+            "id" = "ZqWs2Adk";
+            "file" = "MiddleEarth-Tweaks-1.6.22.jar";
+            "hash" = "sha512-W8qg1K6J8re+CS++7CvDolJaMLIe2KeFuFjQFwxSvF+WSMQVmMTEfYO7WdbgVu8DxlWm31tE3PXH1TLlTuBNzw==";
+        };
     in {
         "5Ad2siON" = _5Ad2siON;
         "CE0S9TjS" = _CE0S9TjS;
@@ -194,7 +199,8 @@ let
         "MQaK1QHw" = _MQaK1QHw;
         "okDedZnd" = _okDedZnd;
         "dWs9uoCq" = _dWs9uoCq;
-        "forge-1.7.10" = _dWs9uoCq;
+        "ZqWs2Adk" = _ZqWs2Adk;
+        "forge-1.7.10" = _ZqWs2Adk;
         "pkg-1.3.11" = _5Ad2siON;
         "pkg-1.4.1" = _CE0S9TjS;
         "pkg-1.4.2" = _YhGQ4WPG;
@@ -227,7 +233,8 @@ let
         "pkg-1.6.19" = _MQaK1QHw;
         "pkg-1.6.20" = _okDedZnd;
         "pkg-1.6.21" = _dWs9uoCq;
-        "default" = _dWs9uoCq;
+        "pkg-1.6.22" = _ZqWs2Adk;
+        "default" = _ZqWs2Adk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "middleearth-tweaks";

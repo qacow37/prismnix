@@ -46,6 +46,11 @@ let
             "file" = "vintage_grinder-1.21.1-1.4.6.jar";
             "hash" = "sha512-3AHxotMm4G6ojR9lIPYZNsm4WRB+PnMLIlViD1JAlYmJOmzZ3EvcLlbgnSp5dQE5PROv1a8fmWyVd5jPrWJx1A==";
         };
+        _gXmSQDAx = {
+            "id" = "gXmSQDAx";
+            "file" = "vintage-grinder-fabric-1.20.1-1.2.0-fabric.jar";
+            "hash" = "sha512-muyzjbP91aWum63wq4H72OqV6w58n8VGqRXxdx+VWbBy3ONbDsIOsnu54Z0Z09eoluhIH/sndc2/N6+fjHL7eQ==";
+        };
     in {
         "x5ywnOTR" = _x5ywnOTR;
         "NC8n9Fyv" = _NC8n9Fyv;
@@ -56,18 +61,20 @@ let
         "g4T400as" = _g4T400as;
         "6nQpaC5K" = _6nQpaC5K;
         "snukmTzr" = _snukmTzr;
+        "gXmSQDAx" = _gXmSQDAx;
         "forge-1.20.1" = _2EHqf5fV;
         "neoforge-1.21.1" = _snukmTzr;
+        "fabric-1.20.1" = _gXmSQDAx;
         "pkg-1.20.1-1.0.0" = _x5ywnOTR;
         "pkg-1.20.1-1.1.0" = _NC8n9Fyv;
         "pkg-1.20.1-1.1.5" = _kcPIO0yK;
         "pkg-1.21.1-1.3.0" = _brYQFT0U;
-        "pkg-1.20.1-1.2.0" = _2EHqf5fV;
+        "pkg-1.20.1-1.2.0" = _gXmSQDAx;
         "pkg-1.21.1-1.3.5" = _Kz3qYKlP;
         "pkg-1.21.1-1.4.0" = _g4T400as;
         "pkg-1.21.1-1.4.5" = _6nQpaC5K;
         "pkg-1.21.1-1.4.6" = _snukmTzr;
-        "default" = _snukmTzr;
+        "default" = _gXmSQDAx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-vintage-grinder-edition";

@@ -286,6 +286,11 @@ let
             "file" = "moreberryuses-2.0.1-for-neoforge-1.21.5.jar";
             "hash" = "sha512-lfCeQd7PhjDUrmHE5RwXCqBhUDbRJDR/ZMyrmdp7i25Tpvu7kgTn9qCCKCz4sg3j9sbdrKwKWjDsE0FBIwJjxQ==";
         };
+        _pj2eaZ7L = {
+            "id" = "pj2eaZ7L";
+            "file" = "more_berry_uses-2.0.1-for-forge-1.14.4.jar";
+            "hash" = "sha512-tGyY8mbpGn7FCom15ge7qnkH+r5yKY52t/otZgn+pRHgXHZno7aW0Nlp35kOj1dmPJq8c36uaEJ8MYNDsnZMHg==";
+        };
     in {
         "FLNZnWe3" = _FLNZnWe3;
         "5FwDgCLj" = _5FwDgCLj;
@@ -344,6 +349,7 @@ let
         "HEwiXuex" = _HEwiXuex;
         "L8CCCSxY" = _L8CCCSxY;
         "UCcI4zNO" = _UCcI4zNO;
+        "pj2eaZ7L" = _pj2eaZ7L;
         "fabric-1.21.7" = _uiYkLxMI;
         "fabric-1.21.5" = _4PH2No7z;
         "fabric-1.21.8" = _DScDzxpU;
@@ -379,13 +385,14 @@ let
         "forge-1.18.2" = _HKIBIfYO;
         "forge-26.2" = _rUPqYzH4;
         "forge-1.16.5" = _HEwiXuex;
+        "forge-1.14.4" = _pj2eaZ7L;
         "pkg-1.0.0" = _vRX9l9Em;
         "pkg-1.0.1" = _XPBSnQB5;
         "pkg-1.0.2" = _iqgqk5WR;
         "pkg-1.0.3" = _JfTcPhGM;
         "pkg-2.0.0" = _sEWLmfbg;
-        "pkg-2.0.1" = _UCcI4zNO;
-        "default" = _UCcI4zNO;
+        "pkg-2.0.1" = _pj2eaZ7L;
+        "default" = _pj2eaZ7L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mbu-more-berry-uses!";

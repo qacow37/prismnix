@@ -356,6 +356,16 @@ let
             "file" = "little-big-redstone-1.9.11-26.1.2.jar";
             "hash" = "sha512-5vBWJV7/o5ltqlR1et7VUB+qRG5t5vT0qp3pmnKLPLozNCgtHXdYBUVxhOFiPc5ZPCFPzCKQwJqYasL+OD/MMQ==";
         };
+        _DgXEt7b4 = {
+            "id" = "DgXEt7b4";
+            "file" = "little-big-redstone-1.9.12-26.1.2.jar";
+            "hash" = "sha512-3VzV3pJ/HFwe2Hmxil/q6/W28pb6SgvLV0lfCkzdU9IN118/4kYkYELyFOM/PMi35qeUknIoFSLbC3wfWLbr6A==";
+        };
+        _zbLE0iKe = {
+            "id" = "zbLE0iKe";
+            "file" = "little-big-redstone-1.9.14-1.21.1.jar";
+            "hash" = "sha512-D5uwEuBxVkJ0eqc33YKK05yl7qTCZAQzacNlZlyDnrMztZYJzvL/wBCDWCFvCLQfdbagYB1m+HmAU1axJAjdLA==";
+        };
     in {
         "f4LsD9vv" = _f4LsD9vv;
         "l7tIuIAU" = _l7tIuIAU;
@@ -428,8 +438,10 @@ let
         "anT0zxD9" = _anT0zxD9;
         "ZDF43Iag" = _ZDF43Iag;
         "adNuaO6Y" = _adNuaO6Y;
-        "neoforge-1.21.1" = _ZDF43Iag;
-        "neoforge-26.1.2" = _adNuaO6Y;
+        "DgXEt7b4" = _DgXEt7b4;
+        "zbLE0iKe" = _zbLE0iKe;
+        "neoforge-1.21.1" = _zbLE0iKe;
+        "neoforge-26.1.2" = _DgXEt7b4;
         "pkg-1.0.0-beta-1.21.1" = _f4LsD9vv;
         "pkg-1.0.1-beta-1.21.1" = _l7tIuIAU;
         "pkg-1.0.2-beta-1.21.1" = _RqJlHgus;
@@ -501,7 +513,9 @@ let
         "pkg-1.9.10-alpha-26.1.2" = _anT0zxD9;
         "pkg-1.9.13-1.21.1" = _ZDF43Iag;
         "pkg-1.9.11-26.1.2" = _adNuaO6Y;
-        "default" = _adNuaO6Y;
+        "pkg-1.9.12-26.1.2" = _DgXEt7b4;
+        "pkg-1.9.14-1.21.1" = _zbLE0iKe;
+        "default" = _zbLE0iKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "little-big-redstone";

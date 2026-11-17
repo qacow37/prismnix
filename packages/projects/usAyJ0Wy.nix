@@ -481,6 +481,11 @@ let
             "file" = "takeitout-1.2.0-26.3.jar";
             "hash" = "sha512-szm7CCQ6qsUZ12czjnR+JmSIWHe7ZC4CCYJCo/YIChdSNFUP90WEkewco0yuWJZE5MKGG84km6SLFIfkH6NCuA==";
         };
+        _Fznx0TSi = {
+            "id" = "Fznx0TSi";
+            "file" = "takeitout-1.2.1-26.3.jar";
+            "hash" = "sha512-Yx3IHww2XgiFsL+HcInOT00VYYCghEt0oAm0Yb01BUKR0gg3vrFeth7nUPS3on/ZwtOGdYP0oTlCm6EzOP1SPQ==";
+        };
     in {
         "pCLFsAdp" = _pCLFsAdp;
         "ONXI42od" = _ONXI42od;
@@ -578,6 +583,7 @@ let
         "uyQre75P" = _uyQre75P;
         "X3GGvI2V" = _X3GGvI2V;
         "8O7uEHPc" = _8O7uEHPc;
+        "Fznx0TSi" = _Fznx0TSi;
         "fabric-1.21" = _BCyBD77F;
         "fabric-1.21.1" = _jZPbqO89;
         "fabric-1.21.4" = _KEvBaXvy;
@@ -596,7 +602,7 @@ let
         "fabric-26.1.1" = _JCdk32aU;
         "fabric-26.1.2" = _JCdk32aU;
         "fabric-26.2" = _X3GGvI2V;
-        "fabric-26.3" = _8O7uEHPc;
+        "fabric-26.3" = _Fznx0TSi;
         "bukkit-1.21" = _QPTDfXAX;
         "bukkit-1.21.1" = _QPTDfXAX;
         "bukkit-1.21.2" = _QPTDfXAX;
@@ -750,7 +756,8 @@ let
         "pkg-1.1.29-26.3" = _uyQre75P;
         "pkg-1.2.0-26.2" = _X3GGvI2V;
         "pkg-1.2.0-26.3" = _8O7uEHPc;
-        "default" = _8O7uEHPc;
+        "pkg-1.2.1-26.3" = _Fznx0TSi;
+        "default" = _Fznx0TSi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "takeitout";

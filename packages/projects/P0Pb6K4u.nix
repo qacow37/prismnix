@@ -596,6 +596,41 @@ let
             "file" = "Tianjin-Metro-1.1.3+1.16.5.jar";
             "hash" = "sha512-VT8SiOmbWXkTdUm4NS5BYW0JyPdUoiRQXYyymhIGxLfH1GQGvEhK9AA3MS/NTBXYRdvRZye8dktG5Y+dIe02UA==";
         };
+        _dgRl98qb = {
+            "id" = "dgRl98qb";
+            "file" = "Tianjin-Metro-1.1.2.261117+1.16.5.jar";
+            "hash" = "sha512-CZnYR9vlIW3AnaH18G4pn8zRFM3fgDuV4D+JbUH6wk+E8p31b8485t2hxY79SPpsqf3yslGc5kLqz8O/be8bAA==";
+        };
+        _cbMY8MK4 = {
+            "id" = "cbMY8MK4";
+            "file" = "Tianjin-Metro-1.1.2.261117+1.17.1.jar";
+            "hash" = "sha512-9Yy1GdvtquY6o0mKBzL6r9mXk9MCH6ARdAwKRW6qExbELnM+zimQcFiapNI4vnqp05And3AoYBTi+62XWojzGg==";
+        };
+        _iTVzsuGY = {
+            "id" = "iTVzsuGY";
+            "file" = "Tianjin-Metro-1.1.2.261117+1.18.2.jar";
+            "hash" = "sha512-jOvGh1GBOTqwAuMrNTQOnCfJDiplk6SyIkvGG+Sf0F3ueALXDt5mqNtruiZ4d2em10mJuaJGYb9Zks7Irn7UJg==";
+        };
+        _v6guHkSM = {
+            "id" = "v6guHkSM";
+            "file" = "Tianjin-Metro-1.1.2.261117+1.19.2.jar";
+            "hash" = "sha512-9GJJXJIwf3QOI5x2rAnFtIZvT1M5hCJD3YOv3QfCFW0w0BFB+wR36riqrxKzAzmgtjk5g4sPYVHyqdpGHWxx1w==";
+        };
+        _kBnNvIeX = {
+            "id" = "kBnNvIeX";
+            "file" = "Tianjin-Metro-1.1.2.261117+1.19.4.jar";
+            "hash" = "sha512-XiFS9IkDOgzKLXinKIfWyN+4r2GE7dtXjKC2lI7dY450e94PSyxSqahlqV0HOCKthwdsdzlMzpfeA+5BfYZZ5w==";
+        };
+        _MjwGHAtq = {
+            "id" = "MjwGHAtq";
+            "file" = "Tianjin-Metro-1.1.2.261117+1.20.1.jar";
+            "hash" = "sha512-iwxb9K91voBnOVrTS3gwukxv0Tt2BG1LEx5A0O771fl2yNQMeJAg9TSx/LJk2ayyMuqZWP6CgIihZV5gH2qxTg==";
+        };
+        _Dksqd0bg = {
+            "id" = "Dksqd0bg";
+            "file" = "Tianjin-Metro-1.1.2.261117+1.20.4.jar";
+            "hash" = "sha512-dwRcdpXey8r+K8iNLMy6BOU4swRvrXM3Sni6Ui3Cf2JPQv63u6XVuBUB+FhvIpIcNTEuOFFXF5FBuvMJeYSsPA==";
+        };
     in {
         "anX0AQMq" = _anX0AQMq;
         "XznvbGHH" = _XznvbGHH;
@@ -716,20 +751,27 @@ let
         "fzSrnEIL" = _fzSrnEIL;
         "w3YwvGNl" = _w3YwvGNl;
         "l0kadf73" = _l0kadf73;
-        "fabric-1.16.5" = _l0kadf73;
-        "fabric-1.17.1" = _w3YwvGNl;
-        "fabric-1.18.2" = _fzSrnEIL;
-        "fabric-1.19.2" = _m0mvebL2;
-        "fabric-1.19.4" = _MYR6EEtx;
-        "fabric-1.20.1" = _Q9fqiwEr;
-        "fabric-1.20.4" = _dg7F3axN;
-        "forge-1.16.5" = _l0kadf73;
-        "forge-1.17.1" = _w3YwvGNl;
-        "forge-1.18.2" = _fzSrnEIL;
-        "forge-1.19.2" = _m0mvebL2;
-        "forge-1.19.4" = _MYR6EEtx;
-        "forge-1.20.1" = _Q9fqiwEr;
-        "forge-1.20.4" = _dg7F3axN;
+        "dgRl98qb" = _dgRl98qb;
+        "cbMY8MK4" = _cbMY8MK4;
+        "iTVzsuGY" = _iTVzsuGY;
+        "v6guHkSM" = _v6guHkSM;
+        "kBnNvIeX" = _kBnNvIeX;
+        "MjwGHAtq" = _MjwGHAtq;
+        "Dksqd0bg" = _Dksqd0bg;
+        "fabric-1.16.5" = _dgRl98qb;
+        "fabric-1.17.1" = _cbMY8MK4;
+        "fabric-1.18.2" = _iTVzsuGY;
+        "fabric-1.19.2" = _v6guHkSM;
+        "fabric-1.19.4" = _kBnNvIeX;
+        "fabric-1.20.1" = _MjwGHAtq;
+        "fabric-1.20.4" = _Dksqd0bg;
+        "forge-1.16.5" = _dgRl98qb;
+        "forge-1.17.1" = _cbMY8MK4;
+        "forge-1.18.2" = _iTVzsuGY;
+        "forge-1.19.2" = _v6guHkSM;
+        "forge-1.19.4" = _kBnNvIeX;
+        "forge-1.20.1" = _MjwGHAtq;
+        "forge-1.20.4" = _Dksqd0bg;
         "pkg-1.0.0-beta-1" = _LFRusQtM;
         "pkg-1.0.0-beta-2" = _JfBuABe2;
         "pkg-1.0.0-beta-2-hotfix-1" = _iOG255Sm;
@@ -747,7 +789,8 @@ let
         "pkg-1.1.1" = _NmmV4AEu;
         "pkg-1.1.2" = _kQofpE4F;
         "pkg-1.1.3" = _l0kadf73;
-        "default" = _l0kadf73;
+        "pkg-1.1.2.261117" = _Dksqd0bg;
+        "default" = _Dksqd0bg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tianjin-metro";

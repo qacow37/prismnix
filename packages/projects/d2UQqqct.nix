@@ -51,6 +51,21 @@ let
             "file" = "extra-damage-enchantments-2.0.0+1.21.3.jar";
             "hash" = "sha512-8hPx0Pig9uXwYiGReK/rlgaIibn3vvjsx3zWFm3LsRtRxNWW6ChM2B3wT/TGk0ddsOEXW+XFJPma/Wtl/vRf6g==";
         };
+        _th3MeK4y = {
+            "id" = "th3MeK4y";
+            "file" = "extra-damage-enchantments-2.0.0+26.1.jar";
+            "hash" = "sha512-e2ChBujN+kRnQ9CLqkzvWcGm/bVHV6BMo3/1YuZsJ/f1A2EMXUk85OksC4xYSTt7p4VgrEPJUJd/hG7uedjeNQ==";
+        };
+        _gWkm9CS5 = {
+            "id" = "gWkm9CS5";
+            "file" = "extra-damage-enchantments-2.0.0+26.2.jar";
+            "hash" = "sha512-41twoa+17zWkLq8nltUOsdM6DWfkJgxyNTLWRlACIjKAzrlJNfdkU6QpMO/GWc2t5oBVDh1yYrzCh6McubDpTw==";
+        };
+        _hqYikzRG = {
+            "id" = "hqYikzRG";
+            "file" = "extra-damage-enchantments-2.0.0+26.3.jar";
+            "hash" = "sha512-CC3RoUOHWWisjIEWX2fPDsJp/J8Ijk3SjUeRE/yy2/E57FBwycA8UpVDG/K45xEsJoj6a9rPb3qNRvYrC8MpOA==";
+        };
     in {
         "uaPnlCHd" = _uaPnlCHd;
         "odQlO1Pw" = _odQlO1Pw;
@@ -62,6 +77,9 @@ let
         "oaiiRY92" = _oaiiRY92;
         "TTOCq7o9" = _TTOCq7o9;
         "baT5Ssls" = _baT5Ssls;
+        "th3MeK4y" = _th3MeK4y;
+        "gWkm9CS5" = _gWkm9CS5;
+        "hqYikzRG" = _hqYikzRG;
         "fabric-1.18.2" = _uaPnlCHd;
         "fabric-1.19" = _uaPnlCHd;
         "fabric-1.19.1" = _uaPnlCHd;
@@ -87,6 +105,11 @@ let
         "fabric-1.21.9" = _baT5Ssls;
         "fabric-1.21.10" = _baT5Ssls;
         "fabric-1.21.11" = _baT5Ssls;
+        "fabric-26.1" = _th3MeK4y;
+        "fabric-26.1.1" = _th3MeK4y;
+        "fabric-26.1.2" = _th3MeK4y;
+        "fabric-26.2" = _gWkm9CS5;
+        "fabric-26.3" = _hqYikzRG;
         "quilt-1.19.3" = _odQlO1Pw;
         "quilt-1.19.4" = _odQlO1Pw;
         "quilt-1.20" = _ulmKED3b;
@@ -108,6 +131,11 @@ let
         "quilt-1.21.9" = _baT5Ssls;
         "quilt-1.21.10" = _baT5Ssls;
         "quilt-1.21.11" = _baT5Ssls;
+        "quilt-26.1" = _th3MeK4y;
+        "quilt-26.1.1" = _th3MeK4y;
+        "quilt-26.1.2" = _th3MeK4y;
+        "quilt-26.2" = _gWkm9CS5;
+        "quilt-26.3" = _hqYikzRG;
         "pkg-1.0.2" = _uaPnlCHd;
         "pkg-1.0.3" = _odQlO1Pw;
         "pkg-1.0.4" = _cYR1yeub;
@@ -118,7 +146,10 @@ let
         "pkg-1.3.0+1.20.6" = _oaiiRY92;
         "pkg-2.0.0+1.21" = _TTOCq7o9;
         "pkg-2.0.0+1.21.3" = _baT5Ssls;
-        "default" = _baT5Ssls;
+        "pkg-2.0.0+26.1" = _th3MeK4y;
+        "pkg-2.0.0+26.2" = _gWkm9CS5;
+        "pkg-2.0.0+26.3" = _hqYikzRG;
+        "default" = _hqYikzRG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extra-damage-enchantments";

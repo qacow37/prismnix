@@ -131,6 +131,16 @@ let
             "file" = "faunaandorchestra-neoforge-1.21.1-3.1.1.jar";
             "hash" = "sha512-10S0dx1roJAFuc6r5j5dzkl1lnSaxOjoZcqnbvHoU/Wqp7TCnTYfbCbg1Cnttf8sLEHFyzOrWjdJVziy36SpRA==";
         };
+        _FAhWGLnq = {
+            "id" = "FAhWGLnq";
+            "file" = "faunaandorchestra-forge-1.20.1-3.1.2.jar";
+            "hash" = "sha512-KeSi9n5FsigDaqeYzCjUrfzYtECavPnX2KGuF41NCPphVZBdjuDhSP8y4lG9w8wb/wIsVs3oyrrsf97OHl8wow==";
+        };
+        _h8OhdJue = {
+            "id" = "h8OhdJue";
+            "file" = "faunaandorchestra-neoforge-1.21.1-3.1.2.jar";
+            "hash" = "sha512-Jyroxy5og15UhDBB5UO6k6vmDSljx7eM33VmWT5qcVDVjtcuZEN3LQyYS0toaS9XXutAMak75L6r1bW1JRhFaA==";
+        };
     in {
         "HBJHAjjN" = _HBJHAjjN;
         "bqqNGS7n" = _bqqNGS7n;
@@ -158,8 +168,10 @@ let
         "HkckMlSD" = _HkckMlSD;
         "PODKabYs" = _PODKabYs;
         "pf7JIjXi" = _pf7JIjXi;
-        "neoforge-1.21.1" = _pf7JIjXi;
-        "forge-1.20.1" = _PODKabYs;
+        "FAhWGLnq" = _FAhWGLnq;
+        "h8OhdJue" = _h8OhdJue;
+        "neoforge-1.21.1" = _h8OhdJue;
+        "forge-1.20.1" = _FAhWGLnq;
         "pkg-1.0.2" = _HBJHAjjN;
         "pkg-1.0.3" = _bqqNGS7n;
         "pkg-2.0.0" = _YeynHfaR;
@@ -182,7 +194,8 @@ let
         "pkg-3.0.3" = _aTvwLGHC;
         "pkg-3.1.0" = _HkckMlSD;
         "pkg-3.1.1" = _pf7JIjXi;
-        "default" = _pf7JIjXi;
+        "pkg-3.1.2" = _h8OhdJue;
+        "default" = _h8OhdJue;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faunaandorchestra";

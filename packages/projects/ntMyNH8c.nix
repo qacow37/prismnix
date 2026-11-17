@@ -176,6 +176,11 @@ let
             "file" = "mysterious_mountain_lib-1.2.15-1.21.1.jar";
             "hash" = "sha512-X7MhzUHc2dd0ucUZvreBFBC5JmPjRVE2b9daOMr2hv+2oN374uDLpT4Fk8BS7pbRtb9+RnXmX6g9/kvbgC4s0w==";
         };
+        _UZbuAxuL = {
+            "id" = "UZbuAxuL";
+            "file" = "mysterious_mountain_lib-1.3.16-1.21.1.jar";
+            "hash" = "sha512-p8B+8inbuhKD3uE+VbzcwbbXcitcwoVn4YTVFREHuEi2wL6LUuwlPaG1UtIF137HPz5w2pFkH56thG8/qyxfqQ==";
+        };
     in {
         "GyPssEtz" = _GyPssEtz;
         "QkDvf41g" = _QkDvf41g;
@@ -212,6 +217,7 @@ let
         "DPuIWHyp" = _DPuIWHyp;
         "m0IYPVS4" = _m0IYPVS4;
         "o49zOLis" = _o49zOLis;
+        "UZbuAxuL" = _UZbuAxuL;
         "forge-1.18.1" = _GyPssEtz;
         "forge-1.18.2" = _GaGnrERz;
         "forge-1.19" = _Oe3zPknB;
@@ -225,7 +231,7 @@ let
         "forge-1.12.2" = _ZStoHRGc;
         "neoforge-1.20.1" = _m0IYPVS4;
         "neoforge-1.21" = _nMutXpoK;
-        "neoforge-1.21.1" = _o49zOLis;
+        "neoforge-1.21.1" = _UZbuAxuL;
         "pkg-1.0.0-1.18.1" = _GyPssEtz;
         "pkg-1.2.2-1.18.2" = _QkDvf41g;
         "pkg-1.2.3-1.19.2" = _Oe3zPknB;
@@ -261,7 +267,8 @@ let
         "pkg-1.6.30-1.20.1" = _DPuIWHyp;
         "pkg-1.6.34-1.20.1" = _m0IYPVS4;
         "pkg-1.2.15-1.21.1" = _o49zOLis;
-        "default" = _o49zOLis;
+        "pkg-1.3.16-1.21.1" = _UZbuAxuL;
+        "default" = _UZbuAxuL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mmlib";

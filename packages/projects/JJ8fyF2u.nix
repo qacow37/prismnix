@@ -46,6 +46,11 @@ let
             "file" = "enviroenergy-neoforge-1.21.1-3.1.3.jar";
             "hash" = "sha512-sZNA3I3hh6mjLJB5BE1eDPImGG6CDdxD2zkdvqm6iPzQjU9irkHmlc4kJAlzodWARJqyZUSARYemlCsammO5aw==";
         };
+        _55ttjj48 = {
+            "id" = "55ttjj48";
+            "file" = "enviroenergy-neoforge-1.21.1-3.1.4.jar";
+            "hash" = "sha512-EPjNSfeqLcK8n8t/9hGPzH8CWGmsAtVVvNnu7QQszpr8QNAZYXHBP/mNRsJ79tZAIPjLg145iqdKqk+T4j5/8A==";
+        };
     in {
         "fx210WWd" = _fx210WWd;
         "A8edSEy7" = _A8edSEy7;
@@ -56,13 +61,14 @@ let
         "eCOK1hSD" = _eCOK1hSD;
         "gp5lP7LR" = _gp5lP7LR;
         "xGzY3TU1" = _xGzY3TU1;
+        "55ttjj48" = _55ttjj48;
         "forge-1.16.5" = _Jlh15Ilo;
         "forge-1.17.1" = _EoiVb17Y;
         "forge-1.18.2" = _6XkkyIIC;
         "forge-1.19.4" = _Bpac8quN;
         "forge-1.20.1" = _gp5lP7LR;
         "neoforge-1.20.1" = _gp5lP7LR;
-        "neoforge-1.21.1" = _xGzY3TU1;
+        "neoforge-1.21.1" = _55ttjj48;
         "pkg-1.16.5-3.0.9.1" = _fx210WWd;
         "pkg-1.16.5-3.1.0.0" = _A8edSEy7;
         "pkg-1.16.5-3.1.1.0" = _Jlh15Ilo;
@@ -72,7 +78,8 @@ let
         "pkg-1.20.1-3.1.2" = _eCOK1hSD;
         "pkg-1.20.1-3.1.3" = _gp5lP7LR;
         "pkg-1.21.1-3.1.3" = _xGzY3TU1;
-        "default" = _xGzY3TU1;
+        "pkg-1.21.1-3.1.4" = _55ttjj48;
+        "default" = _55ttjj48;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmental-energy";

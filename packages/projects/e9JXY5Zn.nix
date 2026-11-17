@@ -186,6 +186,11 @@ let
             "file" = "jfmuy-26.10.31.0.jar";
             "hash" = "sha512-k8HEn9wW8BLKvAdjeRrpXibmO6bKVHYnwgMyRtAMxOdrqbdaQNkfl+YTZSXsRVEpH7IBNGUz7l1NO552HUdp0Q==";
         };
+        _ZDM6zJsz = {
+            "id" = "ZDM6zJsz";
+            "file" = "jfmuy-26.11.15.0.jar";
+            "hash" = "sha512-985d0t91Uch5gFlYN3KlphYzDy4zoIispyFZ6uApLWBo5w6l/msb8tfsGsuDlDlR+skyx6PlqoyPLKtcSJA3lw==";
+        };
     in {
         "Hfuevfv8" = _Hfuevfv8;
         "RASj4rSK" = _RASj4rSK;
@@ -224,7 +229,8 @@ let
         "MTN5N9JW" = _MTN5N9JW;
         "UqeTNhwT" = _UqeTNhwT;
         "OcmUaxN3" = _OcmUaxN3;
-        "forge-1.7.10" = _OcmUaxN3;
+        "ZDM6zJsz" = _ZDM6zJsz;
+        "forge-1.7.10" = _ZDM6zJsz;
         "pkg-26.07.17.0" = _Hfuevfv8;
         "pkg-26.07.18.0" = _RASj4rSK;
         "pkg-26.07.19.0" = _1dIcdIkq;
@@ -259,7 +265,8 @@ let
         "pkg-26.10.02.0" = _MTN5N9JW;
         "pkg-26.10.09.0" = _UqeTNhwT;
         "pkg-26.10.31.0" = _OcmUaxN3;
-        "default" = _OcmUaxN3;
+        "pkg-26.11.15.0" = _ZDM6zJsz;
+        "default" = _ZDM6zJsz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jfmuy";

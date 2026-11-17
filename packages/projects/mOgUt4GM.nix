@@ -1031,6 +1031,16 @@ let
             "file" = "modmenu-21.0.1.jar";
             "hash" = "sha512-0A1S1TQnKNoTpiN/dsUPxf0cYtgRKuTgdya7xk0gGadhMNaylodl34HGSZIlWI6s7maB7rwTwK2jytkfyKsphA==";
         };
+        _Et3yic6q = {
+            "id" = "Et3yic6q";
+            "file" = "modmenu-22.0.0-alpha.5.jar";
+            "hash" = "sha512-gQiSPAEKHLB+WncBC4Sy024f1tpAtILtpQYvVUbN4U4N52m1gcQtk0xLN7a6nnswjUEUIyNK5EbvhJl9Xhl/uQ==";
+        };
+        _mGUdgq3l = {
+            "id" = "mGUdgq3l";
+            "file" = "modmenu-22.0.0-alpha.6.jar";
+            "hash" = "sha512-5dXtAL3gIdw2u19Kbhxo1VkJLGQZjWMKPXzJKbQFNpv0QKbOa3qqK6c42+yuSWvOHepzbjQ+fzZyN8UFcbjsmg==";
+        };
     in {
         "M3KFXLhq" = _M3KFXLhq;
         "DgzrfgAZ" = _DgzrfgAZ;
@@ -1238,6 +1248,8 @@ let
         "3IyNcgNA" = _3IyNcgNA;
         "q6p4cXro" = _q6p4cXro;
         "xckkBHD5" = _xckkBHD5;
+        "Et3yic6q" = _Et3yic6q;
+        "mGUdgq3l" = _mGUdgq3l;
         "fabric-1.16.5" = _aShj7736;
         "fabric-1.16.4" = _DgzrfgAZ;
         "fabric-1.15.2" = _3umfHb6R;
@@ -1420,7 +1432,7 @@ let
         "fabric-26.4-snapshot-1" = _B6sJIqHK;
         "fabric-26.4-snapshot-3" = _78N35pJi;
         "fabric-26.4-snapshot-6" = _3IyNcgNA;
-        "fabric-26.4-snapshot-8" = _q6p4cXro;
+        "fabric-26.4-snapshot-8" = _mGUdgq3l;
         "quilt-1.18.2" = _nVxObSbX;
         "quilt-1.19.1-rc1" = _pnFEFiHq;
         "quilt-1.19.1-pre2" = _ybXxCvz4;
@@ -1567,7 +1579,7 @@ let
         "quilt-26.4-snapshot-1" = _B6sJIqHK;
         "quilt-26.4-snapshot-3" = _78N35pJi;
         "quilt-26.4-snapshot-6" = _3IyNcgNA;
-        "quilt-26.4-snapshot-8" = _q6p4cXro;
+        "quilt-26.4-snapshot-8" = _mGUdgq3l;
         "pkg-1.14.15" = _M3KFXLhq;
         "pkg-1.15.0" = _DgzrfgAZ;
         "pkg-1.16.0" = _O90fUm3q;
@@ -1774,7 +1786,9 @@ let
         "pkg-22.0.0-alpha.3" = _3IyNcgNA;
         "pkg-22.0.0-alpha.4" = _q6p4cXro;
         "pkg-21.0.1" = _xckkBHD5;
-        "default" = _xckkBHD5;
+        "pkg-22.0.0-alpha.5" = _Et3yic6q;
+        "pkg-22.0.0-alpha.6" = _mGUdgq3l;
+        "default" = _mGUdgq3l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modmenu";

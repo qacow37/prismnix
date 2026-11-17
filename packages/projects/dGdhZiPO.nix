@@ -86,6 +86,11 @@ let
             "file" = "envirotech-neoforge-1.21.1-3.3.1.jar";
             "hash" = "sha512-11WD9hlOA3Hf/OTEld2mESX6oHDjv8jTs/y/mM7+5yn9ndQV9mNbEP+5fIl06x4bmKsURSlmiAfuTds/dq1IQg==";
         };
+        _FsBRMPFo = {
+            "id" = "FsBRMPFo";
+            "file" = "envirotech-neoforge-1.21.1-3.3.2.jar";
+            "hash" = "sha512-DroR29iRwZvpp2vKbaNaloJt2ot9xNJOl3yQUplho35Zpah9I5XrXv74BJ98kMP6A9I6EkbNOOwhaIZ2TJsafw==";
+        };
     in {
         "AgX53HQ2" = _AgX53HQ2;
         "3MzeFOcO" = _3MzeFOcO;
@@ -104,6 +109,7 @@ let
         "Z8fJ9qAF" = _Z8fJ9qAF;
         "YSAxZCDO" = _YSAxZCDO;
         "zxzIL0WS" = _zxzIL0WS;
+        "FsBRMPFo" = _FsBRMPFo;
         "forge-1.9.4" = _AgX53HQ2;
         "forge-1.10.2" = _3MzeFOcO;
         "forge-1.12.2" = _enmbNs8f;
@@ -115,7 +121,7 @@ let
         "forge-1.19.4" = _qDVWqd7L;
         "forge-1.20.1" = _YSAxZCDO;
         "neoforge-1.20.1" = _YSAxZCDO;
-        "neoforge-1.21.1" = _zxzIL0WS;
+        "neoforge-1.21.1" = _FsBRMPFo;
         "pkg-1.9.4-0.9.6d" = _AgX53HQ2;
         "pkg-1.10.2-0.10.6b" = _3MzeFOcO;
         "pkg-1.12.2-2.0.20.1" = _k48mmbV0;
@@ -133,7 +139,8 @@ let
         "pkg-1.20.1-3.3.0" = _Z8fJ9qAF;
         "pkg-1.20.1-3.3.1" = _YSAxZCDO;
         "pkg-1.21.1-3.3.1" = _zxzIL0WS;
-        "default" = _zxzIL0WS;
+        "pkg-1.21.1-3.3.2" = _FsBRMPFo;
+        "default" = _FsBRMPFo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmental-tech";

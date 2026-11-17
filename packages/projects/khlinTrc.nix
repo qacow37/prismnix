@@ -206,6 +206,26 @@ let
             "file" = "cobblemon-trainers-2.0.0-alpha.jar";
             "hash" = "sha512-KcJXNdA+XrTe2WkMbxS97V3Uj4pkIgzZO78tLbzeFwgrk8d2tiywY7/dCcXDYf/3S13mVrT2LtPCGXx03UL2sA==";
         };
+        _Sgl7ZunR = {
+            "id" = "Sgl7ZunR";
+            "file" = "cobblemon-trainers-2.0.0.jar";
+            "hash" = "sha512-b7OZjvjpDLIGw+EPbiayxxVaEqwCk+lfGAMyXY682/B6INaOzMitmpA/EOvJQHAoALkmiocnXQGSguavRoCHaw==";
+        };
+        _LMWF7dfa = {
+            "id" = "LMWF7dfa";
+            "file" = "cobblemon-trainers-neoforge-2.0.0.jar";
+            "hash" = "sha512-v27Ir1vmt4t5URgXWbzLbVoe78rpodP0XSz9J9PqdF0GGnPBmXjuwU7qwoInDrPa3GjPmu0RNbEvhafFXJlFWw==";
+        };
+        _e9uc821p = {
+            "id" = "e9uc821p";
+            "file" = "cobblemon-trainers-neoforge-2.0.1.jar";
+            "hash" = "sha512-NbHeDo4PWoMObv4utIHXqkRAjxNcFii+wt3sThB3l0Wh2IU7bpo/gvq5B+rVa7302XQNEAz1B93XPe81Exelvw==";
+        };
+        _QscKQcCP = {
+            "id" = "QscKQcCP";
+            "file" = "cobblemon-trainers-2.0.1.jar";
+            "hash" = "sha512-3xCOLTaJ0NO1TaicTa7NSGwPacdnndnbZt9TOMA0OdRdiY25YvBjOfMykX6SC+LMrxEBwxinPobcbU9AS809ig==";
+        };
     in {
         "GNOUCeEI" = _GNOUCeEI;
         "9zW5iRiE" = _9zW5iRiE;
@@ -248,8 +268,12 @@ let
         "VpdtEtxx" = _VpdtEtxx;
         "u00O7bwX" = _u00O7bwX;
         "AKEMGCw3" = _AKEMGCw3;
-        "fabric-1.21.1" = _AKEMGCw3;
-        "neoforge-1.21.1" = _u00O7bwX;
+        "Sgl7ZunR" = _Sgl7ZunR;
+        "LMWF7dfa" = _LMWF7dfa;
+        "e9uc821p" = _e9uc821p;
+        "QscKQcCP" = _QscKQcCP;
+        "fabric-1.21.1" = _QscKQcCP;
+        "neoforge-1.21.1" = _e9uc821p;
         "pkg-0.1.0" = _GNOUCeEI;
         "pkg-0.1.1" = _9zW5iRiE;
         "pkg-0.2.0" = _HDfAFzOa;
@@ -291,7 +315,11 @@ let
         "pkg-1.1.3-neoforge" = _VpdtEtxx;
         "pkg-2.0.0-alpha-neoforge" = _u00O7bwX;
         "pkg-2.0.0-alpha-fabric" = _AKEMGCw3;
-        "default" = _AKEMGCw3;
+        "pkg-2.0.0-fabric" = _Sgl7ZunR;
+        "pkg-2.0.0-neoforge" = _LMWF7dfa;
+        "pkg-2.0.1-neoforge" = _e9uc821p;
+        "pkg-2.0.1-fabric" = _QscKQcCP;
+        "default" = _QscKQcCP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-trainers-rerebleue";

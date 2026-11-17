@@ -31,6 +31,11 @@ let
             "file" = "farmersassortment-1.20.1-1.55 Fancy Furnishings.jar";
             "hash" = "sha512-Huz9Its1d498xekqo+3S9dWuQV74+vEsjnWmxGKJUe61aFR5UwVwZIC50YdTRYZzMXENRwT8l3GxvInYWtUNXQ==";
         };
+        _WJ2DJ4Vy = {
+            "id" = "WJ2DJ4Vy";
+            "file" = "farmersassortment-1.20.1-1.6-HH.jar";
+            "hash" = "sha512-yDldQ+J9xY5X+CllGLS1Zz5Wd83+LzXDdX0aXttrJYyVZrTMsboHbBtKOJ2pTJwktqGAFrjykOkEnINv2zeqXA==";
+        };
     in {
         "4NebyCcN" = _4NebyCcN;
         "ypj9BEnN" = _ypj9BEnN;
@@ -38,14 +43,16 @@ let
         "Pyz2Qyll" = _Pyz2Qyll;
         "oI17eBVO" = _oI17eBVO;
         "3hfHlAYH" = _3hfHlAYH;
-        "forge-1.20.1" = _3hfHlAYH;
+        "WJ2DJ4Vy" = _WJ2DJ4Vy;
+        "forge-1.20.1" = _WJ2DJ4Vy;
         "pkg-1.20.1-0.5" = _4NebyCcN;
         "pkg-1.20.1-0.75" = _ypj9BEnN;
         "pkg-1.20.1-1.0" = _yN27URdN;
         "pkg-1.20.1-1.25" = _Pyz2Qyll;
         "pkg-1.20.1-1.5" = _oI17eBVO;
         "pkg-1.20.1-1.55" = _3hfHlAYH;
-        "default" = _3hfHlAYH;
+        "pkg-1.20.1-1.6" = _WJ2DJ4Vy;
+        "default" = _WJ2DJ4Vy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-assortment";

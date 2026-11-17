@@ -146,6 +146,11 @@ let
             "file" = "soundtrack-player-1.21.11-3.0.12+mc1.21.11.jar";
             "hash" = "sha512-6Nj1cgMZwCbPF5/hHK4Pwxm/Cjh3oOvXrtpZXnN2bd/72YoZTj56AxYczHzqLooIlYi/mMNOXQP9IYskGja20Q==";
         };
+        _7qL51t5E = {
+            "id" = "7qL51t5E";
+            "file" = "soundtrack-player-1.21.11-4.0.0+mc1.21.11.jar";
+            "hash" = "sha512-WD6Cojq7nqu6hJGxkEuFOTPKcGjXe8OyBzQXMZtDLFHvpjauKq23L19uDrgztX/4NI9Fs2F1sEh89Xdjfm2QVg==";
+        };
     in {
         "p3PUY6TO" = _p3PUY6TO;
         "AzawR1sU" = _AzawR1sU;
@@ -176,6 +181,7 @@ let
         "QhFAlgVZ" = _QhFAlgVZ;
         "5aSvHC1F" = _5aSvHC1F;
         "dJOH2yM6" = _dJOH2yM6;
+        "7qL51t5E" = _7qL51t5E;
         "fabric-1.21.10" = _XGlaxWv2;
         "fabric-1.21" = _z0M3lPKP;
         "fabric-1.21.1" = _z0M3lPKP;
@@ -187,7 +193,7 @@ let
         "fabric-1.21.7" = _8ggzHeIf;
         "fabric-1.21.8" = _8ggzHeIf;
         "fabric-1.21.9" = _6sKNF1p9;
-        "fabric-1.21.11" = _dJOH2yM6;
+        "fabric-1.21.11" = _7qL51t5E;
         "pkg-1.0.0" = _p3PUY6TO;
         "pkg-1.1.0" = _AzawR1sU;
         "pkg-1.2.0" = _mgPIvZXE;
@@ -217,7 +223,8 @@ let
         "pkg-3.0.10" = _QhFAlgVZ;
         "pkg-3.0.11" = _5aSvHC1F;
         "pkg-3.0.12" = _dJOH2yM6;
-        "default" = _dJOH2yM6;
+        "pkg-4.0.0" = _7qL51t5E;
+        "default" = _7qL51t5E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soundtrack-player";

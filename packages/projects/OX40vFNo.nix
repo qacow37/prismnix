@@ -101,6 +101,11 @@ let
             "file" = "CosmereFeruchemy-1.20.1-47.3.0-0.7.113.jar";
             "hash" = "sha512-Hg+E+3VrBrGgA8oIqRW6KvnrgKyHM4s2G06mzvCLpcpVQZStcWwD/Oi7mX08bkBHYbPlOGo3yNiu3+Qq347Hiw==";
         };
+        _gt5KqQAe = {
+            "id" = "gt5KqQAe";
+            "file" = "CosmereFeruchemy-1.21.1-21.1.219-0.8.114.jar";
+            "hash" = "sha512-RKzMB7AVso+ga5fA1UUMMGXaIgDqZJkyYTJf75AcaG3hvjwCvQp7VJIsuvZQoQsGw2AUiobCZnqzS/P/zq2qZw==";
+        };
     in {
         "Z13XCjbV" = _Z13XCjbV;
         "cKA14U0c" = _cKA14U0c;
@@ -122,9 +127,11 @@ let
         "SGlrNnjk" = _SGlrNnjk;
         "ezhQ9p7c" = _ezhQ9p7c;
         "JffgEYAG" = _JffgEYAG;
+        "gt5KqQAe" = _gt5KqQAe;
         "forge-1.19.2" = _2P1aInnl;
         "forge-1.20.1" = _JffgEYAG;
         "neoforge-1.20.1" = _JffgEYAG;
+        "neoforge-1.21.1" = _gt5KqQAe;
         "pkg-0.5.88" = _Z13XCjbV;
         "pkg-0.5.89" = _cKA14U0c;
         "pkg-0.5.90" = _arfZruIX;
@@ -145,7 +152,8 @@ let
         "pkg-0.7.111" = _SGlrNnjk;
         "pkg-0.7.112" = _ezhQ9p7c;
         "pkg-0.7.113" = _JffgEYAG;
-        "default" = _JffgEYAG;
+        "pkg-0.8.114" = _gt5KqQAe;
+        "default" = _gt5KqQAe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "feruchemy";

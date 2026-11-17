@@ -126,6 +126,11 @@ let
             "file" = "gtmutils-2.10.2.jar";
             "hash" = "sha512-aAkPrVtnVWLFQN604RmBz/xIz7yBTPtrlVUiTm3QUNDIjBKn5WQw/sdfGlWdqfLhyHGSdAR/avnI5TNbmq+lXQ==";
         };
+        _fUyv1smw = {
+            "id" = "fUyv1smw";
+            "file" = "gtmutils-2.10.3.jar";
+            "hash" = "sha512-1yRb+msX+xGvfmoEkum2yEg5vVcJe8JhyXCGCq5FwjGZ7Ef+UCQDzW2oKU7lV+R0+ty4TMdB4BpHEaF9j/K6nA==";
+        };
     in {
         "6hQNeIop" = _6hQNeIop;
         "sIj9QVCa" = _sIj9QVCa;
@@ -152,7 +157,8 @@ let
         "u18oWitp" = _u18oWitp;
         "uTFyhqal" = _uTFyhqal;
         "IyQ8F7M8" = _IyQ8F7M8;
-        "forge-1.20.1" = _IyQ8F7M8;
+        "fUyv1smw" = _fUyv1smw;
+        "forge-1.20.1" = _fUyv1smw;
         "pkg-1.1.12" = _6hQNeIop;
         "pkg-2.0.0" = _sIj9QVCa;
         "pkg-2.0.1" = _Oo2S2I5A;
@@ -178,7 +184,8 @@ let
         "pkg-2.10.0" = _u18oWitp;
         "pkg-2.10.1" = _uTFyhqal;
         "pkg-2.10.2" = _IyQ8F7M8;
-        "default" = _IyQ8F7M8;
+        "pkg-2.10.3" = _fUyv1smw;
+        "default" = _fUyv1smw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gregtech-modern-utilities";

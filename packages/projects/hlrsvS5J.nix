@@ -16,19 +16,26 @@ let
             "file" = "vag-1.1.1-1.21.1-NeoForge.jar";
             "hash" = "sha512-tr/9OXlV5JtLOwY8HMGuSgI8sNoE3CpL7nbqzM1Dua9zxqn0szgtQgNM4JuyG6xoh22eWZjFgGq0jexZg94ZvA==";
         };
+        _tnMkdZ73 = {
+            "id" = "tnMkdZ73";
+            "file" = "vag-1.1.1-1.21.1-NeoForge.jar";
+            "hash" = "sha512-UOYmUTZNRWBGmfmzR3BF0l4e9YnPchEBMhOfuw+ljWjYBGD9zMeBZ75ActdHMY6PI8s+s7huV74FZVSwIy8WxQ==";
+        };
     in {
         "Cnqk9xRL" = _Cnqk9xRL;
         "EiHlKnRz" = _EiHlKnRz;
         "c1xmMI1Z" = _c1xmMI1Z;
+        "tnMkdZ73" = _tnMkdZ73;
         "forge-1.19.4" = _Cnqk9xRL;
         "forge-1.20" = _EiHlKnRz;
         "forge-1.20.1" = _EiHlKnRz;
         "neoforge-1.20" = _EiHlKnRz;
         "neoforge-1.20.1" = _EiHlKnRz;
-        "neoforge-1.21.1" = _c1xmMI1Z;
+        "neoforge-1.21.1" = _tnMkdZ73;
         "pkg-1.0.0" = _EiHlKnRz;
         "pkg-1.1.1+NeoForge+1.21.1" = _c1xmMI1Z;
-        "default" = _c1xmMI1Z;
+        "pkg-1.1.1-NeoForge-1.21.1" = _tnMkdZ73;
+        "default" = _tnMkdZ73;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-animated-guns";

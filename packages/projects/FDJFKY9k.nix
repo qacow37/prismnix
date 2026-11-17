@@ -96,6 +96,11 @@ let
             "file" = "trash-slot-2.0.4.jar";
             "hash" = "sha512-nq6uSaVKzYMufUqGQwfHJ5qtsqZDw3W9VrqDs/jAXwOpXoo85eNxjkumarBUIl8+pg+JjorYvhmHQ9otSH4/hg==";
         };
+        _rToba2Cj = {
+            "id" = "rToba2Cj";
+            "file" = "trashslot-2.0.4.jar";
+            "hash" = "sha512-W256eTUL32RzpBlYmW7Z5vBWIKHv/YIWJ14jGg9d34FigMALuXcQyH6OVeKqe/nciT8BLRw09gVimG7TWsVQGQ==";
+        };
     in {
         "SmU6BA4b" = _SmU6BA4b;
         "LEkJnby7" = _LEkJnby7;
@@ -116,7 +121,8 @@ let
         "N04zuRun" = _N04zuRun;
         "rTEagtLu" = _rTEagtLu;
         "kJkHZEHe" = _kJkHZEHe;
-        "forge-1.20.1" = _SmU6BA4b;
+        "rToba2Cj" = _rToba2Cj;
+        "forge-1.20.1" = _rToba2Cj;
         "forge-1.20.2" = _SmU6BA4b;
         "forge-1.20.3" = _SmU6BA4b;
         "forge-1.20.4" = _SmU6BA4b;
@@ -140,8 +146,8 @@ let
         "pkg-2.0.1" = _8fvxxKh2;
         "pkg-2.0.2" = _U3jTXcTy;
         "pkg-2.0.3" = _bc4utdfM;
-        "pkg-2.0.4" = _kJkHZEHe;
-        "default" = _kJkHZEHe;
+        "pkg-2.0.4" = _rToba2Cj;
+        "default" = _rToba2Cj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trash-slot";

@@ -36,6 +36,11 @@ let
             "file" = "slowbabyzombie-mc26.1-1.0.0.jar";
             "hash" = "sha512-bl+LHvB+QPvS4rmR6T0FrLKGTu9HAnHdm8I3S7FvYM8DSXdaAnjY+HZBU+GHO4JpMj299ZwIuRQqhtrscIfJUg==";
         };
+        _ZiUIO9em = {
+            "id" = "ZiUIO9em";
+            "file" = "slowbabyzombie-mc26.1-1.0.0.jar";
+            "hash" = "sha512-cBzaj/38tcuObtkIe42m2o5LDRax6CrmLXzUIE9uyY+gT5NSueMZ9e1rN0GZUymramYmatCNWc4uZuNkNRM3zg==";
+        };
     in {
         "8KQCi3xQ" = _8KQCi3xQ;
         "NrqRbPWE" = _NrqRbPWE;
@@ -44,19 +49,22 @@ let
         "X81rxdge" = _X81rxdge;
         "5YWG96k7" = _5YWG96k7;
         "G4bI6hxo" = _G4bI6hxo;
+        "ZiUIO9em" = _ZiUIO9em;
         "fabric-1.20.1" = _8KQCi3xQ;
         "fabric-1.21.1" = _X81rxdge;
         "fabric-1.21.11" = _5YWG96k7;
-        "fabric-26.1" = _G4bI6hxo;
-        "fabric-26.1.1" = _G4bI6hxo;
-        "fabric-26.1.2" = _G4bI6hxo;
+        "fabric-26.1" = _ZiUIO9em;
+        "fabric-26.1.1" = _ZiUIO9em;
+        "fabric-26.1.2" = _ZiUIO9em;
+        "fabric-26.3" = _ZiUIO9em;
+        "fabric-26.2" = _ZiUIO9em;
         "quilt-1.20.1" = _8KQCi3xQ;
         "forge-1.20.1" = _NrqRbPWE;
         "forge-1.21.1" = _rwODomUu;
         "neoforge-1.20.1" = _NrqRbPWE;
         "neoforge-1.21.1" = _hC7QHVrH;
-        "pkg-1.0.0" = _G4bI6hxo;
-        "default" = _G4bI6hxo;
+        "pkg-1.0.0" = _ZiUIO9em;
+        "default" = _ZiUIO9em;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slow-baby-zombie";

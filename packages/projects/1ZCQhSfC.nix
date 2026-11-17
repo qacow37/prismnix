@@ -41,6 +41,26 @@ let
             "file" = "cbp-1.0.7.jar";
             "hash" = "sha512-SrSEtNhZKtQ49saRXYWi4FA0jGFdkelsSQUTRKB7KMughydcbNN6iT/80IrxNRVN1bRV2Lw+Puba2p6+MxGK2Q==";
         };
+        _t0OtFhLX = {
+            "id" = "t0OtFhLX";
+            "file" = "cbp-1.0.8.jar";
+            "hash" = "sha512-OCDkXpkcu6TojwF5UAVC6W9yOl4t/rbXbQtwpvilnMPsRSdS6SfsW/8vUNnMiIZqsk0hD4QhlCcZKnfXlz0OWQ==";
+        };
+        _mpqaaW81 = {
+            "id" = "mpqaaW81";
+            "file" = "cbp-1.0.8-1.21.9.jar";
+            "hash" = "sha512-e8XFuIT8ih10qI4LktFfAP2lBWaGKIRDfjUXgo9BW8SalASlLp7H7YkafRHBxr+XwqLar4hUCamV7M4tGt3wew==";
+        };
+        _6HQYMYqH = {
+            "id" = "6HQYMYqH";
+            "file" = "cbp-1.0.8-26.1.jar";
+            "hash" = "sha512-cFk798pW0HeEs7wVCm5BJKwJyCiQ9PjLJrnhZVR7IO1wX0p6vatKYa1/HtucnOkdY1zHHgyC8E/1yoUvsc0BAg==";
+        };
+        _ZPYEZwI5 = {
+            "id" = "ZPYEZwI5";
+            "file" = "cbp-1.0.8-26.3.jar";
+            "hash" = "sha512-HWwPriZad3zEQ60lmx9eqKGWJDNc9ApDaliDxd1l1VAGjulMjEwD9XlYztjac0ke4kTuLgXAVRQoRtr0F45j2g==";
+        };
     in {
         "8bzWbHKF" = _8bzWbHKF;
         "rDmaORRn" = _rDmaORRn;
@@ -50,6 +70,10 @@ let
         "xKq8oDaJ" = _xKq8oDaJ;
         "4s6Y9CiV" = _4s6Y9CiV;
         "4JaMmNUZ" = _4JaMmNUZ;
+        "t0OtFhLX" = _t0OtFhLX;
+        "mpqaaW81" = _mpqaaW81;
+        "6HQYMYqH" = _6HQYMYqH;
+        "ZPYEZwI5" = _ZPYEZwI5;
         "fabric-1.19.2" = _EMmRRoCN;
         "fabric-1.19.3" = _EMmRRoCN;
         "fabric-1.19.4" = _VrP9INCO;
@@ -60,11 +84,21 @@ let
         "fabric-1.20.4" = _xKq8oDaJ;
         "fabric-1.21" = _4s6Y9CiV;
         "fabric-1.21.1" = _4s6Y9CiV;
-        "fabric-1.21.2" = _4JaMmNUZ;
-        "fabric-1.21.3" = _4JaMmNUZ;
-        "fabric-1.21.4" = _4JaMmNUZ;
-        "fabric-1.21.5" = _4JaMmNUZ;
-        "fabric-1.21.6" = _4JaMmNUZ;
+        "fabric-1.21.2" = _t0OtFhLX;
+        "fabric-1.21.3" = _t0OtFhLX;
+        "fabric-1.21.4" = _t0OtFhLX;
+        "fabric-1.21.5" = _t0OtFhLX;
+        "fabric-1.21.6" = _t0OtFhLX;
+        "fabric-1.21.8" = _t0OtFhLX;
+        "fabric-1.21.7" = _t0OtFhLX;
+        "fabric-1.21.11" = _mpqaaW81;
+        "fabric-1.21.10" = _mpqaaW81;
+        "fabric-1.21.9" = _mpqaaW81;
+        "fabric-26.2" = _6HQYMYqH;
+        "fabric-26.1.2" = _6HQYMYqH;
+        "fabric-26.1.1" = _6HQYMYqH;
+        "fabric-26.1" = _6HQYMYqH;
+        "fabric-26.3" = _ZPYEZwI5;
         "pkg-1.0.1" = _8bzWbHKF;
         "pkg-1.0.2" = _rDmaORRn;
         "pkg-1.0.3" = _EMmRRoCN;
@@ -73,7 +107,11 @@ let
         "pkg-1.0.5.1" = _xKq8oDaJ;
         "pkg-1.0.6" = _4s6Y9CiV;
         "pkg-1.0.7" = _4JaMmNUZ;
-        "default" = _4JaMmNUZ;
+        "pkg-1.0.8-1.21.2" = _t0OtFhLX;
+        "pkg-1.0.8-1.21.9" = _mpqaaW81;
+        "pkg-1.0.8-26.1" = _6HQYMYqH;
+        "pkg-1.0.8-26.3" = _ZPYEZwI5;
+        "default" = _ZPYEZwI5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chest-boat-patch";

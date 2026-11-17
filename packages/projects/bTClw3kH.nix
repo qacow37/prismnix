@@ -46,6 +46,11 @@ let
             "file" = "envirocore-neoforge-1.21.1-3.2.1.jar";
             "hash" = "sha512-6foDxaqxOU5hAccliGeIGXp2OsZph3OHeassj4iyp2B+qKE96xpWLb96JQq6vE6Qvj22kFdNgdWWFV65t0V3Rw==";
         };
+        _525LUrGJ = {
+            "id" = "525LUrGJ";
+            "file" = "envirocore-neoforge-1.21.1-3.2.2.jar";
+            "hash" = "sha512-WpEoII+fmLX5kSfHzK8sTnnJGU0LGk+dXyh6iflCB9prKJN5xfXfpZQMeqMl1/r3KNi7GMZUwjAgzoZ3wt9ATQ==";
+        };
     in {
         "B3AUMxNC" = _B3AUMxNC;
         "UbwvHX7C" = _UbwvHX7C;
@@ -56,13 +61,14 @@ let
         "fvqg4DGF" = _fvqg4DGF;
         "sMIFzU63" = _sMIFzU63;
         "sljoturF" = _sljoturF;
+        "525LUrGJ" = _525LUrGJ;
         "forge-1.16.5" = _EiXSIsBw;
         "forge-1.17.1" = _XP2LEWrO;
         "forge-1.18.2" = _jCr6w99b;
         "forge-1.19.4" = _uKwuBbKQ;
         "forge-1.20.1" = _sMIFzU63;
         "neoforge-1.20.1" = _sMIFzU63;
-        "neoforge-1.21.1" = _sljoturF;
+        "neoforge-1.21.1" = _525LUrGJ;
         "pkg-1.16.5-3.0.9.3" = _B3AUMxNC;
         "pkg-1.16.5-3.1.0.0" = _UbwvHX7C;
         "pkg-1.16.5-3.1.1.0" = _EiXSIsBw;
@@ -72,7 +78,8 @@ let
         "pkg-1.20.1-3.2.0" = _fvqg4DGF;
         "pkg-1.20.1-3.2.1" = _sMIFzU63;
         "pkg-1.21.1-3.2.1" = _sljoturF;
-        "default" = _sljoturF;
+        "pkg-1.21.1-3.2.2" = _525LUrGJ;
+        "default" = _525LUrGJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmental-core";

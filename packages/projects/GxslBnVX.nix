@@ -146,6 +146,81 @@ let
             "file" = "better-party-x-waystones-neoforge-26.3-1.0.2.jar";
             "hash" = "sha512-oEWqID5Q0+0BFv+5OiZtA4rQ/tDsZOOpXAGWFt1cFPI5qQ7O8FGyQ510TnKjQe+IS2p1hmPEMbll3wHa4aNt+g==";
         };
+        _r7Eiy8wW = {
+            "id" = "r7Eiy8wW";
+            "file" = "better-party-x-waystones-fabric-1.20.1-1.0.3.jar";
+            "hash" = "sha512-I5k0YL2nejJt5kKfL7eW8FLn2ojhHrm+jpNDPSI3DRjzI9NsFzZFev40ptdzdMFtcqyKSenEDsHeZPHtYb1MmA==";
+        };
+        _5IZeqbpf = {
+            "id" = "5IZeqbpf";
+            "file" = "better-party-x-waystones-fabric-1.21.1-1.0.3.jar";
+            "hash" = "sha512-p9wDLDXkvmOuGH/NKI6CePDIqnWVbEcgH/RR8vjB+Pg0WiwqYctxqsF4jSR0Pam1U8tz1d78M0Dh3uBMKRdVmw==";
+        };
+        _NGDh9jQj = {
+            "id" = "NGDh9jQj";
+            "file" = "better-party-x-waystones-fabric-26.1-1.0.3.jar";
+            "hash" = "sha512-TzxEP0TkWUFWPtb6k57tBo5nQ0d171dn3ERYHz9UVCKiL+0Y506ooawnq6wYK/lEQLH8MzXskxL/n4PdhGAPbA==";
+        };
+        _bu5a5Tu4 = {
+            "id" = "bu5a5Tu4";
+            "file" = "better-party-x-waystones-fabric-26.1.1-1.0.3.jar";
+            "hash" = "sha512-KsTp6GorZGEQwOAbCK+qUddKssuViw8Sz9Kwex9vuvVfWwN7L+2b2V4Ihvc39p+nYXJPpwyPy9OFXpCTLmZauQ==";
+        };
+        _H2UrlnzF = {
+            "id" = "H2UrlnzF";
+            "file" = "better-party-x-waystones-fabric-26.1.2-1.0.3.jar";
+            "hash" = "sha512-i1gG7XREo17l0TBhNYlCBbaf1OIecN0l4Js+qymht5pLR2Ka5gQYgfNP6A1v3NiZutp4RBUWRqtAR7iK7kERXg==";
+        };
+        _87hqmTES = {
+            "id" = "87hqmTES";
+            "file" = "better-party-x-waystones-fabric-26.2-1.0.3.jar";
+            "hash" = "sha512-Py/DStch/PAjcI521w1jJ4OHZ4StzrfPMr0wnbvw+VwPusIU1EXCpSfgHuLIlZKO+Ix8mRfsF0pwWLOzAVYk1A==";
+        };
+        _HIQkqSVo = {
+            "id" = "HIQkqSVo";
+            "file" = "better-party-x-waystones-fabric-26.3-1.0.3.jar";
+            "hash" = "sha512-QFDJNP4wB3982xSORKBJIvd3i3FqBPXOOaifDqqDVbyica2L5p3BejMDryK9t1/iMRLUsxUnm8ltfetuCf3I9g==";
+        };
+        _nWhOc3t9 = {
+            "id" = "nWhOc3t9";
+            "file" = "better-party-x-waystones-forge-1.20.1-1.0.3.jar";
+            "hash" = "sha512-D3CWxlgDjKzycwMqUwdkDN3v0+CYc3VSMdCdCxy2xZ7OI9UvX9Q9sR+OfPUxvYYIYpWxRUI35JQujbIZPPJr3w==";
+        };
+        _4hcEkW0h = {
+            "id" = "4hcEkW0h";
+            "file" = "better-party-x-waystones-forge-1.21.1-1.0.3.jar";
+            "hash" = "sha512-lONgLkMJmlluWKSekGqiInziAE7bDvpB2LYE0bFMnjlYx4xQgNuF8k/IVE9CEJNwdM/K0CHSD/Y9RR/7//20Dg==";
+        };
+        _ihhvPt6R = {
+            "id" = "ihhvPt6R";
+            "file" = "better-party-x-waystones-neoforge-1.21.1-1.0.3.jar";
+            "hash" = "sha512-NzCCcXjJCGSPSEcdgx7M+b+k0UFM2e+KVK/+OUGxcAgXd67C7vfoUpG9r8krCoiIU9a8spPE6rs683Hf/oHLyQ==";
+        };
+        _iYNRiTpb = {
+            "id" = "iYNRiTpb";
+            "file" = "better-party-x-waystones-neoforge-26.1-1.0.3.jar";
+            "hash" = "sha512-tnX/8UY1CrsgBBDynjAHRHMlL1LGQrIMHGDNmbDYILySXLSH/lafa1+KuI4aPhoywEsE6sTQs1r6z74+Pnzl3A==";
+        };
+        _t7CFsxiJ = {
+            "id" = "t7CFsxiJ";
+            "file" = "better-party-x-waystones-neoforge-26.1.1-1.0.3.jar";
+            "hash" = "sha512-3RO+MsTaF6b0QjBTLjvx7mOXLLomW+nzvvHCJ6CRnY0sfO76AYkbaUhjXp+67yUOTLpuU+W62yHdbxZXiXd3xw==";
+        };
+        _y5rNljrg = {
+            "id" = "y5rNljrg";
+            "file" = "better-party-x-waystones-neoforge-26.1.2-1.0.3.jar";
+            "hash" = "sha512-4LzrWHcetZjpQ2OyMYpAz0f3RAkUrHtZtMEoSF2HkLwIH5VQiupPO0jvB+2cdgjnsiUtGPgC6Ohi2VdGZUZk2Q==";
+        };
+        _HYdTIRqO = {
+            "id" = "HYdTIRqO";
+            "file" = "better-party-x-waystones-neoforge-26.2-1.0.3.jar";
+            "hash" = "sha512-gIZWTS72SV1wuXwttaGXqbTbz4iOuNt8NcyPyn1EznoSCnb/Pf2TJlQn/UvVf26t/HnhWJa98TtNWsY6frU11g==";
+        };
+        _8vsA6ZeA = {
+            "id" = "8vsA6ZeA";
+            "file" = "better-party-x-waystones-neoforge-26.3-1.0.3.jar";
+            "hash" = "sha512-c0XngbTE5plzTGfoL+yVzkq/i8UFdRXhYR+mqlO8lhlgbfUx4D6vnC4B7+VqVu6xddlZwdYDmIBUx8rHFStP9A==";
+        };
     in {
         "9Kl68c6l" = _9Kl68c6l;
         "2YltkOZy" = _2YltkOZy;
@@ -176,25 +251,41 @@ let
         "9m77Bkiv" = _9m77Bkiv;
         "KuD793tb" = _KuD793tb;
         "IDuhgfWT" = _IDuhgfWT;
-        "neoforge-26.2" = _3IgNsvGI;
-        "neoforge-26.1.2" = _YBTktqyA;
-        "neoforge-26.1.1" = _lK6cM2CF;
-        "neoforge-26.1" = _I7vsunRv;
-        "neoforge-1.21.1" = _eGCtLWVd;
-        "neoforge-26.3" = _IDuhgfWT;
-        "fabric-1.20.1" = _KuD793tb;
-        "fabric-1.21.1" = _9m77Bkiv;
-        "fabric-26.1" = _trdDFWNL;
-        "fabric-26.1.1" = _HIpHQRuo;
-        "fabric-26.1.2" = _fzF2r7dt;
-        "fabric-26.2" = _QctDHGqS;
-        "fabric-26.3" = _f6mw81Us;
-        "forge-1.20.1" = _rADqjZC1;
-        "forge-1.21.1" = _nnXNyKys;
+        "r7Eiy8wW" = _r7Eiy8wW;
+        "5IZeqbpf" = _5IZeqbpf;
+        "NGDh9jQj" = _NGDh9jQj;
+        "bu5a5Tu4" = _bu5a5Tu4;
+        "H2UrlnzF" = _H2UrlnzF;
+        "87hqmTES" = _87hqmTES;
+        "HIQkqSVo" = _HIQkqSVo;
+        "nWhOc3t9" = _nWhOc3t9;
+        "4hcEkW0h" = _4hcEkW0h;
+        "ihhvPt6R" = _ihhvPt6R;
+        "iYNRiTpb" = _iYNRiTpb;
+        "t7CFsxiJ" = _t7CFsxiJ;
+        "y5rNljrg" = _y5rNljrg;
+        "HYdTIRqO" = _HYdTIRqO;
+        "8vsA6ZeA" = _8vsA6ZeA;
+        "neoforge-26.2" = _HYdTIRqO;
+        "neoforge-26.1.2" = _y5rNljrg;
+        "neoforge-26.1.1" = _t7CFsxiJ;
+        "neoforge-26.1" = _iYNRiTpb;
+        "neoforge-1.21.1" = _ihhvPt6R;
+        "neoforge-26.3" = _8vsA6ZeA;
+        "fabric-1.20.1" = _r7Eiy8wW;
+        "fabric-1.21.1" = _5IZeqbpf;
+        "fabric-26.1" = _NGDh9jQj;
+        "fabric-26.1.1" = _bu5a5Tu4;
+        "fabric-26.1.2" = _H2UrlnzF;
+        "fabric-26.2" = _87hqmTES;
+        "fabric-26.3" = _HIQkqSVo;
+        "forge-1.20.1" = _nWhOc3t9;
+        "forge-1.21.1" = _4hcEkW0h;
         "pkg-1.0.0" = _CRsmlbRE;
         "pkg-1.0.1" = _KuD793tb;
         "pkg-1.0.2" = _IDuhgfWT;
-        "default" = _IDuhgfWT;
+        "pkg-1.0.3" = _8vsA6ZeA;
+        "default" = _8vsA6ZeA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-party-x-waystones";

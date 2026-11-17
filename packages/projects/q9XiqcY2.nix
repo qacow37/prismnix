@@ -96,6 +96,16 @@ let
             "file" = "Pl3xMapExtras-1.5.1.jar";
             "hash" = "sha512-9IQHk2kSR4JS/jlcENX/tl+0g0wb6m3XwMfj6q0iZmtU11k4zIYJpMBG/074FslazE4+hsomfa0pF+uEaiwwkA==";
         };
+        _JuPuPtHl = {
+            "id" = "JuPuPtHl";
+            "file" = "Pl3xMapExtras-1.5.2.jar";
+            "hash" = "sha512-TUZkePrjRz0PREjTOWqXk/Ev3gDXOlsgP99jNmdLUwUtqrhH7BNtA0IyP6Law0zfa0kAjr655yzB5WzUCp5dmw==";
+        };
+        _HgIcZtJc = {
+            "id" = "HgIcZtJc";
+            "file" = "Pl3xMapExtras-26.1.2-08dee62.jar";
+            "hash" = "sha512-Ym+o0lf8b9oKJqW9lJkPlSLtr/p7U9A7h4nb70G862aOqu/7FKn3E35ajs58R6+WP5Hkr3Gn4lX3OBefVPHphw==";
+        };
     in {
         "KfwrKnEn" = _KfwrKnEn;
         "H5hIfnI9" = _H5hIfnI9;
@@ -116,6 +126,8 @@ let
         "VVeEFb9w" = _VVeEFb9w;
         "ZWztsGAo" = _ZWztsGAo;
         "MtMO6bxH" = _MtMO6bxH;
+        "JuPuPtHl" = _JuPuPtHl;
+        "HgIcZtJc" = _HgIcZtJc;
         "folia-1.21" = _KfwrKnEn;
         "folia-1.21.1" = _UU1FtYJ4;
         "folia-1.21.3" = _UU1FtYJ4;
@@ -128,8 +140,9 @@ let
         "folia-1.21.11" = _VVeEFb9w;
         "folia-26.1" = _VVeEFb9w;
         "folia-26.1.1" = _VVeEFb9w;
-        "folia-26.1.2" = _MtMO6bxH;
-        "folia-26.2" = _MtMO6bxH;
+        "folia-26.1.2" = _HgIcZtJc;
+        "folia-26.2" = _HgIcZtJc;
+        "folia-26.3" = _HgIcZtJc;
         "paper-1.21" = _KfwrKnEn;
         "paper-1.21.1" = _UU1FtYJ4;
         "paper-1.21.3" = _UU1FtYJ4;
@@ -142,8 +155,9 @@ let
         "paper-1.21.11" = _VVeEFb9w;
         "paper-26.1" = _VVeEFb9w;
         "paper-26.1.1" = _VVeEFb9w;
-        "paper-26.1.2" = _MtMO6bxH;
-        "paper-26.2" = _MtMO6bxH;
+        "paper-26.1.2" = _HgIcZtJc;
+        "paper-26.2" = _HgIcZtJc;
+        "paper-26.3" = _HgIcZtJc;
         "purpur-1.21" = _KfwrKnEn;
         "purpur-1.21.1" = _UU1FtYJ4;
         "purpur-1.21.3" = _UU1FtYJ4;
@@ -156,8 +170,9 @@ let
         "purpur-1.21.11" = _VVeEFb9w;
         "purpur-26.1" = _VVeEFb9w;
         "purpur-26.1.1" = _VVeEFb9w;
-        "purpur-26.1.2" = _MtMO6bxH;
-        "purpur-26.2" = _MtMO6bxH;
+        "purpur-26.1.2" = _HgIcZtJc;
+        "purpur-26.2" = _HgIcZtJc;
+        "purpur-26.3" = _HgIcZtJc;
         "pkg-1.0.0" = _KfwrKnEn;
         "pkg-1.1.0" = _H5hIfnI9;
         "pkg-1.1.1" = _VsxuRnU2;
@@ -177,7 +192,9 @@ let
         "pkg-1.21.11-a078685" = _VVeEFb9w;
         "pkg-1.5.0" = _ZWztsGAo;
         "pkg-1.5.1" = _MtMO6bxH;
-        "default" = _MtMO6bxH;
+        "pkg-1.5.2" = _JuPuPtHl;
+        "pkg-26.1.2-08dee62" = _HgIcZtJc;
+        "default" = _HgIcZtJc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pl3xmapextras";

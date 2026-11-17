@@ -91,6 +91,11 @@ let
             "file" = "earlystage-1.2.5.jar";
             "hash" = "sha512-NamwRDkGR65Ubh1GeFt4zJlGZGo1szcSG8CH+jR5fgfQSvPtoGkwUvriZ+H44Ec2KrUbLC8oC2PLy/BBamBMcw==";
         };
+        _eI9RSlwi = {
+            "id" = "eI9RSlwi";
+            "file" = "earlystage-1.2.6.jar";
+            "hash" = "sha512-hjLP4bFhc6jHttqyO+poEED312jVtN6v7PGhYhghifOzDvV6SUL2xCSQPsTuG+MjMYFN89oScFk49mYjcVMVVg==";
+        };
     in {
         "2RLeXZkO" = _2RLeXZkO;
         "6muWidyv" = _6muWidyv;
@@ -110,10 +115,11 @@ let
         "eIqQwEr9" = _eIqQwEr9;
         "C98pITJk" = _C98pITJk;
         "Oxu4QkCI" = _Oxu4QkCI;
+        "eI9RSlwi" = _eI9RSlwi;
         "fabric-1.19.2" = _2RLeXZkO;
         "fabric-1.20.1" = _HivO2Pxt;
         "fabric-1.21" = _L2L7XT8y;
-        "fabric-1.21.1" = _Oxu4QkCI;
+        "fabric-1.21.1" = _eI9RSlwi;
         "pkg-1.0.10" = _2RLeXZkO;
         "pkg-1.0.10+1.20.1" = _6muWidyv;
         "pkg-1.0.11+1.20.1" = _kNt4fhgB;
@@ -132,7 +138,8 @@ let
         "pkg-1.2.3+1.21.1" = _eIqQwEr9;
         "pkg-1.2.4+1.21.1" = _C98pITJk;
         "pkg-1.2.5+1.21.1" = _Oxu4QkCI;
-        "default" = _Oxu4QkCI;
+        "pkg-1.2.6+1.21.1" = _eI9RSlwi;
+        "default" = _eI9RSlwi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "earlystage";

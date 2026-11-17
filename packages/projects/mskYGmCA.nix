@@ -176,6 +176,21 @@ let
             "file" = "BlackwolfLibrary-fabric-26.3-1.4.1.jar";
             "hash" = "sha512-n6Cx17m8dIFcRrAQ6hd1YC8aC5Nvk4mVM/UqsHmTHuh7HVwRJiifc2YvaAceeoi4oQ3ZEB4QfsSfiA1DKSl2Aw==";
         };
+        _1ltUKcvz = {
+            "id" = "1ltUKcvz";
+            "file" = "BlackwolfLibrary-forge-26.2-1.4.2.jar";
+            "hash" = "sha512-MH0ef7Kn4CnvIBSM0oOI0y/vygOYsiM5IVd0VmuUac7MPi78/9/QhN/NgKOOgrgyV3HwNlxRy7zl3M0UGJpkFg==";
+        };
+        _bZzm9164 = {
+            "id" = "bZzm9164";
+            "file" = "BlackwolfLibrary-neoforge-26.2-1.4.2.jar";
+            "hash" = "sha512-mBopLaAwkY6UeK0nH0tePEKdv9t0JSKLOotLJraADzBOwpWAzKkQR9D2CIbqGYK6ODykFCxLltnIpcLoMH169w==";
+        };
+        _GMf86hWh = {
+            "id" = "GMf86hWh";
+            "file" = "BlackwolfLibrary-fabric-26.2-1.4.2.jar";
+            "hash" = "sha512-sFxMMk6YVdMKROL7gat1exqWeClbUTbOLqAt1MyUIfXlECuMsbEdFm29sb0J2LbsGzSEoibOu7ojuMwatOkjzA==";
+        };
     in {
         "TTEvKJbS" = _TTEvKJbS;
         "Fh4Ty5pi" = _Fh4Ty5pi;
@@ -212,6 +227,9 @@ let
         "z17kLLlQ" = _z17kLLlQ;
         "PWXDT48q" = _PWXDT48q;
         "fz5BSb8s" = _fz5BSb8s;
+        "1ltUKcvz" = _1ltUKcvz;
+        "bZzm9164" = _bZzm9164;
+        "GMf86hWh" = _GMf86hWh;
         "forge-1.20.1" = _TTEvKJbS;
         "forge-1.20.4" = _StJubViC;
         "forge-1.21" = _PcRSqS1b;
@@ -222,6 +240,7 @@ let
         "forge-1.21.11" = _kan20TYT;
         "forge-26.1.2" = _bubm2V7H;
         "forge-26.3" = _z17kLLlQ;
+        "forge-26.2" = _1ltUKcvz;
         "fabric-1.20.1" = _Fh4Ty5pi;
         "fabric-1.20.2" = _GVl5Rf0c;
         "fabric-1.20.4" = _m6cs3G6R;
@@ -233,6 +252,7 @@ let
         "fabric-1.21.11" = _e3Y01Gs9;
         "fabric-26.1.2" = _8cJPGUHp;
         "fabric-26.3" = _fz5BSb8s;
+        "fabric-26.2" = _GMf86hWh;
         "neoforge-1.20.4" = _ppjvchEg;
         "neoforge-1.21" = _UwNNdpUK;
         "neoforge-1.21.1" = _psMIt0MG;
@@ -241,6 +261,7 @@ let
         "neoforge-1.21.11" = _BRbnRLvY;
         "neoforge-26.1.2" = _lYP0tpkx;
         "neoforge-26.3" = _PWXDT48q;
+        "neoforge-26.2" = _bZzm9164;
         "pkg-1.0.2" = _TTEvKJbS;
         "pkg-1.0.4" = _Fh4Ty5pi;
         "pkg-1.0.5" = _StJubViC;
@@ -267,7 +288,10 @@ let
         "pkg-1.4.1-Forge" = _z17kLLlQ;
         "pkg-1.4.1-NeoForge" = _PWXDT48q;
         "pkg-1.4.1-Fabric" = _fz5BSb8s;
-        "default" = _fz5BSb8s;
+        "pkg-1.4.2-Forge" = _1ltUKcvz;
+        "pkg-1.4.2-NeoForge" = _bZzm9164;
+        "pkg-1.4.2-Fabric" = _GMf86hWh;
+        "default" = _GMf86hWh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blackwolf-library";

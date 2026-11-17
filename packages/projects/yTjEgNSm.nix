@@ -251,6 +251,51 @@ let
             "file" = "wavify-1.2.1-26.3-fabric.jar";
             "hash" = "sha512-t58P/5qOxIVyy8N889qk8Cr6pe9yEovxc8yChf8ulLxU3q4e6m8H1TQ4Z5FaW/JE82I8CJDxEJJNYl+BriT7ug==";
         };
+        _VoGxEGxZ = {
+            "id" = "VoGxEGxZ";
+            "file" = "wavify-1.5.0-1.20.1-fab.jar";
+            "hash" = "sha512-Nthpfw9+ZjgFA0oCYct5Rloaov+fY8jwwc4C3kqscrecGIMD4FzBASkwLdGEjWhtKR44eSjvacvbF5OOk8m/1A==";
+        };
+        _laA5j2lX = {
+            "id" = "laA5j2lX";
+            "file" = "wavify-1.5.0-1.20.1-forge.jar";
+            "hash" = "sha512-bEUv8niIY9h+5849nTmsUssFa/GZuVFJkC5cG7nNy5muTVsJzcj80w1Q2lio1Lvn4lLKfHSaYh08u11gOskm1w==";
+        };
+        _ItglJmoU = {
+            "id" = "ItglJmoU";
+            "file" = "wavify-1.5.0-1.21.1.jar";
+            "hash" = "sha512-p0fcfuDiUJ9laqFjA1sM46nh9jYYhpDc8hMtcbMCLH6ASTkalYDNB4s9AP7lbGWlYF2Edve4sKpwBxaVYPSk3Q==";
+        };
+        _K2vDjnTn = {
+            "id" = "K2vDjnTn";
+            "file" = "wavify-1.5.0-1.21.1-neo.jar";
+            "hash" = "sha512-rF/FiPHWRGa68aPhq7oBChbHTiv7CMduR4R0SlUVkTKXkfCXilyzcwDCuFD9ijRUnOLQRP/K/7/IEEsCnxkdUA==";
+        };
+        _MCGUgaFv = {
+            "id" = "MCGUgaFv";
+            "file" = "wavify-1.5.0-1.21.11.jar";
+            "hash" = "sha512-01d7aQYZoaU5bayMDM3M80fcY8vMnvMYGukp/Me3+O8OH2tNzb0P9zSMu5u26Y/j8JUIishhlqx9X/MCvtcMTQ==";
+        };
+        _Btzys85H = {
+            "id" = "Btzys85H";
+            "file" = "wavify-1.5.0-1.21.11-neo.jar";
+            "hash" = "sha512-F7PvQcrOP+td8hJqhxhoZYphC/mXxYFurt/20UZ6DBsmklVRYxYtKOlyfz6QnAnQpCbiEbysMFi8SUNAHflSOA==";
+        };
+        _qSJs9Irc = {
+            "id" = "qSJs9Irc";
+            "file" = "wavify-1.5.0-26.2-fab.jar";
+            "hash" = "sha512-bHbIm6ilKoOGejrPwd7hZVifCW6uvVWX+ibxyZ/7IUofrK2s0hDdSHfZZqQZtrrXz4H5p/d1cyYz06ozkDKCOw==";
+        };
+        _EzTT3BRx = {
+            "id" = "EzTT3BRx";
+            "file" = "wavify-1.5.0-26.2-neo.jar";
+            "hash" = "sha512-7vUyqqf2ZSriCxUl0htlb4cloKX/7e2TN97Bq+xOeB6nbUsEJPG2Qpui6Vhj2wVaHbMnATOFWb68U3ubLJSyjw==";
+        };
+        _HSmR8XbP = {
+            "id" = "HSmR8XbP";
+            "file" = "wavify-1.5.0-26.3-fab.jar";
+            "hash" = "sha512-mMoXoKthf76/bl1xA8us1NjbaddG68eISklx8eYL1v+L++bP31fHUvM1U/1Osp4su5z7cfxC9DpNx3SMqK/GuA==";
+        };
     in {
         "4buaGnEn" = _4buaGnEn;
         "NoYzQQPU" = _NoYzQQPU;
@@ -302,17 +347,26 @@ let
         "h56wHM4K" = _h56wHM4K;
         "vUOWmz3p" = _vUOWmz3p;
         "RRkgSD0e" = _RRkgSD0e;
+        "VoGxEGxZ" = _VoGxEGxZ;
+        "laA5j2lX" = _laA5j2lX;
+        "ItglJmoU" = _ItglJmoU;
+        "K2vDjnTn" = _K2vDjnTn;
+        "MCGUgaFv" = _MCGUgaFv;
+        "Btzys85H" = _Btzys85H;
+        "qSJs9Irc" = _qSJs9Irc;
+        "EzTT3BRx" = _EzTT3BRx;
+        "HSmR8XbP" = _HSmR8XbP;
         "fabric-26.1.2" = _xcnCae7h;
-        "fabric-1.21.11" = _h56wHM4K;
-        "fabric-1.21.1" = _VouKAeJg;
-        "fabric-26.2" = _Qm46P5WS;
-        "fabric-1.20.1" = _OtAUPw4p;
-        "fabric-26.3" = _RRkgSD0e;
+        "fabric-1.21.11" = _MCGUgaFv;
+        "fabric-1.21.1" = _ItglJmoU;
+        "fabric-26.2" = _qSJs9Irc;
+        "fabric-1.20.1" = _VoGxEGxZ;
+        "fabric-26.3" = _HSmR8XbP;
         "neoforge-26.1.2" = _mM4irAlF;
-        "neoforge-1.21.11" = _vUOWmz3p;
-        "neoforge-1.21.1" = _aOScm14J;
-        "neoforge-26.2" = _KlLDVMRB;
-        "forge-1.20.1" = _EfmebAR3;
+        "neoforge-1.21.11" = _Btzys85H;
+        "neoforge-1.21.1" = _K2vDjnTn;
+        "neoforge-26.2" = _EzTT3BRx;
+        "forge-1.20.1" = _laA5j2lX;
         "pkg-1.0.0" = _4buaGnEn;
         "pkg-1.0.1" = _NoYzQQPU;
         "pkg-1.0.2" = _Dnt29iLs;
@@ -322,7 +376,8 @@ let
         "pkg-1.1.2" = _ZHdG0pD6;
         "pkg-1.2.0" = _NykbcMGw;
         "pkg-1.2.1" = _RRkgSD0e;
-        "default" = _RRkgSD0e;
+        "pkg-1.5.0" = _HSmR8XbP;
+        "default" = _HSmR8XbP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wavify";

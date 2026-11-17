@@ -126,6 +126,16 @@ let
             "file" = "carpetscore-fabric-26.2-1.3.2.jar";
             "hash" = "sha512-NzatqUkn6Ge059btrCg68rVzJWdqrwC/n9UVRXMVL6fH1IQynil1jB6+udKPeqe3zhv+MPs/sOvcA2p6b9xa9A==";
         };
+        _lIimxlcF = {
+            "id" = "lIimxlcF";
+            "file" = "carpetscore-fabric-1.20.1-1.1.0.jar";
+            "hash" = "sha512-vke/Xta27at4ifqCobMAMsU9ICzqAOlfEbdF4LR1uDt1tT1W1wDOgzCi7Y1uC1X9a4cskyljk3RavbtNJiy1Cg==";
+        };
+        _neyTlK3b = {
+            "id" = "neyTlK3b";
+            "file" = "carpetscore-forge-1.20.1-1.1.0.jar";
+            "hash" = "sha512-qO9U+yTBulqcIHZn7f0sirCn8USdfA18GGFMDiJk5syKG84gatql7YRDQ6ZzAP6ZMZMekyhG7VngwYy16d7Vrw==";
+        };
     in {
         "uBBF58yl" = _uBBF58yl;
         "rsVF4qE0" = _rsVF4qE0;
@@ -152,6 +162,8 @@ let
         "FbWGlIXM" = _FbWGlIXM;
         "kqBXplAc" = _kqBXplAc;
         "hotwFZkt" = _hotwFZkt;
+        "lIimxlcF" = _lIimxlcF;
+        "neyTlK3b" = _neyTlK3b;
         "neoforge-1.21.3" = _uBBF58yl;
         "neoforge-1.21.1" = _daYgrZ9c;
         "neoforge-1.20.6" = _BOWkVZ91;
@@ -168,7 +180,7 @@ let
         "fabric-1.21.1" = _90AUuOqU;
         "fabric-1.20.6" = _3cZMW8p9;
         "fabric-1.20.4" = _x2SCq0If;
-        "fabric-1.20.1" = _fCvGbATC;
+        "fabric-1.20.1" = _lIimxlcF;
         "fabric-26.3" = _ZHNwF3ad;
         "fabric-26.1.2" = _HkuwXI0F;
         "fabric-26.2" = _hotwFZkt;
@@ -177,7 +189,7 @@ let
         "quilt-1.20.6" = _3cZMW8p9;
         "quilt-1.20.4" = _x2SCq0If;
         "quilt-1.20.1" = _fCvGbATC;
-        "forge-1.20.1" = _so3GtC1T;
+        "forge-1.20.1" = _neyTlK3b;
         "pkg-1.0.0" = _l4XrbU5m;
         "pkg-1.1.0" = _dCOXkw1N;
         "pkg-1.2.0" = _Wie5x1OQ;
@@ -192,7 +204,9 @@ let
         "pkg-26.2-1.3.1-neoforge" = _FbWGlIXM;
         "pkg-26.2-1.3.2-neoforge" = _kqBXplAc;
         "pkg-26.2-1.3.2-fabric" = _hotwFZkt;
-        "default" = _hotwFZkt;
+        "pkg-1.20.1-1.1.0-fabric" = _lIimxlcF;
+        "pkg-1.20.1-1.1.0-forge" = _neyTlK3b;
+        "default" = _neyTlK3b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpets-core";

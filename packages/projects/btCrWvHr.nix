@@ -376,6 +376,21 @@ let
             "file" = "enderscape-fabric-3.0.5+mc26.3.jar";
             "hash" = "sha512-ZUMH51giIKXYM5U1NKppR+7LoNDiwR6VoUzg1r5posGdCMdbhgAOGZ3ET8+sXaiAVWxzskMYISkl5Tfa1gdZUw==";
         };
+        _4fXlD8Zp = {
+            "id" = "4fXlD8Zp";
+            "file" = "enderscape-fabric-3.0.6+mc26.1.2.jar";
+            "hash" = "sha512-mJdEPFTX1dQsZ8wNtSDQulb8RhglyC+0OP6u8ECHNmBac6+3keK7gN2uHu/Lhx/Bb7HmxtRBynLzNOduYS7mlA==";
+        };
+        _D3G0MA8K = {
+            "id" = "D3G0MA8K";
+            "file" = "enderscape-fabric-3.0.6+mc26.2.jar";
+            "hash" = "sha512-aGDQnjEb+H2moQayR7ZklmhNcOYVqBG+NGBi8Q4AFIw4rSE4tiDJU1yFGqEx5E9loWkwwC6SevQ0/koJwauctQ==";
+        };
+        _hXjjI2M9 = {
+            "id" = "hXjjI2M9";
+            "file" = "enderscape-fabric-3.0.6+mc26.3.jar";
+            "hash" = "sha512-w+Vf8qnk/kC/BE2PPE8Kr4t4KCRs+uc5lNLRRmB6hEbjSbHnWUepqe2bTKeK9W1jmk3JAuS+y0nCb2gt2/22kw==";
+        };
     in {
         "fYwKzoeM" = _fYwKzoeM;
         "umNWD7Iq" = _umNWD7Iq;
@@ -452,6 +467,9 @@ let
         "fEHy7K3w" = _fEHy7K3w;
         "MBQNejSn" = _MBQNejSn;
         "1VZBnRYm" = _1VZBnRYm;
+        "4fXlD8Zp" = _4fXlD8Zp;
+        "D3G0MA8K" = _D3G0MA8K;
+        "hXjjI2M9" = _hXjjI2M9;
         "fabric-1.17" = _AAzKtpHL;
         "fabric-1.17.1" = _AAzKtpHL;
         "fabric-1.18.2" = _DtwVbgrW;
@@ -469,9 +487,9 @@ let
         "fabric-1.21.11" = _3cYKvu3m;
         "fabric-26.1" = _N7HhWOxJ;
         "fabric-26.1.1" = _N7HhWOxJ;
-        "fabric-26.1.2" = _rwSOFSbW;
-        "fabric-26.2" = _g1hBr7BS;
-        "fabric-26.3" = _1VZBnRYm;
+        "fabric-26.1.2" = _4fXlD8Zp;
+        "fabric-26.2" = _D3G0MA8K;
+        "fabric-26.3" = _hXjjI2M9;
         "neoforge-1.21.1" = _K3Vz3uXn;
         "pkg-0.1.0" = _fYwKzoeM;
         "pkg-0.1.1" = _umNWD7Iq;
@@ -517,7 +535,10 @@ let
         "pkg-3.0.3+mc26.3" = _fEHy7K3w;
         "pkg-3.0.4+mc26.3" = _MBQNejSn;
         "pkg-3.0.5+mc26.3" = _1VZBnRYm;
-        "default" = _1VZBnRYm;
+        "pkg-3.0.6+mc26.1.2" = _4fXlD8Zp;
+        "pkg-3.0.6+mc26.2" = _D3G0MA8K;
+        "pkg-3.0.6+mc26.3" = _hXjjI2M9;
+        "default" = _hXjjI2M9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderscape";

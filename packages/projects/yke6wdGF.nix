@@ -371,6 +371,11 @@ let
             "file" = "tweakerge-0.5.0+mc26.2-sources.jar";
             "hash" = "sha512-v4YVO4TD7iWBUSq1jms2wmHDD3VigO3UbCmqx7Blp7ZqtQzcQbLQ73eSsE2CiOaW1NRGHMj2dkygvOy76fWL9A==";
         };
+        _lILIDu2O = {
+            "id" = "lILIDu2O";
+            "file" = "tweakerge-0.4.1+mc1.21.11.jar";
+            "hash" = "sha512-fH72BqwnL6gZyVX8QOPyXK5puwfrBIjtq+Usl5rR5KlHdKOoH4ZO1CBO6VXqT0U3UbBqBu6buLK8G17pMNQr/w==";
+        };
     in {
         "lLhxTFVo" = _lLhxTFVo;
         "vd1yS983" = _vd1yS983;
@@ -446,6 +451,7 @@ let
         "701i2Xre" = _701i2Xre;
         "6c6JSTz9" = _6c6JSTz9;
         "AUrvQo3i" = _AUrvQo3i;
+        "lILIDu2O" = _lILIDu2O;
         "forge-1.16.5" = _37qttlay;
         "forge-1.17" = _vd1yS983;
         "forge-1.17.1" = _vd1yS983;
@@ -477,7 +483,7 @@ let
         "neoforge-1.21.6" = _NfmzCYPJ;
         "neoforge-1.21.9" = _IUunIvpL;
         "neoforge-1.21.10" = _IUunIvpL;
-        "neoforge-1.21.11" = _eAPlHXt8;
+        "neoforge-1.21.11" = _lILIDu2O;
         "neoforge-26.1" = _6c6JSTz9;
         "neoforge-26.1.1" = _6c6JSTz9;
         "neoforge-26.1.2" = _6c6JSTz9;
@@ -556,7 +562,8 @@ let
         "pkg-0.4.3+mc1.21.1" = _701i2Xre;
         "pkg-0.5.0+mc26.1.2" = _6c6JSTz9;
         "pkg-0.5.0+mc26.2" = _AUrvQo3i;
-        "default" = _AUrvQo3i;
+        "pkg-0.4.1+mc1.21.11" = _lILIDu2O;
+        "default" = _lILIDu2O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tweakerge";

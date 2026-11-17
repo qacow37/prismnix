@@ -271,6 +271,11 @@ let
             "file" = "minecells-2.0.3.jar";
             "hash" = "sha512-vlvvXabXoiJV52WJ6oHTBzYOrGIcZ/QHAkfwyOd3wKXHzZBYfNBv/IO8chiTtukRBwfezxLxbPtUumfvprNelQ==";
         };
+        _Xd8BLi8C = {
+            "id" = "Xd8BLi8C";
+            "file" = "minecells-2.0.4.jar";
+            "hash" = "sha512-26NzCn23QzOVekZkiPkEpbugw7zBDeujgng2607twtYM5P43fZKIUQjZ5OxerosYrB07eau8eSIFQXeVAaD8qw==";
+        };
     in {
         "oQOdGiSi" = _oQOdGiSi;
         "4O4b5z1l" = _4O4b5z1l;
@@ -326,12 +331,13 @@ let
         "S945PczU" = _S945PczU;
         "Dqo01lYo" = _Dqo01lYo;
         "fFPxpM1K" = _fFPxpM1K;
+        "Xd8BLi8C" = _Xd8BLi8C;
         "fabric-1.18.2" = _HCE3ITXZ;
         "fabric-1.19" = _osYkmOEl;
         "fabric-1.19.2" = _uzuDpb4W;
         "fabric-1.20.1" = _a0CPJveH;
         "fabric-1.20" = _3p3YbCg4;
-        "fabric-1.21.1" = _fFPxpM1K;
+        "fabric-1.21.1" = _Xd8BLi8C;
         "quilt-1.20.1" = _1Vbpo4ux;
         "pkg-0.1.0" = _oQOdGiSi;
         "pkg-0.2.0" = _4O4b5z1l;
@@ -386,7 +392,8 @@ let
         "pkg-2.0.1" = _S945PczU;
         "pkg-2.0.2" = _Dqo01lYo;
         "pkg-2.0.3" = _fFPxpM1K;
-        "default" = _fFPxpM1K;
+        "pkg-2.0.4" = _Xd8BLi8C;
+        "default" = _Xd8BLi8C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecells";

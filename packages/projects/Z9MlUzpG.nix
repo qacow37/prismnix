@@ -21,12 +21,18 @@ let
             "file" = "blackgoldalliance-1.20.1-1.0.2.1.jar";
             "hash" = "sha512-teIcTFkrGN0TLjYwa+tQMlqekJQNl6wYJWEtM0d+TKvOHcojmDRR9kmE41K0a8kCffWTBo100uSf1L6g+DnpIQ==";
         };
+        _dLfQPtDL = {
+            "id" = "dLfQPtDL";
+            "file" = "blackgoldalliance-1.20.1-1.0.4.jar";
+            "hash" = "sha512-gBuyQs3cKSDmCQNfD+fF4zitVzvGGu4tbiAApV/ymf52EWm8BcbCXJD/5I36levvpG1gxg8gSP6fGqd5hb8WzA==";
+        };
     in {
         "3ZvqLdaw" = _3ZvqLdaw;
         "Czff2WHW" = _Czff2WHW;
         "cm4etF5I" = _cm4etF5I;
         "jjRgBbrM" = _jjRgBbrM;
-        "forge-1.20.1" = _jjRgBbrM;
+        "dLfQPtDL" = _dLfQPtDL;
+        "forge-1.20.1" = _dLfQPtDL;
         "forge-1.20.2" = _Czff2WHW;
         "forge-1.20.3" = _Czff2WHW;
         "forge-1.20.4" = _Czff2WHW;
@@ -36,7 +42,8 @@ let
         "pkg-1.0.1" = _Czff2WHW;
         "pkg-1.0.2" = _cm4etF5I;
         "pkg-1.0.2.1" = _jjRgBbrM;
-        "default" = _jjRgBbrM;
+        "pkg-1.0.4" = _dLfQPtDL;
+        "default" = _dLfQPtDL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "black-gold-alliance";
